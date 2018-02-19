@@ -62,6 +62,14 @@ class Trainer():
         self.X_test = None
         self.y_test = None
 
+    def reload_corpus(self, regexp):
+        """
+        Reload a corpus using a regexp for fileids
+        :param regexp:
+        :return:
+        """
+        pass
+    
 
     def split(self, test_perc=0.2):
         """
@@ -96,7 +104,7 @@ class Trainer():
 
         if self.test:
             test_ext = InstanceFeatureExtractor(self.test, self.dictionaries)
-            self.X_test = ext.extract_features(templ)
+            self.X_test = test_ext.extract_features(templ)
             self.y_test = [sent2simplifiedlabel(s) for s in self.test]
 
 
@@ -128,6 +136,8 @@ class Trainer():
         eval["F1_class"] = metrics.flat_classification_report(self.y_test, y_pred, labels=sorted_labels, digits=3)
         eval["Top_likely_transitions"] = return_transitions(Counter(self.crf.transition_features_).most_common(20))
         eval["Top_unlikely_transitions"] = return_transitions(Counter(self.crf.transition_features_).most_common()[-20:])
+
+        return eval
 
 
     def write_model(self, outfile):

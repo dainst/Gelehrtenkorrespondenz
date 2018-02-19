@@ -1,26 +1,39 @@
-#!/usr/local/share/.virtualenvs/nlppy3/bin/python
+#!/Users/fmambrini/anaconda/envs/pub/bin/python
 
-"""Use this script to download and add the relevant annotated files
+"""
+Use this script to download and add the relevant annotated files
 that are stored in Webanno. Downloaded training data will to the the
 selected output directory.
 
 Usage:
-    getTrainingFromWebanno.py <config-file>
+    getTrainingFromWebanno.py -p PASSWORD -s STAGE <config-file>
+
+Options:
+    -p PASSWORD --password=PASSWORD  Password for Webanno
+    -s STAGE --stage=STAGE   Stage of annotation
+
 """
 
 
 import os
-from pywebanno import get
+import pywebanno
 from docopt import docopt
 from collections import defaultdict, namedtuple, OrderedDict
 import json
+import logging
 
 arguments = docopt(__doc__)
 with open(arguments["<config-file>"]) as f:
     j = json.load(f)
-out_dir = j["output_directory"]
-auth = (j["user"], j["password"])
+out_dir = os.path.join(j["project_root"], j["output_directory"])
+
+user = j["user"]
+pwd = arguments["--password"]
+auth = (user,pwd)
+
 proj_id = j["webanno_project_id"]
+
+stage = arguments["--stage"]
 
 
 
@@ -155,35 +168,42 @@ def tsv2iob(lines, colmapping=['sent-tok', 'offset', 'form', 'pos', 'lemma', 'en
     return iob
 
 
-def getWebAnnoDocs(stage=2):
-    #docs = pywebanno.get_annotations()
-    docs = get.list_documents(auth, proj_id)
-    doc_ids = [d["id"] for d in docs if d["name"].split(".")[0] == str(stage)]
+def getWebAnnoDocs(stage):
+    docs = pywebanno.get.list_documents(auth, proj_id)
+    doc_ids = [d for d in docs if d["name"].split(".")[0] == str(stage)]
     return doc_ids
 
 
 def main(root=out_dir):
     listdir = os.listdir(root)
-    ids = getWebAnnoDocs()
+    ids = getWebAnnoDocs(stage)
     for d in ids:
         fname = d["name"]
         outname = getOutName(fname, root)
         if os.path.basename(outname) in listdir:
-            print("already in outdir")
             continue
-            
-        #tsv = pywebanno.getAnnotation(3, d["id"], "ctsv3")
-        tsv = pywebanno.getDocument(3, d["id"], "ctsv3")
-        if tsv.status_code == 500:
+
+        logging.info("Working with {}".format(fname))
+
+        tsv = pywebanno.get.download_document(auth, proj_id, d["id"], "ctsv3")
+        if tsv is None:
+            logging.error("Error with doc {} (id={})".format(fname, d["id"]))
             continue
+
+        cmap = ['sent-tok', 'offset', 'form', 'pos', 'lemma']
+
+        if tsv.text.split("\n")[3] == '#T_SP=webanno.custom.LetterEntity|entity_id|value':
+            cmap.extend(['entity_id', 'ne'])
+
         lines = splitInLines(tsv.text)
-        #fix IOB
+        # fix IOB
         try:
-            iob = tsv2iob(lines)
+            iob = tsv2iob(lines, colmapping=cmap)
         except ValueError:
-            print(d,fname, "dot in token num")
+            logging.error("Doc {}: Dot in token num".format(fname))
             continue
         with open(outname, "w") as out:
+            logging.info("Writing file {} to {}".format(d["id"], outname))
             for sent in iob:
                 for t in sent:
                     out.write("\t".join(t) + "\n")
@@ -196,5 +216,4 @@ def _test():
 
 
 if __name__ == "__main__":
-    args = docopt.parse_argv()
     main()
