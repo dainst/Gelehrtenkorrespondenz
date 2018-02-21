@@ -69,7 +69,7 @@ class Trainer():
         :return:
         """
         pass
-    
+
 
     def split(self, test_perc=0.2):
         """
@@ -224,6 +224,10 @@ class SentFeatureExtractor():
 class TokenFeatureExtractor():
     def __init__(self, sentence, tok_num, sentence_num, dictionaries):
         """
+        This particular token feature extractor expects the token to have the following structure:
+
+        [word, pos, lemma]
+
         :param sentence: a sentence
         :type sentence: list of tuples (token, pos, lemmas, header, ne_chunk)
         :param tok_num: the index of a token to featurize
