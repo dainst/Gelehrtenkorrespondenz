@@ -1,0 +1,299 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Berlin, Mai 1893 ~ 7 Schnell, R., Professor Dr., München.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	Mai	NN	Mai	_	O	O	
+1-7	1893	CARD	1893	_	O	O	
+1-8	~	XY	~	_	O	O	
+1-9	7	CARD	7	_	O	O	
+1-10	Schnell	ADJD	schnell	_	O	O	
+1-11	,	$,	,	_	O	O	
+1-12	R.	NE	R.	_	O	O	
+1-13	,	$,	,	_	O	O	
+1-14	Professor	NN	Professor	_	O	O	
+1-15	Dr.	NN	Dr.	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Schoene, R., Dr., Generaldirector d. Königl.
+2-1	Schoene	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	,	$,	,	_	O	O	
+2-3	R.	NE	R.	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	Dr.	NN	Dr.	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	Generaldirector	NN	<unknown>	_	O	O	
+2-8	d.	ART	d.	_	O	O	
+2-9	Königl	NN	<unknown>	_	O	O	
+2-10	.	$.	.	_	O	O	
+
+#id=3
+#text=Museen, Berlin.
+3-1	Museen	NN	Museum	_	O	O	
+3-2	,	$,	,	_	O	O	
+3-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-4	.	$.	.	_	O	O	
+
+#id=4
+#text=Schuchardt, 0., Director Dr., Hannover.
+4-1	Schuchardt	NE	<unknown>	_	O	O	
+4-2	,	$,	,	_	O	O	
+4-3	0	CARD	@card@	_	O	O	
+4-4	.	$.	.	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	Director	NE	Director	_	O	O	
+4-7	Dr.	NN	Dr.	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	Hannover	NE	Hannover	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Schuermans, H., Premier Präsident à la Gour d'appel, Lüttich.
+5-1	Schuermans	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	,	$,	,	_	O	O	
+5-3	H.	NE	H.	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	Premier	NN	Premier	_	O	O	
+5-6	Präsident	NN	Präsident	_	O	O	
+5-7	à	FM	à	_	O	O	
+5-8	la	FM	la	_	O	O	
+5-9	Gour	NE	<unknown>	_	O	O	
+5-10	d'appel	NE	<unknown>	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	Lüttich	NN	<unknown>	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Schurman, J.G., President of Cornell University, Ithaca, (America).
+6-1	Schurman	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	,	$,	,	_	O	O	
+6-3	J.G.	NE	J.G.	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	President	NN	<unknown>	_	O	O	
+6-6	of	FM	of	_	O	O	
+6-7	Cornell	NE	Cornell	_	O	O	
+6-8	University	NE	<unknown>	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	Ithaca	NE	<unknown>	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	(	$(	(	_	O	O	
+6-13	America	NE	<unknown>	_	O	O	
+6-14	)	$(	)	_	O	O	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=Schwartz, E., Professor Dr., Rostock.
+7-1	Schwartz	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	,	$,	,	_	O	O	
+7-3	E.	NE	E.	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	Professor	NN	Professor	_	O	O	
+7-6	Dr.	NN	Dr.	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	Rostock	NE	Rostock	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=Seeley, J.R., Professor Dr., Cambridge.
+8-1	Seeley	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	,	$,	,	_	O	O	
+8-3	J.R.	NE	J.R.	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	Professor	NN	Professor	_	O	O	
+8-6	Dr.	NN	Dr.	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	Cambridge	NE	Cambridge	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=Serafini, P*, Professor Dr., Pisa.
+9-1	Serafini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	,	$,	,	_	O	O	
+9-3	P*	NN	<unknown>	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	Professor	NN	Professor	_	O	O	
+9-6	Dr.	NN	Dr.	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	Pisa	NE	Pisa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-9	.	$.	.	_	O	O	
+
+#id=10
+#text=von Simson, Reichsgerichts-Präsident a. D., Wirkl.
+10-1	von	APPR	von	_	O	O	
+10-2	Simson	NE	Simson	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-3	,	$,	,	_	O	O	
+10-4	Reichsgerichts-Präsident	NN	<unknown>	_	O	O	
+10-5	a.	APPR	a.	_	O	O	
+10-6	D.	NE	D.	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	Wirkl	NN	<unknown>	_	O	O	
+10-9	.	$.	.	_	O	O	
+
+#id=11
+#text=Geheimer Rath, Berlin.
+11-1	Geheimer	ADJA	geheim	_	O	O	
+11-2	Rath	NE	Rath	_	O	O	
+11-3	,	$,	,	_	O	O	
+11-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-5	.	$.	.	_	O	O	
+
+#id=12
+#text=von Simson, A., Justizrath, Berlin.
+12-1	von	APPR	von	_	O	O	
+12-2	Simson	NE	Simson	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-3	,	$,	,	_	O	O	
+12-4	A.	NE	A.	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	Justizrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-7	,	$,	,	_	O	O	
+12-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-9	.	$.	.	_	O	O	
+
+#id=13
+#text=Smith, A. H., British Museum, London.
+13-1	Smith	NE	Smith	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	,	$,	,	_	O	O	
+13-3	A.	NE	A.	_	O	O	
+13-4	H.	NE	H.	_	O	O	
+13-5	,	$,	,	_	O	O	
+13-6	British	NE	British	_	B-webanno.custom.LetterEntity_	B-LIT	
+13-7	Museum	NN	Museum	_	I-webanno.custom.LetterEntity_	I-LIT	
+13-8	,	$,	,	_	O	O	
+13-9	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+13-10	.	$.	.	_	O	O	
+
+#id=14
+#text=Steiner, K. Dr. Stuttgart * Sterrett, J. R. S., Professor, Amherst (Amerika), von Sybel, H., Dr., Wirkl.
+14-1	Steiner	NE	Steiner	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	,	$,	,	_	O	O	
+14-3	K.	NE	K.	_	O	O	
+14-4	Dr.	NN	Dr.	_	O	O	
+14-5	Stuttgart	NE	Stuttgart	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+14-6	*	XY	*	_	O	O	
+14-7	Sterrett	NN	<unknown>	_	O	O	
+14-8	,	$,	,	_	O	O	
+14-9	J.	NE	J.	_	O	O	
+14-10	R.	NE	R.	_	O	O	
+14-11	S.	NE	S.	_	O	O	
+14-12	,	$,	,	_	O	O	
+14-13	Professor	NN	Professor	_	O	O	
+14-14	,	$,	,	_	O	O	
+14-15	Amherst	NN	<unknown>	_	O	O	
+14-16	(	$(	(	_	O	O	
+14-17	Amerika	NE	Amerika	_	O	O	
+14-18	)	$(	)	_	O	O	
+14-19	,	$,	,	_	O	O	
+14-20	von	NE	von	_	O	O	
+14-21	Sybel	NE	<unknown>	_	O	O	
+14-22	,	$,	,	_	O	O	
+14-23	H.	NE	H.	_	O	O	
+14-24	,	$,	,	_	O	O	
+14-25	Dr.	NN	Dr.	_	O	O	
+14-26	,	$,	,	_	O	O	
+14-27	Wirkl	NN	<unknown>	_	O	O	
+14-28	.	$.	.	_	O	O	
+
+#id=15
+#text=Geh,Ob.-Reg.-Rath, Berlin.
+15-1	Geh,Ob.-Reg.-Rath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-2	,	$,	,	_	O	O	
+15-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+15-4	.	$.	.	_	O	O	
+
+#id=16
+#text=Deutsch, G.D., Dr., Bischof, Hermannstadt, Tobler, A., Professor Dr., Berlin.
+16-1	Deutsch	NN	deutsch	_	O	O	
+16-2	,	$,	,	_	O	O	
+16-3	G.D.	NE	G.D.	_	O	O	
+16-4	,	$,	,	_	O	O	
+16-5	Dr.	NN	Dr.	_	O	O	
+16-6	,	$,	,	_	O	O	
+16-7	Bischof	NN	Bischof	_	O	O	
+16-8	,	$,	,	_	O	O	
+16-9	Hermannstadt	NN	Hermannstadt	_	O	O	
+16-10	,	$,	,	_	O	O	
+16-11	Tobler	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-12	,	$,	,	_	O	O	
+16-13	A.	NE	A.	_	O	O	
+16-14	,	$,	,	_	O	O	
+16-15	Professor	NN	Professor	_	O	O	
+16-16	Dr.	NN	Dr.	_	O	O	
+16-17	,	$,	,	_	O	O	
+16-18	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+16-19	.	$.	.	_	O	O	
+
+#id=17
+#text=Treu, G. Director Dr., Dresden.
+17-1	Treu	ADJD	treu	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-2	,	$,	,	_	O	O	
+17-3	G.	NE	G.	_	O	O	
+17-4	Director	NE	Director	_	O	O	
+17-5	Dr.	NN	Dr.	_	O	O	
+17-6	,	$,	,	_	O	O	
+17-7	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+17-8	.	$.	.	_	O	O	
+
+#id=18
+#text=Unger, J., Dr., Reichsgerichtspräsident, Wirkl.
+18-1	Unger	NN	<unknown>	_	O	O	
+18-2	,	$,	,	_	O	O	
+18-3	J.	NE	J.	_	O	O	
+18-4	,	$,	,	_	O	O	
+18-5	Dr.	NN	Dr.	_	O	O	
+18-6	,	$,	,	_	O	O	
+18-7	Reichsgerichtspräsident	NN	Reichsgerichtspräsident	_	O	O	
+18-8	,	$,	,	_	O	O	
+18-9	Wirkl	NN	<unknown>	_	O	O	
+18-10	.	$.	.	_	O	O	
+
+#id=19
+#text=Geheimer Rath, Wien.
+19-1	Geheimer	ADJA	geheim	_	O	O	
+19-2	Rath	NE	Rath	_	O	O	
+19-3	,	$,	,	_	O	O	
+19-4	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+19-5	.	$.	.	_	O	O	
+
+#id=20
+#text=Usener, H., Professor Dr., Geheimrath, Bonn.
+20-1	Usener	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+20-2	,	$,	,	_	O	O	
+20-3	H.	NE	H.	_	O	O	
+20-4	,	$,	,	_	O	O	
+20-5	Professor	NN	Professor	_	O	O	
+20-6	Dr.	NN	Dr.	_	O	O	
+20-7	,	$,	,	_	O	O	
+20-8	Geheimrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+20-9	,	$,	,	_	O	O	
+20-10	Bonn	NE	Bonn	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+20-11	.	$.	.	_	O	O	
+
+#id=21
+#text=Vahlen, J., Professor Dr., Geheimrath, Berlin.
+21-1	Vahlen	NN	<unknown>	_	O	O	
+21-2	,	$,	,	_	O	O	
+21-3	J.	NE	J.	_	O	O	
+21-4	,	$,	,	_	O	O	
+21-5	Professor	NN	Professor	_	O	O	
+21-6	Dr.	NN	Dr.	_	O	O	
+21-7	,	$,	,	_	O	O	
+21-8	Geheimrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+21-9	,	$,	,	_	O	O	
+21-10	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+21-11	.	$.	.	_	O	O	
+
+#id=22
+#text=Villard, H., Rew-York.
+22-1	Villard	NE	Villard	_	O	O	
+22-2	,	$,	,	_	O	O	
+22-3	H.	NE	H.	_	O	O	
+22-4	,	$,	,	_	O	O	
+22-5	Rew-York	NE	<unknown>	_	O	O	
+22-6	.	$.	.	_	O	O	
+

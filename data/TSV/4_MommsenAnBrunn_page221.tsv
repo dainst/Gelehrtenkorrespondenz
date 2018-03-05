@@ -1,0 +1,269 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn ohne Ort/ohne Datum Visconti lettera sopra una antion argentaria Roma 1857 p. 16, 17 spricht von vier Miniaturen der Städte Rom Constand.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	O	O	
+1-4	ohne	APPR	ohne	_	O	O	
+1-5	Ort/ohne	NE	<unknown>	_	O	O	
+1-6	Datum	NN	Datum	_	O	O	
+1-7	Visconti	NN	Visconte	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-8	lettera	NE	<unknown>	_	O	O	
+1-9	sopra	NE	<unknown>	_	O	O	
+1-10	una	ADJA	<unknown>	_	O	O	
+1-11	antion	NN	<unknown>	_	O	O	
+1-12	argentaria	NE	<unknown>	_	O	O	
+1-13	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-14	1857	CARD	@card@	_	O	O	
+1-15	p.	APPR	p.	_	O	O	
+1-16	16	CARD	16	_	O	O	
+1-17	,	$,	,	_	O	O	
+1-18	17	CARD	17	_	O	O	
+1-19	spricht	VVFIN	sprechen	_	O	O	
+1-20	von	APPR	von	_	O	O	
+1-21	vier	CARD	vier	_	O	O	
+1-22	Miniaturen	NN	Miniatur	_	O	O	
+1-23	der	ART	die	_	O	O	
+1-24	Städte	NN	Stadt	_	O	O	
+1-25	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-26	Constand	NN	<unknown>	_	O	O	
+1-27	.	$.	.	_	O	O	
+
+#id=2
+#text=Trier und Alexandria, die sich in einem alten Codex des Privescius fanden und dann apoegrafi Marini Besaß .
+2-1	Trier	NE	Trier	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-2	und	KON	und	_	O	O	
+2-3	Alexandria	NE	Alexandria	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-4	,	$,	,	_	O	O	
+2-5	die	PRELS	die	_	O	O	
+2-6	sich	PRF	sich	_	O	O	
+2-7	in	APPR	in	_	O	O	
+2-8	einem	ART	eine	_	O	O	
+2-9	alten	ADJA	alt	_	O	O	
+2-10	Codex	NN	<unknown>	_	O	O	
+2-11	des	ART	die	_	O	O	
+2-12	Privescius	NN	<unknown>	_	O	O	
+2-13	fanden	VVFIN	finden	_	O	O	
+2-14	und	KON	und	_	O	O	
+2-15	dann	ADV	dann	_	O	O	
+2-16	apoegrafi	NE	<unknown>	_	O	O	
+2-17	Marini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-18	Besaß	VVFIN	besitzen	_	O	O	
+2-19	.	$.	.	_	O	O	
+
+#id=3
+#text=Diese müßten in den lettere di Pecrascis a Girolamo Alexandro stehen, welche Marini Besaß (Aroali p. 388)} sollten diese auf der Vaticana sich jetzt finden, so wünsche ich alles auf diese Handschrift Bezügliche abgeschrie-Ben, jedoch nichts von den Discussionen zwischen P. und A. über die Interpetation des Kalenders.
+3-1	Diese	PDS	diese	_	O	O	
+3-2	müßten	VMFIN	müssen	_	O	O	
+3-3	in	APPR	in	_	O	O	
+3-4	den	ART	die	_	O	O	
+3-5	lettere	ADJA	<unknown>	_	O	O	
+3-6	di	NE	di	_	O	O	
+3-7	Pecrascis	NN	<unknown>	_	O	O	
+3-8	a	FM	a	_	O	O	
+3-9	Girolamo	NE	Girolamo	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-10	Alexandro	NE	Alexandro	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-11	stehen	VVINF	stehen	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	welche	PRELS	welche	_	O	O	
+3-14	Marini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-15	Besaß	VVFIN	besitzen	_	O	O	
+3-16	(	$(	(	_	O	O	
+3-17	Aroali	NN	<unknown>	_	O	O	
+3-18	p.	APPR	p.	_	O	O	
+3-19	388	CARD	@card@	_	O	O	
+3-20	)	$(	)	_	O	O	
+3-21	}	$(	}	_	O	O	
+3-22	sollten	VMFIN	sollen	_	O	O	
+3-23	diese	PDS	diese	_	O	O	
+3-24	auf	APPR	auf	_	O	O	
+3-25	der	ART	die	_	O	O	
+3-26	Vaticana	NN	<unknown>	_	O	O	
+3-27	sich	PRF	sich	_	O	O	
+3-28	jetzt	ADV	jetzt	_	O	O	
+3-29	finden	VVINF	finden	_	O	O	
+3-30	,	$,	,	_	O	O	
+3-31	so	ADV	so	_	O	O	
+3-32	wünsche	VVFIN	wünschen	_	O	O	
+3-33	ich	PPER	ich	_	O	O	
+3-34	alles	PIS	alle	_	O	O	
+3-35	auf	APPR	auf	_	O	O	
+3-36	diese	PDAT	dies	_	O	O	
+3-37	Handschrift	NN	Handschrift	_	O	O	
+3-38	Bezügliche	NN	<unknown>	_	O	O	
+3-39	abgeschrie-Ben	VVPP	<unknown>	_	O	O	
+3-40	,	$,	,	_	O	O	
+3-41	jedoch	ADV	jedoch	_	O	O	
+3-42	nichts	PIS	nichts	_	O	O	
+3-43	von	APPR	von	_	O	O	
+3-44	den	ART	die	_	O	O	
+3-45	Discussionen	NN	<unknown>	_	O	O	
+3-46	zwischen	APPR	zwischen	_	O	O	
+3-47	P.	NE	P.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-48	und	KON	und	_	O	O	
+3-49	A.	NE	A.	_	O	O	
+3-50	über	APPR	über	_	O	O	
+3-51	die	ART	die	_	O	O	
+3-52	Interpetation	NN	<unknown>	_	O	O	
+3-53	des	ART	die	_	O	O	
+3-54	Kalenders	NN	Kalender	_	O	O	
+3-55	.	$.	.	_	O	O	
+
+#id=4
+#text=ery Prof. Peters fin Hamburg Beschäftigt sich mit dem Acthicus, wovon ein vollständiger Text als die Ausgabe, ihn haben in Vat. 3864 p. 746 enthalten sein soll.
+4-1	ery	NE	<unknown>	_	O	O	
+4-2	Prof.	NN	Prof.	_	O	O	
+4-3	Peters	NN	<unknown>	_	O	O	
+4-4	fin	VVFIN	<unknown>	_	O	O	
+4-5	Hamburg	NE	Hamburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-6	Beschäftigt	VVFIN	beschäftigen	_	O	O	
+4-7	sich	PRF	sich	_	O	O	
+4-8	mit	APPR	mit	_	O	O	
+4-9	dem	ART	die	_	O	O	
+4-10	Acthicus	NN	<unknown>	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	wovon	PWAV	wovon	_	O	O	
+4-13	ein	ART	eine	_	O	O	
+4-14	vollständiger	ADJA	vollständig	_	O	O	
+4-15	Text	NN	Text	_	O	O	
+4-16	als	KOKOM	als	_	O	O	
+4-17	die	ART	die	_	O	O	
+4-18	Ausgabe	NN	Ausgabe	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	ihn	PPER	er	_	O	O	
+4-21	haben	VAFIN	haben	_	O	O	
+4-22	in	APPR	in	_	O	O	
+4-23	Vat	NN	<unknown>	_	O	O	
+4-24	.	$.	.	_	O	O	
+4-25	3864	CARD	@card@	_	O	O	
+4-26	p.	APPR	p.	_	O	O	
+4-27	746	CARD	@card@	_	O	O	
+4-28	enthalten	VVPP	enthalten	_	O	O	
+4-29	sein	VAINF	sein	_	O	O	
+4-30	soll	VMFIN	sollen	_	O	O	
+4-31	.	$.	.	_	O	O	
+
+#id=5
+#text=Er Bittet vorläufig um eine kurze Designation und Probecollation (oder vielmehr Abschrift) und Besonders um die Angabe, was die Collation kosten wird.
+5-1	Er	PPER	er	_	O	O	
+5-2	Bittet	VVFIN	bitten	_	O	O	
+5-3	vorläufig	ADJD	vorläufig	_	O	O	
+5-4	um	APPR	um	_	O	O	
+5-5	eine	ART	eine	_	O	O	
+5-6	kurze	ADJA	kurz	_	O	O	
+5-7	Designation	NN	Designation	_	O	O	
+5-8	und	KON	und	_	O	O	
+5-9	Probecollation	NN	<unknown>	_	O	O	
+5-10	(	$(	(	_	O	O	
+5-11	oder	KON	oder	_	O	O	
+5-12	vielmehr	ADV	vielmehr	_	O	O	
+5-13	Abschrift	NN	Abschrift	_	O	O	
+5-14	)	$(	)	_	O	O	
+5-15	und	KON	und	_	O	O	
+5-16	Besonders	ADV	besonders	_	O	O	
+5-17	um	APPR	um	_	O	O	
+5-18	die	ART	die	_	O	O	
+5-19	Angabe	NN	Angabe	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	was	PRELS	was	_	O	O	
+5-22	die	ART	die	_	O	O	
+5-23	Collation	NN	<unknown>	_	O	O	
+5-24	kosten	VVINF	kosten	_	O	O	
+5-25	wird	VAFIN	werden	_	O	O	
+5-26	.	$.	.	_	O	O	
+
+#id=6
+#text=Du machst doch solche Arbeiten auf Verlangen gegen Bezahlung ?
+6-1	Du	PPER	du	_	O	O	
+6-2	machst	VVFIN	machen	_	O	O	
+6-3	doch	ADV	doch	_	O	O	
+6-4	solche	PIAT	solche	_	O	O	
+6-5	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+6-6	auf	APPR	auf	_	O	O	
+6-7	Verlangen	NN	Verlangen	_	O	O	
+6-8	gegen	APPR	gegen	_	O	O	
+6-9	Bezahlung	NN	Bezahlung	_	O	O	
+6-10	?	$.	?	_	O	O	
+
+#id=7
+#text=Ich selbst Beschäftige mich mit den Schriften des i’rxrvj	Ln/j (sty.)
+7-1	Ich	PPER	ich	_	O	O	
+7-2	selbst	ADV	selbst	_	O	O	
+7-3	Beschäftige	NN	<unknown>	_	O	O	
+7-4	mich	PRF	ich	_	O	O	
+7-5	mit	APPR	mit	_	O	O	
+7-6	den	ART	die	_	O	O	
+7-7	Schriften	NN	Schrift	_	O	O	
+7-8	des	ART	die	_	O	O	
+7-9	i’rxrvj	NE	<unknown>	_	O	O	
+7-10	Ln/j	NE	<unknown>	_	O	O	
+7-11	(	$(	(	_	O	O	
+7-12	sty	NE	<unknown>	_	O	O	
+7-13	.	$.	.	_	O	O	
+7-14	)	$(	)	_	O	O	
+
+#id=8
+#text=Aure (beimjVictor und wünsche dazu einige Nachweisungen von Dir.
+8-1	Aure	NN	<unknown>	_	O	O	
+8-2	(	$(	(	_	O	O	
+8-3	beimjVictor	VVFIN	<unknown>	_	O	O	
+8-4	und	KON	und	_	O	O	
+8-5	wünsche	VVFIN	wünschen	_	O	O	
+8-6	dazu	PAV	dazu	_	O	O	
+8-7	einige	PIAT	einige	_	O	O	
+8-8	Nachweisungen	NN	<unknown>	_	O	O	
+8-9	von	APPR	von	_	O	O	
+8-10	Dir.	NN	Dir.	_	O	O	
+
+#id=9
+#text=Von zweien diesen Schriften - origo z.B. und Caesars/ - kennt man nur eine einzige (kölner) Handschrift; dafür werden sicher auch in Rom keine Hülfsmittel zu erlangen sein.
+9-1	Von	APPR	von	_	O	O	
+9-2	zweien	CARD	zwei	_	O	O	
+9-3	diesen	PDAT	dies	_	O	O	
+9-4	Schriften	NN	Schrift	_	O	O	
+9-5	-	$(	-	_	O	O	
+9-6	origo	ADJD	<unknown>	_	O	O	
+9-7	z.B.	ADV	z.B.	_	O	O	
+9-8	und	KON	und	_	O	O	
+9-9	Caesars/	NE	<unknown>	_	O	O	
+9-10	-	$(	-	_	O	O	
+9-11	kennt	VVFIN	kennen	_	O	O	
+9-12	man	PIS	man	_	O	O	
+9-13	nur	ADV	nur	_	O	O	
+9-14	eine	ART	eine	_	O	O	
+9-15	einzige	ADJA	einzig	_	O	O	
+9-16	(	$(	(	_	O	O	
+9-17	kölner	ADJA	Kölner	_	O	O	
+9-18	)	$(	)	_	O	O	
+9-19	Handschrift	NN	Handschrift	_	O	O	
+9-20	;	$.	;	_	O	O	
+9-21	dafür	PAV	dafür	_	O	O	
+9-22	werden	VAFIN	werden	_	O	O	
+9-23	sicher	ADJD	sicher	_	O	O	
+9-24	auch	ADV	auch	_	O	O	
+9-25	in	APPR	in	_	O	O	
+9-26	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-27	keine	PIAT	keine	_	O	O	
+9-28	Hülfsmittel	NN	<unknown>	_	O	O	
+9-29	zu	PTKZU	zu	_	O	O	
+9-30	erlangen	VVINF	erlangen	_	O	O	
+9-31	sein	VAINF	sein	_	O	O	
+9-32	.	$.	.	_	O	O	
+
+#id=10
+#text=Dagegen von der Epitome giebt es drei} sei so gut Dir die etwaigen
+10-1	Dagegen	PAV	dagegen	_	O	O	
+10-2	von	APPR	von	_	O	O	
+10-3	der	ART	die	_	O	O	
+10-4	Epitome	NN	<unknown>	_	O	O	
+10-5	giebt	VVFIN	<unknown>	_	O	O	
+10-6	es	PPER	es	_	O	O	
+10-7	drei	CARD	drei	_	O	O	
+10-8	}	$(	}	_	O	O	
+10-9	sei	VAFIN	sein	_	O	O	
+10-10	so	ADV	so	_	O	O	
+10-11	gut	ADJD	gut	_	O	O	
+10-12	Dir	PPER	du	_	O	O	
+10-13	die	ART	die	_	O	O	
+10-14	etwaigen	ADJA	etwaig	_	O	O	
+

@@ -1,0 +1,65 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn ohne Ort, Montag Lieber Freund.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	O	O	
+1-4	ohne	APPR	ohne	_	O	O	
+1-5	Ort	NN	Ort	_	O	O	
+1-6	,	$,	,	_	O	O	
+1-7	Montag	NN	Montag	_	O	O	
+1-8	Lieber	ADJA	lieb	_	O	O	
+1-9	Freund	NN	Freund	_	O	O	
+1-10	.	$.	.	_	O	O	
+
+#id=2
+#text=1 Ich muß heute aufs Land zu meinen Kindern} morgen früh spreche ich bei Dir vor, ehe Du ausgehst.
+2-1	1	CARD	1	_	O	O	
+2-2	Ich	PPER	ich	_	O	O	
+2-3	muß	VMFIN	müssen	_	O	O	
+2-4	heute	ADV	heute	_	O	O	
+2-5	aufs	APPRART	aufs	_	O	O	
+2-6	Land	NN	Land	_	O	O	
+2-7	zu	APPR	zu	_	O	O	
+2-8	meinen	PPOSAT	mein	_	O	O	
+2-9	Kindern	NN	Kind	_	O	O	
+2-10	}	$(	}	_	O	O	
+2-11	morgen	ADV	morgen	_	O	O	
+2-12	früh	ADJD	früh	_	O	O	
+2-13	spreche	VVFIN	sprechen	_	O	O	
+2-14	ich	PPER	ich	_	O	O	
+2-15	bei	APPR	bei	_	O	O	
+2-16	Dir	PPER	du	_	O	O	
+2-17	vor	PTKVZ	vor	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	ehe	KOUS	ehe	_	O	O	
+2-20	Du	PPER	du	_	O	O	
+2-21	ausgehst	VVFIN	ausgehen	_	O	O	
+2-22	.	$.	.	_	O	O	
+
+#id=3
+#text=Liegt das für mich bestimmte Paket und • • « • • gieb es dem Mädchen mit.
+3-1	Liegt	VVFIN	liegen	_	O	O	
+3-2	das	PDS	die	_	O	O	
+3-3	für	APPR	für	_	O	O	
+3-4	mich	PPER	ich	_	O	O	
+3-5	bestimmte	ADJA	bestimmt	_	O	O	
+3-6	Paket	NN	Paket	_	O	O	
+3-7	und	KON	und	_	O	O	
+3-8	•	NN	<unknown>	_	O	O	
+3-9	•	ADJA	<unknown>	_	O	O	
+3-10	«	NN	<unknown>	_	O	O	
+3-11	•	ADJA	<unknown>	_	O	O	
+3-12	•	NN	<unknown>	_	O	O	
+3-13	gieb	VVFIN	<unknown>	_	O	O	
+3-14	es	PPER	es	_	O	O	
+3-15	dem	ART	die	_	O	O	
+3-16	Mädchen	NN	Mädchen	_	O	O	
+3-17	mit	PTKVZ	mit	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Montag Mommsen
+4-1	Montag	NN	Montag	_	O	O	
+4-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

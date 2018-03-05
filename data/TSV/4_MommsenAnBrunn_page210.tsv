@@ -1,0 +1,306 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Berlin, Mai 1893 - 2 - Die Königliche Akademie der Wissenschaften in Berlin würde ersucht werden, weiterhin die Verwaltung dieser Mommsen-Stiftung zu übernehmen.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	Mai	NN	Mai	_	O	O	
+1-7	1893	CARD	1893	_	O	O	
+1-8	-	$(	-	_	O	O	
+1-9	2	CARD	2	_	O	O	
+1-10	-	$(	-	_	O	O	
+1-11	Die	ART	die	_	O	O	
+1-12	Königliche	ADJA	königlich	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-13	Akademie	NN	Akademie	_	I-webanno.custom.LetterEntity_	I-OBJ	
+1-14	der	ART	die	_	O	O	
+1-15	Wissenschaften	NN	Wissenschaft	_	O	O	
+1-16	in	APPR	in	_	O	O	
+1-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-18	würde	VAFIN	werden	_	O	O	
+1-19	ersucht	VVPP	ersuchen	_	O	O	
+1-20	werden	VAINF	werden	_	O	O	
+1-21	,	$,	,	_	O	O	
+1-22	weiterhin	ADV	weiterhin	_	O	O	
+1-23	die	ART	die	_	O	O	
+1-24	Verwaltung	NN	Verwaltung	_	O	O	
+1-25	dieser	PDAT	dies	_	O	O	
+1-26	Mommsen-Stiftung	NN	<unknown>	_	O	O	
+1-27	zu	PTKZU	zu	_	O	O	
+1-28	übernehmen	VVINF	übernehmen	_	O	O	
+1-29	.	$.	.	_	O	O	
+
+#id=2
+#text=Geldsendungen bitten wir an Herrn Ludwig Delbrück (i.B, Delbrück.
+2-1	Geldsendungen	NN	Geldsendung	_	O	O	
+2-2	bitten	VVFIN	bitten	_	O	O	
+2-3	wir	PPER	wir	_	O	O	
+2-4	an	APPR	an	_	O	O	
+2-5	Herrn	NN	Herr	_	O	O	
+2-6	Ludwig	NE	Ludwig	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-7	Delbrück	NE	Delbrück	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-8	(	$(	(	_	O	O	
+2-9	i.B	NE	<unknown>	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	Delbrück	NE	Delbrück	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Leo u.
+3-1	Leo	NE	Leo	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	u.	APPR	um	_	O	O	
+
+#id=4
+#text=Co.)
+4-1	Co.	NN	Co.	_	O	O	
+4-2	)	$(	)	_	O	O	
+
+#id=5
+#text=zu Berlin.
+5-1	zu	APPR	zu	_	O	O	
+5-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-3	.	$.	.	_	O	O	
+
+#id=6
+#text=Mauerstraße 61/62, briefliche Zuschriften an Herrn Professor Hirschfeld, Charlottenburg bei Berlin, Carmerstraße 3» zu richten.
+6-1	Mauerstraße	NN	Mauerstraße	_	O	O	
+6-2	61/62	CARD	@card@	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	briefliche	ADJA	brieflich	_	O	O	
+6-5	Zuschriften	NN	Zuschrift	_	O	O	
+6-6	an	APPR	an	_	O	O	
+6-7	Herrn	NN	Herr	_	O	O	
+6-8	Professor	NN	Professor	_	O	O	
+6-9	Hirschfeld	NN	Hirschfeld	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	,	$,	,	_	O	O	
+6-11	Charlottenburg	NE	Charlottenburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-12	bei	APPR	bei	_	O	O	
+6-13	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-14	,	$,	,	_	O	O	
+6-15	Carmerstraße	NN	<unknown>	_	O	O	
+6-16	3	CARD	3	_	O	O	
+6-17	»	NN	<unknown>	_	O	O	
+6-18	zu	PTKZU	zu	_	O	O	
+6-19	richten	VVINF	richten	_	O	O	
+6-20	.	$.	.	_	O	O	
+
+#id=7
+#text=Wir empfehlen unser Vorhaben der thätigen Unterstützung aller Ereunde der historischen Wissenschaften.
+7-1	Wir	PPER	wir	_	O	O	
+7-2	empfehlen	VVFIN	empfehlen	_	O	O	
+7-3	unser	PPOSAT	unser	_	O	O	
+7-4	Vorhaben	NN	Vorhaben	_	O	O	
+7-5	der	ART	die	_	O	O	
+7-6	thätigen	ADJA	<unknown>	_	O	O	
+7-7	Unterstützung	NN	Unterstützung	_	O	O	
+7-8	aller	PIAT	alle	_	O	O	
+7-9	Ereunde	NN	<unknown>	_	O	O	
+7-10	der	ART	die	_	O	O	
+7-11	historischen	ADJA	historisch	_	O	O	
+7-12	Wissenschaften	NN	Wissenschaft	_	O	O	
+7-13	.	$.	.	_	O	O	
+
+#id=8
+#text=Althoff, B., Professor Dr., Geh.
+8-1	Althoff	NE	Althoff	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	,	$,	,	_	O	O	
+8-3	B.	NE	B.	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	Professor	NN	Professor	_	O	O	
+8-6	Dr.	NN	Dr.	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	Geh	VVIMP	gehen	_	O	O	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=Ob.-Reg.-Rath, Berlin, von Arneth, A., Dr., Wirkl.
+9-1	Ob.-Reg.-Rath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	,	$,	,	_	O	O	
+9-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-4	,	$,	,	_	O	O	
+9-5	von	APPR	von	_	O	O	
+9-6	Arneth	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-7	,	$,	,	_	O	O	
+9-8	A.	NE	A.	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	Dr.	NN	Dr.	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	Wirkl	NN	<unknown>	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=Geheimer Rath, Wien.
+10-1	Geheimer	ADJA	geheim	_	O	O	
+10-2	Rath	NE	Rath	_	O	O	
+10-3	,	$,	,	_	O	O	
+10-4	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-5	.	$.	.	_	O	O	
+
+#id=11
+#text=Ascoli, G. J.,.Professor, Mailand.
+11-1	Ascoli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-2	,	$,	,	_	O	O	
+11-3	G.	NE	G.	_	O	O	
+11-4	J.,.Professor	NE	<unknown>	_	O	O	
+11-5	,	$,	,	_	O	O	
+11-6	Mailand	NE	Mailand	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-7	.	$.	.	_	O	O	
+
+#id=12
+#text=Auwers, A., Professor Dr., Geheimrath, Berlin.
+12-1	Auwers	NN	<unknown>	_	O	O	
+12-2	,	$,	,	_	O	O	
+12-3	A.	NE	A.	_	O	O	
+12-4	,	$,	,	_	O	O	
+12-5	Professor	NN	Professor	_	O	O	
+12-6	Dr.	NN	Dr.	_	O	O	
+12-7	,	$,	,	_	O	O	
+12-8	Geheimrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-9	,	$,	,	_	O	O	
+12-10	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-11	.	$.	.	_	O	O	
+
+#id=13
+#text=Bamberger, L., Dr., Mitglied des Reichstags, Berlin.
+13-1	Bamberger	NN	Bamberger	_	O	O	
+13-2	,	$,	,	_	O	O	
+13-3	L.	NE	L.	_	O	O	
+13-4	,	$,	,	_	O	O	
+13-5	Dr.	NN	Dr.	_	O	O	
+13-6	,	$,	,	_	O	O	
+13-7	Mitglied	NN	Mitglied	_	O	O	
+13-8	des	ART	die	_	O	O	
+13-9	Reichstags	NN	Reichstag	_	O	O	
+13-10	,	$,	,	_	O	O	
+13-11	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+13-12	.	$.	.	_	O	O	
+
+#id=14
+#text=Bardt, C., Director Dr,, Berlin.
+14-1	Bardt	NE	Bardt	_	O	O	
+14-2	,	$,	,	_	O	O	
+14-3	C.	NE	C.	_	O	O	
+14-4	,	$,	,	_	O	O	
+14-5	Director	NE	Director	_	O	O	
+14-6	Dr	NE	<unknown>	_	O	O	
+14-7	,	$,	,	_	O	O	
+14-8	,	$,	,	_	O	O	
+14-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+14-10	.	$.	.	_	O	O	
+
+#id=15
+#text=Bekker, I., Professor Dr., Geheimrath, Heidelberg.
+15-1	Bekker	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-2	,	$,	,	_	O	O	
+15-3	I.	NE	I.	_	O	O	
+15-4	,	$,	,	_	O	O	
+15-5	Professor	NN	Professor	_	O	O	
+15-6	Dr.	NN	Dr.	_	O	O	
+15-7	,	$,	,	_	O	O	
+15-8	Geheimrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-9	,	$,	,	_	O	O	
+15-10	Heidelberg	NE	Heidelberg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+15-11	.	$.	.	_	O	O	
+
+#id=16
+#text=Benndorf, 0., Professor Dr., Hofrath, Wien, de Berlanga, M. R., Dr., Malaga.
+16-1	Benndorf	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-2	,	$,	,	_	O	O	
+16-3	0	CARD	@card@	_	O	O	
+16-4	.	$.	.	_	O	O	
+16-5	,	$,	,	_	O	O	
+16-6	Professor	NN	Professor	_	O	O	
+16-7	Dr.	NN	Dr.	_	O	O	
+16-8	,	$,	,	_	O	O	
+16-9	Hofrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-10	,	$,	,	_	O	O	
+16-11	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+16-12	,	$,	,	_	O	O	
+16-13	de	NE	de	_	O	O	
+16-14	Berlanga	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-15	,	$,	,	_	O	O	
+16-16	M.	NE	M.	_	O	O	
+16-17	R.	NE	R.	_	O	O	
+16-18	,	$,	,	_	O	O	
+16-19	Dr.	NN	Dr.	_	O	O	
+16-20	,	$,	,	_	O	O	
+16-21	Malaga	NE	Malaga	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+16-22	.	$.	.	_	O	O	
+
+#id=17
+#text=Binding, L., Professor Dr., Geheimrath, Leipzig.
+17-1	Binding	NN	<unknown>	_	O	O	
+17-2	,	$,	,	_	O	O	
+17-3	L.	NE	L.	_	O	O	
+17-4	,	$,	,	_	O	O	
+17-5	Professor	NN	Professor	_	O	O	
+17-6	Dr.	NN	Dr.	_	O	O	
+17-7	,	$,	,	_	O	O	
+17-8	Geheimrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-9	,	$,	,	_	O	O	
+17-10	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+17-11	.	$.	.	_	O	O	
+
+#id=18
+#text=Blümer, H., Professor Dr., Zürich.
+18-1	Blümer	NN	<unknown>	_	O	O	
+18-2	,	$,	,	_	O	O	
+18-3	H.	NE	H.	_	O	O	
+18-4	,	$,	,	_	O	O	
+18-5	Professor	NN	Professor	_	O	O	
+18-6	Dr.	NN	Dr.	_	O	O	
+18-7	,	$,	,	_	O	O	
+18-8	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+18-9	.	$.	.	_	O	O	
+
+#id=19
+#text=du Bois-Reymond, E., Professor Dr., Geh.
+19-1	du	PPER	du	_	O	O	
+19-2	Bois-Reymond	NN	Bois-Reymond	_	O	O	
+19-3	,	$,	,	_	O	O	
+19-4	E.	NE	E.	_	O	O	
+19-5	,	$,	,	_	O	O	
+19-6	Professor	NN	Professor	_	O	O	
+19-7	Dr.	NN	Dr.	_	O	O	
+19-8	,	$,	,	_	O	O	
+19-9	Geh	VVIMP	gehen	_	O	O	
+19-10	.	$.	.	_	O	O	
+
+#id=20
+#text=Ob.-Med.-Rath,Berlin, Boissevain, U. Ph., Professor Dr,, Groningen, Boissier, G., Membre de 1'Académie, Paris.
+20-1	Ob.-Med.-Rath,Berlin	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+20-2	,	$,	,	_	O	O	
+20-3	Boissevain	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+20-4	,	$,	,	_	O	O	
+20-5	U.	NE	U.	_	O	O	
+20-6	Ph.	NE	Ph.	_	O	O	
+20-7	,	$,	,	_	O	O	
+20-8	Professor	NN	Professor	_	O	O	
+20-9	Dr	NE	<unknown>	_	O	O	
+20-10	,	$,	,	_	O	O	
+20-11	,	$,	,	_	O	O	
+20-12	Groningen	NN	<unknown>	_	O	O	
+20-13	,	$,	,	_	O	O	
+20-14	Boissier	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+20-15	,	$,	,	_	O	O	
+20-16	G.	NE	G.	_	O	O	
+20-17	,	$,	,	_	O	O	
+20-18	Membre	NN	<unknown>	_	O	O	
+20-19	de	NE	de	_	O	O	
+20-20	1'Académie	NN	<unknown>	_	O	O	
+20-21	,	$,	,	_	O	O	
+20-22	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+20-23	.	$.	.	_	O	O	
+
+#id=21
+#text=Bormann, E., Professor Dr., Wien
+21-1	Bormann	NE	Bormann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+21-2	,	$,	,	_	O	O	
+21-3	E.	NE	E.	_	O	O	
+21-4	,	$,	,	_	O	O	
+21-5	Professor	NN	Professor	_	O	O	
+21-6	Dr.	NN	Dr.	_	O	O	
+21-7	,	$,	,	_	O	O	
+21-8	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+

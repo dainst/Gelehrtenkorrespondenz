@@ -1,0 +1,273 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Zürich.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	.	$.	.	_	O	O	
+
+#id=2
+#text=?
+2-1	?	$.	?	_	O	O	
+
+#id=3
+#text=Dezember 1853 - 3 - phische Eintheilungsfundament zerstört; so wenig ich das Ritschl zugestehen würde für die Archaischen, so wenig gestatte ich es Rossi für die christlichen, und davon gehe ich nicht herab; Du weißt wohl, ich habe auch ein Paar Hinterbeine so gut wie Backen und sehe mich, zwar selten, aber doch ab und an drauf.
+3-1	Dezember	NN	Dezember	_	O	O	
+3-2	1853	CARD	@card@	_	O	O	
+3-3	-	$(	-	_	O	O	
+3-4	3	CARD	3	_	O	O	
+3-5	-	$(	-	_	O	O	
+3-6	phische	ADJA	<unknown>	_	O	O	
+3-7	Eintheilungsfundament	NN	<unknown>	_	O	O	
+3-8	zerstört	VVPP	zerstören	_	O	O	
+3-9	;	$.	;	_	O	O	
+3-10	so	ADV	so	_	O	O	
+3-11	wenig	ADV	wenig	_	O	O	
+3-12	ich	PPER	ich	_	O	O	
+3-13	das	ART	die	_	O	O	
+3-14	Ritschl	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-15	zugestehen	VVINF	zugestehen	_	O	O	
+3-16	würde	VAFIN	werden	_	O	O	
+3-17	für	APPR	für	_	O	O	
+3-18	die	ART	die	_	O	O	
+3-19	Archaischen	NN	Archaische	_	O	O	
+3-20	,	$,	,	_	O	O	
+3-21	so	ADV	so	_	O	O	
+3-22	wenig	PIS	wenige	_	O	O	
+3-23	gestatte	VVFIN	gestatten	_	O	O	
+3-24	ich	PPER	ich	_	O	O	
+3-25	es	PPER	es	_	O	O	
+3-26	Rossi	NE	Rossi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-27	für	APPR	für	_	O	O	
+3-28	die	ART	die	_	O	O	
+3-29	christlichen	ADJA	christlich	_	O	O	
+3-30	,	$,	,	_	O	O	
+3-31	und	KON	und	_	O	O	
+3-32	davon	PAV	davon	_	O	O	
+3-33	gehe	VVFIN	gehen	_	O	O	
+3-34	ich	PPER	ich	_	O	O	
+3-35	nicht	PTKNEG	nicht	_	O	O	
+3-36	herab	PTKVZ	herab	_	O	O	
+3-37	;	$.	;	_	O	O	
+3-38	Du	PPER	du	_	O	O	
+3-39	weißt	VVFIN	weißen	_	O	O	
+3-40	wohl	ADV	wohl	_	O	O	
+3-41	,	$,	,	_	O	O	
+3-42	ich	PPER	ich	_	O	O	
+3-43	habe	VAFIN	haben	_	O	O	
+3-44	auch	ADV	auch	_	O	O	
+3-45	ein	ART	eine	_	O	O	
+3-46	Paar	PIAT	paar	_	O	O	
+3-47	Hinterbeine	NN	Hinterbein	_	O	O	
+3-48	so	ADV	so	_	O	O	
+3-49	gut	ADJD	gut	_	O	O	
+3-50	wie	KOKOM	wie	_	O	O	
+3-51	Backen	NN	Backe|Backen	_	O	O	
+3-52	und	KON	und	_	O	O	
+3-53	sehe	VVFIN	sehen	_	O	O	
+3-54	mich	PRF	ich	_	O	O	
+3-55	,	$,	,	_	O	O	
+3-56	zwar	ADV	zwar	_	O	O	
+3-57	selten	ADJD	selten	_	O	O	
+3-58	,	$,	,	_	O	O	
+3-59	aber	KON	aber	_	O	O	
+3-60	doch	ADV	doch	_	O	O	
+3-61	ab	PTKVZ	ab	_	O	O	
+3-62	und	KON	und	_	O	O	
+3-63	an	APPR	an	_	O	O	
+3-64	drauf	PAV	drauf	_	O	O	
+3-65	.	$.	.	_	O	O	
+
+#id=4
+#text=Deine Bekanntschaft mit Helm und mehr noch mit Jahn freut mich; mein Segen ruhe auf Dir, mein Sohn und Kneipge-noße 1 Aber heute muß ich ein Puctum machen; denn es wäre doch möglich, daß Du gegen Deine Gewohnheit wirklich am 28. November nach Berlin abgezogen, und da eilt es wirklich mit meiner Sendung Deines Rapporto .
+4-1	Deine	PPOSAT	dein	_	O	O	
+4-2	Bekanntschaft	NN	Bekanntschaft	_	O	O	
+4-3	mit	APPR	mit	_	O	O	
+4-4	Helm	NN	Helm	_	O	O	
+4-5	und	KON	und	_	O	O	
+4-6	mehr	ADV	mehr	_	O	O	
+4-7	noch	ADV	noch	_	O	O	
+4-8	mit	APPR	mit	_	O	O	
+4-9	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-10	freut	VVFIN	freuen	_	O	O	
+4-11	mich	PRF	ich	_	O	O	
+4-12	;	$.	;	_	O	O	
+4-13	mein	PPOSAT	mein	_	O	O	
+4-14	Segen	NN	Segen	_	O	O	
+4-15	ruhe	VVFIN	ruhen	_	O	O	
+4-16	auf	APPR	auf	_	O	O	
+4-17	Dir	PPER	du	_	O	O	
+4-18	,	$,	,	_	O	O	
+4-19	mein	PPOSAT	mein	_	O	O	
+4-20	Sohn	NN	Sohn	_	O	O	
+4-21	und	KON	und	_	O	O	
+4-22	Kneipge-noße	NN	<unknown>	_	O	O	
+4-23	1	CARD	1	_	O	O	
+4-24	Aber	KON	aber	_	O	O	
+4-25	heute	ADV	heute	_	O	O	
+4-26	muß	VMFIN	müssen	_	O	O	
+4-27	ich	PPER	ich	_	O	O	
+4-28	ein	ART	eine	_	O	O	
+4-29	Puctum	NN	<unknown>	_	O	O	
+4-30	machen	VVINF	machen	_	O	O	
+4-31	;	$.	;	_	O	O	
+4-32	denn	KON	denn	_	O	O	
+4-33	es	PPER	es	_	O	O	
+4-34	wäre	VAFIN	sein	_	O	O	
+4-35	doch	ADV	doch	_	O	O	
+4-36	möglich	ADJD	möglich	_	O	O	
+4-37	,	$,	,	_	O	O	
+4-38	daß	KOUS	dass	_	O	O	
+4-39	Du	PPER	du	_	O	O	
+4-40	gegen	APPR	gegen	_	O	O	
+4-41	Deine	PPOSAT	dein	_	O	O	
+4-42	Gewohnheit	NN	Gewohnheit	_	O	O	
+4-43	wirklich	ADJD	wirklich	_	O	O	
+4-44	am	APPRART	an	_	O	O	
+4-45	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-46	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-47	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-48	nach	APPR	nach	_	O	O	
+4-49	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-50	abgezogen	VVPP	abziehen	_	O	O	
+4-51	,	$,	,	_	O	O	
+4-52	und	KON	und	_	O	O	
+4-53	da	ADV	da	_	O	O	
+4-54	eilt	VVFIN	eilen	_	O	O	
+4-55	es	PPER	es	_	O	O	
+4-56	wirklich	ADJD	wirklich	_	O	O	
+4-57	mit	APPR	mit	_	O	O	
+4-58	meiner	PPOSAT	mein	_	O	O	
+4-59	Sendung	NN	Sendung	_	O	O	
+4-60	Deines	PPOSAT	dein	_	O	O	
+4-61	Rapporto	NN	<unknown>	_	O	O	
+4-62	.	$.	.	_	O	O	
+
+#id=5
+#text=Schreib bald wieder.
+5-1	Schreib	VVIMP	schreiben	_	O	O	
+5-2	bald	ADV	bald	_	O	O	
+5-3	wieder	ADV	wieder	_	O	O	
+5-4	.	$.	.	_	O	O	
+
+#id=6
+#text=Ob ich zur Elegie komme, weiß ich nicht; hier ist nicht Land?.
+6-1	Ob	KOUS	ob	_	O	O	
+6-2	ich	PPER	ich	_	O	O	
+6-3	zur	APPRART	zu	_	O	O	
+6-4	Elegie	NN	Elegie	_	O	O	
+6-5	komme	VVFIN	kommen	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	weiß	VVFIN	wissen	_	O	O	
+6-8	ich	PPER	ich	_	O	O	
+6-9	nicht	PTKNEG	nicht	_	O	O	
+6-10	;	$.	;	_	O	O	
+6-11	hier	ADV	hier	_	O	O	
+6-12	ist	VAFIN	sein	_	O	O	
+6-13	nicht	PTKNEG	nicht	_	O	O	
+6-14	Land	NN	Land	_	O	O	
+6-15	?	$.	?	_	O	O	
+6-16	.	$.	.	_	O	O	
+
+#id=7
+#text=Gosen für Kneipen und Pfeifen, und darum mache ich auch nur ganz selten in halber Trunkenheit und dann auch so scheußlich ernsthafte, vielleicht auch ernsthaft scheußliche Verse wie sie umstehend zu lesen nebst einigen Henzenschen Briefauszügen, die fast machen könnten, daß ich Dir zu Weihnacht den Galgen schenkte, an den man Dich nicht gehängt hat.
+7-1	Gosen	NN	Gose	_	O	O	
+7-2	für	APPR	für	_	O	O	
+7-3	Kneipen	NN	Kneipe	_	O	O	
+7-4	und	KON	und	_	O	O	
+7-5	Pfeifen	NN	Pfeife|Pfeifen	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	und	KON	und	_	O	O	
+7-8	darum	PAV	darum	_	O	O	
+7-9	mache	VVFIN	machen	_	O	O	
+7-10	ich	PPER	ich	_	O	O	
+7-11	auch	ADV	auch	_	O	O	
+7-12	nur	ADV	nur	_	O	O	
+7-13	ganz	ADV	ganz	_	O	O	
+7-14	selten	ADJD	selten	_	O	O	
+7-15	in	APPR	in	_	O	O	
+7-16	halber	ADJA	halb	_	O	O	
+7-17	Trunkenheit	NN	Trunkenheit	_	O	O	
+7-18	und	KON	und	_	O	O	
+7-19	dann	ADV	dann	_	O	O	
+7-20	auch	ADV	auch	_	O	O	
+7-21	so	ADV	so	_	O	O	
+7-22	scheußlich	ADJD	scheußlich	_	O	O	
+7-23	ernsthafte	ADJA	ernsthaft	_	O	O	
+7-24	,	$,	,	_	O	O	
+7-25	vielleicht	ADV	vielleicht	_	O	O	
+7-26	auch	ADV	auch	_	O	O	
+7-27	ernsthaft	ADJD	ernsthaft	_	O	O	
+7-28	scheußliche	ADJA	scheußlich	_	O	O	
+7-29	Verse	NN	Vers	_	O	O	
+7-30	wie	KOKOM	wie	_	O	O	
+7-31	sie	PPER	sie	_	O	O	
+7-32	umstehend	ADJD	<unknown>	_	O	O	
+7-33	zu	PTKZU	zu	_	O	O	
+7-34	lesen	VVINF	lesen	_	O	O	
+7-35	nebst	APPR	nebst	_	O	O	
+7-36	einigen	PIAT	einige	_	O	O	
+7-37	Henzenschen	NN	<unknown>	_	O	O	
+7-38	Briefauszügen	NN	<unknown>	_	O	O	
+7-39	,	$,	,	_	O	O	
+7-40	die	PRELS	die	_	O	O	
+7-41	fast	ADV	fast	_	O	O	
+7-42	machen	VVINF	machen	_	O	O	
+7-43	könnten	VMFIN	können	_	O	O	
+7-44	,	$,	,	_	O	O	
+7-45	daß	KOUS	dass	_	O	O	
+7-46	ich	PPER	ich	_	O	O	
+7-47	Dir	PPER	du	_	O	O	
+7-48	zu	APPR	zu	_	O	O	
+7-49	Weihnacht	NN	Weihnacht	_	O	O	
+7-50	den	ART	die	_	O	O	
+7-51	Galgen	NN	Galgen	_	O	O	
+7-52	schenkte	VVFIN	schenken	_	O	O	
+7-53	,	$,	,	_	O	O	
+7-54	an	APPR	an	_	O	O	
+7-55	den	PRELS	die	_	O	O	
+7-56	man	PIS	man	_	O	O	
+7-57	Dich	PPER	du	_	O	O	
+7-58	nicht	PTKNEG	nicht	_	O	O	
+7-59	gehängt	VVPP	hängen	_	O	O	
+7-60	hat	VAFIN	haben	_	O	O	
+7-61	.	$.	.	_	O	O	
+
+#id=8
+#text=Lebewohl.
+8-1	Lebewohl	NN	Lebewohl	_	O	O	
+8-2	.	$.	.	_	O	O	
+
+#id=9
+#text=Dein Mommsen.
+9-1	Dein	PPOSAT	dein	_	O	O	
+9-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-3	.	$.	.	_	O	O	
+
+#id=10
+#text=Zürich ?
+10-1	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-2	?	$.	?	_	O	O	
+
+#id=11
+#text=Dec.
+11-1	Dec	NE	Dec	_	O	O	
+11-2	.	$.	.	_	O	O	
+
+#id=12
+#text=1853* Tycho ist in Eisenach, suche ihn auf, wenn Du kannst
+12-1	1853*	NN	<unknown>	_	O	O	
+12-2	Tycho	NE	Tycho	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-3	ist	VAFIN	sein	_	O	O	
+12-4	in	APPR	in	_	O	O	
+12-5	Eisenach	NE	Eisenach	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-6	,	$,	,	_	O	O	
+12-7	suche	VVFIN	suchen	_	O	O	
+12-8	ihn	PPER	er	_	O	O	
+12-9	auf	PTKVZ	auf	_	O	O	
+12-10	,	$,	,	_	O	O	
+12-11	wenn	KOUS	wenn	_	O	O	
+12-12	Du	PPER	du	_	O	O	
+12-13	kannst	VMFIN	können	_	O	O	
+

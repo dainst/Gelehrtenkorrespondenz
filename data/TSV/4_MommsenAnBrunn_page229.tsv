@@ -1,0 +1,227 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn ohne Ort/ohne Datum / « ~.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	O	O	
+1-4	ohne	APPR	ohne	_	O	O	
+1-5	Ort/ohne	NE	<unknown>	_	O	O	
+1-6	Datum	NN	Datum	_	O	O	
+1-7	/	$(	/	_	O	O	
+1-8	«	ADJA	<unknown>	_	O	O	
+1-9	~	XY	~	_	O	O	
+1-10	.	$.	.	_	O	O	
+
+#id=2
+#text=./.
+2-1	./	NN	<unknown>	_	O	O	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=K'So--i	'( aa Ì ,) I ‘A < < .
+3-1	K'So--i	NE	<unknown>	_	O	O	
+3-2	'	$(	'	_	O	O	
+3-3	(	$(	(	_	O	O	
+3-4	aa	NE	<unknown>	_	O	O	
+3-5	Ì	VVFIN	<unknown>	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	)	$(	)	_	O	O	
+3-8	I	FM	I	_	O	O	
+3-9	‘	ADJA	<unknown>	_	O	O	
+3-10	A	NN	A	_	O	O	
+3-11	<	$(	<	_	O	O	
+3-12	<	$(	<	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=A Halm an Mommsen^; (von welcher Hand?
+4-1	A	NN	A	_	O	O	
+4-2	Halm	NN	Halm	_	O	O	
+4-3	an	APPR	an	_	O	O	
+4-4	Mommsen^	NN	<unknown>	_	O	O	
+4-5	;	$.	;	_	O	O	
+4-6	(	$(	(	_	O	O	
+4-7	von	APPR	von	_	O	O	
+4-8	welcher	PIS	welche	_	O	O	
+4-9	Hand	NN	Hand	_	O	O	
+4-10	?	$.	?	_	O	O	
+
+#id=5
+#text=)-———————— ^ Es hat allerdings seine Dichtigkeit, daß unsere philosophische Pacultät Brunn für eine Professur der Archeologie in Vorschlag gebracht hat* Eine wirkliche Berufung steht aber noch in ferner Aussicht, da sie von zwei Umständen abhängig ist* Erstlich muß sich erst entscheiden, ob das Ministerium darauf eingehen wird eine besondere Professur für die Archäologie zu errichten.
+5-1	)-	NN	<unknown>	_	O	O	
+5-2	—	ADJA	<unknown>	_	O	O	
+5-3	—	NN	<unknown>	_	O	O	
+5-4	—	ADJA	<unknown>	_	O	O	
+5-5	—	NN	<unknown>	_	O	O	
+5-6	—	ADJA	<unknown>	_	O	O	
+5-7	—	NN	<unknown>	_	O	O	
+5-8	—	ADJA	<unknown>	_	O	O	
+5-9	—	NN	<unknown>	_	O	O	
+5-10	^	XY	^	_	O	O	
+5-11	Es	PPER	es	_	O	O	
+5-12	hat	VAFIN	haben	_	O	O	
+5-13	allerdings	ADV	allerdings	_	O	O	
+5-14	seine	PPOSAT	sein	_	O	O	
+5-15	Dichtigkeit	NN	Dichtigkeit	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	daß	KOUS	dass	_	O	O	
+5-18	unsere	PPOSAT	unser	_	O	O	
+5-19	philosophische	ADJA	philosophisch	_	O	O	
+5-20	Pacultät	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-21	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-22	für	APPR	für	_	O	O	
+5-23	eine	ART	eine	_	O	O	
+5-24	Professur	NN	Professur	_	O	O	
+5-25	der	ART	die	_	O	O	
+5-26	Archeologie	NN	<unknown>	_	O	O	
+5-27	in	APPR	in	_	O	O	
+5-28	Vorschlag	NN	Vorschlag	_	O	O	
+5-29	gebracht	VVPP	bringen	_	O	O	
+5-30	hat*	VVFIN	<unknown>	_	O	O	
+5-31	Eine	ART	eine	_	O	O	
+5-32	wirkliche	ADJA	wirklich	_	O	O	
+5-33	Berufung	NN	Berufung	_	O	O	
+5-34	steht	VVFIN	stehen	_	O	O	
+5-35	aber	ADV	aber	_	O	O	
+5-36	noch	ADV	noch	_	O	O	
+5-37	in	APPR	in	_	O	O	
+5-38	ferner	ADJA	fern	_	O	O	
+5-39	Aussicht	NN	Aussicht	_	O	O	
+5-40	,	$,	,	_	O	O	
+5-41	da	KOUS	da	_	O	O	
+5-42	sie	PPER	sie	_	O	O	
+5-43	von	APPR	von	_	O	O	
+5-44	zwei	CARD	zwei	_	O	O	
+5-45	Umständen	NN	Umstand	_	O	O	
+5-46	abhängig	ADJD	abhängig	_	O	O	
+5-47	ist*	ADJA	<unknown>	_	O	O	
+5-48	Erstlich	NN	<unknown>	_	O	O	
+5-49	muß	VMFIN	müssen	_	O	O	
+5-50	sich	PRF	sich	_	O	O	
+5-51	erst	ADV	erst	_	O	O	
+5-52	entscheiden	VVINF	entscheiden	_	O	O	
+5-53	,	$,	,	_	O	O	
+5-54	ob	KOUS	ob	_	O	O	
+5-55	das	ART	die	_	O	O	
+5-56	Ministerium	NN	Ministerium	_	O	O	
+5-57	darauf	PAV	darauf	_	O	O	
+5-58	eingehen	VVINF	eingehen	_	O	O	
+5-59	wird	VAFIN	werden	_	O	O	
+5-60	eine	ART	eine	_	O	O	
+5-61	besondere	ADJA	besonder	_	O	O	
+5-62	Professur	NN	Professur	_	O	O	
+5-63	für	APPR	für	_	O	O	
+5-64	die	ART	die	_	O	O	
+5-65	Archäologie	NN	Archäologie	_	O	O	
+5-66	zu	PTKZU	zu	_	O	O	
+5-67	errichten	VVINF	errichten	_	O	O	
+5-68	.	$.	.	_	O	O	
+
+#id=6
+#text=Der Haupthaken ist aber der finanzielle, weil der vacant gewordene Gehalt der Prof.-	durch	Ertheilung	meh- rerer Gehaltszulagen völlig absorbirt ist.
+6-1	Der	ART	die	_	O	O	
+6-2	Haupthaken	NN	<unknown>	_	O	O	
+6-3	ist	VAFIN	sein	_	O	O	
+6-4	aber	ADV	aber	_	O	O	
+6-5	der	ART	die	_	O	O	
+6-6	finanzielle	ADJA	finanziell	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	weil	KOUS	weil	_	O	O	
+6-9	der	ART	die	_	O	O	
+6-10	vacant	ADJA	<unknown>	_	O	O	
+6-11	gewordene	ADJA	geworden	_	O	O	
+6-12	Gehalt	NN	Gehalt	_	O	O	
+6-13	der	ART	die	_	O	O	
+6-14	Prof.-	NN	<unknown>	_	O	O	
+6-15	durch	APPR	durch	_	O	O	
+6-16	Ertheilung	NN	<unknown>	_	O	O	
+6-17	meh-	ADJD	<unknown>	_	O	O	
+6-18	rerer	ADJA	<unknown>	_	O	O	
+6-19	Gehaltszulagen	NN	Gehaltszulage	_	O	O	
+6-20	völlig	ADJD	völlig	_	O	O	
+6-21	absorbirt	NN	<unknown>	_	O	O	
+6-22	ist	VAFIN	sein	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Da braucht man für eine Professur der Archäologie besondere Mittel, deren Beschaffung von der Gnade unserer Kammer abhängt.
+7-1	Da	ADV	da	_	O	O	
+7-2	braucht	VVFIN	brauchen	_	O	O	
+7-3	man	PIS	man	_	O	O	
+7-4	für	APPR	für	_	O	O	
+7-5	eine	ART	eine	_	O	O	
+7-6	Professur	NN	Professur	_	O	O	
+7-7	der	ART	die	_	O	O	
+7-8	Archäologie	NN	Archäologie	_	O	O	
+7-9	besondere	ADJA	besonder	_	O	O	
+7-10	Mittel	NN	Mittel	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	deren	PRELAT	die	_	O	O	
+7-13	Beschaffung	NN	Beschaffung	_	O	O	
+7-14	von	APPR	von	_	O	O	
+7-15	der	ART	die	_	O	O	
+7-16	Gnade	NN	Gnade	_	O	O	
+7-17	unserer	PPOSAT	unser	_	O	O	
+7-18	Kammer	NN	Kammer	_	O	O	
+7-19	abhängt	VVFIN	abhängen	_	O	O	
+7-20	.	$.	.	_	O	O	
+
+#id=8
+#text=Wie man bis jetzt weiß, so wird diese (resp.
+8-1	Wie	KOUS	wie	_	O	O	
+8-2	man	PIS	man	_	O	O	
+8-3	bis	APPR	bis	_	O	O	
+8-4	jetzt	ADV	jetzt	_	O	O	
+8-5	weiß	VVFIN	wissen	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	so	ADV	so	_	O	O	
+8-8	wird	VAFIN	werden	_	O	O	
+8-9	diese	PDAT	dies	_	O	O	
+8-10	(	$(	(	_	O	O	
+8-11	resp.	ADV	resp.	_	O	O	
+
+#id=9
+#text=Herr von Lerchenfeld, der über alle Abgeordneten mit ledernen Hosen umumschränkt gebietet) wohl darauf eingehen* den vW^Histerium verlangten Zuschuß für unsere Universität zu bewilligen und dann hat man nicht im mindesten zu befürchten, daß dasAV^ Brunn verlieren werde.
+9-1	Herr	NN	Herr	_	O	O	
+9-2	von	APPR	von	_	O	O	
+9-3	Lerchenfeld	NN	Lerchenfeld	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	der	PRELS	die	_	O	O	
+9-6	über	APPR	über	_	O	O	
+9-7	alle	PIAT	alle	_	O	O	
+9-8	Abgeordneten	NN	Abgeordnete	_	O	O	
+9-9	mit	APPR	mit	_	O	O	
+9-10	ledernen	ADJA	ledern	_	O	O	
+9-11	Hosen	NN	Hose	_	O	O	
+9-12	umumschränkt	ADJD	<unknown>	_	O	O	
+9-13	gebietet	VVFIN	gebieten	_	O	O	
+9-14	)	$(	)	_	O	O	
+9-15	wohl	ADV	wohl	_	O	O	
+9-16	darauf	PAV	darauf	_	O	O	
+9-17	eingehen*	VVFIN	<unknown>	_	O	O	
+9-18	den	ART	die	_	O	O	
+9-19	vW^Histerium	NN	<unknown>	_	O	O	
+9-20	verlangten	ADJA	verlangt	_	O	O	
+9-21	Zuschuß	NN	Zuschuss	_	O	O	
+9-22	für	APPR	für	_	O	O	
+9-23	unsere	PPOSAT	unser	_	O	O	
+9-24	Universität	NN	Universität	_	O	O	
+9-25	zu	PTKZU	zu	_	O	O	
+9-26	bewilligen	VVINF	bewilligen	_	O	O	
+9-27	und	KON	und	_	O	O	
+9-28	dann	ADV	dann	_	O	O	
+9-29	hat	VAFIN	haben	_	O	O	
+9-30	man	PIS	man	_	O	O	
+9-31	nicht	PTKNEG	nicht	_	O	O	
+9-32	im	APPRART	in	_	O	O	
+9-33	mindesten	ADJA	mindeste	_	O	O	
+9-34	zu	PTKZU	zu	_	O	O	
+9-35	befürchten	VVINF	befürchten	_	O	O	
+9-36	,	$,	,	_	O	O	
+9-37	daß	KOUS	dass	_	O	O	
+9-38	dasAV^	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-39	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-40	verlieren	VVINF	verlieren	_	O	O	
+9-41	werde	VAFIN	werden	_	O	O	
+9-42	.	$.	.	_	O	O	
+

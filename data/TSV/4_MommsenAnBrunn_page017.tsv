@@ -1,0 +1,262 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Neapel, 20.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-5	,	$,	,	_	O	O	
+1-6	20	CARD	20	_	O	O	
+1-7	.	$.	.	_	O	O	
+
+#id=2
+#text=August 1846 6* 30.8,1846 r. Lieber Brunn 1 Hab vielen Dank für Deinen letzten Brief und der Münzbesorgung bei Odelli.
+2-1	August	NN	August	_	O	O	
+2-2	1846	CARD	@card@	_	O	O	
+2-3	6*	VVFIN	<unknown>	_	O	O	
+2-4	30.8,1846	CARD	@card@	_	O	O	
+2-5	r.	ADJA	<unknown>	_	O	O	
+2-6	Lieber	ADJA	lieb	_	O	O	
+2-7	Brunn	NN	Brunn	_	O	O	
+2-8	1	CARD	1	_	O	O	
+2-9	Hab	NN	Hab	_	O	O	
+2-10	vielen	PIAT	viele	_	O	O	
+2-11	Dank	NN	Dank	_	O	O	
+2-12	für	APPR	für	_	O	O	
+2-13	Deinen	PPOSAT	dein	_	O	O	
+2-14	letzten	ADJA	letzt	_	O	O	
+2-15	Brief	NN	Brief	_	O	O	
+2-16	und	KON	und	_	O	O	
+2-17	der	ART	die	_	O	O	
+2-18	Münzbesorgung	NN	<unknown>	_	O	O	
+2-19	bei	APPR	bei	_	O	O	
+2-20	Odelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-21	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Lieder schickte ich.
+3-1	Die	ART	die	_	O	O	
+3-2	Lieder	NN	Lied	_	O	O	
+3-3	schickte	VVFIN	schicken	_	O	O	
+3-4	ich	PPER	ich	_	O	O	
+3-5	.	$.	.	_	O	O	
+
+#id=4
+#text=gleich, aber ich habe heute meine sorrentinischen Inschriften nach Berlin, meine apparitoren an Welcher nach Bonn ge- A/ schickt, un/damit so viel an kleinen Nachträgen, Laufen und Packen zu thun gehabt, daß daraus für heute noch nichts werden kann, sollen aber unfehlbar in meinem nächsten Briefe erfolgen, korrigirt von der Signora Götzlof.
+4-1	gleich	ADJD	gleich	_	O	O	
+4-2	,	$,	,	_	O	O	
+4-3	aber	KON	aber	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	habe	VAFIN	haben	_	O	O	
+4-6	heute	ADV	heute	_	O	O	
+4-7	meine	PPOSAT	mein	_	O	O	
+4-8	sorrentinischen	ADJA	<unknown>	_	O	O	
+4-9	Inschriften	NN	Inschrift	_	O	O	
+4-10	nach	APPR	nach	_	O	O	
+4-11	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-12	,	$,	,	_	O	O	
+4-13	meine	PPOSAT	mein	_	O	O	
+4-14	apparitoren	NN	<unknown>	_	O	O	
+4-15	an	APPR	an	_	O	O	
+4-16	Welcher	PIS	welche	_	O	O	
+4-17	nach	APPR	nach	_	O	O	
+4-18	Bonn	NE	Bonn	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-19	ge-	TRUNC	ge-	_	O	O	
+4-20	A/	NN	<unknown>	_	O	O	
+4-21	schickt	VVFIN	schicken	_	O	O	
+4-22	,	$,	,	_	O	O	
+4-23	un/damit	ADJD	<unknown>	_	O	O	
+4-24	so	ADV	so	_	O	O	
+4-25	viel	ADV	viel	_	O	O	
+4-26	an	APPR	an	_	O	O	
+4-27	kleinen	ADJA	klein	_	O	O	
+4-28	Nachträgen	NN	Nachtrag	_	O	O	
+4-29	,	$,	,	_	O	O	
+4-30	Laufen	NN	Laufen	_	O	O	
+4-31	und	KON	und	_	O	O	
+4-32	Packen	NN	Pack|Packen	_	O	O	
+4-33	zu	APPR	zu	_	O	O	
+4-34	thun	NN	<unknown>	_	O	O	
+4-35	gehabt	VAPP	haben	_	O	O	
+4-36	,	$,	,	_	O	O	
+4-37	daß	KOUS	dass	_	O	O	
+4-38	daraus	PAV	daraus	_	O	O	
+4-39	für	APPR	für	_	O	O	
+4-40	heute	ADV	heute	_	O	O	
+4-41	noch	ADV	noch	_	O	O	
+4-42	nichts	PIS	nichts	_	O	O	
+4-43	werden	VAINF	werden	_	O	O	
+4-44	kann	VMFIN	können	_	O	O	
+4-45	,	$,	,	_	O	O	
+4-46	sollen	VMFIN	sollen	_	O	O	
+4-47	aber	ADV	aber	_	O	O	
+4-48	unfehlbar	ADJD	unfehlbar	_	O	O	
+4-49	in	APPR	in	_	O	O	
+4-50	meinem	PPOSAT	mein	_	O	O	
+4-51	nächsten	ADJA	nah	_	O	O	
+4-52	Briefe	NN	Brief	_	O	O	
+4-53	erfolgen	VVINF	erfolgen	_	O	O	
+4-54	,	$,	,	_	O	O	
+4-55	korrigirt	NN	<unknown>	_	O	O	
+4-56	von	APPR	von	_	O	O	
+4-57	der	ART	die	_	O	O	
+4-58	Signora	NN	Signora	_	O	O	
+4-59	Götzlof	NE	<unknown>	_	O	O	
+4-60	.	$.	.	_	O	O	
+
+#id=5
+#text=Bethmann hat sich wieder gefunden, war hinter zwei und dreißig neuen Kaiserurkünden hinterher geloffen und hat so Deine Prophezeihung von der Vervierfachung der acht Tage in M. Casino wahr gemacht.
+5-1	Bethmann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	hat	VAFIN	haben	_	O	O	
+5-3	sich	PRF	sich	_	O	O	
+5-4	wieder	ADV	wieder	_	O	O	
+5-5	gefunden	VVPP	finden	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	war	VAFIN	sein	_	O	O	
+5-8	hinter	APPR	hinter	_	O	O	
+5-9	zwei	CARD	zwei	_	O	O	
+5-10	und	KON	und	_	O	O	
+5-11	dreißig	CARD	dreißig	_	O	O	
+5-12	neuen	ADJA	neu	_	O	O	
+5-13	Kaiserurkünden	NN	<unknown>	_	O	O	
+5-14	hinterher	ADV	hinterher	_	O	O	
+5-15	geloffen	ADJD	<unknown>	_	O	O	
+5-16	und	KON	und	_	O	O	
+5-17	hat	VAFIN	haben	_	O	O	
+5-18	so	ADV	so	_	O	O	
+5-19	Deine	PPOSAT	dein	_	O	O	
+5-20	Prophezeihung	NN	Prophezeihung	_	O	O	
+5-21	von	APPR	von	_	O	O	
+5-22	der	ART	die	_	O	O	
+5-23	Vervierfachung	NN	<unknown>	_	O	O	
+5-24	der	ART	die	_	O	O	
+5-25	acht	CARD	acht	_	O	O	
+5-26	Tage	NN	Tag	_	O	O	
+5-27	in	APPR	in	_	O	O	
+5-28	M.	NE	M.	_	O	O	
+5-29	Casino	NN	Casino	_	O	O	
+5-30	wahr	ADJD	wahr	_	O	O	
+5-31	gemacht	VVPP	machen	_	O	O	
+5-32	.	$.	.	_	O	O	
+
+#id=6
+#text=Er ist etwas angeschimmelt vom vielen Arbeiten, klagt daß sein neues Auge stumpf und eine Glatze im Anzuge sei und frißt zwar Staub aber nicht mit Lust (siehe Goethes Paust, der Tragödie erster Theil.
+6-1	Er	PPER	er	_	O	O	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	etwas	ADV	etwas	_	O	O	
+6-4	angeschimmelt	VVPP	anschimmeln	_	O	O	
+6-5	vom	APPRART	von	_	O	O	
+6-6	vielen	PIAT	viele	_	O	O	
+6-7	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	klagt	VVFIN	klagen	_	O	O	
+6-10	daß	KOUS	dass	_	O	O	
+6-11	sein	PPOSAT	sein	_	O	O	
+6-12	neues	ADJA	neu	_	O	O	
+6-13	Auge	NN	Auge	_	O	O	
+6-14	stumpf	ADJD	stumpf	_	O	O	
+6-15	und	KON	und	_	O	O	
+6-16	eine	ART	eine	_	O	O	
+6-17	Glatze	NN	Glatze	_	O	O	
+6-18	im	APPRART	in	_	O	O	
+6-19	Anzuge	NN	<unknown>	_	O	O	
+6-20	sei	VAFIN	sein	_	O	O	
+6-21	und	KON	und	_	O	O	
+6-22	frißt	VVFIN	fressen	_	O	O	
+6-23	zwar	ADV	zwar	_	O	O	
+6-24	Staub	NN	Staub	_	O	O	
+6-25	aber	ADV	aber	_	O	O	
+6-26	nicht	PTKNEG	nicht	_	O	O	
+6-27	mit	APPR	mit	_	O	O	
+6-28	Lust	NN	Lust	_	O	O	
+6-29	(	$(	(	_	O	O	
+6-30	siehe	VVIMP	sehen	_	O	O	
+6-31	Goethes	NE	Goethe	_	O	O	
+6-32	Paust	VVPP	<unknown>	_	O	O	
+6-33	,	$,	,	_	O	O	
+6-34	der	ART	die	_	O	O	
+6-35	Tragödie	NN	Tragödie	_	O	O	
+6-36	erster	ADJA	erst	_	O	O	
+6-37	Theil	NN	<unknown>	_	O	O	
+6-38	.	$.	.	_	O	O	
+
+#id=7
+#text=Stuttgart bei Cotta - ein sehr lesenswerthes Werk.)
+7-1	Stuttgart	NE	Stuttgart	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-2	bei	APPR	bei	_	O	O	
+7-3	Cotta	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-4	-	$(	-	_	O	O	
+7-5	ein	ART	eine	_	O	O	
+7-6	sehr	ADV	sehr	_	O	O	
+7-7	lesenswerthes	ADJA	<unknown>	_	O	O	
+7-8	Werk	NN	Werk	_	O	O	
+7-9	.	$.	.	_	O	O	
+7-10	)	$(	)	_	O	O	
+
+#id=8
+#text=Mein Bruder schreibt mir, daß er Ende August in Genua sein wird (incl, Prien) und Mitte September habe ich ihm Rendezvous auf dem Capitol gegeben.
+8-1	Mein	PPOSAT	mein	_	O	O	
+8-2	Bruder	NN	Bruder	_	O	O	
+8-3	schreibt	VVFIN	schreiben	_	O	O	
+8-4	mir	PPER	ich	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	daß	KOUS	dass	_	O	O	
+8-7	er	PPER	er	_	O	O	
+8-8	Ende	NN	Ende	_	O	O	
+8-9	August	NN	August	_	O	O	
+8-10	in	APPR	in	_	O	O	
+8-11	Genua	NE	Genua	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-12	sein	VAINF	sein	_	O	O	
+8-13	wird	VAFIN	werden	_	O	O	
+8-14	(	$(	(	_	O	O	
+8-15	incl	NE	<unknown>	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	Prien	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-18	)	$(	)	_	O	O	
+8-19	und	KON	und	_	O	O	
+8-20	Mitte	NN	Mitte	_	O	O	
+8-21	September	NN	September	_	O	O	
+8-22	habe	VAFIN	haben	_	O	O	
+8-23	ich	PPER	ich	_	O	O	
+8-24	ihm	PPER	er	_	O	O	
+8-25	Rendezvous	NN	Rendezvous	_	O	O	
+8-26	auf	APPR	auf	_	O	O	
+8-27	dem	ART	die	_	O	O	
+8-28	Capitol	NN	<unknown>	_	O	O	
+8-29	gegeben	VVPP	geben	_	O	O	
+8-30	.	$.	.	_	O	O	
+
+#id=9
+#text=Zwar die schöne Herbstreise mit Priedländer aufzugeben ist mir sehr schwer geworden, und wäre sie nicht so ganz unvernünftig rebus sic stantibus, und nicht überdies schon längst aufgegeben,
+9-1	Zwar	ADV	zwar	_	O	O	
+9-2	die	ART	die	_	O	O	
+9-3	schöne	ADJA	schön	_	O	O	
+9-4	Herbstreise	NN	Herbstreise	_	O	O	
+9-5	mit	APPR	mit	_	O	O	
+9-6	Priedländer	NN	<unknown>	_	O	O	
+9-7	aufzugeben	VVIZU	aufgeben	_	O	O	
+9-8	ist	VAFIN	sein	_	O	O	
+9-9	mir	PPER	ich	_	O	O	
+9-10	sehr	ADV	sehr	_	O	O	
+9-11	schwer	ADJD	schwer	_	O	O	
+9-12	geworden	VAPP	werden	_	O	O	
+9-13	,	$,	,	_	O	O	
+9-14	und	KON	und	_	O	O	
+9-15	wäre	VAFIN	sein	_	O	O	
+9-16	sie	PPER	sie	_	O	O	
+9-17	nicht	PTKNEG	nicht	_	O	O	
+9-18	so	ADV	so	_	O	O	
+9-19	ganz	ADV	ganz	_	O	O	
+9-20	unvernünftig	ADJD	unvernünftig	_	O	O	
+9-21	rebus	NN	Rebus	_	O	O	
+9-22	sic	NE	<unknown>	_	O	O	
+9-23	stantibus	NN	<unknown>	_	O	O	
+9-24	,	$,	,	_	O	O	
+9-25	und	KON	und	_	O	O	
+9-26	nicht	PTKNEG	nicht	_	O	O	
+9-27	überdies	ADV	überdies	_	O	O	
+9-28	schon	ADV	schon	_	O	O	
+9-29	längst	ADV	längst	_	O	O	
+9-30	aufgegeben	VVPP	aufgeben	_	O	O	
+9-31	,	$,	,	_	O	O	
+

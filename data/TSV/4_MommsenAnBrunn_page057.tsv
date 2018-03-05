@@ -1,0 +1,242 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=- 4 - Mommsen an Brunn Leipzig» 12. September 51 Grüße Bethmann, sein Schicksal gebt mir nab* Am Hahnemann rächst Bich das Schicksal.
+1-1	-	$(	-	_	O	O	
+1-2	4	CARD	4	_	O	O	
+1-3	-	$(	-	_	O	O	
+1-4	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	Leipzig	NE	Leipzig	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-8	»	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	12	CARD	12	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	51	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Grüße	NN	Gruß	_	O	O	
+1-14	Bethmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-15	,	$,	,	_	O	O	
+1-16	sein	PPOSAT	sein	_	O	O	
+1-17	Schicksal	NN	Schicksal	_	O	O	
+1-18	gebt	VVFIN	geben	_	O	O	
+1-19	mir	PPER	ich	_	O	O	
+1-20	nab*	VVFIN	<unknown>	_	O	O	
+1-21	Am	APPRART	an	_	O	O	
+1-22	Hahnemann	NN	<unknown>	_	O	O	
+1-23	rächst	VVFIN	<unknown>	_	O	O	
+1-24	Bich	NE	Bich	_	O	O	
+1-25	das	ART	die	_	O	O	
+1-26	Schicksal	NN	Schicksal	_	O	O	
+1-27	.	$.	.	_	O	O	
+
+#id=2
+#text=Alle kunstverständigen Leute sind sehr zufrieden damit, das große Publicum aber lacht oder weint, ^enachdem die Natur ihre Seelen gestimmt hat, daß der Alte auf dem K- stuhl sitzt und das Papier in der Hand hat.
+2-1	Alle	PIAT	alle	_	O	O	
+2-2	kunstverständigen	ADJA	<unknown>	_	O	O	
+2-3	Leute	NN	Leute	_	O	O	
+2-4	sind	VAFIN	sein	_	O	O	
+2-5	sehr	ADV	sehr	_	O	O	
+2-6	zufrieden	ADJD	zufrieden	_	O	O	
+2-7	damit	PAV	damit	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	das	ART	die	_	O	O	
+2-10	große	ADJA	groß	_	O	O	
+2-11	Publicum	NN	<unknown>	_	O	O	
+2-12	aber	KON	aber	_	O	O	
+2-13	lacht	VVFIN	lachen	_	O	O	
+2-14	oder	KON	oder	_	O	O	
+2-15	weint	VVFIN	weinen	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	^enachdem	NN	<unknown>	_	O	O	
+2-18	die	ART	die	_	O	O	
+2-19	Natur	NN	Natur	_	O	O	
+2-20	ihre	PPOSAT	ihr	_	O	O	
+2-21	Seelen	NN	Seele	_	O	O	
+2-22	gestimmt	VVPP	stimmen	_	O	O	
+2-23	hat	VAFIN	haben	_	O	O	
+2-24	,	$,	,	_	O	O	
+2-25	daß	KOUS	dass	_	O	O	
+2-26	der	ART	die	_	O	O	
+2-27	Alte	NN	Alte	_	O	O	
+2-28	auf	APPR	auf	_	O	O	
+2-29	dem	ART	die	_	O	O	
+2-30	K-	TRUNC	K-	_	O	O	
+2-31	stuhl	NN	Stuhl	_	O	O	
+2-32	sitzt	VVFIN	sitzen	_	O	O	
+2-33	und	KON	und	_	O	O	
+2-34	das	ART	die	_	O	O	
+2-35	Papier	NN	Papier	_	O	O	
+2-36	in	APPR	in	_	O	O	
+2-37	der	ART	die	_	O	O	
+2-38	Hand	NN	Hand	_	O	O	
+2-39	hat	VAFIN	haben	_	O	O	
+2-40	.	$.	.	_	O	O	
+
+#id=3
+#text=Das kommt theils von der komischen Person, die H. einmal ist, theils von der lächerlichen Aufstellung auf der schmalen Seiter eine himmelhohen Mamorplatte.
+3-1	Das	PDS	die	_	O	O	
+3-2	kommt	VVFIN	kommen	_	O	O	
+3-3	theils	NN	<unknown>	_	O	O	
+3-4	von	APPR	von	_	O	O	
+3-5	der	ART	die	_	O	O	
+3-6	komischen	ADJA	komisch	_	O	O	
+3-7	Person	NN	Person	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	die	PRELS	die	_	O	O	
+3-10	H.	NE	H.	_	O	O	
+3-11	einmal	ADV	einmal	_	O	O	
+3-12	ist	VAFIN	sein	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	theils	ADJD	<unknown>	_	O	O	
+3-15	von	APPR	von	_	O	O	
+3-16	der	ART	die	_	O	O	
+3-17	lächerlichen	ADJA	lächerlich	_	O	O	
+3-18	Aufstellung	NN	Aufstellung	_	O	O	
+3-19	auf	APPR	auf	_	O	O	
+3-20	der	ART	die	_	O	O	
+3-21	schmalen	ADJA	schmal	_	O	O	
+3-22	Seiter	NN	<unknown>	_	O	O	
+3-23	eine	ART	eine	_	O	O	
+3-24	himmelhohen	ADJA	himmelhohe	_	O	O	
+3-25	Mamorplatte	NN	<unknown>	_	O	O	
+3-26	.	$.	.	_	O	O	
+
+#id=4
+#text=Tycho trifft morgen im K St Weimar ein.
+4-1	Tycho	NE	Tycho	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	trifft	VVFIN	treffen	_	O	O	
+4-3	morgen	ADV	morgen	_	O	O	
+4-4	im	APPRART	in	_	O	O	
+4-5	K	NN	K	_	O	O	
+4-6	St	NE	St	_	O	O	
+4-7	Weimar	NE	Weimar	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-8	ein	PTKVZ	ein	_	O	O	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=Mit Prien hast Du Recht und ich Unrecht, er hat sich nicht eben aus allerbeste, aber doch nicht ignobel benommen, und wir sind mit wenigem zufrieden.
+5-1	Mit	APPR	mit	_	O	O	
+5-2	Prien	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	hast	VAFIN	haben	_	O	O	
+5-4	Du	PPER	du	_	O	O	
+5-5	Recht	PTKVZ	recht	_	O	O	
+5-6	und	KON	und	_	O	O	
+5-7	ich	PPER	ich	_	O	O	
+5-8	Unrecht	NN	Unrecht	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	er	PPER	er	_	O	O	
+5-11	hat	VAFIN	haben	_	O	O	
+5-12	sich	PRF	sich	_	O	O	
+5-13	nicht	PTKNEG	nicht	_	O	O	
+5-14	eben	ADV	eben	_	O	O	
+5-15	aus	APPR	aus	_	O	O	
+5-16	allerbeste	ADJA	allergut	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	aber	KON	aber	_	O	O	
+5-19	doch	ADV	doch	_	O	O	
+5-20	nicht	PTKNEG	nicht	_	O	O	
+5-21	ignobel	NN	<unknown>	_	O	O	
+5-22	benommen	VVPP	benehmen	_	O	O	
+5-23	,	$,	,	_	O	O	
+5-24	und	KON	und	_	O	O	
+5-25	wir	PPER	wir	_	O	O	
+5-26	sind	VAFIN	sein	_	O	O	
+5-27	mit	APPR	mit	_	O	O	
+5-28	wenigem	PIS	wenige	_	O	O	
+5-29	zufrieden	ADJD	zufrieden	_	O	O	
+5-30	.	$.	.	_	O	O	
+
+#id=6
+#text=Lebewohl, grüße Rossi und schreibe mir einmal öfter; es ist doch eine gute Gewohnheit.
+6-1	Lebewohl	NN	Lebewohl	_	O	O	
+6-2	,	$,	,	_	O	O	
+6-3	grüße	VVFIN	grüßen	_	O	O	
+6-4	Rossi	NE	Rossi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	und	KON	und	_	O	O	
+6-6	schreibe	VVFIN	schreiben	_	O	O	
+6-7	mir	PPER	ich	_	O	O	
+6-8	einmal	ADV	einmal	_	O	O	
+6-9	öfter	ADV	öfter	_	O	O	
+6-10	;	$.	;	_	O	O	
+6-11	es	PPER	es	_	O	O	
+6-12	ist	VAFIN	sein	_	O	O	
+6-13	doch	ADV	doch	_	O	O	
+6-14	eine	ART	eine	_	O	O	
+6-15	gute	ADJA	gut	_	O	O	
+6-16	Gewohnheit	NN	Gewohnheit	_	O	O	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=Epigraphische und archäologische Norm könntest Du mir auch einmal melden.
+7-1	Epigraphische	ADJA	<unknown>	_	O	O	
+7-2	und	KON	und	_	O	O	
+7-3	archäologische	ADJA	archäologisch	_	O	O	
+7-4	Norm	NN	Norm	_	O	O	
+7-5	könntest	VMFIN	können	_	O	O	
+7-6	Du	PPER	du	_	O	O	
+7-7	mir	PRF	ich	_	O	O	
+7-8	auch	ADV	auch	_	O	O	
+7-9	einmal	ADV	einmal	_	O	O	
+7-10	melden	VVINF	melden	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Ihr buddelt ja doch beständig.
+8-1	Ihr	PPER	sie	_	O	O	
+8-2	buddelt	VVFIN	buddeln	_	O	O	
+8-3	ja	ADV	ja	_	O	O	
+8-4	doch	ADV	doch	_	O	O	
+8-5	beständig	ADJD	beständig	_	O	O	
+8-6	.	$.	.	_	O	O	
+
+#id=9
+#text=Mommsen (über dem Kopf der 1.
+9-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	(	$(	(	_	O	O	
+9-3	über	APPR	über	_	O	O	
+9-4	dem	ART	die	_	O	O	
+9-5	Kopf	NN	Kopf	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-6	der	ART	die	_	O	O	
+9-7	1	CARD	1	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Seite): Jahn trägt mir auf Dich zu grüßen.
+10-1	Seite	NN	Seite	_	O	O	
+10-2	)	$(	)	_	O	O	
+10-3	:	$.	:	_	O	O	
+10-4	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-5	trägt	VVFIN	tragen	_	O	O	
+10-6	mir	PPER	ich	_	O	O	
+10-7	auf	APPR	auf	_	O	O	
+10-8	Dich	PPER	du	_	O	O	
+10-9	zu	PTKZU	zu	_	O	O	
+10-10	grüßen	VVINF	grüßen	_	O	O	
+10-11	.	$.	.	_	O	O	
+
+#id=11
+#text=Lui stima assai le vostre chiarissime e stupendissime e faticosissime fatiche, das heßt auf deutsch, er findet Deine Sache gut.
+11-1	Lui	NE	Lui	_	O	O	
+11-2	stima	NE	<unknown>	_	O	O	
+11-3	assai	NE	<unknown>	_	O	O	
+11-4	le	ADJA	<unknown>	_	O	O	
+11-5	vostre	ADJA	<unknown>	_	O	O	
+11-6	chiarissime	NN	<unknown>	_	O	O	
+11-7	e	VVFIN	<unknown>	_	O	O	
+11-8	stupendissime	NE	<unknown>	_	O	O	
+11-9	e	VVFIN	<unknown>	_	O	O	
+11-10	faticosissime	NE	<unknown>	_	O	O	
+11-11	fatiche	NN	<unknown>	_	O	O	
+11-12	,	$,	,	_	O	O	
+11-13	das	PRELS	die	_	O	O	
+11-14	heßt	VVFIN	<unknown>	_	O	O	
+11-15	auf	APPR	auf	_	O	O	
+11-16	deutsch	ADJD	deutsch	_	O	O	
+11-17	,	$,	,	_	O	O	
+11-18	er	PPER	er	_	O	O	
+11-19	findet	VVFIN	finden	_	O	O	
+11-20	Deine	PPOSAT	dein	_	O	O	
+11-21	Sache	NN	Sache	_	O	O	
+11-22	gut	ADJD	gut	_	O	O	
+11-23	.	$.	.	_	O	O	
+

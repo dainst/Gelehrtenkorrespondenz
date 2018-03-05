@@ -1,0 +1,128 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Neapel, 20* August 1846 Brief sehen* Neapel Bonnerstag Abend 20 Aug. 1846.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-5	,	$,	,	_	O	O	
+1-6	20*	VVFIN	<unknown>	_	O	O	
+1-7	August	NE	August	_	O	O	
+1-8	1846	CARD	@card@	_	O	O	
+1-9	Brief	NN	Brief	_	O	O	
+1-10	sehen*	VVFIN	<unknown>	_	O	O	
+1-11	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-12	Bonnerstag	NN	<unknown>	_	O	O	
+1-13	Abend	ADV	abend	_	O	O	
+1-14	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-15	Aug.	NN	Aug.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text=Ih.
+2-1	Ih	ADV	<unknown>	_	O	O	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=Mommsen Hast Bu gelesen, daß in Marburg die Erde so stark gewak-kelt hat daß ein Professoreal tisch umgefallen ist ?
+3-1	Mommsen	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	Hast	NN	Hast	_	O	O	
+3-3	Bu	ADJD	<unknown>	_	O	O	
+3-4	gelesen	VVPP	lesen	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	daß	KOUS	dass	_	O	O	
+3-7	in	APPR	in	_	O	O	
+3-8	Marburg	NE	Marburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-9	die	ART	die	_	O	O	
+3-10	Erde	NN	Erde	_	O	O	
+3-11	so	ADV	so	_	O	O	
+3-12	stark	ADJD	stark	_	O	O	
+3-13	gewak-kelt	VVINF	<unknown>	_	O	O	
+3-14	hat	VAFIN	haben	_	O	O	
+3-15	daß	KOUS	dass	_	O	O	
+3-16	ein	ART	eine	_	O	O	
+3-17	Professoreal	NN	<unknown>	_	O	O	
+3-18	tisch	VVIMP	tischen	_	O	O	
+3-19	umgefallen	VVPP	umfallen	_	O	O	
+3-20	ist	VAFIN	sein	_	O	O	
+3-21	?	$.	?	_	O	O	
+
+#id=4
+#text=Was fest in seinen Angeln stnad, wo wir so sicher schliefen.
+4-1	Was	PWS	was	_	O	O	
+4-2	fest	ADJD	fest	_	O	O	
+4-3	in	APPR	in	_	O	O	
+4-4	seinen	PPOSAT	sein	_	O	O	
+4-5	Angeln	NN	Angel|Angeln	_	O	O	
+4-6	stnad	NE	<unknown>	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	wo	PWAV	wo	_	O	O	
+4-9	wir	PPER	wir	_	O	O	
+4-10	so	ADV	so	_	O	O	
+4-11	sicher	ADJD	sicher	_	O	O	
+4-12	schliefen	VVFIN	schlafen	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=An offnen Wunden krankt das Land, nach mehr an offnen Briefen.
+5-1	An	APPR	an	_	O	O	
+5-2	offnen	ADJA	<unknown>	_	O	O	
+5-3	Wunden	NN	Wunde	_	O	O	
+5-4	krankt	VVFIN	<unknown>	_	O	O	
+5-5	das	ART	die	_	O	O	
+5-6	Land	NN	Land	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	nach	APPR	nach	_	O	O	
+5-9	mehr	PIS	mehr	_	O	O	
+5-10	an	APPR	an	_	O	O	
+5-11	offnen	ADJA	<unknown>	_	O	O	
+5-12	Briefen	NN	Brief	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Hannoversch Evangelium Wir ließen's ruhig nistein Bie Zeit verfließt, das Jahr ist um, da kommen die Episteln.
+6-1	Hannoversch	ADJA	<unknown>	_	O	O	
+6-2	Evangelium	NN	Evangelium	_	O	O	
+6-3	Wir	PPER	wir	_	O	O	
+6-4	ließen's	VVFIN	lassen	_	O	O	
+6-5	ruhig	ADJD	ruhig	_	O	O	
+6-6	nistein	NN	<unknown>	_	O	O	
+6-7	Bie	ADJA	<unknown>	_	O	O	
+6-8	Zeit	NN	Zeit	_	O	O	
+6-9	verfließt	VVFIN	verfließen	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	das	ART	die	_	O	O	
+6-12	Jahr	NN	Jahr	_	O	O	
+6-13	ist	VAFIN	sein	_	O	O	
+6-14	um	ADV	um	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	da	ADV	da	_	O	O	
+6-17	kommen	VVFIN	kommen	_	O	O	
+6-18	die	ART	die	_	O	O	
+6-19	Episteln	NN	Epistel	_	O	O	
+6-20	.	$.	.	_	O	O	
+
+#id=7
+#text=Loyal» und Eadicalmixtur Kommt dann die Rechtsverwahrung Hilft doch bei Gott die Windsbraut nur, die letzte Offenbarung.
+7-1	Loyal	ADJD	loyal	_	O	O	
+7-2	»	NN	<unknown>	_	O	O	
+7-3	und	KON	und	_	O	O	
+7-4	Eadicalmixtur	NN	<unknown>	_	O	O	
+7-5	Kommt	VVFIN	kommen	_	O	O	
+7-6	dann	ADV	dann	_	O	O	
+7-7	die	ART	die	_	O	O	
+7-8	Rechtsverwahrung	NN	<unknown>	_	O	O	
+7-9	Hilft	VVFIN	helfen	_	O	O	
+7-10	doch	ADV	doch	_	O	O	
+7-11	bei	APPR	bei	_	O	O	
+7-12	Gott	NN	Gott	_	O	O	
+7-13	die	ART	die	_	O	O	
+7-14	Windsbraut	NN	Windsbraut	_	O	O	
+7-15	nur	ADV	nur	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	die	ART	die	_	O	O	
+7-18	letzte	ADJA	letzt	_	O	O	
+7-19	Offenbarung	NN	Offenbarung	_	O	O	
+7-20	.	$.	.	_	O	O	
+

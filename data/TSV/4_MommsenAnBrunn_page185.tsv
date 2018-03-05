@@ -1,0 +1,138 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn - 2 - Charlottenburg, 19 .Juni 189' die Personalien des Mannes erläutert; kannst Du mir seine Schriften verschaffen - sollen in Yichers Zeitschrift stehen - , wo wä^re das nützlich, weniger für mich - D sum -	aher für solche Geheimräthe, welche alles verstehen.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	O	O	
+1-4	-	$(	-	_	O	O	
+1-5	2	CARD	2	_	O	O	
+1-6	-	$(	-	_	O	O	
+1-7	Charlottenburg	NE	Charlottenburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-8	,	$,	,	_	O	O	
+1-9	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.Juni	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	189	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	'	$(	'	_	O	O	
+1-13	die	ART	die	_	O	O	
+1-14	Personalien	NN	Personalien	_	O	O	
+1-15	des	ART	die	_	O	O	
+1-16	Mannes	NN	Mann	_	O	O	
+1-17	erläutert	VVFIN	erläutern	_	O	O	
+1-18	;	$.	;	_	O	O	
+1-19	kannst	VMFIN	können	_	O	O	
+1-20	Du	PPER	du	_	O	O	
+1-21	mir	PRF	ich	_	O	O	
+1-22	seine	PPOSAT	sein	_	O	O	
+1-23	Schriften	NN	Schrift	_	O	O	
+1-24	verschaffen	VVINF	verschaffen	_	O	O	
+1-25	-	$(	-	_	O	O	
+1-26	sollen	VMFIN	sollen	_	O	O	
+1-27	in	APPR	in	_	O	O	
+1-28	Yichers	NN	<unknown>	_	O	O	
+1-29	Zeitschrift	NN	Zeitschrift	_	O	O	
+1-30	stehen	VVFIN	stehen	_	O	O	
+1-31	-	$(	-	_	O	O	
+1-32	,	$,	,	_	O	O	
+1-33	wo	PWAV	wo	_	O	O	
+1-34	wä^re	VVFIN	<unknown>	_	O	O	
+1-35	das	PDS	die	_	O	O	
+1-36	nützlich	ADJD	nützlich	_	O	O	
+1-37	,	$,	,	_	O	O	
+1-38	weniger	ADV	weniger	_	O	O	
+1-39	für	APPR	für	_	O	O	
+1-40	mich	PPER	ich	_	O	O	
+1-41	-	$(	-	_	O	O	
+1-42	D	NN	D	_	O	O	
+1-43	sum	ADJA	<unknown>	_	O	O	
+1-44	-	$(	-	_	O	O	
+1-45	aher	ADJA	<unknown>	_	O	O	
+1-46	für	APPR	für	_	O	O	
+1-47	solche	PIAT	solche	_	O	O	
+1-48	Geheimräthe	NN	<unknown>	_	O	O	
+1-49	,	$,	,	_	O	O	
+1-50	welche	PRELS	welche	_	O	O	
+1-51	alles	PIS	alle	_	O	O	
+1-52	verstehen	VVFIN	verstehen	_	O	O	
+1-53	.	$.	.	_	O	O	
+
+#id=2
+#text=Möglich, daß ich im August oder September nach München komm;; bist Du dann dort ?
+2-1	Möglich	ADJD	möglich	_	O	O	
+2-2	,	$,	,	_	O	O	
+2-3	daß	KOUS	dass	_	O	O	
+2-4	ich	PPER	ich	_	O	O	
+2-5	im	APPRART	in	_	O	O	
+2-6	August	NN	August	_	O	O	
+2-7	oder	KON	oder	_	O	O	
+2-8	September	NN	September	_	O	O	
+2-9	nach	APPR	nach	_	O	O	
+2-10	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-11	komm	VVIMP	kommen	_	O	O	
+2-12	;	$.	;	_	O	O	
+2-13	;	$.	;	_	O	O	
+2-14	bist	VAFIN	sein	_	O	O	
+2-15	Du	PPER	du	_	O	O	
+2-16	dann	ADV	dann	_	O	O	
+2-17	dort	ADV	dort	_	O	O	
+2-18	?	$.	?	_	O	O	
+
+#id=3
+#text=Lebe wohl.
+3-1	Lebe	VVFIN	leben	_	O	O	
+3-2	wohl	ADV	wohl	_	O	O	
+3-3	.	$.	.	_	O	O	
+
+#id=4
+#text=Und noch einmal meinen Dank für Deine tbätige Unterstützung.
+4-1	Und	KON	und	_	O	O	
+4-2	noch	ADV	noch	_	O	O	
+4-3	einmal	ADV	einmal	_	O	O	
+4-4	meinen	PPOSAT	mein	_	O	O	
+4-5	Dank	NN	Dank	_	O	O	
+4-6	für	APPR	für	_	O	O	
+4-7	Deine	PPOSAT	dein	_	O	O	
+4-8	tbätige	ADJA	<unknown>	_	O	O	
+4-9	Unterstützung	NN	Unterstützung	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Dein M. Ch. 19/6	90 Althoffs Absicht war, wie wir vorschlugen, die beiden Akademien von B. wie M* in der Conferenz vertreten zu sehen.
+5-1	Dein	PPOSAT	dein	_	O	O	
+5-2	M.	APPR	m.	_	O	O	
+5-3	Ch.	NE	Ch.	_	O	O	
+5-4	19/6	CARD	@card@	_	O	O	
+5-5	90	CARD	90	_	O	O	
+5-6	Althoffs	NE	Althoff	_	O	O	
+5-7	Absicht	NN	Absicht	_	O	O	
+5-8	war	VAFIN	sein	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	wie	KOUS	wie	_	O	O	
+5-11	wir	PPER	wir	_	O	O	
+5-12	vorschlugen	VVFIN	vorschlagen	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	die	PRELS	die	_	O	O	
+5-15	beiden	PIAT	beide	_	O	O	
+5-16	Akademien	NN	Akademie	_	O	O	
+5-17	von	APPR	von	_	O	O	
+5-18	B.	NE	B.	_	O	O	
+5-19	wie	KOKOM	wie	_	O	O	
+5-20	M*	NN	<unknown>	_	O	O	
+5-21	in	APPR	in	_	O	O	
+5-22	der	ART	die	_	O	O	
+5-23	Conferenz	NN	<unknown>	_	O	O	
+5-24	vertreten	VVINF	vertreten	_	O	O	
+5-25	zu	PTKZU	zu	_	O	O	
+5-26	sehen	VVINF	sehen	_	O	O	
+5-27	.	$.	.	_	O	O	
+
+#id=6
+#text=Das wird bei Euch keine Schwierigkeit finden.
+6-1	Das	PDS	die	_	O	O	
+6-2	wird	VAFIN	werden	_	O	O	
+6-3	bei	APPR	bei	_	O	O	
+6-4	Euch	PPER	ihr	_	O	O	
+6-5	keine	PIAT	keine	_	O	O	
+6-6	Schwierigkeit	NN	Schwierigkeit	_	O	O	
+6-7	finden	VVINF	finden	_	O	O	
+6-8	.	$.	.	_	O	O	
+

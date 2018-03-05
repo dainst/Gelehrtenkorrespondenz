@@ -1,0 +1,316 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Berlin, 13.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	13	CARD	13	_	O	O	
+1-7	.	$.	.	_	O	O	
+
+#id=2
+#text=Januar 1865 - 2 - C.D.
+2-1	Januar	NN	Januar	_	O	O	
+2-2	1865	CARD	@card@	_	O	O	
+2-3	-	$(	-	_	O	O	
+2-4	2	CARD	2	_	O	O	
+2-5	-	$(	-	_	O	O	
+2-6	C.D.	NE	C.D.	_	O	O	
+
+#id=3
+#text=nichts an.
+3-1	nichts	PIAT	nichts	_	O	O	
+3-2	an	PTKVZ	an	_	O	O	
+3-3	.	$.	.	_	O	O	
+
+#id=4
+#text=Macht das Ding wie ihr wollt, so kurz wie möglich, unter Weglassung aller geringeren und aller nicht in bestimmten Museen fixirter Kunstwerke; unter Beseitigung all jenes steifen Schematismus, bloß nach den Rubriken der Museen wie das ist Eure Sache, nicht unsre.
+4-1	Macht	VVFIN	machen	_	O	O	
+4-2	das	ART	die	_	O	O	
+4-3	Ding	NN	Ding	_	O	O	
+4-4	wie	KOKOM	wie	_	O	O	
+4-5	ihr	PPER	ihr	_	O	O	
+4-6	wollt	VMFIN	wollen	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	so	ADV	so	_	O	O	
+4-9	kurz	ADJD	kurz	_	O	O	
+4-10	wie	KOKOM	wie	_	O	O	
+4-11	möglich	ADJD	möglich	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	unter	APPR	unter	_	O	O	
+4-14	Weglassung	NN	<unknown>	_	O	O	
+4-15	aller	PIAT	alle	_	O	O	
+4-16	geringeren	ADJA	gering	_	O	O	
+4-17	und	KON	und	_	O	O	
+4-18	aller	PIS	alle	_	O	O	
+4-19	nicht	PTKNEG	nicht	_	O	O	
+4-20	in	APPR	in	_	O	O	
+4-21	bestimmten	ADJA	bestimmt	_	O	O	
+4-22	Museen	NN	Museum	_	O	O	
+4-23	fixirter	ADJA	<unknown>	_	O	O	
+4-24	Kunstwerke	NN	Kunstwerk	_	O	O	
+4-25	;	$.	;	_	O	O	
+4-26	unter	APPR	unter	_	O	O	
+4-27	Beseitigung	NN	Beseitigung	_	O	O	
+4-28	all	PIAT	alle	_	O	O	
+4-29	jenes	PDAT	jen	_	O	O	
+4-30	steifen	ADJA	steif	_	O	O	
+4-31	Schematismus	NN	<unknown>	_	O	O	
+4-32	,	$,	,	_	O	O	
+4-33	bloß	ADJD	bloß	_	O	O	
+4-34	nach	APPR	nach	_	O	O	
+4-35	den	ART	die	_	O	O	
+4-36	Rubriken	NN	Rubrik	_	O	O	
+4-37	der	ART	die	_	O	O	
+4-38	Museen	NN	Museum	_	O	O	
+4-39	wie	KOKOM	wie	_	O	O	
+4-40	das	PDS	die	_	O	O	
+4-41	ist	VAFIN	sein	_	O	O	
+4-42	Eure	PPOSAT	euer	_	O	O	
+4-43	Sache	NN	Sache	_	O	O	
+4-44	,	$,	,	_	O	O	
+4-45	nicht	PTKNEG	nicht	_	O	O	
+4-46	unsre	PPOSAT	unsre	_	O	O	
+4-47	.	$.	.	_	O	O	
+
+#id=5
+#text=Wir haben nicht einmal das Recht Euch ein Schema zu octroyiren.
+5-1	Wir	PPER	wir	_	O	O	
+5-2	haben	VAFIN	haben	_	O	O	
+5-3	nicht	PTKNEG	nicht	_	O	O	
+5-4	einmal	ADV	einmal	_	O	O	
+5-5	das	ART	die	_	O	O	
+5-6	Recht	NN	Recht	_	O	O	
+5-7	Euch	PRF	ihr	_	O	O	
+5-8	ein	ART	eine	_	O	O	
+5-9	Schema	NN	Schema	_	O	O	
+5-10	zu	APPR	zu	_	O	O	
+5-11	octroyiren	NN	<unknown>	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihr seid lediglich, wie jeder vernünftige Mensch, Eurem Gewissen dafür verpflichtet eine Arbeit, die man im Princip nicht billigt, die aber gemacht werden muß, so leidlich und so relativ nützlich zu machen wie möglich.
+6-1	Ihr	PPER	sie	_	O	O	
+6-2	seid	VAFIN	sein	_	O	O	
+6-3	lediglich	ADV	lediglich	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	wie	KOUS	wie	_	O	O	
+6-6	jeder	PIAT	jede	_	O	O	
+6-7	vernünftige	ADJA	vernünftig	_	O	O	
+6-8	Mensch	NN	Mensch	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	Eurem	PPOSAT	euer	_	O	O	
+6-11	Gewissen	NN	Gewissen	_	O	O	
+6-12	dafür	PAV	dafür	_	O	O	
+6-13	verpflichtet	VVFIN	verpflichten	_	O	O	
+6-14	eine	ART	eine	_	O	O	
+6-15	Arbeit	NN	Arbeit	_	O	O	
+6-16	,	$,	,	_	O	O	
+6-17	die	PRELS	die	_	O	O	
+6-18	man	PIS	man	_	O	O	
+6-19	im	APPRART	in	_	O	O	
+6-20	Princip	NN	<unknown>	_	O	O	
+6-21	nicht	PTKNEG	nicht	_	O	O	
+6-22	billigt	VVFIN	billigen	_	O	O	
+6-23	,	$,	,	_	O	O	
+6-24	die	PRELS	die	_	O	O	
+6-25	aber	ADV	aber	_	O	O	
+6-26	gemacht	VVPP	machen	_	O	O	
+6-27	werden	VAINF	werden	_	O	O	
+6-28	muß	VMFIN	müssen	_	O	O	
+6-29	,	$,	,	_	O	O	
+6-30	so	ADV	so	_	O	O	
+6-31	leidlich	ADJD	leidlich	_	O	O	
+6-32	und	KON	und	_	O	O	
+6-33	so	ADV	so	_	O	O	
+6-34	relativ	ADJD	relativ	_	O	O	
+6-35	nützlich	ADJD	nützlich	_	O	O	
+6-36	zu	PTKZU	zu	_	O	O	
+6-37	machen	VVINF	machen	_	O	O	
+6-38	wie	KOKOM	wie	_	O	O	
+6-39	möglich	ADJD	möglich	_	O	O	
+6-40	.	$.	.	_	O	O	
+
+#id=7
+#text=Mit Deiner Auseinandersetzung Icann man jeden Index todt machen; ein solches Werk ganz befriedigend zu machen ist immer eine Unmöglichkeit* Wenn der Index endlich als Anfang des großen erscheint, so ist nicht zu befürchten, daß er cattiva figura macht, auch wenn er nichts enthält, als daß denen, für die die größeren Museen zugänglich sind, die Gelegenheit giebt sich schnell zu orientiren, wo und wie in den betreffenden Jahrgängen Denkmäler desselben besprochen sind.
+7-1	Mit	APPR	mit	_	O	O	
+7-2	Deiner	PPOSAT	dein	_	O	O	
+7-3	Auseinandersetzung	NN	Auseinandersetzung	_	O	O	
+7-4	Icann	VVFIN	<unknown>	_	O	O	
+7-5	man	PIS	man	_	O	O	
+7-6	jeden	PIAT	jede	_	O	O	
+7-7	Index	NN	Index	_	O	O	
+7-8	todt	ADJD	<unknown>	_	O	O	
+7-9	machen	VVINF	machen	_	O	O	
+7-10	;	$.	;	_	O	O	
+7-11	ein	ART	eine	_	O	O	
+7-12	solches	PIAT	solche	_	O	O	
+7-13	Werk	NN	Werk	_	O	O	
+7-14	ganz	ADV	ganz	_	O	O	
+7-15	befriedigend	ADJD	befriedigend	_	O	O	
+7-16	zu	PTKZU	zu	_	O	O	
+7-17	machen	VVINF	machen	_	O	O	
+7-18	ist	VAFIN	sein	_	O	O	
+7-19	immer	ADV	immer	_	O	O	
+7-20	eine	ART	eine	_	O	O	
+7-21	Unmöglichkeit*	ADJA	<unknown>	_	O	O	
+7-22	Wenn	KOUS	wenn	_	O	O	
+7-23	der	ART	die	_	O	O	
+7-24	Index	NN	Index	_	O	O	
+7-25	endlich	ADV	endlich	_	O	O	
+7-26	als	KOKOM	als	_	O	O	
+7-27	Anfang	NN	Anfang	_	O	O	
+7-28	des	ART	die	_	O	O	
+7-29	großen	ADJA	groß	_	O	O	
+7-30	erscheint	VVFIN	erscheinen	_	O	O	
+7-31	,	$,	,	_	O	O	
+7-32	so	ADV	so	_	O	O	
+7-33	ist	VAFIN	sein	_	O	O	
+7-34	nicht	PTKNEG	nicht	_	O	O	
+7-35	zu	PTKZU	zu	_	O	O	
+7-36	befürchten	VVINF	befürchten	_	O	O	
+7-37	,	$,	,	_	O	O	
+7-38	daß	KOUS	dass	_	O	O	
+7-39	er	PPER	er	_	O	O	
+7-40	cattiva	NE	<unknown>	_	O	O	
+7-41	figura	NE	<unknown>	_	O	O	
+7-42	macht	VVFIN	machen	_	O	O	
+7-43	,	$,	,	_	O	O	
+7-44	auch	ADV	auch	_	O	O	
+7-45	wenn	KOUS	wenn	_	O	O	
+7-46	er	PPER	er	_	O	O	
+7-47	nichts	PIS	nichts	_	O	O	
+7-48	enthält	VVFIN	enthalten	_	O	O	
+7-49	,	$,	,	_	O	O	
+7-50	als	KOKOM	als	_	O	O	
+7-51	daß	KOUS	dass	_	O	O	
+7-52	denen	PDS	die	_	O	O	
+7-53	,	$,	,	_	O	O	
+7-54	für	APPR	für	_	O	O	
+7-55	die	PRELS	die	_	O	O	
+7-56	die	ART	die	_	O	O	
+7-57	größeren	ADJA	groß	_	O	O	
+7-58	Museen	NN	Museum	_	O	O	
+7-59	zugänglich	ADJD	zugänglich	_	O	O	
+7-60	sind	VAFIN	sein	_	O	O	
+7-61	,	$,	,	_	O	O	
+7-62	die	ART	die	_	O	O	
+7-63	Gelegenheit	NN	Gelegenheit	_	O	O	
+7-64	giebt	VVFIN	<unknown>	_	O	O	
+7-65	sich	PRF	sich	_	O	O	
+7-66	schnell	ADJD	schnell	_	O	O	
+7-67	zu	APPR	zu	_	O	O	
+7-68	orientiren	NN	<unknown>	_	O	O	
+7-69	,	$,	,	_	O	O	
+7-70	wo	PWAV	wo	_	O	O	
+7-71	und	KON	und	_	O	O	
+7-72	wie	KOKOM	wie	_	O	O	
+7-73	in	APPR	in	_	O	O	
+7-74	den	ART	die	_	O	O	
+7-75	betreffenden	ADJA	betreffend	_	O	O	
+7-76	Jahrgängen	NN	Jahrgang	_	O	O	
+7-77	Denkmäler	NN	Denkmal	_	O	O	
+7-78	desselben	PDS	derselbe	_	O	O	
+7-79	besprochen	VVPP	besprechen	_	O	O	
+7-80	sind	VAFIN	sein	_	O	O	
+7-81	.	$.	.	_	O	O	
+
+#id=8
+#text=Lebe wohl und grüße Frau und Jungen, denen Du mir wohl erlauben wirst mein Andenken als des Oonservaten ihrer Tempel und Ziegenställe frisch zu erhalten, bis ich einmal wieder hinkomme.
+8-1	Lebe	VVFIN	leben	_	O	O	
+8-2	wohl	PTKVZ	wohl	_	O	O	
+8-3	und	KON	und	_	O	O	
+8-4	grüße	VVFIN	grüßen	_	O	O	
+8-5	Frau	NN	Frau	_	O	O	
+8-6	und	KON	und	_	O	O	
+8-7	Jungen	NN	Junge	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	denen	PRELS	die	_	O	O	
+8-10	Du	PPER	du	_	O	O	
+8-11	mir	PRF	ich	_	O	O	
+8-12	wohl	ADV	wohl	_	O	O	
+8-13	erlauben	VVINF	erlauben	_	O	O	
+8-14	wirst	VAFIN	werden	_	O	O	
+8-15	mein	PPOSAT	mein	_	O	O	
+8-16	Andenken	NN	Andenken	_	O	O	
+8-17	als	KOKOM	als	_	O	O	
+8-18	des	ART	die	_	O	O	
+8-19	Oonservaten	NN	<unknown>	_	O	O	
+8-20	ihrer	PPOSAT	ihr	_	O	O	
+8-21	Tempel	NN	Tempel	_	O	O	
+8-22	und	KON	und	_	O	O	
+8-23	Ziegenställe	NN	Ziegenstall	_	O	O	
+8-24	frisch	ADJD	frisch	_	O	O	
+8-25	zu	PTKZU	zu	_	O	O	
+8-26	erhalten	VVINF	erhalten	_	O	O	
+8-27	,	$,	,	_	O	O	
+8-28	bis	KOUS	bis	_	O	O	
+8-29	ich	PPER	ich	_	O	O	
+8-30	einmal	ADV	einmal	_	O	O	
+8-31	wieder	ADV	wieder	_	O	O	
+8-32	hinkomme	VVFIN	hinkommen	_	O	O	
+8-33	.	$.	.	_	O	O	
+
+#id=9
+#text=Der Schlag, der das Capitol getroffen hat, trifft auch hier uns alle mit; selten habe ich gesehen, daß ein so junger Mann so von allen Seiten aufrichtig beklagt worden ist.
+9-1	Der	ART	die	_	O	O	
+9-2	Schlag	NN	Schlag	_	O	O	
+9-3	,	$,	,	_	O	O	
+9-4	der	PRELS	die	_	O	O	
+9-5	das	ART	die	_	O	O	
+9-6	Capitol	NN	<unknown>	_	O	O	
+9-7	getroffen	VVPP	treffen|triefen	_	O	O	
+9-8	hat	VAFIN	haben	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	trifft	VVFIN	treffen	_	O	O	
+9-11	auch	ADV	auch	_	O	O	
+9-12	hier	ADV	hier	_	O	O	
+9-13	uns	PRF	wir	_	O	O	
+9-14	alle	PIS	alle	_	O	O	
+9-15	mit	PTKVZ	mit	_	O	O	
+9-16	;	$.	;	_	O	O	
+9-17	selten	ADJD	selten	_	O	O	
+9-18	habe	VAFIN	haben	_	O	O	
+9-19	ich	PPER	ich	_	O	O	
+9-20	gesehen	VVPP	sehen	_	O	O	
+9-21	,	$,	,	_	O	O	
+9-22	daß	KOUS	dass	_	O	O	
+9-23	ein	ART	eine	_	O	O	
+9-24	so	ADV	so	_	O	O	
+9-25	junger	ADJA	jung	_	O	O	
+9-26	Mann	NN	Mann	_	O	O	
+9-27	so	ADV	so	_	O	O	
+9-28	von	APPR	von	_	O	O	
+9-29	allen	PIAT	alle	_	O	O	
+9-30	Seiten	NN	Seite	_	O	O	
+9-31	aufrichtig	ADJD	aufrichtig	_	O	O	
+9-32	beklagt	VVPP	beklagen	_	O	O	
+9-33	worden	VAPP	werden	_	O	O	
+9-34	ist	VAFIN	sein	_	O	O	
+9-35	.	$.	.	_	O	O	
+
+#id=10
+#text=Wir hätten manchen Alten für ihn missen können.
+10-1	Wir	PPER	wir	_	O	O	
+10-2	hätten	VAFIN	haben	_	O	O	
+10-3	manchen	PIAT	manche	_	O	O	
+10-4	Alten	NN	Alte	_	O	O	
+10-5	für	APPR	für	_	O	O	
+10-6	ihn	PPER	er	_	O	O	
+10-7	missen	VVINF	missen	_	O	O	
+10-8	können	VMINF	können	_	O	O	
+10-9	.	$.	.	_	O	O	
+
+#id=11
+#text=13* Jan.
+11-1	13*	NE	<unknown>	_	O	O	
+11-2	Jan.	NE	<unknown>	_	O	O	
+
+#id=12
+#text=65 Dein Mommsen.
+12-1	65	CARD	65	_	O	O	
+12-2	Dein	PPOSAT	dein	_	O	O	
+12-3	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-4	.	$.	.	_	O	O	
+

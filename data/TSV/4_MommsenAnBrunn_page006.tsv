@@ -1,0 +1,60 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Neapel, 16. April 1846 Tills letter though.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-4	,	$,	,	_	O	O	
+1-5	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-7	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Tills	NE	Till	_	O	O	
+1-10	letter	ADJA	<unknown>	_	O	O	
+1-11	though	NE	<unknown>	_	O	O	
+1-12	.	$.	.	_	O	O	
+
+#id=2
+#text=X greatly doubt you sha'nt succeed to make it out; so Mr.
+2-1	X	NE	x	_	O	O	
+2-2	greatly	NE	<unknown>	_	O	O	
+2-3	doubt	VVFIN	<unknown>	_	O	O	
+2-4	you	NE	you	_	O	O	
+2-5	sha'nt	VVFIN	<unknown>	_	O	O	
+2-6	succeed	NE	<unknown>	_	O	O	
+2-7	to	FM	to	_	O	O	
+2-8	make	FM	make	_	O	O	
+2-9	it	FM	it	_	O	O	
+2-10	out	FM	out	_	O	O	
+2-11	;	$.	;	_	O	O	
+2-12	so	ADV	so	_	O	O	
+2-13	Mr.	NN	Mr.	_	O	O	
+
+#id=3
+#text=Henzen is begged to state if anything beside the date you have been able to translate.
+3-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	is	NE	is	_	O	O	
+3-3	begged	NE	<unknown>	_	O	O	
+3-4	to	NE	to	_	O	O	
+3-5	state	VVFIN	<unknown>	_	O	O	
+3-6	if	NE	if	_	O	O	
+3-7	anything	VVFIN	<unknown>	_	O	O	
+3-8	beside	NE	<unknown>	_	O	O	
+3-9	the	FM	the	_	O	O	
+3-10	date	NE	<unknown>	_	O	O	
+3-11	you	NE	you	_	O	O	
+3-12	have	ADJA	<unknown>	_	O	O	
+3-13	been	ADJA	<unknown>	_	O	O	
+3-14	able	ADJA	<unknown>	_	O	O	
+3-15	to	NE	to	_	O	O	
+3-16	translate	VVFIN	<unknown>	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Naples April 16th 1846 Mommsen
+4-1	Naples	ADJA	<unknown>	_	O	O	
+4-2	April	NN	April	_	O	O	
+4-3	16th	NE	<unknown>	_	O	O	
+4-4	1846	CARD	@card@	_	O	O	
+4-5	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

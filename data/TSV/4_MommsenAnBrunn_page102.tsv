@@ -1,0 +1,289 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Breslau, 4, Dezember 1856 Lieber BrunnI Sieh dies nicht als einen Brief an, am wenigsten als einen Gratulationsbrief, wie es jetzt sich eignete?
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Breslau	NE	Breslau	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	4	CARD	4	_	O	O	
+1-7	,	$,	,	_	O	O	
+1-8	Dezember	NN	Dezember	_	O	O	
+1-9	1856	CARD	@card@	_	O	O	
+1-10	Lieber	NN	Liebe	_	O	O	
+1-11	BrunnI	NE	<unknown>	_	O	O	
+1-12	Sieh	NN	<unknown>	_	O	O	
+1-13	dies	PDS	dies	_	O	O	
+1-14	nicht	PTKNEG	nicht	_	O	O	
+1-15	als	KOKOM	als	_	O	O	
+1-16	einen	ART	eine	_	O	O	
+1-17	Brief	NN	Brief	_	O	O	
+1-18	an	PTKVZ	an	_	O	O	
+1-19	,	$,	,	_	O	O	
+1-20	am	APPRART	an	_	O	O	
+1-21	wenigsten	PIS	wenigste	_	O	O	
+1-22	als	KOKOM	als	_	O	O	
+1-23	einen	ART	eine	_	O	O	
+1-24	Gratulationsbrief	NN	<unknown>	_	O	O	
+1-25	,	$,	,	_	O	O	
+1-26	wie	KOUS	wie	_	O	O	
+1-27	es	PPER	es	_	O	O	
+1-28	jetzt	ADV	jetzt	_	O	O	
+1-29	sich	PRF	sich	_	O	O	
+1-30	eignete	VVFIN	eignen	_	O	O	
+1-31	?	$.	?	_	O	O	
+
+#id=2
+#text=ich habe so viel zu thun, daß ich gar nichts mehr thue und nichts schreibe als Zettel.
+2-1	ich	PPER	ich	_	O	O	
+2-2	habe	VAFIN	haben	_	O	O	
+2-3	so	ADV	so	_	O	O	
+2-4	viel	ADV	viel	_	O	O	
+2-5	zu	APPR	zu	_	O	O	
+2-6	thun	NE	<unknown>	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	daß	KOUS	dass	_	O	O	
+2-9	ich	PPER	ich	_	O	O	
+2-10	gar	ADV	gar	_	O	O	
+2-11	nichts	PIS	nichts	_	O	O	
+2-12	mehr	ADV	mehr	_	O	O	
+2-13	thue	NE	<unknown>	_	O	O	
+2-14	und	KON	und	_	O	O	
+2-15	nichts	PIS	nichts	_	O	O	
+2-16	schreibe	VVFIN	schreiben	_	O	O	
+2-17	als	KOKOM	als	_	O	O	
+2-18	Zettel	NN	Zettel	_	O	O	
+2-19	.	$.	.	_	O	O	
+
+#id=3
+#text=Hier sind die Epigraphien für Henzen; zugleich einige Briefe.
+3-1	Hier	ADV	hier	_	O	O	
+3-2	sind	VAFIN	sein	_	O	O	
+3-3	die	ART	die	_	O	O	
+3-4	Epigraphien	NN	<unknown>	_	O	O	
+3-5	für	APPR	für	_	O	O	
+3-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-7	;	$.	;	_	O	O	
+3-8	zugleich	ADV	zugleich	_	O	O	
+3-9	einige	PIAT	einige	_	O	O	
+3-10	Briefe	NN	Brief	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=Lotze, Mikrokosmos - Prau Henzen Schmidt, Litt.
+4-1	Lotze	NN	<unknown>	_	O	O	
+4-2	,	$,	,	_	O	O	
+4-3	Mikrokosmos	NN	Mikrokosmos	_	O	O	
+4-4	-	$(	-	_	O	O	
+4-5	Prau	ADJA	<unknown>	_	O	O	
+4-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-7	Schmidt	NE	Schmidt	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-8	,	$,	,	_	O	O	
+4-9	Litt	NE	<unknown>	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Geschichte - Henzen masc.
+5-1	Geschichte	NN	Geschichte	_	O	O	
+5-2	-	$(	-	_	O	O	
+5-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	masc	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-5	.	$.	.	_	O	O	
+
+#id=6
+#text=Rüdiger, 2 Abhdgn.
+6-1	Rüdiger	NE	Rüdiger	_	O	O	
+6-2	,	$,	,	_	O	O	
+6-3	2	CARD	2	_	O	O	
+6-4	Abhdgn	NN	<unknown>	_	O	O	
+6-5	.	$.	.	_	O	O	
+
+#id=7
+#text=-	" Dracontius de deo, 2 Abh.
+7-1	-	$(	-	_	O	O	
+7-2	"	$(	"	_	O	O	
+7-3	Dracontius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-4	de	NE	de	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-5	deo	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-6	,	$,	,	_	O	O	
+7-7	2	CARD	2	_	O	O	
+7-8	Abh	NE	<unknown>	_	O	O	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=-Gregorius Turonensis für Rossi Petri Victorii quistolae -Petrarca de viris illustr.
+8-1	-Gregorius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	Turonensis	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-3	für	APPR	für	_	O	O	
+8-4	Rossi	NE	Rossi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-5	Petri	NE	Petri	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-6	Victorii	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-7	quistolae	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-8	-Petrarca	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-9	de	NE	de	_	O	O	
+8-10	viris	ADJA	<unknown>	_	O	O	
+8-11	illustr.	NN	<unknown>	_	O	O	
+
+#id=9
+#text=4 Abh.
+9-1	4	CARD	4	_	O	O	
+9-2	Abh	NN	<unknown>	_	O	O	
+9-3	.	$.	.	_	O	O	
+
+#id=10
+#text=Mit dem Rest kann Henzen nach Gefallen verfahren und es entweder selbst nehmen oder an Rossi oder das Institut geben.
+10-1	Mit	APPR	mit	_	O	O	
+10-2	dem	ART	die	_	O	O	
+10-3	Rest	NN	Rest	_	O	O	
+10-4	kann	VMFIN	können	_	O	O	
+10-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-6	nach	APPR	nach	_	O	O	
+10-7	Gefallen	NN	Gefallen	_	O	O	
+10-8	verfahren	VVINF	verfahren	_	O	O	
+10-9	und	KON	und	_	O	O	
+10-10	es	PPER	es	_	O	O	
+10-11	entweder	KON	entweder	_	O	O	
+10-12	selbst	ADV	selbst	_	O	O	
+10-13	nehmen	VVINF	nehmen	_	O	O	
+10-14	oder	KON	oder	_	O	O	
+10-15	an	APPR	an	_	O	O	
+10-16	Rossi	NE	Rossi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-17	oder	KON	oder	_	O	O	
+10-18	das	ART	die	_	O	O	
+10-19	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-20	geben	VVINF	geben	_	O	O	
+10-21	.	$.	.	_	O	O	
+
+#id=11
+#text=Hätte ich mehr Zeit, so hätte ich mehr geschickt; Du wirst Dich dessen freuen.
+11-1	Hätte	VAFIN	haben	_	O	O	
+11-2	ich	PPER	ich	_	O	O	
+11-3	mehr	PIAT	mehr	_	O	O	
+11-4	Zeit	NN	Zeit	_	O	O	
+11-5	,	$,	,	_	O	O	
+11-6	so	ADV	so	_	O	O	
+11-7	hätte	VAFIN	haben	_	O	O	
+11-8	ich	PPER	ich	_	O	O	
+11-9	mehr	ADV	mehr	_	O	O	
+11-10	geschickt	ADJD	geschickt	_	O	O	
+11-11	;	$.	;	_	O	O	
+11-12	Du	PPER	du	_	O	O	
+11-13	wirst	VAFIN	werden	_	O	O	
+11-14	Dich	PPER	du	_	O	O	
+11-15	dessen	PDS	die	_	O	O	
+11-16	freuen	VVINF	freuen	_	O	O	
+11-17	.	$.	.	_	O	O	
+
+#id=12
+#text=Eben wie ich dies Blatt vor mir habe, kommt Deine plinianische Arbeit.
+12-1	Eben	ADV	eben	_	O	O	
+12-2	wie	KOUS	wie	_	O	O	
+12-3	ich	PPER	ich	_	O	O	
+12-4	dies	PDAT	dies	_	O	O	
+12-5	Blatt	NN	Blatt	_	O	O	
+12-6	vor	APPR	vor	_	O	O	
+12-7	mir	PPER	ich	_	O	O	
+12-8	habe	VAFIN	haben	_	O	O	
+12-9	,	$,	,	_	O	O	
+12-10	kommt	VVFIN	kommen	_	O	O	
+12-11	Deine	PPOSAT	dein	_	O	O	
+12-12	plinianische	ADJA	<unknown>	_	O	O	
+12-13	Arbeit	NN	Arbeit	_	O	O	
+12-14	.	$.	.	_	O	O	
+
+#id=13
+#text=Ich kann nur hineinriechen, aber es freut mich schon die That.
+13-1	Ich	PPER	ich	_	O	O	
+13-2	kann	VMFIN	können	_	O	O	
+13-3	nur	ADV	nur	_	O	O	
+13-4	hineinriechen	VVINF	<unknown>	_	O	O	
+13-5	,	$,	,	_	O	O	
+13-6	aber	KON	aber	_	O	O	
+13-7	es	PPER	es	_	O	O	
+13-8	freut	VVFIN	freuen	_	O	O	
+13-9	mich	PRF	ich	_	O	O	
+13-10	schon	ADV	schon	_	O	O	
+13-11	die	ART	die	_	O	O	
+13-12	That	NE	<unknown>	_	O	O	
+13-13	.	$.	.	_	O	O	
+
+#id=14
+#text=Auch Dein Brief hat mich gefreut.
+14-1	Auch	ADV	auch	_	O	O	
+14-2	Dein	PPOSAT	dein	_	O	O	
+14-3	Brief	NN	Brief	_	O	O	
+14-4	hat	VAFIN	haben	_	O	O	
+14-5	mich	PRF	ich	_	O	O	
+14-6	gefreut	VVPP	freuen	_	O	O	
+14-7	.	$.	.	_	O	O	
+
+#id=15
+#text=Man ist nichts, wenn man da wo man ist nicht ganz ist; und vor allem in Rom, wo man vom Publicum auch gar keinen Rückschlag empfängt und sich den Muth zum Schreiben - es gehört einer dazu -aus den Ringern saugen muß.
+15-1	Man	PIS	man	_	O	O	
+15-2	ist	VAFIN	sein	_	O	O	
+15-3	nichts	PIS	nichts	_	O	O	
+15-4	,	$,	,	_	O	O	
+15-5	wenn	KOUS	wenn	_	O	O	
+15-6	man	PIS	man	_	O	O	
+15-7	da	KOUS	da	_	O	O	
+15-8	wo	PWAV	wo	_	O	O	
+15-9	man	PIS	man	_	O	O	
+15-10	ist	VAFIN	sein	_	O	O	
+15-11	nicht	PTKNEG	nicht	_	O	O	
+15-12	ganz	ADJD	ganz	_	O	O	
+15-13	ist	VAFIN	sein	_	O	O	
+15-14	;	$.	;	_	O	O	
+15-15	und	KON	und	_	O	O	
+15-16	vor	APPR	vor	_	O	O	
+15-17	allem	PIS	alle	_	O	O	
+15-18	in	APPR	in	_	O	O	
+15-19	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+15-20	,	$,	,	_	O	O	
+15-21	wo	PWAV	wo	_	O	O	
+15-22	man	PIS	man	_	O	O	
+15-23	vom	APPRART	von	_	O	O	
+15-24	Publicum	NN	<unknown>	_	O	O	
+15-25	auch	ADV	auch	_	O	O	
+15-26	gar	ADV	gar	_	O	O	
+15-27	keinen	PIAT	keine	_	O	O	
+15-28	Rückschlag	NN	Rückschlag	_	O	O	
+15-29	empfängt	VVFIN	empfangen	_	O	O	
+15-30	und	KON	und	_	O	O	
+15-31	sich	PRF	sich	_	O	O	
+15-32	den	ART	die	_	O	O	
+15-33	Muth	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-34	zum	APPRART	zu	_	O	O	
+15-35	Schreiben	NN	Schreiben	_	O	O	
+15-36	-	$(	-	_	O	O	
+15-37	es	PPER	es	_	O	O	
+15-38	gehört	VVFIN	gehören	_	O	O	
+15-39	einer	PIS	eine	_	O	O	
+15-40	dazu	PAV	dazu	_	O	O	
+15-41	-aus	NN	<unknown>	_	O	O	
+15-42	den	ART	die	_	O	O	
+15-43	Ringern	NN	Ringer	_	O	O	
+15-44	saugen	VVINF	saugen	_	O	O	
+15-45	muß	VMFIN	müssen	_	O	O	
+15-46	.	$.	.	_	O	O	
+
+#id=16
+#text=Aber Du hast Recht, daß wir Euch Rückhalt schuldig sind; es soll auch von meiner Seite
+16-1	Aber	KON	aber	_	O	O	
+16-2	Du	PPER	du	_	O	O	
+16-3	hast	VAFIN	haben	_	O	O	
+16-4	Recht	NN	Recht	_	O	O	
+16-5	,	$,	,	_	O	O	
+16-6	daß	KOUS	dass	_	O	O	
+16-7	wir	PPER	wir	_	O	O	
+16-8	Euch	PPER	ihr	_	O	O	
+16-9	Rückhalt	NN	Rückhalt	_	O	O	
+16-10	schuldig	ADJD	schuldig	_	O	O	
+16-11	sind	VAFIN	sein	_	O	O	
+16-12	;	$.	;	_	O	O	
+16-13	es	PPER	es	_	O	O	
+16-14	soll	VMFIN	sollen	_	O	O	
+16-15	auch	ADV	auch	_	O	O	
+16-16	von	APPR	von	_	O	O	
+16-17	meiner	PPOSAT	mein	_	O	O	
+16-18	Seite	NN	Seite	_	O	O	
+

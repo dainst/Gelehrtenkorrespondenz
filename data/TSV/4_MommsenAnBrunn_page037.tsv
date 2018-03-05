@@ -1,0 +1,301 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn - 3 - Leipzig* 31. Dezember 184c.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	O	O	
+1-4	-	$(	-	_	O	O	
+1-5	3	CARD	3	_	O	O	
+1-6	-	$(	-	_	O	O	
+1-7	Leipzig*	NN	<unknown>	_	O	O	
+1-8	31	CARD	31	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-10	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-11	184c	NE	<unknown>	_	O	O	
+1-12	.	$.	.	_	O	O	
+
+#id=2
+#text=müßten auch gessi davon bei Campana existiren.
+2-1	müßten	VMFIN	müssen	_	O	O	
+2-2	auch	ADV	auch	_	O	O	
+2-3	gessi	VVFIN	<unknown>	_	O	O	
+2-4	davon	PAV	davon	_	O	O	
+2-5	bei	APPR	bei	_	O	O	
+2-6	Campana	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-7	existiren	ADJD	<unknown>	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Berner hätte ich gern eine Copie der Inschriften auf der cista Praene-stina im Kirch.
+3-1	Berner	NN	Berner	_	O	O	
+3-2	hätte	VAFIN	haben	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	gern	ADV	gern	_	O	O	
+3-5	eine	ART	eine	_	O	O	
+3-6	Copie	NN	<unknown>	_	O	O	
+3-7	der	ART	die	_	O	O	
+3-8	Inschriften	NN	Inschrift	_	O	O	
+3-9	auf	APPR	auf	_	O	O	
+3-10	der	ART	die	_	O	O	
+3-11	cista	NE	<unknown>	_	O	O	
+3-12	Praene-stina	NE	<unknown>	_	O	O	
+3-13	im	APPRART	in	_	O	O	
+3-14	Kirch	NE	<unknown>	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=» welche Brauns hohe Weisheit als nicht zur Sache gehörig bei seinem Stich weggelassen hat.
+4-1	»	NN	<unknown>	_	O	O	
+4-2	welche	PIAT	welche	_	O	O	
+4-3	Brauns	NN	Braun	_	O	O	
+4-4	hohe	ADJA	hoch	_	O	O	
+4-5	Weisheit	NN	Weisheit	_	O	O	
+4-6	als	KOKOM	als	_	O	O	
+4-7	nicht	PTKNEG	nicht	_	O	O	
+4-8	zur	APPRART	zu	_	O	O	
+4-9	Sache	NN	Sache	_	O	O	
+4-10	gehörig	ADJD	gehörig	_	O	O	
+4-11	bei	APPR	bei	_	O	O	
+4-12	seinem	PPOSAT	sein	_	O	O	
+4-13	Stich	NN	Stich	_	O	O	
+4-14	weggelassen	VVPP	weglassen	_	O	O	
+4-15	hat	VAFIN	haben	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Die bisherigen Stiche von Maffei und Lanzi genügen nicht.
+5-1	Die	ART	die	_	O	O	
+5-2	bisherigen	ADJA	bisherig	_	O	O	
+5-3	Stiche	NN	Stich	_	O	O	
+5-4	von	APPR	von	_	O	O	
+5-5	Maffei	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-6	und	KON	und	_	O	O	
+5-7	Lanzi	NE	<unknown>	_	O	O	
+5-8	genügen	VVFIN	genügen	_	O	O	
+5-9	nicht	PTKNEG	nicht	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Rocchi's und Marchi's schöne Seelen thun Dir schon um meinetwillen das gern zu Gefallen.
+6-1	Rocchi's	VVIMP	<unknown>	_	O	O	
+6-2	und	KON	und	_	O	O	
+6-3	Marchi's	VVIMP	<unknown>	_	O	O	
+6-4	schöne	ADJA	schön	_	O	O	
+6-5	Seelen	NN	Seele	_	O	O	
+6-6	thun	VVFIN	<unknown>	_	O	O	
+6-7	Dir	PPER	du	_	O	O	
+6-8	schon	ADV	schon	_	O	O	
+6-9	um	APPR	um	_	O	O	
+6-10	meinetwillen	ADV	meinetwillen	_	O	O	
+6-11	das	ART	die	_	O	O	
+6-12	gern	ADV	gern	_	O	O	
+6-13	zu	APPR	zu	_	O	O	
+6-14	Gefallen	NN	Gefallen	_	O	O	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=- Auch über der AD SAXV des Kalenders (s* den Brief an Rossi) hätte ich gern Deine Meinung.
+7-1	-	$(	-	_	O	O	
+7-2	Auch	ADV	auch	_	O	O	
+7-3	über	APPR	über	_	O	O	
+7-4	der	ART	die	_	O	O	
+7-5	AD	NN	<unknown>	_	O	O	
+7-6	SAXV	NE	<unknown>	_	O	O	
+7-7	des	ART	die	_	O	O	
+7-8	Kalenders	NN	Kalender	_	O	O	
+7-9	(	$(	(	_	O	O	
+7-10	s*	VVFIN	<unknown>	_	O	O	
+7-11	den	ART	die	_	O	O	
+7-12	Brief	NN	Brief	_	O	O	
+7-13	an	APPR	an	_	O	O	
+7-14	Rossi	NE	Rossi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-15	)	$(	)	_	O	O	
+7-16	hätte	VAFIN	haben	_	O	O	
+7-17	ich	PPER	ich	_	O	O	
+7-18	gern	ADV	gern	_	O	O	
+7-19	Deine	PPOSAT	dein	_	O	O	
+7-20	Meinung	NN	Meinung	_	O	O	
+7-21	.	$.	.	_	O	O	
+
+#id=8
+#text=Glaube nicht, daß ich das Leidige in Deiner Stellung verkenne; aber dessen ungeachtet würde ich nicht daran denken sie aufzugeben - wenigstens glaube ich das.
+8-1	Glaube	VVFIN	glauben	_	O	O	
+8-2	nicht	PTKNEG	nicht	_	O	O	
+8-3	,	$,	,	_	O	O	
+8-4	daß	KOUS	dass	_	O	O	
+8-5	ich	PPER	ich	_	O	O	
+8-6	das	ART	die	_	O	O	
+8-7	Leidige	NN	Leidige	_	O	O	
+8-8	in	APPR	in	_	O	O	
+8-9	Deiner	PPOSAT	dein	_	O	O	
+8-10	Stellung	NN	Stellung	_	O	O	
+8-11	verkenne	VVFIN	verkennen	_	O	O	
+8-12	;	$.	;	_	O	O	
+8-13	aber	ADV	aber	_	O	O	
+8-14	dessen	PDAT	die	_	O	O	
+8-15	ungeachtet	APPO	ungeachtet	_	O	O	
+8-16	würde	VAFIN	werden	_	O	O	
+8-17	ich	PPER	ich	_	O	O	
+8-18	nicht	PTKNEG	nicht	_	O	O	
+8-19	daran	PAV	daran	_	O	O	
+8-20	denken	VVFIN	denken	_	O	O	
+8-21	sie	PPER	sie	_	O	O	
+8-22	aufzugeben	VVIZU	aufgeben	_	O	O	
+8-23	-	$(	-	_	O	O	
+8-24	wenigstens	ADV	wenigstens	_	O	O	
+8-25	glaube	VVFIN	glauben	_	O	O	
+8-26	ich	PPER	ich	_	O	O	
+8-27	das	PDS	die	_	O	O	
+8-28	.	$.	.	_	O	O	
+
+#id=9
+#text=Es ist unendlich schwer selbst unter günstigen Verhältnissen von Italien nach Deutschland zurückzukehren, und Sprache, Sitte, Klima, Beschäftigung ganz zu ändern, eigentlich auch neue Studien anzufangen, denn was man dort treibt, kann man hier nicht brauchen, und umgekehrt.
+9-1	Es	PPER	es	_	O	O	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	unendlich	ADJD	unendlich	_	O	O	
+9-4	schwer	ADJD	schwer	_	O	O	
+9-5	selbst	ADV	selbst	_	O	O	
+9-6	unter	APPR	unter	_	O	O	
+9-7	günstigen	ADJA	günstig	_	O	O	
+9-8	Verhältnissen	NN	Verhältnis	_	O	O	
+9-9	von	APPR	von	_	O	O	
+9-10	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-11	nach	APPR	nach	_	O	O	
+9-12	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-13	zurückzukehren	VVIZU	zurückkehren	_	O	O	
+9-14	,	$,	,	_	O	O	
+9-15	und	KON	und	_	O	O	
+9-16	Sprache	NN	Sprache	_	O	O	
+9-17	,	$,	,	_	O	O	
+9-18	Sitte	NN	Sitte	_	O	O	
+9-19	,	$,	,	_	O	O	
+9-20	Klima	NN	Klima	_	O	O	
+9-21	,	$,	,	_	O	O	
+9-22	Beschäftigung	NN	Beschäftigung	_	O	O	
+9-23	ganz	ADV	ganz	_	O	O	
+9-24	zu	PTKZU	zu	_	O	O	
+9-25	ändern	VVINF	ändern	_	O	O	
+9-26	,	$,	,	_	O	O	
+9-27	eigentlich	ADV	eigentlich	_	O	O	
+9-28	auch	ADV	auch	_	O	O	
+9-29	neue	ADJA	neu	_	O	O	
+9-30	Studien	NN	Studie|Studium	_	O	O	
+9-31	anzufangen	VVIZU	anfangen	_	O	O	
+9-32	,	$,	,	_	O	O	
+9-33	denn	KON	denn	_	O	O	
+9-34	was	PRELS	was	_	O	O	
+9-35	man	PIS	man	_	O	O	
+9-36	dort	ADV	dort	_	O	O	
+9-37	treibt	VVFIN	treiben	_	O	O	
+9-38	,	$,	,	_	O	O	
+9-39	kann	VMFIN	können	_	O	O	
+9-40	man	PIS	man	_	O	O	
+9-41	hier	ADV	hier	_	O	O	
+9-42	nicht	PTKNEG	nicht	_	O	O	
+9-43	brauchen	VVINF	brauchen	_	O	O	
+9-44	,	$,	,	_	O	O	
+9-45	und	KON	und	_	O	O	
+9-46	umgekehrt	ADJD	umgekehrt	_	O	O	
+9-47	.	$.	.	_	O	O	
+
+#id=10
+#text=Nimm Gerhard !
+10-1	Nimm	VVIMP	nehmen	_	O	O	
+10-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+10-3	!	$.	!	_	O	O	
+
+#id=11
+#text=Und ist Dir eine Gymnasialstelle in Deutschland gewisser als eine Anstellung im Institut in Rom, quandoché sia ?
+11-1	Und	KON	und	_	O	O	
+11-2	ist	VAFIN	sein	_	O	O	
+11-3	Dir	PPER	du	_	O	O	
+11-4	eine	ART	eine	_	O	O	
+11-5	Gymnasialstelle	NN	<unknown>	_	O	O	
+11-6	in	APPR	in	_	O	O	
+11-7	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-8	gewisser	ADJD	gewiss	_	O	O	
+11-9	als	KOKOM	als	_	O	O	
+11-10	eine	ART	eine	_	O	O	
+11-11	Anstellung	NN	Anstellung	_	O	O	
+11-12	im	APPRART	in	_	O	O	
+11-13	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+11-14	in	APPR	in	_	O	O	
+11-15	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-16	,	$,	,	_	O	O	
+11-17	quandoché	NE	<unknown>	_	O	O	
+11-18	sia	NE	<unknown>	_	O	O	
+11-19	?	$.	?	_	O	O	
+
+#id=12
+#text=Denn freilich kennen wir die berliner Placirungstaktik.
+12-1	Denn	KON	denn	_	O	O	
+12-2	freilich	ADV	freilich	_	O	O	
+12-3	kennen	VVFIN	kennen	_	O	O	
+12-4	wir	PPER	wir	_	O	O	
+12-5	die	ART	die	_	O	O	
+12-6	berliner	ADJA	Berliner	_	O	O	
+12-7	Placirungstaktik	NN	<unknown>	_	O	O	
+12-8	.	$.	.	_	O	O	
+
+#id=13
+#text=Die drückenden Pesseln, die Braun Dir aufgelegt hat, werden Ja sich lösen; und dann hast Du eine leidliche Existenz und einige Aussicht - was hat man anderswo mehr ?
+13-1	Die	ART	die	_	O	O	
+13-2	drückenden	ADJA	drückend	_	O	O	
+13-3	Pesseln	NN	<unknown>	_	O	O	
+13-4	,	$,	,	_	O	O	
+13-5	die	PRELS	die	_	O	O	
+13-6	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+13-7	Dir	PPER	du	_	O	O	
+13-8	aufgelegt	VVPP	auflegen	_	O	O	
+13-9	hat	VAFIN	haben	_	O	O	
+13-10	,	$,	,	_	O	O	
+13-11	werden	VAFIN	werden	_	O	O	
+13-12	Ja	NN	Ja	_	O	O	
+13-13	sich	PRF	sich	_	O	O	
+13-14	lösen	VVINF	lösen	_	O	O	
+13-15	;	$.	;	_	O	O	
+13-16	und	KON	und	_	O	O	
+13-17	dann	ADV	dann	_	O	O	
+13-18	hast	VAFIN	haben	_	O	O	
+13-19	Du	PPER	du	_	O	O	
+13-20	eine	ART	eine	_	O	O	
+13-21	leidliche	ADJA	leidlich	_	O	O	
+13-22	Existenz	NN	Existenz	_	O	O	
+13-23	und	KON	und	_	O	O	
+13-24	einige	PIAT	einige	_	O	O	
+13-25	Aussicht	NN	Aussicht	_	O	O	
+13-26	-	$(	-	_	O	O	
+13-27	was	PWS	was	_	O	O	
+13-28	hat	VAFIN	haben	_	O	O	
+13-29	man	PIS	man	_	O	O	
+13-30	anderswo	ADV	anderswo	_	O	O	
+13-31	mehr	ADV	mehr	_	O	O	
+13-32	?	$.	?	_	O	O	
+
+#id=14
+#text=Braun hab ich hier gesehen mit seiner Lady; er hat mich stark turbirt, daß ich auch mein Maul lösen mußte* was ich
+14-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	hab	VAIMP	haben	_	O	O	
+14-3	ich	PPER	ich	_	O	O	
+14-4	hier	ADV	hier	_	O	O	
+14-5	gesehen	VVPP	sehen	_	O	O	
+14-6	mit	APPR	mit	_	O	O	
+14-7	seiner	PPOSAT	sein	_	O	O	
+14-8	Lady	NN	Lady	_	O	O	
+14-9	;	$.	;	_	O	O	
+14-10	er	PPER	er	_	O	O	
+14-11	hat	VAFIN	haben	_	O	O	
+14-12	mich	PRF	ich	_	O	O	
+14-13	stark	ADJD	stark	_	O	O	
+14-14	turbirt	ADJD	<unknown>	_	O	O	
+14-15	,	$,	,	_	O	O	
+14-16	daß	KOUS	dass	_	O	O	
+14-17	ich	PPER	ich	_	O	O	
+14-18	auch	ADV	auch	_	O	O	
+14-19	mein	PPOSAT	mein	_	O	O	
+14-20	Maul	NN	Maul	_	O	O	
+14-21	lösen	VVINF	lösen	_	O	O	
+14-22	mußte*	VVFIN	<unknown>	_	O	O	
+14-23	was	PIS	was	_	O	O	
+14-24	ich	PPER	ich	_	O	O	
+

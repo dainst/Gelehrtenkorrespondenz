@@ -1,0 +1,39 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn ohne Ort/ohne Datum Lieber Brunn- Wir bitten Dich Donnerstag Abend zu uns zu kommen.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	O	O	
+1-4	ohne	APPR	ohne	_	O	O	
+1-5	Ort/ohne	NE	<unknown>	_	O	O	
+1-6	Datum	NN	Datum	_	O	O	
+1-7	Lieber	ADJA	lieb	_	O	O	
+1-8	Brunn-	TRUNC	<unknown>	_	O	O	
+1-9	Wir	PPER	wir	_	O	O	
+1-10	bitten	VVFIN	bitten	_	O	O	
+1-11	Dich	PPER	du	_	O	O	
+1-12	Donnerstag	NN	Donnerstag	_	O	O	
+1-13	Abend	NN	Abend	_	O	O	
+1-14	zu	APPR	zu	_	O	O	
+1-15	uns	PPER	wir	_	O	O	
+1-16	zu	PTKZU	zu	_	O	O	
+1-17	kommen	VVINF	kommen	_	O	O	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Du findest wohl nur Brunn und Hercher.
+2-1	Du	PPER	du	_	O	O	
+2-2	findest	VVFIN	finden	_	O	O	
+2-3	wohl	ADV	wohl	_	O	O	
+2-4	nur	ADV	nur	_	O	O	
+2-5	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-6	und	KON	und	_	O	O	
+2-7	Hercher	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Montag Dein M*
+3-1	Montag	NN	Montag	_	O	O	
+3-2	Dein	PPOSAT	dein	_	O	O	
+3-3	M*	NN	<unknown>	_	O	O	
+

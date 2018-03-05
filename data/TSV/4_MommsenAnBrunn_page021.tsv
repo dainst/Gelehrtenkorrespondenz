@@ -1,0 +1,124 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Sorrent, 26# August 1846 - 2 - und.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	Sorrent	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-5	,	$,	,	_	O	O	
+1-6	26#	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	-	$(	-	_	O	O	
+1-10	2	CARD	2	_	O	O	
+1-11	-	$(	-	_	O	O	
+1-12	und	KON	und	_	O	O	
+1-13	.	$.	.	_	O	O	
+
+#id=2
+#text=seinen Yignen über der Erde.
+2-1	seinen	PPOSAT	sein	_	O	O	
+2-2	Yignen	NE	<unknown>	_	O	O	
+2-3	über	APPR	über	_	O	O	
+2-4	der	ART	die	_	O	O	
+2-5	Erde	NN	Erde	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Trauben sind köstlich, wir schwelgen darin und bereiten uns so auf Deutschland vor* Addio* Th. M. Sorrent 26 Aug. 1846 Hat Raoul'-Eochette gegen Braun replicirt ?
+3-1	Die	ART	die	_	O	O	
+3-2	Trauben	NN	Traube	_	O	O	
+3-3	sind	VAFIN	sein	_	O	O	
+3-4	köstlich	ADJD	köstlich	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	wir	PPER	wir	_	O	O	
+3-7	schwelgen	VVFIN	schwelgen	_	O	O	
+3-8	darin	PAV	darin	_	O	O	
+3-9	und	KON	und	_	O	O	
+3-10	bereiten	VVFIN	bereiten	_	O	O	
+3-11	uns	PPER	wir	_	O	O	
+3-12	so	ADV	so	_	O	O	
+3-13	auf	APPR	auf	_	O	O	
+3-14	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-15	vor*	ADJA	<unknown>	_	O	O	
+3-16	Addio*	NN	<unknown>	_	O	O	
+3-17	Th.	NE	Th.	_	O	O	
+3-18	M.	NE	M.	_	O	O	
+3-19	Sorrent	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-20	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-21	Aug.	NN	Aug.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-22	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-23	Hat	VAFIN	haben	_	O	O	
+3-24	Raoul'-Eochette	NN	<unknown>	_	O	O	
+3-25	gegen	APPR	gegen	_	O	O	
+3-26	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-27	replicirt	NN	<unknown>	_	O	O	
+3-28	?	$.	?	_	O	O	
+
+#id=4
+#text=(von anderer Hand): Lieber Brunn, obwohl ich nicht so glücklich bin, Briefe oder Grüße (so viel ich erfahren) von Dir erhalten zu haben, sollst Du doch hier wieder einige Aufträge haben.
+4-1	(	$(	(	_	O	O	
+4-2	von	APPR	von	_	O	O	
+4-3	anderer	PIAT	andere	_	O	O	
+4-4	Hand	NN	Hand	_	O	O	
+4-5	)	$(	)	_	O	O	
+4-6	:	$.	:	_	O	O	
+4-7	Lieber	ADJA	lieb	_	O	O	
+4-8	Brunn	NN	Brunn	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	obwohl	KOUS	obwohl	_	O	O	
+4-11	ich	PPER	ich	_	O	O	
+4-12	nicht	PTKNEG	nicht	_	O	O	
+4-13	so	ADV	so	_	O	O	
+4-14	glücklich	ADJD	glücklich	_	O	O	
+4-15	bin	VAFIN	sein	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	Briefe	NN	Brief	_	O	O	
+4-18	oder	KON	oder	_	O	O	
+4-19	Grüße	NN	Gruß	_	O	O	
+4-20	(	$(	(	_	O	O	
+4-21	so	ADV	so	_	O	O	
+4-22	viel	ADV	viel	_	O	O	
+4-23	ich	PPER	ich	_	O	O	
+4-24	erfahren	VVPP	erfahren	_	O	O	
+4-25	)	$(	)	_	O	O	
+4-26	von	APPR	von	_	O	O	
+4-27	Dir	PPER	du	_	O	O	
+4-28	erhalten	VVPP	erhalten	_	O	O	
+4-29	zu	PTKZU	zu	_	O	O	
+4-30	haben	VAINF	haben	_	O	O	
+4-31	,	$,	,	_	O	O	
+4-32	sollst	VMFIN	sollen	_	O	O	
+4-33	Du	PPER	du	_	O	O	
+4-34	doch	ADV	doch	_	O	O	
+4-35	hier	ADV	hier	_	O	O	
+4-36	wieder	ADV	wieder	_	O	O	
+4-37	einige	PIAT	einige	_	O	O	
+4-38	Aufträge	NN	Auftrag	_	O	O	
+4-39	haben	VAINF	haben	_	O	O	
+4-40	.	$.	.	_	O	O	
+
+#id=5
+#text=Nämlich wenn Briefe für mich kommen so bitte ich sie "bis auf weitere Ordre11- nach Neapel an Götzlof zu senden*
+5-1	Nämlich	ADV	nämlich	_	O	O	
+5-2	wenn	KOUS	wenn	_	O	O	
+5-3	Briefe	NN	Brief	_	O	O	
+5-4	für	APPR	für	_	O	O	
+5-5	mich	PRF	ich	_	O	O	
+5-6	kommen	VVFIN	kommen	_	O	O	
+5-7	so	ADV	so	_	O	O	
+5-8	bitte	VVFIN	bitten	_	O	O	
+5-9	ich	PPER	ich	_	O	O	
+5-10	sie	PPER	sie	_	O	O	
+5-11	"	$(	"	_	O	O	
+5-12	bis	KON	bis	_	O	O	
+5-13	auf	APPR	auf	_	O	O	
+5-14	weitere	ADJA	weit	_	O	O	
+5-15	Ordre11-	NN	<unknown>	_	O	O	
+5-16	nach	APPR	nach	_	O	O	
+5-17	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-18	an	APPR	an	_	O	O	
+5-19	Götzlof	NE	<unknown>	_	O	O	
+5-20	zu	PTKZU	zu	_	O	O	
+5-21	senden*	VVINF	<unknown>	_	O	O	
+

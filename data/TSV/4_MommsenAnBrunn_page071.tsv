@@ -1,0 +1,154 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn hier?
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	O	O	
+1-4	hier	ADV	hier	_	O	O	
+1-5	?	$.	?	_	O	O	
+
+#id=2
+#text=Kirchhoff an Brunn Berlin, 8. Mai 1852 - 2 - 0 nug übrig sei, so würde mir eine Vergleichung des aus Pal. 287 sehr erwünscht sein.
+2-1	Kirchhoff	NE	Kirchhoff	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1852	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	-	$(	-	_	O	O	
+2-11	2	CARD	2	_	O	O	
+2-12	-	$(	-	_	O	O	
+2-13	0	CARD	@card@	_	O	O	
+2-14	nug	NN	<unknown>	_	O	O	
+2-15	übrig	ADJD	übrig	_	O	O	
+2-16	sei	VAFIN	sein	_	O	O	
+2-17	,	$,	,	_	O	O	
+2-18	so	ADV	so	_	O	O	
+2-19	würde	VAFIN	werden	_	O	O	
+2-20	mir	PPER	ich	_	O	O	
+2-21	eine	ART	eine	_	O	O	
+2-22	Vergleichung	NN	Vergleichung	_	O	O	
+2-23	des	ART	die	_	O	O	
+2-24	aus	APPR	aus	_	O	O	
+2-25	Pal	NE	Pal	_	O	O	
+2-26	.	$.	.	_	O	O	
+2-27	287	CARD	@card@	_	O	O	
+2-28	sehr	ADV	sehr	_	O	O	
+2-29	erwünscht	ADJD	erwünscht	_	O	O	
+2-30	sein	VAINF	sein	_	O	O	
+2-31	.	$.	.	_	O	O	
+
+#id=3
+#text=Auf alle Palle sind No.
+3-1	Auf	APPR	auf	_	O	O	
+3-2	alle	PIAT	alle	_	O	O	
+3-3	Palle	NE	Palle	_	O	O	
+3-4	sind	VAFIN	sein	_	O	O	
+3-5	No.	ADJD	<unknown>	_	O	O	
+
+#id=4
+#text=1 und 2 für mich Hauptsache.
+4-1	1	CARD	1	_	O	O	
+4-2	und	KON	und	_	O	O	
+4-3	2	CARD	2	_	O	O	
+4-4	für	APPR	für	_	O	O	
+4-5	mich	PPER	ich	_	O	O	
+4-6	Hauptsache	NN	Hauptsache	_	O	O	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=Das Honorar für 1-5 würde nach Herrn Brauns Angaben die Summe von 20 rtt nicht weit übersteigen und diese Summe steht {jeden Augenblick zu Ihrer Verfügung.
+5-1	Das	ART	die	_	O	O	
+5-2	Honorar	NN	Honorar	_	O	O	
+5-3	für	APPR	für	_	O	O	
+5-4	1-5	CARD	@card@	_	O	O	
+5-5	würde	VAFIN	werden	_	O	O	
+5-6	nach	APPR	nach	_	O	O	
+5-7	Herrn	NN	Herr	_	O	O	
+5-8	Brauns	NE	Braun	_	O	O	
+5-9	Angaben	NN	Angabe	_	O	O	
+5-10	die	ART	die	_	O	O	
+5-11	Summe	NN	Summe	_	O	O	
+5-12	von	APPR	von	_	O	O	
+5-13	20	CARD	20	_	O	O	
+5-14	rtt	NN	<unknown>	_	O	O	
+5-15	nicht	PTKNEG	nicht	_	O	O	
+5-16	weit	ADJD	weit	_	O	O	
+5-17	übersteigen	VVINF	übersteigen	_	O	O	
+5-18	und	KON	und	_	O	O	
+5-19	diese	PDAT	dies	_	O	O	
+5-20	Summe	NN	Summe	_	O	O	
+5-21	steht	VVFIN	stehen	_	O	O	
+5-22	{	$(	{	_	O	O	
+5-23	jeden	PIAT	jede	_	O	O	
+5-24	Augenblick	NN	Augenblick	_	O	O	
+5-25	zu	APPR	zu	_	O	O	
+5-26	Ihrer	PPOSAT	ihr	_	O	O	
+5-27	Verfügung	NN	Verfügung	_	O	O	
+5-28	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich mache dabei von Ihrer Güte abermals Gebrauch, indem ich Ihre Vermittlung in Anspruch nähme; Sie würden mich durch Übernahme derselben recht sehr verpflichten.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	mache	VVFIN	machen	_	O	O	
+6-3	dabei	PAV	dabei	_	O	O	
+6-4	von	APPR	von	_	O	O	
+6-5	Ihrer	PPOSAT	ihr	_	O	O	
+6-6	Güte	NN	Güte	_	O	O	
+6-7	abermals	ADV	abermals	_	O	O	
+6-8	Gebrauch	NN	Gebrauch	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	indem	KOUS	indem	_	O	O	
+6-11	ich	PPER	ich	_	O	O	
+6-12	Ihre	PPOSAT	ihr	_	O	O	
+6-13	Vermittlung	NN	Vermittlung	_	O	O	
+6-14	in	APPR	in	_	O	O	
+6-15	Anspruch	NN	Anspruch	_	O	O	
+6-16	nähme	VVFIN	nehmen	_	O	O	
+6-17	;	$.	;	_	O	O	
+6-18	Sie	PPER	Sie	_	O	O	
+6-19	würden	VAFIN	werden	_	O	O	
+6-20	mich	PRF	ich	_	O	O	
+6-21	durch	APPR	durch	_	O	O	
+6-22	Übernahme	NN	Übernahme	_	O	O	
+6-23	derselben	PDAT	dieselb	_	O	O	
+6-24	recht	ADJD	recht	_	O	O	
+6-25	sehr	ADV	sehr	_	O	O	
+6-26	verpflichten	VVINF	verpflichten	_	O	O	
+6-27	.	$.	.	_	O	O	
+
+#id=7
+#text=Im Voraus für Ihre Güte dankend, empfehle ich mich Ihrem freundschaftlichem Andenken.
+7-1	Im	APPRART	in	_	O	O	
+7-2	Voraus	NN	Voraus	_	O	O	
+7-3	für	APPR	für	_	O	O	
+7-4	Ihre	PPOSAT	ihr	_	O	O	
+7-5	Güte	NN	Güte	_	O	O	
+7-6	dankend	ADJD	dankend	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	empfehle	VVFIN	empfehlen	_	O	O	
+7-9	ich	PPER	ich	_	O	O	
+7-10	mich	PRF	ich	_	O	O	
+7-11	Ihrem	PPOSAT	ihr	_	O	O	
+7-12	freundschaftlichem	ADJA	freundschaftlich	_	O	O	
+7-13	Andenken	NN	Andenken	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Ihr A. Kirchhoff Adresse: Lehrer am Joachimsthal-schen Gymnasium in Berlin.
+8-1	Ihr	PPOSAT	ihr	_	O	O	
+8-2	A.	APPRART	am	_	O	O	
+8-3	Kirchhoff	NE	Kirchhoff	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-4	Adresse	NN	Adresse	_	O	O	
+8-5	:	$.	:	_	O	O	
+8-6	Lehrer	NN	Lehrer	_	O	O	
+8-7	am	APPRART	an	_	O	O	
+8-8	Joachimsthal-schen	NN	<unknown>	_	O	O	
+8-9	Gymnasium	NN	Gymnasium	_	O	O	
+8-10	in	APPR	in	_	O	O	
+8-11	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-12	.	$.	.	_	O	O	
+

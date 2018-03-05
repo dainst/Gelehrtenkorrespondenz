@@ -1,0 +1,47 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Berlin, 17» Februar 1872 - 3 - schreiben solltest, aber unter den giovani dort werben.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	17	CARD	17	_	O	O	
+1-7	»	ADJA	<unknown>	_	O	O	
+1-8	Februar	NN	Februar	_	O	O	
+1-9	1872	CARD	@card@	_	O	O	
+1-10	-	$(	-	_	O	O	
+1-11	3	CARD	3	_	O	O	
+1-12	-	$(	-	_	O	O	
+1-13	schreiben	VVINF	schreiben	_	O	O	
+1-14	solltest	VMFIN	sollen	_	O	O	
+1-15	,	$,	,	_	O	O	
+1-16	aber	ADV	aber	_	O	O	
+1-17	unter	APPR	unter	_	O	O	
+1-18	den	ART	die	_	O	O	
+1-19	giovani	NN	<unknown>	_	O	O	
+1-20	dort	ADV	dort	_	O	O	
+1-21	werben	VVFIN	werben	_	O	O	
+1-22	.	$.	.	_	O	O	
+
+#id=2
+#text=Empfiehl mich Deiner Frau, trotz aller Feindschaft.
+2-1	Empfiehl	VVIMP	<unknown>	_	O	O	
+2-2	mich	PRF	ich	_	O	O	
+2-3	Deiner	PPOSAT	dein	_	O	O	
+2-4	Frau	NN	Frau	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	trotz	APPR	trotz	_	O	O	
+2-7	aller	PIAT	alle	_	O	O	
+2-8	Feindschaft	NN	Feindschaft	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Dein M. B. 17/2	72.
+3-1	Dein	PPOSAT	dein	_	O	O	
+3-2	M.	NE	M.	_	O	O	
+3-3	B.	NN	B.	_	O	O	
+3-4	17/2	CARD	@card@	_	O	O	
+3-5	72	CARD	72	_	O	O	
+3-6	.	$.	.	_	O	O	
+

@@ -1,0 +1,121 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Zürich ?
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	Zürich	NE	Zürich	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-5	?	$.	?	_	O	O	
+
+#id=2
+#text=Dezember 1853 - 4 - Benzen 19* Bov.
+2-1	Dezember	NN	Dezember	_	O	O	
+2-2	1853	CARD	@card@	_	O	O	
+2-3	-	$(	-	_	O	O	
+2-4	4	CARD	4	_	O	O	
+2-5	-	$(	-	_	O	O	
+2-6	Benzen	NN	<unknown>	_	O	O	
+2-7	19*	ADJA	<unknown>	_	O	O	
+2-8	Bov.	NN	<unknown>	_	O	O	
+
+#id=3
+#text=Garrucci ist durch sein Hin» und Herziehen im Lande und durch Verleumdung, die er einem Beamten des Museums zuschreibt, so verdächtig geworden, daß man ihm (1) die Rückkehr verboten hat.
+3-1	Garrucci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	durch	APPR	durch	_	O	O	
+3-4	sein	PPOSAT	sein	_	O	O	
+3-5	Hin	ADV	hin	_	O	O	
+3-6	»	NN	<unknown>	_	O	O	
+3-7	und	KON	und	_	O	O	
+3-8	Herziehen	NN	<unknown>	_	O	O	
+3-9	im	APPRART	in	_	O	O	
+3-10	Lande	NN	Land	_	O	O	
+3-11	und	KON	und	_	O	O	
+3-12	durch	APPR	durch	_	O	O	
+3-13	Verleumdung	NN	Verleumdung	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	die	PRELS	die	_	O	O	
+3-16	er	PPER	er	_	O	O	
+3-17	einem	ART	eine	_	O	O	
+3-18	Beamten	NN	Beamter	_	O	O	
+3-19	des	ART	die	_	O	O	
+3-20	Museums	NN	Museum	_	O	O	
+3-21	zuschreibt	VVFIN	zuschreiben	_	O	O	
+3-22	,	$,	,	_	O	O	
+3-23	so	ADV	so	_	O	O	
+3-24	verdächtig	ADJD	verdächtig	_	O	O	
+3-25	geworden	VAPP	werden	_	O	O	
+3-26	,	$,	,	_	O	O	
+3-27	daß	KOUS	dass	_	O	O	
+3-28	man	PIS	man	_	O	O	
+3-29	ihm	PPER	er	_	O	O	
+3-30	(	$(	(	_	O	O	
+3-31	1	CARD	1	_	O	O	
+3-32	)	$(	)	_	O	O	
+3-33	die	ART	die	_	O	O	
+3-34	Rückkehr	NN	Rückkehr	_	O	O	
+3-35	verboten	VVPP	verbieten	_	O	O	
+3-36	hat	VAFIN	haben	_	O	O	
+3-37	.	$.	.	_	O	O	
+
+#id=4
+#text=Sein Provinzial verhandelt Jetzt darüber.
+4-1	Sein	PPOSAT	sein	_	O	O	
+4-2	Provinzial	NN	Provinzial	_	O	O	
+4-3	verhandelt	VVFIN	verhandeln	_	O	O	
+4-4	Jetzt	ADV	jetzt	_	O	O	
+4-5	darüber	PAV	darüber	_	O	O	
+4-6	.	$.	.	_	O	O	
+
+#id=5
+#text=Auch erzählt der hier angekommene Pater Tosti von M. Cassino * daß dort gleich nach Brunns Abreise Befehl eingetroffen ihn zu arretiren und nach Neapel zurückzuschicken und daß statt seiner alle Mönche streng ver-hört seien.
+5-1	Auch	ADV	auch	_	O	O	
+5-2	erzählt	VVFIN	erzählen	_	O	O	
+5-3	der	ART	die	_	O	O	
+5-4	hier	ADV	hier	_	O	O	
+5-5	angekommene	ADJA	angekommen	_	O	O	
+5-6	Pater	NN	Pater	_	O	O	
+5-7	Tosti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-8	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-9	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-10	Cassino	VVPP	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-11	*	XY	*	_	O	O	
+5-12	daß	KOUS	dass	_	O	O	
+5-13	dort	ADV	dort	_	O	O	
+5-14	gleich	ADJD	gleich	_	O	O	
+5-15	nach	APPR	nach	_	O	O	
+5-16	Brunns	NN	Brunn	_	O	O	
+5-17	Abreise	NN	Abreise	_	O	O	
+5-18	Befehl	NN	Befehl	_	O	O	
+5-19	eingetroffen	VVPP	eintreffen	_	O	O	
+5-20	ihn	PPER	er	_	O	O	
+5-21	zu	PTKA	zu	_	O	O	
+5-22	arretiren	ADJA	<unknown>	_	O	O	
+5-23	und	KON	und	_	O	O	
+5-24	nach	APPR	nach	_	O	O	
+5-25	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-26	zurückzuschicken	VVIZU	zurückschicken	_	O	O	
+5-27	und	KON	und	_	O	O	
+5-28	daß	KOUS	dass	_	O	O	
+5-29	statt	APPR	statt	_	O	O	
+5-30	seiner	PPOSAT	sein	_	O	O	
+5-31	alle	PIAT	alle	_	O	O	
+5-32	Mönche	NN	Mönch	_	O	O	
+5-33	streng	ADJD	streng	_	O	O	
+5-34	ver-hört	NN	<unknown>	_	O	O	
+5-35	seien	VAINF	sein	_	O	O	
+5-36	.	$.	.	_	O	O	
+
+#id=6
+#text=Das fehlte noch um Br. Kreuzzug glorios zu beendigen.
+6-1	Das	PDS	die	_	O	O	
+6-2	fehlte	VVFIN	fehlen	_	O	O	
+6-3	noch	ADV	noch	_	O	O	
+6-4	um	APPR	um	_	O	O	
+6-5	Br.	NE	Br.	_	O	O	
+6-6	Kreuzzug	NN	Kreuzzug	_	O	O	
+6-7	glorios	ADJD	glorios	_	O	O	
+6-8	zu	PTKZU	zu	_	O	O	
+6-9	beendigen	VVINF	beendigen	_	O	O	
+6-10	.	$.	.	_	O	O	
+

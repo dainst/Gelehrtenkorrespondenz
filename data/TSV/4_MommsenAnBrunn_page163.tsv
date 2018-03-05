@@ -1,0 +1,54 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Berlin, 24. Mai 1870 - 5 - Lebe wohl.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	-	$(	-	_	O	O	
+1-11	5	CARD	5	_	O	O	
+1-12	-	$(	-	_	O	O	
+1-13	Lebe	VVFIN	leben	_	O	O	
+1-14	wohl	ADV	wohl	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=Vor Anfang August komme ich nicht fort, wenn überhaupt} also darf ich nichts hoffen Dich zu sehen.
+2-1	Vor	APPR	vor	_	O	O	
+2-2	Anfang	NN	Anfang	_	O	O	
+2-3	August	NE	August	_	O	O	
+2-4	komme	VVFIN	kommen	_	O	O	
+2-5	ich	PPER	ich	_	O	O	
+2-6	nicht	PTKNEG	nicht	_	O	O	
+2-7	fort	PTKVZ	fort	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	wenn	KOUS	wenn	_	O	O	
+2-10	überhaupt	ADV	überhaupt	_	O	O	
+2-11	}	$(	}	_	O	O	
+2-12	also	ADV	also	_	O	O	
+2-13	darf	VMFIN	dürfen	_	O	O	
+2-14	ich	PPER	ich	_	O	O	
+2-15	nichts	PIS	nichts	_	O	O	
+2-16	hoffen	VVFIN	hoffen	_	O	O	
+2-17	Dich	PPER	du	_	O	O	
+2-18	zu	PTKZU	zu	_	O	O	
+2-19	sehen	VVINF	sehen	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Dein M. Berlin Schöneberger Straße 10 24 Mai 1870
+3-1	Dein	PPOSAT	dein	_	O	O	
+3-2	M.	NE	M.	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-4	Schöneberger	NN	Schöneberger	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-5	Straße	NN	Straße	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-6	10	CARD	10	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-7	24	CARD	24	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+

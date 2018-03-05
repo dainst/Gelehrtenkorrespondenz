@@ -1,0 +1,53 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn - 3 - Berlin, 9. Juli 1859 Einer "baldigen und eingehenden Antwort sehen wir demnach von Ihnen und Ihrem Herrn Collegen entgegen.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	O	O	
+1-4	-	$(	-	_	O	O	
+1-5	3	CARD	3	_	O	O	
+1-6	-	$(	-	_	O	O	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-8	,	$,	,	_	O	O	
+1-9	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1859	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Einer	NN	Einer	_	O	O	
+1-14	"	$(	"	_	O	O	
+1-15	baldigen	ADJA	baldig	_	O	O	
+1-16	und	KON	und	_	O	O	
+1-17	eingehenden	ADJA	eingehend	_	O	O	
+1-18	Antwort	NN	Antwort	_	O	O	
+1-19	sehen	VVFIN	sehen	_	O	O	
+1-20	wir	PPER	wir	_	O	O	
+1-21	demnach	PAV	demnach	_	O	O	
+1-22	von	APPR	von	_	O	O	
+1-23	Ihnen	PPER	Sie	_	O	O	
+1-24	und	KON	und	_	O	O	
+1-25	Ihrem	PPOSAT	ihr	_	O	O	
+1-26	Herrn	NN	Herr	_	O	O	
+1-27	Collegen	NN	<unknown>	_	O	O	
+1-28	entgegen	PTKVZ	entgegen	_	O	O	
+1-29	.	$.	.	_	O	O	
+
+#id=2
+#text=Berlin 9. Juli 1859	Gerhard	Lepsius	Mommsen Abeken An das Secretariat des archäologischen Instituts Rom.
+2-1	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-2	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-3	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-4	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-5	1859	ADJA	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-7	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-8	Mommsen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-9	Abeken	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-10	An	APPR	an	_	O	O	
+2-11	das	ART	die	_	O	O	
+2-12	Secretariat	NN	<unknown>	_	O	O	
+2-13	des	ART	die	_	O	O	
+2-14	archäologischen	ADJA	archäologisch	_	O	O	
+2-15	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-16	Rom	NE	Rom	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+2-17	.	$.	.	_	O	O	
+

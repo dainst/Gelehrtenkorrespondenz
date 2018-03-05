@@ -1,0 +1,68 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=- 4 - Mommsen an Brunn Berlin, 10. März 1865 (Über dem Kopf der letzten Seite)s Gehst Du auf den Gedanken wegen des Urnenwerkes ein, so stipulire etwas Besonderes an Reisegeldern für Dich und Zuschuß zur Publication, wenn Du dafür Chance siehst.
+1-1	-	$(	-	_	O	O	
+1-2	4	CARD	4	_	O	O	
+1-3	-	$(	-	_	O	O	
+1-4	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1865	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	(	$(	(	_	O	O	
+1-14	Über	APPR	über	_	O	O	
+1-15	dem	ART	die	_	O	O	
+1-16	Kopf	NN	Kopf	_	O	O	
+1-17	der	ART	die	_	O	O	
+1-18	letzten	ADJA	letzt	_	O	O	
+1-19	Seite)s	NN	<unknown>	_	O	O	
+1-20	Gehst	VVFIN	gehen	_	O	O	
+1-21	Du	PPER	du	_	O	O	
+1-22	auf	APPR	auf	_	O	O	
+1-23	den	ART	die	_	O	O	
+1-24	Gedanken	NN	Gedanke	_	O	O	
+1-25	wegen	APPR	wegen	_	O	O	
+1-26	des	ART	die	_	O	O	
+1-27	Urnenwerkes	NN	<unknown>	_	O	O	
+1-28	ein	PTKVZ	ein	_	O	O	
+1-29	,	$,	,	_	O	O	
+1-30	so	ADV	so	_	O	O	
+1-31	stipulire	NE	<unknown>	_	O	O	
+1-32	etwas	PIAT	etwas	_	O	O	
+1-33	Besonderes	NN	Besondere	_	O	O	
+1-34	an	APPR	an	_	O	O	
+1-35	Reisegeldern	NN	<unknown>	_	O	O	
+1-36	für	APPR	für	_	O	O	
+1-37	Dich	PPER	du	_	O	O	
+1-38	und	KON	und	_	O	O	
+1-39	Zuschuß	NN	Zuschuss	_	O	O	
+1-40	zur	APPRART	zu	_	O	O	
+1-41	Publication	NN	<unknown>	_	O	O	
+1-42	,	$,	,	_	O	O	
+1-43	wenn	KOUS	wenn	_	O	O	
+1-44	Du	PPER	du	_	O	O	
+1-45	dafür	PAV	dafür	_	O	O	
+1-46	Chance	NN	Chance	_	O	O	
+1-47	siehst	VVFIN	sehen	_	O	O	
+1-48	.	$.	.	_	O	O	
+
+#id=2
+#text=Unbestimmte Zusagen gelten nirgends viel, in Baiern gar nichtsj dennoch handle.
+2-1	Unbestimmte	ADJA	unbestimmt	_	O	O	
+2-2	Zusagen	NN	Zusage	_	O	O	
+2-3	gelten	VVFIN	gelten	_	O	O	
+2-4	nirgends	ADV	nirgends	_	O	O	
+2-5	viel	PIS	viele	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	in	APPR	in	_	O	O	
+2-8	Baiern	NN	Baier	_	O	O	
+2-9	gar	ADV	gar	_	O	O	
+2-10	nichtsj	ADJD	<unknown>	_	O	O	
+2-11	dennoch	ADV	dennoch	_	O	O	
+2-12	handle	VVFIN	handeln	_	O	O	
+2-13	.	$.	.	_	O	O	
+

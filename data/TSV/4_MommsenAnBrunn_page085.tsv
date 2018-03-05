@@ -1,0 +1,182 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Leipzig» 5* September 185z r. 14. September 1854 Leipzig 5 Sept.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	»	ADJA	<unknown>	_	O	O	
+1-6	5*	ADJA	<unknown>	_	O	O	
+1-7	September	NN	September	_	O	O	
+1-8	185z	NN	<unknown>	_	O	O	
+1-9	r.	VVFIN	<unknown>	_	O	O	
+1-10	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1854	CARD	1854	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-15	5	CARD	5	_	O	O	
+1-16	Sept.	NN	<unknown>	_	O	O	
+
+#id=2
+#text=1854.
+2-1	1854	CARD	1854	_	O	O	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=Eben, lieber Ereund, erbalte icb Leinen Brief vom 26. und freue mich, daß Lu bierin mein nächster Schüler bist wie icb Lieb schon lange in einer andern edlen Kunst als Meister verehre.
+3-1	Eben	ADV	eben	_	O	O	
+3-2	,	$,	,	_	O	O	
+3-3	lieber	ADJA	lieb	_	O	O	
+3-4	Ereund	NN	<unknown>	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	erbalte	ADJA	<unknown>	_	O	O	
+3-7	icb	ADJA	<unknown>	_	O	O	
+3-8	Leinen	NN	Leine|Leinen	_	O	O	
+3-9	Brief	NN	Brief	_	O	O	
+3-10	vom	APPRART	von	_	O	O	
+3-11	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-13	und	KON	und	_	O	O	
+3-14	freue	VVFIN	freuen	_	O	O	
+3-15	mich	PRF	ich	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	daß	KOUS	dass	_	O	O	
+3-18	Lu	NE	Lu	_	O	O	
+3-19	bierin	NN	<unknown>	_	O	O	
+3-20	mein	PPOSAT	mein	_	O	O	
+3-21	nächster	ADJA	nah	_	O	O	
+3-22	Schüler	NN	Schüler	_	O	O	
+3-23	bist	VAFIN	sein	_	O	O	
+3-24	wie	KOKOM	wie	_	O	O	
+3-25	icb	ADJA	<unknown>	_	O	O	
+3-26	Lieb	NN	Lieb	_	O	O	
+3-27	schon	ADV	schon	_	O	O	
+3-28	lange	ADV	lange	_	O	O	
+3-29	in	APPR	in	_	O	O	
+3-30	einer	ART	eine	_	O	O	
+3-31	andern	PIAT	andere	_	O	O	
+3-32	edlen	ADJA	edel	_	O	O	
+3-33	Kunst	NN	Kunst	_	O	O	
+3-34	als	KOKOM	als	_	O	O	
+3-35	Meister	NN	Meister	_	O	O	
+3-36	verehre	VVFIN	verehren	_	O	O	
+3-37	.	$.	.	_	O	O	
+
+#id=4
+#text=Er eitag Abend ist hier Polterspaß ; willst Lu dazu kommen, so bist Lu ben venuto und wirst bei Jahn Wohnung finden, was ich nicht bezweifle.
+4-1	Er	PPER	er	_	O	O	
+4-2	eitag	VVFIN	<unknown>	_	O	O	
+4-3	Abend	NN	Abend	_	O	O	
+4-4	ist	VAFIN	sein	_	O	O	
+4-5	hier	ADV	hier	_	O	O	
+4-6	Polterspaß	NN	<unknown>	_	O	O	
+4-7	;	$.	;	_	O	O	
+4-8	willst	VMFIN	wollen	_	O	O	
+4-9	Lu	NE	Lu	_	O	O	
+4-10	dazu	PAV	dazu	_	O	O	
+4-11	kommen	VVINF	kommen	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	so	ADV	so	_	O	O	
+4-14	bist	VAFIN	sein	_	O	O	
+4-15	Lu	NE	Lu	_	O	O	
+4-16	ben	ADJA	<unknown>	_	O	O	
+4-17	venuto	NN	<unknown>	_	O	O	
+4-18	und	KON	und	_	O	O	
+4-19	wirst	VAFIN	werden	_	O	O	
+4-20	bei	APPR	bei	_	O	O	
+4-21	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-22	Wohnung	NN	Wohnung	_	O	O	
+4-23	finden	VVINF	finden	_	O	O	
+4-24	,	$,	,	_	O	O	
+4-25	was	PRELS	was	_	O	O	
+4-26	ich	PPER	ich	_	O	O	
+4-27	nicht	PTKNEG	nicht	_	O	O	
+4-28	bezweifle	VVFIN	bezweifeln	_	O	O	
+4-29	.	$.	.	_	O	O	
+
+#id=5
+#text=Hier ist alles wohl.
+5-1	Hier	ADV	hier	_	O	O	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	alles	PIS	alle	_	O	O	
+5-4	wohl	ADV	wohl	_	O	O	
+5-5	.	$.	.	_	O	O	
+
+#id=6
+#text=Bleibst Lu bis Sonnabend, so kannst Lu wegen der Archäologie mit Reimer reden, was auch diesem erwünscht sein wird, und am Sonntag kannst Lu und copuliren sehen.
+6-1	Bleibst	VVFIN	bleiben	_	O	O	
+6-2	Lu	NE	Lu	_	O	O	
+6-3	bis	APPR	bis	_	O	O	
+6-4	Sonnabend	NN	Sonnabend	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	so	ADV	so	_	O	O	
+6-7	kannst	VMFIN	können	_	O	O	
+6-8	Lu	NE	Lu	_	O	O	
+6-9	wegen	APPR	wegen	_	O	O	
+6-10	der	ART	die	_	O	O	
+6-11	Archäologie	NN	Archäologie	_	O	O	
+6-12	mit	APPR	mit	_	O	O	
+6-13	Reimer	NN	Reimer	_	O	O	
+6-14	reden	VVINF	reden	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	was	PRELS	was	_	O	O	
+6-17	auch	ADV	auch	_	O	O	
+6-18	diesem	PDAT	dies	_	O	O	
+6-19	erwünscht	ADJD	erwünscht	_	O	O	
+6-20	sein	VAINF	sein	_	O	O	
+6-21	wird	VAFIN	werden	_	O	O	
+6-22	,	$,	,	_	O	O	
+6-23	und	KON	und	_	O	O	
+6-24	am	APPRART	an	_	O	O	
+6-25	Sonntag	NN	Sonntag	_	O	O	
+6-26	kannst	VMFIN	können	_	O	O	
+6-27	Lu	NE	Lu	_	O	O	
+6-28	und	KON	und	_	O	O	
+6-29	copuliren	NN	<unknown>	_	O	O	
+6-30	sehen	VVINF	sehen	_	O	O	
+6-31	.	$.	.	_	O	O	
+
+#id=7
+#text=So hast Lu Gelegenheit in Thorheit, Speculation und Erömmigkeit neue Erfahrungen zu machen; säume nicht !
+7-1	So	ADV	so	_	O	O	
+7-2	hast	VAFIN	haben	_	O	O	
+7-3	Lu	NE	Lu	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-4	Gelegenheit	NN	Gelegenheit	_	O	O	
+7-5	in	APPR	in	_	O	O	
+7-6	Thorheit	NN	<unknown>	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	Speculation	NN	<unknown>	_	O	O	
+7-9	und	KON	und	_	O	O	
+7-10	Erömmigkeit	NN	<unknown>	_	O	O	
+7-11	neue	ADJA	neu	_	O	O	
+7-12	Erfahrungen	NN	Erfahrung	_	O	O	
+7-13	zu	PTKZU	zu	_	O	O	
+7-14	machen	VVINF	machen	_	O	O	
+7-15	;	$.	;	_	O	O	
+7-16	säume	NN	Saum	_	O	O	
+7-17	nicht	PTKNEG	nicht	_	O	O	
+7-18	!	$.	!	_	O	O	
+
+#id=8
+#text=Wir wollen ausfahren, der Wagen steht vor der Thür; also addio.
+8-1	Wir	PPER	wir	_	O	O	
+8-2	wollen	VMFIN	wollen	_	O	O	
+8-3	ausfahren	VVINF	ausfahren	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	der	ART	die	_	O	O	
+8-6	Wagen	NN	Wagen	_	O	O	
+8-7	steht	VVFIN	stehen	_	O	O	
+8-8	vor	APPR	vor	_	O	O	
+8-9	der	ART	die	_	O	O	
+8-10	Thür	NN	<unknown>	_	O	O	
+8-11	;	$.	;	_	O	O	
+8-12	also	ADV	also	_	O	O	
+8-13	addio	NN	<unknown>	_	O	O	
+8-14	.	$.	.	_	O	O	
+
+#id=9
+#text=Lein M
+9-1	Lein	VVIMP	leinen	_	O	O	
+9-2	M	NE	M	_	O	O	
+

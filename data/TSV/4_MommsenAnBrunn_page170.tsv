@@ -1,0 +1,110 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Berlin» 11. März 1874 ein Excitatorium Bewirken; ist es möglich, so thust Du uns einen Gefallen und die Sache wäre	.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	»	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-6	11	CARD	11	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	ein	ART	eine	_	O	O	
+1-11	Excitatorium	NN	<unknown>	_	O	O	
+1-12	Bewirken	NN	Bewirken	_	O	O	
+1-13	;	$.	;	_	O	O	
+1-14	ist	VAFIN	sein	_	O	O	
+1-15	es	PPER	es	_	O	O	
+1-16	möglich	ADJD	möglich	_	O	O	
+1-17	,	$,	,	_	O	O	
+1-18	so	ADV	so	_	O	O	
+1-19	thust	VVFIN	<unknown>	_	O	O	
+1-20	Du	PPER	du	_	O	O	
+1-21	uns	PRF	wir	_	O	O	
+1-22	einen	ART	eine	_	O	O	
+1-23	Gefallen	NN	Gefallen	_	O	O	
+1-24	und	KON	und	_	O	O	
+1-25	die	ART	die	_	O	O	
+1-26	Sache	NN	Sache	_	O	O	
+1-27	wäre	VAFIN	sein	_	O	O	
+1-28	.	$.	.	_	O	O	
+
+#id=2
+#text=Etwas	hoffen wir auf den lübeckischen Ministeresidenten Dr. Krieger, den wir an Haupts stelle in die C.D* gwählt haben und der als Mitglied des Bundesraths vielleicht Wandel schaffen kann.
+2-1	Etwas	ADV	etwas	_	O	O	
+2-2	hoffen	VVFIN	hoffen	_	O	O	
+2-3	wir	PPER	wir	_	O	O	
+2-4	auf	APPR	auf	_	O	O	
+2-5	den	ART	die	_	O	O	
+2-6	lübeckischen	ADJA	<unknown>	_	O	O	
+2-7	Ministeresidenten	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-8	Dr.	NN	Dr.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-9	Krieger	NE	Krieger	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-10	,	$,	,	_	O	O	
+2-11	den	PRELS	die	_	O	O	
+2-12	wir	PPER	wir	_	O	O	
+2-13	an	APPR	an	_	O	O	
+2-14	Haupts	NE	Haupt	_	O	O	
+2-15	stelle	VVFIN	stellen	_	O	O	
+2-16	in	APPR	in	_	O	O	
+2-17	die	ART	die	_	O	O	
+2-18	C.D*	NE	<unknown>	_	O	O	
+2-19	gwählt	VVPP	<unknown>	_	O	O	
+2-20	haben	VAFIN	haben	_	O	O	
+2-21	und	KON	und	_	O	O	
+2-22	der	ART	die	_	O	O	
+2-23	als	KOKOM	als	_	O	O	
+2-24	Mitglied	NN	Mitglied	_	O	O	
+2-25	des	ART	die	_	O	O	
+2-26	Bundesraths	NN	<unknown>	_	O	O	
+2-27	vielleicht	ADV	vielleicht	_	O	O	
+2-28	Wandel	NN	Wandel	_	O	O	
+2-29	schaffen	VVINF	schaffen	_	O	O	
+2-30	kann	VMFIN	können	_	O	O	
+2-31	.	$.	.	_	O	O	
+
+#id=3
+#text=Lebe wohl und grüße Deine Krau.
+3-1	Lebe	VVFIN	leben	_	O	O	
+3-2	wohl	PTKVZ	wohl	_	O	O	
+3-3	und	KON	und	_	O	O	
+3-4	grüße	VVFIN	grüßen	_	O	O	
+3-5	Deine	PPOSAT	dein	_	O	O	
+3-6	Krau	NN	<unknown>	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Dein Mommsen.
+4-1	Dein	PPOSAT	dein	_	O	O	
+4-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	.	$.	.	_	O	O	
+
+#id=5
+#text=B. 11/3	74.
+5-1	B.	APPR	b.	_	O	O	
+5-2	11/3	CARD	11/3	_	O	O	
+5-3	74	CARD	74	_	O	O	
+5-4	.	$.	.	_	O	O	
+
+#id=6
+#text=In Regensburg sollen Ja sächsische Inschriften gefunden sein; bewirke doch, daß ich davon etwas erfahre.
+6-1	In	APPR	in	_	O	O	
+6-2	Regensburg	NE	Regensburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-3	sollen	VMFIN	sollen	_	O	O	
+6-4	Ja	ADV	ja	_	O	O	
+6-5	sächsische	ADJA	sächsisch	_	O	O	
+6-6	Inschriften	NN	Inschrift	_	O	O	
+6-7	gefunden	VVPP	finden	_	O	O	
+6-8	sein	VAINF	sein	_	O	O	
+6-9	;	$.	;	_	O	O	
+6-10	bewirke	VVFIN	bewirken	_	O	O	
+6-11	doch	ADV	doch	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	daß	KOUS	dass	_	O	O	
+6-14	ich	PPER	ich	_	O	O	
+6-15	davon	PAV	davon	_	O	O	
+6-16	etwas	ADV	etwas	_	O	O	
+6-17	erfahre	VVFIN	erfahren	_	O	O	
+6-18	.	$.	.	_	O	O	
+

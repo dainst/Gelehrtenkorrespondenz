@@ -1,0 +1,185 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn — 6 - Berlin, 25» April 1861 schickt uns einen Schreibebrief ; wir werden ibn weiter spediren.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	O	O	
+1-4	—	ADJD	<unknown>	_	O	O	
+1-5	6	CARD	6	_	O	O	
+1-6	-	$(	-	_	O	O	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-8	,	$,	,	_	O	O	
+1-9	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	»	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1861	CARD	1861	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	schickt	VVFIN	schicken	_	O	O	
+1-14	uns	PPER	wir	_	O	O	
+1-15	einen	ART	eine	_	O	O	
+1-16	Schreibebrief	NN	<unknown>	_	O	O	
+1-17	;	$.	;	_	O	O	
+1-18	wir	PPER	wir	_	O	O	
+1-19	werden	VAFIN	werden	_	O	O	
+1-20	ibn	NE	<unknown>	_	O	O	
+1-21	weiter	ADV	weiter	_	O	O	
+1-22	spediren	NN	<unknown>	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=rathe aber nicht sehr zu, denn das Institut ist so ausnahmsweise liberal behandelt worden, während sonst überall geschunden wird, daß die Chance gering ist.
+3-1	rathe	NE	<unknown>	_	O	O	
+3-2	aber	KON	aber	_	O	O	
+3-3	nicht	PTKNEG	nicht	_	O	O	
+3-4	sehr	ADV	sehr	_	O	O	
+3-5	zu	PTKVZ	zu	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	denn	KON	denn	_	O	O	
+3-8	das	ART	die	_	O	O	
+3-9	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-10	ist	VAFIN	sein	_	O	O	
+3-11	so	ADV	so	_	O	O	
+3-12	ausnahmsweise	ADV	ausnahmsweise	_	O	O	
+3-13	liberal	ADJD	liberal	_	O	O	
+3-14	behandelt	VVPP	behandeln	_	O	O	
+3-15	worden	VAPP	werden	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	während	KOUS	während	_	O	O	
+3-18	sonst	ADV	sonst	_	O	O	
+3-19	überall	ADV	überall	_	O	O	
+3-20	geschunden	VVPP	schinden	_	O	O	
+3-21	wird	VAFIN	werden	_	O	O	
+3-22	,	$,	,	_	O	O	
+3-23	daß	KOUS	dass	_	O	O	
+3-24	die	ART	die	_	O	O	
+3-25	Chance	NN	Chance	_	O	O	
+3-26	gering	ADJD	gering	_	O	O	
+3-27	ist	VAFIN	sein	_	O	O	
+3-28	.	$.	.	_	O	O	
+
+#id=4
+#text=Dasselbe gilt von Stoff, den die Regierung kaufen muß um ihn zu verschenkten.
+4-1	Dasselbe	PDS	dieselbe	_	O	O	
+4-2	gilt	VVFIN	gelten	_	O	O	
+4-3	von	APPR	von	_	O	O	
+4-4	Stoff	NN	Stoff	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	den	PRELS	die	_	O	O	
+4-7	die	ART	die	_	O	O	
+4-8	Regierung	NN	Regierung	_	O	O	
+4-9	kaufen	VVINF	kaufen	_	O	O	
+4-10	muß	VMFIN	müssen	_	O	O	
+4-11	um	APPR	um	_	O	O	
+4-12	ihn	PPER	er	_	O	O	
+4-13	zu	PTKVZ	zu	_	O	O	
+4-14	verschenkten	VVFIN	verschenken	_	O	O	
+4-15	.	$.	.	_	O	O	
+
+#id=5
+#text=Aristotles hat die Akademie auch nicht; die paar Freiexemplare sind längst alle.
+5-1	Aristotles	ADJD	<unknown>	_	O	O	
+5-2	hat	VAFIN	haben	_	O	O	
+5-3	die	ART	die	_	O	O	
+5-4	Akademie	NN	Akademie	_	O	O	
+5-5	auch	ADV	auch	_	O	O	
+5-6	nicht	PTKNEG	nicht	_	O	O	
+5-7	;	$.	;	_	O	O	
+5-8	die	ART	die	_	O	O	
+5-9	paar	PIAT	paar	_	O	O	
+5-10	Freiexemplare	NN	Freiexemplar	_	O	O	
+5-11	sind	VAFIN	sein	_	O	O	
+5-12	längst	ADV	längst	_	O	O	
+5-13	alle	PIS	alle	_	O	O	
+5-14	.	$.	.	_	O	O	
+
+#id=6
+#text=- Wegen Stackeiber g werde fragen.
+6-1	-	$(	-	_	O	O	
+6-2	Wegen	APPR	wegen	_	O	O	
+6-3	Stackeiber	NN	<unknown>	_	O	O	
+6-4	g	NN	g	_	O	O	
+6-5	werde	VAFIN	werden	_	O	O	
+6-6	fragen	VVINF	fragen	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=Um die Inschriften beider Cisten bitte ich recht sehr, und zwar mit Deinen Erklärungen, resp.
+7-1	Um	KOUI	um	_	O	O	
+7-2	die	ART	die	_	O	O	
+7-3	Inschriften	NN	Inschrift	_	O	O	
+7-4	beider	PIAT	beide	_	O	O	
+7-5	Cisten	NN	<unknown>	_	O	O	
+7-6	bitte	VVFIN	bitten	_	O	O	
+7-7	ich	PPER	ich	_	O	O	
+7-8	recht	ADJD	recht	_	O	O	
+7-9	sehr	ADV	sehr	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	und	KON	und	_	O	O	
+7-12	zwar	ADV	zwar	_	O	O	
+7-13	mit	APPR	mit	_	O	O	
+7-14	Deinen	PPOSAT	dein	_	O	O	
+7-15	Erklärungen	NN	Erklärung	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	resp.	ADV	resp.	_	O	O	
+
+#id=8
+#text=der Angabe, , daß alles	•	Ich werde sie weder herumbieten noch publiciren, darauf kannst Du Dich verlaßen.
+8-1	der	ART	die	_	O	O	
+8-2	Angabe	NN	Angabe	_	O	O	
+8-3	,	$,	,	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	daß	KOUS	dass	_	O	O	
+8-6	alles	PIS	alle	_	O	O	
+8-7	•	ADJD	<unknown>	_	O	O	
+8-8	Ich	PPER	ich	_	O	O	
+8-9	werde	VAFIN	werden	_	O	O	
+8-10	sie	PPER	sie	_	O	O	
+8-11	weder	KON	weder	_	O	O	
+8-12	herumbieten	VVFIN	<unknown>	_	O	O	
+8-13	noch	ADV	noch	_	O	O	
+8-14	publiciren	ADJD	<unknown>	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	darauf	PAV	darauf	_	O	O	
+8-17	kannst	VMFIN	können	_	O	O	
+8-18	Du	PPER	du	_	O	O	
+8-19	Dich	PPER	du	_	O	O	
+8-20	verlaßen	VVINF	<unknown>	_	O	O	
+8-21	.	$.	.	_	O	O	
+
+#id=9
+#text=Mein Junge schreit lustig, hoffentlich machts Dein Mädel ebenso.
+9-1	Mein	PPOSAT	mein	_	O	O	
+9-2	Junge	NN	Junge	_	O	O	
+9-3	schreit	VVFIN	schreien	_	O	O	
+9-4	lustig	ADJD	lustig	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	hoffentlich	ADV	hoffentlich	_	O	O	
+9-7	machts	ADJD	<unknown>	_	O	O	
+9-8	Dein	PPOSAT	dein	_	O	O	
+9-9	Mädel	NN	Mädel	_	O	O	
+9-10	ebenso	ADV	ebenso	_	O	O	
+9-11	.	$.	.	_	O	O	
+
+#id=10
+#text=Leb wohl.
+10-1	Leb	VVIMP	leben	_	O	O	
+10-2	wohl	ADV	wohl	_	O	O	
+10-3	.	$.	.	_	O	O	
+
+#id=11
+#text=Dein Mommsen.
+11-1	Dein	PPOSAT	dein	_	O	O	
+11-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-3	.	$.	.	_	O	O	
+
+#id=12
+#text=Berlin 25 Ap. 1861
+12-1	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+12-2	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+12-3	Ap.	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+12-4	1861	CARD	1861	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+

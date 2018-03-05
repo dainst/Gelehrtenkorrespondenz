@@ -1,0 +1,76 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn - 3- Berlin, 30.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	O	O	
+1-4	-	$(	-	_	O	O	
+1-5	3-	TRUNC	3-	_	O	O	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-7	,	$,	,	_	O	O	
+1-8	30	CARD	30	_	O	O	
+1-9	.	$.	.	_	O	O	
+
+#id=2
+#text=Oktober 1858 Lebe wohl, lieber Freund und gieb mir Gelegenheit hier für Dich wieder etwas zu besorgen.
+2-1	Oktober	NN	Oktober	_	O	O	
+2-2	1858	CARD	@card@	_	O	O	
+2-3	Lebe	VVFIN	leben	_	O	O	
+2-4	wohl	ADV	wohl	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	lieber	ADJA	lieb	_	O	O	
+2-7	Freund	NN	Freund	_	O	O	
+2-8	und	KON	und	_	O	O	
+2-9	gieb	VVFIN	<unknown>	_	O	O	
+2-10	mir	PPER	ich	_	O	O	
+2-11	Gelegenheit	NN	Gelegenheit	_	O	O	
+2-12	hier	ADV	hier	_	O	O	
+2-13	für	APPR	für	_	O	O	
+2-14	Dich	PPER	du	_	O	O	
+2-15	wieder	ADV	wieder	_	O	O	
+2-16	etwas	PIS	etwas	_	O	O	
+2-17	zu	PTKZU	zu	_	O	O	
+2-18	besorgen	VVINF	besorgen	_	O	O	
+2-19	.	$.	.	_	O	O	
+
+#id=3
+#text=Dein Mommsen Berlin 30 Oct 1858.
+3-1	Dein	PPOSAT	dein	_	O	O	
+3-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-4	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-5	Oct	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-6	1858	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Kürzlich besuchte mich Dein alter Anti de Friederichs.
+4-1	Kürzlich	ADJD	kürzlich	_	O	O	
+4-2	besuchte	VVFIN	besuchen	_	O	O	
+4-3	mich	PRF	ich	_	O	O	
+4-4	Dein	PPOSAT	dein	_	O	O	
+4-5	alter	ADJA	alt	_	O	O	
+4-6	Anti	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-7	de	NE	de	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-8	Friederichs	NE	Friederich	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Rede kam auch auf Eure Controverse; er sprach darüber ganz schicklich und ordentlich.
+5-1	Die	ART	die	_	O	O	
+5-2	Rede	NN	Rede	_	O	O	
+5-3	kam	VVFIN	kommen	_	O	O	
+5-4	auch	ADV	auch	_	O	O	
+5-5	auf	APPR	auf	_	O	O	
+5-6	Eure	PPOSAT	euer	_	O	O	
+5-7	Controverse	NN	<unknown>	_	O	O	
+5-8	;	$.	;	_	O	O	
+5-9	er	PPER	er	_	O	O	
+5-10	sprach	VVFIN	sprechen	_	O	O	
+5-11	darüber	PAV	darüber	_	O	O	
+5-12	ganz	ADV	ganz	_	O	O	
+5-13	schicklich	ADJD	schicklich	_	O	O	
+5-14	und	KON	und	_	O	O	
+5-15	ordentlich	ADJD	ordentlich	_	O	O	
+5-16	.	$.	.	_	O	O	
+

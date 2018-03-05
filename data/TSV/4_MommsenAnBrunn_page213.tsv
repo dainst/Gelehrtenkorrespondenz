@@ -1,0 +1,299 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text='	Mommsen	an	Brunn Berlin, Mai 1893 - 5 - Jacoby, L,, Professor, Berlin.
+1-1	'	$(	'	_	O	O	
+1-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	Mai	NN	Mai	_	O	O	
+1-8	1893	CARD	1893	_	O	O	
+1-9	-	$(	-	_	O	O	
+1-10	5	CARD	5	_	O	O	
+1-11	-	$(	-	_	O	O	
+1-12	Jacoby	NE	Jacoby	_	O	O	
+1-13	,	$,	,	_	O	O	
+1-14	L	NE	L	_	O	O	
+1-15	,	$,	,	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	Professor	NN	Professor	_	O	O	
+1-18	,	$,	,	_	O	O	
+1-19	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-20	.	$.	.	_	O	O	
+
+#id=2
+#text=Jaeger, 0., Director Dr., Köln.
+2-1	Jaeger	NN	<unknown>	_	O	O	
+2-2	,	$,	,	_	O	O	
+2-3	0	CARD	@card@	_	O	O	
+2-4	.	$.	.	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	Director	NE	Director	_	O	O	
+2-7	Dr.	NN	Dr.	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	Köln	NE	Köln	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-10	.	$.	.	_	O	O	
+
+#id=3
+#text=Jonas, Br., Schulinspector Dr., Berlin.
+3-1	Jonas	NE	Jonas	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	,	$,	,	_	O	O	
+3-3	Br.	NE	Br.	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	Schulinspector	NN	<unknown>	_	O	O	
+3-6	Dr.	NN	Dr.	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Kaibel, G. Professor Dr., Strassburg i. Els.
+4-1	Kaibel	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	,	$,	,	_	O	O	
+4-3	G.	NE	G.	_	O	O	
+4-4	Professor	NN	Professor	_	O	O	
+4-5	Dr.	NN	Dr.	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	Strassburg	NE	Straßburg	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-8	i.	APPR	in	_	O	O	
+4-9	Els	NE	Els	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Keil, H., Professor Dr., Gebeimrath, Halle a. S. Kiepert, H., Professor Dr., Berlin.
+5-1	Keil	NE	Keil	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	,	$,	,	_	O	O	
+5-3	H.	NE	H.	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	Professor	NN	Professor	_	O	O	
+5-6	Dr.	NN	Dr.	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	Gebeimrath	NE	<unknown>	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	Halle	NN	Halle	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-11	a.	APPR	a.	_	O	O	
+5-12	S.	NE	S.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-13	Kiepert	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-14	,	$,	,	_	O	O	
+5-15	H.	NE	H.	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	Professor	NN	Professor	_	O	O	
+5-18	Dr.	NN	Dr.	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-21	.	$.	.	_	O	O	
+
+#id=6
+#text=von Kieseritzky, G., Professor Dr., St. Petersburg.
+6-1	von	APPR	von	_	O	O	
+6-2	Kieseritzky	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	,	$,	,	_	O	O	
+6-4	G.	NE	G.	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	Professor	NN	Professor	_	O	O	
+6-7	Dr.	NN	Dr.	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	St.	NE	St.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	Petersburg	NE	Petersburg	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Krueger, B., Dr.ausserordentlicher Gesandter und bevollmächtigter Minister der freien HansestädtB,Berlin, Kruger, P., Professor Dr., Geheimrath, Bonn.
+7-1	Krueger	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	,	$,	,	_	O	O	
+7-3	B.	NN	B.	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	Dr.ausserordentlicher	ADJA	<unknown>	_	O	O	
+7-6	Gesandter	NN	<unknown>	_	O	O	
+7-7	und	KON	und	_	O	O	
+7-8	bevollmächtigter	ADJA	bevollmächtigt	_	O	O	
+7-9	Minister	NN	Minister	_	O	O	
+7-10	der	ART	die	_	O	O	
+7-11	freien	ADJA	frei	_	O	O	
+7-12	HansestädtB,Berlin	NE	<unknown>	_	O	O	
+7-13	,	$,	,	_	O	O	
+7-14	Kruger	NN	<unknown>	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	P.	NE	P.	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	Professor	NN	Professor	_	O	O	
+7-19	Dr.	NN	Dr.	_	O	O	
+7-20	,	$,	,	_	O	O	
+7-21	Geheimrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-22	,	$,	,	_	O	O	
+7-23	Bonn	NE	Bonn	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-24	.	$.	.	_	O	O	
+
+#id=8
+#text=Leo, Bm Professor Dr., Göttingen.
+8-1	Leo	NE	Leo	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	,	$,	,	_	O	O	
+8-3	Bm	NE	<unknown>	_	O	O	
+8-4	Professor	NN	Professor	_	O	O	
+8-5	Dr.	NN	Dr.	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	Göttingen	NE	Göttingen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-8	.	$.	.	_	O	O	
+
+#id=9
+#text=Lessing, C. R., Geheimrath, Berlin.
+9-1	Lessing	NE	Lessing	_	O	O	
+9-2	,	$,	,	_	O	O	
+9-3	C.	NE	C.	_	O	O	
+9-4	R.	NE	R.	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	Geheimrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-7	,	$,	,	_	O	O	
+9-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-9	.	$.	.	_	O	O	
+
+#id=10
+#text=de Leva, J., Professor Dr., Padua.
+10-1	de	NE	de	_	O	O	
+10-2	Leva	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-3	,	$,	,	_	O	O	
+10-4	J.	NE	J.	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	Professor	NN	Professor	_	O	O	
+10-7	Dr.	NN	Dr.	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	Padua	NE	Padua	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-10	.	$.	.	_	O	O	
+
+#id=11
+#text=Lichtwark, A., Director Dr., Hamburg.
+11-1	Lichtwark	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	,	$,	,	_	O	O	
+11-3	A.	NE	A.	_	O	O	
+11-4	,	$,	,	_	O	O	
+11-5	Director	NE	Director	_	O	O	
+11-6	Dr.	NN	Dr.	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	Hamburg	NE	Hamburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-9	.	$.	.	_	O	O	
+
+#id=12
+#text=von Liliencron, R., Breiherr, Dr., Klosterprobst, Schleswig.
+12-1	von	APPR	von	_	O	O	
+12-2	Liliencron	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-3	,	$,	,	_	O	O	
+12-4	R.	NE	R.	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	Breiherr	NN	<unknown>	_	O	O	
+12-7	,	$,	,	_	O	O	
+12-8	Dr.	NN	Dr.	_	O	O	
+12-9	,	$,	,	_	O	O	
+12-10	Klosterprobst	NN	<unknown>	_	O	O	
+12-11	,	$,	,	_	O	O	
+12-12	Schleswig	NE	Schleswig	_	O	O	
+12-13	.	$.	.	_	O	O	
+
+#id=13
+#text=Ludwig, G., Professor Dr., Geheimrath, Leipzig, von Mendelssohn, B., Banquier, Berlin.
+13-1	Ludwig	NE	Ludwig	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	,	$,	,	_	O	O	
+13-3	G.	NE	G.	_	O	O	
+13-4	,	$,	,	_	O	O	
+13-5	Professor	NN	Professor	_	O	O	
+13-6	Dr.	NN	Dr.	_	O	O	
+13-7	,	$,	,	_	O	O	
+13-8	Geheimrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-9	,	$,	,	_	O	O	
+13-10	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+13-11	,	$,	,	_	O	O	
+13-12	von	APPR	von	_	O	O	
+13-13	Mendelssohn	NE	Mendelssohn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-14	,	$,	,	_	O	O	
+13-15	B.	NE	B.	_	O	O	
+13-16	,	$,	,	_	O	O	
+13-17	Banquier	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-18	,	$,	,	_	O	O	
+13-19	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+13-20	.	$.	.	_	O	O	
+
+#id=14
+#text=Mendelssohn, L,, Professor Dr., Staatsrath, Dorpat.
+14-1	Mendelssohn	NE	Mendelssohn	_	O	O	
+14-2	,	$,	,	_	O	O	
+14-3	L	NE	L	_	O	O	
+14-4	,	$,	,	_	O	O	
+14-5	,	$,	,	_	O	O	
+14-6	Professor	NN	Professor	_	O	O	
+14-7	Dr.	NN	Dr.	_	O	O	
+14-8	,	$,	,	_	O	O	
+14-9	Staatsrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-10	,	$,	,	_	O	O	
+14-11	Dorpat	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+14-12	.	$.	.	_	O	O	
+
+#id=15
+#text=Menzel, A., Professor Dr., Berlin, von Mevissen, G., Dr., Geheimrath, Köln.
+15-1	Menzel	NE	Menzel	_	O	O	
+15-2	,	$,	,	_	O	O	
+15-3	A.	NE	A.	_	O	O	
+15-4	,	$,	,	_	O	O	
+15-5	Professor	NN	Professor	_	O	O	
+15-6	Dr.	NN	Dr.	_	O	O	
+15-7	,	$,	,	_	O	O	
+15-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+15-9	,	$,	,	_	O	O	
+15-10	von	APPR	von	_	O	O	
+15-11	Mevissen	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-12	,	$,	,	_	O	O	
+15-13	G.	NE	G.	_	O	O	
+15-14	,	$,	,	_	O	O	
+15-15	Dr.	NN	Dr.	_	O	O	
+15-16	,	$,	,	_	O	O	
+15-17	Geheimrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-18	,	$,	,	_	O	O	
+15-19	Köln	NE	Köln	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+15-20	.	$.	.	_	O	O	
+
+#id=16
+#text=Michaelis, A.y Professor Dr., Strassburg i. Eis, Mitteis, L., Professor Dr., Prag.
+16-1	Michaelis	NE	Michaelis	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-2	,	$,	,	_	O	O	
+16-3	A.y	NE	<unknown>	_	O	O	
+16-4	Professor	NN	Professor	_	O	O	
+16-5	Dr.	NN	Dr.	_	O	O	
+16-6	,	$,	,	_	O	O	
+16-7	Strassburg	NE	Straßburg	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-8	i.	APPR	in	_	O	O	
+16-9	Eis	NN	Eis	_	O	O	
+16-10	,	$,	,	_	O	O	
+16-11	Mitteis	NN	<unknown>	_	O	O	
+16-12	,	$,	,	_	O	O	
+16-13	L.	NE	L.	_	O	O	
+16-14	,	$,	,	_	O	O	
+16-15	Professor	NN	Professor	_	O	O	
+16-16	Dr.	NN	Dr.	_	O	O	
+16-17	,	$,	,	_	O	O	
+16-18	Prag	NE	Prag	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+16-19	.	$.	.	_	O	O	
+
+#id=17
+#text=Müller, B. Max, Professor Dr., Oxford.
+17-1	Müller	NE	Müller	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-2	,	$,	,	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+17-3	B.	NE	B.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+17-4	Max	NE	Max	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+17-5	,	$,	,	_	O	O	
+17-6	Professor	NN	Professor	_	O	O	
+17-7	Dr.	NN	Dr.	_	O	O	
+17-8	,	$,	,	_	O	O	
+17-9	Oxford	NE	Oxford	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+17-10	.	$.	.	_	O	O	
+
+#id=18
+#text=Murray, A.S., British Museum, London.
+18-1	Murray	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-2	,	$,	,	_	O	O	
+18-3	A.S.	NE	A.S.	_	O	O	
+18-4	,	$,	,	_	O	O	
+18-5	British	NE	British	_	B-webanno.custom.LetterEntity_	B-LIT	
+18-6	Museum	NN	Museum	_	I-webanno.custom.LetterEntity_	I-LIT	
+18-7	,	$,	,	_	O	O	
+18-8	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+18-9	.	$.	.	_	O	O	
+

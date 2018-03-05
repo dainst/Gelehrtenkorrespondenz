@@ -1,0 +1,216 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Breslau, 22. Mai 1856 r. 29.6.1856 Gestern hat die Pacultät ihre Vorschläge festgestellt für das Ordinariat werden präsentirt 1) Preller 2) Keil 3) Roßbach; Jahn wird mit mansione onorevole praeter eundo genannt.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Breslau	NE	Breslau	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1856	CARD	@card@	_	O	O	
+1-10	r.	VVFIN	<unknown>	_	O	O	
+1-11	29.6.1856	CARD	@card@	_	O	O	
+1-12	Gestern	NN	Gestern	_	O	O	
+1-13	hat	VAFIN	haben	_	O	O	
+1-14	die	ART	die	_	O	O	
+1-15	Pacultät	NN	<unknown>	_	O	O	
+1-16	ihre	PPOSAT	ihr	_	O	O	
+1-17	Vorschläge	NN	Vorschlag	_	O	O	
+1-18	festgestellt	VVPP	feststellen	_	O	O	
+1-19	für	APPR	für	_	O	O	
+1-20	das	ART	die	_	O	O	
+1-21	Ordinariat	NN	<unknown>	_	O	O	
+1-22	werden	VAFIN	werden	_	O	O	
+1-23	präsentirt	NN	<unknown>	_	O	O	
+1-24	1	CARD	1	_	O	O	
+1-25	)	$(	)	_	O	O	
+1-26	Preller	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-27	2	CARD	2	_	O	O	
+1-28	)	$(	)	_	O	O	
+1-29	Keil	NN	Keil	_	O	O	
+1-30	3	CARD	3	_	O	O	
+1-31	)	$(	)	_	O	O	
+1-32	Roßbach	NN	Roßbach	_	O	O	
+1-33	;	$.	;	_	O	O	
+1-34	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-35	wird	VAFIN	werden	_	O	O	
+1-36	mit	APPR	mit	_	O	O	
+1-37	mansione	NE	<unknown>	_	O	O	
+1-38	onorevole	ADJA	<unknown>	_	O	O	
+1-39	praeter	ADJA	<unknown>	_	O	O	
+1-40	eundo	NN	<unknown>	_	O	O	
+1-41	genannt	VVPP	nennen	_	O	O	
+1-42	.	$.	.	_	O	O	
+
+#id=2
+#text=Wenn die Wahl auf Preller fällt, wird vorgeschlagen daneben als Extraordinarius Vahlen oder M. Schmidt von Oels zu nennen; wenn dagegen auf Keil oder Roßbach, Dich für Archäologie als Extraordinarius zu berufen.
+2-1	Wenn	KOUS	wenn	_	O	O	
+2-2	die	ART	die	_	O	O	
+2-3	Wahl	NN	Wahl	_	O	O	
+2-4	auf	APPR	auf	_	O	O	
+2-5	Preller	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-6	fällt	VVFIN	fallen|fällen	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	wird	VAFIN	werden	_	O	O	
+2-9	vorgeschlagen	ADJD	vorgeschlagen	_	O	O	
+2-10	daneben	PAV	daneben	_	O	O	
+2-11	als	KOKOM	als	_	O	O	
+2-12	Extraordinarius	NN	Extraordinarius	_	O	O	
+2-13	Vahlen	NN	<unknown>	_	O	O	
+2-14	oder	KON	oder	_	O	O	
+2-15	M.	NE	M.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-16	Schmidt	NE	Schmidt	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-17	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-18	Oels	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-19	zu	PTKZU	zu	_	O	O	
+2-20	nennen	VVINF	nennen	_	O	O	
+2-21	;	$.	;	_	O	O	
+2-22	wenn	KOUS	wenn	_	O	O	
+2-23	dagegen	PAV	dagegen	_	O	O	
+2-24	auf	APPR	auf	_	O	O	
+2-25	Keil	NE	Keil	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-26	oder	KON	oder	_	O	O	
+2-27	Roßbach	NE	Roßbach	_	O	O	
+2-28	,	$,	,	_	O	O	
+2-29	Dich	PPER	du	_	O	O	
+2-30	für	APPR	für	_	O	O	
+2-31	Archäologie	NN	Archäologie	_	O	O	
+2-32	als	KOKOM	als	_	O	O	
+2-33	Extraordinarius	NN	Extraordinarius	_	O	O	
+2-34	zu	PTKZU	zu	_	O	O	
+2-35	berufen	VVINF	berufen	_	O	O	
+2-36	.	$.	.	_	O	O	
+
+#id=3
+#text=Es ist also ungefähr so gekommen, wie ich Dir schrieb, und obgleich die öommission Preller-Vahlen, nur immer noch der Katholiken wegen, die wahrscheinlichste dünkt, so hast Du doch noch eine Chance und mag es eine ernstliche sein 1 Priedländer wird nicht genannt.
+3-1	Es	PPER	es	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	also	ADV	also	_	O	O	
+3-4	ungefähr	ADJD	ungefähr	_	O	O	
+3-5	so	ADV	so	_	O	O	
+3-6	gekommen	VVPP	kommen	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	wie	KOUS	wie	_	O	O	
+3-9	ich	PPER	ich	_	O	O	
+3-10	Dir	PPER	du	_	O	O	
+3-11	schrieb	VVFIN	schreiben	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	und	KON	und	_	O	O	
+3-14	obgleich	KOUS	obgleich	_	O	O	
+3-15	die	ART	die	_	O	O	
+3-16	öommission	NN	<unknown>	_	O	O	
+3-17	Preller-Vahlen	NN	<unknown>	_	O	O	
+3-18	,	$,	,	_	O	O	
+3-19	nur	ADV	nur	_	O	O	
+3-20	immer	ADV	immer	_	O	O	
+3-21	noch	ADV	noch	_	O	O	
+3-22	der	ART	die	_	O	O	
+3-23	Katholiken	NN	Katholik	_	O	O	
+3-24	wegen	APPO	wegen	_	O	O	
+3-25	,	$,	,	_	O	O	
+3-26	die	ART	die	_	O	O	
+3-27	wahrscheinlichste	ADJA	wahrscheinlich	_	O	O	
+3-28	dünkt	VVPP	dünken	_	O	O	
+3-29	,	$,	,	_	O	O	
+3-30	so	ADV	so	_	O	O	
+3-31	hast	VAFIN	haben	_	O	O	
+3-32	Du	PPER	du	_	O	O	
+3-33	doch	ADV	doch	_	O	O	
+3-34	noch	ADV	noch	_	O	O	
+3-35	eine	ART	eine	_	O	O	
+3-36	Chance	NN	Chance	_	O	O	
+3-37	und	KON	und	_	O	O	
+3-38	mag	VMFIN	mögen	_	O	O	
+3-39	es	PPER	es	_	O	O	
+3-40	eine	ART	eine	_	O	O	
+3-41	ernstliche	ADJA	ernstlich	_	O	O	
+3-42	sein	PPOSAT	sein	_	O	O	
+3-43	1	CARD	1	_	O	O	
+3-44	Priedländer	NN	<unknown>	_	O	O	
+3-45	wird	VAFIN	werden	_	O	O	
+3-46	nicht	PTKNEG	nicht	_	O	O	
+3-47	genannt	VVPP	nennen	_	O	O	
+3-48	.	$.	.	_	O	O	
+
+#id=4
+#text=Die weitere Entscheidung hängt von Berlin ab.
+4-1	Die	ART	die	_	O	O	
+4-2	weitere	ADJA	weit	_	O	O	
+4-3	Entscheidung	NN	Entscheidung	_	O	O	
+4-4	hängt	VVFIN	hängen	_	O	O	
+4-5	von	APPR	von	_	O	O	
+4-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-7	ab	PTKVZ	ab	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich sollte aber denken, daß, wenn sie günstig für Dich aus-fällt, man sich dort auch entschließen wird Dir ein leidliches Oextraordinariatsgehalt zu bewilligen, da jetzt durch Ambroschs und Schneider Tod beinahe 2500 rtt disponibel geworden sind.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	sollte	VMFIN	sollen	_	O	O	
+5-3	aber	ADV	aber	_	O	O	
+5-4	denken	VVINF	denken	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	daß	KOUS	dass	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	wenn	KOUS	wenn	_	O	O	
+5-9	sie	PPER	sie	_	O	O	
+5-10	günstig	ADJD	günstig	_	O	O	
+5-11	für	APPR	für	_	O	O	
+5-12	Dich	PPER	du	_	O	O	
+5-13	aus-fällt	VVFIN	<unknown>	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	man	PIS	man	_	O	O	
+5-16	sich	PRF	sich	_	O	O	
+5-17	dort	ADV	dort	_	O	O	
+5-18	auch	ADV	auch	_	O	O	
+5-19	entschließen	VVINF	entschließen	_	O	O	
+5-20	wird	VAFIN	werden	_	O	O	
+5-21	Dir	PPER	du	_	O	O	
+5-22	ein	ART	eine	_	O	O	
+5-23	leidliches	ADJA	<unknown>	_	O	O	
+5-24	Oextraordinariatsgehalt	NN	<unknown>	_	O	O	
+5-25	zu	PTKZU	zu	_	O	O	
+5-26	bewilligen	VVINF	bewilligen	_	O	O	
+5-27	,	$,	,	_	O	O	
+5-28	da	KOUS	da	_	O	O	
+5-29	jetzt	ADV	jetzt	_	O	O	
+5-30	durch	APPR	durch	_	O	O	
+5-31	Ambroschs	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-32	und	KON	und	_	O	O	
+5-33	Schneider	NE	Schneider	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-34	Tod	NN	Tod	_	O	O	
+5-35	beinahe	ADV	beinahe	_	O	O	
+5-36	2500	CARD	2500	_	O	O	
+5-37	rtt	NN	<unknown>	_	O	O	
+5-38	disponibel	ADJD	disponibel	_	O	O	
+5-39	geworden	VAPP	werden	_	O	O	
+5-40	sind	VAFIN	sein	_	O	O	
+5-41	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich kann nur das melden; meine Zeit ist knapp.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	kann	VMFIN	können	_	O	O	
+6-3	nur	ADV	nur	_	O	O	
+6-4	das	PDS	die	_	O	O	
+6-5	melden	VVINF	melden	_	O	O	
+6-6	;	$.	;	_	O	O	
+6-7	meine	PPOSAT	mein	_	O	O	
+6-8	Zeit	NN	Zeit	_	O	O	
+6-9	ist	VAFIN	sein	_	O	O	
+6-10	knapp	ADJD	knapp	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Dein Mommsen, Breslau 22 Mai 1856.
+7-1	Dein	PPOSAT	dein	_	O	O	
+7-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-3	,	$,	,	_	O	O	
+7-4	Breslau	NE	Breslau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-5	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+7-6	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-7	1856	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-8	.	$.	.	_	O	O	
+

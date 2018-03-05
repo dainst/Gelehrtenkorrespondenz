@@ -1,0 +1,96 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Chärlottenburg 11. Februar 1891 - 2 - zu theilen l Wenn Du wüßtest, theils wie unbeschreiblich ; verkehrt dies ist, theils wie ich dies für mich als einen Stoß ins Herz betrachte, so würdest Du so nicht schreiben.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Chärlottenburg	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-7	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	1891	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	-	$(	-	_	O	O	
+1-10	2	CARD	2	_	O	O	
+1-11	-	$(	-	_	O	O	
+1-12	zu	PTKZU	zu	_	O	O	
+1-13	theilen	ADJA	<unknown>	_	O	O	
+1-14	l	NN	l	_	O	O	
+1-15	Wenn	KOUS	wenn	_	O	O	
+1-16	Du	PPER	du	_	O	O	
+1-17	wüßtest	VVFIN	wissen	_	O	O	
+1-18	,	$,	,	_	O	O	
+1-19	theils	ADJD	<unknown>	_	O	O	
+1-20	wie	KOKOM	wie	_	O	O	
+1-21	unbeschreiblich	ADJD	unbeschreiblich	_	O	O	
+1-22	;	$.	;	_	O	O	
+1-23	verkehrt	VVIMP	verkehren	_	O	O	
+1-24	dies	PDS	dies	_	O	O	
+1-25	ist	VAFIN	sein	_	O	O	
+1-26	,	$,	,	_	O	O	
+1-27	theils	ADV	<unknown>	_	O	O	
+1-28	wie	KOUS	wie	_	O	O	
+1-29	ich	PPER	ich	_	O	O	
+1-30	dies	PDS	dies	_	O	O	
+1-31	für	APPR	für	_	O	O	
+1-32	mich	PPER	ich	_	O	O	
+1-33	als	KOKOM	als	_	O	O	
+1-34	einen	ART	eine	_	O	O	
+1-35	Stoß	NN	Stoß	_	O	O	
+1-36	ins	APPRART	in	_	O	O	
+1-37	Herz	NN	Herz	_	O	O	
+1-38	betrachte	VVFIN	betrachten	_	O	O	
+1-39	,	$,	,	_	O	O	
+1-40	so	ADV	so	_	O	O	
+1-41	würdest	VAFIN	werden	_	O	O	
+1-42	Du	PPER	du	_	O	O	
+1-43	so	ADV	so	_	O	O	
+1-44	nicht	PTKNEG	nicht	_	O	O	
+1-45	schreiben	VVINF	schreiben	_	O	O	
+1-46	.	$.	.	_	O	O	
+
+#id=2
+#text=Aber unser armes Vaterland ist trotz der schein- Q haften Einigung so zerrißen und	,	und unsre Kinder werden dafür büßen müssen.
+2-1	Aber	KON	aber	_	O	O	
+2-2	unser	PPOSAT	unser	_	O	O	
+2-3	armes	ADJA	arm	_	O	O	
+2-4	Vaterland	NN	Vaterland	_	O	O	
+2-5	ist	VAFIN	sein	_	O	O	
+2-6	trotz	APPR	trotz	_	O	O	
+2-7	der	ART	die	_	O	O	
+2-8	schein-	TRUNC	Schein-	_	O	O	
+2-9	Q	NN	Q	_	O	O	
+2-10	haften	VVFIN	haften	_	O	O	
+2-11	Einigung	NN	Einigung	_	O	O	
+2-12	so	ADV	so	_	O	O	
+2-13	zerrißen	VVFIN	<unknown>	_	O	O	
+2-14	und	KON	und	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	und	KON	und	_	O	O	
+2-17	unsre	PPOSAT	unsre	_	O	O	
+2-18	Kinder	NN	Kind	_	O	O	
+2-19	werden	VAFIN	werden	_	O	O	
+2-20	dafür	PAV	dafür	_	O	O	
+2-21	büßen	VVINF	büßen	_	O	O	
+2-22	müssen	VMINF	müssen	_	O	O	
+2-23	.	$.	.	_	O	O	
+
+#id=3
+#text=Lebewohl.
+3-1	Lebewohl	NN	Lebewohl	_	O	O	
+3-2	.	$.	.	_	O	O	
+
+#id=4
+#text=M. Oh.
+4-1	M.	NE	M.	_	O	O	
+4-2	Oh	ITJ	oh	_	O	O	
+4-3	.	$.	.	_	O	O	
+
+#id=5
+#text=11 Febr.
+5-1	11	CARD	11	_	O	O	
+5-2	Febr.	NN	Febr.	_	O	O	
+
+#id=6
+#text=W
+6-1	W	NN	W	_	O	O	
+

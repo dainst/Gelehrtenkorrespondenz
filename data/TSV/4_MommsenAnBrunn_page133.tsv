@@ -1,0 +1,246 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn - 2 Berlin, 2« Juli 1863 beschränkt wird und jede wissenschaftliche Anfrage und Aufforderung als nicht zur Sache gehörig abgewiesen, also der Verkehr mit der arch, Zeitung als solcher gänzlich sistirt wird.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	O	O	
+1-4	-	$(	-	_	O	O	
+1-5	2	CARD	2	_	O	O	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-7	,	$,	,	_	O	O	
+1-8	2	CARD	2	_	O	O	
+1-9	«	ADJA	<unknown>	_	O	O	
+1-10	Juli	NN	Juli	_	O	O	
+1-11	1863	CARD	@card@	_	O	O	
+1-12	beschränkt	VVPP	beschränken	_	O	O	
+1-13	wird	VAFIN	werden	_	O	O	
+1-14	und	KON	und	_	O	O	
+1-15	jede	PIAT	jede	_	O	O	
+1-16	wissenschaftliche	ADJA	wissenschaftlich	_	O	O	
+1-17	Anfrage	NN	Anfrage	_	O	O	
+1-18	und	KON	und	_	O	O	
+1-19	Aufforderung	NN	Aufforderung	_	O	O	
+1-20	als	KOKOM	als	_	O	O	
+1-21	nicht	PTKNEG	nicht	_	O	O	
+1-22	zur	APPRART	zu	_	O	O	
+1-23	Sache	NN	Sache	_	O	O	
+1-24	gehörig	ADJD	gehörig	_	O	O	
+1-25	abgewiesen	VVPP	abweisen	_	O	O	
+1-26	,	$,	,	_	O	O	
+1-27	also	ADV	also	_	O	O	
+1-28	der	ART	die	_	O	O	
+1-29	Verkehr	NN	Verkehr	_	O	O	
+1-30	mit	APPR	mit	_	O	O	
+1-31	der	ART	die	_	O	O	
+1-32	arch	ADJA	<unknown>	_	O	O	
+1-33	,	$,	,	_	O	O	
+1-34	Zeitung	NN	Zeitung	_	O	O	
+1-35	als	KOKOM	als	_	O	O	
+1-36	solcher	PIS	solche	_	O	O	
+1-37	gänzlich	ADJD	gänzlich	_	O	O	
+1-38	sistirt	NN	<unknown>	_	O	O	
+1-39	wird	VAFIN	werden	_	O	O	
+1-40	.	$.	.	_	O	O	
+
+#id=2
+#text=Eine Ausnahme machen natürlich die speciell vorbehaltenen Adunanzberichte.
+2-1	Eine	ART	eine	_	O	O	
+2-2	Ausnahme	NN	Ausnahme	_	O	O	
+2-3	machen	VVFIN	machen	_	O	O	
+2-4	natürlich	ADV	natürlich	_	O	O	
+2-5	die	ART	die	_	O	O	
+2-6	speciell	ADJD	<unknown>	_	O	O	
+2-7	vorbehaltenen	ADJA	vorbehalten	_	O	O	
+2-8	Adunanzberichte	NN	<unknown>	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich würde gar nicht mehr an Gerhard, sondern an die Centraldirection schreiben und dann abwarten, was weiter geschieht.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	würde	VAFIN	werden	_	O	O	
+3-3	gar	ADV	gar	_	O	O	
+3-4	nicht	PTKNEG	nicht	_	O	O	
+3-5	mehr	ADV	mehr	_	O	O	
+3-6	an	APPR	an	_	O	O	
+3-7	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-8	,	$,	,	_	O	O	
+3-9	sondern	KON	sondern	_	O	O	
+3-10	an	APPR	an	_	O	O	
+3-11	die	ART	die	_	O	O	
+3-12	Centraldirection	NN	<unknown>	_	O	O	
+3-13	schreiben	VVINF	schreiben	_	O	O	
+3-14	und	KON	und	_	O	O	
+3-15	dann	ADV	dann	_	O	O	
+3-16	abwarten	VVINF	abwarten	_	O	O	
+3-17	,	$,	,	_	O	O	
+3-18	was	PRELS	was	_	O	O	
+3-19	weiter	ADV	weiter	_	O	O	
+3-20	geschieht	VVFIN	geschehen	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Nach meiner Ansicht wird man dann, davnur die Wahl übrig bleibt zwischen einer Beschwerde beim Ministerium, die voraussichtlich erfolglos ist und zu der Gerhard auch aus besseren Gründen sich nicht entschließen wird, und einem Nachgeben in der Sache, sich zu dem letzteren, wenn auch bloß stillschweigend, entschließen.
+4-1	Nach	APPR	nach	_	O	O	
+4-2	meiner	PPOSAT	mein	_	O	O	
+4-3	Ansicht	NN	Ansicht	_	O	O	
+4-4	wird	VAFIN	werden	_	O	O	
+4-5	man	PIS	man	_	O	O	
+4-6	dann	ADV	dann	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	davnur	VVFIN	<unknown>	_	O	O	
+4-9	die	ART	die	_	O	O	
+4-10	Wahl	NN	Wahl	_	O	O	
+4-11	übrig	ADJD	übrig	_	O	O	
+4-12	bleibt	VVFIN	bleiben	_	O	O	
+4-13	zwischen	APPR	zwischen	_	O	O	
+4-14	einer	ART	eine	_	O	O	
+4-15	Beschwerde	NN	Beschwerde	_	O	O	
+4-16	beim	APPRART	bei	_	O	O	
+4-17	Ministerium	NN	Ministerium	_	O	O	
+4-18	,	$,	,	_	O	O	
+4-19	die	PRELS	die	_	O	O	
+4-20	voraussichtlich	ADJD	voraussichtlich	_	O	O	
+4-21	erfolglos	ADJD	erfolglos	_	O	O	
+4-22	ist	VAFIN	sein	_	O	O	
+4-23	und	KON	und	_	O	O	
+4-24	zu	APPR	zu	_	O	O	
+4-25	der	ART	die	_	O	O	
+4-26	Gerhard	NE	Gerhard	_	O	O	
+4-27	auch	ADV	auch	_	O	O	
+4-28	aus	APPR	aus	_	O	O	
+4-29	besseren	ADJA	gut	_	O	O	
+4-30	Gründen	NN	Grund	_	O	O	
+4-31	sich	PRF	sich	_	O	O	
+4-32	nicht	PTKNEG	nicht	_	O	O	
+4-33	entschließen	VVINF	entschließen	_	O	O	
+4-34	wird	VAFIN	werden	_	O	O	
+4-35	,	$,	,	_	O	O	
+4-36	und	KON	und	_	O	O	
+4-37	einem	ART	eine	_	O	O	
+4-38	Nachgeben	NN	Nachgeben	_	O	O	
+4-39	in	APPR	in	_	O	O	
+4-40	der	ART	die	_	O	O	
+4-41	Sache	NN	Sache	_	O	O	
+4-42	,	$,	,	_	O	O	
+4-43	sich	PRF	sich	_	O	O	
+4-44	zu	APPR	zu	_	O	O	
+4-45	dem	ART	die	_	O	O	
+4-46	letzteren	ADJA	letzt	_	O	O	
+4-47	,	$,	,	_	O	O	
+4-48	wenn	KOUS	wenn	_	O	O	
+4-49	auch	ADV	auch	_	O	O	
+4-50	bloß	ADJD	bloß	_	O	O	
+4-51	stillschweigend	ADJD	stillschweigend	_	O	O	
+4-52	,	$,	,	_	O	O	
+4-53	entschließen	VVFIN	entschließen	_	O	O	
+4-54	.	$.	.	_	O	O	
+
+#id=5
+#text=Was die Specialbewilligung anlangt, so werde ich zunächst geltend machen, daß Beschlüsse über den Reservefonds nicht definitiv gefaßt werden können, bis das römische Secretariat darüber gehört ist; dies steht zwar nicht in den Statuten, liegt aber in der Vernunft der Sache.
+5-1	Was	PWS	was	_	O	O	
+5-2	die	ART	die	_	O	O	
+5-3	Specialbewilligung	NN	<unknown>	_	O	O	
+5-4	anlangt	VVFIN	anlangen	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	so	ADV	so	_	O	O	
+5-7	werde	VAFIN	werden	_	O	O	
+5-8	ich	PPER	ich	_	O	O	
+5-9	zunächst	ADV	zunächst	_	O	O	
+5-10	geltend	ADJD	geltend	_	O	O	
+5-11	machen	VVINF	machen	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	daß	KOUS	dass	_	O	O	
+5-14	Beschlüsse	NN	Beschluss	_	O	O	
+5-15	über	APPR	über	_	O	O	
+5-16	den	ART	die	_	O	O	
+5-17	Reservefonds	NN	Reservefonds	_	O	O	
+5-18	nicht	PTKNEG	nicht	_	O	O	
+5-19	definitiv	ADJD	definitiv	_	O	O	
+5-20	gefaßt	VVPP	fassen	_	O	O	
+5-21	werden	VAINF	werden	_	O	O	
+5-22	können	VMFIN	können	_	O	O	
+5-23	,	$,	,	_	O	O	
+5-24	bis	KOUS	bis	_	O	O	
+5-25	das	ART	die	_	O	O	
+5-26	römische	ADJA	römisch	_	O	O	
+5-27	Secretariat	NN	<unknown>	_	O	O	
+5-28	darüber	PAV	darüber	_	O	O	
+5-29	gehört	VVPP	gehören|hören	_	O	O	
+5-30	ist	VAFIN	sein	_	O	O	
+5-31	;	$.	;	_	O	O	
+5-32	dies	PDS	dies	_	O	O	
+5-33	steht	VVFIN	stehen	_	O	O	
+5-34	zwar	ADV	zwar	_	O	O	
+5-35	nicht	PTKNEG	nicht	_	O	O	
+5-36	in	APPR	in	_	O	O	
+5-37	den	ART	die	_	O	O	
+5-38	Statuten	NN	Statut	_	O	O	
+5-39	,	$,	,	_	O	O	
+5-40	liegt	VVFIN	liegen	_	O	O	
+5-41	aber	ADV	aber	_	O	O	
+5-42	in	APPR	in	_	O	O	
+5-43	der	ART	die	_	O	O	
+5-44	Vernunft	NN	Vernunft	_	O	O	
+5-45	der	ART	die	_	O	O	
+5-46	Sache	NN	Sache	_	O	O	
+5-47	.	$.	.	_	O	O	
+
+#id=6
+#text=Diesen Punct würde ich auch Eurerseits zunächst geltend machen und, wenn Henzen zurück sein wird, darauf noch einmal nachdrücklich zurückkommen.
+6-1	Diesen	PDAT	dies	_	O	O	
+6-2	Punct	NN	<unknown>	_	O	O	
+6-3	würde	VAFIN	werden	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	auch	ADV	auch	_	O	O	
+6-6	Eurerseits	NN	<unknown>	_	O	O	
+6-7	zunächst	ADV	zunächst	_	O	O	
+6-8	geltend	ADJD	geltend	_	O	O	
+6-9	machen	VVINF	machen	_	O	O	
+6-10	und	KON	und	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	wenn	KOUS	wenn	_	O	O	
+6-13	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-14	zurück	PTKVZ	zurück	_	O	O	
+6-15	sein	VAINF	sein	_	O	O	
+6-16	wird	VAFIN	werden	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	darauf	PAV	darauf	_	O	O	
+6-19	noch	ADV	noch	_	O	O	
+6-20	einmal	ADV	einmal	_	O	O	
+6-21	nachdrücklich	ADJD	nachdrücklich	_	O	O	
+6-22	zurückkommen	VVFIN	zurückkommen	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Vielleicht schlägt dies durch; auf allfceEälle giebt dies Gelegenheit das wissenschaftlich wie administrativ Exorbitante dieses Beschlusses ins Libht zu steilen.
+7-1	Vielleicht	ADV	vielleicht	_	O	O	
+7-2	schlägt	VVFIN	schlagen	_	O	O	
+7-3	dies	PDS	dies	_	O	O	
+7-4	durch	PTKVZ	durch	_	O	O	
+7-5	;	$.	;	_	O	O	
+7-6	auf	APPR	auf	_	O	O	
+7-7	allfceEälle	NN	<unknown>	_	O	O	
+7-8	giebt	VVFIN	<unknown>	_	O	O	
+7-9	dies	PDS	dies	_	O	O	
+7-10	Gelegenheit	NN	Gelegenheit	_	O	O	
+7-11	das	ART	die	_	O	O	
+7-12	wissenschaftlich	ADJD	wissenschaftlich	_	O	O	
+7-13	wie	KOKOM	wie	_	O	O	
+7-14	administrativ	ADJD	administrativ	_	O	O	
+7-15	Exorbitante	NN	Exorbitante	_	O	O	
+7-16	dieses	PDAT	dies	_	O	O	
+7-17	Beschlusses	NN	Beschluss	_	O	O	
+7-18	ins	APPRART	in	_	O	O	
+7-19	Libht	NN	<unknown>	_	O	O	
+7-20	zu	APPR	zu	_	O	O	
+7-21	steilen	ADJA	steil	_	O	O	
+7-22	.	$.	.	_	O	O	
+
+#id=8
+#text=Uebrigens wirst Du gewiß aus
+8-1	Uebrigens	NN	<unknown>	_	O	O	
+8-2	wirst	VAFIN	werden	_	O	O	
+8-3	Du	PPER	du	_	O	O	
+8-4	gewiß	ADJD	gewiss	_	O	O	
+8-5	aus	APPR	aus	_	O	O	
+

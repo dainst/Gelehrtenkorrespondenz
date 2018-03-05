@@ -1,0 +1,231 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Charlottenburg 20.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Charlottenburg	NE	Charlottenburg	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	20	CARD	20	_	O	O	
+1-6	.	$.	.	_	O	O	
+
+#id=2
+#text=Januar 1890 Lieber Ereund, Schönen Dank für Deine Sendung.
+2-1	Januar	NN	Januar	_	O	O	
+2-2	1890	CARD	1890	_	O	O	
+2-3	Lieber	ADJA	lieb	_	O	O	
+2-4	Ereund	NN	<unknown>	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	Schönen	ADJA	schön	_	O	O	
+2-7	Dank	NN	Dank	_	O	O	
+2-8	für	APPR	für	_	O	O	
+2-9	Deine	PPOSAT	dein	_	O	O	
+2-10	Sendung	NN	Sendung	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Sie ist ganz so, wie ich sie im besten Falle hoffe.
+3-1	Sie	PPER	Sie	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	ganz	ADV	ganz	_	O	O	
+3-4	so	ADV	so	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	wie	KOUS	wie	_	O	O	
+3-7	ich	PPER	ich	_	O	O	
+3-8	sie	PPER	sie	_	O	O	
+3-9	im	APPRART	in	_	O	O	
+3-10	besten	ADJA	gut	_	O	O	
+3-11	Falle	NN	Falle	_	O	O	
+3-12	hoffe	VVFIN	hoffen	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Vielleicht ist unser Schritt doch nicht ganz erfolglos.
+4-1	Vielleicht	ADV	vielleicht	_	O	O	
+4-2	ist	VAFIN	sein	_	O	O	
+4-3	unser	PPOSAT	unser	_	O	O	
+4-4	Schritt	NN	Schritt	_	O	O	
+4-5	doch	ADV	doch	_	O	O	
+4-6	nicht	PTKNEG	nicht	_	O	O	
+4-7	ganz	ADV	ganz	_	O	O	
+4-8	erfolglos	ADJD	erfolglos	_	O	O	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=Es ist schwer jemand über Dinge aufzuklären, die einem selber nicht klar sind; indeß halte ich es für meine Schuldigkeit Dir wenigstens das zu sagen, was ich sagen kann.
+5-1	Es	PPER	es	_	O	O	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	schwer	ADJD	schwer	_	O	O	
+5-4	jemand	PIS	jemand	_	O	O	
+5-5	über	APPR	über	_	O	O	
+5-6	Dinge	NN	Ding	_	O	O	
+5-7	aufzuklären	VVIZU	aufklären	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	die	PRELS	die	_	O	O	
+5-10	einem	PIS	eine	_	O	O	
+5-11	selber	ADV	selber	_	O	O	
+5-12	nicht	PTKNEG	nicht	_	O	O	
+5-13	klar	ADJD	klar	_	O	O	
+5-14	sind	VAFIN	sein	_	O	O	
+5-15	;	$.	;	_	O	O	
+5-16	indeß	NE	<unknown>	_	O	O	
+5-17	halte	VVFIN	halten	_	O	O	
+5-18	ich	PPER	ich	_	O	O	
+5-19	es	PPER	es	_	O	O	
+5-20	für	APPR	für	_	O	O	
+5-21	meine	PPOSAT	mein	_	O	O	
+5-22	Schuldigkeit	NN	Schuldigkeit	_	O	O	
+5-23	Dir	PPER	du	_	O	O	
+5-24	wenigstens	ADV	wenigstens	_	O	O	
+5-25	das	PDS	die	_	O	O	
+5-26	zu	PTKZU	zu	_	O	O	
+5-27	sagen	VVINF	sagen	_	O	O	
+5-28	,	$,	,	_	O	O	
+5-29	was	PRELS	was	_	O	O	
+5-30	ich	PPER	ich	_	O	O	
+5-31	sagen	VVINF	sagen	_	O	O	
+5-32	kann	VMFIN	können	_	O	O	
+5-33	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich hatte vor irich an den Generalstab in dieser Sache zu wenden, gestützt auf wissenschaftliche Ausführungen von Zangemeister (sehr schön und ausführlich), Hettner und Herzog; an wen ich in Bayern mich wenden sollte, wüßte ich nicht, da mir Olingschlegers äußerliche Stellung für meinen Zweck nicht hinreichend gesichert schien.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	hatte	VAFIN	haben	_	O	O	
+6-3	vor	APPR	vor	_	O	O	
+6-4	irich	NE	<unknown>	_	O	O	
+6-5	an	APPR	an	_	O	O	
+6-6	den	ART	die	_	O	O	
+6-7	Generalstab	NN	Generalstab	_	O	O	
+6-8	in	APPR	in	_	O	O	
+6-9	dieser	PDAT	dies	_	O	O	
+6-10	Sache	NN	Sache	_	O	O	
+6-11	zu	PTKZU	zu	_	O	O	
+6-12	wenden	VVINF	wenden	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	gestützt	VVPP	stützen	_	O	O	
+6-15	auf	APPR	auf	_	O	O	
+6-16	wissenschaftliche	ADJA	wissenschaftlich	_	O	O	
+6-17	Ausführungen	NN	Ausführung	_	O	O	
+6-18	von	APPR	von	_	O	O	
+6-19	Zangemeister	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-20	(	$(	(	_	O	O	
+6-21	sehr	ADV	sehr	_	O	O	
+6-22	schön	ADJD	schön	_	O	O	
+6-23	und	KON	und	_	O	O	
+6-24	ausführlich	ADJD	ausführlich	_	O	O	
+6-25	)	$(	)	_	O	O	
+6-26	,	$,	,	_	O	O	
+6-27	Hettner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-28	und	KON	und	_	O	O	
+6-29	Herzog	NN	Herzog	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-30	;	$.	;	_	O	O	
+6-31	an	PTKVZ	an	_	O	O	
+6-32	wen	PWS	wer	_	O	O	
+6-33	ich	PPER	ich	_	O	O	
+6-34	in	APPR	in	_	O	O	
+6-35	Bayern	NE	Bayern	_	O	O	
+6-36	mich	PRF	ich	_	O	O	
+6-37	wenden	VVINF	wenden	_	O	O	
+6-38	sollte	VMFIN	sollen	_	O	O	
+6-39	,	$,	,	_	O	O	
+6-40	wüßte	VVFIN	wissen	_	O	O	
+6-41	ich	PPER	ich	_	O	O	
+6-42	nicht	PTKNEG	nicht	_	O	O	
+6-43	,	$,	,	_	O	O	
+6-44	da	KOUS	da	_	O	O	
+6-45	mir	PPER	ich	_	O	O	
+6-46	Olingschlegers	NE	<unknown>	_	O	O	
+6-47	äußerliche	ADJA	äußerlich	_	O	O	
+6-48	Stellung	NN	Stellung	_	O	O	
+6-49	für	APPR	für	_	O	O	
+6-50	meinen	PPOSAT	mein	_	O	O	
+6-51	Zweck	NN	Zweck	_	O	O	
+6-52	nicht	PTKNEG	nicht	_	O	O	
+6-53	hinreichend	ADJD	hinreichend	_	O	O	
+6-54	gesichert	VVPP	sichern	_	O	O	
+6-55	schien	VVFIN	scheinen	_	O	O	
+6-56	.	$.	.	_	O	O	
+
+#id=7
+#text=Inzwischen hatte, ohne mein Wissen, Herzog eine ähnliche Eingabe an den G.St.
+7-1	Inzwischen	ADV	inzwischen	_	O	O	
+7-2	hatte	VAFIN	haben	_	O	O	
+7-3	,	$,	,	_	O	O	
+7-4	ohne	KOUI	ohne	_	O	O	
+7-5	mein	PPOSAT	mein	_	O	O	
+7-6	Wissen	NN	Wissen	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	Herzog	NN	Herzog	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-9	eine	ART	eine	_	O	O	
+7-10	ähnliche	ADJA	ähnlich	_	O	O	
+7-11	Eingabe	NN	Eingabe	_	O	O	
+7-12	an	APPR	an	_	O	O	
+7-13	den	ART	die	_	O	O	
+7-14	G.St	NE	<unknown>	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=gerichtet; die Antwort lege ich Dir bei.
+8-1	gerichtet	VVPP	richten	_	O	O	
+8-2	;	$.	;	_	O	O	
+8-3	die	ART	die	_	O	O	
+8-4	Antwort	NN	Antwort	_	O	O	
+8-5	lege	VVFIN	legen	_	O	O	
+8-6	ich	PPER	ich	_	O	O	
+8-7	Dir	PPER	du	_	O	O	
+8-8	bei	PTKVZ	bei	_	O	O	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=Sie ist beiläufig ein merkwürdiges Actenstück für die hiesige Kriegsschreiberei; wo so ein Schreib-Warum erschiene, so hätten alle Zeitungen von der Limesforschung und einigen anderen Dingen geredet.
+9-1	Sie	PPER	Sie	_	O	O	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	beiläufig	ADJD	beiläufig	_	O	O	
+9-4	ein	ART	eine	_	O	O	
+9-5	merkwürdiges	ADJA	merkwürdig	_	O	O	
+9-6	Actenstück	NN	<unknown>	_	O	O	
+9-7	für	APPR	für	_	O	O	
+9-8	die	ART	die	_	O	O	
+9-9	hiesige	ADJA	hiesig	_	O	O	
+9-10	Kriegsschreiberei	NN	<unknown>	_	O	O	
+9-11	;	$.	;	_	O	O	
+9-12	wo	PWAV	wo	_	O	O	
+9-13	so	ADV	so	_	O	O	
+9-14	ein	ART	eine	_	O	O	
+9-15	Schreib-Warum	NN	<unknown>	_	O	O	
+9-16	erschiene	VVFIN	erscheinen	_	O	O	
+9-17	,	$,	,	_	O	O	
+9-18	so	ADV	so	_	O	O	
+9-19	hätten	VAFIN	haben	_	O	O	
+9-20	alle	PIAT	alle	_	O	O	
+9-21	Zeitungen	NN	Zeitung	_	O	O	
+9-22	von	APPR	von	_	O	O	
+9-23	der	ART	die	_	O	O	
+9-24	Limesforschung	NN	Limesforschung	_	O	O	
+9-25	und	KON	und	_	O	O	
+9-26	einigen	PIAT	einige	_	O	O	
+9-27	anderen	PIS	andere	_	O	O	
+9-28	Dingen	NN	Ding	_	O	O	
+9-29	geredet	VVPP	reden	_	O	O	
+9-30	.	$.	.	_	O	O	
+
+#id=10
+#text=Dies veranlaßte mich dann die Batterie zu wenden, die Eingabe an Gosüer und seine Antwort kennst Du.
+10-1	Dies	PDS	dies	_	O	O	
+10-2	veranlaßte	VVFIN	veranlassen	_	O	O	
+10-3	mich	PRF	ich	_	O	O	
+10-4	dann	ADV	dann	_	O	O	
+10-5	die	ART	die	_	O	O	
+10-6	Batterie	NN	Batterie	_	O	O	
+10-7	zu	PTKZU	zu	_	O	O	
+10-8	wenden	VVINF	wenden	_	O	O	
+10-9	,	$,	,	_	O	O	
+10-10	die	ART	die	_	O	O	
+10-11	Eingabe	NN	Eingabe	_	O	O	
+10-12	an	APPR	an	_	O	O	
+10-13	Gosüer	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-14	und	KON	und	_	O	O	
+10-15	seine	PPOSAT	sein	_	O	O	
+10-16	Antwort	NN	Antwort	_	O	O	
+10-17	kennst	VVFIN	kennen	_	O	O	
+10-18	Du.	NE	<unknown>	_	O	O	
+

@@ -1,0 +1,275 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn - 3 - Zürich, 20. September 52 nammentlich ob z.B. Septumanum oder Septumianum stebt.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	O	O	
+1-4	-	$(	-	_	O	O	
+1-5	3	CARD	3	_	O	O	
+1-6	-	$(	-	_	O	O	
+1-7	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-8	,	$,	,	_	O	O	
+1-9	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	52	CARD	52	_	O	O	
+1-13	nammentlich	ADJD	<unknown>	_	O	O	
+1-14	ob	ADV	ob	_	O	O	
+1-15	z.B.	ADV	z.B.	_	O	O	
+1-16	Septumanum	NN	<unknown>	_	O	O	
+1-17	oder	KON	oder	_	O	O	
+1-18	Septumianum	NN	<unknown>	_	O	O	
+1-19	stebt	VVFIN	<unknown>	_	O	O	
+1-20	.	$.	.	_	O	O	
+
+#id=2
+#text=Ferner sollen auf der Minerva die Papiere des Dominicus Georgius (bekannt durch seine Noten zum ronius) aufbewahrt werden; es wäre mir lieb von den Epigraphicis darüber einige Kunde» namentlich die Neapolitane daraus zu erhalten.
+2-1	Ferner	ADJD	fern	_	O	O	
+2-2	sollen	VMFIN	sollen	_	O	O	
+2-3	auf	APPR	auf	_	O	O	
+2-4	der	ART	die	_	O	O	
+2-5	Minerva	NE	Minerva	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-6	die	ART	die	_	O	O	
+2-7	Papiere	NN	Papier	_	O	O	
+2-8	des	ART	die	_	O	O	
+2-9	Dominicus	NE	Dominicus	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-10	Georgius	NE	Georgius	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-11	(	$(	(	_	O	O	
+2-12	bekannt	ADJD	bekannt	_	O	O	
+2-13	durch	APPR	durch	_	O	O	
+2-14	seine	PPOSAT	sein	_	O	O	
+2-15	Noten	NN	Note	_	O	O	
+2-16	zum	APPRART	zu	_	O	O	
+2-17	ronius	NE	<unknown>	_	O	O	
+2-18	)	$(	)	_	O	O	
+2-19	aufbewahrt	VVPP	aufbewahren	_	O	O	
+2-20	werden	VAINF	werden	_	O	O	
+2-21	;	$.	;	_	O	O	
+2-22	es	PPER	es	_	O	O	
+2-23	wäre	VAFIN	sein	_	O	O	
+2-24	mir	PPER	ich	_	O	O	
+2-25	lieb	ADJD	lieb	_	O	O	
+2-26	von	APPR	von	_	O	O	
+2-27	den	ART	die	_	O	O	
+2-28	Epigraphicis	NN	<unknown>	_	O	O	
+2-29	darüber	PAV	darüber	_	O	O	
+2-30	einige	PIAT	einige	_	O	O	
+2-31	Kunde	NN	Kunde	_	O	O	
+2-32	»	ADJD	<unknown>	_	O	O	
+2-33	namentlich	ADJD	namentlich	_	O	O	
+2-34	die	ART	die	_	O	O	
+2-35	Neapolitane	NN	<unknown>	_	O	O	
+2-36	daraus	PAV	daraus	_	O	O	
+2-37	zu	PTKZU	zu	_	O	O	
+2-38	erhalten	VVINF	erhalten	_	O	O	
+2-39	.	$.	.	_	O	O	
+
+#id=3
+#text=Versteht sich für die Gebühr; denn ich kann zahlen und zahle gern an Dich; sonst kriegt es Ja doch der Schneider I Binden sich in Grut.
+3-1	Versteht	VVFIN	verstehen	_	O	O	
+3-2	sich	PRF	sich	_	O	O	
+3-3	für	APPR	für	_	O	O	
+3-4	die	ART	die	_	O	O	
+3-5	Gebühr	NN	Gebühr	_	O	O	
+3-6	;	$.	;	_	O	O	
+3-7	denn	KON	denn	_	O	O	
+3-8	ich	PPER	ich	_	O	O	
+3-9	kann	VMFIN	können	_	O	O	
+3-10	zahlen	VVINF	zahlen	_	O	O	
+3-11	und	KON	und	_	O	O	
+3-12	zahle	VVFIN	zahlen	_	O	O	
+3-13	gern	ADV	gern	_	O	O	
+3-14	an	APPR	an	_	O	O	
+3-15	Dich	PPER	du	_	O	O	
+3-16	;	$.	;	_	O	O	
+3-17	sonst	ADV	sonst	_	O	O	
+3-18	kriegt	VVFIN	kriegen	_	O	O	
+3-19	es	PPER	es	_	O	O	
+3-20	Ja	ADV	ja	_	O	O	
+3-21	doch	ADV	doch	_	O	O	
+3-22	der	ART	die	_	O	O	
+3-23	Schneider	NE	Schneider	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-24	I	FM	I	_	O	O	
+3-25	Binden	NN	Binde|Binden	_	O	O	
+3-26	sich	PRF	sich	_	O	O	
+3-27	in	APPR	in	_	O	O	
+3-28	Grut	NN	<unknown>	_	O	O	
+3-29	.	$.	.	_	O	O	
+
+#id=4
+#text=864-,4, -jetzt im Vatican Gall.
+4-1	864-,4	CARD	@card@	_	O	O	
+4-2	,	$,	,	_	O	O	
+4-3	-jetzt	ADJD	<unknown>	_	O	O	
+4-4	im	APPRART	in	_	O	O	
+4-5	Vatican	NN	<unknown>	_	O	O	
+4-6	Gall	NN	<unknown>	_	O	O	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=Cap. ine.
+5-1	Cap.	NE	<unknown>	_	O	O	
+5-2	ine	VVFIN	<unknown>	_	O	O	
+5-3	.	$.	.	_	O	O	
+
+#id=6
+#text=I p. 34- wirklich Accente über MARMORI(oder MARMORE?
+6-1	I	FM	I	_	O	O	
+6-2	p.	APPR	p.	_	O	O	
+6-3	34-	CARD	@card@	_	O	O	
+6-4	wirklich	ADJD	wirklich	_	O	O	
+6-5	Accente	NN	<unknown>	_	O	O	
+6-6	über	APPR	über	_	O	O	
+6-7	MARMORI(oder	NN	<unknown>	_	O	O	
+6-8	MARMORE	NN	<unknown>	_	O	O	
+6-9	?	$.	?	_	O	O	
+
+#id=7
+#text=und STIPATVM ?
+7-1	und	KON	und	_	O	O	
+7-2	STIPATVM	NE	<unknown>	_	O	O	
+7-3	?	$.	?	_	O	O	
+
+#id=8
+#text='Wer von uns zunächst wieder an Brunn schreibt, möge ihn doch Ja veranlassen dem Vischer gut zuzustutzen für Abklatschung etwaiger römischer Archive in Griechenland'.
+8-1	'	$(	'	_	O	O	
+8-2	Wer	PWS	wer	_	O	O	
+8-3	von	APPR	von	_	O	O	
+8-4	uns	PPER	wir	_	O	O	
+8-5	zunächst	ADV	zunächst	_	O	O	
+8-6	wieder	ADV	wieder	_	O	O	
+8-7	an	APPR	an	_	O	O	
+8-8	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-9	schreibt	VVFIN	schreiben	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	möge	VMFIN	mögen	_	O	O	
+8-12	ihn	PPER	er	_	O	O	
+8-13	doch	ADV	doch	_	O	O	
+8-14	Ja	NN	Ja	_	O	O	
+8-15	veranlassen	VVFIN	veranlassen	_	O	O	
+8-16	dem	ART	die	_	O	O	
+8-17	Vischer	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-18	gut	ADJD	gut	_	O	O	
+8-19	zuzustutzen	ADJD	<unknown>	_	O	O	
+8-20	für	APPR	für	_	O	O	
+8-21	Abklatschung	NN	<unknown>	_	O	O	
+8-22	etwaiger	ADJA	etwaig	_	O	O	
+8-23	römischer	ADJA	römisch	_	O	O	
+8-24	Archive	NN	Archiv	_	O	O	
+8-25	in	APPR	in	_	O	O	
+8-26	Griechenland	NE	Griechenland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-27	'	$(	'	_	O	O	
+8-28	.	$.	.	_	O	O	
+
+#id=9
+#text=So Ritschl; ich habe bloß das 'etwaiger' unterstrichen, da ich schwerlich glaube, daß unser beseler Breund, den Du Dir übrigens empfohlen lassen sein magst so gut wie meinen Spanier, in Hellas eine, geschweige denn eine alte lateinische Inschrift zu Gesicht bekommen wird.
+9-1	So	ADV	so	_	O	O	
+9-2	Ritschl	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-3	;	$.	;	_	O	O	
+9-4	ich	PPER	ich	_	O	O	
+9-5	habe	VAFIN	haben	_	O	O	
+9-6	bloß	ADJD	bloß	_	O	O	
+9-7	das	ART	die	_	O	O	
+9-8	'	$(	'	_	O	O	
+9-9	etwaiger	ADJA	etwaig	_	O	O	
+9-10	'	$(	'	_	O	O	
+9-11	unterstrichen	VVPP	unterstreichen	_	O	O	
+9-12	,	$,	,	_	O	O	
+9-13	da	KOUS	da	_	O	O	
+9-14	ich	PPER	ich	_	O	O	
+9-15	schwerlich	ADJD	schwerlich	_	O	O	
+9-16	glaube	VVFIN	glauben	_	O	O	
+9-17	,	$,	,	_	O	O	
+9-18	daß	KOUS	dass	_	O	O	
+9-19	unser	PPOSAT	unser	_	O	O	
+9-20	beseler	ADJA	<unknown>	_	O	O	
+9-21	Breund	NN	<unknown>	_	O	O	
+9-22	,	$,	,	_	O	O	
+9-23	den	PRELS	die	_	O	O	
+9-24	Du	PPER	du	_	O	O	
+9-25	Dir	PPER	du	_	O	O	
+9-26	übrigens	ADV	übrigens	_	O	O	
+9-27	empfohlen	ADJD	empfohlen	_	O	O	
+9-28	lassen	VVFIN	lassen	_	O	O	
+9-29	sein	PPOSAT	sein	_	O	O	
+9-30	magst	VMFIN	mögen	_	O	O	
+9-31	so	ADV	so	_	O	O	
+9-32	gut	ADJD	gut	_	O	O	
+9-33	wie	KOKOM	wie	_	O	O	
+9-34	meinen	PPOSAT	mein	_	O	O	
+9-35	Spanier	NN	Spanier	_	O	O	
+9-36	,	$,	,	_	O	O	
+9-37	in	APPR	in	_	O	O	
+9-38	Hellas	NE	Hellas	_	O	O	
+9-39	eine	PIS	eine	_	O	O	
+9-40	,	$,	,	_	O	O	
+9-41	geschweige	ADV	geschweige	_	O	O	
+9-42	denn	ADV	denn	_	O	O	
+9-43	eine	ART	eine	_	O	O	
+9-44	alte	ADJA	alt	_	O	O	
+9-45	lateinische	ADJA	lateinisch	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-46	Inschrift	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-OBJ	
+9-47	zu	APPR	zu	_	O	O	
+9-48	Gesicht	NN	Gesicht	_	O	O	
+9-49	bekommen	VVPP	bekommen	_	O	O	
+9-50	wird	VAFIN	werden	_	O	O	
+9-51	.	$.	.	_	O	O	
+
+#id=10
+#text=Lebe wohl, lieber Brunn.
+10-1	Lebe	VVFIN	leben	_	O	O	
+10-2	wohl	ADV	wohl	_	O	O	
+10-3	,	$,	,	_	O	O	
+10-4	lieber	ADJA	lieb	_	O	O	
+10-5	Brunn	NN	Brunn	_	O	O	
+10-6	.	$.	.	_	O	O	
+
+#id=11
+#text=Schade, daß ich nicht König von Hinterpommern bin - wo man, wie Du weißt, dem König an der Landesgrenze einen Ehrenbogen errichtet mit der Inschrift; Wie in dem ver dern du wardst herzlich aufgenommen Schallt aus dem hintern auch ein donnerndes Willkomme
+11-1	Schade	ADJD	schade	_	O	O	
+11-2	,	$,	,	_	O	O	
+11-3	daß	KOUS	dass	_	O	O	
+11-4	ich	PPER	ich	_	O	O	
+11-5	nicht	PTKNEG	nicht	_	O	O	
+11-6	König	NE	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-7	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-8	Hinterpommern	NN	Hinterpommer	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-9	bin	VAFIN	sein	_	O	O	
+11-10	-	$(	-	_	O	O	
+11-11	wo	PWAV	wo	_	O	O	
+11-12	man	PIS	man	_	O	O	
+11-13	,	$,	,	_	O	O	
+11-14	wie	KOUS	wie	_	O	O	
+11-15	Du	PPER	du	_	O	O	
+11-16	weißt	VVFIN	weißen	_	O	O	
+11-17	,	$,	,	_	O	O	
+11-18	dem	ART	die	_	O	O	
+11-19	König	NN	König	_	O	O	
+11-20	an	APPR	an	_	O	O	
+11-21	der	ART	die	_	O	O	
+11-22	Landesgrenze	NN	Landesgrenze	_	O	O	
+11-23	einen	ART	eine	_	O	O	
+11-24	Ehrenbogen	NN	Ehrenbogen	_	O	O	
+11-25	errichtet	VVFIN	errichten	_	O	O	
+11-26	mit	APPR	mit	_	O	O	
+11-27	der	ART	die	_	O	O	
+11-28	Inschrift	NN	Inschrift	_	O	O	
+11-29	;	$.	;	_	O	O	
+11-30	Wie	KOUS	wie	_	O	O	
+11-31	in	APPR	in	_	O	O	
+11-32	dem	ART	die	_	O	O	
+11-33	ver	NN	<unknown>	_	O	O	
+11-34	dern	VVINF	<UNKNOWN>	_	O	O	
+11-35	du	PPER	du	_	O	O	
+11-36	wardst	ADJD	<unknown>	_	O	O	
+11-37	herzlich	ADJD	herzlich	_	O	O	
+11-38	aufgenommen	VVPP	aufnehmen	_	O	O	
+11-39	Schallt	NN	<unknown>	_	O	O	
+11-40	aus	APPR	aus	_	O	O	
+11-41	dem	ART	die	_	O	O	
+11-42	hintern	APPRART	hintern	_	O	O	
+11-43	auch	ADV	auch	_	O	O	
+11-44	ein	ART	eine	_	O	O	
+11-45	donnerndes	ADJA	donnernd	_	O	O	
+11-46	Willkomme	NN	<unknown>	_	O	O	
+

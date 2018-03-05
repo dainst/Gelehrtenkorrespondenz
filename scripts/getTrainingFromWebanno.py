@@ -170,7 +170,7 @@ def tsv2iob(lines, colmapping=['sent-tok', 'offset', 'form', 'pos', 'lemma', 'en
 
 def getWebAnnoDocs(stage):
     docs = pywebanno.get.list_documents(auth, proj_id)
-    doc_ids = [d for d in docs if d["name"].split(".")[0] == str(stage)]
+    doc_ids = [d for d in docs if d["name"].split("_")[0] == str(stage)]
     return doc_ids
 
 

@@ -1,0 +1,247 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Berlin, 17. Februar 1872 6 • 18. Februar 1872 r. Lieber Brunn.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	17	CARD	17	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	•	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	18	CARD	18	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	1872	CARD	@card@	_	O	O	
+1-16	r.	ADJA	<unknown>	_	O	O	
+1-17	Lieber	ADJA	lieb	_	O	O	
+1-18	Brunn	NN	Brunn	_	O	O	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=Trotz der schnöden Betrachtungen, mit denen Du, oder was noch viel schlimmer ist, Deine edlere Hälfte mein Conterfei begrüßt haben, komme ich an Dich mit einer Bitte, die Du mir nicht abschlagen wirst.
+2-1	Trotz	APPR	trotz	_	O	O	
+2-2	der	ART	die	_	O	O	
+2-3	schnöden	ADJA	schnöde	_	O	O	
+2-4	Betrachtungen	NN	Betrachtung	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	mit	APPR	mit	_	O	O	
+2-7	denen	PRELS	die	_	O	O	
+2-8	Du	PPER	du	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	oder	KON	oder	_	O	O	
+2-11	was	PWS	was	_	O	O	
+2-12	noch	ADV	noch	_	O	O	
+2-13	viel	ADV	viel	_	O	O	
+2-14	schlimmer	ADJD	schlimm	_	O	O	
+2-15	ist	VAFIN	sein	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	Deine	PPOSAT	dein	_	O	O	
+2-18	edlere	ADJA	edel	_	O	O	
+2-19	Hälfte	NN	Hälfte	_	O	O	
+2-20	mein	PPOSAT	mein	_	O	O	
+2-21	Conterfei	NN	<unknown>	_	O	O	
+2-22	begrüßt	VVPP	begrüßen	_	O	O	
+2-23	haben	VAFIN	haben	_	O	O	
+2-24	,	$,	,	_	O	O	
+2-25	komme	VVFIN	kommen	_	O	O	
+2-26	ich	PPER	ich	_	O	O	
+2-27	an	APPR	an	_	O	O	
+2-28	Dich	PPER	du	_	O	O	
+2-29	mit	APPR	mit	_	O	O	
+2-30	einer	ART	eine	_	O	O	
+2-31	Bitte	NN	Bitte	_	O	O	
+2-32	,	$,	,	_	O	O	
+2-33	die	PRELS	die	_	O	O	
+2-34	Du	PPER	du	_	O	O	
+2-35	mir	PRF	ich	_	O	O	
+2-36	nicht	PTKNEG	nicht	_	O	O	
+2-37	abschlagen	VVINF	abschlagen	_	O	O	
+2-38	wirst	VAFIN	werden	_	O	O	
+2-39	.	$.	.	_	O	O	
+
+#id=3
+#text=Unser Reichsministerium scheint nicht abgeneigt zu sein einen jungen Archäologen in Paris zu etabliren, nicht als Diplomaten, wie etwa Köhler in Athen stand, sondern als Agenten des röm.
+3-1	Unser	PPOSAT	unser	_	O	O	
+3-2	Reichsministerium	NN	Reichsministerium	_	O	O	
+3-3	scheint	VVFIN	scheinen	_	O	O	
+3-4	nicht	PTKNEG	nicht	_	O	O	
+3-5	abgeneigt	VVPP	abneigen	_	O	O	
+3-6	zu	PTKZU	zu	_	O	O	
+3-7	sein	VAINF	sein	_	O	O	
+3-8	einen	ART	eine	_	O	O	
+3-9	jungen	ADJA	jung	_	O	O	
+3-10	Archäologen	NN	Archäologe	_	O	O	
+3-11	in	APPR	in	_	O	O	
+3-12	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-13	zu	APPR	zu	_	O	O	
+3-14	etabliren	NN	<unknown>	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	nicht	PTKNEG	nicht	_	O	O	
+3-17	als	KOKOM	als	_	O	O	
+3-18	Diplomaten	NN	Diplomat	_	O	O	
+3-19	,	$,	,	_	O	O	
+3-20	wie	KOUS	wie	_	O	O	
+3-21	etwa	ADV	etwa	_	O	O	
+3-22	Köhler	NE	Köhler	_	O	O	
+3-23	in	APPR	in	_	O	O	
+3-24	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-25	stand	VVFIN	stehen	_	O	O	
+3-26	,	$,	,	_	O	O	
+3-27	sondern	KON	sondern	_	O	O	
+3-28	als	KOKOM	als	_	O	O	
+3-29	Agenten	NN	Agent	_	O	O	
+3-30	des	ART	die	_	O	O	
+3-31	röm.	ADJA	<unknown>	_	O	O	
+
+#id=4
+#text=Instituts, aber natürlich in Verbindung mit unserer Gesandtschaft und unter deren speciellen Schutz.
+4-1	Instituts	NN	Institut	_	O	O	
+4-2	,	$,	,	_	O	O	
+4-3	aber	KON	aber	_	O	O	
+4-4	natürlich	ADV	natürlich	_	O	O	
+4-5	in	APPR	in	_	O	O	
+4-6	Verbindung	NN	Verbindung	_	O	O	
+4-7	mit	APPR	mit	_	O	O	
+4-8	unserer	PPOSAT	unser	_	O	O	
+4-9	Gesandtschaft	NN	Gesandtschaft	_	O	O	
+4-10	und	KON	und	_	O	O	
+4-11	unter	APPR	unter	_	O	O	
+4-12	deren	PDAT	die	_	O	O	
+4-13	speciellen	ADJA	<unknown>	_	O	O	
+4-14	Schutz	NN	Schutz	_	O	O	
+4-15	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Hauptveranlassung ist das Abreißen so vieler Pariser Verbindungen, wofür hiermit eine große Ergänzung geschaffen wird} doch wird man das natürlich nicht affichiren.
+5-1	Die	ART	die	_	O	O	
+5-2	Hauptveranlassung	NN	<unknown>	_	O	O	
+5-3	ist	VAFIN	sein	_	O	O	
+5-4	das	ART	die	_	O	O	
+5-5	Abreißen	NN	Abreißen	_	O	O	
+5-6	so	ADV	so	_	O	O	
+5-7	vieler	PIAT	viele	_	O	O	
+5-8	Pariser	NN	Pariser	_	O	O	
+5-9	Verbindungen	NN	Verbindung	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	wofür	PWAV	wofür	_	O	O	
+5-12	hiermit	PAV	hiermit	_	O	O	
+5-13	eine	ART	eine	_	O	O	
+5-14	große	ADJA	groß	_	O	O	
+5-15	Ergänzung	NN	Ergänzung	_	O	O	
+5-16	geschaffen	VVPP	schaffen	_	O	O	
+5-17	wird	VAFIN	werden	_	O	O	
+5-18	}	$(	}	_	O	O	
+5-19	doch	KON	doch	_	O	O	
+5-20	wird	VAFIN	werden	_	O	O	
+5-21	man	PIS	man	_	O	O	
+5-22	das	PDS	die	_	O	O	
+5-23	natürlich	ADV	natürlich	_	O	O	
+5-24	nicht	PTKNEG	nicht	_	O	O	
+5-25	affichiren	NN	<unknown>	_	O	O	
+5-26	.	$.	.	_	O	O	
+
+#id=6
+#text=Er müßte sich verpflichten dem römischen Institut über archäologische Novitäten Mittheilungen zu machen und besonders Aufträge des Instituts wie der Centraldirektion zu erfüllen.
+6-1	Er	PPER	er	_	O	O	
+6-2	müßte	VMFIN	müssen	_	O	O	
+6-3	sich	PRF	sich	_	O	O	
+6-4	verpflichten	VVFIN	verpflichten	_	O	O	
+6-5	dem	ART	die	_	O	O	
+6-6	römischen	ADJA	römisch	_	O	O	
+6-7	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-8	über	APPR	über	_	O	O	
+6-9	archäologische	ADJA	archäologisch	_	O	O	
+6-10	Novitäten	NN	Novität	_	O	O	
+6-11	Mittheilungen	NN	<unknown>	_	O	O	
+6-12	zu	PTKZU	zu	_	O	O	
+6-13	machen	VVINF	machen	_	O	O	
+6-14	und	KON	und	_	O	O	
+6-15	besonders	ADV	besonders	_	O	O	
+6-16	Aufträge	NN	Auftrag	_	O	O	
+6-17	des	ART	die	_	O	O	
+6-18	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-19	wie	KOKOM	wie	_	O	O	
+6-20	der	ART	die	_	O	O	
+6-21	Centraldirektion	NN	<unknown>	_	O	O	
+6-22	zu	PTKZU	zu	_	O	O	
+6-23	erfüllen	VVINF	erfüllen	_	O	O	
+6-24	.	$.	.	_	O	O	
+
+#id=7
+#text=Daß ihm nichts Unbilliges zugemuthet wird und er Zeit lüi?
+7-1	Daß	KOUS	dass	_	O	O	
+7-2	ihm	PPER	er	_	O	O	
+7-3	nichts	PIAT	nichts	_	O	O	
+7-4	Unbilliges	NN	<unknown>	_	O	O	
+7-5	zugemuthet	VVPP	<unknown>	_	O	O	
+7-6	wird	VAFIN	werden	_	O	O	
+7-7	und	KON	und	_	O	O	
+7-8	er	PPER	er	_	O	O	
+7-9	Zeit	NN	Zeit	_	O	O	
+7-10	lüi	NE	<unknown>	_	O	O	
+7-11	?	$.	?	_	O	O	
+
+#id=8
+#text=eigene Arbeiten behält, daür läßt sich eine äußere Garantie nicht geben; aber ich denke, darin kann und muß er sich auf Henzen und uns hier verlassen.
+8-1	eigene	ADJA	eigen	_	O	O	
+8-2	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+8-3	behält	VVFIN	behalten	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	daür	NN	<unknown>	_	O	O	
+8-6	läßt	VVFIN	lassen	_	O	O	
+8-7	sich	PRF	sich	_	O	O	
+8-8	eine	ART	eine	_	O	O	
+8-9	äußere	ADJA	äußer	_	O	O	
+8-10	Garantie	NN	Garantie	_	O	O	
+8-11	nicht	PTKNEG	nicht	_	O	O	
+8-12	geben	VVINF	geben	_	O	O	
+8-13	;	$.	;	_	O	O	
+8-14	aber	KON	aber	_	O	O	
+8-15	ich	PPER	ich	_	O	O	
+8-16	denke	VVFIN	denken	_	O	O	
+8-17	,	$,	,	_	O	O	
+8-18	darin	PAV	darin	_	O	O	
+8-19	kann	VMFIN	können	_	O	O	
+8-20	und	KON	und	_	O	O	
+8-21	muß	VMFIN	müssen	_	O	O	
+8-22	er	PPER	er	_	O	O	
+8-23	sich	PRF	sich	_	O	O	
+8-24	auf	APPR	auf	_	O	O	
+8-25	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-26	und	KON	und	_	O	O	
+8-27	uns	PRF	wir	_	O	O	
+8-28	hier	ADV	hier	_	O	O	
+8-29	verlassen	VVPP	verlassen	_	O	O	
+8-30	.	$.	.	_	O	O	
+
+#id=9
+#text=Gehalt würde 1000-1500 rtt betragen; er verpflichtet sich auf ein Jahr.
+9-1	Gehalt	NN	Gehalt	_	O	O	
+9-2	würde	VAFIN	werden	_	O	O	
+9-3	1000-1500	CARD	@card@	_	O	O	
+9-4	rtt	NN	<unknown>	_	O	O	
+9-5	betragen	VVPP	betragen	_	O	O	
+9-6	;	$.	;	_	O	O	
+9-7	er	PPER	er	_	O	O	
+9-8	verpflichtet	VVFIN	verpflichten	_	O	O	
+9-9	sich	PRF	sich	_	O	O	
+9-10	auf	APPR	auf	_	O	O	
+9-11	ein	ART	eine	_	O	O	
+9-12	Jahr	NN	Jahr	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=- Natürlich ist es keineswegs sicher, daß
+10-1	-	$(	-	_	O	O	
+10-2	Natürlich	ADV	natürlich	_	O	O	
+10-3	ist	VAFIN	sein	_	O	O	
+10-4	es	PPER	es	_	O	O	
+10-5	keineswegs	ADV	keineswegs	_	O	O	
+10-6	sicher	ADJD	sicher	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	daß	KOUS	dass	_	O	O	
+

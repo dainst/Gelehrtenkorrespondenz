@@ -1,0 +1,292 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Berlin, Mai 1895 - 4 - Harnack, A., Professor Dr., Berlin.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	Mai	NN	Mai	_	O	O	
+1-7	1895	CARD	1895	_	O	O	
+1-8	-	$(	-	_	O	O	
+1-9	4	CARD	4	_	O	O	
+1-10	-	$(	-	_	O	O	
+1-11	Harnack	NN	<unknown>	_	O	O	
+1-12	,	$,	,	_	O	O	
+1-13	A.	NE	A.	_	O	O	
+1-14	,	$,	,	_	O	O	
+1-15	Professor	NN	Professor	_	O	O	
+1-16	Dr.	NN	Dr.	_	O	O	
+1-17	,	$,	,	_	O	O	
+1-18	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=von Hartei, Wl, Professor Dr., Hofrath, Wien.
+2-1	von	APPR	von	_	O	O	
+2-2	Hartei	NN	<unknown>	_	O	O	
+2-3	,	$,	,	_	O	O	
+2-4	Wl	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-5	,	$,	,	_	O	O	
+2-6	Professor	NN	Professor	_	O	O	
+2-7	Dr.	NN	Dr.	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	Hofrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-10	,	$,	,	_	O	O	
+2-11	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Hartwig, Th., Director Prof. Dr., Frankfurt a.M.
+3-1	Hartwig	NE	Hartwig	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	,	$,	,	_	O	O	
+3-3	Th.	NE	Th.	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	Director	NE	Director	_	O	O	
+3-6	Prof.	NN	Prof.	_	O	O	
+3-7	Dr.	NN	Dr.	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-10	a.M.	NE	<unknown>	_	O	O	
+
+#id=4
+#text=Haussoullier., B., Directeur adjoint à l'Ecole des H.-Etudes Paris.
+4-1	Haussoullier	NN	<unknown>	_	O	O	
+4-2	.	$.	.	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	B.	NN	B.	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	Directeur	NN	<unknown>	_	O	O	
+4-7	adjoint	NN	<unknown>	_	O	O	
+4-8	à	FM	à	_	O	O	
+4-9	l'Ecole	NN	<unknown>	_	O	O	
+4-10	des	ART	die	_	O	O	
+4-11	H.-Etudes	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-12	Paris	NE	Paris	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Haverfield, F., Oxford.
+5-1	Haverfield	NE	<unknown>	_	O	O	
+5-2	,	$,	,	_	O	O	
+5-3	F.	NE	F.	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	Oxford	NE	Oxford	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-6	.	$.	.	_	O	O	
+
+#id=6
+#text=Havet, L., Professeur au College de Prance, Paris.
+6-1	Havet	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	,	$,	,	_	O	O	
+6-3	L.	NE	L.	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	Professeur	NN	<unknown>	_	O	O	
+6-6	au	ITJ	au	_	O	O	
+6-7	College	NN	College	_	O	O	
+6-8	de	NE	de	_	O	O	
+6-9	Prance	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	,	$,	,	_	O	O	
+6-11	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-12	.	$.	.	_	O	O	
+
+#id=7
+#text=Head, B.D., British Museum, London.
+7-1	Head	NE	Head	_	O	O	
+7-2	,	$,	,	_	O	O	
+7-3	B.D.	NE	B.D.	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	British	NE	British	_	B-webanno.custom.LetterEntity_	B-LIT	
+7-6	Museum	NN	Museum	_	I-webanno.custom.LetterEntity_	I-LIT	
+7-7	,	$,	,	_	O	O	
+7-8	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=von Hegel, K., Professor Dr., Erlangen.
+8-1	von	APPR	von	_	O	O	
+8-2	Hegel	NE	Hegel	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	,	$,	,	_	O	O	
+8-4	K.	NE	K.	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	Professor	NN	Professor	_	O	O	
+8-7	Dr.	NN	Dr.	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	Erlangen	NE	Erlangen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=von Helmholtz, H., Professor Dr., Wirkl.
+9-1	von	APPR	von	_	O	O	
+9-2	Helmholtz	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-3	,	$,	,	_	O	O	
+9-4	H.	NE	H.	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	Professor	NN	Professor	_	O	O	
+9-7	Dr.	NN	Dr.	_	O	O	
+9-8	,	$,	,	_	O	O	
+9-9	Wirkl	NN	<unknown>	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=Geheimer Rath, Chariottehburg.
+10-1	Geheimer	ADJA	geheim	_	O	O	
+10-2	Rath	NE	Rath	_	O	O	
+10-3	,	$,	,	_	O	O	
+10-4	Chariottehburg	NN	<unknown>	_	O	O	
+10-5	.	$.	.	_	O	O	
+
+#id=11
+#text=Hertz,Mi, Professor Dr., Geheimrath, Breslau.
+11-1	Hertz,Mi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	,	$,	,	_	O	O	
+11-3	Professor	NN	Professor	_	O	O	
+11-4	Dr.	NN	Dr.	_	O	O	
+11-5	,	$,	,	_	O	O	
+11-6	Geheimrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-7	,	$,	,	_	O	O	
+11-8	Breslau	NE	Breslau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-9	.	$.	.	_	O	O	
+
+#id=12
+#text=von Herzog, E., Professor Dr., Tübingen.
+12-1	von	APPR	von	_	O	O	
+12-2	Herzog	NE	Herzog	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-3	,	$,	,	_	O	O	
+12-4	E.	NE	E.	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	Professor	NN	Professor	_	O	O	
+12-7	Dr.	NN	Dr.	_	O	O	
+12-8	,	$,	,	_	O	O	
+12-9	Tübingen	NE	Tübingen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-10	.	$.	.	_	O	O	
+
+#id=13
+#text=Hettner, F., Director Dr., Trier.
+13-1	Hettner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	,	$,	,	_	O	O	
+13-3	F.	NE	F.	_	O	O	
+13-4	,	$,	,	_	O	O	
+13-5	Director	NE	Director	_	O	O	
+13-6	Dr.	NN	Dr.	_	O	O	
+13-7	,	$,	,	_	O	O	
+13-8	Trier	NE	Trier	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+13-9	.	$.	.	_	O	O	
+
+#id=14
+#text=Hirschfeld, G. Professor Dr., Königsberg i.P.
+14-1	Hirschfeld	NN	Hirschfeld	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	,	$,	,	_	O	O	
+14-3	G.	NE	G.	_	O	O	
+14-4	Professor	NN	Professor	_	O	O	
+14-5	Dr.	NN	Dr.	_	O	O	
+14-6	,	$,	,	_	O	O	
+14-7	Königsberg	NE	Königsberg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+14-8	i.P.	NE	<unknown>	_	O	O	
+
+#id=15
+#text=Hirschfeld, 0., Professor Dr., Berlin.
+15-1	Hirschfeld	NN	Hirschfeld	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-2	,	$,	,	_	O	O	
+15-3	0	CARD	@card@	_	O	O	
+15-4	.	$.	.	_	O	O	
+15-5	,	$,	,	_	O	O	
+15-6	Professor	NN	Professor	_	O	O	
+15-7	Dr.	NN	Dr.	_	O	O	
+15-8	,	$,	,	_	O	O	
+15-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+15-10	.	$.	.	_	O	O	
+
+#id=16
+#text=Hirzel, L., Professor Dr., Bern.
+16-1	Hirzel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-2	,	$,	,	_	O	O	
+16-3	L.	NE	L.	_	O	O	
+16-4	,	$,	,	_	O	O	
+16-5	Professor	NN	Professor	_	O	O	
+16-6	Dr.	NN	Dr.	_	O	O	
+16-7	,	$,	,	_	O	O	
+16-8	Bern	NE	Bern	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+16-9	.	$.	.	_	O	O	
+
+#id=17
+#text=Hirzel, R., Professor Dr., Jena.
+17-1	Hirzel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-2	,	$,	,	_	O	O	
+17-3	R.	NE	R.	_	O	O	
+17-4	,	$,	,	_	O	O	
+17-5	Professor	NN	Professor	_	O	O	
+17-6	Dr.	NN	Dr.	_	O	O	
+17-7	,	$,	,	_	O	O	
+17-8	Jena	NE	Jena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+17-9	.	$.	.	_	O	O	
+
+#id=18
+#text=Hirzel, H., Verlagsbuchhändler, Leipzig.
+18-1	Hirzel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-2	,	$,	,	_	O	O	
+18-3	H.	NE	H.	_	O	O	
+18-4	,	$,	,	_	O	O	
+18-5	Verlagsbuchhändler	NN	Verlagsbuchhändler	_	O	O	
+18-6	,	$,	,	_	O	O	
+18-7	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+18-8	.	$.	.	_	O	O	
+
+#id=19
+#text=Hitzig, H. Professor Dr., Zürich.
+19-1	Hitzig	ADJD	hitzig	_	O	O	
+19-2	,	$,	,	_	O	O	
+19-3	H.	NE	H.	_	O	O	
+19-4	Professor	NN	Professor	_	O	O	
+19-5	Dr.	NN	Dr.	_	O	O	
+19-6	,	$,	,	_	O	O	
+19-7	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+19-8	.	$.	.	_	O	O	
+
+#id=20
+#text=Homolle, Th,, Directeur de l'Ecole Franqaise, Athen, von der Hude, H., Baurath, Berlin.
+20-1	Homolle	ADJA	<unknown>	_	O	O	
+20-2	,	$,	,	_	O	O	
+20-3	Th	ADJA	<unknown>	_	O	O	
+20-4	,	$,	,	_	O	O	
+20-5	,	$,	,	_	O	O	
+20-6	Directeur	NN	<unknown>	_	O	O	
+20-7	de	NE	de	_	O	O	
+20-8	l'Ecole	NN	<unknown>	_	O	O	
+20-9	Franqaise	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+20-10	,	$,	,	_	O	O	
+20-11	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+20-12	,	$,	,	_	O	O	
+20-13	von	APPR	von	_	O	O	
+20-14	der	ART	die	_	O	O	
+20-15	Hude	NN	Hude	_	O	O	
+20-16	,	$,	,	_	O	O	
+20-17	H.	NE	H.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+20-18	,	$,	,	_	O	O	
+20-19	Baurath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+20-20	,	$,	,	_	O	O	
+20-21	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+20-22	.	$.	.	_	O	O	
+
+#id=21
+#text=Hülsen, Chr., Dr., Rom.
+21-1	Hülsen	NN	Hülse	_	O	O	
+21-2	,	$,	,	_	O	O	
+21-3	Chr.	NE	Chr.	_	O	O	
+21-4	,	$,	,	_	O	O	
+21-5	Dr.	NN	Dr.	_	O	O	
+21-6	,	$,	,	_	O	O	
+21-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+21-8	.	$.	.	_	O	O	
+
+#id=22
+#text=Humann, C., Director Dr., Smyrna.
+22-1	Humann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+22-2	,	$,	,	_	O	O	
+22-3	C.	NE	C.	_	O	O	
+22-4	,	$,	,	_	O	O	
+22-5	Director	NE	Director	_	O	O	
+22-6	Dr.	NN	Dr.	_	O	O	
+22-7	,	$,	,	_	O	O	
+22-8	Smyrna	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+22-9	.	$.	.	_	O	O	
+

@@ -1,0 +1,317 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Leipzig, 21.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=2
+#text=Oktober 1850 - 2 - beselerschen Hause und Hält da Ordnung.
+2-1	Oktober	NN	Oktober	_	O	O	
+2-2	1850	CARD	@card@	_	O	O	
+2-3	-	$(	-	_	O	O	
+2-4	2	CARD	2	_	O	O	
+2-5	-	$(	-	_	O	O	
+2-6	beselerschen	ADJA	<unknown>	_	O	O	
+2-7	Hause	NN	Haus	_	O	O	
+2-8	und	KON	und	_	O	O	
+2-9	Hält	NN	<unknown>	_	O	O	
+2-10	da	ADV	da	_	O	O	
+2-11	Ordnung	NN	Ordnung	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Ein dän.
+3-1	Ein	ART	eine	_	O	O	
+3-2	dän.	ADJA	dänisch	_	O	O	
+
+#id=4
+#text=Soldat aber, der dort einquartiert ist, wird unütz und sie hört in der Küche wie er im ersten Stock Bilder zerschlägt und Schränke erbricht; sofort geht sie hinauf, giebt ihm eine Maulschelle rechts, eine links und wirft ihn die Treppe hinunter.
+4-1	Soldat	NN	Soldat	_	O	O	
+4-2	aber	ADV	aber	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	der	PRELS	die	_	O	O	
+4-5	dort	ADV	dort	_	O	O	
+4-6	einquartiert	VVPP	einquartieren	_	O	O	
+4-7	ist	VAFIN	sein	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	wird	VAFIN	werden	_	O	O	
+4-10	unütz	ADJA	<unknown>	_	O	O	
+4-11	und	KON	und	_	O	O	
+4-12	sie	PPER	sie	_	O	O	
+4-13	hört	VVFIN	hören	_	O	O	
+4-14	in	APPR	in	_	O	O	
+4-15	der	ART	die	_	O	O	
+4-16	Küche	NN	Küche	_	O	O	
+4-17	wie	KOKOM	wie	_	O	O	
+4-18	er	PPER	er	_	O	O	
+4-19	im	APPRART	in	_	O	O	
+4-20	ersten	ADJA	erst	_	O	O	
+4-21	Stock	NN	Stock	_	O	O	
+4-22	Bilder	NN	Bild	_	O	O	
+4-23	zerschlägt	VVFIN	zerschlagen	_	O	O	
+4-24	und	KON	und	_	O	O	
+4-25	Schränke	NN	Schrank	_	O	O	
+4-26	erbricht	VVFIN	erbrechen	_	O	O	
+4-27	;	$.	;	_	O	O	
+4-28	sofort	ADV	sofort	_	O	O	
+4-29	geht	VVFIN	gehen	_	O	O	
+4-30	sie	PPER	sie	_	O	O	
+4-31	hinauf	PTKVZ	hinauf	_	O	O	
+4-32	,	$,	,	_	O	O	
+4-33	giebt	VVFIN	<unknown>	_	O	O	
+4-34	ihm	PPER	er	_	O	O	
+4-35	eine	ART	eine	_	O	O	
+4-36	Maulschelle	NN	Maulschelle	_	O	O	
+4-37	rechts	ADV	rechts	_	O	O	
+4-38	,	$,	,	_	O	O	
+4-39	eine	PIS	eine	_	O	O	
+4-40	links	ADV	links	_	O	O	
+4-41	und	KON	und	_	O	O	
+4-42	wirft	VVFIN	werfen	_	O	O	
+4-43	ihn	PPER	er	_	O	O	
+4-44	die	ART	die	_	O	O	
+4-45	Treppe	NN	Treppe	_	O	O	
+4-46	hinunter	PTKVZ	hinunter	_	O	O	
+4-47	.	$.	.	_	O	O	
+
+#id=5
+#text=Darauf vors Kriegsgericht citirt bestätitgt sie den Thatbestand und meint dann: das möge wohl bei den Dänen Sitte sein, daß sie beim Kriegsgericht klagten, wenn Mädchen sie gedrfeigt hätten, bei den Schleswig Holsteinern wäre das freilich nicht vorgekommen, aber die Sitten seien zu verschieden,und so fort, bis die Officiere ihr sagen: es sei gut, sie möge nur abt^ten - und seitdem hat sie Ordnung gehalten und kein Mensch einen Splitter im Hause verletzt.
+5-1	Darauf	PAV	darauf	_	O	O	
+5-2	vors	APPRART	vors	_	O	O	
+5-3	Kriegsgericht	NN	Kriegsgericht	_	O	O	
+5-4	citirt	ADJD	<unknown>	_	O	O	
+5-5	bestätitgt	VVFIN	<unknown>	_	O	O	
+5-6	sie	PPER	sie	_	O	O	
+5-7	den	ART	die	_	O	O	
+5-8	Thatbestand	NN	<unknown>	_	O	O	
+5-9	und	KON	und	_	O	O	
+5-10	meint	VVFIN	meinen	_	O	O	
+5-11	dann	ADV	dann	_	O	O	
+5-12	:	$.	:	_	O	O	
+5-13	das	PDS	die	_	O	O	
+5-14	möge	VMFIN	mögen	_	O	O	
+5-15	wohl	ADV	wohl	_	O	O	
+5-16	bei	APPR	bei	_	O	O	
+5-17	den	ART	die	_	O	O	
+5-18	Dänen	NN	Däne	_	O	O	
+5-19	Sitte	NN	Sitte	_	O	O	
+5-20	sein	VAINF	sein	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	daß	KOUS	dass	_	O	O	
+5-23	sie	PPER	sie	_	O	O	
+5-24	beim	APPRART	bei	_	O	O	
+5-25	Kriegsgericht	NN	Kriegsgericht	_	O	O	
+5-26	klagten	VVFIN	klagen	_	O	O	
+5-27	,	$,	,	_	O	O	
+5-28	wenn	KOUS	wenn	_	O	O	
+5-29	Mädchen	NN	Mädchen	_	O	O	
+5-30	sie	PPER	sie	_	O	O	
+5-31	gedrfeigt	VVPP	<unknown>	_	O	O	
+5-32	hätten	VAFIN	haben	_	O	O	
+5-33	,	$,	,	_	O	O	
+5-34	bei	APPR	bei	_	O	O	
+5-35	den	ART	die	_	O	O	
+5-36	Schleswig	NE	Schleswig	_	O	O	
+5-37	Holsteinern	NN	Holsteiner	_	O	O	
+5-38	wäre	VAFIN	sein	_	O	O	
+5-39	das	PDS	die	_	O	O	
+5-40	freilich	ADV	freilich	_	O	O	
+5-41	nicht	PTKNEG	nicht	_	O	O	
+5-42	vorgekommen	VVPP	vorkommen	_	O	O	
+5-43	,	$,	,	_	O	O	
+5-44	aber	KON	aber	_	O	O	
+5-45	die	ART	die	_	O	O	
+5-46	Sitten	NN	Sitte	_	O	O	
+5-47	seien	VAFIN	sein	_	O	O	
+5-48	zu	APPR	zu	_	O	O	
+5-49	verschieden,und	NE	<unknown>	_	O	O	
+5-50	so	ADV	so	_	O	O	
+5-51	fort	PTKVZ	fort	_	O	O	
+5-52	,	$,	,	_	O	O	
+5-53	bis	KOUS	bis	_	O	O	
+5-54	die	ART	die	_	O	O	
+5-55	Officiere	NN	<unknown>	_	O	O	
+5-56	ihr	PPER	ihr	_	O	O	
+5-57	sagen	VVFIN	sagen	_	O	O	
+5-58	:	$.	:	_	O	O	
+5-59	es	PPER	es	_	O	O	
+5-60	sei	VAFIN	sein	_	O	O	
+5-61	gut	ADJD	gut	_	O	O	
+5-62	,	$,	,	_	O	O	
+5-63	sie	PPER	sie	_	O	O	
+5-64	möge	VMFIN	mögen	_	O	O	
+5-65	nur	ADV	nur	_	O	O	
+5-66	abt^ten	ADJD	<unknown>	_	O	O	
+5-67	-	$(	-	_	O	O	
+5-68	und	KON	und	_	O	O	
+5-69	seitdem	PAV	seitdem	_	O	O	
+5-70	hat	VAFIN	haben	_	O	O	
+5-71	sie	PPER	sie	_	O	O	
+5-72	Ordnung	NN	Ordnung	_	O	O	
+5-73	gehalten	VVPP	halten	_	O	O	
+5-74	und	KON	und	_	O	O	
+5-75	kein	PIAT	keine	_	O	O	
+5-76	Mensch	NN	Mensch	_	O	O	
+5-77	einen	ART	eine	_	O	O	
+5-78	Splitter	NN	Splitter	_	O	O	
+5-79	im	APPRART	in	_	O	O	
+5-80	Hause	NN	Haus	_	O	O	
+5-81	verletzt	VVPP	verletzen	_	O	O	
+5-82	.	$.	.	_	O	O	
+
+#id=6
+#text=Und so weiter.
+6-1	Und	KON	und	_	O	O	
+6-2	so	ADV	so	_	O	O	
+6-3	weiter	ADV	weiter	_	O	O	
+6-4	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich könnte nicht aufhören, wenn ich von Schleswig Holstein schreiben wollte; es ist nicht Muth, es ist die volle ächte Entschlossenheit auszuhalten wie es immer kommen möge, so lange ein Schuh noch tragen will.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	könnte	VMFIN	können	_	O	O	
+7-3	nicht	PTKNEG	nicht	_	O	O	
+7-4	aufhören	VVINF	aufhören	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	wenn	KOUS	wenn	_	O	O	
+7-7	ich	PPER	ich	_	O	O	
+7-8	von	APPR	von	_	O	O	
+7-9	Schleswig	NE	Schleswig	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-10	Holstein	NE	Holstein	_	O	O	
+7-11	schreiben	VVINF	schreiben	_	O	O	
+7-12	wollte	VMFIN	wollen	_	O	O	
+7-13	;	$.	;	_	O	O	
+7-14	es	PPER	es	_	O	O	
+7-15	ist	VAFIN	sein	_	O	O	
+7-16	nicht	PTKNEG	nicht	_	O	O	
+7-17	Muth	NE	<unknown>	_	O	O	
+7-18	,	$,	,	_	O	O	
+7-19	es	PPER	es	_	O	O	
+7-20	ist	VAFIN	sein	_	O	O	
+7-21	die	ART	die	_	O	O	
+7-22	volle	ADJA	voll	_	O	O	
+7-23	ächte	VVFIN	ächten	_	O	O	
+7-24	Entschlossenheit	NN	Entschlossenheit	_	O	O	
+7-25	auszuhalten	VVIZU	aushalten	_	O	O	
+7-26	wie	KOKOM	wie	_	O	O	
+7-27	es	PPER	es	_	O	O	
+7-28	immer	ADV	immer	_	O	O	
+7-29	kommen	VVINF	kommen	_	O	O	
+7-30	möge	VMFIN	mögen	_	O	O	
+7-31	,	$,	,	_	O	O	
+7-32	so	ADV	so	_	O	O	
+7-33	lange	ADV	lange	_	O	O	
+7-34	ein	ART	eine	_	O	O	
+7-35	Schuh	NN	Schuh	_	O	O	
+7-36	noch	ADV	noch	_	O	O	
+7-37	tragen	VVINF	tragen	_	O	O	
+7-38	will	VMFIN	wollen	_	O	O	
+7-39	.	$.	.	_	O	O	
+
+#id=8
+#text=Und die Dänen ?
+8-1	Und	KON	und	_	O	O	
+8-2	die	ART	die	_	O	O	
+8-3	Dänen	NN	Däne	_	O	O	
+8-4	?	$.	?	_	O	O	
+
+#id=9
+#text=In Husum fangen die officiellen Erlasse sich an; "Allem und jedem sowohl ruhigens Bürger als auch Wächter und Hohenwächter wird kund gethan".
+9-1	In	APPR	in	_	O	O	
+9-2	Husum	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-3	fangen	VVFIN	fangen	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	officiellen	ADJA	<unknown>	_	O	O	
+9-6	Erlasse	NN	Erlass	_	O	O	
+9-7	sich	PRF	sich	_	O	O	
+9-8	an	PTKVZ	an	_	O	O	
+9-9	;	$.	;	_	O	O	
+9-10	"	$(	"	_	O	O	
+9-11	Allem	NN	<unknown>	_	O	O	
+9-12	und	KON	und	_	O	O	
+9-13	jedem	PIS	jede	_	O	O	
+9-14	sowohl	KON	sowohl	_	O	O	
+9-15	ruhigens	ADJA	<unknown>	_	O	O	
+9-16	Bürger	NN	Bürger	_	O	O	
+9-17	als	KOKOM	als	_	O	O	
+9-18	auch	ADV	auch	_	O	O	
+9-19	Wächter	NN	Wächter	_	O	O	
+9-20	und	KON	und	_	O	O	
+9-21	Hohenwächter	NN	<unknown>	_	O	O	
+9-22	wird	VAFIN	werden	_	O	O	
+9-23	kund	PTKVZ	kund	_	O	O	
+9-24	gethan	NN	<unknown>	_	O	O	
+9-25	"	$(	"	_	O	O	
+9-26	.	$.	.	_	O	O	
+
+#id=10
+#text=Basta.
+10-1	Basta	ITJ	basta	_	O	O	
+10-2	.	$.	.	_	O	O	
+
+#id=11
+#text=Du kanlst das Henzen auch erzählen.
+11-1	Du	PPER	du	_	O	O	
+11-2	kanlst	VVFIN	<unknown>	_	O	O	
+11-3	das	ART	die	_	O	O	
+11-4	Henzen	NN	<unknown>	_	O	O	
+11-5	auch	ADV	auch	_	O	O	
+11-6	erzählen	VVINF	erzählen	_	O	O	
+11-7	.	$.	.	_	O	O	
+
+#id=12
+#text=Höre, wenn ich wiederkäme, das wäre doch pläsirlich.
+12-1	Höre	VVFIN	hören	_	O	O	
+12-2	,	$,	,	_	O	O	
+12-3	wenn	KOUS	wenn	_	O	O	
+12-4	ich	PPER	ich	_	O	O	
+12-5	wiederkäme	VVFIN	wiederkommen	_	O	O	
+12-6	,	$,	,	_	O	O	
+12-7	das	PDS	die	_	O	O	
+12-8	wäre	VAFIN	sein	_	O	O	
+12-9	doch	ADV	doch	_	O	O	
+12-10	pläsirlich	ADJD	<unknown>	_	O	O	
+12-11	.	$.	.	_	O	O	
+
+#id=13
+#text=Mir soll es recht sein: ich bin so desperat » daß ich wieder ganz heiter geworden bin.
+13-1	Mir	PPER	ich	_	O	O	
+13-2	soll	VMFIN	sollen	_	O	O	
+13-3	es	PPER	es	_	O	O	
+13-4	recht	ADJD	recht	_	O	O	
+13-5	sein	VAINF	sein	_	O	O	
+13-6	:	$.	:	_	O	O	
+13-7	ich	PPER	ich	_	O	O	
+13-8	bin	VAFIN	sein	_	O	O	
+13-9	so	ADV	so	_	O	O	
+13-10	desperat	ADJD	desperat	_	O	O	
+13-11	»	ADJA	<unknown>	_	O	O	
+13-12	daß	KOUS	dass	_	O	O	
+13-13	ich	PPER	ich	_	O	O	
+13-14	wieder	ADV	wieder	_	O	O	
+13-15	ganz	ADV	ganz	_	O	O	
+13-16	heiter	ADJD	heiter	_	O	O	
+13-17	geworden	VAPP	werden	_	O	O	
+13-18	bin	VAFIN	sein	_	O	O	
+13-19	.	$.	.	_	O	O	
+
+#id=14
+#text=Uebrigens will ich, so lange ich hier bin, meine Geige
+14-1	Uebrigens	NN	<unknown>	_	O	O	
+14-2	will	VMFIN	wollen	_	O	O	
+14-3	ich	PPER	ich	_	O	O	
+14-4	,	$,	,	_	O	O	
+14-5	so	ADV	so	_	O	O	
+14-6	lange	ADV	lange	_	O	O	
+14-7	ich	PPER	ich	_	O	O	
+14-8	hier	ADV	hier	_	O	O	
+14-9	bin	VAFIN	sein	_	O	O	
+14-10	,	$,	,	_	O	O	
+14-11	meine	PPOSAT	mein	_	O	O	
+14-12	Geige	NN	Geige	_	O	O	
+

@@ -1,0 +1,261 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Berlin, 21. Juni 1865 r. 2.7*1865 Lieber Preund, Herzlichen Dank für Deinen Aufsatz.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-8	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-9	1865	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-10	r.	VVFIN	<unknown>	_	O	O	
+1-11	2.7*1865	CARD	<unknown>	_	O	O	
+1-12	Lieber	ADJA	lieb	_	O	O	
+1-13	Preund	NN	<unknown>	_	O	O	
+1-14	,	$,	,	_	O	O	
+1-15	Herzlichen	ADJA	herzlich	_	O	O	
+1-16	Dank	NN	Dank	_	O	O	
+1-17	für	APPR	für	_	O	O	
+1-18	Deinen	PPOSAT	dein	_	O	O	
+1-19	Aufsatz	NN	Aufsatz	_	O	O	
+1-20	.	$.	.	_	O	O	
+
+#id=2
+#text=Wir hatten nicht mehr damit gerechnet; um so lieber ist es uns, daß Du nicht fehlst.
+2-1	Wir	PPER	wir	_	O	O	
+2-2	hatten	VAFIN	haben	_	O	O	
+2-3	nicht	PTKNEG	nicht	_	O	O	
+2-4	mehr	ADV	mehr	_	O	O	
+2-5	damit	PAV	damit	_	O	O	
+2-6	gerechnet	VVPP	rechnen	_	O	O	
+2-7	;	$.	;	_	O	O	
+2-8	um	APPR	um	_	O	O	
+2-9	so	ADV	so	_	O	O	
+2-10	lieber	ADJD	lieb	_	O	O	
+2-11	ist	VAFIN	sein	_	O	O	
+2-12	es	PPER	es	_	O	O	
+2-13	uns	PPER	wir	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	daß	KOUS	dass	_	O	O	
+2-16	Du	PPER	du	_	O	O	
+2-17	nicht	PTKNEG	nicht	_	O	O	
+2-18	fehlst	VVFIN	fehlen	_	O	O	
+2-19	.	$.	.	_	O	O	
+
+#id=3
+#text=- Das Pest ist am 1 August, was ich für alle Palle bemerke.
+3-1	-	$(	-	_	O	O	
+3-2	Das	ART	die	_	O	O	
+3-3	Pest	NN	Pest	_	O	O	
+3-4	ist	VAFIN	sein	_	O	O	
+3-5	am	APPRART	an	_	O	O	
+3-6	1	CARD	1	_	O	O	
+3-7	August	NN	August	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	was	PRELS	was	_	O	O	
+3-10	ich	PPER	ich	_	O	O	
+3-11	für	APPR	für	_	O	O	
+3-12	alle	PIAT	alle	_	O	O	
+3-13	Palle	NE	Palle	_	O	O	
+3-14	bemerke	VVFIN	bemerken	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Ob es gelingen wird den Band bis dahin abzuschließen, muß sich zeigen; der Setzer-strike in Leipzig hat uns durch unsre Rechnung einen Strich gemacht.
+4-1	Ob	KOUS	ob	_	O	O	
+4-2	es	PPER	es	_	O	O	
+4-3	gelingen	VVINF	gelingen	_	O	O	
+4-4	wird	VAFIN	werden	_	O	O	
+4-5	den	ART	die	_	O	O	
+4-6	Band	NN	Band	_	O	O	
+4-7	bis	APPR	bis	_	O	O	
+4-8	dahin	PAV	dahin	_	O	O	
+4-9	abzuschließen	VVIZU	abschließen	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	muß	VMFIN	müssen	_	O	O	
+4-12	sich	PRF	sich	_	O	O	
+4-13	zeigen	VVINF	zeigen	_	O	O	
+4-14	;	$.	;	_	O	O	
+4-15	der	ART	die	_	O	O	
+4-16	Setzer-strike	NE	<unknown>	_	O	O	
+4-17	in	APPR	in	_	O	O	
+4-18	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-19	hat	VAFIN	haben	_	O	O	
+4-20	uns	PPER	wir	_	O	O	
+4-21	durch	APPR	durch	_	O	O	
+4-22	unsre	PPOSAT	unsre	_	O	O	
+4-23	Rechnung	NN	Rechnung	_	O	O	
+4-24	einen	ART	eine	_	O	O	
+4-25	Strich	NN	Strich	_	O	O	
+4-26	gemacht	VVPP	machen	_	O	O	
+4-27	.	$.	.	_	O	O	
+
+#id=5
+#text=TJeber das Urnenwerk erwarten wir Deine Mittheilung bevor nicht alles zwischen der C.D.
+5-1	TJeber	NN	<unknown>	_	O	O	
+5-2	das	ART	die	_	O	O	
+5-3	Urnenwerk	NN	<unknown>	_	O	O	
+5-4	erwarten	VVFIN	erwarten	_	O	O	
+5-5	wir	PPER	wir	_	O	O	
+5-6	Deine	PPOSAT	dein	_	O	O	
+5-7	Mittheilung	NN	<unknown>	_	O	O	
+5-8	bevor	PTKVZ	bevor	_	O	O	
+5-9	nicht	PTKNEG	nicht	_	O	O	
+5-10	alles	PIS	alle	_	O	O	
+5-11	zwischen	APPR	zwischen	_	O	O	
+5-12	der	ART	die	_	O	O	
+5-13	C.D.	NE	C.D.	_	O	O	
+
+#id=6
+#text=und dem Herausgeber geordnet ist, wird es rathsam sein den Stich nicht zu beginnen.
+6-1	und	KON	und	_	O	O	
+6-2	dem	ART	die	_	O	O	
+6-3	Herausgeber	NN	Herausgeber	_	O	O	
+6-4	geordnet	VVPP	ordnen	_	O	O	
+6-5	ist	VAFIN	sein	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	wird	VAFIN	werden	_	O	O	
+6-8	es	PPER	es	_	O	O	
+6-9	rathsam	ADJD	<unknown>	_	O	O	
+6-10	sein	VAINF	sein	_	O	O	
+6-11	den	ART	die	_	O	O	
+6-12	Stich	NN	Stich	_	O	O	
+6-13	nicht	PTKNEG	nicht	_	O	O	
+6-14	zu	PTKZU	zu	_	O	O	
+6-15	beginnen	VVINF	beginnen	_	O	O	
+6-16	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Sachlage ist verändert, und nicht zu ihrem Vortheil.
+7-1	Die	ART	die	_	O	O	
+7-2	Sachlage	NN	Sachlage	_	O	O	
+7-3	ist	VAFIN	sein	_	O	O	
+7-4	verändert	VVPP	verändern	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	und	KON	und	_	O	O	
+7-7	nicht	PTKNEG	nicht	_	O	O	
+7-8	zu	APPR	zu	_	O	O	
+7-9	ihrem	PPOSAT	ihr	_	O	O	
+7-10	Vortheil	NN	<unknown>	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Durch Deinen Weggang von Rom; doch hoffe ich, daß sich in München dafür Ersatz finden wird.
+8-1	Durch	APPR	durch	_	O	O	
+8-2	Deinen	PPOSAT	dein	_	O	O	
+8-3	Weggang	NN	Weggang	_	O	O	
+8-4	von	APPR	von	_	O	O	
+8-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-6	;	$.	;	_	O	O	
+8-7	doch	ADV	doch	_	O	O	
+8-8	hoffe	VVFIN	hoffen	_	O	O	
+8-9	ich	PPER	ich	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	daß	KOUS	dass	_	O	O	
+8-12	sich	PRF	sich	_	O	O	
+8-13	in	APPR	in	_	O	O	
+8-14	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-15	dafür	PAV	dafür	_	O	O	
+8-16	Ersatz	NN	Ersatz	_	O	O	
+8-17	finden	VVINF	finden	_	O	O	
+8-18	wird	VAFIN	werden	_	O	O	
+8-19	.	$.	.	_	O	O	
+
+#id=9
+#text=Giesebrecht, den ich Gelegenheit hatte vor einigen Monaten hier zu sprechen, schien auch dieser Meinung zu sein; ich glaube, wenn Du es nur recht anfängst, so wäre vielleicht schon jetzt das ganze Unternehmen sicher zu stellen - vielleicht eher jetzt als später.
+9-1	Giesebrecht	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	,	$,	,	_	O	O	
+9-3	den	PRELS	die	_	O	O	
+9-4	ich	PPER	ich	_	O	O	
+9-5	Gelegenheit	NN	Gelegenheit	_	O	O	
+9-6	hatte	VAFIN	haben	_	O	O	
+9-7	vor	APPR	vor	_	O	O	
+9-8	einigen	PIAT	einige	_	O	O	
+9-9	Monaten	NN	Monat	_	O	O	
+9-10	hier	ADV	hier	_	O	O	
+9-11	zu	PTKZU	zu	_	O	O	
+9-12	sprechen	VVINF	sprechen	_	O	O	
+9-13	,	$,	,	_	O	O	
+9-14	schien	VVFIN	scheinen	_	O	O	
+9-15	auch	ADV	auch	_	O	O	
+9-16	dieser	PDAT	dies	_	O	O	
+9-17	Meinung	NN	Meinung	_	O	O	
+9-18	zu	PTKZU	zu	_	O	O	
+9-19	sein	VAINF	sein	_	O	O	
+9-20	;	$.	;	_	O	O	
+9-21	ich	PPER	ich	_	O	O	
+9-22	glaube	VVFIN	glauben	_	O	O	
+9-23	,	$,	,	_	O	O	
+9-24	wenn	KOUS	wenn	_	O	O	
+9-25	Du	PPER	du	_	O	O	
+9-26	es	PPER	es	_	O	O	
+9-27	nur	ADV	nur	_	O	O	
+9-28	recht	ADJD	recht	_	O	O	
+9-29	anfängst	VVFIN	anfangen	_	O	O	
+9-30	,	$,	,	_	O	O	
+9-31	so	ADV	so	_	O	O	
+9-32	wäre	VAFIN	sein	_	O	O	
+9-33	vielleicht	ADV	vielleicht	_	O	O	
+9-34	schon	ADV	schon	_	O	O	
+9-35	jetzt	ADV	jetzt	_	O	O	
+9-36	das	ART	die	_	O	O	
+9-37	ganze	ADJA	ganz	_	O	O	
+9-38	Unternehmen	NN	Unternehmen	_	O	O	
+9-39	sicher	ADJD	sicher	_	O	O	
+9-40	zu	PTKZU	zu	_	O	O	
+9-41	stellen	VVINF	stellen	_	O	O	
+9-42	-	$(	-	_	O	O	
+9-43	vielleicht	ADV	vielleicht	_	O	O	
+9-44	eher	ADV	eher	_	O	O	
+9-45	jetzt	ADV	jetzt	_	O	O	
+9-46	als	KOKOM	als	_	O	O	
+9-47	später	ADJD	spät	_	O	O	
+9-48	.	$.	.	_	O	O	
+
+#id=10
+#text=Henzen schreibt, daß Du die meisten Urnenzeichnungen mitgenommen hast; dagegen ist auch nichts zu sagen, aber es ist für Dich und für uns nothwendig, daß die Blätter iaventàriè^und gestempelt werden.
+10-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	schreibt	VVFIN	schreiben	_	O	O	
+10-3	,	$,	,	_	O	O	
+10-4	daß	KOUS	dass	_	O	O	
+10-5	Du	PPER	du	_	O	O	
+10-6	die	ART	die	_	O	O	
+10-7	meisten	PIAT	meist	_	O	O	
+10-8	Urnenzeichnungen	NN	<unknown>	_	O	O	
+10-9	mitgenommen	VVPP	mitnehmen	_	O	O	
+10-10	hast	VAFIN	haben	_	O	O	
+10-11	;	$.	;	_	O	O	
+10-12	dagegen	PAV	dagegen	_	O	O	
+10-13	ist	VAFIN	sein	_	O	O	
+10-14	auch	ADV	auch	_	O	O	
+10-15	nichts	PIS	nichts	_	O	O	
+10-16	zu	PTKZU	zu	_	O	O	
+10-17	sagen	VVINF	sagen	_	O	O	
+10-18	,	$,	,	_	O	O	
+10-19	aber	KON	aber	_	O	O	
+10-20	es	PPER	es	_	O	O	
+10-21	ist	VAFIN	sein	_	O	O	
+10-22	für	APPR	für	_	O	O	
+10-23	Dich	PPER	du	_	O	O	
+10-24	und	KON	und	_	O	O	
+10-25	für	APPR	für	_	O	O	
+10-26	uns	PPER	wir	_	O	O	
+10-27	nothwendig	ADJD	<unknown>	_	O	O	
+10-28	,	$,	,	_	O	O	
+10-29	daß	KOUS	dass	_	O	O	
+10-30	die	ART	die	_	O	O	
+10-31	Blätter	NN	Blatt	_	O	O	
+10-32	iaventàriè^und	NE	<unknown>	_	O	O	
+10-33	gestempelt	VVPP	stempeln	_	O	O	
+10-34	werden	VAFIN	werden	_	O	O	
+10-35	.	$.	.	_	O	O	
+
+#id=11
+#text=Am kürzesten wird es
+11-1	Am	PTKA	am	_	O	O	
+11-2	kürzesten	ADJD	kurz	_	O	O	
+11-3	wird	VAFIN	werden	_	O	O	
+11-4	es	PPER	es	_	O	O	
+

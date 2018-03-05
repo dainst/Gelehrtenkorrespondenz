@@ -1,0 +1,289 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn - 6 Berlin, 2. Juli *1863 fertigen dem Institut dies verhältnismäßig geringe Opfer aufzulegen ?
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	O	O	
+1-4	-	$(	-	_	O	O	
+1-5	6	CARD	6	_	O	O	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-7	,	$,	,	_	O	O	
+1-8	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	*1863	CARD	<unknown>	_	O	O	
+1-12	fertigen	VVFIN	fertigen	_	O	O	
+1-13	dem	ART	die	_	O	O	
+1-14	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-15	dies	PDS	dies	_	O	O	
+1-16	verhältnismäßig	ADJD	verhältnismäßig	_	O	O	
+1-17	geringe	ADJA	gering	_	O	O	
+1-18	Opfer	NN	Opfer	_	O	O	
+1-19	aufzulegen	VVIZU	auflegen	_	O	O	
+1-20	?	$.	?	_	O	O	
+
+#id=2
+#text=und habe ich es verdient - Du weißt, daß diese Sache factisch in meinen Händen liegt - wenn ich bei Erwägung der Interessen unseres Corpus (wahrhaftig nicht der Akademie !)
+2-1	und	KON	und	_	O	O	
+2-2	habe	VAFIN	haben	_	O	O	
+2-3	ich	PPER	ich	_	O	O	
+2-4	es	PPER	es	_	O	O	
+2-5	verdient	VVPP	verdienen	_	O	O	
+2-6	-	$(	-	_	O	O	
+2-7	Du	PPER	du	_	O	O	
+2-8	weißt	VVFIN	weißen	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	daß	KOUS	dass	_	O	O	
+2-11	diese	PDAT	dies	_	O	O	
+2-12	Sache	NN	Sache	_	O	O	
+2-13	factisch	NN	<unknown>	_	O	O	
+2-14	in	APPR	in	_	O	O	
+2-15	meinen	PPOSAT	mein	_	O	O	
+2-16	Händen	NN	Hand	_	O	O	
+2-17	liegt	VVFIN	liegen	_	O	O	
+2-18	-	$(	-	_	O	O	
+2-19	wenn	KOUS	wenn	_	O	O	
+2-20	ich	PPER	ich	_	O	O	
+2-21	bei	APPR	bei	_	O	O	
+2-22	Erwägung	NN	Erwägung	_	O	O	
+2-23	der	ART	die	_	O	O	
+2-24	Interessen	NN	Interesse	_	O	O	
+2-25	unseres	PPOSAT	unser	_	O	O	
+2-26	Corpus	NN	Corpus	_	B-webanno.custom.LetterEntity_	B-OBJ	
+2-27	(	$(	(	_	O	O	
+2-28	wahrhaftig	ADJD	wahrhaftig	_	O	O	
+2-29	nicht	PTKNEG	nicht	_	O	O	
+2-30	der	ART	die	_	O	O	
+2-31	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-32	!	$.	!	_	O	O	
+2-33	)	$(	)	_	O	O	
+
+#id=3
+#text=und denjenigen des Instituts mich gerechtfertigt sehen sollte das letztere zurückzustellen, ?
+3-1	und	KON	und	_	O	O	
+3-2	denjenigen	PDS	derjenige	_	O	O	
+3-3	des	ART	die	_	O	O	
+3-4	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-5	mich	PRF	ich	_	O	O	
+3-6	gerechtfertigt	VVPP	rechtfertigen	_	O	O	
+3-7	sehen	VVINF	sehen	_	O	O	
+3-8	sollte	VMFIN	sollen	_	O	O	
+3-9	das	ART	die	_	O	O	
+3-10	letztere	ADJA	letzt	_	O	O	
+3-11	zurückzustellen	VVIZU	zurückstellen	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	?	$.	?	_	O	O	
+
+#id=4
+#text=r ohne weiteres aus ewigen Mangel an Rücksicht auf das Institut auf die Proscriptionsliste gesetzt zu werden ?
+4-1	r	NE	r	_	O	O	
+4-2	ohne	APPR	ohne	_	O	O	
+4-3	weiteres	ADJA	weit	_	O	O	
+4-4	aus	APPR	aus	_	O	O	
+4-5	ewigen	ADJA	ewig	_	O	O	
+4-6	Mangel	NN	Mangel	_	O	O	
+4-7	an	APPR	an	_	O	O	
+4-8	Rücksicht	NN	Rücksicht	_	O	O	
+4-9	auf	APPR	auf	_	O	O	
+4-10	das	ART	die	_	O	O	
+4-11	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-12	auf	APPR	auf	_	O	O	
+4-13	die	ART	die	_	O	O	
+4-14	Proscriptionsliste	NN	<unknown>	_	O	O	
+4-15	gesetzt	VVPP	setzen	_	O	O	
+4-16	zu	PTKZU	zu	_	O	O	
+4-17	werden	VAINF	werden	_	O	O	
+4-18	?	$.	?	_	O	O	
+
+#id=5
+#text=Lieber Brunn, das ist übel gethan und muß nicht wieder kommen.
+5-1	Lieber	ADJA	lieb	_	O	O	
+5-2	Brunn	NN	Brunn	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	das	PDS	die	_	O	O	
+5-5	ist	VAFIN	sein	_	O	O	
+5-6	übel	ADJD	übel	_	O	O	
+5-7	gethan	NN	<unknown>	_	O	O	
+5-8	und	KON	und	_	O	O	
+5-9	muß	VMFIN	müssen	_	O	O	
+5-10	nicht	PTKNEG	nicht	_	O	O	
+5-11	wieder	ADV	wieder	_	O	O	
+5-12	kommen	VVINF	kommen	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=In acht Tagen etwa erwarten wir Henzens, sie würden freilich nur einige Tage bleiben.
+6-1	In	APPR	in	_	O	O	
+6-2	acht	CARD	acht	_	O	O	
+6-3	Tagen	NN	Tag	_	O	O	
+6-4	etwa	ADV	etwa	_	O	O	
+6-5	erwarten	VVFIN	erwarten	_	O	O	
+6-6	wir	PPER	wir	_	O	O	
+6-7	Henzens	NN	<unknown>	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	sie	PPER	sie	_	O	O	
+6-10	würden	VAFIN	werden	_	O	O	
+6-11	freilich	ADV	freilich	_	O	O	
+6-12	nur	ADV	nur	_	O	O	
+6-13	einige	PIAT	einige	_	O	O	
+6-14	Tage	NN	Tag	_	O	O	
+6-15	bleiben	VVINF	bleiben	_	O	O	
+6-16	.	$.	.	_	O	O	
+
+#id=7
+#text=Prau Gerhard trifft er nicht, denn sie muß ins Bad oder vielmehr in andere Luft; meine Prau erwartet in derselben Zeit ihre Entbindung, so daß sie von Henzens auch wohl wenig oder nichts sehen wird .
+7-1	Prau	NE	<unknown>	_	O	O	
+7-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+7-3	trifft	VVFIN	treffen	_	O	O	
+7-4	er	PPER	er	_	O	O	
+7-5	nicht	PTKNEG	nicht	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	denn	KON	denn	_	O	O	
+7-8	sie	PPER	sie	_	O	O	
+7-9	muß	VMFIN	müssen	_	O	O	
+7-10	ins	APPRART	in	_	O	O	
+7-11	Bad	NN	Bad	_	O	O	
+7-12	oder	KON	oder	_	O	O	
+7-13	vielmehr	ADV	vielmehr	_	O	O	
+7-14	in	APPR	in	_	O	O	
+7-15	andere	PIS	andere	_	O	O	
+7-16	Luft	NN	Luft	_	O	O	
+7-17	;	$.	;	_	O	O	
+7-18	meine	PPOSAT	mein	_	O	O	
+7-19	Prau	NN	<unknown>	_	O	O	
+7-20	erwartet	VVFIN	erwarten	_	O	O	
+7-21	in	APPR	in	_	O	O	
+7-22	derselben	PDAT	dieselb	_	O	O	
+7-23	Zeit	NN	Zeit	_	O	O	
+7-24	ihre	PPOSAT	ihr	_	O	O	
+7-25	Entbindung	NN	Entbindung	_	O	O	
+7-26	,	$,	,	_	O	O	
+7-27	so	ADV	so	_	O	O	
+7-28	daß	KOUS	dass	_	O	O	
+7-29	sie	PPER	sie	_	O	O	
+7-30	von	APPR	von	_	O	O	
+7-31	Henzens	NN	<unknown>	_	O	O	
+7-32	auch	ADV	auch	_	O	O	
+7-33	wohl	ADV	wohl	_	O	O	
+7-34	wenig	PIS	wenige	_	O	O	
+7-35	oder	KON	oder	_	O	O	
+7-36	nichts	PIS	nichts	_	O	O	
+7-37	sehen	VVINF	sehen	_	O	O	
+7-38	wird	VAFIN	werden	_	O	O	
+7-39	.	$.	.	_	O	O	
+
+#id=8
+#text=Im Uebrigen ist aus dem Kreise Deiner Bekamen hier nichts Besonderes zu berichten.
+8-1	Im	APPRART	in	_	O	O	
+8-2	Uebrigen	NN	<unknown>	_	O	O	
+8-3	ist	VAFIN	sein	_	O	O	
+8-4	aus	APPR	aus	_	O	O	
+8-5	dem	ART	die	_	O	O	
+8-6	Kreise	NN	Kreis	_	O	O	
+8-7	Deiner	PPOSAT	dein	_	O	O	
+8-8	Bekamen	NN	<unknown>	_	O	O	
+8-9	hier	ADV	hier	_	O	O	
+8-10	nichts	PIAT	nichts	_	O	O	
+8-11	Besonderes	NN	Besondere	_	O	O	
+8-12	zu	PTKZU	zu	_	O	O	
+8-13	berichten	VVINF	berichten	_	O	O	
+8-14	.	$.	.	_	O	O	
+
+#id=9
+#text=Die Politik absorbirt eigentlich alles und unsre Gelehrsamkeit leidet t natürlich darunter in erster Linie.
+9-1	Die	ART	die	_	O	O	
+9-2	Politik	NN	Politik	_	O	O	
+9-3	absorbirt	NN	<unknown>	_	O	O	
+9-4	eigentlich	ADV	eigentlich	_	O	O	
+9-5	alles	PIS	alle	_	O	O	
+9-6	und	KON	und	_	O	O	
+9-7	unsre	PPOSAT	unsre	_	O	O	
+9-8	Gelehrsamkeit	NN	Gelehrsamkeit	_	O	O	
+9-9	leidet	VVFIN	leiden	_	O	O	
+9-10	t	NN	t	_	O	O	
+9-11	natürlich	ADV	natürlich	_	O	O	
+9-12	darunter	ADV	darunter	_	O	O	
+9-13	in	APPR	in	_	O	O	
+9-14	erster	ADJA	erst	_	O	O	
+9-15	Linie	NN	Linie	_	O	O	
+9-16	.	$.	.	_	O	O	
+
+#id=10
+#text=Hübners Corpus schrei-QO tet stetig vorwärts; vom dritten Bande (Ori et Ulpi beginnt der Druck, so wie Setzer gefunden sind.
+10-1	Hübners	NE	Hübner	_	O	O	
+10-2	Corpus	NN	Corpus	_	O	O	
+10-3	schrei-QO	NE	<unknown>	_	O	O	
+10-4	tet	VVFIN	<unknown>	_	O	O	
+10-5	stetig	ADJD	stetig	_	O	O	
+10-6	vorwärts	PTKVZ	vorwärts	_	O	O	
+10-7	;	$.	;	_	O	O	
+10-8	vom	APPRART	von	_	O	O	
+10-9	dritten	ADJA	dritt	_	O	O	
+10-10	Bande	NN	Bande	_	O	O	
+10-11	(	$(	(	_	O	O	
+10-12	Ori	NE	Ori	_	O	O	
+10-13	et	FM	et	_	O	O	
+10-14	Ulpi	NE	<unknown>	_	O	O	
+10-15	beginnt	VVFIN	beginnen	_	O	O	
+10-16	der	ART	die	_	O	O	
+10-17	Druck	NN	Druck	_	O	O	
+10-18	,	$,	,	_	O	O	
+10-19	so	ADV	so	_	O	O	
+10-20	wie	KOKOM	wie	_	O	O	
+10-21	Setzer	NN	Setzer	_	O	O	
+10-22	gefunden	VVPP	finden	_	O	O	
+10-23	sind	VAFIN	sein	_	O	O	
+10-24	.	$.	.	_	O	O	
+
+#id=11
+#text=Lebe wohl.
+11-1	Lebe	VVFIN	leben	_	O	O	
+11-2	wohl	ADV	wohl	_	O	O	
+11-3	.	$.	.	_	O	O	
+
+#id=12
+#text=Herzlichen Gruß an Deine Prau.
+12-1	Herzlichen	ADJA	herzlich	_	O	O	
+12-2	Gruß	NN	Gruß	_	O	O	
+12-3	an	APPR	an	_	O	O	
+12-4	Deine	PPOSAT	dein	_	O	O	
+12-5	Prau	NN	<unknown>	_	O	O	
+12-6	.	$.	.	_	O	O	
+
+#id=13
+#text=Dein Mommsen.
+13-1	Dein	PPOSAT	dein	_	O	O	
+13-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-3	.	$.	.	_	O	O	
+
+#id=14
+#text=Berlin 2 Juli 1863.
+14-1	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+14-2	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+14-3	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+14-4	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+14-5	.	$.	.	_	O	O	
+
+#id=15
+#text=Wegen der Notiz und der Handschrift des San Gallo schrieb Dir Hübner; besorge das, wénn Du kannst.
+15-1	Wegen	APPR	wegen	_	O	O	
+15-2	der	ART	die	_	O	O	
+15-3	Notiz	NN	Notiz	_	O	O	
+15-4	und	KON	und	_	O	O	
+15-5	der	ART	die	_	O	O	
+15-6	Handschrift	NN	Handschrift	_	O	O	
+15-7	des	ART	die	_	O	O	
+15-8	San	NE	San	_	O	O	
+15-9	Gallo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-10	schrieb	VVFIN	schreiben	_	O	O	
+15-11	Dir	PPER	du	_	O	O	
+15-12	Hübner	NE	Hübner	_	O	O	
+15-13	;	$.	;	_	O	O	
+15-14	besorge	VVFIN	besorgen	_	O	O	
+15-15	das	PDS	die	_	O	O	
+15-16	,	$,	,	_	O	O	
+15-17	wénn	VVFIN	<unknown>	_	O	O	
+15-18	Du	PPER	du	_	O	O	
+15-19	kannst	VMFIN	können	_	O	O	
+15-20	.	$.	.	_	O	O	
+

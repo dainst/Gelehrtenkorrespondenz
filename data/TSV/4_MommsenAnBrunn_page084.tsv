@@ -1,0 +1,93 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn - 2 Zürich, 19. Mai 1854 Jetzt mehr als sonst, Dich hei mir zu sehen; meine neue Wohnung, die ich mit 1 Juli beziehe, liegt prachtvoll am See mit der Aussicht in die Berge und wird wahrscheinlich noch sehenswerther sein als ich.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	O	O	
+1-4	-	$(	-	_	O	O	
+1-5	2	CARD	2	_	O	O	
+1-6	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-7	,	$,	,	_	O	O	
+1-8	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1854	CARD	1854	_	O	O	
+1-12	Jetzt	ADV	jetzt	_	O	O	
+1-13	mehr	ADV	mehr	_	O	O	
+1-14	als	KOKOM	als	_	O	O	
+1-15	sonst	ADV	sonst	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	Dich	PPER	du	_	O	O	
+1-18	hei	VVFIN	<unknown>	_	O	O	
+1-19	mir	PPER	ich	_	O	O	
+1-20	zu	PTKZU	zu	_	O	O	
+1-21	sehen	VVINF	sehen	_	O	O	
+1-22	;	$.	;	_	O	O	
+1-23	meine	PPOSAT	mein	_	O	O	
+1-24	neue	ADJA	neu	_	O	O	
+1-25	Wohnung	NN	Wohnung	_	O	O	
+1-26	,	$,	,	_	O	O	
+1-27	die	PRELS	die	_	O	O	
+1-28	ich	PPER	ich	_	O	O	
+1-29	mit	APPR	mit	_	O	O	
+1-30	1	CARD	1	_	O	O	
+1-31	Juli	NN	Juli	_	O	O	
+1-32	beziehe	VVFIN	beziehen	_	O	O	
+1-33	,	$,	,	_	O	O	
+1-34	liegt	VVFIN	liegen	_	O	O	
+1-35	prachtvoll	ADJD	prachtvoll	_	O	O	
+1-36	am	APPRART	an	_	O	O	
+1-37	See	NN	See	_	O	O	
+1-38	mit	APPR	mit	_	O	O	
+1-39	der	ART	die	_	O	O	
+1-40	Aussicht	NN	Aussicht	_	O	O	
+1-41	in	APPR	in	_	O	O	
+1-42	die	ART	die	_	O	O	
+1-43	Berge	NN	Berg	_	O	O	
+1-44	und	KON	und	_	O	O	
+1-45	wird	VAFIN	werden	_	O	O	
+1-46	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+1-47	noch	ADV	noch	_	O	O	
+1-48	sehenswerther	ADJD	<unknown>	_	O	O	
+1-49	sein	VAINF	sein	_	O	O	
+1-50	als	KOKOM	als	_	O	O	
+1-51	ich	PPER	ich	_	O	O	
+1-52	.	$.	.	_	O	O	
+
+#id=2
+#text=Unser Zusammentreffen in Leipzig war nur kurz und nicht eben sehr günstig getroffen; sarà dunque per un altra volta.
+2-1	Unser	PPOSAT	unser	_	O	O	
+2-2	Zusammentreffen	NN	Zusammentreffen	_	O	O	
+2-3	in	APPR	in	_	O	O	
+2-4	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-5	war	VAFIN	sein	_	O	O	
+2-6	nur	ADV	nur	_	O	O	
+2-7	kurz	ADJD	kurz	_	O	O	
+2-8	und	KON	und	_	O	O	
+2-9	nicht	PTKNEG	nicht	_	O	O	
+2-10	eben	ADV	eben	_	O	O	
+2-11	sehr	ADV	sehr	_	O	O	
+2-12	günstig	ADJD	günstig	_	O	O	
+2-13	getroffen	VVPP	treffen|triefen	_	O	O	
+2-14	;	$.	;	_	O	O	
+2-15	sarà	ADJA	<unknown>	_	O	O	
+2-16	dunque	NE	<unknown>	_	O	O	
+2-17	per	APPR	per	_	O	O	
+2-18	un	NE	un	_	O	O	
+2-19	altra	NN	<unknown>	_	O	O	
+2-20	volta	VVFIN	<unknown>	_	O	O	
+2-21	.	$.	.	_	O	O	
+
+#id=3
+#text=Dein Mommsen.
+3-1	Dein	PPOSAT	dein	_	O	O	
+3-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	.	$.	.	_	O	O	
+
+#id=4
+#text=Zürich 19 Mai 185V
+4-1	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-2	19	CARD	19	_	O	O	
+4-3	Mai	NN	Mai	_	O	O	
+4-4	185V	NE	<unknown>	_	O	O	
+

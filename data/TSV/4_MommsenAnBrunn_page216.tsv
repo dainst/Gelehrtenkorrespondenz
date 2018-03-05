@@ -1,0 +1,131 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Berlin, Mai 1893 - 8 - Héron de Villefosse, A», Membre de 1'Institut, Paris.
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	Mai	NN	Mai	_	O	O	
+1-7	1893	CARD	1893	_	O	O	
+1-8	-	$(	-	_	O	O	
+1-9	8	CARD	8	_	O	O	
+1-10	-	$(	-	_	O	O	
+1-11	Héron	NN	<unknown>	_	O	O	
+1-12	de	NE	de	_	O	O	
+1-13	Villefosse	NN	<unknown>	_	O	O	
+1-14	,	$,	,	_	O	O	
+1-15	A	FM	A	_	O	O	
+1-16	»	NN	<unknown>	_	O	O	
+1-17	,	$,	,	_	O	O	
+1-18	Membre	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-19	de	NE	de	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-20	1'Institut	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-21	,	$,	,	_	O	O	
+1-22	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Virchow, H*, Professor Dr., Geheimrath, Berlin.
+2-1	Virchow	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	,	$,	,	_	O	O	
+2-3	H*	NN	<unknown>	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	Professor	NN	Professor	_	O	O	
+2-6	Dr.	NN	Dr.	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	Geheimrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-9	,	$,	,	_	O	O	
+2-10	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Weher, M., Dr. Stadtrath, Charlottenburg, von Wegele, P* X., Professor Dr., Geheimrath, Würzhurg.
+3-1	Weher	ADJD	weher	_	O	O	
+3-2	,	$,	,	_	O	O	
+3-3	M.	NE	M.	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	Dr.	NN	Dr.	_	O	O	
+3-6	Stadtrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-7	,	$,	,	_	O	O	
+3-8	Charlottenburg	NE	Charlottenburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-9	,	$,	,	_	O	O	
+3-10	von	APPR	von	_	O	O	
+3-11	Wegele	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-12	,	$,	,	_	O	O	
+3-13	P*	NE	<unknown>	_	O	O	
+3-14	X.	NE	X.	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	Professor	NN	Professor	_	O	O	
+3-17	Dr.	NN	Dr.	_	O	O	
+3-18	,	$,	,	_	O	O	
+3-19	Geheimrath	NN	<unknown>	_	O	O	
+3-20	,	$,	,	_	O	O	
+3-21	Würzhurg	NN	<unknown>	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=Wilmanns, A., Generaldirector Professor Dr., Berlin.
+4-1	Wilmanns	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	,	$,	,	_	O	O	
+4-3	A.	NE	A.	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	Generaldirector	NN	<unknown>	_	O	O	
+4-6	Professor	NN	Professor	_	O	O	
+4-7	Dr.	NN	Dr.	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Wissowa, G., Professor Dr., Marburg.
+5-1	Wissowa	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	,	$,	,	_	O	O	
+5-3	G.	NE	G.	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	Professor	NN	Professor	_	O	O	
+5-6	Dr.	NN	Dr.	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	Marburg	NE	Marburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Zangemeister, K., Professor, Dr., Hofrath, Heidelberg.
+6-1	Zangemeister	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	,	$,	,	_	O	O	
+6-3	K.	NE	K.	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	Professor	NN	Professor	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	Dr.	NN	Dr.	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	Hofrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	,	$,	,	_	O	O	
+6-11	Heidelberg	NE	Heidelberg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-12	.	$.	.	_	O	O	
+
+#id=7
+#text=Zeller, E., Professor Dr., Geheimrath, Berlin.
+7-1	Zeller	NE	Zeller	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	,	$,	,	_	O	O	
+7-3	E.	NE	E.	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	Professor	NN	Professor	_	O	O	
+7-6	Dr.	NN	Dr.	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	Geheimrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-9	,	$,	,	_	O	O	
+7-10	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Zimmer, H. Professor Dr., Greifswald,
+8-1	Zimmer	NE	Zimmer	_	O	O	
+8-2	,	$,	,	_	O	O	
+8-3	H.	NE	H.	_	O	O	
+8-4	Professor	NN	Professor	_	O	O	
+8-5	Dr.	NN	Dr.	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	Greifswald	NN	Greifswald	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-8	,	$,	,	_	O	O	
+

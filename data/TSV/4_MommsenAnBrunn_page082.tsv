@@ -1,0 +1,148 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mommsen an Brunn Zürich ?
+1-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	Zürich	NE	Zürich	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-5	?	$.	?	_	O	O	
+
+#id=2
+#text=Dezember 1853 - 5 - Ich.
+2-1	Dezember	NN	Dezember	_	O	O	
+2-2	1853	CARD	@card@	_	O	O	
+2-3	-	$(	-	_	O	O	
+2-4	5	CARD	5	_	O	O	
+2-5	-	$(	-	_	O	O	
+2-6	Ich	PPER	ich	_	O	O	
+2-7	.	$.	.	_	O	O	
+
+#id=3
+#text=habe nun das liebe Land Nach Nord und Süd durchschritten; Im Süden bin ich wohlbekannt, Im Norden wohlgelitten.
+3-1	habe	VAFIN	haben	_	O	O	
+3-2	nun	ADV	nun	_	O	O	
+3-3	das	ART	die	_	O	O	
+3-4	liebe	ADJA	lieb	_	O	O	
+3-5	Land	NN	Land	_	O	O	
+3-6	Nach	APPR	nach	_	O	O	
+3-7	Nord	NN	Nord	_	O	O	
+3-8	und	KON	und	_	O	O	
+3-9	Süd	NN	Süd	_	O	O	
+3-10	durchschritten	VVPP	durchschreiten	_	O	O	
+3-11	;	$.	;	_	O	O	
+3-12	Im	APPRART	in	_	O	O	
+3-13	Süden	NN	Süden	_	O	O	
+3-14	bin	VAFIN	sein	_	O	O	
+3-15	ich	PPER	ich	_	O	O	
+3-16	wohlbekannt	ADJD	wohlbekannt	_	O	O	
+3-17	,	$,	,	_	O	O	
+3-18	Im	APPRART	in	_	O	O	
+3-19	Norden	NN	Norden	_	O	O	
+3-20	wohlgelitten	VVPP	wohlleiden	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Binzeiländer ziehn daher Und bleiben keinem schuldig -0 liebes Herz, was willst du mehr ?
+4-1	Die	ART	die	_	O	O	
+4-2	Binzeiländer	NN	<unknown>	_	O	O	
+4-3	ziehn	VVFIN	<unknown>	_	O	O	
+4-4	daher	PAV	daher	_	O	O	
+4-5	Und	KON	und	_	O	O	
+4-6	bleiben	VVFIN	bleiben	_	O	O	
+4-7	keinem	PIAT	keine	_	O	O	
+4-8	schuldig	ADJD	schuldig	_	O	O	
+4-9	-0	CARD	@card@	_	O	O	
+4-10	liebes	ADJA	lieb	_	O	O	
+4-11	Herz	NN	Herz	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	was	PWS	was	_	O	O	
+4-14	willst	VMFIN	wollen	_	O	O	
+4-15	du	PPER	du	_	O	O	
+4-16	mehr	ADV	mehr	_	O	O	
+4-17	?	$.	?	_	O	O	
+
+#id=5
+#text=Mein Herz so ungeduldig 1 Du möchtest wohl an Berg und Fluß Vor manchem Hause pochen; Mit Schleswig-Holsteins Ehrengruß Mit Idstedt nicht gerochen.
+5-1	Mein	PPOSAT	mein	_	O	O	
+5-2	Herz	NN	Herz	_	O	O	
+5-3	so	ADV	so	_	O	O	
+5-4	ungeduldig	ADJD	ungeduldig	_	O	O	
+5-5	1	CARD	1	_	O	O	
+5-6	Du	PPER	du	_	O	O	
+5-7	möchtest	VMFIN	mögen	_	O	O	
+5-8	wohl	ADV	wohl	_	O	O	
+5-9	an	APPR	an	_	O	O	
+5-10	Berg	NN	Berg	_	O	O	
+5-11	und	KON	und	_	O	O	
+5-12	Fluß	NN	Fluss	_	O	O	
+5-13	Vor	APPR	vor	_	O	O	
+5-14	manchem	PIAT	manche	_	O	O	
+5-15	Hause	NN	Haus	_	O	O	
+5-16	pochen	VVINF	pochen	_	O	O	
+5-17	;	$.	;	_	O	O	
+5-18	Mit	APPR	mit	_	O	O	
+5-19	Schleswig-Holsteins	NE	Schleswig-Holstein	_	O	O	
+5-20	Ehrengruß	NN	<unknown>	_	O	O	
+5-21	Mit	APPR	mit	_	O	O	
+5-22	Idstedt	ADJD	<unknown>	_	O	O	
+5-23	nicht	PTKNEG	nicht	_	O	O	
+5-24	gerochen	VVPP	riechen	_	O	O	
+5-25	.	$.	.	_	O	O	
+
+#id=6
+#text=0 liebes Herz, du harre aus 1 Gedenke nicht der Deinen.
+6-1	0	CARD	@card@	_	O	O	
+6-2	liebes	ADJA	lieb	_	O	O	
+6-3	Herz	NN	Herz	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	du	PPER	du	_	O	O	
+6-6	harre	VVFIN	harren	_	O	O	
+6-7	aus	APPR	aus	_	O	O	
+6-8	1	CARD	1	_	O	O	
+6-9	Gedenke	NN	<unknown>	_	O	O	
+6-10	nicht	PTKNEG	nicht	_	O	O	
+6-11	der	ART	die	_	O	O	
+6-12	Deinen	PPOSAT	dein	_	O	O	
+6-13	.	$.	.	_	O	O	
+
+#id=7
+#text=Es wird um unser hohes Haus Noch manche Sonne scheinen.
+7-1	Es	PPER	es	_	O	O	
+7-2	wird	VAFIN	werden	_	O	O	
+7-3	um	APPR	um	_	O	O	
+7-4	unser	PPOSAT	unser	_	O	O	
+7-5	hohes	ADJA	hoch	_	O	O	
+7-6	Haus	NN	Haus	_	O	O	
+7-7	Noch	ADV	noch	_	O	O	
+7-8	manche	PIAT	manche	_	O	O	
+7-9	Sonne	NN	Sonne	_	O	O	
+7-10	scheinen	VVINF	scheinen	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Es wird um unsern stolzen Bau Die volle Sonne glänzen; Jetzt schweige still; noch weht es rauh in unsren rauhen Lenzen.
+8-1	Es	PPER	es	_	O	O	
+8-2	wird	VAFIN	werden	_	O	O	
+8-3	um	APPR	um	_	O	O	
+8-4	unsern	PPOSAT	unsre	_	O	O	
+8-5	stolzen	ADJA	stolz	_	O	O	
+8-6	Bau	NN	Bau	_	O	O	
+8-7	Die	ART	die	_	O	O	
+8-8	volle	ADJA	voll	_	O	O	
+8-9	Sonne	NN	Sonne	_	O	O	
+8-10	glänzen	VVINF	glänzen	_	O	O	
+8-11	;	$.	;	_	O	O	
+8-12	Jetzt	ADV	jetzt	_	O	O	
+8-13	schweige	VVFIN	schweigen	_	O	O	
+8-14	still	ADJD	still	_	O	O	
+8-15	;	$.	;	_	O	O	
+8-16	noch	ADV	noch	_	O	O	
+8-17	weht	VVFIN	wehen	_	O	O	
+8-18	es	PPER	es	_	O	O	
+8-19	rauh	ADJD	rauh	_	O	O	
+8-20	in	APPR	in	_	O	O	
+8-21	unsren	PPOSAT	unsre	_	O	O	
+8-22	rauhen	ADJA	rauh	_	O	O	
+8-23	Lenzen	NE	Lenzen	_	O	O	
+8-24	.	$.	.	_	O	O	
+

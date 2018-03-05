@@ -1,0 +1,288 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=- 2 Mommsen an Brunn Leipzig, 10.
+1-1	-	$(	-	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	Leipzig	NE	Leipzig	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-7	,	$,	,	_	O	O	
+1-8	10	CARD	10	_	O	O	
+1-9	.	$.	.	_	O	O	
+
+#id=2
+#text=August 1851 Gott opfern und sich homöopathisch betrinken werden.
+2-1	August	NN	August	_	O	O	
+2-2	1851	CARD	@card@	_	O	O	
+2-3	Gott	NN	Gott	_	O	O	
+2-4	opfern	VVINF	opfern	_	O	O	
+2-5	und	KON	und	_	O	O	
+2-6	sich	PRF	sich	_	O	O	
+2-7	homöopathisch	ADJD	homöopathisch	_	O	O	
+2-8	betrinken	VVINF	betrinken	_	O	O	
+2-9	werden	VAFIN	werden	_	O	O	
+2-10	.	$.	.	_	O	O	
+
+#id=3
+#text=Also Du willst fort ?
+3-1	Also	ADV	also	_	O	O	
+3-2	Du	PPER	du	_	O	O	
+3-3	willst	VMFIN	wollen	_	O	O	
+3-4	fort	ADV	fort	_	O	O	
+3-5	?	$.	?	_	O	O	
+
+#id=4
+#text=Daß Du nach Griechenland gehst um jeden Preis, das lobe ich; aber bedenke wohl was Du thust ehe Du Deine römische Existenz definitiv quittirst.
+4-1	Daß	KOUS	dass	_	O	O	
+4-2	Du	PPER	du	_	O	O	
+4-3	nach	APPR	nach	_	O	O	
+4-4	Griechenland	NE	Griechenland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-5	gehst	VVFIN	gehen	_	O	O	
+4-6	um	APPR	um	_	O	O	
+4-7	jeden	PIAT	jede	_	O	O	
+4-8	Preis	NN	Preis	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	das	PRELS	die	_	O	O	
+4-11	lobe	VVFIN	loben	_	O	O	
+4-12	ich	PPER	ich	_	O	O	
+4-13	;	$.	;	_	O	O	
+4-14	aber	ADV	aber	_	O	O	
+4-15	bedenke	VVFIN	bedenken	_	O	O	
+4-16	wohl	ADV	wohl	_	O	O	
+4-17	was	PIS	was	_	O	O	
+4-18	Du	PPER	du	_	O	O	
+4-19	thust	VVFIN	<unknown>	_	O	O	
+4-20	ehe	KOUS	ehe	_	O	O	
+4-21	Du	PPER	du	_	O	O	
+4-22	Deine	PPOSAT	dein	_	O	O	
+4-23	römische	ADJA	römisch	_	O	O	
+4-24	Existenz	NN	Existenz	_	O	O	
+4-25	definitiv	ADJD	definitiv	_	O	O	
+4-26	quittirst	VVFIN	<unknown>	_	O	O	
+4-27	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich weiß sehr wohl, daß es kaum eine ist; aber Du mußt Dir keine Illusionen machen über die Zukunft, die Dich hier erwartet.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	weiß	VVFIN	wissen	_	O	O	
+5-3	sehr	ADV	sehr	_	O	O	
+5-4	wohl	ADV	wohl	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	daß	KOUS	dass	_	O	O	
+5-7	es	PPER	es	_	O	O	
+5-8	kaum	ADV	kaum	_	O	O	
+5-9	eine	PIS	eine	_	O	O	
+5-10	ist	VAFIN	sein	_	O	O	
+5-11	;	$.	;	_	O	O	
+5-12	aber	KON	aber	_	O	O	
+5-13	Du	PPER	du	_	O	O	
+5-14	mußt	VMFIN	müssen	_	O	O	
+5-15	Dir	PPER	du	_	O	O	
+5-16	keine	PIAT	keine	_	O	O	
+5-17	Illusionen	NN	Illusion	_	O	O	
+5-18	machen	VVFIN	machen	_	O	O	
+5-19	über	APPR	über	_	O	O	
+5-20	die	ART	die	_	O	O	
+5-21	Zukunft	NN	Zukunft	_	O	O	
+5-22	,	$,	,	_	O	O	
+5-23	die	PRELS	die	_	O	O	
+5-24	Dich	PPER	du	_	O	O	
+5-25	hier	ADV	hier	_	O	O	
+5-26	erwartet	VVPP	erwarten	_	O	O	
+5-27	.	$.	.	_	O	O	
+
+#id=6
+#text=Besonder^lücksfälle sind zu wünschen, aber nicht zu hoffen; im gewöhnlichen Laufe der Dinge steht Dir ein langes langweiliges Pr^vatdocententhum bevor.
+6-1	Besonder^lücksfälle	NN	<unknown>	_	O	O	
+6-2	sind	VAFIN	sein	_	O	O	
+6-3	zu	PTKZU	zu	_	O	O	
+6-4	wünschen	VVINF	wünschen	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	aber	ADV	aber	_	O	O	
+6-7	nicht	PTKNEG	nicht	_	O	O	
+6-8	zu	PTKZU	zu	_	O	O	
+6-9	hoffen	VVINF	hoffen	_	O	O	
+6-10	;	$.	;	_	O	O	
+6-11	im	APPRART	in	_	O	O	
+6-12	gewöhnlichen	ADJA	gewöhnlich	_	O	O	
+6-13	Laufe	NN	Lauf	_	O	O	
+6-14	der	ART	die	_	O	O	
+6-15	Dinge	NN	Ding	_	O	O	
+6-16	steht	VVFIN	stehen	_	O	O	
+6-17	Dir	PPER	du	_	O	O	
+6-18	ein	ART	eine	_	O	O	
+6-19	langes	ADJA	lang	_	O	O	
+6-20	langweiliges	ADJA	langweilig	_	O	O	
+6-21	Pr^vatdocententhum	NN	<unknown>	_	O	O	
+6-22	bevor	PTKVZ	bevor	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Bist Du darauf gefaßt ?
+7-1	Bist	VAFIN	sein	_	O	O	
+7-2	Du	PPER	du	_	O	O	
+7-3	darauf	PAV	darauf	_	O	O	
+7-4	gefaßt	VVPP	fassen	_	O	O	
+7-5	?	$.	?	_	O	O	
+
+#id=8
+#text=Eine solche Existenz ist jetzt schwieriger als je, weil die literarische Kleinarbeit, mit der man sich sonst zum Theil durchschlagen konnte, mit dem ganzen RecensivwesènnTodes verblichen ist.
+8-1	Eine	ART	eine	_	O	O	
+8-2	solche	PIAT	solche	_	O	O	
+8-3	Existenz	NN	Existenz	_	O	O	
+8-4	ist	VAFIN	sein	_	O	O	
+8-5	jetzt	ADV	jetzt	_	O	O	
+8-6	schwieriger	ADJD	schwierig	_	O	O	
+8-7	als	KOKOM	als	_	O	O	
+8-8	je	ADV	je	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	weil	KOUS	weil	_	O	O	
+8-11	die	ART	die	_	O	O	
+8-12	literarische	ADJA	literarisch	_	O	O	
+8-13	Kleinarbeit	NN	Kleinarbeit	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	mit	APPR	mit	_	O	O	
+8-16	der	PRELS	die	_	O	O	
+8-17	man	PIS	man	_	O	O	
+8-18	sich	PRF	sich	_	O	O	
+8-19	sonst	ADV	sonst	_	O	O	
+8-20	zum	APPRART	zu	_	O	O	
+8-21	Theil	NN	<unknown>	_	O	O	
+8-22	durchschlagen	VVINF	durchschlagen	_	O	O	
+8-23	konnte	VMFIN	können	_	O	O	
+8-24	,	$,	,	_	O	O	
+8-25	mit	APPR	mit	_	O	O	
+8-26	dem	ART	die	_	O	O	
+8-27	ganzen	ADJA	ganz	_	O	O	
+8-28	RecensivwesènnTodes	NN	<unknown>	_	O	O	
+8-29	verblichen	VVPP	verbleichen	_	O	O	
+8-30	ist	VAFIN	sein	_	O	O	
+8-31	.	$.	.	_	O	O	
+
+#id=9
+#text=An Gymnasien wirst Du aber wohl nicht gehen wollen.
+9-1	An	APPR	an	_	O	O	
+9-2	Gymnasien	NN	Gymnasium	_	O	O	
+9-3	wirst	VAFIN	werden	_	O	O	
+9-4	Du	PPER	du	_	O	O	
+9-5	aber	ADV	aber	_	O	O	
+9-6	wohl	ADV	wohl	_	O	O	
+9-7	nicht	PTKNEG	nicht	_	O	O	
+9-8	gehen	VVINF	gehen	_	O	O	
+9-9	wollen	VMINF	wollen	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=Wundre Dich nicht, daß ich Dir darüber so schreibe; ich weiß im Allgemeinen wenigstens alles, was Dich fortteibt, und es ist auch alles wahr und schlimm; doch wie Salomon sagt, wer im Miste sitzt, der setze sich ja nicht in die Scheiße.
+10-1	Wundre	VVFIN	wundern	_	O	O	
+10-2	Dich	PPER	du	_	O	O	
+10-3	nicht	PTKNEG	nicht	_	O	O	
+10-4	,	$,	,	_	O	O	
+10-5	daß	KOUS	dass	_	O	O	
+10-6	ich	PPER	ich	_	O	O	
+10-7	Dir	PPER	du	_	O	O	
+10-8	darüber	PAV	darüber	_	O	O	
+10-9	so	ADV	so	_	O	O	
+10-10	schreibe	VVFIN	schreiben	_	O	O	
+10-11	;	$.	;	_	O	O	
+10-12	ich	PPER	ich	_	O	O	
+10-13	weiß	VVFIN	wissen	_	O	O	
+10-14	im	APPRART	in	_	O	O	
+10-15	Allgemeinen	NN	Allgemeine	_	O	O	
+10-16	wenigstens	ADV	wenigstens	_	O	O	
+10-17	alles	PIS	alle	_	O	O	
+10-18	,	$,	,	_	O	O	
+10-19	was	PRELS	was	_	O	O	
+10-20	Dich	PPER	du	_	O	O	
+10-21	fortteibt	VVFIN	<unknown>	_	O	O	
+10-22	,	$,	,	_	O	O	
+10-23	und	KON	und	_	O	O	
+10-24	es	PPER	es	_	O	O	
+10-25	ist	VAFIN	sein	_	O	O	
+10-26	auch	ADV	auch	_	O	O	
+10-27	alles	PIS	alle	_	O	O	
+10-28	wahr	ADJD	wahr	_	O	O	
+10-29	und	KON	und	_	O	O	
+10-30	schlimm	ADJD	schlimm	_	O	O	
+10-31	;	$.	;	_	O	O	
+10-32	doch	ADV	doch	_	O	O	
+10-33	wie	KOUS	wie	_	O	O	
+10-34	Salomon	NE	Salomon	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-35	sagt	VVFIN	sagen	_	O	O	
+10-36	,	$,	,	_	O	O	
+10-37	wer	PWS	wer	_	O	O	
+10-38	im	APPRART	in	_	O	O	
+10-39	Miste	NN	Mist	_	O	O	
+10-40	sitzt	VVFIN	sitzen	_	O	O	
+10-41	,	$,	,	_	O	O	
+10-42	der	PDS	die	_	O	O	
+10-43	setze	VVFIN	setzen	_	O	O	
+10-44	sich	PRF	sich	_	O	O	
+10-45	ja	ADV	ja	_	O	O	
+10-46	nicht	PTKNEG	nicht	_	O	O	
+10-47	in	APPR	in	_	O	O	
+10-48	die	ART	die	_	O	O	
+10-49	Scheiße	NN	Scheiße	_	O	O	
+10-50	.	$.	.	_	O	O	
+
+#id=11
+#text=Deine buchhändlerischen Anlagen theile mir immer mit; so viel wie Braun kann ich Dir vielleicht auch nützlich sein, obgleich auch in dieser Hinsicht der Bankerott der deutschen Gelehrsamkeit schon sehr fühlbar ist.
+11-1	Deine	PPOSAT	dein	_	O	O	
+11-2	buchhändlerischen	ADJA	<unknown>	_	O	O	
+11-3	Anlagen	NN	Anlage	_	O	O	
+11-4	theile	VVFIN	<unknown>	_	O	O	
+11-5	mir	PPER	ich	_	O	O	
+11-6	immer	ADV	immer	_	O	O	
+11-7	mit	PTKVZ	mit	_	O	O	
+11-8	;	$.	;	_	O	O	
+11-9	so	ADV	so	_	O	O	
+11-10	viel	ADV	viel	_	O	O	
+11-11	wie	KOUS	wie	_	O	O	
+11-12	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-13	kann	VMFIN	können	_	O	O	
+11-14	ich	PPER	ich	_	O	O	
+11-15	Dir	PPER	du	_	O	O	
+11-16	vielleicht	ADV	vielleicht	_	O	O	
+11-17	auch	ADV	auch	_	O	O	
+11-18	nützlich	ADJD	nützlich	_	O	O	
+11-19	sein	VAINF	sein	_	O	O	
+11-20	,	$,	,	_	O	O	
+11-21	obgleich	KOUS	obgleich	_	O	O	
+11-22	auch	ADV	auch	_	O	O	
+11-23	in	APPR	in	_	O	O	
+11-24	dieser	PDAT	dies	_	O	O	
+11-25	Hinsicht	NN	Hinsicht	_	O	O	
+11-26	der	ART	die	_	O	O	
+11-27	Bankerott	NN	<unknown>	_	O	O	
+11-28	der	ART	die	_	O	O	
+11-29	deutschen	ADJA	deutsch	_	O	O	
+11-30	Gelehrsamkeit	NN	Gelehrsamkeit	_	O	O	
+11-31	schon	ADV	schon	_	O	O	
+11-32	sehr	ADV	sehr	_	O	O	
+11-33	fühlbar	ADJD	fühlbar	_	O	O	
+11-34	ist	VAFIN	sein	_	O	O	
+11-35	.	$.	.	_	O	O	
+
+#id=12
+#text=Du mußt mir auch schreiben, ob Du unter allen Umständen Honorar haben willst oder allenfalls darauf verzichten.
+12-1	Du	PPER	du	_	O	O	
+12-2	mußt	VMFIN	müssen	_	O	O	
+12-3	mir	PPER	ich	_	O	O	
+12-4	auch	ADV	auch	_	O	O	
+12-5	schreiben	VVINF	schreiben	_	O	O	
+12-6	,	$,	,	_	O	O	
+12-7	ob	KOUS	ob	_	O	O	
+12-8	Du	PPER	du	_	O	O	
+12-9	unter	APPR	unter	_	O	O	
+12-10	allen	PIAT	alle	_	O	O	
+12-11	Umständen	NN	Umstand	_	O	O	
+12-12	Honorar	NN	Honorar	_	O	O	
+12-13	haben	VAINF	haben	_	O	O	
+12-14	willst	VMFIN	wollen	_	O	O	
+12-15	oder	KON	oder	_	O	O	
+12-16	allenfalls	ADV	allenfalls	_	O	O	
+12-17	darauf	PAV	darauf	_	O	O	
+12-18	verzichten	VVINF	verzichten	_	O	O	
+12-19	.	$.	.	_	O	O	
+
