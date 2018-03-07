@@ -170,7 +170,7 @@ def tsv2iob(lines, colmapping=['sent-tok', 'offset', 'form', 'pos', 'lemma', 'en
 
 def getWebAnnoDocs(stage):
     docs = pywebanno.get.list_documents(auth, proj_id)
-    doc_ids = [d for d in docs if d["name"].split("_")[0] == str(stage)]
+    doc_ids = [d for d in docs if d["name"].split(".")[0] == str(stage)]
     return doc_ids
 
 
@@ -185,7 +185,7 @@ def main(root=out_dir):
 
         logging.info("Working with {}".format(fname))
 
-        tsv = pywebanno.get.download_document(auth, proj_id, d["id"], "ctsv3")
+        tsv = pywebanno.get.download_annotation(auth, proj_id, d["id"], "marina", "ctsv3")
         if tsv is None:
             logging.error("Error with doc {} (id={})".format(fname, d["id"]))
             continue
