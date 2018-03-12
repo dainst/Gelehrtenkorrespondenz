@@ -5,8 +5,6 @@ from config_reader import ProjectCofiguration
 import sklearn
 import scipy.stats
 from sklearn.metrics import make_scorer
-from sklearn.cross_validation import cross_val_score
-from sklearn.grid_search import RandomizedSearchCV
 
 from sklearn_crfsuite import CRF, scorers, metrics
 
@@ -54,7 +52,8 @@ class Trainer():
         self.logger.setLevel(logging.INFO)
 
         # Model
-        self.crf = CRF(algorithm='lbfgs', c1=0.1, c2=0.1, max_iterations=100, all_possible_transitions=True)
+        self.crf = CRF(algorithm='lbfgs', c1=0.23110659280031873, c2=0.023096867643725663, 
+                     max_iterations=100, all_possible_transitions=True)
 
         #Train and test features (X) and labels (y)
         self.X_train = None
