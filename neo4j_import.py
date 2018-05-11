@@ -184,23 +184,44 @@ def _import_persons(session, lines):
     with session.begin_transaction() as tx:
         for person in list(persons.values()):
             if 'localization' in person:
+                previous_localization = None
                 for localization in person['localization']:
+                    create_statement = ''
 
-                    create_statement = \
-                        'MERGE (location:Place {name:{place_name}, gazetteer_id:{gazetteer_id}})' \
-                        'MERGE (l:Localisation{from: {from}, until: {until}})' \
-                        '-[:HAS_PLACE]->(location)' \
-                        'MERGE (p:Person{name:{person}.name, gnd_id:{person}.gnd_id})' \
-                        'MERGE (p)-[:RESIDES]->(l)'
+                    values = {
+                        'place_name': localization['location']['name'],
+                        'gazetteer_id': localization['location']['gazetteer_id'],
+                        'from': localization['from'],
+                        'until': localization['to'],
+                        'person': person
+                    }
 
-                    tx.run(create_statement,
-                           {
-                               'place_name': localization['location']['name'],
-                               'gazetteer_id': localization['location']['gazetteer_id'],
-                               'from': localization['from'],
-                               'until': localization['to'],
-                               'person': person
-                           })
+                    if previous_localization is not None:
+
+                        values['prev_place_name'] = previous_localization['location']['name']
+                        values['prev_gaz_id'] = previous_localization['location']['gazetteer_id']
+                        values['prev_from'] = previous_localization['from']
+                        values['prev_until'] = previous_localization['to']
+
+                        create_statement += \
+                            'MATCH (prev_place:Place {name: {prev_place_name}, gazetteer_id:{prev_gaz_id}}) ' \
+                            'MATCH (prev_loc:Localisation {from: {prev_from}, until:{prev_until}})' \
+                            '-[:HAS_PLACE]->(prev_place) ' \
+
+                    create_statement += \
+                        'MERGE (location:Place {name:{place_name}, gazetteer_id:{gazetteer_id}}) ' \
+                        'MERGE (l:Localisation{from: {from}, until: {until}}) ' \
+                        '-[:HAS_PLACE]->(location) ' \
+                        'MERGE (p:Person{name:{person}.name, gnd_id:{person}.gnd_id}) ' \
+                        'MERGE (p)-[:RESIDES]->(l) '
+
+                    if previous_localization is not None:
+                        create_statement += \
+                            'MERGE (l)-[:FOLLOWS]->(prev_loc) '
+
+                    tx.run(create_statement, values)
+
+                    previous_localization = localization
             else:
                 create_statement = \
                     'MERGE (p:Person{name:{person}.name, gnd_id:{person}.gnd_id})' \
