@@ -189,9 +189,9 @@ def _import_persons(session, lines):
                     create_statement = \
                         'MERGE (location:Place {name:{place_name}, gazetteer_id:{gazetteer_id}})' \
                         'MERGE (l:Localisation{from: {from}, until: {until}})' \
-                        '-[:HAS_PLACE]->(location)-[:DEFINES]->(l)' \
+                        '-[:HAS_PLACE]->(location)' \
                         'MERGE (p:Person{name:{person}.name, gnd_id:{person}.gnd_id})' \
-                        'MERGE (p)-[:RESIDES]->(l)-[:LOCATES]->(p)'
+                        'MERGE (p)-[:RESIDES]->(l)'
 
                     tx.run(create_statement,
                            {
@@ -239,12 +239,12 @@ def import_data(tsv_path, uri, user, password, ignore_first_line):
             link_author_statement \
                 = 'MATCH (letter:Letter{id:{id}})' \
                   'MATCH (person:Person {name:{name}, gnd_id:{gnd_id}})' \
-                  'CREATE (person)-[:IS_AUTHOR]->(letter)-[:HAS_AUTHOR]->(person)'
+                  'CREATE (letter)-[:HAS_AUTHOR]->(person)'
 
             link_recipient_statement \
                 = 'MATCH (letter:Letter{id:{id}})' \
                   'MATCH (person:Person {name:{name}, gnd_id:{gnd_id}})' \
-                  'CREATE (person)-[:IS_RECIPIENT_OF]->(letter)-[:HAS_RECIPIENT]->(person)'
+                  'CREATE (letter)-[:HAS_RECIPIENT]->(person)'
 
             with session.begin_transaction() as tx:
 
