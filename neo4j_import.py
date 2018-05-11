@@ -31,6 +31,7 @@ def _compare_locations(a, b):
 
     if a['name'] == b['name']:
         return True
+        # TODO: gazetteer IDs are wrong for current (dummy) metadata, for now they are being ignored when comparing
         # if 'gazetteer_id' in a and 'gazetteer_id' in b:
         #     if a['gazetteer_id'] == b['gazetteer_id']:
         #         return True
@@ -128,13 +129,9 @@ def _import_persons(session, lines):
                     space_time_points[values] += [(date, locations['to']['name'], locations['to']['gazetteer_id'])]
 
     for person_index in space_time_points:
-        # if person_index == ('Gerhard, Eduard', '118717030'):
-        #     print(space_time_points[person_index])
         space_time_points[person_index] = set(space_time_points[person_index])
         space_time_points[person_index] = sorted(space_time_points[person_index], key=lambda x: (x[0], x[1]))
         space_time_points[person_index] = [{'date': x[0], 'location':{'name': x[1], 'gazetteer_id': x[2]}} for x in space_time_points[person_index]]
-        # if person_index == ('Gerhard, Eduard', '118717030'):
-        #     print(space_time_points[person_index])
 
         current_localization = []
         current_location = None
@@ -142,12 +139,6 @@ def _import_persons(session, lines):
         current_until_time = None
         for current_point in space_time_points[person_index]:
             if not _compare_locations(current_location, current_point['location']):
-
-                # if person_index == ('Gerhard, Eduard', '118717030'):
-                #     print('new location in space time points. final from: %s and until: %s' % (current_from_time, current_until_time))
-                #     print('final location:')
-                #     print(current_location)
-                #     print(current_point['location'])
 
                 if current_location is not None:
                     current_localization.append({
@@ -200,7 +191,7 @@ def _import_persons(session, lines):
                         'MERGE (l:Localisation{from: {from}, until: {until}})' \
                         '-[:HAS_PLACE]->(location)-[:DEFINES]->(l)' \
                         'MERGE (p:Person{name:{person}.name, gnd_id:{person}.gnd_id})' \
-                        'MERGE (p)-[:IS_LOCATED]->(l)-[:LOCATES]->(p)'
+                        'MERGE (p)-[:RESIDES]->(l)-[:LOCATES]->(p)'
 
                     tx.run(create_statement,
                            {
@@ -233,8 +224,6 @@ def import_data(tsv_path, uri, user, password, ignore_first_line):
             line_values = line.split('\t')
             lines.append(line_values)
 
-
-
         print('Importing persons...')
         _import_persons(session, lines)
         print('Importing letters...')
@@ -250,12 +239,12 @@ def import_data(tsv_path, uri, user, password, ignore_first_line):
             link_author_statement \
                 = 'MATCH (letter:Letter{id:{id}})' \
                   'MATCH (person:Person {name:{name}, gnd_id:{gnd_id}})' \
-                  'CREATE (person)-[:IS_AUTHOR]->(letter)-[:IS_AUTHERED_BY]->(person)'
+                  'CREATE (person)-[:IS_AUTHOR]->(letter)-[:HAS_AUTHOR]->(person)'
 
             link_recipient_statement \
                 = 'MATCH (letter:Letter{id:{id}})' \
                   'MATCH (person:Person {name:{name}, gnd_id:{gnd_id}})' \
-                  'CREATE (person)-[:IS_RECIPIENT_OF]->(letter)-[:IS_RECEIVED_BY]->(person)'
+                  'CREATE (person)-[:IS_RECIPIENT_OF]->(letter)-[:HAS_RECIPIENT]->(person)'
 
             with session.begin_transaction() as tx:
 
