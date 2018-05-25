@@ -297,8 +297,8 @@ def _import_letters(session, lines):
         counter += 1
 
 
-def import_data(tsv_path, url, port, user, password, ignore_first_line):
-    driver = GraphDatabase.driver('bolt://%s:%i ' % (url, port), auth=(user, password))
+def import_data(tsv_path, url, port, username, password, ignore_first_line):
+    driver = GraphDatabase.driver('bolt://%s:%i ' % (url, port), auth=(username, password))
 
     with driver.session() as session, open(tsv_path, 'r') as input_file:
         lines = []
@@ -320,11 +320,23 @@ def import_data(tsv_path, url, port, user, password, ignore_first_line):
 
 
 if __name__ == '__main__':
+
+    if len(sys.argv) != 6:
+        logger.info('Please provide as arguments: ')
+
+        logger.info('1) The TSV file containing metadata.')
+        logger.info('2) Neo4j URL')
+        logger.info('3) Neo4j port')
+        logger.info('4) Neo4j username')
+        logger.info('5) Neo4j user password')
+
+        sys.exit()
+
     import_data(
         tsv_path=sys.argv[1],
         ignore_first_line=True,
         url=sys.argv[2],
         port=int(sys.argv[3]),
-        user=sys.argv[4],
+        username=sys.argv[4],
         password=sys.argv[5]
     )
