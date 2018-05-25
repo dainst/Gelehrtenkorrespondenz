@@ -105,12 +105,9 @@ def _create_localization(date, location):
     return localisations
 
 
-def _import_persons(session, lines):
-    persons = dict()
-    localizations = dict()
-    space_time_points = dict()
-
-    for line_values in lines:
+def _create_localization_points(data_rows):
+    localization_points = dict()
+    for line_values in data_rows:
 
         date = _extract_date(line_values)
         locations = _extract_locations(line_values)
@@ -120,29 +117,38 @@ def _import_persons(session, lines):
         if locations['from'] is not None:
             for person in extracted_data['authors']:
                 values = tuple(person.values())
-                if values not in space_time_points:
-                    space_time_points[values] = [(date, locations['from']['name'], locations['from']['gazetteer_id'])]
+                new_point = (date, locations['from']['name'], locations['from']['gazetteer_id'])
+                if values not in localization_points:
+                    localization_points[values] = [new_point]
                 else:
-                    space_time_points[values] += [(date, locations['from']['name'], locations['from']['gazetteer_id'])]
+                    localization_points[values] += [new_point]
 
         if locations['to'] is not None:
             for person in extracted_data['recipients']:
                 values = tuple(person.values())
-                if values not in space_time_points:
-                    space_time_points[values] = [(date, locations['to']['name'], locations['to']['gazetteer_id'])]
+                new_point = (date, locations['to']['name'], locations['to']['gazetteer_id'])
+                if values not in localization_points:
+                    localization_points[values] = [new_point]
                 else:
-                    space_time_points[values] += [(date, locations['to']['name'], locations['to']['gazetteer_id'])]
+                    localization_points[values] += [new_point]
 
-    for person_index in space_time_points:
-        space_time_points[person_index] = set(space_time_points[person_index])
-        space_time_points[person_index] = sorted(space_time_points[person_index], key=lambda x: (x[0], x[1]))
-        space_time_points[person_index] = [{'date': x[0], 'location':{'name': x[1], 'gazetteer_id': x[2]}} for x in space_time_points[person_index]]
+    return localization_points
+
+
+def _aggregate_localization_points_to_timespans(localization_points):
+    localizations = dict()
+    for person_index in localization_points:
+        localization_points[person_index] = set(localization_points[person_index])
+        localization_points[person_index] = sorted(localization_points[person_index], key=lambda x: (x[0], x[1]))
+        localization_points[person_index] = [
+            {'date': x[0], 'location':{'name': x[1], 'gazetteer_id': x[2]}} for x in localization_points[person_index]
+        ]
 
         current_localization = []
         current_location = None
         current_from_time = None
         current_until_time = None
-        for current_point in space_time_points[person_index]:
+        for current_point in localization_points[person_index]:
             if not _compare_locations(current_location, current_point['location']):
 
                 if current_location is not None:
@@ -165,14 +171,18 @@ def _import_persons(session, lines):
         })
 
         localizations[person_index] = current_localization
+    return localizations
 
+
+def _aggregate_persons(lines, localizations):
+    persons = dict()
     for line_values in lines:
         extracted_data = _extract_persons(line_values)
         for person in extracted_data['authors']:
             values = tuple(person.values())
 
             if values in localizations:
-                person['localization'] = localizations[values]
+                person['localizations'] = localizations[values]
 
             if values not in persons:
                 persons[values] = person
@@ -181,16 +191,24 @@ def _import_persons(session, lines):
             values = tuple(person.values())
 
             if values in localizations:
-                person['localization'] = localizations[values]
+                person['localizations'] = localizations[values]
 
             if values not in persons:
                 persons[values] = person
 
+    return persons
+
+
+def _import_persons(session, lines):
+    localization_points = _create_localization_points(lines)
+    localizations = _aggregate_localization_points_to_timespans(localization_points)
+    persons = _aggregate_persons(lines, localizations)
+
     with session.begin_transaction() as tx:
         for person in list(persons.values()):
-            if 'localization' in person:
+            if 'localizations' in person:
                 previous_localization = None
-                for localization in person['localization']:
+                for localization in person['localizations']:
                     create_statement = ''
 
                     values = {
