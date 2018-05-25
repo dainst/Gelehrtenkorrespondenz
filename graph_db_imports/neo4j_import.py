@@ -297,10 +297,10 @@ def _import_letters(session, lines):
         counter += 1
 
 
-def import_data(tsv_path, uri, user, password, ignore_first_line):
-    driver = GraphDatabase.driver(uri, auth=(user, password))
-    with driver.session() as session, open(tsv_path, 'r') as input_file:
+def import_data(tsv_path, url, port, user, password, ignore_first_line):
+    driver = GraphDatabase.driver('bolt://%s:%i ' % (url, port), auth=(user, password))
 
+    with driver.session() as session, open(tsv_path, 'r') as input_file:
         lines = []
         for line in input_file:
             if ignore_first_line:
@@ -323,7 +323,8 @@ if __name__ == '__main__':
     import_data(
         tsv_path=sys.argv[1],
         ignore_first_line=True,
-        uri=sys.argv[2],
-        user=sys.argv[3],
-        password=sys.argv[4]
+        url=sys.argv[2],
+        port=int(sys.argv[3]),
+        user=sys.argv[4],
+        password=sys.argv[5]
     )
