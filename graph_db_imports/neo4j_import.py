@@ -224,12 +224,72 @@ def _import_persons(session, lines):
                     previous_localization = localization
             else:
                 create_statement = \
-                    'MERGE (p:Person{name:{person}.name, gnd_id:{person}.gnd_id})' \
+                    'MERGE (p:Person{name:{person}.name, gnd_id:{person}.gnd_id})'
 
                 tx.run(create_statement,
                        {
                            'person': person
                        })
+
+
+def _import_letters(session, lines):
+    counter = 0
+
+    for line_values in lines:
+        persons = _extract_persons(line_values)
+        letter = _extract_letter(line_values)
+
+        letter_statement = \
+            'CREATE (letter:Letter{' \
+            'title:{title}, quantity_desc:{desc}, page_count:{quant}, summ:{summ}, id:{id}, date:{date}})'
+
+        link_author_statement \
+            = 'MATCH (letter:Letter{id:{id}})' \
+              'MATCH (person:Person {name:{name}, gnd_id:{gnd_id}})' \
+              'CREATE (letter)-[:HAS_AUTHOR]->(person)'
+
+        link_recipient_statement \
+            = 'MATCH (letter:Letter{id:{id}})' \
+              'MATCH (person:Person {name:{name}, gnd_id:{gnd_id}})' \
+              'CREATE (letter)-[:HAS_RECIPIENT]->(person)'
+
+        with session.begin_transaction() as tx:
+
+            tx.run(letter_statement,
+                   {
+                       'title': letter['title'],
+                       'date': letter['date'],
+                       'desc': letter['quantity_description'],
+                       'quant': letter['quantity_page_count'],
+                       'summ': letter['summary'],
+                       'id': counter
+                   })
+            for person in persons['authors']:
+                tx.run(link_author_statement,
+                       {
+                           'title': letter['title'],
+                           'date': letter['date'],
+                           'desc': letter['quantity_description'],
+                           'quant': letter['quantity_page_count'],
+                           'summ': letter['summary'],
+                           'name': person['name'],
+                           'gnd_id': person['gnd_id'],
+                           'id': counter
+                       })
+            for person in persons['recipients']:
+
+                tx.run(link_recipient_statement,
+                       {
+                           'title': letter['title'],
+                           'date': letter['date'],
+                           'desc': letter['quantity_description'],
+                           'quant': letter['quantity_page_count'],
+                           'summ': letter['summary'],
+                           'name': person['name'],
+                           'gnd_id': person['gnd_id'],
+                           'id': counter
+                       })
+        counter += 1
 
 
 def import_data(tsv_path, uri, user, password, ignore_first_line):
@@ -248,62 +308,8 @@ def import_data(tsv_path, uri, user, password, ignore_first_line):
         print('Importing persons...')
         _import_persons(session, lines)
         print('Importing letters...')
-        counter = 0
-        for line_values in lines:
-            persons = _extract_persons(line_values)
-            letter = _extract_letter(line_values)
-
-            letter_statement = \
-                'CREATE (letter:Letter{' \
-                'title:{title}, quantity_desc:{desc}, page_count:{quant}, summ:{summ}, id:{id}, date:{date}})' \
-
-            link_author_statement \
-                = 'MATCH (letter:Letter{id:{id}})' \
-                  'MATCH (person:Person {name:{name}, gnd_id:{gnd_id}})' \
-                  'CREATE (letter)-[:HAS_AUTHOR]->(person)'
-
-            link_recipient_statement \
-                = 'MATCH (letter:Letter{id:{id}})' \
-                  'MATCH (person:Person {name:{name}, gnd_id:{gnd_id}})' \
-                  'CREATE (letter)-[:HAS_RECIPIENT]->(person)'
-
-            with session.begin_transaction() as tx:
-
-                tx.run(letter_statement,
-                       {
-                           'title': letter['title'],
-                           'date': letter['date'],
-                           'desc': letter['quantity_description'],
-                           'quant': letter['quantity_page_count'],
-                           'summ': letter['summary'],
-                           'id': counter
-                       })
-                for person in persons['authors']:
-                    tx.run(link_author_statement,
-                           {
-                               'title': letter['title'],
-                               'date': letter['date'],
-                               'desc': letter['quantity_description'],
-                               'quant': letter['quantity_page_count'],
-                               'summ': letter['summary'],
-                               'name': person['name'],
-                               'gnd_id': person['gnd_id'],
-                               'id': counter
-                           })
-                for person in persons['recipients']:
-
-                    tx.run(link_recipient_statement,
-                           {
-                               'title': letter['title'],
-                               'date': letter['date'],
-                               'desc': letter['quantity_description'],
-                               'quant': letter['quantity_page_count'],
-                               'summ': letter['summary'],
-                               'name': person['name'],
-                               'gnd_id': person['gnd_id'],
-                               'id': counter
-                           })
-            counter += 1
+        _import_letters(session, lines)
+        print('Done.')
 
     driver.close()
 
