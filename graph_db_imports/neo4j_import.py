@@ -4,6 +4,11 @@ import re
 
 from neo4j.v1 import GraphDatabase
 
+logging.basicConfig(format='%(asctime)s %(message)s')
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
 PAGE_COUNT_PATTERN = re.compile('.*(\d+)\s*Seiten.*')
 DATE_PATTERN = re.compile('\d{4}-\d{2}-\d{2}')
 
@@ -305,11 +310,11 @@ def import_data(tsv_path, uri, user, password, ignore_first_line):
             line_values = line.split('\t')
             lines.append(line_values)
 
-        print('Importing persons...')
+        logger.info('Importing persons...')
         _import_persons(session, lines)
-        print('Importing letters...')
+        logger.info('Importing letters...')
         _import_letters(session, lines)
-        print('Done.')
+        logger.info('Done.')
 
     driver.close()
 
