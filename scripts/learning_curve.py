@@ -82,6 +82,12 @@ def plot_learning_curve(estimator, title, X, y, scorer, ylim=None, cv=None,
     return train_sizes, train_scores, test_scores
 
 
+with open("../lib/models/korrespondez_model_stage7.pickle", "rb") as f:
+    m = pickle.load(f)
+
+labels = list(m.classes_)
+labels.remove('O')
+
 f1_scorer = make_scorer(metrics.flat_f1_score,
                         average='weighted', labels=labels)
 
