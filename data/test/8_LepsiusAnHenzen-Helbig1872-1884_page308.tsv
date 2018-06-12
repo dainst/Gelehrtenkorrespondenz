@@ -1,0 +1,215 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=( 150 Herrn Prof.
+1-1	(	$(	(	_	O	O	
+1-2	150	CARD	150	_	O	O	
+1-3	Herrn	NN	Herr	_	O	O	
+1-4	Prof.	NN	Prof.	_	O	O	
+
+#id=2
+#text=Henzen Verehrter Freund Lepsius an Henzen Berlin, 14. März 1877 g. 17/3 77 r. Berlin, den 14. März 1877 Wir haben in unsrer gestrigen Sitzung einige Präliminarien wegen des Testamentes besprochen.
+2-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	Verehrter	ADJA	verehrt	_	O	O	
+2-3	Freund	NE	Freund	_	O	O	
+2-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-5	an	APPR	an	_	O	O	
+2-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-8	,	$,	,	_	O	O	
+2-9	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-13	g.	VVFIN	<unknown>	_	O	O	
+2-14	17/3	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-15	77	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-16	r.	ADJA	<unknown>	_	O	O	
+2-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-18	,	$,	,	_	O	O	
+2-19	den	ART	die	_	O	O	
+2-20	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-21	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-22	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-23	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-24	Wir	PPER	wir	_	O	O	
+2-25	haben	VAFIN	haben	_	O	O	
+2-26	in	APPR	in	_	O	O	
+2-27	unsrer	PPOSAT	unser	_	O	O	
+2-28	gestrigen	ADJA	gestrig	_	O	O	
+2-29	Sitzung	NN	Sitzung	_	O	O	
+2-30	einige	PIAT	einige	_	O	O	
+2-31	Präliminarien	NN	Präliminarien	_	O	O	
+2-32	wegen	APPR	wegen	_	O	O	
+2-33	des	ART	die	_	O	O	
+2-34	Testamentes	NN	<unknown>	_	O	O	
+2-35	besprochen	VVPP	besprechen	_	O	O	
+2-36	.	$.	.	_	O	O	
+
+#id=3
+#text=Da wäre es uns zunächst nöthig zu wissen, wie es mit einer möglichen Präklusivfrist in Bezug auf die Annahme des Legates nach Italienischem resp. auch Russischem Rechte steht um danach zu beurtheilen, wie eilig wir hier vorgehen müssen.
+3-1	Da	ADV	da	_	O	O	
+3-2	wäre	VAFIN	sein	_	O	O	
+3-3	es	PPER	es	_	O	O	
+3-4	uns	PRF	wir	_	O	O	
+3-5	zunächst	ADV	zunächst	_	O	O	
+3-6	nöthig	ADJD	<unknown>	_	O	O	
+3-7	zu	PTKZU	zu	_	O	O	
+3-8	wissen	VVINF	wissen	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	wie	KOUS	wie	_	O	O	
+3-11	es	PPER	es	_	O	O	
+3-12	mit	APPR	mit	_	O	O	
+3-13	einer	ART	eine	_	O	O	
+3-14	möglichen	ADJA	möglich	_	O	O	
+3-15	Präklusivfrist	NN	<unknown>	_	O	O	
+3-16	in	APPR	in	_	O	O	
+3-17	Bezug	NN	Bezug	_	O	O	
+3-18	auf	APPR	auf	_	O	O	
+3-19	die	ART	die	_	O	O	
+3-20	Annahme	NN	Annahme	_	O	O	
+3-21	des	ART	die	_	O	O	
+3-22	Legates	NN	<unknown>	_	O	O	
+3-23	nach	APPR	nach	_	O	O	
+3-24	Italienischem	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-25	resp.	ADV	resp.	_	O	O	
+3-26	auch	ADV	auch	_	O	O	
+3-27	Russischem	ADJA	russisch	_	O	O	
+3-28	Rechte	NN	Recht|Rechte	_	O	O	
+3-29	steht	VVFIN	stehen	_	O	O	
+3-30	um	APPR	um	_	O	O	
+3-31	danach	PAV	danach	_	O	O	
+3-32	zu	PTKZU	zu	_	O	O	
+3-33	beurtheilen	VVINF	<unknown>	_	O	O	
+3-34	,	$,	,	_	O	O	
+3-35	wie	KOKOM	wie	_	O	O	
+3-36	eilig	ADJD	eilig	_	O	O	
+3-37	wir	PPER	wir	_	O	O	
+3-38	hier	ADV	hier	_	O	O	
+3-39	vorgehen	VVINF	vorgehen	_	O	O	
+3-40	müssen	VMFIN	müssen	_	O	O	
+3-41	.	$.	.	_	O	O	
+
+#id=4
+#text=Lassen Sie mich daher so bald wie möglich wissen, was Sie darüber in Rom ermitteln können.
+4-1	Lassen	VVFIN	lassen	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	mich	PRF	ich	_	O	O	
+4-4	daher	PAV	daher	_	O	O	
+4-5	so	ADV	so	_	O	O	
+4-6	bald	ADV	bald	_	O	O	
+4-7	wie	KOKOM	wie	_	O	O	
+4-8	möglich	ADJD	möglich	_	O	O	
+4-9	wissen	VVINF	wissen	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	was	PRELS	was	_	O	O	
+4-12	Sie	PPER	Sie	_	O	O	
+4-13	darüber	PAV	darüber	_	O	O	
+4-14	in	APPR	in	_	O	O	
+4-15	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-16	ermitteln	VVINF	ermitteln	_	O	O	
+4-17	können	VMFIN	können	_	O	O	
+4-18	.	$.	.	_	O	O	
+
+#id=5
+#text=Eine Deutsche Übersetzung werden wir hier nur nach Eingang Ihrer vidimirten Abschrift besorgen.
+5-1	Eine	ART	eine	_	O	O	
+5-2	Deutsche	ADJA	deutsch	_	O	O	
+5-3	Übersetzung	NN	Übersetzung	_	O	O	
+5-4	werden	VAFIN	werden	_	O	O	
+5-5	wir	PPER	wir	_	O	O	
+5-6	hier	ADV	hier	_	O	O	
+5-7	nur	ADV	nur	_	O	O	
+5-8	nach	APPR	nach	_	O	O	
+5-9	Eingang	NN	Eingang	_	O	O	
+5-10	Ihrer	PPOSAT	ihr	_	O	O	
+5-11	vidimirten	ADJA	<unknown>	_	O	O	
+5-12	Abschrift	NN	Abschrift	_	O	O	
+5-13	besorgen	VVINF	besorgen	_	O	O	
+5-14	.	$.	.	_	O	O	
+
+#id=6
+#text=Über die Verlegung unsrer Generalversammlung werden wir in der zunächst bevorstehenden diese selbst beschließen lassen.
+6-1	Über	APPR	über	_	O	O	
+6-2	die	ART	die	_	O	O	
+6-3	Verlegung	NN	Verlegung	_	O	O	
+6-4	unsrer	PPOSAT	unser	_	O	O	
+6-5	Generalversammlung	NN	Generalversammlung	_	O	O	
+6-6	werden	VAFIN	werden	_	O	O	
+6-7	wir	PPER	wir	_	O	O	
+6-8	in	APPR	in	_	O	O	
+6-9	der	ART	die	_	O	O	
+6-10	zunächst	ADV	zunächst	_	O	O	
+6-11	bevorstehenden	ADJA	bevorstehend	_	O	O	
+6-12	diese	PDAT	dies	_	O	O	
+6-13	selbst	ADV	selbst	_	O	O	
+6-14	beschließen	VVINF	beschließen	_	O	O	
+6-15	lassen	VVINF	lassen	_	O	O	
+6-16	.	$.	.	_	O	O	
+
+#id=7
+#text=Wir erwarten also Ihren vorläufigen Bericht, der von Köhler bereits eingegangen ist, und den vorläufigen Rechnungsabschluß, so weit Sie ihn bis zur Versammlung übersehen können.
+7-1	Wir	PPER	wir	_	O	O	
+7-2	erwarten	VVFIN	erwarten	_	O	O	
+7-3	also	ADV	also	_	O	O	
+7-4	Ihren	PPOSAT	ihr	_	O	O	
+7-5	vorläufigen	ADJA	vorläufig	_	O	O	
+7-6	Bericht	NN	Bericht	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	der	PRELS	die	_	O	O	
+7-9	von	APPR	von	_	O	O	
+7-10	Köhler	NE	Köhler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-11	bereits	ADV	bereits	_	O	O	
+7-12	eingegangen	VVPP	eingehen	_	O	O	
+7-13	ist	VAFIN	sein	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	und	KON	und	_	O	O	
+7-16	den	ART	die	_	O	O	
+7-17	vorläufigen	ADJA	vorläufig	_	O	O	
+7-18	Rechnungsabschluß	NN	Rechnungsabschluss	_	O	O	
+7-19	,	$,	,	_	O	O	
+7-20	so	ADV	so	_	O	O	
+7-21	weit	ADJD	weit	_	O	O	
+7-22	Sie	PPER	Sie	_	O	O	
+7-23	ihn	PPER	er	_	O	O	
+7-24	bis	APPR	bis	_	O	O	
+7-25	zur	APPRART	zu	_	O	O	
+7-26	Versammlung	NN	Versammlung	_	O	O	
+7-27	übersehen	VVINF	übersehen	_	O	O	
+7-28	können	VMFIN	können	_	O	O	
+7-29	.	$.	.	_	O	O	
+
+#id=8
+#text=Über Klügmann werden wir wohl eine officielle Äußerung estrahiren können.
+8-1	Über	APPR	über	_	O	O	
+8-2	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	werden	VAFIN	werden	_	O	O	
+8-4	wir	PPER	wir	_	O	O	
+8-5	wohl	ADV	wohl	_	O	O	
+8-6	eine	ART	eine	_	O	O	
+8-7	officielle	ADJA	<unknown>	_	O	O	
+8-8	Äußerung	NN	Äußerung	_	O	O	
+8-9	estrahiren	ADJA	<unknown>	_	O	O	
+8-10	können	VMINF	können	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=In Bezug auf die Äußerungen Helbig's über sein Verhältnis zur Bibliothek, die Sie uns zunächst wohl nur
+9-1	In	APPR	in	_	O	O	
+9-2	Bezug	NN	Bezug	_	O	O	
+9-3	auf	APPR	auf	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	Äußerungen	NN	Äußerung	_	O	O	
+9-6	Helbig's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-7	über	APPR	über	_	O	O	
+9-8	sein	PPOSAT	sein	_	O	O	
+9-9	Verhältnis	NN	Verhältnis	_	O	O	
+9-10	zur	APPRART	zu	_	O	O	
+9-11	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-12	,	$,	,	_	O	O	
+9-13	die	PRELS	die	_	O	O	
+9-14	Sie	PPER	Sie	_	O	O	
+9-15	uns	PRF	wir	_	O	O	
+9-16	zunächst	ADV	zunächst	_	O	O	
+9-17	wohl	ADV	wohl	_	O	O	
+9-18	nur	ADV	nur	_	O	O	
+

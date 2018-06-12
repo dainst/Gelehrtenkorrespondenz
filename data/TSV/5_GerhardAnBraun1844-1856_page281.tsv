@@ -1,0 +1,234 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=78 Gerhard an Braun Berlin, 6. März 1849 g. 17/111 49 r. 19/111 49 Dr. Braun Berlin 6 März 49 Mein theurer Freund.
+1-1	78	CARD	78	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1849	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	17/111	CARD	@card@	_	O	O	
+1-13	49	CARD	@card@	_	O	O	
+1-14	r.	ADJA	<unknown>	_	O	O	
+1-15	19/111	CARD	@card@	_	O	O	
+1-16	49	CARD	@card@	_	O	O	
+1-17	Dr.	NN	Dr.	_	O	O	
+1-18	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-19	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-20	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-21	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	Mein	PPOSAT	mein	_	O	O	
+1-24	theurer	ADJA	<unknown>	_	O	O	
+1-25	Freund	NN	Freund	_	O	O	
+1-26	.	$.	.	_	O	O	
+
+#id=2
+#text=Gott bewahre Sie und unsre Freunde in diesem Zeitpunkt vor Kriegs und Aufruhrsnöthen !
+2-1	Gott	NN	Gott	_	O	O	
+2-2	bewahre	VVFIN	bewahren	_	O	O	
+2-3	Sie	PPER	Sie	_	O	O	
+2-4	und	KON	und	_	O	O	
+2-5	unsre	PPOSAT	unsre	_	O	O	
+2-6	Freunde	NN	Freund	_	O	O	
+2-7	in	APPR	in	_	O	O	
+2-8	diesem	PDAT	dies	_	O	O	
+2-9	Zeitpunkt	NN	Zeitpunkt	_	O	O	
+2-10	vor	APPR	vor	_	O	O	
+2-11	Kriegs	NN	Krieg	_	O	O	
+2-12	und	KON	und	_	O	O	
+2-13	Aufruhrsnöthen	NN	<unknown>	_	O	O	
+2-14	!	$.	!	_	O	O	
+
+#id=3
+#text=Bullettino Gennaio habe ich erhalten und Ihres Stoßseufzers zu Gunsten Fran~ois mich gefreut, obwohl er im Augenblick nichts nützen kann.
+3-1	Bullettino	NE	<unknown>	_	O	O	
+3-2	Gennaio	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	habe	VAFIN	haben	_	O	O	
+3-4	ich	PPER	ich	_	O	O	
+3-5	erhalten	VVPP	erhalten	_	O	O	
+3-6	und	KON	und	_	O	O	
+3-7	Ihres	PPOSAT	ihr	_	O	O	
+3-8	Stoßseufzers	NN	Stoßseufzer	_	O	O	
+3-9	zu	APPR	zu	_	O	O	
+3-10	Gunsten	NN	Gunst	_	O	O	
+3-11	Fran~ois	NE	<unknown>	_	O	O	
+3-12	mich	PRF	ich	_	O	O	
+3-13	gefreut	VVPP	freuen	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	obwohl	KOUS	obwohl	_	O	O	
+3-16	er	PPER	er	_	O	O	
+3-17	im	APPRART	in	_	O	O	
+3-18	Augenblick	NN	Augenblick	_	O	O	
+3-19	nichts	PIS	nichts	_	O	O	
+3-20	nützen	VVINF	nützen	_	O	O	
+3-21	kann	VMFIN	können	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=Wo bleibt der Settembre bis Dec(ember ) die ich mir längst per Post erbeten habe ?
+4-1	Wo	PWAV	wo	_	O	O	
+4-2	bleibt	VVFIN	bleiben	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	Settembre	NN	<unknown>	_	O	O	
+4-5	bis	APPR	bis	_	O	O	
+4-6	Dec(ember	NN	<unknown>	_	O	O	
+4-7	)	$(	)	_	O	O	
+4-8	die	PRELS	die	_	O	O	
+4-9	ich	PPER	ich	_	O	O	
+4-10	mir	PRF	ich	_	O	O	
+4-11	längst	ADV	längst	_	O	O	
+4-12	per	APPR	per	_	O	O	
+4-13	Post	NN	Post	_	O	O	
+4-14	erbeten	VVPP	erbitten	_	O	O	
+4-15	habe	VAFIN	haben	_	O	O	
+4-16	?	$.	?	_	O	O	
+
+#id=5
+#text=Die I1Zukunft des Archäologischen Instituts l1 durch der Allgemeinen Zeitung Brille gesehen ist hier angelangt und der darin angekündigte I1schalkhafte tl Arti,,-: kel l1 eines der Instituts Beamten" wird nicht ausbleiben.
+5-1	Die	ART	die	_	O	O	
+5-2	I1Zukunft	NN	<unknown>	_	O	O	
+5-3	des	ART	die	_	O	O	
+5-4	Archäologischen	ADJA	archäologisch	_	O	O	
+5-5	Instituts	NN	Institut	_	O	O	
+5-6	l1	CARD	<unknown>	_	O	O	
+5-7	durch	APPR	durch	_	O	O	
+5-8	der	ART	die	_	O	O	
+5-9	Allgemeinen	ADJA	allgemein	_	O	O	
+5-10	Zeitung	NN	Zeitung	_	O	O	
+5-11	Brille	NN	Brille	_	O	O	
+5-12	gesehen	VVPP	sehen	_	O	O	
+5-13	ist	VAFIN	sein	_	O	O	
+5-14	hier	ADV	hier	_	O	O	
+5-15	angelangt	VVPP	angelangen	_	O	O	
+5-16	und	KON	und	_	O	O	
+5-17	der	ART	die	_	O	O	
+5-18	darin	PAV	darin	_	O	O	
+5-19	angekündigte	ADJA	angekündigt	_	O	O	
+5-20	I1schalkhafte	NN	<unknown>	_	O	O	
+5-21	tl	NE	<unknown>	_	O	O	
+5-22	Arti,,-	TRUNC	<unknown>	_	O	O	
+5-23	:	$.	:	_	O	O	
+5-24	kel	ADJA	<unknown>	_	O	O	
+5-25	l1	NN	<unknown>	_	O	O	
+5-26	eines	PIS	eine	_	O	O	
+5-27	der	ART	die	_	O	O	
+5-28	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-29	Beamten	NN	Beamter	_	O	O	
+5-30	"	$(	"	_	O	O	
+5-31	wird	VAFIN	werden	_	O	O	
+5-32	nicht	PTKNEG	nicht	_	O	O	
+5-33	ausbleiben	VVINF	ausbleiben	_	O	O	
+5-34	.	$.	.	_	O	O	
+
+#id=6
+#text=Habt Ihr darin Euch in eignem Fette geschmort oder auch gegen mich in die Luft gehauen, so mögt Ihrs mit der Nemesis und mit Eurem eigenen Gewissen ausmachen; weise aber war es nicht von Bunsen, Schulze etc. etc. noch vor gesicherter Gehaltserneuung mit Eindrücken einer unerschütterlichen Beamtenschaar Euch breit zu machen.
+6-1	Habt	VAFIN	haben	_	O	O	
+6-2	Ihr	PPER	sie	_	O	O	
+6-3	darin	PAV	darin	_	O	O	
+6-4	Euch	PRF	ihr	_	O	O	
+6-5	in	APPR	in	_	O	O	
+6-6	eignem	ADJA	eigen	_	O	O	
+6-7	Fette	NN	Fett	_	O	O	
+6-8	geschmort	VVPP	schmoren	_	O	O	
+6-9	oder	KON	oder	_	O	O	
+6-10	auch	ADV	auch	_	O	O	
+6-11	gegen	APPR	gegen	_	O	O	
+6-12	mich	PPER	ich	_	O	O	
+6-13	in	APPR	in	_	O	O	
+6-14	die	ART	die	_	O	O	
+6-15	Luft	NN	Luft	_	O	O	
+6-16	gehauen	VVPP	hauen	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	so	ADV	so	_	O	O	
+6-19	mögt	VMFIN	mögen	_	O	O	
+6-20	Ihrs	PPOSS	ihr	_	O	O	
+6-21	mit	APPR	mit	_	O	O	
+6-22	der	ART	die	_	O	O	
+6-23	Nemesis	NN	Nemesis	_	O	O	
+6-24	und	KON	und	_	O	O	
+6-25	mit	APPR	mit	_	O	O	
+6-26	Eurem	PPOSAT	euer	_	O	O	
+6-27	eigenen	ADJA	eigen	_	O	O	
+6-28	Gewissen	NN	Gewissen	_	O	O	
+6-29	ausmachen	VVINF	ausmachen	_	O	O	
+6-30	;	$.	;	_	O	O	
+6-31	weise	ADJD	weise	_	O	O	
+6-32	aber	ADV	aber	_	O	O	
+6-33	war	VAFIN	sein	_	O	O	
+6-34	es	PPER	es	_	O	O	
+6-35	nicht	PTKNEG	nicht	_	O	O	
+6-36	von	APPR	von	_	O	O	
+6-37	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-38	,	$,	,	_	O	O	
+6-39	Schulze	NE	Schulze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-40	etc.	ADV	etc.	_	O	O	
+6-41	etc.	ADV	etc.	_	O	O	
+6-42	noch	ADV	noch	_	O	O	
+6-43	vor	APPR	vor	_	O	O	
+6-44	gesicherter	ADJA	gesichert	_	O	O	
+6-45	Gehaltserneuung	NN	<unknown>	_	O	O	
+6-46	mit	APPR	mit	_	O	O	
+6-47	Eindrücken	NN	Eindruck	_	O	O	
+6-48	einer	ART	eine	_	O	O	
+6-49	unerschütterlichen	ADJA	unerschütterlich	_	O	O	
+6-50	Beamtenschaar	NN	<unknown>	_	O	O	
+6-51	Euch	PRF	ihr	_	O	O	
+6-52	breit	ADJD	breit	_	O	O	
+6-53	zu	PTKZU	zu	_	O	O	
+6-54	machen	VVINF	machen	_	O	O	
+6-55	.	$.	.	_	O	O	
+
+#id=7
+#text=Ihnen selbst wirds am Ende nicht schaden; unsre jüngeren Freunde aber sollten Sie vor solchem Übermuth mehr behüten !
+7-1	Ihnen	PPER	Sie	_	O	O	
+7-2	selbst	ADV	selbst	_	O	O	
+7-3	wirds	VVFIN	<unknown>	_	O	O	
+7-4	am	APPRART	an	_	O	O	
+7-5	Ende	NN	Ende	_	O	O	
+7-6	nicht	PTKNEG	nicht	_	O	O	
+7-7	schaden	VVINF	schaden	_	O	O	
+7-8	;	$.	;	_	O	O	
+7-9	unsre	PPOSAT	unsre	_	O	O	
+7-10	jüngeren	ADJA	jung	_	O	O	
+7-11	Freunde	NN	Freund	_	O	O	
+7-12	aber	ADV	aber	_	O	O	
+7-13	sollten	VMFIN	sollen	_	O	O	
+7-14	Sie	PPER	Sie	_	O	O	
+7-15	vor	APPR	vor	_	O	O	
+7-16	solchem	PIAT	solche	_	O	O	
+7-17	Übermuth	NN	<unknown>	_	O	O	
+7-18	mehr	ADV	mehr	_	O	O	
+7-19	behüten	VVINF	behüten	_	O	O	
+7-20	!	$.	!	_	O	O	
+
+#id=8
+#text=Oe ~ ~ - ~ ~ !t ~ ~ i' !
+8-1	Oe	XY	Ö	_	O	O	
+8-2	~	XY	~	_	O	O	
+8-3	~	XY	~	_	O	O	
+8-4	-	$(	-	_	O	O	
+8-5	~	XY	~	_	O	O	
+8-6	~	XY	~	_	O	O	
+8-7	!	$.	!	_	O	O	
+8-8	t	NN	t	_	O	O	
+8-9	~	XY	~	_	O	O	
+8-10	~	XY	~	_	O	O	
+8-11	i	FM	i	_	O	O	
+8-12	'	$(	'	_	O	O	
+8-13	!	$.	!	_	O	O	
+
+#id=9
+#text=: ~ a: ~ ~
+9-1	:	$.	:	_	O	O	
+9-2	~	XY	~	_	O	O	
+9-3	a	FM	a	_	O	O	
+9-4	:	$.	:	_	O	O	
+9-5	~	XY	~	_	O	O	
+9-6	~	XY	~	_	O	O	
+

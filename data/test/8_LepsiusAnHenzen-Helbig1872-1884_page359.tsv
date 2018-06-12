@@ -1,0 +1,157 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=\ J 375 L Verehrter Freund Lepsius an Helbig Berlin, 27. Mai 1884 Berlin, C., d. 27. Mai 1884 Wir haben früher öfter über kleine ägyptische Gegenstände cor~espondirt, die in Etrurien gefunden worden waren und in die XXVI.
+1-1	\	XY	\	_	O	O	
+1-2	J	NN	J	_	O	O	
+1-3	375	CARD	@card@	_	O	O	
+1-4	L	NN	L	_	O	O	
+1-5	Verehrter	ADJA	verehrt	_	O	O	
+1-6	Freund	NE	Freund	_	O	O	
+1-7	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-8	an	APPR	an	_	O	O	
+1-9	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-10	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-11	,	$,	,	_	O	O	
+1-12	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-13	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	1884	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-17	,	$,	,	_	O	O	
+1-18	C.	NE	C.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-19	,	$,	,	_	O	O	
+1-20	d.	ART	d.	_	O	O	
+1-21	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-22	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-24	1884	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-25	Wir	PPER	wir	_	O	O	
+1-26	haben	VAFIN	haben	_	O	O	
+1-27	früher	ADV	früher	_	O	O	
+1-28	öfter	ADV	öfter	_	O	O	
+1-29	über	APPR	über	_	O	O	
+1-30	kleine	ADJA	klein	_	O	O	
+1-31	ägyptische	ADJA	ägyptisch	_	O	O	
+1-32	Gegenstände	NN	Gegenstand	_	O	O	
+1-33	cor~espondirt	NN	<unknown>	_	O	O	
+1-34	,	$,	,	_	O	O	
+1-35	die	PRELS	die	_	O	O	
+1-36	in	APPR	in	_	O	O	
+1-37	Etrurien	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-38	gefunden	VVPP	finden	_	O	O	
+1-39	worden	VAPP	werden	_	O	O	
+1-40	waren	VAFIN	sein	_	O	O	
+1-41	und	KON	und	_	O	O	
+1-42	in	APPR	in	_	O	O	
+1-43	die	ART	die	_	O	O	
+1-44	XXVI.	NE	<unknown>	_	O	O	
+
+#id=2
+#text=Dynastie gehörten.
+2-1	Dynastie	NN	Dynastie	_	O	O	
+2-2	gehörten	VVFIN	gehören	_	O	O	
+2-3	.	$.	.	_	O	O	
+
+#id=3
+#text=Haben Sie, und wo, diese Resultate irgendwo zusammengestellt und besprochen.
+3-1	Haben	VAFIN	haben	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	und	KON	und	_	O	O	
+3-5	wo	PWAV	wo	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	diese	PDAT	dies	_	O	O	
+3-8	Resultate	NN	Resultat	_	O	O	
+3-9	irgendwo	ADV	irgendwo	_	O	O	
+3-10	zusammengestellt	VVPP	zusammenstellen	_	O	O	
+3-11	und	KON	und	_	O	O	
+3-12	besprochen	VVPP	besprechen	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich möchte dies gerne zitiren in einer Schrift, die mir bereits in Druckbogen vorliegt.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	möchte	VMFIN	mögen	_	O	O	
+4-3	dies	PDS	dies	_	O	O	
+4-4	gerne	ADV	gerne	_	O	O	
+4-5	zitiren	NN	<unknown>	_	O	O	
+4-6	in	APPR	in	_	O	O	
+4-7	einer	ART	eine	_	O	O	
+4-8	Schrift	NN	Schrift	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	die	PRELS	die	_	O	O	
+4-11	mir	PPER	ich	_	O	O	
+4-12	bereits	ADV	bereits	_	O	O	
+4-13	in	APPR	in	_	O	O	
+4-14	Druckbogen	NN	Druckbogen	_	O	O	
+4-15	vorliegt	VVFIN	vorliegen	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Darf ich Sie bitten, die große Güte zu haben, mir das Citat, oder, wenn es keines giebt "nein" zu telegraphieren.
+5-1	Darf	VMFIN	dürfen	_	O	O	
+5-2	ich	PPER	ich	_	O	O	
+5-3	Sie	PPER	Sie	_	O	O	
+5-4	bitten	VVINF	bitten	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	die	ART	die	_	O	O	
+5-7	große	ADJA	groß	_	O	O	
+5-8	Güte	NN	Güte	_	O	O	
+5-9	zu	PTKZU	zu	_	O	O	
+5-10	haben	VAINF	haben	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	mir	PRF	ich	_	O	O	
+5-13	das	ART	die	_	O	O	
+5-14	Citat	NN	<unknown>	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	oder	KON	oder	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	wenn	KOUS	wenn	_	O	O	
+5-19	es	PPER	es	_	O	O	
+5-20	keines	PIAT	keine	_	O	O	
+5-21	giebt	ADJA	<unknown>	_	O	O	
+5-22	"	$(	"	_	O	O	
+5-23	nein	PTKANT	nein	_	O	O	
+5-24	"	$(	"	_	O	O	
+5-25	zu	PTKZU	zu	_	O	O	
+5-26	telegraphieren	VVINF	telegraphieren	_	O	O	
+5-27	.	$.	.	_	O	O	
+
+#id=6
+#text=Nur dann kann ich es noch brauchen.
+6-1	Nur	ADV	nur	_	O	O	
+6-2	dann	ADV	dann	_	O	O	
+6-3	kann	VMFIN	können	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	es	PPER	es	_	O	O	
+6-6	noch	ADV	noch	_	O	O	
+6-7	brauchen	VVINF	brauchen	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=Es geht Ihnen hoffentlich gut, wie auch Henzen, den ich bestens grüße.
+7-1	Es	PPER	es	_	O	O	
+7-2	geht	VVFIN	gehen	_	O	O	
+7-3	Ihnen	PPER	Sie	_	O	O	
+7-4	hoffentlich	ADV	hoffentlich	_	O	O	
+7-5	gut	ADJD	gut	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	wie	KOUS	wie	_	O	O	
+7-8	auch	ADV	auch	_	O	O	
+7-9	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-10	,	$,	,	_	O	O	
+7-11	den	PRELS	die	_	O	O	
+7-12	ich	PPER	ich	_	O	O	
+7-13	bestens	ADV	bestens	_	O	O	
+7-14	grüße	VVFIN	grüßen	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=In treue Ihr ergebesnter R Lepsius
+8-1	In	APPR	in	_	O	O	
+8-2	treue	ADJA	treu	_	O	O	
+8-3	Ihr	PPOSAT	ihr	_	O	O	
+8-4	ergebesnter	ADJA	<unknown>	_	O	O	
+8-5	R	NN	R	_	O	O	
+8-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

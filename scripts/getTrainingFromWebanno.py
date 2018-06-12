@@ -2,7 +2,7 @@
 
 """
 Use this script to download and add the relevant annotated files
-that are stored in Webanno. Downloaded training data will to the the
+that are stored in Webanno. Downloaded training data will go to the
 selected output directory.
 
 Usage:
@@ -170,7 +170,7 @@ def tsv2iob(lines, colmapping=['sent-tok', 'offset', 'form', 'pos', 'lemma', 'en
 
 def getWebAnnoDocs(stage):
     docs = pywebanno.get.list_documents(auth, proj_id)
-    doc_ids = [d for d in docs if d["name"].split(".")[0] == str(stage)]
+    doc_ids = [d for d in docs if d["name"].split("_")[0] == str(stage)]
     return doc_ids
 
 

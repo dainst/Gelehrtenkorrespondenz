@@ -1,0 +1,218 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Dr. Braun Lieber Freund.
+1-1	Dr.	NN	Dr.	_	O	O	
+1-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Freund	NN	Freund	_	O	O	
+1-5	.	$.	.	_	O	O	
+
+#id=2
+#text=Gerhard an Braun Berlin, 14. Mai 1846 g. 25/V 46 r. 25/V 46 Berlin 14 Mai 46 Ich hatte schmerzlich seit mehreren Wochen auf eine Sendung von Ihnen verhofft, aber allerdings auch Gründe der betrübenden oder sonst unabweislichen Art vorausgesetzt, wie Ihr eben angelangter Brief sie mir angiebt und ich mit herzlichem Antheil sie vernehme.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	g.	VVFIN	<unknown>	_	O	O	
+2-11	25/V	NE	<unknown>	_	O	O	
+2-12	46	CARD	46	_	O	O	
+2-13	r.	ADJA	<unknown>	_	O	O	
+2-14	25/V	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-15	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-17	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-18	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-19	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-20	Ich	PPER	ich	_	O	O	
+2-21	hatte	VAFIN	haben	_	O	O	
+2-22	schmerzlich	ADJD	schmerzlich	_	O	O	
+2-23	seit	APPR	seit	_	O	O	
+2-24	mehreren	PIAT	mehrere	_	O	O	
+2-25	Wochen	NN	Woche	_	O	O	
+2-26	auf	APPR	auf	_	O	O	
+2-27	eine	ART	eine	_	O	O	
+2-28	Sendung	NN	Sendung	_	O	O	
+2-29	von	APPR	von	_	O	O	
+2-30	Ihnen	PPER	Sie	_	O	O	
+2-31	verhofft	VVPP	verhoffen	_	O	O	
+2-32	,	$,	,	_	O	O	
+2-33	aber	KON	aber	_	O	O	
+2-34	allerdings	ADV	allerdings	_	O	O	
+2-35	auch	ADV	auch	_	O	O	
+2-36	Gründe	NN	Grund	_	O	O	
+2-37	der	ART	die	_	O	O	
+2-38	betrübenden	ADJA	<unknown>	_	O	O	
+2-39	oder	KON	oder	_	O	O	
+2-40	sonst	ADV	sonst	_	O	O	
+2-41	unabweislichen	ADJA	unabweislich	_	O	O	
+2-42	Art	NN	Art	_	O	O	
+2-43	vorausgesetzt	VVPP	voraussetzen	_	O	O	
+2-44	,	$,	,	_	O	O	
+2-45	wie	KOUS	wie	_	O	O	
+2-46	Ihr	PPER	sie	_	O	O	
+2-47	eben	ADV	eben	_	O	O	
+2-48	angelangter	ADJA	angelangt	_	O	O	
+2-49	Brief	NN	Brief	_	O	O	
+2-50	sie	PPER	sie	_	O	O	
+2-51	mir	PRF	ich	_	O	O	
+2-52	angiebt	VVFIN	<unknown>	_	O	O	
+2-53	und	KON	und	_	O	O	
+2-54	ich	PPER	ich	_	O	O	
+2-55	mit	APPR	mit	_	O	O	
+2-56	herzlichem	ADJA	herzlich	_	O	O	
+2-57	Antheil	NN	<unknown>	_	O	O	
+2-58	sie	PPER	sie	_	O	O	
+2-59	vernehme	VVFIN	vernehmen	_	O	O	
+2-60	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihr Jahresbericht geht sofort an Bunsen.
+3-1	Ihr	PPOSAT	ihr	_	O	O	
+3-2	Jahresbericht	NN	Jahresbericht	_	O	O	
+3-3	geht	VVFIN	gehen	_	O	O	
+3-4	sofort	ADV	sofort	_	O	O	
+3-5	an	APPR	an	_	O	O	
+3-6	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich hatte noch Einiges außerhalb der Drucksachen Liegendes und, falls Ihre außerhalb des Instituts gehaltenen Vorlesungen überhaupt erwähnt werden sollten ein paar Worte Begründung darüber gewünscht, daß nicht auch innerhalb des Instituts populär gehalten werden könnten, werde aber für diese kleinen von Bunsen vielleicht zu erwartenden Desiderien ihn auf den von mir eingesandten Rapporto verweisen in dem das Alles berührt ist.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	hatte	VAFIN	haben	_	O	O	
+4-3	noch	ADV	noch	_	O	O	
+4-4	Einiges	NN	<unknown>	_	O	O	
+4-5	außerhalb	APPR	außerhalb	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	Drucksachen	NN	Drucksache	_	O	O	
+4-8	Liegendes	ADJA	liegend	_	O	O	
+4-9	und	KON	und	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	falls	KOUS	falls	_	O	O	
+4-12	Ihre	PPOSAT	ihr	_	O	O	
+4-13	außerhalb	APPR	außerhalb	_	O	O	
+4-14	des	ART	die	_	O	O	
+4-15	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-16	gehaltenen	ADJA	gehalten	_	O	O	
+4-17	Vorlesungen	NN	Vorlesung	_	O	O	
+4-18	überhaupt	ADV	überhaupt	_	O	O	
+4-19	erwähnt	VVPP	erwähnen	_	O	O	
+4-20	werden	VAINF	werden	_	O	O	
+4-21	sollten	VMFIN	sollen	_	O	O	
+4-22	ein	ART	eine	_	O	O	
+4-23	paar	PIAT	paar	_	O	O	
+4-24	Worte	NN	Wort	_	O	O	
+4-25	Begründung	NN	Begründung	_	O	O	
+4-26	darüber	PAV	darüber	_	O	O	
+4-27	gewünscht	VVPP	wünschen	_	O	O	
+4-28	,	$,	,	_	O	O	
+4-29	daß	KOUS	dass	_	O	O	
+4-30	nicht	PTKNEG	nicht	_	O	O	
+4-31	auch	ADV	auch	_	O	O	
+4-32	innerhalb	APPR	innerhalb	_	O	O	
+4-33	des	ART	die	_	O	O	
+4-34	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-35	populär	ADJD	populär	_	O	O	
+4-36	gehalten	VVPP	halten	_	O	O	
+4-37	werden	VAINF	werden	_	O	O	
+4-38	könnten	VMFIN	können	_	O	O	
+4-39	,	$,	,	_	O	O	
+4-40	werde	VAFIN	werden	_	O	O	
+4-41	aber	ADV	aber	_	O	O	
+4-42	für	APPR	für	_	O	O	
+4-43	diese	PDAT	dies	_	O	O	
+4-44	kleinen	ADJA	klein	_	O	O	
+4-45	von	APPR	von	_	O	O	
+4-46	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-47	vielleicht	ADV	vielleicht	_	O	O	
+4-48	zu	APPR	zu	_	O	O	
+4-49	erwartenden	ADJA	erwartend	_	O	O	
+4-50	Desiderien	NN	<unknown>	_	O	O	
+4-51	ihn	PPER	er	_	O	O	
+4-52	auf	APPR	auf	_	O	O	
+4-53	den	ART	die	_	O	O	
+4-54	von	APPR	von	_	O	O	
+4-55	mir	PPER	ich	_	O	O	
+4-56	eingesandten	ADJA	eingesandt	_	O	O	
+4-57	Rapporto	NN	<unknown>	_	O	O	
+4-58	verweisen	VVFIN	verweisen	_	O	O	
+4-59	in	APPR	in	_	O	O	
+4-60	dem	ART	die	_	O	O	
+4-61	das	ART	die	_	O	O	
+4-62	Alles	PIS	alle	_	O	O	
+4-63	berührt	VVPP	berühren	_	O	O	
+4-64	ist	VAFIN	sein	_	O	O	
+4-65	.	$.	.	_	O	O	
+
+#id=5
+#text=Mit Lanci sind wir freilich noch nicht durch; aus seinem Brief aber kann ich nur Euren Unfrieden und keine Aussicht auf einen mezzo termine der Ausgleichung sehen.
+5-1	Mit	APPR	mit	_	O	O	
+5-2	Lanci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	sind	VAFIN	sein	_	O	O	
+5-4	wir	PPER	wir	_	O	O	
+5-5	freilich	ADV	freilich	_	O	O	
+5-6	noch	ADV	noch	_	O	O	
+5-7	nicht	PTKNEG	nicht	_	O	O	
+5-8	durch	PTKVZ	durch	_	O	O	
+5-9	;	$.	;	_	O	O	
+5-10	aus	APPR	aus	_	O	O	
+5-11	seinem	PPOSAT	sein	_	O	O	
+5-12	Brief	NN	Brief	_	O	O	
+5-13	aber	ADV	aber	_	O	O	
+5-14	kann	VMFIN	können	_	O	O	
+5-15	ich	PPER	ich	_	O	O	
+5-16	nur	ADV	nur	_	O	O	
+5-17	Euren	PPOSAT	euer	_	O	O	
+5-18	Unfrieden	NN	Unfriede	_	O	O	
+5-19	und	KON	und	_	O	O	
+5-20	keine	PIAT	keine	_	O	O	
+5-21	Aussicht	NN	Aussicht	_	O	O	
+5-22	auf	APPR	auf	_	O	O	
+5-23	einen	ART	eine	_	O	O	
+5-24	mezzo	NN	<unknown>	_	O	O	
+5-25	termine	NN	Termin	_	O	O	
+5-26	der	ART	die	_	O	O	
+5-27	Ausgleichung	NN	Ausgleichung	_	O	O	
+5-28	sehen	VVINF	sehen	_	O	O	
+5-29	.	$.	.	_	O	O	
+
+#id=6
+#text=An Bunsen geschrieben zu haben wird ihm nichts helfen; Daß er aber dem Pr.
+6-1	An	APPR	an	_	O	O	
+6-2	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	geschrieben	VVPP	schreiben	_	O	O	
+6-4	zu	PTKZU	zu	_	O	O	
+6-5	haben	VAINF	haben	_	O	O	
+6-6	wird	VAFIN	werden	_	O	O	
+6-7	ihm	PPER	er	_	O	O	
+6-8	nichts	PIS	nichts	_	O	O	
+6-9	helfen	VVINF	helfen	_	O	O	
+6-10	;	$.	;	_	O	O	
+6-11	Daß	KOUS	dass	_	O	O	
+6-12	er	PPER	er	_	O	O	
+6-13	aber	ADV	aber	_	O	O	
+6-14	dem	ART	die	_	O	O	
+6-15	Pr.	NN	<unknown>	_	O	O	
+
+#id=7
+#text=M • seinen Rückzug vom Institut angekündigt hat, wird uns schaden, wenn Sie
+7-1	M	NE	M	_	O	O	
+7-2	•	NN	<unknown>	_	O	O	
+7-3	seinen	PPOSAT	sein	_	O	O	
+7-4	Rückzug	NN	Rückzug	_	O	O	
+7-5	vom	APPRART	von	_	O	O	
+7-6	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-7	angekündigt	VVPP	ankündigen	_	O	O	
+7-8	hat	VAFIN	haben	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	wird	VAFIN	werden	_	O	O	
+7-11	uns	PPER	wir	_	O	O	
+7-12	schaden	VVINF	schaden	_	O	O	
+7-13	,	$,	,	_	O	O	
+7-14	wenn	KOUS	wenn	_	O	O	
+7-15	Sie	PPER	Sie	_	O	O	
+

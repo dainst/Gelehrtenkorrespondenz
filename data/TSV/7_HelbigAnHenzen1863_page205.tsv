@@ -1,0 +1,221 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=315 Noth thun.
+1-1	315	CARD	@card@	_	O	O	
+1-2	Noth	NE	<unknown>	_	O	O	
+1-3	thun	NE	<unknown>	_	O	O	
+1-4	.	$.	.	_	O	O	
+
+#id=2
+#text=2 Helbig an Henzen Siena, 5. Juni 1874 Im Instituto delle belle arti habe ich acht oder zehn vor vier Jahren bei der Porta Camullia ausgegrabene etruskische Urnen gesehen, die ich, wenn ich einen geeigneten Zeichner finden, copiren lassen werde.
+2-1	2	CARD	2	_	O	O	
+2-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-3	an	APPR	an	_	O	O	
+2-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-5	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-6	,	$,	,	_	O	O	
+2-7	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	Im	APPRART	in	_	O	O	
+2-12	Instituto	NN	<unknown>	_	O	O	
+2-13	delle	VVFIN	dellen	_	O	O	
+2-14	belle	VVFIN	bellen	_	O	O	
+2-15	arti	NE	<unknown>	_	O	O	
+2-16	habe	VAFIN	haben	_	O	O	
+2-17	ich	PPER	ich	_	O	O	
+2-18	acht	CARD	acht	_	O	O	
+2-19	oder	KON	oder	_	O	O	
+2-20	zehn	CARD	zehn	_	O	O	
+2-21	vor	APPR	vor	_	O	O	
+2-22	vier	CARD	vier	_	O	O	
+2-23	Jahren	NN	Jahr	_	O	O	
+2-24	bei	APPR	bei	_	O	O	
+2-25	der	ART	die	_	O	O	
+2-26	Porta	NN	<unknown>	_	O	O	
+2-27	Camullia	NE	<unknown>	_	O	O	
+2-28	ausgegrabene	ADJA	ausgegraben	_	O	O	
+2-29	etruskische	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+2-30	Urnen	NN	Urne	_	I-webanno.custom.LetterEntity_	I-OBJ	
+2-31	gesehen	VVPP	sehen	_	O	O	
+2-32	,	$,	,	_	O	O	
+2-33	die	PRELS	die	_	O	O	
+2-34	ich	PPER	ich	_	O	O	
+2-35	,	$,	,	_	O	O	
+2-36	wenn	KOUS	wenn	_	O	O	
+2-37	ich	PPER	ich	_	O	O	
+2-38	einen	ART	eine	_	O	O	
+2-39	geeigneten	ADJA	geeignet	_	O	O	
+2-40	Zeichner	NN	Zeichner	_	O	O	
+2-41	finden	VVFIN	finden	_	O	O	
+2-42	,	$,	,	_	O	O	
+2-43	copiren	NN	<unknown>	_	O	O	
+2-44	lassen	VVINF	lassen	_	O	O	
+2-45	werde	VAFIN	werden	_	O	O	
+2-46	.	$.	.	_	O	O	
+
+#id=3
+#text=Abschriften der neuerdings in der Umgegend von Siena gefundenen und in demselben Instituto aufgestellten latenischen Inschriften schicke ich Ihnen nächstens.
+3-1	Abschriften	NN	Abschrift	_	O	O	
+3-2	der	ART	die	_	O	O	
+3-3	neuerdings	ADV	neuerdings	_	O	O	
+3-4	in	APPR	in	_	O	O	
+3-5	der	ART	die	_	O	O	
+3-6	Umgegend	NN	Umgegend	_	O	O	
+3-7	von	APPR	von	_	O	O	
+3-8	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-9	gefundenen	ADJA	gefunden	_	O	O	
+3-10	und	KON	und	_	O	O	
+3-11	in	APPR	in	_	O	O	
+3-12	demselben	PDAT	dieselb	_	O	O	
+3-13	Instituto	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-14	aufgestellten	ADJA	aufgestellt	_	O	O	
+3-15	latenischen	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-16	Inschriften	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-OBJ	
+3-17	schicke	VVFIN	schicken	_	O	O	
+3-18	ich	PPER	ich	_	O	O	
+3-19	Ihnen	PPER	Sie	_	O	O	
+3-20	nächstens	ADV	nächstens	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Dieser Tage ist es mir unmöglich; denn heute Abend beginne ich die mir schon lange von Dantone empfohlene Atropincur.
+4-1	Dieser	PDAT	dies	_	O	O	
+4-2	Tage	NN	Tag	_	O	O	
+4-3	ist	VAFIN	sein	_	O	O	
+4-4	es	PPER	es	_	O	O	
+4-5	mir	PRF	ich	_	O	O	
+4-6	unmöglich	ADJD	unmöglich	_	O	O	
+4-7	;	$.	;	_	O	O	
+4-8	denn	KON	denn	_	O	O	
+4-9	heute	ADV	heute	_	O	O	
+4-10	Abend	NN	Abend	_	O	O	
+4-11	beginne	VVFIN	beginnen	_	O	O	
+4-12	ich	PPER	ich	_	O	O	
+4-13	die	PRELS	die	_	O	O	
+4-14	mir	PPER	ich	_	O	O	
+4-15	schon	ADV	schon	_	O	O	
+4-16	lange	ADV	lange	_	O	O	
+4-17	von	APPR	von	_	O	O	
+4-18	Dantone	NN	<unknown>	_	O	O	
+4-19	empfohlene	ADJA	empfohlen	_	O	O	
+4-20	Atropincur	NN	<unknown>	_	O	O	
+4-21	.	$.	.	_	O	O	
+
+#id=5
+#text=Meine Augen sind in Folge der Hitze und des Staubes der Eisenbahnfahrt derartig angegriffen, daß ich mich endlich dazu entschließen muß.
+5-1	Meine	PPOSAT	mein	_	O	O	
+5-2	Augen	NN	Auge	_	O	O	
+5-3	sind	VAFIN	sein	_	O	O	
+5-4	in	APPR	in	_	O	O	
+5-5	Folge	NN	Folge	_	O	O	
+5-6	der	ART	die	_	O	O	
+5-7	Hitze	NN	Hitze	_	O	O	
+5-8	und	KON	und	_	O	O	
+5-9	des	ART	die	_	O	O	
+5-10	Staubes	NN	Staub	_	O	O	
+5-11	der	ART	die	_	O	O	
+5-12	Eisenbahnfahrt	NN	Eisenbahnfahrt	_	O	O	
+5-13	derartig	ADJD	derartig	_	O	O	
+5-14	angegriffen	VVPP	angreifen	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	daß	KOUS	dass	_	O	O	
+5-17	ich	PPER	ich	_	O	O	
+5-18	mich	PRF	ich	_	O	O	
+5-19	endlich	ADV	endlich	_	O	O	
+5-20	dazu	PAV	dazu	_	O	O	
+5-21	entschließen	VVINF	entschließen	_	O	O	
+5-22	muß	VMFIN	müssen	_	O	O	
+5-23	.	$.	.	_	O	O	
+
+#id=6
+#text=Lieb wäre es mir deßhalb auch, wenn mir in den nächsten 10 Tagen - von heute Abend an gerechnet - keine Correcturbogen zugeschickt würden, was sich, da das Bullettino ja doch erst zu Ende des Monats erscheint, wohl ohne Schwierigkeit erreichen lassen wird.
+6-1	Lieb	ADJD	lieb	_	O	O	
+6-2	wäre	VAFIN	sein	_	O	O	
+6-3	es	PPER	es	_	O	O	
+6-4	mir	PPER	ich	_	O	O	
+6-5	deßhalb	VVFIN	<unknown>	_	O	O	
+6-6	auch	ADV	auch	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	wenn	KOUS	wenn	_	O	O	
+6-9	mir	PPER	ich	_	O	O	
+6-10	in	APPR	in	_	O	O	
+6-11	den	ART	die	_	O	O	
+6-12	nächsten	ADJA	nah	_	O	O	
+6-13	10	CARD	10	_	O	O	
+6-14	Tagen	NN	Tag	_	O	O	
+6-15	-	$(	-	_	O	O	
+6-16	von	APPR	von	_	O	O	
+6-17	heute	ADV	heute	_	O	O	
+6-18	Abend	NN	Abend	_	O	O	
+6-19	an	APZR	an	_	O	O	
+6-20	gerechnet	VVPP	rechnen	_	O	O	
+6-21	-	$(	-	_	O	O	
+6-22	keine	PIAT	keine	_	O	O	
+6-23	Correcturbogen	NN	<unknown>	_	O	O	
+6-24	zugeschickt	VVPP	zuschicken	_	O	O	
+6-25	würden	VAFIN	werden	_	O	O	
+6-26	,	$,	,	_	O	O	
+6-27	was	PRELS	was	_	O	O	
+6-28	sich	PRF	sich	_	O	O	
+6-29	,	$,	,	_	O	O	
+6-30	da	KOUS	da	_	O	O	
+6-31	das	ART	die	_	O	O	
+6-32	Bullettino	NN	<unknown>	_	O	O	
+6-33	ja	ADV	ja	_	O	O	
+6-34	doch	ADV	doch	_	O	O	
+6-35	erst	ADV	erst	_	O	O	
+6-36	zu	APPR	zu	_	O	O	
+6-37	Ende	NN	Ende	_	O	O	
+6-38	des	ART	die	_	O	O	
+6-39	Monats	NN	Monat	_	O	O	
+6-40	erscheint	VVFIN	erscheinen	_	O	O	
+6-41	,	$,	,	_	O	O	
+6-42	wohl	ADV	wohl	_	O	O	
+6-43	ohne	APPR	ohne	_	O	O	
+6-44	Schwierigkeit	NN	Schwierigkeit	_	O	O	
+6-45	erreichen	VVINF	erreichen	_	O	O	
+6-46	lassen	VVINF	lassen	_	O	O	
+6-47	wird	VAFIN	werden	_	O	O	
+6-48	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich werde sehr froh sein, wenn ich die langweilige Zeit überstanden habe.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	werde	VAFIN	werden	_	O	O	
+7-3	sehr	ADV	sehr	_	O	O	
+7-4	froh	ADJD	froh	_	O	O	
+7-5	sein	VAINF	sein	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	wenn	KOUS	wenn	_	O	O	
+7-8	ich	PPER	ich	_	O	O	
+7-9	die	ART	die	_	O	O	
+7-10	langweilige	ADJA	langweilig	_	O	O	
+7-11	Zeit	NN	Zeit	_	O	O	
+7-12	überstanden	VVPP	überstehen	_	O	O	
+7-13	habe	VAFIN	haben	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Herzliche Grüße von meiner Frau und Lili an Sie und Fräulein Rosine !
+8-1	Herzliche	ADJA	herzlich	_	O	O	
+8-2	Grüße	NN	Gruß	_	O	O	
+8-3	von	APPR	von	_	O	O	
+8-4	meiner	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-5	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-6	und	KON	und	_	O	O	
+8-7	Lili	NE	Lili	_	O	O	
+8-8	an	APPR	an	_	O	O	
+8-9	Sie	PPER	Sie	_	O	O	
+8-10	und	KON	und	_	O	O	
+8-11	Fräulein	NN	Fräulein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-12	Rosine	NN	Rosine	_	O	O	
+8-13	!	$.	!	_	O	O	
+
+#id=9
+#text=Ihr ergebener Helbig
+9-1	Ihr	PPOSAT	ihr	_	O	O	
+9-2	ergebener	ADJA	ergeben	_	O	O	
+9-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

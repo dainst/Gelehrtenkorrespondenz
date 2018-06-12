@@ -1,0 +1,248 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=) 262 20/XI/51 2 Benzen an Gerhard ist ein Zumptisches C.I. der Zukunft weit schlimmer, als gar keines, da es ein gutes, auf vernünftigen Principien basirtes geradezu unmöglich macht.
+1-1	)	$(	)	_	O	O	
+1-2	262	CARD	@card@	_	O	O	
+1-3	20/XI/51	CARD	<unknown>	_	O	O	
+1-4	2	CARD	2	_	O	O	
+1-5	Benzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	ist	VAFIN	sein	_	O	O	
+1-9	ein	ART	eine	_	O	O	
+1-10	Zumptisches	NN	<unknown>	_	O	O	
+1-11	C.I.	NE	C.I.	_	O	O	
+1-12	der	ART	die	_	O	O	
+1-13	Zukunft	NN	Zukunft	_	O	O	
+1-14	weit	ADJD	weit	_	O	O	
+1-15	schlimmer	ADJD	schlimm	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	als	KOUS	als	_	O	O	
+1-18	gar	ADV	gar	_	O	O	
+1-19	keines	PIS	keine	_	O	O	
+1-20	,	$,	,	_	O	O	
+1-21	da	KOUS	da	_	O	O	
+1-22	es	PPER	es	_	O	O	
+1-23	ein	ART	eine	_	O	O	
+1-24	gutes	ADJA	gut	_	O	O	
+1-25	,	$,	,	_	O	O	
+1-26	auf	APPR	auf	_	O	O	
+1-27	vernünftigen	ADJA	vernünftig	_	O	O	
+1-28	Principien	NN	<unknown>	_	O	O	
+1-29	basirtes	NN	<unknown>	_	O	O	
+1-30	geradezu	ADV	geradezu	_	O	O	
+1-31	unmöglich	ADJD	unmöglich	_	O	O	
+1-32	macht	VVFIN	machen	_	O	O	
+1-33	.	$.	.	_	O	O	
+
+#id=2
+#text=Indeß non ne parliamo p!u!
+2-1	Indeß	NN	<unknown>	_	O	O	
+2-2	non	NE	non	_	O	O	
+2-3	ne	ART	eine	_	O	O	
+2-4	parliamo	NE	<unknown>	_	O	O	
+2-5	p	NE	p	_	O	O	
+2-6	!	$.	!	_	O	O	
+2-7	u	VVFIN	<unknown>	_	O	O	
+2-8	!	$.	!	_	O	O	
+
+#id=3
+#text=Es ist eine Erbärmlichkeit mehr in der Welt.
+3-1	Es	PPER	es	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	eine	ART	eine	_	O	O	
+3-4	Erbärmlichkeit	NN	Erbärmlichkeit	_	O	O	
+3-5	mehr	ADV	mehr	_	O	O	
+3-6	in	APPR	in	_	O	O	
+3-7	der	ART	die	_	O	O	
+3-8	Welt	NN	Welt	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Sagen Sie gefälligst Curtius, Prof.
+4-1	Sagen	VVFIN	sagen	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	gefälligst	ADJD	gefälligst	_	O	O	
+4-4	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	,	$,	,	_	O	O	
+4-6	Prof.	NN	Prof.	_	O	O	
+
+#id=5
+#text=Bachofen aus Basel, so eben aus Griechenland zurückgekehrt, um hier den Winter zuzubringen, habe für ds.
+5-1	Bachofen	NN	Bachofen	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	aus	APPR	aus	_	O	O	
+5-3	Basel	NE	Basel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-4	,	$,	,	_	O	O	
+5-5	so	ADV	so	_	O	O	
+5-6	eben	ADV	eben	_	O	O	
+5-7	aus	APPR	aus	_	O	O	
+5-8	Griechenland	NE	Griechenland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-9	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	um	KOUI	um	_	O	O	
+5-12	hier	ADV	hier	_	O	O	
+5-13	den	ART	die	_	O	O	
+5-14	Winter	NN	Winter	_	O	O	
+5-15	zuzubringen	VVIZU	zubringen	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	habe	VAFIN	haben	_	O	O	
+5-18	für	APPR	für	_	O	O	
+5-19	ds.	ADJA	<unknown>	_	O	O	
+
+#id=6
+#text=Bull.
+6-1	Bull	NE	Bull	_	O	O	
+6-2	.	$.	.	_	O	O	
+
+#id=7
+#text=ds.
+7-1	ds.	ADJD	<unknown>	_	O	O	
+
+#id=8
+#text=Referat über seinen Peloponnes übernommen.
+8-1	Referat	NN	Referat	_	O	O	
+8-2	über	APPR	über	_	O	O	
+8-3	seinen	PPOSAT	sein	_	O	O	
+8-4	Peloponnes	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-5	übernommen	VVPP	übernehmen	_	O	O	
+8-6	.	$.	.	_	O	O	
+
+#id=9
+#text=Ein mit frischen Eindrücken ausgerüsteter eignet sich dazu doch besser, als Unsereiner.
+9-1	Ein	ART	eine	_	O	O	
+9-2	mit	APPR	mit	_	O	O	
+9-3	frischen	ADJA	frisch	_	O	O	
+9-4	Eindrücken	NN	Eindruck	_	O	O	
+9-5	ausgerüsteter	ADJD	ausgerüsteter	_	O	O	
+9-6	eignet	VVFIN	eignen	_	O	O	
+9-7	sich	PRF	sich	_	O	O	
+9-8	dazu	PAV	dazu	_	O	O	
+9-9	doch	ADV	doch	_	O	O	
+9-10	besser	ADJD	gut	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	als	KOKOM	als	_	O	O	
+9-13	Unsereiner	NN	<unknown>	_	O	O	
+9-14	.	$.	.	_	O	O	
+
+#id=10
+#text=Wir bedauern von Herzen die Krankheit Ihrer Fr.
+10-1	Wir	PPER	wir	_	O	O	
+10-2	bedauern	VVFIN	bedauern	_	O	O	
+10-3	von	APPR	von	_	O	O	
+10-4	Herzen	NN	Herz	_	O	O	
+10-5	die	ART	die	_	O	O	
+10-6	Krankheit	NN	Krankheit	_	O	O	
+10-7	Ihrer	PPOSAT	ihr	_	O	O	
+10-8	Fr.	NN	Freitag	_	O	O	
+
+#id=11
+#text=Mutter u. das erneuerte Unwohlsein Ihrer Frau.
+11-1	Mutter	NN	Mutter	_	O	O	
+11-2	u.	APPR	um	_	O	O	
+11-3	das	ART	die	_	O	O	
+11-4	erneuerte	ADJA	erneuert	_	O	O	
+11-5	Unwohlsein	NN	Unwohlsein	_	O	O	
+11-6	Ihrer	PPOSAT	ihr	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-7	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-8	.	$.	.	_	O	O	
+
+#id=12
+#text=Möchte Ihnen ein günstigerer Winter zu Theil werden, als uns zu drohen scheint.
+12-1	Möchte	VMFIN	mögen	_	O	O	
+12-2	Ihnen	PPER	Sie	_	O	O	
+12-3	ein	ART	eine	_	O	O	
+12-4	günstigerer	ADJA	günstig	_	O	O	
+12-5	Winter	NN	Winter	_	O	O	
+12-6	zu	APPR	zu	_	O	O	
+12-7	Theil	NN	<unknown>	_	O	O	
+12-8	werden	VAINF	werden	_	O	O	
+12-9	,	$,	,	_	O	O	
+12-10	als	KOKOM	als	_	O	O	
+12-11	uns	PPER	wir	_	O	O	
+12-12	zu	PTKZU	zu	_	O	O	
+12-13	drohen	VVINF	drohen	_	O	O	
+12-14	scheint	VVFIN	scheinen	_	O	O	
+12-15	.	$.	.	_	O	O	
+
+#id=13
+#text=Wir haben seit fast 4 Wochen unaufhörlichen Regen, u. gestern und heute schon zum zweiten Male Schnee auf u. noch unter Campo d'Annibale.
+13-1	Wir	PPER	wir	_	O	O	
+13-2	haben	VAFIN	haben	_	O	O	
+13-3	seit	APPR	seit	_	O	O	
+13-4	fast	ADV	fast	_	O	O	
+13-5	4	CARD	4	_	O	O	
+13-6	Wochen	NN	Woche	_	O	O	
+13-7	unaufhörlichen	ADJA	unaufhörlich	_	O	O	
+13-8	Regen	NN	Regen	_	O	O	
+13-9	,	$,	,	_	O	O	
+13-10	u.	KON	und	_	O	O	
+13-11	gestern	ADV	gestern	_	O	O	
+13-12	und	KON	und	_	O	O	
+13-13	heute	ADV	heute	_	O	O	
+13-14	schon	ADV	schon	_	O	O	
+13-15	zum	APPRART	zu	_	O	O	
+13-16	zweiten	ADJA	zweit	_	O	O	
+13-17	Male	NN	Mal	_	O	O	
+13-18	Schnee	NN	Schnee	_	O	O	
+13-19	auf	APPR	auf	_	O	O	
+13-20	u.	APPR	um	_	O	O	
+13-21	noch	ADV	noch	_	O	O	
+13-22	unter	APPR	unter	_	O	O	
+13-23	Campo	NN	<unknown>	_	O	O	
+13-24	d'Annibale	NE	<unknown>	_	O	O	
+13-25	.	$.	.	_	O	O	
+
+#id=14
+#text=Leben Sie indeß wohl.
+14-1	Leben	VVFIN	leben	_	O	O	
+14-2	Sie	PPER	Sie	_	O	O	
+14-3	indeß	NN	<unknown>	_	O	O	
+14-4	wohl	ADV	wohl	_	O	O	
+14-5	.	$.	.	_	O	O	
+
+#id=15
+#text=Meine Frau grüßt mit mir herzlich Sie und die Ihrige.
+15-1	Meine	PPOSAT	mein	_	O	O	
+15-2	Frau	NN	Frau	_	O	O	
+15-3	grüßt	VVFIN	grüßen	_	O	O	
+15-4	mit	APPR	mit	_	O	O	
+15-5	mir	PPER	ich	_	O	O	
+15-6	herzlich	ADJD	herzlich	_	O	O	
+15-7	Sie	PPER	Sie	_	O	O	
+15-8	und	KON	und	_	O	O	
+15-9	die	PRELS	die	_	O	O	
+15-10	Ihrige	PPOSAT	ihrige	_	O	O	
+15-11	.	$.	.	_	O	O	
+
+#id=16
+#text=Ihr w. Henzen.
+16-1	Ihr	PPOSAT	ihr	_	O	O	
+16-2	w.	APPR	w.	_	O	O	
+16-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-4	.	$.	.	_	O	O	
+
+#id=17
+#text=Rom 20/XI/51 P.S. In der Inschrift kommt viel auf die Naxen an, die ich Ihnen bes.
+17-1	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+17-2	20/XI/51	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+17-3	P.S.	NE	P.S.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+17-4	In	APPR	in	_	O	O	
+17-5	der	ART	die	_	O	O	
+17-6	Inschrift	NN	Inschrift	_	O	O	
+17-7	kommt	VVFIN	kommen	_	O	O	
+17-8	viel	ADV	viel	_	O	O	
+17-9	auf	APPR	auf	_	O	O	
+17-10	die	ART	die	_	O	O	
+17-11	Naxen	NN	<unknown>	_	O	O	
+17-12	an	PTKVZ	an	_	O	O	
+17-13	,	$,	,	_	O	O	
+17-14	die	PRELS	die	_	O	O	
+17-15	ich	PPER	ich	_	O	O	
+17-16	Ihnen	PPER	Sie	_	O	O	
+17-17	bes.	ADJA	<unknown>	_	O	O	
+
+#id=18
+#text=empfohlen.
+18-1	empfohlen	VVPP	empfehlen	_	O	O	
+18-2	.	$.	.	_	O	O	
+

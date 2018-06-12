@@ -1,0 +1,208 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=436 A. d. Dir.
+1-1	436	CARD	@card@	_	O	O	
+1-2	A.	APPR	an	_	O	O	
+1-3	d.	ART	d.	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Gerhard an Braun Berlin, 8. November 1844 g. 21/XI 44 r. 26/XI 44 Dr. Braun Berlin 8 Nov 44 Mein theurer Freund.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	g.	ADJA	<unknown>	_	O	O	
+2-11	21/XI	NN	<unknown>	_	O	O	
+2-12	44	CARD	44	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-13	r.	ADJA	<unknown>	_	O	O	
+2-14	26/XI	NN	<unknown>	_	O	O	
+2-15	44	CARD	44	_	O	O	
+2-16	Dr.	NN	Dr.	_	O	O	
+2-17	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-18	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-19	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-20	Nov	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-21	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-22	Mein	PPOSAT	mein	_	O	O	
+2-23	theurer	ADJA	<unknown>	_	O	O	
+2-24	Freund	NN	Freund	_	O	O	
+2-25	.	$.	.	_	O	O	
+
+#id=3
+#text=Hoffentlich sind Sie unseren innigen Wünschen gemäß glücklich wieder in Rom.
+3-1	Hoffentlich	ADV	hoffentlich	_	O	O	
+3-2	sind	VAFIN	sein	_	O	O	
+3-3	Sie	PPER	Sie	_	O	O	
+3-4	unseren	PPOSAT	unser	_	O	O	
+3-5	innigen	ADJA	innig	_	O	O	
+3-6	Wünschen	NN	Wunsch	_	O	O	
+3-7	gemäß	APPO	gemäß	_	O	O	
+3-8	glücklich	ADJD	glücklich	_	O	O	
+3-9	wieder	ADV	wieder	_	O	O	
+3-10	in	APPR	in	_	O	O	
+3-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Der inliegende, ungelesen erleichterte, Brief von Leipzig kam erst 2 Tage nach Ihrer Abreise hier an.
+4-1	Der	ART	die	_	O	O	
+4-2	inliegende	ADJA	<unknown>	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	ungelesen	ADJA	<unknown>	_	O	O	
+4-5	erleichterte	VVFIN	erleichtern	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	Brief	NN	Brief	_	O	O	
+4-8	von	APPR	von	_	O	O	
+4-9	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-10	kam	VVFIN	kommen	_	O	O	
+4-11	erst	ADV	erst	_	O	O	
+4-12	2	CARD	2	_	O	O	
+4-13	Tage	NN	Tag	_	O	O	
+4-14	nach	APPR	nach	_	O	O	
+4-15	Ihrer	PPOSAT	ihr	_	O	O	
+4-16	Abreise	NN	Abreise	_	O	O	
+4-17	hier	ADV	hier	_	O	O	
+4-18	an	PTKVZ	an	_	O	O	
+4-19	.	$.	.	_	O	O	
+
+#id=5
+#text=Mir geht es seit Sie fort sind wieder schlechter; zu meinen variirenden bekannten Leiden hat sich auch Lichtscheu gesellt.
+5-1	Mir	PPER	ich	_	O	O	
+5-2	geht	VVFIN	gehen	_	O	O	
+5-3	es	PPER	es	_	O	O	
+5-4	seit	APPR	seit	_	O	O	
+5-5	Sie	PPER	Sie	_	O	O	
+5-6	fort	PTKVZ	fort	_	O	O	
+5-7	sind	VAFIN	sein	_	O	O	
+5-8	wieder	ADV	wieder	_	O	O	
+5-9	schlechter	ADJD	schlecht	_	O	O	
+5-10	;	$.	;	_	O	O	
+5-11	zu	APPR	zu	_	O	O	
+5-12	meinen	PPOSAT	mein	_	O	O	
+5-13	variirenden	ADJA	<unknown>	_	O	O	
+5-14	bekannten	ADJA	bekannt	_	O	O	
+5-15	Leiden	NN	Leiden	_	O	O	
+5-16	hat	VAFIN	haben	_	O	O	
+5-17	sich	PRF	sich	_	O	O	
+5-18	auch	ADV	auch	_	O	O	
+5-19	Lichtscheu	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-20	gesellt	VVPP	gesellen	_	O	O	
+5-21	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihr gerathenes Argentum nahm ich 2 Morgen hintereinander; meine Frau meint Sie hätten es mir nur alle 8 Tage bestimmt.
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	gerathenes	ADJA	<unknown>	_	O	O	
+6-3	Argentum	NN	<unknown>	_	O	O	
+6-4	nahm	VVFIN	nehmen	_	O	O	
+6-5	ich	PPER	ich	_	O	O	
+6-6	2	CARD	2	_	O	O	
+6-7	Morgen	NN	Morgen	_	O	O	
+6-8	hintereinander	PTKVZ	hintereinander	_	O	O	
+6-9	;	$.	;	_	O	O	
+6-10	meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-11	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-12	meint	VVFIN	meinen	_	O	O	
+6-13	Sie	PPER	Sie	_	O	O	
+6-14	hätten	VAFIN	haben	_	O	O	
+6-15	es	PPER	es	_	O	O	
+6-16	mir	PRF	ich	_	O	O	
+6-17	nur	ADV	nur	_	O	O	
+6-18	alle	PIAT	alle	_	O	O	
+6-19	8	CARD	8	_	O	O	
+6-20	Tage	NN	Tag	_	O	O	
+6-21	bestimmt	VVPP	bestimmen	_	O	O	
+6-22	.	$.	.	_	O	O	
+
+#id=7
+#text=Ist die Auflösung in T~fen nöthig ?
+7-1	Ist	VAFIN	sein	_	O	O	
+7-2	die	ART	die	_	O	O	
+7-3	Auflösung	NN	Auflösung	_	O	O	
+7-4	in	APPR	in	_	O	O	
+7-5	T~fen	NN	<unknown>	_	O	O	
+7-6	nöthig	ADJD	<unknown>	_	O	O	
+7-7	?	$.	?	_	O	O	
+
+#id=8
+#text=Vorgestern erhielt ich von Fürst Metternich unterschrieben mit einem auf "den Gesandten Herrn Bunsen" bezüglichen BegleitungEschreiben unsere Glückwünschungsadresse zurück und sandte sie gestern Sr. Majestät ein.
+8-1	Vorgestern	ADV	vorgestern	_	O	O	
+8-2	erhielt	VVFIN	erhalten	_	O	O	
+8-3	ich	PPER	ich	_	O	O	
+8-4	von	APPR	von	_	O	O	
+8-5	Fürst	NN	Fürst	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	Metternich	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-7	unterschrieben	VVPP	unterschreiben	_	O	O	
+8-8	mit	APPR	mit	_	O	O	
+8-9	einem	ART	eine	_	O	O	
+8-10	auf	APPR	auf	_	O	O	
+8-11	"	$(	"	_	O	O	
+8-12	den	ART	die	_	O	O	
+8-13	Gesandten	NN	<unknown>	_	O	O	
+8-14	Herrn	NN	Herr	_	O	O	
+8-15	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-16	"	$(	"	_	O	O	
+8-17	bezüglichen	ADJA	bezüglich	_	O	O	
+8-18	BegleitungEschreiben	NN	<unknown>	_	O	O	
+8-19	unsere	PPOSAT	unser	_	O	O	
+8-20	Glückwünschungsadresse	NN	<unknown>	_	O	O	
+8-21	zurück	PTKVZ	zurück	_	O	O	
+8-22	und	KON	und	_	O	O	
+8-23	sandte	VVFIN	senden	_	O	O	
+8-24	sie	PPER	sie	_	O	O	
+8-25	gestern	ADV	gestern	_	O	O	
+8-26	Sr.	NE	<unknown>	_	O	O	
+8-27	Majestät	NN	Majestät	_	O	O	
+8-28	ein	PTKVZ	ein	_	O	O	
+8-29	.	$.	.	_	O	O	
+
+#id=9
+#text=Olfers bedauert mit viel guter Gesinnung für Sie nachhaltig daß Sie dem König nicht vorgestellt sein wollten; daß es bei Sonnabend sein Bewenden gehabt haben würde, habe er Ihnen garantirt.
+9-1	Olfers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	bedauert	VVFIN	bedauern	_	O	O	
+9-3	mit	APPR	mit	_	O	O	
+9-4	viel	PIAT	viele	_	O	O	
+9-5	guter	ADJA	gut	_	O	O	
+9-6	Gesinnung	NN	Gesinnung	_	O	O	
+9-7	für	APPR	für	_	O	O	
+9-8	Sie	PPER	Sie	_	O	O	
+9-9	nachhaltig	ADJD	nachhaltig	_	O	O	
+9-10	daß	KOUS	dass	_	O	O	
+9-11	Sie	PPER	Sie	_	O	O	
+9-12	dem	ART	die	_	O	O	
+9-13	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-14	nicht	PTKNEG	nicht	_	O	O	
+9-15	vorgestellt	VVPP	vorstellen	_	O	O	
+9-16	sein	VAINF	sein	_	O	O	
+9-17	wollten	VMFIN	wollen	_	O	O	
+9-18	;	$.	;	_	O	O	
+9-19	daß	KOUS	dass	_	O	O	
+9-20	es	PPER	es	_	O	O	
+9-21	bei	APPR	bei	_	O	O	
+9-22	Sonnabend	NN	Sonnabend	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-23	sein	PPOSAT	sein	_	O	O	
+9-24	Bewenden	NN	Bewenden	_	O	O	
+9-25	gehabt	VAPP	haben	_	O	O	
+9-26	haben	VAINF	haben	_	O	O	
+9-27	würde	VAFIN	werden	_	O	O	
+9-28	,	$,	,	_	O	O	
+9-29	habe	VAFIN	haben	_	O	O	
+9-30	er	PPER	er	_	O	O	
+9-31	Ihnen	PPER	Sie	_	O	O	
+9-32	garantirt	NN	<unknown>	_	O	O	
+9-33	.	$.	.	_	O	O	
+
+#id=10
+#text=Sonstige Bescheinigungen waren dem Metternich-
+10-1	Sonstige	ADJA	sonstig	_	O	O	
+10-2	Bescheinigungen	NN	Bescheinigung	_	O	O	
+10-3	waren	VAFIN	sein	_	O	O	
+10-4	dem	ART	die	_	O	O	
+10-5	Metternich-	TRUNC	<unknown>	_	O	O	
+

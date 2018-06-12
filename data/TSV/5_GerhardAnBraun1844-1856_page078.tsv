@@ -1,0 +1,121 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=426 2 Gerhard an Braun Berlin, 7. Oktober 1844 verlegen bin; nicht zum Hauptgegenstand und nicht einmal zur Abbildung, die jedoch gerade in den etruskischen Spiegeln an der Reihe ist.
+1-1	426	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	verlegen	VVINF	verlegen	_	O	O	
+1-13	bin	VAFIN	sein	_	O	O	
+1-14	;	$.	;	_	O	O	
+1-15	nicht	PTKNEG	nicht	_	O	O	
+1-16	zum	APPRART	zu	_	O	O	
+1-17	Hauptgegenstand	NN	Hauptgegenstand	_	O	O	
+1-18	und	KON	und	_	O	O	
+1-19	nicht	PTKNEG	nicht	_	O	O	
+1-20	einmal	ADV	einmal	_	O	O	
+1-21	zur	APPRART	zu	_	O	O	
+1-22	Abbildung	NN	Abbildung	_	O	O	
+1-23	,	$,	,	_	O	O	
+1-24	die	PRELS	die	_	O	O	
+1-25	jedoch	ADV	jedoch	_	O	O	
+1-26	gerade	ADV	gerade	_	O	O	
+1-27	in	APPR	in	_	O	O	
+1-28	den	ART	die	_	O	O	
+1-29	etruskischen	ADJA	<unknown>	_	O	O	
+1-30	Spiegeln	NN	Spiegel|Spiegeln	_	O	O	
+1-31	an	APPR	an	_	O	O	
+1-32	der	ART	die	_	O	O	
+1-33	Reihe	NN	Reihe	_	O	O	
+1-34	ist	VAFIN	sein	_	O	O	
+1-35	.	$.	.	_	O	O	
+
+#id=3
+#text=Ob Rolandi für mich abrechnete schreiben Sie nicht.
+3-1	Ob	KOUS	ob	_	O	O	
+3-2	Rolandi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	für	APPR	für	_	O	O	
+3-4	mich	PRF	ich	_	O	O	
+3-5	abrechnete	VVFIN	abrechnen	_	O	O	
+3-6	schreiben	VVFIN	schreiben	_	O	O	
+3-7	Sie	PPER	Sie	_	O	O	
+3-8	nicht	PTKNEG	nicht	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Das französische Denkmälerheft, dessen Inhalt ich jetzt erst lese, enthält in 2 großen Tafeln Denkmäler die in bereits vertheilten Heften meines Vasenwerks stehen.
+4-1	Das	ART	die	_	O	O	
+4-2	französische	ADJA	französisch	_	O	O	
+4-3	Denkmälerheft	NN	<unknown>	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	dessen	PRELAT	die	_	O	O	
+4-6	Inhalt	NN	Inhalt	_	O	O	
+4-7	ich	PPER	ich	_	O	O	
+4-8	jetzt	ADV	jetzt	_	O	O	
+4-9	erst	ADV	erst	_	O	O	
+4-10	lese	VVFIN	lesen	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	enthält	VVFIN	enthalten	_	O	O	
+4-13	in	APPR	in	_	O	O	
+4-14	2	CARD	2	_	O	O	
+4-15	großen	ADJA	groß	_	O	O	
+4-16	Tafeln	NN	Tafel	_	O	O	
+4-17	Denkmäler	NN	Denkmal	_	O	O	
+4-18	die	ART	die	_	O	O	
+4-19	in	APPR	in	_	O	O	
+4-20	bereits	ADV	bereits	_	O	O	
+4-21	vertheilten	ADJA	<unknown>	_	O	O	
+4-22	Heften	NN	Heft	_	O	O	
+4-23	meines	PPOSAT	mein	_	O	O	
+4-24	Vasenwerks	NN	<unknown>	_	O	O	
+4-25	stehen	VVINF	stehen	_	O	O	
+4-26	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihrer Frau beste Grüße, auch Rathgebern der mir seine neugedruckten etwanigen Abhandlungen mitsenden möge.
+5-1	Ihrer	PPOSAT	ihr	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-3	beste	ADJA	gut	_	O	O	
+5-4	Grüße	NN	Gruß	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	auch	ADV	auch	_	O	O	
+5-7	Rathgebern	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-8	der	ART	die	_	O	O	
+5-9	mir	PRF	ich	_	O	O	
+5-10	seine	PPOSAT	sein	_	O	O	
+5-11	neugedruckten	ADJA	neugedruckt	_	O	O	
+5-12	etwanigen	ADJA	<unknown>	_	O	O	
+5-13	Abhandlungen	NN	Abhandlung	_	O	O	
+5-14	mitsenden	NN	<unknown>	_	O	O	
+5-15	möge	VMFIN	mögen	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Notti Napoletane sah ich noch nicht.
+6-1	Die	ART	die	_	O	O	
+6-2	Notti	NE	<unknown>	_	O	O	
+6-3	Napoletane	NE	<unknown>	_	O	O	
+6-4	sah	VVFIN	sehen	_	O	O	
+6-5	ich	PPER	ich	_	O	O	
+6-6	noch	ADV	noch	_	O	O	
+6-7	nicht	PTKNEG	nicht	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=Auf baldiges Wiedersehen von ganzen Herzen Ihr Gerhard
+7-1	Auf	APPR	auf	_	O	O	
+7-2	baldiges	ADJA	baldig	_	O	O	
+7-3	Wiedersehen	NN	Wiedersehen	_	O	O	
+7-4	von	APPR	von	_	O	O	
+7-5	ganzen	ADJA	ganz	_	O	O	
+7-6	Herzen	NN	Herz	_	O	O	
+7-7	Ihr	PPOSAT	ihr	_	O	O	
+7-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

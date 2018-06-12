@@ -1,0 +1,255 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=159 Gerhard an Braun Berlin, 13. März 1844 A. d. Dir.
+1-1	159	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	A.	APPR	an	_	O	O	
+1-12	d.	ART	d.	_	O	O	
+1-13	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=g. 6/IV 44 r. 6/IV 44 Berlin d 13 ten März 44 Es wird allerdings wohl das zweckmäßigste sein, lieber Freund, die Denkmälerhefte des Instituts in gewohntem Format fortzusetzen, dergestalt daß es zugleich gebrochen versandt werden könne; führen Sie das durch so haben Sie einen guten Ausweg gefunden uns mit den Franzosen zu vertragen.
+2-1	g.	ADJD	<unknown>	_	O	O	
+2-2	6/IV	VVFIN	<unknown>	_	O	O	
+2-3	44	CARD	44	_	O	O	
+2-4	r.	ADJA	<unknown>	_	O	O	
+2-5	6/IV	CARD	<unknown>	_	O	O	
+2-6	44	CARD	44	_	O	O	
+2-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-8	d	VVFIN	<unknown>	_	O	O	
+2-9	13	CARD	13	_	O	O	
+2-10	ten	NE	ten	_	O	O	
+2-11	März	NN	März	_	O	O	
+2-12	44	CARD	44	_	O	O	
+2-13	Es	NN	Es	_	O	O	
+2-14	wird	VAFIN	werden	_	O	O	
+2-15	allerdings	ADV	allerdings	_	O	O	
+2-16	wohl	ADV	wohl	_	O	O	
+2-17	das	ART	die	_	O	O	
+2-18	zweckmäßigste	ADJA	zweckmäßig	_	O	O	
+2-19	sein	VAINF	sein	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	lieber	ADJD	lieb	_	O	O	
+2-22	Freund	NE	Freund	_	O	O	
+2-23	,	$,	,	_	O	O	
+2-24	die	ART	die	_	O	O	
+2-25	Denkmälerhefte	NN	<unknown>	_	O	O	
+2-26	des	ART	die	_	O	O	
+2-27	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-28	in	APPR	in	_	O	O	
+2-29	gewohntem	ADJA	gewohnt	_	O	O	
+2-30	Format	NN	Format	_	O	O	
+2-31	fortzusetzen	VVIZU	fortsetzen	_	O	O	
+2-32	,	$,	,	_	O	O	
+2-33	dergestalt	ADV	dergestalt	_	O	O	
+2-34	daß	KOUS	dass	_	O	O	
+2-35	es	PPER	es	_	O	O	
+2-36	zugleich	ADV	zugleich	_	O	O	
+2-37	gebrochen	VVPP	brechen	_	O	O	
+2-38	versandt	VVPP	versenden	_	O	O	
+2-39	werden	VAINF	werden	_	O	O	
+2-40	könne	VMFIN	können	_	O	O	
+2-41	;	$.	;	_	O	O	
+2-42	führen	VVFIN	fahren|führen	_	O	O	
+2-43	Sie	PPER	Sie	_	O	O	
+2-44	das	PDS	die	_	O	O	
+2-45	durch	APPR	durch	_	O	O	
+2-46	so	ADV	so	_	O	O	
+2-47	haben	VAFIN	haben	_	O	O	
+2-48	Sie	PPER	Sie	_	O	O	
+2-49	einen	ART	eine	_	O	O	
+2-50	guten	ADJA	gut	_	O	O	
+2-51	Ausweg	NN	Ausweg	_	O	O	
+2-52	gefunden	VVPP	finden	_	O	O	
+2-53	uns	PPER	wir	_	O	O	
+2-54	mit	APPR	mit	_	O	O	
+2-55	den	ART	die	_	O	O	
+2-56	Franzosen	NN	Franzose	_	O	O	
+2-57	zu	PTKZU	zu	_	O	O	
+2-58	vertragen	VVINF	vertragen	_	O	O	
+2-59	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Änderung aber des Textes Quart hätte daneben erfolgen können; Ihr nächster Bullettino-Bogen muß darüber entscheiden.
+3-1	Die	ART	die	_	O	O	
+3-2	Änderung	NN	Änderung	_	O	O	
+3-3	aber	KON	aber	_	O	O	
+3-4	des	ART	die	_	O	O	
+3-5	Textes	NN	Text	_	O	O	
+3-6	Quart	NN	<unknown>	_	O	O	
+3-7	hätte	VAFIN	haben	_	O	O	
+3-8	daneben	PAV	daneben	_	O	O	
+3-9	erfolgen	VVINF	erfolgen	_	O	O	
+3-10	können	VMINF	können	_	O	O	
+3-11	;	$.	;	_	O	O	
+3-12	Ihr	PPOSAT	ihr	_	O	O	
+3-13	nächster	ADJA	nah	_	O	O	
+3-14	Bullettino-Bogen	NN	<unknown>	_	O	O	
+3-15	muß	VMFIN	müssen	_	O	O	
+3-16	darüber	PAV	darüber	_	O	O	
+3-17	entscheiden	VVINF	entscheiden	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Obwohl eben jetzt invalide denke ich an die Möglichkeit ein neues deutsches Notizenbüchlein durch einen knappen Bogen stark hier ausgehn zu lassen, namentlich wenn Bunsen es für seinen Antrag als wünschenswerthen Beleg erheischen sollte.
+4-1	Obwohl	KOUS	obwohl	_	O	O	
+4-2	eben	ADV	eben	_	O	O	
+4-3	jetzt	ADV	jetzt	_	O	O	
+4-4	invalide	ADJD	invalide	_	O	O	
+4-5	denke	VVFIN	denken	_	O	O	
+4-6	ich	PPER	ich	_	O	O	
+4-7	an	APPR	an	_	O	O	
+4-8	die	ART	die	_	O	O	
+4-9	Möglichkeit	NN	Möglichkeit	_	O	O	
+4-10	ein	ART	eine	_	O	O	
+4-11	neues	ADJA	neu	_	O	O	
+4-12	deutsches	ADJA	deutsch	_	O	O	
+4-13	Notizenbüchlein	NN	<unknown>	_	O	O	
+4-14	durch	APPR	durch	_	O	O	
+4-15	einen	ART	eine	_	O	O	
+4-16	knappen	ADJA	knapp	_	O	O	
+4-17	Bogen	NN	Bogen	_	O	O	
+4-18	stark	ADJD	stark	_	O	O	
+4-19	hier	ADV	hier	_	O	O	
+4-20	ausgehn	ADJD	<unknown>	_	O	O	
+4-21	zu	PTKZU	zu	_	O	O	
+4-22	lassen	VVINF	lassen	_	O	O	
+4-23	,	$,	,	_	O	O	
+4-24	namentlich	ADJD	namentlich	_	O	O	
+4-25	wenn	KOUS	wenn	_	O	O	
+4-26	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-27	es	PPER	es	_	O	O	
+4-28	für	APPR	für	_	O	O	
+4-29	seinen	PPOSAT	sein	_	O	O	
+4-30	Antrag	NN	Antrag	_	O	O	
+4-31	als	KOKOM	als	_	O	O	
+4-32	wünschenswerthen	NN	<unknown>	_	O	O	
+4-33	Beleg	NN	Beleg	_	O	O	
+4-34	erheischen	VVINF	erheischen	_	O	O	
+4-35	sollte	VMFIN	sollen	_	O	O	
+4-36	.	$.	.	_	O	O	
+
+#id=5
+#text=Zu diesem Behuf bedarf ich dann allerbaldigst Ihre Angabe des Inhalts der zum 111 Band Monumenti noch rückständigen Tafeln.
+5-1	Zu	APPR	zu	_	O	O	
+5-2	diesem	PDAT	dies	_	O	O	
+5-3	Behuf	NN	<unknown>	_	O	O	
+5-4	bedarf	VVFIN	bedürfen	_	O	O	
+5-5	ich	PPER	ich	_	O	O	
+5-6	dann	ADV	dann	_	O	O	
+5-7	allerbaldigst	ADJD	<unknown>	_	O	O	
+5-8	Ihre	PPOSAT	ihr	_	O	O	
+5-9	Angabe	NN	Angabe	_	O	O	
+5-10	des	ART	die	_	O	O	
+5-11	Inhalts	NN	Inhalt	_	O	O	
+5-12	der	ART	die	_	O	O	
+5-13	zum	APPRART	zu	_	O	O	
+5-14	111	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-15	Band	NN	Band	_	O	O	
+5-16	Monumenti	NN	<unknown>	_	O	O	
+5-17	noch	ADV	noch	_	O	O	
+5-18	rückständigen	ADJA	rückständig	_	O	O	
+5-19	Tafeln	NN	Tafel	_	O	O	
+5-20	.	$.	.	_	O	O	
+
+#id=6
+#text=Wie soll ich Ihnen die archäologische Zeitung senden?
+6-1	Wie	KOUS	wie	_	O	O	
+6-2	soll	VMFIN	sollen	_	O	O	
+6-3	ich	PPER	ich	_	O	O	
+6-4	Ihnen	PPER	Sie	_	O	O	
+6-5	die	ART	die	_	O	O	
+6-6	archäologische	ADJA	archäologisch	_	O	O	
+6-7	Zeitung	NN	Zeitung	_	O	O	
+6-8	senden	VVINF	senden	_	O	O	
+6-9	?	$.	?	_	O	O	
+
+#id=7
+#text=frage ich nochmals.
+7-1	frage	VVFIN	fragen	_	O	O	
+7-2	ich	PPER	ich	_	O	O	
+7-3	nochmals	ADV	nochmals	_	O	O	
+7-4	.	$.	.	_	O	O	
+
+#id=8
+#text=Das Epigramm welches neulich Stephani bei Ihnen gedruckt hat gab Roß in n° 7 der Zeitung.
+8-1	Das	ART	die	_	O	O	
+8-2	Epigramm	NN	Epigramm	_	O	O	
+8-3	welches	PIS	welche	_	O	O	
+8-4	neulich	ADV	neulich	_	O	O	
+8-5	Stephani	NE	Stephani	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	bei	APPR	bei	_	O	O	
+8-7	Ihnen	PPER	Sie	_	O	O	
+8-8	gedruckt	VVPP	drucken	_	O	O	
+8-9	hat	VAFIN	haben	_	O	O	
+8-10	gab	VVFIN	geben	_	O	O	
+8-11	Roß	NN	Ross	_	O	O	
+8-12	in	APPR	in	_	O	O	
+8-13	n°	ADJA	<unknown>	_	O	O	
+8-14	7	CARD	7	_	O	O	
+8-15	der	ART	die	_	O	O	
+8-16	Zeitung	NN	Zeitung	_	O	O	
+8-17	.	$.	.	_	O	O	
+
+#id=9
+#text=Nur an Pares gedacht zu haben ist Stephanits nicht glücklicher Einfall : ( /"; ~, '.~.
+9-1	Nur	ADV	nur	_	O	O	
+9-2	an	APPR	an	_	O	O	
+9-3	Pares	NN	<unknown>	_	O	O	
+9-4	gedacht	VVPP	denken|gedenken	_	O	O	
+9-5	zu	PTKZU	zu	_	O	O	
+9-6	haben	VAINF	haben	_	O	O	
+9-7	ist	VAFIN	sein	_	O	O	
+9-8	Stephanits	NE	<unknown>	_	O	O	
+9-9	nicht	PTKNEG	nicht	_	O	O	
+9-10	glücklicher	ADJA	glücklich	_	O	O	
+9-11	Einfall	NN	Einfall	_	O	O	
+9-12	:	$.	:	_	O	O	
+9-13	(	$(	(	_	O	O	
+9-14	/	$(	/	_	O	O	
+9-15	"	$(	"	_	O	O	
+9-16	;	$.	;	_	O	O	
+9-17	~	XY	~	_	O	O	
+9-18	,	$,	,	_	O	O	
+9-19	'	$(	'	_	O	O	
+9-20	.~	ADJD	<unknown>	_	O	O	
+9-21	.	$.	.	_	O	O	
+
+#id=10
+#text=({.
+10-1	(	$(	(	_	O	O	
+10-2	{	$(	{	_	O	O	
+10-3	.	$.	.	_	O	O	
+
+#id=11
+#text=, ( .Y\ vi '"' .,/ .,' !
+11-1	,	$,	,	_	O	O	
+11-2	(	$(	(	_	O	O	
+11-3	.Y\	NN	<unknown>	_	O	O	
+11-4	vi	NE	<unknown>	_	O	O	
+11-5	'	$(	'	_	O	O	
+11-6	"	$(	"	_	O	O	
+11-7	'	$(	'	_	O	O	
+11-8	.,/	NN	<unknown>	_	O	O	
+11-9	.	$.	.	_	O	O	
+11-10	,	$,	,	_	O	O	
+11-11	'	$(	'	_	O	O	
+11-12	!	$.	!	_	O	O	
+
+#id=12
+#text=: \.., .- (
+12-1	:	$.	:	_	O	O	
+12-2	\.	NN	<unknown>	_	O	O	
+12-3	.	$.	.	_	O	O	
+12-4	,	$,	,	_	O	O	
+12-5	.-	ADJD	<unknown>	_	O	O	
+12-6	(	$(	(	_	O	O	
+

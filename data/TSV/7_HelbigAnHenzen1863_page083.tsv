@@ -1,0 +1,247 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=H Lieber Herr Professor Helbig an Henzen Rom, 8. August 1866 g. 3/9 66 n. c. r. Roma li 8. Agosto 1866 Ich muß Ihnen gegenwärtig eine wichtige Mittheilung machen, die ich Ihnen vielleicht schon viel früher hätte machen sollen, liebte ich es nicht wie Bismark mit faits accomplis hervorzutreten.
+1-1	H	NN	H	_	O	O	
+1-2	Lieber	ADJA	lieb	_	O	O	
+1-3	Herr	NN	Herr	_	O	O	
+1-4	Professor	NN	Professor	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	3/9	CARD	3/9	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	66	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	n.	APPR	n.	_	O	O	
+1-18	c.	ADJA	<unknown>	_	O	O	
+1-19	r.	ADJA	<unknown>	_	O	O	
+1-20	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-21	li	VVFIN	<unknown>	_	O	O	
+1-22	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-23	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-24	Agosto	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-25	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-26	Ich	PPER	ich	_	O	O	
+1-27	muß	VMFIN	müssen	_	O	O	
+1-28	Ihnen	PPER	Sie	_	O	O	
+1-29	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+1-30	eine	ART	eine	_	O	O	
+1-31	wichtige	ADJA	wichtig	_	O	O	
+1-32	Mittheilung	NN	<unknown>	_	O	O	
+1-33	machen	VVINF	machen	_	O	O	
+1-34	,	$,	,	_	O	O	
+1-35	die	PRELS	die	_	O	O	
+1-36	ich	PPER	ich	_	O	O	
+1-37	Ihnen	PPER	Sie	_	O	O	
+1-38	vielleicht	ADV	vielleicht	_	O	O	
+1-39	schon	ADV	schon	_	O	O	
+1-40	viel	ADV	viel	_	O	O	
+1-41	früher	ADJD	früh	_	O	O	
+1-42	hätte	VAFIN	haben	_	O	O	
+1-43	machen	VVINF	machen	_	O	O	
+1-44	sollen	VMINF	sollen	_	O	O	
+1-45	,	$,	,	_	O	O	
+1-46	liebte	VVFIN	lieben	_	O	O	
+1-47	ich	PPER	ich	_	O	O	
+1-48	es	PPER	es	_	O	O	
+1-49	nicht	PTKNEG	nicht	_	O	O	
+1-50	wie	KOKOM	wie	_	O	O	
+1-51	Bismark	NN	<unknown>	_	O	O	
+1-52	mit	APPR	mit	_	O	O	
+1-53	faits	ADJA	<unknown>	_	O	O	
+1-54	accomplis	NN	<unknown>	_	O	O	
+1-55	hervorzutreten	VVIZU	hervortreten	_	O	O	
+1-56	.	$.	.	_	O	O	
+
+#id=2
+#text=Da Sie Hydropath sind, wird Ihnen ja die Überraschung nichts schaden.
+2-1	Da	KOUS	da	_	O	O	
+2-2	Sie	PPER	Sie	_	O	O	
+2-3	Hydropath	ADJD	<unknown>	_	O	O	
+2-4	sind	VAFIN	sein	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	wird	VAFIN	werden	_	O	O	
+2-7	Ihnen	PPER	Sie	_	O	O	
+2-8	ja	ADV	ja	_	O	O	
+2-9	die	ART	die	_	O	O	
+2-10	Überraschung	NN	Überraschung	_	O	O	
+2-11	nichts	PIS	nichts	_	O	O	
+2-12	schaden	VVINF	schaden	_	O	O	
+2-13	.	$.	.	_	O	O	
+
+#id=3
+#text=Wissen Sie denn, ich bin seit April mit Nadejda Schakhowkoy verlobt.
+3-1	Wissen	VVFIN	wissen	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	denn	ADV	denn	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	ich	PPER	ich	_	O	O	
+3-6	bin	VAFIN	sein	_	O	O	
+3-7	seit	APPR	seit	_	O	O	
+3-8	April	NN	April	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-9	mit	APPR	mit	_	O	O	
+3-10	Nadejda	NE	Nadejda	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-11	Schakhowkoy	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-12	verlobt	VVPP	verloben	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Unsere Hochzeit sollte nächsten Sommer in Deutschland Statt finden.
+4-1	Unsere	PPOSAT	unser	_	O	O	
+4-2	Hochzeit	NN	Hochzeit	_	O	O	
+4-3	sollte	VMFIN	sollen	_	O	O	
+4-4	nächsten	ADJA	nah	_	O	O	
+4-5	Sommer	NN	Sommer	_	O	O	
+4-6	in	APPR	in	_	O	O	
+4-7	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-8	Statt	NN	Statt	_	O	O	
+4-9	finden	VVINF	finden	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Doch haben sich die Verhältnisse geändert, indem der Vater meiner Braut als Gouverneur nach Tiflis muß.
+5-1	Doch	ADV	doch	_	O	O	
+5-2	haben	VAFIN	haben	_	O	O	
+5-3	sich	PRF	sich	_	O	O	
+5-4	die	ART	die	_	O	O	
+5-5	Verhältnisse	NN	Verhältnis	_	O	O	
+5-6	geändert	VVPP	ändern	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	indem	KOUS	indem	_	O	O	
+5-9	der	ART	die	_	O	O	
+5-10	Vater	NN	Vater	_	O	O	
+5-11	meiner	PPOSAT	mein	_	O	O	
+5-12	Braut	NN	Braut	_	O	O	
+5-13	als	KOKOM	als	_	O	O	
+5-14	Gouverneur	NN	Gouverneur	_	O	O	
+5-15	nach	APPR	nach	_	O	O	
+5-16	Tiflis	NE	Tiflis	_	O	O	
+5-17	muß	VMFIN	müssen	_	O	O	
+5-18	.	$.	.	_	O	O	
+
+#id=6
+#text=Er hat daher beschlossen, Alles vorher in Ordnung zu bringen und die Hochzeit bereits in diesem JahreStatt finden zu lassen.
+6-1	Er	PPER	er	_	O	O	
+6-2	hat	VAFIN	haben	_	O	O	
+6-3	daher	PAV	daher	_	O	O	
+6-4	beschlossen	VVPP	beschließen	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	Alles	PIS	alle	_	O	O	
+6-7	vorher	ADV	vorher	_	O	O	
+6-8	in	APPR	in	_	O	O	
+6-9	Ordnung	NN	Ordnung	_	O	O	
+6-10	zu	PTKZU	zu	_	O	O	
+6-11	bringen	VVINF	bringen	_	O	O	
+6-12	und	KON	und	_	O	O	
+6-13	die	ART	die	_	O	O	
+6-14	Hochzeit	NN	Hochzeit	_	O	O	
+6-15	bereits	ADV	bereits	_	O	O	
+6-16	in	APPR	in	_	O	O	
+6-17	diesem	PDAT	dies	_	O	O	
+6-18	JahreStatt	NN	<unknown>	_	O	O	
+6-19	finden	VVINF	finden	_	O	O	
+6-20	zu	PTKZU	zu	_	O	O	
+6-21	lassen	VVINF	lassen	_	O	O	
+6-22	.	$.	.	_	O	O	
+
+#id=7
+#text=Er will mit seiner Tochter Ende August oder Anfang September nach Florenz kommen, wo die einzige griechische Kirche in Italien ist, und dort sollen wir nach griechischem und protestantischem Ritus getraut werden.
+7-1	Er	PPER	er	_	O	O	
+7-2	will	VMFIN	wollen	_	O	O	
+7-3	mit	APPR	mit	_	O	O	
+7-4	seiner	PPOSAT	sein	_	O	O	
+7-5	Tochter	NN	Tochter	_	O	O	
+7-6	Ende	NN	Ende	_	O	O	
+7-7	August	NN	August	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-8	oder	KON	oder	_	O	O	
+7-9	Anfang	NN	Anfang	_	O	O	
+7-10	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-11	nach	APPR	nach	_	O	O	
+7-12	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-13	kommen	VVINF	kommen	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	wo	PWAV	wo	_	O	O	
+7-16	die	ART	die	_	O	O	
+7-17	einzige	ADJA	einzig	_	O	O	
+7-18	griechische	ADJA	griechisch	_	O	O	
+7-19	Kirche	NN	Kirche	_	O	O	
+7-20	in	APPR	in	_	O	O	
+7-21	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-22	ist	VAFIN	sein	_	O	O	
+7-23	,	$,	,	_	O	O	
+7-24	und	KON	und	_	O	O	
+7-25	dort	ADV	dort	_	O	O	
+7-26	sollen	VMFIN	sollen	_	O	O	
+7-27	wir	PPER	wir	_	O	O	
+7-28	nach	APPR	nach	_	O	O	
+7-29	griechischem	ADJA	griechisch	_	O	O	
+7-30	und	KON	und	_	O	O	
+7-31	protestantischem	ADJA	protestantisch	_	O	O	
+7-32	Ritus	NN	Ritus	_	O	O	
+7-33	getraut	VVPP	getrauen|trauen	_	O	O	
+7-34	werden	VAINF	werden	_	O	O	
+7-35	.	$.	.	_	O	O	
+
+#id=8
+#text=Da die Sachen nun einmal so liegen, kann ich nicht umhin, möglicher Weise einige Zeit vor Ihrer Ankunft in Rom das Institut zu verlassen, und ich bitte Sie, mir umgehend zu schreiben, daß Sie damit einverstanden sind.
+8-1	Da	KOUS	da	_	O	O	
+8-2	die	ART	die	_	O	O	
+8-3	Sachen	NN	Sache	_	O	O	
+8-4	nun	ADV	nun	_	O	O	
+8-5	einmal	ADV	einmal	_	O	O	
+8-6	so	ADV	so	_	O	O	
+8-7	liegen	VVFIN	liegen	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	kann	VMFIN	können	_	O	O	
+8-10	ich	PPER	ich	_	O	O	
+8-11	nicht	PTKNEG	nicht	_	O	O	
+8-12	umhin	PTKVZ	umhin	_	O	O	
+8-13	,	$,	,	_	O	O	
+8-14	möglicher	ADJA	möglich	_	O	O	
+8-15	Weise	NN	Weise	_	O	O	
+8-16	einige	PIAT	einige	_	O	O	
+8-17	Zeit	NN	Zeit	_	O	O	
+8-18	vor	APPR	vor	_	O	O	
+8-19	Ihrer	PPOSAT	ihr	_	O	O	
+8-20	Ankunft	NN	Ankunft	_	O	O	
+8-21	in	APPR	in	_	O	O	
+8-22	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-23	das	ART	die	_	O	O	
+8-24	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-25	zu	PTKZU	zu	_	O	O	
+8-26	verlassen	VVINF	verlassen	_	O	O	
+8-27	,	$,	,	_	O	O	
+8-28	und	KON	und	_	O	O	
+8-29	ich	PPER	ich	_	O	O	
+8-30	bitte	VVFIN	bitten	_	O	O	
+8-31	Sie	PPER	Sie	_	O	O	
+8-32	,	$,	,	_	O	O	
+8-33	mir	PRF	ich	_	O	O	
+8-34	umgehend	ADJD	umgehend	_	O	O	
+8-35	zu	PTKZU	zu	_	O	O	
+8-36	schreiben	VVINF	schreiben	_	O	O	
+8-37	,	$,	,	_	O	O	
+8-38	daß	KOUS	dass	_	O	O	
+8-39	Sie	PPER	Sie	_	O	O	
+8-40	damit	PAV	damit	_	O	O	
+8-41	einverstanden	VVPP	einverstehen	_	O	O	
+8-42	sind	VAFIN	sein	_	O	O	
+8-43	.	$.	.	_	O	O	
+
+#id=9
+#text=Früher als den 20. August wird es sicherlich
+9-1	Früher	ADV	früher	_	O	O	
+9-2	als	KOKOM	als	_	O	O	
+9-3	den	ART	die	_	O	O	
+9-4	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-6	August	NE	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-7	wird	VAFIN	werden	_	O	O	
+9-8	es	PPER	es	_	O	O	
+9-9	sicherlich	ADV	sicherlich	_	O	O	
+

@@ -1,0 +1,186 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=\ 126 N. 42 2 Italienische Reise denken.
+1-1	\	XY	\	_	O	O	
+1-2	126	CARD	126	_	O	O	
+1-3	N.	APPR	n.	_	O	O	
+1-4	42	CARD	@card@	_	O	O	
+1-5	2	CARD	2	_	O	O	
+1-6	Italienische	ADJA	italienisch	_	O	O	
+1-7	Reise	NN	Reise	_	O	O	
+1-8	denken	VVFIN	denken	_	O	O	
+1-9	.	$.	.	_	O	O	
+
+#id=2
+#text=Lepsius an Henzen Berlin, 4. März 1876 Über den Reparaturfonds fürs Neue Haus und über das Parthey'sche Medaillon schreibe ich Ihnen später.
+2-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	4	CARD	4	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	Über	APPR	über	_	O	O	
+2-11	den	ART	die	_	O	O	
+2-12	Reparaturfonds	NN	Reparaturfonds	_	O	O	
+2-13	fürs	APPRART	fürs	_	O	O	
+2-14	Neue	ADJA	neu	_	O	O	
+2-15	Haus	NN	Haus	_	O	O	
+2-16	und	KON	und	_	O	O	
+2-17	über	APPR	über	_	O	O	
+2-18	das	ART	die	_	O	O	
+2-19	Parthey'sche	ADJA	<unknown>	_	O	O	
+2-20	Medaillon	NN	Medaillon	_	O	O	
+2-21	schreibe	VVFIN	schreiben	_	O	O	
+2-22	ich	PPER	ich	_	O	O	
+2-23	Ihnen	PPER	Sie	_	O	O	
+2-24	später	ADJD	spät	_	O	O	
+2-25	.	$.	.	_	O	O	
+
+#id=3
+#text=Mit herzlichem Gruß Ihr R Lepsius Es sollte mich sehr freuen wenn Preller für die Bibliothek gewonnen würde.
+3-1	Mit	APPR	mit	_	O	O	
+3-2	herzlichem	ADJA	herzlich	_	O	O	
+3-3	Gruß	NN	Gruß	_	O	O	
+3-4	Ihr	PPOSAT	ihr	_	O	O	
+3-5	R	NN	R	_	O	O	
+3-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-7	Es	PPER	es	_	O	O	
+3-8	sollte	VMFIN	sollen	_	O	O	
+3-9	mich	PRF	ich	_	O	O	
+3-10	sehr	ADV	sehr	_	O	O	
+3-11	freuen	VVFIN	freuen	_	O	O	
+3-12	wenn	KOUS	wenn	_	O	O	
+3-13	Preller	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-14	für	APPR	für	_	O	O	
+3-15	die	ART	die	_	O	O	
+3-16	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-17	gewonnen	VVPP	gewinnen	_	O	O	
+3-18	würde	VAFIN	werden	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Jedenfalls wäre ein besondrer ~rag unsrerseits nöthig.
+4-1	Jedenfalls	ADV	jedenfalls	_	O	O	
+4-2	wäre	VAFIN	sein	_	O	O	
+4-3	ein	ART	eine	_	O	O	
+4-4	besondrer	ADJA	<unknown>	_	O	O	
+4-5	~rag	NN	<unknown>	_	O	O	
+4-6	unsrerseits	ADV	unsrerseits	_	O	O	
+4-7	nöthig	ADJD	<unknown>	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Preise fände ich außerordentlich mäßig.
+5-1	Die	ART	die	_	O	O	
+5-2	Preise	NN	Preis	_	O	O	
+5-3	fände	VVFIN	finden	_	O	O	
+5-4	ich	PPER	ich	_	O	O	
+5-5	außerordentlich	ADJD	außerordentlich	_	O	O	
+5-6	mäßig	ADJD	mäßig	_	O	O	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=Oder wie wäre es, wenn in dieser Angelegenheit einmal der neue Botschafter seine Stellung und sein persönliches Wohlwollen für das Römische Institut geltend machte und durch einen direkten Antrag an das Auswärtige Amt dem Römischen Hause eine so ausgezeichnete Zierde zu verschaffen suchte, deren Befürwortung eigentlich die Kompetenz der immer nur das Nothwendigste verlangenden Central Direktion überschreitet.
+6-1	Oder	KON	oder	_	O	O	
+6-2	wie	KOUS	wie	_	O	O	
+6-3	wäre	VAFIN	sein	_	O	O	
+6-4	es	PPER	es	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	wenn	KOUS	wenn	_	O	O	
+6-7	in	APPR	in	_	O	O	
+6-8	dieser	PDAT	dies	_	O	O	
+6-9	Angelegenheit	NN	Angelegenheit	_	O	O	
+6-10	einmal	ADV	einmal	_	O	O	
+6-11	der	ART	die	_	O	O	
+6-12	neue	ADJA	neu	_	O	O	
+6-13	Botschafter	NN	Botschafter	_	O	O	
+6-14	seine	PPOSAT	sein	_	O	O	
+6-15	Stellung	NN	Stellung	_	O	O	
+6-16	und	KON	und	_	O	O	
+6-17	sein	PPOSAT	sein	_	O	O	
+6-18	persönliches	ADJA	persönlich	_	O	O	
+6-19	Wohlwollen	NN	Wohlwollen	_	O	O	
+6-20	für	APPR	für	_	O	O	
+6-21	das	ART	die	_	O	O	
+6-22	Römische	ADJA	römisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-23	Institut	NN	Institut	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+6-24	geltend	ADJD	geltend	_	O	O	
+6-25	machte	VVFIN	machen	_	O	O	
+6-26	und	KON	und	_	O	O	
+6-27	durch	APPR	durch	_	O	O	
+6-28	einen	ART	eine	_	O	O	
+6-29	direkten	ADJA	direkt	_	O	O	
+6-30	Antrag	NN	Antrag	_	O	O	
+6-31	an	APPR	an	_	O	O	
+6-32	das	ART	die	_	O	O	
+6-33	Auswärtige	ADJA	auswärtig	_	O	O	
+6-34	Amt	NN	Amt	_	O	O	
+6-35	dem	ART	die	_	O	O	
+6-36	Römischen	ADJA	römisch	_	O	O	
+6-37	Hause	NN	Haus	_	O	O	
+6-38	eine	ART	eine	_	O	O	
+6-39	so	ADV	so	_	O	O	
+6-40	ausgezeichnete	ADJA	ausgezeichnet	_	O	O	
+6-41	Zierde	NN	Zierde	_	O	O	
+6-42	zu	PTKZU	zu	_	O	O	
+6-43	verschaffen	VVINF	verschaffen	_	O	O	
+6-44	suchte	VVFIN	suchen	_	O	O	
+6-45	,	$,	,	_	O	O	
+6-46	deren	PRELAT	die	_	O	O	
+6-47	Befürwortung	NN	Befürwortung	_	O	O	
+6-48	eigentlich	ADV	eigentlich	_	O	O	
+6-49	die	ART	die	_	O	O	
+6-50	Kompetenz	NN	Kompetenz	_	O	O	
+6-51	der	ART	die	_	O	O	
+6-52	immer	ADV	immer	_	O	O	
+6-53	nur	ADV	nur	_	O	O	
+6-54	das	ART	die	_	O	O	
+6-55	Nothwendigste	NN	<unknown>	_	O	O	
+6-56	verlangenden	ADJA	verlangend	_	O	O	
+6-57	Central	NN	<unknown>	_	O	O	
+6-58	Direktion	NN	Direktion	_	O	O	
+6-59	überschreitet	VVFIN	überschreiten	_	O	O	
+6-60	.	$.	.	_	O	O	
+
+#id=7
+#text=Kommt dann vom Auswärtigen Amte herab die Sache an uns, so können wir dann ganz anders und wirksamer dafür eintreten.
+7-1	Kommt	VVFIN	kommen	_	O	O	
+7-2	dann	ADV	dann	_	O	O	
+7-3	vom	APPRART	von	_	O	O	
+7-4	Auswärtigen	ADJA	auswärtig	_	O	O	
+7-5	Amte	NN	Amt	_	O	O	
+7-6	herab	ADV	herab	_	O	O	
+7-7	die	ART	die	_	O	O	
+7-8	Sache	NN	Sache	_	O	O	
+7-9	an	APPR	an	_	O	O	
+7-10	uns	PPER	wir	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	so	ADV	so	_	O	O	
+7-13	können	VMFIN	können	_	O	O	
+7-14	wir	PPER	wir	_	O	O	
+7-15	dann	ADV	dann	_	O	O	
+7-16	ganz	ADV	ganz	_	O	O	
+7-17	anders	ADV	anders	_	O	O	
+7-18	und	KON	und	_	O	O	
+7-19	wirksamer	ADJD	wirksam	_	O	O	
+7-20	dafür	PAV	dafür	_	O	O	
+7-21	eintreten	VVINF	eintreten	_	O	O	
+7-22	.	$.	.	_	O	O	
+
+#id=8
+#text=Besprechen Sie das doch einmal privatim mit H. VQ~ K~~tLe Q-e
+8-1	Besprechen	VVFIN	besprechen	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	das	PDS	die	_	O	O	
+8-4	doch	ADV	doch	_	O	O	
+8-5	einmal	ADV	einmal	_	O	O	
+8-6	privatim	ADJD	<unknown>	_	O	O	
+8-7	mit	APPR	mit	_	O	O	
+8-8	H.	NE	H.	_	O	O	
+8-9	VQ~	NE	<unknown>	_	O	O	
+8-10	K~~tLe	NE	<unknown>	_	O	O	
+8-11	Q-e	NE	<unknown>	_	O	O	
+

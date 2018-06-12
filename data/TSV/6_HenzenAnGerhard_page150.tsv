@@ -1,0 +1,334 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=361 29/IX/53 Verehrter Herr Professor Renzen an Gerhard ~&AA.f.
+1-1	361	CARD	@card@	_	O	O	
+1-2	29/IX/53	CARD	<unknown>	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Renzen	NN	<unknown>	_	O	O	
+1-7	an	APPR	an	_	O	O	
+1-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	~&AA.f	NE	<unknown>	_	O	O	
+1-10	.	$.	.	_	O	O	
+
+#id=2
+#text=Besten Dank für Ihren 1.
+2-1	Besten	ADJA	gut	_	O	O	
+2-2	Dank	NN	Dank	_	O	O	
+2-3	für	APPR	für	_	O	O	
+2-4	Ihren	PPOSAT	ihr	_	O	O	
+2-5	1	CARD	1	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Brief vom 19t~n u. die mir darin gegebnen AUfschlüße, die mir vollkommen genügen, u • .
+3-1	Brief	NN	Brief	_	O	O	
+3-2	vom	APPRART	von	_	O	O	
+3-3	19t~n	NN	<unknown>	_	O	O	
+3-4	u.	APPR	um	_	O	O	
+3-5	die	ART	die	_	O	O	
+3-6	mir	PRF	ich	_	O	O	
+3-7	darin	PAV	darin	_	O	O	
+3-8	gegebnen	ADJA	<unknown>	_	O	O	
+3-9	AUfschlüße	NN	<unknown>	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	die	PRELS	die	_	O	O	
+3-12	mir	PRF	ich	_	O	O	
+3-13	vollkommen	ADJD	vollkommen	_	O	O	
+3-14	genügen	VVFIN	genügen	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	u	ADJA	<unknown>	_	O	O	
+3-17	•	NN	<unknown>	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=die ich gleichzeitig nach Zü~ch mittheile, da, wie mir Mommsen letztes Schreiben zeie;t, auch er nicht wußte, wie es sich mit dergleichen Hülfsgeldern verhalten werde.
+4-1	die	PRELS	die	_	O	O	
+4-2	ich	PPER	ich	_	O	O	
+4-3	gleichzeitig	ADJD	gleichzeitig	_	O	O	
+4-4	nach	APPR	nach	_	O	O	
+4-5	Zü~ch	ADJA	<unknown>	_	O	O	
+4-6	mittheile	NN	<unknown>	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	da	ADV	da	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	wie	KOUS	wie	_	O	O	
+4-11	mir	PPER	ich	_	O	O	
+4-12	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-13	letztes	ADJA	letzt	_	O	O	
+4-14	Schreiben	NN	Schreiben	_	O	O	
+4-15	zeie	VVFIN	<unknown>	_	O	O	
+4-16	;	$.	;	_	O	O	
+4-17	t	NN	t	_	O	O	
+4-18	,	$,	,	_	O	O	
+4-19	auch	ADV	auch	_	O	O	
+4-20	er	PPER	er	_	O	O	
+4-21	nicht	PTKNEG	nicht	_	O	O	
+4-22	wußte	VVFIN	wissen	_	O	O	
+4-23	,	$,	,	_	O	O	
+4-24	wie	KOUS	wie	_	O	O	
+4-25	es	PPER	es	_	O	O	
+4-26	sich	PRF	sich	_	O	O	
+4-27	mit	APPR	mit	_	O	O	
+4-28	dergleichen	PIS	dergleichen	_	O	O	
+4-29	Hülfsgeldern	NN	<unknown>	_	O	O	
+4-30	verhalten	VVPP	verhalten	_	O	O	
+4-31	werde	VAFIN	werden	_	O	O	
+4-32	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich, resp.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	,	$,	,	_	O	O	
+5-3	resp.	ADV	resp.	_	O	O	
+
+#id=6
+#text=Mommsen, werde zun~chst den Antrag stellen, die Akademie möge eine förmliche Aufforderung an de Hossi richten, sich an dem G.I.L. in der Weise zu betheiligen, wie wir es bis dahin definitiv unter uns ausmachen werden.
+6-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	,	$,	,	_	O	O	
+6-3	werde	VAFIN	werden	_	O	O	
+6-4	zun~chst	ADJD	<unknown>	_	O	O	
+6-5	den	ART	die	_	O	O	
+6-6	Antrag	NN	Antrag	_	O	O	
+6-7	stellen	VVINF	stellen	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	die	ART	die	_	O	O	
+6-10	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-11	möge	VMFIN	mögen	_	O	O	
+6-12	eine	ART	eine	_	O	O	
+6-13	förmliche	ADJA	förmlich	_	O	O	
+6-14	Aufforderung	NN	Aufforderung	_	O	O	
+6-15	an	APPR	an	_	O	O	
+6-16	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-17	Hossi	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-18	richten	VVFIN	richten	_	O	O	
+6-19	,	$,	,	_	O	O	
+6-20	sich	PRF	sich	_	O	O	
+6-21	an	APPR	an	_	O	O	
+6-22	dem	ART	die	_	O	O	
+6-23	G.I.L.	NE	<unknown>	_	O	O	
+6-24	in	APPR	in	_	O	O	
+6-25	der	ART	die	_	O	O	
+6-26	Weise	NN	Weise	_	O	O	
+6-27	zu	APPR	zu	_	O	O	
+6-28	betheiligen	ADJA	betheilig	_	O	O	
+6-29	,	$,	,	_	O	O	
+6-30	wie	KOUS	wie	_	O	O	
+6-31	wir	PPER	wir	_	O	O	
+6-32	es	PPER	es	_	O	O	
+6-33	bis	KON	bis	_	O	O	
+6-34	dahin	PAV	dahin	_	O	O	
+6-35	definitiv	ADJD	definitiv	_	O	O	
+6-36	unter	APPR	unter	_	O	O	
+6-37	uns	PRF	wir	_	O	O	
+6-38	ausmachen	VVINF	ausmachen	_	O	O	
+6-39	werden	VAFIN	werden	_	O	O	
+6-40	.	$.	.	_	O	O	
+
+#id=7
+#text=Wir brauehen ein estensibles Document, um für ihn Dispensation von seinen Arbeiten als scrittore zu erhalten, vielleicht sogar diplomatische Verwendung.
+7-1	Wir	PPER	wir	_	O	O	
+7-2	brauehen	VVFIN	<unknown>	_	O	O	
+7-3	ein	ART	eine	_	O	O	
+7-4	estensibles	ADJA	<unknown>	_	O	O	
+7-5	Document	NN	<unknown>	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	um	KOUI	um	_	O	O	
+7-8	für	APPR	für	_	O	O	
+7-9	ihn	PPER	er	_	O	O	
+7-10	Dispensation	NN	<unknown>	_	O	O	
+7-11	von	APPR	von	_	O	O	
+7-12	seinen	PPOSAT	sein	_	O	O	
+7-13	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+7-14	als	KOKOM	als	_	O	O	
+7-15	scrittore	NN	<unknown>	_	O	O	
+7-16	zu	PTKZU	zu	_	O	O	
+7-17	erhalten	VVINF	erhalten	_	O	O	
+7-18	,	$,	,	_	O	O	
+7-19	vielleicht	ADV	vielleicht	_	O	O	
+7-20	sogar	ADV	sogar	_	O	O	
+7-21	diplomatische	ADJA	diplomatisch	_	O	O	
+7-22	Verwendung	NN	Verwendung	_	O	O	
+7-23	.	$.	.	_	O	O	
+
+#id=8
+#text=- Um dann aber die Ausbeutung der Bibliotheken mit bnergie zu betreiben, ist wünschenswerth, oder vielmehr nothwenie;, daß die Akademie ihm einen Amo.l'l~ehS(·s stelle u. dafür einen außerordentlichen Gredi t auf ein Paar Jahre bewilliße.
+8-1	-	$(	-	_	O	O	
+8-2	Um	KOUI	um	_	O	O	
+8-3	dann	ADV	dann	_	O	O	
+8-4	aber	ADV	aber	_	O	O	
+8-5	die	ART	die	_	O	O	
+8-6	Ausbeutung	NN	Ausbeutung	_	O	O	
+8-7	der	ART	die	_	O	O	
+8-8	Bibliotheken	NN	Bibliothek	_	O	O	
+8-9	mit	APPR	mit	_	O	O	
+8-10	bnergie	NN	<unknown>	_	O	O	
+8-11	zu	PTKZU	zu	_	O	O	
+8-12	betreiben	VVINF	betreiben	_	O	O	
+8-13	,	$,	,	_	O	O	
+8-14	ist	VAFIN	sein	_	O	O	
+8-15	wünschenswerth	NE	<unknown>	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	oder	KON	oder	_	O	O	
+8-18	vielmehr	ADV	vielmehr	_	O	O	
+8-19	nothwenie	NN	<unknown>	_	O	O	
+8-20	;	$.	;	_	O	O	
+8-21	,	$,	,	_	O	O	
+8-22	daß	KOUS	dass	_	O	O	
+8-23	die	ART	die	_	O	O	
+8-24	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-25	ihm	PPER	er	_	O	O	
+8-26	einen	ART	eine	_	O	O	
+8-27	Amo.l'l~ehS(·s	ADJA	<unknown>	_	O	O	
+8-28	stelle	VVFIN	stellen	_	O	O	
+8-29	u.	KON	und	_	O	O	
+8-30	dafür	PAV	dafür	_	O	O	
+8-31	einen	ART	eine	_	O	O	
+8-32	außerordentlichen	ADJA	außerordentlich	_	O	O	
+8-33	Gredi	NE	<unknown>	_	O	O	
+8-34	t	NN	t	_	O	O	
+8-35	auf	APPR	auf	_	O	O	
+8-36	ein	ART	eine	_	O	O	
+8-37	Paar	PIAT	paar	_	O	O	
+8-38	Jahre	NN	Jahr	_	O	O	
+8-39	bewilliße	VVFIN	<unknown>	_	O	O	
+8-40	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich habe darüber schon an M. geschrieben.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	habe	VAFIN	haben	_	O	O	
+9-3	darüber	PAV	darüber	_	O	O	
+9-4	schon	ADV	schon	_	O	O	
+9-5	an	APPR	an	_	O	O	
+9-6	M.	NE	M.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-7	geschrieben	VVPP	schreiben	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Da de R. selbst durchaus gratis arbeitet u. alle Römischen Bibliotheks- U. ruseums-Sch~tze zum allergrößten ~heile nur dh.
+10-1	Da	KOUS	da	_	O	O	
+10-2	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-3	R.	NE	R.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-4	selbst	ADV	selbst	_	O	O	
+10-5	durchaus	ADV	durchaus	_	O	O	
+10-6	gratis	ADJD	gratis	_	O	O	
+10-7	arbeitet	VVFIN	arbeiten	_	O	O	
+10-8	u.	APPR	um	_	O	O	
+10-9	alle	PIAT	alle	_	O	O	
+10-10	Römischen	ADJA	römisch	_	O	O	
+10-11	Bibliotheks-	TRUNC	Bibliotheks-	_	O	O	
+10-12	U.	KON	u.	_	O	O	
+10-13	ruseums-Sch~tze	NN	<unknown>	_	O	O	
+10-14	zum	APPRART	zu	_	O	O	
+10-15	allergrößten	ADJA	allergroß	_	O	O	
+10-16	~heile	NN	<unknown>	_	O	O	
+10-17	nur	ADV	nur	_	O	O	
+10-18	dh.	NE	<unknown>	_	O	O	
+
+#id=11
+#text=ihn uns zug~nglich werden, so wird das hoffentlich keine Schwierigkeit haben.
+11-1	ihn	PPER	er	_	O	O	
+11-2	uns	PRF	wir	_	O	O	
+11-3	zug~nglich	ADJD	<unknown>	_	O	O	
+11-4	werden	VAFIN	werden	_	O	O	
+11-5	,	$,	,	_	O	O	
+11-6	so	ADV	so	_	O	O	
+11-7	wird	VAFIN	werden	_	O	O	
+11-8	das	PDS	die	_	O	O	
+11-9	hoffentlich	ADV	hoffentlich	_	O	O	
+11-10	keine	PIAT	keine	_	O	O	
+11-11	Schwierigkeit	NN	Schwierigkeit	_	O	O	
+11-12	haben	VAINF	haben	_	O	O	
+11-13	.	$.	.	_	O	O	
+
+#id=12
+#text=Uebrigens ist de R. jetzt auf einer Reise dh.
+12-1	Uebrigens	NN	<unknown>	_	O	O	
+12-2	ist	VAFIN	sein	_	O	O	
+12-3	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-4	R.	NE	R.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+12-5	jetzt	ADV	jetzt	_	O	O	
+12-6	auf	APPR	auf	_	O	O	
+12-7	einer	ART	eine	_	O	O	
+12-8	Reise	NN	Reise	_	O	O	
+12-9	dh.	NE	<unknown>	_	O	O	
+
+#id=13
+#text=Oberitalien u. Toscana, zun~chst um für seine christI.
+13-1	Oberitalien	NE	Oberitalien	_	O	O	
+13-2	u.	KON	und	_	O	O	
+13-3	Toscana	NE	Toscana	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+13-4	,	$,	,	_	O	O	
+13-5	zun~chst	VVFIN	<unknown>	_	O	O	
+13-6	um	APPR	um	_	O	O	
+13-7	für	APPR	für	_	O	O	
+13-8	seine	PPOSAT	sein	_	O	O	
+13-9	christI	NE	Christi	_	O	O	
+13-10	.	$.	.	_	O	O	
+
+#id=14
+#text=Inschriften die Bibliotheken zu dh.suchen; doch dient diese Reise zugleich als eine große Recognoscirung für das C.I.L. u. ist daher für unsre Zwecke sehr wichtig.
+14-1	Inschriften	NN	Inschrift	_	O	O	
+14-2	die	ART	die	_	O	O	
+14-3	Bibliotheken	NN	Bibliothek	_	O	O	
+14-4	zu	APPR	zu	_	O	O	
+14-5	dh.suchen	NN	<unknown>	_	O	O	
+14-6	;	$.	;	_	O	O	
+14-7	doch	KON	doch	_	O	O	
+14-8	dient	VVFIN	dienen	_	O	O	
+14-9	diese	PDAT	dies	_	O	O	
+14-10	Reise	NN	Reise	_	O	O	
+14-11	zugleich	ADV	zugleich	_	O	O	
+14-12	als	KOKOM	als	_	O	O	
+14-13	eine	ART	eine	_	O	O	
+14-14	große	ADJA	groß	_	O	O	
+14-15	Recognoscirung	NN	<unknown>	_	O	O	
+14-16	für	APPR	für	_	O	O	
+14-17	das	ART	die	_	O	O	
+14-18	C.I.L.	NE	<unknown>	_	O	O	
+14-19	u.	KON	und	_	O	O	
+14-20	ist	VAFIN	sein	_	O	O	
+14-21	daher	PAV	daher	_	O	O	
+14-22	für	APPR	für	_	O	O	
+14-23	unsre	PPOSAT	unsre	_	O	O	
+14-24	Zwecke	NN	Zweck	_	O	O	
+14-25	sehr	ADV	sehr	_	O	O	
+14-26	wichtig	ADJD	wichtig	_	O	O	
+14-27	.	$.	.	_	O	O	
+
+#id=15
+#text=Vön hier nichts Neues.
+15-1	Vön	NN	<unknown>	_	O	O	
+15-2	hier	ADV	hier	_	O	O	
+15-3	nichts	PIAT	nichts	_	O	O	
+15-4	Neues	NN	Neue	_	O	O	
+15-5	.	$.	.	_	O	O	
+
+#id=16
+#text=Uns geht es Gottlob !
+16-1	Uns	PPER	wir	_	O	O	
+16-2	geht	VVFIN	gehen	_	O	O	
+16-3	es	PPER	es	_	O	O	
+16-4	Gottlob	NN	Gottlob	_	O	O	
+16-5	!	$.	!	_	O	O	
+
+#id=17
+#text=jetzt recht gut.
+17-1	jetzt	ADV	jetzt	_	O	O	
+17-2	recht	ADJD	recht	_	O	O	
+17-3	gut	ADJD	gut	_	O	O	
+17-4	.	$.	.	_	O	O	
+
+#id=18
+#text=Meine Frau hat sich ganz erholt u. eine
+18-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+18-3	hat	VAFIN	haben	_	O	O	
+18-4	sich	PRF	sich	_	O	O	
+18-5	ganz	ADV	ganz	_	O	O	
+18-6	erholt	VVFIN	erholen	_	O	O	
+18-7	u.	APPR	um	_	O	O	
+18-8	eine	ART	eine	_	O	O	
+

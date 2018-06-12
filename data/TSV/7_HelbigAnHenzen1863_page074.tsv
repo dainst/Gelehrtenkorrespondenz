@@ -1,0 +1,281 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=15 410 2 Helbig an Henzen Rom, 18. Juni 1866 kundigungen einziehen.
+1-1	15	CARD	15	_	O	O	
+1-2	410	CARD	@card@	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	kundigungen	NN	<unknown>	_	O	O	
+1-14	einziehen	VVFIN	einziehen	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=Zweitens: Per carita!
+2-1	Zweitens	ADV	zweitens	_	O	O	
+2-2	:	$.	:	_	O	O	
+2-3	Per	APPR	per	_	O	O	
+2-4	carita	NE	Carita	_	O	O	
+2-5	!	$.	!	_	O	O	
+
+#id=3
+#text=Was haben Sie mit dem Zettel angefangen, auf welchem wir den letzten Tag Ihres hiesigen Aufenthaltes den Inhalt der Institutskasse specificirt haben.
+3-1	Was	PWS	was	_	O	O	
+3-2	haben	VAFIN	haben	_	O	O	
+3-3	Sie	PPER	Sie	_	O	O	
+3-4	mit	APPR	mit	_	O	O	
+3-5	dem	ART	die	_	O	O	
+3-6	Zettel	NN	Zettel	_	O	O	
+3-7	angefangen	VVPP	anfangen	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	auf	APPR	auf	_	O	O	
+3-10	welchem	PRELS	welche	_	O	O	
+3-11	wir	PPER	wir	_	O	O	
+3-12	den	ART	die	_	O	O	
+3-13	letzten	ADJA	letzt	_	O	O	
+3-14	Tag	NN	Tag	_	O	O	
+3-15	Ihres	PPOSAT	ihr	_	O	O	
+3-16	hiesigen	ADJA	hiesig	_	O	O	
+3-17	Aufenthaltes	NN	Aufenthalt	_	O	O	
+3-18	den	ART	die	_	O	O	
+3-19	Inhalt	NN	Inhalt	_	O	O	
+3-20	der	ART	die	_	O	O	
+3-21	Institutskasse	NN	<unknown>	_	O	O	
+3-22	specificirt	ADJD	<unknown>	_	O	O	
+3-23	haben	VAFIN	haben	_	O	O	
+3-24	.	$.	.	_	O	O	
+
+#id=4
+#text=Sie legten ihn damals neben das Geldkästchen.
+4-1	Sie	PPER	Sie	_	O	O	
+4-2	legten	VVFIN	legen	_	O	O	
+4-3	ihn	PPER	er	_	O	O	
+4-4	damals	ADV	damals	_	O	O	
+4-5	neben	APPR	neben	_	O	O	
+4-6	das	ART	die	_	O	O	
+4-7	Geldkästchen	NN	<unknown>	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=Gegenwärtig findet er sich nicht mehr vor.
+5-1	Gegenwärtig	ADJD	gegenwärtig	_	O	O	
+5-2	findet	VVFIN	finden	_	O	O	
+5-3	er	PPER	er	_	O	O	
+5-4	sich	PRF	sich	_	O	O	
+5-5	nicht	PTKNEG	nicht	_	O	O	
+5-6	mehr	ADV	mehr	_	O	O	
+5-7	vor	PTKVZ	vor	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Haben Sie ihn vielleicht herausgenommen und zu den Quittungen gelegt?
+6-1	Haben	VAFIN	haben	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	ihn	PPER	er	_	O	O	
+6-4	vielleicht	ADV	vielleicht	_	O	O	
+6-5	herausgenommen	VVPP	herausnehmen	_	O	O	
+6-6	und	KON	und	_	O	O	
+6-7	zu	APPR	zu	_	O	O	
+6-8	den	ART	die	_	O	O	
+6-9	Quittungen	NN	Quittung	_	O	O	
+6-10	gelegt	VVPP	legen	_	O	O	
+6-11	?	$.	?	_	O	O	
+
+#id=7
+#text=Ich kann unmöglich Rechnung führen ohne diese Angaben.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	kann	VMFIN	können	_	O	O	
+7-3	unmöglich	ADJD	unmöglich	_	O	O	
+7-4	Rechnung	NN	Rechnung	_	O	O	
+7-5	führen	VVFIN	fahren|führen	_	O	O	
+7-6	ohne	APPR	ohne	_	O	O	
+7-7	diese	PDAT	dies	_	O	O	
+7-8	Angaben	NN	Angabe	_	O	O	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=Drittens: von der Revue numismatique haben wir den Jahrgang 1865 vollständig mit Ausnahme von der mit N. 3 bezeichneten Lieferung.
+8-1	Drittens	ADV	drittens	_	O	O	
+8-2	:	$.	:	_	O	O	
+8-3	von	APPR	von	_	O	O	
+8-4	der	ART	die	_	O	O	
+8-5	Revue	NN	Revue	_	O	O	
+8-6	numismatique	ADJD	<unknown>	_	O	O	
+8-7	haben	VAFIN	haben	_	O	O	
+8-8	wir	PPER	wir	_	O	O	
+8-9	den	ART	die	_	O	O	
+8-10	Jahrgang	NN	Jahrgang	_	O	O	
+8-11	1865	CARD	@card@	_	O	O	
+8-12	vollständig	ADJD	vollständig	_	O	O	
+8-13	mit	APPR	mit	_	O	O	
+8-14	Ausnahme	NN	Ausnahme	_	O	O	
+8-15	von	APPR	von	_	O	O	
+8-16	der	ART	die	_	O	O	
+8-17	mit	APPR	mit	_	O	O	
+8-18	N.	NE	N.	_	O	O	
+8-19	3	CARD	3	_	O	O	
+8-20	bezeichneten	ADJA	bezeichnet	_	O	O	
+8-21	Lieferung	NN	Lieferung	_	O	O	
+8-22	.	$.	.	_	O	O	
+
+#id=9
+#text=Von 1866 ist uns noch nichts zugegangen.
+9-1	Von	APPR	von	_	O	O	
+9-2	1866	CARD	1866	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-3	ist	VAFIN	sein	_	O	O	
+9-4	uns	PPER	wir	_	O	O	
+9-5	noch	ADV	noch	_	O	O	
+9-6	nichts	PIS	nichts	_	O	O	
+9-7	zugegangen	VVPP	zugehen	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Weschers Oorrecturbogen sind eingetroffen, ebenso ein Artikel von Zangemeister über pompeianische Graffiti.
+10-1	Weschers	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	Oorrecturbogen	NN	<unknown>	_	O	O	
+10-3	sind	VAFIN	sein	_	O	O	
+10-4	eingetroffen	VVPP	eintreffen	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	ebenso	ADV	ebenso	_	O	O	
+10-7	ein	ART	eine	_	O	O	
+10-8	Artikel	NN	Artikel	_	O	O	
+10-9	von	APPR	von	_	O	O	
+10-10	Zangemeister	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-11	über	APPR	über	_	O	O	
+10-12	pompeianische	ADJA	<unknown>	_	O	O	
+10-13	Graffiti	NN	Graffito	_	O	O	
+10-14	.	$.	.	_	O	O	
+
+#id=11
+#text=Alle Oapitoliner, Nino, Mariuccia, Filippuccio und Plantilla grüßen Sie und die Frau Professorin herzlich.
+11-1	Alle	PIAT	alle	_	O	O	
+11-2	Oapitoliner	NN	<unknown>	_	O	O	
+11-3	,	$,	,	_	O	O	
+11-4	Nino	NE	Nino	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-5	,	$,	,	_	O	O	
+11-6	Mariuccia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-7	,	$,	,	_	O	O	
+11-8	Filippuccio	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-9	und	KON	und	_	O	O	
+11-10	Plantilla	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-11	grüßen	VVFIN	grüßen	_	O	O	
+11-12	Sie	PPER	Sie	_	O	O	
+11-13	und	KON	und	_	O	O	
+11-14	die	ART	die	_	O	O	
+11-15	Frau	NN	Frau	_	O	O	
+11-16	Professorin	NN	Professorin	_	O	O	
+11-17	herzlich	ADJD	herzlich	_	O	O	
+11-18	.	$.	.	_	O	O	
+
+#id=12
+#text=Plantilla hat den Sonntag nach Ihrer Abreise geheirathet.
+12-1	Plantilla	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	hat	VAFIN	haben	_	O	O	
+12-3	den	ART	die	_	O	O	
+12-4	Sonntag	NN	Sonntag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+12-5	nach	APPR	nach	_	O	O	
+12-6	Ihrer	PPOSAT	ihr	_	O	O	
+12-7	Abreise	NN	Abreise	_	O	O	
+12-8	geheirathet	NN	<unknown>	_	O	O	
+12-9	.	$.	.	_	O	O	
+
+#id=13
+#text=Die Nacht über wurde vor der Hausthür entsetzliche Musik gemacht, wohl eine Überbleibsel des antiken Hymenaios, welcher jedoch für schlafbedürftige Leute manches Unangenehme hat.
+13-1	Die	ART	die	_	O	O	
+13-2	Nacht	NN	Nacht	_	O	O	
+13-3	über	PTKVZ	über	_	O	O	
+13-4	wurde	VAFIN	werden	_	O	O	
+13-5	vor	APPR	vor	_	O	O	
+13-6	der	ART	die	_	O	O	
+13-7	Hausthür	NN	<unknown>	_	O	O	
+13-8	entsetzliche	ADJA	entsetzlich	_	O	O	
+13-9	Musik	NN	Musik	_	O	O	
+13-10	gemacht	VVPP	machen	_	O	O	
+13-11	,	$,	,	_	O	O	
+13-12	wohl	ADV	wohl	_	O	O	
+13-13	eine	ART	eine	_	O	O	
+13-14	Überbleibsel	NN	Überbleibsel	_	O	O	
+13-15	des	ART	die	_	O	O	
+13-16	antiken	ADJA	antik	_	O	O	
+13-17	Hymenaios	NN	<unknown>	_	O	O	
+13-18	,	$,	,	_	O	O	
+13-19	welcher	PRELS	welche	_	O	O	
+13-20	jedoch	ADV	jedoch	_	O	O	
+13-21	für	APPR	für	_	O	O	
+13-22	schlafbedürftige	ADJA	<unknown>	_	O	O	
+13-23	Leute	NN	Leute	_	O	O	
+13-24	manches	PIAT	manche	_	O	O	
+13-25	Unangenehme	NN	Unangenehme	_	O	O	
+13-26	hat	VAFIN	haben	_	O	O	
+13-27	.	$.	.	_	O	O	
+
+#id=14
+#text=Das Junibullettino wird in diesen Tagen flügge.
+14-1	Das	ART	die	_	O	O	
+14-2	Junibullettino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-3	wird	VAFIN	werden	_	O	O	
+14-4	in	APPR	in	_	O	O	
+14-5	diesen	PDAT	dies	_	O	O	
+14-6	Tagen	NN	Tag	_	O	O	
+14-7	flügge	ADJD	flügge	_	O	O	
+14-8	.	$.	.	_	O	O	
+
+#id=15
+#text=Baldigst mehr.
+15-1	Baldigst	ADJD	baldig	_	O	O	
+15-2	mehr	ADV	mehr	_	O	O	
+15-3	.	$.	.	_	O	O	
+
+#id=16
+#text=Ich bitte Sie die Frau Professorin zu grüßen und wünsche Ihnen gute Gesundheit, gutes ~ Wasser und die Gelegenheit, sich mit den pythagor~schen Nahrungsmitteln, die Sie vorzugsweise gebrauchen, versehen zu können, was in jenem modernen Babyion nicht leicht
+16-1	Ich	PPER	ich	_	O	O	
+16-2	bitte	VVFIN	bitten	_	O	O	
+16-3	Sie	PPER	Sie	_	O	O	
+16-4	die	ART	die	_	O	O	
+16-5	Frau	NN	Frau	_	O	O	
+16-6	Professorin	NN	Professorin	_	O	O	
+16-7	zu	PTKZU	zu	_	O	O	
+16-8	grüßen	VVINF	grüßen	_	O	O	
+16-9	und	KON	und	_	O	O	
+16-10	wünsche	VVFIN	wünschen	_	O	O	
+16-11	Ihnen	PPER	Sie	_	O	O	
+16-12	gute	ADJA	gut	_	O	O	
+16-13	Gesundheit	NN	Gesundheit	_	O	O	
+16-14	,	$,	,	_	O	O	
+16-15	gutes	ADJA	gut	_	O	O	
+16-16	~	XY	~	_	O	O	
+16-17	Wasser	NN	Wasser	_	O	O	
+16-18	und	KON	und	_	O	O	
+16-19	die	ART	die	_	O	O	
+16-20	Gelegenheit	NN	Gelegenheit	_	O	O	
+16-21	,	$,	,	_	O	O	
+16-22	sich	PRF	sich	_	O	O	
+16-23	mit	APPR	mit	_	O	O	
+16-24	den	ART	die	_	O	O	
+16-25	pythagor~schen	ADJA	<unknown>	_	O	O	
+16-26	Nahrungsmitteln	NN	Nahrungsmittel	_	O	O	
+16-27	,	$,	,	_	O	O	
+16-28	die	PRELS	die	_	O	O	
+16-29	Sie	PPER	Sie	_	O	O	
+16-30	vorzugsweise	ADJD	vorzugsweise	_	O	O	
+16-31	gebrauchen	VVFIN	gebrauchen	_	O	O	
+16-32	,	$,	,	_	O	O	
+16-33	versehen	VVINF	versehen	_	O	O	
+16-34	zu	PTKZU	zu	_	O	O	
+16-35	können	VMINF	können	_	O	O	
+16-36	,	$,	,	_	O	O	
+16-37	was	PRELS	was	_	O	O	
+16-38	in	APPR	in	_	O	O	
+16-39	jenem	PDAT	jen	_	O	O	
+16-40	modernen	ADJA	modern	_	O	O	
+16-41	Babyion	NN	<unknown>	_	O	O	
+16-42	nicht	PTKNEG	nicht	_	O	O	
+16-43	leicht	ADJD	leicht	_	O	O	
+

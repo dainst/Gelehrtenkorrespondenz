@@ -1,0 +1,216 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=391 Helbig an Henzen Dresden, 5. November 1866 H g. 12/11 66 r. Dresden 5. Nov.
+1-1	391	CARD	@card@	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	H	NN	H	_	O	O	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	12/11	CARD	12/11	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	66	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	r.	ADJA	<unknown>	_	O	O	
+1-16	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-17	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	Nov.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1866. Geehrtester Herr Professor Obwohl seit sechs Wochen ohne jegliche directe Nachricht von Ihnen, habe ich wenigstens in Berlin gehört, daß es Ihnen gegenwärtig gut geht und daß die Institutsgeschäfte günstigen Verlauf nehmen.
+2-1	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	.	$.	.	_	O	O	
+2-3	Geehrtester	ADJA	<unknown>	_	O	O	
+2-4	Herr	NN	Herr	_	O	O	
+2-5	Professor	NN	Professor	_	O	O	
+2-6	Obwohl	KOUS	obwohl	_	O	O	
+2-7	seit	APPR	seit	_	O	O	
+2-8	sechs	CARD	sechs	_	O	O	
+2-9	Wochen	NN	Woche	_	O	O	
+2-10	ohne	APPR	ohne	_	O	O	
+2-11	jegliche	PIAT	jegliche	_	O	O	
+2-12	directe	ADJA	<unknown>	_	O	O	
+2-13	Nachricht	NN	Nachricht	_	O	O	
+2-14	von	APPR	von	_	O	O	
+2-15	Ihnen	PPER	Sie	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	habe	VAFIN	haben	_	O	O	
+2-18	ich	PPER	ich	_	O	O	
+2-19	wenigstens	ADV	wenigstens	_	O	O	
+2-20	in	APPR	in	_	O	O	
+2-21	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-22	gehört	VVFIN	gehören	_	O	O	
+2-23	,	$,	,	_	O	O	
+2-24	daß	KOUS	dass	_	O	O	
+2-25	es	PPER	es	_	O	O	
+2-26	Ihnen	PPER	Sie	_	O	O	
+2-27	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+2-28	gut	ADJD	gut	_	O	O	
+2-29	geht	VVFIN	gehen	_	O	O	
+2-30	und	KON	und	_	O	O	
+2-31	daß	KOUS	dass	_	O	O	
+2-32	die	ART	die	_	O	O	
+2-33	Institutsgeschäfte	NN	<unknown>	_	O	O	
+2-34	günstigen	ADJA	günstig	_	O	O	
+2-35	Verlauf	NN	Verlauf	_	O	O	
+2-36	nehmen	VVINF	nehmen	_	O	O	
+2-37	.	$.	.	_	O	O	
+
+#id=3
+#text=Alles Weitere spare ich auf unser baldiges Wiedersehen auf.
+3-1	Alles	PIAT	alle	_	O	O	
+3-2	Weitere	NN	Weiter	_	O	O	
+3-3	spare	VVFIN	sparen	_	O	O	
+3-4	ich	PPER	ich	_	O	O	
+3-5	auf	APPR	auf	_	O	O	
+3-6	unser	PPOSAT	unser	_	O	O	
+3-7	baldiges	ADJA	baldig	_	O	O	
+3-8	Wiedersehen	NN	Wiedersehen	_	O	O	
+3-9	auf	PTKVZ	auf	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Vor der Hand nur so viel, daß unsere Hochzeit den 22. October in Moskau stattgefunden hat, daß wir drei Tage in Petersburg, drei in Berlin, fünf in Dresden zugebracht haben, von wo wir übermorgen abzureisen gedenken.
+4-1	Vor	APPR	vor	_	O	O	
+4-2	der	ART	die	_	O	O	
+4-3	Hand	NN	Hand	_	O	O	
+4-4	nur	ADV	nur	_	O	O	
+4-5	so	ADV	so	_	O	O	
+4-6	viel	PIS	viele	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	daß	KOUS	dass	_	O	O	
+4-9	unsere	PPOSAT	unser	_	O	O	
+4-10	Hochzeit	NN	Hochzeit	_	O	O	
+4-11	den	ART	die	_	O	O	
+4-12	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-13	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-14	October	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-15	in	APPR	in	_	O	O	
+4-16	Moskau	NE	Moskau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-17	stattgefunden	VVPP	stattfinden	_	O	O	
+4-18	hat	VAFIN	haben	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	daß	KOUS	dass	_	O	O	
+4-21	wir	PPER	wir	_	O	O	
+4-22	drei	CARD	drei	_	O	O	
+4-23	Tage	NN	Tag	_	O	O	
+4-24	in	APPR	in	_	O	O	
+4-25	Petersburg	NE	Petersburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-26	,	$,	,	_	O	O	
+4-27	drei	CARD	drei	_	O	O	
+4-28	in	APPR	in	_	O	O	
+4-29	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-30	,	$,	,	_	O	O	
+4-31	fünf	CARD	fünf	_	O	O	
+4-32	in	APPR	in	_	O	O	
+4-33	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-34	zugebracht	VVPP	zubringen	_	O	O	
+4-35	haben	VAFIN	haben	_	O	O	
+4-36	,	$,	,	_	O	O	
+4-37	von	APPR	von	_	O	O	
+4-38	wo	PWAV	wo	_	O	O	
+4-39	wir	PPER	wir	_	O	O	
+4-40	übermorgen	ADV	übermorgen	_	O	O	
+4-41	abzureisen	VVIZU	abreisen	_	O	O	
+4-42	gedenken	VVFIN	gedenken	_	O	O	
+4-43	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich denke ziemlich direct zu reisen und nur einen Tag in Mailand, wo ich für Mommsen einen epigraphischen Auftrag bei Dr.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	denke	VVFIN	denken	_	O	O	
+5-3	ziemlich	ADV	ziemlich	_	O	O	
+5-4	direct	NE	direct	_	O	O	
+5-5	zu	PTKZU	zu	_	O	O	
+5-6	reisen	VVINF	reisen	_	O	O	
+5-7	und	KON	und	_	O	O	
+5-8	nur	ADV	nur	_	O	O	
+5-9	einen	ART	eine	_	O	O	
+5-10	Tag	NN	Tag	_	O	O	
+5-11	in	APPR	in	_	O	O	
+5-12	Mailand	NE	Mailand	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-13	,	$,	,	_	O	O	
+5-14	wo	PWAV	wo	_	O	O	
+5-15	ich	PPER	ich	_	O	O	
+5-16	für	APPR	für	_	O	O	
+5-17	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-18	einen	ART	eine	_	O	O	
+5-19	epigraphischen	ADJA	<unknown>	_	O	O	
+5-20	Auftrag	NN	Auftrag	_	O	O	
+5-21	bei	APPR	bei	_	O	O	
+5-22	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=6
+#text=Labus ausführen werde, und einen Tag in Florenz zu bleiben.
+6-1	Labus	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	ausführen	VVINF	ausführen	_	O	O	
+6-3	werde	VAFIN	werden	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	und	KON	und	_	O	O	
+6-6	einen	ART	eine	_	O	O	
+6-7	Tag	NN	Tag	_	O	O	
+6-8	in	APPR	in	_	O	O	
+6-9	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-10	zu	PTKZU	zu	_	O	O	
+6-11	bleiben	VVINF	bleiben	_	O	O	
+6-12	.	$.	.	_	O	O	
+
+#id=7
+#text=Um den 15. dieses Monats bin ich sicher in Rom, womit Sie gewiß sehr einverstanden sein werden.
+7-1	Um	KOUI	um	_	O	O	
+7-2	den	ART	die	_	O	O	
+7-3	15	CARD	15	_	O	O	
+7-4	.	$.	.	_	O	O	
+7-5	dieses	PDAT	dies	_	O	O	
+7-6	Monats	NN	Monat	_	O	O	
+7-7	bin	VAFIN	sein	_	O	O	
+7-8	ich	PPER	ich	_	O	O	
+7-9	sicher	ADJD	sicher	_	O	O	
+7-10	in	APPR	in	_	O	O	
+7-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-12	,	$,	,	_	O	O	
+7-13	womit	PWAV	womit	_	O	O	
+7-14	Sie	PPER	Sie	_	O	O	
+7-15	gewiß	ADJD	gewiss	_	O	O	
+7-16	sehr	ADV	sehr	_	O	O	
+7-17	einverstanden	VVPP	einverstehen	_	O	O	
+7-18	sein	VAINF	sein	_	O	O	
+7-19	werden	VAFIN	werden	_	O	O	
+7-20	.	$.	.	_	O	O	
+
+#id=8
+#text=Meine Frau grüßt Sie herzlich.
+8-1	Meine	PPOSAT	mein	_	O	O	
+8-2	Frau	NN	Frau	_	O	O	
+8-3	grüßt	VVFIN	grüßen	_	O	O	
+8-4	Sie	PPER	Sie	_	O	O	
+8-5	herzlich	ADJD	herzlich	_	O	O	
+8-6	.	$.	.	_	O	O	
+
+#id=9
+#text=Mit der Bitte mich der Frau Professorin zu empfehlen und die Kapitoliner zu grüßen Ihr ergebener Wolfgang Helbig •
+9-1	Mit	APPR	mit	_	O	O	
+9-2	der	ART	die	_	O	O	
+9-3	Bitte	NN	Bitte	_	O	O	
+9-4	mich	PRF	ich	_	O	O	
+9-5	der	ART	die	_	O	O	
+9-6	Frau	NN	Frau	_	O	O	
+9-7	Professorin	NN	Professorin	_	O	O	
+9-8	zu	PTKZU	zu	_	O	O	
+9-9	empfehlen	VVINF	empfehlen	_	O	O	
+9-10	und	KON	und	_	O	O	
+9-11	die	ART	die	_	O	O	
+9-12	Kapitoliner	NN	<unknown>	_	O	O	
+9-13	zu	PTKZU	zu	_	O	O	
+9-14	grüßen	VVINF	grüßen	_	O	O	
+9-15	Ihr	PPOSAT	ihr	_	O	O	
+9-16	ergebener	ADJA	ergeben	_	O	O	
+9-17	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-18	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-19	•	ADJA	<unknown>	_	O	O	
+

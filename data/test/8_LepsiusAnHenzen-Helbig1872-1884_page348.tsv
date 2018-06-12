@@ -1,0 +1,141 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=~8 L Verehrter Freund Lepsius an Helbig Berlin, 25. März 1881 Berlin, C., 25. März 1881 In der Villa Ludovisi existirt eine Büste eines Hyksoskönigs, die Lenormant erkannt und publicirt hat.
+1-1	~8	CARD	<unknown>	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1881	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	,	$,	,	_	O	O	
+1-16	C.	NE	C.	_	O	O	
+1-17	,	$,	,	_	O	O	
+1-18	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	1881	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	In	APPR	in	_	O	O	
+1-23	der	ART	die	_	O	O	
+1-24	Villa	NN	Villa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-25	Ludovisi	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+1-26	existirt	NN	<unknown>	_	O	O	
+1-27	eine	ART	eine	_	O	O	
+1-28	Büste	NN	Büste	_	O	O	
+1-29	eines	ART	eine	_	O	O	
+1-30	Hyksoskönigs	NN	<unknown>	_	O	O	
+1-31	,	$,	,	_	O	O	
+1-32	die	ART	die	_	O	O	
+1-33	Lenormant	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-34	erkannt	VVPP	erkennen	_	O	O	
+1-35	und	KON	und	_	O	O	
+1-36	publicirt	ADJD	<unknown>	_	O	O	
+1-37	hat	VAFIN	haben	_	O	O	
+1-38	.	$.	.	_	O	O	
+
+#id=2
+#text=Es wäre ein großer Gewinn für unser Museum wenn wir einen Abguß davon erhalten könnten.
+2-1	Es	PPER	es	_	O	O	
+2-2	wäre	VAFIN	sein	_	O	O	
+2-3	ein	ART	eine	_	O	O	
+2-4	großer	ADJA	groß	_	O	O	
+2-5	Gewinn	NN	Gewinn	_	O	O	
+2-6	für	APPR	für	_	O	O	
+2-7	unser	PPOSAT	unser	_	O	O	
+2-8	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-9	wenn	KOUS	wenn	_	O	O	
+2-10	wir	PPER	wir	_	O	O	
+2-11	einen	ART	eine	_	O	O	
+2-12	Abguß	NN	Abguß	_	O	O	
+2-13	davon	PAV	davon	_	O	O	
+2-14	erhalten	VVINF	erhalten	_	O	O	
+2-15	könnten	VMFIN	können	_	O	O	
+2-16	.	$.	.	_	O	O	
+
+#id=3
+#text=Wäre dies möglich ?
+3-1	Wäre	VAFIN	sein	_	O	O	
+3-2	dies	PDS	dies	_	O	O	
+3-3	möglich	ADJD	möglich	_	O	O	
+3-4	?	$.	?	_	O	O	
+
+#id=4
+#text=Wenn, so können nur Sie es erreichen.
+4-1	Wenn	KOUS	wenn	_	O	O	
+4-2	,	$,	,	_	O	O	
+4-3	so	ADV	so	_	O	O	
+4-4	können	VMFIN	können	_	O	O	
+4-5	nur	ADV	nur	_	O	O	
+4-6	Sie	PPER	Sie	_	O	O	
+4-7	es	PPER	es	_	O	O	
+4-8	erreichen	VVINF	erreichen	_	O	O	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=Vielleicht durch eine recht gute mano; Kosten nicht zu scheuen.
+5-1	Vielleicht	ADV	vielleicht	_	O	O	
+5-2	durch	APPR	durch	_	O	O	
+5-3	eine	ART	eine	_	O	O	
+5-4	recht	ADJD	recht	_	O	O	
+5-5	gute	ADJA	gut	_	O	O	
+5-6	mano	NN	<unknown>	_	O	O	
+5-7	;	$.	;	_	O	O	
+5-8	Kosten	NN	Kosten	_	O	O	
+5-9	nicht	PTKNEG	nicht	_	O	O	
+5-10	zu	PTKZU	zu	_	O	O	
+5-11	scheuen	VVINF	scheuen	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Senden Sie mir eine günstige Antwort.
+6-1	Senden	VVFIN	senden	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	mir	PRF	ich	_	O	O	
+6-4	eine	ART	eine	_	O	O	
+6-5	günstige	ADJA	günstig	_	O	O	
+6-6	Antwort	NN	Antwort	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=Sie sehen, ich stammle wider mit meiner rechten Rand.
+7-1	Sie	PPER	Sie	_	O	O	
+7-2	sehen	VVFIN	sehen	_	O	O	
+7-3	,	$,	,	_	O	O	
+7-4	ich	PPER	ich	_	O	O	
+7-5	stammle	VVFIN	stammeln	_	O	O	
+7-6	wider	APPR	wider	_	O	O	
+7-7	mit	APPR	mit	_	O	O	
+7-8	meiner	PPOSAT	mein	_	O	O	
+7-9	rechten	ADJA	recht|rechts	_	O	O	
+7-10	Rand	NN	Rand	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=In alter Freundschaft Ihr ergebenster R Lepsius Empfehlen Sie mich Ihrer Frau Gemahlin und grüssen Sie Renzen herzlich.
+8-1	In	APPR	in	_	O	O	
+8-2	alter	ADJA	alt	_	O	O	
+8-3	Freundschaft	NN	Freundschaft	_	O	O	
+8-4	Ihr	PPOSAT	ihr	_	O	O	
+8-5	ergebenster	ADJA	<unknown>	_	O	O	
+8-6	R	NN	R	_	O	O	
+8-7	Lepsius	NE	<unknown>	_	O	O	
+8-8	Empfehlen	NN	Empfehlen	_	O	O	
+8-9	Sie	PPER	Sie	_	O	O	
+8-10	mich	PRF	ich	_	O	O	
+8-11	Ihrer	PPOSAT	ihr	_	O	O	
+8-12	Frau	NN	Frau	_	O	O	
+8-13	Gemahlin	NN	Gemahlin	_	O	O	
+8-14	und	KON	und	_	O	O	
+8-15	grüssen	VVFIN	grüßen	_	O	O	
+8-16	Sie	PPER	Sie	_	O	O	
+8-17	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-18	herzlich	ADJD	herzlich	_	O	O	
+8-19	.	$.	.	_	O	O	
+

@@ -1,0 +1,244 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Gerhard an Braun Berlin, 29. Dezember 1848 g. 11/1 49 r. 13/1 49 Dr. Braun Berlin 29 Dec 48 Mein theurer Freund.
+1-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1848	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	g.	VVFIN	<unknown>	_	O	O	
+1-11	11/1	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-12	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-13	r.	ADJA	<unknown>	_	O	O	
+1-14	13/1	CARD	@card@	_	O	O	
+1-15	49	CARD	@card@	_	O	O	
+1-16	Dr.	NN	Dr.	_	O	O	
+1-17	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-18	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-19	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	Dec	NE	Dec	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	48	CARD	48	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Mein	PPOSAT	mein	_	O	O	
+1-23	theurer	ADJA	<unknown>	_	O	O	
+1-24	Freund	NN	Freund	_	O	O	
+1-25	.	$.	.	_	O	O	
+
+#id=2
+#text=In den jetzigen Zeitläuften, wo 4 Wochen früher oder später so viel ausmachen, kann ich mich kaum entschließen den günstigen Zeitpunkt zur Einreichung Ihrer Eingabe an Seine Majestät bloß darum vorbei gehn zu lassen weil Newton und das durch ihn gesandte Exemplar des Index ausbleibt.
+2-1	In	APPR	in	_	O	O	
+2-2	den	ART	die	_	O	O	
+2-3	jetzigen	ADJA	jetzig	_	O	O	
+2-4	Zeitläuften	NN	<unknown>	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	wo	PWAV	wo	_	O	O	
+2-7	4	CARD	4	_	O	O	
+2-8	Wochen	NN	Woche	_	O	O	
+2-9	früher	ADJD	früh	_	O	O	
+2-10	oder	KON	oder	_	O	O	
+2-11	später	ADJD	spät	_	O	O	
+2-12	so	ADV	so	_	O	O	
+2-13	viel	PIS	viele	_	O	O	
+2-14	ausmachen	VVFIN	ausmachen	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	kann	VMFIN	können	_	O	O	
+2-17	ich	PPER	ich	_	O	O	
+2-18	mich	PRF	ich	_	O	O	
+2-19	kaum	ADV	kaum	_	O	O	
+2-20	entschließen	VVFIN	entschließen	_	O	O	
+2-21	den	ART	die	_	O	O	
+2-22	günstigen	ADJA	günstig	_	O	O	
+2-23	Zeitpunkt	NN	Zeitpunkt	_	O	O	
+2-24	zur	APPRART	zu	_	O	O	
+2-25	Einreichung	NN	Einreichung	_	O	O	
+2-26	Ihrer	PPOSAT	ihr	_	O	O	
+2-27	Eingabe	NN	Eingabe	_	O	O	
+2-28	an	APPR	an	_	O	O	
+2-29	Seine	PPOSAT	sein	_	O	O	
+2-30	Majestät	NN	Majestät	_	O	O	
+2-31	bloß	ADJD	bloß	_	O	O	
+2-32	darum	PAV	darum	_	O	O	
+2-33	vorbei	ADV	vorbei	_	O	O	
+2-34	gehn	ADJD	<unknown>	_	O	O	
+2-35	zu	PTKZU	zu	_	O	O	
+2-36	lassen	VVINF	lassen	_	O	O	
+2-37	weil	KOUS	weil	_	O	O	
+2-38	Newton	NE	Newton	_	O	O	
+2-39	und	KON	und	_	O	O	
+2-40	das	ART	die	_	O	O	
+2-41	durch	APPR	durch	_	O	O	
+2-42	ihn	PPER	er	_	O	O	
+2-43	gesandte	ADJA	gesandt	_	O	O	
+2-44	Exemplar	NN	Exemplar	_	O	O	
+2-45	des	ART	die	_	O	O	
+2-46	Index	NN	Index	_	O	O	
+2-47	ausbleibt	VVFIN	ausbleiben	_	O	O	
+2-48	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich will also eine Form riskiren bei welcher ich das Ausbleiben des Index zu entschuldigen habe, stelle dafür aber Ihnen anheim dafür zu sorgen daß für alle Fälle noch ein andres Exemplar des gedachten in Ihrem Brief angemeldeten Index mir zu Randen komme.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	will	VMFIN	wollen	_	O	O	
+3-3	also	ADV	also	_	O	O	
+3-4	eine	ART	eine	_	O	O	
+3-5	Form	NN	Form	_	O	O	
+3-6	riskiren	NN	<unknown>	_	O	O	
+3-7	bei	APPR	bei	_	O	O	
+3-8	welcher	PIS	welche	_	O	O	
+3-9	ich	PPER	ich	_	O	O	
+3-10	das	ART	die	_	O	O	
+3-11	Ausbleiben	NN	Ausbleiben	_	O	O	
+3-12	des	ART	die	_	O	O	
+3-13	Index	NN	Index	_	O	O	
+3-14	zu	PTKZU	zu	_	O	O	
+3-15	entschuldigen	VVINF	entschuldigen	_	O	O	
+3-16	habe	VAFIN	haben	_	O	O	
+3-17	,	$,	,	_	O	O	
+3-18	stelle	VVFIN	stellen	_	O	O	
+3-19	dafür	PAV	dafür	_	O	O	
+3-20	aber	ADV	aber	_	O	O	
+3-21	Ihnen	PPER	Sie	_	O	O	
+3-22	anheim	PTKVZ	anheim	_	O	O	
+3-23	dafür	PAV	dafür	_	O	O	
+3-24	zu	PTKZU	zu	_	O	O	
+3-25	sorgen	VVINF	sorgen	_	O	O	
+3-26	daß	KOUS	dass	_	O	O	
+3-27	für	APPR	für	_	O	O	
+3-28	alle	PIAT	alle	_	O	O	
+3-29	Fälle	NN	Fall	_	O	O	
+3-30	noch	ADV	noch	_	O	O	
+3-31	ein	ART	eine	_	O	O	
+3-32	andres	PIAT	andere	_	O	O	
+3-33	Exemplar	NN	Exemplar	_	O	O	
+3-34	des	ART	die	_	O	O	
+3-35	gedachten	ADJA	gedacht	_	O	O	
+3-36	in	APPR	in	_	O	O	
+3-37	Ihrem	PPOSAT	ihr	_	O	O	
+3-38	Brief	NN	Brief	_	O	O	
+3-39	angemeldeten	ADJA	angemeldet	_	O	O	
+3-40	Index	NN	Index	_	O	O	
+3-41	mir	PRF	ich	_	O	O	
+3-42	zu	APPR	zu	_	O	O	
+3-43	Randen	NN	<unknown>	_	O	O	
+3-44	komme	VVFIN	kommen	_	O	O	
+3-45	.	$.	.	_	O	O	
+
+#id=4
+#text=In meinem letzten Brief vergaß ich anzuzeigen daß ein nach Rom gehöriges BücheI'paket von Leemans bei mir liegt; es war zu groß um es noch bei Usedom aufzupacken.
+4-1	In	APPR	in	_	O	O	
+4-2	meinem	PPOSAT	mein	_	O	O	
+4-3	letzten	ADJA	letzt	_	O	O	
+4-4	Brief	NN	Brief	_	O	O	
+4-5	vergaß	VVFIN	vergessen	_	O	O	
+4-6	ich	PPER	ich	_	O	O	
+4-7	anzuzeigen	VVIZU	anzeigen	_	O	O	
+4-8	daß	KOUS	dass	_	O	O	
+4-9	ein	ART	eine	_	O	O	
+4-10	nach	APPR	nach	_	O	O	
+4-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-12	gehöriges	ADJA	gehörig	_	O	O	
+4-13	BücheI'paket	NN	<unknown>	_	O	O	
+4-14	von	APPR	von	_	O	O	
+4-15	Leemans	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-16	bei	APPR	bei	_	O	O	
+4-17	mir	PPER	ich	_	O	O	
+4-18	liegt	VVFIN	liegen	_	O	O	
+4-19	;	$.	;	_	O	O	
+4-20	es	PPER	es	_	O	O	
+4-21	war	VAFIN	sein	_	O	O	
+4-22	zu	PTKA	zu	_	O	O	
+4-23	groß	ADJD	groß	_	O	O	
+4-24	um	APPR	um	_	O	O	
+4-25	es	PPER	es	_	O	O	
+4-26	noch	ADV	noch	_	O	O	
+4-27	bei	APPR	bei	_	O	O	
+4-28	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-29	aufzupacken	VVIZU	<unknown>	_	O	O	
+4-30	.	$.	.	_	O	O	
+
+#id=5
+#text=Bestimmen Sie also wie es Ihnen zugehn könne.
+5-1	Bestimmen	VVFIN	bestimmen	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	also	ADV	also	_	O	O	
+5-4	wie	KOUS	wie	_	O	O	
+5-5	es	PPER	es	_	O	O	
+5-6	Ihnen	PPER	Sie	_	O	O	
+5-7	zugehn	VVINF	<unknown>	_	O	O	
+5-8	könne	VMFIN	können	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich habe ab Jahn geschrieben um womöglich Ihr Galvanoplasticum statt des Index einzureichen.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	habe	VAFIN	haben	_	O	O	
+6-3	ab	APPR	ab	_	O	O	
+6-4	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	geschrieben	VVPP	schreiben	_	O	O	
+6-6	um	APPR	um	_	O	O	
+6-7	womöglich	ADV	womöglich	_	O	O	
+6-8	Ihr	PPOSAT	ihr	_	O	O	
+6-9	Galvanoplasticum	NN	<unknown>	_	O	O	
+6-10	statt	APPR	statt	_	O	O	
+6-11	des	ART	die	_	O	O	
+6-12	Index	NN	Index	_	O	O	
+6-13	einzureichen	VVIZU	einreichen	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Mommsen hat mir ein Druckspecimen seiner Inschriftensammlung gesandt, das sich sehr wohl ausnimmt, nur müßte die Akademie mehr Geld haben als sie hat und nach dem' i,: der Zumpte etwas glimpflicher behandelt worden - ~ .
+7-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	hat	VAFIN	haben	_	O	O	
+7-3	mir	PPER	ich	_	O	O	
+7-4	ein	ART	eine	_	O	O	
+7-5	Druckspecimen	NN	<unknown>	_	O	O	
+7-6	seiner	PPOSAT	sein	_	O	O	
+7-7	Inschriftensammlung	NN	<unknown>	_	O	O	
+7-8	gesandt	VVPP	senden	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	das	PRELS	die	_	O	O	
+7-11	sich	PRF	sich	_	O	O	
+7-12	sehr	ADV	sehr	_	O	O	
+7-13	wohl	ADV	wohl	_	O	O	
+7-14	ausnimmt	VVFIN	ausnehmen	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	nur	ADV	nur	_	O	O	
+7-17	müßte	VMFIN	müssen	_	O	O	
+7-18	die	ART	die	_	O	O	
+7-19	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-20	mehr	PIAT	mehr	_	O	O	
+7-21	Geld	NN	Geld	_	O	O	
+7-22	haben	VAFIN	haben	_	O	O	
+7-23	als	KOKOM	als	_	O	O	
+7-24	sie	PPER	sie	_	O	O	
+7-25	hat	VAFIN	haben	_	O	O	
+7-26	und	KON	und	_	O	O	
+7-27	nach	APPR	nach	_	O	O	
+7-28	dem	ART	die	_	O	O	
+7-29	'	$(	'	_	O	O	
+7-30	i	FM	i	_	O	O	
+7-31	,	$,	,	_	O	O	
+7-32	:	$.	:	_	O	O	
+7-33	der	ART	die	_	O	O	
+7-34	Zumpte	NN	<unknown>	_	O	O	
+7-35	etwas	ADV	etwas	_	O	O	
+7-36	glimpflicher	ADJD	glimpflich	_	O	O	
+7-37	behandelt	VVPP	behandeln	_	O	O	
+7-38	worden	VAPP	werden	_	O	O	
+7-39	-	$(	-	_	O	O	
+7-40	~	XY	~	_	O	O	
+7-41	.	$.	.	_	O	O	
+
+#id=8
+#text=!
+8-1	!	$.	!	_	O	O	
+
+#id=9
+#text=~ ;;
+9-1	~	XY	~	_	O	O	
+9-2	;	$.	;	_	O	O	
+9-3	;	$.	;	_	O	O	
+

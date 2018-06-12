@@ -1,0 +1,400 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=( ) 86 27/111/51 Henzen an Gerhard Verehrter Herr Professor Verzeihen Sie mein langes Stillschweigen.
+1-1	(	$(	(	_	O	O	
+1-2	)	$(	)	_	O	O	
+1-3	86	CARD	86	_	O	O	
+1-4	27/111/51	CARD	@card@	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Verehrter	ADJA	verehrt	_	O	O	
+1-9	Herr	NN	Herr	_	O	O	
+1-10	Professor	NN	Professor	_	O	O	
+1-11	Verzeihen	NN	Verzeihen	_	O	O	
+1-12	Sie	PPER	Sie	_	O	O	
+1-13	mein	PPOSAT	mein	_	O	O	
+1-14	langes	ADJA	lang	_	O	O	
+1-15	Stillschweigen	NN	Stillschweigen	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Stoffmangel trägt die Schuld daran.
+2-1	Stoffmangel	NN	<unknown>	_	O	O	
+2-2	trägt	VVFIN	tragen	_	O	O	
+2-3	die	ART	die	_	O	O	
+2-4	Schuld	NN	Schuld	_	O	O	
+2-5	daran	PAV	daran	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Diplome erhielt ich, muß aber gestehen, dß.
+3-1	Diplome	NN	Diplom	_	O	O	
+3-2	erhielt	VVFIN	erhalten	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	muß	VMFIN	müssen	_	O	O	
+3-6	aber	ADV	aber	_	O	O	
+3-7	gestehen	VVINF	gestehen	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	dß	VVFIN	<unknown>	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=ich mit den Nummern etwas in Confusion ge rathen bin, wohl dh.
+4-1	ich	PPER	ich	_	O	O	
+4-2	mit	APPR	mit	_	O	O	
+4-3	den	ART	die	_	O	O	
+4-4	Nummern	NN	Nummer	_	O	O	
+4-5	etwas	ADV	etwas	_	O	O	
+4-6	in	APPR	in	_	O	O	
+4-7	Confusion	NN	<unknown>	_	O	O	
+4-8	ge	ADJA	<unknown>	_	O	O	
+4-9	rathen	NN	<unknown>	_	O	O	
+4-10	bin	VAFIN	sein	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	wohl	ADV	wohl	_	O	O	
+4-13	dh.	NE	<unknown>	_	O	O	
+
+#id=5
+#text=eigne Schuld, aber auch durch den Mangel an Formularen, dem ich mit Braun, da bei Einigen, wie Tolley und Giorgi, Eile nöthig war, dh.
+5-1	eigne	ADJA	eigen	_	O	O	
+5-2	Schuld	NN	Schuld	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	aber	KON	aber	_	O	O	
+5-5	auch	ADV	auch	_	O	O	
+5-6	durch	APPR	durch	_	O	O	
+5-7	den	ART	die	_	O	O	
+5-8	Mangel	NN	Mangel	_	O	O	
+5-9	an	APPR	an	_	O	O	
+5-10	Formularen	NN	Formular	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	dem	PRELS	die	_	O	O	
+5-13	ich	PPER	ich	_	O	O	
+5-14	mit	APPR	mit	_	O	O	
+5-15	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-16	,	$,	,	_	O	O	
+5-17	da	ADV	da	_	O	O	
+5-18	bei	APPR	bei	_	O	O	
+5-19	Einigen	NN	Einigen	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	wie	KOUS	wie	_	O	O	
+5-22	Tolley	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-23	und	KON	und	_	O	O	
+5-24	Giorgi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-25	,	$,	,	_	O	O	
+5-26	Eile	NN	Eile	_	O	O	
+5-27	nöthig	ADJD	<unknown>	_	O	O	
+5-28	war	VAFIN	sein	_	O	O	
+5-29	,	$,	,	_	O	O	
+5-30	dh.	NE	<unknown>	_	O	O	
+
+#id=6
+#text=Benutzung von ein paar alten, noch mit Unterschrift versehenen Diplomen aus Thorwalde sins Zeit abhalf.
+6-1	Benutzung	NN	Benutzung	_	O	O	
+6-2	von	APPR	von	_	O	O	
+6-3	ein	ART	eine	_	O	O	
+6-4	paar	PIAT	paar	_	O	O	
+6-5	alten	ADJA	alt	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	noch	ADV	noch	_	O	O	
+6-8	mit	APPR	mit	_	O	O	
+6-9	Unterschrift	NN	Unterschrift	_	O	O	
+6-10	versehenen	ADJA	versehen	_	O	O	
+6-11	Diplomen	NN	Diplom	_	O	O	
+6-12	aus	APPR	aus	_	O	O	
+6-13	Thorwalde	NN	<unknown>	_	O	O	
+6-14	sins	ADJA	<unknown>	_	O	O	
+6-15	Zeit	NN	Zeit	_	O	O	
+6-16	abhalf	VVFIN	<unknown>	_	O	O	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich habe 364 Cremonese als M. Onor. für die Bronzetafel v. Agnone; 365 Giorgi.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	habe	VAFIN	haben	_	O	O	
+7-3	364	CARD	@card@	_	O	O	
+7-4	Cremonese	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-5	als	KOKOM	als	_	O	O	
+7-6	M.	NE	M.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-7	Onor	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-8	.	$.	.	_	O	O	
+7-9	für	APPR	für	_	O	O	
+7-10	die	ART	die	_	O	O	
+7-11	Bronzetafel	NN	Bronzetafel	_	O	O	
+7-12	v.	APPR	von	_	O	O	
+7-13	Agnone	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-14	;	$.	;	_	O	O	
+7-15	365	CARD	@card@	_	O	O	
+7-16	Giorgi	NE	<unknown>	_	O	O	
+7-17	.	$.	.	_	O	O	
+
+#id=8
+#text=366 Tolley.
+8-1	366	CARD	@card@	_	O	O	
+8-2	Tolley	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	.	$.	.	_	O	O	
+
+#id=9
+#text=367 Sablyar.
+9-1	367	CARD	@card@	_	O	O	
+9-2	Sablyar	NE	<unknown>	_	O	O	
+9-3	.	$.	.	_	O	O	
+
+#id=10
+#text=G /t- • a1rucc~.
+10-1	G	NN	G	_	O	O	
+10-2	/t-	ADJA	<unknown>	_	O	O	
+10-3	•	NN	<unknown>	_	O	O	
+10-4	a1rucc~	VVFIN	<unknown>	_	O	O	
+10-5	.	$.	.	_	O	O	
+
+#id=11
+#text=368 Fabbris.
+11-1	368	CARD	@card@	_	O	O	
+11-2	Fabbris	NN	<unknown>	_	O	O	
+11-3	.	$.	.	_	O	O	
+
+#id=12
+#text=372 Zinanni.
+12-1	372	CARD	@card@	_	O	O	
+12-2	Zinanni	NN	<unknown>	_	O	O	
+12-3	.	$.	.	_	O	O	
+
+#id=13
+#text=369 Visconti.
+13-1	369	CARD	@card@	_	O	O	
+13-2	Visconti	NN	Visconte	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-3	.	$.	.	_	O	O	
+
+#id=14
+#text=370 Vescovali.
+14-1	370	CARD	370	_	O	O	
+14-2	Vescovali	NN	<unknown>	_	O	O	
+14-3	.	$.	.	_	O	O	
+
+#id=15
+#text=371 Wahrscheinlich habe ich irgend einen Brief von Ihnen, der Nummern enthielt, übersehen; verzeihen Sie I - Neigebaur wird Ihnen wohl schon über die Pergamene von Arborea berichtet haben.
+15-1	371	CARD	@card@	_	O	O	
+15-2	Wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+15-3	habe	VAFIN	haben	_	O	O	
+15-4	ich	PPER	ich	_	O	O	
+15-5	irgend	ADV	irgend	_	O	O	
+15-6	einen	ART	eine	_	O	O	
+15-7	Brief	NN	Brief	_	O	O	
+15-8	von	APPR	von	_	O	O	
+15-9	Ihnen	PPER	Sie	_	O	O	
+15-10	,	$,	,	_	O	O	
+15-11	der	ART	die	_	O	O	
+15-12	Nummern	NN	Nummer	_	O	O	
+15-13	enthielt	VVFIN	enthalten	_	O	O	
+15-14	,	$,	,	_	O	O	
+15-15	übersehen	VVPP	übersehen	_	O	O	
+15-16	;	$.	;	_	O	O	
+15-17	verzeihen	VVFIN	verzeihen	_	O	O	
+15-18	Sie	PPER	Sie	_	O	O	
+15-19	I	FM	I	_	O	O	
+15-20	-	$(	-	_	O	O	
+15-21	Neigebaur	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-22	wird	VAFIN	werden	_	O	O	
+15-23	Ihnen	PPER	Sie	_	O	O	
+15-24	wohl	ADV	wohl	_	O	O	
+15-25	schon	ADV	schon	_	O	O	
+15-26	über	APPR	über	_	O	O	
+15-27	die	ART	die	_	O	O	
+15-28	Pergamene	NN	<unknown>	_	O	O	
+15-29	von	APPR	von	_	O	O	
+15-30	Arborea	NN	<unknown>	_	O	O	
+15-31	berichtet	VVPP	berichten	_	O	O	
+15-32	haben	VAINF	haben	_	O	O	
+15-33	.	$.	.	_	O	O	
+
+#id=16
+#text=Da wir in Sardinien keinen Correspondenten haben, so wäre Martini Pietro, Bibliothekar in Cagliari, wohl annehmbar, der einen Brief voller Versprechungen an das Institut gerichtet, auch seine Pergamene an uns abgeschickt hat.
+16-1	Da	KOUS	da	_	O	O	
+16-2	wir	PPER	wir	_	O	O	
+16-3	in	APPR	in	_	O	O	
+16-4	Sardinien	NE	Sardinien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+16-5	keinen	PIAT	keine	_	O	O	
+16-6	Correspondenten	NN	<unknown>	_	O	O	
+16-7	haben	VAFIN	haben	_	O	O	
+16-8	,	$,	,	_	O	O	
+16-9	so	ADV	so	_	O	O	
+16-10	wäre	VAFIN	sein	_	O	O	
+16-11	Martini	NE	Martini	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-12	Pietro	NE	Pietro	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+16-13	,	$,	,	_	O	O	
+16-14	Bibliothekar	NN	Bibliothekar	_	O	O	
+16-15	in	APPR	in	_	O	O	
+16-16	Cagliari	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+16-17	,	$,	,	_	O	O	
+16-18	wohl	ADV	wohl	_	O	O	
+16-19	annehmbar	ADJD	annehmbar	_	O	O	
+16-20	,	$,	,	_	O	O	
+16-21	der	PRELS	die	_	O	O	
+16-22	einen	ART	eine	_	O	O	
+16-23	Brief	NN	Brief	_	O	O	
+16-24	voller	ADJA	voll	_	O	O	
+16-25	Versprechungen	NN	Versprechung	_	O	O	
+16-26	an	APPR	an	_	O	O	
+16-27	das	ART	die	_	O	O	
+16-28	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+16-29	gerichtet	VVPP	richten	_	O	O	
+16-30	,	$,	,	_	O	O	
+16-31	auch	ADV	auch	_	O	O	
+16-32	seine	PPOSAT	sein	_	O	O	
+16-33	Pergamene	NN	<unknown>	_	O	O	
+16-34	an	APPR	an	_	O	O	
+16-35	uns	PRF	wir	_	O	O	
+16-36	abgeschickt	VVPP	abschicken	_	O	O	
+16-37	hat	VAFIN	haben	_	O	O	
+16-38	.	$.	.	_	O	O	
+
+#id=17
+#text=- Für Rom hat Braun wohl den Geologen Ponzi vorgeschlagen.
+17-1	-	$(	-	_	O	O	
+17-2	Für	APPR	für	_	O	O	
+17-3	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+17-4	hat	VAFIN	haben	_	O	O	
+17-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-6	wohl	ADV	wohl	_	O	O	
+17-7	den	ART	die	_	O	O	
+17-8	Geologen	NN	Geologe	_	O	O	
+17-9	Ponzi	NE	<unknown>	_	O	O	
+17-10	vorgeschlagen	VVPP	vorschlagen	_	O	O	
+17-11	.	$.	.	_	O	O	
+
+#id=18
+#text=- Birch werden Sie in ~ einem Adunanzberichte lesen.
+18-1	-	$(	-	_	O	O	
+18-2	Birch	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-3	werden	VAFIN	werden	_	O	O	
+18-4	Sie	PPER	Sie	_	O	O	
+18-5	in	APPR	in	_	O	O	
+18-6	~	XY	~	_	O	O	
+18-7	einem	ART	eine	_	O	O	
+18-8	Adunanzberichte	NN	<unknown>	_	O	O	
+18-9	lesen	VVINF	lesen	_	O	O	
+18-10	.	$.	.	_	O	O	
+
+#id=19
+#text=- Schrieben Sie noch nicht an ~~ Köhnr, so können bie beifügen, es sei auch 1850 für ihn abgeliefert an die Gesandtschaft, im Packete des Ministeriums ds.
+19-1	-	$(	-	_	O	O	
+19-2	Schrieben	VVFIN	schreiben	_	O	O	
+19-3	Sie	PPER	Sie	_	O	O	
+19-4	noch	ADV	noch	_	O	O	
+19-5	nicht	PTKNEG	nicht	_	O	O	
+19-6	an	APPR	an	_	O	O	
+19-7	~~	ADJA	<unknown>	_	O	O	
+19-8	Köhnr	NN	<unknown>	_	O	O	
+19-9	,	$,	,	_	O	O	
+19-10	so	ADV	so	_	O	O	
+19-11	können	VMFIN	können	_	O	O	
+19-12	bie	ADJD	<unknown>	_	O	O	
+19-13	beifügen	VVINF	beifügen	_	O	O	
+19-14	,	$,	,	_	O	O	
+19-15	es	PPER	es	_	O	O	
+19-16	sei	VAFIN	sein	_	O	O	
+19-17	auch	ADV	auch	_	O	O	
+19-18	1850	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+19-19	für	APPR	für	_	O	O	
+19-20	ihn	PPER	er	_	O	O	
+19-21	abgeliefert	VVPP	abliefern	_	O	O	
+19-22	an	APPR	an	_	O	O	
+19-23	die	ART	die	_	O	O	
+19-24	Gesandtschaft	NN	Gesandtschaft	_	O	O	
+19-25	,	$,	,	_	O	O	
+19-26	im	APPRART	in	_	O	O	
+19-27	Packete	NN	<unknown>	_	O	O	
+19-28	des	ART	die	_	O	O	
+19-29	Ministeriums	NN	Ministerium	_	O	O	
+19-30	ds.	ADJD	<unknown>	_	O	O	
+
+#id=20
+#text=öffentl.
+20-1	öffentl.	NE	<unknown>	_	O	O	
+
+#id=21
+#text=Unterrichts.
+21-1	Unterrichts	NN	Unterricht	_	O	O	
+21-2	.	$.	.	_	O	O	
+
+#id=22
+#text=- Ein Bogen unter Kreuzband 2 Baj.
+22-1	-	$(	-	_	O	O	
+22-2	Ein	ART	eine	_	O	O	
+22-3	Bogen	NN	Bogen	_	O	O	
+22-4	unter	APPR	unter	_	O	O	
+22-5	Kreuzband	NN	Kreuzband	_	O	O	
+22-6	2	CARD	2	_	O	O	
+22-7	Baj	VVFIN	<unknown>	_	O	O	
+22-8	.	$.	.	_	O	O	
+
+#id=23
+#text=Briefe zahlen alle gleich, u. die Postreformen merkt man hier noch nicht.
+23-1	Briefe	NN	Brief	_	O	O	
+23-2	zahlen	VVFIN	zahlen	_	O	O	
+23-3	alle	PIS	alle	_	O	O	
+23-4	gleich	ADJD	gleich	_	O	O	
+23-5	,	$,	,	_	O	O	
+23-6	u.	APPR	um	_	O	O	
+23-7	die	ART	die	_	O	O	
+23-8	Postreformen	NN	<unknown>	_	O	O	
+23-9	merkt	VVFIN	merken	_	O	O	
+23-10	man	PIS	man	_	O	O	
+23-11	hier	ADV	hier	_	O	O	
+23-12	noch	ADV	noch	_	O	O	
+23-13	nicht	PTKNEG	nicht	_	O	O	
+23-14	.	$.	.	_	O	O	
+
+#id=24
+#text=- Lachmanns Tod thut mir sehr leid.
+24-1	-	$(	-	_	O	O	
+24-2	Lachmanns	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+24-3	Tod	NN	Tod	_	O	O	
+24-4	thut	VVFIN	<unknown>	_	O	O	
+24-5	mir	PPER	ich	_	O	O	
+24-6	sehr	ADV	sehr	_	O	O	
+24-7	leid	ADJD	leid	_	O	O	
+24-8	.	$.	.	_	O	O	
+
+#id=25
+#text=So '- sind Sie also der Einzige, der noch im Nothfalle in Berlin ein vernünftiges C.I.L. vertreten würde 1 ZU~ino'S neustes Opus ist doch bei einigem Guten wieder so voll ds.
+25-1	So	ADV	so	_	O	O	
+25-2	'	$(	'	_	O	O	
+25-3	-	$(	-	_	O	O	
+25-4	sind	VAFIN	sein	_	O	O	
+25-5	Sie	PPER	Sie	_	O	O	
+25-6	also	ADV	also	_	O	O	
+25-7	der	ART	die	_	O	O	
+25-8	Einzige	NN	Einzige	_	O	O	
+25-9	,	$,	,	_	O	O	
+25-10	der	PRELS	die	_	O	O	
+25-11	noch	ADV	noch	_	O	O	
+25-12	im	APPRART	in	_	O	O	
+25-13	Nothfalle	NN	<unknown>	_	O	O	
+25-14	in	APPR	in	_	O	O	
+25-15	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+25-16	ein	ART	eine	_	O	O	
+25-17	vernünftiges	ADJA	vernünftig	_	O	O	
+25-18	C.I.L.	NE	<unknown>	_	O	O	
+25-19	vertreten	VVINF	vertreten	_	O	O	
+25-20	würde	VAFIN	werden	_	O	O	
+25-21	1	CARD	1	_	O	O	
+25-22	ZU~ino'S	NN	<unknown>	_	O	O	
+25-23	neustes	ADJA	neu	_	O	O	
+25-24	Opus	NN	Opus	_	O	O	
+25-25	ist	VAFIN	sein	_	O	O	
+25-26	doch	ADV	doch	_	O	O	
+25-27	bei	APPR	bei	_	O	O	
+25-28	einigem	PIAT	einige	_	O	O	
+25-29	Guten	NN	Gute	_	O	O	
+25-30	wieder	ADV	wieder	_	O	O	
+25-31	so	ADV	so	_	O	O	
+25-32	voll	ADJD	voll	_	O	O	
+25-33	ds.	ADJA	<unknown>	_	O	O	
+
+#id=26
+#text=Ver-
+26-1	Ver-	TRUNC	Ver-	_	O	O	
+

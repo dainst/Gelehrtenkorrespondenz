@@ -1,0 +1,110 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=55 5/11/52 2 Henzen an Gerhard jetzt besuchte Quelle schon seit den Urzeiten ein Badeort, der gefundne Schatz allm~ählich angesammelt, indem jeder Besuchende eine Kupfermünze hinein warf.
+1-1	55	CARD	@card@	_	O	O	
+1-2	5/11/52	CARD	@card@	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	jetzt	ADV	jetzt	_	O	O	
+1-8	besuchte	ADJA	besucht	_	O	O	
+1-9	Quelle	NN	Quelle	_	O	O	
+1-10	schon	ADV	schon	_	O	O	
+1-11	seit	APPR	seit	_	O	O	
+1-12	den	ART	die	_	O	O	
+1-13	Urzeiten	NN	Urzeit	_	O	O	
+1-14	ein	ART	eine	_	O	O	
+1-15	Badeort	NN	Badeort	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	der	ART	die	_	O	O	
+1-18	gefundne	ADJA	<unknown>	_	O	O	
+1-19	Schatz	NN	Schatz	_	O	O	
+1-20	allm~ählich	ADJD	<unknown>	_	O	O	
+1-21	angesammelt	VVPP	ansammeln	_	O	O	
+1-22	,	$,	,	_	O	O	
+1-23	indem	KOUS	indem	_	O	O	
+1-24	jeder	PIAT	jede	_	O	O	
+1-25	Besuchende	NN	<unknown>	_	O	O	
+1-26	eine	ART	eine	_	O	O	
+1-27	Kupfermünze	NN	<unknown>	_	O	O	
+1-28	hinein	ADV	hinein	_	O	O	
+1-29	warf	VVFIN	werfen	_	O	O	
+1-30	.	$.	.	_	O	O	
+
+#id=2
+#text=P. Marchi hat die Sachen unter Händen; doch scheint es, dß.
+2-1	P.	NE	P.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	Marchi	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-3	hat	VAFIN	haben	_	O	O	
+2-4	die	ART	die	_	O	O	
+2-5	Sachen	NN	Sache	_	O	O	
+2-6	unter	APPR	unter	_	O	O	
+2-7	Händen	NN	Hand	_	O	O	
+2-8	;	$.	;	_	O	O	
+2-9	doch	ADV	doch	_	O	O	
+2-10	scheint	VVFIN	scheinen	_	O	O	
+2-11	es	PPER	es	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	dß	VVFIN	<unknown>	_	O	O	
+2-14	.	$.	.	_	O	O	
+
+#id=3
+#text=er schnell ediren wird.
+3-1	er	PPER	er	_	O	O	
+3-2	schnell	ADJD	schnell	_	O	O	
+3-3	ediren	NN	<unknown>	_	O	O	
+3-4	wird	VAFIN	werden	_	O	O	
+3-5	.	$.	.	_	O	O	
+
+#id=4
+#text=Leben Sie wohl.
+4-1	Leben	VVFIN	leben	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	wohl	ADV	wohl	_	O	O	
+4-4	.	$.	.	_	O	O	
+
+#id=5
+#text=Meine Frau grüßt mit mir Sie u. die Ihrige.
+5-1	Meine	PPOSAT	mein	_	O	O	
+5-2	Frau	NN	Frau	_	O	O	
+5-3	grüßt	VVFIN	grüßen	_	O	O	
+5-4	mit	APPR	mit	_	O	O	
+5-5	mir	PPER	ich	_	O	O	
+5-6	Sie	PPER	Sie	_	O	O	
+5-7	u.	APPR	um	_	O	O	
+5-8	die	ART	die	_	O	O	
+5-9	Ihrige	PPOSAT	ihrige	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihr WH.
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	WH	NN	<unknown>	_	O	O	
+6-3	.	$.	.	_	O	O	
+
+#id=7
+#text=firn Rand Braun trägt mir auf, Sie nochmals an die Geld- ~ngelegenheit zu erinnern, da noch immer Nichts verlautet.
+7-1	firn	NN	Firn	_	O	O	
+7-2	Rand	NN	Rand	_	O	O	
+7-3	Braun	NE	Braun	_	O	O	
+7-4	trägt	VVFIN	tragen	_	O	O	
+7-5	mir	PPER	ich	_	O	O	
+7-6	auf	PTKVZ	auf	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	Sie	PPER	Sie	_	O	O	
+7-9	nochmals	ADV	nochmals	_	O	O	
+7-10	an	APPR	an	_	O	O	
+7-11	die	ART	die	_	O	O	
+7-12	Geld-	TRUNC	Geld-	_	O	O	
+7-13	~ngelegenheit	NN	<unknown>	_	O	O	
+7-14	zu	PTKZU	zu	_	O	O	
+7-15	erinnern	VVINF	erinnern	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	da	KOUS	da	_	O	O	
+7-18	noch	ADV	noch	_	O	O	
+7-19	immer	ADV	immer	_	O	O	
+7-20	Nichts	PIS	nichts	_	O	O	
+7-21	verlautet	VVPP	verlauten	_	O	O	
+7-22	.	$.	.	_	O	O	
+

@@ -1,0 +1,239 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=273 H Lieber Herr Professor Helbig an Henzen Dresden, 22. Juni 1871 g. 27/6 71 r.
+1-1	273	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1871	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	27/6	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	71	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=9/7 71 Dresden 22. Juni 1871.
+2-1	9/7	CARD	9/7	_	O	O	
+2-2	71	CARD	@card@	_	O	O	
+2-3	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	1871	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Ohne Ihnen etwas von erheblichen Belang mitzutheilen.zu haben, kann ich doch nicht umhin, Ihnen wenigstens ein Lebenszeichen meiner Seits zukommen zu lassen.
+3-1	Ohne	APPR	ohne	_	O	O	
+3-2	Ihnen	PPER	Sie	_	O	O	
+3-3	etwas	ADV	etwas	_	O	O	
+3-4	von	APPR	von	_	O	O	
+3-5	erheblichen	ADJA	erheblich	_	O	O	
+3-6	Belang	NN	Belang	_	O	O	
+3-7	mitzutheilen.zu	VVIZU	<unknown>	_	O	O	
+3-8	haben	VAFIN	haben	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	kann	VMFIN	können	_	O	O	
+3-11	ich	PPER	ich	_	O	O	
+3-12	doch	ADV	doch	_	O	O	
+3-13	nicht	PTKNEG	nicht	_	O	O	
+3-14	umhin	PTKVZ	umhin	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	Ihnen	PPER	Sie	_	O	O	
+3-17	wenigstens	ADV	wenigstens	_	O	O	
+3-18	ein	ART	eine	_	O	O	
+3-19	Lebenszeichen	NN	Lebenszeichen	_	O	O	
+3-20	meiner	PPOSAT	mein	_	O	O	
+3-21	Seits	NN	<unknown>	_	O	O	
+3-22	zukommen	VVINF	zukommen	_	O	O	
+3-23	zu	PTKZU	zu	_	O	O	
+3-24	lassen	VVINF	lassen	_	O	O	
+3-25	.	$.	.	_	O	O	
+
+#id=4
+#text=Bis Wien ist unsere Reise ganz glücklich von Statten gegangen.
+4-1	Bis	APPR	bis	_	O	O	
+4-2	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-3	ist	VAFIN	sein	_	O	O	
+4-4	unsere	PPOSAT	unser	_	O	O	
+4-5	Reise	NN	Reise	_	O	O	
+4-6	ganz	ADV	ganz	_	O	O	
+4-7	glücklich	ADJD	glücklich	_	O	O	
+4-8	von	APPR	von	_	O	O	
+4-9	Statten	NN	<unknown>	_	O	O	
+4-10	gegangen	VVPP	gehen	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Von Wien aus setzte meine Familie die Reise nach Moskau fort.
+5-1	Von	APPR	von	_	O	O	
+5-2	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-3	aus	PTKVZ	aus	_	O	O	
+5-4	setzte	VVFIN	setzen	_	O	O	
+5-5	meine	PPOSAT	mein	_	O	O	
+5-6	Familie	NN	Familie	_	O	O	
+5-7	die	ART	die	_	O	O	
+5-8	Reise	NN	Reise	_	O	O	
+5-9	nach	APPR	nach	_	O	O	
+5-10	Moskau	NE	Moskau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-11	fort	PTKVZ	fort	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Von Petersburg erhielt ich günstige Nachrichten über ihr Befinden.
+6-1	Von	APPR	von	_	O	O	
+6-2	Petersburg	NE	Petersburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-3	erhielt	VVFIN	erhalten	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	günstige	ADJA	günstig	_	O	O	
+6-6	Nachrichten	NN	Nachricht	_	O	O	
+6-7	über	APPR	über	_	O	O	
+6-8	ihr	PPOSAT	ihr	_	O	O	
+6-9	Befinden	NN	Befinden	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich reiste von Wien nach Dresden, erkältete mich dabei und holte mir wiederum einen fatalen Rachenkatarrh, der mich nöthigte, länger in Dresden zu bleiben, als ich ursprünglich die Absicht gehabt hatte.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	reiste	VVFIN	reisen	_	O	O	
+7-3	von	APPR	von	_	O	O	
+7-4	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-5	nach	APPR	nach	_	O	O	
+7-6	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-7	,	$,	,	_	O	O	
+7-8	erkältete	VVFIN	erkälten	_	O	O	
+7-9	mich	PRF	ich	_	O	O	
+7-10	dabei	PAV	dabei	_	O	O	
+7-11	und	KON	und	_	O	O	
+7-12	holte	VVFIN	holen	_	O	O	
+7-13	mir	PPER	ich	_	O	O	
+7-14	wiederum	ADV	wiederum	_	O	O	
+7-15	einen	ART	eine	_	O	O	
+7-16	fatalen	ADJA	fatal	_	O	O	
+7-17	Rachenkatarrh	NN	<unknown>	_	O	O	
+7-18	,	$,	,	_	O	O	
+7-19	der	PRELS	die	_	O	O	
+7-20	mich	PPER	ich	_	O	O	
+7-21	nöthigte	VVFIN	<unknown>	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	länger	ADJD	lang	_	O	O	
+7-24	in	APPR	in	_	O	O	
+7-25	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-26	zu	PTKZU	zu	_	O	O	
+7-27	bleiben	VVINF	bleiben	_	O	O	
+7-28	,	$,	,	_	O	O	
+7-29	als	KOUS	als	_	O	O	
+7-30	ich	PPER	ich	_	O	O	
+7-31	ursprünglich	ADJD	ursprünglich	_	O	O	
+7-32	die	ART	die	_	O	O	
+7-33	Absicht	NN	Absicht	_	O	O	
+7-34	gehabt	VAPP	haben	_	O	O	
+7-35	hatte	VAFIN	haben	_	O	O	
+7-36	.	$.	.	_	O	O	
+
+#id=8
+#text=Gegenwärtig befinde ich mich etwas besser und bin ich im Stande, morgen nach Berlin weiter zu reisen.
+8-1	Gegenwärtig	ADJD	gegenwärtig	_	O	O	
+8-2	befinde	VVFIN	befinden	_	O	O	
+8-3	ich	PPER	ich	_	O	O	
+8-4	mich	PRF	ich	_	O	O	
+8-5	etwas	ADV	etwas	_	O	O	
+8-6	besser	ADJD	gut	_	O	O	
+8-7	und	KON	und	_	O	O	
+8-8	bin	VAFIN	sein	_	O	O	
+8-9	ich	PPER	ich	_	O	O	
+8-10	im	APPRART	in	_	O	O	
+8-11	Stande	NN	Stand	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	morgen	ADV	morgen	_	O	O	
+8-14	nach	APPR	nach	_	O	O	
+8-15	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-16	weiter	ADV	weiter	_	O	O	
+8-17	zu	PTKZU	zu	_	O	O	
+8-18	reisen	VVINF	reisen	_	O	O	
+8-19	.	$.	.	_	O	O	
+
+#id=9
+#text=In Wien sah ich Conze und Lützow, die Sie vielmals grüßen, in Dresden Zahn und Hettner, die sich sehr schlecht stehen und allen Verkehr abgebrochen haben.
+9-1	In	APPR	in	_	O	O	
+9-2	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-3	sah	VVFIN	sehen	_	O	O	
+9-4	ich	PPER	ich	_	O	O	
+9-5	Conze	NE	Conze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-6	und	KON	und	_	O	O	
+9-7	Lützow	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-8	,	$,	,	_	O	O	
+9-9	die	PRELS	die	_	O	O	
+9-10	Sie	PPER	Sie	_	O	O	
+9-11	vielmals	ADV	vielmals	_	O	O	
+9-12	grüßen	VVFIN	grüßen	_	O	O	
+9-13	,	$,	,	_	O	O	
+9-14	in	APPR	in	_	O	O	
+9-15	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-16	Zahn	NN	Zahn	_	O	O	
+9-17	und	KON	und	_	O	O	
+9-18	Hettner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-19	,	$,	,	_	O	O	
+9-20	die	PRELS	die	_	O	O	
+9-21	sich	PRF	sich	_	O	O	
+9-22	sehr	ADV	sehr	_	O	O	
+9-23	schlecht	ADJD	schlecht	_	O	O	
+9-24	stehen	VVINF	stehen	_	O	O	
+9-25	und	KON	und	_	O	O	
+9-26	allen	PIAT	alle	_	O	O	
+9-27	Verkehr	NN	Verkehr	_	O	O	
+9-28	abgebrochen	VVPP	abbrechen	_	O	O	
+9-29	haben	VAFIN	haben	_	O	O	
+9-30	.	$.	.	_	O	O	
+
+#id=10
+#text=Überhaupt herrscht in den künstlerischen Kreisen meiner Vaterstadt ein bellum omnium contra omnes, wie es selbst in Berlin kaum schlimmer sein wird.
+10-1	Überhaupt	ADV	überhaupt	_	O	O	
+10-2	herrscht	VVFIN	herrschen	_	O	O	
+10-3	in	APPR	in	_	O	O	
+10-4	den	ART	die	_	O	O	
+10-5	künstlerischen	ADJA	künstlerisch	_	O	O	
+10-6	Kreisen	NN	Kreis|Kreisen	_	O	O	
+10-7	meiner	PPOSAT	mein	_	O	O	
+10-8	Vaterstadt	NN	Vaterstadt	_	O	O	
+10-9	ein	ART	eine	_	O	O	
+10-10	bellum	NN	<unknown>	_	O	O	
+10-11	omnium	ADJD	<unknown>	_	O	O	
+10-12	contra	ADV	contra	_	O	O	
+10-13	omnes	ADJD	<unknown>	_	O	O	
+10-14	,	$,	,	_	O	O	
+10-15	wie	KOUS	wie	_	O	O	
+10-16	es	PPER	es	_	O	O	
+10-17	selbst	ADV	selbst	_	O	O	
+10-18	in	APPR	in	_	O	O	
+10-19	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-20	kaum	ADV	kaum	_	O	O	
+10-21	schlimmer	ADJD	schlimm	_	O	O	
+10-22	sein	VAINF	sein	_	O	O	
+10-23	wird	VAFIN	werden	_	O	O	
+10-24	.	$.	.	_	O	O	
+
+#id=11
+#text=Wem man namentlich die Schuld daran zuschreiben soll, ist natürlich schwer
+11-1	Wem	PWS	wer	_	O	O	
+11-2	man	PIS	man	_	O	O	
+11-3	namentlich	ADJD	namentlich	_	O	O	
+11-4	die	ART	die	_	O	O	
+11-5	Schuld	NN	Schuld	_	O	O	
+11-6	daran	PAV	daran	_	O	O	
+11-7	zuschreiben	VVINF	zuschreiben	_	O	O	
+11-8	soll	VMFIN	sollen	_	O	O	
+11-9	,	$,	,	_	O	O	
+11-10	ist	VAFIN	sein	_	O	O	
+11-11	natürlich	ADV	natürlich	_	O	O	
+11-12	schwer	ADJD	schwer	_	O	O	
+

@@ -1,0 +1,203 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=593 Professor Henzen Verehrter Freund Lepsius an Henzen Berlin, 18. Oktober 1876 g. 21/X 76 r. 24/X Berlin, den 18. Okt.
+1-1	593	CARD	@card@	_	O	O	
+1-2	Professor	NN	Professor	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Verehrter	ADJA	verehrt	_	O	O	
+1-5	Freund	NE	Freund	_	O	O	
+1-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	21/X	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	76	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+1-19	24/X	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+1-20	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-21	,	$,	,	_	O	O	
+1-22	den	ART	die	_	O	O	
+1-23	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-24	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-25	Okt.	NN	Okt.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1876.
+2-1	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich referire über die gestrige Sitzung der Central-Direktion.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	referire	VVFIN	<unknown>	_	O	O	
+3-3	über	APPR	über	_	O	O	
+3-4	die	ART	die	_	O	O	
+3-5	gestrige	ADJA	gestrig	_	O	O	
+3-6	Sitzung	NN	Sitzung	_	O	O	
+3-7	der	ART	die	_	O	O	
+3-8	Central-Direktion	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Herr von Bülow hat sich mündlich damit einverstanden erklärt, daß ein Unterhaltungsfonds von jährlich 4250 Lire schon jetzt beantragt werde, und daß die Verwaltung des neuen Hauses unabhängig von der Botschaft durch einen besonderen Administrator, eventuell jetzt durch Herrn Schulz, unter der Oberaufsicht des ersten Sekretars, besorgt werde gegen eine entsprechende Ablehnung Jährliche Vergütung.
+4-1	Herr	NN	Herr	_	O	O	
+4-2	von	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	Bülow	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-4	hat	VAFIN	haben	_	O	O	
+4-5	sich	PRF	sich	_	O	O	
+4-6	mündlich	ADJD	mündlich	_	O	O	
+4-7	damit	PAV	damit	_	O	O	
+4-8	einverstanden	ADJD	einverstanden	_	O	O	
+4-9	erklärt	VVPP	erklären	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	daß	KOUS	dass	_	O	O	
+4-12	ein	ART	eine	_	O	O	
+4-13	Unterhaltungsfonds	NN	<unknown>	_	O	O	
+4-14	von	APPR	von	_	O	O	
+4-15	jährlich	ADJD	jährlich	_	O	O	
+4-16	4250	CARD	@card@	_	O	O	
+4-17	Lire	NN	Lira	_	O	O	
+4-18	schon	ADV	schon	_	O	O	
+4-19	jetzt	ADV	jetzt	_	O	O	
+4-20	beantragt	VVPP	beantragen	_	O	O	
+4-21	werde	VAFIN	werden	_	O	O	
+4-22	,	$,	,	_	O	O	
+4-23	und	KON	und	_	O	O	
+4-24	daß	KOUS	dass	_	O	O	
+4-25	die	ART	die	_	O	O	
+4-26	Verwaltung	NN	Verwaltung	_	O	O	
+4-27	des	ART	die	_	O	O	
+4-28	neuen	ADJA	neu	_	O	O	
+4-29	Hauses	NN	Haus	_	O	O	
+4-30	unabhängig	ADJD	unabhängig	_	O	O	
+4-31	von	APPR	von	_	O	O	
+4-32	der	ART	die	_	O	O	
+4-33	Botschaft	NN	Botschaft	_	O	O	
+4-34	durch	APPR	durch	_	O	O	
+4-35	einen	ART	eine	_	O	O	
+4-36	besonderen	ADJA	besonder	_	O	O	
+4-37	Administrator	NN	Administrator	_	O	O	
+4-38	,	$,	,	_	O	O	
+4-39	eventuell	ADJD	eventuell	_	O	O	
+4-40	jetzt	ADV	jetzt	_	O	O	
+4-41	durch	APPR	durch	_	O	O	
+4-42	Herrn	NN	Herr	_	O	O	
+4-43	Schulz	NE	Schulz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-44	,	$,	,	_	O	O	
+4-45	unter	APPR	unter	_	O	O	
+4-46	der	ART	die	_	O	O	
+4-47	Oberaufsicht	NN	Oberaufsicht	_	O	O	
+4-48	des	ART	die	_	O	O	
+4-49	ersten	ADJA	erst	_	O	O	
+4-50	Sekretars	NN	<unknown>	_	O	O	
+4-51	,	$,	,	_	O	O	
+4-52	besorgt	VVPP	besorgen	_	O	O	
+4-53	werde	VAFIN	werden	_	O	O	
+4-54	gegen	APPR	gegen	_	O	O	
+4-55	eine	ART	eine	_	O	O	
+4-56	entsprechende	ADJA	entsprechend	_	O	O	
+4-57	Ablehnung	NN	Ablehnung	_	O	O	
+4-58	Jährliche	ADJA	jährlich	_	O	O	
+4-59	Vergütung	NN	Vergütung	_	O	O	
+4-60	.	$.	.	_	O	O	
+
+#id=5
+#text=DieYKünstlerbibliothek wird noch besprochen werden.
+5-1	DieYKünstlerbibliothek	NN	<unknown>	_	O	O	
+5-2	wird	VAFIN	werden	_	O	O	
+5-3	noch	ADV	noch	_	O	O	
+5-4	besprochen	VVPP	besprechen	_	O	O	
+5-5	werden	VAINF	werden	_	O	O	
+5-6	.	$.	.	_	O	O	
+
+#id=6
+#text=Die von der Central-Direktion gewünschten Veränd~rungen im Bau würden von Ihnen dem Baumeister von Ihnen zur Ausführung auszutheilen sein, der die Kosten mit Berufung auf unsre Anordnung die mit Ihnen besprochen wurde, auf den Baufonds zu nehmen und resp. als Nachforderung, in Rechnung zu stellen hat.
+6-1	Die	ART	die	_	O	O	
+6-2	von	APPR	von	_	O	O	
+6-3	der	ART	die	_	O	O	
+6-4	Central-Direktion	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-5	gewünschten	ADJA	gewünscht	_	O	O	
+6-6	Veränd~rungen	NN	<unknown>	_	O	O	
+6-7	im	APPRART	in	_	O	O	
+6-8	Bau	NN	Bau	_	O	O	
+6-9	würden	VAFIN	werden	_	O	O	
+6-10	von	APPR	von	_	O	O	
+6-11	Ihnen	PPER	Sie	_	O	O	
+6-12	dem	ART	die	_	O	O	
+6-13	Baumeister	NN	Baumeister	_	O	O	
+6-14	von	APPR	von	_	O	O	
+6-15	Ihnen	PPER	Sie	_	O	O	
+6-16	zur	APPRART	zu	_	O	O	
+6-17	Ausführung	NN	Ausführung	_	O	O	
+6-18	auszutheilen	VVIZU	<unknown>	_	O	O	
+6-19	sein	VAINF	sein	_	O	O	
+6-20	,	$,	,	_	O	O	
+6-21	der	PRELS	die	_	O	O	
+6-22	die	ART	die	_	O	O	
+6-23	Kosten	NN	Kosten	_	O	O	
+6-24	mit	APPR	mit	_	O	O	
+6-25	Berufung	NN	Berufung	_	O	O	
+6-26	auf	APPR	auf	_	O	O	
+6-27	unsre	PPOSAT	unsre	_	O	O	
+6-28	Anordnung	NN	Anordnung	_	O	O	
+6-29	die	ART	die	_	O	O	
+6-30	mit	APPR	mit	_	O	O	
+6-31	Ihnen	PPER	Sie	_	O	O	
+6-32	besprochen	VVPP	besprechen	_	O	O	
+6-33	wurde	VAFIN	werden	_	O	O	
+6-34	,	$,	,	_	O	O	
+6-35	auf	APPR	auf	_	O	O	
+6-36	den	ART	die	_	O	O	
+6-37	Baufonds	NN	Baufonds	_	O	O	
+6-38	zu	PTKZU	zu	_	O	O	
+6-39	nehmen	VVINF	nehmen	_	O	O	
+6-40	und	KON	und	_	O	O	
+6-41	resp.	ADV	resp.	_	O	O	
+6-42	als	KOKOM	als	_	O	O	
+6-43	Nachforderung	NN	Nachforderung	_	O	O	
+6-44	,	$,	,	_	O	O	
+6-45	in	APPR	in	_	O	O	
+6-46	Rechnung	NN	Rechnung	_	O	O	
+6-47	zu	PTKZU	zu	_	O	O	
+6-48	stellen	VVINF	stellen	_	O	O	
+6-49	hat	VAFIN	haben	_	O	O	
+6-50	.	$.	.	_	O	O	
+
+#id=7
+#text=Wie das Oberlicht im Lesezimmer am zweckmäßigsten herzustellen sei, bleibt der Entscheidung des Baumeisters überlassen.
+7-1	Wie	KOUS	wie	_	O	O	
+7-2	das	ART	die	_	O	O	
+7-3	Oberlicht	NN	Oberlicht	_	O	O	
+7-4	im	APPRART	in	_	O	O	
+7-5	Lesezimmer	NN	Lesezimmer	_	O	O	
+7-6	am	PTKA	am	_	O	O	
+7-7	zweckmäßigsten	ADJD	zweckmäßigsten	_	O	O	
+7-8	herzustellen	VVIZU	herstellen	_	O	O	
+7-9	sei	VAFIN	sein	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	bleibt	VVFIN	bleiben	_	O	O	
+7-12	der	ART	die	_	O	O	
+7-13	Entscheidung	NN	Entscheidung	_	O	O	
+7-14	des	ART	die	_	O	O	
+7-15	Baumeisters	NN	Baumeister	_	O	O	
+7-16	überlassen	VVPP	überlassen	_	O	O	
+7-17	.	$.	.	_	O	O	
+
+#id=8
+#text=Bei der Verbindung zwischen dem Reservezimmer und dem bisherigen
+8-1	Bei	APPR	bei	_	O	O	
+8-2	der	ART	die	_	O	O	
+8-3	Verbindung	NN	Verbindung	_	O	O	
+8-4	zwischen	APPR	zwischen	_	O	O	
+8-5	dem	ART	die	_	O	O	
+8-6	Reservezimmer	NN	<unknown>	_	O	O	
+8-7	und	KON	und	_	O	O	
+8-8	dem	ART	die	_	O	O	
+8-9	bisherigen	ADJA	bisherig	_	O	O	
+

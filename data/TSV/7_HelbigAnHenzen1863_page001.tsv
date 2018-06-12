@@ -1,0 +1,216 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=( ) Helbig an Henzen Rom, 14. August 1863 H. g. 31/8 63 Rom 14. August 1863 Geehrtester Herr Professor !
+1-1	(	$(	(	_	O	O	
+1-2	)	$(	)	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	H.	NE	H.	_	O	O	
+1-13	g.	NN	<unknown>	_	O	O	
+1-14	31/8	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	63	CARD	63	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-17	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Geehrtester	ADJA	<unknown>	_	O	O	
+1-22	Herr	NN	Herr	_	O	O	
+1-23	Professor	NN	Professor	_	O	O	
+1-24	!	$.	!	_	O	O	
+
+#id=2
+#text=In der Bankrottabgelegenheit des venezianischen Buchhändlers habe ich die nöthigen Schritte gethan und das Autorisations- und Klagformular an den Avvocato abgeschickt.
+2-1	In	APPR	in	_	O	O	
+2-2	der	ART	die	_	O	O	
+2-3	Bankrottabgelegenheit	NN	<unknown>	_	O	O	
+2-4	des	ART	die	_	O	O	
+2-5	venezianischen	ADJA	venezianisch	_	O	O	
+2-6	Buchhändlers	NN	Buchhändler	_	O	O	
+2-7	habe	VAFIN	haben	_	O	O	
+2-8	ich	PPER	ich	_	O	O	
+2-9	die	ART	die	_	O	O	
+2-10	nöthigen	ADJA	<unknown>	_	O	O	
+2-11	Schritte	NN	Schritt	_	O	O	
+2-12	gethan	NE	<unknown>	_	O	O	
+2-13	und	KON	und	_	O	O	
+2-14	das	ART	die	_	O	O	
+2-15	Autorisations-	TRUNC	<unknown>	_	O	O	
+2-16	und	KON	und	_	O	O	
+2-17	Klagformular	NN	<unknown>	_	O	O	
+2-18	an	APPR	an	_	O	O	
+2-19	den	ART	die	_	O	O	
+2-20	Avvocato	NN	<unknown>	_	O	O	
+2-21	abgeschickt	VVPP	abschicken	_	O	O	
+2-22	.	$.	.	_	O	O	
+
+#id=3
+#text=Doch habe ich nachträglich von diesem einen Brief erhalten, worin er die Angabe verlangt, wie hoch sich auf Heller und Pfennig die Summe beläuft, die er für das Institut einklagen soll - ich hatte ihm nach Ihrer Anweisung im Allgemeinen von 60 Scudi geschrieben - in und iefi welcher Weise die Schuld von dem Buchhändler contractirt worden ist.
+3-1	Doch	ADV	doch	_	O	O	
+3-2	habe	VAFIN	haben	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	nachträglich	ADJD	nachträglich	_	O	O	
+3-5	von	APPR	von	_	O	O	
+3-6	diesem	PDAT	dies	_	O	O	
+3-7	einen	ART	eine	_	O	O	
+3-8	Brief	NN	Brief	_	O	O	
+3-9	erhalten	VVPP	erhalten	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	worin	PWAV	worin	_	O	O	
+3-12	er	PPER	er	_	O	O	
+3-13	die	ART	die	_	O	O	
+3-14	Angabe	NN	Angabe	_	O	O	
+3-15	verlangt	VVPP	verlangen	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	wie	KOKOM	wie	_	O	O	
+3-18	hoch	ADJD	hoch	_	O	O	
+3-19	sich	PRF	sich	_	O	O	
+3-20	auf	APPR	auf	_	O	O	
+3-21	Heller	NN	Heller	_	O	O	
+3-22	und	KON	und	_	O	O	
+3-23	Pfennig	NN	Pfennig	_	O	O	
+3-24	die	ART	die	_	O	O	
+3-25	Summe	NN	Summe	_	O	O	
+3-26	beläuft	VVFIN	belaufen	_	O	O	
+3-27	,	$,	,	_	O	O	
+3-28	die	PRELS	die	_	O	O	
+3-29	er	PPER	er	_	O	O	
+3-30	für	APPR	für	_	O	O	
+3-31	das	ART	die	_	O	O	
+3-32	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-33	einklagen	VVINF	einklagen	_	O	O	
+3-34	soll	VMFIN	sollen	_	O	O	
+3-35	-	$(	-	_	O	O	
+3-36	ich	PPER	ich	_	O	O	
+3-37	hatte	VAFIN	haben	_	O	O	
+3-38	ihm	PPER	er	_	O	O	
+3-39	nach	APPR	nach	_	O	O	
+3-40	Ihrer	PPOSAT	ihr	_	O	O	
+3-41	Anweisung	NN	Anweisung	_	O	O	
+3-42	im	APPRART	in	_	O	O	
+3-43	Allgemeinen	NN	Allgemeine	_	O	O	
+3-44	von	APPR	von	_	O	O	
+3-45	60	CARD	60	_	O	O	
+3-46	Scudi	NN	<unknown>	_	O	O	
+3-47	geschrieben	VVPP	schreiben	_	O	O	
+3-48	-	$(	-	_	O	O	
+3-49	in	APPR	in	_	O	O	
+3-50	und	KON	und	_	O	O	
+3-51	iefi	NE	<unknown>	_	O	O	
+3-52	welcher	PIS	welche	_	O	O	
+3-53	Weise	NN	Weise	_	O	O	
+3-54	die	ART	die	_	O	O	
+3-55	Schuld	NN	Schuld	_	O	O	
+3-56	von	APPR	von	_	O	O	
+3-57	dem	ART	die	_	O	O	
+3-58	Buchhändler	NN	Buchhändler	_	O	O	
+3-59	contractirt	NN	<unknown>	_	O	O	
+3-60	worden	VAPP	werden	_	O	O	
+3-61	ist	VAFIN	sein	_	O	O	
+3-62	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich bitte Sie deßhalb direct an den Advocaten zu schreiben.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	bitte	VVFIN	bitten	_	O	O	
+4-3	Sie	PPER	Sie	_	O	O	
+4-4	deßhalb	ADJA	<unknown>	_	O	O	
+4-5	direct	NE	direct	_	O	O	
+4-6	an	APPR	an	_	O	O	
+4-7	den	ART	die	_	O	O	
+4-8	Advocaten	NN	<unknown>	_	O	O	
+4-9	zu	PTKZU	zu	_	O	O	
+4-10	schreiben	VVINF	schreiben	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Dieselbe Bitte habe ich an Brunn gerichtet, der gegenwärtig in Chiusi ist.
+5-1	Dieselbe	PDAT	dieselb	_	O	O	
+5-2	Bitte	NN	Bitte	_	O	O	
+5-3	habe	VAFIN	haben	_	O	O	
+5-4	ich	PPER	ich	_	O	O	
+5-5	an	APPR	an	_	O	O	
+5-6	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-7	gerichtet	VVPP	richten	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	der	PRELS	die	_	O	O	
+5-10	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+5-11	in	APPR	in	_	O	O	
+5-12	Chiusi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-13	ist	VAFIN	sein	_	O	O	
+5-14	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihr Brief kommt jedenfalls zur rechten Zeit, da bis :Ende August die Meldungen in Empfang genommen werden und erst im September die Instruirung des Processes beginnt.
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	Brief	NN	Brief	_	O	O	
+6-3	kommt	VVFIN	kommen	_	O	O	
+6-4	jedenfalls	ADV	jedenfalls	_	O	O	
+6-5	zur	APPRART	zu	_	O	O	
+6-6	rechten	ADJA	recht|rechts	_	O	O	
+6-7	Zeit	NN	Zeit	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	da	ADV	da	_	O	O	
+6-10	bis	APPR	bis	_	O	O	
+6-11	:Ende	ADJA	<unknown>	_	O	O	
+6-12	August	NN	August	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-13	die	ART	die	_	O	O	
+6-14	Meldungen	NN	Meldung	_	O	O	
+6-15	in	APPR	in	_	O	O	
+6-16	Empfang	NN	Empfang	_	O	O	
+6-17	genommen	VVPP	nehmen	_	O	O	
+6-18	werden	VAFIN	werden	_	O	O	
+6-19	und	KON	und	_	O	O	
+6-20	erst	ADV	erst	_	O	O	
+6-21	im	APPRART	in	_	O	O	
+6-22	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-23	die	ART	die	_	O	O	
+6-24	Instruirung	NN	<unknown>	_	O	O	
+6-25	des	ART	die	_	O	O	
+6-26	Processes	NN	<unknown>	_	O	O	
+6-27	beginnt	VVFIN	beginnen	_	O	O	
+6-28	.	$.	.	_	O	O	
+
+#id=7
+#text=Hier in Rom geht Alles gut.
+7-1	Hier	ADV	hier	_	O	O	
+7-2	in	APPR	in	_	O	O	
+7-3	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-4	geht	VVFIN	gehen	_	O	O	
+7-5	Alles	PIS	alle	_	O	O	
+7-6	gut	ADJD	gut	_	O	O	
+7-7	.	$.	.	_	O	O	
+
+#id=8
+#text=Mit herzlichen Grüßen Ihr Wolfgang Helbig Adresse des Advocaten: Dr.
+8-1	Mit	APPR	mit	_	O	O	
+8-2	herzlichen	ADJA	herzlich	_	O	O	
+8-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+8-4	Ihr	PPOSAT	ihr	_	O	O	
+8-5	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+8-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-7	Adresse	NN	Adresse	_	O	O	
+8-8	des	ART	die	_	O	O	
+8-9	Advocaten	NN	<unknown>	_	O	O	
+8-10	:	$.	:	_	O	O	
+8-11	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=9
+#text=Leone Fortis, Avvocato deI Foro di Venezia.
+9-1	Leone	NE	Leone	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	Fortis	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-3	,	$,	,	_	O	O	
+9-4	Avvocato	ADV	<unknown>	_	O	O	
+9-5	deI	ADJA	<unknown>	_	O	O	
+9-6	Foro	NN	<unknown>	_	O	O	
+9-7	di	NE	di	_	O	O	
+9-8	Venezia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-9	.	$.	.	_	O	O	
+

@@ -1,0 +1,210 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=628 Lepsius an Henzen Berlin, 2. Dezember 1874 g. 6/12 74 r.
+1-1	628	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	6/12	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=7/12 Berlin, den 2. Dez.
+2-1	7/12	CARD	@card@	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-3	,	$,	,	_	O	O	
+2-4	den	ART	die	_	O	O	
+2-5	2	CARD	2	_	O	O	
+2-6	.	$.	.	_	O	O	
+2-7	Dez.	NN	Dez.	_	O	O	
+
+#id=3
+#text=1874 Ich aehr.,j;.b& mit haI bverbundner Hand, daher die unreinliche Schrift.
+3-1	1874	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-2	Ich	PPER	ich	_	O	O	
+3-3	aehr.,j	NE	<unknown>	_	O	O	
+3-4	;	$.	;	_	O	O	
+3-5	.b&	NN	<unknown>	_	O	O	
+3-6	mit	APPR	mit	_	O	O	
+3-7	haI	ADJA	<unknown>	_	O	O	
+3-8	bverbundner	NN	<unknown>	_	O	O	
+3-9	Hand	NN	Hand	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	daher	PAV	daher	_	O	O	
+3-12	die	ART	die	_	O	O	
+3-13	unreinliche	ADJA	unreinlich	_	O	O	
+3-14	Schrift	NN	Schrift	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Verehrter Freund Ich versprach Ihnen mehr Nachricht sobald ich etwas über Ihre Angelegenheit erfahren könnte.
+4-1	Verehrter	ADJA	verehrt	_	O	O	
+4-2	Freund	NN	Freund	_	O	O	
+4-3	Ich	PPER	ich	_	O	O	
+4-4	versprach	VVFIN	versprechen	_	O	O	
+4-5	Ihnen	PPER	Sie	_	O	O	
+4-6	mehr	PIAT	mehr	_	O	O	
+4-7	Nachricht	NN	Nachricht	_	O	O	
+4-8	sobald	KOUS	sobald	_	O	O	
+4-9	ich	PPER	ich	_	O	O	
+4-10	etwas	ADV	etwas	_	O	O	
+4-11	über	APPR	über	_	O	O	
+4-12	Ihre	PPOSAT	ihr	_	O	O	
+4-13	Angelegenheit	NN	Angelegenheit	_	O	O	
+4-14	erfahren	VVINF	erfahren	_	O	O	
+4-15	könnte	VMFIN	können	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=So eben geht mir von Minister R s. Krüger, den ich um Erkundigung gebeten hatte, ein Billet zu, nach welchem ihm Herr von Bülow versichert habe, die Professur werde noch in diesem Monat flott werden.
+5-1	So	ADV	so	_	O	O	
+5-2	eben	ADV	eben	_	O	O	
+5-3	geht	VVFIN	gehen	_	O	O	
+5-4	mir	PPER	ich	_	O	O	
+5-5	von	APPR	von	_	O	O	
+5-6	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-7	R	NN	R	_	O	O	
+5-8	s.	ADV	s.	_	O	O	
+5-9	Krüger	NN	<unknown>	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	den	PRELS	die	_	O	O	
+5-12	ich	PPER	ich	_	O	O	
+5-13	um	APPR	um	_	O	O	
+5-14	Erkundigung	NN	Erkundigung	_	O	O	
+5-15	gebeten	VVPP	bitten	_	O	O	
+5-16	hatte	VAFIN	haben	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	ein	ART	eine	_	O	O	
+5-19	Billet	NN	<unknown>	_	O	O	
+5-20	zu	PTKVZ	zu	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	nach	APPR	nach	_	O	O	
+5-23	welchem	PRELS	welche	_	O	O	
+5-24	ihm	PPER	er	_	O	O	
+5-25	Herr	NN	Herr	_	O	O	
+5-26	von	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-27	Bülow	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-28	versichert	VVPP	versichern	_	O	O	
+5-29	habe	VAFIN	haben	_	O	O	
+5-30	,	$,	,	_	O	O	
+5-31	die	ART	die	_	O	O	
+5-32	Professur	NN	Professur	_	O	O	
+5-33	werde	VAFIN	werden	_	O	O	
+5-34	noch	ADV	noch	_	O	O	
+5-35	in	APPR	in	_	O	O	
+5-36	diesem	PDAT	dies	_	O	O	
+5-37	Monat	NN	Monat	_	O	O	
+5-38	flott	ADJD	flott	_	O	O	
+5-39	werden	VAINF	werden	_	O	O	
+5-40	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Gehalterhöhung auf 1500 r wird ja auch keine Schwierigkeit irgend einer Art machen, und wird vielleicht noch in dieser Woche mit dem übrigen Budget erledigt werden vom Reichstage.
+6-1	Die	ART	die	_	O	O	
+6-2	Gehalterhöhung	NN	<unknown>	_	O	O	
+6-3	auf	APPR	auf	_	O	O	
+6-4	1500	CARD	1500	_	O	O	
+6-5	r	NE	r	_	O	O	
+6-6	wird	VAFIN	werden	_	O	O	
+6-7	ja	ADV	ja	_	O	O	
+6-8	auch	ADV	auch	_	O	O	
+6-9	keine	PIAT	keine	_	O	O	
+6-10	Schwierigkeit	NN	Schwierigkeit	_	O	O	
+6-11	irgend	ADV	irgend	_	O	O	
+6-12	einer	ART	eine	_	O	O	
+6-13	Art	NN	Art	_	O	O	
+6-14	machen	VVINF	machen	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	und	KON	und	_	O	O	
+6-17	wird	VAFIN	werden	_	O	O	
+6-18	vielleicht	ADV	vielleicht	_	O	O	
+6-19	noch	ADV	noch	_	O	O	
+6-20	in	APPR	in	_	O	O	
+6-21	dieser	PDAT	dies	_	O	O	
+6-22	Woche	NN	Woche	_	O	O	
+6-23	mit	APPR	mit	_	O	O	
+6-24	dem	ART	die	_	O	O	
+6-25	übrigen	ADJA	übrig	_	O	O	
+6-26	Budget	NN	Budget	_	O	O	
+6-27	erledigt	VVPP	erledigen	_	O	O	
+6-28	werden	VAINF	werden	_	O	O	
+6-29	vom	APPRART	von	_	O	O	
+6-30	Reichstage	NN	Reichstag	_	O	O	
+6-31	.	$.	.	_	O	O	
+
+#id=7
+#text=Bleiben dann nur noch die formellen Ausfertigungen.
+7-1	Bleiben	VVFIN	bleiben	_	O	O	
+7-2	dann	ADV	dann	_	O	O	
+7-3	nur	ADV	nur	_	O	O	
+7-4	noch	ADV	noch	_	O	O	
+7-5	die	ART	die	_	O	O	
+7-6	formellen	ADJA	formell	_	O	O	
+7-7	Ausfertigungen	NN	Ausfertigung	_	O	O	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich muß heute zum vierten male die Sitzung der Central Direktion wieder aufsagen und auf später verlegen.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	muß	VMFIN	müssen	_	O	O	
+8-3	heute	ADV	heute	_	O	O	
+8-4	zum	APPRART	zu	_	O	O	
+8-5	vierten	ADJA	viert	_	O	O	
+8-6	male	VVFIN	malen	_	O	O	
+8-7	die	ART	die	_	O	O	
+8-8	Sitzung	NN	Sitzung	_	O	O	
+8-9	der	ART	die	_	O	O	
+8-10	Central	NN	<unknown>	_	O	O	
+8-11	Direktion	NN	Direktion	_	O	O	
+8-12	wieder	ADV	wieder	_	O	O	
+8-13	aufsagen	VVINF	aufsagen	_	O	O	
+8-14	und	KON	und	_	O	O	
+8-15	auf	APPR	auf	_	O	O	
+8-16	später	ADJD	spät	_	O	O	
+8-17	verlegen	VVINF	verlegen	_	O	O	
+8-18	.	$.	.	_	O	O	
+
+#id=9
+#text=Sie mögen daraus ersehen, wie rasch wir hier die dringendsten Geschäfte, deren jetzt eben mehrere vorliegen zu erledigen im Stande sind.
+9-1	Sie	PPER	Sie	_	O	O	
+9-2	mögen	VMFIN	mögen	_	O	O	
+9-3	daraus	PAV	daraus	_	O	O	
+9-4	ersehen	VVINF	ersehen	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	wie	KOKOM	wie	_	O	O	
+9-7	rasch	ADJD	rasch	_	O	O	
+9-8	wir	PPER	wir	_	O	O	
+9-9	hier	ADV	hier	_	O	O	
+9-10	die	ART	die	_	O	O	
+9-11	dringendsten	ADJA	dringend	_	O	O	
+9-12	Geschäfte	NN	Geschäft	_	O	O	
+9-13	,	$,	,	_	O	O	
+9-14	deren	PRELAT	die	_	O	O	
+9-15	jetzt	ADV	jetzt	_	O	O	
+9-16	eben	ADV	eben	_	O	O	
+9-17	mehrere	PIS	mehrere	_	O	O	
+9-18	vorliegen	VVINF	vorliegen	_	O	O	
+9-19	zu	PTKZU	zu	_	O	O	
+9-20	erledigen	VVINF	erledigen	_	O	O	
+9-21	im	APPRART	in	_	O	O	
+9-22	Stande	NN	Stand	_	O	O	
+9-23	sind	VAFIN	sein	_	O	O	
+9-24	.	$.	.	_	O	O	
+
+#id=10
+#text=Über die Pensionsangelegenheit hat mir Mommsen
+10-1	Über	APPR	über	_	O	O	
+10-2	die	ART	die	_	O	O	
+10-3	Pensionsangelegenheit	NN	<unknown>	_	O	O	
+10-4	hat	VAFIN	haben	_	O	O	
+10-5	mir	PPER	ich	_	O	O	
+10-6	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

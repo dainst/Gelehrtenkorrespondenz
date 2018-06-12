@@ -1,0 +1,235 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=291 Helbig an Henzen Achern, 27. Oktober 1873 H g. 31/10 73 Achern 27. Oct.
+1-1	291	CARD	@card@	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	Achern	VVFIN	<unknown>	_	O	O	
+1-6	,	$,	,	_	O	O	
+1-7	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	H	NN	H	_	O	O	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	31/10	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	73	CARD	73	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	Achern	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-16	27	CARD	27	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-18	Oct	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=2
+#text=1873 Lieber Herr Professor Ich muß Ihnen leider mittheilen, daß das Ereignis immer noch nicht eingetreten ist.
+2-1	1873	CARD	1873	_	O	O	
+2-2	Lieber	ADJA	lieb	_	O	O	
+2-3	Herr	NN	Herr	_	O	O	
+2-4	Professor	NN	Professor	_	O	O	
+2-5	Ich	PPER	ich	_	O	O	
+2-6	muß	VMFIN	müssen	_	O	O	
+2-7	Ihnen	PPER	Sie	_	O	O	
+2-8	leider	ADV	leider	_	O	O	
+2-9	mittheilen	VVINF	<unknown>	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	daß	KOUS	dass	_	O	O	
+2-12	das	ART	die	_	O	O	
+2-13	Ereignis	NN	Ereignis	_	O	O	
+2-14	immer	ADV	immer	_	O	O	
+2-15	noch	ADV	noch	_	O	O	
+2-16	nicht	PTKNEG	nicht	_	O	O	
+2-17	eingetreten	VVPP	eintreten	_	O	O	
+2-18	ist	VAFIN	sein	_	O	O	
+2-19	.	$.	.	_	O	O	
+
+#id=3
+#text=Gestern war es das vierte Mal, daß meine Frau Wehen hatte.
+3-1	Gestern	ADV	gestern	_	O	O	
+3-2	war	VAFIN	sein	_	O	O	
+3-3	es	PPER	es	_	O	O	
+3-4	das	ART	die	_	O	O	
+3-5	vierte	ADJA	viert	_	O	O	
+3-6	Mal	NN	Mal	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	daß	KOUS	dass	_	O	O	
+3-9	meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-10	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-11	Wehen	NN	Wehe|Wehen	_	O	O	
+3-12	hatte	VAFIN	haben	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Sie fangen in der Regel früh gegen 11 Uhr an und gehen zu Ende Nachts gegen 1 Uhr, wenn meine Frau einschläft.
+4-1	Sie	PPER	Sie	_	O	O	
+4-2	fangen	VVFIN	fangen	_	O	O	
+4-3	in	APPR	in	_	O	O	
+4-4	der	ART	die	_	O	O	
+4-5	Regel	NN	Regel	_	O	O	
+4-6	früh	ADJD	früh	_	O	O	
+4-7	gegen	APPR	gegen	_	O	O	
+4-8	11	CARD	11	_	O	O	
+4-9	Uhr	NN	Uhr	_	O	O	
+4-10	an	PTKVZ	an	_	O	O	
+4-11	und	KON	und	_	O	O	
+4-12	gehen	VVFIN	gehen	_	O	O	
+4-13	zu	APPR	zu	_	O	O	
+4-14	Ende	NN	Ende	_	O	O	
+4-15	Nachts	ADV	nachts	_	O	O	
+4-16	gegen	APPR	gegen	_	O	O	
+4-17	1	CARD	1	_	O	O	
+4-18	Uhr	NN	Uhr	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	wenn	KOUS	wenn	_	O	O	
+4-21	meine	PPOSAT	mein	_	O	O	
+4-22	Frau	NN	Frau	_	O	O	
+4-23	einschläft	VVFIN	einschlafen	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=Gusserow fürchtet, daß in Folge der fausse couche, welche im April beinah eingetreten wäre, etwas an der Gebärmutter in Unordnung ist und daß der Fall möglicher Weise durch eine mehrfache proles complicirt werden könnte.
+5-1	Gusserow	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	fürchtet	VVFIN	fürchten	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	daß	KOUS	dass	_	O	O	
+5-5	in	APPR	in	_	O	O	
+5-6	Folge	NN	Folge	_	O	O	
+5-7	der	ART	die	_	O	O	
+5-8	fausse	ADJA	<unknown>	_	O	O	
+5-9	couche	NN	<unknown>	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	welche	PRELS	welche	_	O	O	
+5-12	im	APPRART	in	_	O	O	
+5-13	April	NN	April	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-14	beinah	ADV	beinah	_	O	O	
+5-15	eingetreten	VVPP	eintreten	_	O	O	
+5-16	wäre	VAFIN	sein	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	etwas	ADV	etwas	_	O	O	
+5-19	an	APPR	an	_	O	O	
+5-20	der	ART	die	_	O	O	
+5-21	Gebärmutter	NN	Gebärmutter	_	O	O	
+5-22	in	APPR	in	_	O	O	
+5-23	Unordnung	NN	Unordnung	_	O	O	
+5-24	ist	VAFIN	sein	_	O	O	
+5-25	und	KON	und	_	O	O	
+5-26	daß	KOUS	dass	_	O	O	
+5-27	der	ART	die	_	O	O	
+5-28	Fall	NN	Fall	_	O	O	
+5-29	möglicher	ADJA	möglich	_	O	O	
+5-30	Weise	NN	Weise	_	O	O	
+5-31	durch	APPR	durch	_	O	O	
+5-32	eine	ART	eine	_	O	O	
+5-33	mehrfache	ADJA	mehrfach	_	O	O	
+5-34	proles	ADJA	<unknown>	_	O	O	
+5-35	complicirt	NN	<unknown>	_	O	O	
+5-36	werden	VAINF	werden	_	O	O	
+5-37	könnte	VMFIN	können	_	O	O	
+5-38	.	$.	.	_	O	O	
+
+#id=6
+#text=Jeden Falls schicke ich Ihnen sofort telegraphischen Bescheid und verspreche ich Ihnen, daß ich meine Abreise auch keine Stunde länger hinausschiebe, als es absolut nöthig ist.
+6-1	Jeden	PIAT	jede	_	O	O	
+6-2	Falls	NN	Fall	_	O	O	
+6-3	schicke	VVFIN	schicken	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	Ihnen	PPER	Sie	_	O	O	
+6-6	sofort	ADV	sofort	_	O	O	
+6-7	telegraphischen	ADJA	<unknown>	_	O	O	
+6-8	Bescheid	NN	Bescheid	_	O	O	
+6-9	und	KON	und	_	O	O	
+6-10	verspreche	VVFIN	versprechen	_	O	O	
+6-11	ich	PPER	ich	_	O	O	
+6-12	Ihnen	PPER	Sie	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	daß	KOUS	dass	_	O	O	
+6-15	ich	PPER	ich	_	O	O	
+6-16	meine	PPOSAT	mein	_	O	O	
+6-17	Abreise	NN	Abreise	_	O	O	
+6-18	auch	ADV	auch	_	O	O	
+6-19	keine	PIAT	keine	_	O	O	
+6-20	Stunde	NN	Stunde	_	O	O	
+6-21	länger	ADJD	lang	_	O	O	
+6-22	hinausschiebe	VVFIN	hinausschieben	_	O	O	
+6-23	,	$,	,	_	O	O	
+6-24	als	KOUS	als	_	O	O	
+6-25	es	PPER	es	_	O	O	
+6-26	absolut	ADJD	absolut	_	O	O	
+6-27	nöthig	ADJD	<unknown>	_	O	O	
+6-28	ist	VAFIN	sein	_	O	O	
+6-29	.	$.	.	_	O	O	
+
+#id=7
+#text=Gleichzeitig theile ich die Situation an Mommsen mit.
+7-1	Gleichzeitig	ADJD	gleichzeitig	_	O	O	
+7-2	theile	VVFIN	<unknown>	_	O	O	
+7-3	ich	PPER	ich	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	Situation	NN	Situation	_	O	O	
+7-6	an	APPR	an	_	O	O	
+7-7	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-8	mit	PTKVZ	mit	_	O	O	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=Übrigens befindet sich meine Frau abgesehen von der Zeit, in welcher sie Wehen hat, leidlich wohl; nur ist sie sehr nervös aufgeregt.
+8-1	Übrigens	ADV	übrigens	_	O	O	
+8-2	befindet	VVFIN	befinden	_	O	O	
+8-3	sich	PRF	sich	_	O	O	
+8-4	meine	PPOSAT	mein	_	O	O	
+8-5	Frau	NN	Frau	_	O	O	
+8-6	abgesehen	VVPP	absehen	_	O	O	
+8-7	von	APPR	von	_	O	O	
+8-8	der	ART	die	_	O	O	
+8-9	Zeit	NN	Zeit	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	in	APPR	in	_	O	O	
+8-12	welcher	PRELS	welche	_	O	O	
+8-13	sie	PPER	sie	_	O	O	
+8-14	Wehen	NN	Wehe|Wehen	_	O	O	
+8-15	hat	VAFIN	haben	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	leidlich	ADJD	leidlich	_	O	O	
+8-18	wohl	ADV	wohl	_	O	O	
+8-19	;	$.	;	_	O	O	
+8-20	nur	ADV	nur	_	O	O	
+8-21	ist	VAFIN	sein	_	O	O	
+8-22	sie	PPER	sie	_	O	O	
+8-23	sehr	ADV	sehr	_	O	O	
+8-24	nervös	ADJD	nervös	_	O	O	
+8-25	aufgeregt	VVPP	aufregen	_	O	O	
+8-26	.	$.	.	_	O	O	
+
+#id=9
+#text=Vor drei Tagen war Michaelis mit den Zeichnungen des Nereidenmonuments hier.
+9-1	Vor	APPR	vor	_	O	O	
+9-2	drei	CARD	drei	_	O	O	
+9-3	Tagen	NN	Tag	_	O	O	
+9-4	war	VAFIN	sein	_	O	O	
+9-5	Michaelis	NE	Michaelis	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-6	mit	APPR	mit	_	O	O	
+9-7	den	ART	die	_	O	O	
+9-8	Zeichnungen	NN	Zeichnung	_	O	O	
+9-9	des	ART	die	_	O	O	
+9-10	Nereidenmonuments	NN	<unknown>	_	O	O	
+9-11	hier	ADV	hier	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Wenn man dem dunklen Local Rechnung trägt, in welchem sich die Sculpturen befinden,
+10-1	Wenn	KOUS	wenn	_	O	O	
+10-2	man	PIS	man	_	O	O	
+10-3	dem	ART	die	_	O	O	
+10-4	dunklen	ADJA	dunkel	_	O	O	
+10-5	Local	ADJA	<unknown>	_	O	O	
+10-6	Rechnung	NN	Rechnung	_	O	O	
+10-7	trägt	VVFIN	tragen	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	in	APPR	in	_	O	O	
+10-10	welchem	PRELS	welche	_	O	O	
+10-11	sich	PRF	sich	_	O	O	
+10-12	die	ART	die	_	O	O	
+10-13	Sculpturen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+10-14	befinden	VVFIN	befinden	_	O	O	
+10-15	,	$,	,	_	O	O	
+

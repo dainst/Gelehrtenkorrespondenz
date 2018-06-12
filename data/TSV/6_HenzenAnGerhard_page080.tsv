@@ -1,0 +1,327 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=299 16/IX/52 conosco tutto machen will.
+1-1	299	CARD	@card@	_	O	O	
+1-2	16/IX/52	NN	<unknown>	_	O	O	
+1-3	conosco	NE	<unknown>	_	O	O	
+1-4	tutto	ADJD	<unknown>	_	O	O	
+1-5	machen	VVINF	machen	_	O	O	
+1-6	will	VMFIN	wollen	_	O	O	
+1-7	.	$.	.	_	O	O	
+
+#id=2
+#text=Henzen an Gerhard 3 während Rosa sich gern einen Namen damit Braun's sind also einmal wirklich hier geblieben, aber daflir doch auch etwas angegriffen.
+2-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	an	APPR	an	_	O	O	
+2-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	3	CARD	3	_	O	O	
+2-5	während	APPR	während	_	O	O	
+2-6	Rosa	NE	Rosa	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-7	sich	PRF	sich	_	O	O	
+2-8	gern	ADV	gern	_	O	O	
+2-9	einen	ART	eine	_	O	O	
+2-10	Namen	NN	Name	_	O	O	
+2-11	damit	PAV	damit	_	O	O	
+2-12	Braun's	NN	<unknown>	_	O	O	
+2-13	sind	VAFIN	sein	_	O	O	
+2-14	also	ADV	also	_	O	O	
+2-15	einmal	ADV	einmal	_	O	O	
+2-16	wirklich	ADJD	wirklich	_	O	O	
+2-17	hier	ADV	hier	_	O	O	
+2-18	geblieben	VVPP	bleiben	_	O	O	
+2-19	,	$,	,	_	O	O	
+2-20	aber	KON	aber	_	O	O	
+2-21	daflir	ADV	<unknown>	_	O	O	
+2-22	doch	ADV	doch	_	O	O	
+2-23	auch	ADV	auch	_	O	O	
+2-24	etwas	ADV	etwas	_	O	O	
+2-25	angegriffen	VVPP	angreifen	_	O	O	
+2-26	.	$.	.	_	O	O	
+
+#id=3
+#text=- Brunn hat noch nicht alles Manuscript zum 1~ Bande fertig; also können Sie denken, wie lange sich die Sache noch hinziehen wird.
+3-1	-	$(	-	_	O	O	
+3-2	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	hat	VAFIN	haben	_	O	O	
+3-4	noch	ADV	noch	_	O	O	
+3-5	nicht	PTKNEG	nicht	_	O	O	
+3-6	alles	PIAT	alle	_	O	O	
+3-7	Manuscript	NN	<unknown>	_	O	O	
+3-8	zum	APPRART	zu	_	O	O	
+3-9	1~	NN	<unknown>	_	O	O	
+3-10	Bande	NN	Bande	_	O	O	
+3-11	fertig	PTKVZ	fertig	_	O	O	
+3-12	;	$.	;	_	O	O	
+3-13	also	ADV	also	_	O	O	
+3-14	können	VMFIN	können	_	O	O	
+3-15	Sie	PPER	Sie	_	O	O	
+3-16	denken	VVINF	denken	_	O	O	
+3-17	,	$,	,	_	O	O	
+3-18	wie	KOUS	wie	_	O	O	
+3-19	lange	ADV	lange	_	O	O	
+3-20	sich	PRF	sich	_	O	O	
+3-21	die	ART	die	_	O	O	
+3-22	Sache	NN	Sache	_	O	O	
+3-23	noch	ADV	noch	_	O	O	
+3-24	hinziehen	VVINF	hinziehen	_	O	O	
+3-25	wird	VAFIN	werden	_	O	O	
+3-26	.	$.	.	_	O	O	
+
+#id=4
+#text=Das Schlimmste dabei ist aber der finanzielle Punkt, u. dieser für mich ein Hauptgrund, gegen Griechenland zu rathen.
+4-1	Das	ART	die	_	O	O	
+4-2	Schlimmste	NN	Schlimmste	_	O	O	
+4-3	dabei	PAV	dabei	_	O	O	
+4-4	ist	VAFIN	sein	_	O	O	
+4-5	aber	ADV	aber	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	finanzielle	ADJA	finanziell	_	O	O	
+4-8	Punkt	NN	Punkt	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	u.	APPR	um	_	O	O	
+4-11	dieser	PDAT	dies	_	O	O	
+4-12	für	APPR	für	_	O	O	
+4-13	mich	PPER	ich	_	O	O	
+4-14	ein	ART	eine	_	O	O	
+4-15	Hauptgrund	NN	Hauptgrund	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	gegen	APPR	gegen	_	O	O	
+4-18	Griechenland	NE	Griechenland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-19	zu	APPR	zu	_	O	O	
+4-20	rathen	NE	<unknown>	_	O	O	
+4-21	.	$.	.	_	O	O	
+
+#id=5
+#text=Was will er in Dtschl. machen, wenn er ohne einen Heller dort ankommt?
+5-1	Was	PWS	was	_	O	O	
+5-2	will	VMFIN	wollen	_	O	O	
+5-3	er	PPER	er	_	O	O	
+5-4	in	APPR	in	_	O	O	
+5-5	Dtschl	NN	<unknown>	_	O	O	
+5-6	.	$.	.	_	O	O	
+5-7	machen	VVFIN	machen	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	wenn	KOUS	wenn	_	O	O	
+5-10	er	PPER	er	_	O	O	
+5-11	ohne	APPR	ohne	_	O	O	
+5-12	einen	ART	eine	_	O	O	
+5-13	Heller	NN	Heller	_	O	O	
+5-14	dort	ADV	dort	_	O	O	
+5-15	ankommt	VVFIN	ankommen	_	O	O	
+5-16	?	$.	?	_	O	O	
+
+#id=6
+#text=Besoldete Professuren regnet es doch nicht alle Tage, u. ein Privatdocent will essen, zumal Brunn.
+6-1	Besoldete	ADJA	besoldet	_	O	O	
+6-2	Professuren	NN	Professur	_	O	O	
+6-3	regnet	VVFIN	regnen	_	O	O	
+6-4	es	PPER	es	_	O	O	
+6-5	doch	ADV	doch	_	O	O	
+6-6	nicht	PTKNEG	nicht	_	O	O	
+6-7	alle	PIAT	alle	_	O	O	
+6-8	Tage	NN	Tag	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	u.	APPR	um	_	O	O	
+6-11	ein	ART	eine	_	O	O	
+6-12	Privatdocent	NN	<unknown>	_	O	O	
+6-13	will	VMFIN	wollen	_	O	O	
+6-14	essen	VVINF	essen	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	zumal	KOUS	zumal	_	O	O	
+6-17	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-18	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich werde suchen, dh.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	werde	VAFIN	werden	_	O	O	
+7-3	suchen	VVINF	suchen	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	dh.	NE	<unknown>	_	O	O	
+
+#id=8
+#text=Welcker auf ihn zu wirken; es wird aber Nichts helfen.
+8-1	Welcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	auf	APPR	auf	_	O	O	
+8-3	ihn	PPER	er	_	O	O	
+8-4	zu	PTKZU	zu	_	O	O	
+8-5	wirken	VVINF	wirken	_	O	O	
+8-6	;	$.	;	_	O	O	
+8-7	es	PPER	es	_	O	O	
+8-8	wird	VAFIN	werden	_	O	O	
+8-9	aber	ADV	aber	_	O	O	
+8-10	Nichts	PIS	nichts	_	O	O	
+8-11	helfen	VVINF	helfen	_	O	O	
+8-12	.	$.	.	_	O	O	
+
+#id=9
+#text=Indeß dixi et an imam salvavi Bethmann's werden uns im Winter wieder heimsuchen; gegen den Rath aller Vernünftigen besteht sie darauf, hier ihre Niederkunft, etwa um Weihnachten, abzuwarten, statt im Herbste zu ihrer Mutter zu reisen, und so haben sie alle Chance, auch das zweite Kind zu Opfern, da sie im Frühlinge werden reisen müssen.
+9-1	Indeß	NN	<unknown>	_	O	O	
+9-2	dixi	NN	<unknown>	_	O	O	
+9-3	et	FM	et	_	O	O	
+9-4	an	APPR	an	_	O	O	
+9-5	imam	NE	<unknown>	_	O	O	
+9-6	salvavi	NE	<unknown>	_	O	O	
+9-7	Bethmann's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-8	werden	VAFIN	werden	_	O	O	
+9-9	uns	PPER	wir	_	O	O	
+9-10	im	APPRART	in	_	O	O	
+9-11	Winter	NN	Winter	_	O	O	
+9-12	wieder	ADV	wieder	_	O	O	
+9-13	heimsuchen	VVINF	heimsuchen	_	O	O	
+9-14	;	$.	;	_	O	O	
+9-15	gegen	APPR	gegen	_	O	O	
+9-16	den	ART	die	_	O	O	
+9-17	Rath	NE	Rath	_	O	O	
+9-18	aller	PIAT	alle	_	O	O	
+9-19	Vernünftigen	NN	Vernünftige	_	O	O	
+9-20	besteht	VVFIN	bestehen	_	O	O	
+9-21	sie	PPER	sie	_	O	O	
+9-22	darauf	PAV	darauf	_	O	O	
+9-23	,	$,	,	_	O	O	
+9-24	hier	ADV	hier	_	O	O	
+9-25	ihre	PPOSAT	ihr	_	O	O	
+9-26	Niederkunft	NN	Niederkunft	_	O	O	
+9-27	,	$,	,	_	O	O	
+9-28	etwa	ADV	etwa	_	O	O	
+9-29	um	APPR	um	_	O	O	
+9-30	Weihnachten	NN	Weihnachten	_	O	O	
+9-31	,	$,	,	_	O	O	
+9-32	abzuwarten	VVIZU	abwarten	_	O	O	
+9-33	,	$,	,	_	O	O	
+9-34	statt	KOUI	statt	_	O	O	
+9-35	im	APPRART	in	_	O	O	
+9-36	Herbste	NN	Herbst	_	O	O	
+9-37	zu	APPR	zu	_	O	O	
+9-38	ihrer	PPOSAT	ihr	_	O	O	
+9-39	Mutter	NN	Mutter	_	O	O	
+9-40	zu	PTKZU	zu	_	O	O	
+9-41	reisen	VVINF	reisen	_	O	O	
+9-42	,	$,	,	_	O	O	
+9-43	und	KON	und	_	O	O	
+9-44	so	ADV	so	_	O	O	
+9-45	haben	VAFIN	haben	_	O	O	
+9-46	sie	PPER	sie	_	O	O	
+9-47	alle	PIAT	alle	_	O	O	
+9-48	Chance	NN	Chance	_	O	O	
+9-49	,	$,	,	_	O	O	
+9-50	auch	ADV	auch	_	O	O	
+9-51	das	ART	die	_	O	O	
+9-52	zweite	ADJA	zweit	_	O	O	
+9-53	Kind	NN	Kind	_	O	O	
+9-54	zu	APPR	zu	_	O	O	
+9-55	Opfern	NN	Opfer	_	O	O	
+9-56	,	$,	,	_	O	O	
+9-57	da	KOUS	da	_	O	O	
+9-58	sie	PPER	sie	_	O	O	
+9-59	im	APPRART	in	_	O	O	
+9-60	Frühlinge	NN	Frühling	_	O	O	
+9-61	werden	VAFIN	werden	_	O	O	
+9-62	reisen	VVINF	reisen	_	O	O	
+9-63	müssen	VMINF	müssen	_	O	O	
+9-64	.	$.	.	_	O	O	
+
+#id=10
+#text=Bethmann hat natürlich dabei keine Stimme, obwohl, wie ich höre, auch Pertz entschieden verlangen soll, daß er zurückkehre, u. er also auch mit diesem sich überwerfen wird.
+10-1	Bethmann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	hat	VAFIN	haben	_	O	O	
+10-3	natürlich	ADV	natürlich	_	O	O	
+10-4	dabei	PAV	dabei	_	O	O	
+10-5	keine	PIAT	keine	_	O	O	
+10-6	Stimme	NN	Stimme	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	obwohl	KOUS	obwohl	_	O	O	
+10-9	,	$,	,	_	O	O	
+10-10	wie	KOUS	wie	_	O	O	
+10-11	ich	PPER	ich	_	O	O	
+10-12	höre	VVFIN	hören	_	O	O	
+10-13	,	$,	,	_	O	O	
+10-14	auch	ADV	auch	_	O	O	
+10-15	Pertz	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-16	entschieden	ADJD	entschieden	_	O	O	
+10-17	verlangen	VVINF	verlangen	_	O	O	
+10-18	soll	VMFIN	sollen	_	O	O	
+10-19	,	$,	,	_	O	O	
+10-20	daß	KOUS	dass	_	O	O	
+10-21	er	PPER	er	_	O	O	
+10-22	zurückkehre	VVFIN	zurückkehren	_	O	O	
+10-23	,	$,	,	_	O	O	
+10-24	u.	APPR	um	_	O	O	
+10-25	er	PPER	er	_	O	O	
+10-26	also	ADV	also	_	O	O	
+10-27	auch	ADV	auch	_	O	O	
+10-28	mit	APPR	mit	_	O	O	
+10-29	diesem	PDAT	dies	_	O	O	
+10-30	sich	PRF	sich	_	O	O	
+10-31	überwerfen	VVINF	überwerfen	_	O	O	
+10-32	wird	VAFIN	werden	_	O	O	
+10-33	.	$.	.	_	O	O	
+
+#id=11
+#text=Von hier sind in letzten Tagen Briefe an sie nach Sorrent geschickt, um ihnen Vorstellungen zu machen; es wird aber nicht nützen.
+11-1	Von	APPR	von	_	O	O	
+11-2	hier	ADV	hier	_	O	O	
+11-3	sind	VAFIN	sein	_	O	O	
+11-4	in	APPR	in	_	O	O	
+11-5	letzten	ADJA	letzt	_	O	O	
+11-6	Tagen	NN	Tag	_	O	O	
+11-7	Briefe	NN	Brief	_	O	O	
+11-8	an	APPR	an	_	O	O	
+11-9	sie	PPER	sie	_	O	O	
+11-10	nach	APPR	nach	_	O	O	
+11-11	Sorrent	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-12	geschickt	VVPP	schicken	_	O	O	
+11-13	,	$,	,	_	O	O	
+11-14	um	KOUI	um	_	O	O	
+11-15	ihnen	PPER	sie	_	O	O	
+11-16	Vorstellungen	NN	Vorstellung	_	O	O	
+11-17	zu	PTKZU	zu	_	O	O	
+11-18	machen	VVINF	machen	_	O	O	
+11-19	;	$.	;	_	O	O	
+11-20	es	PPER	es	_	O	O	
+11-21	wird	VAFIN	werden	_	O	O	
+11-22	aber	ADV	aber	_	O	O	
+11-23	nicht	PTKNEG	nicht	_	O	O	
+11-24	nützen	VVINF	nützen	_	O	O	
+11-25	.	$.	.	_	O	O	
+
+#id=12
+#text=Uebrigens die ganze Sache unter uns zur Vermeidung von pettegolismi.
+12-1	Uebrigens	NN	<unknown>	_	O	O	
+12-2	die	ART	die	_	O	O	
+12-3	ganze	ADJA	ganz	_	O	O	
+12-4	Sache	NN	Sache	_	O	O	
+12-5	unter	APPR	unter	_	O	O	
+12-6	uns	PPER	wir	_	O	O	
+12-7	zur	APPRART	zu	_	O	O	
+12-8	Vermeidung	NN	Vermeidung	_	O	O	
+12-9	von	APPR	von	_	O	O	
+12-10	pettegolismi	NE	<unknown>	_	O	O	
+12-11	.	$.	.	_	O	O	
+
+#id=13
+#text=Unser ganzes Haus ist in Verzweiflung über jene Aussicht.
+13-1	Unser	PPOSAT	unser	_	O	O	
+13-2	ganzes	ADJA	ganz	_	O	O	
+13-3	Haus	NN	Haus	_	O	O	
+13-4	ist	VAFIN	sein	_	O	O	
+13-5	in	APPR	in	_	O	O	
+13-6	Verzweiflung	NN	Verzweiflung	_	O	O	
+13-7	über	APPR	über	_	O	O	
+13-8	jene	PDAT	jen	_	O	O	
+13-9	Aussicht	NN	Aussicht	_	O	O	
+13-10	.	$.	.	_	O	O	
+
+#id=14
+#text=Meine Frau grüßt herzlich mit mir Sie u. die Ihri-
+14-1	Meine	PPOSAT	mein	_	O	O	
+14-2	Frau	NN	Frau	_	O	O	
+14-3	grüßt	VVFIN	grüßen	_	O	O	
+14-4	herzlich	ADJD	herzlich	_	O	O	
+14-5	mit	APPR	mit	_	O	O	
+14-6	mir	PPER	ich	_	O	O	
+14-7	Sie	PPER	Sie	_	O	O	
+14-8	u.	APPR	um	_	O	O	
+14-9	die	ART	die	_	O	O	
+14-10	Ihri-	TRUNC	<unknown>	_	O	O	
+

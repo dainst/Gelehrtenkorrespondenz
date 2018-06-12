@@ -1,0 +1,205 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=185 3 Lepsius an Henzen Berlin, 16. April 1875 Raumbedingung noch nicht habe erfüllt werden können.
+1-1	185	CARD	185	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-2	3	CARD	3	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Raumbedingung	NN	<unknown>	_	O	O	
+1-13	noch	ADV	noch	_	O	O	
+1-14	nicht	PTKNEG	nicht	_	O	O	
+1-15	habe	VAFIN	haben	_	O	O	
+1-16	erfüllt	VVPP	erfüllen	_	O	O	
+1-17	werden	VAINF	werden	_	O	O	
+1-18	können	VMINF	können	_	O	O	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=Er fragt, ob die Schenkung dennoch dem Institute gesichert sei, wie die Sache überhaupt jetzt liege, und verlangt ein Verzeichnis der Bücher und Vorschläge über die eventuelle Unterbringung.
+2-1	Er	PPER	er	_	O	O	
+2-2	fragt	VVFIN	fragen	_	O	O	
+2-3	,	$,	,	_	O	O	
+2-4	ob	KOUS	ob	_	O	O	
+2-5	die	ART	die	_	O	O	
+2-6	Schenkung	NN	Schenkung	_	O	O	
+2-7	dennoch	ADV	dennoch	_	O	O	
+2-8	dem	ART	die	_	O	O	
+2-9	Institute	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-10	gesichert	VVPP	sichern	_	O	O	
+2-11	sei	VAFIN	sein	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	wie	KOUS	wie	_	O	O	
+2-14	die	ART	die	_	O	O	
+2-15	Sache	NN	Sache	_	O	O	
+2-16	überhaupt	ADV	überhaupt	_	O	O	
+2-17	jetzt	ADV	jetzt	_	O	O	
+2-18	liege	VVFIN	liegen	_	O	O	
+2-19	,	$,	,	_	O	O	
+2-20	und	KON	und	_	O	O	
+2-21	verlangt	VVFIN	verlangen	_	O	O	
+2-22	ein	ART	eine	_	O	O	
+2-23	Verzeichnis	NN	Verzeichnis	_	O	O	
+2-24	der	ART	die	_	O	O	
+2-25	Bücher	NN	Buch	_	O	O	
+2-26	und	KON	und	_	O	O	
+2-27	Vorschläge	NN	Vorschlag	_	O	O	
+2-28	über	APPR	über	_	O	O	
+2-29	die	ART	die	_	O	O	
+2-30	eventuelle	ADJA	eventuell	_	O	O	
+2-31	Unterbringung	NN	Unterbringung	_	O	O	
+2-32	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich werde ihm antworten, daß sie unsrer Bibliothek eingeordnet werden soll, für welche im Neuen Hause die nöthigen Räume bestimmt seien.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	werde	VAFIN	werden	_	O	O	
+3-3	ihm	PPER	er	_	O	O	
+3-4	antworten	VVINF	antworten	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	daß	KOUS	dass	_	O	O	
+3-7	sie	PPER	sie	_	O	O	
+3-8	unsrer	PPOSAT	unser	_	O	O	
+3-9	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-10	eingeordnet	VVPP	einordnen	_	O	O	
+3-11	werden	VAINF	werden	_	O	O	
+3-12	soll	VMFIN	sollen	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	für	APPR	für	_	O	O	
+3-15	welche	PRELS	welche	_	O	O	
+3-16	im	APPRART	in	_	O	O	
+3-17	Neuen	ADJA	neu	_	O	O	
+3-18	Hause	NN	Haus	_	O	O	
+3-19	die	ART	die	_	O	O	
+3-20	nöthigen	ADJA	<unknown>	_	O	O	
+3-21	Räume	NN	Raum	_	O	O	
+3-22	bestimmt	VVPP	bestimmen	_	O	O	
+3-23	seien	VAFIN	sein	_	O	O	
+3-24	.	$.	.	_	O	O	
+
+#id=4
+#text=Dagegen werde es wohl nicht nöthig sein die beiden Foliobände wieder hierher kommen zu lassen.
+4-1	Dagegen	PAV	dagegen	_	O	O	
+4-2	werde	VAFIN	werden	_	O	O	
+4-3	es	PPER	es	_	O	O	
+4-4	wohl	ADV	wohl	_	O	O	
+4-5	nicht	PTKNEG	nicht	_	O	O	
+4-6	nöthig	ADJD	<unknown>	_	O	O	
+4-7	sein	VAINF	sein	_	O	O	
+4-8	die	ART	die	_	O	O	
+4-9	beiden	PIAT	beide	_	O	O	
+4-10	Foliobände	NN	<unknown>	_	O	O	
+4-11	wieder	ADV	wieder	_	O	O	
+4-12	hierher	PAV	hierher	_	O	O	
+4-13	kommen	VVINF	kommen	_	O	O	
+4-14	zu	PTKZU	zu	_	O	O	
+4-15	lassen	VVINF	lassen	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Um aber doch der wie es scheint vorgeschriebenen Form zu genügen, wird es etwa nöthig sein, eine von Ihnen beglaubigte Übersicht der verschiedenen Abtheilungen mit Angabe über die Zahl der Bücher beizulegen, um die ich daher bitte.
+5-1	Um	APPR	um	_	O	O	
+5-2	aber	ADV	aber	_	O	O	
+5-3	doch	ADV	doch	_	O	O	
+5-4	der	ART	die	_	O	O	
+5-5	wie	KOKOM	wie	_	O	O	
+5-6	es	PPER	es	_	O	O	
+5-7	scheint	VVFIN	scheinen	_	O	O	
+5-8	vorgeschriebenen	ADJA	vorgeschrieben	_	O	O	
+5-9	Form	NN	Form	_	O	O	
+5-10	zu	PTKZU	zu	_	O	O	
+5-11	genügen	VVINF	genügen	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	wird	VAFIN	werden	_	O	O	
+5-14	es	PPER	es	_	O	O	
+5-15	etwa	ADV	etwa	_	O	O	
+5-16	nöthig	ADJD	<unknown>	_	O	O	
+5-17	sein	VAINF	sein	_	O	O	
+5-18	,	$,	,	_	O	O	
+5-19	eine	ART	eine	_	O	O	
+5-20	von	APPR	von	_	O	O	
+5-21	Ihnen	PPER	Sie	_	O	O	
+5-22	beglaubigte	ADJA	beglaubigt	_	O	O	
+5-23	Übersicht	NN	Übersicht	_	O	O	
+5-24	der	ART	die	_	O	O	
+5-25	verschiedenen	ADJA	verschieden	_	O	O	
+5-26	Abtheilungen	NN	<unknown>	_	O	O	
+5-27	mit	APPR	mit	_	O	O	
+5-28	Angabe	NN	Angabe	_	O	O	
+5-29	über	APPR	über	_	O	O	
+5-30	die	ART	die	_	O	O	
+5-31	Zahl	NN	Zahl	_	O	O	
+5-32	der	ART	die	_	O	O	
+5-33	Bücher	NN	Buch	_	O	O	
+5-34	beizulegen	VVIZU	beilegen	_	O	O	
+5-35	,	$,	,	_	O	O	
+5-36	um	APPR	um	_	O	O	
+5-37	die	PRELS	die	_	O	O	
+5-38	ich	PPER	ich	_	O	O	
+5-39	daher	PAV	daher	_	O	O	
+5-40	bitte	PTKANT	bitte	_	O	O	
+5-41	.	$.	.	_	O	O	
+
+#id=6
+#text=Nun wird ja wohl Ranke vielleicht auch Hepke angekommen sein.
+6-1	Nun	ADV	nun	_	O	O	
+6-2	wird	VAFIN	werden	_	O	O	
+6-3	ja	ADV	ja	_	O	O	
+6-4	wohl	ADV	wohl	_	O	O	
+6-5	Ranke	NN	Ranke	_	O	O	
+6-6	vielleicht	ADV	vielleicht	_	O	O	
+6-7	auch	ADV	auch	_	O	O	
+6-8	Hepke	NE	Hepke	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-9	angekommen	VVPP	ankommen	_	O	O	
+6-10	sein	VAINF	sein	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Grüßen Sie beide von mir.
+7-1	Grüßen	VVFIN	grüßen	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	beide	PIS	beide	_	O	O	
+7-4	von	APPR	von	_	O	O	
+7-5	mir	PPER	ich	_	O	O	
+7-6	.	$.	.	_	O	O	
+
+#id=8
+#text=Leben Sie wohl und freuen Sie sich der wachsenden Sonne, die auch bei uns schon Alles grün und bunt gemacht hat.
+8-1	Leben	VVFIN	leben	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	wohl	ADV	wohl	_	O	O	
+8-4	und	KON	und	_	O	O	
+8-5	freuen	VVFIN	freuen	_	O	O	
+8-6	Sie	PPER	Sie	_	O	O	
+8-7	sich	PRF	sich	_	O	O	
+8-8	der	ART	die	_	O	O	
+8-9	wachsenden	ADJA	wachsend	_	O	O	
+8-10	Sonne	NN	Sonne	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	die	PRELS	die	_	O	O	
+8-13	auch	ADV	auch	_	O	O	
+8-14	bei	APPR	bei	_	O	O	
+8-15	uns	PPER	wir	_	O	O	
+8-16	schon	ADV	schon	_	O	O	
+8-17	Alles	PIS	alle	_	O	O	
+8-18	grün	ADJD	grün	_	O	O	
+8-19	und	KON	und	_	O	O	
+8-20	bunt	ADJD	bunt	_	O	O	
+8-21	gemacht	VVPP	machen	_	O	O	
+8-22	hat	VAFIN	haben	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=Mit herzlichem Gruß R Lepsius
+9-1	Mit	APPR	mit	_	O	O	
+9-2	herzlichem	ADJA	herzlich	_	O	O	
+9-3	Gruß	NN	Gruß	_	O	O	
+9-4	R	NN	R	_	O	O	
+9-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

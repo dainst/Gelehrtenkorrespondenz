@@ -1,0 +1,249 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=95 Privatim Verehrter Freund Lepsius an Henzen Berlin, 9. Februar 1876 g. 24/2 76 r.
+1-1	95	CARD	@card@	_	O	O	
+1-2	Privatim	NN	<unknown>	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	24/2	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	76	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=28/2 76 Berlin d. §.
+2-1	28/2	CARD	@card@	_	O	O	
+2-2	76	CARD	@card@	_	O	O	
+2-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-4	d.	ART	d.	_	O	O	
+2-5	§	NN	§	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Febr.
+3-1	Febr.	NN	Febr.	_	O	O	
+
+#id=4
+#text=1876 Hierbei liegt mein Bericht über die gestrige Sitzung der Central Direktion.
+4-1	1876	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-2	Hierbei	PAV	hierbei	_	O	O	
+4-3	liegt	VVFIN	liegen	_	O	O	
+4-4	mein	PPOSAT	mein	_	O	O	
+4-5	Bericht	NN	Bericht	_	O	O	
+4-6	über	APPR	über	_	O	O	
+4-7	die	ART	die	_	O	O	
+4-8	gestrige	ADJA	gestrig	_	O	O	
+4-9	Sitzung	NN	Sitzung	_	O	O	
+4-10	der	ART	die	_	O	O	
+4-11	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-12	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Rechnungen im Einzelnen können von uns nicht geprüft werden, da sie, auf Wunsch der Lagationskasse in Lire ausgestellt sind.
+5-1	Die	ART	die	_	O	O	
+5-2	Rechnungen	NN	Rechnung	_	O	O	
+5-3	im	APPRART	in	_	O	O	
+5-4	Einzelnen	NN	Einzelne	_	O	O	
+5-5	können	VMFIN	können	_	O	O	
+5-6	von	APPR	von	_	O	O	
+5-7	uns	PPER	wir	_	O	O	
+5-8	nicht	PTKNEG	nicht	_	O	O	
+5-9	geprüft	VVPP	prüfen	_	O	O	
+5-10	werden	VAINF	werden	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	da	KOUS	da	_	O	O	
+5-13	sie	PPER	sie	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	auf	APPR	auf	_	O	O	
+5-16	Wunsch	NN	Wunsch	_	O	O	
+5-17	der	ART	die	_	O	O	
+5-18	Lagationskasse	NN	<unknown>	_	O	O	
+5-19	in	APPR	in	_	O	O	
+5-20	Lire	NN	Lira	_	O	O	
+5-21	ausgestellt	VVPP	ausstellen	_	O	O	
+5-22	sind	VAFIN	sein	_	O	O	
+5-23	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Zahlung an Dressel haben Sie also auf das vorige Jahr mit gerechnet.
+6-1	Die	ART	die	_	O	O	
+6-2	Zahlung	NN	Zahlung	_	O	O	
+6-3	an	APPR	an	_	O	O	
+6-4	Dressel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	haben	VAFIN	haben	_	O	O	
+6-6	Sie	PPER	Sie	_	O	O	
+6-7	also	ADV	also	_	O	O	
+6-8	auf	APPR	auf	_	O	O	
+6-9	das	ART	die	_	O	O	
+6-10	vorige	ADJA	vorig	_	O	O	
+6-11	Jahr	NN	Jahr	_	O	O	
+6-12	mit	PTKVZ	mit	_	O	O	
+6-13	gerechnet	VVPP	rechnen	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Es erleichtert die Disposition sehr, daß alle Titel auch unter sich übertragbar sind.
+7-1	Es	PPER	es	_	O	O	
+7-2	erleichtert	VVFIN	erleichtern	_	O	O	
+7-3	die	ART	die	_	O	O	
+7-4	Disposition	NN	Disposition	_	O	O	
+7-5	sehr	ADV	sehr	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	daß	KOUS	dass	_	O	O	
+7-8	alle	PIAT	alle	_	O	O	
+7-9	Titel	NN	Titel	_	O	O	
+7-10	auch	ADV	auch	_	O	O	
+7-11	unter	APPR	unter	_	O	O	
+7-12	sich	PRF	sich	_	O	O	
+7-13	übertragbar	ADJD	übertragbar	_	O	O	
+7-14	sind	VAFIN	sein	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich bedaure daß das Medaillon von Parthey nun wohl in Gyps bleiben muß.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	bedaure	VVFIN	bedauern	_	O	O	
+8-3	daß	KOUS	dass	_	O	O	
+8-4	das	ART	die	_	O	O	
+8-5	Medaillon	NN	Medaillon	_	O	O	
+8-6	von	APPR	von	_	O	O	
+8-7	Parthey	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-8	nun	ADV	nun	_	O	O	
+8-9	wohl	ADV	wohl	_	O	O	
+8-10	in	APPR	in	_	O	O	
+8-11	Gyps	NN	<unknown>	_	O	O	
+8-12	bleiben	VVINF	bleiben	_	O	O	
+8-13	muß	VMFIN	müssen	_	O	O	
+8-14	.	$.	.	_	O	O	
+
+#id=9
+#text=Es war auch in Ihrem Berichte nicht ganz verständlich ob in der Erhöhung Marmor und Rahmen einbegriffen waren, wie aber allerdings vorausgesetzt wurde; der Preis in Marmor wäre dann in der That nur gering gewesen.
+9-1	Es	PPER	es	_	O	O	
+9-2	war	VAFIN	sein	_	O	O	
+9-3	auch	ADV	auch	_	O	O	
+9-4	in	APPR	in	_	O	O	
+9-5	Ihrem	PPOSAT	ihr	_	O	O	
+9-6	Berichte	NN	Bericht	_	O	O	
+9-7	nicht	PTKNEG	nicht	_	O	O	
+9-8	ganz	ADV	ganz	_	O	O	
+9-9	verständlich	ADJD	verständlich	_	O	O	
+9-10	ob	ADV	ob	_	O	O	
+9-11	in	APPR	in	_	O	O	
+9-12	der	ART	die	_	O	O	
+9-13	Erhöhung	NN	Erhöhung	_	O	O	
+9-14	Marmor	NN	Marmor	_	O	O	
+9-15	und	KON	und	_	O	O	
+9-16	Rahmen	NN	Rahmen	_	O	O	
+9-17	einbegriffen	VVPP	einbegreifen	_	O	O	
+9-18	waren	VAINF	sein	_	O	O	
+9-19	,	$,	,	_	O	O	
+9-20	wie	KOUS	wie	_	O	O	
+9-21	aber	ADV	aber	_	O	O	
+9-22	allerdings	ADV	allerdings	_	O	O	
+9-23	vorausgesetzt	VVPP	voraussetzen	_	O	O	
+9-24	wurde	VAFIN	werden	_	O	O	
+9-25	;	$.	;	_	O	O	
+9-26	der	ART	die	_	O	O	
+9-27	Preis	NN	Preis	_	O	O	
+9-28	in	APPR	in	_	O	O	
+9-29	Marmor	NN	Marmor	_	O	O	
+9-30	wäre	VAFIN	sein	_	O	O	
+9-31	dann	ADV	dann	_	O	O	
+9-32	in	APPR	in	_	O	O	
+9-33	der	ART	die	_	O	O	
+9-34	That	NE	<unknown>	_	O	O	
+9-35	nur	ADV	nur	_	O	O	
+9-36	gering	ADJD	gering	_	O	O	
+9-37	gewesen	VAPP	sein	_	O	O	
+9-38	.	$.	.	_	O	O	
+
+#id=10
+#text=Sehr schön wäre es, wenn Sie einige Bilder von Preller erhalten könnten.
+10-1	Sehr	ADV	sehr	_	O	O	
+10-2	schön	ADJD	schön	_	O	O	
+10-3	wäre	VAFIN	sein	_	O	O	
+10-4	es	PPER	es	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	wenn	KOUS	wenn	_	O	O	
+10-7	Sie	PPER	Sie	_	O	O	
+10-8	einige	PIAT	einige	_	O	O	
+10-9	Bilder	NN	Bild	_	O	O	
+10-10	von	APPR	von	_	O	O	
+10-11	Preller	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-12	erhalten	VVINF	erhalten	_	O	O	
+10-13	könnten	VMFIN	können	_	O	O	
+10-14	.	$.	.	_	O	O	
+
+#id=11
+#text=Sein großartiger klassischer Styl für Landschaft mit Staffage wäre durch niemand anders zu übertreffen.
+11-1	Sein	PPOSAT	sein	_	O	O	
+11-2	großartiger	ADJA	großartig	_	O	O	
+11-3	klassischer	ADJA	klassisch	_	O	O	
+11-4	Styl	NN	<unknown>	_	O	O	
+11-5	für	APPR	für	_	O	O	
+11-6	Landschaft	NN	Landschaft	_	O	O	
+11-7	mit	APPR	mit	_	O	O	
+11-8	Staffage	NN	Staffage	_	O	O	
+11-9	wäre	VAFIN	sein	_	O	O	
+11-10	durch	APPR	durch	_	O	O	
+11-11	niemand	PIS	niemand	_	O	O	
+11-12	anders	ADV	anders	_	O	O	
+11-13	zu	PTKZU	zu	_	O	O	
+11-14	übertreffen	VVINF	übertreffen	_	O	O	
+11-15	.	$.	.	_	O	O	
+
+#id=12
+#text=Wenn er sich freilich als Künstler seines Ranges will bez~en lassen, so würde der - Schmuck zu theuer.
+12-1	Wenn	KOUS	wenn	_	O	O	
+12-2	er	PPER	er	_	O	O	
+12-3	sich	PRF	sich	_	O	O	
+12-4	freilich	ADV	freilich	_	O	O	
+12-5	als	KOKOM	als	_	O	O	
+12-6	Künstler	NN	Künstler	_	O	O	
+12-7	seines	PPOSAT	sein	_	O	O	
+12-8	Ranges	NN	Rang	_	O	O	
+12-9	will	VMFIN	wollen	_	O	O	
+12-10	bez~en	NE	<unknown>	_	O	O	
+12-11	lassen	VVINF	lassen	_	O	O	
+12-12	,	$,	,	_	O	O	
+12-13	so	ADV	so	_	O	O	
+12-14	würde	VAFIN	werden	_	O	O	
+12-15	der	ART	die	_	O	O	
+12-16	-	$(	-	_	O	O	
+12-17	Schmuck	NN	Schmuck	_	O	O	
+12-18	zu	PTKA	zu	_	O	O	
+12-19	theuer	ADJD	<unknown>	_	O	O	
+12-20	.	$.	.	_	O	O	
+
+#id=13
+#text=Schade daß Sie darüber noch nichts zufügen konnten.
+13-1	Schade	ADJD	schade	_	O	O	
+13-2	daß	KOUS	dass	_	O	O	
+13-3	Sie	PPER	Sie	_	O	O	
+13-4	darüber	PAV	darüber	_	O	O	
+13-5	noch	ADV	noch	_	O	O	
+13-6	nichts	PIS	nichts	_	O	O	
+13-7	zufügen	VVINF	zufügen	_	O	O	
+13-8	konnten	VMFIN	können	_	O	O	
+13-9	.	$.	.	_	O	O	
+
+#id=14
+#text=Vorher läßt sich hier gar nichts thun
+14-1	Vorher	ADV	vorher	_	O	O	
+14-2	läßt	VVFIN	lassen	_	O	O	
+14-3	sich	PRF	sich	_	O	O	
+14-4	hier	ADV	hier	_	O	O	
+14-5	gar	ADV	gar	_	O	O	
+14-6	nichts	PIAT	nichts	_	O	O	
+14-7	thun	NN	<unknown>	_	O	O	
+

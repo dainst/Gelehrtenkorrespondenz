@@ -1,0 +1,228 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=267 H Lieber Herr Professor Helbig an Henzen Dresden, 1. Juni 1868 g. 8/6 68 Dresden 1. Juni 1868.
+1-1	267	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1868	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	8/6	CARD	8/6	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	68	CARD	68	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-19	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	1868	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Seit zwei Tagen sind wir in Dresden, alle drei im besten Wohlbefinden.
+2-1	Seit	APPR	seit	_	O	O	
+2-2	zwei	CARD	zwei	_	O	O	
+2-3	Tagen	NN	Tag	_	O	O	
+2-4	sind	VAFIN	sein	_	O	O	
+2-5	wir	PPER	wir	_	O	O	
+2-6	in	APPR	in	_	O	O	
+2-7	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-8	,	$,	,	_	O	O	
+2-9	alle	PIAT	alle	_	O	O	
+2-10	drei	CARD	drei	_	O	O	
+2-11	im	APPRART	in	_	O	O	
+2-12	besten	ADJA	gut	_	O	O	
+2-13	Wohlbefinden	NN	Wohlbefinden	_	O	O	
+2-14	.	$.	.	_	O	O	
+
+#id=3
+#text=Meinen herzlichen Dank für Ihren freundlichen Brief vom 24. und für die beiden Briefe an meine Frau, welche Sie uns nachgeschickt hatten.
+3-1	Meinen	PPOSAT	mein	_	O	O	
+3-2	herzlichen	ADJA	herzlich	_	O	O	
+3-3	Dank	NN	Dank	_	O	O	
+3-4	für	APPR	für	_	O	O	
+3-5	Ihren	PPOSAT	ihr	_	O	O	
+3-6	freundlichen	ADJA	freundlich	_	O	O	
+3-7	Brief	NN	Brief	_	O	O	
+3-8	vom	APPRART	von	_	O	O	
+3-9	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-11	und	KON	und	_	O	O	
+3-12	für	APPR	für	_	O	O	
+3-13	die	ART	die	_	O	O	
+3-14	beiden	PIAT	beide	_	O	O	
+3-15	Briefe	NN	Brief	_	O	O	
+3-16	an	APPR	an	_	O	O	
+3-17	meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-18	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-19	,	$,	,	_	O	O	
+3-20	welche	PRELS	welche	_	O	O	
+3-21	Sie	PPER	Sie	_	O	O	
+3-22	uns	PRF	wir	_	O	O	
+3-23	nachgeschickt	VVPP	nachschicken	_	O	O	
+3-24	hatten	VAFIN	haben	_	O	O	
+3-25	.	$.	.	_	O	O	
+
+#id=4
+#text=Den Wechsel von Stephani heben Sie mir, bitte, auf.
+4-1	Den	ART	die	_	O	O	
+4-2	Wechsel	NN	Wechsel	_	O	O	
+4-3	von	APPR	von	_	O	O	
+4-4	Stephani	NE	Stephani	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	heben	VVFIN	heben	_	O	O	
+4-6	Sie	PPER	Sie	_	O	O	
+4-7	mir	PPER	ich	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	bitte	VVIMP	bitten	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	auf	PTKVZ	auf	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Da die Petersburger Finanzbureaukratie sehr nörgelig ist, so würden Sie Stephani einen großen Gefallen thun, wenn Sie ihm eine Quittung ausstellten, dahin lautend, daß Sie in meiner Abwesenheit einen so und soviel lautenden Wechsel erhalten, und daß Sie ihn bis zu meiner Rückkehr aufheben würden.
+5-1	Da	KOUS	da	_	O	O	
+5-2	die	ART	die	_	O	O	
+5-3	Petersburger	NN	Petersburger	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-4	Finanzbureaukratie	NN	<unknown>	_	O	O	
+5-5	sehr	ADV	sehr	_	O	O	
+5-6	nörgelig	ADJD	nörgelig	_	O	O	
+5-7	ist	VAFIN	sein	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	so	ADV	so	_	O	O	
+5-10	würden	VAFIN	werden	_	O	O	
+5-11	Sie	PPER	Sie	_	O	O	
+5-12	Stephani	NE	Stephani	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-13	einen	ART	eine	_	O	O	
+5-14	großen	ADJA	groß	_	O	O	
+5-15	Gefallen	NN	Gefallen	_	O	O	
+5-16	thun	NE	<unknown>	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	wenn	KOUS	wenn	_	O	O	
+5-19	Sie	PPER	Sie	_	O	O	
+5-20	ihm	PPER	er	_	O	O	
+5-21	eine	ART	eine	_	O	O	
+5-22	Quittung	NN	Quittung	_	O	O	
+5-23	ausstellten	VVFIN	ausstellen	_	O	O	
+5-24	,	$,	,	_	O	O	
+5-25	dahin	PAV	dahin	_	O	O	
+5-26	lautend	ADJD	<unknown>	_	O	O	
+5-27	,	$,	,	_	O	O	
+5-28	daß	KOUS	dass	_	O	O	
+5-29	Sie	PPER	Sie	_	O	O	
+5-30	in	APPR	in	_	O	O	
+5-31	meiner	PPOSAT	mein	_	O	O	
+5-32	Abwesenheit	NN	Abwesenheit	_	O	O	
+5-33	einen	PIS	eine	_	O	O	
+5-34	so	ADV	so	_	O	O	
+5-35	und	KON	und	_	O	O	
+5-36	soviel	PIS	soviele	_	O	O	
+5-37	lautenden	ADJA	lautend	_	O	O	
+5-38	Wechsel	NN	Wechsel	_	O	O	
+5-39	erhalten	VVPP	erhalten	_	O	O	
+5-40	,	$,	,	_	O	O	
+5-41	und	KON	und	_	O	O	
+5-42	daß	KOUS	dass	_	O	O	
+5-43	Sie	PPER	Sie	_	O	O	
+5-44	ihn	PPER	er	_	O	O	
+5-45	bis	KON	bis	_	O	O	
+5-46	zu	APPR	zu	_	O	O	
+5-47	meiner	PPOSAT	mein	_	O	O	
+5-48	Rückkehr	NN	Rückkehr	_	O	O	
+5-49	aufheben	VVINF	aufheben	_	O	O	
+5-50	würden	VAFIN	werden	_	O	O	
+5-51	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich habe vorläufig an Stephani geschrieben und ihm mitgetheilt, daß Sie den Wechsel in Empfang genommen haben.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	habe	VAFIN	haben	_	O	O	
+6-3	vorläufig	ADJD	vorläufig	_	O	O	
+6-4	an	APPR	an	_	O	O	
+6-5	Stephani	NE	Stephani	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-6	geschrieben	VVPP	schreiben	_	O	O	
+6-7	und	KON	und	_	O	O	
+6-8	ihm	PPER	er	_	O	O	
+6-9	mitgetheilt	VVPP	<unknown>	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	daß	KOUS	dass	_	O	O	
+6-12	Sie	PPER	Sie	_	O	O	
+6-13	den	ART	die	_	O	O	
+6-14	Wechsel	NN	Wechsel	_	O	O	
+6-15	in	APPR	in	_	O	O	
+6-16	Empfang	NN	Empfang	_	O	O	
+6-17	genommen	VVPP	nehmen	_	O	O	
+6-18	haben	VAFIN	haben	_	O	O	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=Doch wünscht man in Petersburg in der Regel möglichst officielle Documente und Sie werden daher wohl dem guten Minotaur den Gefallen thun, ihm ein solches Papier zuzuschicken.
+7-1	Doch	ADV	doch	_	O	O	
+7-2	wünscht	VVFIN	wünschen	_	O	O	
+7-3	man	PIS	man	_	O	O	
+7-4	in	APPR	in	_	O	O	
+7-5	Petersburg	NE	Petersburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-6	in	APPR	in	_	O	O	
+7-7	der	ART	die	_	O	O	
+7-8	Regel	NN	Regel	_	O	O	
+7-9	möglichst	ADV	möglichst	_	O	O	
+7-10	officielle	ADJA	<unknown>	_	O	O	
+7-11	Documente	NN	<unknown>	_	O	O	
+7-12	und	KON	und	_	O	O	
+7-13	Sie	PPER	Sie	_	O	O	
+7-14	werden	VAFIN	werden	_	O	O	
+7-15	daher	PAV	daher	_	O	O	
+7-16	wohl	ADV	wohl	_	O	O	
+7-17	dem	ART	die	_	O	O	
+7-18	guten	ADJA	gut	_	O	O	
+7-19	Minotaur	NN	<unknown>	_	O	O	
+7-20	den	ART	die	_	O	O	
+7-21	Gefallen	NN	Gefallen	_	O	O	
+7-22	thun	NE	<unknown>	_	O	O	
+7-23	,	$,	,	_	O	O	
+7-24	ihm	PPER	er	_	O	O	
+7-25	ein	ART	eine	_	O	O	
+7-26	solches	PIAT	solche	_	O	O	
+7-27	Papier	NN	Papier	_	O	O	
+7-28	zuzuschicken	VVIZU	zuschicken	_	O	O	
+7-29	.	$.	.	_	O	O	
+
+#id=8
+#text=Was die in diesem Jahre zu publicirenden Stiche betrifft, so befinden sich die Probedrücke, soweit sie vorräthig sind, in der in dem untersten Fache des Institutsrepositoriums befindlichen
+8-1	Was	PWS	was	_	O	O	
+8-2	die	ART	die	_	O	O	
+8-3	in	APPR	in	_	O	O	
+8-4	diesem	PDAT	dies	_	O	O	
+8-5	Jahre	NN	Jahr	_	O	O	
+8-6	zu	APPR	zu	_	O	O	
+8-7	publicirenden	ADJA	<unknown>	_	O	O	
+8-8	Stiche	NN	Stich	_	O	O	
+8-9	betrifft	VVFIN	betreffen	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	so	ADV	so	_	O	O	
+8-12	befinden	VVFIN	befinden	_	O	O	
+8-13	sich	PRF	sich	_	O	O	
+8-14	die	ART	die	_	O	O	
+8-15	Probedrücke	NN	<unknown>	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	soweit	KOUS	soweit	_	O	O	
+8-18	sie	PPER	sie	_	O	O	
+8-19	vorräthig	ADJD	<unknown>	_	O	O	
+8-20	sind	VAFIN	sein	_	O	O	
+8-21	,	$,	,	_	O	O	
+8-22	in	APPR	in	_	O	O	
+8-23	der	PRELS	die	_	O	O	
+8-24	in	APPR	in	_	O	O	
+8-25	dem	ART	die	_	O	O	
+8-26	untersten	ADJA	unter	_	O	O	
+8-27	Fache	NN	<unknown>	_	O	O	
+8-28	des	ART	die	_	O	O	
+8-29	Institutsrepositoriums	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-30	befindlichen	ADJA	befindlich	_	O	O	
+

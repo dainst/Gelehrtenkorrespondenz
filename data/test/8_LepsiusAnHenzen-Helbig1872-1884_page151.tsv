@@ -1,0 +1,67 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=164 2 Lepsius an Renzen Berlin, 5. April 1874 sein.
+1-1	164	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	sein	PPOSAT	sein	_	O	O	
+1-13	.	$.	.	_	O	O	
+
+#id=2
+#text=Meine Ernennung zum Oberbibliothekar ist nun erfolgt, ohne meine anderen Stellungen zu verändern.
+2-1	Meine	PPOSAT	mein	_	O	O	
+2-2	Ernennung	NN	Ernennung	_	O	O	
+2-3	zum	APPRART	zu	_	O	O	
+2-4	Oberbibliothekar	NN	<unknown>	_	O	O	
+2-5	ist	VAFIN	sein	_	O	O	
+2-6	nun	ADV	nun	_	O	O	
+2-7	erfolgt	VVPP	erfolgen	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	ohne	KOUI	ohne	_	O	O	
+2-10	meine	PPOSAT	mein	_	O	O	
+2-11	anderen	PIAT	andere	_	O	O	
+2-12	Stellungen	NN	Stellung	_	O	O	
+2-13	zu	PTKZU	zu	_	O	O	
+2-14	verändern	VVINF	verändern	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich hoffe Sie werden ein gesundes und fröhliches Osterfest mit Frühlings Anzug gefeiert haben.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	hoffe	VVFIN	hoffen	_	O	O	
+3-3	Sie	PPER	Sie	_	O	O	
+3-4	werden	VAFIN	werden	_	O	O	
+3-5	ein	ART	eine	_	O	O	
+3-6	gesundes	ADJA	gesund	_	O	O	
+3-7	und	KON	und	_	O	O	
+3-8	fröhliches	ADJA	fröhlich	_	O	O	
+3-9	Osterfest	NN	Osterfest	_	O	O	
+3-10	mit	APPR	mit	_	O	O	
+3-11	Frühlings	NN	Frühling	_	O	O	
+3-12	Anzug	NN	Anzug	_	O	O	
+3-13	gefeiert	VVPP	feiern	_	O	O	
+3-14	haben	VAINF	haben	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Grüßen Sie Helbig's.
+4-1	Grüßen	NN	Gruß|Grüßen	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	Helbig's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-4	.	$.	.	_	O	O	
+
+#id=5
+#text=Herzlich Ihr R Lepsius
+5-1	Herzlich	ADJD	herzlich	_	O	O	
+5-2	Ihr	PPOSAT	ihr	_	O	O	
+5-3	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+5-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

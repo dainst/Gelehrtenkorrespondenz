@@ -1,0 +1,174 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=4 Gerhard an Braun Berlin, 5. Juni 1846 Meine Frau ist glücklich zurückgekehrt und grüßt bestens.
+1-1	4	CARD	4	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-12	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-13	ist	VAFIN	sein	_	O	O	
+1-14	glücklich	ADJD	glücklich	_	O	O	
+1-15	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+1-16	und	KON	und	_	O	O	
+1-17	grüßt	VVFIN	grüßen	_	O	O	
+1-18	bestens	ADV	bestens	_	O	O	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=Mir geht es fortwährend gut, nur daß ich fortfahre viel müdes und gebrechliches Wesen für meinen Normalzustand zu erkennen und, da ich hingegen weder ärztliche Mittel noch einen Deus ex mac china absehen kann, mich überfrüh alternd zu finden.
+2-1	Mir	PPER	ich	_	O	O	
+2-2	geht	VVFIN	gehen	_	O	O	
+2-3	es	PPER	es	_	O	O	
+2-4	fortwährend	ADJD	fortwährend	_	O	O	
+2-5	gut	ADJD	gut	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	nur	ADV	nur	_	O	O	
+2-8	daß	KOUS	dass	_	O	O	
+2-9	ich	PPER	ich	_	O	O	
+2-10	fortfahre	VVFIN	fortfahren	_	O	O	
+2-11	viel	PIAT	viele	_	O	O	
+2-12	müdes	ADJA	müde	_	O	O	
+2-13	und	KON	und	_	O	O	
+2-14	gebrechliches	ADJA	gebrechlich	_	O	O	
+2-15	Wesen	NN	Wesen	_	O	O	
+2-16	für	APPR	für	_	O	O	
+2-17	meinen	PPOSAT	mein	_	O	O	
+2-18	Normalzustand	NN	Normalzustand	_	O	O	
+2-19	zu	PTKZU	zu	_	O	O	
+2-20	erkennen	VVINF	erkennen	_	O	O	
+2-21	und	KON	und	_	O	O	
+2-22	,	$,	,	_	O	O	
+2-23	da	KOUS	da	_	O	O	
+2-24	ich	PPER	ich	_	O	O	
+2-25	hingegen	ADV	hingegen	_	O	O	
+2-26	weder	KON	weder	_	O	O	
+2-27	ärztliche	ADJA	ärztlich	_	O	O	
+2-28	Mittel	NN	Mittel	_	O	O	
+2-29	noch	ADV	noch	_	O	O	
+2-30	einen	ART	eine	_	O	O	
+2-31	Deus	NE	<unknown>	_	O	O	
+2-32	ex	FM	ex	_	O	O	
+2-33	mac	NE	Mac	_	O	O	
+2-34	china	NE	China	_	O	O	
+2-35	absehen	VVINF	absehen	_	O	O	
+2-36	kann	VMFIN	können	_	O	O	
+2-37	,	$,	,	_	O	O	
+2-38	mich	PPER	ich	_	O	O	
+2-39	überfrüh	VVFIN	<unknown>	_	O	O	
+2-40	alternd	ADJD	alternd	_	O	O	
+2-41	zu	PTKZU	zu	_	O	O	
+2-42	finden	VVINF	finden	_	O	O	
+2-43	.	$.	.	_	O	O	
+
+#id=3
+#text=In Margine die Hauptneuigkeit : daß ich mit meinem Separatvotum noch ins Protokoll der Akademie vorgedrungen bin, und demnach hoffentlich nicht blos für hiesige epigraphische Arbeiten eine Summe beantragt wird, sondern für Arbeiten in Italien altrettanto.
+3-1	In	APPR	in	_	O	O	
+3-2	Margine	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-3	die	ART	die	_	O	O	
+3-4	Hauptneuigkeit	NN	<unknown>	_	O	O	
+3-5	:	$.	:	_	O	O	
+3-6	daß	KOUS	dass	_	O	O	
+3-7	ich	PPER	ich	_	O	O	
+3-8	mit	APPR	mit	_	O	O	
+3-9	meinem	PPOSAT	mein	_	O	O	
+3-10	Separatvotum	NN	<unknown>	_	O	O	
+3-11	noch	ADV	noch	_	O	O	
+3-12	ins	APPRART	in	_	O	O	
+3-13	Protokoll	NN	Protokoll	_	O	O	
+3-14	der	ART	die	_	O	O	
+3-15	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-16	vorgedrungen	VVPP	vordringen	_	O	O	
+3-17	bin	VAFIN	sein	_	O	O	
+3-18	,	$,	,	_	O	O	
+3-19	und	KON	und	_	O	O	
+3-20	demnach	ADV	demnach	_	O	O	
+3-21	hoffentlich	ADV	hoffentlich	_	O	O	
+3-22	nicht	PTKNEG	nicht	_	O	O	
+3-23	blos	VVFIN	<unknown>	_	O	O	
+3-24	für	APPR	für	_	O	O	
+3-25	hiesige	ADJA	hiesig	_	O	O	
+3-26	epigraphische	ADJA	<unknown>	_	O	O	
+3-27	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+3-28	eine	ART	eine	_	O	O	
+3-29	Summe	NN	Summe	_	O	O	
+3-30	beantragt	VVPP	beantragen	_	O	O	
+3-31	wird	VAFIN	werden	_	O	O	
+3-32	,	$,	,	_	O	O	
+3-33	sondern	KON	sondern	_	O	O	
+3-34	für	APPR	für	_	O	O	
+3-35	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+3-36	in	APPR	in	_	O	O	
+3-37	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-38	altrettanto	NE	<unknown>	_	O	O	
+3-39	.	$.	.	_	O	O	
+
+#id=4
+#text=Ist Kopp Paleopgraph für Vermiglioli notirt?
+4-1	Ist	VAFIN	sein	_	O	O	
+4-2	Kopp	NE	Kopp	_	O	O	
+4-3	Paleopgraph	NN	<unknown>	_	O	O	
+4-4	für	APPR	für	_	O	O	
+4-5	Vermiglioli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-6	notirt	NN	<unknown>	_	O	O	
+4-7	?	$.	?	_	O	O	
+
+#id=5
+#text=Kabrun hat mir wegen Ihrer Galvanoplastik gesprochen und sich sehr bereitwillig bezeigt mit Gropius und Schadow zu sprechen.
+5-1	Kabrun	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	hat	VAFIN	haben	_	O	O	
+5-3	mir	PPER	ich	_	O	O	
+5-4	wegen	APPR	wegen	_	O	O	
+5-5	Ihrer	PPOSAT	ihr	_	O	O	
+5-6	Galvanoplastik	NN	<unknown>	_	O	O	
+5-7	gesprochen	VVPP	sprechen	_	O	O	
+5-8	und	KON	und	_	O	O	
+5-9	sich	PRF	sich	_	O	O	
+5-10	sehr	ADV	sehr	_	O	O	
+5-11	bereitwillig	ADJD	bereitwillig	_	O	O	
+5-12	bezeigt	VVPP	bezeigen	_	O	O	
+5-13	mit	APPR	mit	_	O	O	
+5-14	Gropius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-15	und	KON	und	_	O	O	
+5-16	Schadow	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-17	zu	PTKZU	zu	_	O	O	
+5-18	sprechen	VVINF	sprechen	_	O	O	
+5-19	.	$.	.	_	O	O	
+
+#id=6
+#text=Domenico hat mehr denn eine rührende Zuschrift an meine Frau gesandt worauf ich seine Creatura mit einer pezza dura zu beglückwünschen bitte.
+6-1	Domenico	NE	Domenico	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	hat	VAFIN	haben	_	O	O	
+6-3	mehr	ADV	mehr	_	O	O	
+6-4	denn	ADV	denn	_	O	O	
+6-5	eine	ART	eine	_	O	O	
+6-6	rührende	ADJA	rührend	_	O	O	
+6-7	Zuschrift	NN	Zuschrift	_	O	O	
+6-8	an	APPR	an	_	O	O	
+6-9	meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-11	gesandt	VVPP	senden	_	O	O	
+6-12	worauf	PWAV	worauf	_	O	O	
+6-13	ich	PPER	ich	_	O	O	
+6-14	seine	PPOSAT	sein	_	O	O	
+6-15	Creatura	NN	<unknown>	_	O	O	
+6-16	mit	APPR	mit	_	O	O	
+6-17	einer	ART	eine	_	O	O	
+6-18	pezza	ADJA	<unknown>	_	O	O	
+6-19	dura	NN	<unknown>	_	O	O	
+6-20	zu	PTKZU	zu	_	O	O	
+6-21	beglückwünschen	VVINF	beglückwünschen	_	O	O	
+6-22	bitte	VVFIN	bitten	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Ihr Gerhard
+7-1	Ihr	PPOSAT	ihr	_	O	O	
+7-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

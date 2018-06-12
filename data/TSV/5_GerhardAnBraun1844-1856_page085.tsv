@@ -1,0 +1,208 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=446 Gerhard an Braun Berlin, 21. November 1844 A. d. Dir.
+1-1	446	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	A.	APPR	an	_	O	O	
+1-12	d.	ART	d.	_	O	O	
+1-13	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=g. 2/XII 44 r. 3/XII 44 Dr. Braun Berlin 21 Nov 44 Me'in theurer Freund.
+2-1	g.	ADJA	<unknown>	_	O	O	
+2-2	2/XII	NN	<unknown>	_	O	O	
+2-3	44	CARD	44	_	O	O	
+2-4	r.	VVFIN	<unknown>	_	O	O	
+2-5	3/XII	NE	<unknown>	_	O	O	
+2-6	44	CARD	44	_	O	O	
+2-7	Dr.	NN	Dr.	_	O	O	
+2-8	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-10	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-11	Nov	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	44	CARD	44	_	O	O	
+2-13	Me'in	NN	<unknown>	_	O	O	
+2-14	theurer	ADJA	<unknown>	_	O	O	
+2-15	Freund	NN	Freund	_	O	O	
+2-16	.	$.	.	_	O	O	
+
+#id=3
+#text=Sie erhalten anbei einen Wechsel vom Betrag der für 3 Exemplare Museum Gregorianum zu zahlenden 72 Scudi.
+3-1	Sie	PPER	Sie	_	O	O	
+3-2	erhalten	VVFIN	erhalten	_	O	O	
+3-3	anbei	ADV	anbei	_	O	O	
+3-4	einen	ART	eine	_	O	O	
+3-5	Wechsel	NN	Wechsel	_	O	O	
+3-6	vom	APPRART	von	_	O	O	
+3-7	Betrag	NN	Betrag	_	O	O	
+3-8	der	ART	die	_	O	O	
+3-9	für	APPR	für	_	O	O	
+3-10	3	CARD	3	_	O	O	
+3-11	Exemplare	NN	Exemplar	_	O	O	
+3-12	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-13	Gregorianum	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+3-14	zu	APPR	zu	_	O	O	
+3-15	zahlenden	ADJA	zahlend	_	O	O	
+3-16	72	CARD	72	_	O	O	
+3-17	Scudi	NN	<unknown>	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Auslagen für Canina sind vermuthlich erst nach eingegangenen Rechnungen zu leisten und verschiebe ich deren Zahlung daher bis sie sich liquidiren läßt.
+4-1	Die	ART	die	_	O	O	
+4-2	Auslagen	NN	Auslage	_	O	O	
+4-3	für	APPR	für	_	O	O	
+4-4	Canina	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	sind	VAFIN	sein	_	O	O	
+4-6	vermuthlich	ADJD	<unknown>	_	O	O	
+4-7	erst	ADV	erst	_	O	O	
+4-8	nach	APPR	nach	_	O	O	
+4-9	eingegangenen	ADJA	eingegangen	_	O	O	
+4-10	Rechnungen	NN	Rechnung	_	O	O	
+4-11	zu	PTKZU	zu	_	O	O	
+4-12	leisten	VVINF	leisten	_	O	O	
+4-13	und	KON	und	_	O	O	
+4-14	verschiebe	VVFIN	verschieben	_	O	O	
+4-15	ich	PPER	ich	_	O	O	
+4-16	deren	PDAT	die	_	O	O	
+4-17	Zahlung	NN	Zahlung	_	O	O	
+4-18	daher	PAV	daher	_	O	O	
+4-19	bis	APPR	bis	_	O	O	
+4-20	sie	PPER	sie	_	O	O	
+4-21	sich	PRF	sich	_	O	O	
+4-22	liquidiren	NN	<unknown>	_	O	O	
+4-23	läßt	VVFIN	lassen	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=Sydow trägt mir eine Bestellung auf, die er zum Weihnachtsgebrauch baldmöglichst erledigt wünscht und zugleich Ihrer Gefälligkeit empfiehlt.
+5-1	Sydow	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	trägt	VVFIN	tragen	_	O	O	
+5-3	mir	PPER	ich	_	O	O	
+5-4	eine	ART	eine	_	O	O	
+5-5	Bestellung	NN	Bestellung	_	O	O	
+5-6	auf	PTKVZ	auf	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	die	PRELS	die	_	O	O	
+5-9	er	PPER	er	_	O	O	
+5-10	zum	APPRART	zu	_	O	O	
+5-11	Weihnachtsgebrauch	NN	<unknown>	_	O	O	
+5-12	baldmöglichst	ADV	baldmöglichst	_	O	O	
+5-13	erledigt	ADJD	erledigt	_	O	O	
+5-14	wünscht	VVFIN	wünschen	_	O	O	
+5-15	und	KON	und	_	O	O	
+5-16	zugleich	ADV	zugleich	_	O	O	
+5-17	Ihrer	PPOSAT	ihr	_	O	O	
+5-18	Gefälligkeit	NN	Gefälligkeit	_	O	O	
+5-19	empfiehlt	VVFIN	empfehlen	_	O	O	
+5-20	.	$.	.	_	O	O	
+
+#id=6
+#text=Er wünscht ein zierliches Madonnabild mit dem Kinde in Muschel geschnitten bis zum Preis von 6 - 8 Scudi, und bittet ihm dasselbe durch Post nach Frankfurt zu senden, hofft es noch einige Tage vor Weihnachten erhalten zu können und bittet den Betrag mit mir zu berechnen.
+6-1	Er	PPER	er	_	O	O	
+6-2	wünscht	VVFIN	wünschen	_	O	O	
+6-3	ein	ART	eine	_	O	O	
+6-4	zierliches	ADJA	zierlich	_	O	O	
+6-5	Madonnabild	NN	<unknown>	_	O	O	
+6-6	mit	APPR	mit	_	O	O	
+6-7	dem	ART	die	_	O	O	
+6-8	Kinde	NN	Kind	_	O	O	
+6-9	in	APPR	in	_	O	O	
+6-10	Muschel	NN	Muschel	_	O	O	
+6-11	geschnitten	VVPP	schneiden	_	O	O	
+6-12	bis	KON	bis	_	O	O	
+6-13	zum	APPRART	zu	_	O	O	
+6-14	Preis	NN	Preis	_	O	O	
+6-15	von	APPR	von	_	O	O	
+6-16	6	CARD	6	_	O	O	
+6-17	-	$(	-	_	O	O	
+6-18	8	CARD	8	_	O	O	
+6-19	Scudi	NN	<unknown>	_	O	O	
+6-20	,	$,	,	_	O	O	
+6-21	und	KON	und	_	O	O	
+6-22	bittet	VVFIN	bitten	_	O	O	
+6-23	ihm	PPER	er	_	O	O	
+6-24	dasselbe	PDS	dasselbe	_	O	O	
+6-25	durch	APPR	durch	_	O	O	
+6-26	Post	NN	Post	_	O	O	
+6-27	nach	APPR	nach	_	O	O	
+6-28	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-29	zu	PTKZU	zu	_	O	O	
+6-30	senden	VVINF	senden	_	O	O	
+6-31	,	$,	,	_	O	O	
+6-32	hofft	VVFIN	hoffen	_	O	O	
+6-33	es	PPER	es	_	O	O	
+6-34	noch	ADV	noch	_	O	O	
+6-35	einige	PIAT	einige	_	O	O	
+6-36	Tage	NN	Tag	_	O	O	
+6-37	vor	APPR	vor	_	O	O	
+6-38	Weihnachten	NN	Weihnachten	_	O	O	
+6-39	erhalten	VVINF	erhalten	_	O	O	
+6-40	zu	PTKZU	zu	_	O	O	
+6-41	können	VMINF	können	_	O	O	
+6-42	und	KON	und	_	O	O	
+6-43	bittet	VVFIN	bitten	_	O	O	
+6-44	den	ART	die	_	O	O	
+6-45	Betrag	NN	Betrag	_	O	O	
+6-46	mit	APPR	mit	_	O	O	
+6-47	mir	PPER	ich	_	O	O	
+6-48	zu	PTKZU	zu	_	O	O	
+6-49	berechnen	VVINF	berechnen	_	O	O	
+6-50	.	$.	.	_	O	O	
+
+#id=7
+#text=Ge~~ern erst erhielt ich von J-ahn (gegen dessen frühere Absicht) das für Sie direkt bestimmte Exemplar seiner Archäologischen Aufsätze; ich will versuchen es durchs Ministerium Ihnen zu senden.
+7-1	Ge~~ern	NN	<unknown>	_	O	O	
+7-2	erst	ADV	erst	_	O	O	
+7-3	erhielt	VVFIN	erhalten	_	O	O	
+7-4	ich	PPER	ich	_	O	O	
+7-5	von	APPR	von	_	O	O	
+7-6	J-ahn	NN	<unknown>	_	O	O	
+7-7	(	$(	(	_	O	O	
+7-8	gegen	APPR	gegen	_	O	O	
+7-9	dessen	PDAT	die	_	O	O	
+7-10	frühere	ADJA	früh	_	O	O	
+7-11	Absicht	NN	Absicht	_	O	O	
+7-12	)	$(	)	_	O	O	
+7-13	das	ART	die	_	O	O	
+7-14	für	APPR	für	_	O	O	
+7-15	Sie	PPER	Sie	_	O	O	
+7-16	direkt	ADJD	direkt	_	O	O	
+7-17	bestimmte	ADJA	bestimmt	_	O	O	
+7-18	Exemplar	NN	Exemplar	_	O	O	
+7-19	seiner	PPOSAT	sein	_	O	O	
+7-20	Archäologischen	ADJA	archäologisch	_	O	O	
+7-21	Aufsätze	NN	Aufsatz	_	O	O	
+7-22	;	$.	;	_	O	O	
+7-23	ich	PPER	ich	_	O	O	
+7-24	will	VMFIN	wollen	_	O	O	
+7-25	versuchen	VVFIN	versuchen	_	O	O	
+7-26	es	PPER	es	_	O	O	
+7-27	durchs	APPRART	durchs	_	O	O	
+7-28	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-29	Ihnen	PPER	Sie	_	O	O	
+7-30	zu	PTKZU	zu	_	O	O	
+7-31	senden	VVINF	senden	_	O	O	
+7-32	.	$.	.	_	O	O	
+
+#id=8
+#text=Archäologische Zeitung 7.te Lieferung gebe ich nächstens zur Post.
+8-1	Archäologische	ADJA	archäologisch	_	O	O	
+8-2	Zeitung	NN	Zeitung	_	O	O	
+8-3	7.te	ADJA	<unknown>	_	O	O	
+8-4	Lieferung	NN	Lieferung	_	O	O	
+8-5	gebe	VVFIN	geben	_	O	O	
+8-6	ich	PPER	ich	_	O	O	
+8-7	nächstens	ADV	nächstens	_	O	O	
+8-8	zur	APPRART	zu	_	O	O	
+8-9	Post	NN	Post	_	O	O	
+8-10	.	$.	.	_	O	O	
+

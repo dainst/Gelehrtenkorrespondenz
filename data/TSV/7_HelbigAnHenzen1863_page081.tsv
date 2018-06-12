@@ -1,0 +1,220 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Lieber Herr Professor Helbig an Henzen Rom, 8. August 1866 g. 2/9 66 n. c. r. Roma li 8 Agosto 1866 Soeben trifft ein höchst schmeichelhaftes Schreiben von Garrucci ein, in welchem er um unsere etruskischen und griechischen Siglen zum Zwecke seiner Publication der vulcenter Gemälde und der piombi bittet.
+1-1	Lieber	ADJA	lieb	_	O	O	
+1-2	Herr	NN	Herr	_	O	O	
+1-3	Professor	NN	Professor	_	O	O	
+1-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	2/9	CARD	2/9	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	66	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	n.	APPR	n.	_	O	O	
+1-17	c.	ADJA	<unknown>	_	O	O	
+1-18	r.	ADJA	<unknown>	_	O	O	
+1-19	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-20	li	VVFIN	<unknown>	_	O	O	
+1-21	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-22	Agosto	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-24	Soeben	NE	<unknown>	_	O	O	
+1-25	trifft	VVFIN	treffen	_	O	O	
+1-26	ein	ART	eine	_	O	O	
+1-27	höchst	ADJD	hochöchst	_	O	O	
+1-28	schmeichelhaftes	ADJA	schmeichelhaft	_	O	O	
+1-29	Schreiben	NN	Schreiben	_	O	O	
+1-30	von	APPR	von	_	O	O	
+1-31	Garrucci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-32	ein	PTKVZ	ein	_	O	O	
+1-33	,	$,	,	_	O	O	
+1-34	in	APPR	in	_	O	O	
+1-35	welchem	PRELS	welche	_	O	O	
+1-36	er	PPER	er	_	O	O	
+1-37	um	APPR	um	_	O	O	
+1-38	unsere	PPOSAT	unser	_	O	O	
+1-39	etruskischen	ADJA	<unknown>	_	O	O	
+1-40	und	KON	und	_	O	O	
+1-41	griechischen	ADJA	griechisch	_	O	O	
+1-42	Siglen	NE	<unknown>	_	O	O	
+1-43	zum	APPRART	zu	_	O	O	
+1-44	Zwecke	NN	Zweck	_	O	O	
+1-45	seiner	PPOSAT	sein	_	O	O	
+1-46	Publication	NN	<unknown>	_	O	O	
+1-47	der	ART	die	_	O	O	
+1-48	vulcenter	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-49	Gemälde	NN	Gemälde	_	I-webanno.custom.LetterEntity_	I-OBJ	
+1-50	und	KON	und	_	O	O	
+1-51	der	ART	die	_	O	O	
+1-52	piombi	NN	<unknown>	_	O	O	
+1-53	bittet	VVFIN	bitten	_	O	O	
+1-54	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich habe ihm vorläufig geantwortet, daß in solchen Fragen die Übereinstimmung beider Secretäre nöthig sei und daß ich deßhalb an Sie schreiben würde, daß jedoch möglicher Weise auch die Zustimmung der Centraldirection eingeholt werden müsse.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	habe	VAFIN	haben	_	O	O	
+2-3	ihm	PPER	er	_	O	O	
+2-4	vorläufig	ADJD	vorläufig	_	O	O	
+2-5	geantwortet	VVPP	antworten	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	daß	KOUS	dass	_	O	O	
+2-8	in	APPR	in	_	O	O	
+2-9	solchen	PIAT	solche	_	O	O	
+2-10	Fragen	NN	Frage	_	O	O	
+2-11	die	ART	die	_	O	O	
+2-12	Übereinstimmung	NN	Übereinstimmung	_	O	O	
+2-13	beider	PIAT	beide	_	O	O	
+2-14	Secretäre	NN	<unknown>	_	O	O	
+2-15	nöthig	ADJD	<unknown>	_	O	O	
+2-16	sei	VAFIN	sein	_	O	O	
+2-17	und	KON	und	_	O	O	
+2-18	daß	KOUS	dass	_	O	O	
+2-19	ich	PPER	ich	_	O	O	
+2-20	deßhalb	VVFIN	<unknown>	_	O	O	
+2-21	an	APPR	an	_	O	O	
+2-22	Sie	PPER	Sie	_	O	O	
+2-23	schreiben	VVINF	schreiben	_	O	O	
+2-24	würde	VAFIN	werden	_	O	O	
+2-25	,	$,	,	_	O	O	
+2-26	daß	KOUS	dass	_	O	O	
+2-27	jedoch	ADV	jedoch	_	O	O	
+2-28	möglicher	ADJA	möglich	_	O	O	
+2-29	Weise	NN	Weise	_	O	O	
+2-30	auch	ADV	auch	_	O	O	
+2-31	die	ART	die	_	O	O	
+2-32	Zustimmung	NN	Zustimmung	_	O	O	
+2-33	der	ART	die	_	O	O	
+2-34	Centraldirection	NN	<unknown>	_	O	O	
+2-35	eingeholt	VVPP	einholen	_	O	O	
+2-36	werden	VAINF	werden	_	O	O	
+2-37	müsse	VMFIN	müssen	_	O	O	
+2-38	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich bitte Sie um sofortige Antwort über diese Angelegenheit.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	bitte	VVFIN	bitten	_	O	O	
+3-3	Sie	PPER	Sie	_	O	O	
+3-4	um	APPR	um	_	O	O	
+3-5	sofortige	ADJA	sofortig	_	O	O	
+3-6	Antwort	NN	Antwort	_	O	O	
+3-7	über	APPR	über	_	O	O	
+3-8	diese	PDAT	dies	_	O	O	
+3-9	Angelegenheit	NN	Angelegenheit	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Sonst nichts Neues.
+4-1	Sonst	ADV	sonst	_	O	O	
+4-2	nichts	PIAT	nichts	_	O	O	
+4-3	Neues	NN	Neue	_	O	O	
+4-4	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Postallaccaschen Münzen machen entsetzlich Noth, da sie in stumpfen Gypspasten vorliegen, nach denen es sich sehr schwer zeichnet.
+5-1	Die	ART	die	_	O	O	
+5-2	Postallaccaschen	ADJA	<unknown>	_	O	O	
+5-3	Münzen	NN	Münze	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-4	machen	VVFIN	machen	_	O	O	
+5-5	entsetzlich	ADJD	entsetzlich	_	O	O	
+5-6	Noth	VVPP	<unknown>	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	da	KOUS	da	_	O	O	
+5-9	sie	PPER	sie	_	O	O	
+5-10	in	APPR	in	_	O	O	
+5-11	stumpfen	ADJA	stumpf	_	O	O	
+5-12	Gypspasten	NN	<unknown>	_	O	O	
+5-13	vorliegen	VVFIN	vorliegen	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	nach	APPR	nach	_	O	O	
+5-16	denen	PRELS	die	_	O	O	
+5-17	es	PPER	es	_	O	O	
+5-18	sich	PRF	sich	_	O	O	
+5-19	sehr	ADV	sehr	_	O	O	
+5-20	schwer	ADJD	schwer	_	O	O	
+5-21	zeichnet	VVFIN	zeichnen	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=Übrigens füllen sie bequem eine Monumententafel.
+6-1	Übrigens	ADV	übrigens	_	O	O	
+6-2	füllen	VVFIN	füllen	_	O	O	
+6-3	sie	PPER	sie	_	O	O	
+6-4	bequem	ADJD	bequem	_	O	O	
+6-5	eine	ART	eine	_	O	O	
+6-6	Monumententafel	NN	<unknown>	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=Fiorelli erklärt, binnen 14 Tagen antworten zu wollen, ob er seinen Artikel liefern wird.
+7-1	Fiorelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	erklärt	VVFIN	erklären	_	O	O	
+7-3	,	$,	,	_	O	O	
+7-4	binnen	APPR	binnen	_	O	O	
+7-5	14	CARD	14	_	O	O	
+7-6	Tagen	NN	Tag	_	O	O	
+7-7	antworten	VVINF	antworten	_	O	O	
+7-8	zu	PTKZU	zu	_	O	O	
+7-9	wollen	VMINF	wollen	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	ob	KOUS	ob	_	O	O	
+7-12	er	PPER	er	_	O	O	
+7-13	seinen	PPOSAT	sein	_	O	O	
+7-14	Artikel	NN	Artikel	_	O	O	
+7-15	liefern	VVINF	liefern	_	O	O	
+7-16	wird	VAFIN	werden	_	O	O	
+7-17	.	$.	.	_	O	O	
+
+#id=8
+#text=Da die Postallaccaschen Münzen in die Annali dieses Jahres hinein müssen, ist mein Vorschlag folgender: wir publiciren sie jedenfalls als Monumententäfele Liefert Fiorelli seinen Artikel, dann muß Kekule zurücktreten, was er wohl verdient, da er uns sitzen ge-
+8-1	Da	KOUS	da	_	O	O	
+8-2	die	ART	die	_	O	O	
+8-3	Postallaccaschen	ADJA	<unknown>	_	O	O	
+8-4	Münzen	NN	Münze	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-5	in	APPR	in	_	O	O	
+8-6	die	ART	die	_	O	O	
+8-7	Annali	NE	<unknown>	_	O	O	
+8-8	dieses	PDAT	dies	_	O	O	
+8-9	Jahres	NN	Jahr	_	O	O	
+8-10	hinein	PTKVZ	hinein	_	O	O	
+8-11	müssen	VMFIN	müssen	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	ist	VAFIN	sein	_	O	O	
+8-14	mein	PPOSAT	mein	_	O	O	
+8-15	Vorschlag	NN	Vorschlag	_	O	O	
+8-16	folgender	ADJA	folgend	_	O	O	
+8-17	:	$.	:	_	O	O	
+8-18	wir	PPER	wir	_	O	O	
+8-19	publiciren	VVFIN	<unknown>	_	O	O	
+8-20	sie	PPER	sie	_	O	O	
+8-21	jedenfalls	ADV	jedenfalls	_	O	O	
+8-22	als	KOKOM	als	_	O	O	
+8-23	Monumententäfele	NN	<unknown>	_	O	O	
+8-24	Liefert	VVFIN	liefern	_	O	O	
+8-25	Fiorelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-26	seinen	PPOSAT	sein	_	O	O	
+8-27	Artikel	NN	Artikel	_	O	O	
+8-28	,	$,	,	_	O	O	
+8-29	dann	ADV	dann	_	O	O	
+8-30	muß	VMFIN	müssen	_	O	O	
+8-31	Kekule	NN	<unknown>	_	O	O	
+8-32	zurücktreten	VVINF	zurücktreten	_	O	O	
+8-33	,	$,	,	_	O	O	
+8-34	was	PRELS	was	_	O	O	
+8-35	er	PPER	er	_	O	O	
+8-36	wohl	ADV	wohl	_	O	O	
+8-37	verdient	VVPP	verdienen	_	O	O	
+8-38	,	$,	,	_	O	O	
+8-39	da	KOUS	da	_	O	O	
+8-40	er	PPER	er	_	O	O	
+8-41	uns	PPER	wir	_	O	O	
+8-42	sitzen	VVFIN	sitzen	_	O	O	
+8-43	ge-	TRUNC	ge-	_	O	O	
+

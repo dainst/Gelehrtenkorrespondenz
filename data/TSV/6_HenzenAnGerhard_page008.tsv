@@ -1,0 +1,379 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=t , 86 27/111/51 2 Henzen an Gerhard drehten u. Schlechten, dß.
+1-1	t	NN	t	_	O	O	
+1-2	,	$,	,	_	O	O	
+1-3	86	CARD	86	_	O	O	
+1-4	27/111/51	CARD	@card@	_	O	O	
+1-5	2	CARD	2	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-9	drehten	VVFIN	drehen	_	O	O	
+1-10	u.	APPR	um	_	O	O	
+1-11	Schlechten	NN	Schlechte	_	O	O	
+1-12	,	$,	,	_	O	O	
+1-13	dß	VVFIN	<unknown>	_	O	O	
+1-14	.	$.	.	_	O	O	
+
+#id=2
+#text=Einem graut vor seinem künftigen C.I.L., sofern man bei Ihnen noch daran denkt.
+2-1	Einem	PIS	eine	_	O	O	
+2-2	graut	VVFIN	grauen	_	O	O	
+2-3	vor	APPR	vor	_	O	O	
+2-4	seinem	PPOSAT	sein	_	O	O	
+2-5	künftigen	ADJA	künftig	_	O	O	
+2-6	C.I.L.	NE	<unknown>	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	sofern	KOUS	sofern	_	O	O	
+2-9	man	PIS	man	_	O	O	
+2-10	bei	APPR	bei	_	O	O	
+2-11	Ihnen	PPER	Sie	_	O	O	
+2-12	noch	ADV	noch	_	O	O	
+2-13	daran	PAV	daran	_	O	O	
+2-14	denkt	VVFIN	denken	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=- Gargallo dankt Ihnen für den zugeschickten Bogen der Arch.
+3-1	-	$(	-	_	O	O	
+3-2	Gargallo	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	dankt	VVFIN	danken	_	O	O	
+3-4	Ihnen	PPER	Sie	_	O	O	
+3-5	für	APPR	für	_	O	O	
+3-6	den	ART	die	_	O	O	
+3-7	zugeschickten	ADJA	zugeschickt	_	O	O	
+3-8	Bogen	NN	Bogen	_	O	O	
+3-9	der	ART	die	_	O	O	
+3-10	Arch	NN	<unknown>	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=Ztung u. fühlt sich sehr geschmeichelt dh.
+4-1	Ztung	NN	<unknown>	_	O	O	
+4-2	u.	KON	und	_	O	O	
+4-3	fühlt	VVFIN	fühlen	_	O	O	
+4-4	sich	PRF	sich	_	O	O	
+4-5	sehr	ADV	sehr	_	O	O	
+4-6	geschmeichelt	VVPP	schmeicheln	_	O	O	
+4-7	dh.	NE	<unknown>	_	O	O	
+
+#id=5
+#text=Panofkas Artikel, der wohl schönen Unsinn enthalten mag, da er Pulcinella so loben scheint.
+5-1	Panofkas	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	Artikel	NN	Artikel	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	der	PRELS	die	_	O	O	
+5-5	wohl	ADV	wohl	_	O	O	
+5-6	schönen	ADJA	schön	_	O	O	
+5-7	Unsinn	NN	Unsinn	_	O	O	
+5-8	enthalten	VVINF	enthalten	_	O	O	
+5-9	mag	VMFIN	mögen	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	da	KOUS	da	_	O	O	
+5-12	er	PPER	er	_	O	O	
+5-13	Pulcinella	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-14	so	ADV	so	_	O	O	
+5-15	loben	VVINF	loben	_	O	O	
+5-16	scheint	VVFIN	scheinen	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich sähe lieber, wenn diesem eingebildeten Narren von Berlin aus hie u. da Etwas auf die Finger geklopft würde; Sie können es besser, als wir, u. es macht auch mehr Eindruck.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	sähe	VVFIN	sehen	_	O	O	
+6-3	lieber	ADJD	lieb	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	wenn	KOUS	wenn	_	O	O	
+6-6	diesem	PDAT	dies	_	O	O	
+6-7	eingebildeten	ADJA	eingebildet	_	O	O	
+6-8	Narren	NN	Narr	_	O	O	
+6-9	von	APPR	von	_	O	O	
+6-10	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-11	aus	APPR	aus	_	O	O	
+6-12	hie	NE	hie	_	O	O	
+6-13	u.	APPR	um	_	O	O	
+6-14	da	ADV	da	_	O	O	
+6-15	Etwas	NN	Etwas	_	O	O	
+6-16	auf	APPR	auf	_	O	O	
+6-17	die	ART	die	_	O	O	
+6-18	Finger	NN	Finger	_	O	O	
+6-19	geklopft	VVPP	klopfen	_	O	O	
+6-20	würde	VAFIN	werden	_	O	O	
+6-21	;	$.	;	_	O	O	
+6-22	Sie	PPER	Sie	_	O	O	
+6-23	können	VMFIN	können	_	O	O	
+6-24	es	PPER	es	_	O	O	
+6-25	besser	ADJD	gut	_	O	O	
+6-26	,	$,	,	_	O	O	
+6-27	als	KOUS	als	_	O	O	
+6-28	wir	PPER	wir	_	O	O	
+6-29	,	$,	,	_	O	O	
+6-30	u.	KON	und	_	O	O	
+6-31	es	PPER	es	_	O	O	
+6-32	macht	VVFIN	machen	_	O	O	
+6-33	auch	ADV	auch	_	O	O	
+6-34	mehr	PIAT	mehr	_	O	O	
+6-35	Eindruck	NN	Eindruck	_	O	O	
+6-36	.	$.	.	_	O	O	
+
+#id=7
+#text=- An der Appia gräbt man weiter, ohne Sachen von Nützlichkeit zu finden.
+7-1	-	$(	-	_	O	O	
+7-2	An	APPR	an	_	O	O	
+7-3	der	ART	die	_	O	O	
+7-4	Appia	NN	<unknown>	_	O	O	
+7-5	gräbt	VVFIN	graben	_	O	O	
+7-6	man	PIS	man	_	O	O	
+7-7	weiter	PTKVZ	weiter	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	ohne	KOUI	ohne	_	O	O	
+7-10	Sachen	NN	Sache	_	O	O	
+7-11	von	APPR	von	_	O	O	
+7-12	Nützlichkeit	NN	Nützlichkeit	_	O	O	
+7-13	zu	PTKZU	zu	_	O	O	
+7-14	finden	VVINF	finden	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=In der Basilica Julia soll ein Fragment von Fasten gefunden sein, doch hat sich unter der Aegide des C sofort ein Unbekannter, wohl Grifi, darüber her gemacht, u. wir können also froh sein, wenn wir in 10 ode 20 J~hren ei.nmal erfahren, war darin steht.
+8-1	In	APPR	in	_	O	O	
+8-2	der	ART	die	_	O	O	
+8-3	Basilica	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-4	Julia	NE	Julia	_	I-webanno.custom.LetterEntity_	I-OBJ	
+8-5	soll	VMFIN	sollen	_	O	O	
+8-6	ein	ART	eine	_	O	O	
+8-7	Fragment	NN	Fragment	_	O	O	
+8-8	von	APPR	von	_	O	O	
+8-9	Fasten	NN	Fasten	_	O	O	
+8-10	gefunden	VVPP	finden	_	O	O	
+8-11	sein	VAINF	sein	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	doch	KON	doch	_	O	O	
+8-14	hat	VAFIN	haben	_	O	O	
+8-15	sich	PRF	sich	_	O	O	
+8-16	unter	APPR	unter	_	O	O	
+8-17	der	ART	die	_	O	O	
+8-18	Aegide	NN	<unknown>	_	O	O	
+8-19	des	ART	die	_	O	O	
+8-20	C	NN	C	_	O	O	
+8-21	sofort	ADV	sofort	_	O	O	
+8-22	ein	ART	eine	_	O	O	
+8-23	Unbekannter	NN	Unbekannte	_	O	O	
+8-24	,	$,	,	_	O	O	
+8-25	wohl	ADV	wohl	_	O	O	
+8-26	Grifi	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-27	,	$,	,	_	O	O	
+8-28	darüber	PAV	darüber	_	O	O	
+8-29	her	ADV	her	_	O	O	
+8-30	gemacht	VVPP	machen	_	O	O	
+8-31	,	$,	,	_	O	O	
+8-32	u.	KON	und	_	O	O	
+8-33	wir	PPER	wir	_	O	O	
+8-34	können	VMFIN	können	_	O	O	
+8-35	also	ADV	also	_	O	O	
+8-36	froh	ADJD	froh	_	O	O	
+8-37	sein	VAINF	sein	_	O	O	
+8-38	,	$,	,	_	O	O	
+8-39	wenn	KOUS	wenn	_	O	O	
+8-40	wir	PPER	wir	_	O	O	
+8-41	in	APPR	in	_	O	O	
+8-42	10	CARD	10	_	O	O	
+8-43	ode	ADJA	<unknown>	_	O	O	
+8-44	20	CARD	20	_	O	O	
+8-45	J~hren	NN	<unknown>	_	O	O	
+8-46	ei.nmal	ADJD	<unknown>	_	O	O	
+8-47	erfahren	VVPP	erfahren	_	O	O	
+8-48	,	$,	,	_	O	O	
+8-49	war	VAFIN	sein	_	O	O	
+8-50	darin	PAV	darin	_	O	O	
+8-51	steht	VVFIN	stehen	_	O	O	
+8-52	.	$.	.	_	O	O	
+
+#id=9
+#text=- Schmidts sind nach Neapel gereist; sie wollen ( oder vielmehr er will, was bei dem so sehr schwachen Gesundheitszustande der Frau baarer Unsinn ist ), eine ordentliche Sicilische Reise machen.
+9-1	-	$(	-	_	O	O	
+9-2	Schmidts	NE	Schmidt	_	O	O	
+9-3	sind	VAFIN	sein	_	O	O	
+9-4	nach	APPR	nach	_	O	O	
+9-5	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-6	gereist	VVPP	reisen	_	O	O	
+9-7	;	$.	;	_	O	O	
+9-8	sie	PPER	sie	_	O	O	
+9-9	wollen	VMFIN	wollen	_	O	O	
+9-10	(	$(	(	_	O	O	
+9-11	oder	KON	oder	_	O	O	
+9-12	vielmehr	ADV	vielmehr	_	O	O	
+9-13	er	PPER	er	_	O	O	
+9-14	will	VMFIN	wollen	_	O	O	
+9-15	,	$,	,	_	O	O	
+9-16	was	PRELS	was	_	O	O	
+9-17	bei	APPR	bei	_	O	O	
+9-18	dem	ART	die	_	O	O	
+9-19	so	ADV	so	_	O	O	
+9-20	sehr	ADV	sehr	_	O	O	
+9-21	schwachen	ADJA	schwach	_	O	O	
+9-22	Gesundheitszustande	NN	<unknown>	_	O	O	
+9-23	der	ART	die	_	O	O	
+9-24	Frau	NN	Frau	_	O	O	
+9-25	baarer	ADJA	<unknown>	_	O	O	
+9-26	Unsinn	NN	Unsinn	_	O	O	
+9-27	ist	VAFIN	sein	_	O	O	
+9-28	)	$(	)	_	O	O	
+9-29	,	$,	,	_	O	O	
+9-30	eine	ART	eine	_	O	O	
+9-31	ordentliche	ADJA	ordentlich	_	O	O	
+9-32	Sicilische	NN	<unknown>	_	O	O	
+9-33	Reise	NN	Reise	_	O	O	
+9-34	machen	VVFIN	machen	_	O	O	
+9-35	.	$.	.	_	O	O	
+
+#id=10
+#text=Wir wollen hoffen, dß.
+10-1	Wir	PPER	wir	_	O	O	
+10-2	wollen	VMFIN	wollen	_	O	O	
+10-3	hoffen	VVINF	hoffen	_	O	O	
+10-4	,	$,	,	_	O	O	
+10-5	dß	VVFIN	<unknown>	_	O	O	
+10-6	.	$.	.	_	O	O	
+
+#id=11
+#text=sie es aushält, u. auch nicht nachher die .l!
+11-1	sie	PPER	sie	_	O	O	
+11-2	es	PPER	es	_	O	O	
+11-3	aushält	VVFIN	aushalten	_	O	O	
+11-4	,	$,	,	_	O	O	
+11-5	u.	KON	und	_	O	O	
+11-6	auch	ADV	auch	_	O	O	
+11-7	nicht	PTKNEG	nicht	_	O	O	
+11-8	nachher	ADV	nachher	_	O	O	
+11-9	die	ART	die	_	O	O	
+11-10	.l	NN	<unknown>	_	O	O	
+11-11	!	$.	!	_	O	O	
+
+#id=12
+#text='olgen sich zeigen Philippi, mit dem ich viel verkehre, reist nächstens mit Raumer eben dahin.
+12-1	'	$(	'	_	O	O	
+12-2	olgen	NN	<unknown>	_	O	O	
+12-3	sich	PRF	sich	_	O	O	
+12-4	zeigen	VVFIN	zeigen	_	O	O	
+12-5	Philippi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-6	,	$,	,	_	O	O	
+12-7	mit	APPR	mit	_	O	O	
+12-8	dem	PRELS	die	_	O	O	
+12-9	ich	PPER	ich	_	O	O	
+12-10	viel	ADV	viel	_	O	O	
+12-11	verkehre	VVFIN	verkehren	_	O	O	
+12-12	,	$,	,	_	O	O	
+12-13	reist	VVFIN	reisen	_	O	O	
+12-14	nächstens	ADV	nächstens	_	O	O	
+12-15	mit	APPR	mit	_	O	O	
+12-16	Raumer	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-17	eben	ADV	eben	_	O	O	
+12-18	dahin	PAV	dahin	_	O	O	
+12-19	.	$.	.	_	O	O	
+
+#id=13
+#text=Dann werden Bethmann und Frau einrücken, spätestens bis Palmsonntag, wie er neulich aus Treviso anl zeigte.
+13-1	Dann	ADV	dann	_	O	O	
+13-2	werden	VAFIN	werden	_	O	O	
+13-3	Bethmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-4	und	KON	und	_	O	O	
+13-5	Frau	NN	Frau	_	O	O	
+13-6	einrücken	VVINF	einrücken	_	O	O	
+13-7	,	$,	,	_	O	O	
+13-8	spätestens	ADV	spätestens	_	O	O	
+13-9	bis	APPR	bis	_	O	O	
+13-10	Palmsonntag	NE	Palmsonntag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+13-11	,	$,	,	_	O	O	
+13-12	wie	KOUS	wie	_	O	O	
+13-13	er	PPER	er	_	O	O	
+13-14	neulich	ADV	neulich	_	O	O	
+13-15	aus	APPR	aus	_	O	O	
+13-16	Treviso	NE	Treviso	_	O	O	
+13-17	anl	NE	<unknown>	_	O	O	
+13-18	zeigte	VVFIN	zeigen	_	O	O	
+13-19	.	$.	.	_	O	O	
+
+#id=14
+#text=Den Annalendruck werden wir wohl abbrechen müßen, -- da Canina seinen Artikel über die Appia hinauszuschieben wünscht, was bei den fortgehenden Ausgrabungen ja auch Grund hat.
+14-1	Den	ART	die	_	O	O	
+14-2	Annalendruck	NN	<unknown>	_	O	O	
+14-3	werden	VAFIN	werden	_	O	O	
+14-4	wir	PPER	wir	_	O	O	
+14-5	wohl	ADV	wohl	_	O	O	
+14-6	abbrechen	VVINF	abbrechen	_	O	O	
+14-7	müßen	VVINF	<unknown>	_	O	O	
+14-8	,	$,	,	_	O	O	
+14-9	--	$(	--	_	O	O	
+14-10	da	KOUS	da	_	O	O	
+14-11	Canina	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-12	seinen	PPOSAT	sein	_	O	O	
+14-13	Artikel	NN	Artikel	_	O	O	
+14-14	über	APPR	über	_	O	O	
+14-15	die	ART	die	_	O	O	
+14-16	Appia	NN	<unknown>	_	O	O	
+14-17	hinauszuschieben	VVIZU	hinausschieben	_	O	O	
+14-18	wünscht	VVFIN	wünschen	_	O	O	
+14-19	,	$,	,	_	O	O	
+14-20	was	PRELS	was	_	O	O	
+14-21	bei	APPR	bei	_	O	O	
+14-22	den	ART	die	_	O	O	
+14-23	fortgehenden	ADJA	<unknown>	_	O	O	
+14-24	Ausgrabungen	NN	Ausgrabung	_	O	O	
+14-25	ja	ADV	ja	_	O	O	
+14-26	auch	ADV	auch	_	O	O	
+14-27	Grund	NN	Grund	_	O	O	
+14-28	hat	VAFIN	haben	_	O	O	
+14-29	.	$.	.	_	O	O	
+
+#id=15
+#text=Ohnehin würden die Leute nicht 2 Jahrgänge in 1 Jahre r bezahlen wollen.
+15-1	Ohnehin	ADV	ohnehin	_	O	O	
+15-2	würden	VAFIN	werden	_	O	O	
+15-3	die	ART	die	_	O	O	
+15-4	Leute	NN	Leute	_	O	O	
+15-5	nicht	PTKNEG	nicht	_	O	O	
+15-6	2	CARD	2	_	O	O	
+15-7	Jahrgänge	NN	Jahrgang	_	O	O	
+15-8	in	APPR	in	_	O	O	
+15-9	1	CARD	1	_	O	O	
+15-10	Jahre	NN	Jahr	_	O	O	
+15-11	r	NE	r	_	O	O	
+15-12	bezahlen	VVINF	bezahlen	_	O	O	
+15-13	wollen	VMINF	wollen	_	O	O	
+15-14	.	$.	.	_	O	O	
+
+#id=16
+#text=Febbr.
+16-1	Febbr	NE	<unknown>	_	O	O	
+16-2	.	$.	.	_	O	O	
+
+#id=17
+#text=haben Sie erhalten.
+17-1	haben	VAFIN	haben	_	O	O	
+17-2	Sie	PPER	Sie	_	O	O	
+17-3	erhalten	VVPP	erhalten	_	O	O	
+17-4	.	$.	.	_	O	O	
+
+#id=18
+#text=13 Bogen sind gedruckt.
+18-1	13	CARD	13	_	O	O	
+18-2	Bogen	NN	Bogen	_	O	O	
+18-3	sind	VAFIN	sein	_	O	O	
+18-4	gedruckt	VVPP	drucken	_	O	O	
+18-5	.	$.	.	_	O	O	
+
+#id=19
+#text=2 Bogen Bull.
+19-1	2	CARD	2	_	O	O	
+19-2	Bogen	NN	Bogen	_	O	O	
+19-3	Bull	NE	Bull	_	O	O	
+19-4	.	$.	.	_	O	O	
+
+#id=20
+#text=Ihr WH.
+20-1	Ihr	PPOSAT	ihr	_	O	O	
+20-2	WH	NN	<unknown>	_	O	O	
+20-3	.	$.	.	_	O	O	
+

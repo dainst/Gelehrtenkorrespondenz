@@ -1,0 +1,179 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=c ( 354 H Helbig an Henzen Neapel, 29. Dezember 186B Neapel 29. Dec. 1863 g. 1/64 r 4/64 Geehrtester Herr Professor I Fiorelli hat mich soeben in einem nach Turin geschickten Schreiben zum Professor der Archäologie in Neapel vorgeschlagen.
+1-1	c	NE	<unknown>	_	O	O	
+1-2	(	$(	(	_	O	O	
+1-3	354	CARD	@card@	_	O	O	
+1-4	H	NN	H	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	186B	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-15	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-16	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-17	Dec	NE	Dec	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-19	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	g.	ADJA	<unknown>	_	O	O	
+1-21	1/64	CARD	@card@	_	O	O	
+1-22	r	NE	r	_	O	O	
+1-23	4/64	CARD	@card@	_	O	O	
+1-24	Geehrtester	ADJA	<unknown>	_	O	O	
+1-25	Herr	NN	Herr	_	O	O	
+1-26	Professor	NN	Professor	_	O	O	
+1-27	I	FM	I	_	O	O	
+1-28	Fiorelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-29	hat	VAFIN	haben	_	O	O	
+1-30	mich	PRF	ich	_	O	O	
+1-31	soeben	ADV	soeben	_	O	O	
+1-32	in	APPR	in	_	O	O	
+1-33	einem	ART	eine	_	O	O	
+1-34	nach	APPR	nach	_	O	O	
+1-35	Turin	NE	Turin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-36	geschickten	ADJA	geschickt	_	O	O	
+1-37	Schreiben	NN	Schreiben	_	O	O	
+1-38	zum	APPRART	zu	_	O	O	
+1-39	Professor	NN	Professor	_	O	O	
+1-40	der	ART	die	_	O	O	
+1-41	Archäologie	NN	Archäologie	_	O	O	
+1-42	in	APPR	in	_	O	O	
+1-43	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-44	vorgeschlagen	VVPP	vorschlagen	_	O	O	
+1-45	.	$.	.	_	O	O	
+
+#id=3
+#text=Zugleich theilt er mir mit, daß mir die Empfehlung des Instituts zur Erlangung dieser Stelle von großem Nutzen sein würde.
+3-1	Zugleich	ADV	zugleich	_	O	O	
+3-2	theilt	ADJD	<unknown>	_	O	O	
+3-3	er	PPER	er	_	O	O	
+3-4	mir	PPER	ich	_	O	O	
+3-5	mit	PTKVZ	mit	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	daß	KOUS	dass	_	O	O	
+3-8	mir	PPER	ich	_	O	O	
+3-9	die	ART	die	_	O	O	
+3-10	Empfehlung	NN	Empfehlung	_	O	O	
+3-11	des	ART	die	_	O	O	
+3-12	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-13	zur	APPRART	zu	_	O	O	
+3-14	Erlangung	NN	Erlangung	_	O	O	
+3-15	dieser	PDAT	dies	_	O	O	
+3-16	Stelle	NN	Stelle	_	O	O	
+3-17	von	APPR	von	_	O	O	
+3-18	großem	ADJA	groß	_	O	O	
+3-19	Nutzen	NN	Nutzen	_	O	O	
+3-20	sein	VAINF	sein	_	O	O	
+3-21	würde	VAFIN	werden	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich bitte Sie und Professor Brunn, möglichst rasch eine derartige Empfehlung an den Minister Amari abgehen zu lassen.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	bitte	VVFIN	bitten	_	O	O	
+4-3	Sie	PPER	Sie	_	O	O	
+4-4	und	KON	und	_	O	O	
+4-5	Professor	NN	Professor	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-7	,	$,	,	_	O	O	
+4-8	möglichst	ADV	möglichst	_	O	O	
+4-9	rasch	ADJD	rasch	_	O	O	
+4-10	eine	ART	eine	_	O	O	
+4-11	derartige	ADJA	derartig	_	O	O	
+4-12	Empfehlung	NN	Empfehlung	_	O	O	
+4-13	an	APPR	an	_	O	O	
+4-14	den	ART	die	_	O	O	
+4-15	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-16	Amari	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-17	abgehen	VVINF	abgehen	_	O	O	
+4-18	zu	PTKZU	zu	_	O	O	
+4-19	lassen	VVINF	lassen	_	O	O	
+4-20	.	$.	.	_	O	O	
+
+#id=5
+#text=Vor lauter Aufregung schreibe ich Ihnen weiter nichts als herzI~Qhen Glückwunsch zum neuen Jahre für Sie, Ihre Familie, Brunn und Familie.
+5-1	Vor	APPR	vor	_	O	O	
+5-2	lauter	PIAT	lauter	_	O	O	
+5-3	Aufregung	NN	Aufregung	_	O	O	
+5-4	schreibe	VVFIN	schreiben	_	O	O	
+5-5	ich	PPER	ich	_	O	O	
+5-6	Ihnen	PPER	Sie	_	O	O	
+5-7	weiter	ADV	weiter	_	O	O	
+5-8	nichts	PIS	nichts	_	O	O	
+5-9	als	KOKOM	als	_	O	O	
+5-10	herzI~Qhen	ADJA	<unknown>	_	O	O	
+5-11	Glückwunsch	NN	Glückwunsch	_	O	O	
+5-12	zum	APPRART	zu	_	O	O	
+5-13	neuen	ADJA	neu	_	O	O	
+5-14	Jahre	NN	Jahr	_	O	O	
+5-15	für	APPR	für	_	O	O	
+5-16	Sie	PPER	Sie	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	Ihre	PPOSAT	ihr	_	O	O	
+5-19	Familie	NN	Familie	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-22	und	KON	und	_	O	O	
+5-23	Familie	NN	Familie	_	O	O	
+5-24	.	$.	.	_	O	O	
+
+#id=6
+#text=Mit herzlichen Grüßen Ihr Wolf gang Helbig • NB.
+6-1	Mit	APPR	mit	_	O	O	
+6-2	herzlichen	ADJA	herzlich	_	O	O	
+6-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+6-4	Ihr	PPOSAT	ihr	_	O	O	
+6-5	Wolf	NN	Wolf	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-6	gang	ADJD	gang	_	O	O	
+6-7	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-8	•	ADJA	<unknown>	_	O	O	
+6-9	NB	NE	NB	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Von den pitture cornetane bitte ich 50 Abdrücke zu bestellen.
+7-1	Von	APPR	von	_	O	O	
+7-2	den	ART	die	_	O	O	
+7-3	pitture	ADJA	<unknown>	_	O	O	
+7-4	cornetane	NN	<unknown>	_	O	O	
+7-5	bitte	VVFIN	bitten	_	O	O	
+7-6	ich	PPER	ich	_	O	O	
+7-7	50	CARD	50	_	O	O	
+7-8	Abdrücke	NN	Abdruck	_	O	O	
+7-9	zu	PTKZU	zu	_	O	O	
+7-10	bestellen	VVINF	bestellen	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Grüße an die ragazzi.
+8-1	Grüße	NN	Gruß	_	O	O	
+8-2	an	APPR	an	_	O	O	
+8-3	die	ART	die	_	O	O	
+8-4	ragazzi	NN	<unknown>	_	O	O	
+8-5	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich würde die Stelle um Ostern antreten müssen.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	würde	VAFIN	werden	_	O	O	
+9-3	die	ART	die	_	O	O	
+9-4	Stelle	NN	Stelle	_	O	O	
+9-5	um	APPR	um	_	O	O	
+9-6	Ostern	NN	Ostern	_	O	O	
+9-7	antreten	VVINF	antreten	_	O	O	
+9-8	müssen	VMINF	müssen	_	O	O	
+9-9	.	$.	.	_	O	O	
+
+#id=10
+#text=Für Fiorelli rothen Piepvogel.
+10-1	Für	APPR	für	_	O	O	
+10-2	Fiorelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-3	rothen	NE	<unknown>	_	O	O	
+10-4	Piepvogel	NN	<unknown>	_	O	O	
+10-5	.	$.	.	_	O	O	
+

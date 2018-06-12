@@ -1,0 +1,246 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=536 Lepsius an Henzen Berlin, 14. Dezember 1872 g- 18/XII 72 L Berlin d. 14. Dez. 1872.
+1-1	536	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g-	NN	<unknown>	_	O	O	
+1-12	18/XII	NE	<unknown>	_	O	O	
+1-13	72	CARD	72	_	O	O	
+1-14	L	NN	L	_	O	O	
+1-15	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-16	d.	ART	d.	_	O	O	
+1-17	14	CARD	14	_	O	O	
+1-18	.	$.	.	_	O	O	
+1-19	Dez.	NN	Dez.	_	O	O	
+1-20	1872	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-21	.	$.	.	_	O	O	
+
+#id=3
+#text=Verehrter Freund Wir haben in unsrer vorgestrigen Sitzung bereits den für das Reichs Kanzler Amt vom Minister verlangten Etat wieder durchberathen.
+3-1	Verehrter	ADJA	verehrt	_	O	O	
+3-2	Freund	NN	Freund	_	O	O	
+3-3	Wir	PPER	wir	_	O	O	
+3-4	haben	VAFIN	haben	_	O	O	
+3-5	in	APPR	in	_	O	O	
+3-6	unsrer	PPOSAT	unser	_	O	O	
+3-7	vorgestrigen	ADJA	vorgestrig	_	O	O	
+3-8	Sitzung	NN	Sitzung	_	O	O	
+3-9	bereits	ADV	bereits	_	O	O	
+3-10	den	ART	die	_	O	O	
+3-11	für	APPR	für	_	O	O	
+3-12	das	ART	die	_	O	O	
+3-13	Reichs	NE	Reich	_	O	O	
+3-14	Kanzler	NN	Kanzler	_	O	O	
+3-15	Amt	NN	Amt	_	O	O	
+3-16	vom	APPRART	von	_	O	O	
+3-17	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-18	verlangten	ADJA	verlangt	_	O	O	
+3-19	Etat	NN	Etat	_	O	O	
+3-20	wieder	ADV	wieder	_	O	O	
+3-21	durchberathen	NN	<unknown>	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich theile Ihnen hier die von uns vorgeschlagenen Veränderungen mit und bitte Sie mir so bald als möglich Ihre zustimmenden oder abweichenden Ansichten darüber mitzutheilen.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	theile	VVFIN	<unknown>	_	O	O	
+4-3	Ihnen	PPER	Sie	_	O	O	
+4-4	hier	ADV	hier	_	O	O	
+4-5	die	ART	die	_	O	O	
+4-6	von	APPR	von	_	O	O	
+4-7	uns	PPER	wir	_	O	O	
+4-8	vorgeschlagenen	ADJA	vorgeschlagen	_	O	O	
+4-9	Veränderungen	NN	Veränderung	_	O	O	
+4-10	mit	PTKVZ	mit	_	O	O	
+4-11	und	KON	und	_	O	O	
+4-12	bitte	VVFIN	bitten	_	O	O	
+4-13	Sie	PPER	Sie	_	O	O	
+4-14	mir	PRF	ich	_	O	O	
+4-15	so	ADV	so	_	O	O	
+4-16	bald	ADV	bald	_	O	O	
+4-17	als	KOKOM	als	_	O	O	
+4-18	möglich	ADJD	möglich	_	O	O	
+4-19	Ihre	PPOSAT	ihr	_	O	O	
+4-20	zustimmenden	ADJA	zustimmend	_	O	O	
+4-21	oder	KON	oder	_	O	O	
+4-22	abweichenden	ADJA	abweichend	_	O	O	
+4-23	Ansichten	NN	Ansicht	_	O	O	
+4-24	darüber	PAV	darüber	_	O	O	
+4-25	mitzutheilen	VVIZU	<unknown>	_	O	O	
+4-26	.	$.	.	_	O	O	
+
+#id=5
+#text=Zwar ist uns der dem Preußischen Ministerium für die Jahre 1873-75 eingereichte Etat noch nicht wieder zugegangen; das hindert aber nicht ihn jetzt einfach zum Grunde zu legen und an seinen einzelnen Posten unsre Mehrforderungen anzuknüpfen.
+5-1	Zwar	ADV	zwar	_	O	O	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	uns	PPER	wir	_	O	O	
+5-4	der	ART	die	_	O	O	
+5-5	dem	ART	die	_	O	O	
+5-6	Preußischen	ADJA	preußisch	_	O	O	
+5-7	Ministerium	NN	Ministerium	_	O	O	
+5-8	für	APPR	für	_	O	O	
+5-9	die	ART	die	_	O	O	
+5-10	Jahre	NN	Jahr	_	O	O	
+5-11	1873-75	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-12	eingereichte	ADJA	eingereicht	_	O	O	
+5-13	Etat	NN	Etat	_	O	O	
+5-14	noch	ADV	noch	_	O	O	
+5-15	nicht	PTKNEG	nicht	_	O	O	
+5-16	wieder	ADV	wieder	_	O	O	
+5-17	zugegangen	VVPP	zugehen	_	O	O	
+5-18	;	$.	;	_	O	O	
+5-19	das	PDS	die	_	O	O	
+5-20	hindert	VVFIN	hindern	_	O	O	
+5-21	aber	ADV	aber	_	O	O	
+5-22	nicht	PTKNEG	nicht	_	O	O	
+5-23	ihn	PPER	er	_	O	O	
+5-24	jetzt	ADV	jetzt	_	O	O	
+5-25	einfach	ADJD	einfach	_	O	O	
+5-26	zum	APPRART	zu	_	O	O	
+5-27	Grunde	NN	Grund	_	O	O	
+5-28	zu	PTKZU	zu	_	O	O	
+5-29	legen	VVINF	legen	_	O	O	
+5-30	und	KON	und	_	O	O	
+5-31	an	APPR	an	_	O	O	
+5-32	seinen	PPOSAT	sein	_	O	O	
+5-33	einzelnen	ADJA	einzeln	_	O	O	
+5-34	Posten	NN	Posten	_	O	O	
+5-35	unsre	PPOSAT	unsre	_	O	O	
+5-36	Mehrforderungen	NN	Mehrforderung	_	O	O	
+5-37	anzuknüpfen	VVIZU	anknüpfen	_	O	O	
+5-38	.	$.	.	_	O	O	
+
+#id=6
+#text=In den Einnahmen haben wir Titel 11 mit 1500 r , und ebenso Titel 111. mit seinen Punkten (wenn er nicht g~änzlich besser zu streichen ist) stehen lassen.
+6-1	In	APPR	in	_	O	O	
+6-2	den	ART	die	_	O	O	
+6-3	Einnahmen	NN	Einnahme	_	O	O	
+6-4	haben	VAFIN	haben	_	O	O	
+6-5	wir	PPER	wir	_	O	O	
+6-6	Titel	NN	Titel	_	O	O	
+6-7	11	CARD	11	_	O	O	
+6-8	mit	APPR	mit	_	O	O	
+6-9	1500	CARD	1500	_	O	O	
+6-10	r	NE	r	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	und	KON	und	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-13	ebenso	ADV	ebenso	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-14	Titel	NN	Titel	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-15	111	CARD	@card@	_	O	O	
+6-16	.	$.	.	_	O	O	
+6-17	mit	APPR	mit	_	O	O	
+6-18	seinen	PPOSAT	sein	_	O	O	
+6-19	Punkten	NN	Punkt	_	O	O	
+6-20	(	$(	(	_	O	O	
+6-21	wenn	KOUS	wenn	_	O	O	
+6-22	er	PPER	er	_	O	O	
+6-23	nicht	PTKNEG	nicht	_	O	O	
+6-24	g~änzlich	ADJD	<unknown>	_	O	O	
+6-25	besser	ADJD	gut	_	O	O	
+6-26	zu	PTKZU	zu	_	O	O	
+6-27	streichen	VVINF	streichen	_	O	O	
+6-28	ist	VAFIN	sein	_	O	O	
+6-29	)	$(	)	_	O	O	
+6-30	stehen	VVINF	stehen	_	O	O	
+6-31	lassen	VVINF	lassen	_	O	O	
+6-32	.	$.	.	_	O	O	
+
+#id=7
+#text=In den Ausgaben sind wir natürlich auch wieder zunächst auf die Besoldungen zurückgekommen.
+7-1	In	APPR	in	_	O	O	
+7-2	den	ART	die	_	O	O	
+7-3	Ausgaben	NN	Ausgabe	_	O	O	
+7-4	sind	VAFIN	sein	_	O	O	
+7-5	wir	PPER	wir	_	O	O	
+7-6	natürlich	ADV	natürlich	_	O	O	
+7-7	auch	ADV	auch	_	O	O	
+7-8	wieder	ADV	wieder	_	O	O	
+7-9	zunächst	ADV	zunächst	_	O	O	
+7-10	auf	APPR	auf	_	O	O	
+7-11	die	ART	die	_	O	O	
+7-12	Besoldungen	NN	Besoldung	_	O	O	
+7-13	zurückgekommen	VVPP	zurückkommen	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Die Remuneration von 400 r für den Gehülfen gehört aber nun auch zu den Besoldungen, da die Bewilligung aus dem A.
+8-1	Die	ART	die	_	O	O	
+8-2	Remuneration	NN	<unknown>	_	O	O	
+8-3	von	APPR	von	_	O	O	
+8-4	400	CARD	400	_	O	O	
+8-5	r	NE	r	_	O	O	
+8-6	für	APPR	für	_	O	O	
+8-7	den	ART	die	_	O	O	
+8-8	Gehülfen	NN	<unknown>	_	O	O	
+8-9	gehört	VVFIN	gehören	_	O	O	
+8-10	aber	ADV	aber	_	O	O	
+8-11	nun	ADV	nun	_	O	O	
+8-12	auch	ADV	auch	_	O	O	
+8-13	zu	APPR	zu	_	O	O	
+8-14	den	ART	die	_	O	O	
+8-15	Besoldungen	NN	Besoldung	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	da	KOUS	da	_	O	O	
+8-18	die	ART	die	_	O	O	
+8-19	Bewilligung	NN	Bewilligung	_	O	O	
+8-20	aus	APPR	aus	_	O	O	
+8-21	dem	ART	die	_	O	O	
+8-22	A.	APPRART	am	_	O	O	
+
+#id=9
+#text=• Dispositionsfond nur eine vorläufige war.
+9-1	•	ADJA	<unknown>	_	O	O	
+9-2	Dispositionsfond	NN	<unknown>	_	O	O	
+9-3	nur	ADV	nur	_	O	O	
+9-4	eine	ART	eine	_	O	O	
+9-5	vorläufige	ADJA	vorläufig	_	O	O	
+9-6	war	VAFIN	sein	_	O	O	
+9-7	.	$.	.	_	O	O	
+
+#id=10
+#text=Außerdem haben wir einen Bibliotheks Custos angesetzt mit 600 r so viel wie ein Stipendiat erhält, der ja unter Umständen für einige Jahre dafür verwendet werden könnte, da es jedenfalls ein einigermaßen für ein
+10-1	Außerdem	ADV	außerdem	_	O	O	
+10-2	haben	VAFIN	haben	_	O	O	
+10-3	wir	PPER	wir	_	O	O	
+10-4	einen	ART	eine	_	O	O	
+10-5	Bibliotheks	NN	<unknown>	_	O	O	
+10-6	Custos	NE	<unknown>	_	O	O	
+10-7	angesetzt	VVPP	ansetzen	_	O	O	
+10-8	mit	APPR	mit	_	O	O	
+10-9	600	CARD	600	_	O	O	
+10-10	r	NE	r	_	O	O	
+10-11	so	ADV	so	_	O	O	
+10-12	viel	PIS	viele	_	O	O	
+10-13	wie	KOKOM	wie	_	O	O	
+10-14	ein	ART	eine	_	O	O	
+10-15	Stipendiat	NN	Stipendiat	_	O	O	
+10-16	erhält	VVFIN	erhalten	_	O	O	
+10-17	,	$,	,	_	O	O	
+10-18	der	PRELS	die	_	O	O	
+10-19	ja	ADV	ja	_	O	O	
+10-20	unter	APPR	unter	_	O	O	
+10-21	Umständen	NN	Umstand	_	O	O	
+10-22	für	APPR	für	_	O	O	
+10-23	einige	PIAT	einige	_	O	O	
+10-24	Jahre	NN	Jahr	_	O	O	
+10-25	dafür	PAV	dafür	_	O	O	
+10-26	verwendet	VVPP	verwenden	_	O	O	
+10-27	werden	VAINF	werden	_	O	O	
+10-28	könnte	VMFIN	können	_	O	O	
+10-29	,	$,	,	_	O	O	
+10-30	da	KOUS	da	_	O	O	
+10-31	es	PPER	es	_	O	O	
+10-32	jedenfalls	ADV	jedenfalls	_	O	O	
+10-33	ein	ART	eine	_	O	O	
+10-34	einigermaßen	ADV	einigermaßen	_	O	O	
+10-35	für	APPR	für	_	O	O	
+10-36	ein	ART	eine	_	O	O	
+

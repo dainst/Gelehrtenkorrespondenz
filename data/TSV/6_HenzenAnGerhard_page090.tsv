@@ -1,0 +1,304 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=\ 368 27/XI/52 Verehrter Herr Professor Henzen an Gerhard Rom 27/XI 52 Bei der Gesandtschaft ließt seit einiger Zeit das Exemplar von Lepsius's Aegyptischen Denkmälern, das, wie Sie früher schrieben, der König sirt all'Istituto archeologico.
+1-1	\	XY	\	_	O	O	
+1-2	368	CARD	@card@	_	O	O	
+1-3	27/XI/52	CARD	<unknown>	_	O	O	
+1-4	Verehrter	ADJA	verehrt	_	O	O	
+1-5	Herr	NN	Herr	_	O	O	
+1-6	Professor	NN	Professor	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-8	an	APPR	an	_	O	O	
+1-9	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-10	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-11	27/XI	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	52	CARD	52	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Bei	APPR	bei	_	O	O	
+1-14	der	ART	die	_	O	O	
+1-15	Gesandtschaft	NN	Gesandtschaft	_	O	O	
+1-16	ließt	VVFIN	lassen	_	O	O	
+1-17	seit	APPR	seit	_	O	O	
+1-18	einiger	PIAT	einige	_	O	O	
+1-19	Zeit	NN	Zeit	_	O	O	
+1-20	das	ART	die	_	O	O	
+1-21	Exemplar	NN	Exemplar	_	O	O	
+1-22	von	APPR	von	_	O	O	
+1-23	Lepsius's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-24	Aegyptischen	ADJA	<unknown>	_	O	O	
+1-25	Denkmälern	NN	Denkmal	_	O	O	
+1-26	,	$,	,	_	O	O	
+1-27	das	PRELS	die	_	O	O	
+1-28	,	$,	,	_	O	O	
+1-29	wie	KOUS	wie	_	O	O	
+1-30	Sie	PPER	Sie	_	O	O	
+1-31	früher	ADV	früher	_	O	O	
+1-32	schrieben	VVFIN	schreiben	_	O	O	
+1-33	,	$,	,	_	O	O	
+1-34	der	ART	die	_	O	O	
+1-35	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-36	sirt	NN	<unknown>	_	O	O	
+1-37	all'Istituto	NN	<unknown>	_	O	O	
+1-38	archeologico	NE	<unknown>	_	O	O	
+1-39	.	$.	.	_	O	O	
+
+#id=2
+#text=uns schenkt, richtig adresJetzt aber erhebt die Accademia pontif.
+2-1	uns	PPER	wir	_	O	O	
+2-2	schenkt	VVFIN	schenken	_	O	O	
+2-3	,	$,	,	_	O	O	
+2-4	richtig	ADJD	richtig	_	O	O	
+2-5	adresJetzt	VVFIN	<unknown>	_	O	O	
+2-6	aber	ADV	aber	_	O	O	
+2-7	erhebt	VVFIN	erheben	_	O	O	
+2-8	die	ART	die	_	O	O	
+2-9	Accademia	NE	<unknown>	_	O	O	
+2-10	pontif	NE	<unknown>	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=in Viscontino's Person Ansprüche daran, behauptet, auch ein Avis zu haben, u. Usedom nimmt Anstand, uns unser Exemplar auszuliefern, u. will zuvor nach Berlin schreiben.
+3-1	in	APPR	in	_	O	O	
+3-2	Viscontino's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	Person	NN	Person	_	O	O	
+3-4	Ansprüche	NN	Anspruch	_	O	O	
+3-5	daran	PAV	daran	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	behauptet	VVPP	behaupten	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	auch	ADV	auch	_	O	O	
+3-10	ein	ART	eine	_	O	O	
+3-11	Avis	NN	Avis	_	O	O	
+3-12	zu	PTKZU	zu	_	O	O	
+3-13	haben	VAINF	haben	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	u.	APPR	um	_	O	O	
+3-16	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-17	nimmt	VVFIN	nehmen	_	O	O	
+3-18	Anstand	NN	Anstand	_	O	O	
+3-19	,	$,	,	_	O	O	
+3-20	uns	PRF	wir	_	O	O	
+3-21	unser	PPOSAT	unser	_	O	O	
+3-22	Exemplar	NN	Exemplar	_	O	O	
+3-23	auszuliefern	VVIZU	ausliefern	_	O	O	
+3-24	,	$,	,	_	O	O	
+3-25	u.	KON	und	_	O	O	
+3-26	will	VMFIN	wollen	_	O	O	
+3-27	zuvor	ADV	zuvor	_	O	O	
+3-28	nach	APPR	nach	_	O	O	
+3-29	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-30	schreiben	VVINF	schreiben	_	O	O	
+3-31	.	$.	.	_	O	O	
+
+#id=4
+#text=Es scheint, daß ursprünglich 3 Ex.
+4-1	Es	PPER	es	_	O	O	
+4-2	scheint	VVFIN	scheinen	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	daß	KOUS	dass	_	O	O	
+4-5	ursprünglich	ADJD	ursprünglich	_	O	O	
+4-6	3	CARD	3	_	O	O	
+4-7	Ex	NN	Ex	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=hieher bestimmt waren u. nur 2 abgingen, indem vielleicht der Expedient Instituto u. Accademia archeol.
+5-1	hieher	NN	<unknown>	_	O	O	
+5-2	bestimmt	ADV	bestimmt	_	O	O	
+5-3	waren	VAFIN	sein	_	O	O	
+5-4	u.	APPR	um	_	O	O	
+5-5	nur	ADV	nur	_	O	O	
+5-6	2	CARD	2	_	O	O	
+5-7	abgingen	VVINF	abgehen	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	indem	KOUS	indem	_	O	O	
+5-10	vielleicht	ADV	vielleicht	_	O	O	
+5-11	der	ART	die	_	O	O	
+5-12	Expedient	NN	<unknown>	_	O	O	
+5-13	Instituto	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-14	u.	APPR	um	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-15	Accademia	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-16	archeol	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+
+#id=6
+#text=für identisch hielt.
+6-1	für	APPR	für	_	O	O	
+6-2	identisch	ADJD	identisch	_	O	O	
+6-3	hielt	VVFIN	halten	_	O	O	
+6-4	.	$.	.	_	O	O	
+
+#id=7
+#text=Damit nun nicht bei der Anfrage in Berlin neue Verwirrung entstehe, möchte ich Sie bitten, an geeigneter Stelle die nöthigen Schritte zu thun, damit der Gesandtschaft die richtige Antwort werde.
+7-1	Damit	KOUS	damit	_	O	O	
+7-2	nun	ADV	nun	_	O	O	
+7-3	nicht	PTKNEG	nicht	_	O	O	
+7-4	bei	APPR	bei	_	O	O	
+7-5	der	ART	die	_	O	O	
+7-6	Anfrage	NN	Anfrage	_	O	O	
+7-7	in	APPR	in	_	O	O	
+7-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-9	neue	ADJA	neu	_	O	O	
+7-10	Verwirrung	NN	Verwirrung	_	O	O	
+7-11	entstehe	VVFIN	entstehen	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	möchte	VMFIN	mögen	_	O	O	
+7-14	ich	PPER	ich	_	O	O	
+7-15	Sie	PPER	Sie	_	O	O	
+7-16	bitten	VVINF	bitten	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	an	APPR	an	_	O	O	
+7-19	geeigneter	ADJA	geeignet	_	O	O	
+7-20	Stelle	NN	Stelle	_	O	O	
+7-21	die	ART	die	_	O	O	
+7-22	nöthigen	ADJA	<unknown>	_	O	O	
+7-23	Schritte	NN	Schritt	_	O	O	
+7-24	zu	APPR	zu	_	O	O	
+7-25	thun	NE	<unknown>	_	O	O	
+7-26	,	$,	,	_	O	O	
+7-27	damit	KOUS	damit	_	O	O	
+7-28	der	ART	die	_	O	O	
+7-29	Gesandtschaft	NN	Gesandtschaft	_	O	O	
+7-30	die	ART	die	_	O	O	
+7-31	richtige	ADJA	richtig	_	O	O	
+7-32	Antwort	NN	Antwort	_	O	O	
+7-33	werde	VAFIN	werden	_	O	O	
+7-34	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich weiß nicht, ob Niebuhr solche Sachen besorgt; sonst würde ich ihm schreiben.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	weiß	VVFIN	wissen	_	O	O	
+8-3	nicht	PTKNEG	nicht	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	ob	KOUS	ob	_	O	O	
+8-6	Niebuhr	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-7	solche	PIAT	solche	_	O	O	
+8-8	Sachen	NN	Sache	_	O	O	
+8-9	besorgt	VVPP	besorgen	_	O	O	
+8-10	;	$.	;	_	O	O	
+8-11	sonst	ADV	sonst	_	O	O	
+8-12	würde	VAFIN	werden	_	O	O	
+8-13	ich	PPER	ich	_	O	O	
+8-14	ihm	PPER	er	_	O	O	
+8-15	schreiben	VVINF	schreiben	_	O	O	
+8-16	.	$.	.	_	O	O	
+
+#id=9
+#text=Da Sie aber von der 'Bevorstehenden Absendung wußten, wird Ihnen ja bekannt sein, an wen man sich wenden muß.
+9-1	Da	KOUS	da	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	aber	ADV	aber	_	O	O	
+9-4	von	APPR	von	_	O	O	
+9-5	der	ART	die	_	O	O	
+9-6	'	$(	'	_	O	O	
+9-7	Bevorstehenden	ADJA	bevorstehend	_	O	O	
+9-8	Absendung	NN	Absendung	_	O	O	
+9-9	wußten	VVFIN	wissen	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	wird	VAFIN	werden	_	O	O	
+9-12	Ihnen	PPER	Sie	_	O	O	
+9-13	ja	ADV	ja	_	O	O	
+9-14	bekannt	ADJD	bekannt	_	O	O	
+9-15	sein	VAINF	sein	_	O	O	
+9-16	,	$,	,	_	O	O	
+9-17	an	PTKVZ	an	_	O	O	
+9-18	wen	PWS	wer	_	O	O	
+9-19	man	PIS	man	_	O	O	
+9-20	sich	PRF	sich	_	O	O	
+9-21	wenden	VVINF	wenden	_	O	O	
+9-22	muß	VMFIN	müssen	_	O	O	
+9-23	.	$.	.	_	O	O	
+
+#id=10
+#text=Wir haben den denkbar schönsten November gehabt, erst küzlich ein paar Regentage; denken noch nicht an Einheizen.
+10-1	Wir	PPER	wir	_	O	O	
+10-2	haben	VAFIN	haben	_	O	O	
+10-3	den	ART	die	_	O	O	
+10-4	denkbar	ADJD	denkbar	_	O	O	
+10-5	schönsten	ADJA	schön	_	O	O	
+10-6	November	NN	November	_	O	O	
+10-7	gehabt	VAPP	haben	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	erst	ADV	erst	_	O	O	
+10-10	küzlich	ADJD	<unknown>	_	O	O	
+10-11	ein	ART	eine	_	O	O	
+10-12	paar	PIAT	paar	_	O	O	
+10-13	Regentage	NN	Regentag	_	O	O	
+10-14	;	$.	;	_	O	O	
+10-15	denken	VVFIN	denken	_	O	O	
+10-16	noch	ADV	noch	_	O	O	
+10-17	nicht	PTKNEG	nicht	_	O	O	
+10-18	an	APPR	an	_	O	O	
+10-19	Einheizen	NN	<unknown>	_	O	O	
+10-20	.	$.	.	_	O	O	
+
+#id=11
+#text=- Braun hält Deutsche Vorlesungen für Geld in einem Saale in der Stadt, u. wird dann wohl den Cursus später Englisch wiederholen.
+11-1	-	$(	-	_	O	O	
+11-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-3	hält	VVFIN	halten	_	O	O	
+11-4	Deutsche	ADJA	deutsch	_	O	O	
+11-5	Vorlesungen	NN	Vorlesung	_	O	O	
+11-6	für	APPR	für	_	O	O	
+11-7	Geld	NN	Geld	_	O	O	
+11-8	in	APPR	in	_	O	O	
+11-9	einem	ART	eine	_	O	O	
+11-10	Saale	NN	Saal	_	O	O	
+11-11	in	APPR	in	_	O	O	
+11-12	der	ART	die	_	O	O	
+11-13	Stadt	NN	Stadt	_	O	O	
+11-14	,	$,	,	_	O	O	
+11-15	u.	KON	und	_	O	O	
+11-16	wird	VAFIN	werden	_	O	O	
+11-17	dann	ADV	dann	_	O	O	
+11-18	wohl	ADV	wohl	_	O	O	
+11-19	den	ART	die	_	O	O	
+11-20	Cursus	NN	<unknown>	_	O	O	
+11-21	später	ADJD	spät	_	O	O	
+11-22	Englisch	NN	Englisch	_	O	O	
+11-23	wiederholen	VVINF	wiederholen	_	O	O	
+11-24	.	$.	.	_	O	O	
+
+#id=12
+#text=Im Uebrigen ist er so mit den Gypsgießereien für den "Allerweltsguckkasten" beschäftigt, daß man ihn nie zu Hause findet.
+12-1	Im	APPRART	in	_	O	O	
+12-2	Uebrigen	NN	<unknown>	_	O	O	
+12-3	ist	VAFIN	sein	_	O	O	
+12-4	er	PPER	er	_	O	O	
+12-5	so	ADV	so	_	O	O	
+12-6	mit	APPR	mit	_	O	O	
+12-7	den	ART	die	_	O	O	
+12-8	Gypsgießereien	NN	<unknown>	_	O	O	
+12-9	für	APPR	für	_	O	O	
+12-10	den	ART	die	_	O	O	
+12-11	"	$(	"	_	O	O	
+12-12	Allerweltsguckkasten	NN	<unknown>	_	O	O	
+12-13	"	$(	"	_	O	O	
+12-14	beschäftigt	VVPP	beschäftigen	_	O	O	
+12-15	,	$,	,	_	O	O	
+12-16	daß	KOUS	dass	_	O	O	
+12-17	man	PIS	man	_	O	O	
+12-18	ihn	PPER	er	_	O	O	
+12-19	nie	ADV	nie	_	O	O	
+12-20	zu	APPR	zu	_	O	O	
+12-21	Hause	NN	Haus	_	O	O	
+12-22	findet	VVFIN	finden	_	O	O	
+12-23	.	$.	.	_	O	O	
+
+#id=13
+#text=Das Institut - campa Unser Druck ist sehr zurück, da das viele Grie-
+13-1	Das	ART	die	_	O	O	
+13-2	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+13-3	-	$(	-	_	O	O	
+13-4	campa	VVFIN	<unknown>	_	O	O	
+13-5	Unser	PPOSAT	unser	_	O	O	
+13-6	Druck	NN	Druck	_	O	O	
+13-7	ist	VAFIN	sein	_	O	O	
+13-8	sehr	ADV	sehr	_	O	O	
+13-9	zurück	PTKVZ	zurück	_	O	O	
+13-10	,	$,	,	_	O	O	
+13-11	da	KOUS	da	_	O	O	
+13-12	das	PDS	die	_	O	O	
+13-13	viele	PIAT	viele	_	O	O	
+13-14	Grie-	TRUNC	<unknown>	_	O	O	
+

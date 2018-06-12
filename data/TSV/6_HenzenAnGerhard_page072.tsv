@@ -1,0 +1,360 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=255 Henzen an Gerhard A.:f-~/VII/52 (Ptnf.~k.-.cf~) 2 Secchi, der seine Hieroglyphika zu liefern· hat, ist nach Bologna durchgebrannt, vielleicht um Aegyptische Gastrollen zu geben ••• - Annalendruck werden wir bis September suspendiren; es kommen die Falkenersehen Inschriften an die Reihe, die meiner Anwesenheit nicht wohl entbehren können.
+1-1	255	CARD	@card@	_	O	O	
+1-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	A.:f-~/VII/52	NE	<unknown>	_	O	O	
+1-6	(	$(	(	_	O	O	
+1-7	Ptnf.~k.-.cf~	NE	<unknown>	_	O	O	
+1-8	)	$(	)	_	O	O	
+1-9	2	CARD	2	_	O	O	
+1-10	Secchi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-11	,	$,	,	_	O	O	
+1-12	der	PRELS	die	_	O	O	
+1-13	seine	PPOSAT	sein	_	O	O	
+1-14	Hieroglyphika	NN	<unknown>	_	O	O	
+1-15	zu	PTKZU	zu	_	O	O	
+1-16	liefern·	VVINF	<unknown>	_	O	O	
+1-17	hat	VAFIN	haben	_	O	O	
+1-18	,	$,	,	_	O	O	
+1-19	ist	VAFIN	sein	_	O	O	
+1-20	nach	APPR	nach	_	O	O	
+1-21	Bologna	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-22	durchgebrannt	VVPP	durchbrennen	_	O	O	
+1-23	,	$,	,	_	O	O	
+1-24	vielleicht	ADV	vielleicht	_	O	O	
+1-25	um	APPR	um	_	O	O	
+1-26	Aegyptische	ADJA	<unknown>	_	O	O	
+1-27	Gastrollen	NN	Gastrolle	_	O	O	
+1-28	zu	PTKZU	zu	_	O	O	
+1-29	geben	VVINF	geben	_	O	O	
+1-30	•	VVFIN	<unknown>	_	O	O	
+1-31	•	ADJA	<unknown>	_	O	O	
+1-32	•	NN	<unknown>	_	O	O	
+1-33	-	$(	-	_	O	O	
+1-34	Annalendruck	NN	<unknown>	_	O	O	
+1-35	werden	VAFIN	werden	_	O	O	
+1-36	wir	PPER	wir	_	O	O	
+1-37	bis	APPR	bis	_	O	O	
+1-38	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-39	suspendiren	NN	<unknown>	_	O	O	
+1-40	;	$.	;	_	O	O	
+1-41	es	PPER	es	_	O	O	
+1-42	kommen	VVFIN	kommen	_	O	O	
+1-43	die	ART	die	_	O	O	
+1-44	Falkenersehen	NN	<unknown>	_	O	O	
+1-45	Inschriften	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-46	an	APPR	an	_	O	O	
+1-47	die	ART	die	_	O	O	
+1-48	Reihe	NN	Reihe	_	O	O	
+1-49	,	$,	,	_	O	O	
+1-50	die	PRELS	die	_	O	O	
+1-51	meiner	PPOSAT	mein	_	O	O	
+1-52	Anwesenheit	NN	Anwesenheit	_	O	O	
+1-53	nicht	PTKNEG	nicht	_	O	O	
+1-54	wohl	ADV	wohl	_	O	O	
+1-55	entbehren	VVINF	entbehren	_	O	O	
+1-56	können	VMFIN	können	_	O	O	
+1-57	.	$.	.	_	O	O	
+
+#id=2
+#text=Mommsen's I. N.
+2-1	Mommsen's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	I.	NE	I.	_	O	O	
+2-3	N.	NE	N.	_	O	O	
+
+#id=3
+#text=kamen vor 8 Tagen an u. bin ich mit dem hiesigen Absatze zufrieden, vorausgesetzt, dß.
+3-1	kamen	VVFIN	kommen	_	O	O	
+3-2	vor	APPR	vor	_	O	O	
+3-3	8	CARD	8	_	O	O	
+3-4	Tagen	NN	Tag	_	O	O	
+3-5	an	PTKVZ	an	_	O	O	
+3-6	u.	KON	und	_	O	O	
+3-7	bin	VAFIN	sein	_	O	O	
+3-8	ich	PPER	ich	_	O	O	
+3-9	mit	APPR	mit	_	O	O	
+3-10	dem	ART	die	_	O	O	
+3-11	hiesigen	ADJA	hiesig	_	O	O	
+3-12	Absatze	NN	<unknown>	_	O	O	
+3-13	zufrieden	ADJD	zufrieden	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	vorausgesetzt	VVPP	voraussetzen	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	dß	VVFIN	<unknown>	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=es so fort g~ht.
+4-1	es	PPER	es	_	O	O	
+4-2	so	ADV	so	_	O	O	
+4-3	fort	ADV	fort	_	O	O	
+4-4	g~ht	ADJD	<unknown>	_	O	O	
+4-5	.	$.	.	_	O	O	
+
+#id=5
+#text=Bereits 4 Exemplare, auf die ich nicht gerechnet hatte, wogegen freilich die großen Bibliotheken Schwierigkeiten machen, so die C s n si.
+5-1	Bereits	ADV	bereits	_	O	O	
+5-2	4	CARD	4	_	O	O	
+5-3	Exemplare	NN	Exemplar	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	auf	APPR	auf	_	O	O	
+5-6	die	PRELS	die	_	O	O	
+5-7	ich	PPER	ich	_	O	O	
+5-8	nicht	PTKNEG	nicht	_	O	O	
+5-9	gerechnet	VVPP	rechnen	_	O	O	
+5-10	hatte	VAFIN	haben	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	wogegen	PWAV	wogegen	_	O	O	
+5-13	freilich	ADV	freilich	_	O	O	
+5-14	die	ART	die	_	O	O	
+5-15	großen	ADJA	groß	_	O	O	
+5-16	Bibliotheken	NN	Bibliothek	_	O	O	
+5-17	Schwierigkeiten	NN	Schwierigkeit	_	O	O	
+5-18	machen	VVFIN	machen	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	so	ADV	so	_	O	O	
+5-21	die	ART	die	_	O	O	
+5-22	C	NN	C	_	O	O	
+5-23	s	NN	s	_	O	O	
+5-24	n	VVFIN	<unknown>	_	O	O	
+5-25	si	ADJD	<unknown>	_	O	O	
+5-26	.	$.	.	_	O	O	
+
+#id=6
+#text=Borghesi hat mir für' s· Bull.
+6-1	Borghesi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	hat	VAFIN	haben	_	O	O	
+6-3	mir	PPER	ich	_	O	O	
+6-4	für	APPR	für	_	O	O	
+6-5	'	$(	'	_	O	O	
+6-6	s·	ADJA	<unknown>	_	O	O	
+6-7	Bull	NE	Bull	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=einen Artikel darüber versprochen, der hnffentlich sein Gutes wirken wird.
+7-1	einen	ART	eine	_	O	O	
+7-2	Artikel	NN	Artikel	_	O	O	
+7-3	darüber	PAV	darüber	_	O	O	
+7-4	versprochen	VVPP	versprechen	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	der	ART	die	_	O	O	
+7-7	hnffentlich	NN	<unknown>	_	O	O	
+7-8	sein	PPOSAT	sein	_	O	O	
+7-9	Gutes	NN	Gute	_	O	O	
+7-10	wirken	VVINF	wirken	_	O	O	
+7-11	wird	VAFIN	werden	_	O	O	
+7-12	.	$.	.	_	O	O	
+
+#id=8
+#text=In Neapel schreit man Zeter, u. ::{;uaranta.
+8-1	In	APPR	in	_	O	O	
+8-2	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-3	schreit	VVFIN	schreien	_	O	O	
+8-4	man	PIS	man	_	O	O	
+8-5	Zeter	NN	Zeter	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	u.	APPR	um	_	O	O	
+8-8	::{	NN	<unknown>	_	O	O	
+8-9	;	$.	;	_	O	O	
+8-10	uaranta	NE	<unknown>	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=soll geäußert haben, ein solches Werk müsse man polizeilich verbieten !
+9-1	soll	VMFIN	sollen	_	O	O	
+9-2	geäußert	VVPP	äußern	_	O	O	
+9-3	haben	VAINF	haben	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	ein	ART	eine	_	O	O	
+9-6	solches	PIAT	solche	_	O	O	
+9-7	Werk	NN	Werk	_	O	O	
+9-8	müsse	VMFIN	müssen	_	O	O	
+9-9	man	PIS	man	_	O	O	
+9-10	polizeilich	ADJD	polizeilich	_	O	O	
+9-11	verbieten	VVINF	verbieten	_	O	O	
+9-12	!	$.	!	_	O	O	
+
+#id=10
+#text=- Ravestein ist Belgiseher Gesandter in Rom, von R~mont empfohlen.
+10-1	-	$(	-	_	O	O	
+10-2	Ravestein	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-3	ist	VAFIN	sein	_	O	O	
+10-4	Belgiseher	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-5	Gesandter	NN	<unknown>	_	O	O	
+10-6	in	APPR	in	_	O	O	
+10-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-8	,	$,	,	_	O	O	
+10-9	von	APPR	von	_	O	O	
+10-10	R~mont	NE	<unknown>	_	O	O	
+10-11	empfohlen	VVPP	empfehlen	_	O	O	
+10-12	.	$.	.	_	O	O	
+
+#id=11
+#text=- Bitte Q,,,,,tt~ Friedl~ sagen, seinen Brief aus Rorschach habe ich der eignen Calamitäten halber noch nicht beantwortet; er werde unsere Briefe in Berlin gefunden haben.
+11-1	-	$(	-	_	O	O	
+11-2	Bitte	PTKANT	bitte	_	O	O	
+11-3	Q,,,,,tt~	NN	<unknown>	_	O	O	
+11-4	Friedl~	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-5	sagen	VVFIN	sagen	_	O	O	
+11-6	,	$,	,	_	O	O	
+11-7	seinen	PPOSAT	sein	_	O	O	
+11-8	Brief	NN	Brief	_	O	O	
+11-9	aus	APPR	aus	_	O	O	
+11-10	Rorschach	NN	<unknown>	_	O	O	
+11-11	habe	VAFIN	haben	_	O	O	
+11-12	ich	PPER	ich	_	O	O	
+11-13	der	ART	die	_	O	O	
+11-14	eignen	ADJA	eigen	_	O	O	
+11-15	Calamitäten	NN	<unknown>	_	O	O	
+11-16	halber	APPO	halber	_	O	O	
+11-17	noch	ADV	noch	_	O	O	
+11-18	nicht	PTKNEG	nicht	_	O	O	
+11-19	beantwortet	VVPP	beantworten	_	O	O	
+11-20	;	$.	;	_	O	O	
+11-21	er	PPER	er	_	O	O	
+11-22	werde	VAFIN	werden	_	O	O	
+11-23	unsere	PPOSAT	unser	_	O	O	
+11-24	Briefe	NN	Brief	_	O	O	
+11-25	in	APPR	in	_	O	O	
+11-26	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-27	gefunden	VVPP	finden	_	O	O	
+11-28	haben	VAINF	haben	_	O	O	
+11-29	.	$.	.	_	O	O	
+
+#id=12
+#text=Die Münzen seien in unsren Händen.
+12-1	Die	ART	die	_	O	O	
+12-2	Münzen	NN	Münze	_	B-webanno.custom.LetterEntity_	B-OBJ	
+12-3	seien	VAFIN	sein	_	O	O	
+12-4	in	APPR	in	_	O	O	
+12-5	unsren	PPOSAT	unsre	_	O	O	
+12-6	Händen	NN	Hand	_	O	O	
+12-7	.	$.	.	_	O	O	
+
+#id=13
+#text=Ich schreibe ihm, sobald die Landluft auch mir etwas Ruhe wieder gegeben.
+13-1	Ich	PPER	ich	_	O	O	
+13-2	schreibe	VVFIN	schreiben	_	O	O	
+13-3	ihm	PPER	er	_	O	O	
+13-4	,	$,	,	_	O	O	
+13-5	sobald	KOUS	sobald	_	O	O	
+13-6	die	ART	die	_	O	O	
+13-7	Landluft	NN	Landluft	_	O	O	
+13-8	auch	ADV	auch	_	O	O	
+13-9	mir	PPER	ich	_	O	O	
+13-10	etwas	PIAT	etwas	_	O	O	
+13-11	Ruhe	NN	Ruhe	_	O	O	
+13-12	wieder	ADV	wieder	_	O	O	
+13-13	gegeben	VVPP	geben	_	O	O	
+13-14	.	$.	.	_	O	O	
+
+#id=14
+#text=- Mommsen schickte neulich einen hübschen Bullettinoartikel über Schweizer Inschriften; hoffentlich hat er Ihnen jetzt geschrieben.
+14-1	-	$(	-	_	O	O	
+14-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-3	schickte	VVFIN	schicken	_	O	O	
+14-4	neulich	ADV	neulich	_	O	O	
+14-5	einen	ART	eine	_	O	O	
+14-6	hübschen	ADJA	hübsch	_	O	O	
+14-7	Bullettinoartikel	NN	<unknown>	_	O	O	
+14-8	über	APPR	über	_	O	O	
+14-9	Schweizer	ADJA	Schweizer	_	B-webanno.custom.LetterEntity_	B-OBJ	
+14-10	Inschriften	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-OBJ	
+14-11	;	$.	;	_	O	O	
+14-12	hoffentlich	ADV	hoffentlich	_	O	O	
+14-13	hat	VAFIN	haben	_	O	O	
+14-14	er	PPER	er	_	O	O	
+14-15	Ihnen	PPER	Sie	_	O	O	
+14-16	jetzt	ADV	jetzt	_	O	O	
+14-17	geschrieben	VVPP	schreiben	_	O	O	
+14-18	.	$.	.	_	O	O	
+
+#id=15
+#text=Flagt über Waulheit u. Neigung zum V;~gabundiren in der schönen Alpennatur , die allerdj ngs vor dem Le,epziger Schlachtfelde gewisse Vorzüge haben mag.
+15-1	Flagt	NN	<unknown>	_	O	O	
+15-2	über	APPR	über	_	O	O	
+15-3	Waulheit	NN	<unknown>	_	O	O	
+15-4	u.	APPR	um	_	O	O	
+15-5	Neigung	NN	Neigung	_	O	O	
+15-6	zum	APPRART	zu	_	O	O	
+15-7	V	NN	V	_	O	O	
+15-8	;	$.	;	_	O	O	
+15-9	~gabundiren	NN	<unknown>	_	O	O	
+15-10	in	APPR	in	_	O	O	
+15-11	der	ART	die	_	O	O	
+15-12	schönen	ADJA	schön	_	O	O	
+15-13	Alpennatur	NN	<unknown>	_	O	O	
+15-14	,	$,	,	_	O	O	
+15-15	die	PRELS	die	_	O	O	
+15-16	allerdj	NE	<unknown>	_	O	O	
+15-17	ngs	VVFIN	<unknown>	_	O	O	
+15-18	vor	APPR	vor	_	O	O	
+15-19	dem	ART	die	_	O	O	
+15-20	Le,epziger	ADJA	<unknown>	_	O	O	
+15-21	Schlachtfelde	NN	Schlachtfeld	_	O	O	
+15-22	gewisse	ADJA	gewiss	_	O	O	
+15-23	Vorzüge	NN	Vorzug	_	O	O	
+15-24	haben	VAINF	haben	_	O	O	
+15-25	mag	VMFIN	mögen	_	O	O	
+15-26	.	$.	.	_	O	O	
+
+#id=16
+#text=Eben deßhalb hat er auch die Afrikanischen Inschriften noch nicht geschickt.
+16-1	Eben	ADV	eben	_	O	O	
+16-2	deßhalb	ADJD	<unknown>	_	O	O	
+16-3	hat	VAFIN	haben	_	O	O	
+16-4	er	PPER	er	_	O	O	
+16-5	auch	ADV	auch	_	O	O	
+16-6	die	ART	die	_	O	O	
+16-7	Afrikanischen	ADJA	afrikanisch	_	O	O	
+16-8	Inschriften	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+16-9	noch	ADV	noch	_	O	O	
+16-10	nicht	PTKNEG	nicht	_	O	O	
+16-11	geschickt	ADJD	geschickt	_	O	O	
+16-12	.	$.	.	_	O	O	
+
+#id=17
+#text=Pazienza!
+17-1	Pazienza	NE	<unknown>	_	O	O	
+17-2	!	$.	!	_	O	O	
+
+#id=18
+#text=- Welche Reisepl~ne haben denn Sie dieses Jahr ?
+18-1	-	$(	-	_	O	O	
+18-2	Welche	PWS	welche	_	O	O	
+18-3	Reisepl~ne	NN	<unknown>	_	O	O	
+18-4	haben	VAFIN	haben	_	O	O	
+18-5	denn	KON	denn	_	O	O	
+18-6	Sie	PPER	Sie	_	O	O	
+18-7	dieses	PDAT	dies	_	O	O	
+18-8	Jahr	NN	Jahr	_	O	O	
+18-9	?	$.	?	_	O	O	
+
+#id=19
+#text=- Brunn bleibt hier u. wird uns alles Brieflichel herausschicken.
+19-1	-	$(	-	_	O	O	
+19-2	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+19-3	bleibt	VVFIN	bleiben	_	O	O	
+19-4	hier	ADV	hier	_	O	O	
+19-5	u.	KON	und	_	O	O	
+19-6	wird	VAFIN	werden	_	O	O	
+19-7	uns	PPER	wir	_	O	O	
+19-8	alles	PIAT	alle	_	O	O	
+19-9	Brieflichel	NN	<unknown>	_	O	O	
+19-10	herausschicken	VVINF	<unknown>	_	O	O	
+19-11	.	$.	.	_	O	O	
+
+#id=20
+#text=Die Hitze ficht ihn wenig an;
+20-1	Die	ART	die	_	O	O	
+20-2	Hitze	NN	Hitze	_	O	O	
+20-3	ficht	VVFIN	fechten	_	O	O	
+20-4	ihn	PPER	er	_	O	O	
+20-5	wenig	PIS	wenige	_	O	O	
+20-6	an	PTKVZ	an	_	O	O	
+20-7	;	$.	;	_	O	O	
+

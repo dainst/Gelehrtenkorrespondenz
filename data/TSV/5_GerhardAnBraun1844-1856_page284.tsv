@@ -1,0 +1,208 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=81 Gerhard an Braun Berlin, 22. März 1849 g. 2/IV 49 r. 12/IV 49 Dr. Braun Berlin 22 März 49 Mein theurer Freund.
+1-1	81	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1849	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	ADJA	<unknown>	_	O	O	
+1-12	2/IV	NN	<unknown>	_	O	O	
+1-13	49	CARD	@card@	_	O	O	
+1-14	r.	VVFIN	<unknown>	_	O	O	
+1-15	12/IV	CARD	<unknown>	_	O	O	
+1-16	49	CARD	@card@	_	O	O	
+1-17	Dr.	NN	Dr.	_	O	O	
+1-18	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-19	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-20	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-21	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	Mein	PPOSAT	mein	_	O	O	
+1-24	theurer	ADJA	<unknown>	_	O	O	
+1-25	Freund	NN	Freund	_	O	O	
+1-26	.	$.	.	_	O	O	
+
+#id=2
+#text=Unsre Idus des März sind zu erster Nachfrage vorüber, mögen die Ihrigen auch gnädig und wo möglich mit dem Umschwung gekommen sein dessen die römischen Zustände so dringend bedürfen.
+2-1	Unsre	PPOSAT	unsre	_	O	O	
+2-2	Idus	NE	<unknown>	_	O	O	
+2-3	des	ART	die	_	O	O	
+2-4	März	NN	März	_	O	O	
+2-5	sind	VAFIN	sein	_	O	O	
+2-6	zu	APPR	zu	_	O	O	
+2-7	erster	ADJA	erst	_	O	O	
+2-8	Nachfrage	NN	Nachfrage	_	O	O	
+2-9	vorüber	PTKVZ	vorüber	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	mögen	VMFIN	mögen	_	O	O	
+2-12	die	ART	die	_	O	O	
+2-13	Ihrigen	NN	<unknown>	_	O	O	
+2-14	auch	ADV	auch	_	O	O	
+2-15	gnädig	ADJD	gnädig	_	O	O	
+2-16	und	KON	und	_	O	O	
+2-17	wo	PWAV	wo	_	O	O	
+2-18	möglich	ADJD	möglich	_	O	O	
+2-19	mit	APPR	mit	_	O	O	
+2-20	dem	ART	die	_	O	O	
+2-21	Umschwung	NN	Umschwung	_	O	O	
+2-22	gekommen	VVPP	kommen	_	O	O	
+2-23	sein	VAINF	sein	_	O	O	
+2-24	dessen	PDS	die	_	O	O	
+2-25	die	ART	die	_	O	O	
+2-26	römischen	ADJA	römisch	_	O	O	
+2-27	Zustände	NN	Zustand	_	O	O	
+2-28	so	ADV	so	_	O	O	
+2-29	dringend	ADJD	dringend	_	O	O	
+2-30	bedürfen	VVINF	bedürfen	_	O	O	
+2-31	.	$.	.	_	O	O	
+
+#id=3
+#text=Wir haben viel Angst und Sorge darum und für unsre dortigen Freunde.
+3-1	Wir	PPER	wir	_	O	O	
+3-2	haben	VAFIN	haben	_	O	O	
+3-3	viel	PIAT	viele	_	O	O	
+3-4	Angst	NN	Angst	_	O	O	
+3-5	und	KON	und	_	O	O	
+3-6	Sorge	NN	Sorge	_	O	O	
+3-7	darum	PAV	darum	_	O	O	
+3-8	und	KON	und	_	O	O	
+3-9	für	APPR	für	_	O	O	
+3-10	unsre	PPOSAT	unsre	_	O	O	
+3-11	dortigen	ADJA	dortig	_	O	O	
+3-12	Freunde	NN	Freund	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Archäologische Freunde die in der Politik stecken Forchhammer, Urlichs, Prokesch werden mir dadurch unsichtbar; dagegen ist es der Politik, nämlich seiner tüchtigen Wahlmannschaft hauptsächlich zu danken daß unser Horkel eine gute OberlehrersteIle (700 rt und Wohnung) im demokratischen Zulläkan gefunden hat.
+4-1	Archäologische	ADJA	archäologisch	_	O	O	
+4-2	Freunde	NN	Freund	_	O	O	
+4-3	die	ART	die	_	O	O	
+4-4	in	APPR	in	_	O	O	
+4-5	der	ART	die	_	O	O	
+4-6	Politik	NN	Politik	_	O	O	
+4-7	stecken	VVFIN	stecken	_	O	O	
+4-8	Forchhammer	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-9	,	$,	,	_	O	O	
+4-10	Urlichs	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-11	,	$,	,	_	O	O	
+4-12	Prokesch	NN	<unknown>	_	O	O	
+4-13	werden	VAFIN	werden	_	O	O	
+4-14	mir	PPER	ich	_	O	O	
+4-15	dadurch	PAV	dadurch	_	O	O	
+4-16	unsichtbar	ADJD	unsichtbar	_	O	O	
+4-17	;	$.	;	_	O	O	
+4-18	dagegen	PAV	dagegen	_	O	O	
+4-19	ist	VAFIN	sein	_	O	O	
+4-20	es	PPER	es	_	O	O	
+4-21	der	ART	die	_	O	O	
+4-22	Politik	NN	Politik	_	O	O	
+4-23	,	$,	,	_	O	O	
+4-24	nämlich	ADV	nämlich	_	O	O	
+4-25	seiner	PPOSAT	sein	_	O	O	
+4-26	tüchtigen	ADJA	tüchtig	_	O	O	
+4-27	Wahlmannschaft	NN	<unknown>	_	O	O	
+4-28	hauptsächlich	ADJD	hauptsächlich	_	O	O	
+4-29	zu	PTKZU	zu	_	O	O	
+4-30	danken	VVINF	danken	_	O	O	
+4-31	daß	KOUS	dass	_	O	O	
+4-32	unser	PPOSAT	unser	_	O	O	
+4-33	Horkel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-34	eine	ART	eine	_	O	O	
+4-35	gute	ADJA	gut	_	O	O	
+4-36	OberlehrersteIle	NN	<unknown>	_	O	O	
+4-37	(	$(	(	_	O	O	
+4-38	700	CARD	700	_	O	O	
+4-39	rt	TRUNC	<unknown>	_	O	O	
+4-40	und	KON	und	_	O	O	
+4-41	Wohnung	NN	Wohnung	_	O	O	
+4-42	)	$(	)	_	O	O	
+4-43	im	APPRART	in	_	O	O	
+4-44	demokratischen	ADJA	demokratisch	_	O	O	
+4-45	Zulläkan	NN	<unknown>	_	O	O	
+4-46	gefunden	VVPP	finden	_	O	O	
+4-47	hat	VAFIN	haben	_	O	O	
+4-48	.	$.	.	_	O	O	
+
+#id=5
+#text=Dank für die restirenden Bullettino Bogen 1848 die viel Gutes enthalten; Archäologischer Anzeiger no 2 erhielten Sie incl.
+5-1	Dank	APPR	dank	_	O	O	
+5-2	für	APPR	für	_	O	O	
+5-3	die	ART	die	_	O	O	
+5-4	restirenden	ADJA	<unknown>	_	O	O	
+5-5	Bullettino	NN	<unknown>	_	O	O	
+5-6	Bogen	NN	Bogen	_	O	O	
+5-7	1848	CARD	@card@	_	O	O	
+5-8	die	ART	die	_	O	O	
+5-9	viel	PIAT	viele	_	O	O	
+5-10	Gutes	NN	Gute	_	O	O	
+5-11	enthalten	VVPP	enthalten	_	O	O	
+5-12	;	$.	;	_	O	O	
+5-13	Archäologischer	ADJA	archäologisch	_	O	O	
+5-14	Anzeiger	NN	Anzeiger	_	O	O	
+5-15	no	NE	no	_	O	O	
+5-16	2	CARD	2	_	O	O	
+5-17	erhielten	VVFIN	erhalten	_	O	O	
+5-18	Sie	PPER	Sie	_	O	O	
+5-19	incl.	APPR	incl.	_	O	O	
+
+#id=6
+#text=dem Lästergg.
+6-1	dem	ART	die	_	O	O	
+6-2	Lästergg	NN	<unknown>	_	O	O	
+6-3	.	$.	.	_	O	O	
+
+#id=7
+#text=Aufsatz unter Kreuzband.
+7-1	Aufsatz	NN	Aufsatz	_	O	O	
+7-2	unter	APPR	unter	_	O	O	
+7-3	Kreuzband	NN	Kreuzband	_	O	O	
+7-4	.	$.	.	_	O	O	
+
+#id=8
+#text=Ihr kundiges Kunstblatt no 8 ist freilich auch angelangt.
+8-1	Ihr	PPOSAT	ihr	_	O	O	
+8-2	kundiges	ADJA	kundig	_	O	O	
+8-3	Kunstblatt	NN	Kunstblatt	_	O	O	
+8-4	no	NE	no	_	O	O	
+8-5	8	CARD	8	_	O	O	
+8-6	ist	VAFIN	sein	_	O	O	
+8-7	freilich	ADV	freilich	_	O	O	
+8-8	auch	ADV	auch	_	O	O	
+8-9	angelangt	VVPP	angelangen	_	O	O	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=In Erwägung jedoch daß mein Ausdruck von Betrübnis und Beileid durch verkehrte Auslegung mich nicht friedlich zu stimmen vermag - , daß üble Witze die man
+9-1	In	APPR	in	_	O	O	
+9-2	Erwägung	NN	Erwägung	_	O	O	
+9-3	jedoch	ADV	jedoch	_	O	O	
+9-4	daß	KOUS	dass	_	O	O	
+9-5	mein	PPOSAT	mein	_	O	O	
+9-6	Ausdruck	NN	Ausdruck	_	O	O	
+9-7	von	APPR	von	_	O	O	
+9-8	Betrübnis	NN	Betrübnis	_	O	O	
+9-9	und	KON	und	_	O	O	
+9-10	Beileid	NN	Beileid	_	O	O	
+9-11	durch	APPR	durch	_	O	O	
+9-12	verkehrte	ADJA	verkehrt	_	O	O	
+9-13	Auslegung	NN	Auslegung	_	O	O	
+9-14	mich	PRF	ich	_	O	O	
+9-15	nicht	PTKNEG	nicht	_	O	O	
+9-16	friedlich	ADJD	friedlich	_	O	O	
+9-17	zu	PTKZU	zu	_	O	O	
+9-18	stimmen	VVINF	stimmen	_	O	O	
+9-19	vermag	VVFIN	vermag	_	O	O	
+9-20	-	$(	-	_	O	O	
+9-21	,	$,	,	_	O	O	
+9-22	daß	KOUS	dass	_	O	O	
+9-23	üble	ADJA	übel	_	O	O	
+9-24	Witze	NN	Witz	_	O	O	
+9-25	die	ART	die	_	O	O	
+9-26	man	PIS	man	_	O	O	
+

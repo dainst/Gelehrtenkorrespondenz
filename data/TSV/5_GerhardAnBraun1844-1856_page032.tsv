@@ -1,0 +1,225 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=116 A. d. Dir.
+1-1	116	CARD	@card@	_	O	O	
+1-2	A.	APPR	an	_	O	O	
+1-3	d.	ART	d.	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Dr. Braun Mein theurer Freund.
+2-1	Dr.	NN	Dr.	_	O	O	
+2-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-3	Mein	PPOSAT	mein	_	O	O	
+2-4	theurer	ADJA	<unknown>	_	O	O	
+2-5	Freund	NN	Freund	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Braun Berlin, 27. Februar 1844 g. 11/111 44 r. 12/111 44 Berlin 27 Febr 44 Zuerst besten Dank für die Briefe vom 13 und 15 Februar samt der Marginalien der Mitgliederliste; hauptsächlich für Ihr Ausführliches über das was der Epigraphik Noth thun und zugleich unsre Freunde fördern könne.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	an	APPR	an	_	O	O	
+3-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-5	,	$,	,	_	O	O	
+3-6	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-10	g.	VVFIN	<unknown>	_	O	O	
+3-11	11/111	CARD	@card@	_	O	O	
+3-12	44	CARD	44	_	O	O	
+3-13	r.	ADJA	<unknown>	_	O	O	
+3-14	12/111	CARD	@card@	_	O	O	
+3-15	44	CARD	44	_	O	O	
+3-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-17	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-18	Febr	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-19	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-20	Zuerst	ADV	zuerst	_	O	O	
+3-21	besten	ADJA	gut	_	O	O	
+3-22	Dank	NN	Dank	_	O	O	
+3-23	für	APPR	für	_	O	O	
+3-24	die	ART	die	_	O	O	
+3-25	Briefe	NN	Brief	_	O	O	
+3-26	vom	APPRART	von	_	O	O	
+3-27	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-28	und	KON	und	_	O	O	
+3-29	15	CARD	15	_	O	O	
+3-30	Februar	NN	Februar	_	O	O	
+3-31	samt	APPR	samt	_	O	O	
+3-32	der	ART	die	_	O	O	
+3-33	Marginalien	NN	<unknown>	_	O	O	
+3-34	der	ART	die	_	O	O	
+3-35	Mitgliederliste	NN	Mitgliederliste	_	O	O	
+3-36	;	$.	;	_	O	O	
+3-37	hauptsächlich	ADJD	hauptsächlich	_	O	O	
+3-38	für	APPR	für	_	O	O	
+3-39	Ihr	PPOSAT	ihr	_	O	O	
+3-40	Ausführliches	NN	Ausführliche	_	O	O	
+3-41	über	APPR	über	_	O	O	
+3-42	das	ART	die	_	O	O	
+3-43	was	PIS	was	_	O	O	
+3-44	der	ART	die	_	O	O	
+3-45	Epigraphik	NN	<unknown>	_	O	O	
+3-46	Noth	NE	<unknown>	_	O	O	
+3-47	thun	NE	<unknown>	_	O	O	
+3-48	und	KON	und	_	O	O	
+3-49	zugleich	ADV	zugleich	_	O	O	
+3-50	unsre	PPOSAT	unsre	_	O	O	
+3-51	Freunde	NN	Freund	_	O	O	
+3-52	fördern	VVINF	fördern	_	O	O	
+3-53	könne	VMFIN	können	_	O	O	
+3-54	.	$.	.	_	O	O	
+
+#id=4
+#text=An Horkel hatte ich nur darum nicht gedacht, weil er nicht gar lange außerhalb Deutschland wird bleiben mögen; für Henzen kann die Akademie interessiert werden, sobald eine epigraphische Arbeit gedruckt vorliegt.
+4-1	An	APPR	an	_	O	O	
+4-2	Horkel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	hatte	VAFIN	haben	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	nur	ADV	nur	_	O	O	
+4-6	darum	PAV	darum	_	O	O	
+4-7	nicht	PTKNEG	nicht	_	O	O	
+4-8	gedacht	VVPP	denken|gedenken	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	weil	KOUS	weil	_	O	O	
+4-11	er	PPER	er	_	O	O	
+4-12	nicht	PTKNEG	nicht	_	O	O	
+4-13	gar	ADV	gar	_	O	O	
+4-14	lange	ADV	lange	_	O	O	
+4-15	außerhalb	APPR	außerhalb	_	O	O	
+4-16	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-17	wird	VAFIN	werden	_	O	O	
+4-18	bleiben	VVINF	bleiben	_	O	O	
+4-19	mögen	VMINF	mögen	_	O	O	
+4-20	;	$.	;	_	O	O	
+4-21	für	APPR	für	_	O	O	
+4-22	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-23	kann	VMFIN	können	_	O	O	
+4-24	die	ART	die	_	O	O	
+4-25	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-26	interessiert	VVPP	interessieren	_	O	O	
+4-27	werden	VAINF	werden	_	O	O	
+4-28	,	$,	,	_	O	O	
+4-29	sobald	KOUS	sobald	_	O	O	
+4-30	eine	ART	eine	_	O	O	
+4-31	epigraphische	ADJA	<unknown>	_	O	O	
+4-32	Arbeit	NN	Arbeit	_	O	O	
+4-33	gedruckt	ADJD	gedruckt	_	O	O	
+4-34	vorliegt	VVFIN	vorliegen	_	O	O	
+4-35	.	$.	.	_	O	O	
+
+#id=5
+#text=Das Büchlein monumentaler römischer Inschriften wird dazu genügen; ehe aber etwas der Art vorliegt, ist in dieser Sache nichts zu thun.
+5-1	Das	ART	die	_	O	O	
+5-2	Büchlein	NN	Büchlein	_	O	O	
+5-3	monumentaler	ADJA	monumental	_	O	O	
+5-4	römischer	ADJA	römisch	_	O	O	
+5-5	Inschriften	NN	Inschrift	_	O	O	
+5-6	wird	VAFIN	werden	_	O	O	
+5-7	dazu	PAV	dazu	_	O	O	
+5-8	genügen	VVINF	genügen	_	O	O	
+5-9	;	$.	;	_	O	O	
+5-10	ehe	KOUS	ehe	_	O	O	
+5-11	aber	ADV	aber	_	O	O	
+5-12	etwas	ADV	etwas	_	O	O	
+5-13	der	ART	die	_	O	O	
+5-14	Art	NN	Art	_	O	O	
+5-15	vorliegt	VVFIN	vorliegen	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	ist	VAFIN	sein	_	O	O	
+5-18	in	APPR	in	_	O	O	
+5-19	dieser	PDAT	dies	_	O	O	
+5-20	Sache	NN	Sache	_	O	O	
+5-21	nichts	PIS	nichts	_	O	O	
+5-22	zu	APPR	zu	_	O	O	
+5-23	thun	NE	<unknown>	_	O	O	
+5-24	.	$.	.	_	O	O	
+
+#id=6
+#text=Beschleu~nigen Sie es Läßt sich ein Antrag nur vor dem hohen Sommer stellen, so ist es gleich ob jetzt oder etwas später.
+6-1	Beschleu~nigen	VVFIN	<unknown>	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	es	PPER	es	_	O	O	
+6-4	Läßt	VVFIN	lassen	_	O	O	
+6-5	sich	PRF	sich	_	O	O	
+6-6	ein	ART	eine	_	O	O	
+6-7	Antrag	NN	Antrag	_	O	O	
+6-8	nur	ADV	nur	_	O	O	
+6-9	vor	APPR	vor	_	O	O	
+6-10	dem	ART	die	_	O	O	
+6-11	hohen	ADJA	hoch	_	O	O	
+6-12	Sommer	NN	Sommer	_	O	O	
+6-13	stellen	VVINF	stellen	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	so	ADV	so	_	O	O	
+6-16	ist	VAFIN	sein	_	O	O	
+6-17	es	PPER	es	_	O	O	
+6-18	gleich	ADJD	gleich	_	O	O	
+6-19	ob	ADV	ob	_	O	O	
+6-20	jetzt	ADV	jetzt	_	O	O	
+6-21	oder	KON	oder	_	O	O	
+6-22	etwas	ADV	etwas	_	O	O	
+6-23	später	ADJD	spät	_	O	O	
+6-24	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Mitgliederliste hat zum Erschrecken wenig Subscriptionszuwachs.
+7-1	Die	ART	die	_	O	O	
+7-2	Mitgliederliste	NN	Mitgliederliste	_	O	O	
+7-3	hat	VAFIN	haben	_	O	O	
+7-4	zum	APPRART	zu	_	O	O	
+7-5	Erschrecken	NN	Erschrecken	_	O	O	
+7-6	wenig	PIAT	wenige	_	O	O	
+7-7	Subscriptionszuwachs	NN	<unknown>	_	O	O	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=Also die Kardinäle und sächsischen Herzöge sind aufgegeben 1 Den neuen Niederländischen König müßte doch Liedekeck schaffen, wie weiland den alten.
+8-1	Also	ADV	also	_	O	O	
+8-2	die	ART	die	_	O	O	
+8-3	Kardinäle	NN	Kardinal	_	O	O	
+8-4	und	KON	und	_	O	O	
+8-5	sächsischen	ADJA	sächsisch	_	O	O	
+8-6	Herzöge	NN	Herzog	_	O	O	
+8-7	sind	VAFIN	sein	_	O	O	
+8-8	aufgegeben	VVPP	aufgeben	_	O	O	
+8-9	1	CARD	1	_	O	O	
+8-10	Den	ART	die	_	O	O	
+8-11	neuen	ADJA	neu	_	O	O	
+8-12	Niederländischen	NN	Niederländische	_	O	O	
+8-13	König	NE	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-14	müßte	VMFIN	müssen	_	O	O	
+8-15	doch	ADV	doch	_	O	O	
+8-16	Liedekeck	NN	<unknown>	_	O	O	
+8-17	schaffen	VVINF	schaffen	_	O	O	
+8-18	,	$,	,	_	O	O	
+8-19	wie	KOUS	wie	_	O	O	
+8-20	weiland	ADV	weiland	_	O	O	
+8-21	den	ART	die	_	O	O	
+8-22	alten	ADJA	alt	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=Daß für des Prinz August Schuld die ich seit 5 Monaten moniere jetzt noch von mir Brockhaus und allerlei
+9-1	Daß	KOUS	dass	_	O	O	
+9-2	für	APPR	für	_	O	O	
+9-3	des	ART	die	_	O	O	
+9-4	Prinz	NE	Prinz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	August	NE	August	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-6	Schuld	NN	Schuld	_	O	O	
+9-7	die	ART	die	_	O	O	
+9-8	ich	PPER	ich	_	O	O	
+9-9	seit	APPR	seit	_	O	O	
+9-10	5	CARD	5	_	O	O	
+9-11	Monaten	NN	Monat	_	O	O	
+9-12	moniere	VVFIN	monieren	_	O	O	
+9-13	jetzt	ADV	jetzt	_	O	O	
+9-14	noch	ADV	noch	_	O	O	
+9-15	von	APPR	von	_	O	O	
+9-16	mir	PPER	ich	_	O	O	
+9-17	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-18	und	KON	und	_	O	O	
+9-19	allerlei	PIAT	allerlei	_	O	O	
+

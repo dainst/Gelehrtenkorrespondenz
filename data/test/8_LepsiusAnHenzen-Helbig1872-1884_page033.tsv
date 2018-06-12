@@ -1,0 +1,220 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=197 L Verehrter Freund Lepsius an Henzen Berlin, 8. Mai 1872 g. 12/5 72 B. d. 8. Mai 1872.
+1-1	197	CARD	@card@	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	12/5	CARD	12/5	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	B.	NN	B.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-18	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-19	8	CARD	8	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-21	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-22	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Es ist nun jetzt endlich wieder ein wesentlicher Fortschritt in der Bauangelegenheit geschehen.
+2-1	Es	PPER	es	_	O	O	
+2-2	ist	VAFIN	sein	_	O	O	
+2-3	nun	ADV	nun	_	O	O	
+2-4	jetzt	ADV	jetzt	_	O	O	
+2-5	endlich	ADV	endlich	_	O	O	
+2-6	wieder	ADV	wieder	_	O	O	
+2-7	ein	ART	eine	_	O	O	
+2-8	wesentlicher	ADJA	wesentlich	_	O	O	
+2-9	Fortschritt	NN	Fortschritt	_	O	O	
+2-10	in	APPR	in	_	O	O	
+2-11	der	ART	die	_	O	O	
+2-12	Bauangelegenheit	NN	<unknown>	_	O	O	
+2-13	geschehen	VVINF	geschehen	_	O	O	
+2-14	.	$.	.	_	O	O	
+
+#id=3
+#text=Abeken hat erreicht, daß Bismark den BundestagsPräsidenten Delbrück beauftragt hat durch ein motivirtes Schreiben, dem Bundesrath den Vorschlag zu machen das Institut auf das Reich zu übernehmen, da dies nicht nur an sich zweckmäßig sein, sondern schon von Baiern beantragt, in der Bairischen Kammer günstig aufgenommen und von dem Preußischen Unterrichtsminister gleichfalls im Einverständnis mit dem Finanzminister anheimgegeben worden sei, auch dahin zielende Anträge im Reichsrathe bevorstünden.
+3-1	Abeken	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	hat	VAFIN	haben	_	O	O	
+3-3	erreicht	VVPP	erreichen	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	daß	KOUS	dass	_	O	O	
+3-6	Bismark	NN	<unknown>	_	O	O	
+3-7	den	ART	die	_	O	O	
+3-8	BundestagsPräsidenten	NN	Bundestagspräsident	_	O	O	
+3-9	Delbrück	NE	Delbrück	_	O	O	
+3-10	beauftragt	VVPP	beauftragen	_	O	O	
+3-11	hat	VAFIN	haben	_	O	O	
+3-12	durch	APPR	durch	_	O	O	
+3-13	ein	ART	eine	_	O	O	
+3-14	motivirtes	NN	<unknown>	_	O	O	
+3-15	Schreiben	NN	Schreiben	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	dem	ART	die	_	O	O	
+3-18	Bundesrath	NN	<unknown>	_	O	O	
+3-19	den	ART	die	_	O	O	
+3-20	Vorschlag	NN	Vorschlag	_	O	O	
+3-21	zu	PTKZU	zu	_	O	O	
+3-22	machen	VVINF	machen	_	O	O	
+3-23	das	ART	die	_	O	O	
+3-24	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-25	auf	APPR	auf	_	O	O	
+3-26	das	ART	die	_	O	O	
+3-27	Reich	NN	Reich	_	O	O	
+3-28	zu	PTKZU	zu	_	O	O	
+3-29	übernehmen	VVINF	übernehmen	_	O	O	
+3-30	,	$,	,	_	O	O	
+3-31	da	KOUS	da	_	O	O	
+3-32	dies	PDS	dies	_	O	O	
+3-33	nicht	PTKNEG	nicht	_	O	O	
+3-34	nur	ADV	nur	_	O	O	
+3-35	an	APPR	an	_	O	O	
+3-36	sich	PRF	sich	_	O	O	
+3-37	zweckmäßig	ADJD	zweckmäßig	_	O	O	
+3-38	sein	VAINF	sein	_	O	O	
+3-39	,	$,	,	_	O	O	
+3-40	sondern	KON	sondern	_	O	O	
+3-41	schon	ADV	schon	_	O	O	
+3-42	von	APPR	von	_	O	O	
+3-43	Baiern	NN	Baier	_	O	O	
+3-44	beantragt	VVPP	beantragen	_	O	O	
+3-45	,	$,	,	_	O	O	
+3-46	in	APPR	in	_	O	O	
+3-47	der	ART	die	_	O	O	
+3-48	Bairischen	ADJA	bairisch	_	O	O	
+3-49	Kammer	NN	Kammer	_	O	O	
+3-50	günstig	ADJD	günstig	_	O	O	
+3-51	aufgenommen	VVPP	aufnehmen	_	O	O	
+3-52	und	KON	und	_	O	O	
+3-53	von	APPR	von	_	O	O	
+3-54	dem	ART	die	_	O	O	
+3-55	Preußischen	ADJA	preußisch	_	O	O	
+3-56	Unterrichtsminister	NN	Unterrichtsminister	_	O	O	
+3-57	gleichfalls	ADV	gleichfalls	_	O	O	
+3-58	im	APPRART	in	_	O	O	
+3-59	Einverständnis	NN	Einverständnis	_	O	O	
+3-60	mit	APPR	mit	_	O	O	
+3-61	dem	ART	die	_	O	O	
+3-62	Finanzminister	NN	Finanzminister	_	O	O	
+3-63	anheimgegeben	VVPP	anheimgeben	_	O	O	
+3-64	worden	VAPP	werden	_	O	O	
+3-65	sei	VAFIN	sein	_	O	O	
+3-66	,	$,	,	_	O	O	
+3-67	auch	ADV	auch	_	O	O	
+3-68	dahin	PAV	dahin	_	O	O	
+3-69	zielende	ADJA	zielend	_	O	O	
+3-70	Anträge	NN	Antrag	_	O	O	
+3-71	im	APPRART	in	_	O	O	
+3-72	Reichsrathe	NN	<unknown>	_	O	O	
+3-73	bevorstünden	VVFIN	bevorstehen	_	O	O	
+3-74	.	$.	.	_	O	O	
+
+#id=4
+#text=Damit sei vom Reiche der bisherige Preußische J-ahresbei trag und eine einmalige Ausgabe für den Neubau zu übernehmen, dessen Nothwendigkeit motivirt wird.
+4-1	Damit	PAV	damit	_	O	O	
+4-2	sei	VAFIN	sein	_	O	O	
+4-3	vom	APPRART	von	_	O	O	
+4-4	Reiche	NN	Reich|Reiche	_	O	O	
+4-5	der	ART	die	_	O	O	
+4-6	bisherige	ADJA	bisherig	_	O	O	
+4-7	Preußische	ADJA	preußisch	_	O	O	
+4-8	J-ahresbei	NN	<unknown>	_	O	O	
+4-9	trag	VVIMP	tragen	_	O	O	
+4-10	und	KON	und	_	O	O	
+4-11	eine	ART	eine	_	O	O	
+4-12	einmalige	ADJA	einmalig	_	O	O	
+4-13	Ausgabe	NN	Ausgabe	_	O	O	
+4-14	für	APPR	für	_	O	O	
+4-15	den	ART	die	_	O	O	
+4-16	Neubau	NN	Neubau	_	O	O	
+4-17	zu	PTKZU	zu	_	O	O	
+4-18	übernehmen	VVINF	übernehmen	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	dessen	PRELAT	die	_	O	O	
+4-21	Nothwendigkeit	NN	<unknown>	_	O	O	
+4-22	motivirt	NN	<unknown>	_	O	O	
+4-23	wird	VAFIN	werden	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=Nun wird also die Sache im Prinzip ohne Zweifel durchgehen.
+5-1	Nun	ADV	nun	_	O	O	
+5-2	wird	VAFIN	werden	_	O	O	
+5-3	also	ADV	also	_	O	O	
+5-4	die	ART	die	_	O	O	
+5-5	Sache	NN	Sache	_	O	O	
+5-6	im	APPRART	in	_	O	O	
+5-7	Prinzip	NN	Prinzip	_	O	O	
+5-8	ohne	APPR	ohne	_	O	O	
+5-9	Zweifel	NN	Zweifel	_	O	O	
+5-10	durchgehen	VVINF	durchgehen	_	O	O	
+5-11	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Aufforderung ist gestern von Bismark unterschrieben worden und wenn Alles gut geht, so wird auch möglicher Weise das Geld noch bei Zeiten geschafft werden.
+6-1	Die	ART	die	_	O	O	
+6-2	Aufforderung	NN	Aufforderung	_	O	O	
+6-3	ist	VAFIN	sein	_	O	O	
+6-4	gestern	ADV	gestern	_	O	O	
+6-5	von	APPR	von	_	O	O	
+6-6	Bismark	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-7	unterschrieben	VVPP	unterschreiben	_	O	O	
+6-8	worden	VAPP	werden	_	O	O	
+6-9	und	KON	und	_	O	O	
+6-10	wenn	KOUS	wenn	_	O	O	
+6-11	Alles	PIS	alle	_	O	O	
+6-12	gut	ADJD	gut	_	O	O	
+6-13	geht	VVFIN	gehen	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	so	ADV	so	_	O	O	
+6-16	wird	VAFIN	werden	_	O	O	
+6-17	auch	ADV	auch	_	O	O	
+6-18	möglicher	ADJA	möglich	_	O	O	
+6-19	Weise	NN	Weise	_	O	O	
+6-20	das	ART	die	_	O	O	
+6-21	Geld	NN	Geld	_	O	O	
+6-22	noch	ADV	noch	_	O	O	
+6-23	bei	APPR	bei	_	O	O	
+6-24	Zeiten	NN	Zeit	_	O	O	
+6-25	geschafft	VVPP	schaffen	_	O	O	
+6-26	werden	VAINF	werden	_	O	O	
+6-27	.	$.	.	_	O	O	
+
+#id=7
+#text=Hier steht also die Sache gut.
+7-1	Hier	ADV	hier	_	O	O	
+7-2	steht	VVFIN	stehen	_	O	O	
+7-3	also	ADV	also	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	Sache	NN	Sache	_	O	O	
+7-6	gut	ADJD	gut	_	O	O	
+7-7	.	$.	.	_	O	O	
+
+#id=8
+#text=Was aber die hier gleichzeitig eintreffende einsendung Laspeyre's ba~w.ekt, ist uns nicht erfindlich.
+8-1	Was	PWS	was	_	O	O	
+8-2	aber	ADV	aber	_	O	O	
+8-3	die	PRELS	die	_	O	O	
+8-4	hier	ADV	hier	_	O	O	
+8-5	gleichzeitig	ADJD	gleichzeitig	_	O	O	
+8-6	eintreffende	ADJA	eintreffend	_	O	O	
+8-7	einsendung	NN	Einsendung	_	O	O	
+8-8	Laspeyre's	NE	<unknown>	_	O	O	
+8-9	ba~w.ekt	ADJD	<unknown>	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	ist	VAFIN	sein	_	O	O	
+8-12	uns	PPER	wir	_	O	O	
+8-13	nicht	PTKNEG	nicht	_	O	O	
+8-14	erfindlich	ADJD	<unknown>	_	O	O	
+8-15	.	$.	.	_	O	O	
+

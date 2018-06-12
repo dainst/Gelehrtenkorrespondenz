@@ -1,0 +1,198 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=f 60 Mein theurer Freund.
+1-1	f	ADJA	<unknown>	_	O	O	
+1-2	60	CARD	60	_	O	O	
+1-3	Mein	PPOSAT	mein	_	O	O	
+1-4	theurer	ADJA	<unknown>	_	O	O	
+1-5	Freund	NN	Freund	_	O	O	
+1-6	.	$.	.	_	O	O	
+
+#id=2
+#text=Gerhard an Braun Berlin, 21. Januar 1844 g. 6/11 44 r. 6/11 44 Berlin 21 Jan 44 Endlich hat Brockhaus die Monumenti- und Annalihefte hier vertheilt; Ihr Bericht ist gleichzeitig ans Ministerium abgegangen mit dem Vorbehalt auf dessen Inhalt Seitens der Direktion zurückzukommen und desgleichen habe ich die an den König ergangne Exemplarsendung mit einem gedrängten Bericht über Ihre und des Instituts Thaten abgehen lassen.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	g.	VVFIN	<unknown>	_	O	O	
+2-11	6/11	CARD	@card@	_	O	O	
+2-12	44	CARD	44	_	O	O	
+2-13	r.	ADJA	<unknown>	_	O	O	
+2-14	6/11	CARD	@card@	_	O	O	
+2-15	44	CARD	44	_	O	O	
+2-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-17	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-18	Jan	NE	Jan	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-19	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-20	Endlich	ADV	endlich	_	O	O	
+2-21	hat	VAFIN	haben	_	O	O	
+2-22	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-23	die	ART	die	_	O	O	
+2-24	Monumenti-	TRUNC	<unknown>	_	O	O	
+2-25	und	KON	und	_	O	O	
+2-26	Annalihefte	NN	<unknown>	_	O	O	
+2-27	hier	ADV	hier	_	O	O	
+2-28	vertheilt	ADJD	<unknown>	_	O	O	
+2-29	;	$.	;	_	O	O	
+2-30	Ihr	PPOSAT	ihr	_	O	O	
+2-31	Bericht	NN	Bericht	_	O	O	
+2-32	ist	VAFIN	sein	_	O	O	
+2-33	gleichzeitig	ADJD	gleichzeitig	_	O	O	
+2-34	ans	APPRART	ans	_	O	O	
+2-35	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-36	abgegangen	VVPP	abgehen	_	O	O	
+2-37	mit	APPR	mit	_	O	O	
+2-38	dem	ART	die	_	O	O	
+2-39	Vorbehalt	NN	Vorbehalt	_	O	O	
+2-40	auf	APPR	auf	_	O	O	
+2-41	dessen	PDAT	die	_	O	O	
+2-42	Inhalt	NN	Inhalt	_	O	O	
+2-43	Seitens	NN	<unknown>	_	O	O	
+2-44	der	ART	die	_	O	O	
+2-45	Direktion	NN	Direktion	_	O	O	
+2-46	zurückzukommen	VVIZU	zurückkommen	_	O	O	
+2-47	und	KON	und	_	O	O	
+2-48	desgleichen	ADV	desgleichen	_	O	O	
+2-49	habe	VAFIN	haben	_	O	O	
+2-50	ich	PPER	ich	_	O	O	
+2-51	die	ART	die	_	O	O	
+2-52	an	APPR	an	_	O	O	
+2-53	den	ART	die	_	O	O	
+2-54	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-55	ergangne	ADJA	<unknown>	_	O	O	
+2-56	Exemplarsendung	NN	<unknown>	_	O	O	
+2-57	mit	APPR	mit	_	O	O	
+2-58	einem	ART	eine	_	O	O	
+2-59	gedrängten	ADJA	gedrängt	_	O	O	
+2-60	Bericht	NN	Bericht	_	O	O	
+2-61	über	APPR	über	_	O	O	
+2-62	Ihre	PPOSAT	ihr	_	O	O	
+2-63	und	KON	und	_	O	O	
+2-64	des	ART	die	_	O	O	
+2-65	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-66	Thaten	NN	<unknown>	_	O	O	
+2-67	abgehen	VVINF	abgehen	_	O	O	
+2-68	lassen	VVINF	lassen	_	O	O	
+2-69	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich will nun suchen weitere Hülfe durch Bunsen, den einzigen dafür praktischen Mittelsmann, zu veranlassen; vielleicht geht er auf Ihren Vorschlag ein für eine Schul aus gabe der Monumenti des Instituts,Unterstützung zu suchen.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	will	VMFIN	wollen	_	O	O	
+4-3	nun	ADV	nun	_	O	O	
+4-4	suchen	VVFIN	suchen	_	O	O	
+4-5	weitere	ADJA	weit	_	O	O	
+4-6	Hülfe	NN	<unknown>	_	O	O	
+4-7	durch	APPR	durch	_	O	O	
+4-8	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-9	,	$,	,	_	O	O	
+4-10	den	ART	die	_	O	O	
+4-11	einzigen	ADJA	einzig	_	O	O	
+4-12	dafür	PAV	dafür	_	O	O	
+4-13	praktischen	ADJA	praktisch	_	O	O	
+4-14	Mittelsmann	NE	Mittelsmann	_	O	O	
+4-15	,	$,	,	_	O	O	
+4-16	zu	PTKZU	zu	_	O	O	
+4-17	veranlassen	VVINF	veranlassen	_	O	O	
+4-18	;	$.	;	_	O	O	
+4-19	vielleicht	ADV	vielleicht	_	O	O	
+4-20	geht	VVFIN	gehen	_	O	O	
+4-21	er	PPER	er	_	O	O	
+4-22	auf	APPR	auf	_	O	O	
+4-23	Ihren	PPOSAT	ihr	_	O	O	
+4-24	Vorschlag	NN	Vorschlag	_	O	O	
+4-25	ein	ART	eine	_	O	O	
+4-26	für	APPR	für	_	O	O	
+4-27	eine	ART	eine	_	O	O	
+4-28	Schul	NE	<unknown>	_	O	O	
+4-29	aus	APPR	aus	_	O	O	
+4-30	gabe	NN	Gabe	_	O	O	
+4-31	der	ART	die	_	O	O	
+4-32	Monumenti	NN	<unknown>	_	O	O	
+4-33	des	ART	die	_	O	O	
+4-34	Instituts,Unterstützung	NN	<unknown>	_	O	O	
+4-35	zu	PTKZU	zu	_	O	O	
+4-36	suchen	VVINF	suchen	_	O	O	
+4-37	.	$.	.	_	O	O	
+
+#id=5
+#text=Am ersten würde es mit Exemplaren gehen; nimmt der König 30 Exemplare a 25 rt so hätten wir 500 Scudi und eine Quelle künftiger Einnahme obenein.
+5-1	Am	APPRART	an	_	O	O	
+5-2	ersten	ADJA	erst	_	O	O	
+5-3	würde	VAFIN	werden	_	O	O	
+5-4	es	PPER	es	_	O	O	
+5-5	mit	APPR	mit	_	O	O	
+5-6	Exemplaren	NN	Exemplar	_	O	O	
+5-7	gehen	VVINF	gehen	_	O	O	
+5-8	;	$.	;	_	O	O	
+5-9	nimmt	VVFIN	nehmen	_	O	O	
+5-10	der	ART	die	_	O	O	
+5-11	König	NE	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-12	30	CARD	30	_	O	O	
+5-13	Exemplare	NN	Exemplar	_	O	O	
+5-14	a	FM	a	_	O	O	
+5-15	25	CARD	25	_	O	O	
+5-16	rt	VVFIN	<unknown>	_	O	O	
+5-17	so	ADV	so	_	O	O	
+5-18	hätten	VAFIN	haben	_	O	O	
+5-19	wir	PPER	wir	_	O	O	
+5-20	500	CARD	500	_	O	O	
+5-21	Scudi	NN	<unknown>	_	O	O	
+5-22	und	KON	und	_	O	O	
+5-23	eine	ART	eine	_	O	O	
+5-24	Quelle	NN	Quelle	_	O	O	
+5-25	künftiger	ADJA	künftig	_	O	O	
+5-26	Einnahme	NN	Einnahme	_	O	O	
+5-27	obenein	NN	<unknown>	_	O	O	
+5-28	.	$.	.	_	O	O	
+
+#id=6
+#text=Vielleicht ließe sich bis auf 20 rt Nettopreis für die Associati kommen.
+6-1	Vielleicht	ADV	vielleicht	_	O	O	
+6-2	ließe	VVFIN	lassen	_	O	O	
+6-3	sich	PRF	sich	_	O	O	
+6-4	bis	APPR	bis	_	O	O	
+6-5	auf	APPR	auf	_	O	O	
+6-6	20	CARD	20	_	O	O	
+6-7	rt	ADJA	<unknown>	_	O	O	
+6-8	Nettopreis	NN	Nettopreis	_	O	O	
+6-9	für	APPR	für	_	O	O	
+6-10	die	ART	die	_	O	O	
+6-11	Associati	NN	<unknown>	_	O	O	
+6-12	kommen	VVINF	kommen	_	O	O	
+6-13	.	$.	.	_	O	O	
+
+#id=7
+#text=De Witte schreibt, seine Privatmeinung über meine an Luynes gegangenen Vorschläge halte er lieber zurück bis das Comite gesessen habe; diese Äußerung läßt mich
+7-1	De	NE	De	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	Witte	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-3	schreibt	VVFIN	schreiben	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	seine	PPOSAT	sein	_	O	O	
+7-6	Privatmeinung	NN	Privatmeinung	_	O	O	
+7-7	über	APPR	über	_	O	O	
+7-8	meine	PPOSAT	mein	_	O	O	
+7-9	an	APPR	an	_	O	O	
+7-10	Luynes	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-11	gegangenen	ADJA	gegangen	_	O	O	
+7-12	Vorschläge	NN	Vorschlag	_	O	O	
+7-13	halte	VVFIN	halten	_	O	O	
+7-14	er	PPER	er	_	O	O	
+7-15	lieber	ADJD	lieb	_	O	O	
+7-16	zurück	PTKVZ	zurück	_	O	O	
+7-17	bis	KON	bis	_	O	O	
+7-18	das	ART	die	_	O	O	
+7-19	Comite	NN	<unknown>	_	O	O	
+7-20	gesessen	VVPP	sitzen	_	O	O	
+7-21	habe	VAFIN	haben	_	O	O	
+7-22	;	$.	;	_	O	O	
+7-23	diese	PDAT	dies	_	O	O	
+7-24	Äußerung	NN	Äußerung	_	O	O	
+7-25	läßt	VVFIN	lassen	_	O	O	
+7-26	mich	PRF	ich	_	O	O	
+

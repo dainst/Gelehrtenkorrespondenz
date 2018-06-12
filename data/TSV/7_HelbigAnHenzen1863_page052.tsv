@@ -1,0 +1,236 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=101 H Geehrteste Herrn !
+1-1	101	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Geehrteste	ADJA	<unknown>	_	O	O	
+1-4	Herrn	NN	Herr	_	O	O	
+1-5	!	$.	!	_	O	O	
+
+#id=2
+#text=Helbig an das Institut Paris, 10. März 1865 g. 15/3 65 Paris 10. März 1865 Soeben habe ich Ihre Depesche erhalten, die ja ganz erfreulich klingt, wiewohl ich mich, durch frühere Erfahrungen gewitzigt, eines gewissen Mißtrauens nicht entschlagen kann.
+2-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	das	ART	die	_	O	O	
+2-4	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-5	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-6	,	$,	,	_	O	O	
+2-7	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	1865	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	g.	VVFIN	<unknown>	_	O	O	
+2-12	15/3	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-13	65	CARD	65	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-14	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-15	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-16	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-17	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-18	1865	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-19	Soeben	NE	<unknown>	_	O	O	
+2-20	habe	VAFIN	haben	_	O	O	
+2-21	ich	PPER	ich	_	O	O	
+2-22	Ihre	PPOSAT	ihr	_	O	O	
+2-23	Depesche	NN	Depesche	_	O	O	
+2-24	erhalten	VVPP	erhalten	_	O	O	
+2-25	,	$,	,	_	O	O	
+2-26	die	PRELS	die	_	O	O	
+2-27	ja	ADV	ja	_	O	O	
+2-28	ganz	ADV	ganz	_	O	O	
+2-29	erfreulich	ADJD	erfreulich	_	O	O	
+2-30	klingt	VVFIN	klingen	_	O	O	
+2-31	,	$,	,	_	O	O	
+2-32	wiewohl	KOUS	wiewohl	_	O	O	
+2-33	ich	PPER	ich	_	O	O	
+2-34	mich	PPER	ich	_	O	O	
+2-35	,	$,	,	_	O	O	
+2-36	durch	APPR	durch	_	O	O	
+2-37	frühere	ADJA	früh	_	O	O	
+2-38	Erfahrungen	NN	Erfahrung	_	O	O	
+2-39	gewitzigt	VVPP	<unknown>	_	O	O	
+2-40	,	$,	,	_	O	O	
+2-41	eines	ART	eine	_	O	O	
+2-42	gewissen	ADJA	gewiss	_	O	O	
+2-43	Mißtrauens	NN	Misstrauen	_	O	O	
+2-44	nicht	PTKNEG	nicht	_	O	O	
+2-45	entschlagen	VVINF	<unknown>	_	O	O	
+2-46	kann	VMFIN	können	_	O	O	
+2-47	.	$.	.	_	O	O	
+
+#id=3
+#text=Meinen herzlichen Dank für Ihre Bemühungen in dieser Angelegenheit.
+3-1	Meinen	PPOSAT	mein	_	O	O	
+3-2	herzlichen	ADJA	herzlich	_	O	O	
+3-3	Dank	NN	Dank	_	O	O	
+3-4	für	APPR	für	_	O	O	
+3-5	Ihre	PPOSAT	ihr	_	O	O	
+3-6	Bemühungen	NN	Bemühung	_	O	O	
+3-7	in	APPR	in	_	O	O	
+3-8	dieser	PDAT	dies	_	O	O	
+3-9	Angelegenheit	NN	Angelegenheit	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Dem morgen abgehenden Courier, welcher diesen Brief überbringt, habe ich folgende Gegenstände mitgegeben, welche ich im betreffenden Falle von der Gesandtschaft in Rom zu reclamiren bitte : Für Frau Professor Brunn: Grimms Märchen.
+4-1	Dem	ART	die	_	O	O	
+4-2	morgen	ADV	morgen	_	O	O	
+4-3	abgehenden	ADJA	abgehend	_	O	O	
+4-4	Courier	NN	<unknown>	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	welcher	PWS	welche	_	O	O	
+4-7	diesen	PDAT	dies	_	O	O	
+4-8	Brief	NN	Brief	_	O	O	
+4-9	überbringt	VVFIN	überbringen	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	habe	VAFIN	haben	_	O	O	
+4-12	ich	PPER	ich	_	O	O	
+4-13	folgende	ADJA	folgend	_	O	O	
+4-14	Gegenstände	NN	Gegenstand	_	O	O	
+4-15	mitgegeben	VVPP	mitgeben	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	welche	PRELS	welche	_	O	O	
+4-18	ich	PPER	ich	_	O	O	
+4-19	im	APPRART	in	_	O	O	
+4-20	betreffenden	ADJA	betreffend	_	O	O	
+4-21	Falle	NN	Falle	_	O	O	
+4-22	von	APPR	von	_	O	O	
+4-23	der	ART	die	_	O	O	
+4-24	Gesandtschaft	NN	Gesandtschaft	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-25	in	APPR	in	_	O	O	
+4-26	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-27	zu	APPR	zu	_	O	O	
+4-28	reclamiren	NN	<unknown>	_	O	O	
+4-29	bitte	VVFIN	bitten	_	O	O	
+4-30	:	$.	:	_	O	O	
+4-31	Für	APPR	für	_	O	O	
+4-32	Frau	NN	Frau	_	O	O	
+4-33	Professor	NN	Professor	_	O	O	
+4-34	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-35	:	$.	:	_	O	O	
+4-36	Grimms	NE	Grimm	_	O	O	
+4-37	Märchen	NN	Märchen	_	O	O	
+4-38	.	$.	.	_	O	O	
+
+#id=5
+#text=Für Herrn Professor Henzen Das Kohnsche Buch.
+5-1	Für	APPR	für	_	O	O	
+5-2	Herrn	NN	Herr	_	O	O	
+5-3	Professor	NN	Professor	_	O	O	
+5-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	Das	ART	die	_	O	O	
+5-6	Kohnsche	NN	<unknown>	_	O	O	
+5-7	Buch	NN	Buch	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Für das Institut: Monumenti 1843.
+6-1	Für	APPR	für	_	O	O	
+6-2	das	ART	die	_	O	O	
+6-3	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-4	:	$.	:	_	O	O	
+6-5	Monumenti	NN	<unknown>	_	O	O	
+6-6	1843	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=Frau Duprat bittet tausendmal um Entschuldigung wegen der d~h den Tod ihres Mannes dem Institut verursachten Con/fusionen und ist bereit, das de Wittesche Paket, welches sich nicht vorfindet, zu ersetzen.
+7-1	Frau	NN	Frau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	Duprat	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-3	bittet	VVFIN	bitten	_	O	O	
+7-4	tausendmal	ADV	tausendmal	_	O	O	
+7-5	um	APPR	um	_	O	O	
+7-6	Entschuldigung	NN	Entschuldigung	_	O	O	
+7-7	wegen	APPR	wegen	_	O	O	
+7-8	der	ART	die	_	O	O	
+7-9	d~h	NN	<unknown>	_	O	O	
+7-10	den	ART	die	_	O	O	
+7-11	Tod	NN	Tod	_	O	O	
+7-12	ihres	PPOSAT	ihr	_	O	O	
+7-13	Mannes	NN	Mann	_	O	O	
+7-14	dem	ART	die	_	O	O	
+7-15	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-16	verursachten	ADJA	verursacht	_	O	O	
+7-17	Con/fusionen	NN	<unknown>	_	O	O	
+7-18	und	KON	und	_	O	O	
+7-19	ist	VAFIN	sein	_	O	O	
+7-20	bereit	ADJD	bereit	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	das	PRELS	die	_	O	O	
+7-23	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-24	Wittesche	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-25	Paket	NN	Paket	_	O	O	
+7-26	,	$,	,	_	O	O	
+7-27	welches	PRELS	welche	_	O	O	
+7-28	sich	PRF	sich	_	O	O	
+7-29	nicht	PTKNEG	nicht	_	O	O	
+7-30	vorfindet	VVFIN	vorfinden	_	O	O	
+7-31	,	$,	,	_	O	O	
+7-32	zu	PTKZU	zu	_	O	O	
+7-33	ersetzen	VVINF	ersetzen	_	O	O	
+7-34	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich muß de Witte fragen, welches die betreffenden Hefte waren.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	muß	VMFIN	müssen	_	O	O	
+8-3	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-4	Witte	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-5	fragen	VVINF	fragen	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	welches	PWAT	welche	_	O	O	
+8-8	die	ART	die	_	O	O	
+8-9	betreffenden	ADJA	betreffend	_	O	O	
+8-10	Hefte	NN	Heft	_	O	O	
+8-11	waren	VAFIN	sein	_	O	O	
+8-12	.	$.	.	_	O	O	
+
+#id=9
+#text=Texier ist gestorben.
+9-1	Texier	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	gestorben	VVPP	sterben	_	O	O	
+9-4	.	$.	.	_	O	O	
+
+#id=10
+#text=Der Clarac ist übergegangen in den Besitz von Mr. Le Borgne (Ministere d'~tat; rue de Rivoli ) • Da ich nicht genau weiß, welche Hefte fehlen, kann ich in dieser Angelegenheit nichts thun, es sei
+10-1	Der	ART	die	_	O	O	
+10-2	Clarac	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-3	ist	VAFIN	sein	_	O	O	
+10-4	übergegangen	VVPP	übergehen	_	O	O	
+10-5	in	APPR	in	_	O	O	
+10-6	den	ART	die	_	O	O	
+10-7	Besitz	NN	Besitz	_	O	O	
+10-8	von	APPR	von	_	O	O	
+10-9	Mr.	NN	Mr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-10	Le	NE	Le	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-11	Borgne	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-12	(	$(	(	_	O	O	
+10-13	Ministere	NN	<unknown>	_	O	O	
+10-14	d'~tat	NN	<unknown>	_	O	O	
+10-15	;	$.	;	_	O	O	
+10-16	rue	NE	<unknown>	_	O	O	
+10-17	de	NE	de	_	O	O	
+10-18	Rivoli	NE	<unknown>	_	O	O	
+10-19	)	$(	)	_	O	O	
+10-20	•	NN	<unknown>	_	O	O	
+10-21	Da	ADV	da	_	O	O	
+10-22	ich	PPER	ich	_	O	O	
+10-23	nicht	PTKNEG	nicht	_	O	O	
+10-24	genau	ADJD	genau	_	O	O	
+10-25	weiß	VVFIN	wissen	_	O	O	
+10-26	,	$,	,	_	O	O	
+10-27	welche	PRELS	welche	_	O	O	
+10-28	Hefte	NN	Heft	_	O	O	
+10-29	fehlen	VVFIN	fehlen	_	O	O	
+10-30	,	$,	,	_	O	O	
+10-31	kann	VMFIN	können	_	O	O	
+10-32	ich	PPER	ich	_	O	O	
+10-33	in	APPR	in	_	O	O	
+10-34	dieser	PDAT	dies	_	O	O	
+10-35	Angelegenheit	NN	Angelegenheit	_	O	O	
+10-36	nichts	PIAT	nichts	_	O	O	
+10-37	thun	NN	<unknown>	_	O	O	
+10-38	,	$,	,	_	O	O	
+10-39	es	PPER	es	_	O	O	
+10-40	sei	VAFIN	sein	_	O	O	
+

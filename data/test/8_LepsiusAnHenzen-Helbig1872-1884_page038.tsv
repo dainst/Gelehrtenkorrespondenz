@@ -1,0 +1,248 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=326 L Verehrtester Freund Lepsius an Henzen Berlin, 28. Mai 1872 g. 1/6 72 r.
+1-1	326	CARD	@card@	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Verehrtester	NN	<unknown>	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	1/6	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=3/6 72 Berlin den 28. Mai 1872.
+2-1	3/6	CARD	3/6	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-2	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	den	ART	die	_	O	O	
+2-5	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich erhalte soeben Ihren Brief vom 25., nach Absendung des meinigen an Helbig, und eile Ihnen zu danken ~ für die Art und Weise, wie Sie meinen mehr Klage- als Anklagebrief aufgenommen haben.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	erhalte	VVFIN	erhalten	_	O	O	
+3-3	soeben	ADV	soeben	_	O	O	
+3-4	Ihren	PPOSAT	ihr	_	O	O	
+3-5	Brief	NN	Brief	_	O	O	
+3-6	vom	APPRART	von	_	O	O	
+3-7	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-9	,	$,	,	_	O	O	
+3-10	nach	APPR	nach	_	O	O	
+3-11	Absendung	NN	Absendung	_	O	O	
+3-12	des	ART	die	_	O	O	
+3-13	meinigen	PPOSS	meinig	_	O	O	
+3-14	an	APZR	an	_	O	O	
+3-15	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-16	,	$,	,	_	O	O	
+3-17	und	KON	und	_	O	O	
+3-18	eile	VVFIN	eilen	_	O	O	
+3-19	Ihnen	PPER	Sie	_	O	O	
+3-20	zu	PTKZU	zu	_	O	O	
+3-21	danken	VVINF	danken	_	O	O	
+3-22	~	XY	~	_	O	O	
+3-23	für	APPR	für	_	O	O	
+3-24	die	ART	die	_	O	O	
+3-25	Art	NN	Art	_	O	O	
+3-26	und	KON	und	_	O	O	
+3-27	Weise	NN	Weise	_	O	O	
+3-28	,	$,	,	_	O	O	
+3-29	wie	KOUS	wie	_	O	O	
+3-30	Sie	PPER	Sie	_	O	O	
+3-31	meinen	VVFIN	meinen	_	O	O	
+3-32	mehr	PIAT	mehr	_	O	O	
+3-33	Klage-	TRUNC	Klage-	_	O	O	
+3-34	als	KON	als	_	O	O	
+3-35	Anklagebrief	NN	<unknown>	_	O	O	
+3-36	aufgenommen	VVPP	aufnehmen	_	O	O	
+3-37	haben	VAINF	haben	_	O	O	
+3-38	.	$.	.	_	O	O	
+
+#id=4
+#text=Es hätte mir in der That herzlich leid gethan, wenn unser altes gegenseitiges Vertrauen durch reine Mißverständnisse, wie sie sich nun herausstellen, getrübt worden wäre; und doch schwebte eine solche Wolke über unsrer Korrespondenz der letzten Zeit, ohne daß ich mir ihren Grund erklären konnte.
+4-1	Es	PPER	es	_	O	O	
+4-2	hätte	VAFIN	haben	_	O	O	
+4-3	mir	PPER	ich	_	O	O	
+4-4	in	APPR	in	_	O	O	
+4-5	der	ART	die	_	O	O	
+4-6	That	NE	<unknown>	_	O	O	
+4-7	herzlich	ADJD	herzlich	_	O	O	
+4-8	leid	ADJD	leid	_	O	O	
+4-9	gethan	NN	<unknown>	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	wenn	KOUS	wenn	_	O	O	
+4-12	unser	PPOSAT	unser	_	O	O	
+4-13	altes	ADJA	alt	_	O	O	
+4-14	gegenseitiges	ADJA	gegenseitig	_	O	O	
+4-15	Vertrauen	NN	Vertrauen	_	O	O	
+4-16	durch	APPR	durch	_	O	O	
+4-17	reine	ADJA	rein	_	O	O	
+4-18	Mißverständnisse	NN	Missverständnis	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	wie	KOUS	wie	_	O	O	
+4-21	sie	PPER	sie	_	O	O	
+4-22	sich	PRF	sich	_	O	O	
+4-23	nun	ADV	nun	_	O	O	
+4-24	herausstellen	VVFIN	herausstellen	_	O	O	
+4-25	,	$,	,	_	O	O	
+4-26	getrübt	VVPP	trüben	_	O	O	
+4-27	worden	VAPP	werden	_	O	O	
+4-28	wäre	VAFIN	sein	_	O	O	
+4-29	;	$.	;	_	O	O	
+4-30	und	KON	und	_	O	O	
+4-31	doch	ADV	doch	_	O	O	
+4-32	schwebte	VVFIN	schweben	_	O	O	
+4-33	eine	ART	eine	_	O	O	
+4-34	solche	PIAT	solche	_	O	O	
+4-35	Wolke	NN	Wolke	_	O	O	
+4-36	über	APPR	über	_	O	O	
+4-37	unsrer	PPOSAT	unser	_	O	O	
+4-38	Korrespondenz	NN	Korrespondenz	_	O	O	
+4-39	der	ART	die	_	O	O	
+4-40	letzten	ADJA	letzt	_	O	O	
+4-41	Zeit	NN	Zeit	_	O	O	
+4-42	,	$,	,	_	O	O	
+4-43	ohne	APPR	ohne	_	O	O	
+4-44	daß	KOUS	dass	_	O	O	
+4-45	ich	PPER	ich	_	O	O	
+4-46	mir	PRF	ich	_	O	O	
+4-47	ihren	PPOSAT	ihr	_	O	O	
+4-48	Grund	NN	Grund	_	O	O	
+4-49	erklären	VVINF	erklären	_	O	O	
+4-50	konnte	VMFIN	können	_	O	O	
+4-51	.	$.	.	_	O	O	
+
+#id=5
+#text=Es ist nun hiermit Alles abgethan, und möge so für immer bleiben.
+5-1	Es	PPER	es	_	O	O	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	nun	ADV	nun	_	O	O	
+5-4	hiermit	PAV	hiermit	_	O	O	
+5-5	Alles	PIS	alle	_	O	O	
+5-6	abgethan	VVPP	<unknown>	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	und	KON	und	_	O	O	
+5-9	möge	VMFIN	mögen	_	O	O	
+5-10	so	ADV	so	_	O	O	
+5-11	für	APPR	für	_	O	O	
+5-12	immer	ADV	immer	_	O	O	
+5-13	bleiben	VVINF	bleiben	_	O	O	
+5-14	.	$.	.	_	O	O	
+
+#id=6
+#text=Laspeyres ist in der ~at hier angekommen, aber krank.
+6-1	Laspeyres	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	in	APPR	in	_	O	O	
+6-4	der	ART	die	_	O	O	
+6-5	~at	NN	<unknown>	_	O	O	
+6-6	hier	ADV	hier	_	O	O	
+6-7	angekommen	VVPP	ankommen	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	aber	ADV	aber	_	O	O	
+6-10	krank	ADJD	krank	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Er hat sich schriftlich bei Mommsen gemeldet, zugleich aber zugefügt, daß er vorläufig niemanden sehen könne; er werde es anzeigen, sobald er wieder wohl sei.
+7-1	Er	PPER	er	_	O	O	
+7-2	hat	VAFIN	haben	_	O	O	
+7-3	sich	PRF	sich	_	O	O	
+7-4	schriftlich	ADJD	schriftlich	_	O	O	
+7-5	bei	APPR	bei	_	O	O	
+7-6	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-7	gemeldet	VVPP	melden	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	zugleich	ADV	zugleich	_	O	O	
+7-10	aber	ADV	aber	_	O	O	
+7-11	zugefügt	VVPP	zufügen	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	daß	KOUS	dass	_	O	O	
+7-14	er	PPER	er	_	O	O	
+7-15	vorläufig	ADJD	vorläufig	_	O	O	
+7-16	niemanden	PIS	niemand	_	O	O	
+7-17	sehen	VVINF	sehen	_	O	O	
+7-18	könne	VMFIN	können	_	O	O	
+7-19	;	$.	;	_	O	O	
+7-20	er	PPER	er	_	O	O	
+7-21	werde	VAFIN	werden	_	O	O	
+7-22	es	PPER	es	_	O	O	
+7-23	anzeigen	VVINF	anzeigen	_	O	O	
+7-24	,	$,	,	_	O	O	
+7-25	sobald	KOUS	sobald	_	O	O	
+7-26	er	PPER	er	_	O	O	
+7-27	wieder	ADV	wieder	_	O	O	
+7-28	wohl	ADV	wohl	_	O	O	
+7-29	sei	VAFIN	sein	_	O	O	
+7-30	.	$.	.	_	O	O	
+
+#id=8
+#text=Jetzt ist uns die e~stliche Krankheit Abeken's nicht nur sehr betrübt um seinetwillen, sondern auch recht hinderlich in der Krise, in der wir mit den Römischen Angelegenheiten stehen.
+8-1	Jetzt	ADV	jetzt	_	O	O	
+8-2	ist	VAFIN	sein	_	O	O	
+8-3	uns	PPER	wir	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	e~stliche	ADJA	<unknown>	_	O	O	
+8-6	Krankheit	NN	Krankheit	_	O	O	
+8-7	Abeken's	VVFIN	<unknown>	_	O	O	
+8-8	nicht	PTKNEG	nicht	_	O	O	
+8-9	nur	ADV	nur	_	O	O	
+8-10	sehr	ADV	sehr	_	O	O	
+8-11	betrübt	VVFIN	betrüben	_	O	O	
+8-12	um	APPR	um	_	O	O	
+8-13	seinetwillen	ADV	seinetwillen	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	sondern	KON	sondern	_	O	O	
+8-16	auch	ADV	auch	_	O	O	
+8-17	recht	ADJD	recht	_	O	O	
+8-18	hinderlich	ADJD	hinderlich	_	O	O	
+8-19	in	APPR	in	_	O	O	
+8-20	der	ART	die	_	O	O	
+8-21	Krise	NN	Krise	_	O	O	
+8-22	,	$,	,	_	O	O	
+8-23	in	APPR	in	_	O	O	
+8-24	der	PRELS	die	_	O	O	
+8-25	wir	PPER	wir	_	O	O	
+8-26	mit	APPR	mit	_	O	O	
+8-27	den	ART	die	_	O	O	
+8-28	Römischen	ADJA	römisch	_	O	O	
+8-29	Angelegenheiten	NN	Angelegenheit	_	O	O	
+8-30	stehen	VVFIN	stehen	_	O	O	
+8-31	.	$.	.	_	O	O	
+
+#id=9
+#text=Es geht sehr langsam ein wenig besser.
+9-1	Es	PPER	es	_	O	O	
+9-2	geht	VVFIN	gehen	_	O	O	
+9-3	sehr	ADV	sehr	_	O	O	
+9-4	langsam	ADJD	langsam	_	O	O	
+9-5	ein	ART	eine	_	O	O	
+9-6	wenig	PIS	wenige	_	O	O	
+9-7	besser	ADJD	gut	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich erwähnte schon an tlelbig, daß das
+10-1	Ich	PPER	ich	_	O	O	
+10-2	erwähnte	VVFIN	erwähnen	_	O	O	
+10-3	schon	ADV	schon	_	O	O	
+10-4	an	APPR	an	_	O	O	
+10-5	tlelbig	ADJD	<unknown>	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	daß	KOUS	dass	_	O	O	
+10-8	das	ART	die	_	O	O	
+

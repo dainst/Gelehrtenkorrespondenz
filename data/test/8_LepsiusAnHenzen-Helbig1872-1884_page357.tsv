@@ -1,0 +1,128 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=524 L Mein verehrter Freund Lepsius an Helbig Berlin, 18. Juni 1882 Berlin d. 18. Juni 1882 Ich hatte bisher immer angenommen, die Sphinx trage das Schild Thutmes IV, wie es Ampere noch nannte.
+1-1	524	CARD	@card@	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Mein	PPOSAT	mein	_	O	O	
+1-4	verehrter	ADJA	verehrt	_	O	O	
+1-5	Freund	NE	Freund	_	O	O	
+1-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	an	APPR	an	_	O	O	
+1-8	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1882	CARD	1882	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-16	d.	ART	d.	_	O	O	
+1-17	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	1882	CARD	1882	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Ich	PPER	ich	_	O	O	
+1-22	hatte	VAFIN	haben	_	O	O	
+1-23	bisher	ADV	bisher	_	O	O	
+1-24	immer	ADV	immer	_	O	O	
+1-25	angenommen	VVPP	annehmen	_	O	O	
+1-26	,	$,	,	_	O	O	
+1-27	die	ART	die	_	O	O	
+1-28	Sphinx	NN	Sphinx	_	O	O	
+1-29	trage	VVFIN	tragen	_	O	O	
+1-30	das	ART	die	_	O	O	
+1-31	Schild	NN	Schild	_	O	O	
+1-32	Thutmes	NE	<unknown>	_	O	O	
+1-33	IV	NE	IV	_	O	O	
+1-34	,	$,	,	_	O	O	
+1-35	wie	KOUS	wie	_	O	O	
+1-36	es	PPER	es	_	O	O	
+1-37	Ampere	NN	Ampere	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-38	noch	ADV	noch	_	O	O	
+1-39	nannte	VVFIN	nennen	_	O	O	
+1-40	.	$.	.	_	O	O	
+
+#id=2
+#text=Heute, als ich mir die Inschrift zum zweitenmale ansehe, fehlen die Pluralstriche I t J unter dem Skarabäus.
+2-1	Heute	ADV	heute	_	O	O	
+2-2	,	$,	,	_	O	O	
+2-3	als	KOUS	als	_	O	O	
+2-4	ich	PPER	ich	_	O	O	
+2-5	mir	PPER	ich	_	O	O	
+2-6	die	ART	die	_	O	O	
+2-7	Inschrift	NN	Inschrift	_	O	O	
+2-8	zum	APPRART	zu	_	O	O	
+2-9	zweitenmale	ADJA	<unknown>	_	O	O	
+2-10	ansehe	VVFIN	ansehen	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	fehlen	VVFIN	fehlen	_	O	O	
+2-13	die	ART	die	_	O	O	
+2-14	Pluralstriche	NN	<unknown>	_	O	O	
+2-15	I	NN	I	_	O	O	
+2-16	t	NN	t	_	O	O	
+2-17	J	NN	J	_	O	O	
+2-18	unter	APPR	unter	_	O	O	
+2-19	dem	ART	die	_	O	O	
+2-20	Skarabäus	NN	<unknown>	_	O	O	
+2-21	.	$.	.	_	O	O	
+
+#id=3
+#text=Dadurch wird es Thutmes 111. und seine Frau heißt : Hat-schepest Mit Ra, nicht Aratj Dieser also gehören die Züge des Kopfes, die sehr lieblich sind.
+3-1	Dadurch	PAV	dadurch	_	O	O	
+3-2	wird	VAFIN	werden	_	O	O	
+3-3	es	PPER	es	_	O	O	
+3-4	Thutmes	NE	<unknown>	_	O	O	
+3-5	111	CARD	@card@	_	O	O	
+3-6	.	$.	.	_	O	O	
+3-7	und	KON	und	_	O	O	
+3-8	seine	PPOSAT	sein	_	O	O	
+3-9	Frau	NN	Frau	_	O	O	
+3-10	heißt	VVFIN	heißen	_	O	O	
+3-11	:	$.	:	_	O	O	
+3-12	Hat-schepest	NN	<unknown>	_	O	O	
+3-13	Mit	APPR	mit	_	O	O	
+3-14	Ra	NE	Ra	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	nicht	PTKNEG	nicht	_	O	O	
+3-17	Aratj	NE	<unknown>	_	O	O	
+3-18	Dieser	PDAT	dies	_	O	O	
+3-19	also	ADV	also	_	O	O	
+3-20	gehören	VVFIN	gehören	_	O	O	
+3-21	die	ART	die	_	O	O	
+3-22	Züge	NN	Zug	_	O	O	
+3-23	des	ART	die	_	O	O	
+3-24	Kopfes	NN	Kopf	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-25	,	$,	,	_	O	O	
+3-26	die	PRELS	die	_	O	O	
+3-27	sehr	ADV	sehr	_	O	O	
+3-28	lieblich	ADJD	lieblich	_	O	O	
+3-29	sind	VAFIN	sein	_	O	O	
+3-30	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich muß denselben sbaglio auch an Baron Baracco (den Duhn conte nennt) schreiben.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	muß	VMFIN	müssen	_	O	O	
+4-3	denselben	PDAT	derselb	_	O	O	
+4-4	sbaglio	NN	<unknown>	_	O	O	
+4-5	auch	ADV	auch	_	O	O	
+4-6	an	APPR	an	_	O	O	
+4-7	Baron	NN	Baron	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-8	Baracco	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-9	(	$(	(	_	O	O	
+4-10	den	ART	die	_	O	O	
+4-11	Duhn	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-12	conte	ADJD	<unknown>	_	O	O	
+4-13	nennt	VVFIN	nennen	_	O	O	
+4-14	)	$(	)	_	O	O	
+4-15	schreiben	VVINF	schreiben	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Ganz der Ihrige R Lepsius
+5-1	Ganz	ADV	ganz	_	O	O	
+5-2	der	ART	die	_	O	O	
+5-3	Ihrige	PPOSAT	ihrige	_	O	O	
+5-4	R	NN	R	_	O	O	
+5-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

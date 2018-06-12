@@ -1,0 +1,262 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=38 Lepsius an Henzen Berlin, 17. Februar 1873 L g. 21/2 73 Berlin d. 17. Febr.
+1-1	38	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	17	CARD	17	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	L	NN	L	_	O	O	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	21/2	CARD	21/2	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	73	CARD	73	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-16	d.	ART	d.	_	O	O	
+1-17	17	CARD	17	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	Febr.	NN	Febr.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1873.
+2-1	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=Verehrter Freund Vor kurzem ging mir eine Abrechnung von Ihrer Hand von L.
+3-1	Verehrter	ADJA	verehrt	_	O	O	
+3-2	Freund	NN	Freund	_	O	O	
+3-3	Vor	APPR	vor	_	O	O	
+3-4	kurzem	ADJA	kurz	_	O	O	
+3-5	ging	VVFIN	gehen	_	O	O	
+3-6	mir	PPER	ich	_	O	O	
+3-7	eine	ART	eine	_	O	O	
+3-8	Abrechnung	NN	Abrechnung	_	O	O	
+3-9	von	APPR	von	_	O	O	
+3-10	Ihrer	PPOSAT	ihr	_	O	O	
+3-11	Hand	NN	Hand	_	O	O	
+3-12	von	APPR	von	_	O	O	
+3-13	L.	NE	L.	_	O	O	
+
+#id=4
+#text=260,80 mit Beiliegen zu, nicht direkt aus Rom.
+4-1	260,80	CARD	@card@	_	O	O	
+4-2	mit	APPR	mit	_	O	O	
+4-3	Beiliegen	NN	<unknown>	_	O	O	
+4-4	zu	PTKVZ	zu	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	nicht	PTKNEG	nicht	_	O	O	
+4-7	direkt	ADJD	direkt	_	O	O	
+4-8	aus	APPR	aus	_	O	O	
+4-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Wie verhält sich dies zu der Gesammtrechnung von 1872 ?
+5-1	Wie	KOUS	wie	_	O	O	
+5-2	verhält	VVFIN	verhalten	_	O	O	
+5-3	sich	PRF	sich	_	O	O	
+5-4	dies	PDS	dies	_	O	O	
+5-5	zu	APPR	zu	_	O	O	
+5-6	der	ART	die	_	O	O	
+5-7	Gesammtrechnung	NN	<unknown>	_	O	O	
+5-8	von	APPR	von	_	O	O	
+5-9	1872	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-10	?	$.	?	_	O	O	
+
+#id=6
+#text=Was soll damit geschehen ?
+6-1	Was	PWS	was	_	O	O	
+6-2	soll	VMFIN	sollen	_	O	O	
+6-3	damit	PAV	damit	_	O	O	
+6-4	geschehen	VVINF	geschehen	_	O	O	
+6-5	?	$.	?	_	O	O	
+
+#id=7
+#text=Über den Custos werden Sie nun mit Mommsen, den ich herzlich grüße, verhandelt haben.
+7-1	Über	APPR	über	_	O	O	
+7-2	den	ART	die	_	O	O	
+7-3	Custos	NE	<unknown>	_	O	O	
+7-4	werden	VAFIN	werden	_	O	O	
+7-5	Sie	PPER	Sie	_	O	O	
+7-6	nun	ADV	nun	_	O	O	
+7-7	mit	APPR	mit	_	O	O	
+7-8	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-9	,	$,	,	_	O	O	
+7-10	den	PRELS	die	_	O	O	
+7-11	ich	PPER	ich	_	O	O	
+7-12	herzlich	ADJD	herzlich	_	O	O	
+7-13	grüße	VVFIN	grüßen	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	verhandelt	VVPP	verhandeln	_	O	O	
+7-16	haben	VAFIN	haben	_	O	O	
+7-17	.	$.	.	_	O	O	
+
+#id=8
+#text=Wir haben hier die Sache als ziemlich elastisch betrachtet, aus der Sie noch immer machen können, was Sie wollen.
+8-1	Wir	PPER	wir	_	O	O	
+8-2	haben	VAFIN	haben	_	O	O	
+8-3	hier	ADV	hier	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	Sache	NN	Sache	_	O	O	
+8-6	als	KOKOM	als	_	O	O	
+8-7	ziemlich	ADV	ziemlich	_	O	O	
+8-8	elastisch	ADJD	elastisch	_	O	O	
+8-9	betrachtet	VVPP	betrachten	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	aus	APPR	aus	_	O	O	
+8-12	der	PRELS	die	_	O	O	
+8-13	Sie	PPER	Sie	_	O	O	
+8-14	noch	ADV	noch	_	O	O	
+8-15	immer	ADV	immer	_	O	O	
+8-16	machen	VVINF	machen	_	O	O	
+8-17	können	VMFIN	können	_	O	O	
+8-18	,	$,	,	_	O	O	
+8-19	was	PWS	was	_	O	O	
+8-20	Sie	PPER	Sie	_	O	O	
+8-21	wollen	VMFIN	wollen	_	O	O	
+8-22	.	$.	.	_	O	O	
+
+#id=9
+#text=Daß die Aussichten für den Anschlag gut sind freut mich sehr.
+9-1	Daß	KOUS	dass	_	O	O	
+9-2	die	ART	die	_	O	O	
+9-3	Aussichten	NN	Aussicht	_	O	O	
+9-4	für	APPR	für	_	O	O	
+9-5	den	ART	die	_	O	O	
+9-6	Anschlag	NN	Anschlag	_	O	O	
+9-7	gut	ADJD	gut	_	O	O	
+9-8	sind	VAFIN	sein	_	O	O	
+9-9	freut	VVFIN	freuen	_	O	O	
+9-10	mich	PRF	ich	_	O	O	
+9-11	sehr	ADV	sehr	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Sagen Sie aber Laspeyres, er möge die Sendung jedenfalls an mich richten und sie durch die Central Direktion an das Bundeskanzleramb gelangen lassen.
+10-1	Sagen	VVFIN	sagen	_	O	O	
+10-2	Sie	PPER	Sie	_	O	O	
+10-3	aber	ADV	aber	_	O	O	
+10-4	Laspeyres	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-5	,	$,	,	_	O	O	
+10-6	er	PPER	er	_	O	O	
+10-7	möge	VMFIN	mögen	_	O	O	
+10-8	die	ART	die	_	O	O	
+10-9	Sendung	NN	Sendung	_	O	O	
+10-10	jedenfalls	ADV	jedenfalls	_	O	O	
+10-11	an	APPR	an	_	O	O	
+10-12	mich	PRF	ich	_	O	O	
+10-13	richten	VVINF	richten	_	O	O	
+10-14	und	KON	und	_	O	O	
+10-15	sie	PPER	sie	_	O	O	
+10-16	durch	APPR	durch	_	O	O	
+10-17	die	ART	die	_	O	O	
+10-18	Central	NN	<unknown>	_	O	O	
+10-19	Direktion	NN	Direktion	_	O	O	
+10-20	an	APPR	an	_	O	O	
+10-21	das	ART	die	_	O	O	
+10-22	Bundeskanzleramb	NN	<unknown>	_	O	O	
+10-23	gelangen	VVINF	gelangen	_	O	O	
+10-24	lassen	VVINF	lassen	_	O	O	
+10-25	.	$.	.	_	O	O	
+
+#id=11
+#text=~~e Sendung des Konzeptes ist dann gar nicht nöthig.
+11-1	~~e	NE	<unknown>	_	O	O	
+11-2	Sendung	NN	Sendung	_	O	O	
+11-3	des	ART	die	_	O	O	
+11-4	Konzeptes	NN	Konzept	_	O	O	
+11-5	ist	VAFIN	sein	_	O	O	
+11-6	dann	ADV	dann	_	O	O	
+11-7	gar	ADV	gar	_	O	O	
+11-8	nicht	PTKNEG	nicht	_	O	O	
+11-9	nöthig	ADJD	<unknown>	_	O	O	
+11-10	.	$.	.	_	O	O	
+
+#id=12
+#text=Auch ein Telegramm kann die Sache hier nicht fördern.
+12-1	Auch	ADV	auch	_	O	O	
+12-2	ein	ART	eine	_	O	O	
+12-3	Telegramm	NN	Telegramm	_	O	O	
+12-4	kann	VMFIN	können	_	O	O	
+12-5	die	ART	die	_	O	O	
+12-6	Sache	NN	Sache	_	O	O	
+12-7	hier	ADV	hier	_	O	O	
+12-8	nicht	PTKNEG	nicht	_	O	O	
+12-9	fördern	VVINF	fördern	_	O	O	
+12-10	.	$.	.	_	O	O	
+
+#id=13
+#text=Wohl aber wird es gerathen sein die Sendung zu rekommandiren.
+13-1	Wohl	ADV	wohl	_	O	O	
+13-2	aber	ADV	aber	_	O	O	
+13-3	wird	VAFIN	werden	_	O	O	
+13-4	es	PPER	es	_	O	O	
+13-5	gerathen	VVPP	<unknown>	_	O	O	
+13-6	sein	VAINF	sein	_	O	O	
+13-7	die	ART	die	_	O	O	
+13-8	Sendung	NN	Sendung	_	O	O	
+13-9	zu	APPR	zu	_	O	O	
+13-10	rekommandiren	NN	<unknown>	_	O	O	
+13-11	.	$.	.	_	O	O	
+
+#id=14
+#text=Auf die 6 Zimmer konnten wir rechnen; daß Sie auch noch einige mehr reserviren, halte ~ für sehr nützlich.
+14-1	Auf	APPR	auf	_	O	O	
+14-2	die	ART	die	_	O	O	
+14-3	6	CARD	6	_	O	O	
+14-4	Zimmer	NN	Zimmer	_	O	O	
+14-5	konnten	VMFIN	können	_	O	O	
+14-6	wir	PPER	wir	_	O	O	
+14-7	rechnen	VVINF	rechnen	_	O	O	
+14-8	;	$.	;	_	O	O	
+14-9	daß	KOUS	dass	_	O	O	
+14-10	Sie	PPER	Sie	_	O	O	
+14-11	auch	ADV	auch	_	O	O	
+14-12	noch	ADV	noch	_	O	O	
+14-13	einige	PIAT	einige	_	O	O	
+14-14	mehr	PIAT	mehr	_	O	O	
+14-15	reserviren	NN	<unknown>	_	O	O	
+14-16	,	$,	,	_	O	O	
+14-17	halte	VVFIN	halten	_	O	O	
+14-18	~	XY	~	_	O	O	
+14-19	für	APPR	für	_	O	O	
+14-20	sehr	ADV	sehr	_	O	O	
+14-21	nützlich	ADJD	nützlich	_	O	O	
+14-22	.	$.	.	_	O	O	
+
+#id=15
+#text=Ich meine auch, daß das Vergebungsrecht der Zimmer nur Ihnen gebührt, und nur mit Anzeige an die Gesandtschaft und ihres maggior domo, da die Verwaltung
+15-1	Ich	PPER	ich	_	O	O	
+15-2	meine	VVFIN	meinen	_	O	O	
+15-3	auch	ADV	auch	_	O	O	
+15-4	,	$,	,	_	O	O	
+15-5	daß	KOUS	dass	_	O	O	
+15-6	das	ART	die	_	O	O	
+15-7	Vergebungsrecht	NN	<unknown>	_	O	O	
+15-8	der	ART	die	_	O	O	
+15-9	Zimmer	NN	Zimmer	_	O	O	
+15-10	nur	ADV	nur	_	O	O	
+15-11	Ihnen	PPER	Sie	_	O	O	
+15-12	gebührt	VVPP	gebühren	_	O	O	
+15-13	,	$,	,	_	O	O	
+15-14	und	KON	und	_	O	O	
+15-15	nur	ADV	nur	_	O	O	
+15-16	mit	APPR	mit	_	O	O	
+15-17	Anzeige	NN	Anzeige	_	O	O	
+15-18	an	APPR	an	_	O	O	
+15-19	die	ART	die	_	O	O	
+15-20	Gesandtschaft	NN	Gesandtschaft	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+15-21	und	KON	und	_	O	O	
+15-22	ihres	PPOSAT	ihr	_	O	O	
+15-23	maggior	ADJA	<unknown>	_	O	O	
+15-24	domo	NN	<unknown>	_	O	O	
+15-25	,	$,	,	_	O	O	
+15-26	da	KOUS	da	_	O	O	
+15-27	die	ART	die	_	O	O	
+15-28	Verwaltung	NN	Verwaltung	_	O	O	
+

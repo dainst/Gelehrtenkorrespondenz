@@ -1,0 +1,257 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=( I 674 Verehrtester Freund Lepsius an Renzen Be rl in , 25. Oktober 1877 g. 29/10 77 r.
+1-1	(	$(	(	_	O	O	
+1-2	I	FM	I	_	O	O	
+1-3	674	CARD	@card@	_	O	O	
+1-4	Verehrtester	NN	<unknown>	_	O	O	
+1-5	Freund	NE	Freund	_	O	O	
+1-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	an	APPR	an	_	O	O	
+1-8	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-9	Be	VVFIN	<unknown>	_	O	O	
+1-10	rl	ADJD	<unknown>	_	O	O	
+1-11	in	APPR	in	_	O	O	
+1-12	,	$,	,	_	O	O	
+1-13	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-14	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	g.	VVFIN	<unknown>	_	O	O	
+1-18	29/10	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-19	77	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-20	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=5/11 77 Berlin, den 25. Okt.
+2-1	5/11	CARD	@card@	_	O	O	
+2-2	77	CARD	@card@	_	O	O	
+2-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-4	,	$,	,	_	O	O	
+2-5	den	ART	die	_	O	O	
+2-6	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Okt.	NN	Okt.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=3
+#text=1877 Wiederum nur eine vorläufige Zeile.
+3-1	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-2	Wiederum	ADV	wiederum	_	O	O	
+3-3	nur	ADV	nur	_	O	O	
+3-4	eine	ART	eine	_	O	O	
+3-5	vorläufige	ADJA	vorläufig	_	O	O	
+3-6	Zeile	NN	Zeile	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Auch Ihr letzter Brief ist eingegangen und eine Anfrage von Dahn.
+4-1	Auch	ADV	auch	_	O	O	
+4-2	Ihr	PPOSAT	ihr	_	O	O	
+4-3	letzter	ADJA	letzt	_	O	O	
+4-4	Brief	NN	Brief	_	O	O	
+4-5	ist	VAFIN	sein	_	O	O	
+4-6	eingegangen	VVPP	eingehen	_	O	O	
+4-7	und	KON	und	_	O	O	
+4-8	eine	ART	eine	_	O	O	
+4-9	Anfrage	NN	Anfrage	_	O	O	
+4-10	von	APPR	von	_	O	O	
+4-11	Dahn	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Beides wird in der nächsten Sitzung vorgelegt werden.
+5-1	Beides	PIS	beide	_	O	O	
+5-2	wird	VAFIN	werden	_	O	O	
+5-3	in	APPR	in	_	O	O	
+5-4	der	ART	die	_	O	O	
+5-5	nächsten	ADJA	nah	_	O	O	
+5-6	Sitzung	NN	Sitzung	_	O	O	
+5-7	vorgelegt	VVPP	vorlegen	_	O	O	
+5-8	werden	VAINF	werden	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Iwanofftsche Sache haben wir in der letzten Sitzung noch nicht erledigen können.
+6-1	Die	ART	die	_	O	O	
+6-2	Iwanofftsche	ADJA	<unknown>	_	O	O	
+6-3	Sache	NN	Sache	_	O	O	
+6-4	haben	VAFIN	haben	_	O	O	
+6-5	wir	PPER	wir	_	O	O	
+6-6	in	APPR	in	_	O	O	
+6-7	der	ART	die	_	O	O	
+6-8	letzten	ADJA	letzt	_	O	O	
+6-9	Sitzung	NN	Sitzung	_	O	O	
+6-10	noch	ADV	noch	_	O	O	
+6-11	nicht	PTKNEG	nicht	_	O	O	
+6-12	erledigen	VVINF	erledigen	_	O	O	
+6-13	können	VMINF	können	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Minister Krüger will weitere Erkundigungen einziehen und nächsten Montag referiren.
+7-1	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	Krüger	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-3	will	VMFIN	wollen	_	O	O	
+7-4	weitere	ADJA	weit	_	O	O	
+7-5	Erkundigungen	NN	Erkundigung	_	O	O	
+7-6	einziehen	VVINF	einziehen	_	O	O	
+7-7	und	KON	und	_	O	O	
+7-8	nächsten	ADJA	nah	_	O	O	
+7-9	Montag	NN	Montag	_	O	O	
+7-10	referiren	NN	<unknown>	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich habe jetzt die wesentlichen praktischen Geschäfte an Conze übergeben.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	habe	VAFIN	haben	_	O	O	
+8-3	jetzt	ADV	jetzt	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	wesentlichen	ADJA	wesentlich	_	O	O	
+8-6	praktischen	ADJA	praktisch	_	O	O	
+8-7	Geschäfte	NN	Geschäft	_	O	O	
+8-8	an	APPR	an	_	O	O	
+8-9	Conze	NE	Conze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-10	übergeben	VVINF	übergeben	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Er wird hiefür unser Schriftführer oder Sekretar sein, ohne jedoch einen besonderen Namen zu führen.
+9-1	Er	PPER	er	_	O	O	
+9-2	wird	VAFIN	werden	_	O	O	
+9-3	hiefür	NN	<unknown>	_	O	O	
+9-4	unser	PPOSAT	unser	_	O	O	
+9-5	Schriftführer	NN	Schriftführer	_	O	O	
+9-6	oder	KON	oder	_	O	O	
+9-7	Sekretar	NN	<unknown>	_	O	O	
+9-8	sein	VAINF	sein	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	ohne	KOUI	ohne	_	O	O	
+9-11	jedoch	ADV	jedoch	_	O	O	
+9-12	einen	ART	eine	_	O	O	
+9-13	besonderen	ADJA	besonder	_	O	O	
+9-14	Namen	NN	Name	_	O	O	
+9-15	zu	PTKZU	zu	_	O	O	
+9-16	führen	VVINF	führen	_	O	O	
+9-17	.	$.	.	_	O	O	
+
+#id=10
+#text=Da ich den Vorsitz, den ich auch abzugeben wünschte, behalten soll, und vorläufig bis zur Generalversammlung behalten muß, so werden wir uns eben beide mit einander verständigen über die Vorlagen.
+10-1	Da	KOUS	da	_	O	O	
+10-2	ich	PPER	ich	_	O	O	
+10-3	den	ART	die	_	O	O	
+10-4	Vorsitz	NN	Vorsitz	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	den	PRELS	die	_	O	O	
+10-7	ich	PPER	ich	_	O	O	
+10-8	auch	ADV	auch	_	O	O	
+10-9	abzugeben	VVIZU	abgeben	_	O	O	
+10-10	wünschte	VVFIN	wünschen	_	O	O	
+10-11	,	$,	,	_	O	O	
+10-12	behalten	VVINF	behalten	_	O	O	
+10-13	soll	VMFIN	sollen	_	O	O	
+10-14	,	$,	,	_	O	O	
+10-15	und	KON	und	_	O	O	
+10-16	vorläufig	ADJD	vorläufig	_	O	O	
+10-17	bis	KON	bis	_	O	O	
+10-18	zur	APPRART	zu	_	O	O	
+10-19	Generalversammlung	NN	Generalversammlung	_	O	O	
+10-20	behalten	VVINF	behalten	_	O	O	
+10-21	muß	VMFIN	müssen	_	O	O	
+10-22	,	$,	,	_	O	O	
+10-23	so	ADV	so	_	O	O	
+10-24	werden	VAFIN	werden	_	O	O	
+10-25	wir	PPER	wir	_	O	O	
+10-26	uns	PRF	wir	_	O	O	
+10-27	eben	ADV	eben	_	O	O	
+10-28	beide	PIS	beide	_	O	O	
+10-29	mit	APPR	mit	_	O	O	
+10-30	einander	PRF	einander	_	O	O	
+10-31	verständigen	VVINF	verständigen	_	O	O	
+10-32	über	APPR	über	_	O	O	
+10-33	die	ART	die	_	O	O	
+10-34	Vorlagen	NN	Vorlage	_	O	O	
+10-35	.	$.	.	_	O	O	
+
+#id=11
+#text=Es ist daher fernerhin ziemlich gleich, ob Sie an mich oder Conze schreiben, da es jeder dem andern mittheilt.
+11-1	Es	PPER	es	_	O	O	
+11-2	ist	VAFIN	sein	_	O	O	
+11-3	daher	PAV	daher	_	O	O	
+11-4	fernerhin	ADV	fernerhin	_	O	O	
+11-5	ziemlich	ADV	ziemlich	_	O	O	
+11-6	gleich	ADJD	gleich	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	ob	KOUS	ob	_	O	O	
+11-9	Sie	PPER	Sie	_	O	O	
+11-10	an	APPR	an	_	O	O	
+11-11	mich	PRF	ich	_	O	O	
+11-12	oder	KON	oder	_	O	O	
+11-13	Conze	NE	Conze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-14	schreiben	VVFIN	schreiben	_	O	O	
+11-15	,	$,	,	_	O	O	
+11-16	da	KOUS	da	_	O	O	
+11-17	es	PPER	es	_	O	O	
+11-18	jeder	PIS	jede	_	O	O	
+11-19	dem	ART	die	_	O	O	
+11-20	andern	PIS	andere	_	O	O	
+11-21	mittheilt	VVFIN	<unknown>	_	O	O	
+11-22	.	$.	.	_	O	O	
+
+#id=12
+#text=Wollen Sie dieses vorläufige Privat abkommen zwischen uns auch Relbig mittheilen, dessen Brief über den Sarkophag ich Curtius und Conze mitgetheilt habe.
+12-1	Wollen	VMFIN	wollen	_	O	O	
+12-2	Sie	PPER	Sie	_	O	O	
+12-3	dieses	PDAT	dies	_	O	O	
+12-4	vorläufige	ADJA	vorläufig	_	O	O	
+12-5	Privat	NN	<unknown>	_	O	O	
+12-6	abkommen	VVFIN	abkommen	_	O	O	
+12-7	zwischen	APPR	zwischen	_	O	O	
+12-8	uns	PPER	wir	_	O	O	
+12-9	auch	ADV	auch	_	O	O	
+12-10	Relbig	ADJD	<unknown>	_	O	O	
+12-11	mittheilen	VVINF	<unknown>	_	O	O	
+12-12	,	$,	,	_	O	O	
+12-13	dessen	PRELAT	die	_	O	O	
+12-14	Brief	NN	Brief	_	O	O	
+12-15	über	APPR	über	_	O	O	
+12-16	den	ART	die	_	O	O	
+12-17	Sarkophag	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+12-18	ich	PPER	ich	_	O	O	
+12-19	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-20	und	KON	und	_	O	O	
+12-21	Conze	NE	Conze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-22	mitgetheilt	VVPP	<unknown>	_	O	O	
+12-23	habe	VAFIN	haben	_	O	O	
+12-24	.	$.	.	_	O	O	
+
+#id=13
+#text=Letzteren geht die Sache zunächst an; er wird ihm also antworten.
+13-1	Letzteren	NN	Letztere	_	O	O	
+13-2	geht	VVFIN	gehen	_	O	O	
+13-3	die	ART	die	_	O	O	
+13-4	Sache	NN	Sache	_	O	O	
+13-5	zunächst	ADV	zunächst	_	O	O	
+13-6	an	PTKVZ	an	_	O	O	
+13-7	;	$.	;	_	O	O	
+13-8	er	PPER	er	_	O	O	
+13-9	wird	VAFIN	werden	_	O	O	
+13-10	ihm	PPER	er	_	O	O	
+13-11	also	ADV	also	_	O	O	
+13-12	antworten	VVINF	antworten	_	O	O	
+13-13	.	$.	.	_	O	O	
+
+#id=14
+#text=Ich schreibe Ihnen also nächste Woche mehr, oder Conze.
+14-1	Ich	PPER	ich	_	O	O	
+14-2	schreibe	VVFIN	schreiben	_	O	O	
+14-3	Ihnen	PPER	Sie	_	O	O	
+14-4	also	ADV	also	_	O	O	
+14-5	nächste	ADJA	nah	_	O	O	
+14-6	Woche	NN	Woche	_	O	O	
+14-7	mehr	ADV	mehr	_	O	O	
+14-8	,	$,	,	_	O	O	
+14-9	oder	KON	oder	_	O	O	
+14-10	Conze	NE	Conze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-11	.	$.	.	_	O	O	
+

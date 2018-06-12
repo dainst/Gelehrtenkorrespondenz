@@ -1,0 +1,244 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=167 Gerhard an Braun Berlin, 25. März 1844 A. d. Dir.
+1-1	167	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	A.	APPR	an	_	O	O	
+1-12	d.	ART	d.	_	O	O	
+1-13	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=g. 9/IV 44 r. 9/IV 44 Berlin d 25 ten März 1844 Zwei Ihrer Briefe, lieber Freund, habe ich zu beantworten und hoffe dazu gerade zulänglich zu sein, obwohl ich seit gerade einem Monat vegetire.
+2-1	g.	ADJD	<unknown>	_	O	O	
+2-2	9/IV	VVFIN	<unknown>	_	O	O	
+2-3	44	CARD	44	_	O	O	
+2-4	r.	ADJA	<unknown>	_	O	O	
+2-5	9/IV	CARD	<unknown>	_	O	O	
+2-6	44	CARD	44	_	O	O	
+2-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-8	d	VVFIN	<unknown>	_	O	O	
+2-9	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-10	ten	NE	ten	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-13	Zwei	CARD	zwei	_	O	O	
+2-14	Ihrer	PPOSAT	ihr	_	O	O	
+2-15	Briefe	NN	Brief	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	lieber	ADJA	lieb	_	O	O	
+2-18	Freund	NN	Freund	_	O	O	
+2-19	,	$,	,	_	O	O	
+2-20	habe	VAFIN	haben	_	O	O	
+2-21	ich	PPER	ich	_	O	O	
+2-22	zu	PTKZU	zu	_	O	O	
+2-23	beantworten	VVINF	beantworten	_	O	O	
+2-24	und	KON	und	_	O	O	
+2-25	hoffe	VVFIN	hoffen	_	O	O	
+2-26	dazu	PAV	dazu	_	O	O	
+2-27	gerade	ADV	gerade	_	O	O	
+2-28	zulänglich	ADJD	<unknown>	_	O	O	
+2-29	zu	PTKZU	zu	_	O	O	
+2-30	sein	VAINF	sein	_	O	O	
+2-31	,	$,	,	_	O	O	
+2-32	obwohl	KOUS	obwohl	_	O	O	
+2-33	ich	PPER	ich	_	O	O	
+2-34	seit	APPR	seit	_	O	O	
+2-35	gerade	ADV	gerade	_	O	O	
+2-36	einem	ART	eine	_	O	O	
+2-37	Monat	NN	Monat	_	O	O	
+2-38	vegetire	VVFIN	<unknown>	_	O	O	
+2-39	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Sache ist so lästig daß ich für mein rheumatisch.
+3-1	Die	ART	die	_	O	O	
+3-2	Sache	NN	Sache	_	O	O	
+3-3	ist	VAFIN	sein	_	O	O	
+3-4	so	ADV	so	_	O	O	
+3-5	lästig	ADJD	lästig	_	O	O	
+3-6	daß	KOUS	dass	_	O	O	
+3-7	ich	PPER	ich	_	O	O	
+3-8	für	APPR	für	_	O	O	
+3-9	mein	PPOSAT	mein	_	O	O	
+3-10	rheumatisch	ADJD	rheumatisch	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=und nervös afficirtes Auge außer Melicher auch Jüngken consultirt habe; beide machen nichts daraus und verweisen mich auf besseres Wetter.
+4-1	und	KON	und	_	O	O	
+4-2	nervös	ADJD	nervös	_	O	O	
+4-3	afficirtes	ADJA	<unknown>	_	O	O	
+4-4	Auge	NN	Auge	_	O	O	
+4-5	außer	APPR	außer	_	O	O	
+4-6	Melicher	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-7	auch	ADV	auch	_	O	O	
+4-8	Jüngken	ADJA	<unknown>	_	O	O	
+4-9	consultirt	NN	<unknown>	_	O	O	
+4-10	habe	VAFIN	haben	_	O	O	
+4-11	;	$.	;	_	O	O	
+4-12	beide	PIS	beide	_	O	O	
+4-13	machen	VVFIN	machen	_	O	O	
+4-14	nichts	PIS	nichts	_	O	O	
+4-15	daraus	PAV	daraus	_	O	O	
+4-16	und	KON	und	_	O	O	
+4-17	verweisen	VVFIN	verweisen	_	O	O	
+4-18	mich	PRF	ich	_	O	O	
+4-19	auf	APPR	auf	_	O	O	
+4-20	besseres	ADJA	gut	_	O	O	
+4-21	Wetter	NN	Wetter	_	O	O	
+4-22	.	$.	.	_	O	O	
+
+#id=5
+#text=Gegen den Magnetismus fährt Melicher fort entschieden zu protestiren.
+5-1	Gegen	APPR	gegen	_	O	O	
+5-2	den	ART	die	_	O	O	
+5-3	Magnetismus	NN	Magnetismus	_	O	O	
+5-4	fährt	VVFIN	fahren	_	O	O	
+5-5	Melicher	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-6	fort	ADV	fort	_	O	O	
+5-7	entschieden	ADJD	entschieden	_	O	O	
+5-8	zu	APPR	zu	_	O	O	
+5-9	protestiren	NN	<unknown>	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Bunsen den ich heute Früh sprach hat an Ruhe gewonnen.
+6-1	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	den	ART	die	_	O	O	
+6-3	ich	PPER	ich	_	O	O	
+6-4	heute	ADV	heute	_	O	O	
+6-5	Früh	NN	<unknown>	_	O	O	
+6-6	sprach	VVFIN	sprechen	_	O	O	
+6-7	hat	VAFIN	haben	_	O	O	
+6-8	an	APPR	an	_	O	O	
+6-9	Ruhe	NN	Ruhe	_	O	O	
+6-10	gewonnen	VVPP	gewinnen	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Aushängebogen seines ägyptischen Werks nehmen sich stattlich aus; auch viel Bildliches ist dabei, Pyramidenapparat größtentheils nach Vyse.
+7-1	Die	ART	die	_	O	O	
+7-2	Aushängebogen	NN	<unknown>	_	O	O	
+7-3	seines	PPOSAT	sein	_	O	O	
+7-4	ägyptischen	ADJA	ägyptisch	_	O	O	
+7-5	Werks	NN	Werk	_	O	O	
+7-6	nehmen	VVFIN	nehmen	_	O	O	
+7-7	sich	PRF	sich	_	O	O	
+7-8	stattlich	ADJD	stattlich	_	O	O	
+7-9	aus	PTKVZ	aus	_	O	O	
+7-10	;	$.	;	_	O	O	
+7-11	auch	ADV	auch	_	O	O	
+7-12	viel	PIAT	viele	_	O	O	
+7-13	Bildliches	NN	<unknown>	_	O	O	
+7-14	ist	VAFIN	sein	_	O	O	
+7-15	dabei	PAV	dabei	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	Pyramidenapparat	NN	<unknown>	_	O	O	
+7-18	größtentheils	NN	<unknown>	_	O	O	
+7-19	nach	APPR	nach	_	O	O	
+7-20	Vyse	NN	<unknown>	_	O	O	
+7-21	.	$.	.	_	O	O	
+
+#id=8
+#text=Über das Institut habe ich ihn noch nicht sprechen können.
+8-1	Über	APPR	über	_	O	O	
+8-2	das	ART	die	_	O	O	
+8-3	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-4	habe	VAFIN	haben	_	O	O	
+8-5	ich	PPER	ich	_	O	O	
+8-6	ihn	PPER	er	_	O	O	
+8-7	noch	ADV	noch	_	O	O	
+8-8	nicht	PTKNEG	nicht	_	O	O	
+8-9	sprechen	VVINF	sprechen	_	O	O	
+8-10	können	VMINF	können	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Waagen habe ich auffordern lassen eine Antwort in Blessigs Sache mir für ihn zugehn zu lassen.
+9-1	Waagen	NN	Waage	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	habe	VAFIN	haben	_	O	O	
+9-3	ich	PPER	ich	_	O	O	
+9-4	auffordern	VVINF	auffordern	_	O	O	
+9-5	lassen	VVFIN	lassen	_	O	O	
+9-6	eine	ART	eine	_	O	O	
+9-7	Antwort	NN	Antwort	_	O	O	
+9-8	in	APPR	in	_	O	O	
+9-9	Blessigs	NE	<unknown>	_	O	O	
+9-10	Sache	NN	Sache	_	O	O	
+9-11	mir	PRF	ich	_	O	O	
+9-12	für	APPR	für	_	O	O	
+9-13	ihn	PPER	er	_	O	O	
+9-14	zugehn	ADJD	<unknown>	_	O	O	
+9-15	zu	PTKZU	zu	_	O	O	
+9-16	lassen	VVINF	lassen	_	O	O	
+9-17	.	$.	.	_	O	O	
+
+#id=10
+#text=Die Prinz Augustische Sache werde ich nach fünfmaligem Sturmanlauf auf eine römische Administrationsfeder in dieser rein administrativen Sache nun vielleicht fallen lassen; an drei Malen hatte selbst Achilles genug.
+10-1	Die	ART	die	_	O	O	
+10-2	Prinz	NN	Prinz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-3	Augustische	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-4	Sache	NN	Sache	_	O	O	
+10-5	werde	VAFIN	werden	_	O	O	
+10-6	ich	PPER	ich	_	O	O	
+10-7	nach	APPR	nach	_	O	O	
+10-8	fünfmaligem	ADJA	fünfmalig	_	O	O	
+10-9	Sturmanlauf	NN	<unknown>	_	O	O	
+10-10	auf	APPR	auf	_	O	O	
+10-11	eine	ART	eine	_	O	O	
+10-12	römische	ADJA	römisch	_	O	O	
+10-13	Administrationsfeder	NN	<unknown>	_	O	O	
+10-14	in	APPR	in	_	O	O	
+10-15	dieser	PDAT	dies	_	O	O	
+10-16	rein	ADV	rein	_	O	O	
+10-17	administrativen	ADJA	administrativ	_	O	O	
+10-18	Sache	NN	Sache	_	O	O	
+10-19	nun	ADV	nun	_	O	O	
+10-20	vielleicht	ADV	vielleicht	_	O	O	
+10-21	fallen	VVINF	fallen	_	O	O	
+10-22	lassen	VVINF	lassen	_	O	O	
+10-23	;	$.	;	_	O	O	
+10-24	an	APPR	an	_	O	O	
+10-25	drei	CARD	drei	_	O	O	
+10-26	Malen	NN	Mal|Malen	_	O	O	
+10-27	hatte	VAFIN	haben	_	O	O	
+10-28	selbst	ADV	selbst	_	O	O	
+10-29	Achilles	NE	Achilles	_	O	O	
+10-30	genug	ADV	genug	_	O	O	
+10-31	.	$.	.	_	O	O	
+
+#id=11
+#text=Das Institut hat schon öfter Geld verloren blos.
+11-1	Das	ART	die	_	O	O	
+11-2	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+11-3	hat	VAFIN	haben	_	O	O	
+11-4	schon	ADV	schon	_	O	O	
+11-5	öfter	ADV	öfter	_	O	O	
+11-6	Geld	NN	Geld	_	O	O	
+11-7	verloren	VVPP	verlieren	_	O	O	
+11-8	blos	VVFIN	<unknown>	_	O	O	
+11-9	.	$.	.	_	O	O	
+
+#id=12
+#text=weil es zu faul war zu rechter Zeit z~ liquidiren; was
+12-1	weil	KOUS	weil	_	O	O	
+12-2	es	PPER	es	_	O	O	
+12-3	zu	PTKA	zu	_	O	O	
+12-4	faul	ADJD	faul	_	O	O	
+12-5	war	VAFIN	sein	_	O	O	
+12-6	zu	APPR	zu	_	O	O	
+12-7	rechter	ADJA	recht	_	O	O	
+12-8	Zeit	NN	Zeit	_	O	O	
+12-9	z~	ADJA	<unknown>	_	O	O	
+12-10	liquidiren	NN	<unknown>	_	O	O	
+12-11	;	$.	;	_	O	O	
+12-12	was	PWS	was	_	O	O	
+

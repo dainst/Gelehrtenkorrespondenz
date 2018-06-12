@@ -1,0 +1,258 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=73 19/111/55 Henzen an Gerhard Verehrter Herr Professor Sie hatten sehr weise vorausgesehen, daß mir die Uebersendung von 400 rf einen embarras de ~ichesses verursachen werde; aber leider folgte Ihrem Briefe unmittelbar ein Avisbrief des Archivars und heute der Wechsel n selbst, noch dazu am 10 • d. M. bereits abgelaufen.
+1-1	73	CARD	73	_	O	O	
+1-2	19/111/55	CARD	@card@	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Verehrter	ADJA	verehrt	_	O	O	
+1-7	Herr	NN	Herr	_	O	O	
+1-8	Professor	NN	Professor	_	O	O	
+1-9	Sie	PPER	Sie	_	O	O	
+1-10	hatten	VAFIN	haben	_	O	O	
+1-11	sehr	ADV	sehr	_	O	O	
+1-12	weise	ADJD	weise	_	O	O	
+1-13	vorausgesehen	VVPP	voraussehen	_	O	O	
+1-14	,	$,	,	_	O	O	
+1-15	daß	KOUS	dass	_	O	O	
+1-16	mir	PPER	ich	_	O	O	
+1-17	die	ART	die	_	O	O	
+1-18	Uebersendung	NN	<unknown>	_	O	O	
+1-19	von	APPR	von	_	O	O	
+1-20	400	CARD	400	_	O	O	
+1-21	rf	VVFIN	<unknown>	_	O	O	
+1-22	einen	ART	eine	_	O	O	
+1-23	embarras	ADJA	<unknown>	_	O	O	
+1-24	de	NE	de	_	O	O	
+1-25	~ichesses	NN	<unknown>	_	O	O	
+1-26	verursachen	VVINF	verursachen	_	O	O	
+1-27	werde	VAFIN	werden	_	O	O	
+1-28	;	$.	;	_	O	O	
+1-29	aber	KON	aber	_	O	O	
+1-30	leider	ADV	leider	_	O	O	
+1-31	folgte	VVFIN	folgen	_	O	O	
+1-32	Ihrem	PPOSAT	ihr	_	O	O	
+1-33	Briefe	NN	Brief	_	O	O	
+1-34	unmittelbar	ADJD	unmittelbar	_	O	O	
+1-35	ein	ART	eine	_	O	O	
+1-36	Avisbrief	NN	<unknown>	_	O	O	
+1-37	des	ART	die	_	O	O	
+1-38	Archivars	NN	Archivar	_	O	O	
+1-39	und	KON	und	_	O	O	
+1-40	heute	ADV	heute	_	O	O	
+1-41	der	ART	die	_	O	O	
+1-42	Wechsel	NN	Wechsel	_	O	O	
+1-43	n	VVFIN	<unknown>	_	O	O	
+1-44	selbst	ADV	selbst	_	O	O	
+1-45	,	$,	,	_	O	O	
+1-46	noch	ADV	noch	_	O	O	
+1-47	dazu	PAV	dazu	_	O	O	
+1-48	am	APPRART	an	_	O	O	
+1-49	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-50	•	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-51	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-52	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-53	bereits	ADV	bereits	_	O	O	
+1-54	abgelaufen	VVPP	ablaufen	_	O	O	
+1-55	.	$.	.	_	O	O	
+
+#id=2
+#text=Der heutige Festtag ( S. Giuseppe ) hindert mich, gleich mit Marstaller Rücksprache zu nehmen.
+2-1	Der	ART	die	_	O	O	
+2-2	heutige	ADJA	heutig	_	O	O	
+2-3	Festtag	NN	Festtag	_	O	O	
+2-4	(	$(	(	_	O	O	
+2-5	S.	NE	S.	_	O	O	
+2-6	Giuseppe	NE	Giuseppe	_	O	O	
+2-7	)	$(	)	_	O	O	
+2-8	hindert	VVFIN	hindern	_	O	O	
+2-9	mich	PRF	ich	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	gleich	ADJD	gleich	_	O	O	
+2-12	mit	APPR	mit	_	O	O	
+2-13	Marstaller	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-14	Rücksprache	NN	Rücksprache	_	O	O	
+2-15	zu	PTKZU	zu	_	O	O	
+2-16	nehmen	VVINF	nehmen	_	O	O	
+2-17	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich habe ihn einstweilen benutzt, um meine Quittung gesandtschaftlich legalisiren zu lassen, werde sie aber erst nach gepflogener Rücksprache absenden, da es mir unter diesen Umständen lieb wäre, wenn Marstaller den abgelaufenen Wechsel nicht acceptirte.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	habe	VAFIN	haben	_	O	O	
+3-3	ihn	PPER	er	_	O	O	
+3-4	einstweilen	ADV	einstweilen	_	O	O	
+3-5	benutzt	VVPP	benutzen	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	um	KOUI	um	_	O	O	
+3-8	meine	PPOSAT	mein	_	O	O	
+3-9	Quittung	NN	Quittung	_	O	O	
+3-10	gesandtschaftlich	ADJD	<unknown>	_	O	O	
+3-11	legalisiren	NN	<unknown>	_	O	O	
+3-12	zu	PTKZU	zu	_	O	O	
+3-13	lassen	VVINF	lassen	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	werde	VAFIN	werden	_	O	O	
+3-16	sie	PPER	sie	_	O	O	
+3-17	aber	ADV	aber	_	O	O	
+3-18	erst	ADV	erst	_	O	O	
+3-19	nach	APPR	nach	_	O	O	
+3-20	gepflogener	ADJA	<unknown>	_	O	O	
+3-21	Rücksprache	NN	Rücksprache	_	O	O	
+3-22	absenden	VVINF	absenden	_	O	O	
+3-23	,	$,	,	_	O	O	
+3-24	da	KOUS	da	_	O	O	
+3-25	es	PPER	es	_	O	O	
+3-26	mir	PRF	ich	_	O	O	
+3-27	unter	APPR	unter	_	O	O	
+3-28	diesen	PDAT	dies	_	O	O	
+3-29	Umständen	NN	Umstand	_	O	O	
+3-30	lieb	ADJD	lieb	_	O	O	
+3-31	wäre	VAFIN	sein	_	O	O	
+3-32	,	$,	,	_	O	O	
+3-33	wenn	KOUS	wenn	_	O	O	
+3-34	Marstaller	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-35	den	ART	die	_	O	O	
+3-36	abgelaufenen	ADJA	abgelaufen	_	O	O	
+3-37	Wechsel	NN	Wechsel	_	O	O	
+3-38	nicht	PTKNEG	nicht	_	O	O	
+3-39	acceptirte	ADJD	<unknown>	_	O	O	
+3-40	.	$.	.	_	O	O	
+
+#id=4
+#text=Durch Mommsen erhielt ich ein Exemplar des ungedruckten Formulars, das mir jetzt ganz in Ordnung zu sein scheint.
+4-1	Durch	APPR	durch	_	O	O	
+4-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	erhielt	VVFIN	erhalten	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	ein	ART	eine	_	O	O	
+4-6	Exemplar	NN	Exemplar	_	O	O	
+4-7	des	ART	die	_	O	O	
+4-8	ungedruckten	ADJA	ungedruckt	_	O	O	
+4-9	Formulars	NN	Formular	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	das	PRELS	die	_	O	O	
+4-12	mir	PPER	ich	_	O	O	
+4-13	jetzt	ADV	jetzt	_	O	O	
+4-14	ganz	ADV	ganz	_	O	O	
+4-15	in	APPR	in	_	O	O	
+4-16	Ordnung	NN	Ordnung	_	O	O	
+4-17	zu	PTKZU	zu	_	O	O	
+4-18	sein	VAINF	sein	_	O	O	
+4-19	scheint	VVFIN	scheinen	_	O	O	
+4-20	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich werde Braun vorschlagen, einen kleineren Druck einzuführen; er war aber stets dagegen.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	werde	VAFIN	werden	_	O	O	
+5-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	vorschlagen	VVINF	vorschlagen	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	einen	ART	eine	_	O	O	
+5-7	kleineren	ADJA	klein	_	O	O	
+5-8	Druck	NN	Druck	_	O	O	
+5-9	einzuführen	VVIZU	einführen	_	O	O	
+5-10	;	$.	;	_	O	O	
+5-11	er	PPER	er	_	O	O	
+5-12	war	VAFIN	sein	_	O	O	
+5-13	aber	ADV	aber	_	O	O	
+5-14	stets	ADV	stets	_	O	O	
+5-15	dagegen	PAV	dagegen	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Augenblicklich \_ ist er in Neapel tographie.
+6-1	Augenblicklich	ADJD	augenblicklich	_	O	O	
+6-2	\_	ADJD	<unknown>	_	O	O	
+6-3	ist	VAFIN	sein	_	O	O	
+6-4	er	PPER	er	_	O	O	
+6-5	in	APPR	in	_	O	O	
+6-6	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-7	tographie	NN	<unknown>	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=In 8 in Angelegenheiten Campana's und der Pho- - 10 Tagen dachte er zurück zu sein.
+7-1	In	APPR	in	_	O	O	
+7-2	8	CARD	8	_	O	O	
+7-3	in	APPR	in	_	O	O	
+7-4	Angelegenheiten	NN	Angelegenheit	_	O	O	
+7-5	Campana's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-6	und	KON	und	_	O	O	
+7-7	der	ART	die	_	O	O	
+7-8	Pho-	TRUNC	<unknown>	_	O	O	
+7-9	-	$(	-	_	O	O	
+7-10	10	CARD	10	_	O	O	
+7-11	Tagen	NN	Tag	_	O	O	
+7-12	dachte	VVFIN	denken	_	O	O	
+7-13	er	PPER	er	_	O	O	
+7-14	zurück	PTKVZ	zurück	_	O	O	
+7-15	zu	PTKZU	zu	_	O	O	
+7-16	sein	VAINF	sein	_	O	O	
+7-17	.	$.	.	_	O	O	
+
+#id=8
+#text=Sonst wüßte ich Ihnen kaum Neues zu melden, wenn Sie nicht etwa interessirt, dß.
+8-1	Sonst	ADV	sonst	_	O	O	
+8-2	wüßte	VVFIN	wissen	_	O	O	
+8-3	ich	PPER	ich	_	O	O	
+8-4	Ihnen	PPER	Sie	_	O	O	
+8-5	kaum	ADV	kaum	_	O	O	
+8-6	Neues	NN	Neue	_	O	O	
+8-7	zu	PTKZU	zu	_	O	O	
+8-8	melden	VVINF	melden	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	wenn	KOUS	wenn	_	O	O	
+8-11	Sie	PPER	Sie	_	O	O	
+8-12	nicht	PTKNEG	nicht	_	O	O	
+8-13	etwa	ADV	etwa	_	O	O	
+8-14	interessirt	NN	<unknown>	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	dß	VVFIN	<unknown>	_	O	O	
+8-17	.	$.	.	_	O	O	
+
+#id=9
+#text=man das Forum wieder mit Bäumen bepflanzt hat unter gänzlicher Aufgebung aller Ausgrabungsprojecte, also Canina mit seiner Barbarei von 1849 Nichts gewonnen hat, als den gänzlichen Ruin des schönsten Spaziergangs in Rom.
+9-1	man	PIS	man	_	O	O	
+9-2	das	ART	die	_	O	O	
+9-3	Forum	NN	Forum	_	O	O	
+9-4	wieder	ADV	wieder	_	O	O	
+9-5	mit	APPR	mit	_	O	O	
+9-6	Bäumen	NN	Baum	_	O	O	
+9-7	bepflanzt	VVPP	bepflanzen	_	O	O	
+9-8	hat	VAFIN	haben	_	O	O	
+9-9	unter	APPR	unter	_	O	O	
+9-10	gänzlicher	ADJA	gänzlich	_	O	O	
+9-11	Aufgebung	NN	<unknown>	_	O	O	
+9-12	aller	PIAT	alle	_	O	O	
+9-13	Ausgrabungsprojecte	NN	<unknown>	_	O	O	
+9-14	,	$,	,	_	O	O	
+9-15	also	ADV	also	_	O	O	
+9-16	Canina	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-17	mit	APPR	mit	_	O	O	
+9-18	seiner	PPOSAT	sein	_	O	O	
+9-19	Barbarei	NN	Barbarei	_	O	O	
+9-20	von	APPR	von	_	O	O	
+9-21	1849	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-22	Nichts	NN	Nichts	_	O	O	
+9-23	gewonnen	VVPP	gewinnen	_	O	O	
+9-24	hat	VAFIN	haben	_	O	O	
+9-25	,	$,	,	_	O	O	
+9-26	als	KOUS	als	_	O	O	
+9-27	den	ART	die	_	O	O	
+9-28	gänzlichen	ADJA	gänzlich	_	O	O	
+9-29	Ruin	NN	Ruin	_	O	O	
+9-30	des	ART	die	_	O	O	
+9-31	schönsten	ADJA	schön	_	O	O	
+9-32	Spaziergangs	NN	Spaziergang	_	O	O	
+9-33	in	APPR	in	_	O	O	
+9-34	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-35	.	$.	.	_	O	O	
+
+#id=10
+#text=Pazienza!
+10-1	Pazienza	NE	<unknown>	_	O	O	
+10-2	!	$.	!	_	O	O	
+

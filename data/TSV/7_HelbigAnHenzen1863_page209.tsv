@@ -1,0 +1,228 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=H Lieber Herr Professor Helbig an Henzen Siena, 16. Juli 1874 g. 19/7 74 r.
+1-1	H	NN	H	_	O	O	
+1-2	Lieber	ADJA	lieb	_	O	O	
+1-3	Herr	NN	Herr	_	O	O	
+1-4	Professor	NN	Professor	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	19/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=21/7 74 16. Juli 1874 Vorgestern bin ich endlich mit meiner Atropincur fertig geworden und heute schreibe ich Ihnen diese wenigen Zeilen, wenige, da ich noch immer auf Schonung meiner Augen angewiesen bin.
+2-1	21/7	CARD	@card@	_	O	O	
+2-2	74	CARD	74	_	O	O	
+2-3	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-4	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-5	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-6	1874	CARD	@card@	_	O	O	
+2-7	Vorgestern	NN	<unknown>	_	O	O	
+2-8	bin	VAFIN	sein	_	O	O	
+2-9	ich	PPER	ich	_	O	O	
+2-10	endlich	ADV	endlich	_	O	O	
+2-11	mit	APPR	mit	_	O	O	
+2-12	meiner	PPOSAT	mein	_	O	O	
+2-13	Atropincur	NN	<unknown>	_	O	O	
+2-14	fertig	ADJD	fertig	_	O	O	
+2-15	geworden	VAPP	werden	_	O	O	
+2-16	und	KON	und	_	O	O	
+2-17	heute	ADV	heute	_	O	O	
+2-18	schreibe	VVFIN	schreiben	_	O	O	
+2-19	ich	PPER	ich	_	O	O	
+2-20	Ihnen	PPER	Sie	_	O	O	
+2-21	diese	PDAT	dies	_	O	O	
+2-22	wenigen	PIAT	wenige	_	O	O	
+2-23	Zeilen	NN	Zeile	_	O	O	
+2-24	,	$,	,	_	O	O	
+2-25	wenige	PIS	wenige	_	O	O	
+2-26	,	$,	,	_	O	O	
+2-27	da	KOUS	da	_	O	O	
+2-28	ich	PPER	ich	_	O	O	
+2-29	noch	ADV	noch	_	O	O	
+2-30	immer	ADV	immer	_	O	O	
+2-31	auf	APPR	auf	_	O	O	
+2-32	Schonung	NN	Schonung	_	O	O	
+2-33	meiner	PPOSAT	mein	_	O	O	
+2-34	Augen	NN	Auge	_	O	O	
+2-35	angewiesen	VVPP	anweisen	_	O	O	
+2-36	bin	VAFIN	sein	_	O	O	
+2-37	.	$.	.	_	O	O	
+
+#id=3
+#text=Es geht uns nach wie vor gut und der Aufenthalt gefällt uns noch immer vortrefflich, um so mehr, da seit einer Woche beinah alle Nachmittage kleine Gewitter die Luft abkühlen.
+3-1	Es	PPER	es	_	O	O	
+3-2	geht	VVFIN	gehen	_	O	O	
+3-3	uns	PPER	wir	_	O	O	
+3-4	nach	PTKVZ	nach	_	O	O	
+3-5	wie	KOKOM	wie	_	O	O	
+3-6	vor	APPR	vor	_	O	O	
+3-7	gut	ADJD	gut	_	O	O	
+3-8	und	KON	und	_	O	O	
+3-9	der	ART	die	_	O	O	
+3-10	Aufenthalt	NN	Aufenthalt	_	O	O	
+3-11	gefällt	VVFIN	gefallen	_	O	O	
+3-12	uns	PPER	wir	_	O	O	
+3-13	noch	ADV	noch	_	O	O	
+3-14	immer	ADV	immer	_	O	O	
+3-15	vortrefflich	ADJD	vortrefflich	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	um	KOUI	um	_	O	O	
+3-18	so	ADV	so	_	O	O	
+3-19	mehr	ADV	mehr	_	O	O	
+3-20	,	$,	,	_	O	O	
+3-21	da	KOUS	da	_	O	O	
+3-22	seit	APPR	seit	_	O	O	
+3-23	einer	ART	eine	_	O	O	
+3-24	Woche	NN	Woche	_	O	O	
+3-25	beinah	ADV	beinah	_	O	O	
+3-26	alle	PIAT	alle	_	O	O	
+3-27	Nachmittage	NN	Nachmittag	_	O	O	
+3-28	kleine	ADJA	klein	_	O	O	
+3-29	Gewitter	NN	Gewitter	_	O	O	
+3-30	die	ART	die	_	O	O	
+3-31	Luft	NN	Luft	_	O	O	
+3-32	abkühlen	VVFIN	abkühlen	_	O	O	
+3-33	.	$.	.	_	O	O	
+
+#id=4
+#text=Unangenehm sind, wie gesagt, nur die unverhältnismäßig großen Dimensionen der Villa und die immerhin beträchtliche Entfernung der Stadt, die uns veranIaßt hat, eine Equippe zu miethen.
+4-1	Unangenehm	ADJD	unangenehm	_	O	O	
+4-2	sind	VAFIN	sein	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	wie	KOKOM	wie	_	O	O	
+4-5	gesagt	VVPP	sagen	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	nur	ADV	nur	_	O	O	
+4-8	die	ART	die	_	O	O	
+4-9	unverhältnismäßig	ADV	unverhältnismäßig	_	O	O	
+4-10	großen	ADJA	groß	_	O	O	
+4-11	Dimensionen	NN	Dimension	_	O	O	
+4-12	der	ART	die	_	O	O	
+4-13	Villa	NN	Villa	_	O	O	
+4-14	und	KON	und	_	O	O	
+4-15	die	ART	die	_	O	O	
+4-16	immerhin	ADV	immerhin	_	O	O	
+4-17	beträchtliche	ADJA	beträchtlich	_	O	O	
+4-18	Entfernung	NN	Entfernung	_	O	O	
+4-19	der	ART	die	_	O	O	
+4-20	Stadt	NN	Stadt	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	die	PRELS	die	_	O	O	
+4-23	uns	PRF	wir	_	O	O	
+4-24	veranIaßt	ADJD	<unknown>	_	O	O	
+4-25	hat	VAFIN	haben	_	O	O	
+4-26	,	$,	,	_	O	O	
+4-27	eine	ART	eine	_	O	O	
+4-28	Equippe	NN	<unknown>	_	O	O	
+4-29	zu	APPR	zu	_	O	O	
+4-30	miethen	NE	<unknown>	_	O	O	
+4-31	.	$.	.	_	O	O	
+
+#id=5
+#text=Es kostet uns nunmehr ziemlich viel Kopfzerbrechen, den Pferden die nöthige Bewegung zu machen.
+5-1	Es	PPER	es	_	O	O	
+5-2	kostet	VVFIN	kosten	_	O	O	
+5-3	uns	PPER	wir	_	O	O	
+5-4	nunmehr	ADV	nunmehr	_	O	O	
+5-5	ziemlich	ADV	ziemlich	_	O	O	
+5-6	viel	PIAT	viele	_	O	O	
+5-7	Kopfzerbrechen	NN	Kopfzerbrechen	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	den	ART	die	_	O	O	
+5-10	Pferden	NN	Pferd	_	O	O	
+5-11	die	ART	die	_	O	O	
+5-12	nöthige	ADJA	<unknown>	_	O	O	
+5-13	Bewegung	NN	Bewegung	_	O	O	
+5-14	zu	PTKZU	zu	_	O	O	
+5-15	machen	VVINF	machen	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Unterdeß erhielt ich einen Brief von Kekule, worin er mich bat, die Erläuterung des Ephebenkopfes ( Taf. VII) einem anderen zu übertragen.
+6-1	Unterdeß	NE	<unknown>	_	O	O	
+6-2	erhielt	VVFIN	erhalten	_	O	O	
+6-3	ich	PPER	ich	_	O	O	
+6-4	einen	ART	eine	_	O	O	
+6-5	Brief	NN	Brief	_	O	O	
+6-6	von	APPR	von	_	O	O	
+6-7	Kekule	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-8	,	$,	,	_	O	O	
+6-9	worin	PWAV	worin	_	O	O	
+6-10	er	PPER	er	_	O	O	
+6-11	mich	PRF	ich	_	O	O	
+6-12	bat	VVFIN	bitten	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	die	ART	die	_	O	O	
+6-15	Erläuterung	NN	Erläuterung	_	O	O	
+6-16	des	ART	die	_	O	O	
+6-17	Ephebenkopfes	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-18	(	$(	(	_	O	O	
+6-19	Taf	NE	<unknown>	_	O	O	
+6-20	.	$.	.	_	O	O	
+6-21	VII	CARD	VII	_	O	O	
+6-22	)	$(	)	_	O	O	
+6-23	einem	ART	eine	_	O	O	
+6-24	anderen	PIS	andere	_	O	O	
+6-25	zu	PTKZU	zu	_	O	O	
+6-26	übertragen	VVINF	übertragen	_	O	O	
+6-27	.	$.	.	_	O	O	
+
+#id=7
+#text=Er könne über denselben zu keinem positiven Resultate gelangen.
+7-1	Er	PPER	er	_	O	O	
+7-2	könne	VMFIN	können	_	O	O	
+7-3	über	APPR	über	_	O	O	
+7-4	denselben	PDAT	derselb	_	O	O	
+7-5	zu	APPR	zu	_	O	O	
+7-6	keinem	PIAT	keine	_	O	O	
+7-7	positiven	ADJA	positiv	_	O	O	
+7-8	Resultate	NN	Resultat	_	O	O	
+7-9	gelangen	VVINF	gelangen	_	O	O	
+7-10	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich habe ihn an sein gegebenes Wort erinnert und darauf bestanden, daß er baldigst den versprochenen Text liefere.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	habe	VAFIN	haben	_	O	O	
+8-3	ihn	PPER	er	_	O	O	
+8-4	an	APPR	an	_	O	O	
+8-5	sein	PPOSAT	sein	_	O	O	
+8-6	gegebenes	ADJA	gegeben	_	O	O	
+8-7	Wort	NN	Wort	_	O	O	
+8-8	erinnert	VVPP	erinnern	_	O	O	
+8-9	und	KON	und	_	O	O	
+8-10	darauf	PAV	darauf	_	O	O	
+8-11	bestanden	VVPP	bestehen	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	daß	KOUS	dass	_	O	O	
+8-14	er	PPER	er	_	O	O	
+8-15	baldigst	ADJD	baldig	_	O	O	
+8-16	den	ART	die	_	O	O	
+8-17	versprochenen	ADJA	versprochen	_	O	O	
+8-18	Text	NN	Text	_	O	O	
+8-19	liefere	VVFIN	liefern	_	O	O	
+8-20	.	$.	.	_	O	O	
+
+#id=9
+#text=Wenn Sie binnen 14 Tagen nichts Weiteres hören,
+9-1	Wenn	KOUS	wenn	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	binnen	APPR	binnen	_	O	O	
+9-4	14	CARD	14	_	O	O	
+9-5	Tagen	NN	Tag	_	O	O	
+9-6	nichts	PIAT	nichts	_	O	O	
+9-7	Weiteres	NN	Weiter	_	O	O	
+9-8	hören	VVFIN	hören	_	O	O	
+9-9	,	$,	,	_	O	O	
+

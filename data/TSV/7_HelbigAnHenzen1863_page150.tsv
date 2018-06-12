@@ -1,0 +1,267 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=320 3 Helbig an Henzen Zürich, 30. August 1870 gen, die ihr bei ihrer Niederkunft Schwierigkeiten bereiten wird.
+1-1	320	CARD	320	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	gen	APPR	gen	_	O	O	
+1-13	,	$,	,	_	O	O	
+1-14	die	PRELS	die	_	O	O	
+1-15	ihr	PPER	ihr	_	O	O	
+1-16	bei	APPR	bei	_	O	O	
+1-17	ihrer	PPOSAT	ihr	_	O	O	
+1-18	Niederkunft	NN	Niederkunft	_	O	O	
+1-19	Schwierigkeiten	NN	Schwierigkeit	_	O	O	
+1-20	bereiten	VVINF	bereiten	_	O	O	
+1-21	wird	VAFIN	werden	_	O	O	
+1-22	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich sehe dem Ereignisse mit großer Sorge entgegen.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	sehe	VVFIN	sehen	_	O	O	
+2-3	dem	ART	die	_	O	O	
+2-4	Ereignisse	NN	Ereignis	_	O	O	
+2-5	mit	APPR	mit	_	O	O	
+2-6	großer	ADJA	groß	_	O	O	
+2-7	Sorge	NN	Sorge	_	O	O	
+2-8	entgegen	PTKVZ	entgegen	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Dazu kommt auch, daß uns das Ausbleiben meiner Schwiegermutter beunruhigt.
+3-1	Dazu	PAV	dazu	_	O	O	
+3-2	kommt	VVFIN	kommen	_	O	O	
+3-3	auch	ADV	auch	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	daß	KOUS	dass	_	O	O	
+3-6	uns	PPER	wir	_	O	O	
+3-7	das	ART	die	_	O	O	
+3-8	Ausbleiben	NN	Ausbleiben	_	O	O	
+3-9	meiner	PPOSAT	mein	_	O	O	
+3-10	Schwiegermutter	NN	Schwiegermutter	_	O	O	
+3-11	beunruhigt	VVPP	beunruhigen	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Sie sollte bereits seit drei Tagen hier sein; doch ist sie nicht eingetroffen und hat auch kein Sterbenswörtchen verlauten lassen.
+4-1	Sie	PPER	Sie	_	O	O	
+4-2	sollte	VMFIN	sollen	_	O	O	
+4-3	bereits	ADV	bereits	_	O	O	
+4-4	seit	APPR	seit	_	O	O	
+4-5	drei	CARD	drei	_	O	O	
+4-6	Tagen	NN	Tag	_	O	O	
+4-7	hier	ADV	hier	_	O	O	
+4-8	sein	VAINF	sein	_	O	O	
+4-9	;	$.	;	_	O	O	
+4-10	doch	ADV	doch	_	O	O	
+4-11	ist	VAFIN	sein	_	O	O	
+4-12	sie	PPER	sie	_	O	O	
+4-13	nicht	PTKNEG	nicht	_	O	O	
+4-14	eingetroffen	VVPP	eintreffen	_	O	O	
+4-15	und	KON	und	_	O	O	
+4-16	hat	VAFIN	haben	_	O	O	
+4-17	auch	ADV	auch	_	O	O	
+4-18	kein	PIAT	keine	_	O	O	
+4-19	Sterbenswörtchen	NN	Sterbenswörtchen	_	O	O	
+4-20	verlauten	VVINF	verlauten	_	O	O	
+4-21	lassen	VVINF	lassen	_	O	O	
+4-22	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich vermuthe fast, daß sie in irgendwelchem an ihrem Wege liegenden Hospital Halt gemacht hat und die Depesche oder der Brief, der uns hiervon Nachricht geben sollte, verloren ist.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	vermuthe	VVFIN	<unknown>	_	O	O	
+5-3	fast	ADV	fast	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	daß	KOUS	dass	_	O	O	
+5-6	sie	PPER	sie	_	O	O	
+5-7	in	APPR	in	_	O	O	
+5-8	irgendwelchem	PIS	irgendwelche	_	O	O	
+5-9	an	APPR	an	_	O	O	
+5-10	ihrem	PPOSAT	ihr	_	O	O	
+5-11	Wege	NN	Weg	_	O	O	
+5-12	liegenden	ADJA	liegend	_	O	O	
+5-13	Hospital	NN	Hospital	_	O	O	
+5-14	Halt	NN	Halt	_	O	O	
+5-15	gemacht	VVPP	machen	_	O	O	
+5-16	hat	VAFIN	haben	_	O	O	
+5-17	und	KON	und	_	O	O	
+5-18	die	ART	die	_	O	O	
+5-19	Depesche	NN	Depesche	_	O	O	
+5-20	oder	KON	oder	_	O	O	
+5-21	der	ART	die	_	O	O	
+5-22	Brief	NN	Brief	_	O	O	
+5-23	,	$,	,	_	O	O	
+5-24	der	PRELS	die	_	O	O	
+5-25	uns	PRF	wir	_	O	O	
+5-26	hiervon	PAV	hiervon	_	O	O	
+5-27	Nachricht	NN	Nachricht	_	O	O	
+5-28	geben	VVINF	geben	_	O	O	
+5-29	sollte	VMFIN	sollen	_	O	O	
+5-30	,	$,	,	_	O	O	
+5-31	verloren	VVPP	verlieren	_	O	O	
+5-32	ist	VAFIN	sein	_	O	O	
+5-33	.	$.	.	_	O	O	
+
+#id=6
+#text=Was die caeretaner Affaire betrifft, so wundere ich mich, daß man, "da man gar nicht daran denkt, meine Vorschläge zu berücksichtigen", mir dies erst jetzt anzeigt und mir nicht die Mühe erspart hat, von Zürich aus italienische Stylübungen zu veranstalten, um Fühlung mit der Sache zu behalten.
+6-1	Was	PWS	was	_	O	O	
+6-2	die	ART	die	_	O	O	
+6-3	caeretaner	ADJA	<unknown>	_	O	O	
+6-4	Affaire	NN	<unknown>	_	O	O	
+6-5	betrifft	VVFIN	betreffen	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	so	ADV	so	_	O	O	
+6-8	wundere	VVFIN	wundern	_	O	O	
+6-9	ich	PPER	ich	_	O	O	
+6-10	mich	PRF	ich	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	daß	KOUS	dass	_	O	O	
+6-13	man	PIS	man	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	"	$(	"	_	O	O	
+6-16	da	KOUS	da	_	O	O	
+6-17	man	PIS	man	_	O	O	
+6-18	gar	ADV	gar	_	O	O	
+6-19	nicht	PTKNEG	nicht	_	O	O	
+6-20	daran	PAV	daran	_	O	O	
+6-21	denkt	VVFIN	denken	_	O	O	
+6-22	,	$,	,	_	O	O	
+6-23	meine	PPOSAT	mein	_	O	O	
+6-24	Vorschläge	NN	Vorschlag	_	O	O	
+6-25	zu	PTKZU	zu	_	O	O	
+6-26	berücksichtigen	VVINF	berücksichtigen	_	O	O	
+6-27	"	$(	"	_	O	O	
+6-28	,	$,	,	_	O	O	
+6-29	mir	PRF	ich	_	O	O	
+6-30	dies	PDS	dies	_	O	O	
+6-31	erst	ADV	erst	_	O	O	
+6-32	jetzt	ADV	jetzt	_	O	O	
+6-33	anzeigt	VVFIN	anzeigen	_	O	O	
+6-34	und	KON	und	_	O	O	
+6-35	mir	PRF	ich	_	O	O	
+6-36	nicht	PTKNEG	nicht	_	O	O	
+6-37	die	ART	die	_	O	O	
+6-38	Mühe	NN	Mühe	_	O	O	
+6-39	erspart	VVPP	ersparen	_	O	O	
+6-40	hat	VAFIN	haben	_	O	O	
+6-41	,	$,	,	_	O	O	
+6-42	von	APPR	von	_	O	O	
+6-43	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-44	aus	APPR	aus	_	O	O	
+6-45	italienische	ADJA	italienisch	_	O	O	
+6-46	Stylübungen	NN	<unknown>	_	O	O	
+6-47	zu	PTKZU	zu	_	O	O	
+6-48	veranstalten	VVINF	veranstalten	_	O	O	
+6-49	,	$,	,	_	O	O	
+6-50	um	KOUI	um	_	O	O	
+6-51	Fühlung	NN	Fühlung	_	O	O	
+6-52	mit	APPR	mit	_	O	O	
+6-53	der	ART	die	_	O	O	
+6-54	Sache	NN	Sache	_	O	O	
+6-55	zu	PTKZU	zu	_	O	O	
+6-56	behalten	VVINF	behalten	_	O	O	
+6-57	.	$.	.	_	O	O	
+
+#id=7
+#text=Wenn man in meinen Angaben Widersprüche findet, so Theilen Sie, bitte, der Commission mit, daß es ganz gut möglich ist, daß sich die Incrusta~ tionen eines tuscanischen Tempels in einem Monte Testaccio vorfinden.
+7-1	Wenn	KOUS	wenn	_	O	O	
+7-2	man	PIS	man	_	O	O	
+7-3	in	APPR	in	_	O	O	
+7-4	meinen	PPOSAT	mein	_	O	O	
+7-5	Angaben	NN	Angabe	_	O	O	
+7-6	Widersprüche	NN	Widerspruch	_	O	O	
+7-7	findet	VVFIN	finden	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	so	ADV	so	_	O	O	
+7-10	Theilen	NN	<unknown>	_	O	O	
+7-11	Sie	PPER	Sie	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	bitte	VVIMP	bitten	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	der	ART	die	_	O	O	
+7-16	Commission	NN	<unknown>	_	O	O	
+7-17	mit	PTKVZ	mit	_	O	O	
+7-18	,	$,	,	_	O	O	
+7-19	daß	KOUS	dass	_	O	O	
+7-20	es	PPER	es	_	O	O	
+7-21	ganz	ADV	ganz	_	O	O	
+7-22	gut	ADJD	gut	_	O	O	
+7-23	möglich	ADJD	möglich	_	O	O	
+7-24	ist	VAFIN	sein	_	O	O	
+7-25	,	$,	,	_	O	O	
+7-26	daß	KOUS	dass	_	O	O	
+7-27	sich	PRF	sich	_	O	O	
+7-28	die	ART	die	_	O	O	
+7-29	Incrusta~	ADJA	<unknown>	_	O	O	
+7-30	tionen	NN	<unknown>	_	O	O	
+7-31	eines	ART	eine	_	O	O	
+7-32	tuscanischen	ADJA	<unknown>	_	O	O	
+7-33	Tempels	NN	Tempel	_	O	O	
+7-34	in	APPR	in	_	O	O	
+7-35	einem	ART	eine	_	O	O	
+7-36	Monte	NE	Monte	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-37	Testaccio	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+7-38	vorfinden	VVFIN	vorfinden	_	O	O	
+7-39	.	$.	.	_	O	O	
+
+#id=8
+#text=Übrigens geht es aus dem Thatbestande der Ausgrabung deutlich hervor, daß es sich um eine einmalige Ablagerung handelt, daß die Ablagerungsstelle nicht längere Zeit diente.
+8-1	Übrigens	ADV	übrigens	_	O	O	
+8-2	geht	VVFIN	gehen	_	O	O	
+8-3	es	PPER	es	_	O	O	
+8-4	aus	APPR	aus	_	O	O	
+8-5	dem	ART	die	_	O	O	
+8-6	Thatbestande	NN	<unknown>	_	O	O	
+8-7	der	ART	die	_	O	O	
+8-8	Ausgrabung	NN	Ausgrabung	_	O	O	
+8-9	deutlich	ADJD	deutlich	_	O	O	
+8-10	hervor	PTKVZ	hervor	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	daß	KOUS	dass	_	O	O	
+8-13	es	PPER	es	_	O	O	
+8-14	sich	PRF	sich	_	O	O	
+8-15	um	APPR	um	_	O	O	
+8-16	eine	ART	eine	_	O	O	
+8-17	einmalige	ADJA	einmalig	_	O	O	
+8-18	Ablagerung	NN	Ablagerung	_	O	O	
+8-19	handelt	VVFIN	handeln	_	O	O	
+8-20	,	$,	,	_	O	O	
+8-21	daß	KOUS	dass	_	O	O	
+8-22	die	ART	die	_	O	O	
+8-23	Ablagerungsstelle	NN	<unknown>	_	O	O	
+8-24	nicht	PTKNEG	nicht	_	O	O	
+8-25	längere	ADJA	lang	_	O	O	
+8-26	Zeit	NN	Zeit	_	O	O	
+8-27	diente	VVFIN	dienen	_	O	O	
+8-28	.	$.	.	_	O	O	
+
+#id=9
+#text=Weiteres darüber in dem Grenzboten.
+9-1	Weiteres	ADJA	weit	_	O	O	
+9-2	darüber	PAV	darüber	_	O	O	
+9-3	in	APPR	in	_	O	O	
+9-4	dem	ART	die	_	O	O	
+9-5	Grenzboten	NN	<unknown>	_	O	O	
+9-6	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich benutze diese Gelegenheit, Ihnen eine In-
+10-1	Ich	PPER	ich	_	O	O	
+10-2	benutze	VVFIN	benutzen	_	O	O	
+10-3	diese	PDAT	dies	_	O	O	
+10-4	Gelegenheit	NN	Gelegenheit	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	Ihnen	PPER	Sie	_	O	O	
+10-7	eine	ART	eine	_	O	O	
+10-8	In-	TRUNC	In-	_	O	O	
+

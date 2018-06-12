@@ -1,0 +1,125 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=261 16/VII/53 Rossi zu sprechen.
+1-1	261	CARD	@card@	_	O	O	
+1-2	16/VII/53	NN	<unknown>	_	O	O	
+1-3	Rossi	NE	Rossi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	zu	PTKZU	zu	_	O	O	
+1-5	sprechen	VVINF	sprechen	_	O	O	
+1-6	.	$.	.	_	O	O	
+
+#id=2
+#text=Henzen an Gerhard 3 Ich bitte mir zu sagen, in welcher weise ich mich wegen der Correspondentens6haft zu bedanken habe; doch wohl erst nach empfangenem Diplom ?
+2-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	an	APPR	an	_	O	O	
+2-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	3	CARD	3	_	O	O	
+2-5	Ich	PPER	ich	_	O	O	
+2-6	bitte	PTKANT	bitte	_	O	O	
+2-7	mir	PPER	ich	_	O	O	
+2-8	zu	PTKZU	zu	_	O	O	
+2-9	sagen	VVINF	sagen	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	in	APPR	in	_	O	O	
+2-12	welcher	PRELS	welche	_	O	O	
+2-13	weise	VVFIN	weisen	_	O	O	
+2-14	ich	PPER	ich	_	O	O	
+2-15	mich	PRF	ich	_	O	O	
+2-16	wegen	APPR	wegen	_	O	O	
+2-17	der	ART	die	_	O	O	
+2-18	Correspondentens6haft	NN	<unknown>	_	O	O	
+2-19	zu	PTKZU	zu	_	O	O	
+2-20	bedanken	VVINF	bedanken	_	O	O	
+2-21	habe	VAFIN	haben	_	O	O	
+2-22	;	$.	;	_	O	O	
+2-23	doch	KON	doch	_	O	O	
+2-24	wohl	ADV	wohl	_	O	O	
+2-25	erst	ADV	erst	_	O	O	
+2-26	nach	APPR	nach	_	O	O	
+2-27	empfangenem	ADJA	<unknown>	_	O	O	
+2-28	Diplom	NN	Diplom	_	O	O	
+2-29	?	$.	?	_	O	O	
+
+#id=3
+#text=Brunn arbeitet sehr eifrig; ist schon zwei Mal arretirt auf seinen Fahrten.
+3-1	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	arbeitet	VVFIN	arbeiten	_	O	O	
+3-3	sehr	ADV	sehr	_	O	O	
+3-4	eifrig	ADJD	eifrig	_	O	O	
+3-5	;	$.	;	_	O	O	
+3-6	ist	VAFIN	sein	_	O	O	
+3-7	schon	ADV	schon	_	O	O	
+3-8	zwei	CARD	zwei	_	O	O	
+3-9	Mal	NN	Mal	_	O	O	
+3-10	arretirt	NN	<unknown>	_	O	O	
+3-11	auf	APPR	auf	_	O	O	
+3-12	seinen	PPOSAT	sein	_	O	O	
+3-13	Fahrten	NN	Fahrt	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Daß er vor September nicht von hier fortkommt, wird mir allmiählich klar.
+4-1	Daß	KOUS	dass	_	O	O	
+4-2	er	PPER	er	_	O	O	
+4-3	vor	APPR	vor	_	O	O	
+4-4	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-5	nicht	PTKNEG	nicht	_	O	O	
+4-6	von	APPR	von	_	O	O	
+4-7	hier	ADV	hier	_	O	O	
+4-8	fortkommt	VVFIN	fortkommen	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	wird	VAFIN	werden	_	O	O	
+4-11	mir	PPER	ich	_	O	O	
+4-12	allmiählich	ADJD	<unknown>	_	O	O	
+4-13	klar	ADJD	klar	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Meine Frau grüßt mir mir herzelich Sie u. die Ihrige.
+5-1	Meine	PPOSAT	mein	_	O	O	
+5-2	Frau	NN	Frau	_	O	O	
+5-3	grüßt	VVFIN	grüßen	_	O	O	
+5-4	mir	PPER	ich	_	O	O	
+5-5	mir	PRF	ich	_	O	O	
+5-6	herzelich	ADJD	<unknown>	_	O	O	
+5-7	Sie	PPER	Sie	_	O	O	
+5-8	u.	APPR	um	_	O	O	
+5-9	die	ART	die	_	O	O	
+5-10	Ihrige	PPOSAT	ihrige	_	O	O	
+5-11	.	$.	.	_	O	O	
+
+#id=6
+#text=Leben Sie recht wohl.
+6-1	Leben	VVFIN	leben	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	recht	ADJD	recht	_	O	O	
+6-4	wohl	ADV	wohl	_	O	O	
+6-5	.	$.	.	_	O	O	
+
+#id=7
+#text=Ihr nächster Brief findet mich hoffentlich in etwas kühlerer IJuft.
+7-1	Ihr	PPOSAT	ihr	_	O	O	
+7-2	nächster	ADJA	nah	_	O	O	
+7-3	Brief	NN	Brief	_	O	O	
+7-4	findet	VVFIN	finden	_	O	O	
+7-5	mich	PRF	ich	_	O	O	
+7-6	hoffentlich	ADV	hoffentlich	_	O	O	
+7-7	in	APPR	in	_	O	O	
+7-8	etwas	PIAT	etwas	_	O	O	
+7-9	kühlerer	ADJA	kühl	_	O	O	
+7-10	IJuft	NN	<unknown>	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Rom 16/VII 53.
+8-1	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+8-2	16/VII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+8-3	53	CARD	53	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-4	.	$.	.	_	O	O	
+
+#id=9
+#text=Ihr ergebenster WHenzen
+9-1	Ihr	PPOSAT	ihr	_	O	O	
+9-2	ergebenster	ADJA	<unknown>	_	O	O	
+9-3	WHenzen	NN	<unknown>	_	O	O	
+

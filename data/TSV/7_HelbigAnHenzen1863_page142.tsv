@@ -1,0 +1,263 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=302 3 Helbig an Henzen Zürich, 3. August 1870 nichts dagegen haben, wenn ich wegen der unerwartet eingetretenen Ereignisse den von mir ursprünglich beabsichtigten Termin nicht eingehalten habe.
+1-1	302	CARD	@card@	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	nichts	PIAT	nichts	_	O	O	
+1-13	dagegen	PAV	dagegen	_	O	O	
+1-14	haben	VAFIN	haben	_	O	O	
+1-15	,	$,	,	_	O	O	
+1-16	wenn	KOUS	wenn	_	O	O	
+1-17	ich	PPER	ich	_	O	O	
+1-18	wegen	APPR	wegen	_	O	O	
+1-19	der	ART	die	_	O	O	
+1-20	unerwartet	ADJD	unerwartet	_	O	O	
+1-21	eingetretenen	ADJA	eingetreten	_	O	O	
+1-22	Ereignisse	NN	Ereignis	_	O	O	
+1-23	den	ART	die	_	O	O	
+1-24	von	APPR	von	_	O	O	
+1-25	mir	PPER	ich	_	O	O	
+1-26	ursprünglich	ADJD	ursprünglich	_	O	O	
+1-27	beabsichtigten	ADJA	beabsichtigt	_	O	O	
+1-28	Termin	NN	Termin	_	O	O	
+1-29	nicht	PTKNEG	nicht	_	O	O	
+1-30	eingehalten	VVPP	einhalten	_	O	O	
+1-31	habe	VAFIN	haben	_	O	O	
+1-32	.	$.	.	_	O	O	
+
+#id=2
+#text=Von geschäftlichen Dingen hätte ich nur Eines zu erwähnen.
+2-1	Von	APPR	von	_	O	O	
+2-2	geschäftlichen	ADJA	geschäftlich	_	O	O	
+2-3	Dingen	NN	Ding	_	O	O	
+2-4	hätte	VAFIN	haben	_	O	O	
+2-5	ich	PPER	ich	_	O	O	
+2-6	nur	ADV	nur	_	O	O	
+2-7	Eines	PIS	eine	_	O	O	
+2-8	zu	PTKZU	zu	_	O	O	
+2-9	erwähnen	VVINF	erwähnen	_	O	O	
+2-10	.	$.	.	_	O	O	
+
+#id=3
+#text=Sempertz wird wohl ohne weitere Anweisung so verständig gewesen sein, die Spedition der Jahnschen Bücher zu inhibiren.
+3-1	Sempertz	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	wird	VAFIN	werden	_	O	O	
+3-3	wohl	ADV	wohl	_	O	O	
+3-4	ohne	APPR	ohne	_	O	O	
+3-5	weitere	ADJA	weit	_	O	O	
+3-6	Anweisung	NN	Anweisung	_	O	O	
+3-7	so	ADV	so	_	O	O	
+3-8	verständig	ADJD	verständig	_	O	O	
+3-9	gewesen	VAPP	sein	_	O	O	
+3-10	sein	VAINF	sein	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	die	ART	die	_	O	O	
+3-13	Spedition	NN	Spedition	_	O	O	
+3-14	der	ART	die	_	O	O	
+3-15	Jahnschen	NN	<unknown>	_	O	O	
+3-16	Bücher	NN	Buch	_	O	O	
+3-17	zu	APPR	zu	_	O	O	
+3-18	inhibiren	NN	<unknown>	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich selbst habe ihm bereits in diesem Sinne von Zürich aus geschrieben.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	selbst	ADV	selbst	_	O	O	
+4-3	habe	VAFIN	haben	_	O	O	
+4-4	ihm	PPER	er	_	O	O	
+4-5	bereits	ADV	bereits	_	O	O	
+4-6	in	APPR	in	_	O	O	
+4-7	diesem	PDAT	dies	_	O	O	
+4-8	Sinne	NN	Sinn	_	O	O	
+4-9	von	APPR	von	_	O	O	
+4-10	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-11	aus	PTKVZ	aus	_	O	O	
+4-12	geschrieben	VVPP	schreiben	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Da jedoch die Comunicationen zwischen der Schweiz und den Rheinlanden sehr precärer Natur sind, so bitte ich Sie, Ihrer Seits in demselben Sinne zu schreiben.
+5-1	Da	ADV	da	_	O	O	
+5-2	jedoch	ADV	jedoch	_	O	O	
+5-3	die	ART	die	_	O	O	
+5-4	Comunicationen	NN	<unknown>	_	O	O	
+5-5	zwischen	APPR	zwischen	_	O	O	
+5-6	der	ART	die	_	O	O	
+5-7	Schweiz	NE	Schweiz	_	O	O	
+5-8	und	KON	und	_	O	O	
+5-9	den	ART	die	_	O	O	
+5-10	Rheinlanden	NN	Rheinland	_	O	O	
+5-11	sehr	ADV	sehr	_	O	O	
+5-12	precärer	ADJA	<unknown>	_	O	O	
+5-13	Natur	NN	Natur	_	O	O	
+5-14	sind	VAFIN	sein	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	so	ADV	so	_	O	O	
+5-17	bitte	VVFIN	bitten	_	O	O	
+5-18	ich	PPER	ich	_	O	O	
+5-19	Sie	PPER	Sie	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	Ihrer	PPOSAT	ihr	_	O	O	
+5-22	Seits	NN	<unknown>	_	O	O	
+5-23	in	APPR	in	_	O	O	
+5-24	demselben	PDAT	dieselb	_	O	O	
+5-25	Sinne	NN	Sinn	_	O	O	
+5-26	zu	PTKZU	zu	_	O	O	
+5-27	schreiben	VVINF	schreiben	_	O	O	
+5-28	.	$.	.	_	O	O	
+
+#id=6
+#text=Wenn ich nicht irre, hatte ich in einem meiner letzten Briefe etwas darüber fallen lassen, daß Benndorf sich gar nicht um die Meinigen bekümmert habe.
+6-1	Wenn	KOUS	wenn	_	O	O	
+6-2	ich	PPER	ich	_	O	O	
+6-3	nicht	PTKNEG	nicht	_	O	O	
+6-4	irre	PTKVZ	irre	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	hatte	VAFIN	haben	_	O	O	
+6-7	ich	PPER	ich	_	O	O	
+6-8	in	APPR	in	_	O	O	
+6-9	einem	ART	eine	_	O	O	
+6-10	meiner	PPOSAT	mein	_	O	O	
+6-11	letzten	ADJA	letzt	_	O	O	
+6-12	Briefe	NN	Brief	_	O	O	
+6-13	etwas	ADV	etwas	_	O	O	
+6-14	darüber	PAV	darüber	_	O	O	
+6-15	fallen	VVINF	fallen	_	O	O	
+6-16	lassen	VVINF	lassen	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	daß	KOUS	dass	_	O	O	
+6-19	Benndorf	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-20	sich	PRF	sich	_	O	O	
+6-21	gar	ADV	gar	_	O	O	
+6-22	nicht	PTKNEG	nicht	_	O	O	
+6-23	um	APPR	um	_	O	O	
+6-24	die	ART	die	_	O	O	
+6-25	Meinigen	PPOSS	meinig	_	O	O	
+6-26	bekümmert	VVPP	bekümmern	_	O	O	
+6-27	habe	VAFIN	haben	_	O	O	
+6-28	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich muß zur Erklärung dieses Umstandes gegenwärtig berichten, daß er meinte, meine Frau sei der Überfüllung der Pension halber nach Bern abgereist - was sie in der That in Momenten der Verzweiflung beabsichtigte.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	muß	VMFIN	müssen	_	O	O	
+7-3	zur	APPRART	zu	_	O	O	
+7-4	Erklärung	NN	Erklärung	_	O	O	
+7-5	dieses	PDAT	dies	_	O	O	
+7-6	Umstandes	NN	Umstand	_	O	O	
+7-7	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+7-8	berichten	VVINF	berichten	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	daß	KOUS	dass	_	O	O	
+7-11	er	PPER	er	_	O	O	
+7-12	meinte	VVFIN	meinen	_	O	O	
+7-13	,	$,	,	_	O	O	
+7-14	meine	PPOSAT	mein	_	O	O	
+7-15	Frau	NN	Frau	_	O	O	
+7-16	sei	VAFIN	sein	_	O	O	
+7-17	der	ART	die	_	O	O	
+7-18	Überfüllung	NN	Überfüllung	_	O	O	
+7-19	der	ART	die	_	O	O	
+7-20	Pension	NN	Pension	_	O	O	
+7-21	halber	APPO	halber	_	O	O	
+7-22	nach	APPR	nach	_	O	O	
+7-23	Bern	NE	Bern	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-24	abgereist	VVPP	abreisen	_	O	O	
+7-25	-	$(	-	_	O	O	
+7-26	was	PIS	was	_	O	O	
+7-27	sie	PPER	sie	_	O	O	
+7-28	in	APPR	in	_	O	O	
+7-29	der	ART	die	_	O	O	
+7-30	That	NE	<unknown>	_	O	O	
+7-31	in	APPR	in	_	O	O	
+7-32	Momenten	NN	Moment	_	O	O	
+7-33	der	ART	die	_	O	O	
+7-34	Verzweiflung	NN	Verzweiflung	_	O	O	
+7-35	beabsichtigte	VVFIN	beabsichtigen	_	O	O	
+7-36	.	$.	.	_	O	O	
+
+#id=8
+#text=Die Niederkunft meiner Frau ist nach Gusserows Ansicht um den 9. August oder den 9. September zu gewärtigen.
+8-1	Die	ART	die	_	O	O	
+8-2	Niederkunft	NN	Niederkunft	_	O	O	
+8-3	meiner	PPOSAT	mein	_	O	O	
+8-4	Frau	NN	Frau	_	O	O	
+8-5	ist	VAFIN	sein	_	O	O	
+8-6	nach	APPR	nach	_	O	O	
+8-7	Gusserows	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-8	Ansicht	NN	Ansicht	_	O	O	
+8-9	um	APPR	um	_	O	O	
+8-10	den	ART	die	_	O	O	
+8-11	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+8-13	August	NE	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+8-14	oder	KON	oder	_	O	O	
+8-15	den	ART	die	_	O	O	
+8-16	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+8-18	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+8-19	zu	APPR	zu	_	O	O	
+8-20	gewärtigen	ADJA	gewärtig	_	O	O	
+8-21	.	$.	.	_	O	O	
+
+#id=9
+#text=Soviel für heute.
+9-1	Soviel	PIS	soviele	_	O	O	
+9-2	für	APPR	für	_	O	O	
+9-3	heute	ADV	heute	_	O	O	
+9-4	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich habe mit der Einrichtung unserer Wohnung noch alle Hände voll zu thun, was, da wir nicht in der Stadt wohnen, sehr viel Zeit kostet.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	habe	VAFIN	haben	_	O	O	
+10-3	mit	APPR	mit	_	O	O	
+10-4	der	ART	die	_	O	O	
+10-5	Einrichtung	NN	Einrichtung	_	O	O	
+10-6	unserer	PPOSAT	unser	_	O	O	
+10-7	Wohnung	NN	Wohnung	_	O	O	
+10-8	noch	ADV	noch	_	O	O	
+10-9	alle	PIAT	alle	_	O	O	
+10-10	Hände	NN	Hand	_	O	O	
+10-11	voll	ADJD	voll	_	O	O	
+10-12	zu	APPR	zu	_	O	O	
+10-13	thun	NE	<unknown>	_	O	O	
+10-14	,	$,	,	_	O	O	
+10-15	was	PWS	was	_	O	O	
+10-16	,	$,	,	_	O	O	
+10-17	da	KOUS	da	_	O	O	
+10-18	wir	PPER	wir	_	O	O	
+10-19	nicht	PTKNEG	nicht	_	O	O	
+10-20	in	APPR	in	_	O	O	
+10-21	der	ART	die	_	O	O	
+10-22	Stadt	NN	Stadt	_	O	O	
+10-23	wohnen	VVFIN	wohnen	_	O	O	
+10-24	,	$,	,	_	O	O	
+10-25	sehr	ADV	sehr	_	O	O	
+10-26	viel	PIAT	viele	_	O	O	
+10-27	Zeit	NN	Zeit	_	O	O	
+10-28	kostet	VVFIN	kosten	_	O	O	
+10-29	.	$.	.	_	O	O	
+
+#id=11
+#text=Nächstens hoffe ich einen Brief von Ihnen aus Rom
+11-1	Nächstens	ADV	nächstens	_	O	O	
+11-2	hoffe	VVFIN	hoffen	_	O	O	
+11-3	ich	PPER	ich	_	O	O	
+11-4	einen	ART	eine	_	O	O	
+11-5	Brief	NN	Brief	_	O	O	
+11-6	von	APPR	von	_	O	O	
+11-7	Ihnen	PPER	Sie	_	O	O	
+11-8	aus	APPR	aus	_	O	O	
+11-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+

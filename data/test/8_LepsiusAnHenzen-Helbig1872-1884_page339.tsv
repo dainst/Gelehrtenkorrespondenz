@@ -1,0 +1,90 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Verehrter FreUnd Lepsius an Renzen Berlin, 8. November 1877 Berlin, den 8. Nov.
+1-1	Verehrter	ADJA	verehrt	_	O	O	
+1-2	FreUnd	NN	Freund	_	O	O	
+1-3	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-13	,	$,	,	_	O	O	
+1-14	den	ART	die	_	O	O	
+1-15	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-16	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-17	Nov.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=2
+#text=1877 Ich füge dem beifolgenden Ergebnisse der letzten Sitzung nur noch hinzu, daß es nicht thunlich erschien die Angelegenheit der architektonischen Bibliothek bis zu Mommsen's unbestimmter Rückkehr zu verschieben, da das AJ~ärtige Amt Eile verlangte und auch die Sachlage keine andre Entscheidung zuließ.
+2-1	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Ich	PPER	ich	_	O	O	
+2-3	füge	VVFIN	fügen	_	O	O	
+2-4	dem	ART	die	_	O	O	
+2-5	beifolgenden	ADJA	<unknown>	_	O	O	
+2-6	Ergebnisse	NN	Ergebnis	_	O	O	
+2-7	der	ART	die	_	O	O	
+2-8	letzten	ADJA	letzt	_	O	O	
+2-9	Sitzung	NN	Sitzung	_	O	O	
+2-10	nur	ADV	nur	_	O	O	
+2-11	noch	ADV	noch	_	O	O	
+2-12	hinzu	PTKVZ	hinzu	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	daß	KOUS	dass	_	O	O	
+2-15	es	PPER	es	_	O	O	
+2-16	nicht	PTKNEG	nicht	_	O	O	
+2-17	thunlich	ADJD	<unknown>	_	O	O	
+2-18	erschien	VVFIN	erscheinen	_	O	O	
+2-19	die	ART	die	_	O	O	
+2-20	Angelegenheit	NN	Angelegenheit	_	O	O	
+2-21	der	ART	die	_	O	O	
+2-22	architektonischen	ADJA	architektonisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-23	Bibliothek	NN	Bibliothek	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+2-24	bis	KON	bis	_	O	O	
+2-25	zu	APPR	zu	_	O	O	
+2-26	Mommsen's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-27	unbestimmter	ADJA	unbestimmt	_	O	O	
+2-28	Rückkehr	NN	Rückkehr	_	O	O	
+2-29	zu	PTKZU	zu	_	O	O	
+2-30	verschieben	VVINF	verschieben	_	O	O	
+2-31	,	$,	,	_	O	O	
+2-32	da	KOUS	da	_	O	O	
+2-33	das	ART	die	_	O	O	
+2-34	AJ~ärtige	NN	<unknown>	_	O	O	
+2-35	Amt	NN	Amt	_	O	O	
+2-36	Eile	NN	Eile	_	O	O	
+2-37	verlangte	VVFIN	verlangen	_	O	O	
+2-38	und	KON	und	_	O	O	
+2-39	auch	ADV	auch	_	O	O	
+2-40	die	ART	die	_	O	O	
+2-41	Sachlage	NN	Sachlage	_	O	O	
+2-42	keine	PIAT	keine	_	O	O	
+2-43	andre	PIAT	andere	_	O	O	
+2-44	Entscheidung	NN	Entscheidung	_	O	O	
+2-45	zuließ	VVFIN	zulassen	_	O	O	
+2-46	.	$.	.	_	O	O	
+
+#id=3
+#text=Endlich tritt bei uns das überschlagene schöne Oktoberwetter ein.
+3-1	Endlich	ADV	endlich	_	O	O	
+3-2	tritt	VVFIN	treten	_	O	O	
+3-3	bei	APPR	bei	_	O	O	
+3-4	uns	PPER	wir	_	O	O	
+3-5	das	ART	die	_	O	O	
+3-6	überschlagene	ADJA	<unknown>	_	O	O	
+3-7	schöne	ADJA	schön	_	O	O	
+3-8	Oktoberwetter	NN	Oktoberwetter	_	O	O	
+3-9	ein	PTKVZ	ein	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Ihr ergebenster R Lepsius
+4-1	Ihr	PPOSAT	ihr	_	O	O	
+4-2	ergebenster	ADJA	<unknown>	_	O	O	
+4-3	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+4-4	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

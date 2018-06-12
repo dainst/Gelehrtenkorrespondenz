@@ -1,0 +1,323 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=242 1/XI/51 Henzen an Gerhard Rom 1/XI/51 Hochverehrter Herr Professor Ich beantworte Ihre beiden Briefe vom 6 u. 21 v. M., ohne dß.
+1-1	242	CARD	@card@	_	O	O	
+1-2	1/XI/51	CARD	<unknown>	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	1/XI/51	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	Hochverehrter	ADJA	hochverehrt	_	O	O	
+1-9	Herr	NN	Herr	_	O	O	
+1-10	Professor	NN	Professor	_	O	O	
+1-11	Ich	PPER	ich	_	O	O	
+1-12	beantworte	VVFIN	beantworten	_	O	O	
+1-13	Ihre	PPOSAT	ihr	_	O	O	
+1-14	beiden	PIAT	beide	_	O	O	
+1-15	Briefe	NN	Brief	_	O	O	
+1-16	vom	APPRART	von	_	O	O	
+1-17	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-18	u.	KON	und	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-19	21	CARD	21	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-20	v.	APPR	von	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-21	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-22	,	$,	,	_	O	O	
+1-23	ohne	APPR	ohne	_	O	O	
+1-24	dß	NE	<unknown>	_	O	O	
+1-25	.	$.	.	_	O	O	
+
+#id=2
+#text=eigentlich Stoff vorliegt.
+2-1	eigentlich	ADV	eigentlich	_	O	O	
+2-2	Stoff	NN	Stoff	_	O	O	
+2-3	vorliegt	VVFIN	vorliegen	_	O	O	
+2-4	.	$.	.	_	O	O	
+
+#id=3
+#text=- Es ist doch sehr schade, dß.
+3-1	-	$(	-	_	O	O	
+3-2	Es	PPER	es	_	O	O	
+3-3	ist	VAFIN	sein	_	O	O	
+3-4	doch	ADV	doch	_	O	O	
+3-5	sehr	ADV	sehr	_	O	O	
+3-6	schade	ADJD	schade	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	dß	VVFIN	<unknown>	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=wir uns in Frankfurt so verfehlt haben!
+4-1	wir	PPER	wir	_	O	O	
+4-2	uns	PPER	wir	_	O	O	
+4-3	in	APPR	in	_	O	O	
+4-4	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-5	so	ADV	so	_	O	O	
+4-6	verfehlt	VVPP	verfehlen	_	O	O	
+4-7	haben	VAFIN	haben	_	O	O	
+4-8	!	$.	!	_	O	O	
+
+#id=5
+#text=- In Mainz war ich bei Klein u. mit ihm im ~useum u. beim Schwerte des Tiberius; allein epigraphische Geschäfte waren nicht zu machen, da der Mann selbst eine Sammlung Maimzer Inschriften fertig hat, auch genau ist, so weit ich ihn kenne.
+5-1	-	$(	-	_	O	O	
+5-2	In	APPR	in	_	O	O	
+5-3	Mainz	NE	Mainz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-4	war	VAFIN	sein	_	O	O	
+5-5	ich	PPER	ich	_	O	O	
+5-6	bei	APPR	bei	_	O	O	
+5-7	Klein	NE	Klein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-8	u.	KON	und	_	O	O	
+5-9	mit	APPR	mit	_	O	O	
+5-10	ihm	PPER	er	_	O	O	
+5-11	im	APPRART	in	_	O	O	
+5-12	~useum	NN	<unknown>	_	O	O	
+5-13	u.	APPR	um	_	O	O	
+5-14	beim	APPRART	bei	_	O	O	
+5-15	Schwerte	NN	Schwert	_	O	O	
+5-16	des	ART	die	_	O	O	
+5-17	Tiberius	NE	Tiberius	_	O	O	
+5-18	;	$.	;	_	O	O	
+5-19	allein	ADV	allein	_	O	O	
+5-20	epigraphische	ADJA	<unknown>	_	O	O	
+5-21	Geschäfte	NN	Geschäft	_	O	O	
+5-22	waren	VAFIN	sein	_	O	O	
+5-23	nicht	PTKNEG	nicht	_	O	O	
+5-24	zu	PTKZU	zu	_	O	O	
+5-25	machen	VVINF	machen	_	O	O	
+5-26	,	$,	,	_	O	O	
+5-27	da	KOUS	da	_	O	O	
+5-28	der	ART	die	_	O	O	
+5-29	Mann	NN	Mann	_	O	O	
+5-30	selbst	ADV	selbst	_	O	O	
+5-31	eine	ART	eine	_	O	O	
+5-32	Sammlung	NN	Sammlung	_	O	O	
+5-33	Maimzer	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-34	Inschriften	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-OBJ	
+5-35	fertig	ADJD	fertig	_	O	O	
+5-36	hat	VAFIN	haben	_	O	O	
+5-37	,	$,	,	_	O	O	
+5-38	auch	ADV	auch	_	O	O	
+5-39	genau	ADJD	genau	_	O	O	
+5-40	ist	VAFIN	sein	_	O	O	
+5-41	,	$,	,	_	O	O	
+5-42	so	ADV	so	_	O	O	
+5-43	weit	ADJD	weit	_	O	O	
+5-44	ich	PPER	ich	_	O	O	
+5-45	ihn	PPER	er	_	O	O	
+5-46	kenne	VVFIN	kennen	_	O	O	
+5-47	.	$.	.	_	O	O	
+
+#id=6
+#text=Ohnehin war allerdings ds.
+6-1	Ohnehin	ADV	ohnehin	_	O	O	
+6-2	war	VAFIN	sein	_	O	O	
+6-3	allerdings	ADV	allerdings	_	O	O	
+6-4	ds.	ADJD	<unknown>	_	O	O	
+
+#id=7
+#text=Wetter so wenig günstig, daß Excursionen ziemlich unmöglich wurden, zumal ich unsern Begleiter Delius, der uns erst in Baden Baden verließ, nicht so herumschleppen konnte.
+7-1	Wetter	VVIMP	wettern	_	O	O	
+7-2	so	ADV	so	_	O	O	
+7-3	wenig	ADV	wenig	_	O	O	
+7-4	günstig	ADJD	günstig	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	daß	KOUS	dass	_	O	O	
+7-7	Excursionen	NN	<unknown>	_	O	O	
+7-8	ziemlich	ADV	ziemlich	_	O	O	
+7-9	unmöglich	ADJD	unmöglich	_	O	O	
+7-10	wurden	VAFIN	werden	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	zumal	KOUS	zumal	_	O	O	
+7-13	ich	PPER	ich	_	O	O	
+7-14	unsern	PPOSAT	unsre	_	O	O	
+7-15	Begleiter	NN	Begleiter	_	O	O	
+7-16	Delius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-17	,	$,	,	_	O	O	
+7-18	der	PRELS	die	_	O	O	
+7-19	uns	PPER	wir	_	O	O	
+7-20	erst	ADV	erst	_	O	O	
+7-21	in	APPR	in	_	O	O	
+7-22	Baden	NE	Baden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-23	Baden	NE	Baden	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+7-24	verließ	VVFIN	verlassen	_	O	O	
+7-25	,	$,	,	_	O	O	
+7-26	nicht	PTKNEG	nicht	_	O	O	
+7-27	so	ADV	so	_	O	O	
+7-28	herumschleppen	VVINF	herumschleppen	_	O	O	
+7-29	konnte	VMFIN	können	_	O	O	
+7-30	.	$.	.	_	O	O	
+
+#id=8
+#text=An die Rheinischen Inschriften ordentlich zu collationiren, wUrde bei der Schwierigkeit der Arbeit, die ds.
+8-1	An	APPR	an	_	O	O	
+8-2	die	ART	die	_	O	O	
+8-3	Rheinischen	ADJA	rheinisch	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-4	Inschriften	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-OBJ	
+8-5	ordentlich	ADJD	ordentlich	_	O	O	
+8-6	zu	PTKZU	zu	_	O	O	
+8-7	collationiren	ADJA	<unknown>	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	wUrde	VVFIN	<unknown>	_	O	O	
+8-10	bei	APPR	bei	_	O	O	
+8-11	der	ART	die	_	O	O	
+8-12	Schwierigkeit	NN	Schwierigkeit	_	O	O	
+8-13	der	ART	die	_	O	O	
+8-14	Arbeit	NN	Arbeit	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	die	PRELS	die	_	O	O	
+8-17	ds.	ADJD	<unknown>	_	O	O	
+
+#id=9
+#text=meist sehr schlechte Material unendlich erschwert, ein Aufenthalt von mehreren Tagen hie u. da nothwendig geworden sein.
+9-1	meist	ADV	meist	_	O	O	
+9-2	sehr	ADV	sehr	_	O	O	
+9-3	schlechte	ADJA	schlecht	_	O	O	
+9-4	Material	NN	Material	_	O	O	
+9-5	unendlich	ADJD	unendlich	_	O	O	
+9-6	erschwert	VVPP	erschweren	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	ein	ART	eine	_	O	O	
+9-9	Aufenthalt	NN	Aufenthalt	_	O	O	
+9-10	von	APPR	von	_	O	O	
+9-11	mehreren	PIAT	mehrere	_	O	O	
+9-12	Tagen	NN	Tag	_	O	O	
+9-13	hie	NE	hie	_	O	O	
+9-14	u.	APPR	um	_	O	O	
+9-15	da	ADV	da	_	O	O	
+9-16	nothwendig	ADJD	<unknown>	_	O	O	
+9-17	geworden	VAPP	werden	_	O	O	
+9-18	sein	VAINF	sein	_	O	O	
+9-19	.	$.	.	_	O	O	
+
+#id=10
+#text=Für meine augenblicklichen Zwecke genügte eine allgemeine Anschauung derselben.
+10-1	Für	APPR	für	_	O	O	
+10-2	meine	PPOSAT	mein	_	O	O	
+10-3	augenblicklichen	ADJA	augenblicklich	_	O	O	
+10-4	Zwecke	NN	Zweck	_	O	O	
+10-5	genügte	VVFIN	genügen	_	O	O	
+10-6	eine	ART	eine	_	O	O	
+10-7	allgemeine	ADJA	allgemein	_	O	O	
+10-8	Anschauung	NN	Anschauung	_	O	O	
+10-9	derselben	PDAT	dieselb	_	O	O	
+10-10	.	$.	.	_	O	O	
+
+#id=11
+#text=Aus Ihrem Briefe vom 6 n • glaube ich entnehmen zu dürfen, dE.
+11-1	Aus	APPR	aus	_	O	O	
+11-2	Ihrem	PPOSAT	ihr	_	O	O	
+11-3	Briefe	NN	Brief	_	O	O	
+11-4	vom	APPRART	von	_	O	O	
+11-5	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+11-6	n	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+11-7	•	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+11-8	glaube	VVFIN	glauben	_	O	O	
+11-9	ich	PPER	ich	_	O	O	
+11-10	entnehmen	VVINF	entnehmen	_	O	O	
+11-11	zu	PTKZU	zu	_	O	O	
+11-12	dürfen	VMINF	dürfen	_	O	O	
+11-13	,	$,	,	_	O	O	
+11-14	dE	NN	<unknown>	_	O	O	
+11-15	.	$.	.	_	O	O	
+
+#id=12
+#text=Sie daran denken, dß ganze C.I.L. zu suspendiren.
+12-1	Sie	PPER	Sie	_	O	O	
+12-2	daran	PAV	daran	_	O	O	
+12-3	denken	VVFIN	denken	_	O	O	
+12-4	,	$,	,	_	O	O	
+12-5	dß	ADJA	<unknown>	_	O	O	
+12-6	ganze	ADJA	ganz	_	O	O	
+12-7	C.I.L.	NE	<unknown>	_	O	O	
+12-8	zu	APPR	zu	_	O	O	
+12-9	suspendiren	NN	<unknown>	_	O	O	
+12-10	.	$.	.	_	O	O	
+
+#id=13
+#text=Das ist gewiß sehr richtig; denn es ist viel besser, Nichts, als etwas Schlechtes zu machen.
+13-1	Das	PDS	die	_	O	O	
+13-2	ist	VAFIN	sein	_	O	O	
+13-3	gewiß	ADJD	gewiss	_	O	O	
+13-4	sehr	ADV	sehr	_	O	O	
+13-5	richtig	ADJD	richtig	_	O	O	
+13-6	;	$.	;	_	O	O	
+13-7	denn	KON	denn	_	O	O	
+13-8	es	PPER	es	_	O	O	
+13-9	ist	VAFIN	sein	_	O	O	
+13-10	viel	ADV	viel	_	O	O	
+13-11	besser	ADJD	gut	_	O	O	
+13-12	,	$,	,	_	O	O	
+13-13	Nichts	PIS	nichts	_	O	O	
+13-14	,	$,	,	_	O	O	
+13-15	als	KOUS	als	_	O	O	
+13-16	etwas	PIAT	etwas	_	O	O	
+13-17	Schlechtes	NN	Schlechte	_	O	O	
+13-18	zu	PTKZU	zu	_	O	O	
+13-19	machen	VVINF	machen	_	O	O	
+13-20	.	$.	.	_	O	O	
+
+#id=14
+#text=Ein Zmnptisches C.I.L., wenn es jetzt erschiene, würde vielleicht für ein Jahrhundert, oder noch länger jedes ähnliche Unternehmen unmöglich machen, und einen sehr schlimmen Einfluß insofern üben, als man ihm größere Autorität beilegen würde, als die einzelnen Thes genießen, denen man aber nicht mehr traut, als sie verdienen, während Zumpt mit allen Ansprüchen
+14-1	Ein	ART	eine	_	O	O	
+14-2	Zmnptisches	NN	<unknown>	_	O	O	
+14-3	C.I.L.	NE	<unknown>	_	O	O	
+14-4	,	$,	,	_	O	O	
+14-5	wenn	KOUS	wenn	_	O	O	
+14-6	es	PPER	es	_	O	O	
+14-7	jetzt	ADV	jetzt	_	O	O	
+14-8	erschiene	VVFIN	erscheinen	_	O	O	
+14-9	,	$,	,	_	O	O	
+14-10	würde	VAFIN	werden	_	O	O	
+14-11	vielleicht	ADV	vielleicht	_	O	O	
+14-12	für	APPR	für	_	O	O	
+14-13	ein	ART	eine	_	O	O	
+14-14	Jahrhundert	NN	Jahrhundert	_	O	O	
+14-15	,	$,	,	_	O	O	
+14-16	oder	KON	oder	_	O	O	
+14-17	noch	ADV	noch	_	O	O	
+14-18	länger	ADJD	lang	_	O	O	
+14-19	jedes	PIAT	jede	_	O	O	
+14-20	ähnliche	ADJA	ähnlich	_	O	O	
+14-21	Unternehmen	NN	Unternehmen	_	O	O	
+14-22	unmöglich	ADJD	unmöglich	_	O	O	
+14-23	machen	VVFIN	machen	_	O	O	
+14-24	,	$,	,	_	O	O	
+14-25	und	KON	und	_	O	O	
+14-26	einen	ART	eine	_	O	O	
+14-27	sehr	ADV	sehr	_	O	O	
+14-28	schlimmen	ADJA	schlimm	_	O	O	
+14-29	Einfluß	NN	Einfluss	_	O	O	
+14-30	insofern	ADV	insofern	_	O	O	
+14-31	üben	VVFIN	üben	_	O	O	
+14-32	,	$,	,	_	O	O	
+14-33	als	KOUS	als	_	O	O	
+14-34	man	PIS	man	_	O	O	
+14-35	ihm	PPER	er	_	O	O	
+14-36	größere	ADJA	groß	_	O	O	
+14-37	Autorität	NN	Autorität	_	O	O	
+14-38	beilegen	VVINF	beilegen	_	O	O	
+14-39	würde	VAFIN	werden	_	O	O	
+14-40	,	$,	,	_	O	O	
+14-41	als	KOUS	als	_	O	O	
+14-42	die	ART	die	_	O	O	
+14-43	einzelnen	ADJA	einzeln	_	O	O	
+14-44	Thes	NE	<unknown>	_	O	O	
+14-45	genießen	VVFIN	genießen	_	O	O	
+14-46	,	$,	,	_	O	O	
+14-47	denen	PRELS	die	_	O	O	
+14-48	man	PIS	man	_	O	O	
+14-49	aber	ADV	aber	_	O	O	
+14-50	nicht	PTKNEG	nicht	_	O	O	
+14-51	mehr	ADV	mehr	_	O	O	
+14-52	traut	ADJD	traut	_	O	O	
+14-53	,	$,	,	_	O	O	
+14-54	als	KOUS	als	_	O	O	
+14-55	sie	PPER	sie	_	O	O	
+14-56	verdienen	VVFIN	verdienen	_	O	O	
+14-57	,	$,	,	_	O	O	
+14-58	während	KOUS	während	_	O	O	
+14-59	Zumpt	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-60	mit	APPR	mit	_	O	O	
+14-61	allen	PIAT	alle	_	O	O	
+14-62	Ansprüchen	NN	Anspruch	_	O	O	
+

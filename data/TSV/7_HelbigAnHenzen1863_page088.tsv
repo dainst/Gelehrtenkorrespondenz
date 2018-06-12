@@ -1,0 +1,162 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Helbig an Henzen Rom, 29. August 1866 abgereist bin, Bescheid bringen.
+1-1	2	CARD	2	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	abgereist	VVPP	abreisen	_	O	O	
+1-12	bin	VAFIN	sein	_	O	O	
+1-13	,	$,	,	_	O	O	
+1-14	Bescheid	NN	Bescheid	_	O	O	
+1-15	bringen	VVFIN	bringen	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Im Übrigen Seien Sie überzeugt, daß ich mich bestreben werde, möglichst rasch nach Rom zurückzukommen; denn als fremdes Thier von seinen neuen Verwandten angestaunt zu werden ist nicht gerade angenehm und dieser Proceß muß möglichst abgekürzt werden.
+2-1	Im	APPRART	in	_	O	O	
+2-2	Übrigen	NN	Übrige	_	O	O	
+2-3	Seien	NN	<unknown>	_	O	O	
+2-4	Sie	PPER	Sie	_	O	O	
+2-5	überzeugt	ADJD	überzeugt	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	daß	KOUS	dass	_	O	O	
+2-8	ich	PPER	ich	_	O	O	
+2-9	mich	PRF	ich	_	O	O	
+2-10	bestreben	VVINF	bestreben	_	O	O	
+2-11	werde	VAFIN	werden	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	möglichst	ADV	möglichst	_	O	O	
+2-14	rasch	ADJD	rasch	_	O	O	
+2-15	nach	APPR	nach	_	O	O	
+2-16	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-17	zurückzukommen	VVIZU	zurückkommen	_	O	O	
+2-18	;	$.	;	_	O	O	
+2-19	denn	KON	denn	_	O	O	
+2-20	als	KOKOM	als	_	O	O	
+2-21	fremdes	ADJA	fremd	_	O	O	
+2-22	Thier	NN	<unknown>	_	O	O	
+2-23	von	APPR	von	_	O	O	
+2-24	seinen	PPOSAT	sein	_	O	O	
+2-25	neuen	ADJA	neu	_	O	O	
+2-26	Verwandten	NN	Verwandte	_	O	O	
+2-27	angestaunt	VVPP	anstaunen	_	O	O	
+2-28	zu	PTKZU	zu	_	O	O	
+2-29	werden	VAINF	werden	_	O	O	
+2-30	ist	VAFIN	sein	_	O	O	
+2-31	nicht	PTKNEG	nicht	_	O	O	
+2-32	gerade	ADV	gerade	_	O	O	
+2-33	angenehm	ADJD	angenehm	_	O	O	
+2-34	und	KON	und	_	O	O	
+2-35	dieser	PDAT	dies	_	O	O	
+2-36	Proceß	NN	<unknown>	_	O	O	
+2-37	muß	VMFIN	müssen	_	O	O	
+2-38	möglichst	ADV	möglichst	_	O	O	
+2-39	abgekürzt	VVPP	abkürzen	_	O	O	
+2-40	werden	VAINF	werden	_	O	O	
+2-41	.	$.	.	_	O	O	
+
+#id=3
+#text=Was die Quarantäne betrifft, so ist sie vor der Hand nur über die aus Neapel kommenden Personen verhängt.
+3-1	Was	PWS	was	_	O	O	
+3-2	die	ART	die	_	O	O	
+3-3	Quarantäne	NN	Quarantäne	_	O	O	
+3-4	betrifft	VVFIN	betreffen	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	so	ADV	so	_	O	O	
+3-7	ist	VAFIN	sein	_	O	O	
+3-8	sie	PPER	sie	_	O	O	
+3-9	vor	APPR	vor	_	O	O	
+3-10	der	ART	die	_	O	O	
+3-11	Hand	NN	Hand	_	O	O	
+3-12	nur	ADV	nur	_	O	O	
+3-13	über	APPR	über	_	O	O	
+3-14	die	ART	die	_	O	O	
+3-15	aus	APPR	aus	_	O	O	
+3-16	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-17	kommenden	ADJA	kommend	_	O	O	
+3-18	Personen	NN	Person	_	O	O	
+3-19	verhängt	VVPP	verhängen	_	O	O	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=Was vom Norden kommt, passirt bis jetzt.
+4-1	Was	PWS	was	_	O	O	
+4-2	vom	APPRART	von	_	O	O	
+4-3	Norden	NN	Norden	_	O	O	
+4-4	kommt	VVFIN	kommen	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	passirt	NN	<unknown>	_	O	O	
+4-7	bis	KON	bis	_	O	O	
+4-8	jetzt	ADV	jetzt	_	O	O	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=Da sich jedoch dies rasch ändern kann, habe ich Schlözer gebeten, sowie die Quarantäne auch nordwärts verhängt wird, Benndorf davon zu benachrichtigen, damit er Ihnen sofort schreiben kann.
+5-1	Da	KOUS	da	_	O	O	
+5-2	sich	PRF	sich	_	O	O	
+5-3	jedoch	ADV	jedoch	_	O	O	
+5-4	dies	PDS	dies	_	O	O	
+5-5	rasch	ADJD	rasch	_	O	O	
+5-6	ändern	VVINF	ändern	_	O	O	
+5-7	kann	VMFIN	können	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	habe	VAFIN	haben	_	O	O	
+5-10	ich	PPER	ich	_	O	O	
+5-11	Schlözer	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-12	gebeten	VVPP	bitten	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	sowie	KON	sowie	_	O	O	
+5-15	die	ART	die	_	O	O	
+5-16	Quarantäne	NN	Quarantäne	_	O	O	
+5-17	auch	ADV	auch	_	O	O	
+5-18	nordwärts	ADV	nordwärts	_	O	O	
+5-19	verhängt	VVPP	verhängen	_	O	O	
+5-20	wird	VAFIN	werden	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	Benndorf	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-23	davon	PAV	davon	_	O	O	
+5-24	zu	PTKZU	zu	_	O	O	
+5-25	benachrichtigen	VVINF	benachrichtigen	_	O	O	
+5-26	,	$,	,	_	O	O	
+5-27	damit	KOUS	damit	_	O	O	
+5-28	er	PPER	er	_	O	O	
+5-29	Ihnen	PPER	Sie	_	O	O	
+5-30	sofort	ADV	sofort	_	O	O	
+5-31	schreiben	VVINF	schreiben	_	O	O	
+5-32	kann	VMFIN	können	_	O	O	
+5-33	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich wünsche Ihnen glückliche Reise und im Besonderen der Frau Professorin gute Gesundheit.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	wünsche	VVFIN	wünschen	_	O	O	
+6-3	Ihnen	PPER	Sie	_	O	O	
+6-4	glückliche	ADJA	glücklich	_	O	O	
+6-5	Reise	NN	Reise	_	O	O	
+6-6	und	KON	und	_	O	O	
+6-7	im	APPRART	in	_	O	O	
+6-8	Besonderen	NN	Besondere	_	O	O	
+6-9	der	ART	die	_	O	O	
+6-10	Frau	NN	Frau	_	O	O	
+6-11	Professorin	NN	Professorin	_	O	O	
+6-12	gute	ADJA	gut	_	O	O	
+6-13	Gesundheit	NN	Gesundheit	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Mit herzlichen Grüßen Thr Wolfg. Helbig.
+7-1	Mit	APPR	mit	_	O	O	
+7-2	herzlichen	ADJA	herzlich	_	O	O	
+7-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+7-4	Thr	NN	<unknown>	_	O	O	
+7-5	Wolfg.	NE	Wolfg.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-6	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-7	.	$.	.	_	O	O	
+

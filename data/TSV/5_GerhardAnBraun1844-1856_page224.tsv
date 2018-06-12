@@ -1,0 +1,216 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=4 Gerhard an Braun Berlin, 16. Juli 1846 ( Der vorhergehende Absatz ist durchgestrighen und am Rande dazu bemerkt: ) Senza Seccature ich schreibe an Vollard deshalb.
+1-1	4	CARD	4	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	(	$(	(	_	O	O	
+1-12	Der	ART	die	_	O	O	
+1-13	vorhergehende	ADJA	vorhergehend	_	O	O	
+1-14	Absatz	NN	Absatz	_	O	O	
+1-15	ist	VAFIN	sein	_	O	O	
+1-16	durchgestrighen	ADJD	<unknown>	_	O	O	
+1-17	und	KON	und	_	O	O	
+1-18	am	APPRART	an	_	O	O	
+1-19	Rande	NN	Rand	_	O	O	
+1-20	dazu	PAV	dazu	_	O	O	
+1-21	bemerkt	VVPP	bemerken	_	O	O	
+1-22	:	$.	:	_	O	O	
+1-23	)	$(	)	_	O	O	
+1-24	Senza	NN	<unknown>	_	O	O	
+1-25	Seccature	NN	<unknown>	_	O	O	
+1-26	ich	PPER	ich	_	O	O	
+1-27	schreibe	VVFIN	schreiben	_	O	O	
+1-28	an	APPR	an	_	O	O	
+1-29	Vollard	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-30	deshalb	PAV	deshalb	_	O	O	
+1-31	.	$.	.	_	O	O	
+
+#id=2
+#text=Gruner mit Frau soll unterwegs hieher sein; auch Herr Prokesch steht uns dem Vernehmen nach bevor.
+2-1	Gruner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	mit	APPR	mit	_	O	O	
+2-3	Frau	NN	Frau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-4	soll	VMFIN	sollen	_	O	O	
+2-5	unterwegs	ADV	unterwegs	_	O	O	
+2-6	hieher	NN	<unknown>	_	O	O	
+2-7	sein	VAINF	sein	_	O	O	
+2-8	;	$.	;	_	O	O	
+2-9	auch	ADV	auch	_	O	O	
+2-10	Herr	NN	Herr	_	O	O	
+2-11	Prokesch	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-12	steht	VVFIN	stehen	_	O	O	
+2-13	uns	PPER	wir	_	O	O	
+2-14	dem	ART	die	_	O	O	
+2-15	Vernehmen	NN	Vernehmen	_	O	O	
+2-16	nach	APPO	nach	_	O	O	
+2-17	bevor	PTKVZ	bevor	_	O	O	
+2-18	.	$.	.	_	O	O	
+
+#id=3
+#text=Rauchs Reiterstatue ist glücklich gegossen.
+3-1	Rauchs	NE	Rauch	_	O	O	
+3-2	Reiterstatue	NN	Reiterstatue	_	O	O	
+3-3	ist	VAFIN	sein	_	O	O	
+3-4	glücklich	ADJD	glücklich	_	O	O	
+3-5	gegossen	VVPP	gießen	_	O	O	
+3-6	.	$.	.	_	O	O	
+
+#id=4
+#text=Lepsius soll übergewöhnlich (3 Klasse) decorirt und Reumont geadelt werden.
+4-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	soll	VMFIN	sollen	_	O	O	
+4-3	übergewöhnlich	ADJD	<unknown>	_	O	O	
+4-4	(	$(	(	_	O	O	
+4-5	3	CARD	3	_	O	O	
+4-6	Klasse	NN	Klasse	_	O	O	
+4-7	)	$(	)	_	O	O	
+4-8	decorirt	NE	<unknown>	_	O	O	
+4-9	und	KON	und	_	O	O	
+4-10	Reumont	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-11	geadelt	VVPP	adeln	_	O	O	
+4-12	werden	VAINF	werden	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=An Mommsen schreibe ich nächstens einmal; weiß er sich hier persönlich zu stellen, was nicht fehlen wird, so kann ein epigraphisches Unternehmen in seinem Sinn immerhin binnen weniger Monate bewilligt und er zur Rückkehr dafür flott werden.
+5-1	An	APPR	an	_	O	O	
+5-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	schreibe	VVFIN	schreiben	_	O	O	
+5-4	ich	PPER	ich	_	O	O	
+5-5	nächstens	ADV	nächstens	_	O	O	
+5-6	einmal	ADV	einmal	_	O	O	
+5-7	;	$.	;	_	O	O	
+5-8	weiß	VVFIN	wissen	_	O	O	
+5-9	er	PPER	er	_	O	O	
+5-10	sich	PRF	sich	_	O	O	
+5-11	hier	ADV	hier	_	O	O	
+5-12	persönlich	ADJD	persönlich	_	O	O	
+5-13	zu	PTKZU	zu	_	O	O	
+5-14	stellen	VVINF	stellen	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	was	PRELS	was	_	O	O	
+5-17	nicht	PTKNEG	nicht	_	O	O	
+5-18	fehlen	VVINF	fehlen	_	O	O	
+5-19	wird	VAFIN	werden	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	so	ADV	so	_	O	O	
+5-22	kann	VMFIN	können	_	O	O	
+5-23	ein	ART	eine	_	O	O	
+5-24	epigraphisches	ADJA	<unknown>	_	O	O	
+5-25	Unternehmen	NN	Unternehmen	_	O	O	
+5-26	in	APPR	in	_	O	O	
+5-27	seinem	PPOSAT	sein	_	O	O	
+5-28	Sinn	NN	Sinn	_	O	O	
+5-29	immerhin	ADV	immerhin	_	O	O	
+5-30	binnen	APPR	binnen	_	O	O	
+5-31	weniger	PIAT	wenige	_	O	O	
+5-32	Monate	NN	Monat	_	O	O	
+5-33	bewilligt	VVFIN	bewilligen	_	O	O	
+5-34	und	KON	und	_	O	O	
+5-35	er	PPER	er	_	O	O	
+5-36	zur	APPRART	zu	_	O	O	
+5-37	Rückkehr	NN	Rückkehr	_	O	O	
+5-38	dafür	PAV	dafür	_	O	O	
+5-39	flott	ADJD	flott	_	O	O	
+5-40	werden	VAINF	werden	_	O	O	
+5-41	.	$.	.	_	O	O	
+
+#id=6
+#text=Gelehrte Früchte solchen Glanzes werden Wenigen geboten und verdienen wohl daß man etliche Lebensjahre daran setzt, bei solcher Jugend.
+6-1	Gelehrte	ADJA	gelehrt	_	O	O	
+6-2	Früchte	NN	Frucht	_	O	O	
+6-3	solchen	PIAT	solche	_	O	O	
+6-4	Glanzes	NN	Glanz	_	O	O	
+6-5	werden	VAFIN	werden	_	O	O	
+6-6	Wenigen	ADJD	<unknown>	_	O	O	
+6-7	geboten	VVPP	bieten|gebieten	_	O	O	
+6-8	und	KON	und	_	O	O	
+6-9	verdienen	VVFIN	verdienen	_	O	O	
+6-10	wohl	ADV	wohl	_	O	O	
+6-11	daß	KOUS	dass	_	O	O	
+6-12	man	PIS	man	_	O	O	
+6-13	etliche	PIAT	etliche	_	O	O	
+6-14	Lebensjahre	NN	Lebensjahr	_	O	O	
+6-15	daran	PAV	daran	_	O	O	
+6-16	setzt	VVFIN	setzen	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	bei	APPR	bei	_	O	O	
+6-19	solcher	PIAT	solche	_	O	O	
+6-20	Jugend	NN	Jugend	_	O	O	
+6-21	.	$.	.	_	O	O	
+
+#id=7
+#text=Die einzige noch übrige ~ommersitzung der Akademie zu benutzen bleibt mißlich; vom 13.
+7-1	Die	ART	die	_	O	O	
+7-2	einzige	ADJA	einzig	_	O	O	
+7-3	noch	KON	noch	_	O	O	
+7-4	übrige	ADJA	übrig	_	O	O	
+7-5	~ommersitzung	NN	<unknown>	_	O	O	
+7-6	der	ART	die	_	O	O	
+7-7	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-8	zu	PTKZU	zu	_	O	O	
+7-9	benutzen	VVINF	benutzen	_	O	O	
+7-10	bleibt	VVFIN	bleiben	_	O	O	
+7-11	mißlich	ADJD	misslich	_	O	O	
+7-12	;	$.	;	_	O	O	
+7-13	vom	APPRART	von	_	O	O	
+7-14	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-15	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=8
+#text=Oktober an kann aber die Sache frisch berathen und beschlossen werden.
+8-1	Oktober	NN	Oktober	_	O	O	
+8-2	an	APZR	an	_	O	O	
+8-3	kann	VMFIN	können	_	O	O	
+8-4	aber	ADV	aber	_	O	O	
+8-5	die	ART	die	_	O	O	
+8-6	Sache	NN	Sache	_	O	O	
+8-7	frisch	ADJD	frisch	_	O	O	
+8-8	berathen	VVFIN	<unknown>	_	O	O	
+8-9	und	KON	und	_	O	O	
+8-10	beschlossen	VVPP	beschließen	_	O	O	
+8-11	werden	VAINF	werden	_	O	O	
+8-12	.	$.	.	_	O	O	
+
+#id=9
+#text=Muchar Geschichte von Steyermark Th. 1 Vol. 4 enthält viel Inschriften.
+9-1	Muchar	NN	<unknown>	_	O	O	
+9-2	Geschichte	NN	Geschichte	_	O	O	
+9-3	von	APPR	von	_	O	O	
+9-4	Steyermark	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-5	Th.	NE	Th.	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+9-6	1	CARD	1	_	O	O	
+9-7	Vol.	NN	<unknown>	_	O	O	
+9-8	4	CARD	4	_	O	O	
+9-9	enthält	VVFIN	enthalten	_	O	O	
+9-10	viel	PIAT	viele	_	O	O	
+9-11	Inschriften	NN	Inschrift	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Henzen allen Dank für sein Neuestes; der Tausch mit Fiorelli ist mir ganz recht.
+10-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	allen	PIAT	alle	_	O	O	
+10-3	Dank	NN	Dank	_	O	O	
+10-4	für	APPR	für	_	O	O	
+10-5	sein	PPOSAT	sein	_	O	O	
+10-6	Neuestes	NN	Neuste	_	O	O	
+10-7	;	$.	;	_	O	O	
+10-8	der	ART	die	_	O	O	
+10-9	Tausch	NN	Tausch	_	O	O	
+10-10	mit	APPR	mit	_	O	O	
+10-11	Fiorelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-12	ist	VAFIN	sein	_	O	O	
+10-13	mir	PPER	ich	_	O	O	
+10-14	ganz	ADV	ganz	_	O	O	
+10-15	recht	ADJD	recht	_	O	O	
+10-16	.	$.	.	_	O	O	
+

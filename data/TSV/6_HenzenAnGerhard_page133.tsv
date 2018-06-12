@@ -1,0 +1,220 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Ohne Nummer Henzen an Gerhard 4/VII/53 2 Vielleicht sind sie von Nutzen zur Erlangung von Bewilligungen.
+1-1	Ohne	APPR	ohne	_	O	O	
+1-2	Nummer	NN	Nummer	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	4/VII/53	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	2	CARD	2	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Vielleicht	ADV	vielleicht	_	O	O	
+1-9	sind	VAFIN	sein	_	O	O	
+1-10	sie	PPER	sie	_	O	O	
+1-11	von	APPR	von	_	O	O	
+1-12	Nutzen	NN	Nutzen	_	O	O	
+1-13	zur	APPRART	zu	_	O	O	
+1-14	Erlangung	NN	Erlangung	_	O	O	
+1-15	von	APPR	von	_	O	O	
+1-16	Bewilligungen	NN	Bewilligung	_	O	O	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text=Je ansehnlicher letztere ausfallen, desdo rascher kann natürlich das Werk selbst vorschreiten.
+2-1	Je	APPR	je	_	O	O	
+2-2	ansehnlicher	ADJA	ansehnlich	_	O	O	
+2-3	letztere	ADJA	letzt	_	O	O	
+2-4	ausfallen	VVFIN	ausfallen	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	desdo	NN	<unknown>	_	O	O	
+2-7	rascher	ADJD	rasch	_	O	O	
+2-8	kann	VMFIN	können	_	O	O	
+2-9	natürlich	ADV	natürlich	_	O	O	
+2-10	das	ART	die	_	O	O	
+2-11	Werk	NN	Werk	_	O	O	
+2-12	selbst	ADV	selbst	_	O	O	
+2-13	vorschreiten	NN	<unknown>	_	O	O	
+2-14	.	$.	.	_	O	O	
+
+#id=3
+#text=De Rossi hat beim Pabste den Ankauf der Vigna Ammendola u. der anstoßenden durchgesetzt zum Behufe von Ausgrabungen, zunächst mit Rücksicht auf die Katakomben.
+3-1	De	NE	De	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-3	hat	VAFIN	haben	_	O	O	
+3-4	beim	APPRART	bei	_	O	O	
+3-5	Pabste	NN	<unknown>	_	O	O	
+3-6	den	ART	die	_	O	O	
+3-7	Ankauf	NN	Ankauf	_	O	O	
+3-8	der	ART	die	_	O	O	
+3-9	Vigna	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-10	Ammendola	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-11	u.	APPR	um	_	O	O	
+3-12	der	ART	die	_	O	O	
+3-13	anstoßenden	NN	<unknown>	_	O	O	
+3-14	durchgesetzt	VVPP	durchsetzen	_	O	O	
+3-15	zum	APPRART	zu	_	O	O	
+3-16	Behufe	NN	Behufe	_	O	O	
+3-17	von	APPR	von	_	O	O	
+3-18	Ausgrabungen	NN	Ausgrabung	_	O	O	
+3-19	,	$,	,	_	O	O	
+3-20	zunächst	ADV	zunächst	_	O	O	
+3-21	mit	APPR	mit	_	O	O	
+3-22	Rücksicht	NN	Rücksicht	_	O	O	
+3-23	auf	APPR	auf	_	O	O	
+3-24	die	ART	die	_	O	O	
+3-25	Katakomben	NN	Katakombe	_	O	O	
+3-26	.	$.	.	_	O	O	
+
+#id=4
+#text=Wie angesehen er ist, mag Ihnen der Umstand zeigen, daß, als neulich ~mtliche Bibliotheksbeamten vom Pabste eine silberne Medaille als Zeichen der .<~nerkennung erhielten, sie ihm in Gold gegeben wurde.
+4-1	Wie	KOUS	wie	_	O	O	
+4-2	angesehen	ADJD	angesehen	_	O	O	
+4-3	er	PPER	er	_	O	O	
+4-4	ist	VAFIN	sein	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	mag	VMFIN	mögen	_	O	O	
+4-7	Ihnen	PPER	Sie	_	O	O	
+4-8	der	ART	die	_	O	O	
+4-9	Umstand	NN	Umstand	_	O	O	
+4-10	zeigen	VVINF	zeigen	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	daß	KOUS	dass	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	als	KOUS	als	_	O	O	
+4-15	neulich	ADV	neulich	_	O	O	
+4-16	~mtliche	ADJA	<unknown>	_	O	O	
+4-17	Bibliotheksbeamten	NN	<unknown>	_	O	O	
+4-18	vom	APPRART	von	_	O	O	
+4-19	Pabste	NN	<unknown>	_	O	O	
+4-20	eine	ART	eine	_	O	O	
+4-21	silberne	ADJA	silbern	_	O	O	
+4-22	Medaille	NN	Medaille	_	O	O	
+4-23	als	KOKOM	als	_	O	O	
+4-24	Zeichen	NN	Zeichen	_	O	O	
+4-25	der	ART	die	_	O	O	
+4-26	.<~nerkennung	NN	<unknown>	_	O	O	
+4-27	erhielten	VVFIN	erhalten	_	O	O	
+4-28	,	$,	,	_	O	O	
+4-29	sie	PPER	sie	_	O	O	
+4-30	ihm	PPER	er	_	O	O	
+4-31	in	APPR	in	_	O	O	
+4-32	Gold	NN	Gold	_	O	O	
+4-33	gegeben	VVPP	geben	_	O	O	
+4-34	wurde	VAFIN	werden	_	O	O	
+4-35	.	$.	.	_	O	O	
+
+#id=5
+#text=Uebrigens scheint das Diplom von Berlin Effect gemacht zu haben, u. ich schmeichle mir, daß an mir ein Diplomat verloren gegangen.
+5-1	Uebrigens	NN	<unknown>	_	O	O	
+5-2	scheint	VVFIN	scheinen	_	O	O	
+5-3	das	ART	die	_	O	O	
+5-4	Diplom	NN	Diplom	_	O	O	
+5-5	von	APPR	von	_	O	O	
+5-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-7	Effect	NE	<unknown>	_	O	O	
+5-8	gemacht	VVPP	machen	_	O	O	
+5-9	zu	PTKZU	zu	_	O	O	
+5-10	haben	VAINF	haben	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	u.	KON	und	_	O	O	
+5-13	ich	PPER	ich	_	O	O	
+5-14	schmeichle	VVFIN	schmeicheln	_	O	O	
+5-15	mir	PPER	ich	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	daß	KOUS	dass	_	O	O	
+5-18	an	APPR	an	_	O	O	
+5-19	mir	PPER	ich	_	O	O	
+5-20	ein	ART	eine	_	O	O	
+5-21	Diplomat	NN	Diplomat	_	O	O	
+5-22	verloren	VVPP	verlieren	_	O	O	
+5-23	gegangen	VVPP	gehen	_	O	O	
+5-24	.	$.	.	_	O	O	
+
+#id=6
+#text=\,F",vt.
+6-1	\,F",vt	NN	<unknown>	_	O	O	
+6-2	.	$.	.	_	O	O	
+
+#id=7
+#text=So eben Brief an Brunn.
+7-1	So	ADV	so	_	O	O	
+7-2	eben	ADV	eben	_	O	O	
+7-3	Brief	NN	Brief	_	O	O	
+7-4	an	APPR	an	_	O	O	
+7-5	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+7-6	.	$.	.	_	O	O	
+
+#id=8
+#text=Hat in Hoffnung auf den /' Akademiezuschuß bereits große Kreuz- u. Querzüge gemacht, bis Saepinum u. Beneventj will jetzt auch nach Aeclanum, Avellino, Conza, vielleicht bis Venosa, zuletzt Fucino; freut sich sehr der Bewilligung, deren Betrag ich ihm morgen übermache, wenn ich nicht eine sicherere Gelegenheit finde.
+8-1	Hat	VAFIN	haben	_	O	O	
+8-2	in	APPR	in	_	O	O	
+8-3	Hoffnung	NN	Hoffnung	_	O	O	
+8-4	auf	APPR	auf	_	O	O	
+8-5	den	ART	die	_	O	O	
+8-6	/	$(	/	_	O	O	
+8-7	'	$(	'	_	O	O	
+8-8	Akademiezuschuß	NN	<unknown>	_	O	O	
+8-9	bereits	ADV	bereits	_	O	O	
+8-10	große	ADJA	groß	_	O	O	
+8-11	Kreuz-	TRUNC	Kreuz-	_	O	O	
+8-12	u.	KON	und	_	O	O	
+8-13	Querzüge	NN	<unknown>	_	O	O	
+8-14	gemacht	VVPP	machen	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	bis	KOUS	bis	_	O	O	
+8-17	Saepinum	NN	<unknown>	_	O	O	
+8-18	u.	APPR	um	_	O	O	
+8-19	Beneventj	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-20	will	VMFIN	wollen	_	O	O	
+8-21	jetzt	ADV	jetzt	_	O	O	
+8-22	auch	ADV	auch	_	O	O	
+8-23	nach	APPR	nach	_	O	O	
+8-24	Aeclanum	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-25	,	$,	,	_	O	O	
+8-26	Avellino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-27	,	$,	,	_	O	O	
+8-28	Conza	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-29	,	$,	,	_	O	O	
+8-30	vielleicht	ADV	vielleicht	_	O	O	
+8-31	bis	APPR	bis	_	O	O	
+8-32	Venosa	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-33	,	$,	,	_	O	O	
+8-34	zuletzt	ADV	zuletzt	_	O	O	
+8-35	Fucino	NN	<unknown>	_	O	O	
+8-36	;	$.	;	_	O	O	
+8-37	freut	VVFIN	freuen	_	O	O	
+8-38	sich	PRF	sich	_	O	O	
+8-39	sehr	ADV	sehr	_	O	O	
+8-40	der	ART	die	_	O	O	
+8-41	Bewilligung	NN	Bewilligung	_	O	O	
+8-42	,	$,	,	_	O	O	
+8-43	deren	PRELAT	die	_	O	O	
+8-44	Betrag	NN	Betrag	_	O	O	
+8-45	ich	PPER	ich	_	O	O	
+8-46	ihm	PPER	er	_	O	O	
+8-47	morgen	ADV	morgen	_	O	O	
+8-48	übermache	VVFIN	<unknown>	_	O	O	
+8-49	,	$,	,	_	O	O	
+8-50	wenn	KOUS	wenn	_	O	O	
+8-51	ich	PPER	ich	_	O	O	
+8-52	nicht	PTKNEG	nicht	_	O	O	
+8-53	eine	ART	eine	_	O	O	
+8-54	sicherere	ADJA	sicher	_	O	O	
+8-55	Gelegenheit	NN	Gelegenheit	_	O	O	
+8-56	finde	VVFIN	finden	_	O	O	
+8-57	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich bitte um gefällige Spedition anliegenden BrieAn Friedlaender schreibe nächstens.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	bitte	VVFIN	bitten	_	O	O	
+9-3	um	APPR	um	_	O	O	
+9-4	gefällige	ADJA	gefällig	_	O	O	
+9-5	Spedition	NN	Spedition	_	O	O	
+9-6	anliegenden	ADJA	anliegend	_	O	O	
+9-7	BrieAn	NN	<unknown>	_	O	O	
+9-8	Friedlaender	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-9	schreibe	VVFIN	schreiben	_	O	O	
+9-10	nächstens	ADV	nächstens	_	O	O	
+9-11	.	$.	.	_	O	O	
+

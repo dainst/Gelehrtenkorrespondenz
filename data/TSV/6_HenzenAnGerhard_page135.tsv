@@ -1,0 +1,378 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=261 16/VII/53 Henzen an Gerhard 2 brauche solche Notizen für meine Verhandlungen mit de Rossi, die ich wieder aufnehme, sobald M. mir auf die neulich auch Ihnen gemeldeten Thatsachen Bescheid gegeben haben wird.
+1-1	261	CARD	@card@	_	O	O	
+1-2	16/VII/53	CARD	<unknown>	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	2	CARD	2	_	O	O	
+1-7	brauche	VVFIN	brauchen	_	O	O	
+1-8	solche	PIAT	solche	_	O	O	
+1-9	Notizen	NN	Notiz	_	O	O	
+1-10	für	APPR	für	_	O	O	
+1-11	meine	PPOSAT	mein	_	O	O	
+1-12	Verhandlungen	NN	Verhandlung	_	O	O	
+1-13	mit	APPR	mit	_	O	O	
+1-14	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-15	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-16	,	$,	,	_	O	O	
+1-17	die	PRELS	die	_	O	O	
+1-18	ich	PPER	ich	_	O	O	
+1-19	wieder	ADV	wieder	_	O	O	
+1-20	aufnehme	VVFIN	aufnehmen	_	O	O	
+1-21	,	$,	,	_	O	O	
+1-22	sobald	KOUS	sobald	_	O	O	
+1-23	M.	NE	M.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-24	mir	PRF	ich	_	O	O	
+1-25	auf	APPR	auf	_	O	O	
+1-26	die	ART	die	_	O	O	
+1-27	neulich	ADV	neulich	_	O	O	
+1-28	auch	ADV	auch	_	O	O	
+1-29	Ihnen	PPER	Sie	_	O	O	
+1-30	gemeldeten	ADJA	gemeldet	_	O	O	
+1-31	Thatsachen	NN	<unknown>	_	O	O	
+1-32	Bescheid	NN	Bescheid	_	O	O	
+1-33	gegeben	VVPP	geben	_	O	O	
+1-34	haben	VAINF	haben	_	O	O	
+1-35	wird	VAFIN	werden	_	O	O	
+1-36	.	$.	.	_	O	O	
+
+#id=2
+#text=Die Inschrift der Knochenciste ist, wenn richtig copirt, gewiß falsch, wie auch Sie selbst zu glauben scheinen, u. enthalte ich mich, GrUnde daflir anzugeben, da dieselben zu klar sind.
+2-1	Die	ART	die	_	O	O	
+2-2	Inschrift	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+2-3	der	ART	die	_	O	O	
+2-4	Knochenciste	NN	<unknown>	_	O	O	
+2-5	ist	VAFIN	sein	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	wenn	KOUS	wenn	_	O	O	
+2-8	richtig	ADJD	richtig	_	O	O	
+2-9	copirt	NN	<unknown>	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	gewiß	ADJD	gewiss	_	O	O	
+2-12	falsch	ADJD	falsch	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	wie	KOUS	wie	_	O	O	
+2-15	auch	ADV	auch	_	O	O	
+2-16	Sie	PPER	Sie	_	O	O	
+2-17	selbst	ADV	selbst	_	O	O	
+2-18	zu	PTKZU	zu	_	O	O	
+2-19	glauben	VVINF	glauben	_	O	O	
+2-20	scheinen	VVFIN	scheinen	_	O	O	
+2-21	,	$,	,	_	O	O	
+2-22	u.	KON	und	_	O	O	
+2-23	enthalte	VVFIN	enthalten	_	O	O	
+2-24	ich	PPER	ich	_	O	O	
+2-25	mich	PRF	ich	_	O	O	
+2-26	,	$,	,	_	O	O	
+2-27	GrUnde	NN	Grund	_	O	O	
+2-28	daflir	NE	<unknown>	_	O	O	
+2-29	anzugeben	VVIZU	angeben	_	O	O	
+2-30	,	$,	,	_	O	O	
+2-31	da	KOUS	da	_	O	O	
+2-32	dieselben	PDS	dieselbe	_	O	O	
+2-33	zu	PTKA	zu	_	O	O	
+2-34	klar	ADJD	klar	_	O	O	
+2-35	sind	VAFIN	sein	_	O	O	
+2-36	.	$.	.	_	O	O	
+
+#id=3
+#text=Der Mainzer Klein sollte sie doch wohl gesehen haben ?
+3-1	Der	ART	die	_	O	O	
+3-2	Mainzer	NN	Mainzer	_	O	O	
+3-3	Klein	NE	Klein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-4	sollte	VMFIN	sollen	_	O	O	
+3-5	sie	PPER	sie	_	O	O	
+3-6	doch	ADV	doch	_	O	O	
+3-7	wohl	ADV	wohl	_	O	O	
+3-8	gesehen	VVPP	sehen	_	O	O	
+3-9	haben	VAINF	haben	_	O	O	
+3-10	?	$.	?	_	O	O	
+
+#id=4
+#text=Wie Herr 'Walz zu Ehren Schwäbischer FälschunEjen gegen M. ins Feld gerUckt ist, hat uns hier sehr amüsirt.
+4-1	Wie	KOKOM	wie	_	O	O	
+4-2	Herr	NN	Herr	_	O	O	
+4-3	'	$(	'	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-4	Walz	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-5	zu	APPR	zu	_	O	O	
+4-6	Ehren	NN	Ehre|Ehren	_	O	O	
+4-7	Schwäbischer	ADJA	schwäbisch	_	O	O	
+4-8	FälschunEjen	NN	<unknown>	_	O	O	
+4-9	gegen	APPR	gegen	_	O	O	
+4-10	M.	NE	M.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-11	ins	APPRART	in	_	O	O	
+4-12	Feld	NN	Feld	_	O	O	
+4-13	gerUckt	VVPP	<unknown>	_	O	O	
+4-14	ist	VAFIN	sein	_	O	O	
+4-15	,	$,	,	_	O	O	
+4-16	hat	VAFIN	haben	_	O	O	
+4-17	uns	PPER	wir	_	O	O	
+4-18	hier	ADV	hier	_	O	O	
+4-19	sehr	ADV	sehr	_	O	O	
+4-20	amüsirt	NN	<unknown>	_	O	O	
+4-21	.	$.	.	_	O	O	
+
+#id=5
+#text=M. scheint ihn mit Verachtung strafen zu wollen; ob das aber dem Publicum der AAZ gegenüber genügt, weiß ich doch nicht.
+5-1	M.	NE	M.	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-2	scheint	VVFIN	scheinen	_	O	O	
+5-3	ihn	PPER	er	_	O	O	
+5-4	mit	APPR	mit	_	O	O	
+5-5	Verachtung	NN	Verachtung	_	O	O	
+5-6	strafen	VVINF	strafen	_	O	O	
+5-7	zu	PTKZU	zu	_	O	O	
+5-8	wollen	VMINF	wollen	_	O	O	
+5-9	;	$.	;	_	O	O	
+5-10	ob	KOUS	ob	_	O	O	
+5-11	das	PDS	die	_	O	O	
+5-12	aber	ADV	aber	_	O	O	
+5-13	dem	ART	die	_	O	O	
+5-14	Publicum	NN	<unknown>	_	O	O	
+5-15	der	ART	die	_	O	O	
+5-16	AAZ	NE	<unknown>	_	O	O	
+5-17	gegenüber	APPO	gegenüber	_	O	O	
+5-18	genügt	VVFIN	genügen	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	weiß	VVFIN	wissen	_	O	O	
+5-21	ich	PPER	ich	_	O	O	
+5-22	doch	ADV	doch	_	O	O	
+5-23	nicht	PTKNEG	nicht	_	O	O	
+5-24	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich würde an seiner Stelle antworten.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	würde	VAFIN	werden	_	O	O	
+6-3	an	APPR	an	_	O	O	
+6-4	seiner	PPOSAT	sein	_	O	O	
+6-5	Stelle	NN	Stelle	_	O	O	
+6-6	antworten	VVINF	antworten	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=Meine Frau hatte vor 8 Tagen in Folge der nach langer Kühle pl6tzlich hereingebrochenen gewaltigen Hitze ( 28 - 30 0 im Schatten um 2 Uhr Nchm. )
+7-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-3	hatte	VAFIN	haben	_	O	O	
+7-4	vor	APPR	vor	_	O	O	
+7-5	8	CARD	8	_	O	O	
+7-6	Tagen	NN	Tag	_	O	O	
+7-7	in	APPR	in	_	O	O	
+7-8	Folge	NN	Folge	_	O	O	
+7-9	der	ART	die	_	O	O	
+7-10	nach	APPR	nach	_	O	O	
+7-11	langer	ADJA	lang	_	O	O	
+7-12	Kühle	NN	Kühle	_	O	O	
+7-13	pl6tzlich	ADJD	<unknown>	_	O	O	
+7-14	hereingebrochenen	ADJA	hereingebrochen	_	O	O	
+7-15	gewaltigen	ADJA	gewaltig	_	O	O	
+7-16	Hitze	NN	Hitze	_	O	O	
+7-17	(	$(	(	_	O	O	
+7-18	28	CARD	28	_	O	O	
+7-19	-	$(	-	_	O	O	
+7-20	30	CARD	30	_	O	O	
+7-21	0	CARD	@card@	_	O	O	
+7-22	im	APPRART	in	_	O	O	
+7-23	Schatten	NN	Schatten	_	O	O	
+7-24	um	APPR	um	_	O	O	
+7-25	2	CARD	2	_	O	O	
+7-26	Uhr	NN	Uhr	_	O	O	
+7-27	Nchm	NN	<unknown>	_	O	O	
+7-28	.	$.	.	_	O	O	
+7-29	)	$(	)	_	O	O	
+
+#id=8
+#text=einen neu.en Anfall ihrer vorjährigen Krankheit.
+8-1	einen	ART	eine	_	O	O	
+8-2	neu.en	ADJA	<unknown>	_	O	O	
+8-3	Anfall	NN	Anfall	_	O	O	
+8-4	ihrer	PPOSAT	ihr	_	O	O	
+8-5	vorjährigen	ADJA	vorjährig	_	O	O	
+8-6	Krankheit	NN	Krankheit	_	O	O	
+8-7	.	$.	.	_	O	O	
+
+#id=9
+#text=Die Sache hat sich zwar bei vollkommener Ruhe u. etwas gemäßgterer Wärme bald gegeben, aber doch die Flucht nach den Bergen unumgänglich gemacht.
+9-1	Die	ART	die	_	O	O	
+9-2	Sache	NN	Sache	_	O	O	
+9-3	hat	VAFIN	haben	_	O	O	
+9-4	sich	PRF	sich	_	O	O	
+9-5	zwar	ADV	zwar	_	O	O	
+9-6	bei	APPR	bei	_	O	O	
+9-7	vollkommener	ADJA	vollkommen	_	O	O	
+9-8	Ruhe	NN	Ruhe	_	O	O	
+9-9	u.	APPR	um	_	O	O	
+9-10	etwas	PIAT	etwas	_	O	O	
+9-11	gemäßgterer	ADJA	<unknown>	_	O	O	
+9-12	Wärme	NN	Wärme	_	O	O	
+9-13	bald	ADV	bald	_	O	O	
+9-14	gegeben	VVPP	geben	_	O	O	
+9-15	,	$,	,	_	O	O	
+9-16	aber	KON	aber	_	O	O	
+9-17	doch	ADV	doch	_	O	O	
+9-18	die	ART	die	_	O	O	
+9-19	Flucht	NN	Flucht	_	O	O	
+9-20	nach	APPR	nach	_	O	O	
+9-21	den	ART	die	_	O	O	
+9-22	Bergen	NN	Berg|Bergen	_	O	O	
+9-23	unumgänglich	ADJD	unumgänglich	_	O	O	
+9-24	gemacht	VVPP	machen	_	O	O	
+9-25	.	$.	.	_	O	O	
+
+#id=10
+#text=Wir gehen nach Rocca di Papa, um es recht kühl zu haben, .
+10-1	Wir	PPER	wir	_	O	O	
+10-2	gehen	VVFIN	gehen	_	O	O	
+10-3	nach	APPR	nach	_	O	O	
+10-4	Rocca	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-5	di	NE	di	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+10-6	Papa	NN	Papa	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+10-7	,	$,	,	_	O	O	
+10-8	um	KOUI	um	_	O	O	
+10-9	es	PPER	es	_	O	O	
+10-10	recht	ADJD	recht	_	O	O	
+10-11	kühl	ADJD	kühl	_	O	O	
+10-12	zu	PTKZU	zu	_	O	O	
+10-13	haben	VAINF	haben	_	O	O	
+10-14	,	$,	,	_	O	O	
+10-15	.	$.	.	_	O	O	
+
+#id=11
+#text=.
+11-1	.	$.	.	_	O	O	
+
+#id=12
+#text=t (' t .
+12-1	t	NN	t	_	O	O	
+12-2	(	$(	(	_	O	O	
+12-3	'	$(	'	_	O	O	
+12-4	t	NN	t	_	O	O	
+12-5	.	$.	.	_	O	O	
+
+#id=13
+#text=h ~J • .. h t 'p h u. zwar Sle ml ,;;, eln a;w.mers ln nac S er iiQC e.
+13-1	h	NN	h	_	O	O	
+13-2	~J	NE	<unknown>	_	O	O	
+13-3	•	ADJD	<unknown>	_	O	O	
+13-4	.	$.	.	_	O	O	
+13-5	.	$.	.	_	O	O	
+13-6	h	NN	h	_	O	O	
+13-7	t	NN	t	_	O	O	
+13-8	'	$(	'	_	O	O	
+13-9	p	NE	p	_	O	O	
+13-10	h	NN	h	_	O	O	
+13-11	u.	APPR	um	_	O	O	
+13-12	zwar	ADV	zwar	_	O	O	
+13-13	Sle	ADJA	<unknown>	_	O	O	
+13-14	ml	NN	ml	_	O	O	
+13-15	,	$,	,	_	O	O	
+13-16	;	$.	;	_	O	O	
+13-17	;	$.	;	_	O	O	
+13-18	,	$,	,	_	O	O	
+13-19	eln	ADJA	<unknown>	_	O	O	
+13-20	a	FM	a	_	O	O	
+13-21	;	$.	;	_	O	O	
+13-22	w.mers	NE	<unknown>	_	O	O	
+13-23	ln	NN	<unknown>	_	O	O	
+13-24	nac	NE	<unknown>	_	O	O	
+13-25	S	NN	S	_	O	O	
+13-26	er	PPER	er	_	O	O	
+13-27	iiQC	ADV	<unknown>	_	O	O	
+13-28	e.	ART	e.	_	O	O	
+
+#id=14
+#text=Ich bleibe wohl ei~ paar Tage länger hier, um allerlei Institutsgeschäfte abzuthun, namentlich Guch den Druck der Annalen noch etwas zu fördern.
+14-1	Ich	PPER	ich	_	O	O	
+14-2	bleibe	VVFIN	bleiben	_	O	O	
+14-3	wohl	ADV	wohl	_	O	O	
+14-4	ei~	ADJD	<unknown>	_	O	O	
+14-5	paar	PIAT	paar	_	O	O	
+14-6	Tage	NN	Tag	_	O	O	
+14-7	länger	ADJD	lang	_	O	O	
+14-8	hier	ADV	hier	_	O	O	
+14-9	,	$,	,	_	O	O	
+14-10	um	APPR	um	_	O	O	
+14-11	allerlei	PIAT	allerlei	_	O	O	
+14-12	Institutsgeschäfte	NN	<unknown>	_	O	O	
+14-13	abzuthun	VVIZU	<unknown>	_	O	O	
+14-14	,	$,	,	_	O	O	
+14-15	namentlich	ADJD	namentlich	_	O	O	
+14-16	Guch	NN	<unknown>	_	O	O	
+14-17	den	ART	die	_	O	O	
+14-18	Druck	NN	Druck	_	O	O	
+14-19	der	ART	die	_	O	O	
+14-20	Annalen	NN	Annalen	_	O	O	
+14-21	noch	ADV	noch	_	O	O	
+14-22	etwas	PIS	etwas	_	O	O	
+14-23	zu	PTKZU	zu	_	O	O	
+14-24	fördern	VVINF	fördern	_	O	O	
+14-25	.	$.	.	_	O	O	
+
+#id=15
+#text=\:~'ir wlirden im laufenden Mons.te das Heft fertig drucken k6nnen, fehlten uns nicht einice Aufsätze, die ~elcker versprochen.
+15-1	\:~'ir	NN	<unknown>	_	O	O	
+15-2	wlirden	VVFIN	<unknown>	_	O	O	
+15-3	im	APPRART	in	_	O	O	
+15-4	laufenden	ADJA	laufend	_	O	O	
+15-5	Mons.te	NN	<unknown>	_	O	O	
+15-6	das	ART	die	_	O	O	
+15-7	Heft	NN	Heft	_	O	O	
+15-8	fertig	ADJD	fertig	_	O	O	
+15-9	drucken	VVFIN	drucken	_	O	O	
+15-10	k6nnen	NN	<unknown>	_	O	O	
+15-11	,	$,	,	_	O	O	
+15-12	fehlten	VVFIN	fehlen	_	O	O	
+15-13	uns	PPER	wir	_	O	O	
+15-14	nicht	PTKNEG	nicht	_	O	O	
+15-15	einice	NE	<unknown>	_	O	O	
+15-16	Aufsätze	NN	Aufsatz	_	O	O	
+15-17	,	$,	,	_	O	O	
+15-18	die	ART	die	_	O	O	
+15-19	~elcker	NN	<unknown>	_	O	O	
+15-20	versprochen	VVPP	versprechen	_	O	O	
+15-21	.	$.	.	_	O	O	
+
+#id=16
+#text=So aber wird's noch etwas dauern, u. überdies durch das Hinausschicken der Correcturen Z6gerung entstehen.
+16-1	So	ADV	so	_	O	O	
+16-2	aber	ADV	aber	_	O	O	
+16-3	wird's	VAFIN	werden	_	O	O	
+16-4	noch	ADV	noch	_	O	O	
+16-5	etwas	PIS	etwas	_	O	O	
+16-6	dauern	VVINF	dauern	_	O	O	
+16-7	,	$,	,	_	O	O	
+16-8	u.	KON	und	_	O	O	
+16-9	überdies	ADV	überdies	_	O	O	
+16-10	durch	APPR	durch	_	O	O	
+16-11	das	ART	die	_	O	O	
+16-12	Hinausschicken	NN	<unknown>	_	O	O	
+16-13	der	ART	die	_	O	O	
+16-14	Correcturen	NN	<unknown>	_	O	O	
+16-15	Z6gerung	NN	<unknown>	_	O	O	
+16-16	entstehen	VVFIN	entstehen	_	O	O	
+16-17	.	$.	.	_	O	O	
+
+#id=17
+#text=- Außerdem warte ich noch auf Antwort von Ihnen u. M. auf meine letzten Briefe, um mit de
+17-1	-	$(	-	_	O	O	
+17-2	Außerdem	ADV	außerdem	_	O	O	
+17-3	warte	VVFIN	warten	_	O	O	
+17-4	ich	PPER	ich	_	O	O	
+17-5	noch	ADV	noch	_	O	O	
+17-6	auf	APPR	auf	_	O	O	
+17-7	Antwort	NN	Antwort	_	O	O	
+17-8	von	APPR	von	_	O	O	
+17-9	Ihnen	PPER	Sie	_	O	O	
+17-10	u.	APPR	um	_	O	O	
+17-11	M.	NE	M.	_	O	O	
+17-12	auf	APPR	auf	_	O	O	
+17-13	meine	PPOSAT	mein	_	O	O	
+17-14	letzten	ADJA	letzt	_	O	O	
+17-15	Briefe	NN	Brief	_	O	O	
+17-16	,	$,	,	_	O	O	
+17-17	um	KOUI	um	_	O	O	
+17-18	mit	APPR	mit	_	O	O	
+17-19	de	NE	de	_	O	O	
+

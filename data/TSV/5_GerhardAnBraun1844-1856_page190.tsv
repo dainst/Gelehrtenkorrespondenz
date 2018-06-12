@@ -1,0 +1,258 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Gerhard an Braun Berlin, 14. Mai 1846 nicht größere Mäßigung und Behutsamkeit Sich auferlegen.
+1-1	2	CARD	2	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1846	ADJA	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	nicht	PTKNEG	nicht	_	O	O	
+1-12	größere	ADJA	groß	_	O	O	
+1-13	Mäßigung	NN	Mäßigung	_	O	O	
+1-14	und	KON	und	_	O	O	
+1-15	Behutsamkeit	NN	Behutsamkeit	_	O	O	
+1-16	Sich	PRF	sich	_	O	O	
+1-17	auferlegen	VVFIN	auferlegen	_	O	O	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Die zügellose Polemik der letzten Jahre, wäre sie auch noch so begründet, thut unserm Kredit nicht gut.
+2-1	Die	ART	die	_	O	O	
+2-2	zügellose	ADJA	zügellos	_	O	O	
+2-3	Polemik	NN	Polemik	_	O	O	
+2-4	der	ART	die	_	O	O	
+2-5	letzten	ADJA	letzt	_	O	O	
+2-6	Jahre	NN	Jahr	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	wäre	VAFIN	sein	_	O	O	
+2-9	sie	PPER	sie	_	O	O	
+2-10	auch	ADV	auch	_	O	O	
+2-11	noch	ADV	noch	_	O	O	
+2-12	so	ADV	so	_	O	O	
+2-13	begründet	VVPP	begründen	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	thut	NN	<unknown>	_	O	O	
+2-16	unserm	PPOSAT	unser	_	O	O	
+2-17	Kredit	NN	Kredit	_	O	O	
+2-18	nicht	PTKNEG	nicht	_	O	O	
+2-19	gut	ADJD	gut	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Daß seine ganze Stellung sich nicht wieder aufnehmen lasse werde ich festhalten und er sollte dann doch wal irgend ein Utile gern wahrnehmen; ich wünschte daß Sie eine Form dafür fänden, denn zieht er nicht eniges Geld von uns, so befehdet er uns.
+3-1	Daß	KOUS	dass	_	O	O	
+3-2	seine	PPOSAT	sein	_	O	O	
+3-3	ganze	ADJA	ganz	_	O	O	
+3-4	Stellung	NN	Stellung	_	O	O	
+3-5	sich	PRF	sich	_	O	O	
+3-6	nicht	PTKNEG	nicht	_	O	O	
+3-7	wieder	ADV	wieder	_	O	O	
+3-8	aufnehmen	VVINF	aufnehmen	_	O	O	
+3-9	lasse	VVFIN	lassen	_	O	O	
+3-10	werde	VAFIN	werden	_	O	O	
+3-11	ich	PPER	ich	_	O	O	
+3-12	festhalten	VVINF	festhalten	_	O	O	
+3-13	und	KON	und	_	O	O	
+3-14	er	PPER	er	_	O	O	
+3-15	sollte	VMFIN	sollen	_	O	O	
+3-16	dann	ADV	dann	_	O	O	
+3-17	doch	ADV	doch	_	O	O	
+3-18	wal	ADJD	<unknown>	_	O	O	
+3-19	irgend	ADV	irgend	_	O	O	
+3-20	ein	ART	eine	_	O	O	
+3-21	Utile	NN	<unknown>	_	O	O	
+3-22	gern	ADV	gern	_	O	O	
+3-23	wahrnehmen	VVINF	wahrnehmen	_	O	O	
+3-24	;	$.	;	_	O	O	
+3-25	ich	PPER	ich	_	O	O	
+3-26	wünschte	VVFIN	wünschen	_	O	O	
+3-27	daß	KOUS	dass	_	O	O	
+3-28	Sie	PPER	Sie	_	O	O	
+3-29	eine	ART	eine	_	O	O	
+3-30	Form	NN	Form	_	O	O	
+3-31	dafür	PAV	dafür	_	O	O	
+3-32	fänden	VVINF	finden	_	O	O	
+3-33	,	$,	,	_	O	O	
+3-34	denn	KON	denn	_	O	O	
+3-35	zieht	VVFIN	zeihen|ziehen	_	O	O	
+3-36	er	PPER	er	_	O	O	
+3-37	nicht	PTKNEG	nicht	_	O	O	
+3-38	eniges	ADJA	<unknown>	_	O	O	
+3-39	Geld	NN	Geld	_	O	O	
+3-40	von	APPR	von	_	O	O	
+3-41	uns	PPER	wir	_	O	O	
+3-42	,	$,	,	_	O	O	
+3-43	so	ADV	so	_	O	O	
+3-44	befehdet	VVFIN	befehden	_	O	O	
+3-45	er	PPER	er	_	O	O	
+3-46	uns.	ADJD	<unknown>	_	O	O	
+
+#id=4
+#text=Die je 20 Scudi die er für 2 Bilanci in Anspruch nehmen kann, werde ich ihm nicht erschweren; sie werden aber von ihm als schuldig und ohne ihn zu obligiren betrachtet werden.
+4-1	Die	ART	die	_	O	O	
+4-2	je	ADV	je	_	O	O	
+4-3	20	CARD	20	_	O	O	
+4-4	Scudi	NN	<unknown>	_	O	O	
+4-5	die	ART	die	_	O	O	
+4-6	er	PPER	er	_	O	O	
+4-7	für	APPR	für	_	O	O	
+4-8	2	CARD	2	_	O	O	
+4-9	Bilanci	NN	<unknown>	_	O	O	
+4-10	in	APPR	in	_	O	O	
+4-11	Anspruch	NN	Anspruch	_	O	O	
+4-12	nehmen	VVINF	nehmen	_	O	O	
+4-13	kann	VMFIN	können	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	werde	VAFIN	werden	_	O	O	
+4-16	ich	PPER	ich	_	O	O	
+4-17	ihm	PPER	er	_	O	O	
+4-18	nicht	PTKNEG	nicht	_	O	O	
+4-19	erschweren	VVINF	erschweren	_	O	O	
+4-20	;	$.	;	_	O	O	
+4-21	sie	PPER	sie	_	O	O	
+4-22	werden	VAFIN	werden	_	O	O	
+4-23	aber	ADV	aber	_	O	O	
+4-24	von	APPR	von	_	O	O	
+4-25	ihm	PPER	er	_	O	O	
+4-26	als	KOKOM	als	_	O	O	
+4-27	schuldig	ADJD	schuldig	_	O	O	
+4-28	und	KON	und	_	O	O	
+4-29	ohne	APPR	ohne	_	O	O	
+4-30	ihn	PPER	er	_	O	O	
+4-31	zu	PTKZU	zu	_	O	O	
+4-32	obligiren	ADJA	<unknown>	_	O	O	
+4-33	betrachtet	VVPP	betrachten	_	O	O	
+4-34	werden	VAINF	werden	_	O	O	
+4-35	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich hoffe sehr Ihre gewandte Behandlung schwieriger Persönlichkeiten werde hier doch noch ein Meisterstück thun; bis dahin verzögere ich meine Antwort, oder weise ihn zur Verständigung an Sie als die Hauptperson.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	hoffe	VVFIN	hoffen	_	O	O	
+5-3	sehr	ADV	sehr	_	O	O	
+5-4	Ihre	PPOSAT	ihr	_	O	O	
+5-5	gewandte	ADJA	gewandt	_	O	O	
+5-6	Behandlung	NN	Behandlung	_	O	O	
+5-7	schwieriger	ADJA	schwierig	_	O	O	
+5-8	Persönlichkeiten	NN	Persönlichkeit	_	O	O	
+5-9	werde	VAFIN	werden	_	O	O	
+5-10	hier	ADV	hier	_	O	O	
+5-11	doch	ADV	doch	_	O	O	
+5-12	noch	ADV	noch	_	O	O	
+5-13	ein	ART	eine	_	O	O	
+5-14	Meisterstück	NN	Meisterstück	_	O	O	
+5-15	thun	NE	<unknown>	_	O	O	
+5-16	;	$.	;	_	O	O	
+5-17	bis	KON	bis	_	O	O	
+5-18	dahin	PAV	dahin	_	O	O	
+5-19	verzögere	VVFIN	verzögern	_	O	O	
+5-20	ich	PPER	ich	_	O	O	
+5-21	meine	PPOSAT	mein	_	O	O	
+5-22	Antwort	NN	Antwort	_	O	O	
+5-23	,	$,	,	_	O	O	
+5-24	oder	KON	oder	_	O	O	
+5-25	weise	VVFIN	weisen	_	O	O	
+5-26	ihn	PPER	er	_	O	O	
+5-27	zur	APPRART	zu	_	O	O	
+5-28	Verständigung	NN	Verständigung	_	O	O	
+5-29	an	APPR	an	_	O	O	
+5-30	Sie	PPER	Sie	_	O	O	
+5-31	als	KOKOM	als	_	O	O	
+5-32	die	ART	die	_	O	O	
+5-33	Hauptperson	NN	Hauptperson	_	O	O	
+5-34	.	$.	.	_	O	O	
+
+#id=6
+#text=Stahr und Hellner würde ich lieber verachten und dulden, als verfolgen und hoch anschlagen.
+6-1	Stahr	NN	<unknown>	_	O	O	
+6-2	und	KON	und	_	O	O	
+6-3	Hellner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	würde	VAFIN	werden	_	O	O	
+6-5	ich	PPER	ich	_	O	O	
+6-6	lieber	ADJD	lieb	_	O	O	
+6-7	verachten	VVINF	verachten	_	O	O	
+6-8	und	KON	und	_	O	O	
+6-9	dulden	VVINF	dulden	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	als	KOKOM	als	_	O	O	
+6-12	verfolgen	VVINF	verfolgen	_	O	O	
+6-13	und	KON	und	_	O	O	
+6-14	hoch	ADJD	hoch	_	O	O	
+6-15	anschlagen	VVFIN	anschlagen	_	O	O	
+6-16	.	$.	.	_	O	O	
+
+#id=7
+#text=Kestner's Notiz kommt wal morgen nach; ich denke Sie senden Exemplare durch Ministerialbeischluß oder Gelegenheit-, oder falls deren an Brockhaus gesandt sind wie ich voraussetze auch gar keine.
+7-1	Kestner's	VVIMP	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	Notiz	NN	Notiz	_	O	O	
+7-3	kommt	VVFIN	kommen	_	O	O	
+7-4	wal	ADJD	<unknown>	_	O	O	
+7-5	morgen	ADV	morgen	_	O	O	
+7-6	nach	PTKVZ	nach	_	O	O	
+7-7	;	$.	;	_	O	O	
+7-8	ich	PPER	ich	_	O	O	
+7-9	denke	VVFIN	denken	_	O	O	
+7-10	Sie	PPER	Sie	_	O	O	
+7-11	senden	VVFIN	senden	_	O	O	
+7-12	Exemplare	NN	Exemplar	_	O	O	
+7-13	durch	APPR	durch	_	O	O	
+7-14	Ministerialbeischluß	NN	<unknown>	_	O	O	
+7-15	oder	KON	oder	_	O	O	
+7-16	Gelegenheit-	TRUNC	<unknown>	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	oder	KON	oder	_	O	O	
+7-19	falls	KOUS	falls	_	O	O	
+7-20	deren	PDS	die	_	O	O	
+7-21	an	APPR	an	_	O	O	
+7-22	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-23	gesandt	VVPP	senden	_	O	O	
+7-24	sind	VAFIN	sein	_	O	O	
+7-25	wie	KOKOM	wie	_	O	O	
+7-26	ich	PPER	ich	_	O	O	
+7-27	voraussetze	VVFIN	voraussetzen	_	O	O	
+7-28	auch	ADV	auch	_	O	O	
+7-29	gar	ADV	gar	_	O	O	
+7-30	keine	PIAT	keine	_	O	O	
+7-31	.	$.	.	_	O	O	
+
+#id=8
+#text=Aber Ihr zugestutztes Brouillon erwarte ich um ein paar Blätter gleichen Inhalts für Deutschland zurecht zu machen, Bücherwünsche einzuleiten und dergleichen.
+8-1	Aber	KON	aber	_	O	O	
+8-2	Ihr	PPOSAT	ihr	_	O	O	
+8-3	zugestutztes	ADJA	<unknown>	_	O	O	
+8-4	Brouillon	NN	<unknown>	_	O	O	
+8-5	erwarte	VVFIN	erwarten	_	O	O	
+8-6	ich	PPER	ich	_	O	O	
+8-7	um	APPR	um	_	O	O	
+8-8	ein	ART	eine	_	O	O	
+8-9	paar	PIAT	paar	_	O	O	
+8-10	Blätter	NN	Blatt	_	O	O	
+8-11	gleichen	ADJA	gleich	_	O	O	
+8-12	Inhalts	NN	Inhalt	_	O	O	
+8-13	für	APPR	für	_	O	O	
+8-14	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-15	zurecht	PTKVZ	zurecht	_	O	O	
+8-16	zu	PTKZU	zu	_	O	O	
+8-17	machen	VVINF	machen	_	O	O	
+8-18	,	$,	,	_	O	O	
+8-19	Bücherwünsche	NN	Bücherwunsch	_	O	O	
+8-20	einzuleiten	VVIZU	einleiten	_	O	O	
+8-21	und	KON	und	_	O	O	
+8-22	dergleichen	PIS	dergleichen	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=Wenn Sie nun für dergleichen Bibliothekarisches,
+9-1	Wenn	KOUS	wenn	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	nun	ADV	nun	_	O	O	
+9-4	für	APPR	für	_	O	O	
+9-5	dergleichen	PIS	dergleichen	_	O	O	
+9-6	Bibliothekarisches	NN	<unknown>	_	O	O	
+9-7	,	$,	,	_	O	O	
+

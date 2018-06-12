@@ -1,0 +1,231 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Dr. Braun Mein theurer Freund.
+1-1	Dr.	NN	Dr.	_	O	O	
+1-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	Mein	PPOSAT	mein	_	O	O	
+1-4	theurer	ADJA	<unknown>	_	O	O	
+1-5	Freund	NN	Freund	_	O	O	
+1-6	.	$.	.	_	O	O	
+
+#id=2
+#text=Gerhard an Braun Berlin, 20. Dezember 1848 g. 2/1 49 r. 4/1 49 Berlin 20 Dec 49 Eben als ich Beigehndes an Henzen absende, langt Ihr Brief vom 9. d. M. an.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1848	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	g.	VVFIN	<unknown>	_	O	O	
+2-11	2/1	CARD	2/1	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-12	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-13	r.	ADJA	<unknown>	_	O	O	
+2-14	4/1	CARD	4/1	_	O	O	
+2-15	49	CARD	@card@	_	O	O	
+2-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-17	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-18	Dec	NE	Dec	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-19	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-20	Eben	ADV	eben	_	O	O	
+2-21	als	KOUS	als	_	O	O	
+2-22	ich	PPER	ich	_	O	O	
+2-23	Beigehndes	NN	<unknown>	_	O	O	
+2-24	an	APPR	an	_	O	O	
+2-25	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-26	absende	NN	<unknown>	_	O	O	
+2-27	,	$,	,	_	O	O	
+2-28	langt	VVFIN	langen	_	O	O	
+2-29	Ihr	PPOSAT	ihr	_	O	O	
+2-30	Brief	NN	Brief	_	O	O	
+2-31	vom	APPRART	von	_	O	O	
+2-32	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-33	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-34	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-35	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-36	an	PTKVZ	an	_	O	O	
+2-37	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihre 50 rt aus Breslau, samt 146 rt 27 von Leemans fürs Institut bringt also Usedom mit.
+3-1	Ihre	PPOSAT	ihr	_	O	O	
+3-2	50	CARD	50	_	O	O	
+3-3	rt	NN	<unknown>	_	O	O	
+3-4	aus	APPR	aus	_	O	O	
+3-5	Breslau	NE	Breslau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-6	,	$,	,	_	O	O	
+3-7	samt	APPR	samt	_	O	O	
+3-8	146	CARD	@card@	_	O	O	
+3-9	rt	ADJA	<unknown>	_	O	O	
+3-10	27	CARD	27	_	O	O	
+3-11	von	APPR	von	_	O	O	
+3-12	Leemans	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-13	fürs	APPRART	fürs	_	O	O	
+3-14	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-15	bringt	VVFIN	bringen	_	O	O	
+3-16	also	ADV	also	_	O	O	
+3-17	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-18	mit	PTKVZ	mit	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Weder Newton noch was er mitbringen sollte ist angelangt, letzteres wird wol von London kommen.
+4-1	Weder	KON	weder	_	O	O	
+4-2	Newton	NE	Newton	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	noch	ADV	noch	_	O	O	
+4-4	was	PIS	was	_	O	O	
+4-5	er	PPER	er	_	O	O	
+4-6	mitbringen	VVINF	mitbringen	_	O	O	
+4-7	sollte	VMFIN	sollen	_	O	O	
+4-8	ist	VAFIN	sein	_	O	O	
+4-9	angelangt	VVPP	angelangen	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	letzteres	ADJA	letzt	_	O	O	
+4-12	wird	VAFIN	werden	_	O	O	
+4-13	wol	ADJD	<unknown>	_	O	O	
+4-14	von	APPR	von	_	O	O	
+4-15	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-16	kommen	VVINF	kommen	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=Von Ihren galvanoplastischen Abdrücken des homer.
+5-1	Von	APPR	von	_	O	O	
+5-2	Ihren	PPOSAT	ihr	_	O	O	
+5-3	galvanoplastischen	ADJA	<unknown>	_	O	O	
+5-4	Abdrücken	NN	Abdruck	_	O	O	
+5-5	des	ART	die	_	O	O	
+5-6	homer	ADJA	<unknown>	_	O	O	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=Reliefs hat Schulze eins erhalten; sonst ließ ich sie absichtlich unberührt um dem Reiz der Neuigkeit nicht vorzugreifen.
+6-1	Reliefs	NN	Relief	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-2	hat	VAFIN	haben	_	O	O	
+6-3	Schulze	NE	Schulze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	eins	CARD	eins	_	O	O	
+6-5	erhalten	VVPP	erhalten	_	O	O	
+6-6	;	$.	;	_	O	O	
+6-7	sonst	ADV	sonst	_	O	O	
+6-8	ließ	VVFIN	lassen	_	O	O	
+6-9	ich	PPER	ich	_	O	O	
+6-10	sie	PPER	sie	_	O	O	
+6-11	absichtlich	ADJD	absichtlich	_	O	O	
+6-12	unberührt	ADJD	unberührt	_	O	O	
+6-13	um	APPR	um	_	O	O	
+6-14	dem	ART	die	_	O	O	
+6-15	Reiz	NN	Reiz	_	O	O	
+6-16	der	ART	die	_	O	O	
+6-17	Neuigkeit	NN	Neuigkeit	_	O	O	
+6-18	nicht	PTKNEG	nicht	_	O	O	
+6-19	vorzugreifen	VVIZU	vorgreifen	_	O	O	
+6-20	.	$.	.	_	O	O	
+
+#id=7
+#text=Der Brief an den König hängt am Index, aber auch an gesandtschaftlicher Empfehlung; dennoch will ich, da er eindringlich genug geschrieben ist und der jetzige Zeitpunkt vermuthlich günstiger ist als der nächstfolgende ihn abgehn lassen, sobald der Index zur Stelle ist.
+7-1	Der	ART	die	_	O	O	
+7-2	Brief	NN	Brief	_	O	O	
+7-3	an	APPR	an	_	O	O	
+7-4	den	ART	die	_	O	O	
+7-5	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-6	hängt	VVFIN	hängen	_	O	O	
+7-7	am	APPRART	an	_	O	O	
+7-8	Index	NN	Index	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	aber	KON	aber	_	O	O	
+7-11	auch	ADV	auch	_	O	O	
+7-12	an	APPR	an	_	O	O	
+7-13	gesandtschaftlicher	ADJA	<unknown>	_	O	O	
+7-14	Empfehlung	NN	Empfehlung	_	O	O	
+7-15	;	$.	;	_	O	O	
+7-16	dennoch	ADV	dennoch	_	O	O	
+7-17	will	VMFIN	wollen	_	O	O	
+7-18	ich	PPER	ich	_	O	O	
+7-19	,	$,	,	_	O	O	
+7-20	da	KOUS	da	_	O	O	
+7-21	er	PPER	er	_	O	O	
+7-22	eindringlich	ADJD	eindringlich	_	O	O	
+7-23	genug	ADV	genug	_	O	O	
+7-24	geschrieben	VVPP	schreiben	_	O	O	
+7-25	ist	VAFIN	sein	_	O	O	
+7-26	und	KON	und	_	O	O	
+7-27	der	ART	die	_	O	O	
+7-28	jetzige	ADJA	jetzig	_	O	O	
+7-29	Zeitpunkt	NN	Zeitpunkt	_	O	O	
+7-30	vermuthlich	ADJD	<unknown>	_	O	O	
+7-31	günstiger	ADJD	günstig	_	O	O	
+7-32	ist	VAFIN	sein	_	O	O	
+7-33	als	KOKOM	als	_	O	O	
+7-34	der	ART	die	_	O	O	
+7-35	nächstfolgende	ADJA	nächstfolgend	_	O	O	
+7-36	ihn	PPER	er	_	O	O	
+7-37	abgehn	ADJD	<unknown>	_	O	O	
+7-38	lassen	VVINF	lassen	_	O	O	
+7-39	,	$,	,	_	O	O	
+7-40	sobald	KOUS	sobald	_	O	O	
+7-41	der	ART	die	_	O	O	
+7-42	Index	NN	Index	_	O	O	
+7-43	zur	APPRART	zu	_	O	O	
+7-44	Stelle	NN	Stelle	_	O	O	
+7-45	ist	VAFIN	sein	_	O	O	
+7-46	.	$.	.	_	O	O	
+
+#id=8
+#text=Gibt es aber eine Form die Gesandtschaft nachmuntern zu lassen, so ist es erwünscht; am Ende ist auch Reumont der direkt mit dem König korrespondirt kein übler Fürsprecher.
+8-1	Gibt	VVFIN	geben	_	O	O	
+8-2	es	PPER	es	_	O	O	
+8-3	aber	ADV	aber	_	O	O	
+8-4	eine	ART	eine	_	O	O	
+8-5	Form	NN	Form	_	O	O	
+8-6	die	ART	die	_	O	O	
+8-7	Gesandtschaft	NN	Gesandtschaft	_	O	O	
+8-8	nachmuntern	ADJD	<unknown>	_	O	O	
+8-9	zu	PTKZU	zu	_	O	O	
+8-10	lassen	VVINF	lassen	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	so	ADV	so	_	O	O	
+8-13	ist	VAFIN	sein	_	O	O	
+8-14	es	PPER	es	_	O	O	
+8-15	erwünscht	ADJD	erwünscht	_	O	O	
+8-16	;	$.	;	_	O	O	
+8-17	am	APPRART	an	_	O	O	
+8-18	Ende	NN	Ende	_	O	O	
+8-19	ist	VAFIN	sein	_	O	O	
+8-20	auch	ADV	auch	_	O	O	
+8-21	Reumont	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-22	der	ART	die	_	O	O	
+8-23	direkt	ADJD	direkt	_	O	O	
+8-24	mit	APPR	mit	_	O	O	
+8-25	dem	ART	die	_	O	O	
+8-26	König	NN	König	_	O	O	
+8-27	korrespondirt	NN	<unknown>	_	O	O	
+8-28	kein	PIAT	keine	_	O	O	
+8-29	übler	ADJA	übel	_	O	O	
+8-30	Fürsprecher	NN	Fürsprecher	_	O	O	
+8-31	.	$.	.	_	O	O	
+
+#id=9
+#text=Wo haust Lotzbeck?
+9-1	Wo	PWAV	wo	_	O	O	
+9-2	haust	VVFIN	hausen	_	O	O	
+9-3	Lotzbeck	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-4	?	$.	?	_	O	O	
+
+#id=10
+#text=Er soll ein Programm, und auch-ein Manifest der Archäologischen Zeitung haben und
+10-1	Er	PPER	er	_	O	O	
+10-2	soll	VMFIN	sollen	_	O	O	
+10-3	ein	ART	eine	_	O	O	
+10-4	Programm	NN	Programm	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	und	KON	und	_	O	O	
+10-7	auch-ein	ADJA	<unknown>	_	O	O	
+10-8	Manifest	NN	Manifest	_	O	O	
+10-9	der	ART	die	_	O	O	
+10-10	Archäologischen	ADJA	archäologisch	_	O	O	
+10-11	Zeitung	NN	Zeitung	_	O	O	
+10-12	haben	VAFIN	haben	_	O	O	
+10-13	und	KON	und	_	O	O	
+

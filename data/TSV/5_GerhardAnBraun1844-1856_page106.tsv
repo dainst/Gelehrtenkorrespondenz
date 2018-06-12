@@ -1,0 +1,207 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=78 A. d. Dir.
+1-1	78	CARD	78	_	O	O	
+1-2	A.	APPR	an	_	O	O	
+1-3	d.	ART	d.	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Lieber Freund.
+2-1	Lieber	ADJD	lieb	_	O	O	
+2-2	Freund	NE	Freund	_	O	O	
+2-3	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Braun Berlin, 7. Februar 1845 g. 8/111 45 r. 8/111 45 Berlin 7 Febr 45 Dr. Schrader von der hiesigen königlichen Bibliothek, der einen längeren und ernstlich zu benutzenden Aufenthalt in Italien beabsichtigt und neben naturwissenschaftlichen und bibliothekarischen Studien auch historische und artistische nicht ausschließt, wünscht und verdient Ihnen bestens empfohlen zu sein.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	an	APPR	an	_	O	O	
+3-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-5	,	$,	,	_	O	O	
+3-6	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-10	g.	VVFIN	<unknown>	_	O	O	
+3-11	8/111	CARD	@card@	_	O	O	
+3-12	45	CARD	45	_	O	O	
+3-13	r.	ADJA	<unknown>	_	O	O	
+3-14	8/111	CARD	@card@	_	O	O	
+3-15	45	CARD	45	_	O	O	
+3-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-17	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-18	Febr	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-19	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-20	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-21	Schrader	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-22	von	APPR	von	_	O	O	
+3-23	der	ART	die	_	O	O	
+3-24	hiesigen	ADJA	hiesig	_	O	O	
+3-25	königlichen	ADJA	königlich	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-26	Bibliothek	NN	Bibliothek	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+3-27	,	$,	,	_	O	O	
+3-28	der	PRELS	die	_	O	O	
+3-29	einen	ART	eine	_	O	O	
+3-30	längeren	ADJA	lang	_	O	O	
+3-31	und	KON	und	_	O	O	
+3-32	ernstlich	ADJD	ernstlich	_	O	O	
+3-33	zu	PTKZU	zu	_	O	O	
+3-34	benutzenden	ADJA	benutzend	_	O	O	
+3-35	Aufenthalt	NN	Aufenthalt	_	O	O	
+3-36	in	APPR	in	_	O	O	
+3-37	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-38	beabsichtigt	VVPP	beabsichtigen	_	O	O	
+3-39	und	KON	und	_	O	O	
+3-40	neben	APPR	neben	_	O	O	
+3-41	naturwissenschaftlichen	ADJA	naturwissenschaftlich	_	O	O	
+3-42	und	KON	und	_	O	O	
+3-43	bibliothekarischen	ADJA	<unknown>	_	O	O	
+3-44	Studien	NN	Studie|Studium	_	O	O	
+3-45	auch	ADV	auch	_	O	O	
+3-46	historische	ADJA	historisch	_	O	O	
+3-47	und	KON	und	_	O	O	
+3-48	artistische	ADJA	artistisch	_	O	O	
+3-49	nicht	PTKNEG	nicht	_	O	O	
+3-50	ausschließt	VVFIN	ausschließen	_	O	O	
+3-51	,	$,	,	_	O	O	
+3-52	wünscht	VVFIN	wünschen	_	O	O	
+3-53	und	KON	und	_	O	O	
+3-54	verdient	VVFIN	verdienen	_	O	O	
+3-55	Ihnen	PPER	Sie	_	O	O	
+3-56	bestens	ADV	bestens	_	O	O	
+3-57	empfohlen	VVPP	empfehlen	_	O	O	
+3-58	zu	PTKZU	zu	_	O	O	
+3-59	sein	VAINF	sein	_	O	O	
+3-60	.	$.	.	_	O	O	
+
+#id=4
+#text=Da J. Friedländer ihm speciell befreundet ist, wird er Ihre Zeit nicht in Anspruch zu nehmen brauchen.
+4-1	Da	ADV	da	_	O	O	
+4-2	J.	APPR	j.	_	O	O	
+4-3	Friedländer	NN	Friedland	_	O	O	
+4-4	ihm	PPER	er	_	O	O	
+4-5	speciell	ADJD	<unknown>	_	O	O	
+4-6	befreundet	VVPP	befreunden	_	O	O	
+4-7	ist	VAFIN	sein	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	wird	VAFIN	werden	_	O	O	
+4-10	er	PPER	er	_	O	O	
+4-11	Ihre	PPOSAT	ihr	_	O	O	
+4-12	Zeit	NN	Zeit	_	O	O	
+4-13	nicht	PTKNEG	nicht	_	O	O	
+4-14	in	APPR	in	_	O	O	
+4-15	Anspruch	NN	Anspruch	_	O	O	
+4-16	zu	PTKZU	zu	_	O	O	
+4-17	nehmen	VVINF	nehmen	_	O	O	
+4-18	brauchen	VVINF	brauchen	_	O	O	
+4-19	.	$.	.	_	O	O	
+
+#id=5
+#text=Was meinem Zeichner mit der Tosischen Vase begegnet ist, machen Sie mich furchtsam näher zu besehen.
+5-1	Was	PWS	was	_	O	O	
+5-2	meinem	PPOSAT	mein	_	O	O	
+5-3	Zeichner	NN	Zeichner	_	O	O	
+5-4	mit	APPR	mit	_	O	O	
+5-5	der	ART	die	_	O	O	
+5-6	Tosischen	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-7	Vase	NN	Vase	_	I-webanno.custom.LetterEntity_	I-OBJ	
+5-8	begegnet	VVPP	begegnen	_	O	O	
+5-9	ist	VAFIN	sein	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	machen	VVFIN	machen	_	O	O	
+5-12	Sie	PPER	Sie	_	O	O	
+5-13	mich	PRF	ich	_	O	O	
+5-14	furchtsam	ADJD	furchtsam	_	O	O	
+5-15	näher	ADJD	nah	_	O	O	
+5-16	zu	PTKZU	zu	_	O	O	
+5-17	besehen	VVINF	besehen	_	O	O	
+5-18	.	$.	.	_	O	O	
+
+#id=6
+#text=Ratti hält meinen Gyps noch immer an sich; noch für 6 Wochen, sagt er.
+6-1	Ratti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	hält	VVFIN	halten	_	O	O	
+6-3	meinen	PPOSAT	mein	_	O	O	
+6-4	Gyps	NN	<unknown>	_	O	O	
+6-5	noch	ADV	noch	_	O	O	
+6-6	immer	ADV	immer	_	O	O	
+6-7	an	APPR	an	_	O	O	
+6-8	sich	PRF	sich	_	O	O	
+6-9	;	$.	;	_	O	O	
+6-10	noch	ADV	noch	_	O	O	
+6-11	für	APPR	für	_	O	O	
+6-12	6	CARD	6	_	O	O	
+6-13	Wochen	NN	Woche	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	sagt	VVFIN	sagen	_	O	O	
+6-16	er	PPER	er	_	O	O	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=Ihr eben angekommener "im Interesse der Theorie" und R.s beredter Brief veranlaßte meine Frau die mir ihn vorlas Sie mit Welcker zu vergleichen; nämlich weil Sie so kabbisch sein könnten.
+7-1	Ihr	PPOSAT	ihr	_	O	O	
+7-2	eben	ADV	eben	_	O	O	
+7-3	angekommener	ADJD	angekommener	_	O	O	
+7-4	"	$(	"	_	O	O	
+7-5	im	APPRART	in	_	O	O	
+7-6	Interesse	NN	Interesse	_	O	O	
+7-7	der	ART	die	_	O	O	
+7-8	Theorie	NN	Theorie	_	O	O	
+7-9	"	$(	"	_	O	O	
+7-10	und	KON	und	_	O	O	
+7-11	R.s	NE	<unknown>	_	O	O	
+7-12	beredter	ADJA	beredt	_	O	O	
+7-13	Brief	NN	Brief	_	O	O	
+7-14	veranlaßte	VVFIN	veranlassen	_	O	O	
+7-15	meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-16	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-17	die	ART	die	_	O	O	
+7-18	mir	PPER	ich	_	O	O	
+7-19	ihn	PPER	er	_	O	O	
+7-20	vorlas	VVFIN	vorlesen	_	O	O	
+7-21	Sie	PPER	Sie	_	O	O	
+7-22	mit	APPR	mit	_	O	O	
+7-23	Welcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-24	zu	PTKZU	zu	_	O	O	
+7-25	vergleichen	VVINF	vergleichen	_	O	O	
+7-26	;	$.	;	_	O	O	
+7-27	nämlich	ADV	nämlich	_	O	O	
+7-28	weil	KOUS	weil	_	O	O	
+7-29	Sie	PPER	Sie	_	O	O	
+7-30	so	ADV	so	_	O	O	
+7-31	kabbisch	ADJD	<unknown>	_	O	O	
+7-32	sein	VAINF	sein	_	O	O	
+7-33	könnten	VMFIN	können	_	O	O	
+7-34	.	$.	.	_	O	O	
+
+#id=8
+#text=Es würde nicht schwer sein uns mündlich darüber zu verständigen; vorlegbare Bücher aber, auch in ostensiblen Exemplaren vorhanden hätten beschleunigt was ich auf Ihren wohlbegründeten
+8-1	Es	PPER	es	_	O	O	
+8-2	würde	VAFIN	werden	_	O	O	
+8-3	nicht	PTKNEG	nicht	_	O	O	
+8-4	schwer	ADJD	schwer	_	O	O	
+8-5	sein	VAINF	sein	_	O	O	
+8-6	uns	PPER	wir	_	O	O	
+8-7	mündlich	ADJD	mündlich	_	O	O	
+8-8	darüber	PAV	darüber	_	O	O	
+8-9	zu	PTKZU	zu	_	O	O	
+8-10	verständigen	VVINF	verständigen	_	O	O	
+8-11	;	$.	;	_	O	O	
+8-12	vorlegbare	ADJA	<unknown>	_	O	O	
+8-13	Bücher	NN	Buch	_	O	O	
+8-14	aber	ADV	aber	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	auch	ADV	auch	_	O	O	
+8-17	in	APPR	in	_	O	O	
+8-18	ostensiblen	ADJA	<UNKNOWN>	_	O	O	
+8-19	Exemplaren	NN	Exemplar	_	O	O	
+8-20	vorhanden	ADJD	vorhanden	_	O	O	
+8-21	hätten	VAFIN	haben	_	O	O	
+8-22	beschleunigt	VVPP	beschleunigen	_	O	O	
+8-23	was	PRELS	was	_	O	O	
+8-24	ich	PPER	ich	_	O	O	
+8-25	auf	APPR	auf	_	O	O	
+8-26	Ihren	PPOSAT	ihr	_	O	O	
+8-27	wohlbegründeten	ADJA	wohlbegründet	_	O	O	
+

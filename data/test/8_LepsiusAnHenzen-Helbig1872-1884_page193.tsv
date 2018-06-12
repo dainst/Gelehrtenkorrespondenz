@@ -1,0 +1,90 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=670 Lepsius an Henzen Berlin, 22. Dezember 1874 2 über sächliche Fonds, inclusive Ihre eigenen Bescheinigungen über Briefmarken und dergleichen, also über die ganze übergebene Summe von 9 750 r, und zwar Alles in der Landesmünze, also in Lire, nur die Gehalte in Thalern.
+1-1	670	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	über	APPR	über	_	O	O	
+1-13	sächliche	ADJA	sächlich	_	O	O	
+1-14	Fonds	NN	Fonds	_	O	O	
+1-15	,	$,	,	_	O	O	
+1-16	inclusive	NN	<unknown>	_	O	O	
+1-17	Ihre	PPOSAT	ihr	_	O	O	
+1-18	eigenen	ADJA	eigen	_	O	O	
+1-19	Bescheinigungen	NN	Bescheinigung	_	O	O	
+1-20	über	APPR	über	_	O	O	
+1-21	Briefmarken	NN	Briefmarke	_	O	O	
+1-22	und	KON	und	_	O	O	
+1-23	dergleichen	PIS	dergleichen	_	O	O	
+1-24	,	$,	,	_	O	O	
+1-25	also	ADV	also	_	O	O	
+1-26	über	APPR	über	_	O	O	
+1-27	die	ART	die	_	O	O	
+1-28	ganze	ADJA	ganz	_	O	O	
+1-29	übergebene	ADJA	übergeben	_	O	O	
+1-30	Summe	NN	Summe	_	O	O	
+1-31	von	APPR	von	_	O	O	
+1-32	9	CARD	9	_	O	O	
+1-33	750	CARD	750	_	O	O	
+1-34	r	NE	r	_	O	O	
+1-35	,	$,	,	_	O	O	
+1-36	und	KON	und	_	O	O	
+1-37	zwar	ADV	zwar	_	O	O	
+1-38	Alles	PIS	alle	_	O	O	
+1-39	in	APPR	in	_	O	O	
+1-40	der	ART	die	_	O	O	
+1-41	Landesmünze	NN	<unknown>	_	O	O	
+1-42	,	$,	,	_	O	O	
+1-43	also	ADV	also	_	O	O	
+1-44	in	APPR	in	_	O	O	
+1-45	Lire	NN	Lira	_	O	O	
+1-46	,	$,	,	_	O	O	
+1-47	nur	ADV	nur	_	O	O	
+1-48	die	ART	die	_	O	O	
+1-49	Gehalte	NN	Gehalt	_	O	O	
+1-50	in	APPR	in	_	O	O	
+1-51	Thalern	NN	<unknown>	_	O	O	
+1-52	.	$.	.	_	O	O	
+
+#id=2
+#text=Dann wird hier die Kasse die Rechnung zusammen.
+2-1	Dann	ADV	dann	_	O	O	
+2-2	wird	VAFIN	werden	_	O	O	
+2-3	hier	ADV	hier	_	O	O	
+2-4	die	ART	die	_	O	O	
+2-5	Kasse	NN	Kasse	_	O	O	
+2-6	die	ART	die	_	O	O	
+2-7	Rechnung	NN	Rechnung	_	O	O	
+2-8	zusammen	PTKVZ	zusammen	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=stellen.
+3-1	stellen	VVFIN	stellen	_	O	O	
+3-2	.	$.	.	_	O	O	
+
+#id=4
+#text=Meine Quittungen über die 150 resp. 180 r füge ich dann hier zu.
+4-1	Meine	PPOSAT	mein	_	O	O	
+4-2	Quittungen	NN	Quittung	_	O	O	
+4-3	über	APPR	über	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	150	CARD	150	_	O	O	
+4-6	resp.	ADV	resp.	_	O	O	
+4-7	180	CARD	180	_	O	O	
+4-8	r	NE	r	_	O	O	
+4-9	füge	VVFIN	fügen	_	O	O	
+4-10	ich	PPER	ich	_	O	O	
+4-11	dann	ADV	dann	_	O	O	
+4-12	hier	ADV	hier	_	O	O	
+4-13	zu	PTKVZ	zu	_	O	O	
+4-14	.	$.	.	_	O	O	
+

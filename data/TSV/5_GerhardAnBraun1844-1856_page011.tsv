@@ -1,0 +1,210 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=46 Mein theurer Freund.
+1-1	46	CARD	46	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-2	Mein	PPOSAT	mein	_	O	O	
+1-3	theurer	ADJA	<unknown>	_	O	O	
+1-4	Freund	NN	Freund	_	O	O	
+1-5	.	$.	.	_	O	O	
+
+#id=2
+#text=Gerhard an Braun Berlin, 11. Januar 1844 g. 23/1 44 r. 25/1 44 Sie erhalten anbei Ihr Geld in Augsburger Wechsel (100 rt?
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	g.	VVFIN	<unknown>	_	O	O	
+2-11	23/1	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-12	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-13	r.	ADJA	<unknown>	_	O	O	
+2-14	25/1	CARD	@card@	_	O	O	
+2-15	44	CARD	44	_	O	O	
+2-16	Sie	PPER	Sie	_	O	O	
+2-17	erhalten	VVFIN	erhalten	_	O	O	
+2-18	anbei	ADV	anbei	_	O	O	
+2-19	Ihr	PPOSAT	ihr	_	O	O	
+2-20	Geld	NN	Geld	_	O	O	
+2-21	in	APPR	in	_	O	O	
+2-22	Augsburger	ADJA	Augsburger	_	O	O	
+2-23	Wechsel	NN	Wechsel	_	O	O	
+2-24	(	$(	(	_	O	O	
+2-25	100	CARD	100	_	O	O	
+2-26	rt	VVFIN	<unknown>	_	O	O	
+2-27	?	$.	?	_	O	O	
+
+#id=4
+#text=gewünschtermaßen : Fl. 240.12 zwei Monat vom 9 d. M. nach dem Kurs von 103 3/8 os.
+4-1	gewünschtermaßen	VVPP	<unknown>	_	O	O	
+4-2	:	$.	:	_	O	O	
+4-3	Fl.	NE	Fl.	_	O	O	
+4-4	240.12	CARD	@card@	_	O	O	
+4-5	zwei	CARD	zwei	_	O	O	
+4-6	Monat	NN	Monat	_	O	O	
+4-7	vom	APPRART	von	_	O	O	
+4-8	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-9	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-10	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-11	nach	APPR	nach	_	O	O	
+4-12	dem	ART	die	_	O	O	
+4-13	Kurs	NN	Kurs	_	O	O	
+4-14	von	APPR	von	_	O	O	
+4-15	103	CARD	@card@	_	O	O	
+4-16	3/8	CARD	3/8	_	O	O	
+4-17	os	VVFIN	<unknown>	_	O	O	
+4-18	.	$.	.	_	O	O	
+
+#id=5
+#text=Gleichzeitig langte erwartetermaßgn ein Brief von Bunsen an, der das Mö~chste leistet mein Energisches das ihn hätte verletzen können ausführlich und ruhig zu beantworten.
+5-1	Gleichzeitig	ADJD	gleichzeitig	_	O	O	
+5-2	langte	VVFIN	langen	_	O	O	
+5-3	erwartetermaßgn	NN	<unknown>	_	O	O	
+5-4	ein	ART	eine	_	O	O	
+5-5	Brief	NN	Brief	_	O	O	
+5-6	von	APPR	von	_	O	O	
+5-7	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-8	an	PTKVZ	an	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	der	PRELS	die	_	O	O	
+5-11	das	ART	die	_	O	O	
+5-12	Mö~chste	NN	<unknown>	_	O	O	
+5-13	leistet	VVFIN	leisten	_	O	O	
+5-14	mein	PPOSAT	mein	_	O	O	
+5-15	Energisches	NN	Energische	_	O	O	
+5-16	das	PDS	die	_	O	O	
+5-17	ihn	PPER	er	_	O	O	
+5-18	hätte	VAFIN	haben	_	O	O	
+5-19	verletzen	VVINF	verletzen	_	O	O	
+5-20	können	VMINF	können	_	O	O	
+5-21	ausführlich	ADJD	ausführlich	_	O	O	
+5-22	und	KON	und	_	O	O	
+5-23	ruhig	ADJD	ruhig	_	O	O	
+5-24	zu	PTKZU	zu	_	O	O	
+5-25	beantworten	VVINF	beantworten	_	O	O	
+5-26	.	$.	.	_	O	O	
+
+#id=6
+#text=Daß der Zuschuß als solcher hiesigen Orts als solcher sich erhöhen lasse, sei es durch oder ohne ihn, leugnet er mit Recht und warnt vor Schritten die durch eine abschlägige Antwort auch der Zukunft vorgreifen könnten; der Schatzminister war, wie ich aus persönlicher Begegnung bestätigen kann, zu sehr gegen die Betheiligung einer ausländiqchen Anstalt um selbst die 100 rt gern zu geben, und eine preußische soll das Institut doch nicht werden.
+6-1	Daß	KOUS	dass	_	O	O	
+6-2	der	ART	die	_	O	O	
+6-3	Zuschuß	NN	Zuschuss	_	O	O	
+6-4	als	KOKOM	als	_	O	O	
+6-5	solcher	PIAT	solche	_	O	O	
+6-6	hiesigen	ADJA	hiesig	_	O	O	
+6-7	Orts	NN	Ort	_	O	O	
+6-8	als	KOUS	als	_	O	O	
+6-9	solcher	PIS	solche	_	O	O	
+6-10	sich	PRF	sich	_	O	O	
+6-11	erhöhen	VVINF	erhöhen	_	O	O	
+6-12	lasse	VVFIN	lassen	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	sei	VAFIN	sein	_	O	O	
+6-15	es	PPER	es	_	O	O	
+6-16	durch	APPR	durch	_	O	O	
+6-17	oder	KON	oder	_	O	O	
+6-18	ohne	APPR	ohne	_	O	O	
+6-19	ihn	PPER	er	_	O	O	
+6-20	,	$,	,	_	O	O	
+6-21	leugnet	VVFIN	leugnen	_	O	O	
+6-22	er	PPER	er	_	O	O	
+6-23	mit	APPR	mit	_	O	O	
+6-24	Recht	NN	Recht	_	O	O	
+6-25	und	KON	und	_	O	O	
+6-26	warnt	VVFIN	warnen	_	O	O	
+6-27	vor	APPR	vor	_	O	O	
+6-28	Schritten	NN	Schritt	_	O	O	
+6-29	die	ART	die	_	O	O	
+6-30	durch	APPR	durch	_	O	O	
+6-31	eine	ART	eine	_	O	O	
+6-32	abschlägige	ADJA	abschlägig	_	O	O	
+6-33	Antwort	NN	Antwort	_	O	O	
+6-34	auch	ADV	auch	_	O	O	
+6-35	der	ART	die	_	O	O	
+6-36	Zukunft	NN	Zukunft	_	O	O	
+6-37	vorgreifen	VVINF	vorgreifen	_	O	O	
+6-38	könnten	VMFIN	können	_	O	O	
+6-39	;	$.	;	_	O	O	
+6-40	der	ART	die	_	O	O	
+6-41	Schatzminister	NN	Schatzminister	_	O	O	
+6-42	war	VAFIN	sein	_	O	O	
+6-43	,	$,	,	_	O	O	
+6-44	wie	KOUS	wie	_	O	O	
+6-45	ich	PPER	ich	_	O	O	
+6-46	aus	APPR	aus	_	O	O	
+6-47	persönlicher	ADJA	persönlich	_	O	O	
+6-48	Begegnung	NN	Begegnung	_	O	O	
+6-49	bestätigen	VVINF	bestätigen	_	O	O	
+6-50	kann	VMFIN	können	_	O	O	
+6-51	,	$,	,	_	O	O	
+6-52	zu	PTKA	zu	_	O	O	
+6-53	sehr	ADV	sehr	_	O	O	
+6-54	gegen	APPR	gegen	_	O	O	
+6-55	die	ART	die	_	O	O	
+6-56	Betheiligung	NN	<unknown>	_	O	O	
+6-57	einer	ART	eine	_	O	O	
+6-58	ausländiqchen	ADJA	<unknown>	_	O	O	
+6-59	Anstalt	NN	Anstalt	_	O	O	
+6-60	um	APPR	um	_	O	O	
+6-61	selbst	ADV	selbst	_	O	O	
+6-62	die	ART	die	_	O	O	
+6-63	100	CARD	100	_	O	O	
+6-64	rt	VVFIN	<unknown>	_	O	O	
+6-65	gern	ADV	gern	_	O	O	
+6-66	zu	PTKZU	zu	_	O	O	
+6-67	geben	VVINF	geben	_	O	O	
+6-68	,	$,	,	_	O	O	
+6-69	und	KON	und	_	O	O	
+6-70	eine	ART	eine	_	O	O	
+6-71	preußische	ADJA	preußisch	_	O	O	
+6-72	soll	VMFIN	sollen	_	O	O	
+6-73	das	ART	die	_	O	O	
+6-74	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-75	doch	ADV	doch	_	O	O	
+6-76	nicht	PTKNEG	nicht	_	O	O	
+6-77	werden	VAINF	werden	_	O	O	
+6-78	.	$.	.	_	O	O	
+
+#id=7
+#text=Bunsen ist dagegen zuvorderst thätig in Betreff des Lokals und wird an Kestner und Schulze deshalb geschrieben haben.
+7-1	Bunsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	ist	VAFIN	sein	_	O	O	
+7-3	dagegen	PAV	dagegen	_	O	O	
+7-4	zuvorderst	ADV	zuvorderst	_	O	O	
+7-5	thätig	ADJD	<unknown>	_	O	O	
+7-6	in	APPR	in	_	O	O	
+7-7	Betreff	NN	Betreff	_	O	O	
+7-8	des	ART	die	_	O	O	
+7-9	Lokals	NN	Lokal	_	O	O	
+7-10	und	KON	und	_	O	O	
+7-11	wird	VAFIN	werden	_	O	O	
+7-12	an	APPR	an	_	O	O	
+7-13	Kestner	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-14	und	KON	und	_	O	O	
+7-15	Schulze	NE	Schulze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-16	deshalb	PAV	deshalb	_	O	O	
+7-17	geschrieben	VVPP	schreiben	_	O	O	
+7-18	haben	VAINF	haben	_	O	O	
+7-19	.	$.	.	_	O	O	
+
+#id=8
+#text=Ihnen glaubte er nicht schreiben zu können, weil Sie seine Einladung und zwei freundliche
+8-1	Ihnen	PPER	Sie	_	O	O	
+8-2	glaubte	VVFIN	glauben	_	O	O	
+8-3	er	PPER	er	_	O	O	
+8-4	nicht	PTKNEG	nicht	_	O	O	
+8-5	schreiben	VVINF	schreiben	_	O	O	
+8-6	zu	PTKZU	zu	_	O	O	
+8-7	können	VMINF	können	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	weil	KOUS	weil	_	O	O	
+8-10	Sie	PPER	Sie	_	O	O	
+8-11	seine	PPOSAT	sein	_	O	O	
+8-12	Einladung	NN	Einladung	_	O	O	
+8-13	und	KON	und	_	O	O	
+8-14	zwei	CARD	zwei	_	O	O	
+8-15	freundliche	ADJA	freundlich	_	O	O	
+

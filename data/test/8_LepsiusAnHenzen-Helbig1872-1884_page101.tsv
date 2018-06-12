@@ -1,0 +1,110 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Lepsius an Henzen Berlin, 28. Juli 1873 L g. 28/7 73 r.
+1-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	L	NN	L	_	O	O	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	28/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	73	CARD	73	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=B. d. 28. Juli 1873 Verehrter Freund Hierbei übersende ich Ihnen 13 Diplome zu deren Kreaturen Sie sich durch Unterschrift bet sollen.
+2-1	B.	APPR	b.	_	O	O	
+2-2	d.	ART	d.	_	O	O	
+2-3	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-4	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-5	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-6	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-7	Verehrter	ADJA	verehrt	_	O	O	
+2-8	Freund	NN	Freund	_	O	O	
+2-9	Hierbei	PAV	hierbei	_	O	O	
+2-10	übersende	VVFIN	übersenden	_	O	O	
+2-11	ich	PPER	ich	_	O	O	
+2-12	Ihnen	PPER	Sie	_	O	O	
+2-13	13	CARD	13	_	O	O	
+2-14	Diplome	NN	Diplom	_	O	O	
+2-15	zu	APPR	zu	_	O	O	
+2-16	deren	PDAT	die	_	O	O	
+2-17	Kreaturen	NN	Kreatur	_	O	O	
+2-18	Sie	PPER	Sie	_	O	O	
+2-19	sich	PRF	sich	_	O	O	
+2-20	durch	APPR	durch	_	O	O	
+2-21	Unterschrift	NN	Unterschrift	_	O	O	
+2-22	bet	VVINF	<unknown>	_	O	O	
+2-23	sollen	VMINF	sollen	_	O	O	
+2-24	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich habe sie Ihnen expreß aufgehoben.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	habe	VAFIN	haben	_	O	O	
+3-3	sie	PPER	sie	_	O	O	
+3-4	Ihnen	PPER	Sie	_	O	O	
+3-5	expreß	ADV	express	_	O	O	
+3-6	aufgehoben	VVPP	aufheben	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Wenn Sie gezeichnet haben, können Sie einige vielleicht am besten bei sich behalten und auf Ihre Rückreise mitnehmen, andre zur Weiterbeförderung mir wieder zustellen.
+4-1	Wenn	KOUS	wenn	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	gezeichnet	VVPP	zeichnen	_	O	O	
+4-4	haben	VAFIN	haben	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	können	VMFIN	können	_	O	O	
+4-7	Sie	PPER	Sie	_	O	O	
+4-8	einige	PIAT	einige	_	O	O	
+4-9	vielleicht	ADV	vielleicht	_	O	O	
+4-10	am	PTKA	am	_	O	O	
+4-11	besten	ADJD	gut	_	O	O	
+4-12	bei	APPR	bei	_	O	O	
+4-13	sich	PRF	sich	_	O	O	
+4-14	behalten	VVINF	behalten	_	O	O	
+4-15	und	KON	und	_	O	O	
+4-16	auf	APPR	auf	_	O	O	
+4-17	Ihre	PPOSAT	ihr	_	O	O	
+4-18	Rückreise	NN	Rückreise	_	O	O	
+4-19	mitnehmen	VVINF	mitnehmen	_	O	O	
+4-20	,	$,	,	_	O	O	
+4-21	andre	PIS	andere	_	O	O	
+4-22	zur	APPRART	zu	_	O	O	
+4-23	Weiterbeförderung	NN	<unknown>	_	O	O	
+4-24	mir	PRF	ich	_	O	O	
+4-25	wieder	ADV	wieder	_	O	O	
+4-26	zustellen	VVFIN	zustellen	_	O	O	
+4-27	.	$.	.	_	O	O	
+
+#id=5
+#text=An Mommsen war das Skriptum schon abgeschickt worden.
+5-1	An	APPR	an	_	O	O	
+5-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	war	VAFIN	sein	_	O	O	
+5-4	das	ART	die	_	O	O	
+5-5	Skriptum	NN	<unknown>	_	O	O	
+5-6	schon	ADV	schon	_	O	O	
+5-7	abgeschickt	VVPP	abschicken	_	O	O	
+5-8	worden	VAPP	werden	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Es eilt allerdings.
+6-1	Es	PPER	es	_	O	O	
+6-2	eilt	VVFIN	eilen	_	O	O	
+6-3	allerdings	ADV	allerdings	_	O	O	
+6-4	.	$.	.	_	O	O	
+
+#id=7
+#text=Ihr R Lepsius
+7-1	Ihr	PPOSAT	ihr	_	O	O	
+7-2	R	NN	R	_	O	O	
+7-3	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

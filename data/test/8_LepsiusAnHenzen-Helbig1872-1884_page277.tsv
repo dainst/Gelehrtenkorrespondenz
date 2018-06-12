@@ -1,0 +1,179 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=293 Verehrter Freund Lepsius an Henzen Berlin, 26. Mai 1876 g. 30/5 76 r.
+1-1	293	CARD	@card@	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	30/5	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	76	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=31/5 Berlin, den 26. Mai 1876 Heute geht der von Mommsen gewünschte Codex der Beneventaner Inschriften an das Auswärtige Amt, für den nächsten Feldjäger der nach Rom abgehen wird.
+2-1	31/5	CARD	@card@	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-3	,	$,	,	_	O	O	
+2-4	den	ART	die	_	O	O	
+2-5	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	Heute	ADV	heute	_	O	O	
+2-10	geht	VVFIN	gehen	_	O	O	
+2-11	der	ART	die	_	O	O	
+2-12	von	APPR	von	_	O	O	
+2-13	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-14	gewünschte	ADJA	gewünscht	_	O	O	
+2-15	Codex	NN	<unknown>	_	O	O	
+2-16	der	ART	die	_	O	O	
+2-17	Beneventaner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+2-18	Inschriften	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-OBJ	
+2-19	an	APPR	an	_	O	O	
+2-20	das	ART	die	_	O	O	
+2-21	Auswärtige	ADJA	auswärtig	_	O	O	
+2-22	Amt	NN	Amt	_	O	O	
+2-23	,	$,	,	_	O	O	
+2-24	für	APPR	für	_	O	O	
+2-25	den	ART	die	_	O	O	
+2-26	nächsten	ADJA	nah	_	O	O	
+2-27	Feldjäger	NN	Feldjäger	_	O	O	
+2-28	der	ART	die	_	O	O	
+2-29	nach	APPR	nach	_	O	O	
+2-30	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-31	abgehen	VVINF	abgehen	_	O	O	
+2-32	wird	VAFIN	werden	_	O	O	
+2-33	.	$.	.	_	O	O	
+
+#id=3
+#text=Vielleicht kann ich auch zugleich die Diplome senden.
+3-1	Vielleicht	ADV	vielleicht	_	O	O	
+3-2	kann	VMFIN	können	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	auch	ADV	auch	_	O	O	
+3-5	zugleich	ADV	zugleich	_	O	O	
+3-6	die	ART	die	_	O	O	
+3-7	Diplome	NN	Diplom	_	O	O	
+3-8	senden	VVINF	senden	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Von hier hat niemand Ihre und Mommsen's Vorschläge vermehrt.
+4-1	Von	APPR	von	_	O	O	
+4-2	hier	ADV	hier	_	O	O	
+4-3	hat	VAFIN	haben	_	O	O	
+4-4	niemand	PIS	niemand	_	O	O	
+4-5	Ihre	PPOSAT	ihr	_	O	O	
+4-6	und	KON	und	_	O	O	
+4-7	Mommsen's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-8	Vorschläge	NN	Vorschlag	_	O	O	
+4-9	vermehrt	VVPP	vermehren	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Mein Brief an Helbig wegen seines Urlaubs wird eingegangen sein.
+5-1	Mein	PPOSAT	mein	_	O	O	
+5-2	Brief	NN	Brief	_	O	O	
+5-3	an	APPR	an	_	O	O	
+5-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	wegen	APPR	wegen	_	O	O	
+5-6	seines	PPOSAT	sein	_	O	O	
+5-7	Urlaubs	NN	Urlaub	_	O	O	
+5-8	wird	VAFIN	werden	_	O	O	
+5-9	eingegangen	VVPP	eingehen	_	O	O	
+5-10	sein	VAINF	sein	_	O	O	
+5-11	.	$.	.	_	O	O	
+
+#id=6
+#text=Sagen Sie Mommsen wenn er bei Ihnen sein sollte, daß die 20.000 Mark für auf 3 Jahre für die Attische Triangulirung bewilligt sind.
+6-1	Sagen	VVFIN	sagen	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	wenn	KOUS	wenn	_	O	O	
+6-5	er	PPER	er	_	O	O	
+6-6	bei	APPR	bei	_	O	O	
+6-7	Ihnen	PPER	Sie	_	O	O	
+6-8	sein	VAINF	sein	_	O	O	
+6-9	sollte	VMFIN	sollen	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	daß	KOUS	dass	_	O	O	
+6-12	die	ART	die	_	O	O	
+6-13	20.000	CARD	@card@	_	O	O	
+6-14	Mark	NN	Mark	_	O	O	
+6-15	für	APPR	für	_	O	O	
+6-16	auf	APPR	auf	_	O	O	
+6-17	3	CARD	3	_	O	O	
+6-18	Jahre	NN	Jahr	_	O	O	
+6-19	für	APPR	für	_	O	O	
+6-20	die	ART	die	_	O	O	
+6-21	Attische	NN	<unknown>	_	O	O	
+6-22	Triangulirung	NN	<unknown>	_	O	O	
+6-23	bewilligt	VVPP	bewilligen	_	O	O	
+6-24	sind	VAFIN	sein	_	O	O	
+6-25	.	$.	.	_	O	O	
+
+#id=7
+#text=Mit herzlichem Gruß Ihr ergebenster R Lepsius Temperatur bei uns noch immer 8 - 12 0 R.
+7-1	Mit	APPR	mit	_	O	O	
+7-2	herzlichem	ADJA	herzlich	_	O	O	
+7-3	Gruß	NN	Gruß	_	O	O	
+7-4	Ihr	PPOSAT	ihr	_	O	O	
+7-5	ergebenster	ADJA	<unknown>	_	O	O	
+7-6	R	NN	R	_	O	O	
+7-7	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-8	Temperatur	NN	Temperatur	_	O	O	
+7-9	bei	APPR	bei	_	O	O	
+7-10	uns	PPER	wir	_	O	O	
+7-11	noch	ADV	noch	_	O	O	
+7-12	immer	ADV	immer	_	O	O	
+7-13	8	CARD	8	_	O	O	
+7-14	-	$(	-	_	O	O	
+7-15	12	CARD	12	_	O	O	
+7-16	0	CARD	@card@	_	O	O	
+7-17	R.	NE	R.	_	O	O	
+
+#id=8
+#text=Aber eine Baumblüthe wie ich mich nach keiner erinnere.
+8-1	Aber	KON	aber	_	O	O	
+8-2	eine	ART	eine	_	O	O	
+8-3	Baumblüthe	NN	<unknown>	_	O	O	
+8-4	wie	KOUS	wie	_	O	O	
+8-5	ich	PPER	ich	_	O	O	
+8-6	mich	PRF	ich	_	O	O	
+8-7	nach	ADV	nach	_	O	O	
+8-8	keiner	PIS	keine	_	O	O	
+8-9	erinnere	VVFIN	erinnern	_	O	O	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=Wenn das Obst, das vortrefflich angesetzt hat, reich wird, so wird es ein seltenes Obstjahr werden.
+9-1	Wenn	KOUS	wenn	_	O	O	
+9-2	das	ART	die	_	O	O	
+9-3	Obst	NN	Obst	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	das	PRELS	die	_	O	O	
+9-6	vortrefflich	ADJD	vortrefflich	_	O	O	
+9-7	angesetzt	VVPP	ansetzen	_	O	O	
+9-8	hat	VAFIN	haben	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	reich	ADJD	reich	_	O	O	
+9-11	wird	VAFIN	werden	_	O	O	
+9-12	,	$,	,	_	O	O	
+9-13	so	ADV	so	_	O	O	
+9-14	wird	VAFIN	werden	_	O	O	
+9-15	es	PPER	es	_	O	O	
+9-16	ein	ART	eine	_	O	O	
+9-17	seltenes	ADJA	selten	_	O	O	
+9-18	Obstjahr	NN	<unknown>	_	O	O	
+9-19	werden	VAINF	werden	_	O	O	
+9-20	.	$.	.	_	O	O	
+

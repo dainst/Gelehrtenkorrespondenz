@@ -1,0 +1,223 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=) 408 H Helbig an Henzen Neapel, 29. August 1864 g. 2/9 64 r.
+1-1	)	$(	)	_	O	O	
+1-2	408	CARD	@card@	_	O	O	
+1-3	H	NN	H	_	O	O	
+1-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	2/9	CARD	2/9	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	64	CARD	64	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=4/9 64 Neapel 29. Aug.
+2-1	4/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-2	64	CARD	64	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-3	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	Aug.	NN	Aug.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=3
+#text=1864 Lieber Herr Professor 1 Zunächst die gewünschten Rectificationen über die Inschrift von Calvi.
+3-1	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-2	Lieber	ADJA	lieb	_	O	O	
+3-3	Herr	NN	Herr	_	O	O	
+3-4	Professor	NN	Professor	_	O	O	
+3-5	1	CARD	1	_	O	O	
+3-6	Zunächst	ADV	zunächst	_	O	O	
+3-7	die	ART	die	_	O	O	
+3-8	gewünschten	ADJA	gewünscht	_	O	O	
+3-9	Rectificationen	NN	<unknown>	_	O	O	
+3-10	über	APPR	über	_	O	O	
+3-11	die	ART	die	_	O	O	
+3-12	Inschrift	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-13	von	APPR	von	_	O	O	
+3-14	Calvi	NE	<unknown>	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Zeile 1 bringe ich nichts Anderes heraus als CALIBVS INCVRIA TORQ ITR Was zwischen Q und I steht, ist vollständig verschliffen.
+4-1	Zeile	NN	Zeile	_	O	O	
+4-2	1	CARD	1	_	O	O	
+4-3	bringe	VVFIN	bringen	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	nichts	PIAT	nichts	_	O	O	
+4-6	Anderes	PIS	andere	_	O	O	
+4-7	heraus	PTKVZ	heraus	_	O	O	
+4-8	als	KOKOM	als	_	O	O	
+4-9	CALIBVS	NN	<unknown>	_	O	O	
+4-10	INCVRIA	NE	<unknown>	_	O	O	
+4-11	TORQ	NE	<unknown>	_	O	O	
+4-12	ITR	NE	<unknown>	_	O	O	
+4-13	Was	PIS	was	_	O	O	
+4-14	zwischen	APPR	zwischen	_	O	O	
+4-15	Q	NN	Q	_	O	O	
+4-16	und	KON	und	_	O	O	
+4-17	I	NN	I	_	O	O	
+4-18	steht	VVFIN	stehen	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	ist	VAFIN	sein	_	O	O	
+4-21	vollständig	ADJD	vollständig	_	O	O	
+4-22	verschliffen	VVPP	verschleifen	_	O	O	
+4-23	.	$.	.	_	O	O	
+
+#id=5
+#text=Zeile 2.
+5-1	Zeile	NN	Zeile	_	O	O	
+5-2	2	CARD	2	_	O	O	
+5-3	.	$.	.	_	O	O	
+
+#id=6
+#text=CA NVS sehr wahrscheinlich.
+6-1	CA	NE	ca	_	O	O	
+6-2	NVS	NN	<unknown>	_	O	O	
+6-3	sehr	ADV	sehr	_	O	O	
+6-4	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+6-5	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich glaube Spuren von R und I auf dem Steine wahr zu nehmen.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	glaube	VVFIN	glauben	_	O	O	
+7-3	Spuren	NN	Spur|Spuren	_	O	O	
+7-4	von	APPR	von	_	O	O	
+7-5	R	NN	R	_	O	O	
+7-6	und	KON	und	_	O	O	
+7-7	I	NN	I	_	O	O	
+7-8	auf	APPR	auf	_	O	O	
+7-9	dem	ART	die	_	O	O	
+7-10	Steine	NN	Stein	_	O	O	
+7-11	wahr	ADJD	wahr	_	O	O	
+7-12	zu	PTKZU	zu	_	O	O	
+7-13	nehmen	VVINF	nehmen	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Zeile 4. sieht man deutlich VITR· Mehr kann nicht dagestanden haben.
+8-1	Zeile	NN	Zeile	_	O	O	
+8-2	4	CARD	4	_	O	O	
+8-3	.	$.	.	_	O	O	
+8-4	sieht	VVFIN	sehen	_	O	O	
+8-5	man	PIS	man	_	O	O	
+8-6	deutlich	ADJD	deutlich	_	O	O	
+8-7	VITR·	NN	<unknown>	_	O	O	
+8-8	Mehr	ADV	mehr	_	O	O	
+8-9	kann	VMFIN	können	_	O	O	
+8-10	nicht	PTKNEG	nicht	_	O	O	
+8-11	dagestanden	VVPP	dastehen	_	O	O	
+8-12	haben	VAINF	haben	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Zeile 12.
+9-1	Zeile	NN	Zeile	_	O	O	
+9-2	12	CARD	12	_	O	O	
+9-3	.	$.	.	_	O	O	
+
+#id=10
+#text=I OS wohl möglich.
+10-1	I	FM	I	_	O	O	
+10-2	OS	VVFIN	<unknown>	_	O	O	
+10-3	wohl	ADV	wohl	_	O	O	
+10-4	möglich	ADJD	möglich	_	O	O	
+10-5	.	$.	.	_	O	O	
+
+#id=11
+#text=Erhalten vom angeblichen N nur die linke Hasta, das übrige ist vollständig herausgesprungen.
+11-1	Erhalten	VVPP	erhalten	_	O	O	
+11-2	vom	APPRART	von	_	O	O	
+11-3	angeblichen	ADJA	angeblich	_	O	O	
+11-4	N	NN	N	_	O	O	
+11-5	nur	ADV	nur	_	O	O	
+11-6	die	ART	die	_	O	O	
+11-7	linke	ADJA	links	_	O	O	
+11-8	Hasta	NN	<unknown>	_	O	O	
+11-9	,	$,	,	_	O	O	
+11-10	das	ART	die	_	O	O	
+11-11	übrige	ADJA	übrig	_	O	O	
+11-12	ist	VAFIN	sein	_	O	O	
+11-13	vollständig	ADJD	vollständig	_	O	O	
+11-14	herausgesprungen	VVPP	herausspringen	_	O	O	
+11-15	.	$.	.	_	O	O	
+
+#id=12
+#text=Zeile 20.
+12-1	Zeile	NN	Zeile	_	O	O	
+12-2	20	CARD	20	_	O	O	
+12-3	.	$.	.	_	O	O	
+
+#id=13
+#text=Hinter MVNIC· ist der Stein verschliffen; doch ist die ursprüngliche Existenz eines Punktes, soweit nach heutiger Beschaffenheit zu urtheilen, nicht wahrscheinlich.
+13-1	Hinter	APPR	hinter	_	O	O	
+13-2	MVNIC·	NN	<unknown>	_	O	O	
+13-3	ist	VAFIN	sein	_	O	O	
+13-4	der	ART	die	_	O	O	
+13-5	Stein	NN	Stein	_	O	O	
+13-6	verschliffen	VVPP	verschleifen	_	O	O	
+13-7	;	$.	;	_	O	O	
+13-8	doch	ADV	doch	_	O	O	
+13-9	ist	VAFIN	sein	_	O	O	
+13-10	die	ART	die	_	O	O	
+13-11	ursprüngliche	ADJA	ursprünglich	_	O	O	
+13-12	Existenz	NN	Existenz	_	O	O	
+13-13	eines	ART	eine	_	O	O	
+13-14	Punktes	NN	Punkt	_	O	O	
+13-15	,	$,	,	_	O	O	
+13-16	soweit	ADV	soweit	_	O	O	
+13-17	nach	APPR	nach	_	O	O	
+13-18	heutiger	ADJA	heutig	_	O	O	
+13-19	Beschaffenheit	NN	Beschaffenheit	_	O	O	
+13-20	zu	PTKZU	zu	_	O	O	
+13-21	urtheilen	VVINF	<unknown>	_	O	O	
+13-22	,	$,	,	_	O	O	
+13-23	nicht	PTKNEG	nicht	_	O	O	
+13-24	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+13-25	.	$.	.	_	O	O	
+
+#id=14
+#text=Was die Beschaffenheit des Steines betrifft, so ist das, was auf dem mit I bezeichneten Abdruckstreifen steht, auf einer besonderen langen Marmorplatte eingemeißelt; die übrige Inschrift befindet sich auf einer
+14-1	Was	PWS	was	_	O	O	
+14-2	die	ART	die	_	O	O	
+14-3	Beschaffenheit	NN	Beschaffenheit	_	O	O	
+14-4	des	ART	die	_	O	O	
+14-5	Steines	NN	Stein	_	O	O	
+14-6	betrifft	VVFIN	betreffen	_	O	O	
+14-7	,	$,	,	_	O	O	
+14-8	so	ADV	so	_	O	O	
+14-9	ist	VAFIN	sein	_	O	O	
+14-10	das	PDS	die	_	O	O	
+14-11	,	$,	,	_	O	O	
+14-12	was	PRELS	was	_	O	O	
+14-13	auf	APPR	auf	_	O	O	
+14-14	dem	ART	die	_	O	O	
+14-15	mit	APPR	mit	_	O	O	
+14-16	I	NN	I	_	O	O	
+14-17	bezeichneten	ADJA	bezeichnet	_	O	O	
+14-18	Abdruckstreifen	NN	<unknown>	_	O	O	
+14-19	steht	VVFIN	stehen	_	O	O	
+14-20	,	$,	,	_	O	O	
+14-21	auf	APPR	auf	_	O	O	
+14-22	einer	ART	eine	_	O	O	
+14-23	besonderen	ADJA	besonder	_	O	O	
+14-24	langen	ADJA	lang	_	O	O	
+14-25	Marmorplatte	NN	Marmorplatte	_	O	O	
+14-26	eingemeißelt	VVPP	einmeißeln	_	O	O	
+14-27	;	$.	;	_	O	O	
+14-28	die	ART	die	_	O	O	
+14-29	übrige	ADJA	übrig	_	O	O	
+14-30	Inschrift	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+14-31	befindet	VVFIN	befinden	_	O	O	
+14-32	sich	PRF	sich	_	O	O	
+14-33	auf	APPR	auf	_	O	O	
+14-34	einer	ART	eine	_	O	O	
+

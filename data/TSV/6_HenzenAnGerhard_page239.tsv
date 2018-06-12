@@ -1,0 +1,327 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=r · ., 114 Henzen an Gerhard 30/IV/55 Verehrter Herr Professor Alla vigilia della partenza !
+1-1	r	NE	r	_	O	O	
+1-2	·	NN	<unknown>	_	O	O	
+1-3	.	$.	.	_	O	O	
+1-4	,	$,	,	_	O	O	
+1-5	114	CARD	@card@	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	30/IV/55	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	Verehrter	ADJA	verehrt	_	O	O	
+1-11	Herr	NN	Herr	_	O	O	
+1-12	Professor	NN	Professor	_	O	O	
+1-13	Alla	NE	Alla	_	O	O	
+1-14	vigilia	NE	<unknown>	_	O	O	
+1-15	della	NE	Della	_	O	O	
+1-16	partenza	NE	<unknown>	_	O	O	
+1-17	!	$.	!	_	O	O	
+
+#id=2
+#text=- Sollte ich nach Berlin kommen, so besprechen wir wohl mündlich u. gründlich alle Calamitäten u. dem Institut drohende Gefahren.
+2-1	-	$(	-	_	O	O	
+2-2	Sollte	VMFIN	sollen	_	O	O	
+2-3	ich	PPER	ich	_	O	O	
+2-4	nach	APPR	nach	_	O	O	
+2-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-6	kommen	VVINF	kommen	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	so	ADV	so	_	O	O	
+2-9	besprechen	VVFIN	besprechen	_	O	O	
+2-10	wir	PPER	wir	_	O	O	
+2-11	wohl	ADV	wohl	_	O	O	
+2-12	mündlich	ADJD	mündlich	_	O	O	
+2-13	u.	KON	und	_	O	O	
+2-14	gründlich	ADJD	gründlich	_	O	O	
+2-15	alle	PIAT	alle	_	O	O	
+2-16	Calamitäten	NN	<unknown>	_	O	O	
+2-17	u.	APPR	um	_	O	O	
+2-18	dem	ART	die	_	O	O	
+2-19	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-20	drohende	ADJA	drohend	_	O	O	
+2-21	Gefahren	NN	Gefahr	_	O	O	
+2-22	.	$.	.	_	O	O	
+
+#id=3
+#text=Annali 54 fertig; nur noch nicht fertig eingeklebt u. gebunden.
+3-1	Annali	NE	<unknown>	_	O	O	
+3-2	54	CARD	54	_	O	O	
+3-3	fertig	ADJD	fertig	_	O	O	
+3-4	;	$.	;	_	O	O	
+3-5	nur	ADV	nur	_	O	O	
+3-6	noch	ADV	noch	_	O	O	
+3-7	nicht	PTKNEG	nicht	_	O	O	
+3-8	fertig	ADJD	fertig	_	O	O	
+3-9	eingeklebt	VVPP	einkleben	_	O	O	
+3-10	u.	KON	und	_	O	O	
+3-11	gebunden	VVPP	binden	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Index werde ich in Breslau nach Kräften fördern.
+4-1	Index	NN	Index	_	O	O	
+4-2	werde	VAFIN	werden	_	O	O	
+4-3	ich	PPER	ich	_	O	O	
+4-4	in	APPR	in	_	O	O	
+4-5	Breslau	NE	Breslau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-6	nach	APPR	nach	_	O	O	
+4-7	Kräften	NN	Kraft	_	O	O	
+4-8	fördern	VVINF	fördern	_	O	O	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=- Für 55 neue, wirklich schöne Lettern angeschafft, denen zu Gefallen Braun um 2 - 3 Wochen ds.
+5-1	-	$(	-	_	O	O	
+5-2	Für	APPR	für	_	O	O	
+5-3	55	CARD	@card@	_	O	O	
+5-4	neue	ADJA	neu	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	wirklich	ADJD	wirklich	_	O	O	
+5-7	schöne	ADJA	schön	_	O	O	
+5-8	Lettern	NN	Letter	_	O	O	
+5-9	angeschafft	VVPP	anschaffen	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	denen	PRELS	die	_	O	O	
+5-12	zu	APPR	zu	_	O	O	
+5-13	Gefallen	NN	Gefallen	_	O	O	
+5-14	Braun	NE	Braun	_	O	O	
+5-15	um	APPR	um	_	O	O	
+5-16	2	CARD	2	_	O	O	
+5-17	-	$(	-	_	O	O	
+5-18	3	CARD	3	_	O	O	
+5-19	Wochen	NN	Woche	_	O	O	
+5-20	ds.	ADJD	<unknown>	_	O	O	
+
+#id=6
+#text=Bullettino suspendirt, für das bereits das Mss. in der Druckerei war.
+6-1	Bullettino	NE	<unknown>	_	O	O	
+6-2	suspendirt	NN	<unknown>	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	für	APPR	für	_	O	O	
+6-5	das	PRELS	die	_	O	O	
+6-6	bereits	ADV	bereits	_	O	O	
+6-7	das	ART	die	_	O	O	
+6-8	Mss	NN	<unknown>	_	O	O	
+6-9	.	$.	.	_	O	O	
+6-10	in	APPR	in	_	O	O	
+6-11	der	ART	die	_	O	O	
+6-12	Druckerei	NN	Druckerei	_	O	O	
+6-13	war	VAFIN	sein	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=1 Einen Achill kennt Br.
+7-1	1	CARD	1	_	O	O	
+7-2	Einen	NN	Eine	_	O	O	
+7-3	Achill	NE	Achill	_	O	O	
+7-4	kennt	VVFIN	kennen	_	O	O	
+7-5	Br.	NE	Br.	_	O	O	
+
+#id=8
+#text=nicht.
+8-1	nicht	PTKNEG	nicht	_	O	O	
+8-2	.	$.	.	_	O	O	
+
+#id=9
+#text=!
+9-1	!	$.	!	_	O	O	
+
+#id=10
+#text=, I Einer der Kolosse von M. Cavallo sei möglicher Weise Lysippisch.
+10-1	,	$,	,	_	O	O	
+10-2	I	FM	I	_	O	O	
+10-3	Einer	NN	Einer	_	O	O	
+10-4	der	ART	die	_	O	O	
+10-5	Kolosse	NN	Koloss	_	O	O	
+10-6	von	APPR	von	_	O	O	
+10-7	M.	NE	M.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-8	Cavallo	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-9	sei	VAFIN	sein	_	O	O	
+10-10	möglicher	ADJA	möglich	_	O	O	
+10-11	Weise	NN	Weise	_	O	O	
+10-12	Lysippisch	ADJD	<unknown>	_	O	O	
+10-13	.	$.	.	_	O	O	
+
+#id=11
+#text=Vorgestern bis 2 Uhr noch im Vatican, habe ich die Abschrift ds.
+11-1	Vorgestern	ADV	vorgestern	_	O	O	
+11-2	bis	APPR	bis	_	O	O	
+11-3	2	CARD	2	_	O	O	
+11-4	Uhr	NN	Uhr	_	O	O	
+11-5	noch	ADV	noch	_	O	O	
+11-6	im	APPRART	in	_	O	O	
+11-7	Vatican	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-8	,	$,	,	_	O	O	
+11-9	habe	VAFIN	haben	_	O	O	
+11-10	ich	PPER	ich	_	O	O	
+11-11	die	ART	die	_	O	O	
+11-12	Abschrift	NN	Abschrift	_	O	O	
+11-13	ds.	ADJD	<unknown>	_	O	O	
+
+#id=12
+#text=ganzen Museums fertig gekriegt; seit Ostern furchtbar gearbeitet.
+12-1	ganzen	ADJA	ganz	_	O	O	
+12-2	Museums	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+12-3	fertig	ADJD	fertig	_	O	O	
+12-4	gekriegt	VVPP	kriegen	_	O	O	
+12-5	;	$.	;	_	O	O	
+12-6	seit	APPR	seit	_	O	O	
+12-7	Ostern	NN	Ostern	_	O	O	
+12-8	furchtbar	ADJD	furchtbar	_	O	O	
+12-9	gearbeitet	VVPP	arbeiten	_	O	O	
+12-10	.	$.	.	_	O	O	
+
+#id=13
+#text=Es mußte aber abgemacht werden, um so mehr, da ja Preußen's Angelegenheiten hier immer etwas !
+13-1	Es	PPER	es	_	O	O	
+13-2	mußte	VMFIN	müssen	_	O	O	
+13-3	aber	ADV	aber	_	O	O	
+13-4	abgemacht	VVPP	abmachen	_	O	O	
+13-5	werden	VAINF	werden	_	O	O	
+13-6	,	$,	,	_	O	O	
+13-7	um	KOUI	um	_	O	O	
+13-8	so	ADV	so	_	O	O	
+13-9	mehr	ADV	mehr	_	O	O	
+13-10	,	$,	,	_	O	O	
+13-11	da	KOUS	da	_	O	O	
+13-12	ja	ADV	ja	_	O	O	
+13-13	Preußen's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-14	Angelegenheiten	NN	Angelegenheit	_	O	O	
+13-15	hier	ADV	hier	_	O	O	
+13-16	immer	ADV	immer	_	O	O	
+13-17	etwas	PIS	etwas	_	O	O	
+13-18	!	$.	!	_	O	O	
+
+#id=14
+#text=schwanken.
+14-1	schwanken	VVFIN	schwanken	_	O	O	
+14-2	.	$.	.	_	O	O	
+
+#id=15
+#text=- L Vom 20 n • Mai an wird ein Copist suspendirt; der andre bessere bleibt auch im Sommer, u. lasse ich de Rossi 76 Scudi zur Bestreitung der Kosten bis October.
+15-1	-	$(	-	_	O	O	
+15-2	L	NN	L	_	O	O	
+15-3	Vom	APPRART	von	_	O	O	
+15-4	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+15-5	n	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+15-6	•	ADJA	<unknown>	_	O	O	
+15-7	Mai	NN	Mai	_	O	O	
+15-8	an	APZR	an	_	O	O	
+15-9	wird	VAFIN	werden	_	O	O	
+15-10	ein	ART	eine	_	O	O	
+15-11	Copist	NN	<unknown>	_	O	O	
+15-12	suspendirt	NN	<unknown>	_	O	O	
+15-13	;	$.	;	_	O	O	
+15-14	der	ART	die	_	O	O	
+15-15	andre	PIAT	andere	_	O	O	
+15-16	bessere	ADJA	gut	_	O	O	
+15-17	bleibt	VVFIN	bleiben	_	O	O	
+15-18	auch	ADV	auch	_	O	O	
+15-19	im	APPRART	in	_	O	O	
+15-20	Sommer	NN	Sommer	_	O	O	
+15-21	,	$,	,	_	O	O	
+15-22	u.	KON	und	_	O	O	
+15-23	lasse	VVFIN	lassen	_	O	O	
+15-24	ich	PPER	ich	_	O	O	
+15-25	de	NE	de	_	O	O	
+15-26	Rossi	NE	Rossi	_	O	O	
+15-27	76	CARD	@card@	_	O	O	
+15-28	Scudi	NN	<unknown>	_	O	O	
+15-29	zur	APPRART	zu	_	O	O	
+15-30	Bestreitung	NN	<unknown>	_	O	O	
+15-31	der	ART	die	_	O	O	
+15-32	Kosten	NN	Kosten	_	O	O	
+15-33	bis	KON	bis	_	O	O	
+15-34	October	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+15-35	.	$.	.	_	O	O	
+
+#id=16
+#text=Von ,.
+16-1	Von	NE	von	_	O	O	
+16-2	,	$,	,	_	O	O	
+16-3	.	$.	.	_	O	O	
+
+#id=17
+#text=Breslau aus lege ich Rechnung ab u. werde um neue Fonds I L!ür den Winter bitten.
+17-1	Breslau	NE	Breslau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+17-2	aus	PTKVZ	aus	_	O	O	
+17-3	lege	VVFIN	legen	_	O	O	
+17-4	ich	PPER	ich	_	O	O	
+17-5	Rechnung	NN	Rechnung	_	O	O	
+17-6	ab	PTKVZ	ab	_	O	O	
+17-7	u.	KON	und	_	O	O	
+17-8	werde	VAFIN	werden	_	O	O	
+17-9	um	APPR	um	_	O	O	
+17-10	neue	ADJA	neu	_	O	O	
+17-11	Fonds	NN	Fonds	_	O	O	
+17-12	I	FM	I	_	O	O	
+17-13	L	NE	L	_	O	O	
+17-14	!	$.	!	_	O	O	
+17-15	ür	VVFIN	<unknown>	_	O	O	
+17-16	den	ART	die	_	O	O	
+17-17	Winter	NN	Winter	_	O	O	
+17-18	bitten	VVINF	bitten	_	O	O	
+17-19	.	$.	.	_	O	O	
+
+#id=18
+#text=Minervini sehnt sich, M. ord.
+18-1	Minervini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-2	sehnt	VVFIN	sehnen	_	O	O	
+18-3	sich	PRF	sich	_	O	O	
+18-4	,	$,	,	_	O	O	
+18-5	M.	NE	M.	_	O	O	
+18-6	ord.	NE	<unknown>	_	O	O	
+
+#id=19
+#text=zu werden.
+19-1	zu	PTKZU	zu	_	O	O	
+19-2	werden	VAINF	werden	_	O	O	
+19-3	.	$.	.	_	O	O	
+
+#id=20
+#text=\ Meine Frau hatte vor 8 Tagen schon einen ganz leichten IlAnfal1 ihres Uebels, ist aber völlig hergestellt u. befindet sich bei eingetretner kühler Witterung sehr wohl.
+20-1	\	XY	\	_	O	O	
+20-2	Meine	PPOSAT	mein	_	O	O	
+20-3	Frau	NN	Frau	_	O	O	
+20-4	hatte	VAFIN	haben	_	O	O	
+20-5	vor	APPR	vor	_	O	O	
+20-6	8	CARD	8	_	O	O	
+20-7	Tagen	NN	Tag	_	O	O	
+20-8	schon	ADV	schon	_	O	O	
+20-9	einen	ART	eine	_	O	O	
+20-10	ganz	ADV	ganz	_	O	O	
+20-11	leichten	ADJA	leicht	_	O	O	
+20-12	IlAnfal1	NN	<unknown>	_	O	O	
+20-13	ihres	PPOSAT	ihr	_	O	O	
+20-14	Uebels	NN	<unknown>	_	O	O	
+20-15	,	$,	,	_	O	O	
+20-16	ist	VAFIN	sein	_	O	O	
+20-17	aber	ADV	aber	_	O	O	
+20-18	völlig	ADJD	völlig	_	O	O	
+20-19	hergestellt	VVPP	herstellen	_	O	O	
+20-20	u.	KON	und	_	O	O	
+20-21	befindet	VVFIN	befinden	_	O	O	
+20-22	sich	PRF	sich	_	O	O	
+20-23	bei	APPR	bei	_	O	O	
+20-24	eingetretner	ADJA	<unknown>	_	O	O	
+20-25	kühler	ADJA	kühl	_	O	O	
+20-26	Witterung	NN	Witterung	_	O	O	
+20-27	sehr	ADV	sehr	_	O	O	
+20-28	wohl	ADV	wohl	_	O	O	
+20-29	.	$.	.	_	O	O	
+
+#id=21
+#text="'.,--"", .... ~~
+21-1	"	$(	"	_	O	O	
+21-2	'	$(	'	_	O	O	
+21-3	.,	NE	<unknown>	_	O	O	
+21-4	--	$(	--	_	O	O	
+21-5	"	$(	"	_	O	O	
+21-6	"	$(	"	_	O	O	
+21-7	,	$,	,	_	O	O	
+21-8	...	$.	...	_	O	O	
+21-9	.	$.	.	_	O	O	
+21-10	~~	NN	<unknown>	_	O	O	
+

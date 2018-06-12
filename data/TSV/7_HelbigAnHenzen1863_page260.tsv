@@ -1,0 +1,77 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=427 2 Helbig an Henzen Siena, 10. August 1875 Der Palio ist verschoben bis Montag den 16.
+1-1	427	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Der	ART	die	_	O	O	
+1-13	Palio	NN	<unknown>	_	O	O	
+1-14	ist	VAFIN	sein	_	O	O	
+1-15	verschoben	VVPP	verschieben	_	O	O	
+1-16	bis	APPR	bis	_	O	O	
+1-17	Montag	NN	Montag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-18	den	ART	die	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-19	16	CARD	16	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-20	.	$.	.	_	O	O	
+
+#id=2
+#text=Also kommen Sie den 15.
+2-1	Also	ADV	also	_	O	O	
+2-2	kommen	VVFIN	kommen	_	O	O	
+2-3	Sie	PPER	Sie	_	O	O	
+2-4	den	ART	die	_	O	O	
+2-5	15	CARD	15	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Abends noch rechtzeitig an.
+3-1	Abends	ADV	abends	_	O	O	
+3-2	noch	ADV	noch	_	O	O	
+3-3	rechtzeitig	ADJD	rechtzeitig	_	O	O	
+3-4	an	PTKVZ	an	_	O	O	
+3-5	.	$.	.	_	O	O	
+
+#id=4
+#text=Was die Kühle betrifft, so können Sie sich darauf verlassen, daß Sie dieselbe in unserer Villa ebenso ersprießlich finden werden, wie in Oberbozen.
+4-1	Was	PWS	was	_	O	O	
+4-2	die	ART	die	_	O	O	
+4-3	Kühle	NN	Kühle	_	O	O	
+4-4	betrifft	VVFIN	betreffen	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	so	ADV	so	_	O	O	
+4-7	können	VMFIN	können	_	O	O	
+4-8	Sie	PPER	Sie	_	O	O	
+4-9	sich	PRF	sich	_	O	O	
+4-10	darauf	PAV	darauf	_	O	O	
+4-11	verlassen	VVPP	verlassen	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	daß	KOUS	dass	_	O	O	
+4-14	Sie	PPER	Sie	_	O	O	
+4-15	dieselbe	PDS	dieselbe	_	O	O	
+4-16	in	APPR	in	_	O	O	
+4-17	unserer	PPOSAT	unser	_	O	O	
+4-18	Villa	NN	Villa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-19	ebenso	ADV	ebenso	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+4-20	ersprießlich	ADJD	ersprießlich	_	O	O	
+4-21	finden	VVINF	finden	_	O	O	
+4-22	werden	VAFIN	werden	_	O	O	
+4-23	,	$,	,	_	O	O	
+4-24	wie	KOUS	wie	_	O	O	
+4-25	in	APPR	in	_	O	O	
+4-26	Oberbozen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-27	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihr ergebener Helbig
+5-1	Ihr	PPOSAT	ihr	_	O	O	
+5-2	ergebener	ADJA	ergeben	_	O	O	
+5-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

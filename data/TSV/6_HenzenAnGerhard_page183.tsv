@@ -1,0 +1,324 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=81 7/111/54 Henzen an Gerhard Hochverehrter Herr Professor Besten Dank für Ihren 1.
+1-1	81	CARD	@card@	_	O	O	
+1-2	7/111/54	CARD	@card@	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Hochverehrter	ADJA	hochverehrt	_	O	O	
+1-7	Herr	NN	Herr	_	O	O	
+1-8	Professor	NN	Professor	_	O	O	
+1-9	Besten	ADJA	gut	_	O	O	
+1-10	Dank	NN	Dank	_	O	O	
+1-11	für	APPR	für	_	O	O	
+1-12	Ihren	PPOSAT	ihr	_	O	O	
+1-13	1	CARD	1	_	O	O	
+1-14	.	$.	.	_	O	O	
+
+#id=2
+#text=Brief vom 27t~n v. M. und die erfreulichen MittheilunEen, die er enth~lt.
+2-1	Brief	NN	Brief	_	O	O	
+2-2	vom	APPRART	von	_	O	O	
+2-3	27t~n	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-4	v.	APPR	von	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-5	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-6	und	KON	und	_	O	O	
+2-7	die	ART	die	_	O	O	
+2-8	erfreulichen	ADJA	erfreulich	_	O	O	
+2-9	MittheilunEen	NN	<unknown>	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	die	PRELS	die	_	O	O	
+2-12	er	PPER	er	_	O	O	
+2-13	enth~lt	VVFIN	<unknown>	_	O	O	
+2-14	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich werde heute die Gesandtschaft um das betreffende Zeitungsblatt bitten, um selbst das Genauere nachsehen zu kBnnen, sodenn möglichst schnell mit de Bossi Rlicl<sprsche nehmen und unsre vereinten Antr~ge einsenden, die aber in der Folge zur Vermeidun~ jeglicher UiBverständnisse immer durch Mommsen gehn sollen.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	werde	VAFIN	werden	_	O	O	
+3-3	heute	ADV	heute	_	O	O	
+3-4	die	ART	die	_	O	O	
+3-5	Gesandtschaft	NN	Gesandtschaft	_	O	O	
+3-6	um	APPR	um	_	O	O	
+3-7	das	ART	die	_	O	O	
+3-8	betreffende	ADJA	betreffend	_	O	O	
+3-9	Zeitungsblatt	NN	Zeitungsblatt	_	O	O	
+3-10	bitten	VVINF	bitten	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	um	KOUI	um	_	O	O	
+3-13	selbst	ADV	selbst	_	O	O	
+3-14	das	ART	die	_	O	O	
+3-15	Genauere	NN	Genauere	_	O	O	
+3-16	nachsehen	VVFIN	nachsehen	_	O	O	
+3-17	zu	APPR	zu	_	O	O	
+3-18	kBnnen	NN	<unknown>	_	O	O	
+3-19	,	$,	,	_	O	O	
+3-20	sodenn	NN	<unknown>	_	O	O	
+3-21	möglichst	ADV	möglichst	_	O	O	
+3-22	schnell	ADJD	schnell	_	O	O	
+3-23	mit	APPR	mit	_	O	O	
+3-24	de	NE	de	_	O	O	
+3-25	Bossi	NE	<unknown>	_	O	O	
+3-26	Rlicl<sprsche	NN	<unknown>	_	O	O	
+3-27	nehmen	VVINF	nehmen	_	O	O	
+3-28	und	KON	und	_	O	O	
+3-29	unsre	PPOSAT	unsre	_	O	O	
+3-30	vereinten	ADJA	vereint	_	O	O	
+3-31	Antr~ge	NN	<unknown>	_	O	O	
+3-32	einsenden	VVFIN	einsenden	_	O	O	
+3-33	,	$,	,	_	O	O	
+3-34	die	PRELS	die	_	O	O	
+3-35	aber	ADV	aber	_	O	O	
+3-36	in	APPR	in	_	O	O	
+3-37	der	ART	die	_	O	O	
+3-38	Folge	NN	Folge	_	O	O	
+3-39	zur	APPRART	zu	_	O	O	
+3-40	Vermeidun~	NN	<unknown>	_	O	O	
+3-41	jeglicher	PIAT	jegliche	_	O	O	
+3-42	UiBverständnisse	NN	<unknown>	_	O	O	
+3-43	immer	ADV	immer	_	O	O	
+3-44	durch	APPR	durch	_	O	O	
+3-45	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-46	gehn	VVINF	<unknown>	_	O	O	
+3-47	sollen	VMFIN	sollen	_	O	O	
+3-48	.	$.	.	_	O	O	
+
+#id=4
+#text=Uebrigens thun Sie mir Unrecht, wenn Sie glsuben, mein Verbitten des Ordens grUnde sich auf Abneigung gegen den König.
+4-1	Uebrigens	NN	<unknown>	_	O	O	
+4-2	thun	VVFIN	<unknown>	_	O	O	
+4-3	Sie	PPER	Sie	_	O	O	
+4-4	mir	PRF	ich	_	O	O	
+4-5	Unrecht	NN	Unrecht	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	wenn	KOUS	wenn	_	O	O	
+4-8	Sie	PPER	Sie	_	O	O	
+4-9	glsuben	VVFIN	<unknown>	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	mein	PPOSAT	mein	_	O	O	
+4-12	Verbitten	NN	<unknown>	_	O	O	
+4-13	des	ART	die	_	O	O	
+4-14	Ordens	NN	Orden	_	O	O	
+4-15	grUnde	VVFIN	<unknown>	_	O	O	
+4-16	sich	PRF	sich	_	O	O	
+4-17	auf	APPR	auf	_	O	O	
+4-18	Abneigung	NN	Abneigung	_	O	O	
+4-19	gegen	APPR	gegen	_	O	O	
+4-20	den	ART	die	_	O	O	
+4-21	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-22	.	$.	.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+
+#id=5
+#text=Es ist vielmehr die Sache selber, die, wie sie jetzt ist, mir nicht wenifer l~cherljch, als verächtlich vorkommt, so bald sie eben durch Verwendungen und gar, wie es hei mir ja der Fall sein würde, mit Vorwissen des Beth~iligten erlangt wird.
+5-1	Es	PPER	es	_	O	O	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	vielmehr	ADV	vielmehr	_	O	O	
+5-4	die	ART	die	_	O	O	
+5-5	Sache	NN	Sache	_	O	O	
+5-6	selber	ADV	selber	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	die	PRELS	die	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	wie	KOUS	wie	_	O	O	
+5-11	sie	PPER	sie	_	O	O	
+5-12	jetzt	ADV	jetzt	_	O	O	
+5-13	ist	VAFIN	sein	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	mir	PRF	ich	_	O	O	
+5-16	nicht	PTKNEG	nicht	_	O	O	
+5-17	wenifer	ADV	<unknown>	_	O	O	
+5-18	l~cherljch	NN	<unknown>	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	als	KOKOM	als	_	O	O	
+5-21	verächtlich	ADJD	verächtlich	_	O	O	
+5-22	vorkommt	VVFIN	vorkommen	_	O	O	
+5-23	,	$,	,	_	O	O	
+5-24	so	ADV	so	_	O	O	
+5-25	bald	ADV	bald	_	O	O	
+5-26	sie	PPER	sie	_	O	O	
+5-27	eben	ADV	eben	_	O	O	
+5-28	durch	APPR	durch	_	O	O	
+5-29	Verwendungen	NN	Verwendung	_	O	O	
+5-30	und	KON	und	_	O	O	
+5-31	gar	ADV	gar	_	O	O	
+5-32	,	$,	,	_	O	O	
+5-33	wie	KOUS	wie	_	O	O	
+5-34	es	PPER	es	_	O	O	
+5-35	hei	VVFIN	<unknown>	_	O	O	
+5-36	mir	PPER	ich	_	O	O	
+5-37	ja	ADV	ja	_	O	O	
+5-38	der	ART	die	_	O	O	
+5-39	Fall	NN	Fall	_	O	O	
+5-40	sein	VAINF	sein	_	O	O	
+5-41	würde	VAFIN	werden	_	O	O	
+5-42	,	$,	,	_	O	O	
+5-43	mit	APPR	mit	_	O	O	
+5-44	Vorwissen	NN	Vorwissen	_	O	O	
+5-45	des	ART	die	_	O	O	
+5-46	Beth~iligten	NN	<unknown>	_	O	O	
+5-47	erlangt	VVPP	erlangen	_	O	O	
+5-48	wird	VAFIN	werden	_	O	O	
+5-49	.	$.	.	_	O	O	
+
+#id=6
+#text=Also non ne parlia- .
+6-1	Also	ADV	also	_	O	O	
+6-2	non	NE	non	_	O	O	
+6-3	ne	ART	eine	_	O	O	
+6-4	parlia-	TRUNC	<unknown>	_	O	O	
+6-5	.	$.	.	_	O	O	
+
+#id=7
+#text=.. mo plU.
+7-1	.	$.	.	_	O	O	
+7-2	.	$.	.	_	O	O	
+7-3	mo	NE	Mo	_	O	O	
+7-4	plU	NE	<unknown>	_	O	O	
+7-5	.	$.	.	_	O	O	
+
+#id=8
+#text=Hinsicr)tlich der Zumptischen Zettel und mej_ner damit in Verbindung stehenden Reise berufe ich mich auf meinen letzten Brief.
+8-1	Hinsicr)tlich	ADJD	<unknown>	_	O	O	
+8-2	der	ART	die	_	O	O	
+8-3	Zumptischen	ADJA	<unknown>	_	O	O	
+8-4	Zettel	NN	Zettel	_	O	O	
+8-5	und	KON	und	_	O	O	
+8-6	mej_ner	VVFIN	<unknown>	_	O	O	
+8-7	damit	PAV	damit	_	O	O	
+8-8	in	APPR	in	_	O	O	
+8-9	Verbindung	NN	Verbindung	_	O	O	
+8-10	stehenden	ADJA	stehend	_	O	O	
+8-11	Reise	NN	Reise	_	O	O	
+8-12	berufe	VVFIN	berufen	_	O	O	
+8-13	ich	PPER	ich	_	O	O	
+8-14	mich	PRF	ich	_	O	O	
+8-15	auf	APPR	auf	_	O	O	
+8-16	meinen	PPOSAT	mein	_	O	O	
+8-17	letzten	ADJA	letzt	_	O	O	
+8-18	Brief	NN	Brief	_	O	O	
+8-19	.	$.	.	_	O	O	
+
+#id=9
+#text=Ob ich die Reise mache, werde ich ganz von Mommsens Entscheidung ahhangen lassen; da ich nicht beurtheilen kann, ob sie unter diesen Umst~nden von Nutzen ist.
+9-1	Ob	KOUS	ob	_	O	O	
+9-2	ich	PPER	ich	_	O	O	
+9-3	die	ART	die	_	O	O	
+9-4	Reise	NN	Reise	_	O	O	
+9-5	mache	VVFIN	machen	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	werde	VAFIN	werden	_	O	O	
+9-8	ich	PPER	ich	_	O	O	
+9-9	ganz	ADV	ganz	_	O	O	
+9-10	von	APPR	von	_	O	O	
+9-11	Mommsens	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-12	Entscheidung	NN	Entscheidung	_	O	O	
+9-13	ahhangen	ADJD	<unknown>	_	O	O	
+9-14	lassen	VVINF	lassen	_	O	O	
+9-15	;	$.	;	_	O	O	
+9-16	da	KOUS	da	_	O	O	
+9-17	ich	PPER	ich	_	O	O	
+9-18	nicht	PTKNEG	nicht	_	O	O	
+9-19	beurtheilen	VVINF	<unknown>	_	O	O	
+9-20	kann	VMFIN	können	_	O	O	
+9-21	,	$,	,	_	O	O	
+9-22	ob	KOUS	ob	_	O	O	
+9-23	sie	PPER	sie	_	O	O	
+9-24	unter	APPR	unter	_	O	O	
+9-25	diesen	PDAT	dies	_	O	O	
+9-26	Umst~nden	NN	<unknown>	_	O	O	
+9-27	von	APPR	von	_	O	O	
+9-28	Nutzen	NN	Nutzen	_	O	O	
+9-29	ist	VAFIN	sein	_	O	O	
+9-30	.	$.	.	_	O	O	
+
+#id=10
+#text=Andrer Seits muß m8n in Berlin begreifen, dass die Zettel wiederum nöthi~ sind, um ordentlich anfangen zu können.
+10-1	Andrer	PIAT	andere	_	O	O	
+10-2	Seits	NN	<unknown>	_	O	O	
+10-3	muß	VMFIN	müssen	_	O	O	
+10-4	m8n	NE	<unknown>	_	O	O	
+10-5	in	APPR	in	_	O	O	
+10-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-7	begreifen	VVINF	begreifen	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	dass	KOUS	dass	_	O	O	
+10-10	die	ART	die	_	O	O	
+10-11	Zettel	NN	Zettel	_	O	O	
+10-12	wiederum	ADV	wiederum	_	O	O	
+10-13	nöthi~	ADJD	<unknown>	_	O	O	
+10-14	sind	VAFIN	sein	_	O	O	
+10-15	,	$,	,	_	O	O	
+10-16	um	KOUI	um	_	O	O	
+10-17	ordentlich	ADJD	ordentlich	_	O	O	
+10-18	anfangen	VVINF	anfangen	_	O	O	
+10-19	zu	PTKZU	zu	_	O	O	
+10-20	können	VMINF	können	_	O	O	
+10-21	.	$.	.	_	O	O	
+
+#id=11
+#text=Daher mein ceterum censao !
+11-1	Daher	PAV	daher	_	O	O	
+11-2	mein	PPOSAT	mein	_	O	O	
+11-3	ceterum	ADJA	<unknown>	_	O	O	
+11-4	censao	NN	<unknown>	_	O	O	
+11-5	!	$.	!	_	O	O	
+
+#id=12
+#text=Ich schreibe heute an Usedom in der angegebnen Weise.
+12-1	Ich	PPER	ich	_	O	O	
+12-2	schreibe	VVFIN	schreiben	_	O	O	
+12-3	heute	ADV	heute	_	O	O	
+12-4	an	APPR	an	_	O	O	
+12-5	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-6	in	APPR	in	_	O	O	
+12-7	der	ART	die	_	O	O	
+12-8	angegebnen	ADJA	<unknown>	_	O	O	
+12-9	Weise	NN	Weise	_	O	O	
+12-10	.	$.	.	_	O	O	
+
+#id=13
+#text=- Braun ist eifrig mit allerlei ~15nen für eine Ausstattung des Bullettino mit Bildern besch~ftigt, ob praktisch, kann ich noch nicht beurtheilen.
+13-1	-	$(	-	_	O	O	
+13-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-3	ist	VAFIN	sein	_	O	O	
+13-4	eifrig	ADJD	eifrig	_	O	O	
+13-5	mit	APPR	mit	_	O	O	
+13-6	allerlei	PIAT	allerlei	_	O	O	
+13-7	~15nen	NN	<unknown>	_	O	O	
+13-8	für	APPR	für	_	O	O	
+13-9	eine	ART	eine	_	O	O	
+13-10	Ausstattung	NN	Ausstattung	_	O	O	
+13-11	des	ART	die	_	O	O	
+13-12	Bullettino	NN	<unknown>	_	O	O	
+13-13	mit	APPR	mit	_	O	O	
+13-14	Bildern	NN	Bild	_	O	O	
+13-15	besch~ftigt	VVFIN	<unknown>	_	O	O	
+13-16	,	$,	,	_	O	O	
+13-17	ob	KOUS	ob	_	O	O	
+13-18	praktisch	ADJD	praktisch	_	O	O	
+13-19	,	$,	,	_	O	O	
+13-20	kann	VMFIN	können	_	O	O	
+13-21	ich	PPER	ich	_	O	O	
+13-22	noch	ADV	noch	_	O	O	
+13-23	nicht	PTKNEG	nicht	_	O	O	
+13-24	beurtheilen	VVINF	<unknown>	_	O	O	
+13-25	.	$.	.	_	O	O	
+
+#id=14
+#text=Jeden Falls werden wir 3 Dogen auf einmal geben u. so schnell in Ord-
+14-1	Jeden	PIAT	jede	_	O	O	
+14-2	Falls	NN	Fall	_	O	O	
+14-3	werden	VAFIN	werden	_	O	O	
+14-4	wir	PPER	wir	_	O	O	
+14-5	3	CARD	3	_	O	O	
+14-6	Dogen	NN	Doge	_	O	O	
+14-7	auf	APPR	auf	_	O	O	
+14-8	einmal	ADV	einmal	_	O	O	
+14-9	geben	VVINF	geben	_	O	O	
+14-10	u.	KON	und	_	O	O	
+14-11	so	ADV	so	_	O	O	
+14-12	schnell	ADJD	schnell	_	O	O	
+14-13	in	APPR	in	_	O	O	
+14-14	Ord-	TRUNC	<unknown>	_	O	O	
+

@@ -1,0 +1,223 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=829 L Verehrtester Freund Lepsius an Helbig Berlin, 6. Dezember 1881 Berlin, C. 6. Dezember 1881 Die vermeldete Kiste ist hier noch immer nicht angekommen.
+1-1	829	CARD	@card@	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Verehrtester	NN	<unknown>	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1881	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	,	$,	,	_	O	O	
+1-16	C.	NE	C.	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-17	6	CARD	6	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	1881	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Die	ART	die	_	O	O	
+1-22	vermeldete	ADJA	vermeldet	_	O	O	
+1-23	Kiste	NN	Kiste	_	O	O	
+1-24	ist	VAFIN	sein	_	O	O	
+1-25	hier	ADV	hier	_	O	O	
+1-26	noch	ADV	noch	_	O	O	
+1-27	immer	ADV	immer	_	O	O	
+1-28	nicht	PTKNEG	nicht	_	O	O	
+1-29	angekommen	VVPP	ankommen	_	O	O	
+1-30	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich kann Ihnen daher auch noch nicht auf Ihre Frage, wegen des beigepackten Gypses antworten; wohl aber schon im voraus meinen aufrichtigen Dank für Ihre Mühe und Sorge sagen.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	kann	VMFIN	können	_	O	O	
+2-3	Ihnen	PPER	Sie	_	O	O	
+2-4	daher	PAV	daher	_	O	O	
+2-5	auch	ADV	auch	_	O	O	
+2-6	noch	ADV	noch	_	O	O	
+2-7	nicht	PTKNEG	nicht	_	O	O	
+2-8	auf	APPR	auf	_	O	O	
+2-9	Ihre	PPOSAT	ihr	_	O	O	
+2-10	Frage	NN	Frage	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	wegen	APPR	wegen	_	O	O	
+2-13	des	ART	die	_	O	O	
+2-14	beigepackten	ADJA	<unknown>	_	O	O	
+2-15	Gypses	NN	<unknown>	_	O	O	
+2-16	antworten	VVINF	antworten	_	O	O	
+2-17	;	$.	;	_	O	O	
+2-18	wohl	ADV	wohl	_	O	O	
+2-19	aber	ADV	aber	_	O	O	
+2-20	schon	ADV	schon	_	O	O	
+2-21	im	APPRART	in	_	O	O	
+2-22	voraus	ADV	voraus	_	O	O	
+2-23	meinen	PPOSAT	mein	_	O	O	
+2-24	aufrichtigen	ADJA	aufrichtig	_	O	O	
+2-25	Dank	NN	Dank	_	O	O	
+2-26	für	APPR	für	_	O	O	
+2-27	Ihre	PPOSAT	ihr	_	O	O	
+2-28	Mühe	NN	Mühe	_	O	O	
+2-29	und	KON	und	_	O	O	
+2-30	Sorge	NN	Sorge	_	O	O	
+2-31	sagen	VVFIN	sagen	_	O	O	
+2-32	.	$.	.	_	O	O	
+
+#id=3
+#text=Nur für meinen Dankbrief an den oder die bitte ich mir noch die Adresse aus.
+3-1	Nur	ADV	nur	_	O	O	
+3-2	für	APPR	für	_	O	O	
+3-3	meinen	PPOSAT	mein	_	O	O	
+3-4	Dankbrief	NN	Dankbrief	_	O	O	
+3-5	an	APPR	an	_	O	O	
+3-6	den	ART	die	_	O	O	
+3-7	oder	KON	oder	_	O	O	
+3-8	die	PDS	die	_	O	O	
+3-9	bitte	VVFIN	bitten	_	O	O	
+3-10	ich	PPER	ich	_	O	O	
+3-11	mir	PRF	ich	_	O	O	
+3-12	noch	ADV	noch	_	O	O	
+3-13	die	ART	die	_	O	O	
+3-14	Adresse	NN	Adresse	_	O	O	
+3-15	aus	PTKVZ	aus	_	O	O	
+3-16	.	$.	.	_	O	O	
+
+#id=4
+#text=Die 85 Lire werden bei der Ankunft hier gezahlt.
+4-1	Die	ART	die	_	O	O	
+4-2	85	CARD	85	_	O	O	
+4-3	Lire	NN	Lira	_	O	O	
+4-4	werden	VAFIN	werden	_	O	O	
+4-5	bei	APPR	bei	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	Ankunft	NN	Ankunft	_	O	O	
+4-8	hier	ADV	hier	_	O	O	
+4-9	gezahlt	VVPP	zahlen	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Es wäre ja sehr schön, wenn Ihre Vermuthung wegen des Nebukadnezar Steins sich erfüllte.
+5-1	Es	PPER	es	_	O	O	
+5-2	wäre	VAFIN	sein	_	O	O	
+5-3	ja	ADV	ja	_	O	O	
+5-4	sehr	ADV	sehr	_	O	O	
+5-5	schön	ADJD	schön	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	wenn	KOUS	wenn	_	O	O	
+5-8	Ihre	PPOSAT	ihr	_	O	O	
+5-9	Vermuthung	NN	<unknown>	_	O	O	
+5-10	wegen	APPR	wegen	_	O	O	
+5-11	des	ART	die	_	O	O	
+5-12	Nebukadnezar	NN	<unknown>	_	O	O	
+5-13	Steins	NE	Stein	_	O	O	
+5-14	sich	PRF	sich	_	O	O	
+5-15	erfüllte	VVFIN	erfüllen	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Doch werde ich so lange darüber schweigen, bis Sie mir das Siegel lösen, und die Versicherung bezahlen.
+6-1	Doch	ADV	doch	_	O	O	
+6-2	werde	VAFIN	werden	_	O	O	
+6-3	ich	PPER	ich	_	O	O	
+6-4	so	ADV	so	_	O	O	
+6-5	lange	ADV	lange	_	O	O	
+6-6	darüber	PAV	darüber	_	O	O	
+6-7	schweigen	VVINF	schweigen	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	bis	KOUS	bis	_	O	O	
+6-10	Sie	PPER	Sie	_	O	O	
+6-11	mir	PPER	ich	_	O	O	
+6-12	das	ART	die	_	O	O	
+6-13	Siegel	NN	Siegel	_	O	O	
+6-14	lösen	VVFIN	lösen	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	und	KON	und	_	O	O	
+6-17	die	ART	die	_	O	O	
+6-18	Versicherung	NN	Versicherung	_	O	O	
+6-19	bezahlen	VVFIN	bezahlen	_	O	O	
+6-20	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich hoffe nur daß Alles gut hier ankommt.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	hoffe	VVFIN	hoffen	_	O	O	
+7-3	nur	ADV	nur	_	O	O	
+7-4	daß	KOUS	dass	_	O	O	
+7-5	Alles	PIS	alle	_	O	O	
+7-6	gut	ADJD	gut	_	O	O	
+7-7	hier	ADV	hier	_	O	O	
+7-8	ankommt	VVFIN	ankommen	_	O	O	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=Nur wenn die Speditionszeit Ihnen über Gebühr lang scheint, bitte ich beim Spediteur nachzufragen.
+8-1	Nur	ADV	nur	_	O	O	
+8-2	wenn	KOUS	wenn	_	O	O	
+8-3	die	ART	die	_	O	O	
+8-4	Speditionszeit	NN	<unknown>	_	O	O	
+8-5	Ihnen	PPER	Sie	_	O	O	
+8-6	über	APPR	über	_	O	O	
+8-7	Gebühr	NN	Gebühr	_	O	O	
+8-8	lang	ADJD	lang	_	O	O	
+8-9	scheint	VVFIN	scheinen	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	bitte	VVFIN	bitten	_	O	O	
+8-12	ich	PPER	ich	_	O	O	
+8-13	beim	APPRART	bei	_	O	O	
+8-14	Spediteur	NN	Spediteur	_	O	O	
+8-15	nachzufragen	VVIZU	nachfragen	_	O	O	
+8-16	.	$.	.	_	O	O	
+
+#id=9
+#text=Hier frösteln wir zwischen Herbst und Winter fort.
+9-1	Hier	ADV	hier	_	O	O	
+9-2	frösteln	VVFIN	frösteln	_	O	O	
+9-3	wir	PPER	wir	_	O	O	
+9-4	zwischen	APPR	zwischen	_	O	O	
+9-5	Herbst	NN	Herbst	_	O	O	
+9-6	und	KON	und	_	O	O	
+9-7	Winter	NN	Winter	_	O	O	
+9-8	fort	PTKVZ	fort	_	O	O	
+9-9	.	$.	.	_	O	O	
+
+#id=10
+#text=Noch haben wir keinen Schnee gehabt.
+10-1	Noch	ADV	noch	_	O	O	
+10-2	haben	VAFIN	haben	_	O	O	
+10-3	wir	PPER	wir	_	O	O	
+10-4	keinen	PIAT	keine	_	O	O	
+10-5	Schnee	NN	Schnee	_	O	O	
+10-6	gehabt	VAPP	haben	_	O	O	
+10-7	.	$.	.	_	O	O	
+
+#id=11
+#text=Ich bitte Henzen von mir herzlich zu grüßen.
+11-1	Ich	PPER	ich	_	O	O	
+11-2	bitte	VVFIN	bitten	_	O	O	
+11-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-4	von	APPR	von	_	O	O	
+11-5	mir	PPER	ich	_	O	O	
+11-6	herzlich	ADJD	herzlich	_	O	O	
+11-7	zu	PTKZU	zu	_	O	O	
+11-8	grüßen	VVINF	grüßen	_	O	O	
+11-9	.	$.	.	_	O	O	
+
+#id=12
+#text=Leben Sie wohl.
+12-1	Leben	VVFIN	leben	_	O	O	
+12-2	Sie	PPER	Sie	_	O	O	
+12-3	wohl	ADV	wohl	_	O	O	
+12-4	.	$.	.	_	O	O	
+
+#id=13
+#text=Ihr treu ergebner R Lepsius
+13-1	Ihr	PPOSAT	ihr	_	O	O	
+13-2	treu	ADJD	treu	_	O	O	
+13-3	ergebner	ADJA	<unknown>	_	O	O	
+13-4	R	NN	R	_	O	O	
+13-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

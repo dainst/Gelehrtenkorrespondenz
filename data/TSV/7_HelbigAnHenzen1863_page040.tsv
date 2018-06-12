@@ -1,0 +1,239 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=415 Helbig an Henzen Neapel, 5. September 1864 2 Letzteren Artikel arbeitete ich gern in Rom aus, da er Anlaß zu einem interessanten ikonographischen Excurs ~v über Livia giebt.
+1-1	415	CARD	@card@	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	Letzteren	ADJA	letzt	_	O	O	
+1-13	Artikel	NN	Artikel	_	O	O	
+1-14	arbeitete	VVFIN	arbeiten	_	O	O	
+1-15	ich	PPER	ich	_	O	O	
+1-16	gern	ADV	gern	_	O	O	
+1-17	in	APPR	in	_	O	O	
+1-18	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-19	aus	PTKVZ	aus	_	O	O	
+1-20	,	$,	,	_	O	O	
+1-21	da	KOUS	da	_	O	O	
+1-22	er	PPER	er	_	O	O	
+1-23	Anlaß	NN	Anlass	_	O	O	
+1-24	zu	APPR	zu	_	O	O	
+1-25	einem	ART	eine	_	O	O	
+1-26	interessanten	ADJA	interessant	_	O	O	
+1-27	ikonographischen	ADJA	<unknown>	_	O	O	
+1-28	Excurs	NN	<unknown>	_	O	O	
+1-29	~v	NE	<unknown>	_	O	O	
+1-30	über	APPR	über	_	O	O	
+1-31	Livia	NE	Livia	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-32	giebt	VVFIN	<unknown>	_	O	O	
+1-33	.	$.	.	_	O	O	
+
+#id=2
+#text=Jenen können sie haben, wann sie wol~ len.
+2-1	Jenen	PDS	jen	_	O	O	
+2-2	können	VMFIN	können	_	O	O	
+2-3	sie	PPER	sie	_	O	O	
+2-4	haben	VAINF	haben	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	wann	PWAV	wann	_	O	O	
+2-7	sie	PPER	sie	_	O	O	
+2-8	wol~	ADJD	<unknown>	_	O	O	
+2-9	len	VVFIN	<unknown>	_	O	O	
+2-10	.	$.	.	_	O	O	
+
+#id=3
+#text=In Capua sollen verschiedene interessante Reliefs entdeckt worden sein.
+3-1	In	APPR	in	_	O	O	
+3-2	Capua	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-3	sollen	VMFIN	sollen	_	O	O	
+3-4	verschiedene	ADJA	verschieden	_	O	O	
+3-5	interessante	ADJA	interessant	_	O	O	
+3-6	Reliefs	NN	Relief	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-7	entdeckt	VVPP	entdecken	_	O	O	
+3-8	worden	VAPP	werden	_	O	O	
+3-9	sein	VAINF	sein	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich werde sie jedenfalls auf der Rückreise in Augenschein nehmen.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	werde	VAFIN	werden	_	O	O	
+4-3	sie	PPER	sie	_	O	O	
+4-4	jedenfalls	ADV	jedenfalls	_	O	O	
+4-5	auf	APPR	auf	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	Rückreise	NN	Rückreise	_	O	O	
+4-8	in	APPR	in	_	O	O	
+4-9	Augenschein	NN	Augenschein	_	O	O	
+4-10	nehmen	VVINF	nehmen	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Jahn schreibt mir, er wünsche eine exacte Zeichnung von dem auf dem Capuaner Markt eingemauerten Relief mit dem Genius theatralis.
+5-1	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	schreibt	VVFIN	schreiben	_	O	O	
+5-3	mir	PPER	ich	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	er	PPER	er	_	O	O	
+5-6	wünsche	VVFIN	wünschen	_	O	O	
+5-7	eine	ART	eine	_	O	O	
+5-8	exacte	ADJA	<unknown>	_	O	O	
+5-9	Zeichnung	NN	Zeichnung	_	O	O	
+5-10	von	APPR	von	_	O	O	
+5-11	dem	ART	die	_	O	O	
+5-12	auf	APPR	auf	_	O	O	
+5-13	dem	ART	die	_	O	O	
+5-14	Capuaner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-15	Markt	NN	Markt	_	I-webanno.custom.LetterEntity_	I-OBJ	
+5-16	eingemauerten	ADJA	eingemauert	_	I-webanno.custom.LetterEntity_	I-OBJ	
+5-17	Relief	NN	Relief	_	I-webanno.custom.LetterEntity_	I-OBJ	
+5-18	mit	APPR	mit	_	O	O	
+5-19	dem	ART	die	_	O	O	
+5-20	Genius	NE	Genius	_	O	O	
+5-21	theatralis	NE	<unknown>	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=Dies wäre etwas für Scalabrini.
+6-1	Dies	PDS	dies	_	O	O	
+6-2	wäre	VAFIN	sein	_	O	O	
+6-3	etwas	ADV	etwas	_	O	O	
+6-4	für	APPR	für	_	O	O	
+6-5	Scalabrini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-6	.	$.	.	_	O	O	
+
+#id=7
+#text=Sie können ihm den Stich in Millius Ga~erie mythologique zeigen, damit er das richtige Relief herausfindet.
+7-1	Sie	PPER	Sie	_	O	O	
+7-2	können	VMFIN	können	_	O	O	
+7-3	ihm	PPER	er	_	O	O	
+7-4	den	ART	die	_	O	O	
+7-5	Stich	NN	Stich	_	O	O	
+7-6	in	APPR	in	_	O	O	
+7-7	Millius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-8	Ga~erie	NN	<unknown>	_	O	O	
+7-9	mythologique	NE	<unknown>	_	O	O	
+7-10	zeigen	VVINF	zeigen	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	damit	KOUS	damit	_	O	O	
+7-13	er	PPER	er	_	O	O	
+7-14	das	ART	die	_	O	O	
+7-15	richtige	ADJA	richtig	_	O	O	
+7-16	Relief	NN	Relief	_	O	O	
+7-17	herausfindet	VVFIN	herausfinden	_	O	O	
+7-18	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich selbst werde eine genaue Beschreibung davon aufnehmen, welche zur Revision dienen kann.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	selbst	ADV	selbst	_	O	O	
+8-3	werde	VAFIN	werden	_	O	O	
+8-4	eine	ART	eine	_	O	O	
+8-5	genaue	ADJA	genau	_	O	O	
+8-6	Beschreibung	NN	Beschreibung	_	O	O	
+8-7	davon	PAV	davon	_	O	O	
+8-8	aufnehmen	VVINF	aufnehmen	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	welche	PRELS	welche	_	O	O	
+8-11	zur	APPRART	zu	_	O	O	
+8-12	Revision	NN	Revision	_	O	O	
+8-13	dienen	VVINF	dienen	_	O	O	
+8-14	kann	VMFIN	können	_	O	O	
+8-15	.	$.	.	_	O	O	
+
+#id=9
+#text=Im Übrigen befinde ich mich bedeutend besser als vordem, habe nur großes Heimweh nach Rom.
+9-1	Im	APPRART	in	_	O	O	
+9-2	Übrigen	NN	Übrige	_	O	O	
+9-3	befinde	VVFIN	befinden	_	O	O	
+9-4	ich	PPER	ich	_	O	O	
+9-5	mich	PRF	ich	_	O	O	
+9-6	bedeutend	ADJD	bedeutend	_	O	O	
+9-7	besser	ADJD	gut	_	O	O	
+9-8	als	KOKOM	als	_	O	O	
+9-9	vordem	ADV	vordem	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	habe	VAFIN	haben	_	O	O	
+9-12	nur	ADV	nur	_	O	O	
+9-13	großes	ADJA	groß	_	O	O	
+9-14	Heimweh	NN	Heimweh	_	O	O	
+9-15	nach	APPR	nach	_	O	O	
+9-16	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-17	.	$.	.	_	O	O	
+
+#id=10
+#text=Mit herzlichen Grüßen an die Frau Professorin Ihr Wolfgang Helbig NB.
+10-1	Mit	APPR	mit	_	O	O	
+10-2	herzlichen	ADJA	herzlich	_	O	O	
+10-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+10-4	an	APPR	an	_	O	O	
+10-5	die	ART	die	_	O	O	
+10-6	Frau	NN	Frau	_	O	O	
+10-7	Professorin	NN	Professorin	_	O	O	
+10-8	Ihr	PPOSAT	ihr	_	O	O	
+10-9	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+10-10	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+10-11	NB	NE	NB	_	O	O	
+10-12	.	$.	.	_	O	O	
+
+#id=11
+#text=Für Gerhard werde ich den Apoll und Daphnemythos behandeln.
+11-1	Für	APPR	für	_	O	O	
+11-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-3	werde	VAFIN	werden	_	O	O	
+11-4	ich	PPER	ich	_	O	O	
+11-5	den	ART	die	_	O	O	
+11-6	Apoll	NN	Apoll	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-7	und	KON	und	_	O	O	
+11-8	Daphnemythos	NN	<unknown>	_	O	O	
+11-9	behandeln	VVINF	behandeln	_	O	O	
+11-10	.	$.	.	_	O	O	
+
+#id=12
+#text=Hoffentlich hat Brunn, wie er mir versprach, die Daphne in der Villa Borghese zeichnen lassen ?
+12-1	Hoffentlich	ADV	hoffentlich	_	O	O	
+12-2	hat	VAFIN	haben	_	O	O	
+12-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-4	,	$,	,	_	O	O	
+12-5	wie	KOUS	wie	_	O	O	
+12-6	er	PPER	er	_	O	O	
+12-7	mir	PPER	ich	_	O	O	
+12-8	versprach	VVFIN	versprechen	_	O	O	
+12-9	,	$,	,	_	O	O	
+12-10	die	PRELS	die	_	O	O	
+12-11	Daphne	NE	Daphne	_	O	O	
+12-12	in	APPR	in	_	O	O	
+12-13	der	ART	die	_	O	O	
+12-14	Villa	NN	Villa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-15	Borghese	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+12-16	zeichnen	VVINF	zeichnen	_	O	O	
+12-17	lassen	VVFIN	lassen	_	O	O	
+12-18	?	$.	?	_	O	O	
+
+#id=13
+#text=Die Paestaner Wandgemälde sind noch nirgends publicirt.
+13-1	Die	ART	die	_	O	O	
+13-2	Paestaner	NN	<unknown>	_	O	O	
+13-3	Wandgemälde	NN	Wandgemälde	_	B-webanno.custom.LetterEntity_	B-OBJ	
+13-4	sind	VAFIN	sein	_	O	O	
+13-5	noch	ADV	noch	_	O	O	
+13-6	nirgends	ADV	nirgends	_	O	O	
+13-7	publicirt	ADJD	<unknown>	_	O	O	
+13-8	.	$.	.	_	O	O	
+
+#id=14
+#text=Wie steht es also damit?
+14-1	Wie	KOUS	wie	_	O	O	
+14-2	steht	VVFIN	stehen	_	O	O	
+14-3	es	PPER	es	_	O	O	
+14-4	also	ADV	also	_	O	O	
+14-5	damit	PAV	damit	_	O	O	
+14-6	?	$.	?	_	O	O	
+

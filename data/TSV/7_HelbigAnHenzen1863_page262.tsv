@@ -1,0 +1,224 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=H Lieber Herr Professor Helbig an Henzen Siena, 4. September 1875 g. 6/9 75 n. c. r. Siena, Villa PoggiarelloBergagli 4. Sept.
+1-1	H	NN	H	_	O	O	
+1-2	Lieber	ADJA	lieb	_	O	O	
+1-3	Herr	NN	Herr	_	O	O	
+1-4	Professor	NN	Professor	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	4	CARD	4	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	6/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	n.	APPR	n.	_	O	O	
+1-18	c.	ADJA	<unknown>	_	O	O	
+1-19	r.	ADJA	<unknown>	_	O	O	
+1-20	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-21	,	$,	,	_	O	O	
+1-22	Villa	NN	Villa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-23	PoggiarelloBergagli	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+1-24	4	CARD	4	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+1-25	.	$.	.	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+1-26	Sept.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1875 Herzlichen Dank für Ihren freundlichen Brief vom 27. August, den ich mit wenigen Zeilen erwiedere, da auch ich Ihnen nicht viel Neues und Wissenswürdiges mittheilen kann.
+2-1	1875	CARD	@card@	_	O	O	
+2-2	Herzlichen	ADJA	herzlich	_	O	O	
+2-3	Dank	NN	Dank	_	O	O	
+2-4	für	APPR	für	_	O	O	
+2-5	Ihren	PPOSAT	ihr	_	O	O	
+2-6	freundlichen	ADJA	freundlich	_	O	O	
+2-7	Brief	NN	Brief	_	O	O	
+2-8	vom	APPRART	von	_	O	O	
+2-9	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-11	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-12	,	$,	,	_	O	O	
+2-13	den	PRELS	die	_	O	O	
+2-14	ich	PPER	ich	_	O	O	
+2-15	mit	APPR	mit	_	O	O	
+2-16	wenigen	PIAT	wenige	_	O	O	
+2-17	Zeilen	NN	Zeile	_	O	O	
+2-18	erwiedere	VVFIN	<unknown>	_	O	O	
+2-19	,	$,	,	_	O	O	
+2-20	da	KOUS	da	_	O	O	
+2-21	auch	ADV	auch	_	O	O	
+2-22	ich	PPER	ich	_	O	O	
+2-23	Ihnen	PPER	Sie	_	O	O	
+2-24	nicht	PTKNEG	nicht	_	O	O	
+2-25	viel	PIAT	viele	_	O	O	
+2-26	Neues	NN	Neue	_	O	O	
+2-27	und	KON	und	_	O	O	
+2-28	Wissenswürdiges	NN	<unknown>	_	O	O	
+2-29	mittheilen	VVINF	<unknown>	_	O	O	
+2-30	kann	VMFIN	können	_	O	O	
+2-31	.	$.	.	_	O	O	
+
+#id=3
+#text=Schade wirklich, daß Sie nicht durch öiena reisten Ich versichere Ihnen, daß die hiesige Temperatur sich von der in Oberbozen herrschenden höchstens ganz unmerklich unterscheiden kann.
+3-1	Schade	ADJD	schade	_	O	O	
+3-2	wirklich	ADJD	wirklich	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	daß	KOUS	dass	_	O	O	
+3-5	Sie	PPER	Sie	_	O	O	
+3-6	nicht	PTKNEG	nicht	_	O	O	
+3-7	durch	APPR	durch	_	O	O	
+3-8	öiena	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-9	reisten	VVFIN	reisen	_	O	O	
+3-10	Ich	PPER	ich	_	O	O	
+3-11	versichere	VVFIN	versichern	_	O	O	
+3-12	Ihnen	PPER	Sie	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	daß	KOUS	dass	_	O	O	
+3-15	die	ART	die	_	O	O	
+3-16	hiesige	ADJA	hiesig	_	O	O	
+3-17	Temperatur	NN	Temperatur	_	O	O	
+3-18	sich	PRF	sich	_	O	O	
+3-19	von	APPR	von	_	O	O	
+3-20	der	ART	die	_	O	O	
+3-21	in	APPR	in	_	O	O	
+3-22	Oberbozen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-23	herrschenden	ADJA	herrschend	_	O	O	
+3-24	höchstens	ADV	höchstens	_	O	O	
+3-25	ganz	ADV	ganz	_	O	O	
+3-26	unmerklich	ADJD	unmerklich	_	O	O	
+3-27	unterscheiden	VVINF	unterscheiden	_	O	O	
+3-28	kann	VMFIN	können	_	O	O	
+3-29	.	$.	.	_	O	O	
+
+#id=4
+#text=Wir haben jetzt Vormittags 6 Uhr nur 14 0 R.
+4-1	Wir	PPER	wir	_	O	O	
+4-2	haben	VAFIN	haben	_	O	O	
+4-3	jetzt	ADV	jetzt	_	O	O	
+4-4	Vormittags	NN	Vormittag	_	O	O	
+4-5	6	CARD	6	_	O	O	
+4-6	Uhr	NN	Uhr	_	O	O	
+4-7	nur	ADV	nur	_	O	O	
+4-8	14	CARD	14	_	O	O	
+4-9	0	CARD	@card@	_	O	O	
+4-10	R.	NE	R.	_	O	O	
+
+#id=5
+#text=De Sanctis kann in der That nicht vor Ende September abreisen, da Terresi (Cetona) erst gegen den 10. October ~us Florenz zurückkehrt und seine Sammlung bis dahin unzugänglich ist.
+5-1	De	NE	De	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	Sanctis	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-3	kann	VMFIN	können	_	O	O	
+5-4	in	APPR	in	_	O	O	
+5-5	der	ART	die	_	O	O	
+5-6	That	NE	<unknown>	_	O	O	
+5-7	nicht	PTKNEG	nicht	_	O	O	
+5-8	vor	APPR	vor	_	O	O	
+5-9	Ende	NN	Ende	_	O	O	
+5-10	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-11	abreisen	VVINF	abreisen	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	da	KOUS	da	_	O	O	
+5-14	Terresi	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-15	(	$(	(	_	O	O	
+5-16	Cetona	NE	<unknown>	_	O	O	
+5-17	)	$(	)	_	O	O	
+5-18	erst	ADV	erst	_	O	O	
+5-19	gegen	APPR	gegen	_	O	O	
+5-20	den	ART	die	_	O	O	
+5-21	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-22	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-23	October	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-24	~us	NN	<unknown>	_	O	O	
+5-25	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-26	zurückkehrt	VVFIN	zurückkehren	_	O	O	
+5-27	und	KON	und	_	O	O	
+5-28	seine	PPOSAT	sein	_	O	O	
+5-29	Sammlung	NN	Sammlung	_	O	O	
+5-30	bis	KON	bis	_	O	O	
+5-31	dahin	PAV	dahin	_	O	O	
+5-32	unzugänglich	ADJD	unzugänglich	_	O	O	
+5-33	ist	VAFIN	sein	_	O	O	
+5-34	.	$.	.	_	O	O	
+
+#id=6
+#text=Daß Dumont nach Athen geht, thut mir leid sowohl unseretwegen, da es sich ja recht angenehm mit ihm verkehrte, als auch wegen unseres athenischen Instituts, welches, wenigstens was die Pflege der antichita figurata betrifft, in ihm einen sehr gefährlichen Rivalen erhält.
+6-1	Daß	KOUS	dass	_	O	O	
+6-2	Dumont	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	nach	APPR	nach	_	O	O	
+6-4	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-5	geht	VVFIN	gehen	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	thut	VVFIN	<unknown>	_	O	O	
+6-8	mir	PPER	ich	_	O	O	
+6-9	leid	ADJD	leid	_	O	O	
+6-10	sowohl	KON	sowohl	_	O	O	
+6-11	unseretwegen	ADJD	<unknown>	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	da	KOUS	da	_	O	O	
+6-14	es	PPER	es	_	O	O	
+6-15	sich	PRF	sich	_	O	O	
+6-16	ja	ADV	ja	_	O	O	
+6-17	recht	ADJD	recht	_	O	O	
+6-18	angenehm	ADJD	angenehm	_	O	O	
+6-19	mit	APPR	mit	_	O	O	
+6-20	ihm	PPER	er	_	O	O	
+6-21	verkehrte	VVFIN	verkehren	_	O	O	
+6-22	,	$,	,	_	O	O	
+6-23	als	KOUS	als	_	O	O	
+6-24	auch	ADV	auch	_	O	O	
+6-25	wegen	APPR	wegen	_	O	O	
+6-26	unseres	PPOSAT	unser	_	O	O	
+6-27	athenischen	ADJA	athenisch	_	O	O	
+6-28	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-29	,	$,	,	_	O	O	
+6-30	welches	PRELS	welche	_	O	O	
+6-31	,	$,	,	_	O	O	
+6-32	wenigstens	ADV	wenigstens	_	O	O	
+6-33	was	PIS	was	_	O	O	
+6-34	die	ART	die	_	O	O	
+6-35	Pflege	NN	Pflege	_	O	O	
+6-36	der	ART	die	_	O	O	
+6-37	antichita	ADJA	<unknown>	_	O	O	
+6-38	figurata	NN	<unknown>	_	O	O	
+6-39	betrifft	VVFIN	betreffen	_	O	O	
+6-40	,	$,	,	_	O	O	
+6-41	in	APPR	in	_	O	O	
+6-42	ihm	PPER	er	_	O	O	
+6-43	einen	ART	eine	_	O	O	
+6-44	sehr	ADV	sehr	_	O	O	
+6-45	gefährlichen	ADJA	gefährlich	_	O	O	
+6-46	Rivalen	NN	Rivale	_	O	O	
+6-47	erhält	VVFIN	erhalten	_	O	O	
+6-48	.	$.	.	_	O	O	
+
+#id=7
+#text=Einer der Dumontschen Zöglinge, den ich in Siena sah, sagte mir, man sei in Paris in großer Verlegenheit, wie die
+7-1	Einer	PIS	eine	_	O	O	
+7-2	der	ART	die	_	O	O	
+7-3	Dumontschen	ADJA	<unknown>	_	O	O	
+7-4	Zöglinge	NN	Zögling	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	den	PRELS	die	_	O	O	
+7-7	ich	PPER	ich	_	O	O	
+7-8	in	APPR	in	_	O	O	
+7-9	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-10	sah	VVFIN	sehen	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	sagte	VVFIN	sagen	_	O	O	
+7-13	mir	PPER	ich	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	man	PIS	man	_	O	O	
+7-16	sei	VAFIN	sein	_	O	O	
+7-17	in	APPR	in	_	O	O	
+7-18	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-19	in	APPR	in	_	O	O	
+7-20	großer	ADJA	groß	_	O	O	
+7-21	Verlegenheit	NN	Verlegenheit	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	wie	KOUS	wie	_	O	O	
+7-24	die	ART	die	_	O	O	
+

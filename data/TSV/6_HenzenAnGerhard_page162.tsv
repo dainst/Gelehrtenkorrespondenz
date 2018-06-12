@@ -1,0 +1,294 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=438 31/XII/53 Verehrter Herr Professor Henzen an Gerhard Nur ~in Eile die kurze Anzeige, daß gestern der Prinz mit den Herren seines Gefolges unsrer Sitzung beiwohnte, übrigens einer ganz gewöhnlichen, da er Feierlichkeiten nicht zu lieben scheint.
+1-1	438	CARD	@card@	_	O	O	
+1-2	31/XII/53	CARD	<unknown>	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Nur	ADV	nur	_	O	O	
+1-10	~in	NN	<unknown>	_	O	O	
+1-11	Eile	NN	Eile	_	O	O	
+1-12	die	ART	die	_	O	O	
+1-13	kurze	ADJA	kurz	_	O	O	
+1-14	Anzeige	NN	Anzeige	_	O	O	
+1-15	,	$,	,	_	O	O	
+1-16	daß	KOUS	dass	_	O	O	
+1-17	gestern	ADV	gestern	_	O	O	
+1-18	der	ART	die	_	O	O	
+1-19	Prinz	NN	Prinz	_	O	O	
+1-20	mit	APPR	mit	_	O	O	
+1-21	den	ART	die	_	O	O	
+1-22	Herren	NN	Herr	_	O	O	
+1-23	seines	PPOSAT	sein	_	O	O	
+1-24	Gefolges	NN	Gefolge	_	O	O	
+1-25	unsrer	PPOSAT	unser	_	O	O	
+1-26	Sitzung	NN	Sitzung	_	O	O	
+1-27	beiwohnte	VVFIN	beiwohnen	_	O	O	
+1-28	,	$,	,	_	O	O	
+1-29	übrigens	ADV	übrigens	_	O	O	
+1-30	einer	ART	eine	_	O	O	
+1-31	ganz	ADV	ganz	_	O	O	
+1-32	gewöhnlichen	ADJA	gewöhnlich	_	O	O	
+1-33	,	$,	,	_	O	O	
+1-34	da	KOUS	da	_	O	O	
+1-35	er	PPER	er	_	O	O	
+1-36	Feierlichkeiten	NN	Feierlichkeit	_	O	O	
+1-37	nicht	PTKNEG	nicht	_	O	O	
+1-38	zu	PTKZU	zu	_	O	O	
+1-39	lieben	VVINF	lieben	_	O	O	
+1-40	scheint	VVFIN	scheinen	_	O	O	
+1-41	.	$.	.	_	O	O	
+
+#id=2
+#text=Indeß mußte seinetwillen Französisch gelesen werden.
+2-1	Indeß	NN	<unknown>	_	O	O	
+2-2	mußte	VMFIN	müssen	_	O	O	
+2-3	seinetwillen	ADV	seinetwillen	_	O	O	
+2-4	Französisch	NN	Französisch	_	O	O	
+2-5	gelesen	VVPP	lesen	_	O	O	
+2-6	werden	VAINF	werden	_	O	O	
+2-7	.	$.	.	_	O	O	
+
+#id=3
+#text=Zuerst las ich über Militärdiplome, von denen ich mehrere in Stanniol- und Papier-Abdrücken vorlegen konnte; die Sache schien ihn, u. besonders den General Schreckenstein zu interessiren~ Natürlich war alles gelehrte Detail vermieden, u. mehr die Römischen ~ilitärverhältnisse im Allgemeinen, so wie die Einrichtung der Testamente u. dgl. berlicksichtigt.
+3-1	Zuerst	ADV	zuerst	_	O	O	
+3-2	las	VVFIN	lesen	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	über	APPR	über	_	O	O	
+3-5	Militärdiplome	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	,	$,	,	_	O	O	
+3-7	von	APPR	von	_	O	O	
+3-8	denen	PRELS	die	_	O	O	
+3-9	ich	PPER	ich	_	O	O	
+3-10	mehrere	PIAT	mehrere	_	O	O	
+3-11	in	APPR	in	_	O	O	
+3-12	Stanniol-	TRUNC	<unknown>	_	O	O	
+3-13	und	KON	und	_	O	O	
+3-14	Papier-Abdrücken	NN	<unknown>	_	O	O	
+3-15	vorlegen	VVINF	vorlegen	_	O	O	
+3-16	konnte	VMFIN	können	_	O	O	
+3-17	;	$.	;	_	O	O	
+3-18	die	ART	die	_	O	O	
+3-19	Sache	NN	Sache	_	O	O	
+3-20	schien	VVFIN	scheinen	_	O	O	
+3-21	ihn	PPER	er	_	O	O	
+3-22	,	$,	,	_	O	O	
+3-23	u.	KON	und	_	O	O	
+3-24	besonders	ADV	besonders	_	O	O	
+3-25	den	ART	die	_	O	O	
+3-26	General	NN	General	_	O	O	
+3-27	Schreckenstein	NE	Schreckenstein	_	O	O	
+3-28	zu	PTKA	zu	_	O	O	
+3-29	interessiren~	ADJD	<unknown>	_	O	O	
+3-30	Natürlich	ADJD	natürlich	_	O	O	
+3-31	war	VAFIN	sein	_	O	O	
+3-32	alles	PIS	alle	_	O	O	
+3-33	gelehrte	ADJA	gelehrt	_	O	O	
+3-34	Detail	NN	Detail	_	O	O	
+3-35	vermieden	VVPP	vermeiden	_	O	O	
+3-36	,	$,	,	_	O	O	
+3-37	u.	KON	und	_	O	O	
+3-38	mehr	ADV	mehr	_	O	O	
+3-39	die	ART	die	_	O	O	
+3-40	Römischen	ADJA	römisch	_	O	O	
+3-41	~ilitärverhältnisse	NN	<unknown>	_	O	O	
+3-42	im	APPRART	in	_	O	O	
+3-43	Allgemeinen	NN	Allgemeine	_	O	O	
+3-44	,	$,	,	_	O	O	
+3-45	so	ADV	so	_	O	O	
+3-46	wie	KOKOM	wie	_	O	O	
+3-47	die	ART	die	_	O	O	
+3-48	Einrichtung	NN	Einrichtung	_	O	O	
+3-49	der	ART	die	_	O	O	
+3-50	Testamente	NN	Testament	_	O	O	
+3-51	u.	APPR	um	_	O	O	
+3-52	dgl.	ADV	dgl.	_	O	O	
+3-53	berlicksichtigt	ADJD	<unknown>	_	O	O	
+3-54	.	$.	.	_	O	O	
+
+#id=4
+#text=Nach mir berichtete des Vergers in eineIT' sehr hübschen, eleganten u. lebendigen Vortr8.ge über die L\.use:;rabungen, die er roi t Franqois in den Toscanischen Maremmen u. bei ~hiusi gemacht, u. leßte 3 Facsimiles sehr schöner Vasen vor, die er gefunden.
+4-1	Nach	APPR	nach	_	O	O	
+4-2	mir	PPER	ich	_	O	O	
+4-3	berichtete	VVFIN	berichten	_	O	O	
+4-4	des	ART	die	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	Vergers	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-6	in	APPR	in	_	O	O	
+4-7	eineIT	ADJD	<unknown>	_	O	O	
+4-8	'	$(	'	_	O	O	
+4-9	sehr	ADV	sehr	_	O	O	
+4-10	hübschen	ADJA	hübsch	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	eleganten	ADJA	elegant	_	O	O	
+4-13	u.	KON	und	_	O	O	
+4-14	lebendigen	ADJA	lebendig	_	O	O	
+4-15	Vortr8.ge	NN	<unknown>	_	O	O	
+4-16	über	APPR	über	_	O	O	
+4-17	die	ART	die	_	O	O	
+4-18	L\.use	NN	<unknown>	_	O	O	
+4-19	:	$.	:	_	O	O	
+4-20	;	$.	;	_	O	O	
+4-21	rabungen	NN	<unknown>	_	O	O	
+4-22	,	$,	,	_	O	O	
+4-23	die	PRELS	die	_	O	O	
+4-24	er	PPER	er	_	O	O	
+4-25	roi	NN	<unknown>	_	O	O	
+4-26	t	NN	t	_	O	O	
+4-27	Franqois	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-28	in	APPR	in	_	O	O	
+4-29	den	ART	die	_	O	O	
+4-30	Toscanischen	ADJA	<unknown>	_	O	O	
+4-31	Maremmen	NN	<unknown>	_	O	O	
+4-32	u.	APPR	um	_	O	O	
+4-33	bei	APPR	bei	_	O	O	
+4-34	~hiusi	NE	<unknown>	_	O	O	
+4-35	gemacht	VVPP	machen	_	O	O	
+4-36	,	$,	,	_	O	O	
+4-37	u.	APPR	um	_	O	O	
+4-38	leßte	ADJA	<unknown>	_	O	O	
+4-39	3	CARD	3	_	O	O	
+4-40	Facsimiles	NN	<unknown>	_	O	O	
+4-41	sehr	ADV	sehr	_	O	O	
+4-42	schöner	ADJA	schön	_	O	O	
+4-43	Vasen	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-44	vor	PTKVZ	vor	_	O	O	
+4-45	,	$,	,	_	O	O	
+4-46	die	PRELS	die	_	O	O	
+4-47	er	PPER	er	_	O	O	
+4-48	gefunden	VVPP	finden	_	O	O	
+4-49	.	$.	.	_	O	O	
+
+#id=5
+#text=Ganine, wegen Unwohlsein nicht anwesend, schjckte zum Geschenke für den Prinzen seine V. Appia.
+5-1	Ganine	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	,	$,	,	_	O	O	
+5-3	wegen	APPR	wegen	_	O	O	
+5-4	Unwohlsein	NN	Unwohlsein	_	O	O	
+5-5	nicht	PTKNEG	nicht	_	O	O	
+5-6	anwesend	ADJD	anwesend	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	schjckte	VVFIN	<unknown>	_	O	O	
+5-9	zum	APPRART	zu	_	O	O	
+5-10	Geschenke	NN	Geschenk	_	O	O	
+5-11	für	APPR	für	_	O	O	
+5-12	den	ART	die	_	O	O	
+5-13	Prinzen	NN	Prinz	_	O	O	
+5-14	seine	PPOSAT	sein	_	O	O	
+5-15	V.	NE	V.	_	O	O	
+5-16	Appia	NE	<unknown>	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Nach der Sitzung wurden die Anwesenden vorgestellt.
+6-1	Nach	APPR	nach	_	O	O	
+6-2	der	ART	die	_	O	O	
+6-3	Sitzung	NN	Sitzung	_	O	O	
+6-4	wurden	VAFIN	werden	_	O	O	
+6-5	die	ART	die	_	O	O	
+6-6	Anwesenden	NN	Anwesende	_	O	O	
+6-7	vorgestellt	VVPP	vorstellen	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=Es wird vermutet, dß.
+7-1	Es	PPER	es	_	O	O	
+7-2	wird	VAFIN	werden	_	O	O	
+7-3	vermutet	VVPP	vermuten	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	dß	VVFIN	<unknown>	_	O	O	
+7-6	.	$.	.	_	O	O	
+
+#id=8
+#text=der Prinz wieder kommt, u. werden in nächster Sitzung de Rossi u. Friedlaender lesen.
+8-1	der	ART	die	_	O	O	
+8-2	Prinz	NN	Prinz	_	O	O	
+8-3	wieder	ADV	wieder	_	O	O	
+8-4	kommt	VVFIN	kommen	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	u.	KON	und	_	O	O	
+8-7	werden	VAFIN	werden	_	O	O	
+8-8	in	APPR	in	_	O	O	
+8-9	nächster	ADJA	nah	_	O	O	
+8-10	Sitzung	NN	Sitzung	_	O	O	
+8-11	de	NE	de	_	O	O	
+8-12	Rossi	NE	Rossi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-13	u.	APPR	um	_	O	O	
+8-14	Friedlaender	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-15	lesen	VVINF	lesen	_	O	O	
+8-16	.	$.	.	_	O	O	
+
+#id=9
+#text=Für die Folge hat auch Hübsch Etwas liber altchristliche Baukunst versproehen u. Ampire soll die Gbelisken einmal behandeln.
+9-1	Für	APPR	für	_	O	O	
+9-2	die	ART	die	_	O	O	
+9-3	Folge	NN	Folge	_	O	O	
+9-4	hat	VAFIN	haben	_	O	O	
+9-5	auch	ADV	auch	_	O	O	
+9-6	Hübsch	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-7	Etwas	NN	Etwas	_	O	O	
+9-8	liber	ADJD	<unknown>	_	O	O	
+9-9	altchristliche	ADJA	<unknown>	_	O	O	
+9-10	Baukunst	NN	Baukunst	_	O	O	
+9-11	versproehen	VVFIN	<unknown>	_	O	O	
+9-12	u.	APPR	um	_	O	O	
+9-13	Ampire	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-14	soll	VMFIN	sollen	_	O	O	
+9-15	die	ART	die	_	O	O	
+9-16	Gbelisken	NN	<unknown>	_	O	O	
+9-17	einmal	ADV	einmal	_	O	O	
+9-18	behandeln	VVINF	behandeln	_	O	O	
+9-19	.	$.	.	_	O	O	
+
+#id=10
+#text=Braun schrieb bereits an Usedom wegen eines Ehrenmitglieddiploms für S. Kl.
+10-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	schrieb	VVFIN	schreiben	_	O	O	
+10-3	bereits	ADV	bereits	_	O	O	
+10-4	an	APPR	an	_	O	O	
+10-5	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-6	wegen	APPR	wegen	_	O	O	
+10-7	eines	ART	eine	_	O	O	
+10-8	Ehrenmitglieddiploms	NN	<unknown>	_	O	O	
+10-9	für	APPR	für	_	O	O	
+10-10	S.	NE	S.	_	O	O	
+10-11	Kl.	NN	Kl.	_	O	O	
+
+#id=11
+#text=Hoheit; ich bitte 6ie, die Sache nicht in Vergessenheit geraten zu lassen u. die Abfassung zu leiten.
+11-1	Hoheit	NN	Hoheit	_	O	O	
+11-2	;	$.	;	_	O	O	
+11-3	ich	PPER	ich	_	O	O	
+11-4	bitte	VVFIN	bitten	_	O	O	
+11-5	6ie	ADJD	<unknown>	_	O	O	
+11-6	,	$,	,	_	O	O	
+11-7	die	ART	die	_	O	O	
+11-8	Sache	NN	Sache	_	O	O	
+11-9	nicht	PTKNEG	nicht	_	O	O	
+11-10	in	APPR	in	_	O	O	
+11-11	Vergessenheit	NN	Vergessenheit	_	O	O	
+11-12	geraten	VVINF	geraten	_	O	O	
+11-13	zu	PTKZU	zu	_	O	O	
+11-14	lassen	VVINF	lassen	_	O	O	
+11-15	u.	KON	und	_	O	O	
+11-16	die	ART	die	_	O	O	
+11-17	Abfassung	NN	Abfassung	_	O	O	
+11-18	zu	PTKZU	zu	_	O	O	
+11-19	leiten	VVINF	leiten	_	O	O	
+11-20	.	$.	.	_	O	O	
+
+#id=12
+#text=Heute langte ein Brief Usedom's an, dem zufolge
+12-1	Heute	ADV	heute	_	O	O	
+12-2	langte	VVFIN	langen	_	O	O	
+12-3	ein	ART	eine	_	O	O	
+12-4	Brief	NN	Brief	_	O	O	
+12-5	Usedom's	VVFIN	<unknown>	_	O	O	
+12-6	an	PTKVZ	an	_	O	O	
+12-7	,	$,	,	_	O	O	
+12-8	dem	PRELS	die	_	O	O	
+12-9	zufolge	APPO	zufolge	_	O	O	
+

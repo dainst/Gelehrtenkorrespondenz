@@ -1,0 +1,239 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=273 2 tlelbig an Henzen Dresden, 22. Juni 1871 zu entscheiden.
+1-1	273	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	tlelbig	ADJD	<unknown>	_	O	O	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1871	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	zu	PTKZU	zu	_	O	O	
+1-13	entscheiden	VVINF	entscheiden	_	O	O	
+1-14	.	$.	.	_	O	O	
+
+#id=2
+#text=Hettner reist übrigens um den 20. August von hier ab und wird nach einmonatlichem Aufenthalte in Oberitalien gegen Ende September in Rom eintreffen.
+2-1	Hettner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	reist	VVFIN	reisen	_	O	O	
+2-3	übrigens	ADV	übrigens	_	O	O	
+2-4	um	APPR	um	_	O	O	
+2-5	den	ART	die	_	O	O	
+2-6	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-8	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-9	von	APPR	von	_	O	O	
+2-10	hier	ADV	hier	_	O	O	
+2-11	ab	PTKVZ	ab	_	O	O	
+2-12	und	KON	und	_	O	O	
+2-13	wird	VAFIN	werden	_	O	O	
+2-14	nach	APPR	nach	_	O	O	
+2-15	einmonatlichem	ADJA	<unknown>	_	O	O	
+2-16	Aufenthalte	NN	Aufenthalt	_	O	O	
+2-17	in	APPR	in	_	O	O	
+2-18	Oberitalien	NE	Oberitalien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-19	gegen	APPR	gegen	_	O	O	
+2-20	Ende	NN	Ende	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-21	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-22	in	APPR	in	_	O	O	
+2-23	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-24	eintreffen	VVINF	eintreffen	_	O	O	
+2-25	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich glaube, daß Sie ihn sehr zu seinem Vortheil verändert finden werden.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	glaube	VVFIN	glauben	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	daß	KOUS	dass	_	O	O	
+3-5	Sie	PPER	Sie	_	O	O	
+3-6	ihn	PPER	er	_	O	O	
+3-7	sehr	ADV	sehr	_	O	O	
+3-8	zu	APPR	zu	_	O	O	
+3-9	seinem	PPOSAT	sein	_	O	O	
+3-10	Vortheil	NN	<unknown>	_	O	O	
+3-11	verändert	ADJD	verändert	_	O	O	
+3-12	finden	VVINF	finden	_	O	O	
+3-13	werden	VAFIN	werden	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Den letzten Band seiner Litteraturgeschichte habe ich dieser Tage etwas überlesen und ich muß gestehen, daß er mir ausgezeichnet gefallen hat.
+4-1	Den	ART	die	_	O	O	
+4-2	letzten	ADJA	letzt	_	O	O	
+4-3	Band	NN	Band	_	O	O	
+4-4	seiner	PPOSAT	sein	_	O	O	
+4-5	Litteraturgeschichte	NN	<unknown>	_	O	O	
+4-6	habe	VAFIN	haben	_	O	O	
+4-7	ich	PPER	ich	_	O	O	
+4-8	dieser	PDAT	dies	_	O	O	
+4-9	Tage	NN	Tag	_	O	O	
+4-10	etwas	ADV	etwas	_	O	O	
+4-11	überlesen	VVINF	überlesen	_	O	O	
+4-12	und	KON	und	_	O	O	
+4-13	ich	PPER	ich	_	O	O	
+4-14	muß	VMFIN	müssen	_	O	O	
+4-15	gestehen	VVINF	gestehen	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	daß	KOUS	dass	_	O	O	
+4-18	er	PPER	er	_	O	O	
+4-19	mir	PPER	ich	_	O	O	
+4-20	ausgezeichnet	ADJD	ausgezeichnet	_	O	O	
+4-21	gefallen	VVPP	fallen|gefallen	_	O	O	
+4-22	hat	VAFIN	haben	_	O	O	
+4-23	.	$.	.	_	O	O	
+
+#id=5
+#text=Meine Schwester, die Sie vielmals grüßt, geht nach drei Wochen unter sehr günstigen Bedingungen an das neu eröffnete Theater in Altenburg.
+5-1	Meine	PPOSAT	mein	_	O	O	
+5-2	Schwester	NN	Schwester	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	die	PRELS	die	_	O	O	
+5-5	Sie	PPER	Sie	_	O	O	
+5-6	vielmals	ADV	vielmals	_	O	O	
+5-7	grüßt	VVFIN	grüßen	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	geht	VVFIN	gehen	_	O	O	
+5-10	nach	APPR	nach	_	O	O	
+5-11	drei	CARD	drei	_	O	O	
+5-12	Wochen	NN	Woche	_	O	O	
+5-13	unter	APPR	unter	_	O	O	
+5-14	sehr	ADV	sehr	_	O	O	
+5-15	günstigen	ADJA	günstig	_	O	O	
+5-16	Bedingungen	NN	Bedingung	_	O	O	
+5-17	an	APPR	an	_	O	O	
+5-18	das	ART	die	_	O	O	
+5-19	neu	ADJD	neu	_	O	O	
+5-20	eröffnete	ADJA	eröffnet	_	O	O	
+5-21	Theater	NN	Theater	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-22	in	APPR	in	_	O	O	
+5-23	Altenburg	NN	Altenburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-24	.	$.	.	_	O	O	
+
+#id=6
+#text=Sonst giebt es aus der patria nicht viel Neues zu berichten.
+6-1	Sonst	ADV	sonst	_	O	O	
+6-2	giebt	VVFIN	<unknown>	_	O	O	
+6-3	es	PPER	es	_	O	O	
+6-4	aus	APPR	aus	_	O	O	
+6-5	der	ART	die	_	O	O	
+6-6	patria	NE	<unknown>	_	O	O	
+6-7	nicht	PTKNEG	nicht	_	O	O	
+6-8	viel	PIAT	viele	_	O	O	
+6-9	Neues	NN	Neue	_	O	O	
+6-10	zu	PTKZU	zu	_	O	O	
+6-11	berichten	VVINF	berichten	_	O	O	
+6-12	.	$.	.	_	O	O	
+
+#id=7
+#text=Der Aufenthalt daselbst ist wegen des scheußlichen Wetters gegenwärtig sehr unerfreulich.
+7-1	Der	ART	die	_	O	O	
+7-2	Aufenthalt	NN	Aufenthalt	_	O	O	
+7-3	daselbst	ADV	daselbst	_	O	O	
+7-4	ist	VAFIN	sein	_	O	O	
+7-5	wegen	APPR	wegen	_	O	O	
+7-6	des	ART	die	_	O	O	
+7-7	scheußlichen	ADJA	scheußlich	_	O	O	
+7-8	Wetters	NN	Wetter	_	O	O	
+7-9	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+7-10	sehr	ADV	sehr	_	O	O	
+7-11	unerfreulich	ADJD	unerfreulich	_	O	O	
+7-12	.	$.	.	_	O	O	
+
+#id=8
+#text=Seitdem ich Triest verlassen, habe ich nur an zwei Tagen, am 15. und 16., die Sonne gesehen.
+8-1	Seitdem	KOUS	seitdem	_	O	O	
+8-2	ich	PPER	ich	_	O	O	
+8-3	Triest	NE	Triest	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-4	verlassen	VVPP	verlassen	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	habe	VAFIN	haben	_	O	O	
+8-7	ich	PPER	ich	_	O	O	
+8-8	nur	ADV	nur	_	O	O	
+8-9	an	APPR	an	_	O	O	
+8-10	zwei	CARD	zwei	_	O	O	
+8-11	Tagen	NN	Tag	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	am	APPRART	an	_	O	O	
+8-14	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-15	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+8-16	und	KON	und	_	O	O	
+8-17	16	CARD	16	_	O	O	
+8-18	.	$.	.	_	O	O	
+8-19	,	$,	,	_	O	O	
+8-20	die	ART	die	_	O	O	
+8-21	Sonne	NN	Sonne	_	O	O	
+8-22	gesehen	VVPP	sehen	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=Sonst stets Regen und kalter Wind.
+9-1	Sonst	ADV	sonst	_	O	O	
+9-2	stets	ADV	stets	_	O	O	
+9-3	Regen	NN	Regen	_	O	O	
+9-4	und	KON	und	_	O	O	
+9-5	kalter	ADJA	kalt	_	O	O	
+9-6	Wind	NN	Wind	_	O	O	
+9-7	.	$.	.	_	O	O	
+
+#id=10
+#text=In Berlin hoffe ich in zwei Tagen mit dem Giro der Besuche fertig zu werden.
+10-1	In	APPR	in	_	O	O	
+10-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-3	hoffe	VVFIN	hoffen	_	O	O	
+10-4	ich	PPER	ich	_	O	O	
+10-5	in	APPR	in	_	O	O	
+10-6	zwei	CARD	zwei	_	O	O	
+10-7	Tagen	NN	Tag	_	O	O	
+10-8	mit	APPR	mit	_	O	O	
+10-9	dem	ART	die	_	O	O	
+10-10	Giro	NN	Giro	_	O	O	
+10-11	der	ART	die	_	O	O	
+10-12	Besuche	NN	Besuch	_	O	O	
+10-13	fertig	ADJD	fertig	_	O	O	
+10-14	zu	PTKZU	zu	_	O	O	
+10-15	werden	VAINF	werden	_	O	O	
+10-16	.	$.	.	_	O	O	
+
+#id=11
+#text=Von London schreibe ich Ihnen wiederum und hoffe den Brief mit einem Bullettinoartikel begleiten zu können.
+11-1	Von	APPR	von	_	O	O	
+11-2	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-3	schreibe	VVFIN	schreiben	_	O	O	
+11-4	ich	PPER	ich	_	O	O	
+11-5	Ihnen	PPER	Sie	_	O	O	
+11-6	wiederum	ADV	wiederum	_	O	O	
+11-7	und	KON	und	_	O	O	
+11-8	hoffe	VVFIN	hoffen	_	O	O	
+11-9	den	ART	die	_	O	O	
+11-10	Brief	NN	Brief	_	O	O	
+11-11	mit	APPR	mit	_	O	O	
+11-12	einem	ART	eine	_	O	O	
+11-13	Bullettinoartikel	NN	<unknown>	_	O	O	
+11-14	begleiten	VVINF	begleiten	_	O	O	
+11-15	zu	PTKZU	zu	_	O	O	
+11-16	können	VMINF	können	_	O	O	
+11-17	.	$.	.	_	O	O	
+
+#id=12
+#text=Herzliche Grüße an F~äulein Kopf, KlÜgmanns~d Hinck !
+12-1	Herzliche	ADJA	herzlich	_	O	O	
+12-2	Grüße	NN	Gruß	_	O	O	
+12-3	an	APPR	an	_	O	O	
+12-4	F~äulein	NN	<unknown>	_	O	O	
+12-5	Kopf	NN	Kopf	_	O	O	
+12-6	,	$,	,	_	O	O	
+12-7	KlÜgmanns~d	NN	<unknown>	_	O	O	
+12-8	Hinck	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-9	!	$.	!	_	O	O	
+
+#id=13
+#text=Ihr ergebener Helbig
+13-1	Ihr	PPOSAT	ihr	_	O	O	
+13-2	ergebener	ADJA	ergeben	_	O	O	
+13-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

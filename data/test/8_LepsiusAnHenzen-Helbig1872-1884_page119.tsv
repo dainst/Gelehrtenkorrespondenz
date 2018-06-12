@@ -1,0 +1,269 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=3 Lepsius an Henzen Berlin, 2. Januar 1874 Jedenfalls ist ein Exemplar für die Bibliothek.
+1-1	3	CARD	3	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Jedenfalls	ADV	jedenfalls	_	O	O	
+1-12	ist	VAFIN	sein	_	O	O	
+1-13	ein	ART	eine	_	O	O	
+1-14	Exemplar	NN	Exemplar	_	O	O	
+1-15	für	APPR	für	_	O	O	
+1-16	die	ART	die	_	O	O	
+1-17	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich will die Sache in der nächsten Akademiesitzung noch einmal zur Sprache bringen und wo möglich abschließen.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	will	VMFIN	wollen	_	O	O	
+2-3	die	ART	die	_	O	O	
+2-4	Sache	NN	Sache	_	O	O	
+2-5	in	APPR	in	_	O	O	
+2-6	der	ART	die	_	O	O	
+2-7	nächsten	ADJA	nah	_	O	O	
+2-8	Akademiesitzung	NN	<unknown>	_	O	O	
+2-9	noch	ADV	noch	_	O	O	
+2-10	einmal	ADV	einmal	_	O	O	
+2-11	zur	APPRART	zu	_	O	O	
+2-12	Sprache	NN	Sprache	_	O	O	
+2-13	bringen	VVINF	bringen	_	O	O	
+2-14	und	KON	und	_	O	O	
+2-15	wo	PWAV	wo	_	O	O	
+2-16	möglich	ADJD	möglich	_	O	O	
+2-17	abschließen	VVINF	abschließen	_	O	O	
+2-18	.	$.	.	_	O	O	
+
+#id=3
+#text=Daß Sie die Etrusca Kellermanns Car~n angeboten, dagegen wird niemand etwas einzuwenden haben.
+3-1	Daß	KOUS	dass	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	die	ART	die	_	O	O	
+3-4	Etrusca	NE	<unknown>	_	O	O	
+3-5	Kellermanns	NE	Kellermann	_	O	O	
+3-6	Car~n	NE	<unknown>	_	O	O	
+3-7	angeboten	VVPP	anbieten	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	dagegen	PAV	dagegen	_	O	O	
+3-10	wird	VAFIN	werden	_	O	O	
+3-11	niemand	PIS	niemand	_	O	O	
+3-12	etwas	ADV	etwas	_	O	O	
+3-13	einzuwenden	VVIZU	einwenden	_	O	O	
+3-14	haben	VAINF	haben	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Wenn dieser nun wirklich etwas damit anfängt.
+4-1	Wenn	KOUS	wenn	_	O	O	
+4-2	dieser	PDS	diese	_	O	O	
+4-3	nun	ADV	nun	_	O	O	
+4-4	wirklich	ADJD	wirklich	_	O	O	
+4-5	etwas	PIS	etwas	_	O	O	
+4-6	damit	PAV	damit	_	O	O	
+4-7	anfängt	VVFIN	anfangen	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=Mir scheint es sehr wünschenswerth, daß er ein C. I.
+5-1	Mir	PPER	ich	_	O	O	
+5-2	scheint	VVFIN	scheinen	_	O	O	
+5-3	es	PPER	es	_	O	O	
+5-4	sehr	ADV	sehr	_	O	O	
+5-5	wünschenswerth	NE	<unknown>	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	daß	KOUS	dass	_	O	O	
+5-8	er	PPER	er	_	O	O	
+5-9	ein	ART	eine	_	O	O	
+5-10	C.	NE	C.	_	O	O	
+5-11	I.	NE	I.	_	O	O	
+
+#id=6
+#text=G. wirklich übernimmt.
+6-1	G.	NE	G.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	wirklich	ADJD	wirklich	_	O	O	
+6-3	übernimmt	VVFIN	übernehmen	_	O	O	
+6-4	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich habe öferts mit ihm darüber gesprochen; er zaudert aber sehr mit dem Entschlusse.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	habe	VAFIN	haben	_	O	O	
+7-3	öferts	NE	<unknown>	_	O	O	
+7-4	mit	APPR	mit	_	O	O	
+7-5	ihm	PPER	er	_	O	O	
+7-6	darüber	PAV	darüber	_	O	O	
+7-7	gesprochen	VVPP	sprechen	_	O	O	
+7-8	;	$.	;	_	O	O	
+7-9	er	PPER	er	_	O	O	
+7-10	zaudert	VVFIN	zaudern	_	O	O	
+7-11	aber	ADV	aber	_	O	O	
+7-12	sehr	ADV	sehr	_	O	O	
+7-13	mit	APPR	mit	_	O	O	
+7-14	dem	ART	die	_	O	O	
+7-15	Entschlusse	NN	<unknown>	_	O	O	
+7-16	.	$.	.	_	O	O	
+
+#id=8
+#text=Auch hat er ja sein Entzifferungsbuch noch immer nicht flott gemacht.
+8-1	Auch	ADV	auch	_	O	O	
+8-2	hat	VAFIN	haben	_	O	O	
+8-3	er	PPER	er	_	O	O	
+8-4	ja	ADV	ja	_	O	O	
+8-5	sein	PPOSAT	sein	_	O	O	
+8-6	Entzifferungsbuch	NN	<unknown>	_	O	O	
+8-7	noch	ADV	noch	_	O	O	
+8-8	immer	ADV	immer	_	O	O	
+8-9	nicht	PTKNEG	nicht	_	O	O	
+8-10	flott	ADJD	flott	_	O	O	
+8-11	gemacht	VVPP	machen	_	O	O	
+8-12	.	$.	.	_	O	O	
+
+#id=9
+#text=Ihr Angebot reizt ihn vielleicht von neuem.
+9-1	Ihr	PPOSAT	ihr	_	O	O	
+9-2	Angebot	NN	Angebot	_	O	O	
+9-3	reizt	VVFIN	reizen	_	O	O	
+9-4	ihn	PPER	er	_	O	O	
+9-5	vielleicht	ADV	vielleicht	_	O	O	
+9-6	von	APPR	von	_	O	O	
+9-7	neuem	ADJA	neu	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Uber Klügmann köhnen wir erst in der nächsten Konferenz sprechen.
+10-1	Uber	ADJA	<unknown>	_	O	O	
+10-2	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-3	köhnen	VVFIN	<unknown>	_	O	O	
+10-4	wir	PPER	wir	_	O	O	
+10-5	erst	ADV	erst	_	O	O	
+10-6	in	APPR	in	_	O	O	
+10-7	der	ART	die	_	O	O	
+10-8	nächsten	ADJA	nah	_	O	O	
+10-9	Konferenz	NN	Konferenz	_	O	O	
+10-10	sprechen	VVINF	sprechen	_	O	O	
+10-11	.	$.	.	_	O	O	
+
+#id=11
+#text=Lüders hat uns neulich einen unverzeihlichen Streich beim Museum gespielt.
+11-1	Lüders	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	hat	VAFIN	haben	_	O	O	
+11-3	uns	PPER	wir	_	O	O	
+11-4	neulich	ADV	neulich	_	O	O	
+11-5	einen	ART	eine	_	O	O	
+11-6	unverzeihlichen	ADJA	unverzeihlich	_	O	O	
+11-7	Streich	NN	Streich	_	O	O	
+11-8	beim	APPRART	bei	_	O	O	
+11-9	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+11-10	gespielt	VVPP	spielen	_	O	O	
+11-11	.	$.	.	_	O	O	
+
+#id=12
+#text=Vier wunderschöne und merkwürdig frisch erhaltene vollständige Lekythen von Tanagra, nebst einem kleinen Hausaltar mit 3 Götterfiguren frei und meisterhaft gearbeitet, ein unicum hatte er von unserm Institutsgelde gekauft sehr wohlfeil für 1000 Fr., schreibt uns das, und fügt zu mit dem nächsten Schiffe würden die Sachen abgehen.
+12-1	Vier	CARD	vier	_	O	O	
+12-2	wunderschöne	ADJA	wunderschön	_	O	O	
+12-3	und	KON	und	_	O	O	
+12-4	merkwürdig	ADJD	merkwürdig	_	O	O	
+12-5	frisch	ADJD	frisch	_	O	O	
+12-6	erhaltene	ADJA	erhalten	_	O	O	
+12-7	vollständige	ADJA	vollständig	_	O	O	
+12-8	Lekythen	NN	<unknown>	_	O	O	
+12-9	von	APPR	von	_	O	O	
+12-10	Tanagra	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-11	,	$,	,	_	O	O	
+12-12	nebst	APPR	nebst	_	O	O	
+12-13	einem	ART	eine	_	O	O	
+12-14	kleinen	ADJA	klein	_	O	O	
+12-15	Hausaltar	NN	Hausaltar	_	O	O	
+12-16	mit	APPR	mit	_	O	O	
+12-17	3	CARD	3	_	O	O	
+12-18	Götterfiguren	NN	<unknown>	_	O	O	
+12-19	frei	ADJD	frei	_	O	O	
+12-20	und	KON	und	_	O	O	
+12-21	meisterhaft	ADJD	meisterhaft	_	O	O	
+12-22	gearbeitet	VVPP	arbeiten	_	O	O	
+12-23	,	$,	,	_	O	O	
+12-24	ein	ART	eine	_	O	O	
+12-25	unicum	NN	<unknown>	_	O	O	
+12-26	hatte	VAFIN	haben	_	O	O	
+12-27	er	PPER	er	_	O	O	
+12-28	von	APPR	von	_	O	O	
+12-29	unserm	PPOSAT	unser	_	O	O	
+12-30	Institutsgelde	NN	<unknown>	_	O	O	
+12-31	gekauft	VVPP	kaufen	_	O	O	
+12-32	sehr	ADV	sehr	_	O	O	
+12-33	wohlfeil	ADJD	wohlfeil	_	O	O	
+12-34	für	APPR	für	_	O	O	
+12-35	1000	CARD	1000	_	O	O	
+12-36	Fr.	NN	Freitag	_	O	O	
+12-37	,	$,	,	_	O	O	
+12-38	schreibt	VVFIN	schreiben	_	O	O	
+12-39	uns	PPER	wir	_	O	O	
+12-40	das	PDS	die	_	O	O	
+12-41	,	$,	,	_	O	O	
+12-42	und	KON	und	_	O	O	
+12-43	fügt	VVFIN	fügen	_	O	O	
+12-44	zu	PTKA	zu	_	O	O	
+12-45	mit	APPR	mit	_	O	O	
+12-46	dem	ART	die	_	O	O	
+12-47	nächsten	ADJA	nah	_	O	O	
+12-48	Schiffe	NN	Schiff	_	O	O	
+12-49	würden	VAFIN	werden	_	O	O	
+12-50	die	ART	die	_	O	O	
+12-51	Sachen	NN	Sache	_	O	O	
+12-52	abgehen	VVINF	abgehen	_	O	O	
+12-53	.	$.	.	_	O	O	
+
+#id=13
+#text=Sie kommen nicht.
+13-1	Sie	PPER	Sie	_	O	O	
+13-2	kommen	VVFIN	kommen	_	O	O	
+13-3	nicht	PTKNEG	nicht	_	O	O	
+13-4	.	$.	.	_	O	O	
+
+#id=14
+#text=Statt dessen erhält sie Pourtales durch Berg 200 Fr.
+14-1	Statt	KOUI	statt	_	O	O	
+14-2	dessen	PDS	die	_	O	O	
+14-3	erhält	VVFIN	erhalten	_	O	O	
+14-4	sie	PPER	sie	_	O	O	
+14-5	Pourtales	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-6	durch	APPR	durch	_	O	O	
+14-7	Berg	NE	Berg	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-8	200	CARD	200	_	O	O	
+14-9	Fr.	NN	Freitag	_	O	O	
+
+#id=15
+#text=theurer von Lüders.
+15-1	theurer	ADJD	<unknown>	_	O	O	
+15-2	von	APPR	von	_	O	O	
+15-3	Lüders	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-4	.	$.	.	_	O	O	
+
+#id=16
+#text=Er muß seinen eigenen Brief, den ich gelesen, gan~ vergessen haben.
+16-1	Er	PPER	er	_	O	O	
+16-2	muß	VMFIN	müssen	_	O	O	
+16-3	seinen	PPOSAT	sein	_	O	O	
+16-4	eigenen	ADJA	eigen	_	O	O	
+16-5	Brief	NN	Brief	_	O	O	
+16-6	,	$,	,	_	O	O	
+16-7	den	PRELS	die	_	O	O	
+16-8	ich	PPER	ich	_	O	O	
+16-9	gelesen	VVPP	lesen	_	O	O	
+16-10	,	$,	,	_	O	O	
+16-11	gan~	ADJD	<unknown>	_	O	O	
+16-12	vergessen	VVPP	vergessen	_	O	O	
+16-13	haben	VAFIN	haben	_	O	O	
+16-14	.	$.	.	_	O	O	
+
+#id=17
+#text=Die
+17-1	Die	ART	die	_	O	O	
+

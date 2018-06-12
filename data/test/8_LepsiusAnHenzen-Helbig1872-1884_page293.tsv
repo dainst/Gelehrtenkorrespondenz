@@ -1,0 +1,95 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=610 Verehrter Freund Lepsius an Henzen Berlin, 22. Oktober 1876 g. 28/X 76 Berlin, den 22. Okt.
+1-1	610	CARD	@card@	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	28/X	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	76	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-17	,	$,	,	_	O	O	
+1-18	den	ART	die	_	O	O	
+1-19	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Okt.	NN	Okt.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1876 Mommsen macht mich darauf aufmerksam, daß seine Mittheilung über Ihren Vorschlag in Bezug auf das Museum nur eine vertrauliche Privatäußerung gewesen sei.
+2-1	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-3	macht	VVFIN	machen	_	O	O	
+2-4	mich	PRF	ich	_	O	O	
+2-5	darauf	PAV	darauf	_	O	O	
+2-6	aufmerksam	ADJD	aufmerksam	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	daß	KOUS	dass	_	O	O	
+2-9	seine	PPOSAT	sein	_	O	O	
+2-10	Mittheilung	NN	<unknown>	_	O	O	
+2-11	über	APPR	über	_	O	O	
+2-12	Ihren	PPOSAT	ihr	_	O	O	
+2-13	Vorschlag	NN	Vorschlag	_	O	O	
+2-14	in	APPR	in	_	O	O	
+2-15	Bezug	NN	Bezug	_	O	O	
+2-16	auf	APPR	auf	_	O	O	
+2-17	das	ART	die	_	O	O	
+2-18	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-19	nur	ADV	nur	_	O	O	
+2-20	eine	ART	eine	_	O	O	
+2-21	vertrauliche	ADJA	vertraulich	_	O	O	
+2-22	Privatäußerung	NN	Privatäußerung	_	O	O	
+2-23	gewesen	VAPP	sein	_	O	O	
+2-24	sei	VAFIN	sein	_	O	O	
+2-25	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich nehme daher den darauf bezüglichen Passus meines neulichen Briefes wieder zurück, wie auch im Protokoll nichts darüber steht.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	nehme	VVFIN	nehmen	_	O	O	
+3-3	daher	PAV	daher	_	O	O	
+3-4	den	ART	die	_	O	O	
+3-5	darauf	PAV	darauf	_	O	O	
+3-6	bezüglichen	ADJA	bezüglich	_	O	O	
+3-7	Passus	NN	Passus	_	O	O	
+3-8	meines	PPOSAT	mein	_	O	O	
+3-9	neulichen	ADJA	<unknown>	_	O	O	
+3-10	Briefes	NN	Brief	_	O	O	
+3-11	wieder	ADV	wieder	_	O	O	
+3-12	zurück	PTKVZ	zurück	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	wie	KOUS	wie	_	O	O	
+3-15	auch	ADV	auch	_	O	O	
+3-16	im	APPRART	in	_	O	O	
+3-17	Protokoll	NN	Protokoll	_	O	O	
+3-18	nichts	PIS	nichts	_	O	O	
+3-19	darüber	PAV	darüber	_	O	O	
+3-20	steht	VVFIN	stehen	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich lege diese Zeilen an Curtius bem.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	lege	VVFIN	legen	_	O	O	
+4-3	diese	PDAT	dies	_	O	O	
+4-4	Zeilen	NN	Zeile	_	O	O	
+4-5	an	APPR	an	_	O	O	
+4-6	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-7	bem	NN	<unknown>	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihr ergebenster R L.
+5-1	Ihr	PPOSAT	ihr	_	O	O	
+5-2	ergebenster	ADJA	<unknown>	_	O	O	
+5-3	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+5-4	L.	NE	L.	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

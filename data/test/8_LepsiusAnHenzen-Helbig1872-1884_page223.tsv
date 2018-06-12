@@ -1,0 +1,192 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=264 Lepsius an Henzen Berlin, 26. Mai 1875 NO.
+1-1	264	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	NO	NE	NO	_	O	O	
+1-12	.	$.	.	_	O	O	
+
+#id=2
+#text=96 g. 30/5 75 r.
+2-1	96	CARD	96	_	O	O	
+2-2	g.	ADJA	<unknown>	_	O	O	
+2-3	30/5	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-4	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-5	r.	ADJA	<unknown>	_	O	O	
+
+#id=3
+#text=31/5 Berlin d. 26. Mai 1875 Verehrter Freund Ich habe vor Absendung der Diplome ausdrücklich in das Auswärtige Amt geschickt um nach einem Kurrier zu fragen, erhielt aber zur Antwort, es sei eben einer abgegangen und es sei ungewiß, wann der nächste abgehen werde.
+3-1	31/5	CARD	@card@	_	O	O	
+3-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-3	d.	ART	d.	_	O	O	
+3-4	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-6	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-7	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	Verehrter	ADJA	verehrt	_	O	O	
+3-9	Freund	NN	Freund	_	O	O	
+3-10	Ich	PPER	ich	_	O	O	
+3-11	habe	VAFIN	haben	_	O	O	
+3-12	vor	APPR	vor	_	O	O	
+3-13	Absendung	NN	Absendung	_	O	O	
+3-14	der	ART	die	_	O	O	
+3-15	Diplome	NN	Diplom	_	O	O	
+3-16	ausdrücklich	ADJD	ausdrücklich	_	O	O	
+3-17	in	APPR	in	_	O	O	
+3-18	das	ART	die	_	O	O	
+3-19	Auswärtige	ADJA	auswärtig	_	O	O	
+3-20	Amt	NN	Amt	_	O	O	
+3-21	geschickt	ADJD	geschickt	_	O	O	
+3-22	um	APPR	um	_	O	O	
+3-23	nach	APPR	nach	_	O	O	
+3-24	einem	ART	eine	_	O	O	
+3-25	Kurrier	NN	<unknown>	_	O	O	
+3-26	zu	PTKZU	zu	_	O	O	
+3-27	fragen	VVINF	fragen	_	O	O	
+3-28	,	$,	,	_	O	O	
+3-29	erhielt	VVFIN	erhalten	_	O	O	
+3-30	aber	ADV	aber	_	O	O	
+3-31	zur	APPRART	zu	_	O	O	
+3-32	Antwort	NN	Antwort	_	O	O	
+3-33	,	$,	,	_	O	O	
+3-34	es	PPER	es	_	O	O	
+3-35	sei	VAFIN	sein	_	O	O	
+3-36	eben	ADV	eben	_	O	O	
+3-37	einer	PIS	eine	_	O	O	
+3-38	abgegangen	VVPP	abgehen	_	O	O	
+3-39	und	KON	und	_	O	O	
+3-40	es	PPER	es	_	O	O	
+3-41	sei	VAFIN	sein	_	O	O	
+3-42	ungewiß	ADJD	ungewiss	_	O	O	
+3-43	,	$,	,	_	O	O	
+3-44	wann	PWAV	wann	_	O	O	
+3-45	der	ART	die	_	O	O	
+3-46	nächste	ADJA	nah	_	O	O	
+3-47	abgehen	VVINF	abgehen	_	O	O	
+3-48	werde	VAFIN	werden	_	O	O	
+3-49	.	$.	.	_	O	O	
+
+#id=4
+#text=Nicht in der Ordnung war es jedenfalls, daß Sie die Diplome unfrankirt erhalten haben.
+4-1	Nicht	PTKNEG	nicht	_	O	O	
+4-2	in	APPR	in	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	Ordnung	NN	Ordnung	_	O	O	
+4-5	war	VAFIN	sein	_	O	O	
+4-6	es	PPER	es	_	O	O	
+4-7	jedenfalls	ADV	jedenfalls	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	daß	KOUS	dass	_	O	O	
+4-10	Sie	PPER	Sie	_	O	O	
+4-11	die	ART	die	_	O	O	
+4-12	Diplome	NN	Diplom	_	O	O	
+4-13	unfrankirt	ADJD	<unknown>	_	O	O	
+4-14	erhalten	VVPP	erhalten	_	O	O	
+4-15	haben	VAFIN	haben	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich werde nachfragen wie das zusammenhängt, da mir in der That kein Porto berechnet worden ist von dem Bibliotheksbeamten, der es besorgt hat.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	werde	VAFIN	werden	_	O	O	
+5-3	nachfragen	VVINF	nachfragen	_	O	O	
+5-4	wie	KOKOM	wie	_	O	O	
+5-5	das	PDS	die	_	O	O	
+5-6	zusammenhängt	VVFIN	zusammenhängen	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	da	KOUS	da	_	O	O	
+5-9	mir	PPER	ich	_	O	O	
+5-10	in	APPR	in	_	O	O	
+5-11	der	ART	die	_	O	O	
+5-12	That	NE	<unknown>	_	O	O	
+5-13	kein	PIAT	keine	_	O	O	
+5-14	Porto	NN	Porto	_	O	O	
+5-15	berechnet	VVPP	berechnen	_	O	O	
+5-16	worden	VAPP	werden	_	O	O	
+5-17	ist	VAFIN	sein	_	O	O	
+5-18	von	APPR	von	_	O	O	
+5-19	dem	ART	die	_	O	O	
+5-20	Bibliotheksbeamten	NN	<unknown>	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	der	PRELS	die	_	O	O	
+5-23	es	PPER	es	_	O	O	
+5-24	besorgt	ADJD	besorgt	_	O	O	
+5-25	hat	VAFIN	haben	_	O	O	
+5-26	.	$.	.	_	O	O	
+
+#id=6
+#text=Von neuen Mitgliedern werden Ihnen noch unbekannt sein : Membro ordinario Prof.
+6-1	Von	APPR	von	_	O	O	
+6-2	neuen	ADJA	neu	_	O	O	
+6-3	Mitgliedern	NN	Mitglied	_	O	O	
+6-4	werden	VAFIN	werden	_	O	O	
+6-5	Ihnen	PPER	Sie	_	O	O	
+6-6	noch	ADV	noch	_	O	O	
+6-7	unbekannt	ADJD	unbekannt	_	O	O	
+6-8	sein	VAINF	sein	_	O	O	
+6-9	:	$.	:	_	O	O	
+6-10	Membro	NE	<unknown>	_	O	O	
+6-11	ordinario	NN	<unknown>	_	O	O	
+6-12	Prof.	NN	Prof.	_	O	O	
+
+#id=7
+#text=Re • Förster, Breslau , Membro corrispondente Pr.
+7-1	Re	NN	Re	_	O	O	
+7-2	•	ADJA	<unknown>	_	O	O	
+7-3	Förster	NN	Förster	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	Breslau	NE	Breslau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-6	,	$,	,	_	O	O	
+7-7	Membro	NN	<unknown>	_	O	O	
+7-8	corrispondente	NN	<unknown>	_	O	O	
+7-9	Pr.	NE	<unknown>	_	O	O	
+
+#id=8
+#text=Pietro Matkovic, Agram Jos.
+8-1	Pietro	NE	Pietro	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+8-2	Matkovic	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+8-3	,	$,	,	_	O	O	
+8-4	Agram	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-5	Jos.	NE	Jos.	_	O	O	
+
+#id=9
+#text=Hampel, Custos des Museums in Perth Pr.
+9-1	Hampel	VVIMP	hampeln	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	,	$,	,	_	O	O	
+9-3	Custos	NE	<unknown>	_	O	O	
+9-4	des	ART	die	_	O	O	
+9-5	Museums	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-6	in	APPR	in	_	O	O	
+9-7	Perth	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-8	Pr.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+
+#id=10
+#text=Heinr.
+10-1	Heinr.	NE	Heinr.	_	O	O	
+
+#id=11
+#text=Gelzer, Heidelberg Pr.
+11-1	Gelzer	NN	<unknown>	_	O	O	
+11-2	,	$,	,	_	O	O	
+11-3	Heidelberg	NE	Heidelberg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-4	Pr.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+
+#id=12
+#text=Arn.
+12-1	Arn	NE	Arn	_	O	O	
+12-2	.	$.	.	_	O	O	
+
+#id=13
+#text=Schäfer, Bonn
+13-1	Schäfer	NE	Schäfer	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	,	$,	,	_	O	O	
+13-3	Bonn	NE	Bonn	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+

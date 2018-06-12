@@ -1,0 +1,132 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=386 31/X/53 2 Henzen an Gerhard rier, Mit einem wahrschl.
+1-1	386	CARD	@card@	_	O	O	
+1-2	31/X/53	CARD	<unknown>	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	rier	VVFIN	<unknown>	_	O	O	
+1-8	,	$,	,	_	O	O	
+1-9	Mit	APPR	mit	_	O	O	
+1-10	einem	ART	eine	_	O	O	
+1-11	wahrschl	ADJA	<unknown>	_	O	O	
+1-12	.	$.	.	_	O	O	
+
+#id=2
+#text=morgen abgehenden Preuße CouVon Krafft, erhalten Sie ein Exemplar Monumenti ( freilicb nur Probeabdrucke ) u. Anneli 1853.
+2-1	morgen	ADV	morgen	_	O	O	
+2-2	abgehenden	ADJA	abgehend	_	O	O	
+2-3	Preuße	NN	Preuße	_	O	O	
+2-4	CouVon	NN	<unknown>	_	O	O	
+2-5	Krafft	NE	Krafft	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	erhalten	VVFIN	erhalten	_	O	O	
+2-8	Sie	PPER	Sie	_	O	O	
+2-9	ein	ART	eine	_	O	O	
+2-10	Exemplar	NN	Exemplar	_	O	O	
+2-11	Monumenti	NN	<unknown>	_	O	O	
+2-12	(	$(	(	_	O	O	
+2-13	freilicb	VVFIN	<unknown>	_	O	O	
+2-14	nur	ADV	nur	_	O	O	
+2-15	Probeabdrucke	NN	<unknown>	_	O	O	
+2-16	)	$(	)	_	O	O	
+2-17	u.	APPR	um	_	O	O	
+2-18	Anneli	NE	Anneli	_	O	O	
+2-19	1853	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Sie sind gebeten, die Tafeln neu cylindriren zu lassen u. mit dem Bande bei Jo.
+3-1	Sie	PPER	Sie	_	O	O	
+3-2	sind	VAFIN	sein	_	O	O	
+3-3	gebeten	VVPP	bitten	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	die	ART	die	_	O	O	
+3-6	Tafeln	NN	Tafel	_	O	O	
+3-7	neu	ADJD	neu	_	O	O	
+3-8	cylindriren	NN	<unknown>	_	O	O	
+3-9	zu	PTKZU	zu	_	O	O	
+3-10	lassen	VVINF	lassen	_	O	O	
+3-11	u.	KON	und	_	O	O	
+3-12	mit	APPR	mit	_	O	O	
+3-13	dem	ART	die	_	O	O	
+3-14	Bande	NN	Bande	_	O	O	
+3-15	bei	APPR	bei	_	O	O	
+3-16	Jo	NE	Jo	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Schulze zu pr~sentiren.
+4-1	Schulze	NE	Schulze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	zu	APPR	zu	_	O	O	
+4-3	pr~sentiren	NN	<unknown>	_	O	O	
+4-4	.	$.	.	_	O	O	
+
+#id=5
+#text=Gleichzeitig an Sie, Jo.
+5-1	Gleichzeitig	ADJD	gleichzeitig	_	O	O	
+5-2	an	APPR	an	_	O	O	
+5-3	Sie	PPER	Sie	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	Jo	NE	Jo	_	O	O	
+5-6	.	$.	.	_	O	O	
+
+#id=6
+#text=Schulze u. Bunsen geht auch Braun's Rapport ab, so dß.
+6-1	Schulze	NE	Schulze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	u.	APPR	um	_	O	O	
+6-3	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	geht	VVFIN	gehen	_	O	O	
+6-5	auch	ADV	auch	_	O	O	
+6-6	Braun's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-7	Rapport	NN	Rapport	_	O	O	
+6-8	ab	PTKVZ	ab	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	so	ADV	so	_	O	O	
+6-11	dß	ADJD	<unknown>	_	O	O	
+6-12	.	$.	.	_	O	O	
+
+#id=7
+#text=endlich Alles in's Geleise kommt.
+7-1	endlich	ADV	endlich	_	O	O	
+7-2	Alles	PIS	alle	_	O	O	
+7-3	in's	VVFIN	<unknown>	_	O	O	
+7-4	Geleise	NN	Geleise	_	O	O	
+7-5	kommt	VVFIN	kommen	_	O	O	
+7-6	.	$.	.	_	O	O	
+
+#id=8
+#text=- Bei den neuliehen Institutscandidaten vergaB ich conte Giovanni da SChio, in Vicenza.
+8-1	-	$(	-	_	O	O	
+8-2	Bei	APPR	bei	_	O	O	
+8-3	den	ART	die	_	O	O	
+8-4	neuliehen	ADJA	<unknown>	_	O	O	
+8-5	Institutscandidaten	NN	<unknown>	_	O	O	
+8-6	vergaB	VVFIN	vergeben	_	O	O	
+8-7	ich	PPER	ich	_	O	O	
+8-8	conte	ADJA	<unknown>	_	O	O	
+8-9	Giovanni	NE	Giovanni	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-10	da	ADV	da	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-11	SChio	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-12	,	$,	,	_	O	O	
+8-13	in	APPR	in	_	O	O	
+8-14	Vicenza	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-15	.	$.	.	_	O	O	
+
+#id=9
+#text=Herzliche Grüße Ihr ~NHz.
+9-1	Herzliche	ADJA	herzlich	_	O	O	
+9-2	Grüße	NN	Gruß	_	O	O	
+9-3	Ihr	PPOSAT	ihr	_	O	O	
+9-4	~NHz	NN	<unknown>	_	O	O	
+9-5	.	$.	.	_	O	O	
+
+#id=10
+#text=Rom 31/X 53.
+10-1	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+10-2	31/X	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+10-3	53	CARD	53	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+10-4	.	$.	.	_	O	O	
+

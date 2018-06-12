@@ -1,0 +1,241 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=3 Gerhard an Braun Berlin, 5. Juni 1846 Für Ihre Abrechnung besten Dank; Ihr Guthaben wird hoffentlich durch neue Einkassirungen (Promis, Avellino, Graberg, Canina-Borghese und Andre) bald gedeckt.
+1-1	3	CARD	3	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Für	APPR	für	_	O	O	
+1-12	Ihre	PPOSAT	ihr	_	O	O	
+1-13	Abrechnung	NN	Abrechnung	_	O	O	
+1-14	besten	ADJA	gut	_	O	O	
+1-15	Dank	NN	Dank	_	O	O	
+1-16	;	$.	;	_	O	O	
+1-17	Ihr	PPOSAT	ihr	_	O	O	
+1-18	Guthaben	NN	Guthaben	_	O	O	
+1-19	wird	VAFIN	werden	_	O	O	
+1-20	hoffentlich	ADV	hoffentlich	_	O	O	
+1-21	durch	APPR	durch	_	O	O	
+1-22	neue	ADJA	neu	_	O	O	
+1-23	Einkassirungen	NN	<unknown>	_	O	O	
+1-24	(	$(	(	_	O	O	
+1-25	Promis	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-26	,	$,	,	_	O	O	
+1-27	Avellino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-28	,	$,	,	_	O	O	
+1-29	Graberg	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-30	,	$,	,	_	O	O	
+1-31	Canina-Borghese	NN	<unknown>	_	O	O	
+1-32	und	KON	und	_	O	O	
+1-33	Andre	NE	Andre	_	O	O	
+1-34	)	$(	)	_	O	O	
+1-35	bald	ADV	bald	_	O	O	
+1-36	gedeckt	VVPP	decken	_	O	O	
+1-37	.	$.	.	_	O	O	
+
+#id=2
+#text=Zehn Scudi sandte ich Ihnen in vier Banknoten neulich.
+2-1	Zehn	CARD	zehn	_	O	O	
+2-2	Scudi	NN	<unknown>	_	O	O	
+2-3	sandte	VVFIN	senden	_	O	O	
+2-4	ich	PPER	ich	_	O	O	
+2-5	Ihnen	PPER	Sie	_	O	O	
+2-6	in	APPR	in	_	O	O	
+2-7	vier	CARD	vier	_	O	O	
+2-8	Banknoten	NN	Banknote	_	O	O	
+2-9	neulich	ADV	neulich	_	O	O	
+2-10	.	$.	.	_	O	O	
+
+#id=3
+#text=Einiges Manuscript von Panofka für Annali oder Bullettino folgt bei.
+3-1	Einiges	PIAT	einige	_	O	O	
+3-2	Manuscript	NN	<unknown>	_	O	O	
+3-3	von	APPR	von	_	O	O	
+3-4	Panofka	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	für	APPR	für	_	O	O	
+3-6	Annali	NE	<unknown>	_	O	O	
+3-7	oder	KON	oder	_	O	O	
+3-8	Bullettino	NE	<unknown>	_	O	O	
+3-9	folgt	VVFIN	folgen	_	O	O	
+3-10	bei	PTKVZ	bei	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=Temite ist ein Maulmacher größer als Zahn, zudringlicher als irgend ein Jud, und unter den Künstlern ein Schwachmatikus, obwohl seine pompejanischen Kopien an denen er sich nicht minder als Zahn helfen ließ zum Theil recht dankenswerth sind.
+4-1	Temite	NE	<unknown>	_	O	O	
+4-2	ist	VAFIN	sein	_	O	O	
+4-3	ein	ART	eine	_	O	O	
+4-4	Maulmacher	NN	<unknown>	_	O	O	
+4-5	größer	ADJD	groß	_	O	O	
+4-6	als	KOKOM	als	_	O	O	
+4-7	Zahn	NN	Zahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-8	,	$,	,	_	O	O	
+4-9	zudringlicher	ADJD	zudringlich	_	O	O	
+4-10	als	KOKOM	als	_	O	O	
+4-11	irgend	ADV	irgend	_	O	O	
+4-12	ein	ART	eine	_	O	O	
+4-13	Jud	NE	<unknown>	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	und	KON	und	_	O	O	
+4-16	unter	APPR	unter	_	O	O	
+4-17	den	ART	die	_	O	O	
+4-18	Künstlern	NN	Künstler	_	O	O	
+4-19	ein	ART	eine	_	O	O	
+4-20	Schwachmatikus	NN	<unknown>	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	obwohl	KOUS	obwohl	_	O	O	
+4-23	seine	PPOSAT	sein	_	O	O	
+4-24	pompejanischen	ADJA	<unknown>	_	O	O	
+4-25	Kopien	NN	Kopie	_	O	O	
+4-26	an	APZR	an	_	O	O	
+4-27	denen	PRELS	die	_	O	O	
+4-28	er	PPER	er	_	O	O	
+4-29	sich	PRF	sich	_	O	O	
+4-30	nicht	PTKNEG	nicht	_	O	O	
+4-31	minder	ADJD	minder	_	O	O	
+4-32	als	KOKOM	als	_	O	O	
+4-33	Zahn	NN	Zahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-34	helfen	VVINF	helfen	_	O	O	
+4-35	ließ	VVFIN	lassen	_	O	O	
+4-36	zum	APPRART	zu	_	O	O	
+4-37	Theil	NN	<unknown>	_	O	O	
+4-38	recht	ADJD	recht	_	O	O	
+4-39	dankenswerth	VVPP	<unknown>	_	O	O	
+4-40	sind	VAFIN	sein	_	O	O	
+4-41	.	$.	.	_	O	O	
+
+#id=5
+#text=Wie Müller und Welcker von ihm sich verlocken ließen, begreift Niemand; daß Sie ihm einen Text zu Melozzo da Forli versprochen haben, erzählte er mir neulich als er auf mein Zimmer mich überrumpelte.
+5-1	Wie	KOUS	wie	_	O	O	
+5-2	Müller	NE	Müller	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	und	KON	und	_	O	O	
+5-4	Welcker	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	von	APPR	von	_	O	O	
+5-6	ihm	PPER	er	_	O	O	
+5-7	sich	PRF	sich	_	O	O	
+5-8	verlocken	VVINF	verlocken	_	O	O	
+5-9	ließen	VVFIN	lassen	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	begreift	VVFIN	begreifen	_	O	O	
+5-12	Niemand	PIS	niemand	_	O	O	
+5-13	;	$.	;	_	O	O	
+5-14	daß	KOUS	dass	_	O	O	
+5-15	Sie	PPER	Sie	_	O	O	
+5-16	ihm	PPER	er	_	O	O	
+5-17	einen	ART	eine	_	O	O	
+5-18	Text	NN	Text	_	O	O	
+5-19	zu	APPR	zu	_	O	O	
+5-20	Melozzo	NN	<unknown>	_	O	O	
+5-21	da	ADV	da	_	O	O	
+5-22	Forli	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-23	versprochen	VVPP	versprechen	_	O	O	
+5-24	haben	VAFIN	haben	_	O	O	
+5-25	,	$,	,	_	O	O	
+5-26	erzählte	VVFIN	erzählen	_	O	O	
+5-27	er	PPER	er	_	O	O	
+5-28	mir	PRF	ich	_	O	O	
+5-29	neulich	ADV	neulich	_	O	O	
+5-30	als	KOUS	als	_	O	O	
+5-31	er	PPER	er	_	O	O	
+5-32	auf	APPR	auf	_	O	O	
+5-33	mein	PPOSAT	mein	_	O	O	
+5-34	Zimmer	NN	Zimmer	_	O	O	
+5-35	mich	PRF	ich	_	O	O	
+5-36	überrumpelte	VVFIN	überrumpeln	_	O	O	
+5-37	.	$.	.	_	O	O	
+
+#id=6
+#text=An Henzen viel Grüße; die Ihnen abgegebnen Scudi 44. 60 specificirt er mir wol gelegentlich.
+6-1	An	APPR	an	_	O	O	
+6-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	viel	PIAT	viele	_	O	O	
+6-4	Grüße	NN	Gruß	_	O	O	
+6-5	;	$.	;	_	O	O	
+6-6	die	PRELS	die	_	O	O	
+6-7	Ihnen	PPER	Sie	_	O	O	
+6-8	abgegebnen	ADJA	<unknown>	_	O	O	
+6-9	Scudi	NN	<unknown>	_	O	O	
+6-10	44	CARD	44	_	O	O	
+6-11	.	$.	.	_	O	O	
+6-12	60	CARD	60	_	O	O	
+6-13	specificirt	NN	<unknown>	_	O	O	
+6-14	er	PPER	er	_	O	O	
+6-15	mir	PRF	ich	_	O	O	
+6-16	wol	ADJD	<unknown>	_	O	O	
+6-17	gelegentlich	ADJD	gelegentlich	_	O	O	
+6-18	.	$.	.	_	O	O	
+
+#id=7
+#text=Über Abgang meiner Kiste oder Kisten schreiben Sie mir nichts Specielles.
+7-1	Über	APPR	über	_	O	O	
+7-2	Abgang	NN	Abgang	_	O	O	
+7-3	meiner	PPOSAT	mein	_	O	O	
+7-4	Kiste	NN	Kiste	_	O	O	
+7-5	oder	KON	oder	_	O	O	
+7-6	Kisten	NN	Kiste	_	O	O	
+7-7	schreiben	VVFIN	schreiben	_	O	O	
+7-8	Sie	PPER	Sie	_	O	O	
+7-9	mir	PRF	ich	_	O	O	
+7-10	nichts	PIAT	nichts	_	O	O	
+7-11	Specielles	NN	<unknown>	_	O	O	
+7-12	.	$.	.	_	O	O	
+
+#id=8
+#text=Von Roß ist ein Heft Hellenika heraus, das seinen Köhlerglauben an den historischen Kekrops und Danaos und all seine Wuth gegen Niebuhr - Müllersehe Geschäftskritik zur Schau legt.
+8-1	Von	APPR	von	_	O	O	
+8-2	Roß	NN	Ross	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	ist	VAFIN	sein	_	O	O	
+8-4	ein	ART	eine	_	O	O	
+8-5	Heft	NN	Heft	_	O	O	
+8-6	Hellenika	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-7	heraus	PTKVZ	heraus	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	das	PRELS	die	_	O	O	
+8-10	seinen	PPOSAT	sein	_	O	O	
+8-11	Köhlerglauben	NN	<unknown>	_	O	O	
+8-12	an	APPR	an	_	O	O	
+8-13	den	ART	die	_	O	O	
+8-14	historischen	ADJA	historisch	_	O	O	
+8-15	Kekrops	NN	<unknown>	_	O	O	
+8-16	und	KON	und	_	O	O	
+8-17	Danaos	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-18	und	KON	und	_	O	O	
+8-19	all	PIAT	alle	_	O	O	
+8-20	seine	PPOSAT	sein	_	O	O	
+8-21	Wuth	NN	<unknown>	_	O	O	
+8-22	gegen	APPR	gegen	_	O	O	
+8-23	Niebuhr	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-24	-	$(	-	_	O	O	
+8-25	Müllersehe	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-26	Geschäftskritik	NN	<unknown>	_	O	O	
+8-27	zur	APPRART	zu	_	O	O	
+8-28	Schau	NN	Schau	_	O	O	
+8-29	legt	VVFIN	legen	_	O	O	
+8-30	.	$.	.	_	O	O	
+
+#id=9
+#text=Die Hypothraltempel putzt er ganz weg, was ganz bequem wäre; Vitruv habe eben geirrt.
+9-1	Die	ART	die	_	O	O	
+9-2	Hypothraltempel	NN	<unknown>	_	O	O	
+9-3	putzt	VVFIN	putzen	_	O	O	
+9-4	er	PPER	er	_	O	O	
+9-5	ganz	ADV	ganz	_	O	O	
+9-6	weg	PTKVZ	weg	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	was	PRELS	was	_	O	O	
+9-9	ganz	ADV	ganz	_	O	O	
+9-10	bequem	ADJD	bequem	_	O	O	
+9-11	wäre	VAFIN	sein	_	O	O	
+9-12	;	$.	;	_	O	O	
+9-13	Vitruv	NE	<unknown>	_	O	O	
+9-14	habe	VAFIN	haben	_	O	O	
+9-15	eben	ADV	eben	_	O	O	
+9-16	geirrt	VVPP	irren	_	O	O	
+9-17	.	$.	.	_	O	O	
+

@@ -1,0 +1,314 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=165 Renzen an Gerhard 30/IV/1852 ( s.u. Braun/Gerhard ) 2 sie uns zu schicken.
+1-1	165	CARD	@card@	_	O	O	
+1-2	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	30/IV/1852	NE	<unknown>	_	O	O	
+1-6	(	$(	(	_	O	O	
+1-7	s.u.	NE	<unknown>	_	O	O	
+1-8	Braun/Gerhard	NE	<unknown>	_	O	O	
+1-9	)	$(	)	_	O	O	
+1-10	2	CARD	2	_	O	O	
+1-11	sie	PPER	sie	_	O	O	
+1-12	uns	PPER	wir	_	O	O	
+1-13	zu	PTKZU	zu	_	O	O	
+1-14	schicken	VVINF	schicken	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=Viel Neues wird übrigens schwerlich dabei sein.
+2-1	Viel	PIAT	viele	_	O	O	
+2-2	Neues	NN	Neue	_	O	O	
+2-3	wird	VAFIN	werden	_	O	O	
+2-4	übrigens	ADV	übrigens	_	O	O	
+2-5	schwerlich	ADJD	schwerlich	_	O	O	
+2-6	dabei	PAV	dabei	_	O	O	
+2-7	sein	VAINF	sein	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Vieusseux schreibt, daß in iolge des Mailänder Nachdrucks Micali sein Werk von 27 auf 9 Francescani herabgesetzt; es aber sehr selten sei.
+3-1	Vieusseux	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	schreibt	VVFIN	schreiben	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	daß	KOUS	dass	_	O	O	
+3-5	in	APPR	in	_	O	O	
+3-6	iolge	NN	<unknown>	_	O	O	
+3-7	des	ART	die	_	O	O	
+3-8	Mailänder	NN	Mailänder	_	O	O	
+3-9	Nachdrucks	NN	Nachdruck	_	O	O	
+3-10	Micali	NE	<unknown>	_	O	O	
+3-11	sein	PPOSAT	sein	_	O	O	
+3-12	Werk	NN	Werk	_	O	O	
+3-13	von	APPR	von	_	O	O	
+3-14	27	CARD	27	_	O	O	
+3-15	auf	APPR	auf	_	O	O	
+3-16	9	CARD	9	_	O	O	
+3-17	Francescani	NN	<unknown>	_	O	O	
+3-18	herabgesetzt	VVPP	herabsetzen	_	O	O	
+3-19	;	$.	;	_	O	O	
+3-20	es	PPER	es	_	O	O	
+3-21	aber	ADV	aber	_	O	O	
+3-22	sehr	ADV	sehr	_	O	O	
+3-23	selten	ADJD	selten	_	O	O	
+3-24	sei	VAFIN	sein	_	O	O	
+3-25	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich trug ihm auf, es möglichst schnell anzuschaffen, und entweder hieher, oder, wenn er Gelegenheit habe, direct nach Berlin zu schicken.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	trug	VVFIN	tragen	_	O	O	
+4-3	ihm	PPER	er	_	O	O	
+4-4	auf	PTKVZ	auf	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	es	PPER	es	_	O	O	
+4-7	möglichst	ADV	möglichst	_	O	O	
+4-8	schnell	ADJD	schnell	_	O	O	
+4-9	anzuschaffen	VVIZU	anschaffen	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	und	KON	und	_	O	O	
+4-12	entweder	KON	entweder	_	O	O	
+4-13	hieher	NN	<unknown>	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	oder	KON	oder	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	wenn	KOUS	wenn	_	O	O	
+4-18	er	PPER	er	_	O	O	
+4-19	Gelegenheit	NN	Gelegenheit	_	O	O	
+4-20	habe	VAFIN	haben	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	direct	NE	direct	_	O	O	
+4-23	nach	APPR	nach	_	O	O	
+4-24	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-25	zu	PTKZU	zu	_	O	O	
+4-26	schicken	VVINF	schicken	_	O	O	
+4-27	.	$.	.	_	O	O	
+
+#id=5
+#text=Das zweite Werk, supplemento etc.
+5-1	Das	ART	die	_	O	O	
+5-2	zweite	ADJA	zweit	_	O	O	
+5-3	Werk	NN	Werk	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	supplemento	NN	<unknown>	_	O	O	
+5-6	etc.	ADV	etc.	_	O	O	
+
+#id=6
+#text=kostet 108 Paoli, also 10 Francescani 8 IJaoli; wünschen bie auch l. dieses?
+6-1	kostet	VVFIN	kosten	_	O	O	
+6-2	108	CARD	@card@	_	O	O	
+6-3	Paoli	NE	<unknown>	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	also	ADV	also	_	O	O	
+6-6	10	CARD	10	_	O	O	
+6-7	Francescani	NN	<unknown>	_	O	O	
+6-8	8	CARD	8	_	O	O	
+6-9	IJaoli	NE	<unknown>	_	O	O	
+6-10	;	$.	;	_	O	O	
+6-11	wünschen	VVINF	wünschen	_	O	O	
+6-12	bie	VVFIN	<unknown>	_	O	O	
+6-13	auch	ADV	auch	_	O	O	
+6-14	l.	NN	<unknown>	_	O	O	
+6-15	dieses	PDAT	dies	_	O	O	
+6-16	?	$.	?	_	O	O	
+
+#id=7
+#text=~-- Das Blatt der A.Z. mit Ihrem Artikel über Jahn's Aufsatz ist eingetroffen.
+7-1	~	XY	~	_	O	O	
+7-2	--	$(	--	_	O	O	
+7-3	Das	ART	die	_	O	O	
+7-4	Blatt	NN	Blatt	_	O	O	
+7-5	der	ART	die	_	O	O	
+7-6	A.Z.	NE	<unknown>	_	O	O	
+7-7	mit	APPR	mit	_	O	O	
+7-8	Ihrem	PPOSAT	ihr	_	O	O	
+7-9	Artikel	NN	Artikel	_	O	O	
+7-10	über	APPR	über	_	O	O	
+7-11	Jahn's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-12	Aufsatz	NN	Aufsatz	_	O	O	
+7-13	ist	VAFIN	sein	_	O	O	
+7-14	eingetroffen	VVPP	eintreffen	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=Es scheint mir aber, Sie thun ihm Unrecht, indem Sie seiner "provisorischen Wahrheit ll einen Begriff unterlegen, den nicht er ihr beilegt.
+8-1	Es	PPER	es	_	O	O	
+8-2	scheint	VVFIN	scheinen	_	O	O	
+8-3	mir	PPER	ich	_	O	O	
+8-4	aber	ADV	aber	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	Sie	PPER	Sie	_	O	O	
+8-7	thun	VVFIN	<unknown>	_	O	O	
+8-8	ihm	PPER	er	_	O	O	
+8-9	Unrecht	NN	Unrecht	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	indem	KOUS	indem	_	O	O	
+8-12	Sie	PPER	Sie	_	O	O	
+8-13	seiner	PPOSAT	sein	_	O	O	
+8-14	"	$(	"	_	O	O	
+8-15	provisorischen	ADJA	provisorisch	_	O	O	
+8-16	Wahrheit	NN	Wahrheit	_	O	O	
+8-17	ll	NN	<unknown>	_	O	O	
+8-18	einen	ART	eine	_	O	O	
+8-19	Begriff	NN	Begriff	_	O	O	
+8-20	unterlegen	VVPP	unterliegen	_	O	O	
+8-21	,	$,	,	_	O	O	
+8-22	den	PRELS	die	_	O	O	
+8-23	nicht	PTKNEG	nicht	_	O	O	
+8-24	er	PPER	er	_	O	O	
+8-25	ihr	PPER	ihr	_	O	O	
+8-26	beilegt	VVFIN	beilegen	_	O	O	
+8-27	.	$.	.	_	O	O	
+
+#id=9
+#text=Sie lassen ihn gegen approximative 'dahrhei tauf treten, während er es nur gegen das thut, was wir in der officiellen Institutssprache ingegnoso nennen, d.h. grund= und bodenloses Conjeciren, wo man Nichts mehr wissen kann.
+9-1	Sie	PPER	Sie	_	O	O	
+9-2	lassen	VVFIN	lassen	_	O	O	
+9-3	ihn	PPER	er	_	O	O	
+9-4	gegen	APPR	gegen	_	O	O	
+9-5	approximative	ADJA	<unknown>	_	O	O	
+9-6	'	$(	'	_	O	O	
+9-7	dahrhei	ADJA	<unknown>	_	O	O	
+9-8	tauf	NN	<unknown>	_	O	O	
+9-9	treten	VVFIN	treten	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	während	KOUS	während	_	O	O	
+9-12	er	PPER	er	_	O	O	
+9-13	es	PPER	es	_	O	O	
+9-14	nur	ADV	nur	_	O	O	
+9-15	gegen	APPR	gegen	_	O	O	
+9-16	das	ART	die	_	O	O	
+9-17	thut	NN	<unknown>	_	O	O	
+9-18	,	$,	,	_	O	O	
+9-19	was	PRELS	was	_	O	O	
+9-20	wir	PPER	wir	_	O	O	
+9-21	in	APPR	in	_	O	O	
+9-22	der	ART	die	_	O	O	
+9-23	officiellen	ADJA	<unknown>	_	O	O	
+9-24	Institutssprache	NN	<unknown>	_	O	O	
+9-25	ingegnoso	ADJD	<unknown>	_	O	O	
+9-26	nennen	VVFIN	nennen	_	O	O	
+9-27	,	$,	,	_	O	O	
+9-28	d.h.	KON	d.h.	_	O	O	
+9-29	grund=	ADJA	<unknown>	_	O	O	
+9-30	und	KON	und	_	O	O	
+9-31	bodenloses	ADJA	bodenlos	_	O	O	
+9-32	Conjeciren	NN	<unknown>	_	O	O	
+9-33	,	$,	,	_	O	O	
+9-34	wo	PWAV	wo	_	O	O	
+9-35	man	PIS	man	_	O	O	
+9-36	Nichts	PIS	nichts	_	O	O	
+9-37	mehr	ADV	mehr	_	O	O	
+9-38	wissen	VVINF	wissen	_	O	O	
+9-39	kann	VMFIN	können	_	O	O	
+9-40	.	$.	.	_	O	O	
+
+#id=10
+#text=Im Uebrigen muß ich gestehen, daß ich Jahn's Abhandlung entweder mehr,oder weniger polemisch gewünscht hätte.
+10-1	Im	APPRART	in	_	O	O	
+10-2	Uebrigen	NN	<unknown>	_	O	O	
+10-3	muß	VMFIN	müssen	_	O	O	
+10-4	ich	PPER	ich	_	O	O	
+10-5	gestehen	VVINF	gestehen	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	daß	KOUS	dass	_	O	O	
+10-8	ich	PPER	ich	_	O	O	
+10-9	Jahn's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-10	Abhandlung	NN	Abhandlung	_	O	O	
+10-11	entweder	KON	entweder	_	O	O	
+10-12	mehr,oder	VVFIN	<unknown>	_	O	O	
+10-13	weniger	ADV	weniger	_	O	O	
+10-14	polemisch	ADJD	polemisch	_	O	O	
+10-15	gewünscht	VVPP	wünschen	_	O	O	
+10-16	hätte	VAFIN	haben	_	O	O	
+10-17	.	$.	.	_	O	O	
+
+#id=11
+#text=Die Vorrede versprach mehr.
+11-1	Die	ART	die	_	O	O	
+11-2	Vorrede	NN	Vorrede	_	O	O	
+11-3	versprach	VVFIN	versprechen	_	O	O	
+11-4	mehr	ADV	mehr	_	O	O	
+11-5	.	$.	.	_	O	O	
+
+#id=12
+#text=Mir scheint es nöthig, Panofka einmal gründlich, und nicht bloß eine Arbeit desselben, vorzunehmen, und kann ich für die Archäologie keinen Schaden darin sehen, wenn sie von solchem Unsinne, wie er ihn täglich losläßt, sich lossagt.
+12-1	Mir	PPER	ich	_	O	O	
+12-2	scheint	VVFIN	scheinen	_	O	O	
+12-3	es	PPER	es	_	O	O	
+12-4	nöthig	ADJD	<unknown>	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	Panofka	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-7	einmal	ADV	einmal	_	O	O	
+12-8	gründlich	ADJD	gründlich	_	O	O	
+12-9	,	$,	,	_	O	O	
+12-10	und	KON	und	_	O	O	
+12-11	nicht	PTKNEG	nicht	_	O	O	
+12-12	bloß	ADJD	bloß	_	O	O	
+12-13	eine	ART	eine	_	O	O	
+12-14	Arbeit	NN	Arbeit	_	O	O	
+12-15	desselben	PDS	derselbe	_	O	O	
+12-16	,	$,	,	_	O	O	
+12-17	vorzunehmen	VVIZU	vornehmen	_	O	O	
+12-18	,	$,	,	_	O	O	
+12-19	und	KON	und	_	O	O	
+12-20	kann	VMFIN	können	_	O	O	
+12-21	ich	PPER	ich	_	O	O	
+12-22	für	APPR	für	_	O	O	
+12-23	die	ART	die	_	O	O	
+12-24	Archäologie	NN	Archäologie	_	O	O	
+12-25	keinen	PIAT	keine	_	O	O	
+12-26	Schaden	NN	Schaden	_	O	O	
+12-27	darin	PAV	darin	_	O	O	
+12-28	sehen	VVINF	sehen	_	O	O	
+12-29	,	$,	,	_	O	O	
+12-30	wenn	KOUS	wenn	_	O	O	
+12-31	sie	PPER	sie	_	O	O	
+12-32	von	APPR	von	_	O	O	
+12-33	solchem	PIAT	solche	_	O	O	
+12-34	Unsinne	NN	<unknown>	_	O	O	
+12-35	,	$,	,	_	O	O	
+12-36	wie	KOUS	wie	_	O	O	
+12-37	er	PPER	er	_	O	O	
+12-38	ihn	PPER	er	_	O	O	
+12-39	täglich	ADJD	täglich	_	O	O	
+12-40	losläßt	VVFIN	loslassen	_	O	O	
+12-41	,	$,	,	_	O	O	
+12-42	sich	PRF	sich	_	O	O	
+12-43	lossagt	VVFIN	lossagen	_	O	O	
+12-44	.	$.	.	_	O	O	
+
+#id=13
+#text=Es hat mich gefreut, daß Ihr Artikel trotz aller Ihrer rücksichtsvollen Milde ihm doch r sein ~heil abgiebt.
+13-1	Es	PPER	es	_	O	O	
+13-2	hat	VAFIN	haben	_	O	O	
+13-3	mich	PRF	ich	_	O	O	
+13-4	gefreut	VVPP	freuen	_	O	O	
+13-5	,	$,	,	_	O	O	
+13-6	daß	KOUS	dass	_	O	O	
+13-7	Ihr	PPOSAT	ihr	_	O	O	
+13-8	Artikel	NN	Artikel	_	O	O	
+13-9	trotz	APPR	trotz	_	O	O	
+13-10	aller	PIAT	alle	_	O	O	
+13-11	Ihrer	PPOSAT	ihr	_	O	O	
+13-12	rücksichtsvollen	ADJA	rücksichtsvoll	_	O	O	
+13-13	Milde	NN	Milde	_	O	O	
+13-14	ihm	PPER	er	_	O	O	
+13-15	doch	ADV	doch	_	O	O	
+13-16	r	NE	r	_	O	O	
+13-17	sein	PPOSAT	sein	_	O	O	
+13-18	~heil	NN	<unknown>	_	O	O	
+13-19	abgiebt	VVFIN	<unknown>	_	O	O	
+13-20	.	$.	.	_	O	O	
+
+#id=14
+#text=Brunn ist mit Ihrem Artikel über
+14-1	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	ist	VAFIN	sein	_	O	O	
+14-3	mit	APPR	mit	_	O	O	
+14-4	Ihrem	PPOSAT	ihr	_	O	O	
+14-5	Artikel	NN	Artikel	_	O	O	
+14-6	über	APPR	über	_	O	O	
+

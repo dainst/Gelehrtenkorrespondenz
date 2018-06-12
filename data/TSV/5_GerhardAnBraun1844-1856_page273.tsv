@@ -1,0 +1,181 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=71 Dr. Braun Mein theurer Freund.
+1-1	71	CARD	@card@	_	O	O	
+1-2	Dr.	NN	Dr.	_	O	O	
+1-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Mein	PPOSAT	mein	_	O	O	
+1-5	theurer	ADJA	<unknown>	_	O	O	
+1-6	Freund	NN	Freund	_	O	O	
+1-7	.	$.	.	_	O	O	
+
+#id=2
+#text=Gerhard an Braun Berlin, 10. Februar 1849 g. 22/II 49 r. 10/III 49 Berlin 10 Febr 49 Ich habe eben nur die Bullettino Sendung mit Ihrem Blättchen zu bescheinigen.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1849	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	g.	VVFIN	<unknown>	_	O	O	
+2-11	22/II	CARD	<unknown>	_	O	O	
+2-12	49	CARD	@card@	_	O	O	
+2-13	r.	ADJA	<unknown>	_	O	O	
+2-14	10/III	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-15	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-17	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-18	Febr	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-19	49	CARD	@card@	_	O	O	
+2-20	Ich	PPER	ich	_	O	O	
+2-21	habe	VAFIN	haben	_	O	O	
+2-22	eben	ADV	eben	_	O	O	
+2-23	nur	ADV	nur	_	O	O	
+2-24	die	ART	die	_	O	O	
+2-25	Bullettino	NN	<unknown>	_	O	O	
+2-26	Sendung	NN	Sendung	_	O	O	
+2-27	mit	APPR	mit	_	O	O	
+2-28	Ihrem	PPOSAT	ihr	_	O	O	
+2-29	Blättchen	NN	Blättchen	_	O	O	
+2-30	zu	PTKZU	zu	_	O	O	
+2-31	bescheinigen	VVINF	bescheinigen	_	O	O	
+2-32	.	$.	.	_	O	O	
+
+#id=3
+#text=Mit dem Manuscript über die Cista werde nach Vorschrift (an Jahn) verfahren.
+3-1	Mit	APPR	mit	_	O	O	
+3-2	dem	ART	die	_	O	O	
+3-3	Manuscript	NN	<unknown>	_	O	O	
+3-4	über	APPR	über	_	O	O	
+3-5	die	ART	die	_	O	O	
+3-6	Cista	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-7	werde	VAFIN	werden	_	O	O	
+3-8	nach	APPR	nach	_	O	O	
+3-9	Vorschrift	NN	Vorschrift	_	O	O	
+3-10	(	$(	(	_	O	O	
+3-11	an	APPR	an	_	O	O	
+3-12	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-13	)	$(	)	_	O	O	
+3-14	verfahren	VVPP	verfahren	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Ihrer Elasticität die nun auch in pontischen Formen sich ausweitet allen Glückwunsch, das Centrum werden Sie nicht verlieren I Bunsen wird, mit Frankfurt zufrieden, heute zurück erwartet.
+4-1	Ihrer	PPOSAT	ihr	_	O	O	
+4-2	Elasticität	NN	<unknown>	_	O	O	
+4-3	die	ART	die	_	O	O	
+4-4	nun	ADV	nun	_	O	O	
+4-5	auch	ADV	auch	_	O	O	
+4-6	in	APPR	in	_	O	O	
+4-7	pontischen	ADJA	<unknown>	_	O	O	
+4-8	Formen	NN	Form	_	O	O	
+4-9	sich	PRF	sich	_	O	O	
+4-10	ausweitet	VVFIN	ausweiten	_	O	O	
+4-11	allen	PIAT	alle	_	O	O	
+4-12	Glückwunsch	NN	Glückwunsch	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	das	ART	die	_	O	O	
+4-15	Centrum	NN	Centrum	_	O	O	
+4-16	werden	VAFIN	werden	_	O	O	
+4-17	Sie	PPER	Sie	_	O	O	
+4-18	nicht	PTKNEG	nicht	_	O	O	
+4-19	verlieren	VVFIN	verlieren	_	O	O	
+4-20	I	NN	I	_	O	O	
+4-21	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-22	wird	VAFIN	werden	_	O	O	
+4-23	,	$,	,	_	O	O	
+4-24	mit	APPR	mit	_	O	O	
+4-25	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-26	zufrieden	ADJD	zufrieden	_	O	O	
+4-27	,	$,	,	_	O	O	
+4-28	heute	ADV	heute	_	O	O	
+4-29	zurück	PTKVZ	zurück	_	O	O	
+4-30	erwartet	VVPP	erwarten	_	O	O	
+4-31	.	$.	.	_	O	O	
+
+#id=5
+#text=Forchhammer dämmert in Jahrmarktsferien hier herum, ohne politische Mission wie er versichert, aber wenigstens zu guter Zeit um feinen politischen Freunden zu berichten.
+5-1	Forchhammer	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	dämmert	VVFIN	dämmern	_	O	O	
+5-3	in	APPR	in	_	O	O	
+5-4	Jahrmarktsferien	NN	<unknown>	_	O	O	
+5-5	hier	ADV	hier	_	O	O	
+5-6	herum	PTKVZ	herum	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	ohne	KOUI	ohne	_	O	O	
+5-9	politische	ADJA	politisch	_	O	O	
+5-10	Mission	NN	Mission	_	O	O	
+5-11	wie	KOKOM	wie	_	O	O	
+5-12	er	PPER	er	_	O	O	
+5-13	versichert	VVPP	versichern	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	aber	KON	aber	_	O	O	
+5-16	wenigstens	ADV	wenigstens	_	O	O	
+5-17	zu	APPR	zu	_	O	O	
+5-18	guter	ADJA	gut	_	O	O	
+5-19	Zeit	NN	Zeit	_	O	O	
+5-20	um	APPR	um	_	O	O	
+5-21	feinen	ADJA	fein	_	O	O	
+5-22	politischen	ADJA	politisch	_	O	O	
+5-23	Freunden	NN	Freund	_	O	O	
+5-24	zu	PTKZU	zu	_	O	O	
+5-25	berichten	VVINF	berichten	_	O	O	
+5-26	.	$.	.	_	O	O	
+
+#id=6
+#text=Eben will er auch nach Leipzig.
+6-1	Eben	ADV	eben	_	O	O	
+6-2	will	VMFIN	wollen	_	O	O	
+6-3	er	PPER	er	_	O	O	
+6-4	auch	ADV	auch	_	O	O	
+6-5	nach	APPR	nach	_	O	O	
+6-6	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=Das Publikum der Günstigen bange zu machen wegen drohenden Untergangs des Instituts halte ich noch immer für zeitgemäß: in solcher Bangigkeit durch faktische Mittheilungen das Gegengewicht halten zu können, conservire ich Ihnen als deutsches Organ die Archäologische Zeitung.
+7-1	Das	ART	die	_	O	O	
+7-2	Publikum	NN	Publikum	_	O	O	
+7-3	der	ART	die	_	O	O	
+7-4	Günstigen	ADJA	günstig	_	O	O	
+7-5	bange	ADJD	bange	_	O	O	
+7-6	zu	PTKZU	zu	_	O	O	
+7-7	machen	VVINF	machen	_	O	O	
+7-8	wegen	APPR	wegen	_	O	O	
+7-9	drohenden	ADJA	drohend	_	O	O	
+7-10	Untergangs	NN	Untergang	_	O	O	
+7-11	des	ART	die	_	O	O	
+7-12	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-13	halte	VVFIN	halten	_	O	O	
+7-14	ich	PPER	ich	_	O	O	
+7-15	noch	ADV	noch	_	O	O	
+7-16	immer	ADV	immer	_	O	O	
+7-17	für	APPR	für	_	O	O	
+7-18	zeitgemäß	ADJD	zeitgemäß	_	O	O	
+7-19	:	$.	:	_	O	O	
+7-20	in	APPR	in	_	O	O	
+7-21	solcher	PIAT	solche	_	O	O	
+7-22	Bangigkeit	NN	Bangigkeit	_	O	O	
+7-23	durch	APPR	durch	_	O	O	
+7-24	faktische	ADJA	faktisch	_	O	O	
+7-25	Mittheilungen	NN	<unknown>	_	O	O	
+7-26	das	ART	die	_	O	O	
+7-27	Gegengewicht	NN	Gegengewicht	_	O	O	
+7-28	halten	VVINF	halten	_	O	O	
+7-29	zu	PTKZU	zu	_	O	O	
+7-30	können	VMINF	können	_	O	O	
+7-31	,	$,	,	_	O	O	
+7-32	conservire	VVFIN	<unknown>	_	O	O	
+7-33	ich	PPER	ich	_	O	O	
+7-34	Ihnen	PPER	Sie	_	O	O	
+7-35	als	KOKOM	als	_	O	O	
+7-36	deutsches	ADJA	deutsch	_	O	O	
+7-37	Organ	NN	Organ	_	O	O	
+7-38	die	ART	die	_	O	O	
+7-39	Archäologische	ADJA	archäologisch	_	O	O	
+7-40	Zeitung	NN	Zeitung	_	O	O	
+7-41	.	$.	.	_	O	O	
+

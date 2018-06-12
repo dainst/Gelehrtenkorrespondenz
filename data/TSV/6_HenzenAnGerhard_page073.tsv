@@ -1,0 +1,103 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=255 Henzen an Gerhard A=1-~/VII/52 (P (I);.f.J~ rJ. )
+1-1	255	CARD	@card@	_	O	O	
+1-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	A=1-~/VII/52	NE	<unknown>	_	O	O	
+1-6	(	$(	(	_	O	O	
+1-7	P	NE	P	_	O	O	
+1-8	(	$(	(	_	O	O	
+1-9	I	FM	I	_	O	O	
+1-10	)	$(	)	_	O	O	
+1-11	;	$.	;	_	O	O	
+1-12	.f.J~	NN	<unknown>	_	O	O	
+1-13	rJ	NE	<unknown>	_	O	O	
+1-14	.	$.	.	_	O	O	
+1-15	)	$(	)	_	O	O	
+
+#id=2
+#text=)_.
+2-1	)_	NN	<unknown>	_	O	O	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=3 er wird dicker u. dicker.
+3-1	3	CARD	3	_	O	O	
+3-2	er	PPER	er	_	O	O	
+3-3	wird	VAFIN	werden	_	O	O	
+3-4	dicker	ADJD	dick	_	O	O	
+3-5	u.	KON	und	_	O	O	
+3-6	dicker	ADJD	dick	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Meine Frau, die längst der Ihrigen schreiben wollte, grüßt mit mir Sie beide herzliehst.
+4-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-3	,	$,	,	_	O	O	
+4-4	die	PRELS	die	_	O	O	
+4-5	längst	ADV	längst	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	Ihrigen	NN	<unknown>	_	O	O	
+4-8	schreiben	VVINF	schreiben	_	O	O	
+4-9	wollte	VMFIN	wollen	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	grüßt	VVFIN	grüßen	_	O	O	
+4-12	mit	APPR	mit	_	O	O	
+4-13	mir	PPER	ich	_	O	O	
+4-14	Sie	PPER	Sie	_	O	O	
+4-15	beide	PIS	beide	_	O	O	
+4-16	herzliehst	VVFIN	<unknown>	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=Leben Sie recht wohl.
+5-1	Leben	VVFIN	leben	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	recht	ADJD	recht	_	O	O	
+5-4	wohl	ADV	wohl	_	O	O	
+5-5	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihr WHenzen Ferner erhielt ich für Shawl u. Mosaik die gemachtan Auslagen.
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	WHenzen	NN	<unknown>	_	O	O	
+6-3	Ferner	NN	Ferne	_	O	O	
+6-4	erhielt	VVFIN	erhalten	_	O	O	
+6-5	ich	PPER	ich	_	O	O	
+6-6	für	APPR	für	_	O	O	
+6-7	Shawl	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-8	u.	APPR	um	_	O	O	
+6-9	Mosaik	NN	Mosaik	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-10	die	ART	die	_	O	O	
+6-11	gemachtan	NN	<unknown>	_	O	O	
+6-12	Auslagen	NN	Auslage	_	O	O	
+6-13	.	$.	.	_	O	O	
+
+#id=7
+#text=In den Kosten des Micali sind für Porto von L--~~orenz nach hier u. für Zoll Sc.
+7-1	In	APPR	in	_	O	O	
+7-2	den	ART	die	_	O	O	
+7-3	Kosten	NN	Kosten	_	O	O	
+7-4	des	ART	die	_	O	O	
+7-5	Micali	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-6	sind	VAFIN	sein	_	O	O	
+7-7	für	APPR	für	_	O	O	
+7-8	Porto	NN	Porto	_	O	O	
+7-9	von	APPR	von	_	O	O	
+7-10	L--~~orenz	NE	<unknown>	_	O	O	
+7-11	nach	APPR	nach	_	O	O	
+7-12	hier	ADV	hier	_	O	O	
+7-13	u.	APPR	um	_	O	O	
+7-14	für	APPR	für	_	O	O	
+7-15	Zoll	NN	Zoll	_	O	O	
+7-16	Sc.	NE	<unknown>	_	O	O	
+
+#id=8
+#text=1.81 einbegriffen.
+8-1	1.81	CARD	@card@	_	O	O	
+8-2	einbegriffen	VVPP	einbegreifen	_	O	O	
+8-3	.	$.	.	_	O	O	
+

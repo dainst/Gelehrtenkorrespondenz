@@ -1,0 +1,224 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Gerhard an Braun Mailand, 2. April 1846 Zardetti lamentirt 1843 noch nicht vollständig zu haben.
+1-1	2	CARD	2	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Mailand	NE	Mailand	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Zardetti	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-12	lamentirt	NN	<unknown>	_	O	O	
+1-13	1843	CARD	@card@	_	O	O	
+1-14	noch	ADV	noch	_	O	O	
+1-15	nicht	PTKNEG	nicht	_	O	O	
+1-16	vollständig	ADJD	vollständig	_	O	O	
+1-17	zu	PTKZU	zu	_	O	O	
+1-18	haben	VAINF	haben	_	O	O	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=Palagi, der in Turin an einem Erzkoloß modelliert, wird nächstens hier erwartet.
+2-1	Palagi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	,	$,	,	_	O	O	
+2-3	der	PRELS	die	_	O	O	
+2-4	in	APPR	in	_	O	O	
+2-5	Turin	NE	Turin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-6	an	APPR	an	_	O	O	
+2-7	einem	ART	eine	_	O	O	
+2-8	Erzkoloß	NN	<unknown>	_	O	O	
+2-9	modelliert	VVPP	modellieren	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	wird	VAFIN	werden	_	O	O	
+2-12	nächstens	ADV	nächstens	_	O	O	
+2-13	hier	ADV	hier	_	O	O	
+2-14	erwartet	VVPP	erwarten	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Wegen 1 Exemplar meiner Coupes et Vases etrusques und Camp.
+3-1	Wegen	APPR	wegen	_	O	O	
+3-2	1	CARD	1	_	O	O	
+3-3	Exemplar	NN	Exemplar	_	O	O	
+3-4	meiner	PPOSAT	mein	_	O	O	
+3-5	Coupes	ADJA	<unknown>	_	O	O	
+3-6	et	FM	et	_	O	O	
+3-7	Vases	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-8	etrusques	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+3-9	und	KON	und	_	I-webanno.custom.LetterEntity_	I-OBJ	
+3-10	Camp	NN	Camp	_	I-webanno.custom.LetterEntity_	I-OBJ	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=die Zardetti als Duplikat erhalten hat und los zu werden wünscht, möge Henzen so gut sein ihm zu schreiben daß er das Exemplar Coupes an Conte Carlo d'Arco nach Mantova (Gratis ) , das Exemplar Vases etrusques und Camp.
+4-1	die	ART	die	_	O	O	
+4-2	Zardetti	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	als	KOKOM	als	_	O	O	
+4-4	Duplikat	NN	Duplikat	_	O	O	
+4-5	erhalten	VVPP	erhalten	_	O	O	
+4-6	hat	VAFIN	haben	_	O	O	
+4-7	und	KON	und	_	O	O	
+4-8	los	ADJD	los	_	O	O	
+4-9	zu	PTKZU	zu	_	O	O	
+4-10	werden	VAINF	werden	_	O	O	
+4-11	wünscht	VVFIN	wünschen	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	möge	VMFIN	mögen	_	O	O	
+4-14	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-15	so	ADV	so	_	O	O	
+4-16	gut	ADJD	gut	_	O	O	
+4-17	sein	VAINF	sein	_	O	O	
+4-18	ihm	PPER	er	_	O	O	
+4-19	zu	PTKZU	zu	_	O	O	
+4-20	schreiben	VVINF	schreiben	_	O	O	
+4-21	daß	KOUS	dass	_	O	O	
+4-22	er	PPER	er	_	O	O	
+4-23	das	ART	die	_	O	O	
+4-24	Exemplar	NN	Exemplar	_	O	O	
+4-25	Coupes	VVFIN	<unknown>	_	O	O	
+4-26	an	APPR	an	_	O	O	
+4-27	Conte	NE	Conte	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-28	Carlo	NE	Carlo	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-29	d'Arco	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-30	nach	APPR	nach	_	O	O	
+4-31	Mantova	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-32	(	$(	(	_	O	O	
+4-33	Gratis	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-34	)	$(	)	_	O	O	
+4-35	,	$,	,	_	O	O	
+4-36	das	ART	die	_	O	O	
+4-37	Exemplar	NN	Exemplar	_	O	O	
+4-38	Vases	NN	<unknown>	_	O	O	
+4-39	etrusques	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-40	und	KON	und	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-41	Camp	NN	Camp	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-42	.	$.	.	_	O	O	
+
+#id=5
+#text=aber durch Jager nach Rom gefälligst gelangen lassen möge, wo es an Exemplaren davon eher fehlt.
+5-1	aber	ADV	aber	_	O	O	
+5-2	durch	APPR	durch	_	O	O	
+5-3	Jager	NN	<unknown>	_	O	O	
+5-4	nach	APPR	nach	_	O	O	
+5-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-6	gefälligst	ADJD	gefälligst	_	O	O	
+5-7	gelangen	VVINF	gelangen	_	O	O	
+5-8	lassen	VVINF	lassen	_	O	O	
+5-9	möge	VMFIN	mögen	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	wo	PWAV	wo	_	O	O	
+5-12	es	PPER	es	_	O	O	
+5-13	an	APPR	an	_	O	O	
+5-14	Exemplaren	NN	Exemplar	_	O	O	
+5-15	davon	PAV	davon	_	O	O	
+5-16	eher	ADV	eher	_	O	O	
+5-17	fehlt	VVFIN	fehlen	_	O	O	
+5-18	.	$.	.	_	O	O	
+
+#id=6
+#text=über Usedom hörte ich nirgend etwas; was soll freilich Graf Schaf-Gotsch wissen !
+6-1	über	APPR	über	_	O	O	
+6-2	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	hörte	VVFIN	hören	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	nirgend	ADV	nirgend	_	O	O	
+6-6	etwas	PIS	etwas	_	O	O	
+6-7	;	$.	;	_	O	O	
+6-8	was	PWS	was	_	O	O	
+6-9	soll	VMFIN	sollen	_	O	O	
+6-10	freilich	ADV	freilich	_	O	O	
+6-11	Graf	NE	Graf	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-12	Schaf-Gotsch	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-13	wissen	VVINF	wissen	_	O	O	
+6-14	!	$.	!	_	O	O	
+
+#id=7
+#text=Sir Fredrik Adams aber ist wieder in Florenz erreichbar.
+7-1	Sir	NN	Sir	_	O	O	
+7-2	Fredrik	NE	Fredrik	_	O	O	
+7-3	Adams	NE	Adams	_	O	O	
+7-4	aber	ADV	aber	_	O	O	
+7-5	ist	VAFIN	sein	_	O	O	
+7-6	wieder	ADV	wieder	_	O	O	
+7-7	in	APPR	in	_	O	O	
+7-8	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-9	erreichbar	ADJD	erreichbar	_	O	O	
+7-10	.	$.	.	_	O	O	
+
+#id=8
+#text=Meine Frau ist von der Reise, obwohl sie möglichst bequem war, angegriffen genug um mich die nächste Nacht fürchten zu lassen, doch soll die Straße nicht schlimm sein, die uns alpenwärts führt.
+8-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-3	ist	VAFIN	sein	_	O	O	
+8-4	von	APPR	von	_	O	O	
+8-5	der	ART	die	_	O	O	
+8-6	Reise	NN	Reise	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	obwohl	KOUS	obwohl	_	O	O	
+8-9	sie	PPER	sie	_	O	O	
+8-10	möglichst	ADV	möglichst	_	O	O	
+8-11	bequem	ADJD	bequem	_	O	O	
+8-12	war	VAFIN	sein	_	O	O	
+8-13	,	$,	,	_	O	O	
+8-14	angegriffen	ADJD	angegriffen	_	O	O	
+8-15	genug	ADV	genug	_	O	O	
+8-16	um	APPR	um	_	O	O	
+8-17	mich	PPER	ich	_	O	O	
+8-18	die	ART	die	_	O	O	
+8-19	nächste	ADJA	nah	_	O	O	
+8-20	Nacht	NN	Nacht	_	O	O	
+8-21	fürchten	VVINF	fürchten	_	O	O	
+8-22	zu	PTKZU	zu	_	O	O	
+8-23	lassen	VVINF	lassen	_	O	O	
+8-24	,	$,	,	_	O	O	
+8-25	doch	KON	doch	_	O	O	
+8-26	soll	VMFIN	sollen	_	O	O	
+8-27	die	ART	die	_	O	O	
+8-28	Straße	NN	Straße	_	O	O	
+8-29	nicht	PTKNEG	nicht	_	O	O	
+8-30	schlimm	ADJD	schlimm	_	O	O	
+8-31	sein	VAINF	sein	_	O	O	
+8-32	,	$,	,	_	O	O	
+8-33	die	PRELS	die	_	O	O	
+8-34	uns	PPER	wir	_	O	O	
+8-35	alpenwärts	ADV	<unknown>	_	O	O	
+8-36	führt	VVFIN	führen	_	O	O	
+8-37	.	$.	.	_	O	O	
+
+#id=9
+#text=Sie grüßt bestens, wie ich selbst, die kapitolinischen und andern Freunde.
+9-1	Sie	PPER	Sie	_	O	O	
+9-2	grüßt	VVFIN	grüßen	_	O	O	
+9-3	bestens	ADV	bestens	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	wie	KOUS	wie	_	O	O	
+9-6	ich	PPER	ich	_	O	O	
+9-7	selbst	ADV	selbst	_	O	O	
+9-8	,	$,	,	_	O	O	
+9-9	die	ART	die	_	O	O	
+9-10	kapitolinischen	ADJA	<unknown>	_	O	O	
+9-11	und	KON	und	_	O	O	
+9-12	andern	PIAT	andere	_	O	O	
+9-13	Freunde	NN	Freund	_	O	O	
+9-14	.	$.	.	_	O	O	
+
+#id=10
+#text=In Frankfurt hoffe ich Ihrer Kunde.
+10-1	In	APPR	in	_	O	O	
+10-2	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-3	hoffe	VVFIN	hoffen	_	O	O	
+10-4	ich	PPER	ich	_	O	O	
+10-5	Ihrer	PPOSAT	ihr	_	O	O	
+10-6	Kunde	NN	Kunde	_	O	O	
+10-7	.	$.	.	_	O	O	
+
+#id=11
+#text=Herzliehst Ihr Gerhard
+11-1	Herzliehst	VVFIN	<unknown>	_	O	O	
+11-2	Ihr	PPER	sie	_	O	O	
+11-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

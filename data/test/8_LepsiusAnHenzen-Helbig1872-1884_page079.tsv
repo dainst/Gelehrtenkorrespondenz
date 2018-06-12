@@ -1,0 +1,258 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=29 L Verehrter Freund Lepsius an Henzen Berlin, 19. Januar 1873 g. 23/1 73 r. Berlin d. 19 n Jan.
+1-1	29	CARD	@card@	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	23/1	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	73	CARD	73	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	r.	ADJA	<unknown>	_	O	O	
+1-18	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-19	d.	ART	d.	_	O	O	
+1-20	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-21	n	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1873 Ich habe gestern wieder mit Delbrück gesprochen über den Institutsbe.u und ihn gefragt, wann der Anschlag eingegangen sein müßte, um noch auf den Etatsnachtrag gebracht werden zu können.
+2-1	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Ich	PPER	ich	_	O	O	
+2-3	habe	VAFIN	haben	_	O	O	
+2-4	gestern	ADV	gestern	_	O	O	
+2-5	wieder	ADV	wieder	_	O	O	
+2-6	mit	APPR	mit	_	O	O	
+2-7	Delbrück	NE	Delbrück	_	O	O	
+2-8	gesprochen	VVPP	sprechen	_	O	O	
+2-9	über	APPR	über	_	O	O	
+2-10	den	ART	die	_	O	O	
+2-11	Institutsbe.u	NN	<unknown>	_	O	O	
+2-12	und	KON	und	_	O	O	
+2-13	ihn	PPER	er	_	O	O	
+2-14	gefragt	VVPP	fragen	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	wann	PWAV	wann	_	O	O	
+2-17	der	ART	die	_	O	O	
+2-18	Anschlag	NN	Anschlag	_	O	O	
+2-19	eingegangen	VVPP	eingehen	_	O	O	
+2-20	sein	VAINF	sein	_	O	O	
+2-21	müßte	VMFIN	müssen	_	O	O	
+2-22	,	$,	,	_	O	O	
+2-23	um	KOUI	um	_	O	O	
+2-24	noch	ADV	noch	_	O	O	
+2-25	auf	APPR	auf	_	O	O	
+2-26	den	ART	die	_	O	O	
+2-27	Etatsnachtrag	NN	<unknown>	_	O	O	
+2-28	gebracht	VVPP	bringen	_	O	O	
+2-29	werden	VAINF	werden	_	O	O	
+2-30	zu	PTKZU	zu	_	O	O	
+2-31	können	VMINF	können	_	O	O	
+2-32	.	$.	.	_	O	O	
+
+#id=3
+#text=Darauf sagte er mir, der Reichstag werde wahrscheinlich im Laufe des März zusammentreten; Der Anschlag müßte daher in vier Wochen vorliegen.
+3-1	Darauf	PAV	darauf	_	O	O	
+3-2	sagte	VVFIN	sagen	_	O	O	
+3-3	er	PPER	er	_	O	O	
+3-4	mir	PPER	ich	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	der	ART	die	_	O	O	
+3-7	Reichstag	NN	Reichstag	_	O	O	
+3-8	werde	VAFIN	werden	_	O	O	
+3-9	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+3-10	im	APPRART	in	_	O	O	
+3-11	Laufe	NN	Lauf	_	O	O	
+3-12	des	ART	die	_	O	O	
+3-13	März	NN	März	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-14	zusammentreten	VVINF	zusammentreten	_	O	O	
+3-15	;	$.	;	_	O	O	
+3-16	Der	ART	die	_	O	O	
+3-17	Anschlag	NN	Anschlag	_	O	O	
+3-18	müßte	VMFIN	müssen	_	O	O	
+3-19	daher	PAV	daher	_	O	O	
+3-20	in	APPR	in	_	O	O	
+3-21	vier	CARD	vier	_	O	O	
+3-22	Wochen	NN	Woche	_	O	O	
+3-23	vorliegen	VVINF	vorliegen	_	O	O	
+3-24	.	$.	.	_	O	O	
+
+#id=4
+#text=Als ich ihm sagte das sei nicht möglich, Laspeyres habe vier Monate verlangt, er möge mir den äußersten Termin nennen, so ließ er sich mit einigen Staatsrunzeln herbei sechs Wochen zu gestatten.
+4-1	Als	KOUS	als	_	O	O	
+4-2	ich	PPER	ich	_	O	O	
+4-3	ihm	PPER	er	_	O	O	
+4-4	sagte	VVFIN	sagen	_	O	O	
+4-5	das	PDS	die	_	O	O	
+4-6	sei	VAFIN	sein	_	O	O	
+4-7	nicht	PTKNEG	nicht	_	O	O	
+4-8	möglich	ADJD	möglich	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	Laspeyres	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-11	habe	VAFIN	haben	_	O	O	
+4-12	vier	CARD	vier	_	O	O	
+4-13	Monate	NN	Monat	_	O	O	
+4-14	verlangt	VVPP	verlangen	_	O	O	
+4-15	,	$,	,	_	O	O	
+4-16	er	PPER	er	_	O	O	
+4-17	möge	VMFIN	mögen	_	O	O	
+4-18	mir	PPER	ich	_	O	O	
+4-19	den	ART	die	_	O	O	
+4-20	äußersten	ADJA	äußer	_	O	O	
+4-21	Termin	NN	Termin	_	O	O	
+4-22	nennen	VVINF	nennen	_	O	O	
+4-23	,	$,	,	_	O	O	
+4-24	so	ADV	so	_	O	O	
+4-25	ließ	VVFIN	lassen	_	O	O	
+4-26	er	PPER	er	_	O	O	
+4-27	sich	PRF	sich	_	O	O	
+4-28	mit	APPR	mit	_	O	O	
+4-29	einigen	PIAT	einige	_	O	O	
+4-30	Staatsrunzeln	NN	<unknown>	_	O	O	
+4-31	herbei	ADV	herbei	_	O	O	
+4-32	sechs	CARD	sechs	_	O	O	
+4-33	Wochen	NN	Woche	_	O	O	
+4-34	zu	PTKZU	zu	_	O	O	
+4-35	gestatten	VVINF	gestatten	_	O	O	
+4-36	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich bemerkte ihm, daß auch in dieser Zeit Pläne und Anschlag nicht bis zur Nagelprobe fertig werden könnten, ob dies durchaus nöthig sei.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	bemerkte	VVFIN	bemerken	_	O	O	
+5-3	ihm	PPER	er	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	daß	KOUS	dass	_	O	O	
+5-6	auch	ADV	auch	_	O	O	
+5-7	in	APPR	in	_	O	O	
+5-8	dieser	PDAT	dies	_	O	O	
+5-9	Zeit	NN	Zeit	_	O	O	
+5-10	Pläne	NN	Plan	_	O	O	
+5-11	und	KON	und	_	O	O	
+5-12	Anschlag	NN	Anschlag	_	O	O	
+5-13	nicht	PTKNEG	nicht	_	O	O	
+5-14	bis	APPR	bis	_	O	O	
+5-15	zur	APPRART	zu	_	O	O	
+5-16	Nagelprobe	NN	Nagelprobe	_	O	O	
+5-17	fertig	ADJD	fertig	_	O	O	
+5-18	werden	VAINF	werden	_	O	O	
+5-19	könnten	VMFIN	können	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	ob	KOUS	ob	_	O	O	
+5-22	dies	PDS	dies	_	O	O	
+5-23	durchaus	ADV	durchaus	_	O	O	
+5-24	nöthig	ADJD	<unknown>	_	O	O	
+5-25	sei	VAFIN	sein	_	O	O	
+5-26	.	$.	.	_	O	O	
+
+#id=6
+#text=Dies verneinte er bezüglich der Pläne; wenn nur außer einem Theile der Pläne ein fester Anschlag vorliege.
+6-1	Dies	PDS	dies	_	O	O	
+6-2	verneinte	VVFIN	verneinen	_	O	O	
+6-3	er	PPER	er	_	O	O	
+6-4	bezüglich	APPR	bezüglich	_	O	O	
+6-5	der	ART	die	_	O	O	
+6-6	Pläne	NN	Plan	_	O	O	
+6-7	;	$.	;	_	O	O	
+6-8	wenn	KOUS	wenn	_	O	O	
+6-9	nur	ADV	nur	_	O	O	
+6-10	außer	APPR	außer	_	O	O	
+6-11	einem	ART	eine	_	O	O	
+6-12	Theile	NE	Theile	_	O	O	
+6-13	der	ART	die	_	O	O	
+6-14	Pläne	NN	Plan	_	O	O	
+6-15	ein	ART	eine	_	O	O	
+6-16	fester	ADJA	fest	_	O	O	
+6-17	Anschlag	NN	Anschlag	_	O	O	
+6-18	vorliege	VVFIN	vorliegen	_	O	O	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich sagte, das solle versucht werden.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	sagte	VVFIN	sagen	_	O	O	
+7-3	,	$,	,	_	O	O	
+7-4	das	PRELS	die	_	O	O	
+7-5	solle	VMFIN	sollen	_	O	O	
+7-6	versucht	VVPP	versuchen	_	O	O	
+7-7	werden	VAINF	werden	_	O	O	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=Hiernach bitte ich Sie nun mit Laspeyres die Sache dahin zu verabreden, daß er uns bis zum 28. Februar zugehen läßt, was er bis dahin, viel oder wenig, fertig scgaffen kann.
+8-1	Hiernach	PAV	hiernach	_	O	O	
+8-2	bitte	VVFIN	bitten	_	O	O	
+8-3	ich	PPER	ich	_	O	O	
+8-4	Sie	PPER	Sie	_	O	O	
+8-5	nun	ADV	nun	_	O	O	
+8-6	mit	APPR	mit	_	O	O	
+8-7	Laspeyres	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-8	die	ART	die	_	O	O	
+8-9	Sache	NN	Sache	_	O	O	
+8-10	dahin	PAV	dahin	_	O	O	
+8-11	zu	PTKZU	zu	_	O	O	
+8-12	verabreden	VVINF	verabreden	_	O	O	
+8-13	,	$,	,	_	O	O	
+8-14	daß	KOUS	dass	_	O	O	
+8-15	er	PPER	er	_	O	O	
+8-16	uns	PRF	wir	_	O	O	
+8-17	bis	APPR	bis	_	O	O	
+8-18	zum	APPRART	zu	_	O	O	
+8-19	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+8-21	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+8-22	zugehen	VVINF	zugehen	_	O	O	
+8-23	läßt	VVFIN	lassen	_	O	O	
+8-24	,	$,	,	_	O	O	
+8-25	was	PWS	was	_	O	O	
+8-26	er	PPER	er	_	O	O	
+8-27	bis	KON	bis	_	O	O	
+8-28	dahin	PAV	dahin	_	O	O	
+8-29	,	$,	,	_	O	O	
+8-30	viel	ADV	viel	_	O	O	
+8-31	oder	KON	oder	_	O	O	
+8-32	wenig	PIS	wenige	_	O	O	
+8-33	,	$,	,	_	O	O	
+8-34	fertig	ADJD	fertig	_	O	O	
+8-35	scgaffen	VVINF	<unknown>	_	O	O	
+8-36	kann	VMFIN	können	_	O	O	
+8-37	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich werde dann versuchen, mit der Vorlage, die namentlich einen 100 000 r nicht überschreitenden Anschlag des Einzelnen, ohne dieses zu scharf zu
+9-1	Ich	PPER	ich	_	O	O	
+9-2	werde	VAFIN	werden	_	O	O	
+9-3	dann	ADV	dann	_	O	O	
+9-4	versuchen	VVINF	versuchen	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	mit	APPR	mit	_	O	O	
+9-7	der	ART	die	_	O	O	
+9-8	Vorlage	NN	Vorlage	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	die	PRELS	die	_	O	O	
+9-11	namentlich	ADJD	namentlich	_	O	O	
+9-12	einen	ART	eine	_	O	O	
+9-13	100	CARD	100	_	O	O	
+9-14	000	CARD	@card@	_	O	O	
+9-15	r	NE	r	_	O	O	
+9-16	nicht	PTKNEG	nicht	_	O	O	
+9-17	überschreitenden	ADJA	überschreitend	_	O	O	
+9-18	Anschlag	NN	Anschlag	_	O	O	
+9-19	des	ART	die	_	O	O	
+9-20	Einzelnen	NN	Einzelne	_	O	O	
+9-21	,	$,	,	_	O	O	
+9-22	ohne	KOUI	ohne	_	O	O	
+9-23	dieses	PDAT	dies	_	O	O	
+9-24	zu	PTKA	zu	_	O	O	
+9-25	scharf	ADJD	scharf	_	O	O	
+9-26	zu	PTKZU	zu	_	O	O	
+

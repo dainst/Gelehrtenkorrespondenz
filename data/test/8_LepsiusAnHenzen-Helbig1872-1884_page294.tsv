@@ -1,0 +1,147 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=623 Verehrter Freund Lepsius an Henzen Berlin, 1. November 1876 g. 4/XI 76 r. Berlin, 1. Nov.
+1-1	623	CARD	@card@	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	ADJA	<unknown>	_	O	O	
+1-14	4/XI	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	76	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	VVFIN	<unknown>	_	O	O	
+1-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-18	,	$,	,	_	O	O	
+1-19	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Nov.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1876.
+2-1	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=Wir bedürfen hier der vollständigen Liste der Personen, welche Freiexemplare der Institutsschriften erhalten, haben aber nur die Berliner Liste.
+3-1	Wir	PPER	wir	_	O	O	
+3-2	bedürfen	VVFIN	bedürfen	_	O	O	
+3-3	hier	ADV	hier	_	O	O	
+3-4	der	ART	die	_	O	O	
+3-5	vollständigen	ADJA	vollständig	_	O	O	
+3-6	Liste	NN	Liste	_	O	O	
+3-7	der	ART	die	_	O	O	
+3-8	Personen	NN	Person	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	welche	PRELS	welche	_	O	O	
+3-11	Freiexemplare	NN	Freiexemplar	_	O	O	
+3-12	der	ART	die	_	O	O	
+3-13	Institutsschriften	NN	<unknown>	_	O	O	
+3-14	erhalten	VVPP	erhalten	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	haben	VAFIN	haben	_	O	O	
+3-17	aber	ADV	aber	_	O	O	
+3-18	nur	ADV	nur	_	O	O	
+3-19	die	ART	die	_	O	O	
+3-20	Berliner	ADJA	Berliner	_	O	O	
+3-21	Liste	NN	Liste	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=Darf ich Sie bitten mir umgehend die Römische Liste zu senden.
+4-1	Darf	VMFIN	dürfen	_	O	O	
+4-2	ich	PPER	ich	_	O	O	
+4-3	Sie	PPER	Sie	_	O	O	
+4-4	bitten	VVFIN	bitten	_	O	O	
+4-5	mir	PPER	ich	_	O	O	
+4-6	umgehend	ADJD	umgehend	_	O	O	
+4-7	die	ART	die	_	O	O	
+4-8	Römische	ADJA	römisch	_	O	O	
+4-9	Liste	NN	Liste	_	O	O	
+4-10	zu	PTKZU	zu	_	O	O	
+4-11	senden	VVINF	senden	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Über unsre Wünsche wegen der Hausverwaltung werden wir an das Auswärtige Amt berichten, welches dann seinerseits sich mit Herrn v. Keudell uarliber benehmen wird.
+5-1	Über	APPR	über	_	O	O	
+5-2	unsre	PPOSAT	unsre	_	O	O	
+5-3	Wünsche	NN	Wunsch	_	O	O	
+5-4	wegen	APPR	wegen	_	O	O	
+5-5	der	ART	die	_	O	O	
+5-6	Hausverwaltung	NN	Hausverwaltung	_	O	O	
+5-7	werden	VAFIN	werden	_	O	O	
+5-8	wir	PPER	wir	_	O	O	
+5-9	an	APPR	an	_	O	O	
+5-10	das	ART	die	_	O	O	
+5-11	Auswärtige	ADJA	auswärtig	_	O	O	
+5-12	Amt	NN	Amt	_	O	O	
+5-13	berichten	VVFIN	berichten	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	welches	PWAT	welche	_	O	O	
+5-16	dann	ADV	dann	_	O	O	
+5-17	seinerseits	ADV	seinerseits	_	O	O	
+5-18	sich	PRF	sich	_	O	O	
+5-19	mit	APPR	mit	_	O	O	
+5-20	Herrn	NN	Herr	_	O	O	
+5-21	v.	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-22	Keudell	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-23	uarliber	NN	<unknown>	_	O	O	
+5-24	benehmen	VVINF	benehmen	_	O	O	
+5-25	wird	VAFIN	werden	_	O	O	
+5-26	.	$.	.	_	O	O	
+
+#id=6
+#text=Über die Künstlerbibliothek hat Krüger schon längst beabsichtigt mit Herrn v. Büaow zu sprechen, ist aber noch nicht dazu gekommen.
+6-1	Über	APPR	über	_	O	O	
+6-2	die	ART	die	_	O	O	
+6-3	Künstlerbibliothek	NN	<unknown>	_	O	O	
+6-4	hat	VAFIN	haben	_	O	O	
+6-5	Krüger	NN	<unknown>	_	O	O	
+6-6	schon	ADV	schon	_	O	O	
+6-7	längst	ADV	längst	_	O	O	
+6-8	beabsichtigt	ADJD	beabsichtigt	_	O	O	
+6-9	mit	APPR	mit	_	O	O	
+6-10	Herrn	NN	Herr	_	O	O	
+6-11	v.	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-12	Büaow	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-13	zu	PTKZU	zu	_	O	O	
+6-14	sprechen	VVINF	sprechen	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	ist	VAFIN	sein	_	O	O	
+6-17	aber	ADV	aber	_	O	O	
+6-18	noch	ADV	noch	_	O	O	
+6-19	nicht	PTKNEG	nicht	_	O	O	
+6-20	dazu	PAV	dazu	_	O	O	
+6-21	gekommen	VVPP	kommen	_	O	O	
+6-22	.	$.	.	_	O	O	
+
+#id=7
+#text=tet.
+7-1	tet	NE	<unknown>	_	O	O	
+7-2	.	$.	.	_	O	O	
+
+#id=8
+#text=Ihr letzter Bruef vom 24. ist hiermit beantworMit besten Grüßen Ihr ergebenster R Lepsius
+8-1	Ihr	PPOSAT	ihr	_	O	O	
+8-2	letzter	ADJA	letzt	_	O	O	
+8-3	Bruef	NN	<unknown>	_	O	O	
+8-4	vom	APPRART	von	_	O	O	
+8-5	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+8-7	ist	VAFIN	sein	_	O	O	
+8-8	hiermit	PAV	hiermit	_	O	O	
+8-9	beantworMit	NN	<unknown>	_	O	O	
+8-10	besten	ADJA	gut	_	O	O	
+8-11	Grüßen	NN	Gruß|Grüßen	_	O	O	
+8-12	Ihr	PPOSAT	ihr	_	O	O	
+8-13	ergebenster	ADJA	<unknown>	_	O	O	
+8-14	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+8-15	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

@@ -1,0 +1,212 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=~) , 282 2 Helbig an Henzen Rom, 29. Juni 1870 nung der Patroklosvase sofort zum Stechen geschickt.
+1-1	~	XY	~	_	O	O	
+1-2	)	$(	)	_	O	O	
+1-3	,	$,	,	_	O	O	
+1-4	282	CARD	@card@	_	O	O	
+1-5	2	CARD	2	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	nung	ADV	<unknown>	_	O	O	
+1-16	der	ART	die	_	O	O	
+1-17	Patroklosvase	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-18	sofort	ADV	sofort	_	O	O	
+1-19	zum	APPRART	zu	_	O	O	
+1-20	Stechen	NN	Stechen	_	O	O	
+1-21	geschickt	VVPP	schicken	_	O	O	
+1-22	.	$.	.	_	O	O	
+
+#id=2
+#text=Da die große Vorderseite den Umfang einer Monumententafel übersteigt, so habe ich angeordnet, daß er dieses Stück nicht eher in Angriff nehme, als bis Sie ihre Übereinstimmung erklärt, daß die Zeichnung in natürlicher Größe publicirt werde.
+2-1	Da	KOUS	da	_	O	O	
+2-2	die	ART	die	_	O	O	
+2-3	große	ADJA	groß	_	O	O	
+2-4	Vorderseite	NN	Vorderseite	_	O	O	
+2-5	den	ART	die	_	O	O	
+2-6	Umfang	NN	Umfang	_	O	O	
+2-7	einer	ART	eine	_	O	O	
+2-8	Monumententafel	NN	<unknown>	_	O	O	
+2-9	übersteigt	VVFIN	übersteigen	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	so	ADV	so	_	O	O	
+2-12	habe	VAFIN	haben	_	O	O	
+2-13	ich	PPER	ich	_	O	O	
+2-14	angeordnet	VVPP	anordnen	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	daß	KOUS	dass	_	O	O	
+2-17	er	PPER	er	_	O	O	
+2-18	dieses	PDAT	dies	_	O	O	
+2-19	Stück	NN	Stück	_	O	O	
+2-20	nicht	PTKNEG	nicht	_	O	O	
+2-21	eher	ADV	eher	_	O	O	
+2-22	in	APPR	in	_	O	O	
+2-23	Angriff	NN	Angriff	_	O	O	
+2-24	nehme	VVFIN	nehmen	_	O	O	
+2-25	,	$,	,	_	O	O	
+2-26	als	KOKOM	als	_	O	O	
+2-27	bis	KOUS	bis	_	O	O	
+2-28	Sie	PPER	Sie	_	O	O	
+2-29	ihre	PPOSAT	ihr	_	O	O	
+2-30	Übereinstimmung	NN	Übereinstimmung	_	O	O	
+2-31	erklärt	VVPP	erklären	_	O	O	
+2-32	,	$,	,	_	O	O	
+2-33	daß	KOUS	dass	_	O	O	
+2-34	die	ART	die	_	O	O	
+2-35	Zeichnung	NN	Zeichnung	_	O	O	
+2-36	in	APPR	in	_	O	O	
+2-37	natürlicher	ADJA	natürlich	_	O	O	
+2-38	Größe	NN	Größe	_	O	O	
+2-39	publicirt	ADJD	<unknown>	_	O	O	
+2-40	werde	VAFIN	werden	_	O	O	
+2-41	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich halte eine Reduction für entsetzlich unzulässig.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	halte	VVFIN	halten	_	O	O	
+3-3	eine	ART	eine	_	O	O	
+3-4	Reduction	NN	<unknown>	_	O	O	
+3-5	für	APPR	für	_	O	O	
+3-6	entsetzlich	ADJD	entsetzlich	_	O	O	
+3-7	unzulässig	ADJD	unzulässig	_	O	O	
+3-8	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Vase ist schön und interessant.
+4-1	Die	ART	die	_	O	O	
+4-2	Vase	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-3	ist	VAFIN	sein	_	O	O	
+4-4	schön	ADJD	schön	_	O	O	
+4-5	und	KON	und	_	O	O	
+4-6	interessant	ADJD	interessant	_	O	O	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=Bei der Reduction würde Manches verloren gehen.
+5-1	Bei	APPR	bei	_	O	O	
+5-2	der	ART	die	_	O	O	
+5-3	Reduction	NN	<unknown>	_	O	O	
+5-4	würde	VAFIN	werden	_	O	O	
+5-5	Manches	PIS	manche	_	O	O	
+5-6	verloren	VVPP	verlieren	_	O	O	
+5-7	gehen	VVINF	gehen	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Haben Sie die Güte, mir baldigst darüber zu schreiben.
+6-1	Haben	VAFIN	haben	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	die	ART	die	_	O	O	
+6-4	Güte	NN	Güte	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	mir	PRF	ich	_	O	O	
+6-7	baldigst	ADJD	baldig	_	O	O	
+6-8	darüber	PAV	darüber	_	O	O	
+6-9	zu	PTKZU	zu	_	O	O	
+6-10	schreiben	VVINF	schreiben	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Sonst giebt es, abgesehen von Concilsgeschichten, aus Rom wenig Neues zu melden.
+7-1	Sonst	ADV	sonst	_	O	O	
+7-2	giebt	VVFIN	<unknown>	_	O	O	
+7-3	es	PPER	es	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	abgesehen	VVPP	absehen	_	O	O	
+7-6	von	APPR	von	_	O	O	
+7-7	Concilsgeschichten	ADJA	<unknown>	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	aus	APPR	aus	_	O	O	
+7-10	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-11	wenig	PIAT	wenige	_	O	O	
+7-12	Neues	NN	Neue	_	O	O	
+7-13	zu	PTKZU	zu	_	O	O	
+7-14	melden	VVINF	melden	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=Matz reist morgen ab.
+8-1	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	reist	VVFIN	reisen	_	O	O	
+8-3	morgen	ADV	morgen	_	O	O	
+8-4	ab	PTKVZ	ab	_	O	O	
+8-5	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich gehe dieser Tage nach Cervetri, um den Platz der Ausgrabungen anzusehen, wo sich die Berliner Terracotten gefunden.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	gehe	VVFIN	gehen	_	O	O	
+9-3	dieser	PDAT	dies	_	O	O	
+9-4	Tage	NN	Tag	_	O	O	
+9-5	nach	APPR	nach	_	O	O	
+9-6	Cervetri	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-7	,	$,	,	_	O	O	
+9-8	um	KOUI	um	_	O	O	
+9-9	den	ART	die	_	O	O	
+9-10	Platz	NN	Platz	_	O	O	
+9-11	der	ART	die	_	O	O	
+9-12	Ausgrabungen	NN	Ausgrabung	_	O	O	
+9-13	anzusehen	VVIZU	ansehen	_	O	O	
+9-14	,	$,	,	_	O	O	
+9-15	wo	PWAV	wo	_	O	O	
+9-16	sich	PRF	sich	_	O	O	
+9-17	die	ART	die	_	O	O	
+9-18	Berliner	ADJA	Berliner	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-19	Terracotten	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-20	gefunden	VVPP	finden	_	O	O	
+9-21	.	$.	.	_	O	O	
+
+#id=10
+#text=Das Julibullettino erscheint binnen acht Tagen.
+10-1	Das	ART	die	_	O	O	
+10-2	Julibullettino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-3	erscheint	VVFIN	erscheinen	_	O	O	
+10-4	binnen	APPR	binnen	_	O	O	
+10-5	acht	CARD	acht	_	O	O	
+10-6	Tagen	NN	Tag	_	O	O	
+10-7	.	$.	.	_	O	O	
+
+#id=11
+#text=Hinck und Schulz grüßen vielmals.
+11-1	Hinck	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	und	KON	und	_	O	O	
+11-3	Schulz	NE	Schulz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-4	grüßen	VVFIN	grüßen	_	O	O	
+11-5	vielmals	ADV	vielmals	_	O	O	
+11-6	.	$.	.	_	O	O	
+
+#id=12
+#text=Mit herzlichen Grüßen Ihr ergebener Helbig • Hätten Sie die Güte, in Berlin Sc pers Beförderung und die Affaire des Institutszimmers anzuregen ?
+12-1	Mit	APPR	mit	_	O	O	
+12-2	herzlichen	ADJA	herzlich	_	O	O	
+12-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+12-4	Ihr	PPOSAT	ihr	_	O	O	
+12-5	ergebener	ADJA	ergeben	_	O	O	
+12-6	Helbig	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-7	•	NN	<unknown>	_	O	O	
+12-8	Hätten	VAFIN	haben	_	O	O	
+12-9	Sie	PPER	Sie	_	O	O	
+12-10	die	ART	die	_	O	O	
+12-11	Güte	NN	Güte	_	O	O	
+12-12	,	$,	,	_	O	O	
+12-13	in	APPR	in	_	O	O	
+12-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-15	Sc	NE	<unknown>	_	O	O	
+12-16	pers	ADJA	<unknown>	_	O	O	
+12-17	Beförderung	NN	Beförderung	_	O	O	
+12-18	und	KON	und	_	O	O	
+12-19	die	ART	die	_	O	O	
+12-20	Affaire	NN	<unknown>	_	O	O	
+12-21	des	ART	die	_	O	O	
+12-22	Institutszimmers	NN	<unknown>	_	O	O	
+12-23	anzuregen	VVIZU	anregen	_	O	O	
+12-24	?	$.	?	_	O	O	
+

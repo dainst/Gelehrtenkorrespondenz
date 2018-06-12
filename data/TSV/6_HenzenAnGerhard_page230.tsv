@@ -1,0 +1,183 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=" 5 12/1/55 3 Henzen an Gerhard gegeben u. Fabbris anerkennen will, so dß.
+1-1	"	$(	"	_	O	O	
+1-2	5	CARD	5	_	O	O	
+1-3	12/1/55	CARD	@card@	_	O	O	
+1-4	3	CARD	3	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	gegeben	VVPP	geben	_	O	O	
+1-9	u.	APPR	um	_	O	O	
+1-10	Fabbris	NN	<unknown>	_	O	O	
+1-11	anerkennen	VVINF	anerkennen	_	O	O	
+1-12	will	VMFIN	wollen	_	O	O	
+1-13	,	$,	,	_	O	O	
+1-14	so	ADV	so	_	O	O	
+1-15	dß	ADJD	<unknown>	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=de Ros s i selbst, der aus Besorgnis, sich zu compromittiren, frÜher dagegen war, auch einwilligt.
+2-1	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	Ros	NE	Ros	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-3	s	NN	s	_	O	O	
+2-4	i	NE	i	_	O	O	
+2-5	selbst	ADV	selbst	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	der	PRELS	die	_	O	O	
+2-8	aus	APPR	aus	_	O	O	
+2-9	Besorgnis	NN	Besorgnis	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	sich	PRF	sich	_	O	O	
+2-12	zu	APPR	zu	_	O	O	
+2-13	compromittiren	ADJA	<unknown>	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	frÜher	ADJA	früh	_	O	O	
+2-16	dagegen	PAV	dagegen	_	O	O	
+2-17	war	VAFIN	sein	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	auch	ADV	auch	_	O	O	
+2-20	einwilligt	VVFIN	einwilligen	_	O	O	
+2-21	.	$.	.	_	O	O	
+
+#id=3
+#text=Der Grund zu all diesem scheint uns zu sein, dß.
+3-1	Der	ART	die	_	O	O	
+3-2	Grund	NN	Grund	_	O	O	
+3-3	zu	APPR	zu	_	O	O	
+3-4	all	PIAT	alle	_	O	O	
+3-5	diesem	PDAT	dies	_	O	O	
+3-6	scheint	VVFIN	scheinen	_	O	O	
+3-7	uns	PPER	wir	_	O	O	
+3-8	zu	PTKZU	zu	_	O	O	
+3-9	sein	VAINF	sein	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	dß	VVFIN	<unknown>	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=nicht feststeht, zu wessen Competenz die Galleria lapidaria gehört.
+4-1	nicht	PTKNEG	nicht	_	O	O	
+4-2	feststeht	VVFIN	feststehen	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	zu	PTKA	zu	_	O	O	
+4-5	wessen	PWS	wer	_	O	O	
+4-6	Competenz	NN	<unknown>	_	O	O	
+4-7	die	ART	die	_	O	O	
+4-8	Galleria	NE	<unknown>	_	O	O	
+4-9	lapidaria	NE	<unknown>	_	O	O	
+4-10	gehört	VVFIN	gehören	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Darüber sind 9 ode 10 Wochen verflossen.
+5-1	Darüber	PAV	darüber	_	O	O	
+5-2	sind	VAFIN	sein	_	O	O	
+5-3	9	CARD	9	_	O	O	
+5-4	ode	ADJA	<unknown>	_	O	O	
+5-5	10	CARD	10	_	O	O	
+5-6	Wochen	NN	Woche	_	O	O	
+5-7	verflossen	VVPP	verfließen	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Meine Frau grüßt von Herzen Sie u. die Ihrige.
+6-1	Meine	PPOSAT	mein	_	O	O	
+6-2	Frau	NN	Frau	_	O	O	
+6-3	grüßt	VVFIN	grüßen	_	O	O	
+6-4	von	APPR	von	_	O	O	
+6-5	Herzen	NN	Herz	_	O	O	
+6-6	Sie	PPER	Sie	_	O	O	
+6-7	u.	APPR	um	_	O	O	
+6-8	die	ART	die	_	O	O	
+6-9	Ihrige	PPOSAT	ihrige	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Die allgemein hier herrschende Grippe hatte sich bei ihr auf ihre alten Uebel geworfen; jetzt geht's.
+7-1	Die	ART	die	_	O	O	
+7-2	allgemein	ADJD	allgemein	_	O	O	
+7-3	hier	ADV	hier	_	O	O	
+7-4	herrschende	ADJA	herrschend	_	O	O	
+7-5	Grippe	NN	Grippe	_	O	O	
+7-6	hatte	VAFIN	haben	_	O	O	
+7-7	sich	PRF	sich	_	O	O	
+7-8	bei	APPR	bei	_	O	O	
+7-9	ihr	PPOSAT	ihr	_	O	O	
+7-10	auf	APPR	auf	_	O	O	
+7-11	ihre	PPOSAT	ihr	_	O	O	
+7-12	alten	ADJA	alt	_	O	O	
+7-13	Uebel	NN	<unknown>	_	O	O	
+7-14	geworfen	VVPP	werfen	_	O	O	
+7-15	;	$.	;	_	O	O	
+7-16	jetzt	ADV	jetzt	_	O	O	
+7-17	geht's	VVFIN	gehen	_	O	O	
+7-18	.	$.	.	_	O	O	
+
+#id=8
+#text=Können Sie nicht in dem Dankschreiben an de Rossi eine anerkennende Phrase für Msg. di San Marzano als Präfecten der Bibliothek einfließen lassen?
+8-1	Können	VMFIN	können	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	nicht	PTKNEG	nicht	_	O	O	
+8-4	in	APPR	in	_	O	O	
+8-5	dem	ART	die	_	O	O	
+8-6	Dankschreiben	NN	Dankschreiben	_	O	O	
+8-7	an	APPR	an	_	O	O	
+8-8	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-9	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-10	eine	ART	eine	_	O	O	
+8-11	anerkennende	ADJA	anerkennend	_	O	O	
+8-12	Phrase	NN	Phrase	_	O	O	
+8-13	für	APPR	für	_	O	O	
+8-14	Msg	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-15	.	$.	.	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+8-16	di	NE	di	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+8-17	San	NE	San	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+8-18	Marzano	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+8-19	als	KOKOM	als	_	O	O	
+8-20	Präfecten	NN	<unknown>	_	O	O	
+8-21	der	ART	die	_	O	O	
+8-22	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-23	einfließen	VVINF	einfließen	_	O	O	
+8-24	lassen	VVFIN	lassen	_	O	O	
+8-25	?	$.	?	_	O	O	
+
+#id=9
+#text=Der Mann ist sehr freundlich u. gefällig, u. so kann es nicht schaden, ihm eine gentilezza zu sagen.
+9-1	Der	ART	die	_	O	O	
+9-2	Mann	NN	Mann	_	O	O	
+9-3	ist	VAFIN	sein	_	O	O	
+9-4	sehr	ADV	sehr	_	O	O	
+9-5	freundlich	ADJD	freundlich	_	O	O	
+9-6	u.	KON	und	_	O	O	
+9-7	gefällig	ADJD	gefällig	_	O	O	
+9-8	,	$,	,	_	O	O	
+9-9	u.	KON	und	_	O	O	
+9-10	so	ADV	so	_	O	O	
+9-11	kann	VMFIN	können	_	O	O	
+9-12	es	PPER	es	_	O	O	
+9-13	nicht	PTKNEG	nicht	_	O	O	
+9-14	schaden	VVINF	schaden	_	O	O	
+9-15	,	$,	,	_	O	O	
+9-16	ihm	PPER	er	_	O	O	
+9-17	eine	VVFIN	einen	_	O	O	
+9-18	gentilezza	ADJD	<unknown>	_	O	O	
+9-19	zu	PTKZU	zu	_	O	O	
+9-20	sagen	VVINF	sagen	_	O	O	
+9-21	.	$.	.	_	O	O	
+
+#id=10
+#text=Ihr ergebenster W. Henzen.
+10-1	Ihr	PPOSAT	ihr	_	O	O	
+10-2	ergebenster	ADJA	<unknown>	_	O	O	
+10-3	W.	NE	W.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-4	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-5	.	$.	.	_	O	O	
+
+#id=11
+#text=Rom 12/55
+11-1	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+11-2	12/55	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+

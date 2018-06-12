@@ -1,0 +1,320 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=I , 64 Henzen an Gerhard 15/11/1852 ( s.u. Braun/Gerhard ) 2 heit Braun und Brunn hatten setzen lassen, wegen allerlei impicci noch nicht abgezogen waren, als ich zurückkam.
+1-1	I	FM	I	_	O	O	
+1-2	,	$,	,	_	O	O	
+1-3	64	CARD	64	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	15/11/1852	CARD	@card@	_	O	O	
+1-8	(	$(	(	_	O	O	
+1-9	s.u.	NE	<unknown>	_	O	O	
+1-10	Braun/Gerhard	NE	<unknown>	_	O	O	
+1-11	)	$(	)	_	O	O	
+1-12	2	CARD	2	_	O	O	
+1-13	heit	NN	<unknown>	_	O	O	
+1-14	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-15	und	KON	und	_	O	O	
+1-16	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-17	hatten	VAFIN	haben	_	O	O	
+1-18	setzen	VVINF	setzen	_	O	O	
+1-19	lassen	VVINF	lassen	_	O	O	
+1-20	,	$,	,	_	O	O	
+1-21	wegen	APPR	wegen	_	O	O	
+1-22	allerlei	PIAT	allerlei	_	O	O	
+1-23	impicci	NE	<unknown>	_	O	O	
+1-24	noch	ADV	noch	_	O	O	
+1-25	nicht	PTKNEG	nicht	_	O	O	
+1-26	abgezogen	VVPP	abziehen	_	O	O	
+1-27	waren	VAFIN	sein	_	O	O	
+1-28	,	$,	,	_	O	O	
+1-29	als	KOUS	als	_	O	O	
+1-30	ich	PPER	ich	_	O	O	
+1-31	zurückkam	VVFIN	zurückkommen	_	O	O	
+1-32	.	$.	.	_	O	O	
+
+#id=2
+#text=Unentbehrlich dürfte also Brunn nicht sein, sobald jeder thut, was ihm zukommt, obwohl mir persönlich sein Abgang vielfach leid thut.
+2-1	Unentbehrlich	ADJD	unentbehrlich	_	O	O	
+2-2	dürfte	VMFIN	dürfen	_	O	O	
+2-3	also	ADV	also	_	O	O	
+2-4	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-5	nicht	PTKNEG	nicht	_	O	O	
+2-6	sein	VAINF	sein	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	sobald	KOUS	sobald	_	O	O	
+2-9	jeder	PIAT	jede	_	O	O	
+2-10	thut	NN	<unknown>	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	was	PRELS	was	_	O	O	
+2-13	ihm	PPER	er	_	O	O	
+2-14	zukommt	VVFIN	zukommen	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	obwohl	KOUS	obwohl	_	O	O	
+2-17	mir	PPER	ich	_	O	O	
+2-18	persönlich	ADJD	persönlich	_	O	O	
+2-19	sein	PPOSAT	sein	_	O	O	
+2-20	Abgang	NN	Abgang	_	O	O	
+2-21	vielfach	ADV	vielfach	_	O	O	
+2-22	leid	ADJD	leid	_	O	O	
+2-23	thut	NN	<unknown>	_	O	O	
+2-24	.	$.	.	_	O	O	
+
+#id=3
+#text=Wie aber soll man ihn hier halten, wo er gar keine Aussicht hat und doch nicht immer von Collationen und Fremdenführen leben will ?
+3-1	Wie	KOKOM	wie	_	O	O	
+3-2	aber	ADV	aber	_	O	O	
+3-3	soll	VMFIN	sollen	_	O	O	
+3-4	man	PIS	man	_	O	O	
+3-5	ihn	PPER	er	_	O	O	
+3-6	hier	ADV	hier	_	O	O	
+3-7	halten	VVINF	halten	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	wo	PWAV	wo	_	O	O	
+3-10	er	PPER	er	_	O	O	
+3-11	gar	ADV	gar	_	O	O	
+3-12	keine	PIAT	keine	_	O	O	
+3-13	Aussicht	NN	Aussicht	_	O	O	
+3-14	hat	VAFIN	haben	_	O	O	
+3-15	und	KON	und	_	O	O	
+3-16	doch	ADV	doch	_	O	O	
+3-17	nicht	PTKNEG	nicht	_	O	O	
+3-18	immer	ADV	immer	_	O	O	
+3-19	von	APPR	von	_	O	O	
+3-20	Collationen	NN	<unknown>	_	O	O	
+3-21	und	KON	und	_	O	O	
+3-22	Fremdenführen	NN	<unknown>	_	O	O	
+3-23	leben	VVINF	leben	_	O	O	
+3-24	will	VMFIN	wollen	_	O	O	
+3-25	?	$.	?	_	O	O	
+
+#id=4
+#text=rJ.i.eine Aeußerung über das C.I.L. nennen Sie ungewaschen)dafür, hoffe ich, ist sie auch ungeschminkt.
+4-1	rJ.i.eine	ADJA	<unknown>	_	O	O	
+4-2	Aeußerung	NN	<unknown>	_	O	O	
+4-3	über	APPR	über	_	O	O	
+4-4	das	ART	die	_	O	O	
+4-5	C.I.L.	NE	<unknown>	_	O	O	
+4-6	nennen	VVFIN	nennen	_	O	O	
+4-7	Sie	PPER	Sie	_	O	O	
+4-8	ungewaschen)dafür	ADJD	<unknown>	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	hoffe	VVFIN	hoffen	_	O	O	
+4-11	ich	PPER	ich	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	ist	VAFIN	sein	_	O	O	
+4-14	sie	PPER	sie	_	O	O	
+4-15	auch	ADV	auch	_	O	O	
+4-16	ungeschminkt	ADJD	ungeschminkt	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=~ine bedächtige Corporation könne sich nicht von Rom Hülfe holen, sagen i:iie; d. h. mit andern Norten, das C.I.L. muß in Berlin gemacht werden, und das ist eben der Punkt, durch den das ganze Unternehmen seinen ','Jerth verliert, um nicht zu sagen, unsinnig ist.
+5-1	~ine	NN	<unknown>	_	O	O	
+5-2	bedächtige	ADJA	bedächtig	_	O	O	
+5-3	Corporation	NN	<unknown>	_	O	O	
+5-4	könne	VMFIN	können	_	O	O	
+5-5	sich	PRF	sich	_	O	O	
+5-6	nicht	PTKNEG	nicht	_	O	O	
+5-7	von	APPR	von	_	O	O	
+5-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-9	Hülfe	NN	<unknown>	_	O	O	
+5-10	holen	VVINF	holen	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	sagen	VVINF	sagen	_	O	O	
+5-13	i:iie	VVFIN	<unknown>	_	O	O	
+5-14	;	$.	;	_	O	O	
+5-15	d.	PDS	d.	_	O	O	
+5-16	h.	VVFIN	heißen	_	O	O	
+5-17	mit	APPR	mit	_	O	O	
+5-18	andern	PIAT	andere	_	O	O	
+5-19	Norten	NN	<unknown>	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	das	PRELS	die	_	O	O	
+5-22	C.I.L.	NE	<unknown>	_	O	O	
+5-23	muß	VMFIN	müssen	_	O	O	
+5-24	in	APPR	in	_	O	O	
+5-25	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-26	gemacht	VVPP	machen	_	O	O	
+5-27	werden	VAINF	werden	_	O	O	
+5-28	,	$,	,	_	O	O	
+5-29	und	KON	und	_	O	O	
+5-30	das	PDS	die	_	O	O	
+5-31	ist	VAFIN	sein	_	O	O	
+5-32	eben	ADV	eben	_	O	O	
+5-33	der	ART	die	_	O	O	
+5-34	Punkt	NN	Punkt	_	O	O	
+5-35	,	$,	,	_	O	O	
+5-36	durch	APPR	durch	_	O	O	
+5-37	den	PRELS	die	_	O	O	
+5-38	das	ART	die	_	O	O	
+5-39	ganze	ADJA	ganz	_	O	O	
+5-40	Unternehmen	NN	Unternehmen	_	O	O	
+5-41	seinen	PPOSAT	sein	_	O	O	
+5-42	'	$(	'	_	O	O	
+5-43	,'Jerth	NN	<unknown>	_	O	O	
+5-44	verliert	VVFIN	verlieren	_	O	O	
+5-45	,	$,	,	_	O	O	
+5-46	um	KOUI	um	_	O	O	
+5-47	nicht	PTKNEG	nicht	_	O	O	
+5-48	zu	PTKZU	zu	_	O	O	
+5-49	sagen	VVINF	sagen	_	O	O	
+5-50	,	$,	,	_	O	O	
+5-51	unsinnig	ADJD	unsinnig	_	O	O	
+5-52	ist	VAFIN	sein	_	O	O	
+5-53	.	$.	.	_	O	O	
+
+#id=6
+#text=Und ist es nicht zugleich eine Beleidigung, wenn man sagt, einem Entfernten könne man nicht beauftragen?
+6-1	Und	KON	und	_	O	O	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	es	PPER	es	_	O	O	
+6-4	nicht	PTKNEG	nicht	_	O	O	
+6-5	zugleich	ADV	zugleich	_	O	O	
+6-6	eine	ART	eine	_	O	O	
+6-7	Beleidigung	NN	Beleidigung	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	wenn	KOUS	wenn	_	O	O	
+6-10	man	PIS	man	_	O	O	
+6-11	sagt	VVFIN	sagen	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	einem	ART	eine	_	O	O	
+6-14	Entfernten	NN	Entfernte	_	O	O	
+6-15	könne	VMFIN	können	_	O	O	
+6-16	man	PIS	man	_	O	O	
+6-17	nicht	PTKNEG	nicht	_	O	O	
+6-18	beauftragen	VVINF	beauftragen	_	O	O	
+6-19	?	$.	?	_	O	O	
+
+#id=7
+#text=Wer ein Gewissen hat, wird arbeiten, auch ohne specielle Controlle; wer keines hat, nicht, und wenn ihn zehn Akademien auf die Finger passen, wie Sie das zur Genüge erfahren haben sollten.
+7-1	Wer	PWS	wer	_	O	O	
+7-2	ein	ART	eine	_	O	O	
+7-3	Gewissen	NN	Gewissen	_	O	O	
+7-4	hat	VAFIN	haben	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	wird	VAFIN	werden	_	O	O	
+7-7	arbeiten	VVINF	arbeiten	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	auch	ADV	auch	_	O	O	
+7-10	ohne	APPR	ohne	_	O	O	
+7-11	specielle	ADJA	<unknown>	_	O	O	
+7-12	Controlle	NN	<unknown>	_	O	O	
+7-13	;	$.	;	_	O	O	
+7-14	wer	PWS	wer	_	O	O	
+7-15	keines	PIS	keine	_	O	O	
+7-16	hat	VAFIN	haben	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	nicht	PTKNEG	nicht	_	O	O	
+7-19	,	$,	,	_	O	O	
+7-20	und	KON	und	_	O	O	
+7-21	wenn	KOUS	wenn	_	O	O	
+7-22	ihn	PPER	er	_	O	O	
+7-23	zehn	CARD	zehn	_	O	O	
+7-24	Akademien	NN	Akademie	_	O	O	
+7-25	auf	APPR	auf	_	O	O	
+7-26	die	ART	die	_	O	O	
+7-27	Finger	NN	Finger	_	O	O	
+7-28	passen	VVFIN	passen	_	O	O	
+7-29	,	$,	,	_	O	O	
+7-30	wie	KOUS	wie	_	O	O	
+7-31	Sie	PPER	Sie	_	O	O	
+7-32	das	PDS	die	_	O	O	
+7-33	zur	APPRART	zu	_	O	O	
+7-34	Genüge	NN	Genüge	_	O	O	
+7-35	erfahren	VVPP	erfahren	_	O	O	
+7-36	haben	VAINF	haben	_	O	O	
+7-37	sollten	VMFIN	sollen	_	O	O	
+7-38	.	$.	.	_	O	O	
+
+#id=8
+#text=Ohnehin sitzt in Ihrer ganzen Akademie kein ~inziger, der in epigraphicis latinil competent wäre, sobald es sich um mehr, als um gesunden Menschenverstand und die daraus fließenden allgemeinen Principien handelt, und selbst diese hat die Mehrzahl der Mitglieder ja so glänzend verleugnet!
+8-1	Ohnehin	ADV	ohnehin	_	O	O	
+8-2	sitzt	VVFIN	sitzen	_	O	O	
+8-3	in	APPR	in	_	O	O	
+8-4	Ihrer	PPOSAT	ihr	_	O	O	
+8-5	ganzen	ADJA	ganz	_	O	O	
+8-6	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-7	kein	PIAT	keine	_	O	O	
+8-8	~inziger	NN	<unknown>	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	der	PRELS	die	_	O	O	
+8-11	in	APPR	in	_	O	O	
+8-12	epigraphicis	NE	<unknown>	_	O	O	
+8-13	latinil	NE	<unknown>	_	O	O	
+8-14	competent	ADJD	<unknown>	_	O	O	
+8-15	wäre	VAFIN	sein	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	sobald	KOUS	sobald	_	O	O	
+8-18	es	PPER	es	_	O	O	
+8-19	sich	PRF	sich	_	O	O	
+8-20	um	APPR	um	_	O	O	
+8-21	mehr	ADV	mehr	_	O	O	
+8-22	,	$,	,	_	O	O	
+8-23	als	KOUS	als	_	O	O	
+8-24	um	APPR	um	_	O	O	
+8-25	gesunden	ADJA	gesund	_	O	O	
+8-26	Menschenverstand	NN	Menschenverstand	_	O	O	
+8-27	und	KON	und	_	O	O	
+8-28	die	ART	die	_	O	O	
+8-29	daraus	PAV	daraus	_	O	O	
+8-30	fließenden	ADJA	fließend	_	O	O	
+8-31	allgemeinen	ADJA	allgemein	_	O	O	
+8-32	Principien	NN	<unknown>	_	O	O	
+8-33	handelt	VVFIN	handeln	_	O	O	
+8-34	,	$,	,	_	O	O	
+8-35	und	KON	und	_	O	O	
+8-36	selbst	ADV	selbst	_	O	O	
+8-37	diese	PDS	diese	_	O	O	
+8-38	hat	VAFIN	haben	_	O	O	
+8-39	die	ART	die	_	O	O	
+8-40	Mehrzahl	NN	Mehrzahl	_	O	O	
+8-41	der	ART	die	_	O	O	
+8-42	Mitglieder	NN	Mitglied	_	O	O	
+8-43	ja	ADV	ja	_	O	O	
+8-44	so	ADV	so	_	O	O	
+8-45	glänzend	ADJD	glänzend	_	O	O	
+8-46	verleugnet	VVPP	verleugnen	_	O	O	
+8-47	!	$.	!	_	O	O	
+
+#id=9
+#text=Bei dieser Expertenaction habe ich indeß stets besonders Mommsen im Auge.
+9-1	Bei	APPR	bei	_	O	O	
+9-2	dieser	PDAT	dies	_	O	O	
+9-3	Expertenaction	NN	<unknown>	_	O	O	
+9-4	habe	VAFIN	haben	_	O	O	
+9-5	ich	PPER	ich	_	O	O	
+9-6	indeß	NN	<unknown>	_	O	O	
+9-7	stets	ADV	stets	_	O	O	
+9-8	besonders	ADV	besonders	_	O	O	
+9-9	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-10	im	APPRART	in	_	O	O	
+9-11	Auge	NN	Auge	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich höre, Ihre Akademie habe sich an Ritschl gewandt.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	höre	VVFIN	hören	_	O	O	
+10-3	,	$,	,	_	O	O	
+10-4	Ihre	PPOSAT	ihr	_	O	O	
+10-5	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-6	habe	VAFIN	haben	_	O	O	
+10-7	sich	PRF	sich	_	O	O	
+10-8	an	APPR	an	_	O	O	
+10-9	Ritschl	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-10	gewandt	VVPP	wenden	_	O	O	
+10-11	.	$.	.	_	O	O	
+
+#id=11
+#text=Ich zweifle nicht, daß derselbe ihr vernünftige
+11-1	Ich	PPER	ich	_	O	O	
+11-2	zweifle	VVFIN	zweifeln	_	O	O	
+11-3	nicht	PTKNEG	nicht	_	O	O	
+11-4	,	$,	,	_	O	O	
+11-5	daß	KOUS	dass	_	O	O	
+11-6	derselbe	PDS	derselbe	_	O	O	
+11-7	ihr	PPOSAT	ihr	_	O	O	
+11-8	vernünftige	ADJA	vernünftig	_	O	O	
+

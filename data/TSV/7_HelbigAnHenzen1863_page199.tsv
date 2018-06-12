@@ -1,0 +1,155 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an Henzen Achern, 18. Oktober 1873 2 leicht vergessen haben, die Blätter Mariani einzuhändigen ?
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	Achern	VVFIN	<unknown>	_	O	O	
+1-5	,	$,	,	_	O	O	
+1-6	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	2	CARD	2	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	leicht	ADJD	leicht	_	O	O	
+1-12	vergessen	VVPP	vergessen	_	O	O	
+1-13	haben	VAFIN	haben	_	O	O	
+1-14	,	$,	,	_	O	O	
+1-15	die	ART	die	_	O	O	
+1-16	Blätter	NN	Blatt	_	O	O	
+1-17	Mariani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-18	einzuhändigen	VVIZU	einhändigen	_	O	O	
+1-19	?	$.	?	_	O	O	
+
+#id=2
+#text=Michaelis trifft den 24. Oktober in Straßburg ein und bringt die für uns bestimmten Zeichnungen des Nereidenmonuments mit.
+2-1	Michaelis	NE	Michaelis	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	trifft	VVFIN	treffen	_	O	O	
+2-3	den	ART	die	_	O	O	
+2-4	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-6	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-7	in	APPR	in	_	O	O	
+2-8	Straßburg	NE	Straßburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-9	ein	PTKVZ	ein	_	O	O	
+2-10	und	KON	und	_	O	O	
+2-11	bringt	VVFIN	bringen	_	O	O	
+2-12	die	ART	die	_	O	O	
+2-13	für	APPR	für	_	O	O	
+2-14	uns	PPER	wir	_	O	O	
+2-15	bestimmten	ADJA	bestimmt	_	O	O	
+2-16	Zeichnungen	NN	Zeichnung	_	O	O	
+2-17	des	ART	die	_	O	O	
+2-18	Nereidenmonuments	NN	<unknown>	_	O	O	
+2-19	mit	PTKVZ	mit	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Was meinen Sie dazu, wenn wir dieselbe von dem kleinen Schulz stechen ließen?
+3-1	Was	PWS	was	_	O	O	
+3-2	meinen	VVFIN	meinen	_	O	O	
+3-3	Sie	PPER	Sie	_	O	O	
+3-4	dazu	PAV	dazu	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	wenn	KOUS	wenn	_	O	O	
+3-7	wir	PPER	wir	_	O	O	
+3-8	dieselbe	PDS	dieselbe	_	O	O	
+3-9	von	APPR	von	_	O	O	
+3-10	dem	ART	die	_	O	O	
+3-11	kleinen	ADJA	klein	_	O	O	
+3-12	Schulz	NE	Schulz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-13	stechen	VVINF	stechen	_	O	O	
+3-14	ließen	VVFIN	lassen	_	O	O	
+3-15	?	$.	?	_	O	O	
+
+#id=4
+#text=Die Zeichnungen sind in der "blassen Bleistiftmanier" - so schreibt Michaelis - ausgeführt und ich fürchte, daß sich De Sanctis nur schwer in diese ihm wenig geläufige Weise hineinfinden wird.
+4-1	Die	ART	die	_	O	O	
+4-2	Zeichnungen	NN	Zeichnung	_	O	O	
+4-3	sind	VAFIN	sein	_	O	O	
+4-4	in	APPR	in	_	O	O	
+4-5	der	ART	die	_	O	O	
+4-6	"	$(	"	_	O	O	
+4-7	blassen	ADJA	blass	_	O	O	
+4-8	Bleistiftmanier	NN	<unknown>	_	O	O	
+4-9	"	$(	"	_	O	O	
+4-10	-	$(	-	_	O	O	
+4-11	so	ADV	so	_	O	O	
+4-12	schreibt	VVFIN	schreiben	_	O	O	
+4-13	Michaelis	NE	Michaelis	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-14	-	$(	-	_	O	O	
+4-15	ausgeführt	VVPP	ausführen	_	O	O	
+4-16	und	KON	und	_	O	O	
+4-17	ich	PPER	ich	_	O	O	
+4-18	fürchte	VVFIN	fürchten	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	daß	KOUS	dass	_	O	O	
+4-21	sich	PRF	sich	_	O	O	
+4-22	De	NE	De	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-23	Sanctis	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-24	nur	ADV	nur	_	O	O	
+4-25	schwer	ADJD	schwer	_	O	O	
+4-26	in	APPR	in	_	O	O	
+4-27	diese	PDAT	dies	_	O	O	
+4-28	ihm	PPER	er	_	O	O	
+4-29	wenig	PIAT	wenige	_	O	O	
+4-30	geläufige	ADJA	geläufig	_	O	O	
+4-31	Weise	NN	Weise	_	O	O	
+4-32	hineinfinden	VVPP	<unknown>	_	O	O	
+4-33	wird	VAFIN	werden	_	O	O	
+4-34	.	$.	.	_	O	O	
+
+#id=5
+#text=Von Kaibel habe ich seit seiner Abreise von Rom keine Nachricht gehabt.
+5-1	Von	APPR	von	_	O	O	
+5-2	Kaibel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	habe	VAFIN	haben	_	O	O	
+5-4	ich	PPER	ich	_	O	O	
+5-5	seit	APPR	seit	_	O	O	
+5-6	seiner	PPOSAT	sein	_	O	O	
+5-7	Abreise	NN	Abreise	_	O	O	
+5-8	von	APPR	von	_	O	O	
+5-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-10	keine	PIAT	keine	_	O	O	
+5-11	Nachricht	NN	Nachricht	_	O	O	
+5-12	gehabt	VAPP	haben	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Grüßen Sie alle Capitoliner.
+6-1	Grüßen	VVFIN	grüßen	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	alle	PIAT	alle	_	O	O	
+6-4	Capitoliner	NN	<unknown>	_	O	O	
+6-5	.	$.	.	_	O	O	
+
+#id=7
+#text=Wie Sie sich denken können, bin ich in keiner geringen Aufregung.
+7-1	Wie	KOUS	wie	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	sich	PRF	sich	_	O	O	
+7-4	denken	VVINF	denken	_	O	O	
+7-5	können	VMFIN	können	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	bin	VAFIN	sein	_	O	O	
+7-8	ich	PPER	ich	_	O	O	
+7-9	in	APPR	in	_	O	O	
+7-10	keiner	PIAT	keine	_	O	O	
+7-11	geringen	ADJA	gering	_	O	O	
+7-12	Aufregung	NN	Aufregung	_	O	O	
+7-13	.	$.	.	_	O	O	
+
+#id=8
+#text=Hoffen wir das Beste.
+8-1	Hoffen	VVFIN	hoffen	_	O	O	
+8-2	wir	PPER	wir	_	O	O	
+8-3	das	ART	die	_	O	O	
+8-4	Beste	NN	Beste	_	O	O	
+8-5	.	$.	.	_	O	O	
+
+#id=9
+#text=Ihr ergebener Helbig
+9-1	Ihr	PPOSAT	ihr	_	O	O	
+9-2	ergebener	ADJA	ergeben	_	O	O	
+9-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

@@ -1,0 +1,81 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Lepsius an Henzen Berlin, 30. Januar 1875 2 rektion oder eines seiner Mitglieder, wenn es Privatsachen sind.
+1-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	2	CARD	2	_	O	O	
+1-11	rektion	NN	<unknown>	_	O	O	
+1-12	oder	KON	oder	_	O	O	
+1-13	eines	ART	eine	_	O	O	
+1-14	seiner	PPOSAT	sein	_	O	O	
+1-15	Mitglieder	NN	Mitglied	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	wenn	KOUS	wenn	_	O	O	
+1-18	es	PPER	es	_	O	O	
+1-19	Privatsachen	NN	Privatsache	_	O	O	
+1-20	sind	VAFIN	sein	_	O	O	
+1-21	.	$.	.	_	O	O	
+
+#id=2
+#text=Den Reservefonds können Sie also senden, hat aber keine Eile.
+2-1	Den	ART	die	_	O	O	
+2-2	Reservefonds	NN	Reservefonds	_	O	O	
+2-3	können	VMFIN	können	_	O	O	
+2-4	Sie	PPER	Sie	_	O	O	
+2-5	also	ADV	also	_	O	O	
+2-6	senden	VVINF	senden	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	hat	VAFIN	haben	_	O	O	
+2-9	aber	ADV	aber	_	O	O	
+2-10	keine	PIAT	keine	_	O	O	
+2-11	Eile	NN	Eile	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Am 20. Februar muß die Institutsrechnung ganz fertig von der Kasse vorgelegt werden.
+3-1	Am	APPRART	an	_	O	O	
+3-2	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-3	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-4	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-5	muß	VMFIN	müssen	_	O	O	
+3-6	die	ART	die	_	O	O	
+3-7	Institutsrechnung	NN	<unknown>	_	O	O	
+3-8	ganz	ADV	ganz	_	O	O	
+3-9	fertig	ADJD	fertig	_	O	O	
+3-10	von	APPR	von	_	O	O	
+3-11	der	ART	die	_	O	O	
+3-12	Kasse	NN	Kasse	_	O	O	
+3-13	vorgelegt	VVPP	vorlegen	_	O	O	
+3-14	werden	VAINF	werden	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Die 6 Eleneo habe ich erhalten; auch die Quittungen von Asher.
+4-1	Die	ART	die	_	O	O	
+4-2	6	CARD	6	_	O	O	
+4-3	Eleneo	NN	<unknown>	_	O	O	
+4-4	habe	VAFIN	haben	_	O	O	
+4-5	ich	PPER	ich	_	O	O	
+4-6	erhalten	VVPP	erhalten	_	O	O	
+4-7	;	$.	;	_	O	O	
+4-8	auch	ADV	auch	_	O	O	
+4-9	die	ART	die	_	O	O	
+4-10	Quittungen	NN	Quittung	_	O	O	
+4-11	von	APPR	von	_	O	O	
+4-12	Asher	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Herzlich Ihr R Lepsius
+5-1	Herzlich	ADJD	herzlich	_	O	O	
+5-2	Ihr	PPOSAT	ihr	_	O	O	
+5-3	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+5-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

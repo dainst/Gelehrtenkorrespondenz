@@ -1,0 +1,54 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=3 Helbig an Henzen Rom, 13. August 1872 Auch der Artikel über den Apoll liegt, frisch übersetzt, bei.
+1-1	3	CARD	3	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Auch	ADV	auch	_	O	O	
+1-12	der	ART	die	_	O	O	
+1-13	Artikel	NN	Artikel	_	O	O	
+1-14	über	APPR	über	_	O	O	
+1-15	den	ART	die	_	O	O	
+1-16	Apoll	NN	Apoll	_	O	O	
+1-17	liegt	VVFIN	liegen	_	O	O	
+1-18	,	$,	,	_	O	O	
+1-19	frisch	ADJD	frisch	_	O	O	
+1-20	übersetzt	VVPP	übersetzen	_	O	O	
+1-21	,	$,	,	_	O	O	
+1-22	bei	PTKVZ	bei	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Die beiden fehlenden Citate wird Herr Prakhoff in Neapel constatiren und in die Druckbogen nachtragen, die er aus Rom zu erhalten wünscht.
+2-1	Die	ART	die	_	O	O	
+2-2	beiden	PIAT	beide	_	O	O	
+2-3	fehlenden	ADJA	fehlend	_	O	O	
+2-4	Citate	NN	<unknown>	_	O	O	
+2-5	wird	VAFIN	werden	_	O	O	
+2-6	Herr	NN	Herr	_	O	O	
+2-7	Prakhoff	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-8	in	APPR	in	_	O	O	
+2-9	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-10	constatiren	NN	<unknown>	_	O	O	
+2-11	und	KON	und	_	O	O	
+2-12	in	APPR	in	_	O	O	
+2-13	die	ART	die	_	O	O	
+2-14	Druckbogen	NN	Druckbogen	_	O	O	
+2-15	nachtragen	VVINF	nachtragen	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	die	PRELS	die	_	O	O	
+2-18	er	PPER	er	_	O	O	
+2-19	aus	APPR	aus	_	O	O	
+2-20	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-21	zu	PTKZU	zu	_	O	O	
+2-22	erhalten	VVINF	erhalten	_	O	O	
+2-23	wünscht	VVFIN	wünschen	_	O	O	
+2-24	.	$.	.	_	O	O	
+

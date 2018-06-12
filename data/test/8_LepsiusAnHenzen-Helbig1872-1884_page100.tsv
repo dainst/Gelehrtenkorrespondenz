@@ -1,0 +1,131 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Lieber Freund Lepsius an Henzen Berlin, 2. Juli 1873 2 Juli 1873 Hierbei der vollzogene Etat für 1873 in Abschrift den ich beizulegen versäumte.
+1-1	Lieber	ADJD	lieb	_	O	O	
+1-2	Freund	NE	Freund	_	O	O	
+1-3	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-13	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Hierbei	PAV	hierbei	_	O	O	
+1-16	der	ART	die	_	O	O	
+1-17	vollzogene	ADJA	vollzogen	_	O	O	
+1-18	Etat	NN	Etat	_	O	O	
+1-19	für	APPR	für	_	O	O	
+1-20	1873	CARD	1873	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-21	in	APPR	in	_	O	O	
+1-22	Abschrift	NN	Abschrift	_	O	O	
+1-23	den	ART	die	_	O	O	
+1-24	ich	PPER	ich	_	O	O	
+1-25	beizulegen	VVIZU	beilegen	_	O	O	
+1-26	versäumte	VVFIN	versäumen	_	O	O	
+1-27	.	$.	.	_	O	O	
+
+#id=2
+#text=Thr R L • Schrieb ich Thnen, daß die Central Direktion außer den 250 Fr.
+2-1	Thr	NN	<unknown>	_	O	O	
+2-2	R	NN	R	_	O	O	
+2-3	L	NE	L	_	O	O	
+2-4	•	ADJA	<unknown>	_	O	O	
+2-5	Schrieb	NN	Schrieb	_	O	O	
+2-6	ich	PPER	ich	_	O	O	
+2-7	Thnen	VVFIN	<unknown>	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	daß	KOUS	dass	_	O	O	
+2-10	die	ART	die	_	O	O	
+2-11	Central	NN	<unknown>	_	O	O	
+2-12	Direktion	NN	Direktion	_	O	O	
+2-13	außer	APPR	außer	_	O	O	
+2-14	den	ART	die	_	O	O	
+2-15	250	CARD	@card@	_	O	O	
+2-16	Fr.	NN	Freitag	_	O	O	
+
+#id=3
+#text=für das Medaillon auch 800 r für das Sarkophagwerk des Pr.
+3-1	für	APPR	für	_	O	O	
+3-2	das	ART	die	_	O	O	
+3-3	Medaillon	NN	Medaillon	_	O	O	
+3-4	auch	ADV	auch	_	O	O	
+3-5	800	CARD	800	_	O	O	
+3-6	r	NE	r	_	O	O	
+3-7	für	APPR	für	_	O	O	
+3-8	das	ART	die	_	O	O	
+3-9	Sarkophagwerk	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-10	des	ART	die	_	I-webanno.custom.LetterEntity_	I-OBJ	
+3-11	Pr.	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+
+#id=4
+#text=Matz aus dem Reservefonds bewilligt hat, die er von Asher erheben wird.
+4-1	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	aus	APPR	aus	_	O	O	
+4-3	dem	ART	die	_	O	O	
+4-4	Reservefonds	NN	Reservefonds	_	O	O	
+4-5	bewilligt	VVPP	bewilligen	_	O	O	
+4-6	hat	VAFIN	haben	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	die	PRELS	die	_	O	O	
+4-9	er	PPER	er	_	O	O	
+4-10	von	APPR	von	_	O	O	
+4-11	Asher	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-12	erheben	VVINF	erheben	_	O	O	
+4-13	wird	VAFIN	werden	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich erfahre so eben von Mommsen, daß Sie bereits Ihre Briefe nach Florenz adressiert zu erhalten wünschen, und öffne daher den Brief nochmals, um Thnen zu sagen, daß ich die Abschrift des Etats nun einfach hier behalten und Ihnen hier übergeben werde.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	erfahre	VVFIN	erfahren	_	O	O	
+5-3	so	ADV	so	_	O	O	
+5-4	eben	ADV	eben	_	O	O	
+5-5	von	APPR	von	_	O	O	
+5-6	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-7	,	$,	,	_	O	O	
+5-8	daß	KOUS	dass	_	O	O	
+5-9	Sie	PPER	Sie	_	O	O	
+5-10	bereits	ADV	bereits	_	O	O	
+5-11	Ihre	PPOSAT	ihr	_	O	O	
+5-12	Briefe	NN	Brief	_	O	O	
+5-13	nach	APPR	nach	_	O	O	
+5-14	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-15	adressiert	VVPP	adressieren	_	O	O	
+5-16	zu	PTKZU	zu	_	O	O	
+5-17	erhalten	VVINF	erhalten	_	O	O	
+5-18	wünschen	VVFIN	wünschen	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	und	KON	und	_	O	O	
+5-21	öffne	VVFIN	öffnen	_	O	O	
+5-22	daher	PAV	daher	_	O	O	
+5-23	den	ART	die	_	O	O	
+5-24	Brief	NN	Brief	_	O	O	
+5-25	nochmals	ADV	nochmals	_	O	O	
+5-26	,	$,	,	_	O	O	
+5-27	um	KOUI	um	_	O	O	
+5-28	Thnen	ADJD	<unknown>	_	O	O	
+5-29	zu	PTKZU	zu	_	O	O	
+5-30	sagen	VVINF	sagen	_	O	O	
+5-31	,	$,	,	_	O	O	
+5-32	daß	KOUS	dass	_	O	O	
+5-33	ich	PPER	ich	_	O	O	
+5-34	die	ART	die	_	O	O	
+5-35	Abschrift	NN	Abschrift	_	O	O	
+5-36	des	ART	die	_	O	O	
+5-37	Etats	NN	Etat	_	O	O	
+5-38	nun	ADV	nun	_	O	O	
+5-39	einfach	ADJD	einfach	_	O	O	
+5-40	hier	ADV	hier	_	O	O	
+5-41	behalten	VVINF	behalten	_	O	O	
+5-42	und	KON	und	_	O	O	
+5-43	Ihnen	PPER	Sie	_	O	O	
+5-44	hier	ADV	hier	_	O	O	
+5-45	übergeben	VVPP	übergeben	_	O	O	
+5-46	werde	VAFIN	werden	_	O	O	
+5-47	.	$.	.	_	O	O	
+

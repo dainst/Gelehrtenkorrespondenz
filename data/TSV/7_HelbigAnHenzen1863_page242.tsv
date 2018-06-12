@@ -1,0 +1,78 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=245 Postkarte.
+1-1	245	CARD	@card@	_	O	O	
+1-2	Postkarte	NN	Postkarte	_	O	O	
+1-3	.	$.	.	_	O	O	
+
+#id=2
+#text=Helbig an Henzen Ohne Datum - Poststempel Cagliari, 20. Mai 1875 g. 24/5 75 Ohne Datum Meinem Briefe schicke ich in aller Eile noch diese Postkarte nach, um Sie zu bitten, bei der Ausstellung des vaglia ja nicht den Vornamen Filippo de Sanctis zu vergessen.
+2-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-4	Ohne	APPR	ohne	_	O	O	
+2-5	Datum	NN	Datum	_	O	O	
+2-6	-	$(	-	_	O	O	
+2-7	Poststempel	NN	Poststempel	_	O	O	
+2-8	Cagliari	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-9	,	$,	,	_	O	O	
+2-10	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-13	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-14	g.	VVFIN	<unknown>	_	O	O	
+2-15	24/5	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-16	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-17	Ohne	APPR	ohne	_	O	O	
+2-18	Datum	NN	Datum	_	O	O	
+2-19	Meinem	PPOSAT	mein	_	O	O	
+2-20	Briefe	NN	Brief	_	O	O	
+2-21	schicke	VVFIN	schicken	_	O	O	
+2-22	ich	PPER	ich	_	O	O	
+2-23	in	APPR	in	_	O	O	
+2-24	aller	PIAT	alle	_	O	O	
+2-25	Eile	NN	Eile	_	O	O	
+2-26	noch	ADV	noch	_	O	O	
+2-27	diese	PDAT	dies	_	O	O	
+2-28	Postkarte	NN	Postkarte	_	O	O	
+2-29	nach	PTKVZ	nach	_	O	O	
+2-30	,	$,	,	_	O	O	
+2-31	um	KOUI	um	_	O	O	
+2-32	Sie	PPER	Sie	_	O	O	
+2-33	zu	PTKZU	zu	_	O	O	
+2-34	bitten	VVINF	bitten	_	O	O	
+2-35	,	$,	,	_	O	O	
+2-36	bei	APPR	bei	_	O	O	
+2-37	der	ART	die	_	O	O	
+2-38	Ausstellung	NN	Ausstellung	_	O	O	
+2-39	des	ART	die	_	O	O	
+2-40	vaglia	NE	<unknown>	_	O	O	
+2-41	ja	ADV	ja	_	O	O	
+2-42	nicht	PTKNEG	nicht	_	O	O	
+2-43	den	ART	die	_	O	O	
+2-44	Vornamen	NN	Vorname	_	O	O	
+2-45	Filippo	NE	Filippo	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-46	de	NE	de	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-47	Sanctis	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-48	zu	PTKZU	zu	_	O	O	
+2-49	vergessen	VVINF	vergessen	_	O	O	
+2-50	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Post ist in diesen Dingen höchst pedantisch.
+3-1	Die	ART	die	_	O	O	
+3-2	Post	NN	Post	_	O	O	
+3-3	ist	VAFIN	sein	_	O	O	
+3-4	in	APPR	in	_	O	O	
+3-5	diesen	PDAT	dies	_	O	O	
+3-6	Dingen	NN	Ding	_	O	O	
+3-7	höchst	ADJD	hochöchst	_	O	O	
+3-8	pedantisch	ADJD	pedantisch	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Herzlichen Gruß Helbig
+4-1	Herzlichen	ADJA	herzlich	_	O	O	
+4-2	Gruß	NN	Gruß	_	O	O	
+4-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

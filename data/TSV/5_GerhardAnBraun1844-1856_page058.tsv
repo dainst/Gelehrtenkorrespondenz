@@ -1,0 +1,176 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=238 3 Gerhard an Braun Berlin, 18. Mai 1844 ber reichend abhängen; wäre ich frisch wie vormals, so machte ich in Paris, London, Leiden kurze Besuche.
+1-1	238	CARD	238	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	ber	VVFIN	<unknown>	_	O	O	
+1-13	reichend	ADJD	reichend	_	O	O	
+1-14	abhängen	VVINF	abhängen	_	O	O	
+1-15	;	$.	;	_	O	O	
+1-16	wäre	VAFIN	sein	_	O	O	
+1-17	ich	PPER	ich	_	O	O	
+1-18	frisch	ADJD	frisch	_	O	O	
+1-19	wie	KOKOM	wie	_	O	O	
+1-20	vormals	ADV	vormals	_	O	O	
+1-21	,	$,	,	_	O	O	
+1-22	so	ADV	so	_	O	O	
+1-23	machte	VVFIN	machen	_	O	O	
+1-24	ich	PPER	ich	_	O	O	
+1-25	in	APPR	in	_	O	O	
+1-26	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-27	,	$,	,	_	O	O	
+1-28	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-29	,	$,	,	_	O	O	
+1-30	Leiden	NN	Leiden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-31	kurze	ADJA	kurz	_	O	O	
+1-32	Besuche	NN	Besuch	_	O	O	
+1-33	.	$.	.	_	O	O	
+
+#id=2
+#text=Die Sozzische Notiz über Catoneser Ruinen citirte ich Ihnen aus dem Kunstblatt.
+2-1	Die	ART	die	_	O	O	
+2-2	Sozzische	ADJA	<unknown>	_	O	O	
+2-3	Notiz	NN	Notiz	_	O	O	
+2-4	über	APPR	über	_	O	O	
+2-5	Catoneser	NE	<unknown>	_	O	O	
+2-6	Ruinen	NN	Ruine	_	O	O	
+2-7	citirte	VVFIN	<unknown>	_	O	O	
+2-8	ich	PPER	ich	_	O	O	
+2-9	Ihnen	PPER	Sie	_	O	O	
+2-10	aus	APPR	aus	_	O	O	
+2-11	dem	ART	die	_	O	O	
+2-12	Kunstblatt	NN	Kunstblatt	_	O	O	
+2-13	.	$.	.	_	O	O	
+
+#id=3
+#text=Noch kein Bullettino angelangt und noch nichts Neues für das Institut von Bunsen.
+3-1	Noch	ADV	noch	_	O	O	
+3-2	kein	PIAT	keine	_	O	O	
+3-3	Bullettino	NN	<unknown>	_	O	O	
+3-4	angelangt	VVPP	angelangen	_	O	O	
+3-5	und	KON	und	_	O	O	
+3-6	noch	ADV	noch	_	O	O	
+3-7	nichts	PIAT	nichts	_	O	O	
+3-8	Neues	NN	Neue	_	O	O	
+3-9	für	APPR	für	_	O	O	
+3-10	das	ART	die	_	O	O	
+3-11	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-12	von	APPR	von	_	O	O	
+3-13	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=In der archäologischen Zeitung bin ich mir nur bewußt Sie gegen Welcker's Mißverstandniß vertheidigt zu haben.
+4-1	In	APPR	in	_	O	O	
+4-2	der	ART	die	_	O	O	
+4-3	archäologischen	ADJA	archäologisch	_	O	O	
+4-4	Zeitung	NN	Zeitung	_	O	O	
+4-5	bin	VAFIN	sein	_	O	O	
+4-6	ich	PPER	ich	_	O	O	
+4-7	mir	PRF	ich	_	O	O	
+4-8	nur	ADV	nur	_	O	O	
+4-9	bewußt	ADJD	bewusst	_	O	O	
+4-10	Sie	PPER	Sie	_	O	O	
+4-11	gegen	APPR	gegen	_	O	O	
+4-12	Welcker's	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-13	Mißverstandniß	NN	<unknown>	_	O	O	
+4-14	vertheidigt	VVPP	<unknown>	_	O	O	
+4-15	zu	PTKZU	zu	_	O	O	
+4-16	haben	VAINF	haben	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=Welcker schrieb mir darauf ich hätte statt der Berichtigung sein monitum ganz streichen können.
+5-1	Welcker	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	schrieb	VVFIN	schreiben	_	O	O	
+5-3	mir	PPER	ich	_	O	O	
+5-4	darauf	PAV	darauf	_	O	O	
+5-5	ich	PPER	ich	_	O	O	
+5-6	hätte	VAFIN	haben	_	O	O	
+5-7	statt	APPR	statt	_	O	O	
+5-8	der	ART	die	_	O	O	
+5-9	Berichtigung	NN	Berichtigung	_	O	O	
+5-10	sein	PPOSAT	sein	_	O	O	
+5-11	monitum	NN	Monitum	_	O	O	
+5-12	ganz	ADV	ganz	_	O	O	
+5-13	streichen	VVINF	streichen	_	O	O	
+5-14	können	VMINF	können	_	O	O	
+5-15	.	$.	.	_	O	O	
+
+#id=6
+#text=Übrigens können Sie mir von Ihrer Reise nur dann und wann einmal ein Artikelchen dazu senden, was Ihnen nicht ins Bullettino paßt.
+6-1	Übrigens	ADV	übrigens	_	O	O	
+6-2	können	VMFIN	können	_	O	O	
+6-3	Sie	PPER	Sie	_	O	O	
+6-4	mir	PRF	ich	_	O	O	
+6-5	von	APPR	von	_	O	O	
+6-6	Ihrer	PPOSAT	ihr	_	O	O	
+6-7	Reise	NN	Reise	_	O	O	
+6-8	nur	ADV	nur	_	O	O	
+6-9	dann	ADV	dann	_	O	O	
+6-10	und	KON	und	_	O	O	
+6-11	wann	PWAV	wann	_	O	O	
+6-12	einmal	ADV	einmal	_	O	O	
+6-13	ein	ART	eine	_	O	O	
+6-14	Artikelchen	NN	<unknown>	_	O	O	
+6-15	dazu	PAV	dazu	_	O	O	
+6-16	senden	VVINF	senden	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	was	PRELS	was	_	O	O	
+6-19	Ihnen	PPER	Sie	_	O	O	
+6-20	nicht	PTKNEG	nicht	_	O	O	
+6-21	ins	APPRART	in	_	O	O	
+6-22	Bullettino	NN	<unknown>	_	O	O	
+6-23	paßt	VVFIN	passen	_	O	O	
+6-24	.	$.	.	_	O	O	
+
+#id=7
+#text=Für dieselbe Reise empfehle ich Ihnen, wo die Gelegenheit sich giebt zur Kenntnis und Verbreitung meiner Werke beizutragen; es geht recht flau damit.
+7-1	Für	APPR	für	_	O	O	
+7-2	dieselbe	PDAT	dieselb	_	O	O	
+7-3	Reise	NN	Reise	_	O	O	
+7-4	empfehle	VVFIN	empfehlen	_	O	O	
+7-5	ich	PPER	ich	_	O	O	
+7-6	Ihnen	PPER	Sie	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	wo	PWAV	wo	_	O	O	
+7-9	die	ART	die	_	O	O	
+7-10	Gelegenheit	NN	Gelegenheit	_	O	O	
+7-11	sich	PRF	sich	_	O	O	
+7-12	giebt	ADJD	<unknown>	_	O	O	
+7-13	zur	APPRART	zu	_	O	O	
+7-14	Kenntnis	NN	Kenntnis	_	O	O	
+7-15	und	KON	und	_	O	O	
+7-16	Verbreitung	NN	Verbreitung	_	O	O	
+7-17	meiner	PPOSAT	mein	_	O	O	
+7-18	Werke	NN	Werk	_	O	O	
+7-19	beizutragen	VVIZU	beitragen	_	O	O	
+7-20	;	$.	;	_	O	O	
+7-21	es	PPER	es	_	O	O	
+7-22	geht	VVFIN	gehen	_	O	O	
+7-23	recht	ADJD	recht	_	O	O	
+7-24	flau	ADJD	flau	_	O	O	
+7-25	damit	PAV	damit	_	O	O	
+7-26	.	$.	.	_	O	O	
+
+#id=8
+#text=Mit bestem Gruß an gemeinsame Freunde Herzlichst Ihr Gerhard
+8-1	Mit	APPR	mit	_	O	O	
+8-2	bestem	ADJA	gut	_	O	O	
+8-3	Gruß	NN	Gruß	_	O	O	
+8-4	an	APPR	an	_	O	O	
+8-5	gemeinsame	ADJA	gemeinsam	_	O	O	
+8-6	Freunde	NN	Freund	_	O	O	
+8-7	Herzlichst	VVFIN	<unknown>	_	O	O	
+8-8	Ihr	PPER	sie	_	O	O	
+8-9	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

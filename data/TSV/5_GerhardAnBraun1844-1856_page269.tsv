@@ -1,0 +1,151 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=3 Gerhard an Braun Berlin, 22. Januar 1849 gleich Ihrer Einsicht empfohlen wird; Sie schaffen mir darauf wol ein Responsum, schriftlich und direkt oder, wenn das Schwierigkeit hätte, wenigstens durch Ihr Organ Wahles Ansicht sowohl über das Brustleiden als über zwec~äßige Benutzung des Frühlings.
+1-1	3	CARD	3	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1849	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	gleich	APPR	gleich	_	O	O	
+1-12	Ihrer	PPOSAT	ihr	_	O	O	
+1-13	Einsicht	NN	Einsicht	_	O	O	
+1-14	empfohlen	VVPP	empfehlen	_	O	O	
+1-15	wird	VAFIN	werden	_	O	O	
+1-16	;	$.	;	_	O	O	
+1-17	Sie	PPER	Sie	_	O	O	
+1-18	schaffen	VVFIN	schaffen	_	O	O	
+1-19	mir	PPER	ich	_	O	O	
+1-20	darauf	PAV	darauf	_	O	O	
+1-21	wol	ADJD	<unknown>	_	O	O	
+1-22	ein	ART	eine	_	O	O	
+1-23	Responsum	NN	<unknown>	_	O	O	
+1-24	,	$,	,	_	O	O	
+1-25	schriftlich	ADJD	schriftlich	_	O	O	
+1-26	und	KON	und	_	O	O	
+1-27	direkt	ADJD	direkt	_	O	O	
+1-28	oder	KON	oder	_	O	O	
+1-29	,	$,	,	_	O	O	
+1-30	wenn	KOUS	wenn	_	O	O	
+1-31	das	ART	die	_	O	O	
+1-32	Schwierigkeit	NN	Schwierigkeit	_	O	O	
+1-33	hätte	VAFIN	haben	_	O	O	
+1-34	,	$,	,	_	O	O	
+1-35	wenigstens	ADV	wenigstens	_	O	O	
+1-36	durch	APPR	durch	_	O	O	
+1-37	Ihr	PPOSAT	ihr	_	O	O	
+1-38	Organ	NN	Organ	_	O	O	
+1-39	Wahles	NN	<unknown>	_	O	O	
+1-40	Ansicht	NN	Ansicht	_	O	O	
+1-41	sowohl	KON	sowohl	_	O	O	
+1-42	über	APPR	über	_	O	O	
+1-43	das	ART	die	_	O	O	
+1-44	Brustleiden	NN	<unknown>	_	O	O	
+1-45	als	KOKOM	als	_	O	O	
+1-46	über	APPR	über	_	O	O	
+1-47	zwec~äßige	ADJA	<unknown>	_	O	O	
+1-48	Benutzung	NN	Benutzung	_	O	O	
+1-49	des	ART	die	_	O	O	
+1-50	Frühlings	NN	Frühling	_	O	O	
+1-51	.	$.	.	_	O	O	
+
+#id=3
+#text=Wir denken doch wieder an Wasserkur zu Elgersburg oder Boppart, obwohl die Besserung damals nicht lange anhielt.
+3-1	Wir	PPER	wir	_	O	O	
+3-2	denken	VVFIN	denken	_	O	O	
+3-3	doch	ADV	doch	_	O	O	
+3-4	wieder	ADV	wieder	_	O	O	
+3-5	an	APPR	an	_	O	O	
+3-6	Wasserkur	NN	<unknown>	_	O	O	
+3-7	zu	APPR	zu	_	O	O	
+3-8	Elgersburg	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-9	oder	KON	oder	_	O	O	
+3-10	Boppart	NE	<unknown>	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	obwohl	KOUS	obwohl	_	O	O	
+3-13	die	ART	die	_	O	O	
+3-14	Besserung	NN	Besserung	_	O	O	
+3-15	damals	ADV	damals	_	O	O	
+3-16	nicht	PTKNEG	nicht	_	O	O	
+3-17	lange	ADV	lange	_	O	O	
+3-18	anhielt	VVFIN	anhalten	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Über archäologische Metrik - Rhythmik der Composition und Gruppirung oder was sonst ?
+4-1	Über	APPR	über	_	O	O	
+4-2	archäologische	ADJA	archäologisch	_	O	O	
+4-3	Metrik	NN	Metrik	_	O	O	
+4-4	-	$(	-	_	O	O	
+4-5	Rhythmik	NN	<unknown>	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	Composition	NN	<unknown>	_	O	O	
+4-8	und	KON	und	_	O	O	
+4-9	Gruppirung	NN	<unknown>	_	O	O	
+4-10	oder	KON	oder	_	O	O	
+4-11	was	PIS	was	_	O	O	
+4-12	sonst	ADV	sonst	_	O	O	
+4-13	?	$.	?	_	O	O	
+
+#id=5
+#text=- hätte ich also wol auch noch bei Ihnen zu lernen; immer frisch vorwärts !
+5-1	-	$(	-	_	O	O	
+5-2	hätte	VAFIN	haben	_	O	O	
+5-3	ich	PPER	ich	_	O	O	
+5-4	also	ADV	also	_	O	O	
+5-5	wol	ADJD	<unknown>	_	O	O	
+5-6	auch	ADV	auch	_	O	O	
+5-7	noch	ADV	noch	_	O	O	
+5-8	bei	APPR	bei	_	O	O	
+5-9	Ihnen	PPER	Sie	_	O	O	
+5-10	zu	PTKZU	zu	_	O	O	
+5-11	lernen	VVINF	lernen	_	O	O	
+5-12	;	$.	;	_	O	O	
+5-13	immer	ADV	immer	_	O	O	
+5-14	frisch	ADJD	frisch	_	O	O	
+5-15	vorwärts	PTKVZ	vorwärts	_	O	O	
+5-16	!	$.	!	_	O	O	
+
+#id=6
+#text=Der Ihrige Gerhard Unsre Wahlen für die zweite Kammer sind gestern bei mir zwar gut, in den meisten Bezirken aber schlecht abgelaufen.
+6-1	Der	ART	die	_	O	O	
+6-2	Ihrige	PPOSAT	ihrige	_	O	O	
+6-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	Unsre	PPOSAT	unsre	_	O	O	
+6-5	Wahlen	NN	Wahl	_	O	O	
+6-6	für	APPR	für	_	O	O	
+6-7	die	ART	die	_	O	O	
+6-8	zweite	ADJA	zweit	_	O	O	
+6-9	Kammer	NN	Kammer	_	O	O	
+6-10	sind	VAFIN	sein	_	O	O	
+6-11	gestern	ADV	gestern	_	O	O	
+6-12	bei	APPR	bei	_	O	O	
+6-13	mir	PPER	ich	_	O	O	
+6-14	zwar	ADV	zwar	_	O	O	
+6-15	gut	ADJD	gut	_	O	O	
+6-16	,	$,	,	_	O	O	
+6-17	in	APPR	in	_	O	O	
+6-18	den	ART	die	_	O	O	
+6-19	meisten	PIAT	meist	_	O	O	
+6-20	Bezirken	NN	Bezirk	_	O	O	
+6-21	aber	ADV	aber	_	O	O	
+6-22	schlecht	ADJD	schlecht	_	O	O	
+6-23	abgelaufen	VVPP	ablaufen	_	O	O	
+6-24	.	$.	.	_	O	O	
+
+#id=7
+#text=Einer der gewählten und gefürchtetsten Demokraten ist Martius.
+7-1	Einer	PIS	eine	_	O	O	
+7-2	der	ART	die	_	O	O	
+7-3	gewählten	ADJA	gewählt	_	O	O	
+7-4	und	KON	und	_	O	O	
+7-5	gefürchtetsten	ADJA	gefürchtet	_	O	O	
+7-6	Demokraten	NN	Demokrat	_	O	O	
+7-7	ist	VAFIN	sein	_	O	O	
+7-8	Martius	NE	Martius	_	O	O	
+7-9	.	$.	.	_	O	O	
+

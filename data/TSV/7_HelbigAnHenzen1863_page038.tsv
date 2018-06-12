@@ -1,0 +1,261 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=r~iA' .
+1-1	r~iA	NE	<unknown>	_	O	O	
+1-2	'	$(	'	_	O	O	
+1-3	.	$.	.	_	O	O	
+
+#id=2
+#text=408 2 Helbig an Henzen Neapel, 29. August 1864 breiteren Platte (Abdruck 2).
+2-1	408	CARD	@card@	_	O	O	
+2-2	2	CARD	2	_	O	O	
+2-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-4	an	APPR	an	_	O	O	
+2-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-6	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-7	,	$,	,	_	O	O	
+2-8	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	breiteren	ADJA	breit	_	O	O	
+2-13	Platte	NN	Platte	_	O	O	
+2-14	(	$(	(	_	O	O	
+2-15	Abdruck	NN	Abdruck	_	O	O	
+2-16	2	CARD	2	_	O	O	
+2-17	)	$(	)	_	O	O	
+2-18	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Sogenannte epistula (im Abdruck ohne Nummer) befindet sich auf einer dritten Platte.
+3-1	Die	ART	die	_	O	O	
+3-2	Sogenannte	ADJA	sogenannt	_	O	O	
+3-3	epistula	NN	<unknown>	_	O	O	
+3-4	(	$(	(	_	O	O	
+3-5	im	APPRART	in	_	O	O	
+3-6	Abdruck	NN	Abdruck	_	O	O	
+3-7	ohne	APPR	ohne	_	O	O	
+3-8	Nummer	NN	Nummer	_	O	O	
+3-9	)	$(	)	_	O	O	
+3-10	befindet	VVFIN	befinden	_	O	O	
+3-11	sich	PRF	sich	_	O	O	
+3-12	auf	APPR	auf	_	O	O	
+3-13	einer	ART	eine	_	O	O	
+3-14	dritten	ADJA	dritt	_	O	O	
+3-15	Platte	NN	Platte	_	O	O	
+3-16	.	$.	.	_	O	O	
+
+#id=4
+#text=Sie haben Alles, was vorhanden ist, im Abdruck erhalten.
+4-1	Sie	PPER	Sie	_	O	O	
+4-2	haben	VAFIN	haben	_	O	O	
+4-3	Alles	PIS	alle	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	was	PRELS	was	_	O	O	
+4-6	vorhanden	ADJD	vorhanden	_	O	O	
+4-7	ist	VAFIN	sein	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	im	APPRART	in	_	O	O	
+4-10	Abdruck	NN	Abdruck	_	O	O	
+4-11	erhalten	VVPP	erhalten	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Daß die Inschrift von der arca Vitrusiana handele, behauptete Novi.
+5-1	Daß	KOUS	dass	_	O	O	
+5-2	die	ART	die	_	O	O	
+5-3	Inschrift	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-4	von	APPR	von	_	O	O	
+5-5	der	ART	die	_	O	O	
+5-6	arca	NE	<unknown>	_	O	O	
+5-7	Vitrusiana	NE	<unknown>	_	O	O	
+5-8	handele	VVFIN	handeln	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	behauptete	VVFIN	behaupten	_	O	O	
+5-11	Novi	NE	<unknown>	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich bitte das Bullettino, wenn dazu noch Zeit ist, nach dem wahren Sachverhalt zu corrigi~en.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	bitte	VVFIN	bitten	_	O	O	
+6-3	das	ART	die	_	O	O	
+6-4	Bullettino	NN	<unknown>	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	wenn	KOUS	wenn	_	O	O	
+6-7	dazu	PAV	dazu	_	O	O	
+6-8	noch	ADV	noch	_	O	O	
+6-9	Zeit	NN	Zeit	_	O	O	
+6-10	ist	VAFIN	sein	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	nach	APPR	nach	_	O	O	
+6-13	dem	ART	die	_	O	O	
+6-14	wahren	ADJA	wahr	_	O	O	
+6-15	Sachverhalt	NN	Sachverhalt	_	O	O	
+6-16	zu	APPR	zu	_	O	O	
+6-17	corrigi~en	NE	<unknown>	_	O	O	
+6-18	.	$.	.	_	O	O	
+
+#id=7
+#text=Ebenso bitte ich Sie, wenn es noch angeht, meine Notiz in den antichita di Peytrignet über die Bronce aus den Abbruzzen zu streichen (Bärtiger Mann mit Chlamys, welcher die rechte Schulter bloß läßt, die Rechte zum Hiebe erhoben, die Linke, roh gearbeitet in Gabelform, zur Seite streckend ) • Barone hält sie für falsch.
+7-1	Ebenso	ADV	ebenso	_	O	O	
+7-2	bitte	VVFIN	bitten	_	O	O	
+7-3	ich	PPER	ich	_	O	O	
+7-4	Sie	PPER	Sie	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	wenn	KOUS	wenn	_	O	O	
+7-7	es	PPER	es	_	O	O	
+7-8	noch	ADV	noch	_	O	O	
+7-9	angeht	VVFIN	angehen	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	meine	PPOSAT	mein	_	O	O	
+7-12	Notiz	NN	Notiz	_	O	O	
+7-13	in	APPR	in	_	O	O	
+7-14	den	ART	die	_	O	O	
+7-15	antichita	NE	<unknown>	_	O	O	
+7-16	di	NE	di	_	O	O	
+7-17	Peytrignet	NN	<unknown>	_	O	O	
+7-18	über	APPR	über	_	O	O	
+7-19	die	ART	die	_	O	O	
+7-20	Bronce	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+7-21	aus	APPR	aus	_	O	O	
+7-22	den	ART	die	_	O	O	
+7-23	Abbruzzen	NN	<unknown>	_	O	O	
+7-24	zu	PTKZU	zu	_	O	O	
+7-25	streichen	VVINF	streichen	_	O	O	
+7-26	(	$(	(	_	O	O	
+7-27	Bärtiger	ADJA	bärtig	_	O	O	
+7-28	Mann	NN	Mann	_	O	O	
+7-29	mit	APPR	mit	_	O	O	
+7-30	Chlamys	NE	<unknown>	_	O	O	
+7-31	,	$,	,	_	O	O	
+7-32	welcher	PWS	welche	_	O	O	
+7-33	die	ART	die	_	O	O	
+7-34	rechte	ADJA	recht|rechts	_	O	O	
+7-35	Schulter	NN	Schulter	_	O	O	
+7-36	bloß	ADJD	bloß	_	O	O	
+7-37	läßt	VVFIN	lassen	_	O	O	
+7-38	,	$,	,	_	O	O	
+7-39	die	ART	die	_	O	O	
+7-40	Rechte	NN	Recht|Rechte	_	O	O	
+7-41	zum	APPRART	zu	_	O	O	
+7-42	Hiebe	NN	Hieb	_	O	O	
+7-43	erhoben	VVPP	erheben	_	O	O	
+7-44	,	$,	,	_	O	O	
+7-45	die	ART	die	_	O	O	
+7-46	Linke	NN	Linke	_	O	O	
+7-47	,	$,	,	_	O	O	
+7-48	roh	ADJD	roh	_	O	O	
+7-49	gearbeitet	VVPP	arbeiten	_	O	O	
+7-50	in	APPR	in	_	O	O	
+7-51	Gabelform	NN	<unknown>	_	O	O	
+7-52	,	$,	,	_	O	O	
+7-53	zur	APPRART	zu	_	O	O	
+7-54	Seite	NN	Seite	_	O	O	
+7-55	streckend	ADJD	streckend	_	O	O	
+7-56	)	$(	)	_	O	O	
+7-57	•	ADJA	<unknown>	_	O	O	
+7-58	Barone	NN	Baron	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-59	hält	VVFIN	halten	_	O	O	
+7-60	sie	PPER	sie	_	O	O	
+7-61	für	APPR	für	_	O	O	
+7-62	falsch	ADJD	falsch	_	O	O	
+7-63	.	$.	.	_	O	O	
+
+#id=8
+#text=Möglich, daß der Neid aus ihm spricht.
+8-1	Möglich	ADJD	möglich	_	O	O	
+8-2	,	$,	,	_	O	O	
+8-3	daß	KOUS	dass	_	O	O	
+8-4	der	ART	die	_	O	O	
+8-5	Neid	NN	Neid	_	O	O	
+8-6	aus	APPR	aus	_	O	O	
+8-7	ihm	PPER	er	_	O	O	
+8-8	spricht	VVFIN	sprechen	_	O	O	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=Doch ist es immerhin besser, eine genaue Ocularinspection vorzunehmen, als sich zu blamiren.
+9-1	Doch	ADV	doch	_	O	O	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	es	PPER	es	_	O	O	
+9-4	immerhin	ADV	immerhin	_	O	O	
+9-5	besser	ADJD	gut	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	eine	ART	eine	_	O	O	
+9-8	genaue	ADJA	genau	_	O	O	
+9-9	Ocularinspection	NN	<unknown>	_	O	O	
+9-10	vorzunehmen	VVIZU	vornehmen	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	als	KOUS	als	_	O	O	
+9-13	sich	PRF	sich	_	O	O	
+9-14	zu	APPR	zu	_	O	O	
+9-15	blamiren	NN	<unknown>	_	O	O	
+9-16	.	$.	.	_	O	O	
+
+#id=10
+#text=Novi fragt, wo in den Institutsschriften über eine fabbrica di vasi presso Capua gehandelt sei.
+10-1	Novi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	fragt	VVFIN	fragen	_	O	O	
+10-3	,	$,	,	_	O	O	
+10-4	wo	PWAV	wo	_	O	O	
+10-5	in	APPR	in	_	O	O	
+10-6	den	ART	die	_	O	O	
+10-7	Institutsschriften	NN	<unknown>	_	O	O	
+10-8	über	APPR	über	_	O	O	
+10-9	eine	ART	eine	_	O	O	
+10-10	fabbrica	NE	<unknown>	_	O	O	
+10-11	di	NE	di	_	O	O	
+10-12	vasi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+10-13	presso	ADJA	<unknown>	_	O	O	
+10-14	Capua	NN	<unknown>	_	O	O	
+10-15	gehandelt	VVPP	handeln	_	O	O	
+10-16	sei	VAFIN	sein	_	O	O	
+10-17	.	$.	.	_	O	O	
+
+#id=11
+#text=Ich entsinne mich eines derartigen Aufsatzes nicht.
+11-1	Ich	PPER	ich	_	O	O	
+11-2	entsinne	VVFIN	entsinnen	_	O	O	
+11-3	mich	PRF	ich	_	O	O	
+11-4	eines	ART	eine	_	O	O	
+11-5	derartigen	ADJA	derartig	_	O	O	
+11-6	Aufsatzes	NN	Aufsatz	_	O	O	
+11-7	nicht	PTKNEG	nicht	_	O	O	
+11-8	.	$.	.	_	O	O	
+
+#id=12
+#text=Nächstens mehr.
+12-1	Nächstens	ADV	nächstens	_	O	O	
+12-2	mehr	ADV	mehr	_	O	O	
+12-3	.	$.	.	_	O	O	
+
+#id=13
+#text=Ich bin furchtbar abgehetzt, um endlich hier fertig zu werden.
+13-1	Ich	PPER	ich	_	O	O	
+13-2	bin	VAFIN	sein	_	O	O	
+13-3	furchtbar	ADJD	furchtbar	_	O	O	
+13-4	abgehetzt	VVPP	abhetzen	_	O	O	
+13-5	,	$,	,	_	O	O	
+13-6	um	KOUI	um	_	O	O	
+13-7	endlich	ADV	endlich	_	O	O	
+13-8	hier	ADV	hier	_	O	O	
+13-9	fertig	ADJD	fertig	_	O	O	
+13-10	zu	PTKZU	zu	_	O	O	
+13-11	werden	VAINF	werden	_	O	O	
+13-12	.	$.	.	_	O	O	
+
+#id=14
+#text=Mit herzlichen Grüßen an die Frau Professorin Ihr Wolfgang Helbig •
+14-1	Mit	APPR	mit	_	O	O	
+14-2	herzlichen	ADJA	herzlich	_	O	O	
+14-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+14-4	an	APPR	an	_	O	O	
+14-5	die	ART	die	_	O	O	
+14-6	Frau	NN	Frau	_	O	O	
+14-7	Professorin	NN	Professorin	_	O	O	
+14-8	Ihr	PPOSAT	ihr	_	O	O	
+14-9	Wolfgang	NN	Wolfgang	_	O	O	
+14-10	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-11	•	ADJA	<unknown>	_	O	O	
+

@@ -1,0 +1,57 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=49 Lepsius an Berlin, 30. Januar 1872 6 Quer auf der ersten Seite Vielen Dank an Helbig für seine Glückwünsche.
+1-1	49	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	6	CARD	6	_	O	O	
+1-11	Quer	ADV	quer	_	O	O	
+1-12	auf	APPR	auf	_	O	O	
+1-13	der	ART	die	_	O	O	
+1-14	ersten	ADJA	erst	_	O	O	
+1-15	Seite	NN	Seite	_	O	O	
+1-16	Vielen	PIAT	viele	_	O	O	
+1-17	Dank	NN	Dank	_	O	O	
+1-18	an	APPR	an	_	O	O	
+1-19	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-20	für	APPR	für	_	O	O	
+1-21	seine	PPOSAT	sein	_	O	O	
+1-22	Glückwünsche	NN	Glückwunsch	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Über die Stockholmer Sache warte ich noch auf Antwort.
+2-1	Über	APPR	über	_	O	O	
+2-2	die	ART	die	_	O	O	
+2-3	Stockholmer	NN	Stockholmer	_	O	O	
+2-4	Sache	NN	Sache	_	O	O	
+2-5	warte	VVFIN	warten	_	O	O	
+2-6	ich	PPER	ich	_	O	O	
+2-7	noch	ADV	noch	_	O	O	
+2-8	auf	APPR	auf	_	O	O	
+2-9	Antwort	NN	Antwort	_	O	O	
+2-10	.	$.	.	_	O	O	
+
+#id=3
+#text=Nächstens darüber.
+3-1	Nächstens	ADV	nächstens	_	O	O	
+3-2	darüber	PAV	darüber	_	O	O	
+3-3	.	$.	.	_	O	O	
+
+#id=4
+#text=( .
+4-1	(	$(	(	_	O	O	
+4-2	.	$.	.	_	O	O	
+
+#id=5
+#text=',- -j
+5-1	'	$(	'	_	O	O	
+5-2	,-	NN	<unknown>	_	O	O	
+5-3	-j	NE	<unknown>	_	O	O	
+

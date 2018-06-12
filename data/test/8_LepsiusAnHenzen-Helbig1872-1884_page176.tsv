@@ -1,0 +1,242 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=464 Verehrter Freund Lepsius an Henzen Berlin, 13. Oktober 1874 g. 16/X 74 r.
+1-1	464	CARD	@card@	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	ADJA	<unknown>	_	O	O	
+1-14	16/X	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=17/10 Berlin, d.13. Okt.
+2-1	17/10	CARD	17/10	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-3	,	$,	,	_	O	O	
+2-4	d.13	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	Okt.	NN	Okt.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=3
+#text=1874.
+3-1	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-2	.	$.	.	_	O	O	
+
+#id=4
+#text=Von London endlich zurückgekehrt und wohl befriedigt von meiner Reise, eile ich um Ihren letzten Brief den ich so eben erhalten zu beantworten.
+4-1	Von	APPR	von	_	O	O	
+4-2	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-3	endlich	ADV	endlich	_	O	O	
+4-4	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+4-5	und	KON	und	_	O	O	
+4-6	wohl	ADV	wohl	_	O	O	
+4-7	befriedigt	VVPP	befriedigen	_	O	O	
+4-8	von	APPR	von	_	O	O	
+4-9	meiner	PPOSAT	mein	_	O	O	
+4-10	Reise	NN	Reise	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	eile	VVFIN	eilen	_	O	O	
+4-13	ich	PPER	ich	_	O	O	
+4-14	um	APPR	um	_	O	O	
+4-15	Ihren	PPOSAT	ihr	_	O	O	
+4-16	letzten	ADJA	letzt	_	O	O	
+4-17	Brief	NN	Brief	_	O	O	
+4-18	den	ART	die	_	O	O	
+4-19	ich	PPER	ich	_	O	O	
+4-20	so	ADV	so	_	O	O	
+4-21	eben	ADV	eben	_	O	O	
+4-22	erhalten	VVINF	erhalten	_	O	O	
+4-23	zu	PTKZU	zu	_	O	O	
+4-24	beantworten	VVINF	beantworten	_	O	O	
+4-25	.	$.	.	_	O	O	
+
+#id=5
+#text=Die freie Wohnung ist Ihnen nun in der That gewährt; Sie verdanken sie lediglich Herrn von Keudell, dem ich mit meiner Empfehlung auch unsern Dank für seine Fürsprache auszusprechen bitte.
+5-1	Die	ART	die	_	O	O	
+5-2	freie	ADJA	frei	_	O	O	
+5-3	Wohnung	NN	Wohnung	_	O	O	
+5-4	ist	VAFIN	sein	_	O	O	
+5-5	Ihnen	PPER	Sie	_	O	O	
+5-6	nun	ADV	nun	_	O	O	
+5-7	in	APPR	in	_	O	O	
+5-8	der	ART	die	_	O	O	
+5-9	That	NE	<unknown>	_	O	O	
+5-10	gewährt	VVPP	gewähren|währen	_	O	O	
+5-11	;	$.	;	_	O	O	
+5-12	Sie	PPER	Sie	_	O	O	
+5-13	verdanken	VVFIN	verdanken	_	O	O	
+5-14	sie	PPER	sie	_	O	O	
+5-15	lediglich	ADV	lediglich	_	O	O	
+5-16	Herrn	NN	Herr	_	O	O	
+5-17	von	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-18	Keudell	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-19	,	$,	,	_	O	O	
+5-20	dem	PRELS	die	_	O	O	
+5-21	ich	PPER	ich	_	O	O	
+5-22	mit	APPR	mit	_	O	O	
+5-23	meiner	PPOSAT	mein	_	O	O	
+5-24	Empfehlung	NN	Empfehlung	_	O	O	
+5-25	auch	ADV	auch	_	O	O	
+5-26	unsern	PPOSAT	unsre	_	O	O	
+5-27	Dank	NN	Dank	_	O	O	
+5-28	für	APPR	für	_	O	O	
+5-29	seine	PPOSAT	sein	_	O	O	
+5-30	Fürsprache	NN	Fürsprache	_	O	O	
+5-31	auszusprechen	VVIZU	aussprechen	_	O	O	
+5-32	bitte	VVFIN	bitten	_	O	O	
+5-33	.	$.	.	_	O	O	
+
+#id=6
+#text=Hier hatte die Central Direktion die freie Wohnung ~ vom neuen Hause verstanden und beantragt.
+6-1	Hier	ADV	hier	_	O	O	
+6-2	hatte	VAFIN	haben	_	O	O	
+6-3	die	ART	die	_	O	O	
+6-4	Central	NN	<unknown>	_	O	O	
+6-5	Direktion	NN	Direktion	_	O	O	
+6-6	die	ART	die	_	O	O	
+6-7	freie	ADJA	frei	_	O	O	
+6-8	Wohnung	NN	Wohnung	_	O	O	
+6-9	~	XY	~	_	O	O	
+6-10	vom	APPRART	von	_	O	O	
+6-11	neuen	ADJA	neu	_	O	O	
+6-12	Hause	NN	Haus	_	O	O	
+6-13	verstanden	VVPP	verstehen	_	O	O	
+6-14	und	KON	und	_	O	O	
+6-15	beantragt	VVPP	beantragen	_	O	O	
+6-16	.	$.	.	_	O	O	
+
+#id=7
+#text=Nach Ihrem ersten Briefe darüber ging ich in die Kasse, wo mir Hofrath Wiegener sagte, an Ihre Auffassung werde im Ministerium nicht gedacht; er wolle aber noch besonders anfragen.
+7-1	Nach	APPR	nach	_	O	O	
+7-2	Ihrem	PPOSAT	ihr	_	O	O	
+7-3	ersten	ADJA	erst	_	O	O	
+7-4	Briefe	NN	Brief	_	O	O	
+7-5	darüber	PAV	darüber	_	O	O	
+7-6	ging	VVFIN	gehen	_	O	O	
+7-7	ich	PPER	ich	_	O	O	
+7-8	in	APPR	in	_	O	O	
+7-9	die	ART	die	_	O	O	
+7-10	Kasse	NN	Kasse	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	wo	PWAV	wo	_	O	O	
+7-13	mir	PPER	ich	_	O	O	
+7-14	Hofrath	NE	<unknown>	_	O	O	
+7-15	Wiegener	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-16	sagte	VVFIN	sagen	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	an	APPR	an	_	O	O	
+7-19	Ihre	PPOSAT	ihr	_	O	O	
+7-20	Auffassung	NN	Auffassung	_	O	O	
+7-21	werde	VAFIN	werden	_	O	O	
+7-22	im	APPRART	in	_	O	O	
+7-23	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-24	nicht	PTKNEG	nicht	_	O	O	
+7-25	gedacht	VVPP	denken|gedenken	_	O	O	
+7-26	;	$.	;	_	O	O	
+7-27	er	PPER	er	_	O	O	
+7-28	wolle	VMFIN	wollen	_	O	O	
+7-29	aber	ADV	aber	_	O	O	
+7-30	noch	ADV	noch	_	O	O	
+7-31	besonders	ADV	besonders	_	O	O	
+7-32	anfragen	VVINF	anfragen	_	O	O	
+7-33	.	$.	.	_	O	O	
+
+#id=8
+#text=Das geschah und Heppke bestätigte dies auf das Bestimmteste; man könne keine freie Wohnung gewähren, außer wenn man ein Haus dafür habe.
+8-1	Das	PDS	die	_	O	O	
+8-2	geschah	VVFIN	geschehen	_	O	O	
+8-3	und	KON	und	_	O	O	
+8-4	Heppke	VVIMP	<unknown>	_	O	O	
+8-5	bestätigte	VVFIN	bestätigen	_	O	O	
+8-6	dies	PDS	dies	_	O	O	
+8-7	auf	APPR	auf	_	O	O	
+8-8	das	ART	die	_	O	O	
+8-9	Bestimmteste	NN	<unknown>	_	O	O	
+8-10	;	$.	;	_	O	O	
+8-11	man	PIS	man	_	O	O	
+8-12	könne	VMFIN	können	_	O	O	
+8-13	keine	PIAT	keine	_	O	O	
+8-14	freie	ADJA	frei	_	O	O	
+8-15	Wohnung	NN	Wohnung	_	O	O	
+8-16	gewähren	VVINF	gewähren	_	O	O	
+8-17	,	$,	,	_	O	O	
+8-18	außer	APPR	außer	_	O	O	
+8-19	wenn	KOUS	wenn	_	O	O	
+8-20	man	PIS	man	_	O	O	
+8-21	ein	ART	eine	_	O	O	
+8-22	Haus	NN	Haus	_	O	O	
+8-23	dafür	PAV	dafür	_	O	O	
+8-24	habe	VAFIN	haben	_	O	O	
+8-25	.	$.	.	_	O	O	
+
+#id=9
+#text=Er werde aber noch einmal einen besonderen Bericht darüber machen, da auch Herr von Keudell angefragt habe, aber einen abschläglichen.
+9-1	Er	PPER	er	_	O	O	
+9-2	werde	VAFIN	werden	_	O	O	
+9-3	aber	ADV	aber	_	O	O	
+9-4	noch	ADV	noch	_	O	O	
+9-5	einmal	ADV	einmal	_	O	O	
+9-6	einen	ART	eine	_	O	O	
+9-7	besonderen	ADJA	besonder	_	O	O	
+9-8	Bericht	NN	Bericht	_	O	O	
+9-9	darüber	PAV	darüber	_	O	O	
+9-10	machen	VVINF	machen	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	da	KOUS	da	_	O	O	
+9-13	auch	ADV	auch	_	O	O	
+9-14	Herr	NN	Herr	_	O	O	
+9-15	von	APPR	von	_	O	O	
+9-16	Keudell	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-17	angefragt	VVPP	anfragen	_	O	O	
+9-18	habe	VAFIN	haben	_	O	O	
+9-19	,	$,	,	_	O	O	
+9-20	aber	KON	aber	_	O	O	
+9-21	einen	ART	eine	_	O	O	
+9-22	abschläglichen	ADJA	<unknown>	_	O	O	
+9-23	.	$.	.	_	O	O	
+
+#id=10
+#text=Darauf ein zweiter Brief von Herrn von Keudell, der sich auf den Wortlaut der Statuten berief.
+10-1	Darauf	PAV	darauf	_	O	O	
+10-2	ein	ART	eine	_	O	O	
+10-3	zweiter	ADJA	zweit	_	O	O	
+10-4	Brief	NN	Brief	_	O	O	
+10-5	von	APPR	von	_	O	O	
+10-6	Herrn	NN	Herr	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-7	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-8	Keudell	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-9	,	$,	,	_	O	O	
+10-10	der	PRELS	die	_	O	O	
+10-11	sich	PRF	sich	_	O	O	
+10-12	auf	APPR	auf	_	O	O	
+10-13	den	ART	die	_	O	O	
+10-14	Wortlaut	NN	Wortlaut	_	O	O	
+10-15	der	ART	die	_	O	O	
+10-16	Statuten	NN	Statut	_	O	O	
+10-17	berief	VVFIN	berufen	_	O	O	
+10-18	.	$.	.	_	O	O	
+
+#id=11
+#text=Daraufhin hat der Minister Heppke's bereits vorliegenden Bericht verworfen und be-
+11-1	Daraufhin	PAV	daraufhin	_	O	O	
+11-2	hat	VAFIN	haben	_	O	O	
+11-3	der	ART	die	_	O	O	
+11-4	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-5	Heppke's	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-6	bereits	ADV	bereits	_	O	O	
+11-7	vorliegenden	ADJA	vorliegend	_	O	O	
+11-8	Bericht	NN	Bericht	_	O	O	
+11-9	verworfen	VVPP	verwerfen	_	O	O	
+11-10	und	KON	und	_	O	O	
+11-11	be-	TRUNC	be-	_	O	O	
+

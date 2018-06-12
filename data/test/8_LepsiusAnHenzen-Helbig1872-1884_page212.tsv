@@ -1,0 +1,232 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=105 Verehrter Freund Lepsius an Henzen Berlin, 3. März 1875 g. 7/3 75 r.
+1-1	105	CARD	@card@	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	7/3	CARD	7/3	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=11/3 Berlin, den 3. Mz.
+2-1	11/3	CARD	11/3	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-3	,	$,	,	_	O	O	
+2-4	den	ART	die	_	O	O	
+2-5	3	CARD	3	_	O	O	
+2-6	.	$.	.	_	O	O	
+2-7	Mz	NE	<unknown>	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=1875 Sie werden nun durch den letzten Kurrier das Rechnungs Schema von der Legationskasse direkt erhalten haben.
+3-1	1875	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	werden	VAFIN	werden	_	O	O	
+3-4	nun	ADV	nun	_	O	O	
+3-5	durch	APPR	durch	_	O	O	
+3-6	den	ART	die	_	O	O	
+3-7	letzten	ADJA	letzt	_	O	O	
+3-8	Kurrier	NN	<unknown>	_	O	O	
+3-9	das	ART	die	_	O	O	
+3-10	Rechnungs	NN	<unknown>	_	O	O	
+3-11	Schema	NN	Schema	_	O	O	
+3-12	von	APPR	von	_	O	O	
+3-13	der	ART	die	_	O	O	
+3-14	Legationskasse	NN	<unknown>	_	O	O	
+3-15	direkt	ADJD	direkt	_	O	O	
+3-16	erhalten	VVPP	erhalten	_	O	O	
+3-17	haben	VAINF	haben	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich zog das vor, statt nochmals durch mich, bei den vielen Schwankungen in der Kasse selbst; was sie nun schriftlich gegeben haben, muß feststehen.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	zog	VVFIN	ziehen	_	O	O	
+4-3	das	PDS	die	_	O	O	
+4-4	vor	PTKVZ	vor	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	statt	KOUI	statt	_	O	O	
+4-7	nochmals	ADV	nochmals	_	O	O	
+4-8	durch	APPR	durch	_	O	O	
+4-9	mich	PPER	ich	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	bei	APPR	bei	_	O	O	
+4-12	den	ART	die	_	O	O	
+4-13	vielen	PIAT	viele	_	O	O	
+4-14	Schwankungen	NN	Schwankung	_	O	O	
+4-15	in	APPR	in	_	O	O	
+4-16	der	ART	die	_	O	O	
+4-17	Kasse	NN	Kasse	_	O	O	
+4-18	selbst	ADV	selbst	_	O	O	
+4-19	;	$.	;	_	O	O	
+4-20	was	PWS	was	_	O	O	
+4-21	sie	PPER	sie	_	O	O	
+4-22	nun	ADV	nun	_	O	O	
+4-23	schriftlich	ADJD	schriftlich	_	O	O	
+4-24	gegeben	VVPP	geben	_	O	O	
+4-25	haben	VAFIN	haben	_	O	O	
+4-26	,	$,	,	_	O	O	
+4-27	muß	VMFIN	müssen	_	O	O	
+4-28	feststehen	VVINF	feststehen	_	O	O	
+4-29	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihre Gutachten über Weil und Schreiber ist eingegangen.
+5-1	Ihre	PPOSAT	ihr	_	O	O	
+5-2	Gutachten	NN	Gutachten	_	O	O	
+5-3	über	APPR	über	_	O	O	
+5-4	Weil	KOUS	weil	_	O	O	
+5-5	und	KON	und	_	O	O	
+5-6	Schreiber	NE	Schreiber	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-7	ist	VAFIN	sein	_	O	O	
+5-8	eingegangen	VVPP	eingehen	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Sie können allerdings in der kurzen Zeit nicht viel gethan haben; es ist ein Mißverhältnis zwischen Eingabe, Zeit der Bewerbung und Abreise im Oktober, 8 Monate; das müßte geändert werden.
+6-1	Sie	PPER	Sie	_	O	O	
+6-2	können	VMFIN	können	_	O	O	
+6-3	allerdings	ADV	allerdings	_	O	O	
+6-4	in	APPR	in	_	O	O	
+6-5	der	ART	die	_	O	O	
+6-6	kurzen	ADJA	kurz	_	O	O	
+6-7	Zeit	NN	Zeit	_	O	O	
+6-8	nicht	PTKNEG	nicht	_	O	O	
+6-9	viel	PIAT	viele	_	O	O	
+6-10	gethan	NN	<unknown>	_	O	O	
+6-11	haben	VAINF	haben	_	O	O	
+6-12	;	$.	;	_	O	O	
+6-13	es	PPER	es	_	O	O	
+6-14	ist	VAFIN	sein	_	O	O	
+6-15	ein	ART	eine	_	O	O	
+6-16	Mißverhältnis	NN	Missverhältnis	_	O	O	
+6-17	zwischen	APPR	zwischen	_	O	O	
+6-18	Eingabe	NN	Eingabe	_	O	O	
+6-19	,	$,	,	_	O	O	
+6-20	Zeit	NN	Zeit	_	O	O	
+6-21	der	ART	die	_	O	O	
+6-22	Bewerbung	NN	Bewerbung	_	O	O	
+6-23	und	KON	und	_	O	O	
+6-24	Abreise	NN	Abreise	_	O	O	
+6-25	im	APPRART	in	_	O	O	
+6-26	Oktober	NN	Oktober	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-27	,	$,	,	_	O	O	
+6-28	8	CARD	8	_	O	O	
+6-29	Monate	NN	Monat	_	O	O	
+6-30	;	$.	;	_	O	O	
+6-31	das	PDS	die	_	O	O	
+6-32	müßte	VMFIN	müssen	_	O	O	
+6-33	geändert	VVPP	ändern	_	O	O	
+6-34	werden	VAINF	werden	_	O	O	
+6-35	.	$.	.	_	O	O	
+
+#id=7
+#text=Es sind nun außer Weil und Schreiber noch 9 andre Bewerber aufgetreten.
+7-1	Es	PPER	es	_	O	O	
+7-2	sind	VAFIN	sein	_	O	O	
+7-3	nun	ADV	nun	_	O	O	
+7-4	außer	APPR	außer	_	O	O	
+7-5	Weil	KOUS	weil	_	O	O	
+7-6	und	KON	und	_	O	O	
+7-7	Schreiber	NE	Schreiber	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-8	noch	ADV	noch	_	O	O	
+7-9	9	CARD	9	_	O	O	
+7-10	andre	PIAT	andere	_	O	O	
+7-11	Bewerber	NN	Bewerber	_	O	O	
+7-12	aufgetreten	VVPP	auftreten	_	O	O	
+7-13	.	$.	.	_	O	O	
+
+#id=8
+#text=Die Central Direktion hat einstimmig beschlossen Laders Urlaubsgesuch abzulehnen, da seine Abwesenheit gerade in die wichtigsten Monate fallen würde.
+8-1	Die	ART	die	_	O	O	
+8-2	Central	NN	<unknown>	_	O	O	
+8-3	Direktion	NN	Direktion	_	O	O	
+8-4	hat	VAFIN	haben	_	O	O	
+8-5	einstimmig	ADJD	einstimmig	_	O	O	
+8-6	beschlossen	VVPP	beschließen	_	O	O	
+8-7	Laders	NN	<unknown>	_	O	O	
+8-8	Urlaubsgesuch	NN	<unknown>	_	O	O	
+8-9	abzulehnen	VVIZU	ablehnen	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	da	KOUS	da	_	O	O	
+8-12	seine	PPOSAT	sein	_	O	O	
+8-13	Abwesenheit	NN	Abwesenheit	_	O	O	
+8-14	gerade	ADV	gerade	_	O	O	
+8-15	in	APPR	in	_	O	O	
+8-16	die	ART	die	_	O	O	
+8-17	wichtigsten	ADJA	wichtig	_	O	O	
+8-18	Monate	NN	Monat	_	O	O	
+8-19	fallen	VVINF	fallen	_	O	O	
+8-20	würde	VAFIN	werden	_	O	O	
+8-21	.	$.	.	_	O	O	
+
+#id=9
+#text=Es ist für den jungen Ehemann hart, schien aber unvermeidlich.
+9-1	Es	PPER	es	_	O	O	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	für	APPR	für	_	O	O	
+9-4	den	ART	die	_	O	O	
+9-5	jungen	ADJA	jung	_	O	O	
+9-6	Ehemann	NN	Ehemann	_	O	O	
+9-7	hart	ADJD	hart	_	O	O	
+9-8	,	$,	,	_	O	O	
+9-9	schien	VVFIN	scheinen	_	O	O	
+9-10	aber	ADV	aber	_	O	O	
+9-11	unvermeidlich	ADJD	unvermeidlich	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Mommsen hat sich überzeugt, daß es in der That zweckmäßiger ist die Ephemeris in d~e Kolumne der Central Direktion zu bringen, statt in die Römische.
+10-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	hat	VAFIN	haben	_	O	O	
+10-3	sich	PRF	sich	_	O	O	
+10-4	überzeugt	ADJD	überzeugt	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	daß	KOUS	dass	_	O	O	
+10-7	es	PPER	es	_	O	O	
+10-8	in	APPR	in	_	O	O	
+10-9	der	ART	die	_	O	O	
+10-10	That	NE	<unknown>	_	O	O	
+10-11	zweckmäßiger	ADJD	zweckmäßiger	_	O	O	
+10-12	ist	VAFIN	sein	_	O	O	
+10-13	die	ART	die	_	O	O	
+10-14	Ephemeris	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-15	in	APPR	in	_	O	O	
+10-16	d~e	NE	<unknown>	_	O	O	
+10-17	Kolumne	NN	Kolumne	_	O	O	
+10-18	der	ART	die	_	O	O	
+10-19	Central	NN	<unknown>	_	O	O	
+10-20	Direktion	NN	Direktion	_	O	O	
+10-21	zu	PTKZU	zu	_	O	O	
+10-22	bringen	VVINF	bringen	_	O	O	
+10-23	,	$,	,	_	O	O	
+10-24	statt	KOUI	statt	_	O	O	
+10-25	in	APPR	in	_	O	O	
+10-26	die	ART	die	_	O	O	
+10-27	Römische	NN	Römische	_	O	O	
+10-28	.	$.	.	_	O	O	
+
+#id=11
+#text=Das wird also im nächsten Etat geändert w"erden.
+11-1	Das	PDS	die	_	O	O	
+11-2	wird	VAFIN	werden	_	O	O	
+11-3	also	ADV	also	_	O	O	
+11-4	im	APPRART	in	_	O	O	
+11-5	nächsten	ADJA	nah	_	O	O	
+11-6	Etat	NN	Etat	_	O	O	
+11-7	geändert	VVPP	ändern	_	O	O	
+11-8	w"erden	VVINF	<unknown>	_	O	O	
+11-9	.	$.	.	_	O	O	
+

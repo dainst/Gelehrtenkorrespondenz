@@ -1,0 +1,233 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=272 Gerhard an Braun Berlin, 8. Juni 1844 A. d. Dir.
+1-1	272	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	A.	APPR	an	_	O	O	
+1-12	d.	ART	d.	_	O	O	
+1-13	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=g. 8/VII 44 r. 9/VII 44 Dr. Braun Berlin 8 Juni 44 Mein theurer Freund.
+2-1	g.	ADJA	<unknown>	_	O	O	
+2-2	8/VII	CARD	<unknown>	_	O	O	
+2-3	44	CARD	44	_	O	O	
+2-4	r.	ADJA	<unknown>	_	O	O	
+2-5	9/VII	CARD	<unknown>	_	O	O	
+2-6	44	CARD	44	_	O	O	
+2-7	Dr.	NN	Dr.	_	O	O	
+2-8	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-10	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-11	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-13	Mein	PPOSAT	mein	_	O	O	
+2-14	theurer	ADJA	<unknown>	_	O	O	
+2-15	Freund	NN	Freund	_	O	O	
+2-16	.	$.	.	_	O	O	
+
+#id=3
+#text=Da ich Sie nach Ihrem gestern eingelaufenen Brief selbst jetzt noch vielleicht in Rom erreichbar glauben darf, so schreibe ich umgehend.
+3-1	Da	KOUS	da	_	O	O	
+3-2	ich	PPER	ich	_	O	O	
+3-3	Sie	PPER	Sie	_	O	O	
+3-4	nach	APPR	nach	_	O	O	
+3-5	Ihrem	PPOSAT	ihr	_	O	O	
+3-6	gestern	ADV	gestern	_	O	O	
+3-7	eingelaufenen	ADJA	eingelaufen	_	O	O	
+3-8	Brief	NN	Brief	_	O	O	
+3-9	selbst	ADV	selbst	_	O	O	
+3-10	jetzt	ADV	jetzt	_	O	O	
+3-11	noch	ADV	noch	_	O	O	
+3-12	vielleicht	ADV	vielleicht	_	O	O	
+3-13	in	APPR	in	_	O	O	
+3-14	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-15	erreichbar	ADJD	erreichbar	_	O	O	
+3-16	glauben	VVINF	glauben	_	O	O	
+3-17	darf	VMFIN	dürfen	_	O	O	
+3-18	,	$,	,	_	O	O	
+3-19	so	ADV	so	_	O	O	
+3-20	schreibe	VVFIN	schreiben	_	O	O	
+3-21	ich	PPER	ich	_	O	O	
+3-22	umgehend	ADJD	umgehend	_	O	O	
+3-23	.	$.	.	_	O	O	
+
+#id=4
+#text=Bunsen (der am 24 d. M. seine Frau und Familie Schönleins wegen hier erwartet) begegnete mir gestern auf einem Ministerialgang in Angelegenheit Ihrer Spitalforderung, was er mir ohne meine Veranlassung mit dem Bemerken sagte von Schulz daran erinnert, aber ohne eigne Kenntniß der Sache zu sein, die nun natürlich beschleunigt werden solle; e4müsse ihm aber dahin Einschlagendes vorenthalten worden sein.
+4-1	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	(	$(	(	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	am	APPRART	an	_	O	O	
+4-5	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-6	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-7	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-8	seine	PPOSAT	sein	_	O	O	
+4-9	Frau	NN	Frau	_	O	O	
+4-10	und	KON	und	_	O	O	
+4-11	Familie	NN	Familie	_	O	O	
+4-12	Schönleins	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-13	wegen	APPR	wegen	_	O	O	
+4-14	hier	ADV	hier	_	O	O	
+4-15	erwartet	VVPP	erwarten	_	O	O	
+4-16	)	$(	)	_	O	O	
+4-17	begegnete	VVFIN	begegnen	_	O	O	
+4-18	mir	PPER	ich	_	O	O	
+4-19	gestern	ADV	gestern	_	O	O	
+4-20	auf	APPR	auf	_	O	O	
+4-21	einem	ART	eine	_	O	O	
+4-22	Ministerialgang	NN	<unknown>	_	O	O	
+4-23	in	APPR	in	_	O	O	
+4-24	Angelegenheit	NN	Angelegenheit	_	O	O	
+4-25	Ihrer	PPOSAT	ihr	_	O	O	
+4-26	Spitalforderung	NN	<unknown>	_	O	O	
+4-27	,	$,	,	_	O	O	
+4-28	was	PRELS	was	_	O	O	
+4-29	er	PPER	er	_	O	O	
+4-30	mir	PRF	ich	_	O	O	
+4-31	ohne	APPR	ohne	_	O	O	
+4-32	meine	PPOSAT	mein	_	O	O	
+4-33	Veranlassung	NN	Veranlassung	_	O	O	
+4-34	mit	APPR	mit	_	O	O	
+4-35	dem	ART	die	_	O	O	
+4-36	Bemerken	NN	Bemerken	_	O	O	
+4-37	sagte	VVFIN	sagen	_	O	O	
+4-38	von	APPR	von	_	O	O	
+4-39	Schulz	NE	Schulz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-40	daran	PAV	daran	_	O	O	
+4-41	erinnert	VVFIN	erinnern	_	O	O	
+4-42	,	$,	,	_	O	O	
+4-43	aber	ADV	aber	_	O	O	
+4-44	ohne	APPR	ohne	_	O	O	
+4-45	eigne	ADJA	eigen	_	O	O	
+4-46	Kenntniß	NN	<unknown>	_	O	O	
+4-47	der	ART	die	_	O	O	
+4-48	Sache	NN	Sache	_	O	O	
+4-49	zu	PTKZU	zu	_	O	O	
+4-50	sein	VAINF	sein	_	O	O	
+4-51	,	$,	,	_	O	O	
+4-52	die	PRELS	die	_	O	O	
+4-53	nun	ADV	nun	_	O	O	
+4-54	natürlich	ADV	natürlich	_	O	O	
+4-55	beschleunigt	VVPP	beschleunigen	_	O	O	
+4-56	werden	VAINF	werden	_	O	O	
+4-57	solle	VMFIN	sollen	_	O	O	
+4-58	;	$.	;	_	O	O	
+4-59	e4müsse	VVFIN	<unknown>	_	O	O	
+4-60	ihm	PPER	er	_	O	O	
+4-61	aber	ADV	aber	_	O	O	
+4-62	dahin	PAV	dahin	_	O	O	
+4-63	Einschlagendes	NN	<unknown>	_	O	O	
+4-64	vorenthalten	VVPP	vorenthalten	_	O	O	
+4-65	worden	VAPP	werden	_	O	O	
+4-66	sein	VAINF	sein	_	O	O	
+4-67	.	$.	.	_	O	O	
+
+#id=5
+#text=Usedom dem ich früher davon sprach rieth, wenn Bunsen die Sache hangen lasse, dem Minister direkt darüber zu schreiben.
+5-1	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	dem	PRELS	die	_	O	O	
+5-3	ich	PPER	ich	_	O	O	
+5-4	früher	ADV	früher	_	O	O	
+5-5	davon	PAV	davon	_	O	O	
+5-6	sprach	VVFIN	sprechen	_	O	O	
+5-7	rieth	NE	<unknown>	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	wenn	KOUS	wenn	_	O	O	
+5-10	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-11	die	ART	die	_	O	O	
+5-12	Sache	NN	Sache	_	O	O	
+5-13	hangen	ADJD	<unknown>	_	O	O	
+5-14	lasse	VVFIN	lassen	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	dem	ART	die	_	O	O	
+5-17	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-18	direkt	ADJD	direkt	_	O	O	
+5-19	darüber	PAV	darüber	_	O	O	
+5-20	zu	PTKZU	zu	_	O	O	
+5-21	schreiben	VVINF	schreiben	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=Für Ihren ärztlchen Rath den herzlichsten Dank; über magnetisirte Wasser hat mich Usedom in nähere Kenntniß gesetzt, ohne daß er viel Glauben dar an hätte.
+6-1	Für	APPR	für	_	O	O	
+6-2	Ihren	PPOSAT	ihr	_	O	O	
+6-3	ärztlchen	ADJA	<unknown>	_	O	O	
+6-4	Rath	NE	Rath	_	O	O	
+6-5	den	ART	die	_	O	O	
+6-6	herzlichsten	ADJA	herzlich	_	O	O	
+6-7	Dank	NN	Dank	_	O	O	
+6-8	;	$.	;	_	O	O	
+6-9	über	APPR	über	_	O	O	
+6-10	magnetisirte	ADJA	<unknown>	_	O	O	
+6-11	Wasser	NN	Wasser	_	O	O	
+6-12	hat	VAFIN	haben	_	O	O	
+6-13	mich	PRF	ich	_	O	O	
+6-14	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-15	in	APPR	in	_	O	O	
+6-16	nähere	ADJA	nah	_	O	O	
+6-17	Kenntniß	NN	<unknown>	_	O	O	
+6-18	gesetzt	VVPP	setzen	_	O	O	
+6-19	,	$,	,	_	O	O	
+6-20	ohne	APPR	ohne	_	O	O	
+6-21	daß	KOUS	dass	_	O	O	
+6-22	er	PPER	er	_	O	O	
+6-23	viel	PIAT	viele	_	O	O	
+6-24	Glauben	NN	Glaube	_	O	O	
+6-25	dar	PTKVZ	dar	_	O	O	
+6-26	an	APZR	an	_	O	O	
+6-27	hätte	VAFIN	haben	_	O	O	
+6-28	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich .
+7-1	Ich	PPER	ich	_	O	O	
+7-2	.	$.	.	_	O	O	
+
+#id=8
+#text=gedenke nun etliche Wochen an Bäder in Wildbad zu geben, r::~{.c.
+8-1	gedenke	VVFIN	gedenken	_	O	O	
+8-2	nun	ADV	nun	_	O	O	
+8-3	etliche	PIAT	etliche	_	O	O	
+8-4	Wochen	NN	Woche	_	O	O	
+8-5	an	APPR	an	_	O	O	
+8-6	Bäder	NN	Bad	_	O	O	
+8-7	in	APPR	in	_	O	O	
+8-8	Wildbad	NN	Wildbad	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-9	zu	PTKZU	zu	_	O	O	
+8-10	geben	VVINF	geben	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	r::~{.c	NE	<unknown>	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=was von erfahrnen Ärzten den Wirkungen von Gastein und S i e s analog gestellt wird, allerdings ohne die ho-
+9-1	was	PWS	was	_	O	O	
+9-2	von	APPR	von	_	O	O	
+9-3	erfahrnen	ADJA	<unknown>	_	O	O	
+9-4	Ärzten	NN	Arzt	_	O	O	
+9-5	den	ART	die	_	O	O	
+9-6	Wirkungen	NN	Wirkung	_	O	O	
+9-7	von	APPR	von	_	O	O	
+9-8	Gastein	NN	Gastein	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-9	und	KON	und	_	O	O	
+9-10	S	NN	S	_	O	O	
+9-11	i	NE	i	_	O	O	
+9-12	e	ADJA	<unknown>	_	O	O	
+9-13	s	NN	s	_	O	O	
+9-14	analog	ADJD	analog	_	O	O	
+9-15	gestellt	VVPP	stellen	_	O	O	
+9-16	wird	VAFIN	werden	_	O	O	
+9-17	,	$,	,	_	O	O	
+9-18	allerdings	ADV	allerdings	_	O	O	
+9-19	ohne	APPR	ohne	_	O	O	
+9-20	die	ART	die	_	O	O	
+9-21	ho-	TRUNC	ho-	_	O	O	
+

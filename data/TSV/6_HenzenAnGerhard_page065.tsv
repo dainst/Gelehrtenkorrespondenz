@@ -1,0 +1,357 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=213 14/VI/52 2 Henzen an Gerhard Wir haben einige Membri creiren mussen Membro ordinario - Stefano Gedeonoff, ciambellano di S. M. l'imperatore di Russia, Roma, erhielt Diplom N.381.
+1-1	213	CARD	@card@	_	O	O	
+1-2	14/VI/52	CARD	<unknown>	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Wir	PPER	wir	_	O	O	
+1-8	haben	VAFIN	haben	_	O	O	
+1-9	einige	PIAT	einige	_	O	O	
+1-10	Membri	NN	<unknown>	_	O	O	
+1-11	creiren	ADJA	<unknown>	_	O	O	
+1-12	mussen	NN	<unknown>	_	O	O	
+1-13	Membro	NN	<unknown>	_	O	O	
+1-14	ordinario	NN	<unknown>	_	O	O	
+1-15	-	$(	-	_	O	O	
+1-16	Stefano	NE	Stefano	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-17	Gedeonoff	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-18	,	$,	,	_	O	O	
+1-19	ciambellano	NE	<unknown>	_	O	O	
+1-20	di	NE	di	_	O	O	
+1-21	S.	NE	S.	_	O	O	
+1-22	M.	NE	M.	_	O	O	
+1-23	l'imperatore	NN	<unknown>	_	O	O	
+1-24	di	NE	di	_	O	O	
+1-25	Russia	NE	<unknown>	_	O	O	
+1-26	,	$,	,	_	O	O	
+1-27	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-28	,	$,	,	_	O	O	
+1-29	erhielt	VVFIN	erhalten	_	O	O	
+1-30	Diplom	NN	Diplom	_	O	O	
+1-31	N.381	CARD	<unknown>	_	O	O	
+1-32	.	$.	.	_	O	O	
+
+#id=2
+#text=382 - 385 erhielten Philippi, Ravestein, Guidobaldi, Confstabile.
+2-1	382	CARD	@card@	_	O	O	
+2-2	-	$(	-	_	O	O	
+2-3	385	CARD	@card@	_	O	O	
+2-4	erhielten	VVFIN	erhalten	_	O	O	
+2-5	Philippi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-6	,	$,	,	_	O	O	
+2-7	Ravestein	NE	<unknown>	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	Guidobaldi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-10	,	$,	,	_	O	O	
+2-11	Confstabile	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=386 schlagen wir vor le Comte de Challay, Consul general de France a Erzerum, der versprochen hat zu schreiben, u. 387. einen Comte Escalopier, den Braun zu beglücken nicht vermeiden konnte, Paris.
+3-1	386	CARD	@card@	_	O	O	
+3-2	schlagen	VVFIN	schlagen	_	O	O	
+3-3	wir	PPER	wir	_	O	O	
+3-4	vor	APPR	vor	_	O	O	
+3-5	le	ADJA	<unknown>	_	O	O	
+3-6	Comte	NN	<unknown>	_	O	O	
+3-7	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-8	Challay	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+3-9	,	$,	,	_	O	O	
+3-10	Consul	NN	<unknown>	_	O	O	
+3-11	general	NN	General	_	O	O	
+3-12	de	FM	de	_	O	O	
+3-13	France	NE	France	_	O	O	
+3-14	a	FM	a	_	O	O	
+3-15	Erzerum	NN	Erzerum	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	der	PRELS	die	_	O	O	
+3-18	versprochen	VVPP	versprechen	_	O	O	
+3-19	hat	VAFIN	haben	_	O	O	
+3-20	zu	PTKZU	zu	_	O	O	
+3-21	schreiben	VVINF	schreiben	_	O	O	
+3-22	,	$,	,	_	O	O	
+3-23	u.	APPR	um	_	O	O	
+3-24	387	CARD	@card@	_	O	O	
+3-25	.	$.	.	_	O	O	
+3-26	einen	ART	eine	_	O	O	
+3-27	Comte	NN	<unknown>	_	O	O	
+3-28	Escalopier	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-29	,	$,	,	_	O	O	
+3-30	den	ART	die	_	O	O	
+3-31	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-32	zu	PTKVZ	zu	_	O	O	
+3-33	beglücken	VVFIN	beglücken	_	O	O	
+3-34	nicht	PTKNEG	nicht	_	O	O	
+3-35	vermeiden	VVINF	vermeiden	_	O	O	
+3-36	konnte	VMFIN	können	_	O	O	
+3-37	,	$,	,	_	O	O	
+3-38	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-39	.	$.	.	_	O	O	
+
+#id=4
+#text=Letzterem ist ein altes Diplom zurecht gemacht worden.
+4-1	Letzterem	NN	Letztere	_	O	O	
+4-2	ist	VAFIN	sein	_	O	O	
+4-3	ein	ART	eine	_	O	O	
+4-4	altes	ADJA	alt	_	O	O	
+4-5	Diplom	NN	Diplom	_	O	O	
+4-6	zurecht	PTKVZ	zurecht	_	O	O	
+4-7	gemacht	VVPP	machen	_	O	O	
+4-8	worden	VAPP	werden	_	O	O	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=Jetzt aber ist Mangel an solchen Documenten u. bitte daher um unterschriebene Exemplare.
+5-1	Jetzt	ADV	jetzt	_	O	O	
+5-2	aber	ADV	aber	_	O	O	
+5-3	ist	VAFIN	sein	_	O	O	
+5-4	Mangel	NN	Mangel	_	O	O	
+5-5	an	APPR	an	_	O	O	
+5-6	solchen	PIAT	solche	_	O	O	
+5-7	Documenten	NN	<unknown>	_	O	O	
+5-8	u.	KON	und	_	O	O	
+5-9	bitte	VVFIN	bitten	_	O	O	
+5-10	daher	PAV	daher	_	O	O	
+5-11	um	APPR	um	_	O	O	
+5-12	unterschriebene	ADJA	unterschrieben	_	O	O	
+5-13	Exemplare	NN	Exemplar	_	O	O	
+5-14	.	$.	.	_	O	O	
+
+#id=6
+#text=Meine Frau war seit 1+ 'liochen recht leidend, die letzten 8 Tage sogar theilweise im Bette, seit gestern jedoch fieberfrei u., wie es scheint, so gut wie genesen.
+6-1	Meine	PPOSAT	mein	_	O	O	
+6-2	Frau	NN	Frau	_	O	O	
+6-3	war	VAFIN	sein	_	O	O	
+6-4	seit	APPR	seit	_	O	O	
+6-5	1+	NN	<unknown>	_	O	O	
+6-6	'	$(	'	_	O	O	
+6-7	liochen	VVFIN	<unknown>	_	O	O	
+6-8	recht	ADJD	recht	_	O	O	
+6-9	leidend	ADJD	leidend	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	die	ART	die	_	O	O	
+6-12	letzten	ADJA	letzt	_	O	O	
+6-13	8	CARD	8	_	O	O	
+6-14	Tage	NN	Tag	_	O	O	
+6-15	sogar	ADV	sogar	_	O	O	
+6-16	theilweise	ADJD	<unknown>	_	O	O	
+6-17	im	APPRART	in	_	O	O	
+6-18	Bette	NN	Bett	_	O	O	
+6-19	,	$,	,	_	O	O	
+6-20	seit	KOUS	seit	_	O	O	
+6-21	gestern	ADV	gestern	_	O	O	
+6-22	jedoch	ADV	jedoch	_	O	O	
+6-23	fieberfrei	ADJD	fieberfrei	_	O	O	
+6-24	u.	KON	und	_	O	O	
+6-25	,	$,	,	_	O	O	
+6-26	wie	KOUS	wie	_	O	O	
+6-27	es	PPER	es	_	O	O	
+6-28	scheint	VVFIN	scheinen	_	O	O	
+6-29	,	$,	,	_	O	O	
+6-30	so	ADV	so	_	O	O	
+6-31	gut	ADJD	gut	_	O	O	
+6-32	wie	KOKOM	wie	_	O	O	
+6-33	genesen	VVPP	genesen	_	O	O	
+6-34	.	$.	.	_	O	O	
+
+#id=7
+#text=Wir haben aber auch seit länger als 6 Vvochen einen für dse. Jahres zeit unerhörten Scirocco u. bei eigentlich kühler Witterung eine furchtbare Dürre, dh.
+7-1	Wir	PPER	wir	_	O	O	
+7-2	haben	VAFIN	haben	_	O	O	
+7-3	aber	ADV	aber	_	O	O	
+7-4	auch	ADV	auch	_	O	O	
+7-5	seit	APPR	seit	_	O	O	
+7-6	länger	ADJD	lang	_	O	O	
+7-7	als	KOKOM	als	_	O	O	
+7-8	6	CARD	6	_	O	O	
+7-9	Vvochen	NN	<unknown>	_	O	O	
+7-10	einen	ART	eine	_	O	O	
+7-11	für	APPR	für	_	O	O	
+7-12	dse	NE	<unknown>	_	O	O	
+7-13	.	$.	.	_	O	O	
+7-14	Jahres	NN	Jahr	_	O	O	
+7-15	zeit	APPR	zeit	_	O	O	
+7-16	unerhörten	ADJA	unerhört	_	O	O	
+7-17	Scirocco	NE	<unknown>	_	O	O	
+7-18	u.	KON	und	_	O	O	
+7-19	bei	APPR	bei	_	O	O	
+7-20	eigentlich	ADV	eigentlich	_	O	O	
+7-21	kühler	ADJA	kühl	_	O	O	
+7-22	Witterung	NN	Witterung	_	O	O	
+7-23	eine	ART	eine	_	O	O	
+7-24	furchtbare	ADJA	furchtbar	_	O	O	
+7-25	Dürre	NN	Dürre	_	O	O	
+7-26	,	$,	,	_	O	O	
+7-27	dh.	NE	<unknown>	_	O	O	
+
+#id=8
+#text=die bereits die Ernte sehr gelitten haben soll.
+8-1	die	PDS	die	_	O	O	
+8-2	bereits	ADV	bereits	_	O	O	
+8-3	die	ART	die	_	O	O	
+8-4	Ernte	NN	Ernte	_	O	O	
+8-5	sehr	ADV	sehr	_	O	O	
+8-6	gelitten	VVPP	leiden	_	O	O	
+8-7	haben	VAINF	haben	_	O	O	
+8-8	soll	VMFIN	sollen	_	O	O	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=Morgens und Abends ist der Himmel regelmäßig bewölkt u. völlig grau, u. von Mittag an wieder plötzlich hell, ohne dß.
+9-1	Morgens	NN	Morgen	_	O	O	
+9-2	und	KON	und	_	O	O	
+9-3	Abends	NN	Abend	_	O	O	
+9-4	ist	VAFIN	sein	_	O	O	
+9-5	der	ART	die	_	O	O	
+9-6	Himmel	NN	Himmel	_	O	O	
+9-7	regelmäßig	ADJD	regelmäßig	_	O	O	
+9-8	bewölkt	ADJD	bewölkt	_	O	O	
+9-9	u.	KON	und	_	O	O	
+9-10	völlig	ADJD	völlig	_	O	O	
+9-11	grau	ADJD	grau	_	O	O	
+9-12	,	$,	,	_	O	O	
+9-13	u.	KON	und	_	O	O	
+9-14	von	APPR	von	_	O	O	
+9-15	Mittag	NN	Mittag	_	O	O	
+9-16	an	APPR	an	_	O	O	
+9-17	wieder	ADV	wieder	_	O	O	
+9-18	plötzlich	ADJD	plötzlich	_	O	O	
+9-19	hell	ADJD	hell	_	O	O	
+9-20	,	$,	,	_	O	O	
+9-21	ohne	KOUI	ohne	_	O	O	
+9-22	dß	ADJD	<unknown>	_	O	O	
+9-23	.	$.	.	_	O	O	
+
+#id=10
+#text=Regen kommt.
+10-1	Regen	NN	Regen	_	O	O	
+10-2	kommt	VVFIN	kommen	_	O	O	
+10-3	.	$.	.	_	O	O	
+
+#id=11
+#text=In Folge so abnormen Wetters sind viele ~eute krank.
+11-1	In	APPR	in	_	O	O	
+11-2	Folge	NN	Folge	_	O	O	
+11-3	so	ADV	so	_	O	O	
+11-4	abnormen	ADJA	abnorm	_	O	O	
+11-5	Wetters	NN	Wetter	_	O	O	
+11-6	sind	VAFIN	sein	_	O	O	
+11-7	viele	PIAT	viele	_	O	O	
+11-8	~eute	NN	<unknown>	_	O	O	
+11-9	krank	ADJD	krank	_	O	O	
+11-10	.	$.	.	_	O	O	
+
+#id=12
+#text=Auch die Bethmann ist recht angegriffen.
+12-1	Auch	ADV	auch	_	O	O	
+12-2	die	ART	die	_	O	O	
+12-3	Bethmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-4	ist	VAFIN	sein	_	O	O	
+12-5	recht	ADJD	recht	_	O	O	
+12-6	angegriffen	VVPP	angreifen	_	O	O	
+12-7	.	$.	.	_	O	O	
+
+#id=13
+#text=Sie wollen in dsn.
+13-1	Sie	PPER	Sie	_	O	O	
+13-2	wollen	VMFIN	wollen	_	O	O	
+13-3	in	APPR	in	_	O	O	
+13-4	dsn	NE	<unknown>	_	O	O	
+13-5	.	$.	.	_	O	O	
+
+#id=14
+#text=Tagen ins Gebirge, dann nach Sorrent, im Winter aber wieder hieher.
+14-1	Tagen	NN	Tag	_	O	O	
+14-2	ins	APPRART	in	_	O	O	
+14-3	Gebirge	NN	Gebirge	_	O	O	
+14-4	,	$,	,	_	O	O	
+14-5	dann	ADV	dann	_	O	O	
+14-6	nach	APPR	nach	_	O	O	
+14-7	Sorrent	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+14-8	,	$,	,	_	O	O	
+14-9	im	APPRART	in	_	O	O	
+14-10	Winter	NN	Winter	_	O	O	
+14-11	aber	ADV	aber	_	O	O	
+14-12	wieder	ADV	wieder	_	O	O	
+14-13	hieher	NN	<unknown>	_	O	O	
+14-14	.	$.	.	_	O	O	
+
+#id=15
+#text=Morgen oder über~orgen spedire ich Bull.
+15-1	Morgen	NN	Morgen	_	O	O	
+15-2	oder	KON	oder	_	O	O	
+15-3	über~orgen	NN	<unknown>	_	O	O	
+15-4	spedire	VVFIN	<unknown>	_	O	O	
+15-5	ich	PPER	ich	_	O	O	
+15-6	Bull	NE	Bull	_	O	O	
+15-7	.	$.	.	_	O	O	
+
+#id=16
+#text=di Maggio.
+16-1	di	NE	di	_	O	O	
+16-2	Maggio	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+16-3	.	$.	.	_	O	O	
+
+#id=17
+#text=Sie finden darin die Anfänge der Sen ischen Wissenschaft; ich schicke 2 Exem., damit ~ie eines an Lepsius geben, u. wäre es gut, wenn dieser, ode ein andrer Aegyptologe sich darüber expertorirte.
+17-1	Sie	PPER	Sie	_	O	O	
+17-2	finden	VVFIN	finden	_	O	O	
+17-3	darin	PAV	darin	_	O	O	
+17-4	die	ART	die	_	O	O	
+17-5	Anfänge	NN	Anfang	_	O	O	
+17-6	der	ART	die	_	O	O	
+17-7	Sen	NE	Sen	_	O	O	
+17-8	ischen	ADJA	<unknown>	_	O	O	
+17-9	Wissenschaft	NN	Wissenschaft	_	O	O	
+17-10	;	$.	;	_	O	O	
+17-11	ich	PPER	ich	_	O	O	
+17-12	schicke	VVFIN	schicken	_	O	O	
+17-13	2	CARD	2	_	O	O	
+17-14	Exem	NN	<unknown>	_	O	O	
+17-15	.	$.	.	_	O	O	
+17-16	,	$,	,	_	O	O	
+17-17	damit	KOUS	damit	_	O	O	
+17-18	~ie	NN	<unknown>	_	O	O	
+17-19	eines	ART	eine	_	O	O	
+17-20	an	APPR	an	_	O	O	
+17-21	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-22	geben	VVFIN	geben	_	O	O	
+17-23	,	$,	,	_	O	O	
+17-24	u.	KON	und	_	O	O	
+17-25	wäre	VAFIN	sein	_	O	O	
+17-26	es	PPER	es	_	O	O	
+17-27	gut	ADJD	gut	_	O	O	
+17-28	,	$,	,	_	O	O	
+17-29	wenn	KOUS	wenn	_	O	O	
+17-30	dieser	PDAT	dies	_	O	O	
+17-31	,	$,	,	_	O	O	
+17-32	ode	VVFIN	<unknown>	_	O	O	
+17-33	ein	ART	eine	_	O	O	
+17-34	andrer	PIAT	andere	_	O	O	
+17-35	Aegyptologe	NN	<unknown>	_	O	O	
+17-36	sich	PRF	sich	_	O	O	
+17-37	darüber	PAV	darüber	_	O	O	
+17-38	expertorirte	VVFIN	<unknown>	_	O	O	
+17-39	.	$.	.	_	O	O	
+
+#id=18
+#text=In diesem Augenblicke bringt mir Domenico noch ein langes Manuscript Secchis über sein System,
+18-1	In	APPR	in	_	O	O	
+18-2	diesem	PDAT	dies	_	O	O	
+18-3	Augenblicke	NN	Augenblick	_	O	O	
+18-4	bringt	VVFIN	bringen	_	O	O	
+18-5	mir	PPER	ich	_	O	O	
+18-6	Domenico	NE	Domenico	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-7	noch	ADV	noch	_	O	O	
+18-8	ein	ART	eine	_	O	O	
+18-9	langes	ADJA	lang	_	O	O	
+18-10	Manuscript	NN	<unknown>	_	O	O	
+18-11	Secchis	NE	<unknown>	_	O	O	
+18-12	über	APPR	über	_	O	O	
+18-13	sein	PPOSAT	sein	_	O	O	
+18-14	System	NN	System	_	O	O	
+18-15	,	$,	,	_	O	O	
+

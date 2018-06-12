@@ -1,0 +1,242 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Verehrtester Freund Lepsius an Renzen Berlin, 12. Dezember 1873 g. 15/12 73 r.
+1-1	Verehrtester	NN	<unknown>	_	O	O	
+1-2	Freund	NE	Freund	_	O	O	
+1-3	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	15/12	CARD	15/12	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	73	CARD	73	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=18/12 Berlin, d. 12- Dez.
+2-1	18/12	CARD	@card@	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-3	,	$,	,	_	O	O	
+2-4	d.	ART	d.	_	O	O	
+2-5	12-	TRUNC	12-	_	O	O	
+2-6	Dez.	NN	Dez.	_	O	O	
+
+#id=3
+#text=1873 Ich bin selbst über meine Schreibepause verwundert.
+3-1	1873	CARD	1873	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-2	Ich	PPER	ich	_	O	O	
+3-3	bin	VAFIN	sein	_	O	O	
+3-4	selbst	ADV	selbst	_	O	O	
+3-5	über	APPR	über	_	O	O	
+3-6	meine	PPOSAT	mein	_	O	O	
+3-7	Schreibepause	NN	<unknown>	_	O	O	
+3-8	verwundert	VVPP	verwundern	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Sie hat aber ihre Richtigkeit.
+4-1	Sie	PPER	Sie	_	O	O	
+4-2	hat	VAFIN	haben	_	O	O	
+4-3	aber	ADV	aber	_	O	O	
+4-4	ihre	PPOSAT	ihr	_	O	O	
+4-5	Richtigkeit	NN	Richtigkeit	_	O	O	
+4-6	.	$.	.	_	O	O	
+
+#id=5
+#text=Als ich Ihnen nach unsrer letzten Konferenz schreiben wollte, hatte ich es mit einigen Berichten zu thun, die mich absorbirten.
+5-1	Als	KOUS	als	_	O	O	
+5-2	ich	PPER	ich	_	O	O	
+5-3	Ihnen	PPER	Sie	_	O	O	
+5-4	nach	APPR	nach	_	O	O	
+5-5	unsrer	PPOSAT	unser	_	O	O	
+5-6	letzten	ADJA	letzt	_	O	O	
+5-7	Konferenz	NN	Konferenz	_	O	O	
+5-8	schreiben	VVINF	schreiben	_	O	O	
+5-9	wollte	VMFIN	wollen	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	hatte	VAFIN	haben	_	O	O	
+5-12	ich	PPER	ich	_	O	O	
+5-13	es	PPER	es	_	O	O	
+5-14	mit	APPR	mit	_	O	O	
+5-15	einigen	PIAT	einige	_	O	O	
+5-16	Berichten	NN	Bericht	_	O	O	
+5-17	zu	APPR	zu	_	O	O	
+5-18	thun	NE	<unknown>	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	die	PRELS	die	_	O	O	
+5-21	mich	PPER	ich	_	O	O	
+5-22	absorbirten	VVFIN	<unknown>	_	O	O	
+5-23	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich hole jetzt kurz nach.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	hole	VVFIN	holen	_	O	O	
+6-3	jetzt	ADV	jetzt	_	O	O	
+6-4	kurz	ADJD	kurz	_	O	O	
+6-5	nach	PTKVZ	nach	_	O	O	
+6-6	.	$.	.	_	O	O	
+
+#id=7
+#text=Es ist bewilligt, daß daß der Zeichner des Matz statt nach Paris den Winter nach Rom gehe; er wird wohl nächstens dahin abreisen.
+7-1	Es	PPER	es	_	O	O	
+7-2	ist	VAFIN	sein	_	O	O	
+7-3	bewilligt	VVPP	bewilligen	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	daß	KOUS	dass	_	O	O	
+7-6	daß	KOUS	dass	_	O	O	
+7-7	der	ART	die	_	O	O	
+7-8	Zeichner	NN	Zeichner	_	O	O	
+7-9	des	ART	die	_	O	O	
+7-10	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-11	statt	PTKVZ	statt	_	O	O	
+7-12	nach	APPR	nach	_	O	O	
+7-13	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-14	den	ART	die	_	O	O	
+7-15	Winter	NN	Winter	_	O	O	
+7-16	nach	APPR	nach	_	O	O	
+7-17	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-18	gehe	VVFIN	gehen	_	O	O	
+7-19	;	$.	;	_	O	O	
+7-20	er	PPER	er	_	O	O	
+7-21	wird	VAFIN	werden	_	O	O	
+7-22	wohl	ADV	wohl	_	O	O	
+7-23	nächstens	ADV	nächstens	_	O	O	
+7-24	dahin	PAV	dahin	_	O	O	
+7-25	abreisen	VVINF	abreisen	_	O	O	
+7-26	.	$.	.	_	O	O	
+
+#id=8
+#text=Es sind dazu 600 rausgesetzt, zu deren Zahlung ich Asher autorisirt habe, und worüber er sich mit Ihnen zu berechnen hat.
+8-1	Es	PPER	es	_	O	O	
+8-2	sind	VAFIN	sein	_	O	O	
+8-3	dazu	PAV	dazu	_	O	O	
+8-4	600	CARD	600	_	O	O	
+8-5	rausgesetzt	VVPP	raussetzen	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	zu	APPR	zu	_	O	O	
+8-8	deren	PRELAT	die	_	O	O	
+8-9	Zahlung	NN	Zahlung	_	O	O	
+8-10	ich	PPER	ich	_	O	O	
+8-11	Asher	ADV	<unknown>	_	O	O	
+8-12	autorisirt	NN	<unknown>	_	O	O	
+8-13	habe	VAFIN	haben	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	und	KON	und	_	O	O	
+8-16	worüber	PWAV	worüber	_	O	O	
+8-17	er	PPER	er	_	O	O	
+8-18	sich	PRF	sich	_	O	O	
+8-19	mit	APPR	mit	_	O	O	
+8-20	Ihnen	PPER	Sie	_	O	O	
+8-21	zu	PTKZU	zu	_	O	O	
+8-22	berechnen	VVINF	berechnen	_	O	O	
+8-23	hat	VAFIN	haben	_	O	O	
+8-24	.	$.	.	_	O	O	
+
+#id=9
+#text=Dazu kommt eine kleine Rechnung für Kopialien für die Central Direktion.
+9-1	Dazu	PAV	dazu	_	O	O	
+9-2	kommt	VVFIN	kommen	_	O	O	
+9-3	eine	ART	eine	_	O	O	
+9-4	kleine	ADJA	klein	_	O	O	
+9-5	Rechnung	NN	Rechnung	_	O	O	
+9-6	für	APPR	für	_	O	O	
+9-7	Kopialien	NN	<unknown>	_	O	O	
+9-8	für	APPR	für	_	O	O	
+9-9	die	ART	die	_	O	O	
+9-10	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-11	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Sie werden ja sehen, was Sie etwa mit Herrn Eichler dem Zeichner auch für dortige Bedürfn~sse anfangen können.
+10-1	Sie	PPER	Sie	_	O	O	
+10-2	werden	VAFIN	werden	_	O	O	
+10-3	ja	ADV	ja	_	O	O	
+10-4	sehen	VVINF	sehen	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	was	PRELS	was	_	O	O	
+10-7	Sie	PPER	Sie	_	O	O	
+10-8	etwa	ADV	etwa	_	O	O	
+10-9	mit	APPR	mit	_	O	O	
+10-10	Herrn	NN	Herr	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-11	Eichler	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-12	dem	ART	die	_	O	O	
+10-13	Zeichner	NN	Zeichner	_	O	O	
+10-14	auch	ADV	auch	_	O	O	
+10-15	für	APPR	für	_	O	O	
+10-16	dortige	ADJA	dortig	_	O	O	
+10-17	Bedürfn~sse	NN	<unknown>	_	O	O	
+10-18	anfangen	VVINF	anfangen	_	O	O	
+10-19	können	VMFIN	können	_	O	O	
+10-20	.	$.	.	_	O	O	
+
+#id=11
+#text=Wir haben geglaubt, daß er Ihnen bei dem Mangel an guten Zeichnern nur willkommen sein werde.
+11-1	Wir	PPER	wir	_	O	O	
+11-2	haben	VAFIN	haben	_	O	O	
+11-3	geglaubt	VVPP	glauben	_	O	O	
+11-4	,	$,	,	_	O	O	
+11-5	daß	KOUS	dass	_	O	O	
+11-6	er	PPER	er	_	O	O	
+11-7	Ihnen	PPER	Sie	_	O	O	
+11-8	bei	APPR	bei	_	O	O	
+11-9	dem	ART	die	_	O	O	
+11-10	Mangel	NN	Mangel	_	O	O	
+11-11	an	APPR	an	_	O	O	
+11-12	guten	ADJA	gut	_	O	O	
+11-13	Zeichnern	NN	Zeichner	_	O	O	
+11-14	nur	ADV	nur	_	O	O	
+11-15	willkommen	ADJD	willkommen	_	O	O	
+11-16	sein	VAINF	sein	_	O	O	
+11-17	werde	VAFIN	werden	_	O	O	
+11-18	.	$.	.	_	O	O	
+
+#id=12
+#text=Kekul~ wünscht seine Terrakotten unter die Flügel des Instituts zu stellen.
+12-1	Kekul~	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	wünscht	VVFIN	wünschen	_	O	O	
+12-3	seine	PPOSAT	sein	_	O	O	
+12-4	Terrakotten	NN	Terrakotta	_	O	O	
+12-5	unter	APPR	unter	_	O	O	
+12-6	die	ART	die	_	O	O	
+12-7	Flügel	NN	Flügel	_	O	O	
+12-8	des	ART	die	_	O	O	
+12-9	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+12-10	zu	PTKZU	zu	_	O	O	
+12-11	stellen	VVINF	stellen	_	O	O	
+12-12	.	$.	.	_	O	O	
+
+#id=13
+#text=Seine Wünsche gehen etwas weit und ins Unbestimmte.
+13-1	Seine	PPOSAT	sein	_	O	O	
+13-2	Wünsche	NN	Wunsch	_	O	O	
+13-3	gehen	VVFIN	gehen	_	O	O	
+13-4	etwas	ADV	etwas	_	O	O	
+13-5	weit	ADJD	weit	_	O	O	
+13-6	und	KON	und	_	O	O	
+13-7	ins	APPRART	in	_	O	O	
+13-8	Unbestimmte	NN	Unbestimmte	_	O	O	
+13-9	.	$.	.	_	O	O	
+
+#id=14
+#text=Wir haben ihm vorläufig wieder 150 r zur Fortsetzung der Vorarbeiten bewilligt;
+14-1	Wir	PPER	wir	_	O	O	
+14-2	haben	VAFIN	haben	_	O	O	
+14-3	ihm	PPER	er	_	O	O	
+14-4	vorläufig	ADJD	vorläufig	_	O	O	
+14-5	wieder	ADV	wieder	_	O	O	
+14-6	150	CARD	150	_	O	O	
+14-7	r	NE	r	_	O	O	
+14-8	zur	APPRART	zu	_	O	O	
+14-9	Fortsetzung	NN	Fortsetzung	_	O	O	
+14-10	der	ART	die	_	O	O	
+14-11	Vorarbeiten	NN	Vorarbeit	_	O	O	
+14-12	bewilligt	VVPP	bewilligen	_	O	O	
+14-13	;	$.	;	_	O	O	
+

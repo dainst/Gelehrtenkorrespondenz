@@ -1,0 +1,58 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=c - 433 Verehrter Freund Lepsius an Helbig Berlin, 1. Juli 1881 Berlin, C. 1. Juli 1881 Wie mag es mit dem Abguß der Büste in der Villa Ludovisi stehen?
+1-1	c	NE	<unknown>	_	O	O	
+1-2	-	$(	-	_	O	O	
+1-3	433	CARD	@card@	_	O	O	
+1-4	Verehrter	NN	Verehrte	_	O	O	
+1-5	Freund	NE	Freund	_	O	O	
+1-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	an	APPR	an	_	O	O	
+1-8	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1881	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-16	,	$,	,	_	O	O	
+1-17	C.	NE	C.	_	O	O	
+1-18	1	CARD	1	_	O	O	
+1-19	.	$.	.	_	O	O	
+1-20	Juli	NN	Juli	_	O	O	
+1-21	1881	CARD	@card@	_	O	O	
+1-22	Wie	KOKOM	wie	_	O	O	
+1-23	mag	VMFIN	mögen	_	O	O	
+1-24	es	PPER	es	_	O	O	
+1-25	mit	APPR	mit	_	O	O	
+1-26	dem	ART	die	_	O	O	
+1-27	Abguß	NN	Abguß	_	O	O	
+1-28	der	ART	die	_	O	O	
+1-29	Büste	NN	Büste	_	O	O	
+1-30	in	APPR	in	_	O	O	
+1-31	der	ART	die	_	O	O	
+1-32	Villa	NN	Villa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-33	Ludovisi	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+1-34	stehen	VVINF	stehen	_	O	O	
+1-35	?	$.	?	_	O	O	
+
+#id=2
+#text=Hat die liebenswürdige Venus nicht reüssirt ?
+2-1	Hat	VAFIN	haben	_	O	O	
+2-2	die	ART	die	_	O	O	
+2-3	liebenswürdige	ADJA	liebenswürdig	_	O	O	
+2-4	Venus	NN	Venus	_	O	O	
+2-5	nicht	PTKNEG	nicht	_	O	O	
+2-6	reüssirt	NN	<unknown>	_	O	O	
+2-7	?	$.	?	_	O	O	
+
+#id=3
+#text=Mit herzlichen Grüßen der Ihrige Lepsius
+3-1	Mit	APPR	mit	_	O	O	
+3-2	herzlichen	ADJA	herzlich	_	O	O	
+3-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+3-4	der	ART	die	_	O	O	
+3-5	Ihrige	PPOSAT	ihrige	_	O	O	
+3-6	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

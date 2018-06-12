@@ -1,0 +1,232 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=123 Lepsius an Helbig Berlin, 31. Juli 1875 Berlin, den 31. Juli 1875 Herrn Professor Helbig, Rom.
+1-1	123	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	31	CARD	31	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-12	,	$,	,	_	O	O	
+1-13	den	ART	die	_	O	O	
+1-14	31	CARD	31	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-15	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	Herrn	NN	Herr	_	O	O	
+1-19	Professor	NN	Professor	_	O	O	
+1-20	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-21	,	$,	,	_	O	O	
+1-22	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Siena.
+2-1	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=In Erwiederung Ihres Schreibens vom 22. Juli theile ich Ihnen mit, daß der Anfang Oktober als Beginn der Periegese der Central Direktion doch zu früh erscheint, namentlich weil die Stipendiaten, auf welche vornehmlich Rücksicht zu nehmen ist vor dem 1. n November frühstens nicht würden Theil nehmen können nach den gewöhnlichen Reiseplänen.
+3-1	In	APPR	in	_	O	O	
+3-2	Erwiederung	NN	<unknown>	_	O	O	
+3-3	Ihres	PPOSAT	ihr	_	O	O	
+3-4	Schreibens	NN	Schreiben	_	O	O	
+3-5	vom	APPRART	von	_	O	O	
+3-6	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-8	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-9	theile	VVFIN	<unknown>	_	O	O	
+3-10	ich	PPER	ich	_	O	O	
+3-11	Ihnen	PPER	Sie	_	O	O	
+3-12	mit	PTKVZ	mit	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	daß	KOUS	dass	_	O	O	
+3-15	der	ART	die	_	O	O	
+3-16	Anfang	NN	Anfang	_	O	O	
+3-17	Oktober	NN	Oktober	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-18	als	KOKOM	als	_	O	O	
+3-19	Beginn	NN	Beginn	_	O	O	
+3-20	der	ART	die	_	O	O	
+3-21	Periegese	NN	<unknown>	_	O	O	
+3-22	der	ART	die	_	O	O	
+3-23	Central	NN	<unknown>	_	O	O	
+3-24	Direktion	NN	Direktion	_	O	O	
+3-25	doch	ADV	doch	_	O	O	
+3-26	zu	PTKA	zu	_	O	O	
+3-27	früh	ADJD	früh	_	O	O	
+3-28	erscheint	VVFIN	erscheinen	_	O	O	
+3-29	,	$,	,	_	O	O	
+3-30	namentlich	ADJD	namentlich	_	O	O	
+3-31	weil	KOUS	weil	_	O	O	
+3-32	die	ART	die	_	O	O	
+3-33	Stipendiaten	NN	Stipendiat	_	O	O	
+3-34	,	$,	,	_	O	O	
+3-35	auf	APPR	auf	_	O	O	
+3-36	welche	PRELS	welche	_	O	O	
+3-37	vornehmlich	ADJD	vornehmlich	_	O	O	
+3-38	Rücksicht	NN	Rücksicht	_	O	O	
+3-39	zu	PTKZU	zu	_	O	O	
+3-40	nehmen	VVINF	nehmen	_	O	O	
+3-41	ist	VAFIN	sein	_	O	O	
+3-42	vor	APPR	vor	_	O	O	
+3-43	dem	ART	die	_	O	O	
+3-44	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-45	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-46	n	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-47	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-48	frühstens	ADV	<unknown>	_	O	O	
+3-49	nicht	PTKNEG	nicht	_	O	O	
+3-50	würden	VAFIN	werden	_	O	O	
+3-51	Theil	NN	<unknown>	_	O	O	
+3-52	nehmen	VVINF	nehmen	_	O	O	
+3-53	können	VMINF	können	_	O	O	
+3-54	nach	APPR	nach	_	O	O	
+3-55	den	ART	die	_	O	O	
+3-56	gewöhnlichen	ADJA	gewöhnlich	_	O	O	
+3-57	Reiseplänen	NN	Reiseplan	_	O	O	
+3-58	.	$.	.	_	O	O	
+
+#id=4
+#text=Es würde daher das Vorrücken des Termins um nur ein Monat als eine passende Vermittelung mit den übrigen von Ihnen angegebenen Gründen erscheinen.
+4-1	Es	PPER	es	_	O	O	
+4-2	würde	VAFIN	werden	_	O	O	
+4-3	daher	PAV	daher	_	O	O	
+4-4	das	ART	die	_	O	O	
+4-5	Vorrücken	NN	Vorrücken	_	O	O	
+4-6	des	ART	die	_	O	O	
+4-7	Termins	NN	Termin	_	O	O	
+4-8	um	APPR	um	_	O	O	
+4-9	nur	ADV	nur	_	O	O	
+4-10	ein	ART	eine	_	O	O	
+4-11	Monat	NN	Monat	_	O	O	
+4-12	als	KOKOM	als	_	O	O	
+4-13	eine	ART	eine	_	O	O	
+4-14	passende	ADJA	passend	_	O	O	
+4-15	Vermittelung	NN	<unknown>	_	O	O	
+4-16	mit	APPR	mit	_	O	O	
+4-17	den	ART	die	_	O	O	
+4-18	übrigen	ADJA	übrig	_	O	O	
+4-19	von	APPR	von	_	O	O	
+4-20	Ihnen	PPER	Sie	_	O	O	
+4-21	angegebenen	ADJA	angegeben	_	O	O	
+4-22	Gründen	NN	Grund	_	O	O	
+4-23	erscheinen	VVINF	erscheinen	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=In Bezug auf die Gehaltsfrage ist die Central Direktion nie auf den Gesichtspunkt eingegangen, daß der Gehalt des Athenischen und des 2. n Römischen Sekretars gleich zu stellen seien; sie hat daher auch nie:' Veranlassung zu der Erwartung gegeben, daß das 2.
+5-1	In	APPR	in	_	O	O	
+5-2	Bezug	NN	Bezug	_	O	O	
+5-3	auf	APPR	auf	_	O	O	
+5-4	die	ART	die	_	O	O	
+5-5	Gehaltsfrage	NN	Gehaltsfrage	_	O	O	
+5-6	ist	VAFIN	sein	_	O	O	
+5-7	die	ART	die	_	O	O	
+5-8	Central	NN	<unknown>	_	O	O	
+5-9	Direktion	NN	Direktion	_	O	O	
+5-10	nie	ADV	nie	_	O	O	
+5-11	auf	APPR	auf	_	O	O	
+5-12	den	ART	die	_	O	O	
+5-13	Gesichtspunkt	NN	Gesichtspunkt	_	O	O	
+5-14	eingegangen	VVPP	eingehen	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	daß	KOUS	dass	_	O	O	
+5-17	der	ART	die	_	O	O	
+5-18	Gehalt	NN	Gehalt	_	O	O	
+5-19	des	ART	die	_	O	O	
+5-20	Athenischen	NN	<unknown>	_	O	O	
+5-21	und	KON	und	_	O	O	
+5-22	des	ART	die	_	O	O	
+5-23	2	CARD	2	_	O	O	
+5-24	.	$.	.	_	O	O	
+5-25	n	ADJA	<unknown>	_	O	O	
+5-26	Römischen	ADJA	römisch	_	O	O	
+5-27	Sekretars	NN	<unknown>	_	O	O	
+5-28	gleich	ADJD	gleich	_	O	O	
+5-29	zu	PTKZU	zu	_	O	O	
+5-30	stellen	VVINF	stellen	_	O	O	
+5-31	seien	VAFIN	sein	_	O	O	
+5-32	;	$.	;	_	O	O	
+5-33	sie	PPER	sie	_	O	O	
+5-34	hat	VAFIN	haben	_	O	O	
+5-35	daher	PAV	daher	_	O	O	
+5-36	auch	ADV	auch	_	O	O	
+5-37	nie	ADV	nie	_	O	O	
+5-38	:	$.	:	_	O	O	
+5-39	'	$(	'	_	O	O	
+5-40	Veranlassung	NN	Veranlassung	_	O	O	
+5-41	zu	APPR	zu	_	O	O	
+5-42	der	ART	die	_	O	O	
+5-43	Erwartung	NN	Erwartung	_	O	O	
+5-44	gegeben	VVPP	geben	_	O	O	
+5-45	,	$,	,	_	O	O	
+5-46	daß	KOUS	dass	_	O	O	
+5-47	das	ART	die	_	O	O	
+5-48	2	CARD	2	_	O	O	
+5-49	.	$.	.	_	O	O	
+
+#id=6
+#text=Römische Gehalt auf 1800 r erhöht werden solle, wie aus den von Ihnen verlegten Briefen hervorgehen würde.
+6-1	Römische	ADJA	römisch	_	O	O	
+6-2	Gehalt	NN	Gehalt	_	O	O	
+6-3	auf	APPR	auf	_	O	O	
+6-4	1800	CARD	1800	_	O	O	
+6-5	r	NE	r	_	O	O	
+6-6	erhöht	VVPP	erhöhen	_	O	O	
+6-7	werden	VAINF	werden	_	O	O	
+6-8	solle	VMFIN	sollen	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	wie	KOUS	wie	_	O	O	
+6-11	aus	APPR	aus	_	O	O	
+6-12	den	ART	die	_	O	O	
+6-13	von	APPR	von	_	O	O	
+6-14	Ihnen	PPER	Sie	_	O	O	
+6-15	verlegten	ADJA	verlegt	_	O	O	
+6-16	Briefen	NN	Brief	_	O	O	
+6-17	hervorgehen	VVINF	hervorgehen	_	O	O	
+6-18	würde	VAFIN	werden	_	O	O	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Frage wird sich aber vielleicht in einer noch günstigeren Weise für die Römischen Gehalte erledigen bei Gelegenheit einer neuen Normirung sämmtlicher Gehalte, welche von Seiten der Central Direktion angestrebt wird, ohne je-
+7-1	Die	ART	die	_	O	O	
+7-2	Frage	NN	Frage	_	O	O	
+7-3	wird	VAFIN	werden	_	O	O	
+7-4	sich	PRF	sich	_	O	O	
+7-5	aber	ADV	aber	_	O	O	
+7-6	vielleicht	ADV	vielleicht	_	O	O	
+7-7	in	APPR	in	_	O	O	
+7-8	einer	ART	eine	_	O	O	
+7-9	noch	ADV	noch	_	O	O	
+7-10	günstigeren	ADJA	günstig	_	O	O	
+7-11	Weise	NN	Weise	_	O	O	
+7-12	für	APPR	für	_	O	O	
+7-13	die	ART	die	_	O	O	
+7-14	Römischen	ADJA	römisch	_	O	O	
+7-15	Gehalte	NN	Gehalt	_	O	O	
+7-16	erledigen	VVFIN	erledigen	_	O	O	
+7-17	bei	APPR	bei	_	O	O	
+7-18	Gelegenheit	NN	Gelegenheit	_	O	O	
+7-19	einer	ART	eine	_	O	O	
+7-20	neuen	ADJA	neu	_	O	O	
+7-21	Normirung	NN	<unknown>	_	O	O	
+7-22	sämmtlicher	ADJA	<unknown>	_	O	O	
+7-23	Gehalte	NN	Gehalt	_	O	O	
+7-24	,	$,	,	_	O	O	
+7-25	welche	PRELS	welche	_	O	O	
+7-26	von	APPR	von	_	O	O	
+7-27	Seiten	NN	Seite	_	O	O	
+7-28	der	ART	die	_	O	O	
+7-29	Central	NN	<unknown>	_	O	O	
+7-30	Direktion	NN	Direktion	_	O	O	
+7-31	angestrebt	VVPP	anstreben	_	O	O	
+7-32	wird	VAFIN	werden	_	O	O	
+7-33	,	$,	,	_	O	O	
+7-34	ohne	KOUI	ohne	_	O	O	
+7-35	je-	TRUNC	je-	_	O	O	
+

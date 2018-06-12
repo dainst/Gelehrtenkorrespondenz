@@ -1,0 +1,286 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=) J ~/> I \ 327 Helbig an Henzen Zürich, 14. September 1870 2 Reise nach Zürich anzutreten, um sie abzuholen.
+1-1	)	$(	)	_	O	O	
+1-2	J	NN	J	_	O	O	
+1-3	~/>	ADJA	<unknown>	_	O	O	
+1-4	I	NN	I	_	O	O	
+1-5	\	XY	\	_	O	O	
+1-6	327	CARD	@card@	_	O	O	
+1-7	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-8	an	APPR	an	_	O	O	
+1-9	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-10	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-11	,	$,	,	_	O	O	
+1-12	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-13	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	2	CARD	2	_	O	O	
+1-17	Reise	NN	Reise	_	O	O	
+1-18	nach	APPR	nach	_	O	O	
+1-19	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-20	anzutreten	VVIZU	antreten	_	O	O	
+1-21	,	$,	,	_	O	O	
+1-22	um	KOUI	um	_	O	O	
+1-23	sie	PPER	sie	_	O	O	
+1-24	abzuholen	VVIZU	abholen	_	O	O	
+1-25	.	$.	.	_	O	O	
+
+#id=2
+#text=Was Hinck betrifft, so fange ich an, mich seinetwegen sehr zu beunruhigen.
+2-1	Was	PWS	was	_	O	O	
+2-2	Hinck	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-3	betrifft	VVFIN	betreffen	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	so	ADV	so	_	O	O	
+2-6	fange	VVFIN	fangen	_	O	O	
+2-7	ich	PPER	ich	_	O	O	
+2-8	an	PTKVZ	an	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	mich	PRF	ich	_	O	O	
+2-11	seinetwegen	ADV	seinetwegen	_	O	O	
+2-12	sehr	ADV	sehr	_	O	O	
+2-13	zu	PTKZU	zu	_	O	O	
+2-14	beunruhigen	VVINF	beunruhigen	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Ein Brief von mir vom 20. August, ein anderer von Benndorf vom 24., beide um umgehende Antwort bittend, sind ohne Antwort geblieben.
+3-1	Ein	ART	eine	_	O	O	
+3-2	Brief	NN	Brief	_	O	O	
+3-3	von	APPR	von	_	O	O	
+3-4	mir	PPER	ich	_	O	O	
+3-5	vom	APPRART	von	_	O	O	
+3-6	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-8	August	NE	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-9	,	$,	,	_	O	O	
+3-10	ein	ART	eine	_	O	O	
+3-11	anderer	PIS	andere	_	O	O	
+3-12	von	APPR	von	_	O	O	
+3-13	Benndorf	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-14	vom	APPRART	von	_	O	O	
+3-15	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-16	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-17	,	$,	,	_	O	O	
+3-18	beide	PIS	beide	_	O	O	
+3-19	um	APPR	um	_	O	O	
+3-20	umgehende	ADJA	umgehend	_	O	O	
+3-21	Antwort	NN	Antwort	_	O	O	
+3-22	bittend	ADJD	bittend	_	O	O	
+3-23	,	$,	,	_	O	O	
+3-24	sind	VAFIN	sein	_	O	O	
+3-25	ohne	APPR	ohne	_	O	O	
+3-26	Antwort	NN	Antwort	_	O	O	
+3-27	geblieben	VVPP	bleiben	_	O	O	
+3-28	.	$.	.	_	O	O	
+
+#id=4
+#text=Wissen Sie etwas von ihm?
+4-1	Wissen	VVFIN	wissen	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	etwas	ADV	etwas	_	O	O	
+4-4	von	APPR	von	_	O	O	
+4-5	ihm	PPER	er	_	O	O	
+4-6	?	$.	?	_	O	O	
+
+#id=5
+#text=Ich habe vor drei Tagen au~Neue an ihn geschrieben.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	vor	APPR	vor	_	O	O	
+5-4	drei	CARD	drei	_	O	O	
+5-5	Tagen	NN	Tag	_	O	O	
+5-6	au~Neue	ADJA	<unknown>	_	O	O	
+5-7	an	APPR	an	_	O	O	
+5-8	ihn	PPER	er	_	O	O	
+5-9	geschrieben	VVPP	schreiben	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Kekule und de Witte, die ich wegen ihrer Artikel gemahnt, haben bis jetzt ebenfalls nichts von sich hören lassen.
+6-1	Kekule	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	und	KON	und	_	O	O	
+6-3	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	Witte	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-5	,	$,	,	_	O	O	
+6-6	die	PRELS	die	_	O	O	
+6-7	ich	PPER	ich	_	O	O	
+6-8	wegen	APPR	wegen	_	O	O	
+6-9	ihrer	PPOSAT	ihr	_	O	O	
+6-10	Artikel	NN	Artikel	_	O	O	
+6-11	gemahnt	VVPP	mahnen	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	haben	VAFIN	haben	_	O	O	
+6-14	bis	KON	bis	_	O	O	
+6-15	jetzt	ADV	jetzt	_	O	O	
+6-16	ebenfalls	ADV	ebenfalls	_	O	O	
+6-17	nichts	PIS	nichts	_	O	O	
+6-18	von	APPR	von	_	O	O	
+6-19	sich	PRF	sich	_	O	O	
+6-20	hören	VVINF	hören	_	O	O	
+6-21	lassen	VVINF	lassen	_	O	O	
+6-22	.	$.	.	_	O	O	
+
+#id=7
+#text=Brunn ist uns doch hoffentlich sicher"?
+7-1	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	ist	VAFIN	sein	_	O	O	
+7-3	uns	PPER	wir	_	O	O	
+7-4	doch	ADV	doch	_	O	O	
+7-5	hoffentlich	ADV	hoffentlich	_	O	O	
+7-6	sicher	ADJD	sicher	_	O	O	
+7-7	"	$(	"	_	O	O	
+7-8	?	$.	?	_	O	O	
+
+#id=8
+#text=Die SChw{etzer fangen wiederum an, sich recht dumm zu benehmen.
+8-1	Die	ART	die	_	O	O	
+8-2	SChw{etzer	NN	<unknown>	_	O	O	
+8-3	fangen	VVFIN	fangen	_	O	O	
+8-4	wiederum	ADV	wiederum	_	O	O	
+8-5	an	PTKVZ	an	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	sich	PRF	sich	_	O	O	
+8-8	recht	ADJD	recht	_	O	O	
+8-9	dumm	ADJD	dumm	_	O	O	
+8-10	zu	PTKZU	zu	_	O	O	
+8-11	benehmen	VVINF	benehmen	_	O	O	
+8-12	.	$.	.	_	O	O	
+
+#id=9
+#text=Nachdem nach den ersten deutschen Siegen eine vernünftigere Richtung, welche sich mehr der deutschen Sache zuwendete, eingetreten war, hat auf einmal die Proclamirung der Republik den Leuten die Köpfe vollständig verdreht.
+9-1	Nachdem	KOUS	nachdem	_	O	O	
+9-2	nach	APPR	nach	_	O	O	
+9-3	den	ART	die	_	O	O	
+9-4	ersten	ADJA	erst	_	O	O	
+9-5	deutschen	ADJA	deutsch	_	O	O	
+9-6	Siegen	NN	Sieg|Siegen	_	O	O	
+9-7	eine	ART	eine	_	O	O	
+9-8	vernünftigere	ADJA	vernünftig	_	O	O	
+9-9	Richtung	NN	Richtung	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	welche	PRELS	welche	_	O	O	
+9-12	sich	PRF	sich	_	O	O	
+9-13	mehr	ADV	mehr	_	O	O	
+9-14	der	ART	die	_	O	O	
+9-15	deutschen	ADJA	deutsch	_	O	O	
+9-16	Sache	NN	Sache	_	O	O	
+9-17	zuwendete	VVFIN	zuwenden	_	O	O	
+9-18	,	$,	,	_	O	O	
+9-19	eingetreten	VVPP	eintreten	_	O	O	
+9-20	war	VAFIN	sein	_	O	O	
+9-21	,	$,	,	_	O	O	
+9-22	hat	VAFIN	haben	_	O	O	
+9-23	auf	APPR	auf	_	O	O	
+9-24	einmal	ADV	einmal	_	O	O	
+9-25	die	ART	die	_	O	O	
+9-26	Proclamirung	NN	<unknown>	_	O	O	
+9-27	der	ART	die	_	O	O	
+9-28	Republik	NN	Republik	_	O	O	
+9-29	den	ART	die	_	O	O	
+9-30	Leuten	NN	Leute	_	O	O	
+9-31	die	ART	die	_	O	O	
+9-32	Köpfe	NN	Kopf	_	O	O	
+9-33	vollständig	ADJD	vollständig	_	O	O	
+9-34	verdreht	VVPP	verdrehen	_	O	O	
+9-35	.	$.	.	_	O	O	
+
+#id=10
+#text=Die Blätter wimmeln wieder von Ausfälle gegen das eroberungslustige Deutschland mit seinem Feudalismus und Gottesgnadenthum.
+10-1	Die	ART	die	_	O	O	
+10-2	Blätter	NN	Blatt	_	O	O	
+10-3	wimmeln	VVFIN	wimmeln	_	O	O	
+10-4	wieder	ADV	wieder	_	O	O	
+10-5	von	APPR	von	_	O	O	
+10-6	Ausfälle	NN	Ausfall	_	O	O	
+10-7	gegen	APPR	gegen	_	O	O	
+10-8	das	ART	die	_	O	O	
+10-9	eroberungslustige	ADJA	<unknown>	_	O	O	
+10-10	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-11	mit	APPR	mit	_	O	O	
+10-12	seinem	PPOSAT	sein	_	O	O	
+10-13	Feudalismus	NN	Feudalismus	_	O	O	
+10-14	und	KON	und	_	O	O	
+10-15	Gottesgnadenthum	NN	<unknown>	_	O	O	
+10-16	.	$.	.	_	O	O	
+
+#id=11
+#text=Merkwürdig, wie tief das französische Prestige den Leuten in den Knochen sitzt.
+11-1	Merkwürdig	ADJD	merkwürdig	_	O	O	
+11-2	,	$,	,	_	O	O	
+11-3	wie	KOKOM	wie	_	O	O	
+11-4	tief	ADJD	tief	_	O	O	
+11-5	das	ART	die	_	O	O	
+11-6	französische	ADJA	französisch	_	O	O	
+11-7	Prestige	NN	Prestige	_	O	O	
+11-8	den	ART	die	_	O	O	
+11-9	Leuten	NN	Leute	_	O	O	
+11-10	in	APPR	in	_	O	O	
+11-11	den	ART	die	_	O	O	
+11-12	Knochen	NN	Knochen	_	O	O	
+11-13	sitzt	VVFIN	sitzen	_	O	O	
+11-14	.	$.	.	_	O	O	
+
+#id=12
+#text=Ein Republikaner von 48, Dufraisse, der bisher Professor am hiesigen Polytechnicum war, ist von der Republik zum Gesandten in Bern ernennt worden.
+12-1	Ein	ART	eine	_	O	O	
+12-2	Republikaner	NN	Republikaner	_	O	O	
+12-3	von	APPR	von	_	O	O	
+12-4	48	CARD	48	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	Dufraisse	NN	<unknown>	_	O	O	
+12-7	,	$,	,	_	O	O	
+12-8	der	PRELS	die	_	O	O	
+12-9	bisher	ADV	bisher	_	O	O	
+12-10	Professor	NN	Professor	_	O	O	
+12-11	am	APPRART	an	_	O	O	
+12-12	hiesigen	ADJA	hiesig	_	O	O	
+12-13	Polytechnicum	NN	<unknown>	_	O	O	
+12-14	war	VAFIN	sein	_	O	O	
+12-15	,	$,	,	_	O	O	
+12-16	ist	VAFIN	sein	_	O	O	
+12-17	von	APPR	von	_	O	O	
+12-18	der	ART	die	_	O	O	
+12-19	Republik	NN	Republik	_	O	O	
+12-20	zum	APPRART	zu	_	O	O	
+12-21	Gesandten	NN	<unknown>	_	O	O	
+12-22	in	APPR	in	_	O	O	
+12-23	Bern	NE	Bern	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-24	ernennt	VVFIN	ernennen	_	O	O	
+12-25	worden	VAPP	werden	_	O	O	
+12-26	.	$.	.	_	O	O	
+
+#id=13
+#text=Die Angst, welche die Leute hier haben, er möge als Vertreter der grande Nation ihnen etwaige in seiner züricher Stellung erfahrene Unannehmlichkeiten entgelten lassen, ist gera-
+13-1	Die	ART	die	_	O	O	
+13-2	Angst	NN	Angst	_	O	O	
+13-3	,	$,	,	_	O	O	
+13-4	welche	PRELS	welche	_	O	O	
+13-5	die	ART	die	_	O	O	
+13-6	Leute	NN	Leute	_	O	O	
+13-7	hier	ADV	hier	_	O	O	
+13-8	haben	VAFIN	haben	_	O	O	
+13-9	,	$,	,	_	O	O	
+13-10	er	PPER	er	_	O	O	
+13-11	möge	VMFIN	mögen	_	O	O	
+13-12	als	KOKOM	als	_	O	O	
+13-13	Vertreter	NN	Vertreter	_	O	O	
+13-14	der	ART	die	_	O	O	
+13-15	grande	ADJA	<unknown>	_	O	O	
+13-16	Nation	NN	Nation	_	O	O	
+13-17	ihnen	PPER	sie	_	O	O	
+13-18	etwaige	ADJA	etwaig	_	O	O	
+13-19	in	APPR	in	_	O	O	
+13-20	seiner	PPOSAT	sein	_	O	O	
+13-21	züricher	ADJA	Züricher	_	O	O	
+13-22	Stellung	NN	Stellung	_	O	O	
+13-23	erfahrene	ADJA	erfahren	_	O	O	
+13-24	Unannehmlichkeiten	NN	Unannehmlichkeit	_	O	O	
+13-25	entgelten	VVINF	entgelten	_	O	O	
+13-26	lassen	VVINF	lassen	_	O	O	
+13-27	,	$,	,	_	O	O	
+13-28	ist	VAFIN	sein	_	O	O	
+13-29	gera-	TRUNC	<unknown>	_	O	O	
+

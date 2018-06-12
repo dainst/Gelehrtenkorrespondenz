@@ -1,0 +1,312 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Ohne Nummer Henzen an Gerahrd 3/111/53 Verehrter Herr Professor r Ich habe einige Zeit verstreichen lassen, ohne d~ Ihnen zu schreiben; indeß haben Sie in dem~ull.
+1-1	Ohne	APPR	ohne	_	O	O	
+1-2	Nummer	NN	Nummer	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerahrd	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	3/111/53	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Verehrter	ADJA	verehrt	_	O	O	
+1-8	Herr	NN	Herr	_	O	O	
+1-9	Professor	NN	Professor	_	O	O	
+1-10	r	NE	r	_	O	O	
+1-11	Ich	PPER	ich	_	O	O	
+1-12	habe	VAFIN	haben	_	O	O	
+1-13	einige	PIAT	einige	_	O	O	
+1-14	Zeit	NN	Zeit	_	O	O	
+1-15	verstreichen	VVINF	verstreichen	_	O	O	
+1-16	lassen	VVINF	lassen	_	O	O	
+1-17	,	$,	,	_	O	O	
+1-18	ohne	KOUI	ohne	_	O	O	
+1-19	d~	NN	<unknown>	_	O	O	
+1-20	Ihnen	PPER	Sie	_	O	O	
+1-21	zu	PTKZU	zu	_	O	O	
+1-22	schreiben	VVINF	schreiben	_	O	O	
+1-23	;	$.	;	_	O	O	
+1-24	indeß	NE	<unknown>	_	O	O	
+1-25	haben	VAFIN	haben	_	O	O	
+1-26	Sie	PPER	Sie	_	O	O	
+1-27	in	APPR	in	_	O	O	
+1-28	dem~ull	NE	<unknown>	_	O	O	
+1-29	.	$.	.	_	O	O	
+
+#id=2
+#text=beigelegten Correcturbogen des Index erhalten, was Ihnen zunächst nöthig war.
+2-1	beigelegten	ADJA	beigelegt	_	O	O	
+2-2	Correcturbogen	NN	<unknown>	_	O	O	
+2-3	des	ART	die	_	O	O	
+2-4	Index	NN	Index	_	O	O	
+2-5	erhalten	VVPP	erhalten	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	was	PRELS	was	_	O	O	
+2-8	Ihnen	PPER	Sie	_	O	O	
+2-9	zunächst	ADV	zunächst	_	O	O	
+2-10	nöthig	ADJD	<unknown>	_	O	O	
+2-11	war	VAFIN	sein	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Riccio's Buch ist jetzt erschienen u. schicke ich Ihnen mit der Leipziger Spedition ein Exemplar, hoffentlich lin 14 Tagen. '"
+3-1	Riccio's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	Buch	NN	Buch	_	O	O	
+3-3	ist	VAFIN	sein	_	O	O	
+3-4	jetzt	ADV	jetzt	_	O	O	
+3-5	erschienen	VVPP	erscheinen	_	O	O	
+3-6	u.	KON	und	_	O	O	
+3-7	schicke	VVFIN	schicken	_	O	O	
+3-8	ich	PPER	ich	_	O	O	
+3-9	Ihnen	PPER	Sie	_	O	O	
+3-10	mit	APPR	mit	_	O	O	
+3-11	der	ART	die	_	O	O	
+3-12	Leipziger	ADJA	Leipziger	_	O	O	
+3-13	Spedition	NN	Spedition	_	O	O	
+3-14	ein	ART	eine	_	O	O	
+3-15	Exemplar	NN	Exemplar	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	hoffentlich	ADV	hoffentlich	_	O	O	
+3-18	lin	ADJD	<unknown>	_	O	O	
+3-19	14	CARD	14	_	O	O	
+3-20	Tagen	NN	Tag	_	O	O	
+3-21	.	$.	.	_	O	O	
+3-22	'	$(	'	_	O	O	
+3-23	"	$(	"	_	O	O	
+
+#id=4
+#text=An der Toskanischen Grenze 3 große Sarkophage gefunden; Marsyas, Hippolyt u. unbekannt.
+4-1	An	APPR	an	_	O	O	
+4-2	der	ART	die	_	O	O	
+4-3	Toskanischen	ADJA	<unknown>	_	O	O	
+4-4	Grenze	NN	Grenze	_	O	O	
+4-5	3	CARD	3	_	O	O	
+4-6	große	ADJA	groß	_	O	O	
+4-7	Sarkophage	NN	Sarkophag	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-8	gefunden	VVPP	finden	_	O	O	
+4-9	;	$.	;	_	O	O	
+4-10	Marsyas	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-11	,	$,	,	_	O	O	
+4-12	Hippolyt	NE	Hippolyt	_	O	O	
+4-13	u.	APPR	um	_	O	O	
+4-14	unbekannt	ADJD	unbekannt	_	O	O	
+4-15	.	$.	.	_	O	O	
+
+#id=5
+#text=Brunn ist hingeschickt mit Carlo Campanari, und schreibt befriedigt; wollte ein paar Tage bleiben, um alla meglio Zeichnungen zu machen.
+5-1	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	hingeschickt	VVPP	hinschicken	_	O	O	
+5-4	mit	APPR	mit	_	O	O	
+5-5	Carlo	NE	Carlo	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-6	Campanari	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-7	,	$,	,	_	O	O	
+5-8	und	KON	und	_	O	O	
+5-9	schreibt	VVFIN	schreiben	_	O	O	
+5-10	befriedigt	VVPP	befriedigen	_	O	O	
+5-11	;	$.	;	_	O	O	
+5-12	wollte	VMFIN	wollen	_	O	O	
+5-13	ein	ART	eine	_	O	O	
+5-14	paar	PIAT	paar	_	O	O	
+5-15	Tage	NN	Tag	_	O	O	
+5-16	bleiben	VVINF	bleiben	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	um	KOUI	um	_	O	O	
+5-19	alla	NE	Alla	_	O	O	
+5-20	meglio	NE	<unknown>	_	O	O	
+5-21	Zeichnungen	NN	Zeichnung	_	O	O	
+5-22	zu	PTKZU	zu	_	O	O	
+5-23	machen	VVINF	machen	_	O	O	
+5-24	.	$.	.	_	O	O	
+
+#id=6
+#text=Campanari sucht sie nämlich dh.
+6-1	Campanari	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	sucht	VVFIN	suchen	_	O	O	
+6-3	sie	PPER	sie	_	O	O	
+6-4	nämlich	ADV	nämlich	_	O	O	
+6-5	dh.	NE	<unknown>	_	O	O	
+
+#id=7
+#text=Braunsts Vermittlung zu verkaufen, u. dieser wollte genau wissen, ehe roba 5ia.
+7-1	Braunsts	ADJA	<unknown>	_	O	O	
+7-2	Vermittlung	NN	Vermittlung	_	O	O	
+7-3	zu	PTKZU	zu	_	O	O	
+7-4	verkaufen	VVINF	verkaufen	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	u.	KON	und	_	O	O	
+7-7	dieser	PDS	diese	_	O	O	
+7-8	wollte	VMFIN	wollen	_	O	O	
+7-9	genau	ADJD	genau	_	O	O	
+7-10	wissen	VVINF	wissen	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	ehe	KOUS	ehe	_	O	O	
+7-13	roba	NE	<unknown>	_	O	O	
+7-14	5ia	NE	<unknown>	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=Gehaltsangelegenheit in Ordnung.
+8-1	Gehaltsangelegenheit	NN	<unknown>	_	O	O	
+8-2	in	APPR	in	_	O	O	
+8-3	Ordnung	NN	Ordnung	_	O	O	
+8-4	.	$.	.	_	O	O	
+
+#id=9
+#text=Jetzt aber doch sehr wünschenswerth, daß rechtzeitig die Erneuerung auf längere Zeit betr~~en werde, wenn nicht auf immer; die 6 Jahre laufen bekanntlich ab mit dem J.
+9-1	Jetzt	ADV	jetzt	_	O	O	
+9-2	aber	ADV	aber	_	O	O	
+9-3	doch	ADV	doch	_	O	O	
+9-4	sehr	ADV	sehr	_	O	O	
+9-5	wünschenswerth	NE	<unknown>	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	daß	KOUS	dass	_	O	O	
+9-8	rechtzeitig	ADJD	rechtzeitig	_	O	O	
+9-9	die	ART	die	_	O	O	
+9-10	Erneuerung	NN	Erneuerung	_	O	O	
+9-11	auf	APPR	auf	_	O	O	
+9-12	längere	ADJA	lang	_	O	O	
+9-13	Zeit	NN	Zeit	_	O	O	
+9-14	betr~~en	VVINF	<unknown>	_	O	O	
+9-15	werde	VAFIN	werden	_	O	O	
+9-16	,	$,	,	_	O	O	
+9-17	wenn	KOUS	wenn	_	O	O	
+9-18	nicht	PTKNEG	nicht	_	O	O	
+9-19	auf	APPR	auf	_	O	O	
+9-20	immer	ADV	immer	_	O	O	
+9-21	;	$.	;	_	O	O	
+9-22	die	ART	die	_	O	O	
+9-23	6	CARD	6	_	O	O	
+9-24	Jahre	NN	Jahr	_	O	O	
+9-25	laufen	VVFIN	laufen	_	O	O	
+9-26	bekanntlich	ADV	bekanntlich	_	O	O	
+9-27	ab	ADV	ab	_	O	O	
+9-28	mit	APPR	mit	_	O	O	
+9-29	dem	ART	die	_	O	O	
+9-30	J.	NE	J.	_	O	O	
+
+#id=10
+#text=53, u. es kann doch nicht immer bei diesem Leben von der Hand in den Mund bleiben.
+10-1	53	CARD	53	_	O	O	
+10-2	,	$,	,	_	O	O	
+10-3	u.	KON	und	_	O	O	
+10-4	es	PPER	es	_	O	O	
+10-5	kann	VMFIN	können	_	O	O	
+10-6	doch	ADV	doch	_	O	O	
+10-7	nicht	PTKNEG	nicht	_	O	O	
+10-8	immer	ADV	immer	_	O	O	
+10-9	bei	APPR	bei	_	O	O	
+10-10	diesem	PDAT	dies	_	O	O	
+10-11	Leben	NN	Leben	_	O	O	
+10-12	von	APPR	von	_	O	O	
+10-13	der	ART	die	_	O	O	
+10-14	Hand	NN	Hand	_	O	O	
+10-15	in	APPR	in	_	O	O	
+10-16	den	ART	die	_	O	O	
+10-17	Mund	NN	Mund	_	O	O	
+10-18	bleiben	VVINF	bleiben	_	O	O	
+10-19	.	$.	.	_	O	O	
+
+#id=11
+#text=t- Prof.
+11-1	t-	TRUNC	T-	_	O	O	
+11-2	Prof.	NN	Prof.	_	O	O	
+
+#id=12
+#text=W. Vischer 398 aus Basel haben wir unterm I n Datum ds.
+12-1	W.	APPR	w.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	Vischer	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+12-3	398	CARD	@card@	_	O	O	
+12-4	aus	APPR	aus	_	O	O	
+12-5	Basel	NE	Basel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-6	haben	VAFIN	haben	_	O	O	
+12-7	wir	PPER	wir	_	O	O	
+12-8	unterm	APPRART	unterm	_	O	O	
+12-9	I	NN	I	_	O	O	
+12-10	n	ADJA	<unknown>	_	O	O	
+12-11	Datum	NN	Datum	_	O	O	
+12-12	ds.	ADJD	<unknown>	_	O	O	
+
+#id=13
+#text=9 .
+13-1	9	CARD	9	_	O	O	
+13-2	.	$.	.	_	O	O	
+
+#id=14
+#text=December zum M. Ord.
+14-1	December	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	zum	APPRART	zu	_	O	O	
+14-3	M.	NE	M.	_	O	O	
+14-4	Ord	VVFIN	<unknown>	_	O	O	
+14-5	.	$.	.	_	O	O	
+
+#id=15
+#text=nachträglich creirt; jetzt in Vorschlag Mr. W. Gomond, ein Ing~eSe, der sehr fleißig ds.
+15-1	nachträglich	ADJD	nachträglich	_	O	O	
+15-2	creirt	ADJD	<unknown>	_	O	O	
+15-3	;	$.	;	_	O	O	
+15-4	jetzt	ADV	jetzt	_	O	O	
+15-5	in	APPR	in	_	O	O	
+15-6	Vorschlag	NN	Vorschlag	_	O	O	
+15-7	Mr.	NN	Mr.	_	O	O	
+15-8	W.	NE	W.	_	O	O	
+15-9	Gomond	NE	<unknown>	_	O	O	
+15-10	,	$,	,	_	O	O	
+15-11	ein	ART	eine	_	O	O	
+15-12	Ing~eSe	NN	<unknown>	_	O	O	
+15-13	,	$,	,	_	O	O	
+15-14	der	PRELS	die	_	O	O	
+15-15	sehr	ADV	sehr	_	O	O	
+15-16	fleißig	ADJD	fleißig	_	O	O	
+15-17	ds.	ADJA	<unknown>	_	O	O	
+
+#id=16
+#text=Institut, Bibliothek u. Adunanzen, besucht, auch allerlei mitbringt; dann Mr. Tounnal, conservateur du Mus;e des antiquit~s da Narbonne, dem wir eine Inschrift im Bull.
+16-1	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+16-2	,	$,	,	_	O	O	
+16-3	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+16-4	u.	APPR	um	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+16-5	Adunanzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+16-6	,	$,	,	_	O	O	
+16-7	besucht	VVPP	besuchen	_	O	O	
+16-8	,	$,	,	_	O	O	
+16-9	auch	ADV	auch	_	O	O	
+16-10	allerlei	PIS	allerlei	_	O	O	
+16-11	mitbringt	VVFIN	mitbringen	_	O	O	
+16-12	;	$.	;	_	O	O	
+16-13	dann	ADV	dann	_	O	O	
+16-14	Mr.	NN	Mr.	_	O	O	
+16-15	Tounnal	NN	<unknown>	_	O	O	
+16-16	,	$,	,	_	O	O	
+16-17	conservateur	VVFIN	<unknown>	_	O	O	
+16-18	du	PPER	du	_	O	O	
+16-19	Mus	NN	Mus	_	O	O	
+16-20	;	$.	;	_	O	O	
+16-21	e	VVFIN	<unknown>	_	O	O	
+16-22	des	ART	die	_	O	O	
+16-23	antiquit~s	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-LIT	
+16-24	da	ADV	da	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-25	Narbonne	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-26	,	$,	,	_	O	O	
+16-27	dem	PRELS	die	_	O	O	
+16-28	wir	PPER	wir	_	O	O	
+16-29	eine	ART	eine	_	O	O	
+16-30	Inschrift	NN	Inschrift	_	O	O	
+16-31	im	APPRART	in	_	O	O	
+16-32	Bull	NE	Bull	_	O	O	
+16-33	.	$.	.	_	O	O	
+
+#id=17
+#text=di Febbraio ( dh.
+17-1	di	NE	di	_	O	O	
+17-2	Febbraio	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+17-3	(	$(	(	_	O	O	
+17-4	dh.	NE	<unknown>	_	O	O	
+
+#id=18
+#text=Stark u. Mommsen ) verdanken,
+18-1	Stark	ADJD	stark	_	O	O	
+18-2	u.	APPR	um	_	O	O	
+18-3	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-4	)	$(	)	_	O	O	
+18-5	verdanken	VVFIN	verdanken	_	O	O	
+18-6	,	$,	,	_	O	O	
+

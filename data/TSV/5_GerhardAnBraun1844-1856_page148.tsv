@@ -1,0 +1,217 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=214 2 Gerhard an Braun Berlin, 18. Juni 1845 Panofka will nach Landon.
+1-1	214	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Panofka	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-13	will	VMFIN	wollen	_	O	O	
+1-14	nach	APPR	nach	_	O	O	
+1-15	Landon	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Duc de Luynes, daß ihm das Hebräisch nicht den Magen verderbe Brunn's Recension steht äußerst lang in dem Jahrbuch Februar abgedruckt, und macht sich für ein deutsches Publikum ganz gut.
+2-1	Duc	NE	Duc	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	de	NE	de	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-3	Luynes	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-4	,	$,	,	_	O	O	
+2-5	daß	KOUS	dass	_	O	O	
+2-6	ihm	PPER	er	_	O	O	
+2-7	das	ART	die	_	O	O	
+2-8	Hebräisch	NN	<unknown>	_	O	O	
+2-9	nicht	PTKNEG	nicht	_	O	O	
+2-10	den	ART	die	_	O	O	
+2-11	Magen	NN	Magen	_	O	O	
+2-12	verderbe	VVFIN	verderben	_	O	O	
+2-13	Brunn's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-14	Recension	NN	<unknown>	_	O	O	
+2-15	steht	VVFIN	stehen	_	O	O	
+2-16	äußerst	ADV	äußerst	_	O	O	
+2-17	lang	ADJD	lang	_	O	O	
+2-18	in	APPR	in	_	O	O	
+2-19	dem	ART	die	_	O	O	
+2-20	Jahrbuch	NN	Jahrbuch	_	O	O	
+2-21	Februar	NN	Februar	_	O	O	
+2-22	abgedruckt	VVPP	abdrucken	_	O	O	
+2-23	,	$,	,	_	O	O	
+2-24	und	KON	und	_	O	O	
+2-25	macht	VVFIN	machen	_	O	O	
+2-26	sich	PRF	sich	_	O	O	
+2-27	für	APPR	für	_	O	O	
+2-28	ein	ART	eine	_	O	O	
+2-29	deutsches	ADJA	deutsch	_	O	O	
+2-30	Publikum	NN	Publikum	_	O	O	
+2-31	ganz	ADV	ganz	_	O	O	
+2-32	gut	ADJD	gut	_	O	O	
+2-33	.	$.	.	_	O	O	
+
+#id=3
+#text=Aber ungemein breitspurig und allzu viel Ehre 6 bis 8 Bogen für ein Unternehmen, welches man doch nicht vornehmer machen will als das Bullettino des Instituts oder die Archäologische Zeitung es ist; wer referirt über die Institutswerke und über die meinigen in ähnlichem Umfang ?
+3-1	Aber	ADV	aber	_	O	O	
+3-2	ungemein	ADJD	ungemein	_	O	O	
+3-3	breitspurig	ADJD	<unknown>	_	O	O	
+3-4	und	KON	und	_	O	O	
+3-5	allzu	PTKA	allzu	_	O	O	
+3-6	viel	PIAT	viele	_	O	O	
+3-7	Ehre	NN	Ehre	_	O	O	
+3-8	6	CARD	6	_	O	O	
+3-9	bis	KON	bis	_	O	O	
+3-10	8	CARD	8	_	O	O	
+3-11	Bogen	NN	Bogen	_	O	O	
+3-12	für	APPR	für	_	O	O	
+3-13	ein	ART	eine	_	O	O	
+3-14	Unternehmen	NN	Unternehmen	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	welches	PRELS	welche	_	O	O	
+3-17	man	PIS	man	_	O	O	
+3-18	doch	ADV	doch	_	O	O	
+3-19	nicht	PTKNEG	nicht	_	O	O	
+3-20	vornehmer	ADJD	vornehm	_	O	O	
+3-21	machen	VVINF	machen	_	O	O	
+3-22	will	VMFIN	wollen	_	O	O	
+3-23	als	KOKOM	als	_	O	O	
+3-24	das	ART	die	_	O	O	
+3-25	Bullettino	NN	<unknown>	_	O	O	
+3-26	des	ART	die	_	O	O	
+3-27	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-28	oder	KON	oder	_	O	O	
+3-29	die	ART	die	_	O	O	
+3-30	Archäologische	ADJA	archäologisch	_	O	O	
+3-31	Zeitung	NN	Zeitung	_	O	O	
+3-32	es	PPER	es	_	O	O	
+3-33	ist	VAFIN	sein	_	O	O	
+3-34	;	$.	;	_	O	O	
+3-35	wer	PWS	wer	_	O	O	
+3-36	referirt	NN	<unknown>	_	O	O	
+3-37	über	APPR	über	_	O	O	
+3-38	die	ART	die	_	O	O	
+3-39	Institutswerke	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-LIT	
+3-40	und	KON	und	_	O	O	
+3-41	über	APPR	über	_	O	O	
+3-42	die	ART	die	_	O	O	
+3-43	meinigen	PPOSS	meinig	_	O	O	
+3-44	in	APPR	in	_	O	O	
+3-45	ähnlichem	ADJA	ähnlich	_	O	O	
+3-46	Umfang	NN	Umfang	_	O	O	
+3-47	?	$.	?	_	O	O	
+
+#id=4
+#text=Roß hofft im Juli hier zu sein.
+4-1	Roß	NN	Ross	_	O	O	
+4-2	hofft	VVFIN	hoffen	_	O	O	
+4-3	im	APPRART	in	_	O	O	
+4-4	Juli	NN	Juli	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-5	hier	ADV	hier	_	O	O	
+4-6	zu	PTKZU	zu	_	O	O	
+4-7	sein	VAINF	sein	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Ägyptologen werden erst zu Ende des Jahres zurückerwartet; Lepsius, von Sinai nach Theben zurückgekehrt, versichert viel für ägyptische Götter Vasen aufgewärmt zu haben.
+5-1	Die	ART	die	_	O	O	
+5-2	Ägyptologen	NN	<unknown>	_	O	O	
+5-3	werden	VAFIN	werden	_	O	O	
+5-4	erst	ADV	erst	_	O	O	
+5-5	zu	APPR	zu	_	O	O	
+5-6	Ende	NN	Ende	_	O	O	
+5-7	des	ART	die	_	O	O	
+5-8	Jahres	NN	Jahr	_	O	O	
+5-9	zurückerwartet	VVPP	zurückerwarten	_	O	O	
+5-10	;	$.	;	_	O	O	
+5-11	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-12	,	$,	,	_	O	O	
+5-13	von	APPR	von	_	O	O	
+5-14	Sinai	NE	<unknown>	_	O	O	
+5-15	nach	APPR	nach	_	O	O	
+5-16	Theben	NE	Theben	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-17	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+5-18	,	$,	,	_	O	O	
+5-19	versichert	VVFIN	versichern	_	O	O	
+5-20	viel	PIS	viele	_	O	O	
+5-21	für	APPR	für	_	O	O	
+5-22	ägyptische	ADJA	ägyptisch	_	O	O	
+5-23	Götter	NN	Gott	_	O	O	
+5-24	Vasen	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-25	aufgewärmt	VVPP	aufwärmen	_	O	O	
+5-26	zu	PTKZU	zu	_	O	O	
+5-27	haben	VAINF	haben	_	O	O	
+5-28	.	$.	.	_	O	O	
+
+#id=6
+#text=Wegen der Defekte werde ich Sorge tragen.
+6-1	Wegen	APPR	wegen	_	O	O	
+6-2	der	ART	die	_	O	O	
+6-3	Defekte	NN	Defekte	_	O	O	
+6-4	werde	VAFIN	werden	_	O	O	
+6-5	ich	PPER	ich	_	O	O	
+6-6	Sorge	NN	Sorge	_	O	O	
+6-7	tragen	VVINF	tragen	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=Grüssen Sie Henzen mit bestem Dank für sein Zweifaches.
+7-1	Grüssen	VVFIN	grüßen	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-4	mit	APPR	mit	_	O	O	
+7-5	bestem	ADJA	gut	_	O	O	
+7-6	Dank	NN	Dank	_	O	O	
+7-7	für	APPR	für	_	O	O	
+7-8	sein	PPOSAT	sein	_	O	O	
+7-9	Zweifaches	NN	Zweifaches	_	O	O	
+7-10	.	$.	.	_	O	O	
+
+#id=8
+#text=Meine Frau grüßt gleichfalls bestens.
+8-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-3	grüßt	VVFIN	grüßen	_	O	O	
+8-4	gleichfalls	ADV	gleichfalls	_	O	O	
+8-5	bestens	ADV	bestens	_	O	O	
+8-6	.	$.	.	_	O	O	
+
+#id=9
+#text=Herzlich Ihr Gerhard Wird ein Aufenthalt vom 20 September bis October in Neapel durch die Scienziati sehr unausstehlich sein ?
+9-1	Herzlich	ADJD	herzlich	_	O	O	
+9-2	Ihr	PPOSAT	ihr	_	O	O	
+9-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-4	Wird	VAFIN	werden	_	O	O	
+9-5	ein	ART	eine	_	O	O	
+9-6	Aufenthalt	NN	Aufenthalt	_	O	O	
+9-7	vom	APPRART	von	_	O	O	
+9-8	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-9	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-10	bis	KON	bis	_	O	O	
+9-11	October	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-12	in	APPR	in	_	O	O	
+9-13	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-14	durch	APPR	durch	_	O	O	
+9-15	die	ART	die	_	O	O	
+9-16	Scienziati	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-17	sehr	ADV	sehr	_	O	O	
+9-18	unausstehlich	ADJD	unausstehlich	_	O	O	
+9-19	sein	VAINF	sein	_	O	O	
+9-20	?	$.	?	_	O	O	
+
+#id=10
+#text=Ich meine für den Gebrauch von S. Angelos Sammlung und
+10-1	Ich	PPER	ich	_	O	O	
+10-2	meine	VVFIN	meinen	_	O	O	
+10-3	für	APPR	für	_	O	O	
+10-4	den	ART	die	_	O	O	
+10-5	Gebrauch	NN	Gebrauch	_	O	O	
+10-6	von	APPR	von	_	O	O	
+10-7	S.	NE	S.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-8	Angelos	NE	Angelos	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-9	Sammlung	NN	Sammlung	_	O	O	
+10-10	und	KON	und	_	O	O	
+

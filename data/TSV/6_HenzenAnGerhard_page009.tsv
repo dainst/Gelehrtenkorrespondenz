@@ -1,0 +1,336 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=) , 120 16/IV/51 Verehrter Herr Professor Henzen an Gerhard Vorgestern sind Bethmanns endlich von Bologna eingetroffen, und mit Ihnen Heft VII.
+1-1	)	$(	)	_	O	O	
+1-2	,	$,	,	_	O	O	
+1-3	120	CARD	120	_	O	O	
+1-4	16/IV/51	CARD	<unknown>	_	O	O	
+1-5	Verehrter	ADJA	verehrt	_	O	O	
+1-6	Herr	NN	Herr	_	O	O	
+1-7	Professor	NN	Professor	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-9	an	APPR	an	_	O	O	
+1-10	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-11	Vorgestern	NN	<unknown>	_	O	O	
+1-12	sind	VAFIN	sein	_	O	O	
+1-13	Bethmanns	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-14	endlich	ADV	endlich	_	O	O	
+1-15	von	APPR	von	_	O	O	
+1-16	Bologna	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-17	eingetroffen	VVPP	eintreffen	_	O	O	
+1-18	,	$,	,	_	O	O	
+1-19	und	KON	und	_	O	O	
+1-20	mit	APPR	mit	_	O	O	
+1-21	Ihnen	PPER	Sie	_	O	O	
+1-22	Heft	NN	Heft	_	O	O	
+1-23	VII.	NN	<unknown>	_	O	O	
+
+#id=2
+#text=Ihrer A.Z., wofür besten Dank.
+2-1	Ihrer	PPOSAT	ihr	_	O	O	
+2-2	A.Z.	NE	<unknown>	_	O	O	
+2-3	,	$,	,	_	O	O	
+2-4	wofür	PWAV	wofür	_	O	O	
+2-5	besten	ADJA	gut	_	O	O	
+2-6	Dank	NN	Dank	_	O	O	
+2-7	.	$.	.	_	O	O	
+
+#id=3
+#text=Ein andres Packet, das ein Herr Naumann bringen sollte, ward, weil versiegelt, in Civitavecchia confiscirt u. nur pr.
+3-1	Ein	ART	eine	_	O	O	
+3-2	andres	PIAT	andere	_	O	O	
+3-3	Packet	NN	<unknown>	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	das	PRELS	die	_	O	O	
+3-6	ein	ART	eine	_	O	O	
+3-7	Herr	NN	Herr	_	O	O	
+3-8	Naumann	NE	Naumann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-9	bringen	VVINF	bringen	_	O	O	
+3-10	sollte	VMFIN	sollen	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	ward	VVFIN	werd	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	weil	KOUS	weil	_	O	O	
+3-15	versiegelt	VVPP	versiegeln	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	in	APPR	in	_	O	O	
+3-18	Civitavecchia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-19	confiscirt	NN	<unknown>	_	O	O	
+3-20	u.	APPR	um	_	O	O	
+3-21	nur	ADV	nur	_	O	O	
+3-22	pr.	ADJA	<unknown>	_	O	O	
+
+#id=4
+#text=Briefpost zugesandt, so dß.
+4-1	Briefpost	NN	Briefpost	_	O	O	
+4-2	zugesandt	VVPP	zusenden	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	so	ADV	so	_	O	O	
+4-5	dß	ADJD	<unknown>	_	O	O	
+4-6	.	$.	.	_	O	O	
+
+#id=5
+#text=wir für d(a)ßs(e)lbe 18 Paul haben zahlen müssen, ohne es, wie wir gern gethan hätten, zurückschicken zu können.
+5-1	wir	PPER	wir	_	O	O	
+5-2	für	APPR	für	_	O	O	
+5-3	d(a)ßs(e)lbe	NE	<unknown>	_	O	O	
+5-4	18	CARD	18	_	O	O	
+5-5	Paul	NE	Paul	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-6	haben	VAFIN	haben	_	O	O	
+5-7	zahlen	VVINF	zahlen	_	O	O	
+5-8	müssen	VMINF	müssen	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	ohne	KOUI	ohne	_	O	O	
+5-11	es	PPER	es	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	wie	KOUS	wie	_	O	O	
+5-14	wir	PPER	wir	_	O	O	
+5-15	gern	ADV	gern	_	O	O	
+5-16	gethan	ADJD	<unknown>	_	O	O	
+5-17	hätten	VAFIN	haben	_	O	O	
+5-18	,	$,	,	_	O	O	
+5-19	zurückschicken	VVINF	zurückschicken	_	O	O	
+5-20	zu	PTKZU	zu	_	O	O	
+5-21	können	VMINF	können	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=Es ist dies um so unangenehmer, da es nur Sachen enthält, die wir schon kannten.
+6-1	Es	PPER	es	_	O	O	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	dies	PDS	dies	_	O	O	
+6-4	um	APPR	um	_	O	O	
+6-5	so	ADV	so	_	O	O	
+6-6	unangenehmer	ADJD	unangenehm	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	da	KOUS	da	_	O	O	
+6-9	es	PPER	es	_	O	O	
+6-10	nur	ADV	nur	_	O	O	
+6-11	Sachen	NN	Sache	_	O	O	
+6-12	enthält	VVFIN	enthalten	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	die	PRELS	die	_	O	O	
+6-15	wir	PPER	wir	_	O	O	
+6-16	schon	ADV	schon	_	O	O	
+6-17	kannten	VVFIN	kennen	_	O	O	
+6-18	.	$.	.	_	O	O	
+
+#id=7
+#text=Wir müssen Sie sehr bitten, uns nie versiegelte Packete ode Briefe dh.
+7-1	Wir	PPER	wir	_	O	O	
+7-2	müssen	VMFIN	müssen	_	O	O	
+7-3	Sie	PPER	Sie	_	O	O	
+7-4	sehr	ADV	sehr	_	O	O	
+7-5	bitten	VVINF	bitten	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	uns	PRF	wir	_	O	O	
+7-8	nie	ADV	nie	_	O	O	
+7-9	versiegelte	ADJA	versiegelt	_	O	O	
+7-10	Packete	NN	<unknown>	_	O	O	
+7-11	ode	ADJA	<unknown>	_	O	O	
+7-12	Briefe	NN	Brief	_	O	O	
+7-13	dh.	NE	<unknown>	_	O	O	
+
+#id=8
+#text=Gelegenheit zuzuschicken.
+8-1	Gelegenheit	NN	Gelegenheit	_	O	O	
+8-2	zuzuschicken	VVIZU	zuschicken	_	O	O	
+8-3	.	$.	.	_	O	O	
+
+#id=9
+#text=Ohnehin sind alle Ital.
+9-1	Ohnehin	ADV	ohnehin	_	O	O	
+9-2	sind	VAFIN	sein	_	O	O	
+9-3	alle	PIAT	alle	_	O	O	
+9-4	Ital.	NN	<unknown>	_	O	O	
+
+#id=10
+#text=Zollämter, von den Oestreichischen herab, jetzt auf alle Bücher höchst aufmerksam, u. Sje müssen mit der Belastung Reisender sehr behutsam sein.
+10-1	Zollämter	NN	Zollamt	_	O	O	
+10-2	,	$,	,	_	O	O	
+10-3	von	APPR	von	_	O	O	
+10-4	den	ART	die	_	O	O	
+10-5	Oestreichischen	NN	<unknown>	_	O	O	
+10-6	herab	PTKVZ	herab	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	jetzt	ADV	jetzt	_	O	O	
+10-9	auf	APPR	auf	_	O	O	
+10-10	alle	PIAT	alle	_	O	O	
+10-11	Bücher	NN	Buch	_	O	O	
+10-12	höchst	ADJD	hochöchst	_	O	O	
+10-13	aufmerksam	ADJD	aufmerksam	_	O	O	
+10-14	,	$,	,	_	O	O	
+10-15	u.	APPR	um	_	O	O	
+10-16	Sje	NE	<unknown>	_	O	O	
+10-17	müssen	VMFIN	müssen	_	O	O	
+10-18	mit	APPR	mit	_	O	O	
+10-19	der	ART	die	_	O	O	
+10-20	Belastung	NN	Belastung	_	O	O	
+10-21	Reisender	NN	Reisende	_	O	O	
+10-22	sehr	ADV	sehr	_	O	O	
+10-23	behutsam	ADJD	behutsam	_	O	O	
+10-24	sein	VAINF	sein	_	O	O	
+10-25	.	$.	.	_	O	O	
+
+#id=11
+#text=Führt man auch nicht Verdächtiges, so gibt es dennoch leicht stundenlange Scherereien, wie es z. B. einem hier angelangten Fremden mit einigen Bänden Schiller in Venedig ergangen ist.
+11-1	Führt	VVFIN	führen	_	O	O	
+11-2	man	PIS	man	_	O	O	
+11-3	auch	ADV	auch	_	O	O	
+11-4	nicht	PTKNEG	nicht	_	O	O	
+11-5	Verdächtiges	NN	Verdächtige	_	O	O	
+11-6	,	$,	,	_	O	O	
+11-7	so	ADV	so	_	O	O	
+11-8	gibt	VVFIN	geben	_	O	O	
+11-9	es	PPER	es	_	O	O	
+11-10	dennoch	ADV	dennoch	_	O	O	
+11-11	leicht	ADJD	leicht	_	O	O	
+11-12	stundenlange	ADJA	stundenlang	_	O	O	
+11-13	Scherereien	NN	Schererei	_	O	O	
+11-14	,	$,	,	_	O	O	
+11-15	wie	KOUS	wie	_	O	O	
+11-16	es	PPER	es	_	O	O	
+11-17	z.	APPRART	z.	_	O	O	
+11-18	B.	NN	B.	_	O	O	
+11-19	einem	ART	eine	_	O	O	
+11-20	hier	ADV	hier	_	O	O	
+11-21	angelangten	ADJA	angelangt	_	O	O	
+11-22	Fremden	NN	Fremde	_	O	O	
+11-23	mit	APPR	mit	_	O	O	
+11-24	einigen	PIAT	einige	_	O	O	
+11-25	Bänden	NN	Band	_	O	O	
+11-26	Schiller	NE	Schiller	_	O	O	
+11-27	in	APPR	in	_	O	O	
+11-28	Venedig	NE	Venedig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-29	ergangen	VVPP	ergehen	_	O	O	
+11-30	ist	VAFIN	sein	_	O	O	
+11-31	.	$.	.	_	O	O	
+
+#id=12
+#text=Bethmann haben nur seine vielen hohen Empfehlungsbriefe, die er vorzeigte, ohne viele Douanenleiden durchgebracht.
+12-1	Bethmann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	haben	VAFIN	haben	_	O	O	
+12-3	nur	ADV	nur	_	O	O	
+12-4	seine	PPOSAT	sein	_	O	O	
+12-5	vielen	PIAT	viele	_	O	O	
+12-6	hohen	ADJA	hoch	_	O	O	
+12-7	Empfehlungsbriefe	NN	<unknown>	_	O	O	
+12-8	,	$,	,	_	O	O	
+12-9	die	PRELS	die	_	O	O	
+12-10	er	PPER	er	_	O	O	
+12-11	vorzeigte	VVFIN	vorzeigen	_	O	O	
+12-12	,	$,	,	_	O	O	
+12-13	ohne	APPR	ohne	_	O	O	
+12-14	viele	PIAT	viele	_	O	O	
+12-15	Douanenleiden	NN	<unknown>	_	O	O	
+12-16	durchgebracht	VVPP	durchbringen	_	O	O	
+12-17	.	$.	.	_	O	O	
+
+#id=13
+#text=- Braun hat sehr ungern gesehen, dß.
+13-1	-	$(	-	_	O	O	
+13-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-3	hat	VAFIN	haben	_	O	O	
+13-4	sehr	ADV	sehr	_	O	O	
+13-5	ungern	ADV	ungern	_	O	O	
+13-6	gesehen	VVPP	sehen	_	O	O	
+13-7	,	$,	,	_	O	O	
+13-8	dß	VVFIN	<unknown>	_	O	O	
+13-9	.	$.	.	_	O	O	
+
+#id=14
+#text=Sie die Vase Frangeis wieder publicirt haben, da die Leute ja unsre Werke, oder wenigstens die Separatabdrücke kaufen könnten.
+14-1	Sie	PPER	Sie	_	O	O	
+14-2	die	ART	die	_	O	O	
+14-3	Vase	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+14-4	Frangeis	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+14-5	wieder	ADV	wieder	_	O	O	
+14-6	publicirt	ADJD	<unknown>	_	O	O	
+14-7	haben	VAFIN	haben	_	O	O	
+14-8	,	$,	,	_	O	O	
+14-9	da	KOUS	da	_	O	O	
+14-10	die	ART	die	_	O	O	
+14-11	Leute	NN	Leute	_	O	O	
+14-12	ja	ADV	ja	_	O	O	
+14-13	unsre	PPOSAT	unsre	_	O	O	
+14-14	Werke	NN	Werk	_	O	O	
+14-15	,	$,	,	_	O	O	
+14-16	oder	KON	oder	_	O	O	
+14-17	wenigstens	ADV	wenigstens	_	O	O	
+14-18	die	ART	die	_	O	O	
+14-19	Separatabdrücke	NN	<unknown>	_	O	O	
+14-20	kaufen	VVINF	kaufen	_	O	O	
+14-21	könnten	VMFIN	können	_	O	O	
+14-22	.	$.	.	_	O	O	
+
+#id=15
+#text=- Das Naumannsche Packet enthielt übrigens für ~ mich Heft V. Ihrer A.Z., wä~end ich d(ie)s(e)lbe vis Heft VII incl. habe.
+15-1	-	$(	-	_	O	O	
+15-2	Das	ART	die	_	O	O	
+15-3	Naumannsche	NN	<unknown>	_	O	O	
+15-4	Packet	NN	<unknown>	_	O	O	
+15-5	enthielt	VVFIN	enthalten	_	O	O	
+15-6	übrigens	ADV	übrigens	_	O	O	
+15-7	für	APPR	für	_	O	O	
+15-8	~	XY	~	_	O	O	
+15-9	mich	PRF	ich	_	O	O	
+15-10	Heft	NN	Heft	_	O	O	
+15-11	V.	APPR	v.	_	O	O	
+15-12	Ihrer	PPOSAT	ihr	_	O	O	
+15-13	A.Z.	NE	<unknown>	_	O	O	
+15-14	,	$,	,	_	O	O	
+15-15	wä~end	VVFIN	<unknown>	_	O	O	
+15-16	ich	PPER	ich	_	O	O	
+15-17	d(ie)s(e)lbe	NE	<unknown>	_	O	O	
+15-18	vis	NE	<unknown>	_	O	O	
+15-19	Heft	NN	Heft	_	O	O	
+15-20	VII	CARD	VII	_	O	O	
+15-21	incl.	APPR	incl.	_	O	O	
+15-22	habe	VAFIN	haben	_	O	O	
+15-23	.	$.	.	_	O	O	
+
+#id=16
+#text=Als Corrispondenti schlagen wir vor Prof.
+16-1	Als	KOKOM	als	_	O	O	
+16-2	Corrispondenti	NN	<unknown>	_	O	O	
+16-3	schlagen	VVFIN	schlagen	_	O	O	
+16-4	wir	PPER	wir	_	O	O	
+16-5	vor	APPR	vor	_	O	O	
+16-6	Prof.	NN	Prof.	_	O	O	
+
+#id=17
+#text=Pietro Martini, Bibliotecario d. R. Universita di Cagliari, weniger wegen der Pergamene von Arborea, als um in Sardinien doch Jemanden zu haben, u. da der Mann versprochen hat,
+17-1	Pietro	NE	Pietro	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+17-2	Martini	NE	Martini	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+17-3	,	$,	,	_	O	O	
+17-4	Bibliotecario	NN	<unknown>	_	O	O	
+17-5	d.	ART	d.	_	O	O	
+17-6	R.	NE	R.	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+17-7	Universita	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+17-8	di	NE	di	_	O	O	
+17-9	Cagliari	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+17-10	,	$,	,	_	O	O	
+17-11	weniger	ADV	weniger	_	O	O	
+17-12	wegen	APPR	wegen	_	O	O	
+17-13	der	ART	die	_	O	O	
+17-14	Pergamene	NN	<unknown>	_	O	O	
+17-15	von	APPR	von	_	O	O	
+17-16	Arborea	NN	<unknown>	_	O	O	
+17-17	,	$,	,	_	O	O	
+17-18	als	KOKOM	als	_	O	O	
+17-19	um	APPR	um	_	O	O	
+17-20	in	APPR	in	_	O	O	
+17-21	Sardinien	NE	Sardinien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+17-22	doch	KON	doch	_	O	O	
+17-23	Jemanden	NN	Jemand	_	O	O	
+17-24	zu	PTKZU	zu	_	O	O	
+17-25	haben	VAINF	haben	_	O	O	
+17-26	,	$,	,	_	O	O	
+17-27	u.	KON	und	_	O	O	
+17-28	da	ADV	da	_	O	O	
+17-29	der	ART	die	_	O	O	
+17-30	Mann	NN	Mann	_	O	O	
+17-31	versprochen	VVPP	versprechen	_	O	O	
+17-32	hat	VAFIN	haben	_	O	O	
+17-33	,	$,	,	_	O	O	
+

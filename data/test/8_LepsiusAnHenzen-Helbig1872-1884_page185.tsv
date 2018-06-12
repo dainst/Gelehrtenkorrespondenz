@@ -1,0 +1,261 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=6% halten bleiben Verehrter Freund Lepsius an Henzen Berlin, 9. Dezember 1874 g. 14/XII 74 r.
+1-1	6	CARD	6	_	O	O	
+1-2	%	NN	%	_	O	O	
+1-3	halten	VVINF	halten	_	O	O	
+1-4	bleiben	VVFIN	bleiben	_	O	O	
+1-5	Verehrter	NN	Verehrte	_	O	O	
+1-6	Freund	NE	Freund	_	O	O	
+1-7	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-8	an	APPR	an	_	O	O	
+1-9	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-10	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-11	,	$,	,	_	O	O	
+1-12	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-13	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	g.	VVFIN	<unknown>	_	O	O	
+1-17	14/XII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-18	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-19	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=14/12 Berlin, den 9. Dez.
+2-1	14/12	CARD	@card@	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-3	,	$,	,	_	O	O	
+2-4	den	ART	die	_	O	O	
+2-5	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-7	Dez.	NN	Dez.	_	O	O	
+
+#id=3
+#text=1874 Matz hat im Ganzen für sein Werk bewilligt er4 250 r davon hat er erhoben 3 264.
+3-1	1874	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-2	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	hat	VAFIN	haben	_	O	O	
+3-4	im	APPRART	in	_	O	O	
+3-5	Ganzen	NN	Ganze	_	O	O	
+3-6	für	APPR	für	_	O	O	
+3-7	sein	PPOSAT	sein	_	O	O	
+3-8	Werk	NN	Werk	_	O	O	
+3-9	bewilligt	VVFIN	bewilligen	_	O	O	
+3-10	er4	CARD	<unknown>	_	O	O	
+3-11	250	CARD	@card@	_	O	O	
+3-12	r	NE	r	_	O	O	
+3-13	davon	PAV	davon	_	O	O	
+3-14	hat	VAFIN	haben	_	O	O	
+3-15	er	PPER	er	_	O	O	
+3-16	erhoben	VVPP	erheben	_	O	O	
+3-17	3	CARD	3	_	O	O	
+3-18	264	CARD	@card@	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=8.
+4-1	8	CARD	8	_	O	O	
+4-2	.	$.	.	_	O	O	
+
+#id=5
+#text=6 985.
+5-1	6	CARD	6	_	O	O	
+5-2	985	CARD	@card@	_	O	O	
+5-3	.	$.	.	_	O	O	
+
+#id=6
+#text=21.
+6-1	21	CARD	21	_	O	O	
+6-2	.	$.	.	_	O	O	
+
+#id=7
+#text=6 noch zu erheben.
+7-1	6	CARD	6	_	O	O	
+7-2	noch	ADV	noch	_	O	O	
+7-3	zu	PTKZU	zu	_	O	O	
+7-4	erheben	VVINF	erheben	_	O	O	
+7-5	.	$.	.	_	O	O	
+
+#id=8
+#text=Er hat unnöthiger und verwirrender Weise diese Summe statt zu erheben, durch Freunde in Paris vorschießen lassen.
+8-1	Er	PPER	er	_	O	O	
+8-2	hat	VAFIN	haben	_	O	O	
+8-3	unnöthiger	ADJA	<unknown>	_	O	O	
+8-4	und	KON	und	_	O	O	
+8-5	verwirrender	ADJA	verwirrend	_	O	O	
+8-6	Weise	NN	Weise	_	O	O	
+8-7	diese	PDAT	dies	_	O	O	
+8-8	Summe	NN	Summe	_	O	O	
+8-9	statt	PTKVZ	statt	_	O	O	
+8-10	zu	PTKZU	zu	_	O	O	
+8-11	erheben	VVINF	erheben	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	durch	APPR	durch	_	O	O	
+8-14	Freunde	NN	Freund	_	O	O	
+8-15	in	APPR	in	_	O	O	
+8-16	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-17	vorschießen	VVINF	vorschießen	_	O	O	
+8-18	lassen	VVFIN	lassen	_	O	O	
+8-19	.	$.	.	_	O	O	
+
+#id=9
+#text=Alle Anweisungen für Matz gingen bis Mitte Juni an Sie und waren aus dem Reservefonds zu zahlen.
+9-1	Alle	PIAT	alle	_	O	O	
+9-2	Anweisungen	NN	Anweisung	_	O	O	
+9-3	für	APPR	für	_	O	O	
+9-4	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	gingen	VVFIN	gehen	_	O	O	
+9-6	bis	APPR	bis	_	O	O	
+9-7	Mitte	NN	Mitte	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-8	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-9	an	APPR	an	_	O	O	
+9-10	Sie	PPER	Sie	_	O	O	
+9-11	und	KON	und	_	O	O	
+9-12	waren	VAFIN	sein	_	O	O	
+9-13	aus	APPR	aus	_	O	O	
+9-14	dem	ART	die	_	O	O	
+9-15	Reservefonds	NN	Reservefonds	_	O	O	
+9-16	zu	PTKZU	zu	_	O	O	
+9-17	zahlen	VVINF	zahlen	_	O	O	
+9-18	.	$.	.	_	O	O	
+
+#id=10
+#text=Jede einzelne Bewilligung wurde Ihnen daher von hier aus angezeigt.
+10-1	Jede	PIAT	jede	_	O	O	
+10-2	einzelne	ADJA	einzeln	_	O	O	
+10-3	Bewilligung	NN	Bewilligung	_	O	O	
+10-4	wurde	VAFIN	werden	_	O	O	
+10-5	Ihnen	PPER	Sie	_	O	O	
+10-6	daher	PAV	daher	_	O	O	
+10-7	von	APPR	von	_	O	O	
+10-8	hier	ADV	hier	_	O	O	
+10-9	aus	APZR	aus	_	O	O	
+10-10	angezeigt	VVPP	anzeigen	_	O	O	
+10-11	.	$.	.	_	O	O	
+
+#id=11
+#text=Nur die letzten 400 r die Ende Juni von der Generalversammlung bewilligt wurden, zahlte bereits das Auswärtige Amt aus.
+11-1	Nur	ADV	nur	_	O	O	
+11-2	die	ART	die	_	O	O	
+11-3	letzten	ADJA	letzt	_	O	O	
+11-4	400	CARD	400	_	O	O	
+11-5	r	NE	r	_	O	O	
+11-6	die	ART	die	_	O	O	
+11-7	Ende	NN	Ende	_	O	O	
+11-8	Juni	NN	Juni	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+11-9	von	APPR	von	_	O	O	
+11-10	der	ART	die	_	O	O	
+11-11	Generalversammlung	NN	Generalversammlung	_	O	O	
+11-12	bewilligt	VVPP	bewilligen	_	O	O	
+11-13	wurden	VAFIN	werden	_	O	O	
+11-14	,	$,	,	_	O	O	
+11-15	zahlte	VVFIN	zahlen	_	O	O	
+11-16	bereits	ADV	bereits	_	O	O	
+11-17	das	ART	die	_	O	O	
+11-18	Auswärtige	ADJA	auswärtig	_	O	O	
+11-19	Amt	NN	Amt	_	O	O	
+11-20	aus	PTKVZ	aus	_	O	O	
+11-21	.	$.	.	_	O	O	
+
+#id=12
+#text=Es fragt sich nun, ob Sie die für das Sarkophagwerk angewiesenen Summen, von denen eben noch 985.
+12-1	Es	PPER	es	_	O	O	
+12-2	fragt	VVFIN	fragen	_	O	O	
+12-3	sich	PRF	sich	_	O	O	
+12-4	nun	ADV	nun	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	ob	KOUS	ob	_	O	O	
+12-7	Sie	PPER	Sie	_	O	O	
+12-8	die	ART	die	_	O	O	
+12-9	für	APPR	für	_	O	O	
+12-10	das	ART	die	_	O	O	
+12-11	Sarkophagwerk	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+12-12	angewiesenen	ADJA	angewiesen	_	O	O	
+12-13	Summen	NN	Summe|Summen	_	O	O	
+12-14	,	$,	,	_	O	O	
+12-15	von	APPR	von	_	O	O	
+12-16	denen	PRELS	die	_	O	O	
+12-17	eben	ADV	eben	_	O	O	
+12-18	noch	ADV	noch	_	O	O	
+12-19	985	CARD	@card@	_	O	O	
+12-20	.	$.	.	_	O	O	
+
+#id=13
+#text=21.
+13-1	21	CARD	21	_	O	O	
+13-2	.	$.	.	_	O	O	
+
+#id=14
+#text=6. zu zahlen sind, zurückbehalten haben, als Sie den Reservefonds (7000 r) nach Berlin sandten, oder ob, wenigstens ein Theil davon, von den 7 000 r zu nehmen wäre.
+14-1	6	CARD	6	_	O	O	
+14-2	.	$.	.	_	O	O	
+14-3	zu	PTKZU	zu	_	O	O	
+14-4	zahlen	VVINF	zahlen	_	O	O	
+14-5	sind	VAFIN	sein	_	O	O	
+14-6	,	$,	,	_	O	O	
+14-7	zurückbehalten	VVPP	zurückbehalten	_	O	O	
+14-8	haben	VAFIN	haben	_	O	O	
+14-9	,	$,	,	_	O	O	
+14-10	als	KOUS	als	_	O	O	
+14-11	Sie	PPER	Sie	_	O	O	
+14-12	den	ART	die	_	O	O	
+14-13	Reservefonds	NN	Reservefonds	_	O	O	
+14-14	(	$(	(	_	O	O	
+14-15	7000	CARD	7000	_	O	O	
+14-16	r	NE	r	_	O	O	
+14-17	)	$(	)	_	O	O	
+14-18	nach	APPR	nach	_	O	O	
+14-19	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+14-20	sandten	VVFIN	senden	_	O	O	
+14-21	,	$,	,	_	O	O	
+14-22	oder	KON	oder	_	O	O	
+14-23	ob	KOUS	ob	_	O	O	
+14-24	,	$,	,	_	O	O	
+14-25	wenigstens	ADV	wenigstens	_	O	O	
+14-26	ein	ART	eine	_	O	O	
+14-27	Theil	NN	<unknown>	_	O	O	
+14-28	davon	PAV	davon	_	O	O	
+14-29	,	$,	,	_	O	O	
+14-30	von	APPR	von	_	O	O	
+14-31	den	ART	die	_	O	O	
+14-32	7	CARD	7	_	O	O	
+14-33	000	CARD	@card@	_	O	O	
+14-34	r	NE	r	_	O	O	
+14-35	zu	PTKZU	zu	_	O	O	
+14-36	nehmen	VVINF	nehmen	_	O	O	
+14-37	wäre	VAFIN	sein	_	O	O	
+14-38	.	$.	.	_	O	O	
+
+#id=15
+#text=Aus Ihren Briefen an mich geht hervor, daß Sie einen Theil (seit Januar, wo der Reservefonds über 9 000 r betrug) verausgabt, einen an-
+15-1	Aus	APPR	aus	_	O	O	
+15-2	Ihren	PPOSAT	ihr	_	O	O	
+15-3	Briefen	NN	Brief	_	O	O	
+15-4	an	APPR	an	_	O	O	
+15-5	mich	PRF	ich	_	O	O	
+15-6	geht	VVFIN	gehen	_	O	O	
+15-7	hervor	PTKVZ	hervor	_	O	O	
+15-8	,	$,	,	_	O	O	
+15-9	daß	KOUS	dass	_	O	O	
+15-10	Sie	PPER	Sie	_	O	O	
+15-11	einen	ART	eine	_	O	O	
+15-12	Theil	NN	<unknown>	_	O	O	
+15-13	(	$(	(	_	O	O	
+15-14	seit	APPR	seit	_	O	O	
+15-15	Januar	NN	Januar	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+15-16	,	$,	,	_	O	O	
+15-17	wo	PWAV	wo	_	O	O	
+15-18	der	ART	die	_	O	O	
+15-19	Reservefonds	NN	Reservefonds	_	O	O	
+15-20	über	APPR	über	_	O	O	
+15-21	9	CARD	9	_	O	O	
+15-22	000	CARD	@card@	_	O	O	
+15-23	r	NE	r	_	O	O	
+15-24	betrug	VVFIN	betragen	_	O	O	
+15-25	)	$(	)	_	O	O	
+15-26	verausgabt	VVPP	verausgaben	_	O	O	
+15-27	,	$,	,	_	O	O	
+15-28	einen	ART	eine	_	O	O	
+15-29	an-	TRUNC	an-	_	O	O	
+

@@ -1,0 +1,267 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=109 Gerhard an Braun Berlin, 20. Februar 1844 2 Auf die Franzosen scheinen Sie immer noch zu rechnen, vielleicht weil diese Illusion Ihnen in sonstige Pläne paßt.
+1-1	109	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	Auf	APPR	auf	_	O	O	
+1-13	die	ART	die	_	O	O	
+1-14	Franzosen	NN	Franzose	_	O	O	
+1-15	scheinen	VVFIN	scheinen	_	O	O	
+1-16	Sie	PPER	Sie	_	O	O	
+1-17	immer	ADV	immer	_	O	O	
+1-18	noch	ADV	noch	_	O	O	
+1-19	zu	PTKZU	zu	_	O	O	
+1-20	rechnen	VVINF	rechnen	_	O	O	
+1-21	,	$,	,	_	O	O	
+1-22	vielleicht	ADV	vielleicht	_	O	O	
+1-23	weil	KOUS	weil	_	O	O	
+1-24	diese	PDAT	dies	_	O	O	
+1-25	Illusion	NN	Illusion	_	O	O	
+1-26	Ihnen	PPER	Sie	_	O	O	
+1-27	in	APPR	in	_	O	O	
+1-28	sonstige	ADJA	sonstig	_	O	O	
+1-29	Pläne	NN	Plan	_	O	O	
+1-30	paßt	VVFIN	passen	_	O	O	
+1-31	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich halte keine dortige Person für zuverlässig genug; übrigens wird es vortheilhaft sein wenn Sie in Paris selbst Sich davon überzeugen.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	halte	VVFIN	halten	_	O	O	
+2-3	keine	PIAT	keine	_	O	O	
+2-4	dortige	ADJA	dortig	_	O	O	
+2-5	Person	NN	Person	_	O	O	
+2-6	für	APPR	für	_	O	O	
+2-7	zuverlässig	ADJD	zuverlässig	_	O	O	
+2-8	genug	ADV	genug	_	O	O	
+2-9	;	$.	;	_	O	O	
+2-10	übrigens	ADV	übrigens	_	O	O	
+2-11	wird	VAFIN	werden	_	O	O	
+2-12	es	PPER	es	_	O	O	
+2-13	vortheilhaft	ADJD	<unknown>	_	O	O	
+2-14	sein	VAINF	sein	_	O	O	
+2-15	wenn	KOUS	wenn	_	O	O	
+2-16	Sie	PPER	Sie	_	O	O	
+2-17	in	APPR	in	_	O	O	
+2-18	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-19	selbst	ADV	selbst	_	O	O	
+2-20	Sich	PRF	sich	_	O	O	
+2-21	davon	PAV	davon	_	O	O	
+2-22	überzeugen	VVINF	überzeugen	_	O	O	
+2-23	.	$.	.	_	O	O	
+
+#id=3
+#text=In der 2.ten Hälfte August könnte ich vielleicht mich mit Ihnen dort treffen.
+3-1	In	APPR	in	_	O	O	
+3-2	der	ART	die	_	O	O	
+3-3	2.ten	ADJA	<unknown>	_	O	O	
+3-4	Hälfte	NN	Hälfte	_	O	O	
+3-5	August	NE	August	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-6	könnte	VMFIN	können	_	O	O	
+3-7	ich	PPER	ich	_	O	O	
+3-8	vielleicht	ADV	vielleicht	_	O	O	
+3-9	mich	PRF	ich	_	O	O	
+3-10	mit	APPR	mit	_	O	O	
+3-11	Ihnen	PPER	Sie	_	O	O	
+3-12	dort	ADV	dort	_	O	O	
+3-13	treffen	VVINF	treffen	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Für die Besorgung der Kiste besten Dank.
+4-1	Für	APPR	für	_	O	O	
+4-2	die	ART	die	_	O	O	
+4-3	Besorgung	NN	Besorgung	_	O	O	
+4-4	der	ART	die	_	O	O	
+4-5	Kiste	NN	Kiste	_	O	O	
+4-6	besten	ADJA	gut	_	O	O	
+4-7	Dank	NN	Dank	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=In der andern Hälfte des März wird Bunsen hier erwartet; dann will ich ihn wegen Schreibens an Metternich)(sprechen und dabei auch den Ehrenquark besorgen, ohne den das Institut nun einmal allen äußeren Kultus entbehren würde.
+5-1	In	APPR	in	_	O	O	
+5-2	der	ART	die	_	O	O	
+5-3	andern	PIAT	andere	_	O	O	
+5-4	Hälfte	NN	Hälfte	_	O	O	
+5-5	des	ART	die	_	O	O	
+5-6	März	NN	März	_	O	O	
+5-7	wird	VAFIN	werden	_	O	O	
+5-8	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-9	hier	ADV	hier	_	O	O	
+5-10	erwartet	VVPP	erwarten	_	O	O	
+5-11	;	$.	;	_	O	O	
+5-12	dann	ADV	dann	_	O	O	
+5-13	will	VMFIN	wollen	_	O	O	
+5-14	ich	PPER	ich	_	O	O	
+5-15	ihn	PPER	er	_	O	O	
+5-16	wegen	APPR	wegen	_	O	O	
+5-17	Schreibens	NN	Schreiben	_	O	O	
+5-18	an	APPR	an	_	O	O	
+5-19	Metternich)(sprechen	NN	<unknown>	_	O	O	
+5-20	und	KON	und	_	O	O	
+5-21	dabei	PAV	dabei	_	O	O	
+5-22	auch	ADV	auch	_	O	O	
+5-23	den	ART	die	_	O	O	
+5-24	Ehrenquark	NN	<unknown>	_	O	O	
+5-25	besorgen	VVINF	besorgen	_	O	O	
+5-26	,	$,	,	_	O	O	
+5-27	ohne	APPR	ohne	_	O	O	
+5-28	den	PRELS	die	_	O	O	
+5-29	das	ART	die	_	O	O	
+5-30	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-31	nun	ADV	nun	_	O	O	
+5-32	einmal	ADV	einmal	_	O	O	
+5-33	allen	PIAT	alle	_	O	O	
+5-34	äußeren	ADJA	äußer	_	O	O	
+5-35	Kultus	NN	Kultus	_	O	O	
+5-36	entbehren	VVINF	entbehren	_	O	O	
+5-37	würde	VAFIN	werden	_	O	O	
+5-38	.	$.	.	_	O	O	
+
+#id=6
+#text=Haben Sie andre Beiträge dazu als Jacobi, Horkel und Wiese so bitte sie mir in Erinnerung zu bringen; Wiese betreffend so würde er mich, wenn es Ihnen eilt, zu noch anderen Berlinern nöthigen, deren ich diesmal lieber entübrigt wäre.
+6-1	Haben	VAFIN	haben	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	andre	PIAT	andere	_	O	O	
+6-4	Beiträge	NN	Beitrag	_	O	O	
+6-5	dazu	PAV	dazu	_	O	O	
+6-6	als	KOKOM	als	_	O	O	
+6-7	Jacobi	NE	Jacobi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-8	,	$,	,	_	O	O	
+6-9	Horkel	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	und	KON	und	_	O	O	
+6-11	Wiese	NE	Wiese	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-12	so	ADV	so	_	O	O	
+6-13	bitte	VVFIN	bitten	_	O	O	
+6-14	sie	PPER	sie	_	O	O	
+6-15	mir	PRF	ich	_	O	O	
+6-16	in	APPR	in	_	O	O	
+6-17	Erinnerung	NN	Erinnerung	_	O	O	
+6-18	zu	PTKZU	zu	_	O	O	
+6-19	bringen	VVINF	bringen	_	O	O	
+6-20	;	$.	;	_	O	O	
+6-21	Wiese	NN	Wiese	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-22	betreffend	ADJD	betreffend	_	O	O	
+6-23	so	ADV	so	_	O	O	
+6-24	würde	VAFIN	werden	_	O	O	
+6-25	er	PPER	er	_	O	O	
+6-26	mich	PPER	ich	_	O	O	
+6-27	,	$,	,	_	O	O	
+6-28	wenn	KOUS	wenn	_	O	O	
+6-29	es	PPER	es	_	O	O	
+6-30	Ihnen	PPER	Sie	_	O	O	
+6-31	eilt	VVFIN	eilen	_	O	O	
+6-32	,	$,	,	_	O	O	
+6-33	zu	APPR	zu	_	O	O	
+6-34	noch	ADV	noch	_	O	O	
+6-35	anderen	PIAT	andere	_	O	O	
+6-36	Berlinern	NN	Berliner	_	O	O	
+6-37	nöthigen	NN	<unknown>	_	O	O	
+6-38	,	$,	,	_	O	O	
+6-39	deren	PRELAT	die	_	O	O	
+6-40	ich	PPER	ich	_	O	O	
+6-41	diesmal	ADV	diesmal	_	O	O	
+6-42	lieber	ADJD	lieb	_	O	O	
+6-43	entübrigt	VVPP	<unknown>	_	O	O	
+6-44	wäre	VAFIN	sein	_	O	O	
+6-45	.	$.	.	_	O	O	
+
+#id=7
+#text=Wie steht es mit des Köh- ~ets Artikel?
+7-1	Wie	KOUS	wie	_	O	O	
+7-2	steht	VVFIN	stehen	_	O	O	
+7-3	es	PPER	es	_	O	O	
+7-4	mit	APPR	mit	_	O	O	
+7-5	des	ART	die	_	O	O	
+7-6	Köh-	TRUNC	<unknown>	_	O	O	
+7-7	~ets	NN	<unknown>	_	O	O	
+7-8	Artikel	NN	Artikel	_	O	O	
+7-9	?	$.	?	_	O	O	
+
+#id=8
+#text=Dieser regsame Numismat der allzu wenig gelernt hat, macht sich hier mit einer numismatischen Gesellschaft geltend, deren erste Thaten Diplome praeside Tölker sind.
+8-1	Dieser	PDAT	dies	_	O	O	
+8-2	regsame	ADJA	regsam	_	O	O	
+8-3	Numismat	NE	<unknown>	_	O	O	
+8-4	der	ART	die	_	O	O	
+8-5	allzu	PTKA	allzu	_	O	O	
+8-6	wenig	ADV	wenig	_	O	O	
+8-7	gelernt	VVPP	lernen	_	O	O	
+8-8	hat	VAFIN	haben	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	macht	VVFIN	machen	_	O	O	
+8-11	sich	PRF	sich	_	O	O	
+8-12	hier	ADV	hier	_	O	O	
+8-13	mit	APPR	mit	_	O	O	
+8-14	einer	ART	eine	_	O	O	
+8-15	numismatischen	ADJA	numismatisch	_	O	O	
+8-16	Gesellschaft	NN	Gesellschaft	_	O	O	
+8-17	geltend	ADJD	geltend	_	O	O	
+8-18	,	$,	,	_	O	O	
+8-19	deren	PRELAT	die	_	O	O	
+8-20	erste	ADJA	erst	_	O	O	
+8-21	Thaten	NN	<unknown>	_	O	O	
+8-22	Diplome	NN	Diplom	_	O	O	
+8-23	praeside	NE	<unknown>	_	O	O	
+8-24	Tölker	NN	<unknown>	_	O	O	
+8-25	sind	VAFIN	sein	_	O	O	
+8-26	.	$.	.	_	O	O	
+
+#id=9
+#text=Preller über Becker thätig zu wissen ist sehr gut.
+9-1	Preller	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	über	APPR	über	_	O	O	
+9-3	Becker	NE	Becker	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-4	thätig	ADJD	<unknown>	_	O	O	
+9-5	zu	PTKZU	zu	_	O	O	
+9-6	wissen	VVINF	wissen	_	O	O	
+9-7	ist	VAFIN	sein	_	O	O	
+9-8	sehr	ADV	sehr	_	O	O	
+9-9	gut	ADJD	gut	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=prüßen Sie Canina; ich schreibe ihm nach ,Ankunft der Exemplare.
+10-1	prüßen	VVFIN	<unknown>	_	O	O	
+10-2	Sie	PPER	Sie	_	O	O	
+10-3	Canina	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-4	;	$.	;	_	O	O	
+10-5	ich	PPER	ich	_	O	O	
+10-6	schreibe	VVFIN	schreiben	_	O	O	
+10-7	ihm	PPER	er	_	O	O	
+10-8	nach	APPR	nach	_	O	O	
+10-9	,Ankunft	NN	<unknown>	_	O	O	
+10-10	der	ART	die	_	O	O	
+10-11	Exemplare	NN	Exemplar	_	O	O	
+10-12	.	$.	.	_	O	O	
+
+#id=11
+#text=Auch Campana und Gennarelli vergesse ich nicht; Pertz ist allzu oft für diesen von mir gemahnt
+11-1	Auch	ADV	auch	_	O	O	
+11-2	Campana	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-3	und	KON	und	_	O	O	
+11-4	Gennarelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-5	vergesse	VVFIN	vergessen	_	O	O	
+11-6	ich	PPER	ich	_	O	O	
+11-7	nicht	PTKNEG	nicht	_	O	O	
+11-8	;	$.	;	_	O	O	
+11-9	Pertz	NE	<unknown>	_	O	O	
+11-10	ist	VAFIN	sein	_	O	O	
+11-11	allzu	PTKA	allzu	_	O	O	
+11-12	oft	ADV	oft	_	O	O	
+11-13	für	APPR	für	_	O	O	
+11-14	diesen	PDAT	dies	_	O	O	
+11-15	von	APPR	von	_	O	O	
+11-16	mir	PPER	ich	_	O	O	
+11-17	gemahnt	VVPP	mahnen	_	O	O	
+

@@ -1,0 +1,86 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=3 Helbig an Henzen Neapel, 10. Juni 1864 Am Rande der dritten Seite Immer noch nichts Neues von Berlin?
+1-1	3	CARD	3	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Am	APPRART	an	_	O	O	
+1-12	Rande	NN	Rand	_	O	O	
+1-13	der	ART	die	_	O	O	
+1-14	dritten	ADJA	dritt	_	O	O	
+1-15	Seite	NN	Seite	_	O	O	
+1-16	Immer	ADV	immer	_	O	O	
+1-17	noch	ADV	noch	_	O	O	
+1-18	nichts	PIAT	nichts	_	O	O	
+1-19	Neues	NN	Neue	_	O	O	
+1-20	von	APPR	von	_	O	O	
+1-21	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-22	?	$.	?	_	O	O	
+
+#id=2
+#text=Aus guter Quelle weiß ich, daß eine Stelle in Brunns Scavibericht ( Bull. 1863 p. 107 ), wo es von der conseguenza dello stato politico die Rede ist, namentlich in Turin benuhst tet worden ist, um das Institut zu discreditiren.
+2-1	Aus	APPR	aus	_	O	O	
+2-2	guter	ADJA	gut	_	O	O	
+2-3	Quelle	NN	Quelle	_	O	O	
+2-4	weiß	VVFIN	wissen	_	O	O	
+2-5	ich	PPER	ich	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	daß	KOUS	dass	_	O	O	
+2-8	eine	ART	eine	_	O	O	
+2-9	Stelle	NN	Stelle	_	O	O	
+2-10	in	APPR	in	_	O	O	
+2-11	Brunns	NN	Brunn	_	O	O	
+2-12	Scavibericht	NN	<unknown>	_	O	O	
+2-13	(	$(	(	_	O	O	
+2-14	Bull	NE	Bull	_	O	O	
+2-15	.	$.	.	_	O	O	
+2-16	1863	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-17	p.	APPR	p.	_	O	O	
+2-18	107	CARD	@card@	_	O	O	
+2-19	)	$(	)	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	wo	PWAV	wo	_	O	O	
+2-22	es	PPER	es	_	O	O	
+2-23	von	APPR	von	_	O	O	
+2-24	der	ART	die	_	O	O	
+2-25	conseguenza	NE	<unknown>	_	O	O	
+2-26	dello	NE	<unknown>	_	O	O	
+2-27	stato	NE	<unknown>	_	O	O	
+2-28	politico	NE	<unknown>	_	O	O	
+2-29	die	ART	die	_	O	O	
+2-30	Rede	NN	Rede	_	O	O	
+2-31	ist	VAFIN	sein	_	O	O	
+2-32	,	$,	,	_	O	O	
+2-33	namentlich	ADJD	namentlich	_	O	O	
+2-34	in	APPR	in	_	O	O	
+2-35	Turin	NE	Turin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-36	benuhst	VVFIN	<unknown>	_	O	O	
+2-37	tet	ADJD	<unknown>	_	O	O	
+2-38	worden	VAPP	werden	_	O	O	
+2-39	ist	VAFIN	sein	_	O	O	
+2-40	,	$,	,	_	O	O	
+2-41	um	KOUI	um	_	O	O	
+2-42	das	ART	die	_	O	O	
+2-43	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-44	zu	PTKA	zu	_	O	O	
+2-45	discreditiren	ADJD	<unknown>	_	O	O	
+2-46	.	$.	.	_	O	O	
+
+#id=4
+#text=Jedenfalls hat sich Brunn etwas unbedachtsam ausgedrückt.
+4-1	Jedenfalls	ADV	jedenfalls	_	O	O	
+4-2	hat	VAFIN	haben	_	O	O	
+4-3	sich	PRF	sich	_	O	O	
+4-4	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	etwas	ADV	etwas	_	O	O	
+4-6	unbedachtsam	ADJD	<unknown>	_	O	O	
+4-7	ausgedrückt	VVPP	ausdrücken	_	O	O	
+4-8	.	$.	.	_	O	O	
+

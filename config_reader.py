@@ -15,7 +15,7 @@ class ProjectCofiguration():
         self.webanno_project_id = self._json["webanno_project_id"]
         self.authentication = (self._username, self._password)
 
-        self.preprocessing_regexp = self._json["preprocessing_regexp"]
+        self.preprocessing_regexp = os.path.join(self.project_root, self._json["preprocessing_regexp"])
         self.sentence_tokenizer = self._json["sentence_tokenizer"]
         self.template = self._json["feature_template"]
 

@@ -1,0 +1,210 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=4 Gerhard an Braun Florenz, 25. März 1846 Notice das ich allernfalls in Art eines Thatsachenbüchleins und unter Ihren Namen es in Deutschland könne besorgen lassen.
+1-1	4	CARD	4	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Notice	VVFIN	<unknown>	_	O	O	
+1-12	das	PDS	die	_	O	O	
+1-13	ich	PPER	ich	_	O	O	
+1-14	allernfalls	ADV	<unknown>	_	O	O	
+1-15	in	APPR	in	_	O	O	
+1-16	Art	NN	Art	_	O	O	
+1-17	eines	ART	eine	_	O	O	
+1-18	Thatsachenbüchleins	NN	<unknown>	_	O	O	
+1-19	und	KON	und	_	O	O	
+1-20	unter	APPR	unter	_	O	O	
+1-21	Ihren	PPOSAT	ihr	_	O	O	
+1-22	Namen	NN	Name	_	O	O	
+1-23	es	PPER	es	_	O	O	
+1-24	in	APPR	in	_	O	O	
+1-25	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-26	könne	VMFIN	können	_	O	O	
+1-27	besorgen	VVINF	besorgen	_	O	O	
+1-28	lassen	VVINF	lassen	_	O	O	
+1-29	.	$.	.	_	O	O	
+
+#id=2
+#text=Überhaupt bitte ich wenn Sie mir schreiben den zurückgelassenen Desiderienzettel einzusehen.
+2-1	Überhaupt	ADV	überhaupt	_	O	O	
+2-2	bitte	VVFIN	bitten	_	O	O	
+2-3	ich	PPER	ich	_	O	O	
+2-4	wenn	KOUS	wenn	_	O	O	
+2-5	Sie	PPER	Sie	_	O	O	
+2-6	mir	PPER	ich	_	O	O	
+2-7	schreiben	VVFIN	schreiben	_	O	O	
+2-8	den	ART	die	_	O	O	
+2-9	zurückgelassenen	ADJA	zurückgelassen	_	O	O	
+2-10	Desiderienzettel	NN	<unknown>	_	O	O	
+2-11	einzusehen	VVIZU	einsehen	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Vergessen Sie mir auch Zeichnungen und Notiz Ihrer verkäuflichen Sculpturen nicht.
+3-1	Vergessen	VVFIN	vergessen	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	mir	PRF	ich	_	O	O	
+3-4	auch	ADV	auch	_	O	O	
+3-5	Zeichnungen	NN	Zeichnung	_	O	O	
+3-6	und	KON	und	_	O	O	
+3-7	Notiz	NN	Notiz	_	O	O	
+3-8	Ihrer	PPOSAT	ihr	_	O	O	
+3-9	verkäuflichen	ADJA	verkäuflich	_	O	O	
+3-10	Sculpturen	NN	<unknown>	_	O	O	
+3-11	nicht	PTKNEG	nicht	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Was ich an Lanci schreibe lasse ich Ihnen offen zugehn; vielleicht ist es nicht übel eine Abschrift davon unter Obigem zurückzubehalten.
+4-1	Was	PWS	was	_	O	O	
+4-2	ich	PPER	ich	_	O	O	
+4-3	an	APPR	an	_	O	O	
+4-4	Lanci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	schreibe	VVFIN	schreiben	_	O	O	
+4-6	lasse	VVFIN	lassen	_	O	O	
+4-7	ich	PPER	ich	_	O	O	
+4-8	Ihnen	PPER	Sie	_	O	O	
+4-9	offen	ADJD	offen	_	O	O	
+4-10	zugehn	VVFIN	<unknown>	_	O	O	
+4-11	;	$.	;	_	O	O	
+4-12	vielleicht	ADV	vielleicht	_	O	O	
+4-13	ist	VAFIN	sein	_	O	O	
+4-14	es	PPER	es	_	O	O	
+4-15	nicht	PTKNEG	nicht	_	O	O	
+4-16	übel	ADJD	übel	_	O	O	
+4-17	eine	ART	eine	_	O	O	
+4-18	Abschrift	NN	Abschrift	_	O	O	
+4-19	davon	PAV	davon	_	O	O	
+4-20	unter	APPR	unter	_	O	O	
+4-21	Obigem	NN	<unknown>	_	O	O	
+4-22	zurückzubehalten	VVIZU	zurückbehalten	_	O	O	
+4-23	.	$.	.	_	O	O	
+
+#id=5
+#text=Quer am Rande dazu bemerkt : Kann auch ungelesen verklebt an ihn abgehn, wenn Sie es vorziehen.
+5-1	Quer	ADJD	quer	_	O	O	
+5-2	am	APPRART	an	_	O	O	
+5-3	Rande	NN	Rand	_	O	O	
+5-4	dazu	PAV	dazu	_	O	O	
+5-5	bemerkt	VVPP	bemerken	_	O	O	
+5-6	:	$.	:	_	O	O	
+5-7	Kann	VMFIN	können	_	O	O	
+5-8	auch	ADV	auch	_	O	O	
+5-9	ungelesen	ADJD	<unknown>	_	O	O	
+5-10	verklebt	VVPP	verkleben	_	O	O	
+5-11	an	APPR	an	_	O	O	
+5-12	ihn	PPER	er	_	O	O	
+5-13	abgehn	VVPP	<unknown>	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	wenn	KOUS	wenn	_	O	O	
+5-16	Sie	PPER	Sie	_	O	O	
+5-17	es	PPER	es	_	O	O	
+5-18	vorziehen	VVFIN	vorziehen	_	O	O	
+5-19	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich glaube die Sache liegt Ihnen jetzt mit Leichtigkeit vor beide Ämter Lanci'n zu überlassen haben Sie als unausführbar abgelehnt - , es b!eibt dabei sobald Sie erklären daß Sie die Verantwortlichkeit terminmäßig Stampe und Bilancio abzuliefern nach den Erfahrungen der letzten Jahre höchstens für Sich, nicht aber für Lanci zugleich übernehmen können.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	glaube	VVFIN	glauben	_	O	O	
+6-3	die	ART	die	_	O	O	
+6-4	Sache	NN	Sache	_	O	O	
+6-5	liegt	VVFIN	liegen	_	O	O	
+6-6	Ihnen	PPER	Sie	_	O	O	
+6-7	jetzt	ADV	jetzt	_	O	O	
+6-8	mit	APPR	mit	_	O	O	
+6-9	Leichtigkeit	NN	Leichtigkeit	_	O	O	
+6-10	vor	APPR	vor	_	O	O	
+6-11	beide	PIAT	beide	_	O	O	
+6-12	Ämter	NN	Amt	_	O	O	
+6-13	Lanci'n	NE	<unknown>	_	O	O	
+6-14	zu	PTKZU	zu	_	O	O	
+6-15	überlassen	VVINF	überlassen	_	O	O	
+6-16	haben	VAFIN	haben	_	O	O	
+6-17	Sie	PPER	Sie	_	O	O	
+6-18	als	KOKOM	als	_	O	O	
+6-19	unausführbar	ADJD	unausführbar	_	O	O	
+6-20	abgelehnt	VVPP	ablehnen	_	O	O	
+6-21	-	$(	-	_	O	O	
+6-22	,	$,	,	_	O	O	
+6-23	es	PPER	es	_	O	O	
+6-24	b	VVFIN	<unknown>	_	O	O	
+6-25	!	$.	!	_	O	O	
+6-26	eibt	ADJD	<unknown>	_	O	O	
+6-27	dabei	PAV	dabei	_	O	O	
+6-28	sobald	KOUS	sobald	_	O	O	
+6-29	Sie	PPER	Sie	_	O	O	
+6-30	erklären	VVFIN	erklären	_	O	O	
+6-31	daß	KOUS	dass	_	O	O	
+6-32	Sie	PPER	Sie	_	O	O	
+6-33	die	ART	die	_	O	O	
+6-34	Verantwortlichkeit	NN	Verantwortlichkeit	_	O	O	
+6-35	terminmäßig	ADJD	<unknown>	_	O	O	
+6-36	Stampe	NN	<unknown>	_	O	O	
+6-37	und	KON	und	_	O	O	
+6-38	Bilancio	NN	<unknown>	_	O	O	
+6-39	abzuliefern	VVIZU	abliefern	_	O	O	
+6-40	nach	APPR	nach	_	O	O	
+6-41	den	ART	die	_	O	O	
+6-42	Erfahrungen	NN	Erfahrung	_	O	O	
+6-43	der	ART	die	_	O	O	
+6-44	letzten	ADJA	letzt	_	O	O	
+6-45	Jahre	NN	Jahr	_	O	O	
+6-46	höchstens	ADV	höchstens	_	O	O	
+6-47	für	APPR	für	_	O	O	
+6-48	Sich	PRF	sich	_	O	O	
+6-49	,	$,	,	_	O	O	
+6-50	nicht	PTKNEG	nicht	_	O	O	
+6-51	aber	ADV	aber	_	O	O	
+6-52	für	APPR	für	_	O	O	
+6-53	Lanci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-54	zugleich	ADV	zugleich	_	O	O	
+6-55	übernehmen	VVINF	übernehmen	_	O	O	
+6-56	können	VMFIN	können	_	O	O	
+6-57	.	$.	.	_	O	O	
+
+#id=7
+#text=Etwas Ostensibles aber von Ihrer Hand in Bezug auf die obigen Aktenstücke bedarf ich.
+7-1	Etwas	PIAT	etwas	_	O	O	
+7-2	Ostensibles	NN	<unknown>	_	O	O	
+7-3	aber	ADV	aber	_	O	O	
+7-4	von	APPR	von	_	O	O	
+7-5	Ihrer	PPOSAT	ihr	_	O	O	
+7-6	Hand	NN	Hand	_	O	O	
+7-7	in	APPR	in	_	O	O	
+7-8	Bezug	NN	Bezug	_	O	O	
+7-9	auf	APPR	auf	_	O	O	
+7-10	die	ART	die	_	O	O	
+7-11	obigen	ADJA	obig	_	O	O	
+7-12	Aktenstücke	NN	Aktenstück	_	O	O	
+7-13	bedarf	VVFIN	bedürfen	_	O	O	
+7-14	ich	PPER	ich	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=Schreiben Sie mir nach Frankfurt (Kurhessische Gesandtschaft) wo ich vom 6.ten bis 12.ten sein werde.
+8-1	Schreiben	VVFIN	schreiben	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	mir	PRF	ich	_	O	O	
+8-4	nach	APPR	nach	_	O	O	
+8-5	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-6	(	$(	(	_	O	O	
+8-7	Kurhessische	ADJA	kurhessisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-8	Gesandtschaft	NN	Gesandtschaft	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+8-9	)	$(	)	_	O	O	
+8-10	wo	PWAV	wo	_	O	O	
+8-11	ich	PPER	ich	_	O	O	
+8-12	vom	APPRART	von	_	O	O	
+8-13	6.ten	ADJA	<unknown>	_	O	O	
+8-14	bis	KON	bis	_	O	O	
+8-15	12.ten	ADJA	<unknown>	_	O	O	
+8-16	sein	VAINF	sein	_	O	O	
+8-17	werde	VAFIN	werden	_	O	O	
+8-18	.	$.	.	_	O	O	
+

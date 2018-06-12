@@ -1,0 +1,285 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=~J~~Xmi:ffi.~ ~~ 9 4/VII/52 ilenzen an Gerhard Verehrter Herr Professor Obwohl ich auf Ihre beiden Briefe vom 13 u. 21 tn v. M. Nichts zu erwidern habe, das Wesentliche dh.
+1-1	~J~~Xmi:ffi.~	ADJA	<unknown>	_	O	O	
+1-2	~~	NN	<unknown>	_	O	O	
+1-3	9	CARD	9	_	O	O	
+1-4	4/VII/52	CARD	<unknown>	_	O	O	
+1-5	ilenzen	NN	<unknown>	_	O	O	
+1-6	an	APPR	an	_	O	O	
+1-7	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Verehrter	ADJA	verehrt	_	O	O	
+1-9	Herr	NN	Herr	_	O	O	
+1-10	Professor	NN	Professor	_	O	O	
+1-11	Obwohl	KOUS	obwohl	_	O	O	
+1-12	ich	PPER	ich	_	O	O	
+1-13	auf	APPR	auf	_	O	O	
+1-14	Ihre	PPOSAT	ihr	_	O	O	
+1-15	beiden	PIAT	beide	_	O	O	
+1-16	Briefe	NN	Brief	_	O	O	
+1-17	vom	APPRART	von	_	O	O	
+1-18	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-19	u.	KON	und	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-20	21	CARD	21	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-21	tn	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-22	v.	APPR	von	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-23	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-24	Nichts	PIS	nichts	_	O	O	
+1-25	zu	PTKZU	zu	_	O	O	
+1-26	erwidern	VVINF	erwidern	_	O	O	
+1-27	habe	VAFIN	haben	_	O	O	
+1-28	,	$,	,	_	O	O	
+1-29	das	ART	die	_	O	O	
+1-30	Wesentliche	NN	Wesentliche	_	O	O	
+1-31	dh.	NE	<unknown>	_	O	O	
+
+#id=2
+#text=meinen letzten Brief aus Rom abgethan ist, so will ich doch nicht länger zögern, Ihnen zu schreiben, da Sie u. Ihre Frau Gemahlin über das ..t.rgehen meiner Frau beunruhigt sein werden, die Gottlob hier draußen bald auf den Weg der Genesung gekommen ist.
+2-1	meinen	PPOSAT	mein	_	O	O	
+2-2	letzten	ADJA	letzt	_	O	O	
+2-3	Brief	NN	Brief	_	O	O	
+2-4	aus	APPR	aus	_	O	O	
+2-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-6	abgethan	VVPP	<unknown>	_	O	O	
+2-7	ist	VAFIN	sein	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	so	ADV	so	_	O	O	
+2-10	will	VMFIN	wollen	_	O	O	
+2-11	ich	PPER	ich	_	O	O	
+2-12	doch	ADV	doch	_	O	O	
+2-13	nicht	PTKNEG	nicht	_	O	O	
+2-14	länger	ADJD	lang	_	O	O	
+2-15	zögern	VVINF	zögern	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	Ihnen	PPER	Sie	_	O	O	
+2-18	zu	PTKZU	zu	_	O	O	
+2-19	schreiben	VVINF	schreiben	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	da	KOUS	da	_	O	O	
+2-22	Sie	PPER	Sie	_	O	O	
+2-23	u.	APPR	um	_	O	O	
+2-24	Ihre	PPOSAT	ihr	_	O	O	
+2-25	Frau	NN	Frau	_	O	O	
+2-26	Gemahlin	NN	Gemahlin	_	O	O	
+2-27	über	APPR	über	_	O	O	
+2-28	das	ART	die	_	O	O	
+2-29	..t.rgehen	NN	<unknown>	_	O	O	
+2-30	meiner	PPOSAT	mein	_	O	O	
+2-31	Frau	NN	Frau	_	O	O	
+2-32	beunruhigt	VVPP	beunruhigen	_	O	O	
+2-33	sein	VAINF	sein	_	O	O	
+2-34	werden	VAFIN	werden	_	O	O	
+2-35	,	$,	,	_	O	O	
+2-36	die	ART	die	_	O	O	
+2-37	Gottlob	NN	Gottlob	_	O	O	
+2-38	hier	ADV	hier	_	O	O	
+2-39	draußen	ADV	draußen	_	O	O	
+2-40	bald	ADV	bald	_	O	O	
+2-41	auf	APPR	auf	_	O	O	
+2-42	den	ART	die	_	O	O	
+2-43	Weg	NN	Weg	_	O	O	
+2-44	der	ART	die	_	O	O	
+2-45	Genesung	NN	Genesung	_	O	O	
+2-46	gekommen	VVPP	kommen	_	O	O	
+2-47	ist	VAFIN	sein	_	O	O	
+2-48	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Etruria mBrittima kostet jeder Band 15 Scudi.
+3-1	Die	ART	die	_	O	O	
+3-2	Etruria	NE	<unknown>	_	O	O	
+3-3	mBrittima	NE	<unknown>	_	O	O	
+3-4	kostet	VVFIN	kosten	_	O	O	
+3-5	jeder	PIAT	jede	_	O	O	
+3-6	Band	NN	Band	_	O	O	
+3-7	15	CARD	15	_	O	O	
+3-8	Scudi	NN	<unknown>	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Wann Brunn fortkommt, ist nicht abzusehen; er schleppt sich immer aufs Neue weiter.
+4-1	Wann	PWAV	wann	_	O	O	
+4-2	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	fortkommt	VVFIN	fortkommen	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	ist	VAFIN	sein	_	O	O	
+4-6	nicht	PTKNEG	nicht	_	O	O	
+4-7	abzusehen	VVIZU	absehen	_	O	O	
+4-8	;	$.	;	_	O	O	
+4-9	er	PPER	er	_	O	O	
+4-10	schleppt	VVFIN	schleppen	_	O	O	
+4-11	sich	PRF	sich	_	O	O	
+4-12	immer	ADV	immer	_	O	O	
+4-13	aufs	APPRART	aufs	_	O	O	
+4-14	Neue	NN	Neue	_	O	O	
+4-15	weiter	PTKVZ	weiter	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Von Sommer u. Herbst ist keine Rede; wollen hoffen, dß.
+5-1	Von	APPR	von	_	O	O	
+5-2	Sommer	NN	Sommer	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	u.	APPR	um	_	O	O	
+5-4	Herbst	NN	Herbst	_	O	O	
+5-5	ist	VAFIN	sein	_	O	O	
+5-6	keine	PIAT	keine	_	O	O	
+5-7	Rede	NN	Rede	_	O	O	
+5-8	;	$.	;	_	O	O	
+5-9	wollen	VMFIN	wollen	_	O	O	
+5-10	hoffen	VVINF	hoffen	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	dß	VVFIN	<unknown>	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=im Winter etwas daraus wird.
+6-1	im	APPRART	in	_	O	O	
+6-2	Winter	NN	Winter	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-3	etwas	ADV	etwas	_	O	O	
+6-4	daraus	PAV	daraus	_	O	O	
+6-5	wird	VAFIN	werden	_	O	O	
+6-6	.	$.	.	_	O	O	
+
+#id=7
+#text=Solle 0 buk nach Frag kommen, so würde ich übrir;ens sehr dafUr sein, ist er dse. ganze, leider so lange ausposaunte Reise Bufst ck u. statt issen nach Bonn gehn, wo Ritschls u. Welckers ihm noch arr ehesten zu etwas verhilft.
+7-1	Solle	VMFIN	sollen	_	O	O	
+7-2	0	CARD	@card@	_	O	O	
+7-3	buk	VVFIN	backen	_	O	O	
+7-4	nach	APPR	nach	_	O	O	
+7-5	Frag	NN	<unknown>	_	O	O	
+7-6	kommen	VVINF	kommen	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	so	ADV	so	_	O	O	
+7-9	würde	VAFIN	werden	_	O	O	
+7-10	ich	PPER	ich	_	O	O	
+7-11	übrir	NE	<unknown>	_	O	O	
+7-12	;	$.	;	_	O	O	
+7-13	ens	ADJD	<unknown>	_	O	O	
+7-14	sehr	ADV	sehr	_	O	O	
+7-15	dafUr	ADV	<unknown>	_	O	O	
+7-16	sein	VAINF	sein	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	ist	VAFIN	sein	_	O	O	
+7-19	er	PPER	er	_	O	O	
+7-20	dse	ADJD	<unknown>	_	O	O	
+7-21	.	$.	.	_	O	O	
+7-22	ganze	ADJA	ganz	_	O	O	
+7-23	,	$,	,	_	O	O	
+7-24	leider	ADV	leider	_	O	O	
+7-25	so	ADV	so	_	O	O	
+7-26	lange	ADV	lange	_	O	O	
+7-27	ausposaunte	ADJA	ausposaunt	_	O	O	
+7-28	Reise	NN	Reise	_	O	O	
+7-29	Bufst	VVFIN	<unknown>	_	O	O	
+7-30	ck	NN	<unknown>	_	O	O	
+7-31	u.	APPR	um	_	O	O	
+7-32	statt	APPR	statt	_	O	O	
+7-33	issen	NN	<unknown>	_	O	O	
+7-34	nach	APPR	nach	_	O	O	
+7-35	Bonn	NE	Bonn	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-36	gehn	VVFIN	<unknown>	_	O	O	
+7-37	,	$,	,	_	O	O	
+7-38	wo	PWAV	wo	_	O	O	
+7-39	Ritschls	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-40	u.	APPR	um	_	O	O	
+7-41	Welckers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-42	ihm	PPER	er	_	O	O	
+7-43	noch	ADV	noch	_	O	O	
+7-44	arr	ADJD	<unknown>	_	O	O	
+7-45	ehesten	ADJD	ehesten	_	O	O	
+7-46	zu	APPR	zu	_	O	O	
+7-47	etwas	ADV	etwas	_	O	O	
+7-48	verhilft	VVFIN	verhelfen	_	O	O	
+7-49	.	$.	.	_	O	O	
+
+#id=8
+#text=Recht gllickliche Reise, viel Vergnügen, gutes Wetter u. Erfolg für die Gesundheit.
+8-1	Recht	ADJD	recht	_	O	O	
+8-2	gllickliche	ADJA	<unknown>	_	O	O	
+8-3	Reise	NN	Reise	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	viel	PIAT	viele	_	O	O	
+8-6	Vergnügen	NN	Vergnügen	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	gutes	ADJA	gut	_	O	O	
+8-9	Wetter	NN	Wetter	_	O	O	
+8-10	u.	APPR	um	_	O	O	
+8-11	Erfolg	NN	Erfolg	_	O	O	
+8-12	für	APPR	für	_	O	O	
+8-13	die	ART	die	_	O	O	
+8-14	Gesundheit	NN	Gesundheit	_	O	O	
+8-15	.	$.	.	_	O	O	
+
+#id=9
+#text=Albano ist eine recht langweilige Villeggiatur, das Arheiten geht schlecht, da ein armer Epigraphiker ohne Folianten verloren ist, u. das Uebersetzen scher Aufsätze für die rlnnalen kann auch eben nicht als Zeitvertreib bezeichnen, da Einem vielmehr die Zeit recht lang dabei wird.
+9-1	Albano	NE	Albano	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	eine	ART	eine	_	O	O	
+9-4	recht	ADJD	recht	_	O	O	
+9-5	langweilige	ADJA	langweilig	_	O	O	
+9-6	Villeggiatur	NN	<unknown>	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	das	ART	die	_	O	O	
+9-9	Arheiten	NN	<unknown>	_	O	O	
+9-10	geht	VVFIN	gehen	_	O	O	
+9-11	schlecht	ADJD	schlecht	_	O	O	
+9-12	,	$,	,	_	O	O	
+9-13	da	KOUS	da	_	O	O	
+9-14	ein	ART	eine	_	O	O	
+9-15	armer	ADJA	arm	_	O	O	
+9-16	Epigraphiker	NN	<unknown>	_	O	O	
+9-17	ohne	APPR	ohne	_	O	O	
+9-18	Folianten	NN	Foliant	_	O	O	
+9-19	verloren	VVPP	verlieren	_	O	O	
+9-20	ist	VAFIN	sein	_	O	O	
+9-21	,	$,	,	_	O	O	
+9-22	u.	APPR	um	_	O	O	
+9-23	das	ART	die	_	O	O	
+9-24	Uebersetzen	NN	<unknown>	_	O	O	
+9-25	scher	VVIMP	scheren	_	O	O	
+9-26	Aufsätze	NN	Aufsatz	_	O	O	
+9-27	für	APPR	für	_	O	O	
+9-28	die	ART	die	_	O	O	
+9-29	rlnnalen	NN	<unknown>	_	O	O	
+9-30	kann	VMFIN	können	_	O	O	
+9-31	auch	ADV	auch	_	O	O	
+9-32	eben	ADV	eben	_	O	O	
+9-33	nicht	PTKNEG	nicht	_	O	O	
+9-34	als	KOKOM	als	_	O	O	
+9-35	Zeitvertreib	NN	Zeitvertreib	_	O	O	
+9-36	bezeichnen	VVINF	bezeichnen	_	O	O	
+9-37	,	$,	,	_	O	O	
+9-38	da	KOUS	da	_	O	O	
+9-39	Einem	PIS	eine	_	O	O	
+9-40	vielmehr	ADV	vielmehr	_	O	O	
+9-41	die	ART	die	_	O	O	
+9-42	Zeit	NN	Zeit	_	O	O	
+9-43	recht	ADJD	recht	_	O	O	
+9-44	lang	ADJD	lang	_	O	O	
+9-45	dabei	PAV	dabei	_	O	O	
+9-46	wird	VAFIN	werden	_	O	O	
+9-47	.	$.	.	_	O	O	
+
+#id=10
+#text=Leben Sie recht wohl u. empfehlen 0ie mich Ihrer Frau Gemahlin bestens.
+10-1	Leben	VVFIN	leben	_	O	O	
+10-2	Sie	PPER	Sie	_	O	O	
+10-3	recht	ADJD	recht	_	O	O	
+10-4	wohl	ADV	wohl	_	O	O	
+10-5	u.	KON	und	_	O	O	
+10-6	empfehlen	VVINF	empfehlen	_	O	O	
+10-7	0ie	VVFIN	<unknown>	_	O	O	
+10-8	mich	PRF	ich	_	O	O	
+10-9	Ihrer	PPOSAT	ihr	_	O	O	
+10-10	Frau	NN	Frau	_	O	O	
+10-11	Gemahlin	NN	Gemahlin	_	O	O	
+10-12	bestens	ADV	bestens	_	O	O	
+10-13	.	$.	.	_	O	O	
+
+#id=11
+#text=Ihr WHenzen Albano 4/VII/52
+11-1	Ihr	PPOSAT	ihr	_	O	O	
+11-2	WHenzen	NN	<unknown>	_	O	O	
+11-3	Albano	NE	Albano	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-4	4/VII/52	CARD	<unknown>	_	O	O	
+

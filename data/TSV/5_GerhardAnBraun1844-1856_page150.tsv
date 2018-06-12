@@ -1,0 +1,217 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=236 A. d. Dir.
+1-1	236	CARD	@card@	_	O	O	
+1-2	A.	APPR	an	_	O	O	
+1-3	d.	ART	d.	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Dr. Braun Mein theurer Freund.
+2-1	Dr.	NN	Dr.	_	O	O	
+2-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-3	Mein	PPOSAT	mein	_	O	O	
+2-4	theurer	ADJA	<unknown>	_	O	O	
+2-5	Freund	NN	Freund	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Braun Berlin, 5. Juli 1845 g. 17/VII 45 r. 18/VII 45 Berlin 5 Juli 45 Ich erwarte den Wechsel von 150 rt ohne welchen dieser Brief nicht abgehen soll.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	an	APPR	an	_	O	O	
+3-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-5	,	$,	,	_	O	O	
+3-6	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-10	g.	VVFIN	<unknown>	_	O	O	
+3-11	17/VII	NE	<unknown>	_	O	O	
+3-12	45	CARD	45	_	O	O	
+3-13	r.	ADJA	<unknown>	_	O	O	
+3-14	18/VII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-15	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-17	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-18	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-19	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-20	Ich	PPER	ich	_	O	O	
+3-21	erwarte	VVFIN	erwarten	_	O	O	
+3-22	den	ART	die	_	O	O	
+3-23	Wechsel	NN	Wechsel	_	O	O	
+3-24	von	APPR	von	_	O	O	
+3-25	150	CARD	150	_	O	O	
+3-26	rt	NN	<unknown>	_	O	O	
+3-27	ohne	APPR	ohne	_	O	O	
+3-28	welchen	PIS	welche	_	O	O	
+3-29	dieser	PDAT	dies	_	O	O	
+3-30	Brief	NN	Brief	_	O	O	
+3-31	nicht	PTKNEG	nicht	_	O	O	
+3-32	abgehen	VVINF	abgehen	_	O	O	
+3-33	soll	VMFIN	sollen	_	O	O	
+3-34	.	$.	.	_	O	O	
+
+#id=4
+#text=Die übrigen 50 rt warten auf den Th.~hnikus • Ein neuer Epigraph der dem französischen Corpus auch Rathschläge der Eintheilung gibt ist im jungen Zumpt erstanden der über lavinische und laurentinische Inschriften geschrieben hat.
+4-1	Die	ART	die	_	O	O	
+4-2	übrigen	ADJA	übrig	_	O	O	
+4-3	50	CARD	50	_	O	O	
+4-4	rt	NN	<unknown>	_	O	O	
+4-5	warten	VVFIN	warten	_	O	O	
+4-6	auf	APPR	auf	_	O	O	
+4-7	den	ART	die	_	O	O	
+4-8	Th.~hnikus	NE	<unknown>	_	O	O	
+4-9	•	NN	<unknown>	_	O	O	
+4-10	Ein	ART	eine	_	O	O	
+4-11	neuer	ADJA	neu	_	O	O	
+4-12	Epigraph	NN	<unknown>	_	O	O	
+4-13	der	ART	die	_	O	O	
+4-14	dem	ART	die	_	O	O	
+4-15	französischen	ADJA	französisch	_	O	O	
+4-16	Corpus	NN	Corpus	_	O	O	
+4-17	auch	ADV	auch	_	O	O	
+4-18	Rathschläge	NN	<unknown>	_	O	O	
+4-19	der	ART	die	_	O	O	
+4-20	Eintheilung	NN	<unknown>	_	O	O	
+4-21	gibt	VVFIN	geben	_	O	O	
+4-22	ist	VAFIN	sein	_	O	O	
+4-23	im	APPRART	in	_	O	O	
+4-24	jungen	ADJA	jung	_	O	O	
+4-25	Zumpt	NN	<unknown>	_	O	O	
+4-26	erstanden	VVFIN	erstehen	_	O	O	
+4-27	der	ART	die	_	O	O	
+4-28	über	APPR	über	_	O	O	
+4-29	lavinische	ADJA	<unknown>	_	O	O	
+4-30	und	KON	und	_	O	O	
+4-31	laurentinische	ADJA	<unknown>	_	O	O	
+4-32	Inschriften	NN	Inschrift	_	O	O	
+4-33	geschrieben	VVPP	schreiben	_	O	O	
+4-34	hat	VAFIN	haben	_	O	O	
+4-35	.	$.	.	_	O	O	
+
+#id=5
+#text=Wer hat den Artikel über die Fran~ois'sche Vase in der Allgemeinen Zeitung abgefaßt ?
+5-1	Wer	PWS	wer	_	O	O	
+5-2	hat	VAFIN	haben	_	O	O	
+5-3	den	ART	die	_	O	O	
+5-4	Artikel	NN	Artikel	_	O	O	
+5-5	über	APPR	über	_	O	O	
+5-6	die	ART	die	_	O	O	
+5-7	Fran~ois'sche	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-8	Vase	NN	Vase	_	I-webanno.custom.LetterEntity_	I-OBJ	
+5-9	in	APPR	in	_	O	O	
+5-10	der	ART	die	_	O	O	
+5-11	Allgemeinen	ADJA	allgemein	_	O	O	
+5-12	Zeitung	NN	Zeitung	_	O	O	
+5-13	abgefaßt	VVPP	abfassen	_	O	O	
+5-14	?	$.	?	_	O	O	
+
+#id=6
+#text=Die Xev~yVase Millingen Paint pI 51 Müller Denkmäler I, 10 kennen Sie nicht?
+6-1	Die	ART	die	_	O	O	
+6-2	Xev~yVase	NN	<unknown>	_	O	O	
+6-3	Millingen	NN	<unknown>	_	O	O	
+6-4	Paint	NE	<unknown>	_	O	O	
+6-5	pI	NN	Pi	_	O	O	
+6-6	51	CARD	@card@	_	O	O	
+6-7	Müller	NN	Müller	_	O	O	
+6-8	Denkmäler	NN	Denkmal	_	O	O	
+6-9	I	FM	I	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	10	CARD	10	_	O	O	
+6-12	kennen	VVFIN	kennen	_	O	O	
+6-13	Sie	PPER	Sie	_	O	O	
+6-14	nicht	PTKNEG	nicht	_	O	O	
+6-15	?	$.	?	_	O	O	
+
+#id=7
+#text=Aus Wien werde ich jedoch versichert, daß IHfAN falsch und AOEtlN vermuthlich 10 ( NEO.
+7-1	Aus	APPR	aus	_	O	O	
+7-2	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-3	werde	VAFIN	werden	_	O	O	
+7-4	ich	PPER	ich	_	O	O	
+7-5	jedoch	ADV	jedoch	_	O	O	
+7-6	versichert	VVPP	versichern	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	daß	KOUS	dass	_	O	O	
+7-9	IHfAN	NN	<unknown>	_	O	O	
+7-10	falsch	ADJD	falsch	_	O	O	
+7-11	und	KON	und	_	O	O	
+7-12	AOEtlN	ADJD	<unknown>	_	O	O	
+7-13	vermuthlich	ADJD	<unknown>	_	O	O	
+7-14	10	CARD	10	_	O	O	
+7-15	(	$(	(	_	O	O	
+7-16	NEO	NN	<unknown>	_	O	O	
+7-17	.	$.	.	_	O	O	
+
+#id=8
+#text=€) das richtige sei.
+8-1	€	NN	<unknown>	_	O	O	
+8-2	)	$(	)	_	O	O	
+8-3	das	ART	die	_	O	O	
+8-4	richtige	ADJA	richtig	_	O	O	
+8-5	sei	VAFIN	sein	_	O	O	
+8-6	.	$.	.	_	O	O	
+
+#id=9
+#text=Vinet wird votirt; der Brief an Rathgeber ist befördert, auch der an Bergk.
+9-1	Vinet	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	wird	VAFIN	werden	_	O	O	
+9-3	votirt	VVPP	<unknown>	_	O	O	
+9-4	;	$.	;	_	O	O	
+9-5	der	ART	die	_	O	O	
+9-6	Brief	NN	Brief	_	O	O	
+9-7	an	APPR	an	_	O	O	
+9-8	Rathgeber	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-9	ist	VAFIN	sein	_	O	O	
+9-10	befördert	VVPP	befördern	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	auch	ADV	auch	_	O	O	
+9-13	der	ART	die	_	O	O	
+9-14	an	APPR	an	_	O	O	
+9-15	Bergk	NN	<unknown>	_	O	O	
+9-16	.	$.	.	_	O	O	
+
+#id=10
+#text=Archäologische Zeitung no.
+10-1	Archäologische	ADJA	archäologisch	_	O	O	
+10-2	Zeitung	NN	Zeitung	_	O	O	
+10-3	no.	VVFIN	<unknown>	_	O	O	
+
+#id=11
+#text=31 sende ich unter Adresse des Instituts auf Ministerialwege um es, wenn Sie Kenntnis davon genommen an Borghesi zu senden.
+11-1	31	CARD	31	_	O	O	
+11-2	sende	VVFIN	senden	_	O	O	
+11-3	ich	PPER	ich	_	O	O	
+11-4	unter	APPR	unter	_	O	O	
+11-5	Adresse	NN	Adresse	_	O	O	
+11-6	des	ART	die	_	O	O	
+11-7	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+11-8	auf	APPR	auf	_	O	O	
+11-9	Ministerialwege	NN	<unknown>	_	O	O	
+11-10	um	APPR	um	_	O	O	
+11-11	es	PPER	es	_	O	O	
+11-12	,	$,	,	_	O	O	
+11-13	wenn	KOUS	wenn	_	O	O	
+11-14	Sie	PPER	Sie	_	O	O	
+11-15	Kenntnis	NN	Kenntnis	_	O	O	
+11-16	davon	PAV	davon	_	O	O	
+11-17	genommen	VVPP	nehmen	_	O	O	
+11-18	an	APPR	an	_	O	O	
+11-19	Borghesi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-20	zu	PTKZU	zu	_	O	O	
+11-21	senden	VVINF	senden	_	O	O	
+11-22	.	$.	.	_	O	O	
+
+#id=12
+#text=Einige Entpapstung kann dem Capranesi nicht schaden.
+12-1	Einige	PIAT	einige	_	O	O	
+12-2	Entpapstung	NN	<unknown>	_	O	O	
+12-3	kann	VMFIN	können	_	O	O	
+12-4	dem	ART	die	_	O	O	
+12-5	Capranesi	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-6	nicht	PTKNEG	nicht	_	O	O	
+12-7	schaden	VVINF	schaden	_	O	O	
+12-8	.	$.	.	_	O	O	
+

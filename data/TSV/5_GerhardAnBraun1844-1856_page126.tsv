@@ -1,0 +1,229 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=109 Gerhard an Braun Berlin, 24.
+1-1	109	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=T1ärz 1845 A. d. Dir.
+2-1	T1ärz	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-2	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-3	A.	APPR	an	_	O	O	
+2-4	d.	ART	d.	_	O	O	
+2-5	Dir.	NN	Dir.	_	O	O	
+
+#id=3
+#text=g. 4/IV 45 r. 17/IV L~5 Herrn Dr. Braun Berlin 24 März 45 Schon wieder ein Brief lieber Freund.
+3-1	g.	ADJD	<unknown>	_	O	O	
+3-2	4/IV	VVFIN	<unknown>	_	O	O	
+3-3	45	CARD	45	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-4	r.	ADJA	<unknown>	_	O	O	
+3-5	17/IV	ADJA	<unknown>	_	O	O	
+3-6	L~5	CARD	<unknown>	_	O	O	
+3-7	Herrn	NN	Herr	_	O	O	
+3-8	Dr.	NN	Dr.	_	O	O	
+3-9	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-10	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-11	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-12	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-13	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-14	Schon	ADV	schon	_	O	O	
+3-15	wieder	ADV	wieder	_	O	O	
+3-16	ein	ART	eine	_	O	O	
+3-17	Brief	NN	Brief	_	O	O	
+3-18	lieber	ADJD	lieb	_	O	O	
+3-19	Freund	NE	Freund	_	O	O	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=Aber das Ministerialrescript den neuen königlichen Zuschuß betreffend darf ich Ihnen nicht vorenthalten, ungewiß was und wie rasch Ihnen gleichzeitig gleichen Inhalts zugesandt worden ist.
+4-1	Aber	KON	aber	_	O	O	
+4-2	das	ART	die	_	O	O	
+4-3	Ministerialrescript	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-4	den	ART	die	_	O	O	
+4-5	neuen	ADJA	neu	_	O	O	
+4-6	königlichen	ADJA	königlich	_	O	O	
+4-7	Zuschuß	NN	Zuschuss	_	O	O	
+4-8	betreffend	ADJD	betreffend	_	O	O	
+4-9	darf	VMFIN	dürfen	_	O	O	
+4-10	ich	PPER	ich	_	O	O	
+4-11	Ihnen	PPER	Sie	_	O	O	
+4-12	nicht	PTKNEG	nicht	_	O	O	
+4-13	vorenthalten	VVPP	vorenthalten	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	ungewiß	ADJD	ungewiss	_	O	O	
+4-16	was	PIS	was	_	O	O	
+4-17	und	KON	und	_	O	O	
+4-18	wie	KOKOM	wie	_	O	O	
+4-19	rasch	ADJD	rasch	_	O	O	
+4-20	Ihnen	PPER	Sie	_	O	O	
+4-21	gleichzeitig	ADJD	gleichzeitig	_	O	O	
+4-22	gleichen	ADJA	gleich	_	O	O	
+4-23	Inhalts	NN	Inhalt	_	O	O	
+4-24	zugesandt	VVPP	zusenden	_	O	O	
+4-25	worden	VAPP	werden	_	O	O	
+4-26	ist	VAFIN	sein	_	O	O	
+4-27	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich habe es für meine Pflicht gehalten zugleich an Henzen (lesen Sie selbst den Brief durch ! )
+5-1	Ich	PPER	ich	_	O	O	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	es	PPER	es	_	O	O	
+5-4	für	APPR	für	_	O	O	
+5-5	meine	PPOSAT	mein	_	O	O	
+5-6	Pflicht	NN	Pflicht	_	O	O	
+5-7	gehalten	VVPP	halten	_	O	O	
+5-8	zugleich	ADV	zugleich	_	O	O	
+5-9	an	APPR	an	_	O	O	
+5-10	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-11	(	$(	(	_	O	O	
+5-12	lesen	VVFIN	lesen	_	O	O	
+5-13	Sie	PPER	Sie	_	O	O	
+5-14	selbst	ADV	selbst	_	O	O	
+5-15	den	ART	die	_	O	O	
+5-16	Brief	NN	Brief	_	O	O	
+5-17	durch	PTKVZ	durch	_	O	O	
+5-18	!	$.	!	_	O	O	
+5-19	)	$(	)	_	O	O	
+
+#id=6
+#text=zu schreiben, dem die schiefe Geschäftsform, durch die er zwar königlicher Angestellter aber kein höher besoldeter wird als bisher, vermuthlich mißfallen wird, zumal es wol unvermeidlich sein wird daß er künftig über 4 halbjährige 135 rt Quittung ausstelle, ohne doch die 45 die vierteljährig für Lanci dem Institut vergütet werden für sich davon behalten zu können.
+6-1	zu	PTKZU	zu	_	O	O	
+6-2	schreiben	VVINF	schreiben	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	dem	PRELS	die	_	O	O	
+6-5	die	ART	die	_	O	O	
+6-6	schiefe	ADJA	schief	_	O	O	
+6-7	Geschäftsform	NN	Geschäftsform	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	durch	APPR	durch	_	O	O	
+6-10	die	PRELS	die	_	O	O	
+6-11	er	PPER	er	_	O	O	
+6-12	zwar	ADV	zwar	_	O	O	
+6-13	königlicher	ADJA	königlich	_	O	O	
+6-14	Angestellter	NN	Angestellte	_	O	O	
+6-15	aber	ADV	aber	_	O	O	
+6-16	kein	PIAT	keine	_	O	O	
+6-17	höher	ADJD	hoch	_	O	O	
+6-18	besoldeter	ADJD	<unknown>	_	O	O	
+6-19	wird	VAFIN	werden	_	O	O	
+6-20	als	KOKOM	als	_	O	O	
+6-21	bisher	ADV	bisher	_	O	O	
+6-22	,	$,	,	_	O	O	
+6-23	vermuthlich	ADJD	<unknown>	_	O	O	
+6-24	mißfallen	VVPP	missfallen	_	O	O	
+6-25	wird	VAFIN	werden	_	O	O	
+6-26	,	$,	,	_	O	O	
+6-27	zumal	KOUS	zumal	_	O	O	
+6-28	es	PPER	es	_	O	O	
+6-29	wol	ADJD	<unknown>	_	O	O	
+6-30	unvermeidlich	ADJD	unvermeidlich	_	O	O	
+6-31	sein	VAINF	sein	_	O	O	
+6-32	wird	VAFIN	werden	_	O	O	
+6-33	daß	KOUS	dass	_	O	O	
+6-34	er	PPER	er	_	O	O	
+6-35	künftig	ADJD	künftig	_	O	O	
+6-36	über	APPR	über	_	O	O	
+6-37	4	CARD	4	_	O	O	
+6-38	halbjährige	ADJA	halbjährig	_	O	O	
+6-39	135	CARD	@card@	_	O	O	
+6-40	rt	ADJA	<unknown>	_	O	O	
+6-41	Quittung	NN	Quittung	_	O	O	
+6-42	ausstelle	VVFIN	ausstellen	_	O	O	
+6-43	,	$,	,	_	O	O	
+6-44	ohne	KOUI	ohne	_	O	O	
+6-45	doch	ADV	doch	_	O	O	
+6-46	die	ART	die	_	O	O	
+6-47	45	CARD	45	_	O	O	
+6-48	die	ART	die	_	O	O	
+6-49	vierteljährig	ADJD	<unknown>	_	O	O	
+6-50	für	APPR	für	_	O	O	
+6-51	Lanci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-52	dem	ART	die	_	O	O	
+6-53	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-54	vergütet	VVPP	vergüten	_	O	O	
+6-55	werden	VAFIN	werden	_	O	O	
+6-56	für	APPR	für	_	O	O	
+6-57	sich	PRF	sich	_	O	O	
+6-58	davon	PAV	davon	_	O	O	
+6-59	behalten	VVINF	behalten	_	O	O	
+6-60	zu	PTKZU	zu	_	O	O	
+6-61	können	VMINF	können	_	O	O	
+6-62	.	$.	.	_	O	O	
+
+#id=7
+#text=Übersieht man erst die jetzigen Mittel des Instituts, so werde ich es durchaus billig finden, daß ihm, den Kräften desselben und seiner Zeitaufopferung für dasselbe gemäß, ein Gehaltszuschuß unmittelbar vom Institut werde; daß übrigens die neu fundirte Stelle des 2.ten Sekretärs, sofern dieser kein Italiener und der italienischen Revision zugänglioh ist, für die Revision die zu dieser Stelle ge-
+7-1	Übersieht	VVFIN	übersehen	_	O	O	
+7-2	man	PIS	man	_	O	O	
+7-3	erst	ADV	erst	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	jetzigen	ADJA	jetzig	_	O	O	
+7-6	Mittel	NN	Mittel	_	O	O	
+7-7	des	ART	die	_	O	O	
+7-8	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-9	,	$,	,	_	O	O	
+7-10	so	ADV	so	_	O	O	
+7-11	werde	VAFIN	werden	_	O	O	
+7-12	ich	PPER	ich	_	O	O	
+7-13	es	PPER	es	_	O	O	
+7-14	durchaus	ADV	durchaus	_	O	O	
+7-15	billig	ADJD	billig	_	O	O	
+7-16	finden	VVINF	finden	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	daß	KOUS	dass	_	O	O	
+7-19	ihm	PPER	er	_	O	O	
+7-20	,	$,	,	_	O	O	
+7-21	den	ART	die	_	O	O	
+7-22	Kräften	NN	Kraft	_	O	O	
+7-23	desselben	PDAT	derselb	_	O	O	
+7-24	und	KON	und	_	O	O	
+7-25	seiner	PPOSAT	sein	_	O	O	
+7-26	Zeitaufopferung	NN	<unknown>	_	O	O	
+7-27	für	APPR	für	_	O	O	
+7-28	dasselbe	PDAT	dasselb	_	O	O	
+7-29	gemäß	ADJD	gemäß	_	O	O	
+7-30	,	$,	,	_	O	O	
+7-31	ein	ART	eine	_	O	O	
+7-32	Gehaltszuschuß	NN	<unknown>	_	O	O	
+7-33	unmittelbar	ADJD	unmittelbar	_	O	O	
+7-34	vom	APPRART	von	_	O	O	
+7-35	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-36	werde	VAFIN	werden	_	O	O	
+7-37	;	$.	;	_	O	O	
+7-38	daß	KOUS	dass	_	O	O	
+7-39	übrigens	ADV	übrigens	_	O	O	
+7-40	die	ART	die	_	O	O	
+7-41	neu	ADJD	neu	_	O	O	
+7-42	fundirte	ADJA	<unknown>	_	O	O	
+7-43	Stelle	NN	Stelle	_	O	O	
+7-44	des	ART	die	_	O	O	
+7-45	2.ten	ADJA	<unknown>	_	O	O	
+7-46	Sekretärs	NN	Sekretär	_	O	O	
+7-47	,	$,	,	_	O	O	
+7-48	sofern	KOUS	sofern	_	O	O	
+7-49	dieser	PDAT	dies	_	O	O	
+7-50	kein	PIAT	keine	_	O	O	
+7-51	Italiener	NN	Italiener	_	O	O	
+7-52	und	KON	und	_	O	O	
+7-53	der	ART	die	_	O	O	
+7-54	italienischen	ADJA	italienisch	_	O	O	
+7-55	Revision	NN	Revision	_	O	O	
+7-56	zugänglioh	ADJD	<unknown>	_	O	O	
+7-57	ist	VAFIN	sein	_	O	O	
+7-58	,	$,	,	_	O	O	
+7-59	für	APPR	für	_	O	O	
+7-60	die	ART	die	_	O	O	
+7-61	Revision	NN	Revision	_	O	O	
+7-62	die	ART	die	_	O	O	
+7-63	zu	APPR	zu	_	O	O	
+7-64	dieser	PDAT	dies	_	O	O	
+7-65	Stelle	NN	Stelle	_	O	O	
+7-66	ge-	TRUNC	ge-	_	O	O	
+

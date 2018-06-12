@@ -1,0 +1,229 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=203 H Lieber Herr Professor Helbig an Henzen Neapel, 27. April 1868 g. 30/4 68 r. Neapel 27/4 68 Meinen herzlichen Dank für Ihren Brief vom 24.
+1-1	203	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1868	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	30/4	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	68	CARD	68	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+1-19	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-20	27/4	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-21	68	CARD	68	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Meinen	NN	Meinen	_	O	O	
+1-23	herzlichen	ADJA	herzlich	_	O	O	
+1-24	Dank	NN	Dank	_	O	O	
+1-25	für	APPR	für	_	O	O	
+1-26	Ihren	PPOSAT	ihr	_	O	O	
+1-27	Brief	NN	Brief	_	O	O	
+1-28	vom	APPRART	von	_	O	O	
+1-29	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-30	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=2
+#text=Morgen werden ich und meine Frau mit den Impronte CasteIlani fertig, dergestalt daß unserer Abreise nichts weiter im Wege steht.
+2-1	Morgen	ADV	morgen	_	O	O	
+2-2	werden	VAFIN	werden	_	O	O	
+2-3	ich	PPER	ich	_	O	O	
+2-4	und	KON	und	_	O	O	
+2-5	meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-6	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-7	mit	APPR	mit	_	O	O	
+2-8	den	ART	die	_	O	O	
+2-9	Impronte	ADJA	<unknown>	_	O	O	
+2-10	CasteIlani	NN	<unknown>	_	O	O	
+2-11	fertig	ADJD	fertig	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	dergestalt	ADV	dergestalt	_	O	O	
+2-14	daß	KOUS	dass	_	O	O	
+2-15	unserer	PPOSAT	unser	_	O	O	
+2-16	Abreise	NN	Abreise	_	O	O	
+2-17	nichts	PIS	nichts	_	O	O	
+2-18	weiter	ADV	weiter	_	O	O	
+2-19	im	APPRART	in	_	O	O	
+2-20	Wege	NN	Weg	_	O	O	
+2-21	steht	VVFIN	stehen	_	O	O	
+2-22	.	$.	.	_	O	O	
+
+#id=3
+#text=Bei CasteIlani, Fiorelli und Barone hinterlasse ich eine Liste für SChulz, wenn er nämlich noch nach Neapel kommt.
+3-1	Bei	APPR	bei	_	O	O	
+3-2	CasteIlani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	,	$,	,	_	O	O	
+3-4	Fiorelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	und	KON	und	_	O	O	
+3-6	Barone	NN	Baron	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-7	hinterlasse	VVFIN	hinterlassen	_	O	O	
+3-8	ich	PPER	ich	_	O	O	
+3-9	eine	ART	eine	_	O	O	
+3-10	Liste	NN	Liste	_	O	O	
+3-11	für	APPR	für	_	O	O	
+3-12	SChulz	NE	Schulz	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	wenn	KOUS	wenn	_	O	O	
+3-15	er	PPER	er	_	O	O	
+3-16	nämlich	ADV	nämlich	_	O	O	
+3-17	noch	ADV	noch	_	O	O	
+3-18	nach	APPR	nach	_	O	O	
+3-19	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-20	kommt	VVFIN	kommen	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Sie werden ihm doch wohl gesagt haben, daß meine Adresse bei Detken zu erfahren ist.
+4-1	Sie	PPER	Sie	_	O	O	
+4-2	werden	VAFIN	werden	_	O	O	
+4-3	ihm	PPER	er	_	O	O	
+4-4	doch	ADV	doch	_	O	O	
+4-5	wohl	ADV	wohl	_	O	O	
+4-6	gesagt	VVPP	sagen	_	O	O	
+4-7	haben	VAINF	haben	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	daß	KOUS	dass	_	O	O	
+4-10	meine	PPOSAT	mein	_	O	O	
+4-11	Adresse	NN	Adresse	_	O	O	
+4-12	bei	APPR	bei	_	O	O	
+4-13	Detken	NE	<unknown>	_	O	O	
+4-14	zu	PTKZU	zu	_	O	O	
+4-15	erfahren	VVINF	erfahren	_	O	O	
+4-16	ist	VAFIN	sein	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=Bei CasteIlani allein wird er 14 Tage zu thun haben, wo sich eine Fülle von Monumenti importantissimi (nicht im Benndorfschen Sinne) befindet.
+5-1	Bei	APPR	bei	_	O	O	
+5-2	CasteIlani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	allein	ADV	allein	_	O	O	
+5-4	wird	VAFIN	werden	_	O	O	
+5-5	er	PPER	er	_	O	O	
+5-6	14	CARD	14	_	O	O	
+5-7	Tage	NN	Tag	_	O	O	
+5-8	zu	APPR	zu	_	O	O	
+5-9	thun	NE	<unknown>	_	O	O	
+5-10	haben	VAINF	haben	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	wo	PWAV	wo	_	O	O	
+5-13	sich	PRF	sich	_	O	O	
+5-14	eine	ART	eine	_	O	O	
+5-15	Fülle	NN	Fülle	_	O	O	
+5-16	von	APPR	von	_	O	O	
+5-17	Monumenti	NN	<unknown>	_	O	O	
+5-18	importantissimi	NE	<unknown>	_	O	O	
+5-19	(	$(	(	_	O	O	
+5-20	nicht	PTKNEG	nicht	_	O	O	
+5-21	im	APPRART	in	_	O	O	
+5-22	Benndorfschen	ADJA	<unknown>	_	O	O	
+5-23	Sinne	NN	Sinn	_	O	O	
+5-24	)	$(	)	_	O	O	
+5-25	befindet	VVFIN	befinden	_	O	O	
+5-26	.	$.	.	_	O	O	
+
+#id=6
+#text=Mit gewissen Stücken bin ich in Verlegenheit, da nirgends bei CasteIlani günstiges Licht zu erzielen ist.
+6-1	Mit	APPR	mit	_	O	O	
+6-2	gewissen	ADJA	gewiss	_	O	O	
+6-3	Stücken	NN	Stück	_	O	O	
+6-4	bin	VAFIN	sein	_	O	O	
+6-5	ich	PPER	ich	_	O	O	
+6-6	in	APPR	in	_	O	O	
+6-7	Verlegenheit	NN	Verlegenheit	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	da	KOUS	da	_	O	O	
+6-10	nirgends	ADV	nirgends	_	O	O	
+6-11	bei	APPR	bei	_	O	O	
+6-12	CasteIlani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-13	günstiges	ADJA	günstig	_	O	O	
+6-14	Licht	NN	Licht	_	O	O	
+6-15	zu	PTKZU	zu	_	O	O	
+6-16	erzielen	VVINF	erzielen	_	O	O	
+6-17	ist	VAFIN	sein	_	O	O	
+6-18	.	$.	.	_	O	O	
+
+#id=7
+#text=U. a. hat CasteIlani einen prachtvollen Herakopf aus Agrigent, welcher zwischen dem Kopf Farnese und dem Ludovisi in der Mitte steht und entschieden, ich denke von Brunn oder Kekule, auf einer Monumententafel publicirt werden muß.
+7-1	U.	APPR	u.	_	O	O	
+7-2	a.	ADJA	a.	_	O	O	
+7-3	hat	VAFIN	haben	_	O	O	
+7-4	CasteIlani	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-5	einen	ART	eine	_	O	O	
+7-6	prachtvollen	ADJA	prachtvoll	_	O	O	
+7-7	Herakopf	NN	<unknown>	_	O	O	
+7-8	aus	APPR	aus	_	O	O	
+7-9	Agrigent	NN	<unknown>	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	welcher	PRELS	welche	_	O	O	
+7-12	zwischen	APPR	zwischen	_	O	O	
+7-13	dem	ART	die	_	O	O	
+7-14	Kopf	NN	Kopf	_	O	O	
+7-15	Farnese	NE	<unknown>	_	O	O	
+7-16	und	KON	und	_	O	O	
+7-17	dem	ART	die	_	O	O	
+7-18	Ludovisi	NE	<unknown>	_	O	O	
+7-19	in	APPR	in	_	O	O	
+7-20	der	ART	die	_	O	O	
+7-21	Mitte	NN	Mitte	_	O	O	
+7-22	steht	VVFIN	stehen	_	O	O	
+7-23	und	KON	und	_	O	O	
+7-24	entschieden	VVPP	entscheiden	_	O	O	
+7-25	,	$,	,	_	O	O	
+7-26	ich	PPER	ich	_	O	O	
+7-27	denke	VVFIN	denken	_	O	O	
+7-28	von	APPR	von	_	O	O	
+7-29	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-30	oder	KON	oder	_	O	O	
+7-31	Kekule	NN	<unknown>	_	O	O	
+7-32	,	$,	,	_	O	O	
+7-33	auf	APPR	auf	_	O	O	
+7-34	einer	ART	eine	_	O	O	
+7-35	Monumententafel	NN	<unknown>	_	O	O	
+7-36	publicirt	VVPP	<unknown>	_	O	O	
+7-37	werden	VAINF	werden	_	O	O	
+7-38	muß	VMFIN	müssen	_	O	O	
+7-39	.	$.	.	_	O	O	
+
+#id=8
+#text=Das Beste wird sein, einen Abguß davon zu machen und diesen in Rom zeichnen zu lassen.
+8-1	Das	ART	die	_	O	O	
+8-2	Beste	NN	Beste	_	O	O	
+8-3	wird	VAFIN	werden	_	O	O	
+8-4	sein	PPOSAT	sein	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	einen	ART	eine	_	O	O	
+8-7	Abguß	NN	Abguß	_	O	O	
+8-8	davon	PAV	davon	_	O	O	
+8-9	zu	PTKZU	zu	_	O	O	
+8-10	machen	VVINF	machen	_	O	O	
+8-11	und	KON	und	_	O	O	
+8-12	diesen	PDAT	dies	_	O	O	
+8-13	in	APPR	in	_	O	O	
+8-14	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-15	zeichnen	VVINF	zeichnen	_	O	O	
+8-16	zu	PTKZU	zu	_	O	O	
+8-17	lassen	VVINF	lassen	_	O	O	
+8-18	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich habe Castellani vorgeschlagen einen Abguß gegen eine Centurie der
+9-1	Ich	PPER	ich	_	O	O	
+9-2	habe	VAFIN	haben	_	O	O	
+9-3	Castellani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-4	vorgeschlagen	VVPP	vorschlagen	_	O	O	
+9-5	einen	ART	eine	_	O	O	
+9-6	Abguß	NN	Abguß	_	O	O	
+9-7	gegen	APPR	gegen	_	O	O	
+9-8	eine	ART	eine	_	O	O	
+9-9	Centurie	NN	<unknown>	_	O	O	
+9-10	der	ART	die	_	O	O	
+

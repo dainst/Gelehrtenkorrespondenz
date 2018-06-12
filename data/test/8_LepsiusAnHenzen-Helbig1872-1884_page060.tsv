@@ -1,0 +1,210 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=L Verehrtester Freund Lepsius an Henzen Berlin, 10. Oktober 1872 g. 14/10 72 r. Berlin d. 10. Okt.
+1-1	L	NE	L	_	O	O	
+1-2	Verehrtester	NN	<unknown>	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	14/10	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+1-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-18	d.	ART	d.	_	O	O	
+1-19	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Okt.	NN	Okt.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1872 Seit zwei Tagen bin ich hier zurück, nachdem ich den größten Theil der Ferien in einem lieblichen Thale in der Nähe von Teplitz zu meiner größten Zufriedenheit und Erholung zugebracht habe.
+2-1	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Seit	APPR	seit	_	O	O	
+2-3	zwei	CARD	zwei	_	O	O	
+2-4	Tagen	NN	Tag	_	O	O	
+2-5	bin	VAFIN	sein	_	O	O	
+2-6	ich	PPER	ich	_	O	O	
+2-7	hier	ADV	hier	_	O	O	
+2-8	zurück	PTKVZ	zurück	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	nachdem	KOUS	nachdem	_	O	O	
+2-11	ich	PPER	ich	_	O	O	
+2-12	den	ART	die	_	O	O	
+2-13	größten	ADJA	groß	_	O	O	
+2-14	Theil	NN	<unknown>	_	O	O	
+2-15	der	ART	die	_	O	O	
+2-16	Ferien	NN	Ferien	_	O	O	
+2-17	in	APPR	in	_	O	O	
+2-18	einem	ART	eine	_	O	O	
+2-19	lieblichen	ADJA	lieblich	_	O	O	
+2-20	Thale	NN	<unknown>	_	O	O	
+2-21	in	APPR	in	_	O	O	
+2-22	der	ART	die	_	O	O	
+2-23	Nähe	NN	Nähe	_	O	O	
+2-24	von	APPR	von	_	O	O	
+2-25	Teplitz	NN	<unknown>	_	O	O	
+2-26	zu	APPR	zu	_	O	O	
+2-27	meiner	PPOSAT	mein	_	O	O	
+2-28	größten	ADJA	groß	_	O	O	
+2-29	Zufriedenheit	NN	Zufriedenheit	_	O	O	
+2-30	und	KON	und	_	O	O	
+2-31	Erholung	NN	Erholung	_	O	O	
+2-32	zugebracht	VVPP	zubringen	_	O	O	
+2-33	habe	VAFIN	haben	_	O	O	
+2-34	.	$.	.	_	O	O	
+
+#id=3
+#text=Auch Sie werden nun wohl in die Römischen Winterquartiere wieder eingezogen sein, hoffentlich auch erquickt und neu gestärkt.
+3-1	Auch	ADV	auch	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	werden	VAFIN	werden	_	O	O	
+3-4	nun	ADV	nun	_	O	O	
+3-5	wohl	ADV	wohl	_	O	O	
+3-6	in	APPR	in	_	O	O	
+3-7	die	ART	die	_	O	O	
+3-8	Römischen	ADJA	römisch	_	O	O	
+3-9	Winterquartiere	NN	Winterquartier	_	O	O	
+3-10	wieder	ADV	wieder	_	O	O	
+3-11	eingezogen	VVPP	einziehen	_	O	O	
+3-12	sein	VAINF	sein	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	hoffentlich	ADV	hoffentlich	_	O	O	
+3-15	auch	ADV	auch	_	O	O	
+3-16	erquickt	VVPP	erquicken	_	O	O	
+3-17	und	KON	und	_	O	O	
+3-18	neu	ADJD	neu	_	O	O	
+3-19	gestärkt	VVPP	stärken	_	O	O	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=Ihren Brief vom 15. September habe ich noch in meiner Waldeinsamkeit erhalten.
+4-1	Ihren	PPOSAT	ihr	_	O	O	
+4-2	Brief	NN	Brief	_	O	O	
+4-3	vom	APPRART	von	_	O	O	
+4-4	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-6	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-7	habe	VAFIN	haben	_	O	O	
+4-8	ich	PPER	ich	_	O	O	
+4-9	noch	ADV	noch	_	O	O	
+4-10	in	APPR	in	_	O	O	
+4-11	meiner	PPOSAT	mein	_	O	O	
+4-12	Waldeinsamkeit	NN	Waldeinsamkeit	_	O	O	
+4-13	erhalten	VVPP	erhalten	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Geschäftliches war darin nichts zu beantworten.
+5-1	Geschäftliches	NN	Geschäftliche	_	O	O	
+5-2	war	VAFIN	sein	_	O	O	
+5-3	darin	PAV	darin	_	O	O	
+5-4	nichts	PIS	nichts	_	O	O	
+5-5	zu	PTKZU	zu	_	O	O	
+5-6	beantworten	VVINF	beantworten	_	O	O	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=Von hier habe ich Ihnen nur zweierlei mitzutheilen.
+6-1	Von	APPR	von	_	O	O	
+6-2	hier	ADV	hier	_	O	O	
+6-3	habe	VAFIN	haben	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	Ihnen	PPER	Sie	_	O	O	
+6-6	nur	ADV	nur	_	O	O	
+6-7	zweierlei	PIS	zweierlei	_	O	O	
+6-8	mitzutheilen	VVIZU	<unknown>	_	O	O	
+6-9	.	$.	.	_	O	O	
+
+#id=7
+#text=Erstens, daß mir unter dem 14. September wieder ein Monitum zugegangen ist aus unsrem Ministerium, daß die Oberrechnungskammer noch die Quittungen verlangt Seitens der beiden Instituts Sekretare über den Empfang ihrer Gehälter für 1870 im Betrage von 1.000 resp. 800 r, und daß Sie auch die gleichfalls fehlenden Quittungen pro 1871 einsenden möchten um einem ferneren Monitum zuvorzukommen.
+7-1	Erstens	ADV	erstens	_	O	O	
+7-2	,	$,	,	_	O	O	
+7-3	daß	KOUS	dass	_	O	O	
+7-4	mir	PPER	ich	_	O	O	
+7-5	unter	APPR	unter	_	O	O	
+7-6	dem	ART	die	_	O	O	
+7-7	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-9	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-10	wieder	ADV	wieder	_	O	O	
+7-11	ein	ART	eine	_	O	O	
+7-12	Monitum	NN	Monitum	_	O	O	
+7-13	zugegangen	VVPP	zugehen	_	O	O	
+7-14	ist	VAFIN	sein	_	O	O	
+7-15	aus	APPR	aus	_	O	O	
+7-16	unsrem	PPOSAT	unsre	_	O	O	
+7-17	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-18	,	$,	,	_	O	O	
+7-19	daß	KOUS	dass	_	O	O	
+7-20	die	ART	die	_	O	O	
+7-21	Oberrechnungskammer	NN	<unknown>	_	O	O	
+7-22	noch	ADV	noch	_	O	O	
+7-23	die	ART	die	_	O	O	
+7-24	Quittungen	NN	Quittung	_	O	O	
+7-25	verlangt	VVPP	verlangen	_	O	O	
+7-26	Seitens	NN	<unknown>	_	O	O	
+7-27	der	ART	die	_	O	O	
+7-28	beiden	PIAT	beide	_	O	O	
+7-29	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-30	Sekretare	NN	<unknown>	_	O	O	
+7-31	über	APPR	über	_	O	O	
+7-32	den	ART	die	_	O	O	
+7-33	Empfang	NN	Empfang	_	O	O	
+7-34	ihrer	PPOSAT	ihr	_	O	O	
+7-35	Gehälter	NN	Gehalt	_	O	O	
+7-36	für	APPR	für	_	O	O	
+7-37	1870	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-38	im	APPRART	in	_	O	O	
+7-39	Betrage	NN	Betrag	_	O	O	
+7-40	von	APPR	von	_	O	O	
+7-41	1.000	CARD	@card@	_	O	O	
+7-42	resp.	ADV	resp.	_	O	O	
+7-43	800	CARD	800	_	O	O	
+7-44	r	NE	r	_	O	O	
+7-45	,	$,	,	_	O	O	
+7-46	und	KON	und	_	O	O	
+7-47	daß	KOUS	dass	_	O	O	
+7-48	Sie	PPER	Sie	_	O	O	
+7-49	auch	ADV	auch	_	O	O	
+7-50	die	ART	die	_	O	O	
+7-51	gleichfalls	ADV	gleichfalls	_	O	O	
+7-52	fehlenden	ADJA	fehlend	_	O	O	
+7-53	Quittungen	NN	Quittung	_	O	O	
+7-54	pro	APPR	pro	_	O	O	
+7-55	1871	CARD	@card@	_	O	O	
+7-56	einsenden	VVINF	einsenden	_	O	O	
+7-57	möchten	VMFIN	mögen	_	O	O	
+7-58	um	APPR	um	_	O	O	
+7-59	einem	ART	eine	_	O	O	
+7-60	ferneren	ADJA	fern	_	O	O	
+7-61	Monitum	NN	Monitum	_	O	O	
+7-62	zuvorzukommen	VVIZU	zuvorkommen	_	O	O	
+7-63	.	$.	.	_	O	O	
+
+#id=8
+#text=Zweitens muß ich Ihnen mittheilen, daß der Finanzminister, wie mir gestern Olshausen mitgetheilt hat,
+8-1	Zweitens	ADV	zweitens	_	O	O	
+8-2	muß	VMFIN	müssen	_	O	O	
+8-3	ich	PPER	ich	_	O	O	
+8-4	Ihnen	PPER	Sie	_	O	O	
+8-5	mittheilen	VVINF	<unknown>	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	daß	KOUS	dass	_	O	O	
+8-8	der	ART	die	_	O	O	
+8-9	Finanzminister	NN	Finanzminister	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	wie	KOUS	wie	_	O	O	
+8-12	mir	PPER	ich	_	O	O	
+8-13	gestern	ADV	gestern	_	O	O	
+8-14	Olshausen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-15	mitgetheilt	VVPP	<unknown>	_	O	O	
+8-16	hat	VAFIN	haben	_	O	O	
+8-17	,	$,	,	_	O	O	
+

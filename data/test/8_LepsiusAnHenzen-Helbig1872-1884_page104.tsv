@@ -1,0 +1,179 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=296 Lepsius an Henzen Berlin, 29. Oktober 1873 2 L.
+1-1	296	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	L.	NE	L.	_	O	O	
+
+#id=2
+#text=85 a 6.22 = 723.25 a 6 2/3 = ( sie ) L.
+2-1	85	CARD	85	_	O	O	
+2-2	a	FM	a	_	O	O	
+2-3	6.22	CARD	@card@	_	O	O	
+2-4	=	$(	=	_	O	O	
+2-5	723.25	CARD	@card@	_	O	O	
+2-6	a	FM	a	_	O	O	
+2-7	6	CARD	6	_	O	O	
+2-8	2/3	CARD	2/3	_	O	O	
+2-9	=	$(	=	_	O	O	
+2-10	(	$(	(	_	O	O	
+2-11	sie	PPER	sie	_	O	O	
+2-12	)	$(	)	_	O	O	
+2-13	L.	NE	L.	_	O	O	
+
+#id=3
+#text=15 15 5 5 4 6 400.- L.
+3-1	15	CARD	15	_	O	O	
+3-2	15	CARD	15	_	O	O	
+3-3	5	CARD	5	_	O	O	
+3-4	5	CARD	5	_	O	O	
+3-5	4	CARD	4	_	O	O	
+3-6	6	CARD	6	_	O	O	
+3-7	400.-	CARD	@card@	_	O	O	
+3-8	L.	NE	L.	_	O	O	
+
+#id=4
+#text=50. a 6.22 1/2 = 337.15. a 6 2/3 = ( sie ) Porto und Incassa Auslagen 8.15 1769.25 1608.15 161.10 566.20 400.
+4-1	50	CARD	50	_	O	O	
+4-2	.	$.	.	_	O	O	
+4-3	a	FM	a	_	O	O	
+4-4	6.22	CARD	@card@	_	O	O	
+4-5	1/2	CARD	1/2	_	O	O	
+4-6	=	$(	=	_	O	O	
+4-7	337.15	CARD	@card@	_	O	O	
+4-8	.	$.	.	_	O	O	
+4-9	a	FM	a	_	O	O	
+4-10	6	CARD	6	_	O	O	
+4-11	2/3	CARD	2/3	_	O	O	
+4-12	=	$(	=	_	O	O	
+4-13	(	$(	(	_	O	O	
+4-14	sie	PPER	sie	_	O	O	
+4-15	)	$(	)	_	O	O	
+4-16	Porto	NN	Porto	_	O	O	
+4-17	und	KON	und	_	O	O	
+4-18	Incassa	NN	<unknown>	_	O	O	
+4-19	Auslagen	NN	Auslage	_	O	O	
+4-20	8.15	CARD	8.15	_	O	O	
+4-21	1769.25	CARD	@card@	_	O	O	
+4-22	1608.15	CARD	@card@	_	O	O	
+4-23	161.10	CARD	@card@	_	O	O	
+4-24	566.20	CARD	@card@	_	O	O	
+4-25	400	CARD	400	_	O	O	
+4-26	.	$.	.	_	O	O	
+
+#id=5
+#text=- 333.10.
+5-1	-	$(	-	_	O	O	
+5-2	333.10	CARD	@card@	_	O	O	
+5-3	.	$.	.	_	O	O	
+
+#id=6
+#text=8.15 1608.15 Dazu werde ich ihn auffordern erst unser Guthaben abzuziehen.
+6-1	8.15	CARD	8.15	_	O	O	
+6-2	1608.15	CARD	@card@	_	O	O	
+6-3	Dazu	PAV	dazu	_	O	O	
+6-4	werde	VAFIN	werden	_	O	O	
+6-5	ich	PPER	ich	_	O	O	
+6-6	ihn	PPER	er	_	O	O	
+6-7	auffordern	VVFIN	auffordern	_	O	O	
+6-8	erst	ADV	erst	_	O	O	
+6-9	unser	PPOSAT	unser	_	O	O	
+6-10	Guthaben	NN	Guthaben	_	O	O	
+6-11	abzuziehen	VVIZU	abziehen	_	O	O	
+6-12	.	$.	.	_	O	O	
+
+#id=7
+#text=Da er einen besonderen Posten für Porto und incassa Auslagen hat, so ist kein Grund das Lire nicht wie immer zu 6 3/4 r zu rechnen.
+7-1	Da	KOUS	da	_	O	O	
+7-2	er	PPER	er	_	O	O	
+7-3	einen	ART	eine	_	O	O	
+7-4	besonderen	ADJA	besonder	_	O	O	
+7-5	Posten	NN	Posten	_	O	O	
+7-6	für	APPR	für	_	O	O	
+7-7	Porto	NN	Porto	_	O	O	
+7-8	und	KON	und	_	O	O	
+7-9	incassa	ADJA	<unknown>	_	O	O	
+7-10	Auslagen	NN	Auslage	_	O	O	
+7-11	hat	VAFIN	haben	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	so	ADV	so	_	O	O	
+7-14	ist	VAFIN	sein	_	O	O	
+7-15	kein	PIAT	keine	_	O	O	
+7-16	Grund	NN	Grund	_	O	O	
+7-17	das	ART	die	_	O	O	
+7-18	Lire	NN	Lira	_	O	O	
+7-19	nicht	PTKNEG	nicht	_	O	O	
+7-20	wie	KOKOM	wie	_	O	O	
+7-21	immer	ADV	immer	_	O	O	
+7-22	zu	APPR	zu	_	O	O	
+7-23	6	CARD	6	_	O	O	
+7-24	3/4	CARD	3/4	_	O	O	
+7-25	r	NE	r	_	O	O	
+7-26	zu	PTKZU	zu	_	O	O	
+7-27	rechnen	VVINF	rechnen	_	O	O	
+7-28	.	$.	.	_	O	O	
+
+#id=8
+#text=Die einzelenen an Matz und Kekul~ gezahlten Posten werden wohl richtig sein; doch werde ich nun auch diese noch durch Matz selbst verificiren lassen.
+8-1	Die	ART	die	_	O	O	
+8-2	einzelenen	NN	<unknown>	_	O	O	
+8-3	an	APPR	an	_	O	O	
+8-4	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-5	und	KON	und	_	O	O	
+8-6	Kekul~	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-7	gezahlten	ADJA	gezahlt	_	O	O	
+8-8	Posten	NN	Posten	_	O	O	
+8-9	werden	VAFIN	werden	_	O	O	
+8-10	wohl	ADV	wohl	_	O	O	
+8-11	richtig	ADJD	richtig	_	O	O	
+8-12	sein	VAINF	sein	_	O	O	
+8-13	;	$.	;	_	O	O	
+8-14	doch	ADV	doch	_	O	O	
+8-15	werde	VAFIN	werden	_	O	O	
+8-16	ich	PPER	ich	_	O	O	
+8-17	nun	ADV	nun	_	O	O	
+8-18	auch	ADV	auch	_	O	O	
+8-19	diese	PDAT	dies	_	O	O	
+8-20	noch	ADV	noch	_	O	O	
+8-21	durch	APPR	durch	_	O	O	
+8-22	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-23	selbst	ADV	selbst	_	O	O	
+8-24	verificiren	NN	<unknown>	_	O	O	
+8-25	lassen	VVINF	lassen	_	O	O	
+8-26	.	$.	.	_	O	O	
+
+#id=9
+#text=Daß der Bau tüchtig in Angriff genommen ist, freut mich sehr.
+9-1	Daß	KOUS	dass	_	O	O	
+9-2	der	ART	die	_	O	O	
+9-3	Bau	NN	Bau	_	O	O	
+9-4	tüchtig	ADJD	tüchtig	_	O	O	
+9-5	in	APPR	in	_	O	O	
+9-6	Angriff	NN	Angriff	_	O	O	
+9-7	genommen	VVPP	nehmen	_	O	O	
+9-8	ist	VAFIN	sein	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	freut	VVFIN	freuen	_	O	O	
+9-11	mich	PRF	ich	_	O	O	
+9-12	sehr	ADV	sehr	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=Curtius ist nur bis Mailand und Ve-
+10-1	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	ist	VAFIN	sein	_	O	O	
+10-3	nur	ADV	nur	_	O	O	
+10-4	bis	APPR	bis	_	O	O	
+10-5	Mailand	NE	Mailand	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-6	und	KON	und	_	O	O	
+10-7	Ve-	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+

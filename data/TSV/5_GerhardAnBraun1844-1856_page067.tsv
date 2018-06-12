@@ -1,0 +1,241 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=409 Gerhard an Braun Berlin, 7. Juli 1844 2 piego - wir kennen kein anderes - notirt steht.
+1-1	409	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	piego	NE	<unknown>	_	O	O	
+1-13	-	$(	-	_	O	O	
+1-14	wir	PPER	wir	_	O	O	
+1-15	kennen	VVFIN	kennen	_	O	O	
+1-16	kein	PIAT	keine	_	O	O	
+1-17	anderes	PIS	andere	_	O	O	
+1-18	-	$(	-	_	O	O	
+1-19	notirt	NN	<unknown>	_	O	O	
+1-20	steht	VVFIN	stehen	_	O	O	
+1-21	.	$.	.	_	O	O	
+
+#id=2
+#text=Gegen Schadenersatz Ihrerseits protestirt Gerstäcker natürlich so gut wie ich.
+2-1	Gegen	APPR	gegen	_	O	O	
+2-2	Schadenersatz	NN	Schadenersatz	_	O	O	
+2-3	Ihrerseits	NN	<unknown>	_	O	O	
+2-4	protestirt	NN	<unknown>	_	O	O	
+2-5	Gerstäcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-6	natürlich	ADV	natürlich	_	O	O	
+2-7	so	ADV	so	_	O	O	
+2-8	gut	ADJD	gut	_	O	O	
+2-9	wie	KOKOM	wie	_	O	O	
+2-10	ich	PPER	ich	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Der Empfangnen Bullettini freue ich mich, suche aber vergebens das Köhnianum.
+3-1	Der	ART	die	_	O	O	
+3-2	Empfangnen	ADJA	<unknown>	_	O	O	
+3-3	Bullettini	NN	<unknown>	_	O	O	
+3-4	freue	VVFIN	freuen	_	O	O	
+3-5	ich	PPER	ich	_	O	O	
+3-6	mich	PRF	ich	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	suche	VVFIN	suchen	_	O	O	
+3-9	aber	ADV	aber	_	O	O	
+3-10	vergebens	ADV	vergebens	_	O	O	
+3-11	das	ART	die	_	O	O	
+3-12	Köhnianum	NN	<unknown>	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Panofka hat seinen Gypskatalog eilig, ohne alle Prätension und ohne neue Ideen, gemaoht.
+4-1	Panofka	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	hat	VAFIN	haben	_	O	O	
+4-3	seinen	PPOSAT	sein	_	O	O	
+4-4	Gypskatalog	NN	<unknown>	_	O	O	
+4-5	eilig	ADJD	eilig	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	ohne	APPR	ohne	_	O	O	
+4-8	alle	PIAT	alle	_	O	O	
+4-9	Prätension	NN	<unknown>	_	O	O	
+4-10	und	KON	und	_	O	O	
+4-11	ohne	APPR	ohne	_	O	O	
+4-12	neue	ADJA	neu	_	O	O	
+4-13	Ideen	NN	Idee	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	gemaoht	VVFIN	<unknown>	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Abzureisen von mir hoffe ich am 3 August.
+5-1	Abzureisen	VVIZU	abreisen	_	O	O	
+5-2	von	APPR	von	_	O	O	
+5-3	mir	PPER	ich	_	O	O	
+5-4	hoffe	VVFIN	hoffen	_	O	O	
+5-5	ich	PPER	ich	_	O	O	
+5-6	am	APPRART	an	_	O	O	
+5-7	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-8	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Es ist mir wahrscheinlich daß ich mit Ihnen in Paris etwa Mitte August zusammentreffen könnte; vorher gehe ich vieIDeicht nach Bonn, Ende August oder spätestens Anfang September ( da mein Schwiegervater erst am 20 August kann) nach Wildbad, Mitte September über Kassel zurück, zuletzt vermuthlich noch nach Dresden.
+6-1	Es	PPER	es	_	O	O	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	mir	PPER	ich	_	O	O	
+6-4	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+6-5	daß	KOUS	dass	_	O	O	
+6-6	ich	PPER	ich	_	O	O	
+6-7	mit	APPR	mit	_	O	O	
+6-8	Ihnen	PPER	Sie	_	O	O	
+6-9	in	APPR	in	_	O	O	
+6-10	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-11	etwa	ADV	etwa	_	O	O	
+6-12	Mitte	NN	Mitte	_	O	O	
+6-13	August	NN	August	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-14	zusammentreffen	VVINF	zusammentreffen	_	O	O	
+6-15	könnte	VMFIN	können	_	O	O	
+6-16	;	$.	;	_	O	O	
+6-17	vorher	ADV	vorher	_	O	O	
+6-18	gehe	VVFIN	gehen	_	O	O	
+6-19	ich	PPER	ich	_	O	O	
+6-20	vieIDeicht	ADJD	<unknown>	_	O	O	
+6-21	nach	APPR	nach	_	O	O	
+6-22	Bonn	NE	Bonn	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-23	,	$,	,	_	O	O	
+6-24	Ende	NN	Ende	_	O	O	
+6-25	August	NN	August	_	O	O	
+6-26	oder	KON	oder	_	O	O	
+6-27	spätestens	ADV	spätestens	_	O	O	
+6-28	Anfang	NN	Anfang	_	O	O	
+6-29	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-30	(	$(	(	_	O	O	
+6-31	da	ADV	da	_	O	O	
+6-32	mein	PPOSAT	mein	_	O	O	
+6-33	Schwiegervater	NN	Schwiegervater	_	O	O	
+6-34	erst	ADV	erst	_	O	O	
+6-35	am	APPRART	an	_	O	O	
+6-36	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-37	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-38	kann	VMFIN	können	_	O	O	
+6-39	)	$(	)	_	O	O	
+6-40	nach	APPR	nach	_	O	O	
+6-41	Wildbad	NN	Wildbad	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-42	,	$,	,	_	O	O	
+6-43	Mitte	NN	Mitte	_	O	O	
+6-44	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-45	über	APPR	über	_	O	O	
+6-46	Kassel	NE	Kassel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-47	zurück	PTKVZ	zurück	_	O	O	
+6-48	,	$,	,	_	O	O	
+6-49	zuletzt	ADV	zuletzt	_	O	O	
+6-50	vermuthlich	ADJD	<unknown>	_	O	O	
+6-51	noch	ADV	noch	_	O	O	
+6-52	nach	APPR	nach	_	O	O	
+6-53	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-54	.	$.	.	_	O	O	
+
+#id=7
+#text=Hiernach überlegen Sie wann und wo wir uns treffen können.
+7-1	Hiernach	PAV	hiernach	_	O	O	
+7-2	überlegen	VVFIN	überlegen	_	O	O	
+7-3	Sie	PPER	Sie	_	O	O	
+7-4	wann	PWAV	wann	_	O	O	
+7-5	und	KON	und	_	O	O	
+7-6	wo	PWAV	wo	_	O	O	
+7-7	wir	PPER	wir	_	O	O	
+7-8	uns	PRF	wir	_	O	O	
+7-9	treffen	VVINF	treffen	_	O	O	
+7-10	können	VMINF	können	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Meine Frau ist in Frankfurt; von Anfang August an empfange ich die Briefe dort Kurhessische Gesandtschaft, bis dahin hier.
+8-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-3	ist	VAFIN	sein	_	O	O	
+8-4	in	APPR	in	_	O	O	
+8-5	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-6	;	$.	;	_	O	O	
+8-7	von	APPR	von	_	O	O	
+8-8	Anfang	NN	Anfang	_	O	O	
+8-9	August	NN	August	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-10	an	APZR	an	_	O	O	
+8-11	empfange	VVFIN	empfangen	_	O	O	
+8-12	ich	PPER	ich	_	O	O	
+8-13	die	ART	die	_	O	O	
+8-14	Briefe	NN	Brief	_	O	O	
+8-15	dort	ADV	dort	_	O	O	
+8-16	Kurhessische	ADJA	kurhessisch	_	O	O	
+8-17	Gesandtschaft	NN	Gesandtschaft	_	O	O	
+8-18	,	$,	,	_	O	O	
+8-19	bis	KOUS	bis	_	O	O	
+8-20	dahin	PAV	dahin	_	O	O	
+8-21	hier	ADV	hier	_	O	O	
+8-22	.	$.	.	_	O	O	
+
+#id=9
+#text=Sollten Sie in London Rolandi erreichen können, so bitte ich zu erkunden was aus meinen 5 Exemplaren Vases etrusques und Campaniens geworden ist.
+9-1	Sollten	VMFIN	sollen	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	in	APPR	in	_	O	O	
+9-4	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-5	Rolandi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-6	erreichen	VVINF	erreichen	_	O	O	
+9-7	können	VMINF	können	_	O	O	
+9-8	,	$,	,	_	O	O	
+9-9	so	ADV	so	_	O	O	
+9-10	bitte	VVFIN	bitten	_	O	O	
+9-11	ich	PPER	ich	_	O	O	
+9-12	zu	PTKVZ	zu	_	O	O	
+9-13	erkunden	VVFIN	erkunden	_	O	O	
+9-14	was	PIS	was	_	O	O	
+9-15	aus	APPR	aus	_	O	O	
+9-16	meinen	PPOSAT	mein	_	O	O	
+9-17	5	CARD	5	_	O	O	
+9-18	Exemplaren	NN	Exemplar	_	O	O	
+9-19	Vases	NN	<unknown>	_	O	O	
+9-20	etrusques	NE	<unknown>	_	O	O	
+9-21	und	KON	und	_	O	O	
+9-22	Campaniens	NN	<unknown>	_	O	O	
+9-23	geworden	VAPP	werden	_	O	O	
+9-24	ist	VAFIN	sein	_	O	O	
+9-25	.	$.	.	_	O	O	
+
+#id=10
+#text=Von Wilkinsons Customs und Manners suche ich die 11 Series, falls sie unter dem Ladenpreis bei Ihren englischen Wanderungen Ihnen begegnet.
+10-1	Von	APPR	von	_	O	O	
+10-2	Wilkinsons	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-3	Customs	NE	<unknown>	_	O	O	
+10-4	und	KON	und	_	O	O	
+10-5	Manners	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-6	suche	VVFIN	suchen	_	O	O	
+10-7	ich	PPER	ich	_	O	O	
+10-8	die	ART	die	_	O	O	
+10-9	11	CARD	11	_	O	O	
+10-10	Series	NN	<unknown>	_	O	O	
+10-11	,	$,	,	_	O	O	
+10-12	falls	KOUS	falls	_	O	O	
+10-13	sie	PPER	sie	_	O	O	
+10-14	unter	APPR	unter	_	O	O	
+10-15	dem	ART	die	_	O	O	
+10-16	Ladenpreis	NN	Ladenpreis	_	O	O	
+10-17	bei	APPR	bei	_	O	O	
+10-18	Ihren	PPOSAT	ihr	_	O	O	
+10-19	englischen	ADJA	englisch	_	O	O	
+10-20	Wanderungen	NN	Wanderung	_	O	O	
+10-21	Ihnen	PPER	Sie	_	O	O	
+10-22	begegnet	VVPP	begegnen	_	O	O	
+10-23	.	$.	.	_	O	O	
+
+#id=11
+#text=11/7.
+11-1	11/7	CARD	11/7	_	O	O	
+11-2	.	$.	.	_	O	O	
+

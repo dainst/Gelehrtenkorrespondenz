@@ -1,0 +1,96 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=105 11/IV/5 1 + Verehrter Herr Professor Henzen an Gerhad Endlich []chicke i.ch Ihnen 3 Exemplare Programme, Sie bittend, eines für Se.
+1-1	105	CARD	@card@	_	O	O	
+1-2	11/IV/5	CARD	<unknown>	_	O	O	
+1-3	1	CARD	1	_	O	O	
+1-4	+	KON	+	_	O	O	
+1-5	Verehrter	ADJA	verehrt	_	O	O	
+1-6	Herr	NN	Herr	_	O	O	
+1-7	Professor	NN	Professor	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-9	an	APPR	an	_	O	O	
+1-10	Gerhad	NE	Gerhad	_	O	O	
+1-11	Endlich	ADV	endlich	_	O	O	
+1-12	[	$(	[	_	O	O	
+1-13	]chicke	NN	<unknown>	_	O	O	
+1-14	i.ch	VVFIN	<unknown>	_	O	O	
+1-15	Ihnen	PPER	Sie	_	O	O	
+1-16	3	CARD	3	_	O	O	
+1-17	Exemplare	NN	Exemplar	_	O	O	
+1-18	Programme	NN	Programm	_	O	O	
+1-19	,	$,	,	_	O	O	
+1-20	Sie	PPER	Sie	_	O	O	
+1-21	bittend	ADJD	bittend	_	O	O	
+1-22	,	$,	,	_	O	O	
+1-23	eines	PIS	eine	_	O	O	
+1-24	für	APPR	für	_	O	O	
+1-25	Se	NE	<UNKNOWN>	_	O	O	
+1-26	.	$.	.	_	O	O	
+
+#id=2
+#text=Maj.
+2-1	Maj	NE	Maj	_	O	O	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=sch6nstens gebunden an Usedom zu geben, ein zweites demselben für ihn selber, das dritte für Sich zu behalten.
+3-1	sch6nstens	NN	<unknown>	_	O	O	
+3-2	gebunden	VVPP	binden	_	O	O	
+3-3	an	APPR	an	_	O	O	
+3-4	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	zu	PTKZU	zu	_	O	O	
+3-6	geben	VVINF	geben	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	ein	ART	eine	_	O	O	
+3-9	zweites	ADJA	zweit	_	O	O	
+3-10	demselben	PDS	dieselbe	_	O	O	
+3-11	für	APPR	für	_	O	O	
+3-12	ihn	PPER	er	_	O	O	
+3-13	selber	ADV	selber	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	das	ART	die	_	O	O	
+3-16	dritte	ADJA	dritt	_	O	O	
+3-17	für	APPR	für	_	O	O	
+3-18	Sich	PRF	sich	_	O	O	
+3-19	zu	PTKZU	zu	_	O	O	
+3-20	behalten	VVINF	behalten	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Einder noch nicht angekomrren.
+4-1	Einder	NN	<unknown>	_	O	O	
+4-2	noch	ADV	noch	_	O	O	
+4-3	nicht	PTKNEG	nicht	_	O	O	
+4-4	angekomrren	VVPP	<unknown>	_	O	O	
+4-5	.	$.	.	_	O	O	
+
+#id=5
+#text=Ibr W Hz.
+5-1	Ibr	NE	<unknown>	_	O	O	
+5-2	W	NN	W	_	O	O	
+5-3	Hz	NN	Hz	_	O	O	
+5-4	.	$.	.	_	O	O	
+
+#id=6
+#text=11/IV 54 Diplom fiir Se.
+6-1	11/IV	CARD	<unknown>	_	O	O	
+6-2	54	CARD	54	_	O	O	
+6-3	Diplom	NN	Diplom	_	O	O	
+6-4	fiir	NE	<unknown>	_	O	O	
+6-5	Se	NE	<UNKNOWN>	_	O	O	
+6-6	.	$.	.	_	O	O	
+
+#id=7
+#text=rl.
+7-1	rl.	NE	<unknown>	_	O	O	
+
+#id=8
+#text=Hobei t noch immer nicht 1
+8-1	Hobei	ADV	<unknown>	_	O	O	
+8-2	t	NN	t	_	O	O	
+8-3	noch	ADV	noch	_	O	O	
+8-4	immer	ADV	immer	_	O	O	
+8-5	nicht	PTKNEG	nicht	_	O	O	
+8-6	1	CARD	1	_	O	O	
+

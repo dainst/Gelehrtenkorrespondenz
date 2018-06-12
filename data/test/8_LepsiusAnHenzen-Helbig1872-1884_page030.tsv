@@ -1,0 +1,235 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Verehrter Freund Lepsius an Renzen Berlin, 7. April 1872 g. 10/4 72 r.
+1-1	Verehrter	ADJA	verehrt	_	O	O	
+1-2	Freund	NE	Freund	_	O	O	
+1-3	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	10/4	CARD	10/4	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=13/4 72 B. d. 7. April 1872 Gestern erhielt ich die officielle Anzeige von Parthey's Tod, nachdem schon vorher das Gerücht zu mir gedrungen war.
+2-1	13/4	CARD	@card@	_	O	O	
+2-2	72	CARD	72	_	O	O	
+2-3	B.	NN	B.	_	O	O	
+2-4	d.	ART	d.	_	O	O	
+2-5	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	Gestern	NN	Gestern	_	O	O	
+2-10	erhielt	VVFIN	erhalten	_	O	O	
+2-11	ich	PPER	ich	_	O	O	
+2-12	die	ART	die	_	O	O	
+2-13	officielle	ADJA	<unknown>	_	O	O	
+2-14	Anzeige	NN	Anzeige	_	O	O	
+2-15	von	APPR	von	_	O	O	
+2-16	Parthey's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-17	Tod	NN	Tod	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	nachdem	KOUS	nachdem	_	O	O	
+2-20	schon	ADV	schon	_	O	O	
+2-21	vorher	ADV	vorher	_	O	O	
+2-22	das	ART	die	_	O	O	
+2-23	Gerücht	NN	Gerücht	_	O	O	
+2-24	zu	APPR	zu	_	O	O	
+2-25	mir	PPER	ich	_	O	O	
+2-26	gedrungen	VVPP	dringen	_	O	O	
+2-27	war	VAFIN	sein	_	O	O	
+2-28	.	$.	.	_	O	O	
+
+#id=3
+#text=Sein Sohn, den ich am 1. April sprach, wußte noch nichts von der raschen Wendung seiner zweiten Krankheit - denn die Pocken hatte er ja wohl gänzlich überstanden.
+3-1	Sein	PPOSAT	sein	_	O	O	
+3-2	Sohn	NN	Sohn	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	den	PRELS	die	_	O	O	
+3-5	ich	PPER	ich	_	O	O	
+3-6	am	APPRART	an	_	O	O	
+3-7	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-10	sprach	VVFIN	sprechen	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	wußte	VVFIN	wissen	_	O	O	
+3-13	noch	ADV	noch	_	O	O	
+3-14	nichts	PIS	nichts	_	O	O	
+3-15	von	APPR	von	_	O	O	
+3-16	der	ART	die	_	O	O	
+3-17	raschen	ADJA	rasch	_	O	O	
+3-18	Wendung	NN	Wendung	_	O	O	
+3-19	seiner	PPOSAT	sein	_	O	O	
+3-20	zweiten	ADJA	zweit	_	O	O	
+3-21	Krankheit	NN	Krankheit	_	O	O	
+3-22	-	$(	-	_	O	O	
+3-23	denn	KON	denn	_	O	O	
+3-24	die	ART	die	_	O	O	
+3-25	Pocken	NN	Pocke	_	O	O	
+3-26	hatte	VAFIN	haben	_	O	O	
+3-27	er	PPER	er	_	O	O	
+3-28	ja	ADV	ja	_	O	O	
+3-29	wohl	ADV	wohl	_	O	O	
+3-30	gänzlich	ADJD	gänzlich	_	O	O	
+3-31	überstanden	VVPP	überstehen	_	O	O	
+3-32	.	$.	.	_	O	O	
+
+#id=4
+#text=Wir nehmen jetzt namentlich Theil an der traurigen Lage seiner Tochter Veronica.
+4-1	Wir	PPER	wir	_	O	O	
+4-2	nehmen	VVFIN	nehmen	_	O	O	
+4-3	jetzt	ADV	jetzt	_	O	O	
+4-4	namentlich	ADJD	namentlich	_	O	O	
+4-5	Theil	NN	<unknown>	_	O	O	
+4-6	an	APPR	an	_	O	O	
+4-7	der	ART	die	_	O	O	
+4-8	traurigen	ADJA	traurig	_	O	O	
+4-9	Lage	NN	Lage	_	O	O	
+4-10	seiner	PPOSAT	sein	_	O	O	
+4-11	Tochter	NN	Tochter	_	O	O	
+4-12	Veronica	NE	Veronica	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Ist denn wohl dafür gesorgt worden, daß seine Todesmaske abgenommen wurde?
+5-1	Ist	VAFIN	sein	_	O	O	
+5-2	denn	ADV	denn	_	O	O	
+5-3	wohl	ADV	wohl	_	O	O	
+5-4	dafür	PAV	dafür	_	O	O	
+5-5	gesorgt	VVPP	sorgen	_	O	O	
+5-6	worden	VAPP	werden	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	daß	KOUS	dass	_	O	O	
+5-9	seine	PPOSAT	sein	_	O	O	
+5-10	Todesmaske	NN	<unknown>	_	O	O	
+5-11	abgenommen	VVPP	abnehmen	_	O	O	
+5-12	wurde	VAFIN	werden	_	O	O	
+5-13	?	$.	?	_	O	O	
+
+#id=6
+#text=Denn ich fand es eine recht passende Idee, seine Büste in der Institutsbibliothek aufstelHm zu"lassen, wie Sie einmal den Vorschlag machten.
+6-1	Denn	KON	denn	_	O	O	
+6-2	ich	PPER	ich	_	O	O	
+6-3	fand	VVFIN	finden	_	O	O	
+6-4	es	PPER	es	_	O	O	
+6-5	eine	ART	eine	_	O	O	
+6-6	recht	ADJD	recht	_	O	O	
+6-7	passende	ADJA	passend	_	O	O	
+6-8	Idee	NN	Idee	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	seine	PPOSAT	sein	_	O	O	
+6-11	Büste	NN	Büste	_	O	O	
+6-12	in	APPR	in	_	O	O	
+6-13	der	ART	die	_	O	O	
+6-14	Institutsbibliothek	NN	Institutsbibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-15	aufstelHm	ADJA	<unknown>	_	O	O	
+6-16	zu"lassen	NN	<unknown>	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	wie	KOUS	wie	_	O	O	
+6-19	Sie	PPER	Sie	_	O	O	
+6-20	einmal	ADV	einmal	_	O	O	
+6-21	den	ART	die	_	O	O	
+6-22	Vorschlag	NN	Vorschlag	_	O	O	
+6-23	machten	VVFIN	machen	_	O	O	
+6-24	.	$.	.	_	O	O	
+
+#id=7
+#text=Über die Institutspläne erwarten Sie noch einzelne Bestimmungen der Central Direktion.
+7-1	Über	APPR	über	_	O	O	
+7-2	die	ART	die	_	O	O	
+7-3	Institutspläne	NN	<unknown>	_	O	O	
+7-4	erwarten	VVFIN	erwarten	_	O	O	
+7-5	Sie	PPER	Sie	_	O	O	
+7-6	noch	ADV	noch	_	O	O	
+7-7	einzelne	ADJA	einzeln	_	O	O	
+7-8	Bestimmungen	NN	Bestimmung	_	O	O	
+7-9	der	ART	die	_	O	O	
+7-10	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-11	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+7-12	.	$.	.	_	O	O	
+
+#id=8
+#text=Vorläufig aber läßt sich darüber gar nichts von unsrer Seite sagen, und ich halte es auch für besser daß Laspeyres die Arbeiten einstweilen suspendirt, bis hier erst die allgemeinen Fragen erledigt oder doch geklärt sind.
+8-1	Vorläufig	ADJD	vorläufig	_	O	O	
+8-2	aber	ADV	aber	_	O	O	
+8-3	läßt	VVFIN	lassen	_	O	O	
+8-4	sich	PRF	sich	_	O	O	
+8-5	darüber	PAV	darüber	_	O	O	
+8-6	gar	ADV	gar	_	O	O	
+8-7	nichts	PIS	nichts	_	O	O	
+8-8	von	APPR	von	_	O	O	
+8-9	unsrer	PPOSAT	unser	_	O	O	
+8-10	Seite	NN	Seite	_	O	O	
+8-11	sagen	VVINF	sagen	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	und	KON	und	_	O	O	
+8-14	ich	PPER	ich	_	O	O	
+8-15	halte	VVFIN	halten	_	O	O	
+8-16	es	PPER	es	_	O	O	
+8-17	auch	ADV	auch	_	O	O	
+8-18	für	APPR	für	_	O	O	
+8-19	besser	ADJD	gut	_	O	O	
+8-20	daß	KOUS	dass	_	O	O	
+8-21	Laspeyres	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-22	die	ART	die	_	O	O	
+8-23	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+8-24	einstweilen	ADV	einstweilen	_	O	O	
+8-25	suspendirt	NN	<unknown>	_	O	O	
+8-26	,	$,	,	_	O	O	
+8-27	bis	KON	bis	_	O	O	
+8-28	hier	ADV	hier	_	O	O	
+8-29	erst	ADV	erst	_	O	O	
+8-30	die	ART	die	_	O	O	
+8-31	allgemeinen	ADJA	allgemein	_	O	O	
+8-32	Fragen	NN	Frage	_	O	O	
+8-33	erledigt	VVPP	erledigen	_	O	O	
+8-34	oder	KON	oder	_	O	O	
+8-35	doch	ADV	doch	_	O	O	
+8-36	geklärt	VVPP	klären	_	O	O	
+8-37	sind	VAFIN	sein	_	O	O	
+8-38	.	$.	.	_	O	O	
+
+#id=9
+#text=Die Sache liegt jetzt so, daß nun doch alle Schriftstücke, samt den Plänen und den Kostenanschlägen, ganz im allgemeinen (also ohne die Specialisirung der 105.000 r,)
+9-1	Die	ART	die	_	O	O	
+9-2	Sache	NN	Sache	_	O	O	
+9-3	liegt	VVFIN	liegen	_	O	O	
+9-4	jetzt	ADV	jetzt	_	O	O	
+9-5	so	ADV	so	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	daß	KOUS	dass	_	O	O	
+9-8	nun	ADV	nun	_	O	O	
+9-9	doch	ADV	doch	_	O	O	
+9-10	alle	PIAT	alle	_	O	O	
+9-11	Schriftstücke	NN	Schriftstück	_	O	O	
+9-12	,	$,	,	_	O	O	
+9-13	samt	APPR	samt	_	O	O	
+9-14	den	ART	die	_	O	O	
+9-15	Plänen	NN	Plan	_	O	O	
+9-16	und	KON	und	_	O	O	
+9-17	den	ART	die	_	O	O	
+9-18	Kostenanschlägen	NN	<unknown>	_	O	O	
+9-19	,	$,	,	_	O	O	
+9-20	ganz	ADV	ganz	_	O	O	
+9-21	im	APPRART	in	_	O	O	
+9-22	allgemeinen	ADJA	allgemein	_	O	O	
+9-23	(	$(	(	_	O	O	
+9-24	also	ADV	also	_	O	O	
+9-25	ohne	APPR	ohne	_	O	O	
+9-26	die	ART	die	_	O	O	
+9-27	Specialisirung	NN	<unknown>	_	O	O	
+9-28	der	ART	die	_	O	O	
+9-29	105.000	CARD	@card@	_	O	O	
+9-30	r	NE	r	_	O	O	
+9-31	,	$,	,	_	O	O	
+9-32	)	$(	)	_	O	O	
+

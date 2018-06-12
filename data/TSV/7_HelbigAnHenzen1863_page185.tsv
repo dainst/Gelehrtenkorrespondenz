@@ -1,0 +1,234 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=7 !
+1-1	7	CARD	7	_	O	O	
+1-2	!	$.	!	_	O	O	
+
+#id=2
+#text=Helbig an Henzen Rom, 14. Juli 1873 Roma, li 14. Juli 1873 Lieber Herr Professor Obwohl es eigentlich nichts zu schreiben giebt, so will ich doch nicht unterlassen, Ihnen ein Lebenszeichen zu geben.
+2-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-11	,	$,	,	_	O	O	
+2-12	li	ADJD	<unknown>	_	O	O	
+2-13	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-14	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-15	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-16	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-17	Lieber	ADJA	lieb	_	O	O	
+2-18	Herr	NN	Herr	_	O	O	
+2-19	Professor	NN	Professor	_	O	O	
+2-20	Obwohl	KOUS	obwohl	_	O	O	
+2-21	es	PPER	es	_	O	O	
+2-22	eigentlich	ADV	eigentlich	_	O	O	
+2-23	nichts	PIS	nichts	_	O	O	
+2-24	zu	PTKZU	zu	_	O	O	
+2-25	schreiben	VVINF	schreiben	_	O	O	
+2-26	giebt	VVFIN	<unknown>	_	O	O	
+2-27	,	$,	,	_	O	O	
+2-28	so	ADV	so	_	O	O	
+2-29	will	VMFIN	wollen	_	O	O	
+2-30	ich	PPER	ich	_	O	O	
+2-31	doch	ADV	doch	_	O	O	
+2-32	nicht	PTKNEG	nicht	_	O	O	
+2-33	unterlassen	VVPP	unterlassen	_	O	O	
+2-34	,	$,	,	_	O	O	
+2-35	Ihnen	PPER	Sie	_	O	O	
+2-36	ein	ART	eine	_	O	O	
+2-37	Lebenszeichen	NN	Lebenszeichen	_	O	O	
+2-38	zu	PTKZU	zu	_	O	O	
+2-39	geben	VVINF	geben	_	O	O	
+2-40	.	$.	.	_	O	O	
+
+#id=3
+#text=Daß Laspeyres wieder hergestellt ist, wissen Sie bereits.
+3-1	Daß	KOUS	dass	_	O	O	
+3-2	Laspeyres	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	wieder	ADV	wieder	_	O	O	
+3-4	hergestellt	VVPP	herstellen	_	O	O	
+3-5	ist	VAFIN	sein	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	wissen	VVFIN	wissen	_	O	O	
+3-8	Sie	PPER	Sie	_	O	O	
+3-9	bereits	ADV	bereits	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Er reist heute Nachmittag 4 Uhr nach Assisi und wird Ihnen von dort aus schreiben.
+4-1	Er	PPER	er	_	O	O	
+4-2	reist	VVFIN	reisen	_	O	O	
+4-3	heute	ADV	heute	_	O	O	
+4-4	Nachmittag	ADV	nachmittag	_	O	O	
+4-5	4	CARD	4	_	O	O	
+4-6	Uhr	NN	Uhr	_	O	O	
+4-7	nach	APPR	nach	_	O	O	
+4-8	Assisi	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-9	und	KON	und	_	O	O	
+4-10	wird	VAFIN	werden	_	O	O	
+4-11	Ihnen	PPER	Sie	_	O	O	
+4-12	von	APPR	von	_	O	O	
+4-13	dort	ADV	dort	_	O	O	
+4-14	aus	APZR	aus	_	O	O	
+4-15	schreiben	VVINF	schreiben	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Von Hirschfeld sind zwei Artikel über kleinasiatische Funde eingetroffen, die ich Dressel zum übersetzen gegeben.
+5-1	Von	APPR	von	_	O	O	
+5-2	Hirschfeld	NN	Hirschfeld	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	sind	VAFIN	sein	_	O	O	
+5-4	zwei	CARD	zwei	_	O	O	
+5-5	Artikel	NN	Artikel	_	O	O	
+5-6	über	APPR	über	_	O	O	
+5-7	kleinasiatische	ADJA	kleinasiatisch	_	O	O	
+5-8	Funde	NN	Fund	_	O	O	
+5-9	eingetroffen	VVPP	eintreffen	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	die	PRELS	die	_	O	O	
+5-12	ich	PPER	ich	_	O	O	
+5-13	Dressel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-14	zum	APPRART	zu	_	O	O	
+5-15	übersetzen	VVFIN	übersetzen	_	O	O	
+5-16	gegeben	VVPP	geben	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Er hat sie mit einem de - und wehmüthigen Briefe begleitet der Judenjunge, wie er im Buche steht.
+6-1	Er	PPER	er	_	O	O	
+6-2	hat	VAFIN	haben	_	O	O	
+6-3	sie	PPER	sie	_	O	O	
+6-4	mit	APPR	mit	_	O	O	
+6-5	einem	ART	eine	_	O	O	
+6-6	de	NE	de	_	O	O	
+6-7	-	$(	-	_	O	O	
+6-8	und	KON	und	_	O	O	
+6-9	wehmüthigen	ADJA	<unknown>	_	O	O	
+6-10	Briefe	NN	Brief	_	O	O	
+6-11	begleitet	VVFIN	begleiten	_	O	O	
+6-12	der	ART	die	_	O	O	
+6-13	Judenjunge	NN	Judenjunge	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	wie	KOUS	wie	_	O	O	
+6-16	er	PPER	er	_	O	O	
+6-17	im	APPRART	in	_	O	O	
+6-18	Buche	NN	Buche	_	O	O	
+6-19	steht	VVFIN	stehen	_	O	O	
+6-20	.	$.	.	_	O	O	
+
+#id=7
+#text=Wilamovitz hat einen vortrefflichen Artikel über die Capuaner Ausgrabungen eingeschickt und beifolgende Copie einer neapolitaner Inschriftenschede.
+7-1	Wilamovitz	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	hat	VAFIN	haben	_	O	O	
+7-3	einen	ART	eine	_	O	O	
+7-4	vortrefflichen	ADJA	vortrefflich	_	O	O	
+7-5	Artikel	NN	Artikel	_	O	O	
+7-6	über	APPR	über	_	O	O	
+7-7	die	ART	die	_	O	O	
+7-8	Capuaner	NN	<unknown>	_	O	O	
+7-9	Ausgrabungen	NN	Ausgrabung	_	O	O	
+7-10	eingeschickt	VVPP	einschicken	_	O	O	
+7-11	und	KON	und	_	O	O	
+7-12	beifolgende	ADJA	<unknown>	_	O	O	
+7-13	Copie	NN	<unknown>	_	O	O	
+7-14	einer	ART	eine	_	O	O	
+7-15	neapolitaner	ADJA	<unknown>	_	O	O	
+7-16	Inschriftenschede	NN	<unknown>	_	O	O	
+7-17	.	$.	.	_	O	O	
+
+#id=8
+#text=Da Sie dieselbe so schmerzlich erwarteten, so glaube ich in Ihrem Sinne zu handeln, wenn ich sie beilege.
+8-1	Da	KOUS	da	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	dieselbe	PDS	dieselbe	_	O	O	
+8-4	so	ADV	so	_	O	O	
+8-5	schmerzlich	ADJD	schmerzlich	_	O	O	
+8-6	erwarteten	VVFIN	erwarten	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	so	ADV	so	_	O	O	
+8-9	glaube	VVFIN	glauben	_	O	O	
+8-10	ich	PPER	ich	_	O	O	
+8-11	in	APPR	in	_	O	O	
+8-12	Ihrem	PPOSAT	ihr	_	O	O	
+8-13	Sinne	NN	Sinn	_	O	O	
+8-14	zu	PTKZU	zu	_	O	O	
+8-15	handeln	VVINF	handeln	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	wenn	KOUS	wenn	_	O	O	
+8-18	ich	PPER	ich	_	O	O	
+8-19	sie	PPER	sie	_	O	O	
+8-20	beilege	VVFIN	beilegen	_	O	O	
+8-21	.	$.	.	_	O	O	
+
+#id=9
+#text=In Chiusi gehen die Ausgrabungen fort.
+9-1	In	APPR	in	_	O	O	
+9-2	Chiusi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-3	gehen	VVFIN	gehen	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	Ausgrabungen	NN	Ausgrabung	_	O	O	
+9-6	fort	PTKVZ	fort	_	O	O	
+9-7	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich werde, wenn ich wieder nordwärts gehe, wiederum meinen Weg über Chiusi nehmen müssen.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	werde	VAFIN	werden	_	O	O	
+10-3	,	$,	,	_	O	O	
+10-4	wenn	KOUS	wenn	_	O	O	
+10-5	ich	PPER	ich	_	O	O	
+10-6	wieder	ADV	wieder	_	O	O	
+10-7	nordwärts	ADV	nordwärts	_	O	O	
+10-8	gehe	VVFIN	gehen	_	O	O	
+10-9	,	$,	,	_	O	O	
+10-10	wiederum	ADV	wiederum	_	O	O	
+10-11	meinen	PPOSAT	mein	_	O	O	
+10-12	Weg	NN	Weg	_	O	O	
+10-13	über	APPR	über	_	O	O	
+10-14	Chiusi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-15	nehmen	VVINF	nehmen	_	O	O	
+10-16	müssen	VMFIN	müssen	_	O	O	
+10-17	.	$.	.	_	O	O	
+
+#id=11
+#text=Aus Achern habe ich gute Nachrichten.
+11-1	Aus	APPR	aus	_	O	O	
+11-2	Achern	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-3	habe	VAFIN	haben	_	O	O	
+11-4	ich	PPER	ich	_	O	O	
+11-5	gute	ADJA	gut	_	O	O	
+11-6	Nachrichten	NN	Nachricht	_	O	O	
+11-7	.	$.	.	_	O	O	
+
+#id=12
+#text=Die Hitze ist hier ganz unerträglich.
+12-1	Die	ART	die	_	O	O	
+12-2	Hitze	NN	Hitze	_	O	O	
+12-3	ist	VAFIN	sein	_	O	O	
+12-4	hier	ADV	hier	_	O	O	
+12-5	ganz	ADV	ganz	_	O	O	
+12-6	unerträglich	ADJD	unerträglich	_	O	O	
+12-7	.	$.	.	_	O	O	
+
+#id=13
+#text=Gttern hatte Pellegrini Flasch, Brizio und mich auf seine Besitzung in Poggio
+13-1	Gttern	NN	<unknown>	_	O	O	
+13-2	hatte	VAFIN	haben	_	O	O	
+13-3	Pellegrini	NE	Pellegrini	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-4	Flasch	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+13-5	,	$,	,	_	O	O	
+13-6	Brizio	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-7	und	KON	und	_	O	O	
+13-8	mich	PRF	ich	_	O	O	
+13-9	auf	APPR	auf	_	O	O	
+13-10	seine	PPOSAT	sein	_	O	O	
+13-11	Besitzung	NN	<unknown>	_	O	O	
+13-12	in	APPR	in	_	O	O	
+13-13	Poggio	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+

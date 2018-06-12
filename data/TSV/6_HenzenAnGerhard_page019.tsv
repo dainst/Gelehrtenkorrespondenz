@@ -1,0 +1,292 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Ohne Nummer Henzen an Gerhard 9/X/51 3 lVlainz fuhren, ist noch nicht zurück.
+1-1	Ohne	APPR	ohne	_	O	O	
+1-2	Nummer	NN	Nummer	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	9/X/51	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	3	CARD	3	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	lVlainz	NN	<unknown>	_	O	O	
+1-9	fuhren	VVFIN	fahren	_	O	O	
+1-10	,	$,	,	_	O	O	
+1-11	ist	VAFIN	sein	_	O	O	
+1-12	noch	ADV	noch	_	O	O	
+1-13	nicht	PTKNEG	nicht	_	O	O	
+1-14	zurück	PTKVZ	zurück	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=Usedom weilt meistens in Frascati; seine Wohnung soll ganz neu u. sehr glänzend eingerichtet werden, u. scheint im Winter bei ihm ein großes Haus gemacht werden zu sollen.
+2-1	Usedom	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	weilt	VVFIN	weilen	_	O	O	
+2-3	meistens	ADV	meistens	_	O	O	
+2-4	in	APPR	in	_	O	O	
+2-5	Frascati	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-6	;	$.	;	_	O	O	
+2-7	seine	PPOSAT	sein	_	O	O	
+2-8	Wohnung	NN	Wohnung	_	O	O	
+2-9	soll	VMFIN	sollen	_	O	O	
+2-10	ganz	ADV	ganz	_	O	O	
+2-11	neu	ADJD	neu	_	O	O	
+2-12	u.	APPR	um	_	O	O	
+2-13	sehr	ADV	sehr	_	O	O	
+2-14	glänzend	ADJD	glänzend	_	O	O	
+2-15	eingerichtet	VVPP	einrichten	_	O	O	
+2-16	werden	VAINF	werden	_	O	O	
+2-17	,	$,	,	_	O	O	
+2-18	u.	KON	und	_	O	O	
+2-19	scheint	VVFIN	scheinen	_	O	O	
+2-20	im	APPRART	in	_	O	O	
+2-21	Winter	NN	Winter	_	O	O	
+2-22	bei	APPR	bei	_	O	O	
+2-23	ihm	PPER	er	_	O	O	
+2-24	ein	ART	eine	_	O	O	
+2-25	großes	ADJA	groß	_	O	O	
+2-26	Haus	NN	Haus	_	O	O	
+2-27	gemacht	VVPP	machen	_	O	O	
+2-28	werden	VAINF	werden	_	O	O	
+2-29	zu	PTKZU	zu	_	O	O	
+2-30	sollen	VMINF	sollen	_	O	O	
+2-31	.	$.	.	_	O	O	
+
+#id=3
+#text=Schulz ist wieder ziemlich hergestellt; die Bethmann noch ziemlich leidend.
+3-1	Schulz	NE	Schulz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	wieder	ADV	wieder	_	O	O	
+3-4	ziemlich	ADV	ziemlich	_	O	O	
+3-5	hergestellt	VVPP	herstellen	_	O	O	
+3-6	;	$.	;	_	O	O	
+3-7	die	ART	die	_	O	O	
+3-8	Bethmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-9	noch	ADV	noch	_	O	O	
+3-10	ziemlich	ADV	ziemlich	_	O	O	
+3-11	leidend	ADJD	leidend	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Mit Steinhammers fuhren wir von Genua nach Livorno zusammen; von wo sie noch nach Florenz gingen, ds.
+4-1	Mit	APPR	mit	_	O	O	
+4-2	Steinhammers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	fuhren	VVFIN	fahren	_	O	O	
+4-4	wir	PPER	wir	_	O	O	
+4-5	von	APPR	von	_	O	O	
+4-6	Genua	NE	Genua	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-7	nach	APPR	nach	_	O	O	
+4-8	Livorno	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-9	zusammen	PTKVZ	zusammen	_	O	O	
+4-10	;	$.	;	_	O	O	
+4-11	von	APPR	von	_	O	O	
+4-12	wo	PWAV	wo	_	O	O	
+4-13	sie	PPER	sie	_	O	O	
+4-14	noch	ADV	noch	_	O	O	
+4-15	nach	APPR	nach	_	O	O	
+4-16	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-17	gingen	VVFIN	gehen	_	O	O	
+4-18	,	$,	,	_	O	O	
+4-19	ds.	ADJD	<unknown>	_	O	O	
+
+#id=5
+#text=meiner Schwägerin noch unbekannt.
+5-1	meiner	PPOSAT	mein	_	O	O	
+5-2	Schwägerin	NN	Schwägerin	_	O	O	
+5-3	noch	ADV	noch	_	O	O	
+5-4	unbekannt	ADJD	unbekannt	_	O	O	
+5-5	.	$.	.	_	O	O	
+
+#id=6
+#text=Sie werden zu Anfange nächster Woche ankommen.
+6-1	Sie	PPER	Sie	_	O	O	
+6-2	werden	VAFIN	werden	_	O	O	
+6-3	zu	APPR	zu	_	O	O	
+6-4	Anfange	NN	<unknown>	_	O	O	
+6-5	nächster	ADJA	nah	_	O	O	
+6-6	Woche	NN	Woche	_	O	O	
+6-7	ankommen	VVINF	ankommen	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=Philippi traf gestern früh wieder hier ein, u. ist demnach für mich ein angenehmer Gefährte für den ~inter gesichert.
+7-1	Philippi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	traf	VVFIN	treffen	_	O	O	
+7-3	gestern	ADV	gestern	_	O	O	
+7-4	früh	ADJD	früh	_	O	O	
+7-5	wieder	ADV	wieder	_	O	O	
+7-6	hier	ADV	hier	_	O	O	
+7-7	ein	PTKVZ	ein	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	u.	KON	und	_	O	O	
+7-10	ist	VAFIN	sein	_	O	O	
+7-11	demnach	PAV	demnach	_	O	O	
+7-12	für	APPR	für	_	O	O	
+7-13	mich	PPER	ich	_	O	O	
+7-14	ein	ART	eine	_	O	O	
+7-15	angenehmer	ADJA	angenehm	_	O	O	
+7-16	Gefährte	NN	Gefährt|Gefährte	_	O	O	
+7-17	für	APPR	für	_	O	O	
+7-18	den	ART	die	_	O	O	
+7-19	~inter	NN	<unknown>	_	O	O	
+7-20	gesichert	VVPP	sichern	_	O	O	
+7-21	.	$.	.	_	O	O	
+
+#id=8
+#text=Hier, scheint es, soll uns endlich noch ein schBner October als Ersatz für die vielen Regentage werden.
+8-1	Hier	ADV	hier	_	O	O	
+8-2	,	$,	,	_	O	O	
+8-3	scheint	VVFIN	scheinen	_	O	O	
+8-4	es	PPER	es	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	soll	VMFIN	sollen	_	O	O	
+8-7	uns	PPER	wir	_	O	O	
+8-8	endlich	ADV	endlich	_	O	O	
+8-9	noch	ADV	noch	_	O	O	
+8-10	ein	ART	eine	_	O	O	
+8-11	schBner	NE	<unknown>	_	O	O	
+8-12	October	VVFIN	<unknown>	_	O	O	
+8-13	als	KOKOM	als	_	O	O	
+8-14	Ersatz	NN	Ersatz	_	O	O	
+8-15	für	APPR	für	_	O	O	
+8-16	die	ART	die	_	O	O	
+8-17	vielen	PIAT	viele	_	O	O	
+8-18	Regentage	NN	Regentag	_	O	O	
+8-19	werden	VAINF	werden	_	O	O	
+8-20	.	$.	.	_	O	O	
+
+#id=9
+#text=Es ist so warm, dß.
+9-1	Es	PPER	es	_	O	O	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	so	ADV	so	_	O	O	
+9-4	warm	ADJD	warm	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	dß	VVFIN	<unknown>	_	O	O	
+9-7	.	$.	.	_	O	O	
+
+#id=10
+#text=ich vor allen Dingen die Sommerkleider hervorgesucht habe, u. ein heftiges Gewitter hat auch endlich den Scirocco vertrieben u. einen klaren, heiteren Himmel geschaffen.
+10-1	ich	PPER	ich	_	O	O	
+10-2	vor	APPR	vor	_	O	O	
+10-3	allen	PIAT	alle	_	O	O	
+10-4	Dingen	NN	Ding	_	O	O	
+10-5	die	ART	die	_	O	O	
+10-6	Sommerkleider	NN	Sommerkleid	_	O	O	
+10-7	hervorgesucht	VVPP	<unknown>	_	O	O	
+10-8	habe	VAFIN	haben	_	O	O	
+10-9	,	$,	,	_	O	O	
+10-10	u.	APPR	um	_	O	O	
+10-11	ein	ART	eine	_	O	O	
+10-12	heftiges	ADJA	heftig	_	O	O	
+10-13	Gewitter	NN	Gewitter	_	O	O	
+10-14	hat	VAFIN	haben	_	O	O	
+10-15	auch	ADV	auch	_	O	O	
+10-16	endlich	ADV	endlich	_	O	O	
+10-17	den	ART	die	_	O	O	
+10-18	Scirocco	NE	<unknown>	_	O	O	
+10-19	vertrieben	VVPP	vertreiben	_	O	O	
+10-20	u.	APPR	um	_	O	O	
+10-21	einen	ART	eine	_	O	O	
+10-22	klaren	ADJA	klar	_	O	O	
+10-23	,	$,	,	_	O	O	
+10-24	heiteren	ADJA	heiter	_	O	O	
+10-25	Himmel	NN	Himmel	_	O	O	
+10-26	geschaffen	VVPP	schaffen	_	O	O	
+10-27	.	$.	.	_	O	O	
+
+#id=11
+#text=Uebrigens scheint der Sommer hier sehr schlimm gewesen zu sein, namentlich der September ein steterScirocco U~ kBnnen wir auch d.nsofern uns glücklich schätzen, abwer send gewesen zu sein.
+11-1	Uebrigens	NN	<unknown>	_	O	O	
+11-2	scheint	VVFIN	scheinen	_	O	O	
+11-3	der	ART	die	_	O	O	
+11-4	Sommer	NN	Sommer	_	O	O	
+11-5	hier	ADV	hier	_	O	O	
+11-6	sehr	ADV	sehr	_	O	O	
+11-7	schlimm	ADJD	schlimm	_	O	O	
+11-8	gewesen	VAPP	sein	_	O	O	
+11-9	zu	PTKZU	zu	_	O	O	
+11-10	sein	VAINF	sein	_	O	O	
+11-11	,	$,	,	_	O	O	
+11-12	namentlich	ADJD	namentlich	_	O	O	
+11-13	der	ART	die	_	O	O	
+11-14	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+11-15	ein	ART	eine	_	O	O	
+11-16	steterScirocco	ADJA	<unknown>	_	O	O	
+11-17	U~	ADJA	<unknown>	_	O	O	
+11-18	kBnnen	NN	<unknown>	_	O	O	
+11-19	wir	PPER	wir	_	O	O	
+11-20	auch	ADV	auch	_	O	O	
+11-21	d.nsofern	VVFIN	<unknown>	_	O	O	
+11-22	uns	PPER	wir	_	O	O	
+11-23	glücklich	ADJD	glücklich	_	O	O	
+11-24	schätzen	VVINF	schätzen	_	O	O	
+11-25	,	$,	,	_	O	O	
+11-26	abwer	NN	<unknown>	_	O	O	
+11-27	send	ADJD	<unknown>	_	O	O	
+11-28	gewesen	VAPP	sein	_	O	O	
+11-29	zu	PTKZU	zu	_	O	O	
+11-30	sein	VAINF	sein	_	O	O	
+11-31	.	$.	.	_	O	O	
+
+#id=12
+#text=Ihrer Frau ergehen?
+12-1	Ihrer	PPOSAT	ihr	_	O	O	
+12-2	Frau	NN	Frau	_	O	O	
+12-3	ergehen	VVFIN	ergehen	_	O	O	
+12-4	?	$.	?	_	O	O	
+
+#id=13
+#text=Grüßen Sie Friedlaender, dem ich bald schreiben werde, u. wenn sich sonst Jemand meiner erinnert, u. behalten uie in freundlichem Andenken Ihren ergebenen w. Henzen Rom 9/X/51 r Zumptino ?
+13-1	Grüßen	VVFIN	grüßen	_	O	O	
+13-2	Sie	PPER	Sie	_	O	O	
+13-3	Friedlaender	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-4	,	$,	,	_	O	O	
+13-5	dem	PRELS	die	_	O	O	
+13-6	ich	PPER	ich	_	O	O	
+13-7	bald	ADV	bald	_	O	O	
+13-8	schreiben	VVINF	schreiben	_	O	O	
+13-9	werde	VAFIN	werden	_	O	O	
+13-10	,	$,	,	_	O	O	
+13-11	u.	APPR	um	_	O	O	
+13-12	wenn	KOUS	wenn	_	O	O	
+13-13	sich	PRF	sich	_	O	O	
+13-14	sonst	ADV	sonst	_	O	O	
+13-15	Jemand	NN	Jemand	_	O	O	
+13-16	meiner	PPOSAT	mein	_	O	O	
+13-17	erinnert	VVFIN	erinnern	_	O	O	
+13-18	,	$,	,	_	O	O	
+13-19	u.	KON	und	_	O	O	
+13-20	behalten	VVFIN	behalten	_	O	O	
+13-21	uie	ADJD	<unknown>	_	O	O	
+13-22	in	APPR	in	_	O	O	
+13-23	freundlichem	ADJA	freundlich	_	O	O	
+13-24	Andenken	NN	Andenken	_	O	O	
+13-25	Ihren	PPOSAT	ihr	_	O	O	
+13-26	ergebenen	ADJA	ergeben	_	O	O	
+13-27	w.	APPR	w.	_	O	O	
+13-28	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+13-29	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+13-30	9/X/51	CARD	<unknown>	_	O	O	
+13-31	r	NE	r	_	O	O	
+13-32	Zumptino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-33	?	$.	?	_	O	O	
+
+#id=14
+#text=l Beifolgende Zeilen sind oie wohl so gütig an Dr.
+14-1	l	NN	l	_	O	O	
+14-2	Beifolgende	ADJA	<unknown>	_	O	O	
+14-3	Zeilen	NN	Zeile	_	O	O	
+14-4	sind	VAFIN	sein	_	O	O	
+14-5	oie	ADJD	<unknown>	_	O	O	
+14-6	wohl	ADV	wohl	_	O	O	
+14-7	so	ADV	so	_	O	O	
+14-8	gütig	ADJD	gütig	_	O	O	
+14-9	an	APPR	an	_	O	O	
+14-10	Dr.	NN	Dr.	_	O	O	
+
+#id=15
+#text=~Hertz zu befBrdern
+15-1	~Hertz	NN	<unknown>	_	O	O	
+15-2	zu	PTKZU	zu	_	O	O	
+15-3	befBrdern	VVINF	<unknown>	_	O	O	
+

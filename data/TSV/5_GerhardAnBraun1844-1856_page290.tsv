@@ -1,0 +1,211 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=EduQ~d Gerhard an Emil Braun Berlin, 28. Februar 1856 g. 6.
+1-1	EduQ~d	NE	<unknown>	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Emil	NE	Emil	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1856	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	.	$.	.	_	O	O	
+
+#id=2
+#text=III.
+2-1	III.	NE	<unknown>	_	O	O	
+
+#id=3
+#text=56 r. 8.
+3-1	56	CARD	56	_	O	O	
+3-2	r.	NN	<unknown>	_	O	O	
+3-3	8	CARD	8	_	O	O	
+3-4	.	$.	.	_	O	O	
+
+#id=4
+#text=III.
+4-1	III.	NE	<unknown>	_	O	O	
+
+#id=5
+#text=56 Berlin 28 Febr 56 M(ein) Th(eurer) Fr(eund) Die verdrießliche Simonidesgeschichte unterliegt milderer Beurtheilung, wenn man die ägyptologischen Sympathieen unseres Königs, Böckhs jugendliche Wärme für einen wenn echt wichtigen Fund und die von Lepsius auf eigene Gefahr ermöglichte Prüfung neben dem unter Ehrenmännern kaum zu tadelndem Glauben an Dindorfs Urtheil erwägt, der hier die Handschrift nur zeigte ohne sie aus den Händen zu lassen.
+5-1	56	CARD	56	_	O	O	
+5-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+5-3	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+5-4	Febr	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+5-5	56	CARD	56	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+5-6	M(ein)	NN	<unknown>	_	O	O	
+5-7	Th(eurer)	VVFIN	<unknown>	_	O	O	
+5-8	Fr(eund)	NE	<unknown>	_	O	O	
+5-9	Die	ART	die	_	O	O	
+5-10	verdrießliche	ADJA	verdrießlich	_	O	O	
+5-11	Simonidesgeschichte	NN	<unknown>	_	O	O	
+5-12	unterliegt	VVFIN	unterliegen	_	O	O	
+5-13	milderer	ADJA	mild	_	O	O	
+5-14	Beurtheilung	NN	<unknown>	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	wenn	KOUS	wenn	_	O	O	
+5-17	man	PIS	man	_	O	O	
+5-18	die	ART	die	_	O	O	
+5-19	ägyptologischen	ADJA	<unknown>	_	O	O	
+5-20	Sympathieen	NN	<unknown>	_	O	O	
+5-21	unseres	PPOSAT	unser	_	O	O	
+5-22	Königs	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-23	,	$,	,	_	O	O	
+5-24	Böckhs	NN	<unknown>	_	O	O	
+5-25	jugendliche	ADJA	jugendlich	_	O	O	
+5-26	Wärme	NN	Wärme	_	O	O	
+5-27	für	APPR	für	_	O	O	
+5-28	einen	PIS	eine	_	O	O	
+5-29	wenn	KOUS	wenn	_	O	O	
+5-30	echt	ADJD	echt	_	O	O	
+5-31	wichtigen	ADJA	wichtig	_	O	O	
+5-32	Fund	NN	Fund	_	O	O	
+5-33	und	KON	und	_	O	O	
+5-34	die	ART	die	_	O	O	
+5-35	von	APPR	von	_	O	O	
+5-36	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-37	auf	APPR	auf	_	O	O	
+5-38	eigene	ADJA	eigen	_	O	O	
+5-39	Gefahr	NN	Gefahr	_	O	O	
+5-40	ermöglichte	ADJA	ermöglicht	_	O	O	
+5-41	Prüfung	NN	Prüfung	_	O	O	
+5-42	neben	APPR	neben	_	O	O	
+5-43	dem	ART	die	_	O	O	
+5-44	unter	APPR	unter	_	O	O	
+5-45	Ehrenmännern	NN	Ehrenmann	_	O	O	
+5-46	kaum	ADV	kaum	_	O	O	
+5-47	zu	APPR	zu	_	O	O	
+5-48	tadelndem	ADJA	tadelnd	_	O	O	
+5-49	Glauben	NN	Glaube	_	O	O	
+5-50	an	APPR	an	_	O	O	
+5-51	Dindorfs	NN	<unknown>	_	O	O	
+5-52	Urtheil	NN	<unknown>	_	O	O	
+5-53	erwägt	VVFIN	erwägen	_	O	O	
+5-54	,	$,	,	_	O	O	
+5-55	der	PRELS	die	_	O	O	
+5-56	hier	ADV	hier	_	O	O	
+5-57	die	ART	die	_	O	O	
+5-58	Handschrift	NN	Handschrift	_	O	O	
+5-59	nur	ADV	nur	_	O	O	
+5-60	zeigte	VVFIN	zeigen	_	O	O	
+5-61	ohne	APPR	ohne	_	O	O	
+5-62	sie	PPER	sie	_	O	O	
+5-63	aus	APPR	aus	_	O	O	
+5-64	den	ART	die	_	O	O	
+5-65	Händen	NN	Hand	_	O	O	
+5-66	zu	PTKZU	zu	_	O	O	
+5-67	lassen	VVINF	lassen	_	O	O	
+5-68	.	$.	.	_	O	O	
+
+#id=6
+#text=Allerdings geht Curtius nach Göttingen, bereits zu Ostern und hofft auch seinen Bruder dorthin zu ziehen, sobald die unbegreiflich lang zögernde definitive Ablehnung von Ritschl aus in Hannover angelangt sein wird.
+6-1	Allerdings	ADV	allerdings	_	O	O	
+6-2	geht	VVFIN	gehen	_	O	O	
+6-3	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	nach	APPR	nach	_	O	O	
+6-5	Göttingen	NE	Göttingen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-6	,	$,	,	_	O	O	
+6-7	bereits	ADV	bereits	_	O	O	
+6-8	zu	APPR	zu	_	O	O	
+6-9	Ostern	NN	Ostern	_	O	O	
+6-10	und	KON	und	_	O	O	
+6-11	hofft	VVFIN	hoffen	_	O	O	
+6-12	auch	ADV	auch	_	O	O	
+6-13	seinen	PPOSAT	sein	_	O	O	
+6-14	Bruder	NN	Bruder	_	O	O	
+6-15	dorthin	ADV	dorthin	_	O	O	
+6-16	zu	PTKZU	zu	_	O	O	
+6-17	ziehen	VVINF	ziehen	_	O	O	
+6-18	,	$,	,	_	O	O	
+6-19	sobald	KOUS	sobald	_	O	O	
+6-20	die	PDS	die	_	O	O	
+6-21	unbegreiflich	ADJD	unbegreiflich	_	O	O	
+6-22	lang	ADJD	lang	_	O	O	
+6-23	zögernde	ADJA	zögernd	_	O	O	
+6-24	definitive	ADJA	definitiv	_	O	O	
+6-25	Ablehnung	NN	Ablehnung	_	O	O	
+6-26	von	APPR	von	_	O	O	
+6-27	Ritschl	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-28	aus	APPR	aus	_	O	O	
+6-29	in	APPR	in	_	O	O	
+6-30	Hannover	NE	Hannover	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-31	angelangt	VVPP	angelangen	_	O	O	
+6-32	sein	VAINF	sein	_	O	O	
+6-33	wird	VAFIN	werden	_	O	O	
+6-34	.	$.	.	_	O	O	
+
+#id=7
+#text=Nah bevorstehende Lücken in Breslau dürften eine Möglichkeit eröffnen dort etwas für Brunn zu thun.
+7-1	Nah	APPR	nah	_	O	O	
+7-2	bevorstehende	ADJA	bevorstehend	_	O	O	
+7-3	Lücken	NN	Lücke	_	O	O	
+7-4	in	APPR	in	_	O	O	
+7-5	Breslau	NE	Breslau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-6	dürften	VMFIN	dürfen	_	O	O	
+7-7	eine	ART	eine	_	O	O	
+7-8	Möglichkeit	NN	Möglichkeit	_	O	O	
+7-9	eröffnen	VVFIN	eröffnen	_	O	O	
+7-10	dort	ADV	dort	_	O	O	
+7-11	etwas	ADV	etwas	_	O	O	
+7-12	für	APPR	für	_	O	O	
+7-13	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-14	zu	APPR	zu	_	O	O	
+7-15	thun	NE	<unknown>	_	O	O	
+7-16	.	$.	.	_	O	O	
+
+#id=8
+#text=Die von Ihnen in Aussicht gestellte Minerva kann nach dem was Sie davon sagen mir nur willkommen sein; meine sonstigen dergleichen Wünsche bleiben Ihnen empfohlen.
+8-1	Die	ART	die	_	O	O	
+8-2	von	APPR	von	_	O	O	
+8-3	Ihnen	PPER	Sie	_	O	O	
+8-4	in	APPR	in	_	O	O	
+8-5	Aussicht	NN	Aussicht	_	O	O	
+8-6	gestellte	ADJA	gestellt	_	O	O	
+8-7	Minerva	NE	Minerva	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-8	kann	VMFIN	können	_	O	O	
+8-9	nach	APPR	nach	_	O	O	
+8-10	dem	ART	die	_	O	O	
+8-11	was	PRELS	was	_	O	O	
+8-12	Sie	PPER	Sie	_	O	O	
+8-13	davon	PAV	davon	_	O	O	
+8-14	sagen	VVFIN	sagen	_	O	O	
+8-15	mir	PPER	ich	_	O	O	
+8-16	nur	ADV	nur	_	O	O	
+8-17	willkommen	ADJD	willkommen	_	O	O	
+8-18	sein	VAINF	sein	_	O	O	
+8-19	;	$.	;	_	O	O	
+8-20	meine	PPOSAT	mein	_	O	O	
+8-21	sonstigen	ADJA	sonstig	_	O	O	
+8-22	dergleichen	PIS	dergleichen	_	O	O	
+8-23	Wünsche	NN	Wunsch	_	O	O	
+8-24	bleiben	VVFIN	bleiben	_	O	O	
+8-25	Ihnen	PPER	Sie	_	O	O	
+8-26	empfohlen	VVPP	empfehlen	_	O	O	
+8-27	.	$.	.	_	O	O	
+
+#id=9
+#text=Die Minerva genehm zu heißen, bedarf es kaum einer Zeichnung; irgend eine kostenfreie Gelegenheit führt mir
+9-1	Die	ART	die	_	O	O	
+9-2	Minerva	NE	Minerva	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-3	genehm	ADJD	genehm	_	O	O	
+9-4	zu	PTKZU	zu	_	O	O	
+9-5	heißen	VVINF	heißen	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	bedarf	VVFIN	bedürfen	_	O	O	
+9-8	es	PPER	es	_	O	O	
+9-9	kaum	ADV	kaum	_	O	O	
+9-10	einer	ART	eine	_	O	O	
+9-11	Zeichnung	NN	Zeichnung	_	O	O	
+9-12	;	$.	;	_	O	O	
+9-13	irgend	ADV	irgend	_	O	O	
+9-14	eine	ART	eine	_	O	O	
+9-15	kostenfreie	ADJA	kostenfrei	_	O	O	
+9-16	Gelegenheit	NN	Gelegenheit	_	O	O	
+9-17	führt	VVFIN	führen	_	O	O	
+9-18	mir	PPER	ich	_	O	O	
+

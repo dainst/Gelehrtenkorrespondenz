@@ -1,0 +1,224 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=366 Lieber Herr Professor Helbig an Henzen Siena, 14. Juli 1875 g. 17/7 75 r. li, 14. Juli 1875 Also, was Chiusi betrifft, so habe ich an Paolozzi und Terrosi geschrieben und wiederum ihre Zustimmung erhalten, daß bei ihnen gezeichnet werde.
+1-1	366	CARD	@card@	_	O	O	
+1-2	Lieber	ADJA	lieb	_	O	O	
+1-3	Herr	NN	Herr	_	O	O	
+1-4	Professor	NN	Professor	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	17/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	r.	ADJA	<unknown>	_	O	O	
+1-18	li	NN	<unknown>	_	O	O	
+1-19	,	$,	,	_	O	O	
+1-20	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-21	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-24	Also	ADV	also	_	O	O	
+1-25	,	$,	,	_	O	O	
+1-26	was	PRELS	was	_	O	O	
+1-27	Chiusi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-28	betrifft	VVFIN	betreffen	_	O	O	
+1-29	,	$,	,	_	O	O	
+1-30	so	ADV	so	_	O	O	
+1-31	habe	VAFIN	haben	_	O	O	
+1-32	ich	PPER	ich	_	O	O	
+1-33	an	APPR	an	_	O	O	
+1-34	Paolozzi	NN	<unknown>	_	O	O	
+1-35	und	KON	und	_	O	O	
+1-36	Terrosi	NN	<unknown>	_	O	O	
+1-37	geschrieben	VVPP	schreiben	_	O	O	
+1-38	und	KON	und	_	O	O	
+1-39	wiederum	ADV	wiederum	_	O	O	
+1-40	ihre	PPOSAT	ihr	_	O	O	
+1-41	Zustimmung	NN	Zustimmung	_	O	O	
+1-42	erhalten	VVPP	erhalten	_	O	O	
+1-43	,	$,	,	_	O	O	
+1-44	daß	KOUS	dass	_	O	O	
+1-45	bei	APPR	bei	_	O	O	
+1-46	ihnen	PPER	sie	_	O	O	
+1-47	gezeichnet	VVPP	zeichnen	_	O	O	
+1-48	werde	VAFIN	werden	_	O	O	
+1-49	.	$.	.	_	O	O	
+
+#id=2
+#text=Es bleibt jetzt nur noch übrig, sich Gamurrinis zu versichern, der sich zwar voriges Jahr einverstanden erklärte, aber bisweilen im letzten Momente statisch wird.
+2-1	Es	PPER	es	_	O	O	
+2-2	bleibt	VVFIN	bleiben	_	O	O	
+2-3	jetzt	ADV	jetzt	_	O	O	
+2-4	nur	ADV	nur	_	O	O	
+2-5	noch	ADV	noch	_	O	O	
+2-6	übrig	ADJD	übrig	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	sich	PRF	sich	_	O	O	
+2-9	Gamurrinis	NN	<unknown>	_	O	O	
+2-10	zu	PTKZU	zu	_	O	O	
+2-11	versichern	VVINF	versichern	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	der	PRELS	die	_	O	O	
+2-14	sich	PRF	sich	_	O	O	
+2-15	zwar	ADV	zwar	_	O	O	
+2-16	voriges	ADJA	vorig	_	O	O	
+2-17	Jahr	NN	Jahr	_	O	O	
+2-18	einverstanden	ADJD	einverstanden	_	O	O	
+2-19	erklärte	VVFIN	erklären	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	aber	KON	aber	_	O	O	
+2-22	bisweilen	ADV	bisweilen	_	O	O	
+2-23	im	APPRART	in	_	O	O	
+2-24	letzten	ADJA	letzt	_	O	O	
+2-25	Momente	NN	Moment	_	O	O	
+2-26	statisch	ADJD	statisch	_	O	O	
+2-27	wird	VAFIN	werden	_	O	O	
+2-28	.	$.	.	_	O	O	
+
+#id=3
+#text=Sie könnten ihm vorläufig in Rom einige Bemerkungen in dieser Richtung machen.
+3-1	Sie	PPER	Sie	_	O	O	
+3-2	könnten	VMFIN	können	_	O	O	
+3-3	ihm	PPER	er	_	O	O	
+3-4	vorläufig	ADJD	vorläufig	_	O	O	
+3-5	in	APPR	in	_	O	O	
+3-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-7	einige	PIAT	einige	_	O	O	
+3-8	Bemerkungen	NN	Bemerkung	_	O	O	
+3-9	in	APPR	in	_	O	O	
+3-10	dieser	PDAT	dies	_	O	O	
+3-11	Richtung	NN	Richtung	_	O	O	
+3-12	machen	VVINF	machen	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich könnte dann, wenn er, wie er versprochen, Ende Juli durch Siena passirt, die Sache zu endgültigem Abschlusse bringen.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	könnte	VMFIN	können	_	O	O	
+4-3	dann	ADV	dann	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	wenn	KOUS	wenn	_	O	O	
+4-6	er	PPER	er	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	wie	KOUS	wie	_	O	O	
+4-9	er	PPER	er	_	O	O	
+4-10	versprochen	VVPP	versprechen	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	Ende	NN	Ende	_	O	O	
+4-13	Juli	NN	Juli	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-14	durch	APPR	durch	_	O	O	
+4-15	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-16	passirt	NN	<unknown>	_	O	O	
+4-17	,	$,	,	_	O	O	
+4-18	die	ART	die	_	O	O	
+4-19	Sache	NN	Sache	_	O	O	
+4-20	zu	APPR	zu	_	O	O	
+4-21	endgültigem	ADJA	endgültig	_	O	O	
+4-22	Abschlusse	NN	<unknown>	_	O	O	
+4-23	bringen	VVFIN	bringen	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=Bei Monte aperto sehr wichtige Entdeckungen: soviel ich bis jetzt beurtheilen kann, der Schatz eines Gallischen Princeps.
+5-1	Bei	APPR	bei	_	O	O	
+5-2	Monte	NE	Monte	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-3	aperto	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+5-4	sehr	ADV	sehr	_	O	O	
+5-5	wichtige	ADJA	wichtig	_	O	O	
+5-6	Entdeckungen	NN	Entdeckung	_	O	O	
+5-7	:	$.	:	_	O	O	
+5-8	soviel	KOUS	soviel	_	O	O	
+5-9	ich	PPER	ich	_	O	O	
+5-10	bis	APPR	bis	_	O	O	
+5-11	jetzt	ADV	jetzt	_	O	O	
+5-12	beurtheilen	VVINF	<unknown>	_	O	O	
+5-13	kann	VMFIN	können	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	der	ART	die	_	O	O	
+5-16	Schatz	NN	Schatz	_	O	O	
+5-17	eines	ART	eine	_	O	O	
+5-18	Gallischen	NN	<unknown>	_	O	O	
+5-19	Princeps	NN	<unknown>	_	O	O	
+5-20	.	$.	.	_	O	O	
+
+#id=6
+#text=Mehrere schwere goldene Torques, Armbänder, dabei goldene Münzen, wie ich sie noch nie gesehen, ohne jeglichen Stempel, aber in der Form der gallischen, rohe Thongefäße.
+6-1	Mehrere	PIAT	mehrere	_	O	O	
+6-2	schwere	ADJA	schwer	_	O	O	
+6-3	goldene	ADJA	golden	_	O	O	
+6-4	Torques	NE	<unknown>	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	Armbänder	NN	Armband	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	dabei	PAV	dabei	_	O	O	
+6-9	goldene	ADJA	golden	_	O	O	
+6-10	Münzen	NN	Münze	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-11	,	$,	,	_	O	O	
+6-12	wie	KOUS	wie	_	O	O	
+6-13	ich	PPER	ich	_	O	O	
+6-14	sie	PPER	sie	_	O	O	
+6-15	noch	ADV	noch	_	O	O	
+6-16	nie	ADV	nie	_	O	O	
+6-17	gesehen	VVPP	sehen	_	O	O	
+6-18	,	$,	,	_	O	O	
+6-19	ohne	APPR	ohne	_	O	O	
+6-20	jeglichen	PIAT	jegliche	_	O	O	
+6-21	Stempel	NN	Stempel	_	O	O	
+6-22	,	$,	,	_	O	O	
+6-23	aber	ADV	aber	_	O	O	
+6-24	in	APPR	in	_	O	O	
+6-25	der	ART	die	_	O	O	
+6-26	Form	NN	Form	_	O	O	
+6-27	der	ART	die	_	O	O	
+6-28	gallischen	ADJA	<unknown>	_	O	O	
+6-29	,	$,	,	_	O	O	
+6-30	rohe	ADJA	roh	_	O	O	
+6-31	Thongefäße	NN	<unknown>	_	O	O	
+6-32	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Hälfte der Stücke ist leider in den Schmelztigel eines sieneser Goldschmidts gewandert; die andere Hälfte gehört dem Besitzer des Bodens, M.re Chigi.
+7-1	Die	ART	die	_	O	O	
+7-2	Hälfte	NN	Hälfte	_	O	O	
+7-3	der	ART	die	_	O	O	
+7-4	Stücke	NN	Stück	_	O	O	
+7-5	ist	VAFIN	sein	_	O	O	
+7-6	leider	ADV	leider	_	O	O	
+7-7	in	APPR	in	_	O	O	
+7-8	den	ART	die	_	O	O	
+7-9	Schmelztigel	NN	<unknown>	_	O	O	
+7-10	eines	ART	eine	_	O	O	
+7-11	sieneser	ADJA	<unknown>	_	O	O	
+7-12	Goldschmidts	NE	Goldschmidt	_	O	O	
+7-13	gewandert	VVPP	wandern	_	O	O	
+7-14	;	$.	;	_	O	O	
+7-15	die	ART	die	_	O	O	
+7-16	andere	PIAT	andere	_	O	O	
+7-17	Hälfte	NN	Hälfte	_	O	O	
+7-18	gehört	VVFIN	gehören	_	O	O	
+7-19	dem	ART	die	_	O	O	
+7-20	Besitzer	NN	Besitzer	_	O	O	
+7-21	des	ART	die	_	O	O	
+7-22	Bodens	NN	Boden	_	O	O	
+7-23	,	$,	,	_	O	O	
+7-24	M.re	NE	<unknown>	_	O	O	
+7-25	Chigi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-26	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich könnte sofort einen Bullettino Artikel darü-
+8-1	Ich	PPER	ich	_	O	O	
+8-2	könnte	VMFIN	können	_	O	O	
+8-3	sofort	ADV	sofort	_	O	O	
+8-4	einen	ART	eine	_	O	O	
+8-5	Bullettino	NN	<unknown>	_	O	O	
+8-6	Artikel	NN	Artikel	_	O	O	
+8-7	darü-	VVFIN	<unknown>	_	O	O	
+

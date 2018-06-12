@@ -1,0 +1,291 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=301 2 Helbig an Henzen Moskau, 14. Juni 1868 bis zu meiner Rückkehr nach Petersburg Schritte zu thun, damit dem Institut der Ausfall des Abonements der 10 Exemplare Institutschriften vergütet werde.
+1-1	301	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Moskau	NE	Moskau	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1868	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	bis	APPR	bis	_	O	O	
+1-13	zu	APPR	zu	_	O	O	
+1-14	meiner	PPOSAT	mein	_	O	O	
+1-15	Rückkehr	NN	Rückkehr	_	O	O	
+1-16	nach	APPR	nach	_	O	O	
+1-17	Petersburg	NE	Petersburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-18	Schritte	NN	Schritt	_	O	O	
+1-19	zu	APPR	zu	_	O	O	
+1-20	thun	NE	<unknown>	_	O	O	
+1-21	,	$,	,	_	O	O	
+1-22	damit	KOUS	damit	_	O	O	
+1-23	dem	ART	die	_	O	O	
+1-24	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-25	der	ART	die	_	O	O	
+1-26	Ausfall	NN	Ausfall	_	O	O	
+1-27	des	ART	die	_	O	O	
+1-28	Abonements	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-29	der	ART	die	_	O	O	
+1-30	10	CARD	10	_	O	O	
+1-31	Exemplare	NN	Exemplar	_	O	O	
+1-32	Institutschriften	NN	<unknown>	_	O	O	
+1-33	vergütet	VVPP	vergüten	_	O	O	
+1-34	werde	VAFIN	werden	_	O	O	
+1-35	.	$.	.	_	O	O	
+
+#id=2
+#text=Übrigens werden uns unsere Geschäfte in Rußland weniger Zeit kosten, als wir dachten.
+2-1	Übrigens	ADV	übrigens	_	O	O	
+2-2	werden	VAFIN	werden	_	O	O	
+2-3	uns	PPER	wir	_	O	O	
+2-4	unsere	PPOSAT	unser	_	O	O	
+2-5	Geschäfte	NN	Geschäft	_	O	O	
+2-6	in	APPR	in	_	O	O	
+2-7	Rußland	NE	Russland	_	O	O	
+2-8	weniger	PIAT	wenige	_	O	O	
+2-9	Zeit	NN	Zeit	_	O	O	
+2-10	kosten	VVINF	kosten	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	als	KOUS	als	_	O	O	
+2-13	wir	PPER	wir	_	O	O	
+2-14	dachten	VVFIN	denken	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=In Pskoff ist Alles in bester Ordnung.
+3-1	In	APPR	in	_	O	O	
+3-2	Pskoff	NN	<unknown>	_	O	O	
+3-3	ist	VAFIN	sein	_	O	O	
+3-4	Alles	PIS	alle	_	O	O	
+3-5	in	APPR	in	_	O	O	
+3-6	bester	ADJA	gut	_	O	O	
+3-7	Ordnung	NN	Ordnung	_	O	O	
+3-8	.	$.	.	_	O	O	
+
+#id=4
+#text=Wirsolowow werden wir wahrscheinlich in Bausch und Bogen verpachten.
+4-1	Wirsolowow	NE	<unknown>	_	O	O	
+4-2	werden	VAFIN	werden	_	O	O	
+4-3	wir	PPER	wir	_	O	O	
+4-4	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+4-5	in	APPR	in	_	O	O	
+4-6	Bausch	NN	Bausch	_	O	O	
+4-7	und	KON	und	_	O	O	
+4-8	Bogen	NN	Bogen	_	O	O	
+4-9	verpachten	VVINF	verpachten	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Der Intendant, leider ein Deutscher und noch dazu Märker, ist ein raffinirter Lump, welcher Alles in solche Verwirrung gebracht hat, daß es unmöglich ist, die Situation klar zu übersehen.
+5-1	Der	ART	die	_	O	O	
+5-2	Intendant	NN	Intendant	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	leider	ADV	leider	_	O	O	
+5-5	ein	ART	eine	_	O	O	
+5-6	Deutscher	NN	Deutsche	_	O	O	
+5-7	und	KON	und	_	O	O	
+5-8	noch	ADV	noch	_	O	O	
+5-9	dazu	PAV	dazu	_	O	O	
+5-10	Märker	NN	<unknown>	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	ist	VAFIN	sein	_	O	O	
+5-13	ein	ART	eine	_	O	O	
+5-14	raffinirter	ADJA	<unknown>	_	O	O	
+5-15	Lump	NN	Lump	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	welcher	PRELS	welche	_	O	O	
+5-18	Alles	PIS	alle	_	O	O	
+5-19	in	APPR	in	_	O	O	
+5-20	solche	PIAT	solche	_	O	O	
+5-21	Verwirrung	NN	Verwirrung	_	O	O	
+5-22	gebracht	VVPP	bringen	_	O	O	
+5-23	hat	VAFIN	haben	_	O	O	
+5-24	,	$,	,	_	O	O	
+5-25	daß	KOUS	dass	_	O	O	
+5-26	es	PPER	es	_	O	O	
+5-27	unmöglich	ADJD	unmöglich	_	O	O	
+5-28	ist	VAFIN	sein	_	O	O	
+5-29	,	$,	,	_	O	O	
+5-30	die	ART	die	_	O	O	
+5-31	Situation	NN	Situation	_	O	O	
+5-32	klar	ADJD	klar	_	O	O	
+5-33	zu	PTKZU	zu	_	O	O	
+5-34	übersehen	VVINF	übersehen	_	O	O	
+5-35	.	$.	.	_	O	O	
+
+#id=6
+#text=Übrigens scheint es, als ob selbst der Himmel sich ihm günstig erweisen wolle.
+6-1	Übrigens	ADV	übrigens	_	O	O	
+6-2	scheint	VVFIN	scheinen	_	O	O	
+6-3	es	PPER	es	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	als	KOKOM	als	_	O	O	
+6-6	ob	KOUS	ob	_	O	O	
+6-7	selbst	ADV	selbst	_	O	O	
+6-8	der	ART	die	_	O	O	
+6-9	Himmel	NN	Himmel	_	O	O	
+6-10	sich	PRF	sich	_	O	O	
+6-11	ihm	PPER	er	_	O	O	
+6-12	günstig	ADJD	günstig	_	O	O	
+6-13	erweisen	VVINF	erweisen	_	O	O	
+6-14	wolle	VMFIN	wollen	_	O	O	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=Vor einigen Tagen ist der Fluß ausgetreten und hat die Hälfte des Gutes überschwemmt, dergestalt daß man gar nicht mehr sehen kann, was da ist.
+7-1	Vor	APPR	vor	_	O	O	
+7-2	einigen	PIAT	einige	_	O	O	
+7-3	Tagen	NN	Tag	_	O	O	
+7-4	ist	VAFIN	sein	_	O	O	
+7-5	der	ART	die	_	O	O	
+7-6	Fluß	NN	Fluss	_	O	O	
+7-7	ausgetreten	VVPP	austreten	_	O	O	
+7-8	und	KON	und	_	O	O	
+7-9	hat	VAFIN	haben	_	O	O	
+7-10	die	ART	die	_	O	O	
+7-11	Hälfte	NN	Hälfte	_	O	O	
+7-12	des	ART	die	_	O	O	
+7-13	Gutes	NN	Gute	_	O	O	
+7-14	überschwemmt	VVPP	überschwemmen	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	dergestalt	ADV	dergestalt	_	O	O	
+7-17	daß	KOUS	dass	_	O	O	
+7-18	man	PIS	man	_	O	O	
+7-19	gar	ADV	gar	_	O	O	
+7-20	nicht	PTKNEG	nicht	_	O	O	
+7-21	mehr	ADV	mehr	_	O	O	
+7-22	sehen	VVINF	sehen	_	O	O	
+7-23	kann	VMFIN	können	_	O	O	
+7-24	,	$,	,	_	O	O	
+7-25	was	PRELS	was	_	O	O	
+7-26	da	ADV	da	_	O	O	
+7-27	ist	VAFIN	sein	_	O	O	
+7-28	.	$.	.	_	O	O	
+
+#id=8
+#text=Morgen gehen wir dahin ab, um drei unerfreuliche Wochen daselbst zuzubringen.
+8-1	Morgen	ADV	morgen	_	O	O	
+8-2	gehen	VVFIN	gehen	_	O	O	
+8-3	wir	PPER	wir	_	O	O	
+8-4	dahin	PAV	dahin	_	O	O	
+8-5	ab	PTKVZ	ab	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	um	APPR	um	_	O	O	
+8-8	drei	CARD	drei	_	O	O	
+8-9	unerfreuliche	ADJA	unerfreulich	_	O	O	
+8-10	Wochen	NN	Woche	_	O	O	
+8-11	daselbst	ADV	daselbst	_	O	O	
+8-12	zuzubringen	VVIZU	zubringen	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Kürzere Zeit können wir nicht bleiben, da die Kleine daselbst geimpft werden soll.
+9-1	Kürzere	ADJA	kurz	_	O	O	
+9-2	Zeit	NN	Zeit	_	O	O	
+9-3	können	VMFIN	können	_	O	O	
+9-4	wir	PPER	wir	_	O	O	
+9-5	nicht	PTKNEG	nicht	_	O	O	
+9-6	bleiben	VVINF	bleiben	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	da	KOUS	da	_	O	O	
+9-9	die	ART	die	_	O	O	
+9-10	Kleine	NN	Kleine	_	O	O	
+9-11	daselbst	ADV	daselbst	_	O	O	
+9-12	geimpft	VVPP	impfen	_	O	O	
+9-13	werden	VAINF	werden	_	O	O	
+9-14	soll	VMFIN	sollen	_	O	O	
+9-15	.	$.	.	_	O	O	
+
+#id=10
+#text=Meine Frau befindet sich wohl und grüßt bestens.
+10-1	Meine	PPOSAT	mein	_	O	O	
+10-2	Frau	NN	Frau	_	O	O	
+10-3	befindet	VVFIN	befinden	_	O	O	
+10-4	sich	PRF	sich	_	O	O	
+10-5	wohl	ADV	wohl	_	O	O	
+10-6	und	KON	und	_	O	O	
+10-7	grüßt	VVFIN	grüßen	_	O	O	
+10-8	bestens	ADV	bestens	_	O	O	
+10-9	.	$.	.	_	O	O	
+
+#id=11
+#text=Sie wird von Wirsolowow aus an Frau Henzen schreiben.
+11-1	Sie	PPER	Sie	_	O	O	
+11-2	wird	VAFIN	werden	_	O	O	
+11-3	von	APPR	von	_	O	O	
+11-4	Wirsolowow	NN	<unknown>	_	O	O	
+11-5	aus	APPR	aus	_	O	O	
+11-6	an	APPR	an	_	O	O	
+11-7	Frau	NN	Frau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-8	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-9	schreiben	VVINF	schreiben	_	O	O	
+11-10	.	$.	.	_	O	O	
+
+#id=12
+#text=Einige in Moskau neu gegründete Privat sammlungen von Alterthümern aus Südrußland werde ich nach meiner Rückkehr in Augenschein nehmen.
+12-1	Einige	PIS	einige	_	O	O	
+12-2	in	APPR	in	_	O	O	
+12-3	Moskau	NE	Moskau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-4	neu	ADJD	neu	_	O	O	
+12-5	gegründete	ADJA	gegründet	_	O	O	
+12-6	Privat	NN	<unknown>	_	O	O	
+12-7	sammlungen	NN	Sammlung	_	O	O	
+12-8	von	APPR	von	_	O	O	
+12-9	Alterthümern	NN	<unknown>	_	O	O	
+12-10	aus	APPR	aus	_	O	O	
+12-11	Südrußland	NN	Südrußland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-12	werde	VAFIN	werden	_	O	O	
+12-13	ich	PPER	ich	_	O	O	
+12-14	nach	APPR	nach	_	O	O	
+12-15	meiner	PPOSAT	mein	_	O	O	
+12-16	Rückkehr	NN	Rückkehr	_	O	O	
+12-17	in	APPR	in	_	O	O	
+12-18	Augenschein	NN	Augenschein	_	O	O	
+12-19	nehmen	VVINF	nehmen	_	O	O	
+12-20	.	$.	.	_	O	O	
+
+#id=13
+#text=Jedenfalls hoffen wir binnen 6 oder 7 Wochen mit unseren Geschäften fertig und zur Rückreise bereit zu sein.
+13-1	Jedenfalls	ADV	jedenfalls	_	O	O	
+13-2	hoffen	VVFIN	hoffen	_	O	O	
+13-3	wir	PPER	wir	_	O	O	
+13-4	binnen	APPR	binnen	_	O	O	
+13-5	6	CARD	6	_	O	O	
+13-6	oder	KON	oder	_	O	O	
+13-7	7	CARD	7	_	O	O	
+13-8	Wochen	NN	Woche	_	O	O	
+13-9	mit	APPR	mit	_	O	O	
+13-10	unseren	PPOSAT	unser	_	O	O	
+13-11	Geschäften	NN	Geschäft	_	O	O	
+13-12	fertig	PTKVZ	fertig	_	O	O	
+13-13	und	KON	und	_	O	O	
+13-14	zur	APPRART	zu	_	O	O	
+13-15	Rückreise	NN	Rückreise	_	O	O	
+13-16	bereit	ADJD	bereit	_	O	O	
+13-17	zu	PTKZU	zu	_	O	O	
+13-18	sein	VAINF	sein	_	O	O	
+13-19	.	$.	.	_	O	O	
+
+#id=14
+#text=Herzliche Grüße an Frau Henzen und beste Wünsche für Ihre Gesundheit Ihr ergebener W. Helbig •
+14-1	Herzliche	ADJA	herzlich	_	O	O	
+14-2	Grüße	NN	Gruß	_	O	O	
+14-3	an	APPR	an	_	O	O	
+14-4	Frau	NN	Frau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-5	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+14-6	und	KON	und	_	O	O	
+14-7	beste	ADJA	gut	_	O	O	
+14-8	Wünsche	NN	Wunsch	_	O	O	
+14-9	für	APPR	für	_	O	O	
+14-10	Ihre	PPOSAT	ihr	_	O	O	
+14-11	Gesundheit	NN	Gesundheit	_	O	O	
+14-12	Ihr	PPOSAT	ihr	_	O	O	
+14-13	ergebener	ADJA	ergeben	_	O	O	
+14-14	W.	NE	W.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-15	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+14-16	•	ADJA	<unknown>	_	O	O	
+

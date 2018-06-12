@@ -1,0 +1,193 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=307 3 Relbig an Renzen London, 11. Juli 1871 die besten Absichten hinsichtlich Erweiterung des Instituts, Newtons, Aufbesserung der Gehalte.
+1-1	307	CARD	@card@	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Relbig	NN	<unknown>	_	O	O	
+1-4	an	APPR	an	_	O	O	
+1-5	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1871	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	die	ART	die	_	O	O	
+1-13	besten	ADJA	gut	_	O	O	
+1-14	Absichten	NN	Absicht	_	O	O	
+1-15	hinsichtlich	APPR	hinsichtlich	_	O	O	
+1-16	Erweiterung	NN	Erweiterung	_	O	O	
+1-17	des	ART	die	_	O	O	
+1-18	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-19	,	$,	,	_	O	O	
+1-20	Newtons	NE	Newton	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-21	,	$,	,	_	O	O	
+1-22	Aufbesserung	NN	Aufbesserung	_	O	O	
+1-23	der	ART	die	_	O	O	
+1-24	Gehalte	NN	Gehalt	_	O	O	
+1-25	.	$.	.	_	O	O	
+
+#id=2
+#text=Doch scheinen die Herrn unter sich selbst über den Modus nicht ganz einig zu sein und scheint es gerathen, sich über eine baldige Änderung zum Besseren keine Illusionen zu machen.
+2-1	Doch	ADV	doch	_	O	O	
+2-2	scheinen	VVFIN	scheinen	_	O	O	
+2-3	die	ART	die	_	O	O	
+2-4	Herrn	NN	Herr	_	O	O	
+2-5	unter	APPR	unter	_	O	O	
+2-6	sich	PRF	sich	_	O	O	
+2-7	selbst	ADV	selbst	_	O	O	
+2-8	über	APPR	über	_	O	O	
+2-9	den	ART	die	_	O	O	
+2-10	Modus	NN	Modus	_	O	O	
+2-11	nicht	PTKNEG	nicht	_	O	O	
+2-12	ganz	ADV	ganz	_	O	O	
+2-13	einig	ADJD	einig	_	O	O	
+2-14	zu	PTKZU	zu	_	O	O	
+2-15	sein	VAINF	sein	_	O	O	
+2-16	und	KON	und	_	O	O	
+2-17	scheint	VVFIN	scheinen	_	O	O	
+2-18	es	PPER	es	_	O	O	
+2-19	gerathen	ADJD	<unknown>	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	sich	PRF	sich	_	O	O	
+2-22	über	APPR	über	_	O	O	
+2-23	eine	ART	eine	_	O	O	
+2-24	baldige	ADJA	baldig	_	O	O	
+2-25	Änderung	NN	Änderung	_	O	O	
+2-26	zum	APPRART	zu	_	O	O	
+2-27	Besseren	NN	Bessere	_	O	O	
+2-28	keine	PIAT	keine	_	O	O	
+2-29	Illusionen	NN	Illusion	_	O	O	
+2-30	zu	PTKZU	zu	_	O	O	
+2-31	machen	VVINF	machen	_	O	O	
+2-32	.	$.	.	_	O	O	
+
+#id=3
+#text=Bezeichnend für die Gehaltsverhältnisse ist es, daß jeder Schreiber der hiesigen Botschaft 1800rt Gehalt hat, also mehr wie Sie.
+3-1	Bezeichnend	ADJD	bezeichnend	_	O	O	
+3-2	für	APPR	für	_	O	O	
+3-3	die	ART	die	_	O	O	
+3-4	Gehaltsverhältnisse	NN	<unknown>	_	O	O	
+3-5	ist	VAFIN	sein	_	O	O	
+3-6	es	PPER	es	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	daß	KOUS	dass	_	O	O	
+3-9	jeder	PIAT	jede	_	O	O	
+3-10	Schreiber	NN	Schreiber	_	O	O	
+3-11	der	ART	die	_	O	O	
+3-12	hiesigen	ADJA	hiesig	_	O	O	
+3-13	Botschaft	NN	Botschaft	_	O	O	
+3-14	1800rt	ADJA	<unknown>	_	O	O	
+3-15	Gehalt	NN	Gehalt	_	O	O	
+3-16	hat	VAFIN	haben	_	O	O	
+3-17	,	$,	,	_	O	O	
+3-18	also	ADV	also	_	O	O	
+3-19	mehr	PIS	mehr	_	O	O	
+3-20	wie	KOKOM	wie	_	O	O	
+3-21	Sie	PPER	Sie	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=Sehr lieb wäre es mir, baldigst etwas von Ihnen zu hören und, wie es Hinck und Lignana geht.
+4-1	Sehr	ADV	sehr	_	O	O	
+4-2	lieb	ADJD	lieb	_	O	O	
+4-3	wäre	VAFIN	sein	_	O	O	
+4-4	es	PPER	es	_	O	O	
+4-5	mir	PPER	ich	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	baldigst	ADJD	baldig	_	O	O	
+4-8	etwas	ADV	etwas	_	O	O	
+4-9	von	APPR	von	_	O	O	
+4-10	Ihnen	PPER	Sie	_	O	O	
+4-11	zu	PTKZU	zu	_	O	O	
+4-12	hören	VVINF	hören	_	O	O	
+4-13	und	KON	und	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	wie	KOUS	wie	_	O	O	
+4-16	es	PPER	es	_	O	O	
+4-17	Hinck	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-18	und	KON	und	_	O	O	
+4-19	Lignana	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-20	geht	VVFIN	gehen	_	O	O	
+4-21	.	$.	.	_	O	O	
+
+#id=5
+#text=Vergessen Sie, bitte, ja nicht mir zu antworten, wie weit, d. h. wie viele Bände, wir von den Ancient Marbles of the British Museum und ob wir die history of the rec.
+5-1	Vergessen	VVFIN	vergessen	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	bitte	VVIMP	bitten	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	ja	ADV	ja	_	O	O	
+5-7	nicht	PTKNEG	nicht	_	O	O	
+5-8	mir	PPER	ich	_	O	O	
+5-9	zu	PTKZU	zu	_	O	O	
+5-10	antworten	VVINF	antworten	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	wie	KOKOM	wie	_	O	O	
+5-13	weit	ADJD	weit	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	d.	PDS	d.	_	O	O	
+5-16	h.	VVFIN	heißen	_	O	O	
+5-17	wie	KOKOM	wie	_	O	O	
+5-18	viele	PIAT	viele	_	O	O	
+5-19	Bände	NN	Band	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	wir	PPER	wir	_	O	O	
+5-22	von	APPR	von	_	O	O	
+5-23	den	ART	die	_	O	O	
+5-24	Ancient	NN	<unknown>	_	O	O	
+5-25	Marbles	ADJA	<unknown>	_	O	O	
+5-26	of	FM	of	_	O	O	
+5-27	the	FM	the	_	O	O	
+5-28	British	NE	British	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-29	Museum	NN	Museum	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-30	und	KON	und	_	O	O	
+5-31	ob	KOUS	ob	_	O	O	
+5-32	wir	PPER	wir	_	O	O	
+5-33	die	ART	die	_	O	O	
+5-34	history	ADJA	<unknown>	_	O	O	
+5-35	of	FM	of	_	O	O	
+5-36	the	FM	the	_	O	O	
+5-37	rec	NE	<unknown>	_	O	O	
+5-38	.	$.	.	_	O	O	
+
+#id=6
+#text=discoveries at Cyrene von Murdoch Smith und Porcher London 1864 fol haben, damit diese Sache vor Newtons Abreise in Ordnung kommt.
+6-1	discoveries	ADJD	<unknown>	_	O	O	
+6-2	at	VVFIN	<unknown>	_	O	O	
+6-3	Cyrene	NE	<unknown>	_	O	O	
+6-4	von	APPR	von	_	O	O	
+6-5	Murdoch	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-6	Smith	NE	Smith	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-7	und	KON	und	_	O	O	
+6-8	Porcher	NN	<unknown>	_	O	O	
+6-9	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-10	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+6-11	fol	NN	<unknown>	_	O	O	
+6-12	haben	VAINF	haben	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	damit	KOUS	damit	_	O	O	
+6-15	diese	PDAT	dies	_	O	O	
+6-16	Sache	NN	Sache	_	O	O	
+6-17	vor	APPR	vor	_	O	O	
+6-18	Newtons	NE	Newton	_	O	O	
+6-19	Abreise	NN	Abreise	_	O	O	
+6-20	in	APPR	in	_	O	O	
+6-21	Ordnung	NN	Ordnung	_	O	O	
+6-22	kommt	VVFIN	kommen	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Herzliche Grüße an Fräulein Kopf und Hinck Ihr ergebener Helbig
+7-1	Herzliche	ADJA	herzlich	_	O	O	
+7-2	Grüße	NN	Gruß	_	O	O	
+7-3	an	APPR	an	_	O	O	
+7-4	Fräulein	NN	Fräulein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-5	Kopf	NN	Kopf	_	O	O	
+7-6	und	KON	und	_	O	O	
+7-7	Hinck	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-8	Ihr	PPOSAT	ihr	_	O	O	
+7-9	ergebener	ADJA	ergeben	_	O	O	
+7-10	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

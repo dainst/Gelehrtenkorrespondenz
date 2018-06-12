@@ -1,0 +1,290 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=1 7/1/51 Henzen an Gerhard Hochverehrter Herr Professor Ich will das alte Jahr nicht zu Ende gehn lassen, ohne Ihnen zum neuen meine herzlichsten Glückwünsche auszusprechen, und, geschieht das etwas spät, so ist wieder einmal nicht ich, sondern ein Unwohlsein schuld, ds.
+1-1	1	CARD	1	_	O	O	
+1-2	7/1/51	CARD	@card@	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Hochverehrter	ADJA	hochverehrt	_	O	O	
+1-7	Herr	NN	Herr	_	O	O	
+1-8	Professor	NN	Professor	_	O	O	
+1-9	Ich	PPER	ich	_	O	O	
+1-10	will	VMFIN	wollen	_	O	O	
+1-11	das	ART	die	_	O	O	
+1-12	alte	ADJA	alt	_	O	O	
+1-13	Jahr	NN	Jahr	_	O	O	
+1-14	nicht	PTKNEG	nicht	_	O	O	
+1-15	zu	APPR	zu	_	O	O	
+1-16	Ende	NN	Ende	_	O	O	
+1-17	gehn	ADJD	<unknown>	_	O	O	
+1-18	lassen	VVINF	lassen	_	O	O	
+1-19	,	$,	,	_	O	O	
+1-20	ohne	KOUI	ohne	_	O	O	
+1-21	Ihnen	PPER	Sie	_	O	O	
+1-22	zum	APPRART	zu	_	O	O	
+1-23	neuen	ADJA	neu	_	O	O	
+1-24	meine	PPOSAT	mein	_	O	O	
+1-25	herzlichsten	ADJA	herzlich	_	O	O	
+1-26	Glückwünsche	NN	Glückwunsch	_	O	O	
+1-27	auszusprechen	VVIZU	aussprechen	_	O	O	
+1-28	,	$,	,	_	O	O	
+1-29	und	KON	und	_	O	O	
+1-30	,	$,	,	_	O	O	
+1-31	geschieht	VVFIN	geschehen	_	O	O	
+1-32	das	PDS	die	_	O	O	
+1-33	etwas	ADV	etwas	_	O	O	
+1-34	spät	ADJD	spät	_	O	O	
+1-35	,	$,	,	_	O	O	
+1-36	so	ADV	so	_	O	O	
+1-37	ist	VAFIN	sein	_	O	O	
+1-38	wieder	ADV	wieder	_	O	O	
+1-39	einmal	ADV	einmal	_	O	O	
+1-40	nicht	PTKNEG	nicht	_	O	O	
+1-41	ich	PPER	ich	_	O	O	
+1-42	,	$,	,	_	O	O	
+1-43	sondern	KON	sondern	_	O	O	
+1-44	ein	ART	eine	_	O	O	
+1-45	Unwohlsein	NN	Unwohlsein	_	O	O	
+1-46	schuld	ADJD	schuld	_	O	O	
+1-47	,	$,	,	_	O	O	
+1-48	ds.	ADJD	<unknown>	_	O	O	
+
+#id=2
+#text=mich seit einigen Tagen plagte ~.
+2-1	mich	PPER	ich	_	O	O	
+2-2	seit	APPR	seit	_	O	O	
+2-3	einigen	PIAT	einige	_	O	O	
+2-4	Tagen	NN	Tag	_	O	O	
+2-5	plagte	VVFIN	plagen	_	O	O	
+2-6	~	XY	~	_	O	O	
+2-7	.	$.	.	_	O	O	
+
+#id=3
+#text=noch plagt, mein altes Kopfweh zusammen mit schwerer Erkältung.
+3-1	noch	ADV	noch	_	O	O	
+3-2	plagt	VVFIN	plagen	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	mein	PPOSAT	mein	_	O	O	
+3-5	altes	ADJA	alt	_	O	O	
+3-6	Kopfweh	NN	Kopfweh	_	O	O	
+3-7	zusammen	ADV	zusammen	_	O	O	
+3-8	mit	APPR	mit	_	O	O	
+3-9	schwerer	ADJA	schwer	_	O	O	
+3-10	Erkältung	NN	Erkältung	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=- Archäol.
+4-1	-	$(	-	_	O	O	
+4-2	Archäol.	ADJA	<unknown>	_	O	O	
+
+#id=5
+#text=Anzeiger u. Mykenische Alterthümer sind eingelaufen.
+5-1	Anzeiger	NN	Anzeiger	_	O	O	
+5-2	u.	APPR	um	_	O	O	
+5-3	Mykenische	NN	<unknown>	_	O	O	
+5-4	Alterthümer	NN	<unknown>	_	O	O	
+5-5	sind	VAFIN	sein	_	O	O	
+5-6	eingelaufen	VVPP	einlaufen	_	O	O	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=- Die mit Torlonias Sachen erwarteten Bücher sind bereits zu Anfange Octobers hier angelangt, bleibt demnach für ds.
+6-1	-	$(	-	_	O	O	
+6-2	Die	ART	die	_	O	O	
+6-3	mit	APPR	mit	_	O	O	
+6-4	Torlonias	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	Sachen	NN	Sache	_	O	O	
+6-6	erwarteten	ADJA	erwartet	_	O	O	
+6-7	Bücher	NN	Buch	_	O	O	
+6-8	sind	VAFIN	sein	_	O	O	
+6-9	bereits	ADV	bereits	_	O	O	
+6-10	zu	APPR	zu	_	O	O	
+6-11	Anfange	NN	<unknown>	_	O	O	
+6-12	Octobers	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-13	hier	ADV	hier	_	O	O	
+6-14	angelangt	VVPP	angelangen	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	bleibt	VVFIN	bleiben	_	O	O	
+6-17	demnach	PAV	demnach	_	O	O	
+6-18	für	APPR	für	_	O	O	
+6-19	ds.	ADJA	<unknown>	_	O	O	
+
+#id=7
+#text=Mn.
+7-1	Mn	NE	<unknown>	_	O	O	
+7-2	.	$.	.	_	O	O	
+
+#id=8
+#text=wohl keine Hoffnung.
+8-1	wohl	ADV	wohl	_	O	O	
+8-2	keine	PIAT	keine	_	O	O	
+8-3	Hoffnung	NN	Hoffnung	_	O	O	
+8-4	.	$.	.	_	O	O	
+
+#id=9
+#text=Uebrigens sagt Brau~, dasselbe habe gar nicht nach Hom, sondern naoh Gotha gehn sollen.
+9-1	Uebrigens	NN	<unknown>	_	O	O	
+9-2	sagt	VVFIN	sagen	_	O	O	
+9-3	Brau~	NN	<unknown>	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	dasselbe	PDS	dasselbe	_	O	O	
+9-6	habe	VAFIN	haben	_	O	O	
+9-7	gar	ADV	gar	_	O	O	
+9-8	nicht	PTKNEG	nicht	_	O	O	
+9-9	nach	APPR	nach	_	O	O	
+9-10	Hom	NN	<unknown>	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	sondern	KON	sondern	_	O	O	
+9-13	naoh	VVFIN	<unknown>	_	O	O	
+9-14	Gotha	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-15	gehn	VVINF	<unknown>	_	O	O	
+9-16	sollen	VMINF	sollen	_	O	O	
+9-17	.	$.	.	_	O	O	
+
+#id=10
+#text=Wäre es etwa dahin expedirt u. unterwegs hengen geblieben ?
+10-1	Wäre	VAFIN	sein	_	O	O	
+10-2	es	PPER	es	_	O	O	
+10-3	etwa	ADV	etwa	_	O	O	
+10-4	dahin	PAV	dahin	_	O	O	
+10-5	expedirt	NN	<unknown>	_	O	O	
+10-6	u.	APPR	um	_	O	O	
+10-7	unterwegs	ADV	unterwegs	_	O	O	
+10-8	hengen	ADJD	<unknown>	_	O	O	
+10-9	geblieben	VVPP	bleiben	_	O	O	
+10-10	?	$.	?	_	O	O	
+
+#id=11
+#text=Braun hat an I. Schulze geschrieben, um zu erfahren, was in der Gehaltssache zu thun, u. am wen er sich zu wenden hat, muß also jetzt wohl zunächst die Antwort abgewartet werden.
+11-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	hat	VAFIN	haben	_	O	O	
+11-3	an	APPR	an	_	O	O	
+11-4	I.	NE	I.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-5	Schulze	NE	Schulze	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-6	geschrieben	VVPP	schreiben	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	um	KOUI	um	_	O	O	
+11-9	zu	PTKZU	zu	_	O	O	
+11-10	erfahren	VVINF	erfahren	_	O	O	
+11-11	,	$,	,	_	O	O	
+11-12	was	PRELS	was	_	O	O	
+11-13	in	APPR	in	_	O	O	
+11-14	der	ART	die	_	O	O	
+11-15	Gehaltssache	NN	<unknown>	_	O	O	
+11-16	zu	APPR	zu	_	O	O	
+11-17	thun	NN	<unknown>	_	O	O	
+11-18	,	$,	,	_	O	O	
+11-19	u.	APPR	um	_	O	O	
+11-20	am	PTKA	am	_	O	O	
+11-21	wen	PWS	wer	_	O	O	
+11-22	er	PPER	er	_	O	O	
+11-23	sich	PRF	sich	_	O	O	
+11-24	zu	PTKZU	zu	_	O	O	
+11-25	wenden	VVINF	wenden	_	O	O	
+11-26	hat	VAFIN	haben	_	O	O	
+11-27	,	$,	,	_	O	O	
+11-28	muß	VMFIN	müssen	_	O	O	
+11-29	also	ADV	also	_	O	O	
+11-30	jetzt	ADV	jetzt	_	O	O	
+11-31	wohl	ADV	wohl	_	O	O	
+11-32	zunächst	ADV	zunächst	_	O	O	
+11-33	die	ART	die	_	O	O	
+11-34	Antwort	NN	Antwort	_	O	O	
+11-35	abgewartet	VVPP	abwarten	_	O	O	
+11-36	werden	VAINF	werden	_	O	O	
+11-37	.	$.	.	_	O	O	
+
+#id=12
+#text=Sie schrieben neulich, für das C.I.Gr. val.
+12-1	Sie	PPER	Sie	_	O	O	
+12-2	schrieben	VVFIN	schreiben	_	O	O	
+12-3	neulich	ADV	neulich	_	O	O	
+12-4	,	$,	,	_	O	O	
+12-5	für	APPR	für	_	O	O	
+12-6	das	PRELS	die	_	O	O	
+12-7	C.I.Gr	NE	<unknown>	_	O	O	
+12-8	.	$.	.	_	O	O	
+12-9	val	VVFIN	<unknown>	_	O	O	
+12-10	.	$.	.	_	O	O	
+
+#id=13
+#text=111,2 werde sich wohl ein Abnehmer finden.
+13-1	111,2	CARD	@card@	_	O	O	
+13-2	werde	VAFIN	werden	_	O	O	
+13-3	sich	PRF	sich	_	O	O	
+13-4	wohl	ADV	wohl	_	O	O	
+13-5	ein	ART	eine	_	O	O	
+13-6	Abnehmer	NN	Abnehmer	_	O	O	
+13-7	finden	VVINF	finden	_	O	O	
+13-8	.	$.	.	_	O	O	
+
+#id=14
+#text=Ich muß mich aber doch an uie halten, um zu erfahren, ob Sie es gekauft, ode ob man es Ihnen zum Schicken nach Rom übergeben, d.h. also : wem der Ertrag zukommt.
+14-1	Ich	PPER	ich	_	O	O	
+14-2	muß	VMFIN	müssen	_	O	O	
+14-3	mich	PRF	ich	_	O	O	
+14-4	aber	ADV	aber	_	O	O	
+14-5	doch	ADV	doch	_	O	O	
+14-6	an	APPR	an	_	O	O	
+14-7	uie	ADJD	<unknown>	_	O	O	
+14-8	halten	VVINF	halten	_	O	O	
+14-9	,	$,	,	_	O	O	
+14-10	um	KOUI	um	_	O	O	
+14-11	zu	PTKZU	zu	_	O	O	
+14-12	erfahren	VVINF	erfahren	_	O	O	
+14-13	,	$,	,	_	O	O	
+14-14	ob	KOUS	ob	_	O	O	
+14-15	Sie	PPER	Sie	_	O	O	
+14-16	es	PPER	es	_	O	O	
+14-17	gekauft	VVPP	kaufen	_	O	O	
+14-18	,	$,	,	_	O	O	
+14-19	ode	VVFIN	<unknown>	_	O	O	
+14-20	ob	KOUS	ob	_	O	O	
+14-21	man	PIS	man	_	O	O	
+14-22	es	PPER	es	_	O	O	
+14-23	Ihnen	PPER	Sie	_	O	O	
+14-24	zum	APPRART	zu	_	O	O	
+14-25	Schicken	NN	Schicke|Schicken	_	O	O	
+14-26	nach	APPR	nach	_	O	O	
+14-27	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+14-28	übergeben	VVINF	übergeben	_	O	O	
+14-29	,	$,	,	_	O	O	
+14-30	d.h.	KON	d.h.	_	O	O	
+14-31	also	ADV	also	_	O	O	
+14-32	:	$.	:	_	O	O	
+14-33	wem	PWS	wer	_	O	O	
+14-34	der	ART	die	_	O	O	
+14-35	Ertrag	NN	Ertrag	_	O	O	
+14-36	zukommt	VVFIN	zukommen	_	O	O	
+14-37	.	$.	.	_	O	O	
+
+#id=15
+#text=Ich verkaufe es einstweilen an Sartis Schwester.
+15-1	Ich	PPER	ich	_	O	O	
+15-2	verkaufe	VVFIN	verkaufen	_	O	O	
+15-3	es	PPER	es	_	O	O	
+15-4	einstweilen	ADV	einstweilen	_	O	O	
+15-5	an	APPR	an	_	O	O	
+15-6	Sartis	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-7	Schwester	NN	Schwester	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+15-8	.	$.	.	_	O	O	
+
+#id=16
+#text=Zum Jahresschlusse erlauben Sie mir, unsre kleine Rechnung aufs Reine zu bringen :
+16-1	Zum	APPRART	zu	_	O	O	
+16-2	Jahresschlusse	NN	<unknown>	_	O	O	
+16-3	erlauben	VVFIN	erlauben	_	O	O	
+16-4	Sie	PPER	Sie	_	O	O	
+16-5	mir	PPER	ich	_	O	O	
+16-6	,	$,	,	_	O	O	
+16-7	unsre	PPOSAT	unsre	_	O	O	
+16-8	kleine	ADJA	klein	_	O	O	
+16-9	Rechnung	NN	Rechnung	_	O	O	
+16-10	aufs	APPRART	aufs	_	O	O	
+16-11	Reine	NN	Reine	_	O	O	
+16-12	zu	PTKZU	zu	_	O	O	
+16-13	bringen	VVINF	bringen	_	O	O	
+16-14	:	$.	:	_	O	O	
+

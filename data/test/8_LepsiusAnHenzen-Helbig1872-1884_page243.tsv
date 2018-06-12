@@ -1,0 +1,178 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=568 N. 167 Verehrter Freund Lepsius an Henzen Berlin, 7. Dezember 1875 g. 11/XII 75 r. 14/XII Berlin, den 7. Dez.
+1-1	568	CARD	@card@	_	O	O	
+1-2	N.	APPR	n.	_	O	O	
+1-3	167	CARD	@card@	_	O	O	
+1-4	Verehrter	NN	Verehrte	_	O	O	
+1-5	Freund	NE	Freund	_	O	O	
+1-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	11/XII	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+1-19	14/XII	NE	<unknown>	_	O	O	
+1-20	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-21	,	$,	,	_	O	O	
+1-22	den	ART	die	_	O	O	
+1-23	7	CARD	7	_	O	O	
+1-24	.	$.	.	_	O	O	
+1-25	Dez.	NN	Dez.	_	O	O	
+
+#id=2
+#text=1875 Ihre Kreaturen habe ich mitgetheilt; bis jetzt sind noch keine andern Vorschläge dazu gekommen.
+2-1	1875	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-2	Ihre	PPOSAT	ihr	_	O	O	
+2-3	Kreaturen	NN	Kreatur	_	O	O	
+2-4	habe	VAFIN	haben	_	O	O	
+2-5	ich	PPER	ich	_	O	O	
+2-6	mitgetheilt	VVPP	<unknown>	_	O	O	
+2-7	;	$.	;	_	O	O	
+2-8	bis	KON	bis	_	O	O	
+2-9	jetzt	ADV	jetzt	_	O	O	
+2-10	sind	VAFIN	sein	_	O	O	
+2-11	noch	ADV	noch	_	O	O	
+2-12	keine	PIAT	keine	_	O	O	
+2-13	andern	PIAT	andere	_	O	O	
+2-14	Vorschläge	NN	Vorschlag	_	O	O	
+2-15	dazu	PAV	dazu	_	O	O	
+2-16	gekommen	VVPP	kommen	_	O	O	
+2-17	.	$.	.	_	O	O	
+
+#id=3
+#text=Zum Abtreten der beiden Monumente an Gamurrini giebt die Central Direktion, da sie die Zweckmäßigkeit dem Museo Italico gegebnüber, allein beurtheilen könne, ihre Zustimmung.
+3-1	Zum	APPRART	zu	_	O	O	
+3-2	Abtreten	NN	Abtreten	_	O	O	
+3-3	der	ART	die	_	O	O	
+3-4	beiden	PIAT	beide	_	O	O	
+3-5	Monumente	NN	Monument	_	O	O	
+3-6	an	APPR	an	_	O	O	
+3-7	Gamurrini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-8	giebt	VVFIN	<unknown>	_	O	O	
+3-9	die	ART	die	_	O	O	
+3-10	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-11	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+3-12	,	$,	,	_	O	O	
+3-13	da	KOUS	da	_	O	O	
+3-14	sie	PPER	sie	_	O	O	
+3-15	die	ART	die	_	O	O	
+3-16	Zweckmäßigkeit	NN	Zweckmäßigkeit	_	O	O	
+3-17	dem	ART	die	_	O	O	
+3-18	Museo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-19	Italico	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+3-20	gegebnüber	VVPP	<unknown>	_	O	O	
+3-21	,	$,	,	_	O	O	
+3-22	allein	ADV	allein	_	O	O	
+3-23	beurtheilen	VVINF	<unknown>	_	O	O	
+3-24	könne	VMFIN	können	_	O	O	
+3-25	,	$,	,	_	O	O	
+3-26	ihre	PPOSAT	ihr	_	O	O	
+3-27	Zustimmung	NN	Zustimmung	_	O	O	
+3-28	.	$.	.	_	O	O	
+
+#id=4
+#text=Wie sollte aber - füge ich ex proprio noch binzu - der Raum im Neuen Hause fehlen?
+4-1	Wie	KOUS	wie	_	O	O	
+4-2	sollte	VMFIN	sollen	_	O	O	
+4-3	aber	ADV	aber	_	O	O	
+4-4	-	$(	-	_	O	O	
+4-5	füge	VVFIN	fügen	_	O	O	
+4-6	ich	PPER	ich	_	O	O	
+4-7	ex	FM	ex	_	O	O	
+4-8	proprio	NE	<unknown>	_	O	O	
+4-9	noch	ADV	noch	_	O	O	
+4-10	binzu	ADV	<unknown>	_	O	O	
+4-11	-	$(	-	_	O	O	
+4-12	der	ART	die	_	O	O	
+4-13	Raum	NN	Raum	_	O	O	
+4-14	im	APPRART	in	_	O	O	
+4-15	Neuen	ADJA	neu	_	O	O	
+4-16	Hause	NN	Haus	_	O	O	
+4-17	fehlen	VVINF	fehlen	_	O	O	
+4-18	?	$.	?	_	O	O	
+
+#id=5
+#text=Ich meine die kleine Sammlung müßte als Schmuck in dem Salon vortrefflich verwerthet werden können.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	meine	VVFIN	meinen	_	O	O	
+5-3	die	ART	die	_	O	O	
+5-4	kleine	ADJA	klein	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-5	Sammlung	NN	Sammlung	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-6	müßte	VMFIN	müssen	_	O	O	
+5-7	als	KOKOM	als	_	O	O	
+5-8	Schmuck	NN	Schmuck	_	O	O	
+5-9	in	APPR	in	_	O	O	
+5-10	dem	ART	die	_	O	O	
+5-11	Salon	NN	Salon	_	O	O	
+5-12	vortrefflich	ADJD	vortrefflich	_	O	O	
+5-13	verwerthet	NN	<unknown>	_	O	O	
+5-14	werden	VAINF	werden	_	O	O	
+5-15	können	VMINF	können	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Sagen Sie Helbig mit meinem besten Gruße, daß ich mich freue von Ebers zu hören, daß er mit diesem wegen der Italischen und Sardinischen Aegyptiaca in Verbindung getreten ist.
+6-1	Sagen	VVFIN	sagen	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	mit	APPR	mit	_	O	O	
+6-5	meinem	PPOSAT	mein	_	O	O	
+6-6	besten	ADJA	gut	_	O	O	
+6-7	Gruße	NN	Gruß	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	daß	KOUS	dass	_	O	O	
+6-10	ich	PPER	ich	_	O	O	
+6-11	mich	PPER	ich	_	O	O	
+6-12	freue	VVFIN	freuen	_	O	O	
+6-13	von	APPR	von	_	O	O	
+6-14	Ebers	NN	Eber	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-15	zu	PTKZU	zu	_	O	O	
+6-16	hören	VVINF	hören	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	daß	KOUS	dass	_	O	O	
+6-19	er	PPER	er	_	O	O	
+6-20	mit	APPR	mit	_	O	O	
+6-21	diesem	PDAT	dies	_	O	O	
+6-22	wegen	APPR	wegen	_	O	O	
+6-23	der	ART	die	_	O	O	
+6-24	Italischen	NN	<unknown>	_	O	O	
+6-25	und	KON	und	_	O	O	
+6-26	Sardinischen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-27	Aegyptiaca	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-28	in	APPR	in	_	O	O	
+6-29	Verbindung	NN	Verbindung	_	O	O	
+6-30	getreten	VVPP	treten	_	O	O	
+6-31	ist	VAFIN	sein	_	O	O	
+6-32	.	$.	.	_	O	O	
+
+#id=7
+#text=Ein früher Winter ist bei uns eingetreten; 10, 12 Grad.
+7-1	Ein	ART	eine	_	O	O	
+7-2	früher	ADJA	früh	_	O	O	
+7-3	Winter	NN	Winter	_	O	O	
+7-4	ist	VAFIN	sein	_	O	O	
+7-5	bei	APPR	bei	_	O	O	
+7-6	uns	PRF	wir	_	O	O	
+7-7	eingetreten	VVPP	eintreten	_	O	O	
+7-8	;	$.	;	_	O	O	
+7-9	10	CARD	10	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	12	CARD	12	_	O	O	
+7-12	Grad	NN	Grad	_	O	O	
+7-13	.	$.	.	_	O	O	
+
+#id=8
+#text=Der Ihrige R Lepsius
+8-1	Der	ART	die	_	O	O	
+8-2	Ihrige	PPOSAT	ihrige	_	O	O	
+8-3	R	NN	R	_	O	O	
+8-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

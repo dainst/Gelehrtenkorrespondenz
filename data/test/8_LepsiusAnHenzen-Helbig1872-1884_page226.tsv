@@ -1,0 +1,262 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=29~ Lepsius an Henzen Berlin, 4. Juni 1875 g. 8/6 75 Berlin, d. 4. Juni 1875 Verehrter Freund Ich habe Ihnen das letztemal sämmtliche Diplome vom 9. Dezember und 21. April gesendet, die von Rom aus zu besorgen waren, und in meinem letzten Briefe alle diejenigen genannt, die von den gleichen Daten nicht über Rom gingen; dazu gehörten vom 9. Dezember N. 983 Matkovi~, 988 Kondakoff 999 Förster, 1000 Hampel, 1001 Krüger, und vom 21. April 1010 Gelzer, 1011 Schäfer, 1012 Schwabe.
+1-1	29~	ADJA	<unknown>	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	4	CARD	4	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	8/6	CARD	8/6	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	,	$,	,	_	O	O	
+1-16	d.	ART	d.	_	O	O	
+1-17	4	CARD	4	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Verehrter	ADJA	verehrt	_	O	O	
+1-22	Freund	NN	Freund	_	O	O	
+1-23	Ich	PPER	ich	_	O	O	
+1-24	habe	VAFIN	haben	_	O	O	
+1-25	Ihnen	PPER	Sie	_	O	O	
+1-26	das	ART	die	_	O	O	
+1-27	letztemal	ADV	letztemal	_	O	O	
+1-28	sämmtliche	ADJA	<unknown>	_	O	O	
+1-29	Diplome	NN	Diplom	_	O	O	
+1-30	vom	APPRART	von	_	O	O	
+1-31	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-32	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-33	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-34	und	KON	und	_	O	O	
+1-35	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-36	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-37	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-38	gesendet	VVPP	senden	_	O	O	
+1-39	,	$,	,	_	O	O	
+1-40	die	PRELS	die	_	O	O	
+1-41	von	APPR	von	_	O	O	
+1-42	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-43	aus	PTKVZ	aus	_	O	O	
+1-44	zu	PTKZU	zu	_	O	O	
+1-45	besorgen	VVINF	besorgen	_	O	O	
+1-46	waren	VAFIN	sein	_	O	O	
+1-47	,	$,	,	_	O	O	
+1-48	und	KON	und	_	O	O	
+1-49	in	APPR	in	_	O	O	
+1-50	meinem	PPOSAT	mein	_	O	O	
+1-51	letzten	ADJA	letzt	_	O	O	
+1-52	Briefe	NN	Brief	_	O	O	
+1-53	alle	PIAT	alle	_	O	O	
+1-54	diejenigen	PDS	diejenigen	_	O	O	
+1-55	genannt	VVPP	nennen	_	O	O	
+1-56	,	$,	,	_	O	O	
+1-57	die	PRELS	die	_	O	O	
+1-58	von	APPR	von	_	O	O	
+1-59	den	ART	die	_	O	O	
+1-60	gleichen	ADJA	gleich	_	O	O	
+1-61	Daten	NN	Datum	_	O	O	
+1-62	nicht	PTKNEG	nicht	_	O	O	
+1-63	über	APPR	über	_	O	O	
+1-64	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-65	gingen	VVFIN	gehen	_	O	O	
+1-66	;	$.	;	_	O	O	
+1-67	dazu	PAV	dazu	_	O	O	
+1-68	gehörten	VVFIN	gehören	_	O	O	
+1-69	vom	APPRART	von	_	O	O	
+1-70	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-71	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-72	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-73	N.	APPR	n.	_	O	O	
+1-74	983	CARD	@card@	_	O	O	
+1-75	Matkovi~	NN	<unknown>	_	O	O	
+1-76	,	$,	,	_	O	O	
+1-77	988	CARD	@card@	_	O	O	
+1-78	Kondakoff	NN	<unknown>	_	O	O	
+1-79	999	CARD	@card@	_	O	O	
+1-80	Förster	NN	Förster	_	O	O	
+1-81	,	$,	,	_	O	O	
+1-82	1000	CARD	1000	_	O	O	
+1-83	Hampel	NE	Hampel	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-84	,	$,	,	_	O	O	
+1-85	1001	CARD	@card@	_	O	O	
+1-86	Krüger	NN	<unknown>	_	O	O	
+1-87	,	$,	,	_	O	O	
+1-88	und	KON	und	_	O	O	
+1-89	vom	APPRART	von	_	O	O	
+1-90	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-91	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-92	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-93	1010	CARD	@card@	_	O	O	
+1-94	Gelzer	NN	<unknown>	_	O	O	
+1-95	,	$,	,	_	O	O	
+1-96	1011	CARD	@card@	_	O	O	
+1-97	Schäfer	NE	Schäfer	_	O	O	
+1-98	,	$,	,	_	O	O	
+1-99	1012	CARD	@card@	_	O	O	
+1-100	Schwabe	NE	Schwabe	_	O	O	
+1-101	.	$.	.	_	O	O	
+
+#id=2
+#text=Es wird das wohl identisch mit der Angabe in ~einem letzten Briefe sein.
+2-1	Es	PPER	es	_	O	O	
+2-2	wird	VAFIN	werden	_	O	O	
+2-3	das	PDS	die	_	O	O	
+2-4	wohl	ADV	wohl	_	O	O	
+2-5	identisch	ADJD	identisch	_	O	O	
+2-6	mit	APPR	mit	_	O	O	
+2-7	der	ART	die	_	O	O	
+2-8	Angabe	NN	Angabe	_	O	O	
+2-9	in	APPR	in	_	O	O	
+2-10	~einem	ADJA	<unknown>	_	O	O	
+2-11	letzten	ADJA	letzt	_	O	O	
+2-12	Briefe	NN	Brief	_	O	O	
+2-13	sein	VAINF	sein	_	O	O	
+2-14	.	$.	.	_	O	O	
+
+#id=3
+#text=In Ihrer Liste von p. 15.
+3-1	In	APPR	in	_	O	O	
+3-2	Ihrer	PPOSAT	ihr	_	O	O	
+3-3	Liste	NN	Liste	_	O	O	
+3-4	von	APPR	von	_	O	O	
+3-5	p.	APPR	p.	_	O	O	
+3-6	15	CARD	15	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=16. des Bullettino vermisse ich noch Vittorio Poggi, Aiutante Maggiore in Parma von Ihnen mit Pecone und Strabo vorgeschlagen, dessen Diplom Sie auch erhalten haben müssen.
+4-1	16	CARD	16	_	O	O	
+4-2	.	$.	.	_	O	O	
+4-3	des	ART	die	_	O	O	
+4-4	Bullettino	NN	<unknown>	_	O	O	
+4-5	vermisse	VVFIN	vermissen	_	O	O	
+4-6	ich	PPER	ich	_	O	O	
+4-7	noch	ADV	noch	_	O	O	
+4-8	Vittorio	NE	Vittorio	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-9	Poggi	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-10	,	$,	,	_	O	O	
+4-11	Aiutante	NN	<unknown>	_	O	O	
+4-12	Maggiore	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-13	in	APPR	in	_	O	O	
+4-14	Parma	NE	Parma	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-15	von	APPR	von	_	O	O	
+4-16	Ihnen	PPER	Sie	_	O	O	
+4-17	mit	APPR	mit	_	O	O	
+4-18	Pecone	NN	<unknown>	_	O	O	
+4-19	und	KON	und	_	O	O	
+4-20	Strabo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-21	vorgeschlagen	VVPP	vorschlagen	_	O	O	
+4-22	,	$,	,	_	O	O	
+4-23	dessen	PRELAT	die	_	O	O	
+4-24	Diplom	NN	Diplom	_	O	O	
+4-25	Sie	PPER	Sie	_	O	O	
+4-26	auch	ADV	auch	_	O	O	
+4-27	erhalten	VVPP	erhalten	_	O	O	
+4-28	haben	VAINF	haben	_	O	O	
+4-29	müssen	VMFIN	müssen	_	O	O	
+4-30	.	$.	.	_	O	O	
+
+#id=5
+#text=Wie Förster schon früher als in derselben Liste vom 9. Dezember genannt worden sein soll, ist I mir nicht klar.
+5-1	Wie	KOKOM	wie	_	O	O	
+5-2	Förster	NN	Förster	_	O	O	
+5-3	schon	ADV	schon	_	O	O	
+5-4	früher	ADJD	früh	_	O	O	
+5-5	als	KOKOM	als	_	O	O	
+5-6	in	APPR	in	_	O	O	
+5-7	derselben	PDAT	dieselb	_	O	O	
+5-8	Liste	NN	Liste	_	O	O	
+5-9	vom	APPRART	von	_	O	O	
+5-10	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-12	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-13	genannt	VVPP	nennen	_	O	O	
+5-14	worden	VAPP	werden	_	O	O	
+5-15	sein	VAINF	sein	_	O	O	
+5-16	soll	VMFIN	sollen	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	ist	VAFIN	sein	_	O	O	
+5-19	I	NN	I	_	O	O	
+5-20	mir	PPER	ich	_	O	O	
+5-21	nicht	PTKNEG	nicht	_	O	O	
+5-22	klar	ADJD	klar	_	O	O	
+5-23	.	$.	.	_	O	O	
+
+#id=6
+#text=Krüger wurde an seiner s~lbernen Hochzeit ernannt, das Diplom aber zurück datirt.
+6-1	Krüger	NN	<unknown>	_	O	O	
+6-2	wurde	VAFIN	werden	_	O	O	
+6-3	an	APPR	an	_	O	O	
+6-4	seiner	PPOSAT	sein	_	O	O	
+6-5	s~lbernen	ADJA	<unknown>	_	O	O	
+6-6	Hochzeit	NN	Hochzeit	_	O	O	
+6-7	ernannt	VVPP	ernennen	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	das	ART	die	_	O	O	
+6-10	Diplom	NN	Diplom	_	O	O	
+6-11	aber	ADV	aber	_	O	O	
+6-12	zurück	PTKVZ	zurück	_	O	O	
+6-13	datirt	NN	<unknown>	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Wir denken nun statt Lüders wieder zunächst an Köhler.
+7-1	Wir	PPER	wir	_	O	O	
+7-2	denken	VVFIN	denken	_	O	O	
+7-3	nun	ADV	nun	_	O	O	
+7-4	statt	APPR	statt	_	O	O	
+7-5	Lüders	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-6	wieder	ADV	wieder	_	O	O	
+7-7	zunächst	ADV	zunächst	_	O	O	
+7-8	an	APPR	an	_	O	O	
+7-9	Köhler	NE	Köhler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-10	.	$.	.	_	O	O	
+
+#id=8
+#text=Seine Annahme würde alle Schwierigkeiten heben.
+8-1	Seine	PPOSAT	sein	_	O	O	
+8-2	Annahme	NN	Annahme	_	O	O	
+8-3	würde	VAFIN	werden	_	O	O	
+8-4	alle	PIAT	alle	_	O	O	
+8-5	Schwierigkeiten	NN	Schwierigkeit	_	O	O	
+8-6	heben	VVINF	heben	_	O	O	
+8-7	.	$.	.	_	O	O	
+
+#id=9
+#text=Er hat den Vorschlag nicht a limine abgewiesen; die Möglichkeit ihn zu gewinnen bleibt also noch.
+9-1	Er	PPER	er	_	O	O	
+9-2	hat	VAFIN	haben	_	O	O	
+9-3	den	ART	die	_	O	O	
+9-4	Vorschlag	NN	Vorschlag	_	O	O	
+9-5	nicht	PTKNEG	nicht	_	O	O	
+9-6	a	FM	a	_	O	O	
+9-7	limine	NE	<unknown>	_	O	O	
+9-8	abgewiesen	VVPP	abweisen	_	O	O	
+9-9	;	$.	;	_	O	O	
+9-10	die	ART	die	_	O	O	
+9-11	Möglichkeit	NN	Möglichkeit	_	O	O	
+9-12	ihn	PPER	er	_	O	O	
+9-13	zu	PTKZU	zu	_	O	O	
+9-14	gewinnen	VVINF	gewinnen	_	O	O	
+9-15	bleibt	VVFIN	bleiben	_	O	O	
+9-16	also	ADV	also	_	O	O	
+9-17	noch	ADV	noch	_	O	O	
+9-18	.	$.	.	_	O	O	
+
+#id=10
+#text=Die schriftliche Bitte um Enthebung ist endlich
+10-1	Die	ART	die	_	O	O	
+10-2	schriftliche	ADJA	schriftlich	_	O	O	
+10-3	Bitte	NN	Bitte	_	O	O	
+10-4	um	APPR	um	_	O	O	
+10-5	Enthebung	NN	Enthebung	_	O	O	
+10-6	ist	VAFIN	sein	_	O	O	
+10-7	endlich	ADV	endlich	_	O	O	
+

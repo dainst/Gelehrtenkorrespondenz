@@ -1,0 +1,214 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Lieber Herr Professor Helbig an Henzen Meidanowa, 2. September 1871 g. 10/9 71 r.
+1-1	Lieber	ADJA	lieb	_	O	O	
+1-2	Herr	NN	Herr	_	O	O	
+1-3	Professor	NN	Professor	_	O	O	
+1-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	Meidanowa	NE	<unknown>	_	O	O	
+1-8	,	$,	,	_	O	O	
+1-9	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1871	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	10/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	71	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=11/9 71 Meidanowa 2. Sept.
+2-1	11/9	CARD	@card@	_	O	O	
+2-2	71	CARD	@card@	_	O	O	
+2-3	Meidanowa	NE	<unknown>	_	O	O	
+2-4	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	Sept.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=3
+#text=1871 Übermorgen setzen wir uns in Bewegung, um unsere Rückreise anzutreten.
+3-1	1871	CARD	@card@	_	O	O	
+3-2	Übermorgen	NN	Übermorgen	_	O	O	
+3-3	setzen	VVFIN	setzen	_	O	O	
+3-4	wir	PPER	wir	_	O	O	
+3-5	uns	PRF	wir	_	O	O	
+3-6	in	APPR	in	_	O	O	
+3-7	Bewegung	NN	Bewegung	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	um	KOUI	um	_	O	O	
+3-10	unsere	PPOSAT	unser	_	O	O	
+3-11	Rückreise	NN	Rückreise	_	O	O	
+3-12	anzutreten	VVIZU	antreten	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Wir werden alle sehr froh sein, Rußland hinter uns zu haben; denn der hiesige Aufenthalt war diesmal aus verschiedenen Gründen nicht besonders angenehm.
+4-1	Wir	PPER	wir	_	O	O	
+4-2	werden	VAFIN	werden	_	O	O	
+4-3	alle	PIS	alle	_	O	O	
+4-4	sehr	ADV	sehr	_	O	O	
+4-5	froh	ADJD	froh	_	O	O	
+4-6	sein	VAINF	sein	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	Rußland	NE	Russland	_	O	O	
+4-9	hinter	APPR	hinter	_	O	O	
+4-10	uns	PPER	wir	_	O	O	
+4-11	zu	PTKZU	zu	_	O	O	
+4-12	haben	VAINF	haben	_	O	O	
+4-13	;	$.	;	_	O	O	
+4-14	denn	KON	denn	_	O	O	
+4-15	der	ART	die	_	O	O	
+4-16	hiesige	ADJA	hiesig	_	O	O	
+4-17	Aufenthalt	NN	Aufenthalt	_	O	O	
+4-18	war	VAFIN	sein	_	O	O	
+4-19	diesmal	ADV	diesmal	_	O	O	
+4-20	aus	APPR	aus	_	O	O	
+4-21	verschiedenen	ADJA	verschieden	_	O	O	
+4-22	Gründen	NN	Grund	_	O	O	
+4-23	nicht	PTKNEG	nicht	_	O	O	
+4-24	besonders	ADV	besonders	_	O	O	
+4-25	angenehm	ADJD	angenehm	_	O	O	
+4-26	.	$.	.	_	O	O	
+
+#id=5
+#text=Einerseits hat die Cholera namentlich auf dem Lande und vorwiegend mit Beginn der Fasten, während der die Bauern ihr übliches Schnaps quantum in den leeren Magen hineinsaufen, ganz erschreckliche Dimensionen angenommen und war in Folge dessen eine Angst verbreitet, die auf den Verkehr sehr lähmend wirkte.
+5-1	Einerseits	ADV	einerseits	_	O	O	
+5-2	hat	VAFIN	haben	_	O	O	
+5-3	die	ART	die	_	O	O	
+5-4	Cholera	NN	Cholera	_	O	O	
+5-5	namentlich	ADJD	namentlich	_	O	O	
+5-6	auf	APPR	auf	_	O	O	
+5-7	dem	ART	die	_	O	O	
+5-8	Lande	NN	Land	_	O	O	
+5-9	und	KON	und	_	O	O	
+5-10	vorwiegend	ADJD	vorwiegend	_	O	O	
+5-11	mit	APPR	mit	_	O	O	
+5-12	Beginn	NN	Beginn	_	O	O	
+5-13	der	ART	die	_	O	O	
+5-14	Fasten	NN	Fasten	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	während	APPR	während	_	O	O	
+5-17	der	PRELS	die	_	O	O	
+5-18	die	ART	die	_	O	O	
+5-19	Bauern	NN	Bauer	_	O	O	
+5-20	ihr	PPOSAT	ihr	_	O	O	
+5-21	übliches	ADJA	üblich	_	O	O	
+5-22	Schnaps	NN	Schnaps	_	O	O	
+5-23	quantum	NN	Quantum	_	O	O	
+5-24	in	APPR	in	_	O	O	
+5-25	den	ART	die	_	O	O	
+5-26	leeren	ADJA	leer	_	O	O	
+5-27	Magen	NN	Magen	_	O	O	
+5-28	hineinsaufen	VVFIN	<unknown>	_	O	O	
+5-29	,	$,	,	_	O	O	
+5-30	ganz	ADV	ganz	_	O	O	
+5-31	erschreckliche	ADJA	<unknown>	_	O	O	
+5-32	Dimensionen	NN	Dimension	_	O	O	
+5-33	angenommen	VVPP	annehmen	_	O	O	
+5-34	und	KON	und	_	O	O	
+5-35	war	VAFIN	sein	_	O	O	
+5-36	in	APPR	in	_	O	O	
+5-37	Folge	NN	Folge	_	O	O	
+5-38	dessen	PDS	die	_	O	O	
+5-39	eine	ART	eine	_	O	O	
+5-40	Angst	NN	Angst	_	O	O	
+5-41	verbreitet	VVPP	verbreiten	_	O	O	
+5-42	,	$,	,	_	O	O	
+5-43	die	PRELS	die	_	O	O	
+5-44	auf	APPR	auf	_	O	O	
+5-45	den	ART	die	_	O	O	
+5-46	Verkehr	NN	Verkehr	_	O	O	
+5-47	sehr	ADV	sehr	_	O	O	
+5-48	lähmend	ADJD	lähmend	_	O	O	
+5-49	wirkte	VVFIN	wirken	_	O	O	
+5-50	.	$.	.	_	O	O	
+
+#id=6
+#text=Außerdem litt ich persönlich durch die Epidemie des russischen Chauvinismus, der von Jahr zu Jahr, wie ich deutlich verfolgen kann, größere Kreise treibt und vermuthlich, sowie der Kaiser die Augen geschlossen, zu einem gewaltigen Conflicte führen wird.
+6-1	Außerdem	ADV	außerdem	_	O	O	
+6-2	litt	VVFIN	leiden	_	O	O	
+6-3	ich	PPER	ich	_	O	O	
+6-4	persönlich	ADJD	persönlich	_	O	O	
+6-5	durch	APPR	durch	_	O	O	
+6-6	die	ART	die	_	O	O	
+6-7	Epidemie	NN	Epidemie	_	O	O	
+6-8	des	ART	die	_	O	O	
+6-9	russischen	ADJA	russisch	_	O	O	
+6-10	Chauvinismus	NN	Chauvinismus	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	der	PRELS	die	_	O	O	
+6-13	von	APPR	von	_	O	O	
+6-14	Jahr	NN	Jahr	_	O	O	
+6-15	zu	APPR	zu	_	O	O	
+6-16	Jahr	NN	Jahr	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	wie	KOUS	wie	_	O	O	
+6-19	ich	PPER	ich	_	O	O	
+6-20	deutlich	ADJD	deutlich	_	O	O	
+6-21	verfolgen	VVINF	verfolgen	_	O	O	
+6-22	kann	VMFIN	können	_	O	O	
+6-23	,	$,	,	_	O	O	
+6-24	größere	ADJA	groß	_	O	O	
+6-25	Kreise	NN	Kreis	_	O	O	
+6-26	treibt	VVFIN	treiben	_	O	O	
+6-27	und	KON	und	_	O	O	
+6-28	vermuthlich	ADJD	<unknown>	_	O	O	
+6-29	,	$,	,	_	O	O	
+6-30	sowie	KON	sowie	_	O	O	
+6-31	der	ART	die	_	O	O	
+6-32	Kaiser	NN	Kaiser	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-33	die	ART	die	_	O	O	
+6-34	Augen	NN	Auge	_	O	O	
+6-35	geschlossen	VVPP	schließen	_	O	O	
+6-36	,	$,	,	_	O	O	
+6-37	zu	APPR	zu	_	O	O	
+6-38	einem	ART	eine	_	O	O	
+6-39	gewaltigen	ADJA	gewaltig	_	O	O	
+6-40	Conflicte	NN	<unknown>	_	O	O	
+6-41	führen	VVINF	führen	_	O	O	
+6-42	wird	VAFIN	werden	_	O	O	
+6-43	.	$.	.	_	O	O	
+
+#id=7
+#text=Dazu seit vierzehn Tagen fortwährend kaltes und regnerisches Wetter und ein aus der Menagerie.des Fürsten Wolkonsky entsprungener Tiger, welcher bei Spatzierfahrten, ritten oder Gängen alle möglichen Vorsichtsmaßregeln nöthig macht - Sie begreifen, daß Alles dies
+7-1	Dazu	PAV	dazu	_	O	O	
+7-2	seit	APPR	seit	_	O	O	
+7-3	vierzehn	CARD	vierzehn	_	O	O	
+7-4	Tagen	NN	Tag	_	O	O	
+7-5	fortwährend	ADJD	fortwährend	_	O	O	
+7-6	kaltes	ADJA	kalt	_	O	O	
+7-7	und	KON	und	_	O	O	
+7-8	regnerisches	ADJA	regnerisch	_	O	O	
+7-9	Wetter	NN	Wetter	_	O	O	
+7-10	und	KON	und	_	O	O	
+7-11	ein	ART	eine	_	O	O	
+7-12	aus	APPR	aus	_	O	O	
+7-13	der	ART	die	_	O	O	
+7-14	Menagerie.des	NN	<unknown>	_	O	O	
+7-15	Fürsten	NN	Fürst	_	O	O	
+7-16	Wolkonsky	NE	<unknown>	_	O	O	
+7-17	entsprungener	ADJA	<unknown>	_	O	O	
+7-18	Tiger	NN	Tiger	_	O	O	
+7-19	,	$,	,	_	O	O	
+7-20	welcher	PRELS	welche	_	O	O	
+7-21	bei	APPR	bei	_	O	O	
+7-22	Spatzierfahrten	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-23	,	$,	,	_	O	O	
+7-24	ritten	VVFIN	reiten	_	O	O	
+7-25	oder	KON	oder	_	O	O	
+7-26	Gängen	NN	Gang	_	O	O	
+7-27	alle	PIAT	alle	_	O	O	
+7-28	möglichen	ADJA	möglich	_	O	O	
+7-29	Vorsichtsmaßregeln	NN	Vorsichtsmaßregel	_	O	O	
+7-30	nöthig	ADJD	<unknown>	_	O	O	
+7-31	macht	VVFIN	machen	_	O	O	
+7-32	-	$(	-	_	O	O	
+7-33	Sie	PPER	Sie	_	O	O	
+7-34	begreifen	VVINF	begreifen	_	O	O	
+7-35	,	$,	,	_	O	O	
+7-36	daß	KOUS	dass	_	O	O	
+7-37	Alles	PIS	alle	_	O	O	
+7-38	dies	PDS	dies	_	O	O	
+

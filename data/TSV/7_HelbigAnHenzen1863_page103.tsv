@@ -1,0 +1,251 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=301 H Lieber Herr Professor Helbig an Henzen Moskau, 14. Juni 1868 g. 27/6 68 r.
+1-1	301	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Moskau	NE	Moskau	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1868	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	27/6	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	68	CARD	68	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=30/6 68 Moskau 14. Juni 1868.
+2-1	30/6	CARD	@card@	_	O	O	
+2-2	68	CARD	68	_	O	O	
+2-3	Moskau	NE	Moskau	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	1868	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Gestern sind wir glücklich, nachdem wir zwei Tage in Berlin und einen Tag in Petersburg zugebracht hatten, in Moskau angelangt und heute traf Ihr freundlicher Brief vom 5. Juni ein.
+3-1	Gestern	ADV	gestern	_	O	O	
+3-2	sind	VAFIN	sein	_	O	O	
+3-3	wir	PPER	wir	_	O	O	
+3-4	glücklich	ADJD	glücklich	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	nachdem	KOUS	nachdem	_	O	O	
+3-7	wir	PPER	wir	_	O	O	
+3-8	zwei	CARD	zwei	_	O	O	
+3-9	Tage	NN	Tag	_	O	O	
+3-10	in	APPR	in	_	O	O	
+3-11	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-12	und	KON	und	_	O	O	
+3-13	einen	ART	eine	_	O	O	
+3-14	Tag	NN	Tag	_	O	O	
+3-15	in	APPR	in	_	O	O	
+3-16	Petersburg	NE	Petersburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-17	zugebracht	VVPP	zubringen	_	O	O	
+3-18	hatten	VAFIN	haben	_	O	O	
+3-19	,	$,	,	_	O	O	
+3-20	in	APPR	in	_	O	O	
+3-21	Moskau	NE	Moskau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-22	angelangt	VVPP	angelangen	_	O	O	
+3-23	und	KON	und	_	O	O	
+3-24	heute	ADV	heute	_	O	O	
+3-25	traf	VVFIN	treffen	_	O	O	
+3-26	Ihr	PPOSAT	ihr	_	O	O	
+3-27	freundlicher	ADJA	freundlich	_	O	O	
+3-28	Brief	NN	Brief	_	O	O	
+3-29	vom	APPRART	von	_	O	O	
+3-30	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-31	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-32	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-33	ein	PTKVZ	ein	_	O	O	
+3-34	.	$.	.	_	O	O	
+
+#id=4
+#text=Hoffentlich ist Ihnen unterdeß mein aus Dresden an Sie gerichteter Brief zugegangen, welcher bereits den größten Theil der von Ihnen an mich gerichteten Anfragen beantwortet hat.
+4-1	Hoffentlich	ADV	hoffentlich	_	O	O	
+4-2	ist	VAFIN	sein	_	O	O	
+4-3	Ihnen	PPER	Sie	_	O	O	
+4-4	unterdeß	NN	<unknown>	_	O	O	
+4-5	mein	PPOSAT	mein	_	O	O	
+4-6	aus	APPR	aus	_	O	O	
+4-7	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-8	an	APPR	an	_	O	O	
+4-9	Sie	PPER	Sie	_	O	O	
+4-10	gerichteter	ADJA	gerichtet	_	O	O	
+4-11	Brief	NN	Brief	_	O	O	
+4-12	zugegangen	VVPP	zugehen	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	welcher	PWS	welche	_	O	O	
+4-15	bereits	ADV	bereits	_	O	O	
+4-16	den	ART	die	_	O	O	
+4-17	größten	ADJA	groß	_	O	O	
+4-18	Theil	NN	<unknown>	_	O	O	
+4-19	der	ART	die	_	O	O	
+4-20	von	APPR	von	_	O	O	
+4-21	Ihnen	PPER	Sie	_	O	O	
+4-22	an	APPR	an	_	O	O	
+4-23	mich	PPER	ich	_	O	O	
+4-24	gerichteten	ADJA	gerichtet	_	O	O	
+4-25	Anfragen	NN	Anfrage	_	O	O	
+4-26	beantwortet	VVPP	beantworten	_	O	O	
+4-27	hat	VAFIN	haben	_	O	O	
+4-28	.	$.	.	_	O	O	
+
+#id=5
+#text=Stephani habe ich unterdeß gesprochen.
+5-1	Stephani	NE	Stephani	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	ich	PPER	ich	_	O	O	
+5-4	unterdeß	NN	<unknown>	_	O	O	
+5-5	gesprochen	VVPP	sprechen	_	O	O	
+5-6	.	$.	.	_	O	O	
+
+#id=6
+#text=Er sagte mir, der betreffende Wechsel könne ruhig in Rom liegen bleiben.
+6-1	Er	PPER	er	_	O	O	
+6-2	sagte	VVFIN	sagen	_	O	O	
+6-3	mir	PPER	ich	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	der	ART	die	_	O	O	
+6-6	betreffende	ADJA	betreffend	_	O	O	
+6-7	Wechsel	NN	Wechsel	_	O	O	
+6-8	könne	VMFIN	können	_	O	O	
+6-9	ruhig	ADJD	ruhig	_	O	O	
+6-10	in	APPR	in	_	O	O	
+6-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-12	liegen	VVINF	liegen	_	O	O	
+6-13	bleiben	VVINF	bleiben	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Die gewünschte Quittung habe ich ihm darüber ausgestellt.
+7-1	Die	ART	die	_	O	O	
+7-2	gewünschte	ADJA	gewünscht	_	O	O	
+7-3	Quittung	NN	Quittung	_	O	O	
+7-4	habe	VAFIN	haben	_	O	O	
+7-5	ich	PPER	ich	_	O	O	
+7-6	ihm	PPER	er	_	O	O	
+7-7	darüber	PAV	darüber	_	O	O	
+7-8	ausgestellt	VVPP	ausstellen	_	O	O	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=Ärgerlich ist, daß die Baronesche Angelegenheit noch nicht in Ordnung ist.
+8-1	Ärgerlich	ADJD	ärgerlich	_	O	O	
+8-2	ist	VAFIN	sein	_	O	O	
+8-3	,	$,	,	_	O	O	
+8-4	daß	KOUS	dass	_	O	O	
+8-5	die	ART	die	_	O	O	
+8-6	Baronesche	NN	<unknown>	_	O	O	
+8-7	Angelegenheit	NN	Angelegenheit	_	O	O	
+8-8	noch	ADV	noch	_	O	O	
+8-9	nicht	PTKNEG	nicht	_	O	O	
+8-10	in	APPR	in	_	O	O	
+8-11	Ordnung	NN	Ordnung	_	O	O	
+8-12	ist	VAFIN	sein	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Eitelberger hat sie verbummelt.
+9-1	Eitelberger	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	hat	VAFIN	haben	_	O	O	
+9-3	sie	PPER	sie	_	O	O	
+9-4	verbummelt	VVPP	verbummeln	_	O	O	
+9-5	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich schreibe sofort an ihn.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	schreibe	VVFIN	schreiben	_	O	O	
+10-3	sofort	ADV	sofort	_	O	O	
+10-4	an	APPR	an	_	O	O	
+10-5	ihn	PPER	er	_	O	O	
+10-6	.	$.	.	_	O	O	
+
+#id=11
+#text=Meinen Bericht über die Antichita CasteIlani, welcher schon angefangen ist, schicke ich von Wirsolowow aus.
+11-1	Meinen	PPOSAT	mein	_	O	O	
+11-2	Bericht	NN	Bericht	_	O	O	
+11-3	über	APPR	über	_	O	O	
+11-4	die	ART	die	_	O	O	
+11-5	Antichita	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-6	CasteIlani	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+11-7	,	$,	,	_	O	O	
+11-8	welcher	PWS	welche	_	O	O	
+11-9	schon	ADV	schon	_	O	O	
+11-10	angefangen	VVPP	anfangen	_	O	O	
+11-11	ist	VAFIN	sein	_	O	O	
+11-12	,	$,	,	_	O	O	
+11-13	schicke	VVFIN	schicken	_	O	O	
+11-14	ich	PPER	ich	_	O	O	
+11-15	von	APPR	von	_	O	O	
+11-16	Wirsolowow	NN	<unknown>	_	O	O	
+11-17	aus	PTKVZ	aus	_	O	O	
+11-18	.	$.	.	_	O	O	
+
+#id=12
+#text=In Petersburg habe ich eine prachtvolle Sammlung nolaner Vasen bei einem Aba;a ausfindig gemacht, darunter befindet sich die lang verschollene mit der Ankunft der Schwalbe.
+12-1	In	APPR	in	_	O	O	
+12-2	Petersburg	NE	Petersburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-3	habe	VAFIN	haben	_	O	O	
+12-4	ich	PPER	ich	_	O	O	
+12-5	eine	ART	eine	_	O	O	
+12-6	prachtvolle	ADJA	prachtvoll	_	O	O	
+12-7	Sammlung	NN	Sammlung	_	O	O	
+12-8	nolaner	NN	<unknown>	_	O	O	
+12-9	Vasen	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+12-10	bei	APPR	bei	_	O	O	
+12-11	einem	ART	eine	_	O	O	
+12-12	Aba	NE	Aba	_	O	O	
+12-13	;	$.	;	_	O	O	
+12-14	a	FM	a	_	O	O	
+12-15	ausfindig	ADV	ausfindig	_	O	O	
+12-16	gemacht	VVPP	machen	_	O	O	
+12-17	,	$,	,	_	O	O	
+12-18	darunter	PAV	darunter	_	O	O	
+12-19	befindet	VVFIN	befinden	_	O	O	
+12-20	sich	PRF	sich	_	O	O	
+12-21	die	ART	die	_	O	O	
+12-22	lang	ADJD	lang	_	O	O	
+12-23	verschollene	ADJA	verschollen	_	O	O	
+12-24	mit	APPR	mit	_	O	O	
+12-25	der	ART	die	_	O	O	
+12-26	Ankunft	NN	Ankunft	_	O	O	
+12-27	der	ART	die	_	O	O	
+12-28	Schwalbe	NN	Schwalbe	_	O	O	
+12-29	.	$.	.	_	O	O	
+
+#id=13
+#text=Stephani hat den To~ seines Sohnes gefaßter ertragen, als zu erwarten war.
+13-1	Stephani	NE	Stephani	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	hat	VAFIN	haben	_	O	O	
+13-3	den	ART	die	_	O	O	
+13-4	To~	NN	<unknown>	_	O	O	
+13-5	seines	PPOSAT	sein	_	O	O	
+13-6	Sohnes	NN	Sohn	_	O	O	
+13-7	gefaßter	ADJD	gefaßter	_	O	O	
+13-8	ertragen	VVINF	ertragen	_	O	O	
+13-9	,	$,	,	_	O	O	
+13-10	als	KOUS	als	_	O	O	
+13-11	zu	PTKZU	zu	_	O	O	
+13-12	erwarten	VVINF	erwarten	_	O	O	
+13-13	war	VAFIN	sein	_	O	O	
+13-14	.	$.	.	_	O	O	
+
+#id=14
+#text=Er grüßt Sie herzlich und verspricht
+14-1	Er	PPER	er	_	O	O	
+14-2	grüßt	VVFIN	grüßen	_	O	O	
+14-3	Sie	PPER	Sie	_	O	O	
+14-4	herzlich	ADJD	herzlich	_	O	O	
+14-5	und	KON	und	_	O	O	
+14-6	verspricht	VVFIN	versprechen	_	O	O	
+

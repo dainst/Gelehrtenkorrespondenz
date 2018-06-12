@@ -1,0 +1,352 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Ohne Nummer Renzen an Gerhard 13/VIII/53 3 100 Scudi Saalmiethe außer obigen 1340 rf., die wir stets dh.
+1-1	Ohne	APPR	ohne	_	O	O	
+1-2	Nummer	NN	Nummer	_	O	O	
+1-3	Renzen	NN	<unknown>	_	O	O	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	13/VIII/53	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	3	CARD	3	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	100	CARD	100	_	O	O	
+1-9	Scudi	NN	<unknown>	_	O	O	
+1-10	Saalmiethe	NE	<unknown>	_	O	O	
+1-11	außer	APPR	außer	_	O	O	
+1-12	obigen	ADJA	obig	_	O	O	
+1-13	1340	CARD	@card@	_	O	O	
+1-14	rf	VVFIN	<unknown>	_	O	O	
+1-15	.	$.	.	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	die	PRELS	die	_	O	O	
+1-18	wir	PPER	wir	_	O	O	
+1-19	stets	ADV	stets	_	O	O	
+1-20	dh.	NE	<unknown>	_	O	O	
+
+#id=2
+#text=MarstaJler erhalten u. im Namen ds.
+2-1	MarstaJler	NE	<unknown>	_	O	O	
+2-2	erhalten	VVFIN	erhalten	_	O	O	
+2-3	u.	APPR	um	_	O	O	
+2-4	im	APPRART	in	_	O	O	
+2-5	Namen	NN	Name	_	O	O	
+2-6	ds.	ADJD	<unknown>	_	O	O	
+
+#id=3
+#text=Ninisteriums, j~hrlieh von der Gesandtschaft direct an Schulze bezahlt werden, ich glaube, als Pri vatbetrae; des Königs; dag",'~*ch iNi:ire also die Gesammtsumme der Unterstützung 1490 ff.
+3-1	Ninisteriums	NN	<unknown>	_	O	O	
+3-2	,	$,	,	_	O	O	
+3-3	j~hrlieh	VVFIN	<unknown>	_	O	O	
+3-4	von	APPR	von	_	O	O	
+3-5	der	ART	die	_	O	O	
+3-6	Gesandtschaft	NN	Gesandtschaft	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-7	direct	NE	direct	_	O	O	
+3-8	an	APPR	an	_	O	O	
+3-9	Schulze	NE	Schulze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-10	bezahlt	VVPP	bezahlen	_	O	O	
+3-11	werden	VAINF	werden	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	ich	PPER	ich	_	O	O	
+3-14	glaube	VVFIN	glauben	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	als	KOUS	als	_	O	O	
+3-17	Pri	NE	<unknown>	_	O	O	
+3-18	vatbetrae	NE	<unknown>	_	O	O	
+3-19	;	$.	;	_	O	O	
+3-20	des	ART	die	_	O	O	
+3-21	Königs	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-22	;	$.	;	_	O	O	
+3-23	dag",'~*ch	ADJA	<unknown>	_	O	O	
+3-24	iNi:ire	NN	<unknown>	_	O	O	
+3-25	also	ADV	also	_	O	O	
+3-26	die	ART	die	_	O	O	
+3-27	Gesammtsumme	NN	<unknown>	_	O	O	
+3-28	der	ART	die	_	O	O	
+3-29	Unterstützung	NN	Unterstützung	_	O	O	
+3-30	1490	CARD	@card@	_	O	O	
+3-31	ff.	NN	<unknown>	_	O	O	
+
+#id=4
+#text=Yönnen ~ie einen Zuschur erhalten, sei es zur Erhöhung unsrer Gehalte, sei es zu Instituts- ode Bibliothekszwecken, tanto meglio.
+4-1	Yönnen	NE	<unknown>	_	O	O	
+4-2	~ie	NN	<unknown>	_	O	O	
+4-3	einen	ART	eine	_	O	O	
+4-4	Zuschur	NN	<unknown>	_	O	O	
+4-5	erhalten	VVPP	erhalten	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	sei	VAFIN	sein	_	O	O	
+4-8	es	PPER	es	_	O	O	
+4-9	zur	APPRART	zu	_	O	O	
+4-10	Erhöhung	NN	Erhöhung	_	O	O	
+4-11	unsrer	PPOSAT	unser	_	O	O	
+4-12	Gehalte	NN	Gehalt	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	sei	VAFIN	sein	_	O	O	
+4-15	es	PPER	es	_	O	O	
+4-16	zu	APPR	zu	_	O	O	
+4-17	Instituts-	TRUNC	Instituts-	_	O	O	
+4-18	ode	ADJA	<unknown>	_	O	O	
+4-19	Bibliothekszwecken	NN	<unknown>	_	O	O	
+4-20	,	$,	,	_	O	O	
+4-21	tanto	NE	<unknown>	_	O	O	
+4-22	meglio	NE	<unknown>	_	O	O	
+4-23	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich bitte aber sehr, meinen eben erwähnten /Brief einzusehen, der von Ihnen zu wenie; beachtet zu sein scheint; zugleich können Sie nöthigen Falls Usedom sagen, er möge sich von Dr.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	bitte	VVFIN	bitten	_	O	O	
+5-3	aber	ADV	aber	_	O	O	
+5-4	sehr	ADV	sehr	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	meinen	VVFIN	meinen	_	O	O	
+5-7	eben	ADV	eben	_	O	O	
+5-8	erwähnten	ADJA	erwähnt	_	O	O	
+5-9	/Brief	NN	<unknown>	_	O	O	
+5-10	einzusehen	VVIZU	einsehen	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	der	PRELS	die	_	O	O	
+5-13	von	APPR	von	_	O	O	
+5-14	Ihnen	PPER	Sie	_	O	O	
+5-15	zu	APPR	zu	_	O	O	
+5-16	wenie	NE	<unknown>	_	O	O	
+5-17	;	$.	;	_	O	O	
+5-18	beachtet	VVPP	beachten	_	O	O	
+5-19	zu	PTKZU	zu	_	O	O	
+5-20	sein	VAINF	sein	_	O	O	
+5-21	scheint	VVFIN	scheinen	_	O	O	
+5-22	;	$.	;	_	O	O	
+5-23	zugleich	ADV	zugleich	_	O	O	
+5-24	können	VMFIN	können	_	O	O	
+5-25	Sie	PPER	Sie	_	O	O	
+5-26	nöthigen	ADJA	<unknown>	_	O	O	
+5-27	Falls	NN	Fall	_	O	O	
+5-28	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-29	sagen	VVINF	sagen	_	O	O	
+5-30	,	$,	,	_	O	O	
+5-31	er	PPER	er	_	O	O	
+5-32	möge	VMFIN	mögen	_	O	O	
+5-33	sich	PRF	sich	_	O	O	
+5-34	von	APPR	von	_	O	O	
+5-35	Dr.	NN	Dr.	_	O	O	
+
+#id=6
+#text=Hardeck die Schrift fordern.
+6-1	Hardeck	NN	<unknown>	_	O	O	
+6-2	die	ART	die	_	O	O	
+6-3	Schrift	NN	Schrift	_	O	O	
+6-4	fordern	VVFIN	fordern	_	O	O	
+6-5	.	$.	.	_	O	O	
+
+#id=7
+#text=Cav. Bonichi, A~tiquar, eine Art von Director von Campanats Sammlungen; Bonfiglits Rechtstitel müssen Sie von Braun fordern.
+7-1	Cav.	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	Bonichi	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-3	,	$,	,	_	O	O	
+7-4	A~tiquar	NN	<unknown>	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	eine	ART	eine	_	O	O	
+7-7	Art	NN	Art	_	O	O	
+7-8	von	APPR	von	_	O	O	
+7-9	Director	NE	Director	_	O	O	
+7-10	von	APPR	von	_	O	O	
+7-11	Campanats	NN	<unknown>	_	O	O	
+7-12	Sammlungen	NN	Sammlung	_	O	O	
+7-13	;	$.	;	_	O	O	
+7-14	Bonfiglits	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-15	Rechtstitel	NN	Rechtstitel	_	O	O	
+7-16	müssen	VMFIN	müssen	_	O	O	
+7-17	Sie	PPER	Sie	_	O	O	
+7-18	von	APPR	von	_	O	O	
+7-19	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-20	fordern	VVINF	fordern	_	O	O	
+7-21	.	$.	.	_	O	O	
+
+#id=8
+#text=- Annalendruck, da ich kaum weg bin, wieder sehr flau; Braun treibt tüchtie;, wenn erts einmal thut, vergißt es aber immer aufts Neue.
+8-1	-	$(	-	_	O	O	
+8-2	Annalendruck	NN	<unknown>	_	O	O	
+8-3	,	$,	,	_	O	O	
+8-4	da	KOUS	da	_	O	O	
+8-5	ich	PPER	ich	_	O	O	
+8-6	kaum	ADV	kaum	_	O	O	
+8-7	weg	ADV	weg	_	O	O	
+8-8	bin	VAFIN	sein	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	wieder	ADV	wieder	_	O	O	
+8-11	sehr	ADV	sehr	_	O	O	
+8-12	flau	ADJD	flau	_	O	O	
+8-13	;	$.	;	_	O	O	
+8-14	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-15	treibt	VVFIN	treiben	_	O	O	
+8-16	tüchtie	ADJD	<unknown>	_	O	O	
+8-17	;	$.	;	_	O	O	
+8-18	,	$,	,	_	O	O	
+8-19	wenn	KOUS	wenn	_	O	O	
+8-20	erts	VVFIN	<unknown>	_	O	O	
+8-21	einmal	ADV	einmal	_	O	O	
+8-22	thut	NN	<unknown>	_	O	O	
+8-23	,	$,	,	_	O	O	
+8-24	vergißt	VVFIN	vergessen	_	O	O	
+8-25	es	PPER	es	_	O	O	
+8-26	aber	ADV	aber	_	O	O	
+8-27	immer	ADV	immer	_	O	O	
+8-28	aufts	NN	<unknown>	_	O	O	
+8-29	Neue	NN	Neue	_	O	O	
+8-30	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich werde ihm schreiben, dß.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	werde	VAFIN	werden	_	O	O	
+9-3	ihm	PPER	er	_	O	O	
+9-4	schreiben	VVINF	schreiben	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	dß	VVFIN	<unknown>	_	O	O	
+9-7	.	$.	.	_	O	O	
+
+#id=10
+#text=Sie möglichst bald den Band brauchten.
+10-1	Sie	PPER	Sie	_	O	O	
+10-2	möglichst	ADV	möglichst	_	O	O	
+10-3	bald	ADV	bald	_	O	O	
+10-4	den	ART	die	_	O	O	
+10-5	Band	NN	Band	_	O	O	
+10-6	brauchten	VVFIN	brauchen	_	O	O	
+10-7	.	$.	.	_	O	O	
+
+#id=11
+#text=Es ist nur ein langer Aufsatz von borghesi u. ein paar kurze von 'Nelcker noch zurück, die ich hier corrigiren "VIrall te , ohne sie bis jetzt zu bekommen.
+11-1	Es	PPER	es	_	O	O	
+11-2	ist	VAFIN	sein	_	O	O	
+11-3	nur	ADV	nur	_	O	O	
+11-4	ein	ART	eine	_	O	O	
+11-5	langer	ADJA	lang	_	O	O	
+11-6	Aufsatz	NN	Aufsatz	_	O	O	
+11-7	von	APPR	von	_	O	O	
+11-8	borghesi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-9	u.	APPR	um	_	O	O	
+11-10	ein	ART	eine	_	O	O	
+11-11	paar	PIAT	paar	_	O	O	
+11-12	kurze	ADJA	kurz	_	O	O	
+11-13	von	APPR	von	_	O	O	
+11-14	'	$(	'	_	O	O	
+11-15	Nelcker	NN	<unknown>	_	O	O	
+11-16	noch	ADV	noch	_	O	O	
+11-17	zurück	PTKVZ	zurück	_	O	O	
+11-18	,	$,	,	_	O	O	
+11-19	die	PRELS	die	_	O	O	
+11-20	ich	PPER	ich	_	O	O	
+11-21	hier	ADV	hier	_	O	O	
+11-22	corrigiren	NN	<unknown>	_	O	O	
+11-23	"	$(	"	_	O	O	
+11-24	VIrall	NN	<unknown>	_	O	O	
+11-25	te	VVFIN	<unknown>	_	O	O	
+11-26	,	$,	,	_	O	O	
+11-27	ohne	KOUI	ohne	_	O	O	
+11-28	sie	PPER	sie	_	O	O	
+11-29	bis	KON	bis	_	O	O	
+11-30	jetzt	ADV	jetzt	_	O	O	
+11-31	zu	PTKZU	zu	_	O	O	
+11-32	bekommen	VVINF	bekommen	_	O	O	
+11-33	.	$.	.	_	O	O	
+
+#id=12
+#text=Unsre Villeggiatur war bis jetzt sehr trübe.
+12-1	Unsre	PPOSAT	unsre	_	O	O	
+12-2	Villeggiatur	NN	<unknown>	_	O	O	
+12-3	war	VAFIN	sein	_	O	O	
+12-4	bis	KON	bis	_	O	O	
+12-5	jetzt	ADV	jetzt	_	O	O	
+12-6	sehr	ADV	sehr	_	O	O	
+12-7	trübe	VVFIN	trüben	_	O	O	
+12-8	.	$.	.	_	O	O	
+
+#id=13
+#text=Meine Frau, die sich in Rom ziemlich gut erholt hatte, erhielt hier in der ersten Nacht einen neuen Fieberanfall u. brachte 17 Tage fast ganz im Bette zu, mit steten heftigen Schmerzen u. Beängstigungen, die ihr weder Tag noch Nacht Ruhe ließen.
+13-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+13-3	,	$,	,	_	O	O	
+13-4	die	PRELS	die	_	O	O	
+13-5	sich	PRF	sich	_	O	O	
+13-6	in	APPR	in	_	O	O	
+13-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+13-8	ziemlich	ADV	ziemlich	_	O	O	
+13-9	gut	ADJD	gut	_	O	O	
+13-10	erholt	VVPP	erholen	_	O	O	
+13-11	hatte	VAFIN	haben	_	O	O	
+13-12	,	$,	,	_	O	O	
+13-13	erhielt	VVFIN	erhalten	_	O	O	
+13-14	hier	ADV	hier	_	O	O	
+13-15	in	APPR	in	_	O	O	
+13-16	der	ART	die	_	O	O	
+13-17	ersten	ADJA	erst	_	O	O	
+13-18	Nacht	NN	Nacht	_	O	O	
+13-19	einen	ART	eine	_	O	O	
+13-20	neuen	ADJA	neu	_	O	O	
+13-21	Fieberanfall	NN	Fieberanfall	_	O	O	
+13-22	u.	KON	und	_	O	O	
+13-23	brachte	VVFIN	bringen	_	O	O	
+13-24	17	CARD	17	_	O	O	
+13-25	Tage	NN	Tag	_	O	O	
+13-26	fast	ADV	fast	_	O	O	
+13-27	ganz	ADV	ganz	_	O	O	
+13-28	im	APPRART	in	_	O	O	
+13-29	Bette	NN	Bett	_	O	O	
+13-30	zu	PTKVZ	zu	_	O	O	
+13-31	,	$,	,	_	O	O	
+13-32	mit	APPR	mit	_	O	O	
+13-33	steten	ADJA	stet	_	O	O	
+13-34	heftigen	ADJA	heftig	_	O	O	
+13-35	Schmerzen	NN	Schmerz	_	O	O	
+13-36	u.	APPR	um	_	O	O	
+13-37	Beängstigungen	NN	<unknown>	_	O	O	
+13-38	,	$,	,	_	O	O	
+13-39	die	PRELS	die	_	O	O	
+13-40	ihr	PPER	ihr	_	O	O	
+13-41	weder	KON	weder	_	O	O	
+13-42	Tag	NN	Tag	_	O	O	
+13-43	noch	KON	noch	_	O	O	
+13-44	Nacht	NN	Nacht	_	O	O	
+13-45	Ruhe	NN	Ruhe	_	O	O	
+13-46	ließen	VVFIN	lassen	_	O	O	
+13-47	.	$.	.	_	O	O	
+
+#id=14
+#text=1 terleibe , die ~ehr elend u. Zuletzt bildete sich eine Geschwulst am Unsie sehr quälte.
+14-1	1	CARD	1	_	O	O	
+14-2	terleibe	NN	<unknown>	_	O	O	
+14-3	,	$,	,	_	O	O	
+14-4	die	PRELS	die	_	O	O	
+14-5	~ehr	ADJD	<unknown>	_	O	O	
+14-6	elend	ADJD	elend	_	O	O	
+14-7	u.	APPR	um	_	O	O	
+14-8	Zuletzt	NN	<unknown>	_	O	O	
+14-9	bildete	VVFIN	bilden	_	O	O	
+14-10	sich	PRF	sich	_	O	O	
+14-11	eine	ART	eine	_	O	O	
+14-12	Geschwulst	NN	Geschwulst	_	O	O	
+14-13	am	APPRART	an	_	O	O	
+14-14	Unsie	NN	<unknown>	_	O	O	
+14-15	sehr	ADV	sehr	_	O	O	
+14-16	quälte	VVFIN	quälen	_	O	O	
+14-17	.	$.	.	_	O	O	
+
+#id=15
+#text=Noch gestern früh war sie die Nacht vorher sehr unruhig.
+15-1	Noch	ADV	noch	_	O	O	
+15-2	gestern	ADV	gestern	_	O	O	
+15-3	früh	ADJD	früh	_	O	O	
+15-4	war	VAFIN	sein	_	O	O	
+15-5	sie	PPER	sie	_	O	O	
+15-6	die	ART	die	_	O	O	
+15-7	Nacht	NN	Nacht	_	O	O	
+15-8	vorher	ADV	vorher	_	O	O	
+15-9	sehr	ADV	sehr	_	O	O	
+15-10	unruhig	ADJD	unruhig	_	O	O	
+15-11	.	$.	.	_	O	O	
+
+#id=16
+#text=Plötzlich x
+16-1	Plötzlich	ADJD	plötzlich	_	O	O	
+16-2	x	NE	x	_	O	O	
+

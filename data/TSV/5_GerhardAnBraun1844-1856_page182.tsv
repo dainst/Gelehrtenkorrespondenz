@@ -1,0 +1,253 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Gerhard an Braun Berlin, 21. April 1846 des Memorienzettels den ich Ihnen zurückließ.
+1-1	2	CARD	2	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	des	ART	die	_	O	O	
+1-12	Memorienzettels	NN	<unknown>	_	O	O	
+1-13	den	ART	die	_	O	O	
+1-14	ich	PPER	ich	_	O	O	
+1-15	Ihnen	PPER	Sie	_	O	O	
+1-16	zurückließ	VVFIN	zurücklassen	_	O	O	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text=Hier bin ich angelangt und hätte nun gern bei Seiner Majestät und bei Bunsen für das Institut inclusive der Fortdauer Ihrer Stellung die nöthigen Schritte getahn, aber Ihr Jahresbericht ist noch nicht zur Stelle und nicht einmal ein Exemplar der Institutswerke 1844.
+2-1	Hier	ADV	hier	_	O	O	
+2-2	bin	VAFIN	sein	_	O	O	
+2-3	ich	PPER	ich	_	O	O	
+2-4	angelangt	VVPP	angelangen	_	O	O	
+2-5	und	KON	und	_	O	O	
+2-6	hätte	VAFIN	haben	_	O	O	
+2-7	nun	ADV	nun	_	O	O	
+2-8	gern	ADV	gern	_	O	O	
+2-9	bei	APPR	bei	_	O	O	
+2-10	Seiner	PPOSAT	sein	_	O	O	
+2-11	Majestät	NN	Majestät	_	O	O	
+2-12	und	KON	und	_	O	O	
+2-13	bei	APPR	bei	_	O	O	
+2-14	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-15	für	APPR	für	_	O	O	
+2-16	das	ART	die	_	O	O	
+2-17	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-18	inclusive	NN	<unknown>	_	O	O	
+2-19	der	ART	die	_	O	O	
+2-20	Fortdauer	NN	Fortdauer	_	O	O	
+2-21	Ihrer	PPOSAT	ihr	_	O	O	
+2-22	Stellung	NN	Stellung	_	O	O	
+2-23	die	ART	die	_	O	O	
+2-24	nöthigen	ADJA	<unknown>	_	O	O	
+2-25	Schritte	NN	Schritt	_	O	O	
+2-26	getahn	VVPP	<unknown>	_	O	O	
+2-27	,	$,	,	_	O	O	
+2-28	aber	KON	aber	_	O	O	
+2-29	Ihr	PPOSAT	ihr	_	O	O	
+2-30	Jahresbericht	NN	Jahresbericht	_	O	O	
+2-31	ist	VAFIN	sein	_	O	O	
+2-32	noch	ADV	noch	_	O	O	
+2-33	nicht	PTKNEG	nicht	_	O	O	
+2-34	zur	APPRART	zu	_	O	O	
+2-35	Stelle	NN	Stelle	_	O	O	
+2-36	und	KON	und	_	O	O	
+2-37	nicht	PTKNEG	nicht	_	O	O	
+2-38	einmal	ADV	einmal	_	O	O	
+2-39	ein	ART	eine	_	O	O	
+2-40	Exemplar	NN	Exemplar	_	O	O	
+2-41	der	ART	die	_	O	O	
+2-42	Institutswerke	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-LIT	
+2-43	1844	CARD	1844	_	O	O	
+2-44	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich kann also selbst an Bunsen nur vorläufig schreiben, was ihm wenig hilft.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	kann	VMFIN	können	_	O	O	
+3-3	also	ADV	also	_	O	O	
+3-4	selbst	ADV	selbst	_	O	O	
+3-5	an	APPR	an	_	O	O	
+3-6	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-7	nur	ADV	nur	_	O	O	
+3-8	vorläufig	ADJD	vorläufig	_	O	O	
+3-9	schreiben	VVINF	schreiben	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	was	PRELS	was	_	O	O	
+3-12	ihm	PPER	er	_	O	O	
+3-13	wenig	ADV	wenig	_	O	O	
+3-14	hilft	VVFIN	helfen	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Sie erhalten anbei Ihren Wechsel.
+4-1	Sie	PPER	Sie	_	O	O	
+4-2	erhalten	VVFIN	erhalten	_	O	O	
+4-3	anbei	ADV	anbei	_	O	O	
+4-4	Ihren	PPOSAT	ihr	_	O	O	
+4-5	Wechsel	NN	Wechsel	_	O	O	
+4-6	.	$.	.	_	O	O	
+
+#id=5
+#text=200 rt.
+5-1	200	CARD	200	_	O	O	
+5-2	rt	NN	<unknown>	_	O	O	
+5-3	.	$.	.	_	O	O	
+
+#id=6
+#text=Die 69 rt 23 1/2 Sgr hat Ratti nicht an Gerstäcker sondern Ihrem Auftrag gemäß an Brockhaus gezahlt.
+6-1	Die	ART	die	_	O	O	
+6-2	69	CARD	69	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-3	rt	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-4	23	CARD	23	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-5	1/2	CARD	1/2	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-6	Sgr	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-7	hat	VAFIN	haben	_	O	O	
+6-8	Ratti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-9	nicht	PTKNEG	nicht	_	O	O	
+6-10	an	APPR	an	_	O	O	
+6-11	Gerstäcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-12	sondern	KON	sondern	_	O	O	
+6-13	Ihrem	PPOSAT	ihr	_	O	O	
+6-14	Auftrag	NN	Auftrag	_	O	O	
+6-15	gemäß	APPO	gemäß	_	O	O	
+6-16	an	APPR	an	_	O	O	
+6-17	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-18	gezahlt	VVPP	zahlen	_	O	O	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=Die 2.te Zeichnung lief nachgehends auch ein; beide erfolgen mit bestem Dank zurück.
+7-1	Die	ART	die	_	O	O	
+7-2	2.te	ADJA	<unknown>	_	O	O	
+7-3	Zeichnung	NN	Zeichnung	_	O	O	
+7-4	lief	VVFIN	laufen	_	O	O	
+7-5	nachgehends	ADV	<unknown>	_	O	O	
+7-6	auch	ADV	auch	_	O	O	
+7-7	ein	PTKVZ	ein	_	O	O	
+7-8	;	$.	;	_	O	O	
+7-9	beide	PIS	beide	_	O	O	
+7-10	erfolgen	VVFIN	erfolgen	_	O	O	
+7-11	mit	APPR	mit	_	O	O	
+7-12	bestem	ADJA	gut	_	O	O	
+7-13	Dank	NN	Dank	_	O	O	
+7-14	zurück	PTKVZ	zurück	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=Herr W. Schulz muß nun bei Ihnen sein; ist es praktisch seine Gefälligkeit für den napoletanischen Kunsthandel in Anspruch zu nehmen, falls ich noch Pompejanische Malereien bei Barone kaufen ließe?
+8-1	Herr	NN	Herr	_	O	O	
+8-2	W.	APPR	w.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	Schulz	NE	Schulz	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-4	muß	VMFIN	müssen	_	O	O	
+8-5	nun	ADV	nun	_	O	O	
+8-6	bei	APPR	bei	_	O	O	
+8-7	Ihnen	PPER	Sie	_	O	O	
+8-8	sein	VAINF	sein	_	O	O	
+8-9	;	$.	;	_	O	O	
+8-10	ist	VAFIN	sein	_	O	O	
+8-11	es	PPER	es	_	O	O	
+8-12	praktisch	ADJD	praktisch	_	O	O	
+8-13	seine	PPOSAT	sein	_	O	O	
+8-14	Gefälligkeit	NN	Gefälligkeit	_	O	O	
+8-15	für	APPR	für	_	O	O	
+8-16	den	ART	die	_	O	O	
+8-17	napoletanischen	ADJA	<unknown>	_	O	O	
+8-18	Kunsthandel	NN	Kunsthandel	_	O	O	
+8-19	in	APPR	in	_	O	O	
+8-20	Anspruch	NN	Anspruch	_	O	O	
+8-21	zu	PTKZU	zu	_	O	O	
+8-22	nehmen	VVINF	nehmen	_	O	O	
+8-23	,	$,	,	_	O	O	
+8-24	falls	KOUS	falls	_	O	O	
+8-25	ich	PPER	ich	_	O	O	
+8-26	noch	ADV	noch	_	O	O	
+8-27	Pompejanische	ADJA	<unknown>	_	O	O	
+8-28	Malereien	NN	Malerei	_	O	O	
+8-29	bei	APPR	bei	_	O	O	
+8-30	Barone	NN	Baron	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-31	kaufen	VVINF	kaufen	_	O	O	
+8-32	ließe	VVFIN	lassen	_	O	O	
+8-33	?	$.	?	_	O	O	
+
+#id=9
+#text=Sachsen sollte damit ja wol nicht in Konkurrenz kommen.
+9-1	Sachsen	NE	Sachsen	_	O	O	
+9-2	sollte	VMFIN	sollen	_	O	O	
+9-3	damit	PAV	damit	_	O	O	
+9-4	ja	ADV	ja	_	O	O	
+9-5	wol	ADJD	<unknown>	_	O	O	
+9-6	nicht	PTKNEG	nicht	_	O	O	
+9-7	in	APPR	in	_	O	O	
+9-8	Konkurrenz	NN	Konkurrenz	_	O	O	
+9-9	kommen	VVINF	kommen	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=Grüßen Sie ihn und schelten Sie ihn rechtschaffen daß Anhangshefte seines Werkes noch immer nicht da sind und also zunächst wol auch nicht kommen !
+10-1	Grüßen	VVFIN	grüßen	_	O	O	
+10-2	Sie	PPER	Sie	_	O	O	
+10-3	ihn	PPER	er	_	O	O	
+10-4	und	KON	und	_	O	O	
+10-5	schelten	VVFIN	schelten	_	O	O	
+10-6	Sie	PPER	Sie	_	O	O	
+10-7	ihn	PPER	er	_	O	O	
+10-8	rechtschaffen	ADJD	rechtschaffen	_	O	O	
+10-9	daß	KOUS	dass	_	O	O	
+10-10	Anhangshefte	NN	<unknown>	_	O	O	
+10-11	seines	PPOSAT	sein	_	O	O	
+10-12	Werkes	NN	Werk	_	O	O	
+10-13	noch	ADV	noch	_	O	O	
+10-14	immer	ADV	immer	_	O	O	
+10-15	nicht	PTKNEG	nicht	_	O	O	
+10-16	da	ADV	da	_	O	O	
+10-17	sind	VAFIN	sein	_	O	O	
+10-18	und	KON	und	_	O	O	
+10-19	also	ADV	also	_	O	O	
+10-20	zunächst	ADV	zunächst	_	O	O	
+10-21	wol	ADJD	<unknown>	_	O	O	
+10-22	auch	ADV	auch	_	O	O	
+10-23	nicht	PTKNEG	nicht	_	O	O	
+10-24	kommen	VVINF	kommen	_	O	O	
+10-25	!	$.	!	_	O	O	
+
+#id=11
+#text=Der zweite Band Ihres E~emplars meiner Vasenbilder wird Ihnen Reimer nun zugesandt haben.
+11-1	Der	ART	die	_	O	O	
+11-2	zweite	ADJA	zweit	_	O	O	
+11-3	Band	NN	Band	_	O	O	
+11-4	Ihres	PPOSAT	ihr	_	O	O	
+11-5	E~emplars	NN	<unknown>	_	O	O	
+11-6	meiner	PPOSAT	mein	_	O	O	
+11-7	Vasenbilder	NN	<unknown>	_	O	O	
+11-8	wird	VAFIN	werden	_	O	O	
+11-9	Ihnen	PPER	Sie	_	O	O	
+11-10	Reimer	NN	Reimer	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-11	nun	ADV	nun	_	O	O	
+11-12	zugesandt	VVPP	zusenden	_	O	O	
+11-13	haben	VAINF	haben	_	O	O	
+11-14	.	$.	.	_	O	O	
+
+#id=12
+#text=Die epigraphische Angelegenheit ist hier zu Jahns Ungunsten begutachtet worden; der Abschluß des Berichts
+12-1	Die	ART	die	_	O	O	
+12-2	epigraphische	ADJA	<unknown>	_	O	O	
+12-3	Angelegenheit	NN	Angelegenheit	_	O	O	
+12-4	ist	VAFIN	sein	_	O	O	
+12-5	hier	ADV	hier	_	O	O	
+12-6	zu	APPR	zu	_	O	O	
+12-7	Jahns	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-8	Ungunsten	NN	Ungunst	_	O	O	
+12-9	begutachtet	VVPP	begutachten	_	O	O	
+12-10	worden	VAPP	werden	_	O	O	
+12-11	;	$.	;	_	O	O	
+12-12	der	ART	die	_	O	O	
+12-13	Abschluß	NN	Abschluss	_	O	O	
+12-14	des	ART	die	_	O	O	
+12-15	Berichts	NN	Bericht	_	O	O	
+

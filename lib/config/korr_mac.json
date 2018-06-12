@@ -1,0 +1,17 @@
+{
+  "project_root" : "/Users/fmambrini/PycharmProjects/Gelehrtenkorrespondenz/",
+  "output_directory": "data/IOB_GOLD",
+  "user": "francesco",
+  "password": "",
+  "model_path": "lib/models/korrespondez_model_stage7.pickle",
+  "preprocessing_regexp": "lib/preproc/gelehrtekorrespondenz.pickle",
+  "root_raw": "data/TEI",
+  "root_training" : "data/IOB_GOLD",
+  "sentence_tokenizer": "/Users/fmambrini/PycharmProjects/Gelehrtenkorrespondenz/lib/tokenizers/korrespondenz_sent_tok.pickle",
+  "dictionaries": {
+    "persons": "lib/dictionaries/persons.txt",
+    "places": "lib/dictionaries/places.txt"
+  },
+  "webanno_project_id": 3,
+  "feature_template" : ""
+}

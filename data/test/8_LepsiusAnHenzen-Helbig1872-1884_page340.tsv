@@ -1,0 +1,201 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Verehrter Freund Lepsius an Henzen Berlin, 13. März 1879 Berlin, den 13. März 1879 Hein ältester Sohn Richard, Professor der Geologie am Polytechnicum zu Darmstadt macht jetzt eine geologische Reise nach Sardinien und dann durch Italien ( Neapel, Rom ,Florenz , Carrara ).
+1-1	Verehrter	ADJA	verehrt	_	O	O	
+1-2	Freund	NE	Freund	_	O	O	
+1-3	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1879	CARD	1879	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-13	,	$,	,	_	O	O	
+1-14	den	ART	die	_	O	O	
+1-15	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-16	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	1879	CARD	1879	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	Hein	NE	Hein	_	O	O	
+1-20	ältester	ADJA	alt	_	O	O	
+1-21	Sohn	NN	Sohn	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-22	Richard	NE	Richard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-23	,	$,	,	_	O	O	
+1-24	Professor	NN	Professor	_	O	O	
+1-25	der	ART	die	_	O	O	
+1-26	Geologie	NN	Geologie	_	O	O	
+1-27	am	APPRART	an	_	O	O	
+1-28	Polytechnicum	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-29	zu	APPR	zu	_	O	O	
+1-30	Darmstadt	NE	Darmstadt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-31	macht	VVFIN	machen	_	O	O	
+1-32	jetzt	ADV	jetzt	_	O	O	
+1-33	eine	ART	eine	_	O	O	
+1-34	geologische	ADJA	geologisch	_	O	O	
+1-35	Reise	NN	Reise	_	O	O	
+1-36	nach	APPR	nach	_	O	O	
+1-37	Sardinien	NE	Sardinien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-38	und	KON	und	_	O	O	
+1-39	dann	ADV	dann	_	O	O	
+1-40	durch	APPR	durch	_	O	O	
+1-41	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-42	(	$(	(	_	O	O	
+1-43	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-44	,	$,	,	_	O	O	
+1-45	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-46	,Florenz	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+1-47	,	$,	,	_	O	O	
+1-48	Carrara	NE	Carrara	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-49	)	$(	)	_	O	O	
+1-50	.	$.	.	_	O	O	
+
+#id=2
+#text=Er wird Ende dieses Monats nach Rom für einige Tage kommen, und ich möchte ihn Ihnen und Helbig zu freundlicher Aufnahme empfehlen; wie ich dies vor kurzem schon erwähnt habe in einigen Zeilen, die ich dem Prediger Herrn Sepp nach Rom mitgegeben habe, dessen Abreise aber noch unbestimmt war.
+2-1	Er	PPER	er	_	O	O	
+2-2	wird	VAFIN	werden	_	O	O	
+2-3	Ende	NN	Ende	_	O	O	
+2-4	dieses	PDAT	dies	_	O	O	
+2-5	Monats	NN	Monat	_	O	O	
+2-6	nach	APPR	nach	_	O	O	
+2-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-8	für	APPR	für	_	O	O	
+2-9	einige	PIAT	einige	_	O	O	
+2-10	Tage	NN	Tag	_	O	O	
+2-11	kommen	VVINF	kommen	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	und	KON	und	_	O	O	
+2-14	ich	PPER	ich	_	O	O	
+2-15	möchte	VMFIN	mögen	_	O	O	
+2-16	ihn	PPER	er	_	O	O	
+2-17	Ihnen	PPER	Sie	_	O	O	
+2-18	und	KON	und	_	O	O	
+2-19	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-20	zu	PTKZU	zu	_	O	O	
+2-21	freundlicher	ADJA	freundlich	_	O	O	
+2-22	Aufnahme	NN	Aufnahme	_	O	O	
+2-23	empfehlen	VVINF	empfehlen	_	O	O	
+2-24	;	$.	;	_	O	O	
+2-25	wie	KOUS	wie	_	O	O	
+2-26	ich	PPER	ich	_	O	O	
+2-27	dies	PDS	dies	_	O	O	
+2-28	vor	APPR	vor	_	O	O	
+2-29	kurzem	ADJA	kurz	_	O	O	
+2-30	schon	ADV	schon	_	O	O	
+2-31	erwähnt	VVPP	erwähnen	_	O	O	
+2-32	habe	VAFIN	haben	_	O	O	
+2-33	in	APPR	in	_	O	O	
+2-34	einigen	PIAT	einige	_	O	O	
+2-35	Zeilen	NN	Zeile	_	O	O	
+2-36	,	$,	,	_	O	O	
+2-37	die	PRELS	die	_	O	O	
+2-38	ich	PPER	ich	_	O	O	
+2-39	dem	ART	die	_	O	O	
+2-40	Prediger	NN	Prediger	_	O	O	
+2-41	Herrn	NN	Herr	_	O	O	
+2-42	Sepp	NE	Sepp	_	O	O	
+2-43	nach	APPR	nach	_	O	O	
+2-44	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-45	mitgegeben	VVPP	mitgeben	_	O	O	
+2-46	habe	VAFIN	haben	_	O	O	
+2-47	,	$,	,	_	O	O	
+2-48	dessen	PRELAT	die	_	O	O	
+2-49	Abreise	NN	Abreise	_	O	O	
+2-50	aber	ADV	aber	_	O	O	
+2-51	noch	ADV	noch	_	O	O	
+2-52	unbestimmt	ADJD	unbestimmt	_	O	O	
+2-53	war	VAFIN	sein	_	O	O	
+2-54	.	$.	.	_	O	O	
+
+#id=3
+#text=Mein Sohn hat nur wenige Tage für Rom, wird aber jedenfalls Sella aufsuchen und vielleicht einige andere Wünsche haben, zu deren Erfüllung er Ihren Rath wohl in Anspruch nehmen wird.
+3-1	Mein	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	Sohn	NN	Sohn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-3	hat	VAFIN	haben	_	O	O	
+3-4	nur	ADV	nur	_	O	O	
+3-5	wenige	PIAT	wenige	_	O	O	
+3-6	Tage	NN	Tag	_	O	O	
+3-7	für	APPR	für	_	O	O	
+3-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-9	,	$,	,	_	O	O	
+3-10	wird	VAFIN	werden	_	O	O	
+3-11	aber	ADV	aber	_	O	O	
+3-12	jedenfalls	ADV	jedenfalls	_	O	O	
+3-13	Sella	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-14	aufsuchen	VVINF	aufsuchen	_	O	O	
+3-15	und	KON	und	_	O	O	
+3-16	vielleicht	ADV	vielleicht	_	O	O	
+3-17	einige	PIAT	einige	_	O	O	
+3-18	andere	PIS	andere	_	O	O	
+3-19	Wünsche	NN	Wunsch	_	O	O	
+3-20	haben	VAINF	haben	_	O	O	
+3-21	,	$,	,	_	O	O	
+3-22	zu	APPR	zu	_	O	O	
+3-23	deren	PRELAT	die	_	O	O	
+3-24	Erfüllung	NN	Erfüllung	_	O	O	
+3-25	er	PPER	er	_	O	O	
+3-26	Ihren	PPOSAT	ihr	_	O	O	
+3-27	Rath	NE	Rath	_	O	O	
+3-28	wohl	ADV	wohl	_	O	O	
+3-29	in	APPR	in	_	O	O	
+3-30	Anspruch	NN	Anspruch	_	O	O	
+3-31	nehmen	VVINF	nehmen	_	O	O	
+3-32	wird	VAFIN	werden	_	O	O	
+3-33	.	$.	.	_	O	O	
+
+#id=4
+#text=Sollte es sich fügen, daß Sie ihn Keudell vorstellen könnten, so würde ich Ihnen dankbar sein.
+4-1	Sollte	VMFIN	sollen	_	O	O	
+4-2	es	PPER	es	_	O	O	
+4-3	sich	PRF	sich	_	O	O	
+4-4	fügen	VVINF	fügen	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	daß	KOUS	dass	_	O	O	
+4-7	Sie	PPER	Sie	_	O	O	
+4-8	ihn	PPER	er	_	O	O	
+4-9	Keudell	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-10	vorstellen	VVINF	vorstellen	_	O	O	
+4-11	könnten	VMFIN	können	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	so	ADV	so	_	O	O	
+4-14	würde	VAFIN	werden	_	O	O	
+4-15	ich	PPER	ich	_	O	O	
+4-16	Ihnen	PPER	Sie	_	O	O	
+4-17	dankbar	ADJD	dankbar	_	O	O	
+4-18	sein	VAINF	sein	_	O	O	
+4-19	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihn interessiren jetzt ganz besonders die Marmorbrüche von Carrara, wohin Sie ihm vielleicht eine nützliche Adresse mitgeben können.
+5-1	Ihn	PPER	er	_	O	O	
+5-2	interessiren	VVFIN	<unknown>	_	O	O	
+5-3	jetzt	ADV	jetzt	_	O	O	
+5-4	ganz	ADV	ganz	_	O	O	
+5-5	besonders	ADV	besonders	_	O	O	
+5-6	die	ART	die	_	O	O	
+5-7	Marmorbrüche	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-8	von	APPR	von	_	O	O	
+5-9	Carrara	NE	Carrara	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-10	,	$,	,	_	O	O	
+5-11	wohin	PWAV	wohin	_	O	O	
+5-12	Sie	PPER	Sie	_	O	O	
+5-13	ihm	PPER	er	_	O	O	
+5-14	vielleicht	ADV	vielleicht	_	O	O	
+5-15	eine	ART	eine	_	O	O	
+5-16	nützliche	ADJA	nützlich	_	O	O	
+5-17	Adresse	NN	Adresse	_	O	O	
+5-18	mitgeben	VVINF	mitgeben	_	O	O	
+5-19	können	VMFIN	können	_	O	O	
+5-20	.	$.	.	_	O	O	
+
+#id=6
+#text=Mit herzlichem Gruß Ihr R Lepsius
+6-1	Mit	APPR	mit	_	O	O	
+6-2	herzlichem	ADJA	herzlich	_	O	O	
+6-3	Gruß	NN	Gruß	_	O	O	
+6-4	Ihr	PPOSAT	ihr	_	O	O	
+6-5	R	NN	R	_	O	O	
+6-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

@@ -1,0 +1,221 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=273 Verehrter Freund Lepsius an Henzen Berlin, 19. April 1ß79 g. 21/4 79 Berlin, den 19. Apr.
+1-1	273	CARD	@card@	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1ß79	CARD	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	21/4	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	79	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-17	,	$,	,	_	O	O	
+1-18	den	ART	die	_	O	O	
+1-19	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-21	Apr.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=2
+#text=1879 Ich erhalte so eben einen Brief von Köhler vom 11. n d. , worin er ausführlich auseinandersetzt, warum es ihm unzweckmäßig erscheint, Herrn Stamatakis, der erst im vergangenen Jahre mit großer Freude die auf seinen Vorschlag erfolgte Ernennung zum Korrespondenten aufgenommen habe, jetzt schon zum ord.
+2-1	1879	CARD	1879	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Ich	PPER	ich	_	O	O	
+2-3	erhalte	VVFIN	erhalten	_	O	O	
+2-4	so	ADV	so	_	O	O	
+2-5	eben	ADV	eben	_	O	O	
+2-6	einen	ART	eine	_	O	O	
+2-7	Brief	NN	Brief	_	O	O	
+2-8	von	APPR	von	_	O	O	
+2-9	Köhler	NE	Köhler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-10	vom	APPRART	von	_	O	O	
+2-11	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-13	n	VVFIN	<unknown>	_	O	O	
+2-14	d.	PDS	d.	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	worin	PWAV	worin	_	O	O	
+2-17	er	PPER	er	_	O	O	
+2-18	ausführlich	ADJD	ausführlich	_	O	O	
+2-19	auseinandersetzt	VVFIN	auseinandersetzen	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	warum	PWAV	warum	_	O	O	
+2-22	es	PPER	es	_	O	O	
+2-23	ihm	PPER	er	_	O	O	
+2-24	unzweckmäßig	ADJD	unzweckmäßig	_	O	O	
+2-25	erscheint	VVFIN	erscheinen	_	O	O	
+2-26	,	$,	,	_	O	O	
+2-27	Herrn	NN	Herr	_	O	O	
+2-28	Stamatakis	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-29	,	$,	,	_	O	O	
+2-30	der	PRELS	die	_	O	O	
+2-31	erst	ADV	erst	_	O	O	
+2-32	im	APPRART	in	_	O	O	
+2-33	vergangenen	ADJA	vergangen	_	O	O	
+2-34	Jahre	NN	Jahr	_	O	O	
+2-35	mit	APPR	mit	_	O	O	
+2-36	großer	ADJA	groß	_	O	O	
+2-37	Freude	NN	Freude	_	O	O	
+2-38	die	ART	die	_	O	O	
+2-39	auf	APPR	auf	_	O	O	
+2-40	seinen	PPOSAT	sein	_	O	O	
+2-41	Vorschlag	NN	Vorschlag	_	O	O	
+2-42	erfolgte	ADJA	erfolgt	_	O	O	
+2-43	Ernennung	NN	Ernennung	_	O	O	
+2-44	zum	APPRART	zu	_	O	O	
+2-45	Korrespondenten	NN	Korrespondent	_	O	O	
+2-46	aufgenommen	VVPP	aufnehmen	_	O	O	
+2-47	habe	VAFIN	haben	_	O	O	
+2-48	,	$,	,	_	O	O	
+2-49	jetzt	ADV	jetzt	_	O	O	
+2-50	schon	ADV	schon	_	O	O	
+2-51	zum	APPRART	zu	_	O	O	
+2-52	ord.	NN	<unknown>	_	O	O	
+
+#id=3
+#text=Mitglied zu machen.
+3-1	Mitglied	NN	Mitglied	_	O	O	
+3-2	zu	PTKZU	zu	_	O	O	
+3-3	machen	VVINF	machen	_	O	O	
+3-4	.	$.	.	_	O	O	
+
+#id=4
+#text=Es würde dies in Athen geradezu Anstoß erregen.
+4-1	Es	PPER	es	_	O	O	
+4-2	würde	VAFIN	werden	_	O	O	
+4-3	dies	PDS	dies	_	O	O	
+4-4	in	APPR	in	_	O	O	
+4-5	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-6	geradezu	ADV	geradezu	_	O	O	
+4-7	Anstoß	NN	Anstoß	_	O	O	
+4-8	erregen	VVINF	erregen	_	O	O	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=Ebenso hält er es für richtig Herrn Dimitoiadäs, der bisher keine Berührung mit dem Institut gehabt habe, zum Korrespondenten, statt zum ord.
+5-1	Ebenso	ADV	ebenso	_	O	O	
+5-2	hält	VVFIN	halten	_	O	O	
+5-3	er	PPER	er	_	O	O	
+5-4	es	PPER	es	_	O	O	
+5-5	für	APPR	für	_	O	O	
+5-6	richtig	ADJD	richtig	_	O	O	
+5-7	Herrn	NN	Herr	_	O	O	
+5-8	Dimitoiadäs	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-9	,	$,	,	_	O	O	
+5-10	der	PRELS	die	_	O	O	
+5-11	bisher	ADV	bisher	_	O	O	
+5-12	keine	PIAT	keine	_	O	O	
+5-13	Berührung	NN	Berührung	_	O	O	
+5-14	mit	APPR	mit	_	O	O	
+5-15	dem	ART	die	_	O	O	
+5-16	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-17	gehabt	VAPP	haben	_	O	O	
+5-18	habe	VAFIN	haben	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	zum	APPRART	zu	_	O	O	
+5-21	Korrespondenten	NN	Korrespondent	_	O	O	
+5-22	,	$,	,	_	O	O	
+5-23	statt	KOUI	statt	_	O	O	
+5-24	zum	APPRART	zu	_	O	O	
+5-25	ord.	NN	<unknown>	_	O	O	
+
+#id=6
+#text=Mitglied zu ernennen.
+6-1	Mitglied	NN	Mitglied	_	O	O	
+6-2	zu	PTKZU	zu	_	O	O	
+6-3	ernennen	VVINF	ernennen	_	O	O	
+6-4	.	$.	.	_	O	O	
+
+#id=7
+#text=Unliebsame Erfahrungen hätten ihn belehrt, daß bei der Ernennung von Instituts Mitgliedern in Griechenland mit größerer Vorsieht verfahren werden müsse als vielleicht in andern Ländern.
+7-1	Unliebsame	ADJA	unliebsam	_	O	O	
+7-2	Erfahrungen	NN	Erfahrung	_	O	O	
+7-3	hätten	VAFIN	haben	_	O	O	
+7-4	ihn	PPER	er	_	O	O	
+7-5	belehrt	VVPP	belehren	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	daß	KOUS	dass	_	O	O	
+7-8	bei	APPR	bei	_	O	O	
+7-9	der	ART	die	_	O	O	
+7-10	Ernennung	NN	Ernennung	_	O	O	
+7-11	von	APPR	von	_	O	O	
+7-12	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-13	Mitgliedern	NN	Mitglied	_	O	O	
+7-14	in	APPR	in	_	O	O	
+7-15	Griechenland	NE	Griechenland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-16	mit	APPR	mit	_	O	O	
+7-17	größerer	ADJA	groß	_	O	O	
+7-18	Vorsieht	NN	<unknown>	_	O	O	
+7-19	verfahren	VVPP	verfahren	_	O	O	
+7-20	werden	VAINF	werden	_	O	O	
+7-21	müsse	VMFIN	müssen	_	O	O	
+7-22	als	KON	als	_	O	O	
+7-23	vielleicht	ADV	vielleicht	_	O	O	
+7-24	in	APPR	in	_	O	O	
+7-25	andern	PIAT	andere	_	O	O	
+7-26	Ländern	NN	Land	_	O	O	
+7-27	.	$.	.	_	O	O	
+
+#id=8
+#text=Da Köhler ausdrücklich zur Begutachtung aufgefordert war, so wird seine Stimme ohne Zweifel entscheidend sein müssen rückzu halten.
+8-1	Da	KOUS	da	_	O	O	
+8-2	Köhler	NE	Köhler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	ausdrücklich	ADJD	ausdrücklich	_	O	O	
+8-4	zur	APPRART	zu	_	O	O	
+8-5	Begutachtung	NN	Begutachtung	_	O	O	
+8-6	aufgefordert	VVPP	auffordern	_	O	O	
+8-7	war	VAFIN	sein	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	so	ADV	so	_	O	O	
+8-10	wird	VAFIN	werden	_	O	O	
+8-11	seine	PPOSAT	sein	_	O	O	
+8-12	Stimme	NN	Stimme	_	O	O	
+8-13	ohne	APPR	ohne	_	O	O	
+8-14	Zweifel	NN	Zweifel	_	O	O	
+8-15	entscheidend	ADJD	entscheidend	_	O	O	
+8-16	sein	VAINF	sein	_	O	O	
+8-17	müssen	VMFIN	müssen	_	O	O	
+8-18	rückzu	ADV	<unknown>	_	O	O	
+8-19	halten	VVINF	halten	_	O	O	
+8-20	.	$.	.	_	O	O	
+
+#id=9
+#text=wenn noch Zeit ist, die Namen zuOb ich vor Abgang dieser Zeilen noch ein Direktionsmitglied hier erlangen kann, ist mir zweifelhaft.
+9-1	wenn	KOUS	wenn	_	O	O	
+9-2	noch	ADV	noch	_	O	O	
+9-3	Zeit	NN	Zeit	_	O	O	
+9-4	ist	VAFIN	sein	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	die	ART	die	_	O	O	
+9-7	Namen	NN	Name	_	O	O	
+9-8	zuOb	VVFIN	<unknown>	_	O	O	
+9-9	ich	PPER	ich	_	O	O	
+9-10	vor	APPR	vor	_	O	O	
+9-11	Abgang	NN	Abgang	_	O	O	
+9-12	dieser	PDAT	dies	_	O	O	
+9-13	Zeilen	NN	Zeile	_	O	O	
+9-14	noch	ADV	noch	_	O	O	
+9-15	ein	ART	eine	_	O	O	
+9-16	Direktionsmitglied	NN	Direktionsmitglied	_	O	O	
+9-17	hier	ADV	hier	_	O	O	
+9-18	erlangen	VVINF	erlangen	_	O	O	
+9-19	kann	VMFIN	können	_	O	O	
+9-20	,	$,	,	_	O	O	
+9-21	ist	VAFIN	sein	_	O	O	
+9-22	mir	PPER	ich	_	O	O	
+9-23	zweifelhaft	ADJD	zweifelhaft	_	O	O	
+9-24	.	$.	.	_	O	O	
+
+#id=10
+#text=Der Ihrige R Lepsius
+10-1	Der	ART	die	_	O	O	
+10-2	Ihrige	PPOSAT	ihrige	_	O	O	
+10-3	R	NN	R	_	O	O	
+10-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

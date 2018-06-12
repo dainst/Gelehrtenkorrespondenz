@@ -1,0 +1,217 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=453 Helbig an Renzen Neapel, 28. September 1864 R g. 30/9 64 r. Neapel 28. Sept.
+1-1	453	CARD	@card@	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	R	NN	R	_	O	O	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	30/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	64	CARD	64	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	r.	ADJA	<unknown>	_	O	O	
+1-16	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-17	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	Sept.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1864. Lieber Herr Professor !
+2-1	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	.	$.	.	_	O	O	
+2-3	Lieber	ADJA	lieb	_	O	O	
+2-4	Herr	NN	Herr	_	O	O	
+2-5	Professor	NN	Professor	_	O	O	
+2-6	!	$.	!	_	O	O	
+
+#id=3
+#text=Da Sie mir betreffs Scalabrini die Pistole auf die Brust setzen, so gebe ich hiermit folgendes Gutachten ab Im Museum sind für Scalabrini die auf beiliegendem Zettel verzeichneten Gemälde zu zeichnen.
+3-1	Da	KOUS	da	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	mir	PPER	ich	_	O	O	
+3-4	betreffs	NN	Betreff	_	O	O	
+3-5	Scalabrini	NE	<unknown>	_	O	O	
+3-6	die	ART	die	_	O	O	
+3-7	Pistole	NN	Pistole	_	O	O	
+3-8	auf	APPR	auf	_	O	O	
+3-9	die	ART	die	_	O	O	
+3-10	Brust	NN	Brust	_	O	O	
+3-11	setzen	VVFIN	setzen	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	so	ADV	so	_	O	O	
+3-14	gebe	VVFIN	geben	_	O	O	
+3-15	ich	PPER	ich	_	O	O	
+3-16	hiermit	PAV	hiermit	_	O	O	
+3-17	folgendes	ADJA	folgend	_	O	O	
+3-18	Gutachten	NN	Gutachten	_	O	O	
+3-19	ab	PTKVZ	ab	_	O	O	
+3-20	Im	APPRART	in	_	O	O	
+3-21	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-22	sind	VAFIN	sein	_	O	O	
+3-23	für	APPR	für	_	O	O	
+3-24	Scalabrini	NN	<unknown>	_	O	O	
+3-25	die	ART	die	_	O	O	
+3-26	auf	APPR	auf	_	O	O	
+3-27	beiliegendem	ADJA	beiliegend	_	O	O	
+3-28	Zettel	NN	Zettel	_	O	O	
+3-29	verzeichneten	ADJA	verzeichnet	_	O	O	
+3-30	Gemälde	NN	Gemälde	_	O	O	
+3-31	zu	PTKZU	zu	_	O	O	
+3-32	zeichnen	VVINF	zeichnen	_	O	O	
+3-33	.	$.	.	_	O	O	
+
+#id=4
+#text=Es sind durchweg wichtige und interessante Gegenstände, die im hohen Grade der Publication würdig sind.
+4-1	Es	PPER	es	_	O	O	
+4-2	sind	VAFIN	sein	_	O	O	
+4-3	durchweg	ADV	durchweg	_	O	O	
+4-4	wichtige	ADJA	wichtig	_	O	O	
+4-5	und	KON	und	_	O	O	
+4-6	interessante	ADJA	interessant	_	O	O	
+4-7	Gegenstände	NN	Gegenstand	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	die	PRELS	die	_	O	O	
+4-10	im	APPRART	in	_	O	O	
+4-11	hohen	ADJA	hoch	_	O	O	
+4-12	Grade	NN	Grad	_	O	O	
+4-13	der	ART	die	_	O	O	
+4-14	Publication	NN	<unknown>	_	O	O	
+4-15	würdig	ADJD	würdig	_	O	O	
+4-16	sind	VAFIN	sein	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=Was die Ruveser Fresken betrifft, so würden vielleicht nicht die Fresken sämmtlicher Wände zu zeichnen sein, da eine analoge Darstellung auf ihnen allen wiederkehrt, sondern eine Wand stylistisch treu wiedergeben genügen.
+5-1	Was	PWS	was	_	O	O	
+5-2	die	ART	die	_	O	O	
+5-3	Ruveser	NN	<unknown>	_	O	O	
+5-4	Fresken	NN	Fresko	_	O	O	
+5-5	betrifft	VVFIN	betreffen	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	so	ADV	so	_	O	O	
+5-8	würden	VAFIN	werden	_	O	O	
+5-9	vielleicht	ADV	vielleicht	_	O	O	
+5-10	nicht	PTKNEG	nicht	_	O	O	
+5-11	die	ART	die	_	O	O	
+5-12	Fresken	NN	Fresko	_	O	O	
+5-13	sämmtlicher	ADJA	<unknown>	_	O	O	
+5-14	Wände	NN	Wand	_	O	O	
+5-15	zu	PTKZU	zu	_	O	O	
+5-16	zeichnen	VVINF	zeichnen	_	O	O	
+5-17	sein	VAINF	sein	_	O	O	
+5-18	,	$,	,	_	O	O	
+5-19	da	KOUS	da	_	O	O	
+5-20	eine	ART	eine	_	O	O	
+5-21	analoge	ADJA	analog	_	O	O	
+5-22	Darstellung	NN	Darstellung	_	O	O	
+5-23	auf	APPR	auf	_	O	O	
+5-24	ihnen	PPER	sie	_	O	O	
+5-25	allen	PIS	alle	_	O	O	
+5-26	wiederkehrt	VVFIN	wiederkehren	_	O	O	
+5-27	,	$,	,	_	O	O	
+5-28	sondern	KON	sondern	_	O	O	
+5-29	eine	ART	eine	_	O	O	
+5-30	Wand	NN	Wand	_	O	O	
+5-31	stylistisch	ADJD	<unknown>	_	O	O	
+5-32	treu	ADJD	treu	_	O	O	
+5-33	wiedergeben	VVINF	wiedergeben	_	O	O	
+5-34	genügen	VVFIN	genügen	_	O	O	
+5-35	.	$.	.	_	O	O	
+
+#id=6
+#text=Gargiu~ 10 ist derartigen Aufgaben nicht gewachsen.
+6-1	Gargiu~	NN	<unknown>	_	O	O	
+6-2	10	CARD	10	_	O	O	
+6-3	ist	VAFIN	sein	_	O	O	
+6-4	derartigen	ADJA	derartig	_	O	O	
+6-5	Aufgaben	NN	Aufgabe	_	O	O	
+6-6	nicht	PTKNEG	nicht	_	O	O	
+6-7	gewachsen	VVPP	wachsen	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=Was er zu leisten im Stande ist, habe ich ihm aufgetragen, außer den früher erwähnten Reliefs u. a. die Zeichnung einer von Michaelis bestellten Vase.
+7-1	Was	PWS	was	_	O	O	
+7-2	er	PPER	er	_	O	O	
+7-3	zu	PTKZU	zu	_	O	O	
+7-4	leisten	VVINF	leisten	_	O	O	
+7-5	im	APPRART	in	_	O	O	
+7-6	Stande	NN	Stand	_	O	O	
+7-7	ist	VAFIN	sein	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	habe	VAFIN	haben	_	O	O	
+7-10	ich	PPER	ich	_	O	O	
+7-11	ihm	PPER	er	_	O	O	
+7-12	aufgetragen	VVPP	auftragen	_	O	O	
+7-13	,	$,	,	_	O	O	
+7-14	außer	APPR	außer	_	O	O	
+7-15	den	ART	die	_	O	O	
+7-16	früher	ADJD	früh	_	O	O	
+7-17	erwähnten	ADJA	erwähnt	_	O	O	
+7-18	Reliefs	NN	Relief	_	B-webanno.custom.LetterEntity_	B-OBJ	
+7-19	u.	APPR	um	_	O	O	
+7-20	a.	APPR	a.	_	O	O	
+7-21	die	ART	die	_	O	O	
+7-22	Zeichnung	NN	Zeichnung	_	O	O	
+7-23	einer	ART	eine	_	O	O	
+7-24	von	APPR	von	_	O	O	
+7-25	Michaelis	NE	Michaelis	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-26	bestellten	ADJA	bestellt	_	O	O	
+7-27	Vase	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+7-28	.	$.	.	_	O	O	
+
+#id=8
+#text=Wenn für Scalabrini ein vierzehntägiger Aufenthalt in Neapel genügen wird, um die betreffenden Gegenstände des Museo nazionale zu absolviren, so liegt dagegen in Pompei eine Fülle von Stoff für ihn vor.
+8-1	Wenn	KOUS	wenn	_	O	O	
+8-2	für	APPR	für	_	O	O	
+8-3	Scalabrini	NN	<unknown>	_	O	O	
+8-4	ein	ART	eine	_	O	O	
+8-5	vierzehntägiger	ADJA	vierzehntägig	_	O	O	
+8-6	Aufenthalt	NN	Aufenthalt	_	O	O	
+8-7	in	APPR	in	_	O	O	
+8-8	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-9	genügen	VVINF	genügen	_	O	O	
+8-10	wird	VAFIN	werden	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	um	KOUI	um	_	O	O	
+8-13	die	ART	die	_	O	O	
+8-14	betreffenden	ADJA	betreffend	_	O	O	
+8-15	Gegenstände	NN	Gegenstand	_	O	O	
+8-16	des	ART	die	_	O	O	
+8-17	Museo	NN	<unknown>	_	O	O	
+8-18	nazionale	ADJA	<unknown>	_	O	O	
+8-19	zu	APPR	zu	_	O	O	
+8-20	absolviren	ADJA	<unknown>	_	O	O	
+8-21	,	$,	,	_	O	O	
+8-22	so	ADV	so	_	O	O	
+8-23	liegt	VVFIN	liegen	_	O	O	
+8-24	dagegen	PAV	dagegen	_	O	O	
+8-25	in	APPR	in	_	O	O	
+8-26	Pompei	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-27	eine	ART	eine	_	O	O	
+8-28	Fülle	NN	Fülle	_	O	O	
+8-29	von	APPR	von	_	O	O	
+8-30	Stoff	NN	Stoff	_	O	O	
+8-31	für	APPR	für	_	O	O	
+8-32	ihn	PPER	er	_	O	O	
+8-33	vor	PTKVZ	vor	_	O	O	
+8-34	.	$.	.	_	O	O	
+
+#id=9
+#text=Mein Vorschlag ist folgender: Sie erwarten meine Rückkehr
+9-1	Mein	PPOSAT	mein	_	O	O	
+9-2	Vorschlag	NN	Vorschlag	_	O	O	
+9-3	ist	VAFIN	sein	_	O	O	
+9-4	folgender	ADJA	folgend	_	O	O	
+9-5	:	$.	:	_	O	O	
+9-6	Sie	PPER	Sie	_	O	O	
+9-7	erwarten	VVFIN	erwarten	_	O	O	
+9-8	meine	PPOSAT	mein	_	O	O	
+9-9	Rückkehr	NN	Rückkehr	_	O	O	
+

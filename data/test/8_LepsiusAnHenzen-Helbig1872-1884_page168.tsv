@@ -1,0 +1,51 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=327 Lepsius an Henzen Berlin, 5. Juli 1874 3 Einmalig : Übersiedlung des Athen.
+1-1	327	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	3	CARD	3	_	O	O	
+1-12	Einmalig	NN	<unknown>	_	O	O	
+1-13	:	$.	:	_	O	O	
+1-14	Übersiedlung	NN	Übersiedlung	_	O	O	
+1-15	des	ART	die	_	O	O	
+1-16	Athen	NE	Athen	_	O	O	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text=Sekretars (fällt weg) 1200 r - Einrichtung der Institutsräume Athen 2000 3200 Einnahmen: Zinsen 200 Publikationen 1500 1700 Mit herzlichem Gruß Ihr R Lepsius
+2-1	Sekretars	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	(	$(	(	_	O	O	
+2-3	fällt	VVFIN	fallen|fällen	_	O	O	
+2-4	weg	PTKVZ	weg	_	O	O	
+2-5	)	$(	)	_	O	O	
+2-6	1200	CARD	1200	_	O	O	
+2-7	r	NE	r	_	O	O	
+2-8	-	$(	-	_	O	O	
+2-9	Einrichtung	NN	Einrichtung	_	O	O	
+2-10	der	ART	die	_	O	O	
+2-11	Institutsräume	NN	<unknown>	_	O	O	
+2-12	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-13	2000	CARD	2000	_	O	O	
+2-14	3200	CARD	@card@	_	O	O	
+2-15	Einnahmen	NN	Einnahme	_	O	O	
+2-16	:	$.	:	_	O	O	
+2-17	Zinsen	NN	Zins	_	O	O	
+2-18	200	CARD	200	_	O	O	
+2-19	Publikationen	NN	Publikation	_	O	O	
+2-20	1500	CARD	1500	_	O	O	
+2-21	1700	CARD	1700	_	O	O	
+2-22	Mit	APPR	mit	_	O	O	
+2-23	herzlichem	ADJA	herzlich	_	O	O	
+2-24	Gruß	NN	Gruß	_	O	O	
+2-25	Ihr	PPOSAT	ihr	_	O	O	
+2-26	R	NN	R	_	O	O	
+2-27	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

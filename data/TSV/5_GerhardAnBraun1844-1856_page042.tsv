@@ -1,0 +1,33 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=167 5 Gerhard an Braun Berlin, 25. März 1844 Von Ihrer Frau seit Ihrer Rückkehr ne quidem; soll hoffentlich heißen daß es ihr besser geht.
+1-1	167	CARD	@card@	_	O	O	
+1-2	5	CARD	5	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Von	APPR	von	_	O	O	
+1-13	Ihrer	PPOSAT	ihr	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-14	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-15	seit	APPR	seit	_	O	O	
+1-16	Ihrer	PPOSAT	ihr	_	O	O	
+1-17	Rückkehr	NN	Rückkehr	_	O	O	
+1-18	ne	ART	eine	_	O	O	
+1-19	quidem	ADJA	<unknown>	_	O	O	
+1-20	;	$.	;	_	O	O	
+1-21	soll	VMFIN	sollen	_	O	O	
+1-22	hoffentlich	ADV	hoffentlich	_	O	O	
+1-23	heißen	VVFIN	heißen	_	O	O	
+1-24	daß	KOUS	dass	_	O	O	
+1-25	es	PPER	es	_	O	O	
+1-26	ihr	PPER	ihr	_	O	O	
+1-27	besser	ADJD	gut	_	O	O	
+1-28	geht	VVFIN	gehen	_	O	O	
+1-29	.	$.	.	_	O	O	
+

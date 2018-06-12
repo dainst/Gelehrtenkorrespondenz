@@ -1,0 +1,277 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=~2 3 Lepsius an Henzen Berlin, 30. Juni 1874 können, weil wir erst während der Sitzungstage vom Auswärtigen Amt die seit Monaten beantragte Zusage erhielten, daß wir darüber uns mit der Legationskasse verständigen dürften.
+1-1	~2	CARD	<unknown>	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	können	VMFIN	können	_	O	O	
+1-13	,	$,	,	_	O	O	
+1-14	weil	KOUS	weil	_	O	O	
+1-15	wir	PPER	wir	_	O	O	
+1-16	erst	ADV	erst	_	O	O	
+1-17	während	APPR	während	_	O	O	
+1-18	der	ART	die	_	O	O	
+1-19	Sitzungstage	NN	Sitzungstag	_	O	O	
+1-20	vom	APPRART	von	_	O	O	
+1-21	Auswärtigen	ADJA	auswärtig	_	O	O	
+1-22	Amt	NN	Amt	_	O	O	
+1-23	die	ART	die	_	O	O	
+1-24	seit	APPR	seit	_	O	O	
+1-25	Monaten	NN	Monat	_	O	O	
+1-26	beantragte	ADJA	beantragt	_	O	O	
+1-27	Zusage	NN	Zusage	_	O	O	
+1-28	erhielten	VVFIN	erhalten	_	O	O	
+1-29	,	$,	,	_	O	O	
+1-30	daß	KOUS	dass	_	O	O	
+1-31	wir	PPER	wir	_	O	O	
+1-32	darüber	PAV	darüber	_	O	O	
+1-33	uns	PRF	wir	_	O	O	
+1-34	mit	APPR	mit	_	O	O	
+1-35	der	ART	die	_	O	O	
+1-36	Legationskasse	NN	<unknown>	_	O	O	
+1-37	verständigen	VVINF	verständigen	_	O	O	
+1-38	dürften	VMFIN	dürfen	_	O	O	
+1-39	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich ging daher heute gleich selbst zur Kasse und habe nun mit Hofrath Wiegner alles Nöthige besprochen.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	ging	VVFIN	gehen	_	O	O	
+2-3	daher	PAV	daher	_	O	O	
+2-4	heute	ADV	heute	_	O	O	
+2-5	gleich	ADJD	gleich	_	O	O	
+2-6	selbst	ADV	selbst	_	O	O	
+2-7	zur	APPRART	zu	_	O	O	
+2-8	Kasse	NN	Kasse	_	O	O	
+2-9	und	KON	und	_	O	O	
+2-10	habe	VAFIN	haben	_	O	O	
+2-11	nun	ADV	nun	_	O	O	
+2-12	mit	APPR	mit	_	O	O	
+2-13	Hofrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-14	Wiegner	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-15	alles	PIAT	alle	_	O	O	
+2-16	Nöthige	NN	<unknown>	_	O	O	
+2-17	besprochen	VVPP	besprechen	_	O	O	
+2-18	.	$.	.	_	O	O	
+
+#id=3
+#text=Darauf habe ich der K~se auch schon die Anweisung übersendet, die Römischen Summen an die Römische Gesandtschaft zu Ihrer Disposition abzusenden.
+3-1	Darauf	PAV	darauf	_	O	O	
+3-2	habe	VAFIN	haben	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	der	ART	die	_	O	O	
+3-5	K~se	NE	<unknown>	_	O	O	
+3-6	auch	ADV	auch	_	O	O	
+3-7	schon	ADV	schon	_	O	O	
+3-8	die	ART	die	_	O	O	
+3-9	Anweisung	NN	Anweisung	_	O	O	
+3-10	übersendet	VVPP	übersenden	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	die	ART	die	_	O	O	
+3-13	Römischen	ADJA	römisch	_	O	O	
+3-14	Summen	NN	Summe|Summen	_	O	O	
+3-15	an	APPR	an	_	O	O	
+3-16	die	ART	die	_	O	O	
+3-17	Römische	ADJA	römisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-18	Gesandtschaft	NN	Gesandtschaft	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+3-19	zu	APPR	zu	_	O	O	
+3-20	Ihrer	PPOSAT	ihr	_	O	O	
+3-21	Disposition	NN	Disposition	_	O	O	
+3-22	abzusenden	VVIZU	absenden	_	O	O	
+3-23	.	$.	.	_	O	O	
+
+#id=4
+#text=Das wird hoffentlich morgen, wenn nicht die Quartalgeschäfte noch einen Tag verzögern, geschehen.
+4-1	Das	PDS	die	_	O	O	
+4-2	wird	VAFIN	werden	_	O	O	
+4-3	hoffentlich	ADV	hoffentlich	_	O	O	
+4-4	morgen	ADV	morgen	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	wenn	KOUS	wenn	_	O	O	
+4-7	nicht	PTKNEG	nicht	_	O	O	
+4-8	die	ART	die	_	O	O	
+4-9	Quartalgeschäfte	NN	<unknown>	_	O	O	
+4-10	noch	ADV	noch	_	O	O	
+4-11	einen	ART	eine	_	O	O	
+4-12	Tag	NN	Tag	_	O	O	
+4-13	verzögern	VVFIN	verzögern	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	geschehen	VVPP	geschehen	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich lege hier ein Quittungsschema, wie es Herr Wiegner wünscht, bei.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	lege	VVFIN	legen	_	O	O	
+5-3	hier	ADV	hier	_	O	O	
+5-4	ein	ART	eine	_	O	O	
+5-5	Quittungsschema	NN	<unknown>	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	wie	KOUS	wie	_	O	O	
+5-8	es	PPER	es	_	O	O	
+5-9	Herr	NN	Herr	_	O	O	
+5-10	Wiegner	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-11	wünscht	VVFIN	wünschen	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	bei	PTKVZ	bei	_	O	O	
+5-14	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Detaillirung habe ich darauf noch zugefügt, um die Gesammtsumme von 2437 r 15 Sbg zu erklären, die vierteljährlich praen.
+6-1	Die	ART	die	_	O	O	
+6-2	Detaillirung	NN	<unknown>	_	O	O	
+6-3	habe	VAFIN	haben	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	darauf	PAV	darauf	_	O	O	
+6-6	noch	ADV	noch	_	O	O	
+6-7	zugefügt	VVPP	zufügen	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	um	KOUI	um	_	O	O	
+6-10	die	ART	die	_	O	O	
+6-11	Gesammtsumme	NN	<unknown>	_	O	O	
+6-12	von	APPR	von	_	O	O	
+6-13	2437	CARD	@card@	_	O	O	
+6-14	r	NE	r	_	O	O	
+6-15	15	CARD	15	_	O	O	
+6-16	Sbg	NE	<unknown>	_	O	O	
+6-17	zu	PTKZU	zu	_	O	O	
+6-18	erklären	VVINF	erklären	_	O	O	
+6-19	,	$,	,	_	O	O	
+6-20	die	PRELS	die	_	O	O	
+6-21	vierteljährlich	ADJD	vierteljährlich	_	O	O	
+6-22	praen	NE	<unknown>	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=von Ihnen erhoben werden kann.
+7-1	von	APPR	von	_	O	O	
+7-2	Ihnen	PPER	Sie	_	O	O	
+7-3	erhoben	VVPP	erheben	_	O	O	
+7-4	werden	VAINF	werden	_	O	O	
+7-5	kann	VMFIN	können	_	O	O	
+7-6	.	$.	.	_	O	O	
+
+#id=8
+#text=Ihr Gehalt ist nun schon für 2 Quartale vorgeschossen, das geht also ab.
+8-1	Ihr	PPOSAT	ihr	_	O	O	
+8-2	Gehalt	NN	Gehalt	_	O	O	
+8-3	ist	VAFIN	sein	_	O	O	
+8-4	nun	ADV	nun	_	O	O	
+8-5	schon	ADV	schon	_	O	O	
+8-6	für	APPR	für	_	O	O	
+8-7	2	CARD	2	_	O	O	
+8-8	Quartale	NN	Quartal	_	O	O	
+8-9	vorgeschossen	VVPP	vorschießen	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	das	PDS	die	_	O	O	
+8-12	geht	VVFIN	gehen	_	O	O	
+8-13	also	ADV	also	_	O	O	
+8-14	ab	PTKVZ	ab	_	O	O	
+8-15	.	$.	.	_	O	O	
+
+#id=9
+#text=Die Vorrechnung wird nun wie bisher am Jahresschluß aufgestellt und an die Central Direktion eingesendet.
+9-1	Die	ART	die	_	O	O	
+9-2	Vorrechnung	NN	<unknown>	_	O	O	
+9-3	wird	VAFIN	werden	_	O	O	
+9-4	nun	ADV	nun	_	O	O	
+9-5	wie	KOKOM	wie	_	O	O	
+9-6	bisher	ADV	bisher	_	O	O	
+9-7	am	APPRART	an	_	O	O	
+9-8	Jahresschluß	NN	Jahresschluss	_	O	O	
+9-9	aufgestellt	VVPP	aufstellen	_	O	O	
+9-10	und	KON	und	_	O	O	
+9-11	an	APPR	an	_	O	O	
+9-12	die	ART	die	_	O	O	
+9-13	Central	NN	<unknown>	_	O	O	
+9-14	Direktion	NN	Direktion	_	O	O	
+9-15	eingesendet	VVPP	einsenden	_	O	O	
+9-16	.	$.	.	_	O	O	
+
+#id=10
+#text=Von uns wird sie vidimirt und an das Auswärtige Amt zur Decharge eingesendet.
+10-1	Von	APPR	von	_	O	O	
+10-2	uns	PPER	wir	_	O	O	
+10-3	wird	VAFIN	werden	_	O	O	
+10-4	sie	PPER	sie	_	O	O	
+10-5	vidimirt	ADJD	<unknown>	_	O	O	
+10-6	und	KON	und	_	O	O	
+10-7	an	APPR	an	_	O	O	
+10-8	das	ART	die	_	O	O	
+10-9	Auswärtige	ADJA	auswärtig	_	O	O	
+10-10	Amt	NN	Amt	_	O	O	
+10-11	zur	APPRART	zu	_	O	O	
+10-12	Decharge	NN	<unknown>	_	O	O	
+10-13	eingesendet	VVPP	einsenden	_	O	O	
+10-14	.	$.	.	_	O	O	
+
+#id=11
+#text=Auf die andre Seite habe ich das Formular für die Stipendiaten geschrieben.
+11-1	Auf	APPR	auf	_	O	O	
+11-2	die	ART	die	_	O	O	
+11-3	andre	PIAT	andere	_	O	O	
+11-4	Seite	NN	Seite	_	O	O	
+11-5	habe	VAFIN	haben	_	O	O	
+11-6	ich	PPER	ich	_	O	O	
+11-7	das	ART	die	_	O	O	
+11-8	Formular	NN	Formular	_	O	O	
+11-9	für	APPR	für	_	O	O	
+11-10	die	ART	die	_	O	O	
+11-11	Stipendiaten	NN	Stipendiat	_	O	O	
+11-12	geschrieben	VVPP	schreiben	_	O	O	
+11-13	.	$.	.	_	O	O	
+
+#id=12
+#text=Lassen Sie das also durch Dr.
+12-1	Lassen	VVFIN	lassen	_	O	O	
+12-2	Sie	PPER	Sie	_	O	O	
+12-3	das	PDS	die	_	O	O	
+12-4	also	ADV	also	_	O	O	
+12-5	durch	APPR	durch	_	O	O	
+12-6	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=13
+#text=Robert ausfüllen und senden Sie es mir zu; dann wird die Anweisung der Legations Kasse an die Römische Gesandtschaft erfolgen.
+13-1	Robert	NE	Robert	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	ausfüllen	VVINF	ausfüllen	_	O	O	
+13-3	und	KON	und	_	O	O	
+13-4	senden	VVFIN	senden	_	O	O	
+13-5	Sie	PPER	Sie	_	O	O	
+13-6	es	PPER	es	_	O	O	
+13-7	mir	PPER	ich	_	O	O	
+13-8	zu	PTKVZ	zu	_	O	O	
+13-9	;	$.	;	_	O	O	
+13-10	dann	ADV	dann	_	O	O	
+13-11	wird	VAFIN	werden	_	O	O	
+13-12	die	ART	die	_	O	O	
+13-13	Anweisung	NN	Anweisung	_	O	O	
+13-14	der	ART	die	_	O	O	
+13-15	Legations	NN	<unknown>	_	O	O	
+13-16	Kasse	NN	Kasse	_	O	O	
+13-17	an	APPR	an	_	O	O	
+13-18	die	ART	die	_	O	O	
+13-19	Römische	ADJA	römisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+13-20	Gesandtschaft	NN	Gesandtschaft	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+13-21	erfolgen	VVINF	erfolgen	_	O	O	
+13-22	.	$.	.	_	O	O	
+
+#id=14
+#text=Was die Umlegung der Fonds betrifft, so hatte
+14-1	Was	PWS	was	_	O	O	
+14-2	die	ART	die	_	O	O	
+14-3	Umlegung	NN	Umlegung	_	O	O	
+14-4	der	ART	die	_	O	O	
+14-5	Fonds	NN	Fonds	_	O	O	
+14-6	betrifft	VVFIN	betreffen	_	O	O	
+14-7	,	$,	,	_	O	O	
+14-8	so	ADV	so	_	O	O	
+14-9	hatte	VAFIN	haben	_	O	O	
+

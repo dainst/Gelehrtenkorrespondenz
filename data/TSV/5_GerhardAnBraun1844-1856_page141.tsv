@@ -1,0 +1,242 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=175 Gerhard an Braun Berlin, 15. Mai 1845 2 Spiegel Vol.~ denke ich mit Tafel 240 und Inhaltsanzeige näc~stens abzuschließen; dann Sch~ ht bis auf Weiteres.
+1-1	175	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	Spiegel	NN	Spiegel	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-13	Vol.~	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+1-14	denke	VVFIN	denken	_	O	O	
+1-15	ich	PPER	ich	_	O	O	
+1-16	mit	APPR	mit	_	O	O	
+1-17	Tafel	NN	Tafel	_	O	O	
+1-18	240	CARD	240	_	O	O	
+1-19	und	KON	und	_	O	O	
+1-20	Inhaltsanzeige	NN	<unknown>	_	O	O	
+1-21	näc~stens	ADV	<unknown>	_	O	O	
+1-22	abzuschließen	VVIZU	abschließen	_	O	O	
+1-23	;	$.	;	_	O	O	
+1-24	dann	ADV	dann	_	O	O	
+1-25	Sch~	ADJA	<unknown>	_	O	O	
+1-26	ht	NN	<unknown>	_	O	O	
+1-27	bis	KON	bis	_	O	O	
+1-28	auf	APPR	auf	_	O	O	
+1-29	Weiteres	NN	Weiter	_	O	O	
+1-30	.	$.	.	_	O	O	
+
+#id=2
+#text=Der Buchhändler ist muthlos und selbst die Akademie hat mitten im Band ihre Subscr.
+2-1	Der	ART	die	_	O	O	
+2-2	Buchhändler	NN	Buchhändler	_	O	O	
+2-3	ist	VAFIN	sein	_	O	O	
+2-4	muthlos	ADJD	<unknown>	_	O	O	
+2-5	und	KON	und	_	O	O	
+2-6	selbst	ADV	selbst	_	O	O	
+2-7	die	ART	die	_	O	O	
+2-8	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-9	hat	VAFIN	haben	_	O	O	
+2-10	mitten	ADV	mitten	_	O	O	
+2-11	im	APPRART	in	_	O	O	
+2-12	Band	NN	Band	_	O	O	
+2-13	ihre	PPOSAT	ihr	_	O	O	
+2-14	Subscr	NN	<unknown>	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=sistirt.
+3-1	sistirt	NN	<unknown>	_	O	O	
+3-2	.	$.	.	_	O	O	
+
+#id=4
+#text=Welcker scheint sehr distrahirt zu sein; unser Briefwechsel ist ganz außer Gleis seit der englischen Reise.
+4-1	Welcker	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	scheint	VVFIN	scheinen	_	O	O	
+4-3	sehr	ADV	sehr	_	O	O	
+4-4	distrahirt	NN	<unknown>	_	O	O	
+4-5	zu	PTKZU	zu	_	O	O	
+4-6	sein	VAINF	sein	_	O	O	
+4-7	;	$.	;	_	O	O	
+4-8	unser	PPOSAT	unser	_	O	O	
+4-9	Briefwechsel	NN	Briefwechsel	_	O	O	
+4-10	ist	VAFIN	sein	_	O	O	
+4-11	ganz	ADV	ganz	_	O	O	
+4-12	außer	APPR	außer	_	O	O	
+4-13	Gleis	NN	Gleis	_	O	O	
+4-14	seit	APPR	seit	_	O	O	
+4-15	der	ART	die	_	O	O	
+4-16	englischen	ADJA	englisch	_	O	O	
+4-17	Reise	NN	Reise	_	O	O	
+4-18	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich müßte glauben er hätte mir irgend etwas übel genommen, dürfte man nicht sehr viel auf Umzug und Häuslichkeit schieben.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	müßte	VMFIN	müssen	_	O	O	
+5-3	glauben	VVFIN	glauben	_	O	O	
+5-4	er	PPER	er	_	O	O	
+5-5	hätte	VAFIN	haben	_	O	O	
+5-6	mir	PPER	ich	_	O	O	
+5-7	irgend	ADV	irgend	_	O	O	
+5-8	etwas	ADV	etwas	_	O	O	
+5-9	übel	ADJD	übel	_	O	O	
+5-10	genommen	VVPP	nehmen	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	dürfte	VMFIN	dürfen	_	O	O	
+5-13	man	PIS	man	_	O	O	
+5-14	nicht	PTKNEG	nicht	_	O	O	
+5-15	sehr	ADV	sehr	_	O	O	
+5-16	viel	ADV	viel	_	O	O	
+5-17	auf	APPR	auf	_	O	O	
+5-18	Umzug	NN	Umzug	_	O	O	
+5-19	und	KON	und	_	O	O	
+5-20	Häuslichkeit	NN	Häuslichkeit	_	O	O	
+5-21	schieben	VVINF	schieben	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=Becker verspricht in den Zeitungen das giftige Urlich'sche Buch durch eine Recension des letzten Bandes Beschreibung von Rom todt zu machen.
+6-1	Becker	NE	Becker	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	verspricht	VVFIN	versprechen	_	O	O	
+6-3	in	APPR	in	_	O	O	
+6-4	den	ART	die	_	O	O	
+6-5	Zeitungen	NN	Zeitung	_	O	O	
+6-6	das	ART	die	_	O	O	
+6-7	giftige	ADJA	giftig	_	O	O	
+6-8	Urlich'sche	NN	<unknown>	_	O	O	
+6-9	Buch	NN	Buch	_	O	O	
+6-10	durch	APPR	durch	_	O	O	
+6-11	eine	ART	eine	_	O	O	
+6-12	Recension	NN	<unknown>	_	O	O	
+6-13	des	ART	die	_	O	O	
+6-14	letzten	ADJA	letzt	_	O	O	
+6-15	Bandes	NN	Band	_	O	O	
+6-16	Beschreibung	NN	Beschreibung	_	O	O	
+6-17	von	APPR	von	_	O	O	
+6-18	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-19	todt	ADJD	<unknown>	_	O	O	
+6-20	zu	PTKZU	zu	_	O	O	
+6-21	machen	VVINF	machen	_	O	O	
+6-22	.	$.	.	_	O	O	
+
+#id=7
+#text=Jahns Censorinus muß nächstens ausgegeben werden.
+7-1	Jahns	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	Censorinus	NE	<unknown>	_	O	O	
+7-3	muß	VMFIN	müssen	_	O	O	
+7-4	nächstens	ADV	nächstens	_	O	O	
+7-5	ausgegeben	VVPP	ausgeben	_	O	O	
+7-6	werden	VAINF	werden	_	O	O	
+7-7	.	$.	.	_	O	O	
+
+#id=8
+#text=Sig.
+8-1	Sig	NE	<unknown>	_	O	O	
+8-2	.	$.	.	_	O	O	
+
+#id=9
+#text=Tommaso Gar sendet eine Kiste nach Florenz, der ich Corpus Inscr.
+9-1	Tommaso	NE	Tommaso	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	Gar	ADV	gar	_	O	O	
+9-3	sendet	VVFIN	senden	_	O	O	
+9-4	eine	ART	eine	_	O	O	
+9-5	Kiste	NN	Kiste	_	O	O	
+9-6	nach	APPR	nach	_	O	O	
+9-7	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-8	,	$,	,	_	O	O	
+9-9	der	PRELS	die	_	O	O	
+9-10	ich	PPER	ich	_	O	O	
+9-11	Corpus	NN	Corpus	_	O	O	
+9-12	Inscr	NN	<unknown>	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=und Archäologische Zeitung beilegen werde.
+10-1	und	KON	und	_	O	O	
+10-2	Archäologische	ADJA	archäologisch	_	O	O	
+10-3	Zeitung	NN	Zeitung	_	O	O	
+10-4	beilegen	VVINF	beilegen	_	O	O	
+10-5	werde	VAFIN	werden	_	O	O	
+10-6	.	$.	.	_	O	O	
+
+#id=11
+#text=7 Jacob Grili will nach Madera auf 14 Tage über England; er bildet sich ein seiner Brust wesentlich gut zu thun.
+11-1	7	CARD	7	_	O	O	
+11-2	Jacob	NE	Jacob	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-3	Grili	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-4	will	VMFIN	wollen	_	O	O	
+11-5	nach	APPR	nach	_	O	O	
+11-6	Madera	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-7	auf	APPR	auf	_	O	O	
+11-8	14	CARD	14	_	O	O	
+11-9	Tage	NN	Tag	_	O	O	
+11-10	über	APPR	über	_	O	O	
+11-11	England	NE	England	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-12	;	$.	;	_	O	O	
+11-13	er	PPER	er	_	O	O	
+11-14	bildet	VVFIN	bilden	_	O	O	
+11-15	sich	PRF	sich	_	O	O	
+11-16	ein	ART	eine	_	O	O	
+11-17	seiner	PPOSAT	sein	_	O	O	
+11-18	Brust	NN	Brust	_	O	O	
+11-19	wesentlich	ADJD	wesentlich	_	O	O	
+11-20	gut	ADJD	gut	_	O	O	
+11-21	zu	APPR	zu	_	O	O	
+11-22	thun	NE	<unknown>	_	O	O	
+11-23	.	$.	.	_	O	O	
+
+#id=12
+#text=Panofkas Bemerkungen über die Midasvase werde ich Ihnen in etwa drei Wochen gedruckt senden können.
+12-1	Panofkas	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	Bemerkungen	NN	Bemerkung	_	O	O	
+12-3	über	APPR	über	_	O	O	
+12-4	die	ART	die	_	O	O	
+12-5	Midasvase	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+12-6	werde	VAFIN	werden	_	O	O	
+12-7	ich	PPER	ich	_	O	O	
+12-8	Ihnen	PPER	Sie	_	O	O	
+12-9	in	APPR	in	_	O	O	
+12-10	etwa	ADV	etwa	_	O	O	
+12-11	drei	CARD	drei	_	O	O	
+12-12	Wochen	NN	Woche	_	O	O	
+12-13	gedruckt	VVPP	drucken	_	O	O	
+12-14	senden	VVINF	senden	_	O	O	
+12-15	können	VMINF	können	_	O	O	
+12-16	.	$.	.	_	O	O	
+
+#id=13
+#text=Preller setzt einen allgemeinen Aufsatz über die Archäologie in die Zeitung; Alterthumswissenschaft.
+13-1	Preller	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	setzt	VVFIN	setzen	_	O	O	
+13-3	einen	ART	eine	_	O	O	
+13-4	allgemeinen	ADJA	allgemein	_	O	O	
+13-5	Aufsatz	NN	Aufsatz	_	O	O	
+13-6	über	APPR	über	_	O	O	
+13-7	die	ART	die	_	O	O	
+13-8	Archäologie	NN	Archäologie	_	O	O	
+13-9	in	APPR	in	_	O	O	
+13-10	die	ART	die	_	O	O	
+13-11	Zeitung	NN	Zeitung	_	O	O	
+13-12	;	$.	;	_	O	O	
+13-13	Alterthumswissenschaft	NN	<unknown>	_	O	O	
+13-14	.	$.	.	_	O	O	
+
+#id=14
+#text=Graf Bernstorf kommt als preußischer Gesandter nach München.
+14-1	Graf	NE	Graf	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	Bernstorf	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+14-3	kommt	VVFIN	kommen	_	O	O	
+14-4	als	KOKOM	als	_	O	O	
+14-5	preußischer	ADJA	preußisch	_	O	O	
+14-6	Gesandter	NN	<unknown>	_	O	O	
+14-7	nach	APPR	nach	_	O	O	
+14-8	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+14-9	.	$.	.	_	O	O	
+

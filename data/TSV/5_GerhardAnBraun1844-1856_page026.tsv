@@ -1,0 +1,214 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=92 Dr. Braun Mein theurer Freund.
+1-1	92	CARD	92	_	O	O	
+1-2	Dr.	NN	Dr.	_	O	O	
+1-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Mein	PPOSAT	mein	_	O	O	
+1-5	theurer	ADJA	<unknown>	_	O	O	
+1-6	Freund	NN	Freund	_	O	O	
+1-7	.	$.	.	_	O	O	
+
+#id=2
+#text=Gerhard an Braun Berlin, 8. Februar 1844 g. 26/11 44 r. 29/11 44 Berlin 8 Febr 44 Luynes hat 1 Februar d. J. officiell geantwortet folgenden Inhalts.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	g.	VVFIN	<unknown>	_	O	O	
+2-11	26/11	CARD	@card@	_	O	O	
+2-12	44	CARD	44	_	O	O	
+2-13	r.	ADJA	<unknown>	_	O	O	
+2-14	29/11	CARD	@card@	_	O	O	
+2-15	44	CARD	44	_	O	O	
+2-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-17	8	CARD	8	_	O	O	
+2-18	Febr	NN	<unknown>	_	O	O	
+2-19	44	CARD	44	_	O	O	
+2-20	Luynes	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-21	hat	VAFIN	haben	_	O	O	
+2-22	1	CARD	1	_	O	O	
+2-23	Februar	NN	Februar	_	O	O	
+2-24	d.	ART	d.	_	O	O	
+2-25	J.	NE	J.	_	O	O	
+2-26	officiell	ADJD	<unknown>	_	O	O	
+2-27	geantwortet	VVPP	antworten	_	O	O	
+2-28	folgenden	ADJA	folgend	_	O	O	
+2-29	Inhalts	NN	Inhalt	_	O	O	
+2-30	.	$.	.	_	O	O	
+
+#id=3
+#text=Sämtliche Exemplare der Annali 1841 - 2 wurden am 13 September an Avenarius abgeliefert; das rückständige Heft erscheint höchstens in einem Monat.
+3-1	Sämtliche	PIAT	sämtliche	_	O	O	
+3-2	Exemplare	NN	Exemplar	_	O	O	
+3-3	der	ART	die	_	O	O	
+3-4	Annali	NE	<unknown>	_	O	O	
+3-5	1841	CARD	@card@	_	O	O	
+3-6	-	$(	-	_	O	O	
+3-7	2	CARD	2	_	O	O	
+3-8	wurden	VAFIN	werden	_	O	O	
+3-9	am	APPRART	an	_	O	O	
+3-10	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-11	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-12	an	APPR	an	_	O	O	
+3-13	Avenarius	NN	<unknown>	_	O	O	
+3-14	abgeliefert	VVPP	abliefern	_	O	O	
+3-15	;	$.	;	_	O	O	
+3-16	das	ART	die	_	O	O	
+3-17	rückständige	ADJA	rückständig	_	O	O	
+3-18	Heft	NN	Heft	_	O	O	
+3-19	erscheint	VVFIN	erscheinen	_	O	O	
+3-20	höchstens	ADV	höchstens	_	O	O	
+3-21	in	APPR	in	_	O	O	
+3-22	einem	ART	eine	_	O	O	
+3-23	Monat	NN	Monat	_	O	O	
+3-24	.	$.	.	_	O	O	
+
+#id=4
+#text=Daß das Institut schlechte Geschäfte mache käme nicht vom Format, sondern von den gehäuften archäologischen Publicationen, besonders auch des Bullettino Napoletano und der Archäologischen Zeitung; Frankreich und Belgien haben sich dergleichen nicht vorzuwerfen.
+4-1	Daß	KOUS	dass	_	O	O	
+4-2	das	ART	die	_	O	O	
+4-3	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-4	schlechte	ADJA	schlecht	_	O	O	
+4-5	Geschäfte	NN	Geschäft	_	O	O	
+4-6	mache	VVFIN	machen	_	O	O	
+4-7	käme	VVFIN	kommen	_	O	O	
+4-8	nicht	PTKNEG	nicht	_	O	O	
+4-9	vom	APPRART	von	_	O	O	
+4-10	Format	NN	Format	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	sondern	KON	sondern	_	O	O	
+4-13	von	APPR	von	_	O	O	
+4-14	den	ART	die	_	O	O	
+4-15	gehäuften	ADJA	gehäuft	_	O	O	
+4-16	archäologischen	ADJA	archäologisch	_	O	O	
+4-17	Publicationen	NN	<unknown>	_	O	O	
+4-18	,	$,	,	_	O	O	
+4-19	besonders	ADV	besonders	_	O	O	
+4-20	auch	ADV	auch	_	O	O	
+4-21	des	ART	die	_	O	O	
+4-22	Bullettino	NE	<unknown>	_	O	O	
+4-23	Napoletano	NE	<unknown>	_	O	O	
+4-24	und	KON	und	_	O	O	
+4-25	der	ART	die	_	O	O	
+4-26	Archäologischen	ADJA	archäologisch	_	O	O	
+4-27	Zeitung	NN	Zeitung	_	O	O	
+4-28	;	$.	;	_	O	O	
+4-29	Frankreich	NE	Frankreich	_	O	O	
+4-30	und	KON	und	_	O	O	
+4-31	Belgien	NE	Belgien	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-32	haben	VAFIN	haben	_	O	O	
+4-33	sich	PRF	sich	_	O	O	
+4-34	dergleichen	PIS	dergleichen	_	O	O	
+4-35	nicht	PTKNEG	nicht	_	O	O	
+4-36	vorzuwerfen	VVIZU	vorwerfen	_	O	O	
+4-37	.	$.	.	_	O	O	
+
+#id=5
+#text=Durch eine Formatänderung würden viel französische Theilnehmer abfallen; in Deutschland werde es freilich anders sein.
+5-1	Durch	APPR	durch	_	O	O	
+5-2	eine	ART	eine	_	O	O	
+5-3	Formatänderung	NN	<unknown>	_	O	O	
+5-4	würden	VAFIN	werden	_	O	O	
+5-5	viel	PIAT	viele	_	O	O	
+5-6	französische	ADJA	französisch	_	O	O	
+5-7	Theilnehmer	NN	<unknown>	_	O	O	
+5-8	abfallen	VVINF	abfallen	_	O	O	
+5-9	;	$.	;	_	O	O	
+5-10	in	APPR	in	_	O	O	
+5-11	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-12	werde	VAFIN	werden	_	O	O	
+5-13	es	PPER	es	_	O	O	
+5-14	freilich	ADV	freilich	_	O	O	
+5-15	anders	ADV	anders	_	O	O	
+5-16	sein	VAINF	sein	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Es sei aber noch zu bedenken daß Verkleinerung der Zeichnungen in Rom übel ausführbar sei; Beweis das Museo Gregoriano.
+6-1	Es	PPER	es	_	O	O	
+6-2	sei	VAFIN	sein	_	O	O	
+6-3	aber	ADV	aber	_	O	O	
+6-4	noch	ADV	noch	_	O	O	
+6-5	zu	PTKZU	zu	_	O	O	
+6-6	bedenken	VVINF	bedenken	_	O	O	
+6-7	daß	KOUS	dass	_	O	O	
+6-8	Verkleinerung	NN	Verkleinerung	_	O	O	
+6-9	der	ART	die	_	O	O	
+6-10	Zeichnungen	NN	Zeichnung	_	O	O	
+6-11	in	APPR	in	_	O	O	
+6-12	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-13	übel	ADJD	übel	_	O	O	
+6-14	ausführbar	ADJD	ausführbar	_	O	O	
+6-15	sei	VAFIN	sein	_	O	O	
+6-16	;	$.	;	_	O	O	
+6-17	Beweis	NN	Beweis	_	O	O	
+6-18	das	ART	die	_	O	O	
+6-19	Museo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-20	Gregoriano	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+6-21	.	$.	.	_	O	O	
+
+#id=7
+#text="Le comite pense donc que le seul moyen de parer aux inc~onveniences signales serait di ralentir la publication des Annales et de proportionnner ce ralentissement auy ressources de la direction.
+7-1	"	$(	"	_	O	O	
+7-2	Le	NE	Le	_	O	O	
+7-3	comite	ADJA	<unknown>	_	O	O	
+7-4	pense	ADJA	<unknown>	_	O	O	
+7-5	donc	NE	<unknown>	_	O	O	
+7-6	que	ADJA	<unknown>	_	O	O	
+7-7	le	ADJA	<unknown>	_	O	O	
+7-8	seul	NN	<unknown>	_	O	O	
+7-9	moyen	VVFIN	<unknown>	_	O	O	
+7-10	de	NE	de	_	O	O	
+7-11	parer	NN	<unknown>	_	O	O	
+7-12	aux	NE	<unknown>	_	O	O	
+7-13	inc~onveniences	NE	<unknown>	_	O	O	
+7-14	signales	ADJA	<unknown>	_	O	O	
+7-15	serait	NN	<unknown>	_	O	O	
+7-16	di	NE	di	_	O	O	
+7-17	ralentir	NE	<unknown>	_	O	O	
+7-18	la	FM	la	_	O	O	
+7-19	publication	NN	<unknown>	_	O	O	
+7-20	des	ART	die	_	O	O	
+7-21	Annales	NN	<unknown>	_	O	O	
+7-22	et	FM	et	_	O	O	
+7-23	de	FM	de	_	O	O	
+7-24	proportionnner	ADJA	<unknown>	_	O	O	
+7-25	ce	ADJA	<unknown>	_	O	O	
+7-26	ralentissement	NN	<unknown>	_	O	O	
+7-27	auy	NE	<unknown>	_	O	O	
+7-28	ressources	ADJA	<unknown>	_	O	O	
+7-29	de	FM	de	_	O	O	
+7-30	la	FM	la	_	O	O	
+7-31	direction	NE	<unknown>	_	O	O	
+7-32	.	$.	.	_	O	O	
+
+#id=8
+#text=Je observe que la moitie des publications etant gratuites, les frais se tournent ainsi diminues de moitie, sauf ce
+8-1	Je	APPR	je	_	O	O	
+8-2	observe	NN	<unknown>	_	O	O	
+8-3	que	ADJA	<unknown>	_	O	O	
+8-4	la	FM	la	_	O	O	
+8-5	moitie	NN	<unknown>	_	O	O	
+8-6	des	ART	die	_	O	O	
+8-7	publications	ADJA	<unknown>	_	O	O	
+8-8	etant	ADJA	<unknown>	_	O	O	
+8-9	gratuites	ADJA	<unknown>	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	les	ADJA	<unknown>	_	O	O	
+8-12	frais	NN	<unknown>	_	O	O	
+8-13	se	NE	se	_	O	O	
+8-14	tournent	NN	<unknown>	_	O	O	
+8-15	ainsi	NE	<unknown>	_	O	O	
+8-16	diminues	VVFIN	<unknown>	_	O	O	
+8-17	de	NE	de	_	O	O	
+8-18	moitie	VVFIN	<unknown>	_	O	O	
+8-19	,	$,	,	_	O	O	
+8-20	sauf	VVIMP	saufen	_	O	O	
+8-21	ce	ADJA	<unknown>	_	O	O	
+

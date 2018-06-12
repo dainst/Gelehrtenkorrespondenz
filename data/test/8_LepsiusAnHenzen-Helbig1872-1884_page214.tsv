@@ -1,0 +1,219 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=114 Verehrter Freund Lepsius an Renzen Berlin, 8. März 1875 g. 12/3 75 r.
+1-1	114	CARD	@card@	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	12/3	CARD	12/3	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=22/3 Berlin, d. 8. Mz 1875 Ich erhalte so eben Ihre Sendung vom 4 n d. Da einmal die 15 Thaler für die 3 Zeichnungen in Eichler's Rechnungen, die schon eingegangen sind, als Institutssache verzeichnet sind, so würde es mehr Umstände machen dies zu ändern, als wenn Sie die geringe Summe so buchen wie es sich Matz ohne Zweifel gedacht hat.
+2-1	22/3	CARD	@card@	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-3	,	$,	,	_	O	O	
+2-4	d.	ART	d.	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	8	CARD	8	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	Mz	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	Ich	PPER	ich	_	O	O	
+2-10	erhalte	VVFIN	erhalten	_	O	O	
+2-11	so	ADV	so	_	O	O	
+2-12	eben	ADV	eben	_	O	O	
+2-13	Ihre	PPOSAT	ihr	_	O	O	
+2-14	Sendung	NN	Sendung	_	O	O	
+2-15	vom	APPRART	von	_	O	O	
+2-16	4	CARD	4	_	O	O	
+2-17	n	VVFIN	<unknown>	_	O	O	
+2-18	d.	ART	d.	_	O	O	
+2-19	Da	ADV	da	_	O	O	
+2-20	einmal	ADV	einmal	_	O	O	
+2-21	die	ART	die	_	O	O	
+2-22	15	CARD	15	_	O	O	
+2-23	Thaler	NN	<unknown>	_	O	O	
+2-24	für	APPR	für	_	O	O	
+2-25	die	ART	die	_	O	O	
+2-26	3	CARD	3	_	O	O	
+2-27	Zeichnungen	NN	Zeichnung	_	O	O	
+2-28	in	APPR	in	_	O	O	
+2-29	Eichler's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-30	Rechnungen	NN	Rechnung	_	O	O	
+2-31	,	$,	,	_	O	O	
+2-32	die	PRELS	die	_	O	O	
+2-33	schon	ADV	schon	_	O	O	
+2-34	eingegangen	VVPP	eingehen	_	O	O	
+2-35	sind	VAFIN	sein	_	O	O	
+2-36	,	$,	,	_	O	O	
+2-37	als	KOKOM	als	_	O	O	
+2-38	Institutssache	NN	<unknown>	_	O	O	
+2-39	verzeichnet	VVPP	verzeichnen	_	O	O	
+2-40	sind	VAFIN	sein	_	O	O	
+2-41	,	$,	,	_	O	O	
+2-42	so	ADV	so	_	O	O	
+2-43	würde	VAFIN	werden	_	O	O	
+2-44	es	PPER	es	_	O	O	
+2-45	mehr	PIAT	mehr	_	O	O	
+2-46	Umstände	NN	Umstand	_	O	O	
+2-47	machen	VVFIN	machen	_	O	O	
+2-48	dies	PDS	dies	_	O	O	
+2-49	zu	PTKZU	zu	_	O	O	
+2-50	ändern	VVINF	ändern	_	O	O	
+2-51	,	$,	,	_	O	O	
+2-52	als	KOKOM	als	_	O	O	
+2-53	wenn	KOUS	wenn	_	O	O	
+2-54	Sie	PPER	Sie	_	O	O	
+2-55	die	ART	die	_	O	O	
+2-56	geringe	ADJA	gering	_	O	O	
+2-57	Summe	NN	Summe	_	O	O	
+2-58	so	ADV	so	_	O	O	
+2-59	buchen	ADJD	buchen	_	O	O	
+2-60	wie	KOKOM	wie	_	O	O	
+2-61	es	PPER	es	_	O	O	
+2-62	sich	PRF	sich	_	O	O	
+2-63	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-64	ohne	APPR	ohne	_	O	O	
+2-65	Zweifel	NN	Zweifel	_	O	O	
+2-66	gedacht	VVPP	denken|gedenken	_	O	O	
+2-67	hat	VAFIN	haben	_	O	O	
+2-68	.	$.	.	_	O	O	
+
+#id=3
+#text=Wenn Sie wieder Gelder aus dem Reservefonds nöthig haben, so können Sie jederzeit daraus erhalten.
+3-1	Wenn	KOUS	wenn	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	wieder	ADV	wieder	_	O	O	
+3-4	Gelder	NN	Geld	_	O	O	
+3-5	aus	APPR	aus	_	O	O	
+3-6	dem	ART	die	_	O	O	
+3-7	Reservefonds	NN	Reservefonds	_	O	O	
+3-8	nöthig	ADJD	<unknown>	_	O	O	
+3-9	haben	VAFIN	haben	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	so	ADV	so	_	O	O	
+3-12	können	VMFIN	können	_	O	O	
+3-13	Sie	PPER	Sie	_	O	O	
+3-14	jederzeit	ADV	jederzeit	_	O	O	
+3-15	daraus	PAV	daraus	_	O	O	
+3-16	erhalten	VVINF	erhalten	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Doch wäre es vielleicht gut wenn Sie mir vorher nur die Angabe, wieviel Sie außer den 1150 L noch brauchen möglichst genau zugehen lassen und mit der Erledigung bis nach der General Versammlung warten, die über die Vertheilung der Ausgaben auf die Titel vielleicht anders verfügen möchte.
+4-1	Doch	ADV	doch	_	O	O	
+4-2	wäre	VAFIN	sein	_	O	O	
+4-3	es	PPER	es	_	O	O	
+4-4	vielleicht	ADV	vielleicht	_	O	O	
+4-5	gut	ADJD	gut	_	O	O	
+4-6	wenn	KOUS	wenn	_	O	O	
+4-7	Sie	PPER	Sie	_	O	O	
+4-8	mir	PRF	ich	_	O	O	
+4-9	vorher	ADV	vorher	_	O	O	
+4-10	nur	ADV	nur	_	O	O	
+4-11	die	ART	die	_	O	O	
+4-12	Angabe	NN	Angabe	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	wieviel	PWAV	wieviele	_	O	O	
+4-15	Sie	PPER	Sie	_	O	O	
+4-16	außer	APPR	außer	_	O	O	
+4-17	den	ART	die	_	O	O	
+4-18	1150	CARD	1150	_	O	O	
+4-19	L	NN	L	_	O	O	
+4-20	noch	ADV	noch	_	O	O	
+4-21	brauchen	VVFIN	brauchen	_	O	O	
+4-22	möglichst	ADV	möglichst	_	O	O	
+4-23	genau	ADJD	genau	_	O	O	
+4-24	zugehen	VVINF	zugehen	_	O	O	
+4-25	lassen	VVINF	lassen	_	O	O	
+4-26	und	KON	und	_	O	O	
+4-27	mit	APPR	mit	_	O	O	
+4-28	der	ART	die	_	O	O	
+4-29	Erledigung	NN	Erledigung	_	O	O	
+4-30	bis	KON	bis	_	O	O	
+4-31	nach	APPR	nach	_	O	O	
+4-32	der	ART	die	_	O	O	
+4-33	General	NN	General	_	O	O	
+4-34	Versammlung	NN	Versammlung	_	O	O	
+4-35	warten	VVINF	warten	_	O	O	
+4-36	,	$,	,	_	O	O	
+4-37	die	PRELS	die	_	O	O	
+4-38	über	APPR	über	_	O	O	
+4-39	die	ART	die	_	O	O	
+4-40	Vertheilung	NN	<unknown>	_	O	O	
+4-41	der	ART	die	_	O	O	
+4-42	Ausgaben	NN	Ausgabe	_	O	O	
+4-43	auf	APPR	auf	_	O	O	
+4-44	die	ART	die	_	O	O	
+4-45	Titel	NN	Titel	_	O	O	
+4-46	vielleicht	ADV	vielleicht	_	O	O	
+4-47	anders	ADV	anders	_	O	O	
+4-48	verfügen	VVINF	verfügen	_	O	O	
+4-49	möchte	VMFIN	mögen	_	O	O	
+4-50	.	$.	.	_	O	O	
+
+#id=5
+#text=Wenn Kekule noch bei Ihnen ist bitte ich ihn zu grüßen.
+5-1	Wenn	KOUS	wenn	_	O	O	
+5-2	Kekule	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	noch	ADV	noch	_	O	O	
+5-4	bei	APPR	bei	_	O	O	
+5-5	Ihnen	PPER	Sie	_	O	O	
+5-6	ist	VAFIN	sein	_	O	O	
+5-7	bitte	ADV	bitte	_	O	O	
+5-8	ich	PPER	ich	_	O	O	
+5-9	ihn	PPER	er	_	O	O	
+5-10	zu	PTKZU	zu	_	O	O	
+5-11	grüßen	VVINF	grüßen	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Da wir erst den 30 n zusammenkommen, so hat seine Abreise dafür noch keine Eile.
+6-1	Da	KOUS	da	_	O	O	
+6-2	wir	PPER	wir	_	O	O	
+6-3	erst	ADV	erst	_	O	O	
+6-4	den	ART	die	_	O	O	
+6-5	30	CARD	30	_	O	O	
+6-6	n	NN	N	_	O	O	
+6-7	zusammenkommen	VVFIN	zusammenkommen	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	so	ADV	so	_	O	O	
+6-10	hat	VAFIN	haben	_	O	O	
+6-11	seine	PPOSAT	sein	_	O	O	
+6-12	Abreise	NN	Abreise	_	O	O	
+6-13	dafür	PAV	dafür	_	O	O	
+6-14	noch	ADV	noch	_	O	O	
+6-15	keine	PIAT	keine	_	O	O	
+6-16	Eile	NN	Eile	_	O	O	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=Ernst Eichler 's Adresse ist Werden bei Zwicken Zum ersten male seit Wochen beginnt der heutige
+7-1	Ernst	NE	Ernst	_	O	O	
+7-2	Eichler	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-3	'	$(	'	_	O	O	
+7-4	s	NN	s	_	O	O	
+7-5	Adresse	NN	Adresse	_	O	O	
+7-6	ist	VAFIN	sein	_	O	O	
+7-7	Werden	NN	Werden	_	O	O	
+7-8	bei	APPR	bei	_	O	O	
+7-9	Zwicken	NN	Zwicke	_	O	O	
+7-10	Zum	APPRART	zu	_	O	O	
+7-11	ersten	ADJA	erst	_	O	O	
+7-12	male	VVFIN	malen	_	O	O	
+7-13	seit	APPR	seit	_	O	O	
+7-14	Wochen	NN	Woche	_	O	O	
+7-15	beginnt	VVFIN	beginnen	_	O	O	
+7-16	der	ART	die	_	O	O	
+7-17	heutige	ADJA	heutig	_	O	O	
+

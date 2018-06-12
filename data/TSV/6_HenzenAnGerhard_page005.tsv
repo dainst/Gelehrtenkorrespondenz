@@ -1,0 +1,358 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=() ( 32 4/11/51 Henzen an Gerhard Verehrtester Herr Professor Ich bedaure sehr, dß.
+1-1	(	$(	(	_	O	O	
+1-2	)	$(	)	_	O	O	
+1-3	(	$(	(	_	O	O	
+1-4	32	CARD	32	_	O	O	
+1-5	4/11/51	CARD	@card@	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Verehrtester	NN	<unknown>	_	O	O	
+1-10	Herr	NN	Herr	_	O	O	
+1-11	Professor	NN	Professor	_	O	O	
+1-12	Ich	PPER	ich	_	O	O	
+1-13	bedaure	VVFIN	bedauern	_	O	O	
+1-14	sehr	ADV	sehr	_	O	O	
+1-15	,	$,	,	_	O	O	
+1-16	dß	VVFIN	<unknown>	_	O	O	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text=Sie gleichfalls krank ins neue Jahr herübergekommen; hoffentlich haben auch Sie es überstanden.
+2-1	Sie	PPER	Sie	_	O	O	
+2-2	gleichfalls	ADV	gleichfalls	_	O	O	
+2-3	krank	ADJD	krank	_	O	O	
+2-4	ins	APPRART	in	_	O	O	
+2-5	neue	ADJA	neu	_	O	O	
+2-6	Jahr	NN	Jahr	_	O	O	
+2-7	herübergekommen	VVPP	herüberkommen	_	O	O	
+2-8	;	$.	;	_	O	O	
+2-9	hoffentlich	ADV	hoffentlich	_	O	O	
+2-10	haben	VAFIN	haben	_	O	O	
+2-11	auch	ADV	auch	_	O	O	
+2-12	Sie	PPER	Sie	_	O	O	
+2-13	es	PPER	es	_	O	O	
+2-14	überstanden	VVPP	überstehen	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich habe Ihnen einliegende, wenige Bemerkungen zusammengestellt, die Sie freilich meistens ebeIljso gut dem Bull.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	habe	VAFIN	haben	_	O	O	
+3-3	Ihnen	PPER	Sie	_	O	O	
+3-4	einliegende	ADJD	<unknown>	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	wenige	PIAT	wenige	_	O	O	
+3-7	Bemerkungen	NN	Bemerkung	_	O	O	
+3-8	zusammengestellt	VVPP	zusammenstellen	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	die	PRELS	die	_	O	O	
+3-11	Sie	PPER	Sie	_	O	O	
+3-12	freilich	ADV	freilich	_	O	O	
+3-13	meistens	ADV	meistens	_	O	O	
+3-14	ebeIljso	ADV	<unknown>	_	O	O	
+3-15	gut	ADJD	gut	_	O	O	
+3-16	dem	ART	die	_	O	O	
+3-17	Bull	NE	Bull	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=hätten entnehmen können.
+4-1	hätten	VAFIN	haben	_	O	O	
+4-2	entnehmen	VVINF	entnehmen	_	O	O	
+4-3	können	VMINF	können	_	O	O	
+4-4	.	$.	.	_	O	O	
+
+#id=5
+#text=Es gab aber nicht viel Neues.
+5-1	Es	PPER	es	_	O	O	
+5-2	gab	VVFIN	geben	_	O	O	
+5-3	aber	ADV	aber	_	O	O	
+5-4	nicht	PTKNEG	nicht	_	O	O	
+5-5	viel	PIAT	viele	_	O	O	
+5-6	Neues	NN	Neue	_	O	O	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=- In Bezug auf die für Minervini bestimmten Sachen kann ich nur wiederholen, dß.sie seinem Correspondenten übergeben sind; ob er sie erhielt, weiß ich bis jetzt nicht.
+6-1	-	$(	-	_	O	O	
+6-2	In	APPR	in	_	O	O	
+6-3	Bezug	NN	Bezug	_	O	O	
+6-4	auf	APPR	auf	_	O	O	
+6-5	die	ART	die	_	O	O	
+6-6	für	APPR	für	_	O	O	
+6-7	Minervini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-8	bestimmten	ADJA	bestimmt	_	O	O	
+6-9	Sachen	NN	Sache	_	O	O	
+6-10	kann	VMFIN	können	_	O	O	
+6-11	ich	PPER	ich	_	O	O	
+6-12	nur	ADV	nur	_	O	O	
+6-13	wiederholen	VVINF	wiederholen	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	dß.sie	NN	<unknown>	_	O	O	
+6-16	seinem	PPOSAT	sein	_	O	O	
+6-17	Correspondenten	NN	<unknown>	_	O	O	
+6-18	übergeben	VVPP	übergeben	_	O	O	
+6-19	sind	VAFIN	sein	_	O	O	
+6-20	;	$.	;	_	O	O	
+6-21	ob	KOUS	ob	_	O	O	
+6-22	er	PPER	er	_	O	O	
+6-23	sie	PPER	sie	_	O	O	
+6-24	erhielt	VVFIN	erhalten	_	O	O	
+6-25	,	$,	,	_	O	O	
+6-26	weiß	VVFIN	wissen	_	O	O	
+6-27	ich	PPER	ich	_	O	O	
+6-28	bis	KON	bis	_	O	O	
+6-29	jetzt	ADV	jetzt	_	O	O	
+6-30	nicht	PTKNEG	nicht	_	O	O	
+6-31	.	$.	.	_	O	O	
+
+#id=7
+#text=Für Ihr Paket weiß ich keinen andern Weg, als es an Mommsen, resp. Jahn zu schicken, zu gelegentlicher Spedition durch Buchhändler Wolfgang Gerhard, dh.
+7-1	Für	APPR	für	_	O	O	
+7-2	Ihr	PPOSAT	ihr	_	O	O	
+7-3	Paket	NN	Paket	_	O	O	
+7-4	weiß	VVFIN	wissen	_	O	O	
+7-5	ich	PPER	ich	_	O	O	
+7-6	keinen	PIAT	keine	_	O	O	
+7-7	andern	PIS	andere	_	O	O	
+7-8	Weg	PTKVZ	weg	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	als	KOUS	als	_	O	O	
+7-11	es	PPER	es	_	O	O	
+7-12	an	APPR	an	_	O	O	
+7-13	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-14	,	$,	,	_	O	O	
+7-15	resp.	ADV	resp.	_	O	O	
+7-16	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-17	zu	PTKZU	zu	_	O	O	
+7-18	schicken	VVINF	schicken	_	O	O	
+7-19	,	$,	,	_	O	O	
+7-20	zu	APPR	zu	_	O	O	
+7-21	gelegentlicher	ADJA	gelegentlich	_	O	O	
+7-22	Spedition	NN	Spedition	_	O	O	
+7-23	durch	APPR	durch	_	O	O	
+7-24	Buchhändler	NN	Buchhändler	_	O	O	
+7-25	Wolfgang	NE	Wolfgang	_	O	O	
+7-26	Gerhard	NE	Gerhard	_	O	O	
+7-27	,	$,	,	_	O	O	
+7-28	dh.	NE	<unknown>	_	O	O	
+
+#id=8
+#text=den die Sendungen an Torlonia gehen.
+8-1	den	ART	die	_	O	O	
+8-2	die	ART	die	_	O	O	
+8-3	Sendungen	NN	Sendung	_	O	O	
+8-4	an	APPR	an	_	O	O	
+8-5	Torlonia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	gehen	VVFIN	gehen	_	O	O	
+8-7	.	$.	.	_	O	O	
+
+#id=9
+#text=Ueber das Manuscript schrieb ich Ihnen.
+9-1	Ueber	NN	<unknown>	_	O	O	
+9-2	das	ART	die	_	O	O	
+9-3	Manuscript	NN	<unknown>	_	O	O	
+9-4	schrieb	VVFIN	schreiben	_	O	O	
+9-5	ich	PPER	ich	_	O	O	
+9-6	Ihnen	PPER	Sie	_	O	O	
+9-7	.	$.	.	_	O	O	
+
+#id=10
+#text=- Die Diplome sind angekommen, aber wir haben mehrere nöthig, u. statt Bunsen könnte ja der Vice-presidente unterschreiben.
+10-1	-	$(	-	_	O	O	
+10-2	Die	ART	die	_	O	O	
+10-3	Diplome	NN	Diplom	_	O	O	
+10-4	sind	VAFIN	sein	_	O	O	
+10-5	angekommen	VVPP	ankommen	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	aber	KON	aber	_	O	O	
+10-8	wir	PPER	wir	_	O	O	
+10-9	haben	VAFIN	haben	_	O	O	
+10-10	mehrere	PIS	mehrere	_	O	O	
+10-11	nöthig	ADJD	<unknown>	_	O	O	
+10-12	,	$,	,	_	O	O	
+10-13	u.	KON	und	_	O	O	
+10-14	statt	APPR	statt	_	O	O	
+10-15	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-16	könnte	VMFIN	können	_	O	O	
+10-17	ja	ADV	ja	_	O	O	
+10-18	der	ART	die	_	O	O	
+10-19	Vice-presidente	NE	<unknown>	_	O	O	
+10-20	unterschreiben	VVINF	unterschreiben	_	O	O	
+10-21	.	$.	.	_	O	O	
+
+#id=11
+#text=Zinanni war richtig; dagegen ist mir in Ihrem Briefe der Name des nicht völlig sicher.
+11-1	Zinanni	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	war	VAFIN	sein	_	O	O	
+11-3	richtig	ADJD	richtig	_	O	O	
+11-4	;	$.	;	_	O	O	
+11-5	dagegen	PAV	dagegen	_	O	O	
+11-6	ist	VAFIN	sein	_	O	O	
+11-7	mir	PPER	ich	_	O	O	
+11-8	in	APPR	in	_	O	O	
+11-9	Ihrem	PPOSAT	ihr	_	O	O	
+11-10	Briefe	NN	Brief	_	O	O	
+11-11	der	ART	die	_	O	O	
+11-12	Name	NN	Name	_	O	O	
+11-13	des	ART	die	_	O	O	
+11-14	nicht	PTKNEG	nicht	_	O	O	
+11-15	völlig	ADJD	völlig	_	O	O	
+11-16	sicher	ADJD	sicher	_	O	O	
+11-17	.	$.	.	_	O	O	
+
+#id=12
+#text=- Da Garruni Frieden mit dem Institut gesucht hat u., will er, für die Neapol Provinzen nützen kann, so kann man, dünkt mich, ihm die Ehre schon gönnen.
+12-1	-	$(	-	_	O	O	
+12-2	Da	KOUS	da	_	O	O	
+12-3	Garruni	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-4	Frieden	NN	Frieden	_	O	O	
+12-5	mit	APPR	mit	_	O	O	
+12-6	dem	ART	die	_	O	O	
+12-7	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+12-8	gesucht	VVPP	suchen	_	O	O	
+12-9	hat	VAFIN	haben	_	O	O	
+12-10	u.	KON	und	_	O	O	
+12-11	,	$,	,	_	O	O	
+12-12	will	VMFIN	wollen	_	O	O	
+12-13	er	PPER	er	_	O	O	
+12-14	,	$,	,	_	O	O	
+12-15	für	APPR	für	_	O	O	
+12-16	die	ART	die	_	O	O	
+12-17	Neapol	NN	<unknown>	_	O	O	
+12-18	Provinzen	NN	Provinz	_	O	O	
+12-19	nützen	VVINF	nützen	_	O	O	
+12-20	kann	VMFIN	können	_	O	O	
+12-21	,	$,	,	_	O	O	
+12-22	so	ADV	so	_	O	O	
+12-23	kann	VMFIN	können	_	O	O	
+12-24	man	PIS	man	_	O	O	
+12-25	,	$,	,	_	O	O	
+12-26	dünkt	VVFIN	dünken	_	O	O	
+12-27	mich	PRF	ich	_	O	O	
+12-28	,	$,	,	_	O	O	
+12-29	ihm	PPER	er	_	O	O	
+12-30	die	ART	die	_	O	O	
+12-31	Ehre	NN	Ehre	_	O	O	
+12-32	schon	ADV	schon	_	O	O	
+12-33	gönnen	VVFIN	gönnen	_	O	O	
+12-34	.	$.	.	_	O	O	
+
+#id=13
+#text=- Braun will erst später die Sc.
+13-1	-	$(	-	_	O	O	
+13-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-3	will	VMFIN	wollen	_	O	O	
+13-4	erst	ADV	erst	_	O	O	
+13-5	später	ADJD	spät	_	O	O	
+13-6	die	ART	die	_	O	O	
+13-7	Sc.	NN	<unknown>	_	O	O	
+
+#id=14
+#text=7.68,5 haben, wenn, er mit Ihnen abrechne.
+14-1	7.68,5	CARD	@card@	_	O	O	
+14-2	haben	VAFIN	haben	_	O	O	
+14-3	,	$,	,	_	O	O	
+14-4	wenn	KOUS	wenn	_	O	O	
+14-5	,	$,	,	_	O	O	
+14-6	er	PPER	er	_	O	O	
+14-7	mit	APPR	mit	_	O	O	
+14-8	Ihnen	PPER	Sie	_	O	O	
+14-9	abrechne	VVFIN	abrechnen	_	O	O	
+14-10	.	$.	.	_	O	O	
+
+#id=15
+#text=Wenn 0ie wünschen, so werde ich die Birchische Bemerkung einmal in einer Adunanz besprechen; sonst wüßte ich keinen Platz für Sie.
+15-1	Wenn	KOUS	wenn	_	O	O	
+15-2	0ie	NN	<unknown>	_	O	O	
+15-3	wünschen	VVFIN	wünschen	_	O	O	
+15-4	,	$,	,	_	O	O	
+15-5	so	ADV	so	_	O	O	
+15-6	werde	VAFIN	werden	_	O	O	
+15-7	ich	PPER	ich	_	O	O	
+15-8	die	ART	die	_	O	O	
+15-9	Birchische	ADJA	<unknown>	_	O	O	
+15-10	Bemerkung	NN	Bemerkung	_	O	O	
+15-11	einmal	ADV	einmal	_	O	O	
+15-12	in	APPR	in	_	O	O	
+15-13	einer	ART	eine	_	O	O	
+15-14	Adunanz	NN	<unknown>	_	O	O	
+15-15	besprechen	VVINF	besprechen	_	O	O	
+15-16	;	$.	;	_	O	O	
+15-17	sonst	ADV	sonst	_	O	O	
+15-18	wüßte	VVFIN	wissen	_	O	O	
+15-19	ich	PPER	ich	_	O	O	
+15-20	keinen	PIAT	keine	_	O	O	
+15-21	Platz	NN	Platz	_	O	O	
+15-22	für	APPR	für	_	O	O	
+15-23	Sie	PPER	Sie	_	O	O	
+15-24	.	$.	.	_	O	O	
+
+#id=16
+#text=- An Köhne schrieb ich im October 1849 ausführlich, ohne Antwort zu erhalten.
+16-1	-	$(	-	_	O	O	
+16-2	An	APPR	an	_	O	O	
+16-3	Köhne	NE	Köhne	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-4	schrieb	VVFIN	schreiben	_	O	O	
+16-5	ich	PPER	ich	_	O	O	
+16-6	im	APPRART	in	_	O	O	
+16-7	October	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+16-8	1849	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+16-9	ausführlich	ADJD	ausführlich	_	O	O	
+16-10	,	$,	,	_	O	O	
+16-11	ohne	KOUI	ohne	_	O	O	
+16-12	Antwort	NN	Antwort	_	O	O	
+16-13	zu	PTKZU	zu	_	O	O	
+16-14	erhalten	VVINF	erhalten	_	O	O	
+16-15	.	$.	.	_	O	O	
+
+#id=17
+#text=- Sodann schickte ich ihm mit der letzten Russischen Spedition, d.h. dh.
+17-1	-	$(	-	_	O	O	
+17-2	Sodann	ADV	sodann	_	O	O	
+17-3	schickte	VVFIN	schicken	_	O	O	
+17-4	ich	PPER	ich	_	O	O	
+17-5	ihm	PPER	er	_	O	O	
+17-6	mit	APPR	mit	_	O	O	
+17-7	der	ART	die	_	O	O	
+17-8	letzten	ADJA	letzt	_	O	O	
+17-9	Russischen	ADJA	russisch	_	O	O	
+17-10	Spedition	NN	Spedition	_	O	O	
+17-11	,	$,	,	_	O	O	
+17-12	d.h.	KON	d.h.	_	O	O	
+17-13	dh.	NE	<unknown>	_	O	O	
+
+#id=18
+#text=die Gesandtschaft u. adressirt an ds.
+18-1	die	ART	die	_	O	O	
+18-2	Gesandtschaft	NN	Gesandtschaft	_	O	O	
+18-3	u.	APPR	um	_	O	O	
+18-4	adressirt	NN	<unknown>	_	O	O	
+18-5	an	APPR	an	_	O	O	
+18-6	ds.	ADJA	<unknown>	_	O	O	
+
+#id=19
+#text=kinisterium des Cultus, die Publicationen für 1849 als einen neuen Band beginnend, mit dem der Tausch an-
+19-1	kinisterium	NN	<unknown>	_	O	O	
+19-2	des	ART	die	_	O	O	
+19-3	Cultus	NN	<unknown>	_	O	O	
+19-4	,	$,	,	_	O	O	
+19-5	die	ART	die	_	O	O	
+19-6	Publicationen	NN	<unknown>	_	O	O	
+19-7	für	APPR	für	_	O	O	
+19-8	1849	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+19-9	als	KOKOM	als	_	O	O	
+19-10	einen	ART	eine	_	O	O	
+19-11	neuen	ADJA	neu	_	O	O	
+19-12	Band	NN	Band	_	O	O	
+19-13	beginnend	ADJD	beginnend	_	O	O	
+19-14	,	$,	,	_	O	O	
+19-15	mit	APPR	mit	_	O	O	
+19-16	dem	PRELS	die	_	O	O	
+19-17	der	ART	die	_	O	O	
+19-18	Tausch	NN	Tausch	_	O	O	
+19-19	an-	TRUNC	an-	_	O	O	
+

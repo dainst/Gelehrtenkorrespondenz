@@ -1,0 +1,235 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=3 Helbig an Henzen Rom, 24. Juli 1872 mitzutheilen, ob man billiger Weise von Dressel solche Mühwaltungen verlangen kann.
+1-1	3	CARD	3	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	mitzutheilen	VVINF	<unknown>	_	O	O	
+1-12	,	$,	,	_	O	O	
+1-13	ob	KOUS	ob	_	O	O	
+1-14	man	PIS	man	_	O	O	
+1-15	billiger	ADJA	billig	_	O	O	
+1-16	Weise	NN	Weise	_	O	O	
+1-17	von	APPR	von	_	O	O	
+1-18	Dressel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-19	solche	PIAT	solche	_	O	O	
+1-20	Mühwaltungen	NN	<unknown>	_	O	O	
+1-21	verlangen	VVINF	verlangen	_	O	O	
+1-22	kann	VMFIN	können	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Dieser Tage erhielt ich einen Brief von Dielitz, in welchem ein gewisser wehmüthiger Ton durchklang wegen 30,000 Lire, die für 4 Cisten und 2 Spiegel gezahlt worden seien.
+2-1	Dieser	PDAT	dies	_	O	O	
+2-2	Tage	NN	Tag	_	O	O	
+2-3	erhielt	VVFIN	erhalten	_	O	O	
+2-4	ich	PPER	ich	_	O	O	
+2-5	einen	ART	eine	_	O	O	
+2-6	Brief	NN	Brief	_	O	O	
+2-7	von	APPR	von	_	O	O	
+2-8	Dielitz	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-9	,	$,	,	_	O	O	
+2-10	in	APPR	in	_	O	O	
+2-11	welchem	PRELS	welche	_	O	O	
+2-12	ein	ART	eine	_	O	O	
+2-13	gewisser	ADJA	gewiss	_	O	O	
+2-14	wehmüthiger	ADJA	<unknown>	_	O	O	
+2-15	Ton	NN	Ton	_	O	O	
+2-16	durchklang	VVFIN	<unknown>	_	O	O	
+2-17	wegen	APPR	wegen	_	O	O	
+2-18	30,000	CARD	@card@	_	O	O	
+2-19	Lire	NN	Lira	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	die	PRELS	die	_	O	O	
+2-22	für	APPR	für	_	O	O	
+2-23	4	CARD	4	_	O	O	
+2-24	Cisten	NN	<unknown>	_	O	O	
+2-25	und	KON	und	_	O	O	
+2-26	2	CARD	2	_	O	O	
+2-27	Spiegel	NN	Spiegel	_	O	O	
+2-28	gezahlt	VVPP	zahlen	_	O	O	
+2-29	worden	VAPP	werden	_	O	O	
+2-30	seien	VAFIN	sein	_	O	O	
+2-31	.	$.	.	_	O	O	
+
+#id=3
+#text=Haben Sie doch ja die Güte, wenn Sie an Mommsen schreiben, ihm meine Bitte in das Gedächtnis zurückzurufen.
+3-1	Haben	VAFIN	haben	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	doch	ADV	doch	_	O	O	
+3-4	ja	ADV	ja	_	O	O	
+3-5	die	ART	die	_	O	O	
+3-6	Güte	NN	Güte	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	wenn	KOUS	wenn	_	O	O	
+3-9	Sie	PPER	Sie	_	O	O	
+3-10	an	APPR	an	_	O	O	
+3-11	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-12	schreiben	VVFIN	schreiben	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	ihm	PPER	er	_	O	O	
+3-15	meine	VVFIN	meinen	_	O	O	
+3-16	Bitte	ADV	Bitte	_	O	O	
+3-17	in	APPR	in	_	O	O	
+3-18	das	ART	die	_	O	O	
+3-19	Gedächtnis	NN	Gedächtnis	_	O	O	
+3-20	zurückzurufen	VVIZU	zurückrufen	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Wenn er diese Aquisition billigt, dann wird bei der Angst, die man vor Mommsen hat, Niemand wagen, etwas dagegen zu sagen, und mir, wie indirect dem Institut viele Verantwortlichkeiten erspart werden.
+4-1	Wenn	KOUS	wenn	_	O	O	
+4-2	er	PPER	er	_	O	O	
+4-3	diese	PDAT	dies	_	O	O	
+4-4	Aquisition	NN	<unknown>	_	O	O	
+4-5	billigt	VVFIN	billigen	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	dann	ADV	dann	_	O	O	
+4-8	wird	VAFIN	werden	_	O	O	
+4-9	bei	APPR	bei	_	O	O	
+4-10	der	ART	die	_	O	O	
+4-11	Angst	NN	Angst	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	die	PRELS	die	_	O	O	
+4-14	man	PIS	man	_	O	O	
+4-15	vor	APPR	vor	_	O	O	
+4-16	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-17	hat	VAFIN	haben	_	O	O	
+4-18	,	$,	,	_	O	O	
+4-19	Niemand	PIS	niemand	_	O	O	
+4-20	wagen	VVFIN	wagen	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	etwas	ADV	etwas	_	O	O	
+4-23	dagegen	PAV	dagegen	_	O	O	
+4-24	zu	PTKZU	zu	_	O	O	
+4-25	sagen	VVINF	sagen	_	O	O	
+4-26	,	$,	,	_	O	O	
+4-27	und	KON	und	_	O	O	
+4-28	mir	PRF	ich	_	O	O	
+4-29	,	$,	,	_	O	O	
+4-30	wie	KOUS	wie	_	O	O	
+4-31	indirect	NE	<unknown>	_	O	O	
+4-32	dem	ART	die	_	O	O	
+4-33	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-34	viele	PIAT	viele	_	O	O	
+4-35	Verantwortlichkeiten	NN	Verantwortlichkeit	_	O	O	
+4-36	erspart	VVPP	ersparen	_	O	O	
+4-37	werden	VAFIN	werden	_	O	O	
+4-38	.	$.	.	_	O	O	
+
+#id=5
+#text=Sie können ganz der Wahrheit gemäß beifügen, daß ihm durch diese Erwerbung die Pränestina viel leichter zugänglich sein werden, als bisher.
+5-1	Sie	PPER	Sie	_	O	O	
+5-2	können	VMFIN	können	_	O	O	
+5-3	ganz	ADV	ganz	_	O	O	
+5-4	der	ART	die	_	O	O	
+5-5	Wahrheit	NN	Wahrheit	_	O	O	
+5-6	gemäß	APPO	gemäß	_	O	O	
+5-7	beifügen	VVINF	beifügen	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	daß	KOUS	dass	_	O	O	
+5-10	ihm	PPER	er	_	O	O	
+5-11	durch	APPR	durch	_	O	O	
+5-12	diese	PDAT	dies	_	O	O	
+5-13	Erwerbung	NN	Erwerbung	_	O	O	
+5-14	die	ART	die	_	O	O	
+5-15	Pränestina	NN	<unknown>	_	O	O	
+5-16	viel	ADV	viel	_	O	O	
+5-17	leichter	ADJD	leicht	_	O	O	
+5-18	zugänglich	ADJD	zugänglich	_	O	O	
+5-19	sein	VAINF	sein	_	O	O	
+5-20	werden	VAFIN	werden	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	als	KOUS	als	_	O	O	
+5-23	bisher	ADV	bisher	_	O	O	
+5-24	.	$.	.	_	O	O	
+
+#id=6
+#text=Vergessen Sie es, bitte, nicht.
+6-1	Vergessen	VVFIN	vergessen	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	es	PPER	es	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	bitte	VVIMP	bitten	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	nicht	PTKNEG	nicht	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=Von dem Briefe von Dielltz braucht er nichts zu erfahren.
+7-1	Von	APPR	von	_	O	O	
+7-2	dem	ART	die	_	O	O	
+7-3	Briefe	NN	Brief	_	O	O	
+7-4	von	APPR	von	_	O	O	
+7-5	Dielltz	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-6	braucht	VVFIN	brauchen	_	O	O	
+7-7	er	PPER	er	_	O	O	
+7-8	nichts	PIS	nichts	_	O	O	
+7-9	zu	PTKZU	zu	_	O	O	
+7-10	erfahren	VVINF	erfahren	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Man muß den Teufel nicht an die Wand malen.
+8-1	Man	PIS	man	_	O	O	
+8-2	muß	VMFIN	müssen	_	O	O	
+8-3	den	ART	die	_	O	O	
+8-4	Teufel	NN	Teufel	_	O	O	
+8-5	nicht	PTKNEG	nicht	_	O	O	
+8-6	an	APPR	an	_	O	O	
+8-7	die	ART	die	_	O	O	
+8-8	Wand	NN	Wand	_	O	O	
+8-9	malen	VVINF	malen	_	O	O	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=Der Druck meiner Pompeiana schreitet viel rascher vor, als es bei der Hitze angenehm ist.
+9-1	Der	ART	die	_	O	O	
+9-2	Druck	NN	Druck	_	O	O	
+9-3	meiner	PPOSAT	mein	_	O	O	
+9-4	Pompeiana	NN	<unknown>	_	O	O	
+9-5	schreitet	VVFIN	schreiten	_	O	O	
+9-6	viel	ADV	viel	_	O	O	
+9-7	rascher	ADJD	rasch	_	O	O	
+9-8	vor	PTKVZ	vor	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	als	KOUS	als	_	O	O	
+9-11	es	PPER	es	_	O	O	
+9-12	bei	APPR	bei	_	O	O	
+9-13	der	ART	die	_	O	O	
+9-14	Hitze	NN	Hitze	_	O	O	
+9-15	angenehm	ADJD	angenehm	_	O	O	
+9-16	ist	VAFIN	sein	_	O	O	
+9-17	.	$.	.	_	O	O	
+
+#id=10
+#text=Hoffentlich geht es Ihnen gut.
+10-1	Hoffentlich	ADV	hoffentlich	_	O	O	
+10-2	geht	VVFIN	gehen	_	O	O	
+10-3	es	PPER	es	_	O	O	
+10-4	Ihnen	PPER	Sie	_	O	O	
+10-5	gut	ADJD	gut	_	O	O	
+10-6	.	$.	.	_	O	O	
+
+#id=11
+#text=Herzliche Grüße an Fräulein Kopf !
+11-1	Herzliche	ADJA	herzlich	_	O	O	
+11-2	Grüße	NN	Gruß	_	O	O	
+11-3	an	APPR	an	_	O	O	
+11-4	Fräulein	NN	Fräulein	_	O	O	
+11-5	Kopf	NN	Kopf	_	O	O	
+11-6	!	$.	!	_	O	O	
+
+#id=12
+#text=Ihr ergebener Helbig
+12-1	Ihr	PPOSAT	ihr	_	O	O	
+12-2	ergebener	ADJA	ergeben	_	O	O	
+12-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

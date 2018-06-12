@@ -1,0 +1,87 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=114 30/IV/55 2 Henzen an Gerhard Frau Braun war 3 Wochen lang sehr schwer krank u. litt viel; jetzt Besserung.
+1-1	114	CARD	@card@	_	O	O	
+1-2	30/IV/55	CARD	<unknown>	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Frau	NN	Frau	_	O	O	
+1-8	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-9	war	VAFIN	sein	_	O	O	
+1-10	3	CARD	3	_	O	O	
+1-11	Wochen	NN	Woche	_	O	O	
+1-12	lang	ADJD	lang	_	O	O	
+1-13	sehr	ADV	sehr	_	O	O	
+1-14	schwer	ADJD	schwer	_	O	O	
+1-15	krank	ADJD	krank	_	O	O	
+1-16	u.	KON	und	_	O	O	
+1-17	litt	VVFIN	leiden	_	O	O	
+1-18	viel	ADV	viel	_	O	O	
+1-19	;	$.	;	_	O	O	
+1-20	jetzt	ADV	jetzt	_	O	O	
+1-21	Besserung	NN	Besserung	_	O	O	
+1-22	.	$.	.	_	O	O	
+
+#id=2
+#text=Er weiß nicht, wo ihm der Kopf steht; wird aber nächstens schreiben.
+2-1	Er	PPER	er	_	O	O	
+2-2	weiß	VVFIN	wissen	_	O	O	
+2-3	nicht	PTKNEG	nicht	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	wo	PWAV	wo	_	O	O	
+2-6	ihm	PPER	er	_	O	O	
+2-7	der	ART	die	_	O	O	
+2-8	Kopf	NN	Kopf	_	O	O	
+2-9	steht	VVFIN	stehen	_	O	O	
+2-10	;	$.	;	_	O	O	
+2-11	wird	VAFIN	werden	_	O	O	
+2-12	aber	ADV	aber	_	O	O	
+2-13	nächstens	ADV	nächstens	_	O	O	
+2-14	schreiben	VVINF	schreiben	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Herzliche Grüße Rom 30/IV 55 Ihr ergebner WHenzen Adr. bis etwa zum 17 n • G. Velentinelli, Prefetto della Marciana, Venezia; u. bis gegen den 25 n • Seidl in Wien, se comanda qualche cosa.
+3-1	Herzliche	ADJA	herzlich	_	O	O	
+3-2	Grüße	NN	Gruß	_	O	O	
+3-3	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-4	30/IV	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-5	55	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-6	Ihr	PPOSAT	ihr	_	O	O	
+3-7	ergebner	ADJA	<unknown>	_	O	O	
+3-8	WHenzen	NN	<unknown>	_	O	O	
+3-9	Adr.	NE	<unknown>	_	O	O	
+3-10	bis	APPR	bis	_	O	O	
+3-11	etwa	ADV	etwa	_	O	O	
+3-12	zum	APPRART	zu	_	O	O	
+3-13	17	CARD	17	_	O	O	
+3-14	n	ADJA	<unknown>	_	O	O	
+3-15	•	NN	<unknown>	_	O	O	
+3-16	G.	NE	G.	_	O	O	
+3-17	Velentinelli	NE	<unknown>	_	O	O	
+3-18	,	$,	,	_	O	O	
+3-19	Prefetto	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-20	della	NE	Della	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+3-21	Marciana	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+3-22	,	$,	,	_	O	O	
+3-23	Venezia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-24	;	$.	;	_	O	O	
+3-25	u.	KON	und	_	O	O	
+3-26	bis	KOUS	bis	_	O	O	
+3-27	gegen	APPR	gegen	_	O	O	
+3-28	den	ART	die	_	O	O	
+3-29	25	CARD	25	_	O	O	
+3-30	n	ADJA	<unknown>	_	O	O	
+3-31	•	ADJA	<unknown>	_	O	O	
+3-32	Seidl	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-33	in	APPR	in	_	O	O	
+3-34	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-35	,	$,	,	_	O	O	
+3-36	se	NE	se	_	O	O	
+3-37	comanda	NE	<unknown>	_	O	O	
+3-38	qualche	VVFIN	<unknown>	_	O	O	
+3-39	cosa	NE	<unknown>	_	O	O	
+3-40	.	$.	.	_	O	O	
+

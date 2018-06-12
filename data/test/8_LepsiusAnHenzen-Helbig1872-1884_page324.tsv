@@ -1,0 +1,224 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=361 Verehrter Freund Lepsius an Renzen Berlin, 7. Juni 1877 11/6 77 r. Berlin, den 7. Juni 1877 Machen Sie sich über die Urlaubsangelegenheit keine Skrupel.
+1-1	361	CARD	@card@	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	11/6	CARD	11/6	_	O	O	
+1-14	77	CARD	@card@	_	O	O	
+1-15	r.	ADJA	<unknown>	_	O	O	
+1-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-17	,	$,	,	_	O	O	
+1-18	den	ART	die	_	O	O	
+1-19	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	Machen	NN	Machen	_	O	O	
+1-24	Sie	PPER	Sie	_	O	O	
+1-25	sich	PRF	sich	_	O	O	
+1-26	über	APPR	über	_	O	O	
+1-27	die	ART	die	_	O	O	
+1-28	Urlaubsangelegenheit	NN	<unknown>	_	O	O	
+1-29	keine	PIAT	keine	_	O	O	
+1-30	Skrupel	NN	Skrupel	_	O	O	
+1-31	.	$.	.	_	O	O	
+
+#id=2
+#text=Faktisch muß es ja beim Alten bleiben, und wir würden eventuell die nöthigen Anträge machen.
+2-1	Faktisch	ADJD	faktisch	_	O	O	
+2-2	muß	VMFIN	müssen	_	O	O	
+2-3	es	PPER	es	_	O	O	
+2-4	ja	ADV	ja	_	O	O	
+2-5	beim	APPRART	bei	_	O	O	
+2-6	Alten	NN	Alte	_	O	O	
+2-7	bleiben	VVINF	bleiben	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	und	KON	und	_	O	O	
+2-10	wir	PPER	wir	_	O	O	
+2-11	würden	VAFIN	werden	_	O	O	
+2-12	eventuell	ADJD	eventuell	_	O	O	
+2-13	die	ART	die	_	O	O	
+2-14	nöthigen	ADJA	<unknown>	_	O	O	
+2-15	Anträge	NN	Antrag	_	O	O	
+2-16	machen	VVINF	machen	_	O	O	
+2-17	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Berufung auf die Deutschen Frofessoren würde allerdings nicht passen, weil dies Ferien sind, wo die Universität selber ~&ssirt.
+3-1	Die	ART	die	_	O	O	
+3-2	Berufung	NN	Berufung	_	O	O	
+3-3	auf	APPR	auf	_	O	O	
+3-4	die	ART	die	_	O	O	
+3-5	Deutschen	ADJA	deutsch	_	O	O	
+3-6	Frofessoren	NN	<unknown>	_	O	O	
+3-7	würde	VAFIN	werden	_	O	O	
+3-8	allerdings	ADV	allerdings	_	O	O	
+3-9	nicht	PTKNEG	nicht	_	O	O	
+3-10	passen	VVINF	passen	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	weil	KOUS	weil	_	O	O	
+3-13	dies	PDS	dies	_	O	O	
+3-14	Ferien	NN	Ferien	_	O	O	
+3-15	sind	VAFIN	sein	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	wo	PWAV	wo	_	O	O	
+3-18	die	ART	die	_	O	O	
+3-19	Universität	NN	Universität	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-20	selber	ADV	selber	_	O	O	
+3-21	~&ssirt	NN	<unknown>	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=Dagegen würde man sich auf die auswärtigen Konsule und Diplomaten berufen können, deren Verhältnisse ähnlich sind.
+4-1	Dagegen	PAV	dagegen	_	O	O	
+4-2	würde	VAFIN	werden	_	O	O	
+4-3	man	PIS	man	_	O	O	
+4-4	sich	PRF	sich	_	O	O	
+4-5	auf	APPR	auf	_	O	O	
+4-6	die	ART	die	_	O	O	
+4-7	auswärtigen	ADJA	auswärtig	_	O	O	
+4-8	Konsule	NN	<unknown>	_	O	O	
+4-9	und	KON	und	_	O	O	
+4-10	Diplomaten	NN	Diplomat	_	O	O	
+4-11	berufen	VVINF	berufen	_	O	O	
+4-12	können	VMINF	können	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	deren	PRELAT	die	_	O	O	
+4-15	Verhältnisse	NN	Verhältnis	_	O	O	
+4-16	ähnlich	ADJD	ähnlich	_	O	O	
+4-17	sind	VAFIN	sein	_	O	O	
+4-18	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich habe nun aber gestern mit dem Refer.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	nun	ADV	nun	_	O	O	
+5-4	aber	ADV	aber	_	O	O	
+5-5	gestern	ADV	gestern	_	O	O	
+5-6	mit	APPR	mit	_	O	O	
+5-7	dem	ART	die	_	O	O	
+5-8	Refer.	NN	<unknown>	_	O	O	
+
+#id=6
+#text=im Auswärtigen Amt gesprochen, und der sagt mir - was ich freilich nur vetraulich mittheile es werde besser sein, nicht einzukommen, sondern die Sache so zu behandeln wie bisher, als ob sich das Recht der Central Direktion von selbst verstünde.
+6-1	im	APPRART	in	_	O	O	
+6-2	Auswärtigen	ADJA	auswärtig	_	O	O	
+6-3	Amt	NN	Amt	_	O	O	
+6-4	gesprochen	VVPP	sprechen	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	und	KON	und	_	O	O	
+6-7	der	PDS	die	_	O	O	
+6-8	sagt	VVFIN	sagen	_	O	O	
+6-9	mir	PPER	ich	_	O	O	
+6-10	-	$(	-	_	O	O	
+6-11	was	PWS	was	_	O	O	
+6-12	ich	PPER	ich	_	O	O	
+6-13	freilich	ADV	freilich	_	O	O	
+6-14	nur	ADV	nur	_	O	O	
+6-15	vetraulich	ADJD	<unknown>	_	O	O	
+6-16	mittheile	VVFIN	<unknown>	_	O	O	
+6-17	es	PPER	es	_	O	O	
+6-18	werde	VAFIN	werden	_	O	O	
+6-19	besser	ADJD	gut	_	O	O	
+6-20	sein	VAINF	sein	_	O	O	
+6-21	,	$,	,	_	O	O	
+6-22	nicht	PTKNEG	nicht	_	O	O	
+6-23	einzukommen	VVIZU	<unknown>	_	O	O	
+6-24	,	$,	,	_	O	O	
+6-25	sondern	KON	sondern	_	O	O	
+6-26	die	ART	die	_	O	O	
+6-27	Sache	NN	Sache	_	O	O	
+6-28	so	ADV	so	_	O	O	
+6-29	zu	PTKZU	zu	_	O	O	
+6-30	behandeln	VVINF	behandeln	_	O	O	
+6-31	wie	KOKOM	wie	_	O	O	
+6-32	bisher	ADV	bisher	_	O	O	
+6-33	,	$,	,	_	O	O	
+6-34	als	KOKOM	als	_	O	O	
+6-35	ob	KOUS	ob	_	O	O	
+6-36	sich	PRF	sich	_	O	O	
+6-37	das	ART	die	_	O	O	
+6-38	Recht	NN	Recht	_	O	O	
+6-39	der	ART	die	_	O	O	
+6-40	Central	NN	<unknown>	_	O	O	
+6-41	Direktion	NN	Direktion	_	O	O	
+6-42	von	APPR	von	_	O	O	
+6-43	selbst	ADV	selbst	_	O	O	
+6-44	verstünde	VVFIN	verstehen	_	O	O	
+6-45	.	$.	.	_	O	O	
+
+#id=7
+#text=Einspruch könnte nur das Auswärtige Amt erheben, wo es sicherlich nie geschähe.
+7-1	Einspruch	NN	Einspruch	_	O	O	
+7-2	könnte	VMFIN	können	_	O	O	
+7-3	nur	ADV	nur	_	O	O	
+7-4	das	ART	die	_	O	O	
+7-5	Auswärtige	ADJA	auswärtig	_	O	O	
+7-6	Amt	NN	Amt	_	O	O	
+7-7	erheben	VVINF	erheben	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	wo	PWAV	wo	_	O	O	
+7-10	es	PPER	es	_	O	O	
+7-11	sicherlich	ADV	sicherlich	_	O	O	
+7-12	nie	ADV	nie	_	O	O	
+7-13	geschähe	VVFIN	geschehen	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Wenn wir einkämen, so würden wir zwar ohne Zweifel die Verlängerung erreichen; aber alle Diplomaten seien gehalten jeden Urlaub von neuen beim Ministerium zu beantragen; das würde man sich dann wohl auch uns gegenüber vorbehalten, und das wäre in der
+8-1	Wenn	KOUS	wenn	_	O	O	
+8-2	wir	PPER	wir	_	O	O	
+8-3	einkämen	VVFIN	<unknown>	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	so	ADV	so	_	O	O	
+8-6	würden	VAFIN	werden	_	O	O	
+8-7	wir	PPER	wir	_	O	O	
+8-8	zwar	ADV	zwar	_	O	O	
+8-9	ohne	APPR	ohne	_	O	O	
+8-10	Zweifel	NN	Zweifel	_	O	O	
+8-11	die	ART	die	_	O	O	
+8-12	Verlängerung	NN	Verlängerung	_	O	O	
+8-13	erreichen	VVINF	erreichen	_	O	O	
+8-14	;	$.	;	_	O	O	
+8-15	aber	ADV	aber	_	O	O	
+8-16	alle	PIAT	alle	_	O	O	
+8-17	Diplomaten	NN	Diplomat	_	O	O	
+8-18	seien	VAFIN	sein	_	O	O	
+8-19	gehalten	ADJD	gehalten	_	O	O	
+8-20	jeden	PIAT	jede	_	O	O	
+8-21	Urlaub	NN	Urlaub	_	O	O	
+8-22	von	APPR	von	_	O	O	
+8-23	neuen	ADJA	neu	_	O	O	
+8-24	beim	APPRART	bei	_	O	O	
+8-25	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-26	zu	PTKZU	zu	_	O	O	
+8-27	beantragen	VVINF	beantragen	_	O	O	
+8-28	;	$.	;	_	O	O	
+8-29	das	PDS	die	_	O	O	
+8-30	würde	VAFIN	werden	_	O	O	
+8-31	man	PIS	man	_	O	O	
+8-32	sich	PRF	sich	_	O	O	
+8-33	dann	ADV	dann	_	O	O	
+8-34	wohl	ADV	wohl	_	O	O	
+8-35	auch	ADV	auch	_	O	O	
+8-36	uns	PPER	wir	_	O	O	
+8-37	gegenüber	PTKVZ	gegenüber	_	O	O	
+8-38	vorbehalten	VVPP	vorbehalten	_	O	O	
+8-39	,	$,	,	_	O	O	
+8-40	und	KON	und	_	O	O	
+8-41	das	PDS	die	_	O	O	
+8-42	wäre	VAFIN	sein	_	O	O	
+8-43	in	APPR	in	_	O	O	
+8-44	der	ART	die	_	O	O	
+

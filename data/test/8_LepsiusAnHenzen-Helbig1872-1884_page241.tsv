@@ -1,0 +1,229 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Lepsius an Henzen Berlin, 19. Oktober 1875 3 ~R1 besonders unangenehm ist, wenn bei Herrn v. K~ eine Verstimmung eintreten sollte.
+1-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	3	CARD	3	_	O	O	
+1-11	~R1	NN	<unknown>	_	O	O	
+1-12	besonders	ADV	besonders	_	O	O	
+1-13	unangenehm	ADJD	unangenehm	_	O	O	
+1-14	ist	VAFIN	sein	_	O	O	
+1-15	,	$,	,	_	O	O	
+1-16	wenn	KOUS	wenn	_	O	O	
+1-17	bei	APPR	bei	_	O	O	
+1-18	Herrn	NN	Herr	_	O	O	
+1-19	v.	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-20	K~	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-21	eine	ART	eine	_	O	O	
+1-22	Verstimmung	NN	Verstimmung	_	O	O	
+1-23	eintreten	VVINF	eintreten	_	O	O	
+1-24	sollte	VMFIN	sollen	_	O	O	
+1-25	.	$.	.	_	O	O	
+
+#id=2
+#text=Wären wir vorher unter der Hand befragt worden, so würden wir unsere Gründe dagegen haben geltend machen können, die sich wohl zur Erwägung a-t<J1.dR geeignet haben würden, wenn sie Herrn v. K. unter der Hand mitgetheilt worden wären.
+2-1	Wären	VAFIN	sein	_	O	O	
+2-2	wir	PPER	wir	_	O	O	
+2-3	vorher	ADV	vorher	_	O	O	
+2-4	unter	APPR	unter	_	O	O	
+2-5	der	ART	die	_	O	O	
+2-6	Hand	NN	Hand	_	O	O	
+2-7	befragt	VVPP	befragen	_	O	O	
+2-8	worden	VAPP	werden	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	so	ADV	so	_	O	O	
+2-11	würden	VAFIN	werden	_	O	O	
+2-12	wir	PPER	wir	_	O	O	
+2-13	unsere	PPOSAT	unser	_	O	O	
+2-14	Gründe	NN	Grund	_	O	O	
+2-15	dagegen	PAV	dagegen	_	O	O	
+2-16	haben	VAFIN	haben	_	O	O	
+2-17	geltend	ADJD	geltend	_	O	O	
+2-18	machen	VVINF	machen	_	O	O	
+2-19	können	VMINF	können	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	die	PRELS	die	_	O	O	
+2-22	sich	PRF	sich	_	O	O	
+2-23	wohl	ADV	wohl	_	O	O	
+2-24	zur	APPRART	zu	_	O	O	
+2-25	Erwägung	NN	Erwägung	_	O	O	
+2-26	a-t<J1.dR	NE	<unknown>	_	O	O	
+2-27	geeignet	VVPP	eignen	_	O	O	
+2-28	haben	VAINF	haben	_	O	O	
+2-29	würden	VAFIN	werden	_	O	O	
+2-30	,	$,	,	_	O	O	
+2-31	wenn	KOUS	wenn	_	O	O	
+2-32	sie	PPER	sie	_	O	O	
+2-33	Herrn	NN	Herr	_	O	O	
+2-34	v.	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-35	K.	NE	K.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-36	unter	APPR	unter	_	O	O	
+2-37	der	ART	die	_	O	O	
+2-38	Hand	NN	Hand	_	O	O	
+2-39	mitgetheilt	VVPP	<unknown>	_	O	O	
+2-40	worden	VAPP	werden	_	O	O	
+2-41	wären	VAFIN	sein	_	O	O	
+2-42	.	$.	.	_	O	O	
+
+#id=3
+#text=Wir haben nun mit nicht geringer Mühe Köhler von Straßburg losgeeist.
+3-1	Wir	PPER	wir	_	O	O	
+3-2	haben	VAFIN	haben	_	O	O	
+3-3	nun	ADV	nun	_	O	O	
+3-4	mit	APPR	mit	_	O	O	
+3-5	nicht	PTKNEG	nicht	_	O	O	
+3-6	geringer	ADJA	gering	_	O	O	
+3-7	Mühe	NN	Mühe	_	O	O	
+3-8	Köhler	NE	Köhler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-9	von	APPR	von	_	O	O	
+3-10	Straßburg	NE	Straßburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-11	losgeeist	VVPP	loseisen	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Er wird am 24. abreisen direkt nach Athen, wo er am 2. November einzutreffen den'k:i?
+4-1	Er	PPER	er	_	O	O	
+4-2	wird	VAFIN	werden	_	O	O	
+4-3	am	APPRART	an	_	O	O	
+4-4	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-6	abreisen	VVFIN	abreisen	_	O	O	
+4-7	direkt	ADJD	direkt	_	O	O	
+4-8	nach	APPR	nach	_	O	O	
+4-9	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-10	,	$,	,	_	O	O	
+4-11	wo	PWAV	wo	_	O	O	
+4-12	er	PPER	er	_	O	O	
+4-13	am	APPRART	an	_	O	O	
+4-14	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-15	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-16	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-17	einzutreffen	VVIZU	eintreffen	_	O	O	
+4-18	den'k:i	NE	<unknown>	_	O	O	
+4-19	?	$.	?	_	O	O	
+
+#id=5
+#text=Den Bericht von Julius habe ich gestern mit getheilt; die Empfehlung für Zippener werden Sie in einem früheren Briefe erhalten haben; auch die Zustimmung zur Betheiligung an der Accademia dei Lincei.
+5-1	Den	ART	die	_	O	O	
+5-2	Bericht	NN	Bericht	_	O	O	
+5-3	von	APPR	von	_	O	O	
+5-4	Julius	NE	Julius	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	habe	VAFIN	haben	_	O	O	
+5-6	ich	PPER	ich	_	O	O	
+5-7	gestern	ADV	gestern	_	O	O	
+5-8	mit	APPR	mit	_	O	O	
+5-9	getheilt	ADJD	<unknown>	_	O	O	
+5-10	;	$.	;	_	O	O	
+5-11	die	ART	die	_	O	O	
+5-12	Empfehlung	NN	Empfehlung	_	O	O	
+5-13	für	APPR	für	_	O	O	
+5-14	Zippener	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-15	werden	VAFIN	werden	_	O	O	
+5-16	Sie	PPER	Sie	_	O	O	
+5-17	in	APPR	in	_	O	O	
+5-18	einem	ART	eine	_	O	O	
+5-19	früheren	ADJA	früh	_	O	O	
+5-20	Briefe	NN	Brief	_	O	O	
+5-21	erhalten	VVPP	erhalten	_	O	O	
+5-22	haben	VAINF	haben	_	O	O	
+5-23	;	$.	;	_	O	O	
+5-24	auch	ADV	auch	_	O	O	
+5-25	die	ART	die	_	O	O	
+5-26	Zustimmung	NN	Zustimmung	_	O	O	
+5-27	zur	APPRART	zu	_	O	O	
+5-28	Betheiligung	NN	<unknown>	_	O	O	
+5-29	an	APPR	an	_	O	O	
+5-30	der	ART	die	_	O	O	
+5-31	Accademia	NN	<unknown>	_	O	O	
+5-32	dei	ADJA	<unknown>	_	O	O	
+5-33	Lincei	NN	<unknown>	_	O	O	
+5-34	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich hoffe, daß Ihnen die Ferien eine gründliche Erholung eingebracht haben werden.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	hoffe	VVFIN	hoffen	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	daß	KOUS	dass	_	O	O	
+6-5	Ihnen	PPER	Sie	_	O	O	
+6-6	die	ART	die	_	O	O	
+6-7	Ferien	NN	Ferien	_	O	O	
+6-8	eine	ART	eine	_	O	O	
+6-9	gründliche	ADJA	gründlich	_	O	O	
+6-10	Erholung	NN	Erholung	_	O	O	
+6-11	eingebracht	VVPP	einbringen	_	O	O	
+6-12	haben	VAINF	haben	_	O	O	
+6-13	werden	VAFIN	werden	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Erst seit wenigen Tagen bin auch ich hierher zurückgekehrt aus dem schönen Marienthal bei Eisenach.
+7-1	Erst	ADV	erst	_	O	O	
+7-2	seit	APPR	seit	_	O	O	
+7-3	wenigen	PIAT	wenige	_	O	O	
+7-4	Tagen	NN	Tag	_	O	O	
+7-5	bin	VAFIN	sein	_	O	O	
+7-6	auch	ADV	auch	_	O	O	
+7-7	ich	PPER	ich	_	O	O	
+7-8	hierher	PAV	hierher	_	O	O	
+7-9	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+7-10	aus	APPR	aus	_	O	O	
+7-11	dem	ART	die	_	O	O	
+7-12	schönen	ADJA	schön	_	O	O	
+7-13	Marienthal	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+7-14	bei	APPR	bei	_	O	O	
+7-15	Eisenach	NE	Eisenach	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-16	.	$.	.	_	O	O	
+
+#id=8
+#text=Mit herzlichem Gruß Quer quf der 4. Seite Ihr ergebenster R Lepsius Ich bemerke noch, daß eine officielle Anzeige an Helbig vom Ausgang seines Antrags durch Herrn v. K nicht angezeigt war, auch jetzt nicht erfolgen wird, da
+8-1	Mit	APPR	mit	_	O	O	
+8-2	herzlichem	ADJA	herzlich	_	O	O	
+8-3	Gruß	NN	Gruß	_	O	O	
+8-4	Quer	ADV	quer	_	O	O	
+8-5	quf	VVFIN	<unknown>	_	O	O	
+8-6	der	ART	die	_	O	O	
+8-7	4	CARD	4	_	O	O	
+8-8	.	$.	.	_	O	O	
+8-9	Seite	NN	Seite	_	O	O	
+8-10	Ihr	PPOSAT	ihr	_	O	O	
+8-11	ergebenster	ADJA	<unknown>	_	O	O	
+8-12	R	NN	R	_	O	O	
+8-13	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-14	Ich	PPER	ich	_	O	O	
+8-15	bemerke	VVFIN	bemerken	_	O	O	
+8-16	noch	ADV	noch	_	O	O	
+8-17	,	$,	,	_	O	O	
+8-18	daß	KOUS	dass	_	O	O	
+8-19	eine	ART	eine	_	O	O	
+8-20	officielle	ADJA	<unknown>	_	O	O	
+8-21	Anzeige	NN	Anzeige	_	O	O	
+8-22	an	APPR	an	_	O	O	
+8-23	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-24	vom	APPRART	von	_	O	O	
+8-25	Ausgang	NN	Ausgang	_	O	O	
+8-26	seines	PPOSAT	sein	_	O	O	
+8-27	Antrags	NN	Antrag	_	O	O	
+8-28	durch	APPR	durch	_	O	O	
+8-29	Herrn	NN	Herr	_	O	O	
+8-30	v.	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-31	K	NN	K	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-32	nicht	PTKNEG	nicht	_	O	O	
+8-33	angezeigt	VVPP	anzeigen	_	O	O	
+8-34	war	VAFIN	sein	_	O	O	
+8-35	,	$,	,	_	O	O	
+8-36	auch	ADV	auch	_	O	O	
+8-37	jetzt	ADV	jetzt	_	O	O	
+8-38	nicht	PTKNEG	nicht	_	O	O	
+8-39	erfolgen	VVINF	erfolgen	_	O	O	
+8-40	wird	VAFIN	werden	_	O	O	
+8-41	,	$,	,	_	O	O	
+8-42	da	KOUS	da	_	O	O	
+

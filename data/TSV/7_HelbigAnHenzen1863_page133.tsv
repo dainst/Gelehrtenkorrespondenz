@@ -1,0 +1,147 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=290 3 Helbig an Henzen Rom, 13. Juli 1870 in der That in einer sehr unangenehmen Lage, der ich möglichst bald ein Ende machen muß.
+1-1	290	CARD	@card@	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	in	APPR	in	_	O	O	
+1-13	der	ART	die	_	O	O	
+1-14	That	NE	<unknown>	_	O	O	
+1-15	in	APPR	in	_	O	O	
+1-16	einer	ART	eine	_	O	O	
+1-17	sehr	ADV	sehr	_	O	O	
+1-18	unangenehmen	ADJA	unangenehm	_	O	O	
+1-19	Lage	NN	Lage	_	O	O	
+1-20	,	$,	,	_	O	O	
+1-21	der	PRELS	die	_	O	O	
+1-22	ich	PPER	ich	_	O	O	
+1-23	möglichst	ADV	möglichst	_	O	O	
+1-24	bald	ADV	bald	_	O	O	
+1-25	ein	ART	eine	_	O	O	
+1-26	Ende	NN	Ende	_	O	O	
+1-27	machen	VVINF	machen	_	O	O	
+1-28	muß	VMFIN	müssen	_	O	O	
+1-29	.	$.	.	_	O	O	
+
+#id=2
+#text=Von Lepsius, der sonst im Schreiben so präcis ist, habe ich in der ganzen Zeit seit meiner Abreise von Rom kein Wort gehört.
+2-1	Von	APPR	von	_	O	O	
+2-2	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-3	,	$,	,	_	O	O	
+2-4	der	PRELS	die	_	O	O	
+2-5	sonst	ADV	sonst	_	O	O	
+2-6	im	APPRART	in	_	O	O	
+2-7	Schreiben	NN	Schreiben	_	O	O	
+2-8	so	ADV	so	_	O	O	
+2-9	präcis	ADJD	<unknown>	_	O	O	
+2-10	ist	VAFIN	sein	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	habe	VAFIN	haben	_	O	O	
+2-13	ich	PPER	ich	_	O	O	
+2-14	in	APPR	in	_	O	O	
+2-15	der	ART	die	_	O	O	
+2-16	ganzen	ADJA	ganz	_	O	O	
+2-17	Zeit	NN	Zeit	_	O	O	
+2-18	seit	APPR	seit	_	O	O	
+2-19	meiner	PPOSAT	mein	_	O	O	
+2-20	Abreise	NN	Abreise	_	O	O	
+2-21	von	APPR	von	_	O	O	
+2-22	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-23	kein	PIAT	keine	_	O	O	
+2-24	Wort	NN	Wort	_	O	O	
+2-25	gehört	VVFIN	gehören	_	O	O	
+2-26	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich fange an zu glauben, daß Briefe verloren gegangen sind - unangenehm, da ich darin Concilscandal besprochen habe.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	fange	VVFIN	fangen	_	O	O	
+3-3	an	PTKVZ	an	_	O	O	
+3-4	zu	PTKZU	zu	_	O	O	
+3-5	glauben	VVINF	glauben	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	daß	KOUS	dass	_	O	O	
+3-8	Briefe	NN	Brief	_	O	O	
+3-9	verloren	VVPP	verlieren	_	O	O	
+3-10	gegangen	VVPP	gehen	_	O	O	
+3-11	sind	VAFIN	sein	_	O	O	
+3-12	-	$(	-	_	O	O	
+3-13	unangenehm	ADJD	unangenehm	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	da	KOUS	da	_	O	O	
+3-16	ich	PPER	ich	_	O	O	
+3-17	darin	PAV	darin	_	O	O	
+3-18	Concilscandal	NN	<unknown>	_	O	O	
+3-19	besprochen	VVPP	besprechen	_	O	O	
+3-20	habe	VAFIN	haben	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Soviel für heute.
+4-1	Soviel	PIS	soviele	_	O	O	
+4-2	für	APPR	für	_	O	O	
+4-3	heute	ADV	heute	_	O	O	
+4-4	.	$.	.	_	O	O	
+
+#id=5
+#text=Meine Empfehlungen an die Herrn der Centraldirection.
+5-1	Meine	PPOSAT	mein	_	O	O	
+5-2	Empfehlungen	NN	Empfehlung	_	O	O	
+5-3	an	APPR	an	_	O	O	
+5-4	die	ART	die	_	O	O	
+5-5	Herrn	NN	Herr	_	O	O	
+5-6	der	ART	die	_	O	O	
+5-7	Centraldirection	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Mit herzlichen Grüßen Ihr ergebener Helbig Bormann, Schulz, Schöll, Hinck grüßen Sie vielmals.
+6-1	Mit	APPR	mit	_	O	O	
+6-2	herzlichen	ADJA	herzlich	_	O	O	
+6-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+6-4	Ihr	PPOSAT	ihr	_	O	O	
+6-5	ergebener	ADJA	ergeben	_	O	O	
+6-6	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-7	Bormann	NE	Bormann	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+6-8	,	$,	,	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+6-9	Schulz	NE	Schulz	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+6-10	,	$,	,	_	O	O	
+6-11	Schöll	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-12	,	$,	,	_	O	O	
+6-13	Hinck	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-14	grüßen	VVFIN	grüßen	_	O	O	
+6-15	Sie	PPER	Sie	_	O	O	
+6-16	vielmals	ADV	vielmals	_	O	O	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=Ersterer sieht erschrecklich erschöpft und elend aus; er mag machen, daß er bald wieder nach Norden kommt.
+7-1	Ersterer	PIS	erstere	_	O	O	
+7-2	sieht	VVFIN	sehen	_	O	O	
+7-3	erschrecklich	ADJD	<unknown>	_	O	O	
+7-4	erschöpft	ADJD	erschöpft	_	O	O	
+7-5	und	KON	und	_	O	O	
+7-6	elend	ADJD	elend	_	O	O	
+7-7	aus	PTKVZ	aus	_	O	O	
+7-8	;	$.	;	_	O	O	
+7-9	er	PPER	er	_	O	O	
+7-10	mag	VMFIN	mögen	_	O	O	
+7-11	machen	VVINF	machen	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	daß	KOUS	dass	_	O	O	
+7-14	er	PPER	er	_	O	O	
+7-15	bald	ADV	bald	_	O	O	
+7-16	wieder	ADV	wieder	_	O	O	
+7-17	nach	APPR	nach	_	O	O	
+7-18	Norden	NN	Norden	_	O	O	
+7-19	kommt	VVFIN	kommen	_	O	O	
+7-20	.	$.	.	_	O	O	
+

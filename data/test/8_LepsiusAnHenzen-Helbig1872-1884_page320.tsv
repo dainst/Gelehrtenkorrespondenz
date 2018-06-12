@@ -1,0 +1,231 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=331 Prof.
+1-1	331	CARD	@card@	_	O	O	
+1-2	Prof.	NN	Prof.	_	O	O	
+
+#id=2
+#text=Renzen Verehrter Freund Lepsius an Renzen Berlin, 26. Mai 1877 g. 31/5 77 r. Berlin, den 26. Mai 1877 Gegen Ihr Urlaübsgesuch, das ich gestern der Central-Direktion vorgelegt habe, ist natürlich nichts einzuwenden.
+2-1	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	Verehrter	ADJA	verehrt	_	O	O	
+2-3	Freund	NE	Freund	_	O	O	
+2-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-5	an	APPR	an	_	O	O	
+2-6	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-8	,	$,	,	_	O	O	
+2-9	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-13	g.	VVFIN	<unknown>	_	O	O	
+2-14	31/5	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-15	77	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-16	r.	ADJA	<unknown>	_	O	O	
+2-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-18	,	$,	,	_	O	O	
+2-19	den	ART	die	_	O	O	
+2-20	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-21	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-22	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-23	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-24	Gegen	APPR	gegen	_	O	O	
+2-25	Ihr	PPOSAT	ihr	_	O	O	
+2-26	Urlaübsgesuch	NN	<unknown>	_	O	O	
+2-27	,	$,	,	_	O	O	
+2-28	das	PRELS	die	_	O	O	
+2-29	ich	PPER	ich	_	O	O	
+2-30	gestern	ADV	gestern	_	O	O	
+2-31	der	ART	die	_	O	O	
+2-32	Central-Direktion	NN	<unknown>	_	O	O	
+2-33	vorgelegt	VVPP	vorlegen	_	O	O	
+2-34	habe	VAFIN	haben	_	O	O	
+2-35	,	$,	,	_	O	O	
+2-36	ist	VAFIN	sein	_	O	O	
+2-37	natürlich	ADV	natürlich	_	O	O	
+2-38	nichts	PIS	nichts	_	O	O	
+2-39	einzuwenden	VVIZU	einwenden	_	O	O	
+2-40	.	$.	.	_	O	O	
+
+#id=3
+#text=Es war aber wohl der terminus a quo aber nicht ad quem angegeben.
+3-1	Es	PPER	es	_	O	O	
+3-2	war	VAFIN	sein	_	O	O	
+3-3	aber	ADV	aber	_	O	O	
+3-4	wohl	ADV	wohl	_	O	O	
+3-5	der	ART	die	_	O	O	
+3-6	terminus	NN	Terminus	_	O	O	
+3-7	a	FM	a	_	O	O	
+3-8	quo	NN	<unknown>	_	O	O	
+3-9	aber	ADV	aber	_	O	O	
+3-10	nicht	PTKNEG	nicht	_	O	O	
+3-11	ad	FM	ad	_	O	O	
+3-12	quem	ADJD	<unknown>	_	O	O	
+3-13	angegeben	VVPP	angeben	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Wir dürfen wohl 6 Wochen, den längsten der gesetzlich bewilligt werden darf, annehmen; doch bitte ich das noch zu bestätigen.
+4-1	Wir	PPER	wir	_	O	O	
+4-2	dürfen	VMFIN	dürfen	_	O	O	
+4-3	wohl	ADV	wohl	_	O	O	
+4-4	6	CARD	6	_	O	O	
+4-5	Wochen	NN	Woche	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	den	ART	die	_	O	O	
+4-8	längsten	ADJA	lang	_	O	O	
+4-9	der	ART	die	_	O	O	
+4-10	gesetzlich	ADJD	gesetzlich	_	O	O	
+4-11	bewilligt	VVPP	bewilligen	_	O	O	
+4-12	werden	VAINF	werden	_	O	O	
+4-13	darf	VMFIN	dürfen	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	annehmen	VVFIN	annehmen	_	O	O	
+4-16	;	$.	;	_	O	O	
+4-17	doch	ADV	doch	_	O	O	
+4-18	bitte	VVFIN	bitten	_	O	O	
+4-19	ich	PPER	ich	_	O	O	
+4-20	das	ART	die	_	O	O	
+4-21	noch	ADV	noch	_	O	O	
+4-22	zu	PTKZU	zu	_	O	O	
+4-23	bestätigen	VVINF	bestätigen	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=Es ist wohl nicht nothig an Relbig noch besonders die Bewilligung für 6 wöchentlichen Urlaubs vom 3. Juli an zu melden.
+5-1	Es	PPER	es	_	O	O	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	wohl	ADV	wohl	_	O	O	
+5-4	nicht	PTKNEG	nicht	_	O	O	
+5-5	nothig	ADJD	<unknown>	_	O	O	
+5-6	an	APPR	an	_	O	O	
+5-7	Relbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-8	noch	ADV	noch	_	O	O	
+5-9	besonders	ADV	besonders	_	O	O	
+5-10	die	ART	die	_	O	O	
+5-11	Bewilligung	NN	Bewilligung	_	O	O	
+5-12	für	APPR	für	_	O	O	
+5-13	6	CARD	6	_	O	O	
+5-14	wöchentlichen	ADJA	wöchentlich	_	O	O	
+5-15	Urlaubs	NN	Urlaub	_	O	O	
+5-16	vom	APPRART	von	_	O	O	
+5-17	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-19	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-20	an	PTKVZ	an	_	O	O	
+5-21	zu	PTKZU	zu	_	O	O	
+5-22	melden	VVINF	melden	_	O	O	
+5-23	.	$.	.	_	O	O	
+
+#id=6
+#text=Wollen Sie dies gefälligst übernehmen.
+6-1	Wollen	VMFIN	wollen	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	dies	PDS	dies	_	O	O	
+6-4	gefälligst	ADJD	gefälligst	_	O	O	
+6-5	übernehmen	VVINF	übernehmen	_	O	O	
+6-6	.	$.	.	_	O	O	
+
+#id=7
+#text=Es wird aber dabei vorausgesetzt, daß für eine geeignete Vertretung zuverlässig gesorgt wird.
+7-1	Es	PPER	es	_	O	O	
+7-2	wird	VAFIN	werden	_	O	O	
+7-3	aber	ADV	aber	_	O	O	
+7-4	dabei	PAV	dabei	_	O	O	
+7-5	vorausgesetzt	VVPP	voraussetzen	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	daß	KOUS	dass	_	O	O	
+7-8	für	APPR	für	_	O	O	
+7-9	eine	ART	eine	_	O	O	
+7-10	geeignete	ADJA	geeignet	_	O	O	
+7-11	Vertretung	NN	Vertretung	_	O	O	
+7-12	zuverlässig	ADJD	zuverlässig	_	O	O	
+7-13	gesorgt	VVPP	sorgen	_	O	O	
+7-14	wird	VAFIN	werden	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=Ihr Brief ließ über das definitive Arrange~ ment noch Ungewißheit, die ich gelegentlich zu heben bitte.
+8-1	Ihr	PPOSAT	ihr	_	O	O	
+8-2	Brief	NN	Brief	_	O	O	
+8-3	ließ	VVFIN	lassen	_	O	O	
+8-4	über	APPR	über	_	O	O	
+8-5	das	ART	die	_	O	O	
+8-6	definitive	ADJA	definitiv	_	O	O	
+8-7	Arrange~	NN	<unknown>	_	O	O	
+8-8	ment	ADJD	<unknown>	_	O	O	
+8-9	noch	ADV	noch	_	O	O	
+8-10	Ungewißheit	NN	Ungewissheit	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	die	PRELS	die	_	O	O	
+8-13	ich	PPER	ich	_	O	O	
+8-14	gelegentlich	ADJD	gelegentlich	_	O	O	
+8-15	zu	PTKZU	zu	_	O	O	
+8-16	heben	VVINF	heben	_	O	O	
+8-17	bitte	VVFIN	bitten	_	O	O	
+8-18	.	$.	.	_	O	O	
+
+#id=9
+#text=Was die Architektenbibliothek betrifft, so war auch gestern die Ansicht einstimmig dieselbe wie früher.
+9-1	Was	PWS	was	_	O	O	
+9-2	die	ART	die	_	O	O	
+9-3	Architektenbibliothek	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-4	betrifft	VVFIN	betreffen	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	so	ADV	so	_	O	O	
+9-7	war	VAFIN	sein	_	O	O	
+9-8	auch	ADV	auch	_	O	O	
+9-9	gestern	ADV	gestern	_	O	O	
+9-10	die	ART	die	_	O	O	
+9-11	Ansicht	NN	Ansicht	_	O	O	
+9-12	einstimmig	ADJD	einstimmig	_	O	O	
+9-13	dieselbe	PDS	dieselbe	_	O	O	
+9-14	wie	KOKOM	wie	_	O	O	
+9-15	früher	ADJD	früh	_	O	O	
+9-16	.	$.	.	_	O	O	
+
+#id=10
+#text=Eine mit so ansehnlichen Mitteln begründete Bibliothek könne nicht für später abgeschlossen bleiben.
+10-1	Eine	ART	eine	_	O	O	
+10-2	mit	APPR	mit	_	O	O	
+10-3	so	ADV	so	_	O	O	
+10-4	ansehnlichen	ADJA	ansehnlich	_	O	O	
+10-5	Mitteln	NN	Mittel|Mitteln	_	O	O	
+10-6	begründete	VVFIN	begründen	_	O	O	
+10-7	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-8	könne	VMFIN	können	_	O	O	
+10-9	nicht	PTKNEG	nicht	_	O	O	
+10-10	für	APPR	für	_	O	O	
+10-11	später	ADJD	spät	_	O	O	
+10-12	abgeschlossen	VVPP	abschließen	_	O	O	
+10-13	bleiben	VVINF	bleiben	_	O	O	
+10-14	.	$.	.	_	O	O	
+
+#id=11
+#text=Wie es aber auch sei, so bleibe die Aufnahme in unSere Bibliothek unzweckmäßig.
+11-1	Wie	KOUS	wie	_	O	O	
+11-2	es	PPER	es	_	O	O	
+11-3	aber	ADV	aber	_	O	O	
+11-4	auch	ADV	auch	_	O	O	
+11-5	sei	VAFIN	sein	_	O	O	
+11-6	,	$,	,	_	O	O	
+11-7	so	ADV	so	_	O	O	
+11-8	bleibe	VVFIN	bleiben	_	O	O	
+11-9	die	ART	die	_	O	O	
+11-10	Aufnahme	NN	Aufnahme	_	O	O	
+11-11	in	APPR	in	_	O	O	
+11-12	unSere	ADJA	<unknown>	_	O	O	
+11-13	Bibliothek	NN	Bibliothek	_	O	O	
+11-14	unzweckmäßig	ADJD	unzweckmäßig	_	O	O	
+11-15	.	$.	.	_	O	O	
+
+#id=12
+#text=Es war angenommen, daß Sie persön-
+12-1	Es	PPER	es	_	O	O	
+12-2	war	VAFIN	sein	_	O	O	
+12-3	angenommen	VVPP	annehmen	_	O	O	
+12-4	,	$,	,	_	O	O	
+12-5	daß	KOUS	dass	_	O	O	
+12-6	Sie	PPER	Sie	_	O	O	
+12-7	persön-	ADJD	<unknown>	_	O	O	
+

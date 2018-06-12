@@ -1,0 +1,206 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=390 Lepsius an Henzen Berlin, 23. Juni 1877 g. 26/6 77 r. Berlin, den 23. Juni 1877 Verehrter Freund Ich werde soeben vom Auswärtigen Amte benachrichtigt, daß es dem Vorschlage des Botschafters beistimmt, daß Herr~r.
+1-1	390	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	26/6	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	77	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	r.	ADJA	<unknown>	_	O	O	
+1-15	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-16	,	$,	,	_	O	O	
+1-17	den	ART	die	_	O	O	
+1-18	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Verehrter	ADJA	verehrt	_	O	O	
+1-23	Freund	NN	Freund	_	O	O	
+1-24	Ich	PPER	ich	_	O	O	
+1-25	werde	VAFIN	werden	_	O	O	
+1-26	soeben	ADV	soeben	_	O	O	
+1-27	vom	APPRART	von	_	O	O	
+1-28	Auswärtigen	ADJA	auswärtig	_	O	O	
+1-29	Amte	NN	Amt	_	O	O	
+1-30	benachrichtigt	VVPP	benachrichtigen	_	O	O	
+1-31	,	$,	,	_	O	O	
+1-32	daß	KOUS	dass	_	O	O	
+1-33	es	PPER	es	_	O	O	
+1-34	dem	ART	die	_	O	O	
+1-35	Vorschlage	NN	Vorschlag	_	O	O	
+1-36	des	ART	die	_	O	O	
+1-37	Botschafters	NN	Botschafter	_	O	O	
+1-38	beistimmt	VVFIN	beistimmen	_	O	O	
+1-39	,	$,	,	_	O	O	
+1-40	daß	KOUS	dass	_	O	O	
+1-41	Herr~r	NE	<unknown>	_	O	O	
+1-42	.	$.	.	_	O	O	
+
+#id=2
+#text=Klügmann der 3.
+2-1	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	der	ART	die	_	O	O	
+2-3	3	CARD	3	_	O	O	
+2-4	.	$.	.	_	O	O	
+
+#id=3
+#text=Stock im Umbau der Casa Tarpea miethsweise überlassen werde.
+3-1	Stock	NN	Stock	_	O	O	
+3-2	im	APPRART	in	_	O	O	
+3-3	Umbau	NN	Umbau	_	O	O	
+3-4	der	ART	die	_	O	O	
+3-5	Casa	NE	Casa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-6	Tarpea	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+3-7	miethsweise	ADJD	<unknown>	_	O	O	
+3-8	überlassen	VVPP	überlassen	_	O	O	
+3-9	werde	VAFIN	werden	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Dies wäre also in Ordnung.
+4-1	Dies	PDS	dies	_	O	O	
+4-2	wäre	VAFIN	sein	_	O	O	
+4-3	also	ADV	also	_	O	O	
+4-4	in	APPR	in	_	O	O	
+4-5	Ordnung	NN	Ordnung	_	O	O	
+4-6	.	$.	.	_	O	O	
+
+#id=5
+#text=Seit 8 Tagen laboriren wir an der Unmöglichkeit eine vollständige Sitzung zu Stande zu bringen, und ich weiß nocht nicht wann dies möglich sein .
+5-1	Seit	APPR	seit	_	O	O	
+5-2	8	CARD	8	_	O	O	
+5-3	Tagen	NN	Tag	_	O	O	
+5-4	laboriren	VVFIN	<unknown>	_	O	O	
+5-5	wir	PPER	wir	_	O	O	
+5-6	an	APPR	an	_	O	O	
+5-7	der	ART	die	_	O	O	
+5-8	Unmöglichkeit	NN	Unmöglichkeit	_	O	O	
+5-9	eine	ART	eine	_	O	O	
+5-10	vollständige	ADJA	vollständig	_	O	O	
+5-11	Sitzung	NN	Sitzung	_	O	O	
+5-12	zu	APPR	zu	_	O	O	
+5-13	Stande	NN	Stand	_	O	O	
+5-14	zu	PTKZU	zu	_	O	O	
+5-15	bringen	VVINF	bringen	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	und	KON	und	_	O	O	
+5-18	ich	PPER	ich	_	O	O	
+5-19	weiß	VVFIN	wissen	_	O	O	
+5-20	nocht	ADJD	<unknown>	_	O	O	
+5-21	nicht	PTKNEG	nicht	_	O	O	
+5-22	wann	PWAV	wann	_	O	O	
+5-23	dies	PDS	dies	_	O	O	
+5-24	möglich	ADJD	möglich	_	O	O	
+5-25	sein	VAINF	sein	_	O	O	
+5-26	.	$.	.	_	O	O	
+
+#id=6
+#text=d' d An 1 nh' t 1.T· ht' ~t w~rd, um ~e an ern ge ege e~ en von w~c ~g zu besprechen, von denen ich Ihnen dann alsbald Nachricht geben werde.
+6-1	d	ADJA	<unknown>	_	O	O	
+6-2	'	$(	'	_	O	O	
+6-3	d	NN	D	_	O	O	
+6-4	An	APPR	an	_	O	O	
+6-5	1	CARD	1	_	O	O	
+6-6	nh	NE	<unknown>	_	O	O	
+6-7	'	$(	'	_	O	O	
+6-8	t	NN	t	_	O	O	
+6-9	1.T·	ADJA	<unknown>	_	O	O	
+6-10	ht	NN	<unknown>	_	O	O	
+6-11	'	$(	'	_	O	O	
+6-12	~t	NN	<unknown>	_	O	O	
+6-13	w~rd	VVFIN	<unknown>	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	um	KOUI	um	_	O	O	
+6-16	~e	NN	<unknown>	_	O	O	
+6-17	an	APPR	an	_	O	O	
+6-18	ern	ADJA	<unknown>	_	O	O	
+6-19	ge	ADJA	<unknown>	_	O	O	
+6-20	ege	ADJA	<unknown>	_	O	O	
+6-21	e~	ADJA	<unknown>	_	O	O	
+6-22	en	FM	en	_	O	O	
+6-23	von	APPR	von	_	O	O	
+6-24	w~c	NE	<unknown>	_	O	O	
+6-25	~g	ADJD	<unknown>	_	O	O	
+6-26	zu	PTKZU	zu	_	O	O	
+6-27	besprechen	VVINF	besprechen	_	O	O	
+6-28	,	$,	,	_	O	O	
+6-29	von	APPR	von	_	O	O	
+6-30	denen	PRELS	die	_	O	O	
+6-31	ich	PPER	ich	_	O	O	
+6-32	Ihnen	PPER	Sie	_	O	O	
+6-33	dann	ADV	dann	_	O	O	
+6-34	alsbald	ADV	alsbald	_	O	O	
+6-35	Nachricht	NN	Nachricht	_	O	O	
+6-36	geben	VVINF	geben	_	O	O	
+6-37	werde	VAFIN	werden	_	O	O	
+6-38	.	$.	.	_	O	O	
+
+#id=7
+#text=Wir werden ohne Zweifel der Proposition zustimmen, mit dem Gärtner Köhler einen Versuch anstellen zu lassen, über den Sie d~ntscheiden werden.
+7-1	Wir	PPER	wir	_	O	O	
+7-2	werden	VAFIN	werden	_	O	O	
+7-3	ohne	APPR	ohne	_	O	O	
+7-4	Zweifel	NN	Zweifel	_	O	O	
+7-5	der	ART	die	_	O	O	
+7-6	Proposition	NN	Proposition	_	O	O	
+7-7	zustimmen	VVINF	zustimmen	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	mit	APPR	mit	_	O	O	
+7-10	dem	ART	die	_	O	O	
+7-11	Gärtner	NN	Gärtner	_	O	O	
+7-12	Köhler	NE	Köhler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-13	einen	ART	eine	_	O	O	
+7-14	Versuch	NN	Versuch	_	O	O	
+7-15	anstellen	VVINF	anstellen	_	O	O	
+7-16	zu	PTKZU	zu	_	O	O	
+7-17	lassen	VVINF	lassen	_	O	O	
+7-18	,	$,	,	_	O	O	
+7-19	über	APPR	über	_	O	O	
+7-20	den	PRELS	die	_	O	O	
+7-21	Sie	PPER	Sie	_	O	O	
+7-22	d~ntscheiden	NN	<unknown>	_	O	O	
+7-23	werden	VAFIN	werden	_	O	O	
+7-24	.	$.	.	_	O	O	
+
+#id=8
+#text=Mir scheint die Hauptsache zu sein, ob er im Stande sein wird das ganze Rechnungswesen Ihnen abzunehmen und in Ordnung zu halten.
+8-1	Mir	PPER	ich	_	O	O	
+8-2	scheint	VVFIN	scheinen	_	O	O	
+8-3	die	ART	die	_	O	O	
+8-4	Hauptsache	NN	Hauptsache	_	O	O	
+8-5	zu	PTKZU	zu	_	O	O	
+8-6	sein	VAINF	sein	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	ob	KOUS	ob	_	O	O	
+8-9	er	PPER	er	_	O	O	
+8-10	im	APPRART	in	_	O	O	
+8-11	Stande	NN	Stand	_	O	O	
+8-12	sein	VAINF	sein	_	O	O	
+8-13	wird	VAFIN	werden	_	O	O	
+8-14	das	ART	die	_	O	O	
+8-15	ganze	ADJA	ganz	_	O	O	
+8-16	Rechnungswesen	NN	Rechnungswesen	_	O	O	
+8-17	Ihnen	PPER	Sie	_	O	O	
+8-18	abzunehmen	VVIZU	abnehmen	_	O	O	
+8-19	und	KON	und	_	O	O	
+8-20	in	APPR	in	_	O	O	
+8-21	Ordnung	NN	Ordnung	_	O	O	
+8-22	zu	PTKZU	zu	_	O	O	
+8-23	halten	VVINF	halten	_	O	O	
+8-24	.	$.	.	_	O	O	
+
+#id=9
+#text=Der Ihrige R Lepsius
+9-1	Der	ART	die	_	O	O	
+9-2	Ihrige	PPOSAT	ihrige	_	O	O	
+9-3	R	NN	R	_	O	O	
+9-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

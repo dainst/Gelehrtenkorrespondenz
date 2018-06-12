@@ -1,0 +1,99 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=t 248 Verehrter Freund Lepsius an Henzen Berlin, 19. April 1877 g. 23/4 77 Berlin d. 19. Apr.
+1-1	t	NN	t	_	O	O	
+1-2	248	CARD	248	_	O	O	
+1-3	Verehrter	NN	Verehrte	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	23/4	CARD	23/4	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	77	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-18	d.	ART	d.	_	O	O	
+1-19	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Apr.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1877 Die Rolle mit den Diplomen wird Ihnen gleichzeitig zugehen.
+2-1	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Die	ART	die	_	O	O	
+2-3	Rolle	NN	Rolle	_	O	O	
+2-4	mit	APPR	mit	_	O	O	
+2-5	den	ART	die	_	O	O	
+2-6	Diplomen	NN	Diplom	_	O	O	
+2-7	wird	VAFIN	werden	_	O	O	
+2-8	Ihnen	PPER	Sie	_	O	O	
+2-9	gleichzeitig	ADJD	gleichzeitig	_	O	O	
+2-10	zugehen	VVINF	zugehen	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Es sind auch die für Dresden etc.
+3-1	Es	PPER	es	_	O	O	
+3-2	sind	VAFIN	sein	_	O	O	
+3-3	auch	ADV	auch	_	O	O	
+3-4	die	ART	die	_	O	O	
+3-5	für	APPR	für	_	O	O	
+3-6	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-7	etc.	ADV	etc.	_	O	O	
+
+#id=4
+#text=beigelegt, da die Vorschläge von Ihnen ausgingen und daher zu contrasigniren sind.
+4-1	beigelegt	VVPP	beilegen	_	O	O	
+4-2	,	$,	,	_	O	O	
+4-3	da	KOUS	da	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	Vorschläge	NN	Vorschlag	_	O	O	
+4-6	von	APPR	von	_	O	O	
+4-7	Ihnen	PPER	Sie	_	O	O	
+4-8	ausgingen	VVFIN	ausgehen	_	O	O	
+4-9	und	KON	und	_	O	O	
+4-10	daher	PAV	daher	_	O	O	
+4-11	zu	APPR	zu	_	O	O	
+4-12	contrasigniren	NN	<unknown>	_	O	O	
+4-13	sind	VAFIN	sein	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich bitte diese nun entweder wieder hierher, wenn das bequemer sein sollte, oder direkt den Herren zugehen zu lassen.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	bitte	VVFIN	bitten	_	O	O	
+5-3	diese	PDS	diese	_	O	O	
+5-4	nun	ADV	nun	_	O	O	
+5-5	entweder	KON	entweder	_	O	O	
+5-6	wieder	ADV	wieder	_	O	O	
+5-7	hierher	PAV	hierher	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	wenn	KOUS	wenn	_	O	O	
+5-10	das	PDS	die	_	O	O	
+5-11	bequemer	ADJD	bequem	_	O	O	
+5-12	sein	VAINF	sein	_	O	O	
+5-13	sollte	VMFIN	sollen	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	oder	KON	oder	_	O	O	
+5-16	direkt	ADJD	direkt	_	O	O	
+5-17	den	ART	die	_	O	O	
+5-18	Herren	NN	Herr	_	O	O	
+5-19	zugehen	VVINF	zugehen	_	O	O	
+5-20	zu	PTKZU	zu	_	O	O	
+5-21	lassen	VVINF	lassen	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihr ergebenster R Ls.
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	ergebenster	ADJA	<unknown>	_	O	O	
+6-3	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-4	Ls	NN	L	_	O	O	
+6-5	.	$.	.	_	O	O	
+

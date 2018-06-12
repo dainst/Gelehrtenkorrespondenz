@@ -1,0 +1,191 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=298 Lepsius an Henzen Berlin, 28. Juni 1872 2 aber nicht durchgedrungen.
+1-1	298	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	aber	ADV	aber	_	O	O	
+1-13	nicht	PTKNEG	nicht	_	O	O	
+1-14	durchgedrungen	VVPP	durchdringen	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich habe gesterh mit Achenbach unsre Bausache besprochen.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	habe	VAFIN	haben	_	O	O	
+2-3	gesterh	NN	<unknown>	_	O	O	
+2-4	mit	APPR	mit	_	O	O	
+2-5	Achenbach	NE	<unknown>	_	O	O	
+2-6	unsre	PPOSAT	unsre	_	O	O	
+2-7	Bausache	NN	Bausache	_	O	O	
+2-8	besprochen	VVPP	besprechen	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Er ist sehr willig und entgegenkommend und wird auch gern die Arbeit Laspeyres so weit vermitteln als es die Sache zuläßt.
+3-1	Er	PPER	er	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	sehr	ADV	sehr	_	O	O	
+3-4	willig	ADJD	willig	_	O	O	
+3-5	und	KON	und	_	O	O	
+3-6	entgegenkommend	ADJD	entgegenkommend	_	O	O	
+3-7	und	KON	und	_	O	O	
+3-8	wird	VAFIN	werden	_	O	O	
+3-9	auch	ADV	auch	_	O	O	
+3-10	gern	ADV	gern	_	O	O	
+3-11	die	ART	die	_	O	O	
+3-12	Arbeit	NN	Arbeit	_	O	O	
+3-13	Laspeyres	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-14	so	ADV	so	_	O	O	
+3-15	weit	ADJD	weit	_	O	O	
+3-16	vermitteln	VVINF	vermitteln	_	O	O	
+3-17	als	KOKOM	als	_	O	O	
+3-18	es	PPER	es	_	O	O	
+3-19	die	ART	die	_	O	O	
+3-20	Sache	NN	Sache	_	O	O	
+3-21	zuläßt	VVFIN	zulassen	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich habe ihm gesagt wir würden gern die Pläne so bald wie möglich wieder aufnehmen lassen, sobald er uns vom Reiche die Annahme des großen Planes im Prinzip verschaffen und mittheilen werde.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	habe	VAFIN	haben	_	O	O	
+4-3	ihm	PPER	er	_	O	O	
+4-4	gesagt	VVPP	sagen	_	O	O	
+4-5	wir	PPER	wir	_	O	O	
+4-6	würden	VAFIN	werden	_	O	O	
+4-7	gern	ADV	gern	_	O	O	
+4-8	die	ART	die	_	O	O	
+4-9	Pläne	NN	Plan	_	O	O	
+4-10	so	ADV	so	_	O	O	
+4-11	bald	ADV	bald	_	O	O	
+4-12	wie	KOKOM	wie	_	O	O	
+4-13	möglich	ADJD	möglich	_	O	O	
+4-14	wieder	ADV	wieder	_	O	O	
+4-15	aufnehmen	VVINF	aufnehmen	_	O	O	
+4-16	lassen	VVINF	lassen	_	O	O	
+4-17	,	$,	,	_	O	O	
+4-18	sobald	KOUS	sobald	_	O	O	
+4-19	er	PPER	er	_	O	O	
+4-20	uns	PRF	wir	_	O	O	
+4-21	vom	APPRART	von	_	O	O	
+4-22	Reiche	NN	Reich|Reiche	_	O	O	
+4-23	die	ART	die	_	O	O	
+4-24	Annahme	NN	Annahme	_	O	O	
+4-25	des	ART	die	_	O	O	
+4-26	großen	ADJA	groß	_	O	O	
+4-27	Planes	NN	Plan	_	O	O	
+4-28	im	APPRART	in	_	O	O	
+4-29	Prinzip	NN	Prinzip	_	O	O	
+4-30	verschaffen	VVINF	verschaffen	_	O	O	
+4-31	und	KON	und	_	O	O	
+4-32	mittheilen	VVINF	<unknown>	_	O	O	
+4-33	werde	VAFIN	werden	_	O	O	
+4-34	.	$.	.	_	O	O	
+
+#id=5
+#text=Er wird nun dazu die nöthigen Schritte dem Minister vorschlagen und scheint mir die Sache sehr praktisch und coulant anzugreifen.
+5-1	Er	PPER	er	_	O	O	
+5-2	wird	VAFIN	werden	_	O	O	
+5-3	nun	ADV	nun	_	O	O	
+5-4	dazu	PAV	dazu	_	O	O	
+5-5	die	ART	die	_	O	O	
+5-6	nöthigen	ADJA	<unknown>	_	O	O	
+5-7	Schritte	NN	Schritt	_	O	O	
+5-8	dem	ART	die	_	O	O	
+5-9	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-10	vorschlagen	VVINF	vorschlagen	_	O	O	
+5-11	und	KON	und	_	O	O	
+5-12	scheint	VVFIN	scheinen	_	O	O	
+5-13	mir	PPER	ich	_	O	O	
+5-14	die	ART	die	_	O	O	
+5-15	Sache	NN	Sache	_	O	O	
+5-16	sehr	ADV	sehr	_	O	O	
+5-17	praktisch	ADJD	praktisch	_	O	O	
+5-18	und	KON	und	_	O	O	
+5-19	coulant	ADJD	<unknown>	_	O	O	
+5-20	anzugreifen	VVIZU	angreifen	_	O	O	
+5-21	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich habe mich seiner Art die Geschäfte zu bepandeln und unsre Sache speciell, sehr erfreut.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	habe	VAFIN	haben	_	O	O	
+6-3	mich	PRF	ich	_	O	O	
+6-4	seiner	PPOSAT	sein	_	O	O	
+6-5	Art	NN	Art	_	O	O	
+6-6	die	ART	die	_	O	O	
+6-7	Geschäfte	NN	Geschäft	_	O	O	
+6-8	zu	PTKZU	zu	_	O	O	
+6-9	bepandeln	VVINF	<unknown>	_	O	O	
+6-10	und	KON	und	_	O	O	
+6-11	unsre	PPOSAT	unsre	_	O	O	
+6-12	Sache	NN	Sache	_	O	O	
+6-13	speciell	ADJD	<unknown>	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	sehr	ADV	sehr	_	O	O	
+6-16	erfreut	VVPP	erfreuen	_	O	O	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=Es wird wie jetzt die Sache liegt nun auch nicht nöthig sein wie mir scheint daß Sie ausdrücklich über die Suspension an L. schreiben sondern es nur festhalten wenn die Rede darauf kommt.
+7-1	Es	PPER	es	_	O	O	
+7-2	wird	VAFIN	werden	_	O	O	
+7-3	wie	KOKOM	wie	_	O	O	
+7-4	jetzt	ADV	jetzt	_	O	O	
+7-5	die	ART	die	_	O	O	
+7-6	Sache	NN	Sache	_	O	O	
+7-7	liegt	VVFIN	liegen	_	O	O	
+7-8	nun	ADV	nun	_	O	O	
+7-9	auch	ADV	auch	_	O	O	
+7-10	nicht	PTKNEG	nicht	_	O	O	
+7-11	nöthig	ADJD	<unknown>	_	O	O	
+7-12	sein	VAINF	sein	_	O	O	
+7-13	wie	KOKOM	wie	_	O	O	
+7-14	mir	PPER	ich	_	O	O	
+7-15	scheint	VVFIN	scheinen	_	O	O	
+7-16	daß	KOUS	dass	_	O	O	
+7-17	Sie	PPER	Sie	_	O	O	
+7-18	ausdrücklich	ADJD	ausdrücklich	_	O	O	
+7-19	über	APPR	über	_	O	O	
+7-20	die	ART	die	_	O	O	
+7-21	Suspension	NN	Suspension	_	O	O	
+7-22	an	APPR	an	_	O	O	
+7-23	L.	NE	L.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-24	schreiben	VVINF	schreiben	_	O	O	
+7-25	sondern	KON	sondern	_	O	O	
+7-26	es	PPER	es	_	O	O	
+7-27	nur	ADV	nur	_	O	O	
+7-28	festhalten	VVFIN	festhalten	_	O	O	
+7-29	wenn	KOUS	wenn	_	O	O	
+7-30	die	ART	die	_	O	O	
+7-31	Rede	NN	Rede	_	O	O	
+7-32	darauf	PAV	darauf	_	O	O	
+7-33	kommt	VVFIN	kommen	_	O	O	
+7-34	.	$.	.	_	O	O	
+
+#id=8
+#text=Der Ihrige R Lepsius Ihr letzter Brief ging heute früh bei mir ein.
+8-1	Der	ART	die	_	O	O	
+8-2	Ihrige	PPOSAT	ihrige	_	O	O	
+8-3	R	NN	R	_	O	O	
+8-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-5	Ihr	PPOSAT	ihr	_	O	O	
+8-6	letzter	ADJA	letzt	_	O	O	
+8-7	Brief	NN	Brief	_	O	O	
+8-8	ging	VVFIN	gehen	_	O	O	
+8-9	heute	ADV	heute	_	O	O	
+8-10	früh	ADJD	früh	_	O	O	
+8-11	bei	APPR	bei	_	O	O	
+8-12	mir	PPER	ich	_	O	O	
+8-13	ein	PTKVZ	ein	_	O	O	
+8-14	.	$.	.	_	O	O	
+

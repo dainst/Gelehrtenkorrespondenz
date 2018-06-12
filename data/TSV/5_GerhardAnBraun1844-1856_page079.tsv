@@ -1,0 +1,94 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=431 Gerhard an Braun Berlin, 20. Oktober 1844 A. d. Dir.
+1-1	431	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	A.	APPR	an	_	O	O	
+1-12	d.	ART	d.	_	O	O	
+1-13	Dir.	NN	Dir.	_	O	O	
+
+#id=3
+#text=g. 25/X 44 Berlin 20 Okt 44 Lieber Freund.
+3-1	g.	NE	G.	_	O	O	
+3-2	25/X	VVFIN	<unknown>	_	O	O	
+3-3	44	CARD	44	_	O	O	
+3-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-5	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-6	Okt	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-7	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	Lieber	NN	Liebe	_	O	O	
+3-9	Freund	NE	Freund	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Also etwa Mittwochs oder Donnerstags erwarte ich Sie hier; Sie bleiben, auch ohne die genaue Zeit uns bestimmt zu haben, jederzeit höchst willkommen, und ist das Ihnen wohlbekannte Haus mit Linden 17 bezeichnet.
+4-1	Also	ADV	also	_	O	O	
+4-2	etwa	ADV	etwa	_	O	O	
+4-3	Mittwochs	NN	Mittwoch	_	O	O	
+4-4	oder	KON	oder	_	O	O	
+4-5	Donnerstags	NN	Donnerstag	_	O	O	
+4-6	erwarte	VVFIN	erwarten	_	O	O	
+4-7	ich	PPER	ich	_	O	O	
+4-8	Sie	PPER	Sie	_	O	O	
+4-9	hier	ADV	hier	_	O	O	
+4-10	;	$.	;	_	O	O	
+4-11	Sie	PPER	Sie	_	O	O	
+4-12	bleiben	VVFIN	bleiben	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	auch	ADV	auch	_	O	O	
+4-15	ohne	APPR	ohne	_	O	O	
+4-16	die	ART	die	_	O	O	
+4-17	genaue	ADJA	genau	_	O	O	
+4-18	Zeit	NN	Zeit	_	O	O	
+4-19	uns	PPER	wir	_	O	O	
+4-20	bestimmt	VVPP	bestimmen	_	O	O	
+4-21	zu	PTKZU	zu	_	O	O	
+4-22	haben	VAINF	haben	_	O	O	
+4-23	,	$,	,	_	O	O	
+4-24	jederzeit	ADV	jederzeit	_	O	O	
+4-25	höchst	ADJD	hochöchst	_	O	O	
+4-26	willkommen	ADJD	willkommen	_	O	O	
+4-27	,	$,	,	_	O	O	
+4-28	und	KON	und	_	O	O	
+4-29	ist	VAFIN	sein	_	O	O	
+4-30	das	PDS	die	_	O	O	
+4-31	Ihnen	PPER	Sie	_	O	O	
+4-32	wohlbekannte	ADJA	wohlbekannt	_	O	O	
+4-33	Haus	NN	Haus	_	O	O	
+4-34	mit	APPR	mit	_	O	O	
+4-35	Linden	NE	Linden	_	O	O	
+4-36	17	CARD	17	_	O	O	
+4-37	bezeichnet	VVPP	bezeichnen	_	O	O	
+4-38	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihr Wiedersehen wird mich rascher gesunden machen, was ich eben brauchen kann.
+5-1	Ihr	PPOSAT	ihr	_	O	O	
+5-2	Wiedersehen	NN	Wiedersehen	_	O	O	
+5-3	wird	VAFIN	werden	_	O	O	
+5-4	mich	PRF	ich	_	O	O	
+5-5	rascher	ADJD	rasch	_	O	O	
+5-6	gesunden	VVINF	gesunden	_	O	O	
+5-7	machen	VVINF	machen	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	was	PRELS	was	_	O	O	
+5-10	ich	PPER	ich	_	O	O	
+5-11	eben	ADV	eben	_	O	O	
+5-12	brauchen	VVINF	brauchen	_	O	O	
+5-13	kann	VMFIN	können	_	O	O	
+5-14	.	$.	.	_	O	O	
+
+#id=6
+#text=Herzlichst Ihr Gerhard
+6-1	Herzlichst	ADJD	herzlich	_	O	O	
+6-2	Ihr	PPOSAT	ihr	_	O	O	
+6-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

@@ -7,7 +7,7 @@ Usage:
     postprocess.py [-r <regexp>] <data-folder>
 
 Options:
-    -r <reg>    regular expression for file names
+    -r <reg>    regular expression for file names (regexp as in Unix paths!)
 """
 
 from docopt import docopt
@@ -43,6 +43,7 @@ if __name__ == "__main__":
     else:
         reg = "*.tsv"
     path = os.path.join(args["<data-folder>"], reg)
+    print(path)
     files = glob(path)
     print(len(files))
     for fpath in files:

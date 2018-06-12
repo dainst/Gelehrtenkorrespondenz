@@ -1,0 +1,325 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=16 21/1/54 Verehrter Herr Professor Renzen an Gerhard j_.'
+1-1	16	CARD	16	_	O	O	
+1-2	21/1/54	CARD	@card@	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Renzen	NN	<unknown>	_	O	O	
+1-7	an	APPR	an	_	O	O	
+1-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-9	j_	VVFIN	<unknown>	_	O	O	
+1-10	.	$.	.	_	O	O	
+1-11	'	$(	'	_	O	O	
+
+#id=2
+#text=--"'" 9 tn In Antwort auf Ihr 1.
+2-1	--	$(	--	_	O	O	
+2-2	"	$(	"	_	O	O	
+2-3	'	$(	'	_	O	O	
+2-4	"	$(	"	_	O	O	
+2-5	9	CARD	9	_	O	O	
+2-6	tn	NE	<unknown>	_	O	O	
+2-7	In	APPR	in	_	O	O	
+2-8	Antwort	NN	Antwort	_	O	O	
+2-9	auf	APPR	auf	_	O	O	
+2-10	Ihr	PPOSAT	ihr	_	O	O	
+2-11	1	CARD	1	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Schreiben vom • d. J. beI \ merke ich Ihnen zunächst, daß ich Mommsen's Opposition gegen meinen Antrag in Betreff de R's keineswegs voraussehen konnte, so wie daß andrer Beits Haupt sieb nicht wundern durfte, seinen Brief von mir verwerfen zu sehen, da er ja von meinem Antrage eigentlich Nichts stehen ließ, als einige Worte, das Sachliche ganz modificirt ward.
+3-1	Schreiben	NN	Schreiben	_	O	O	
+3-2	vom	APPRART	von	_	O	O	
+3-3	•	NN	<unknown>	_	O	O	
+3-4	d.	ART	d.	_	O	O	
+3-5	J.	NE	J.	_	O	O	
+3-6	beI	ADJA	<unknown>	_	O	O	
+3-7	\	XY	\	_	O	O	
+3-8	merke	VVFIN	merken	_	O	O	
+3-9	ich	PPER	ich	_	O	O	
+3-10	Ihnen	PPER	Sie	_	O	O	
+3-11	zunächst	ADV	zunächst	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	daß	KOUS	dass	_	O	O	
+3-14	ich	PPER	ich	_	O	O	
+3-15	Mommsen's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-16	Opposition	NN	Opposition	_	O	O	
+3-17	gegen	APPR	gegen	_	O	O	
+3-18	meinen	PPOSAT	mein	_	O	O	
+3-19	Antrag	NN	Antrag	_	O	O	
+3-20	in	APPR	in	_	O	O	
+3-21	Betreff	NN	Betreff	_	O	O	
+3-22	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-23	R's	VVFIN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-24	keineswegs	ADV	keineswegs	_	O	O	
+3-25	voraussehen	VVINF	voraussehen	_	O	O	
+3-26	konnte	VMFIN	können	_	O	O	
+3-27	,	$,	,	_	O	O	
+3-28	so	ADV	so	_	O	O	
+3-29	wie	KOKOM	wie	_	O	O	
+3-30	daß	KOUS	dass	_	O	O	
+3-31	andrer	PIAT	andere	_	O	O	
+3-32	Beits	ADJA	<unknown>	_	O	O	
+3-33	Haupt	NN	Haupt	_	O	O	
+3-34	sieb	VVIMP	sieben	_	O	O	
+3-35	nicht	PTKNEG	nicht	_	O	O	
+3-36	wundern	VVINF	wundern	_	O	O	
+3-37	durfte	VMFIN	dürfen	_	O	O	
+3-38	,	$,	,	_	O	O	
+3-39	seinen	PPOSAT	sein	_	O	O	
+3-40	Brief	NN	Brief	_	O	O	
+3-41	von	APPR	von	_	O	O	
+3-42	mir	PPER	ich	_	O	O	
+3-43	verwerfen	VVINF	verwerfen	_	O	O	
+3-44	zu	PTKZU	zu	_	O	O	
+3-45	sehen	VVINF	sehen	_	O	O	
+3-46	,	$,	,	_	O	O	
+3-47	da	KOUS	da	_	O	O	
+3-48	er	PPER	er	_	O	O	
+3-49	ja	ADV	ja	_	O	O	
+3-50	von	APPR	von	_	O	O	
+3-51	meinem	PPOSAT	mein	_	O	O	
+3-52	Antrage	NN	<unknown>	_	O	O	
+3-53	eigentlich	ADV	eigentlich	_	O	O	
+3-54	Nichts	PIS	nichts	_	O	O	
+3-55	stehen	VVINF	stehen	_	O	O	
+3-56	ließ	VVFIN	lassen	_	O	O	
+3-57	,	$,	,	_	O	O	
+3-58	als	KOUS	als	_	O	O	
+3-59	einige	PIAT	einige	_	O	O	
+3-60	Worte	NN	Wort	_	O	O	
+3-61	,	$,	,	_	O	O	
+3-62	das	ART	die	_	O	O	
+3-63	Sachliche	NN	Sachliche	_	O	O	
+3-64	ganz	ADV	ganz	_	O	O	
+3-65	modificirt	NN	<unknown>	_	O	O	
+3-66	ward	VVFIN	werd	_	O	O	
+3-67	.	$.	.	_	O	O	
+
+#id=4
+#text=Indeß ist ja jetzt wohl Alles in Ordnung, u. dePhalb non ne parliamo piu.
+4-1	Indeß	NE	<unknown>	_	O	O	
+4-2	ist	VAFIN	sein	_	O	O	
+4-3	ja	ADV	ja	_	O	O	
+4-4	jetzt	ADV	jetzt	_	O	O	
+4-5	wohl	ADV	wohl	_	O	O	
+4-6	Alles	PIS	alle	_	O	O	
+4-7	in	APPR	in	_	O	O	
+4-8	Ordnung	NN	Ordnung	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	u.	APPR	um	_	O	O	
+4-11	dePhalb	ADJA	<unknown>	_	O	O	
+4-12	non	NE	non	_	O	O	
+4-13	ne	ART	eine	_	O	O	
+4-14	parliamo	NE	<unknown>	_	O	O	
+4-15	piu	NE	Piu	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Nur sehe ich nicht ein, was Sie von der Schwierigkeit sagen, ein akademisches Actenstuück zu ~ndern.
+5-1	Nur	ADV	nur	_	O	O	
+5-2	sehe	VVFIN	sehen	_	O	O	
+5-3	ich	PPER	ich	_	O	O	
+5-4	nicht	PTKNEG	nicht	_	O	O	
+5-5	ein	PTKVZ	ein	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	was	PRELS	was	_	O	O	
+5-8	Sie	PPER	Sie	_	O	O	
+5-9	von	APPR	von	_	O	O	
+5-10	der	ART	die	_	O	O	
+5-11	Schwierigkeit	NN	Schwierigkeit	_	O	O	
+5-12	sagen	VVFIN	sagen	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	ein	ART	eine	_	O	O	
+5-15	akademisches	ADJA	akademisch	_	O	O	
+5-16	Actenstuück	NN	<unknown>	_	O	O	
+5-17	zu	APPR	zu	_	O	O	
+5-18	~ndern	NN	<unknown>	_	O	O	
+5-19	.	$.	.	_	O	O	
+
+#id=6
+#text=Es handelt sich ja nur darum, nach Vollziehung des Vertrags mit M. u. mir einen Zusatz in Betreff de H's zu machen, u. ein solcher Fall ist ja sogar in einem Paragraphen vorgeGestern hatten wir wieder den Prinzen, u. de R.
+6-1	Es	PPER	es	_	O	O	
+6-2	handelt	VVFIN	handeln	_	O	O	
+6-3	sich	PRF	sich	_	O	O	
+6-4	ja	ADV	ja	_	O	O	
+6-5	nur	ADV	nur	_	O	O	
+6-6	darum	PAV	darum	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	nach	APPR	nach	_	O	O	
+6-9	Vollziehung	NN	Vollziehung	_	O	O	
+6-10	des	ART	die	_	O	O	
+6-11	Vertrags	NN	Vertrag	_	O	O	
+6-12	mit	APPR	mit	_	O	O	
+6-13	M.	NE	M.	_	O	O	
+6-14	u.	APPR	um	_	O	O	
+6-15	mir	PPER	ich	_	O	O	
+6-16	einen	ART	eine	_	O	O	
+6-17	Zusatz	NN	Zusatz	_	O	O	
+6-18	in	APPR	in	_	O	O	
+6-19	Betreff	NN	Betreff	_	O	O	
+6-20	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-21	H's	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-22	zu	PTKZU	zu	_	O	O	
+6-23	machen	VVINF	machen	_	O	O	
+6-24	,	$,	,	_	O	O	
+6-25	u.	APPR	um	_	O	O	
+6-26	ein	ART	eine	_	O	O	
+6-27	solcher	PIAT	solche	_	O	O	
+6-28	Fall	NN	Fall	_	O	O	
+6-29	ist	VAFIN	sein	_	O	O	
+6-30	ja	ADV	ja	_	O	O	
+6-31	sogar	ADV	sogar	_	O	O	
+6-32	in	APPR	in	_	O	O	
+6-33	einem	ART	eine	_	O	O	
+6-34	Paragraphen	NN	Paragraph	_	O	O	
+6-35	vorgeGestern	ADJD	<unknown>	_	O	O	
+6-36	hatten	VAFIN	haben	_	O	O	
+6-37	wir	PPER	wir	_	O	O	
+6-38	wieder	ADV	wieder	_	O	O	
+6-39	den	ART	die	_	O	O	
+6-40	Prinzen	NN	Prinz	_	O	O	
+6-41	,	$,	,	_	O	O	
+6-42	u.	APPR	um	_	O	O	
+6-43	de	NE	de	_	O	O	
+6-44	R.	NE	R.	_	O	O	
+
+#id=7
+#text=sprach über die Capitol.
+7-1	sprach	VVFIN	sprechen	_	O	O	
+7-2	über	APPR	über	_	O	O	
+7-3	die	ART	die	_	O	O	
+7-4	Capitol	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-5	.	$.	.	_	O	O	
+
+#id=8
+#text=Fasten sehr hübsch.
+8-1	Fasten	NN	Fasten	_	O	O	
+8-2	sehr	ADV	sehr	_	O	O	
+8-3	hübsch	ADJD	hübsch	_	O	O	
+8-4	.	$.	.	_	O	O	
+
+#id=9
+#text=Beeilen Sie gefälligst das Ehrendiplom, damit es noch zu rechter Zeit ny eintreffe.
+9-1	Beeilen	VVFIN	beeilen	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	gefälligst	ADJD	gefälligst	_	O	O	
+9-4	das	ART	die	_	O	O	
+9-5	Ehrendiplom	NN	Ehrendiplom	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	damit	KOUS	damit	_	O	O	
+9-8	es	PPER	es	_	O	O	
+9-9	noch	ADV	noch	_	O	O	
+9-10	zu	APPR	zu	_	O	O	
+9-11	rechter	ADJA	recht	_	O	O	
+9-12	Zeit	NN	Zeit	_	O	O	
+9-13	ny	ADJD	<unknown>	_	O	O	
+9-14	eintreffe	VVFIN	eintreffen	_	O	O	
+9-15	.	$.	.	_	O	O	
+
+#id=10
+#text=Man k5nnte dann noch eine sol~n(~dunanz verr anstalten.
+10-1	Man	PIS	man	_	O	O	
+10-2	k5nnte	VVFIN	<unknown>	_	O	O	
+10-3	dann	ADV	dann	_	O	O	
+10-4	noch	ADV	noch	_	O	O	
+10-5	eine	ART	eine	_	O	O	
+10-6	sol~n(~dunanz	NN	<unknown>	_	O	O	
+10-7	verr	NN	<unknown>	_	O	O	
+10-8	anstalten	VVFIN	<unknown>	_	O	O	
+10-9	.	$.	.	_	O	O	
+
+#id=11
+#text=- Auch schicken Sie mir doch eine Anzahl ge- ~5hnlicher Diplome.
+11-1	-	$(	-	_	O	O	
+11-2	Auch	ADV	auch	_	O	O	
+11-3	schicken	VVFIN	schicken	_	O	O	
+11-4	Sie	PPER	Sie	_	O	O	
+11-5	mir	PRF	ich	_	O	O	
+11-6	doch	ADV	doch	_	O	O	
+11-7	eine	ART	eine	_	O	O	
+11-8	Anzahl	NN	Anzahl	_	O	O	
+11-9	ge-	TRUNC	ge-	_	O	O	
+11-10	~5hnlicher	ADJA	<unknown>	_	O	O	
+11-11	Diplome	NN	Diplom	_	O	O	
+11-12	.	$.	.	_	O	O	
+
+#id=12
+#text=Was die .u.ngelec:enheiten des Instituts befrifft, so bedaure ich zu h5ren, daß wiederum mein gerechter Wunsch bei Seite ~elassen ist.
+12-1	Was	PWS	was	_	O	O	
+12-2	die	ART	die	_	O	O	
+12-3	.u.ngelec:enheiten	NN	<unknown>	_	O	O	
+12-4	des	ART	die	_	O	O	
+12-5	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+12-6	befrifft	VVFIN	<unknown>	_	O	O	
+12-7	,	$,	,	_	O	O	
+12-8	so	ADV	so	_	O	O	
+12-9	bedaure	VVFIN	bedauern	_	O	O	
+12-10	ich	PPER	ich	_	O	O	
+12-11	zu	APPR	zu	_	O	O	
+12-12	h5ren	NN	<unknown>	_	O	O	
+12-13	,	$,	,	_	O	O	
+12-14	daß	KOUS	dass	_	O	O	
+12-15	wiederum	ADV	wiederum	_	O	O	
+12-16	mein	PPOSAT	mein	_	O	O	
+12-17	gerechter	ADJA	gerecht	_	O	O	
+12-18	Wunsch	NN	Wunsch	_	O	O	
+12-19	bei	APPR	bei	_	O	O	
+12-20	Seite	NN	Seite	_	O	O	
+12-21	~elassen	NN	<unknown>	_	O	O	
+12-22	ist	VAFIN	sein	_	O	O	
+12-23	.	$.	.	_	O	O	
+
+#id=13
+#text=Ich werde die Cabinetsordre abwarten u., enthält dieselbe wieder eine verfängliehe Clausel, mich direct an Usedom wenden, da Sie einmal darauf beharren, darin Nichts zu thun.
+13-1	Ich	PPER	ich	_	O	O	
+13-2	werde	VAFIN	werden	_	O	O	
+13-3	die	ART	die	_	O	O	
+13-4	Cabinetsordre	NN	<unknown>	_	O	O	
+13-5	abwarten	VVINF	abwarten	_	O	O	
+13-6	u.	KON	und	_	O	O	
+13-7	,	$,	,	_	O	O	
+13-8	enthält	VVFIN	enthalten	_	O	O	
+13-9	dieselbe	PDS	dieselbe	_	O	O	
+13-10	wieder	ADV	wieder	_	O	O	
+13-11	eine	ART	eine	_	O	O	
+13-12	verfängliehe	ADJA	<unknown>	_	O	O	
+13-13	Clausel	NN	<unknown>	_	O	O	
+13-14	,	$,	,	_	O	O	
+13-15	mich	PRF	ich	_	O	O	
+13-16	direct	NE	direct	_	O	O	
+13-17	an	APPR	an	_	O	O	
+13-18	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-19	wenden	VVFIN	wenden	_	O	O	
+13-20	,	$,	,	_	O	O	
+13-21	da	KOUS	da	_	O	O	
+13-22	Sie	PPER	Sie	_	O	O	
+13-23	einmal	ADV	einmal	_	O	O	
+13-24	darauf	PAV	darauf	_	O	O	
+13-25	beharren	VVFIN	beharren	_	O	O	
+13-26	,	$,	,	_	O	O	
+13-27	darin	PAV	darin	_	O	O	
+13-28	Nichts	PIS	nichts	_	O	O	
+13-29	zu	APPR	zu	_	O	O	
+13-30	thun	NE	<unknown>	_	O	O	
+13-31	.	$.	.	_	O	O	
+
+#id=14
+#text=Sie scheinen zu glauben, ich habe ir2.~end einen albernen ~itelkei tst;rund
+14-1	Sie	PPER	Sie	_	O	O	
+14-2	scheinen	VVFIN	scheinen	_	O	O	
+14-3	zu	PTKVZ	zu	_	O	O	
+14-4	glauben	VVINF	glauben	_	O	O	
+14-5	,	$,	,	_	O	O	
+14-6	ich	PPER	ich	_	O	O	
+14-7	habe	VAFIN	haben	_	O	O	
+14-8	ir2.~end	ADJD	<unknown>	_	O	O	
+14-9	einen	ART	eine	_	O	O	
+14-10	albernen	ADJA	albern	_	O	O	
+14-11	~itelkei	NN	<unknown>	_	O	O	
+14-12	tst	VVFIN	<unknown>	_	O	O	
+14-13	;	$.	;	_	O	O	
+14-14	rund	ADV	rund	_	O	O	
+

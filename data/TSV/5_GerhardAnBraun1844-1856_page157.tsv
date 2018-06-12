@@ -1,0 +1,55 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=282 2 Gerhard an Braun Berlin, 9. August 1845 Ich hoffe Briefe von Ihnen in Frankfurt später in Florenz zu finden.
+1-1	282	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Ich	PPER	ich	_	O	O	
+1-13	hoffe	VVFIN	hoffen	_	O	O	
+1-14	Briefe	NN	Brief	_	O	O	
+1-15	von	APPR	von	_	O	O	
+1-16	Ihnen	PPER	Sie	_	O	O	
+1-17	in	APPR	in	_	O	O	
+1-18	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-19	später	ADJD	spät	_	O	O	
+1-20	in	APPR	in	_	O	O	
+1-21	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-22	zu	PTKZU	zu	_	O	O	
+1-23	finden	VVINF	finden	_	O	O	
+1-24	.	$.	.	_	O	O	
+
+#id=3
+#text=Roß ist in Kissingen.
+3-1	Roß	NN	Ross	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	in	APPR	in	_	O	O	
+3-4	Kissingen	NE	Kissingen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-5	.	$.	.	_	O	O	
+
+#id=4
+#text=Von Herzen der Ihrige, bereits in Hoffnung fröhlichen Wiedersehens.
+4-1	Von	APPR	von	_	O	O	
+4-2	Herzen	NN	Herz	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	Ihrige	PPOSAT	ihrige	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	bereits	ADV	bereits	_	O	O	
+4-7	in	APPR	in	_	O	O	
+4-8	Hoffnung	NN	Hoffnung	_	O	O	
+4-9	fröhlichen	ADJA	fröhlich	_	O	O	
+4-10	Wiedersehens	NN	Wiedersehen	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihr Gerhard
+5-1	Ihr	PPOSAT	ihr	_	O	O	
+5-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

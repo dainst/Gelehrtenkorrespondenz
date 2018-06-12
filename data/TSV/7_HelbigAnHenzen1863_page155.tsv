@@ -1,0 +1,236 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=336 Helbig an Henzen Zürich, 30. September 1870 H g. 3/X 70 Zürich, Fluntern, Plattenwiese 30. Sept.
+1-1	336	CARD	@card@	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	H	NN	H	_	O	O	
+1-12	g.	ADJA	<unknown>	_	O	O	
+1-13	3/X	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	70	CARD	70	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-16	,	$,	,	_	O	O	
+1-17	Fluntern	NN	<unknown>	_	O	O	
+1-18	,	$,	,	_	O	O	
+1-19	Plattenwiese	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	30	CARD	30	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Sept.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=7C Lieber Herr Professor Soeben erhalte ich Ihren freundlichen Brief vom 27.
+2-1	7C	NE	<unknown>	_	O	O	
+2-2	Lieber	ADJA	lieb	_	O	O	
+2-3	Herr	NN	Herr	_	O	O	
+2-4	Professor	NN	Professor	_	O	O	
+2-5	Soeben	NE	<unknown>	_	O	O	
+2-6	erhalte	VVFIN	erhalten	_	O	O	
+2-7	ich	PPER	ich	_	O	O	
+2-8	Ihren	PPOSAT	ihr	_	O	O	
+2-9	freundlichen	ADJA	freundlich	_	O	O	
+2-10	Brief	NN	Brief	_	O	O	
+2-11	vom	APPRART	von	_	O	O	
+2-12	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-13	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=3
+#text=Wir schreiben heute den 30., haben 9 Uhr Abend - und noch nichts ist erfolgt.
+3-1	Wir	PPER	wir	_	O	O	
+3-2	schreiben	VVFIN	schreiben	_	O	O	
+3-3	heute	ADV	heute	_	O	O	
+3-4	den	ART	die	_	O	O	
+3-5	30	CARD	30	_	O	O	
+3-6	.	$.	.	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	haben	VAFIN	haben	_	O	O	
+3-9	9	CARD	9	_	O	O	
+3-10	Uhr	NN	Uhr	_	O	O	
+3-11	Abend	NN	Abend	_	O	O	
+3-12	-	$(	-	_	O	O	
+3-13	und	KON	und	_	O	O	
+3-14	noch	ADV	noch	_	O	O	
+3-15	nichts	PIS	nichts	_	O	O	
+3-16	ist	VAFIN	sein	_	O	O	
+3-17	erfolgt	VVPP	erfolgen	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=So unglaublich es scheint, muß sich meine Frau um volle zwei Monate verrechnet haben und kommen wir nunmehr vom 9. August und 9. September auf den 9.
+4-1	So	ADV	so	_	O	O	
+4-2	unglaublich	ADJD	unglaublich	_	O	O	
+4-3	es	PPER	es	_	O	O	
+4-4	scheint	VVFIN	scheinen	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	muß	VMFIN	müssen	_	O	O	
+4-7	sich	PRF	sich	_	O	O	
+4-8	meine	PPOSAT	mein	_	O	O	
+4-9	Frau	NN	Frau	_	O	O	
+4-10	um	APPR	um	_	O	O	
+4-11	volle	ADJA	voll	_	O	O	
+4-12	zwei	CARD	zwei	_	O	O	
+4-13	Monate	NN	Monat	_	O	O	
+4-14	verrechnet	VVPP	verrechnen	_	O	O	
+4-15	haben	VAFIN	haben	_	O	O	
+4-16	und	KON	und	_	O	O	
+4-17	kommen	VVFIN	kommen	_	O	O	
+4-18	wir	PPER	wir	_	O	O	
+4-19	nunmehr	ADV	nunmehr	_	O	O	
+4-20	vom	APPRART	von	_	O	O	
+4-21	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-22	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-23	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-24	und	KON	und	_	O	O	
+4-25	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-26	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-27	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-28	auf	APPR	auf	_	O	O	
+4-29	den	ART	die	_	O	O	
+4-30	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-31	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=5
+#text=Oc~tober.
+5-1	Oc~tober	NE	<unknown>	_	O	O	
+5-2	.	$.	.	_	O	O	
+
+#id=6
+#text=Um Unannehmlichkeiten von Berlin zu vermeiden, bitte ich Sie, daselbst mitzutheilen, daß ich nunmehr nur die Niederkunft, nicht das Wochenbett meiner Frau abwarten und wenige Tage nach ihrer Niederkunft nach Rom zurückreisen werde.
+6-1	Um	APPR	um	_	O	O	
+6-2	Unannehmlichkeiten	NN	Unannehmlichkeit	_	O	O	
+6-3	von	APPR	von	_	O	O	
+6-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-5	zu	PTKZU	zu	_	O	O	
+6-6	vermeiden	VVINF	vermeiden	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	bitte	VVFIN	bitten	_	O	O	
+6-9	ich	PPER	ich	_	O	O	
+6-10	Sie	PPER	Sie	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	daselbst	ADV	daselbst	_	O	O	
+6-13	mitzutheilen	VVIZU	<unknown>	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	daß	KOUS	dass	_	O	O	
+6-16	ich	PPER	ich	_	O	O	
+6-17	nunmehr	ADV	nunmehr	_	O	O	
+6-18	nur	ADV	nur	_	O	O	
+6-19	die	ART	die	_	O	O	
+6-20	Niederkunft	NN	Niederkunft	_	O	O	
+6-21	,	$,	,	_	O	O	
+6-22	nicht	PTKNEG	nicht	_	O	O	
+6-23	das	ART	die	_	O	O	
+6-24	Wochenbett	NN	Wochenbett	_	O	O	
+6-25	meiner	PPOSAT	mein	_	O	O	
+6-26	Frau	NN	Frau	_	O	O	
+6-27	abwarten	VVINF	abwarten	_	O	O	
+6-28	und	KON	und	_	O	O	
+6-29	wenige	PIAT	wenige	_	O	O	
+6-30	Tage	NN	Tag	_	O	O	
+6-31	nach	APPR	nach	_	O	O	
+6-32	ihrer	PPOSAT	ihr	_	O	O	
+6-33	Niederkunft	NN	Niederkunft	_	O	O	
+6-34	nach	APPR	nach	_	O	O	
+6-35	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-36	zurückreisen	VVINF	zurückreisen	_	O	O	
+6-37	werde	VAFIN	werden	_	O	O	
+6-38	.	$.	.	_	O	O	
+
+#id=7
+#text=Unangenehm ist dies freilich, doch sehe ich ein, daß die Dinge sich nicht anders einrichten lassen.
+7-1	Unangenehm	ADJD	unangenehm	_	O	O	
+7-2	ist	VAFIN	sein	_	O	O	
+7-3	dies	PDS	dies	_	O	O	
+7-4	freilich	ADV	freilich	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	doch	KON	doch	_	O	O	
+7-7	sehe	VVFIN	sehen	_	O	O	
+7-8	ich	PPER	ich	_	O	O	
+7-9	ein	PTKVZ	ein	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	daß	KOUS	dass	_	O	O	
+7-12	die	ART	die	_	O	O	
+7-13	Dinge	NN	Ding	_	O	O	
+7-14	sich	PRF	sich	_	O	O	
+7-15	nicht	PTKNEG	nicht	_	O	O	
+7-16	anders	ADV	anders	_	O	O	
+7-17	einrichten	VVINF	einrichten	_	O	O	
+7-18	lassen	VVFIN	lassen	_	O	O	
+7-19	.	$.	.	_	O	O	
+
+#id=8
+#text=Übrigens geht es meiner Frau beträchtlich besser, ist die Muskelzerrung fast ganz beseitigt und sehen wir so dem Ereignis mit weniger Sorge entgegen.
+8-1	Übrigens	ADV	übrigens	_	O	O	
+8-2	geht	VVFIN	gehen	_	O	O	
+8-3	es	PPER	es	_	O	O	
+8-4	meiner	PPOSAT	mein	_	O	O	
+8-5	Frau	NN	Frau	_	O	O	
+8-6	beträchtlich	ADJD	beträchtlich	_	O	O	
+8-7	besser	ADJD	gut	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	ist	VAFIN	sein	_	O	O	
+8-10	die	ART	die	_	O	O	
+8-11	Muskelzerrung	NN	Muskelzerrung	_	O	O	
+8-12	fast	ADV	fast	_	O	O	
+8-13	ganz	ADV	ganz	_	O	O	
+8-14	beseitigt	VVPP	beseitigen	_	O	O	
+8-15	und	KON	und	_	O	O	
+8-16	sehen	VVFIN	sehen	_	O	O	
+8-17	wir	PPER	wir	_	O	O	
+8-18	so	ADV	so	_	O	O	
+8-19	dem	ART	die	_	O	O	
+8-20	Ereignis	NN	Ereignis	_	O	O	
+8-21	mit	APPR	mit	_	O	O	
+8-22	weniger	PIAT	wenige	_	O	O	
+8-23	Sorge	NN	Sorge	_	O	O	
+8-24	entgegen	PTKVZ	entgegen	_	O	O	
+8-25	.	$.	.	_	O	O	
+
+#id=9
+#text=Vorgestern ist endlich auch der Knoten römischer Communicationen wieder geknüpft worden: ich habe eine H Menge verspäteter Briefe vori\InCk, Michaelis u. a. erhalten.
+9-1	Vorgestern	ADV	vorgestern	_	O	O	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	endlich	ADV	endlich	_	O	O	
+9-4	auch	ADV	auch	_	O	O	
+9-5	der	ART	die	_	O	O	
+9-6	Knoten	NN	Knoten	_	O	O	
+9-7	römischer	ADJA	römisch	_	O	O	
+9-8	Communicationen	NN	<unknown>	_	O	O	
+9-9	wieder	ADV	wieder	_	O	O	
+9-10	geknüpft	VVPP	knüpfen	_	O	O	
+9-11	worden	VAPP	werden	_	O	O	
+9-12	:	$.	:	_	O	O	
+9-13	ich	PPER	ich	_	O	O	
+9-14	habe	VAFIN	haben	_	O	O	
+9-15	eine	ART	eine	_	O	O	
+9-16	H	NN	H	_	O	O	
+9-17	Menge	NN	Menge	_	O	O	
+9-18	verspäteter	ADJA	verspäteter	_	O	O	
+9-19	Briefe	NN	Brief	_	O	O	
+9-20	vori\InCk	NE	<unknown>	_	O	O	
+9-21	,	$,	,	_	O	O	
+9-22	Michaelis	NE	Michaelis	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-23	u.	KON	und	_	O	O	
+9-24	a.	ADJA	a.	_	O	O	
+9-25	erhalten	VVPP	erhalten	_	O	O	
+9-26	.	$.	.	_	O	O	
+
+#id=10
+#text=Hinck schreibt ganz vergnügt.
+10-1	Hinck	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	schreibt	VVFIN	schreiben	_	O	O	
+10-3	ganz	ADV	ganz	_	O	O	
+10-4	vergnügt	VVPP	vergnügen	_	O	O	
+10-5	.	$.	.	_	O	O	
+
+#id=11
+#text=Dieselbe Post brach-
+11-1	Dieselbe	PDAT	dieselb	_	O	O	
+11-2	Post	NN	Post	_	O	O	
+11-3	brach-	TRUNC	Brach-	_	O	O	
+

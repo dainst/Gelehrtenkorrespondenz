@@ -1,0 +1,232 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=307 Lepsius an HenZen Berlin, 2. Juli 1872 g. 6/7 72 B. d. 2. Juli 1872 Verehrter Freund Die beiden nachträglichen Diplome sind in der Eile schon mit den übrigen vertheilt worden.
+1-1	307	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	HenZen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	6/7	CARD	6/7	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	B.	NN	B.	_	O	O	
+1-15	d.	ART	d.	_	O	O	
+1-16	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	Verehrter	ADJA	verehrt	_	O	O	
+1-21	Freund	NN	Freund	_	O	O	
+1-22	Die	ART	die	_	O	O	
+1-23	beiden	PIAT	beide	_	O	O	
+1-24	nachträglichen	ADJA	nachträglich	_	O	O	
+1-25	Diplome	NN	Diplom	_	O	O	
+1-26	sind	VAFIN	sein	_	O	O	
+1-27	in	APPR	in	_	O	O	
+1-28	der	ART	die	_	O	O	
+1-29	Eile	NN	Eile	_	O	O	
+1-30	schon	ADV	schon	_	O	O	
+1-31	mit	APPR	mit	_	O	O	
+1-32	den	ART	die	_	O	O	
+1-33	übrigen	ADJA	übrig	_	O	O	
+1-34	vertheilt	NN	<unknown>	_	O	O	
+1-35	worden	VAPP	werden	_	O	O	
+1-36	.	$.	.	_	O	O	
+
+#id=2
+#text=Sie werden sie also doch wohl in der nächsten Nummer des Bullettino noch nachholen und vom April datiren müssen.
+2-1	Sie	PPER	Sie	_	O	O	
+2-2	werden	VAFIN	werden	_	O	O	
+2-3	sie	PPER	sie	_	O	O	
+2-4	also	ADV	also	_	O	O	
+2-5	doch	ADV	doch	_	O	O	
+2-6	wohl	ADV	wohl	_	O	O	
+2-7	in	APPR	in	_	O	O	
+2-8	der	ART	die	_	O	O	
+2-9	nächsten	ADJA	nah	_	O	O	
+2-10	Nummer	NN	Nummer	_	O	O	
+2-11	des	ART	die	_	O	O	
+2-12	Bullettino	NN	<unknown>	_	O	O	
+2-13	noch	ADV	noch	_	O	O	
+2-14	nachholen	VVINF	nachholen	_	O	O	
+2-15	und	KON	und	_	O	O	
+2-16	vom	APPRART	von	_	O	O	
+2-17	April	NN	April	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-18	datiren	NN	<unknown>	_	O	O	
+2-19	müssen	VMINF	müssen	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich bedaure daß die Anmeldung so spät kam.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	bedaure	VVFIN	bedauern	_	O	O	
+3-3	daß	KOUS	dass	_	O	O	
+3-4	die	ART	die	_	O	O	
+3-5	Anmeldung	NN	Anmeldung	_	O	O	
+3-6	so	ADV	so	_	O	O	
+3-7	spät	ADJD	spät	_	O	O	
+3-8	kam	VVFIN	kommen	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Schrieb ich Ihnen schon, daß die 400 r für Ihren Gehülfen allerdings schon bewilligt waren, obleich ich bis zur Stunde noch immer keine officielle Nachricht darüber in Händen habe.
+4-1	Schrieb	VVFIN	schreiben	_	O	O	
+4-2	ich	PPER	ich	_	O	O	
+4-3	Ihnen	PPER	Sie	_	O	O	
+4-4	schon	ADV	schon	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	daß	KOUS	dass	_	O	O	
+4-7	die	ART	die	_	O	O	
+4-8	400	CARD	400	_	O	O	
+4-9	r	NE	r	_	O	O	
+4-10	für	APPR	für	_	O	O	
+4-11	Ihren	PPOSAT	ihr	_	O	O	
+4-12	Gehülfen	NN	<unknown>	_	O	O	
+4-13	allerdings	ADV	allerdings	_	O	O	
+4-14	schon	ADV	schon	_	O	O	
+4-15	bewilligt	VVPP	bewilligen	_	O	O	
+4-16	waren	VAFIN	sein	_	O	O	
+4-17	,	$,	,	_	O	O	
+4-18	obleich	VVFIN	<unknown>	_	O	O	
+4-19	ich	PPER	ich	_	O	O	
+4-20	bis	APPR	bis	_	O	O	
+4-21	zur	APPRART	zu	_	O	O	
+4-22	Stunde	NN	Stunde	_	O	O	
+4-23	noch	ADV	noch	_	O	O	
+4-24	immer	ADV	immer	_	O	O	
+4-25	keine	PIAT	keine	_	O	O	
+4-26	officielle	ADJA	<unknown>	_	O	O	
+4-27	Nachricht	NN	Nachricht	_	O	O	
+4-28	darüber	PAV	darüber	_	O	O	
+4-29	in	APPR	in	_	O	O	
+4-30	Händen	NN	Hand	_	O	O	
+4-31	habe	VAFIN	haben	_	O	O	
+4-32	.	$.	.	_	O	O	
+
+#id=5
+#text=Wir sind im letzten Monat vor den Ferien; um den 8. August herum denke ich vorläufig auf 14 Tage in den Thüringer Wald zu gehen mit meiner Frau und des disponibeln Kindern; doch werde ich auch dort Ihre Briefe erhalten.
+5-1	Wir	PPER	wir	_	O	O	
+5-2	sind	VAFIN	sein	_	O	O	
+5-3	im	APPRART	in	_	O	O	
+5-4	letzten	ADJA	letzt	_	O	O	
+5-5	Monat	NN	Monat	_	O	O	
+5-6	vor	APPR	vor	_	O	O	
+5-7	den	ART	die	_	O	O	
+5-8	Ferien	NN	Ferien	_	O	O	
+5-9	;	$.	;	_	O	O	
+5-10	um	KOUI	um	_	O	O	
+5-11	den	ART	die	_	O	O	
+5-12	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-13	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-14	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-15	herum	APZR	herum	_	O	O	
+5-16	denke	VVFIN	denken	_	O	O	
+5-17	ich	PPER	ich	_	O	O	
+5-18	vorläufig	ADJD	vorläufig	_	O	O	
+5-19	auf	APPR	auf	_	O	O	
+5-20	14	CARD	14	_	O	O	
+5-21	Tage	NN	Tag	_	O	O	
+5-22	in	APPR	in	_	O	O	
+5-23	den	ART	die	_	O	O	
+5-24	Thüringer	NN	Thüringer	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-25	Wald	NN	Wald	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+5-26	zu	PTKZU	zu	_	O	O	
+5-27	gehen	VVINF	gehen	_	O	O	
+5-28	mit	APPR	mit	_	O	O	
+5-29	meiner	PPOSAT	mein	_	O	O	
+5-30	Frau	NN	Frau	_	O	O	
+5-31	und	KON	und	_	O	O	
+5-32	des	ART	die	_	O	O	
+5-33	disponibeln	NN	<unknown>	_	O	O	
+5-34	Kindern	NN	Kind	_	O	O	
+5-35	;	$.	;	_	O	O	
+5-36	doch	ADV	doch	_	O	O	
+5-37	werde	VAFIN	werden	_	O	O	
+5-38	ich	PPER	ich	_	O	O	
+5-39	auch	ADV	auch	_	O	O	
+5-40	dort	ADV	dort	_	O	O	
+5-41	Ihre	PPOSAT	ihr	_	O	O	
+5-42	Briefe	NN	Brief	_	O	O	
+5-43	erhalten	VVPP	erhalten	_	O	O	
+5-44	.	$.	.	_	O	O	
+
+#id=6
+#text=Von dort schreibe ich Ihnen dann das Fernere.
+6-1	Von	APPR	von	_	O	O	
+6-2	dort	ADV	dort	_	O	O	
+6-3	schreibe	VVFIN	schreiben	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	Ihnen	PPER	Sie	_	O	O	
+6-6	dann	ADV	dann	_	O	O	
+6-7	das	ART	die	_	O	O	
+6-8	Fernere	NN	<unknown>	_	O	O	
+6-9	.	$.	.	_	O	O	
+
+#id=7
+#text=Alles was zum Hofe, zur Politik, zu den Spitzen der Regierung gehört, hält bereits Sommer Siesta in den Bädern und Bergen; doch ist unsre Temperatur hier bisher durchgängig sehr angenehm gewesen.
+7-1	Alles	PIAT	alle	_	O	O	
+7-2	was	PIS	was	_	O	O	
+7-3	zum	APPRART	zu	_	O	O	
+7-4	Hofe	NN	Hof	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	zur	APPRART	zu	_	O	O	
+7-7	Politik	NN	Politik	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	zu	APPR	zu	_	O	O	
+7-10	den	ART	die	_	O	O	
+7-11	Spitzen	NN	Spitze	_	O	O	
+7-12	der	ART	die	_	O	O	
+7-13	Regierung	NN	Regierung	_	O	O	
+7-14	gehört	VVFIN	gehören	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	hält	VVFIN	halten	_	O	O	
+7-17	bereits	ADV	bereits	_	O	O	
+7-18	Sommer	NN	Sommer	_	O	O	
+7-19	Siesta	NN	Siesta	_	O	O	
+7-20	in	APPR	in	_	O	O	
+7-21	den	ART	die	_	O	O	
+7-22	Bädern	NN	Bad	_	O	O	
+7-23	und	KON	und	_	O	O	
+7-24	Bergen	NN	Berg|Bergen	_	O	O	
+7-25	;	$.	;	_	O	O	
+7-26	doch	ADV	doch	_	O	O	
+7-27	ist	VAFIN	sein	_	O	O	
+7-28	unsre	PPOSAT	unsre	_	O	O	
+7-29	Temperatur	NN	Temperatur	_	O	O	
+7-30	hier	ADV	hier	_	O	O	
+7-31	bisher	ADV	bisher	_	O	O	
+7-32	durchgängig	ADJD	durchgängig	_	O	O	
+7-33	sehr	ADV	sehr	_	O	O	
+7-34	angenehm	ADJD	angenehm	_	O	O	
+7-35	gewesen	VAPP	sein	_	O	O	
+7-36	.	$.	.	_	O	O	
+
+#id=8
+#text=Meinen letzten Brief über Achenbach werden Sie erhalten haben.
+8-1	Meinen	PPOSAT	mein	_	O	O	
+8-2	letzten	ADJA	letzt	_	O	O	
+8-3	Brief	NN	Brief	_	O	O	
+8-4	über	APPR	über	_	O	O	
+8-5	Achenbach	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	werden	VAFIN	werden	_	O	O	
+8-7	Sie	PPER	Sie	_	O	O	
+8-8	erhalten	VVPP	erhalten	_	O	O	
+8-9	haben	VAINF	haben	_	O	O	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=Grüßen Sie Helbig's von Ihrem ergebensten R Lepsius
+9-1	Grüßen	NN	Gruß|Grüßen	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	Helbig's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-4	von	APPR	von	_	O	O	
+9-5	Ihrem	PPOSAT	ihr	_	O	O	
+9-6	ergebensten	ADJA	ergeben	_	O	O	
+9-7	R	NN	R	_	O	O	
+9-8	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

@@ -1,0 +1,192 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=3 Gerhard an Braun Berlin, 21. April 1846 an die Akademie unterblieb gestern aus Zeitmangel und kann nun erst ein Monat später erfolgen.
+1-1	3	CARD	3	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	an	APPR	an	_	O	O	
+1-12	die	ART	die	_	O	O	
+1-13	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-14	unterblieb	VVFIN	unterbleiben	_	O	O	
+1-15	gestern	ADV	gestern	_	O	O	
+1-16	aus	APPR	aus	_	O	O	
+1-17	Zeitmangel	NN	Zeitmangel	_	O	O	
+1-18	und	KON	und	_	O	O	
+1-19	kann	VMFIN	können	_	O	O	
+1-20	nun	ADV	nun	_	O	O	
+1-21	erst	ADV	erst	_	O	O	
+1-22	ein	ART	eine	_	O	O	
+1-23	Monat	NN	Monat	_	O	O	
+1-24	später	ADJD	spät	_	O	O	
+1-25	erfolgen	VVINF	erfolgen	_	O	O	
+1-26	.	$.	.	_	O	O	
+
+#id=2
+#text=Lepsius sah ich noch nicht; er ist in Naumburg mit der Braut.
+2-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	sah	VVFIN	sehen	_	O	O	
+2-3	ich	PPER	ich	_	O	O	
+2-4	noch	ADV	noch	_	O	O	
+2-5	nicht	PTKNEG	nicht	_	O	O	
+2-6	;	$.	;	_	O	O	
+2-7	er	PPER	er	_	O	O	
+2-8	ist	VAFIN	sein	_	O	O	
+2-9	in	APPR	in	_	O	O	
+2-10	Naumburg	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-11	mit	APPR	mit	_	O	O	
+2-12	der	ART	die	_	O	O	
+2-13	Braut	NN	Braut	_	O	O	
+2-14	.	$.	.	_	O	O	
+
+#id=3
+#text=Lassen Sie mich bald vom Abgang meiner Kiste hören.
+3-1	Lassen	VVFIN	lassen	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	mich	PRF	ich	_	O	O	
+3-4	bald	ADV	bald	_	O	O	
+3-5	vom	APPRART	von	_	O	O	
+3-6	Abgang	NN	Abgang	_	O	O	
+3-7	meiner	PPOSAT	mein	_	O	O	
+3-8	Kiste	NN	Kiste	_	O	O	
+3-9	hören	VVINF	hören	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Böckh geht nun an die neue Ausgabe seiner Staatshaushaltung.
+4-1	Böckh	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	geht	VVFIN	gehen	_	O	O	
+4-3	nun	ADV	nun	_	O	O	
+4-4	an	APPR	an	_	O	O	
+4-5	die	ART	die	_	O	O	
+4-6	neue	ADJA	neu	_	O	O	
+4-7	Ausgabe	NN	Ausgabe	_	O	O	
+4-8	seiner	PPOSAT	sein	_	O	O	
+4-9	Staatshaushaltung	NN	<unknown>	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Regionarien von Preller sind heraus; Text und allerlei Commentar.
+5-1	Die	ART	die	_	O	O	
+5-2	Regionarien	NN	<unknown>	_	O	O	
+5-3	von	APPR	von	_	O	O	
+5-4	Preller	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	sind	VAFIN	sein	_	O	O	
+5-6	heraus	ADV	heraus	_	O	O	
+5-7	;	$.	;	_	O	O	
+5-8	Text	NN	Text	_	O	O	
+5-9	und	KON	und	_	O	O	
+5-10	allerlei	PIAT	allerlei	_	O	O	
+5-11	Commentar	NN	<unknown>	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Viel Herzliches ans Kapitol, dem nun Usedom nächstertags angehören muß, und an sonstige römische Freunde Thr Gerhard Heraus ist auch das Monumentum Ancyranum von Franz (der Orestie zu geschweigen) mit Commentar von Zumpt jun.
+6-1	Viel	PIAT	viele	_	O	O	
+6-2	Herzliches	NN	Herzliche	_	O	O	
+6-3	ans	APPRART	ans	_	O	O	
+6-4	Kapitol	NN	Kapitol	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	dem	PRELS	die	_	O	O	
+6-7	nun	ADV	nun	_	O	O	
+6-8	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-9	nächstertags	ADV	<unknown>	_	O	O	
+6-10	angehören	VVINF	angehören	_	O	O	
+6-11	muß	VMFIN	müssen	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	und	KON	und	_	O	O	
+6-14	an	APPR	an	_	O	O	
+6-15	sonstige	ADJA	sonstig	_	O	O	
+6-16	römische	ADJA	römisch	_	O	O	
+6-17	Freunde	NN	Freund	_	O	O	
+6-18	Thr	NN	<unknown>	_	O	O	
+6-19	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-20	Heraus	NE	<unknown>	_	O	O	
+6-21	ist	VAFIN	sein	_	O	O	
+6-22	auch	ADV	auch	_	O	O	
+6-23	das	ART	die	_	O	O	
+6-24	Monumentum	NN	<unknown>	_	O	O	
+6-25	Ancyranum	NN	<unknown>	_	O	O	
+6-26	von	APPR	von	_	O	O	
+6-27	Franz	NE	Franz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-28	(	$(	(	_	O	O	
+6-29	der	ART	die	_	O	O	
+6-30	Orestie	NN	<unknown>	_	O	O	
+6-31	zu	PTKZU	zu	_	O	O	
+6-32	geschweigen	VVINF	<unknown>	_	O	O	
+6-33	)	$(	)	_	O	O	
+6-34	mit	APPR	mit	_	O	O	
+6-35	Commentar	NN	<unknown>	_	O	O	
+6-36	von	APPR	von	_	O	O	
+6-37	Zumpt	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-38	jun.	NE	jun.	_	O	O	
+
+#id=7
+#text=(1 1/2 rt ) Quer am Rande Da Kleines am leichtesten sich vergißt so bitte ich Sie die vergessen.
+7-1	(	$(	(	_	O	O	
+7-2	1	CARD	1	_	O	O	
+7-3	1/2	CARD	1/2	_	O	O	
+7-4	rt	NN	<unknown>	_	O	O	
+7-5	)	$(	)	_	O	O	
+7-6	Quer	ADV	quer	_	O	O	
+7-7	am	APPRART	an	_	O	O	
+7-8	Rande	NN	Rand	_	O	O	
+7-9	Da	ADV	da	_	O	O	
+7-10	Kleines	NN	Kleine	_	O	O	
+7-11	am	APPRART	an	_	O	O	
+7-12	leichtesten	ADJA	leicht	_	O	O	
+7-13	sich	PRF	sich	_	O	O	
+7-14	vergißt	VVFIN	vergessen	_	O	O	
+7-15	so	ADV	so	_	O	O	
+7-16	bitte	VVFIN	bitten	_	O	O	
+7-17	ich	PPER	ich	_	O	O	
+7-18	Sie	PPER	Sie	_	O	O	
+7-19	die	PDS	die	_	O	O	
+7-20	vergessen	VVINF	vergessen	_	O	O	
+7-21	.	$.	.	_	O	O	
+
+#id=8
+#text=.
+8-1	.	$.	.	_	O	O	
+
+#id=9
+#text=.
+9-1	.	$.	.	_	O	O	
+
+#id=10
+#text=.
+10-1	.	$.	.	_	O	O	
+
+#id=11
+#text=.
+11-1	.	$.	.	_	O	O	
+
+#id=12
+#text=.
+12-1	.	$.	.	_	O	O	
+
+#id=13
+#text=.
+13-1	.	$.	.	_	O	O	
+
+#id=14
+#text=.
+14-1	.	$.	.	_	O	O	
+
+#id=15
+#text=.
+15-1	.	$.	.	_	O	O	
+
+#id=16
+#text=und Ganymedes-Scherben nicht zu
+16-1	und	KON	und	_	O	O	
+16-2	Ganymedes-Scherben	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-3	nicht	PTKNEG	nicht	_	O	O	
+16-4	zu	PTKZU	zu	_	O	O	
+

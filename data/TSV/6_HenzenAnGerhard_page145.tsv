@@ -1,0 +1,332 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=1-- Ohne Nummer Henzen an Gerhard 25/VIII/53 Vor Ihrer muthmaßlicrlen .h.breise von Berlin, verehrter Herr Professor, sollen Sie doch wenigstens noch einmal von mir hBren.
+1-1	1	CARD	1	_	O	O	
+1-2	--	$(	--	_	O	O	
+1-3	Ohne	APPR	ohne	_	O	O	
+1-4	Nummer	NN	Nummer	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	25/VIII/53	VVFIN	<unknown>	_	O	O	
+1-9	Vor	APPR	vor	_	O	O	
+1-10	Ihrer	PPOSAT	ihr	_	O	O	
+1-11	muthmaßlicrlen	ADJA	<unknown>	_	O	O	
+1-12	.h.breise	NN	<unknown>	_	O	O	
+1-13	von	APPR	von	_	O	O	
+1-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-15	,	$,	,	_	O	O	
+1-16	verehrter	ADJA	verehrt	_	O	O	
+1-17	Herr	NN	Herr	_	O	O	
+1-18	Professor	NN	Professor	_	O	O	
+1-19	,	$,	,	_	O	O	
+1-20	sollen	VMFIN	sollen	_	O	O	
+1-21	Sie	PPER	Sie	_	O	O	
+1-22	doch	ADV	doch	_	O	O	
+1-23	wenigstens	ADV	wenigstens	_	O	O	
+1-24	noch	ADV	noch	_	O	O	
+1-25	einmal	ADV	einmal	_	O	O	
+1-26	von	APPR	von	_	O	O	
+1-27	mir	PPER	ich	_	O	O	
+1-28	hBren	NN	<unknown>	_	O	O	
+1-29	.	$.	.	_	O	O	
+
+#id=2
+#text=Meine wichtigste Neuigkeit ist, daß Brunn in Basilicata von Räubern ausgeplündert ist u. seine ganze Baarschaft ( über 30 Scudi ), Uhr u. Ueberzieher verloren u. nur die Inschriften gerettet hat.
+2-1	Meine	PPOSAT	mein	_	O	O	
+2-2	wichtigste	ADJA	wichtig	_	O	O	
+2-3	Neuigkeit	NN	Neuigkeit	_	O	O	
+2-4	ist	VAFIN	sein	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	daß	KOUS	dass	_	O	O	
+2-7	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-8	in	APPR	in	_	O	O	
+2-9	Basilicata	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-10	von	APPR	von	_	O	O	
+2-11	Räubern	NN	Räuber|Räubern	_	O	O	
+2-12	ausgeplündert	VVPP	ausplündern	_	O	O	
+2-13	ist	VAFIN	sein	_	O	O	
+2-14	u.	KON	und	_	O	O	
+2-15	seine	PPOSAT	sein	_	O	O	
+2-16	ganze	ADJA	ganz	_	O	O	
+2-17	Baarschaft	NN	<unknown>	_	O	O	
+2-18	(	$(	(	_	O	O	
+2-19	über	APPR	über	_	O	O	
+2-20	30	CARD	30	_	O	O	
+2-21	Scudi	NN	<unknown>	_	O	O	
+2-22	)	$(	)	_	O	O	
+2-23	,	$,	,	_	O	O	
+2-24	Uhr	NN	Uhr	_	O	O	
+2-25	u.	APPR	um	_	O	O	
+2-26	Ueberzieher	NN	<unknown>	_	O	O	
+2-27	verloren	VVPP	verlieren	_	O	O	
+2-28	u.	KON	und	_	O	O	
+2-29	nur	ADV	nur	_	O	O	
+2-30	die	ART	die	_	O	O	
+2-31	Inschriften	NN	Inschrift	_	O	O	
+2-32	gerettet	VVPP	retten	_	O	O	
+2-33	hat	VAFIN	haben	_	O	O	
+2-34	.	$.	.	_	O	O	
+
+#id=3
+#text=Da nicht zu verlangen, dß.
+3-1	Da	ADV	da	_	O	O	
+3-2	nicht	PTKNEG	nicht	_	O	O	
+3-3	zu	PTKZU	zu	_	O	O	
+3-4	verlangen	VVINF	verlangen	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	dß	VVFIN	<unknown>	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=derselbe zu aller Mühe noch Geldverlust leide u. schließlich mit Schulden von Rom gehe, so habe ich sogleich an Ritschl geschrieben, mBchte aber auch bei Ihnen anfragen, ob nicht ein akademischer Extrazuschuß von 50 rf.
+4-1	derselbe	PDAT	derselb	_	O	O	
+4-2	zu	APPR	zu	_	O	O	
+4-3	aller	PIAT	alle	_	O	O	
+4-4	Mühe	NN	Mühe	_	O	O	
+4-5	noch	KON	noch	_	O	O	
+4-6	Geldverlust	NN	Geldverlust	_	O	O	
+4-7	leide	VVFIN	leiden	_	O	O	
+4-8	u.	APPR	um	_	O	O	
+4-9	schließlich	ADV	schließlich	_	O	O	
+4-10	mit	APPR	mit	_	O	O	
+4-11	Schulden	NN	Schuld	_	O	O	
+4-12	von	APPR	von	_	O	O	
+4-13	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-14	gehe	VVFIN	gehen	_	O	O	
+4-15	,	$,	,	_	O	O	
+4-16	so	ADV	so	_	O	O	
+4-17	habe	VAFIN	haben	_	O	O	
+4-18	ich	PPER	ich	_	O	O	
+4-19	sogleich	ADV	sogleich	_	O	O	
+4-20	an	APPR	an	_	O	O	
+4-21	Ritschl	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-22	geschrieben	VVPP	schreiben	_	O	O	
+4-23	,	$,	,	_	O	O	
+4-24	mBchte	VVFIN	<unknown>	_	O	O	
+4-25	aber	ADV	aber	_	O	O	
+4-26	auch	ADV	auch	_	O	O	
+4-27	bei	APPR	bei	_	O	O	
+4-28	Ihnen	PPER	Sie	_	O	O	
+4-29	anfragen	VVINF	anfragen	_	O	O	
+4-30	,	$,	,	_	O	O	
+4-31	ob	KOUS	ob	_	O	O	
+4-32	nicht	PTKNEG	nicht	_	O	O	
+4-33	ein	ART	eine	_	O	O	
+4-34	akademischer	ADJA	akademisch	_	O	O	
+4-35	Extrazuschuß	NN	<unknown>	_	O	O	
+4-36	von	APPR	von	_	O	O	
+4-37	50	CARD	50	_	O	O	
+4-38	rf	VVFIN	<unknown>	_	O	O	
+4-39	.	$.	.	_	O	O	
+
+#id=5
+#text=mBglich sei.
+5-1	mBglich	ADJD	<unknown>	_	O	O	
+5-2	sei	VAFIN	sein	_	O	O	
+5-3	.	$.	.	_	O	O	
+
+#id=6
+#text=Er war bis Venosa, Conza, Potenza u. s. w., hat auch in Anzi einige Vasen gezeichnet, für welche ds.
+6-1	Er	PPER	er	_	O	O	
+6-2	war	VAFIN	sein	_	O	O	
+6-3	bis	APPR	bis	_	O	O	
+6-4	Venosa	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-5	,	$,	,	_	O	O	
+6-6	Conza	NE	<unknown>	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	Potenza	NE	Potenza	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-9	u.	KON	und	_	O	O	
+6-10	s.	ADV	s.	_	O	O	
+6-11	w.	APPR	w.	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	hat	VAFIN	haben	_	O	O	
+6-14	auch	ADV	auch	_	O	O	
+6-15	in	APPR	in	_	O	O	
+6-16	Anzi	NE	<unknown>	_	O	O	
+6-17	einige	PIAT	einige	_	O	O	
+6-18	Vasen	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-19	gezeichnet	VVPP	zeichnen	_	O	O	
+6-20	,	$,	,	_	O	O	
+6-21	für	APPR	für	_	O	O	
+6-22	welche	PRELS	welche	_	O	O	
+6-23	ds.	ADJD	<unknown>	_	O	O	
+
+#id=7
+#text=Institut eine kleine Zahlung übernehmen kann; die Riickreise r;eht nun über den Fucino.
+7-1	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-2	eine	ART	eine	_	O	O	
+7-3	kleine	ADJA	klein	_	O	O	
+7-4	Zahlung	NN	Zahlung	_	O	O	
+7-5	übernehmen	VVINF	übernehmen	_	O	O	
+7-6	kann	VMFIN	können	_	O	O	
+7-7	;	$.	;	_	O	O	
+7-8	die	ART	die	_	O	O	
+7-9	Riickreise	NN	<unknown>	_	O	O	
+7-10	r	NE	r	_	O	O	
+7-11	;	$.	;	_	O	O	
+7-12	eht	ADJD	<unknown>	_	O	O	
+7-13	nun	ADV	nun	_	O	O	
+7-14	über	APPR	über	_	O	O	
+7-15	den	ART	die	_	O	O	
+7-16	Fucino	NN	<unknown>	_	O	O	
+7-17	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich habe ihm einstweilen Geld geschickt.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	habe	VAFIN	haben	_	O	O	
+8-3	ihm	PPER	er	_	O	O	
+8-4	einstweilen	ADV	einstweilen	_	O	O	
+8-5	Geld	NN	Geld	_	O	O	
+8-6	geschickt	VVPP	schicken	_	O	O	
+8-7	.	$.	.	_	O	O	
+
+#id=9
+#text=.
+9-1	.	$.	.	_	O	O	
+
+#id=10
+#text=Der Annalendruck geht wieder recht langsam; doch hoffe ich, es durch meine Uahnungen trotz alledem durchzusetzen, dP.. noch vor meiner Rückkehr Alles v!nigstens gesetzt wird.
+10-1	Der	ART	die	_	O	O	
+10-2	Annalendruck	NN	<unknown>	_	O	O	
+10-3	geht	VVFIN	gehen	_	O	O	
+10-4	wieder	ADV	wieder	_	O	O	
+10-5	recht	ADJD	recht	_	O	O	
+10-6	langsam	ADJD	langsam	_	O	O	
+10-7	;	$.	;	_	O	O	
+10-8	doch	ADV	doch	_	O	O	
+10-9	hoffe	VVFIN	hoffen	_	O	O	
+10-10	ich	PPER	ich	_	O	O	
+10-11	,	$,	,	_	O	O	
+10-12	es	PPER	es	_	O	O	
+10-13	durch	APPR	durch	_	O	O	
+10-14	meine	PPOSAT	mein	_	O	O	
+10-15	Uahnungen	NN	<unknown>	_	O	O	
+10-16	trotz	APPR	trotz	_	O	O	
+10-17	alledem	PDS	alldie	_	O	O	
+10-18	durchzusetzen	VVIZU	durchsetzen	_	O	O	
+10-19	,	$,	,	_	O	O	
+10-20	dP.	NN	<unknown>	_	O	O	
+10-21	.	$.	.	_	O	O	
+10-22	noch	ADV	noch	_	O	O	
+10-23	vor	APPR	vor	_	O	O	
+10-24	meiner	PPOSAT	mein	_	O	O	
+10-25	Rückkehr	NN	Rückkehr	_	O	O	
+10-26	Alles	PIS	alle	_	O	O	
+10-27	v	VVFIN	<unknown>	_	O	O	
+10-28	!	$.	!	_	O	O	
+10-29	nigstens	NN	<unknown>	_	O	O	
+10-30	gesetzt	VVPP	setzen	_	O	O	
+10-31	wird	VAFIN	werden	_	O	O	
+10-32	.	$.	.	_	O	O	
+
+#id=11
+#text=Meine Frau ist in der Besserung, Gottlob !
+11-1	Meine	PPOSAT	mein	_	O	O	
+11-2	Frau	NN	Frau	_	O	O	
+11-3	ist	VAFIN	sein	_	O	O	
+11-4	in	APPR	in	_	O	O	
+11-5	der	ART	die	_	O	O	
+11-6	Besserung	NN	Besserung	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	Gottlob	NN	Gottlob	_	O	O	
+11-9	!	$.	!	_	O	O	
+
+#id=12
+#text=rasch fortceschritten, steht jedocb noch immer nicht auf festen Füßen.
+12-1	rasch	ADJD	rasch	_	O	O	
+12-2	fortceschritten	VVFIN	<unknown>	_	O	O	
+12-3	,	$,	,	_	O	O	
+12-4	steht	VVFIN	stehen	_	O	O	
+12-5	jedocb	ADV	<unknown>	_	O	O	
+12-6	noch	ADV	noch	_	O	O	
+12-7	immer	ADV	immer	_	O	O	
+12-8	nicht	PTKNEG	nicht	_	O	O	
+12-9	auf	APPR	auf	_	O	O	
+12-10	festen	ADJA	fest	_	O	O	
+12-11	Füßen	NN	Fuß	_	O	O	
+12-12	.	$.	.	_	O	O	
+
+#id=13
+#text=Es ist aber euch ein fabelhafter Sommer.
+13-1	Es	PPER	es	_	O	O	
+13-2	ist	VAFIN	sein	_	O	O	
+13-3	aber	KON	aber	_	O	O	
+13-4	euch	PPER	ihr	_	O	O	
+13-5	ein	ART	eine	_	O	O	
+13-6	fabelhafter	ADJA	fabelhaft	_	O	O	
+13-7	Sommer	NN	Sommer	_	O	O	
+13-8	.	$.	.	_	O	O	
+
+#id=14
+#text=Nachdem heftige Gewitter eine vBllige Abkühlung bewirkt hatten ( in Rom soll am 8~ Aug.
+14-1	Nachdem	KOUS	nachdem	_	O	O	
+14-2	heftige	ADJA	heftig	_	O	O	
+14-3	Gewitter	NN	Gewitter	_	O	O	
+14-4	eine	ART	eine	_	O	O	
+14-5	vBllige	NN	<unknown>	_	O	O	
+14-6	Abkühlung	NN	Abkühlung	_	O	O	
+14-7	bewirkt	VVPP	bewirken	_	O	O	
+14-8	hatten	VAFIN	haben	_	O	O	
+14-9	(	$(	(	_	O	O	
+14-10	in	APPR	in	_	O	O	
+14-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+14-12	soll	VMFIN	sollen	_	O	O	
+14-13	am	APPRART	an	_	O	O	
+14-14	8~	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+14-15	Aug.	NN	Aug.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=15
+#text=ds.
+15-1	ds.	ADJD	<unknown>	_	O	O	
+
+#id=16
+#text=Thermometer von 30 auf 15 Grad herabgegangen sein ), ist die Hitze noch einmal zurückgekehrt, u. der prachtvoll klare Himmel giebt keine Hoffnung baldiger Abkühlung.
+16-1	Thermometer	NN	Thermometer	_	O	O	
+16-2	von	APPR	von	_	O	O	
+16-3	30	CARD	30	_	O	O	
+16-4	auf	APPR	auf	_	O	O	
+16-5	15	CARD	15	_	O	O	
+16-6	Grad	NN	Grad	_	O	O	
+16-7	herabgegangen	VVPP	<unknown>	_	O	O	
+16-8	sein	VAINF	sein	_	O	O	
+16-9	)	$(	)	_	O	O	
+16-10	,	$,	,	_	O	O	
+16-11	ist	VAFIN	sein	_	O	O	
+16-12	die	ART	die	_	O	O	
+16-13	Hitze	NN	Hitze	_	O	O	
+16-14	noch	ADV	noch	_	O	O	
+16-15	einmal	ADV	einmal	_	O	O	
+16-16	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+16-17	,	$,	,	_	O	O	
+16-18	u.	APPR	um	_	O	O	
+16-19	der	ART	die	_	O	O	
+16-20	prachtvoll	ADJD	prachtvoll	_	O	O	
+16-21	klare	ADJA	klar	_	O	O	
+16-22	Himmel	NN	Himmel	_	O	O	
+16-23	giebt	VVFIN	<unknown>	_	O	O	
+16-24	keine	PIAT	keine	_	O	O	
+16-25	Hoffnung	NN	Hoffnung	_	O	O	
+16-26	baldiger	ADJA	baldig	_	O	O	
+16-27	Abkühlung	NN	Abkühlung	_	O	O	
+16-28	.	$.	.	_	O	O	
+
+#id=17
+#text=Pazienza 1_ Sonst nichts Neues.
+17-1	Pazienza	NE	<unknown>	_	O	O	
+17-2	1_	NN	<unknown>	_	O	O	
+17-3	Sonst	ADV	sonst	_	O	O	
+17-4	nichts	PIAT	nichts	_	O	O	
+17-5	Neues	NN	Neue	_	O	O	
+17-6	.	$.	.	_	O	O	
+
+#id=18
+#text=Leben Sie daher recht wohl.
+18-1	Leben	VVFIN	leben	_	O	O	
+18-2	Sie	PPER	Sie	_	O	O	
+18-3	daher	PAV	daher	_	O	O	
+18-4	recht	ADJD	recht	_	O	O	
+18-5	wohl	ADV	wohl	_	O	O	
+18-6	.	$.	.	_	O	O	
+

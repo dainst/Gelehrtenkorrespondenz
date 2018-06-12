@@ -1,0 +1,155 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=170 Gerhard an Braun Berlin, 1. April 1844 3 durch mich angezeigt.
+1-1	170	CARD	170	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	3	CARD	3	_	O	O	
+1-12	durch	APPR	durch	_	O	O	
+1-13	mich	PRF	ich	_	O	O	
+1-14	angezeigt	VVPP	anzeigen	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=Eben erhalte ich von Göttingen 65 rt für Cades, die ich sende sobald ich aus Ihrer Abrechnung, oder vielmehr aus der Notiz der neulichen Auslagen, sehe, ob und wie viel auch ich zugleich Geld zu senden habe.
+2-1	Eben	ADV	eben	_	O	O	
+2-2	erhalte	VVFIN	erhalten	_	O	O	
+2-3	ich	PPER	ich	_	O	O	
+2-4	von	APPR	von	_	O	O	
+2-5	Göttingen	NE	Göttingen	_	O	O	
+2-6	65	CARD	65	_	O	O	
+2-7	rt	NN	<unknown>	_	O	O	
+2-8	für	APPR	für	_	O	O	
+2-9	Cades	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-10	,	$,	,	_	O	O	
+2-11	die	PRELS	die	_	O	O	
+2-12	ich	PPER	ich	_	O	O	
+2-13	sende	VVFIN	senden	_	O	O	
+2-14	sobald	KOUS	sobald	_	O	O	
+2-15	ich	PPER	ich	_	O	O	
+2-16	aus	APPR	aus	_	O	O	
+2-17	Ihrer	PPOSAT	ihr	_	O	O	
+2-18	Abrechnung	NN	Abrechnung	_	O	O	
+2-19	,	$,	,	_	O	O	
+2-20	oder	KON	oder	_	O	O	
+2-21	vielmehr	ADV	vielmehr	_	O	O	
+2-22	aus	APPR	aus	_	O	O	
+2-23	der	ART	die	_	O	O	
+2-24	Notiz	NN	Notiz	_	O	O	
+2-25	der	ART	die	_	O	O	
+2-26	neulichen	ADJA	<unknown>	_	O	O	
+2-27	Auslagen	NN	Auslage	_	O	O	
+2-28	,	$,	,	_	O	O	
+2-29	sehe	VVFIN	sehen	_	O	O	
+2-30	,	$,	,	_	O	O	
+2-31	ob	KOUS	ob	_	O	O	
+2-32	und	KON	und	_	O	O	
+2-33	wie	KOUS	wie	_	O	O	
+2-34	viel	PIS	viele	_	O	O	
+2-35	auch	ADV	auch	_	O	O	
+2-36	ich	PPER	ich	_	O	O	
+2-37	zugleich	ADV	zugleich	_	O	O	
+2-38	Geld	NN	Geld	_	O	O	
+2-39	zu	PTKZU	zu	_	O	O	
+2-40	senden	VVINF	senden	_	O	O	
+2-41	habe	VAFIN	haben	_	O	O	
+2-42	.	$.	.	_	O	O	
+
+#id=3
+#text=Auch langt eben Henzens Brief an für den ich bestens danke.
+3-1	Auch	ADV	auch	_	O	O	
+3-2	langt	VVFIN	langen	_	O	O	
+3-3	eben	ADV	eben	_	O	O	
+3-4	Henzens	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	Brief	NN	Brief	_	O	O	
+3-6	an	APZR	an	_	O	O	
+3-7	für	APPR	für	_	O	O	
+3-8	den	ART	die	_	O	O	
+3-9	ich	PPER	ich	_	O	O	
+3-10	bestens	ADV	bestens	_	O	O	
+3-11	danke	VVFIN	danken	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Die pseudokoptische Inschrift hat hier wenig interessirt, daher es kaum verlohnt um einen Abdruck zu intrigiren.
+4-1	Die	ART	die	_	O	O	
+4-2	pseudokoptische	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-3	Inschrift	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-4	hat	VAFIN	haben	_	O	O	
+4-5	hier	ADV	hier	_	O	O	
+4-6	wenig	PIAT	wenige	_	O	O	
+4-7	interessirt	NN	<unknown>	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	daher	PAV	daher	_	O	O	
+4-10	es	PPER	es	_	O	O	
+4-11	kaum	ADV	kaum	_	O	O	
+4-12	verlohnt	ADJD	<unknown>	_	O	O	
+4-13	um	APPR	um	_	O	O	
+4-14	einen	ART	eine	_	O	O	
+4-15	Abdruck	NN	Abdruck	_	O	O	
+4-16	zu	APPR	zu	_	O	O	
+4-17	intrigiren	NN	<unknown>	_	O	O	
+4-18	.	$.	.	_	O	O	
+
+#id=5
+#text=Für die Besorgung meiner Sache mit Palagi besten Dank, und wiederhole ich nur meine Bitte die völlig gleiche Angelegenheit mit Promis abzumachen, und den Betrag des an Zardetti durch Fink gelangten Exemplars Etruskische und KampaniSChe Vasen gleichfalls gelegentlich ei~zi~en zu wollen.
+5-1	Für	APPR	für	_	O	O	
+5-2	die	ART	die	_	O	O	
+5-3	Besorgung	NN	Besorgung	_	O	O	
+5-4	meiner	PPOSAT	mein	_	O	O	
+5-5	Sache	NN	Sache	_	O	O	
+5-6	mit	APPR	mit	_	O	O	
+5-7	Palagi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-8	besten	ADJA	gut	_	O	O	
+5-9	Dank	NN	Dank	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	und	KON	und	_	O	O	
+5-12	wiederhole	VVFIN	wiederholen	_	O	O	
+5-13	ich	PPER	ich	_	O	O	
+5-14	nur	ADV	nur	_	O	O	
+5-15	meine	PPOSAT	mein	_	O	O	
+5-16	Bitte	NN	Bitte	_	O	O	
+5-17	die	ART	die	_	O	O	
+5-18	völlig	ADJD	völlig	_	O	O	
+5-19	gleiche	ADJA	gleich	_	O	O	
+5-20	Angelegenheit	NN	Angelegenheit	_	O	O	
+5-21	mit	APPR	mit	_	O	O	
+5-22	Promis	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-23	abzumachen	VVIZU	abmachen	_	O	O	
+5-24	,	$,	,	_	O	O	
+5-25	und	KON	und	_	O	O	
+5-26	den	ART	die	_	O	O	
+5-27	Betrag	NN	Betrag	_	O	O	
+5-28	des	ART	die	_	O	O	
+5-29	an	APPR	an	_	O	O	
+5-30	Zardetti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-31	durch	APPR	durch	_	O	O	
+5-32	Fink	NE	Fink	_	O	O	
+5-33	gelangten	ADJA	gelangt	_	O	O	
+5-34	Exemplars	NN	Exemplar	_	O	O	
+5-35	Etruskische	ADJA	<unknown>	_	O	O	
+5-36	und	KON	und	_	O	O	
+5-37	KampaniSChe	ADJA	<unknown>	_	O	O	
+5-38	Vasen	NN	Vase	_	O	O	
+5-39	gleichfalls	ADV	gleichfalls	_	O	O	
+5-40	gelegentlich	ADJD	gelegentlich	_	O	O	
+5-41	ei~zi~en	VVINF	<unknown>	_	O	O	
+5-42	zu	PTKZU	zu	_	O	O	
+5-43	wollen	VMINF	wollen	_	O	O	
+5-44	.	$.	.	_	O	O	
+
+#id=6
+#text=Von Herzen der Ihrige Gerhard
+6-1	Von	APPR	von	_	O	O	
+6-2	Herzen	NN	Herz	_	O	O	
+6-3	der	ART	die	_	O	O	
+6-4	Ihrige	PPOSAT	ihrige	_	O	O	
+6-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

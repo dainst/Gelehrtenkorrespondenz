@@ -1,0 +1,229 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=H Lieber Herr Professor Helbig an Henzen Siena, 3. September 1874 g. 6/9 74 r.
+1-1	H	NN	H	_	O	O	
+1-2	Lieber	ADJA	lieb	_	O	O	
+1-3	Herr	NN	Herr	_	O	O	
+1-4	Professor	NN	Professor	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	6/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=7/9 74 Siena 3. Sept.
+2-1	7/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-2	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-3	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	Sept.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=3
+#text=1874 Sprechen Sie, bitte, in meinem und meiner Frau Namen Fräulein Kopf unser herzlichstes Beileid aus wegen des Verlustes, der sie betroffen.
+3-1	1874	CARD	@card@	_	O	O	
+3-2	Sprechen	NN	Sprechen	_	O	O	
+3-3	Sie	PPER	Sie	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	bitte	VVIMP	bitten	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	in	APPR	in	_	O	O	
+3-8	meinem	PPOSAT	mein	_	O	O	
+3-9	und	KON	und	_	O	O	
+3-10	meiner	PPOSAT	mein	_	O	O	
+3-11	Frau	NN	Frau	_	O	O	
+3-12	Namen	NN	Name	_	O	O	
+3-13	Fräulein	NN	Fräulein	_	O	O	
+3-14	Kopf	NN	Kopf	_	O	O	
+3-15	unser	PPOSAT	unser	_	O	O	
+3-16	herzlichstes	ADJA	<unknown>	_	O	O	
+3-17	Beileid	NN	Beileid	_	O	O	
+3-18	aus	APPR	aus	_	O	O	
+3-19	wegen	APPR	wegen	_	O	O	
+3-20	des	ART	die	_	O	O	
+3-21	Verlustes	NN	Verlust	_	O	O	
+3-22	,	$,	,	_	O	O	
+3-23	der	PRELS	die	_	O	O	
+3-24	sie	PPER	sie	_	O	O	
+3-25	betroffen	VVPP	betreffen	_	O	O	
+3-26	.	$.	.	_	O	O	
+
+#id=4
+#text=Was Sie mir über die Normirung meines Gehalts für 1875 mittheilen, ist mir vollständig neu.
+4-1	Was	PRELS	was	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	mir	PRF	ich	_	O	O	
+4-4	über	APPR	über	_	O	O	
+4-5	die	ART	die	_	O	O	
+4-6	Normirung	NN	<unknown>	_	O	O	
+4-7	meines	PPOSAT	mein	_	O	O	
+4-8	Gehalts	NN	Gehalt	_	O	O	
+4-9	für	APPR	für	_	O	O	
+4-10	1875	CARD	@card@	_	O	O	
+4-11	mittheilen	NN	<unknown>	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	ist	VAFIN	sein	_	O	O	
+4-14	mir	PPER	ich	_	O	O	
+4-15	vollständig	ADJD	vollständig	_	O	O	
+4-16	neu	ADJD	neu	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=Da Sie ja von dem Briefe Kenntnis genommen, in dem mir Lepsius mittheilte, daß die engere centraldirection einstimmig erklärt, für Gleichsetzung meines Gehaltes mit dem athenischen wirken zu wollen, so werden Sie zugeben, daß es sich vom juristischem Standpunkte um nichts mehr und '" nichts weniger handelt, als um einen Wortbruch.
+5-1	Da	KOUS	da	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	ja	ADV	ja	_	O	O	
+5-4	von	APPR	von	_	O	O	
+5-5	dem	ART	die	_	O	O	
+5-6	Briefe	NN	Brief	_	O	O	
+5-7	Kenntnis	NN	Kenntnis	_	O	O	
+5-8	genommen	VVPP	nehmen	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	in	APPR	in	_	O	O	
+5-11	dem	PRELS	die	_	O	O	
+5-12	mir	PRF	ich	_	O	O	
+5-13	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-14	mittheilte	VVFIN	<unknown>	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	daß	KOUS	dass	_	O	O	
+5-17	die	ART	die	_	O	O	
+5-18	engere	ADJA	eng	_	O	O	
+5-19	centraldirection	NN	<unknown>	_	O	O	
+5-20	einstimmig	ADJD	einstimmig	_	O	O	
+5-21	erklärt	VVPP	erklären	_	O	O	
+5-22	,	$,	,	_	O	O	
+5-23	für	APPR	für	_	O	O	
+5-24	Gleichsetzung	NN	Gleichsetzung	_	O	O	
+5-25	meines	PPOSAT	mein	_	O	O	
+5-26	Gehaltes	NN	Gehalt	_	O	O	
+5-27	mit	APPR	mit	_	O	O	
+5-28	dem	ART	die	_	O	O	
+5-29	athenischen	ADJA	athenisch	_	O	O	
+5-30	wirken	VVINF	wirken	_	O	O	
+5-31	zu	PTKZU	zu	_	O	O	
+5-32	wollen	VMINF	wollen	_	O	O	
+5-33	,	$,	,	_	O	O	
+5-34	so	ADV	so	_	O	O	
+5-35	werden	VAFIN	werden	_	O	O	
+5-36	Sie	PPER	Sie	_	O	O	
+5-37	zugeben	VVINF	zugeben	_	O	O	
+5-38	,	$,	,	_	O	O	
+5-39	daß	KOUS	dass	_	O	O	
+5-40	es	PPER	es	_	O	O	
+5-41	sich	PRF	sich	_	O	O	
+5-42	vom	APPRART	von	_	O	O	
+5-43	juristischem	ADJA	juristisch	_	O	O	
+5-44	Standpunkte	NN	Standpunkt	_	O	O	
+5-45	um	APPR	um	_	O	O	
+5-46	nichts	PIS	nichts	_	O	O	
+5-47	mehr	PIS	mehr	_	O	O	
+5-48	und	KON	und	_	O	O	
+5-49	'	$(	'	_	O	O	
+5-50	"	$(	"	_	O	O	
+5-51	nichts	PIS	nichts	_	O	O	
+5-52	weniger	ADV	weniger	_	O	O	
+5-53	handelt	VVFIN	handeln	_	O	O	
+5-54	,	$,	,	_	O	O	
+5-55	als	KOUS	als	_	O	O	
+5-56	um	APPR	um	_	O	O	
+5-57	einen	ART	eine	_	O	O	
+5-58	Wortbruch	NN	Wortbruch	_	O	O	
+5-59	.	$.	.	_	O	O	
+
+#id=6
+#text=Möglich ist es allerdings, daß nach Abgabe jener Erklärung der engeren Centraldirection Bedenken aufstiegen, ob ihr Antrag bewilligt werden würde, und daß sie deßhalb ihre Forderungen herabstimmte.
+6-1	Möglich	ADJD	möglich	_	O	O	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	es	PPER	es	_	O	O	
+6-4	allerdings	ADV	allerdings	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	daß	KOUS	dass	_	O	O	
+6-7	nach	APPR	nach	_	O	O	
+6-8	Abgabe	NN	Abgabe	_	O	O	
+6-9	jener	PDAT	jen	_	O	O	
+6-10	Erklärung	NN	Erklärung	_	O	O	
+6-11	der	ART	die	_	O	O	
+6-12	engeren	ADJA	eng	_	O	O	
+6-13	Centraldirection	NN	<unknown>	_	O	O	
+6-14	Bedenken	NN	Bedenken	_	O	O	
+6-15	aufstiegen	VVFIN	aufsteigen	_	O	O	
+6-16	,	$,	,	_	O	O	
+6-17	ob	KOUS	ob	_	O	O	
+6-18	ihr	PPOSAT	ihr	_	O	O	
+6-19	Antrag	NN	Antrag	_	O	O	
+6-20	bewilligt	VVPP	bewilligen	_	O	O	
+6-21	werden	VAINF	werden	_	O	O	
+6-22	würde	VAFIN	werden	_	O	O	
+6-23	,	$,	,	_	O	O	
+6-24	und	KON	und	_	O	O	
+6-25	daß	KOUS	dass	_	O	O	
+6-26	sie	PPER	sie	_	O	O	
+6-27	deßhalb	VVFIN	<unknown>	_	O	O	
+6-28	ihre	PPOSAT	ihr	_	O	O	
+6-29	Forderungen	NN	Forderung	_	O	O	
+6-30	herabstimmte	VVFIN	<unknown>	_	O	O	
+6-31	.	$.	.	_	O	O	
+
+#id=7
+#text=Doch wäre es dann angebracht gewesen, die Veränderung des Antrags mir gegenüber zu motiviren.
+7-1	Doch	ADV	doch	_	O	O	
+7-2	wäre	VAFIN	sein	_	O	O	
+7-3	es	PPER	es	_	O	O	
+7-4	dann	ADV	dann	_	O	O	
+7-5	angebracht	VVPP	anbringen	_	O	O	
+7-6	gewesen	VAPP	sein	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	die	ART	die	_	O	O	
+7-9	Veränderung	NN	Veränderung	_	O	O	
+7-10	des	ART	die	_	O	O	
+7-11	Antrags	NN	Antrag	_	O	O	
+7-12	mir	PRF	ich	_	O	O	
+7-13	gegenüber	APPR	gegenüber	_	O	O	
+7-14	zu	APPR	zu	_	O	O	
+7-15	motiviren	NN	<unknown>	_	O	O	
+7-16	.	$.	.	_	O	O	
+
+#id=8
+#text=Möglich ist es aber auch, daß es sich wieder um ein Versehen handelt, daß man nicht genau wußte, wie hoch sich der athenische Gehalt beläuft, und daher in
+8-1	Möglich	ADJD	möglich	_	O	O	
+8-2	ist	VAFIN	sein	_	O	O	
+8-3	es	PPER	es	_	O	O	
+8-4	aber	ADV	aber	_	O	O	
+8-5	auch	ADV	auch	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	daß	KOUS	dass	_	O	O	
+8-8	es	PPER	es	_	O	O	
+8-9	sich	PRF	sich	_	O	O	
+8-10	wieder	ADV	wieder	_	O	O	
+8-11	um	APPR	um	_	O	O	
+8-12	ein	ART	eine	_	O	O	
+8-13	Versehen	NN	Versehen	_	O	O	
+8-14	handelt	VVFIN	handeln	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	daß	KOUS	dass	_	O	O	
+8-17	man	PIS	man	_	O	O	
+8-18	nicht	PTKNEG	nicht	_	O	O	
+8-19	genau	ADJD	genau	_	O	O	
+8-20	wußte	VVFIN	wissen	_	O	O	
+8-21	,	$,	,	_	O	O	
+8-22	wie	KOKOM	wie	_	O	O	
+8-23	hoch	ADJD	hoch	_	O	O	
+8-24	sich	PRF	sich	_	O	O	
+8-25	der	ART	die	_	O	O	
+8-26	athenische	ADJA	athenisch	_	O	O	
+8-27	Gehalt	NN	Gehalt	_	O	O	
+8-28	beläuft	VVFIN	belaufen	_	O	O	
+8-29	,	$,	,	_	O	O	
+8-30	und	KON	und	_	O	O	
+8-31	daher	PAV	daher	_	O	O	
+8-32	in	APPR	in	_	O	O	
+

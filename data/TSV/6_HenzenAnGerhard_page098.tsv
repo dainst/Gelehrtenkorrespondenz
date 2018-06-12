@@ -1,0 +1,189 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=395 22/XII/5).
+1-1	395	CARD	@card@	_	O	O	
+1-2	22/XII/5	CARD	<unknown>	_	O	O	
+1-3	)	$(	)	_	O	O	
+1-4	.	$.	.	_	O	O	
+
+#id=2
+#text=4 Henzen an Gerhard Und nun leben Sie wohl und empfangen Sie, wie Ihre 1.
+2-1	4	CARD	4	_	O	O	
+2-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-3	an	APPR	an	_	O	O	
+2-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-5	Und	KON	und	_	O	O	
+2-6	nun	ADV	nun	_	O	O	
+2-7	leben	VVFIN	leben	_	O	O	
+2-8	Sie	PPER	Sie	_	O	O	
+2-9	wohl	ADV	wohl	_	O	O	
+2-10	und	KON	und	_	O	O	
+2-11	empfangen	VVFIN	empfangen	_	O	O	
+2-12	Sie	PPER	Sie	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	wie	KOUS	wie	_	O	O	
+2-15	Ihre	PPOSAT	ihr	_	O	O	
+2-16	1	CARD	1	_	O	O	
+2-17	.	$.	.	_	O	O	
+
+#id=3
+#text=Frau, unsre herzlichsten Glückwünsche für das neue Jahr.
+3-1	Frau	NN	Frau	_	O	O	
+3-2	,	$,	,	_	O	O	
+3-3	unsre	PPOSAT	unsre	_	O	O	
+3-4	herzlichsten	ADJA	herzlich	_	O	O	
+3-5	Glückwünsche	NN	Glückwunsch	_	O	O	
+3-6	für	APPR	für	_	O	O	
+3-7	das	ART	die	_	O	O	
+3-8	neue	ADJA	neu	_	O	O	
+3-9	Jahr	NN	Jahr	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Möchte das nächste Sie selber uns einmal wieder bringen Zum 21~ April 1854 dürften Sie doch nicht fehlen.
+4-1	Möchte	VMFIN	mögen	_	O	O	
+4-2	das	ART	die	_	O	O	
+4-3	nächste	ADJA	nah	_	O	O	
+4-4	Sie	PPER	Sie	_	O	O	
+4-5	selber	ADV	selber	_	O	O	
+4-6	uns	PPER	wir	_	O	O	
+4-7	einmal	ADV	einmal	_	O	O	
+4-8	wieder	ADV	wieder	_	O	O	
+4-9	bringen	VVFIN	bringen	_	O	O	
+4-10	Zum	APPRART	zu	_	O	O	
+4-11	21~	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-12	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-13	1854	CARD	1854	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-14	dürften	VMFIN	dürfen	_	O	O	
+4-15	Sie	PPER	Sie	_	O	O	
+4-16	doch	ADV	doch	_	O	O	
+4-17	nicht	PTKNEG	nicht	_	O	O	
+4-18	fehlen	VVINF	fehlen	_	O	O	
+4-19	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihr ergebenster w. Henzen.
+5-1	Ihr	PPOSAT	ihr	_	O	O	
+5-2	ergebenster	ADJA	<unknown>	_	O	O	
+5-3	w.	APPR	w.	_	O	O	
+5-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	.	$.	.	_	O	O	
+
+#id=6
+#text=Rom 22/XII 52.
+6-1	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+6-2	22/XII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+6-3	52	CARD	52	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+6-4	.	$.	.	_	O	O	
+
+#id=7
+#text=!J:einer Frau geht' s wieder besser; Wetter noch immer mild u. wunderschön !
+7-1	!	$.	!	_	O	O	
+7-2	J:einer	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-3	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-4	geht	VVFIN	gehen	_	O	O	
+7-5	'	$(	'	_	O	O	
+7-6	s	NN	s	_	O	O	
+7-7	wieder	ADV	wieder	_	O	O	
+7-8	besser	ADJD	gut	_	O	O	
+7-9	;	$.	;	_	O	O	
+7-10	Wetter	NN	Wetter	_	O	O	
+7-11	noch	ADV	noch	_	O	O	
+7-12	immer	ADV	immer	_	O	O	
+7-13	mild	ADJD	mild	_	O	O	
+7-14	u.	KON	und	_	O	O	
+7-15	wunderschön	ADJD	wunderschön	_	O	O	
+7-16	!	$.	!	_	O	O	
+
+#id=8
+#text=- Nach dem Postvertrag sind wir ganz so gestellt, wie Sie in Deutschland.
+8-1	-	$(	-	_	O	O	
+8-2	Nach	APPR	nach	_	O	O	
+8-3	dem	ART	die	_	O	O	
+8-4	Postvertrag	NN	Postvertrag	_	O	O	
+8-5	sind	VAFIN	sein	_	O	O	
+8-6	wir	PPER	wir	_	O	O	
+8-7	ganz	ADV	ganz	_	O	O	
+8-8	so	ADV	so	_	O	O	
+8-9	gestellt	VVPP	stellen	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	wie	KOUS	wie	_	O	O	
+8-12	Sie	PPER	Sie	_	O	O	
+8-13	in	APPR	in	_	O	O	
+8-14	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-15	.	$.	.	_	O	O	
+
+#id=9
+#text=Eine Einlage verdoppel nicht mehr, wenn nicht der Brief über 1 Loth wiegt.
+9-1	Eine	ART	eine	_	O	O	
+9-2	Einlage	NN	Einlage	_	O	O	
+9-3	verdoppel	VVFIN	<unknown>	_	O	O	
+9-4	nicht	PTKNEG	nicht	_	O	O	
+9-5	mehr	ADV	mehr	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	wenn	KOUS	wenn	_	O	O	
+9-8	nicht	PTKNEG	nicht	_	O	O	
+9-9	der	ART	die	_	O	O	
+9-10	Brief	NN	Brief	_	O	O	
+9-11	über	APPR	über	_	O	O	
+9-12	1	CARD	1	_	O	O	
+9-13	Loth	NE	Loth	_	O	O	
+9-14	wiegt	VVFIN	wiegen	_	O	O	
+9-15	.	$.	.	_	O	O	
+
+#id=10
+#text=Mit 13 Baj.
+10-1	Mit	APPR	mit	_	O	O	
+10-2	13	CARD	13	_	O	O	
+10-3	Baj	NE	<unknown>	_	O	O	
+10-4	.	$.	.	_	O	O	
+
+#id=11
+#text=frankiren wir bis Berlin; wenn ich bis jetzt nicht frankire, so geschieht das, um die Preuß. Fostfreiheit für uns zu retten, u. Sie müssen nun entscheiden, was vortheil- ~after. :' "Für Ihren_ :are bzhl t Nicht$.
+11-1	frankiren	VVFIN	<unknown>	_	O	O	
+11-2	wir	PPER	wir	_	O	O	
+11-3	bis	APPR	bis	_	O	O	
+11-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-5	;	$.	;	_	O	O	
+11-6	wenn	KOUS	wenn	_	O	O	
+11-7	ich	PPER	ich	_	O	O	
+11-8	bis	KON	bis	_	O	O	
+11-9	jetzt	ADV	jetzt	_	O	O	
+11-10	nicht	PTKNEG	nicht	_	O	O	
+11-11	frankire	NE	<unknown>	_	O	O	
+11-12	,	$,	,	_	O	O	
+11-13	so	ADV	so	_	O	O	
+11-14	geschieht	VVFIN	geschehen	_	O	O	
+11-15	das	PDS	die	_	O	O	
+11-16	,	$,	,	_	O	O	
+11-17	um	KOUI	um	_	O	O	
+11-18	die	ART	die	_	O	O	
+11-19	Preuß	NN	<unknown>	_	O	O	
+11-20	.	$.	.	_	O	O	
+11-21	Fostfreiheit	NN	<unknown>	_	O	O	
+11-22	für	APPR	für	_	O	O	
+11-23	uns	PPER	wir	_	O	O	
+11-24	zu	PTKZU	zu	_	O	O	
+11-25	retten	VVINF	retten	_	O	O	
+11-26	,	$,	,	_	O	O	
+11-27	u.	KON	und	_	O	O	
+11-28	Sie	PPER	Sie	_	O	O	
+11-29	müssen	VMFIN	müssen	_	O	O	
+11-30	nun	ADV	nun	_	O	O	
+11-31	entscheiden	VVINF	entscheiden	_	O	O	
+11-32	,	$,	,	_	O	O	
+11-33	was	PRELS	was	_	O	O	
+11-34	vortheil-	ADJA	<unknown>	_	O	O	
+11-35	~after	NN	<unknown>	_	O	O	
+11-36	.	$.	.	_	O	O	
+11-37	:	$.	:	_	O	O	
+11-38	'	$(	'	_	O	O	
+11-39	"	$(	"	_	O	O	
+11-40	Für	APPR	für	_	O	O	
+11-41	Ihren_	ADJA	<unknown>	_	O	O	
+11-42	:are	NN	<unknown>	_	O	O	
+11-43	bzhl	ADJA	<unknown>	_	O	O	
+11-44	t	NN	t	_	O	O	
+11-45	Nicht$	NN	<unknown>	_	O	O	
+11-46	.	$.	.	_	O	O	
+

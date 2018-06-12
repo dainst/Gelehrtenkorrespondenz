@@ -1,0 +1,62 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=266 3 Gerhard an Braun Berlin, 26. Juli 1845 Von Herzen der Ihrige Gerhard Jahn hat Betrübniß mit seiner Frau die seit länger von ihm ist und gemüthskrank zu werden droht.
+1-1	266	CARD	@card@	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Von	APPR	von	_	O	O	
+1-13	Herzen	NN	Herz	_	O	O	
+1-14	der	ART	die	_	O	O	
+1-15	Ihrige	PPOSAT	ihrige	_	O	O	
+1-16	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-17	Jahn	NE	Jahn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-18	hat	VAFIN	haben	_	O	O	
+1-19	Betrübniß	NN	<unknown>	_	O	O	
+1-20	mit	APPR	mit	_	O	O	
+1-21	seiner	PPOSAT	sein	_	O	O	
+1-22	Frau	NN	Frau	_	O	O	
+1-23	die	ART	die	_	O	O	
+1-24	seit	APPR	seit	_	O	O	
+1-25	länger	ADJD	lang	_	O	O	
+1-26	von	APPR	von	_	O	O	
+1-27	ihm	PPER	er	_	O	O	
+1-28	ist	VAFIN	sein	_	O	O	
+1-29	und	KON	und	_	O	O	
+1-30	gemüthskrank	ADJD	<unknown>	_	O	O	
+1-31	zu	PTKZU	zu	_	O	O	
+1-32	werden	VAINF	werden	_	O	O	
+1-33	droht	VVFIN	drohen	_	O	O	
+1-34	.	$.	.	_	O	O	
+
+#id=2
+#text=Er ist sehr reizbar dabei.
+2-1	Er	PPER	er	_	O	O	
+2-2	ist	VAFIN	sein	_	O	O	
+2-3	sehr	ADV	sehr	_	O	O	
+2-4	reizbar	ADJD	reizbar	_	O	O	
+2-5	dabei	PAV	dabei	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Schreiben Sie mir nach Frankfurt sche Gesandtschaft.
+3-1	Schreiben	VVFIN	schreiben	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	mir	PRF	ich	_	O	O	
+3-4	nach	APPR	nach	_	O	O	
+3-5	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-6	sche	ADJA	<unknown>	_	O	O	
+3-7	Gesandtschaft	NN	Gesandtschaft	_	O	O	
+3-8	.	$.	.	_	O	O	
+
+#id=4
+#text=Kurhessi-
+4-1	Kurhessi-	TRUNC	<unknown>	_	O	O	
+

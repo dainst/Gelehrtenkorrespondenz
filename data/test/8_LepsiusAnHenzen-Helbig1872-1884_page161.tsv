@@ -1,0 +1,304 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=312 Lepsius an Henzen Berlin, 30. Juni 1874 2 beworben hatte.
+1-1	312	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	beworben	VVPP	bewerben	_	O	O	
+1-13	hatte	VAFIN	haben	_	O	O	
+1-14	.	$.	.	_	O	O	
+
+#id=2
+#text=Außerdem wurden von der engem Wahl ausgeschlossen Dr.
+2-1	Außerdem	ADV	außerdem	_	O	O	
+2-2	wurden	VAFIN	werden	_	O	O	
+2-3	von	APPR	von	_	O	O	
+2-4	der	ART	die	_	O	O	
+2-5	engem	ADJA	eng	_	O	O	
+2-6	Wahl	NN	Wahl	_	O	O	
+2-7	ausgeschlossen	ADJD	ausgeschlossen	_	O	O	
+2-8	Dr.	NN	Dr.	_	O	O	
+
+#id=3
+#text=Magnus aus der Lausitz, Dr.
+3-1	Magnus	NE	Magnus	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	aus	APPR	aus	_	O	O	
+3-3	der	ART	die	_	O	O	
+3-4	Lausitz	NN	Lausitz	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	Dr.	NN	Dr.	_	O	O	
+
+#id=4
+#text=F. Ridiger aus Dessau, Dr.
+4-1	F.	NE	F.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	Ridiger	VVFIN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-3	aus	APPR	aus	_	O	O	
+4-4	Dessau	NE	Dessau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-5	,	$,	,	_	O	O	
+4-6	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=5
+#text=Sigismund aus Leipzig, Dr.
+5-1	Sigismund	NE	Sigismund	_	O	O	
+5-2	aus	APPR	aus	_	O	O	
+5-3	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-4	,	$,	,	_	O	O	
+5-5	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=6
+#text=E. Oberg aus Holstein, Dr.
+6-1	E.	ART	e.	_	O	O	
+6-2	Oberg	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	aus	APPR	aus	_	O	O	
+6-4	Holstein	NE	Holstein	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-5	,	$,	,	_	O	O	
+6-6	Dr.	NN	Dr.	_	O	O	
+
+#id=7
+#text=Dütschke aus Posen, so daß am folgenden Tage nur verhandelt wurde über Dr.
+7-1	Dütschke	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	aus	APPR	aus	_	O	O	
+7-3	Posen	NN	Pose	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	so	ADV	so	_	O	O	
+7-6	daß	KOUS	dass	_	O	O	
+7-7	am	APPRART	an	_	O	O	
+7-8	folgenden	ADJA	folgend	_	O	O	
+7-9	Tage	NN	Tag	_	O	O	
+7-10	nur	ADV	nur	_	O	O	
+7-11	verhandelt	VVPP	verhandeln	_	O	O	
+7-12	wurde	VAFIN	werden	_	O	O	
+7-13	über	APPR	über	_	O	O	
+7-14	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=8
+#text=Scheins aus Aachen, C. Robert den Römer, Fränkel aus Landsberg a.
+8-1	Scheins	NN	Schein	_	O	O	
+8-2	aus	APPR	aus	_	O	O	
+8-3	Aachen	NE	Aachen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-4	,	$,	,	_	O	O	
+8-5	C.	NE	C.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	Robert	NE	Robert	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-7	den	ART	die	_	O	O	
+8-8	Römer	NE	Römer	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	Fränkel	NN	<unknown>	_	O	O	
+8-11	aus	APPR	aus	_	O	O	
+8-12	Landsberg	NE	Landsberg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-13	a.	APPR	a.	_	O	O	
+
+#id=9
+#text=W., Leo aus Regen.-rWalde, R.
+9-1	W.	NE	W.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+9-2	,	$,	,	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+9-3	Leo	NE	Leo	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+9-4	aus	APPR	aus	_	O	O	
+9-5	Regen.-rWalde	NN	<unknown>	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	R.	NE	R.	_	O	O	
+
+#id=10
+#text=~ aus Frankfurt a. M. Leopold Julius aus Dessau, W. Gebhardt aus Brandenburg und Dr.
+10-1	~	XY	~	_	O	O	
+10-2	aus	APPR	aus	_	O	O	
+10-3	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-4	a.	APPR	a.	_	O	O	
+10-5	M.	NE	M.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-6	Leopold	NE	Leopold	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-7	Julius	NE	Julius	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-8	aus	APPR	aus	_	O	O	
+10-9	Dessau	NE	Dessau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-10	,	$,	,	_	O	O	
+10-11	W.	NE	W.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-12	Gebhardt	NE	Gebhardt	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-13	aus	APPR	aus	_	O	O	
+10-14	Brandenburg	NE	Brandenburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-15	und	KON	und	_	O	O	
+10-16	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=11
+#text=Th,Schreiber aus Strehla.
+11-1	Th,Schreiber	NN	<unknown>	_	O	O	
+11-2	aus	APPR	aus	_	O	O	
+11-3	Strehla	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-4	.	$.	.	_	O	O	
+
+#id=12
+#text=Die 4 unterstrichenen wurden gewählt.
+12-1	Die	ART	die	_	O	O	
+12-2	4	CARD	4	_	O	O	
+12-3	unterstrichenen	ADJA	unterstrichen	_	O	O	
+12-4	wurden	VAFIN	werden	_	O	O	
+12-5	gewählt	VVPP	wählen	_	O	O	
+12-6	.	$.	.	_	O	O	
+
+#id=13
+#text=Für Athen wurde in der zweiten Sitzung des des ( sic) ersten Tags (27. n ) Prof.
+13-1	Für	APPR	für	_	O	O	
+13-2	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+13-3	wurde	VAFIN	werden	_	O	O	
+13-4	in	APPR	in	_	O	O	
+13-5	der	ART	die	_	O	O	
+13-6	zweiten	ADJA	zweit	_	O	O	
+13-7	Sitzung	NN	Sitzung	_	O	O	
+13-8	des	ART	die	_	O	O	
+13-9	des	ART	die	_	O	O	
+13-10	(	$(	(	_	O	O	
+13-11	sic	NE	<unknown>	_	O	O	
+13-12	)	$(	)	_	O	O	
+13-13	ersten	ADJA	erst	_	O	O	
+13-14	Tags	NN	Tag	_	O	O	
+13-15	(	$(	(	_	O	O	
+13-16	27	CARD	27	_	O	O	
+13-17	.	$.	.	_	O	O	
+13-18	n	ADJA	<unknown>	_	O	O	
+13-19	)	$(	)	_	O	O	
+13-20	Prof.	NN	Prof.	_	O	O	
+
+#id=14
+#text=Köhler gewählt, und wir glaubten durch die einstimmige Wahl ihn zur Annahme vermögen zu können.
+14-1	Köhler	NN	Köhler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	gewählt	VVPP	wählen	_	O	O	
+14-3	,	$,	,	_	O	O	
+14-4	und	KON	und	_	O	O	
+14-5	wir	PPER	wir	_	O	O	
+14-6	glaubten	VVFIN	glauben	_	O	O	
+14-7	durch	APPR	durch	_	O	O	
+14-8	die	ART	die	_	O	O	
+14-9	einstimmige	ADJA	einstimmig	_	O	O	
+14-10	Wahl	NN	Wahl	_	O	O	
+14-11	ihn	PPER	er	_	O	O	
+14-12	zur	APPRART	zu	_	O	O	
+14-13	Annahme	NN	Annahme	_	O	O	
+14-14	vermögen	VVINF	vermögen	_	O	O	
+14-15	zu	PTKZU	zu	_	O	O	
+14-16	können	VMINF	können	_	O	O	
+14-17	.	$.	.	_	O	O	
+
+#id=15
+#text=Es wurde ihm telegraphirt; aber am nächsten Tage erhielten wir die Antwort, daß er wegen außer ihm liegenden Gründen mit schwerem Herzen ablehnen müsse.
+15-1	Es	PPER	es	_	O	O	
+15-2	wurde	VAFIN	werden	_	O	O	
+15-3	ihm	PPER	er	_	O	O	
+15-4	telegraphirt	NN	<unknown>	_	O	O	
+15-5	;	$.	;	_	O	O	
+15-6	aber	ADV	aber	_	O	O	
+15-7	am	APPRART	an	_	O	O	
+15-8	nächsten	ADJA	nah	_	O	O	
+15-9	Tage	NN	Tag	_	O	O	
+15-10	erhielten	VVFIN	erhalten	_	O	O	
+15-11	wir	PPER	wir	_	O	O	
+15-12	die	ART	die	_	O	O	
+15-13	Antwort	NN	Antwort	_	O	O	
+15-14	,	$,	,	_	O	O	
+15-15	daß	KOUS	dass	_	O	O	
+15-16	er	PPER	er	_	O	O	
+15-17	wegen	APPR	wegen	_	O	O	
+15-18	außer	APPR	außer	_	O	O	
+15-19	ihm	PPER	er	_	O	O	
+15-20	liegenden	ADJA	liegend	_	O	O	
+15-21	Gründen	NN	Grund	_	O	O	
+15-22	mit	APPR	mit	_	O	O	
+15-23	schwerem	ADJA	schwer	_	O	O	
+15-24	Herzen	NN	Herz	_	O	O	
+15-25	ablehnen	VVINF	ablehnen	_	O	O	
+15-26	müsse	VMFIN	müssen	_	O	O	
+15-27	.	$.	.	_	O	O	
+
+#id=16
+#text=Die Berathung mußte also am dritten Tage wieder vorgenommen werden.
+16-1	Die	ART	die	_	O	O	
+16-2	Berathung	NN	<unknown>	_	O	O	
+16-3	mußte	VMFIN	müssen	_	O	O	
+16-4	also	ADV	also	_	O	O	
+16-5	am	APPRART	an	_	O	O	
+16-6	dritten	ADJA	dritt	_	O	O	
+16-7	Tage	NN	Tag	_	O	O	
+16-8	wieder	ADV	wieder	_	O	O	
+16-9	vorgenommen	VVPP	vornehmen	_	O	O	
+16-10	werden	VAINF	werden	_	O	O	
+16-11	.	$.	.	_	O	O	
+
+#id=17
+#text=Gegen Hirschfeld und Harbitt, der aus Wien gekommen war sich persönlich mit ---~ .. - den Herren bekannt zu machen, wurde Lüders gewählt, der schon vorher für den Fall seiner Wahl zugesagt hatte.
+17-1	Gegen	APPR	gegen	_	O	O	
+17-2	Hirschfeld	NN	Hirschfeld	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-3	und	KON	und	_	O	O	
+17-4	Harbitt	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-5	,	$,	,	_	O	O	
+17-6	der	PRELS	die	_	O	O	
+17-7	aus	APPR	aus	_	O	O	
+17-8	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+17-9	gekommen	VVPP	kommen	_	O	O	
+17-10	war	VAFIN	sein	_	O	O	
+17-11	sich	PRF	sich	_	O	O	
+17-12	persönlich	ADJD	persönlich	_	O	O	
+17-13	mit	PTKVZ	mit	_	O	O	
+17-14	--	$(	--	_	O	O	
+17-15	-~	ADJD	<unknown>	_	O	O	
+17-16	.	$.	.	_	O	O	
+17-17	.	$.	.	_	O	O	
+17-18	-	$(	-	_	O	O	
+17-19	den	ART	die	_	O	O	
+17-20	Herren	NN	Herr	_	O	O	
+17-21	bekannt	ADJD	bekannt	_	O	O	
+17-22	zu	PTKZU	zu	_	O	O	
+17-23	machen	VVINF	machen	_	O	O	
+17-24	,	$,	,	_	O	O	
+17-25	wurde	VAFIN	werden	_	O	O	
+17-26	Lüders	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-27	gewählt	VVPP	wählen	_	O	O	
+17-28	,	$,	,	_	O	O	
+17-29	der	PRELS	die	_	O	O	
+17-30	schon	ADV	schon	_	O	O	
+17-31	vorher	ADV	vorher	_	O	O	
+17-32	für	APPR	für	_	O	O	
+17-33	den	ART	die	_	O	O	
+17-34	Fall	NN	Fall	_	O	O	
+17-35	seiner	PPOSAT	sein	_	O	O	
+17-36	Wahl	NN	Wahl	_	O	O	
+17-37	zugesagt	VVPP	zusagen	_	O	O	
+17-38	hatte	VAFIN	haben	_	O	O	
+17-39	.	$.	.	_	O	O	
+
+#id=18
+#text=Eine andere größere Berathung betraf die Vertheilung der Fonds.
+18-1	Eine	ART	eine	_	O	O	
+18-2	andere	PIAT	andere	_	O	O	
+18-3	größere	ADJA	groß	_	O	O	
+18-4	Berathung	NN	<unknown>	_	O	O	
+18-5	betraf	VVFIN	betreffen	_	O	O	
+18-6	die	ART	die	_	O	O	
+18-7	Vertheilung	NN	<unknown>	_	O	O	
+18-8	der	ART	die	_	O	O	
+18-9	Fonds	NN	Fonds	_	O	O	
+18-10	.	$.	.	_	O	O	
+
+#id=19
+#text=Dabei kam nun auch die Anweisung für Rom zur Sprache, die bisher noch nicht hatte erfolgen
+19-1	Dabei	PAV	dabei	_	O	O	
+19-2	kam	VVFIN	kommen	_	O	O	
+19-3	nun	ADV	nun	_	O	O	
+19-4	auch	ADV	auch	_	O	O	
+19-5	die	ART	die	_	O	O	
+19-6	Anweisung	NN	Anweisung	_	O	O	
+19-7	für	APPR	für	_	O	O	
+19-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+19-9	zur	APPRART	zu	_	O	O	
+19-10	Sprache	NN	Sprache	_	O	O	
+19-11	,	$,	,	_	O	O	
+19-12	die	PRELS	die	_	O	O	
+19-13	bisher	ADV	bisher	_	O	O	
+19-14	noch	ADV	noch	_	O	O	
+19-15	nicht	PTKNEG	nicht	_	O	O	
+19-16	hatte	VAFIN	haben	_	O	O	
+19-17	erfolgen	VVINF	erfolgen	_	O	O	
+

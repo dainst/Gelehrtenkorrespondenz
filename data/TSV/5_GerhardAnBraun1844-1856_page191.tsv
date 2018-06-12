@@ -1,0 +1,247 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=3 Gerhard an Braun Berlin, 14. Mai 1846 für den Absatz der Nuova Serie, den Registerdruck, das Manifest zur deutschen Schulausgabe ecce gesetzt haben, hoffe ich weiter zu vernehmen.
+1-1	3	CARD	3	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	für	APPR	für	_	O	O	
+1-12	den	ART	die	_	O	O	
+1-13	Absatz	NN	Absatz	_	O	O	
+1-14	der	ART	die	_	O	O	
+1-15	Nuova	NN	<unknown>	_	O	O	
+1-16	Serie	NN	Serie	_	O	O	
+1-17	,	$,	,	_	O	O	
+1-18	den	ART	die	_	O	O	
+1-19	Registerdruck	NN	<unknown>	_	O	O	
+1-20	,	$,	,	_	O	O	
+1-21	das	ART	die	_	O	O	
+1-22	Manifest	NN	Manifest	_	O	O	
+1-23	zur	APPRART	zu	_	O	O	
+1-24	deutschen	ADJA	deutsch	_	O	O	
+1-25	Schulausgabe	NN	<unknown>	_	O	O	
+1-26	ecce	NE	<unknown>	_	O	O	
+1-27	gesetzt	VVPP	setzen	_	O	O	
+1-28	haben	VAFIN	haben	_	O	O	
+1-29	,	$,	,	_	O	O	
+1-30	hoffe	VVFIN	hoffen	_	O	O	
+1-31	ich	PPER	ich	_	O	O	
+1-32	weiter	ADV	weiter	_	O	O	
+1-33	zu	PTKZU	zu	_	O	O	
+1-34	vernehmen	VVINF	vernehmen	_	O	O	
+1-35	.	$.	.	_	O	O	
+
+#id=2
+#text=Ist die Ablösung von Frank an Duprat Ihrerseits angeordnet?
+2-1	Ist	VAFIN	sein	_	O	O	
+2-2	die	ART	die	_	O	O	
+2-3	Ablösung	NN	Ablösung	_	O	O	
+2-4	von	APPR	von	_	O	O	
+2-5	Frank	NE	Frank	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-6	an	APPR	an	_	O	O	
+2-7	Duprat	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-8	Ihrerseits	NN	<unknown>	_	O	O	
+2-9	angeordnet	VVPP	anordnen	_	O	O	
+2-10	?	$.	?	_	O	O	
+
+#id=3
+#text=Geben Sie ja den Franzosen möglichst wenig Anlaß zur Klage Es fehlt wenig um auch Luy.nes unlustig zu machen und seine Hand von uns abziehen zu lassen.
+3-1	Geben	VVFIN	geben	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	ja	ADV	ja	_	O	O	
+3-4	den	ART	die	_	O	O	
+3-5	Franzosen	NN	Franzose	_	O	O	
+3-6	möglichst	ADV	möglichst	_	O	O	
+3-7	wenig	PIAT	wenige	_	O	O	
+3-8	Anlaß	NN	Anlass	_	O	O	
+3-9	zur	APPRART	zu	_	O	O	
+3-10	Klage	NN	Klage	_	O	O	
+3-11	Es	PPER	es	_	O	O	
+3-12	fehlt	VVFIN	fehlen	_	O	O	
+3-13	wenig	PIS	wenige	_	O	O	
+3-14	um	APPR	um	_	O	O	
+3-15	auch	ADV	auch	_	O	O	
+3-16	Luy.nes	NN	<unknown>	_	O	O	
+3-17	unlustig	ADJD	unlustig	_	O	O	
+3-18	zu	PTKZU	zu	_	O	O	
+3-19	machen	VVINF	machen	_	O	O	
+3-20	und	KON	und	_	O	O	
+3-21	seine	PPOSAT	sein	_	O	O	
+3-22	Hand	NN	Hand	_	O	O	
+3-23	von	APPR	von	_	O	O	
+3-24	uns	PRF	wir	_	O	O	
+3-25	abziehen	VVINF	abziehen	_	O	O	
+3-26	zu	PTKZU	zu	_	O	O	
+3-27	lassen	VVINF	lassen	_	O	O	
+3-28	.	$.	.	_	O	O	
+
+#id=4
+#text=De Witte der nie ein Freund von Rochette war, hat geglaubt wegen der unangemessenen Polemik gegen denselben aus der Theilnahme an der Revue Archeologique sich zurückziehen zu müssen.
+4-1	De	NE	De	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	Witte	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-3	der	ART	die	_	O	O	
+4-4	nie	ADV	nie	_	O	O	
+4-5	ein	CARD	eins	_	O	O	
+4-6	Freund	NN	Freund	_	O	O	
+4-7	von	APPR	von	_	O	O	
+4-8	Rochette	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-9	war	VAFIN	sein	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	hat	VAFIN	haben	_	O	O	
+4-12	geglaubt	VVPP	glauben	_	O	O	
+4-13	wegen	APPR	wegen	_	O	O	
+4-14	der	ART	die	_	O	O	
+4-15	unangemessenen	ADJA	unangemessen	_	O	O	
+4-16	Polemik	NN	Polemik	_	O	O	
+4-17	gegen	APPR	gegen	_	O	O	
+4-18	denselben	PDAT	derselb	_	O	O	
+4-19	aus	APPR	aus	_	O	O	
+4-20	der	ART	die	_	O	O	
+4-21	Theilnahme	NN	<unknown>	_	O	O	
+4-22	an	APPR	an	_	O	O	
+4-23	der	ART	die	_	O	O	
+4-24	Revue	NN	Revue	_	O	O	
+4-25	Archeologique	NN	<unknown>	_	O	O	
+4-26	sich	PRF	sich	_	O	O	
+4-27	zurückziehen	VVINF	zurückziehen	_	O	O	
+4-28	zu	PTKZU	zu	_	O	O	
+4-29	müssen	VMINF	müssen	_	O	O	
+4-30	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Monatshefte zur Allgemeinen Zeitung sollen einen Aufsatz über mich haben, ohne Zweifel den uralten von Brunn.
+5-1	Die	ART	die	_	O	O	
+5-2	Monatshefte	NN	Monatsheft	_	O	O	
+5-3	zur	APPRART	zu	_	O	O	
+5-4	Allgemeinen	ADJA	allgemein	_	O	O	
+5-5	Zeitung	NN	Zeitung	_	O	O	
+5-6	sollen	VMFIN	sollen	_	O	O	
+5-7	einen	ART	eine	_	O	O	
+5-8	Aufsatz	NN	Aufsatz	_	O	O	
+5-9	über	APPR	über	_	O	O	
+5-10	mich	PRF	ich	_	O	O	
+5-11	haben	VAINF	haben	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	ohne	KOUI	ohne	_	O	O	
+5-14	Zweifel	NN	Zweifel	_	O	O	
+5-15	den	ART	die	_	O	O	
+5-16	uralten	ADJA	uralt	_	O	O	
+5-17	von	APPR	von	_	O	O	
+5-18	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-19	.	$.	.	_	O	O	
+
+#id=6
+#text=Durch baldige Übersicht meines letzten Rechnungsstandes werden Sie mich verbinden.
+6-1	Durch	APPR	durch	_	O	O	
+6-2	baldige	ADJA	baldig	_	O	O	
+6-3	Übersicht	NN	Übersicht	_	O	O	
+6-4	meines	PPOSAT	mein	_	O	O	
+6-5	letzten	ADJA	letzt	_	O	O	
+6-6	Rechnungsstandes	NN	<unknown>	_	O	O	
+6-7	werden	VAFIN	werden	_	O	O	
+6-8	Sie	PPER	Sie	_	O	O	
+6-9	mich	PRF	ich	_	O	O	
+6-10	verbinden	VVINF	verbinden	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Unbegreiflich, daß Vescovali noch Schwierigkeit gemacht hat; die Büchersache war so durchsprochen !
+7-1	Unbegreiflich	ADJD	unbegreiflich	_	O	O	
+7-2	,	$,	,	_	O	O	
+7-3	daß	KOUS	dass	_	O	O	
+7-4	Vescovali	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-5	noch	ADV	noch	_	O	O	
+7-6	Schwierigkeit	NN	Schwierigkeit	_	O	O	
+7-7	gemacht	VVPP	machen	_	O	O	
+7-8	hat	VAFIN	haben	_	O	O	
+7-9	;	$.	;	_	O	O	
+7-10	die	ART	die	_	O	O	
+7-11	Büchersache	NN	<unknown>	_	O	O	
+7-12	war	VAFIN	sein	_	O	O	
+7-13	so	ADV	so	_	O	O	
+7-14	durchsprochen	ADJD	<unknown>	_	O	O	
+7-15	!	$.	!	_	O	O	
+
+#id=8
+#text=Für Absendung und guten Kontrakt der Kisten besten Dank.
+8-1	Für	APPR	für	_	O	O	
+8-2	Absendung	NN	Absendung	_	O	O	
+8-3	und	KON	und	_	O	O	
+8-4	guten	ADJA	gut	_	O	O	
+8-5	Kontrakt	NN	Kontrakt	_	O	O	
+8-6	der	ART	die	_	O	O	
+8-7	Kisten	NN	Kiste	_	O	O	
+8-8	besten	ADJA	gut	_	O	O	
+8-9	Dank	NN	Dank	_	O	O	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=Ihre Notiz über die noch verkäuflichen Sculpturen bitte nicht zu verzögern.
+9-1	Ihre	PPOSAT	ihr	_	O	O	
+9-2	Notiz	NN	Notiz	_	O	O	
+9-3	über	APPR	über	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	noch	ADV	noch	_	O	O	
+9-6	verkäuflichen	ADJA	verkäuflich	_	O	O	
+9-7	Sculpturen	NN	<unknown>	_	O	O	
+9-8	bitte	ADV	bitte	_	O	O	
+9-9	nicht	PTKNEG	nicht	_	O	O	
+9-10	zu	PTKZU	zu	_	O	O	
+9-11	verzögern	VVINF	verzögern	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Herr W. Schulz muß doch wol in Neapel stecken.
+10-1	Herr	NN	Herr	_	O	O	
+10-2	W.	APPR	w.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-3	Schulz	NE	Schulz	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-4	muß	VMFIN	müssen	_	O	O	
+10-5	doch	ADV	doch	_	O	O	
+10-6	wol	ADJD	<unknown>	_	O	O	
+10-7	in	APPR	in	_	O	O	
+10-8	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-9	stecken	VVINF	stecken	_	O	O	
+10-10	.	$.	.	_	O	O	
+
+#id=11
+#text=Rochette hat hier den vollständigen litterarischen Beistand erhalten auf den seine Stellung und seine lange archäologische Rührigkeit Anspruch nehmen konnten; mehr habe ich ihm nicht geleistet so daß ich ihn in der
+11-1	Rochette	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	hat	VAFIN	haben	_	O	O	
+11-3	hier	ADV	hier	_	O	O	
+11-4	den	ART	die	_	O	O	
+11-5	vollständigen	ADJA	vollständig	_	O	O	
+11-6	litterarischen	ADJA	<unknown>	_	O	O	
+11-7	Beistand	NN	Beistand	_	O	O	
+11-8	erhalten	VVFIN	erhalten	_	O	O	
+11-9	auf	APPR	auf	_	O	O	
+11-10	den	ART	die	_	O	O	
+11-11	seine	PPOSAT	sein	_	O	O	
+11-12	Stellung	NN	Stellung	_	O	O	
+11-13	und	KON	und	_	O	O	
+11-14	seine	PPOSAT	sein	_	O	O	
+11-15	lange	ADJA	lang	_	O	O	
+11-16	archäologische	ADJA	archäologisch	_	O	O	
+11-17	Rührigkeit	NN	Rührigkeit	_	O	O	
+11-18	Anspruch	NN	Anspruch	_	O	O	
+11-19	nehmen	VVINF	nehmen	_	O	O	
+11-20	konnten	VMFIN	können	_	O	O	
+11-21	;	$.	;	_	O	O	
+11-22	mehr	ADV	mehr	_	O	O	
+11-23	habe	VAFIN	haben	_	O	O	
+11-24	ich	PPER	ich	_	O	O	
+11-25	ihm	PPER	er	_	O	O	
+11-26	nicht	PTKNEG	nicht	_	O	O	
+11-27	geleistet	VVPP	leisten	_	O	O	
+11-28	so	ADV	so	_	O	O	
+11-29	daß	KOUS	dass	_	O	O	
+11-30	ich	PPER	ich	_	O	O	
+11-31	ihn	PPER	er	_	O	O	
+11-32	in	APPR	in	_	O	O	
+11-33	der	ART	die	_	O	O	
+

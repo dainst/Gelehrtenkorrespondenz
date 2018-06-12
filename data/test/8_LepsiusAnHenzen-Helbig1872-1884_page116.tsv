@@ -1,0 +1,41 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=426 Lepsius an Renzen Berlin, 23. Dezember 1873 2 oder Italienischen Bibliothek aufsuchen und den genauen Titel abschreiben zu lassen?
+1-1	426	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	oder	KON	oder	_	O	O	
+1-13	Italienischen	ADJA	italienisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-14	Bibliothek	NN	Bibliothek	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+1-15	aufsuchen	VVINF	aufsuchen	_	O	O	
+1-16	und	KON	und	_	O	O	
+1-17	den	ART	die	_	O	O	
+1-18	genauen	ADJA	genau	_	O	O	
+1-19	Titel	NN	Titel	_	O	O	
+1-20	abschreiben	VVINF	abschreiben	_	O	O	
+1-21	zu	PTKZU	zu	_	O	O	
+1-22	lassen	VVINF	lassen	_	O	O	
+1-23	?	$.	?	_	O	O	
+
+#id=2
+#text=Mit herzlichen Wünschen für das Fest stets der Ihre R Lepsius
+2-1	Mit	APPR	mit	_	O	O	
+2-2	herzlichen	ADJA	herzlich	_	O	O	
+2-3	Wünschen	NN	Wunsch	_	O	O	
+2-4	für	APPR	für	_	O	O	
+2-5	das	ART	die	_	O	O	
+2-6	Fest	NN	Fest	_	O	O	
+2-7	stets	ADV	stets	_	O	O	
+2-8	der	ART	die	_	O	O	
+2-9	Ihre	PPOSAT	ihr	_	O	O	
+2-10	R	NN	R	_	O	O	
+2-11	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

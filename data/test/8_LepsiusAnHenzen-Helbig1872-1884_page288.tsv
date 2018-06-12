@@ -1,0 +1,245 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=%4 N. 82 2 Lepsius an Henzen Berlin, 15. August 1876 Budget 1877 beantragt werden.
+1-1	%4	CARD	@card@	_	O	O	
+1-2	N.	APPR	n.	_	O	O	
+1-3	82	CARD	@card@	_	O	O	
+1-4	2	CARD	2	_	O	O	
+1-5	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Budget	NN	Budget	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	beantragt	VVPP	beantragen	_	O	O	
+1-17	werden	VAFIN	werden	_	O	O	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Gleichzeitig aber unabhängig soll die Erhöhung des Gehalts für Helbig auf 6 000 Mark, und des Titels V,1.
+2-1	Gleichzeitig	ADJD	gleichzeitig	_	O	O	
+2-2	aber	KON	aber	_	O	O	
+2-3	unabhängig	ADJD	unabhängig	_	O	O	
+2-4	soll	VMFIN	sollen	_	O	O	
+2-5	die	ART	die	_	O	O	
+2-6	Erhöhung	NN	Erhöhung	_	O	O	
+2-7	des	ART	die	_	O	O	
+2-8	Gehalts	NN	Gehalt	_	O	O	
+2-9	für	APPR	für	_	O	O	
+2-10	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-11	auf	APPR	auf	_	O	O	
+2-12	6	CARD	6	_	O	O	
+2-13	000	CARD	@card@	_	O	O	
+2-14	Mark	NN	Mark	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	und	KON	und	_	O	O	
+2-17	des	ART	die	_	O	O	
+2-18	Titels	NN	Titel	_	O	O	
+2-19	V,1	CARD	<unknown>	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=mit 20 000 Mark beantragt werden.
+3-1	mit	APPR	mit	_	O	O	
+3-2	20	CARD	20	_	O	O	
+3-3	000	CARD	@card@	_	O	O	
+3-4	Mark	NN	Mark	_	O	O	
+3-5	beantragt	VVPP	beantragen	_	O	O	
+3-6	werden	VAFIN	werden	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Stipendiaten sollen, nach Krüger's Vorschlag, für die kleinen Zimmer eine halbe Lire pro Tag, 15 pro Monat zahlen.
+4-1	Die	ART	die	_	O	O	
+4-2	Stipendiaten	NN	Stipendiat	_	O	O	
+4-3	sollen	VMFIN	sollen	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	nach	APPR	nach	_	O	O	
+4-6	Krüger's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-7	Vorschlag	NN	Vorschlag	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	für	APPR	für	_	O	O	
+4-10	die	ART	die	_	O	O	
+4-11	kleinen	ADJA	klein	_	O	O	
+4-12	Zimmer	NN	Zimmer	_	O	O	
+4-13	eine	ART	eine	_	O	O	
+4-14	halbe	ADJA	halb	_	O	O	
+4-15	Lire	NN	Lira	_	O	O	
+4-16	pro	APPR	pro	_	O	O	
+4-17	Tag	NN	Tag	_	O	O	
+4-18	,	$,	,	_	O	O	
+4-19	15	CARD	15	_	O	O	
+4-20	pro	APPR	pro	_	O	O	
+4-21	Monat	NN	Monat	_	O	O	
+4-22	zahlen	VVFIN	zahlen	_	O	O	
+4-23	.	$.	.	_	O	O	
+
+#id=5
+#text=Die drei größeren Zimmer sollen 1 1/2 täglich, 45 monatlich zu haben sein; Stipendiatenzimmer für 1 Lire täglich auch an andre Gelehrte, aber immer mit Vorrang der Stipendiaten, abzulassen.
+5-1	Die	ART	die	_	O	O	
+5-2	drei	CARD	drei	_	O	O	
+5-3	größeren	ADJA	groß	_	O	O	
+5-4	Zimmer	NN	Zimmer	_	O	O	
+5-5	sollen	VMFIN	sollen	_	O	O	
+5-6	1	CARD	1	_	O	O	
+5-7	1/2	CARD	1/2	_	O	O	
+5-8	täglich	ADJD	täglich	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	45	CARD	45	_	O	O	
+5-11	monatlich	ADJD	monatlich	_	O	O	
+5-12	zu	PTKZU	zu	_	O	O	
+5-13	haben	VAINF	haben	_	O	O	
+5-14	sein	VAINF	sein	_	O	O	
+5-15	;	$.	;	_	O	O	
+5-16	Stipendiatenzimmer	NN	<unknown>	_	O	O	
+5-17	für	APPR	für	_	O	O	
+5-18	1	CARD	1	_	O	O	
+5-19	Lire	NN	Lira	_	O	O	
+5-20	täglich	ADJD	täglich	_	O	O	
+5-21	auch	ADV	auch	_	O	O	
+5-22	an	APPR	an	_	O	O	
+5-23	andre	PIAT	andere	_	O	O	
+5-24	Gelehrte	NN	Gelehrte	_	O	O	
+5-25	,	$,	,	_	O	O	
+5-26	aber	KON	aber	_	O	O	
+5-27	immer	ADV	immer	_	O	O	
+5-28	mit	APPR	mit	_	O	O	
+5-29	Vorrang	NN	Vorrang	_	O	O	
+5-30	der	ART	die	_	O	O	
+5-31	Stipendiaten	NN	Stipendiat	_	O	O	
+5-32	,	$,	,	_	O	O	
+5-33	abzulassen	VVIZU	ablassen	_	O	O	
+5-34	.	$.	.	_	O	O	
+
+#id=6
+#text=Dem Antrag Klügmann, wegen der architektonischen Werke und der Künstlerbibliothek wurde ohne Veränderung beigestimmt; doch soll die Ablehnung möglichst geräuschlos und mündlich hier durch Krüger geschehen.
+6-1	Dem	ART	die	_	O	O	
+6-2	Antrag	NN	Antrag	_	O	O	
+6-3	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	,	$,	,	_	O	O	
+6-5	wegen	APPR	wegen	_	O	O	
+6-6	der	ART	die	_	O	O	
+6-7	architektonischen	ADJA	architektonisch	_	O	O	
+6-8	Werke	NN	Werk	_	O	O	
+6-9	und	KON	und	_	O	O	
+6-10	der	ART	die	_	O	O	
+6-11	Künstlerbibliothek	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-12	wurde	VAFIN	werden	_	O	O	
+6-13	ohne	APPR	ohne	_	O	O	
+6-14	Veränderung	NN	Veränderung	_	O	O	
+6-15	beigestimmt	VVFIN	<unknown>	_	O	O	
+6-16	;	$.	;	_	O	O	
+6-17	doch	ADV	doch	_	O	O	
+6-18	soll	VMFIN	sollen	_	O	O	
+6-19	die	ART	die	_	O	O	
+6-20	Ablehnung	NN	Ablehnung	_	O	O	
+6-21	möglichst	ADV	möglichst	_	O	O	
+6-22	geräuschlos	ADJD	geräuschlos	_	O	O	
+6-23	und	KON	und	_	O	O	
+6-24	mündlich	ADJD	mündlich	_	O	O	
+6-25	hier	ADV	hier	_	O	O	
+6-26	durch	APPR	durch	_	O	O	
+6-27	Krüger	NN	<unknown>	_	O	O	
+6-28	geschehen	VVINF	geschehen	_	O	O	
+6-29	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Anwesenheit von Helbig in Volterra wurde gebilligt; die Reisekosten fallen auf den Fonds für unvorhergesehene Ausgaben.
+7-1	Die	ART	die	_	O	O	
+7-2	Anwesenheit	NN	Anwesenheit	_	O	O	
+7-3	von	APPR	von	_	O	O	
+7-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-5	in	APPR	in	_	O	O	
+7-6	Volterra	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-7	wurde	VAFIN	werden	_	O	O	
+7-8	gebilligt	VVPP	billigen	_	O	O	
+7-9	;	$.	;	_	O	O	
+7-10	die	ART	die	_	O	O	
+7-11	Reisekosten	NN	Reisekosten	_	O	O	
+7-12	fallen	VVFIN	fallen	_	O	O	
+7-13	auf	APPR	auf	_	O	O	
+7-14	den	ART	die	_	O	O	
+7-15	Fonds	NN	Fonds	_	O	O	
+7-16	für	APPR	für	_	O	O	
+7-17	unvorhergesehene	ADJA	unvorhergesehen	_	O	O	
+7-18	Ausgaben	NN	Ausgabe	_	O	O	
+7-19	.	$.	.	_	O	O	
+
+#id=8
+#text=In Erwiederung auf die Bedenken wegen des letzten Ankaufs des Goldfundes war die Meinung dem Sekretariat allerdings noch ganz besonders die möglichste Vorsicht zu empfehlen, damit man nicht in Konflikt mit den Gesetzenkomme und das Institut compromittire.
+8-1	In	APPR	in	_	O	O	
+8-2	Erwiederung	NN	<unknown>	_	O	O	
+8-3	auf	APPR	auf	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	Bedenken	NN	Bedenken	_	O	O	
+8-6	wegen	APPR	wegen	_	O	O	
+8-7	des	ART	die	_	O	O	
+8-8	letzten	ADJA	letzt	_	O	O	
+8-9	Ankaufs	NN	Ankauf	_	O	O	
+8-10	des	ART	die	_	O	O	
+8-11	Goldfundes	NN	<unknown>	_	O	O	
+8-12	war	VAFIN	sein	_	O	O	
+8-13	die	ART	die	_	O	O	
+8-14	Meinung	NN	Meinung	_	O	O	
+8-15	dem	ART	die	_	O	O	
+8-16	Sekretariat	NN	Sekretariat	_	O	O	
+8-17	allerdings	ADV	allerdings	_	O	O	
+8-18	noch	ADV	noch	_	O	O	
+8-19	ganz	ADV	ganz	_	O	O	
+8-20	besonders	ADV	besonders	_	O	O	
+8-21	die	ART	die	_	O	O	
+8-22	möglichste	ADJA	möglich	_	O	O	
+8-23	Vorsicht	NN	Vorsicht	_	O	O	
+8-24	zu	PTKZU	zu	_	O	O	
+8-25	empfehlen	VVINF	empfehlen	_	O	O	
+8-26	,	$,	,	_	O	O	
+8-27	damit	KOUS	damit	_	O	O	
+8-28	man	PIS	man	_	O	O	
+8-29	nicht	PTKNEG	nicht	_	O	O	
+8-30	in	APPR	in	_	O	O	
+8-31	Konflikt	NN	Konflikt	_	O	O	
+8-32	mit	APPR	mit	_	O	O	
+8-33	den	ART	die	_	O	O	
+8-34	Gesetzenkomme	NN	<unknown>	_	O	O	
+8-35	und	KON	und	_	O	O	
+8-36	das	ART	die	_	O	O	
+8-37	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-38	compromittire	ADJD	<unknown>	_	O	O	
+8-39	.	$.	.	_	O	O	
+
+#id=9
+#text=Das ist es was ich Ihnen und ~elbig von der Central Direktion und ihrerletzt~Sitzung mitzutheilen habe.
+9-1	Das	PDS	die	_	O	O	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	es	PPER	es	_	O	O	
+9-4	was	PRELS	was	_	O	O	
+9-5	ich	PPER	ich	_	O	O	
+9-6	Ihnen	PPER	Sie	_	O	O	
+9-7	und	KON	und	_	O	O	
+9-8	~elbig	ADJD	<unknown>	_	O	O	
+9-9	von	APPR	von	_	O	O	
+9-10	der	ART	die	_	O	O	
+9-11	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-12	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+9-13	und	KON	und	_	O	O	
+9-14	ihrerletzt~Sitzung	NN	<unknown>	_	O	O	
+9-15	mitzutheilen	VVINF	<unknown>	_	O	O	
+9-16	habe	VAFIN	haben	_	O	O	
+9-17	.	$.	.	_	O	O	
+
+#id=10
+#text=Köhler erwarten wir in den nächsten Tagen.
+10-1	Köhler	NE	Köhler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	erwarten	VVFIN	erwarten	_	O	O	
+10-3	wir	PPER	wir	_	O	O	
+10-4	in	APPR	in	_	O	O	
+10-5	den	ART	die	_	O	O	
+10-6	nächsten	ADJA	nah	_	O	O	
+10-7	Tagen	NN	Tag	_	O	O	
+10-8	.	$.	.	_	O	O	
+

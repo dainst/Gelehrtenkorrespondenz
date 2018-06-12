@@ -1,0 +1,327 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=" 7 141 20/IV/53 Verehrter Herr Professor Henzen an Gerhard Ich weiß nicht, ob Braun Ihnen unterdeß Geschrieben u. Ihnen gemeldet hat, dß.
+1-1	"	$(	"	_	O	O	
+1-2	7	CARD	7	_	O	O	
+1-3	141	CARD	@card@	_	O	O	
+1-4	20/IV/53	CARD	<unknown>	_	O	O	
+1-5	Verehrter	ADJA	verehrt	_	O	O	
+1-6	Herr	NN	Herr	_	O	O	
+1-7	Professor	NN	Professor	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-9	an	APPR	an	_	O	O	
+1-10	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-11	Ich	PPER	ich	_	O	O	
+1-12	weiß	VVFIN	wissen	_	O	O	
+1-13	nicht	PTKNEG	nicht	_	O	O	
+1-14	,	$,	,	_	O	O	
+1-15	ob	KOUS	ob	_	O	O	
+1-16	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-17	Ihnen	PPER	Sie	_	O	O	
+1-18	unterdeß	ADJA	<unknown>	_	O	O	
+1-19	Geschrieben	NN	<unknown>	_	O	O	
+1-20	u.	APPR	um	_	O	O	
+1-21	Ihnen	PPER	Sie	_	O	O	
+1-22	gemeldet	VVPP	melden	_	O	O	
+1-23	hat	VAFIN	haben	_	O	O	
+1-24	,	$,	,	_	O	O	
+1-25	dß	VVFIN	<unknown>	_	O	O	
+1-26	.	$.	.	_	O	O	
+
+#id=2
+#text=Usedom acceptirt hat u. übermorgen zum ersten Male pr~sidiren wird.
+2-1	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	acceptirt	VVPP	<unknown>	_	O	O	
+2-3	hat	VAFIN	haben	_	O	O	
+2-4	u.	KON	und	_	O	O	
+2-5	übermorgen	ADV	übermorgen	_	O	O	
+2-6	zum	APPRART	zu	_	O	O	
+2-7	ersten	ADJA	erst	_	O	O	
+2-8	Male	NN	Mal	_	O	O	
+2-9	pr~sidiren	NN	<unknown>	_	O	O	
+2-10	wird	VAFIN	werden	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Er hat sich zugleich sehr freundlich u. wohlwollend geäußert, u. zweifle ich nicht, daß er nach Kräften uns nützlich sein wird.
+3-1	Er	PPER	er	_	O	O	
+3-2	hat	VAFIN	haben	_	O	O	
+3-3	sich	PRF	sich	_	O	O	
+3-4	zugleich	ADV	zugleich	_	O	O	
+3-5	sehr	ADV	sehr	_	O	O	
+3-6	freundlich	ADJD	freundlich	_	O	O	
+3-7	u.	KON	und	_	O	O	
+3-8	wohlwollend	ADJD	wohlwollend	_	O	O	
+3-9	geäußert	VVPP	äußern	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	u.	KON	und	_	O	O	
+3-12	zweifle	VVFIN	zweifeln	_	O	O	
+3-13	ich	PPER	ich	_	O	O	
+3-14	nicht	PTKNEG	nicht	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	daß	KOUS	dass	_	O	O	
+3-17	er	PPER	er	_	O	O	
+3-18	nach	APPR	nach	_	O	O	
+3-19	Kräften	NN	Kraft	_	O	O	
+3-20	uns	PRF	wir	_	O	O	
+3-21	nützlich	ADJD	nützlich	_	O	O	
+3-22	sein	VAINF	sein	_	O	O	
+3-23	wird	VAFIN	werden	_	O	O	
+3-24	.	$.	.	_	O	O	
+
+#id=4
+#text=Gestern kam Dirksents Schrift an, mit der es steht, wie ich mir dachte : man muß dem guten Mann zurufen : si tacu:E.sses!
+4-1	Gestern	ADV	gestern	_	O	O	
+4-2	kam	VVFIN	kommen	_	O	O	
+4-3	Dirksents	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-4	Schrift	NN	Schrift	_	O	O	
+4-5	an	PTKVZ	an	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	mit	APPR	mit	_	O	O	
+4-8	der	PRELS	die	_	O	O	
+4-9	es	PPER	es	_	O	O	
+4-10	steht	VVFIN	stehen	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	wie	KOUS	wie	_	O	O	
+4-13	ich	PPER	ich	_	O	O	
+4-14	mir	PPER	ich	_	O	O	
+4-15	dachte	VVFIN	denken	_	O	O	
+4-16	:	$.	:	_	O	O	
+4-17	man	PIS	man	_	O	O	
+4-18	muß	VMFIN	müssen	_	O	O	
+4-19	dem	ART	die	_	O	O	
+4-20	guten	ADJA	gut	_	O	O	
+4-21	Mann	NN	Mann	_	O	O	
+4-22	zurufen	VVINF	zurufen	_	O	O	
+4-23	:	$.	:	_	O	O	
+4-24	si	ADJA	<unknown>	_	O	O	
+4-25	tacu:E.sses	NN	<unknown>	_	O	O	
+4-26	!	$.	!	_	O	O	
+
+#id=5
+#text=Die Inschrift ist falsafalsissima, und man muß ganz digiuno di scienza epigrafica sein, um das nicht im Augenblicke einzusehen, wenn man sich an solche Sachen macht.
+5-1	Die	ART	die	_	O	O	
+5-2	Inschrift	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-3	ist	VAFIN	sein	_	O	O	
+5-4	falsafalsissima	VVPP	<unknown>	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	und	KON	und	_	O	O	
+5-7	man	PIS	man	_	O	O	
+5-8	muß	VMFIN	müssen	_	O	O	
+5-9	ganz	ADV	ganz	_	O	O	
+5-10	digiuno	NE	<unknown>	_	O	O	
+5-11	di	NE	di	_	O	O	
+5-12	scienza	ADJD	<unknown>	_	O	O	
+5-13	epigrafica	ADJD	<unknown>	_	O	O	
+5-14	sein	VAINF	sein	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	um	APPR	um	_	O	O	
+5-17	das	PRELS	die	_	O	O	
+5-18	nicht	PTKNEG	nicht	_	O	O	
+5-19	im	APPRART	in	_	O	O	
+5-20	Augenblicke	NN	Augenblick	_	O	O	
+5-21	einzusehen	VVIZU	einsehen	_	O	O	
+5-22	,	$,	,	_	O	O	
+5-23	wenn	KOUS	wenn	_	O	O	
+5-24	man	PIS	man	_	O	O	
+5-25	sich	PRF	sich	_	O	O	
+5-26	an	APPR	an	_	O	O	
+5-27	solche	PIAT	solche	_	O	O	
+5-28	Sachen	NN	Sache	_	O	O	
+5-29	macht	VVFIN	machen	_	O	O	
+5-30	.	$.	.	_	O	O	
+
+#id=6
+#text=Uebrigens hat sie Mommsen keineswegs übersehen; sondern unter den falschen ( n.
+6-1	Uebrigens	NN	<unknown>	_	O	O	
+6-2	hat	VAFIN	haben	_	O	O	
+6-3	sie	PPER	sie	_	O	O	
+6-4	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	keineswegs	ADV	keineswegs	_	O	O	
+6-6	übersehen	VVPP	übersehen	_	O	O	
+6-7	;	$.	;	_	O	O	
+6-8	sondern	KON	sondern	_	O	O	
+6-9	unter	APPR	unter	_	O	O	
+6-10	den	ART	die	_	O	O	
+6-11	falschen	ADJA	falsch	_	O	O	
+6-12	(	$(	(	_	O	O	
+6-13	n.	APPR	n.	_	O	O	
+
+#id=7
+#text=520· ) nach Gebühr registrirt, und, da Herr D. ja Mommsents I.N.
+7-1	520·	NN	<unknown>	_	O	O	
+7-2	)	$(	)	_	O	O	
+7-3	nach	APPR	nach	_	O	O	
+7-4	Gebühr	NN	Gebühr	_	O	O	
+7-5	registrirt	NN	<unknown>	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	und	KON	und	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	da	KOUS	da	_	O	O	
+7-10	Herr	NN	Herr	_	O	O	
+7-11	D.	NE	D.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-12	ja	ADV	ja	_	O	O	
+7-13	Mommsents	NN	<unknown>	_	O	O	
+7-14	I.N.	NE	<unknown>	_	O	O	
+
+#id=8
+#text=benutzt, hätte er doch auch den Anhang ansehen sollen.
+8-1	benutzt	VVPP	benutzen	_	O	O	
+8-2	,	$,	,	_	O	O	
+8-3	hätte	VAFIN	haben	_	O	O	
+8-4	er	PPER	er	_	O	O	
+8-5	doch	ADV	doch	_	O	O	
+8-6	auch	ADV	auch	_	O	O	
+8-7	den	ART	die	_	O	O	
+8-8	Anhang	NN	Anhang	_	O	O	
+8-9	ansehen	VVINF	ansehen	_	O	O	
+8-10	sollen	VMINF	sollen	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich würde Ihnen eine druckbar.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	würde	VAFIN	werden	_	O	O	
+9-3	Ihnen	PPER	Sie	_	O	O	
+9-4	eine	PIS	eine	_	O	O	
+9-5	druckbar	ADJD	<unknown>	_	O	O	
+9-6	.	$.	.	_	O	O	
+
+#id=10
+#text=re Notiz da!Uber schicken, glaubte ich, Ihnen mit solcher Polemik einen Gefallen zu thun, u. verspare sie daher lieber für ireend ein andres blatt; denn ohne Abferticung darf er nicht bleiben, u. rolizei muß p;eiibt werden ohne Ansehen der Person.
+10-1	re	ADJA	<unknown>	_	O	O	
+10-2	Notiz	NN	Notiz	_	O	O	
+10-3	da	PTKVZ	da	_	O	O	
+10-4	!	$.	!	_	B-webanno.custom.LetterEntity_	B-OBJ	
+10-5	Uber	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+10-6	schicken	VVFIN	schicken	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	glaubte	VVFIN	glauben	_	O	O	
+10-9	ich	PPER	ich	_	O	O	
+10-10	,	$,	,	_	O	O	
+10-11	Ihnen	PPER	Sie	_	O	O	
+10-12	mit	APPR	mit	_	O	O	
+10-13	solcher	PIAT	solche	_	O	O	
+10-14	Polemik	NN	Polemik	_	O	O	
+10-15	einen	ART	eine	_	O	O	
+10-16	Gefallen	NN	Gefallen	_	O	O	
+10-17	zu	APPR	zu	_	O	O	
+10-18	thun	NE	<unknown>	_	O	O	
+10-19	,	$,	,	_	O	O	
+10-20	u.	KON	und	_	O	O	
+10-21	verspare	VVFIN	<unknown>	_	O	O	
+10-22	sie	PPER	sie	_	O	O	
+10-23	daher	PAV	daher	_	O	O	
+10-24	lieber	ADJD	lieb	_	O	O	
+10-25	für	APPR	für	_	O	O	
+10-26	ireend	NN	<unknown>	_	O	O	
+10-27	ein	ART	eine	_	O	O	
+10-28	andres	PIAT	andere	_	O	O	
+10-29	blatt	NN	Blatt	_	O	O	
+10-30	;	$.	;	_	O	O	
+10-31	denn	KON	denn	_	O	O	
+10-32	ohne	APPR	ohne	_	O	O	
+10-33	Abferticung	NN	<unknown>	_	O	O	
+10-34	darf	VMFIN	dürfen	_	O	O	
+10-35	er	PPER	er	_	O	O	
+10-36	nicht	PTKNEG	nicht	_	O	O	
+10-37	bleiben	VVINF	bleiben	_	O	O	
+10-38	,	$,	,	_	O	O	
+10-39	u.	APPR	um	_	O	O	
+10-40	rolizei	NN	<unknown>	_	O	O	
+10-41	muß	VMFIN	müssen	_	O	O	
+10-42	p	NE	p	_	O	O	
+10-43	;	$.	;	_	O	O	
+10-44	eiibt	ADJD	<unknown>	_	O	O	
+10-45	werden	VAFIN	werden	_	O	O	
+10-46	ohne	APPR	ohne	_	O	O	
+10-47	Ansehen	NN	Ansehen	_	O	O	
+10-48	der	ART	die	_	O	O	
+10-49	Person	NN	Person	_	O	O	
+10-50	.	$.	.	_	O	O	
+
+#id=11
+#text=Vielen Dank fUr Ihren Jahresbericht.
+11-1	Vielen	PIS	viele	_	O	O	
+11-2	Dank	APPR	dank	_	O	O	
+11-3	fUr	NN	<unknown>	_	O	O	
+11-4	Ihren	PPOSAT	ihr	_	O	O	
+11-5	Jahresbericht	NN	Jahresbericht	_	O	O	
+11-6	.	$.	.	_	O	O	
+
+#id=12
+#text=Nur h~tte ich gewünscht, Sie hätten nicht einer Seits meinen Aufsatz so gelobt, was er wahrscheinlich nicht verdient, SINGEI<T,ArJNERT U0fD Am;G~~:3TRICTli~l~ !
+12-1	Nur	ADV	nur	_	O	O	
+12-2	h~tte	VVFIN	<unknown>	_	O	O	
+12-3	ich	PPER	ich	_	O	O	
+12-4	gewünscht	VVPP	wünschen	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	Sie	PPER	Sie	_	O	O	
+12-7	hätten	VAFIN	haben	_	O	O	
+12-8	nicht	PTKNEG	nicht	_	O	O	
+12-9	einer	ART	eine	_	O	O	
+12-10	Seits	NN	<unknown>	_	O	O	
+12-11	meinen	PPOSAT	mein	_	O	O	
+12-12	Aufsatz	NN	Aufsatz	_	O	O	
+12-13	so	ADV	so	_	O	O	
+12-14	gelobt	VVPP	geloben|loben	_	O	O	
+12-15	,	$,	,	_	O	O	
+12-16	was	PWS	was	_	O	O	
+12-17	er	PPER	er	_	O	O	
+12-18	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+12-19	nicht	PTKNEG	nicht	_	O	O	
+12-20	verdient	VVPP	verdienen	_	O	O	
+12-21	,	$,	,	_	O	O	
+12-22	SINGEI<T,ArJNERT	NN	<unknown>	_	O	O	
+12-23	U0fD	NN	<unknown>	_	O	O	
+12-24	Am	APPRART	an	_	O	O	
+12-25	;	$.	;	_	O	O	
+12-26	G~~:3TRICTli~l~	NE	<unknown>	_	O	O	
+12-27	!	$.	!	_	O	O	
+
+#id=13
+#text=( andrer Sei ts ihn nicht cha~äkt~risi~t als-hanaelnd nb~r Deutschlands ~nsprliche an die Behandlung der Inschriften ) Verzeihen Sie, ich hatte Ihren Ausdruck mißverstanden!
+13-1	(	$(	(	_	O	O	
+13-2	andrer	PIS	andere	_	O	O	
+13-3	Sei	VAFIN	sein	_	O	O	
+13-4	ts	ADJD	<unknown>	_	O	O	
+13-5	ihn	PPER	er	_	O	O	
+13-6	nicht	PTKNEG	nicht	_	O	O	
+13-7	cha~äkt~risi~t	ADJA	<unknown>	_	O	O	
+13-8	als-hanaelnd	ADJD	<unknown>	_	O	O	
+13-9	nb~r	NE	<unknown>	_	O	O	
+13-10	Deutschlands	NE	Deutschland	_	O	O	
+13-11	~nsprliche	NN	<unknown>	_	O	O	
+13-12	an	APPR	an	_	O	O	
+13-13	die	ART	die	_	O	O	
+13-14	Behandlung	NN	Behandlung	_	O	O	
+13-15	der	ART	die	_	O	O	
+13-16	Inschriften	NN	Inschrift	_	O	O	
+13-17	)	$(	)	_	O	O	
+13-18	Verzeihen	NN	Verzeihen	_	O	O	
+13-19	Sie	PPER	Sie	_	O	O	
+13-20	,	$,	,	_	O	O	
+13-21	ich	PPER	ich	_	O	O	
+13-22	hatte	VAFIN	haben	_	O	O	
+13-23	Ihren	PPOSAT	ihr	_	O	O	
+13-24	Ausdruck	NN	Ausdruck	_	O	O	
+13-25	mißverstanden	VVPP	missverstehen	_	O	O	
+13-26	!	$.	!	_	O	O	
+
+#id=14
+#text=chm.- .
+14-1	chm.-	NE	<unknown>	_	O	O	
+14-2	.	$.	.	_	O	O	
+
+#id=15
+#text=andrer Seits nicht im geraden Gegesatze zu ~darln ent-
+15-1	andrer	PIAT	andere	_	O	O	
+15-2	Seits	NN	<unknown>	_	O	O	
+15-3	nicht	PTKNEG	nicht	_	O	O	
+15-4	im	APPRART	in	_	O	O	
+15-5	geraden	ADJA	gerade	_	O	O	
+15-6	Gegesatze	NN	<unknown>	_	O	O	
+15-7	zu	APPR	zu	_	O	O	
+15-8	~darln	NN	<unknown>	_	O	O	
+15-9	ent-	TRUNC	ent-	_	O	O	
+

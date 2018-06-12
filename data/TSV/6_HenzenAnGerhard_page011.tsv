@@ -1,0 +1,363 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=\~f '.
+1-1	\~f	NE	<unknown>	_	O	O	
+1-2	'	$(	'	_	O	O	
+1-3	.	$.	.	_	O	O	
+
+#id=2
+#text=i Ohne Nummer Henzen an Gerhard 22/VI/51 Verehrtester Herr krofessor Sie haben wohl schon lange Briefe von mir erwartet, und mit Recht; aber Sie wissen auch, wie es auf der Reise trotz besten Willens ergeht, u. werden daher verzeihen, daß ich so nachläßig gewesen.
+2-1	i	NE	i	_	O	O	
+2-2	Ohne	APPR	ohne	_	O	O	
+2-3	Nummer	NN	Nummer	_	O	O	
+2-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-5	an	APPR	an	_	O	O	
+2-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-7	22/VI/51	CARD	<unknown>	_	O	O	
+2-8	Verehrtester	NN	<unknown>	_	O	O	
+2-9	Herr	NN	Herr	_	O	O	
+2-10	krofessor	NN	<unknown>	_	O	O	
+2-11	Sie	PPER	Sie	_	O	O	
+2-12	haben	VAFIN	haben	_	O	O	
+2-13	wohl	ADV	wohl	_	O	O	
+2-14	schon	ADV	schon	_	O	O	
+2-15	lange	ADJA	lang	_	O	O	
+2-16	Briefe	NN	Brief	_	O	O	
+2-17	von	APPR	von	_	O	O	
+2-18	mir	PPER	ich	_	O	O	
+2-19	erwartet	VVPP	erwarten	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	und	KON	und	_	O	O	
+2-22	mit	APPR	mit	_	O	O	
+2-23	Recht	NN	Recht	_	O	O	
+2-24	;	$.	;	_	O	O	
+2-25	aber	KON	aber	_	O	O	
+2-26	Sie	PPER	Sie	_	O	O	
+2-27	wissen	VVFIN	wissen	_	O	O	
+2-28	auch	ADV	auch	_	O	O	
+2-29	,	$,	,	_	O	O	
+2-30	wie	KOUS	wie	_	O	O	
+2-31	es	PPER	es	_	O	O	
+2-32	auf	APPR	auf	_	O	O	
+2-33	der	ART	die	_	O	O	
+2-34	Reise	NN	Reise	_	O	O	
+2-35	trotz	APPR	trotz	_	O	O	
+2-36	besten	ADJA	gut	_	O	O	
+2-37	Willens	NN	Wille	_	O	O	
+2-38	ergeht	VVFIN	ergehen	_	O	O	
+2-39	,	$,	,	_	O	O	
+2-40	u.	KON	und	_	O	O	
+2-41	werden	VAFIN	werden	_	O	O	
+2-42	daher	PAV	daher	_	O	O	
+2-43	verzeihen	VVINF	verzeihen	_	O	O	
+2-44	,	$,	,	_	O	O	
+2-45	daß	KOUS	dass	_	O	O	
+2-46	ich	PPER	ich	_	O	O	
+2-47	so	ADV	so	_	O	O	
+2-48	nachläßig	ADJD	<unknown>	_	O	O	
+2-49	gewesen	VAPP	sein	_	O	O	
+2-50	.	$.	.	_	O	O	
+
+#id=3
+#text=Jetzt endlich musste ich Ihnen wohl unser Nahen verkünden.
+3-1	Jetzt	ADV	jetzt	_	O	O	
+3-2	endlich	ADV	endlich	_	O	O	
+3-3	musste	VMFIN	müssen	_	O	O	
+3-4	ich	PPER	ich	_	O	O	
+3-5	Ihnen	PPER	Sie	_	O	O	
+3-6	wohl	ADV	wohl	_	O	O	
+3-7	unser	PPOSAT	unser	_	O	O	
+3-8	Nahen	NN	Nahe|Nahen	_	O	O	
+3-9	verkünden	VVINF	verkünden	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=- Nach ein paar Tagen """ufenthalt in Florenz hat uns Venedig, das auch ich noch gar nicht kannte, u. wo zuerst schlechtes Wetter, dann Festtage uns hinderlich wurden, längere Zeit gefesselt.
+4-1	-	$(	-	_	O	O	
+4-2	Nach	APPR	nach	_	O	O	
+4-3	ein	ART	eine	_	O	O	
+4-4	paar	PIAT	paar	_	O	O	
+4-5	Tagen	NN	Tag	_	O	O	
+4-6	"	$(	"	_	O	O	
+4-7	"	$(	"	_	O	O	
+4-8	"	$(	"	_	O	O	
+4-9	ufenthalt	NN	<unknown>	_	O	O	
+4-10	in	APPR	in	_	O	O	
+4-11	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-12	hat	VAFIN	haben	_	O	O	
+4-13	uns	PPER	wir	_	O	O	
+4-14	Venedig	NE	Venedig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-15	,	$,	,	_	O	O	
+4-16	das	PRELS	die	_	O	O	
+4-17	auch	ADV	auch	_	O	O	
+4-18	ich	PPER	ich	_	O	O	
+4-19	noch	ADV	noch	_	O	O	
+4-20	gar	ADV	gar	_	O	O	
+4-21	nicht	PTKNEG	nicht	_	O	O	
+4-22	kannte	VVFIN	kennen	_	O	O	
+4-23	,	$,	,	_	O	O	
+4-24	u.	APPR	um	_	O	O	
+4-25	wo	PWAV	wo	_	O	O	
+4-26	zuerst	ADV	zuerst	_	O	O	
+4-27	schlechtes	ADJA	schlecht	_	O	O	
+4-28	Wetter	NN	Wetter	_	O	O	
+4-29	,	$,	,	_	O	O	
+4-30	dann	ADV	dann	_	O	O	
+4-31	Festtage	NN	Festtag	_	O	O	
+4-32	uns	PRF	wir	_	O	O	
+4-33	hinderlich	ADJD	hinderlich	_	O	O	
+4-34	wurden	VAFIN	werden	_	O	O	
+4-35	,	$,	,	_	O	O	
+4-36	längere	ADJA	lang	_	O	O	
+4-37	Zeit	NN	Zeit	_	O	O	
+4-38	gefesselt	VVPP	fesseln	_	O	O	
+4-39	.	$.	.	_	O	O	
+
+#id=5
+#text=In den letzten Tagen wurde es dann aber so furchtbar heiß~aß ich in Rücksicht auf die Gesundheitsiecke der Reise alle Abstecher aufgab.
+5-1	In	APPR	in	_	O	O	
+5-2	den	ART	die	_	O	O	
+5-3	letzten	ADJA	letzt	_	O	O	
+5-4	Tagen	NN	Tag	_	O	O	
+5-5	wurde	VAFIN	werden	_	O	O	
+5-6	es	PPER	es	_	O	O	
+5-7	dann	ADV	dann	_	O	O	
+5-8	aber	ADV	aber	_	O	O	
+5-9	so	ADV	so	_	O	O	
+5-10	furchtbar	ADJD	furchtbar	_	O	O	
+5-11	heiß~aß	VVFIN	<unknown>	_	O	O	
+5-12	ich	PPER	ich	_	O	O	
+5-13	in	APPR	in	_	O	O	
+5-14	Rücksicht	NN	Rücksicht	_	O	O	
+5-15	auf	APPR	auf	_	O	O	
+5-16	die	ART	die	_	O	O	
+5-17	Gesundheitsiecke	NN	<unknown>	_	O	O	
+5-18	der	ART	die	_	O	O	
+5-19	Reise	NN	Reise	_	O	O	
+5-20	alle	PIAT	alle	_	O	O	
+5-21	Abstecher	NN	Abstecher	_	O	O	
+5-22	aufgab	VVFIN	aufgeben	_	O	O	
+5-23	.	$.	.	_	O	O	
+
+#id=6
+#text=In Verona, wo Orti sich bestens empfiehlt, war gleichfalls die Hitze so überrömisch, daß wir eilten, die Berge zu erreichen, wohin wir über den Garda=See gingen.
+6-1	In	APPR	in	_	O	O	
+6-2	Verona	NE	Verona	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-3	,	$,	,	_	O	O	
+6-4	wo	PWAV	wo	_	O	O	
+6-5	Orti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-6	sich	PRF	sich	_	O	O	
+6-7	bestens	ADV	bestens	_	O	O	
+6-8	empfiehlt	VVFIN	empfehlen	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	war	VAFIN	sein	_	O	O	
+6-11	gleichfalls	ADV	gleichfalls	_	O	O	
+6-12	die	ART	die	_	O	O	
+6-13	Hitze	NN	Hitze	_	O	O	
+6-14	so	ADV	so	_	O	O	
+6-15	überrömisch	ADJD	<unknown>	_	O	O	
+6-16	,	$,	,	_	O	O	
+6-17	daß	KOUS	dass	_	O	O	
+6-18	wir	PPER	wir	_	O	O	
+6-19	eilten	VVFIN	eilen	_	O	O	
+6-20	,	$,	,	_	O	O	
+6-21	die	ART	die	_	O	O	
+6-22	Berge	NN	Berg	_	O	O	
+6-23	zu	PTKZU	zu	_	O	O	
+6-24	erreichen	VVINF	erreichen	_	O	O	
+6-25	,	$,	,	_	O	O	
+6-26	wohin	PWAV	wohin	_	O	O	
+6-27	wir	PPER	wir	_	O	O	
+6-28	über	APPR	über	_	O	O	
+6-29	den	ART	die	_	O	O	
+6-30	Garda=See	NN	<unknown>	_	O	O	
+6-31	gingen	VVFIN	gehen	_	O	O	
+6-32	.	$.	.	_	O	O	
+
+#id=7
+#text=Bis Brixen war die Hitze sehr groß; aber auf dem Brenner empfing uns ein furchtbares Regenwetter, mit dem wir hier eintrafen, wo wir die ersten Tage uns vor Kälte nicht zu bergen wußten.
+7-1	Bis	APPR	bis	_	O	O	
+7-2	Brixen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-3	war	VAFIN	sein	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	Hitze	NN	Hitze	_	O	O	
+7-6	sehr	ADV	sehr	_	O	O	
+7-7	groß	ADJD	groß	_	O	O	
+7-8	;	$.	;	_	O	O	
+7-9	aber	ADV	aber	_	O	O	
+7-10	auf	APPR	auf	_	O	O	
+7-11	dem	ART	die	_	O	O	
+7-12	Brenner	NN	Brenner	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-13	empfing	VVFIN	empfangen	_	O	O	
+7-14	uns	PPER	wir	_	O	O	
+7-15	ein	ART	eine	_	O	O	
+7-16	furchtbares	ADJA	furchtbar	_	O	O	
+7-17	Regenwetter	NN	Regenwetter	_	O	O	
+7-18	,	$,	,	_	O	O	
+7-19	mit	APPR	mit	_	O	O	
+7-20	dem	PRELS	die	_	O	O	
+7-21	wir	PPER	wir	_	O	O	
+7-22	hier	ADV	hier	_	O	O	
+7-23	eintrafen	VVFIN	eintreffen	_	O	O	
+7-24	,	$,	,	_	O	O	
+7-25	wo	PWAV	wo	_	O	O	
+7-26	wir	PPER	wir	_	O	O	
+7-27	die	ART	die	_	O	O	
+7-28	ersten	ADJA	erst	_	O	O	
+7-29	Tage	NN	Tag	_	O	O	
+7-30	uns	PRF	wir	_	O	O	
+7-31	vor	APPR	vor	_	O	O	
+7-32	Kälte	NN	Kälte	_	O	O	
+7-33	nicht	PTKNEG	nicht	_	O	O	
+7-34	zu	PTKZU	zu	_	O	O	
+7-35	bergen	VVINF	bergen	_	O	O	
+7-36	wußten	VVFIN	wissen	_	O	O	
+7-37	.	$.	.	_	O	O	
+
+#id=8
+#text=Uebermorgen früh gehts weiter nach Nürnberg, wohin uns Mommsen entgegen kommt.
+8-1	Uebermorgen	NN	<unknown>	_	O	O	
+8-2	früh	ADJD	früh	_	O	O	
+8-3	gehts	NN	<unknown>	_	O	O	
+8-4	weiter	ADV	weiter	_	O	O	
+8-5	nach	APPR	nach	_	O	O	
+8-6	Nürnberg	NE	Nürnberg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-7	,	$,	,	_	O	O	
+8-8	wohin	PWAV	wohin	_	O	O	
+8-9	uns	PPER	wir	_	O	O	
+8-10	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-11	entgegen	APPO	entgegen	_	O	O	
+8-12	kommt	VVFIN	kommen	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Dann beabsichtigen wir, einige Tage auf Dresden zu verwenden, wo wir die Galerie nicht kennen, u. werden daher erst in den ersten Tagen ds.
+9-1	Dann	ADV	dann	_	O	O	
+9-2	beabsichtigen	VVFIN	beabsichtigen	_	O	O	
+9-3	wir	PPER	wir	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	einige	PIAT	einige	_	O	O	
+9-6	Tage	NN	Tag	_	O	O	
+9-7	auf	APPR	auf	_	O	O	
+9-8	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-9	zu	PTKZU	zu	_	O	O	
+9-10	verwenden	VVINF	verwenden	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	wo	PWAV	wo	_	O	O	
+9-13	wir	PPER	wir	_	O	O	
+9-14	die	ART	die	_	O	O	
+9-15	Galerie	NN	Galerie	_	O	O	
+9-16	nicht	PTKNEG	nicht	_	O	O	
+9-17	kennen	VVFIN	kennen	_	O	O	
+9-18	,	$,	,	_	O	O	
+9-19	u.	KON	und	_	O	O	
+9-20	werden	VAFIN	werden	_	O	O	
+9-21	daher	PAV	daher	_	O	O	
+9-22	erst	ADV	erst	_	O	O	
+9-23	in	APPR	in	_	O	O	
+9-24	den	ART	die	_	O	O	
+9-25	ersten	ADJA	erst	_	O	O	
+9-26	Tagen	NN	Tag	_	O	O	
+9-27	ds.	ADJD	<unknown>	_	O	O	
+
+#id=10
+#text=Juli bei Ihnen eintreffen.
+10-1	Juli	NN	Juli	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+10-2	bei	APPR	bei	_	O	O	
+10-3	Ihnen	PPER	Sie	_	O	O	
+10-4	eintreffen	VVFIN	eintreffen	_	O	O	
+10-5	.	$.	.	_	O	O	
+
+#id=11
+#text=Thiersch hat uns hier ungemein freundlieh u. zuvorkommend aufgenommen; eben so Hefner u. Hahn.
+11-1	Thiersch	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	hat	VAFIN	haben	_	O	O	
+11-3	uns	PPER	wir	_	O	O	
+11-4	hier	ADV	hier	_	O	O	
+11-5	ungemein	ADJD	ungemein	_	O	O	
+11-6	freundlieh	VVFIN	<unknown>	_	O	O	
+11-7	u.	APPR	um	_	O	O	
+11-8	zuvorkommend	ADJD	zuvorkommend	_	O	O	
+11-9	aufgenommen	VVPP	aufnehmen	_	O	O	
+11-10	;	$.	;	_	O	O	
+11-11	eben	ADV	eben	_	O	O	
+11-12	so	ADV	so	_	O	O	
+11-13	Hefner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-14	u.	APPR	um	_	O	O	
+11-15	Hahn	NE	Hahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-16	.	$.	.	_	O	O	
+
+#id=12
+#text=Auch trafen wir im Gasthofe mit Dr.
+12-1	Auch	ADV	auch	_	O	O	
+12-2	trafen	VVFIN	treffen	_	O	O	
+12-3	wir	PPER	wir	_	O	O	
+12-4	im	APPRART	in	_	O	O	
+12-5	Gasthofe	NN	<unknown>	_	O	O	
+12-6	mit	APPR	mit	_	O	O	
+12-7	Dr.	NN	Dr.	_	O	O	
+
+#id=13
+#text=Meyer aus Zürüch zusammen.
+13-1	Meyer	NE	Meyer	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	aus	APPR	aus	_	O	O	
+13-3	Zürüch	NE	<unknown>	_	O	O	
+13-4	zusammen	PTKVZ	zusammen	_	O	O	
+13-5	.	$.	.	_	O	O	
+
+#id=14
+#text=Wir freuen uns recht, bald in Berlin zu sein, wo wir doch neben allen Anderen auch ein wenig mehr Huhe finden werden.
+14-1	Wir	PPER	wir	_	O	O	
+14-2	freuen	VVFIN	freuen	_	O	O	
+14-3	uns	PPER	wir	_	O	O	
+14-4	recht	ADJD	recht	_	O	O	
+14-5	,	$,	,	_	O	O	
+14-6	bald	ADV	bald	_	O	O	
+14-7	in	APPR	in	_	O	O	
+14-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+14-9	zu	PTKZU	zu	_	O	O	
+14-10	sein	VAINF	sein	_	O	O	
+14-11	,	$,	,	_	O	O	
+14-12	wo	PWAV	wo	_	O	O	
+14-13	wir	PPER	wir	_	O	O	
+14-14	doch	ADV	doch	_	O	O	
+14-15	neben	APPR	neben	_	O	O	
+14-16	allen	PIAT	alle	_	O	O	
+14-17	Anderen	PIS	andere	_	O	O	
+14-18	auch	ADV	auch	_	O	O	
+14-19	ein	ART	eine	_	O	O	
+14-20	wenig	ADV	wenig	_	O	O	
+14-21	mehr	ADV	mehr	_	O	O	
+14-22	Huhe	NN	<unknown>	_	O	O	
+14-23	finden	VVINF	finden	_	O	O	
+14-24	werden	VAFIN	werden	_	O	O	
+14-25	.	$.	.	_	O	O	
+
+#id=15
+#text=Das unstete Reiseleben ist eine rechte Plage, wenn es so Monate lang fortgeht.
+15-1	Das	ART	die	_	O	O	
+15-2	unstete	ADJA	unstet	_	O	O	
+15-3	Reiseleben	NN	<unknown>	_	O	O	
+15-4	ist	VAFIN	sein	_	O	O	
+15-5	eine	ART	eine	_	O	O	
+15-6	rechte	ADJA	recht|rechts	_	O	O	
+15-7	Plage	NN	Plage	_	O	O	
+15-8	,	$,	,	_	O	O	
+15-9	wenn	KOUS	wenn	_	O	O	
+15-10	es	PPER	es	_	O	O	
+15-11	so	ADV	so	_	O	O	
+15-12	Monate	NN	Monat	_	O	O	
+15-13	lang	ADJD	lang	_	O	O	
+15-14	fortgeht	VVFIN	fortgehen	_	O	O	
+15-15	.	$.	.	_	O	O	
+
+#id=16
+#text=Uebrigens geht es uns gut, be-
+16-1	Uebrigens	NN	<unknown>	_	O	O	
+16-2	geht	VVFIN	gehen	_	O	O	
+16-3	es	PPER	es	_	O	O	
+16-4	uns	PRF	wir	_	O	O	
+16-5	gut	ADJD	gut	_	O	O	
+16-6	,	$,	,	_	O	O	
+16-7	be-	TRUNC	be-	_	O	O	
+

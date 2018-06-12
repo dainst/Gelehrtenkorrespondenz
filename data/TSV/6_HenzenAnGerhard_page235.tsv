@@ -1,0 +1,358 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=I 1- ..:.
+1-1	I	FM	I	_	O	O	
+1-2	1-	TRUNC	1-	_	O	O	
+1-3	.	$.	.	_	O	O	
+1-4	.	$.	.	_	O	O	
+1-5	:	$.	:	_	O	O	
+1-6	.	$.	.	_	O	O	
+
+#id=2
+#text=47 26/11/55 2 Henzen an Gerhard r-DiPlom; er hatte so große ~ile damit, dß.
+2-1	47	CARD	47	_	O	O	
+2-2	26/11/55	CARD	@card@	_	O	O	
+2-3	2	CARD	2	_	O	O	
+2-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-5	an	APPR	an	_	O	O	
+2-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-7	r-DiPlom	NN	<unknown>	_	O	O	
+2-8	;	$.	;	_	O	O	
+2-9	er	PPER	er	_	O	O	
+2-10	hatte	VAFIN	haben	_	O	O	
+2-11	so	ADV	so	_	O	O	
+2-12	große	ADJA	groß	_	O	O	
+2-13	~ile	NN	<unknown>	_	O	O	
+2-14	damit	PAV	damit	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	dß	VVFIN	<unknown>	_	O	O	
+2-17	.	$.	.	_	O	O	
+
+#id=3
+#text=er mir directe Einsendung auftrug.
+3-1	er	PPER	er	_	O	O	
+3-2	mir	PRF	ich	_	O	O	
+3-3	directe	ADJA	<unknown>	_	O	O	
+3-4	Einsendung	NN	Einsendung	_	O	O	
+3-5	auftrug	VVFIN	auftragen	_	O	O	
+3-6	.	$.	.	_	O	O	
+
+#id=4
+#text=- Auch wir beobachten hier zu Lande noch Ihre alte Sitte, den Leuten vorläufig Diplome zu I_ versprechen; Für W. wünschte Braun die Ausnahme.
+4-1	-	$(	-	_	O	O	
+4-2	Auch	ADV	auch	_	O	O	
+4-3	wir	PPER	wir	_	O	O	
+4-4	beobachten	VVFIN	beobachten	_	O	O	
+4-5	hier	ADV	hier	_	O	O	
+4-6	zu	APPR	zu	_	O	O	
+4-7	Lande	NN	Land	_	O	O	
+4-8	noch	ADV	noch	_	O	O	
+4-9	Ihre	PPOSAT	ihr	_	O	O	
+4-10	alte	ADJA	alt	_	O	O	
+4-11	Sitte	NN	Sitte	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	den	ART	die	_	O	O	
+4-14	Leuten	NN	Leute	_	O	O	
+4-15	vorläufig	ADJD	vorläufig	_	O	O	
+4-16	Diplome	NN	Diplom	_	O	O	
+4-17	zu	APPR	zu	_	O	O	
+4-18	I_	NN	<unknown>	_	O	O	
+4-19	versprechen	VVFIN	versprechen	_	O	O	
+4-20	;	$.	;	_	O	O	
+4-21	Für	APPR	für	_	O	O	
+4-22	W.	NE	W.	_	O	O	
+4-23	wünschte	VVFIN	wünschen	_	O	O	
+4-24	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-25	die	ART	die	_	O	O	
+4-26	Ausnahme	NN	Ausnahme	_	O	O	
+4-27	.	$.	.	_	O	O	
+
+#id=5
+#text=Doch schrieb ich Ihnen freilich schon frÜher einmal davon.
+5-1	Doch	ADV	doch	_	O	O	
+5-2	schrieb	VVFIN	schreiben	_	O	O	
+5-3	ich	PPER	ich	_	O	O	
+5-4	Ihnen	PPER	Sie	_	O	O	
+5-5	freilich	ADV	freilich	_	O	O	
+5-6	schon	ADV	schon	_	O	O	
+5-7	frÜher	VVFIN	<unknown>	_	O	O	
+5-8	einmal	ADV	einmal	_	O	O	
+5-9	davon	PAV	davon	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihre 36 Paoli für Domenico kommen sehr apropos.
+6-1	Ihre	PPOSAT	ihr	_	O	O	
+6-2	36	CARD	36	_	O	O	
+6-3	Paoli	NE	<unknown>	_	O	O	
+6-4	für	APPR	für	_	O	O	
+6-5	Domenico	NE	Domenico	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-6	kommen	VVFIN	kommen	_	O	O	
+6-7	sehr	ADV	sehr	_	O	O	
+6-8	apropos	ADV	apropos	_	O	O	
+6-9	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich denke, wir wenden sie mit einigem Zuschusse zu einem Rock für ihn an, auf den ich schon bei Braun angetragen, f da er ganz zerlumpt.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	denke	VVFIN	denken	_	O	O	
+7-3	,	$,	,	_	O	O	
+7-4	wir	PPER	wir	_	O	O	
+7-5	wenden	VVFIN	wenden	_	O	O	
+7-6	sie	PPER	sie	_	O	O	
+7-7	mit	APPR	mit	_	O	O	
+7-8	einigem	PIAT	einige	_	O	O	
+7-9	Zuschusse	NN	<unknown>	_	O	O	
+7-10	zu	APPR	zu	_	O	O	
+7-11	einem	ART	eine	_	O	O	
+7-12	Rock	NN	Rock	_	O	O	
+7-13	für	APPR	für	_	O	O	
+7-14	ihn	PPER	er	_	O	O	
+7-15	an	PTKVZ	an	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	auf	APPR	auf	_	O	O	
+7-18	den	PRELS	die	_	O	O	
+7-19	ich	PPER	ich	_	O	O	
+7-20	schon	ADV	schon	_	O	O	
+7-21	bei	APPR	bei	_	O	O	
+7-22	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-23	angetragen	VVPP	antragen	_	O	O	
+7-24	,	$,	,	_	O	O	
+7-25	f	VVFIN	<unknown>	_	O	O	
+7-26	da	ADV	da	_	O	O	
+7-27	er	PPER	er	_	O	O	
+7-28	ganz	ADV	ganz	_	O	O	
+7-29	zerlumpt	ADJD	zerlumpt	_	O	O	
+7-30	.	$.	.	_	O	O	
+
+#id=8
+#text=- An de Rossi werde ich Ihren Auftrag I ~orgen ausrichten.
+8-1	-	$(	-	_	O	O	
+8-2	An	APPR	an	_	O	O	
+8-3	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-4	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-5	werde	VAFIN	werden	_	O	O	
+8-6	ich	PPER	ich	_	O	O	
+8-7	Ihren	PPOSAT	ihr	_	O	O	
+8-8	Auftrag	NN	Auftrag	_	O	O	
+8-9	I	NN	I	_	O	O	
+8-10	~orgen	NN	<unknown>	_	O	O	
+8-11	ausrichten	VVINF	ausrichten	_	O	O	
+8-12	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich bin überbeschäftigt, um mit dem Vatican vor unsrer Reise fertig zu werden.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	bin	VAFIN	sein	_	O	O	
+9-3	überbeschäftigt	VVPP	überbeschäftigen	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	um	KOUI	um	_	O	O	
+9-6	mit	APPR	mit	_	O	O	
+9-7	dem	ART	die	_	O	O	
+9-8	Vatican	NN	<unknown>	_	O	O	
+9-9	vor	APPR	vor	_	O	O	
+9-10	unsrer	PPOSAT	unser	_	O	O	
+9-11	Reise	NN	Reise	_	O	O	
+9-12	fertig	ADJD	fertig	_	O	O	
+9-13	zu	PTKZU	zu	_	O	O	
+9-14	werden	VAINF	werden	_	O	O	
+9-15	.	$.	.	_	O	O	
+
+#id=10
+#text=Die Arbeit, die zum allergrößten Theile auf der Leiter gemacht werden muß, greift sehr an u. hält eben dadurch länger auf, als zu wünschen wäre.
+10-1	Die	ART	die	_	O	O	
+10-2	Arbeit	NN	Arbeit	_	O	O	
+10-3	,	$,	,	_	O	O	
+10-4	die	PRELS	die	_	O	O	
+10-5	zum	APPRART	zu	_	O	O	
+10-6	allergrößten	ADJA	allergroß	_	O	O	
+10-7	Theile	NE	Theile	_	O	O	
+10-8	auf	APPR	auf	_	O	O	
+10-9	der	ART	die	_	O	O	
+10-10	Leiter	NN	Leiter	_	O	O	
+10-11	gemacht	VVPP	machen	_	O	O	
+10-12	werden	VAINF	werden	_	O	O	
+10-13	muß	VMFIN	müssen	_	O	O	
+10-14	,	$,	,	_	O	O	
+10-15	greift	VVFIN	greifen	_	O	O	
+10-16	sehr	ADV	sehr	_	O	O	
+10-17	an	PTKVZ	an	_	O	O	
+10-18	u.	KON	und	_	O	O	
+10-19	hält	VVFIN	halten	_	O	O	
+10-20	eben	ADV	eben	_	O	O	
+10-21	dadurch	PAV	dadurch	_	O	O	
+10-22	länger	ADJD	lang	_	O	O	
+10-23	auf	PTKVZ	auf	_	O	O	
+10-24	,	$,	,	_	O	O	
+10-25	als	KOUS	als	_	O	O	
+10-26	zu	PTKZU	zu	_	O	O	
+10-27	wünschen	VVINF	wünschen	_	O	O	
+10-28	wäre	VAFIN	sein	_	O	O	
+10-29	.	$.	.	_	O	O	
+
+#id=11
+#text=Länger, als 4 Stunden täglich, halte ich es bis jetzt nicht aus, habe auch bis jetzt genug zu thun gehabt, um die so gewonnene Ausbeute nachher zu Hause zu ordnen.
+11-1	Länger	ADJD	lang	_	O	O	
+11-2	,	$,	,	_	O	O	
+11-3	als	KOKOM	als	_	O	O	
+11-4	4	CARD	4	_	O	O	
+11-5	Stunden	NN	Stunde|Stunden	_	O	O	
+11-6	täglich	ADJD	täglich	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	halte	VVFIN	halten	_	O	O	
+11-9	ich	PPER	ich	_	O	O	
+11-10	es	PPER	es	_	O	O	
+11-11	bis	KON	bis	_	O	O	
+11-12	jetzt	ADV	jetzt	_	O	O	
+11-13	nicht	PTKNEG	nicht	_	O	O	
+11-14	aus	PTKVZ	aus	_	O	O	
+11-15	,	$,	,	_	O	O	
+11-16	habe	VAFIN	haben	_	O	O	
+11-17	auch	ADV	auch	_	O	O	
+11-18	bis	APPR	bis	_	O	O	
+11-19	jetzt	ADV	jetzt	_	O	O	
+11-20	genug	ADV	genug	_	O	O	
+11-21	zu	APPR	zu	_	O	O	
+11-22	thun	NN	<unknown>	_	O	O	
+11-23	gehabt	VAPP	haben	_	O	O	
+11-24	,	$,	,	_	O	O	
+11-25	um	KOUI	um	_	O	O	
+11-26	die	ART	die	_	O	O	
+11-27	so	ADV	so	_	O	O	
+11-28	gewonnene	ADJA	gewonnen	_	O	O	
+11-29	Ausbeute	NN	Ausbeute	_	O	O	
+11-30	nachher	ADV	nachher	_	O	O	
+11-31	zu	APPR	zu	_	O	O	
+11-32	Hause	NN	Haus	_	O	O	
+11-33	zu	PTKZU	zu	_	O	O	
+11-34	ordnen	VVINF	ordnen	_	O	O	
+11-35	.	$.	.	_	O	O	
+
+#id=12
+#text=Doch werde ich jetzt, wo es wärmer wird, doubliren müssen, zumal die häuslichen Arbeiten anfangen leichter zu werden, da die längeren Inschriften meist absolvirt sind u. bei den kürzeren Grabschriften weniger umzuschreiben.
+12-1	Doch	ADV	doch	_	O	O	
+12-2	werde	VAFIN	werden	_	O	O	
+12-3	ich	PPER	ich	_	O	O	
+12-4	jetzt	ADV	jetzt	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	wo	PWAV	wo	_	O	O	
+12-7	es	PPER	es	_	O	O	
+12-8	wärmer	ADJD	warm	_	O	O	
+12-9	wird	VAFIN	werden	_	O	O	
+12-10	,	$,	,	_	O	O	
+12-11	doubliren	NN	<unknown>	_	O	O	
+12-12	müssen	VMFIN	müssen	_	O	O	
+12-13	,	$,	,	_	O	O	
+12-14	zumal	KOUS	zumal	_	O	O	
+12-15	die	ART	die	_	O	O	
+12-16	häuslichen	ADJA	häuslich	_	O	O	
+12-17	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+12-18	anfangen	VVFIN	anfangen	_	O	O	
+12-19	leichter	ADJD	leicht	_	O	O	
+12-20	zu	PTKZU	zu	_	O	O	
+12-21	werden	VAINF	werden	_	O	O	
+12-22	,	$,	,	_	O	O	
+12-23	da	KOUS	da	_	O	O	
+12-24	die	ART	die	_	O	O	
+12-25	längeren	ADJA	lang	_	O	O	
+12-26	Inschriften	NN	Inschrift	_	O	O	
+12-27	meist	ADV	meist	_	O	O	
+12-28	absolvirt	ADJD	<unknown>	_	O	O	
+12-29	sind	VAFIN	sein	_	O	O	
+12-30	u.	KON	und	_	O	O	
+12-31	bei	APPR	bei	_	O	O	
+12-32	den	ART	die	_	O	O	
+12-33	kürzeren	ADJA	kurz	_	O	O	
+12-34	Grabschriften	NN	Grabschrift	_	O	O	
+12-35	weniger	ADV	weniger	_	O	O	
+12-36	umzuschreiben	VVIZU	umschreiben	_	O	O	
+12-37	.	$.	.	_	O	O	
+
+#id=13
+#text=Fürs Institut habe ich im October u. November so viel Mss zusammen geschrieben, dß.
+13-1	Fürs	APPRART	fürs	_	O	O	
+13-2	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+13-3	habe	VAFIN	haben	_	O	O	
+13-4	ich	PPER	ich	_	O	O	
+13-5	im	APPRART	in	_	O	O	
+13-6	October	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+13-7	u.	APPR	um	_	O	O	
+13-8	November	NN	November	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+13-9	so	ADV	so	_	O	O	
+13-10	viel	PIAT	viele	_	O	O	
+13-11	Mss	NN	<unknown>	_	O	O	
+13-12	zusammen	ADV	zusammen	_	O	O	
+13-13	geschrieben	VVPP	schreiben	_	O	O	
+13-14	,	$,	,	_	O	O	
+13-15	dß	VVFIN	<unknown>	_	O	O	
+13-16	.	$.	.	_	O	O	
+
+#id=14
+#text=ich dafür nicht mehr zu sorgen brauche, sd. für 1855 genug habe, zumal Braun nicht mehr Epigraphisches will.
+14-1	ich	PPER	ich	_	O	O	
+14-2	dafür	PAV	dafür	_	O	O	
+14-3	nicht	PTKNEG	nicht	_	O	O	
+14-4	mehr	ADV	mehr	_	O	O	
+14-5	zu	PTKZU	zu	_	O	O	
+14-6	sorgen	VVINF	sorgen	_	O	O	
+14-7	brauche	VVFIN	brauchen	_	O	O	
+14-8	,	$,	,	_	O	O	
+14-9	sd	NE	<unknown>	_	O	O	
+14-10	.	$.	.	_	O	O	
+14-11	für	APPR	für	_	O	O	
+14-12	1855	CARD	@card@	_	O	O	
+14-13	genug	ADV	genug	_	O	O	
+14-14	habe	VAFIN	haben	_	O	O	
+14-15	,	$,	,	_	O	O	
+14-16	zumal	KOUS	zumal	_	O	O	
+14-17	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-18	nicht	PTKNEG	nicht	_	O	O	
+14-19	mehr	PIAT	mehr	_	O	O	
+14-20	Epigraphisches	NN	<unknown>	_	O	O	
+14-21	will	VMFIN	wollen	_	O	O	
+14-22	.	$.	.	_	O	O	
+
+#id=15
+#text=\ Ueber die Tarraconensie müßen Sie sich mit Braun i I ~ verständigen.
+15-1	\	XY	\	_	O	O	
+15-2	Ueber	NN	<unknown>	_	O	O	
+15-3	die	ART	die	_	O	O	
+15-4	Tarraconensie	NN	<unknown>	_	O	O	
+15-5	müßen	VVFIN	<unknown>	_	O	O	
+15-6	Sie	PPER	Sie	_	O	O	
+15-7	sich	PRF	sich	_	O	O	
+15-8	mit	APPR	mit	_	O	O	
+15-9	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-10	i	FM	i	_	O	O	
+15-11	I	FM	I	_	O	O	
+15-12	~	XY	~	_	O	O	
+15-13	verständigen	VVINF	verständigen	_	O	O	
+15-14	.	$.	.	_	O	O	
+
+#id=16
+#text=Ich wasche meine Hände in Unschuld, habe L~~ein Antheil an diesen Dingen u. kann nur sagen, dß.
+16-1	Ich	PPER	ich	_	O	O	
+16-2	wasche	VVFIN	waschen	_	O	O	
+16-3	meine	PPOSAT	mein	_	O	O	
+16-4	Hände	NN	Hand	_	O	O	
+16-5	in	APPR	in	_	O	O	
+16-6	Unschuld	NN	Unschuld	_	O	O	
+16-7	,	$,	,	_	O	O	
+16-8	habe	VAFIN	haben	_	O	O	
+16-9	L~~ein	NN	<unknown>	_	O	O	
+16-10	Antheil	NN	<unknown>	_	O	O	
+16-11	an	APPR	an	_	O	O	
+16-12	diesen	PDAT	dies	_	O	O	
+16-13	Dingen	NN	Ding	_	O	O	
+16-14	u.	KON	und	_	O	O	
+16-15	kann	VMFIN	können	_	O	O	
+16-16	nur	ADV	nur	_	O	O	
+16-17	sagen	VVINF	sagen	_	O	O	
+16-18	,	$,	,	_	O	O	
+16-19	dß	VVFIN	<unknown>	_	O	O	
+16-20	.	$.	.	_	O	O	
+
+#id=17
+#text=die
+17-1	die	ART	die	_	O	O	
+

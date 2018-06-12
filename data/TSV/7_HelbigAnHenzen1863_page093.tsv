@@ -1,0 +1,199 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=348 H Lieber Herr Professor Helbig an Henzen Rom, 7. Juli 1867 g. 7/7 67 r.
+1-1	348	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1867	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	7/7	CARD	7/7	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	67	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=8/7 67 Roma li 7. Juli 1867 Morgens 8 Uhr Eben im Begriff nach Velletri abzugehen, um daselbst den Zug zu erreichen, schreibe ich Ihnen diese Zeilen einerseits um Ihnen mitzutheilen, daß wir glücklich in Genzano eingetroffen sind, andererseits um Sie zu bitten, die für uns einlaufenden Briefe dem Vetturin zu übergeben, welcher Ihnen diese Zeilen überbringen wird.
+2-1	8/7	CARD	8/7	_	O	O	
+2-2	67	CARD	@card@	_	O	O	
+2-3	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	li	VVFIN	<unknown>	_	O	O	
+2-5	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	1867	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	Morgens	NN	Morgen	_	O	O	
+2-10	8	CARD	8	_	O	O	
+2-11	Uhr	NN	Uhr	_	O	O	
+2-12	Eben	ADV	eben	_	O	O	
+2-13	im	APPRART	in	_	O	O	
+2-14	Begriff	NN	Begriff	_	O	O	
+2-15	nach	APPR	nach	_	O	O	
+2-16	Velletri	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-17	abzugehen	VVIZU	abgehen	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	um	KOUI	um	_	O	O	
+2-20	daselbst	ADV	daselbst	_	O	O	
+2-21	den	ART	die	_	O	O	
+2-22	Zug	NN	Zug	_	O	O	
+2-23	zu	PTKZU	zu	_	O	O	
+2-24	erreichen	VVINF	erreichen	_	O	O	
+2-25	,	$,	,	_	O	O	
+2-26	schreibe	VVFIN	schreiben	_	O	O	
+2-27	ich	PPER	ich	_	O	O	
+2-28	Ihnen	PPER	Sie	_	O	O	
+2-29	diese	PDAT	dies	_	O	O	
+2-30	Zeilen	NN	Zeile	_	O	O	
+2-31	einerseits	ADV	einerseits	_	O	O	
+2-32	um	APPR	um	_	O	O	
+2-33	Ihnen	PPER	Sie	_	O	O	
+2-34	mitzutheilen	VVIZU	<unknown>	_	O	O	
+2-35	,	$,	,	_	O	O	
+2-36	daß	KOUS	dass	_	O	O	
+2-37	wir	PPER	wir	_	O	O	
+2-38	glücklich	ADJD	glücklich	_	O	O	
+2-39	in	APPR	in	_	O	O	
+2-40	Genzano	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-41	eingetroffen	VVPP	eintreffen	_	O	O	
+2-42	sind	VAFIN	sein	_	O	O	
+2-43	,	$,	,	_	O	O	
+2-44	andererseits	ADV	andererseits	_	O	O	
+2-45	um	APPR	um	_	O	O	
+2-46	Sie	PPER	Sie	_	O	O	
+2-47	zu	PTKZU	zu	_	O	O	
+2-48	bitten	VVINF	bitten	_	O	O	
+2-49	,	$,	,	_	O	O	
+2-50	die	PRELS	die	_	O	O	
+2-51	für	APPR	für	_	O	O	
+2-52	uns	PPER	wir	_	O	O	
+2-53	einlaufenden	ADJA	einlaufend	_	O	O	
+2-54	Briefe	NN	Brief	_	O	O	
+2-55	dem	ART	die	_	O	O	
+2-56	Vetturin	NN	<unknown>	_	O	O	
+2-57	zu	PTKZU	zu	_	O	O	
+2-58	übergeben	VVINF	übergeben	_	O	O	
+2-59	,	$,	,	_	O	O	
+2-60	welcher	PWS	welche	_	O	O	
+2-61	Ihnen	PPER	Sie	_	O	O	
+2-62	diese	PDAT	dies	_	O	O	
+2-63	Zeilen	NN	Zeile	_	O	O	
+2-64	überbringen	VVINF	überbringen	_	O	O	
+2-65	wird	VAFIN	werden	_	O	O	
+2-66	.	$.	.	_	O	O	
+
+#id=3
+#text=Er ist uns von competenter Seite als vollständig zuverlässig empfohlen und wird sich alle 4 Tage bei Ihnen melden, um unsere Briefe in Empfang zu nehmen.
+3-1	Er	PPER	er	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	uns	PPER	wir	_	O	O	
+3-4	von	APPR	von	_	O	O	
+3-5	competenter	ADJA	<unknown>	_	O	O	
+3-6	Seite	NN	Seite	_	O	O	
+3-7	als	KOKOM	als	_	O	O	
+3-8	vollständig	ADJD	vollständig	_	O	O	
+3-9	zuverlässig	ADJD	zuverlässig	_	O	O	
+3-10	empfohlen	VVPP	empfehlen	_	O	O	
+3-11	und	KON	und	_	O	O	
+3-12	wird	VAFIN	werden	_	O	O	
+3-13	sich	PRF	sich	_	O	O	
+3-14	alle	PIAT	alle	_	O	O	
+3-15	4	CARD	4	_	O	O	
+3-16	Tage	NN	Tag	_	O	O	
+3-17	bei	APPR	bei	_	O	O	
+3-18	Ihnen	PPER	Sie	_	O	O	
+3-19	melden	VVINF	melden	_	O	O	
+3-20	,	$,	,	_	O	O	
+3-21	um	KOUI	um	_	O	O	
+3-22	unsere	PPOSAT	unser	_	O	O	
+3-23	Briefe	NN	Brief	_	O	O	
+3-24	in	APPR	in	_	O	O	
+3-25	Empfang	NN	Empfang	_	O	O	
+3-26	zu	PTKZU	zu	_	O	O	
+3-27	nehmen	VVINF	nehmen	_	O	O	
+3-28	.	$.	.	_	O	O	
+
+#id=4
+#text=Um Confusaon zu vermeiden und die Briefe um so sicherer zu transport iren , so bitte ich Sie Nino die einzelnen Briefe bei jeder Sendung in ein einziges großes Couvert zu stecken und dasselbe mit unserer Adresse zu versehen 11 Genzano, Palazzo Celloni".
+4-1	Um	APPR	um	_	O	O	
+4-2	Confusaon	NN	<unknown>	_	O	O	
+4-3	zu	PTKZU	zu	_	O	O	
+4-4	vermeiden	VVINF	vermeiden	_	O	O	
+4-5	und	KON	und	_	O	O	
+4-6	die	ART	die	_	O	O	
+4-7	Briefe	NN	Brief	_	O	O	
+4-8	um	APPR	um	_	O	O	
+4-9	so	ADV	so	_	O	O	
+4-10	sicherer	ADJD	sicher	_	O	O	
+4-11	zu	APPR	zu	_	O	O	
+4-12	transport	NN	Transport	_	O	O	
+4-13	iren	VVFIN	<unknown>	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	so	ADV	so	_	O	O	
+4-16	bitte	VVFIN	bitten	_	O	O	
+4-17	ich	PPER	ich	_	O	O	
+4-18	Sie	PPER	Sie	_	O	O	
+4-19	Nino	NE	Nino	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-20	die	ART	die	_	O	O	
+4-21	einzelnen	ADJA	einzeln	_	O	O	
+4-22	Briefe	NN	Brief	_	O	O	
+4-23	bei	APPR	bei	_	O	O	
+4-24	jeder	PIAT	jede	_	O	O	
+4-25	Sendung	NN	Sendung	_	O	O	
+4-26	in	APPR	in	_	O	O	
+4-27	ein	ART	eine	_	O	O	
+4-28	einziges	ADJA	einzig	_	O	O	
+4-29	großes	ADJA	groß	_	O	O	
+4-30	Couvert	NN	<unknown>	_	O	O	
+4-31	zu	PTKZU	zu	_	O	O	
+4-32	stecken	VVINF	stecken	_	O	O	
+4-33	und	KON	und	_	O	O	
+4-34	dasselbe	PDS	dasselbe	_	O	O	
+4-35	mit	APPR	mit	_	O	O	
+4-36	unserer	PPOSAT	unser	_	O	O	
+4-37	Adresse	NN	Adresse	_	O	O	
+4-38	zu	PTKA	zu	_	O	O	
+4-39	versehen	ADJD	versehen	_	O	O	
+4-40	11	CARD	11	_	O	O	
+4-41	Genzano	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-42	,	$,	,	_	O	O	
+4-43	Palazzo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-44	Celloni	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+4-45	"	$(	"	_	O	O	
+4-46	.	$.	.	_	O	O	
+
+#id=5
+#text=Meine Frau grüßt herzlich.
+5-1	Meine	PPOSAT	mein	_	O	O	
+5-2	Frau	NN	Frau	_	O	O	
+5-3	grüßt	VVFIN	grüßen	_	O	O	
+5-4	herzlich	ADJD	herzlich	_	O	O	
+5-5	.	$.	.	_	O	O	
+
+#id=6
+#text=Baldigst mehr.
+6-1	Baldigst	ADJD	baldig	_	O	O	
+6-2	mehr	ADV	mehr	_	O	O	
+6-3	.	$.	.	_	O	O	
+
+#id=7
+#text=Mit herzlichen Grüßen an Ihre Frau Gemahlin Ihr ergebener W. Helbig
+7-1	Mit	APPR	mit	_	O	O	
+7-2	herzlichen	ADJA	herzlich	_	O	O	
+7-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+7-4	an	APPR	an	_	O	O	
+7-5	Ihre	PPOSAT	ihr	_	O	O	
+7-6	Frau	NN	Frau	_	O	O	
+7-7	Gemahlin	NN	Gemahlin	_	O	O	
+7-8	Ihr	PPOSAT	ihr	_	O	O	
+7-9	ergebener	ADJA	ergeben	_	O	O	
+7-10	W.	NE	W.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-11	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+

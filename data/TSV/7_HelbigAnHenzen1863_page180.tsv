@@ -1,0 +1,242 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=H Lieber Herr Professor Relbig an Renzen Rom, 1. September 1872 g. 6/9 72 r.
+1-1	H	NN	H	_	O	O	
+1-2	Lieber	ADJA	lieb	_	O	O	
+1-3	Herr	NN	Herr	_	O	O	
+1-4	Professor	NN	Professor	_	O	O	
+1-5	Relbig	ADJD	<unknown>	_	O	O	
+1-6	an	APPR	an	_	O	O	
+1-7	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	6/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=7/9 72 Roma, li 1. Sept.
+2-1	7/9	CARD	@card@	_	O	O	
+2-2	72	CARD	72	_	O	O	
+2-3	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-4	,	$,	,	_	O	O	
+2-5	li	ADJD	<unknown>	_	O	O	
+2-6	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Sept.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=3
+#text=1872 Ich ~ann Ihnen nun als Definitivum mittheilen, daß ich den 8. d. M. nach Sicilien abreise.
+3-1	1872	CARD	@card@	_	O	O	
+3-2	Ich	PPER	ich	_	O	O	
+3-3	~ann	VVFIN	<unknown>	_	O	O	
+3-4	Ihnen	PPER	Sie	_	O	O	
+3-5	nun	ADV	nun	_	O	O	
+3-6	als	KOKOM	als	_	O	O	
+3-7	Definitivum	NN	<unknown>	_	O	O	
+3-8	mittheilen	VVINF	<unknown>	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	daß	KOUS	dass	_	O	O	
+3-11	ich	PPER	ich	_	O	O	
+3-12	den	ART	die	_	O	O	
+3-13	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-14	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-15	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-16	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-17	nach	APPR	nach	_	O	O	
+3-18	Sicilien	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-19	abreise	VVFIN	abreisen	_	O	O	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=Jeden Falls denke ich die Ost- und die Nordküste zu besuchen.
+4-1	Jeden	PIAT	jede	_	O	O	
+4-2	Falls	NN	Fall	_	O	O	
+4-3	denke	VVFIN	denken	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	die	ART	die	_	O	O	
+4-6	Ost-	TRUNC	Ost-	_	O	O	
+4-7	und	KON	und	_	O	O	
+4-8	die	ART	die	_	O	O	
+4-9	Nordküste	NN	Nordküste	_	O	O	
+4-10	zu	PTKZU	zu	_	O	O	
+4-11	besuchen	VVINF	besuchen	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Ob ich nach Selinunt und Girgenti kommen werde, ist fraglich; einer Seits fürchte ich, daß ich nicht genug Zeit haben werde; anderer Seits sind, wie die von mir eingezogenen Erkundigungen lauten, die dortigen Gegenden wieder einmal durch dan Brigantaggio beunruhigt.
+5-1	Ob	KOUS	ob	_	O	O	
+5-2	ich	PPER	ich	_	O	O	
+5-3	nach	APPR	nach	_	O	O	
+5-4	Selinunt	NN	<unknown>	_	O	O	
+5-5	und	KON	und	_	O	O	
+5-6	Girgenti	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-7	kommen	VVINF	kommen	_	O	O	
+5-8	werde	VAFIN	werden	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	ist	VAFIN	sein	_	O	O	
+5-11	fraglich	ADJD	fraglich	_	O	O	
+5-12	;	$.	;	_	O	O	
+5-13	einer	ART	eine	_	O	O	
+5-14	Seits	NN	<unknown>	_	O	O	
+5-15	fürchte	VVFIN	fürchten	_	O	O	
+5-16	ich	PPER	ich	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	daß	KOUS	dass	_	O	O	
+5-19	ich	PPER	ich	_	O	O	
+5-20	nicht	PTKNEG	nicht	_	O	O	
+5-21	genug	ADV	genug	_	O	O	
+5-22	Zeit	NN	Zeit	_	O	O	
+5-23	haben	VAINF	haben	_	O	O	
+5-24	werde	VAFIN	werden	_	O	O	
+5-25	;	$.	;	_	O	O	
+5-26	anderer	PIAT	andere	_	O	O	
+5-27	Seits	NN	<unknown>	_	O	O	
+5-28	sind	VAFIN	sein	_	O	O	
+5-29	,	$,	,	_	O	O	
+5-30	wie	KOUS	wie	_	O	O	
+5-31	die	ART	die	_	O	O	
+5-32	von	APPR	von	_	O	O	
+5-33	mir	PPER	ich	_	O	O	
+5-34	eingezogenen	ADJA	eingezogen	_	O	O	
+5-35	Erkundigungen	NN	Erkundigung	_	O	O	
+5-36	lauten	VVFIN	lauten	_	O	O	
+5-37	,	$,	,	_	O	O	
+5-38	die	ART	die	_	O	O	
+5-39	dortigen	ADJA	dortig	_	O	O	
+5-40	Gegenden	NN	Gegend	_	O	O	
+5-41	wieder	ADV	wieder	_	O	O	
+5-42	einmal	ADV	einmal	_	O	O	
+5-43	durch	APPR	durch	_	O	O	
+5-44	dan	NE	Dan	_	O	O	
+5-45	Brigantaggio	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-46	beunruhigt	VVPP	beunruhigen	_	O	O	
+5-47	.	$.	.	_	O	O	
+
+#id=6
+#text=Sollte es mir jetzt unmöglich sein, diese Punkte zu besuchen, so würde ich diese Lücke ein anderes Mal bei Gelegenheit meiner Reise nach Tunis ausfüllen.
+6-1	Sollte	VMFIN	sollen	_	O	O	
+6-2	es	PPER	es	_	O	O	
+6-3	mir	PRF	ich	_	O	O	
+6-4	jetzt	ADV	jetzt	_	O	O	
+6-5	unmöglich	ADJD	unmöglich	_	O	O	
+6-6	sein	VAINF	sein	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	diese	PDAT	dies	_	O	O	
+6-9	Punkte	NN	Punkt	_	O	O	
+6-10	zu	PTKZU	zu	_	O	O	
+6-11	besuchen	VVINF	besuchen	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	so	ADV	so	_	O	O	
+6-14	würde	VAFIN	werden	_	O	O	
+6-15	ich	PPER	ich	_	O	O	
+6-16	diese	PDAT	dies	_	O	O	
+6-17	Lücke	NN	Lücke	_	O	O	
+6-18	ein	ART	eine	_	O	O	
+6-19	anderes	PIAT	andere	_	O	O	
+6-20	Mal	NN	Mal	_	O	O	
+6-21	bei	APPR	bei	_	O	O	
+6-22	Gelegenheit	NN	Gelegenheit	_	O	O	
+6-23	meiner	PPOSAT	mein	_	O	O	
+6-24	Reise	NN	Reise	_	O	O	
+6-25	nach	APPR	nach	_	O	O	
+6-26	Tunis	NE	Tunis	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-27	ausfüllen	VVINF	ausfüllen	_	O	O	
+6-28	.	$.	.	_	O	O	
+
+#id=7
+#text=Endlich ist es mir gelungen, den Preis des Müsee Napoleon zu constatiren.
+7-1	Endlich	ADV	endlich	_	O	O	
+7-2	ist	VAFIN	sein	_	O	O	
+7-3	es	PPER	es	_	O	O	
+7-4	mir	PPER	ich	_	O	O	
+7-5	gelungen	VVPP	gelingen	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	den	ART	die	_	O	O	
+7-8	Preis	NN	Preis	_	O	O	
+7-9	des	ART	die	_	O	O	
+7-10	Müsee	NN	<unknown>	_	O	O	
+7-11	Napoleon	NN	Napoleon	_	O	O	
+7-12	zu	APPR	zu	_	O	O	
+7-13	constatiren	NN	<unknown>	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Der Ladenpreis der bis jetzt erschienenen ~ Lieferungen beläuft sich auf 94 Francs.
+8-1	Der	ART	die	_	O	O	
+8-2	Ladenpreis	NN	Ladenpreis	_	O	O	
+8-3	der	ART	die	_	O	O	
+8-4	bis	APPR	bis	_	O	O	
+8-5	jetzt	ADV	jetzt	_	O	O	
+8-6	erschienenen	ADJA	erschienen	_	O	O	
+8-7	~	XY	~	_	O	O	
+8-8	Lieferungen	NN	Lieferung	_	O	O	
+8-9	beläuft	VVFIN	belaufen	_	O	O	
+8-10	sich	PRF	sich	_	O	O	
+8-11	auf	APPR	auf	_	O	O	
+8-12	94	CARD	@card@	_	O	O	
+8-13	Francs	NN	Franc	_	O	O	
+8-14	.	$.	.	_	O	O	
+
+#id=9
+#text=Wenn Sie an Mommsen schreiben, so sprechen Sie ihm, bitte, meinen besonderen Dank für seine kräftige Intervention aus.
+9-1	Wenn	KOUS	wenn	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	an	APPR	an	_	O	O	
+9-4	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	schreiben	VVFIN	schreiben	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	so	ADV	so	_	O	O	
+9-8	sprechen	VVFIN	sprechen	_	O	O	
+9-9	Sie	PPER	Sie	_	O	O	
+9-10	ihm	PPER	er	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	bitte	VVIMP	bitten	_	O	O	
+9-13	,	$,	,	_	O	O	
+9-14	meinen	PPOSAT	mein	_	O	O	
+9-15	besonderen	ADJA	besonder	_	O	O	
+9-16	Dank	NN	Dank	_	O	O	
+9-17	für	APPR	für	_	O	O	
+9-18	seine	PPOSAT	sein	_	O	O	
+9-19	kräftige	ADJA	kräftig	_	O	O	
+9-20	Intervention	NN	Intervention	_	O	O	
+9-21	aus	PTKVZ	aus	_	O	O	
+9-22	.	$.	.	_	O	O	
+
+#id=10
+#text=Dieselbe hat Wunder gewirkt.
+10-1	Dieselbe	PDS	dieselbe	_	O	O	
+10-2	hat	VAFIN	haben	_	O	O	
+10-3	Wunder	NN	Wunder	_	O	O	
+10-4	gewirkt	VVPP	wirken	_	O	O	
+10-5	.	$.	.	_	O	O	
+
+#id=11
+#text=Der Ton der betreffenden Briefe ist ein ganz anderer geworden und bewegt sich nunmehr in Wendugen, wie "höchst befriedigen-
+11-1	Der	ART	die	_	O	O	
+11-2	Ton	NN	Ton	_	O	O	
+11-3	der	ART	die	_	O	O	
+11-4	betreffenden	ADJA	betreffend	_	O	O	
+11-5	Briefe	NN	Brief	_	O	O	
+11-6	ist	VAFIN	sein	_	O	O	
+11-7	ein	ART	eine	_	O	O	
+11-8	ganz	ADV	ganz	_	O	O	
+11-9	anderer	PIAT	andere	_	O	O	
+11-10	geworden	VAPP	werden	_	O	O	
+11-11	und	KON	und	_	O	O	
+11-12	bewegt	VVFIN	bewegen	_	O	O	
+11-13	sich	PRF	sich	_	O	O	
+11-14	nunmehr	ADV	nunmehr	_	O	O	
+11-15	in	APPR	in	_	O	O	
+11-16	Wendugen	NN	<unknown>	_	O	O	
+11-17	,	$,	,	_	O	O	
+11-18	wie	KOKOM	wie	_	O	O	
+11-19	"	$(	"	_	O	O	
+11-20	höchst	ADJD	hochöchst	_	O	O	
+11-21	befriedigen-	ADJA	<unknown>	_	O	O	
+

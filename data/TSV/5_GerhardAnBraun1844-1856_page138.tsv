@@ -1,0 +1,248 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=155 2 Gerhard an Braun Berlin, 30. April 1845 ne Frau, die hauptsächlich Nervenstärkung begehrt und zu diesem Behuf dem Wagnis der Wasserkur sich gern ausgesetzt hätte, doch wol eher auf's Land in die Nähe von Frankfurt führen; abgeschlossen ist diese Überlegung jedoch noch nicht.
+1-1	155	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	ne	ART	eine	_	O	O	
+1-13	Frau	NN	Frau	_	O	O	
+1-14	,	$,	,	_	O	O	
+1-15	die	PRELS	die	_	O	O	
+1-16	hauptsächlich	ADJD	hauptsächlich	_	O	O	
+1-17	Nervenstärkung	NN	<unknown>	_	O	O	
+1-18	begehrt	VVPP	begehren	_	O	O	
+1-19	und	KON	und	_	O	O	
+1-20	zu	APPR	zu	_	O	O	
+1-21	diesem	PDAT	dies	_	O	O	
+1-22	Behuf	NN	<unknown>	_	O	O	
+1-23	dem	ART	die	_	O	O	
+1-24	Wagnis	NN	Wagnis	_	O	O	
+1-25	der	ART	die	_	O	O	
+1-26	Wasserkur	NN	<unknown>	_	O	O	
+1-27	sich	PRF	sich	_	O	O	
+1-28	gern	ADV	gern	_	O	O	
+1-29	ausgesetzt	VVPP	aussetzen	_	O	O	
+1-30	hätte	VAFIN	haben	_	O	O	
+1-31	,	$,	,	_	O	O	
+1-32	doch	ADV	doch	_	O	O	
+1-33	wol	ADJD	<unknown>	_	O	O	
+1-34	eher	ADV	eher	_	O	O	
+1-35	auf's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-36	Land	NN	Land	_	O	O	
+1-37	in	APPR	in	_	O	O	
+1-38	die	ART	die	_	O	O	
+1-39	Nähe	NN	Nähe	_	O	O	
+1-40	von	APPR	von	_	O	O	
+1-41	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-42	führen	VVINF	führen	_	O	O	
+1-43	;	$.	;	_	O	O	
+1-44	abgeschlossen	ADJD	abgeschlossen	_	O	O	
+1-45	ist	VAFIN	sein	_	O	O	
+1-46	diese	PDAT	dies	_	O	O	
+1-47	Überlegung	NN	Überlegung	_	O	O	
+1-48	jedoch	ADV	jedoch	_	O	O	
+1-49	noch	ADV	noch	_	O	O	
+1-50	nicht	PTKNEG	nicht	_	O	O	
+1-51	.	$.	.	_	O	O	
+
+#id=2
+#text=Gefahren der Wasserkur scheue ich für meine Frau um so mehr da ich sie nicht begleiten kann.
+2-1	Gefahren	NN	Gefahr	_	O	O	
+2-2	der	ART	die	_	O	O	
+2-3	Wasserkur	NN	<unknown>	_	O	O	
+2-4	scheue	VVFIN	scheuen	_	O	O	
+2-5	ich	PPER	ich	_	O	O	
+2-6	für	APPR	für	_	O	O	
+2-7	meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-8	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-9	um	APPR	um	_	O	O	
+2-10	so	ADV	so	_	O	O	
+2-11	mehr	ADV	mehr	_	O	O	
+2-12	da	KOUS	da	_	O	O	
+2-13	ich	PPER	ich	_	O	O	
+2-14	sie	PPER	sie	_	O	O	
+2-15	nicht	PTKNEG	nicht	_	O	O	
+2-16	begleiten	VVINF	begleiten	_	O	O	
+2-17	kann	VMFIN	können	_	O	O	
+2-18	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich wiederhole es daß Leemans einen Brief vom Institut zu verlangen hat; haben Sie die Erlaubnis sich von Brockhaus direkt zu versorgen ihm direkt früher bereits ertheilt, so seien Sie so gut durch Renzen einige auf Inhalt und Datum des früheren Briefs bezügliche Zeilen ihm zugehn zu lassen.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	wiederhole	VVFIN	wiederholen	_	O	O	
+3-3	es	PPER	es	_	O	O	
+3-4	daß	KOUS	dass	_	O	O	
+3-5	Leemans	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	einen	ART	eine	_	O	O	
+3-7	Brief	NN	Brief	_	O	O	
+3-8	vom	APPRART	von	_	O	O	
+3-9	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-10	zu	PTKZU	zu	_	O	O	
+3-11	verlangen	VVINF	verlangen	_	O	O	
+3-12	hat	VAFIN	haben	_	O	O	
+3-13	;	$.	;	_	O	O	
+3-14	haben	VAFIN	haben	_	O	O	
+3-15	Sie	PPER	Sie	_	O	O	
+3-16	die	ART	die	_	O	O	
+3-17	Erlaubnis	NN	Erlaubnis	_	O	O	
+3-18	sich	PRF	sich	_	O	O	
+3-19	von	APPR	von	_	O	O	
+3-20	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-21	direkt	ADJD	direkt	_	O	O	
+3-22	zu	PTKVZ	zu	_	O	O	
+3-23	versorgen	VVFIN	versorgen	_	O	O	
+3-24	ihm	PPER	er	_	O	O	
+3-25	direkt	ADJD	direkt	_	O	O	
+3-26	früher	ADV	früher	_	O	O	
+3-27	bereits	ADV	bereits	_	O	O	
+3-28	ertheilt	VVFIN	<unknown>	_	O	O	
+3-29	,	$,	,	_	O	O	
+3-30	so	ADV	so	_	O	O	
+3-31	seien	VAFIN	sein	_	O	O	
+3-32	Sie	PPER	Sie	_	O	O	
+3-33	so	ADV	so	_	O	O	
+3-34	gut	ADJD	gut	_	O	O	
+3-35	durch	APPR	durch	_	O	O	
+3-36	Renzen	NN	<unknown>	_	O	O	
+3-37	einige	PIS	einige	_	O	O	
+3-38	auf	APPR	auf	_	O	O	
+3-39	Inhalt	NN	Inhalt	_	O	O	
+3-40	und	KON	und	_	O	O	
+3-41	Datum	NN	Datum	_	O	O	
+3-42	des	ART	die	_	O	O	
+3-43	früheren	ADJA	früh	_	O	O	
+3-44	Briefs	NN	Brief	_	O	O	
+3-45	bezügliche	ADJA	bezüglich	_	O	O	
+3-46	Zeilen	NN	Zeile	_	O	O	
+3-47	ihm	PPER	er	_	O	O	
+3-48	zugehn	ADJD	<unknown>	_	O	O	
+3-49	zu	PTKZU	zu	_	O	O	
+3-50	lassen	VVINF	lassen	_	O	O	
+3-51	.	$.	.	_	O	O	
+
+#id=4
+#text=Etwas Befriedigendes und Verbindliches zugleich verdient er; geschieht das nicht bald, so verliert das Institut durch Vertändelung der ihm verheißenen Defekte überdies den Vortheil späterer Zahlungen eines willigen Zahlers.
+4-1	Etwas	PIAT	etwas	_	O	O	
+4-2	Befriedigendes	NN	Befriedigendes	_	O	O	
+4-3	und	KON	und	_	O	O	
+4-4	Verbindliches	NN	Verbindliche	_	O	O	
+4-5	zugleich	ADV	zugleich	_	O	O	
+4-6	verdient	VVFIN	verdienen	_	O	O	
+4-7	er	PPER	er	_	O	O	
+4-8	;	$.	;	_	O	O	
+4-9	geschieht	VVFIN	geschehen	_	O	O	
+4-10	das	PDS	die	_	O	O	
+4-11	nicht	PTKNEG	nicht	_	O	O	
+4-12	bald	ADV	bald	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	so	ADV	so	_	O	O	
+4-15	verliert	VVFIN	verlieren	_	O	O	
+4-16	das	ART	die	_	O	O	
+4-17	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-18	durch	APPR	durch	_	O	O	
+4-19	Vertändelung	NN	<unknown>	_	O	O	
+4-20	der	ART	die	_	O	O	
+4-21	ihm	PPER	er	_	O	O	
+4-22	verheißenen	ADJA	verheißen	_	O	O	
+4-23	Defekte	NN	Defekte	_	O	O	
+4-24	überdies	ADV	überdies	_	O	O	
+4-25	den	ART	die	_	O	O	
+4-26	Vortheil	NN	<unknown>	_	O	O	
+4-27	späterer	ADJA	spät	_	O	O	
+4-28	Zahlungen	NN	Zahlung	_	O	O	
+4-29	eines	ART	eine	_	O	O	
+4-30	willigen	ADJA	willig	_	O	O	
+4-31	Zahlers	NN	<unknown>	_	O	O	
+4-32	.	$.	.	_	O	O	
+
+#id=5
+#text=Mir schreibt er als sei Nichts in der Sache geschehen.
+5-1	Mir	PPER	ich	_	O	O	
+5-2	schreibt	VVFIN	schreiben	_	O	O	
+5-3	er	PPER	er	_	O	O	
+5-4	als	KOKOM	als	_	O	O	
+5-5	sei	VAFIN	sein	_	O	O	
+5-6	Nichts	PIS	nichts	_	O	O	
+5-7	in	APPR	in	_	O	O	
+5-8	der	ART	die	_	O	O	
+5-9	Sache	NN	Sache	_	O	O	
+5-10	geschehen	VVINF	geschehen	_	O	O	
+5-11	.	$.	.	_	O	O	
+
+#id=6
+#text=Savigny ist ganz für Jahn und dessen Befähigung zur Epigraphik erwärmt; Jahn wird nächstens einen Plan einsenden und vermuthlich zu italienischer Reise ausgerüstet werden.
+6-1	Savigny	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	ganz	ADV	ganz	_	O	O	
+6-4	für	APPR	für	_	O	O	
+6-5	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-6	und	KON	und	_	O	O	
+6-7	dessen	PDAT	die	_	O	O	
+6-8	Befähigung	NN	Befähigung	_	O	O	
+6-9	zur	APPRART	zu	_	O	O	
+6-10	Epigraphik	NN	<unknown>	_	O	O	
+6-11	erwärmt	VVPP	erwärmen	_	O	O	
+6-12	;	$.	;	_	O	O	
+6-13	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-14	wird	VAFIN	werden	_	O	O	
+6-15	nächstens	ADV	nächstens	_	O	O	
+6-16	einen	ART	eine	_	O	O	
+6-17	Plan	NN	Plan	_	O	O	
+6-18	einsenden	VVINF	einsenden	_	O	O	
+6-19	und	KON	und	_	O	O	
+6-20	vermuthlich	ADJD	<unknown>	_	O	O	
+6-21	zu	PTKZU	zu	_	O	O	
+6-22	italienischer	ADJA	italienisch	_	O	O	
+6-23	Reise	NN	Reise	_	O	O	
+6-24	ausgerüstet	VVPP	ausrüsten	_	O	O	
+6-25	werden	VAINF	werden	_	O	O	
+6-26	.	$.	.	_	O	O	
+
+#id=7
+#text=(Dieses bleibt zunächst unter uns ) Seltsam daß die Archäologische Zeitung defekt Ihnen zugesandt sein sollte.
+7-1	(	$(	(	_	O	O	
+7-2	Dieses	PDS	diese	_	O	O	
+7-3	bleibt	VVFIN	bleiben	_	O	O	
+7-4	zunächst	ADV	zunächst	_	O	O	
+7-5	unter	APPR	unter	_	O	O	
+7-6	uns	PPER	wir	_	O	O	
+7-7	)	$(	)	_	O	O	
+7-8	Seltsam	ADV	<unknown>	_	O	O	
+7-9	daß	KOUS	dass	_	O	O	
+7-10	die	ART	die	_	O	O	
+7-11	Archäologische	ADJA	archäologisch	_	O	O	
+7-12	Zeitung	NN	Zeitung	_	O	O	
+7-13	defekt	ADJD	defekt	_	O	O	
+7-14	Ihnen	PPER	Sie	_	O	O	
+7-15	zugesandt	VVPP	zusenden	_	O	O	
+7-16	sein	VAINF	sein	_	O	O	
+7-17	sollte	VMFIN	sollen	_	O	O	
+7-18	.	$.	.	_	O	O	
+
+#id=8
+#text=Was fehlt darin?
+8-1	Was	PWS	was	_	O	O	
+8-2	fehlt	VVFIN	fehlen	_	O	O	
+8-3	darin	PAV	darin	_	O	O	
+8-4	?	$.	?	_	O	O	
+
+#id=9
+#text=Roß hat aus Cypern und aus Athen geschrieben,
+9-1	Roß	NN	Ross	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	hat	VAFIN	haben	_	O	O	
+9-3	aus	APPR	aus	_	O	O	
+9-4	Cypern	NE	<unknown>	_	O	O	
+9-5	und	KON	und	_	O	O	
+9-6	aus	APPR	aus	_	O	O	
+9-7	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-8	geschrieben	VVPP	schreiben	_	O	O	
+9-9	,	$,	,	_	O	O	
+

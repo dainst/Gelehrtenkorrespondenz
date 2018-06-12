@@ -1,0 +1,262 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=453 Helbig an Henzen Neapel, 28. September 1864 2 und sprechen mit mir nach meinen Scheden über die Auswahl der zu publicirenden Gegenstände.
+1-1	453	CARD	@card@	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	und	KON	und	_	O	O	
+1-13	sprechen	VVFIN	sprechen	_	O	O	
+1-14	mit	APPR	mit	_	O	O	
+1-15	mir	PPER	ich	_	O	O	
+1-16	nach	APPR	nach	_	O	O	
+1-17	meinen	PPOSAT	mein	_	O	O	
+1-18	Scheden	NN	<unknown>	_	O	O	
+1-19	über	APPR	über	_	O	O	
+1-20	die	ART	die	_	O	O	
+1-21	Auswahl	NN	Auswahl	_	O	O	
+1-22	der	ART	die	_	O	O	
+1-23	zu	APPR	zu	_	O	O	
+1-24	publicirenden	ADJA	<unknown>	_	O	O	
+1-25	Gegenstände	NN	Gegenstand	_	O	O	
+1-26	.	$.	.	_	O	O	
+
+#id=2
+#text=Das Entree muß man Scalabrini natürlich vergütigen.
+2-1	Das	ART	die	_	O	O	
+2-2	Entree	NN	Entree	_	O	O	
+2-3	muß	VMFIN	müssen	_	O	O	
+2-4	man	PIS	man	_	O	O	
+2-5	Scalabrini	NN	<unknown>	_	O	O	
+2-6	natürlich	ADV	natürlich	_	O	O	
+2-7	vergütigen	VVINF	<unknown>	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Dagegen ist es Heulmeyerei seinerseits, daß er sich nicht in Pompei bei Raffaele Ghristiera einquartiren will.
+3-1	Dagegen	PAV	dagegen	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	es	PPER	es	_	O	O	
+3-4	Heulmeyerei	NN	<unknown>	_	O	O	
+3-5	seinerseits	ADV	seinerseits	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	daß	KOUS	dass	_	O	O	
+3-8	er	PPER	er	_	O	O	
+3-9	sich	PRF	sich	_	O	O	
+3-10	nicht	PTKNEG	nicht	_	O	O	
+3-11	in	APPR	in	_	O	O	
+3-12	Pompei	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-13	bei	APPR	bei	_	O	O	
+3-14	Raffaele	NE	Raffaele	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-15	Ghristiera	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-16	einquartiren	NN	<unknown>	_	O	O	
+3-17	will	VMFIN	wollen	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich halte es nun schon lange:~ hier aus und befinde mich ganz wohl dabei.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	halte	VVFIN	halten	_	O	O	
+4-3	es	PPER	es	_	O	O	
+4-4	nun	ADV	nun	_	O	O	
+4-5	schon	ADV	schon	_	O	O	
+4-6	lange:~	ADJD	<unknown>	_	O	O	
+4-7	hier	ADV	hier	_	O	O	
+4-8	aus	PTKVZ	aus	_	O	O	
+4-9	und	KON	und	_	O	O	
+4-10	befinde	VVFIN	befinden	_	O	O	
+4-11	mich	PRF	ich	_	O	O	
+4-12	ganz	ADV	ganz	_	O	O	
+4-13	wohl	ADV	wohl	_	O	O	
+4-14	dabei	PAV	dabei	_	O	O	
+4-15	.	$.	.	_	O	O	
+
+#id=5
+#text=Er kann unmöglich verlangen, daß das Institut täglich drei Francs Reisekosten für ihn ausgiebt.
+5-1	Er	PPER	er	_	O	O	
+5-2	kann	VMFIN	können	_	O	O	
+5-3	unmöglich	ADJD	unmöglich	_	O	O	
+5-4	verlangen	VVINF	verlangen	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	daß	KOUS	dass	_	O	O	
+5-7	das	ART	die	_	O	O	
+5-8	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-9	täglich	ADJD	täglich	_	O	O	
+5-10	drei	CARD	drei	_	O	O	
+5-11	Francs	NN	Franc	_	O	O	
+5-12	Reisekosten	NN	Reisekosten	_	O	O	
+5-13	für	APPR	für	_	O	O	
+5-14	ihn	PPER	er	_	O	O	
+5-15	ausgiebt	VVFIN	<unknown>	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Also in Summa ich halte es für ersprießlich, Scalabrini noch einmal nach Neapel zu schicken, wünsche aber, daß seine Instructionen nach einer Vorberathung zwischen Ihnen und mir erfolgen.
+6-1	Also	ADV	also	_	O	O	
+6-2	in	APPR	in	_	O	O	
+6-3	Summa	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-4	ich	PPER	ich	_	O	O	
+6-5	halte	VVFIN	halten	_	O	O	
+6-6	es	PPER	es	_	O	O	
+6-7	für	APPR	für	_	O	O	
+6-8	ersprießlich	ADJD	ersprießlich	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	Scalabrini	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-11	noch	ADV	noch	_	O	O	
+6-12	einmal	ADV	einmal	_	O	O	
+6-13	nach	APPR	nach	_	O	O	
+6-14	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-15	zu	PTKZU	zu	_	O	O	
+6-16	schicken	VVINF	schicken	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	wünsche	VVFIN	wünschen	_	O	O	
+6-19	aber	ADV	aber	_	O	O	
+6-20	,	$,	,	_	O	O	
+6-21	daß	KOUS	dass	_	O	O	
+6-22	seine	PPOSAT	sein	_	O	O	
+6-23	Instructionen	NN	<unknown>	_	O	O	
+6-24	nach	APPR	nach	_	O	O	
+6-25	einer	ART	eine	_	O	O	
+6-26	Vorberathung	NN	<unknown>	_	O	O	
+6-27	zwischen	APPR	zwischen	_	O	O	
+6-28	Ihnen	PPER	Sie	_	O	O	
+6-29	und	KON	und	_	O	O	
+6-30	mir	PRF	ich	_	O	O	
+6-31	erfolgen	VVFIN	erfolgen	_	O	O	
+6-32	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich werde erst um den 7. October in Rom eintreffen.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	werde	VAFIN	werden	_	O	O	
+7-3	erst	ADV	erst	_	O	O	
+7-4	um	APPR	um	_	O	O	
+7-5	den	ART	die	_	O	O	
+7-6	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-8	October	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-9	in	APPR	in	_	O	O	
+7-10	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-11	eintreffen	VVFIN	eintreffen	_	O	O	
+7-12	.	$.	.	_	O	O	
+
+#id=8
+#text=Nächsten Sonnabend nämlich kommt Bellisle, mit welchem ich mich in brieflichen Verkehr gesetzt hatte, nach Neapel zurück und ich werde Anfang nächster Woche nach Paestum abgehen, um seine Antiquitäten zu inspiciren.
+8-1	Nächsten	ADJA	nah	_	O	O	
+8-2	Sonnabend	NN	Sonnabend	_	O	O	
+8-3	nämlich	ADV	nämlich	_	O	O	
+8-4	kommt	VVFIN	kommen	_	O	O	
+8-5	Bellisle	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	,	$,	,	_	O	O	
+8-7	mit	APPR	mit	_	O	O	
+8-8	welchem	PRELS	welche	_	O	O	
+8-9	ich	PPER	ich	_	O	O	
+8-10	mich	PRF	ich	_	O	O	
+8-11	in	APPR	in	_	O	O	
+8-12	brieflichen	ADJA	brieflich	_	O	O	
+8-13	Verkehr	NN	Verkehr	_	O	O	
+8-14	gesetzt	VVPP	setzen	_	O	O	
+8-15	hatte	VAFIN	haben	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	nach	APPR	nach	_	O	O	
+8-18	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-19	zurück	PTKVZ	zurück	_	O	O	
+8-20	und	KON	und	_	O	O	
+8-21	ich	PPER	ich	_	O	O	
+8-22	werde	VAFIN	werden	_	O	O	
+8-23	Anfang	NN	Anfang	_	O	O	
+8-24	nächster	ADJA	nah	_	O	O	
+8-25	Woche	NN	Woche	_	O	O	
+8-26	nach	APPR	nach	_	O	O	
+8-27	Paestum	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-28	abgehen	VVINF	abgehen	_	O	O	
+8-29	,	$,	,	_	O	O	
+8-30	um	KOUI	um	_	O	O	
+8-31	seine	PPOSAT	sein	_	O	O	
+8-32	Antiquitäten	NN	Antiquität	_	O	O	
+8-33	zu	APPR	zu	_	O	O	
+8-34	inspiciren	NN	<unknown>	_	O	O	
+8-35	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich bitte mir zu schreiben, wie weit wir Niccolinis Gose und Monumenti haben, da ich die unterdeß erschienenen Hefte - ich glaube, es sind zwei - mitzubringen gedenke.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	bitte	VVFIN	bitten	_	O	O	
+9-3	mir	PPER	ich	_	O	O	
+9-4	zu	PTKZU	zu	_	O	O	
+9-5	schreiben	VVINF	schreiben	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	wie	KOKOM	wie	_	O	O	
+9-8	weit	ADJD	weit	_	O	O	
+9-9	wir	PPER	wir	_	O	O	
+9-10	Niccolinis	NN	<unknown>	_	O	O	
+9-11	Gose	NN	Gose	_	O	O	
+9-12	und	KON	und	_	O	O	
+9-13	Monumenti	NN	<unknown>	_	O	O	
+9-14	haben	VAFIN	haben	_	O	O	
+9-15	,	$,	,	_	O	O	
+9-16	da	KOUS	da	_	O	O	
+9-17	ich	PPER	ich	_	O	O	
+9-18	die	ART	die	_	O	O	
+9-19	unterdeß	NN	<unknown>	_	O	O	
+9-20	erschienenen	ADJA	erschienen	_	O	O	
+9-21	Hefte	NN	Heft	_	O	O	
+9-22	-	$(	-	_	O	O	
+9-23	ich	PPER	ich	_	O	O	
+9-24	glaube	VVFIN	glauben	_	O	O	
+9-25	,	$,	,	_	O	O	
+9-26	es	PPER	es	_	O	O	
+9-27	sind	VAFIN	sein	_	O	O	
+9-28	zwei	CARD	zwei	_	O	O	
+9-29	-	$(	-	_	O	O	
+9-30	mitzubringen	VVIZU	mitbringen	_	O	O	
+9-31	gedenke	VVFIN	gedenken	_	O	O	
+9-32	.	$.	.	_	O	O	
+
+#id=10
+#text=Auf der Rückreise werde ich mich einen Tag in Gapua aufhalten, um einen Jahnschen Auftrag zu besorgen und einige neuentdeckte Sachen anzusehen.
+10-1	Auf	APPR	auf	_	O	O	
+10-2	der	ART	die	_	O	O	
+10-3	Rückreise	NN	Rückreise	_	O	O	
+10-4	werde	VAFIN	werden	_	O	O	
+10-5	ich	PPER	ich	_	O	O	
+10-6	mich	PRF	ich	_	O	O	
+10-7	einen	ART	eine	_	O	O	
+10-8	Tag	NN	Tag	_	O	O	
+10-9	in	APPR	in	_	O	O	
+10-10	Gapua	NN	<unknown>	_	O	O	
+10-11	aufhalten	VVINF	aufhalten	_	O	O	
+10-12	,	$,	,	_	O	O	
+10-13	um	KOUI	um	_	O	O	
+10-14	einen	ART	eine	_	O	O	
+10-15	Jahnschen	NN	<unknown>	_	O	O	
+10-16	Auftrag	NN	Auftrag	_	O	O	
+10-17	zu	PTKZU	zu	_	O	O	
+10-18	besorgen	VVINF	besorgen	_	O	O	
+10-19	und	KON	und	_	O	O	
+10-20	einige	PIAT	einige	_	O	O	
+10-21	neuentdeckte	ADJA	neuentdeckt	_	O	O	
+10-22	Sachen	NN	Sache	_	O	O	
+10-23	anzusehen	VVIZU	ansehen	_	O	O	
+10-24	.	$.	.	_	O	O	
+
+#id=11
+#text=Mit vielen Grüßen an die Frau Professorin Ihr Wolfg. Helbig
+11-1	Mit	APPR	mit	_	O	O	
+11-2	vielen	PIAT	viele	_	O	O	
+11-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+11-4	an	APPR	an	_	O	O	
+11-5	die	ART	die	_	O	O	
+11-6	Frau	NN	Frau	_	O	O	
+11-7	Professorin	NN	Professorin	_	O	O	
+11-8	Ihr	PPOSAT	ihr	_	O	O	
+11-9	Wolfg.	NE	Wolfg.	_	O	O	
+11-10	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

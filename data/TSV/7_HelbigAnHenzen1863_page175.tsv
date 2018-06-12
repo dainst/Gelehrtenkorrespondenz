@@ -1,0 +1,267 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=, 2 Helbig an Henzen Rom, 24. Juli 1872 welche bei Studium der phönikischen Kunst unentbehrlich sind: Adrien de Longperier Musee Napoleon, von dem ich 6 Hefte im Direktorialzimmer des neapler Museums sah, und Fragmenta Phile/IDonis et Menandri ed.
+1-1	,	$,	,	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	welche	PRELS	welche	_	O	O	
+1-13	bei	APPR	bei	_	O	O	
+1-14	Studium	NN	Studium	_	O	O	
+1-15	der	ART	die	_	O	O	
+1-16	phönikischen	ADJA	<unknown>	_	O	O	
+1-17	Kunst	NN	Kunst	_	O	O	
+1-18	unentbehrlich	ADJD	unentbehrlich	_	O	O	
+1-19	sind	VAFIN	sein	_	O	O	
+1-20	:	$.	:	_	O	O	
+1-21	Adrien	NE	Adrien	_	O	O	
+1-22	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-23	Longperier	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-24	Musee	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-25	Napoleon	NN	Napoleon	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+1-26	,	$,	,	_	O	O	
+1-27	von	APPR	von	_	O	O	
+1-28	dem	PRELS	die	_	O	O	
+1-29	ich	PPER	ich	_	O	O	
+1-30	6	CARD	6	_	O	O	
+1-31	Hefte	NN	Heft	_	O	O	
+1-32	im	APPRART	in	_	O	O	
+1-33	Direktorialzimmer	NN	<unknown>	_	O	O	
+1-34	des	ART	die	_	O	O	
+1-35	neapler	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-36	Museums	NN	Museum	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+1-37	sah	VVFIN	sehen	_	O	O	
+1-38	,	$,	,	_	O	O	
+1-39	und	KON	und	_	O	O	
+1-40	Fragmenta	NN	<unknown>	_	O	O	
+1-41	Phile/IDonis	NE	<unknown>	_	O	O	
+1-42	et	FM	et	_	O	O	
+1-43	Menandri	NE	<unknown>	_	O	O	
+1-44	ed.	VVFIN	<unknown>	_	O	O	
+
+#id=2
+#text=Meineke (wir haben nur die Fragmenta comicor.
+2-1	Meineke	NE	<unknown>	_	O	O	
+2-2	(	$(	(	_	O	O	
+2-3	wir	PPER	wir	_	O	O	
+2-4	haben	VAFIN	haben	_	O	O	
+2-5	nur	ADV	nur	_	O	O	
+2-6	die	ART	die	_	O	O	
+2-7	Fragmenta	NN	<unknown>	_	O	O	
+2-8	comicor	ADJD	<unknown>	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=gr., wo bei Erläuterung dieser beiden Dichter auf die Separatausgabe verwiesen ist ) • Ersteres Werk ist sehr schön ausgestattet und wird daher nicht billig sein; doch haben wir ja in diesem Jahre eine Menge Geld übrig.
+3-1	gr.	NN	gr.	_	O	O	
+3-2	,	$,	,	_	O	O	
+3-3	wo	PWAV	wo	_	O	O	
+3-4	bei	APPR	bei	_	O	O	
+3-5	Erläuterung	NN	Erläuterung	_	O	O	
+3-6	dieser	PDAT	dies	_	O	O	
+3-7	beiden	PIAT	beide	_	O	O	
+3-8	Dichter	NN	Dichter	_	O	O	
+3-9	auf	APPR	auf	_	O	O	
+3-10	die	ART	die	_	O	O	
+3-11	Separatausgabe	NN	<unknown>	_	O	O	
+3-12	verwiesen	VVPP	verweisen	_	O	O	
+3-13	ist	VAFIN	sein	_	O	O	
+3-14	)	$(	)	_	O	O	
+3-15	•	ADJD	<unknown>	_	O	O	
+3-16	Ersteres	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-17	Werk	NN	Werk	_	O	O	
+3-18	ist	VAFIN	sein	_	O	O	
+3-19	sehr	ADV	sehr	_	O	O	
+3-20	schön	ADJD	schön	_	O	O	
+3-21	ausgestattet	VVPP	ausstatten	_	O	O	
+3-22	und	KON	und	_	O	O	
+3-23	wird	VAFIN	werden	_	O	O	
+3-24	daher	PAV	daher	_	O	O	
+3-25	nicht	PTKNEG	nicht	_	O	O	
+3-26	billig	ADJD	billig	_	O	O	
+3-27	sein	VAINF	sein	_	O	O	
+3-28	;	$.	;	_	O	O	
+3-29	doch	ADV	doch	_	O	O	
+3-30	haben	VAFIN	haben	_	O	O	
+3-31	wir	PPER	wir	_	O	O	
+3-32	ja	ADV	ja	_	O	O	
+3-33	in	APPR	in	_	O	O	
+3-34	diesem	PDAT	dies	_	O	O	
+3-35	Jahre	NN	Jahr	_	O	O	
+3-36	eine	ART	eine	_	O	O	
+3-37	Menge	NN	Menge	_	O	O	
+3-38	Geld	NN	Geld	_	O	O	
+3-39	übrig	ADJD	übrig	_	O	O	
+3-40	.	$.	.	_	O	O	
+
+#id=4
+#text=Diese beiden Bücher muß ich Ende September in Rom zu meiner Disposition haben, wenn ich die Schale erläutern soll.
+4-1	Diese	PDAT	dies	_	O	O	
+4-2	beiden	PIAT	beide	_	O	O	
+4-3	Bücher	NN	Buch	_	O	O	
+4-4	muß	VMFIN	müssen	_	O	O	
+4-5	ich	PPER	ich	_	O	O	
+4-6	Ende	NN	Ende	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-7	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-8	in	APPR	in	_	O	O	
+4-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-10	zu	APPR	zu	_	O	O	
+4-11	meiner	PPOSAT	mein	_	O	O	
+4-12	Disposition	NN	Disposition	_	O	O	
+4-13	haben	VAINF	haben	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	wenn	KOUS	wenn	_	O	O	
+4-16	ich	PPER	ich	_	O	O	
+4-17	die	ART	die	_	O	O	
+4-18	Schale	NN	Schale	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-19	erläutern	VVINF	erläutern	_	O	O	
+4-20	soll	VMFIN	sollen	_	O	O	
+4-21	.	$.	.	_	O	O	
+
+#id=5
+#text=Außerdem wäre es nicht übel bei dieser Gelegenheit zu bestellen Wunderlich Geschichte der Medizin Stuttgard 1859, was mir Schrön geliehen und worin vieles Beachtenswerthe über antike Anatomie gesagt ist.
+5-1	Außerdem	ADV	außerdem	_	O	O	
+5-2	wäre	VAFIN	sein	_	O	O	
+5-3	es	PPER	es	_	O	O	
+5-4	nicht	PTKNEG	nicht	_	O	O	
+5-5	übel	ADJD	übel	_	O	O	
+5-6	bei	APPR	bei	_	O	O	
+5-7	dieser	PDAT	dies	_	O	O	
+5-8	Gelegenheit	NN	Gelegenheit	_	O	O	
+5-9	zu	PTKZU	zu	_	O	O	
+5-10	bestellen	VVINF	bestellen	_	O	O	
+5-11	Wunderlich	ADJD	wunderlich	_	O	O	
+5-12	Geschichte	NN	Geschichte	_	O	O	
+5-13	der	ART	die	_	O	O	
+5-14	Medizin	NN	Medizin	_	O	O	
+5-15	Stuttgard	NE	<unknown>	_	O	O	
+5-16	1859	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-17	,	$,	,	_	O	O	
+5-18	was	PRELS	was	_	O	O	
+5-19	mir	PPER	ich	_	O	O	
+5-20	Schrön	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-21	geliehen	VVPP	leihen	_	O	O	
+5-22	und	KON	und	_	O	O	
+5-23	worin	PWAV	worin	_	O	O	
+5-24	vieles	PIS	viele	_	O	O	
+5-25	Beachtenswerthe	NN	<unknown>	_	O	O	
+5-26	über	APPR	über	_	O	O	
+5-27	antike	ADJA	antik	_	O	O	
+5-28	Anatomie	NN	Anatomie	_	O	O	
+5-29	gesagt	VVPP	sagen	_	O	O	
+5-30	ist	VAFIN	sein	_	O	O	
+5-31	.	$.	.	_	O	O	
+
+#id=6
+#text=Zweitens: Könnte man von DresseI, als Ihrem Assistenten, verlangen, daß er eine aus Neapel kommende Spedition von Vasen in Empfang nehme?
+6-1	Zweitens	ADV	zweitens	_	O	O	
+6-2	:	$.	:	_	O	O	
+6-3	Könnte	VMFIN	können	_	O	O	
+6-4	man	PIS	man	_	O	O	
+6-5	von	APPR	von	_	O	O	
+6-6	DresseI	NN	<unknown>	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	als	KOKOM	als	_	O	O	
+6-9	Ihrem	PPOSAT	ihr	_	O	O	
+6-10	Assistenten	NN	Assistent	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	verlangen	VVFIN	verlangen	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	daß	KOUS	dass	_	O	O	
+6-15	er	PPER	er	_	O	O	
+6-16	eine	ART	eine	_	O	O	
+6-17	aus	APPR	aus	_	O	O	
+6-18	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-19	kommende	ADJA	kommend	_	O	O	
+6-20	Spedition	NN	Spedition	_	O	O	
+6-21	von	APPR	von	_	O	O	
+6-22	Vasen	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-23	in	APPR	in	_	O	O	
+6-24	Empfang	NN	Empfang	_	O	O	
+6-25	nehme	VVFIN	nehmen	_	O	O	
+6-26	?	$.	?	_	O	O	
+
+#id=7
+#text=Ich möchte nämlich gern einige der für Gotha erworbenen Gegenstände in Rom zeichnen lassen.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	möchte	VMFIN	mögen	_	O	O	
+7-3	nämlich	ADV	nämlich	_	O	O	
+7-4	gern	ADV	gern	_	O	O	
+7-5	einige	PIS	einige	_	O	O	
+7-6	der	ART	die	_	O	O	
+7-7	für	APPR	für	_	O	O	
+7-8	Gotha	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-9	erworbenen	ADJA	erworben	_	O	O	
+7-10	Gegenstände	NN	Gegenstand	_	O	O	
+7-11	in	APPR	in	_	O	O	
+7-12	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-13	zeichnen	VVINF	zeichnen	_	O	O	
+7-14	lassen	VVINF	lassen	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=An Mariani würde ich das nöthige schreiben.
+8-1	An	APPR	an	_	O	O	
+8-2	Mariani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	würde	VAFIN	werden	_	O	O	
+8-4	ich	PPER	ich	_	O	O	
+8-5	das	ART	die	_	O	O	
+8-6	nöthige	ADJA	<unknown>	_	O	O	
+8-7	schreiben	VVINF	schreiben	_	O	O	
+8-8	.	$.	.	_	O	O	
+
+#id=9
+#text=Dressel hätte die Sendung, nachdem die Zeichnungen vollendet sind, auch weiter zu befördern.
+9-1	Dressel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	hätte	VAFIN	haben	_	O	O	
+9-3	die	ART	die	_	O	O	
+9-4	Sendung	NN	Sendung	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	nachdem	KOUS	nachdem	_	O	O	
+9-7	die	ART	die	_	O	O	
+9-8	Zeichnungen	NN	Zeichnung	_	O	O	
+9-9	vollendet	VVPP	vollenden	_	O	O	
+9-10	sind	VAFIN	sein	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	auch	ADV	auch	_	O	O	
+9-13	weiter	ADV	weiter	_	O	O	
+9-14	zu	PTKZU	zu	_	O	O	
+9-15	befördern	VVINF	befördern	_	O	O	
+9-16	.	$.	.	_	O	O	
+
+#id=10
+#text=Der Inhalt der Darstellungen ist so einfach, daß eine Revision der Zeichnungen kaum nöthig ist.
+10-1	Der	ART	die	_	O	O	
+10-2	Inhalt	NN	Inhalt	_	O	O	
+10-3	der	ART	die	_	O	O	
+10-4	Darstellungen	NN	Darstellung	_	O	O	
+10-5	ist	VAFIN	sein	_	O	O	
+10-6	so	ADV	so	_	O	O	
+10-7	einfach	ADJD	einfach	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	daß	KOUS	dass	_	O	O	
+10-10	eine	ART	eine	_	O	O	
+10-11	Revision	NN	Revision	_	O	O	
+10-12	der	ART	die	_	O	O	
+10-13	Zeichnungen	NN	Zeichnung	_	O	O	
+10-14	kaum	ADV	kaum	_	O	O	
+10-15	nöthig	ADJD	<unknown>	_	O	O	
+10-16	ist	VAFIN	sein	_	O	O	
+10-17	.	$.	.	_	O	O	
+
+#id=11
+#text=Haben Sie die Güte, mir
+11-1	Haben	VAFIN	haben	_	O	O	
+11-2	Sie	PPER	Sie	_	O	O	
+11-3	die	ART	die	_	O	O	
+11-4	Güte	NN	Güte	_	O	O	
+11-5	,	$,	,	_	O	O	
+11-6	mir	PPER	ich	_	O	O	
+

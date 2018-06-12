@@ -1,0 +1,64 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=172 13/V/53 Henzen an Gerhard 4 Viele Grüße meiner Frau an 0ie u. die Ihrige.
+1-1	172	CARD	@card@	_	O	O	
+1-2	13/V/53	CARD	<unknown>	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	4	CARD	4	_	O	O	
+1-7	Viele	PIAT	viele	_	O	O	
+1-8	Grüße	NN	Gruß	_	O	O	
+1-9	meiner	PPOSAT	mein	_	O	O	
+1-10	Frau	NN	Frau	_	O	O	
+1-11	an	APPR	an	_	O	O	
+1-12	0ie	NN	<unknown>	_	O	O	
+1-13	u.	APPR	um	_	O	O	
+1-14	die	ART	die	_	O	O	
+1-15	Ihrige	PPOSAT	ihrige	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Ihr ergebener Rom 13/V 53.
+2-1	Ihr	PPOSAT	ihr	_	O	O	
+2-2	ergebener	ADJA	ergeben	_	O	O	
+2-3	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	13/V	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	53	CARD	53	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Der ~icali ist unterwegs nch.
+3-1	Der	ART	die	_	O	O	
+3-2	~icali	NN	<unknown>	_	O	O	
+3-3	ist	VAFIN	sein	_	O	O	
+3-4	unterwegs	ADV	unterwegs	_	O	O	
+3-5	nch	NN	<unknown>	_	O	O	
+3-6	.	$.	.	_	O	O	
+
+#id=4
+#text=Berlin; Visconti Viseler hatte einmal Lust, biß aber zuan.
+4-1	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-2	;	$.	;	_	O	O	
+4-3	Visconti	NN	Visconte	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-4	Viseler	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-5	hatte	VAFIN	haben	_	O	O	
+4-6	einmal	ADV	einmal	_	O	O	
+4-7	Lust	NN	Lust	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	biß	VVFIN	beißen	_	O	O	
+4-10	aber	ADV	aber	_	O	O	
+4-11	zuan	NE	<unknown>	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=t--__ Burhian muß doch wohl Correspondent werden.
+5-1	t--__	NE	<unknown>	_	O	O	
+5-2	Burhian	NE	<unknown>	_	O	O	
+5-3	muß	VMFIN	müssen	_	O	O	
+5-4	doch	ADV	doch	_	O	O	
+5-5	wohl	ADV	wohl	_	O	O	
+5-6	Correspondent	NN	<unknown>	_	O	O	
+5-7	werden	VAINF	werden	_	O	O	
+5-8	.	$.	.	_	O	O	
+

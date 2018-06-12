@@ -1,0 +1,278 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=- ~ 93 2 Lepsius an -ti Jk:/ t; ~.
+1-1	-	$(	-	_	O	O	
+1-2	~	XY	~	_	O	O	
+1-3	93	CARD	93	_	O	O	
+1-4	2	CARD	2	_	O	O	
+1-5	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	-ti	NE	<unknown>	_	O	O	
+1-8	Jk:/	NE	<unknown>	_	O	O	
+1-9	t	NN	t	_	O	O	
+1-10	;	$.	;	_	O	O	
+1-11	~	XY	~	_	O	O	
+1-12	.	$.	.	_	O	O	
+
+#id=2
+#text=Berlin, 28. Februar 1872 daher officiell gar nicht, aber auch nicht privatim irgend wie befugt war.
+2-1	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-2	,	$,	,	_	O	O	
+2-3	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-4	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-5	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	daher	PAV	daher	_	O	O	
+2-8	officiell	ADJD	<unknown>	_	O	O	
+2-9	gar	ADV	gar	_	O	O	
+2-10	nicht	PTKNEG	nicht	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	aber	KON	aber	_	O	O	
+2-13	auch	ADV	auch	_	O	O	
+2-14	nicht	PTKNEG	nicht	_	O	O	
+2-15	privatim	ADJD	<unknown>	_	O	O	
+2-16	irgend	ADV	irgend	_	O	O	
+2-17	wie	KOKOM	wie	_	O	O	
+2-18	befugt	ADJD	befugt	_	O	O	
+2-19	war	VAFIN	sein	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Er hätte sich im Gegentheil ernstlich darüber beschweren können, da er sich selber sagen konnte, daß das Gesuch dann noch einmal an uns gegangen wäre.
+3-1	Er	PPER	er	_	O	O	
+3-2	hätte	VAFIN	haben	_	O	O	
+3-3	sich	PRF	sich	_	O	O	
+3-4	im	APPRART	in	_	O	O	
+3-5	Gegentheil	NN	<unknown>	_	O	O	
+3-6	ernstlich	ADJD	ernstlich	_	O	O	
+3-7	darüber	PAV	darüber	_	O	O	
+3-8	beschweren	VVINF	beschweren	_	O	O	
+3-9	können	VMINF	können	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	da	KOUS	da	_	O	O	
+3-12	er	PPER	er	_	O	O	
+3-13	sich	PRF	sich	_	O	O	
+3-14	selber	ADV	selber	_	O	O	
+3-15	sagen	VVINF	sagen	_	O	O	
+3-16	konnte	VMFIN	können	_	O	O	
+3-17	,	$,	,	_	O	O	
+3-18	daß	KOUS	dass	_	O	O	
+3-19	das	ART	die	_	O	O	
+3-20	Gesuch	NN	Gesuch	_	O	O	
+3-21	dann	ADV	dann	_	O	O	
+3-22	noch	ADV	noch	_	O	O	
+3-23	einmal	ADV	einmal	_	O	O	
+3-24	an	APPR	an	_	O	O	
+3-25	uns	PRF	wir	_	O	O	
+3-26	gegangen	VVPP	gehen	_	O	O	
+3-27	wäre	VAFIN	sein	_	O	O	
+3-28	.	$.	.	_	O	O	
+
+#id=4
+#text=Es wäre mir ganz recht, wenn Sie ihm diesen Standpunkt etwas klar machen wollten.
+4-1	Es	PPER	es	_	O	O	
+4-2	wäre	VAFIN	sein	_	O	O	
+4-3	mir	PPER	ich	_	O	O	
+4-4	ganz	ADV	ganz	_	O	O	
+4-5	recht	ADJD	recht	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	wenn	KOUS	wenn	_	O	O	
+4-8	Sie	PPER	Sie	_	O	O	
+4-9	ihm	PPER	er	_	O	O	
+4-10	diesen	PDAT	dies	_	O	O	
+4-11	Standpunkt	NN	Standpunkt	_	O	O	
+4-12	etwas	ADV	etwas	_	O	O	
+4-13	klar	ADJD	klar	_	O	O	
+4-14	machen	VVINF	machen	_	O	O	
+4-15	wollten	VMFIN	wollen	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Da es sich nun herausstellt, mit welchen enormen Kosten der gewünschte Institutsbau verbunden ist, so zweifle ich persönlich sehr, daß für das nächste Budeget irgend eine wünschenswerthe Vorlage erreicht werden kann.
+5-1	Da	KOUS	da	_	O	O	
+5-2	es	PPER	es	_	O	O	
+5-3	sich	PRF	sich	_	O	O	
+5-4	nun	ADV	nun	_	O	O	
+5-5	herausstellt	VVFIN	herausstellen	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	mit	APPR	mit	_	O	O	
+5-8	welchen	PRELS	welche	_	O	O	
+5-9	enormen	ADJA	enorm	_	O	O	
+5-10	Kosten	NN	Kosten	_	O	O	
+5-11	der	ART	die	_	O	O	
+5-12	gewünschte	ADJA	gewünscht	_	O	O	
+5-13	Institutsbau	NN	<unknown>	_	O	O	
+5-14	verbunden	VVPP	verbinden	_	O	O	
+5-15	ist	VAFIN	sein	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	so	ADV	so	_	O	O	
+5-18	zweifle	VVFIN	zweifeln	_	O	O	
+5-19	ich	PPER	ich	_	O	O	
+5-20	persönlich	ADJD	persönlich	_	O	O	
+5-21	sehr	ADV	sehr	_	O	O	
+5-22	,	$,	,	_	O	O	
+5-23	daß	KOUS	dass	_	O	O	
+5-24	für	APPR	für	_	O	O	
+5-25	das	ART	die	_	O	O	
+5-26	nächste	ADJA	nah	_	O	O	
+5-27	Budeget	NN	<unknown>	_	O	O	
+5-28	irgend	ADV	irgend	_	O	O	
+5-29	eine	ART	eine	_	O	O	
+5-30	wünschenswerthe	NE	<unknown>	_	O	O	
+5-31	Vorlage	NN	Vorlage	_	O	O	
+5-32	erreicht	VVPP	erreichen	_	O	O	
+5-33	werden	VAINF	werden	_	O	O	
+5-34	kann	VMFIN	können	_	O	O	
+5-35	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich habe die Anschläge sogleich an Abeken und Mommsen mitgetheilt.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	habe	VAFIN	haben	_	O	O	
+6-3	die	ART	die	_	O	O	
+6-4	Anschläge	NN	Anschlag	_	O	O	
+6-5	sogleich	ADV	sogleich	_	O	O	
+6-6	an	APPR	an	_	O	O	
+6-7	Abeken	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-8	und	KON	und	_	O	O	
+6-9	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	mitgetheilt	VVPP	<unknown>	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Beide sind wie ich der Ansicht daß es ganz nutzlos wäre sie einzuschicken.
+7-1	Beide	PIS	beide	_	O	O	
+7-2	sind	VAFIN	sein	_	O	O	
+7-3	wie	KOKOM	wie	_	O	O	
+7-4	ich	PPER	ich	_	O	O	
+7-5	der	ART	die	_	O	O	
+7-6	Ansicht	NN	Ansicht	_	O	O	
+7-7	daß	KOUS	dass	_	O	O	
+7-8	es	PPER	es	_	O	O	
+7-9	ganz	ADV	ganz	_	O	O	
+7-10	nutzlos	ADJD	nutzlos	_	O	O	
+7-11	wäre	VAFIN	sein	_	O	O	
+7-12	sie	PPER	sie	_	O	O	
+7-13	einzuschicken	VVIZU	einschicken	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Der Finanz Minister würde unter diesen Umständen wahrscheinlich etwa auf den früheren Plan, den Granaro für 6000 r umzubauen, oder höchstens auf den früheren Laspeyres'schen zurückkommen, nach welchem für 60 000 r nicht nur für das Institut, sondern auch für eine Kunstakademie gesorgt werden sollte, der aber als bei weitem zu kostspielig zurückgelegt wurde; oder er würde etwa die Mittel gewähren eine neue Bibliothek an die Stelle der alten zu bauen.
+8-1	Der	ART	die	_	O	O	
+8-2	Finanz	NN	Finanz	_	O	O	
+8-3	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-4	würde	VAFIN	werden	_	O	O	
+8-5	unter	APPR	unter	_	O	O	
+8-6	diesen	PDAT	dies	_	O	O	
+8-7	Umständen	NN	Umstand	_	O	O	
+8-8	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+8-9	etwa	ADV	etwa	_	O	O	
+8-10	auf	APPR	auf	_	O	O	
+8-11	den	ART	die	_	O	O	
+8-12	früheren	ADJA	früh	_	O	O	
+8-13	Plan	NN	Plan	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	den	ART	die	_	O	O	
+8-16	Granaro	NN	<unknown>	_	O	O	
+8-17	für	APPR	für	_	O	O	
+8-18	6000	CARD	6000	_	O	O	
+8-19	r	NE	r	_	O	O	
+8-20	umzubauen	VVIZU	umbauen	_	O	O	
+8-21	,	$,	,	_	O	O	
+8-22	oder	KON	oder	_	O	O	
+8-23	höchstens	ADV	höchstens	_	O	O	
+8-24	auf	APPR	auf	_	O	O	
+8-25	den	ART	die	_	O	O	
+8-26	früheren	ADJA	früh	_	O	O	
+8-27	Laspeyres'schen	NN	<unknown>	_	O	O	
+8-28	zurückkommen	VVFIN	zurückkommen	_	O	O	
+8-29	,	$,	,	_	O	O	
+8-30	nach	APPR	nach	_	O	O	
+8-31	welchem	PRELS	welche	_	O	O	
+8-32	für	APPR	für	_	O	O	
+8-33	60	CARD	60	_	O	O	
+8-34	000	CARD	@card@	_	O	O	
+8-35	r	NE	r	_	O	O	
+8-36	nicht	PTKNEG	nicht	_	O	O	
+8-37	nur	ADV	nur	_	O	O	
+8-38	für	APPR	für	_	O	O	
+8-39	das	ART	die	_	O	O	
+8-40	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-41	,	$,	,	_	O	O	
+8-42	sondern	KON	sondern	_	O	O	
+8-43	auch	ADV	auch	_	O	O	
+8-44	für	APPR	für	_	O	O	
+8-45	eine	ART	eine	_	O	O	
+8-46	Kunstakademie	NN	Kunstakademie	_	O	O	
+8-47	gesorgt	VVPP	sorgen	_	O	O	
+8-48	werden	VAINF	werden	_	O	O	
+8-49	sollte	VMFIN	sollen	_	O	O	
+8-50	,	$,	,	_	O	O	
+8-51	der	PRELS	die	_	O	O	
+8-52	aber	ADV	aber	_	O	O	
+8-53	als	KOKOM	als	_	O	O	
+8-54	bei	APPR	bei	_	O	O	
+8-55	weitem	ADJA	weit	_	O	O	
+8-56	zu	PTKA	zu	_	O	O	
+8-57	kostspielig	ADJD	kostspielig	_	O	O	
+8-58	zurückgelegt	VVPP	zurücklegen	_	O	O	
+8-59	wurde	VAFIN	werden	_	O	O	
+8-60	;	$.	;	_	O	O	
+8-61	oder	KON	oder	_	O	O	
+8-62	er	PPER	er	_	O	O	
+8-63	würde	VAFIN	werden	_	O	O	
+8-64	etwa	ADV	etwa	_	O	O	
+8-65	die	ART	die	_	O	O	
+8-66	Mittel	NN	Mittel	_	O	O	
+8-67	gewähren	VVFIN	gewähren	_	O	O	
+8-68	eine	ART	eine	_	O	O	
+8-69	neue	ADJA	neu	_	O	O	
+8-70	Bibliothek	NN	Bibliothek	_	O	O	
+8-71	an	APPR	an	_	O	O	
+8-72	die	ART	die	_	O	O	
+8-73	Stelle	NN	Stelle	_	O	O	
+8-74	der	ART	die	_	O	O	
+8-75	alten	ADJA	alt	_	O	O	
+8-76	zu	PTKZU	zu	_	O	O	
+8-77	bauen	VVINF	bauen	_	O	O	
+8-78	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich habe nun den Anschlag an Adler geschickt und noch nicht wieder zurück.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	habe	VAFIN	haben	_	O	O	
+9-3	nun	ADV	nun	_	O	O	
+9-4	den	ART	die	_	O	O	
+9-5	Anschlag	NN	Anschlag	_	O	O	
+9-6	an	APPR	an	_	O	O	
+9-7	Adler	NE	Adler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-8	geschickt	ADJD	geschickt	_	O	O	
+9-9	und	KON	und	_	O	O	
+9-10	noch	ADV	noch	_	O	O	
+9-11	nicht	PTKNEG	nicht	_	O	O	
+9-12	wieder	ADV	wieder	_	O	O	
+9-13	zurück	PTKVZ	zurück	_	O	O	
+9-14	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich weiß nicht was die Central Direktion beschließen wird.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	weiß	VVFIN	wissen	_	O	O	
+10-3	nicht	PTKNEG	nicht	_	O	O	
+10-4	was	PIS	was	_	O	O	
+10-5	die	ART	die	_	O	O	
+10-6	Central	NN	<unknown>	_	O	O	
+10-7	Direktion	NN	Direktion	_	O	O	
+10-8	beschließen	VVINF	beschließen	_	O	O	
+10-9	wird	VAFIN	werden	_	O	O	
+10-10	.	$.	.	_	O	O	
+
+#id=11
+#text=Jedenfalls wird die Behandlung der Sa-
+11-1	Jedenfalls	ADV	jedenfalls	_	O	O	
+11-2	wird	VAFIN	werden	_	O	O	
+11-3	die	ART	die	_	O	O	
+11-4	Behandlung	NN	Behandlung	_	O	O	
+11-5	der	ART	die	_	O	O	
+11-6	Sa-	TRUNC	Sa-	_	O	O	
+

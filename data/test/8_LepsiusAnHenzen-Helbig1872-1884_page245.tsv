@@ -1,0 +1,95 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=586 Lepsius an Henzen Berlin, 20. Dezember 1875 2 schreiben und angeben, was für eine Vergütung Ihnen angemessen erscheine.
+1-1	586	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	schreiben	VVINF	schreiben	_	O	O	
+1-13	und	KON	und	_	O	O	
+1-14	angeben	VVFIN	angeben	_	O	O	
+1-15	,	$,	,	_	O	O	
+1-16	was	PRELS	was	_	O	O	
+1-17	für	APPR	für	_	O	O	
+1-18	eine	ART	eine	_	O	O	
+1-19	Vergütung	NN	Vergütung	_	O	O	
+1-20	Ihnen	PPER	Sie	_	O	O	
+1-21	angemessen	ADJD	angemessen	_	O	O	
+1-22	erscheine	VVFIN	erscheinen	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Für das Durand'-sche Depot werde wohl das neue Haus in Rom der richtigste Aufbewahrungsort sein.
+2-1	Für	APPR	für	_	O	O	
+2-2	das	ART	die	_	O	O	
+2-3	Durand'-sche	NN	<unknown>	_	O	O	
+2-4	Depot	NN	Depot	_	O	O	
+2-5	werde	VAFIN	werden	_	O	O	
+2-6	wohl	ADV	wohl	_	O	O	
+2-7	das	ART	die	_	O	O	
+2-8	neue	ADJA	neu	_	O	O	
+2-9	Haus	NN	Haus	_	O	O	
+2-10	in	APPR	in	_	O	O	
+2-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-12	der	ART	die	_	O	O	
+2-13	richtigste	ADJA	richtig	_	O	O	
+2-14	Aufbewahrungsort	NN	Aufbewahrungsort	_	O	O	
+2-15	sein	VAINF	sein	_	O	O	
+2-16	.	$.	.	_	O	O	
+
+#id=3
+#text=Bis dahin könne die Übersiedelung wohl noch warten.
+3-1	Bis	KON	bis	_	O	O	
+3-2	dahin	PAV	dahin	_	O	O	
+3-3	könne	VMFIN	können	_	O	O	
+3-4	die	ART	die	_	O	O	
+3-5	Übersiedelung	NN	Übersiedelung	_	O	O	
+3-6	wohl	ADV	wohl	_	O	O	
+3-7	noch	ADV	noch	_	O	O	
+3-8	warten	VVINF	warten	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Der Unterschied der Transportkosten hierher oder dorthin werde nicht bedeutend sein.
+4-1	Der	ART	die	_	O	O	
+4-2	Unterschied	NN	Unterschied	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	Transportkosten	NN	Transportkosten	_	O	O	
+4-5	hierher	PAV	hierher	_	O	O	
+4-6	oder	KON	oder	_	O	O	
+4-7	dorthin	ADV	dorthin	_	O	O	
+4-8	werde	VAFIN	werden	_	O	O	
+4-9	nicht	PTKNEG	nicht	_	O	O	
+4-10	bedeutend	ADJD	bedeutend	_	O	O	
+4-11	sein	VAINF	sein	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihren letzten Brief vom 14.
+5-1	Ihren	PPOSAT	ihr	_	O	O	
+5-2	letzten	ADJA	letzt	_	O	O	
+5-3	Brief	NN	Brief	_	O	O	
+5-4	vom	APPRART	von	_	O	O	
+5-5	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=6
+#text=~ezember habe ich erhalten.
+6-1	~ezember	ADJD	<unknown>	_	O	O	
+6-2	habe	VAFIN	haben	_	O	O	
+6-3	ich	PPER	ich	_	O	O	
+6-4	erhalten	VVPP	erhalten	_	O	O	
+6-5	.	$.	.	_	O	O	
+
+#id=7
+#text=R Lepsius
+7-1	R	NE	r	_	O	O	
+7-2	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

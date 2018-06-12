@@ -1,0 +1,236 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=78 L Verehrtester Freund Lepsius an Helbig Berlin, 22. Januar 1882 Berlin, C. d. 22. Jan.
+1-1	78	CARD	78	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Verehrtester	NN	<unknown>	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1882	CARD	1882	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	,	$,	,	_	O	O	
+1-16	C.	NE	C.	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-17	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	22	CARD	22	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1882 Ich sendete gestern das Blatt von Dressel so wie Sie es wünschten zurück.
+2-1	1882	CARD	1882	_	O	O	
+2-2	Ich	PPER	ich	_	O	O	
+2-3	sendete	VVFIN	senden	_	O	O	
+2-4	gestern	ADV	gestern	_	O	O	
+2-5	das	ART	die	_	O	O	
+2-6	Blatt	NN	Blatt	_	O	O	
+2-7	von	APPR	von	_	O	O	
+2-8	Dressel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-9	so	ADV	so	_	O	O	
+2-10	wie	KOUS	wie	_	O	O	
+2-11	Sie	PPER	Sie	_	O	O	
+2-12	es	PPER	es	_	O	O	
+2-13	wünschten	VVFIN	wünschen	_	O	O	
+2-14	zurück	PTKVZ	zurück	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Da auch der Name fehlte, so ließ sich mehr nicht sagen.
+3-1	Da	ADV	da	_	O	O	
+3-2	auch	ADV	auch	_	O	O	
+3-3	der	ART	die	_	O	O	
+3-4	Name	NN	Name	_	O	O	
+3-5	fehlte	VVFIN	fehlen	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	so	ADV	so	_	O	O	
+3-8	ließ	VVFIN	lassen	_	O	O	
+3-9	sich	PRF	sich	_	O	O	
+3-10	mehr	ADV	mehr	_	O	O	
+3-11	nicht	PTKNEG	nicht	_	O	O	
+3-12	sagen	VVINF	sagen	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=An den Piombino schreibe ich nach dem, was Sie sagen, nun doch besser nicht.
+4-1	An	APPR	an	_	O	O	
+4-2	den	ART	die	_	O	O	
+4-3	Piombino	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-4	schreibe	VVFIN	schreiben	_	O	O	
+4-5	ich	PPER	ich	_	O	O	
+4-6	nach	APPR	nach	_	O	O	
+4-7	dem	ART	die	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	was	PWS	was	_	O	O	
+4-10	Sie	PPER	Sie	_	O	O	
+4-11	sagen	VVFIN	sagen	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	nun	ADV	nun	_	O	O	
+4-14	doch	ADV	doch	_	O	O	
+4-15	besser	ADJD	gut	_	O	O	
+4-16	nicht	PTKNEG	nicht	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=war nach Herodot ein Untergewand.
+5-1	war	VAFIN	sein	_	O	O	
+5-2	nach	APPR	nach	_	O	O	
+5-3	Herodot	NN	<unknown>	_	O	O	
+5-4	ein	ART	eine	_	O	O	
+5-5	Untergewand	NN	<unknown>	_	O	O	
+5-6	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Franzengewänder, die Sie zitiren, sind große Obergewänder.
+6-1	Die	ART	die	_	O	O	
+6-2	Franzengewänder	NN	<unknown>	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	die	PRELS	die	_	O	O	
+6-5	Sie	PPER	Sie	_	O	O	
+6-6	zitiren	NN	<unknown>	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	sind	VAFIN	sein	_	O	O	
+6-9	große	ADJA	groß	_	O	O	
+6-10	Obergewänder	NN	<unknown>	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=In der Psametichzeit und der Persischen, von der Herodot schreibt, kenne ich diese Gewänder mit Franzen überhaupt nicht mehr, obgleich sie wohl da waren.
+7-1	In	APPR	in	_	O	O	
+7-2	der	ART	die	_	O	O	
+7-3	Psametichzeit	NN	<unknown>	_	O	O	
+7-4	und	KON	und	_	O	O	
+7-5	der	ART	die	_	O	O	
+7-6	Persischen	NN	Persische	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	von	APPR	von	_	O	O	
+7-9	der	ART	die	_	O	O	
+7-10	Herodot	NN	<unknown>	_	O	O	
+7-11	schreibt	VVFIN	schreiben	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	kenne	VVFIN	kennen	_	O	O	
+7-14	ich	PPER	ich	_	O	O	
+7-15	diese	PDAT	dies	_	O	O	
+7-16	Gewänder	NN	Gewand	_	O	O	
+7-17	mit	APPR	mit	_	O	O	
+7-18	Franzen	NE	Franzen	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-19	überhaupt	ADV	überhaupt	_	O	O	
+7-20	nicht	PTKNEG	nicht	_	O	O	
+7-21	mehr	ADV	mehr	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	obgleich	KOUS	obgleich	_	O	O	
+7-24	sie	PPER	sie	_	O	O	
+7-25	wohl	ADV	wohl	_	O	O	
+7-26	da	ADV	da	_	O	O	
+7-27	waren	VAFIN	sein	_	O	O	
+7-28	.	$.	.	_	O	O	
+
+#id=8
+#text=Die allgemeine Bekleidung war vornehmlich ein Schurz, der aber nicht den ägyptischen Namen kalasiris führte.
+8-1	Die	ART	die	_	O	O	
+8-2	allgemeine	ADJA	allgemein	_	O	O	
+8-3	Bekleidung	NN	Bekleidung	_	O	O	
+8-4	war	VAFIN	sein	_	O	O	
+8-5	vornehmlich	ADJD	vornehmlich	_	O	O	
+8-6	ein	ART	eine	_	O	O	
+8-7	Schurz	NN	Schurz	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	der	PRELS	die	_	O	O	
+8-10	aber	ADV	aber	_	O	O	
+8-11	nicht	PTKNEG	nicht	_	O	O	
+8-12	den	ART	die	_	O	O	
+8-13	ägyptischen	ADJA	ägyptisch	_	O	O	
+8-14	Namen	NN	Name	_	O	O	
+8-15	kalasiris	NE	<unknown>	_	O	O	
+8-16	führte	VVFIN	führen	_	O	O	
+8-17	.	$.	.	_	O	O	
+
+#id=9
+#text=Es mußte aber doch wohl eine Art von diesem Schurze sein.
+9-1	Es	PPER	es	_	O	O	
+9-2	mußte	VMFIN	müssen	_	O	O	
+9-3	aber	ADV	aber	_	O	O	
+9-4	doch	ADV	doch	_	O	O	
+9-5	wohl	ADV	wohl	_	O	O	
+9-6	eine	ART	eine	_	O	O	
+9-7	Art	NN	Art	_	O	O	
+9-8	von	APPR	von	_	O	O	
+9-9	diesem	PDAT	dies	_	O	O	
+9-10	Schurze	NN	<unknown>	_	O	O	
+9-11	sein	VAINF	sein	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich weiß es nicht.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	weiß	VVFIN	wissen	_	O	O	
+10-3	es	PPER	es	_	O	O	
+10-4	nicht	PTKNEG	nicht	_	O	O	
+10-5	.	$.	.	_	O	O	
+
+#id=11
+#text=Wenn uns Baracco seine SPhi~m Abguß senden will, wird es uns sehr angenehm sein.
+11-1	Wenn	KOUS	wenn	_	O	O	
+11-2	uns	PPER	wir	_	O	O	
+11-3	Baracco	NN	<unknown>	_	O	O	
+11-4	seine	PPOSAT	sein	_	O	O	
+11-5	SPhi~m	NE	<unknown>	_	O	O	
+11-6	Abguß	NN	Abguß	_	O	O	
+11-7	senden	VVINF	senden	_	O	O	
+11-8	will	VMFIN	wollen	_	O	O	
+11-9	,	$,	,	_	O	O	
+11-10	wird	VAFIN	werden	_	O	O	
+11-11	es	PPER	es	_	O	O	
+11-12	uns	PRF	wir	_	O	O	
+11-13	sehr	ADV	sehr	_	O	O	
+11-14	angenehm	ADJD	angenehm	_	O	O	
+11-15	sein	VAINF	sein	_	O	O	
+11-16	.	$.	.	_	O	O	
+
+#id=12
+#text=Sagen Sie ihm das.
+12-1	Sagen	VVFIN	sagen	_	O	O	
+12-2	Sie	PPER	Sie	_	O	O	
+12-3	ihm	PPER	er	_	O	O	
+12-4	das	PDS	die	_	O	O	
+12-5	.	$.	.	_	O	O	
+
+#id=13
+#text=Der ~inter scheint hier dies Jahr auszubleiben.
+13-1	Der	ART	die	_	O	O	
+13-2	~inter	NN	<unknown>	_	O	O	
+13-3	scheint	VVFIN	scheinen	_	O	O	
+13-4	hier	ADV	hier	_	O	O	
+13-5	dies	PDS	dies	_	O	O	
+13-6	Jahr	NN	Jahr	_	O	O	
+13-7	auszubleiben	VVIZU	ausbleiben	_	O	O	
+13-8	.	$.	.	_	O	O	
+
+#id=14
+#text=Wir haben noch gar keinen Schnee gehabt, und kein tragbares Eis.
+14-1	Wir	PPER	wir	_	O	O	
+14-2	haben	VAFIN	haben	_	O	O	
+14-3	noch	ADV	noch	_	O	O	
+14-4	gar	ADV	gar	_	O	O	
+14-5	keinen	PIAT	keine	_	O	O	
+14-6	Schnee	NN	Schnee	_	O	O	
+14-7	gehabt	VAPP	haben	_	O	O	
+14-8	,	$,	,	_	O	O	
+14-9	und	KON	und	_	O	O	
+14-10	kein	PIAT	keine	_	O	O	
+14-11	tragbares	ADJA	tragbar	_	O	O	
+14-12	Eis	NN	Eis	_	O	O	
+14-13	.	$.	.	_	O	O	
+
+#id=15
+#text=Herzlich der Ihrige Lepsius
+15-1	Herzlich	ADJD	herzlich	_	O	O	
+15-2	der	ART	die	_	O	O	
+15-3	Ihrige	PPOSAT	ihrige	_	O	O	
+15-4	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+
