@@ -1,0 +1,261 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Lepsius an Henzen Berlin, 19. Oktober 1875 g. 23/10 75 r.
+1-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	g.	VVFIN	<unknown>	_	O	O	
+1-11	23/10	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-12	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-13	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=Privatim Berlin, den 19.
+2-1	Privatim	NN	<unknown>	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-3	,	$,	,	_	O	O	
+2-4	den	ART	die	_	O	O	
+2-5	19	CARD	19	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Ikt.
+3-1	Ikt	ADJD	<unknown>	_	O	O	
+3-2	.	$.	.	_	O	O	
+
+#id=4
+#text=1875 Verehrter Freund Ich habe Ihren Brief vom 16/7.
+4-1	1875	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-2	Verehrter	NN	Verehrte	_	O	O	
+4-3	Freund	NE	Freund	_	O	O	
+4-4	Ich	PPER	ich	_	O	O	
+4-5	habe	VAFIN	haben	_	O	O	
+4-6	Ihren	PPOSAT	ihr	_	O	O	
+4-7	Brief	NN	Brief	_	O	O	
+4-8	vom	APPRART	von	_	O	O	
+4-9	16/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=5
+#text=Ihrem Wunsche gemäß der gestern zum letztenmale wieder versammelten Central Direktion vorgelegt, nachdem ich Ihnen schon in meinem Briefe vom 23. Juli eine Äußerung darüber gemacht hatte.
+5-1	Ihrem	PPOSAT	ihr	_	O	O	
+5-2	Wunsche	NN	Wunsch	_	O	O	
+5-3	gemäß	APPR	gemäß	_	O	O	
+5-4	der	ART	die	_	O	O	
+5-5	gestern	ADV	gestern	_	O	O	
+5-6	zum	APPRART	zu	_	O	O	
+5-7	letztenmale	ADJA	<unknown>	_	O	O	
+5-8	wieder	ADV	wieder	_	O	O	
+5-9	versammelten	ADJA	versammelt	_	O	O	
+5-10	Central	NN	<unknown>	_	O	O	
+5-11	Direktion	NN	Direktion	_	O	O	
+5-12	vorgelegt	VVPP	vorlegen	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	nachdem	KOUS	nachdem	_	O	O	
+5-15	ich	PPER	ich	_	O	O	
+5-16	Ihnen	PPER	Sie	_	O	O	
+5-17	schon	ADV	schon	_	O	O	
+5-18	in	APPR	in	_	O	O	
+5-19	meinem	PPOSAT	mein	_	O	O	
+5-20	Briefe	NN	Brief	_	O	O	
+5-21	vom	APPRART	von	_	O	O	
+5-22	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-23	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-24	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-25	eine	ART	eine	_	O	O	
+5-26	Äußerung	NN	Äußerung	_	O	O	
+5-27	darüber	PAV	darüber	_	O	O	
+5-28	gemacht	VVPP	machen	_	O	O	
+5-29	hatte	VAFIN	haben	_	O	O	
+5-30	.	$.	.	_	O	O	
+
+#id=6
+#text=Sie schreiben darin, daß das Auswärtige Amt den ;~U Antrag des Herrn v. t. ganz falsch verstanden haben müsse nach einer Äußerung des Auswärtigen Amtes (an wen ? )
+6-1	Sie	PPER	Sie	_	O	O	
+6-2	schreiben	VVFIN	schreiben	_	O	O	
+6-3	darin	PAV	darin	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	daß	KOUS	dass	_	O	O	
+6-6	das	ART	die	_	O	O	
+6-7	Auswärtige	ADJA	auswärtig	_	O	O	
+6-8	Amt	NN	Amt	_	O	O	
+6-9	den	ART	die	_	O	O	
+6-10	;	$.	;	_	O	O	
+6-11	~U	NN	<unknown>	_	O	O	
+6-12	Antrag	NN	Antrag	_	O	O	
+6-13	des	ART	die	_	O	O	
+6-14	Herrn	NN	Herr	_	O	O	
+6-15	v.	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-16	t.	NE	T.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-17	ganz	ADV	ganz	_	O	O	
+6-18	falsch	ADJD	falsch	_	O	O	
+6-19	verstanden	VVPP	verstehen	_	O	O	
+6-20	haben	VAINF	haben	_	O	O	
+6-21	müsse	VMFIN	müssen	_	O	O	
+6-22	nach	APPR	nach	_	O	O	
+6-23	einer	ART	eine	_	O	O	
+6-24	Äußerung	NN	Äußerung	_	O	O	
+6-25	des	ART	die	_	O	O	
+6-26	Auswärtigen	ADJA	auswärtig	_	O	O	
+6-27	Amtes	NN	Amt	_	O	O	
+6-28	(	$(	(	_	O	O	
+6-29	an	PTKVZ	an	_	O	O	
+6-30	wen	PWS	wer	_	O	O	
+6-31	?	$.	?	_	O	O	
+6-32	)	$(	)	_	O	O	
+
+#id=7
+#text=tKd~il Wir haben den Antrag des Herrn v. K., der uns abschriftlich vorliegt, nur so verstehen können, daß er wünschte, das Auswärtige Amt möchte für 1875 eine Remuneration von 1 000 M aus seinen Fonds bewilligen, für 1876 aber "eine entsprechende Erhöhung des Dispositionsfonds beim Archäologischen Institut zum Zwecke der Remuneration für Italiener anzumelden".
+7-1	tKd~il	ADJD	<unknown>	_	O	O	
+7-2	Wir	PPER	wir	_	O	O	
+7-3	haben	VAFIN	haben	_	O	O	
+7-4	den	ART	die	_	O	O	
+7-5	Antrag	NN	Antrag	_	O	O	
+7-6	des	ART	die	_	O	O	
+7-7	Herrn	NN	Herr	_	O	O	
+7-8	v.	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-9	K.	NE	K.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-10	,	$,	,	_	O	O	
+7-11	der	PRELS	die	_	O	O	
+7-12	uns	PRF	wir	_	O	O	
+7-13	abschriftlich	ADJD	<unknown>	_	O	O	
+7-14	vorliegt	VVFIN	vorliegen	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	nur	ADV	nur	_	O	O	
+7-17	so	ADV	so	_	O	O	
+7-18	verstehen	VVINF	verstehen	_	O	O	
+7-19	können	VMFIN	können	_	O	O	
+7-20	,	$,	,	_	O	O	
+7-21	daß	KOUS	dass	_	O	O	
+7-22	er	PPER	er	_	O	O	
+7-23	wünschte	VVFIN	wünschen	_	O	O	
+7-24	,	$,	,	_	O	O	
+7-25	das	ART	die	_	O	O	
+7-26	Auswärtige	ADJA	auswärtig	_	O	O	
+7-27	Amt	NN	Amt	_	O	O	
+7-28	möchte	VMFIN	mögen	_	O	O	
+7-29	für	APPR	für	_	O	O	
+7-30	1875	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-31	eine	ART	eine	_	O	O	
+7-32	Remuneration	NN	<unknown>	_	O	O	
+7-33	von	APPR	von	_	O	O	
+7-34	1	CARD	1	_	O	O	
+7-35	000	CARD	@card@	_	O	O	
+7-36	M	NN	M	_	O	O	
+7-37	aus	APPR	aus	_	O	O	
+7-38	seinen	PPOSAT	sein	_	O	O	
+7-39	Fonds	NN	Fonds	_	O	O	
+7-40	bewilligen	VVINF	bewilligen	_	O	O	
+7-41	,	$,	,	_	O	O	
+7-42	für	APPR	für	_	O	O	
+7-43	1876	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-44	aber	ADV	aber	_	O	O	
+7-45	"	$(	"	_	O	O	
+7-46	eine	ART	eine	_	O	O	
+7-47	entsprechende	ADJA	entsprechend	_	O	O	
+7-48	Erhöhung	NN	Erhöhung	_	O	O	
+7-49	des	ART	die	_	O	O	
+7-50	Dispositionsfonds	NN	<unknown>	_	O	O	
+7-51	beim	APPRART	bei	_	O	O	
+7-52	Archäologischen	ADJA	archäologisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-53	Institut	NN	Institut	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+7-54	zum	APPRART	zu	_	O	O	
+7-55	Zwecke	NN	Zweck	_	O	O	
+7-56	der	ART	die	_	O	O	
+7-57	Remuneration	NN	<unknown>	_	O	O	
+7-58	für	APPR	für	_	O	O	
+7-59	Italiener	NN	Italiener	_	O	O	
+7-60	anzumelden	VVIZU	anmelden	_	O	O	
+7-61	"	$(	"	_	O	O	
+7-62	.	$.	.	_	O	O	
+
+#id=8
+#text=Der erste Theil des Antrags betraf uns nicht; er ist aber in dem Schreiben des Auswärtigen Amtes an uns bereits abgelehnt.
+8-1	Der	ART	die	_	O	O	
+8-2	erste	ADJA	erst	_	O	O	
+8-3	Theil	NN	<unknown>	_	O	O	
+8-4	des	ART	die	_	O	O	
+8-5	Antrags	NN	Antrag	_	O	O	
+8-6	betraf	VVFIN	betreffen	_	O	O	
+8-7	uns	PPER	wir	_	O	O	
+8-8	nicht	PTKNEG	nicht	_	O	O	
+8-9	;	$.	;	_	O	O	
+8-10	er	PPER	er	_	O	O	
+8-11	ist	VAFIN	sein	_	O	O	
+8-12	aber	ADV	aber	_	O	O	
+8-13	in	APPR	in	_	O	O	
+8-14	dem	ART	die	_	O	O	
+8-15	Schreiben	NN	Schreiben	_	O	O	
+8-16	des	ART	die	_	O	O	
+8-17	Auswärtigen	ADJA	auswärtig	_	O	O	
+8-18	Amtes	NN	Amt	_	O	O	
+8-19	an	APPR	an	_	O	O	
+8-20	uns	PPER	wir	_	O	O	
+8-21	bereits	ADV	bereits	_	O	O	
+8-22	abgelehnt	VVPP	ablehnen	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=In Bezug auf den 2.
+9-1	In	APPR	in	_	O	O	
+9-2	Bezug	NN	Bezug	_	O	O	
+9-3	auf	APPR	auf	_	O	O	
+9-4	den	ART	die	_	O	O	
+9-5	2	CARD	2	_	O	O	
+9-6	.	$.	.	_	O	O	
+
+#id=10
+#text=Theil bemerkt das Auswärtige Amt gleichfalls vorweg "daß ihm eine Erhöhung des Dispositionsfods des archäologischen Instituts mit Rücksicht auf eine der Natur der Sache nach nicht dauernde Thätigkeit des Dr.
+10-1	Theil	NN	<unknown>	_	O	O	
+10-2	bemerkt	VVFIN	bemerken	_	O	O	
+10-3	das	ART	die	_	O	O	
+10-4	Auswärtige	ADJA	auswärtig	_	O	O	
+10-5	Amt	NN	Amt	_	O	O	
+10-6	gleichfalls	ADV	gleichfalls	_	O	O	
+10-7	vorweg	ADV	vorweg	_	O	O	
+10-8	"	$(	"	_	O	O	
+10-9	daß	KOUS	dass	_	O	O	
+10-10	ihm	PPER	er	_	O	O	
+10-11	eine	ART	eine	_	O	O	
+10-12	Erhöhung	NN	Erhöhung	_	O	O	
+10-13	des	ART	die	_	O	O	
+10-14	Dispositionsfods	NN	<unknown>	_	O	O	
+10-15	des	ART	die	_	O	O	
+10-16	archäologischen	ADJA	archäologisch	_	O	O	
+10-17	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-18	mit	APPR	mit	_	O	O	
+10-19	Rücksicht	NN	Rücksicht	_	O	O	
+10-20	auf	APPR	auf	_	O	O	
+10-21	eine	PIS	eine	_	O	O	
+10-22	der	ART	die	_	O	O	
+10-23	Natur	NN	Natur	_	O	O	
+10-24	der	ART	die	_	O	O	
+10-25	Sache	NN	Sache	_	O	O	
+10-26	nach	APPO	nach	_	O	O	
+10-27	nicht	PTKNEG	nicht	_	O	O	
+10-28	dauernde	ADJA	dauernd	_	O	O	
+10-29	Thätigkeit	NN	<unknown>	_	O	O	
+10-30	des	ART	die	_	O	O	
+10-31	Dr.	NN	Dr.	_	O	O	
+
+#id=11
+#text=Helbig nicht angezeigt scheint ll • Es dränge sich außerdem die Erwägung
+11-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	nicht	PTKNEG	nicht	_	O	O	
+11-3	angezeigt	ADJD	angezeigt	_	O	O	
+11-4	scheint	VVFIN	scheinen	_	O	O	
+11-5	ll	NN	<unknown>	_	O	O	
+11-6	•	ADJA	<unknown>	_	O	O	
+11-7	Es	NN	Es	_	O	O	
+11-8	dränge	VVFIN	dringen|drängen	_	O	O	
+11-9	sich	PRF	sich	_	O	O	
+11-10	außerdem	ADV	außerdem	_	O	O	
+11-11	die	ART	die	_	O	O	
+11-12	Erwägung	NN	Erwägung	_	O	O	
+

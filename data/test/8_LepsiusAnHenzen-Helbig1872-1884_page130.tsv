@@ -1,0 +1,218 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=68 Verehrter Freund Lepsius an Henzen Berlin, 30. Januar 1874 g. 4/2 74 Berlin d. 30. Jan.
+1-1	68	CARD	68	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	4/2	CARD	4/2	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-17	d.	ART	d.	_	O	O	
+1-18	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1874 In der vorgestrigen Sitzung der Central Direktion haben wir zunächst die Pensions-Angelegenheit besprochen.
+2-1	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	In	APPR	in	_	O	O	
+2-3	der	ART	die	_	O	O	
+2-4	vorgestrigen	ADJA	vorgestrig	_	O	O	
+2-5	Sitzung	NN	Sitzung	_	O	O	
+2-6	der	ART	die	_	O	O	
+2-7	Central	NN	<unknown>	_	O	O	
+2-8	Direktion	NN	Direktion	_	O	O	
+2-9	haben	VAFIN	haben	_	O	O	
+2-10	wir	PPER	wir	_	O	O	
+2-11	zunächst	ADV	zunächst	_	O	O	
+2-12	die	ART	die	_	O	O	
+2-13	Pensions-Angelegenheit	NN	<unknown>	_	O	O	
+2-14	besprochen	VVPP	besprechen	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Da Sie sich mit Mommsen schon mehrfach mündlich darüber besprochen hatten, so hat er auch übernommen Ihnen das Resultat unsrer Berathung mitzutheilen und näher zu erläutern.
+3-1	Da	KOUS	da	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	sich	PRF	sich	_	O	O	
+3-4	mit	APPR	mit	_	O	O	
+3-5	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	schon	ADV	schon	_	O	O	
+3-7	mehrfach	ADJD	mehrfach	_	O	O	
+3-8	mündlich	ADJD	mündlich	_	O	O	
+3-9	darüber	PAV	darüber	_	O	O	
+3-10	besprochen	VVPP	besprechen	_	O	O	
+3-11	hatten	VAFIN	haben	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	so	ADV	so	_	O	O	
+3-14	hat	VAFIN	haben	_	O	O	
+3-15	er	PPER	er	_	O	O	
+3-16	auch	ADV	auch	_	O	O	
+3-17	übernommen	VVPP	übernehmen	_	O	O	
+3-18	Ihnen	PPER	Sie	_	O	O	
+3-19	das	ART	die	_	O	O	
+3-20	Resultat	NN	Resultat	_	O	O	
+3-21	unsrer	PPOSAT	unser	_	O	O	
+3-22	Berathung	NN	<unknown>	_	O	O	
+3-23	mitzutheilen	VVIZU	<unknown>	_	O	O	
+3-24	und	KON	und	_	O	O	
+3-25	näher	ADJD	nah	_	O	O	
+3-26	zu	PTKZU	zu	_	O	O	
+3-27	erläutern	VVINF	erläutern	_	O	O	
+3-28	.	$.	.	_	O	O	
+
+#id=4
+#text=Sein Brief, wie auch der an Helbig liegt hier bei.
+4-1	Sein	PPOSAT	sein	_	O	O	
+4-2	Brief	NN	Brief	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	wie	KOUS	wie	_	O	O	
+4-5	auch	ADV	auch	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	an	APPR	an	_	O	O	
+4-8	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-9	liegt	VVFIN	liegen	_	O	O	
+4-10	hier	ADV	hier	_	O	O	
+4-11	bei	PTKVZ	bei	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Das Wesentliche ist, daß wir beantragen wollen, daß die Sekretare ihr Gehalt auch nach dem Ausscheiden lebenslänglich fort erheben sollen, und daß es ihnen bereits nach 20 Jahren Dienst, so gut w~e der Central Direktion frei stehen soll diese Pensionirung mit vollem Gehalt zu beantragen.
+5-1	Das	ART	die	_	O	O	
+5-2	Wesentliche	NN	Wesentliche	_	O	O	
+5-3	ist	VAFIN	sein	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	daß	KOUS	dass	_	O	O	
+5-6	wir	PPER	wir	_	O	O	
+5-7	beantragen	VVINF	beantragen	_	O	O	
+5-8	wollen	VMFIN	wollen	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	daß	KOUS	dass	_	O	O	
+5-11	die	ART	die	_	O	O	
+5-12	Sekretare	NN	<unknown>	_	O	O	
+5-13	ihr	PPOSAT	ihr	_	O	O	
+5-14	Gehalt	NN	Gehalt	_	O	O	
+5-15	auch	ADV	auch	_	O	O	
+5-16	nach	APPR	nach	_	O	O	
+5-17	dem	ART	die	_	O	O	
+5-18	Ausscheiden	NN	Ausscheiden	_	O	O	
+5-19	lebenslänglich	ADJD	lebenslänglich	_	O	O	
+5-20	fort	PTKVZ	fort	_	O	O	
+5-21	erheben	VVINF	erheben	_	O	O	
+5-22	sollen	VMFIN	sollen	_	O	O	
+5-23	,	$,	,	_	O	O	
+5-24	und	KON	und	_	O	O	
+5-25	daß	KOUS	dass	_	O	O	
+5-26	es	PPER	es	_	O	O	
+5-27	ihnen	PPER	sie	_	O	O	
+5-28	bereits	ADV	bereits	_	O	O	
+5-29	nach	APPR	nach	_	O	O	
+5-30	20	CARD	20	_	O	O	
+5-31	Jahren	NN	Jahr	_	O	O	
+5-32	Dienst	NN	Dienst	_	O	O	
+5-33	,	$,	,	_	O	O	
+5-34	so	ADV	so	_	O	O	
+5-35	gut	ADJD	gut	_	O	O	
+5-36	w~e	NE	<unknown>	_	O	O	
+5-37	der	ART	die	_	O	O	
+5-38	Central	NN	<unknown>	_	O	O	
+5-39	Direktion	NN	Direktion	_	O	O	
+5-40	frei	ADJD	frei	_	O	O	
+5-41	stehen	VVINF	stehen	_	O	O	
+5-42	soll	VMFIN	sollen	_	O	O	
+5-43	diese	PDAT	dies	_	O	O	
+5-44	Pensionirung	NN	<unknown>	_	O	O	
+5-45	mit	APPR	mit	_	O	O	
+5-46	vollem	ADJA	voll	_	O	O	
+5-47	Gehalt	NN	Gehalt	_	O	O	
+5-48	zu	PTKZU	zu	_	O	O	
+5-49	beantragen	VVINF	beantragen	_	O	O	
+5-50	.	$.	.	_	O	O	
+
+#id=6
+#text=Wir wünschen nur noch Ihre vorläufige Zustimmung bevor wir unsern Antrag an den Preußischen Minister zur Mittheilung an den Reichsminister abgehen lassen.
+6-1	Wir	PPER	wir	_	O	O	
+6-2	wünschen	VVFIN	wünschen	_	O	O	
+6-3	nur	ADV	nur	_	O	O	
+6-4	noch	ADV	noch	_	O	O	
+6-5	Ihre	PPOSAT	ihr	_	O	O	
+6-6	vorläufige	ADJA	vorläufig	_	O	O	
+6-7	Zustimmung	NN	Zustimmung	_	O	O	
+6-8	bevor	KOUS	bevor	_	O	O	
+6-9	wir	PPER	wir	_	O	O	
+6-10	unsern	PPOSAT	unsre	_	O	O	
+6-11	Antrag	NN	Antrag	_	O	O	
+6-12	an	APPR	an	_	O	O	
+6-13	den	ART	die	_	O	O	
+6-14	Preußischen	ADJA	preußisch	_	O	O	
+6-15	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-16	zur	APPRART	zu	_	O	O	
+6-17	Mittheilung	NN	<unknown>	_	O	O	
+6-18	an	APPR	an	_	O	O	
+6-19	den	ART	die	_	O	O	
+6-20	Reichsminister	NN	Reichsminister	_	O	O	
+6-21	abgehen	VVINF	abgehen	_	O	O	
+6-22	lassen	VVINF	lassen	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Ober die Bibliotheksverhältnisse habe ich im Namen der Direktion an Helbig und Klügmann direkt geschrieben.
+7-1	Ober	NN	Ober	_	O	O	
+7-2	die	ART	die	_	O	O	
+7-3	Bibliotheksverhältnisse	NN	<unknown>	_	O	O	
+7-4	habe	VAFIN	haben	_	O	O	
+7-5	ich	PPER	ich	_	O	O	
+7-6	im	APPRART	in	_	O	O	
+7-7	Namen	NN	Name	_	O	O	
+7-8	der	ART	die	_	O	O	
+7-9	Direktion	NN	Direktion	_	O	O	
+7-10	an	APPR	an	_	O	O	
+7-11	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-12	und	KON	und	_	O	O	
+7-13	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-14	direkt	ADJD	direkt	_	O	O	
+7-15	geschrieben	VVPP	schreiben	_	O	O	
+7-16	.	$.	.	_	O	O	
+
+#id=8
+#text=Es ist doch wünschenswerth, daß sich beide mit einander verständigen, da auch Helbig zeitweise wieder für Klügmann eintreten und unter Umständen ihn wieder ganz ablösen muß.
+8-1	Es	PPER	es	_	O	O	
+8-2	ist	VAFIN	sein	_	O	O	
+8-3	doch	ADV	doch	_	O	O	
+8-4	wünschenswerth	NE	<unknown>	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	daß	KOUS	dass	_	O	O	
+8-7	sich	PRF	sich	_	O	O	
+8-8	beide	PIS	beide	_	O	O	
+8-9	mit	APPR	mit	_	O	O	
+8-10	einander	PRF	einander	_	O	O	
+8-11	verständigen	VVFIN	verständigen	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	da	KOUS	da	_	O	O	
+8-14	auch	ADV	auch	_	O	O	
+8-15	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-16	zeitweise	ADV	zeitweise	_	O	O	
+8-17	wieder	ADV	wieder	_	O	O	
+8-18	für	APPR	für	_	O	O	
+8-19	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-20	eintreten	VVINF	eintreten	_	O	O	
+8-21	und	KON	und	_	O	O	
+8-22	unter	APPR	unter	_	O	O	
+8-23	Umständen	NN	Umstand	_	O	O	
+8-24	ihn	PPER	er	_	O	O	
+8-25	wieder	ADV	wieder	_	O	O	
+8-26	ganz	ADV	ganz	_	O	O	
+8-27	ablösen	VVINF	ablösen	_	O	O	
+8-28	muß	VMFIN	müssen	_	O	O	
+8-29	.	$.	.	_	O	O	
+

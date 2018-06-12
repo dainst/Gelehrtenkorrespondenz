@@ -1,0 +1,204 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=H Lieber Herr Professor Helbig an Henzen Achern, 31. August 1873 g. 1/9 73 Achern, Haus Villinger 31. August 1873 Nachdem ich vorgestern aus dem Thüringer Wald zurückgekehrt, wo ich einige Tage mit meinem Vater und meiner Schwester zugebracht, empfing ich gestern Ihren freundlichen Brief vom 29.
+1-1	H	NN	H	_	O	O	
+1-2	Lieber	ADJA	lieb	_	O	O	
+1-3	Herr	NN	Herr	_	O	O	
+1-4	Professor	NN	Professor	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-8	Achern	VVFIN	<unknown>	_	O	O	
+1-9	,	$,	,	_	O	O	
+1-10	31	CARD	31	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	1/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	73	CARD	73	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	Achern	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-18	,	$,	,	_	O	O	
+1-19	Haus	NN	Haus	_	O	O	
+1-20	Villinger	NN	Villinger	_	O	O	
+1-21	31	CARD	31	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-22	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-24	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-25	Nachdem	KOUS	nachdem	_	O	O	
+1-26	ich	PPER	ich	_	O	O	
+1-27	vorgestern	ADV	vorgestern	_	O	O	
+1-28	aus	APPR	aus	_	O	O	
+1-29	dem	ART	die	_	O	O	
+1-30	Thüringer	NN	Thüringer	_	O	O	
+1-31	Wald	NN	Wald	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-32	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+1-33	,	$,	,	_	O	O	
+1-34	wo	PWAV	wo	_	O	O	
+1-35	ich	PPER	ich	_	O	O	
+1-36	einige	PIAT	einige	_	O	O	
+1-37	Tage	NN	Tag	_	O	O	
+1-38	mit	APPR	mit	_	O	O	
+1-39	meinem	PPOSAT	mein	_	O	O	
+1-40	Vater	NN	Vater	_	O	O	
+1-41	und	KON	und	_	O	O	
+1-42	meiner	PPOSAT	mein	_	O	O	
+1-43	Schwester	NN	Schwester	_	O	O	
+1-44	zugebracht	VVPP	zubringen	_	O	O	
+1-45	,	$,	,	_	O	O	
+1-46	empfing	VVFIN	empfangen	_	O	O	
+1-47	ich	PPER	ich	_	O	O	
+1-48	gestern	ADV	gestern	_	O	O	
+1-49	Ihren	PPOSAT	ihr	_	O	O	
+1-50	freundlichen	ADJA	freundlich	_	O	O	
+1-51	Brief	NN	Brief	_	O	O	
+1-52	vom	APPRART	von	_	O	O	
+1-53	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-54	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=2
+#text=Besonderes mitzutheilen habe ich i auch nicht.
+2-1	Besonderes	NN	Besondere	_	O	O	
+2-2	mitzutheilen	VVIZU	<unknown>	_	O	O	
+2-3	habe	VAFIN	haben	_	O	O	
+2-4	ich	PPER	ich	_	O	O	
+2-5	i	NE	i	_	O	O	
+2-6	auch	ADV	auch	_	O	O	
+2-7	nicht	PTKNEG	nicht	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Meine Frau befindet sich leidlich, Lili Gott sei Dank sehr wohl.
+3-1	Meine	PPOSAT	mein	_	O	O	
+3-2	Frau	NN	Frau	_	O	O	
+3-3	befindet	VVFIN	befinden	_	O	O	
+3-4	sich	PRF	sich	_	O	O	
+3-5	leidlich	ADJD	leidlich	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	Lili	NE	Lili	_	O	O	
+3-8	Gott	NN	Gott	_	O	O	
+3-9	sei	VAFIN	sein	_	O	O	
+3-10	Dank	APPR	dank	_	O	O	
+3-11	sehr	ADV	sehr	_	O	O	
+3-12	wohl	ADV	wohl	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Von Rom erhielt ich nur einige Anfragen wegen des Lüderschen Stiches und vor etwa 14 Tagen eine Aufforderung als contribuente moroso, Steuern zu zahlen.
+4-1	Von	APPR	von	_	O	O	
+4-2	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-3	erhielt	VVFIN	erhalten	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	nur	ADV	nur	_	O	O	
+4-6	einige	PIAT	einige	_	O	O	
+4-7	Anfragen	NN	Anfrage	_	O	O	
+4-8	wegen	APPR	wegen	_	O	O	
+4-9	des	ART	die	_	O	O	
+4-10	Lüderschen	NN	<unknown>	_	O	O	
+4-11	Stiches	NN	Stich	_	O	O	
+4-12	und	KON	und	_	O	O	
+4-13	vor	APPR	vor	_	O	O	
+4-14	etwa	ADV	etwa	_	O	O	
+4-15	14	CARD	14	_	O	O	
+4-16	Tagen	NN	Tag	_	O	O	
+4-17	eine	ART	eine	_	O	O	
+4-18	Aufforderung	NN	Aufforderung	_	O	O	
+4-19	als	KOKOM	als	_	O	O	
+4-20	contribuente	ADJA	<unknown>	_	O	O	
+4-21	moroso	ADJA	<unknown>	_	O	O	
+4-22	,	$,	,	_	O	O	
+4-23	Steuern	NN	Steuer	_	O	O	
+4-24	zu	PTKZU	zu	_	O	O	
+4-25	zahlen	VVINF	zahlen	_	O	O	
+4-26	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich begreife nicht, wie die Leute meine Adresse ausfindig gemacht haben.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	begreife	VVFIN	begreifen	_	O	O	
+5-3	nicht	PTKNEG	nicht	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	wie	KOUS	wie	_	O	O	
+5-6	die	ART	die	_	O	O	
+5-7	Leute	NN	Leute	_	O	O	
+5-8	meine	PPOSAT	mein	_	O	O	
+5-9	Adresse	NN	Adresse	_	O	O	
+5-10	ausfindig	ADV	ausfindig	_	O	O	
+5-11	gemacht	VVPP	machen	_	O	O	
+5-12	haben	VAFIN	haben	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Selbstverständlich habe ich die Aufforderung unter energischem Proteste zurückgeschickt.
+6-1	Selbstverständlich	ADJD	selbstverständlich	_	O	O	
+6-2	habe	VAFIN	haben	_	O	O	
+6-3	ich	PPER	ich	_	O	O	
+6-4	die	ART	die	_	O	O	
+6-5	Aufforderung	NN	Aufforderung	_	O	O	
+6-6	unter	APPR	unter	_	O	O	
+6-7	energischem	ADJA	energisch	_	O	O	
+6-8	Proteste	NN	Protest	_	O	O	
+6-9	zurückgeschickt	VVPP	zurückschicken	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Boyesen wäre ja eine vortreffliche Aquisition !
+7-1	Boyesen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	wäre	VAFIN	sein	_	O	O	
+7-3	ja	ADV	ja	_	O	O	
+7-4	eine	ART	eine	_	O	O	
+7-5	vortreffliche	ADJA	vortrefflich	_	O	O	
+7-6	Aquisition	NN	<unknown>	_	O	O	
+7-7	!	$.	!	_	O	O	
+
+#id=8
+#text=Gestern war K. Dilthey bei mir, höchst liebenswürdig und guter Laune.
+8-1	Gestern	ADV	gestern	_	O	O	
+8-2	war	VAFIN	sein	_	O	O	
+8-3	K.	NE	K.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-4	Dilthey	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-5	bei	APPR	bei	_	O	O	
+8-6	mir	PPER	ich	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	höchst	ADJD	hochöchst	_	O	O	
+8-9	liebenswürdig	ADJD	liebenswürdig	_	O	O	
+8-10	und	KON	und	_	O	O	
+8-11	guter	ADJA	gut	_	O	O	
+8-12	Laune	NN	Laune	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Während meines Aufenthalts im Thüringer Walde habe ich auch den Coburger besucht und derselbe hat mir so viel Geld in Aussicht gestellt, daß ich auf das Berliner Museum pfeifen kann.
+9-1	Während	APPR	während	_	O	O	
+9-2	meines	PPOSAT	mein	_	O	O	
+9-3	Aufenthalts	NN	Aufenthalt	_	O	O	
+9-4	im	APPRART	in	_	O	O	
+9-5	Thüringer	NN	Thüringer	_	O	O	
+9-6	Walde	NN	Wald	_	O	O	
+9-7	habe	VAFIN	haben	_	O	O	
+9-8	ich	PPER	ich	_	O	O	
+9-9	auch	ADV	auch	_	O	O	
+9-10	den	ART	die	_	O	O	
+9-11	Coburger	NN	<unknown>	_	O	O	
+9-12	besucht	VVFIN	besuchen	_	O	O	
+9-13	und	KON	und	_	O	O	
+9-14	derselbe	PDS	derselbe	_	O	O	
+9-15	hat	VAFIN	haben	_	O	O	
+9-16	mir	PPER	ich	_	O	O	
+9-17	so	ADV	so	_	O	O	
+9-18	viel	PIAT	viele	_	O	O	
+9-19	Geld	NN	Geld	_	O	O	
+9-20	in	APPR	in	_	O	O	
+9-21	Aussicht	NN	Aussicht	_	O	O	
+9-22	gestellt	VVPP	stellen	_	O	O	
+9-23	,	$,	,	_	O	O	
+9-24	daß	KOUS	dass	_	O	O	
+9-25	ich	PPER	ich	_	O	O	
+9-26	auf	APPR	auf	_	O	O	
+9-27	das	ART	die	_	O	O	
+9-28	Berliner	ADJA	Berliner	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-29	Museum	NN	Museum	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+9-30	pfeifen	VVINF	pfeifen	_	O	O	
+9-31	kann	VMFIN	können	_	O	O	
+9-32	.	$.	.	_	O	O	
+

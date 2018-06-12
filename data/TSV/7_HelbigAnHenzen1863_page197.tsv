@@ -1,0 +1,241 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Helbig an Henzen Achern, 7. Oktober 1873 tentafeln capuaner Wandgemälde in den Riß ein.
+1-1	2	CARD	2	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	Achern	VVFIN	<unknown>	_	O	O	
+1-6	,	$,	,	_	O	O	
+1-7	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	tentafeln	NN	<unknown>	_	O	O	
+1-12	capuaner	ADJA	<unknown>	_	O	O	
+1-13	Wandgemälde	NN	Wandgemälde	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-14	in	APPR	in	_	O	O	
+1-15	den	ART	die	_	O	O	
+1-16	Riß	NN	Riss	_	O	O	
+1-17	ein	PTKVZ	ein	_	O	O	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Wenige Worte genügen zur Erläuterung derselben und die Publication dieser Tafeln wird eine zweckmäßige Varietät in das Monumentenheft bringen.
+2-1	Wenige	PIAT	wenige	_	O	O	
+2-2	Worte	NN	Wort	_	O	O	
+2-3	genügen	VVFIN	genügen	_	O	O	
+2-4	zur	APPRART	zu	_	O	O	
+2-5	Erläuterung	NN	Erläuterung	_	O	O	
+2-6	derselben	PDAT	dieselb	_	O	O	
+2-7	und	KON	und	_	O	O	
+2-8	die	ART	die	_	O	O	
+2-9	Publication	NN	<unknown>	_	O	O	
+2-10	dieser	PDAT	dies	_	O	O	
+2-11	Tafeln	NN	Tafel	_	O	O	
+2-12	wird	VAFIN	werden	_	O	O	
+2-13	eine	ART	eine	_	O	O	
+2-14	zweckmäßige	ADJA	zweckmäßig	_	O	O	
+2-15	Varietät	NN	Varietät	_	O	O	
+2-16	in	APPR	in	_	O	O	
+2-17	das	ART	die	_	O	O	
+2-18	Monumentenheft	NN	<unknown>	_	O	O	
+2-19	bringen	VVINF	bringen	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Michaelis hat in London das Nereidenmonument zeichnen lassen und bietet uns dasselbe zur Publication an.
+3-1	Michaelis	NE	Michaelis	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	hat	VAFIN	haben	_	O	O	
+3-3	in	APPR	in	_	O	O	
+3-4	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-5	das	ART	die	_	O	O	
+3-6	Nereidenmonument	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-7	zeichnen	VVINF	zeichnen	_	O	O	
+3-8	lassen	VVINF	lassen	_	O	O	
+3-9	und	KON	und	_	O	O	
+3-10	bietet	VVFIN	bieten	_	O	O	
+3-11	uns	PPER	wir	_	O	O	
+3-12	dasselbe	PDS	dasselbe	_	O	O	
+3-13	zur	APPRART	zu	_	O	O	
+3-14	Publication	NN	<unknown>	_	O	O	
+3-15	an	PTKVZ	an	_	O	O	
+3-16	.	$.	.	_	O	O	
+
+#id=4
+#text=Er sowohl wie Matz erklären die Zeichnungen für sehr Gelungen.
+4-1	Er	PPER	er	_	O	O	
+4-2	sowohl	KON	sowohl	_	O	O	
+4-3	wie	KOUS	wie	_	O	O	
+4-4	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	erklären	VVFIN	erklären	_	O	O	
+4-6	die	ART	die	_	O	O	
+4-7	Zeichnungen	NN	Zeichnung	_	O	O	
+4-8	für	APPR	für	_	O	O	
+4-9	sehr	ADV	sehr	_	O	O	
+4-10	Gelungen	NN	<unknown>	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Es kann uns demnach sein Anerbieten nur erwünscht sein.
+5-1	Es	PPER	es	_	O	O	
+5-2	kann	VMFIN	können	_	O	O	
+5-3	uns	PRF	wir	_	O	O	
+5-4	demnach	PAV	demnach	_	O	O	
+5-5	sein	PPOSAT	sein	_	O	O	
+5-6	Anerbieten	NN	Anerbieten	_	O	O	
+5-7	nur	ADV	nur	_	O	O	
+5-8	erwünscht	ADJD	erwünscht	_	O	O	
+5-9	sein	VAINF	sein	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Bei der Festadunanz denke ich über homerische Kunst zu lesen, über welche ich durch Untersuchung der Vasi di Buchero unverhoffte Lichtpunkte gewonnen.
+6-1	Bei	APPR	bei	_	O	O	
+6-2	der	ART	die	_	O	O	
+6-3	Festadunanz	NN	<unknown>	_	O	O	
+6-4	denke	VVFIN	denken	_	O	O	
+6-5	ich	PPER	ich	_	O	O	
+6-6	über	APPR	über	_	O	O	
+6-7	homerische	ADJA	<unknown>	_	O	O	
+6-8	Kunst	NN	Kunst	_	O	O	
+6-9	zu	PTKZU	zu	_	O	O	
+6-10	lesen	VVINF	lesen	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	über	APPR	über	_	O	O	
+6-13	welche	PRELS	welche	_	O	O	
+6-14	ich	PPER	ich	_	O	O	
+6-15	durch	APPR	durch	_	O	O	
+6-16	Untersuchung	NN	Untersuchung	_	O	O	
+6-17	der	ART	die	_	O	O	
+6-18	Vasi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-19	di	NE	di	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-20	Buchero	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-21	unverhoffte	ADJA	unverhofft	_	O	O	
+6-22	Lichtpunkte	NN	Lichtpunkt	_	O	O	
+6-23	gewonnen	VVPP	gewinnen	_	O	O	
+6-24	.	$.	.	_	O	O	
+
+#id=7
+#text=Leider ist die Monumentengattung sehr vernachlässigt und sehr wenig aus diesem Gebiete publicirt.
+7-1	Leider	ADV	leider	_	O	O	
+7-2	ist	VAFIN	sein	_	O	O	
+7-3	die	ART	die	_	O	O	
+7-4	Monumentengattung	NN	<unknown>	_	O	O	
+7-5	sehr	ADV	sehr	_	O	O	
+7-6	vernachlässigt	VVPP	vernachlässigen	_	O	O	
+7-7	und	KON	und	_	O	O	
+7-8	sehr	ADV	sehr	_	O	O	
+7-9	wenig	ADV	wenig	_	O	O	
+7-10	aus	APPR	aus	_	O	O	
+7-11	diesem	PDAT	dies	_	O	O	
+7-12	Gebiete	NN	Gebiet	_	O	O	
+7-13	publicirt	ADJD	<unknown>	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Hätten Sie etwas dagegen Mariani etwa zwischen den 25. und 30. October nach Florenz zu schicken?
+8-1	Hätten	VAFIN	haben	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	etwas	ADV	etwas	_	O	O	
+8-4	dagegen	PAV	dagegen	_	O	O	
+8-5	Mariani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	etwa	ADV	etwa	_	O	O	
+8-7	zwischen	APPR	zwischen	_	O	O	
+8-8	den	ART	die	_	O	O	
+8-9	25	CARD	25	_	O	O	
+8-10	.	$.	.	_	O	O	
+8-11	und	KON	und	_	O	O	
+8-12	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-13	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+8-14	October	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+8-15	nach	APPR	nach	_	O	O	
+8-16	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-17	zu	PTKZU	zu	_	O	O	
+8-18	schicken	VVINF	schicken	_	O	O	
+8-19	?	$.	?	_	O	O	
+
+#id=9
+#text=Ich könnte ihm dann auf der Durchreise die zu copirenden Exemplare und den Standpunkt, von welchem sie aufzunehmen sind, bezeichnen.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	könnte	VMFIN	können	_	O	O	
+9-3	ihm	PPER	er	_	O	O	
+9-4	dann	ADV	dann	_	O	O	
+9-5	auf	APPR	auf	_	O	O	
+9-6	der	ART	die	_	O	O	
+9-7	Durchreise	NN	Durchreise	_	O	O	
+9-8	die	ART	die	_	O	O	
+9-9	zu	APPR	zu	_	O	O	
+9-10	copirenden	ADJA	<unknown>	_	O	O	
+9-11	Exemplare	NN	Exemplar	_	O	O	
+9-12	und	KON	und	_	O	O	
+9-13	den	ART	die	_	O	O	
+9-14	Standpunkt	NN	Standpunkt	_	O	O	
+9-15	,	$,	,	_	O	O	
+9-16	von	APPR	von	_	O	O	
+9-17	welchem	PRELS	welche	_	O	O	
+9-18	sie	PPER	sie	_	O	O	
+9-19	aufzunehmen	VVIZU	aufnehmen	_	O	O	
+9-20	sind	VAFIN	sein	_	O	O	
+9-21	,	$,	,	_	O	O	
+9-22	bezeichnen	VVFIN	bezeichnen	_	O	O	
+9-23	.	$.	.	_	O	O	
+
+#id=10
+#text=Die betreffenden Exemplare würden eine Monumententafel füllen und ich könnte dieselbe in den Annali mit kurzen Bemerkungen begleiten.
+10-1	Die	ART	die	_	O	O	
+10-2	betreffenden	ADJA	betreffend	_	O	O	
+10-3	Exemplare	NN	Exemplar	_	O	O	
+10-4	würden	VAFIN	werden	_	O	O	
+10-5	eine	ART	eine	_	O	O	
+10-6	Monumententafel	NN	<unknown>	_	O	O	
+10-7	füllen	VVINF	füllen	_	O	O	
+10-8	und	KON	und	_	O	O	
+10-9	ich	PPER	ich	_	O	O	
+10-10	könnte	VMFIN	können	_	O	O	
+10-11	dieselbe	PDS	dieselbe	_	O	O	
+10-12	in	APPR	in	_	O	O	
+10-13	den	ART	die	_	O	O	
+10-14	Annali	NE	<unknown>	_	O	O	
+10-15	mit	APPR	mit	_	O	O	
+10-16	kurzen	ADJA	kurz	_	O	O	
+10-17	Bemerkungen	NN	Bemerkung	_	O	O	
+10-18	begleiten	VVINF	begleiten	_	O	O	
+10-19	.	$.	.	_	O	O	
+
+#id=11
+#text=Die Behandlung in größerem Zusammenhange würde in einem besonderen Buche erfolgen.
+11-1	Die	ART	die	_	O	O	
+11-2	Behandlung	NN	Behandlung	_	O	O	
+11-3	in	APPR	in	_	O	O	
+11-4	größerem	ADJA	groß	_	O	O	
+11-5	Zusammenhange	NN	Zusammenhang	_	O	O	
+11-6	würde	VAFIN	werden	_	O	O	
+11-7	in	APPR	in	_	O	O	
+11-8	einem	ART	eine	_	O	O	
+11-9	besonderen	ADJA	besonder	_	O	O	
+11-10	Buche	NN	Buche	_	O	O	
+11-11	erfolgen	VVINF	erfolgen	_	O	O	
+11-12	.	$.	.	_	O	O	
+
+#id=12
+#text=Herzliche Grüße an Fräulein Kopf, Zangemeister, Klügmann!
+12-1	Herzliche	ADJA	herzlich	_	O	O	
+12-2	Grüße	NN	Gruß	_	O	O	
+12-3	an	APPR	an	_	O	O	
+12-4	Fräulein	NN	Fräulein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-5	Kopf	NN	Kopf	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+12-6	,	$,	,	_	O	O	
+12-7	Zangemeister	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-8	,	$,	,	_	O	O	
+12-9	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-10	!	$.	!	_	O	O	
+
+#id=13
+#text=Baldigst Weiteres Ihr ergebener Helbig
+13-1	Baldigst	ADJD	baldig	_	O	O	
+13-2	Weiteres	NN	Weiter	_	O	O	
+13-3	Ihr	PPOSAT	ihr	_	O	O	
+13-4	ergebener	ADJA	ergeben	_	O	O	
+13-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

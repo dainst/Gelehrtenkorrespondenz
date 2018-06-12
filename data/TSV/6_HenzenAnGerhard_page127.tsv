@@ -1,0 +1,352 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=240 3/VII/53 Verehrter Herr Professor Renzen an Gerhard Es freut mich, dß.
+1-1	240	CARD	240	_	O	O	
+1-2	3/VII/53	CARD	<unknown>	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Renzen	NN	<unknown>	_	O	O	
+1-7	an	APPR	an	_	O	O	
+1-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Es	PPER	es	_	O	O	
+1-10	freut	VVFIN	freuen	_	O	O	
+1-11	mich	PRF	ich	_	O	O	
+1-12	,	$,	,	_	O	O	
+1-13	dß	VVFIN	<unknown>	_	O	O	
+1-14	.	$.	.	_	O	O	
+
+#id=2
+#text=die Angelegenheit des C.I.L. in Gang kommt; das ist die Hauptsache, und das Andre muE sich finden.
+2-1	die	ART	die	_	O	O	
+2-2	Angelegenheit	NN	Angelegenheit	_	O	O	
+2-3	des	ART	die	_	O	O	
+2-4	C.I.L.	NE	<unknown>	_	O	O	
+2-5	in	APPR	in	_	O	O	
+2-6	Gang	NN	Gang	_	O	O	
+2-7	kommt	VVFIN	kommen	_	O	O	
+2-8	;	$.	;	_	O	O	
+2-9	das	PDS	die	_	O	O	
+2-10	ist	VAFIN	sein	_	O	O	
+2-11	die	ART	die	_	O	O	
+2-12	Hauptsache	NN	Hauptsache	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	und	KON	und	_	O	O	
+2-15	das	ART	die	_	O	O	
+2-16	Andre	NE	Andre	_	O	O	
+2-17	muE	NN	<unknown>	_	O	O	
+2-18	sich	PRF	sich	_	O	O	
+2-19	finden	VVFIN	finden	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Uebrigens werden Sie aus den Zeitungen wissen, daß Lambruschini als Cardinal u. Oberbibliothekar abgesetzt ist, ein ganz unerhBrter Fall, u. dß.
+3-1	Uebrigens	NN	<unknown>	_	O	O	
+3-2	werden	VAFIN	werden	_	O	O	
+3-3	Sie	PPER	Sie	_	O	O	
+3-4	aus	APPR	aus	_	O	O	
+3-5	den	ART	die	_	O	O	
+3-6	Zeitungen	NN	Zeitung	_	O	O	
+3-7	wissen	VVINF	wissen	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	daß	KOUS	dass	_	O	O	
+3-10	Lambruschini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-11	als	KOKOM	als	_	O	O	
+3-12	Cardinal	ADJD	<unknown>	_	O	O	
+3-13	u.	APPR	um	_	O	O	
+3-14	Oberbibliothekar	NN	<unknown>	_	O	O	
+3-15	abgesetzt	VVPP	absetzen	_	O	O	
+3-16	ist	VAFIN	sein	_	O	O	
+3-17	,	$,	,	_	O	O	
+3-18	ein	ART	eine	_	O	O	
+3-19	ganz	ADV	ganz	_	O	O	
+3-20	unerhBrter	ADJA	<unknown>	_	O	O	
+3-21	Fall	NN	Fall	_	O	O	
+3-22	,	$,	,	_	O	O	
+3-23	u.	KON	und	_	O	O	
+3-24	dß	VVFIN	<unknown>	_	O	O	
+3-25	.	$.	.	_	O	O	
+
+#id=4
+#text=Mai ihm gefolgt ist, so wie daß N;artinucci, der bei festerer Stellung wohl mit der Zeit traitabler zu werden versprach, gerade wegen einzelner Begünstigungen von Fremden ( z. B. Bethmann ) nicht zum ersten Custoden ernannt ist, so statt dessen ein ganz unh~- kannter Msg. Asinari, bei dem der Name kein Omen sein m5ge Mai's Principien sind bekannt.
+4-1	Mai	NN	Mai	_	O	O	
+4-2	ihm	PPER	er	_	O	O	
+4-3	gefolgt	VVPP	folgen	_	O	O	
+4-4	ist	VAFIN	sein	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	so	ADV	so	_	O	O	
+4-7	wie	KOKOM	wie	_	O	O	
+4-8	daß	KOUS	dass	_	O	O	
+4-9	N	NE	N	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-10	;	$.	;	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-11	artinucci	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-12	,	$,	,	_	O	O	
+4-13	der	PRELS	die	_	O	O	
+4-14	bei	APPR	bei	_	O	O	
+4-15	festerer	ADJA	<unknown>	_	O	O	
+4-16	Stellung	NN	Stellung	_	O	O	
+4-17	wohl	ADV	wohl	_	O	O	
+4-18	mit	APPR	mit	_	O	O	
+4-19	der	ART	die	_	O	O	
+4-20	Zeit	NN	Zeit	_	O	O	
+4-21	traitabler	ADJD	<unknown>	_	O	O	
+4-22	zu	PTKZU	zu	_	O	O	
+4-23	werden	VAINF	werden	_	O	O	
+4-24	versprach	VVFIN	versprechen	_	O	O	
+4-25	,	$,	,	_	O	O	
+4-26	gerade	ADV	gerade	_	O	O	
+4-27	wegen	APPR	wegen	_	O	O	
+4-28	einzelner	ADJA	einzeln	_	O	O	
+4-29	Begünstigungen	NN	<unknown>	_	O	O	
+4-30	von	APPR	von	_	O	O	
+4-31	Fremden	NN	Fremde	_	O	O	
+4-32	(	$(	(	_	O	O	
+4-33	z.	APPR	z.	_	O	O	
+4-34	B.	NE	B.	_	O	O	
+4-35	Bethmann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-36	)	$(	)	_	O	O	
+4-37	nicht	PTKNEG	nicht	_	O	O	
+4-38	zum	APPRART	zu	_	O	O	
+4-39	ersten	ADJA	erst	_	O	O	
+4-40	Custoden	NN	<unknown>	_	O	O	
+4-41	ernannt	VVPP	ernennen	_	O	O	
+4-42	ist	VAFIN	sein	_	O	O	
+4-43	,	$,	,	_	O	O	
+4-44	so	ADV	so	_	O	O	
+4-45	statt	APPR	statt	_	O	O	
+4-46	dessen	PDAT	die	_	O	O	
+4-47	ein	ART	eine	_	O	O	
+4-48	ganz	ADV	ganz	_	O	O	
+4-49	unh~-	ADJA	<unknown>	_	O	O	
+4-50	kannter	NN	<unknown>	_	O	O	
+4-51	Msg	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-52	.	$.	.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-53	Asinari	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-54	,	$,	,	_	O	O	
+4-55	bei	APPR	bei	_	O	O	
+4-56	dem	PRELS	die	_	O	O	
+4-57	der	ART	die	_	O	O	
+4-58	Name	NN	Name	_	O	O	
+4-59	kein	PIAT	keine	_	O	O	
+4-60	Omen	NN	Omen	_	O	O	
+4-61	sein	PPOSAT	sein	_	O	O	
+4-62	m5ge	ADJA	<unknown>	_	O	O	
+4-63	Mai's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-64	Principien	NN	<unknown>	_	O	O	
+4-65	sind	VAFIN	sein	_	O	O	
+4-66	bekannt	ADJD	bekannt	_	O	O	
+4-67	.	$.	.	_	O	O	
+
+#id=5
+#text=Ohnehin ist de Rossi bei ihm sehr gut angeschrieben, u. so gilt jetzt mehr, als je, meine Behauptung, daß nur dh.
+5-1	Ohnehin	ADV	ohnehin	_	O	O	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-5	bei	APPR	bei	_	O	O	
+5-6	ihm	PPER	er	_	O	O	
+5-7	sehr	ADV	sehr	_	O	O	
+5-8	gut	ADJD	gut	_	O	O	
+5-9	angeschrieben	VVPP	anschreiben	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	u.	KON	und	_	O	O	
+5-12	so	ADV	so	_	O	O	
+5-13	gilt	VVFIN	gelten	_	O	O	
+5-14	jetzt	ADV	jetzt	_	O	O	
+5-15	mehr	ADV	mehr	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	als	KOUS	als	_	O	O	
+5-18	je	ADV	je	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	meine	PPOSAT	mein	_	O	O	
+5-21	Behauptung	NN	Behauptung	_	O	O	
+5-22	,	$,	,	_	O	O	
+5-23	daß	KOUS	dass	_	O	O	
+5-24	nur	ADV	nur	_	O	O	
+5-25	dh.	NE	<unknown>	_	O	O	
+
+#id=6
+#text=diesen Etwas zu machen sei.
+6-1	diesen	PDAT	dies	_	O	O	
+6-2	Etwas	NN	Etwas	_	O	O	
+6-3	zu	PTKZU	zu	_	O	O	
+6-4	machen	VVINF	machen	_	O	O	
+6-5	sei	VAFIN	sein	_	O	O	
+6-6	.	$.	.	_	O	O	
+
+#id=7
+#text=Hoffen wir, daß er die Saiten jetzt nicht zu hoch spanne.
+7-1	Hoffen	VVFIN	hoffen	_	O	O	
+7-2	wir	PPER	wir	_	O	O	
+7-3	,	$,	,	_	O	O	
+7-4	daß	KOUS	dass	_	O	O	
+7-5	er	PPER	er	_	O	O	
+7-6	die	ART	die	_	O	O	
+7-7	Saiten	NN	Saite	_	O	O	
+7-8	jetzt	ADV	jetzt	_	O	O	
+7-9	nicht	PTKNEG	nicht	_	O	O	
+7-10	zu	PTKA	zu	_	O	O	
+7-11	hoch	ADJD	hoch	_	O	O	
+7-12	spanne	VVFIN	spannen	_	O	O	
+7-13	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich kann ihm natürlich erst nach erfolgter Einigung mit Mommsen davon sprechen.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	kann	VMFIN	können	_	O	O	
+8-3	ihm	PPER	er	_	O	O	
+8-4	natürlich	ADV	natürlich	_	O	O	
+8-5	erst	ADV	erst	_	O	O	
+8-6	nach	APPR	nach	_	O	O	
+8-7	erfolgter	ADJA	erfolgt	_	O	O	
+8-8	Einigung	NN	Einigung	_	O	O	
+8-9	mit	APPR	mit	_	O	O	
+8-10	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-11	davon	PAV	davon	_	O	O	
+8-12	sprechen	VVINF	sprechen	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=In Institutsangelegenheiten verlange ich nur, wenn für die dieselben Etwas beim Y5nige erreicht wird, berücksichtigt zu werden.
+9-1	In	APPR	in	_	O	O	
+9-2	Institutsangelegenheiten	NN	<unknown>	_	O	O	
+9-3	verlange	VVFIN	verlangen	_	O	O	
+9-4	ich	PPER	ich	_	O	O	
+9-5	nur	ADV	nur	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	wenn	KOUS	wenn	_	O	O	
+9-8	für	APPR	für	_	O	O	
+9-9	die	ART	die	_	O	O	
+9-10	dieselben	PDAT	dieselb	_	O	O	
+9-11	Etwas	NN	Etwas	_	O	O	
+9-12	beim	APPRART	bei	_	O	O	
+9-13	Y5nige	NN	<unknown>	_	O	O	
+9-14	erreicht	VVPP	erreichen	_	O	O	
+9-15	wird	VAFIN	werden	_	O	O	
+9-16	,	$,	,	_	O	O	
+9-17	berücksichtigt	VVPP	berücksichtigen	_	O	O	
+9-18	zu	PTKZU	zu	_	O	O	
+9-19	werden	VAINF	werden	_	O	O	
+9-20	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich machte Sie schon neulich aufmerksam darauf, daß wir ja bis jetzt nicht 800, sondern 1340 rf erhalten, also bei einem Zuschusse von 200 nicht 1000, sondern 1540.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	machte	VVFIN	machen	_	O	O	
+10-3	Sie	PPER	Sie	_	O	O	
+10-4	schon	ADV	schon	_	O	O	
+10-5	neulich	ADV	neulich	_	O	O	
+10-6	aufmerksam	ADJD	aufmerksam	_	O	O	
+10-7	darauf	PAV	darauf	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	daß	KOUS	dass	_	O	O	
+10-10	wir	PPER	wir	_	O	O	
+10-11	ja	ADV	ja	_	O	O	
+10-12	bis	KON	bis	_	O	O	
+10-13	jetzt	ADV	jetzt	_	O	O	
+10-14	nicht	PTKNEG	nicht	_	O	O	
+10-15	800	CARD	800	_	O	O	
+10-16	,	$,	,	_	O	O	
+10-17	sondern	KON	sondern	_	O	O	
+10-18	1340	CARD	@card@	_	O	O	
+10-19	rf	NN	<unknown>	_	O	O	
+10-20	erhalten	VVPP	erhalten	_	O	O	
+10-21	,	$,	,	_	O	O	
+10-22	also	ADV	also	_	O	O	
+10-23	bei	APPR	bei	_	O	O	
+10-24	einem	ART	eine	_	O	O	
+10-25	Zuschusse	NN	<unknown>	_	O	O	
+10-26	von	APPR	von	_	O	O	
+10-27	200	CARD	200	_	O	O	
+10-28	nicht	PTKNEG	nicht	_	O	O	
+10-29	1000	CARD	1000	_	O	O	
+10-30	,	$,	,	_	O	O	
+10-31	sondern	KON	sondern	_	O	O	
+10-32	1540	CARD	@card@	_	O	O	
+10-33	.	$.	.	_	O	O	
+
+#id=11
+#text=Dennoch kommen ~ie wieder auf die 1000 rf zurliek, u. ich weiß wirklich nicht, wie icb mir das erklären soll.
+11-1	Dennoch	ADV	dennoch	_	O	O	
+11-2	kommen	VVFIN	kommen	_	O	O	
+11-3	~ie	NN	<unknown>	_	O	O	
+11-4	wieder	ADV	wieder	_	O	O	
+11-5	auf	APPR	auf	_	O	O	
+11-6	die	ART	die	_	O	O	
+11-7	1000	CARD	1000	_	O	O	
+11-8	rf	ADJA	<unknown>	_	O	O	
+11-9	zurliek	NE	<unknown>	_	O	O	
+11-10	,	$,	,	_	O	O	
+11-11	u.	KON	und	_	O	O	
+11-12	ich	PPER	ich	_	O	O	
+11-13	weiß	VVFIN	wissen	_	O	O	
+11-14	wirklich	ADJD	wirklich	_	O	O	
+11-15	nicht	PTKNEG	nicht	_	O	O	
+11-16	,	$,	,	_	O	O	
+11-17	wie	KOKOM	wie	_	O	O	
+11-18	icb	ADJD	<unknown>	_	O	O	
+11-19	mir	PPER	ich	_	O	O	
+11-20	das	PDS	die	_	O	O	
+11-21	erklären	VVINF	erklären	_	O	O	
+11-22	soll	VMFIN	sollen	_	O	O	
+11-23	.	$.	.	_	O	O	
+
+#id=12
+#text=Ich kann mir unm5g1ich denken, daß Braun allein in Betracht kommen u. sein Gehalt allein auf 1000 rf ~ebracht werden soll.
+12-1	Ich	PPER	ich	_	O	O	
+12-2	kann	VMFIN	können	_	O	O	
+12-3	mir	PPER	ich	_	O	O	
+12-4	unm5g1ich	ADJD	<unknown>	_	O	O	
+12-5	denken	VVINF	denken	_	O	O	
+12-6	,	$,	,	_	O	O	
+12-7	daß	KOUS	dass	_	O	O	
+12-8	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-9	allein	ADV	allein	_	O	O	
+12-10	in	APPR	in	_	O	O	
+12-11	Betracht	NN	Betracht	_	O	O	
+12-12	kommen	VVFIN	kommen	_	O	O	
+12-13	u.	APPR	um	_	O	O	
+12-14	sein	PPOSAT	sein	_	O	O	
+12-15	Gehalt	NN	Gehalt	_	O	O	
+12-16	allein	ADV	allein	_	O	O	
+12-17	auf	APPR	auf	_	O	O	
+12-18	1000	CARD	1000	_	O	O	
+12-19	rf	ADJA	<unknown>	_	O	O	
+12-20	~ebracht	NN	<unknown>	_	O	O	
+12-21	werden	VAINF	werden	_	O	O	
+12-22	soll	VMFIN	sollen	_	O	O	
+12-23	.	$.	.	_	O	O	
+
+#id=13
+#text=Ihnen namentlich darf ich das nicht zutrauen, da ich Sie, u. Sie die hiesigen Verhältnisse kennen, und ich bitte Sie um Verzeihung, wenn mir der Gedanke
+13-1	Ihnen	PPER	Sie	_	O	O	
+13-2	namentlich	ADJD	namentlich	_	O	O	
+13-3	darf	VMFIN	dürfen	_	O	O	
+13-4	ich	PPER	ich	_	O	O	
+13-5	das	PDS	die	_	O	O	
+13-6	nicht	PTKNEG	nicht	_	O	O	
+13-7	zutrauen	VVINF	zutrauen	_	O	O	
+13-8	,	$,	,	_	O	O	
+13-9	da	KOUS	da	_	O	O	
+13-10	ich	PPER	ich	_	O	O	
+13-11	Sie	PPER	Sie	_	O	O	
+13-12	,	$,	,	_	O	O	
+13-13	u.	APPR	um	_	O	O	
+13-14	Sie	PPER	Sie	_	O	O	
+13-15	die	ART	die	_	O	O	
+13-16	hiesigen	ADJA	hiesig	_	O	O	
+13-17	Verhältnisse	NN	Verhältnis	_	O	O	
+13-18	kennen	VVFIN	kennen	_	O	O	
+13-19	,	$,	,	_	O	O	
+13-20	und	KON	und	_	O	O	
+13-21	ich	PPER	ich	_	O	O	
+13-22	bitte	VVFIN	bitten	_	O	O	
+13-23	Sie	PPER	Sie	_	O	O	
+13-24	um	APPR	um	_	O	O	
+13-25	Verzeihung	NN	Verzeihung	_	O	O	
+13-26	,	$,	,	_	O	O	
+13-27	wenn	KOUS	wenn	_	O	O	
+13-28	mir	PPER	ich	_	O	O	
+13-29	der	ART	die	_	O	O	
+13-30	Gedanke	NN	Gedanke	_	O	O	
+

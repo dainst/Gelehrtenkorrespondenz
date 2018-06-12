@@ -1,0 +1,245 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Gerhard an Braun -:r Berlin, 27. April 184~ sind, für den Revisore nur 100 übrig die nun unbedenklich zu Henzens regelmäßiger Verfügung gestellt werden können.
+1-1	2	CARD	2	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	-:r	NE	<unknown>	_	O	O	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	184~	VVPP	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	sind	VAFIN	sein	_	O	O	
+1-13	,	$,	,	_	O	O	
+1-14	für	APPR	für	_	O	O	
+1-15	den	ART	die	_	O	O	
+1-16	Revisore	NN	<unknown>	_	O	O	
+1-17	nur	ADV	nur	_	O	O	
+1-18	100	CARD	100	_	O	O	
+1-19	übrig	ADJD	übrig	_	O	O	
+1-20	die	ART	die	_	O	O	
+1-21	nun	ADV	nun	_	O	O	
+1-22	unbedenklich	ADJD	unbedenklich	_	O	O	
+1-23	zu	APPR	zu	_	O	O	
+1-24	Henzens	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-25	regelmäßiger	ADJA	regelmäßig	_	O	O	
+1-26	Verfügung	NN	Verfügung	_	O	O	
+1-27	gestellt	VVPP	stellen	_	O	O	
+1-28	werden	VAINF	werden	_	O	O	
+1-29	können	VMFIN	können	_	O	O	
+1-30	.	$.	.	_	O	O	
+
+#id=2
+#text=Hienach bleibt unter zwei Übelständen zu wählen, ob Henzen noch immer für 360 Scudi quittiren soll ohne sie vollständig zu ziehen oder ob das Institut ihm zu Gunsten ohne Noth und ostensiblen Grund 20 Scudi mehr ausgeben soll.
+2-1	Hienach	NE	<unknown>	_	O	O	
+2-2	bleibt	VVFIN	bleiben	_	O	O	
+2-3	unter	APPR	unter	_	O	O	
+2-4	zwei	CARD	zwei	_	O	O	
+2-5	Übelständen	NN	Übelstand	_	O	O	
+2-6	zu	PTKZU	zu	_	O	O	
+2-7	wählen	VVINF	wählen	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	ob	KOUS	ob	_	O	O	
+2-10	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-11	noch	ADV	noch	_	O	O	
+2-12	immer	ADV	immer	_	O	O	
+2-13	für	APPR	für	_	O	O	
+2-14	360	CARD	@card@	_	O	O	
+2-15	Scudi	NN	<unknown>	_	O	O	
+2-16	quittiren	NN	<unknown>	_	O	O	
+2-17	soll	VMFIN	sollen	_	O	O	
+2-18	ohne	APPR	ohne	_	O	O	
+2-19	sie	PPER	sie	_	O	O	
+2-20	vollständig	ADJD	vollständig	_	O	O	
+2-21	zu	PTKZU	zu	_	O	O	
+2-22	ziehen	VVINF	ziehen	_	O	O	
+2-23	oder	KON	oder	_	O	O	
+2-24	ob	KOUS	ob	_	O	O	
+2-25	das	ART	die	_	O	O	
+2-26	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-27	ihm	PPER	er	_	O	O	
+2-28	zu	APPR	zu	_	O	O	
+2-29	Gunsten	NN	Gunst	_	O	O	
+2-30	ohne	APPR	ohne	_	O	O	
+2-31	Noth	NE	<unknown>	_	O	O	
+2-32	und	KON	und	_	O	O	
+2-33	ostensiblen	ADJA	<UNKNOWN>	_	O	O	
+2-34	Grund	NN	Grund	_	O	O	
+2-35	20	CARD	20	_	O	O	
+2-36	Scudi	NN	<unknown>	_	O	O	
+2-37	mehr	ADV	mehr	_	O	O	
+2-38	ausgeben	VVINF	ausgeben	_	O	O	
+2-39	soll	VMFIN	sollen	_	O	O	
+2-40	.	$.	.	_	O	O	
+
+#id=3
+#text=Entscheiden Sie tißrüber oder legen mir wenigstens Ihre Ansicht darüber vor um danach diese Gehaltsache geschäftsmäßig zu Kestners, wenn nicht zu Bunsens Unterschrift gelangen zu lassen; vielleicht läßt die Sache sich so ausgleichen daß Henzen noch irgend eine andre unabweisliche Mühewaltung fürs Institut, 20 Scudi werth, die nicht eigentlich von ihm zu fordern ist, bei sich und bei Brunn übernimmt.
+3-1	Entscheiden	VVFIN	entscheiden	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	tißrüber	ADJD	<unknown>	_	O	O	
+3-4	oder	KON	oder	_	O	O	
+3-5	legen	VVFIN	legen	_	O	O	
+3-6	mir	PPER	ich	_	O	O	
+3-7	wenigstens	ADV	wenigstens	_	O	O	
+3-8	Ihre	PPOSAT	ihr	_	O	O	
+3-9	Ansicht	NN	Ansicht	_	O	O	
+3-10	darüber	PAV	darüber	_	O	O	
+3-11	vor	PTKVZ	vor	_	O	O	
+3-12	um	APPR	um	_	O	O	
+3-13	danach	PAV	danach	_	O	O	
+3-14	diese	PDAT	dies	_	O	O	
+3-15	Gehaltsache	NN	<unknown>	_	O	O	
+3-16	geschäftsmäßig	ADJD	geschäftsmäßig	_	O	O	
+3-17	zu	APPR	zu	_	O	O	
+3-18	Kestners	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-19	,	$,	,	_	O	O	
+3-20	wenn	KOUS	wenn	_	O	O	
+3-21	nicht	PTKNEG	nicht	_	O	O	
+3-22	zu	APPR	zu	_	O	O	
+3-23	Bunsens	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-24	Unterschrift	NN	Unterschrift	_	O	O	
+3-25	gelangen	VVINF	gelangen	_	O	O	
+3-26	zu	PTKZU	zu	_	O	O	
+3-27	lassen	VVINF	lassen	_	O	O	
+3-28	;	$.	;	_	O	O	
+3-29	vielleicht	ADV	vielleicht	_	O	O	
+3-30	läßt	VVFIN	lassen	_	O	O	
+3-31	die	ART	die	_	O	O	
+3-32	Sache	NN	Sache	_	O	O	
+3-33	sich	PRF	sich	_	O	O	
+3-34	so	ADV	so	_	O	O	
+3-35	ausgleichen	VVFIN	ausgleichen	_	O	O	
+3-36	daß	KOUS	dass	_	O	O	
+3-37	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-38	noch	ADV	noch	_	O	O	
+3-39	irgend	ADV	irgend	_	O	O	
+3-40	eine	ART	eine	_	O	O	
+3-41	andre	PIAT	andere	_	O	O	
+3-42	unabweisliche	ADJA	unabweislich	_	O	O	
+3-43	Mühewaltung	NN	<unknown>	_	O	O	
+3-44	fürs	APPRART	fürs	_	O	O	
+3-45	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-46	,	$,	,	_	O	O	
+3-47	20	CARD	20	_	O	O	
+3-48	Scudi	NN	<unknown>	_	O	O	
+3-49	werth	NE	<unknown>	_	O	O	
+3-50	,	$,	,	_	O	O	
+3-51	die	PRELS	die	_	O	O	
+3-52	nicht	PTKNEG	nicht	_	O	O	
+3-53	eigentlich	ADV	eigentlich	_	O	O	
+3-54	von	APPR	von	_	O	O	
+3-55	ihm	PPER	er	_	O	O	
+3-56	zu	PTKZU	zu	_	O	O	
+3-57	fordern	VVINF	fordern	_	O	O	
+3-58	ist	VAFIN	sein	_	O	O	
+3-59	,	$,	,	_	O	O	
+3-60	bei	APPR	bei	_	O	O	
+3-61	sich	PRF	sich	_	O	O	
+3-62	und	KON	und	_	O	O	
+3-63	bei	APPR	bei	_	O	O	
+3-64	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-65	übernimmt	VVFIN	übernehmen	_	O	O	
+3-66	.	$.	.	_	O	O	
+
+#id=4
+#text=Von Panofka noch keine Zeile; einen Brief an Dei hat er hoffentlich nach Chiusi gesandt, wenn er doch selbst nicht dorthin kam.
+4-1	Von	APPR	von	_	O	O	
+4-2	Panofka	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	noch	ADV	noch	_	O	O	
+4-4	keine	PIAT	keine	_	O	O	
+4-5	Zeile	NN	Zeile	_	O	O	
+4-6	;	$.	;	_	O	O	
+4-7	einen	ART	eine	_	O	O	
+4-8	Brief	NN	Brief	_	O	O	
+4-9	an	APPR	an	_	O	O	
+4-10	Dei	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-11	hat	VAFIN	haben	_	O	O	
+4-12	er	PPER	er	_	O	O	
+4-13	hoffentlich	ADV	hoffentlich	_	O	O	
+4-14	nach	APPR	nach	_	O	O	
+4-15	Chiusi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-16	gesandt	VVPP	senden	_	O	O	
+4-17	,	$,	,	_	O	O	
+4-18	wenn	KOUS	wenn	_	O	O	
+4-19	er	PPER	er	_	O	O	
+4-20	doch	ADV	doch	_	O	O	
+4-21	selbst	ADV	selbst	_	O	O	
+4-22	nicht	PTKNEG	nicht	_	O	O	
+4-23	dorthin	ADV	dorthin	_	O	O	
+4-24	kam	VVFIN	kommen	_	O	O	
+4-25	.	$.	.	_	O	O	
+
+#id=5
+#text=Dieser preßt seit Monaten eine neugefundne bruta donna mit Sphinxen ihm abzukaufen, ---- für die er 200 Scudi fabelt.
+5-1	Dieser	PDS	diese	_	O	O	
+5-2	preßt	VVFIN	pressen	_	O	O	
+5-3	seit	APPR	seit	_	O	O	
+5-4	Monaten	NN	Monat	_	O	O	
+5-5	eine	ART	eine	_	O	O	
+5-6	neugefundne	ADJA	<unknown>	_	O	O	
+5-7	bruta	ADJA	<unknown>	_	O	O	
+5-8	donna	NN	<unknown>	_	O	O	
+5-9	mit	APPR	mit	_	O	O	
+5-10	Sphinxen	NN	Sphinx	_	O	O	
+5-11	ihm	PPER	er	_	O	O	
+5-12	abzukaufen	VVIZU	abkaufen	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	--	$(	--	_	O	O	
+5-15	--	$(	--	_	O	O	
+5-16	für	APPR	für	_	O	O	
+5-17	die	ART	die	_	O	O	
+5-18	er	PPER	er	_	O	O	
+5-19	200	CARD	200	_	O	O	
+5-20	Scudi	NN	<unknown>	_	O	O	
+5-21	fabelt	ADJD	<unknown>	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=Rom stand a. 1846 seit 2 600 Jahren netto, was wir vergaßen.
+6-1	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-2	stand	VVFIN	stehen	_	O	O	
+6-3	a.	APPR	a.	_	O	O	
+6-4	1846	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-5	seit	APPR	seit	_	O	O	
+6-6	2	CARD	2	_	O	O	
+6-7	600	CARD	600	_	O	O	
+6-8	Jahren	NN	Jahr	_	O	O	
+6-9	netto	ADV	netto	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	was	PRELS	was	_	O	O	
+6-12	wir	PPER	wir	_	O	O	
+6-13	vergaßen	VVFIN	vergessen	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Daß es mit der Fran90is'schen Grotte ernst wird freut mich.
+7-1	Daß	KOUS	dass	_	O	O	
+7-2	es	PPER	es	_	O	O	
+7-3	mit	APPR	mit	_	O	O	
+7-4	der	ART	die	_	O	O	
+7-5	Fran90is'schen	ADJA	<unknown>	_	O	O	
+7-6	Grotte	NN	Grotte	_	O	O	
+7-7	ernst	ADJD	ernst	_	O	O	
+7-8	wird	VAFIN	werden	_	O	O	
+7-9	freut	VVFIN	freuen	_	O	O	
+7-10	mich	PRF	ich	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Gerstäcker ist Ihren Bescheides gewärtig; an Jahn hat er abgeliefert.
+8-1	Gerstäcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	ist	VAFIN	sein	_	O	O	
+8-3	Ihren	PPOSAT	ihr	_	O	O	
+8-4	Bescheides	NN	Bescheid	_	O	O	
+8-5	gewärtig	ADJD	gewärtig	_	O	O	
+8-6	;	$.	;	_	O	O	
+8-7	an	APPR	an	_	O	O	
+8-8	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-9	hat	VAFIN	haben	_	O	O	
+8-10	er	PPER	er	_	O	O	
+8-11	abgeliefert	VVPP	abliefern	_	O	O	
+8-12	.	$.	.	_	O	O	
+

@@ -1,0 +1,214 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Lepsius an Henzen Berlin, 10. Oktober 1872 unsre Anträge wegen der Gehalte so weit berücksichtigt hat, daß er für Helbig 1.000, für Sie 1.600 r auf das Budget genommen hat; die 400 r für den Gehülfen sind dabei nicht inbegriffen, sondern besonders bewilligt.
+1-1	2	CARD	2	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	unsre	PPOSAT	unsre	_	O	O	
+1-12	Anträge	NN	Antrag	_	O	O	
+1-13	wegen	APPR	wegen	_	O	O	
+1-14	der	ART	die	_	O	O	
+1-15	Gehalte	NN	Gehalt	_	O	O	
+1-16	so	ADV	so	_	O	O	
+1-17	weit	ADJD	weit	_	O	O	
+1-18	berücksichtigt	VVPP	berücksichtigen	_	O	O	
+1-19	hat	VAFIN	haben	_	O	O	
+1-20	,	$,	,	_	O	O	
+1-21	daß	KOUS	dass	_	O	O	
+1-22	er	PPER	er	_	O	O	
+1-23	für	APPR	für	_	O	O	
+1-24	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-25	1.000	CARD	@card@	_	O	O	
+1-26	,	$,	,	_	O	O	
+1-27	für	APPR	für	_	O	O	
+1-28	Sie	PPER	Sie	_	O	O	
+1-29	1.600	CARD	@card@	_	O	O	
+1-30	r	NE	r	_	O	O	
+1-31	auf	APPR	auf	_	O	O	
+1-32	das	ART	die	_	O	O	
+1-33	Budget	NN	Budget	_	O	O	
+1-34	genommen	VVPP	nehmen	_	O	O	
+1-35	hat	VAFIN	haben	_	O	O	
+1-36	;	$.	;	_	O	O	
+1-37	die	ART	die	_	O	O	
+1-38	400	CARD	400	_	O	O	
+1-39	r	NE	r	_	O	O	
+1-40	für	APPR	für	_	O	O	
+1-41	den	ART	die	_	O	O	
+1-42	Gehülfen	NN	<unknown>	_	O	O	
+1-43	sind	VAFIN	sein	_	O	O	
+1-44	dabei	PAV	dabei	_	O	O	
+1-45	nicht	PTKNEG	nicht	_	O	O	
+1-46	inbegriffen	ADV	inbegriffen	_	O	O	
+1-47	,	$,	,	_	O	O	
+1-48	sondern	KON	sondern	_	O	O	
+1-49	besonders	ADV	besonders	_	O	O	
+1-50	bewilligt	VVPP	bewilligen	_	O	O	
+1-51	.	$.	.	_	O	O	
+
+#id=2
+#text=Was etwa an fernerer Erhöhung noch wünschenswerth sei, müsse dem bald eintretenden Reichsministerium überlassen bleiben.
+2-1	Was	PWS	was	_	O	O	
+2-2	etwa	ADV	etwa	_	O	O	
+2-3	an	APPR	an	_	O	O	
+2-4	fernerer	ADJA	fern	_	O	O	
+2-5	Erhöhung	NN	Erhöhung	_	O	O	
+2-6	noch	ADV	noch	_	O	O	
+2-7	wünschenswerth	NE	<unknown>	_	O	O	
+2-8	sei	VAFIN	sein	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	müsse	VMFIN	müssen	_	O	O	
+2-11	dem	ART	die	_	O	O	
+2-12	bald	ADV	bald	_	O	O	
+2-13	eintretenden	ADJA	eintretend	_	O	O	
+2-14	Reichsministerium	NN	Reichsministerium	_	O	O	
+2-15	überlassen	VVPP	überlassen	_	O	O	
+2-16	bleiben	VVINF	bleiben	_	O	O	
+2-17	.	$.	.	_	O	O	
+
+#id=3
+#text=Wir müssen uns ja immer viel von dem Finanzminister gefallen lassen, und ich persönlich unter uns war immer der ausgesprochenen Meinung gewesen, es werde sicherer sein für Sie beide gleich noch mit einer Nachforderung im voraus einzutreten.
+3-1	Wir	PPER	wir	_	O	O	
+3-2	müssen	VMFIN	müssen	_	O	O	
+3-3	uns	PPER	wir	_	O	O	
+3-4	ja	ADV	ja	_	O	O	
+3-5	immer	ADV	immer	_	O	O	
+3-6	viel	ADV	viel	_	O	O	
+3-7	von	APPR	von	_	O	O	
+3-8	dem	ART	die	_	O	O	
+3-9	Finanzminister	NN	Finanzminister	_	O	O	
+3-10	gefallen	VVPP	fallen|gefallen	_	O	O	
+3-11	lassen	VVINF	lassen	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	und	KON	und	_	O	O	
+3-14	ich	PPER	ich	_	O	O	
+3-15	persönlich	ADJD	persönlich	_	O	O	
+3-16	unter	APPR	unter	_	O	O	
+3-17	uns	PPER	wir	_	O	O	
+3-18	war	VAFIN	sein	_	O	O	
+3-19	immer	ADV	immer	_	O	O	
+3-20	der	ART	die	_	O	O	
+3-21	ausgesprochenen	ADJA	ausgesprochen	_	O	O	
+3-22	Meinung	NN	Meinung	_	O	O	
+3-23	gewesen	VAPP	sein	_	O	O	
+3-24	,	$,	,	_	O	O	
+3-25	es	PPER	es	_	O	O	
+3-26	werde	VAFIN	werden	_	O	O	
+3-27	sicherer	ADJD	sicher	_	O	O	
+3-28	sein	VAINF	sein	_	O	O	
+3-29	für	APPR	für	_	O	O	
+3-30	Sie	PPER	Sie	_	O	O	
+3-31	beide	PIS	beide	_	O	O	
+3-32	gleich	ADJD	gleich	_	O	O	
+3-33	noch	ADV	noch	_	O	O	
+3-34	mit	APPR	mit	_	O	O	
+3-35	einer	ART	eine	_	O	O	
+3-36	Nachforderung	NN	Nachforderung	_	O	O	
+3-37	im	APPRART	in	_	O	O	
+3-38	voraus	ADV	voraus	_	O	O	
+3-39	einzutreten	VVIZU	eintreten	_	O	O	
+3-40	.	$.	.	_	O	O	
+
+#id=4
+#text=Das schien aber aus andern Erwägungen nicht zeitgemäß, und so wird nichts übrig bleiben, als uns alsbald an das Reich zu wenden, sobald dieses das Kapitol übernommen haben wird.
+4-1	Das	PDS	die	_	O	O	
+4-2	schien	VVFIN	scheinen	_	O	O	
+4-3	aber	ADV	aber	_	O	O	
+4-4	aus	APPR	aus	_	O	O	
+4-5	andern	PIAT	andere	_	O	O	
+4-6	Erwägungen	NN	Erwägung	_	O	O	
+4-7	nicht	PTKNEG	nicht	_	O	O	
+4-8	zeitgemäß	ADJD	zeitgemäß	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	und	KON	und	_	O	O	
+4-11	so	ADV	so	_	O	O	
+4-12	wird	VAFIN	werden	_	O	O	
+4-13	nichts	PIS	nichts	_	O	O	
+4-14	übrig	ADJD	übrig	_	O	O	
+4-15	bleiben	VVINF	bleiben	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	als	KOUS	als	_	O	O	
+4-18	uns	PPER	wir	_	O	O	
+4-19	alsbald	ADV	alsbald	_	O	O	
+4-20	an	APPR	an	_	O	O	
+4-21	das	ART	die	_	O	O	
+4-22	Reich	NN	Reich	_	O	O	
+4-23	zu	PTKZU	zu	_	O	O	
+4-24	wenden	VVINF	wenden	_	O	O	
+4-25	,	$,	,	_	O	O	
+4-26	sobald	KOUS	sobald	_	O	O	
+4-27	dieses	PDAT	dies	_	O	O	
+4-28	das	ART	die	_	O	O	
+4-29	Kapitol	NN	Kapitol	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-30	übernommen	VVPP	übernehmen	_	O	O	
+4-31	haben	VAINF	haben	_	O	O	
+4-32	wird	VAFIN	werden	_	O	O	
+4-33	.	$.	.	_	O	O	
+
+#id=5
+#text=Ob mehr geschehen kann, werde ich noch erfragen; bis jetzt habe ich noch mit niemand von der Direktion, auch nicht mit Mommsen sprechen können.
+5-1	Ob	KOUS	ob	_	O	O	
+5-2	mehr	PIS	mehr	_	O	O	
+5-3	geschehen	VVINF	geschehen	_	O	O	
+5-4	kann	VMFIN	können	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	werde	VAFIN	werden	_	O	O	
+5-7	ich	PPER	ich	_	O	O	
+5-8	noch	ADV	noch	_	O	O	
+5-9	erfragen	VVINF	erfragen	_	O	O	
+5-10	;	$.	;	_	O	O	
+5-11	bis	KON	bis	_	O	O	
+5-12	jetzt	ADV	jetzt	_	O	O	
+5-13	habe	VAFIN	haben	_	O	O	
+5-14	ich	PPER	ich	_	O	O	
+5-15	noch	ADV	noch	_	O	O	
+5-16	mit	APPR	mit	_	O	O	
+5-17	niemand	PIS	niemand	_	O	O	
+5-18	von	APPR	von	_	O	O	
+5-19	der	ART	die	_	O	O	
+5-20	Direktion	NN	Direktion	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-21	,	$,	,	_	O	O	
+5-22	auch	ADV	auch	_	O	O	
+5-23	nicht	PTKNEG	nicht	_	O	O	
+5-24	mit	APPR	mit	_	O	O	
+5-25	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-26	sprechen	VVINF	sprechen	_	O	O	
+5-27	können	VMFIN	können	_	O	O	
+5-28	.	$.	.	_	O	O	
+
+#id=6
+#text=Nahe liegende Expektorationen können nicht helfen.
+6-1	Nahe	APPR	nahe	_	O	O	
+6-2	liegende	ADJA	liegend	_	O	O	
+6-3	Expektorationen	NN	<unknown>	_	O	O	
+6-4	können	VMFIN	können	_	O	O	
+6-5	nicht	PTKNEG	nicht	_	O	O	
+6-6	helfen	VVINF	helfen	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=Und so einstweilen leben Sie wohl.
+7-1	Und	KON	und	_	O	O	
+7-2	so	ADV	so	_	O	O	
+7-3	einstweilen	ADV	einstweilen	_	O	O	
+7-4	leben	VVFIN	leben	_	O	O	
+7-5	Sie	PPER	Sie	_	O	O	
+7-6	wohl	ADV	wohl	_	O	O	
+7-7	.	$.	.	_	O	O	
+
+#id=8
+#text=Mit herzlichen Grüßen Ihr R Lepsius
+8-1	Mit	APPR	mit	_	O	O	
+8-2	herzlichen	ADJA	herzlich	_	O	O	
+8-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+8-4	Ihr	PPOSAT	ihr	_	O	O	
+8-5	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+8-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

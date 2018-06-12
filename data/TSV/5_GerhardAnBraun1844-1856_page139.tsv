@@ -1,0 +1,188 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=155 3 Gerhard an Braun Berlin, 30. April 1845 von dort wenig Ausbeute.
+1-1	155	CARD	@card@	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	von	APPR	von	_	O	O	
+1-13	dort	ADV	dort	_	O	O	
+1-14	wenig	PIAT	wenige	_	O	O	
+1-15	Ausbeute	NN	Ausbeute	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Im Juli denkt er wieder hier zu sein; die tromba egittologa vom nächsten August an.
+2-1	Im	APPRART	in	_	O	O	
+2-2	Juli	NN	Juli	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-3	denkt	VVFIN	denken	_	O	O	
+2-4	er	PPER	er	_	O	O	
+2-5	wieder	ADV	wieder	_	O	O	
+2-6	hier	ADV	hier	_	O	O	
+2-7	zu	PTKZU	zu	_	O	O	
+2-8	sein	VAINF	sein	_	O	O	
+2-9	;	$.	;	_	O	O	
+2-10	die	ART	die	_	O	O	
+2-11	tromba	NE	<unknown>	_	O	O	
+2-12	egittologa	NE	<unknown>	_	O	O	
+2-13	vom	APPRART	von	_	O	O	
+2-14	nächsten	ADJA	nah	_	O	O	
+2-15	August	NN	August	_	O	O	
+2-16	an	PTKVZ	an	_	O	O	
+2-17	.	$.	.	_	O	O	
+
+#id=3
+#text=Ein Bibliothekar-Beischluß für Dr. Brunn ist mir von Horkel empfohlen; ich habe ihn soeben unter Ihrer Adresse dem Ministerium empfohlen.
+3-1	Ein	ART	eine	_	O	O	
+3-2	Bibliothekar-Beischluß	NN	<unknown>	_	O	O	
+3-3	für	APPR	für	_	O	O	
+3-4	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-6	ist	VAFIN	sein	_	O	O	
+3-7	mir	PPER	ich	_	O	O	
+3-8	von	APPR	von	_	O	O	
+3-9	Horkel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-10	empfohlen	VVPP	empfehlen	_	O	O	
+3-11	;	$.	;	_	O	O	
+3-12	ich	PPER	ich	_	O	O	
+3-13	habe	VAFIN	haben	_	O	O	
+3-14	ihn	PPER	er	_	O	O	
+3-15	soeben	ADV	soeben	_	O	O	
+3-16	unter	APPR	unter	_	O	O	
+3-17	Ihrer	PPOSAT	ihr	_	O	O	
+3-18	Adresse	NN	Adresse	_	O	O	
+3-19	dem	ART	die	_	O	O	
+3-20	Ministerium	NN	Ministerium	_	O	O	
+3-21	empfohlen	VVPP	empfehlen	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=Für Einsicht der Midaszeichnung dankt Pa~ofka; hat er Ihren Brief nicht direkt beantwortet, so ergänze ich seinen Dank.
+4-1	Für	APPR	für	_	O	O	
+4-2	Einsicht	NN	Einsicht	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	Midaszeichnung	NN	<unknown>	_	O	O	
+4-5	dankt	VVFIN	danken	_	O	O	
+4-6	Pa~ofka	NE	<unknown>	_	O	O	
+4-7	;	$.	;	_	O	O	
+4-8	hat	VAFIN	haben	_	O	O	
+4-9	er	PPER	er	_	O	O	
+4-10	Ihren	PPOSAT	ihr	_	O	O	
+4-11	Brief	NN	Brief	_	O	O	
+4-12	nicht	PTKNEG	nicht	_	O	O	
+4-13	direkt	ADJD	direkt	_	O	O	
+4-14	beantwortet	VVPP	beantworten	_	O	O	
+4-15	,	$,	,	_	O	O	
+4-16	so	ADV	so	_	O	O	
+4-17	ergänze	VVFIN	ergänzen	_	O	O	
+4-18	ich	PPER	ich	_	O	O	
+4-19	seinen	PPOSAT	sein	_	O	O	
+4-20	Dank	NN	Dank	_	O	O	
+4-21	.	$.	.	_	O	O	
+
+#id=5
+#text=Zu einer Erklärung für die Annali ist er weniger geneigt; da er bereits über den Gegenstand schrieb, so gibt es wol nur einen Nachtrag für die Archäologische Zeitung.
+5-1	Zu	APPR	zu	_	O	O	
+5-2	einer	ART	eine	_	O	O	
+5-3	Erklärung	NN	Erklärung	_	O	O	
+5-4	für	APPR	für	_	O	O	
+5-5	die	ART	die	_	O	O	
+5-6	Annali	NE	<unknown>	_	O	O	
+5-7	ist	VAFIN	sein	_	O	O	
+5-8	er	PPER	er	_	O	O	
+5-9	weniger	ADV	weniger	_	O	O	
+5-10	geneigt	VVPP	neigen	_	O	O	
+5-11	;	$.	;	_	O	O	
+5-12	da	KOUS	da	_	O	O	
+5-13	er	PPER	er	_	O	O	
+5-14	bereits	ADV	bereits	_	O	O	
+5-15	über	APPR	über	_	O	O	
+5-16	den	ART	die	_	O	O	
+5-17	Gegenstand	NN	Gegenstand	_	O	O	
+5-18	schrieb	VVFIN	schreiben	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	so	ADV	so	_	O	O	
+5-21	gibt	VVFIN	geben	_	O	O	
+5-22	es	PPER	es	_	O	O	
+5-23	wol	ADJD	<unknown>	_	O	O	
+5-24	nur	ADV	nur	_	O	O	
+5-25	einen	ART	eine	_	O	O	
+5-26	Nachtrag	NN	Nachtrag	_	O	O	
+5-27	für	APPR	für	_	O	O	
+5-28	die	ART	die	_	O	O	
+5-29	Archäologische	ADJA	archäologisch	_	O	O	
+5-30	Zeitung	NN	Zeitung	_	O	O	
+5-31	.	$.	.	_	O	O	
+
+#id=6
+#text=Welcker läßt seit vorigem Winter fast gar nichts von sich hören.
+6-1	Welcker	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	läßt	VVFIN	lassen	_	O	O	
+6-3	seit	APPR	seit	_	O	O	
+6-4	vorigem	ADJA	vorig	_	O	O	
+6-5	Winter	NN	Winter	_	O	O	
+6-6	fast	ADV	fast	_	O	O	
+6-7	gar	ADV	gar	_	O	O	
+6-8	nichts	PIS	nichts	_	O	O	
+6-9	von	APPR	von	_	O	O	
+6-10	sich	PRF	sich	_	O	O	
+6-11	hören	VVINF	hören	_	O	O	
+6-12	.	$.	.	_	O	O	
+
+#id=7
+#text=Wie geht es mit dem Spital?
+7-1	Wie	KOUS	wie	_	O	O	
+7-2	geht	VVFIN	gehen	_	O	O	
+7-3	es	PPER	es	_	O	O	
+7-4	mit	APPR	mit	_	O	O	
+7-5	dem	ART	die	_	O	O	
+7-6	Spital	NN	Spital	_	O	O	
+7-7	?	$.	?	_	O	O	
+
+#id=8
+#text=Schreiben Sie doch einmal Etwas darüber.
+8-1	Schreiben	VVFIN	schreiben	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	doch	ADV	doch	_	O	O	
+8-4	einmal	ADV	einmal	_	O	O	
+8-5	Etwas	NN	Etwas	_	O	O	
+8-6	darüber	PAV	darüber	_	O	O	
+8-7	.	$.	.	_	O	O	
+
+#id=9
+#text=Das Gerücht läßt Henzen, den Sie bestens grüßen mögen katholisch geworden sein.
+9-1	Das	ART	die	_	O	O	
+9-2	Gerücht	NN	Gerücht	_	O	O	
+9-3	läßt	VVFIN	lassen	_	O	O	
+9-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	,	$,	,	_	O	O	
+9-6	den	PRELS	die	_	O	O	
+9-7	Sie	PPER	Sie	_	O	O	
+9-8	bestens	ADV	bestens	_	O	O	
+9-9	grüßen	VVINF	grüßen	_	O	O	
+9-10	mögen	VMFIN	mögen	_	O	O	
+9-11	katholisch	ADJD	katholisch	_	O	O	
+9-12	geworden	VAPP	werden	_	O	O	
+9-13	sein	VAINF	sein	_	O	O	
+9-14	.	$.	.	_	O	O	
+
+#id=10
+#text=Ist das wahr ?
+10-1	Ist	VAFIN	sein	_	O	O	
+10-2	das	PDS	die	_	O	O	
+10-3	wahr	ADJD	wahr	_	O	O	
+10-4	?	$.	?	_	O	O	
+
+#id=11
+#text=Herzlich Ihr Gerhard
+11-1	Herzlich	ADJD	herzlich	_	O	O	
+11-2	Ihr	PPOSAT	ihr	_	O	O	
+11-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

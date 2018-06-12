@@ -1,0 +1,101 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=( Helbig an Henzen Neapel - Ohne Datum 252 H g. 20/6 r.
+1-1	(	$(	(	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	-	$(	-	_	O	O	
+1-7	Ohne	APPR	ohne	_	O	O	
+1-8	Datum	NN	Datum	_	O	O	
+1-9	252	CARD	@card@	_	O	O	
+1-10	H	NN	H	_	O	O	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	20/6	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=64 Ich bitte dringend um einige Separatabdrücke meines Aufsatzes, sollte auch die betreffende Tafel noch nicht corrigirt sein, um mit dem Marchese Gibot, welcher sehr interessante Sachen aus Gnatia besitzen soll, und mit dem französischen Consul in Verbindung treten zu können.
+2-1	64	CARD	64	_	O	O	
+2-2	Ich	PPER	ich	_	O	O	
+2-3	bitte	VVFIN	bitten	_	O	O	
+2-4	dringend	ADJD	dringend	_	O	O	
+2-5	um	APPR	um	_	O	O	
+2-6	einige	PIAT	einige	_	O	O	
+2-7	Separatabdrücke	NN	<unknown>	_	O	O	
+2-8	meines	PPOSAT	mein	_	O	O	
+2-9	Aufsatzes	NN	Aufsatz	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	sollte	VMFIN	sollen	_	O	O	
+2-12	auch	ADV	auch	_	O	O	
+2-13	die	ART	die	_	O	O	
+2-14	betreffende	ADJA	betreffend	_	O	O	
+2-15	Tafel	NN	Tafel	_	O	O	
+2-16	noch	ADV	noch	_	O	O	
+2-17	nicht	PTKNEG	nicht	_	O	O	
+2-18	corrigirt	NN	<unknown>	_	O	O	
+2-19	sein	VAINF	sein	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	um	KOUI	um	_	O	O	
+2-22	mit	APPR	mit	_	O	O	
+2-23	dem	ART	die	_	O	O	
+2-24	Marchese	NN	<unknown>	_	O	O	
+2-25	Gibot	VVFIN	<unknown>	_	O	O	
+2-26	,	$,	,	_	O	O	
+2-27	welcher	PWS	welche	_	O	O	
+2-28	sehr	ADV	sehr	_	O	O	
+2-29	interessante	ADJA	interessant	_	O	O	
+2-30	Sachen	NN	Sache	_	O	O	
+2-31	aus	APPR	aus	_	O	O	
+2-32	Gnatia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-33	besitzen	VVINF	besitzen	_	O	O	
+2-34	soll	VMFIN	sollen	_	O	O	
+2-35	,	$,	,	_	O	O	
+2-36	und	KON	und	_	O	O	
+2-37	mit	APPR	mit	_	O	O	
+2-38	dem	ART	die	_	O	O	
+2-39	französischen	ADJA	französisch	_	O	O	
+2-40	Consul	NN	<unknown>	_	O	O	
+2-41	in	APPR	in	_	O	O	
+2-42	Verbindung	NN	Verbindung	_	O	O	
+2-43	treten	VVINF	treten	_	O	O	
+2-44	zu	PTKZU	zu	_	O	O	
+2-45	können	VMINF	können	_	O	O	
+2-46	.	$.	.	_	O	O	
+
+#id=3
+#text=Letzterer besitzt eine groBe Vasensammlung, welche bis jetzt noch Niemand gesehen hat.
+3-1	Letzterer	NN	Letztere	_	O	O	
+3-2	besitzt	VVFIN	besitzen	_	O	O	
+3-3	eine	ART	eine	_	O	O	
+3-4	groBe	ADJA	grob	_	O	O	
+3-5	Vasensammlung	NN	<unknown>	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	welche	PRELS	welche	_	O	O	
+3-8	bis	APPR	bis	_	O	O	
+3-9	jetzt	ADV	jetzt	_	O	O	
+3-10	noch	ADV	noch	_	O	O	
+3-11	Niemand	PIS	niemand	_	O	O	
+3-12	gesehen	VVPP	sehen	_	O	O	
+3-13	hat	VAFIN	haben	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Mit herzlichen Grüßen Wolfgang Helbig Ihren Brief vom 13. habe ich soeben erhalten.
+4-1	Mit	APPR	mit	_	O	O	
+4-2	herzlichen	ADJA	herzlich	_	O	O	
+4-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+4-4	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-6	Ihren	PPOSAT	ihr	_	O	O	
+4-7	Brief	NN	Brief	_	O	O	
+4-8	vom	APPRART	von	_	O	O	
+4-9	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-11	habe	VAFIN	haben	_	O	O	
+4-12	ich	PPER	ich	_	O	O	
+4-13	soeben	ADV	soeben	_	O	O	
+4-14	erhalten	VVINF	erhalten	_	O	O	
+4-15	.	$.	.	_	O	O	
+

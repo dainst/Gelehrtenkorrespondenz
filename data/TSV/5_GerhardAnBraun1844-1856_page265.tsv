@@ -1,0 +1,199 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=13 Dr. Braun Mein theurer Freund.
+1-1	13	CARD	13	_	O	O	
+1-2	Dr.	NN	Dr.	_	O	O	
+1-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Mein	PPOSAT	mein	_	O	O	
+1-5	theurer	ADJA	<unknown>	_	O	O	
+1-6	Freund	NN	Freund	_	O	O	
+1-7	.	$.	.	_	O	O	
+
+#id=2
+#text=Gerhard an Braun Berlin, 2. Januar 1849 g. 13/1 49 r. 13/1 49 Berlin 2/1849 Zum neuen Jahr allen Gottessegen dessen wir tausendfältig bedürfen Die Eingabe an den König ging zum Jahresschluß ab, ohne das Register das ich nothdürftig wie es eben ging in Aussicht stellte.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1849	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	g.	VVFIN	<unknown>	_	O	O	
+2-11	13/1	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-12	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-13	r.	ADJA	<unknown>	_	O	O	
+2-14	13/1	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-15	49	CARD	@card@	_	O	O	
+2-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-17	2/1849	CARD	@card@	_	O	O	
+2-18	Zum	APPRART	zu	_	O	O	
+2-19	neuen	ADJA	neu	_	O	O	
+2-20	Jahr	NN	Jahr	_	O	O	
+2-21	allen	PIAT	alle	_	O	O	
+2-22	Gottessegen	NN	<unknown>	_	O	O	
+2-23	dessen	PDAT	die	_	O	O	
+2-24	wir	PPER	wir	_	O	O	
+2-25	tausendfältig	ADJD	<unknown>	_	O	O	
+2-26	bedürfen	VVFIN	bedürfen	_	O	O	
+2-27	Die	ART	die	_	O	O	
+2-28	Eingabe	NN	Eingabe	_	O	O	
+2-29	an	APPR	an	_	O	O	
+2-30	den	ART	die	_	O	O	
+2-31	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-32	ging	VVFIN	gehen	_	O	O	
+2-33	zum	APPRART	zu	_	O	O	
+2-34	Jahresschluß	NN	Jahresschluss	_	O	O	
+2-35	ab	PTKVZ	ab	_	O	O	
+2-36	,	$,	,	_	O	O	
+2-37	ohne	KOUI	ohne	_	O	O	
+2-38	das	ART	die	_	O	O	
+2-39	Register	NN	Register	_	O	O	
+2-40	das	PDS	die	_	O	O	
+2-41	ich	PPER	ich	_	O	O	
+2-42	nothdürftig	ADJD	<unknown>	_	O	O	
+2-43	wie	KOKOM	wie	_	O	O	
+2-44	es	PPER	es	_	O	O	
+2-45	eben	ADV	eben	_	O	O	
+2-46	ging	VVFIN	gehen	_	O	O	
+2-47	in	APPR	in	_	O	O	
+2-48	Aussicht	NN	Aussicht	_	O	O	
+2-49	stellte	VVFIN	stellen	_	O	O	
+2-50	.	$.	.	_	O	O	
+
+#id=4
+#text=Zu warten aber bis Wahlen und Kammern alle jetzige gute Stimmung neu verbittern schien mir allzu gewagt.
+4-1	Zu	PTKZU	zu	_	O	O	
+4-2	warten	VVINF	warten	_	O	O	
+4-3	aber	KON	aber	_	O	O	
+4-4	bis	APPR	bis	_	O	O	
+4-5	Wahlen	NN	Wahl	_	O	O	
+4-6	und	KON	und	_	O	O	
+4-7	Kammern	NN	Kammer	_	O	O	
+4-8	alle	PIAT	alle	_	O	O	
+4-9	jetzige	ADJA	jetzig	_	O	O	
+4-10	gute	ADJA	gut	_	O	O	
+4-11	Stimmung	NN	Stimmung	_	O	O	
+4-12	neu	ADJD	neu	_	O	O	
+4-13	verbittern	VVINF	verbittern	_	O	O	
+4-14	schien	VVFIN	scheinen	_	O	O	
+4-15	mir	PPER	ich	_	O	O	
+4-16	allzu	PTKA	allzu	_	O	O	
+4-17	gewagt	ADJD	gewagt	_	O	O	
+4-18	.	$.	.	_	O	O	
+
+#id=5
+#text=Dagegen habe ich 1 Galvanoplasticum Apotheose Homeri geschickt eingebunden und betitelt der Königlichen Beachtung unterlegt.
+5-1	Dagegen	PAV	dagegen	_	O	O	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	ich	PPER	ich	_	O	O	
+5-4	1	CARD	1	_	O	O	
+5-5	Galvanoplasticum	NN	<unknown>	_	O	O	
+5-6	Apotheose	NN	Apotheose	_	O	O	
+5-7	Homeri	NE	<unknown>	_	O	O	
+5-8	geschickt	ADJD	geschickt	_	O	O	
+5-9	eingebunden	VVPP	einbinden	_	O	O	
+5-10	und	KON	und	_	O	O	
+5-11	betitelt	VVFIN	betiteln	_	O	O	
+5-12	der	ART	die	_	O	O	
+5-13	Königlichen	ADJA	königlich	_	O	O	
+5-14	Beachtung	NN	Beachtung	_	O	O	
+5-15	unterlegt	VVPP	unterlegen	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Gelder von Leemans und von W. G. Korn werden Sie nun durch Usedom erhalten haben; letzterer hat Wahlaussicht in Rügen und käme dann vielleicht bald zurück.
+6-1	Die	ART	die	_	O	O	
+6-2	Gelder	NN	Geld	_	O	O	
+6-3	von	APPR	von	_	O	O	
+6-4	Leemans	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	und	KON	und	_	O	O	
+6-6	von	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-7	W.	NE	W.	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+6-8	G.	NE	G.	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+6-9	Korn	NN	Korn	_	O	O	
+6-10	werden	VAFIN	werden	_	O	O	
+6-11	Sie	PPER	Sie	_	O	O	
+6-12	nun	ADV	nun	_	O	O	
+6-13	durch	APPR	durch	_	O	O	
+6-14	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-15	erhalten	VVPP	erhalten	_	O	O	
+6-16	haben	VAINF	haben	_	O	O	
+6-17	;	$.	;	_	O	O	
+6-18	letzterer	ADJA	letzt	_	O	O	
+6-19	hat	VAFIN	haben	_	O	O	
+6-20	Wahlaussicht	NN	<unknown>	_	O	O	
+6-21	in	APPR	in	_	O	O	
+6-22	Rügen	NN	Rüge|Rügen	_	O	O	
+6-23	und	KON	und	_	O	O	
+6-24	käme	VVFIN	kommen	_	O	O	
+6-25	dann	ADV	dann	_	O	O	
+6-26	vielleicht	ADV	vielleicht	_	O	O	
+6-27	bald	ADV	bald	_	O	O	
+6-28	zurück	PTKVZ	zurück	_	O	O	
+6-29	.	$.	.	_	O	O	
+
+#id=7
+#text=Für die Notiz des Steinmetzmonuments den besten Dank: was mich darauf führte, die Verschiedenheit der Flügel beider Eroten, ließen Sie unberührt.
+7-1	Für	APPR	für	_	O	O	
+7-2	die	ART	die	_	O	O	
+7-3	Notiz	NN	Notiz	_	O	O	
+7-4	des	ART	die	_	O	O	
+7-5	Steinmetzmonuments	NN	<unknown>	_	O	O	
+7-6	den	ART	die	_	O	O	
+7-7	besten	ADJA	gut	_	O	O	
+7-8	Dank	NN	Dank	_	O	O	
+7-9	:	$.	:	_	O	O	
+7-10	was	PWS	was	_	O	O	
+7-11	mich	PRF	ich	_	O	O	
+7-12	darauf	PAV	darauf	_	O	O	
+7-13	führte	VVFIN	führen	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	die	ART	die	_	O	O	
+7-16	Verschiedenheit	NN	Verschiedenheit	_	O	O	
+7-17	der	ART	die	_	O	O	
+7-18	Flügel	NN	Flügel	_	O	O	
+7-19	beider	PIAT	beide	_	O	O	
+7-20	Eroten	NN	<unknown>	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	ließen	VVFIN	lassen	_	O	O	
+7-23	Sie	PPER	Sie	_	O	O	
+7-24	unberührt	ADJD	unberührt	_	O	O	
+7-25	.	$.	.	_	O	O	
+
+#id=8
+#text=Über Ihre Adunanzen erhalte ich also wol noch etwas für den Abschluß der Archäologischen Zeitung 1848.
+8-1	Über	APPR	über	_	O	O	
+8-2	Ihre	PPOSAT	ihr	_	O	O	
+8-3	Adunanzen	NN	<unknown>	_	O	O	
+8-4	erhalte	VVFIN	erhalten	_	O	O	
+8-5	ich	PPER	ich	_	O	O	
+8-6	also	ADV	also	_	O	O	
+8-7	wol	ADJD	<unknown>	_	O	O	
+8-8	noch	ADV	noch	_	O	O	
+8-9	etwas	ADV	etwas	_	O	O	
+8-10	für	APPR	für	_	O	O	
+8-11	den	ART	die	_	O	O	
+8-12	Abschluß	NN	Abschluss	_	O	O	
+8-13	der	ART	die	_	O	O	
+8-14	Archäologischen	ADJA	archäologisch	_	O	O	
+8-15	Zeitung	NN	Zeitung	_	O	O	
+8-16	1848	CARD	@card@	_	O	O	
+8-17	.	$.	.	_	O	O	
+
+#id=9
+#text=Hätte ich es jetzt gehabt, so wäre es mir lieb gewesen
+9-1	Hätte	VAFIN	haben	_	O	O	
+9-2	ich	PPER	ich	_	O	O	
+9-3	es	PPER	es	_	O	O	
+9-4	jetzt	ADV	jetzt	_	O	O	
+9-5	gehabt	VAPP	haben	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	so	ADV	so	_	O	O	
+9-8	wäre	VAFIN	sein	_	O	O	
+9-9	es	PPER	es	_	O	O	
+9-10	mir	PRF	ich	_	O	O	
+9-11	lieb	ADJD	lieb	_	O	O	
+9-12	gewesen	VAPP	sein	_	O	O	
+

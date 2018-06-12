@@ -1,0 +1,320 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=299 16/IX/52 Verehrter Herr Professor Renzen an Gerhard Seit 14 Tagen sind wir hieher zurückgekehrt, u. Gottlob !
+1-1	299	CARD	@card@	_	O	O	
+1-2	16/IX/52	CARD	<unknown>	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Renzen	NN	<unknown>	_	O	O	
+1-7	an	APPR	an	_	O	O	
+1-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Seit	APPR	seit	_	O	O	
+1-10	14	CARD	14	_	O	O	
+1-11	Tagen	NN	Tag	_	O	O	
+1-12	sind	VAFIN	sein	_	O	O	
+1-13	wir	PPER	wir	_	O	O	
+1-14	hieher	NN	<unknown>	_	O	O	
+1-15	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	u.	APPR	um	_	O	O	
+1-18	Gottlob	NN	Gottlob	_	O	O	
+1-19	!	$.	!	_	O	O	
+
+#id=2
+#text=hat diese I,uftverschllchterung meiner Frau nicht geschadet, die hoffentlich demnach Alles überwunden hat.
+2-1	hat	VAFIN	haben	_	O	O	
+2-2	diese	PDS	diese	_	O	O	
+2-3	I,uftverschllchterung	NN	<unknown>	_	O	O	
+2-4	meiner	PPOSAT	mein	_	O	O	
+2-5	Frau	NN	Frau	_	O	O	
+2-6	nicht	PTKNEG	nicht	_	O	O	
+2-7	geschadet	VVPP	schaden	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	die	PRELS	die	_	O	O	
+2-10	hoffentlich	ADV	hoffentlich	_	O	O	
+2-11	demnach	ADV	demnach	_	O	O	
+2-12	Alles	PIS	alle	_	O	O	
+2-13	überwunden	VVPP	überwinden	_	O	O	
+2-14	hat	VAFIN	haben	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Freilich ist sie noch nicht ganz wieder bei Kräften, u. bei fortdauernder schwüler Luft muß sie sich recht in Acht nehmen.
+3-1	Freilich	ADV	freilich	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	sie	PPER	sie	_	O	O	
+3-4	noch	ADV	noch	_	O	O	
+3-5	nicht	PTKNEG	nicht	_	O	O	
+3-6	ganz	ADV	ganz	_	O	O	
+3-7	wieder	ADV	wieder	_	O	O	
+3-8	bei	APPR	bei	_	O	O	
+3-9	Kräften	NN	Kraft	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	u.	KON	und	_	O	O	
+3-12	bei	APPR	bei	_	O	O	
+3-13	fortdauernder	ADJA	fortdauernd	_	O	O	
+3-14	schwüler	ADJA	schwül	_	O	O	
+3-15	Luft	NN	Luft	_	O	O	
+3-16	muß	VMFIN	müssen	_	O	O	
+3-17	sie	PPER	sie	_	O	O	
+3-18	sich	PRF	sich	_	O	O	
+3-19	recht	ADJD	recht	_	O	O	
+3-20	in	APPR	in	_	O	O	
+3-21	Acht	NN	Acht	_	O	O	
+3-22	nehmen	VVINF	nehmen	_	O	O	
+3-23	.	$.	.	_	O	O	
+
+#id=4
+#text=Daß Zumptino in Rom gewesen, muß doch wohl ein Irrthum sein.
+4-1	Daß	KOUS	dass	_	O	O	
+4-2	Zumptino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	in	APPR	in	_	O	O	
+4-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-5	gewesen	VAPP	sein	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	muß	VMFIN	müssen	_	O	O	
+4-8	doch	ADV	doch	_	O	O	
+4-9	wohl	ADV	wohl	_	O	O	
+4-10	ein	ART	eine	_	O	O	
+4-11	Irrthum	NN	<unknown>	_	O	O	
+4-12	sein	VAINF	sein	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Da er hier Niemanden vorgekommen, haben wir auf der Gesandtschaft uns erkundigt, u. auch dort weiß man von seinem Passe Nichts.
+5-1	Da	KOUS	da	_	O	O	
+5-2	er	PPER	er	_	O	O	
+5-3	hier	ADV	hier	_	O	O	
+5-4	Niemanden	NN	<unknown>	_	O	O	
+5-5	vorgekommen	VVPP	vorkommen	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	haben	VAFIN	haben	_	O	O	
+5-8	wir	PPER	wir	_	O	O	
+5-9	auf	APPR	auf	_	O	O	
+5-10	der	ART	die	_	O	O	
+5-11	Gesandtschaft	NN	Gesandtschaft	_	O	O	
+5-12	uns	PPER	wir	_	O	O	
+5-13	erkundigt	VVPP	erkundigen	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	u.	KON	und	_	O	O	
+5-16	auch	ADV	auch	_	O	O	
+5-17	dort	ADV	dort	_	O	O	
+5-18	weiß	VVFIN	wissen	_	O	O	
+5-19	man	PIS	man	_	O	O	
+5-20	von	APPR	von	_	O	O	
+5-21	seinem	PPOSAT	sein	_	O	O	
+5-22	Passe	NN	Pass	_	O	O	
+5-23	Nichts	PIS	nichts	_	O	O	
+5-24	.	$.	.	_	O	O	
+
+#id=6
+#text=Es thut mir leid drum; denn ich hätte gern seine Entdeckungen erlebt !
+6-1	Es	PPER	es	_	O	O	
+6-2	thut	VVFIN	<unknown>	_	O	O	
+6-3	mir	PPER	ich	_	O	O	
+6-4	leid	ADJD	leid	_	O	O	
+6-5	drum	PAV	drum	_	O	O	
+6-6	;	$.	;	_	O	O	
+6-7	denn	KON	denn	_	O	O	
+6-8	ich	PPER	ich	_	O	O	
+6-9	hätte	VAFIN	haben	_	O	O	
+6-10	gern	ADV	gern	_	O	O	
+6-11	seine	PPOSAT	sein	_	O	O	
+6-12	Entdeckungen	NN	Entdeckung	_	O	O	
+6-13	erlebt	VVFIN	erleben	_	O	O	
+6-14	!	$.	!	_	O	O	
+
+#id=7
+#text=f'· Heute schreibt endlich Minervini, daß Ritschl's Angelegenheit in Ordnung, u. werde ich jenem noch heute die \ nöthige Summe überweisen.
+7-1	f'·	NN	<unknown>	_	O	O	
+7-2	Heute	ADV	heute	_	O	O	
+7-3	schreibt	VVFIN	schreiben	_	O	O	
+7-4	endlich	ADV	endlich	_	O	O	
+7-5	Minervini	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-6	,	$,	,	_	O	O	
+7-7	daß	KOUS	dass	_	O	O	
+7-8	Ritschl's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-9	Angelegenheit	NN	Angelegenheit	_	O	O	
+7-10	in	APPR	in	_	O	O	
+7-11	Ordnung	NN	Ordnung	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	u.	KON	und	_	O	O	
+7-14	werde	VAFIN	werden	_	O	O	
+7-15	ich	PPER	ich	_	O	O	
+7-16	jenem	PDAT	jen	_	O	O	
+7-17	noch	ADV	noch	_	O	O	
+7-18	heute	ADV	heute	_	O	O	
+7-19	die	ART	die	_	O	O	
+7-20	\	XY	\	_	O	O	
+7-21	nöthige	ADJA	<unknown>	_	O	O	
+7-22	Summe	NN	Summe	_	O	O	
+7-23	überweisen	VVINF	überweisen	_	O	O	
+7-24	.	$.	.	_	O	O	
+
+#id=8
+#text=- Bullettino Napoletano, nuova ~ .... -~""'~ serie ist heraus u. enthält vortreffliches Material, leider in gewöhnlicher Verarbeitung.
+8-1	-	$(	-	_	O	O	
+8-2	Bullettino	NE	<unknown>	_	O	O	
+8-3	Napoletano	NE	<unknown>	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	nuova	NN	<unknown>	_	O	O	
+8-6	~	XY	~	_	O	O	
+8-7	...	$.	...	_	O	O	
+8-8	.	$.	.	_	O	O	
+8-9	-~""'~	ADJA	<unknown>	_	O	O	
+8-10	serie	NN	Serie	_	O	O	
+8-11	ist	VAFIN	sein	_	O	O	
+8-12	heraus	ADV	heraus	_	O	O	
+8-13	u.	KON	und	_	O	O	
+8-14	enthält	VVFIN	enthalten	_	O	O	
+8-15	vortreffliches	ADJA	vortrefflich	_	O	O	
+8-16	Material	NN	Material	_	O	O	
+8-17	,	$,	,	_	O	O	
+8-18	leider	ADV	leider	_	O	O	
+8-19	in	APPR	in	_	O	O	
+8-20	gewöhnlicher	ADJA	gewöhnlich	_	O	O	
+8-21	Verarbeitung	NN	Verarbeitung	_	O	O	
+8-22	.	$.	.	_	O	O	
+
+#id=9
+#text=Ein Meisterstück hat aber mein jetziger amico Garrucci an dem decreto acquario von Venafro gemacht, das er fast ganz entziffert hat.
+9-1	Ein	ART	eine	_	O	O	
+9-2	Meisterstück	NN	Meisterstück	_	O	O	
+9-3	hat	VAFIN	haben	_	O	O	
+9-4	aber	ADV	aber	_	O	O	
+9-5	mein	PPOSAT	mein	_	O	O	
+9-6	jetziger	ADJA	jetzig	_	O	O	
+9-7	amico	NE	<unknown>	_	O	O	
+9-8	Garrucci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-9	an	APPR	an	_	O	O	
+9-10	dem	ART	die	_	O	O	
+9-11	decreto	NE	<unknown>	_	O	O	
+9-12	acquario	NE	<unknown>	_	O	O	
+9-13	von	APPR	von	_	O	O	
+9-14	Venafro	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-15	gemacht	VVPP	machen	_	O	O	
+9-16	,	$,	,	_	O	O	
+9-17	das	PRELS	die	_	O	O	
+9-18	er	PPER	er	_	O	O	
+9-19	fast	ADV	fast	_	O	O	
+9-20	ganz	ADV	ganz	_	O	O	
+9-21	entziffert	VVPP	entziffern	_	O	O	
+9-22	hat	VAFIN	haben	_	O	O	
+9-23	.	$.	.	_	O	O	
+
+#id=10
+#text=Freilich hat er es vielleicht mehr Jahre auf seinem Zimme·r, gehabt, als Mommsen in einer Grube Stunden, u. suche ich ihm das in einer .tl..nzeige des Bull.
+10-1	Freilich	ADV	freilich	_	O	O	
+10-2	hat	VAFIN	haben	_	O	O	
+10-3	er	PPER	er	_	O	O	
+10-4	es	PPER	es	_	O	O	
+10-5	vielleicht	ADV	vielleicht	_	O	O	
+10-6	mehr	PIAT	mehr	_	O	O	
+10-7	Jahre	NN	Jahr	_	O	O	
+10-8	auf	APPR	auf	_	O	O	
+10-9	seinem	PPOSAT	sein	_	O	O	
+10-10	Zimme·r	NN	<unknown>	_	O	O	
+10-11	,	$,	,	_	O	O	
+10-12	gehabt	VVFIN	gehaben	_	O	O	
+10-13	,	$,	,	_	O	O	
+10-14	als	KOKOM	als	_	O	O	
+10-15	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-16	in	APPR	in	_	O	O	
+10-17	einer	ART	eine	_	O	O	
+10-18	Grube	NN	Grube	_	O	O	
+10-19	Stunden	NN	Stunde|Stunden	_	O	O	
+10-20	,	$,	,	_	O	O	
+10-21	u.	KON	und	_	O	O	
+10-22	suche	VVFIN	suchen	_	O	O	
+10-23	ich	PPER	ich	_	O	O	
+10-24	ihm	PPER	er	_	O	O	
+10-25	das	PDS	die	_	O	O	
+10-26	in	APPR	in	_	O	O	
+10-27	einer	ART	eine	_	O	O	
+10-28	.tl..nzeige	NN	<unknown>	_	O	O	
+10-29	des	ART	die	_	O	O	
+10-30	Bull	NE	Bull	_	O	O	
+10-31	.	$.	.	_	O	O	
+
+#id=11
+#text=klar zu machen; aber fatal bleibt es, daß er es so gut gelesen.
+11-1	klar	ADJD	klar	_	O	O	
+11-2	zu	PTKZU	zu	_	O	O	
+11-3	machen	VVINF	machen	_	O	O	
+11-4	;	$.	;	_	O	O	
+11-5	aber	ADV	aber	_	O	O	
+11-6	fatal	ADJD	fatal	_	O	O	
+11-7	bleibt	VVFIN	bleiben	_	O	O	
+11-8	es	PPER	es	_	O	O	
+11-9	,	$,	,	_	O	O	
+11-10	daß	KOUS	dass	_	O	O	
+11-11	er	PPER	er	_	O	O	
+11-12	es	PPER	es	_	O	O	
+11-13	so	ADV	so	_	O	O	
+11-14	gut	ADJD	gut	_	O	O	
+11-15	gelesen	VVPP	lesen	_	O	O	
+11-16	.	$.	.	_	O	O	
+
+#id=12
+#text=Zum Glück hat er die cronaca greca Se hisehen Andenkens gleichzeitig so schlecht edirt, daß ich ihm privatim auf etwa 30 Zeilen Text circa 40 grammatische u. Accentfehler nachweisen konnte, und denke ich dadurch seinen Uebermuth zu dämpfen.
+12-1	Zum	APPRART	zu	_	O	O	
+12-2	Glück	NN	Glück	_	O	O	
+12-3	hat	VAFIN	haben	_	O	O	
+12-4	er	PPER	er	_	O	O	
+12-5	die	ART	die	_	O	O	
+12-6	cronaca	NE	<unknown>	_	O	O	
+12-7	greca	NE	<unknown>	_	O	O	
+12-8	Se	NE	<UNKNOWN>	_	O	O	
+12-9	hisehen	VVFIN	<unknown>	_	O	O	
+12-10	Andenkens	NN	Andenken	_	O	O	
+12-11	gleichzeitig	ADJD	gleichzeitig	_	O	O	
+12-12	so	ADV	so	_	O	O	
+12-13	schlecht	ADJD	schlecht	_	O	O	
+12-14	edirt	NN	<unknown>	_	O	O	
+12-15	,	$,	,	_	O	O	
+12-16	daß	KOUS	dass	_	O	O	
+12-17	ich	PPER	ich	_	O	O	
+12-18	ihm	PPER	er	_	O	O	
+12-19	privatim	VVFIN	<unknown>	_	O	O	
+12-20	auf	APPR	auf	_	O	O	
+12-21	etwa	ADV	etwa	_	O	O	
+12-22	30	CARD	30	_	O	O	
+12-23	Zeilen	NN	Zeile	_	O	O	
+12-24	Text	NN	Text	_	O	O	
+12-25	circa	ADV	circa	_	O	O	
+12-26	40	CARD	40	_	O	O	
+12-27	grammatische	ADJA	grammatisch	_	O	O	
+12-28	u.	APPR	um	_	O	O	
+12-29	Accentfehler	NN	<unknown>	_	O	O	
+12-30	nachweisen	VVINF	nachweisen	_	O	O	
+12-31	konnte	VMFIN	können	_	O	O	
+12-32	,	$,	,	_	O	O	
+12-33	und	KON	und	_	O	O	
+12-34	denke	VVFIN	denken	_	O	O	
+12-35	ich	PPER	ich	_	O	O	
+12-36	dadurch	PAV	dadurch	_	O	O	
+12-37	seinen	PPOSAT	sein	_	O	O	
+12-38	Uebermuth	NN	<unknown>	_	O	O	
+12-39	zu	PTKZU	zu	_	O	O	
+12-40	dämpfen	VVINF	dämpfen	_	O	O	
+12-41	.	$.	.	_	O	O	
+
+#id=13
+#text=Es ist ein Leiden, daß man das Subject schonen muß, da er,
+13-1	Es	PPER	es	_	O	O	
+13-2	ist	VAFIN	sein	_	O	O	
+13-3	ein	ART	eine	_	O	O	
+13-4	Leiden	NN	Leiden	_	O	O	
+13-5	,	$,	,	_	O	O	
+13-6	daß	KOUS	dass	_	O	O	
+13-7	man	PIS	man	_	O	O	
+13-8	das	ART	die	_	O	O	
+13-9	Subject	NN	<unknown>	_	O	O	
+13-10	schonen	VVINF	schonen	_	O	O	
+13-11	muß	VMFIN	müssen	_	O	O	
+13-12	,	$,	,	_	O	O	
+13-13	da	KOUS	da	_	O	O	
+13-14	er	PPER	er	_	O	O	
+13-15	,	$,	,	_	O	O	
+

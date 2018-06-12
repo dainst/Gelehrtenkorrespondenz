@@ -1,0 +1,84 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=337 NB.
+1-1	337	CARD	@card@	_	O	O	
+1-2	NB	NE	NB	_	O	O	
+1-3	.	$.	.	_	O	O	
+
+#id=2
+#text=3 Helbig an Henzen Neapel, 28. Juli 1864 ~ Ich bitte beilieende Rechnung aufzuheben, da ich kein Duplum davon besitze, und den Artikel bald drucken zu lassen, damit sich der Hallunke Minervini wenigstens darüber zu ärgern hat, daß die Notiz zuerst anderswo gestanden hat.
+2-1	3	CARD	3	_	O	O	
+2-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-3	an	APPR	an	_	O	O	
+2-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-5	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-6	,	$,	,	_	O	O	
+2-7	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	~	XY	~	_	O	O	
+2-12	Ich	PPER	ich	_	O	O	
+2-13	bitte	PTKANT	bitte	_	O	O	
+2-14	beilieende	ADJA	<unknown>	_	O	O	
+2-15	Rechnung	NN	Rechnung	_	O	O	
+2-16	aufzuheben	VVIZU	aufheben	_	O	O	
+2-17	,	$,	,	_	O	O	
+2-18	da	KOUS	da	_	O	O	
+2-19	ich	PPER	ich	_	O	O	
+2-20	kein	PIAT	keine	_	O	O	
+2-21	Duplum	NN	<unknown>	_	O	O	
+2-22	davon	PAV	davon	_	O	O	
+2-23	besitze	VVFIN	besitzen	_	O	O	
+2-24	,	$,	,	_	O	O	
+2-25	und	KON	und	_	O	O	
+2-26	den	ART	die	_	O	O	
+2-27	Artikel	NN	Artikel	_	O	O	
+2-28	bald	ADV	bald	_	O	O	
+2-29	drucken	VVINF	drucken	_	O	O	
+2-30	zu	PTKZU	zu	_	O	O	
+2-31	lassen	VVINF	lassen	_	O	O	
+2-32	,	$,	,	_	O	O	
+2-33	damit	KOUS	damit	_	O	O	
+2-34	sich	PRF	sich	_	O	O	
+2-35	der	ART	die	_	O	O	
+2-36	Hallunke	NN	<unknown>	_	O	O	
+2-37	Minervini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-38	wenigstens	ADV	wenigstens	_	O	O	
+2-39	darüber	PAV	darüber	_	O	O	
+2-40	zu	PTKZU	zu	_	O	O	
+2-41	ärgern	VVINF	ärgern	_	O	O	
+2-42	hat	VAFIN	haben	_	O	O	
+2-43	,	$,	,	_	O	O	
+2-44	daß	KOUS	dass	_	O	O	
+2-45	die	ART	die	_	O	O	
+2-46	Notiz	NN	Notiz	_	O	O	
+2-47	zuerst	ADV	zuerst	_	O	O	
+2-48	anderswo	ADV	anderswo	_	O	O	
+2-49	gestanden	VVPP	gestehen|stehen	_	O	O	
+2-50	hat	VAFIN	haben	_	O	O	
+2-51	.	$.	.	_	O	O	
+
+#id=3
+#text=Nützen kann er uns gar nichts.
+3-1	Nützen	NN	Nützen	_	O	O	
+3-2	kann	VMFIN	können	_	O	O	
+3-3	er	PPER	er	_	O	O	
+3-4	uns	PRF	wir	_	O	O	
+3-5	gar	ADV	gar	_	O	O	
+3-6	nichts	PIS	nichts	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Beiliegenden Zettel bitte ich dem Cavaliere zukommen zu lassen.
+4-1	Beiliegenden	ADJA	beiliegend	_	O	O	
+4-2	Zettel	NN	Zettel	_	O	O	
+4-3	bitte	VVFIN	bitten	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	dem	ART	die	_	O	O	
+4-6	Cavaliere	NN	<unknown>	_	O	O	
+4-7	zukommen	VVINF	zukommen	_	O	O	
+4-8	zu	PTKZU	zu	_	O	O	
+4-9	lassen	VVINF	lassen	_	O	O	
+4-10	.	$.	.	_	O	O	
+

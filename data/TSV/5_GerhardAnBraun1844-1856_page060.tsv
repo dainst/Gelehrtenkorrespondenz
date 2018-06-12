@@ -1,0 +1,261 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=272 Gerhard an Braun Berlin, 8. Juni 1644 2 he Lage von Gastein zu haben; ich kann einen bequemen Versuch machen, zunächst ob es mir nicht schade, idem ich meine Frau mit meinem Schwiegervater etwa zu Anfang August dort aufsuche.
+1-1	272	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1644	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	he	ITJ	he	_	O	O	
+1-13	Lage	NN	Lage	_	O	O	
+1-14	von	APPR	von	_	O	O	
+1-15	Gastein	NN	Gastein	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-16	zu	PTKZU	zu	_	O	O	
+1-17	haben	VAINF	haben	_	O	O	
+1-18	;	$.	;	_	O	O	
+1-19	ich	PPER	ich	_	O	O	
+1-20	kann	VMFIN	können	_	O	O	
+1-21	einen	ART	eine	_	O	O	
+1-22	bequemen	ADJA	bequem	_	O	O	
+1-23	Versuch	NN	Versuch	_	O	O	
+1-24	machen	VVINF	machen	_	O	O	
+1-25	,	$,	,	_	O	O	
+1-26	zunächst	ADV	zunächst	_	O	O	
+1-27	ob	KOUS	ob	_	O	O	
+1-28	es	PPER	es	_	O	O	
+1-29	mir	PPER	ich	_	O	O	
+1-30	nicht	PTKNEG	nicht	_	O	O	
+1-31	schade	ADJD	schade	_	O	O	
+1-32	,	$,	,	_	O	O	
+1-33	idem	ADJD	idem	_	O	O	
+1-34	ich	PPER	ich	_	O	O	
+1-35	meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-36	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-37	mit	APPR	mit	_	O	O	
+1-38	meinem	PPOSAT	mein	_	O	O	
+1-39	Schwiegervater	NN	Schwiegervater	_	O	O	
+1-40	etwa	ADV	etwa	_	O	O	
+1-41	zu	APPR	zu	_	O	O	
+1-42	Anfang	NN	Anfang	_	O	O	
+1-43	August	NE	August	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-44	dort	ADV	dort	_	O	O	
+1-45	aufsuche	VVFIN	aufsuchen	_	O	O	
+1-46	.	$.	.	_	O	O	
+
+#id=2
+#text=Wo werden wir uns treffen?
+2-1	Wo	PWAV	wo	_	O	O	
+2-2	werden	VAFIN	werden	_	O	O	
+2-3	wir	PPER	wir	_	O	O	
+2-4	uns	PRF	wir	_	O	O	
+2-5	treffen	VVINF	treffen	_	O	O	
+2-6	?	$.	?	_	O	O	
+
+#id=3
+#text=Nach Ihren Andeutungen möglicherweise zu Paris oder am Rhein; ich kann nicht vor Mitte August von Wildbach aus flott sein und ginge dann am liebsten zuerst auf etliche Tage nach Bonn, weil Welcker im September vielleicht Reiselust hat.
+3-1	Nach	APPR	nach	_	O	O	
+3-2	Ihren	PPOSAT	ihr	_	O	O	
+3-3	Andeutungen	NN	Andeutung	_	O	O	
+3-4	möglicherweise	ADV	möglicherweise	_	O	O	
+3-5	zu	APPR	zu	_	O	O	
+3-6	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-7	oder	KON	oder	_	O	O	
+3-8	am	APPRART	an	_	O	O	
+3-9	Rhein	NE	Rhein	_	O	O	
+3-10	;	$.	;	_	O	O	
+3-11	ich	PPER	ich	_	O	O	
+3-12	kann	VMFIN	können	_	O	O	
+3-13	nicht	PTKNEG	nicht	_	O	O	
+3-14	vor	APPR	vor	_	O	O	
+3-15	Mitte	NN	Mitte	_	O	O	
+3-16	August	NN	August	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-17	von	APPR	von	_	O	O	
+3-18	Wildbach	NE	Wildbach	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-19	aus	APPR	aus	_	O	O	
+3-20	flott	ADJD	flott	_	O	O	
+3-21	sein	VAINF	sein	_	O	O	
+3-22	und	KON	und	_	O	O	
+3-23	ginge	VVFIN	gehen	_	O	O	
+3-24	dann	ADV	dann	_	O	O	
+3-25	am	PTKA	am	_	O	O	
+3-26	liebsten	ADJD	lieb	_	O	O	
+3-27	zuerst	ADV	zuerst	_	O	O	
+3-28	auf	APPR	auf	_	O	O	
+3-29	etliche	PIAT	etliche	_	O	O	
+3-30	Tage	NN	Tag	_	O	O	
+3-31	nach	APPR	nach	_	O	O	
+3-32	Bonn	NE	Bonn	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-33	,	$,	,	_	O	O	
+3-34	weil	KOUS	weil	_	O	O	
+3-35	Welcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-36	im	APPRART	in	_	O	O	
+3-37	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-38	vielleicht	ADV	vielleicht	_	O	O	
+3-39	Reiselust	NN	Reiselust	_	O	O	
+3-40	hat	VAFIN	haben	_	O	O	
+3-41	.	$.	.	_	O	O	
+
+#id=4
+#text=Hat es jedoch Zweck so könnte ich auch zur andern Hälfte August nach Paris kommen statt wie ich sonst dächte in der 1.sten Hälfte September.
+4-1	Hat	VAFIN	haben	_	O	O	
+4-2	es	PPER	es	_	O	O	
+4-3	jedoch	ADV	jedoch	_	O	O	
+4-4	Zweck	NN	Zweck	_	O	O	
+4-5	so	ADV	so	_	O	O	
+4-6	könnte	VMFIN	können	_	O	O	
+4-7	ich	PPER	ich	_	O	O	
+4-8	auch	ADV	auch	_	O	O	
+4-9	zur	APPRART	zu	_	O	O	
+4-10	andern	PIAT	andere	_	O	O	
+4-11	Hälfte	NN	Hälfte	_	O	O	
+4-12	August	NN	August	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-13	nach	APPR	nach	_	O	O	
+4-14	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-15	kommen	VVFIN	kommen	_	O	O	
+4-16	statt	PTKVZ	statt	_	O	O	
+4-17	wie	KOKOM	wie	_	O	O	
+4-18	ich	PPER	ich	_	O	O	
+4-19	sonst	ADV	sonst	_	O	O	
+4-20	dächte	VVFIN	denken	_	O	O	
+4-21	in	APPR	in	_	O	O	
+4-22	der	ART	die	_	O	O	
+4-23	1.sten	ADJA	<unknown>	_	O	O	
+4-24	Hälfte	NN	Hälfte	_	O	O	
+4-25	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-26	.	$.	.	_	O	O	
+
+#id=5
+#text=Zu Ende September will ich diesmal zurück sein, vielleicht nach Dresden zu den Philologen gehen; meine Reisepläne waren aber selten so wenig vorbereitet als diesmal wo ich nur 2 Monate habe und das Bad sie durchkreuzt.
+5-1	Zu	APPR	zu	_	O	O	
+5-2	Ende	NN	Ende	_	O	O	
+5-3	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-4	will	VMFIN	wollen	_	O	O	
+5-5	ich	PPER	ich	_	O	O	
+5-6	diesmal	ADV	diesmal	_	O	O	
+5-7	zurück	PTKVZ	zurück	_	O	O	
+5-8	sein	VAINF	sein	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	vielleicht	ADV	vielleicht	_	O	O	
+5-11	nach	APPR	nach	_	O	O	
+5-12	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-13	zu	APPR	zu	_	O	O	
+5-14	den	ART	die	_	O	O	
+5-15	Philologen	NN	Philologe	_	O	O	
+5-16	gehen	VVFIN	gehen	_	O	O	
+5-17	;	$.	;	_	O	O	
+5-18	meine	PPOSAT	mein	_	O	O	
+5-19	Reisepläne	NN	Reiseplan	_	O	O	
+5-20	waren	VAFIN	sein	_	O	O	
+5-21	aber	ADV	aber	_	O	O	
+5-22	selten	ADJD	selten	_	O	O	
+5-23	so	ADV	so	_	O	O	
+5-24	wenig	PIS	wenige	_	O	O	
+5-25	vorbereitet	VVPP	vorbereiten	_	O	O	
+5-26	als	KOKOM	als	_	O	O	
+5-27	diesmal	ADV	diesmal	_	O	O	
+5-28	wo	PWAV	wo	_	O	O	
+5-29	ich	PPER	ich	_	O	O	
+5-30	nur	ADV	nur	_	O	O	
+5-31	2	CARD	2	_	O	O	
+5-32	Monate	NN	Monat	_	O	O	
+5-33	habe	VAFIN	haben	_	O	O	
+5-34	und	KON	und	_	O	O	
+5-35	das	ART	die	_	O	O	
+5-36	Bad	NE	Bad	_	O	O	
+5-37	sie	PPER	sie	_	O	O	
+5-38	durchkreuzt	VVPP	durchkreuzen	_	O	O	
+5-39	.	$.	.	_	O	O	
+
+#id=6
+#text=übrigens geht es seit der Wärme mir wieder gut.
+6-1	übrigens	ADV	übrigens	_	O	O	
+6-2	geht	VVFIN	gehen	_	O	O	
+6-3	es	PPER	es	_	O	O	
+6-4	seit	APPR	seit	_	O	O	
+6-5	der	ART	die	_	O	O	
+6-6	Wärme	NN	Wärme	_	O	O	
+6-7	mir	PRF	ich	_	O	O	
+6-8	wieder	ADV	wieder	_	O	O	
+6-9	gut	ADJD	gut	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Zeichnungen zu Roßls Aufsatz sind als Briefbeischluß dem Ministerium übergeben.
+7-1	Die	ART	die	_	O	O	
+7-2	Zeichnungen	NN	Zeichnung	_	O	O	
+7-3	zu	APPR	zu	_	O	O	
+7-4	Roßls	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-5	Aufsatz	NN	Aufsatz	_	O	O	
+7-6	sind	VAFIN	sein	_	O	O	
+7-7	als	KOKOM	als	_	O	O	
+7-8	Briefbeischluß	NN	<unknown>	_	O	O	
+7-9	dem	ART	die	_	O	O	
+7-10	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-11	übergeben	VVINF	übergeben	_	O	O	
+7-12	.	$.	.	_	O	O	
+
+#id=8
+#text=Alle Institutssorgen an Lanci zu überlassen scheint mir eine Maßregel die nur im alleräüßerstefothfall sich rechtfertigen läßt; ist Dr. Brunn in gutem Zug dem Institut sich anzuschließen, so ist nichts natürlicher und erwünschter für ihn als in der Zeit dieser langen Vacanz zur Stelle zu sein.
+8-1	Alle	PIAT	alle	_	O	O	
+8-2	Institutssorgen	NN	<unknown>	_	O	O	
+8-3	an	APPR	an	_	O	O	
+8-4	Lanci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-5	zu	PTKZU	zu	_	O	O	
+8-6	überlassen	VVINF	überlassen	_	O	O	
+8-7	scheint	VVFIN	scheinen	_	O	O	
+8-8	mir	PPER	ich	_	O	O	
+8-9	eine	ART	eine	_	O	O	
+8-10	Maßregel	NN	Maßregel	_	O	O	
+8-11	die	ART	die	_	O	O	
+8-12	nur	ADV	nur	_	O	O	
+8-13	im	APPRART	in	_	O	O	
+8-14	alleräüßerstefothfall	NN	<unknown>	_	O	O	
+8-15	sich	PRF	sich	_	O	O	
+8-16	rechtfertigen	VVINF	rechtfertigen	_	O	O	
+8-17	läßt	VVFIN	lassen	_	O	O	
+8-18	;	$.	;	_	O	O	
+8-19	ist	VAFIN	sein	_	O	O	
+8-20	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-21	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-22	in	APPR	in	_	O	O	
+8-23	gutem	ADJA	gut	_	O	O	
+8-24	Zug	NN	Zug	_	O	O	
+8-25	dem	ART	die	_	O	O	
+8-26	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-27	sich	PRF	sich	_	O	O	
+8-28	anzuschließen	VVIZU	anschließen	_	O	O	
+8-29	,	$,	,	_	O	O	
+8-30	so	ADV	so	_	O	O	
+8-31	ist	VAFIN	sein	_	O	O	
+8-32	nichts	PIS	nichts	_	O	O	
+8-33	natürlicher	ADJD	natürlich	_	O	O	
+8-34	und	KON	und	_	O	O	
+8-35	erwünschter	ADJD	erwünscht	_	O	O	
+8-36	für	APPR	für	_	O	O	
+8-37	ihn	PPER	er	_	O	O	
+8-38	als	KOKOM	als	_	O	O	
+8-39	in	APPR	in	_	O	O	
+8-40	der	ART	die	_	O	O	
+8-41	Zeit	NN	Zeit	_	O	O	
+8-42	dieser	PDAT	dies	_	O	O	
+8-43	langen	ADJA	lang	_	O	O	
+8-44	Vacanz	NN	<unknown>	_	O	O	
+8-45	zur	APPRART	zu	_	O	O	
+8-46	Stelle	NN	Stelle	_	O	O	
+8-47	zu	PTKZU	zu	_	O	O	
+8-48	sein	VAINF	sein	_	O	O	
+8-49	.	$.	.	_	O	O	
+
+#id=9
+#text=Henzenls Reise nach S.
+9-1	Henzenls	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	Reise	NN	Reise	_	O	O	
+9-3	nach	APPR	nach	_	O	O	
+9-4	S.	NE	S.	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+

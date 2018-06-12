@@ -1,0 +1,166 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=386 Verehrter Freund Lepsius an Renzen Berlin, 20. Juni 1877 g. 23/6 77 r. Berlin, den 20. Juni 1877 Ich lege Ihnen hier ein Exemplar des neuen Etats, der vor Kurzem eingegangen ist, bei.
+1-1	386	CARD	@card@	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	23/6	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	77	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+1-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-18	,	$,	,	_	O	O	
+1-19	den	ART	die	_	O	O	
+1-20	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-21	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-24	Ich	PPER	ich	_	O	O	
+1-25	lege	VVFIN	legen	_	O	O	
+1-26	Ihnen	PPER	Sie	_	O	O	
+1-27	hier	ADV	hier	_	O	O	
+1-28	ein	ART	eine	_	O	O	
+1-29	Exemplar	NN	Exemplar	_	O	O	
+1-30	des	ART	die	_	O	O	
+1-31	neuen	ADJA	neu	_	O	O	
+1-32	Etats	NN	Etat	_	O	O	
+1-33	,	$,	,	_	O	O	
+1-34	der	PRELS	die	_	O	O	
+1-35	vor	APPR	vor	_	O	O	
+1-36	Kurzem	NN	Kurze	_	O	O	
+1-37	eingegangen	VVPP	eingehen	_	O	O	
+1-38	ist	VAFIN	sein	_	O	O	
+1-39	,	$,	,	_	O	O	
+1-40	bei	PTKVZ	bei	_	O	O	
+1-41	.	$.	.	_	O	O	
+
+#id=2
+#text=Sie werden darin zwei Änderungen bemerken, welche das Auswärtige Amt ~rgenommen hat: eine Verkürzung der Reisediäten der auswärtigen Mitglieder, die für uns gleichgültig ist, und eine Verkürzung der Römischen Bureaukosten um 400 Mark.
+2-1	Sie	PPER	Sie	_	O	O	
+2-2	werden	VAFIN	werden	_	O	O	
+2-3	darin	PAV	darin	_	O	O	
+2-4	zwei	CARD	zwei	_	O	O	
+2-5	Änderungen	NN	Änderung	_	O	O	
+2-6	bemerken	VVINF	bemerken	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	welche	PRELS	welche	_	O	O	
+2-9	das	ART	die	_	O	O	
+2-10	Auswärtige	ADJA	auswärtig	_	O	O	
+2-11	Amt	NN	Amt	_	O	O	
+2-12	~rgenommen	ADJD	<unknown>	_	O	O	
+2-13	hat	VAFIN	haben	_	O	O	
+2-14	:	$.	:	_	O	O	
+2-15	eine	ART	eine	_	O	O	
+2-16	Verkürzung	NN	Verkürzung	_	O	O	
+2-17	der	ART	die	_	O	O	
+2-18	Reisediäten	NN	<unknown>	_	O	O	
+2-19	der	ART	die	_	O	O	
+2-20	auswärtigen	ADJA	auswärtig	_	O	O	
+2-21	Mitglieder	NN	Mitglied	_	O	O	
+2-22	,	$,	,	_	O	O	
+2-23	die	PRELS	die	_	O	O	
+2-24	für	APPR	für	_	O	O	
+2-25	uns	PPER	wir	_	O	O	
+2-26	gleichgültig	ADJD	gleichgültig	_	O	O	
+2-27	ist	VAFIN	sein	_	O	O	
+2-28	,	$,	,	_	O	O	
+2-29	und	KON	und	_	O	O	
+2-30	eine	ART	eine	_	O	O	
+2-31	Verkürzung	NN	Verkürzung	_	O	O	
+2-32	der	ART	die	_	O	O	
+2-33	Römischen	ADJA	römisch	_	O	O	
+2-34	Bureaukosten	NN	<unknown>	_	O	O	
+2-35	um	APPR	um	_	O	O	
+2-36	400	CARD	400	_	O	O	
+2-37	Mark	NN	Mark	_	O	O	
+2-38	.	$.	.	_	O	O	
+
+#id=3
+#text=Man hat nämlich den Durchschnitt der Ausgaben dieses Titels während der Jahre 1874.
+3-1	Man	PIS	man	_	O	O	
+3-2	hat	VAFIN	haben	_	O	O	
+3-3	nämlich	ADV	nämlich	_	O	O	
+3-4	den	ART	die	_	O	O	
+3-5	Durchschnitt	NN	Durchschnitt	_	O	O	
+3-6	der	ART	die	_	O	O	
+3-7	Ausgaben	NN	Ausgabe	_	O	O	
+3-8	dieses	PDAT	dies	_	O	O	
+3-9	Titels	NN	Titel	_	O	O	
+3-10	während	APPR	während	_	O	O	
+3-11	der	ART	die	_	O	O	
+3-12	Jahre	NN	Jahr	_	O	O	
+3-13	1874	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=75.
+4-1	75	CARD	75	_	O	O	
+4-2	.	$.	.	_	O	O	
+
+#id=5
+#text=76 nur zu 1574.20 gefunden.
+5-1	76	CARD	@card@	_	O	O	
+5-2	nur	ADV	nur	_	O	O	
+5-3	zu	APPR	zu	_	O	O	
+5-4	1574.20	CARD	@card@	_	O	O	
+5-5	gefunden	VVPP	finden	_	O	O	
+5-6	.	$.	.	_	O	O	
+
+#id=6
+#text=1355.15 1487.99 1874.44 3/ 4722.58 / 1574.20 • und danach reducirt.
+6-1	1355.15	CARD	@card@	_	O	O	
+6-2	1487.99	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+6-3	1874.44	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+6-4	3/	CARD	@card@	_	O	O	
+6-5	4722.58	CARD	@card@	_	O	O	
+6-6	/	$(	/	_	O	O	
+6-7	1574.20	CARD	@card@	_	O	O	
+6-8	•	NN	<unknown>	_	O	O	
+6-9	und	KON	und	_	O	O	
+6-10	danach	PAV	danach	_	O	O	
+6-11	reducirt	NN	<unknown>	_	O	O	
+6-12	.	$.	.	_	O	O	
+
+#id=7
+#text=Die nächste Abrechnung würde nun also hiernach zu erfolgen haben.
+7-1	Die	ART	die	_	O	O	
+7-2	nächste	ADJA	nah	_	O	O	
+7-3	Abrechnung	NN	Abrechnung	_	O	O	
+7-4	würde	VAFIN	werden	_	O	O	
+7-5	nun	ADV	nun	_	O	O	
+7-6	also	ADV	also	_	O	O	
+7-7	hiernach	PAV	hiernach	_	O	O	
+7-8	zu	PTKZU	zu	_	O	O	
+7-9	erfolgen	VVINF	erfolgen	_	O	O	
+7-10	haben	VAINF	haben	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Die andern Sachen werden in diesen Tagen berathen werden.
+8-1	Die	ART	die	_	O	O	
+8-2	andern	PIAT	andere	_	O	O	
+8-3	Sachen	NN	Sache	_	O	O	
+8-4	werden	VAFIN	werden	_	O	O	
+8-5	in	APPR	in	_	O	O	
+8-6	diesen	PDAT	dies	_	O	O	
+8-7	Tagen	NN	Tag	_	O	O	
+8-8	berathen	NE	<unknown>	_	O	O	
+8-9	werden	VAINF	werden	_	O	O	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=Ihr ergebenster R Lepsius
+9-1	Ihr	PPOSAT	ihr	_	O	O	
+9-2	ergebenster	ADJA	<unknown>	_	O	O	
+9-3	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+9-4	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

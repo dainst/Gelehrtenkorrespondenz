@@ -1,0 +1,304 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=327 Lepsius an Henzen Berlin, 5. Juli 1874 2 - werden.
+1-1	327	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	-	$(	-	_	O	O	
+1-13	werden	VAFIN	werden	_	O	O	
+1-14	.	$.	.	_	O	O	
+
+#id=2
+#text=Tit.
+2-1	Tit.	NE	<unknown>	_	O	O	
+
+#id=3
+#text=I.
+3-1	I.	NE	I.	_	O	O	
+
+#id=4
+#text=1 Gehalt Henzen und für den Gehülfen 2.
+4-1	1	CARD	1	_	O	O	
+4-2	Gehalt	NN	Gehalt	_	O	O	
+4-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-4	und	KON	und	_	O	O	
+4-5	für	APPR	für	_	O	O	
+4-6	den	ART	die	_	O	O	
+4-7	Gehülfen	NN	<unknown>	_	O	O	
+4-8	2	CARD	2	_	O	O	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=Gehalt Helbig (beide freie Wohnung) 3.
+5-1	Gehalt	NN	Gehalt	_	O	O	
+5-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	(	$(	(	_	O	O	
+5-4	beide	PIAT	beide	_	O	O	
+5-5	freie	ADJA	frei	_	O	O	
+5-6	Wohnung	NN	Wohnung	_	O	O	
+5-7	)	$(	)	_	O	O	
+5-8	3	CARD	3	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Bibliotheks Custos 4.
+6-1	Bibliotheks	ADJA	<unknown>	_	O	O	
+6-2	Custos	NE	<unknown>	_	O	O	
+6-3	4	CARD	4	_	O	O	
+6-4	.	$.	.	_	O	O	
+
+#id=7
+#text=Sekr.
+7-1	Sekr.	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=8
+#text=in Athen (nebst f. Wohn. )
+8-1	in	APPR	in	_	O	O	
+8-2	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-3	(	$(	(	_	O	O	
+8-4	nebst	APPR	nebst	_	O	O	
+8-5	f.	APPR	f.	_	O	O	
+8-6	Wohn.	NE	<unknown>	_	O	O	
+8-7	)	$(	)	_	O	O	
+
+#id=9
+#text=Rom 2200.
+9-1	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-2	2200	CARD	@card@	_	O	O	
+9-3	.	$.	.	_	O	O	
+
+#id=10
+#text=R.
+10-1	R.	NE	R.	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+
+#id=11
+#text=R.
+11-1	R.	NE	R.	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+
+#id=12
+#text=R.
+12-1	R.	NE	R.	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+
+#id=13
+#text=400 1600 600 Ath.
+13-1	400	CARD	400	_	O	O	
+13-2	1600	CARD	@card@	_	O	O	
+13-3	600	CARD	600	_	O	O	
+13-4	Ath.	NE	Ath.	_	O	O	
+
+#id=14
+#text=1800 11.
+14-1	1800	CARD	1800	_	O	O	
+14-2	11	CARD	11	_	O	O	
+14-3	.	$.	.	_	O	O	
+
+#id=15
+#text=1.
+15-1	1	CARD	1	_	O	O	
+15-2	.	$.	.	_	O	O	
+
+#id=16
+#text=Miethe in Athen A.
+16-1	Miethe	NE	<unknown>	_	O	O	
+16-2	in	APPR	in	_	O	O	
+16-3	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+16-4	A.	APPRART	am	_	O	O	
+
+#id=17
+#text=1733.10 2.
+17-1	1733.10	CARD	@card@	_	O	O	
+17-2	2	CARD	2	_	O	O	
+17-3	.	$.	.	_	O	O	
+
+#id=18
+#text=Bureaukosten etc.
+18-1	Bureaukosten	NN	<unknown>	_	O	O	
+18-2	etc.	ADV	etc.	_	O	O	
+
+#id=19
+#text=R 800 A.
+19-1	R	NN	R	_	O	O	
+19-2	800	CARD	800	_	O	O	
+19-3	A.	APPRART	am	_	O	O	
+
+#id=20
+#text=500 3.
+20-1	500	CARD	500	_	O	O	
+20-2	3	CARD	3	_	O	O	
+20-3	.	$.	.	_	O	O	
+
+#id=21
+#text=Bureau der C. D. B.
+21-1	Bureau	NN	<UNKNOWN>	_	O	O	
+21-2	der	ART	die	_	O	O	
+21-3	C.	NE	C.	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+21-4	D.	NE	D.	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+21-5	B.	NE	B.	_	O	O	
+
+#id=22
+#text=200 4.
+22-1	200	CARD	200	_	O	O	
+22-2	4	CARD	4	_	O	O	
+22-3	.	$.	.	_	O	O	
+
+#id=23
+#text=Diäten der Ausw. Mitgl.
+23-1	Diäten	NN	Diät	_	O	O	
+23-2	der	ART	die	_	O	O	
+23-3	Ausw	NN	<unknown>	_	O	O	
+23-4	.	$.	.	_	O	O	
+23-5	Mitgl.	NN	Mitgl.	_	O	O	
+
+#id=24
+#text=B.
+24-1	B.	NE	B.	_	O	O	
+
+#id=25
+#text=1000 111.
+25-1	1000	CARD	1000	_	O	O	
+25-2	111	CARD	@card@	_	O	O	
+25-3	.	$.	.	_	O	O	
+
+#id=26
+#text=1.
+26-1	1	CARD	1	_	O	O	
+26-2	.	$.	.	_	O	O	
+
+#id=27
+#text=Publik., Apparat, Erkundungsreisen R.
+27-1	Publik	ADJD	publik	_	O	O	
+27-2	.	$.	.	_	O	O	
+27-3	,	$,	,	_	O	O	
+27-4	Apparat	NN	Apparat	_	O	O	
+27-5	,	$,	,	_	O	O	
+27-6	Erkundungsreisen	NN	Erkundungsreise	_	O	O	
+27-7	R.	NE	R.	_	O	O	
+
+#id=28
+#text=3550 A.
+28-1	3550	CARD	@card@	_	O	O	
+28-2	A.	APPRART	am	_	O	O	
+
+#id=29
+#text=1500 2.
+29-1	1500	CARD	1500	_	O	O	
+29-2	2	CARD	2	_	O	O	
+29-3	.	$.	.	_	O	O	
+
+#id=30
+#text=Ephemeris 3.
+30-1	Ephemeris	NE	<unknown>	_	O	O	
+30-2	3	CARD	3	_	O	O	
+30-3	.	$.	.	_	O	O	
+
+#id=31
+#text=Archäol.
+31-1	Archäol.	NE	<unknown>	_	O	O	
+
+#id=32
+#text=Zeitung IV.
+32-1	Zeitung	NN	Zeitung	_	O	O	
+32-2	IV	NE	IV	_	O	O	
+32-3	.	$.	.	_	O	O	
+
+#id=33
+#text=Bibliothek V. Wissenschaftl.
+33-1	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+33-2	V.	NE	V.	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+33-3	Wissenschaftl	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+33-4	.	$.	.	_	O	O	
+
+#id=34
+#text=Unternehmungen zur Dispos.
+34-1	Unternehmungen	NN	Unternehmung	_	O	O	
+34-2	zur	APPRART	zu	_	O	O	
+34-3	Dispos	NE	<unknown>	_	O	O	
+34-4	.	$.	.	_	O	O	
+
+#id=35
+#text=der C. D. 1. im Allgemeinen 2. für Athen ins Besond.
+35-1	der	ART	die	_	O	O	
+35-2	C.	NE	C.	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+35-3	D.	NE	D.	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+35-4	1	CARD	1	_	O	O	
+35-5	.	$.	.	_	O	O	
+35-6	im	APPRART	in	_	O	O	
+35-7	Allgemeinen	NN	Allgemeine	_	O	O	
+35-8	2	CARD	2	_	O	O	
+35-9	.	$.	.	_	O	O	
+35-10	für	APPR	für	_	O	O	
+35-11	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+35-12	ins	APPRART	in	_	O	O	
+35-13	Besond	NN	<unknown>	_	O	O	
+35-14	.	$.	.	_	O	O	
+
+#id=36
+#text=VI.
+36-1	VI.	NE	<unknown>	_	O	O	
+
+#id=37
+#text=Zu 5 Stipendien VII Insgemein 12300 B 2000 R A.
+37-1	Zu	APPR	zu	_	O	O	
+37-2	5	CARD	5	_	O	O	
+37-3	Stipendien	NN	Stipendium	_	O	O	
+37-4	VII	CARD	VII	_	O	O	
+37-5	Insgemein	NN	<unknown>	_	O	O	
+37-6	12300	CARD	@card@	_	O	O	
+37-7	B	NN	B	_	O	O	
+37-8	2000	CARD	2000	_	O	O	
+37-9	R	NN	R	_	O	O	
+37-10	A.	APPRART	am	_	O	O	
+
+#id=38
+#text=900 300 B 4000 A 1600 B 5000 B 600 in Summa 30.583, 10 = B.
+38-1	900	CARD	900	_	O	O	
+38-2	300	CARD	300	_	O	O	
+38-3	B	NN	B	_	O	O	
+38-4	4000	CARD	4000	_	O	O	
+38-5	A	NN	A	_	O	O	
+38-6	1600	CARD	@card@	_	O	O	
+38-7	B	NN	B	_	O	O	
+38-8	5000	CARD	5000	_	O	O	
+38-9	B	NN	B	_	O	O	
+38-10	600	CARD	600	_	O	O	
+38-11	in	APPR	in	_	O	O	
+38-12	Summa	NN	<unknown>	_	O	O	
+38-13	30.583	CARD	@card@	_	O	O	
+38-14	,	$,	,	_	O	O	
+38-15	10	CARD	10	_	O	O	
+38-16	=	$(	=	_	O	O	
+38-17	B.	NN	B.	_	O	O	
+
+#id=39
+#text=12.800.
+39-1	12.800	CARD	@card@	_	O	O	
+39-2	.	$.	.	_	O	O	
+
+#id=40
+#text=R.
+40-1	R.	NE	R.	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+
+#id=41
+#text=10.350.
+41-1	10.350	CARD	@card@	_	O	O	
+41-2	.	$.	.	_	O	O	
+
+#id=42
+#text=A.
+42-1	A.	APPRART	am	_	O	O	
+
+#id=43
+#text=7.433, 10.
+43-1	7.433	CARD	@card@	_	O	O	
+43-2	,	$,	,	_	O	O	
+43-3	10	CARD	10	_	O	O	
+43-4	.	$.	.	_	O	O	
+

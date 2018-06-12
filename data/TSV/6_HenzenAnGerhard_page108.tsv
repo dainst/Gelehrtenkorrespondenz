@@ -1,0 +1,356 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=124 Henzen an Gerhard 12/IV/53 3 klich ist, u. ich bin z. B. von Visconti gefragt, ob die Ersetzung der Kestnerschen Stelle dh.
+1-1	124	CARD	@card@	_	O	O	
+1-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	12/IV/53	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-6	3	CARD	3	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-7	klich	ADJD	<unknown>	_	O	O	
+1-8	ist	VAFIN	sein	_	O	O	
+1-9	,	$,	,	_	O	O	
+1-10	u.	KON	und	_	O	O	
+1-11	ich	PPER	ich	_	O	O	
+1-12	bin	VAFIN	sein	_	O	O	
+1-13	z.	APPRART	z.	_	O	O	
+1-14	B.	NN	B.	_	O	O	
+1-15	von	APPR	von	_	O	O	
+1-16	Visconti	NN	Visconte	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-17	gefragt	VVPP	fragen	_	O	O	
+1-18	,	$,	,	_	O	O	
+1-19	ob	KOUS	ob	_	O	O	
+1-20	die	ART	die	_	O	O	
+1-21	Ersetzung	NN	Ersetzung	_	O	O	
+1-22	der	ART	die	_	O	O	
+1-23	Kestnerschen	ADJA	<unknown>	_	O	O	
+1-24	Stelle	NN	Stelle	_	O	O	
+1-25	dh.	NE	<unknown>	_	O	O	
+
+#id=2
+#text=königl. Ernennung geschehe, worauf ich ausweichend antwortete, der König bestätige sie.
+2-1	königl	NE	<unknown>	_	O	O	
+2-2	.	$.	.	_	O	O	
+2-3	Ernennung	NN	Ernennung	_	O	O	
+2-4	geschehe	VVFIN	geschehen	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	worauf	PWAV	worauf	_	O	O	
+2-7	ich	PPER	ich	_	O	O	
+2-8	ausweichend	ADJD	ausweichend	_	O	O	
+2-9	antwortete	VVFIN	antworten	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	der	ART	die	_	O	O	
+2-12	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-13	bestätige	VVFIN	bestätigen	_	O	O	
+2-14	sie	PPER	sie	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=- In Bezug auf den an Braun gerichteten Brief bemerke ich Ihnen, dß.
+3-1	-	$(	-	_	O	O	
+3-2	In	APPR	in	_	O	O	
+3-3	Bezug	NN	Bezug	_	O	O	
+3-4	auf	APPR	auf	_	O	O	
+3-5	den	ART	die	_	O	O	
+3-6	an	APPR	an	_	O	O	
+3-7	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-8	gerichteten	ADJA	gerichtet	_	O	O	
+3-9	Brief	NN	Brief	_	O	O	
+3-10	bemerke	VVFIN	bemerken	_	O	O	
+3-11	ich	PPER	ich	_	O	O	
+3-12	Ihnen	PPER	Sie	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	dß	VVFIN	<unknown>	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=wir nichts Angelegentlicheres zu thun haben, als uns de Rossi immer mehr zu verbinden als den einzi~en Tüchtigen unter der ganzen jüngeren Generation, der schon jetzt viel Einfluß hat u. jeden Falls hier auf dem gelehrten Felde noch eine bedeutende Rolle spielen wird.
+4-1	wir	PPER	wir	_	O	O	
+4-2	nichts	PIS	nichts	_	O	O	
+4-3	Angelegentlicheres	NN	<unknown>	_	O	O	
+4-4	zu	APPR	zu	_	O	O	
+4-5	thun	NE	<unknown>	_	O	O	
+4-6	haben	VAFIN	haben	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	als	KOUS	als	_	O	O	
+4-9	uns	PPER	wir	_	O	O	
+4-10	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-11	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-12	immer	ADV	immer	_	O	O	
+4-13	mehr	ADV	mehr	_	O	O	
+4-14	zu	PTKZU	zu	_	O	O	
+4-15	verbinden	VVINF	verbinden	_	O	O	
+4-16	als	KOKOM	als	_	O	O	
+4-17	den	ART	die	_	O	O	
+4-18	einzi~en	ADJA	<unknown>	_	O	O	
+4-19	Tüchtigen	NN	Tüchtige	_	O	O	
+4-20	unter	APPR	unter	_	O	O	
+4-21	der	ART	die	_	O	O	
+4-22	ganzen	ADJA	ganz	_	O	O	
+4-23	jüngeren	ADJA	jung	_	O	O	
+4-24	Generation	NN	Generation	_	O	O	
+4-25	,	$,	,	_	O	O	
+4-26	der	PRELS	die	_	O	O	
+4-27	schon	ADV	schon	_	O	O	
+4-28	jetzt	ADV	jetzt	_	O	O	
+4-29	viel	PIAT	viele	_	O	O	
+4-30	Einfluß	NN	Einfluss	_	O	O	
+4-31	hat	VAFIN	haben	_	O	O	
+4-32	u.	APPR	um	_	O	O	
+4-33	jeden	PIAT	jede	_	O	O	
+4-34	Falls	NN	Fall	_	O	O	
+4-35	hier	ADV	hier	_	O	O	
+4-36	auf	APPR	auf	_	O	O	
+4-37	dem	ART	die	_	O	O	
+4-38	gelehrten	ADJA	gelehrt	_	O	O	
+4-39	Felde	NN	Feld	_	O	O	
+4-40	noch	ADV	noch	_	O	O	
+4-41	eine	ART	eine	_	O	O	
+4-42	bedeutende	ADJA	bedeutend	_	O	O	
+4-43	Rolle	NN	Rolle	_	O	O	
+4-44	spielen	VVINF	spielen	_	O	O	
+4-45	wird	VAFIN	werden	_	O	O	
+4-46	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich würde Canina sein lassen, was er ist ( sicherlich kennt er seinen Titel nicht einmal!
+5-1	Ich	PPER	ich	_	O	O	
+5-2	würde	VAFIN	werden	_	O	O	
+5-3	Canina	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	sein	VAINF	sein	_	O	O	
+5-5	lassen	VVINF	lassen	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	was	PWS	was	_	O	O	
+5-8	er	PPER	er	_	O	O	
+5-9	ist	VAFIN	sein	_	O	O	
+5-10	(	$(	(	_	O	O	
+5-11	sicherlich	ADV	sicherlich	_	O	O	
+5-12	kennt	VVFIN	kennen	_	O	O	
+5-13	er	PPER	er	_	O	O	
+5-14	seinen	PPOSAT	sein	_	O	O	
+5-15	Titel	NN	Titel	_	O	O	
+5-16	nicht	PTKNEG	nicht	_	O	O	
+5-17	einmal	ADV	einmal	_	O	O	
+5-18	!	$.	!	_	O	O	
+
+#id=6
+#text=); dagegen da Rossi trotz sejner Jugend zunächst zum M. Onorario della Direzione ernennen.
+6-1	)	$(	)	_	O	O	
+6-2	;	$.	;	_	O	O	
+6-3	dagegen	PAV	dagegen	_	O	O	
+6-4	da	ADV	da	_	O	O	
+6-5	Rossi	NE	Rossi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-6	trotz	APPR	trotz	_	O	O	
+6-7	sejner	ADJA	<unknown>	_	O	O	
+6-8	Jugend	NN	Jugend	_	O	O	
+6-9	zunächst	ADV	zunächst	_	O	O	
+6-10	zum	APPRART	zu	_	O	O	
+6-11	M.	NE	M.	_	O	O	
+6-12	Onorario	NE	<unknown>	_	O	O	
+6-13	della	NE	Della	_	O	O	
+6-14	Direzione	NE	<unknown>	_	O	O	
+6-15	ernennen	VVFIN	ernennen	_	O	O	
+6-16	.	$.	.	_	O	O	
+
+#id=7
+#text=Nach ein paar Jahren schenkt man ihm dann außer dem Bull.
+7-1	Nach	APPR	nach	_	O	O	
+7-2	ein	ART	eine	_	O	O	
+7-3	paar	PIAT	paar	_	O	O	
+7-4	Jahren	NN	Jahr	_	O	O	
+7-5	schenkt	VVFIN	schenken	_	O	O	
+7-6	man	PIS	man	_	O	O	
+7-7	ihm	PPER	er	_	O	O	
+7-8	dann	ADV	dann	_	O	O	
+7-9	außer	APPR	außer	_	O	O	
+7-10	dem	ART	die	_	O	O	
+7-11	Bull	NE	Bull	_	O	O	
+7-12	.	$.	.	_	O	O	
+
+#id=8
+#text=auch Mon u. Annali, noch etwas später wird er M. Ordinario d. D.; u. stirbt Borghesi, was möglichst lange ausbleiben möge 1 Secretär der Ital. Section.
+8-1	auch	ADV	auch	_	O	O	
+8-2	Mon	VVFIN	<unknown>	_	O	O	
+8-3	u.	APPR	um	_	O	O	
+8-4	Annali	NE	<unknown>	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	noch	ADV	noch	_	O	O	
+8-7	etwas	ADV	etwas	_	O	O	
+8-8	später	ADJD	spät	_	O	O	
+8-9	wird	VAFIN	werden	_	O	O	
+8-10	er	PPER	er	_	O	O	
+8-11	M.	NE	M.	_	O	O	
+8-12	Ordinario	NN	<unknown>	_	O	O	
+8-13	d.	ART	d.	_	O	O	
+8-14	D.	NE	D.	_	O	O	
+8-15	;	$.	;	_	O	O	
+8-16	u.	KON	und	_	O	O	
+8-17	stirbt	VVFIN	sterben	_	O	O	
+8-18	Borghesi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-19	,	$,	,	_	O	O	
+8-20	was	PRELS	was	_	O	O	
+8-21	möglichst	ADV	möglichst	_	O	O	
+8-22	lange	ADV	lange	_	O	O	
+8-23	ausbleiben	VVINF	ausbleiben	_	O	O	
+8-24	möge	VMFIN	mögen	_	O	O	
+8-25	1	CARD	1	_	O	O	
+8-26	Secretär	NN	<unknown>	_	O	O	
+8-27	der	ART	die	_	O	O	
+8-28	Ital.	NN	<unknown>	_	O	O	
+8-29	Section	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-30	.	$.	.	_	O	O	
+
+#id=10
+#text=So halten wir immer Etwas in petto; denn mit ihm gut zu stehen u. seine Hülfe zu sichern, ist Lebensbedingung.
+10-1	So	ADV	so	_	O	O	
+10-2	halten	VVFIN	halten	_	O	O	
+10-3	wir	PPER	wir	_	O	O	
+10-4	immer	ADV	immer	_	O	O	
+10-5	Etwas	NN	Etwas	_	O	O	
+10-6	in	APPR	in	_	O	O	
+10-7	petto	ADJD	<unknown>	_	O	O	
+10-8	;	$.	;	_	O	O	
+10-9	denn	KON	denn	_	O	O	
+10-10	mit	APPR	mit	_	O	O	
+10-11	ihm	PPER	er	_	O	O	
+10-12	gut	ADJD	gut	_	O	O	
+10-13	zu	PTKZU	zu	_	O	O	
+10-14	stehen	VVINF	stehen	_	O	O	
+10-15	u.	KON	und	_	O	O	
+10-16	seine	PPOSAT	sein	_	O	O	
+10-17	Hülfe	NN	<unknown>	_	O	O	
+10-18	zu	PTKZU	zu	_	O	O	
+10-19	sichern	VVINF	sichern	_	O	O	
+10-20	,	$,	,	_	O	O	
+10-21	ist	VAFIN	sein	_	O	O	
+10-22	Lebensbedingung	NN	Lebensbedingung	_	O	O	
+10-23	.	$.	.	_	O	O	
+
+#id=11
+#text=- Braun, der Ihnen ausführlich schreiben will, wird I Ihnen dies bestätigen.
+11-1	-	$(	-	_	O	O	
+11-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-3	,	$,	,	_	O	O	
+11-4	der	PRELS	die	_	O	O	
+11-5	Ihnen	PPER	Sie	_	O	O	
+11-6	ausführlich	ADJD	ausführlich	_	O	O	
+11-7	schreiben	VVINF	schreiben	_	O	O	
+11-8	will	VMFIN	wollen	_	O	O	
+11-9	,	$,	,	_	O	O	
+11-10	wird	VAFIN	werden	_	O	O	
+11-11	I	NN	I	_	O	O	
+11-12	Ihnen	PPER	Sie	_	O	O	
+11-13	dies	PDS	dies	_	O	O	
+11-14	bestätigen	VVINF	bestätigen	_	O	O	
+11-15	.	$.	.	_	O	O	
+
+#id=12
+#text=- Außerdem ist nöthig, eine neue \ Notice u. Mitgliederverueichniß zu drucken; Braun verspricht, sie zu schreiben.
+12-1	-	$(	-	_	O	O	
+12-2	Außerdem	ADV	außerdem	_	O	O	
+12-3	ist	VAFIN	sein	_	O	O	
+12-4	nöthig	ADJD	<unknown>	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	eine	ART	eine	_	O	O	
+12-7	neue	ADJA	neu	_	O	O	
+12-8	\	XY	\	_	O	O	
+12-9	Notice	NE	<unknown>	_	O	O	
+12-10	u.	APPR	um	_	O	O	
+12-11	Mitgliederverueichniß	NN	<unknown>	_	O	O	
+12-12	zu	PTKZU	zu	_	O	O	
+12-13	drucken	VVINF	drucken	_	O	O	
+12-14	;	$.	;	_	O	O	
+12-15	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-16	verspricht	VVFIN	versprechen	_	O	O	
+12-17	,	$,	,	_	O	O	
+12-18	sie	PPER	sie	_	O	O	
+12-19	zu	PTKZU	zu	_	O	O	
+12-20	schreiben	VVINF	schreiben	_	O	O	
+12-21	.	$.	.	_	O	O	
+
+#id=13
+#text=Sie werden mir dazu aber genau die von Ihnen creirten Mitglieder aufgeben müßen; denn aus meinen Nummern, die mit den Ihrigen nicht stimmen, sehe ich, dß.
+13-1	Sie	PPER	Sie	_	O	O	
+13-2	werden	VAFIN	werden	_	O	O	
+13-3	mir	PPER	ich	_	O	O	
+13-4	dazu	PAV	dazu	_	O	O	
+13-5	aber	ADV	aber	_	O	O	
+13-6	genau	ADJD	genau	_	O	O	
+13-7	die	ART	die	_	O	O	
+13-8	von	APPR	von	_	O	O	
+13-9	Ihnen	PPER	Sie	_	O	O	
+13-10	creirten	ADJA	<unknown>	_	O	O	
+13-11	Mitglieder	NN	Mitglied	_	O	O	
+13-12	aufgeben	VVINF	aufgeben	_	O	O	
+13-13	müßen	VVINF	<unknown>	_	O	O	
+13-14	;	$.	;	_	O	O	
+13-15	denn	KON	denn	_	O	O	
+13-16	aus	APPR	aus	_	O	O	
+13-17	meinen	PPOSAT	mein	_	O	O	
+13-18	Nummern	NN	Nummer	_	O	O	
+13-19	,	$,	,	_	O	O	
+13-20	die	PRELS	die	_	O	O	
+13-21	mit	APPR	mit	_	O	O	
+13-22	den	ART	die	_	O	O	
+13-23	Ihrigen	NN	<unknown>	_	O	O	
+13-24	nicht	PTKNEG	nicht	_	O	O	
+13-25	stimmen	VVFIN	stimmen	_	O	O	
+13-26	,	$,	,	_	O	O	
+13-27	sehe	VVFIN	sehen	_	O	O	
+13-28	ich	PPER	ich	_	O	O	
+13-29	,	$,	,	_	O	O	
+13-30	dß	VVFIN	<unknown>	_	O	O	
+13-31	.	$.	.	_	O	O	
+
+#id=14
+#text=i hie u. da Lücken geblieben sind in der gegenseitigen MitL-~heilung.
+14-1	i	NE	i	_	O	O	
+14-2	hie	NE	hie	_	O	O	
+14-3	u.	KON	und	_	O	O	
+14-4	da	ADV	da	_	O	O	
+14-5	Lücken	NN	Lücke	_	O	O	
+14-6	geblieben	VVPP	bleiben	_	O	O	
+14-7	sind	VAFIN	sein	_	O	O	
+14-8	in	APPR	in	_	O	O	
+14-9	der	ART	die	_	O	O	
+14-10	gegenseitigen	ADJA	gegenseitig	_	O	O	
+14-11	MitL-~heilung	NN	<unknown>	_	O	O	
+14-12	.	$.	.	_	O	O	
+
+#id=15
+#text=- Deber etwaige Reformen der Publicationen wird Braun, vielleicht erst später, Ihnen schreiben.
+15-1	-	$(	-	_	O	O	
+15-2	Deber	NN	<unknown>	_	O	O	
+15-3	etwaige	ADJA	etwaig	_	O	O	
+15-4	Reformen	NN	Reform	_	O	O	
+15-5	der	ART	die	_	O	O	
+15-6	Publicationen	NN	<unknown>	_	O	O	
+15-7	wird	VAFIN	werden	_	O	O	
+15-8	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-9	,	$,	,	_	O	O	
+15-10	vielleicht	ADV	vielleicht	_	O	O	
+15-11	erst	ADV	erst	_	O	O	
+15-12	später	ADJD	spät	_	O	O	
+15-13	,	$,	,	_	O	O	
+15-14	Ihnen	PPER	Sie	_	O	O	
+15-15	schreiben	VVFIN	schreiben	_	O	O	
+15-16	.	$.	.	_	O	O	
+
+#id=16
+#text=Ich will nur einstweilen bemerken, dß.
+16-1	Ich	PPER	ich	_	O	O	
+16-2	will	VMFIN	wollen	_	O	O	
+16-3	nur	ADV	nur	_	O	O	
+16-4	einstweilen	ADV	einstweilen	_	O	O	
+16-5	bemerken	VVINF	bemerken	_	O	O	
+16-6	,	$,	,	_	O	O	
+16-7	dß	VVFIN	<unknown>	_	O	O	
+16-8	.	$.	.	_	O	O	
+
+#id=17
+#text=zwar mein neulicher günstiger
+17-1	zwar	ADV	zwar	_	O	O	
+17-2	mein	PPOSAT	mein	_	O	O	
+17-3	neulicher	ADJA	<unknown>	_	O	O	
+17-4	günstiger	ADJA	günstig	_	O	O	
+

@@ -1,0 +1,239 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Lepsius an Henzen Berlin, 9. Dezember 1874 dern, (auch für Matz, ) zurückbehalten haben.
+1-1	2	CARD	2	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	dern	VVFIN	<UNKNOWN>	_	O	O	
+1-12	,	$,	,	_	O	O	
+1-13	(	$(	(	_	O	O	
+1-14	auch	ADV	auch	_	O	O	
+1-15	für	APPR	für	_	O	O	
+1-16	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-17	,	$,	,	_	O	O	
+1-18	)	$(	)	_	O	O	
+1-19	zurückbehalten	VVPP	zurückbehalten	_	O	O	
+1-20	haben	VAFIN	haben	_	O	O	
+1-21	.	$.	.	_	O	O	
+
+#id=2
+#text=Wollen Sie mich nun baldmöglichst wissen lassen, ob die erwähnten 985 r noch auf Ihre Kasse angewiesen werden können oder wieviel.
+2-1	Wollen	VMFIN	wollen	_	O	O	
+2-2	Sie	PPER	Sie	_	O	O	
+2-3	mich	PRF	ich	_	O	O	
+2-4	nun	ADV	nun	_	O	O	
+2-5	baldmöglichst	ADV	baldmöglichst	_	O	O	
+2-6	wissen	VVINF	wissen	_	O	O	
+2-7	lassen	VVINF	lassen	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	ob	KOUS	ob	_	O	O	
+2-10	die	ART	die	_	O	O	
+2-11	erwähnten	ADJA	erwähnt	_	O	O	
+2-12	985	CARD	@card@	_	O	O	
+2-13	r	NE	r	_	O	O	
+2-14	noch	ADV	noch	_	O	O	
+2-15	auf	APPR	auf	_	O	O	
+2-16	Ihre	PPOSAT	ihr	_	O	O	
+2-17	Kasse	NN	Kasse	_	O	O	
+2-18	angewiesen	VVPP	anweisen	_	O	O	
+2-19	werden	VAINF	werden	_	O	O	
+2-20	können	VMFIN	können	_	O	O	
+2-21	oder	KON	oder	_	O	O	
+2-22	wieviel	PWAV	wieviele	_	O	O	
+2-23	.	$.	.	_	O	O	
+
+#id=3
+#text=Da das Jahr zu Ende geht, so wird sich ja dies leicht herausstellen.
+3-1	Da	KOUS	da	_	O	O	
+3-2	das	ART	die	_	O	O	
+3-3	Jahr	NN	Jahr	_	O	O	
+3-4	zu	APPR	zu	_	O	O	
+3-5	Ende	NN	Ende	_	O	O	
+3-6	geht	VVFIN	gehen	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	so	ADV	so	_	O	O	
+3-9	wird	VAFIN	werden	_	O	O	
+3-10	sich	PRF	sich	_	O	O	
+3-11	ja	ADV	ja	_	O	O	
+3-12	dies	PDS	dies	_	O	O	
+3-13	leicht	ADJD	leicht	_	O	O	
+3-14	herausstellen	VVINF	herausstellen	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=(Matz hat noch über die bewilligte Summe 750 r bereits verausgabt bis Ende Dezember, die noch nachbewilligt werden müssen; nun ist Eichler plötzlich krank geworden und geht aus Sizilien direkt nach Hause; dadurch erledigen sich wenigstens zunächst die Bedürfnisse für 1875 vor der Hand ).
+4-1	(	$(	(	_	O	O	
+4-2	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	hat	VAFIN	haben	_	O	O	
+4-4	noch	ADV	noch	_	O	O	
+4-5	über	APPR	über	_	O	O	
+4-6	die	ART	die	_	O	O	
+4-7	bewilligte	ADJA	bewilligt	_	O	O	
+4-8	Summe	NN	Summe	_	O	O	
+4-9	750	CARD	750	_	O	O	
+4-10	r	NE	r	_	O	O	
+4-11	bereits	ADV	bereits	_	O	O	
+4-12	verausgabt	VVFIN	verausgaben	_	O	O	
+4-13	bis	APPR	bis	_	O	O	
+4-14	Ende	NN	Ende	_	O	O	
+4-15	Dezember	NN	Dezember	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-16	,	$,	,	_	O	O	
+4-17	die	PRELS	die	_	O	O	
+4-18	noch	ADV	noch	_	O	O	
+4-19	nachbewilligt	VVPP	nachbewilligen	_	O	O	
+4-20	werden	VAINF	werden	_	O	O	
+4-21	müssen	VMFIN	müssen	_	O	O	
+4-22	;	$.	;	_	O	O	
+4-23	nun	ADV	nun	_	O	O	
+4-24	ist	VAFIN	sein	_	O	O	
+4-25	Eichler	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-26	plötzlich	ADJD	plötzlich	_	O	O	
+4-27	krank	ADJD	krank	_	O	O	
+4-28	geworden	VAPP	werden	_	O	O	
+4-29	und	KON	und	_	O	O	
+4-30	geht	VVFIN	gehen	_	O	O	
+4-31	aus	APPR	aus	_	O	O	
+4-32	Sizilien	NE	Sizilien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-33	direkt	ADJD	direkt	_	O	O	
+4-34	nach	APPR	nach	_	O	O	
+4-35	Hause	NN	Haus	_	O	O	
+4-36	;	$.	;	_	O	O	
+4-37	dadurch	PAV	dadurch	_	O	O	
+4-38	erledigen	VVFIN	erledigen	_	O	O	
+4-39	sich	PRF	sich	_	O	O	
+4-40	wenigstens	ADV	wenigstens	_	O	O	
+4-41	zunächst	ADV	zunächst	_	O	O	
+4-42	die	ART	die	_	O	O	
+4-43	Bedürfnisse	NN	Bedürfnis	_	O	O	
+4-44	für	APPR	für	_	O	O	
+4-45	1875	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-46	vor	APPR	vor	_	O	O	
+4-47	der	ART	die	_	O	O	
+4-48	Hand	NN	Hand	_	O	O	
+4-49	)	$(	)	_	O	O	
+4-50	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihre Vorschläge der Mitglieder werden alle notirt; von hier kommt wenig oder nichts hinzu, was ich noch melden werde.
+5-1	Ihre	PPOSAT	ihr	_	O	O	
+5-2	Vorschläge	NN	Vorschlag	_	O	O	
+5-3	der	ART	die	_	O	O	
+5-4	Mitglieder	NN	Mitglied	_	O	O	
+5-5	werden	VAFIN	werden	_	O	O	
+5-6	alle	PIAT	alle	_	O	O	
+5-7	notirt	NN	<unknown>	_	O	O	
+5-8	;	$.	;	_	O	O	
+5-9	von	APPR	von	_	O	O	
+5-10	hier	ADV	hier	_	O	O	
+5-11	kommt	VVFIN	kommen	_	O	O	
+5-12	wenig	PIS	wenige	_	O	O	
+5-13	oder	KON	oder	_	O	O	
+5-14	nichts	PIS	nichts	_	O	O	
+5-15	hinzu	PTKVZ	hinzu	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	was	PRELS	was	_	O	O	
+5-18	ich	PPER	ich	_	O	O	
+5-19	noch	ADV	noch	_	O	O	
+5-20	melden	VVINF	melden	_	O	O	
+5-21	werde	VAFIN	werden	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=Den Elenco sende ich Ihnen mit den in der letz~ ten Sitzung beliebten Anordnungen.
+6-1	Den	ART	die	_	O	O	
+6-2	Elenco	NE	<unknown>	_	O	O	
+6-3	sende	VVFIN	senden	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	Ihnen	PPER	Sie	_	O	O	
+6-6	mit	APPR	mit	_	O	O	
+6-7	den	ART	die	_	O	O	
+6-8	in	APPR	in	_	O	O	
+6-9	der	ART	die	_	O	O	
+6-10	letz~	ADJA	<unknown>	_	O	O	
+6-11	ten	NE	ten	_	O	O	
+6-12	Sitzung	NN	Sitzung	_	O	O	
+6-13	beliebten	ADJA	beliebt	_	O	O	
+6-14	Anordnungen	NN	Anordnung	_	O	O	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Paragraphen über die Stipendiaten sind nun nach den neusten Statuten zu ändern, von denen ich Ihnen einige Exemplare unter Kreuzband sende.
+7-1	Die	ART	die	_	O	O	
+7-2	Paragraphen	NN	Paragraph	_	O	O	
+7-3	über	APPR	über	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	Stipendiaten	NN	Stipendiat	_	O	O	
+7-6	sind	VAFIN	sein	_	O	O	
+7-7	nun	ADV	nun	_	O	O	
+7-8	nach	APPR	nach	_	O	O	
+7-9	den	ART	die	_	O	O	
+7-10	neusten	ADJA	neu	_	O	O	
+7-11	Statuten	NN	Statut	_	O	O	
+7-12	zu	PTKZU	zu	_	O	O	
+7-13	ändern	VVINF	ändern	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	von	APPR	von	_	O	O	
+7-16	denen	PRELS	die	_	O	O	
+7-17	ich	PPER	ich	_	O	O	
+7-18	Ihnen	PPER	Sie	_	O	O	
+7-19	einige	PIAT	einige	_	O	O	
+7-20	Exemplare	NN	Exemplar	_	O	O	
+7-21	unter	APPR	unter	_	O	O	
+7-22	Kreuzband	NN	Kreuzband	_	O	O	
+7-23	sende	VVFIN	senden	_	O	O	
+7-24	.	$.	.	_	O	O	
+
+#id=8
+#text=Der Stempel wird Ihnen bereits zugegangen sein.
+8-1	Der	ART	die	_	O	O	
+8-2	Stempel	NN	Stempel	_	O	O	
+8-3	wird	VAFIN	werden	_	O	O	
+8-4	Ihnen	PPER	Sie	_	O	O	
+8-5	bereits	ADV	bereits	_	O	O	
+8-6	zugegangen	VVPP	zugehen	_	O	O	
+8-7	sein	VAINF	sein	_	O	O	
+8-8	.	$.	.	_	O	O	
+
+#id=9
+#text=Auf den Antrag von Hinck sollen die Etruskischen Inschriften im Generalindex nicht nach den einzelnen Worten, sondern nur nach ihren Fundorten angeführt werden.
+9-1	Auf	APPR	auf	_	O	O	
+9-2	den	ART	die	_	O	O	
+9-3	Antrag	NN	Antrag	_	O	O	
+9-4	von	APPR	von	_	O	O	
+9-5	Hinck	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-6	sollen	VMFIN	sollen	_	O	O	
+9-7	die	ART	die	_	O	O	
+9-8	Etruskischen	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-9	Inschriften	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-OBJ	
+9-10	im	APPRART	in	_	O	O	
+9-11	Generalindex	NN	<unknown>	_	O	O	
+9-12	nicht	PTKNEG	nicht	_	O	O	
+9-13	nach	APPR	nach	_	O	O	
+9-14	den	ART	die	_	O	O	
+9-15	einzelnen	ADJA	einzeln	_	O	O	
+9-16	Worten	NN	Wort	_	O	O	
+9-17	,	$,	,	_	O	O	
+9-18	sondern	KON	sondern	_	O	O	
+9-19	nur	ADV	nur	_	O	O	
+9-20	nach	APPR	nach	_	O	O	
+9-21	ihren	PPOSAT	ihr	_	O	O	
+9-22	Fundorten	NN	Fundort	_	O	O	
+9-23	angeführt	VVPP	anführen	_	O	O	
+9-24	werden	VAFIN	werden	_	O	O	
+9-25	.	$.	.	_	O	O	
+
+#id=10
+#text=Ihr ganz ergebenster R Lepsius
+10-1	Ihr	PPOSAT	ihr	_	O	O	
+10-2	ganz	ADV	ganz	_	O	O	
+10-3	ergebenster	ADJA	<unknown>	_	O	O	
+10-4	R	NN	R	_	O	O	
+10-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

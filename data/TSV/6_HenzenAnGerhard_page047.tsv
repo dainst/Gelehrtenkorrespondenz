@@ -1,0 +1,334 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=( ) 133 25/111/52 Henzen an Gerhard Verehrter Herr Frofessor Ich schrieb Ihnen wohl schon, dß.
+1-1	(	$(	(	_	O	O	
+1-2	)	$(	)	_	O	O	
+1-3	133	CARD	@card@	_	O	O	
+1-4	25/111/52	CARD	@card@	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Verehrter	ADJA	verehrt	_	O	O	
+1-9	Herr	NN	Herr	_	O	O	
+1-10	Frofessor	NN	<unknown>	_	O	O	
+1-11	Ich	PPER	ich	_	O	O	
+1-12	schrieb	VVFIN	schreiben	_	O	O	
+1-13	Ihnen	PPER	Sie	_	O	O	
+1-14	wohl	ADV	wohl	_	O	O	
+1-15	schon	ADV	schon	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	dß	VVFIN	<unknown>	_	O	O	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Braun sich direct an Jo Schulze gewandt.
+2-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	sich	PRF	sich	_	O	O	
+2-3	direct	NE	direct	_	O	O	
+2-4	an	APPR	an	_	O	O	
+2-5	Jo	NE	Jo	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-6	Schulze	NE	Schulze	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-7	gewandt	VVPP	wenden	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Um so mehr beunruhigt es, dß.
+3-1	Um	APPR	um	_	O	O	
+3-2	so	ADV	so	_	O	O	
+3-3	mehr	ADV	mehr	_	O	O	
+3-4	beunruhigt	VVFIN	beunruhigen	_	O	O	
+3-5	es	PPER	es	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	dß	VVFIN	<unknown>	_	O	O	
+3-8	.	$.	.	_	O	O	
+
+#id=4
+#text=noch immer Nichts erfolgt.
+4-1	noch	ADV	noch	_	O	O	
+4-2	immer	ADV	immer	_	O	O	
+4-3	Nichts	PIS	nichts	_	O	O	
+4-4	erfolgt	VVFIN	erfolgen	_	O	O	
+4-5	.	$.	.	_	O	O	
+
+#id=5
+#text=Sie müssen mich, und ich habe recht darüber lachen müssen -, für einen ganz fanatischen Gegner Zumtino's halten, wenn Sie glauben, dß.
+5-1	Sie	PPER	Sie	_	O	O	
+5-2	müssen	VMFIN	müssen	_	O	O	
+5-3	mich	PRF	ich	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	und	KON	und	_	O	O	
+5-6	ich	PPER	ich	_	O	O	
+5-7	habe	VAFIN	haben	_	O	O	
+5-8	recht	ADJD	recht	_	O	O	
+5-9	darüber	PAV	darüber	_	O	O	
+5-10	lachen	VVINF	lachen	_	O	O	
+5-11	müssen	VMINF	müssen	_	O	O	
+5-12	-	$(	-	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	für	APPR	für	_	O	O	
+5-15	einen	ART	eine	_	O	O	
+5-16	ganz	ADV	ganz	_	O	O	
+5-17	fanatischen	ADJA	fanatisch	_	O	O	
+5-18	Gegner	NN	Gegner	_	O	O	
+5-19	Zumtino's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-20	halten	VVINF	halten	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	wenn	KOUS	wenn	_	O	O	
+5-23	Sie	PPER	Sie	_	O	O	
+5-24	glauben	VVFIN	glauben	_	O	O	
+5-25	,	$,	,	_	O	O	
+5-26	dß	VVFIN	<unknown>	_	O	O	
+5-27	.	$.	.	_	O	O	
+
+#id=6
+#text=ich ihm sogar in Ihrer Zeitung einen Platz mißgönne Uebrigens hätte ich gewünscht, dß.
+6-1	ich	PPER	ich	_	O	O	
+6-2	ihm	PPER	er	_	O	O	
+6-3	sogar	ADV	sogar	_	O	O	
+6-4	in	APPR	in	_	O	O	
+6-5	Ihrer	PPOSAT	ihr	_	O	O	
+6-6	Zeitung	NN	Zeitung	_	O	O	
+6-7	einen	ART	eine	_	O	O	
+6-8	Platz	NN	Platz	_	O	O	
+6-9	mißgönne	VVFIN	missgönnen	_	O	O	
+6-10	Uebrigens	NN	<unknown>	_	O	O	
+6-11	hätte	VAFIN	haben	_	O	O	
+6-12	ich	PPER	ich	_	O	O	
+6-13	gewünscht	VVPP	wünschen	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	dß	VVFIN	<unknown>	_	O	O	
+6-16	.	$.	.	_	O	O	
+
+#id=7
+#text=Sie ein paar solcher Siegel abgedruckt hätten.
+7-1	Sie	PPER	Sie	_	O	O	
+7-2	ein	ART	eine	_	O	O	
+7-3	paar	PIAT	paar	_	O	O	
+7-4	solcher	PIAT	solche	_	O	O	
+7-5	Siegel	NN	Siegel	_	O	O	
+7-6	abgedruckt	VVPP	abdrucken	_	O	O	
+7-7	hätten	VAFIN	haben	_	O	O	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=Wer nicht gerade Epigraphiker ist, oder sonst zufällig sich um dse. Specialität von Monumenten bekümmert hat, erhält zu wenig, um sich eine ordentliche Vorstellung davon machen zu können.
+8-1	Wer	PWS	wer	_	O	O	
+8-2	nicht	PTKNEG	nicht	_	O	O	
+8-3	gerade	ADV	gerade	_	O	O	
+8-4	Epigraphiker	NN	<unknown>	_	O	O	
+8-5	ist	VAFIN	sein	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	oder	KON	oder	_	O	O	
+8-8	sonst	ADV	sonst	_	O	O	
+8-9	zufällig	ADJD	zufällig	_	O	O	
+8-10	sich	PRF	sich	_	O	O	
+8-11	um	APPR	um	_	O	O	
+8-12	dse	NE	<unknown>	_	O	O	
+8-13	.	$.	.	_	O	O	
+8-14	Specialität	NN	<unknown>	_	O	O	
+8-15	von	APPR	von	_	O	O	
+8-16	Monumenten	NN	Monument	_	O	O	
+8-17	bekümmert	VVPP	bekümmern	_	O	O	
+8-18	hat	VAFIN	haben	_	O	O	
+8-19	,	$,	,	_	O	O	
+8-20	erhält	VVFIN	erhalten	_	O	O	
+8-21	zu	APPR	zu	_	O	O	
+8-22	wenig	PIS	wenige	_	O	O	
+8-23	,	$,	,	_	O	O	
+8-24	um	KOUI	um	_	O	O	
+8-25	sich	PRF	sich	_	O	O	
+8-26	eine	ART	eine	_	O	O	
+8-27	ordentliche	ADJA	ordentlich	_	O	O	
+8-28	Vorstellung	NN	Vorstellung	_	O	O	
+8-29	davon	PAV	davon	_	O	O	
+8-30	machen	VVINF	machen	_	O	O	
+8-31	zu	PTKZU	zu	_	O	O	
+8-32	können	VMINF	können	_	O	O	
+8-33	.	$.	.	_	O	O	
+
+#id=9
+#text=Braun meint, ob nicht das Odium, ds.
+9-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	meint	VVFIN	meinen	_	O	O	
+9-3	,	$,	,	_	O	O	
+9-4	ob	KOUS	ob	_	O	O	
+9-5	nicht	PTKNEG	nicht	_	O	O	
+9-6	das	ART	die	_	O	O	
+9-7	Odium	NN	<unknown>	_	O	O	
+9-8	,	$,	,	_	O	O	
+9-9	ds.	ADJA	<unknown>	_	O	O	
+
+#id=10
+#text=auf Dr.
+10-1	auf	APPR	auf	_	O	O	
+10-2	Dr.	NN	Dr.	_	O	O	
+
+#id=11
+#text=Brugsch lastet, doch dadurch ein wenig vermehrt würde, dß.
+11-1	Brugsch	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	lastet	VVFIN	lasten	_	O	O	
+11-3	,	$,	,	_	O	O	
+11-4	doch	ADV	doch	_	O	O	
+11-5	dadurch	PAV	dadurch	_	O	O	
+11-6	ein	ART	eine	_	O	O	
+11-7	wenig	PIS	wenige	_	O	O	
+11-8	vermehrt	VVPP	vermehren	_	O	O	
+11-9	würde	VAFIN	werden	_	O	O	
+11-10	,	$,	,	_	O	O	
+11-11	dß	VVFIN	<unknown>	_	O	O	
+11-12	.	$.	.	_	O	O	
+
+#id=12
+#text=seine Angriffe der geheiligten Person eines Akademikers gelten.
+12-1	seine	PPOSAT	sein	_	O	O	
+12-2	Angriffe	NN	Angriff	_	O	O	
+12-3	der	ART	die	_	O	O	
+12-4	geheiligten	ADJA	geheiligt	_	O	O	
+12-5	Person	NN	Person	_	O	O	
+12-6	eines	ART	eine	_	O	O	
+12-7	Akademikers	NN	Akademiker	_	O	O	
+12-8	gelten	VVINF	gelten	_	O	O	
+12-9	.	$.	.	_	O	O	
+
+#id=13
+#text=Er habe sonst allerlei Gutes über ihn, oder vielmehr über seine Leistungen,gehört.
+13-1	Er	PPER	er	_	O	O	
+13-2	habe	VAFIN	haben	_	O	O	
+13-3	sonst	ADV	sonst	_	O	O	
+13-4	allerlei	PIAT	allerlei	_	O	O	
+13-5	Gutes	NN	Gute	_	O	O	
+13-6	über	APPR	über	_	O	O	
+13-7	ihn	PPER	er	_	O	O	
+13-8	,	$,	,	_	O	O	
+13-9	oder	KON	oder	_	O	O	
+13-10	vielmehr	ADV	vielmehr	_	O	O	
+13-11	über	APPR	über	_	O	O	
+13-12	seine	PPOSAT	sein	_	O	O	
+13-13	Leistungen,gehört	NN	<unknown>	_	O	O	
+13-14	.	$.	.	_	O	O	
+
+#id=14
+#text=Wegen der gewünschten Bücher ist bei allen Römischen Antiquaren angefragt.
+14-1	Wegen	APPR	wegen	_	O	O	
+14-2	der	ART	die	_	O	O	
+14-3	gewünschten	ADJA	gewünscht	_	O	O	
+14-4	Bücher	NN	Buch	_	O	O	
+14-5	ist	VAFIN	sein	_	O	O	
+14-6	bei	APPR	bei	_	O	O	
+14-7	allen	PIAT	alle	_	O	O	
+14-8	Römischen	ADJA	römisch	_	O	O	
+14-9	Antiquaren	NN	<unknown>	_	O	O	
+14-10	angefragt	VVPP	anfragen	_	O	O	
+14-11	.	$.	.	_	O	O	
+
+#id=15
+#text=Lanzi ist für 2.50 zu haben; Zoega, ohne Text, jetzt für 8 Sc.
+15-1	Lanzi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-2	ist	VAFIN	sein	_	O	O	
+15-3	für	APPR	für	_	O	O	
+15-4	2.50	CARD	@card@	_	O	O	
+15-5	zu	PTKZU	zu	_	O	O	
+15-6	haben	VAINF	haben	_	O	O	
+15-7	;	$.	;	_	O	O	
+15-8	Zoega	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-9	,	$,	,	_	O	O	
+15-10	ohne	APPR	ohne	_	O	O	
+15-11	Text	NN	Text	_	O	O	
+15-12	,	$,	,	_	O	O	
+15-13	jetzt	ADV	jetzt	_	O	O	
+15-14	für	APPR	für	_	O	O	
+15-15	8	CARD	8	_	O	O	
+15-16	Sc.	NN	<unknown>	_	O	O	
+
+#id=16
+#text=Sonst Nichts.
+16-1	Sonst	ADV	sonst	_	O	O	
+16-2	Nichts	PIS	nichts	_	O	O	
+16-3	.	$.	.	_	O	O	
+
+#id=17
+#text=Ehe ich aber nach Florenz schreibe, warte ich die Ausgabe ds.
+17-1	Ehe	KOUS	ehe	_	O	O	
+17-2	ich	PPER	ich	_	O	O	
+17-3	aber	ADV	aber	_	O	O	
+17-4	nach	APPR	nach	_	O	O	
+17-5	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+17-6	schreibe	VVFIN	schreiben	_	O	O	
+17-7	,	$,	,	_	O	O	
+17-8	warte	VVFIN	warten	_	O	O	
+17-9	ich	PPER	ich	_	O	O	
+17-10	die	ART	die	_	O	O	
+17-11	Ausgabe	NN	Ausgabe	_	O	O	
+17-12	ds.	ADJD	<unknown>	_	O	O	
+
+#id=18
+#text=Katalogs einer Auction ab, die in nächster Woche beginnen soll u. nach der Versicherung des Antiquars sämmtliche Werke enthalten dürfte.
+18-1	Katalogs	NN	Katalog	_	O	O	
+18-2	einer	ART	eine	_	O	O	
+18-3	Auction	NN	<unknown>	_	O	O	
+18-4	ab	PTKVZ	ab	_	O	O	
+18-5	,	$,	,	_	O	O	
+18-6	die	PRELS	die	_	O	O	
+18-7	in	APPR	in	_	O	O	
+18-8	nächster	ADJA	nah	_	O	O	
+18-9	Woche	NN	Woche	_	O	O	
+18-10	beginnen	VVINF	beginnen	_	O	O	
+18-11	soll	VMFIN	sollen	_	O	O	
+18-12	u.	KON	und	_	O	O	
+18-13	nach	APPR	nach	_	O	O	
+18-14	der	ART	die	_	O	O	
+18-15	Versicherung	NN	Versicherung	_	O	O	
+18-16	des	ART	die	_	O	O	
+18-17	Antiquars	NN	Antiquar	_	O	O	
+18-18	sämmtliche	ADJA	<unknown>	_	O	O	
+18-19	Werke	NN	Werk	_	O	O	
+18-20	enthalten	VVINF	enthalten	_	O	O	
+18-21	dürfte	VMFIN	dürfen	_	O	O	
+18-22	.	$.	.	_	O	O	
+
+#id=19
+#text=Winckelmanns M.T. hat Braun in Molza.,'s Auction für Sie zu5 Baj.
+19-1	Winckelmanns	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+19-2	M.T.	NE	M.T.	_	O	O	
+19-3	hat	VAFIN	haben	_	O	O	
+19-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+19-5	in	APPR	in	_	O	O	
+19-6	Molza.,'s	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+19-7	Auction	NN	<unknown>	_	O	O	
+19-8	für	APPR	für	_	O	O	
+19-9	Sie	PPER	Sie	_	O	O	
+19-10	zu5	VVFIN	<unknown>	_	O	O	
+19-11	Baj	NE	<unknown>	_	O	O	
+19-12	.	$.	.	_	O	O	
+
+#id=20
+#text=über den Ansatz von 2.50 erworben, also sehr wohlfeil.
+20-1	über	APPR	über	_	O	O	
+20-2	den	ART	die	_	O	O	
+20-3	Ansatz	NN	Ansatz	_	O	O	
+20-4	von	APPR	von	_	O	O	
+20-5	2.50	CARD	@card@	_	O	O	
+20-6	erworben	VVPP	erwerben	_	O	O	
+20-7	,	$,	,	_	O	O	
+20-8	also	ADV	also	_	O	O	
+20-9	sehr	ADV	sehr	_	O	O	
+20-10	wohlfeil	ADJD	wohlfeil	_	O	O	
+20-11	.	$.	.	_	O	O	
+
+#id=21
+#text=Zum Dank dafür bittet er ihm zu sagen, ~ sein Aufsatz über zu
+21-1	Zum	APPRART	zu	_	O	O	
+21-2	Dank	NN	Dank	_	O	O	
+21-3	dafür	PAV	dafür	_	O	O	
+21-4	bittet	VVFIN	bitten	_	O	O	
+21-5	er	PPER	er	_	O	O	
+21-6	ihm	PPER	er	_	O	O	
+21-7	zu	PTKZU	zu	_	O	O	
+21-8	sagen	VVINF	sagen	_	O	O	
+21-9	,	$,	,	_	O	O	
+21-10	~	XY	~	_	O	O	
+21-11	sein	PPOSAT	sein	_	O	O	
+21-12	Aufsatz	NN	Aufsatz	_	O	O	
+21-13	über	APPR	über	_	O	O	
+21-14	zu	APPR	zu	_	O	O	
+

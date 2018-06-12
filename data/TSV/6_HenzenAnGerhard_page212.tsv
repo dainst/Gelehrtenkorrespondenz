@@ -1,0 +1,303 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=f- \ Ohne Nummer Henzen an Gerhard 19/VIII/54 Verehrter Herr Professor Vorgestern erhielt ich dh.
+1-1	f-	TRUNC	F-	_	O	O	
+1-2	\	XY	\	_	O	O	
+1-3	Ohne	APPR	ohne	_	O	O	
+1-4	Nummer	NN	Nummer	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	19/VIII/54	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	Verehrter	ADJA	verehrt	_	O	O	
+1-10	Herr	NN	Herr	_	O	O	
+1-11	Professor	NN	Professor	_	O	O	
+1-12	Vorgestern	NN	<unknown>	_	O	O	
+1-13	erhielt	VVFIN	erhalten	_	O	O	
+1-14	ich	PPER	ich	_	O	O	
+1-15	dh.	NE	<unknown>	_	O	O	
+
+#id=2
+#text=die Gesandtschaft ein Schreiben des Ninisters Raumer u. ein k5nigl.
+2-1	die	ART	die	_	O	O	
+2-2	Gesandtschaft	NN	Gesandtschaft	_	O	O	
+2-3	ein	ART	eine	_	O	O	
+2-4	Schreiben	NN	Schreiben	_	O	O	
+2-5	des	ART	die	_	O	O	
+2-6	Ninisters	NN	<unknown>	_	O	O	
+2-7	Raumer	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-8	u.	APPR	um	_	O	O	
+2-9	ein	ART	eine	_	O	O	
+2-10	k5nigl	NN	<unknown>	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Patent als Professor in partibus, das mir sehr unerwartet kam.
+3-1	Patent	ADJD	patent	_	O	O	
+3-2	als	KOKOM	als	_	O	O	
+3-3	Professor	NN	Professor	_	O	O	
+3-4	in	APPR	in	_	O	O	
+3-5	partibus	NN	<unknown>	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	das	PRELS	die	_	O	O	
+3-8	mir	PPER	ich	_	O	O	
+3-9	sehr	ADV	sehr	_	O	O	
+3-10	unerwartet	ADJD	unerwartet	_	O	O	
+3-11	kam	VVFIN	kommen	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Wahrscheinlieh verdanke ich es ganz besonders Ihnen u. Ihrer Verwendung u. will daher nicht z5gern, Ihnen meinen herzlichen Dank dafür zu sagen.
+4-1	Wahrscheinlieh	NN	<unknown>	_	O	O	
+4-2	verdanke	VVFIN	verdanken	_	O	O	
+4-3	ich	PPER	ich	_	O	O	
+4-4	es	PPER	es	_	O	O	
+4-5	ganz	ADV	ganz	_	O	O	
+4-6	besonders	ADV	besonders	_	O	O	
+4-7	Ihnen	PPER	Sie	_	O	O	
+4-8	u.	APPR	um	_	O	O	
+4-9	Ihrer	PPOSAT	ihr	_	O	O	
+4-10	Verwendung	NN	Verwendung	_	O	O	
+4-11	u.	KON	und	_	O	O	
+4-12	will	VMFIN	wollen	_	O	O	
+4-13	daher	PAV	daher	_	O	O	
+4-14	nicht	PTKNEG	nicht	_	O	O	
+4-15	z5gern	VVINF	<unknown>	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	Ihnen	PPER	Sie	_	O	O	
+4-18	meinen	VVFIN	meinen	_	O	O	
+4-19	herzlichen	ADJA	herzlich	_	O	O	
+4-20	Dank	NN	Dank	_	O	O	
+4-21	dafür	PAV	dafür	_	O	O	
+4-22	zu	PTKZU	zu	_	O	O	
+4-23	sagen	VVINF	sagen	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=Es scheint mir, daß damit flir mich erreicht ist, waB ich so lange gew1inscht, nämlich eine gewisse Garantie für künftige Zeiten, und, so komisch mir diese Professur in partibus auch sonst vorkommt, so bin ich doch in dieser Hinsicht sehr froh darüber und Ihnen sehr dankbar.
+5-1	Es	PPER	es	_	O	O	
+5-2	scheint	VVFIN	scheinen	_	O	O	
+5-3	mir	PPER	ich	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	daß	KOUS	dass	_	O	O	
+5-6	damit	PAV	damit	_	O	O	
+5-7	flir	NE	<unknown>	_	O	O	
+5-8	mich	PRF	ich	_	O	O	
+5-9	erreicht	VVPP	erreichen	_	O	O	
+5-10	ist	VAFIN	sein	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	waB	VVFIN	<unknown>	_	O	O	
+5-13	ich	PPER	ich	_	O	O	
+5-14	so	ADV	so	_	O	O	
+5-15	lange	ADV	lange	_	O	O	
+5-16	gew1inscht	VVFIN	<unknown>	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	nämlich	ADV	nämlich	_	O	O	
+5-19	eine	ART	eine	_	O	O	
+5-20	gewisse	ADJA	gewiss	_	O	O	
+5-21	Garantie	NN	Garantie	_	O	O	
+5-22	für	APPR	für	_	O	O	
+5-23	künftige	ADJA	künftig	_	O	O	
+5-24	Zeiten	NN	Zeit	_	O	O	
+5-25	,	$,	,	_	O	O	
+5-26	und	KON	und	_	O	O	
+5-27	,	$,	,	_	O	O	
+5-28	so	ADV	so	_	O	O	
+5-29	komisch	ADJD	komisch	_	O	O	
+5-30	mir	PPER	ich	_	O	O	
+5-31	diese	PDAT	dies	_	O	O	
+5-32	Professur	NN	Professur	_	O	O	
+5-33	in	APPR	in	_	O	O	
+5-34	partibus	NN	<unknown>	_	O	O	
+5-35	auch	ADV	auch	_	O	O	
+5-36	sonst	ADV	sonst	_	O	O	
+5-37	vorkommt	VVFIN	vorkommen	_	O	O	
+5-38	,	$,	,	_	O	O	
+5-39	so	ADV	so	_	O	O	
+5-40	bin	VAFIN	sein	_	O	O	
+5-41	ich	PPER	ich	_	O	O	
+5-42	doch	ADV	doch	_	O	O	
+5-43	in	APPR	in	_	O	O	
+5-44	dieser	PDAT	dies	_	O	O	
+5-45	Hinsicht	NN	Hinsicht	_	O	O	
+5-46	sehr	ADV	sehr	_	O	O	
+5-47	froh	ADJD	froh	_	O	O	
+5-48	darüber	PAV	darüber	_	O	O	
+5-49	und	KON	und	_	O	O	
+5-50	Ihnen	PPER	Sie	_	O	O	
+5-51	sehr	ADV	sehr	_	O	O	
+5-52	dankbar	ADJD	dankbar	_	O	O	
+5-53	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich schicke dh.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	schicke	VVFIN	schicken	_	O	O	
+6-3	dh.	NE	<unknown>	_	O	O	
+
+#id=7
+#text=die Gesandtschaft sofort Dankbriefe an Raumer u. Jo Schulze, von Ihnen aber m5chte ich wissen, ob auch an den K5ni~ selber ein solcher zu richten sei, wes mjr nicht wahrscheinlich ist.
+7-1	die	ART	die	_	O	O	
+7-2	Gesandtschaft	NN	Gesandtschaft	_	O	O	
+7-3	sofort	ADV	sofort	_	O	O	
+7-4	Dankbriefe	NN	<unknown>	_	O	O	
+7-5	an	APPR	an	_	O	O	
+7-6	Raumer	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-7	u.	APPR	um	_	O	O	
+7-8	Jo	NE	Jo	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-9	Schulze	NE	Schulze	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-10	,	$,	,	_	O	O	
+7-11	von	APPR	von	_	O	O	
+7-12	Ihnen	PPER	Sie	_	O	O	
+7-13	aber	ADV	aber	_	O	O	
+7-14	m5chte	VVFIN	<unknown>	_	O	O	
+7-15	ich	PPER	ich	_	O	O	
+7-16	wissen	VVINF	wissen	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	ob	KOUS	ob	_	O	O	
+7-19	auch	ADV	auch	_	O	O	
+7-20	an	APPR	an	_	O	O	
+7-21	den	ART	die	_	O	O	
+7-22	K5ni~	NN	<unknown>	_	O	O	
+7-23	selber	ADV	selber	_	O	O	
+7-24	ein	ART	eine	_	O	O	
+7-25	solcher	PIS	solche	_	O	O	
+7-26	zu	PTKZU	zu	_	O	O	
+7-27	richten	VVINF	richten	_	O	O	
+7-28	sei	VAFIN	sein	_	O	O	
+7-29	,	$,	,	_	O	O	
+7-30	wes	VVFIN	<unknown>	_	O	O	
+7-31	mjr	NE	<unknown>	_	O	O	
+7-32	nicht	PTKNEG	nicht	_	O	O	
+7-33	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+7-34	ist	VAFIN	sein	_	O	O	
+7-35	.	$.	.	_	O	O	
+
+#id=8
+#text=Außerdem m5chte ich Sie freundlichst ersuchen, die 15 Sg • Stempelgeblihr flir mich zahlen zu lassen, zu welchem ~nde ich einlegenden Zettel mitschicke.
+8-1	Außerdem	ADV	außerdem	_	O	O	
+8-2	m5chte	VVFIN	<unknown>	_	O	O	
+8-3	ich	PPER	ich	_	O	O	
+8-4	Sie	PPER	Sie	_	O	O	
+8-5	freundlichst	ADJD	freundlich	_	O	O	
+8-6	ersuchen	VVINF	ersuchen	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	die	PRELS	die	_	O	O	
+8-9	15	CARD	15	_	O	O	
+8-10	Sg	NE	<unknown>	_	O	O	
+8-11	•	ADJA	<unknown>	_	O	O	
+8-12	Stempelgeblihr	NN	<unknown>	_	O	O	
+8-13	flir	NE	<unknown>	_	O	O	
+8-14	mich	PRF	ich	_	O	O	
+8-15	zahlen	VVINF	zahlen	_	O	O	
+8-16	zu	PTKZU	zu	_	O	O	
+8-17	lassen	VVINF	lassen	_	O	O	
+8-18	,	$,	,	_	O	O	
+8-19	zu	APPR	zu	_	O	O	
+8-20	welchem	PRELS	welche	_	O	O	
+8-21	~nde	ADJD	<unknown>	_	O	O	
+8-22	ich	PPER	ich	_	O	O	
+8-23	einlegenden	ADJA	<unknown>	_	O	O	
+8-24	Zettel	NN	Zettel	_	O	O	
+8-25	mitschicke	VVFIN	<unknown>	_	O	O	
+8-26	.	$.	.	_	O	O	
+
+#id=9
+#text=Sie haben ja doch mit dem Institut ein Conto, und kann auf diese Art die Sache am Leichtesten reculirt werden.
+9-1	Sie	PPER	Sie	_	O	O	
+9-2	haben	VAFIN	haben	_	O	O	
+9-3	ja	ADV	ja	_	O	O	
+9-4	doch	ADV	doch	_	O	O	
+9-5	mit	APPR	mit	_	O	O	
+9-6	dem	ART	die	_	O	O	
+9-7	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-8	ein	ART	eine	_	O	O	
+9-9	Conto	NN	<unknown>	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	und	KON	und	_	O	O	
+9-12	kann	VMFIN	können	_	O	O	
+9-13	auf	APPR	auf	_	O	O	
+9-14	diese	PDAT	dies	_	O	O	
+9-15	Art	NN	Art	_	O	O	
+9-16	die	ART	die	_	O	O	
+9-17	Sache	NN	Sache	_	O	O	
+9-18	am	APPRART	an	_	O	O	
+9-19	Leichtesten	ADJA	leicht	_	O	O	
+9-20	reculirt	NN	<unknown>	_	O	O	
+9-21	werden	VAINF	werden	_	O	O	
+9-22	.	$.	.	_	O	O	
+
+#id=10
+#text=Das Befinden meiner Frau besserte sich, seit ich Ihnen zuletzt schrieb, entschieden, bis vor etwa 6 Tagen wieder Alles schlimmer ward, und zwar schlimmer, als je zuvor.
+10-1	Das	ART	die	_	O	O	
+10-2	Befinden	NN	Befinden	_	O	O	
+10-3	meiner	PPOSAT	mein	_	O	O	
+10-4	Frau	NN	Frau	_	O	O	
+10-5	besserte	VVFIN	bessern	_	O	O	
+10-6	sich	PRF	sich	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	seit	KOUS	seit	_	O	O	
+10-9	ich	PPER	ich	_	O	O	
+10-10	Ihnen	PPER	Sie	_	O	O	
+10-11	zuletzt	ADV	zuletzt	_	O	O	
+10-12	schrieb	VVFIN	schreiben	_	O	O	
+10-13	,	$,	,	_	O	O	
+10-14	entschieden	VVPP	entscheiden	_	O	O	
+10-15	,	$,	,	_	O	O	
+10-16	bis	KOUS	bis	_	O	O	
+10-17	vor	APPR	vor	_	O	O	
+10-18	etwa	ADV	etwa	_	O	O	
+10-19	6	CARD	6	_	O	O	
+10-20	Tagen	NN	Tag	_	O	O	
+10-21	wieder	ADV	wieder	_	O	O	
+10-22	Alles	PIS	alle	_	O	O	
+10-23	schlimmer	ADJD	schlimm	_	O	O	
+10-24	ward	VVFIN	werd	_	O	O	
+10-25	,	$,	,	_	O	O	
+10-26	und	KON	und	_	O	O	
+10-27	zwar	ADV	zwar	_	O	O	
+10-28	schlimmer	ADJD	schlimm	_	O	O	
+10-29	,	$,	,	_	O	O	
+10-30	als	KOUS	als	_	O	O	
+10-31	je	ADV	je	_	O	O	
+10-32	zuvor	ADV	zuvor	_	O	O	
+10-33	.	$.	.	_	O	O	
+
+#id=11
+#text=Inder scheint dieses die eigentliche Krisis gewesen zu sein; denn seit gestern sind bedeutende Entleerungen eingetreten, in deren J!olge alle f3cnmerzen u. hrämpfe aufgeh5rt haben und nur groBe Ermattung ilbrig geblieben
+11-1	Inder	NN	Inder	_	O	O	
+11-2	scheint	VVFIN	scheinen	_	O	O	
+11-3	dieses	PDAT	dies	_	O	O	
+11-4	die	ART	die	_	O	O	
+11-5	eigentliche	ADJA	eigentlich	_	O	O	
+11-6	Krisis	NN	Krisis	_	O	O	
+11-7	gewesen	VAPP	sein	_	O	O	
+11-8	zu	PTKZU	zu	_	O	O	
+11-9	sein	VAINF	sein	_	O	O	
+11-10	;	$.	;	_	O	O	
+11-11	denn	KON	denn	_	O	O	
+11-12	seit	APPR	seit	_	O	O	
+11-13	gestern	ADV	gestern	_	O	O	
+11-14	sind	VAFIN	sein	_	O	O	
+11-15	bedeutende	ADJA	bedeutend	_	O	O	
+11-16	Entleerungen	NN	Entleerung	_	O	O	
+11-17	eingetreten	VVPP	eintreten	_	O	O	
+11-18	,	$,	,	_	O	O	
+11-19	in	APPR	in	_	O	O	
+11-20	deren	PRELAT	die	_	O	O	
+11-21	J	NN	J	_	O	O	
+11-22	!	$.	!	_	O	O	
+11-23	olge	NN	<unknown>	_	O	O	
+11-24	alle	PIAT	alle	_	O	O	
+11-25	f3cnmerzen	NN	<unknown>	_	O	O	
+11-26	u.	APPR	um	_	O	O	
+11-27	hrämpfe	NN	<unknown>	_	O	O	
+11-28	aufgeh5rt	VVPP	<unknown>	_	O	O	
+11-29	haben	VAFIN	haben	_	O	O	
+11-30	und	KON	und	_	O	O	
+11-31	nur	ADV	nur	_	O	O	
+11-32	groBe	ADJA	grob	_	O	O	
+11-33	Ermattung	NN	Ermattung	_	O	O	
+11-34	ilbrig	ADJD	<unknown>	_	O	O	
+11-35	geblieben	VVPP	bleiben	_	O	O	
+

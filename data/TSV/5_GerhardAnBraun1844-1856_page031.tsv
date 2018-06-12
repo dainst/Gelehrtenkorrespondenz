@@ -1,0 +1,191 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=--~--;i' 109 Gerhard an Braun Berlin, 20. Februar 1844 3 worden, wird aber endlich schreiben.
+1-1	--	$(	--	_	O	O	
+1-2	~	XY	~	_	O	O	
+1-3	--	$(	--	_	O	O	
+1-4	;	$.	;	_	O	O	
+1-5	i	NE	i	_	O	O	
+1-6	'	$(	'	_	O	O	
+1-7	109	CARD	@card@	_	O	O	
+1-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-9	an	APPR	an	_	O	O	
+1-10	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-11	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-12	,	$,	,	_	O	O	
+1-13	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-14	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	3	CARD	3	_	O	O	
+1-18	worden	VAPP	werden	_	O	O	
+1-19	,	$,	,	_	O	O	
+1-20	wird	VAFIN	werden	_	O	O	
+1-21	aber	ADV	aber	_	O	O	
+1-22	endlich	ADV	endlich	_	O	O	
+1-23	schreiben	VVINF	schreiben	_	O	O	
+1-24	.	$.	.	_	O	O	
+
+#id=2
+#text=Schulz D s Densis schreibt mir auch nicht.
+2-1	Schulz	NE	Schulz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	D	NN	D	_	O	O	
+2-3	s	NN	s	_	O	O	
+2-4	Densis	NN	<unknown>	_	O	O	
+2-5	schreibt	VVFIN	schreiben	_	O	O	
+2-6	mir	PPER	ich	_	O	O	
+2-7	auch	ADV	auch	_	O	O	
+2-8	nicht	PTKNEG	nicht	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Den Calandrelli mag ich nicht sehen, werde aber durch Krause zu agiren suchen.
+3-1	Den	ART	die	_	O	O	
+3-2	Calandrelli	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	mag	VMFIN	mögen	_	O	O	
+3-4	ich	PPER	ich	_	O	O	
+3-5	nicht	PTKNEG	nicht	_	O	O	
+3-6	sehen	VVINF	sehen	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	werde	VAFIN	werden	_	O	O	
+3-9	aber	ADV	aber	_	O	O	
+3-10	durch	APPR	durch	_	O	O	
+3-11	Krause	NE	Krause	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-12	zu	APPR	zu	_	O	O	
+3-13	agiren	NN	<unknown>	_	O	O	
+3-14	suchen	VVINF	suchen	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Daß Apolloni ein solcher Lump ist, thtut mir recht leid.
+4-1	Daß	KOUS	dass	_	O	O	
+4-2	Apolloni	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	ein	ART	eine	_	O	O	
+4-4	solcher	PIAT	solche	_	O	O	
+4-5	Lump	NN	Lump	_	O	O	
+4-6	ist	VAFIN	sein	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	thtut	VVFIN	<unknown>	_	O	O	
+4-9	mir	PPER	ich	_	O	O	
+4-10	recht	ADJD	recht	_	O	O	
+4-11	leid	ADJD	leid	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Lepsius schöner Bericht in Nr. 40 der Allgemeinen Preußischen Zeitung kam Ihnen hoffentlich zu Gesicht.
+5-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	schöner	ADJA	schön	_	O	O	
+5-3	Bericht	NN	Bericht	_	O	O	
+5-4	in	APPR	in	_	O	O	
+5-5	Nr.	NN	Nr.	_	O	O	
+5-6	40	CARD	40	_	O	O	
+5-7	der	ART	die	_	O	O	
+5-8	Allgemeinen	ADJA	allgemein	_	O	O	
+5-9	Preußischen	ADJA	preußisch	_	O	O	
+5-10	Zeitung	NN	Zeitung	_	O	O	
+5-11	kam	VVFIN	kommen	_	O	O	
+5-12	Ihnen	PPER	Sie	_	O	O	
+5-13	hoffentlich	ADV	hoffentlich	_	O	O	
+5-14	zu	APPR	zu	_	O	O	
+5-15	Gesicht	NN	Gesicht	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Curtius hat mit größtem Succeß, fast über Reumont, dem höchsten und galanten Publikum die Akropolis anschaulich gemacht; er hat viel Darstellungsgabe.
+6-1	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	hat	VAFIN	haben	_	O	O	
+6-3	mit	APPR	mit	_	O	O	
+6-4	größtem	ADJA	groß	_	O	O	
+6-5	Succeß	NN	<unknown>	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	fast	ADV	fast	_	O	O	
+6-8	über	APPR	über	_	O	O	
+6-9	Reumont	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	,	$,	,	_	O	O	
+6-11	dem	ART	die	_	O	O	
+6-12	höchsten	ADJA	hoch	_	O	O	
+6-13	und	KON	und	_	O	O	
+6-14	galanten	ADJA	galant	_	O	O	
+6-15	Publikum	NN	Publikum	_	O	O	
+6-16	die	ART	die	_	O	O	
+6-17	Akropolis	NN	<unknown>	_	O	O	
+6-18	anschaulich	ADJD	anschaulich	_	O	O	
+6-19	gemacht	VVPP	machen	_	O	O	
+6-20	;	$.	;	_	O	O	
+6-21	er	PPER	er	_	O	O	
+6-22	hat	VAFIN	haben	_	O	O	
+6-23	viel	PIAT	viele	_	O	O	
+6-24	Darstellungsgabe	NN	<unknown>	_	O	O	
+6-25	.	$.	.	_	O	O	
+
+#id=7
+#text=Anbei Berufliches für Henzen bitte für seinen neulichen Brief vorläufig zu danken; von Vollards grausam lange nichts.
+7-1	Anbei	ADV	anbei	_	O	O	
+7-2	Berufliches	NN	Berufliche	_	O	O	
+7-3	für	APPR	für	_	O	O	
+7-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-5	bitte	VVFIN	bitten	_	O	O	
+7-6	für	APPR	für	_	O	O	
+7-7	seinen	PPOSAT	sein	_	O	O	
+7-8	neulichen	ADJA	<unknown>	_	O	O	
+7-9	Brief	NN	Brief	_	O	O	
+7-10	vorläufig	ADJD	vorläufig	_	O	O	
+7-11	zu	PTKZU	zu	_	O	O	
+7-12	danken	VVINF	danken	_	O	O	
+7-13	;	$.	;	_	O	O	
+7-14	von	APPR	von	_	O	O	
+7-15	Vollards	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-16	grausam	ADJD	grausam	_	O	O	
+7-17	lange	ADV	lange	_	O	O	
+7-18	nichts	PIS	nichts	_	O	O	
+7-19	.	$.	.	_	O	O	
+
+#id=8
+#text=Daß Ihre Xylographie Zeit erheischt begreift sich; daß auch das Bullettino seinen Termin haben will, werden Sie dabei nicht vergessen.
+8-1	Daß	KOUS	dass	_	O	O	
+8-2	Ihre	PPOSAT	ihr	_	O	O	
+8-3	Xylographie	NN	<unknown>	_	O	O	
+8-4	Zeit	NN	Zeit	_	O	O	
+8-5	erheischt	VVPP	erheischen	_	O	O	
+8-6	begreift	VVFIN	begreifen	_	O	O	
+8-7	sich	PRF	sich	_	O	O	
+8-8	;	$.	;	_	O	O	
+8-9	daß	KOUS	dass	_	O	O	
+8-10	auch	ADV	auch	_	O	O	
+8-11	das	ART	die	_	O	O	
+8-12	Bullettino	NN	<unknown>	_	O	O	
+8-13	seinen	PPOSAT	sein	_	O	O	
+8-14	Termin	NN	Termin	_	O	O	
+8-15	haben	VAINF	haben	_	O	O	
+8-16	will	VMFIN	wollen	_	O	O	
+8-17	,	$,	,	_	O	O	
+8-18	werden	VAFIN	werden	_	O	O	
+8-19	Sie	PPER	Sie	_	O	O	
+8-20	dabei	PAV	dabei	_	O	O	
+8-21	nicht	PTKNEG	nicht	_	O	O	
+8-22	vergessen	VVINF	vergessen	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=Ganz der Ihrige Gerhard Bis jetzt ist keine Rechnung wegen Prinz August und keine Mitgliederliste mit Marginalien mir zugegangen.
+9-1	Ganz	ADV	ganz	_	O	O	
+9-2	der	ART	die	_	O	O	
+9-3	Ihrige	PPOSAT	ihrige	_	O	O	
+9-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	Bis	APPR	bis	_	O	O	
+9-6	jetzt	ADV	jetzt	_	O	O	
+9-7	ist	VAFIN	sein	_	O	O	
+9-8	keine	PIAT	keine	_	O	O	
+9-9	Rechnung	NN	Rechnung	_	O	O	
+9-10	wegen	APPR	wegen	_	O	O	
+9-11	Prinz	NE	Prinz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-12	August	NE	August	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-13	und	KON	und	_	O	O	
+9-14	keine	PIAT	keine	_	O	O	
+9-15	Mitgliederliste	NN	Mitgliederliste	_	O	O	
+9-16	mit	APPR	mit	_	O	O	
+9-17	Marginalien	NE	<unknown>	_	O	O	
+9-18	mir	PPER	ich	_	O	O	
+9-19	zugegangen	VVPP	zugehen	_	O	O	
+9-20	.	$.	.	_	O	O	
+

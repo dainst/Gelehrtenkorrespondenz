@@ -1,0 +1,222 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=3 Gerhard an Braun Berlin, 16. Juli 1846 für zu sorgen daß es kein Ärgernis gebe.
+1-1	3	CARD	3	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	für	APPR	für	_	O	O	
+1-12	zu	PTKA	zu	_	O	O	
+1-13	sorgen	VVFIN	sorgen	_	O	O	
+1-14	daß	KOUS	dass	_	O	O	
+1-15	es	PPER	es	_	O	O	
+1-16	kein	PIAT	keine	_	O	O	
+1-17	Ärgernis	NN	Ärgernis	_	O	O	
+1-18	gebe	VVFIN	geben	_	O	O	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=Der ttbermuth seiner früheren Jahre ist durch schwere Lebenserfahrungen seitdem heruntergedrückt worden, für die er eine lang entbehrte belehrende und gesundende Anfrischung in Italien sucht, das ist auch zu beachten.
+2-1	Der	ART	die	_	O	O	
+2-2	ttbermuth	NE	<unknown>	_	O	O	
+2-3	seiner	PPOSAT	sein	_	O	O	
+2-4	früheren	ADJA	früh	_	O	O	
+2-5	Jahre	NN	Jahr	_	O	O	
+2-6	ist	VAFIN	sein	_	O	O	
+2-7	durch	APPR	durch	_	O	O	
+2-8	schwere	ADJA	schwer	_	O	O	
+2-9	Lebenserfahrungen	NN	Lebenserfahrung	_	O	O	
+2-10	seitdem	PAV	seitdem	_	O	O	
+2-11	heruntergedrückt	VVPP	herunterdrücken	_	O	O	
+2-12	worden	VAPP	werden	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	für	APPR	für	_	O	O	
+2-15	die	PRELS	die	_	O	O	
+2-16	er	PPER	er	_	O	O	
+2-17	eine	ART	eine	_	O	O	
+2-18	lang	ADJD	lang	_	O	O	
+2-19	entbehrte	ADJA	entbehrt	_	O	O	
+2-20	belehrende	ADJA	belehrend	_	O	O	
+2-21	und	KON	und	_	O	O	
+2-22	gesundende	ADJA	<unknown>	_	O	O	
+2-23	Anfrischung	NN	<unknown>	_	O	O	
+2-24	in	APPR	in	_	O	O	
+2-25	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-26	sucht	VVFIN	suchen	_	O	O	
+2-27	,	$,	,	_	O	O	
+2-28	das	PDS	die	_	O	O	
+2-29	ist	VAFIN	sein	_	O	O	
+2-30	auch	ADV	auch	_	O	O	
+2-31	zu	PTKZU	zu	_	O	O	
+2-32	beachten	VVINF	beachten	_	O	O	
+2-33	.	$.	.	_	O	O	
+
+#id=3
+#text=Luynes soll die Absicht haben mit seiner Frau den Winter in Italien zu verbringen.
+3-1	Luynes	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	soll	VMFIN	sollen	_	O	O	
+3-3	die	ART	die	_	O	O	
+3-4	Absicht	NN	Absicht	_	O	O	
+3-5	haben	VAFIN	haben	_	O	O	
+3-6	mit	APPR	mit	_	O	O	
+3-7	seiner	PPOSAT	sein	_	O	O	
+3-8	Frau	NN	Frau	_	O	O	
+3-9	den	ART	die	_	O	O	
+3-10	Winter	NN	Winter	_	O	O	
+3-11	in	APPR	in	_	O	O	
+3-12	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-13	zu	PTKZU	zu	_	O	O	
+3-14	verbringen	VVINF	verbringen	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Ihr den Hyperboräischen Studien zugesagtes Paragraphen Manuscript bedenken Sie wol in jetziger Mußezeit.
+4-1	Ihr	PPER	sie	_	O	O	
+4-2	den	ART	die	_	O	O	
+4-3	Hyperboräischen	ADJA	<unknown>	_	O	O	
+4-4	Studien	NN	Studie|Studium	_	O	O	
+4-5	zugesagtes	ADJA	zugesagt	_	O	O	
+4-6	Paragraphen	NN	Paragraph	_	O	O	
+4-7	Manuscript	NN	<unknown>	_	O	O	
+4-8	bedenken	VVFIN	bedenken	_	O	O	
+4-9	Sie	PPER	Sie	_	O	O	
+4-10	wol	ADJD	<unknown>	_	O	O	
+4-11	in	APPR	in	_	O	O	
+4-12	jetziger	ADJA	jetzig	_	O	O	
+4-13	Mußezeit	NN	<unknown>	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Sagen Sie Usedom das Herzlichste; habe ich Mittheilungen seiner würdig so werde ich sie ihm nicht vorenthalten.
+5-1	Sagen	VVFIN	sagen	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	das	ART	die	_	O	O	
+5-5	Herzlichste	NN	Herzlichste	_	O	O	
+5-6	;	$.	;	_	O	O	
+5-7	habe	VAFIN	haben	_	O	O	
+5-8	ich	PPER	ich	_	O	O	
+5-9	Mittheilungen	NN	<unknown>	_	O	O	
+5-10	seiner	PPOSAT	sein	_	O	O	
+5-11	würdig	ADJD	würdig	_	O	O	
+5-12	so	ADV	so	_	O	O	
+5-13	werde	VAFIN	werden	_	O	O	
+5-14	ich	PPER	ich	_	O	O	
+5-15	sie	PPER	sie	_	O	O	
+5-16	ihm	PPER	er	_	O	O	
+5-17	nicht	PTKNEG	nicht	_	O	O	
+5-18	vorenthalten	VVPP	vorenthalten	_	O	O	
+5-19	.	$.	.	_	O	O	
+
+#id=6
+#text=Getzer ist eben zurück; wir schreiben wol beide durch Panofka der bald nach Mitte August in Rom sein kann.
+6-1	Getzer	NN	<unknown>	_	O	O	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	eben	ADV	eben	_	O	O	
+6-4	zurück	PTKVZ	zurück	_	O	O	
+6-5	;	$.	;	_	O	O	
+6-6	wir	PPER	wir	_	O	O	
+6-7	schreiben	VVFIN	schreiben	_	O	O	
+6-8	wol	ADJD	<unknown>	_	O	O	
+6-9	beide	PIS	beide	_	O	O	
+6-10	durch	APPR	durch	_	O	O	
+6-11	Panofka	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-12	der	ART	die	_	O	O	
+6-13	bald	ADV	bald	_	O	O	
+6-14	nach	APPR	nach	_	O	O	
+6-15	Mitte	NN	Mitte	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-16	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-17	in	APPR	in	_	O	O	
+6-18	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-19	sein	VAINF	sein	_	O	O	
+6-20	kann	VMFIN	können	_	O	O	
+6-21	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich dränge ihn über Chiusi zu gehen; soll denn zur Publikation der neusten dortigen Wandmalerei nichts geschehen ?
+7-1	Ich	PPER	ich	_	O	O	
+7-2	dränge	VVFIN	dringen|drängen	_	O	O	
+7-3	ihn	PPER	er	_	O	O	
+7-4	über	APPR	über	_	O	O	
+7-5	Chiusi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-6	zu	PTKZU	zu	_	O	O	
+7-7	gehen	VVINF	gehen	_	O	O	
+7-8	;	$.	;	_	O	O	
+7-9	soll	VMFIN	sollen	_	O	O	
+7-10	denn	KON	denn	_	O	O	
+7-11	zur	APPRART	zu	_	O	O	
+7-12	Publikation	NN	Publikation	_	O	O	
+7-13	der	ART	die	_	O	O	
+7-14	neusten	ADJA	neu	_	O	O	
+7-15	dortigen	ADJA	dortig	_	O	O	
+7-16	Wandmalerei	NN	Wandmalerei	_	O	O	
+7-17	nichts	PIS	nichts	_	O	O	
+7-18	geschehen	VVINF	geschehen	_	O	O	
+7-19	?	$.	?	_	O	O	
+
+#id=8
+#text=Wissen Sie mir kein geschmackvolles Mbsaikchen römischen, anzi kapitolinischen Gegenstands für meine Frau anzurathen, zum Ersatz eines Mosaikpathrons das ihr in Mantua aus dem in der Post deponirten (aufgeplatzten oder aufgebrochnen) Koffer gestohlen ward ?
+8-1	Wissen	VVFIN	wissen	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	mir	PRF	ich	_	O	O	
+8-4	kein	PIAT	keine	_	O	O	
+8-5	geschmackvolles	ADJA	geschmackvoll	_	O	O	
+8-6	Mbsaikchen	NN	<unknown>	_	O	O	
+8-7	römischen	ADJA	römisch	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	anzi	ADJA	<unknown>	_	O	O	
+8-10	kapitolinischen	ADJA	<unknown>	_	O	O	
+8-11	Gegenstands	NN	Gegenstand	_	O	O	
+8-12	für	APPR	für	_	O	O	
+8-13	meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-14	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-15	anzurathen	VVIZU	<unknown>	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	zum	APPRART	zu	_	O	O	
+8-18	Ersatz	NN	Ersatz	_	O	O	
+8-19	eines	ART	eine	_	O	O	
+8-20	Mosaikpathrons	NN	<unknown>	_	O	O	
+8-21	das	ART	die	_	O	O	
+8-22	ihr	PPOSAT	ihr	_	O	O	
+8-23	in	APPR	in	_	O	O	
+8-24	Mantua	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-25	aus	APPR	aus	_	O	O	
+8-26	dem	ART	die	_	O	O	
+8-27	in	APPR	in	_	O	O	
+8-28	der	ART	die	_	O	O	
+8-29	Post	NN	Post	_	O	O	
+8-30	deponirten	VVFIN	<unknown>	_	O	O	
+8-31	(	$(	(	_	O	O	
+8-32	aufgeplatzten	ADJA	aufgeplatzt	_	O	O	
+8-33	oder	KON	oder	_	O	O	
+8-34	aufgebrochnen	ADJA	<unknown>	_	O	O	
+8-35	)	$(	)	_	O	O	
+8-36	Koffer	NN	Koffer	_	O	O	
+8-37	gestohlen	VVPP	stehlen	_	O	O	
+8-38	ward	VVFIN	werd	_	O	O	
+8-39	?	$.	?	_	O	O	
+
+#id=9
+#text=Vollard hat kein Ohr dafür; ich meinte jedoch ertägliche Kapitolsansichten gesehen zu haben.
+9-1	Vollard	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	hat	VAFIN	haben	_	O	O	
+9-3	kein	PIAT	keine	_	O	O	
+9-4	Ohr	NN	Ohr	_	O	O	
+9-5	dafür	PAV	dafür	_	O	O	
+9-6	;	$.	;	_	O	O	
+9-7	ich	PPER	ich	_	O	O	
+9-8	meinte	VVFIN	meinen	_	O	O	
+9-9	jedoch	ADV	jedoch	_	O	O	
+9-10	ertägliche	ADJA	<unknown>	_	O	O	
+9-11	Kapitolsansichten	NN	<unknown>	_	O	O	
+9-12	gesehen	VVPP	sehen	_	O	O	
+9-13	zu	PTKZU	zu	_	O	O	
+9-14	haben	VAINF	haben	_	O	O	
+9-15	.	$.	.	_	O	O	
+

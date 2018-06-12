@@ -1,0 +1,307 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=28 6/11/54 Henzen an Gerhard Verehrtester Herr Professor Nach Vorzeigung Ihres 1.
+1-1	28	CARD	28	_	O	O	
+1-2	6/11/54	CARD	@card@	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Verehrtester	NN	<unknown>	_	O	O	
+1-7	Herr	NN	Herr	_	O	O	
+1-8	Professor	NN	Professor	_	O	O	
+1-9	Nach	APPR	nach	_	O	O	
+1-10	Vorzeigung	NN	<unknown>	_	O	O	
+1-11	Ihres	PPOSAT	ihr	_	O	O	
+1-12	1	CARD	1	_	O	O	
+1-13	.	$.	.	_	O	O	
+
+#id=2
+#text=Briefes vom 30t~n v. M. u. des Akademiebriefes vom November hat Marstaller mir die 100 rf.
+2-1	Briefes	NN	Brief	_	O	O	
+2-2	vom	APPRART	von	_	O	O	
+2-3	30t~n	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-4	v.	APPR	von	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-5	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-6	u.	APPR	um	_	O	O	
+2-7	des	ART	die	_	O	O	
+2-8	Akademiebriefes	NN	<unknown>	_	O	O	
+2-9	vom	APPRART	von	_	O	O	
+2-10	November	NN	November	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-11	hat	VAFIN	haben	_	O	O	
+2-12	Marstaller	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-13	mir	PRF	ich	_	O	O	
+2-14	die	ART	die	_	O	O	
+2-15	100	CARD	100	_	O	O	
+2-16	rf	VVFIN	<unknown>	_	O	O	
+2-17	.	$.	.	_	O	O	
+
+#id=3
+#text=ausbezahlt, unter Bedingung der Rückerstattung, wenn etwa in Berlin irgen~ einer fehlenden Formali~ tät wegen die Zahlung verweigert werde.
+3-1	ausbezahlt	VVPP	ausbezahlen	_	O	O	
+3-2	,	$,	,	_	O	O	
+3-3	unter	APPR	unter	_	O	O	
+3-4	Bedingung	NN	Bedingung	_	O	O	
+3-5	der	ART	die	_	O	O	
+3-6	Rückerstattung	NN	Rückerstattung	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	wenn	KOUS	wenn	_	O	O	
+3-9	etwa	ADV	etwa	_	O	O	
+3-10	in	APPR	in	_	O	O	
+3-11	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-12	irgen~	ADV	<unknown>	_	O	O	
+3-13	einer	ART	eine	_	O	O	
+3-14	fehlenden	ADJA	fehlend	_	O	O	
+3-15	Formali~	ADJA	<unknown>	_	O	O	
+3-16	tät	NN	<unknown>	_	O	O	
+3-17	wegen	APPR	wegen	_	O	O	
+3-18	die	ART	die	_	O	O	
+3-19	Zahlung	NN	Zahlung	_	O	O	
+3-20	verweigert	VVPP	verweigern	_	O	O	
+3-21	werde	VAFIN	werden	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=- Hinsichtlich I des I tes L.-_ nicht eingegangnen Contracts bestätige ich mein letzSchreiben.
+4-1	-	$(	-	_	O	O	
+4-2	Hinsichtlich	APPR	hinsichtlich	_	O	O	
+4-3	I	NN	I	_	O	O	
+4-4	des	ART	die	_	O	O	
+4-5	I	NN	I	_	O	O	
+4-6	tes	VVFIN	<unknown>	_	O	O	
+4-7	L.-_	NE	<unknown>	_	O	O	
+4-8	nicht	PTKNEG	nicht	_	O	O	
+4-9	eingegangnen	ADJA	<unknown>	_	O	O	
+4-10	Contracts	NN	<unknown>	_	O	O	
+4-11	bestätige	VVFIN	bestätigen	_	O	O	
+4-12	ich	PPER	ich	_	O	O	
+4-13	mein	PPOSAT	mein	_	O	O	
+4-14	letzSchreiben	ADJA	<unknown>	_	O	O	
+4-15	.	$.	.	_	O	O	
+
+#id=5
+#text=Wegen des Wunsches, meine Stellung gesichert zu sehen, werde ich also Geduld haben.
+5-1	Wegen	APPR	wegen	_	O	O	
+5-2	des	ART	die	_	O	O	
+5-3	Wunsches	NN	Wunsch	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	meine	PPOSAT	mein	_	O	O	
+5-6	Stellung	NN	Stellung	_	O	O	
+5-7	gesichert	VVPP	sichern	_	O	O	
+5-8	zu	PTKZU	zu	_	O	O	
+5-9	sehen	VVINF	sehen	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	werde	VAFIN	werden	_	O	O	
+5-12	ich	PPER	ich	_	O	O	
+5-13	also	ADV	also	_	O	O	
+5-14	Geduld	NN	Geduld	_	O	O	
+5-15	haben	VAINF	haben	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Nur das Eine aber bemerke ich noch, dß.Sie auch nach meiner neulichen Ausführung noch immer zu glauben scheinen ich sehe darin einen Ehrenpunkt, während ich Ihnen versichere, dß.
+6-1	Nur	ADV	nur	_	O	O	
+6-2	das	ART	die	_	O	O	
+6-3	Eine	NN	Eine	_	O	O	
+6-4	aber	KON	aber	_	O	O	
+6-5	bemerke	VVFIN	bemerken	_	O	O	
+6-6	ich	PPER	ich	_	O	O	
+6-7	noch	ADV	noch	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	dß.Sie	NN	<unknown>	_	O	O	
+6-10	auch	ADV	auch	_	O	O	
+6-11	nach	APPR	nach	_	O	O	
+6-12	meiner	PPOSAT	mein	_	O	O	
+6-13	neulichen	ADJA	<unknown>	_	O	O	
+6-14	Ausführung	NN	Ausführung	_	O	O	
+6-15	noch	ADV	noch	_	O	O	
+6-16	immer	ADV	immer	_	O	O	
+6-17	zu	PTKZU	zu	_	O	O	
+6-18	glauben	VVINF	glauben	_	O	O	
+6-19	scheinen	VVFIN	scheinen	_	O	O	
+6-20	ich	PPER	ich	_	O	O	
+6-21	sehe	VVFIN	sehen	_	O	O	
+6-22	darin	PAV	darin	_	O	O	
+6-23	einen	ART	eine	_	O	O	
+6-24	Ehrenpunkt	NN	Ehrenpunkt	_	O	O	
+6-25	,	$,	,	_	O	O	
+6-26	während	KOUS	während	_	O	O	
+6-27	ich	PPER	ich	_	O	O	
+6-28	Ihnen	PPER	Sie	_	O	O	
+6-29	versichere	VVFIN	versichern	_	O	O	
+6-30	,	$,	,	_	O	O	
+6-31	dß	VVFIN	<unknown>	_	O	O	
+6-32	.	$.	.	_	O	O	
+
+#id=7
+#text=es mir nur auf ein wenig Sicherheit ankommt.
+7-1	es	PPER	es	_	O	O	
+7-2	mir	PPER	ich	_	O	O	
+7-3	nur	ADV	nur	_	O	O	
+7-4	auf	APPR	auf	_	O	O	
+7-5	ein	ART	eine	_	O	O	
+7-6	wenig	PIAT	wenige	_	O	O	
+7-7	Sicherheit	NN	Sicherheit	_	O	O	
+7-8	ankommt	VVFIN	ankommen	_	O	O	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=Braun k5nnte gern die Quittungen austeIlen u. alle Shrenrechte des ersten Secretärs behalten, wenn nur mein Gehalt nicht an seine Person geknüpft 'Nird.
+8-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	k5nnte	NN	<unknown>	_	O	O	
+8-3	gern	ADV	gern	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	Quittungen	NN	Quittung	_	O	O	
+8-6	austeIlen	VVFIN	austeilen	_	O	O	
+8-7	u.	APPR	um	_	O	O	
+8-8	alle	PIAT	alle	_	O	O	
+8-9	Shrenrechte	NN	<unknown>	_	O	O	
+8-10	des	ART	die	_	O	O	
+8-11	ersten	ADJA	erst	_	O	O	
+8-12	Secretärs	NN	<unknown>	_	O	O	
+8-13	behalten	VVINF	behalten	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	wenn	KOUS	wenn	_	O	O	
+8-16	nur	ADV	nur	_	O	O	
+8-17	mein	PPOSAT	mein	_	O	O	
+8-18	Gehalt	NN	Gehalt	_	O	O	
+8-19	nicht	PTKNEG	nicht	_	O	O	
+8-20	an	APPR	an	_	O	O	
+8-21	seine	PPOSAT	sein	_	O	O	
+8-22	Person	NN	Person	_	O	O	
+8-23	geknüpft	VVPP	knüpfen	_	O	O	
+8-24	'	$(	'	_	O	O	
+8-25	Nird	VVFIN	<unknown>	_	O	O	
+8-26	.	$.	.	_	O	O	
+
+#id=9
+#text=- Dann aber bedauere ich, noch einen andern Punkt berühren zu müssen.
+9-1	-	$(	-	_	O	O	
+9-2	Dann	ADV	dann	_	O	O	
+9-3	aber	ADV	aber	_	O	O	
+9-4	bedauere	VVFIN	bedauern	_	O	O	
+9-5	ich	PPER	ich	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	noch	ADV	noch	_	O	O	
+9-8	einen	ART	eine	_	O	O	
+9-9	andern	PIAT	andere	_	O	O	
+9-10	Punkt	NN	Punkt	_	O	O	
+9-11	berühren	VVINF	berühren	_	O	O	
+9-12	zu	PTKZU	zu	_	O	O	
+9-13	müssen	VMINF	müssen	_	O	O	
+9-14	.	$.	.	_	O	O	
+
+#id=10
+#text=Sie haben an Usedom einen Antrag für besondre von mir verdiente Ehren gerichtet.
+10-1	Sie	PPER	Sie	_	O	O	
+10-2	haben	VAFIN	haben	_	O	O	
+10-3	an	APPR	an	_	O	O	
+10-4	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-5	einen	ART	eine	_	O	O	
+10-6	Antrag	NN	Antrag	_	O	O	
+10-7	für	APPR	für	_	O	O	
+10-8	besondre	VVFIN	besondern	_	O	O	
+10-9	von	APPR	von	_	O	O	
+10-10	mir	PPER	ich	_	O	O	
+10-11	verdiente	ADJA	verdient	_	O	O	
+10-12	Ehren	NN	Ehre|Ehren	_	O	O	
+10-13	gerichtet	VVPP	richten	_	O	O	
+10-14	.	$.	.	_	O	O	
+
+#id=11
+#text=Ich würde diese Andeutung nicht verstehen, hätte mir nicht Brunn von einer Unterredung mit Ihnen Mittheilung gemacht, freilich hinzufügend, dß.
+11-1	Ich	PPER	ich	_	O	O	
+11-2	würde	VAFIN	werden	_	O	O	
+11-3	diese	PDAT	dies	_	O	O	
+11-4	Andeutung	NN	Andeutung	_	O	O	
+11-5	nicht	PTKNEG	nicht	_	O	O	
+11-6	verstehen	VVINF	verstehen	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	hätte	VAFIN	haben	_	O	O	
+11-9	mir	PPER	ich	_	O	O	
+11-10	nicht	PTKNEG	nicht	_	O	O	
+11-11	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-12	von	APPR	von	_	O	O	
+11-13	einer	ART	eine	_	O	O	
+11-14	Unterredung	NN	Unterredung	_	O	O	
+11-15	mit	APPR	mit	_	O	O	
+11-16	Ihnen	PPER	Sie	_	O	O	
+11-17	Mittheilung	NN	<unknown>	_	O	O	
+11-18	gemacht	VVPP	machen	_	O	O	
+11-19	,	$,	,	_	O	O	
+11-20	freilich	ADV	freilich	_	O	O	
+11-21	hinzufügend	ADJD	hinzufügend	_	O	O	
+11-22	,	$,	,	_	O	O	
+11-23	dß	VVFIN	<unknown>	_	O	O	
+11-24	.	$.	.	_	O	O	
+
+#id=12
+#text=er das Seinige gethan, Sie von solchen Gedanken abzubringen, u. mir Discretion zur Pflicht machend.
+12-1	er	PPER	er	_	O	O	
+12-2	das	ART	die	_	O	O	
+12-3	Seinige	ADJA	<unknown>	_	O	O	
+12-4	gethan	NN	<unknown>	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	Sie	PPER	Sie	_	O	O	
+12-7	von	APPR	von	_	O	O	
+12-8	solchen	PIAT	solche	_	O	O	
+12-9	Gedanken	NN	Gedanke	_	O	O	
+12-10	abzubringen	VVIZU	abbringen	_	O	O	
+12-11	,	$,	,	_	O	O	
+12-12	u.	APPR	um	_	O	O	
+12-13	mir	PPER	ich	_	O	O	
+12-14	Discretion	NN	<unknown>	_	O	O	
+12-15	zur	APPRART	zu	_	O	O	
+12-16	Pflicht	NN	Pflicht	_	O	O	
+12-17	machend	ADJD	machend	_	O	O	
+12-18	.	$.	.	_	O	O	
+
+#id=13
+#text=Ich weiß mir aber jetzt nicht anders zu helfen, als daß ich Ihnen seinen Verrath wieder verrathe.
+13-1	Ich	PPER	ich	_	O	O	
+13-2	weiß	VVFIN	wissen	_	O	O	
+13-3	mir	PPER	ich	_	O	O	
+13-4	aber	ADV	aber	_	O	O	
+13-5	jetzt	ADV	jetzt	_	O	O	
+13-6	nicht	PTKNEG	nicht	_	O	O	
+13-7	anders	ADV	anders	_	O	O	
+13-8	zu	PTKZU	zu	_	O	O	
+13-9	helfen	VVINF	helfen	_	O	O	
+13-10	,	$,	,	_	O	O	
+13-11	als	KOKOM	als	_	O	O	
+13-12	daß	KOUS	dass	_	O	O	
+13-13	ich	PPER	ich	_	O	O	
+13-14	Ihnen	PPER	Sie	_	O	O	
+13-15	seinen	PPOSAT	sein	_	O	O	
+13-16	Verrath	NN	<unknown>	_	O	O	
+13-17	wieder	ADV	wieder	_	O	O	
+13-18	verrathe	NE	<unknown>	_	O	O	
+13-19	.	$.	.	_	O	O	
+
+#id=14
+#text=Ich bin Ihnen gewiß sehr dankbar für Ihre freundlichen Gesinnungen u. Absichten, eben darum aber bitte ich Sie dringend, mich mit den angedeuteten
+14-1	Ich	PPER	ich	_	O	O	
+14-2	bin	VAFIN	sein	_	O	O	
+14-3	Ihnen	PPER	Sie	_	O	O	
+14-4	gewiß	ADJD	gewiss	_	O	O	
+14-5	sehr	ADV	sehr	_	O	O	
+14-6	dankbar	ADJD	dankbar	_	O	O	
+14-7	für	APPR	für	_	O	O	
+14-8	Ihre	PPOSAT	ihr	_	O	O	
+14-9	freundlichen	ADJA	freundlich	_	O	O	
+14-10	Gesinnungen	NN	Gesinnung	_	O	O	
+14-11	u.	APPR	um	_	O	O	
+14-12	Absichten	NN	Absicht	_	O	O	
+14-13	,	$,	,	_	O	O	
+14-14	eben	ADV	eben	_	O	O	
+14-15	darum	PAV	darum	_	O	O	
+14-16	aber	ADV	aber	_	O	O	
+14-17	bitte	VVFIN	bitten	_	O	O	
+14-18	ich	PPER	ich	_	O	O	
+14-19	Sie	PPER	Sie	_	O	O	
+14-20	dringend	ADJD	dringend	_	O	O	
+14-21	,	$,	,	_	O	O	
+14-22	mich	PRF	ich	_	O	O	
+14-23	mit	APPR	mit	_	O	O	
+14-24	den	ART	die	_	O	O	
+14-25	angedeuteten	ADJA	angedeutet	_	O	O	
+

@@ -1,0 +1,280 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text={ 4-9 Lepsius an ~U4 Berlin, 30. Januar 1872 3 gen über das Einzelne aus der Kalkulatur erhalten, und sende es Ihnen zur Prüfung und Ausfüllung der einzelnen Posten, da wir an die jetzigen den letzten Rechnungen entnommenen keineswegs gebunden sind.
+1-1	{	$(	{	_	O	O	
+1-2	4-9	CARD	@card@	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	~U4	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	3	CARD	3	_	O	O	
+1-13	gen	APPR	gen	_	O	O	
+1-14	über	APPR	über	_	O	O	
+1-15	das	ART	die	_	O	O	
+1-16	Einzelne	NN	Einzelne	_	O	O	
+1-17	aus	APPR	aus	_	O	O	
+1-18	der	ART	die	_	O	O	
+1-19	Kalkulatur	NN	<unknown>	_	O	O	
+1-20	erhalten	VVPP	erhalten	_	O	O	
+1-21	,	$,	,	_	O	O	
+1-22	und	KON	und	_	O	O	
+1-23	sende	VVFIN	senden	_	O	O	
+1-24	es	PPER	es	_	O	O	
+1-25	Ihnen	PPER	Sie	_	O	O	
+1-26	zur	APPRART	zu	_	O	O	
+1-27	Prüfung	NN	Prüfung	_	O	O	
+1-28	und	KON	und	_	O	O	
+1-29	Ausfüllung	NN	<unknown>	_	O	O	
+1-30	der	ART	die	_	O	O	
+1-31	einzelnen	ADJA	einzeln	_	O	O	
+1-32	Posten	NN	Posten	_	O	O	
+1-33	,	$,	,	_	O	O	
+1-34	da	KOUS	da	_	O	O	
+1-35	wir	PPER	wir	_	O	O	
+1-36	an	APPR	an	_	O	O	
+1-37	die	ART	die	_	O	O	
+1-38	jetzigen	ADJA	jetzig	_	O	O	
+1-39	den	ART	die	_	O	O	
+1-40	letzten	ADJA	letzt	_	O	O	
+1-41	Rechnungen	NN	Rechnung	_	O	O	
+1-42	entnommenen	ADJA	entnommen	_	O	O	
+1-43	keineswegs	ADV	keineswegs	_	O	O	
+1-44	gebunden	VVPP	binden	_	O	O	
+1-45	sind	VAFIN	sein	_	O	O	
+1-46	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich habe schon einigermaßen vorgebaut, daß uns der Reservefond möglichst unbeschnitten, gesondert und zur freien Disposition bleibt.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	habe	VAFIN	haben	_	O	O	
+2-3	schon	ADV	schon	_	O	O	
+2-4	einigermaßen	ADV	einigermaßen	_	O	O	
+2-5	vorgebaut	VVPP	vorbauen	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	daß	KOUS	dass	_	O	O	
+2-8	uns	PPER	wir	_	O	O	
+2-9	der	ART	die	_	O	O	
+2-10	Reservefond	NN	<unknown>	_	O	O	
+2-11	möglichst	ADV	möglichst	_	O	O	
+2-12	unbeschnitten	ADJD	<unknown>	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	gesondert	VVPP	sondern	_	O	O	
+2-15	und	KON	und	_	O	O	
+2-16	zur	APPRART	zu	_	O	O	
+2-17	freien	ADJA	frei	_	O	O	
+2-18	Disposition	NN	Disposition	_	O	O	
+2-19	bleibt	VVFIN	bleiben	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Können Sie die Titel noch zusammenziehen und verallgemeinern, so ist es in unserm Vortheil wegen der freieren Bewegung.
+3-1	Können	VMFIN	können	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	die	ART	die	_	O	O	
+3-4	Titel	NN	Titel	_	O	O	
+3-5	noch	ADV	noch	_	O	O	
+3-6	zusammenziehen	VVINF	zusammenziehen	_	O	O	
+3-7	und	KON	und	_	O	O	
+3-8	verallgemeinern	VVINF	verallgemeinern	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	so	ADV	so	_	O	O	
+3-11	ist	VAFIN	sein	_	O	O	
+3-12	es	PPER	es	_	O	O	
+3-13	in	APPR	in	_	O	O	
+3-14	unserm	PPOSAT	unser	_	O	O	
+3-15	Vortheil	NN	<unknown>	_	O	O	
+3-16	wegen	APPR	wegen	_	O	O	
+3-17	der	ART	die	_	O	O	
+3-18	freieren	ADJA	frei	_	O	O	
+3-19	Bewegung	NN	Bewegung	_	O	O	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=Auch würden z. B. bei den Einnahmen aus den Werken, wie auch bei den andern lieber niedrige als hohe Zahlen anzusetzen sein, um nicht einmal hinter den Ansätzen zurückzubleiben.
+4-1	Auch	ADV	auch	_	O	O	
+4-2	würden	VAFIN	werden	_	O	O	
+4-3	z.	APPRART	z.	_	O	O	
+4-4	B.	NN	B.	_	O	O	
+4-5	bei	APPR	bei	_	O	O	
+4-6	den	ART	die	_	O	O	
+4-7	Einnahmen	NN	Einnahme	_	O	O	
+4-8	aus	APPR	aus	_	O	O	
+4-9	den	ART	die	_	O	O	
+4-10	Werken	NN	Werk	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	wie	KOUS	wie	_	O	O	
+4-13	auch	ADV	auch	_	O	O	
+4-14	bei	APPR	bei	_	O	O	
+4-15	den	ART	die	_	O	O	
+4-16	andern	PIAT	andere	_	O	O	
+4-17	lieber	ADJD	lieb	_	O	O	
+4-18	niedrige	ADJA	niedrig	_	O	O	
+4-19	als	KON	als	_	O	O	
+4-20	hohe	ADJA	hoch	_	O	O	
+4-21	Zahlen	NN	Zahl	_	O	O	
+4-22	anzusetzen	VVIZU	ansetzen	_	O	O	
+4-23	sein	VAINF	sein	_	O	O	
+4-24	,	$,	,	_	O	O	
+4-25	um	KOUI	um	_	O	O	
+4-26	nicht	PTKNEG	nicht	_	O	O	
+4-27	einmal	ADV	einmal	_	O	O	
+4-28	hinter	APPR	hinter	_	O	O	
+4-29	den	ART	die	_	O	O	
+4-30	Ansätzen	NN	Ansatz	_	O	O	
+4-31	zurückzubleiben	VVIZU	zurückbleiben	_	O	O	
+4-32	.	$.	.	_	O	O	
+
+#id=5
+#text=Doch Sie werden das Alles besser als ich beurtheilen.
+5-1	Doch	KON	doch	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	werden	VAFIN	werden	_	O	O	
+5-4	das	ART	die	_	O	O	
+5-5	Alles	PIS	alle	_	O	O	
+5-6	besser	ADJD	gut	_	O	O	
+5-7	als	KOKOM	als	_	O	O	
+5-8	ich	PPER	ich	_	O	O	
+5-9	beurtheilen	VVINF	<unknown>	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Mommsen theilt mir mit, daß Sie von Köhler gehört haben, daß man an einen archäologischen Sitz in Athen hier gedacht habe, und daß Sie erwartet hätten, darüber ein Wort von hier zu hören um bei einem neuen Plane die Interessen des Instituts vertreten zu können.
+6-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	theilt	ADJD	<unknown>	_	O	O	
+6-3	mir	PPER	ich	_	O	O	
+6-4	mit	PTKVZ	mit	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	daß	KOUS	dass	_	O	O	
+6-7	Sie	PPER	Sie	_	O	O	
+6-8	von	APPR	von	_	O	O	
+6-9	Köhler	NE	Köhler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	gehört	VVPP	gehören|hören	_	O	O	
+6-11	haben	VAFIN	haben	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	daß	KOUS	dass	_	O	O	
+6-14	man	PIS	man	_	O	O	
+6-15	an	APPR	an	_	O	O	
+6-16	einen	ART	eine	_	O	O	
+6-17	archäologischen	ADJA	archäologisch	_	O	O	
+6-18	Sitz	NN	Sitz	_	O	O	
+6-19	in	APPR	in	_	O	O	
+6-20	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-21	hier	ADV	hier	_	O	O	
+6-22	gedacht	VVPP	denken|gedenken	_	O	O	
+6-23	habe	VAFIN	haben	_	O	O	
+6-24	,	$,	,	_	O	O	
+6-25	und	KON	und	_	O	O	
+6-26	daß	KOUS	dass	_	O	O	
+6-27	Sie	PPER	Sie	_	O	O	
+6-28	erwartet	VVPP	erwarten	_	O	O	
+6-29	hätten	VAFIN	haben	_	O	O	
+6-30	,	$,	,	_	O	O	
+6-31	darüber	PAV	darüber	_	O	O	
+6-32	ein	ART	eine	_	O	O	
+6-33	Wort	NN	Wort	_	O	O	
+6-34	von	APPR	von	_	O	O	
+6-35	hier	ADV	hier	_	O	O	
+6-36	zu	PTKZU	zu	_	O	O	
+6-37	hören	VVINF	hören	_	O	O	
+6-38	um	APPR	um	_	O	O	
+6-39	bei	APPR	bei	_	O	O	
+6-40	einem	ART	eine	_	O	O	
+6-41	neuen	ADJA	neu	_	O	O	
+6-42	Plane	NN	Plane	_	O	O	
+6-43	die	ART	die	_	O	O	
+6-44	Interessen	NN	Interesse	_	O	O	
+6-45	des	ART	die	_	O	O	
+6-46	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-47	vertreten	VVINF	vertreten	_	O	O	
+6-48	zu	PTKZU	zu	_	O	O	
+6-49	können	VMINF	können	_	O	O	
+6-50	.	$.	.	_	O	O	
+
+#id=7
+#text=Ja, wenn wir überhaupt schon so weit wären, einen Plan oder gar ein Programm aufzustellen.
+7-1	Ja	PTKANT	ja	_	O	O	
+7-2	,	$,	,	_	O	O	
+7-3	wenn	KOUS	wenn	_	O	O	
+7-4	wir	PPER	wir	_	O	O	
+7-5	überhaupt	ADV	überhaupt	_	O	O	
+7-6	schon	ADV	schon	_	O	O	
+7-7	so	ADV	so	_	O	O	
+7-8	weit	ADJD	weit	_	O	O	
+7-9	wären	VAFIN	sein	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	einen	ART	eine	_	O	O	
+7-12	Plan	NN	Plan	_	O	O	
+7-13	oder	KON	oder	_	O	O	
+7-14	gar	ADV	gar	_	O	O	
+7-15	ein	ART	eine	_	O	O	
+7-16	Programm	NN	Programm	_	O	O	
+7-17	aufzustellen	VVIZU	aufstellen	_	O	O	
+7-18	.	$.	.	_	O	O	
+
+#id=8
+#text=Bisher war es nur ein vaguer Privatgedanke von Curtius, der mit Köhler mündlich darüber gesprochen hatte.
+8-1	Bisher	ADV	bisher	_	O	O	
+8-2	war	VAFIN	sein	_	O	O	
+8-3	es	PPER	es	_	O	O	
+8-4	nur	ADV	nur	_	O	O	
+8-5	ein	ART	eine	_	O	O	
+8-6	vaguer	ADJA	<unknown>	_	O	O	
+8-7	Privatgedanke	NN	<unknown>	_	O	O	
+8-8	von	APPR	von	_	O	O	
+8-9	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-10	,	$,	,	_	O	O	
+8-11	der	PRELS	die	_	O	O	
+8-12	mit	APPR	mit	_	O	O	
+8-13	Köhler	NE	Köhler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-14	mündlich	ADJD	mündlich	_	O	O	
+8-15	darüber	PAV	darüber	_	O	O	
+8-16	gesprochen	VVPP	sprechen	_	O	O	
+8-17	hatte	VAFIN	haben	_	O	O	
+8-18	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich habe ihm auf das lebhafteste zugeredet, den Gedanken zu verfolgen, und so bald er reif sei, hervorzutreten; aber selbst Mommsen hatte zufällig noch nichts davon gehört, weil auch ich die Sache mehr
+9-1	Ich	PPER	ich	_	O	O	
+9-2	habe	VAFIN	haben	_	O	O	
+9-3	ihm	PPER	er	_	O	O	
+9-4	auf	APPR	auf	_	O	O	
+9-5	das	ART	die	_	O	O	
+9-6	lebhafteste	ADJA	lebhaft	_	O	O	
+9-7	zugeredet	VVPP	zureden	_	O	O	
+9-8	,	$,	,	_	O	O	
+9-9	den	ART	die	_	O	O	
+9-10	Gedanken	NN	Gedanke	_	O	O	
+9-11	zu	PTKZU	zu	_	O	O	
+9-12	verfolgen	VVINF	verfolgen	_	O	O	
+9-13	,	$,	,	_	O	O	
+9-14	und	KON	und	_	O	O	
+9-15	so	ADV	so	_	O	O	
+9-16	bald	ADV	bald	_	O	O	
+9-17	er	PPER	er	_	O	O	
+9-18	reif	ADJD	reif	_	O	O	
+9-19	sei	VAFIN	sein	_	O	O	
+9-20	,	$,	,	_	O	O	
+9-21	hervorzutreten	VVIZU	hervortreten	_	O	O	
+9-22	;	$.	;	_	O	O	
+9-23	aber	KON	aber	_	O	O	
+9-24	selbst	ADV	selbst	_	O	O	
+9-25	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-26	hatte	VAFIN	haben	_	O	O	
+9-27	zufällig	ADJD	zufällig	_	O	O	
+9-28	noch	ADV	noch	_	O	O	
+9-29	nichts	PIS	nichts	_	O	O	
+9-30	davon	PAV	davon	_	O	O	
+9-31	gehört	VVFIN	gehören	_	O	O	
+9-32	,	$,	,	_	O	O	
+9-33	weil	KOUS	weil	_	O	O	
+9-34	auch	ADV	auch	_	O	O	
+9-35	ich	PPER	ich	_	O	O	
+9-36	die	ART	die	_	O	O	
+9-37	Sache	NN	Sache	_	O	O	
+9-38	mehr	ADV	mehr	_	O	O	
+

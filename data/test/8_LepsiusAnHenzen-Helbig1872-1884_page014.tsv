@@ -1,0 +1,273 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=/ 62 Lepsius an Henzen Berlin, 12. Februar 1872 2 der Skizzen hat bei uns vollkommen ihren Zweck erreicht.
+1-1	/	$(	/	_	O	O	
+1-2	62	CARD	@card@	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	2	CARD	2	_	O	O	
+1-13	der	ART	die	_	O	O	
+1-14	Skizzen	NN	Skizze	_	O	O	
+1-15	hat	VAFIN	haben	_	O	O	
+1-16	bei	APPR	bei	_	O	O	
+1-17	uns	PPER	wir	_	O	O	
+1-18	vollkommen	ADJD	vollkommen	_	O	O	
+1-19	ihren	PPOSAT	ihr	_	O	O	
+1-20	Zweck	NN	Zweck	_	O	O	
+1-21	erreicht	VVPP	erreichen	_	O	O	
+1-22	.	$.	.	_	O	O	
+
+#id=2
+#text=Alles was ich hier thue und Ihnen schreibe, geschieht im Einklang mit Mommsen und Abeken, denn die Übrigen interessiren sich für die Sache nicht.
+2-1	Alles	PIAT	alle	_	O	O	
+2-2	was	PRELS	was	_	O	O	
+2-3	ich	PPER	ich	_	O	O	
+2-4	hier	ADV	hier	_	O	O	
+2-5	thue	VVFIN	<unknown>	_	O	O	
+2-6	und	KON	und	_	O	O	
+2-7	Ihnen	PPER	Sie	_	O	O	
+2-8	schreibe	VVFIN	schreiben	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	geschieht	VVFIN	geschehen	_	O	O	
+2-11	im	APPRART	in	_	O	O	
+2-12	Einklang	NN	Einklang	_	O	O	
+2-13	mit	APPR	mit	_	O	O	
+2-14	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-15	und	KON	und	_	O	O	
+2-16	Abeken	NN	<unknown>	_	O	O	
+2-17	,	$,	,	_	O	O	
+2-18	denn	KON	denn	_	O	O	
+2-19	die	ART	die	_	O	O	
+2-20	Übrigen	NN	Übrige	_	O	O	
+2-21	interessiren	VVFIN	<unknown>	_	O	O	
+2-22	sich	PRF	sich	_	O	O	
+2-23	für	APPR	für	_	O	O	
+2-24	die	ART	die	_	O	O	
+2-25	Sache	NN	Sache	_	O	O	
+2-26	nicht	PTKNEG	nicht	_	O	O	
+2-27	.	$.	.	_	O	O	
+
+#id=3
+#text=Nach dem gewöhnlichen Laufe der Dinge würden wir nun also, seit unserm Bericht an den Minister den Sie kennen, hier nichts thun können als auf Antwort warten aus dem Ministerium.
+3-1	Nach	APPR	nach	_	O	O	
+3-2	dem	ART	die	_	O	O	
+3-3	gewöhnlichen	ADJA	gewöhnlich	_	O	O	
+3-4	Laufe	NN	Lauf	_	O	O	
+3-5	der	ART	die	_	O	O	
+3-6	Dinge	NN	Ding	_	O	O	
+3-7	würden	VAFIN	werden	_	O	O	
+3-8	wir	PPER	wir	_	O	O	
+3-9	nun	ADV	nun	_	O	O	
+3-10	also	ADV	also	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	seit	APPR	seit	_	O	O	
+3-13	unserm	PPOSAT	unser	_	O	O	
+3-14	Bericht	NN	Bericht	_	O	O	
+3-15	an	APPR	an	_	O	O	
+3-16	den	ART	die	_	O	O	
+3-17	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-18	den	ART	die	_	O	O	
+3-19	Sie	PPER	Sie	_	O	O	
+3-20	kennen	VVFIN	kennen	_	O	O	
+3-21	,	$,	,	_	O	O	
+3-22	hier	ADV	hier	_	O	O	
+3-23	nichts	PIAT	nichts	_	O	O	
+3-24	thun	NN	<unknown>	_	O	O	
+3-25	können	VMFIN	können	_	O	O	
+3-26	als	KOKOM	als	_	O	O	
+3-27	auf	APPR	auf	_	O	O	
+3-28	Antwort	NN	Antwort	_	O	O	
+3-29	warten	VVFIN	warten	_	O	O	
+3-30	aus	APPR	aus	_	O	O	
+3-31	dem	ART	die	_	O	O	
+3-32	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-33	.	$.	.	_	O	O	
+
+#id=4
+#text=Daß Adler trotz allen Drängens seinen Bericht länger als zu erwarten, verzögert hat, la~n den unglücklichen Ereignissen in seiner Familie und großer Arbeitsüberbürdüng.
+4-1	Daß	KOUS	dass	_	O	O	
+4-2	Adler	NE	Adler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	trotz	APPR	trotz	_	O	O	
+4-4	allen	PIAT	alle	_	O	O	
+4-5	Drängens	NN	Drängen	_	O	O	
+4-6	seinen	PPOSAT	sein	_	O	O	
+4-7	Bericht	NN	Bericht	_	O	O	
+4-8	länger	ADJD	lang	_	O	O	
+4-9	als	KOKOM	als	_	O	O	
+4-10	zu	PTKZU	zu	_	O	O	
+4-11	erwarten	VVINF	erwarten	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	verzögert	VVPP	verzögern	_	O	O	
+4-14	hat	VAFIN	haben	_	O	O	
+4-15	,	$,	,	_	O	O	
+4-16	la~n	NE	<unknown>	_	O	O	
+4-17	den	ART	die	_	O	O	
+4-18	unglücklichen	ADJA	unglücklich	_	O	O	
+4-19	Ereignissen	NN	Ereignis	_	O	O	
+4-20	in	APPR	in	_	O	O	
+4-21	seiner	PPOSAT	sein	_	O	O	
+4-22	Familie	NN	Familie	_	O	O	
+4-23	und	KON	und	_	O	O	
+4-24	großer	ADJA	groß	_	O	O	
+4-25	Arbeitsüberbürdüng	NN	<unknown>	_	O	O	
+4-26	.	$.	.	_	O	O	
+
+#id=5
+#text=Wir haben nun aber geglaubt die Übersendung der Skizzen und des Berichts von Laspeyres an die Central Direktion zur Beschleunigung der ganzen Angelegenheit benutzen zu müssen, und das Ministerium bei Gelegenheit des Adlerschen Berichts zu veranlassen, sich schon jetzt über die Wahl zwischen dem großen und dem kleinen Plane auszusprechen.
+5-1	Wir	PPER	wir	_	O	O	
+5-2	haben	VAFIN	haben	_	O	O	
+5-3	nun	ADV	nun	_	O	O	
+5-4	aber	ADV	aber	_	O	O	
+5-5	geglaubt	VVPP	glauben	_	O	O	
+5-6	die	ART	die	_	O	O	
+5-7	Übersendung	NN	Übersendung	_	O	O	
+5-8	der	ART	die	_	O	O	
+5-9	Skizzen	NN	Skizze	_	O	O	
+5-10	und	KON	und	_	O	O	
+5-11	des	ART	die	_	O	O	
+5-12	Berichts	NN	Bericht	_	O	O	
+5-13	von	APPR	von	_	O	O	
+5-14	Laspeyres	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-15	an	APPR	an	_	O	O	
+5-16	die	ART	die	_	O	O	
+5-17	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-18	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-19	zur	APPRART	zu	_	O	O	
+5-20	Beschleunigung	NN	Beschleunigung	_	O	O	
+5-21	der	ART	die	_	O	O	
+5-22	ganzen	ADJA	ganz	_	O	O	
+5-23	Angelegenheit	NN	Angelegenheit	_	O	O	
+5-24	benutzen	VVINF	benutzen	_	O	O	
+5-25	zu	PTKZU	zu	_	O	O	
+5-26	müssen	VMINF	müssen	_	O	O	
+5-27	,	$,	,	_	O	O	
+5-28	und	KON	und	_	O	O	
+5-29	das	ART	die	_	O	O	
+5-30	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-31	bei	APPR	bei	_	O	O	
+5-32	Gelegenheit	NN	Gelegenheit	_	O	O	
+5-33	des	ART	die	_	O	O	
+5-34	Adlerschen	NN	<unknown>	_	O	O	
+5-35	Berichts	NN	Bericht	_	O	O	
+5-36	zu	PTKZU	zu	_	O	O	
+5-37	veranlassen	VVINF	veranlassen	_	O	O	
+5-38	,	$,	,	_	O	O	
+5-39	sich	PRF	sich	_	O	O	
+5-40	schon	ADV	schon	_	O	O	
+5-41	jetzt	ADV	jetzt	_	O	O	
+5-42	über	APPR	über	_	O	O	
+5-43	die	ART	die	_	O	O	
+5-44	Wahl	NN	Wahl	_	O	O	
+5-45	zwischen	APPR	zwischen	_	O	O	
+5-46	dem	ART	die	_	O	O	
+5-47	großen	ADJA	groß	_	O	O	
+5-48	und	KON	und	_	O	O	
+5-49	dem	ART	die	_	O	O	
+5-50	kleinen	ADJA	klein	_	O	O	
+5-51	Plane	NN	Plane	_	O	O	
+5-52	auszusprechen	VVIZU	aussprechen	_	O	O	
+5-53	.	$.	.	_	O	O	
+
+#id=6
+#text=Wir betonen natürlich nach Kräften die Nothwendigkeit sich für den großen zu entscheiden.
+6-1	Wir	PPER	wir	_	O	O	
+6-2	betonen	VVFIN	betonen	_	O	O	
+6-3	natürlich	ADV	natürlich	_	O	O	
+6-4	nach	APPR	nach	_	O	O	
+6-5	Kräften	NN	Kraft	_	O	O	
+6-6	die	ART	die	_	O	O	
+6-7	Nothwendigkeit	NN	<unknown>	_	O	O	
+6-8	sich	PRF	sich	_	O	O	
+6-9	für	APPR	für	_	O	O	
+6-10	den	ART	die	_	O	O	
+6-11	großen	ADJA	groß	_	O	O	
+6-12	zu	PTKZU	zu	_	O	O	
+6-13	entscheiden	VVINF	entscheiden	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Skizzen, wenn Herrn Laspeyres daran "~t.,C.~ liegt, erhalten wir zurück.
+7-1	Die	ART	die	_	O	O	
+7-2	Skizzen	NN	Skizze	_	O	O	
+7-3	,	$,	,	_	O	O	
+7-4	wenn	KOUS	wenn	_	O	O	
+7-5	Herrn	NN	Herr	_	O	O	
+7-6	Laspeyres	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-7	daran	PAV	daran	_	O	O	
+7-8	"	$(	"	_	O	O	
+7-9	~t.,C.~	NN	<unknown>	_	O	O	
+7-10	liegt	VVFIN	liegen	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	erhalten	VVFIN	erhalten	_	O	O	
+7-13	wir	PPER	wir	_	O	O	
+7-14	zurück	PTKVZ	zurück	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=Was man aber wahrscheinlich verlangen wird, so bald die Sache wieder an den Finanzminister geht, ist ein ganz allgemein gehaltener Kostenanschlag.
+8-1	Was	PWS	was	_	O	O	
+8-2	man	PIS	man	_	O	O	
+8-3	aber	ADV	aber	_	O	O	
+8-4	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+8-5	verlangen	VVINF	verlangen	_	O	O	
+8-6	wird	VAFIN	werden	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	so	ADV	so	_	O	O	
+8-9	bald	ADV	bald	_	O	O	
+8-10	die	ART	die	_	O	O	
+8-11	Sache	NN	Sache	_	O	O	
+8-12	wieder	ADV	wieder	_	O	O	
+8-13	an	APPR	an	_	O	O	
+8-14	den	ART	die	_	O	O	
+8-15	Finanzminister	NN	Finanzminister	_	O	O	
+8-16	geht	VVFIN	gehen	_	O	O	
+8-17	,	$,	,	_	O	O	
+8-18	ist	VAFIN	sein	_	O	O	
+8-19	ein	ART	eine	_	O	O	
+8-20	ganz	ADV	ganz	_	O	O	
+8-21	allgemein	ADJD	allgemein	_	O	O	
+8-22	gehaltener	ADJA	gehalten	_	O	O	
+8-23	Kostenanschlag	NN	Kostenanschlag	_	O	O	
+8-24	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich bitte daher uns einen solchen so schnell wie möglich zu senden, wobei es natürlich auf ein Paar Tausend Thaler mehr oder weniger nicht ankommt.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	bitte	VVFIN	bitten	_	O	O	
+9-3	daher	PAV	daher	_	O	O	
+9-4	uns	PRF	wir	_	O	O	
+9-5	einen	ART	eine	_	O	O	
+9-6	solchen	PIAT	solche	_	O	O	
+9-7	so	ADV	so	_	O	O	
+9-8	schnell	ADJD	schnell	_	O	O	
+9-9	wie	KOKOM	wie	_	O	O	
+9-10	möglich	ADJD	möglich	_	O	O	
+9-11	zu	PTKZU	zu	_	O	O	
+9-12	senden	VVINF	senden	_	O	O	
+9-13	,	$,	,	_	O	O	
+9-14	wobei	PWAV	wobei	_	O	O	
+9-15	es	PPER	es	_	O	O	
+9-16	natürlich	ADV	natürlich	_	O	O	
+9-17	auf	APPR	auf	_	O	O	
+9-18	ein	ART	eine	_	O	O	
+9-19	Paar	PIAT	paar	_	O	O	
+9-20	Tausend	NN	Tausend	_	O	O	
+9-21	Thaler	NE	<unknown>	_	O	O	
+9-22	mehr	ADV	mehr	_	O	O	
+9-23	oder	KON	oder	_	O	O	
+9-24	weniger	ADV	weniger	_	O	O	
+9-25	nicht	PTKNEG	nicht	_	O	O	
+9-26	ankommt	VVFIN	ankommen	_	O	O	
+9-27	.	$.	.	_	O	O	
+
+#id=10
+#text=Adler
+10-1	Adler	NE	Adler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

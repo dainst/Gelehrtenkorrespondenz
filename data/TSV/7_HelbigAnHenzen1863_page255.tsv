@@ -1,0 +1,107 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=411 2 Relbig an Renzen Siena, 3. August 1875 darbitet, gewiß befriedigt fühlen.
+1-1	411	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Relbig	NN	<unknown>	_	O	O	
+1-4	an	APPR	an	_	O	O	
+1-5	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	darbitet	VVFIN	<unknown>	_	O	O	
+1-13	,	$,	,	_	O	O	
+1-14	gewiß	ADJD	gewiss	_	O	O	
+1-15	befriedigt	VVPP	befriedigen	_	O	O	
+1-16	fühlen	VVFIN	fühlen	_	O	O	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text=Mein hiesiges Stilleben wird bisher nur durch die seccature unterbroohen, welche die hiesigen Gypsarbeiter verursachen, indem sie von mir Geld für die für das Berliner Museum ausgeführten Arbeiten verlangen.
+2-1	Mein	PPOSAT	mein	_	O	O	
+2-2	hiesiges	ADJA	hiesig	_	O	O	
+2-3	Stilleben	NN	Stilleben	_	O	O	
+2-4	wird	VAFIN	werden	_	O	O	
+2-5	bisher	ADV	bisher	_	O	O	
+2-6	nur	ADV	nur	_	O	O	
+2-7	durch	APPR	durch	_	O	O	
+2-8	die	ART	die	_	O	O	
+2-9	seccature	ADJA	<unknown>	_	O	O	
+2-10	unterbroohen	NN	<unknown>	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	welche	PRELS	welche	_	O	O	
+2-13	die	ART	die	_	O	O	
+2-14	hiesigen	ADJA	hiesig	_	O	O	
+2-15	Gypsarbeiter	NN	<unknown>	_	O	O	
+2-16	verursachen	VVFIN	verursachen	_	O	O	
+2-17	,	$,	,	_	O	O	
+2-18	indem	KOUS	indem	_	O	O	
+2-19	sie	PPER	sie	_	O	O	
+2-20	von	APPR	von	_	O	O	
+2-21	mir	PPER	ich	_	O	O	
+2-22	Geld	NN	Geld	_	O	O	
+2-23	für	APPR	für	_	O	O	
+2-24	die	ART	die	_	O	O	
+2-25	für	APPR	für	_	O	O	
+2-26	das	ART	die	_	O	O	
+2-27	Berliner	ADJA	Berliner	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-28	Museum	NN	Museum	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+2-29	ausgeführten	ADJA	ausgeführt	_	O	O	
+2-30	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+2-31	verlangen	VVFIN	verlangen	_	O	O	
+2-32	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich habe darüber ah Lepsius und an Curtius geschrieben - aber keine Antwort.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	habe	VAFIN	haben	_	O	O	
+3-3	darüber	PAV	darüber	_	O	O	
+3-4	ah	ITJ	ah	_	O	O	
+3-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	und	KON	und	_	O	O	
+3-7	an	APPR	an	_	O	O	
+3-8	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-9	geschrieben	VVPP	schreiben	_	O	O	
+3-10	-	$(	-	_	O	O	
+3-11	aber	ADV	aber	_	O	O	
+3-12	keine	PIAT	keine	_	O	O	
+3-13	Antwort	NN	Antwort	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Meine Frau wird an die arme Frau Fronanz schreiben - doch wohl unter der Berliner Adresse ?
+4-1	Meine	PPOSAT	mein	_	O	O	
+4-2	Frau	NN	Frau	_	O	O	
+4-3	wird	VAFIN	werden	_	O	O	
+4-4	an	APPR	an	_	O	O	
+4-5	die	ART	die	_	O	O	
+4-6	arme	ADJA	arm	_	O	O	
+4-7	Frau	NN	Frau	_	O	O	
+4-8	Fronanz	NN	<unknown>	_	O	O	
+4-9	schreiben	VVINF	schreiben	_	O	O	
+4-10	-	$(	-	_	O	O	
+4-11	doch	KON	doch	_	O	O	
+4-12	wohl	ADV	wohl	_	O	O	
+4-13	unter	APPR	unter	_	O	O	
+4-14	der	ART	die	_	O	O	
+4-15	Berliner	ADJA	Berliner	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-16	Adresse	NN	Adresse	_	O	O	
+4-17	?	$.	?	_	O	O	
+
+#id=5
+#text=Stia bene!
+5-1	Stia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-2	bene	VVFIN	<unknown>	_	O	O	
+5-3	!	$.	!	_	O	O	
+
+#id=6
+#text=Tanti saluti Ihr ergebener Relbig
+6-1	Tanti	ADJA	<unknown>	_	O	O	
+6-2	saluti	NN	<unknown>	_	O	O	
+6-3	Ihr	PPOSAT	ihr	_	O	O	
+6-4	ergebener	ADJA	ergeben	_	O	O	
+6-5	Relbig	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

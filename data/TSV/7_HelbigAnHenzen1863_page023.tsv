@@ -1,0 +1,246 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=( ~ 337 h Helbig an Henzen Neapel, 28. Juli 1864 g. 1/8 64 r. Neapel 28. Juli 1864. Geehrtester Herr Professor Beiliegend Scavi di Calvi.
+1-1	(	$(	(	_	O	O	
+1-2	~	XY	~	_	O	O	
+1-3	337	CARD	@card@	_	O	O	
+1-4	h	NN	h	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	1/8	CARD	1/8	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	64	CARD	64	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	r.	ADJA	<unknown>	_	O	O	
+1-18	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-19	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	.	$.	.	_	O	O	
+1-24	Geehrtester	ADJA	<unknown>	_	O	O	
+1-25	Herr	NN	Herr	_	O	O	
+1-26	Professor	NN	Professor	_	O	O	
+1-27	Beiliegend	NN	<unknown>	_	O	O	
+1-28	Scavi	NE	<unknown>	_	O	O	
+1-29	di	NE	di	_	O	O	
+1-30	Calvi	NE	<unknown>	_	O	O	
+1-31	.	$.	.	_	O	O	
+
+#id=2
+#text=Daß ich die große Inschrift nicht copiren durfte, liegt nicht an Novi, sondernan Minervini, welcher eifersüchtig darum herum nör-, gelt.
+2-1	Daß	KOUS	dass	_	O	O	
+2-2	ich	PPER	ich	_	O	O	
+2-3	die	ART	die	_	O	O	
+2-4	große	ADJA	groß	_	O	O	
+2-5	Inschrift	NN	Inschrift	_	O	O	
+2-6	nicht	PTKNEG	nicht	_	O	O	
+2-7	copiren	NN	<unknown>	_	O	O	
+2-8	durfte	VMFIN	dürfen	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	liegt	VVFIN	liegen	_	O	O	
+2-11	nicht	PTKNEG	nicht	_	O	O	
+2-12	an	APPR	an	_	O	O	
+2-13	Novi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-14	,	$,	,	_	O	O	
+2-15	sondernan	NE	<unknown>	_	O	O	
+2-16	Minervini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-17	,	$,	,	_	O	O	
+2-18	welcher	PRELS	welche	_	O	O	
+2-19	eifersüchtig	ADJD	eifersüchtig	_	O	O	
+2-20	darum	PAV	darum	_	O	O	
+2-21	herum	APZR	herum	_	O	O	
+2-22	nör-	TRUNC	<unknown>	_	O	O	
+2-23	,	$,	,	_	O	O	
+2-24	gelt	TRUNC	<unknown>	_	O	O	
+2-25	.	$.	.	_	O	O	
+
+#id=3
+#text=Novi hat mich sehr freundlich aufgenommen und dankt für das Diplom.
+3-1	Novi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	hat	VAFIN	haben	_	O	O	
+3-3	mich	PRF	ich	_	O	O	
+3-4	sehr	ADV	sehr	_	O	O	
+3-5	freundlich	ADJD	freundlich	_	O	O	
+3-6	aufgenommen	VVPP	aufnehmen	_	O	O	
+3-7	und	KON	und	_	O	O	
+3-8	dankt	VVFIN	danken	_	O	O	
+3-9	für	APPR	für	_	O	O	
+3-10	das	ART	die	_	O	O	
+3-11	Diplom.	NN	<unknown>	_	O	O	
+
+#id=4
+#text=Da er eitel, aber nützlich ist, bitte ich meine Lobesfloskel stehen zu lassen.
+4-1	Da	KOUS	da	_	O	O	
+4-2	er	PPER	er	_	O	O	
+4-3	eitel	ADJD	eitel	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	aber	ADV	aber	_	O	O	
+4-6	nützlich	ADJD	nützlich	_	O	O	
+4-7	ist	VAFIN	sein	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	bitte	VVFIN	bitten	_	O	O	
+4-10	ich	PPER	ich	_	O	O	
+4-11	meine	PPOSAT	mein	_	O	O	
+4-12	Lobesfloskel	NN	<unknown>	_	O	O	
+4-13	stehen	VVINF	stehen	_	O	O	
+4-14	zu	PTKZU	zu	_	O	O	
+4-15	lassen	VVINF	lassen	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=An neuen Entdeckungen die Hülle und Fülle: in Paestum ein wahrscheinlich oskisches Grab mit Gemälden.
+5-1	An	APPR	an	_	O	O	
+5-2	neuen	ADJA	neu	_	O	O	
+5-3	Entdeckungen	NN	Entdeckung	_	O	O	
+5-4	die	ART	die	_	O	O	
+5-5	Hülle	NN	Hülle	_	O	O	
+5-6	und	KON	und	_	O	O	
+5-7	Fülle	NN	Fülle	_	O	O	
+5-8	:	$.	:	_	O	O	
+5-9	in	APPR	in	_	O	O	
+5-10	Paestum	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-11	ein	ART	eine	_	O	O	
+5-12	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+5-13	oskisches	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-14	Grab	NN	Grab	_	I-webanno.custom.LetterEntity_	I-OBJ	
+5-15	mit	APPR	mit	_	I-webanno.custom.LetterEntity_	I-OBJ	
+5-16	Gemälden	NN	Gemälde	_	I-webanno.custom.LetterEntity_	I-OBJ	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Außerdem habe ich in Erfahrung gebracht, daß ein Marchese Bellisle in einem bei Paestum gelegenen Casino eine Menge der in Paestum in den letzten Jahren gefundenen Vasen und Terracotten aufgespeichert hat und er sie nächsten~ zu verkaufen gedenkt (Berliner Museum ?
+6-1	Außerdem	ADV	außerdem	_	O	O	
+6-2	habe	VAFIN	haben	_	O	O	
+6-3	ich	PPER	ich	_	O	O	
+6-4	in	APPR	in	_	O	O	
+6-5	Erfahrung	NN	Erfahrung	_	O	O	
+6-6	gebracht	VVPP	bringen	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	daß	KOUS	dass	_	O	O	
+6-9	ein	ART	eine	_	O	O	
+6-10	Marchese	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-11	Bellisle	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-12	in	APPR	in	_	O	O	
+6-13	einem	ART	eine	_	O	O	
+6-14	bei	APPR	bei	_	O	O	
+6-15	Paestum	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-16	gelegenen	ADJA	gelegen	_	O	O	
+6-17	Casino	NN	Casino	_	O	O	
+6-18	eine	ART	eine	_	O	O	
+6-19	Menge	NN	Menge	_	O	O	
+6-20	der	ART	die	_	O	O	
+6-21	in	APPR	in	_	O	O	
+6-22	Paestum	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-23	in	APPR	in	_	O	O	
+6-24	den	ART	die	_	O	O	
+6-25	letzten	ADJA	letzt	_	O	O	
+6-26	Jahren	NN	Jahr	_	O	O	
+6-27	gefundenen	ADJA	gefunden	_	O	O	
+6-28	Vasen	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-29	und	KON	und	_	O	O	
+6-30	Terracotten	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-31	aufgespeichert	VVPP	aufspeichern	_	O	O	
+6-32	hat	VAFIN	haben	_	O	O	
+6-33	und	KON	und	_	O	O	
+6-34	er	PPER	er	_	O	O	
+6-35	sie	PPER	sie	_	O	O	
+6-36	nächsten~	ADJD	<unknown>	_	O	O	
+6-37	zu	PTKZU	zu	_	O	O	
+6-38	verkaufen	VVINF	verkaufen	_	O	O	
+6-39	gedenkt	VVFIN	gedenken	_	O	O	
+6-40	(	$(	(	_	O	O	
+6-41	Berliner	ADJA	Berliner	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-42	Museum	NN	Museum	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+6-43	?	$.	?	_	O	O	
+
+#id=7
+#text=).
+7-1	)	$(	)	_	O	O	
+7-2	.	$.	.	_	O	O	
+
+#id=8
+#text=Drittens habe ich eine Notiz von Peytriguet in Pagani erhalten, worin er mir mittheilt, daß er eine Sammlung nolaner und paestumer Terracotten aquiri~t hat.
+8-1	Drittens	ADV	drittens	_	O	O	
+8-2	habe	VAFIN	haben	_	O	O	
+8-3	ich	PPER	ich	_	O	O	
+8-4	eine	ART	eine	_	O	O	
+8-5	Notiz	NN	Notiz	_	O	O	
+8-6	von	APPR	von	_	O	O	
+8-7	Peytriguet	NN	<unknown>	_	O	O	
+8-8	in	APPR	in	_	O	O	
+8-9	Pagani	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-10	erhalten	VVPP	erhalten	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	worin	PWAV	worin	_	O	O	
+8-13	er	PPER	er	_	O	O	
+8-14	mir	PRF	ich	_	O	O	
+8-15	mittheilt	ADJD	<unknown>	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	daß	KOUS	dass	_	O	O	
+8-18	er	PPER	er	_	O	O	
+8-19	eine	ART	eine	_	O	O	
+8-20	Sammlung	NN	Sammlung	_	O	O	
+8-21	nolaner	NN	<unknown>	_	O	O	
+8-22	und	KON	und	_	O	O	
+8-23	paestumer	ADJA	<unknown>	_	O	O	
+8-24	Terracotten	NN	<unknown>	_	O	O	
+8-25	aquiri~t	VVPP	<unknown>	_	O	O	
+8-26	hat	VAFIN	haben	_	O	O	
+8-27	.	$.	.	_	O	O	
+
+#id=9
+#text=Sollen diese Dinge ausgebeutet werden oder nicht?
+9-1	Sollen	VMFIN	sollen	_	O	O	
+9-2	diese	PDS	diese	_	O	O	
+9-3	Dinge	NN	Ding	_	O	O	
+9-4	ausgebeutet	VVPP	ausbeuten	_	O	O	
+9-5	werden	VAFIN	werden	_	O	O	
+9-6	oder	KON	oder	_	O	O	
+9-7	nicht	PTKNEG	nicht	_	O	O	
+9-8	?	$.	?	_	O	O	
+
+#id=10
+#text=Ich habe kein Geld für derartige Touren, zumal unter obwaltenden Umständen, wo ein dreiwöchentliches Stillschweigen von Seiten Gerhards nach der bisher sehr regen Correspondenz auf nichts Gutes deutet.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	habe	VAFIN	haben	_	O	O	
+10-3	kein	PIAT	keine	_	O	O	
+10-4	Geld	NN	Geld	_	O	O	
+10-5	für	APPR	für	_	O	O	
+10-6	derartige	ADJA	derartig	_	O	O	
+10-7	Touren	NN	Tour	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	zumal	KOUS	zumal	_	O	O	
+10-10	unter	APPR	unter	_	O	O	
+10-11	obwaltenden	ADJA	obwaltend	_	O	O	
+10-12	Umständen	NN	Umstand	_	O	O	
+10-13	,	$,	,	_	O	O	
+10-14	wo	PWAV	wo	_	O	O	
+10-15	ein	ART	eine	_	O	O	
+10-16	dreiwöchentliches	ADJA	<unknown>	_	O	O	
+10-17	Stillschweigen	NN	Stillschweigen	_	O	O	
+10-18	von	APPR	von	_	O	O	
+10-19	Seiten	NN	Seite	_	O	O	
+10-20	Gerhards	NE	Gerhards	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-21	nach	APPR	nach	_	O	O	
+10-22	der	ART	die	_	O	O	
+10-23	bisher	ADV	bisher	_	O	O	
+10-24	sehr	ADV	sehr	_	O	O	
+10-25	regen	ADJA	rege	_	O	O	
+10-26	Correspondenz	NN	<unknown>	_	O	O	
+10-27	auf	APPR	auf	_	O	O	
+10-28	nichts	PIAT	nichts	_	O	O	
+10-29	Gutes	NN	Gute	_	O	O	
+10-30	deutet	VVFIN	deuten	_	O	O	
+10-31	.	$.	.	_	O	O	
+
+#id=11
+#text=Es
+11-1	Es	PPER	es	_	O	O	
+

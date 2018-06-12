@@ -1,0 +1,232 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=79 Gerhard an Braun Berlin, 30. Januar 1844 3 Sie mir sehr wünschenswerth.
+1-1	79	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	3	CARD	3	_	O	O	
+1-12	Sie	PPER	Sie	_	O	O	
+1-13	mir	PRF	ich	_	O	O	
+1-14	sehr	ADV	sehr	_	O	O	
+1-15	wünschenswerth	NE	<unknown>	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=3
+#text=Das Schinkelsche Exemplar war so wohlfeil, weil die Monumenti anderweitig versteigert waren.
+3-1	Das	ART	die	_	O	O	
+3-2	Schinkelsche	ADJA	<unknown>	_	O	O	
+3-3	Exemplar	NN	Exemplar	_	O	O	
+3-4	war	VAFIN	sein	_	O	O	
+3-5	so	ADV	so	_	O	O	
+3-6	wohlfeil	ADJD	wohlfeil	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	weil	KOUS	weil	_	O	O	
+3-9	die	ART	die	_	O	O	
+3-10	Monumenti	NN	<unknown>	_	O	O	
+3-11	anderweitig	ADJD	anderweitig	_	O	O	
+3-12	versteigert	VVPP	versteigern	_	O	O	
+3-13	waren	VAFIN	sein	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Unterweltsschichten weiß ich nicht zu specificiren; weshalb soll ich es ?
+4-1	Unterweltsschichten	NN	<unknown>	_	O	O	
+4-2	weiß	VVFIN	wissen	_	O	O	
+4-3	ich	PPER	ich	_	O	O	
+4-4	nicht	PTKNEG	nicht	_	O	O	
+4-5	zu	PTKA	zu	_	O	O	
+4-6	specificiren	ADJD	<unknown>	_	O	O	
+4-7	;	$.	;	_	O	O	
+4-8	weshalb	PWAV	weshalb	_	O	O	
+4-9	soll	VMFIN	sollen	_	O	O	
+4-10	ich	PPER	ich	_	O	O	
+4-11	es	PPER	es	_	O	O	
+4-12	?	$.	?	_	O	O	
+
+#id=5
+#text=Schade daß Herr Joly eben alles Beste erhielt !
+5-1	Schade	ADJD	schade	_	O	O	
+5-2	daß	KOUS	dass	_	O	O	
+5-3	Herr	NN	Herr	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	Joly	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-5	eben	ADV	eben	_	O	O	
+5-6	alles	PIAT	alle	_	O	O	
+5-7	Beste	NN	Beste	_	O	O	
+5-8	erhielt	VVFIN	erhalten	_	O	O	
+5-9	!	$.	!	_	O	O	
+
+#id=6
+#text=Mögen Sie bald Ihren neuen Transport trocken in Rom haben !
+6-1	Mögen	VMFIN	mögen	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	bald	ADV	bald	_	O	O	
+6-4	Ihren	PPOSAT	ihr	_	O	O	
+6-5	neuen	ADJA	neu	_	O	O	
+6-6	Transport	NN	Transport	_	O	O	
+6-7	trocken	ADJD	trocken	_	O	O	
+6-8	in	APPR	in	_	O	O	
+6-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-10	haben	VAINF	haben	_	O	O	
+6-11	!	$.	!	_	O	O	
+
+#id=7
+#text=Panofka's Aufsatz über die breduta Jole wird nächstens gedruckt.
+7-1	Panofka's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	Aufsatz	NN	Aufsatz	_	O	O	
+7-3	über	APPR	über	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	breduta	NE	<unknown>	_	O	O	
+7-6	Jole	NE	Jole	_	O	O	
+7-7	wird	VAFIN	werden	_	O	O	
+7-8	nächstens	ADV	nächstens	_	O	O	
+7-9	gedruckt	VVPP	drucken	_	O	O	
+7-10	.	$.	.	_	O	O	
+
+#id=8
+#text=Wolff's Zurücksetzung thut mir sehr leid; Herr Moliere war diesmal nicht Schuld ?
+8-1	Wolff's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	Zurücksetzung	NN	Zurücksetzung	_	O	O	
+8-3	thut	VVFIN	<unknown>	_	O	O	
+8-4	mir	PPER	ich	_	O	O	
+8-5	sehr	ADV	sehr	_	O	O	
+8-6	leid	ADJD	leid	_	O	O	
+8-7	;	$.	;	_	O	O	
+8-8	Herr	NN	Herr	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-9	Moliere	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-10	war	VAFIN	sein	_	O	O	
+8-11	diesmal	ADV	diesmal	_	O	O	
+8-12	nicht	PTKNEG	nicht	_	O	O	
+8-13	Schuld	NN	Schuld	_	O	O	
+8-14	?	$.	?	_	O	O	
+
+#id=9
+#text=Zur Rettung des G ad ssis gratüliere.
+9-1	Zur	APPRART	zu	_	O	O	
+9-2	Rettung	NN	Rettung	_	O	O	
+9-3	des	ART	die	_	O	O	
+9-4	G	NN	G	_	O	O	
+9-5	ad	FM	ad	_	O	O	
+9-6	ssis	NE	<unknown>	_	O	O	
+9-7	gratüliere	VVFIN	<unknown>	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Ein Exemplar von Gargmulo's Auswahl Pompejanische Gemälde, das ich früher von ihm eingetauscht wünschte, wird man wol von ihm kaufen müssen; wie theuer ?
+10-1	Ein	ART	eine	_	O	O	
+10-2	Exemplar	NN	Exemplar	_	O	O	
+10-3	von	APPR	von	_	O	O	
+10-4	Gargmulo's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-5	Auswahl	NN	Auswahl	_	O	O	
+10-6	Pompejanische	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+10-7	Gemälde	NN	Gemälde	_	I-webanno.custom.LetterEntity_	I-OBJ	
+10-8	,	$,	,	_	O	O	
+10-9	das	PRELS	die	_	O	O	
+10-10	ich	PPER	ich	_	O	O	
+10-11	früher	ADV	früher	_	O	O	
+10-12	von	APPR	von	_	O	O	
+10-13	ihm	PPER	er	_	O	O	
+10-14	eingetauscht	VVPP	eintauschen	_	O	O	
+10-15	wünschte	VVFIN	wünschen	_	O	O	
+10-16	,	$,	,	_	O	O	
+10-17	wird	VAFIN	werden	_	O	O	
+10-18	man	PIS	man	_	O	O	
+10-19	wol	ADJD	<unknown>	_	O	O	
+10-20	von	APPR	von	_	O	O	
+10-21	ihm	PPER	er	_	O	O	
+10-22	kaufen	VVINF	kaufen	_	O	O	
+10-23	müssen	VMINF	müssen	_	O	O	
+10-24	;	$.	;	_	O	O	
+10-25	wie	KOUS	wie	_	O	O	
+10-26	theuer	ADJD	<unknown>	_	O	O	
+10-27	?	$.	?	_	O	O	
+
+#id=11
+#text=Wegen Preller und Halle werde sprechen; zu Voigtels Nachfolger ist aber der Dr. Dunker seit Jahren designirt und war deswegen lange dort Privatdocent.
+11-1	Wegen	APPR	wegen	_	O	O	
+11-2	Preller	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-3	und	KON	und	_	O	O	
+11-4	Halle	NN	Halle	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-5	werde	VAFIN	werden	_	O	O	
+11-6	sprechen	VVINF	sprechen	_	O	O	
+11-7	;	$.	;	_	O	O	
+11-8	zu	APPR	zu	_	O	O	
+11-9	Voigtels	NN	<unknown>	_	O	O	
+11-10	Nachfolger	NN	Nachfolger	_	O	O	
+11-11	ist	VAFIN	sein	_	O	O	
+11-12	aber	ADV	aber	_	O	O	
+11-13	der	ART	die	_	O	O	
+11-14	Dr.	NN	Dr.	_	O	O	
+11-15	Dunker	NN	<unknown>	_	O	O	
+11-16	seit	APPR	seit	_	O	O	
+11-17	Jahren	NN	Jahr	_	O	O	
+11-18	designirt	NN	<unknown>	_	O	O	
+11-19	und	KON	und	_	O	O	
+11-20	war	VAFIN	sein	_	O	O	
+11-21	deswegen	PAV	deswegen	_	O	O	
+11-22	lange	ADV	lange	_	O	O	
+11-23	dort	ADV	dort	_	O	O	
+11-24	Privatdocent	NN	<unknown>	_	O	O	
+11-25	.	$.	.	_	O	O	
+
+#id=12
+#text=Göttling hat seine Thusnelda splendid in unnützem Graufolio und mit noch unnützerem Abbild der BandeIschen Conception, den Text trefflich redigirt, herausgegeben; seinen neuen Hesiodus höre ich weniger loben.
+12-1	Göttling	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	hat	VAFIN	haben	_	O	O	
+12-3	seine	PPOSAT	sein	_	O	O	
+12-4	Thusnelda	NE	Thusnelda	_	O	O	
+12-5	splendid	ADJD	splendid	_	O	O	
+12-6	in	APPR	in	_	O	O	
+12-7	unnützem	ADJA	unnütz	_	O	O	
+12-8	Graufolio	NN	<unknown>	_	O	O	
+12-9	und	KON	und	_	O	O	
+12-10	mit	APPR	mit	_	O	O	
+12-11	noch	ADV	noch	_	O	O	
+12-12	unnützerem	ADJA	<unknown>	_	O	O	
+12-13	Abbild	NN	Abbild	_	O	O	
+12-14	der	ART	die	_	O	O	
+12-15	BandeIschen	NN	<unknown>	_	O	O	
+12-16	Conception	NN	<unknown>	_	O	O	
+12-17	,	$,	,	_	O	O	
+12-18	den	ART	die	_	O	O	
+12-19	Text	NN	Text	_	O	O	
+12-20	trefflich	ADJD	trefflich	_	O	O	
+12-21	redigirt	NN	<unknown>	_	O	O	
+12-22	,	$,	,	_	O	O	
+12-23	herausgegeben	VVPP	herausgeben	_	O	O	
+12-24	;	$.	;	_	O	O	
+12-25	seinen	PPOSAT	sein	_	O	O	
+12-26	neuen	ADJA	neu	_	O	O	
+12-27	Hesiodus	NN	<unknown>	_	O	O	
+12-28	höre	VVFIN	hören	_	O	O	
+12-29	ich	PPER	ich	_	O	O	
+12-30	weniger	ADV	weniger	_	O	O	
+12-31	loben	VVINF	loben	_	O	O	
+12-32	.	$.	.	_	O	O	
+
+#id=13
+#text=Die Bibliothek für Visconti's Wappenbuch zu gewinnen, bedarf es näherer Notizen über Werth und Preis.
+13-1	Die	ART	die	_	O	O	
+13-2	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+13-3	für	APPR	für	_	O	O	
+13-4	Visconti's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-5	Wappenbuch	NN	Wappenbuch	_	O	O	
+13-6	zu	PTKZU	zu	_	O	O	
+13-7	gewinnen	VVINF	gewinnen	_	O	O	
+13-8	,	$,	,	_	O	O	
+13-9	bedarf	VVFIN	bedürfen	_	O	O	
+13-10	es	PPER	es	_	O	O	
+13-11	näherer	ADJA	nah	_	O	O	
+13-12	Notizen	NN	Notiz	_	O	O	
+13-13	über	APPR	über	_	O	O	
+13-14	Werth	NE	<unknown>	_	O	O	
+13-15	und	KON	und	_	O	O	
+13-16	Preis	NN	Preis	_	O	O	
+13-17	.	$.	.	_	O	O	
+

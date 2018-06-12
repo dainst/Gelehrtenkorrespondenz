@@ -1,0 +1,118 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=104 Verehrter Freund Lepsius an Renzen Berlin, 2. Februar 1875 g. 7/3 75 Berlin d. 2. Febr.
+1-1	104	CARD	@card@	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	7/3	CARD	7/3	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-17	d.	ART	d.	_	O	O	
+1-18	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	Febr.	NN	Febr.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1875 Ich übersende Ihnen hierbei 3 Zeichnungen, die sich unter den Eichler'schen als für das Institut gefertigt finden.
+2-1	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Ich	PPER	ich	_	O	O	
+2-3	übersende	VVFIN	übersenden	_	O	O	
+2-4	Ihnen	PPER	Sie	_	O	O	
+2-5	hierbei	PAV	hierbei	_	O	O	
+2-6	3	CARD	3	_	O	O	
+2-7	Zeichnungen	NN	Zeichnung	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	die	PRELS	die	_	O	O	
+2-10	sich	PRF	sich	_	O	O	
+2-11	unter	APPR	unter	_	O	O	
+2-12	den	ART	die	_	O	O	
+2-13	Eichler'schen	NN	<unknown>	_	O	O	
+2-14	als	KOKOM	als	_	O	O	
+2-15	für	APPR	für	_	O	O	
+2-16	das	ART	die	_	O	O	
+2-17	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-18	gefertigt	VVPP	fertigen	_	O	O	
+2-19	finden	VVFIN	finden	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Sie sind in seinen Rechnungen mit 15 r angesetzt, die also auf Ihre Rechnung gehören.
+3-1	Sie	PPER	Sie	_	O	O	
+3-2	sind	VAFIN	sein	_	O	O	
+3-3	in	APPR	in	_	O	O	
+3-4	seinen	PPOSAT	sein	_	O	O	
+3-5	Rechnungen	NN	Rechnung	_	O	O	
+3-6	mit	APPR	mit	_	O	O	
+3-7	15	CARD	15	_	O	O	
+3-8	r	NE	r	_	O	O	
+3-9	angesetzt	VVPP	ansetzen	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	die	PRELS	die	_	O	O	
+3-12	also	ADV	also	_	O	O	
+3-13	auf	APPR	auf	_	O	O	
+3-14	Ihre	PPOSAT	ihr	_	O	O	
+3-15	Rechnung	NN	Rechnung	_	O	O	
+3-16	gehören	VVFIN	gehören	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Er bezeichnet ferner eine Ausgabe von 14 r als für eine Privatzeichnung gemacht.
+4-1	Er	PPER	er	_	O	O	
+4-2	bezeichnet	VVFIN	bezeichnen	_	O	O	
+4-3	ferner	ADJD	fern	_	O	O	
+4-4	eine	ART	eine	_	O	O	
+4-5	Ausgabe	NN	Ausgabe	_	O	O	
+4-6	von	APPR	von	_	O	O	
+4-7	14	CARD	14	_	O	O	
+4-8	r	NE	r	_	O	O	
+4-9	als	KOKOM	als	_	O	O	
+4-10	für	APPR	für	_	O	O	
+4-11	eine	ART	eine	_	O	O	
+4-12	Privatzeichnung	NN	<unknown>	_	O	O	
+4-13	gemacht	VVPP	machen	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Wissen Sie davon etwas?
+5-1	Wissen	VVFIN	wissen	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	davon	PAV	davon	_	O	O	
+5-4	etwas	ADV	etwas	_	O	O	
+5-5	?	$.	?	_	O	O	
+
+#id=6
+#text=Den Ungarelli, den das Museum nachzuzahlen hat, werde ich hier abfolgen lassen.
+6-1	Den	ART	die	_	O	O	
+6-2	Ungarelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	,	$,	,	_	O	O	
+6-4	den	PRELS	die	_	O	O	
+6-5	das	ART	die	_	O	O	
+6-6	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-7	nachzuzahlen	VVIZU	nachzahlen	_	O	O	
+6-8	hat	VAFIN	haben	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	werde	VAFIN	werden	_	O	O	
+6-11	ich	PPER	ich	_	O	O	
+6-12	hier	ADV	hier	_	O	O	
+6-13	abfolgen	VVINF	<unknown>	_	O	O	
+6-14	lassen	VVINF	lassen	_	O	O	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=Herzlich der Ihrige R Lepsius
+7-1	Herzlich	ADJD	herzlich	_	O	O	
+7-2	der	ART	die	_	O	O	
+7-3	Ihrige	PPOSAT	ihrige	_	O	O	
+7-4	R	NN	R	_	O	O	
+7-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

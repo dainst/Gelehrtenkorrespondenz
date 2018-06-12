@@ -1,0 +1,209 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=329 Hochverehrter Freund Lepsius an Henzen Berlin, 13. Juni 1876 g. 16/6 76 r.
+1-1	329	CARD	@card@	_	O	O	
+1-2	Hochverehrter	NN	Hochverehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	16/6	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	76	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=17/6 Berlin, d. 13. J-uni 1876.
+2-1	17/6	CARD	@card@	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-3	,	$,	,	_	O	O	
+2-4	d.	ART	d.	_	O	O	
+2-5	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	J-uni	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich habe erst vorgestern den vom 6. d. datirten Rechnungsabschluß vom Auswärtigen Amt erhalten.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	habe	VAFIN	haben	_	O	O	
+3-3	erst	ADV	erst	_	O	O	
+3-4	vorgestern	ADV	vorgestern	_	O	O	
+3-5	den	ART	die	_	O	O	
+3-6	vom	APPRART	von	_	O	O	
+3-7	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-9	d.	ART	d.	_	O	O	
+3-10	datirten	NN	<unknown>	_	O	O	
+3-11	Rechnungsabschluß	NN	Rechnungsabschluss	_	O	O	
+3-12	vom	APPRART	von	_	O	O	
+3-13	Auswärtigen	ADJA	auswärtig	_	O	O	
+3-14	Amt	NN	Amt	_	O	O	
+3-15	erhalten	VVPP	erhalten	_	O	O	
+3-16	.	$.	.	_	O	O	
+
+#id=4
+#text=Abschriftlich sende ich Ihnen vorstehend die Bemerkungen welche die Römischen Rechnungen betreffen.
+4-1	Abschriftlich	ADJD	<unknown>	_	O	O	
+4-2	sende	VVFIN	senden	_	O	O	
+4-3	ich	PPER	ich	_	O	O	
+4-4	Ihnen	PPER	Sie	_	O	O	
+4-5	vorstehend	ADJD	vorstehend	_	O	O	
+4-6	die	ART	die	_	O	O	
+4-7	Bemerkungen	NN	Bemerkung	_	O	O	
+4-8	welche	PRELS	welche	_	O	O	
+4-9	die	ART	die	_	O	O	
+4-10	Römischen	ADJA	römisch	_	O	O	
+4-11	Rechnungen	NN	Rechnung	_	O	O	
+4-12	betreffen	VVINF	betreffen	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Sie werden sich leicht erledigen lassen.
+5-1	Sie	PPER	Sie	_	O	O	
+5-2	werden	VAFIN	werden	_	O	O	
+5-3	sich	PRF	sich	_	O	O	
+5-4	leicht	ADJD	leicht	_	O	O	
+5-5	erledigen	VVINF	erledigen	_	O	O	
+5-6	lassen	VVINF	lassen	_	O	O	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=Gestern ist nun auch Minister Krüger hierher zurückgekehrt voll und höchst befriedigt von allen Herrlichkeiten die er gesehen und mit seltener Receptionskraft fest gehalten hat.
+6-1	Gestern	ADV	gestern	_	O	O	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	nun	ADV	nun	_	O	O	
+6-4	auch	ADV	auch	_	O	O	
+6-5	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-6	Krüger	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-7	hierher	PAV	hierher	_	O	O	
+6-8	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+6-9	voll	ADJD	voll	_	O	O	
+6-10	und	KON	und	_	O	O	
+6-11	höchst	ADJD	hochöchst	_	O	O	
+6-12	befriedigt	VVPP	befriedigen	_	O	O	
+6-13	von	APPR	von	_	O	O	
+6-14	allen	PIAT	alle	_	O	O	
+6-15	Herrlichkeiten	NN	Herrlichkeit	_	O	O	
+6-16	die	ART	die	_	O	O	
+6-17	er	PPER	er	_	O	O	
+6-18	gesehen	VVPP	sehen	_	O	O	
+6-19	und	KON	und	_	O	O	
+6-20	mit	APPR	mit	_	O	O	
+6-21	seltener	ADJA	selten	_	O	O	
+6-22	Receptionskraft	NN	<unknown>	_	O	O	
+6-23	fest	ADJD	fest	_	O	O	
+6-24	gehalten	VVPP	halten	_	O	O	
+6-25	hat	VAFIN	haben	_	O	O	
+6-26	.	$.	.	_	O	O	
+
+#id=7
+#text=Er hat mir ausführlich namentlich von Rom und den Institutsverhältnissen erzählt, und es scheint ja daß Alles zu allgemeiner Befriedigung geordnet worden ist in Bezug namentlich auf die spätere die Verwaltung Verwaltung.
+7-1	Er	PPER	er	_	O	O	
+7-2	hat	VAFIN	haben	_	O	O	
+7-3	mir	PPER	ich	_	O	O	
+7-4	ausführlich	ADJD	ausführlich	_	O	O	
+7-5	namentlich	ADJD	namentlich	_	O	O	
+7-6	von	APPR	von	_	O	O	
+7-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-8	und	KON	und	_	O	O	
+7-9	den	ART	die	_	O	O	
+7-10	Institutsverhältnissen	NN	<unknown>	_	O	O	
+7-11	erzählt	VVFIN	erzählen	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	und	KON	und	_	O	O	
+7-14	es	PPER	es	_	O	O	
+7-15	scheint	VVFIN	scheinen	_	O	O	
+7-16	ja	ADV	ja	_	O	O	
+7-17	daß	KOUS	dass	_	O	O	
+7-18	Alles	PIS	alle	_	O	O	
+7-19	zu	APPR	zu	_	O	O	
+7-20	allgemeiner	ADJA	allgemein	_	O	O	
+7-21	Befriedigung	NN	Befriedigung	_	O	O	
+7-22	geordnet	VVPP	ordnen	_	O	O	
+7-23	worden	VAPP	werden	_	O	O	
+7-24	ist	VAFIN	sein	_	O	O	
+7-25	in	APPR	in	_	O	O	
+7-26	Bezug	NN	Bezug	_	O	O	
+7-27	namentlich	ADJD	namentlich	_	O	O	
+7-28	auf	APPR	auf	_	O	O	
+7-29	die	ART	die	_	O	O	
+7-30	spätere	ADJA	spät	_	O	O	
+7-31	die	ART	die	_	O	O	
+7-32	Verwaltung	NN	Verwaltung	_	O	O	
+7-33	Verwaltung	NN	Verwaltung	_	O	O	
+7-34	.	$.	.	_	O	O	
+
+#id=8
+#text=Es scheint mir ein guter Auswegyunter Ihrer Obercontrolle auf Schulz zu übertragen unabhängig von der Gesandtschaft.
+8-1	Es	PPER	es	_	O	O	
+8-2	scheint	VVFIN	scheinen	_	O	O	
+8-3	mir	PPER	ich	_	O	O	
+8-4	ein	ART	eine	_	O	O	
+8-5	guter	ADJA	gut	_	O	O	
+8-6	Auswegyunter	NN	<unknown>	_	O	O	
+8-7	Ihrer	PPOSAT	ihr	_	O	O	
+8-8	Obercontrolle	NN	<unknown>	_	O	O	
+8-9	auf	APPR	auf	_	O	O	
+8-10	Schulz	NE	Schulz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-11	zu	PTKA	zu	_	O	O	
+8-12	übertragen	ADJD	übertragen	_	O	O	
+8-13	unabhängig	ADJD	unabhängig	_	O	O	
+8-14	von	APPR	von	_	O	O	
+8-15	der	ART	die	_	O	O	
+8-16	Gesandtschaft	NN	Gesandtschaft	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-17	.	$.	.	_	O	O	
+
+#id=9
+#text=Es wird nur die Ablösung von denselben in diesem Punkte erst noch vom Auswärtigen Amte ausgesprochen werden müssen.
+9-1	Es	PPER	es	_	O	O	
+9-2	wird	VAFIN	werden	_	O	O	
+9-3	nur	ADV	nur	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	Ablösung	NN	Ablösung	_	O	O	
+9-6	von	APPR	von	_	O	O	
+9-7	denselben	PDAT	derselb	_	O	O	
+9-8	in	APPR	in	_	O	O	
+9-9	diesem	PDAT	dies	_	O	O	
+9-10	Punkte	NN	Punkt	_	O	O	
+9-11	erst	ADV	erst	_	O	O	
+9-12	noch	ADV	noch	_	O	O	
+9-13	vom	APPRART	von	_	O	O	
+9-14	Auswärtigen	ADJA	auswärtig	_	O	O	
+9-15	Amte	NN	Amt	_	O	O	
+9-16	ausgesprochen	VVPP	aussprechen	_	O	O	
+9-17	werden	VAINF	werden	_	O	O	
+9-18	müssen	VMINF	müssen	_	O	O	
+9-19	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich meine die Vermiethungseinnahme für die untern Räume und die Stipendiatenwohnungen m~e das Reich dem Institut gerade als Verwaltungsfonds überweisen.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	meine	VVFIN	meinen	_	O	O	
+10-3	die	ART	die	_	O	O	
+10-4	Vermiethungseinnahme	NN	<unknown>	_	O	O	
+10-5	für	APPR	für	_	O	O	
+10-6	die	ART	die	_	O	O	
+10-7	untern	APPRART	untern	_	O	O	
+10-8	Räume	NN	Raum	_	O	O	
+10-9	und	KON	und	_	O	O	
+10-10	die	ART	die	_	O	O	
+10-11	Stipendiatenwohnungen	NN	<unknown>	_	O	O	
+10-12	m~e	NE	<unknown>	_	O	O	
+10-13	das	ART	die	_	O	O	
+10-14	Reich	NN	Reich	_	O	O	
+10-15	dem	ART	die	_	O	O	
+10-16	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-17	gerade	ADV	gerade	_	O	O	
+10-18	als	KOKOM	als	_	O	O	
+10-19	Verwaltungsfonds	NN	<unknown>	_	O	O	
+10-20	überweisen	VVINF	überweisen	_	O	O	
+10-21	.	$.	.	_	O	O	
+

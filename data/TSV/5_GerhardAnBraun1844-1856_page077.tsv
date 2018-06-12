@@ -1,0 +1,215 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=426 Gerhard an Braun Berlin, 7. Oktober 1844 A. d. Dir.
+1-1	426	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	A.	APPR	an	_	O	O	
+1-12	d.	ART	d.	_	O	O	
+1-13	Dir.	NN	Dir.	_	O	O	
+
+#id=3
+#text=g. 12/X 44 r. 18/X 44 Berlin 7 Okt 44 Mein theurer Freund.
+3-1	g.	ADJD	<unknown>	_	O	O	
+3-2	12/X	VVFIN	<unknown>	_	O	O	
+3-3	44	CARD	44	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-4	r.	ADJA	<unknown>	_	O	O	
+3-5	18/X	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-6	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-8	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-9	Okt	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-10	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-11	Mein	PPOSAT	mein	_	O	O	
+3-12	theurer	ADJA	<unknown>	_	O	O	
+3-13	Freund	NN	Freund	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Obwohl Sie keine Briefadresse mir aufgaben, schreibe ich Ihnen doch an Ihren wahrscheinlichsten Aufenthaltsort um Ihren baldigen Besuch und Ihre Einkehr in meiner Behausung nochmals mir zu erbitten.
+4-1	Obwohl	KOUS	obwohl	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	keine	PIAT	keine	_	O	O	
+4-4	Briefadresse	NN	<unknown>	_	O	O	
+4-5	mir	PPER	ich	_	O	O	
+4-6	aufgaben	VVFIN	aufgeben	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	schreibe	VVFIN	schreiben	_	O	O	
+4-9	ich	PPER	ich	_	O	O	
+4-10	Ihnen	PPER	Sie	_	O	O	
+4-11	doch	ADV	doch	_	O	O	
+4-12	an	APPR	an	_	O	O	
+4-13	Ihren	PPOSAT	ihr	_	O	O	
+4-14	wahrscheinlichsten	ADJA	wahrscheinlich	_	O	O	
+4-15	Aufenthaltsort	NN	Aufenthaltsort	_	O	O	
+4-16	um	APPR	um	_	O	O	
+4-17	Ihren	PPOSAT	ihr	_	O	O	
+4-18	baldigen	ADJA	baldig	_	O	O	
+4-19	Besuch	NN	Besuch	_	O	O	
+4-20	und	KON	und	_	O	O	
+4-21	Ihre	PPOSAT	ihr	_	O	O	
+4-22	Einkehr	NN	Einkehr	_	O	O	
+4-23	in	APPR	in	_	O	O	
+4-24	meiner	PPOSAT	mein	_	O	O	
+4-25	Behausung	NN	Behausung	_	O	O	
+4-26	nochmals	ADV	nochmals	_	O	O	
+4-27	mir	PPER	ich	_	O	O	
+4-28	zu	PTKZU	zu	_	O	O	
+4-29	erbitten	VVINF	erbitten	_	O	O	
+4-30	.	$.	.	_	O	O	
+
+#id=5
+#text=Gruner war hier, hat aber weder Athenaeumblatt noch Lucido, welches Sie mir durch ihn verhießen, mir hier zurückgelassen.
+5-1	Gruner	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	war	VAFIN	sein	_	O	O	
+5-3	hier	ADV	hier	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	hat	VAFIN	haben	_	O	O	
+5-6	aber	ADV	aber	_	O	O	
+5-7	weder	KON	weder	_	O	O	
+5-8	Athenaeumblatt	NN	<unknown>	_	O	O	
+5-9	noch	ADV	noch	_	O	O	
+5-10	Lucido	NE	<unknown>	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	welches	PRELS	welche	_	O	O	
+5-13	Sie	PPER	Sie	_	O	O	
+5-14	mir	PRF	ich	_	O	O	
+5-15	durch	APPR	durch	_	O	O	
+5-16	ihn	PPER	er	_	O	O	
+5-17	verhießen	VVFIN	verheißen	_	O	O	
+5-18	,	$,	,	_	O	O	
+5-19	mir	PRF	ich	_	O	O	
+5-20	hier	ADV	hier	_	O	O	
+5-21	zurückgelassen	VVPP	zurücklassen	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=Von Wildbad aus wäre es mir nicht vorenthalten worden; wo steckt nun Beides ?
+6-1	Von	APPR	von	_	O	O	
+6-2	Wildbad	NN	Wildbad	_	O	O	
+6-3	aus	APZR	aus	_	O	O	
+6-4	wäre	VAFIN	sein	_	O	O	
+6-5	es	PPER	es	_	O	O	
+6-6	mir	PRF	ich	_	O	O	
+6-7	nicht	PTKNEG	nicht	_	O	O	
+6-8	vorenthalten	VVPP	vorenthalten	_	O	O	
+6-9	worden	VAPP	werden	_	O	O	
+6-10	;	$.	;	_	O	O	
+6-11	wo	PWAV	wo	_	O	O	
+6-12	steckt	VVFIN	stecken	_	O	O	
+6-13	nun	ADV	nun	_	O	O	
+6-14	Beides	PIS	beide	_	O	O	
+6-15	?	$.	?	_	O	O	
+
+#id=7
+#text=Ihrer Sorgfalt für meine modernen Bedürfnisse sage ich als Mensch der unter modernen Leuten zu verkehren hat besten Dank.
+7-1	Ihrer	PPOSAT	ihr	_	O	O	
+7-2	Sorgfalt	NN	Sorgfalt	_	O	O	
+7-3	für	APPR	für	_	O	O	
+7-4	meine	PPOSAT	mein	_	O	O	
+7-5	modernen	ADJA	modern	_	O	O	
+7-6	Bedürfnisse	NN	Bedürfnis	_	O	O	
+7-7	sage	VVFIN	sagen	_	O	O	
+7-8	ich	PPER	ich	_	O	O	
+7-9	als	KOKOM	als	_	O	O	
+7-10	Mensch	NN	Mensch	_	O	O	
+7-11	der	ART	die	_	O	O	
+7-12	unter	APPR	unter	_	O	O	
+7-13	modernen	ADJA	modern	_	O	O	
+7-14	Leuten	NN	Leute	_	O	O	
+7-15	zu	PTKZU	zu	_	O	O	
+7-16	verkehren	VVINF	verkehren	_	O	O	
+7-17	hat	VAFIN	haben	_	O	O	
+7-18	besten	ADJA	gut	_	O	O	
+7-19	Dank	NN	Dank	_	O	O	
+7-20	.	$.	.	_	O	O	
+
+#id=8
+#text=Daß ich aber dem Ministerium einen Institutsbericht auch meinerseits (nicht Ihrerseits ) versprach, den Termin desselben mir offen lassend, darf da Sie um Beiträge dazu nur gebeten nicht gedrängt sind, Ihnen nur zweckmäßig und keinesfalls unbequem erscheinen.
+8-1	Daß	KOUS	dass	_	O	O	
+8-2	ich	PPER	ich	_	O	O	
+8-3	aber	ADV	aber	_	O	O	
+8-4	dem	ART	die	_	O	O	
+8-5	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-6	einen	ART	eine	_	O	O	
+8-7	Institutsbericht	NN	Institutsbericht	_	O	O	
+8-8	auch	ADV	auch	_	O	O	
+8-9	meinerseits	ADV	meinerseits	_	O	O	
+8-10	(	$(	(	_	O	O	
+8-11	nicht	PTKNEG	nicht	_	O	O	
+8-12	Ihrerseits	NN	<unknown>	_	O	O	
+8-13	)	$(	)	_	O	O	
+8-14	versprach	VVFIN	versprechen	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	den	ART	die	_	O	O	
+8-17	Termin	NN	Termin	_	O	O	
+8-18	desselben	PDS	derselbe	_	O	O	
+8-19	mir	PRF	ich	_	O	O	
+8-20	offen	ADJD	offen	_	O	O	
+8-21	lassend	ADJD	lassend	_	O	O	
+8-22	,	$,	,	_	O	O	
+8-23	darf	VMFIN	dürfen	_	O	O	
+8-24	da	ADV	da	_	O	O	
+8-25	Sie	PPER	Sie	_	O	O	
+8-26	um	APPR	um	_	O	O	
+8-27	Beiträge	NN	Beitrag	_	O	O	
+8-28	dazu	PAV	dazu	_	O	O	
+8-29	nur	ADV	nur	_	O	O	
+8-30	gebeten	VVPP	bitten	_	O	O	
+8-31	nicht	PTKNEG	nicht	_	O	O	
+8-32	gedrängt	VVPP	drängen	_	O	O	
+8-33	sind	VAFIN	sein	_	O	O	
+8-34	,	$,	,	_	O	O	
+8-35	Ihnen	PPER	Sie	_	O	O	
+8-36	nur	ADV	nur	_	O	O	
+8-37	zweckmäßig	ADJD	zweckmäßig	_	O	O	
+8-38	und	KON	und	_	O	O	
+8-39	keinesfalls	ADV	keinesfalls	_	O	O	
+8-40	unbequem	ADJD	unbequem	_	O	O	
+8-41	erscheinen	VVFIN	erscheinen	_	O	O	
+8-42	.	$.	.	_	O	O	
+
+#id=9
+#text=Wohl Ihnen daß Sie die Windesbraut der Philologenversammlung mieden; ich verließ sie am 3.ten Tage.
+9-1	Wohl	ADV	wohl	_	O	O	
+9-2	Ihnen	PPER	Sie	_	O	O	
+9-3	daß	KOUS	dass	_	O	O	
+9-4	Sie	PPER	Sie	_	O	O	
+9-5	die	ART	die	_	O	O	
+9-6	Windesbraut	NN	<unknown>	_	O	O	
+9-7	der	ART	die	_	O	O	
+9-8	Philologenversammlung	NN	<unknown>	_	O	O	
+9-9	mieden	VVFIN	meiden	_	O	O	
+9-10	;	$.	;	_	O	O	
+9-11	ich	PPER	ich	_	O	O	
+9-12	verließ	VVFIN	verlassen	_	O	O	
+9-13	sie	PPER	sie	_	O	O	
+9-14	am	APPRART	an	_	O	O	
+9-15	3.ten	ADJA	<unknown>	_	O	O	
+9-16	Tage	NN	Tag	_	O	O	
+9-17	.	$.	.	_	O	O	
+
+#id=10
+#text=Malacisch dient wenigstens zur Ausschmückung eines Programms, um dessen Gegenstand ich immer noch
+10-1	Malacisch	ADJD	<unknown>	_	O	O	
+10-2	dient	VVFIN	dienen	_	O	O	
+10-3	wenigstens	ADV	wenigstens	_	O	O	
+10-4	zur	APPRART	zu	_	O	O	
+10-5	Ausschmückung	NN	Ausschmückung	_	O	O	
+10-6	eines	ART	eine	_	O	O	
+10-7	Programms	NN	Programm	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	um	APPR	um	_	O	O	
+10-10	dessen	PRELAT	die	_	O	O	
+10-11	Gegenstand	NN	Gegenstand	_	O	O	
+10-12	ich	PPER	ich	_	O	O	
+10-13	immer	ADV	immer	_	O	O	
+10-14	noch	ADV	noch	_	O	O	
+

@@ -1,0 +1,183 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=100 A. d. Dir.
+1-1	100	CARD	100	_	O	O	
+1-2	A.	APPR	an	_	O	O	
+1-3	d.	ART	d.	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Dr. Braun Gerhard an Braun Berlin, 19. März 1845 g. 31/111 45 r. 1/1V 45 Berlin 19 März 45 Nebst Beischluß für Vollard zum 3 April Mein theurer Freund.
+2-1	Dr.	NN	Dr.	_	O	O	
+2-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-3	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-4	an	APPR	an	_	O	O	
+2-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-7	,	$,	,	_	O	O	
+2-8	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	g.	VVFIN	<unknown>	_	O	O	
+2-13	31/111	CARD	@card@	_	O	O	
+2-14	45	CARD	45	_	O	O	
+2-15	r.	ADJA	<unknown>	_	O	O	
+2-16	1/1V	CARD	<unknown>	_	O	O	
+2-17	45	CARD	45	_	O	O	
+2-18	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-19	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-20	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-21	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-22	Nebst	ADJA	<unknown>	_	O	O	
+2-23	Beischluß	NN	<unknown>	_	O	O	
+2-24	für	APPR	für	_	O	O	
+2-25	Vollard	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-26	zum	APPRART	zu	_	O	O	
+2-27	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-28	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-29	Mein	PPOSAT	mein	_	O	O	
+2-30	theurer	ADJA	<unknown>	_	O	O	
+2-31	Freund	NN	Freund	_	O	O	
+2-32	.	$.	.	_	O	O	
+
+#id=3
+#text=Cornelius der am 15 von hier abreiste um unsre schneefesten Straßen zu benützen - die der Himmel ihm noch länger zu gönnen scheint - nahm verschiedne Diplome mit die nur Borghesi's Unterschrift als Segretario deI la Sezione italiana bedürfen.
+3-1	Cornelius	NE	Cornelius	_	O	O	
+3-2	der	ART	die	_	O	O	
+3-3	am	APPRART	an	_	O	O	
+3-4	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-5	von	APPR	von	_	O	O	
+3-6	hier	ADV	hier	_	O	O	
+3-7	abreiste	VVFIN	abreisen	_	O	O	
+3-8	um	APPR	um	_	O	O	
+3-9	unsre	PPOSAT	unsre	_	O	O	
+3-10	schneefesten	ADJA	<unknown>	_	O	O	
+3-11	Straßen	NN	Straße	_	O	O	
+3-12	zu	PTKZU	zu	_	O	O	
+3-13	benützen	VVINF	benützen	_	O	O	
+3-14	-	$(	-	_	O	O	
+3-15	die	PRELS	die	_	O	O	
+3-16	der	ART	die	_	O	O	
+3-17	Himmel	NN	Himmel	_	O	O	
+3-18	ihm	PPER	er	_	O	O	
+3-19	noch	ADV	noch	_	O	O	
+3-20	länger	ADJD	lang	_	O	O	
+3-21	zu	PTKZU	zu	_	O	O	
+3-22	gönnen	VVINF	gönnen	_	O	O	
+3-23	scheint	VVFIN	scheinen	_	O	O	
+3-24	-	$(	-	_	O	O	
+3-25	nahm	VVFIN	nehmen	_	O	O	
+3-26	verschiedne	ADJA	<unknown>	_	O	O	
+3-27	Diplome	NN	Diplom	_	O	O	
+3-28	mit	APPR	mit	_	O	O	
+3-29	die	PDS	die	_	O	O	
+3-30	nur	ADV	nur	_	O	O	
+3-31	Borghesi's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-32	Unterschrift	NN	Unterschrift	_	O	O	
+3-33	als	KOKOM	als	_	O	O	
+3-34	Segretario	NE	<unknown>	_	O	O	
+3-35	deI	ADJA	<unknown>	_	O	O	
+3-36	la	FM	la	_	O	O	
+3-37	Sezione	NE	<unknown>	_	O	O	
+3-38	italiana	NE	<unknown>	_	O	O	
+3-39	bedürfen	VVINF	bedürfen	_	O	O	
+3-40	.	$.	.	_	O	O	
+
+#id=4
+#text=Nächstens lasse ich auch ein akademisches für Cavedoni durch Ihre Hände gehen.
+4-1	Nächstens	ADV	nächstens	_	O	O	
+4-2	lasse	VVFIN	lassen	_	O	O	
+4-3	ich	PPER	ich	_	O	O	
+4-4	auch	ADV	auch	_	O	O	
+4-5	ein	ART	eine	_	O	O	
+4-6	akademisches	ADJA	akademisch	_	O	O	
+4-7	für	APPR	für	_	O	O	
+4-8	Cavedoni	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-9	durch	APPR	durch	_	O	O	
+4-10	Ihre	PPOSAT	ihr	_	O	O	
+4-11	Hände	NN	Hand	_	O	O	
+4-12	gehen	VVINF	gehen	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Bücher für Orti (Steiner Inscriptt. )
+5-1	Die	ART	die	_	O	O	
+5-2	Bücher	NN	Buch	_	O	O	
+5-3	für	APPR	für	_	O	O	
+5-4	Orti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	(	$(	(	_	O	O	
+5-6	Steiner	NE	Steiner	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-7	Inscriptt	NN	<unknown>	_	O	O	
+5-8	.	$.	.	_	O	O	
+5-9	)	$(	)	_	O	O	
+
+#id=6
+#text=und Gargallo müssen seiner Zeit eingetroffen sein; sonst hätten sich beide gerührt.
+6-1	und	KON	und	_	O	O	
+6-2	Gargallo	NN	<unknown>	_	O	O	
+6-3	müssen	VMFIN	müssen	_	O	O	
+6-4	seiner	PPOSAT	sein	_	O	O	
+6-5	Zeit	NN	Zeit	_	O	O	
+6-6	eingetroffen	VVPP	eintreffen	_	O	O	
+6-7	sein	VAINF	sein	_	O	O	
+6-8	;	$.	;	_	O	O	
+6-9	sonst	ADV	sonst	_	O	O	
+6-10	hätten	VAFIN	haben	_	O	O	
+6-11	sich	PRF	sich	_	O	O	
+6-12	beide	PIS	beide	_	O	O	
+6-13	gerührt	VVPP	rühren	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Hier haben die Künstler Schinkels Geburtsfest solenn begangen, mit der Bedingung kein andrer als Künstler solle dabei sein; Waagen hat jedoch darin gesprochen.
+7-1	Hier	ADV	hier	_	O	O	
+7-2	haben	VAFIN	haben	_	O	O	
+7-3	die	ART	die	_	O	O	
+7-4	Künstler	NN	Künstler	_	O	O	
+7-5	Schinkels	NN	<unknown>	_	O	O	
+7-6	Geburtsfest	NN	Geburtsfest	_	O	O	
+7-7	solenn	NE	<unknown>	_	O	O	
+7-8	begangen	VVPP	begehen	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	mit	APPR	mit	_	O	O	
+7-11	der	ART	die	_	O	O	
+7-12	Bedingung	NN	Bedingung	_	O	O	
+7-13	kein	PIAT	keine	_	O	O	
+7-14	andrer	PIS	andere	_	O	O	
+7-15	als	KOKOM	als	_	O	O	
+7-16	Künstler	NN	Künstler	_	O	O	
+7-17	solle	VMFIN	sollen	_	O	O	
+7-18	dabei	PAV	dabei	_	O	O	
+7-19	sein	VAINF	sein	_	O	O	
+7-20	;	$.	;	_	O	O	
+7-21	Waagen	NN	Waage	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-22	hat	VAFIN	haben	_	O	O	
+7-23	jedoch	ADV	jedoch	_	O	O	
+7-24	darin	PAV	darin	_	O	O	
+7-25	gesprochen	VVPP	sprechen	_	O	O	
+7-26	.	$.	.	_	O	O	
+
+#id=8
+#text=Köhne wird beim Münzkabinet in St. Petersburg angestellt.
+8-1	Köhne	NE	Köhne	_	O	O	
+8-2	wird	VAFIN	werden	_	O	O	
+8-3	beim	APPRART	bei	_	O	O	
+8-4	Münzkabinet	NN	<unknown>	_	O	O	
+8-5	in	APPR	in	_	O	O	
+8-6	St.	NE	St.	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-7	Petersburg	NE	Petersburg	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+8-8	angestellt	VVPP	anstellen	_	O	O	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=Schul~ lamentirt daß Sie seine Amazonen Pub li-
+9-1	Schul~	ADJA	<unknown>	_	O	O	
+9-2	lamentirt	NN	<unknown>	_	O	O	
+9-3	daß	KOUS	dass	_	O	O	
+9-4	Sie	PPER	Sie	_	O	O	
+9-5	seine	PPOSAT	sein	_	O	O	
+9-6	Amazonen	NN	Amazone	_	O	O	
+9-7	Pub	NN	Pub	_	O	O	
+9-8	li-	TRUNC	Li-	_	O	O	
+

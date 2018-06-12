@@ -1,0 +1,233 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=79 2 Gerhard an Braun Berlin, 30. Januar 1844 Ob das Institut jetzt Miethe zahlt oder nicht sagt mir wol Ihr nächster Brief, um dann Bunsen zu baldigem Antrag hiefür anzumahnen.
+1-1	79	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Ob	APPR	ob	_	O	O	
+1-13	das	ART	die	_	O	O	
+1-14	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-15	jetzt	ADV	jetzt	_	O	O	
+1-16	Miethe	NN	<unknown>	_	O	O	
+1-17	zahlt	VVFIN	zahlen	_	O	O	
+1-18	oder	KON	oder	_	O	O	
+1-19	nicht	PTKNEG	nicht	_	O	O	
+1-20	sagt	VVFIN	sagen	_	O	O	
+1-21	mir	PPER	ich	_	O	O	
+1-22	wol	ADJD	<unknown>	_	O	O	
+1-23	Ihr	PPOSAT	ihr	_	O	O	
+1-24	nächster	ADJA	nah	_	O	O	
+1-25	Brief	NN	Brief	_	O	O	
+1-26	,	$,	,	_	O	O	
+1-27	um	KOUI	um	_	O	O	
+1-28	dann	ADV	dann	_	O	O	
+1-29	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-30	zu	APPR	zu	_	O	O	
+1-31	baldigem	ADJA	baldig	_	O	O	
+1-32	Antrag	NN	Antrag	_	O	O	
+1-33	hiefür	NN	<unknown>	_	O	O	
+1-34	anzumahnen	VVIZU	anmahnen	_	O	O	
+1-35	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich schreibe ihm dann auch wegen Joseph Tauch.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	schreibe	VVFIN	schreiben	_	O	O	
+3-3	ihm	PPER	er	_	O	O	
+3-4	dann	ADV	dann	_	O	O	
+3-5	auch	ADV	auch	_	O	O	
+3-6	wegen	APPR	wegen	_	O	O	
+3-7	Joseph	NE	Joseph	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-8	Tauch	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Wieviel war im vorigen Herbst verfehlt dadurch daß Sie nicht in Paris, ich nicht mit Ihnen in Rom war Für Cades werde ich also die Göttinger Zahlung einkassiren.
+4-1	Wieviel	PWAV	wieviele	_	O	O	
+4-2	war	VAFIN	sein	_	O	O	
+4-3	im	APPRART	in	_	O	O	
+4-4	vorigen	ADJA	vorig	_	O	O	
+4-5	Herbst	NN	Herbst	_	O	O	
+4-6	verfehlt	VVPP	verfehlen	_	O	O	
+4-7	dadurch	PAV	dadurch	_	O	O	
+4-8	daß	KOUS	dass	_	O	O	
+4-9	Sie	PPER	Sie	_	O	O	
+4-10	nicht	PTKNEG	nicht	_	O	O	
+4-11	in	APPR	in	_	O	O	
+4-12	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-13	,	$,	,	_	O	O	
+4-14	ich	PPER	ich	_	O	O	
+4-15	nicht	PTKNEG	nicht	_	O	O	
+4-16	mit	APPR	mit	_	O	O	
+4-17	Ihnen	PPER	Sie	_	O	O	
+4-18	in	APPR	in	_	O	O	
+4-19	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-20	war	VAFIN	sein	_	O	O	
+4-21	Für	APPR	für	_	O	O	
+4-22	Cades	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-23	werde	VAFIN	werden	_	O	O	
+4-24	ich	PPER	ich	_	O	O	
+4-25	also	ADV	also	_	O	O	
+4-26	die	ART	die	_	O	O	
+4-27	Göttinger	NN	Göttinger	_	O	O	
+4-28	Zahlung	NN	Zahlung	_	O	O	
+4-29	einkassiren	NN	<unknown>	_	O	O	
+4-30	.	$.	.	_	O	O	
+
+#id=5
+#text=Die 5 Scudi des Scarpellino sind doch offenbar von ihm nicht liquidirt worden, während Jahr und Tag seine Sendung samt den andern königlichen vorbereitet ward.
+5-1	Die	ART	die	_	O	O	
+5-2	5	CARD	5	_	O	O	
+5-3	Scudi	NN	<unknown>	_	O	O	
+5-4	des	ART	die	_	O	O	
+5-5	Scarpellino	NE	<unknown>	_	O	O	
+5-6	sind	VAFIN	sein	_	O	O	
+5-7	doch	ADV	doch	_	O	O	
+5-8	offenbar	ADJD	offenbar	_	O	O	
+5-9	von	APPR	von	_	O	O	
+5-10	ihm	PPER	er	_	O	O	
+5-11	nicht	PTKNEG	nicht	_	O	O	
+5-12	liquidirt	ADJD	<unknown>	_	O	O	
+5-13	worden	VAPP	werden	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	während	KOUS	während	_	O	O	
+5-16	Jahr	NN	Jahr	_	O	O	
+5-17	und	KON	und	_	O	O	
+5-18	Tag	NN	Tag	_	O	O	
+5-19	seine	PPOSAT	sein	_	O	O	
+5-20	Sendung	NN	Sendung	_	O	O	
+5-21	samt	APPR	samt	_	O	O	
+5-22	den	ART	die	_	O	O	
+5-23	andern	PIAT	andere	_	O	O	
+5-24	königlichen	ADJA	königlich	_	O	O	
+5-25	vorbereitet	ADJD	vorbereitet	_	O	O	
+5-26	ward	VVFIN	werd	_	O	O	
+5-27	.	$.	.	_	O	O	
+
+#id=6
+#text=Hat er sie aber zu bekommen so bleibt nichts übrig als sie für Herrn von Olfers oder äußerstenfalls für mich auszulegen.
+6-1	Hat	VAFIN	haben	_	O	O	
+6-2	er	PPER	er	_	O	O	
+6-3	sie	PPER	sie	_	O	O	
+6-4	aber	KON	aber	_	O	O	
+6-5	zu	PTKA	zu	_	O	O	
+6-6	bekommen	VVFIN	bekommen	_	O	O	
+6-7	so	ADV	so	_	O	O	
+6-8	bleibt	VVFIN	bleiben	_	O	O	
+6-9	nichts	PIS	nichts	_	O	O	
+6-10	übrig	ADJD	übrig	_	O	O	
+6-11	als	KOKOM	als	_	O	O	
+6-12	sie	PPER	sie	_	O	O	
+6-13	für	APPR	für	_	O	O	
+6-14	Herrn	NN	Herr	_	O	O	
+6-15	von	APPR	von	_	O	O	
+6-16	Olfers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-17	oder	KON	oder	_	O	O	
+6-18	äußerstenfalls	ADV	äußerstenfalls	_	O	O	
+6-19	für	APPR	für	_	O	O	
+6-20	mich	PPER	ich	_	O	O	
+6-21	auszulegen	VVIZU	auslegen	_	O	O	
+6-22	.	$.	.	_	O	O	
+
+#id=7
+#text=Von den neuen Institutsdignitäten war glaube ich nur Fellows zu betheiligen außer den Deutschen die ich besorgte und den Italienischen die Sie mit Borghesi's Unterschrift vertheilt haben werden.
+7-1	Von	APPR	von	_	O	O	
+7-2	den	ART	die	_	O	O	
+7-3	neuen	ADJA	neu	_	O	O	
+7-4	Institutsdignitäten	NN	<unknown>	_	O	O	
+7-5	war	VAFIN	sein	_	O	O	
+7-6	glaube	VVFIN	glauben	_	O	O	
+7-7	ich	PPER	ich	_	O	O	
+7-8	nur	ADV	nur	_	O	O	
+7-9	Fellows	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-10	zu	APPR	zu	_	O	O	
+7-11	betheiligen	ADJA	betheilig	_	O	O	
+7-12	außer	APPR	außer	_	O	O	
+7-13	den	ART	die	_	O	O	
+7-14	Deutschen	ADJA	deutsch	_	O	O	
+7-15	die	PRELS	die	_	O	O	
+7-16	ich	PPER	ich	_	O	O	
+7-17	besorgte	VVFIN	besorgen	_	O	O	
+7-18	und	KON	und	_	O	O	
+7-19	den	ART	die	_	O	O	
+7-20	Italienischen	ADJA	italienisch	_	O	O	
+7-21	die	PRELS	die	_	O	O	
+7-22	Sie	PPER	Sie	_	O	O	
+7-23	mit	APPR	mit	_	O	O	
+7-24	Borghesi's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-25	Unterschrift	NN	Unterschrift	_	O	O	
+7-26	vertheilt	VVPP	<unknown>	_	O	O	
+7-27	haben	VAINF	haben	_	O	O	
+7-28	werden	VAINF	werden	_	O	O	
+7-29	.	$.	.	_	O	O	
+
+#id=8
+#text=An Borghesi schreibe ich heute um seinen Rath für epigraphische Projekte zu erbitten die unsere Akademie unterstützen könnte; das Corpus Inscr.
+8-1	An	APPR	an	_	O	O	
+8-2	Borghesi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	schreibe	VVFIN	schreiben	_	O	O	
+8-4	ich	PPER	ich	_	O	O	
+8-5	heute	ADV	heute	_	O	O	
+8-6	um	APPR	um	_	O	O	
+8-7	seinen	PPOSAT	sein	_	O	O	
+8-8	Rath	NE	Rath	_	O	O	
+8-9	für	APPR	für	_	O	O	
+8-10	epigraphische	ADJA	<unknown>	_	O	O	
+8-11	Projekte	NN	Projekt	_	O	O	
+8-12	zu	PTKZU	zu	_	O	O	
+8-13	erbitten	VVINF	erbitten	_	O	O	
+8-14	die	ART	die	_	O	O	
+8-15	unsere	PPOSAT	unser	_	O	O	
+8-16	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-17	unterstützen	VVINF	unterstützen	_	O	O	
+8-18	könnte	VMFIN	können	_	O	O	
+8-19	;	$.	;	_	O	O	
+8-20	das	ART	die	_	O	O	
+8-21	Corpus	NN	Corpus	_	O	O	
+8-22	Inscr	NN	<unknown>	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=rom.
+9-1	rom.	NE	Rom.	_	O	O	
+
+#id=10
+#text=als Materialsammlung wird sich aber nach allem Anschein den Franzosen nicht mehr entwinden lassen (NB: Egger ist der Faktor ) • Die Zeichnungen der ägyptischen Grotte machen
+10-1	als	KOKOM	als	_	O	O	
+10-2	Materialsammlung	NN	Materialsammlung	_	O	O	
+10-3	wird	VAFIN	werden	_	O	O	
+10-4	sich	PRF	sich	_	O	O	
+10-5	aber	ADV	aber	_	O	O	
+10-6	nach	APPR	nach	_	O	O	
+10-7	allem	PIS	alle	_	O	O	
+10-8	Anschein	NN	Anschein	_	O	O	
+10-9	den	ART	die	_	O	O	
+10-10	Franzosen	NN	Franzose	_	O	O	
+10-11	nicht	PTKNEG	nicht	_	O	O	
+10-12	mehr	ADV	mehr	_	O	O	
+10-13	entwinden	VVINF	entwinden	_	O	O	
+10-14	lassen	VVINF	lassen	_	O	O	
+10-15	(	$(	(	_	O	O	
+10-16	NB	NE	NB	_	O	O	
+10-17	:	$.	:	_	O	O	
+10-18	Egger	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-19	ist	VAFIN	sein	_	O	O	
+10-20	der	ART	die	_	O	O	
+10-21	Faktor	NN	Faktor	_	O	O	
+10-22	)	$(	)	_	O	O	
+10-23	•	NN	<unknown>	_	O	O	
+10-24	Die	ART	die	_	O	O	
+10-25	Zeichnungen	NN	Zeichnung	_	O	O	
+10-26	der	ART	die	_	O	O	
+10-27	ägyptischen	ADJA	ägyptisch	_	O	O	
+10-28	Grotte	NN	Grotte	_	O	O	
+10-29	machen	VVINF	machen	_	O	O	
+

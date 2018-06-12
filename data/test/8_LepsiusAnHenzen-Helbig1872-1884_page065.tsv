@@ -1,0 +1,141 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=598 L Verehrter Freund Lepsius an Helbig Berlin, 8. Dezember 1872 Berlin d. 8. Dez.
+1-1	598	CARD	@card@	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	d.	ART	d.	_	O	O	
+1-16	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-18	Dez.	NN	Dez.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=2
+#text=1872.
+2-1	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich habe Ihnen nur officiell mitzutheilen, daß, nach einem vom 3. Dezember datirten Schreiben des Ministers, Ihnen für das Jahr 1873 eine Gehaltszulage von 200 r bestimmt ist, und füge nur noch mein persönliches Bedauern hinzu, daß die Summe nicht größer ist.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	habe	VAFIN	haben	_	O	O	
+3-3	Ihnen	PPER	Sie	_	O	O	
+3-4	nur	ADV	nur	_	O	O	
+3-5	officiell	ADJD	<unknown>	_	O	O	
+3-6	mitzutheilen	VVIZU	<unknown>	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	daß	KOUS	dass	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	nach	APPR	nach	_	O	O	
+3-11	einem	ART	eine	_	O	O	
+3-12	vom	APPRART	von	_	O	O	
+3-13	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-14	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-15	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-16	datirten	VVFIN	<unknown>	_	O	O	
+3-17	Schreiben	NN	Schreiben	_	O	O	
+3-18	des	ART	die	_	O	O	
+3-19	Ministers	NN	Minister	_	O	O	
+3-20	,	$,	,	_	O	O	
+3-21	Ihnen	PPER	Sie	_	O	O	
+3-22	für	APPR	für	_	O	O	
+3-23	das	ART	die	_	O	O	
+3-24	Jahr	NN	Jahr	_	O	O	
+3-25	1873	CARD	1873	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-26	eine	ART	eine	_	O	O	
+3-27	Gehaltszulage	NN	Gehaltszulage	_	O	O	
+3-28	von	APPR	von	_	O	O	
+3-29	200	CARD	200	_	O	O	
+3-30	r	NE	r	_	O	O	
+3-31	bestimmt	VVPP	bestimmen	_	O	O	
+3-32	ist	VAFIN	sein	_	O	O	
+3-33	,	$,	,	_	O	O	
+3-34	und	KON	und	_	O	O	
+3-35	füge	VVFIN	fügen	_	O	O	
+3-36	nur	ADV	nur	_	O	O	
+3-37	noch	ADV	noch	_	O	O	
+3-38	mein	PPOSAT	mein	_	O	O	
+3-39	persönliches	ADJA	persönlich	_	O	O	
+3-40	Bedauern	NN	Bedauern	_	O	O	
+3-41	hinzu	PTKVZ	hinzu	_	O	O	
+3-42	,	$,	,	_	O	O	
+3-43	daß	KOUS	dass	_	O	O	
+3-44	die	ART	die	_	O	O	
+3-45	Summe	NN	Summe	_	O	O	
+3-46	nicht	PTKNEG	nicht	_	O	O	
+3-47	größer	ADJD	groß	_	O	O	
+3-48	ist	VAFIN	sein	_	O	O	
+3-49	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich hoffe, daß wir beim Übergange des Instituts auf das Reich die Gehalts Frage bald wieder von neuem anregen zu können.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	hoffe	VVFIN	hoffen	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	daß	KOUS	dass	_	O	O	
+4-5	wir	PPER	wir	_	O	O	
+4-6	beim	APPRART	bei	_	O	O	
+4-7	Übergange	NN	<unknown>	_	O	O	
+4-8	des	ART	die	_	O	O	
+4-9	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-10	auf	APPR	auf	_	O	O	
+4-11	das	ART	die	_	O	O	
+4-12	Reich	NN	Reich	_	O	O	
+4-13	die	ART	die	_	O	O	
+4-14	Gehalts	NN	Gehalt	_	O	O	
+4-15	Frage	NN	Frage	_	O	O	
+4-16	bald	ADV	bald	_	O	O	
+4-17	wieder	ADV	wieder	_	O	O	
+4-18	von	APPR	von	_	O	O	
+4-19	neuem	ADJA	neu	_	O	O	
+4-20	anregen	VVINF	anregen	_	O	O	
+4-21	zu	PTKZU	zu	_	O	O	
+4-22	können	VMINF	können	_	O	O	
+4-23	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich hoffe daß Sie und Ihre Familie gesund und erfrischt aus den Fer~en zurückgekehrt sind und bitte mich Ihrer Frau Gemahlin bestens zu empfehlen.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	hoffe	VVFIN	hoffen	_	O	O	
+5-3	daß	KOUS	dass	_	O	O	
+5-4	Sie	PPER	Sie	_	O	O	
+5-5	und	KON	und	_	O	O	
+5-6	Ihre	PPOSAT	ihr	_	O	O	
+5-7	Familie	NN	Familie	_	O	O	
+5-8	gesund	ADJD	gesund	_	O	O	
+5-9	und	KON	und	_	O	O	
+5-10	erfrischt	VVFIN	erfrischen	_	O	O	
+5-11	aus	APPR	aus	_	O	O	
+5-12	den	ART	die	_	O	O	
+5-13	Fer~en	NN	<unknown>	_	O	O	
+5-14	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+5-15	sind	VAFIN	sein	_	O	O	
+5-16	und	KON	und	_	O	O	
+5-17	bitte	VVFIN	bitten	_	O	O	
+5-18	mich	PRF	ich	_	O	O	
+5-19	Ihrer	PPOSAT	ihr	_	O	O	
+5-20	Frau	NN	Frau	_	O	O	
+5-21	Gemahlin	NN	Gemahlin	_	O	O	
+5-22	bestens	ADV	bestens	_	O	O	
+5-23	zu	PTKZU	zu	_	O	O	
+5-24	empfehlen	VVINF	empfehlen	_	O	O	
+5-25	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihr ganz ergebesnter R Lepsius
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	ganz	ADV	ganz	_	O	O	
+6-3	ergebesnter	ADJA	<unknown>	_	O	O	
+6-4	R	NN	R	_	O	O	
+6-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

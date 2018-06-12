@@ -1,0 +1,214 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=326 A. d. Dir.
+1-1	326	CARD	@card@	_	O	O	
+1-2	A.	APPR	an	_	O	O	
+1-3	d.	ART	d.	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Dr. Braun Mein theurer Freund.
+2-1	Dr.	NN	Dr.	_	O	O	
+2-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-3	Mein	PPOSAT	mein	_	O	O	
+2-4	theurer	ADJA	<unknown>	_	O	O	
+2-5	Freund	NN	Freund	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Braun Neapel, 25. September 1845 g. 28/IX 45 r. 28/IX 45 Neapel 25 Sept 45 Ich schreibe Ihnen durch einen unsrer mit Thiersch zurückkehrenden Landesleuten; vermuthlich ist Herr Dr. Strauß der überbringer, den ich zugleich Ihrer freundlichen Aufnahme bestens empfehle.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	an	APPR	an	_	O	O	
+3-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-4	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-5	,	$,	,	_	O	O	
+3-6	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-10	g.	VVFIN	<unknown>	_	O	O	
+3-11	28/IX	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-12	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+3-13	r.	ADJA	<unknown>	_	O	O	
+3-14	28/IX	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-15	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-16	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-17	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-18	Sept	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-19	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-20	Ich	PPER	ich	_	O	O	
+3-21	schreibe	VVFIN	schreiben	_	O	O	
+3-22	Ihnen	PPER	Sie	_	O	O	
+3-23	durch	APPR	durch	_	O	O	
+3-24	einen	ART	eine	_	O	O	
+3-25	unsrer	PPOSAT	unser	_	O	O	
+3-26	mit	APPR	mit	_	O	O	
+3-27	Thiersch	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-28	zurückkehrenden	ADJA	zurückkehrend	_	O	O	
+3-29	Landesleuten	NN	<unknown>	_	O	O	
+3-30	;	$.	;	_	O	O	
+3-31	vermuthlich	ADJD	<unknown>	_	O	O	
+3-32	ist	VAFIN	sein	_	O	O	
+3-33	Herr	NN	Herr	_	O	O	
+3-34	Dr.	NN	Dr.	_	O	O	
+3-35	Strauß	NE	Strauß	_	O	O	
+3-36	der	ART	die	_	O	O	
+3-37	überbringer	NN	Überbringer	_	O	O	
+3-38	,	$,	,	_	O	O	
+3-39	den	PRELS	die	_	O	O	
+3-40	ich	PPER	ich	_	O	O	
+3-41	zugleich	ADV	zugleich	_	O	O	
+3-42	Ihrer	PPOSAT	ihr	_	O	O	
+3-43	freundlichen	ADJA	freundlich	_	O	O	
+3-44	Aufnahme	NN	Aufnahme	_	O	O	
+3-45	bestens	ADV	bestens	_	O	O	
+3-46	empfehle	VVFIN	empfehlen	_	O	O	
+3-47	.	$.	.	_	O	O	
+
+#id=4
+#text=Wir haben hier 8 Tage bei P. Medina in einem Palazzone, wüst, geräumig, unter Lazzaronis und Feuerwerkern gehaust.
+4-1	Wir	PPER	wir	_	O	O	
+4-2	haben	VAFIN	haben	_	O	O	
+4-3	hier	ADV	hier	_	O	O	
+4-4	8	CARD	8	_	O	O	
+4-5	Tage	NN	Tag	_	O	O	
+4-6	bei	APPR	bei	_	O	O	
+4-7	P.	NE	P.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-8	Medina	NE	Medina	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-9	in	APPR	in	_	O	O	
+4-10	einem	ART	eine	_	O	O	
+4-11	Palazzone	NN	<unknown>	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	wüst	ADJD	wüst	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	geräumig	ADJD	geräumig	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	unter	APPR	unter	_	O	O	
+4-18	Lazzaronis	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-19	und	KON	und	_	O	O	
+4-20	Feuerwerkern	NN	<unknown>	_	O	O	
+4-21	gehaust	VVPP	hausen	_	O	O	
+4-22	.	$.	.	_	O	O	
+
+#id=5
+#text=Meiner Frau ist dies samt Scirocco, südlicher Luft und mancher obwohl keineswegs übertriebener Bewegung sehr empfindlich gewesen; heftiger Leibschmerz ohne viel Dissenterie kann sie heben andern wechselnden übelkeiten noch nicht los werden, denen wir nur die möglichste Diät und einiges kühlendes Getränk entgegenzusetzen wissen.
+5-1	Meiner	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-3	ist	VAFIN	sein	_	O	O	
+5-4	dies	PDS	dies	_	O	O	
+5-5	samt	APPR	samt	_	O	O	
+5-6	Scirocco	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-7	,	$,	,	_	O	O	
+5-8	südlicher	ADJA	südlich	_	O	O	
+5-9	Luft	NN	Luft	_	O	O	
+5-10	und	KON	und	_	O	O	
+5-11	mancher	PIS	manche	_	O	O	
+5-12	obwohl	KOUS	obwohl	_	O	O	
+5-13	keineswegs	ADV	keineswegs	_	O	O	
+5-14	übertriebener	ADJA	übertrieben	_	O	O	
+5-15	Bewegung	NN	Bewegung	_	O	O	
+5-16	sehr	ADV	sehr	_	O	O	
+5-17	empfindlich	ADJD	empfindlich	_	O	O	
+5-18	gewesen	VAPP	sein	_	O	O	
+5-19	;	$.	;	_	O	O	
+5-20	heftiger	ADJA	heftig	_	O	O	
+5-21	Leibschmerz	NN	<unknown>	_	O	O	
+5-22	ohne	APPR	ohne	_	O	O	
+5-23	viel	PIAT	viele	_	O	O	
+5-24	Dissenterie	NN	<unknown>	_	O	O	
+5-25	kann	VMFIN	können	_	O	O	
+5-26	sie	PPER	sie	_	O	O	
+5-27	heben	VVFIN	heben	_	O	O	
+5-28	andern	PIAT	andere	_	O	O	
+5-29	wechselnden	ADJA	wechselnd	_	O	O	
+5-30	übelkeiten	NN	Übelkeit	_	O	O	
+5-31	noch	ADV	noch	_	O	O	
+5-32	nicht	PTKNEG	nicht	_	O	O	
+5-33	los	ADJD	los	_	O	O	
+5-34	werden	VAINF	werden	_	O	O	
+5-35	,	$,	,	_	O	O	
+5-36	denen	PRELS	die	_	O	O	
+5-37	wir	PPER	wir	_	O	O	
+5-38	nur	ADV	nur	_	O	O	
+5-39	die	ART	die	_	O	O	
+5-40	möglichste	ADJA	möglich	_	O	O	
+5-41	Diät	NN	Diät	_	O	O	
+5-42	und	KON	und	_	O	O	
+5-43	einiges	PIAT	einige	_	O	O	
+5-44	kühlendes	ADJA	kühlend	_	O	O	
+5-45	Getränk	NN	Getränk	_	O	O	
+5-46	entgegenzusetzen	VVIZU	entgegensetzen	_	O	O	
+5-47	wissen	VVFIN	wissen	_	O	O	
+5-48	.	$.	.	_	O	O	
+
+#id=6
+#text=Dies mindert unsern Genuß hiesiger schöner Tage; nun hoffen wir bestens durch eine menschlichere Wohnung, auf Piazza S. Caterina 67, Götzlofs gegenüber.
+6-1	Dies	PDS	dies	_	O	O	
+6-2	mindert	VVFIN	mindern	_	O	O	
+6-3	unsern	PPOSAT	unsre	_	O	O	
+6-4	Genuß	NN	Genuss	_	O	O	
+6-5	hiesiger	ADJA	hiesig	_	O	O	
+6-6	schöner	ADJA	schön	_	O	O	
+6-7	Tage	NN	Tag	_	O	O	
+6-8	;	$.	;	_	O	O	
+6-9	nun	ADV	nun	_	O	O	
+6-10	hoffen	VVFIN	hoffen	_	O	O	
+6-11	wir	PPER	wir	_	O	O	
+6-12	bestens	ADV	bestens	_	O	O	
+6-13	durch	APPR	durch	_	O	O	
+6-14	eine	ART	eine	_	O	O	
+6-15	menschlichere	ADJA	menschlich	_	O	O	
+6-16	Wohnung	NN	Wohnung	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	auf	APPR	auf	_	O	O	
+6-19	Piazza	NE	<unknown>	_	O	O	
+6-20	S.	NE	S.	_	O	O	
+6-21	Caterina	NE	Caterina	_	O	O	
+6-22	67	CARD	@card@	_	O	O	
+6-23	,	$,	,	_	O	O	
+6-24	Götzlofs	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-25	gegenüber	PTKVZ	gegenüber	_	O	O	
+6-26	.	$.	.	_	O	O	
+
+#id=7
+#text=Den Congresso hat S.Angelo höchst anständig eröffnet; in der Sezione archeologia geografica haben nächst S.Quintino und Orioli über Epigraphisches incl.
+7-1	Den	ART	die	_	O	O	
+7-2	Congresso	NN	<unknown>	_	O	O	
+7-3	hat	VAFIN	haben	_	O	O	
+7-4	S.Angelo	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-5	höchst	ADJD	hochöchst	_	O	O	
+7-6	anständig	ADJD	anständig	_	O	O	
+7-7	eröffnet	VVPP	eröffnen	_	O	O	
+7-8	;	$.	;	_	O	O	
+7-9	in	APPR	in	_	O	O	
+7-10	der	ART	die	_	O	O	
+7-11	Sezione	NE	<unknown>	_	O	O	
+7-12	archeologia	NE	<unknown>	_	O	O	
+7-13	geografica	NE	<unknown>	_	O	O	
+7-14	haben	VAFIN	haben	_	O	O	
+7-15	nächst	APPR	nächst	_	O	O	
+7-16	S.Quintino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-17	und	KON	und	_	O	O	
+7-18	Orioli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-19	über	APPR	über	_	O	O	
+7-20	Epigraphisches	NN	<unknown>	_	O	O	
+7-21	incl.	APPR	incl.	_	O	O	
+
+#id=8
+#text=mittelalterliche Magie und gestern Thiersch in elegantem Latein über Plinianische Manuscripte sich vernehmen lassen.
+8-1	mittelalterliche	ADJA	mittelalterlich	_	O	O	
+8-2	Magie	NN	Magie	_	O	O	
+8-3	und	KON	und	_	O	O	
+8-4	gestern	ADV	gestern	_	O	O	
+8-5	Thiersch	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	in	APPR	in	_	O	O	
+8-7	elegantem	ADJA	elegant	_	O	O	
+8-8	Latein	NN	Latein	_	O	O	
+8-9	über	APPR	über	_	O	O	
+8-10	Plinianische	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-11	Manuscripte	NN	<unknown>	_	O	O	
+8-12	sich	PRF	sich	_	O	O	
+8-13	vernehmen	VVINF	vernehmen	_	O	O	
+8-14	lassen	VVFIN	lassen	_	O	O	
+8-15	.	$.	.	_	O	O	
+

@@ -1,0 +1,245 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=225 H Lieber Herr Professor Helbig an Henzen Rom, 7. Juni 1870 g. 12/6 70 Roma, li 7. Juni 1870 Gestern sind wir glücklich in Zürich eingetroffen.
+1-1	225	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	12/6	CARD	12/6	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	70	CARD	70	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-19	,	$,	,	_	O	O	
+1-20	li	ADJD	<unknown>	_	O	O	
+1-21	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-22	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-24	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-25	Gestern	NN	Gestern	_	O	O	
+1-26	sind	VAFIN	sein	_	O	O	
+1-27	wir	PPER	wir	_	O	O	
+1-28	glücklich	ADJD	glücklich	_	O	O	
+1-29	in	APPR	in	_	O	O	
+1-30	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-31	eingetroffen	VVPP	eintreffen	_	O	O	
+1-32	.	$.	.	_	O	O	
+
+#id=2
+#text=Statt von der Hitze haben wir unsäglich von der Kälte zu leiden.
+2-1	Statt	APPR	statt	_	O	O	
+2-2	von	APPR	von	_	O	O	
+2-3	der	ART	die	_	O	O	
+2-4	Hitze	NN	Hitze	_	O	O	
+2-5	haben	VAFIN	haben	_	O	O	
+2-6	wir	PPER	wir	_	O	O	
+2-7	unsäglich	ADJD	unsäglich	_	O	O	
+2-8	von	APPR	von	_	O	O	
+2-9	der	ART	die	_	O	O	
+2-10	Kälte	NN	Kälte	_	O	O	
+2-11	zu	PTKZU	zu	_	O	O	
+2-12	leiden	VVINF	leiden	_	O	O	
+2-13	.	$.	.	_	O	O	
+
+#id=3
+#text=Der Splügen war mit Schneefeldern bedeckt.
+3-1	Der	ART	die	_	O	O	
+3-2	Splügen	NN	<unknown>	_	O	O	
+3-3	war	VAFIN	sein	_	O	O	
+3-4	mit	APPR	mit	_	O	O	
+3-5	Schneefeldern	NN	Schneefeld	_	O	O	
+3-6	bedeckt	VVPP	bedecken	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Seit wir die Alpen überschritten, haben wir die Sonne nicht mehr gesehen.
+4-1	Seit	KOUS	seit	_	O	O	
+4-2	wir	PPER	wir	_	O	O	
+4-3	die	ART	die	_	O	O	
+4-4	Alpen	NN	Alp	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-5	überschritten	VVPP	überschreiten	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	haben	VAFIN	haben	_	O	O	
+4-8	wir	PPER	wir	_	O	O	
+4-9	die	ART	die	_	O	O	
+4-10	Sonne	NN	Sonne	_	O	O	
+4-11	nicht	PTKNEG	nicht	_	O	O	
+4-12	mehr	ADV	mehr	_	O	O	
+4-13	gesehen	VVPP	sehen	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Wir sind im Schwan abgestiegen und unterhandeln von hier aus wegen eines geeigneten Logis.
+5-1	Wir	PPER	wir	_	O	O	
+5-2	sind	VAFIN	sein	_	O	O	
+5-3	im	APPRART	in	_	O	O	
+5-4	Schwan	NN	Schwan	_	O	O	
+5-5	abgestiegen	VVPP	absteigen	_	O	O	
+5-6	und	KON	und	_	O	O	
+5-7	unterhandeln	VVFIN	<unknown>	_	O	O	
+5-8	von	APPR	von	_	O	O	
+5-9	hier	ADV	hier	_	O	O	
+5-10	aus	APZR	aus	_	O	O	
+5-11	wegen	APPR	wegen	_	O	O	
+5-12	eines	ART	eine	_	O	O	
+5-13	geeigneten	ADJA	geeignet	_	O	O	
+5-14	Logis	NE	<unknown>	_	O	O	
+5-15	.	$.	.	_	O	O	
+
+#id=6
+#text=Bis Samstag, denke ich, wird Alles in Ordnung sein und werde ich somit Sonntag meine Rückreise antreten können.
+6-1	Bis	APPR	bis	_	O	O	
+6-2	Samstag	NN	Samstag	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	denke	VVFIN	denken	_	O	O	
+6-5	ich	PPER	ich	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	wird	VAFIN	werden	_	O	O	
+6-8	Alles	PIS	alle	_	O	O	
+6-9	in	APPR	in	_	O	O	
+6-10	Ordnung	NN	Ordnung	_	O	O	
+6-11	sein	VAINF	sein	_	O	O	
+6-12	und	KON	und	_	O	O	
+6-13	werde	VAFIN	werden	_	O	O	
+6-14	ich	PPER	ich	_	O	O	
+6-15	somit	ADV	somit	_	O	O	
+6-16	Sonntag	NN	Sonntag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-17	meine	PPOSAT	mein	_	O	O	
+6-18	Rückreise	NN	Rückreise	_	O	O	
+6-19	antreten	VVINF	antreten	_	O	O	
+6-20	können	VMINF	können	_	O	O	
+6-21	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich denke den Weg über den Gotthard zu nehmen und, um mich gehörig auszulaufen, die Strecke von Göschenen bis Aivola zu Fuß zurückzulegen.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	denke	VVFIN	denken	_	O	O	
+7-3	den	ART	die	_	O	O	
+7-4	Weg	NN	Weg	_	O	O	
+7-5	über	APPR	über	_	O	O	
+7-6	den	ART	die	_	O	O	
+7-7	Gotthard	NE	Gotthard	_	O	O	
+7-8	zu	PTKZU	zu	_	O	O	
+7-9	nehmen	VVINF	nehmen	_	O	O	
+7-10	und	KON	und	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	um	KOUI	um	_	O	O	
+7-13	mich	PRF	ich	_	O	O	
+7-14	gehörig	ADJD	gehörig	_	O	O	
+7-15	auszulaufen	VVIZU	auslaufen	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	die	ART	die	_	O	O	
+7-18	Strecke	NN	Strecke	_	O	O	
+7-19	von	APPR	von	_	O	O	
+7-20	Göschenen	NE	<unknown>	_	O	O	
+7-21	bis	KON	bis	_	O	O	
+7-22	Aivola	NE	<unknown>	_	O	O	
+7-23	zu	APPR	zu	_	O	O	
+7-24	Fuß	NN	Fuß	_	O	O	
+7-25	zurückzulegen	VVIZU	zurücklegen	_	O	O	
+7-26	.	$.	.	_	O	O	
+
+#id=8
+#text=Im Übrigen bleibt mein Reiseplan der alte.
+8-1	Im	APPRART	in	_	O	O	
+8-2	Übrigen	NN	Übrige	_	O	O	
+8-3	bleibt	VVFIN	bleiben	_	O	O	
+8-4	mein	PPOSAT	mein	_	O	O	
+8-5	Reiseplan	NN	Reiseplan	_	O	O	
+8-6	der	ART	die	_	O	O	
+8-7	alte	ADJA	alt	_	O	O	
+8-8	.	$.	.	_	O	O	
+
+#id=9
+#text=Nur möchte ich, wenn es mit dem Termine Ihrer Abreise stimmt, auf dem Wege nach Rom in Orbetello absteigen und das Grab von Marcelliani in Augenschein nehmen.
+9-1	Nur	ADV	nur	_	O	O	
+9-2	möchte	VMFIN	mögen	_	O	O	
+9-3	ich	PPER	ich	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	wenn	KOUS	wenn	_	O	O	
+9-6	es	PPER	es	_	O	O	
+9-7	mit	APPR	mit	_	O	O	
+9-8	dem	ART	die	_	O	O	
+9-9	Termine	NN	Termin	_	O	O	
+9-10	Ihrer	PPOSAT	ihr	_	O	O	
+9-11	Abreise	NN	Abreise	_	O	O	
+9-12	stimmt	VVFIN	stimmen	_	O	O	
+9-13	,	$,	,	_	O	O	
+9-14	auf	APPR	auf	_	O	O	
+9-15	dem	ART	die	_	O	O	
+9-16	Wege	NN	Weg	_	O	O	
+9-17	nach	APPR	nach	_	O	O	
+9-18	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-19	in	APPR	in	_	O	O	
+9-20	Orbetello	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-21	absteigen	VVINF	absteigen	_	O	O	
+9-22	und	KON	und	_	O	O	
+9-23	das	ART	die	_	O	O	
+9-24	Grab	NN	Grab	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-25	von	APPR	von	_	O	O	
+9-26	Marcelliani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-27	in	APPR	in	_	O	O	
+9-28	Augenschein	NN	Augenschein	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-29	nehmen	VVFIN	nehmen	_	O	O	
+9-30	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich erwarte von ihm einen poste restante Brief in Florenz.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	erwarte	VVFIN	erwarten	_	O	O	
+10-3	von	APPR	von	_	O	O	
+10-4	ihm	PPER	er	_	O	O	
+10-5	einen	ART	eine	_	O	O	
+10-6	poste	NN	<unknown>	_	O	O	
+10-7	restante	ADJA	<unknown>	_	O	O	
+10-8	Brief	NN	Brief	_	O	O	
+10-9	in	APPR	in	_	O	O	
+10-10	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-11	.	$.	.	_	O	O	
+
+#id=11
+#text=Hätten Sie die Güte, mir, was Sie gegenwärtig wohl im Stande sind, mitzutheilen, wann Sie frühestens abreisen, und den betreffenden Brief nach Florenz ferma in posta zu adressiren ?
+11-1	Hätten	VAFIN	haben	_	O	O	
+11-2	Sie	PPER	Sie	_	O	O	
+11-3	die	ART	die	_	O	O	
+11-4	Güte	NN	Güte	_	O	O	
+11-5	,	$,	,	_	O	O	
+11-6	mir	PRF	ich	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	was	PWS	was	_	O	O	
+11-9	Sie	PPER	Sie	_	O	O	
+11-10	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+11-11	wohl	ADV	wohl	_	O	O	
+11-12	im	APPRART	in	_	O	O	
+11-13	Stande	NN	Stand	_	O	O	
+11-14	sind	VAFIN	sein	_	O	O	
+11-15	,	$,	,	_	O	O	
+11-16	mitzutheilen	VVINF	<unknown>	_	O	O	
+11-17	,	$,	,	_	O	O	
+11-18	wann	PWAV	wann	_	O	O	
+11-19	Sie	PPER	Sie	_	O	O	
+11-20	frühestens	ADV	frühestens	_	O	O	
+11-21	abreisen	VVFIN	abreisen	_	O	O	
+11-22	,	$,	,	_	O	O	
+11-23	und	KON	und	_	O	O	
+11-24	den	ART	die	_	O	O	
+11-25	betreffenden	ADJA	betreffend	_	O	O	
+11-26	Brief	NN	Brief	_	O	O	
+11-27	nach	APPR	nach	_	O	O	
+11-28	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-29	ferma	NN	<unknown>	_	O	O	
+11-30	in	APPR	in	_	O	O	
+11-31	posta	NE	<unknown>	_	O	O	
+11-32	zu	APPR	zu	_	O	O	
+11-33	adressiren	NN	<unknown>	_	O	O	
+11-34	?	$.	?	_	O	O	
+

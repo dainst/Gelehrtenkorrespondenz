@@ -1,0 +1,79 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=385 29/x/53 3 Henzen an Gerhard schreibt jetzt endlich seinen Beri6ht, der hoffentlich bald flott werden wird.
+1-1	385	CARD	@card@	_	O	O	
+1-2	29/x/53	CARD	<unknown>	_	O	O	
+1-3	3	CARD	3	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	schreibt	VVFIN	schreiben	_	O	O	
+1-8	jetzt	ADV	jetzt	_	O	O	
+1-9	endlich	ADV	endlich	_	O	O	
+1-10	seinen	PPOSAT	sein	_	O	O	
+1-11	Beri6ht	NN	<unknown>	_	O	O	
+1-12	,	$,	,	_	O	O	
+1-13	der	PRELS	die	_	O	O	
+1-14	hoffentlich	ADV	hoffentlich	_	O	O	
+1-15	bald	ADV	bald	_	O	O	
+1-16	flott	ADJD	flott	_	O	O	
+1-17	werden	VAINF	werden	_	O	O	
+1-18	wird	VAFIN	werden	_	O	O	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=Soll dann wirklich das Institut sein 25 jähriges Jubiläum ohne Sie feiern, oder ist einige geringe Hoffnung da, dE.
+2-1	Soll	VMFIN	sollen	_	O	O	
+2-2	dann	ADV	dann	_	O	O	
+2-3	wirklich	ADJD	wirklich	_	O	O	
+2-4	das	ART	die	_	O	O	
+2-5	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-6	sein	PPOSAT	sein	_	O	O	
+2-7	25	CARD	25	_	O	O	
+2-8	jähriges	ADJA	<unknown>	_	O	O	
+2-9	Jubiläum	NN	Jubiläum	_	O	O	
+2-10	ohne	APPR	ohne	_	O	O	
+2-11	Sie	PPER	Sie	_	O	O	
+2-12	feiern	VVINF	feiern	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	oder	KON	oder	_	O	O	
+2-15	ist	VAFIN	sein	_	O	O	
+2-16	einige	PIAT	einige	_	O	O	
+2-17	geringe	ADJA	gering	_	O	O	
+2-18	Hoffnung	NN	Hoffnung	_	O	O	
+2-19	da	PTKVZ	da	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	dE	NN	<unknown>	_	O	O	
+2-22	.	$.	.	_	O	O	
+
+#id=3
+#text=Sie vielleicht noch zum April kommen?
+3-1	Sie	PPER	Sie	_	O	O	
+3-2	vielleicht	ADV	vielleicht	_	O	O	
+3-3	noch	ADV	noch	_	O	O	
+3-4	zum	APPRART	zu	_	O	O	
+3-5	April	NN	April	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-6	kommen	VVFIN	kommen	_	O	O	
+3-7	?	$.	?	_	O	O	
+
+#id=4
+#text=Meine Frau grUBt herzlich Sie u. die Ihrige.
+4-1	Meine	PPOSAT	mein	_	O	O	
+4-2	Frau	NN	Frau	_	O	O	
+4-3	grUBt	VVFIN	<unknown>	_	O	O	
+4-4	herzlich	ADJD	herzlich	_	O	O	
+4-5	Sie	PPER	Sie	_	O	O	
+4-6	u.	APPR	um	_	O	O	
+4-7	die	ART	die	_	O	O	
+4-8	Ihrige	PPOSAT	ihrige	_	O	O	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihr WHenzen Horn 29/X 53.
+5-1	Ihr	PPOSAT	ihr	_	O	O	
+5-2	WHenzen	NN	<unknown>	_	O	O	
+5-3	Horn	NE	Horn	_	O	O	
+5-4	29/X	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+5-5	53	CARD	53	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+5-6	.	$.	.	_	O	O	
+

@@ -1,0 +1,250 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=H Helbig an Henzen Rom, 20. August 1863 Rom 20. August 1863 g. 31/8 63. Geehrtester Herr Professor !
+1-1	H	NN	H	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-12	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-13	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	g.	VVFIN	<unknown>	_	O	O	
+1-17	31/8	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-18	63	CARD	63	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-19	.	$.	.	_	O	O	
+1-20	Geehrtester	ADJA	<unknown>	_	O	O	
+1-21	Herr	NN	Herr	_	O	O	
+1-22	Professor	NN	Professor	_	O	O	
+1-23	!	$.	!	_	O	O	
+
+#id=2
+#text=Es ist mir sehr lieb, Ihre bestimmte Adresse zu erfahren wegen der unleidigen venezianischen Processangelegenheit.
+2-1	Es	PPER	es	_	O	O	
+2-2	ist	VAFIN	sein	_	O	O	
+2-3	mir	PPER	ich	_	O	O	
+2-4	sehr	ADV	sehr	_	O	O	
+2-5	lieb	ADJD	lieb	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	Ihre	PPOSAT	ihr	_	O	O	
+2-8	bestimmte	ADJA	bestimmt	_	O	O	
+2-9	Adresse	NN	Adresse	_	O	O	
+2-10	zu	PTKZU	zu	_	O	O	
+2-11	erfahren	VVINF	erfahren	_	O	O	
+2-12	wegen	APPR	wegen	_	O	O	
+2-13	der	ART	die	_	O	O	
+2-14	unleidigen	ADJA	<unknown>	_	O	O	
+2-15	venezianischen	ADJA	venezianisch	_	O	O	
+2-16	Processangelegenheit	NN	<unknown>	_	O	O	
+2-17	.	$.	.	_	O	O	
+
+#id=3
+#text=Das Autorisations- und Klagformular habe ich in vorgeschriebener Weise an den Avvocato Fortis abgehen lassen.
+3-1	Das	ART	die	_	O	O	
+3-2	Autorisations-	TRUNC	<unknown>	_	O	O	
+3-3	und	KON	und	_	O	O	
+3-4	Klagformular	NN	<unknown>	_	O	O	
+3-5	habe	VAFIN	haben	_	O	O	
+3-6	ich	PPER	ich	_	O	O	
+3-7	in	APPR	in	_	O	O	
+3-8	vorgeschriebener	ADJA	vorgeschrieben	_	O	O	
+3-9	Weise	NN	Weise	_	O	O	
+3-10	an	APPR	an	_	O	O	
+3-11	den	ART	die	_	O	O	
+3-12	Avvocato	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-13	Fortis	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-14	abgehen	VVINF	abgehen	_	O	O	
+3-15	lassen	VVINF	lassen	_	O	O	
+3-16	.	$.	.	_	O	O	
+
+#id=4
+#text=Kurz darauf erhielt ich einen zweiten Brief von ihm, worin er bestimmte Angabe über die Größe der einzuklagenden Schuld verlangte und über die Art, wie sie contrahirt worden sei.
+4-1	Kurz	ADJD	kurz	_	O	O	
+4-2	darauf	PAV	darauf	_	O	O	
+4-3	erhielt	VVFIN	erhalten	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	einen	ART	eine	_	O	O	
+4-6	zweiten	ADJA	zweit	_	O	O	
+4-7	Brief	NN	Brief	_	O	O	
+4-8	von	APPR	von	_	O	O	
+4-9	ihm	PPER	er	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	worin	PWAV	worin	_	O	O	
+4-12	er	PPER	er	_	O	O	
+4-13	bestimmte	ADJA	bestimmt	_	O	O	
+4-14	Angabe	NN	Angabe	_	O	O	
+4-15	über	APPR	über	_	O	O	
+4-16	die	ART	die	_	O	O	
+4-17	Größe	NN	Größe	_	O	O	
+4-18	der	ART	die	_	O	O	
+4-19	einzuklagenden	ADJA	<unknown>	_	O	O	
+4-20	Schuld	NN	Schuld	_	O	O	
+4-21	verlangte	VVFIN	verlangen	_	O	O	
+4-22	und	KON	und	_	O	O	
+4-23	über	APPR	über	_	O	O	
+4-24	die	ART	die	_	O	O	
+4-25	Art	NN	Art	_	O	O	
+4-26	,	$,	,	_	O	O	
+4-27	wie	KOUS	wie	_	O	O	
+4-28	sie	PPER	sie	_	O	O	
+4-29	contrahirt	NN	<unknown>	_	O	O	
+4-30	worden	VAPP	werden	_	O	O	
+4-31	sei	VAFIN	sein	_	O	O	
+4-32	.	$.	.	_	O	O	
+
+#id=5
+#text=Brunn, an den ich sofort geschrieben habe, hat ihm von Chiusi aus mitgetheilt, was er davon weiß.
+5-1	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	,	$,	,	_	O	O	
+5-3	an	APPR	an	_	O	O	
+5-4	den	PRELS	die	_	O	O	
+5-5	ich	PPER	ich	_	O	O	
+5-6	sofort	ADV	sofort	_	O	O	
+5-7	geschrieben	VVPP	schreiben	_	O	O	
+5-8	habe	VAFIN	haben	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	hat	VAFIN	haben	_	O	O	
+5-11	ihm	PPER	er	_	O	O	
+5-12	von	APPR	von	_	O	O	
+5-13	Chiusi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-14	aus	APPR	aus	_	O	O	
+5-15	mitgetheilt	ADJA	<unknown>	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	was	PRELS	was	_	O	O	
+5-18	er	PPER	er	_	O	O	
+5-19	davon	PAV	davon	_	O	O	
+5-20	weiß.	ADJA	<unknown>	_	O	O	
+
+#id=6
+#text=Ich bitte Sie, ebenfalls was Sie von der Sache wissen, direct an den Avvocato zu schreiben.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	bitte	VVFIN	bitten	_	O	O	
+6-3	Sie	PPER	Sie	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	ebenfalls	ADV	ebenfalls	_	O	O	
+6-6	was	PIS	was	_	O	O	
+6-7	Sie	PPER	Sie	_	O	O	
+6-8	von	APPR	von	_	O	O	
+6-9	der	ART	die	_	O	O	
+6-10	Sache	NN	Sache	_	O	O	
+6-11	wissen	VVFIN	wissen	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	direct	NE	direct	_	O	O	
+6-14	an	APPR	an	_	O	O	
+6-15	den	ART	die	_	O	O	
+6-16	Avvocato	ADV	<unknown>	_	O	O	
+6-17	zu	PTKZU	zu	_	O	O	
+6-18	schreiben	VVINF	schreiben	_	O	O	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=Adresse Dr.
+7-1	Adresse	NN	Adresse	_	O	O	
+7-2	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=8
+#text=Leone Fortis avvocato del Foro di Venezia.
+8-1	Leone	NE	Leone	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	Fortis	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-3	avvocato	VVFIN	<unknown>	_	O	O	
+8-4	del	NE	del	_	O	O	
+8-5	Foro	NE	<unknown>	_	O	O	
+8-6	di	NE	di	_	O	O	
+8-7	Venezia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-8	.	$.	.	_	O	O	
+
+#id=9
+#text=Eine zweite Angelegenheit, in welcher ich Ihrer Antwort entgegensehe, betrifft Forcella.
+9-1	Eine	ART	eine	_	O	O	
+9-2	zweite	ADJA	zweit	_	O	O	
+9-3	Angelegenheit	NN	Angelegenheit	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	in	APPR	in	_	O	O	
+9-6	welcher	PRELS	welche	_	O	O	
+9-7	ich	PPER	ich	_	O	O	
+9-8	Ihrer	PPOSAT	ihr	_	O	O	
+9-9	Antwort	NN	Antwort	_	O	O	
+9-10	entgegensehe	VVFIN	entgegensehen	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	betrifft	VVFIN	betreffen	_	O	O	
+9-13	Forcella	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-14	.	$.	.	_	O	O	
+
+#id=10
+#text=Dieser befindet sich in verzweiflungsvoller Lage ohne Geld und jeglicher Hülfsmittel, da ihm Rossi nichts zu arbeiten giebt.
+10-1	Dieser	PDS	diese	_	O	O	
+10-2	befindet	VVFIN	befinden	_	O	O	
+10-3	sich	PRF	sich	_	O	O	
+10-4	in	APPR	in	_	O	O	
+10-5	verzweiflungsvoller	ADJA	<unknown>	_	O	O	
+10-6	Lage	NN	Lage	_	O	O	
+10-7	ohne	APPR	ohne	_	O	O	
+10-8	Geld	NN	Geld	_	O	O	
+10-9	und	KON	und	_	O	O	
+10-10	jeglicher	PIAT	jegliche	_	O	O	
+10-11	Hülfsmittel	NN	<unknown>	_	O	O	
+10-12	,	$,	,	_	O	O	
+10-13	da	KOUS	da	_	O	O	
+10-14	ihm	PPER	er	_	O	O	
+10-15	Rossi	NE	Rossi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-16	nichts	PIS	nichts	_	O	O	
+10-17	zu	PTKZU	zu	_	O	O	
+10-18	arbeiten	VVINF	arbeiten	_	O	O	
+10-19	giebt	VVFIN	<unknown>	_	O	O	
+10-20	.	$.	.	_	O	O	
+
+#id=11
+#text=Ich selbst bin nicht im Stande ihm etwas zu geben, da ich mich in der größten Geldverlegengeit befinde und außerdem noch Dr.
+11-1	Ich	PPER	ich	_	O	O	
+11-2	selbst	ADV	selbst	_	O	O	
+11-3	bin	VAFIN	sein	_	O	O	
+11-4	nicht	PTKNEG	nicht	_	O	O	
+11-5	im	APPRART	in	_	O	O	
+11-6	Stande	NN	Stand	_	O	O	
+11-7	ihm	PPER	er	_	O	O	
+11-8	etwas	ADV	etwas	_	O	O	
+11-9	zu	PTKZU	zu	_	O	O	
+11-10	geben	VVINF	geben	_	O	O	
+11-11	,	$,	,	_	O	O	
+11-12	da	KOUS	da	_	O	O	
+11-13	ich	PPER	ich	_	O	O	
+11-14	mich	PRF	ich	_	O	O	
+11-15	in	APPR	in	_	O	O	
+11-16	der	ART	die	_	O	O	
+11-17	größten	ADJA	groß	_	O	O	
+11-18	Geldverlegengeit	NN	<unknown>	_	O	O	
+11-19	befinde	VVFIN	befinden	_	O	O	
+11-20	und	KON	und	_	O	O	
+11-21	außerdem	ADV	außerdem	_	O	O	
+11-22	noch	ADV	noch	_	O	O	
+11-23	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=12
+#text=Gr tzmacher , welcher plötzlich abreisen mußte, Geld vorgeschossen habe.
+12-1	Gr	NE	<unknown>	_	O	O	
+12-2	tzmacher	NN	<unknown>	_	O	O	
+12-3	,	$,	,	_	O	O	
+12-4	welcher	PRELS	welche	_	O	O	
+12-5	plötzlich	ADJD	plötzlich	_	O	O	
+12-6	abreisen	VVINF	abreisen	_	O	O	
+12-7	mußte	VMFIN	müssen	_	O	O	
+12-8	,	$,	,	_	O	O	
+12-9	Geld	NN	Geld	_	O	O	
+12-10	vorgeschossen	VVPP	vorschießen	_	O	O	
+12-11	habe	VAFIN	haben	_	O	O	
+12-12	.	$.	.	_	O	O	
+
+#id=13
+#text=Was soll ich mit
+13-1	Was	PWS	was	_	O	O	
+13-2	soll	VMFIN	sollen	_	O	O	
+13-3	ich	PPER	ich	_	O	O	
+13-4	mit	APPR	mit	_	O	O	
+

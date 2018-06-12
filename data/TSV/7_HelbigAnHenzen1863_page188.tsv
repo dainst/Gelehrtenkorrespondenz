@@ -1,0 +1,55 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Am Rande : Helbig an Henzen Rom, 20. Juli 1873 Das Diplom für Nardi Dei scheint verloren gegangen zu sein.
+1-1	2	CARD	2	_	O	O	
+1-2	Am	APPRART	an	_	O	O	
+1-3	Rande	NN	Rand	_	O	O	
+1-4	:	$.	:	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Das	ART	die	_	O	O	
+1-15	Diplom	NN	Diplom	_	O	O	
+1-16	für	APPR	für	_	O	O	
+1-17	Nardi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-18	Dei	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-19	scheint	VVFIN	scheinen	_	O	O	
+1-20	verloren	ADJD	verloren	_	O	O	
+1-21	gegangen	VVPP	gehen	_	O	O	
+1-22	zu	PTKZU	zu	_	O	O	
+1-23	sein	VAINF	sein	_	O	O	
+1-24	.	$.	.	_	O	O	
+
+#id=2
+#text=Lepsius schreibt am 14., er sei vorgestern von Berlin abgegangen.
+2-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	schreibt	VVFIN	schreiben	_	O	O	
+2-3	am	APPRART	an	_	O	O	
+2-4	14	CARD	14	_	O	O	
+2-5	.	$.	.	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	er	PPER	er	_	O	O	
+2-8	sei	VAFIN	sein	_	O	O	
+2-9	vorgestern	ADV	vorgestern	_	O	O	
+2-10	von	APPR	von	_	O	O	
+2-11	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-12	abgegangen	VVPP	abgehen	_	O	O	
+2-13	.	$.	.	_	O	O	
+
+#id=3
+#text=Doch ist er bis jetzt nicht eingetroffen.
+3-1	Doch	ADV	doch	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	er	PPER	er	_	O	O	
+3-4	bis	KON	bis	_	O	O	
+3-5	jetzt	ADV	jetzt	_	O	O	
+3-6	nicht	PTKNEG	nicht	_	O	O	
+3-7	eingetroffen	VVPP	eintreffen	_	O	O	
+3-8	.	$.	.	_	O	O	
+

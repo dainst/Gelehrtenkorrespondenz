@@ -1,0 +1,198 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=( ~ 2 Helbig an Henzen Neapel, 1. Juni 1864 zuoli sehe ich Ihren Aufträgen entgegen.
+1-1	(	$(	(	_	O	O	
+1-2	~	XY	~	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	zuoli	NE	<unknown>	_	O	O	
+1-14	sehe	VVFIN	sehen	_	O	O	
+1-15	ich	PPER	ich	_	O	O	
+1-16	Ihren	PPOSAT	ihr	_	O	O	
+1-17	Aufträgen	NN	Auftrag	_	O	O	
+1-18	entgegen	PTKVZ	entgegen	_	O	O	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=Meinen Brief und meinen rapporto über die scavi di Pesto u.s.w. haben Sie hoffentlich erhalten.
+2-1	Meinen	PPOSAT	mein	_	O	O	
+2-2	Brief	NN	Brief	_	O	O	
+2-3	und	KON	und	_	O	O	
+2-4	meinen	PPOSAT	mein	_	O	O	
+2-5	rapporto	NN	<unknown>	_	O	O	
+2-6	über	APPR	über	_	O	O	
+2-7	die	ART	die	_	O	O	
+2-8	scavi	NE	<unknown>	_	O	O	
+2-9	di	NE	di	_	O	O	
+2-10	Pesto	NN	<unknown>	_	O	O	
+2-11	u.s.w.	NE	<unknown>	_	O	O	
+2-12	haben	VAFIN	haben	_	O	O	
+2-13	Sie	PPER	Sie	_	O	O	
+2-14	hoffentlich	ADV	hoffentlich	_	O	O	
+2-15	erhalten	VVINF	erhalten	_	O	O	
+2-16	.	$.	.	_	O	O	
+
+#id=3
+#text=Mit der Bitte mich der Frau Professorin, Willmannsr, Köhler u.s.w. zu empfehlen Ihr Wolfgang Helbig • NB.
+3-1	Mit	APPR	mit	_	O	O	
+3-2	der	ART	die	_	O	O	
+3-3	Bitte	NN	Bitte	_	O	O	
+3-4	mich	PRF	ich	_	O	O	
+3-5	der	ART	die	_	O	O	
+3-6	Frau	NN	Frau	_	O	O	
+3-7	Professorin	NN	Professorin	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	Willmannsr	NE	<unknown>	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	Köhler	NE	Köhler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-12	u.s.w.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-13	zu	PTKZU	zu	_	O	O	
+3-14	empfehlen	VVINF	empfehlen	_	O	O	
+3-15	Ihr	PPOSAT	ihr	_	O	O	
+3-16	Wolfgang	NN	Wolfgang	_	O	O	
+3-17	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-18	•	ADJA	<unknown>	_	O	O	
+3-19	NB	NE	NB	_	O	O	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=Von der paestaner Vase des Assteas, welche nach Bukarest abgegangen ist, habe ich einen dilucido für 14 Carlin für das Institut erworben.
+4-1	Von	APPR	von	_	O	O	
+4-2	der	ART	die	_	O	O	
+4-3	paestaner	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-4	Vase	NN	Vase	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-5	des	ART	die	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-6	Assteas	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-7	,	$,	,	_	O	O	
+4-8	welche	PRELS	welche	_	O	O	
+4-9	nach	APPR	nach	_	O	O	
+4-10	Bukarest	NE	Bukarest	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-11	abgegangen	VVPP	abgehen	_	O	O	
+4-12	ist	VAFIN	sein	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	habe	VAFIN	haben	_	O	O	
+4-15	ich	PPER	ich	_	O	O	
+4-16	einen	ART	eine	_	O	O	
+4-17	dilucido	NE	<unknown>	_	O	O	
+4-18	für	APPR	für	_	O	O	
+4-19	14	CARD	14	_	O	O	
+4-20	Carlin	NE	<unknown>	_	O	O	
+4-21	für	APPR	für	_	O	O	
+4-22	das	ART	die	_	O	O	
+4-23	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-24	erworben	VVPP	erwerben	_	O	O	
+4-25	.	$.	.	_	O	O	
+
+#id=5
+#text=Da der Institutszeichner krank war, habe ich ihn von einem Neapolitaner machen lassen müssen.
+5-1	Da	KOUS	da	_	O	O	
+5-2	der	ART	die	_	O	O	
+5-3	Institutszeichner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-4	krank	ADJD	krank	_	O	O	
+5-5	war	VAFIN	sein	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	habe	VAFIN	haben	_	O	O	
+5-8	ich	PPER	ich	_	O	O	
+5-9	ihn	PPER	er	_	O	O	
+5-10	von	APPR	von	_	O	O	
+5-11	einem	ART	eine	_	O	O	
+5-12	Neapolitaner	NN	Neapolitaner	_	O	O	
+5-13	machen	VVINF	machen	_	O	O	
+5-14	lassen	VVINF	lassen	_	O	O	
+5-15	müssen	VMINF	müssen	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Er ist leidlich ausgefallen und die Vase zu wichtig, um die Gelegenheit ihrer Publication vorüber gehen zu lassen.
+6-1	Er	PPER	er	_	O	O	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	leidlich	ADJD	leidlich	_	O	O	
+6-4	ausgefallen	VVPP	ausfallen	_	O	O	
+6-5	und	KON	und	_	O	O	
+6-6	die	ART	die	_	O	O	
+6-7	Vase	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-8	zu	PTKA	zu	_	O	O	
+6-9	wichtig	ADJD	wichtig	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	um	KOUI	um	_	O	O	
+6-12	die	ART	die	_	O	O	
+6-13	Gelegenheit	NN	Gelegenheit	_	O	O	
+6-14	ihrer	PPOSAT	ihr	_	O	O	
+6-15	Publication	NN	<unknown>	_	O	O	
+6-16	vorüber	ADV	vorüber	_	O	O	
+6-17	gehen	VVINF	gehen	_	O	O	
+6-18	zu	PTKZU	zu	_	O	O	
+6-19	lassen	VVINF	lassen	_	O	O	
+6-20	.	$.	.	_	O	O	
+
+#id=7
+#text=Überhaupt kann man, wenn man Fiorelli als Vermittler benutzt, leidliche Zeichnugan zu mäßigem Preise auch in Neapel haben.
+7-1	Überhaupt	ADV	überhaupt	_	O	O	
+7-2	kann	VMFIN	können	_	O	O	
+7-3	man	PIS	man	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	wenn	KOUS	wenn	_	O	O	
+7-6	man	PIS	man	_	O	O	
+7-7	Fiorelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-8	als	KOKOM	als	_	O	O	
+7-9	Vermittler	NN	Vermittler	_	O	O	
+7-10	benutzt	VVPP	benutzen	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	leidliche	ADJA	leidlich	_	O	O	
+7-13	Zeichnugan	NN	<unknown>	_	O	O	
+7-14	zu	APPR	zu	_	O	O	
+7-15	mäßigem	ADJA	mäßig	_	O	O	
+7-16	Preise	NN	Preis	_	O	O	
+7-17	auch	ADV	auch	_	O	O	
+7-18	in	APPR	in	_	O	O	
+7-19	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-20	haben	VAFIN	haben	_	O	O	
+7-21	.	$.	.	_	O	O	
+
+#id=8
+#text=Geben Sie mir Vollmacht, etwaige wichtige Dinge, die während meines Aufenthalts zu Tage kommen, auf diesem Wege zeichnen zu lassen ?
+8-1	Geben	VVFIN	geben	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	mir	PRF	ich	_	O	O	
+8-4	Vollmacht	NN	Vollmacht	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	etwaige	ADJA	etwaig	_	O	O	
+8-7	wichtige	ADJA	wichtig	_	O	O	
+8-8	Dinge	NN	Ding	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	die	PRELS	die	_	O	O	
+8-11	während	APPR	während	_	O	O	
+8-12	meines	PPOSAT	mein	_	O	O	
+8-13	Aufenthalts	NN	Aufenthalt	_	O	O	
+8-14	zu	APPR	zu	_	O	O	
+8-15	Tage	NN	Tag	_	O	O	
+8-16	kommen	VVFIN	kommen	_	O	O	
+8-17	,	$,	,	_	O	O	
+8-18	auf	APPR	auf	_	O	O	
+8-19	diesem	PDAT	dies	_	O	O	
+8-20	Wege	NN	Weg	_	O	O	
+8-21	zeichnen	VVINF	zeichnen	_	O	O	
+8-22	zu	PTKZU	zu	_	O	O	
+8-23	lassen	VVINF	lassen	_	O	O	
+8-24	?	$.	?	_	O	O	
+
+#id=9
+#text=Für Etzel ist bis jetzt kein Brief eingetroffen.
+9-1	Für	APPR	für	_	O	O	
+9-2	Etzel	NE	Etzel	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-3	ist	VAFIN	sein	_	O	O	
+9-4	bis	APPR	bis	_	O	O	
+9-5	jetzt	ADV	jetzt	_	O	O	
+9-6	kein	PIAT	keine	_	O	O	
+9-7	Brief	NN	Brief	_	O	O	
+9-8	eingetroffen	VVPP	eintreffen	_	O	O	
+9-9	.	$.	.	_	O	O	
+

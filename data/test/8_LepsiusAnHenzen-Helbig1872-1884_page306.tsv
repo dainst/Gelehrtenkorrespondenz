@@ -1,0 +1,147 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=119 2 Lepsius an Henzen Berlin, 24. Februar 1877 größte Verlegenheit bringen.
+1-1	119	CARD	119	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	größte	ADJA	groß	_	O	O	
+1-13	Verlegenheit	NN	Verlegenheit	_	O	O	
+1-14	bringen	VVFIN	bringen	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich würde daher vorschlagen, uns wenigstens einen Überblick über das vorige Jahr, ohne Details und ohne Abschluß zu senden, so weit Sie übersehen können, daß es für unsre Berathung nützlich ist.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	würde	VAFIN	werden	_	O	O	
+2-3	daher	PAV	daher	_	O	O	
+2-4	vorschlagen	VVINF	vorschlagen	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	uns	PRF	wir	_	O	O	
+2-7	wenigstens	ADV	wenigstens	_	O	O	
+2-8	einen	ART	eine	_	O	O	
+2-9	Überblick	NN	Überblick	_	O	O	
+2-10	über	APPR	über	_	O	O	
+2-11	das	ART	die	_	O	O	
+2-12	vorige	ADJA	vorig	_	O	O	
+2-13	Jahr	NN	Jahr	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	ohne	KOUI	ohne	_	O	O	
+2-16	Details	NN	Detail	_	O	O	
+2-17	und	KON	und	_	O	O	
+2-18	ohne	APPR	ohne	_	O	O	
+2-19	Abschluß	NN	Abschluss	_	O	O	
+2-20	zu	PTKZU	zu	_	O	O	
+2-21	senden	VVINF	senden	_	O	O	
+2-22	,	$,	,	_	O	O	
+2-23	so	ADV	so	_	O	O	
+2-24	weit	ADJD	weit	_	O	O	
+2-25	Sie	PPER	Sie	_	O	O	
+2-26	übersehen	VVINF	übersehen	_	O	O	
+2-27	können	VMFIN	können	_	O	O	
+2-28	,	$,	,	_	O	O	
+2-29	daß	KOUS	dass	_	O	O	
+2-30	es	PPER	es	_	O	O	
+2-31	für	APPR	für	_	O	O	
+2-32	unsre	PPOSAT	unsre	_	O	O	
+2-33	Berathung	NN	<unknown>	_	O	O	
+2-34	nützlich	ADJD	nützlich	_	O	O	
+2-35	ist	VAFIN	sein	_	O	O	
+2-36	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich werde dasselbe an Köhler schreiben.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	werde	VAFIN	werden	_	O	O	
+3-3	dasselbe	PDS	dasselbe	_	O	O	
+3-4	an	APPR	an	_	O	O	
+3-5	Köhler	NE	Köhler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	schreiben	VVINF	schreiben	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Eine Sitzung war in diesen Tagen nicht möglich.
+4-1	Eine	ART	eine	_	O	O	
+4-2	Sitzung	NN	Sitzung	_	O	O	
+4-3	war	VAFIN	sein	_	O	O	
+4-4	in	APPR	in	_	O	O	
+4-5	diesen	PDAT	dies	_	O	O	
+4-6	Tagen	NN	Tag	_	O	O	
+4-7	nicht	PTKNEG	nicht	_	O	O	
+4-8	möglich	ADJD	möglich	_	O	O	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=Eine Verschiebung der General Versammlung ist wegen der Ferien nicht möglich.
+5-1	Eine	ART	eine	_	O	O	
+5-2	Verschiebung	NN	Verschiebung	_	O	O	
+5-3	der	ART	die	_	O	O	
+5-4	General	NN	General	_	O	O	
+5-5	Versammlung	NN	Versammlung	_	O	O	
+5-6	ist	VAFIN	sein	_	O	O	
+5-7	wegen	APPR	wegen	_	O	O	
+5-8	der	ART	die	_	O	O	
+5-9	Ferien	NN	Ferien	_	O	O	
+5-10	nicht	PTKNEG	nicht	_	O	O	
+5-11	möglich	ADJD	möglich	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Für spätere Jahre wird sich irgend eine Auskunft treffen lassen.
+6-1	Für	APPR	für	_	O	O	
+6-2	spätere	ADJA	spät	_	O	O	
+6-3	Jahre	NN	Jahr	_	O	O	
+6-4	wird	VAFIN	werden	_	O	O	
+6-5	sich	PRF	sich	_	O	O	
+6-6	irgend	ADV	irgend	_	O	O	
+6-7	eine	ART	eine	_	O	O	
+6-8	Auskunft	NN	Auskunft	_	O	O	
+6-9	treffen	VVINF	treffen	_	O	O	
+6-10	lassen	VVINF	lassen	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Über Klügmann werde ich noch mit Krüger sprechen, den ich wiederholt verfehlt habe.
+7-1	Über	APPR	über	_	O	O	
+7-2	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-3	werde	VAFIN	werden	_	O	O	
+7-4	ich	PPER	ich	_	O	O	
+7-5	noch	ADV	noch	_	O	O	
+7-6	mit	APPR	mit	_	O	O	
+7-7	Krüger	NN	<unknown>	_	O	O	
+7-8	sprechen	VVINF	sprechen	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	den	PRELS	die	_	O	O	
+7-11	ich	PPER	ich	_	O	O	
+7-12	wiederholt	ADJD	wiederholt	_	O	O	
+7-13	verfehlt	VVPP	verfehlen	_	O	O	
+7-14	habe	VAFIN	haben	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=Sobald sich mehr sagen läßt, schreibe ich wieder.
+8-1	Sobald	KOUS	sobald	_	O	O	
+8-2	sich	PRF	sich	_	O	O	
+8-3	mehr	ADV	mehr	_	O	O	
+8-4	sagen	VVINF	sagen	_	O	O	
+8-5	läßt	VVFIN	lassen	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	schreibe	VVFIN	schreiben	_	O	O	
+8-8	ich	PPER	ich	_	O	O	
+8-9	wieder	ADV	wieder	_	O	O	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=Ihr ergebenster R Lepsius
+9-1	Ihr	PPOSAT	ihr	_	O	O	
+9-2	ergebenster	ADJA	<unknown>	_	O	O	
+9-3	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+9-4	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

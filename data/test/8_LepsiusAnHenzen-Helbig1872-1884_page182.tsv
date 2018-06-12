@@ -1,0 +1,142 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=595 Lepsius an Henzen Berlin, 15. November 1874 2 geben.
+1-1	595	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	geben	VVFIN	geben	_	O	O	
+1-13	.	$.	.	_	O	O	
+
+#id=2
+#text=Die Angelegenheit war von mir oft angeregt.
+2-1	Die	ART	die	_	O	O	
+2-2	Angelegenheit	NN	Angelegenheit	_	O	O	
+2-3	war	VAFIN	sein	_	O	O	
+2-4	von	APPR	von	_	O	O	
+2-5	mir	PPER	ich	_	O	O	
+2-6	oft	ADV	oft	_	O	O	
+2-7	angeregt	VVPP	anregen	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Es fanden sich aber immer Gründe in der Berathung sie zurückzustellen.
+3-1	Es	PPER	es	_	O	O	
+3-2	fanden	VVFIN	finden	_	O	O	
+3-3	sich	PRF	sich	_	O	O	
+3-4	aber	ADV	aber	_	O	O	
+3-5	immer	ADV	immer	_	O	O	
+3-6	Gründe	NN	Grund	_	O	O	
+3-7	in	APPR	in	_	O	O	
+3-8	der	ART	die	_	O	O	
+3-9	Berathung	NN	<unknown>	_	O	O	
+3-10	sie	PPER	sie	_	O	O	
+3-11	zurückzustellen	VVIZU	zurückstellen	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Mommsen ist mir dem Antrage für Ihre Pension beschäftigt.
+4-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	ist	VAFIN	sein	_	O	O	
+4-3	mir	PPER	ich	_	O	O	
+4-4	dem	ART	die	_	O	O	
+4-5	Antrage	NN	<unknown>	_	O	O	
+4-6	für	APPR	für	_	O	O	
+4-7	Ihre	PPOSAT	ihr	_	O	O	
+4-8	Pension	NN	Pension	_	O	O	
+4-9	beschäftigt	VVPP	beschäftigen	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Von Helbig fügen Sie keine Daten zu; wollen Sie doch umgehend dies noch thun.
+5-1	Von	APPR	von	_	O	O	
+5-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	fügen	VVFIN	fügen	_	O	O	
+5-4	Sie	PPER	Sie	_	O	O	
+5-5	keine	PIAT	keine	_	O	O	
+5-6	Daten	NN	Datum	_	O	O	
+5-7	zu	PTKVZ	zu	_	O	O	
+5-8	;	$.	;	_	O	O	
+5-9	wollen	VMFIN	wollen	_	O	O	
+5-10	Sie	PPER	Sie	_	O	O	
+5-11	doch	ADV	doch	_	O	O	
+5-12	umgehend	ADJD	umgehend	_	O	O	
+5-13	dies	PDS	dies	_	O	O	
+5-14	noch	ADV	noch	_	O	O	
+5-15	thun	NE	<unknown>	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich schreibe Ihnen den Antrag sobald er feststeht.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	schreibe	VVFIN	schreiben	_	O	O	
+6-3	Ihnen	PPER	Sie	_	O	O	
+6-4	den	ART	die	_	O	O	
+6-5	Antrag	NN	Antrag	_	O	O	
+6-6	sobald	KOUS	sobald	_	O	O	
+6-7	er	PPER	er	_	O	O	
+6-8	feststeht	VVFIN	feststehen	_	O	O	
+6-9	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Trennung der officiellen Mittheilungen ist sehr wünschenswerth.
+7-1	Die	ART	die	_	O	O	
+7-2	Trennung	NN	Trennung	_	O	O	
+7-3	der	ART	die	_	O	O	
+7-4	officiellen	ADJA	<unknown>	_	O	O	
+7-5	Mittheilungen	NN	<unknown>	_	O	O	
+7-6	ist	VAFIN	sein	_	O	O	
+7-7	sehr	ADV	sehr	_	O	O	
+7-8	wünschenswerth	NE	<unknown>	_	O	O	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=Herzlich der Ihrige R Lepsius Ohne Zweifel: Imperial Inst.
+8-1	Herzlich	ADJD	herzlich	_	O	O	
+8-2	der	ART	die	_	O	O	
+8-3	Ihrige	PPOSAT	ihrige	_	O	O	
+8-4	R	NN	R	_	O	O	
+8-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	Ohne	APPR	ohne	_	O	O	
+8-7	Zweifel	NN	Zweifel	_	O	O	
+8-8	:	$.	:	_	O	O	
+8-9	Imperial	ADJD	imperial	_	O	O	
+8-10	Inst.	NE	<unknown>	_	O	O	
+
+#id=9
+#text=Arch.
+9-1	Arch	NE	<unknown>	_	O	O	
+9-2	.	$.	.	_	O	O	
+
+#id=10
+#text=Germ.
+10-1	Germ.	NE	<unknown>	_	O	O	
+
+#id=11
+#text=Die photographischen Abzüge für Laspeyres sind bestellt; nicht alle BI.
+11-1	Die	ART	die	_	O	O	
+11-2	photographischen	ADJA	photographisch	_	O	O	
+11-3	Abzüge	NN	Abzug	_	O	O	
+11-4	für	APPR	für	_	O	O	
+11-5	Laspeyres	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-6	sind	VAFIN	sein	_	O	O	
+11-7	bestellt	VVPP	bestellen	_	O	O	
+11-8	;	$.	;	_	O	O	
+11-9	nicht	PTKNEG	nicht	_	O	O	
+11-10	alle	PIS	alle	_	O	O	
+11-11	BI	NE	BI	_	O	O	
+11-12	.	$.	.	_	O	O	
+
+#id=12
+#text=werden lithographiert.
+12-1	werden	VAFIN	werden	_	O	O	
+12-2	lithographiert	ADJD	<unknown>	_	O	O	
+12-3	.	$.	.	_	O	O	
+

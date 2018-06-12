@@ -1,0 +1,240 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=341 Lieber Herr Professor Helbig an Henzen Siena, 6. Juli 1875 g. 7/7 75 r.
+1-1	341	CARD	@card@	_	O	O	
+1-2	Lieber	ADJA	lieb	_	O	O	
+1-3	Herr	NN	Herr	_	O	O	
+1-4	Professor	NN	Professor	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	7/7	CARD	7/7	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=6. Juli 1875 Obwohl ich Ihnen eigentlich nichts besonders Wissenswürdiges mitzutheilen habe, schreibe ich Ihnen doch diese Zeilen, um Ihnen wenigstens ein Lebenszeichen zu geben.
+2-1	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-2	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-3	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-4	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-5	Obwohl	KOUS	obwohl	_	O	O	
+2-6	ich	PPER	ich	_	O	O	
+2-7	Ihnen	PPER	Sie	_	O	O	
+2-8	eigentlich	ADV	eigentlich	_	O	O	
+2-9	nichts	PIS	nichts	_	O	O	
+2-10	besonders	ADV	besonders	_	O	O	
+2-11	Wissenswürdiges	NN	<unknown>	_	O	O	
+2-12	mitzutheilen	VVIZU	<unknown>	_	O	O	
+2-13	habe	VAFIN	haben	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	schreibe	VVFIN	schreiben	_	O	O	
+2-16	ich	PPER	ich	_	O	O	
+2-17	Ihnen	PPER	Sie	_	O	O	
+2-18	doch	ADV	doch	_	O	O	
+2-19	diese	PDAT	dies	_	O	O	
+2-20	Zeilen	NN	Zeile	_	O	O	
+2-21	,	$,	,	_	O	O	
+2-22	um	KOUI	um	_	O	O	
+2-23	Ihnen	PPER	Sie	_	O	O	
+2-24	wenigstens	ADV	wenigstens	_	O	O	
+2-25	ein	ART	eine	_	O	O	
+2-26	Lebenszeichen	NN	Lebenszeichen	_	O	O	
+2-27	zu	PTKZU	zu	_	O	O	
+2-28	geben	VVINF	geben	_	O	O	
+2-29	.	$.	.	_	O	O	
+
+#id=3
+#text=Es geht uns gut und auch meine Hypochondrie, die ich in Rom durch ~-;.
+3-1	Es	PPER	es	_	O	O	
+3-2	geht	VVFIN	gehen	_	O	O	
+3-3	uns	PPER	wir	_	O	O	
+3-4	gut	ADJD	gut	_	O	O	
+3-5	und	KON	und	_	O	O	
+3-6	auch	ADV	auch	_	O	O	
+3-7	meine	PPOSAT	mein	_	O	O	
+3-8	Hypochondrie	NN	<unknown>	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	die	PRELS	die	_	O	O	
+3-11	ich	PPER	ich	_	O	O	
+3-12	in	APPR	in	_	O	O	
+3-13	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-14	durch	APPR	durch	_	O	O	
+3-15	~-	NN	<unknown>	_	O	O	
+3-16	;	$.	;	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=,,.tl-,-r;.~r, niederzukämpfen suchte, ist bei der hiesigen Ruhe und kühlen Luft entschieden im Abnehmen begriffen.
+4-1	,,.tl-,-r	NN	<unknown>	_	O	O	
+4-2	;	$.	;	_	O	O	
+4-3	.~r	NE	<unknown>	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	niederzukämpfen	VVIZU	niederkämpfen	_	O	O	
+4-6	suchte	VVFIN	suchen	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	ist	VAFIN	sein	_	O	O	
+4-9	bei	APPR	bei	_	O	O	
+4-10	der	ART	die	_	O	O	
+4-11	hiesigen	ADJA	hiesig	_	O	O	
+4-12	Ruhe	NN	Ruhe	_	O	O	
+4-13	und	KON	und	_	O	O	
+4-14	kühlen	ADJA	kühl	_	O	O	
+4-15	Luft	NN	Luft	_	O	O	
+4-16	entschieden	VVPP	entscheiden	_	O	O	
+4-17	im	APPRART	in	_	O	O	
+4-18	Abnehmen	NN	Abnehmen	_	O	O	
+4-19	begriffen	VVPP	begreifen	_	O	O	
+4-20	.	$.	.	_	O	O	
+
+#id=5
+#text=Wir haben bis jetzt jeden Tag ein Gewitter gehabt und so hat der Thermometer niemals 10 0 im Schatten überschritten.
+5-1	Wir	PPER	wir	_	O	O	
+5-2	haben	VAFIN	haben	_	O	O	
+5-3	bis	APPR	bis	_	O	O	
+5-4	jetzt	ADV	jetzt	_	O	O	
+5-5	jeden	PIAT	jede	_	O	O	
+5-6	Tag	NN	Tag	_	O	O	
+5-7	ein	ART	eine	_	O	O	
+5-8	Gewitter	NN	Gewitter	_	O	O	
+5-9	gehabt	VVFIN	gehaben	_	O	O	
+5-10	und	KON	und	_	O	O	
+5-11	so	ADV	so	_	O	O	
+5-12	hat	VAFIN	haben	_	O	O	
+5-13	der	ART	die	_	O	O	
+5-14	Thermometer	NN	Thermometer	_	O	O	
+5-15	niemals	ADV	niemals	_	O	O	
+5-16	10	CARD	10	_	O	O	
+5-17	0	CARD	@card@	_	O	O	
+5-18	im	APPRART	in	_	O	O	
+5-19	Schatten	NN	Schatten	_	O	O	
+5-20	überschritten	VVPP	überschreiten	_	O	O	
+5-21	.	$.	.	_	O	O	
+
+#id=6
+#text=Lili gewinnt allmählig ihr früheres kräftiges Aussehen wieder.
+6-1	Lili	NE	Lili	_	O	O	
+6-2	gewinnt	VVFIN	gewinnen	_	O	O	
+6-3	allmählig	ADJD	<unknown>	_	O	O	
+6-4	ihr	PPOSAT	ihr	_	O	O	
+6-5	früheres	ADJA	früh	_	O	O	
+6-6	kräftiges	ADJA	kräftig	_	O	O	
+6-7	Aussehen	NN	Aussehen	_	O	O	
+6-8	wieder	ADV	wieder	_	O	O	
+6-9	.	$.	.	_	O	O	
+
+#id=7
+#text=An Besuchern fehlt es uns keineswegs: H~gens, Thorstrick, Raeteke, J.
+7-1	An	APPR	an	_	O	O	
+7-2	Besuchern	NN	Besucher	_	O	O	
+7-3	fehlt	VVFIN	fehlen	_	O	O	
+7-4	es	PPER	es	_	O	O	
+7-5	uns	PRF	wir	_	O	O	
+7-6	keineswegs	ADV	keineswegs	_	O	O	
+7-7	:	$.	:	_	O	O	
+7-8	H~gens	NE	<unknown>	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	Thorstrick	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-11	,	$,	,	_	O	O	
+7-12	Raeteke	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-13	,	$,	,	_	O	O	
+7-14	J.	NE	J.	_	O	O	
+
+#id=8
+#text=P. Richter.
+8-1	P.	NE	P.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	Richter	NE	Richter	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-3	.	$.	.	_	O	O	
+
+#id=9
+#text=Unerfreulich ist es, daß ich durch die Nachlässigkeit des Museums auch hier zu leiden habe.
+9-1	Unerfreulich	ADJD	unerfreulich	_	O	O	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	es	PPER	es	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	daß	KOUS	dass	_	O	O	
+9-6	ich	PPER	ich	_	O	O	
+9-7	durch	APPR	durch	_	O	O	
+9-8	die	ART	die	_	O	O	
+9-9	Nachlässigkeit	NN	Nachlässigkeit	_	O	O	
+9-10	des	ART	die	_	O	O	
+9-11	Museums	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-12	auch	ADV	auch	_	O	O	
+9-13	hier	ADV	hier	_	O	O	
+9-14	zu	PTKZU	zu	_	O	O	
+9-15	leiden	VVINF	leiden	_	O	O	
+9-16	habe	VAFIN	haben	_	O	O	
+9-17	.	$.	.	_	O	O	
+
+#id=10
+#text=Der Gypsabguß des Weihwasserbeckens im Dom ist vollendet; aber, obwohl Lombardi, der mit der Überwachung beauftragt ist, nach Berlin geschrieben, ist keine Geldanweisung erfolgt.
+10-1	Der	ART	die	_	O	O	
+10-2	Gypsabguß	NN	<unknown>	_	O	O	
+10-3	des	ART	die	_	O	O	
+10-4	Weihwasserbeckens	NN	<unknown>	_	O	O	
+10-5	im	APPRART	in	_	O	O	
+10-6	Dom	NN	Dom	_	O	O	
+10-7	ist	VAFIN	sein	_	O	O	
+10-8	vollendet	VVPP	vollenden	_	O	O	
+10-9	;	$.	;	_	O	O	
+10-10	aber	ADV	aber	_	O	O	
+10-11	,	$,	,	_	O	O	
+10-12	obwohl	KOUS	obwohl	_	O	O	
+10-13	Lombardi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-14	,	$,	,	_	O	O	
+10-15	der	PRELS	die	_	O	O	
+10-16	mit	APPR	mit	_	O	O	
+10-17	der	ART	die	_	O	O	
+10-18	Überwachung	NN	Überwachung	_	O	O	
+10-19	beauftragt	VVPP	beauftragen	_	O	O	
+10-20	ist	VAFIN	sein	_	O	O	
+10-21	,	$,	,	_	O	O	
+10-22	nach	APPR	nach	_	O	O	
+10-23	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-24	geschrieben	VVPP	schreiben	_	O	O	
+10-25	,	$,	,	_	O	O	
+10-26	ist	VAFIN	sein	_	O	O	
+10-27	keine	PIAT	keine	_	O	O	
+10-28	Geldanweisung	NN	Geldanweisung	_	O	O	
+10-29	erfolgt	VVPP	erfolgen	_	O	O	
+10-30	.	$.	.	_	O	O	
+
+#id=11
+#text=Die Leute haben sich zu diesem Zwecke an mich gewendet.
+11-1	Die	ART	die	_	O	O	
+11-2	Leute	NN	Leute	_	O	O	
+11-3	haben	VAFIN	haben	_	O	O	
+11-4	sich	PRF	sich	_	O	O	
+11-5	zu	APPR	zu	_	O	O	
+11-6	diesem	PDAT	dies	_	O	O	
+11-7	Zwecke	NN	Zweck	_	O	O	
+11-8	an	APPR	an	_	O	O	
+11-9	mich	PRF	ich	_	O	O	
+11-10	gewendet	VVPP	wenden	_	O	O	
+11-11	.	$.	.	_	O	O	
+
+#id=12
+#text=Könnten Sie mir vielleicht die Adresse der beiden Bildhauer mittheilen, die mit der Lei-
+12-1	Könnten	VMFIN	können	_	O	O	
+12-2	Sie	PPER	Sie	_	O	O	
+12-3	mir	PRF	ich	_	O	O	
+12-4	vielleicht	ADV	vielleicht	_	O	O	
+12-5	die	ART	die	_	O	O	
+12-6	Adresse	NN	Adresse	_	O	O	
+12-7	der	ART	die	_	O	O	
+12-8	beiden	PIAT	beide	_	O	O	
+12-9	Bildhauer	NN	Bildhauer	_	O	O	
+12-10	mittheilen	VVINF	<unknown>	_	O	O	
+12-11	,	$,	,	_	O	O	
+12-12	die	PRELS	die	_	O	O	
+12-13	mit	APPR	mit	_	O	O	
+12-14	der	ART	die	_	O	O	
+12-15	Lei-	TRUNC	Lei-	_	O	O	
+

@@ -1,0 +1,164 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=5 Gerhard an Braun Florenz, 25. März 1846 Meine Frau grüßt bestens.
+1-1	5	CARD	5	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-12	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-13	grüßt	VVFIN	grüßen	_	O	O	
+1-14	bestens	ADV	bestens	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=Fragen Sie doch Domenico ob Wahle unsre Geldsendung sicher erhielt.
+2-1	Fragen	VVFIN	fragen	_	O	O	
+2-2	Sie	PPER	Sie	_	O	O	
+2-3	doch	ADV	doch	_	O	O	
+2-4	Domenico	NE	Domenico	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-5	ob	APPR	ob	_	O	O	
+2-6	Wahle	NN	<unknown>	_	O	O	
+2-7	unsre	PPOSAT	unsre	_	O	O	
+2-8	Geldsendung	NN	Geldsendung	_	O	O	
+2-9	sicher	ADJD	sicher	_	O	O	
+2-10	erhielt	VVFIN	erhalten	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Thr Gerhard Threr lieben Frau und gemeinsamen Freunden viel Herzliches.
+3-1	Thr	NN	<unknown>	_	O	O	
+3-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	Threr	NN	<unknown>	_	O	O	
+3-4	lieben	ADJA	lieb	_	O	O	
+3-5	Frau	NN	Frau	_	O	O	
+3-6	und	KON	und	_	O	O	
+3-7	gemeinsamen	ADJA	gemeinsam	_	O	O	
+3-8	Freunden	NN	Freund	_	O	O	
+3-9	viel	PIAT	viele	_	O	O	
+3-10	Herzliches	NN	Herzliche	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=Daß ich nur Oggeti d'arte e libri nach Berlin senden will, werden Sie bei Verpackung meiner Kiste berücksichtigen.
+4-1	Daß	KOUS	dass	_	O	O	
+4-2	ich	PPER	ich	_	O	O	
+4-3	nur	ADV	nur	_	O	O	
+4-4	Oggeti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	d'arte	NN	<unknown>	_	O	O	
+4-6	e	ADJA	<unknown>	_	O	O	
+4-7	libri	NN	<unknown>	_	O	O	
+4-8	nach	APPR	nach	_	O	O	
+4-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-10	senden	VVINF	senden	_	O	O	
+4-11	will	VMFIN	wollen	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	werden	VAFIN	werden	_	O	O	
+4-14	Sie	PPER	Sie	_	O	O	
+4-15	bei	APPR	bei	_	O	O	
+4-16	Verpackung	NN	Verpackung	_	O	O	
+4-17	meiner	PPOSAT	mein	_	O	O	
+4-18	Kiste	NN	Kiste	_	O	O	
+4-19	berücksichtigen	VVINF	berücksichtigen	_	O	O	
+4-20	.	$.	.	_	O	O	
+
+#id=5
+#text=Quer am Rande dazu : Die Quittungen von Vescovali bitte nicht zu vergessen.
+5-1	Quer	ADJD	quer	_	O	O	
+5-2	am	APPRART	an	_	O	O	
+5-3	Rande	NN	Rand	_	O	O	
+5-4	dazu	PAV	dazu	_	O	O	
+5-5	:	$.	:	_	O	O	
+5-6	Die	ART	die	_	O	O	
+5-7	Quittungen	NN	Quittung	_	O	O	
+5-8	von	APPR	von	_	O	O	
+5-9	Vescovali	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-10	bitte	ADV	bitte	_	O	O	
+5-11	nicht	PTKNEG	nicht	_	O	O	
+5-12	zu	PTKZU	zu	_	O	O	
+5-13	vergessen	VVINF	vergessen	_	O	O	
+5-14	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Franzosen drucken also 1847, und es wird nun wol nur Luyness Rechnung sich anders stellen, auch wenn er zahlt.
+6-1	Die	ART	die	_	O	O	
+6-2	Franzosen	NN	Franzose	_	O	O	
+6-3	drucken	VVFIN	drucken	_	O	O	
+6-4	also	ADV	also	_	O	O	
+6-5	1847	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-6	,	$,	,	_	O	O	
+6-7	und	KON	und	_	O	O	
+6-8	es	PPER	es	_	O	O	
+6-9	wird	VAFIN	werden	_	O	O	
+6-10	nun	ADV	nun	_	O	O	
+6-11	wol	ADJD	<unknown>	_	O	O	
+6-12	nur	ADV	nur	_	O	O	
+6-13	Luyness	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-14	Rechnung	NN	Rechnung	_	O	O	
+6-15	sich	PRF	sich	_	O	O	
+6-16	anders	ADV	anders	_	O	O	
+6-17	stellen	VVINF	stellen	_	O	O	
+6-18	,	$,	,	_	O	O	
+6-19	auch	ADV	auch	_	O	O	
+6-20	wenn	KOUS	wenn	_	O	O	
+6-21	er	PPER	er	_	O	O	
+6-22	zahlt	VVFIN	zahlen	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Wie denn?
+7-1	Wie	KOKOM	wie	_	O	O	
+7-2	denn	ADV	denn	_	O	O	
+7-3	?	$.	?	_	O	O	
+
+#id=8
+#text=Ob er zahlt habe ich De Witte gefragt dem Sie nun doch wol endlich einmal schreiben, meinem Wunsch nach möglichst verbindlich.
+8-1	Ob	KOUS	ob	_	O	O	
+8-2	er	PPER	er	_	O	O	
+8-3	zahlt	VVFIN	zahlen	_	O	O	
+8-4	habe	VAFIN	haben	_	O	O	
+8-5	ich	PPER	ich	_	O	O	
+8-6	De	NE	De	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-7	Witte	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-8	gefragt	VVPP	fragen	_	O	O	
+8-9	dem	PRELS	die	_	O	O	
+8-10	Sie	PPER	Sie	_	O	O	
+8-11	nun	ADV	nun	_	O	O	
+8-12	doch	ADV	doch	_	O	O	
+8-13	wol	ADJD	<unknown>	_	O	O	
+8-14	endlich	ADV	endlich	_	O	O	
+8-15	einmal	ADV	einmal	_	O	O	
+8-16	schreiben	VVINF	schreiben	_	O	O	
+8-17	,	$,	,	_	O	O	
+8-18	meinem	PPOSAT	mein	_	O	O	
+8-19	Wunsch	NN	Wunsch	_	O	O	
+8-20	nach	APPR	nach	_	O	O	
+8-21	möglichst	ADV	möglichst	_	O	O	
+8-22	verbindlich	ADJD	verbindlich	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=Wir bedürfen seiner.
+9-1	Wir	PPER	wir	_	O	O	
+9-2	bedürfen	VVFIN	bedürfen	_	O	O	
+9-3	seiner	PPOSAT	sein	_	O	O	
+9-4	.	$.	.	_	O	O	
+
+#id=10
+#text=Der Beischluß an Lanci erfolgt unter Henzen's Kuvert.
+10-1	Der	ART	die	_	O	O	
+10-2	Beischluß	NN	<unknown>	_	O	O	
+10-3	an	APPR	an	_	O	O	
+10-4	Lanci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-5	erfolgt	VVFIN	erfolgen	_	O	O	
+10-6	unter	APPR	unter	_	O	O	
+10-7	Henzen's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-8	Kuvert	NN	Kuvert	_	O	O	
+10-9	.	$.	.	_	O	O	
+

@@ -1,0 +1,242 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=308 Helbig an Renzen Zürich, 19. August 1870 3 zeichnet haben, dürfen wir es mit dem Manne nicht verderben.
+1-1	308	CARD	@card@	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	3	CARD	3	_	O	O	
+1-12	zeichnet	VVFIN	zeichnen	_	O	O	
+1-13	haben	VAINF	haben	_	O	O	
+1-14	,	$,	,	_	O	O	
+1-15	dürfen	VMFIN	dürfen	_	O	O	
+1-16	wir	PPER	wir	_	O	O	
+1-17	es	PPER	es	_	O	O	
+1-18	mit	APPR	mit	_	O	O	
+1-19	dem	ART	die	_	O	O	
+1-20	Manne	NN	Mann	_	O	O	
+1-21	nicht	PTKNEG	nicht	_	O	O	
+1-22	verderben	VVINF	verderben	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Seine Bronzen habe ich nachträglich noch zum größten Theile an die Östreicher verkauft.
+2-1	Seine	PPOSAT	sein	_	O	O	
+2-2	Bronzen	NN	Bronze	_	B-webanno.custom.LetterEntity_	B-OBJ	
+2-3	habe	VAFIN	haben	_	O	O	
+2-4	ich	PPER	ich	_	O	O	
+2-5	nachträglich	ADJD	nachträglich	_	O	O	
+2-6	noch	ADV	noch	_	O	O	
+2-7	zum	APPRART	zu	_	O	O	
+2-8	größten	ADJA	groß	_	O	O	
+2-9	Theile	NE	Theile	_	O	O	
+2-10	an	APPR	an	_	O	O	
+2-11	die	ART	die	_	O	O	
+2-12	Östreicher	NN	<unknown>	_	O	O	
+2-13	verkauft	VVPP	verkaufen	_	O	O	
+2-14	.	$.	.	_	O	O	
+
+#id=3
+#text=Exemplare der Estratti meiner Cornetana hatte ich dem Courier zur Beförderung an Lepsius und Curtius hinterlassen.
+3-1	Exemplare	NN	Exemplar	_	O	O	
+3-2	der	ART	die	_	O	O	
+3-3	Estratti	NN	<unknown>	_	O	O	
+3-4	meiner	PPOSAT	mein	_	O	O	
+3-5	Cornetana	NE	<unknown>	_	O	O	
+3-6	hatte	VAFIN	haben	_	O	O	
+3-7	ich	PPER	ich	_	O	O	
+3-8	dem	ART	die	_	O	O	
+3-9	Courier	NN	<unknown>	_	O	O	
+3-10	zur	APPRART	zu	_	O	O	
+3-11	Beförderung	NN	Beförderung	_	O	O	
+3-12	an	APPR	an	_	O	O	
+3-13	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-14	und	KON	und	_	O	O	
+3-15	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-16	hinterlassen	VVINF	hinterlassen	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Wenn dieselben eingetroffen sind, wäre es mir lieb, wenn Sie einmal in Berlin sondirten, was man zu der Neuerung der lithographischen Tafeln meint und ob man e d~elben gelungen findet.
+4-1	Wenn	KOUS	wenn	_	O	O	
+4-2	dieselben	PDS	dieselbe	_	O	O	
+4-3	eingetroffen	VVPP	eintreffen	_	O	O	
+4-4	sind	VAFIN	sein	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	wäre	VAFIN	sein	_	O	O	
+4-7	es	PPER	es	_	O	O	
+4-8	mir	PRF	ich	_	O	O	
+4-9	lieb	ADJD	lieb	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	wenn	KOUS	wenn	_	O	O	
+4-12	Sie	PPER	Sie	_	O	O	
+4-13	einmal	ADV	einmal	_	O	O	
+4-14	in	APPR	in	_	O	O	
+4-15	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-16	sondirten	NN	<unknown>	_	O	O	
+4-17	,	$,	,	_	O	O	
+4-18	was	PRELS	was	_	O	O	
+4-19	man	PIS	man	_	O	O	
+4-20	zu	APPR	zu	_	O	O	
+4-21	der	ART	die	_	O	O	
+4-22	Neuerung	NN	Neuerung	_	O	O	
+4-23	der	ART	die	_	O	O	
+4-24	lithographischen	ADJA	<unknown>	_	O	O	
+4-25	Tafeln	NN	Tafel	_	O	O	
+4-26	meint	VVFIN	meinen	_	O	O	
+4-27	und	KON	und	_	O	O	
+4-28	ob	KOUS	ob	_	O	O	
+4-29	man	PIS	man	_	O	O	
+4-30	e	ADJA	<unknown>	_	O	O	
+4-31	d~elben	NN	<unknown>	_	O	O	
+4-32	gelungen	VVPP	gelingen	_	O	O	
+4-33	findet	VVFIN	finden	_	O	O	
+4-34	.	$.	.	_	O	O	
+
+#id=5
+#text=Bei der nervösen Athmosphäre, wie sie in der Metropole der Intelligenz herrscht, ist es immer gut, zu wissen, wie sich die Leute zum Gange der .. Dinge im Allgemeinen und namentlich gegenüber Neuerungen verhalten.
+5-1	Bei	APPR	bei	_	O	O	
+5-2	der	ART	die	_	O	O	
+5-3	nervösen	ADJA	nervös	_	O	O	
+5-4	Athmosphäre	NN	<unknown>	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	wie	KOUS	wie	_	O	O	
+5-7	sie	PPER	sie	_	O	O	
+5-8	in	APPR	in	_	O	O	
+5-9	der	ART	die	_	O	O	
+5-10	Metropole	NN	Metropole	_	O	O	
+5-11	der	ART	die	_	O	O	
+5-12	Intelligenz	NN	Intelligenz	_	O	O	
+5-13	herrscht	VVFIN	herrschen	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	ist	VAFIN	sein	_	O	O	
+5-16	es	PPER	es	_	O	O	
+5-17	immer	ADV	immer	_	O	O	
+5-18	gut	ADJD	gut	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	zu	PTKZU	zu	_	O	O	
+5-21	wissen	VVINF	wissen	_	O	O	
+5-22	,	$,	,	_	O	O	
+5-23	wie	KOUS	wie	_	O	O	
+5-24	sich	PRF	sich	_	O	O	
+5-25	die	ART	die	_	O	O	
+5-26	Leute	NN	Leute	_	O	O	
+5-27	zum	APPRART	zu	_	O	O	
+5-28	Gange	NN	Gang	_	O	O	
+5-29	der	ART	die	_	O	O	
+5-30	.	$.	.	_	O	O	
+5-31	.	$.	.	_	O	O	
+5-32	Dinge	NN	Ding	_	O	O	
+5-33	im	APPRART	in	_	O	O	
+5-34	Allgemeinen	ADJA	allgemein	_	O	O	
+5-35	und	KON	und	_	O	O	
+5-36	namentlich	ADJD	namentlich	_	O	O	
+5-37	gegenüber	APPR	gegenüber	_	O	O	
+5-38	Neuerungen	NN	Neuerung	_	O	O	
+5-39	verhalten	VVPP	verhalten	_	O	O	
+5-40	.	$.	.	_	O	O	
+
+#id=6
+#text=Da die Niederkunft meiner Frau um den 9. August nicht eingetreten ist, wird sie nunmehr wohl Anfang September Statt finden.
+6-1	Da	KOUS	da	_	O	O	
+6-2	die	ART	die	_	O	O	
+6-3	Niederkunft	NN	Niederkunft	_	O	O	
+6-4	meiner	PPOSAT	mein	_	O	O	
+6-5	Frau	NN	Frau	_	O	O	
+6-6	um	APPR	um	_	O	O	
+6-7	den	ART	die	_	O	O	
+6-8	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-10	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-11	nicht	PTKNEG	nicht	_	O	O	
+6-12	eingetreten	VVPP	eintreten	_	O	O	
+6-13	ist	VAFIN	sein	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	wird	VAFIN	werden	_	O	O	
+6-16	sie	PPER	sie	_	O	O	
+6-17	nunmehr	ADV	nunmehr	_	O	O	
+6-18	wohl	ADV	wohl	_	O	O	
+6-19	Anfang	NN	Anfang	_	O	O	
+6-20	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-21	Statt	NN	Statt	_	O	O	
+6-22	finden	VVINF	finden	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich schreibe Ihnen sofort, wie es gegangen.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	schreibe	VVFIN	schreiben	_	O	O	
+7-3	Ihnen	PPER	Sie	_	O	O	
+7-4	sofort	ADV	sofort	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	wie	KOUS	wie	_	O	O	
+7-7	es	PPER	es	_	O	O	
+7-8	gegangen	VVPP	gehen	_	O	O	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=Beiliegende Zeilen bitte ich-an Lepsius gelangen zu lassen, sie ihm, sollte er Berlin schon verlassen haben, nachzuschicken.
+8-1	Beiliegende	ADJA	beiliegend	_	O	O	
+8-2	Zeilen	NN	Zeile	_	O	O	
+8-3	bitte	VVFIN	bitten	_	O	O	
+8-4	ich-an	NE	<unknown>	_	O	O	
+8-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	gelangen	VVINF	gelangen	_	O	O	
+8-7	zu	PTKZU	zu	_	O	O	
+8-8	lassen	VVINF	lassen	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	sie	PPER	sie	_	O	O	
+8-11	ihm	PPER	er	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	sollte	VMFIN	sollen	_	O	O	
+8-14	er	PPER	er	_	O	O	
+8-15	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-16	schon	ADV	schon	_	O	O	
+8-17	verlassen	VVPP	verlassen	_	O	O	
+8-18	haben	VAINF	haben	_	O	O	
+8-19	,	$,	,	_	O	O	
+8-20	nachzuschicken	VVIZU	nachschicken	_	O	O	
+8-21	.	$.	.	_	O	O	
+
+#id=9
+#text=Dieser Tag erhielt ich auch einen Brief von Lübke - doch ohne Nachricht von Fräulein Kopf.
+9-1	Dieser	PDAT	dies	_	O	O	
+9-2	Tag	NN	Tag	_	O	O	
+9-3	erhielt	VVFIN	erhalten	_	O	O	
+9-4	ich	PPER	ich	_	O	O	
+9-5	auch	ADV	auch	_	O	O	
+9-6	einen	ART	eine	_	O	O	
+9-7	Brief	NN	Brief	_	O	O	
+9-8	von	APPR	von	_	O	O	
+9-9	Lübke	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-10	-	$(	-	_	O	O	
+9-11	doch	ADV	doch	_	O	O	
+9-12	ohne	APPR	ohne	_	O	O	
+9-13	Nachricht	NN	Nachricht	_	O	O	
+9-14	von	APPR	von	_	O	O	
+9-15	Fräulein	NN	Fräulein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-16	Kopf	NN	Kopf	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-17	.	$.	.	_	O	O	
+
+#id=10
+#text=Meine Frau grüßt vielmals.
+10-1	Meine	PPOSAT	mein	_	O	O	
+10-2	Frau	NN	Frau	_	O	O	
+10-3	grüßt	VVFIN	grüßen	_	O	O	
+10-4	vielmals	ADV	vielmals	_	O	O	
+10-5	.	$.	.	_	O	O	
+
+#id=11
+#text=Mit herzlichen Grüßen Ihr Relbig
+11-1	Mit	APPR	mit	_	O	O	
+11-2	herzlichen	ADJA	herzlich	_	O	O	
+11-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+11-4	Ihr	PPOSAT	ihr	_	O	O	
+11-5	Relbig	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

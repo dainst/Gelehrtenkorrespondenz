@@ -1,0 +1,103 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=424 Verehrter Freund Lepsius an Henzen Berlin, 24. Juli 1874 g. 10/9 74 Berlin, den 24. Juli 1874 Da allerlei Zweifel über die Namen und Titel der von Ihnen vorgeschlagenen Kreaturen vorhanden sind, so halte ich es für das Beste Ihnen die Diplome in Bleistift zu übersenden.
+1-1	424	CARD	@card@	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	10/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-17	,	$,	,	_	O	O	
+1-18	den	ART	die	_	O	O	
+1-19	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	Da	ADV	da	_	O	O	
+1-24	allerlei	PIAT	allerlei	_	O	O	
+1-25	Zweifel	NN	Zweifel	_	O	O	
+1-26	über	APPR	über	_	O	O	
+1-27	die	ART	die	_	O	O	
+1-28	Namen	NN	Name	_	O	O	
+1-29	und	KON	und	_	O	O	
+1-30	Titel	NN	Titel	_	O	O	
+1-31	der	ART	die	_	O	O	
+1-32	von	APPR	von	_	O	O	
+1-33	Ihnen	PPER	Sie	_	O	O	
+1-34	vorgeschlagenen	ADJA	vorgeschlagen	_	O	O	
+1-35	Kreaturen	NN	Kreatur	_	O	O	
+1-36	vorhanden	ADJD	vorhanden	_	O	O	
+1-37	sind	VAFIN	sein	_	O	O	
+1-38	,	$,	,	_	O	O	
+1-39	so	ADV	so	_	O	O	
+1-40	halte	VVFIN	halten	_	O	O	
+1-41	ich	PPER	ich	_	O	O	
+1-42	es	PPER	es	_	O	O	
+1-43	für	APPR	für	_	O	O	
+1-44	das	ART	die	_	O	O	
+1-45	Beste	NN	Beste	_	O	O	
+1-46	Ihnen	PPER	Sie	_	O	O	
+1-47	die	ART	die	_	O	O	
+1-48	Diplome	NN	Diplom	_	O	O	
+1-49	in	APPR	in	_	O	O	
+1-50	Bleistift	NN	Bleistift	_	O	O	
+1-51	zu	PTKZU	zu	_	O	O	
+1-52	übersenden	VVINF	übersenden	_	O	O	
+1-53	.	$.	.	_	O	O	
+
+#id=2
+#text=Sie haben ohne Zweifel jemand, der die Sachen einigermaaßen kanzleimäßig in Tinte ausführt.
+2-1	Sie	PPER	Sie	_	O	O	
+2-2	haben	VAFIN	haben	_	O	O	
+2-3	ohne	APPR	ohne	_	O	O	
+2-4	Zweifel	NN	Zweifel	_	O	O	
+2-5	jemand	PIS	jemand	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	der	PRELS	die	_	O	O	
+2-8	die	ART	die	_	O	O	
+2-9	Sachen	NN	Sache	_	O	O	
+2-10	einigermaaßen	VVFIN	<unknown>	_	O	O	
+2-11	kanzleimäßig	ADJD	<unknown>	_	O	O	
+2-12	in	APPR	in	_	O	O	
+2-13	Tinte	NN	Tinte	_	O	O	
+2-14	ausführt	VVFIN	ausführen	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Auch bitte ich Ihren Namen überall mit unterzusetzen, bis auf Imhoff, der von Helbig vorgeschlagen ist.
+3-1	Auch	ADV	auch	_	O	O	
+3-2	bitte	VVFIN	bitten	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	Ihren	PPOSAT	ihr	_	O	O	
+3-5	Namen	NN	Name	_	O	O	
+3-6	überall	ADV	überall	_	O	O	
+3-7	mit	APPR	mit	_	O	O	
+3-8	unterzusetzen	ADJA	<unknown>	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	bis	KON	bis	_	O	O	
+3-11	auf	APPR	auf	_	O	O	
+3-12	Imhoff	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-13	,	$,	,	_	O	O	
+3-14	der	PRELS	die	_	O	O	
+3-15	von	APPR	von	_	O	O	
+3-16	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-17	vorgeschlagen	VVPP	vorschlagen	_	O	O	
+3-18	ist	VAFIN	sein	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Ihr R Lepsius
+4-1	Ihr	PPOSAT	ihr	_	O	O	
+4-2	R	NN	R	_	O	O	
+4-3	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

@@ -1,0 +1,220 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=16 N. 6 Verehrter Freund Lepsius an Henzen Berlin, 8. Januar 1876 g. 11/76 r.
+1-1	16	CARD	16	_	O	O	
+1-2	N.	APPR	n.	_	O	O	
+1-3	6	CARD	6	_	O	O	
+1-4	Verehrter	NN	Verehrte	_	O	O	
+1-5	Freund	NE	Freund	_	O	O	
+1-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	11/76	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=15/76 Berlin, den 8. Jan.
+2-1	15/76	CARD	@card@	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-3	,	$,	,	_	O	O	
+2-4	den	ART	die	_	O	O	
+2-5	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-7	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=3
+#text=1876 Den Etat betreffend, wird es dieses Jahr wohl nicht nöthig sein, wieder ein Blatt drucken zu lassen, da sich eben nichts ändert an (sic !)
+3-1	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-2	Den	ART	die	_	O	O	
+3-3	Etat	NN	Etat	_	O	O	
+3-4	betreffend	ADJD	betreffend	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	wird	VAFIN	werden	_	O	O	
+3-7	es	PPER	es	_	O	O	
+3-8	dieses	PDAT	dies	_	O	O	
+3-9	Jahr	NN	Jahr	_	O	O	
+3-10	wohl	ADV	wohl	_	O	O	
+3-11	nicht	PTKNEG	nicht	_	O	O	
+3-12	nöthig	ADJD	<unknown>	_	O	O	
+3-13	sein	VAINF	sein	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	wieder	ADV	wieder	_	O	O	
+3-16	ein	ART	eine	_	O	O	
+3-17	Blatt	NN	Blatt	_	O	O	
+3-18	drucken	VVINF	drucken	_	O	O	
+3-19	zu	PTKZU	zu	_	O	O	
+3-20	lassen	VVINF	lassen	_	O	O	
+3-21	,	$,	,	_	O	O	
+3-22	da	KOUS	da	_	O	O	
+3-23	sich	PRF	sich	_	O	O	
+3-24	eben	ADV	eben	_	O	O	
+3-25	nichts	PIS	nichts	_	O	O	
+3-26	ändert	VVFIN	ändern	_	O	O	
+3-27	an	APPR	an	_	O	O	
+3-28	(	$(	(	_	O	O	
+3-29	sic	NE	<unknown>	_	O	O	
+3-30	!	$.	!	_	O	O	
+3-31	)	$(	)	_	O	O	
+
+#id=4
+#text=,mit Ausnahme allerdings Ihrer Gehalte, über die Ihnen ja eine vorläufige Nachricht bereits zugegangen ist.
+4-1	,mit	NN	<unknown>	_	O	O	
+4-2	Ausnahme	NN	Ausnahme	_	O	O	
+4-3	allerdings	ADV	allerdings	_	O	O	
+4-4	Ihrer	PPOSAT	ihr	_	O	O	
+4-5	Gehalte	NN	Gehalt	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	über	APPR	über	_	O	O	
+4-8	die	PRELS	die	_	O	O	
+4-9	Ihnen	PPER	Sie	_	O	O	
+4-10	ja	ADV	ja	_	O	O	
+4-11	eine	ART	eine	_	O	O	
+4-12	vorläufige	ADJA	vorläufig	_	O	O	
+4-13	Nachricht	NN	Nachricht	_	O	O	
+4-14	bereits	ADV	bereits	_	O	O	
+4-15	zugegangen	VVPP	zugehen	_	O	O	
+4-16	ist	VAFIN	sein	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich meinte Sie wollten von dem Publikationsfonds sprechen, deren Erhöhung uns abgeschlagen worden ist.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	meinte	VVFIN	meinen	_	O	O	
+5-3	Sie	PPER	Sie	_	O	O	
+5-4	wollten	VMFIN	wollen	_	O	O	
+5-5	von	APPR	von	_	O	O	
+5-6	dem	ART	die	_	O	O	
+5-7	Publikationsfonds	NN	<unknown>	_	O	O	
+5-8	sprechen	VVINF	sprechen	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	deren	PRELAT	die	_	O	O	
+5-11	Erhöhung	NN	Erhöhung	_	O	O	
+5-12	uns	PPER	wir	_	O	O	
+5-13	abgeschlagen	VVPP	abschlagen	_	O	O	
+5-14	worden	VAPP	werden	_	O	O	
+5-15	ist	VAFIN	sein	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Über die Gehalte die mit dem ganzen Etat, wie Sie aus den Zeitungen wissen werden, vom Reichstage bewilligt worden sind, das Ihrige zu 7 500 M., das von Helbig zu 5 400, ist mir allerdings noch keine amtliche Mittheilung zugegangen, weil das Budget erst noch vom Kaiser zu genehmigen war; doch habe ich vor einigen Tagen ein Schreiben an das Auswärtige Amt gerichtet, worin ich um Ermächtigung gebeten habe, Ihnen schon jetzt die Erhöhungen aus der Legationskasse auszahlen zu lassen.
+6-1	Über	APPR	über	_	O	O	
+6-2	die	ART	die	_	O	O	
+6-3	Gehalte	NN	Gehalt	_	O	O	
+6-4	die	ART	die	_	O	O	
+6-5	mit	APPR	mit	_	O	O	
+6-6	dem	ART	die	_	O	O	
+6-7	ganzen	ADJA	ganz	_	O	O	
+6-8	Etat	NN	Etat	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	wie	KOUS	wie	_	O	O	
+6-11	Sie	PPER	Sie	_	O	O	
+6-12	aus	APPR	aus	_	O	O	
+6-13	den	ART	die	_	O	O	
+6-14	Zeitungen	NN	Zeitung	_	O	O	
+6-15	wissen	VVINF	wissen	_	O	O	
+6-16	werden	VAFIN	werden	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	vom	APPRART	von	_	O	O	
+6-19	Reichstage	NN	Reichstag	_	O	O	
+6-20	bewilligt	VVPP	bewilligen	_	O	O	
+6-21	worden	VAPP	werden	_	O	O	
+6-22	sind	VAFIN	sein	_	O	O	
+6-23	,	$,	,	_	O	O	
+6-24	das	PRELS	die	_	O	O	
+6-25	Ihrige	PPOSAT	ihrige	_	O	O	
+6-26	zu	APPR	zu	_	O	O	
+6-27	7	CARD	7	_	O	O	
+6-28	500	CARD	500	_	O	O	
+6-29	M.	NE	M.	_	O	O	
+6-30	,	$,	,	_	O	O	
+6-31	das	PRELS	die	_	O	O	
+6-32	von	APPR	von	_	O	O	
+6-33	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-34	zu	APPR	zu	_	O	O	
+6-35	5	CARD	5	_	O	O	
+6-36	400	CARD	400	_	O	O	
+6-37	,	$,	,	_	O	O	
+6-38	ist	VAFIN	sein	_	O	O	
+6-39	mir	PPER	ich	_	O	O	
+6-40	allerdings	ADV	allerdings	_	O	O	
+6-41	noch	ADV	noch	_	O	O	
+6-42	keine	PIAT	keine	_	O	O	
+6-43	amtliche	ADJA	amtlich	_	O	O	
+6-44	Mittheilung	NN	<unknown>	_	O	O	
+6-45	zugegangen	VVPP	zugehen	_	O	O	
+6-46	,	$,	,	_	O	O	
+6-47	weil	KOUS	weil	_	O	O	
+6-48	das	ART	die	_	O	O	
+6-49	Budget	NN	Budget	_	O	O	
+6-50	erst	ADV	erst	_	O	O	
+6-51	noch	ADV	noch	_	O	O	
+6-52	vom	APPRART	von	_	O	O	
+6-53	Kaiser	NN	Kaiser	_	O	O	
+6-54	zu	PTKZU	zu	_	O	O	
+6-55	genehmigen	VVINF	genehmigen	_	O	O	
+6-56	war	VAFIN	sein	_	O	O	
+6-57	;	$.	;	_	O	O	
+6-58	doch	ADV	doch	_	O	O	
+6-59	habe	VAFIN	haben	_	O	O	
+6-60	ich	PPER	ich	_	O	O	
+6-61	vor	APPR	vor	_	O	O	
+6-62	einigen	PIAT	einige	_	O	O	
+6-63	Tagen	NN	Tag	_	O	O	
+6-64	ein	ART	eine	_	O	O	
+6-65	Schreiben	NN	Schreiben	_	O	O	
+6-66	an	APPR	an	_	O	O	
+6-67	das	ART	die	_	O	O	
+6-68	Auswärtige	ADJA	auswärtig	_	O	O	
+6-69	Amt	NN	Amt	_	O	O	
+6-70	gerichtet	VVPP	richten	_	O	O	
+6-71	,	$,	,	_	O	O	
+6-72	worin	PWAV	worin	_	O	O	
+6-73	ich	PPER	ich	_	O	O	
+6-74	um	APPR	um	_	O	O	
+6-75	Ermächtigung	NN	Ermächtigung	_	O	O	
+6-76	gebeten	VVPP	bitten	_	O	O	
+6-77	habe	VAFIN	haben	_	O	O	
+6-78	,	$,	,	_	O	O	
+6-79	Ihnen	PPER	Sie	_	O	O	
+6-80	schon	ADV	schon	_	O	O	
+6-81	jetzt	ADV	jetzt	_	O	O	
+6-82	die	ART	die	_	O	O	
+6-83	Erhöhungen	NN	Erhöhung	_	O	O	
+6-84	aus	APPR	aus	_	O	O	
+6-85	der	ART	die	_	O	O	
+6-86	Legationskasse	NN	<unknown>	_	O	O	
+6-87	auszahlen	VVINF	auszahlen	_	O	O	
+6-88	zu	PTKZU	zu	_	O	O	
+6-89	lassen	VVINF	lassen	_	O	O	
+6-90	.	$.	.	_	O	O	
+
+#id=7
+#text=Sobald Antwort eingeht, werde ich es Ihnen mittheilen.
+7-1	Sobald	KOUS	sobald	_	O	O	
+7-2	Antwort	NN	Antwort	_	O	O	
+7-3	eingeht	VVFIN	eingehen	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	werde	VAFIN	werden	_	O	O	
+7-6	ich	PPER	ich	_	O	O	
+7-7	es	PPER	es	_	O	O	
+7-8	Ihnen	PPER	Sie	_	O	O	
+7-9	mittheilen	VVINF	<unknown>	_	O	O	
+7-10	.	$.	.	_	O	O	
+
+#id=8
+#text=Mit herzlichem Gruß Ihr ergebenster R Lepsius
+8-1	Mit	APPR	mit	_	O	O	
+8-2	herzlichem	ADJA	herzlich	_	O	O	
+8-3	Gruß	NN	Gruß	_	O	O	
+8-4	Ihr	PPOSAT	ihr	_	O	O	
+8-5	ergebenster	ADJA	<unknown>	_	O	O	
+8-6	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+8-7	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

@@ -1,0 +1,222 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=564 Verehrter Freund Lepsius an Henzen Berlin, 1, November 1874 g. 6/XI 74 r. 9/XI Berlin, den 1, Nov.
+1-1	564	CARD	@card@	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	,	$,	,	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	ADJA	<unknown>	_	O	O	
+1-14	6/XI	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+1-17	9/XI	NN	<unknown>	_	O	O	
+1-18	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-19	,	$,	,	_	O	O	
+1-20	den	ART	die	_	O	O	
+1-21	1	CARD	1	_	O	O	
+1-22	,	$,	,	_	O	O	
+1-23	Nov.	NN	<unknown>	_	O	O	
+
+#id=2
+#text=1874 Wir haben in der gestrigen Sitzung beschlossen eine besondere Eingabe wegen Ihrer Pensionsangelegenheit zu machen und bitten Sie nun, uns die genauen Daten in Bezug auf Ihren Eintritt und Anstellungstermin am Institut zu geben um danach ermessen zu können, wie weit wir etwa beantragen können, die Pensionswohnung zurückzunehmen, im Vergleich zu dem, was unter allen Umständen nach dem Reichspensionsgesetze gewährt werden müßte.
+2-1	1874	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-2	Wir	PPER	wir	_	O	O	
+2-3	haben	VAFIN	haben	_	O	O	
+2-4	in	APPR	in	_	O	O	
+2-5	der	ART	die	_	O	O	
+2-6	gestrigen	ADJA	gestrig	_	O	O	
+2-7	Sitzung	NN	Sitzung	_	O	O	
+2-8	beschlossen	VVFIN	beschließen	_	O	O	
+2-9	eine	ART	eine	_	O	O	
+2-10	besondere	ADJA	besonder	_	O	O	
+2-11	Eingabe	NN	Eingabe	_	O	O	
+2-12	wegen	APPR	wegen	_	O	O	
+2-13	Ihrer	PPOSAT	ihr	_	O	O	
+2-14	Pensionsangelegenheit	NN	<unknown>	_	O	O	
+2-15	zu	PTKZU	zu	_	O	O	
+2-16	machen	VVINF	machen	_	O	O	
+2-17	und	KON	und	_	O	O	
+2-18	bitten	VVFIN	bitten	_	O	O	
+2-19	Sie	PPER	Sie	_	O	O	
+2-20	nun	ADV	nun	_	O	O	
+2-21	,	$,	,	_	O	O	
+2-22	uns	PRF	wir	_	O	O	
+2-23	die	ART	die	_	O	O	
+2-24	genauen	ADJA	genau	_	O	O	
+2-25	Daten	NN	Datum	_	O	O	
+2-26	in	APPR	in	_	O	O	
+2-27	Bezug	NN	Bezug	_	O	O	
+2-28	auf	APPR	auf	_	O	O	
+2-29	Ihren	PPOSAT	ihr	_	O	O	
+2-30	Eintritt	NN	Eintritt	_	O	O	
+2-31	und	KON	und	_	O	O	
+2-32	Anstellungstermin	NN	<unknown>	_	O	O	
+2-33	am	APPRART	an	_	O	O	
+2-34	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-35	zu	PTKZU	zu	_	O	O	
+2-36	geben	VVINF	geben	_	O	O	
+2-37	um	APPR	um	_	O	O	
+2-38	danach	PAV	danach	_	O	O	
+2-39	ermessen	VVINF	ermessen	_	O	O	
+2-40	zu	PTKZU	zu	_	O	O	
+2-41	können	VMINF	können	_	O	O	
+2-42	,	$,	,	_	O	O	
+2-43	wie	KOKOM	wie	_	O	O	
+2-44	weit	ADJD	weit	_	O	O	
+2-45	wir	PPER	wir	_	O	O	
+2-46	etwa	ADV	etwa	_	O	O	
+2-47	beantragen	VVINF	beantragen	_	O	O	
+2-48	können	VMFIN	können	_	O	O	
+2-49	,	$,	,	_	O	O	
+2-50	die	ART	die	_	O	O	
+2-51	Pensionswohnung	NN	<unknown>	_	O	O	
+2-52	zurückzunehmen	VVIZU	zurücknehmen	_	O	O	
+2-53	,	$,	,	_	O	O	
+2-54	im	APPRART	in	_	O	O	
+2-55	Vergleich	NN	Vergleich	_	O	O	
+2-56	zu	APPR	zu	_	O	O	
+2-57	dem	ART	die	_	O	O	
+2-58	,	$,	,	_	O	O	
+2-59	was	PRELS	was	_	O	O	
+2-60	unter	APPR	unter	_	O	O	
+2-61	allen	PIAT	alle	_	O	O	
+2-62	Umständen	NN	Umstand	_	O	O	
+2-63	nach	APPR	nach	_	O	O	
+2-64	dem	ART	die	_	O	O	
+2-65	Reichspensionsgesetze	NN	<unknown>	_	O	O	
+2-66	gewährt	VVPP	gewähren|währen	_	O	O	
+2-67	werden	VAINF	werden	_	O	O	
+2-68	müßte	VMFIN	müssen	_	O	O	
+2-69	.	$.	.	_	O	O	
+
+#id=3
+#text=Über Helbig's Reisebericht hat Ihnen schon Mommsen privatim geschrieben.
+3-1	Über	APPR	über	_	O	O	
+3-2	Helbig's	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	Reisebericht	NN	Reisebericht	_	O	O	
+3-4	hat	VAFIN	haben	_	O	O	
+3-5	Ihnen	PPER	Sie	_	O	O	
+3-6	schon	ADV	schon	_	O	O	
+3-7	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-8	privatim	ADJD	<unknown>	_	O	O	
+3-9	geschrieben	VVPP	schreiben	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Eine Aufforderung dazu kann von uns nicht erfolgen, da auch Lüders im Rahmen seines Bildes erscheinen würde.
+4-1	Eine	ART	eine	_	O	O	
+4-2	Aufforderung	NN	Aufforderung	_	O	O	
+4-3	dazu	PAV	dazu	_	O	O	
+4-4	kann	VMFIN	können	_	O	O	
+4-5	von	APPR	von	_	O	O	
+4-6	uns	PPER	wir	_	O	O	
+4-7	nicht	PTKNEG	nicht	_	O	O	
+4-8	erfolgen	VVINF	erfolgen	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	da	KOUS	da	_	O	O	
+4-11	auch	ADV	auch	_	O	O	
+4-12	Lüders	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-13	im	APPRART	in	_	O	O	
+4-14	Rahmen	NN	Rahmen	_	O	O	
+4-15	seines	PPOSAT	sein	_	O	O	
+4-16	Bildes	NN	Bild	_	O	O	
+4-17	erscheinen	VVINF	erscheinen	_	O	O	
+4-18	würde	VAFIN	werden	_	O	O	
+4-19	.	$.	.	_	O	O	
+
+#id=5
+#text=Will er aber sonst uns seine Erfahrungen und Ansichten über seine griechische Reise mittheilen, so würden wir, das ist meine persönliche Ansicht, ihm nur dankbar dafür sein können.
+5-1	Will	VMFIN	wollen	_	O	O	
+5-2	er	PPER	er	_	O	O	
+5-3	aber	ADV	aber	_	O	O	
+5-4	sonst	ADV	sonst	_	O	O	
+5-5	uns	PPER	wir	_	O	O	
+5-6	seine	PPOSAT	sein	_	O	O	
+5-7	Erfahrungen	NN	Erfahrung	_	O	O	
+5-8	und	KON	und	_	O	O	
+5-9	Ansichten	NN	Ansicht	_	O	O	
+5-10	über	APPR	über	_	O	O	
+5-11	seine	PPOSAT	sein	_	O	O	
+5-12	griechische	ADJA	griechisch	_	O	O	
+5-13	Reise	NN	Reise	_	O	O	
+5-14	mittheilen	VVINF	<unknown>	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	so	ADV	so	_	O	O	
+5-17	würden	VAFIN	werden	_	O	O	
+5-18	wir	PPER	wir	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	das	PDS	die	_	O	O	
+5-21	ist	VAFIN	sein	_	O	O	
+5-22	meine	PPOSAT	mein	_	O	O	
+5-23	persönliche	ADJA	persönlich	_	O	O	
+5-24	Ansicht	NN	Ansicht	_	O	O	
+5-25	,	$,	,	_	O	O	
+5-26	ihm	PPER	er	_	O	O	
+5-27	nur	ADV	nur	_	O	O	
+5-28	dankbar	ADJD	dankbar	_	O	O	
+5-29	dafür	PAV	dafür	_	O	O	
+5-30	sein	VAINF	sein	_	O	O	
+5-31	können	VMFIN	können	_	O	O	
+5-32	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich hoffe daß Sie die Winterquartiere in guter Gesundheit bezogen haben.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	hoffe	VVFIN	hoffen	_	O	O	
+6-3	daß	KOUS	dass	_	O	O	
+6-4	Sie	PPER	Sie	_	O	O	
+6-5	die	ART	die	_	O	O	
+6-6	Winterquartiere	NN	Winterquartier	_	O	O	
+6-7	in	APPR	in	_	O	O	
+6-8	guter	ADJA	gut	_	O	O	
+6-9	Gesundheit	NN	Gesundheit	_	O	O	
+6-10	bezogen	VVPP	beziehen	_	O	O	
+6-11	haben	VAINF	haben	_	O	O	
+6-12	.	$.	.	_	O	O	
+
+#id=7
+#text=Bei uns sind nach dem schönen Oktober endlich etwas unbehagliche Herbsttage gefolgt.
+7-1	Bei	APPR	bei	_	O	O	
+7-2	uns	PPER	wir	_	O	O	
+7-3	sind	VAFIN	sein	_	O	O	
+7-4	nach	APPR	nach	_	O	O	
+7-5	dem	ART	die	_	O	O	
+7-6	schönen	ADJA	schön	_	O	O	
+7-7	Oktober	NN	Oktober	_	O	O	
+7-8	endlich	ADV	endlich	_	O	O	
+7-9	etwas	PIAT	etwas	_	O	O	
+7-10	unbehagliche	ADJA	unbehaglich	_	O	O	
+7-11	Herbsttage	NN	Herbsttag	_	O	O	
+7-12	gefolgt	VVPP	folgen	_	O	O	
+7-13	.	$.	.	_	O	O	
+
+#id=8
+#text=Was haben Sie zu Lüders schnell gefundene Häuslichkeit gesagt.
+8-1	Was	PWS	was	_	O	O	
+8-2	haben	VAFIN	haben	_	O	O	
+8-3	Sie	PPER	Sie	_	O	O	
+8-4	zu	APPR	zu	_	O	O	
+8-5	Lüders	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	schnell	ADJD	schnell	_	O	O	
+8-7	gefundene	ADJA	gefunden	_	O	O	
+8-8	Häuslichkeit	NN	Häuslichkeit	_	O	O	
+8-9	gesagt	VVPP	sagen	_	O	O	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=Er bringt uns die zweite Prinzessin
+9-1	Er	PPER	er	_	O	O	
+9-2	bringt	VVFIN	bringen	_	O	O	
+9-3	uns	PPER	wir	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	zweite	ADJA	zweit	_	O	O	
+9-6	Prinzessin	NN	Prinzessin	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

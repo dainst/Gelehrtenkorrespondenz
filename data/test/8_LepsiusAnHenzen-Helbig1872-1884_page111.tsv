@@ -1,0 +1,156 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=395 Lepsius an Henzen Berlin, 13. November 1873 3 Wenn Helbig zurück ist, bitte ich ihn von mir zu grüßen.
+1-1	395	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	3	CARD	3	_	O	O	
+1-12	Wenn	KOUS	wenn	_	O	O	
+1-13	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-14	zurück	PTKVZ	zurück	_	O	O	
+1-15	ist	VAFIN	sein	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	bitte	VVFIN	bitten	_	O	O	
+1-18	ich	PPER	ich	_	O	O	
+1-19	ihn	PPER	er	_	O	O	
+1-20	von	APPR	von	_	O	O	
+1-21	mir	PPER	ich	_	O	O	
+1-22	zu	PTKZU	zu	_	O	O	
+1-23	grüßen	VVINF	grüßen	_	O	O	
+1-24	.	$.	.	_	O	O	
+
+#id=2
+#text=Seit einigen Tagen sind wir in den Winter unter Null getreten.
+2-1	Seit	APPR	seit	_	O	O	
+2-2	einigen	PIAT	einige	_	O	O	
+2-3	Tagen	NN	Tag	_	O	O	
+2-4	sind	VAFIN	sein	_	O	O	
+2-5	wir	PPER	wir	_	O	O	
+2-6	in	APPR	in	_	O	O	
+2-7	den	ART	die	_	O	O	
+2-8	Winter	NN	Winter	_	O	O	
+2-9	unter	APPR	unter	_	O	O	
+2-10	Null	CARD	null	_	O	O	
+2-11	getreten	VVPP	treten	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihr ergebenster R Lepsius In einigen Tagen werden wir über obige Sachen Sitzung haben.
+3-1	Ihr	PPOSAT	ihr	_	O	O	
+3-2	ergebenster	ADJA	<unknown>	_	O	O	
+3-3	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	In	APPR	in	_	O	O	
+3-6	einigen	PIAT	einige	_	O	O	
+3-7	Tagen	NN	Tag	_	O	O	
+3-8	werden	VAFIN	werden	_	O	O	
+3-9	wir	PPER	wir	_	O	O	
+3-10	über	APPR	über	_	O	O	
+3-11	obige	ADJA	obig	_	O	O	
+3-12	Sachen	NN	Sache	_	O	O	
+3-13	Sitzung	NN	Sitzung	_	O	O	
+3-14	haben	VAINF	haben	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Dann mehr.
+4-1	Dann	ADV	dann	_	O	O	
+4-2	mehr	ADV	mehr	_	O	O	
+4-3	.	$.	.	_	O	O	
+
+#id=5
+#text=Quer quf der ersten Seite : Daß wir dem Kronprinzen ein gebundenes Exemplar der Publikationen 1872 gesendet haben, schrieb ich wohl schon früher.
+5-1	Quer	ADJD	quer	_	O	O	
+5-2	quf	VVFIN	<unknown>	_	O	O	
+5-3	der	ART	die	_	O	O	
+5-4	ersten	ADJA	erst	_	O	O	
+5-5	Seite	NN	Seite	_	O	O	
+5-6	:	$.	:	_	O	O	
+5-7	Daß	KOUS	dass	_	O	O	
+5-8	wir	PPER	wir	_	O	O	
+5-9	dem	ART	die	_	O	O	
+5-10	Kronprinzen	NN	Kronprinz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-11	ein	ART	eine	_	O	O	
+5-12	gebundenes	ADJA	gebunden	_	O	O	
+5-13	Exemplar	NN	Exemplar	_	O	O	
+5-14	der	ART	die	_	O	O	
+5-15	Publikationen	NN	Publikation	_	O	O	
+5-16	1872	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-17	gesendet	VVPP	senden	_	O	O	
+5-18	haben	VAFIN	haben	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	schrieb	VVFIN	schreiben	_	O	O	
+5-21	ich	PPER	ich	_	O	O	
+5-22	wohl	ADV	wohl	_	O	O	
+5-23	schon	ADV	schon	_	O	O	
+5-24	früher	ADJD	früh	_	O	O	
+5-25	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Reichsgehalte werden am 1. Januar 74 wie mir Greif und Olshausen sagen ausgezahlt - wenn nur nicht wieder die Anweisung verdämmert wird; dann können Sie ja wohl durch Keudell vorbeugen, dem ich mich zu empfehlen bitte.
+6-1	Die	ART	die	_	O	O	
+6-2	Reichsgehalte	NN	<unknown>	_	O	O	
+6-3	werden	VAFIN	werden	_	O	O	
+6-4	am	APPRART	an	_	O	O	
+6-5	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-7	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-8	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-9	wie	KOKOM	wie	_	O	O	
+6-10	mir	PPER	ich	_	O	O	
+6-11	Greif	NN	Greif	_	O	O	
+6-12	und	KON	und	_	O	O	
+6-13	Olshausen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-14	sagen	VVFIN	sagen	_	O	O	
+6-15	ausgezahlt	VVPP	auszahlen	_	O	O	
+6-16	-	$(	-	_	O	O	
+6-17	wenn	KOUS	wenn	_	O	O	
+6-18	nur	ADV	nur	_	O	O	
+6-19	nicht	PTKNEG	nicht	_	O	O	
+6-20	wieder	ADV	wieder	_	O	O	
+6-21	die	ART	die	_	O	O	
+6-22	Anweisung	NN	Anweisung	_	O	O	
+6-23	verdämmert	VVPP	<unknown>	_	O	O	
+6-24	wird	VAFIN	werden	_	O	O	
+6-25	;	$.	;	_	O	O	
+6-26	dann	ADV	dann	_	O	O	
+6-27	können	VMFIN	können	_	O	O	
+6-28	Sie	PPER	Sie	_	O	O	
+6-29	ja	ADV	ja	_	O	O	
+6-30	wohl	ADV	wohl	_	O	O	
+6-31	durch	APPR	durch	_	O	O	
+6-32	Keudell	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-33	vorbeugen	VVINF	vorbeugen	_	O	O	
+6-34	,	$,	,	_	O	O	
+6-35	dem	PRELS	die	_	O	O	
+6-36	ich	PPER	ich	_	O	O	
+6-37	mich	PRF	ich	_	O	O	
+6-38	zu	PTKZU	zu	_	O	O	
+6-39	empfehlen	VVINF	empfehlen	_	O	O	
+6-40	bitte	VVFIN	bitten	_	O	O	
+6-41	.	$.	.	_	O	O	
+
+#id=7
+#text=Ist denn nun endlich die Caffarelli Sache dem Municipio gegenüber ganz in Ordnung ?
+7-1	Ist	VAFIN	sein	_	O	O	
+7-2	denn	ADV	denn	_	O	O	
+7-3	nun	ADV	nun	_	O	O	
+7-4	endlich	ADV	endlich	_	O	O	
+7-5	die	ART	die	_	O	O	
+7-6	Caffarelli	NE	<unknown>	_	O	O	
+7-7	Sache	NN	Sache	_	O	O	
+7-8	dem	ART	die	_	O	O	
+7-9	Municipio	NE	<unknown>	_	O	O	
+7-10	gegenüber	APPO	gegenüber	_	O	O	
+7-11	ganz	ADV	ganz	_	O	O	
+7-12	in	APPR	in	_	O	O	
+7-13	Ordnung	NN	Ordnung	_	O	O	
+7-14	?	$.	?	_	O	O	
+

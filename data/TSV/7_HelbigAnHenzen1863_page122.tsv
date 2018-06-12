@@ -1,0 +1,150 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=225 2 Helbig an Henzen Rom, 7. Juni 1870 Die Reise ist Lilli sehr gut, meiner Frau leidlich bekommen.
+1-1	225	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Die	ART	die	_	O	O	
+1-13	Reise	NN	Reise	_	O	O	
+1-14	ist	VAFIN	sein	_	O	O	
+1-15	Lilli	NE	Lilli	_	O	O	
+1-16	sehr	ADV	sehr	_	O	O	
+1-17	gut	ADJD	gut	_	O	O	
+1-18	,	$,	,	_	O	O	
+1-19	meiner	PPOSAT	mein	_	O	O	
+1-20	Frau	NN	Frau	_	O	O	
+1-21	leidlich	ADJD	leidlich	_	O	O	
+1-22	bekommen	VVFIN	bekommen	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Benndorf habe ich bis jetzt nur flüchtig gesehen.
+2-1	Benndorf	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	habe	VAFIN	haben	_	O	O	
+2-3	ich	PPER	ich	_	O	O	
+2-4	bis	APPR	bis	_	O	O	
+2-5	jetzt	ADV	jetzt	_	O	O	
+2-6	nur	ADV	nur	_	O	O	
+2-7	flüchtig	ADJD	flüchtig	_	O	O	
+2-8	gesehen	VVPP	sehen	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Er scheint sich in Zürich sehr wohl zu fühlen.
+3-1	Er	PPER	er	_	O	O	
+3-2	scheint	VVFIN	scheinen	_	O	O	
+3-3	sich	PRF	sich	_	O	O	
+3-4	in	APPR	in	_	O	O	
+3-5	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-6	sehr	ADV	sehr	_	O	O	
+3-7	wohl	ADV	wohl	_	O	O	
+3-8	zu	PTKZU	zu	_	O	O	
+3-9	fühlen	VVINF	fühlen	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Wir erwarten in diesen Tagen Vater Willmanns, welcher bei der am 11. in Olten stattfindenden Monstrekneiperei schweizer und süddeutscher Professoren die Universität Freiburg vertreten wird.
+4-1	Wir	PPER	wir	_	O	O	
+4-2	erwarten	VVFIN	erwarten	_	O	O	
+4-3	in	APPR	in	_	O	O	
+4-4	diesen	PDAT	dies	_	O	O	
+4-5	Tagen	NN	Tag	_	O	O	
+4-6	Vater	NN	Vater	_	O	O	
+4-7	Willmanns	NE	Willmann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-8	,	$,	,	_	O	O	
+4-9	welcher	PRELS	welche	_	O	O	
+4-10	bei	APPR	bei	_	O	O	
+4-11	der	ART	die	_	O	O	
+4-12	am	APPRART	an	_	O	O	
+4-13	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-14	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-15	in	APPR	in	_	O	O	
+4-16	Olten	NE	<unknown>	_	O	O	
+4-17	stattfindenden	ADJA	stattfindend	_	O	O	
+4-18	Monstrekneiperei	NN	<unknown>	_	O	O	
+4-19	schweizer	ADJA	Schweizer	_	O	O	
+4-20	und	KON	und	_	O	O	
+4-21	süddeutscher	ADJA	süddeutsch	_	O	O	
+4-22	Professoren	NN	Professor	_	O	O	
+4-23	die	ART	die	_	O	O	
+4-24	Universität	NN	Universität	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-25	Freiburg	NE	Freiburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-26	vertreten	VVPP	vertreten	_	O	O	
+4-27	wird	VAFIN	werden	_	O	O	
+4-28	.	$.	.	_	O	O	
+
+#id=5
+#text=Hoffentlich versieht er sich zu diesem Zwecke mit dem nöthigen Vorrathe von Brillen.
+5-1	Hoffentlich	ADV	hoffentlich	_	O	O	
+5-2	versieht	VVFIN	versehen	_	O	O	
+5-3	er	PPER	er	_	O	O	
+5-4	sich	PRF	sich	_	O	O	
+5-5	zu	APPR	zu	_	O	O	
+5-6	diesem	PDAT	dies	_	O	O	
+5-7	Zwecke	NN	Zweck	_	O	O	
+5-8	mit	APPR	mit	_	O	O	
+5-9	dem	ART	die	_	O	O	
+5-10	nöthigen	ADJA	<unknown>	_	O	O	
+5-11	Vorrathe	NN	<unknown>	_	O	O	
+5-12	von	APPR	von	_	O	O	
+5-13	Brillen	NN	Brille	_	O	O	
+5-14	.	$.	.	_	O	O	
+
+#id=6
+#text=Herzliche Grüße an Fräulein Kopf und Hink.
+6-1	Herzliche	ADJA	herzlich	_	O	O	
+6-2	Grüße	NN	Gruß	_	O	O	
+6-3	an	APPR	an	_	O	O	
+6-4	Fräulein	NN	Fräulein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	Kopf	NN	Kopf	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-6	und	KON	und	_	O	O	
+6-7	Hink	NN	<unknown>	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=Auf baldiges Wiedersehen Ihr ergebener Helbig Soeben geht mir der von Ihnen uns nachgeschickte russische Brief zu.
+7-1	Auf	APPR	auf	_	O	O	
+7-2	baldiges	ADJA	baldig	_	O	O	
+7-3	Wiedersehen	NN	Wiedersehen	_	O	O	
+7-4	Ihr	PPOSAT	ihr	_	O	O	
+7-5	ergebener	ADJA	ergeben	_	O	O	
+7-6	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-7	Soeben	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-8	geht	VVFIN	gehen	_	O	O	
+7-9	mir	PPER	ich	_	O	O	
+7-10	der	ART	die	_	O	O	
+7-11	von	APPR	von	_	O	O	
+7-12	Ihnen	PPER	Sie	_	O	O	
+7-13	uns	PRF	wir	_	O	O	
+7-14	nachgeschickte	ADJA	<unknown>	_	O	O	
+7-15	russische	ADJA	russisch	_	O	O	
+7-16	Brief	NN	Brief	_	O	O	
+7-17	zu	PTKVZ	zu	_	O	O	
+7-18	.	$.	.	_	O	O	
+
+#id=8
+#text=Herzlichen Dank.
+8-1	Herzlichen	ADJA	herzlich	_	O	O	
+8-2	Dank	NN	Dank	_	O	O	
+8-3	.	$.	.	_	O	O	
+
+#id=9
+#text=Wie steht es mit der Spedition nach P. ?
+9-1	Wie	KOUS	wie	_	O	O	
+9-2	steht	VVFIN	stehen	_	O	O	
+9-3	es	PPER	es	_	O	O	
+9-4	mit	APPR	mit	_	O	O	
+9-5	der	ART	die	_	O	O	
+9-6	Spedition	NN	Spedition	_	O	O	
+9-7	nach	APPR	nach	_	O	O	
+9-8	P.	NE	P.	_	O	O	
+9-9	?	$.	?	_	O	O	
+

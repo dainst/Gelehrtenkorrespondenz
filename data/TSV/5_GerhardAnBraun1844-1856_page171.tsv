@@ -1,0 +1,264 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=1 Gerhard an Braun Florenz, 25. März 1846 3 auch auf solche Ehre nicht Anspruch habe; ein neuer Grund mich auf Beseitigung meines Gesichts anzutragen.
+1-1	1	CARD	1	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	3	CARD	3	_	O	O	
+1-12	auch	ADV	auch	_	O	O	
+1-13	auf	APPR	auf	_	O	O	
+1-14	solche	PIAT	solche	_	O	O	
+1-15	Ehre	NN	Ehre	_	O	O	
+1-16	nicht	PTKNEG	nicht	_	O	O	
+1-17	Anspruch	NN	Anspruch	_	O	O	
+1-18	habe	VAFIN	haben	_	O	O	
+1-19	;	$.	;	_	O	O	
+1-20	ein	ART	eine	_	O	O	
+1-21	neuer	ADJA	neu	_	O	O	
+1-22	Grund	NN	Grund	_	O	O	
+1-23	mich	PRF	ich	_	O	O	
+1-24	auf	APPR	auf	_	O	O	
+1-25	Beseitigung	NN	Beseitigung	_	O	O	
+1-26	meines	PPOSAT	mein	_	O	O	
+1-27	Gesichts	NN	Gesicht	_	O	O	
+1-28	anzutragen	VVIZU	antragen	_	O	O	
+1-29	.	$.	.	_	O	O	
+
+#id=2
+#text=In Chiusi kaufte ich allerlei Zerbrechliches für dessen Fortschaffung ich Ihren Rath ungern entbehrte; ich lasse es von hier aus zu Lande gehen.
+2-1	In	APPR	in	_	O	O	
+2-2	Chiusi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-3	kaufte	VVFIN	kaufen	_	O	O	
+2-4	ich	PPER	ich	_	O	O	
+2-5	allerlei	PIAT	allerlei	_	O	O	
+2-6	Zerbrechliches	NN	Zerbrechliche	_	O	O	
+2-7	für	APPR	für	_	O	O	
+2-8	dessen	PDAT	die	_	O	O	
+2-9	Fortschaffung	NN	<unknown>	_	O	O	
+2-10	ich	PPER	ich	_	O	O	
+2-11	Ihren	PPOSAT	ihr	_	O	O	
+2-12	Rath	NE	Rath	_	O	O	
+2-13	ungern	ADV	ungern	_	O	O	
+2-14	entbehrte	VVFIN	entbehren	_	O	O	
+2-15	;	$.	;	_	O	O	
+2-16	ich	PPER	ich	_	O	O	
+2-17	lasse	VVFIN	lassen	_	O	O	
+2-18	es	PPER	es	_	O	O	
+2-19	von	APPR	von	_	O	O	
+2-20	hier	ADV	hier	_	O	O	
+2-21	aus	APZR	aus	_	O	O	
+2-22	zu	APPR	zu	_	O	O	
+2-23	Lande	NN	Land	_	O	O	
+2-24	gehen	VVINF	gehen	_	O	O	
+2-25	.	$.	.	_	O	O	
+
+#id=3
+#text=Eine Amphore f. Y. Ajax mit Achilles Leichnam weise ich Ihnen vielleicht noch nachträglich zu Empfang und Bezahlung zu, falls Monni sie für 40 Monete gibt.
+3-1	Eine	ART	eine	_	O	O	
+3-2	Amphore	NN	Amphore	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-3	f.	APPR	f.	_	I-webanno.custom.LetterEntity_	I-OBJ	
+3-4	Y.	NE	Y.	_	I-webanno.custom.LetterEntity_	I-OBJ	
+3-5	Ajax	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+3-6	mit	APPR	mit	_	O	O	
+3-7	Achilles	NE	Achilles	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-8	Leichnam	NN	Leichnam	_	O	O	
+3-9	weise	VVFIN	weisen	_	O	O	
+3-10	ich	PPER	ich	_	O	O	
+3-11	Ihnen	PPER	Sie	_	O	O	
+3-12	vielleicht	ADV	vielleicht	_	O	O	
+3-13	noch	ADV	noch	_	O	O	
+3-14	nachträglich	ADJD	nachträglich	_	O	O	
+3-15	zu	APPR	zu	_	O	O	
+3-16	Empfang	NN	Empfang	_	O	O	
+3-17	und	KON	und	_	O	O	
+3-18	Bezahlung	NN	Bezahlung	_	O	O	
+3-19	zu	PTKVZ	zu	_	O	O	
+3-20	,	$,	,	_	O	O	
+3-21	falls	KOUS	falls	_	O	O	
+3-22	Monni	NE	<unknown>	_	O	O	
+3-23	sie	PPER	sie	_	O	O	
+3-24	für	APPR	für	_	O	O	
+3-25	40	CARD	40	_	O	O	
+3-26	Monete	NN	<unknown>	_	O	O	
+3-27	gibt	VVFIN	geben	_	O	O	
+3-28	.	$.	.	_	O	O	
+
+#id=4
+#text=Im Ganzen war sehr wenig auf dem Platz.
+4-1	Im	APPRART	in	_	O	O	
+4-2	Ganzen	NN	Ganze	_	O	O	
+4-3	war	VAFIN	sein	_	O	O	
+4-4	sehr	ADV	sehr	_	O	O	
+4-5	wenig	ADV	wenig	_	O	O	
+4-6	auf	APPR	auf	_	O	O	
+4-7	dem	ART	die	_	O	O	
+4-8	Platz	NN	Platz	_	O	O	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=Den Spiegel habe ich nicht erlangt; Mazzetti beharrt auf 105 Colonnati, worüber ich Olfers nochmals frage.
+5-1	Den	ART	die	_	O	O	
+5-2	Spiegel	NN	Spiegel	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-3	habe	VAFIN	haben	_	O	O	
+5-4	ich	PPER	ich	_	O	O	
+5-5	nicht	PTKNEG	nicht	_	O	O	
+5-6	erlangt	VVPP	erlangen	_	O	O	
+5-7	;	$.	;	_	O	O	
+5-8	Mazzetti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-9	beharrt	VVFIN	beharren	_	O	O	
+5-10	auf	APPR	auf	_	O	O	
+5-11	105	CARD	@card@	_	O	O	
+5-12	Colonnati	NE	<unknown>	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	worüber	PWAV	worüber	_	O	O	
+5-15	ich	PPER	ich	_	O	O	
+5-16	Olfers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-17	nochmals	ADV	nochmals	_	O	O	
+5-18	frage	VVFIN	fragen	_	O	O	
+5-19	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Grotta dipinta - Athletisches und Wagenrennen, als Curiosum auch ein Affe an der Kette - ist ansehnlicher als die übrigen, die Figuren größrer und wohl erhalten bei gewöhnlicher etruskischer Zeichnung.
+6-1	Die	ART	die	_	O	O	
+6-2	Grotta	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-3	dipinta	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-4	-	$(	-	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-5	Athletisches	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-6	und	KON	und	_	O	O	
+6-7	Wagenrennen	NN	Wagenrennen	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	als	KOKOM	als	_	O	O	
+6-10	Curiosum	ADJD	<unknown>	_	O	O	
+6-11	auch	ADV	auch	_	O	O	
+6-12	ein	ART	eine	_	O	O	
+6-13	Affe	NN	Affe	_	O	O	
+6-14	an	APPR	an	_	O	O	
+6-15	der	ART	die	_	O	O	
+6-16	Kette	NN	Kette	_	O	O	
+6-17	-	$(	-	_	O	O	
+6-18	ist	VAFIN	sein	_	O	O	
+6-19	ansehnlicher	ADJD	ansehnlich	_	O	O	
+6-20	als	KOKOM	als	_	O	O	
+6-21	die	ART	die	_	O	O	
+6-22	übrigen	ADJA	übrig	_	O	O	
+6-23	,	$,	,	_	O	O	
+6-24	die	ART	die	_	O	O	
+6-25	Figuren	NN	Figur	_	O	O	
+6-26	größrer	VVFIN	<unknown>	_	O	O	
+6-27	und	KON	und	_	O	O	
+6-28	wohl	ADV	wohl	_	O	O	
+6-29	erhalten	VVFIN	erhalten	_	O	O	
+6-30	bei	APPR	bei	_	O	O	
+6-31	gewöhnlicher	ADJA	gewöhnlich	_	O	O	
+6-32	etruskischer	ADJA	<unknown>	_	O	O	
+6-33	Zeichnung	NN	Zeichnung	_	O	O	
+6-34	.	$.	.	_	O	O	
+
+#id=7
+#text=Die hierher gesandte Zeichnung ist sehr schlecht; vielleicht kann man sich mit Migl.
+7-1	Die	ART	die	_	O	O	
+7-2	hierher	ADV	hierher	_	O	O	
+7-3	gesandte	ADJA	gesandt	_	O	O	
+7-4	Zeichnung	NN	Zeichnung	_	O	O	
+7-5	ist	VAFIN	sein	_	O	O	
+7-6	sehr	ADV	sehr	_	O	O	
+7-7	schlecht	ADJD	schlecht	_	O	O	
+7-8	;	$.	;	_	O	O	
+7-9	vielleicht	ADV	vielleicht	_	O	O	
+7-10	kann	VMFIN	können	_	O	O	
+7-11	man	PIS	man	_	O	O	
+7-12	sich	PRF	sich	_	O	O	
+7-13	mit	APPR	mit	_	O	O	
+7-14	Migl	NE	<unknown>	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=verstehen, der die Möglichkeit einen Zeichner dahin zu senden nicht abweist.
+8-1	verstehen	VVFIN	verstehen	_	O	O	
+8-2	,	$,	,	_	O	O	
+8-3	der	PRELS	die	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	Möglichkeit	NN	Möglichkeit	_	O	O	
+8-6	einen	ART	eine	_	O	O	
+8-7	Zeichner	NN	Zeichner	_	O	O	
+8-8	dahin	PAV	dahin	_	O	O	
+8-9	zu	PTKVZ	zu	_	O	O	
+8-10	senden	VVFIN	senden	_	O	O	
+8-11	nicht	PTKNEG	nicht	_	O	O	
+8-12	abweist	VVFIN	abweisen	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Übrigens ist der brave Mann unkräftiger geworden und versichert er habe nicht lange mehr zu leben.
+9-1	Übrigens	ADV	übrigens	_	O	O	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	der	ART	die	_	O	O	
+9-4	brave	ADJA	brav	_	O	O	
+9-5	Mann	NN	Mann	_	O	O	
+9-6	unkräftiger	ADJD	<unknown>	_	O	O	
+9-7	geworden	VAPP	werden	_	O	O	
+9-8	und	KON	und	_	O	O	
+9-9	versichert	VVFIN	versichern	_	O	O	
+9-10	er	PPER	er	_	O	O	
+9-11	habe	VAFIN	haben	_	O	O	
+9-12	nicht	PTKNEG	nicht	_	O	O	
+9-13	lange	ADV	lange	_	O	O	
+9-14	mehr	ADV	mehr	_	O	O	
+9-15	zu	PTKZU	zu	_	O	O	
+9-16	leben	VVINF	leben	_	O	O	
+9-17	.	$.	.	_	O	O	
+
+#id=10
+#text=Raso rüstet sich mit viel etruskischen Urnen, auch allerlei Bronzen zur Reise nach Rom.
+10-1	Raso	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	rüstet	VVFIN	<unknown>	_	O	O	
+10-3	sich	PRF	sich	_	O	O	
+10-4	mit	APPR	mit	_	O	O	
+10-5	viel	PIAT	viele	_	O	O	
+10-6	etruskischen	ADJA	<unknown>	_	O	O	
+10-7	Urnen	NN	Urne	_	B-webanno.custom.LetterEntity_	B-OBJ	
+10-8	,	$,	,	_	O	O	
+10-9	auch	ADV	auch	_	O	O	
+10-10	allerlei	PIAT	allerlei	_	O	O	
+10-11	Bronzen	NN	Bronze	_	B-webanno.custom.LetterEntity_	B-OBJ	
+10-12	zur	APPRART	zu	_	O	O	
+10-13	Reise	NN	Reise	_	O	O	
+10-14	nach	APPR	nach	_	O	O	
+10-15	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-16	.	$.	.	_	O	O	
+
+#id=11
+#text=Rückständig sind nun Ihr Jahresbericht, Ihr Manuscript zur Schul aus gabe (äußerstenfalls kann ich dies verzögern ) , Ihr revidirtes Brouillon der Kestnerschen
+11-1	Rückständig	ADJD	rückständig	_	O	O	
+11-2	sind	VAFIN	sein	_	O	O	
+11-3	nun	ADV	nun	_	O	O	
+11-4	Ihr	PPOSAT	ihr	_	O	O	
+11-5	Jahresbericht	NN	Jahresbericht	_	O	O	
+11-6	,	$,	,	_	O	O	
+11-7	Ihr	PPOSAT	ihr	_	O	O	
+11-8	Manuscript	NN	<unknown>	_	O	O	
+11-9	zur	APPRART	zu	_	O	O	
+11-10	Schul	NE	<unknown>	_	O	O	
+11-11	aus	APPR	aus	_	O	O	
+11-12	gabe	NN	Gabe	_	O	O	
+11-13	(	$(	(	_	O	O	
+11-14	äußerstenfalls	ADV	äußerstenfalls	_	O	O	
+11-15	kann	VMFIN	können	_	O	O	
+11-16	ich	PPER	ich	_	O	O	
+11-17	dies	PDS	dies	_	O	O	
+11-18	verzögern	VVINF	verzögern	_	O	O	
+11-19	)	$(	)	_	O	O	
+11-20	,	$,	,	_	O	O	
+11-21	Ihr	PPOSAT	ihr	_	O	O	
+11-22	revidirtes	NN	<unknown>	_	O	O	
+11-23	Brouillon	NN	<unknown>	_	O	O	
+11-24	der	ART	die	_	O	O	
+11-25	Kestnerschen	ADJA	<unknown>	_	O	O	
+

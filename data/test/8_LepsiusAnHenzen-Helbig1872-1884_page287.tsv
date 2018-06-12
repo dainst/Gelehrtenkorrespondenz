@@ -1,0 +1,214 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=464 N. 82 Verehrter Freund Lepsius an Henzen Berlin, 15. August 1876 g. 18/8 76 r.
+1-1	464	CARD	@card@	_	O	O	
+1-2	N.	APPR	n.	_	O	O	
+1-3	82	CARD	@card@	_	O	O	
+1-4	Verehrter	NN	Verehrte	_	O	O	
+1-5	Freund	NE	Freund	_	O	O	
+1-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	18/8	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	76	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=24/8 Berlin, den 15. August 1877 In unsrer letzten Sitzung wurden die Römischen Verhältnisse näher besprochen, wie sie Herr Krüger in Rom mit Ihnen, Helbig und Mommsen durchgenommen hatte.
+2-1	24/8	CARD	@card@	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-3	,	$,	,	_	O	O	
+2-4	den	ART	die	_	O	O	
+2-5	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	In	APPR	in	_	O	O	
+2-10	unsrer	PPOSAT	unser	_	O	O	
+2-11	letzten	ADJA	letzt	_	O	O	
+2-12	Sitzung	NN	Sitzung	_	O	O	
+2-13	wurden	VAFIN	werden	_	O	O	
+2-14	die	ART	die	_	O	O	
+2-15	Römischen	ADJA	römisch	_	O	O	
+2-16	Verhältnisse	NN	Verhältnis	_	O	O	
+2-17	näher	ADJD	nah	_	O	O	
+2-18	besprochen	VVPP	besprechen	_	O	O	
+2-19	,	$,	,	_	O	O	
+2-20	wie	KOUS	wie	_	O	O	
+2-21	sie	PPER	sie	_	O	O	
+2-22	Herr	NN	Herr	_	O	O	
+2-23	Krüger	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-24	in	APPR	in	_	O	O	
+2-25	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-26	mit	APPR	mit	_	O	O	
+2-27	Ihnen	PPER	Sie	_	O	O	
+2-28	,	$,	,	_	O	O	
+2-29	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-30	und	KON	und	_	O	O	
+2-31	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-32	durchgenommen	VVPP	durchnehmen	_	O	O	
+2-33	hatte	VAFIN	haben	_	O	O	
+2-34	.	$.	.	_	O	O	
+
+#id=3
+#text=Es schien uns namentlich das spätere Verhältnis der Administration des Hauses zur Botschaft sehr richtig geordnet.
+3-1	Es	PPER	es	_	O	O	
+3-2	schien	VVFIN	scheinen	_	O	O	
+3-3	uns	PPER	wir	_	O	O	
+3-4	namentlich	ADJD	namentlich	_	O	O	
+3-5	das	ART	die	_	O	O	
+3-6	spätere	ADJA	spät	_	O	O	
+3-7	Verhältnis	NN	Verhältnis	_	O	O	
+3-8	der	ART	die	_	O	O	
+3-9	Administration	NN	Administration	_	O	O	
+3-10	des	ART	die	_	O	O	
+3-11	Hauses	NN	Haus	_	O	O	
+3-12	zur	APPRART	zu	_	O	O	
+3-13	Botschaft	NN	Botschaft	_	O	O	
+3-14	sehr	ADV	sehr	_	O	O	
+3-15	richtig	ADJD	richtig	_	O	O	
+3-16	geordnet	VVPP	ordnen	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Krüger will dies nun vorläufig im Auswärtigen Amt nur mündlich vorbereiten.
+4-1	Krüger	NN	<unknown>	_	O	O	
+4-2	will	VMFIN	wollen	_	O	O	
+4-3	dies	PDS	dies	_	O	O	
+4-4	nun	ADV	nun	_	O	O	
+4-5	vorläufig	ADJD	vorläufig	_	O	O	
+4-6	im	APPRART	in	_	O	O	
+4-7	Auswärtigen	ADJA	auswärtig	_	O	O	
+4-8	Amt	NN	Amt	_	O	O	
+4-9	nur	ADV	nur	_	O	O	
+4-10	mündlich	ADJD	mündlich	_	O	O	
+4-11	vorbereiten	VVINF	vorbereiten	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Später müssen die Sachen klar zu Papier gebracht werden.
+5-1	Später	ADJD	spät	_	O	O	
+5-2	müssen	VMFIN	müssen	_	O	O	
+5-3	die	ART	die	_	O	O	
+5-4	Sachen	NN	Sache	_	O	O	
+5-5	klar	ADJD	klar	_	O	O	
+5-6	zu	APPR	zu	_	O	O	
+5-7	Papier	NN	Papier	_	O	O	
+5-8	gebracht	VVPP	bringen	_	O	O	
+5-9	werden	VAINF	werden	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Herstellung einer Wendeltreppe nach dem Apparatraum und der Durchbruch eines zweiten Fensters im Lesezimmer wurden beschlossen.
+6-1	Die	ART	die	_	O	O	
+6-2	Herstellung	NN	Herstellung	_	O	O	
+6-3	einer	ART	eine	_	O	O	
+6-4	Wendeltreppe	NN	Wendeltreppe	_	O	O	
+6-5	nach	APPR	nach	_	O	O	
+6-6	dem	ART	die	_	O	O	
+6-7	Apparatraum	NN	<unknown>	_	O	O	
+6-8	und	KON	und	_	O	O	
+6-9	der	ART	die	_	O	O	
+6-10	Durchbruch	NN	Durchbruch	_	O	O	
+6-11	eines	ART	eine	_	O	O	
+6-12	zweiten	ADJA	zweit	_	O	O	
+6-13	Fensters	NN	Fenster	_	O	O	
+6-14	im	APPRART	in	_	O	O	
+6-15	Lesezimmer	NN	Lesezimmer	_	O	O	
+6-16	wurden	VAFIN	werden	_	O	O	
+6-17	beschlossen	VVPP	beschließen	_	O	O	
+6-18	.	$.	.	_	O	O	
+
+#id=7
+#text=Sie werden für die Änderung sorgen.
+7-1	Sie	PPER	Sie	_	O	O	
+7-2	werden	VAFIN	werden	_	O	O	
+7-3	für	APPR	für	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	Änderung	NN	Änderung	_	O	O	
+7-6	sorgen	VVINF	sorgen	_	O	O	
+7-7	.	$.	.	_	O	O	
+
+#id=8
+#text=Auch ist gewiß die spätere Herstellung des Oberlichts in der Bibliothek und die Aufstellung der Bücher die Wände entlang und eventuell mit Galerien zweckmäßig.
+8-1	Auch	ADV	auch	_	O	O	
+8-2	ist	VAFIN	sein	_	O	O	
+8-3	gewiß	ADJD	gewiss	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	spätere	ADJA	spät	_	O	O	
+8-6	Herstellung	NN	Herstellung	_	O	O	
+8-7	des	ART	die	_	O	O	
+8-8	Oberlichts	NN	Oberlicht	_	O	O	
+8-9	in	APPR	in	_	O	O	
+8-10	der	ART	die	_	O	O	
+8-11	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-12	und	KON	und	_	O	O	
+8-13	die	ART	die	_	O	O	
+8-14	Aufstellung	NN	Aufstellung	_	O	O	
+8-15	der	ART	die	_	O	O	
+8-16	Bücher	NN	Buch	_	O	O	
+8-17	die	ART	die	_	O	O	
+8-18	Wände	NN	Wand	_	O	O	
+8-19	entlang	APPO	entlang	_	O	O	
+8-20	und	KON	und	_	O	O	
+8-21	eventuell	ADJD	eventuell	_	O	O	
+8-22	mit	APPR	mit	_	O	O	
+8-23	Galerien	NN	Galerie	_	O	O	
+8-24	zweckmäßig	ADJD	zweckmäßig	_	O	O	
+8-25	.	$.	.	_	O	O	
+
+#id=9
+#text=Für jetzt sollen die Bücher nur nicht in eingebauten Regalen sondern die Wände entlang aufgestellt werden.
+9-1	Für	APPR	für	_	O	O	
+9-2	jetzt	ADV	jetzt	_	O	O	
+9-3	sollen	VMFIN	sollen	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	Bücher	NN	Buch	_	O	O	
+9-6	nur	ADV	nur	_	O	O	
+9-7	nicht	PTKNEG	nicht	_	O	O	
+9-8	in	APPR	in	_	O	O	
+9-9	eingebauten	ADJA	eingebaut	_	O	O	
+9-10	Regalen	NN	Regal	_	O	O	
+9-11	sondern	KON	sondern	_	O	O	
+9-12	die	ART	die	_	O	O	
+9-13	Wände	NN	Wand	_	O	O	
+9-14	entlang	APPO	entlang	_	O	O	
+9-15	aufgestellt	VVPP	aufstellen	_	O	O	
+9-16	werden	VAINF	werden	_	O	O	
+9-17	.	$.	.	_	O	O	
+
+#id=10
+#text=Da der Baufonds schon im Laufe 1877 geschlossen wird, muß der Unterhaltungsfonds und der Gehalt für den Administrator (Schulz) schon für das
+10-1	Da	KOUS	da	_	O	O	
+10-2	der	ART	die	_	O	O	
+10-3	Baufonds	NN	Baufonds	_	O	O	
+10-4	schon	ADV	schon	_	O	O	
+10-5	im	APPRART	in	_	O	O	
+10-6	Laufe	NN	Lauf	_	O	O	
+10-7	1877	CARD	@card@	_	O	O	
+10-8	geschlossen	VVPP	schließen	_	O	O	
+10-9	wird	VAFIN	werden	_	O	O	
+10-10	,	$,	,	_	O	O	
+10-11	muß	VMFIN	müssen	_	O	O	
+10-12	der	ART	die	_	O	O	
+10-13	Unterhaltungsfonds	NN	<unknown>	_	O	O	
+10-14	und	KON	und	_	O	O	
+10-15	der	ART	die	_	O	O	
+10-16	Gehalt	NN	Gehalt	_	O	O	
+10-17	für	APPR	für	_	O	O	
+10-18	den	ART	die	_	O	O	
+10-19	Administrator	NN	Administrator	_	O	O	
+10-20	(	$(	(	_	O	O	
+10-21	Schulz	NE	Schulz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-22	)	$(	)	_	O	O	
+10-23	schon	ADV	schon	_	O	O	
+10-24	für	APPR	für	_	O	O	
+10-25	das	ART	die	_	O	O	
+

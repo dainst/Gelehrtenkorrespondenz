@@ -1,0 +1,42 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=202 6/VI/53 3 Renzen an Gerhard albernen Menschen, der aber Eifer zeigt.
+1-1	202	CARD	@card@	_	O	O	
+1-2	6/VI/53	CARD	<unknown>	_	O	O	
+1-3	3	CARD	3	_	O	O	
+1-4	Renzen	NN	<unknown>	_	O	O	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	albernen	ADJA	albern	_	O	O	
+1-8	Menschen	NN	Mensch	_	O	O	
+1-9	,	$,	,	_	O	O	
+1-10	der	PRELS	die	_	O	O	
+1-11	aber	ADV	aber	_	O	O	
+1-12	Eifer	NN	Eifer	_	O	O	
+1-13	zeigt	VVFIN	zeigen	_	O	O	
+1-14	.	$.	.	_	O	O	
+
+#id=2
+#text=Unsre herzlichen GrOße 8.n Sie beide.
+2-1	Unsre	PPOSAT	unsre	_	O	O	
+2-2	herzlichen	ADJA	herzlich	_	O	O	
+2-3	GrOße	NN	Große	_	O	O	
+2-4	8.n	VVFIN	<unknown>	_	O	O	
+2-5	Sie	PPER	Sie	_	O	O	
+2-6	beide	PIS	beide	_	O	O	
+2-7	.	$.	.	_	O	O	
+
+#id=3
+#text=Rom 6/VI 53.
+3-1	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-2	6/VI	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-3	53	CARD	53	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-4	.	$.	.	_	O	O	
+
+#id=4
+#text=Ihr ergebener WH.
+4-1	Ihr	PPOSAT	ihr	_	O	O	
+4-2	ergebener	ADJA	ergeben	_	O	O	
+4-3	WH	NN	<unknown>	_	O	O	
+4-4	.	$.	.	_	O	O	
+

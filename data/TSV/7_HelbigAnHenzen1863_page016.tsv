@@ -1,0 +1,237 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=236 H Helbig an Henzen Neapel, 10. Juni 1864 Neapel 10. Juni 1864. g 13/6 64 r GeehrtesterHerr Professor !
+1-1	236	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-13	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-14	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	.	$.	.	_	O	O	
+1-18	g	NN	g	_	O	O	
+1-19	13/6	CARD	@card@	_	O	O	
+1-20	64	CARD	64	_	O	O	
+1-21	r	NE	r	_	O	O	
+1-22	GeehrtesterHerr	NN	<unknown>	_	O	O	
+1-23	Professor	NN	Professor	_	O	O	
+1-24	!	$.	!	_	O	O	
+
+#id=2
+#text=Eben habe ich Ihren Brief erhalten.
+2-1	Eben	ADV	eben	_	O	O	
+2-2	habe	VAFIN	haben	_	O	O	
+2-3	ich	PPER	ich	_	O	O	
+2-4	Ihren	PPOSAT	ihr	_	O	O	
+2-5	Brief	NN	Brief	_	O	O	
+2-6	erhalten	VVPP	erhalten	_	O	O	
+2-7	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Inschriften werde ich möglichst bald besorgen.
+3-1	Die	ART	die	_	O	O	
+3-2	Inschriften	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-3	werde	VAFIN	werden	_	O	O	
+3-4	ich	PPER	ich	_	O	O	
+3-5	möglichst	ADV	möglichst	_	O	O	
+3-6	bald	ADV	bald	_	O	O	
+3-7	besorgen	VVINF	besorgen	_	O	O	
+3-8	.	$.	.	_	O	O	
+
+#id=4
+#text=Was die von Ihnen zur Rectification empfohlenen Stellen betrifft, so kann ich Ihnen in Bezug auf die Grabschrift des Cocceius Turbo versichern, daß ich Zeile 3 auch an T R dachte, daß aber I R dasteht.
+4-1	Was	PWS	was	_	O	O	
+4-2	die	ART	die	_	O	O	
+4-3	von	APPR	von	_	O	O	
+4-4	Ihnen	PPER	Sie	_	O	O	
+4-5	zur	APPRART	zu	_	O	O	
+4-6	Rectification	NN	<unknown>	_	O	O	
+4-7	empfohlenen	ADJA	empfohlen	_	O	O	
+4-8	Stellen	NN	Stelle|Stellen	_	O	O	
+4-9	betrifft	VVFIN	betreffen	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	so	ADV	so	_	O	O	
+4-12	kann	VMFIN	können	_	O	O	
+4-13	ich	PPER	ich	_	O	O	
+4-14	Ihnen	PPER	Sie	_	O	O	
+4-15	in	APPR	in	_	O	O	
+4-16	Bezug	NN	Bezug	_	O	O	
+4-17	auf	APPR	auf	_	O	O	
+4-18	die	ART	die	_	O	O	
+4-19	Grabschrift	NN	Grabschrift	_	O	O	
+4-20	des	ART	die	_	O	O	
+4-21	Cocceius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-22	Turbo	NN	Turbo	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-23	versichern	VVINF	versichern	_	O	O	
+4-24	,	$,	,	_	O	O	
+4-25	daß	KOUS	dass	_	O	O	
+4-26	ich	PPER	ich	_	O	O	
+4-27	Zeile	NN	Zeile	_	O	O	
+4-28	3	CARD	3	_	O	O	
+4-29	auch	ADV	auch	_	O	O	
+4-30	an	APPR	an	_	O	O	
+4-31	T	NN	T	_	O	O	
+4-32	R	NN	R	_	O	O	
+4-33	dachte	VVFIN	denken	_	O	O	
+4-34	,	$,	,	_	O	O	
+4-35	daß	KOUS	dass	_	O	O	
+4-36	aber	ADV	aber	_	O	O	
+4-37	I	NN	I	_	O	O	
+4-38	R	NN	R	_	O	O	
+4-39	dasteht	VVFIN	dastehen	_	O	O	
+4-40	.	$.	.	_	O	O	
+
+#id=5
+#text=Gestern traf ein Brief von Gerhard ein, worin dieser verlangte, es solle der Revers der großen Decoratmonsvase aus Ar.mento mit fünf Reihen und der Inschrift gezeichnet werden.
+5-1	Gestern	ADV	gestern	_	O	O	
+5-2	traf	VVFIN	treffen	_	O	O	
+5-3	ein	ART	eine	_	O	O	
+5-4	Brief	NN	Brief	_	O	O	
+5-5	von	APPR	von	_	O	O	
+5-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-7	ein	PTKVZ	ein	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	worin	PWAV	worin	_	O	O	
+5-10	dieser	PDAT	dies	_	O	O	
+5-11	verlangte	VVFIN	verlangen	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	es	PPER	es	_	O	O	
+5-14	solle	VMFIN	sollen	_	O	O	
+5-15	der	ART	die	_	O	O	
+5-16	Revers	NN	Revers	_	O	O	
+5-17	der	ART	die	_	O	O	
+5-18	großen	ADJA	groß	_	O	O	
+5-19	Decoratmonsvase	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-20	aus	APPR	aus	_	O	O	
+5-21	Ar.mento	NN	<unknown>	_	O	O	
+5-22	mit	APPR	mit	_	O	O	
+5-23	fünf	CARD	fünf	_	O	O	
+5-24	Reihen	NN	Reihe	_	O	O	
+5-25	und	KON	und	_	O	O	
+5-26	der	ART	die	_	O	O	
+5-27	Inschrift	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-28	gezeichnet	VVPP	zeichnen	_	O	O	
+5-29	werden	VAINF	werden	_	O	O	
+5-30	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Zeichnung des Averses befindet sich in Rom.
+6-1	Die	ART	die	_	O	O	
+6-2	Zeichnung	NN	Zeichnung	_	O	O	
+6-3	des	ART	die	_	O	O	
+6-4	Averses	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-5	befindet	VVFIN	befinden	_	O	O	
+6-6	sich	PRF	sich	_	O	O	
+6-7	in	APPR	in	_	O	O	
+6-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-9	.	$.	.	_	O	O	
+
+#id=7
+#text=Gerhard schreibt darüber "auch hat man dem Zeichner hoffentlich die Zeichnung des Averses eingehändigt, die ich nach Rom geschickt habe, um darnach den Revers entsprechend gezeichnet zu erhalten."
+7-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	schreibt	VVFIN	schreiben	_	O	O	
+7-3	darüber	PAV	darüber	_	O	O	
+7-4	"	$(	"	_	O	O	
+7-5	auch	ADV	auch	_	O	O	
+7-6	hat	VAFIN	haben	_	O	O	
+7-7	man	PIS	man	_	O	O	
+7-8	dem	ART	die	_	O	O	
+7-9	Zeichner	NN	Zeichner	_	O	O	
+7-10	hoffentlich	ADV	hoffentlich	_	O	O	
+7-11	die	ART	die	_	O	O	
+7-12	Zeichnung	NN	Zeichnung	_	O	O	
+7-13	des	ART	die	_	O	O	
+7-14	Averses	NN	<unknown>	_	O	O	
+7-15	eingehändigt	VVPP	<unknown>	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	die	PRELS	die	_	O	O	
+7-18	ich	PPER	ich	_	O	O	
+7-19	nach	APPR	nach	_	O	O	
+7-20	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-21	geschickt	VVPP	schicken	_	O	O	
+7-22	habe	VAFIN	haben	_	O	O	
+7-23	,	$,	,	_	O	O	
+7-24	um	KOUI	um	_	O	O	
+7-25	darnach	ADV	<unknown>	_	O	O	
+7-26	den	ART	die	_	O	O	
+7-27	Revers	NN	Revers	_	O	O	
+7-28	entsprechend	ADJD	entsprechend	_	O	O	
+7-29	gezeichnet	ADJD	gezeichnet	_	O	O	
+7-30	zu	PTKZU	zu	_	O	O	
+7-31	erhalten	VVINF	erhalten	_	O	O	
+7-32	.	$.	.	_	O	O	
+7-33	"	$(	"	_	O	O	
+
+#id=8
+#text=Dem Zeichner ist nichts Derartiges eingehändigt worden.
+8-1	Dem	ART	die	_	O	O	
+8-2	Zeichner	NN	Zeichner	_	O	O	
+8-3	ist	VAFIN	sein	_	O	O	
+8-4	nichts	PIAT	nichts	_	O	O	
+8-5	Derartiges	NN	Derartige	_	O	O	
+8-6	eingehändigt	VVPP	<unknown>	_	O	O	
+8-7	worden	VAPP	werden	_	O	O	
+8-8	.	$.	.	_	O	O	
+
+#id=9
+#text=Da dieser Vorfall dazu beitragan kann, Gerhards üble Laune gegen Brunn zu ver.mehren, so bitte ich Sie, vorzubeugen, so gut Sie können, die betreffende Zeichnung des Averses in dem Institutsapparat zu suchen und hierher zu schicken.
+9-1	Da	ADV	da	_	O	O	
+9-2	dieser	PDAT	dies	_	O	O	
+9-3	Vorfall	NN	Vorfall	_	O	O	
+9-4	dazu	PAV	dazu	_	O	O	
+9-5	beitragan	VVINF	<unknown>	_	O	O	
+9-6	kann	VMFIN	können	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	Gerhards	NE	Gerhards	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-9	üble	ADJA	übel	_	O	O	
+9-10	Laune	NN	Laune	_	O	O	
+9-11	gegen	APPR	gegen	_	O	O	
+9-12	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-13	zu	PTKZU	zu	_	O	O	
+9-14	ver.mehren	VVINF	<unknown>	_	O	O	
+9-15	,	$,	,	_	O	O	
+9-16	so	ADV	so	_	O	O	
+9-17	bitte	VVFIN	bitten	_	O	O	
+9-18	ich	PPER	ich	_	O	O	
+9-19	Sie	PPER	Sie	_	O	O	
+9-20	,	$,	,	_	O	O	
+9-21	vorzubeugen	VVIZU	vorbeugen	_	O	O	
+9-22	,	$,	,	_	O	O	
+9-23	so	ADV	so	_	O	O	
+9-24	gut	ADJD	gut	_	O	O	
+9-25	Sie	PPER	Sie	_	O	O	
+9-26	können	VMFIN	können	_	O	O	
+9-27	,	$,	,	_	O	O	
+9-28	die	ART	die	_	O	O	
+9-29	betreffende	ADJA	betreffend	_	O	O	
+9-30	Zeichnung	NN	Zeichnung	_	O	O	
+9-31	des	ART	die	_	O	O	
+9-32	Averses	NN	<unknown>	_	O	O	
+9-33	in	APPR	in	_	O	O	
+9-34	dem	ART	die	_	O	O	
+9-35	Institutsapparat	NN	<unknown>	_	O	O	
+9-36	zu	PTKZU	zu	_	O	O	
+9-37	suchen	VVINF	suchen	_	O	O	
+9-38	und	KON	und	_	O	O	
+9-39	hierher	ADV	hierher	_	O	O	
+9-40	zu	PTKZU	zu	_	O	O	
+9-41	schicken	VVINF	schicken	_	O	O	
+9-42	.	$.	.	_	O	O	
+
+#id=10
+#text=Der Zeichner wird ver.muthlich bis
+10-1	Der	ART	die	_	O	O	
+10-2	Zeichner	NN	Zeichner	_	O	O	
+10-3	wird	VAFIN	werden	_	O	O	
+10-4	ver.muthlich	ADJD	<unknown>	_	O	O	
+10-5	bis	APPR	bis	_	O	O	
+

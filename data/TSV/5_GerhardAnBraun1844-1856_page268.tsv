@@ -1,0 +1,252 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Gerhard an Braun Berlin, 22 Januar 1849 preises nicht; ich denke aber sie zunächst aufrecht zu halten, nöthigenfalls mit eigner Geldeinbuße.
+1-1	2	CARD	2	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1849	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	preises	NN	Preis	_	O	O	
+1-11	nicht	PTKNEG	nicht	_	O	O	
+1-12	;	$.	;	_	O	O	
+1-13	ich	PPER	ich	_	O	O	
+1-14	denke	VVFIN	denken	_	O	O	
+1-15	aber	ADV	aber	_	O	O	
+1-16	sie	PPER	sie	_	O	O	
+1-17	zunächst	ADV	zunächst	_	O	O	
+1-18	aufrecht	PTKVZ	aufrecht	_	O	O	
+1-19	zu	PTKZU	zu	_	O	O	
+1-20	halten	VVINF	halten	_	O	O	
+1-21	,	$,	,	_	O	O	
+1-22	nöthigenfalls	NN	<unknown>	_	O	O	
+1-23	mit	APPR	mit	_	O	O	
+1-24	eigner	ADJA	eigen	_	O	O	
+1-25	Geldeinbuße	NN	<unknown>	_	O	O	
+1-26	.	$.	.	_	O	O	
+
+#id=2
+#text=( Usedoms) "Politische Bilder etc. aus der Gegenwart", Briefwechsel zwischen M. und G. machen hier Aufsehen und sind ohne Zweifel auch in Ihren Händen.
+2-1	(	$(	(	_	O	O	
+2-2	Usedoms	NE	<unknown>	_	O	O	
+2-3	)	$(	)	_	O	O	
+2-4	"	$(	"	_	O	O	
+2-5	Politische	ADJA	politisch	_	O	O	
+2-6	Bilder	NN	Bild	_	O	O	
+2-7	etc.	ADV	etc.	_	O	O	
+2-8	aus	APPR	aus	_	O	O	
+2-9	der	ART	die	_	O	O	
+2-10	Gegenwart	NN	Gegenwart	_	O	O	
+2-11	"	$(	"	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	Briefwechsel	NN	Briefwechsel	_	O	O	
+2-14	zwischen	APPR	zwischen	_	O	O	
+2-15	M.	NE	M.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-16	und	KON	und	_	O	O	
+2-17	G.	NE	G.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-18	machen	VVFIN	machen	_	O	O	
+2-19	hier	ADV	hier	_	O	O	
+2-20	Aufsehen	NN	Aufsehen	_	O	O	
+2-21	und	KON	und	_	O	O	
+2-22	sind	VAFIN	sein	_	O	O	
+2-23	ohne	APPR	ohne	_	O	O	
+2-24	Zweifel	NN	Zweifel	_	O	O	
+2-25	auch	ADV	auch	_	O	O	
+2-26	in	APPR	in	_	O	O	
+2-27	Ihren	PPOSAT	ihr	_	O	O	
+2-28	Händen	NN	Hand	_	O	O	
+2-29	.	$.	.	_	O	O	
+
+#id=3
+#text=Er selbst, meint man hier, müsse bald hieher zurück wo er zu wirken berufen sei.
+3-1	Er	PPER	er	_	O	O	
+3-2	selbst	ADV	selbst	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	meint	VVFIN	meinen	_	O	O	
+3-5	man	PIS	man	_	O	O	
+3-6	hier	ADV	hier	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	müsse	VMFIN	müssen	_	O	O	
+3-9	bald	ADV	bald	_	O	O	
+3-10	hieher	NN	<unknown>	_	O	O	
+3-11	zurück	PTKVZ	zurück	_	O	O	
+3-12	wo	PWAV	wo	_	O	O	
+3-13	er	PPER	er	_	O	O	
+3-14	zu	PTKZU	zu	_	O	O	
+3-15	wirken	VVINF	wirken	_	O	O	
+3-16	berufen	VVINF	berufen	_	O	O	
+3-17	sei	VAFIN	sein	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Ihr Manuscript über Duccio liegt auch schon lange unverfügt bei mir.
+4-1	Ihr	PPOSAT	ihr	_	O	O	
+4-2	Manuscript	NN	<unknown>	_	O	O	
+4-3	über	APPR	über	_	O	O	
+4-4	Duccio	NE	Duccio	_	O	O	
+4-5	liegt	VVFIN	liegen	_	O	O	
+4-6	auch	ADV	auch	_	O	O	
+4-7	schon	ADV	schon	_	O	O	
+4-8	lange	ADV	lange	_	O	O	
+4-9	unverfügt	ADJD	<unknown>	_	O	O	
+4-10	bei	APPR	bei	_	O	O	
+4-11	mir	PPER	ich	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Archäologische Zeitung hat allerdings sehr wenig Spielraum; Tagesberichte aber und pikante kurze Artikel zum archäologischen Allerlei sind mir von sämtlichen guten Freunden, von Ihnen was Sie mir überhaupt schicken wollen mir willkommen.
+5-1	Die	ART	die	_	O	O	
+5-2	Archäologische	ADJA	archäologisch	_	O	O	
+5-3	Zeitung	NN	Zeitung	_	O	O	
+5-4	hat	VAFIN	haben	_	O	O	
+5-5	allerdings	ADV	allerdings	_	O	O	
+5-6	sehr	ADV	sehr	_	O	O	
+5-7	wenig	PIAT	wenige	_	O	O	
+5-8	Spielraum	NN	Spielraum	_	O	O	
+5-9	;	$.	;	_	O	O	
+5-10	Tagesberichte	NN	<unknown>	_	O	O	
+5-11	aber	ADV	aber	_	O	O	
+5-12	und	KON	und	_	O	O	
+5-13	pikante	ADJA	pikant	_	O	O	
+5-14	kurze	ADJA	kurz	_	O	O	
+5-15	Artikel	NN	Artikel	_	O	O	
+5-16	zum	APPRART	zu	_	O	O	
+5-17	archäologischen	ADJA	archäologisch	_	O	O	
+5-18	Allerlei	NN	Allerlei	_	O	O	
+5-19	sind	VAFIN	sein	_	O	O	
+5-20	mir	PPER	ich	_	O	O	
+5-21	von	APPR	von	_	O	O	
+5-22	sämtlichen	PIAT	sämtliche	_	O	O	
+5-23	guten	ADJA	gut	_	O	O	
+5-24	Freunden	NN	Freund	_	O	O	
+5-25	,	$,	,	_	O	O	
+5-26	von	APPR	von	_	O	O	
+5-27	Ihnen	PPER	Sie	_	O	O	
+5-28	was	PRELS	was	_	O	O	
+5-29	Sie	PPER	Sie	_	O	O	
+5-30	mir	PRF	ich	_	O	O	
+5-31	überhaupt	ADV	überhaupt	_	O	O	
+5-32	schicken	VVINF	schicken	_	O	O	
+5-33	wollen	VMFIN	wollen	_	O	O	
+5-34	mir	PPER	ich	_	O	O	
+5-35	willkommen	ADJD	willkommen	_	O	O	
+5-36	.	$.	.	_	O	O	
+
+#id=6
+#text=Besondrer Ansichten über Deukalion bin ich mir nicht bewußt, freue mich aber von Posadowski gutes zu hören, der hier geisteskrank (?)
+6-1	Besondrer	ADJA	<unknown>	_	O	O	
+6-2	Ansichten	NN	Ansicht	_	O	O	
+6-3	über	APPR	über	_	O	O	
+6-4	Deukalion	ADJA	<unknown>	_	O	O	
+6-5	bin	VAFIN	sein	_	O	O	
+6-6	ich	PPER	ich	_	O	O	
+6-7	mir	PRF	ich	_	O	O	
+6-8	nicht	PTKNEG	nicht	_	O	O	
+6-9	bewußt	ADJD	bewusst	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	freue	VVFIN	freuen	_	O	O	
+6-12	mich	PRF	ich	_	O	O	
+6-13	aber	ADV	aber	_	O	O	
+6-14	von	APPR	von	_	O	O	
+6-15	Posadowski	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-16	gutes	ADJA	gut	_	O	O	
+6-17	zu	PTKZU	zu	_	O	O	
+6-18	hören	VVINF	hören	_	O	O	
+6-19	,	$,	,	_	O	O	
+6-20	der	PRELS	die	_	O	O	
+6-21	hier	ADV	hier	_	O	O	
+6-22	geisteskrank	ADJD	geisteskrank	_	O	O	
+6-23	(	$(	(	_	O	O	
+6-24	?	$.	?	_	O	O	
+6-25	)	$(	)	_	O	O	
+
+#id=7
+#text=gesagt wurde.
+7-1	gesagt	VVPP	sagen	_	O	O	
+7-2	wurde	VAFIN	werden	_	O	O	
+7-3	.	$.	.	_	O	O	
+
+#id=8
+#text=Grüssen Sie ihn samt Heneien, , Brunn Schmidt etc.
+8-1	Grüssen	VVFIN	grüßen	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	ihn	PPER	er	_	O	O	
+8-4	samt	APPR	samt	_	O	O	
+8-5	Heneien	NN	<unknown>	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-9	Schmidt	NE	Schmidt	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-10	etc.	ADV	etc.	_	O	O	
+
+#id=9
+#text=Meine Frau hat nach leidenden Monaten jetzt ein paar gute Tage gehabt, in denen aber eine seit geraumer Zeit behütete nrüsenanschwellung der Brust sie auf ganz andre Besorgnisse hinlenkt die von ihrer seligen Mutter her ihr furchtbar sind.
+9-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-3	hat	VAFIN	haben	_	O	O	
+9-4	nach	APPR	nach	_	O	O	
+9-5	leidenden	ADJA	leidend	_	O	O	
+9-6	Monaten	NN	Monat	_	O	O	
+9-7	jetzt	ADV	jetzt	_	O	O	
+9-8	ein	ART	eine	_	O	O	
+9-9	paar	PIAT	paar	_	O	O	
+9-10	gute	ADJA	gut	_	O	O	
+9-11	Tage	NN	Tag	_	O	O	
+9-12	gehabt	VAPP	haben	_	O	O	
+9-13	,	$,	,	_	O	O	
+9-14	in	APPR	in	_	O	O	
+9-15	denen	PRELS	die	_	O	O	
+9-16	aber	ADV	aber	_	O	O	
+9-17	eine	ART	eine	_	O	O	
+9-18	seit	APPR	seit	_	O	O	
+9-19	geraumer	ADJA	geraum	_	O	O	
+9-20	Zeit	NN	Zeit	_	O	O	
+9-21	behütete	ADJA	behütet	_	O	O	
+9-22	nrüsenanschwellung	NN	<unknown>	_	O	O	
+9-23	der	ART	die	_	O	O	
+9-24	Brust	NN	Brust	_	O	O	
+9-25	sie	PPER	sie	_	O	O	
+9-26	auf	APPR	auf	_	O	O	
+9-27	ganz	ADV	ganz	_	O	O	
+9-28	andre	PIAT	andere	_	O	O	
+9-29	Besorgnisse	NN	Besorgnis	_	O	O	
+9-30	hinlenkt	VVFIN	<unknown>	_	O	O	
+9-31	die	ART	die	_	O	O	
+9-32	von	APPR	von	_	O	O	
+9-33	ihrer	PPOSAT	ihr	_	O	O	
+9-34	seligen	ADJA	selig	_	O	O	
+9-35	Mutter	NN	Mutter	_	O	O	
+9-36	her	APZR	her	_	O	O	
+9-37	ihr	PPOSAT	ihr	_	O	O	
+9-38	furchtbar	ADJD	furchtbar	_	O	O	
+9-39	sind	VAFIN	sein	_	O	O	
+9-40	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich bin dadurch vernnIaßt worden sie wieder einmal einen Brief über Gesundheitssachen schreiben zu lassen der offen an Wahle geschrieben und zu-
+10-1	Ich	PPER	ich	_	O	O	
+10-2	bin	VAFIN	sein	_	O	O	
+10-3	dadurch	PAV	dadurch	_	O	O	
+10-4	vernnIaßt	ADJD	<unknown>	_	O	O	
+10-5	worden	VAPP	werden	_	O	O	
+10-6	sie	PPER	sie	_	O	O	
+10-7	wieder	ADV	wieder	_	O	O	
+10-8	einmal	ADV	einmal	_	O	O	
+10-9	einen	ART	eine	_	O	O	
+10-10	Brief	NN	Brief	_	O	O	
+10-11	über	APPR	über	_	O	O	
+10-12	Gesundheitssachen	NN	<unknown>	_	O	O	
+10-13	schreiben	VVINF	schreiben	_	O	O	
+10-14	zu	PTKZU	zu	_	O	O	
+10-15	lassen	VVINF	lassen	_	O	O	
+10-16	der	ART	die	_	O	O	
+10-17	offen	ADJD	offen	_	O	O	
+10-18	an	APPR	an	_	O	O	
+10-19	Wahle	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-20	geschrieben	VVPP	schreiben	_	O	O	
+10-21	und	KON	und	_	O	O	
+10-22	zu-	TRUNC	zu-	_	O	O	
+

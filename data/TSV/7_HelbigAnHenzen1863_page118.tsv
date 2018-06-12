@@ -1,0 +1,233 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=428 H Lieber Herr Professor Helbig an Henzen Sorrent, 23. September 1869 g. 25/9 69 r. Sorrento, Villa Falcon 23/9 1869 Meine Frau ist, wie es scheint, vollständig wieder hergestellt und könnte in diesen Tagen reisen.
+1-1	428	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-9	Sorrent	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1869	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	25/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	69	CARD	69	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+1-19	Sorrento	NN	<unknown>	_	O	O	
+1-20	,	$,	,	_	O	O	
+1-21	Villa	NN	Villa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-22	Falcon	NE	Falcon	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+1-23	23/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-24	1869	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-25	Meine	PPOSAT	mein	_	O	O	
+1-26	Frau	NN	Frau	_	O	O	
+1-27	ist	VAFIN	sein	_	O	O	
+1-28	,	$,	,	_	O	O	
+1-29	wie	KOUS	wie	_	O	O	
+1-30	es	PPER	es	_	O	O	
+1-31	scheint	VVFIN	scheinen	_	O	O	
+1-32	,	$,	,	_	O	O	
+1-33	vollständig	ADJD	vollständig	_	O	O	
+1-34	wieder	ADV	wieder	_	O	O	
+1-35	hergestellt	VVPP	herstellen	_	O	O	
+1-36	und	KON	und	_	O	O	
+1-37	könnte	VMFIN	können	_	O	O	
+1-38	in	APPR	in	_	O	O	
+1-39	diesen	PDAT	dies	_	O	O	
+1-40	Tagen	NN	Tag	_	O	O	
+1-41	reisen	VVINF	reisen	_	O	O	
+1-42	.	$.	.	_	O	O	
+
+#id=2
+#text=Gott sei Dank, daß sie wieder so weit ist.
+2-1	Gott	NN	Gott	_	O	O	
+2-2	sei	VAFIN	sein	_	O	O	
+2-3	Dank	NN	Dank	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	daß	KOUS	dass	_	O	O	
+2-6	sie	PPER	sie	_	O	O	
+2-7	wieder	ADV	wieder	_	O	O	
+2-8	so	ADV	so	_	O	O	
+2-9	weit	ADJD	weit	_	O	O	
+2-10	ist	VAFIN	sein	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Nichts desto weniger scheint es, als ob uns in dieser Villegiatur mancherlei Unangenehmes passiren sollte.
+3-1	Nichts	PIAT	nichts	_	O	O	
+3-2	desto	KON	desto	_	O	O	
+3-3	weniger	PIS	wenige	_	O	O	
+3-4	scheint	VVFIN	scheinen	_	O	O	
+3-5	es	PPER	es	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	als	KOKOM	als	_	O	O	
+3-8	ob	KOUS	ob	_	O	O	
+3-9	uns	PPER	wir	_	O	O	
+3-10	in	APPR	in	_	O	O	
+3-11	dieser	PDAT	dies	_	O	O	
+3-12	Villegiatur	NN	<unknown>	_	O	O	
+3-13	mancherlei	PIAT	mancherlei	_	O	O	
+3-14	Unangenehmes	ADJA	unangenehm	_	O	O	
+3-15	passiren	NN	<unknown>	_	O	O	
+3-16	sollte	VMFIN	sollen	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Unser Monatswechsel sollte schon seit 5 Tagen in Sorrento sein.
+4-1	Unser	PPOSAT	unser	_	O	O	
+4-2	Monatswechsel	NN	Monatswechsel	_	O	O	
+4-3	sollte	VMFIN	sollen	_	O	O	
+4-4	schon	ADV	schon	_	O	O	
+4-5	seit	APPR	seit	_	O	O	
+4-6	5	CARD	5	_	O	O	
+4-7	Tagen	NN	Tag	_	O	O	
+4-8	in	APPR	in	_	O	O	
+4-9	Sorrento	NN	<unknown>	_	O	O	
+4-10	sein	VAINF	sein	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Aus telegraphischer Anfrage und Antwort geht hervor, daß er bereits seit 13 Tagen von Moskau abgegangen, also definitiv verloren ist.
+5-1	Aus	APPR	aus	_	O	O	
+5-2	telegraphischer	ADJA	<unknown>	_	O	O	
+5-3	Anfrage	NN	Anfrage	_	O	O	
+5-4	und	KON	und	_	O	O	
+5-5	Antwort	NN	Antwort	_	O	O	
+5-6	geht	VVFIN	gehen	_	O	O	
+5-7	hervor	PTKVZ	hervor	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	daß	KOUS	dass	_	O	O	
+5-10	er	PPER	er	_	O	O	
+5-11	bereits	ADV	bereits	_	O	O	
+5-12	seit	APPR	seit	_	O	O	
+5-13	13	CARD	13	_	O	O	
+5-14	Tagen	NN	Tag	_	O	O	
+5-15	von	APPR	von	_	O	O	
+5-16	Moskau	NE	Moskau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-17	abgegangen	VVPP	abgehen	_	O	O	
+5-18	,	$,	,	_	O	O	
+5-19	also	ADV	also	_	O	O	
+5-20	definitiv	ADJD	definitiv	_	O	O	
+5-21	verloren	VVPP	verlieren	_	O	O	
+5-22	ist	VAFIN	sein	_	O	O	
+5-23	.	$.	.	_	O	O	
+
+#id=6
+#text=Unter solchen Umständen bleibt mir nichts übrig, als Sie zu bitten, mir meinen Quartalgehalt hierher zu schicken.
+6-1	Unter	APPR	unter	_	O	O	
+6-2	solchen	PIAT	solche	_	O	O	
+6-3	Umständen	NN	Umstand	_	O	O	
+6-4	bleibt	VVFIN	bleiben	_	O	O	
+6-5	mir	PPER	ich	_	O	O	
+6-6	nichts	PIS	nichts	_	O	O	
+6-7	übrig	ADJD	übrig	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	als	KOKOM	als	_	O	O	
+6-10	Sie	PPER	Sie	_	O	O	
+6-11	zu	PTKZU	zu	_	O	O	
+6-12	bitten	VVINF	bitten	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	mir	PPER	ich	_	O	O	
+6-15	meinen	VVFIN	meinen	_	O	O	
+6-16	Quartalgehalt	NN	<unknown>	_	O	O	
+6-17	hierher	PAV	hierher	_	O	O	
+6-18	zu	PTKZU	zu	_	O	O	
+6-19	schicken	VVINF	schicken	_	O	O	
+6-20	.	$.	.	_	O	O	
+
+#id=7
+#text=Lassen Sie, bitte, bei Kolb einen Wechsel, der den Betrag desselben repräsentirt, auf meinen Namen auf ein neapolitanisches Haus ausstellen und tragen Sie, bitte, dabei Sorge, daß diese Summe nicht wiederum aus Mißverständnis auf meine Rechnung kommt.
+7-1	Lassen	VVFIN	lassen	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	,	$,	,	_	O	O	
+7-4	bitte	VVIMP	bitten	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	bei	APPR	bei	_	O	O	
+7-7	Kolb	NE	Kolb	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-8	einen	ART	eine	_	O	O	
+7-9	Wechsel	NN	Wechsel	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	der	PRELS	die	_	O	O	
+7-12	den	ART	die	_	O	O	
+7-13	Betrag	NN	Betrag	_	O	O	
+7-14	desselben	PDAT	derselb	_	O	O	
+7-15	repräsentirt	NN	<unknown>	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	auf	APPR	auf	_	O	O	
+7-18	meinen	PPOSAT	mein	_	O	O	
+7-19	Namen	NN	Name	_	O	O	
+7-20	auf	APPR	auf	_	O	O	
+7-21	ein	ART	eine	_	O	O	
+7-22	neapolitanisches	ADJA	neapolitanisch	_	O	O	
+7-23	Haus	NN	Haus	_	O	O	
+7-24	ausstellen	VVINF	ausstellen	_	O	O	
+7-25	und	KON	und	_	O	O	
+7-26	tragen	VVFIN	tragen	_	O	O	
+7-27	Sie	PPER	Sie	_	O	O	
+7-28	,	$,	,	_	O	O	
+7-29	bitte	VVIMP	bitten	_	O	O	
+7-30	,	$,	,	_	O	O	
+7-31	dabei	PAV	dabei	_	O	O	
+7-32	Sorge	NN	Sorge	_	O	O	
+7-33	,	$,	,	_	O	O	
+7-34	daß	KOUS	dass	_	O	O	
+7-35	diese	PDAT	dies	_	O	O	
+7-36	Summe	NN	Summe	_	O	O	
+7-37	nicht	PTKNEG	nicht	_	O	O	
+7-38	wiederum	ADV	wiederum	_	O	O	
+7-39	aus	APPR	aus	_	O	O	
+7-40	Mißverständnis	NN	Missverständnis	_	O	O	
+7-41	auf	APPR	auf	_	O	O	
+7-42	meine	PPOSAT	mein	_	O	O	
+7-43	Rechnung	NN	Rechnung	_	O	O	
+7-44	kommt	VVFIN	kommen	_	O	O	
+7-45	.	$.	.	_	O	O	
+
+#id=8
+#text=Entschuldigen Sie diesen Impiccio.
+8-1	Entschuldigen	VVFIN	entschuldigen	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	diesen	PDAT	dies	_	O	O	
+8-4	Impiccio	NN	<unknown>	_	O	O	
+8-5	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich würde direct an Kolb schreiben, wenn ich über den Betrag meiner eigenen Rechnung besser unterrichtet wäre, die jedoch augenblicklich durch die Auslage für das Museum unübersehbar ist.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	würde	VAFIN	werden	_	O	O	
+9-3	direct	NE	direct	_	O	O	
+9-4	an	APPR	an	_	O	O	
+9-5	Kolb	NE	Kolb	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-6	schreiben	VVINF	schreiben	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	wenn	KOUS	wenn	_	O	O	
+9-9	ich	PPER	ich	_	O	O	
+9-10	über	APPR	über	_	O	O	
+9-11	den	ART	die	_	O	O	
+9-12	Betrag	NN	Betrag	_	O	O	
+9-13	meiner	PPOSAT	mein	_	O	O	
+9-14	eigenen	ADJA	eigen	_	O	O	
+9-15	Rechnung	NN	Rechnung	_	O	O	
+9-16	besser	ADJD	gut	_	O	O	
+9-17	unterrichtet	VVPP	unterrichten	_	O	O	
+9-18	wäre	VAFIN	sein	_	O	O	
+9-19	,	$,	,	_	O	O	
+9-20	die	PRELS	die	_	O	O	
+9-21	jedoch	ADV	jedoch	_	O	O	
+9-22	augenblicklich	ADJD	augenblicklich	_	O	O	
+9-23	durch	APPR	durch	_	O	O	
+9-24	die	ART	die	_	O	O	
+9-25	Auslage	NN	Auslage	_	O	O	
+9-26	für	APPR	für	_	O	O	
+9-27	das	ART	die	_	O	O	
+9-28	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-29	unübersehbar	ADJD	unübersehbar	_	O	O	
+9-30	ist	VAFIN	sein	_	O	O	
+9-31	.	$.	.	_	O	O	
+

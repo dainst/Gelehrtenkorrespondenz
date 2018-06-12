@@ -1,0 +1,281 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=47 26/11/55 Verehrter Herr Professor Henzen an Gerhard Rom 26/11 55 Zu meiner Verwunderung schweigt Ihr 1.
+1-1	47	CARD	47	_	O	O	
+1-2	26/11/55	CARD	@card@	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	26/11	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	55	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Zu	APPR	zu	_	O	O	
+1-13	meiner	PPOSAT	mein	_	O	O	
+1-14	Verwunderung	NN	Verwunderung	_	O	O	
+1-15	schweigt	VVFIN	schweigen	_	O	O	
+1-16	Ihr	PPOSAT	ihr	_	O	O	
+1-17	1	CARD	1	_	O	O	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Brief vom 16 n • d. M. gänzlich über den meinigen vom 27 n • Januar u. fühle ich daher sehr den Verlust desselben, der mir sehr leid thun würde, da dieser Brief zugleich eine Eingabe an die epigraphische Commission enthält.
+2-1	Brief	NN	Brief	_	O	O	
+2-2	vom	APPRART	von	_	O	O	
+2-3	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-4	n	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-5	•	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-6	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-7	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-8	gänzlich	ADJD	gänzlich	_	O	O	
+2-9	über	APPR	über	_	O	O	
+2-10	den	ART	die	_	O	O	
+2-11	meinigen	PPOSS	meinig	_	O	O	
+2-12	vom	APPRART	von	_	O	O	
+2-13	27	CARD	27	_	O	O	
+2-14	n	ADJA	<unknown>	_	O	O	
+2-15	•	ADJA	<unknown>	_	O	O	
+2-16	Januar	NN	Januar	_	O	O	
+2-17	u.	KON	und	_	O	O	
+2-18	fühle	VVFIN	fühlen	_	O	O	
+2-19	ich	PPER	ich	_	O	O	
+2-20	daher	PAV	daher	_	O	O	
+2-21	sehr	ADV	sehr	_	O	O	
+2-22	den	ART	die	_	O	O	
+2-23	Verlust	NN	Verlust	_	O	O	
+2-24	desselben	PDS	derselbe	_	O	O	
+2-25	,	$,	,	_	O	O	
+2-26	der	PRELS	die	_	O	O	
+2-27	mir	PPER	ich	_	O	O	
+2-28	sehr	ADV	sehr	_	O	O	
+2-29	leid	ADJD	leid	_	O	O	
+2-30	thun	ADJD	<unknown>	_	O	O	
+2-31	würde	VAFIN	werden	_	O	O	
+2-32	,	$,	,	_	O	O	
+2-33	da	KOUS	da	_	O	O	
+2-34	dieser	PDAT	dies	_	O	O	
+2-35	Brief	NN	Brief	_	O	O	
+2-36	zugleich	ADV	zugleich	_	O	O	
+2-37	eine	ART	eine	_	O	O	
+2-38	Eingabe	NN	Eingabe	_	O	O	
+2-39	an	APPR	an	_	O	O	
+2-40	die	ART	die	_	O	O	
+2-41	epigraphische	ADJA	<unknown>	_	O	O	
+2-42	Commission	NN	<unknown>	_	O	O	
+2-43	enthält	VVFIN	enthalten	_	O	O	
+2-44	.	$.	.	_	O	O	
+
+#id=3
+#text=Gleichzeitig hatte ich an Pinder geschrieben ( Einlage an Parthey ), u. weiß Gott, ob auch dieser Brief verloren.
+3-1	Gleichzeitig	ADJD	gleichzeitig	_	O	O	
+3-2	hatte	VAFIN	haben	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	an	APPR	an	_	O	O	
+3-5	Pinder	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	geschrieben	VVPP	schreiben	_	O	O	
+3-7	(	$(	(	_	O	O	
+3-8	Einlage	NN	Einlage	_	O	O	
+3-9	an	APPR	an	_	O	O	
+3-10	Parthey	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-11	)	$(	)	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	u.	KON	und	_	O	O	
+3-14	weiß	VVFIN	wissen	_	O	O	
+3-15	Gott	NN	Gott	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	ob	KOUS	ob	_	O	O	
+3-18	auch	ADV	auch	_	O	O	
+3-19	dieser	PDAT	dies	_	O	O	
+3-20	Brief	NN	Brief	_	O	O	
+3-21	verloren	VVPP	verlieren	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Briefe betrafen sämmtlich die akademische Einladungsschrift zur Einsendung von Material für das C.I.L., in welcher Mommsen's Modification meiner Fassung nicht annehmbar, vielmehr geeignet ist, durch Entfremdung de Rossi's uns hier Alles zu verderben.
+4-1	Die	ART	die	_	O	O	
+4-2	Briefe	NN	Brief	_	O	O	
+4-3	betrafen	VVFIN	betreffen	_	O	O	
+4-4	sämmtlich	ADJD	<unknown>	_	O	O	
+4-5	die	ART	die	_	O	O	
+4-6	akademische	ADJA	akademisch	_	O	O	
+4-7	Einladungsschrift	NN	<unknown>	_	O	O	
+4-8	zur	APPRART	zu	_	O	O	
+4-9	Einsendung	NN	Einsendung	_	O	O	
+4-10	von	APPR	von	_	O	O	
+4-11	Material	NN	Material	_	O	O	
+4-12	für	APPR	für	_	O	O	
+4-13	das	ART	die	_	O	O	
+4-14	C.I.L.	NE	<unknown>	_	O	O	
+4-15	,	$,	,	_	O	O	
+4-16	in	APPR	in	_	O	O	
+4-17	welcher	PRELS	welche	_	O	O	
+4-18	Mommsen's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-19	Modification	NN	<unknown>	_	O	O	
+4-20	meiner	PPOSAT	mein	_	O	O	
+4-21	Fassung	NN	Fassung	_	O	O	
+4-22	nicht	PTKNEG	nicht	_	O	O	
+4-23	annehmbar	ADJD	annehmbar	_	O	O	
+4-24	,	$,	,	_	O	O	
+4-25	vielmehr	ADV	vielmehr	_	O	O	
+4-26	geeignet	ADJD	geeignet	_	O	O	
+4-27	ist	VAFIN	sein	_	O	O	
+4-28	,	$,	,	_	O	O	
+4-29	durch	APPR	durch	_	O	O	
+4-30	Entfremdung	NN	Entfremdung	_	O	O	
+4-31	de	NE	de	_	O	O	
+4-32	Rossi's	VVFIN	<unknown>	_	O	O	
+4-33	uns	PPER	wir	_	O	O	
+4-34	hier	ADV	hier	_	O	O	
+4-35	Alles	PIS	alle	_	O	O	
+4-36	zu	PTKZU	zu	_	O	O	
+4-37	verderben	VVINF	verderben	_	O	O	
+4-38	.	$.	.	_	O	O	
+
+#id=5
+#text=Mein Antrag ist, wenigstens Z. 16 - 17 zu streichen : in inscriptionibus nobis Romae colligendis atque edendis u. nach Romanorum ein et einzuschieben.
+5-1	Mein	PPOSAT	mein	_	O	O	
+5-2	Antrag	NN	Antrag	_	O	O	
+5-3	ist	VAFIN	sein	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	wenigstens	ADV	wenigstens	_	O	O	
+5-6	Z.	NE	Z.	_	O	O	
+5-7	16	CARD	16	_	O	O	
+5-8	-	$(	-	_	O	O	
+5-9	17	CARD	17	_	O	O	
+5-10	zu	PTKZU	zu	_	O	O	
+5-11	streichen	VVINF	streichen	_	O	O	
+5-12	:	$.	:	_	O	O	
+5-13	in	APPR	in	_	O	O	
+5-14	inscriptionibus	NN	<unknown>	_	O	O	
+5-15	nobis	NE	<unknown>	_	O	O	
+5-16	Romae	NE	<unknown>	_	O	O	
+5-17	colligendis	NE	<unknown>	_	O	O	
+5-18	atque	NE	<unknown>	_	O	O	
+5-19	edendis	NE	<unknown>	_	O	O	
+5-20	u.	KON	und	_	O	O	
+5-21	nach	APPR	nach	_	O	O	
+5-22	Romanorum	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-23	ein	ART	eine	_	O	O	
+5-24	et	FM	et	_	O	O	
+5-25	einzuschieben	VVIZU	einschieben	_	O	O	
+5-26	.	$.	.	_	O	O	
+
+#id=6
+#text=- Die jetzige Fassung widerspricht nicht bloß früheren Briefen Mommsen's, sondern auch den Thatsachen.
+6-1	-	$(	-	_	O	O	
+6-2	Die	ART	die	_	O	O	
+6-3	jetzige	ADJA	jetzig	_	O	O	
+6-4	Fassung	NN	Fassung	_	O	O	
+6-5	widerspricht	VVFIN	widersprechen	_	O	O	
+6-6	nicht	PTKNEG	nicht	_	O	O	
+6-7	bloß	ADJD	bloß	_	O	O	
+6-8	früheren	ADJA	früh	_	O	O	
+6-9	Briefen	NN	Brief	_	O	O	
+6-10	Mommsen's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-11	,	$,	,	_	O	O	
+6-12	sondern	KON	sondern	_	O	O	
+6-13	auch	ADV	auch	_	O	O	
+6-14	den	ART	die	_	O	O	
+6-15	Thatsachen	NN	<unknown>	_	O	O	
+6-16	.	$.	.	_	O	O	
+
+#id=7
+#text=Mommsen hat sich mit einer Modification bereits einverstanden erklärt, sofern seine Fassung Unheil stiften könnte, was unfehlbar der F~ll.
+7-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	hat	VAFIN	haben	_	O	O	
+7-3	sich	PRF	sich	_	O	O	
+7-4	mit	APPR	mit	_	O	O	
+7-5	einer	ART	eine	_	O	O	
+7-6	Modification	NN	<unknown>	_	O	O	
+7-7	bereits	ADV	bereits	_	O	O	
+7-8	einverstanden	ADJD	einverstanden	_	O	O	
+7-9	erklärt	VVPP	erklären	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	sofern	KOUS	sofern	_	O	O	
+7-12	seine	PPOSAT	sein	_	O	O	
+7-13	Fassung	NN	Fassung	_	O	O	
+7-14	Unheil	NN	Unheil	_	O	O	
+7-15	stiften	VVINF	stiften	_	O	O	
+7-16	könnte	VMFIN	können	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	was	PRELS	was	_	O	O	
+7-19	unfehlbar	ADJD	unfehlbar	_	O	O	
+7-20	der	ART	die	_	O	O	
+7-21	F~ll	NN	<unknown>	_	O	O	
+7-22	.	$.	.	_	O	O	
+
+#id=8
+#text=- Dieses in due parole der In~t meiner Briefe, Falls sie wirklich verloren, was jetzt öfter vorzukommen scheint.
+8-1	-	$(	-	_	O	O	
+8-2	Dieses	PDAT	dies	_	O	O	
+8-3	in	APPR	in	_	O	O	
+8-4	due	ADJA	<unknown>	_	O	O	
+8-5	parole	NN	Parole	_	O	O	
+8-6	der	ART	die	_	O	O	
+8-7	In~t	NN	<unknown>	_	O	O	
+8-8	meiner	PPOSAT	mein	_	O	O	
+8-9	Briefe	NN	Brief	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	Falls	KOUS	falls	_	O	O	
+8-12	sie	PPER	sie	_	O	O	
+8-13	wirklich	ADJD	wirklich	_	O	O	
+8-14	verloren	VVPP	verlieren	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	was	PRELS	was	_	O	O	
+8-17	jetzt	ADV	jetzt	_	O	O	
+8-18	öfter	ADV	öfter	_	O	O	
+8-19	vorzukommen	VVIZU	vorkommen	_	O	O	
+8-20	scheint	VVFIN	scheinen	_	O	O	
+8-21	.	$.	.	_	O	O	
+
+#id=9
+#text=Das Wüstemannische Diplom scheint ebenfalls verloren zu sein mit einem Briefe von mir über den Index, der nun neue Zögerung leidet.
+9-1	Das	ART	die	_	O	O	
+9-2	Wüstemannische	NN	<unknown>	_	O	O	
+9-3	Diplom	NN	Diplom	_	O	O	
+9-4	scheint	VVFIN	scheinen	_	O	O	
+9-5	ebenfalls	ADV	ebenfalls	_	O	O	
+9-6	verloren	VVPP	verlieren	_	O	O	
+9-7	zu	PTKZU	zu	_	O	O	
+9-8	sein	VAINF	sein	_	O	O	
+9-9	mit	APPR	mit	_	O	O	
+9-10	einem	ART	eine	_	O	O	
+9-11	Briefe	NN	Brief	_	O	O	
+9-12	von	APPR	von	_	O	O	
+9-13	mir	PPER	ich	_	O	O	
+9-14	über	APPR	über	_	O	O	
+9-15	den	ART	die	_	O	O	
+9-16	Index	NN	Index	_	O	O	
+9-17	,	$,	,	_	O	O	
+9-18	der	PRELS	die	_	O	O	
+9-19	nun	ADV	nun	_	O	O	
+9-20	neue	ADJA	neu	_	O	O	
+9-21	Zögerung	NN	<unknown>	_	O	O	
+9-22	leidet	VVFIN	leiden	_	O	O	
+9-23	.	$.	.	_	O	O	
+
+#id=10
+#text=Wüstemann schrieb neulich u. jammert über Ausbleiben der diesen betreffendenAntwort.
+10-1	Wüstemann	NE	Wüstemann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	schrieb	VVFIN	schreiben	_	O	O	
+10-3	neulich	ADV	neulich	_	O	O	
+10-4	u.	KON	und	_	O	O	
+10-5	jammert	VVFIN	jammern	_	O	O	
+10-6	über	APPR	über	_	O	O	
+10-7	Ausbleiben	NN	Ausbleiben	_	O	O	
+10-8	der	ART	die	_	O	O	
+10-9	diesen	PDAT	dies	_	O	O	
+10-10	betreffendenAntwort	NN	<unknown>	_	O	O	
+10-11	.	$.	.	_	O	O	
+
+#id=11
+#text=Braun unterschrieb an Welcker's Statt ds.
+11-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	unterschrieb	VVFIN	unterschreiben	_	O	O	
+11-3	an	APPR	an	_	O	O	
+11-4	Welcker's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-5	Statt	APPR	statt	_	O	O	
+11-6	ds.	ADJA	<unknown>	_	O	O	
+

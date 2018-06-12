@@ -1,0 +1,251 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=/ ) ( ~ \ 220 H Helbig an Henzen Neapel, 1. Juni 1864 Neapel 1. Juni 1864 g. 3/ r.
+1-1	/	$(	/	_	O	O	
+1-2	)	$(	)	_	O	O	
+1-3	(	$(	(	_	O	O	
+1-4	~	XY	~	_	O	O	
+1-5	\	XY	\	_	O	O	
+1-6	220	CARD	220	_	O	O	
+1-7	H	NN	H	_	O	O	
+1-8	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-9	an	APPR	an	_	O	O	
+1-10	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-11	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-12	,	$,	,	_	O	O	
+1-13	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-14	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-18	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	g.	VVFIN	<unknown>	_	O	O	
+1-23	3/	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-24	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=6/64 Geehrtester Herr Professor 1 Heute hat der Zeichner seine Arbeiten wieder beginnen können.
+2-1	6/64	CARD	@card@	_	O	O	
+2-2	Geehrtester	ADJA	<unknown>	_	O	O	
+2-3	Herr	NN	Herr	_	O	O	
+2-4	Professor	NN	Professor	_	O	O	
+2-5	1	CARD	1	_	O	O	
+2-6	Heute	ADV	heute	_	O	O	
+2-7	hat	VAFIN	haben	_	O	O	
+2-8	der	ART	die	_	O	O	
+2-9	Zeichner	NN	Zeichner	_	O	O	
+2-10	seine	PPOSAT	sein	_	O	O	
+2-11	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+2-12	wieder	ADV	wieder	_	O	O	
+2-13	beginnen	VVINF	beginnen	_	O	O	
+2-14	können	VMINF	können	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Doch denkt er sieh nur bis Montag nächster Woche hier aufzuhalten und bittet um Geld und zwar um 250 Francs.
+3-1	Doch	ADV	doch	_	O	O	
+3-2	denkt	VVFIN	denken	_	O	O	
+3-3	er	PPER	er	_	O	O	
+3-4	sieh	VVIMP	sehen	_	O	O	
+3-5	nur	ADV	nur	_	O	O	
+3-6	bis	APPR	bis	_	O	O	
+3-7	Montag	NN	Montag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-8	nächster	ADJA	nah	_	O	O	
+3-9	Woche	NN	Woche	_	O	O	
+3-10	hier	ADV	hier	_	O	O	
+3-11	aufzuhalten	VVIZU	aufhalten	_	O	O	
+3-12	und	KON	und	_	O	O	
+3-13	bittet	VVFIN	bitten	_	O	O	
+3-14	um	APPR	um	_	O	O	
+3-15	Geld	NN	Geld	_	O	O	
+3-16	und	KON	und	_	O	O	
+3-17	zwar	ADV	zwar	_	O	O	
+3-18	um	APPR	um	_	O	O	
+3-19	250	CARD	@card@	_	O	O	
+3-20	Francs	NN	Franc	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Rechenschaft wird er Ihnen in Rom ablegen.
+4-1	Die	ART	die	_	O	O	
+4-2	Rechenschaft	NN	Rechenschaft	_	O	O	
+4-3	wird	VAFIN	werden	_	O	O	
+4-4	er	PPER	er	_	O	O	
+4-5	Ihnen	PPER	Sie	_	O	O	
+4-6	in	APPR	in	_	O	O	
+4-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-8	ablegen	VVINF	ablegen	_	O	O	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=Unter gegenwärtigen Umständen, da er in Pompei nicht zeichnen kann, ist es kein Unglück, daß er abzureisen gedenkt.
+5-1	Unter	APPR	unter	_	O	O	
+5-2	gegenwärtigen	ADJA	gegenwärtig	_	O	O	
+5-3	Umständen	NN	Umstand	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	da	KOUS	da	_	O	O	
+5-6	er	PPER	er	_	O	O	
+5-7	in	APPR	in	_	O	O	
+5-8	Pompei	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-9	nicht	PTKNEG	nicht	_	O	O	
+5-10	zeichnen	VVINF	zeichnen	_	O	O	
+5-11	kann	VMFIN	können	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	ist	VAFIN	sein	_	O	O	
+5-14	es	PPER	es	_	O	O	
+5-15	kein	PIAT	keine	_	O	O	
+5-16	Unglück	NN	Unglück	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	daß	KOUS	dass	_	O	O	
+5-19	er	PPER	er	_	O	O	
+5-20	abzureisen	VVIZU	abreisen	_	O	O	
+5-21	gedenkt	VVFIN	gedenken	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Hauptsache im Museum ist gemacht.
+6-1	Die	ART	die	_	O	O	
+6-2	Hauptsache	NN	Hauptsache	_	O	O	
+6-3	im	APPRART	in	_	O	O	
+6-4	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-5	ist	VAFIN	sein	_	O	O	
+6-6	gemacht	VVPP	machen	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=über die noch restirende Zeit werde ich nach bestem Wissen verfügen, da keine Zeit mehr vorliegt, um Verhaltungsmaßregeln einzuholen, wasche aber im Voraus meine Hände in Unschuld wegen Gerhard, von dem ich gestern einen ziemlich nörgelnden Brief erhalten habe.
+7-1	über	APPR	über	_	O	O	
+7-2	die	ART	die	_	O	O	
+7-3	noch	ADV	noch	_	O	O	
+7-4	restirende	ADJA	<unknown>	_	O	O	
+7-5	Zeit	NN	Zeit	_	O	O	
+7-6	werde	VAFIN	werden	_	O	O	
+7-7	ich	PPER	ich	_	O	O	
+7-8	nach	APPR	nach	_	O	O	
+7-9	bestem	ADJA	gut	_	O	O	
+7-10	Wissen	NN	Wissen	_	O	O	
+7-11	verfügen	VVINF	verfügen	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	da	KOUS	da	_	O	O	
+7-14	keine	PIAT	keine	_	O	O	
+7-15	Zeit	NN	Zeit	_	O	O	
+7-16	mehr	ADV	mehr	_	O	O	
+7-17	vorliegt	VVFIN	vorliegen	_	O	O	
+7-18	,	$,	,	_	O	O	
+7-19	um	KOUI	um	_	O	O	
+7-20	Verhaltungsmaßregeln	NN	<unknown>	_	O	O	
+7-21	einzuholen	VVIZU	einholen	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	wasche	VVFIN	waschen	_	O	O	
+7-24	aber	ADV	aber	_	O	O	
+7-25	im	APPRART	in	_	O	O	
+7-26	Voraus	NN	Voraus	_	O	O	
+7-27	meine	PPOSAT	mein	_	O	O	
+7-28	Hände	NN	Hand	_	O	O	
+7-29	in	APPR	in	_	O	O	
+7-30	Unschuld	NN	Unschuld	_	O	O	
+7-31	wegen	APPR	wegen	_	O	O	
+7-32	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-33	,	$,	,	_	O	O	
+7-34	von	APPR	von	_	O	O	
+7-35	dem	PRELS	die	_	O	O	
+7-36	ich	PPER	ich	_	O	O	
+7-37	gestern	ADV	gestern	_	O	O	
+7-38	einen	ART	eine	_	O	O	
+7-39	ziemlich	ADV	ziemlich	_	O	O	
+7-40	nörgelnden	ADJA	nörgelnd	_	O	O	
+7-41	Brief	NN	Brief	_	O	O	
+7-42	erhalten	VVPP	erhalten	_	O	O	
+7-43	habe	VAFIN	haben	_	O	O	
+7-44	.	$.	.	_	O	O	
+
+#id=8
+#text=Das Relief von Lecce habe ich nach Brunns Anweisung gekauft.
+8-1	Das	ART	die	_	O	O	
+8-2	Relief	NN	Relief	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-3	von	APPR	von	_	O	O	
+8-4	Lecce	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-5	habe	VAFIN	haben	_	O	O	
+8-6	ich	PPER	ich	_	O	O	
+8-7	nach	APPR	nach	_	O	O	
+8-8	Brunns	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-9	Anweisung	NN	Anweisung	_	O	O	
+8-10	gekauft	VVPP	kaufen	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Barone verlangte erst 100 Francs, ging aber bis zu 55 herunter.
+9-1	Barone	NN	Baron	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	verlangte	VVFIN	verlangen	_	O	O	
+9-3	erst	ADV	erst	_	O	O	
+9-4	100	CARD	100	_	O	O	
+9-5	Francs	NN	Franc	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	ging	VVFIN	gehen	_	O	O	
+9-8	aber	ADV	aber	_	O	O	
+9-9	bis	APPR	bis	_	O	O	
+9-10	zu	APPR	zu	_	O	O	
+9-11	55	CARD	@card@	_	O	O	
+9-12	herunter	PTKVZ	herunter	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=Gegenwärtig brauche ich noch kein Geld, bitte aber, falls es mir zu fehlen anfangen sollte, mir es hier irgendwo anzuweisen.
+10-1	Gegenwärtig	ADJD	gegenwärtig	_	O	O	
+10-2	brauche	VVFIN	brauchen	_	O	O	
+10-3	ich	PPER	ich	_	O	O	
+10-4	noch	ADV	noch	_	O	O	
+10-5	kein	PIAT	keine	_	O	O	
+10-6	Geld	NN	Geld	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	bitte	ADV	bitte	_	O	O	
+10-9	aber	ADV	aber	_	O	O	
+10-10	,	$,	,	_	O	O	
+10-11	falls	KOUS	falls	_	O	O	
+10-12	es	PPER	es	_	O	O	
+10-13	mir	PPER	ich	_	O	O	
+10-14	zu	PTKZU	zu	_	O	O	
+10-15	fehlen	VVINF	fehlen	_	O	O	
+10-16	anfangen	VVINF	anfangen	_	O	O	
+10-17	sollte	VMFIN	sollen	_	O	O	
+10-18	,	$,	,	_	O	O	
+10-19	mir	PPER	ich	_	O	O	
+10-20	es	PPER	es	_	O	O	
+10-21	hier	ADV	hier	_	O	O	
+10-22	irgendwo	ADV	irgendwo	_	O	O	
+10-23	anzuweisen	VVIZU	anweisen	_	O	O	
+10-24	.	$.	.	_	O	O	
+
+#id=11
+#text=Die Anweisung für den Zeichner dagegen bitte ich direct zu schicken, da ich mich hier nicht zu sehr ausgeben will.
+11-1	Die	ART	die	_	O	O	
+11-2	Anweisung	NN	Anweisung	_	O	O	
+11-3	für	APPR	für	_	O	O	
+11-4	den	ART	die	_	O	O	
+11-5	Zeichner	NN	Zeichner	_	O	O	
+11-6	dagegen	PAV	dagegen	_	O	O	
+11-7	bitte	VVFIN	bitten	_	O	O	
+11-8	ich	PPER	ich	_	O	O	
+11-9	direct	NE	direct	_	O	O	
+11-10	zu	PTKZU	zu	_	O	O	
+11-11	schicken	VVINF	schicken	_	O	O	
+11-12	,	$,	,	_	O	O	
+11-13	da	KOUS	da	_	O	O	
+11-14	ich	PPER	ich	_	O	O	
+11-15	mich	PRF	ich	_	O	O	
+11-16	hier	ADV	hier	_	O	O	
+11-17	nicht	PTKNEG	nicht	_	O	O	
+11-18	zu	PTKA	zu	_	O	O	
+11-19	sehr	ADV	sehr	_	O	O	
+11-20	ausgeben	VVINF	ausgeben	_	O	O	
+11-21	will	VMFIN	wollen	_	O	O	
+11-22	.	$.	.	_	O	O	
+
+#id=12
+#text=Betreffs Poz-
+12-1	Betreffs	NN	Betreff	_	O	O	
+12-2	Poz-	TRUNC	<unknown>	_	O	O	
+

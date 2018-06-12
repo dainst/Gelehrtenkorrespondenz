@@ -1,0 +1,211 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=I I 242 1/XI/51 3 Henzen an Gerhard Braun, durch die erbärmlichen Artikel in der A.A.Z. bekannter, als er verdient.
+1-1	I	FM	I	_	O	O	
+1-2	I	NN	I	_	O	O	
+1-3	242	CARD	@card@	_	O	O	
+1-4	1/XI/51	CARD	<unknown>	_	O	O	
+1-5	3	CARD	3	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-10	,	$,	,	_	O	O	
+1-11	durch	APPR	durch	_	O	O	
+1-12	die	ART	die	_	O	O	
+1-13	erbärmlichen	ADJA	erbärmlich	_	O	O	
+1-14	Artikel	NN	Artikel	_	O	O	
+1-15	in	APPR	in	_	O	O	
+1-16	der	ART	die	_	O	O	
+1-17	A.A.Z.	NE	<unknown>	_	O	O	
+1-18	bekannter	ADJA	bekannt	_	O	O	
+1-19	,	$,	,	_	O	O	
+1-20	als	KOKOM	als	_	O	O	
+1-21	er	PPER	er	_	O	O	
+1-22	verdient	VVPP	verdienen	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Dagegen ist Philippi's erneuter Aufenthalt mir sehr angenehm.
+2-1	Dagegen	PAV	dagegen	_	O	O	
+2-2	ist	VAFIN	sein	_	O	O	
+2-3	Philippi's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-4	erneuter	ADJA	erneut	_	O	O	
+2-5	Aufenthalt	NN	Aufenthalt	_	O	O	
+2-6	mir	PRF	ich	_	O	O	
+2-7	sehr	ADV	sehr	_	O	O	
+2-8	angenehm	ADJD	angenehm	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Meine Frau grüßt bestens bie u. die Ihrige.
+3-1	Meine	PPOSAT	mein	_	O	O	
+3-2	Frau	NN	Frau	_	O	O	
+3-3	grüßt	VVFIN	grüßen	_	O	O	
+3-4	bestens	ADV	bestens	_	O	O	
+3-5	bie	ADJD	<unknown>	_	O	O	
+3-6	u.	APPR	um	_	O	O	
+3-7	die	ART	die	_	O	O	
+3-8	Ihrige	PPOSAT	ihrige	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Vergessen bie auch nicht, uns Ihrer Frau Mutter u. Frll Bch zu empfehlen.
+4-1	Vergessen	NN	Vergessen	_	O	O	
+4-2	bie	VVFIN	<unknown>	_	O	O	
+4-3	auch	ADV	auch	_	O	O	
+4-4	nicht	PTKNEG	nicht	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	uns	PRF	wir	_	O	O	
+4-7	Ihrer	PPOSAT	ihr	_	O	O	
+4-8	Frau	NN	Frau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-9	Mutter	NN	Mutter	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-10	u.	APPR	um	_	O	O	
+4-11	Frll	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-12	Bch	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-13	zu	PTKZU	zu	_	O	O	
+4-14	empfehlen	VVINF	empfehlen	_	O	O	
+4-15	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihr r-~ Die nun folgenden Zeilen sind durchgestrichen : i In No.
+5-1	Ihr	PPER	sie	_	O	O	
+5-2	r-~	VVFIN	<unknown>	_	O	O	
+5-3	Die	ART	die	_	O	O	
+5-4	nun	ADV	nun	_	O	O	
+5-5	folgenden	ADJA	folgend	_	O	O	
+5-6	Zeilen	NN	Zeile	_	O	O	
+5-7	sind	VAFIN	sein	_	O	O	
+5-8	durchgestrichen	VVPP	durchstreichen	_	O	O	
+5-9	:	$.	:	_	O	O	
+5-10	i	NE	i	_	O	O	
+5-11	In	APPR	in	_	O	O	
+5-12	No.	ADJA	<unknown>	_	O	O	
+
+#id=6
+#text=26 der Denkmäl er und .l!
+6-1	26	CARD	26	_	O	O	
+6-2	der	ART	die	_	O	O	
+6-3	Denkmäl	NN	<unknown>	_	O	O	
+6-4	er	PPER	er	_	O	O	
+6-5	und	KON	und	_	O	O	
+6-6	.l	NN	<unknown>	_	O	O	
+6-7	!	$.	!	_	O	O	
+
+#id=7
+#text='orschungen, Sp.
+7-1	'	$(	'	_	O	O	
+7-2	orschungen	NN	<unknown>	_	O	O	
+7-3	,	$,	,	_	O	O	
+7-4	Sp.	NN	<unknown>	_	O	O	
+
+#id=8
+#text=303 f., sucht Herr Mercklin seine Erk~ärung der Inschrift von Tomi ( Januarheft 1850 ) gegen meine in No.
+8-1	303	CARD	@card@	_	O	O	
+8-2	f.	APPR	f.	_	O	O	
+8-3	,	$,	,	_	O	O	
+8-4	sucht	VVFIN	suchen	_	O	O	
+8-5	Herr	NN	Herr	_	O	O	
+8-6	Mercklin	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-7	seine	PPOSAT	sein	_	O	O	
+8-8	Erk~ärung	NN	<unknown>	_	O	O	
+8-9	der	ART	die	_	O	O	
+8-10	Inschrift	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-11	von	APPR	von	_	O	O	
+8-12	Tomi	NE	Tomi	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-13	(	$(	(	_	O	O	
+8-14	Januarheft	NN	Januarheft	_	O	O	
+8-15	1850	CARD	@card@	_	O	O	
+8-16	)	$(	)	_	O	O	
+8-17	gegen	APPR	gegen	_	O	O	
+8-18	meine	PPOSAT	mein	_	O	O	
+8-19	in	APPR	in	_	O	O	
+8-20	No.	ADJA	<unknown>	_	O	O	
+
+#id=9
+#text=21 mitgetheilten Bemerkungen zU rechtfertigen.
+9-1	21	CARD	21	_	O	O	
+9-2	mitgetheilten	ADJA	<unknown>	_	O	O	
+9-3	Bemerkungen	NN	Bemerkung	_	O	O	
+9-4	zU	ADV	zu	_	O	O	
+9-5	rechtfertigen	VVFIN	rechtfertigen	_	O	O	
+9-6	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich bemerke dagegen nur noch, daß mir die für die veteres bulentae oder die decuria vetus bulentarum beigebrachten Beispiele durchaus nicht hieher zu gehören scheinen, indem ich immer in denselben nur die decuriones Arretinorum veterum, decurio adlectus ex veteribus Nolaris, curiales veterum Parentanorum zu erkennen vermag.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	bemerke	VVFIN	bemerken	_	O	O	
+10-3	dagegen	PAV	dagegen	_	O	O	
+10-4	nur	ADV	nur	_	O	O	
+10-5	noch	ADV	noch	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	daß	KOUS	dass	_	O	O	
+10-8	mir	PPER	ich	_	O	O	
+10-9	die	ART	die	_	O	O	
+10-10	für	APPR	für	_	O	O	
+10-11	die	ART	die	_	O	O	
+10-12	veteres	ADJA	<unknown>	_	O	O	
+10-13	bulentae	NN	<unknown>	_	O	O	
+10-14	oder	KON	oder	_	O	O	
+10-15	die	ART	die	_	O	O	
+10-16	decuria	NE	<unknown>	_	O	O	
+10-17	vetus	ADJA	<unknown>	_	O	O	
+10-18	bulentarum	NN	<unknown>	_	O	O	
+10-19	beigebrachten	ADJA	beigebracht	_	O	O	
+10-20	Beispiele	NN	Beispiel	_	O	O	
+10-21	durchaus	ADV	durchaus	_	O	O	
+10-22	nicht	PTKNEG	nicht	_	O	O	
+10-23	hieher	NN	<unknown>	_	O	O	
+10-24	zu	PTKZU	zu	_	O	O	
+10-25	gehören	VVINF	gehören	_	O	O	
+10-26	scheinen	VVFIN	scheinen	_	O	O	
+10-27	,	$,	,	_	O	O	
+10-28	indem	KOUS	indem	_	O	O	
+10-29	ich	PPER	ich	_	O	O	
+10-30	immer	ADV	immer	_	O	O	
+10-31	in	APPR	in	_	O	O	
+10-32	denselben	PDAT	derselb	_	O	O	
+10-33	nur	ADV	nur	_	O	O	
+10-34	die	ART	die	_	O	O	
+10-35	decuriones	ADJA	<unknown>	_	O	O	
+10-36	Arretinorum	NN	<unknown>	_	O	O	
+10-37	veterum	ADJD	<unknown>	_	O	O	
+10-38	,	$,	,	_	O	O	
+10-39	decurio	VVFIN	<unknown>	_	O	O	
+10-40	adlectus	NE	<unknown>	_	O	O	
+10-41	ex	FM	ex	_	O	O	
+10-42	veteribus	ADJA	<unknown>	_	O	O	
+10-43	Nolaris	NN	<unknown>	_	O	O	
+10-44	,	$,	,	_	O	O	
+10-45	curiales	ADJA	<unknown>	_	O	O	
+10-46	veterum	ADJA	<unknown>	_	O	O	
+10-47	Parentanorum	NN	<unknown>	_	O	O	
+10-48	zu	PTKZU	zu	_	O	O	
+10-49	erkennen	VVINF	erkennen	_	O	O	
+10-50	vermag	VVFIN	vermag	_	O	O	
+10-51	.	$.	.	_	O	O	
+
+#id=11
+#text=Ferner, nicht mehr durchgestrichen Ich werde Obiges nächstens einschicken; es fehlt mir Zeit, es augenblicklich zu beendigen.
+11-1	Ferner	ADJD	fern	_	O	O	
+11-2	,	$,	,	_	O	O	
+11-3	nicht	PTKNEG	nicht	_	O	O	
+11-4	mehr	ADV	mehr	_	O	O	
+11-5	durchgestrichen	VVPP	durchstreichen	_	O	O	
+11-6	Ich	PPER	ich	_	O	O	
+11-7	werde	VAFIN	werden	_	O	O	
+11-8	Obiges	NN	Obige	_	O	O	
+11-9	nächstens	ADV	nächstens	_	O	O	
+11-10	einschicken	VVINF	einschicken	_	O	O	
+11-11	;	$.	;	_	O	O	
+11-12	es	PPER	es	_	O	O	
+11-13	fehlt	VVFIN	fehlen	_	O	O	
+11-14	mir	PPER	ich	_	O	O	
+11-15	Zeit	NN	Zeit	_	O	O	
+11-16	,	$,	,	_	O	O	
+11-17	es	PPER	es	_	O	O	
+11-18	augenblicklich	ADJD	augenblicklich	_	O	O	
+11-19	zu	PTKZU	zu	_	O	O	
+11-20	beendigen	VVINF	beendigen	_	O	O	
+11-21	.	$.	.	_	O	O	
+

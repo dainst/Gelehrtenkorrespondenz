@@ -1,0 +1,328 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=- 7 261 23/XII/54 Verehrter Herr Professor Renzen an Gerhard Ich habe Ihren 1.
+1-1	-	$(	-	_	O	O	
+1-2	7	CARD	7	_	O	O	
+1-3	261	CARD	@card@	_	O	O	
+1-4	23/XII/54	CARD	<unknown>	_	O	O	
+1-5	Verehrter	ADJA	verehrt	_	O	O	
+1-6	Herr	NN	Herr	_	O	O	
+1-7	Professor	NN	Professor	_	O	O	
+1-8	Renzen	NN	<unknown>	_	O	O	
+1-9	an	APPR	an	_	O	O	
+1-10	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-11	Ich	PPER	ich	_	O	O	
+1-12	habe	VAFIN	haben	_	O	O	
+1-13	Ihren	PPOSAT	ihr	_	O	O	
+1-14	1	CARD	1	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=Brief voro 4 n • d. M. länger, als billig, unbeantwortet gelassen; erst schoh ich es Fluf, um Ihnen zu 0 1ej_ch über den ',vinckelmannstag zu berichten, u. denn kam "7S leider so, d8.
+2-1	Brief	NN	Brief	_	O	O	
+2-2	voro	VVFIN	<unknown>	_	O	O	
+2-3	4	CARD	4	_	O	O	
+2-4	n	ADJA	<unknown>	_	O	O	
+2-5	•	NN	<unknown>	_	O	O	
+2-6	d.	ART	d.	_	O	O	
+2-7	M.	NE	M.	_	O	O	
+2-8	länger	ADJD	lang	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	als	KOKOM	als	_	O	O	
+2-11	billig	ADJD	billig	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	unbeantwortet	ADJD	unbeantwortet	_	O	O	
+2-14	gelassen	VVPP	lassen	_	O	O	
+2-15	;	$.	;	_	O	O	
+2-16	erst	ADV	erst	_	O	O	
+2-17	schoh	VVFIN	<unknown>	_	O	O	
+2-18	ich	PPER	ich	_	O	O	
+2-19	es	PPER	es	_	O	O	
+2-20	Fluf	NN	<unknown>	_	O	O	
+2-21	,	$,	,	_	O	O	
+2-22	um	KOUI	um	_	O	O	
+2-23	Ihnen	PPER	Sie	_	O	O	
+2-24	zu	APPR	zu	_	O	O	
+2-25	0	CARD	@card@	_	O	O	
+2-26	1ej_ch	NN	<unknown>	_	O	O	
+2-27	über	APPR	über	_	O	O	
+2-28	den	ART	die	_	O	O	
+2-29	'	$(	'	_	O	O	
+2-30	,vinckelmannstag	NN	<unknown>	_	O	O	
+2-31	zu	PTKZU	zu	_	O	O	
+2-32	berichten	VVINF	berichten	_	O	O	
+2-33	,	$,	,	_	O	O	
+2-34	u.	KON	und	_	O	O	
+2-35	denn	ADV	denn	_	O	O	
+2-36	kam	VVFIN	kommen	_	O	O	
+2-37	"	$(	"	_	O	O	
+2-38	7S	VVFIN	<unknown>	_	O	O	
+2-39	leider	ADV	leider	_	O	O	
+2-40	so	ADV	so	_	O	O	
+2-41	,	$,	,	_	O	O	
+2-42	d8	NN	<unknown>	_	O	O	
+2-43	.	$.	.	_	O	O	
+
+#id=3
+#text=ich unwohl ward u. zu Bett lieEen mußte an jenem Tage.
+3-1	ich	PPER	ich	_	O	O	
+3-2	unwohl	ADJD	unwohl	_	O	O	
+3-3	ward	VVFIN	werd	_	O	O	
+3-4	u.	APPR	um	_	O	O	
+3-5	zu	APPR	zu	_	O	O	
+3-6	Bett	NN	Bett	_	O	O	
+3-7	lieEen	VVINF	<unknown>	_	O	O	
+3-8	mußte	VMFIN	müssen	_	O	O	
+3-9	an	APPR	an	_	O	O	
+3-10	jenem	PDAT	jen	_	O	O	
+3-11	Tage	NN	Tag	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich wollte nun meinen Discorso gestern lesen; aber schBnes ~etter u. Mangel an Fremden ließ unsre Sitzune so cut, wie unbesucht, u. so mußte ich noch einmal aufschieben.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	wollte	VMFIN	wollen	_	O	O	
+4-3	nun	ADV	nun	_	O	O	
+4-4	meinen	PPOSAT	mein	_	O	O	
+4-5	Discorso	NN	<unknown>	_	O	O	
+4-6	gestern	ADV	gestern	_	O	O	
+4-7	lesen	VVINF	lesen	_	O	O	
+4-8	;	$.	;	_	O	O	
+4-9	aber	ADV	aber	_	O	O	
+4-10	schBnes	ADJA	<unknown>	_	O	O	
+4-11	~etter	NN	<unknown>	_	O	O	
+4-12	u.	APPR	um	_	O	O	
+4-13	Mangel	NN	Mangel	_	O	O	
+4-14	an	APPR	an	_	O	O	
+4-15	Fremden	NN	Fremde	_	O	O	
+4-16	ließ	VVFIN	lassen	_	O	O	
+4-17	unsre	PPOSAT	unsre	_	O	O	
+4-18	Sitzune	NN	<unknown>	_	O	O	
+4-19	so	ADV	so	_	O	O	
+4-20	cut	NE	<unknown>	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	wie	KOKOM	wie	_	O	O	
+4-23	unbesucht	ADJD	<unknown>	_	O	O	
+4-24	,	$,	,	_	O	O	
+4-25	u.	KON	und	_	O	O	
+4-26	so	ADV	so	_	O	O	
+4-27	mußte	VMFIN	müssen	_	O	O	
+4-28	ich	PPER	ich	_	O	O	
+4-29	noch	ADV	noch	_	O	O	
+4-30	einmal	ADV	einmal	_	O	O	
+4-31	aufschieben	VVINF	aufschieben	_	O	O	
+4-32	.	$.	.	_	O	O	
+
+#id=5
+#text=Am 15 n • lasen Ubrigens Braun tiber die ~undamente der Arena ds.
+5-1	Am	APPRART	an	_	O	O	
+5-2	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-3	n	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-4	•	NN	<unknown>	_	O	O	
+5-5	lasen	VVFIN	lesen	_	O	O	
+5-6	Ubrigens	NN	<unknown>	_	O	O	
+5-7	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-8	tiber	NN	<unknown>	_	O	O	
+5-9	die	ART	die	_	O	O	
+5-10	~undamente	NN	<unknown>	_	O	O	
+5-11	der	ART	die	_	O	O	
+5-12	Arena	NN	Arena	_	O	O	
+5-13	ds.	ADJD	<unknown>	_	O	O	
+
+#id=6
+#text=Coliseo, u. Lorentzen tiber eine von ihm herßestellte u. er~lärte wichti~e Stelle cl s. Vi truv.
+6-1	Coliseo	NE	<unknown>	_	O	O	
+6-2	,	$,	,	_	O	O	
+6-3	u.	APPR	um	_	O	O	
+6-4	Lorentzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	tiber	NN	<unknown>	_	O	O	
+6-6	eine	ART	eine	_	O	O	
+6-7	von	APPR	von	_	O	O	
+6-8	ihm	PPER	er	_	O	O	
+6-9	herßestellte	VVFIN	<unknown>	_	O	O	
+6-10	u.	APPR	um	_	O	O	
+6-11	er~lärte	ADJA	<unknown>	_	O	O	
+6-12	wichti~e	ADJA	<unknown>	_	O	O	
+6-13	Stelle	NN	Stelle	_	O	O	
+6-14	cl	NE	<unknown>	_	O	O	
+6-15	s.	ADV	s.	_	O	O	
+6-16	Vi	NE	<unknown>	_	O	O	
+6-17	truv	NE	<unknown>	_	O	O	
+6-18	.	$.	.	_	O	O	
+
+#id=7
+#text=über I1empel bau.
+7-1	über	APPR	über	_	O	O	
+7-2	I1empel	NN	<unknown>	_	O	O	
+7-3	bau	VVIMP	bauen	_	O	O	
+7-4	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich sc flicke Ihnen nächster Tae;s Näheres darijber.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	sc	NE	<unknown>	_	O	O	
+8-3	flicke	VVFIN	flicken	_	O	O	
+8-4	Ihnen	PPER	Sie	_	O	O	
+8-5	nächster	ADJA	nah	_	O	O	
+8-6	Tae	NE	Tae	_	O	O	
+8-7	;	$.	;	_	O	O	
+8-8	s	NN	s	_	O	O	
+8-9	Näheres	NN	Nähere	_	O	O	
+8-10	darijber	VVFIN	<unknown>	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich selbst hatte einen Vortrae; über ein von Arneth edirtes Wilit~rdiplom in petto, das vor 8inigen Jahren in Ungarn gefunden u. von ihm ganz falsch bezogen u. datirt ist.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	selbst	ADV	selbst	_	O	O	
+9-3	hatte	VAFIN	haben	_	O	O	
+9-4	einen	ART	eine	_	O	O	
+9-5	Vortrae	NN	<unknown>	_	O	O	
+9-6	;	$.	;	_	O	O	
+9-7	über	APPR	über	_	O	O	
+9-8	ein	ART	eine	_	O	O	
+9-9	von	APPR	von	_	O	O	
+9-10	Arneth	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-11	edirtes	NN	<unknown>	_	O	O	
+9-12	Wilit~rdiplom	NE	<unknown>	_	O	O	
+9-13	in	APPR	in	_	O	O	
+9-14	petto	ADJA	<unknown>	_	O	O	
+9-15	,	$,	,	_	O	O	
+9-16	das	PRELS	die	_	O	O	
+9-17	vor	APPR	vor	_	O	O	
+9-18	8inigen	ADJA	<unknown>	_	O	O	
+9-19	Jahren	NN	Jahr	_	O	O	
+9-20	in	APPR	in	_	O	O	
+9-21	Ungarn	NE	Ungarn	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-22	gefunden	VVPP	finden	_	O	O	
+9-23	u.	KON	und	_	O	O	
+9-24	von	APPR	von	_	O	O	
+9-25	ihm	PPER	er	_	O	O	
+9-26	ganz	ADV	ganz	_	O	O	
+9-27	falsch	ADJD	falsch	_	O	O	
+9-28	bezogen	VVPP	beziehen	_	O	O	
+9-29	u.	APPR	um	_	O	O	
+9-30	datirt	NN	<unknown>	_	O	O	
+9-31	ist	VAFIN	sein	_	O	O	
+9-32	.	$.	.	_	O	O	
+
+#id=10
+#text=Ihr Winckelmann-Programm traf ein; eJ Braun ~inscht s~ne Wittheilungen tiber Campana's Sammlung nicht gedruckt zu haben ( schrieb es Ihnen vielleicht schon selbst ).
+10-1	Ihr	PPOSAT	ihr	_	O	O	
+10-2	Winckelmann-Programm	NN	<unknown>	_	O	O	
+10-3	traf	VVFIN	treffen	_	O	O	
+10-4	ein	PTKVZ	ein	_	O	O	
+10-5	;	$.	;	_	O	O	
+10-6	eJ	NE	<unknown>	_	O	O	
+10-7	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-8	~inscht	NN	<unknown>	_	O	O	
+10-9	s~ne	ADJA	<unknown>	_	O	O	
+10-10	Wittheilungen	NN	<unknown>	_	O	O	
+10-11	tiber	NE	Tiber	_	O	O	
+10-12	Campana's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-13	Sammlung	NN	Sammlung	_	O	O	
+10-14	nicht	PTKNEG	nicht	_	O	O	
+10-15	gedruckt	VVPP	drucken	_	O	O	
+10-16	zu	PTKZU	zu	_	O	O	
+10-17	haben	VAINF	haben	_	O	O	
+10-18	(	$(	(	_	O	O	
+10-19	schrieb	VVFIN	schreiben	_	O	O	
+10-20	es	PPER	es	_	O	O	
+10-21	Ihnen	PPER	Sie	_	O	O	
+10-22	vielleicht	ADV	vielleicht	_	O	O	
+10-23	schon	ADV	schon	_	O	O	
+10-24	selbst	ADV	selbst	_	O	O	
+10-25	)	$(	)	_	O	O	
+10-26	.	$.	.	_	O	O	
+
+#id=11
+#text=Braun bittet, ~tistemann in Gotha rasch zum Corrc8pondenten zu machen; er hat uns jetzt den Druck des 1nde~ arrangirt, so d8.
+11-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	bittet	VVFIN	bitten	_	O	O	
+11-3	,	$,	,	_	O	O	
+11-4	~tistemann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-5	in	APPR	in	_	O	O	
+11-6	Gotha	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-7	rasch	ADJD	rasch	_	O	O	
+11-8	zum	APPRART	zu	_	O	O	
+11-9	Corrc8pondenten	NN	<unknown>	_	O	O	
+11-10	zu	PTKZU	zu	_	O	O	
+11-11	machen	VVINF	machen	_	O	O	
+11-12	;	$.	;	_	O	O	
+11-13	er	PPER	er	_	O	O	
+11-14	hat	VAFIN	haben	_	O	O	
+11-15	uns	PPER	wir	_	O	O	
+11-16	jetzt	ADV	jetzt	_	O	O	
+11-17	den	ART	die	_	O	O	
+11-18	Druck	NN	Druck	_	O	O	
+11-19	des	ART	die	_	O	O	
+11-20	1nde~	NN	<unknown>	_	O	O	
+11-21	arrangirt	NN	<unknown>	_	O	O	
+11-22	,	$,	,	_	O	O	
+11-23	so	ADV	so	_	O	O	
+11-24	d8	CARD	<unknown>	_	O	O	
+11-25	.	$.	.	_	O	O	
+
+#id=12
+#text=er hoffentlic~ bald fertic werden wird.
+12-1	er	PPER	er	_	O	O	
+12-2	hoffentlic~	VVFIN	<unknown>	_	O	O	
+12-3	bald	ADV	bald	_	O	O	
+12-4	fertic	NN	<unknown>	_	O	O	
+12-5	werden	VAINF	werden	_	O	O	
+12-6	wird	VAFIN	werden	_	O	O	
+12-7	.	$.	.	_	O	O	
+
+#id=13
+#text=Gestern '<'"bend starb J:l'r8u v. l\rnimj Braun ist sehr dadurch in Anspruch genommen.
+13-1	Gestern	ADV	gestern	_	O	O	
+13-2	'	$(	'	_	O	O	
+13-3	<'"bend	ADJD	<unknown>	_	O	O	
+13-4	starb	VVFIN	sterben	_	O	O	
+13-5	J:l'r8u	NE	<unknown>	_	O	O	
+13-6	v.	APPR	von	_	O	O	
+13-7	l\rnimj	NE	<unknown>	_	O	O	
+13-8	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-9	ist	VAFIN	sein	_	O	O	
+13-10	sehr	ADV	sehr	_	O	O	
+13-11	dadurch	PAV	dadurch	_	O	O	
+13-12	in	APPR	in	_	O	O	
+13-13	Anspruch	NN	Anspruch	_	O	O	
+13-14	genommen	VVPP	nehmen	_	O	O	
+13-15	.	$.	.	_	O	O	
+
+#id=14
+#text=Herr v. Thiele soll in diesen Ta~en eintreffen.
+14-1	Herr	NN	Herr	_	O	O	
+14-2	v.	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-3	Thiele	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+14-4	soll	VMFIN	sollen	_	O	O	
+14-5	in	APPR	in	_	O	O	
+14-6	diesen	PDAT	dies	_	O	O	
+14-7	Ta~en	NN	<unknown>	_	O	O	
+14-8	eintreffen	VVINF	eintreffen	_	O	O	
+14-9	.	$.	.	_	O	O	
+
+#id=15
+#text=- ~elchiorri lieEt schwer krank; man sagte ihn gestern schon todt.
+15-1	-	$(	-	_	O	O	
+15-2	~elchiorri	NN	<unknown>	_	O	O	
+15-3	lieEt	VVFIN	<unknown>	_	O	O	
+15-4	schwer	ADJD	schwer	_	O	O	
+15-5	krank	ADJD	krank	_	O	O	
+15-6	;	$.	;	_	O	O	
+15-7	man	PIS	man	_	O	O	
+15-8	sagte	VVFIN	sagen	_	O	O	
+15-9	ihn	PPER	er	_	O	O	
+15-10	gestern	ADV	gestern	_	O	O	
+15-11	schon	ADV	schon	_	O	O	
+15-12	todt	ADJD	<unknown>	_	O	O	
+15-13	.	$.	.	_	O	O	
+
+#id=16
+#text=~enn er auch selbst
+16-1	~enn	VVIMP	<unknown>	_	O	O	
+16-2	er	PPER	er	_	O	O	
+16-3	auch	ADV	auch	_	O	O	
+16-4	selbst	ADV	selbst	_	O	O	
+

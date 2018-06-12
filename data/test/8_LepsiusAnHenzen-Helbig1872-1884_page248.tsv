@@ -1,0 +1,46 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=7 1 Lepsius an Renzen Berlin, 26. Dezember 1875 2 darauf eingehen zu können, da wir die dortigen Verhältnisse nicht vollständig übersehen können.
+1-1	7	CARD	7	_	O	O	
+1-2	1	CARD	1	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	2	CARD	2	_	O	O	
+1-13	darauf	PAV	darauf	_	O	O	
+1-14	eingehen	VVINF	eingehen	_	O	O	
+1-15	zu	PTKZU	zu	_	O	O	
+1-16	können	VMINF	können	_	O	O	
+1-17	,	$,	,	_	O	O	
+1-18	da	KOUS	da	_	O	O	
+1-19	wir	PPER	wir	_	O	O	
+1-20	die	ART	die	_	O	O	
+1-21	dortigen	ADJA	dortig	_	O	O	
+1-22	Verhältnisse	NN	Verhältnis	_	O	O	
+1-23	nicht	PTKNEG	nicht	_	O	O	
+1-24	vollständig	ADJD	vollständig	_	O	O	
+1-25	übersehen	VVINF	übersehen	_	O	O	
+1-26	können	VMFIN	können	_	O	O	
+1-27	.	$.	.	_	O	O	
+
+#id=2
+#text=Am Instituts-etat für 1876 ist nichts geändert.
+2-1	Am	APPRART	an	_	O	O	
+2-2	Instituts-etat	NN	<unknown>	_	O	O	
+2-3	für	APPR	für	_	O	O	
+2-4	1876	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-5	ist	VAFIN	sein	_	O	O	
+2-6	nichts	PIS	nichts	_	O	O	
+2-7	geändert	VVPP	ändern	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Lepsius
+3-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

@@ -1,0 +1,322 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=160 10/XI/55 Henzen an Gerhard Verehrter Herr Professor Braun wird Ihnen ohne Zweifel unsre Rückkehr neulich erwähnt haben.
+1-1	160	CARD	160	_	O	O	
+1-2	10/XI/55	CARD	<unknown>	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Verehrter	ADJA	verehrt	_	O	O	
+1-7	Herr	NN	Herr	_	O	O	
+1-8	Professor	NN	Professor	_	O	O	
+1-9	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-10	wird	VAFIN	werden	_	O	O	
+1-11	Ihnen	PPER	Sie	_	O	O	
+1-12	ohne	APPR	ohne	_	O	O	
+1-13	Zweifel	NN	Zweifel	_	O	O	
+1-14	unsre	PPOSAT	unsre	_	O	O	
+1-15	Rückkehr	NN	Rückkehr	_	O	O	
+1-16	neulich	ADV	neulich	_	O	O	
+1-17	erwähnt	VVPP	erwähnen	_	O	O	
+1-18	haben	VAINF	haben	_	O	O	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=Der Aufenthalt in 'J:urin hat sich über die Gebühr verlängert, so dß.
+2-1	Der	ART	die	_	O	O	
+2-2	Aufenthalt	NN	Aufenthalt	_	O	O	
+2-3	in	APPR	in	_	O	O	
+2-4	'	$(	'	_	O	O	
+2-5	J:urin	NN	<unknown>	_	O	O	
+2-6	hat	VAFIN	haben	_	O	O	
+2-7	sich	PRF	sich	_	O	O	
+2-8	über	APPR	über	_	O	O	
+2-9	die	ART	die	_	O	O	
+2-10	Gebühr	NN	Gebühr	_	O	O	
+2-11	verlängert	VVPP	verlängern	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	so	ADV	so	_	O	O	
+2-14	dß	ADJD	<unknown>	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=ich nicht einmal mit 4 Wochen fort kam, so trotz ds.
+3-1	ich	PPER	ich	_	O	O	
+3-2	nicht	PTKNEG	nicht	_	O	O	
+3-3	einmal	ADV	einmal	_	O	O	
+3-4	mit	APPR	mit	_	O	O	
+3-5	4	CARD	4	_	O	O	
+3-6	Wochen	NN	Woche	_	O	O	
+3-7	fort	PTKVZ	fort	_	O	O	
+3-8	kam	VVFIN	kommen	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	so	ADV	so	_	O	O	
+3-11	trotz	APPR	trotz	_	O	O	
+3-12	ds.	ADJA	<unknown>	_	O	O	
+
+#id=4
+#text=angestrengtesten Arbeitens erst am Freitage der 5t~n, außerdem noch einige Stunden Arbeit meinem Schüler zurücklassend, deren Resultate Hübner mir mitbringen wird, der leider krank zurückbleiben mußte u. mir nur an Einem Tage wenige Stunden hat helfen I~önnen.
+4-1	angestrengtesten	ADJA	<unknown>	_	O	O	
+4-2	Arbeitens	NN	Arbeiten	_	O	O	
+4-3	erst	ADV	erst	_	O	O	
+4-4	am	APPRART	an	_	O	O	
+4-5	Freitage	NN	Freitag	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	5t~n	NE	<unknown>	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	außerdem	ADV	außerdem	_	O	O	
+4-10	noch	ADV	noch	_	O	O	
+4-11	einige	PIAT	einige	_	O	O	
+4-12	Stunden	NN	Stunde|Stunden	_	O	O	
+4-13	Arbeit	NN	Arbeit	_	O	O	
+4-14	meinem	PPOSAT	mein	_	O	O	
+4-15	Schüler	NN	Schüler	_	O	O	
+4-16	zurücklassend	ADJD	zurücklassend	_	O	O	
+4-17	,	$,	,	_	O	O	
+4-18	deren	PRELAT	die	_	O	O	
+4-19	Resultate	NN	Resultat	_	O	O	
+4-20	Hübner	NE	Hübner	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-21	mir	PRF	ich	_	O	O	
+4-22	mitbringen	VVINF	mitbringen	_	O	O	
+4-23	wird	VAFIN	werden	_	O	O	
+4-24	,	$,	,	_	O	O	
+4-25	der	PRELS	die	_	O	O	
+4-26	leider	ADV	leider	_	O	O	
+4-27	krank	ADJD	krank	_	O	O	
+4-28	zurückbleiben	VVINF	zurückbleiben	_	O	O	
+4-29	mußte	VMFIN	müssen	_	O	O	
+4-30	u.	KON	und	_	O	O	
+4-31	mir	PPER	ich	_	O	O	
+4-32	nur	ADV	nur	_	O	O	
+4-33	an	APPR	an	_	O	O	
+4-34	Einem	ART	eine	_	O	O	
+4-35	Tage	NN	Tag	_	O	O	
+4-36	wenige	PIAT	wenige	_	O	O	
+4-37	Stunden	NN	Stunde|Stunden	_	O	O	
+4-38	hat	VAFIN	haben	_	O	O	
+4-39	helfen	VVINF	helfen	_	O	O	
+4-40	I~önnen	NN	<unknown>	_	O	O	
+4-41	.	$.	.	_	O	O	
+
+#id=5
+#text=Dadurch sind nun freilich neue Kosten auch etwas I vermehrt, u. aas den cca 55 Scudi sind schließlich Sc.
+5-1	Dadurch	PAV	dadurch	_	O	O	
+5-2	sind	VAFIN	sein	_	O	O	
+5-3	nun	ADV	nun	_	O	O	
+5-4	freilich	ADV	freilich	_	O	O	
+5-5	neue	ADJA	neu	_	O	O	
+5-6	Kosten	NN	Kosten	_	O	O	
+5-7	auch	ADV	auch	_	O	O	
+5-8	etwas	PIAT	etwas	_	O	O	
+5-9	I	NN	I	_	O	O	
+5-10	vermehrt	VVPP	vermehren	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	u.	APPR	um	_	O	O	
+5-13	aas	NE	<unknown>	_	O	O	
+5-14	den	ART	die	_	O	O	
+5-15	cca	ADJA	<unknown>	_	O	O	
+5-16	55	CARD	@card@	_	O	O	
+5-17	Scudi	NN	<unknown>	_	O	O	
+5-18	sind	VAFIN	sein	_	O	O	
+5-19	schließlich	ADV	schließlich	_	O	O	
+5-20	Sc.	NN	<unknown>	_	O	O	
+
+#id=6
+#text=66.64,5 geworden, von denen etwa 40 meine Aufenthaltskosten, der Rest für HÜlfsarbeiten, Papier, Trinkgeld.
+6-1	66.64,5	CARD	@card@	_	O	O	
+6-2	geworden	VAPP	werden	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	von	APPR	von	_	O	O	
+6-5	denen	PRELS	die	_	O	O	
+6-6	etwa	ADV	etwa	_	O	O	
+6-7	40	CARD	40	_	O	O	
+6-8	meine	PPOSAT	mein	_	O	O	
+6-9	Aufenthaltskosten	NN	Aufenthaltskosten	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	der	ART	die	_	O	O	
+6-12	Rest	NN	Rest	_	O	O	
+6-13	für	APPR	für	_	O	O	
+6-14	HÜlfsarbeiten	NN	<unknown>	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	Papier	NN	Papier	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	Trinkgeld	NN	Trinkgeld	_	O	O	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=Da } sich lich - die Summe auf 5 Wochen vertheilt, wird sie hoffentnicht zu hoch befunden.
+7-1	Da	ADV	da	_	O	O	
+7-2	}	$(	}	_	O	O	
+7-3	sich	PRF	sich	_	O	O	
+7-4	lich	ADJD	<unknown>	_	O	O	
+7-5	-	$(	-	_	O	O	
+7-6	die	ART	die	_	O	O	
+7-7	Summe	NN	Summe	_	O	O	
+7-8	auf	APPR	auf	_	O	O	
+7-9	5	CARD	5	_	O	O	
+7-10	Wochen	NN	Woche	_	O	O	
+7-11	vertheilt	VVFIN	<unknown>	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	wird	VAFIN	werden	_	O	O	
+7-14	sie	PPER	sie	_	O	O	
+7-15	hoffentnicht	ADJD	<unknown>	_	O	O	
+7-16	zu	APPR	zu	_	O	O	
+7-17	hoch	ADJD	hoch	_	O	O	
+7-18	befunden	VVPP	befinden	_	O	O	
+7-19	.	$.	.	_	O	O	
+
+#id=8
+#text=Leider sind wir denn schließlich dh.
+8-1	Leider	ADV	leider	_	O	O	
+8-2	sind	VAFIN	sein	_	O	O	
+8-3	wir	PPER	wir	_	O	O	
+8-4	denn	ADV	denn	_	O	O	
+8-5	schließlich	ADV	schließlich	_	O	O	
+8-6	dh.	NE	<unknown>	_	O	O	
+
+#id=9
+#text=diesen langen Aufenthalt noch in eine ganz abscheuliche Herbstwitterung gerathen u. von Genua bis Viterbo 8 Tage lang in strömendem Regen gereist, da wir zu unserm großen Glück uns nicht eingeschifft, wie wir vorhatten; denn die Schiffe sind zum '.J.
+9-1	diesen	PDAT	dies	_	O	O	
+9-2	langen	ADJA	lang	_	O	O	
+9-3	Aufenthalt	NN	Aufenthalt	_	O	O	
+9-4	noch	ADV	noch	_	O	O	
+9-5	in	APPR	in	_	O	O	
+9-6	eine	ART	eine	_	O	O	
+9-7	ganz	ADV	ganz	_	O	O	
+9-8	abscheuliche	ADJA	abscheulich	_	O	O	
+9-9	Herbstwitterung	NN	<unknown>	_	O	O	
+9-10	gerathen	VVPP	<unknown>	_	O	O	
+9-11	u.	KON	und	_	O	O	
+9-12	von	APPR	von	_	O	O	
+9-13	Genua	NE	Genua	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-14	bis	KON	bis	_	O	O	
+9-15	Viterbo	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-16	8	CARD	8	_	O	O	
+9-17	Tage	NN	Tag	_	O	O	
+9-18	lang	ADJD	lang	_	O	O	
+9-19	in	APPR	in	_	O	O	
+9-20	strömendem	ADJA	strömend	_	O	O	
+9-21	Regen	NN	Regen	_	O	O	
+9-22	gereist	VVPP	reisen	_	O	O	
+9-23	,	$,	,	_	O	O	
+9-24	da	KOUS	da	_	O	O	
+9-25	wir	PPER	wir	_	O	O	
+9-26	zu	APPR	zu	_	O	O	
+9-27	unserm	PPOSAT	unser	_	O	O	
+9-28	großen	ADJA	groß	_	O	O	
+9-29	Glück	NN	Glück	_	O	O	
+9-30	uns	PRF	wir	_	O	O	
+9-31	nicht	PTKNEG	nicht	_	O	O	
+9-32	eingeschifft	VVPP	einschiffen	_	O	O	
+9-33	,	$,	,	_	O	O	
+9-34	wie	KOUS	wie	_	O	O	
+9-35	wir	PPER	wir	_	O	O	
+9-36	vorhatten	VVFIN	vorhatten	_	O	O	
+9-37	;	$.	;	_	O	O	
+9-38	denn	KON	denn	_	O	O	
+9-39	die	ART	die	_	O	O	
+9-40	Schiffe	NN	Schiff	_	O	O	
+9-41	sind	VAFIN	sein	_	O	O	
+9-42	zum	APPRART	zu	_	O	O	
+9-43	'	$(	'	_	O	O	
+9-44	.J	NN	<unknown>	_	O	O	
+9-45	.	$.	.	_	O	O	
+
+#id=10
+#text='heil 6 Tage unterwegs gewesen, r- eines 3 Tage lang vor ~ivitavecchia u.s.w. - Gestern ist J nun auch mein und de Rossi's Jahresbericht assecurirt 'an.
+10-1	'	$(	'	_	O	O	
+10-2	heil	ADJD	heil	_	O	O	
+10-3	6	CARD	6	_	O	O	
+10-4	Tage	NN	Tag	_	O	O	
+10-5	unterwegs	ADV	unterwegs	_	O	O	
+10-6	gewesen	VAPP	sein	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	r-	VVFIN	<unknown>	_	O	O	
+10-9	eines	ART	eine	_	O	O	
+10-10	3	CARD	3	_	O	O	
+10-11	Tage	NN	Tag	_	O	O	
+10-12	lang	ADJD	lang	_	O	O	
+10-13	vor	APPR	vor	_	O	O	
+10-14	~ivitavecchia	NE	<unknown>	_	O	O	
+10-15	u.s.w.	NE	<unknown>	_	O	O	
+10-16	-	$(	-	_	O	O	
+10-17	Gestern	NN	Gestern	_	O	O	
+10-18	ist	VAFIN	sein	_	O	O	
+10-19	J	NN	J	_	O	O	
+10-20	nun	ADV	nun	_	O	O	
+10-21	auch	ADV	auch	_	O	O	
+10-22	mein	PPOSAT	mein	_	O	O	
+10-23	und	KON	und	_	O	O	
+10-24	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-25	Rossi's	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-26	Jahresbericht	NN	Jahresbericht	_	O	O	
+10-27	assecurirt	NN	<unknown>	_	O	O	
+10-28	'	$(	'	_	O	O	
+10-29	an	PTKVZ	an	_	O	O	
+10-30	.	$.	.	_	O	O	
+
+#id=11
+#text=Mommsen abgegangen; ich hoffe, ds.
+11-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	abgegangen	VVPP	abgehen	_	O	O	
+11-3	;	$.	;	_	O	O	
+11-4	ich	PPER	ich	_	O	O	
+11-5	hoffe	VVFIN	hoffen	_	O	O	
+11-6	,	$,	,	_	O	O	
+11-7	ds.	ADJD	<unknown>	_	O	O	
+
+#id=12
+#text=Ganze wird Effect machen.
+12-1	Ganze	NN	Ganze	_	O	O	
+12-2	wird	VAFIN	werden	_	O	O	
+12-3	Effect	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-4	machen	VVINF	machen	_	O	O	
+12-5	.	$.	.	_	O	O	
+
+#id=13
+#text=Bei dem zu druckenden Auszuge müssen aber Herrn Zumpt's Arbeiten nicht allzu glimpflich durchkommen.
+13-1	Bei	APPR	bei	_	O	O	
+13-2	dem	ART	die	_	O	O	
+13-3	zu	APPR	zu	_	O	O	
+13-4	druckenden	ADJA	druckend	_	O	O	
+13-5	Auszuge	NN	<unknown>	_	O	O	
+13-6	müssen	VMFIN	müssen	_	O	O	
+13-7	aber	ADV	aber	_	O	O	
+13-8	Herrn	NN	Herr	_	O	O	
+13-9	Zumpt's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-10	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+13-11	nicht	PTKNEG	nicht	_	O	O	
+13-12	allzu	PTKA	allzu	_	O	O	
+13-13	glimpflich	ADJD	glimpflich	_	O	O	
+13-14	durchkommen	VVINF	durchkommen	_	O	O	
+13-15	.	$.	.	_	O	O	
+
+#id=14
+#text=Der Transport der Kiste nebst den Breslauer u. \ t\ 1 hiesigen Spesen beläuft sich, nach Abzug von Sc.
+14-1	Der	ART	die	_	O	O	
+14-2	Transport	NN	Transport	_	O	O	
+14-3	der	ART	die	_	O	O	
+14-4	Kiste	NN	Kiste	_	O	O	
+14-5	nebst	APPR	nebst	_	O	O	
+14-6	den	ART	die	_	O	O	
+14-7	Breslauer	NN	Breslauer	_	O	O	
+14-8	u.	APPR	um	_	O	O	
+14-9	\	XY	\	_	O	O	
+14-10	t\	VVFIN	<unknown>	_	O	O	
+14-11	1	CARD	1	_	O	O	
+14-12	hiesigen	ADJA	hiesig	_	O	O	
+14-13	Spesen	NN	Spesen	_	O	O	
+14-14	beläuft	VVFIN	belaufen	_	O	O	
+14-15	sich	PRF	sich	_	O	O	
+14-16	,	$,	,	_	O	O	
+14-17	nach	APPR	nach	_	O	O	
+14-18	Abzug	NN	Abzug	_	O	O	
+14-19	von	APPR	von	_	O	O	
+14-20	Sc.	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=15
+#text=4.50 J -
+15-1	4.50	CARD	@card@	_	O	O	
+15-2	J	NN	J	_	O	O	
+15-3	-	$(	-	_	O	O	
+

@@ -1,0 +1,351 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Ohne Nummer Henzen an Gerhard 13/VIII/53 Verehrter Herr Professor I Ihren ersehnten Brief vom 2~ Aug.
+1-1	Ohne	APPR	ohne	_	O	O	
+1-2	Nummer	NN	Nummer	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	13/VIII/53	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	Verehrter	ADJA	verehrt	_	O	O	
+1-8	Herr	NN	Herr	_	O	O	
+1-9	Professor	NN	Professor	_	O	O	
+1-10	I	NN	I	_	O	O	
+1-11	Ihren	PPOSAT	ihr	_	O	O	
+1-12	ersehnten	ADJA	ersehnt	_	O	O	
+1-13	Brief	NN	Brief	_	O	O	
+1-14	vom	APPRART	von	_	O	O	
+1-15	2~	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-16	Aug.	NN	Aug.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=erhielt ich gestern, nachdem freilich schon seit 8 Tagen dh.
+2-1	erhielt	VVFIN	erhalten	_	O	O	
+2-2	ich	PPER	ich	_	O	O	
+2-3	gestern	ADV	gestern	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	nachdem	KOUS	nachdem	_	O	O	
+2-6	freilich	ADV	freilich	_	O	O	
+2-7	schon	ADV	schon	_	O	O	
+2-8	seit	APPR	seit	_	O	O	
+2-9	8	CARD	8	_	O	O	
+2-10	Tagen	NN	Tag	_	O	O	
+2-11	dh.	NE	<unknown>	_	O	O	
+
+#id=3
+#text=Ritschls Freundlichkeit das Endresultat der akad. Verhandlungen mir bekannt geworden.
+3-1	Ritschls	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	Freundlichkeit	NN	Freundlichkeit	_	O	O	
+3-3	das	ART	die	_	O	O	
+3-4	Endresultat	NN	Endresultat	_	O	O	
+3-5	der	ART	die	_	O	O	
+3-6	akad.	ADJA	<unknown>	_	O	O	
+3-7	Verhandlungen	NN	Verhandlung	_	O	O	
+3-8	mir	PPER	ich	_	O	O	
+3-9	bekannt	VVPP	bekennen	_	O	O	
+3-10	geworden	VAPP	werden	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=- n Ich denke, doch vom 1. October an disponibel zu sein, und ohne Gewissensbisse den Gehalt beziehen zu k5nnen; h5chstens dUrfte dann noch Arbeit fUr 1 ode 2 Wochen am Index zurliek sein.
+4-1	-	$(	-	_	O	O	
+4-2	n	VVIMP	<unknown>	_	O	O	
+4-3	Ich	PPER	ich	_	O	O	
+4-4	denke	VVFIN	denken	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	doch	KON	doch	_	O	O	
+4-7	vom	APPRART	von	_	O	O	
+4-8	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-10	October	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-11	an	APPR	an	_	O	O	
+4-12	disponibel	ADJD	disponibel	_	O	O	
+4-13	zu	PTKZU	zu	_	O	O	
+4-14	sein	VAINF	sein	_	O	O	
+4-15	,	$,	,	_	O	O	
+4-16	und	KON	und	_	O	O	
+4-17	ohne	APPR	ohne	_	O	O	
+4-18	Gewissensbisse	NN	Gewissensbiss	_	O	O	
+4-19	den	ART	die	_	O	O	
+4-20	Gehalt	NN	Gehalt	_	O	O	
+4-21	beziehen	VVFIN	beziehen	_	O	O	
+4-22	zu	APPR	zu	_	O	O	
+4-23	k5nnen	NN	<unknown>	_	O	O	
+4-24	;	$.	;	_	O	O	
+4-25	h5chstens	NN	<unknown>	_	O	O	
+4-26	dUrfte	NE	<unknown>	_	O	O	
+4-27	dann	ADV	dann	_	O	O	
+4-28	noch	ADV	noch	_	O	O	
+4-29	Arbeit	NN	Arbeit	_	O	O	
+4-30	fUr	NN	<unknown>	_	O	O	
+4-31	1	CARD	1	_	O	O	
+4-32	ode	VVFIN	<unknown>	_	O	O	
+4-33	2	CARD	2	_	O	O	
+4-34	Wochen	NN	Woche	_	O	O	
+4-35	am	APPRART	an	_	O	O	
+4-36	Index	NN	Index	_	O	O	
+4-37	zurliek	NE	<unknown>	_	O	O	
+4-38	sein	VAINF	sein	_	O	O	
+4-39	.	$.	.	_	O	O	
+
+#id=5
+#text=Den Betrag des ersten ~uartals gedachte ich, im Interesse der Akademie zu verwenden, am Ende steht es ja mit Nnmmsen auch nicht anders, da ihm die Inser.
+5-1	Den	ART	die	_	O	O	
+5-2	Betrag	NN	Betrag	_	O	O	
+5-3	des	ART	die	_	O	O	
+5-4	ersten	ADJA	erst	_	O	O	
+5-5	~uartals	NN	<unknown>	_	O	O	
+5-6	gedachte	VVFIN	gedenken	_	O	O	
+5-7	ich	PPER	ich	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	im	APPRART	in	_	O	O	
+5-10	Interesse	NN	Interesse	_	O	O	
+5-11	der	ART	die	_	O	O	
+5-12	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-13	zu	PTKZU	zu	_	O	O	
+5-14	verwenden	VVINF	verwenden	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	am	APPRART	an	_	O	O	
+5-17	Ende	NN	Ende	_	O	O	
+5-18	steht	VVFIN	stehen	_	O	O	
+5-19	es	PPER	es	_	O	O	
+5-20	ja	ADV	ja	_	O	O	
+5-21	mit	APPR	mit	_	O	O	
+5-22	Nnmmsen	NN	<unknown>	_	O	O	
+5-23	auch	ADV	auch	_	O	O	
+5-24	nicht	PTKNEG	nicht	_	O	O	
+5-25	anders	ADV	anders	_	O	O	
+5-26	,	$,	,	_	O	O	
+5-27	da	KOUS	da	_	O	O	
+5-28	ihm	PPER	er	_	O	O	
+5-29	die	ART	die	_	O	O	
+5-30	Inser	NN	<unknown>	_	O	O	
+5-31	.	$.	.	_	O	O	
+
+#id=6
+#text=Helvet.
+6-1	Helvet	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	.	$.	.	_	O	O	
+
+#id=7
+#text=U. sonstige anGefan~ene Arbeiten gewiß zunächst noch Abhaltung schaffen.
+7-1	U.	APPR	u.	_	O	O	
+7-2	sonstige	ADJA	sonstig	_	O	O	
+7-3	anGefan~ene	NN	<unknown>	_	O	O	
+7-4	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+7-5	gewiß	ADJD	gewiss	_	O	O	
+7-6	zunächst	ADV	zunächst	_	O	O	
+7-7	noch	ADV	noch	_	O	O	
+7-8	Abhaltung	NN	Abhaltung	_	O	O	
+7-9	schaffen	VVFIN	schaffen	_	O	O	
+7-10	.	$.	.	_	O	O	
+
+#id=8
+#text=- Zunächst wäre mir nur erwünscht, k5nnte ich erfahren, ob Gelder fUr Hülfsarbeiten ausgeworfen sind, u. wie viel.
+8-1	-	$(	-	_	O	O	
+8-2	Zunächst	ADV	zunächst	_	O	O	
+8-3	wäre	VAFIN	sein	_	O	O	
+8-4	mir	PPER	ich	_	O	O	
+8-5	nur	ADV	nur	_	O	O	
+8-6	erwünscht	ADJD	erwünscht	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	k5nnte	NN	<unknown>	_	O	O	
+8-9	ich	PPER	ich	_	O	O	
+8-10	erfahren	VVPP	erfahren	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	ob	KOUS	ob	_	O	O	
+8-13	Gelder	NN	Geld	_	O	O	
+8-14	fUr	NN	<unknown>	_	O	O	
+8-15	Hülfsarbeiten	NN	<unknown>	_	O	O	
+8-16	ausgeworfen	VVPP	auswerfen	_	O	O	
+8-17	sind	VAFIN	sein	_	O	O	
+8-18	,	$,	,	_	O	O	
+8-19	u.	KON	und	_	O	O	
+8-20	wie	KOKOM	wie	_	O	O	
+8-21	viel	PIS	viele	_	O	O	
+8-22	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich schrieb Ihnen wohl, dB.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	schrieb	VVFIN	schreiben	_	O	O	
+9-3	Ihnen	PPER	Sie	_	O	O	
+9-4	wohl	ADV	wohl	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	dB	NN	<unknown>	_	O	O	
+9-7	.	$.	.	_	O	O	
+
+#id=10
+#text=ein Am fUr die Vaticana, unter de Rossits Leitung zu stellen, beinahe dringendste Nothwendigkeit ist, soll nicht unendliche~eit uns Anderen mit Schreiberdiensten ent- ~.
+10-1	ein	ART	eine	_	O	O	
+10-2	Am	APPRART	an	_	O	O	
+10-3	fUr	NN	<unknown>	_	O	O	
+10-4	die	ART	die	_	O	O	
+10-5	Vaticana	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-6	,	$,	,	_	O	O	
+10-7	unter	APPR	unter	_	O	O	
+10-8	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-9	Rossits	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-10	Leitung	NN	Leitung	_	O	O	
+10-11	zu	PTKZU	zu	_	O	O	
+10-12	stellen	VVINF	stellen	_	O	O	
+10-13	,	$,	,	_	O	O	
+10-14	beinahe	ADV	beinahe	_	O	O	
+10-15	dringendste	ADJA	dringend	_	O	O	
+10-16	Nothwendigkeit	NN	<unknown>	_	O	O	
+10-17	ist	VAFIN	sein	_	O	O	
+10-18	,	$,	,	_	O	O	
+10-19	soll	VMFIN	sollen	_	O	O	
+10-20	nicht	PTKNEG	nicht	_	O	O	
+10-21	unendliche~eit	ADJD	<unknown>	_	O	O	
+10-22	uns	PRF	wir	_	O	O	
+10-23	Anderen	PIS	andere	_	O	O	
+10-24	mit	APPR	mit	_	O	O	
+10-25	Schreiberdiensten	ADJA	<unknown>	_	O	O	
+10-26	ent-	TRUNC	ent-	_	O	O	
+10-27	~	XY	~	_	O	O	
+10-28	.	$.	.	_	O	O	
+
+#id=11
+#text=I wendet werden.
+11-1	I	FM	I	_	O	O	
+11-2	wendet	VVFIN	wenden	_	O	O	
+11-3	werden	VAINF	werden	_	O	O	
+11-4	.	$.	.	_	O	O	
+
+#id=12
+#text=Von meinen 400 kann ich einen solchen r.
+12-1	Von	APPR	von	_	O	O	
+12-2	meinen	PPOSAT	mein	_	O	O	
+12-3	400	CARD	400	_	O	O	
+12-4	kann	VMFIN	können	_	O	O	
+12-5	ich	PPER	ich	_	O	O	
+12-6	einen	ART	eine	_	O	O	
+12-7	solchen	PIAT	solche	_	O	O	
+12-8	r.	ADJA	<unknown>	_	O	O	
+
+#id=13
+#text={ nicht wohl annehmen; denn SiA werden begreifen, so weit Sie mich kennen, dB.
+13-1	{	$(	{	_	O	O	
+13-2	nicht	PTKNEG	nicht	_	O	O	
+13-3	wohl	ADV	wohl	_	O	O	
+13-4	annehmen	VVFIN	annehmen	_	O	O	
+13-5	;	$.	;	_	O	O	
+13-6	denn	KON	denn	_	O	O	
+13-7	SiA	NE	<unknown>	_	O	O	
+13-8	werden	VAFIN	werden	_	O	O	
+13-9	begreifen	VVINF	begreifen	_	O	O	
+13-10	,	$,	,	_	O	O	
+13-11	so	ADV	so	_	O	O	
+13-12	weit	ADJD	weit	_	O	O	
+13-13	Sie	PPER	Sie	_	O	O	
+13-14	mich	PRF	ich	_	O	O	
+13-15	kennen	VVFIN	kennen	_	O	O	
+13-16	,	$,	,	_	O	O	
+13-17	dB	NN	<unknown>	_	O	O	
+13-18	.	$.	.	_	O	O	
+
+#id=14
+#text=ich, einmal die Sache libernommen, meine ganze freie Zeit darauf verwenden werde.
+14-1	ich	PPER	ich	_	O	O	
+14-2	,	$,	,	_	O	O	
+14-3	einmal	ADV	einmal	_	O	O	
+14-4	die	ART	die	_	O	O	
+14-5	Sache	NN	Sache	_	O	O	
+14-6	libernommen	VVFIN	<unknown>	_	O	O	
+14-7	,	$,	,	_	O	O	
+14-8	meine	PPOSAT	mein	_	O	O	
+14-9	ganze	ADJA	ganz	_	O	O	
+14-10	freie	ADJA	frei	_	O	O	
+14-11	Zeit	NN	Zeit	_	O	O	
+14-12	darauf	PAV	darauf	_	O	O	
+14-13	verwenden	VVINF	verwenden	_	O	O	
+14-14	werde	VAFIN	werden	_	O	O	
+14-15	.	$.	.	_	O	O	
+
+#id=15
+#text=Nach Ihren frUheren Aeußerungen hinsichtlich der Inscriptt. Urbanae glaube ich auf einen solchen Hülfsfonds rechnen zu können, u. in der That ist eine solche Vn~ illigung eine Ersparung, i da solche Schreiberdienste natürlich wohlfeiler zu haben J ~nd.
+15-1	Nach	APPR	nach	_	O	O	
+15-2	Ihren	PPOSAT	ihr	_	O	O	
+15-3	frUheren	ADJA	<unknown>	_	O	O	
+15-4	Aeußerungen	NN	<unknown>	_	O	O	
+15-5	hinsichtlich	APPR	hinsichtlich	_	O	O	
+15-6	der	ART	die	_	O	O	
+15-7	Inscriptt	NN	<unknown>	_	O	O	
+15-8	.	$.	.	_	O	O	
+15-9	Urbanae	NE	<unknown>	_	O	O	
+15-10	glaube	VVFIN	glauben	_	O	O	
+15-11	ich	PPER	ich	_	O	O	
+15-12	auf	APPR	auf	_	O	O	
+15-13	einen	ART	eine	_	O	O	
+15-14	solchen	PIAT	solche	_	O	O	
+15-15	Hülfsfonds	NN	<unknown>	_	O	O	
+15-16	rechnen	VVINF	rechnen	_	O	O	
+15-17	zu	PTKZU	zu	_	O	O	
+15-18	können	VMINF	können	_	O	O	
+15-19	,	$,	,	_	O	O	
+15-20	u.	KON	und	_	O	O	
+15-21	in	APPR	in	_	O	O	
+15-22	der	ART	die	_	O	O	
+15-23	That	NE	<unknown>	_	O	O	
+15-24	ist	VAFIN	sein	_	O	O	
+15-25	eine	ART	eine	_	O	O	
+15-26	solche	PIAT	solche	_	O	O	
+15-27	Vn~	NN	<unknown>	_	O	O	
+15-28	illigung	NN	<unknown>	_	O	O	
+15-29	eine	ART	eine	_	O	O	
+15-30	Ersparung	NN	<unknown>	_	O	O	
+15-31	,	$,	,	_	O	O	
+15-32	i	NE	i	_	O	O	
+15-33	da	ADV	da	_	O	O	
+15-34	solche	PIAT	solche	_	O	O	
+15-35	Schreiberdienste	NN	<unknown>	_	O	O	
+15-36	natürlich	ADV	natürlich	_	O	O	
+15-37	wohlfeiler	NN	<unknown>	_	O	O	
+15-38	zu	PTKZU	zu	_	O	O	
+15-39	haben	VAINF	haben	_	O	O	
+15-40	J	NN	J	_	O	O	
+15-41	~nd	NE	<unknown>	_	O	O	
+15-42	.	$.	.	_	O	O	
+
+#id=16
+#text=- Ich bin noch ganz im Dunkeln ii.ber alle Einzelheiten u. werde es wohl noch bleiben müssen, bis r~;ommsen zurUck kommt.
+16-1	-	$(	-	_	O	O	
+16-2	Ich	PPER	ich	_	O	O	
+16-3	bin	VAFIN	sein	_	O	O	
+16-4	noch	ADV	noch	_	O	O	
+16-5	ganz	ADV	ganz	_	O	O	
+16-6	im	APPRART	in	_	O	O	
+16-7	Dunkeln	NN	Dunkeln	_	O	O	
+16-8	ii.ber	VVFIN	<unknown>	_	O	O	
+16-9	alle	PIAT	alle	_	O	O	
+16-10	Einzelheiten	NN	Einzelheit	_	O	O	
+16-11	u.	KON	und	_	O	O	
+16-12	werde	VAFIN	werden	_	O	O	
+16-13	es	PPER	es	_	O	O	
+16-14	wohl	ADV	wohl	_	O	O	
+16-15	noch	ADV	noch	_	O	O	
+16-16	bleiben	VVINF	bleiben	_	O	O	
+16-17	müssen	VMINF	müssen	_	O	O	
+16-18	,	$,	,	_	O	O	
+16-19	bis	KON	bis	_	O	O	
+16-20	r~	VVFIN	<unknown>	_	O	O	
+16-21	;	$.	;	_	O	O	
+16-22	ommsen	ADJA	<unknown>	_	O	O	
+16-23	zurUck	NN	<unknown>	_	O	O	
+16-24	kommt	VVFIN	kommen	_	O	O	
+16-25	.	$.	.	_	O	O	
+
+#id=17
+#text=- Ihren Brief an de Rossi iibersende ich ihm.
+17-1	-	$(	-	_	O	O	
+17-2	Ihren	PPOSAT	ihr	_	O	O	
+17-3	Brief	NN	Brief	_	O	O	
+17-4	an	APPR	an	_	O	O	
+17-5	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-6	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+17-7	iibersende	ADJA	<unknown>	_	O	O	
+17-8	ich	PPER	ich	_	O	O	
+17-9	ihm	PPER	er	_	O	O	
+17-10	.	$.	.	_	O	O	
+

@@ -1,0 +1,358 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=244 Henzen an Gerhard 24/XI/54 Verehrter Herr Professor Vorstehenden Brief Ubersende ich Ihnen nach Verabredung mit Braun und mit der Bitte, die Sache sofort zu erledigen.
+1-1	244	CARD	@card@	_	O	O	
+1-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	24/XI/54	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-6	Verehrter	ADJA	verehrt	_	O	O	
+1-7	Herr	NN	Herr	_	O	O	
+1-8	Professor	NN	Professor	_	O	O	
+1-9	Vorstehenden	ADJA	vorstehend	_	O	O	
+1-10	Brief	NN	Brief	_	O	O	
+1-11	Ubersende	NN	<unknown>	_	O	O	
+1-12	ich	PPER	ich	_	O	O	
+1-13	Ihnen	PPER	Sie	_	O	O	
+1-14	nach	APPR	nach	_	O	O	
+1-15	Verabredung	NN	Verabredung	_	O	O	
+1-16	mit	APPR	mit	_	O	O	
+1-17	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-18	und	KON	und	_	O	O	
+1-19	mit	APPR	mit	_	O	O	
+1-20	der	ART	die	_	O	O	
+1-21	Bitte	NN	Bitte	_	O	O	
+1-22	,	$,	,	_	O	O	
+1-23	die	ART	die	_	O	O	
+1-24	Sache	NN	Sache	_	O	O	
+1-25	sofort	ADV	sofort	_	O	O	
+1-26	zu	PTKZU	zu	_	O	O	
+1-27	erledigen	VVINF	erledigen	_	O	O	
+1-28	.	$.	.	_	O	O	
+
+#id=2
+#text=FUr uns sind Diplome eine zu rare Sache, als dß.
+2-1	FUr	NN	<unknown>	_	O	O	
+2-2	uns	PPER	wir	_	O	O	
+2-3	sind	VAFIN	sein	_	O	O	
+2-4	Diplome	NN	Diplom	_	O	O	
+2-5	eine	ART	eine	_	O	O	
+2-6	zu	APPR	zu	_	O	O	
+2-7	rare	ADJA	rar	_	O	O	
+2-8	Sache	NN	Sache	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	als	KOKOM	als	_	O	O	
+2-11	dß	ADJD	<unknown>	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=ich eines von den wenigen mir ~u8eschickten herausgeben mBchte, da wir sie selbst sehr n5thiß haben.
+3-1	ich	PPER	ich	_	O	O	
+3-2	eines	PIS	eine	_	O	O	
+3-3	von	APPR	von	_	O	O	
+3-4	den	ART	die	_	O	O	
+3-5	wenigen	PIAT	wenige	_	O	O	
+3-6	mir	PPER	ich	_	O	O	
+3-7	~u8eschickten	NN	<unknown>	_	O	O	
+3-8	herausgeben	VVINF	herausgeben	_	O	O	
+3-9	mBchte	VVFIN	<unknown>	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	da	KOUS	da	_	O	O	
+3-12	wir	PPER	wir	_	O	O	
+3-13	sie	PPER	sie	_	O	O	
+3-14	selbst	ADV	selbst	_	O	O	
+3-15	sehr	ADV	sehr	_	O	O	
+3-16	n5thiß	NN	<unknown>	_	O	O	
+3-17	haben	VAFIN	haben	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Ohnehin musste doch an Sie berichtet werden.
+4-1	Ohnehin	ADV	ohnehin	_	O	O	
+4-2	musste	VMFIN	müssen	_	O	O	
+4-3	doch	ADV	doch	_	O	O	
+4-4	an	APPR	an	_	O	O	
+4-5	Sie	PPER	Sie	_	O	O	
+4-6	berichtet	VVPP	berichten	_	O	O	
+4-7	werden	VAINF	werden	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=An Burfoian sandte ich eines für Herrn v. Velsen.
+5-1	An	APPR	an	_	O	O	
+5-2	Burfoian	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	sandte	VVFIN	senden	_	O	O	
+5-4	ich	PPER	ich	_	O	O	
+5-5	eines	PIS	eine	_	O	O	
+5-6	für	APPR	für	_	O	O	
+5-7	Herrn	NN	Herr	_	O	O	
+5-8	v.	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-9	Velsen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=- Von ersterem au,sfUf{9licher Bericht ( sotto torchio für ds.
+6-1	-	$(	-	_	O	O	
+6-2	Von	APPR	von	_	O	O	
+6-3	ersterem	ADJA	<unknown>	_	O	O	
+6-4	au,sfUf{9licher	ADJA	<unknown>	_	O	O	
+6-5	Bericht	NN	Bericht	_	O	O	
+6-6	(	$(	(	_	O	O	
+6-7	sotto	NE	<unknown>	_	O	O	
+6-8	torchio	NE	<unknown>	_	O	O	
+6-9	für	APPR	für	_	O	O	
+6-10	ds.	ADJA	<unknown>	_	O	O	
+
+#id=7
+#text=Bull. )
+7-1	Bull	NE	Bull	_	O	O	
+7-2	.	$.	.	_	O	O	
+7-3	)	$(	)	_	O	O	
+
+#id=8
+#text=über seine u. Rangalu's scavi im Heracon.
+8-1	über	APPR	über	_	O	O	
+8-2	seine	PPOSAT	sein	_	O	O	
+8-3	u.	APPR	um	_	O	O	
+8-4	Rangalu's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-5	scavi	NE	<unknown>	_	O	O	
+8-6	im	APPRART	in	_	O	O	
+8-7	Heracon	NN	<unknown>	_	O	O	
+8-8	.	$.	.	_	O	O	
+
+#id=9
+#text=Wahrscheinlich haben auch Sie schon davon Kunde und haben den Vortheil, nicht erst übersetzen zu müßen, wie ich poveretto.
+9-1	Wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+9-2	haben	VAFIN	haben	_	O	O	
+9-3	auch	ADV	auch	_	O	O	
+9-4	Sie	PPER	Sie	_	O	O	
+9-5	schon	ADV	schon	_	O	O	
+9-6	davon	PAV	davon	_	O	O	
+9-7	Kunde	NN	Kunde	_	O	O	
+9-8	und	KON	und	_	O	O	
+9-9	haben	VAFIN	haben	_	O	O	
+9-10	den	ART	die	_	O	O	
+9-11	Vortheil	NN	<unknown>	_	O	O	
+9-12	,	$,	,	_	O	O	
+9-13	nicht	PTKNEG	nicht	_	O	O	
+9-14	erst	ADV	erst	_	O	O	
+9-15	übersetzen	VVINF	übersetzen	_	O	O	
+9-16	zu	PTKZU	zu	_	O	O	
+9-17	müßen	VVINF	<unknown>	_	O	O	
+9-18	,	$,	,	_	O	O	
+9-19	wie	KOUS	wie	_	O	O	
+9-20	ich	PPER	ich	_	O	O	
+9-21	poveretto	VVFIN	<unknown>	_	O	O	
+9-22	.	$.	.	_	O	O	
+
+#id=10
+#text=- Durch die Gesandtschaft zing allerlei Roba von Ihnen ein, woflir herzlichsten Dank, so weit es micht persBnlich angeht.
+10-1	-	$(	-	_	O	O	
+10-2	Durch	APPR	durch	_	O	O	
+10-3	die	ART	die	_	O	O	
+10-4	Gesandtschaft	NN	Gesandtschaft	_	O	O	
+10-5	zing	NE	<unknown>	_	O	O	
+10-6	allerlei	PIAT	allerlei	_	O	O	
+10-7	Roba	NN	<unknown>	_	O	O	
+10-8	von	APPR	von	_	O	O	
+10-9	Ihnen	PPER	Sie	_	O	O	
+10-10	ein	PTKVZ	ein	_	O	O	
+10-11	,	$,	,	_	O	O	
+10-12	woflir	NN	<unknown>	_	O	O	
+10-13	herzlichsten	ADJA	herzlich	_	O	O	
+10-14	Dank	NN	Dank	_	O	O	
+10-15	,	$,	,	_	O	O	
+10-16	so	ADV	so	_	O	O	
+10-17	weit	ADJD	weit	_	O	O	
+10-18	es	PPER	es	_	O	O	
+10-19	micht	ADJD	<unknown>	_	O	O	
+10-20	persBnlich	ADJD	<unknown>	_	O	O	
+10-21	angeht	VVFIN	angehen	_	O	O	
+10-22	.	$.	.	_	O	O	
+
+#id=11
+#text=Ich bin auf dem V~ege, von Viscontino die :J?apiere E.
+11-1	Ich	PPER	ich	_	O	O	
+11-2	bin	VAFIN	sein	_	O	O	
+11-3	auf	APPR	auf	_	O	O	
+11-4	dem	ART	die	_	O	O	
+11-5	V~ege	NN	<unknown>	_	O	O	
+11-6	,	$,	,	_	O	O	
+11-7	von	APPR	von	_	O	O	
+11-8	Viscontino	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-9	die	ART	die	_	O	O	
+11-10	:J	NN	<unknown>	_	O	O	
+11-11	?	$.	?	_	O	O	
+11-12	apiere	NN	<unknown>	_	O	O	
+11-13	E.	NE	E.	_	O	O	
+
+#id=12
+#text=Q., F. A. u. andrer Viscontis, so ·weit sie Epigraphica enthalten, herauszubekommen; er hat sie zugesagt, aber Sie wissen, das ist immer erst Ein - Schritt.
+12-1	Q.	NE	Q.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+12-2	,	$,	,	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+12-3	F.	NE	F.	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+12-4	A.	NE	A.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+12-5	u.	APPR	um	_	O	O	
+12-6	andrer	PIAT	andere	_	O	O	
+12-7	Viscontis	NN	<unknown>	_	O	O	
+12-8	,	$,	,	_	O	O	
+12-9	so	ADV	so	_	O	O	
+12-10	·weit	ADJD	<unknown>	_	O	O	
+12-11	sie	PPER	sie	_	O	O	
+12-12	Epigraphica	NN	<unknown>	_	O	O	
+12-13	enthalten	VVPP	enthalten	_	O	O	
+12-14	,	$,	,	_	O	O	
+12-15	herauszubekommen	VVIZU	herausbekommen	_	O	O	
+12-16	;	$.	;	_	O	O	
+12-17	er	PPER	er	_	O	O	
+12-18	hat	VAFIN	haben	_	O	O	
+12-19	sie	PPER	sie	_	O	O	
+12-20	zugesagt	VVPP	zusagen	_	O	O	
+12-21	,	$,	,	_	O	O	
+12-22	aber	KON	aber	_	O	O	
+12-23	Sie	PPER	Sie	_	O	O	
+12-24	wissen	VVFIN	wissen	_	O	O	
+12-25	,	$,	,	_	O	O	
+12-26	das	PDS	die	_	O	O	
+12-27	ist	VAFIN	sein	_	O	O	
+12-28	immer	ADV	immer	_	O	O	
+12-29	erst	ADV	erst	_	O	O	
+12-30	Ein	ART	eine	_	O	O	
+12-31	-	$(	-	_	O	O	
+12-32	Schritt	NN	Schritt	_	O	O	
+12-33	.	$.	.	_	O	O	
+
+#id=13
+#text=Sie sollen sehr wichtie; durch Fundnotizen u. dh.
+13-1	Sie	PPER	Sie	_	O	O	
+13-2	sollen	VMFIN	sollen	_	O	O	
+13-3	sehr	ADV	sehr	_	O	O	
+13-4	wichtie	ADJD	<unknown>	_	O	O	
+13-5	;	$.	;	_	O	O	
+13-6	durch	APPR	durch	_	O	O	
+13-7	Fundnotizen	NN	<unknown>	_	O	O	
+13-8	u.	APPR	um	_	O	O	
+13-9	dh.	NE	<unknown>	_	O	O	
+
+#id=14
+#text=i~ufschlüße liber von hier verschleppte Steine sein, also flir das C.I.L. hBchst brauchbar.
+14-1	i~ufschlüße	ADJA	<unknown>	_	O	O	
+14-2	liber	NN	<unknown>	_	O	O	
+14-3	von	APPR	von	_	O	O	
+14-4	hier	ADV	hier	_	O	O	
+14-5	verschleppte	ADJA	verschleppt	_	O	O	
+14-6	Steine	NN	Stein	_	O	O	
+14-7	sein	VAINF	sein	_	O	O	
+14-8	,	$,	,	_	O	O	
+14-9	also	ADV	also	_	O	O	
+14-10	flir	NE	<unknown>	_	O	O	
+14-11	das	ART	die	_	O	O	
+14-12	C.I.L.	NE	<unknown>	_	O	O	
+14-13	hBchst	NN	<unknown>	_	O	O	
+14-14	brauchbar	ADJD	brauchbar	_	O	O	
+14-15	.	$.	.	_	O	O	
+
+#id=15
+#text=Auch hat er mir Erlaubnis zum Abschreiben der C' t' .
+15-1	Auch	ADV	auch	_	O	O	
+15-2	hat	VAFIN	haben	_	O	O	
+15-3	er	PPER	er	_	O	O	
+15-4	mir	PPER	ich	_	O	O	
+15-5	Erlaubnis	NN	Erlaubnis	_	O	O	
+15-6	zum	APPRART	zu	_	O	O	
+15-7	Abschreiben	NN	Abschreiben	_	O	O	
+15-8	der	ART	die	_	O	O	
+15-9	C	NN	C	_	O	O	
+15-10	'	$(	'	_	O	O	
+15-11	t	NN	t	_	O	O	
+15-12	'	$(	'	_	O	O	
+15-13	.	$.	.	_	O	O	
+
+#id=16
+#text=d C 1 b .
+16-1	d	ADJA	<unknown>	_	O	O	
+16-2	C	NN	C	_	O	O	
+16-3	1	CARD	1	_	O	O	
+16-4	b	VVFIN	<unknown>	_	O	O	
+16-5	.	$.	.	_	O	O	
+
+#id=17
+#text=b' F~ a S. C' b t .
+17-1	b	ADJA	<unknown>	_	O	O	
+17-2	'	$(	'	_	O	O	
+17-3	F~	NN	<unknown>	_	O	O	
+17-4	a	FM	a	_	O	O	
+17-5	S.	NE	S.	_	O	O	
+17-6	C	NN	C	_	O	O	
+17-7	'	$(	'	_	O	O	
+17-8	b	ADJA	<unknown>	_	O	O	
+17-9	t	NN	t	_	O	O	
+17-10	.	$.	.	_	O	O	
+
+#id=18
+#text=o elne ln en 0 um arlen el öe 88 lano versproehen, u. stellt sich überhaupt sehr zuvorkommend an.
+18-1	o	ADJA	<unknown>	_	O	O	
+18-2	elne	ADJA	<unknown>	_	O	O	
+18-3	ln	NN	<unknown>	_	O	O	
+18-4	en	FM	en	_	O	O	
+18-5	0	CARD	@card@	_	O	O	
+18-6	um	APPR	um	_	O	O	
+18-7	arlen	NE	<unknown>	_	O	O	
+18-8	el	NE	el	_	O	O	
+18-9	öe	NN	<unknown>	_	O	O	
+18-10	88	CARD	88	_	O	O	
+18-11	lano	NN	<unknown>	_	O	O	
+18-12	versproehen	VVFIN	<unknown>	_	O	O	
+18-13	,	$,	,	_	O	O	
+18-14	u.	KON	und	_	O	O	
+18-15	stellt	VVFIN	stellen	_	O	O	
+18-16	sich	PRF	sich	_	O	O	
+18-17	überhaupt	ADV	überhaupt	_	O	O	
+18-18	sehr	ADV	sehr	_	O	O	
+18-19	zuvorkommend	ADJD	zuvorkommend	_	O	O	
+18-20	an	PTKVZ	an	_	O	O	
+18-21	.	$.	.	_	O	O	
+
+#id=19
+#text=Das furchtbare Wetter der letzten Wochen hat mich bis jetzt verhindert, ihn in dsr.
+19-1	Das	ART	die	_	O	O	
+19-2	furchtbare	ADJA	furchtbar	_	O	O	
+19-3	Wetter	NN	Wetter	_	O	O	
+19-4	der	ART	die	_	O	O	
+19-5	letzten	ADJA	letzt	_	O	O	
+19-6	Wochen	NN	Woche	_	O	O	
+19-7	hat	VAFIN	haben	_	O	O	
+19-8	mich	PRF	ich	_	O	O	
+19-9	bis	APPR	bis	_	O	O	
+19-10	jetzt	ADV	jetzt	_	O	O	
+19-11	verhindert	VVPP	verhindern	_	O	O	
+19-12	,	$,	,	_	O	O	
+19-13	ihn	PPER	er	_	O	O	
+19-14	in	APPR	in	_	O	O	
+19-15	dsr	NE	<unknown>	_	O	O	
+19-16	.	$.	.	_	O	O	
+
+#id=20
+#text=Hinsicht beim Worte zu nehmen, da doch Nichts zu mAchen war.
+20-1	Hinsicht	NN	Hinsicht	_	O	O	
+20-2	beim	APPRART	bei	_	O	O	
+20-3	Worte	NN	Wort	_	O	O	
+20-4	zu	PTKZU	zu	_	O	O	
+20-5	nehmen	VVINF	nehmen	_	O	O	
+20-6	,	$,	,	_	O	O	
+20-7	da	KOUS	da	_	O	O	
+20-8	doch	ADV	doch	_	O	O	
+20-9	Nichts	PIS	nichts	_	O	O	
+20-10	zu	PTKZU	zu	_	O	O	
+20-11	mAchen	VVINF	machen	_	O	O	
+20-12	war	VAFIN	sein	_	O	O	
+20-13	.	$.	.	_	O	O	
+
+#id=21
+#text=Ueberhaupt habe ich seit mei-
+21-1	Ueberhaupt	NE	<unknown>	_	O	O	
+21-2	habe	VAFIN	haben	_	O	O	
+21-3	ich	PPER	ich	_	O	O	
+21-4	seit	APPR	seit	_	O	O	
+21-5	mei-	TRUNC	mei-	_	O	O	
+

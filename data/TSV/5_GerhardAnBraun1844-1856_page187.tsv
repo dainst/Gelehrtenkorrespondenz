@@ -1,0 +1,210 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=3 Gerhard an Braun Berlin, 27. April 1846 namentlich auch alle meine Zeichnungen die damit gehen sollten.
+1-1	3	CARD	3	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	namentlich	ADJD	namentlich	_	O	O	
+1-12	auch	ADV	auch	_	O	O	
+1-13	alle	PIAT	alle	_	O	O	
+1-14	meine	PPOSAT	mein	_	O	O	
+1-15	Zeichnungen	NN	Zeichnung	_	O	O	
+1-16	die	ART	die	_	O	O	
+1-17	damit	PAV	damit	_	O	O	
+1-18	gehen	VVINF	gehen	_	O	O	
+1-19	sollten	VMFIN	sollen	_	O	O	
+1-20	.	$.	.	_	O	O	
+
+#id=2
+#text=Ferner Manuscripte in Institutssachen; Folgendes ist durchgestrichen und am Rande dazu bemerkt ich muß nun bitten daß Sie mir die Liste der zum 21 April vorgeschlagenen Mitglieder aus dem an Metternich gesandten Brief im nächsten Brief abschriftlich ausgezogen mitsenden.
+2-1	Ferner	ADJA	fern	_	O	O	
+2-2	Manuscripte	NN	<unknown>	_	O	O	
+2-3	in	APPR	in	_	O	O	
+2-4	Institutssachen	NN	<unknown>	_	O	O	
+2-5	;	$.	;	_	O	O	
+2-6	Folgendes	NN	Folgende	_	O	O	
+2-7	ist	VAFIN	sein	_	O	O	
+2-8	durchgestrichen	VVPP	durchstreichen	_	O	O	
+2-9	und	KON	und	_	O	O	
+2-10	am	APPRART	an	_	O	O	
+2-11	Rande	NN	Rand	_	O	O	
+2-12	dazu	PAV	dazu	_	O	O	
+2-13	bemerkt	VVFIN	bemerken	_	O	O	
+2-14	ich	PPER	ich	_	O	O	
+2-15	muß	VMFIN	müssen	_	O	O	
+2-16	nun	ADV	nun	_	O	O	
+2-17	bitten	VVFIN	bitten	_	O	O	
+2-18	daß	KOUS	dass	_	O	O	
+2-19	Sie	PPER	Sie	_	O	O	
+2-20	mir	PPER	ich	_	O	O	
+2-21	die	ART	die	_	O	O	
+2-22	Liste	NN	Liste	_	O	O	
+2-23	der	ART	die	_	O	O	
+2-24	zum	APPRART	zu	_	O	O	
+2-25	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-26	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-27	vorgeschlagenen	ADJA	vorgeschlagen	_	O	O	
+2-28	Mitglieder	NN	Mitglied	_	O	O	
+2-29	aus	APPR	aus	_	O	O	
+2-30	dem	ART	die	_	O	O	
+2-31	an	APPR	an	_	O	O	
+2-32	Metternich	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-33	gesandten	ADJA	gesandt	_	O	O	
+2-34	Brief	NN	Brief	_	O	O	
+2-35	im	APPRART	in	_	O	O	
+2-36	nächsten	ADJA	nah	_	O	O	
+2-37	Brief	NN	Brief	_	O	O	
+2-38	abschriftlich	ADJD	<unknown>	_	O	O	
+2-39	ausgezogen	VVPP	ausziehen	_	O	O	
+2-40	mitsenden	NN	<unknown>	_	O	O	
+2-41	.	$.	.	_	O	O	
+
+#id=3
+#text=Hat sich gefunden.
+3-1	Hat	VAFIN	haben	_	O	O	
+3-2	sich	PRF	sich	_	O	O	
+3-3	gefunden	VVPP	finden	_	O	O	
+3-4	.	$.	.	_	O	O	
+
+#id=4
+#text=Avellino schreibt mir, von keinem Gesuch (Fiorelli's oder Sonstigen) wegen des etruskischen Herkules zu wissen, aber als meiniges vom Minister die Zeichnung zu erbitten.
+4-1	Avellino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	schreibt	VVFIN	schreiben	_	O	O	
+4-3	mir	PPER	ich	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	von	APPR	von	_	O	O	
+4-6	keinem	PIAT	keine	_	O	O	
+4-7	Gesuch	NN	Gesuch	_	O	O	
+4-8	(	$(	(	_	O	O	
+4-9	Fiorelli's	TRUNC	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-10	oder	KON	oder	_	O	O	
+4-11	Sonstigen	NN	Sonstige	_	O	O	
+4-12	)	$(	)	_	O	O	
+4-13	wegen	APPR	wegen	_	O	O	
+4-14	des	ART	die	_	O	O	
+4-15	etruskischen	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-16	Herkules	NE	Herkules	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-17	zu	PTKZU	zu	_	O	O	
+4-18	wissen	VVINF	wissen	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	aber	ADV	aber	_	O	O	
+4-21	als	KOKOM	als	_	O	O	
+4-22	meiniges	NN	<unknown>	_	O	O	
+4-23	vom	APPRART	von	_	O	O	
+4-24	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-25	die	ART	die	_	O	O	
+4-26	Zeichnung	NN	Zeichnung	_	O	O	
+4-27	zu	PTKZU	zu	_	O	O	
+4-28	erbitten	VVINF	erbitten	_	O	O	
+4-29	.	$.	.	_	O	O	
+
+#id=5
+#text=Steinhäuser war beim König; ich sah ihn nicht.
+5-1	Steinhäuser	NN	Steinhaus	_	O	O	
+5-2	war	VAFIN	sein	_	O	O	
+5-3	beim	APPRART	bei	_	O	O	
+5-4	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	;	$.	;	_	O	O	
+5-6	ich	PPER	ich	_	O	O	
+5-7	sah	VVFIN	sehen	_	O	O	
+5-8	ihn	PPER	er	_	O	O	
+5-9	nicht	PTKNEG	nicht	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Seine Gruppe macht hier Furore.
+6-1	Seine	PPOSAT	sein	_	O	O	
+6-2	Gruppe	NN	Gruppe	_	O	O	
+6-3	macht	VVFIN	machen	_	O	O	
+6-4	hier	ADV	hier	_	O	O	
+6-5	Furore	NN	Furore	_	O	O	
+6-6	.	$.	.	_	O	O	
+
+#id=7
+#text=Den CasteIlanos, den wir zum Correspondenten machen, habe ich aufgefordert Inschriften zu senden.
+7-1	Den	ART	die	_	O	O	
+7-2	CasteIlanos	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+7-3	,	$,	,	_	O	O	
+7-4	den	PRELS	die	_	O	O	
+7-5	wir	PPER	wir	_	O	O	
+7-6	zum	APPRART	zu	_	O	O	
+7-7	Correspondenten	NN	<unknown>	_	O	O	
+7-8	machen	VVFIN	machen	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	habe	VAFIN	haben	_	O	O	
+7-11	ich	PPER	ich	_	O	O	
+7-12	aufgefordert	ADJD	aufgefordert	_	O	O	
+7-13	Inschriften	NN	Inschrift	_	O	O	
+7-14	zu	PTKZU	zu	_	O	O	
+7-15	senden	VVINF	senden	_	O	O	
+7-16	.	$.	.	_	O	O	
+
+#id=8
+#text=Das unglückliche Paket Bellotti'scher Zeichnungen habe ich für fast 2 rt eingelöst.
+8-1	Das	ART	die	_	O	O	
+8-2	unglückliche	ADJA	unglücklich	_	O	O	
+8-3	Paket	NN	Paket	_	O	O	
+8-4	Bellotti'scher	NE	<unknown>	_	O	O	
+8-5	Zeichnungen	NN	Zeichnung	_	O	O	
+8-6	habe	VAFIN	haben	_	O	O	
+8-7	ich	PPER	ich	_	O	O	
+8-8	für	APPR	für	_	O	O	
+8-9	fast	ADV	fast	_	O	O	
+8-10	2	CARD	2	_	O	O	
+8-11	rt	NN	<unknown>	_	O	O	
+8-12	eingelöst	VVPP	einlösen	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Russo verlangt noch eine Nachzahlung dafür; Bellotti mag ihm noch 2 Piaster anbieten, falls er sich meldet.
+9-1	Russo	NE	Russo	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	verlangt	VVFIN	verlangen	_	O	O	
+9-3	noch	ADV	noch	_	O	O	
+9-4	eine	ART	eine	_	O	O	
+9-5	Nachzahlung	NN	Nachzahlung	_	O	O	
+9-6	dafür	PAV	dafür	_	O	O	
+9-7	;	$.	;	_	O	O	
+9-8	Bellotti	NE	Bellotti	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-9	mag	VMFIN	mögen	_	O	O	
+9-10	ihm	PPER	er	_	O	O	
+9-11	noch	ADV	noch	_	O	O	
+9-12	2	CARD	2	_	O	O	
+9-13	Piaster	NN	<unknown>	_	O	O	
+9-14	anbieten	VVINF	anbieten	_	O	O	
+9-15	,	$,	,	_	O	O	
+9-16	falls	KOUS	falls	_	O	O	
+9-17	er	PPER	er	_	O	O	
+9-18	sich	PRF	sich	_	O	O	
+9-19	meldet	VVFIN	melden	_	O	O	
+9-20	.	$.	.	_	O	O	
+
+#id=10
+#text=Die Erzählung über Garucci hört sich ja sehr gut an; danken Sie Henzen dafür wie für sonstigen Inhalt sei-
+10-1	Die	ART	die	_	O	O	
+10-2	Erzählung	NN	Erzählung	_	O	O	
+10-3	über	APPR	über	_	O	O	
+10-4	Garucci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-5	hört	VVFIN	hören	_	O	O	
+10-6	sich	PRF	sich	_	O	O	
+10-7	ja	ADV	ja	_	O	O	
+10-8	sehr	ADV	sehr	_	O	O	
+10-9	gut	ADJD	gut	_	O	O	
+10-10	an	PTKVZ	an	_	O	O	
+10-11	;	$.	;	_	O	O	
+10-12	danken	VVFIN	danken	_	O	O	
+10-13	Sie	PPER	Sie	_	O	O	
+10-14	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-15	dafür	PAV	dafür	_	O	O	
+10-16	wie	KOKOM	wie	_	O	O	
+10-17	für	APPR	für	_	O	O	
+10-18	sonstigen	ADJA	sonstig	_	O	O	
+10-19	Inhalt	NN	Inhalt	_	O	O	
+10-20	sei-	TRUNC	sei-	_	O	O	
+

@@ -1,0 +1,161 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=92 2 Lepsius an Benzen Berlin, 10. April 1873 Wilamowitz bitte ich um den Vornamen.
+1-1	92	CARD	92	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Benzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Wilamowitz	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-13	bitte	VVFIN	bitten	_	O	O	
+1-14	ich	PPER	ich	_	O	O	
+1-15	um	APPR	um	_	O	O	
+1-16	den	ART	die	_	O	O	
+1-17	Vornamen	NN	Vorname	_	O	O	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Was hier noch zugefügt wird, melde ich Ihnen, sobald die Liste mir wieder zugeht.
+2-1	Was	PWS	was	_	O	O	
+2-2	hier	ADV	hier	_	O	O	
+2-3	noch	ADV	noch	_	O	O	
+2-4	zugefügt	VVPP	zufügen	_	O	O	
+2-5	wird	VAFIN	werden	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	melde	VVFIN	melden	_	O	O	
+2-8	ich	PPER	ich	_	O	O	
+2-9	Ihnen	PPER	Sie	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	sobald	KOUS	sobald	_	O	O	
+2-12	die	ART	die	_	O	O	
+2-13	Liste	NN	Liste	_	O	O	
+2-14	mir	PRF	ich	_	O	O	
+2-15	wieder	ADV	wieder	_	O	O	
+2-16	zugeht	VVFIN	zugehen	_	O	O	
+2-17	.	$.	.	_	O	O	
+
+#id=3
+#text=Wenn das Medaillon fertig und zu Ihrer Zufriedenheit ist, werde ich mit der Familie Parthey hier sprechen, ob sie es in Marmor zu bestellen wünscht.
+3-1	Wenn	KOUS	wenn	_	O	O	
+3-2	das	ART	die	_	O	O	
+3-3	Medaillon	NN	Medaillon	_	O	O	
+3-4	fertig	PTKVZ	fertig	_	O	O	
+3-5	und	KON	und	_	O	O	
+3-6	zu	APPR	zu	_	O	O	
+3-7	Ihrer	PPOSAT	ihr	_	O	O	
+3-8	Zufriedenheit	NN	Zufriedenheit	_	O	O	
+3-9	ist	VAFIN	sein	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	werde	VAFIN	werden	_	O	O	
+3-12	ich	PPER	ich	_	O	O	
+3-13	mit	APPR	mit	_	O	O	
+3-14	der	ART	die	_	O	O	
+3-15	Familie	NN	Familie	_	O	O	
+3-16	Parthey	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-17	hier	ADV	hier	_	O	O	
+3-18	sprechen	VVINF	sprechen	_	O	O	
+3-19	,	$,	,	_	O	O	
+3-20	ob	KOUS	ob	_	O	O	
+3-21	sie	PPER	sie	_	O	O	
+3-22	es	PPER	es	_	O	O	
+3-23	in	APPR	in	_	O	O	
+3-24	Marmor	NN	Marmor	_	O	O	
+3-25	zu	PTKZU	zu	_	O	O	
+3-26	bestellen	VVINF	bestellen	_	O	O	
+3-27	wünscht	VVFIN	wünschen	_	O	O	
+3-28	.	$.	.	_	O	O	
+
+#id=4
+#text=Oder geben Sie vielleicht besser direkt darüber Nachricht ?
+4-1	Oder	KON	oder	_	O	O	
+4-2	geben	VVFIN	geben	_	O	O	
+4-3	Sie	PPER	Sie	_	O	O	
+4-4	vielleicht	ADV	vielleicht	_	O	O	
+4-5	besser	ADJD	gut	_	O	O	
+4-6	direkt	ADJD	direkt	_	O	O	
+4-7	darüber	PAV	darüber	_	O	O	
+4-8	Nachricht	NN	Nachricht	_	O	O	
+4-9	?	$.	?	_	O	O	
+
+#id=5
+#text=Ob Mommsen noch bei Ihnen ist?
+5-1	Ob	KOUS	ob	_	O	O	
+5-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	noch	ADV	noch	_	O	O	
+5-4	bei	APPR	bei	_	O	O	
+5-5	Ihnen	PPER	Sie	_	O	O	
+5-6	ist	VAFIN	sein	_	O	O	
+5-7	?	$.	?	_	O	O	
+
+#id=6
+#text=Dann grüßen Sie ihn herzlich.
+6-1	Dann	ADV	dann	_	O	O	
+6-2	grüßen	VVFIN	grüßen	_	O	O	
+6-3	Sie	PPER	Sie	_	O	O	
+6-4	ihn	PPER	er	_	O	O	
+6-5	herzlich	ADJD	herzlich	_	O	O	
+6-6	.	$.	.	_	O	O	
+
+#id=7
+#text=Er ·"rird aber wohl schon nach Neapel sein.
+7-1	Er	PPER	er	_	O	O	
+7-2	·"rird	VVFIN	<unknown>	_	O	O	
+7-3	aber	ADV	aber	_	O	O	
+7-4	wohl	ADV	wohl	_	O	O	
+7-5	schon	ADV	schon	_	O	O	
+7-6	nach	APPR	nach	_	O	O	
+7-7	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-8	sein	VAINF	sein	_	O	O	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=Co oper Wei~gold ist der Name den ich suchte.
+8-1	Co	NN	Co	_	O	O	
+8-2	oper	NN	Oper	_	O	O	
+8-3	Wei~gold	NN	<unknown>	_	O	O	
+8-4	ist	VAFIN	sein	_	O	O	
+8-5	der	ART	die	_	O	O	
+8-6	Name	NN	Name	_	O	O	
+8-7	den	ART	die	_	O	O	
+8-8	ich	PPER	ich	_	O	O	
+8-9	suchte	VVFIN	suchen	_	O	O	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=Der Ihrige R Lepsius Ich erhalte so eben eine Anfrage aus dem Ministerium das Athenische Institut betreffend, aus dem ich ersehe daß Alles in erwünschtem Zuge ist.
+9-1	Der	ART	die	_	O	O	
+9-2	Ihrige	PPOSAT	ihrige	_	O	O	
+9-3	R	NN	R	_	O	O	
+9-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	Ich	PPER	ich	_	O	O	
+9-6	erhalte	VVFIN	erhalten	_	O	O	
+9-7	so	ADV	so	_	O	O	
+9-8	eben	ADV	eben	_	O	O	
+9-9	eine	ART	eine	_	O	O	
+9-10	Anfrage	NN	Anfrage	_	O	O	
+9-11	aus	APPR	aus	_	O	O	
+9-12	dem	ART	die	_	O	O	
+9-13	Ministerium	NN	Ministerium	_	O	O	
+9-14	das	ART	die	_	O	O	
+9-15	Athenische	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-16	Institut	NN	Institut	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+9-17	betreffend	ADJD	betreffend	_	O	O	
+9-18	,	$,	,	_	O	O	
+9-19	aus	APPR	aus	_	O	O	
+9-20	dem	PRELS	die	_	O	O	
+9-21	ich	PPER	ich	_	O	O	
+9-22	ersehe	VVFIN	ersehen	_	O	O	
+9-23	daß	KOUS	dass	_	O	O	
+9-24	Alles	PIS	alle	_	O	O	
+9-25	in	APPR	in	_	O	O	
+9-26	erwünschtem	ADJA	erwünscht	_	O	O	
+9-27	Zuge	NN	Zug	_	O	O	
+9-28	ist	VAFIN	sein	_	O	O	
+9-29	.	$.	.	_	O	O	
+

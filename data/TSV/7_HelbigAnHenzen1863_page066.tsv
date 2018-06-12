@@ -1,0 +1,263 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=11 H Helbig an Henzen Rom, 7. August 1865 g. 9/8 65 r.
+1-1	11	CARD	11	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1865	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	9/8	CARD	9/8	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	65	CARD	65	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=10/8 65 Rom 7/8 65. Lieber Herr Professor !
+2-1	10/8	CARD	10/8	_	O	O	
+2-2	65	CARD	65	_	O	O	
+2-3	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	7/8	CARD	7/8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	65	CARD	65	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	.	$.	.	_	O	O	
+2-7	Lieber	ADJA	lieb	_	O	O	
+2-8	Herr	NN	Herr	_	O	O	
+2-9	Professor	NN	Professor	_	O	O	
+2-10	!	$.	!	_	O	O	
+
+#id=3
+#text=Der Mangel eines großen Couverts nöthigt mich, Ihnen die Briefe heut einzeln zu schicken.
+3-1	Der	ART	die	_	O	O	
+3-2	Mangel	NN	Mangel	_	O	O	
+3-3	eines	ART	eine	_	O	O	
+3-4	großen	ADJA	groß	_	O	O	
+3-5	Couverts	NN	<unknown>	_	O	O	
+3-6	nöthigt	VVFIN	<unknown>	_	O	O	
+3-7	mich	PRF	ich	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	Ihnen	PPER	Sie	_	O	O	
+3-10	die	ART	die	_	O	O	
+3-11	Briefe	NN	Brief	_	O	O	
+3-12	heut	VVFIN	heuen	_	O	O	
+3-13	einzeln	ADJD	einzeln	_	O	O	
+3-14	zu	PTKZU	zu	_	O	O	
+3-15	schicken	VVINF	schicken	_	O	O	
+3-16	.	$.	.	_	O	O	
+
+#id=4
+#text=Zu fragen hätte ich Sie zwei Dinge.
+4-1	Zu	PTKZU	zu	_	O	O	
+4-2	fragen	VVINF	fragen	_	O	O	
+4-3	hätte	VAFIN	haben	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	Sie	PPER	Sie	_	O	O	
+4-6	zwei	CARD	zwei	_	O	O	
+4-7	Dinge	NN	Ding	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=Erstens Marietti, der Besitzer der Druckerei der Propaganda, hat sich für die Institutspublicationen associirt und die Bände der Annali, welche ihm aus früheren Jahrgängen fehlten, angekauft.
+5-1	Erstens	ADV	erstens	_	O	O	
+5-2	Marietti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	,	$,	,	_	O	O	
+5-4	der	ART	die	_	O	O	
+5-5	Besitzer	NN	Besitzer	_	O	O	
+5-6	der	ART	die	_	O	O	
+5-7	Druckerei	NN	Druckerei	_	O	O	
+5-8	der	ART	die	_	O	O	
+5-9	Propaganda	NN	Propaganda	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	hat	VAFIN	haben	_	O	O	
+5-12	sich	PRF	sich	_	O	O	
+5-13	für	APPR	für	_	O	O	
+5-14	die	ART	die	_	O	O	
+5-15	Institutspublicationen	NN	<unknown>	_	O	O	
+5-16	associirt	NN	<unknown>	_	O	O	
+5-17	und	KON	und	_	O	O	
+5-18	die	ART	die	_	O	O	
+5-19	Bände	NN	Band	_	O	O	
+5-20	der	ART	die	_	O	O	
+5-21	Annali	NE	<unknown>	_	O	O	
+5-22	,	$,	,	_	O	O	
+5-23	welche	PRELS	welche	_	O	O	
+5-24	ihm	PPER	er	_	O	O	
+5-25	aus	APPR	aus	_	O	O	
+5-26	früheren	ADJA	früh	_	O	O	
+5-27	Jahrgängen	NN	Jahrgang	_	O	O	
+5-28	fehlten	VVFIN	fehlen	_	O	O	
+5-29	,	$,	,	_	O	O	
+5-30	angekauft	VVPP	ankaufen	_	O	O	
+5-31	.	$.	.	_	O	O	
+
+#id=6
+#text=Es sind dies Vol.
+6-1	Es	PPER	es	_	O	O	
+6-2	sind	VAFIN	sein	_	O	O	
+6-3	dies	PDS	dies	_	O	O	
+6-4	Vol.	NE	<unknown>	_	O	O	
+
+#id=7
+#text=17.
+7-1	17	CARD	17	_	O	O	
+7-2	.	$.	.	_	O	O	
+
+#id=8
+#text=26.
+8-1	26	CARD	26	_	O	O	
+8-2	.	$.	.	_	O	O	
+
+#id=9
+#text=27.
+9-1	27	CARD	27	_	O	O	
+9-2	.	$.	.	_	O	O	
+
+#id=10
+#text=28.
+10-1	28	CARD	28	_	O	O	
+10-2	.	$.	.	_	O	O	
+
+#id=11
+#text=32.
+11-1	32	CARD	32	_	O	O	
+11-2	.	$.	.	_	O	O	
+
+#id=12
+#text=34.
+12-1	34	CARD	@card@	_	O	O	
+12-2	.	$.	.	_	O	O	
+
+#id=13
+#text=Beil Vol.
+13-1	Beil	NN	Beil	_	O	O	
+13-2	Vol.	NE	<unknown>	_	O	O	
+
+#id=14
+#text=26 - 28 sind, wie bekannt, Bullettino und Monumenti mit einbegriffen.
+14-1	26	CARD	26	_	O	O	
+14-2	-	$(	-	_	O	O	
+14-3	28	CARD	28	_	O	O	
+14-4	sind	VAFIN	sein	_	O	O	
+14-5	,	$,	,	_	O	O	
+14-6	wie	KOKOM	wie	_	O	O	
+14-7	bekannt	ADJD	bekannt	_	O	O	
+14-8	,	$,	,	_	O	O	
+14-9	Bullettino	NN	<unknown>	_	O	O	
+14-10	und	KON	und	_	O	O	
+14-11	Monumenti	NN	<unknown>	_	O	O	
+14-12	mit	PTKVZ	mit	_	O	O	
+14-13	einbegriffen	VVPP	einbegreifen	_	O	O	
+14-14	.	$.	.	_	O	O	
+
+#id=15
+#text=Marietti behauptet, das Institut gebe bei Verkauf früherer Jahrgänge einen ribasso.
+15-1	Marietti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-2	behauptet	VVFIN	behaupten	_	O	O	
+15-3	,	$,	,	_	O	O	
+15-4	das	ART	die	_	O	O	
+15-5	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+15-6	gebe	VVFIN	geben	_	O	O	
+15-7	bei	APPR	bei	_	O	O	
+15-8	Verkauf	NN	Verkauf	_	O	O	
+15-9	früherer	ADJA	früh	_	O	O	
+15-10	Jahrgänge	NN	Jahrgang	_	O	O	
+15-11	einen	ART	eine	_	O	O	
+15-12	ribasso	NN	<unknown>	_	O	O	
+15-13	.	$.	.	_	O	O	
+
+#id=16
+#text=Wie steht es damit ?
+16-1	Wie	KOUS	wie	_	O	O	
+16-2	steht	VVFIN	stehen	_	O	O	
+16-3	es	PPER	es	_	O	O	
+16-4	damit	PAV	damit	_	O	O	
+16-5	?	$.	?	_	O	O	
+
+#id=17
+#text=Zweitens Gerhard hat mir in seinem letzten Briefe seine Adresse geschrieben, aber so confus, daß ich nichts damit zu machen weiß.
+17-1	Zweitens	ADV	zweitens	_	O	O	
+17-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-3	hat	VAFIN	haben	_	O	O	
+17-4	mir	PPER	ich	_	O	O	
+17-5	in	APPR	in	_	O	O	
+17-6	seinem	PPOSAT	sein	_	O	O	
+17-7	letzten	ADJA	letzt	_	O	O	
+17-8	Briefe	NN	Brief	_	O	O	
+17-9	seine	PPOSAT	sein	_	O	O	
+17-10	Adresse	NN	Adresse	_	O	O	
+17-11	geschrieben	VVPP	schreiben	_	O	O	
+17-12	,	$,	,	_	O	O	
+17-13	aber	KON	aber	_	O	O	
+17-14	so	ADV	so	_	O	O	
+17-15	confus	ADJD	<unknown>	_	O	O	
+17-16	,	$,	,	_	O	O	
+17-17	daß	KOUS	dass	_	O	O	
+17-18	ich	PPER	ich	_	O	O	
+17-19	nichts	PIS	nichts	_	O	O	
+17-20	damit	PAV	damit	_	O	O	
+17-21	zu	PTKZU	zu	_	O	O	
+17-22	machen	VVINF	machen	_	O	O	
+17-23	weiß.	ADJA	<unknown>	_	O	O	
+
+#id=18
+#text=Sollte sie sich in Ihrem Briefe vorfinden, dann bitte ich Sie, sie m ir zu schreib~.
+18-1	Sollte	VMFIN	sollen	_	O	O	
+18-2	sie	PPER	sie	_	O	O	
+18-3	sich	PRF	sich	_	O	O	
+18-4	in	APPR	in	_	O	O	
+18-5	Ihrem	PPOSAT	ihr	_	O	O	
+18-6	Briefe	NN	Brief	_	O	O	
+18-7	vorfinden	VVINF	vorfinden	_	O	O	
+18-8	,	$,	,	_	O	O	
+18-9	dann	ADV	dann	_	O	O	
+18-10	bitte	VVFIN	bitten	_	O	O	
+18-11	ich	PPER	ich	_	O	O	
+18-12	Sie	PPER	Sie	_	O	O	
+18-13	,	$,	,	_	O	O	
+18-14	sie	PPER	sie	_	O	O	
+18-15	m	NN	m	_	O	O	
+18-16	ir	ADJD	<unknown>	_	O	O	
+18-17	zu	PTKZU	zu	_	O	O	
+18-18	schreib~	VVINF	<unknown>	_	O	O	
+18-19	.	$.	.	_	O	O	
+
+#id=19
+#text=Ende dieser Woche wird das Bullettino fertig.
+19-1	Ende	NN	Ende	_	O	O	
+19-2	dieser	PDAT	dies	_	O	O	
+19-3	Woche	NN	Woche	_	O	O	
+19-4	wird	VAFIN	werden	_	O	O	
+19-5	das	ART	die	_	O	O	
+19-6	Bullettino	NN	<unknown>	_	O	O	
+19-7	fertig	PTKVZ	fertig	_	O	O	
+19-8	.	$.	.	_	O	O	
+
+#id=20
+#text=Vielleicht komme ich dann - etwa Sonntag - auf einige Tage nach Olevano.
+20-1	Vielleicht	ADV	vielleicht	_	O	O	
+20-2	komme	VVFIN	kommen	_	O	O	
+20-3	ich	PPER	ich	_	O	O	
+20-4	dann	ADV	dann	_	O	O	
+20-5	-	$(	-	_	O	O	
+20-6	etwa	ADV	etwa	_	O	O	
+20-7	Sonntag	NN	Sonntag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+20-8	-	$(	-	_	O	O	
+20-9	auf	APPR	auf	_	O	O	
+20-10	einige	PIAT	einige	_	O	O	
+20-11	Tage	NN	Tag	_	O	O	
+20-12	nach	APPR	nach	_	O	O	
+20-13	Olevano	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+20-14	.	$.	.	_	O	O	
+
+#id=21
+#text=Mit dem Schneiden der Garruccischen
+21-1	Mit	APPR	mit	_	O	O	
+21-2	dem	ART	die	_	O	O	
+21-3	Schneiden	NN	Schneide|Schneiden	_	O	O	
+21-4	der	ART	die	_	O	O	
+21-5	Garruccischen	NN	<unknown>	_	O	O	
+

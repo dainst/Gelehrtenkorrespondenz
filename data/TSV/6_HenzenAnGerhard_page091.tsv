@@ -1,0 +1,131 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=368 27/XI/52 2 Henzen an Gerhard chisch meiner Falkenerschen Inschriften unendliche Zeit u. MUhe kostet.
+1-1	368	CARD	@card@	_	O	O	
+1-2	27/XI/52	CARD	<unknown>	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	chisch	ADJD	<unknown>	_	O	O	
+1-8	meiner	PPOSAT	mein	_	O	O	
+1-9	Falkenerschen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-10	Inschriften	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-OBJ	
+1-11	unendliche	ADJA	unendlich	_	O	O	
+1-12	Zeit	NN	Zeit	_	O	O	
+1-13	u.	APPR	um	_	O	O	
+1-14	MUhe	NN	<unknown>	_	O	O	
+1-15	kostet	VVFIN	kosten	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Die Adunanzen werden klatriger, als je, werden.
+2-1	Die	ART	die	_	O	O	
+2-2	Adunanzen	NN	<unknown>	_	O	O	
+2-3	werden	VAFIN	werden	_	O	O	
+2-4	klatriger	ADJD	<unknown>	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	als	KOUS	als	_	O	O	
+2-7	je	ADV	je	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	werden	VAFIN	werden	_	O	O	
+2-10	.	$.	.	_	O	O	
+
+#id=3
+#text=Welcker's Gesundheitszustand wird ihm nur sehr geringe Betheiligung verstatten, Brunn keine Lust haben, seine kostbare Zeit zu opfern.
+3-1	Welcker's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	Gesundheitszustand	NN	Gesundheitszustand	_	O	O	
+3-3	wird	VAFIN	werden	_	O	O	
+3-4	ihm	PPER	er	_	O	O	
+3-5	nur	ADV	nur	_	O	O	
+3-6	sehr	ADV	sehr	_	O	O	
+3-7	geringe	ADJA	gering	_	O	O	
+3-8	Betheiligung	NN	<unknown>	_	O	O	
+3-9	verstatten	NN	<unknown>	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-12	keine	PIAT	keine	_	O	O	
+3-13	Lust	NN	Lust	_	O	O	
+3-14	haben	VAFIN	haben	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	seine	PPOSAT	sein	_	O	O	
+3-17	kostbare	ADJA	kostbar	_	O	O	
+3-18	Zeit	NN	Zeit	_	O	O	
+3-19	zu	PTKZU	zu	_	O	O	
+3-20	opfern	VVINF	opfern	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Meine Inschriften gefallen den Wenigsten: kurz, wir sind ziemlich desperat!
+4-1	Meine	PPOSAT	mein	_	O	O	
+4-2	Inschriften	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-3	gefallen	VVFIN	gefallen	_	O	O	
+4-4	den	ART	die	_	O	O	
+4-5	Wenigsten	NN	<unknown>	_	O	O	
+4-6	:	$.	:	_	O	O	
+4-7	kurz	ADJD	kurz	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	wir	PPER	wir	_	O	O	
+4-10	sind	VAFIN	sein	_	O	O	
+4-11	ziemlich	ADV	ziemlich	_	O	O	
+4-12	desperat	ADJD	desperat	_	O	O	
+4-13	!	$.	!	_	O	O	
+
+#id=5
+#text=Bethmann wünscht zu wissen, ob Sie dh.
+5-1	Bethmann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	wünscht	VVFIN	wünschen	_	O	O	
+5-3	zu	PTKVZ	zu	_	O	O	
+5-4	wissen	VVINF	wissen	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	ob	KOUS	ob	_	O	O	
+5-7	Sie	PPER	Sie	_	O	O	
+5-8	dh.	NE	<unknown>	_	O	O	
+
+#id=6
+#text=Brock~usen einen Brief fUr Bock in BrUssel erhalten haben.
+6-1	Brock~usen	NN	<unknown>	_	O	O	
+6-2	einen	ART	eine	_	O	O	
+6-3	Brief	NN	Brief	_	O	O	
+6-4	fUr	NN	<unknown>	_	O	O	
+6-5	Bock	NE	Bock	_	O	O	
+6-6	in	APPR	in	_	O	O	
+6-7	BrUssel	NE	<unknown>	_	O	O	
+6-8	erhalten	VVPP	erhalten	_	O	O	
+6-9	haben	VAFIN	haben	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Ihr ergebenster WHenzen Bitte mir anzugeben, ob die Postfreiheit noch Vortheil bringt, ode ob besser von hier spedirt wird, was 13 Baj.
+7-1	Ihr	PPOSAT	ihr	_	O	O	
+7-2	ergebenster	ADJA	<unknown>	_	O	O	
+7-3	WHenzen	NN	<unknown>	_	O	O	
+7-4	Bitte	ADV	Bitte	_	O	O	
+7-5	mir	PPER	ich	_	O	O	
+7-6	anzugeben	VVIZU	angeben	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	ob	KOUS	ob	_	O	O	
+7-9	die	ART	die	_	O	O	
+7-10	Postfreiheit	NN	<unknown>	_	O	O	
+7-11	noch	ADV	noch	_	O	O	
+7-12	Vortheil	NN	<unknown>	_	O	O	
+7-13	bringt	VVFIN	bringen	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	ode	VVFIN	<unknown>	_	O	O	
+7-16	ob	ADV	ob	_	O	O	
+7-17	besser	ADJD	gut	_	O	O	
+7-18	von	APPR	von	_	O	O	
+7-19	hier	ADV	hier	_	O	O	
+7-20	spedirt	ADJD	<unknown>	_	O	O	
+7-21	wird	VAFIN	werden	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	was	PRELS	was	_	O	O	
+7-24	13	CARD	13	_	O	O	
+7-25	Baj	NE	<unknown>	_	O	O	
+7-26	.	$.	.	_	O	O	
+
+#id=8
+#text=kostet.
+8-1	kostet	VVFIN	kosten	_	O	O	
+8-2	.	$.	.	_	O	O	
+

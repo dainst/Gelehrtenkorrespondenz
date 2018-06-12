@@ -1,0 +1,168 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=157 Lepsius an Henzen Berlin, 2. April 1874 2 Ihnen dann Ende Jahrs Rechnung legen werde; dann kann ich auch neine posti in Anrechnung bringen.
+1-1	157	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	Ihnen	PPER	Sie	_	O	O	
+1-13	dann	ADV	dann	_	O	O	
+1-14	Ende	NN	Ende	_	O	O	
+1-15	Jahrs	NN	Jahr	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-16	Rechnung	NN	Rechnung	_	O	O	
+1-17	legen	VVINF	legen	_	O	O	
+1-18	werde	VAFIN	werden	_	O	O	
+1-19	;	$.	;	_	O	O	
+1-20	dann	ADV	dann	_	O	O	
+1-21	kann	VMFIN	können	_	O	O	
+1-22	ich	PPER	ich	_	O	O	
+1-23	auch	ADV	auch	_	O	O	
+1-24	neine	ADJA	<unknown>	_	O	O	
+1-25	posti	NE	<unknown>	_	O	O	
+1-26	in	APPR	in	_	O	O	
+1-27	Anrechnung	NN	Anrechnung	_	O	O	
+1-28	bringen	VVINF	bringen	_	O	O	
+1-29	.	$.	.	_	O	O	
+
+#id=2
+#text=Curtius ist vorigen Sonnabend von Triest nach Athen abgefahren ?
+2-1	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	ist	VAFIN	sein	_	O	O	
+2-3	vorigen	ADJA	vorig	_	O	O	
+2-4	Sonnabend	NN	Sonnabend	_	O	O	
+2-5	von	APPR	von	_	O	O	
+2-6	Triest	NE	Triest	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-7	nach	APPR	nach	_	O	O	
+2-8	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-9	abgefahren	VVPP	abfahren	_	O	O	
+2-10	?	$.	?	_	O	O	
+
+#id=3
+#text=?
+3-1	?	$.	?	_	O	O	
+
+#id=4
+#text=mit Adler; Hirschfeld einige Tage vorher nach Pa ' ylion abgereist; dort und weiterhin soll er für das Museum die Küsten untersuchen und ausbeuten, das Innere dahinter für die Akademie bereisen.
+4-1	mit	APPR	mit	_	O	O	
+4-2	Adler	NE	Adler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	;	$.	;	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-4	Hirschfeld	NN	Hirschfeld	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-5	einige	PIAT	einige	_	O	O	
+4-6	Tage	NN	Tag	_	O	O	
+4-7	vorher	ADV	vorher	_	O	O	
+4-8	nach	APPR	nach	_	O	O	
+4-9	Pa	ADJA	<unknown>	_	O	O	
+4-10	'	$(	'	_	O	O	
+4-11	ylion	NN	<unknown>	_	O	O	
+4-12	abgereist	VVPP	abreisen	_	O	O	
+4-13	;	$.	;	_	O	O	
+4-14	dort	ADV	dort	_	O	O	
+4-15	und	KON	und	_	O	O	
+4-16	weiterhin	ADV	weiterhin	_	O	O	
+4-17	soll	VMFIN	sollen	_	O	O	
+4-18	er	PPER	er	_	O	O	
+4-19	für	APPR	für	_	O	O	
+4-20	das	ART	die	_	O	O	
+4-21	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-22	die	ART	die	_	O	O	
+4-23	Küsten	NN	Küste	_	O	O	
+4-24	untersuchen	VVINF	untersuchen	_	O	O	
+4-25	und	KON	und	_	O	O	
+4-26	ausbeuten	VVINF	ausbeuten	_	O	O	
+4-27	,	$,	,	_	O	O	
+4-28	das	ART	die	_	O	O	
+4-29	Innere	NN	Innere	_	O	O	
+4-30	dahinter	PAV	dahinter	_	O	O	
+4-31	für	APPR	für	_	O	O	
+4-32	die	ART	die	_	O	O	
+4-33	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-34	bereisen	VVFIN	bereisen	_	O	O	
+4-35	.	$.	.	_	O	O	
+
+#id=5
+#text=Mit herzlichem Gruß RL Am oberen Rand der 3, Seite : In Bezug auf den Reservefonds bin ich ganz Ihrer Meinung, die andern Herren scheinen aber auf Mommsen's Vorschlag eingehen zu wollen.
+5-1	Mit	APPR	mit	_	O	O	
+5-2	herzlichem	ADJA	herzlich	_	O	O	
+5-3	Gruß	NN	Gruß	_	O	O	
+5-4	RL	NN	<unknown>	_	O	O	
+5-5	Am	APPRART	an	_	O	O	
+5-6	oberen	ADJA	ober	_	O	O	
+5-7	Rand	NN	Rand	_	O	O	
+5-8	der	ART	die	_	O	O	
+5-9	3	CARD	3	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	Seite	NN	Seite	_	O	O	
+5-12	:	$.	:	_	O	O	
+5-13	In	APPR	in	_	O	O	
+5-14	Bezug	NN	Bezug	_	O	O	
+5-15	auf	APPR	auf	_	O	O	
+5-16	den	ART	die	_	O	O	
+5-17	Reservefonds	NN	Reservefonds	_	O	O	
+5-18	bin	VAFIN	sein	_	O	O	
+5-19	ich	PPER	ich	_	O	O	
+5-20	ganz	ADV	ganz	_	O	O	
+5-21	Ihrer	PPOSAT	ihr	_	O	O	
+5-22	Meinung	NN	Meinung	_	O	O	
+5-23	,	$,	,	_	O	O	
+5-24	die	PRELS	die	_	O	O	
+5-25	andern	PIAT	andere	_	O	O	
+5-26	Herren	NN	Herr	_	O	O	
+5-27	scheinen	VVFIN	scheinen	_	O	O	
+5-28	aber	ADV	aber	_	O	O	
+5-29	auf	APPR	auf	_	O	O	
+5-30	Mommsen's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-31	Vorschlag	NN	Vorschlag	_	O	O	
+5-32	eingehen	VVINF	eingehen	_	O	O	
+5-33	zu	PTKZU	zu	_	O	O	
+5-34	wollen	VMINF	wollen	_	O	O	
+5-35	.	$.	.	_	O	O	
+
+#id=6
+#text=a.
+6-1	a.	APPRART	a.	_	O	O	
+
+#id=7
+#text=Ich habe nie andre als Institutssachen angewiesen, nie für andre Dinge diesen Weg angegeben.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	habe	VAFIN	haben	_	O	O	
+7-3	nie	ADV	nie	_	O	O	
+7-4	andre	PIS	andere	_	O	O	
+7-5	als	KOKOM	als	_	O	O	
+7-6	Institutssachen	NN	<unknown>	_	O	O	
+7-7	angewiesen	ADJD	angewiesen	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	nie	ADV	nie	_	O	O	
+7-10	für	APPR	für	_	O	O	
+7-11	andre	PIAT	andere	_	O	O	
+7-12	Dinge	NN	Ding	_	O	O	
+7-13	diesen	PDAT	dies	_	O	O	
+7-14	Weg	NN	Weg	_	O	O	
+7-15	angegeben	VVPP	angeben	_	O	O	
+7-16	.	$.	.	_	O	O	
+
+#id=8
+#text=Quer am Rande der 4. Seite : Ober die Medaillons war ich im Irrthum.
+8-1	Quer	ADJD	quer	_	O	O	
+8-2	am	APPRART	an	_	O	O	
+8-3	Rande	NN	Rand	_	O	O	
+8-4	der	ART	die	_	O	O	
+8-5	4	CARD	4	_	O	O	
+8-6	.	$.	.	_	O	O	
+8-7	Seite	NN	Seite	_	O	O	
+8-8	:	$.	:	_	O	O	
+8-9	Ober	NN	Ober	_	O	O	
+8-10	die	ART	die	_	O	O	
+8-11	Medaillons	NN	Medaillon	_	O	O	
+8-12	war	VAFIN	sein	_	O	O	
+8-13	ich	PPER	ich	_	O	O	
+8-14	im	APPRART	in	_	O	O	
+8-15	Irrthum	NN	<unknown>	_	O	O	
+8-16	.	$.	.	_	O	O	
+

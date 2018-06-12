@@ -1,0 +1,195 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=· [~, 655 Verehrter Freund Lepsius an Renzen Berlin, 18. Oktober 1877 g. 21/X 77 r.
+1-1	·	NN	<unknown>	_	O	O	
+1-2	[	$(	[	_	O	O	
+1-3	~	XY	~	_	O	O	
+1-4	,	$,	,	_	O	O	
+1-5	655	CARD	@card@	_	O	O	
+1-6	Verehrter	NN	Verehrte	_	O	O	
+1-7	Freund	NE	Freund	_	O	O	
+1-8	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-9	an	APPR	an	_	O	O	
+1-10	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-11	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-12	,	$,	,	_	O	O	
+1-13	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-14	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	g.	VVFIN	<unknown>	_	O	O	
+1-18	21/X	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-19	77	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-20	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=22/10 77 Berlin, den 18. Okt.
+2-1	22/10	CARD	@card@	_	O	O	
+2-2	77	CARD	@card@	_	O	O	
+2-3	Berlin	NE	Berlin	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	den	ART	die	_	O	O	
+2-6	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Okt.	NN	Okt.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=3
+#text=1877 Diese Zeile soll Ihnen nur den richtigen Eingang Ihrer Briefe und Karten anzeigen.
+3-1	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-2	Diese	PDAT	dies	_	O	O	
+3-3	Zeile	NN	Zeile	_	O	O	
+3-4	soll	VMFIN	sollen	_	O	O	
+3-5	Ihnen	PPER	Sie	_	O	O	
+3-6	nur	ADV	nur	_	O	O	
+3-7	den	ART	die	_	O	O	
+3-8	richtigen	ADJA	richtig	_	O	O	
+3-9	Eingang	NN	Eingang	_	O	O	
+3-10	Ihrer	PPOSAT	ihr	_	O	O	
+3-11	Briefe	NN	Brief	_	O	O	
+3-12	und	KON	und	_	O	O	
+3-13	Karten	NN	Karte	_	O	O	
+3-14	anzeigen	VVINF	anzeigen	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Unsre dringliche Sitzung ist aber vor nächster Woche nicht zu Stande zu bringen, weil Krüger den wir brauchen verreist ist, und erst Sonnabend oder Sonntag zurückkommt.
+4-1	Unsre	PPOSAT	unsre	_	O	O	
+4-2	dringliche	ADJA	dringlich	_	O	O	
+4-3	Sitzung	NN	Sitzung	_	O	O	
+4-4	ist	VAFIN	sein	_	O	O	
+4-5	aber	ADV	aber	_	O	O	
+4-6	vor	APPR	vor	_	O	O	
+4-7	nächster	ADJA	nah	_	O	O	
+4-8	Woche	NN	Woche	_	O	O	
+4-9	nicht	PTKNEG	nicht	_	O	O	
+4-10	zu	APPR	zu	_	O	O	
+4-11	Stande	NN	Stand	_	O	O	
+4-12	zu	PTKZU	zu	_	O	O	
+4-13	bringen	VVINF	bringen	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	weil	KOUS	weil	_	O	O	
+4-16	Krüger	NN	<unknown>	_	O	O	
+4-17	den	ART	die	_	O	O	
+4-18	wir	PPER	wir	_	O	O	
+4-19	brauchen	VVFIN	brauchen	_	O	O	
+4-20	verreist	VVPP	verreisen	_	O	O	
+4-21	ist	VAFIN	sein	_	O	O	
+4-22	,	$,	,	_	O	O	
+4-23	und	KON	und	_	O	O	
+4-24	erst	ADV	erst	_	O	O	
+4-25	Sonnabend	NN	Sonnabend	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-26	oder	KON	oder	_	O	O	
+4-27	Sonntag	NN	Sonntag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-28	zurückkommt	VVFIN	zurückkommen	_	O	O	
+4-29	.	$.	.	_	O	O	
+
+#id=5
+#text=Wegen des architektonischen Bücher habe ich für mein Theil nichts mehr dagegen daß sie aufgenommen werden, mit den richtigen Kautelen.
+5-1	Wegen	APPR	wegen	_	O	O	
+5-2	des	ART	die	_	O	O	
+5-3	architektonischen	ADJA	architektonisch	_	O	O	
+5-4	Bücher	NN	Buch	_	O	O	
+5-5	habe	VAFIN	haben	_	O	O	
+5-6	ich	PPER	ich	_	O	O	
+5-7	für	APPR	für	_	O	O	
+5-8	mein	PPOSAT	mein	_	O	O	
+5-9	Theil	NN	<unknown>	_	O	O	
+5-10	nichts	PIS	nichts	_	O	O	
+5-11	mehr	ADV	mehr	_	O	O	
+5-12	dagegen	PAV	dagegen	_	O	O	
+5-13	daß	KOUS	dass	_	O	O	
+5-14	sie	PPER	sie	_	O	O	
+5-15	aufgenommen	VVPP	aufnehmen	_	O	O	
+5-16	werden	VAINF	werden	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	mit	APPR	mit	_	O	O	
+5-19	den	ART	die	_	O	O	
+5-20	richtigen	ADJA	richtig	_	O	O	
+5-21	Kautelen	NN	<unknown>	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=Das Promemoria ist nicht unterschrieben, und ist also von dem Architekten ausgegangen.
+6-1	Das	ART	die	_	O	O	
+6-2	Promemoria	NN	<unknown>	_	O	O	
+6-3	ist	VAFIN	sein	_	O	O	
+6-4	nicht	PTKNEG	nicht	_	O	O	
+6-5	unterschrieben	VVPP	unterschreiben	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	und	KON	und	_	O	O	
+6-8	ist	VAFIN	sein	_	O	O	
+6-9	also	ADV	also	_	O	O	
+6-10	von	APPR	von	_	O	O	
+6-11	dem	ART	die	_	O	O	
+6-12	Architekten	NN	Architekt	_	O	O	
+6-13	ausgegangen	VVPP	ausgehen	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich konnte nicht vermuthen, daß man es Ihnen nicht einmal zur Ansieht und WilleJ'ußerung vorgelegt hat.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	konnte	VMFIN	können	_	O	O	
+7-3	nicht	PTKNEG	nicht	_	O	O	
+7-4	vermuthen	NN	<unknown>	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	daß	KOUS	dass	_	O	O	
+7-7	man	PIS	man	_	O	O	
+7-8	es	PPER	es	_	O	O	
+7-9	Ihnen	PPER	Sie	_	O	O	
+7-10	nicht	PTKNEG	nicht	_	O	O	
+7-11	einmal	ADV	einmal	_	O	O	
+7-12	zur	APPRART	zu	_	O	O	
+7-13	Ansieht	NN	<unknown>	_	O	O	
+7-14	und	KON	und	_	O	O	
+7-15	WilleJ'ußerung	NN	<unknown>	_	O	O	
+7-16	vorgelegt	VVPP	vorlegen	_	O	O	
+7-17	hat	VAFIN	haben	_	O	O	
+7-18	.	$.	.	_	O	O	
+
+#id=8
+#text=Doch wird Mommsen's Rückkehr vielleicht besser abgewartet, wenn er noch unsre frühe Ansicht festhält.
+8-1	Doch	ADV	doch	_	O	O	
+8-2	wird	VAFIN	werden	_	O	O	
+8-3	Mommsen's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-4	Rückkehr	NN	Rückkehr	_	O	O	
+8-5	vielleicht	ADV	vielleicht	_	O	O	
+8-6	besser	ADJD	gut	_	O	O	
+8-7	abgewartet	VVPP	abwarten	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	wenn	KOUS	wenn	_	O	O	
+8-10	er	PPER	er	_	O	O	
+8-11	noch	ADV	noch	_	O	O	
+8-12	unsre	PPOSAT	unsre	_	O	O	
+8-13	frühe	ADJA	früh	_	O	O	
+8-14	Ansicht	NN	Ansicht	_	O	O	
+8-15	festhält	VVFIN	festhalten	_	O	O	
+8-16	.	$.	.	_	O	O	
+
+#id=9
+#text=Relbig's Brief wegen des Sarkophags habe ich zunächst an Curtius abgegeben.
+9-1	Relbig's	VVIMP	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	Brief	NN	Brief	_	O	O	
+9-3	wegen	APPR	wegen	_	O	O	
+9-4	des	ART	die	_	O	O	
+9-5	Sarkophags	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-6	habe	VAFIN	haben	_	O	O	
+9-7	ich	PPER	ich	_	O	O	
+9-8	zunächst	ADV	zunächst	_	O	O	
+9-9	an	APPR	an	_	O	O	
+9-10	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-11	abgegeben	VVPP	abgeben	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Mit bestem Gruß auch an Helbig Ihr ergebenster R Lepsius
+10-1	Mit	APPR	mit	_	O	O	
+10-2	bestem	ADJA	gut	_	O	O	
+10-3	Gruß	NN	Gruß	_	O	O	
+10-4	auch	ADV	auch	_	O	O	
+10-5	an	APPR	an	_	O	O	
+10-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-7	Ihr	PPOSAT	ihr	_	O	O	
+10-8	ergebenster	ADJA	<unknown>	_	O	O	
+10-9	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+10-10	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

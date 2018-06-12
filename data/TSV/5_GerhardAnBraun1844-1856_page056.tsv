@@ -1,0 +1,228 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=238 Gerhard an Braun Berlin, 18. Mai 1844 A. d. Dir.
+1-1	238	CARD	238	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	A.	APPR	an	_	O	O	
+1-12	d.	ART	d.	_	O	O	
+1-13	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=g. 8/VI 44 r. 8/VI 44 Dr. Braun Berlin 18 Mai 44 Mein theurer Freund.
+2-1	g.	ADJA	<unknown>	_	O	O	
+2-2	8/VI	CARD	<unknown>	_	O	O	
+2-3	44	CARD	44	_	O	O	
+2-4	r.	ADJA	<unknown>	_	O	O	
+2-5	8/VI	CARD	<unknown>	_	O	O	
+2-6	44	CARD	44	_	O	O	
+2-7	Dr.	NN	Dr.	_	O	O	
+2-8	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-10	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-11	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-13	Mein	PPOSAT	mein	_	O	O	
+2-14	theurer	ADJA	<unknown>	_	O	O	
+2-15	Freund	NN	Freund	_	O	O	
+2-16	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihre Drohung bald aus Rom abzureisen heißt mich umgehend auf Ihr eben empfangenes antworten.
+3-1	Ihre	PPOSAT	ihr	_	O	O	
+3-2	Drohung	NN	Drohung	_	O	O	
+3-3	bald	ADV	bald	_	O	O	
+3-4	aus	APPR	aus	_	O	O	
+3-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-6	abzureisen	VVIZU	abreisen	_	O	O	
+3-7	heißt	VVFIN	heißen	_	O	O	
+3-8	mich	PRF	ich	_	O	O	
+3-9	umgehend	ADJD	umgehend	_	O	O	
+3-10	auf	APPR	auf	_	O	O	
+3-11	Ihr	PPOSAT	ihr	_	O	O	
+3-12	eben	ADV	eben	_	O	O	
+3-13	empfangenes	ADJA	<unknown>	_	O	O	
+3-14	antworten	VVINF	antworten	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Allen Dank für dessen Inhalt, aber ich komme nicht in Ordnung bevor ich mich mit Gerstäcker berechnen kann und bedarf dazu sehr nöthig der Berechnung Canina's die im Fall Ihrer frühern Abreise mir Henzen wol vermittelt.
+4-1	Allen	PIAT	alle	_	O	O	
+4-2	Dank	NN	Dank	_	O	O	
+4-3	für	APPR	für	_	O	O	
+4-4	dessen	PDAT	die	_	O	O	
+4-5	Inhalt	NN	Inhalt	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	aber	KON	aber	_	O	O	
+4-8	ich	PPER	ich	_	O	O	
+4-9	komme	VVFIN	kommen	_	O	O	
+4-10	nicht	PTKNEG	nicht	_	O	O	
+4-11	in	APPR	in	_	O	O	
+4-12	Ordnung	NN	Ordnung	_	O	O	
+4-13	bevor	KOUS	bevor	_	O	O	
+4-14	ich	PPER	ich	_	O	O	
+4-15	mich	PRF	ich	_	O	O	
+4-16	mit	APPR	mit	_	O	O	
+4-17	Gerstäcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-18	berechnen	VVINF	berechnen	_	O	O	
+4-19	kann	VMFIN	können	_	O	O	
+4-20	und	KON	und	_	O	O	
+4-21	bedarf	VVFIN	bedürfen	_	O	O	
+4-22	dazu	PAV	dazu	_	O	O	
+4-23	sehr	ADV	sehr	_	O	O	
+4-24	nöthig	ADJD	<unknown>	_	O	O	
+4-25	der	ART	die	_	O	O	
+4-26	Berechnung	NN	Berechnung	_	O	O	
+4-27	Canina's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-28	die	ART	die	_	O	O	
+4-29	im	APPRART	in	_	O	O	
+4-30	Fall	NN	Fall	_	O	O	
+4-31	Ihrer	PPOSAT	ihr	_	O	O	
+4-32	frühern	ADJA	<unknown>	_	O	O	
+4-33	Abreise	NN	Abreise	_	O	O	
+4-34	mir	PPER	ich	_	O	O	
+4-35	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-36	wol	ADJD	<unknown>	_	O	O	
+4-37	vermittelt	VVPP	vermitteln	_	O	O	
+4-38	.	$.	.	_	O	O	
+
+#id=5
+#text=Aus Ihrer Rechnung geht dann allerdings zunächst für mich hervor daß ich Ihnen kein Geld senden brauche; denn die 10 1/2 Scudi Ihres Guthaben gehen in die 42 Scudi Palagischer Zahlung auf, die ich bei Ihnen, nicht im Schlund der Institutsausgaben notirt voraussetze.
+5-1	Aus	APPR	aus	_	O	O	
+5-2	Ihrer	PPOSAT	ihr	_	O	O	
+5-3	Rechnung	NN	Rechnung	_	O	O	
+5-4	geht	VVFIN	gehen	_	O	O	
+5-5	dann	ADV	dann	_	O	O	
+5-6	allerdings	ADV	allerdings	_	O	O	
+5-7	zunächst	ADV	zunächst	_	O	O	
+5-8	für	APPR	für	_	O	O	
+5-9	mich	PRF	ich	_	O	O	
+5-10	hervor	PTKVZ	hervor	_	O	O	
+5-11	daß	KOUS	dass	_	O	O	
+5-12	ich	PPER	ich	_	O	O	
+5-13	Ihnen	PPER	Sie	_	O	O	
+5-14	kein	PIAT	keine	_	O	O	
+5-15	Geld	NN	Geld	_	O	O	
+5-16	senden	VVINF	senden	_	O	O	
+5-17	brauche	VVFIN	brauchen	_	O	O	
+5-18	;	$.	;	_	O	O	
+5-19	denn	KON	denn	_	O	O	
+5-20	die	ART	die	_	O	O	
+5-21	10	CARD	10	_	O	O	
+5-22	1/2	CARD	1/2	_	O	O	
+5-23	Scudi	NN	<unknown>	_	O	O	
+5-24	Ihres	PPOSAT	ihr	_	O	O	
+5-25	Guthaben	NN	Guthaben	_	O	O	
+5-26	gehen	VVFIN	gehen	_	O	O	
+5-27	in	APPR	in	_	O	O	
+5-28	die	ART	die	_	O	O	
+5-29	42	CARD	@card@	_	O	O	
+5-30	Scudi	NN	<unknown>	_	O	O	
+5-31	Palagischer	NN	<unknown>	_	O	O	
+5-32	Zahlung	NN	Zahlung	_	O	O	
+5-33	auf	PTKVZ	auf	_	O	O	
+5-34	,	$,	,	_	O	O	
+5-35	die	PRELS	die	_	O	O	
+5-36	ich	PPER	ich	_	O	O	
+5-37	bei	APPR	bei	_	O	O	
+5-38	Ihnen	PPER	Sie	_	O	O	
+5-39	,	$,	,	_	O	O	
+5-40	nicht	PTKNEG	nicht	_	O	O	
+5-41	im	APPRART	in	_	O	O	
+5-42	Schlund	NN	Schlund	_	O	O	
+5-43	der	ART	die	_	O	O	
+5-44	Institutsausgaben	NN	<unknown>	_	O	O	
+5-45	notirt	NN	<unknown>	_	O	O	
+5-46	voraussetze	VVFIN	voraussetzen	_	O	O	
+5-47	.	$.	.	_	O	O	
+
+#id=6
+#text=Davon bleiben mir 31 1/2 Scudi gut, dagegen der für Cades gezahlte Göttinger Posten (65 rt) und das für Sie an Herrn Wex einkassirte 25 oder 20?
+6-1	Davon	PAV	davon	_	O	O	
+6-2	bleiben	VVFIN	bleiben	_	O	O	
+6-3	mir	PPER	ich	_	O	O	
+6-4	31	CARD	31	_	O	O	
+6-5	1/2	CARD	1/2	_	O	O	
+6-6	Scudi	NN	<unknown>	_	O	O	
+6-7	gut	ADJD	gut	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	dagegen	PAV	dagegen	_	O	O	
+6-10	der	ART	die	_	O	O	
+6-11	für	APPR	für	_	O	O	
+6-12	Cades	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-13	gezahlte	ADJA	gezahlt	_	O	O	
+6-14	Göttinger	NN	Göttinger	_	O	O	
+6-15	Posten	NN	Posten	_	O	O	
+6-16	(	$(	(	_	O	O	
+6-17	65	CARD	65	_	O	O	
+6-18	rt	ADJA	<unknown>	_	O	O	
+6-19	)	$(	)	_	O	O	
+6-20	und	KON	und	_	O	O	
+6-21	das	PDS	die	_	O	O	
+6-22	für	APPR	für	_	O	O	
+6-23	Sie	PPER	Sie	_	O	O	
+6-24	an	APPR	an	_	O	O	
+6-25	Herrn	NN	Herr	_	O	O	
+6-26	Wex	NN	<unknown>	_	O	O	
+6-27	einkassirte	NN	<unknown>	_	O	O	
+6-28	25	CARD	25	_	O	O	
+6-29	oder	KON	oder	_	O	O	
+6-30	20	CARD	20	_	O	O	
+6-31	?	$.	?	_	O	O	
+
+#id=7
+#text=mich etwa mit 43 rt bei Ihnen in Schuld setzt, deren Betrag Sie aus den Zahlungen von Zardetti und Promis am bequemsten sich werden einlösen können.
+7-1	mich	PPER	ich	_	O	O	
+7-2	etwa	ADV	etwa	_	O	O	
+7-3	mit	APPR	mit	_	O	O	
+7-4	43	CARD	43	_	O	O	
+7-5	rt	NN	<unknown>	_	O	O	
+7-6	bei	APPR	bei	_	O	O	
+7-7	Ihnen	PPER	Sie	_	O	O	
+7-8	in	APPR	in	_	O	O	
+7-9	Schuld	NN	Schuld	_	O	O	
+7-10	setzt	VVFIN	setzen	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	deren	PRELAT	die	_	O	O	
+7-13	Betrag	NN	Betrag	_	O	O	
+7-14	Sie	PPER	Sie	_	O	O	
+7-15	aus	APPR	aus	_	O	O	
+7-16	den	ART	die	_	O	O	
+7-17	Zahlungen	NN	Zahlung	_	O	O	
+7-18	von	APPR	von	_	O	O	
+7-19	Zardetti	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-20	und	KON	und	_	O	O	
+7-21	Promis	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-22	am	APPRART	an	_	O	O	
+7-23	bequemsten	ADJA	bequem	_	O	O	
+7-24	sich	PRF	sich	_	O	O	
+7-25	werden	VAFIN	werden	_	O	O	
+7-26	einlösen	VVINF	einlösen	_	O	O	
+7-27	können	VMINF	können	_	O	O	
+7-28	.	$.	.	_	O	O	
+
+#id=8
+#text=Am Rande dazu bemerkt 6B 25 90 47 rt •••• Einkassirt 43
+8-1	Am	APPRART	an	_	O	O	
+8-2	Rande	NN	Rand	_	O	O	
+8-3	dazu	PAV	dazu	_	O	O	
+8-4	bemerkt	VVFIN	bemerken	_	O	O	
+8-5	6B	ADJD	<unknown>	_	O	O	
+8-6	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+8-7	90	CARD	90	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-8	47	CARD	47	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-9	rt	ADJA	<unknown>	_	O	O	
+8-10	•	NN	<unknown>	_	O	O	
+8-11	•	ADJA	<unknown>	_	O	O	
+8-12	•	NN	<unknown>	_	O	O	
+8-13	•	ADJA	<unknown>	_	O	O	
+8-14	Einkassirt	NN	<unknown>	_	O	O	
+8-15	43	CARD	43	_	O	O	
+

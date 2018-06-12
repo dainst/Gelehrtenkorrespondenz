@@ -1,0 +1,289 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=296 Lepsius an Henzen Berlin, 29. Oktober 1873 3 nedig gekommen und hat Rom aufgeben müssen.
+1-1	296	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	3	CARD	3	_	O	O	
+1-12	nedig	ADJD	<unknown>	_	O	O	
+1-13	gekommen	VVPP	kommen	_	O	O	
+1-14	und	KON	und	_	O	O	
+1-15	hat	VAFIN	haben	_	O	O	
+1-16	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-17	aufgeben	VVINF	aufgeben	_	O	O	
+1-18	müssen	VMINF	müssen	_	O	O	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=Seine Olympische Fahrt ist für dieses Jahr schon wieder zurtlökgestellt worden; Die Hoffnung steht nun auf das Frühjahr.
+2-1	Seine	PPOSAT	sein	_	O	O	
+2-2	Olympische	ADJA	olympisch	_	O	O	
+2-3	Fahrt	NN	Fahrt	_	O	O	
+2-4	ist	VAFIN	sein	_	O	O	
+2-5	für	APPR	für	_	O	O	
+2-6	dieses	PDAT	dies	_	O	O	
+2-7	Jahr	NN	Jahr	_	O	O	
+2-8	schon	ADV	schon	_	O	O	
+2-9	wieder	ADV	wieder	_	O	O	
+2-10	zurtlökgestellt	VVPP	<unknown>	_	O	O	
+2-11	worden	VAPP	werden	_	O	O	
+2-12	;	$.	;	_	O	O	
+2-13	Die	ART	die	_	O	O	
+2-14	Hoffnung	NN	Hoffnung	_	O	O	
+2-15	steht	VVFIN	stehen	_	O	O	
+2-16	nun	ADV	nun	_	O	O	
+2-17	auf	APPR	auf	_	O	O	
+2-18	das	ART	die	_	O	O	
+2-19	Frühjahr	NN	Frühjahr	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Personalfrage über Athen schwebt noch.
+3-1	Die	ART	die	_	O	O	
+3-2	Personalfrage	NN	Personalfrage	_	O	O	
+3-3	über	APPR	über	_	O	O	
+3-4	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-5	schwebt	VVFIN	schweben	_	O	O	
+3-6	noch	ADV	noch	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Curtius wünscht sehr entschieden Hirschfeld der noch hier ist, aber bald nach Athen zurück geht.
+4-1	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	wünscht	VVFIN	wünschen	_	O	O	
+4-3	sehr	ADV	sehr	_	O	O	
+4-4	entschieden	ADJD	entschieden	_	O	O	
+4-5	Hirschfeld	NN	Hirschfeld	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-6	der	ART	die	_	O	O	
+4-7	noch	ADV	noch	_	O	O	
+4-8	hier	ADV	hier	_	O	O	
+4-9	ist	VAFIN	sein	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	aber	KON	aber	_	O	O	
+4-12	bald	ADV	bald	_	O	O	
+4-13	nach	APPR	nach	_	O	O	
+4-14	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-15	zurück	PTKVZ	zurück	_	O	O	
+4-16	geht	VVFIN	gehen	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=Mommsen zieht entschieden Lüders vor.
+5-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	zieht	VVFIN	zeihen|ziehen	_	O	O	
+5-3	entschieden	ADJD	entschieden	_	O	O	
+5-4	Lüders	NN	<unknown>	_	O	O	
+5-5	vor	PTKVZ	vor	_	O	O	
+5-6	.	$.	.	_	O	O	
+
+#id=6
+#text=Jeder hat seine Vorzüge und Nachtheile, die Sie so gut kennen wie wir.
+6-1	Jeder	PIS	jede	_	O	O	
+6-2	hat	VAFIN	haben	_	O	O	
+6-3	seine	PPOSAT	sein	_	O	O	
+6-4	Vorzüge	NN	Vorzug	_	O	O	
+6-5	und	KON	und	_	O	O	
+6-6	Nachtheile	NN	<unknown>	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	die	PRELS	die	_	O	O	
+6-9	Sie	PPER	Sie	_	O	O	
+6-10	so	ADV	so	_	O	O	
+6-11	gut	ADJD	gut	_	O	O	
+6-12	kennen	VVINF	kennen	_	O	O	
+6-13	wie	KOKOM	wie	_	O	O	
+6-14	wir	PPER	wir	_	O	O	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=In Bezug auf das christliche Institut wird weiter an uns gebort, und ein Stipendiat Jean Paul Richter ist uns schon durch die Kette Landgräfin von Hessen, Kronprinz, ReichsKanzeleramt, Philipsborn, Falk für alle Fälle empfohlen worden.
+7-1	In	APPR	in	_	O	O	
+7-2	Bezug	NN	Bezug	_	O	O	
+7-3	auf	APPR	auf	_	O	O	
+7-4	das	ART	die	_	O	O	
+7-5	christliche	ADJA	christlich	_	O	O	
+7-6	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-7	wird	VAFIN	werden	_	O	O	
+7-8	weiter	ADV	weiter	_	O	O	
+7-9	an	APPR	an	_	O	O	
+7-10	uns	PRF	wir	_	O	O	
+7-11	gebort	VVPP	<unknown>	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	und	KON	und	_	O	O	
+7-14	ein	ART	eine	_	O	O	
+7-15	Stipendiat	NN	Stipendiat	_	O	O	
+7-16	Jean	NE	Jean	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-17	Paul	NE	Paul	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-18	Richter	NE	Richter	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-19	ist	VAFIN	sein	_	O	O	
+7-20	uns	PPER	wir	_	O	O	
+7-21	schon	ADV	schon	_	O	O	
+7-22	durch	APPR	durch	_	O	O	
+7-23	die	ART	die	_	O	O	
+7-24	Kette	NN	Kette	_	O	O	
+7-25	Landgräfin	NN	Landgräfin	_	O	O	
+7-26	von	APPR	von	_	O	O	
+7-27	Hessen	NE	Hessen	_	O	O	
+7-28	,	$,	,	_	O	O	
+7-29	Kronprinz	NE	Kronprinz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-30	,	$,	,	_	O	O	
+7-31	ReichsKanzeleramt	NN	<unknown>	_	O	O	
+7-32	,	$,	,	_	O	O	
+7-33	Philipsborn	NE	<unknown>	_	O	O	
+7-34	,	$,	,	_	O	O	
+7-35	Falk	NE	Falk	_	O	O	
+7-36	für	APPR	für	_	O	O	
+7-37	alle	PIAT	alle	_	O	O	
+7-38	Fälle	NN	Fall	_	O	O	
+7-39	empfohlen	VVPP	empfehlen	_	O	O	
+7-40	worden	VAPP	werden	_	O	O	
+7-41	.	$.	.	_	O	O	
+
+#id=8
+#text=Sie kennen Mommsens Ansicht die sich in der Central Direktion B~ebrochen hat.
+8-1	Sie	PPER	Sie	_	O	O	
+8-2	kennen	VVFIN	kennen	_	O	O	
+8-3	Mommsens	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-4	Ansicht	NN	Ansicht	_	O	O	
+8-5	die	ART	die	_	O	O	
+8-6	sich	PRF	sich	_	O	O	
+8-7	in	APPR	in	_	O	O	
+8-8	der	ART	die	_	O	O	
+8-9	Central	NN	<unknown>	_	O	O	
+8-10	Direktion	NN	Direktion	_	O	O	
+8-11	B~ebrochen	NE	<unknown>	_	O	O	
+8-12	hat	VAFIN	haben	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Die Antwort über Jean Paul Richter hat conform gelautet.
+9-1	Die	ART	die	_	O	O	
+9-2	Antwort	NN	Antwort	_	O	O	
+9-3	über	APPR	über	_	O	O	
+9-4	Jean	NE	Jean	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	Paul	NE	Paul	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-6	Richter	NE	Richter	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-7	hat	VAFIN	haben	_	O	O	
+9-8	conform	ADJD	<unknown>	_	O	O	
+9-9	gelautet	VVPP	lauten	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=Nun höre ich, daß das Reichskanzleramt direkt, ohne über uns den Weg zu nehmen, 2 Zimmer reserviert wissen will im Neuen Hause.
+10-1	Nun	ADV	nun	_	O	O	
+10-2	höre	VVFIN	hören	_	O	O	
+10-3	ich	PPER	ich	_	O	O	
+10-4	,	$,	,	_	O	O	
+10-5	daß	KOUS	dass	_	O	O	
+10-6	das	ART	die	_	O	O	
+10-7	Reichskanzleramt	NN	<unknown>	_	O	O	
+10-8	direkt	ADJD	direkt	_	O	O	
+10-9	,	$,	,	_	O	O	
+10-10	ohne	KOUI	ohne	_	O	O	
+10-11	über	APPR	über	_	O	O	
+10-12	uns	PPER	wir	_	O	O	
+10-13	den	ART	die	_	O	O	
+10-14	Weg	NN	Weg	_	O	O	
+10-15	zu	PTKZU	zu	_	O	O	
+10-16	nehmen	VVINF	nehmen	_	O	O	
+10-17	,	$,	,	_	O	O	
+10-18	2	CARD	2	_	O	O	
+10-19	Zimmer	NN	Zimmer	_	O	O	
+10-20	reserviert	VVPP	reservieren	_	O	O	
+10-21	wissen	VVINF	wissen	_	O	O	
+10-22	will	VMFIN	wollen	_	O	O	
+10-23	im	APPRART	in	_	O	O	
+10-24	Neuen	ADJA	neu	_	O	O	
+10-25	Hause	NN	Haus	_	O	O	
+10-26	.	$.	.	_	O	O	
+
+#id=11
+#text=Nun, wenn damit Alles abgethan ist, so glaube ich können wir damit zufrieden sein.
+11-1	Nun	ADV	nun	_	O	O	
+11-2	,	$,	,	_	O	O	
+11-3	wenn	KOUS	wenn	_	O	O	
+11-4	damit	PAV	damit	_	O	O	
+11-5	Alles	PIS	alle	_	O	O	
+11-6	abgethan	VVPP	<unknown>	_	O	O	
+11-7	ist	VAFIN	sein	_	O	O	
+11-8	,	$,	,	_	O	O	
+11-9	so	ADV	so	_	O	O	
+11-10	glaube	VVFIN	glauben	_	O	O	
+11-11	ich	PPER	ich	_	O	O	
+11-12	können	VMFIN	können	_	O	O	
+11-13	wir	PPER	wir	_	O	O	
+11-14	damit	PAV	damit	_	O	O	
+11-15	zufrieden	ADJD	zufrieden	_	O	O	
+11-16	sein	VAINF	sein	_	O	O	
+11-17	.	$.	.	_	O	O	
+
+#id=12
+#text=Über die Archäologische Zeitung wird Ihnen Mommsen geschrieben haben.
+12-1	Über	APPR	über	_	O	O	
+12-2	die	ART	die	_	O	O	
+12-3	Archäologische	ADJA	archäologisch	_	O	O	
+12-4	Zeitung	NN	Zeitung	_	O	O	
+12-5	wird	VAFIN	werden	_	O	O	
+12-6	Ihnen	PPER	Sie	_	O	O	
+12-7	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-8	geschrieben	VVPP	schreiben	_	O	O	
+12-9	haben	VAINF	haben	_	O	O	
+12-10	.	$.	.	_	O	O	
+
+#id=13
+#text=Sie soll ganz zweckmäßig - auch auf das Reich mit dem Institute und als Deutsches Organ desselben aufgenommen werden.
+13-1	Sie	PPER	Sie	_	O	O	
+13-2	soll	VMFIN	sollen	_	O	O	
+13-3	ganz	ADV	ganz	_	O	O	
+13-4	zweckmäßig	ADJD	zweckmäßig	_	O	O	
+13-5	-	$(	-	_	O	O	
+13-6	auch	ADV	auch	_	O	O	
+13-7	auf	APPR	auf	_	O	O	
+13-8	das	ART	die	_	O	O	
+13-9	Reich	NN	Reich	_	O	O	
+13-10	mit	APPR	mit	_	O	O	
+13-11	dem	ART	die	_	O	O	
+13-12	Institute	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+13-13	und	KON	und	_	O	O	
+13-14	als	KOKOM	als	_	O	O	
+13-15	Deutsches	ADJA	deutsch	_	O	O	
+13-16	Organ	NN	Organ	_	O	O	
+13-17	desselben	PDS	derselbe	_	O	O	
+13-18	aufgenommen	VVPP	aufnehmen	_	O	O	
+13-19	werden	VAINF	werden	_	O	O	
+13-20	.	$.	.	_	O	O	
+
+#id=14
+#text=Wir haben jetzt die dazu nöthigen Änderungen und Nachträge der Statuten gemacht.
+14-1	Wir	PPER	wir	_	O	O	
+14-2	haben	VAFIN	haben	_	O	O	
+14-3	jetzt	ADV	jetzt	_	O	O	
+14-4	die	ART	die	_	O	O	
+14-5	dazu	PAV	dazu	_	O	O	
+14-6	nöthigen	ADJA	<unknown>	_	O	O	
+14-7	Änderungen	NN	Änderung	_	O	O	
+14-8	und	KON	und	_	O	O	
+14-9	Nachträge	NN	Nachtrag	_	O	O	
+14-10	der	ART	die	_	O	O	
+14-11	Statuten	NN	Statut	_	O	O	
+14-12	gemacht	VVPP	machen	_	O	O	
+14-13	.	$.	.	_	O	O	
+
+#id=15
+#text=Mommsen hat der Zeitung gleich die Ephemeris an den
+15-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-2	hat	VAFIN	haben	_	O	O	
+15-3	der	ART	die	_	O	O	
+15-4	Zeitung	NN	Zeitung	_	O	O	
+15-5	gleich	APPR	gleich	_	O	O	
+15-6	die	ART	die	_	O	O	
+15-7	Ephemeris	NE	<unknown>	_	O	O	
+15-8	an	APPR	an	_	O	O	
+15-9	den	ART	die	_	O	O	
+

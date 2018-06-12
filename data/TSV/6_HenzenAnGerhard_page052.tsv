@@ -1,0 +1,556 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=1442/IV/52 2 Henzen an Gerhard Giove capitolino, discorso letto nella solenne adunanza in memoria della fondazione di Roma 1851 ( Mon.
+1-1	1442/IV/52	CARD	<unknown>	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Giove	NE	<unknown>	_	O	O	
+1-7	capitolino	NE	<unknown>	_	O	O	
+1-8	,	$,	,	_	O	O	
+1-9	discorso	ADJD	<unknown>	_	O	O	
+1-10	letto	ADJA	<unknown>	_	O	O	
+1-11	nella	NE	Nella	_	O	O	
+1-12	solenne	NN	<unknown>	_	O	O	
+1-13	adunanza	NE	<unknown>	_	O	O	
+1-14	in	APPR	in	_	O	O	
+1-15	memoria	NE	<unknown>	_	O	O	
+1-16	della	NE	Della	_	O	O	
+1-17	fondazione	NE	<unknown>	_	O	O	
+1-18	di	NE	di	_	O	O	
+1-19	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-20	1851	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-21	(	$(	(	_	O	O	
+1-22	Mon.	NE	<unknown>	_	O	O	
+
+#id=2
+#text=vol.
+2-1	vol	NE	<unknown>	_	O	O	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=V, tav.
+3-1	V	NN	V	_	O	O	
+3-2	,	$,	,	_	O	O	
+3-3	tav	NE	<unknown>	_	O	O	
+3-4	.	$.	.	_	O	O	
+
+#id=4
+#text=XXXVI): H. Brunn - b.
+4-1	XXXVI	NE	<unknown>	_	O	O	
+4-2	)	$(	)	_	O	O	
+4-3	:	$.	:	_	O	O	
+4-4	H.	NE	H.	_	O	O	
+4-5	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+4-6	-	$(	-	_	O	O	
+4-7	b.	APPR	bei	_	O	O	
+
+#id=5
+#text=Bronzi • Vaso di bronzo, rinvenuto in S. Maria di Capua ( Mon.
+5-1	Bronzi	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-2	•	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+5-3	Vaso	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+5-4	di	NE	di	_	I-webanno.custom.LetterEntity_	I-OBJ	
+5-5	bronzo	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+5-6	,	$,	,	_	O	O	
+5-7	rinvenuto	NN	<unknown>	_	O	O	
+5-8	in	APPR	in	_	O	O	
+5-9	S.	NE	S.	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-10	Maria	NE	Maria	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+5-11	di	NE	di	_	O	O	
+5-12	Capua	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-13	(	$(	(	_	O	O	
+5-14	Mon.	NE	<unknown>	_	O	O	
+
+#id=6
+#text=vo1.
+6-1	vo1	CARD	<unknown>	_	O	O	
+6-2	.	$.	.	_	O	O	
+
+#id=7
+#text=V, tav.
+7-1	V	NN	V	_	O	O	
+7-2	,	$,	,	_	O	O	
+7-3	tav	NE	<unknown>	_	O	O	
+7-4	.	$.	.	_	O	O	
+
+#id=8
+#text=XXV; tav.
+8-1	XXV	NE	<unknown>	_	O	O	
+8-2	;	$.	;	_	O	O	
+8-3	tav	NE	<unknown>	_	O	O	
+8-4	.	$.	.	_	O	O	
+
+#id=9
+#text=d'agg.
+9-1	d'agg	NE	<unknown>	_	O	O	
+9-2	.	$.	.	_	O	O	
+
+#id=10
+#text=A); G. Minervini.
+10-1	A	NN	A	_	O	O	
+10-2	)	$(	)	_	O	O	
+10-3	;	$.	;	_	O	O	
+10-4	G.	NE	G.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-5	Minervini	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-6	.	$.	.	_	O	O	
+
+#id=11
+#text=- La nascita di Minerva sopra specchi etruschi ( tavv. d'agg.
+11-1	-	$(	-	_	O	O	
+11-2	La	NE	La	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-3	nascita	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+11-4	di	NE	di	_	I-webanno.custom.LetterEntity_	I-OBJ	
+11-5	Minerva	NE	Minerva	_	I-webanno.custom.LetterEntity_	I-OBJ	
+11-6	sopra	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+11-7	specchi	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+11-8	etruschi	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+11-9	(	$(	(	_	O	O	
+11-10	tavv	NE	<unknown>	_	O	O	
+11-11	.	$.	.	_	O	O	
+11-12	d'agg	NE	<unknown>	_	O	O	
+11-13	.	$.	.	_	O	O	
+
+#id=12
+#text=GH, IK, L, M).
+12-1	GH	NE	GH	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+12-2	,	$,	,	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+12-3	IK	NE	IK	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+12-4	,	$,	,	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+12-5	L	NE	L	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+12-6	,	$,	,	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+12-7	M	NE	M	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+12-8	)	$(	)	_	O	O	
+12-9	.	$.	.	_	O	O	
+
+#id=13
+#text=~.
+13-1	~	XY	~	_	O	O	
+13-2	.	$.	.	_	O	O	
+
+#id=14
+#text=Braun.
+14-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+14-2	.	$.	.	_	O	O	
+
+#id=15
+#text=C. Pittura paretaria: Pittur~ della grotta Cosuccini, scoperte a Chiusi nel maggio deI 1833 ( Mon.
+15-1	C.	NE	C.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-2	Pittura	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+15-3	paretaria	NE	<unknown>	_	O	O	
+15-4	:	$.	:	_	O	O	
+15-5	Pittur~	ADJA	<unknown>	_	O	O	
+15-6	della	NE	Della	_	O	O	
+15-7	grotta	NE	<unknown>	_	O	O	
+15-8	Cosuccini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-9	,	$,	,	_	O	O	
+15-10	scoperte	NN	<unknown>	_	O	O	
+15-11	a	FM	a	_	O	O	
+15-12	Chiusi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+15-13	nel	ADJA	<unknown>	_	O	O	
+15-14	maggio	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+15-15	deI	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+15-16	1833	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+15-17	(	$(	(	_	O	O	
+15-18	Mon.	NE	<unknown>	_	O	O	
+
+#id=16
+#text=vol.
+16-1	vol	NE	<unknown>	_	O	O	
+16-2	.	$.	.	_	O	O	
+
+#id=17
+#text=V, tavv.
+17-1	V	NN	V	_	O	O	
+17-2	,	$,	,	_	O	O	
+17-3	tavv	NE	<unknown>	_	O	O	
+17-4	.	$.	.	_	O	O	
+
+#id=18
+#text=XXXII - XXXIV) - d. Pittura vascu1are.
+18-1	XXXII	NE	<unknown>	_	O	O	
+18-2	-	$(	-	_	O	O	
+18-3	XXXIV	NE	<unknown>	_	O	O	
+18-4	)	$(	)	_	O	O	
+18-5	-	$(	-	_	O	O	
+18-6	d.	ART	d.	_	O	O	
+18-7	Pittura	NN	<unknown>	_	O	O	
+18-8	vascu1are	VVFIN	<unknown>	_	O	O	
+18-9	.	$.	.	_	O	O	
+
+#id=19
+#text=Be11erofonte e Jobate, discorso letto dal dott. 11.
+19-1	Be11erofonte	ADJA	<unknown>	_	O	O	
+19-2	e	ADJA	<unknown>	_	O	O	
+19-3	Jobate	NN	<unknown>	_	O	O	
+19-4	,	$,	,	_	O	O	
+19-5	discorso	ADJD	<unknown>	_	O	O	
+19-6	letto	ADJA	<unknown>	_	O	O	
+19-7	dal	ADJA	<unknown>	_	O	O	
+19-8	dott	NN	<unknown>	_	O	O	
+19-9	.	$.	.	_	O	O	
+19-10	11	CARD	11	_	O	O	
+19-11	.	$.	.	_	O	O	
+
+#id=20
+#text=Schmidt nella ricorrenza de1 natale di Winckelmann 1850 ( tav.
+20-1	Schmidt	NE	Schmidt	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+20-2	nella	NE	Nella	_	O	O	
+20-3	ricorrenza	NE	<unknown>	_	O	O	
+20-4	de1	CARD	<unknown>	_	O	O	
+20-5	natale	ADJA	<unknown>	_	O	O	
+20-6	di	NE	di	_	O	O	
+20-7	Winckelmann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+20-8	1850	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+20-9	(	$(	(	_	O	O	
+20-10	tav	NE	<unknown>	_	O	O	
+20-11	.	$.	.	_	O	O	
+
+#id=21
+#text=d'agg.
+21-1	d'agg	NE	<unknown>	_	O	O	
+21-2	.	$.	.	_	O	O	
+
+#id=22
+#text=F ).
+22-1	F	NN	F	_	O	O	
+22-2	)	$(	)	_	O	O	
+22-3	.	$.	.	_	O	O	
+
+#id=23
+#text=- Perseo ( tavv. d'agg.
+23-1	-	$(	-	_	O	O	
+23-2	Perseo	NE	<unknown>	_	O	O	
+23-3	(	$(	(	_	O	O	
+23-4	tavv	NE	<unknown>	_	O	O	
+23-5	.	$.	.	_	O	O	
+23-6	d'agg	NE	<unknown>	_	O	O	
+23-7	.	$.	.	_	O	O	
+
+#id=24
+#text=N. 0).
+24-1	N.	APPR	n.	_	O	O	
+24-2	0	CARD	@card@	_	O	O	
+24-3	)	$(	)	_	O	O	
+24-4	.	$.	.	_	O	O	
+
+#id=25
+#text=o. Jahn.
+25-1	o.	APPR	oder	_	O	O	
+25-2	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+25-3	.	$.	.	_	O	O	
+
+#id=26
+#text=- Prometeo ed Hera ( Mon.
+26-1	-	$(	-	_	O	O	
+26-2	Prometeo	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-LIT	
+26-3	ed	NE	Ed	_	I-webanno.custom.LetterEntity_	I-LIT	
+26-4	Hera	NE	Hera	_	I-webanno.custom.LetterEntity_	I-LIT	
+26-5	(	$(	(	_	O	O	
+26-6	Mon.	NE	<unknown>	_	O	O	
+
+#id=27
+#text=vol.
+27-1	vol	NE	<unknown>	_	O	O	
+27-2	.	$.	.	_	O	O	
+
+#id=28
+#text=V, tav.
+28-1	V	NN	V	_	O	O	
+28-2	,	$,	,	_	O	O	
+28-3	tav	NE	<unknown>	_	O	O	
+28-4	.	$.	.	_	O	O	
+
+#id=29
+#text=XllV).
+29-1	XllV	NE	<unknown>	_	O	O	
+29-2	)	$(	)	_	O	O	
+29-3	.	$.	.	_	O	O	
+
+#id=30
+#text=O. Jahn.
+30-1	O.	NE	O.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+30-2	Jahn	NE	Jahn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+30-3	.	$.	.	_	O	O	
+
+#id=31
+#text=- Pelope ed Enomao ( tav.
+31-1	-	$(	-	_	O	O	
+31-2	Pelope	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-LIT	
+31-3	ed	VVFIN	<unknown>	_	I-webanno.custom.LetterEntity_	I-LIT	
+31-4	Enomao	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-LIT	
+31-5	(	$(	(	_	O	O	
+31-6	tav	NE	<unknown>	_	O	O	
+31-7	.	$.	.	_	O	O	
+
+#id=32
+#text=d'agg.
+32-1	d'agg	NE	<unknown>	_	O	O	
+32-2	.	$.	.	_	O	O	
+
+#id=33
+#text=QR).
+33-1	QR	NE	<unknown>	_	O	O	
+33-2	)	$(	)	_	O	O	
+33-3	.	$.	.	_	O	O	
+
+#id=34
+#text=F. Garg.110 - Grimaldi.
+34-1	F.	NE	F.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+34-2	Garg.110	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+34-3	-	$(	-	_	O	O	
+34-4	Grimaldi	NE	<unknown>	_	O	O	
+34-5	.	$.	.	_	O	O	
+
+#id=35
+#text=- e.
+35-1	-	$(	-	_	O	O	
+35-2	e.	ART	e.	_	O	O	
+
+#id=36
+#text=Numismatica.
+36-1	Numismatica	NE	<unknown>	_	O	O	
+36-2	.	$.	.	_	O	O	
+
+#id=37
+#text=Osservazioni sopra ale une medag1ie da Tiberio fino a Vespasiano.
+37-1	Osservazioni	NE	<unknown>	_	O	O	
+37-2	sopra	NE	<unknown>	_	O	O	
+37-3	ale	ADJD	<unknown>	_	O	O	
+37-4	une	ADJD	<unknown>	_	O	O	
+37-5	medag1ie	ADJD	<unknown>	_	O	O	
+37-6	da	ADV	da	_	O	O	
+37-7	Tiberio	NE	Tiberio	_	O	O	
+37-8	fino	NE	<unknown>	_	O	O	
+37-9	a	FM	a	_	O	O	
+37-10	Vespasiano	NN	<unknown>	_	O	O	
+37-11	.	$.	.	_	O	O	
+
+#id=38
+#text=C. Cavedoni.
+38-1	C.	NE	C.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+38-2	Cavedoni	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+38-3	.	$.	.	_	O	O	
+
+#id=39
+#text=- f. Epigrafia.
+39-1	-	$(	-	_	O	O	
+39-2	f.	APPR	f.	_	O	O	
+39-3	Epigrafia	NN	<unknown>	_	O	O	
+39-4	.	$.	.	_	O	O	
+
+#id=40
+#text=Intorno ad un'iscrizione ostiense.
+40-1	Intorno	ADJA	<unknown>	_	O	O	
+40-2	ad	FM	ad	_	O	O	
+40-3	un'iscrizione	NE	<unknown>	_	O	O	
+40-4	ostiense	ADJA	<unknown>	_	O	O	
+40-5	.	$.	.	_	O	O	
+
+#id=41
+#text=G. Henzen.
+41-1	G.	NE	G.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+41-2	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+41-3	.	$.	.	_	O	O	
+
+#id=42
+#text=- 111.
+42-1	-	$(	-	_	O	O	
+42-2	111	CARD	@card@	_	O	O	
+42-3	.	$.	.	_	O	O	
+
+#id=43
+#text=Osservazioni: Sui curatori delle citta antiehe.
+43-1	Osservazioni	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+43-2	:	$.	:	_	O	O	
+43-3	Sui	NE	<unknown>	_	O	O	
+43-4	curatori	NN	<unknown>	_	O	O	
+43-5	delle	VVFIN	dellen	_	O	O	
+43-6	citta	NE	<unknown>	_	O	O	
+43-7	antiehe	VVFIN	<unknown>	_	O	O	
+43-8	.	$.	.	_	O	O	
+
+#id=44
+#text=G. Hen- ~.
+44-1	G.	NE	G.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+44-2	Hen-	TRUNC	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+44-3	~	XY	~	_	O	O	
+44-4	.	$.	.	_	O	O	
+
+#id=45
+#text=- Sul trono deI Giove di Fidia in Olimpia ( tavv. d'agg.
+45-1	-	$(	-	_	O	O	
+45-2	Sul	ADJA	<unknown>	_	O	O	
+45-3	trono	ADJA	<unknown>	_	O	O	
+45-4	deI	ADJA	<unknown>	_	O	O	
+45-5	Giove	NN	<unknown>	_	O	O	
+45-6	di	NE	di	_	O	O	
+45-7	Fidia	NE	<unknown>	_	O	O	
+45-8	in	APPR	in	_	O	O	
+45-9	Olimpia	NE	Olimpia	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+45-10	(	$(	(	_	O	O	
+45-11	tavv	NE	<unknown>	_	O	O	
+45-12	.	$.	.	_	O	O	
+45-13	d'agg	NE	<unknown>	_	O	O	
+45-14	.	$.	.	_	O	O	
+
+#id=46
+#text=C. D).
+46-1	C.	NE	C.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+46-2	D	NN	D	_	O	O	
+46-3	)	$(	)	_	O	O	
+46-4	.	$.	.	_	O	O	
+
+#id=47
+#text=H. Brunn.
+47-1	H.	NE	H.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+47-2	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+47-3	.	$.	.	_	O	O	
+
+#id=48
+#text=- Sul metodo di spiegare i mo numenti figurati, lettura diretta a1 eh.
+48-1	-	$(	-	_	O	O	
+48-2	Sul	ADJA	<unknown>	_	O	O	
+48-3	metodo	NE	<unknown>	_	O	O	
+48-4	di	NE	di	_	O	O	
+48-5	spiegare	VVFIN	<unknown>	_	O	O	
+48-6	i	NE	i	_	O	O	
+48-7	mo	ADJA	<unknown>	_	O	O	
+48-8	numenti	NN	<unknown>	_	O	O	
+48-9	figurati	NE	<unknown>	_	O	O	
+48-10	,	$,	,	_	O	O	
+48-11	lettura	NE	<unknown>	_	O	O	
+48-12	diretta	NE	<unknown>	_	O	O	
+48-13	a1	VVFIN	<unknown>	_	O	O	
+48-14	eh	ADV	eh	_	O	O	
+48-15	.	$.	.	_	O	O	
+
+#id=49
+#text=prof.
+49-1	prof	NE	Prof	_	O	O	
+49-2	.	$.	.	_	O	O	
+
+#id=50
+#text=O. Jahn ( tav.
+50-1	O.	NE	O.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+50-2	Jahn	NE	Jahn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+50-3	(	$(	(	_	O	O	
+50-4	tav	NE	<unknown>	_	O	O	
+50-5	.	$.	.	_	O	O	
+
+#id=51
+#text=d'agg.
+51-1	d'agg	NE	<unknown>	_	O	O	
+51-2	.	$.	.	_	O	O	
+
+#id=52
+#text=p).
+52-1	p	NE	p	_	O	O	
+52-2	)	$(	)	_	O	O	
+52-3	.	$.	.	_	O	O	
+
+#id=53
+#text=E.
+53-1	E.	ART	e.	_	O	O	
+
+#id=54
+#text=Braun.
+54-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+54-2	.	$.	.	_	O	O	
+
+#id=55
+#text=Zoega Bassir.
+55-1	Zoega	NE	<unknown>	_	O	O	
+55-2	Bassir	NN	<unknown>	_	O	O	
+55-3	.	$.	.	_	O	O	
+
+#id=56
+#text=ohne Text jetzt zu Sc.
+56-1	ohne	APPR	ohne	_	O	O	
+56-2	Text	NN	Text	_	O	O	
+56-3	jetzt	ADV	jetzt	_	O	O	
+56-4	zu	APPR	zu	_	O	O	
+56-5	Sc.	NE	<unknown>	_	O	O	
+
+#id=57
+#text=8 zu haben.
+57-1	8	CARD	8	_	O	O	
+57-2	zu	PTKZU	zu	_	O	O	
+57-3	haben	VAINF	haben	_	O	O	
+57-4	.	$.	.	_	O	O	
+
+#id=58
+#text=Ein vollständiges Exemplar, gebunden, mit breitem Rand, will man mir zu 19 Scudi schaffen, was doch wohl gar zu viel ist.
+58-1	Ein	ART	eine	_	O	O	
+58-2	vollständiges	ADJA	vollständig	_	O	O	
+58-3	Exemplar	NN	Exemplar	_	O	O	
+58-4	,	$,	,	_	O	O	
+58-5	gebunden	VVPP	binden	_	O	O	
+58-6	,	$,	,	_	O	O	
+58-7	mit	APPR	mit	_	O	O	
+58-8	breitem	ADJA	breit	_	O	O	
+58-9	Rand	NN	Rand	_	O	O	
+58-10	,	$,	,	_	O	O	
+58-11	will	VMFIN	wollen	_	O	O	
+58-12	man	PIS	man	_	O	O	
+58-13	mir	PRF	ich	_	O	O	
+58-14	zu	APPR	zu	_	O	O	
+58-15	19	CARD	19	_	O	O	
+58-16	Scudi	NN	<unknown>	_	O	O	
+58-17	schaffen	VVINF	schaffen	_	O	O	
+58-18	,	$,	,	_	O	O	
+58-19	was	PRELS	was	_	O	O	
+58-20	doch	ADV	doch	_	O	O	
+58-21	wohl	ADV	wohl	_	O	O	
+58-22	gar	ADV	gar	_	O	O	
+58-23	zu	APPR	zu	_	O	O	
+58-24	viel	PIS	viele	_	O	O	
+58-25	ist	VAFIN	sein	_	O	O	
+58-26	.	$.	.	_	O	O	
+
+#id=59
+#text=- In der letzterwähnten Auction kam Micali vor, jedoch die kleine Mailänder Ausgabe, die wir nicht zu kaufen wagten.
+59-1	-	$(	-	_	O	O	
+59-2	In	APPR	in	_	O	O	
+59-3	der	ART	die	_	O	O	
+59-4	letzterwähnten	ADJA	<unknown>	_	O	O	
+59-5	Auction	NN	<unknown>	_	O	O	
+59-6	kam	VVFIN	kommen	_	O	O	
+59-7	Micali	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+59-8	vor	PTKVZ	vor	_	O	O	
+59-9	,	$,	,	_	O	O	
+59-10	jedoch	ADV	jedoch	_	O	O	
+59-11	die	ART	die	_	O	O	
+59-12	kleine	ADJA	klein	_	O	O	
+59-13	Mailänder	NN	Mailänder	_	O	O	
+59-14	Ausgabe	NN	Ausgabe	_	O	O	
+59-15	,	$,	,	_	O	O	
+59-16	die	PRELS	die	_	O	O	
+59-17	wir	PPER	wir	_	O	O	
+59-18	nicht	PTKNEG	nicht	_	O	O	
+59-19	zu	PTKZU	zu	_	O	O	
+59-20	kaufen	VVINF	kaufen	_	O	O	
+59-21	wagten	VVFIN	wagen	_	O	O	
+59-22	.	$.	.	_	O	O	
+
+#id=60
+#text=So bleibt uns .B'lorenz übrig, aber schwerlich die Möglichkeit, das l>Verk mit der nächstens abgehenden
+60-1	So	ADV	so	_	O	O	
+60-2	bleibt	VVFIN	bleiben	_	O	O	
+60-3	uns	PPER	wir	_	O	O	
+60-4	.B'lorenz	NN	<unknown>	_	O	O	
+60-5	übrig	ADJD	übrig	_	O	O	
+60-6	,	$,	,	_	O	O	
+60-7	aber	ADV	aber	_	O	O	
+60-8	schwerlich	ADJD	schwerlich	_	O	O	
+60-9	die	ART	die	_	O	O	
+60-10	Möglichkeit	NN	Möglichkeit	_	O	O	
+60-11	,	$,	,	_	O	O	
+60-12	das	ART	die	_	O	O	
+60-13	l>Verk	NN	<unknown>	_	O	O	
+60-14	mit	APPR	mit	_	O	O	
+60-15	der	ART	die	_	O	O	
+60-16	nächstens	ADV	nächstens	_	O	O	
+60-17	abgehenden	ADJA	abgehend	_	O	O	
+

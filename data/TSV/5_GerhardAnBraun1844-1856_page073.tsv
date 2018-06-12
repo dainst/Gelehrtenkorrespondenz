@@ -1,0 +1,191 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=421 Gerhard an Braun Wildbad, 11. September 1844 2 ligen Stoffs entbehre.
+1-1	421	CARD	421	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	Wildbad	NN	Wildbad	_	O	O	
+1-6	,	$,	,	_	O	O	
+1-7	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	ligen	ADJA	<unknown>	_	O	O	
+1-13	Stoffs	NN	Stoff	_	O	O	
+1-14	entbehre	VVFIN	entbehren	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=( Dieser Absatz ist durchgestrichen und am Rande die Bemerkung "erledigt" hinzugefügt ) Also zum 11 Oktober erwarte ich Sie in Berlin; es versteht sich von selbst, daß Sie diesmal bei mir ab- ~i~ steigen.
+2-1	(	$(	(	_	O	O	
+2-2	Dieser	PDAT	dies	_	O	O	
+2-3	Absatz	NN	Absatz	_	O	O	
+2-4	ist	VAFIN	sein	_	O	O	
+2-5	durchgestrichen	VVPP	durchstreichen	_	O	O	
+2-6	und	KON	und	_	O	O	
+2-7	am	APPRART	an	_	O	O	
+2-8	Rande	NN	Rand	_	O	O	
+2-9	die	ART	die	_	O	O	
+2-10	Bemerkung	NN	Bemerkung	_	O	O	
+2-11	"	$(	"	_	O	O	
+2-12	erledigt	VVPP	erledigen	_	O	O	
+2-13	"	$(	"	_	O	O	
+2-14	hinzugefügt	VVPP	hinzufügen	_	O	O	
+2-15	)	$(	)	_	O	O	
+2-16	Also	ADV	also	_	O	O	
+2-17	zum	APPRART	zu	_	O	O	
+2-18	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-19	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-20	erwarte	VVFIN	erwarten	_	O	O	
+2-21	ich	PPER	ich	_	O	O	
+2-22	Sie	PPER	Sie	_	O	O	
+2-23	in	APPR	in	_	O	O	
+2-24	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-25	;	$.	;	_	O	O	
+2-26	es	PPER	es	_	O	O	
+2-27	versteht	VVFIN	verstehen	_	O	O	
+2-28	sich	PRF	sich	_	O	O	
+2-29	von	APPR	von	_	O	O	
+2-30	selbst	ADV	selbst	_	O	O	
+2-31	,	$,	,	_	O	O	
+2-32	daß	KOUS	dass	_	O	O	
+2-33	Sie	PPER	Sie	_	O	O	
+2-34	diesmal	ADV	diesmal	_	O	O	
+2-35	bei	APPR	bei	_	O	O	
+2-36	mir	PPER	ich	_	O	O	
+2-37	ab-	TRUNC	ab-	_	O	O	
+2-38	~i~	NN	<unknown>	_	O	O	
+2-39	steigen	VVFIN	steigen	_	O	O	
+2-40	.	$.	.	_	O	O	
+
+#id=3
+#text=Ob Sie der AkademieYam 14 Oktober Klassensitzung hat etwas vortragen wollen überlasse ich Ihnen.
+3-1	Ob	KOUS	ob	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	der	ART	die	_	O	O	
+3-4	AkademieYam	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-5	14	CARD	14	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+3-6	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+3-7	Klassensitzung	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+3-8	hat	VAFIN	haben	_	O	O	
+3-9	etwas	ADV	etwas	_	O	O	
+3-10	vortragen	VVINF	vortragen	_	O	O	
+3-11	wollen	VMFIN	wollen	_	O	O	
+3-12	überlasse	VVFIN	überlassen	_	O	O	
+3-13	ich	PPER	ich	_	O	O	
+3-14	Ihnen	PPER	Sie	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Zwei Monat Reisen lassen mir diesmal fast nur das Gefühl eines schlarassisch verbrachten Lebens; ich habe ungemeine Sehnsucht bald wieder zur Arbeit zu kommen, werde aber um den Dresdenern meinen Besuch einzuhalten doch erst am 5 Oktober daheim sein können.
+4-1	Zwei	CARD	zwei	_	O	O	
+4-2	Monat	NN	Monat	_	O	O	
+4-3	Reisen	NN	Reise|Reisen	_	O	O	
+4-4	lassen	VVFIN	lassen	_	O	O	
+4-5	mir	PPER	ich	_	O	O	
+4-6	diesmal	ADV	diesmal	_	O	O	
+4-7	fast	ADV	fast	_	O	O	
+4-8	nur	ADV	nur	_	O	O	
+4-9	das	ART	die	_	O	O	
+4-10	Gefühl	NN	Gefühl	_	O	O	
+4-11	eines	ART	eine	_	O	O	
+4-12	schlarassisch	ADJD	<unknown>	_	O	O	
+4-13	verbrachten	ADJA	verbracht	_	O	O	
+4-14	Lebens	NN	Leben	_	O	O	
+4-15	;	$.	;	_	O	O	
+4-16	ich	PPER	ich	_	O	O	
+4-17	habe	VAFIN	haben	_	O	O	
+4-18	ungemeine	ADJA	ungemein	_	O	O	
+4-19	Sehnsucht	NN	Sehnsucht	_	O	O	
+4-20	bald	ADV	bald	_	O	O	
+4-21	wieder	ADV	wieder	_	O	O	
+4-22	zur	APPRART	zu	_	O	O	
+4-23	Arbeit	NN	Arbeit	_	O	O	
+4-24	zu	PTKZU	zu	_	O	O	
+4-25	kommen	VVINF	kommen	_	O	O	
+4-26	,	$,	,	_	O	O	
+4-27	werde	VAFIN	werden	_	O	O	
+4-28	aber	ADV	aber	_	O	O	
+4-29	um	APPR	um	_	O	O	
+4-30	den	ART	die	_	O	O	
+4-31	Dresdenern	NN	Dresdener	_	O	O	
+4-32	meinen	PPOSAT	mein	_	O	O	
+4-33	Besuch	NN	Besuch	_	O	O	
+4-34	einzuhalten	VVIZU	einhalten	_	O	O	
+4-35	doch	KON	doch	_	O	O	
+4-36	erst	ADV	erst	_	O	O	
+4-37	am	APPRART	an	_	O	O	
+4-38	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-39	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-40	daheim	ADV	daheim	_	O	O	
+4-41	sein	VAINF	sein	_	O	O	
+4-42	können	VMINF	können	_	O	O	
+4-43	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihre liebe Frau und Pariser Günstige bitte bestens zu grüßen.
+5-1	Ihre	PPOSAT	ihr	_	O	O	
+5-2	liebe	ADJA	lieb	_	O	O	
+5-3	Frau	NN	Frau	_	O	O	
+5-4	und	KON	und	_	O	O	
+5-5	Pariser	NN	Pariser	_	O	O	
+5-6	Günstige	NN	Günstige	_	O	O	
+5-7	bitte	VVFIN	bitten	_	O	O	
+5-8	bestens	ADV	bestens	_	O	O	
+5-9	zu	PTKZU	zu	_	O	O	
+5-10	grüßen	VVINF	grüßen	_	O	O	
+5-11	.	$.	.	_	O	O	
+
+#id=6
+#text=Von Herzen der Ihrige Gerhard Eben langt Ihr Brief vom 6 an; ich wage aber doch nicht mehr nach London zu schreiben, außer an Birch wegen obengedachten Abgusses.
+6-1	Von	APPR	von	_	O	O	
+6-2	Herzen	NN	Herz	_	O	O	
+6-3	der	ART	die	_	O	O	
+6-4	Ihrige	PPOSAT	ihrige	_	O	O	
+6-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-6	Eben	ADV	eben	_	O	O	
+6-7	langt	VVFIN	langen	_	O	O	
+6-8	Ihr	PPOSAT	ihr	_	O	O	
+6-9	Brief	NN	Brief	_	O	O	
+6-10	vom	APPRART	von	_	O	O	
+6-11	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-12	an	PTKVZ	an	_	O	O	
+6-13	;	$.	;	_	O	O	
+6-14	ich	PPER	ich	_	O	O	
+6-15	wage	VVFIN	wagen	_	O	O	
+6-16	aber	ADV	aber	_	O	O	
+6-17	doch	ADV	doch	_	O	O	
+6-18	nicht	PTKNEG	nicht	_	O	O	
+6-19	mehr	ADV	mehr	_	O	O	
+6-20	nach	APPR	nach	_	O	O	
+6-21	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-22	zu	PTKZU	zu	_	O	O	
+6-23	schreiben	VVINF	schreiben	_	O	O	
+6-24	,	$,	,	_	O	O	
+6-25	außer	KOUS	außer	_	O	O	
+6-26	an	APPR	an	_	O	O	
+6-27	Birch	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-28	wegen	APPR	wegen	_	O	O	
+6-29	obengedachten	ADJA	<unknown>	_	O	O	
+6-30	Abgusses	NN	Abgus	_	O	O	
+6-31	.	$.	.	_	O	O	
+
+#id=7
+#text=Ihre Sendung unter Kreuzband langt ohne Zweifel morgen an; vorläufig besten Dank.
+7-1	Ihre	PPOSAT	ihr	_	O	O	
+7-2	Sendung	NN	Sendung	_	O	O	
+7-3	unter	APPR	unter	_	O	O	
+7-4	Kreuzband	NN	Kreuzband	_	O	O	
+7-5	langt	VVFIN	langen	_	O	O	
+7-6	ohne	APPR	ohne	_	O	O	
+7-7	Zweifel	NN	Zweifel	_	O	O	
+7-8	morgen	ADV	morgen	_	O	O	
+7-9	an	PTKVZ	an	_	O	O	
+7-10	;	$.	;	_	O	O	
+7-11	vorläufig	ADJD	vorläufig	_	O	O	
+7-12	besten	ADJA	gut	_	O	O	
+7-13	Dank	NN	Dank	_	O	O	
+7-14	.	$.	.	_	O	O	
+

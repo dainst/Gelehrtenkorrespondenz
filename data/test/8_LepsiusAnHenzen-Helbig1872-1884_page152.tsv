@@ -1,0 +1,226 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Verehrter Freund Richard Lepsius an Wolfgang Helbig~ Berlin, 18. April 1874 Berlin d. 18. Apr.
+1-1	Verehrter	ADJA	verehrt	_	O	O	
+1-2	Freund	NN	Freund	_	O	O	
+1-3	Richard	NE	Richard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Helbig~	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	d.	ART	d.	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-16	18	CARD	18	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	Apr.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1874 In der gestrigen Sitzung der Central Direktion h haben wir auc die Gehaltsfrage die Sie in Ihrem letzten Briefe angeregt haben, besprochen.
+2-1	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	In	APPR	in	_	O	O	
+2-3	der	ART	die	_	O	O	
+2-4	gestrigen	ADJA	gestrig	_	O	O	
+2-5	Sitzung	NN	Sitzung	_	O	O	
+2-6	der	ART	die	_	O	O	
+2-7	Central	NN	<unknown>	_	O	O	
+2-8	Direktion	NN	Direktion	_	O	O	
+2-9	h	NN	h	_	O	O	
+2-10	haben	VAFIN	haben	_	O	O	
+2-11	wir	PPER	wir	_	O	O	
+2-12	auc	ADV	<unknown>	_	O	O	
+2-13	die	ART	die	_	O	O	
+2-14	Gehaltsfrage	NN	Gehaltsfrage	_	O	O	
+2-15	die	ART	die	_	O	O	
+2-16	Sie	PPER	Sie	_	O	O	
+2-17	in	APPR	in	_	O	O	
+2-18	Ihrem	PPOSAT	ihr	_	O	O	
+2-19	letzten	ADJA	letzt	_	O	O	
+2-20	Briefe	NN	Brief	_	O	O	
+2-21	angeregt	VVPP	anregen	_	O	O	
+2-22	haben	VAINF	haben	_	O	O	
+2-23	,	$,	,	_	O	O	
+2-24	besprochen	VVPP	besprechen	_	O	O	
+2-25	.	$.	.	_	O	O	
+
+#id=3
+#text=Die allgemeine Ansicht war, daß der Boden auf welchen Sie sich bei Ihrer Beschwerde stellen, nicht der richtige sei.
+3-1	Die	ART	die	_	O	O	
+3-2	allgemeine	ADJA	allgemein	_	O	O	
+3-3	Ansicht	NN	Ansicht	_	O	O	
+3-4	war	VAFIN	sein	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	daß	KOUS	dass	_	O	O	
+3-7	der	ART	die	_	O	O	
+3-8	Boden	NN	Boden	_	O	O	
+3-9	auf	APPR	auf	_	O	O	
+3-10	welchen	PRELS	welche	_	O	O	
+3-11	Sie	PPER	Sie	_	O	O	
+3-12	sich	PRF	sich	_	O	O	
+3-13	bei	APPR	bei	_	O	O	
+3-14	Ihrer	PPOSAT	ihr	_	O	O	
+3-15	Beschwerde	NN	Beschwerde	_	O	O	
+3-16	stellen	VVFIN	stellen	_	O	O	
+3-17	,	$,	,	_	O	O	
+3-18	nicht	PTKNEG	nicht	_	O	O	
+3-19	der	ART	die	_	O	O	
+3-20	richtige	ADJA	richtig	_	O	O	
+3-21	sei	VAFIN	sein	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=Als der Gehalt des zukünftigen Sekretars in Athen besprochen wurde, haben wir nur gefragt, was dort ein das Ganze leitender Gelehrter nach dortigen Preisen und den jetzigen Verhältnissen, in die er als lokaler Begründer und zunächst alleiniger Leiter der neuen Anstalt eintritt, nothwendig braucht.
+4-1	Als	KOUS	als	_	O	O	
+4-2	der	ART	die	_	O	O	
+4-3	Gehalt	NN	Gehalt	_	O	O	
+4-4	des	ART	die	_	O	O	
+4-5	zukünftigen	ADJA	zukünftig	_	O	O	
+4-6	Sekretars	NN	<unknown>	_	O	O	
+4-7	in	APPR	in	_	O	O	
+4-8	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-9	besprochen	VVPP	besprechen	_	O	O	
+4-10	wurde	VAFIN	werden	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	haben	VAFIN	haben	_	O	O	
+4-13	wir	PPER	wir	_	O	O	
+4-14	nur	ADV	nur	_	O	O	
+4-15	gefragt	VVPP	fragen	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	was	PRELS	was	_	O	O	
+4-18	dort	ADV	dort	_	O	O	
+4-19	ein	ART	eine	_	O	O	
+4-20	das	ART	die	_	O	O	
+4-21	Ganze	NN	Ganze	_	O	O	
+4-22	leitender	ADJA	leitender	_	O	O	
+4-23	Gelehrter	NN	Gelehrte	_	O	O	
+4-24	nach	APPR	nach	_	O	O	
+4-25	dortigen	ADJA	dortig	_	O	O	
+4-26	Preisen	NN	Preis|Preisen	_	O	O	
+4-27	und	KON	und	_	O	O	
+4-28	den	ART	die	_	O	O	
+4-29	jetzigen	ADJA	jetzig	_	O	O	
+4-30	Verhältnissen	NN	Verhältnis	_	O	O	
+4-31	,	$,	,	_	O	O	
+4-32	in	APPR	in	_	O	O	
+4-33	die	PRELS	die	_	O	O	
+4-34	er	PPER	er	_	O	O	
+4-35	als	KOKOM	als	_	O	O	
+4-36	lokaler	ADJA	lokal	_	O	O	
+4-37	Begründer	NN	Begründer	_	O	O	
+4-38	und	KON	und	_	O	O	
+4-39	zunächst	ADV	zunächst	_	O	O	
+4-40	alleiniger	ADJA	alleinig	_	O	O	
+4-41	Leiter	NN	Leiter	_	O	O	
+4-42	der	ART	die	_	O	O	
+4-43	neuen	ADJA	neu	_	O	O	
+4-44	Anstalt	NN	Anstalt	_	O	O	
+4-45	eintritt	VVFIN	eintreten	_	O	O	
+4-46	,	$,	,	_	O	O	
+4-47	nothwendig	ADJD	<unknown>	_	O	O	
+4-48	braucht	VVFIN	brauchen	_	O	O	
+4-49	.	$.	.	_	O	O	
+
+#id=5
+#text=Eine Angleichung mit den Römischen Sekretaren lag fern und wenn sie gemacht worden wäre, so würde es mit der Stellung des Römischen ersten Sekretars gewesen sein.
+5-1	Eine	ART	eine	_	O	O	
+5-2	Angleichung	NN	Angleichung	_	O	O	
+5-3	mit	APPR	mit	_	O	O	
+5-4	den	ART	die	_	O	O	
+5-5	Römischen	ADJA	römisch	_	O	O	
+5-6	Sekretaren	NN	<unknown>	_	O	O	
+5-7	lag	VVFIN	liegen	_	O	O	
+5-8	fern	PTKVZ	fern	_	O	O	
+5-9	und	KON	und	_	O	O	
+5-10	wenn	KOUS	wenn	_	O	O	
+5-11	sie	PPER	sie	_	O	O	
+5-12	gemacht	VVPP	machen	_	O	O	
+5-13	worden	VAPP	werden	_	O	O	
+5-14	wäre	VAFIN	sein	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	so	ADV	so	_	O	O	
+5-17	würde	VAFIN	werden	_	O	O	
+5-18	es	PPER	es	_	O	O	
+5-19	mit	APPR	mit	_	O	O	
+5-20	der	ART	die	_	O	O	
+5-21	Stellung	NN	Stellung	_	O	O	
+5-22	des	ART	die	_	O	O	
+5-23	Römischen	ADJA	römisch	_	O	O	
+5-24	ersten	ADJA	erst	_	O	O	
+5-25	Sekretars	NN	<unknown>	_	O	O	
+5-26	gewesen	VAPP	sein	_	O	O	
+5-27	sein	VAINF	sein	_	O	O	
+5-28	.	$.	.	_	O	O	
+
+#id=6
+#text=Es kann daher in dem sich schließlich herausstellenden Gehaltsunterschiede zwischen der Athenischen und der zweiten Römischen SekretarsteIle für den Inhaber der letzteren geringer Dotirten durchaus keine Kränkung liegen, und rechtfertigt die Ansicht nicht, daß es für Sie ein Ehrenpunkt sei, nicht geringer als der Athenische Sekretar gestellt zu sein.
+6-1	Es	PPER	es	_	O	O	
+6-2	kann	VMFIN	können	_	O	O	
+6-3	daher	PAV	daher	_	O	O	
+6-4	in	APPR	in	_	O	O	
+6-5	dem	ART	die	_	O	O	
+6-6	sich	PRF	sich	_	O	O	
+6-7	schließlich	ADV	schließlich	_	O	O	
+6-8	herausstellenden	ADJA	<unknown>	_	O	O	
+6-9	Gehaltsunterschiede	NN	Gehaltsunterschied	_	O	O	
+6-10	zwischen	APPR	zwischen	_	O	O	
+6-11	der	ART	die	_	O	O	
+6-12	Athenischen	NN	<unknown>	_	O	O	
+6-13	und	KON	und	_	O	O	
+6-14	der	ART	die	_	O	O	
+6-15	zweiten	ADJA	zweit	_	O	O	
+6-16	Römischen	ADJA	römisch	_	O	O	
+6-17	SekretarsteIle	NN	<unknown>	_	O	O	
+6-18	für	APPR	für	_	O	O	
+6-19	den	ART	die	_	O	O	
+6-20	Inhaber	NN	Inhaber	_	O	O	
+6-21	der	ART	die	_	O	O	
+6-22	letzteren	ADJA	letzt	_	O	O	
+6-23	geringer	ADJA	gering	_	O	O	
+6-24	Dotirten	NN	<unknown>	_	O	O	
+6-25	durchaus	ADV	durchaus	_	O	O	
+6-26	keine	PIAT	keine	_	O	O	
+6-27	Kränkung	NN	Kränkung	_	O	O	
+6-28	liegen	VVINF	liegen	_	O	O	
+6-29	,	$,	,	_	O	O	
+6-30	und	KON	und	_	O	O	
+6-31	rechtfertigt	VVFIN	rechtfertigen	_	O	O	
+6-32	die	ART	die	_	O	O	
+6-33	Ansicht	NN	Ansicht	_	O	O	
+6-34	nicht	PTKNEG	nicht	_	O	O	
+6-35	,	$,	,	_	O	O	
+6-36	daß	KOUS	dass	_	O	O	
+6-37	es	PPER	es	_	O	O	
+6-38	für	APPR	für	_	O	O	
+6-39	Sie	PPER	Sie	_	O	O	
+6-40	ein	ART	eine	_	O	O	
+6-41	Ehrenpunkt	NN	Ehrenpunkt	_	O	O	
+6-42	sei	VAFIN	sein	_	O	O	
+6-43	,	$,	,	_	O	O	
+6-44	nicht	PTKNEG	nicht	_	O	O	
+6-45	geringer	ADJD	gering	_	O	O	
+6-46	als	KOKOM	als	_	O	O	
+6-47	der	ART	die	_	O	O	
+6-48	Athenische	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-49	Sekretar	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+6-50	gestellt	VVPP	stellen	_	O	O	
+6-51	zu	PTKZU	zu	_	O	O	
+6-52	sein	VAINF	sein	_	O	O	
+6-53	.	$.	.	_	O	O	
+
+#id=7
+#text=Anders verhält es sich, wenn Sie die Besoldung
+7-1	Anders	ADV	anders	_	O	O	
+7-2	verhält	VVFIN	verhalten	_	O	O	
+7-3	es	PPER	es	_	O	O	
+7-4	sich	PRF	sich	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	wenn	KOUS	wenn	_	O	O	
+7-7	Sie	PPER	Sie	_	O	O	
+7-8	die	ART	die	_	O	O	
+7-9	Besoldung	NN	Besoldung	_	O	O	
+

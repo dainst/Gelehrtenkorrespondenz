@@ -1,0 +1,129 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Ohne Nummer Henzen an Gerhard 31/VII/55 3 Exemplar zu liefern.
+1-1	Ohne	APPR	ohne	_	O	O	
+1-2	Nummer	NN	Nummer	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	31/VII/55	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	3	CARD	3	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Exemplar	NN	Exemplar	_	O	O	
+1-9	zu	PTKZU	zu	_	O	O	
+1-10	liefern	VVINF	liefern	_	O	O	
+1-11	.	$.	.	_	O	O	
+
+#id=2
+#text=Es sei jetzt die beste Gelegenheit, es nach Rom zu schicken; doch müsse ich es binnen 10 - 12 Tagen haben.
+2-1	Es	PPER	es	_	O	O	
+2-2	sei	VAFIN	sein	_	O	O	
+2-3	jetzt	ADV	jetzt	_	O	O	
+2-4	die	ART	die	_	O	O	
+2-5	beste	ADJA	gut	_	O	O	
+2-6	Gelegenheit	NN	Gelegenheit	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	es	PPER	es	_	O	O	
+2-9	nach	APPR	nach	_	O	O	
+2-10	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-11	zu	PTKZU	zu	_	O	O	
+2-12	schicken	VVINF	schicken	_	O	O	
+2-13	;	$.	;	_	O	O	
+2-14	doch	ADV	doch	_	O	O	
+2-15	müsse	VMFIN	müssen	_	O	O	
+2-16	ich	PPER	ich	_	O	O	
+2-17	es	PPER	es	_	O	O	
+2-18	binnen	APPR	binnen	_	O	O	
+2-19	10	CARD	10	_	O	O	
+2-20	-	$(	-	_	O	O	
+2-21	12	CARD	12	_	O	O	
+2-22	Tagen	NN	Tag	_	O	O	
+2-23	haben	VAINF	haben	_	O	O	
+2-24	.	$.	.	_	O	O	
+
+#id=3
+#text=r~"~ Eben geht A bro weg, der mich eine Stunde lang } unter=, resp. aufgehalten.
+3-1	r~"~	VVFIN	<unknown>	_	O	O	
+3-2	Eben	ADV	eben	_	O	O	
+3-3	geht	VVFIN	gehen	_	O	O	
+3-4	A	NN	A	_	O	O	
+3-5	bro	NE	<unknown>	_	O	O	
+3-6	weg	PTKVZ	weg	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	der	PRELS	die	_	O	O	
+3-9	mich	PRF	ich	_	O	O	
+3-10	eine	ART	eine	_	O	O	
+3-11	Stunde	NN	Stunde	_	O	O	
+3-12	lang	ADJD	lang	_	O	O	
+3-13	}	$(	}	_	O	O	
+3-14	unter=	VVFIN	<unknown>	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	resp.	ADV	resp.	_	O	O	
+3-17	aufgehalten	VVPP	aufhalten	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Daher kurz zum Schluß~' Herzliche Empfehlungen an Ihre 1.
+4-1	Daher	PAV	daher	_	O	O	
+4-2	kurz	ADJD	kurz	_	O	O	
+4-3	zum	APPRART	zu	_	O	O	
+4-4	Schluß~	NN	<unknown>	_	O	O	
+4-5	'	$(	'	_	O	O	
+4-6	Herzliche	ADJA	herzlich	_	O	O	
+4-7	Empfehlungen	NN	Empfehlung	_	O	O	
+4-8	an	APPR	an	_	O	O	
+4-9	Ihre	PPOSAT	ihr	_	O	O	
+4-10	1	CARD	1	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Frau u. für Ihre beiderseitige Freundlichkeit besten Dank.
+5-1	Frau	NN	Frau	_	O	O	
+5-2	u.	APPR	um	_	O	O	
+5-3	für	APPR	für	_	O	O	
+5-4	Ihre	PPOSAT	ihr	_	O	O	
+5-5	beiderseitige	ADJA	beiderseitig	_	O	O	
+5-6	Freundlichkeit	NN	Freundlichkeit	_	O	O	
+5-7	besten	ADJA	gut	_	O	O	
+5-8	Dank	NN	Dank	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Möchten wir sie in Rom erwiedern können.
+6-1	Möchten	VMFIN	mögen	_	O	O	
+6-2	wir	PPER	wir	_	O	O	
+6-3	sie	PPER	sie	_	O	O	
+6-4	in	APPR	in	_	O	O	
+6-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-6	erwiedern	VVINF	<unknown>	_	O	O	
+6-7	können	VMINF	können	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=l Mommsen wünscht, seine Notizen ohne seinen Namen benutzt; sie sind schnell hingeworfen.
+7-1	l	NN	l	_	O	O	
+7-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-3	wünscht	VVFIN	wünschen	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	seine	PPOSAT	sein	_	O	O	
+7-6	Notizen	NN	Notiz	_	O	O	
+7-7	ohne	APPR	ohne	_	O	O	
+7-8	seinen	PPOSAT	sein	_	O	O	
+7-9	Namen	NN	Name	_	O	O	
+7-10	benutzt	VVPP	benutzen	_	O	O	
+7-11	;	$.	;	_	O	O	
+7-12	sie	PPER	sie	_	O	O	
+7-13	sind	VAFIN	sein	_	O	O	
+7-14	schnell	ADJD	schnell	_	O	O	
+7-15	hingeworfen	VVPP	hinwerfen	_	O	O	
+7-16	.	$.	.	_	O	O	
+
+#id=8
+#text=L~"'P-· Ihr Breslau 31/VII 55. WHenzen
+8-1	L~"'P-·	NN	<unknown>	_	O	O	
+8-2	Ihr	PPOSAT	ihr	_	O	O	
+8-3	Breslau	NE	Breslau	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+8-4	31/VII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+8-5	55	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-6	.	$.	.	_	O	O	
+8-7	WHenzen	NN	<unknown>	_	O	O	
+

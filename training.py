@@ -234,6 +234,9 @@ class TokenFeatureExtractor():
         :param sentence_num: index of the sentence
         :param dictionaries: dictionary ( dict_type : list of values)
         """
+        
+        from collections import OrderedDict
+        
         self._token = sentence[tok_num]
         self._dictionaries = dictionaries
 
@@ -255,7 +258,31 @@ class TokenFeatureExtractor():
         self.endsWithDigit = True if re.search(r'\d+$', self.w) else False
         self.isInPersonDic = self.w in self._dictionaries["persons"]
         self.isInPlaceDic = self.w in self._dictionaries["places"]
+        self.pattern_long = self.extract_pattern_feature(self.w)
+        self.pattern_short = ''.join(OrderedDict.fromkeys(self.pattern_long).keys())
 
+
+    def extract_pattern_feature(self, check_str):
+        """
+        >>> fe = FeatureExtractor()
+        >>> test = u"Homéro,1999"
+        >>> value = fe.extract_pattern_feature(test)
+        >>> print value[1]
+        Aaaaaa-0000
+        """
+        result=[]
+        for n,char in enumerate(check_str):
+            if(char.isalnum()):
+                if(char.isalpha()):
+                    if(char.islower()):
+                        result.append('a')
+                    else:
+                        result.append('A')
+                else:
+                    result.append('0')
+            else:
+                result.append('-')
+        return ("".join(result))
 
     @property
     def feature_dict(self):

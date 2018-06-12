@@ -1,0 +1,338 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Ohne Nummer Henzen an Gerhard 4/VI/55 Verehrter Herr Professor Sie waren so freundlich, mich hier und schon in Wien einige Zeilen finden zu lassen, für die ich Ihnen recht dankbar bin.
+1-1	Ohne	APPR	ohne	_	O	O	
+1-2	Nummer	NN	Nummer	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	4/VI/55	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	Verehrter	ADJA	verehrt	_	O	O	
+1-8	Herr	NN	Herr	_	O	O	
+1-9	Professor	NN	Professor	_	O	O	
+1-10	Sie	PPER	Sie	_	O	O	
+1-11	waren	VAFIN	sein	_	O	O	
+1-12	so	ADV	so	_	O	O	
+1-13	freundlich	ADJD	freundlich	_	O	O	
+1-14	,	$,	,	_	O	O	
+1-15	mich	PRF	ich	_	O	O	
+1-16	hier	ADV	hier	_	O	O	
+1-17	und	KON	und	_	O	O	
+1-18	schon	ADV	schon	_	O	O	
+1-19	in	APPR	in	_	O	O	
+1-20	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-21	einige	PIAT	einige	_	O	O	
+1-22	Zeilen	NN	Zeile	_	O	O	
+1-23	finden	VVINF	finden	_	O	O	
+1-24	zu	PTKZU	zu	_	O	O	
+1-25	lassen	VVINF	lassen	_	O	O	
+1-26	,	$,	,	_	O	O	
+1-27	für	APPR	für	_	O	O	
+1-28	die	PRELS	die	_	O	O	
+1-29	ich	PPER	ich	_	O	O	
+1-30	Ihnen	PPER	Sie	_	O	O	
+1-31	recht	ADJD	recht	_	O	O	
+1-32	dankbar	ADJD	dankbar	_	O	O	
+1-33	bin	VAFIN	sein	_	O	O	
+1-34	.	$.	.	_	O	O	
+
+#id=2
+#text=In Wien namentlich waren sie mir I nützlich, indem sie mich veranlaßten, Linker zu besuchen, \ __ ~it dem ich recht angenehme Stunden zubrachte.
+2-1	In	APPR	in	_	O	O	
+2-2	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-3	namentlich	ADJD	namentlich	_	O	O	
+2-4	waren	VAFIN	sein	_	O	O	
+2-5	sie	PPER	sie	_	O	O	
+2-6	mir	PPER	ich	_	O	O	
+2-7	I	NN	I	_	O	O	
+2-8	nützlich	ADJD	nützlich	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	indem	KOUS	indem	_	O	O	
+2-11	sie	PPER	sie	_	O	O	
+2-12	mich	PPER	ich	_	O	O	
+2-13	veranlaßten	VVFIN	veranlassen	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	Linker	NN	Linke	_	O	O	
+2-16	zu	PTKZU	zu	_	O	O	
+2-17	besuchen	VVINF	besuchen	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	\	XY	\	_	O	O	
+2-20	__	ADJA	<unknown>	_	O	O	
+2-21	~it	NN	<unknown>	_	O	O	
+2-22	dem	ART	die	_	O	O	
+2-23	ich	PPER	ich	_	O	O	
+2-24	recht	ADJD	recht	_	O	O	
+2-25	angenehme	ADJA	angenehm	_	O	O	
+2-26	Stunden	NN	Stunde|Stunden	_	O	O	
+2-27	zubrachte	VVFIN	zubringen	_	O	O	
+2-28	.	$.	.	_	O	O	
+
+#id=3
+#text=Unsre Reise, mit aller Vorsicht gemacht, wie ihre lange Dauer ( 1 r • Mai - 2 r • Juni) beweist, war Gott sei Dank !
+3-1	Unsre	PPOSAT	unsre	_	O	O	
+3-2	Reise	NN	Reise	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	mit	APPR	mit	_	O	O	
+3-5	aller	PIAT	alle	_	O	O	
+3-6	Vorsicht	NN	Vorsicht	_	O	O	
+3-7	gemacht	VVPP	machen	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	wie	KOUS	wie	_	O	O	
+3-10	ihre	PPOSAT	ihr	_	O	O	
+3-11	lange	ADJA	lang	_	O	O	
+3-12	Dauer	NN	Dauer	_	O	O	
+3-13	(	$(	(	_	O	O	
+3-14	1	CARD	1	_	O	O	
+3-15	r	NE	r	_	O	O	
+3-16	•	ADJA	<unknown>	_	O	O	
+3-17	Mai	NN	Mai	_	O	O	
+3-18	-	$(	-	_	O	O	
+3-19	2	CARD	2	_	O	O	
+3-20	r	NE	r	_	O	O	
+3-21	•	ADJA	<unknown>	_	O	O	
+3-22	Juni	NN	Juni	_	O	O	
+3-23	)	$(	)	_	O	O	
+3-24	beweist	VVFIN	beweisen	_	O	O	
+3-25	,	$,	,	_	O	O	
+3-26	war	VAFIN	sein	_	O	O	
+3-27	Gott	NN	Gott	_	O	O	
+3-28	sei	VAFIN	sein	_	O	O	
+3-29	Dank	NN	Dank	_	O	O	
+3-30	!	$.	!	_	O	O	
+
+#id=4
+#text=recht glücklich.
+4-1	recht	ADJD	recht	_	O	O	
+4-2	glücklich	ADJD	glücklich	_	O	O	
+4-3	.	$.	.	_	O	O	
+
+#id=5
+#text=Erst die Eisenbahnfahrten, obwohl wir in Laibach und Graz schliefen, u. dann die furchtbare Hitze, die wir seit Wien haben, nahmen meine Frau etwas mit, so daß sie in letzterer Stadt sogar Fieber hatte u. wir, statt 3, dort 4 Tage bleiben mußten.
+5-1	Erst	ADV	erst	_	O	O	
+5-2	die	ART	die	_	O	O	
+5-3	Eisenbahnfahrten	NN	Eisenbahnfahrt	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	obwohl	KOUS	obwohl	_	O	O	
+5-6	wir	PPER	wir	_	O	O	
+5-7	in	APPR	in	_	O	O	
+5-8	Laibach	NN	<unknown>	_	O	O	
+5-9	und	KON	und	_	O	O	
+5-10	Graz	NE	Graz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-11	schliefen	VVFIN	schlafen	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	u.	KON	und	_	O	O	
+5-14	dann	ADV	dann	_	O	O	
+5-15	die	ART	die	_	O	O	
+5-16	furchtbare	ADJA	furchtbar	_	O	O	
+5-17	Hitze	NN	Hitze	_	O	O	
+5-18	,	$,	,	_	O	O	
+5-19	die	PRELS	die	_	O	O	
+5-20	wir	PPER	wir	_	O	O	
+5-21	seit	APPR	seit	_	O	O	
+5-22	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-23	haben	VAFIN	haben	_	O	O	
+5-24	,	$,	,	_	O	O	
+5-25	nahmen	VVFIN	nehmen	_	O	O	
+5-26	meine	PPOSAT	mein	_	O	O	
+5-27	Frau	NN	Frau	_	O	O	
+5-28	etwas	ADV	etwas	_	O	O	
+5-29	mit	PTKVZ	mit	_	O	O	
+5-30	,	$,	,	_	O	O	
+5-31	so	ADV	so	_	O	O	
+5-32	daß	KOUS	dass	_	O	O	
+5-33	sie	PPER	sie	_	O	O	
+5-34	in	APPR	in	_	O	O	
+5-35	letzterer	ADJA	letzt	_	O	O	
+5-36	Stadt	NN	Stadt	_	O	O	
+5-37	sogar	ADV	sogar	_	O	O	
+5-38	Fieber	NN	Fieber	_	O	O	
+5-39	hatte	VAFIN	haben	_	O	O	
+5-40	u.	APPR	um	_	O	O	
+5-41	wir	PPER	wir	_	O	O	
+5-42	,	$,	,	_	O	O	
+5-43	statt	APPR	statt	_	O	O	
+5-44	3	CARD	3	_	O	O	
+5-45	,	$,	,	_	O	O	
+5-46	dort	ADV	dort	_	O	O	
+5-47	4	CARD	4	_	O	O	
+5-48	Tage	NN	Tag	_	O	O	
+5-49	bleiben	VVINF	bleiben	_	O	O	
+5-50	mußten	VMFIN	müssen	_	O	O	
+5-51	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Fahrt hieher, ebenfalls bei großer Hitze, hat sie sehr angegriffen; doch ist sie ohne ~ieber, u. eine Ruhe von wenigen Tagen wird sie hoffentlich herstellen.
+6-1	Die	ART	die	_	O	O	
+6-2	Fahrt	NN	Fahrt	_	O	O	
+6-3	hieher	NN	<unknown>	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	ebenfalls	ADV	ebenfalls	_	O	O	
+6-6	bei	APPR	bei	_	O	O	
+6-7	großer	ADJA	groß	_	O	O	
+6-8	Hitze	NN	Hitze	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	hat	VAFIN	haben	_	O	O	
+6-11	sie	PPER	sie	_	O	O	
+6-12	sehr	ADV	sehr	_	O	O	
+6-13	angegriffen	VVPP	angreifen	_	O	O	
+6-14	;	$.	;	_	O	O	
+6-15	doch	ADV	doch	_	O	O	
+6-16	ist	VAFIN	sein	_	O	O	
+6-17	sie	PPER	sie	_	O	O	
+6-18	ohne	APPR	ohne	_	O	O	
+6-19	~ieber	NN	<unknown>	_	O	O	
+6-20	,	$,	,	_	O	O	
+6-21	u.	APPR	um	_	O	O	
+6-22	eine	ART	eine	_	O	O	
+6-23	Ruhe	NN	Ruhe	_	O	O	
+6-24	von	APPR	von	_	O	O	
+6-25	wenigen	PIAT	wenige	_	O	O	
+6-26	Tagen	NN	Tag	_	O	O	
+6-27	wird	VAFIN	werden	_	O	O	
+6-28	sie	PPER	sie	_	O	O	
+6-29	hoffentlich	ADV	hoffentlich	_	O	O	
+6-30	herstellen	VVINF	herstellen	_	O	O	
+6-31	.	$.	.	_	O	O	
+
+#id=7
+#text=Bis Wien hatten wir auch keinen Tag von Wärme oder Staub gelitten, u. sie befand sich vortrefflich.
+7-1	Bis	APPR	bis	_	O	O	
+7-2	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-3	hatten	VAFIN	haben	_	O	O	
+7-4	wir	PPER	wir	_	O	O	
+7-5	auch	ADV	auch	_	O	O	
+7-6	keinen	PIAT	keine	_	O	O	
+7-7	Tag	NN	Tag	_	O	O	
+7-8	von	APPR	von	_	O	O	
+7-9	Wärme	NN	Wärme	_	O	O	
+7-10	oder	KON	oder	_	O	O	
+7-11	Staub	NN	Staub	_	O	O	
+7-12	gelitten	VVPP	leiden	_	O	O	
+7-13	,	$,	,	_	O	O	
+7-14	u.	KON	und	_	O	O	
+7-15	sie	PPER	sie	_	O	O	
+7-16	befand	VVFIN	befinden	_	O	O	
+7-17	sich	PRF	sich	_	O	O	
+7-18	vortrefflich	ADJD	vortrefflich	_	O	O	
+7-19	.	$.	.	_	O	O	
+
+#id=8
+#text=Immerhin aber ist es ein Glück, daß von dem eigentlichen Sommerübel, vor dem wir fliehen, sich keine Spur gezeigt hat.
+8-1	Immerhin	ADV	immerhin	_	O	O	
+8-2	aber	ADV	aber	_	O	O	
+8-3	ist	VAFIN	sein	_	O	O	
+8-4	es	PPER	es	_	O	O	
+8-5	ein	ART	eine	_	O	O	
+8-6	Glück	NN	Glück	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	daß	KOUS	dass	_	O	O	
+8-9	von	APPR	von	_	O	O	
+8-10	dem	ART	die	_	O	O	
+8-11	eigentlichen	ADJA	eigentlich	_	O	O	
+8-12	Sommerübel	NN	<unknown>	_	O	O	
+8-13	,	$,	,	_	O	O	
+8-14	vor	APPR	vor	_	O	O	
+8-15	dem	PRELS	die	_	O	O	
+8-16	wir	PPER	wir	_	O	O	
+8-17	fliehen	VVFIN	fliehen	_	O	O	
+8-18	,	$,	,	_	O	O	
+8-19	sich	PRF	sich	_	O	O	
+8-20	keine	PIAT	keine	_	O	O	
+8-21	Spur	NN	Spur	_	O	O	
+8-22	gezeigt	VVPP	zeigen	_	O	O	
+8-23	hat	VAFIN	haben	_	O	O	
+8-24	.	$.	.	_	O	O	
+
+#id=9
+#text=Hier sind wir nun leider !
+9-1	Hier	ADV	hier	_	O	O	
+9-2	sind	VAFIN	sein	_	O	O	
+9-3	wir	PPER	wir	_	O	O	
+9-4	nun	ADV	nun	_	O	O	
+9-5	leider	ADV	leider	_	O	O	
+9-6	!	$.	!	_	O	O	
+
+#id=10
+#text=gerade zum Wollmarkt eingetroffen und haben daher ein sehr schlechtes Logis gefunden, zwei Dachkammern, die aber zum Glück in Mommsen's Hause liegen, was für Verkehr u. Arbeiten sehr erwünscht.
+10-1	gerade	ADV	gerade	_	O	O	
+10-2	zum	APPRART	zu	_	O	O	
+10-3	Wollmarkt	NN	<unknown>	_	O	O	
+10-4	eingetroffen	VVPP	eintreffen	_	O	O	
+10-5	und	KON	und	_	O	O	
+10-6	haben	VAFIN	haben	_	O	O	
+10-7	daher	PAV	daher	_	O	O	
+10-8	ein	ART	eine	_	O	O	
+10-9	sehr	ADV	sehr	_	O	O	
+10-10	schlechtes	ADJA	schlecht	_	O	O	
+10-11	Logis	NE	<unknown>	_	O	O	
+10-12	gefunden	VVPP	finden	_	O	O	
+10-13	,	$,	,	_	O	O	
+10-14	zwei	CARD	zwei	_	O	O	
+10-15	Dachkammern	NN	Dachkammer	_	O	O	
+10-16	,	$,	,	_	O	O	
+10-17	die	PRELS	die	_	O	O	
+10-18	aber	ADV	aber	_	O	O	
+10-19	zum	APPRART	zu	_	O	O	
+10-20	Glück	NN	Glück	_	O	O	
+10-21	in	APPR	in	_	O	O	
+10-22	Mommsen's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-23	Hause	NN	Haus	_	O	O	
+10-24	liegen	VVFIN	liegen	_	O	O	
+10-25	,	$,	,	_	O	O	
+10-26	was	PRELS	was	_	O	O	
+10-27	für	APPR	für	_	O	O	
+10-28	Verkehr	NN	Verkehr	_	O	O	
+10-29	u.	APPR	um	_	O	O	
+10-30	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+10-31	sehr	ADV	sehr	_	O	O	
+10-32	erwünscht	ADJD	erwünscht	_	O	O	
+10-33	.	$.	.	_	O	O	
+
+#id=11
+#text=ist';.
+11-1	ist	VAFIN	sein	_	O	O	
+11-2	'	$(	'	_	O	O	
+11-3	;	$.	;	_	O	O	
+11-4	.	$.	.	_	O	O	
+
+#id=12
+#text=nur ist zweifelhaft, ob die Hitze diese Position nicht unhaltbar machen wird.
+12-1	nur	ADV	nur	_	O	O	
+12-2	ist	VAFIN	sein	_	O	O	
+12-3	zweifelhaft	ADJD	zweifelhaft	_	O	O	
+12-4	,	$,	,	_	O	O	
+12-5	ob	KOUS	ob	_	O	O	
+12-6	die	ART	die	_	O	O	
+12-7	Hitze	NN	Hitze	_	O	O	
+12-8	diese	PDAT	dies	_	O	O	
+12-9	Position	NN	Position	_	O	O	
+12-10	nicht	PTKNEG	nicht	_	O	O	
+12-11	unhaltbar	ADJD	unhaltbar	_	O	O	
+12-12	machen	VVINF	machen	_	O	O	
+12-13	wird	VAFIN	werden	_	O	O	
+12-14	.	$.	.	_	O	O	
+
+#id=13
+#text=Die Arbeitsmasse u. die Beschreibung, die mir Mommsen von ihrem Zustande macht, sind übrigens sehr niederschlagend; ich se-
+13-1	Die	ART	die	_	O	O	
+13-2	Arbeitsmasse	NN	<unknown>	_	O	O	
+13-3	u.	APPR	um	_	O	O	
+13-4	die	ART	die	_	O	O	
+13-5	Beschreibung	NN	Beschreibung	_	O	O	
+13-6	,	$,	,	_	O	O	
+13-7	die	PRELS	die	_	O	O	
+13-8	mir	PPER	ich	_	O	O	
+13-9	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-10	von	APPR	von	_	O	O	
+13-11	ihrem	PPOSAT	ihr	_	O	O	
+13-12	Zustande	NN	Zustand	_	O	O	
+13-13	macht	VVFIN	machen	_	O	O	
+13-14	,	$,	,	_	O	O	
+13-15	sind	VAFIN	sein	_	O	O	
+13-16	übrigens	ADV	übrigens	_	O	O	
+13-17	sehr	ADV	sehr	_	O	O	
+13-18	niederschlagend	ADJD	<unknown>	_	O	O	
+13-19	;	$.	;	_	O	O	
+13-20	ich	PPER	ich	_	O	O	
+13-21	se-	VVFIN	<unknown>	_	O	O	
+

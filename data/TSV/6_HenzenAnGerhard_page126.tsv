@@ -1,0 +1,351 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=227 15/VI/53 2 Henzen an Gerhard ne Reise hatte sich schon ohnehin ungebührlich verzBgert.
+1-1	227	CARD	@card@	_	O	O	
+1-2	15/VI/53	CARD	<unknown>	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	ne	ART	eine	_	O	O	
+1-8	Reise	NN	Reise	_	O	O	
+1-9	hatte	VAFIN	haben	_	O	O	
+1-10	sich	PRF	sich	_	O	O	
+1-11	schon	ADV	schon	_	O	O	
+1-12	ohnehin	ADV	ohnehin	_	O	O	
+1-13	ungebührlich	ADJD	ungebührlich	_	O	O	
+1-14	verzBgert	VVFIN	<unknown>	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=Indeß leiden die wissenschaftl.
+2-1	Indeß	NE	<unknown>	_	O	O	
+2-2	leiden	VVFIN	leiden	_	O	O	
+2-3	die	ART	die	_	O	O	
+2-4	wissenschaftl.	ADJA	<unknown>	_	O	O	
+
+#id=3
+#text=Zwecke darunter nicht.
+3-1	Zwecke	VVFIN	zwecken	_	O	O	
+3-2	darunter	PAV	darunter	_	O	O	
+3-3	nicht	PTKNEG	nicht	_	O	O	
+3-4	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich habe ihn mit Geld so ausgerüstet, daß er die Gegend von Aquila mit aller Gr~ündlichkeit absuchen u. in gleicher \Veise die Reise nach Neapel machen kann.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	habe	VAFIN	haben	_	O	O	
+4-3	ihn	PPER	er	_	O	O	
+4-4	mit	APPR	mit	_	O	O	
+4-5	Geld	NN	Geld	_	O	O	
+4-6	so	ADV	so	_	O	O	
+4-7	ausgerüstet	VVPP	ausrüsten	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	daß	KOUS	dass	_	O	O	
+4-10	er	PPER	er	_	O	O	
+4-11	die	ART	die	_	O	O	
+4-12	Gegend	NN	Gegend	_	O	O	
+4-13	von	APPR	von	_	O	O	
+4-14	Aquila	NE	Aquila	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-15	mit	APPR	mit	_	O	O	
+4-16	aller	PIAT	alle	_	O	O	
+4-17	Gr~ündlichkeit	NN	<unknown>	_	O	O	
+4-18	absuchen	VVINF	absuchen	_	O	O	
+4-19	u.	KON	und	_	O	O	
+4-20	in	APPR	in	_	O	O	
+4-21	gleicher	ADJA	gleich	_	O	O	
+4-22	\Veise	NN	<unknown>	_	O	O	
+4-23	die	ART	die	_	O	O	
+4-24	Reise	NN	Reise	_	O	O	
+4-25	nach	APPR	nach	_	O	O	
+4-26	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-27	machen	VVINF	machen	_	O	O	
+4-28	kann	VMFIN	können	_	O	O	
+4-29	.	$.	.	_	O	O	
+
+#id=5
+#text=Dagegen wurde ungewiß gelassen, wie weit er seine Rückreise ausdehnen solle.
+5-1	Dagegen	PAV	dagegen	_	O	O	
+5-2	wurde	VAFIN	werden	_	O	O	
+5-3	ungewiß	ADJD	ungewiss	_	O	O	
+5-4	gelassen	VVPP	lassen	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	wie	KOKOM	wie	_	O	O	
+5-7	weit	ADJD	weit	_	O	O	
+5-8	er	PPER	er	_	O	O	
+5-9	seine	PPOSAT	sein	_	O	O	
+5-10	Rückreise	NN	Rückreise	_	O	O	
+5-11	ausdehnen	VVINF	ausdehnen	_	O	O	
+5-12	solle	VMFIN	sollen	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Der von Mommsen nicht besuchte Fucino ward mit seinen Umgebungen als Ziel u. Zweck dieser eventuellen Rückreise in Aussicht gestellt u. sollte unterbleiben, wenn keine Bewilligung erfole:en werde.
+6-1	Der	ART	die	_	O	O	
+6-2	von	APPR	von	_	O	O	
+6-3	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	nicht	PTKNEG	nicht	_	O	O	
+6-5	besuchte	ADJA	besucht	_	O	O	
+6-6	Fucino	NN	<unknown>	_	O	O	
+6-7	ward	VVFIN	werd	_	O	O	
+6-8	mit	APPR	mit	_	O	O	
+6-9	seinen	PPOSAT	sein	_	O	O	
+6-10	Umgebungen	NN	Umgebung	_	O	O	
+6-11	als	KOKOM	als	_	O	O	
+6-12	Ziel	NN	Ziel	_	O	O	
+6-13	u.	APPR	um	_	O	O	
+6-14	Zweck	NN	Zweck	_	O	O	
+6-15	dieser	PDAT	dies	_	O	O	
+6-16	eventuellen	ADJA	eventuell	_	O	O	
+6-17	Rückreise	NN	Rückreise	_	O	O	
+6-18	in	APPR	in	_	O	O	
+6-19	Aussicht	NN	Aussicht	_	O	O	
+6-20	gestellt	VVPP	stellen	_	O	O	
+6-21	u.	KON	und	_	O	O	
+6-22	sollte	VMFIN	sollen	_	O	O	
+6-23	unterbleiben	VVINF	unterbleiben	_	O	O	
+6-24	,	$,	,	_	O	O	
+6-25	wenn	KOUS	wenn	_	O	O	
+6-26	keine	PIAT	keine	_	O	O	
+6-27	Bewilligung	NN	Bewilligung	_	O	O	
+6-28	erfole:en	VVINF	<unknown>	_	O	O	
+6-29	werde	VAFIN	werden	_	O	O	
+6-30	.	$.	.	_	O	O	
+
+#id=7
+#text=Eben so wird er nun diesen u. jenen Ausflug von Neapel aus machen können, der hätte unterlassen werden müssen, da Ritschl nur Hauptmonumente aufsuchen lassen kBnnte.
+7-1	Eben	ADV	eben	_	O	O	
+7-2	so	ADV	so	_	O	O	
+7-3	wird	VAFIN	werden	_	O	O	
+7-4	er	PPER	er	_	O	O	
+7-5	nun	ADV	nun	_	O	O	
+7-6	diesen	PDAT	dies	_	O	O	
+7-7	u.	APPR	um	_	O	O	
+7-8	jenen	PDAT	jen	_	O	O	
+7-9	Ausflug	NN	Ausflug	_	O	O	
+7-10	von	APPR	von	_	O	O	
+7-11	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-12	aus	PTKVZ	aus	_	O	O	
+7-13	machen	VVINF	machen	_	O	O	
+7-14	können	VMINF	können	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	der	PDS	die	_	O	O	
+7-17	hätte	VAFIN	haben	_	O	O	
+7-18	unterlassen	VVPP	unterlassen	_	O	O	
+7-19	werden	VAINF	werden	_	O	O	
+7-20	müssen	VMINF	müssen	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	da	KOUS	da	_	O	O	
+7-23	Ritschl	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-24	nur	ADV	nur	_	O	O	
+7-25	Hauptmonumente	NN	<unknown>	_	O	O	
+7-26	aufsuchen	VVINF	aufsuchen	_	O	O	
+7-27	lassen	VVFIN	lassen	_	O	O	
+7-28	kBnnte	NN	<unknown>	_	O	O	
+7-29	.	$.	.	_	O	O	
+
+#id=8
+#text=- Da es nun aber ungewiß ist, wann Brunn nach Neapel kommt, u. wie kurz ode lang er sich aufhält ( immer so kurz, wie mBglich, da er nach Hause will ), so bitte ich Sie, das Geld mir anzuweisen, indem ich, sobald ich Nachricht von ihm aus Neapel habe, schon vorläufig den Betrae; dorthin an ihn über werde.
+8-1	-	$(	-	_	O	O	
+8-2	Da	KOUS	da	_	O	O	
+8-3	es	PPER	es	_	O	O	
+8-4	nun	ADV	nun	_	O	O	
+8-5	aber	ADV	aber	_	O	O	
+8-6	ungewiß	ADJD	ungewiss	_	O	O	
+8-7	ist	VAFIN	sein	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	wann	PWAV	wann	_	O	O	
+8-10	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-11	nach	APPR	nach	_	O	O	
+8-12	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-13	kommt	VVFIN	kommen	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	u.	KON	und	_	O	O	
+8-16	wie	KOKOM	wie	_	O	O	
+8-17	kurz	ADJD	kurz	_	O	O	
+8-18	ode	ADJD	<unknown>	_	O	O	
+8-19	lang	ADJD	lang	_	O	O	
+8-20	er	PPER	er	_	O	O	
+8-21	sich	PRF	sich	_	O	O	
+8-22	aufhält	VVFIN	aufhalten	_	O	O	
+8-23	(	$(	(	_	O	O	
+8-24	immer	ADV	immer	_	O	O	
+8-25	so	ADV	so	_	O	O	
+8-26	kurz	ADJD	kurz	_	O	O	
+8-27	,	$,	,	_	O	O	
+8-28	wie	KOKOM	wie	_	O	O	
+8-29	mBglich	ADJD	<unknown>	_	O	O	
+8-30	,	$,	,	_	O	O	
+8-31	da	KOUS	da	_	O	O	
+8-32	er	PPER	er	_	O	O	
+8-33	nach	APPR	nach	_	O	O	
+8-34	Hause	NN	Haus	_	O	O	
+8-35	will	VMFIN	wollen	_	O	O	
+8-36	)	$(	)	_	O	O	
+8-37	,	$,	,	_	O	O	
+8-38	so	ADV	so	_	O	O	
+8-39	bitte	VVFIN	bitten	_	O	O	
+8-40	ich	PPER	ich	_	O	O	
+8-41	Sie	PPER	Sie	_	O	O	
+8-42	,	$,	,	_	O	O	
+8-43	das	ART	die	_	O	O	
+8-44	Geld	NN	Geld	_	O	O	
+8-45	mir	PPER	ich	_	O	O	
+8-46	anzuweisen	VVIZU	anweisen	_	O	O	
+8-47	,	$,	,	_	O	O	
+8-48	indem	KOUS	indem	_	O	O	
+8-49	ich	PPER	ich	_	O	O	
+8-50	,	$,	,	_	O	O	
+8-51	sobald	KOUS	sobald	_	O	O	
+8-52	ich	PPER	ich	_	O	O	
+8-53	Nachricht	NN	Nachricht	_	O	O	
+8-54	von	APPR	von	_	O	O	
+8-55	ihm	PPER	er	_	O	O	
+8-56	aus	APPR	aus	_	O	O	
+8-57	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-58	habe	VAFIN	haben	_	O	O	
+8-59	,	$,	,	_	O	O	
+8-60	schon	ADV	schon	_	O	O	
+8-61	vorläufig	ADJD	vorläufig	_	O	O	
+8-62	den	ART	die	_	O	O	
+8-63	Betrae	NN	<unknown>	_	O	O	
+8-64	;	$.	;	_	O	O	
+8-65	dorthin	ADV	dorthin	_	O	O	
+8-66	an	APPR	an	_	O	O	
+8-67	ihn	PPER	er	_	O	O	
+8-68	über	PTKVZ	über	_	O	O	
+8-69	werde	VAFIN	werden	_	O	O	
+8-70	.	$.	.	_	O	O	
+
+#id=9
+#text=So ward unter uns verabredet, um jede Verzögerung unmBglich zu machen.
+9-1	So	ADV	so	_	O	O	
+9-2	ward	VVFIN	werd	_	O	O	
+9-3	unter	APPR	unter	_	O	O	
+9-4	uns	PRF	wir	_	O	O	
+9-5	verabredet	VVPP	verabreden	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	um	APPR	um	_	O	O	
+9-8	jede	PIAT	jede	_	O	O	
+9-9	Verzögerung	NN	Verzögerung	_	O	O	
+9-10	unmBglich	ADJD	<unknown>	_	O	O	
+9-11	zu	PTKZU	zu	_	O	O	
+9-12	machen	VVINF	machen	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=- Uebrigens kommt Brunn schwerlich vor September nach Deutschland.
+10-1	-	$(	-	_	O	O	
+10-2	Uebrigens	NN	<unknown>	_	O	O	
+10-3	kommt	VVFIN	kommen	_	O	O	
+10-4	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-5	schwerlich	ADJD	schwerlich	_	O	O	
+10-6	vor	APPR	vor	_	O	O	
+10-7	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+10-8	nach	APPR	nach	_	O	O	
+10-9	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-10	.	$.	.	_	O	O	
+
+#id=11
+#text=Ich lege ein paar Zeilen für Curtius bei wegen seines Peloponnesos u. erinnere üie an Kramer1s Strabo vol.
+11-1	Ich	PPER	ich	_	O	O	
+11-2	lege	VVFIN	legen	_	O	O	
+11-3	ein	ART	eine	_	O	O	
+11-4	paar	PIAT	paar	_	O	O	
+11-5	Zeilen	NN	Zeile	_	O	O	
+11-6	für	APPR	für	_	O	O	
+11-7	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-8	bei	APPR	bei	_	O	O	
+11-9	wegen	APPR	wegen	_	O	O	
+11-10	seines	PPOSAT	sein	_	O	O	
+11-11	Peloponnesos	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-12	u.	KON	und	_	O	O	
+11-13	erinnere	VVFIN	erinnern	_	O	O	
+11-14	üie	ADJD	<unknown>	_	O	O	
+11-15	an	APPR	an	_	O	O	
+11-16	Kramer1s	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-17	Strabo	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-18	vol	NE	<unknown>	_	O	O	
+11-19	.	$.	.	_	O	O	
+
+#id=12
+#text=2.
+12-1	2	CARD	2	_	O	O	
+12-2	.	$.	.	_	O	O	
+
+#id=13
+#text=Leben Sie recht wohl.
+13-1	Leben	VVFIN	leben	_	O	O	
+13-2	Sie	PPER	Sie	_	O	O	
+13-3	recht	ADJD	recht	_	O	O	
+13-4	wohl	ADV	wohl	_	O	O	
+13-5	.	$.	.	_	O	O	
+
+#id=14
+#text=IV:eine Frau grüßt mit mir von Herzen Sie u. die Ihrige Ihr ergener Rom 15/VI 53 N.
+14-1	IV:eine	ADJA	<unknown>	_	O	O	
+14-2	Frau	NN	Frau	_	O	O	
+14-3	grüßt	VVFIN	grüßen	_	O	O	
+14-4	mit	APPR	mit	_	O	O	
+14-5	mir	PPER	ich	_	O	O	
+14-6	von	APPR	von	_	O	O	
+14-7	Herzen	NN	Herz	_	O	O	
+14-8	Sie	PPER	Sie	_	O	O	
+14-9	u.	APPR	um	_	O	O	
+14-10	die	ART	die	_	O	O	
+14-11	Ihrige	PPOSAT	ihrige	_	O	O	
+14-12	Ihr	PPOSAT	ihr	_	O	O	
+14-13	ergener	ADJA	<unknown>	_	O	O	
+14-14	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+14-15	15/VI	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+14-16	53	CARD	53	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+14-17	N.	NE	N.	_	O	O	
+
+#id=15
+#text=Renzen.
+15-1	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-2	.	$.	.	_	O	O	
+
+#id=16
+#text=Seit fast 14 Tagen continuirliches Regenwetter u. Kühle, wie im April.
+16-1	Seit	APPR	seit	_	O	O	
+16-2	fast	ADV	fast	_	O	O	
+16-3	14	CARD	14	_	O	O	
+16-4	Tagen	NN	Tag	_	O	O	
+16-5	continuirliches	ADJA	<unknown>	_	O	O	
+16-6	Regenwetter	NN	Regenwetter	_	O	O	
+16-7	u.	APPR	um	_	O	O	
+16-8	Kühle	NN	Kühle	_	O	O	
+16-9	,	$,	,	_	O	O	
+16-10	wie	KOKOM	wie	_	O	O	
+16-11	im	APPRART	in	_	O	O	
+16-12	April	NN	April	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+16-13	.	$.	.	_	O	O	
+
+#id=17
+#text=Die Heuernte verregnet u. ds.
+17-1	Die	ART	die	_	O	O	
+17-2	Heuernte	NN	Heuernte	_	O	O	
+17-3	verregnet	VVFIN	verregnen	_	O	O	
+17-4	u.	APPR	um	_	O	O	
+17-5	ds.	ADJA	<unknown>	_	O	O	
+
+#id=18
+#text=Korn in Gefahr.
+18-1	Korn	NN	Korn	_	O	O	
+18-2	in	APPR	in	_	O	O	
+18-3	Gefahr	NN	Gefahr	_	O	O	
+18-4	.	$.	.	_	O	O	
+
+#id=19
+#text=Es scheint völlig Deutsches flima geworden zu sein.
+19-1	Es	PPER	es	_	O	O	
+19-2	scheint	VVFIN	scheinen	_	O	O	
+19-3	völlig	ADJD	völlig	_	O	O	
+19-4	Deutsches	ADJA	deutsch	_	O	O	
+19-5	flima	NN	<unknown>	_	O	O	
+19-6	geworden	VAPP	werden	_	O	O	
+19-7	zu	PTKZU	zu	_	O	O	
+19-8	sein	VAINF	sein	_	O	O	
+19-9	.	$.	.	_	O	O	
+

@@ -1,0 +1,245 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=3 lung bieten müssen.
+1-1	3	CARD	3	_	O	O	
+1-2	lung	NN	<unknown>	_	O	O	
+1-3	bieten	VVINF	bieten	_	O	O	
+1-4	müssen	VMFIN	müssen	_	O	O	
+1-5	.	$.	.	_	O	O	
+
+#id=2
+#text=Helbig an Henzen Siena, 26. August 1874 4) ein pathetischer Schluß über die Lage, in welche das Reich seine Beamten versetzt, wenn ihre Einnahmen, nachdem ihr Budget bestimmt, plötzlich verkürzt werden.
+2-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	4	CARD	4	_	O	O	
+2-11	)	$(	)	_	O	O	
+2-12	ein	ART	eine	_	O	O	
+2-13	pathetischer	ADJA	pathetisch	_	O	O	
+2-14	Schluß	NN	Schluss	_	O	O	
+2-15	über	APPR	über	_	O	O	
+2-16	die	ART	die	_	O	O	
+2-17	Lage	NN	Lage	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	in	APPR	in	_	O	O	
+2-20	welche	PRELS	welche	_	O	O	
+2-21	das	ART	die	_	O	O	
+2-22	Reich	NN	Reich	_	O	O	
+2-23	seine	PPOSAT	sein	_	O	O	
+2-24	Beamten	NN	Beamter	_	O	O	
+2-25	versetzt	VVPP	versetzen	_	O	O	
+2-26	,	$,	,	_	O	O	
+2-27	wenn	KOUS	wenn	_	O	O	
+2-28	ihre	PPOSAT	ihr	_	O	O	
+2-29	Einnahmen	NN	Einnahme	_	O	O	
+2-30	,	$,	,	_	O	O	
+2-31	nachdem	KOUS	nachdem	_	O	O	
+2-32	ihr	PPOSAT	ihr	_	O	O	
+2-33	Budget	NN	Budget	_	O	O	
+2-34	bestimmt	VVPP	bestimmen	_	O	O	
+2-35	,	$,	,	_	O	O	
+2-36	plötzlich	ADJD	plötzlich	_	O	O	
+2-37	verkürzt	VVPP	verkürzen	_	O	O	
+2-38	werden	VAFIN	werden	_	O	O	
+2-39	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich glaube, es ist unsere Pflicht, in dieser Kleinigkeit nicht nachzugeben, sondern mit aller Energie auf unser Recht zu bestehen.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	glaube	VVFIN	glauben	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	es	PPER	es	_	O	O	
+3-5	ist	VAFIN	sein	_	O	O	
+3-6	unsere	PPOSAT	unser	_	O	O	
+3-7	Pflicht	NN	Pflicht	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	in	APPR	in	_	O	O	
+3-10	dieser	PDAT	dies	_	O	O	
+3-11	Kleinigkeit	NN	Kleinigkeit	_	O	O	
+3-12	nicht	PTKNEG	nicht	_	O	O	
+3-13	nachzugeben	VVIZU	nachgeben	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	sondern	KON	sondern	_	O	O	
+3-16	mit	APPR	mit	_	O	O	
+3-17	aller	PIAT	alle	_	O	O	
+3-18	Energie	NN	Energie	_	O	O	
+3-19	auf	APPR	auf	_	O	O	
+3-20	unser	PPOSAT	unser	_	O	O	
+3-21	Recht	NN	Recht	_	O	O	
+3-22	zu	PTKZU	zu	_	O	O	
+3-23	bestehen	VVINF	bestehen	_	O	O	
+3-24	.	$.	.	_	O	O	
+
+#id=4
+#text=Sonst könnte das Präcedens leicht üble Folgen fUr die Zukunft haben.
+4-1	Sonst	ADV	sonst	_	O	O	
+4-2	könnte	VMFIN	können	_	O	O	
+4-3	das	ART	die	_	O	O	
+4-4	Präcedens	NN	<unknown>	_	O	O	
+4-5	leicht	ADJD	leicht	_	O	O	
+4-6	üble	ADJA	übel	_	O	O	
+4-7	Folgen	NN	Folge	_	O	O	
+4-8	fUr	NN	<unknown>	_	O	O	
+4-9	die	ART	die	_	O	O	
+4-10	Zukunft	NN	Zukunft	_	O	O	
+4-11	haben	VAINF	haben	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Also hoffentlich auf Wiedersehen Ende dieses oder Anfang des folgenden Monats.
+5-1	Also	ADV	also	_	O	O	
+5-2	hoffentlich	ADV	hoffentlich	_	O	O	
+5-3	auf	APPR	auf	_	O	O	
+5-4	Wiedersehen	NN	Wiedersehen	_	O	O	
+5-5	Ende	NN	Ende	_	O	O	
+5-6	dieses	PDAT	dies	_	O	O	
+5-7	oder	KON	oder	_	O	O	
+5-8	Anfang	NN	Anfang	_	O	O	
+5-9	des	ART	die	_	O	O	
+5-10	folgenden	ADJA	folgend	_	O	O	
+5-11	Monats	NN	Monat	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Bei uns allen geht es gut, hoffentlich auch bei Ihnen.
+6-1	Bei	APPR	bei	_	O	O	
+6-2	uns	PRF	wir	_	O	O	
+6-3	allen	PIS	alle	_	O	O	
+6-4	geht	VVFIN	gehen	_	O	O	
+6-5	es	PPER	es	_	O	O	
+6-6	gut	ADJD	gut	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	hoffentlich	ADV	hoffentlich	_	O	O	
+6-9	auch	ADV	auch	_	O	O	
+6-10	bei	APPR	bei	_	O	O	
+6-11	Ihnen	PPER	Sie	_	O	O	
+6-12	.	$.	.	_	O	O	
+
+#id=7
+#text=Unter den Sienesen habe ich einige sehr angenehme Bekanntschaften gemacht, namentlich die des Archivdirectors Banchi und des conte Scipione Borghesi, die uns öfters des Abends besuchen und beide sehr liebenswürdige und unterrichtete Leute sind.
+7-1	Unter	APPR	unter	_	O	O	
+7-2	den	ART	die	_	O	O	
+7-3	Sienesen	NN	Sienese	_	O	O	
+7-4	habe	VAFIN	haben	_	O	O	
+7-5	ich	PPER	ich	_	O	O	
+7-6	einige	PIAT	einige	_	O	O	
+7-7	sehr	ADV	sehr	_	O	O	
+7-8	angenehme	ADJA	angenehm	_	O	O	
+7-9	Bekanntschaften	NN	Bekanntschaft	_	O	O	
+7-10	gemacht	VVPP	machen	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	namentlich	ADJD	namentlich	_	O	O	
+7-13	die	ART	die	_	O	O	
+7-14	des	ART	die	_	O	O	
+7-15	Archivdirectors	NN	<unknown>	_	O	O	
+7-16	Banchi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-17	und	KON	und	_	O	O	
+7-18	des	ART	die	_	O	O	
+7-19	conte	ADJA	<unknown>	_	O	O	
+7-20	Scipione	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-21	Borghesi	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-22	,	$,	,	_	O	O	
+7-23	die	PRELS	die	_	O	O	
+7-24	uns	PPER	wir	_	O	O	
+7-25	öfters	ADV	öfters	_	O	O	
+7-26	des	ART	die	_	O	O	
+7-27	Abends	NN	Abend	_	O	O	
+7-28	besuchen	VVINF	besuchen	_	O	O	
+7-29	und	KON	und	_	O	O	
+7-30	beide	PIS	beide	_	O	O	
+7-31	sehr	ADV	sehr	_	O	O	
+7-32	liebenswürdige	ADJA	liebenswürdig	_	O	O	
+7-33	und	KON	und	_	O	O	
+7-34	unterrichtete	ADJA	unterrichtet	_	O	O	
+7-35	Leute	NN	Leute	_	O	O	
+7-36	sind	VAFIN	sein	_	O	O	
+7-37	.	$.	.	_	O	O	
+
+#id=8
+#text=Dagegen habe ich mit Erstaunen wahrgenommen, daß unser gemeinsamer amico Piccolomini hier vollständig discredirt ist, weßhalb,habe ich trotz meiner Neugier noch nicht in Erfahrung bringen können.
+8-1	Dagegen	PAV	dagegen	_	O	O	
+8-2	habe	VAFIN	haben	_	O	O	
+8-3	ich	PPER	ich	_	O	O	
+8-4	mit	APPR	mit	_	O	O	
+8-5	Erstaunen	NN	Erstaunen	_	O	O	
+8-6	wahrgenommen	VVPP	wahrnehmen	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	daß	KOUS	dass	_	O	O	
+8-9	unser	PPOSAT	unser	_	O	O	
+8-10	gemeinsamer	ADJA	gemeinsam	_	O	O	
+8-11	amico	NE	<unknown>	_	O	O	
+8-12	Piccolomini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-13	hier	ADV	hier	_	O	O	
+8-14	vollständig	ADJD	vollständig	_	O	O	
+8-15	discredirt	ADJD	<unknown>	_	O	O	
+8-16	ist	VAFIN	sein	_	O	O	
+8-17	,	$,	,	_	O	O	
+8-18	weßhalb,habe	VVFIN	<unknown>	_	O	O	
+8-19	ich	PPER	ich	_	O	O	
+8-20	trotz	APPR	trotz	_	O	O	
+8-21	meiner	PPOSAT	mein	_	O	O	
+8-22	Neugier	NN	Neugier	_	O	O	
+8-23	noch	ADV	noch	_	O	O	
+8-24	nicht	PTKNEG	nicht	_	O	O	
+8-25	in	APPR	in	_	O	O	
+8-26	Erfahrung	NN	Erfahrung	_	O	O	
+8-27	bringen	VVINF	bringen	_	O	O	
+8-28	können	VMINF	können	_	O	O	
+8-29	.	$.	.	_	O	O	
+
+#id=9
+#text=Banchi wie Borghesi äußern sich darüber sehr allgemein "ha fatto cose infami" und erklären, nichts mit ihm zu thun haben zu wollen.
+9-1	Banchi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	wie	KOKOM	wie	_	O	O	
+9-3	Borghesi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-4	äußern	VVFIN	äußern	_	O	O	
+9-5	sich	PRF	sich	_	O	O	
+9-6	darüber	PAV	darüber	_	O	O	
+9-7	sehr	ADV	sehr	_	O	O	
+9-8	allgemein	ADJD	allgemein	_	O	O	
+9-9	"	$(	"	_	O	O	
+9-10	ha	ITJ	ha	_	O	O	
+9-11	fatto	NE	<unknown>	_	O	O	
+9-12	cose	ADJA	<unknown>	_	O	O	
+9-13	infami	NN	<unknown>	_	O	O	
+9-14	"	$(	"	_	O	O	
+9-15	und	KON	und	_	O	O	
+9-16	erklären	VVINF	erklären	_	O	O	
+9-17	,	$,	,	_	O	O	
+9-18	nichts	PIS	nichts	_	O	O	
+9-19	mit	APPR	mit	_	O	O	
+9-20	ihm	PPER	er	_	O	O	
+9-21	zu	APPR	zu	_	O	O	
+9-22	thun	NE	<unknown>	_	O	O	
+9-23	haben	VAFIN	haben	_	O	O	
+9-24	zu	PTKZU	zu	_	O	O	
+9-25	wollen	VMINF	wollen	_	O	O	
+9-26	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich fange an zu glauben, daß er seine Mitbürger bei irgendwelcher Geldspeculation über das Ohr gehauen;
+10-1	Ich	PPER	ich	_	O	O	
+10-2	fange	VVFIN	fangen	_	O	O	
+10-3	an	PTKVZ	an	_	O	O	
+10-4	zu	PTKZU	zu	_	O	O	
+10-5	glauben	VVINF	glauben	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	daß	KOUS	dass	_	O	O	
+10-8	er	PPER	er	_	O	O	
+10-9	seine	PPOSAT	sein	_	O	O	
+10-10	Mitbürger	NN	Mitbürger	_	O	O	
+10-11	bei	APPR	bei	_	O	O	
+10-12	irgendwelcher	PIS	irgendwelche	_	O	O	
+10-13	Geldspeculation	NN	<unknown>	_	O	O	
+10-14	über	APPR	über	_	O	O	
+10-15	das	ART	die	_	O	O	
+10-16	Ohr	NN	Ohr	_	O	O	
+10-17	gehauen	VVPP	hauen	_	O	O	
+10-18	;	$.	;	_	O	O	
+

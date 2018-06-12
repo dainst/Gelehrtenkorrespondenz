@@ -1,0 +1,222 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=141 Lepsius an ~~ Berlin, 12. Mai 1873 L g. 14/5 73 r.
+1-1	141	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	~~	NN	<unknown>	_	O	O	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	L	NN	L	_	O	O	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	14/5	CARD	14/5	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	73	CARD	73	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=16/5 Berlin d. 12. Mai 1873 Verehrter Freund Ihren Bericht über die Hömische Sitzung habe ich erhalten und an Curtius zum Abdruck gesendet.
+2-1	16/5	CARD	@card@	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-3	d.	ART	d.	_	O	O	
+2-4	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Verehrter	ADJA	verehrt	_	O	O	
+2-9	Freund	NN	Freund	_	O	O	
+2-10	Ihren	PPOSAT	ihr	_	O	O	
+2-11	Bericht	NN	Bericht	_	O	O	
+2-12	über	APPR	über	_	O	O	
+2-13	die	ART	die	_	O	O	
+2-14	Hömische	ADJA	<unknown>	_	O	O	
+2-15	Sitzung	NN	Sitzung	_	O	O	
+2-16	habe	VAFIN	haben	_	O	O	
+2-17	ich	PPER	ich	_	O	O	
+2-18	erhalten	VVPP	erhalten	_	O	O	
+2-19	und	KON	und	_	O	O	
+2-20	an	APPR	an	_	O	O	
+2-21	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-22	zum	APPRART	zu	_	O	O	
+2-23	Abdruck	NN	Abdruck	_	O	O	
+2-24	gesendet	VVPP	senden	_	O	O	
+2-25	.	$.	.	_	O	O	
+
+#id=3
+#text=Ebenso den Nachtrag.
+3-1	Ebenso	ADV	ebenso	_	O	O	
+3-2	den	ART	die	_	O	O	
+3-3	Nachtrag	NN	Nachtrag	_	O	O	
+3-4	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Photographie von Parthe~ habe ich sogleich an seinen Sohn gesendet.
+4-1	Die	ART	die	_	O	O	
+4-2	Photographie	NN	Photographie	_	O	O	
+4-3	von	APPR	von	_	O	O	
+4-4	Parthe~	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	habe	VAFIN	haben	_	O	O	
+4-6	ich	PPER	ich	_	O	O	
+4-7	sogleich	ADV	sogleich	_	O	O	
+4-8	an	APPR	an	_	O	O	
+4-9	seinen	PPOSAT	sein	_	O	O	
+4-10	Sohn	NN	Sohn	_	O	O	
+4-11	gesendet	VVPP	senden	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich finde sie in den Hauptzügen sehr gut.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	finde	VVFIN	finden	_	O	O	
+5-3	sie	PPER	sie	_	O	O	
+5-4	in	APPR	in	_	O	O	
+5-5	den	ART	die	_	O	O	
+5-6	Hauptzügen	NN	<unknown>	_	O	O	
+5-7	sehr	ADV	sehr	_	O	O	
+5-8	gut	ADJD	gut	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Von einem opus posthumum ist sicher nicht mehr zu verlangen.
+6-1	Von	APPR	von	_	O	O	
+6-2	einem	ART	eine	_	O	O	
+6-3	opus	ADJA	<unknown>	_	O	O	
+6-4	posthumum	NN	<unknown>	_	O	O	
+6-5	ist	VAFIN	sein	_	O	O	
+6-6	sicher	ADJD	sicher	_	O	O	
+6-7	nicht	PTKNEG	nicht	_	O	O	
+6-8	mehr	ADV	mehr	_	O	O	
+6-9	zu	PTKZU	zu	_	O	O	
+6-10	verlangen	VVINF	verlangen	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Nur die Wamme ,finde ich zu sehr obenhin behandelt; sie muß realistischer behandelt werden um keinen störenden Eindruck zu machen.
+7-1	Nur	ADV	nur	_	O	O	
+7-2	die	ART	die	_	O	O	
+7-3	Wamme	NN	<unknown>	_	O	O	
+7-4	,finde	VVFIN	<unknown>	_	O	O	
+7-5	ich	PPER	ich	_	O	O	
+7-6	zu	PTKA	zu	_	O	O	
+7-7	sehr	ADV	sehr	_	O	O	
+7-8	obenhin	ADV	obenhin	_	O	O	
+7-9	behandelt	VVPP	behandeln	_	O	O	
+7-10	;	$.	;	_	O	O	
+7-11	sie	PPER	sie	_	O	O	
+7-12	muß	VMFIN	müssen	_	O	O	
+7-13	realistischer	ADJD	realistisch	_	O	O	
+7-14	behandelt	VVPP	behandeln	_	O	O	
+7-15	werden	VAFIN	werden	_	O	O	
+7-16	um	APPR	um	_	O	O	
+7-17	keinen	PIAT	keine	_	O	O	
+7-18	störenden	ADJA	störend	_	O	O	
+7-19	Eindruck	NN	Eindruck	_	O	O	
+7-20	zu	PTKZU	zu	_	O	O	
+7-21	machen	VVINF	machen	_	O	O	
+7-22	.	$.	.	_	O	O	
+
+#id=8
+#text=Parthey iun.
+8-1	Parthey	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	iun	NE	<unknown>	_	O	O	
+8-3	.	$.	.	_	O	O	
+
+#id=9
+#text=ist schließlich auch zufrieden und wünscht nun allerdings die Ausfürhung in Marmor.
+9-1	ist	VAFIN	sein	_	O	O	
+9-2	schließlich	ADV	schließlich	_	O	O	
+9-3	auch	ADV	auch	_	O	O	
+9-4	zufrieden	ADJD	zufrieden	_	O	O	
+9-5	und	KON	und	_	O	O	
+9-6	wünscht	VVFIN	wünschen	_	O	O	
+9-7	nun	ADV	nun	_	O	O	
+9-8	allerdings	ADV	allerdings	_	O	O	
+9-9	die	ART	die	_	O	O	
+9-10	Ausfürhung	NN	<unknown>	_	O	O	
+9-11	in	APPR	in	_	O	O	
+9-12	Marmor	NN	Marmor	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=Er stellte nur anheim ob er nicht selbst die fernere Korrespondenz darüber übernehmen solle, was ich natürlich auch besser finde.
+10-1	Er	PPER	er	_	O	O	
+10-2	stellte	VVFIN	stellen	_	O	O	
+10-3	nur	ADV	nur	_	O	O	
+10-4	anheim	PTKVZ	anheim	_	O	O	
+10-5	ob	KOUS	ob	_	O	O	
+10-6	er	PPER	er	_	O	O	
+10-7	nicht	PTKNEG	nicht	_	O	O	
+10-8	selbst	ADV	selbst	_	O	O	
+10-9	die	ART	die	_	O	O	
+10-10	fernere	ADJA	fern	_	O	O	
+10-11	Korrespondenz	NN	Korrespondenz	_	O	O	
+10-12	darüber	PAV	darüber	_	O	O	
+10-13	übernehmen	VVINF	übernehmen	_	O	O	
+10-14	solle	VMFIN	sollen	_	O	O	
+10-15	,	$,	,	_	O	O	
+10-16	was	PRELS	was	_	O	O	
+10-17	ich	PPER	ich	_	O	O	
+10-18	natürlich	ADV	natürlich	_	O	O	
+10-19	auch	ADV	auch	_	O	O	
+10-20	besser	ADJD	gut	_	O	O	
+10-21	finde	VVFIN	finden	_	O	O	
+10-22	.	$.	.	_	O	O	
+
+#id=11
+#text=Er wird daher ohne Zweifel schon direkt an Herrn Schulze geschrieben haben unter Ihrer Adresse.
+11-1	Er	PPER	er	_	O	O	
+11-2	wird	VAFIN	werden	_	O	O	
+11-3	daher	PAV	daher	_	O	O	
+11-4	ohne	APPR	ohne	_	O	O	
+11-5	Zweifel	NN	Zweifel	_	O	O	
+11-6	schon	ADV	schon	_	O	O	
+11-7	direkt	ADJD	direkt	_	O	O	
+11-8	an	APPR	an	_	O	O	
+11-9	Herrn	NN	Herr	_	O	O	
+11-10	Schulze	NE	Schulze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-11	geschrieben	VVPP	schreiben	_	O	O	
+11-12	haben	VAFIN	haben	_	O	O	
+11-13	unter	APPR	unter	_	O	O	
+11-14	Ihrer	PPOSAT	ihr	_	O	O	
+11-15	Adresse	NN	Adresse	_	O	O	
+11-16	.	$.	.	_	O	O	
+
+#id=12
+#text=Herzlich der Ihrige R Lepsius Außer Kaibel haben sich noch zwei Aspiranten gemeldet, Dr.
+12-1	Herzlich	ADJD	herzlich	_	O	O	
+12-2	der	ART	die	_	O	O	
+12-3	Ihrige	PPOSAT	ihrige	_	O	O	
+12-4	R	NN	R	_	O	O	
+12-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-6	Außer	APPR	außer	_	O	O	
+12-7	Kaibel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-8	haben	VAFIN	haben	_	O	O	
+12-9	sich	PRF	sich	_	O	O	
+12-10	noch	ADV	noch	_	O	O	
+12-11	zwei	CARD	zwei	_	O	O	
+12-12	Aspiranten	NN	Aspirant	_	O	O	
+12-13	gemeldet	VVPP	melden	_	O	O	
+12-14	,	$,	,	_	O	O	
+12-15	Dr.	NN	Dr.	_	O	O	
+
+#id=13
+#text=Weil und Dr.
+13-1	Weil	KOUS	weil	_	O	O	
+13-2	und	KON	und	_	O	O	
+13-3	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=14
+#text=Robert.
+14-1	Robert	NE	Robert	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	.	$.	.	_	O	O	
+
+#id=15
+#text=Kaibel hat die Empfeh-
+15-1	Kaibel	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-2	hat	VAFIN	haben	_	O	O	
+15-3	die	ART	die	_	O	O	
+15-4	Empfeh-	TRUNC	<unknown>	_	O	O	
+

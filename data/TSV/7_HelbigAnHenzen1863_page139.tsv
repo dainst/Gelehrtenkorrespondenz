@@ -1,0 +1,157 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=297 4 Helbig an Henzen Rom, 19. Juli 1870 Gestern am Tage der Infallibilitätserklärung regnete es beinahe ununterbrochen.
+1-1	297	CARD	@card@	_	O	O	
+1-2	4	CARD	4	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Gestern	NN	Gestern	_	O	O	
+1-13	am	APPRART	an	_	O	O	
+1-14	Tage	NN	Tag	_	O	O	
+1-15	der	ART	die	_	O	O	
+1-16	Infallibilitätserklärung	NN	<unknown>	_	O	O	
+1-17	regnete	VVFIN	regnen	_	O	O	
+1-18	es	PPER	es	_	O	O	
+1-19	beinahe	ADV	beinahe	_	O	O	
+1-20	ununterbrochen	ADJD	ununterbrochen	_	O	O	
+1-21	.	$.	.	_	O	O	
+
+#id=2
+#text=Als der Pabst das Dogma Proc.lamirte, grollte der Donner dazwischen - ein schlimmes Omen.
+2-1	Als	KOUS	als	_	O	O	
+2-2	der	ART	die	_	O	O	
+2-3	Pabst	NE	Pabst	_	O	O	
+2-4	das	ART	die	_	O	O	
+2-5	Dogma	NN	Dogma	_	O	O	
+2-6	Proc.lamirte	NN	<unknown>	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	grollte	VVFIN	grollen	_	O	O	
+2-9	der	ART	die	_	O	O	
+2-10	Donner	NN	Donner	_	O	O	
+2-11	dazwischen	PAV	dazwischen	_	O	O	
+2-12	-	$(	-	_	O	O	
+2-13	ein	ART	eine	_	O	O	
+2-14	schlimmes	ADJA	schlimm	_	O	O	
+2-15	Omen	NN	Omen	_	O	O	
+2-16	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Kirche war sehr leer.
+3-1	Die	ART	die	_	O	O	
+3-2	Kirche	NN	Kirche	_	O	O	
+3-3	war	VAFIN	sein	_	O	O	
+3-4	sehr	ADV	sehr	_	O	O	
+3-5	leer	ADJD	leer	_	O	O	
+3-6	.	$.	.	_	O	O	
+
+#id=4
+#text=Vom diplomatischen Corps waren nur die Großmächte Monaco und Chile vertreten.
+4-1	Vom	APPRART	von	_	O	O	
+4-2	diplomatischen	ADJA	diplomatisch	_	O	O	
+4-3	Corps	NN	<unknown>	_	O	O	
+4-4	waren	VAFIN	sein	_	O	O	
+4-5	nur	ADV	nur	_	O	O	
+4-6	die	ART	die	_	O	O	
+4-7	Großmächte	NN	Großmacht	_	O	O	
+4-8	Monaco	NE	Monaco	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-9	und	KON	und	_	O	O	
+4-10	Chile	NE	Chile	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-11	vertreten	VVPP	vertreten	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Nur zwei Bischöffe, ein Neapolitaner und ein Amerikaner, habe in der öffentliche Sitzung das non placet abgegeben.
+5-1	Nur	ADV	nur	_	O	O	
+5-2	zwei	CARD	zwei	_	O	O	
+5-3	Bischöffe	NN	<unknown>	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	ein	ART	eine	_	O	O	
+5-6	Neapolitaner	NN	Neapolitaner	_	O	O	
+5-7	und	KON	und	_	O	O	
+5-8	ein	ART	eine	_	O	O	
+5-9	Amerikaner	NN	Amerikaner	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	habe	VAFIN	haben	_	O	O	
+5-12	in	APPR	in	_	O	O	
+5-13	der	ART	die	_	O	O	
+5-14	öffentliche	ADJA	öffentlich	_	O	O	
+5-15	Sitzung	NN	Sitzung	_	O	O	
+5-16	das	ART	die	_	O	O	
+5-17	non	NE	non	_	O	O	
+5-18	placet	NE	<unknown>	_	O	O	
+5-19	abgegeben	VVPP	abgeben	_	O	O	
+5-20	.	$.	.	_	O	O	
+
+#id=6
+#text=Alle anderen von der Opposition reisten den 17.
+6-1	Alle	PIAT	alle	_	O	O	
+6-2	anderen	PIS	andere	_	O	O	
+6-3	von	APPR	von	_	O	O	
+6-4	der	ART	die	_	O	O	
+6-5	Opposition	NN	Opposition	_	O	O	
+6-6	reisten	VVFIN	reisen	_	O	O	
+6-7	den	ART	die	_	O	O	
+6-8	17	CARD	17	_	O	O	
+6-9	.	$.	.	_	O	O	
+
+#id=7
+#text=Abends ab.
+7-1	Abends	NN	Abend	_	O	O	
+7-2	ab	PTKVZ	ab	_	O	O	
+7-3	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich war am Bahnhofe.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	war	VAFIN	sein	_	O	O	
+8-3	am	APPRART	an	_	O	O	
+8-4	Bahnhofe	NN	Bahnhof	_	O	O	
+8-5	.	$.	.	_	O	O	
+
+#id=9
+#text=Es war ein interessanter Anblick.
+9-1	Es	PPER	es	_	O	O	
+9-2	war	VAFIN	sein	_	O	O	
+9-3	ein	ART	eine	_	O	O	
+9-4	interessanter	ADJA	interessant	_	O	O	
+9-5	Anblick	NN	Anblick	_	O	O	
+9-6	.	$.	.	_	O	O	
+
+#id=10
+#text=Da man an die Möglichkeit dachte, die Curie möchte versuchen, sie mit Gewalt zurückzuhalten, hatten sich sammtliche Gesandte zu ihrem Schutze am Bahnhofe eingefunden.
+10-1	Da	KOUS	da	_	O	O	
+10-2	man	PIS	man	_	O	O	
+10-3	an	APPR	an	_	O	O	
+10-4	die	ART	die	_	O	O	
+10-5	Möglichkeit	NN	Möglichkeit	_	O	O	
+10-6	dachte	VVFIN	denken	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	die	ART	die	_	O	O	
+10-9	Curie	NN	<unknown>	_	O	O	
+10-10	möchte	VMFIN	mögen	_	O	O	
+10-11	versuchen	VVINF	versuchen	_	O	O	
+10-12	,	$,	,	_	O	O	
+10-13	sie	PPER	sie	_	O	O	
+10-14	mit	APPR	mit	_	O	O	
+10-15	Gewalt	NN	Gewalt	_	O	O	
+10-16	zurückzuhalten	VVIZU	zurückhalten	_	O	O	
+10-17	,	$,	,	_	O	O	
+10-18	hatten	VAFIN	haben	_	O	O	
+10-19	sich	PRF	sich	_	O	O	
+10-20	sammtliche	ADJA	<unknown>	_	O	O	
+10-21	Gesandte	NN	Gesandte	_	O	O	
+10-22	zu	APPR	zu	_	O	O	
+10-23	ihrem	PPOSAT	ihr	_	O	O	
+10-24	Schutze	NN	Schutz	_	O	O	
+10-25	am	APPRART	an	_	O	O	
+10-26	Bahnhofe	NN	Bahnhof	_	O	O	
+10-27	eingefunden	VVPP	einfinden	_	O	O	
+10-28	.	$.	.	_	O	O	
+

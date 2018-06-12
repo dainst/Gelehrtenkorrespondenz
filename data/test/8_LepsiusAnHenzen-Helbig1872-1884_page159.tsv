@@ -1,0 +1,214 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=224 Verehrter Freund Lepsius an Henzen Berlin, 9. Mai 1874 g. 13/5 74 Berlin d. 9. Mai 1874 Es ist jetzt die Genehmigung des Staats Sekretärs von Bülow eingegange.~ daß der Reservefonds, c. 7000 r , bei der hiesigen Legationskasse deponirt und fortan von dieser verwaltet werde.
+1-1	224	CARD	@card@	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	13/5	CARD	13/5	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-17	d.	ART	d.	_	O	O	
+1-18	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Es	NN	Es	_	O	O	
+1-23	ist	VAFIN	sein	_	O	O	
+1-24	jetzt	ADV	jetzt	_	O	O	
+1-25	die	ART	die	_	O	O	
+1-26	Genehmigung	NN	Genehmigung	_	O	O	
+1-27	des	ART	die	_	O	O	
+1-28	Staats	NN	Staat	_	O	O	
+1-29	Sekretärs	NN	Sekretär	_	O	O	
+1-30	von	APPR	von	_	O	O	
+1-31	Bülow	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-32	eingegange.~	ADJA	<unknown>	_	O	O	
+1-33	daß	KOUS	dass	_	O	O	
+1-34	der	ART	die	_	O	O	
+1-35	Reservefonds	NN	Reservefonds	_	O	O	
+1-36	,	$,	,	_	O	O	
+1-37	c.	ADJA	<unknown>	_	O	O	
+1-38	7000	CARD	7000	_	O	O	
+1-39	r	NE	r	_	O	O	
+1-40	,	$,	,	_	O	O	
+1-41	bei	APPR	bei	_	O	O	
+1-42	der	ART	die	_	O	O	
+1-43	hiesigen	ADJA	hiesig	_	O	O	
+1-44	Legationskasse	NN	<unknown>	_	O	O	
+1-45	deponirt	NN	<unknown>	_	O	O	
+1-46	und	KON	und	_	O	O	
+1-47	fortan	ADV	fortan	_	O	O	
+1-48	von	APPR	von	_	O	O	
+1-49	dieser	PDAT	dies	_	O	O	
+1-50	verwaltet	VVPP	verwalten	_	O	O	
+1-51	werde	VAFIN	werden	_	O	O	
+1-52	.	$.	.	_	O	O	
+
+#id=2
+#text=Senden Sie also den Bestand, mit Bezug auf dieses Reskript des Reichskanzlers (in Vertretung v. Bülow) vom 5. n Mai, direkt an die Legationskasse und benachrichtigen Sie uns gleichzeitig (d. h. in meiner Abwesenheit Mommsen) von der Absendung.
+2-1	Senden	VVFIN	senden	_	O	O	
+2-2	Sie	PPER	Sie	_	O	O	
+2-3	also	ADV	also	_	O	O	
+2-4	den	ART	die	_	O	O	
+2-5	Bestand	NN	Bestand	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	mit	APPR	mit	_	O	O	
+2-8	Bezug	NN	Bezug	_	O	O	
+2-9	auf	APPR	auf	_	O	O	
+2-10	dieses	PDAT	dies	_	O	O	
+2-11	Reskript	NN	<unknown>	_	O	O	
+2-12	des	ART	die	_	O	O	
+2-13	Reichskanzlers	NN	Reichskanzler	_	O	O	
+2-14	(	$(	(	_	O	O	
+2-15	in	APPR	in	_	O	O	
+2-16	Vertretung	NN	Vertretung	_	O	O	
+2-17	v.	APPR	von	_	O	O	
+2-18	Bülow	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-19	)	$(	)	_	O	O	
+2-20	vom	APPRART	von	_	O	O	
+2-21	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-22	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-23	n	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-24	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-25	,	$,	,	_	O	O	
+2-26	direkt	ADJD	direkt	_	O	O	
+2-27	an	APPR	an	_	O	O	
+2-28	die	ART	die	_	O	O	
+2-29	Legationskasse	NN	<unknown>	_	O	O	
+2-30	und	KON	und	_	O	O	
+2-31	benachrichtigen	VVFIN	benachrichtigen	_	O	O	
+2-32	Sie	PPER	Sie	_	O	O	
+2-33	uns	PRF	wir	_	O	O	
+2-34	gleichzeitig	ADJD	gleichzeitig	_	O	O	
+2-35	(	$(	(	_	O	O	
+2-36	d.	PDS	d.	_	O	O	
+2-37	h.	VVFIN	heißen	_	O	O	
+2-38	in	APPR	in	_	O	O	
+2-39	meiner	PPOSAT	mein	_	O	O	
+2-40	Abwesenheit	NN	Abwesenheit	_	O	O	
+2-41	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-42	)	$(	)	_	O	O	
+2-43	von	APPR	von	_	O	O	
+2-44	der	ART	die	_	O	O	
+2-45	Absendung	NN	Absendung	_	O	O	
+2-46	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich werde nämlich morgen auf 4 Wochen eine kleine bibliothekarische Rundreise machen, und sie bis Wien und Paris ausdehnen.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	werde	VAFIN	werden	_	O	O	
+3-3	nämlich	ADV	nämlich	_	O	O	
+3-4	morgen	ADV	morgen	_	O	O	
+3-5	auf	APPR	auf	_	O	O	
+3-6	4	CARD	4	_	O	O	
+3-7	Wochen	NN	Woche	_	O	O	
+3-8	eine	ART	eine	_	O	O	
+3-9	kleine	ADJA	klein	_	O	O	
+3-10	bibliothekarische	ADJA	<unknown>	_	O	O	
+3-11	Rundreise	NN	Rundreise	_	O	O	
+3-12	machen	VVINF	machen	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	und	KON	und	_	O	O	
+3-15	sie	PPER	sie	_	O	O	
+3-16	bis	APPR	bis	_	O	O	
+3-17	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-18	und	KON	und	_	O	O	
+3-19	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-20	ausdehnen	VVFIN	ausdehnen	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Inzwischen werden wohl die Statuen eingehen und die auswärtigen Mitglieder der Central Direktion gewählt werden.
+4-1	Inzwischen	ADV	inzwischen	_	O	O	
+4-2	werden	VAFIN	werden	_	O	O	
+4-3	wohl	ADV	wohl	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	Statuen	NN	Statue	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-6	eingehen	VVINF	eingehen	_	O	O	
+4-7	und	KON	und	_	O	O	
+4-8	die	ART	die	_	O	O	
+4-9	auswärtigen	ADJA	auswärtig	_	O	O	
+4-10	Mitglieder	NN	Mitglied	_	O	O	
+4-11	der	ART	die	_	O	O	
+4-12	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-13	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+4-14	gewählt	VVPP	wählen	_	O	O	
+4-15	werden	VAINF	werden	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich denke man wird wohl Brunn, Kekule, Michaelis und Overbeck wählen.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	denke	VVFIN	denken	_	O	O	
+5-3	man	PIS	man	_	O	O	
+5-4	wird	VAFIN	werden	_	O	O	
+5-5	wohl	ADV	wohl	_	O	O	
+5-6	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-7	,	$,	,	_	O	O	
+5-8	Kekule	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-9	,	$,	,	_	O	O	
+5-10	Michaelis	NE	Michaelis	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-11	und	KON	und	_	O	O	
+5-12	Overbeck	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-13	wählen	VVFIN	wählen	_	O	O	
+5-14	.	$.	.	_	O	O	
+
+#id=6
+#text=Kalte Luftströme halten bei uns noch den ganzen Frühlingsdrang zurück; mi t den gestrengen He:;-rn werden sie wohl weichen.
+6-1	Kalte	ADJA	kalt	_	O	O	
+6-2	Luftströme	NN	Luftstrom	_	O	O	
+6-3	halten	VVFIN	halten	_	O	O	
+6-4	bei	APPR	bei	_	O	O	
+6-5	uns	PPER	wir	_	O	O	
+6-6	noch	ADV	noch	_	O	O	
+6-7	den	ART	die	_	O	O	
+6-8	ganzen	ADJA	ganz	_	O	O	
+6-9	Frühlingsdrang	NN	<unknown>	_	O	O	
+6-10	zurück	PTKVZ	zurück	_	O	O	
+6-11	;	$.	;	_	O	O	
+6-12	mi	ADJA	<unknown>	_	O	O	
+6-13	t	NN	t	_	O	O	
+6-14	den	ART	die	_	O	O	
+6-15	gestrengen	ADJA	<unknown>	_	O	O	
+6-16	He	NE	He	_	O	O	
+6-17	:	$.	:	_	O	O	
+6-18	;	$.	;	_	O	O	
+6-19	-rn	ADJD	<unknown>	_	O	O	
+6-20	werden	VAFIN	werden	_	O	O	
+6-21	sie	PPER	sie	_	O	O	
+6-22	wohl	ADV	wohl	_	O	O	
+6-23	weichen	VVINF	weichen	_	O	O	
+6-24	.	$.	.	_	O	O	
+
+#id=7
+#text=An Helbig habe ich schon am 4. n geschrieben.
+7-1	An	APPR	an	_	O	O	
+7-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-3	habe	VAFIN	haben	_	O	O	
+7-4	ich	PPER	ich	_	O	O	
+7-5	schon	ADV	schon	_	O	O	
+7-6	am	APPRART	an	_	O	O	
+7-7	4	CARD	4	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-9	n	ADJD	<unknown>	_	O	O	
+7-10	geschrieben	VVPP	schreiben	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Mitherzlichem Gruß Ihr R Lepsius
+8-1	Mitherzlichem	ADJA	<unknown>	_	O	O	
+8-2	Gruß	NN	Gruß	_	O	O	
+8-3	Ihr	PPOSAT	ihr	_	O	O	
+8-4	R	NN	R	_	O	O	
+8-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

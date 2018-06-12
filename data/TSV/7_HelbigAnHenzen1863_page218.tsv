@@ -1,0 +1,221 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=3 tlelbig an Henzen Siena, 5. August 1874 diese Verhältnisse enden werden.
+1-1	3	CARD	3	_	O	O	
+1-2	tlelbig	ADJD	<unknown>	_	O	O	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	diese	PDAT	dies	_	O	O	
+1-12	Verhältnisse	NN	Verhältnis	_	O	O	
+1-13	enden	VVINF	enden	_	O	O	
+1-14	werden	VAFIN	werden	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=Nach Chiusi gehe ich dieser Tage.
+2-1	Nach	APPR	nach	_	O	O	
+2-2	Chiusi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-3	gehe	VVFIN	gehen	_	O	O	
+2-4	ich	PPER	ich	_	O	O	
+2-5	dieser	PDAT	dies	_	O	O	
+2-6	Tage	NN	Tag	_	O	O	
+2-7	.	$.	.	_	O	O	
+
+#id=3
+#text=Michaelis verspricht, seinen Text spätestens Ende August abzuschicken.
+3-1	Michaelis	NE	Michaelis	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	verspricht	VVFIN	versprechen	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	seinen	PPOSAT	sein	_	O	O	
+3-5	Text	NN	Text	_	O	O	
+3-6	spätestens	ADV	spätestens	_	O	O	
+3-7	Ende	NN	Ende	_	O	O	
+3-8	August	NN	August	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-9	abzuschicken	VVIZU	abschicken	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Die von Schöne zurückgewiesene Cista denke ich dem sommo Benndorf oder, wenn dieser sie für falsch hält, einem der Stipendiaten zuzuweisen.
+4-1	Die	ART	die	_	O	O	
+4-2	von	APPR	von	_	O	O	
+4-3	Schöne	NN	Schöne	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-4	zurückgewiesene	ADJA	zurückgewiesen	_	O	O	
+4-5	Cista	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-6	denke	VVFIN	denken	_	O	O	
+4-7	ich	PPER	ich	_	O	O	
+4-8	dem	ART	die	_	O	O	
+4-9	sommo	NE	<unknown>	_	O	O	
+4-10	Benndorf	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-11	oder	KON	oder	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	wenn	KOUS	wenn	_	O	O	
+4-14	dieser	PDS	diese	_	O	O	
+4-15	sie	PPER	sie	_	O	O	
+4-16	für	APPR	für	_	O	O	
+4-17	falsch	ADJD	falsch	_	O	O	
+4-18	hält	VVFIN	halten	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	einem	PIS	eine	_	O	O	
+4-21	der	ART	die	_	O	O	
+4-22	Stipendiaten	NN	Stipendiat	_	O	O	
+4-23	zuzuweisen	VVIZU	zuweisen	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=Wie steht es mit Flasch ?
+5-1	Wie	KOUS	wie	_	O	O	
+5-2	steht	VVFIN	stehen	_	O	O	
+5-3	es	PPER	es	_	O	O	
+5-4	mit	APPR	mit	_	O	O	
+5-5	Flasch	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-6	?	$.	?	_	O	O	
+
+#id=6
+#text=Matz schreibt mir, er werde erst, Ende October nach Berlin zurückkehren, was wegen meines Cornetaner Artikels sehr verdrießlich ist.
+6-1	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	schreibt	VVFIN	schreiben	_	O	O	
+6-3	mir	PPER	ich	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	er	PPER	er	_	O	O	
+6-6	werde	VAFIN	werden	_	O	O	
+6-7	erst	ADV	erst	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	Ende	NN	Ende	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-10	October	VVFIN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-11	nach	APPR	nach	_	O	O	
+6-12	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-13	zurückkehren	VVINF	zurückkehren	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	was	PRELS	was	_	O	O	
+6-16	wegen	APPR	wegen	_	O	O	
+6-17	meines	PPOSAT	mein	_	O	O	
+6-18	Cornetaner	NN	<unknown>	_	O	O	
+6-19	Artikels	NN	Artikel	_	O	O	
+6-20	sehr	ADV	sehr	_	O	O	
+6-21	verdrießlich	ADJD	verdrießlich	_	O	O	
+6-22	ist	VAFIN	sein	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Um die Sache möglichst zu beschleunigen, werde ich doch noch im September nach Rom kommen und ihn druckfähig machen, damit er in meiner Abwesenheit wenigstens gesetzt werden kann.
+7-1	Um	KOUI	um	_	O	O	
+7-2	die	ART	die	_	O	O	
+7-3	Sache	NN	Sache	_	O	O	
+7-4	möglichst	ADV	möglichst	_	O	O	
+7-5	zu	PTKZU	zu	_	O	O	
+7-6	beschleunigen	VVINF	beschleunigen	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	werde	VAFIN	werden	_	O	O	
+7-9	ich	PPER	ich	_	O	O	
+7-10	doch	ADV	doch	_	O	O	
+7-11	noch	ADV	noch	_	O	O	
+7-12	im	APPRART	in	_	O	O	
+7-13	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-14	nach	APPR	nach	_	O	O	
+7-15	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-16	kommen	VVFIN	kommen	_	O	O	
+7-17	und	KON	und	_	O	O	
+7-18	ihn	PPER	er	_	O	O	
+7-19	druckfähig	ADJD	druckfähig	_	O	O	
+7-20	machen	VVINF	machen	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	damit	KOUS	damit	_	O	O	
+7-23	er	PPER	er	_	O	O	
+7-24	in	APPR	in	_	O	O	
+7-25	meiner	PPOSAT	mein	_	O	O	
+7-26	Abwesenheit	NN	Abwesenheit	_	O	O	
+7-27	wenigstens	ADV	wenigstens	_	O	O	
+7-28	gesetzt	VVPP	setzen	_	O	O	
+7-29	werden	VAINF	werden	_	O	O	
+7-30	kann	VMFIN	können	_	O	O	
+7-31	.	$.	.	_	O	O	
+
+#id=8
+#text=Bei uns geht es gut.
+8-1	Bei	APPR	bei	_	O	O	
+8-2	uns	PPER	wir	_	O	O	
+8-3	geht	VVFIN	gehen	_	O	O	
+8-4	es	PPER	es	_	O	O	
+8-5	gut	ADJD	gut	_	O	O	
+8-6	.	$.	.	_	O	O	
+
+#id=9
+#text=Hoffentlich auch bei Ihnen.
+9-1	Hoffentlich	ADV	hoffentlich	_	O	O	
+9-2	auch	ADV	auch	_	O	O	
+9-3	bei	APPR	bei	_	O	O	
+9-4	Ihnen	PPER	Sie	_	O	O	
+9-5	.	$.	.	_	O	O	
+
+#id=10
+#text=Wir haben jeden Tag Regen und Gewitter.
+10-1	Wir	PPER	wir	_	O	O	
+10-2	haben	VAFIN	haben	_	O	O	
+10-3	jeden	PIAT	jede	_	O	O	
+10-4	Tag	NN	Tag	_	O	O	
+10-5	Regen	NN	Regen	_	O	O	
+10-6	und	KON	und	_	O	O	
+10-7	Gewitter	NN	Gewitter	_	O	O	
+10-8	.	$.	.	_	O	O	
+
+#id=11
+#text=In Volterra wurde ich sogar bei Besichtigung der Ausgrabungen von einer Art von Wolkenbruch überrascht und naß bis auf die Haut.
+11-1	In	APPR	in	_	O	O	
+11-2	Volterra	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-3	wurde	VAFIN	werden	_	O	O	
+11-4	ich	PPER	ich	_	O	O	
+11-5	sogar	ADV	sogar	_	O	O	
+11-6	bei	APPR	bei	_	O	O	
+11-7	Besichtigung	NN	Besichtigung	_	O	O	
+11-8	der	ART	die	_	O	O	
+11-9	Ausgrabungen	NN	Ausgrabung	_	O	O	
+11-10	von	APPR	von	_	O	O	
+11-11	einer	ART	eine	_	O	O	
+11-12	Art	NN	Art	_	O	O	
+11-13	von	APPR	von	_	O	O	
+11-14	Wolkenbruch	NN	Wolkenbruch	_	O	O	
+11-15	überrascht	ADJD	überrascht	_	O	O	
+11-16	und	KON	und	_	O	O	
+11-17	naß	ADJD	nass	_	O	O	
+11-18	bis	KON	bis	_	O	O	
+11-19	auf	APPR	auf	_	O	O	
+11-20	die	ART	die	_	O	O	
+11-21	Haut	NN	Haut	_	O	O	
+11-22	.	$.	.	_	O	O	
+
+#id=12
+#text=Mehr kann man bei dieser Jahreszeit nicht verlangen.
+12-1	Mehr	ADV	mehr	_	O	O	
+12-2	kann	VMFIN	können	_	O	O	
+12-3	man	PIS	man	_	O	O	
+12-4	bei	APPR	bei	_	O	O	
+12-5	dieser	PDAT	dies	_	O	O	
+12-6	Jahreszeit	NN	Jahreszeit	_	O	O	
+12-7	nicht	PTKNEG	nicht	_	O	O	
+12-8	verlangen	VVINF	verlangen	_	O	O	
+12-9	.	$.	.	_	O	O	
+
+#id=13
+#text=Herzliche Grüße von meiner Frau und Lili an Sie und Fräulein Kopf Ihr ergebener Helbig
+13-1	Herzliche	ADJA	herzlich	_	O	O	
+13-2	Grüße	NN	Gruß	_	O	O	
+13-3	von	APPR	von	_	O	O	
+13-4	meiner	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-5	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+13-6	und	KON	und	_	O	O	
+13-7	Lili	NE	Lili	_	O	O	
+13-8	an	APPR	an	_	O	O	
+13-9	Sie	PPER	Sie	_	O	O	
+13-10	und	KON	und	_	O	O	
+13-11	Fräulein	NN	Fräulein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-12	Kopf	NN	Kopf	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+13-13	Ihr	PPOSAT	ihr	_	O	O	
+13-14	ergebener	ADJA	ergeben	_	O	O	
+13-15	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

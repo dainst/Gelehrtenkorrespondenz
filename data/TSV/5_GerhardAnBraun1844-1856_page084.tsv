@@ -1,0 +1,185 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=- 2 - Gerhard an Braun Berlin, 13. 11. 1844 1.
+1-1	-	$(	-	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	-	$(	-	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	11	CARD	11	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1	CARD	1	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=Die römische Direction druckt Tom.
+2-1	Die	ART	die	_	O	O	
+2-2	römische	ADJA	römisch	_	O	O	
+2-3	Direction	NN	<unknown>	_	O	O	
+2-4	druckt	VVFIN	drucken	_	O	O	
+2-5	Tom	NE	Tom	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=XVI der Annalen samt allen dessen Abbildungen ( für 1844) 2.
+3-1	XVI	ADJD	<unknown>	_	O	O	
+3-2	der	ART	die	_	O	O	
+3-3	Annalen	NN	Annalen	_	O	O	
+3-4	samt	APPR	samt	_	O	O	
+3-5	allen	PIAT	alle	_	O	O	
+3-6	dessen	PDAT	die	_	O	O	
+3-7	Abbildungen	NN	Abbildung	_	O	O	
+3-8	(	$(	(	_	O	O	
+3-9	für	APPR	für	_	O	O	
+3-10	1844	CARD	1844	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-11	)	$(	)	_	O	O	
+3-12	2	CARD	2	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Das Bullettin wird fortwährend in Rom gedruckt.
+4-1	Das	ART	die	_	O	O	
+4-2	Bullettin	NN	<unknown>	_	O	O	
+4-3	wird	VAFIN	werden	_	O	O	
+4-4	fortwährend	ADJD	fortwährend	_	O	O	
+4-5	in	APPR	in	_	O	O	
+4-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-7	gedruckt	VVPP	drucken	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=3.
+5-1	3	CARD	3	_	O	O	
+5-2	.	$.	.	_	O	O	
+
+#id=6
+#text=Das Comite francais übernimmt Tom XVII (184S) der Annalen.
+6-1	Das	ART	die	_	O	O	
+6-2	Comite	NN	<unknown>	_	O	O	
+6-3	francais	NE	Francais	_	O	O	
+6-4	übernimmt	VVFIN	übernehmen	_	O	O	
+6-5	Tom	NE	Tom	_	O	O	
+6-6	XVII	NE	<unknown>	_	O	O	
+6-7	(	$(	(	_	O	O	
+6-8	184S	CARD	<unknown>	_	O	O	
+6-9	)	$(	)	_	O	O	
+6-10	der	ART	die	_	O	O	
+6-11	Annalen	NN	Annalen	_	O	O	
+6-12	.	$.	.	_	O	O	
+
+#id=7
+#text=4.
+7-1	4	CARD	4	_	O	O	
+7-2	.	$.	.	_	O	O	
+
+#id=8
+#text=Dasselbe nimmt Aufsätze und Zeichnungen ais Rom und Deutschland gern dazu an.
+8-1	Dasselbe	PDS	dieselbe	_	O	O	
+8-2	nimmt	VVFIN	nehmen	_	O	O	
+8-3	Aufsätze	NN	Aufsatz	_	O	O	
+8-4	und	KON	und	_	O	O	
+8-5	Zeichnungen	NN	Zeichnung	_	O	O	
+8-6	ais	VVFIN	<unknown>	_	O	O	
+8-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-8	und	KON	und	_	O	O	
+8-9	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-10	gern	ADV	gern	_	O	O	
+8-11	dazu	PAV	dazu	_	O	O	
+8-12	an	PTKVZ	an	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=, 5.
+9-1	,	$,	,	_	O	O	
+9-2	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+9-3	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=10
+#text=Die röm.
+10-1	Die	ART	die	_	O	O	
+10-2	röm.	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+
+#id=11
+#text=Direction verleit dem Comite für die ( in Paris stehenden) 12 Abbildungen von 1845 liches zifferrn.
+11-1	Direction	NN	<unknown>	_	O	O	
+11-2	verleit	VVFIN	<unknown>	_	O	O	
+11-3	dem	ART	die	_	O	O	
+11-4	Comite	NN	<unknown>	_	O	O	
+11-5	für	APPR	für	_	O	O	
+11-6	die	ART	die	_	O	O	
+11-7	(	$(	(	_	O	O	
+11-8	in	APPR	in	_	O	O	
+11-9	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-10	stehenden	ADJA	stehend	_	O	O	
+11-11	)	$(	)	_	O	O	
+11-12	12	CARD	12	_	O	O	
+11-13	Abbildungen	NN	Abbildung	_	O	O	
+11-14	von	APPR	von	_	O	O	
+11-15	1845	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+11-16	liches	ADJA	<unknown>	_	O	O	
+11-17	zifferrn	NN	<unknown>	_	O	O	
+11-18	.	$.	.	_	O	O	
+
+#id=12
+#text=6.
+12-1	6	CARD	6	_	O	O	
+12-2	.	$.	.	_	O	O	
+
+#id=13
+#text=Im Format wird nichts geändert.
+13-1	Im	APPRART	in	_	O	O	
+13-2	Format	NN	Format	_	O	O	
+13-3	wird	VAFIN	werden	_	O	O	
+13-4	nichts	PIS	nichts	_	O	O	
+13-5	geändert	VVPP	ändern	_	O	O	
+13-6	.	$.	.	_	O	O	
+
+#id=14
+#text=Sobald hierauf Antwort da ist will man den Druck anfangen; lassen Sie also diese Antwort über seine Pariser KOllegen zugehen.
+14-1	Sobald	KOUS	sobald	_	O	O	
+14-2	hierauf	PAV	hierauf	_	O	O	
+14-3	Antwort	NN	Antwort	_	O	O	
+14-4	da	ADV	da	_	O	O	
+14-5	ist	VAFIN	sein	_	O	O	
+14-6	will	VMFIN	wollen	_	O	O	
+14-7	man	PIS	man	_	O	O	
+14-8	den	ART	die	_	O	O	
+14-9	Druck	NN	Druck	_	O	O	
+14-10	anfangen	VVINF	anfangen	_	O	O	
+14-11	;	$.	;	_	O	O	
+14-12	lassen	VVFIN	lassen	_	O	O	
+14-13	Sie	PPER	Sie	_	O	O	
+14-14	also	ADV	also	_	O	O	
+14-15	diese	PDAT	dies	_	O	O	
+14-16	Antwort	NN	Antwort	_	O	O	
+14-17	über	APPR	über	_	O	O	
+14-18	seine	PPOSAT	sein	_	O	O	
+14-19	Pariser	NN	Pariser	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+14-20	KOllegen	NN	Kollege	_	O	O	
+14-21	zugehen	VVINF	zugehen	_	O	O	
+14-22	.	$.	.	_	O	O	
+
+#id=15
+#text=Bei uns geht es leidlich!
+15-1	Bei	APPR	bei	_	O	O	
+15-2	uns	PPER	wir	_	O	O	
+15-3	geht	VVFIN	gehen	_	O	O	
+15-4	es	PPER	es	_	O	O	
+15-5	leidlich	ADJD	leidlich	_	O	O	
+15-6	!	$.	!	_	O	O	
+
+#id=16
+#text=Mit besten Grüßen lierzlichst Ihr Gerhard
+16-1	Mit	APPR	mit	_	O	O	
+16-2	besten	ADJA	gut	_	O	O	
+16-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+16-4	lierzlichst	VVFIN	<unknown>	_	O	O	
+16-5	Ihr	PPER	sie	_	O	O	
+16-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

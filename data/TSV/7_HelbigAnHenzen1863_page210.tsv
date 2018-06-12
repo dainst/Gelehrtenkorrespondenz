@@ -1,0 +1,208 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an Henzen Siena, 16. Juli 1874 2 dann könnten Sie Ihrer Seits - am Besten ohne dieses Incidente zu berühren - ihn um baldige Einsendung bitten.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	2	CARD	2	_	O	O	
+1-11	dann	ADV	dann	_	O	O	
+1-12	könnten	VMFIN	können	_	O	O	
+1-13	Sie	PPER	Sie	_	O	O	
+1-14	Ihrer	PPOSAT	ihr	_	O	O	
+1-15	Seits	NN	<unknown>	_	O	O	
+1-16	-	$(	-	_	O	O	
+1-17	am	APPRART	an	_	O	O	
+1-18	Besten	NN	Beste	_	O	O	
+1-19	ohne	APPR	ohne	_	O	O	
+1-20	dieses	PDAT	dies	_	O	O	
+1-21	Incidente	NN	<unknown>	_	O	O	
+1-22	zu	PTKZU	zu	_	O	O	
+1-23	berühren	VVINF	berühren	_	O	O	
+1-24	-	$(	-	_	O	O	
+1-25	ihn	PPER	er	_	O	O	
+1-26	um	APPR	um	_	O	O	
+1-27	baldige	ADJA	baldig	_	O	O	
+1-28	Einsendung	NN	Einsendung	_	O	O	
+1-29	bitten	VVINF	bitten	_	O	O	
+1-30	.	$.	.	_	O	O	
+
+#id=2
+#text=Heute Morgen erhielt ich einen Brief von der Centraldirection, worin dieselbe sich über das Verhältnis des römischen zu dem athenischen Institutsfonds ausspricht.
+2-1	Heute	ADV	heute	_	O	O	
+2-2	Morgen	ADV	morgen	_	O	O	
+2-3	erhielt	VVFIN	erhalten	_	O	O	
+2-4	ich	PPER	ich	_	O	O	
+2-5	einen	ART	eine	_	O	O	
+2-6	Brief	NN	Brief	_	O	O	
+2-7	von	APPR	von	_	O	O	
+2-8	der	ART	die	_	O	O	
+2-9	Centraldirection	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-10	,	$,	,	_	O	O	
+2-11	worin	PWAV	worin	_	O	O	
+2-12	dieselbe	PDAT	dieselb	_	O	O	
+2-13	sich	PRF	sich	_	O	O	
+2-14	über	APPR	über	_	O	O	
+2-15	das	ART	die	_	O	O	
+2-16	Verhältnis	NN	Verhältnis	_	O	O	
+2-17	des	ART	die	_	O	O	
+2-18	römischen	ADJA	römisch	_	O	O	
+2-19	zu	APPR	zu	_	O	O	
+2-20	dem	ART	die	_	O	O	
+2-21	athenischen	ADJA	athenisch	_	O	O	
+2-22	Institutsfonds	NN	<unknown>	_	O	O	
+2-23	ausspricht	VVFIN	aussprechen	_	O	O	
+2-24	.	$.	.	_	O	O	
+
+#id=3
+#text=Sie sollen vollständig gesondert bleiben und die Zeichnungen, welche ich in Athen für Rom ausführen lasse, aus unseren Fonds bezahlt werden.
+3-1	Sie	PPER	Sie	_	O	O	
+3-2	sollen	VMFIN	sollen	_	O	O	
+3-3	vollständig	ADJD	vollständig	_	O	O	
+3-4	gesondert	VVPP	sondern	_	O	O	
+3-5	bleiben	VVINF	bleiben	_	O	O	
+3-6	und	KON	und	_	O	O	
+3-7	die	ART	die	_	O	O	
+3-8	Zeichnungen	NN	Zeichnung	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	welche	PRELS	welche	_	O	O	
+3-11	ich	PPER	ich	_	O	O	
+3-12	in	APPR	in	_	O	O	
+3-13	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-14	für	APPR	für	_	O	O	
+3-15	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-16	ausführen	VVINF	ausführen	_	O	O	
+3-17	lasse	VVFIN	lassen	_	O	O	
+3-18	,	$,	,	_	O	O	
+3-19	aus	APPR	aus	_	O	O	
+3-20	unseren	PPOSAT	unser	_	O	O	
+3-21	Fonds	NN	Fonds	_	O	O	
+3-22	bezahlt	VVPP	bezahlen	_	O	O	
+3-23	werden	VAFIN	werden	_	O	O	
+3-24	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich muß Sie daher bitten, mir vor meiner Abreise einen Wech~ seI für dieselben zukommen zu lassen; denn von den 1600 Frcs, die ich für meine Reise beiseite gelegt, wird gewiß nicht viel übrig bleibenMeine Frau und Lili grüßen herzlich Sie und Fräulein Rosine und freuen sich sehr auf Ihr versprochenes Eintreffen im September.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	muß	VMFIN	müssen	_	O	O	
+4-3	Sie	PPER	Sie	_	O	O	
+4-4	daher	PAV	daher	_	O	O	
+4-5	bitten	VVINF	bitten	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	mir	PRF	ich	_	O	O	
+4-8	vor	APPR	vor	_	O	O	
+4-9	meiner	PPOSAT	mein	_	O	O	
+4-10	Abreise	NN	Abreise	_	O	O	
+4-11	einen	ART	eine	_	O	O	
+4-12	Wech~	NN	<unknown>	_	O	O	
+4-13	seI	VVFIN	<unknown>	_	O	O	
+4-14	für	APPR	für	_	O	O	
+4-15	dieselben	PDS	dieselbe	_	O	O	
+4-16	zukommen	VVINF	zukommen	_	O	O	
+4-17	zu	PTKZU	zu	_	O	O	
+4-18	lassen	VVINF	lassen	_	O	O	
+4-19	;	$.	;	_	O	O	
+4-20	denn	KON	denn	_	O	O	
+4-21	von	APPR	von	_	O	O	
+4-22	den	ART	die	_	O	O	
+4-23	1600	CARD	@card@	_	O	O	
+4-24	Frcs	NE	<unknown>	_	O	O	
+4-25	,	$,	,	_	O	O	
+4-26	die	PRELS	die	_	O	O	
+4-27	ich	PPER	ich	_	O	O	
+4-28	für	APPR	für	_	O	O	
+4-29	meine	PPOSAT	mein	_	O	O	
+4-30	Reise	NN	Reise	_	O	O	
+4-31	beiseite	ADV	beiseite	_	O	O	
+4-32	gelegt	VVPP	legen	_	O	O	
+4-33	,	$,	,	_	O	O	
+4-34	wird	VAFIN	werden	_	O	O	
+4-35	gewiß	ADJD	gewiss	_	O	O	
+4-36	nicht	PTKNEG	nicht	_	O	O	
+4-37	viel	ADV	viel	_	O	O	
+4-38	übrig	ADJD	übrig	_	O	O	
+4-39	bleibenMeine	ADJA	<unknown>	_	O	O	
+4-40	Frau	NN	Frau	_	O	O	
+4-41	und	KON	und	_	O	O	
+4-42	Lili	NE	Lili	_	O	O	
+4-43	grüßen	VVFIN	grüßen	_	O	O	
+4-44	herzlich	ADJD	herzlich	_	O	O	
+4-45	Sie	PPER	Sie	_	O	O	
+4-46	und	KON	und	_	O	O	
+4-47	Fräulein	NN	Fräulein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-48	Rosine	NN	Rosine	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-49	und	KON	und	_	O	O	
+4-50	freuen	VVFIN	freuen	_	O	O	
+4-51	sich	PRF	sich	_	O	O	
+4-52	sehr	ADV	sehr	_	O	O	
+4-53	auf	APPR	auf	_	O	O	
+4-54	Ihr	PPOSAT	ihr	_	O	O	
+4-55	versprochenes	ADJA	versprochen	_	O	O	
+4-56	Eintreffen	NN	Eintreffen	_	O	O	
+4-57	im	APPRART	in	_	O	O	
+4-58	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-59	.	$.	.	_	O	O	
+
+#id=5
+#text=Kennen Sie die in der hiesigen Biblioteca degli Intronati befindliche lateinische Inschriftensammlung, prachtvoll auf Pergament geschrieben, aus dem Quattrocento?
+5-1	Kennen	VVFIN	kennen	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	die	ART	die	_	O	O	
+5-4	in	APPR	in	_	O	O	
+5-5	der	ART	die	_	O	O	
+5-6	hiesigen	ADJA	hiesig	_	O	O	
+5-7	Biblioteca	NE	<unknown>	_	O	O	
+5-8	degli	NE	<unknown>	_	O	O	
+5-9	Intronati	NE	<unknown>	_	O	O	
+5-10	befindliche	ADJA	befindlich	_	O	O	
+5-11	lateinische	ADJA	lateinisch	_	O	O	
+5-12	Inschriftensammlung	NN	<unknown>	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	prachtvoll	ADJD	prachtvoll	_	O	O	
+5-15	auf	APPR	auf	_	O	O	
+5-16	Pergament	NN	Pergament	_	O	O	
+5-17	geschrieben	VVPP	schreiben	_	O	O	
+5-18	,	$,	,	_	O	O	
+5-19	aus	APPR	aus	_	O	O	
+5-20	dem	ART	die	_	O	O	
+5-21	Quattrocento	NN	Quattrocento	_	O	O	
+5-22	?	$.	?	_	O	O	
+
+#id=6
+#text=Sie ist angeheftet an dem Codex des Blondi Flavii Forliviensis Romae instauratae.
+6-1	Sie	PPER	Sie	_	O	O	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	angeheftet	VVPP	anheften	_	O	O	
+6-4	an	APPR	an	_	O	O	
+6-5	dem	ART	die	_	O	O	
+6-6	Codex	NN	<unknown>	_	O	O	
+6-7	des	ART	die	_	O	O	
+6-8	Blondi	NE	<unknown>	_	O	O	
+6-9	Flavii	NE	<unknown>	_	O	O	
+6-10	Forliviensis	NN	<unknown>	_	O	O	
+6-11	Romae	NE	<unknown>	_	O	O	
+6-12	instauratae	NE	<unknown>	_	O	O	
+6-13	.	$.	.	_	O	O	
+
+#id=7
+#text=Herausgeschnittene Miniatur Titel lautet : es priscae variaque antiquitatis monumenta undique ex orbe collecta
+7-1	Herausgeschnittene	ADJA	herausgeschnitten	_	O	O	
+7-2	Miniatur	NN	Miniatur	_	O	O	
+7-3	Titel	NN	Titel	_	O	O	
+7-4	lautet	VVFIN	lauten	_	O	O	
+7-5	:	$.	:	_	O	O	
+7-6	es	PPER	es	_	O	O	
+7-7	priscae	NE	<unknown>	_	O	O	
+7-8	variaque	NE	<unknown>	_	O	O	
+7-9	antiquitatis	ADJD	<unknown>	_	O	O	
+7-10	monumenta	ADJA	<unknown>	_	O	O	
+7-11	undique	NN	<unknown>	_	O	O	
+7-12	ex	FM	ex	_	O	O	
+7-13	orbe	NN	<unknown>	_	O	O	
+7-14	collecta	NE	<unknown>	_	O	O	
+

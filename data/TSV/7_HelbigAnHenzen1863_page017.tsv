@@ -1,0 +1,246 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=\ I 2 Helbig an Henzen Neapel, 10. Juni 1864 Ende nächster Woche hier bleiben.
+1-1	\	XY	\	_	O	O	
+1-2	I	FM	I	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Ende	NN	Ende	_	O	O	
+1-14	nächster	ADJA	nah	_	O	O	
+1-15	Woche	NN	Woche	_	O	O	
+1-16	hier	ADV	hier	_	O	O	
+1-17	bleiben	VVFIN	bleiben	_	O	O	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Kekule hat die Leitung der Zeichnung der Apollostatue - von mehreren Seiten - übernommen, damit natürlich auch die Verantwortlichkeit für das Resultat.
+2-1	Kekule	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	hat	VAFIN	haben	_	O	O	
+2-3	die	ART	die	_	O	O	
+2-4	Leitung	NN	Leitung	_	O	O	
+2-5	der	ART	die	_	O	O	
+2-6	Zeichnung	NN	Zeichnung	_	O	O	
+2-7	der	ART	die	_	O	O	
+2-8	Apollostatue	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-9	-	$(	-	_	O	O	
+2-10	von	APPR	von	_	O	O	
+2-11	mehreren	PIAT	mehrere	_	O	O	
+2-12	Seiten	NN	Seite	_	O	O	
+2-13	-	$(	-	_	O	O	
+2-14	übernommen	VVPP	übernehmen	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	damit	KOUS	damit	_	O	O	
+2-17	natürlich	ADV	natürlich	_	O	O	
+2-18	auch	ADV	auch	_	O	O	
+2-19	die	ART	die	_	O	O	
+2-20	Verantwortlichkeit	NN	Verantwortlichkeit	_	O	O	
+2-21	für	APPR	für	_	O	O	
+2-22	das	ART	die	_	O	O	
+2-23	Resultat	NN	Resultat	_	O	O	
+2-24	.	$.	.	_	O	O	
+
+#id=3
+#text=Viele Köche verderben in solchen Fällen den Brei.
+3-1	Viele	PIAT	viele	_	O	O	
+3-2	Köche	NN	Koch	_	O	O	
+3-3	verderben	VVFIN	verderben	_	O	O	
+3-4	in	APPR	in	_	O	O	
+3-5	solchen	PIAT	solche	_	O	O	
+3-6	Fällen	NN	Fall|Fällen	_	O	O	
+3-7	den	ART	die	_	O	O	
+3-8	Brei	NN	Brei	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Von den Ausgrabungen in Gnatia habe ich gehört und wohl auch Gelegenheit, mich mit dem Unternehmer in Verbindung zu setzen, was ich sofort thun werde, wenn ich mit einiger Hoffnung der Vollendung meiner Arbeit entgegensehen kann.
+4-1	Von	APPR	von	_	O	O	
+4-2	den	ART	die	_	O	O	
+4-3	Ausgrabungen	NN	Ausgrabung	_	O	O	
+4-4	in	APPR	in	_	O	O	
+4-5	Gnatia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-6	habe	VAFIN	haben	_	O	O	
+4-7	ich	PPER	ich	_	O	O	
+4-8	gehört	VVPP	gehören|hören	_	O	O	
+4-9	und	KON	und	_	O	O	
+4-10	wohl	ADV	wohl	_	O	O	
+4-11	auch	ADV	auch	_	O	O	
+4-12	Gelegenheit	NN	Gelegenheit	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	mich	PRF	ich	_	O	O	
+4-15	mit	APPR	mit	_	O	O	
+4-16	dem	ART	die	_	O	O	
+4-17	Unternehmer	NN	Unternehmer	_	O	O	
+4-18	in	APPR	in	_	O	O	
+4-19	Verbindung	NN	Verbindung	_	O	O	
+4-20	zu	PTKZU	zu	_	O	O	
+4-21	setzen	VVINF	setzen	_	O	O	
+4-22	,	$,	,	_	O	O	
+4-23	was	PRELS	was	_	O	O	
+4-24	ich	PPER	ich	_	O	O	
+4-25	sofort	ADV	sofort	_	O	O	
+4-26	thun	ADJD	<unknown>	_	O	O	
+4-27	werde	VAFIN	werden	_	O	O	
+4-28	,	$,	,	_	O	O	
+4-29	wenn	KOUS	wenn	_	O	O	
+4-30	ich	PPER	ich	_	O	O	
+4-31	mit	APPR	mit	_	O	O	
+4-32	einiger	PIAT	einige	_	O	O	
+4-33	Hoffnung	NN	Hoffnung	_	O	O	
+4-34	der	ART	die	_	O	O	
+4-35	Vollendung	NN	Vollendung	_	O	O	
+4-36	meiner	PPOSAT	mein	_	O	O	
+4-37	Arbeit	NN	Arbeit	_	O	O	
+4-38	entgegensehen	VVINF	entgegensehen	_	O	O	
+4-39	kann	VMFIN	können	_	O	O	
+4-40	.	$.	.	_	O	O	
+
+#id=5
+#text=Vor der Hand muß ich mich möglichst darauf concentriren; denn das respice finem d. h. des Geldes schwebt schrecklich über mir.
+5-1	Vor	APPR	vor	_	O	O	
+5-2	der	ART	die	_	O	O	
+5-3	Hand	NN	Hand	_	O	O	
+5-4	muß	VMFIN	müssen	_	O	O	
+5-5	ich	PPER	ich	_	O	O	
+5-6	mich	PRF	ich	_	O	O	
+5-7	möglichst	ADV	möglichst	_	O	O	
+5-8	darauf	PAV	darauf	_	O	O	
+5-9	concentriren	NN	<unknown>	_	O	O	
+5-10	;	$.	;	_	O	O	
+5-11	denn	KON	denn	_	O	O	
+5-12	das	ART	die	_	O	O	
+5-13	respice	NE	<unknown>	_	O	O	
+5-14	finem	ADJA	<unknown>	_	O	O	
+5-15	d.	PDS	d.	_	O	O	
+5-16	h.	VVFIN	heißen	_	O	O	
+5-17	des	ART	die	_	O	O	
+5-18	Geldes	NN	Geld	_	O	O	
+5-19	schwebt	VVFIN	schweben	_	O	O	
+5-20	schrecklich	ADJD	schrecklich	_	O	O	
+5-21	über	APPR	über	_	O	O	
+5-22	mir	PPER	ich	_	O	O	
+5-23	.	$.	.	_	O	O	
+
+#id=6
+#text=Sonst giebt es nichts Neues.
+6-1	Sonst	ADV	sonst	_	O	O	
+6-2	giebt	VVFIN	<unknown>	_	O	O	
+6-3	es	PPER	es	_	O	O	
+6-4	nichts	PIAT	nichts	_	O	O	
+6-5	Neues	NN	Neue	_	O	O	
+6-6	.	$.	.	_	O	O	
+
+#id=7
+#text=Mindestens anderthalb Monate bleibe ich noch in Neapel; dann kann ich nach Pompei abgehen.
+7-1	Mindestens	ADV	mindestens	_	O	O	
+7-2	anderthalb	ADJA	anderthalb	_	O	O	
+7-3	Monate	NN	Monat	_	O	O	
+7-4	bleibe	VVFIN	bleiben	_	O	O	
+7-5	ich	PPER	ich	_	O	O	
+7-6	noch	ADV	noch	_	O	O	
+7-7	in	APPR	in	_	O	O	
+7-8	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-9	;	$.	;	_	O	O	
+7-10	dann	ADV	dann	_	O	O	
+7-11	kann	VMFIN	können	_	O	O	
+7-12	ich	PPER	ich	_	O	O	
+7-13	nach	ADV	nach	_	O	O	
+7-14	Pompei	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-15	abgehen	VVINF	abgehen	_	O	O	
+7-16	.	$.	.	_	O	O	
+
+#id=8
+#text=Einen rapporto über die Fortschritte der Scavi, von allen die neugefundene prachtvolle Silenstatue, werden Sie nächstens erhalten.
+8-1	Einen	ART	eine	_	O	O	
+8-2	rapporto	NN	<unknown>	_	O	O	
+8-3	über	APPR	über	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	Fortschritte	NN	Fortschritt	_	O	O	
+8-6	der	ART	die	_	O	O	
+8-7	Scavi	NE	<unknown>	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	von	APPR	von	_	O	O	
+8-10	allen	PIS	alle	_	O	O	
+8-11	die	ART	die	_	O	O	
+8-12	neugefundene	ADJA	neugefunden	_	O	O	
+8-13	prachtvolle	ADJA	prachtvoll	_	O	O	
+8-14	Silenstatue	NN	<unknown>	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	werden	VAFIN	werden	_	O	O	
+8-17	Sie	PPER	Sie	_	O	O	
+8-18	nächstens	ADV	nächstens	_	O	O	
+8-19	erhalten	VVINF	erhalten	_	O	O	
+8-20	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich bitte mir möglichst bald einige Separat abdrücke meines Aufsatzes über die etruskischen Sarkophage zu schicken.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	bitte	VVFIN	bitten	_	O	O	
+9-3	mir	PPER	ich	_	O	O	
+9-4	möglichst	ADV	möglichst	_	O	O	
+9-5	bald	ADV	bald	_	O	O	
+9-6	einige	PIAT	einige	_	O	O	
+9-7	Separat	NN	<unknown>	_	O	O	
+9-8	abdrücke	VVFIN	abdrücken	_	O	O	
+9-9	meines	PPOSAT	mein	_	O	O	
+9-10	Aufsatzes	NN	Aufsatz	_	O	O	
+9-11	über	APPR	über	_	O	O	
+9-12	die	ART	die	_	O	O	
+9-13	etruskischen	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-14	Sarkophage	NN	Sarkophag	_	I-webanno.custom.LetterEntity_	I-OBJ	
+9-15	zu	PTKZU	zu	_	O	O	
+9-16	schicken	VVINF	schicken	_	O	O	
+9-17	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich werde den Canonicus von Pozzuoli damit regaliren und ihn als amico behandeln, was die billigste Weise ist, mit ihm fertig zu werden.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	werde	VAFIN	werden	_	O	O	
+10-3	den	ART	die	_	O	O	
+10-4	Canonicus	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-5	von	APPR	von	_	O	O	
+10-6	Pozzuoli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-7	damit	PAV	damit	_	O	O	
+10-8	regaliren	ADJA	<unknown>	_	O	O	
+10-9	und	KON	und	_	O	O	
+10-10	ihn	PPER	er	_	O	O	
+10-11	als	KON	als	_	O	O	
+10-12	amico	NE	<unknown>	_	O	O	
+10-13	behandeln	VVINF	behandeln	_	O	O	
+10-14	,	$,	,	_	O	O	
+10-15	was	PWS	was	_	O	O	
+10-16	die	ART	die	_	O	O	
+10-17	billigste	ADJA	billig	_	O	O	
+10-18	Weise	NN	Weise	_	O	O	
+10-19	ist	VAFIN	sein	_	O	O	
+10-20	,	$,	,	_	O	O	
+10-21	mit	APPR	mit	_	O	O	
+10-22	ihm	PPER	er	_	O	O	
+10-23	fertig	ADJD	fertig	_	O	O	
+10-24	zu	PTKZU	zu	_	O	O	
+10-25	werden	VAINF	werden	_	O	O	
+10-26	.	$.	.	_	O	O	
+
+#id=11
+#text=Viele Grüße an den Cavaliere, Köhler, Wilmann~ Ihr Wolfg. Helbig •
+11-1	Viele	PIAT	viele	_	O	O	
+11-2	Grüße	NN	Gruß	_	O	O	
+11-3	an	APPR	an	_	O	O	
+11-4	den	ART	die	_	O	O	
+11-5	Cavaliere	NN	<unknown>	_	O	O	
+11-6	,	$,	,	_	O	O	
+11-7	Köhler	NE	Köhler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-8	,	$,	,	_	O	O	
+11-9	Wilmann~	VVFIN	<unknown>	_	O	O	
+11-10	Ihr	PPER	sie	_	O	O	
+11-11	Wolfg.	NE	Wolfg.	_	O	O	
+11-12	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-13	•	ADJA	<unknown>	_	O	O	
+

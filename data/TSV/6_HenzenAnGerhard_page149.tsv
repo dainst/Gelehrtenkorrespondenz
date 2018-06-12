@@ -1,0 +1,33 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Ohne Nummer 6/IX/53 3 Wie soll ich mir anders helfen ?
+1-1	Ohne	APPR	ohne	_	O	O	
+1-2	Nummer	NN	Nummer	_	O	O	
+1-3	6/IX/53	CARD	<unknown>	_	O	O	
+1-4	3	CARD	3	_	O	O	
+1-5	Wie	KOKOM	wie	_	O	O	
+1-6	soll	VMFIN	sollen	_	O	O	
+1-7	ich	PPER	ich	_	O	O	
+1-8	mir	PRF	ich	_	O	O	
+1-9	anders	ADV	anders	_	O	O	
+1-10	helfen	VVINF	helfen	_	O	O	
+1-11	?	$.	?	_	O	O	
+
+#id=2
+#text=Ihr ergebenster WHenzen R. di Papa 6/IX 53.
+2-1	Ihr	PPOSAT	ihr	_	O	O	
+2-2	ergebenster	ADJA	<unknown>	_	O	O	
+2-3	WHenzen	NN	<unknown>	_	O	O	
+2-4	R.	NE	R.	_	O	O	
+2-5	di	NE	di	_	O	O	
+2-6	Papa	NN	Papa	_	O	O	
+2-7	6/IX	CARD	<unknown>	_	O	O	
+2-8	53	CARD	53	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Henzen an Gerhard
+3-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-2	an	APPR	an	_	O	O	
+3-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+

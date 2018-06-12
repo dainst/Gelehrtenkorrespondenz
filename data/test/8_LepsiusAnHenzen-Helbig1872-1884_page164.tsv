@@ -1,0 +1,245 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=312 Lepsius an Henzen Berlin, 30. Juni 1874 5 tern.
+1-1	312	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	5	CARD	5	_	O	O	
+1-12	tern	VVFIN	<unknown>	_	O	O	
+1-13	.	$.	.	_	O	O	
+
+#id=2
+#text=Für die Ephemeris sind in diesem Jahr 300 r, für die Zeitschrift 1200 r aus dem 4000 r Fonds zu entnehmen.
+2-1	Für	APPR	für	_	O	O	
+2-2	die	ART	die	_	O	O	
+2-3	Ephemeris	NE	<unknown>	_	O	O	
+2-4	sind	VAFIN	sein	_	O	O	
+2-5	in	APPR	in	_	O	O	
+2-6	diesem	PDAT	dies	_	O	O	
+2-7	Jahr	NN	Jahr	_	O	O	
+2-8	300	CARD	300	_	O	O	
+2-9	r	NE	r	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	für	APPR	für	_	O	O	
+2-12	die	ART	die	_	O	O	
+2-13	Zeitschrift	NN	Zeitschrift	_	O	O	
+2-14	1200	CARD	1200	_	O	O	
+2-15	r	NE	r	_	O	O	
+2-16	aus	APPR	aus	_	O	O	
+2-17	dem	ART	die	_	O	O	
+2-18	4000	CARD	4000	_	O	O	
+2-19	r	NE	r	_	O	O	
+2-20	Fonds	NN	Fonds	_	O	O	
+2-21	zu	PTKZU	zu	_	O	O	
+2-22	entnehmen	VVINF	entnehmen	_	O	O	
+2-23	.	$.	.	_	O	O	
+
+#id=3
+#text=Sonst sind auf diesen Fond, der hier zurückbleibt, 400 r für eine Reise Matz nach Frankreich, 1400 r für das Terrakottenwerk Kekule, 2200 r für die Fortsetzung von Dütschke's oberitalischen Katalogisirungen, 300 r für Schöne's Druck seiner Paduaner Arbeit angewiesen worden, womit der Fonds erschöpft ist.
+3-1	Sonst	ADV	sonst	_	O	O	
+3-2	sind	VAFIN	sein	_	O	O	
+3-3	auf	APPR	auf	_	O	O	
+3-4	diesen	PDAT	dies	_	O	O	
+3-5	Fond	NN	Fond	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	der	PRELS	die	_	O	O	
+3-8	hier	ADV	hier	_	O	O	
+3-9	zurückbleibt	VVFIN	zurückbleiben	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	400	CARD	400	_	O	O	
+3-12	r	NE	r	_	O	O	
+3-13	für	APPR	für	_	O	O	
+3-14	eine	ART	eine	_	O	O	
+3-15	Reise	NN	Reise	_	O	O	
+3-16	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-17	nach	APPR	nach	_	O	O	
+3-18	Frankreich	NE	Frankreich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-19	,	$,	,	_	O	O	
+3-20	1400	CARD	@card@	_	O	O	
+3-21	r	NE	r	_	O	O	
+3-22	für	APPR	für	_	O	O	
+3-23	das	ART	die	_	O	O	
+3-24	Terrakottenwerk	NN	<unknown>	_	O	O	
+3-25	Kekule	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-26	,	$,	,	_	O	O	
+3-27	2200	CARD	@card@	_	O	O	
+3-28	r	NE	r	_	O	O	
+3-29	für	APPR	für	_	O	O	
+3-30	die	ART	die	_	O	O	
+3-31	Fortsetzung	NN	Fortsetzung	_	O	O	
+3-32	von	APPR	von	_	O	O	
+3-33	Dütschke's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-34	oberitalischen	ADJA	<unknown>	_	O	O	
+3-35	Katalogisirungen	NN	<unknown>	_	O	O	
+3-36	,	$,	,	_	O	O	
+3-37	300	CARD	300	_	O	O	
+3-38	r	NE	r	_	O	O	
+3-39	für	APPR	für	_	O	O	
+3-40	Schöne's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-41	Druck	NN	Druck	_	O	O	
+3-42	seiner	PPOSAT	sein	_	O	O	
+3-43	Paduaner	NN	<unknown>	_	O	O	
+3-44	Arbeit	NN	Arbeit	_	O	O	
+3-45	angewiesen	VVPP	anweisen	_	O	O	
+3-46	worden	VAPP	werden	_	O	O	
+3-47	,	$,	,	_	O	O	
+3-48	womit	PWAV	womit	_	O	O	
+3-49	der	ART	die	_	O	O	
+3-50	Fonds	NN	Fonds	_	O	O	
+3-51	erschöpft	VVPP	erschöpfen	_	O	O	
+3-52	ist	VAFIN	sein	_	O	O	
+3-53	.	$.	.	_	O	O	
+
+#id=4
+#text=Sie werden auch den 300 r Fonds Titel VIII erschöpfen müssen, da Sie Alles was in ~ diesen Jahren nicht gebracht wird, wieder an die Kasse zurückzahlen müssen.
+4-1	Sie	PPER	Sie	_	O	O	
+4-2	werden	VAFIN	werden	_	O	O	
+4-3	auch	ADV	auch	_	O	O	
+4-4	den	ART	die	_	O	O	
+4-5	300	CARD	300	_	O	O	
+4-6	r	NE	r	_	O	O	
+4-7	Fonds	NN	Fonds	_	O	O	
+4-8	Titel	NN	Titel	_	O	O	
+4-9	VIII	NE	<unknown>	_	O	O	
+4-10	erschöpfen	VVINF	erschöpfen	_	O	O	
+4-11	müssen	VMINF	müssen	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	da	KOUS	da	_	O	O	
+4-14	Sie	PPER	Sie	_	O	O	
+4-15	Alles	PIAT	alle	_	O	O	
+4-16	was	PIS	was	_	O	O	
+4-17	in	APPR	in	_	O	O	
+4-18	~	XY	~	_	O	O	
+4-19	diesen	PDAT	dies	_	O	O	
+4-20	Jahren	NN	Jahr	_	O	O	
+4-21	nicht	PTKNEG	nicht	_	O	O	
+4-22	gebracht	VVPP	bringen	_	O	O	
+4-23	wird	VAFIN	werden	_	O	O	
+4-24	,	$,	,	_	O	O	
+4-25	wieder	ADV	wieder	_	O	O	
+4-26	an	APPR	an	_	O	O	
+4-27	die	ART	die	_	O	O	
+4-28	Kasse	NN	Kasse	_	O	O	
+4-29	zurückzahlen	VVINF	zurückzahlen	_	O	O	
+4-30	müssen	VMFIN	müssen	_	O	O	
+4-31	.	$.	.	_	O	O	
+
+#id=5
+#text=Wir haben erst für nächstes Jahr die Übertragbarkeit der sächlichen Ausgaben beantragt.
+5-1	Wir	PPER	wir	_	O	O	
+5-2	haben	VAFIN	haben	_	O	O	
+5-3	erst	ADV	erst	_	O	O	
+5-4	für	APPR	für	_	O	O	
+5-5	nächstes	ADJA	nah	_	O	O	
+5-6	Jahr	NN	Jahr	_	O	O	
+5-7	die	ART	die	_	O	O	
+5-8	Übertragbarkeit	NN	Übertragbarkeit	_	O	O	
+5-9	der	ART	die	_	O	O	
+5-10	sächlichen	ADJA	sächlich	_	O	O	
+5-11	Ausgaben	NN	Ausgabe	_	O	O	
+5-12	beantragt	VVPP	beantragen	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Die 1600 r für Athen, wo schon ein Haus.
+6-1	Die	ART	die	_	O	O	
+6-2	1600	CARD	@card@	_	O	O	
+6-3	r	NE	r	_	O	O	
+6-4	für	APPR	für	_	O	O	
+6-5	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-6	,	$,	,	_	O	O	
+6-7	wo	PWAV	wo	_	O	O	
+6-8	schon	ADV	schon	_	O	O	
+6-9	ein	ART	eine	_	O	O	
+6-10	Haus	NN	Haus	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=für den 1. n September gemiehet (sic) ist, sind vornehmlich für eine genaue Aufnahme auf Triangulirung basirt, von A bestimmt.
+7-1	für	APPR	für	_	O	O	
+7-2	den	ART	die	_	O	O	
+7-3	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-4	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-5	n	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-6	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-7	gemiehet	VVFIN	<unknown>	_	O	O	
+7-8	(	$(	(	_	O	O	
+7-9	sic	NE	<unknown>	_	O	O	
+7-10	)	$(	)	_	O	O	
+7-11	ist	VAFIN	sein	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	sind	VAFIN	sein	_	O	O	
+7-14	vornehmlich	ADJD	vornehmlich	_	O	O	
+7-15	für	APPR	für	_	O	O	
+7-16	eine	ART	eine	_	O	O	
+7-17	genaue	ADJA	genau	_	O	O	
+7-18	Aufnahme	NN	Aufnahme	_	O	O	
+7-19	auf	APPR	auf	_	O	O	
+7-20	Triangulirung	NN	<unknown>	_	O	O	
+7-21	basirt	NN	<unknown>	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	von	APPR	von	_	O	O	
+7-24	A	NN	A	_	O	O	
+7-25	bestimmt	VVPP	bestimmen	_	O	O	
+7-26	.	$.	.	_	O	O	
+
+#id=8
+#text=Es soll ein Index für alle früheren Bände gemacht werden.
+8-1	Es	PPER	es	_	O	O	
+8-2	soll	VMFIN	sollen	_	O	O	
+8-3	ein	ART	eine	_	O	O	
+8-4	Index	NN	Index	_	O	O	
+8-5	für	APPR	für	_	O	O	
+8-6	alle	PIAT	alle	_	O	O	
+8-7	früheren	ADJA	früh	_	O	O	
+8-8	Bände	NN	Band	_	O	O	
+8-9	gemacht	VVPP	machen	_	O	O	
+8-10	werden	VAINF	werden	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Eine zweite Versammlung für den Oktober ist aufgegeben; wir werden erst am Schluß der nächsten Osterwochen wieder zusammen treten.
+9-1	Eine	ART	eine	_	O	O	
+9-2	zweite	ADJA	zweit	_	O	O	
+9-3	Versammlung	NN	Versammlung	_	O	O	
+9-4	für	APPR	für	_	O	O	
+9-5	den	ART	die	_	O	O	
+9-6	Oktober	NN	Oktober	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-7	ist	VAFIN	sein	_	O	O	
+9-8	aufgegeben	VVPP	aufgeben	_	O	O	
+9-9	;	$.	;	_	O	O	
+9-10	wir	PPER	wir	_	O	O	
+9-11	werden	VAFIN	werden	_	O	O	
+9-12	erst	ADV	erst	_	O	O	
+9-13	am	APPRART	an	_	O	O	
+9-14	Schluß	NN	Schluss	_	O	O	
+9-15	der	ART	die	_	O	O	
+9-16	nächsten	ADJA	nah	_	O	O	
+9-17	Osterwochen	NN	<unknown>	_	O	O	
+9-18	wieder	ADV	wieder	_	O	O	
+9-19	zusammen	ADV	zusammen	_	O	O	
+9-20	treten	VVINF	treten	_	O	O	
+9-21	.	$.	.	_	O	O	
+
+#id=10
+#text=Soviel für heute.
+10-1	Soviel	PIS	soviele	_	O	O	
+10-2	für	APPR	für	_	O	O	
+10-3	heute	ADV	heute	_	O	O	
+10-4	.	$.	.	_	O	O	
+
+#id=11
+#text=Herzlichen Gruß Ihr R Lepsius
+11-1	Herzlichen	ADJA	herzlich	_	O	O	
+11-2	Gruß	NN	Gruß	_	O	O	
+11-3	Ihr	PPOSAT	ihr	_	O	O	
+11-4	R	NN	R	_	O	O	
+11-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

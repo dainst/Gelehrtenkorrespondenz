@@ -1,0 +1,240 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Gerhard an Braun Berlin, 8. August 1846 Doppelminerva noch nicht geschrieben haben, so wird es seiner Zusage ungeachtet wol auch nicht geschehen.
+1-1	2	CARD	2	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Doppelminerva	NN	<unknown>	_	O	O	
+1-12	noch	ADV	noch	_	O	O	
+1-13	nicht	PTKNEG	nicht	_	O	O	
+1-14	geschrieben	VVPP	schreiben	_	O	O	
+1-15	haben	VAFIN	haben	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	so	ADV	so	_	O	O	
+1-18	wird	VAFIN	werden	_	O	O	
+1-19	es	PPER	es	_	O	O	
+1-20	seiner	PPOSAT	sein	_	O	O	
+1-21	Zusage	NN	Zusage	_	O	O	
+1-22	ungeachtet	APPO	ungeachtet	_	O	O	
+1-23	wol	ADJD	<unknown>	_	O	O	
+1-24	auch	ADV	auch	_	O	O	
+1-25	nicht	PTKNEG	nicht	_	O	O	
+1-26	geschehen	VVINF	geschehen	_	O	O	
+1-27	.	$.	.	_	O	O	
+
+#id=3
+#text=Für diesen Fall hebe ich selbst das Gefäß einem bessern Zeitpunkt und zu niedrigerem Preise auf, und bitte Sie daher mir die Pelopsvase mit 120 statt mit 100 Scudi zu bescheinigen mit meinem Vorbehalt anderweitig zu bonificirender Differenz.
+3-1	Für	APPR	für	_	O	O	
+3-2	diesen	PDAT	dies	_	O	O	
+3-3	Fall	NN	Fall	_	O	O	
+3-4	hebe	VVFIN	heben	_	O	O	
+3-5	ich	PPER	ich	_	O	O	
+3-6	selbst	ADV	selbst	_	O	O	
+3-7	das	ART	die	_	O	O	
+3-8	Gefäß	NN	Gefäß	_	O	O	
+3-9	einem	PIS	eine	_	O	O	
+3-10	bessern	VVFIN	bessern	_	O	O	
+3-11	Zeitpunkt	NN	Zeitpunkt	_	O	O	
+3-12	und	KON	und	_	O	O	
+3-13	zu	APPR	zu	_	O	O	
+3-14	niedrigerem	ADJA	niedrig	_	O	O	
+3-15	Preise	NN	Preis	_	O	O	
+3-16	auf	PTKVZ	auf	_	O	O	
+3-17	,	$,	,	_	O	O	
+3-18	und	KON	und	_	O	O	
+3-19	bitte	VVFIN	bitten	_	O	O	
+3-20	Sie	PPER	Sie	_	O	O	
+3-21	daher	PAV	daher	_	O	O	
+3-22	mir	PRF	ich	_	O	O	
+3-23	die	ART	die	_	O	O	
+3-24	Pelopsvase	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-25	mit	APPR	mit	_	O	O	
+3-26	120	CARD	120	_	O	O	
+3-27	statt	APPR	statt	_	O	O	
+3-28	mit	APPR	mit	_	O	O	
+3-29	100	CARD	100	_	O	O	
+3-30	Scudi	NN	<unknown>	_	O	O	
+3-31	zu	PTKZU	zu	_	O	O	
+3-32	bescheinigen	VVINF	bescheinigen	_	O	O	
+3-33	mit	APPR	mit	_	O	O	
+3-34	meinem	PPOSAT	mein	_	O	O	
+3-35	Vorbehalt	NN	Vorbehalt	_	O	O	
+3-36	anderweitig	ADJD	anderweitig	_	O	O	
+3-37	zu	PTKZU	zu	_	O	O	
+3-38	bonificirender	ADJA	<unknown>	_	O	O	
+3-39	Differenz	NN	Differenz	_	O	O	
+3-40	.	$.	.	_	O	O	
+
+#id=4
+#text=Über die aus unterlassener Plombirung entstandenen Nöthen der pariser Kiste und gehabte Auslagen wird De Witte selbst geschrieben, auch völligen Mangel des Jahrgangs 1835 erklärt und um 2 Exemplare cpl.
+4-1	Über	APPR	über	_	O	O	
+4-2	die	ART	die	_	O	O	
+4-3	aus	APPR	aus	_	O	O	
+4-4	unterlassener	ADJA	unterlassen	_	O	O	
+4-5	Plombirung	NN	<unknown>	_	O	O	
+4-6	entstandenen	ADJA	entstanden	_	O	O	
+4-7	Nöthen	NN	<unknown>	_	O	O	
+4-8	der	ART	die	_	O	O	
+4-9	pariser	NN	Pariser	_	O	O	
+4-10	Kiste	NN	Kiste	_	O	O	
+4-11	und	KON	und	_	O	O	
+4-12	gehabte	ADJA	<unknown>	_	O	O	
+4-13	Auslagen	NN	Auslage	_	O	O	
+4-14	wird	VAFIN	werden	_	O	O	
+4-15	De	NE	De	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-16	Witte	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-17	selbst	ADV	selbst	_	O	O	
+4-18	geschrieben	VVPP	schreiben	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	auch	ADV	auch	_	O	O	
+4-21	völligen	ADJA	völlig	_	O	O	
+4-22	Mangel	NN	Mangel	_	O	O	
+4-23	des	ART	die	_	O	O	
+4-24	Jahrgangs	NN	Jahrgang	_	O	O	
+4-25	1835	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-26	erklärt	VVPP	erklären	_	O	O	
+4-27	und	KON	und	_	O	O	
+4-28	um	APPR	um	_	O	O	
+4-29	2	CARD	2	_	O	O	
+4-30	Exemplare	NN	Exemplar	_	O	O	
+4-31	cpl	NN	<unknown>	_	O	O	
+4-32	.	$.	.	_	O	O	
+
+#id=5
+#text=Instituswerke gefragt haben.
+5-1	Instituswerke	NN	<unknown>	_	O	O	
+5-2	gefragt	VVPP	fragen	_	O	O	
+5-3	haben	VAFIN	haben	_	O	O	
+5-4	.	$.	.	_	O	O	
+
+#id=6
+#text=Zumpts Abhandlung über die Augustales ist durch Geppert gesandt, eine Rolle Fortsetzung des Leemannsehen Werks durch Leontiew.
+6-1	Zumpts	NN	<unknown>	_	O	O	
+6-2	Abhandlung	NN	Abhandlung	_	O	O	
+6-3	über	APPR	über	_	O	O	
+6-4	die	ART	die	_	O	O	
+6-5	Augustales	NN	<unknown>	_	O	O	
+6-6	ist	VAFIN	sein	_	O	O	
+6-7	durch	APPR	durch	_	O	O	
+6-8	Geppert	NN	<unknown>	_	O	O	
+6-9	gesandt	VVPP	senden	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	eine	ART	eine	_	O	O	
+6-12	Rolle	NN	Rolle	_	O	O	
+6-13	Fortsetzung	NN	Fortsetzung	_	O	O	
+6-14	des	ART	die	_	O	O	
+6-15	Leemannsehen	NN	<unknown>	_	O	O	
+6-16	Werks	NN	Werk	_	O	O	
+6-17	durch	APPR	durch	_	O	O	
+6-18	Leontiew	NE	<unknown>	_	O	O	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=Sind wol 2 Sendungen über Florenz angelangt?
+7-1	Sind	VAFIN	sein	_	O	O	
+7-2	wol	ADJD	<unknown>	_	O	O	
+7-3	2	CARD	2	_	O	O	
+7-4	Sendungen	NN	Sendung	_	O	O	
+7-5	über	APPR	über	_	O	O	
+7-6	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-7	angelangt	VVPP	angelangen	_	O	O	
+7-8	?	$.	?	_	O	O	
+
+#id=8
+#text=Ich sandte Archäologische Zeitung Heft 13 durch Prof Mussini an Vieusseux zur Beförderung.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	sandte	VVFIN	senden	_	O	O	
+8-3	Archäologische	ADJA	archäologisch	_	O	O	
+8-4	Zeitung	NN	Zeitung	_	O	O	
+8-5	Heft	NN	Heft	_	O	O	
+8-6	13	CARD	13	_	O	O	
+8-7	durch	APPR	durch	_	O	O	
+8-8	Prof	NE	Prof	_	O	O	
+8-9	Mussini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-10	an	APPR	an	_	O	O	
+8-11	Vieusseux	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-12	zur	APPRART	zu	_	O	O	
+8-13	Beförderung	NN	Beförderung	_	O	O	
+8-14	.	$.	.	_	O	O	
+
+#id=9
+#text=Annali XVII sind in meinen Händen und läßt sich eben ansehn, obwohl es an breiter Bettelsuppe und gelehrten Faseleien nicht fehlt.
+9-1	Annali	NE	<unknown>	_	O	O	
+9-2	XVII	NE	<unknown>	_	O	O	
+9-3	sind	VAFIN	sein	_	O	O	
+9-4	in	APPR	in	_	O	O	
+9-5	meinen	PPOSAT	mein	_	O	O	
+9-6	Händen	NN	Hand	_	O	O	
+9-7	und	KON	und	_	O	O	
+9-8	läßt	VVFIN	lassen	_	O	O	
+9-9	sich	PRF	sich	_	O	O	
+9-10	eben	ADV	eben	_	O	O	
+9-11	ansehn	VVFIN	<unknown>	_	O	O	
+9-12	,	$,	,	_	O	O	
+9-13	obwohl	KOUS	obwohl	_	O	O	
+9-14	es	PPER	es	_	O	O	
+9-15	an	APPR	an	_	O	O	
+9-16	breiter	ADJA	breit	_	O	O	
+9-17	Bettelsuppe	NN	<unknown>	_	O	O	
+9-18	und	KON	und	_	O	O	
+9-19	gelehrten	ADJA	gelehrt	_	O	O	
+9-20	Faseleien	NN	<unknown>	_	O	O	
+9-21	nicht	PTKNEG	nicht	_	O	O	
+9-22	fehlt	VVFIN	fehlen	_	O	O	
+9-23	.	$.	.	_	O	O	
+
+#id=10
+#text=In vergnüglicher Breite bewegen sich auch Welcker und Jahn.
+10-1	In	APPR	in	_	O	O	
+10-2	vergnüglicher	ADJA	vergnüglich	_	O	O	
+10-3	Breite	NN	Breite	_	O	O	
+10-4	bewegen	VVFIN	bewegen	_	O	O	
+10-5	sich	PRF	sich	_	O	O	
+10-6	auch	ADV	auch	_	O	O	
+10-7	Welcker	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-8	und	KON	und	_	O	O	
+10-9	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-10	.	$.	.	_	O	O	
+
+#id=11
+#text=Wer ist nun der Antiquario von Perugia ?
+11-1	Wer	PWS	wer	_	O	O	
+11-2	ist	VAFIN	sein	_	O	O	
+11-3	nun	ADV	nun	_	O	O	
+11-4	der	ART	die	_	O	O	
+11-5	Antiquario	NE	<unknown>	_	O	O	
+11-6	von	APPR	von	_	O	O	
+11-7	Perugia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-8	?	$.	?	_	O	O	
+
+#id=12
+#text=Ich schreibe über Cyprische Venusidole (von Roß mitgebracht) und negire den Einfluß phönicischer Kunst auf die nachhomerische Griechenlands.
+12-1	Ich	PPER	ich	_	O	O	
+12-2	schreibe	VVFIN	schreiben	_	O	O	
+12-3	über	APPR	über	_	O	O	
+12-4	Cyprische	NN	<unknown>	_	O	O	
+12-5	Venusidole	NN	<unknown>	_	O	O	
+12-6	(	$(	(	_	O	O	
+12-7	von	APPR	von	_	O	O	
+12-8	Roß	NN	Ross	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-9	mitgebracht	VVPP	mitbringen	_	O	O	
+12-10	)	$(	)	_	O	O	
+12-11	und	KON	und	_	O	O	
+12-12	negire	NE	<unknown>	_	O	O	
+12-13	den	ART	die	_	O	O	
+12-14	Einfluß	NN	Einfluss	_	O	O	
+12-15	phönicischer	ADJA	<unknown>	_	O	O	
+12-16	Kunst	NN	Kunst	_	O	O	
+12-17	auf	APPR	auf	_	O	O	
+12-18	die	ART	die	_	O	O	
+12-19	nachhomerische	ADJA	<unknown>	_	O	O	
+12-20	Griechenlands	NE	Griechenland	_	O	O	
+12-21	.	$.	.	_	O	O	
+

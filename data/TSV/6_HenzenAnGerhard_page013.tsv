@@ -1,0 +1,337 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=) , Ohne Nummer ~enzen an Gerhard 28/VI/51 Hochverehrter Herr Professor !
+1-1	)	$(	)	_	O	O	
+1-2	,	$,	,	_	O	O	
+1-3	Ohne	APPR	ohne	_	O	O	
+1-4	Nummer	NN	Nummer	_	O	O	
+1-5	~enzen	NN	<unknown>	_	O	O	
+1-6	an	APPR	an	_	O	O	
+1-7	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	28/VI/51	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	Hochverehrter	ADJA	hochverehrt	_	O	O	
+1-10	Herr	NN	Herr	_	O	O	
+1-11	Professor	NN	Professor	_	O	O	
+1-12	!	$.	!	_	O	O	
+
+#id=2
+#text=Ihren 1.
+2-1	Ihren	PPOSAT	ihr	_	O	O	
+2-2	1	CARD	1	_	O	O	
+2-3	.	$.	.	_	O	O	
+
+#id=3
+#text=Brief vom 25 n • empfing ich gestern ~bend bei meiner Ankunft u. beeile mich, ihn zu beantworten.
+3-1	Brief	NN	Brief	_	O	O	
+3-2	vom	APPRART	von	_	O	O	
+3-3	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-4	n	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-5	•	NN	<unknown>	_	O	O	
+3-6	empfing	VVFIN	empfangen	_	O	O	
+3-7	ich	PPER	ich	_	O	O	
+3-8	gestern	ADV	gestern	_	O	O	
+3-9	~bend	ADJD	<unknown>	_	O	O	
+3-10	bei	APPR	bei	_	O	O	
+3-11	meiner	PPOSAT	mein	_	O	O	
+3-12	Ankunft	NN	Ankunft	_	O	O	
+3-13	u.	KON	und	_	O	O	
+3-14	beeile	VVFIN	beeilen	_	O	O	
+3-15	mich	PRF	ich	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	ihn	PPER	er	_	O	O	
+3-18	zu	PTKZU	zu	_	O	O	
+3-19	beantworten	VVINF	beantworten	_	O	O	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=Allerdings wäre es recht schön gewesen, wenn ich die Berliner Archäologia in corpore hätte zusammen finden können; allein Sie werden zugeben, dß.
+4-1	Allerdings	ADV	allerdings	_	O	O	
+4-2	wäre	VAFIN	sein	_	O	O	
+4-3	es	PPER	es	_	O	O	
+4-4	recht	ADJD	recht	_	O	O	
+4-5	schön	ADJD	schön	_	O	O	
+4-6	gewesen	VAPP	sein	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	wenn	KOUS	wenn	_	O	O	
+4-9	ich	PPER	ich	_	O	O	
+4-10	die	ART	die	_	O	O	
+4-11	Berliner	ADJA	Berliner	_	O	O	
+4-12	Archäologia	NE	<unknown>	_	O	O	
+4-13	in	APPR	in	_	O	O	
+4-14	corpore	NN	<unknown>	_	O	O	
+4-15	hätte	VAFIN	haben	_	O	O	
+4-16	zusammen	ADV	zusammen	_	O	O	
+4-17	finden	VVINF	finden	_	O	O	
+4-18	können	VMINF	können	_	O	O	
+4-19	;	$.	;	_	O	O	
+4-20	allein	ADV	allein	_	O	O	
+4-21	Sie	PPER	Sie	_	O	O	
+4-22	werden	VAFIN	werden	_	O	O	
+4-23	zugeben	ADJD	zugeben	_	O	O	
+4-24	,	$,	,	_	O	O	
+4-25	dß	VVFIN	<unknown>	_	O	O	
+4-26	.	$.	.	_	O	O	
+
+#id=5
+#text=ich die die maiorem gentium doch noch hätte besuchen müssen, während eben ein solches Zusammentreffen noch manche andre Besuche nöthig machen kann, die mir um so weniger angenehm sein müßten, je mehr ich in Berlin mich auf die nothwerVk.gsten.
+5-1	ich	PPER	ich	_	O	O	
+5-2	die	PDS	die	_	O	O	
+5-3	die	ART	die	_	O	O	
+5-4	maiorem	NN	<unknown>	_	O	O	
+5-5	gentium	ADJD	<unknown>	_	O	O	
+5-6	doch	ADV	doch	_	O	O	
+5-7	noch	ADV	noch	_	O	O	
+5-8	hätte	VAFIN	haben	_	O	O	
+5-9	besuchen	VVINF	besuchen	_	O	O	
+5-10	müssen	VMINF	müssen	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	während	KOUS	während	_	O	O	
+5-13	eben	ADV	eben	_	O	O	
+5-14	ein	ART	eine	_	O	O	
+5-15	solches	PIAT	solche	_	O	O	
+5-16	Zusammentreffen	NN	Zusammentreffen	_	O	O	
+5-17	noch	ADV	noch	_	O	O	
+5-18	manche	PIAT	manche	_	O	O	
+5-19	andre	PIAT	andere	_	O	O	
+5-20	Besuche	NN	Besuch	_	O	O	
+5-21	nöthig	ADJD	<unknown>	_	O	O	
+5-22	machen	VVINF	machen	_	O	O	
+5-23	kann	VMFIN	können	_	O	O	
+5-24	,	$,	,	_	O	O	
+5-25	die	PRELS	die	_	O	O	
+5-26	mir	PPER	ich	_	O	O	
+5-27	um	APPR	um	_	O	O	
+5-28	so	ADV	so	_	O	O	
+5-29	weniger	ADV	weniger	_	O	O	
+5-30	angenehm	ADJD	angenehm	_	O	O	
+5-31	sein	VAINF	sein	_	O	O	
+5-32	müßten	VMFIN	müssen	_	O	O	
+5-33	,	$,	,	_	O	O	
+5-34	je	KOUS	je	_	O	O	
+5-35	mehr	PIS	mehr	_	O	O	
+5-36	ich	PPER	ich	_	O	O	
+5-37	in	APPR	in	_	O	O	
+5-38	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-39	mich	PRF	ich	_	O	O	
+5-40	auf	APPR	auf	_	O	O	
+5-41	die	ART	die	_	O	O	
+5-42	nothwerVk.gsten	NN	<unknown>	_	O	O	
+5-43	.	$.	.	_	O	O	
+
+#id=6
+#text=zu beschränken gedenke, u. je weniger es meine Sache ist, Bekanntschaften zu suchen, bei denen Nichts heraus kommt.
+6-1	zu	PTKZU	zu	_	O	O	
+6-2	beschränken	VVINF	beschränken	_	O	O	
+6-3	gedenke	VVFIN	gedenken	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	u.	APPR	um	_	O	O	
+6-6	je	KOUS	je	_	O	O	
+6-7	weniger	PIS	wenige	_	O	O	
+6-8	es	PPER	es	_	O	O	
+6-9	meine	PPOSAT	mein	_	O	O	
+6-10	Sache	NN	Sache	_	O	O	
+6-11	ist	VAFIN	sein	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	Bekanntschaften	NN	Bekanntschaft	_	O	O	
+6-14	zu	PTKZU	zu	_	O	O	
+6-15	suchen	VVINF	suchen	_	O	O	
+6-16	,	$,	,	_	O	O	
+6-17	bei	APPR	bei	_	O	O	
+6-18	denen	PRELS	die	_	O	O	
+6-19	Nichts	PIS	nichts	_	O	O	
+6-20	heraus	ADV	heraus	_	O	O	
+6-21	kommt	VVFIN	kommen	_	O	O	
+6-22	.	$.	.	_	O	O	
+
+#id=7
+#text=Was Böckh angeht, so wäre seine ''''breise allerdings ein Grund, meine Ankunft zu beschleunigen, wenn ich glauben könnte, dß.
+7-1	Was	PWS	was	_	O	O	
+7-2	Böckh	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-3	angeht	VVFIN	angehen	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	so	ADV	so	_	O	O	
+7-6	wäre	VAFIN	sein	_	O	O	
+7-7	seine	PPOSAT	sein	_	O	O	
+7-8	'	$(	'	_	O	O	
+7-9	'	$(	'	_	O	O	
+7-10	'	$(	'	_	O	O	
+7-11	'	$(	'	_	O	O	
+7-12	breise	NN	<unknown>	_	O	O	
+7-13	allerdings	ADV	allerdings	_	O	O	
+7-14	ein	ART	eine	_	O	O	
+7-15	Grund	NN	Grund	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	meine	PPOSAT	mein	_	O	O	
+7-18	Ankunft	NN	Ankunft	_	O	O	
+7-19	zu	PTKZU	zu	_	O	O	
+7-20	beschleunigen	VVINF	beschleunigen	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	wenn	KOUS	wenn	_	O	O	
+7-23	ich	PPER	ich	_	O	O	
+7-24	glauben	VVINF	glauben	_	O	O	
+7-25	könnte	VMFIN	können	_	O	O	
+7-26	,	$,	,	_	O	O	
+7-27	dß	VVFIN	<unknown>	_	O	O	
+7-28	.	$.	.	_	O	O	
+
+#id=8
+#text=er für einen ihm ganz Fremden zwei Tage vor seiner Abreise noch sichtbar sein könnte, oder dß.
+8-1	er	PPER	er	_	O	O	
+8-2	für	APPR	für	_	O	O	
+8-3	einen	PIS	eine	_	O	O	
+8-4	ihm	PPER	er	_	O	O	
+8-5	ganz	ADV	ganz	_	O	O	
+8-6	Fremden	ADJA	fremd	_	O	O	
+8-7	zwei	CARD	zwei	_	O	O	
+8-8	Tage	NN	Tag	_	O	O	
+8-9	vor	APPR	vor	_	O	O	
+8-10	seiner	PPOSAT	sein	_	O	O	
+8-11	Abreise	NN	Abreise	_	O	O	
+8-12	noch	ADV	noch	_	O	O	
+8-13	sichtbar	ADJD	sichtbar	_	O	O	
+8-14	sein	VAINF	sein	_	O	O	
+8-15	könnte	VMFIN	können	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	oder	KON	oder	_	O	O	
+8-18	dß	VVFIN	<unknown>	_	O	O	
+8-19	.	$.	.	_	O	O	
+
+#id=9
+#text=meine Worte bei ihm dem epigraphischen Unternehmen nützen könnten, über das er ohne Zweifel mit mir kein Wort sprechen würde.
+9-1	meine	PPOSAT	mein	_	O	O	
+9-2	Worte	NN	Wort	_	O	O	
+9-3	bei	APPR	bei	_	O	O	
+9-4	ihm	PPER	er	_	O	O	
+9-5	dem	ART	die	_	O	O	
+9-6	epigraphischen	ADJA	<unknown>	_	O	O	
+9-7	Unternehmen	NN	Unternehmen	_	O	O	
+9-8	nützen	VVINF	nützen	_	O	O	
+9-9	könnten	VMFIN	können	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	über	APPR	über	_	O	O	
+9-12	das	PRELS	die	_	O	O	
+9-13	er	PPER	er	_	O	O	
+9-14	ohne	APPR	ohne	_	O	O	
+9-15	Zweifel	NN	Zweifel	_	O	O	
+9-16	mit	APPR	mit	_	O	O	
+9-17	mir	PPER	ich	_	O	O	
+9-18	kein	PIAT	keine	_	O	O	
+9-19	Wort	NN	Wort	_	O	O	
+9-20	sprechen	VVINF	sprechen	_	O	O	
+9-21	würde	VAFIN	werden	_	O	O	
+9-22	.	$.	.	_	O	O	
+
+#id=10
+#text=Ohnehin ist Böckh nicht der ~ann, Zumptino's Erbärmlichkeit zu verkennen, oder nicht zu wissen, wie man ein C.I. einrichten muss.
+10-1	Ohnehin	ADV	ohnehin	_	O	O	
+10-2	ist	VAFIN	sein	_	O	O	
+10-3	Böckh	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-4	nicht	PTKNEG	nicht	_	O	O	
+10-5	der	ART	die	_	O	O	
+10-6	~ann	NN	<unknown>	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	Zumptino's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-9	Erbärmlichkeit	NN	Erbärmlichkeit	_	O	O	
+10-10	zu	PTKZU	zu	_	O	O	
+10-11	verkennen	VVINF	verkennen	_	O	O	
+10-12	,	$,	,	_	O	O	
+10-13	oder	KON	oder	_	O	O	
+10-14	nicht	PTKNEG	nicht	_	O	O	
+10-15	zu	PTKZU	zu	_	O	O	
+10-16	wissen	VVINF	wissen	_	O	O	
+10-17	,	$,	,	_	O	O	
+10-18	wie	KOUS	wie	_	O	O	
+10-19	man	PIS	man	_	O	O	
+10-20	ein	ART	eine	_	O	O	
+10-21	C.I.	NE	C.I.	_	O	O	
+10-22	einrichten	VVINF	einrichten	_	O	O	
+10-23	muss	VMFIN	müssen	_	O	O	
+10-24	.	$.	.	_	O	O	
+
+#id=11
+#text=Ein Hauptgrund aber, weßhalb ich bei dem alten Reiseplane verharre, ist, daß wir die Nichte meiner Frau, Frl. Düssler, wieder mit aus Italien zurück gebracht haben, die zu ihrer Wutter nach Dresden geht, welche letztere aber erst von Mecklenburg daselbst eintreffen soll.
+11-1	Ein	ART	eine	_	O	O	
+11-2	Hauptgrund	NN	Hauptgrund	_	O	O	
+11-3	aber	ADV	aber	_	O	O	
+11-4	,	$,	,	_	O	O	
+11-5	weßhalb	VVFIN	<unknown>	_	O	O	
+11-6	ich	PPER	ich	_	O	O	
+11-7	bei	APPR	bei	_	O	O	
+11-8	dem	ART	die	_	O	O	
+11-9	alten	ADJA	alt	_	O	O	
+11-10	Reiseplane	NN	<unknown>	_	O	O	
+11-11	verharre	VVFIN	verharren	_	O	O	
+11-12	,	$,	,	_	O	O	
+11-13	ist	VAFIN	sein	_	O	O	
+11-14	,	$,	,	_	O	O	
+11-15	daß	KOUS	dass	_	O	O	
+11-16	wir	PPER	wir	_	O	O	
+11-17	die	ART	die	_	O	O	
+11-18	Nichte	NN	Nichte	_	O	O	
+11-19	meiner	PPOSAT	mein	_	O	O	
+11-20	Frau	NN	Frau	_	O	O	
+11-21	,	$,	,	_	O	O	
+11-22	Frl.	NN	Frl.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-23	Düssler	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-24	,	$,	,	_	O	O	
+11-25	wieder	ADV	wieder	_	O	O	
+11-26	mit	APPR	mit	_	O	O	
+11-27	aus	APPR	aus	_	O	O	
+11-28	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-29	zurück	PTKVZ	zurück	_	O	O	
+11-30	gebracht	VVPP	bringen	_	O	O	
+11-31	haben	VAFIN	haben	_	O	O	
+11-32	,	$,	,	_	O	O	
+11-33	die	PRELS	die	_	O	O	
+11-34	zu	APPR	zu	_	O	O	
+11-35	ihrer	PPOSAT	ihr	_	O	O	
+11-36	Wutter	NN	<unknown>	_	O	O	
+11-37	nach	APPR	nach	_	O	O	
+11-38	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-39	geht	VVFIN	gehen	_	O	O	
+11-40	,	$,	,	_	O	O	
+11-41	welche	PRELS	welche	_	O	O	
+11-42	letztere	ADJA	letzt	_	O	O	
+11-43	aber	KON	aber	_	O	O	
+11-44	erst	ADV	erst	_	O	O	
+11-45	von	APPR	von	_	O	O	
+11-46	Mecklenburg	NE	Mecklenburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-47	daselbst	ADV	daselbst	_	O	O	
+11-48	eintreffen	VVINF	eintreffen	_	O	O	
+11-49	soll	VMFIN	sollen	_	O	O	
+11-50	.	$.	.	_	O	O	
+
+#id=12
+#text=Die erstere ~irde in großer Verlegenheit sein, wenn wir sie jetzt ~lötzlich allein nach Dresden schickten, wo sie ganz verlassen sein würde, wahrend sie teglich einen Brief der
+12-1	Die	ART	die	_	O	O	
+12-2	erstere	PIAT	erstere	_	O	O	
+12-3	~irde	NN	<unknown>	_	O	O	
+12-4	in	APPR	in	_	O	O	
+12-5	großer	ADJA	groß	_	O	O	
+12-6	Verlegenheit	NN	Verlegenheit	_	O	O	
+12-7	sein	VAINF	sein	_	O	O	
+12-8	,	$,	,	_	O	O	
+12-9	wenn	KOUS	wenn	_	O	O	
+12-10	wir	PPER	wir	_	O	O	
+12-11	sie	PPER	sie	_	O	O	
+12-12	jetzt	ADV	jetzt	_	O	O	
+12-13	~lötzlich	ADJD	<unknown>	_	O	O	
+12-14	allein	ADV	allein	_	O	O	
+12-15	nach	APPR	nach	_	O	O	
+12-16	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-17	schickten	VVFIN	schicken	_	O	O	
+12-18	,	$,	,	_	O	O	
+12-19	wo	PWAV	wo	_	O	O	
+12-20	sie	PPER	sie	_	O	O	
+12-21	ganz	ADV	ganz	_	O	O	
+12-22	verlassen	VVPP	verlassen	_	O	O	
+12-23	sein	VAINF	sein	_	O	O	
+12-24	würde	VAFIN	werden	_	O	O	
+12-25	,	$,	,	_	O	O	
+12-26	wahrend	ADJD	wahrend	_	O	O	
+12-27	sie	PPER	sie	_	O	O	
+12-28	teglich	ADJD	<unknown>	_	O	O	
+12-29	einen	ART	eine	_	O	O	
+12-30	Brief	NN	Brief	_	O	O	
+12-31	der	ART	die	_	O	O	
+

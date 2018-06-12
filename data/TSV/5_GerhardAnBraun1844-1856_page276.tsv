@@ -1,0 +1,256 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=72 Gerhard an Braun Berlin, 13. Februar 1849 2 seine "Unsterblichkeit" gestrichen begehrt.
+1-1	72	CARD	72	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1849	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	seine	PPOSAT	sein	_	O	O	
+1-13	"	$(	"	_	O	O	
+1-14	Unsterblichkeit	NN	Unsterblichkeit	_	O	O	
+1-15	"	$(	"	_	O	O	
+1-16	gestrichen	VVPP	streichen	_	O	O	
+1-17	begehrt	VVPP	begehren	_	O	O	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Unzweifelhaft hätte auch ich darauf verzichtet, wenn Sie die in meinen Auserlesenen Vasen 111 S. 21 f. enthaltene gleiche Deutung auf Jason etwa beachtet hätten.
+2-1	Unzweifelhaft	ADJD	unzweifelhaft	_	O	O	
+2-2	hätte	VAFIN	haben	_	O	O	
+2-3	auch	ADV	auch	_	O	O	
+2-4	ich	PPER	ich	_	O	O	
+2-5	darauf	PAV	darauf	_	O	O	
+2-6	verzichtet	VVPP	verzichten	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	wenn	KOUS	wenn	_	O	O	
+2-9	Sie	PPER	Sie	_	O	O	
+2-10	die	ART	die	_	O	O	
+2-11	in	APPR	in	_	O	O	
+2-12	meinen	PPOSAT	mein	_	O	O	
+2-13	Auserlesenen	ADJA	auserlesen	_	O	O	
+2-14	Vasen	NN	Vase	_	O	O	
+2-15	111	CARD	@card@	_	O	O	
+2-16	S.	NN	S.	_	O	O	
+2-17	21	CARD	21	_	O	O	
+2-18	f.	APPR	f.	_	O	O	
+2-19	enthaltene	ADJA	enthalten	_	O	O	
+2-20	gleiche	ADJA	gleich	_	O	O	
+2-21	Deutung	NN	Deutung	_	O	O	
+2-22	auf	APPR	auf	_	O	O	
+2-23	Jason	NE	Jason	_	O	O	
+2-24	etwa	ADV	etwa	_	O	O	
+2-25	beachtet	VVPP	beachten	_	O	O	
+2-26	hätten	VAFIN	haben	_	O	O	
+2-27	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihre Beipflichtung für Jason freut mich, ohne daß ich die seltsame Kleinheit seiner Figur mir ganz wegdemonstriren könnte.
+3-1	Ihre	PPOSAT	ihr	_	O	O	
+3-2	Beipflichtung	NN	<unknown>	_	O	O	
+3-3	für	APPR	für	_	O	O	
+3-4	Jason	NE	Jason	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	freut	VVFIN	freuen	_	O	O	
+3-6	mich	PRF	ich	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	ohne	APPR	ohne	_	O	O	
+3-9	daß	KOUS	dass	_	O	O	
+3-10	ich	PPER	ich	_	O	O	
+3-11	die	ART	die	_	O	O	
+3-12	seltsame	ADJA	seltsam	_	O	O	
+3-13	Kleinheit	NN	Kleinheit	_	O	O	
+3-14	seiner	PPOSAT	sein	_	O	O	
+3-15	Figur	NN	Figur	_	O	O	
+3-16	mir	PRF	ich	_	O	O	
+3-17	ganz	ADV	ganz	_	O	O	
+3-18	wegdemonstriren	NN	<unknown>	_	O	O	
+3-19	könnte	VMFIN	können	_	O	O	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=Ihre Einlagen gehen gleich weiter.
+4-1	Ihre	PPOSAT	ihr	_	O	O	
+4-2	Einlagen	NN	Einlage	_	O	O	
+4-3	gehen	VVFIN	gehen	_	O	O	
+4-4	gleich	ADJD	gleich	_	O	O	
+4-5	weiter	PTKVZ	weiter	_	O	O	
+4-6	.	$.	.	_	O	O	
+
+#id=5
+#text=Lebt denn Rathgeber noch 11 Für Boreas (ebd. S. 18) statt des Todesdämons spricht auch Cedrenus p. 96 ~ 119.
+5-1	Lebt	VVFIN	leben	_	O	O	
+5-2	denn	ADV	denn	_	O	O	
+5-3	Rathgeber	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	noch	ADV	noch	_	O	O	
+5-5	11	CARD	11	_	O	O	
+5-6	Für	APPR	für	_	O	O	
+5-7	Boreas	NN	Boreas	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-8	(	$(	(	_	O	O	
+5-9	ebd.	ADV	ebd.	_	O	O	
+5-10	S.	NE	S.	_	O	O	
+5-11	18	CARD	18	_	O	O	
+5-12	)	$(	)	_	O	O	
+5-13	statt	APPR	statt	_	O	O	
+5-14	des	ART	die	_	O	O	
+5-15	Todesdämons	NN	<unknown>	_	O	O	
+5-16	spricht	VVFIN	sprechen	_	O	O	
+5-17	auch	ADV	auch	_	O	O	
+5-18	Cedrenus	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-19	p.	APPR	p.	_	O	O	
+5-20	96	CARD	96	_	O	O	
+5-21	~	XY	~	_	O	O	
+5-22	119	CARD	119	_	O	O	
+5-23	.	$.	.	_	O	O	
+
+#id=6
+#text=Das Bullettino (Juni-August, nicht weiter ) hatte ich kaum erhalten als ich es zu zweckdienlicher Erwähnung des Instituts im Staatsanzeiger benutzte - , gewiß ohne Einfluß Eures seitdem eingelaufenen Spectakels, nachgehends aber nicht ohne Schmerz daß mein Bemühen dem Institut Sympathien der Anerkennung nach einiger Bangigkeit in Deutschland auch zu jetziger kritischer Zeit zu erwecken so plump und schmählich verkannt wird !
+6-1	Das	ART	die	_	O	O	
+6-2	Bullettino	NN	<unknown>	_	O	O	
+6-3	(	$(	(	_	O	O	
+6-4	Juni-August	NN	<unknown>	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	nicht	PTKNEG	nicht	_	O	O	
+6-7	weiter	ADV	weiter	_	O	O	
+6-8	)	$(	)	_	O	O	
+6-9	hatte	VAFIN	haben	_	O	O	
+6-10	ich	PPER	ich	_	O	O	
+6-11	kaum	ADV	kaum	_	O	O	
+6-12	erhalten	VVPP	erhalten	_	O	O	
+6-13	als	KOKOM	als	_	O	O	
+6-14	ich	PPER	ich	_	O	O	
+6-15	es	PPER	es	_	O	O	
+6-16	zu	PTKZU	zu	_	O	O	
+6-17	zweckdienlicher	ADJA	zweckdienlich	_	O	O	
+6-18	Erwähnung	NN	Erwähnung	_	O	O	
+6-19	des	ART	die	_	O	O	
+6-20	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-21	im	APPRART	in	_	O	O	
+6-22	Staatsanzeiger	NN	Staatsanzeiger	_	O	O	
+6-23	benutzte	VVFIN	benutzen	_	O	O	
+6-24	-	$(	-	_	O	O	
+6-25	,	$,	,	_	O	O	
+6-26	gewiß	ADJD	gewiss	_	O	O	
+6-27	ohne	APPR	ohne	_	O	O	
+6-28	Einfluß	NN	Einfluss	_	O	O	
+6-29	Eures	PPOSAT	euer	_	O	O	
+6-30	seitdem	PAV	seitdem	_	O	O	
+6-31	eingelaufenen	ADJA	eingelaufen	_	O	O	
+6-32	Spectakels	NN	<unknown>	_	O	O	
+6-33	,	$,	,	_	O	O	
+6-34	nachgehends	ADV	<unknown>	_	O	O	
+6-35	aber	ADV	aber	_	O	O	
+6-36	nicht	PTKNEG	nicht	_	O	O	
+6-37	ohne	APPR	ohne	_	O	O	
+6-38	Schmerz	NN	Schmerz	_	O	O	
+6-39	daß	KOUS	dass	_	O	O	
+6-40	mein	PPOSAT	mein	_	O	O	
+6-41	Bemühen	NN	Bemühen	_	O	O	
+6-42	dem	ART	die	_	O	O	
+6-43	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-44	Sympathien	NN	Sympathie	_	O	O	
+6-45	der	ART	die	_	O	O	
+6-46	Anerkennung	NN	Anerkennung	_	O	O	
+6-47	nach	APPR	nach	_	O	O	
+6-48	einiger	PIAT	einige	_	O	O	
+6-49	Bangigkeit	NN	Bangigkeit	_	O	O	
+6-50	in	APPR	in	_	O	O	
+6-51	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-52	auch	ADV	auch	_	O	O	
+6-53	zu	PTKA	zu	_	O	O	
+6-54	jetziger	ADJD	jetzig	_	O	O	
+6-55	kritischer	ADJA	kritisch	_	O	O	
+6-56	Zeit	NN	Zeit	_	O	O	
+6-57	zu	PTKZU	zu	_	O	O	
+6-58	erwecken	VVINF	erwecken	_	O	O	
+6-59	so	ADV	so	_	O	O	
+6-60	plump	ADJD	plump	_	O	O	
+6-61	und	KON	und	_	O	O	
+6-62	schmählich	ADJD	schmählich	_	O	O	
+6-63	verkannt	VVPP	verkennen	_	O	O	
+6-64	wird	VAFIN	werden	_	O	O	
+6-65	!	$.	!	_	O	O	
+
+#id=7
+#text=Bunsen geht eben über Berlin nach London zurück; ich soll ihn noch ~rechen.
+7-1	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	geht	VVFIN	gehen	_	O	O	
+7-3	eben	ADV	eben	_	O	O	
+7-4	über	APPR	über	_	O	O	
+7-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-6	nach	APPR	nach	_	O	O	
+7-7	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-8	zurück	PTKVZ	zurück	_	O	O	
+7-9	;	$.	;	_	O	O	
+7-10	ich	PPER	ich	_	O	O	
+7-11	soll	VMFIN	sollen	_	O	O	
+7-12	ihn	PPER	er	_	O	O	
+7-13	noch	ADV	noch	_	O	O	
+7-14	~rechen	ADJD	<unknown>	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=Buchhändlerzahl'llngen erfolgen (aus Deutschland seit voriger Osterremesse, aus Frenkreich schon seit Jahren) noch immer nicht und kein Buchhändler mag drucken.
+8-1	Buchhändlerzahl'llngen	NN	<unknown>	_	O	O	
+8-2	erfolgen	VVINF	erfolgen	_	O	O	
+8-3	(	$(	(	_	O	O	
+8-4	aus	APPR	aus	_	O	O	
+8-5	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-6	seit	APPR	seit	_	O	O	
+8-7	voriger	ADJA	vorig	_	O	O	
+8-8	Osterremesse	NN	<unknown>	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	aus	APPR	aus	_	O	O	
+8-11	Frenkreich	NN	<unknown>	_	O	O	
+8-12	schon	ADV	schon	_	O	O	
+8-13	seit	APPR	seit	_	O	O	
+8-14	Jahren	NN	Jahr	_	O	O	
+8-15	)	$(	)	_	O	O	
+8-16	noch	ADV	noch	_	O	O	
+8-17	immer	ADV	immer	_	O	O	
+8-18	nicht	PTKNEG	nicht	_	O	O	
+8-19	und	KON	und	_	O	O	
+8-20	kein	PIAT	keine	_	O	O	
+8-21	Buchhändler	NN	Buchhändler	_	O	O	
+8-22	mag	VMFIN	mögen	_	O	O	
+8-23	drucken	VVINF	drucken	_	O	O	
+8-24	.	$.	.	_	O	O	
+
+#id=9
+#text=Dies der Grund warum Reimer der Ihre Denkmälerkunde mir zu Gefallen dem Band Archäologische Studien voran druckte noch immer weiter zu drucken verweigert.
+9-1	Dies	PDS	dies	_	O	O	
+9-2	der	ART	die	_	O	O	
+9-3	Grund	NN	Grund	_	O	O	
+9-4	warum	PWAV	warum	_	O	O	
+9-5	Reimer	NN	Reimer	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-6	der	ART	die	_	O	O	
+9-7	Ihre	PPOSAT	ihr	_	O	O	
+9-8	Denkmälerkunde	NN	<unknown>	_	O	O	
+9-9	mir	PRF	ich	_	O	O	
+9-10	zu	APPR	zu	_	O	O	
+9-11	Gefallen	NN	Gefallen	_	O	O	
+9-12	dem	ART	die	_	O	O	
+9-13	Band	NN	Band	_	O	O	
+9-14	Archäologische	ADJA	archäologisch	_	O	O	
+9-15	Studien	NN	Studie|Studium	_	O	O	
+9-16	voran	ADV	voran	_	O	O	
+9-17	druckte	VVFIN	drucken	_	O	O	
+9-18	noch	ADV	noch	_	O	O	
+9-19	immer	ADV	immer	_	O	O	
+9-20	weiter	ADV	weiter	_	O	O	
+9-21	zu	PTKZU	zu	_	O	O	
+9-22	drucken	VVINF	drucken	_	O	O	
+9-23	verweigert	VVFIN	verweigern	_	O	O	
+9-24	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich denke nach
+10-1	Ich	PPER	ich	_	O	O	
+10-2	denke	VVFIN	denken	_	O	O	
+10-3	nach	APPR	nach	_	O	O	
+

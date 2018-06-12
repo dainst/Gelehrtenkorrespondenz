@@ -1,0 +1,261 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Ohne Nummer Henzen an Gerhard 19/VIII/54 3 r"ist mir nicht deutlich, ob, was ich und lese, nicht vielmehr ~ sei, u. nur das Quartal 1 Juli - 30 Sept~ gemeint sei.
+1-1	Ohne	APPR	ohne	_	O	O	
+1-2	Nummer	NN	Nummer	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	19/VIII/54	NN	<unknown>	_	O	O	
+1-7	3	CARD	3	_	O	O	
+1-8	r"ist	VVFIN	<unknown>	_	O	O	
+1-9	mir	PPER	ich	_	O	O	
+1-10	nicht	PTKNEG	nicht	_	O	O	
+1-11	deutlich	ADJD	deutlich	_	O	O	
+1-12	,	$,	,	_	O	O	
+1-13	ob	KOUS	ob	_	O	O	
+1-14	,	$,	,	_	O	O	
+1-15	was	PWS	was	_	O	O	
+1-16	ich	PPER	ich	_	O	O	
+1-17	und	KON	und	_	O	O	
+1-18	lese	VVFIN	lesen	_	O	O	
+1-19	,	$,	,	_	O	O	
+1-20	nicht	PTKNEG	nicht	_	O	O	
+1-21	vielmehr	ADV	vielmehr	_	O	O	
+1-22	~	XY	~	_	O	O	
+1-23	sei	VAFIN	sein	_	O	O	
+1-24	,	$,	,	_	O	O	
+1-25	u.	KON	und	_	O	O	
+1-26	nur	ADV	nur	_	O	O	
+1-27	das	ART	die	_	O	O	
+1-28	Quartal	NN	Quartal	_	O	O	
+1-29	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-30	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-31	-	$(	-	_	O	O	
+1-32	30	CARD	30	_	O	O	
+1-33	Sept~	NN	<unknown>	_	O	O	
+1-34	gemeint	VVPP	meinen	_	O	O	
+1-35	sei	VAFIN	sein	_	O	O	
+1-36	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich bitte, mir noch ausdrücklich zu schreiben 1) ob ich also, wenn ich nach Rom komme, sofort Quartal 1 Juli - 30 Sept.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	bitte	VVFIN	bitten	_	O	O	
+2-3	,	$,	,	_	O	O	
+2-4	mir	PRF	ich	_	O	O	
+2-5	noch	ADV	noch	_	O	O	
+2-6	ausdrücklich	ADJD	ausdrücklich	_	O	O	
+2-7	zu	PTKZU	zu	_	O	O	
+2-8	schreiben	VVINF	schreiben	_	O	O	
+2-9	1	CARD	1	_	O	O	
+2-10	)	$(	)	_	O	O	
+2-11	ob	KOUS	ob	_	O	O	
+2-12	ich	PPER	ich	_	O	O	
+2-13	also	ADV	also	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	wenn	KOUS	wenn	_	O	O	
+2-16	ich	PPER	ich	_	O	O	
+2-17	nach	APPR	nach	_	O	O	
+2-18	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-19	komme	VVFIN	kommen	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	sofort	ADV	sofort	_	O	O	
+2-22	Quartal	NN	Quartal	_	O	O	
+2-23	1	CARD	1	_	O	O	
+2-24	Juli	NN	Juli	_	O	O	
+2-25	-	$(	-	_	O	O	
+2-26	30	CARD	30	_	O	O	
+2-27	Sept.	NN	<unknown>	_	O	O	
+
+#id=3
+#text=einkassiren kann; 2) ob ich am 1~ October das Schlußquartal bekommen kann; 3) ob für die Zukunft die \ Pranumerationszahlung überhaupt gelten soll.
+3-1	einkassiren	NN	<unknown>	_	O	O	
+3-2	kann	VMFIN	können	_	O	O	
+3-3	;	$.	;	_	O	O	
+3-4	2	CARD	2	_	O	O	
+3-5	)	$(	)	_	O	O	
+3-6	ob	KOUS	ob	_	O	O	
+3-7	ich	PPER	ich	_	O	O	
+3-8	am	APPRART	an	_	O	O	
+3-9	1~	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-10	October	VVFIN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-11	das	ART	die	_	O	O	
+3-12	Schlußquartal	NN	Schlussquartal	_	O	O	
+3-13	bekommen	VVINF	bekommen	_	O	O	
+3-14	kann	VMFIN	können	_	O	O	
+3-15	;	$.	;	_	O	O	
+3-16	3	CARD	3	_	O	O	
+3-17	)	$(	)	_	O	O	
+3-18	ob	ADV	ob	_	O	O	
+3-19	für	APPR	für	_	O	O	
+3-20	die	ART	die	_	O	O	
+3-21	Zukunft	NN	Zukunft	_	O	O	
+3-22	die	ART	die	_	O	O	
+3-23	\	XY	\	_	O	O	
+3-24	Pranumerationszahlung	NN	<unknown>	_	O	O	
+3-25	überhaupt	ADV	überhaupt	_	O	O	
+3-26	gelten	VVINF	gelten	_	O	O	
+3-27	soll	VMFIN	sollen	_	O	O	
+3-28	.	$.	.	_	O	O	
+
+#id=4
+#text=,t ...... w> Der zweite ~heil Ihres Briefes ist erledigt.
+4-1	,t	NN	<unknown>	_	O	O	
+4-2	...	$.	...	_	O	O	
+4-3	...	$.	...	_	O	O	
+4-4	w>	VVFIN	<unknown>	_	O	O	
+4-5	Der	ART	die	_	O	O	
+4-6	zweite	ADJA	zweit	_	O	O	
+4-7	~heil	NN	<unknown>	_	O	O	
+4-8	Ihres	PPOSAT	ihr	_	O	O	
+4-9	Briefes	NN	Brief	_	O	O	
+4-10	ist	VAFIN	sein	_	O	O	
+4-11	erledigt	VVPP	erledigen	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=ieil ich das alberne Spielzeug eines rothen Vogels p~horrescirte, worin Sie innerlich mir, davon bin ich gewiß, Recht ßeben werden, sollten üie doch mich nicht ;5berhaupt für un?
+5-1	ieil	ADJD	<unknown>	_	O	O	
+5-2	ich	PPER	ich	_	O	O	
+5-3	das	ART	die	_	O	O	
+5-4	alberne	ADJA	albern	_	O	O	
+5-5	Spielzeug	NN	Spielzeug	_	O	O	
+5-6	eines	ART	eine	_	O	O	
+5-7	rothen	NN	<unknown>	_	O	O	
+5-8	Vogels	NN	Vogel	_	O	O	
+5-9	p~horrescirte	NN	<unknown>	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	worin	PWAV	worin	_	O	O	
+5-12	Sie	PPER	Sie	_	O	O	
+5-13	innerlich	ADJD	innerlich	_	O	O	
+5-14	mir	PPER	ich	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	davon	PAV	davon	_	O	O	
+5-17	bin	VAFIN	sein	_	O	O	
+5-18	ich	PPER	ich	_	O	O	
+5-19	gewiß	ADJD	gewiss	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	Recht	NN	Recht	_	O	O	
+5-22	ßeben	VVPP	<unknown>	_	O	O	
+5-23	werden	VAFIN	werden	_	O	O	
+5-24	,	$,	,	_	O	O	
+5-25	sollten	VMFIN	sollen	_	O	O	
+5-26	üie	VVPP	<unknown>	_	O	O	
+5-27	doch	KON	doch	_	O	O	
+5-28	mich	PRF	ich	_	O	O	
+5-29	nicht	PTKNEG	nicht	_	O	O	
+5-30	;	$.	;	_	O	O	
+5-31	5berhaupt	NN	<unknown>	_	O	O	
+5-32	für	APPR	für	_	O	O	
+5-33	un	NE	un	_	O	O	
+5-34	?	$.	?	_	O	O	
+
+#id=6
+#text=:;enücsam hellten.
+6-1	:	$.	:	_	O	O	
+6-2	;	$.	;	_	O	O	
+6-3	enücsam	NE	<unknown>	_	O	O	
+6-4	hellten	VVFIN	hellen	_	O	O	
+6-5	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich hasse einmal von Herzen Phrasen und Alles, was denselben gleicht.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	hasse	VVFIN	hassen	_	O	O	
+7-3	einmal	ADV	einmal	_	O	O	
+7-4	von	APPR	von	_	O	O	
+7-5	Herzen	NN	Herz	_	O	O	
+7-6	Phrasen	NN	Phrase	_	O	O	
+7-7	und	KON	und	_	O	O	
+7-8	Alles	PIS	alle	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	was	PRELS	was	_	O	O	
+7-11	denselben	PDS	derselbe	_	O	O	
+7-12	gleicht	VVFIN	gleichen	_	O	O	
+7-13	.	$.	.	_	O	O	
+
+#id=8
+#text=Meine Frau ist äußerst schwach u. angezriffen, u. dabei in großer innerer Irritation; doch ist sie endlich in voriger Nacht zu etwas mehr Schlaf 3ekommen.
+8-1	Meine	PPOSAT	mein	_	O	O	
+8-2	Frau	NN	Frau	_	O	O	
+8-3	ist	VAFIN	sein	_	O	O	
+8-4	äußerst	ADV	äußerst	_	O	O	
+8-5	schwach	ADJD	schwach	_	O	O	
+8-6	u.	KON	und	_	O	O	
+8-7	angezriffen	ADJD	<unknown>	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	u.	KON	und	_	O	O	
+8-10	dabei	PAV	dabei	_	O	O	
+8-11	in	APPR	in	_	O	O	
+8-12	großer	ADJA	groß	_	O	O	
+8-13	innerer	ADJA	inner	_	O	O	
+8-14	Irritation	NN	Irritation	_	O	O	
+8-15	;	$.	;	_	O	O	
+8-16	doch	ADV	doch	_	O	O	
+8-17	ist	VAFIN	sein	_	O	O	
+8-18	sie	PPER	sie	_	O	O	
+8-19	endlich	ADV	endlich	_	O	O	
+8-20	in	APPR	in	_	O	O	
+8-21	voriger	ADJA	vorig	_	O	O	
+8-22	Nacht	NN	Nacht	_	O	O	
+8-23	zu	APPR	zu	_	O	O	
+8-24	etwas	ADV	etwas	_	O	O	
+8-25	mehr	PIAT	mehr	_	O	O	
+8-26	Schlaf	NN	Schlaf	_	O	O	
+8-27	3ekommen	NN	<unknown>	_	O	O	
+8-28	.	$.	.	_	O	O	
+
+#id=9
+#text=Ordentlich bessern wird sich der ~ustand doch nicht vor der \ \ Wetterscheide, die aber ja hoffentlich nahe ist.
+9-1	Ordentlich	ADJD	ordentlich	_	O	O	
+9-2	bessern	VVINF	bessern	_	O	O	
+9-3	wird	VAFIN	werden	_	O	O	
+9-4	sich	PRF	sich	_	O	O	
+9-5	der	ART	die	_	O	O	
+9-6	~ustand	NN	<unknown>	_	O	O	
+9-7	doch	ADV	doch	_	O	O	
+9-8	nicht	PTKNEG	nicht	_	O	O	
+9-9	vor	APPR	vor	_	O	O	
+9-10	der	ART	die	_	O	O	
+9-11	\	XY	\	_	O	O	
+9-12	\	XY	\	_	O	O	
+9-13	Wetterscheide	NN	Wetterscheide	_	O	O	
+9-14	,	$,	,	_	O	O	
+9-15	die	PRELS	die	_	O	O	
+9-16	aber	ADV	aber	_	O	O	
+9-17	ja	ADV	ja	_	O	O	
+9-18	hoffentlich	ADV	hoffentlich	_	O	O	
+9-19	nahe	PTKVZ	nahe	_	O	O	
+9-20	ist	VAFIN	sein	_	O	O	
+9-21	.	$.	.	_	O	O	
+
+#id=10
+#text=Es ist t !
+10-1	Es	PPER	es	_	O	O	
+10-2	ist	VAFIN	sein	_	O	O	
+10-3	t	NN	t	_	O	O	
+10-4	!	$.	!	_	O	O	
+
+#id=11
+#text=~eine harte F'rüfune;.
+11-1	~eine	ADJA	<unknown>	_	O	O	
+11-2	harte	ADJA	hart	_	O	O	
+11-3	F'rüfune	NN	<unknown>	_	O	O	
+11-4	;	$.	;	_	O	O	
+11-5	.	$.	.	_	O	O	
+
+#id=12
+#text=, ,.-- ,,~,' ~ , <'"
+12-1	,	$,	,	_	O	O	
+12-2	,.	ADJA	<unknown>	_	O	O	
+12-3	--	$(	--	_	O	O	
+12-4	,,~	NN	<unknown>	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	'	$(	'	_	O	O	
+12-7	~	XY	~	_	O	O	
+12-8	,	$,	,	_	O	O	
+12-9	<	$(	<	_	O	O	
+12-10	'	$(	'	_	O	O	
+12-11	"	$(	"	_	O	O	
+

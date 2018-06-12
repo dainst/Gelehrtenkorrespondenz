@@ -1,0 +1,246 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=H Lieber Herr Professor Helbig an Henzen Siena, 20. August 1874 g. 23/8 74 r. Siena Villa Poggiarello-Bergagl 20.
+1-1	H	NN	H	_	O	O	
+1-2	Lieber	ADJA	lieb	_	O	O	
+1-3	Herr	NN	Herr	_	O	O	
+1-4	Professor	NN	Professor	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	23/8	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	r.	ADJA	<unknown>	_	O	O	
+1-18	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-19	Villa	NN	Villa	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+1-20	Poggiarello-Bergagl	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+1-21	20	CARD	20	_	O	O	
+1-22	.	$.	.	_	O	O	
+
+#id=2
+#text=Ag.
+2-1	Ag.	NE	<unknown>	_	O	O	
+
+#id=3
+#text=74 Ich danke für Ihren freundlichen Brief vom 18.
+3-1	74	CARD	74	_	O	O	
+3-2	Ich	PPER	ich	_	O	O	
+3-3	danke	VVFIN	danken	_	O	O	
+3-4	für	APPR	für	_	O	O	
+3-5	Ihren	PPOSAT	ihr	_	O	O	
+3-6	freundlichen	ADJA	freundlich	_	O	O	
+3-7	Brief	NN	Brief	_	O	O	
+3-8	vom	APPRART	von	_	O	O	
+3-9	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=4
+#text=Da mir selbst die Berufung Ninos hierher schwierig zu sein schien, so schrieb ich unmittelbar nach Absendung meiner Karte an Sie an Mau, ihn bittend, zu uns zu kommen.
+4-1	Da	KOUS	da	_	O	O	
+4-2	mir	PPER	ich	_	O	O	
+4-3	selbst	ADV	selbst	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	Berufung	NN	Berufung	_	O	O	
+4-6	Ninos	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-7	hierher	ADV	hierher	_	O	O	
+4-8	schwierig	ADJD	schwierig	_	O	O	
+4-9	zu	PTKZU	zu	_	O	O	
+4-10	sein	VAINF	sein	_	O	O	
+4-11	schien	VVFIN	scheinen	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	so	ADV	so	_	O	O	
+4-14	schrieb	VVFIN	schreiben	_	O	O	
+4-15	ich	PPER	ich	_	O	O	
+4-16	unmittelbar	ADJD	unmittelbar	_	O	O	
+4-17	nach	APPR	nach	_	O	O	
+4-18	Absendung	NN	Absendung	_	O	O	
+4-19	meiner	PPOSAT	mein	_	O	O	
+4-20	Karte	NN	Karte	_	O	O	
+4-21	an	APPR	an	_	O	O	
+4-22	Sie	PPER	Sie	_	O	O	
+4-23	an	APPR	an	_	O	O	
+4-24	Mau	NE	Mau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-25	,	$,	,	_	O	O	
+4-26	ihn	PPER	er	_	O	O	
+4-27	bittend	ADJD	bittend	_	O	O	
+4-28	,	$,	,	_	O	O	
+4-29	zu	PTKA	zu	_	O	O	
+4-30	uns	PPER	wir	_	O	O	
+4-31	zu	PTKZU	zu	_	O	O	
+4-32	kommen	VVINF	kommen	_	O	O	
+4-33	.	$.	.	_	O	O	
+
+#id=5
+#text=Zunächst muß ich seine Antwort abwarten.
+5-1	Zunächst	ADV	zunächst	_	O	O	
+5-2	muß	VMFIN	müssen	_	O	O	
+5-3	ich	PPER	ich	_	O	O	
+5-4	seine	PPOSAT	sein	_	O	O	
+5-5	Antwort	NN	Antwort	_	O	O	
+5-6	abwarten	VVINF	abwarten	_	O	O	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=An den kleinen Schulz hatte ich leider nicht gedacht.
+6-1	An	APPR	an	_	O	O	
+6-2	den	ART	die	_	O	O	
+6-3	kleinen	ADJA	klein	_	O	O	
+6-4	Schulz	NE	Schulz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	hatte	VAFIN	haben	_	O	O	
+6-6	ich	PPER	ich	_	O	O	
+6-7	leider	ADV	leider	_	O	O	
+6-8	nicht	PTKNEG	nicht	_	O	O	
+6-9	gedacht	VVPP	denken|gedenken	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Übrigens wird es jetzt hier so kalt und windig, daß wir da~ rauf denken, gegen Mitte September in die Stadt zu ziehen, was ja die ganze Constellation ändern würde.
+7-1	Übrigens	ADV	übrigens	_	O	O	
+7-2	wird	VAFIN	werden	_	O	O	
+7-3	es	PPER	es	_	O	O	
+7-4	jetzt	ADV	jetzt	_	O	O	
+7-5	hier	ADV	hier	_	O	O	
+7-6	so	ADV	so	_	O	O	
+7-7	kalt	ADJD	kalt	_	O	O	
+7-8	und	KON	und	_	O	O	
+7-9	windig	ADJD	windig	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	daß	KOUS	dass	_	O	O	
+7-12	wir	PPER	wir	_	O	O	
+7-13	da~	VVFIN	<unknown>	_	O	O	
+7-14	rauf	ADV	rauf	_	O	O	
+7-15	denken	VVINF	denken	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	gegen	APPR	gegen	_	O	O	
+7-18	Mitte	NN	Mitte	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-19	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-20	in	APPR	in	_	O	O	
+7-21	die	ART	die	_	O	O	
+7-22	Stadt	NN	Stadt	_	O	O	
+7-23	zu	PTKZU	zu	_	O	O	
+7-24	ziehen	VVINF	ziehen	_	O	O	
+7-25	,	$,	,	_	O	O	
+7-26	was	PRELS	was	_	O	O	
+7-27	ja	ADV	ja	_	O	O	
+7-28	die	ART	die	_	O	O	
+7-29	ganze	ADJA	ganz	_	O	O	
+7-30	Constellation	NN	<unknown>	_	O	O	
+7-31	ändern	VVINF	ändern	_	O	O	
+7-32	würde	VAFIN	werden	_	O	O	
+7-33	.	$.	.	_	O	O	
+
+#id=8
+#text=Um den Haupthemmschuh meiner griechischen Reise los zu werden, gehe ich morgen auf einige Tage nach Florenz, wo sich, wie mir Gamurrini mittheilt, die Bücher befinden, die ich zur Vollendung der Liste der Cornetana brauche.
+8-1	Um	KOUI	um	_	O	O	
+8-2	den	ART	die	_	O	O	
+8-3	Haupthemmschuh	NN	<unknown>	_	O	O	
+8-4	meiner	PPOSAT	mein	_	O	O	
+8-5	griechischen	ADJA	griechisch	_	O	O	
+8-6	Reise	NN	Reise	_	O	O	
+8-7	los	ADJD	los	_	O	O	
+8-8	zu	PTKZU	zu	_	O	O	
+8-9	werden	VAINF	werden	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	gehe	VVFIN	gehen	_	O	O	
+8-12	ich	PPER	ich	_	O	O	
+8-13	morgen	ADV	morgen	_	O	O	
+8-14	auf	APPR	auf	_	O	O	
+8-15	einige	PIAT	einige	_	O	O	
+8-16	Tage	NN	Tag	_	O	O	
+8-17	nach	APPR	nach	_	O	O	
+8-18	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-19	,	$,	,	_	O	O	
+8-20	wo	PWAV	wo	_	O	O	
+8-21	sich	PRF	sich	_	O	O	
+8-22	,	$,	,	_	O	O	
+8-23	wie	KOUS	wie	_	O	O	
+8-24	mir	PPER	ich	_	O	O	
+8-25	Gamurrini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-26	mittheilt	VVFIN	<unknown>	_	O	O	
+8-27	,	$,	,	_	O	O	
+8-28	die	ART	die	_	O	O	
+8-29	Bücher	NN	Buch	_	O	O	
+8-30	befinden	VVFIN	befinden	_	O	O	
+8-31	,	$,	,	_	O	O	
+8-32	die	PRELS	die	_	O	O	
+8-33	ich	PPER	ich	_	O	O	
+8-34	zur	APPRART	zu	_	O	O	
+8-35	Vollendung	NN	Vollendung	_	O	O	
+8-36	der	ART	die	_	O	O	
+8-37	Liste	NN	Liste	_	O	O	
+8-38	der	ART	die	_	O	O	
+8-39	Cornetana	NE	<unknown>	_	O	O	
+8-40	brauche	VVFIN	brauchen	_	O	O	
+8-41	.	$.	.	_	O	O	
+
+#id=9
+#text=Dann schicke ich die Liste sofort zum Druck an Dressel.
+9-1	Dann	ADV	dann	_	O	O	
+9-2	schicke	VVFIN	schicken	_	O	O	
+9-3	ich	PPER	ich	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	Liste	NN	Liste	_	O	O	
+9-6	sofort	ADV	sofort	_	O	O	
+9-7	zum	APPRART	zu	_	O	O	
+9-8	Druck	NN	Druck	_	O	O	
+9-9	an	APPR	an	_	O	O	
+9-10	Dressel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-11	.	$.	.	_	O	O	
+
+#id=10
+#text=Gamurrini war hier und erklärte, uns plein pouvoir zur Publication der neugefundenen Chiusina zu geben.
+10-1	Gamurrini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	war	VAFIN	sein	_	O	O	
+10-3	hier	ADV	hier	_	O	O	
+10-4	und	KON	und	_	O	O	
+10-5	erklärte	VVFIN	erklären	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	uns	PRF	wir	_	O	O	
+10-8	plein	ADJA	<unknown>	_	O	O	
+10-9	pouvoir	NN	<unknown>	_	O	O	
+10-10	zur	APPRART	zu	_	O	O	
+10-11	Publication	NN	<unknown>	_	O	O	
+10-12	der	ART	die	_	O	O	
+10-13	neugefundenen	ADJA	neugefunden	_	O	O	
+10-14	Chiusina	NN	<unknown>	_	O	O	
+10-15	zu	PTKZU	zu	_	O	O	
+10-16	geben	VVINF	geben	_	O	O	
+10-17	.	$.	.	_	O	O	
+
+#id=11
+#text=Doch liegt dabei die Schwierigkeit vor, daß er sie gern von einem seiner chiusiner Amici gezeichnet wissen möchte, zu dessen Kunst ich aber wenig Zutrauen
+11-1	Doch	KON	doch	_	O	O	
+11-2	liegt	VVFIN	liegen	_	O	O	
+11-3	dabei	PAV	dabei	_	O	O	
+11-4	die	ART	die	_	O	O	
+11-5	Schwierigkeit	NN	Schwierigkeit	_	O	O	
+11-6	vor	PTKVZ	vor	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	daß	KOUS	dass	_	O	O	
+11-9	er	PPER	er	_	O	O	
+11-10	sie	PPER	sie	_	O	O	
+11-11	gern	ADV	gern	_	O	O	
+11-12	von	APPR	von	_	O	O	
+11-13	einem	ART	eine	_	O	O	
+11-14	seiner	PPOSAT	sein	_	O	O	
+11-15	chiusiner	ADJA	<unknown>	_	O	O	
+11-16	Amici	NE	<unknown>	_	O	O	
+11-17	gezeichnet	VVPP	zeichnen	_	O	O	
+11-18	wissen	VVINF	wissen	_	O	O	
+11-19	möchte	VMFIN	mögen	_	O	O	
+11-20	,	$,	,	_	O	O	
+11-21	zu	APPR	zu	_	O	O	
+11-22	dessen	PRELAT	die	_	O	O	
+11-23	Kunst	NN	Kunst	_	O	O	
+11-24	ich	PPER	ich	_	O	O	
+11-25	aber	ADV	aber	_	O	O	
+11-26	wenig	PIAT	wenige	_	O	O	
+11-27	Zutrauen	NN	Zutrauen	_	O	O	
+

@@ -1,0 +1,230 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Lepsius an Henzen Berlin, 2. Januar 1874 L g. 7/74 r. Berlin, d. 2. Jan.
+1-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	L	NN	L	_	O	O	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	7/74	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	r.	ADJA	<unknown>	_	O	O	
+1-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	,	$,	,	_	O	O	
+1-16	d.	ART	d.	_	O	O	
+1-17	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1874 Verehrter Freund Sie haben hoffentlich das neue Jahr gesund und frisch angetreten.
+2-1	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Verehrter	NN	Verehrte	_	O	O	
+2-3	Freund	NE	Freund	_	O	O	
+2-4	Sie	PPER	Sie	_	O	O	
+2-5	haben	VAFIN	haben	_	O	O	
+2-6	hoffentlich	ADV	hoffentlich	_	O	O	
+2-7	das	ART	die	_	O	O	
+2-8	neue	ADJA	neu	_	O	O	
+2-9	Jahr	NN	Jahr	_	O	O	
+2-10	gesund	ADJD	gesund	_	O	O	
+2-11	und	KON	und	_	O	O	
+2-12	frisch	ADJD	frisch	_	O	O	
+2-13	angetreten	VVPP	antreten	_	O	O	
+2-14	.	$.	.	_	O	O	
+
+#id=3
+#text=Lassen Sie mich noch nachträglich die aufrichtigen Glückwünsche Ihnen und Helbig zusenden.
+3-1	Lassen	VVFIN	lassen	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	mich	PRF	ich	_	O	O	
+3-4	noch	ADV	noch	_	O	O	
+3-5	nachträglich	ADJD	nachträglich	_	O	O	
+3-6	die	ART	die	_	O	O	
+3-7	aufrichtigen	ADJA	aufrichtig	_	O	O	
+3-8	Glückwünsche	NN	Glückwunsch	_	O	O	
+3-9	Ihnen	PPER	Sie	_	O	O	
+3-10	und	KON	und	_	O	O	
+3-11	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-12	zusenden	VVINF	zusenden	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Unser Winter ist bisher nur zwei Tage lang kalt gewesen, und ich habe ihn seit acht Tagen nur durchs Fenster gesehen; ein heftiger Brustkatarrh hat mich die ganzen Ferien über im Zimmer gehalten; an der Jahresschwelle erst scheint er sich gebrochen zu haben.
+4-1	Unser	PPOSAT	unser	_	O	O	
+4-2	Winter	NN	Winter	_	O	O	
+4-3	ist	VAFIN	sein	_	O	O	
+4-4	bisher	ADV	bisher	_	O	O	
+4-5	nur	ADV	nur	_	O	O	
+4-6	zwei	CARD	zwei	_	O	O	
+4-7	Tage	NN	Tag	_	O	O	
+4-8	lang	ADJD	lang	_	O	O	
+4-9	kalt	ADJD	kalt	_	O	O	
+4-10	gewesen	VAPP	sein	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	und	KON	und	_	O	O	
+4-13	ich	PPER	ich	_	O	O	
+4-14	habe	VAFIN	haben	_	O	O	
+4-15	ihn	PPER	er	_	O	O	
+4-16	seit	APPR	seit	_	O	O	
+4-17	acht	CARD	acht	_	O	O	
+4-18	Tagen	NN	Tag	_	O	O	
+4-19	nur	ADV	nur	_	O	O	
+4-20	durchs	APPRART	durchs	_	O	O	
+4-21	Fenster	NN	Fenster	_	O	O	
+4-22	gesehen	VVPP	sehen	_	O	O	
+4-23	;	$.	;	_	O	O	
+4-24	ein	ART	eine	_	O	O	
+4-25	heftiger	ADJA	heftig	_	O	O	
+4-26	Brustkatarrh	NN	<unknown>	_	O	O	
+4-27	hat	VAFIN	haben	_	O	O	
+4-28	mich	PRF	ich	_	O	O	
+4-29	die	ART	die	_	O	O	
+4-30	ganzen	ADJA	ganz	_	O	O	
+4-31	Ferien	NN	Ferien	_	O	O	
+4-32	über	APPR	über	_	O	O	
+4-33	im	APPRART	in	_	O	O	
+4-34	Zimmer	NN	Zimmer	_	O	O	
+4-35	gehalten	VVPP	halten	_	O	O	
+4-36	;	$.	;	_	O	O	
+4-37	an	APPR	an	_	O	O	
+4-38	der	ART	die	_	O	O	
+4-39	Jahresschwelle	NN	<unknown>	_	O	O	
+4-40	erst	ADV	erst	_	O	O	
+4-41	scheint	VVFIN	scheinen	_	O	O	
+4-42	er	PPER	er	_	O	O	
+4-43	sich	PRF	sich	_	O	O	
+4-44	gebrochen	VVPP	brechen	_	O	O	
+4-45	zu	PTKZU	zu	_	O	O	
+4-46	haben	VAINF	haben	_	O	O	
+4-47	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich denke Sie werden Ihr neues Gehalt rechtzeitig ausgezahlt erhalten haben, obgleich ich von Hepke keine ausdrückliche Antwort auf meine Mahnung erhalten habe.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	denke	VVFIN	denken	_	O	O	
+5-3	Sie	PPER	Sie	_	O	O	
+5-4	werden	VAFIN	werden	_	O	O	
+5-5	Ihr	PPOSAT	ihr	_	O	O	
+5-6	neues	ADJA	neu	_	O	O	
+5-7	Gehalt	NN	Gehalt	_	O	O	
+5-8	rechtzeitig	ADJD	rechtzeitig	_	O	O	
+5-9	ausgezahlt	VVPP	auszahlen	_	O	O	
+5-10	erhalten	VVPP	erhalten	_	O	O	
+5-11	haben	VAINF	haben	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	obgleich	KOUS	obgleich	_	O	O	
+5-14	ich	PPER	ich	_	O	O	
+5-15	von	APPR	von	_	O	O	
+5-16	Hepke	NE	Hepke	_	O	O	
+5-17	keine	PIAT	keine	_	O	O	
+5-18	ausdrückliche	ADJA	ausdrücklich	_	O	O	
+5-19	Antwort	NN	Antwort	_	O	O	
+5-20	auf	APPR	auf	_	O	O	
+5-21	meine	PPOSAT	mein	_	O	O	
+5-22	Mahnung	NN	Mahnung	_	O	O	
+5-23	erhalten	VVPP	erhalten	_	O	O	
+5-24	habe	VAFIN	haben	_	O	O	
+5-25	.	$.	.	_	O	O	
+
+#id=6
+#text=Den früheren Etat von 1873 wie er unter den 28. Mai genehmigt war, haben Sie bereits damals von mir in Abschrift erhalten.
+6-1	Den	ART	die	_	O	O	
+6-2	früheren	ADJA	früh	_	O	O	
+6-3	Etat	NN	Etat	_	O	O	
+6-4	von	APPR	von	_	O	O	
+6-5	1873	CARD	1873	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-6	wie	KOKOM	wie	_	O	O	
+6-7	er	PPER	er	_	O	O	
+6-8	unter	APPR	unter	_	O	O	
+6-9	den	ART	die	_	O	O	
+6-10	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-12	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-13	genehmigt	VVPP	genehmigen	_	O	O	
+6-14	war	VAFIN	sein	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	haben	VAFIN	haben	_	O	O	
+6-17	Sie	PPER	Sie	_	O	O	
+6-18	bereits	ADV	bereits	_	O	O	
+6-19	damals	ADV	damals	_	O	O	
+6-20	von	APPR	von	_	O	O	
+6-21	mir	PPER	ich	_	O	O	
+6-22	in	APPR	in	_	O	O	
+6-23	Abschrift	NN	Abschrift	_	O	O	
+6-24	erhalten	VVPP	erhalten	_	O	O	
+6-25	.	$.	.	_	O	O	
+
+#id=7
+#text=Seitdem ist uns keiner wieder aus dem Ministerium zugegangen.
+7-1	Seitdem	PAV	seitdem	_	O	O	
+7-2	ist	VAFIN	sein	_	O	O	
+7-3	uns	PPER	wir	_	O	O	
+7-4	keiner	PIS	keine	_	O	O	
+7-5	wieder	ADV	wieder	_	O	O	
+7-6	aus	APPR	aus	_	O	O	
+7-7	dem	ART	die	_	O	O	
+7-8	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-9	zugegangen	VVPP	zugehen	_	O	O	
+7-10	.	$.	.	_	O	O	
+
+#id=8
+#text=Formell ist noch Alles in suspenso.
+8-1	Formell	ADJD	formell	_	O	O	
+8-2	ist	VAFIN	sein	_	O	O	
+8-3	noch	ADV	noch	_	O	O	
+8-4	Alles	PIS	alle	_	O	O	
+8-5	in	APPR	in	_	O	O	
+8-6	suspenso	ADV	<unknown>	_	O	O	
+8-7	.	$.	.	_	O	O	
+
+#id=9
+#text=Materiell aber ist unser neuer Etat, wie wir ihn für das Reichs Institut gemacht haben, allerdings schon bewilligt.
+9-1	Materiell	ADJD	materiell	_	O	O	
+9-2	aber	ADV	aber	_	O	O	
+9-3	ist	VAFIN	sein	_	O	O	
+9-4	unser	PPOSAT	unser	_	O	O	
+9-5	neuer	ADJA	neu	_	O	O	
+9-6	Etat	NN	Etat	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	wie	KOUS	wie	_	O	O	
+9-9	wir	PPER	wir	_	O	O	
+9-10	ihn	PPER	er	_	O	O	
+9-11	für	APPR	für	_	O	O	
+9-12	das	ART	die	_	O	O	
+9-13	Reichs	NE	Reich	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-14	Institut	NN	Institut	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+9-15	gemacht	VVPP	machen	_	O	O	
+9-16	haben	VAFIN	haben	_	O	O	
+9-17	,	$,	,	_	O	O	
+9-18	allerdings	ADV	allerdings	_	O	O	
+9-19	schon	ADV	schon	_	O	O	
+9-20	bewilligt	VVPP	bewilligen	_	O	O	
+9-21	.	$.	.	_	O	O	
+
+#id=10
+#text=Unsern Entwurf lasse ich Ihnen h.e:erbei in Abschrift zugehen.
+10-1	Unsern	PPOSAT	Unsern	_	O	O	
+10-2	Entwurf	NN	Entwurf	_	O	O	
+10-3	lasse	VVFIN	lassen	_	O	O	
+10-4	ich	PPER	ich	_	O	O	
+10-5	Ihnen	PPER	Sie	_	O	O	
+10-6	h.e:erbei	ADV	<unknown>	_	O	O	
+10-7	in	APPR	in	_	O	O	
+10-8	Abschrift	NN	Abschrift	_	O	O	
+10-9	zugehen	VVINF	zugehen	_	O	O	
+10-10	.	$.	.	_	O	O	
+
+#id=11
+#text=Dieser ist dann durch unsre
+11-1	Dieser	PDS	diese	_	O	O	
+11-2	ist	VAFIN	sein	_	O	O	
+11-3	dann	ADV	dann	_	O	O	
+11-4	durch	APPR	durch	_	O	O	
+11-5	unsre	PPOSAT	unsre	_	O	O	
+

@@ -1,0 +1,149 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=\ / Verehrter Freund Richard Lepsius an Wolf gang Helbig Berlin, 9. Mai 1874 Berlin d. 9. Mai 1874 Heute ging Ihr Brief ein; er hat sich mit dem meinigen gekreuzt.
+1-1	\	XY	\	_	O	O	
+1-2	/	$(	/	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Freund	NN	Freund	_	O	O	
+1-5	Richard	NE	Richard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-7	an	APPR	an	_	O	O	
+1-8	Wolf	NE	Wolf	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-9	gang	ADJD	gang	_	O	O	
+1-10	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-11	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-12	,	$,	,	_	O	O	
+1-13	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-14	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-18	d.	ART	d.	_	O	O	
+1-19	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	Heute	ADV	heute	_	O	O	
+1-24	ging	VVFIN	gehen	_	O	O	
+1-25	Ihr	PPOSAT	ihr	_	O	O	
+1-26	Brief	NN	Brief	_	O	O	
+1-27	ein	PTKVZ	ein	_	O	O	
+1-28	;	$.	;	_	O	O	
+1-29	er	PPER	er	_	O	O	
+1-30	hat	VAFIN	haben	_	O	O	
+1-31	sich	PRF	sich	_	O	O	
+1-32	mit	APPR	mit	_	O	O	
+1-33	dem	ART	die	_	O	O	
+1-34	meinigen	PPOSS	meinig	_	O	O	
+1-35	gekreuzt	VVPP	kreuzen	_	O	O	
+1-36	.	$.	.	_	O	O	
+
+#id=2
+#text=Sie werden gesehen haben, daß der Telegraph hier nichts nutzen konnte, hoffe aber lebhaft, daß Sie sich nun gedulden werden.
+2-1	Sie	PPER	Sie	_	O	O	
+2-2	werden	VAFIN	werden	_	O	O	
+2-3	gesehen	VVPP	sehen	_	O	O	
+2-4	haben	VAINF	haben	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	daß	KOUS	dass	_	O	O	
+2-7	der	ART	die	_	O	O	
+2-8	Telegraph	NN	Telegraph	_	O	O	
+2-9	hier	ADV	hier	_	O	O	
+2-10	nichts	PIS	nichts	_	O	O	
+2-11	nutzen	VVINF	nutzen	_	O	O	
+2-12	konnte	VMFIN	können	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	hoffe	VVFIN	hoffen	_	O	O	
+2-15	aber	ADV	aber	_	O	O	
+2-16	lebhaft	ADJD	lebhaft	_	O	O	
+2-17	,	$,	,	_	O	O	
+2-18	daß	KOUS	dass	_	O	O	
+2-19	Sie	PPER	Sie	_	O	O	
+2-20	sich	PRF	sich	_	O	O	
+2-21	nun	ADV	nun	_	O	O	
+2-22	gedulden	VVINF	gedulden	_	O	O	
+2-23	werden	VAFIN	werden	_	O	O	
+2-24	.	$.	.	_	O	O	
+
+#id=3
+#text=Ob Sie uns die Musikalien verschaffen können, steht also dahin; der modus würde Ihnen ganz überlassen sein, wenn Sie uns die Sachen Alles in Allem für 5000 Lire verschaffen können.
+3-1	Ob	KOUS	ob	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	uns	PRF	wir	_	O	O	
+3-4	die	ART	die	_	O	O	
+3-5	Musikalien	NN	Musikalien	_	O	O	
+3-6	verschaffen	VVINF	verschaffen	_	O	O	
+3-7	können	VMFIN	können	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	steht	VVFIN	stehen	_	O	O	
+3-10	also	ADV	also	_	O	O	
+3-11	dahin	PAV	dahin	_	O	O	
+3-12	;	$.	;	_	O	O	
+3-13	der	ART	die	_	O	O	
+3-14	modus	NN	Modus	_	O	O	
+3-15	würde	VAFIN	werden	_	O	O	
+3-16	Ihnen	PPER	Sie	_	O	O	
+3-17	ganz	ADV	ganz	_	O	O	
+3-18	überlassen	VVPP	überlassen	_	O	O	
+3-19	sein	VAINF	sein	_	O	O	
+3-20	,	$,	,	_	O	O	
+3-21	wenn	KOUS	wenn	_	O	O	
+3-22	Sie	PPER	Sie	_	O	O	
+3-23	uns	PRF	wir	_	O	O	
+3-24	die	ART	die	_	O	O	
+3-25	Sachen	NN	Sache	_	O	O	
+3-26	Alles	PIS	alle	_	O	O	
+3-27	in	APPR	in	_	O	O	
+3-28	Allem	NN	<unknown>	_	O	O	
+3-29	für	APPR	für	_	O	O	
+3-30	5000	CARD	5000	_	O	O	
+3-31	Lire	NN	Lira	_	O	O	
+3-32	verschaffen	VVINF	verschaffen	_	O	O	
+3-33	können	VMFIN	können	_	O	O	
+3-34	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich werde morgen auf 4 Wochen in Bibliotheksangelegenheiten verreisen.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	werde	VAFIN	werden	_	O	O	
+4-3	morgen	ADV	morgen	_	O	O	
+4-4	auf	APPR	auf	_	O	O	
+4-5	4	CARD	4	_	O	O	
+4-6	Wochen	NN	Woche	_	O	O	
+4-7	in	APPR	in	_	O	O	
+4-8	Bibliotheksangelegenheiten	NN	<unknown>	_	O	O	
+4-9	verreisen	VVINF	verreisen	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Mommsen wird mich für das Institut vertreten.
+5-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	wird	VAFIN	werden	_	O	O	
+5-3	mich	PRF	ich	_	O	O	
+5-4	für	APPR	für	_	O	O	
+5-5	das	ART	die	_	O	O	
+5-6	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-7	vertreten	VVPP	vertreten	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihre Briefe an mich werden aber nachgeschickt.
+6-1	Ihre	PPOSAT	ihr	_	O	O	
+6-2	Briefe	NN	Brief	_	O	O	
+6-3	an	APPR	an	_	O	O	
+6-4	mich	PRF	ich	_	O	O	
+6-5	werden	VAFIN	werden	_	O	O	
+6-6	aber	ADV	aber	_	O	O	
+6-7	nachgeschickt	VVPP	nachschicken	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=Mit herzlichem Gruß der Ihrige R Lepsius
+7-1	Mit	APPR	mit	_	O	O	
+7-2	herzlichem	ADJA	herzlich	_	O	O	
+7-3	Gruß	NN	Gruß	_	O	O	
+7-4	der	ART	die	_	O	O	
+7-5	Ihrige	PPOSAT	ihrige	_	O	O	
+7-6	R	NN	R	_	O	O	
+7-7	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

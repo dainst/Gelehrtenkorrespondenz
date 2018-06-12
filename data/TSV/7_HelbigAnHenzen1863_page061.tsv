@@ -1,0 +1,252 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=298 H Helbig an Henzen Neapel, 3. Juli 1865 g. 5/?
+1-1	298	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1865	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	5/	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	?	$.	?	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+
+#id=2
+#text=65 non c'e risposta Neapel 3. Juli 1865. Lieber Herr Professor !
+2-1	65	CARD	65	_	O	O	
+2-2	non	NE	non	_	O	O	
+2-3	c'e	NE	<unknown>	_	O	O	
+2-4	risposta	NE	<unknown>	_	O	O	
+2-5	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-6	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1865	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	.	$.	.	_	O	O	
+2-11	Lieber	ADJA	lieb	_	O	O	
+2-12	Herr	NN	Herr	_	O	O	
+2-13	Professor	NN	Professor	_	O	O	
+2-14	!	$.	!	_	O	O	
+
+#id=3
+#text=Mit großem Bedauern habe ich von L~bbert, welcher vorgestern hier eingetroffen ist, vernommen, daß Sie unwohl sind.
+3-1	Mit	APPR	mit	_	O	O	
+3-2	großem	ADJA	groß	_	O	O	
+3-3	Bedauern	NN	Bedauern	_	O	O	
+3-4	habe	VAFIN	haben	_	O	O	
+3-5	ich	PPER	ich	_	O	O	
+3-6	von	APPR	von	_	O	O	
+3-7	L~bbert	NN	<unknown>	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	welcher	PRELS	welche	_	O	O	
+3-10	vorgestern	ADV	vorgestern	_	O	O	
+3-11	hier	ADV	hier	_	O	O	
+3-12	eingetroffen	VVPP	eintreffen	_	O	O	
+3-13	ist	VAFIN	sein	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	vernommen	VVPP	vernehmen	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	daß	KOUS	dass	_	O	O	
+3-18	Sie	PPER	Sie	_	O	O	
+3-19	unwohl	ADJD	unwohl	_	O	O	
+3-20	sind	VAFIN	sein	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Jedenfalls soll es nicht an mir liegen, Sie länger in Rom zurückzuhalten.
+4-1	Jedenfalls	ADV	jedenfalls	_	O	O	
+4-2	soll	VMFIN	sollen	_	O	O	
+4-3	es	PPER	es	_	O	O	
+4-4	nicht	PTKNEG	nicht	_	O	O	
+4-5	an	APPR	an	_	O	O	
+4-6	mir	PPER	ich	_	O	O	
+4-7	liegen	VVINF	liegen	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	Sie	PPER	Sie	_	O	O	
+4-10	länger	ADJD	lang	_	O	O	
+4-11	in	APPR	in	_	O	O	
+4-12	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-13	zurückzuhalten	VVIZU	zurückhalten	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich habe nämlich heute Morgen die von mir begonnene Ordnungsarbeit der Bilder sofort wieder einstellen müssen, da der mir zugemessene Raum unrichtig berechnet und sofort gefüllt war.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	nämlich	ADV	nämlich	_	O	O	
+5-4	heute	ADV	heute	_	O	O	
+5-5	Morgen	ADV	morgen	_	O	O	
+5-6	die	ART	die	_	O	O	
+5-7	von	APPR	von	_	O	O	
+5-8	mir	PPER	ich	_	O	O	
+5-9	begonnene	ADJA	begonnen	_	O	O	
+5-10	Ordnungsarbeit	NN	<unknown>	_	O	O	
+5-11	der	ART	die	_	O	O	
+5-12	Bilder	NN	Bild	_	O	O	
+5-13	sofort	ADV	sofort	_	O	O	
+5-14	wieder	ADV	wieder	_	O	O	
+5-15	einstellen	VVINF	einstellen	_	O	O	
+5-16	müssen	VMINF	müssen	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	da	KOUS	da	_	O	O	
+5-19	der	PDS	die	_	O	O	
+5-20	mir	PPER	ich	_	O	O	
+5-21	zugemessene	ADJA	zugemessen	_	O	O	
+5-22	Raum	NN	Raum	_	O	O	
+5-23	unrichtig	ADJD	unrichtig	_	O	O	
+5-24	berechnet	VVPP	berechnen	_	O	O	
+5-25	und	KON	und	_	O	O	
+5-26	sofort	ADV	sofort	_	O	O	
+5-27	gefüllt	VVPP	füllen	_	O	O	
+5-28	war	VAFIN	sein	_	O	O	
+5-29	.	$.	.	_	O	O	
+
+#id=6
+#text=Überhaupt sieht es gegenwärtig, da die Santangelosche Sammlung in das Museum tramslocirt wird und das Museum selbst höchstens zum sechsten Theil geordnet ist, schlimmer aus im Museum, als im Toilettenzimmer des berühmten Immondezzaio.
+6-1	Überhaupt	ADV	überhaupt	_	O	O	
+6-2	sieht	VVFIN	sehen	_	O	O	
+6-3	es	PPER	es	_	O	O	
+6-4	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	da	KOUS	da	_	O	O	
+6-7	die	ART	die	_	O	O	
+6-8	Santangelosche	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-9	Sammlung	NN	Sammlung	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+6-10	in	APPR	in	_	O	O	
+6-11	das	ART	die	_	O	O	
+6-12	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-13	tramslocirt	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+6-14	wird	VAFIN	werden	_	O	O	
+6-15	und	KON	und	_	O	O	
+6-16	das	ART	die	_	O	O	
+6-17	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-18	selbst	ADV	selbst	_	O	O	
+6-19	höchstens	ADV	höchstens	_	O	O	
+6-20	zum	APPRART	zu	_	O	O	
+6-21	sechsten	ADJA	sechst	_	O	O	
+6-22	Theil	NN	<unknown>	_	O	O	
+6-23	geordnet	VVPP	ordnen	_	O	O	
+6-24	ist	VAFIN	sein	_	O	O	
+6-25	,	$,	,	_	O	O	
+6-26	schlimmer	ADJD	schlimm	_	O	O	
+6-27	aus	APPR	aus	_	O	O	
+6-28	im	APPRART	in	_	O	O	
+6-29	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-30	,	$,	,	_	O	O	
+6-31	als	KOKOM	als	_	O	O	
+6-32	im	APPRART	in	_	O	O	
+6-33	Toilettenzimmer	NN	<unknown>	_	O	O	
+6-34	des	ART	die	_	O	O	
+6-35	berühmten	ADJA	berühmt	_	O	O	
+6-36	Immondezzaio	NE	<unknown>	_	O	O	
+6-37	.	$.	.	_	O	O	
+
+#id=7
+#text=Die erste Serie der Zeichnungen von Don Antonio Ala ist, sowie die Rechnung für dieselbe, zur Zufriedenheit ausgefallen.
+7-1	Die	ART	die	_	O	O	
+7-2	erste	ADJA	erst	_	O	O	
+7-3	Serie	NN	Serie	_	O	O	
+7-4	der	ART	die	_	O	O	
+7-5	Zeichnungen	NN	Zeichnung	_	O	O	
+7-6	von	APPR	von	_	O	O	
+7-7	Don	NE	Don	_	O	O	
+7-8	Antonio	NE	Antonio	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-9	Ala	NE	Ala	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-10	ist	VAFIN	sein	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	sowie	KON	sowie	_	O	O	
+7-13	die	ART	die	_	O	O	
+7-14	Rechnung	NN	Rechnung	_	O	O	
+7-15	für	APPR	für	_	O	O	
+7-16	dieselbe	PDS	dieselbe	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	zur	APPRART	zu	_	O	O	
+7-19	Zufriedenheit	NN	Zufriedenheit	_	O	O	
+7-20	ausgefallen	VVPP	ausfallen	_	O	O	
+7-21	.	$.	.	_	O	O	
+
+#id=8
+#text=Einige Tage werde ich nichts desto weniger noch in Neapel bleiben müssen, um über die in den noch übrigen vier Wochen von Scalabrini zu fertigenden Zeichnungen zu disponiren.
+8-1	Einige	PIAT	einige	_	O	O	
+8-2	Tage	NN	Tag	_	O	O	
+8-3	werde	VAFIN	werden	_	O	O	
+8-4	ich	PPER	ich	_	O	O	
+8-5	nichts	PIS	nichts	_	O	O	
+8-6	desto	KON	desto	_	O	O	
+8-7	weniger	ADV	weniger	_	O	O	
+8-8	noch	ADV	noch	_	O	O	
+8-9	in	APPR	in	_	O	O	
+8-10	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-11	bleiben	VVINF	bleiben	_	O	O	
+8-12	müssen	VMINF	müssen	_	O	O	
+8-13	,	$,	,	_	O	O	
+8-14	um	KOUI	um	_	O	O	
+8-15	über	APPR	über	_	O	O	
+8-16	die	ART	die	_	O	O	
+8-17	in	APPR	in	_	O	O	
+8-18	den	ART	die	_	O	O	
+8-19	noch	ADV	noch	_	O	O	
+8-20	übrigen	ADJA	übrig	_	O	O	
+8-21	vier	CARD	vier	_	O	O	
+8-22	Wochen	NN	Woche	_	O	O	
+8-23	von	APPR	von	_	O	O	
+8-24	Scalabrini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-25	zu	APPR	zu	_	O	O	
+8-26	fertigenden	ADJA	<unknown>	_	O	O	
+8-27	Zeichnungen	NN	Zeichnung	_	O	O	
+8-28	zu	APPR	zu	_	O	O	
+8-29	disponiren	NN	<unknown>	_	O	O	
+8-30	.	$.	.	_	O	O	
+
+#id=9
+#text=Dann werde ich zusammen mit Ala nach Capua reisen, um ihn das Capuaner Relief für Jahn zeichnen zu lassen.
+9-1	Dann	ADV	dann	_	O	O	
+9-2	werde	VAFIN	werden	_	O	O	
+9-3	ich	PPER	ich	_	O	O	
+9-4	zusammen	ADV	zusammen	_	O	O	
+9-5	mit	APPR	mit	_	O	O	
+9-6	Ala	NE	Ala	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-7	nach	APPR	nach	_	O	O	
+9-8	Capua	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-9	reisen	VVINF	reisen	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	um	KOUI	um	_	O	O	
+9-12	ihn	PPER	er	_	O	O	
+9-13	das	ART	die	_	O	O	
+9-14	Capuaner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-15	Relief	NN	Relief	_	I-webanno.custom.LetterEntity_	I-OBJ	
+9-16	für	APPR	für	_	O	O	
+9-17	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-18	zeichnen	VVINF	zeichnen	_	O	O	
+9-19	zu	PTKZU	zu	_	O	O	
+9-20	lassen	VVINF	lassen	_	O	O	
+9-21	.	$.	.	_	O	O	
+
+#id=10
+#text=Von da direct nach Rom.
+10-1	Von	APPR	von	_	O	O	
+10-2	da	ADV	da	_	O	O	
+10-3	direct	NE	direct	_	O	O	
+10-4	nach	APPR	nach	_	O	O	
+10-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-6	.	$.	.	_	O	O	
+
+#id=11
+#text=Jahn hat von mir die Zeichnung keines neapler Reliefs verlangt.
+11-1	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	hat	VAFIN	haben	_	O	O	
+11-3	von	APPR	von	_	O	O	
+11-4	mir	PPER	ich	_	O	O	
+11-5	die	ART	die	_	O	O	
+11-6	Zeichnung	NN	Zeichnung	_	O	O	
+11-7	keines	PIAT	keine	_	O	O	
+11-8	neapler	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-9	Reliefs	NN	Relief	_	I-webanno.custom.LetterEntity_	I-OBJ	
+11-10	verlangt	VVPP	verlangen	_	O	O	
+11-11	.	$.	.	_	O	O	
+

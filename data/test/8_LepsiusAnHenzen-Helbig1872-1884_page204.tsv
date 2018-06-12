@@ -1,0 +1,287 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=43 Lepsius an Henzen Berlin, 19. Januar 1875 2 Summe vom Institut zu erhalten; davon waren 985 r, 21.6 schon auf den Reservefonds angewiesen ,aber nicht erhoben.
+1-1	43	CARD	43	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	Summe	NN	Summe	_	O	O	
+1-13	vom	APPRART	von	_	O	O	
+1-14	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-15	zu	PTKZU	zu	_	O	O	
+1-16	erhalten	VVINF	erhalten	_	O	O	
+1-17	;	$.	;	_	O	O	
+1-18	davon	PAV	davon	_	O	O	
+1-19	waren	VAFIN	sein	_	O	O	
+1-20	985	CARD	@card@	_	O	O	
+1-21	r	NE	r	_	O	O	
+1-22	,	$,	,	_	O	O	
+1-23	21.6	CARD	@card@	_	O	O	
+1-24	schon	ADV	schon	_	O	O	
+1-25	auf	APPR	auf	_	O	O	
+1-26	den	ART	die	_	O	O	
+1-27	Reservefonds	NN	Reservefonds	_	O	O	
+1-28	angewiesen	ADJD	angewiesen	_	O	O	
+1-29	,aber	NN	<unknown>	_	O	O	
+1-30	nicht	PTKNEG	nicht	_	O	O	
+1-31	erhoben	VVPP	erheben	_	O	O	
+1-32	.	$.	.	_	O	O	
+
+#id=2
+#text=in Rom Wenn Sie noch so vielYvom Reservefonds haben - wie Sie in einem früheren Briefe, ehe die 400 r von Asher an mich gezahlt waren vermutheten - so könnte er gleich für diese Summe an Sie gewiesen werden.
+2-1	in	APPR	in	_	O	O	
+2-2	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-3	Wenn	KOUS	wenn	_	O	O	
+2-4	Sie	PPER	Sie	_	O	O	
+2-5	noch	ADV	noch	_	O	O	
+2-6	so	ADV	so	_	O	O	
+2-7	vielYvom	ADJA	<unknown>	_	O	O	
+2-8	Reservefonds	NN	Reservefonds	_	O	O	
+2-9	haben	VAFIN	haben	_	O	O	
+2-10	-	$(	-	_	O	O	
+2-11	wie	KOUS	wie	_	O	O	
+2-12	Sie	PPER	Sie	_	O	O	
+2-13	in	APPR	in	_	O	O	
+2-14	einem	ART	eine	_	O	O	
+2-15	früheren	ADJA	früh	_	O	O	
+2-16	Briefe	NN	Brief	_	O	O	
+2-17	,	$,	,	_	O	O	
+2-18	ehe	KOUS	ehe	_	O	O	
+2-19	die	ART	die	_	O	O	
+2-20	400	CARD	400	_	O	O	
+2-21	r	NE	r	_	O	O	
+2-22	von	APPR	von	_	O	O	
+2-23	Asher	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-24	an	APPR	an	_	O	O	
+2-25	mich	PRF	ich	_	O	O	
+2-26	gezahlt	VVPP	zahlen	_	O	O	
+2-27	waren	VAFIN	sein	_	O	O	
+2-28	vermutheten	NN	<unknown>	_	O	O	
+2-29	-	$(	-	_	O	O	
+2-30	so	ADV	so	_	O	O	
+2-31	könnte	VMFIN	können	_	O	O	
+2-32	er	PPER	er	_	O	O	
+2-33	gleich	ADJD	gleich	_	O	O	
+2-34	für	APPR	für	_	O	O	
+2-35	diese	PDAT	dies	_	O	O	
+2-36	Summe	NN	Summe	_	O	O	
+2-37	an	APPR	an	_	O	O	
+2-38	Sie	PPER	Sie	_	O	O	
+2-39	gewiesen	VVPP	weisen	_	O	O	
+2-40	werden	VAINF	werden	_	O	O	
+2-41	.	$.	.	_	O	O	
+
+#id=3
+#text=Es sind aber über 700 r über unsre Bewilligung ausgegeben und diese wollen wir, wenn erst die Abrechnung fest steht, auf den diesjährigen Titel V. (4 000 r) übernehmen.
+3-1	Es	PPER	es	_	O	O	
+3-2	sind	VAFIN	sein	_	O	O	
+3-3	aber	ADV	aber	_	O	O	
+3-4	über	APPR	über	_	O	O	
+3-5	700	CARD	700	_	O	O	
+3-6	r	NE	r	_	O	O	
+3-7	über	APPR	über	_	O	O	
+3-8	unsre	PPOSAT	unsre	_	O	O	
+3-9	Bewilligung	NN	Bewilligung	_	O	O	
+3-10	ausgegeben	VVPP	ausgeben	_	O	O	
+3-11	und	KON	und	_	O	O	
+3-12	diese	PDS	diese	_	O	O	
+3-13	wollen	VMFIN	wollen	_	O	O	
+3-14	wir	PPER	wir	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	wenn	KOUS	wenn	_	O	O	
+3-17	erst	ADV	erst	_	O	O	
+3-18	die	ART	die	_	O	O	
+3-19	Abrechnung	NN	Abrechnung	_	O	O	
+3-20	fest	ADJD	fest	_	O	O	
+3-21	steht	VVFIN	stehen	_	O	O	
+3-22	,	$,	,	_	O	O	
+3-23	auf	APPR	auf	_	O	O	
+3-24	den	ART	die	_	O	O	
+3-25	diesjährigen	ADJA	diesjährig	_	O	O	
+3-26	Titel	NN	Titel	_	O	O	
+3-27	V.	APPR	v.	_	O	O	
+3-28	(	$(	(	_	O	O	
+3-29	4	CARD	4	_	O	O	
+3-30	000	CARD	@card@	_	O	O	
+3-31	r	NE	r	_	O	O	
+3-32	)	$(	)	_	O	O	
+3-33	übernehmen	VVFIN	übernehmen	_	O	O	
+3-34	.	$.	.	_	O	O	
+
+#id=4
+#text=In Bezug auf den neuen Etat ist nun die Kassenbestimmung so, daß Sie durch direkten Wechsel auf die hiesige Legationskasse Ihre Quartalrate von ich glaube circa 8000 Mark erheben.
+4-1	In	APPR	in	_	O	O	
+4-2	Bezug	NN	Bezug	_	O	O	
+4-3	auf	APPR	auf	_	O	O	
+4-4	den	ART	die	_	O	O	
+4-5	neuen	ADJA	neu	_	O	O	
+4-6	Etat	NN	Etat	_	O	O	
+4-7	ist	VAFIN	sein	_	O	O	
+4-8	nun	ADV	nun	_	O	O	
+4-9	die	ART	die	_	O	O	
+4-10	Kassenbestimmung	NN	<unknown>	_	O	O	
+4-11	so	ADV	so	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	daß	KOUS	dass	_	O	O	
+4-14	Sie	PPER	Sie	_	O	O	
+4-15	durch	APPR	durch	_	O	O	
+4-16	direkten	ADJA	direkt	_	O	O	
+4-17	Wechsel	NN	Wechsel	_	O	O	
+4-18	auf	APPR	auf	_	O	O	
+4-19	die	ART	die	_	O	O	
+4-20	hiesige	ADJA	hiesig	_	O	O	
+4-21	Legationskasse	NN	<unknown>	_	O	O	
+4-22	Ihre	PPOSAT	ihr	_	O	O	
+4-23	Quartalrate	NN	<unknown>	_	O	O	
+4-24	von	APPR	von	_	O	O	
+4-25	ich	PPER	ich	_	O	O	
+4-26	glaube	VVFIN	glauben	_	O	O	
+4-27	circa	ADV	circa	_	O	O	
+4-28	8000	CARD	8000	_	O	O	
+4-29	Mark	NN	Mark	_	O	O	
+4-30	erheben	VVINF	erheben	_	O	O	
+4-31	.	$.	.	_	O	O	
+
+#id=5
+#text=Der Banquier bezahlt Ihnen diese in Lire nach dem Tagescourse, worin seine Provision begriffen ist; die letztere wird von Empfänger, also vom Institut,getragen; d. h.
+5-1	Der	ART	die	_	O	O	
+5-2	Banquier	NN	<unknown>	_	O	O	
+5-3	bezahlt	VVFIN	bezahlen	_	O	O	
+5-4	Ihnen	PPER	Sie	_	O	O	
+5-5	diese	PDS	diese	_	O	O	
+5-6	in	APPR	in	_	O	O	
+5-7	Lire	NN	Lira	_	O	O	
+5-8	nach	APPR	nach	_	O	O	
+5-9	dem	ART	die	_	O	O	
+5-10	Tagescourse	NN	<unknown>	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	worin	PWAV	worin	_	O	O	
+5-13	seine	PPOSAT	sein	_	O	O	
+5-14	Provision	NN	Provision	_	O	O	
+5-15	begriffen	VVPP	begreifen	_	O	O	
+5-16	ist	VAFIN	sein	_	O	O	
+5-17	;	$.	;	_	O	O	
+5-18	die	ART	die	_	O	O	
+5-19	letztere	ADJA	letzt	_	O	O	
+5-20	wird	VAFIN	werden	_	O	O	
+5-21	von	APPR	von	_	O	O	
+5-22	Empfänger	NN	Empfänger	_	O	O	
+5-23	,	$,	,	_	O	O	
+5-24	also	ADV	also	_	O	O	
+5-25	vom	APPRART	von	_	O	O	
+5-26	Institut,getragen	NN	<unknown>	_	O	O	
+5-27	;	$.	;	_	O	O	
+5-28	d.	PDS	d.	_	O	O	
+5-29	h.	VVFIN	heißen	_	O	O	
+
+#id=6
+#text=Sie setzen so viel Lire in Rechnung, als Sie nach dem Tageskurse mit Einrechnung der Provision erhalten haben; nach demselben Kurse entnehmen Sie Ihr Gehalt in Lire.
+6-1	Sie	PPER	Sie	_	O	O	
+6-2	setzen	VVFIN	setzen	_	O	O	
+6-3	so	ADV	so	_	O	O	
+6-4	viel	PIAT	viele	_	O	O	
+6-5	Lire	NN	Lira	_	O	O	
+6-6	in	APPR	in	_	O	O	
+6-7	Rechnung	NN	Rechnung	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	als	KOUS	als	_	O	O	
+6-10	Sie	PPER	Sie	_	O	O	
+6-11	nach	APPR	nach	_	O	O	
+6-12	dem	ART	die	_	O	O	
+6-13	Tageskurse	NN	<unknown>	_	O	O	
+6-14	mit	APPR	mit	_	O	O	
+6-15	Einrechnung	NN	Einrechnung	_	O	O	
+6-16	der	ART	die	_	O	O	
+6-17	Provision	NN	Provision	_	O	O	
+6-18	erhalten	VVPP	erhalten	_	O	O	
+6-19	haben	VAFIN	haben	_	O	O	
+6-20	;	$.	;	_	O	O	
+6-21	nach	APPR	nach	_	O	O	
+6-22	demselben	PDAT	dieselb	_	O	O	
+6-23	Kurse	NN	Kurs	_	O	O	
+6-24	entnehmen	VVFIN	entnehmen	_	O	O	
+6-25	Sie	PPER	Sie	_	O	O	
+6-26	Ihr	PPOSAT	ihr	_	O	O	
+6-27	Gehalt	NN	Gehalt	_	O	O	
+6-28	in	APPR	in	_	O	O	
+6-29	Lire	NN	Lira	_	O	O	
+6-30	.	$.	.	_	O	O	
+
+#id=7
+#text=Überhaupt soll auch später - gegen frühere Weisung - Alles von Ihnen in der Landesmünze berechnet werden; die Umsetzng in Mark geschieht hier.
+7-1	Überhaupt	ADV	überhaupt	_	O	O	
+7-2	soll	VMFIN	sollen	_	O	O	
+7-3	auch	ADV	auch	_	O	O	
+7-4	später	ADJD	spät	_	O	O	
+7-5	-	$(	-	_	O	O	
+7-6	gegen	APPR	gegen	_	O	O	
+7-7	frühere	ADJA	früh	_	O	O	
+7-8	Weisung	NN	Weisung	_	O	O	
+7-9	-	$(	-	_	O	O	
+7-10	Alles	PIS	alle	_	O	O	
+7-11	von	APPR	von	_	O	O	
+7-12	Ihnen	PPER	Sie	_	O	O	
+7-13	in	APPR	in	_	O	O	
+7-14	der	ART	die	_	O	O	
+7-15	Landesmünze	NN	<unknown>	_	O	O	
+7-16	berechnet	VVPP	berechnen	_	O	O	
+7-17	werden	VAINF	werden	_	O	O	
+7-18	;	$.	;	_	O	O	
+7-19	die	ART	die	_	O	O	
+7-20	Umsetzng	NN	<unknown>	_	O	O	
+7-21	in	APPR	in	_	O	O	
+7-22	Mark	NN	Mark	_	O	O	
+7-23	geschieht	VVFIN	geschehen	_	O	O	
+7-24	hier	ADV	hier	_	O	O	
+7-25	.	$.	.	_	O	O	
+
+#id=8
+#text=Ebenso können Sie, wenn dies vorkommt, jede andere Summe durch Einzahlung in Lire auf Thaler lautend, oder auch auf Lire, an die Legationskasse hier schicken zur Auszahlung an wen Sie wünschen.
+8-1	Ebenso	ADV	ebenso	_	O	O	
+8-2	können	VMFIN	können	_	O	O	
+8-3	Sie	PPER	Sie	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	wenn	KOUS	wenn	_	O	O	
+8-6	dies	PDS	dies	_	O	O	
+8-7	vorkommt	VVFIN	vorkommen	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	jede	PIAT	jede	_	O	O	
+8-10	andere	PIS	andere	_	O	O	
+8-11	Summe	NN	Summe	_	O	O	
+8-12	durch	APPR	durch	_	O	O	
+8-13	Einzahlung	NN	Einzahlung	_	O	O	
+8-14	in	APPR	in	_	O	O	
+8-15	Lire	NN	Lira	_	O	O	
+8-16	auf	APPR	auf	_	O	O	
+8-17	Thaler	NN	<unknown>	_	O	O	
+8-18	lautend	ADJD	<unknown>	_	O	O	
+8-19	,	$,	,	_	O	O	
+8-20	oder	KON	oder	_	O	O	
+8-21	auch	ADV	auch	_	O	O	
+8-22	auf	APPR	auf	_	O	O	
+8-23	Lire	NN	Lira	_	O	O	
+8-24	,	$,	,	_	O	O	
+8-25	an	APPR	an	_	O	O	
+8-26	die	ART	die	_	O	O	
+8-27	Legationskasse	NN	<unknown>	_	O	O	
+8-28	hier	ADV	hier	_	O	O	
+8-29	schicken	VVFIN	schicken	_	O	O	
+8-30	zur	APPRART	zu	_	O	O	
+8-31	Auszahlung	NN	Auszahlung	_	O	O	
+8-32	an	APZR	an	_	O	O	
+8-33	wen	PWS	wer	_	O	O	
+8-34	Sie	PPER	Sie	_	O	O	
+8-35	wünschen	VVINF	wünschen	_	O	O	
+8-36	.	$.	.	_	O	O	
+
+#id=9
+#text=Solche
+9-1	Solche	PIAT	solche	_	O	O	
+

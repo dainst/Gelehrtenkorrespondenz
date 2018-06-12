@@ -1,0 +1,264 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=73 3 Lepsius an Henzen Berlin, 20. Februar 1872 und dann sogleich melden.
+1-1	73	CARD	73	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	und	KON	und	_	O	O	
+1-13	dann	ADV	dann	_	O	O	
+1-14	sogleich	ADV	sogleich	_	O	O	
+1-15	melden	VVFIN	melden	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Auch kann ich nun die baldige Rücksendung der Skizzen nicht in Aussicht stellen, ich müßte sie dann, wenn Sie das für nöthig halten, im Ministerium durchpausen lassen.
+2-1	Auch	ADV	auch	_	O	O	
+2-2	kann	VMFIN	können	_	O	O	
+2-3	ich	PPER	ich	_	O	O	
+2-4	nun	ADV	nun	_	O	O	
+2-5	die	ART	die	_	O	O	
+2-6	baldige	ADJA	baldig	_	O	O	
+2-7	Rücksendung	NN	Rücksendung	_	O	O	
+2-8	der	ART	die	_	O	O	
+2-9	Skizzen	NN	Skizze	_	O	O	
+2-10	nicht	PTKNEG	nicht	_	O	O	
+2-11	in	APPR	in	_	O	O	
+2-12	Aussicht	NN	Aussicht	_	O	O	
+2-13	stellen	VVINF	stellen	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	ich	PPER	ich	_	O	O	
+2-16	müßte	VMFIN	müssen	_	O	O	
+2-17	sie	PPER	sie	_	O	O	
+2-18	dann	ADV	dann	_	O	O	
+2-19	,	$,	,	_	O	O	
+2-20	wenn	KOUS	wenn	_	O	O	
+2-21	Sie	PPER	Sie	_	O	O	
+2-22	das	PDS	die	_	O	O	
+2-23	für	APPR	für	_	O	O	
+2-24	nöthig	ADJD	<unknown>	_	O	O	
+2-25	halten	VVINF	halten	_	O	O	
+2-26	,	$,	,	_	O	O	
+2-27	im	APPRART	in	_	O	O	
+2-28	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-29	durchpausen	NN	<unknown>	_	O	O	
+2-30	lassen	VVFIN	lassen	_	O	O	
+2-31	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich hoffe, daß der Überschlag der Kosten nicht davon abhängt.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	hoffe	VVFIN	hoffen	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	daß	KOUS	dass	_	O	O	
+3-5	der	ART	die	_	O	O	
+3-6	Überschlag	NN	Überschlag	_	O	O	
+3-7	der	ART	die	_	O	O	
+3-8	Kosten	NN	Kosten	_	O	O	
+3-9	nicht	PTKNEG	nicht	_	O	O	
+3-10	davon	PAV	davon	_	O	O	
+3-11	abhängt	VVFIN	abhängen	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Das Athenische Projekt ist auch berathen worden.
+4-1	Das	ART	die	_	O	O	
+4-2	Athenische	NN	<unknown>	_	O	O	
+4-3	Projekt	NN	Projekt	_	O	O	
+4-4	ist	VAFIN	sein	_	O	O	
+4-5	auch	ADV	auch	_	O	O	
+4-6	berathen	ADJD	<unknown>	_	O	O	
+4-7	worden	VAPP	werden	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=Mit allerlei Modifikationen wird hoffentlich etwas daraus werden.
+5-1	Mit	APPR	mit	_	O	O	
+5-2	allerlei	PIAT	allerlei	_	O	O	
+5-3	Modifikationen	NN	Modifikation	_	O	O	
+5-4	wird	VAFIN	werden	_	O	O	
+5-5	hoffentlich	ADV	hoffentlich	_	O	O	
+5-6	etwas	PIS	etwas	_	O	O	
+5-7	daraus	PAV	daraus	_	O	O	
+5-8	werden	VAINF	werden	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Irgend etwas, ein Bullettino in zwanglosen Heften müßte dort gedruckt werden; das gehört wohl zur Sache.
+6-1	Irgend	ADV	irgend	_	O	O	
+6-2	etwas	ADV	etwas	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	ein	ART	eine	_	O	O	
+6-5	Bullettino	NN	<unknown>	_	O	O	
+6-6	in	APPR	in	_	O	O	
+6-7	zwanglosen	ADJA	zwanglos	_	O	O	
+6-8	Heften	NN	Heft	_	O	O	
+6-9	müßte	VMFIN	müssen	_	O	O	
+6-10	dort	ADV	dort	_	O	O	
+6-11	gedruckt	VVPP	drucken	_	O	O	
+6-12	werden	VAINF	werden	_	O	O	
+6-13	;	$.	;	_	O	O	
+6-14	das	PDS	die	_	O	O	
+6-15	gehört	VVFIN	gehören	_	O	O	
+6-16	wohl	ADV	wohl	_	O	O	
+6-17	zur	APPRART	zu	_	O	O	
+6-18	Sache	NN	Sache	_	O	O	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=So würde mir lieb sein, wenn Sie mir Ihre Ansicht darüber schrieben, wie man am besten die Römischen und Griechischen Stipendiaten verbände, ebenso Stipendien zu beantragen, ob ihnen mehr Jahre gelegentlich zu gewähren sind als zwei, ob eine Art Verpflichtung eintreten kann und dgl. ( Am Rande : ) Ich möchte gern im Auge behalten, daß den Schulmännern die Stipendien zu Gute kommen, und die jungen Leute schon bei 2 Jahren gern umsatteln.
+7-1	So	ADV	so	_	O	O	
+7-2	würde	VAFIN	werden	_	O	O	
+7-3	mir	PPER	ich	_	O	O	
+7-4	lieb	ADJD	lieb	_	O	O	
+7-5	sein	VAINF	sein	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	wenn	KOUS	wenn	_	O	O	
+7-8	Sie	PPER	Sie	_	O	O	
+7-9	mir	PRF	ich	_	O	O	
+7-10	Ihre	PPOSAT	ihr	_	O	O	
+7-11	Ansicht	NN	Ansicht	_	O	O	
+7-12	darüber	PAV	darüber	_	O	O	
+7-13	schrieben	VVFIN	schreiben	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	wie	KOUS	wie	_	O	O	
+7-16	man	PIS	man	_	O	O	
+7-17	am	PTKA	am	_	O	O	
+7-18	besten	ADJD	gut	_	O	O	
+7-19	die	ART	die	_	O	O	
+7-20	Römischen	ADJA	römisch	_	O	O	
+7-21	und	KON	und	_	O	O	
+7-22	Griechischen	ADJA	griechisch	_	O	O	
+7-23	Stipendiaten	NN	Stipendiat	_	O	O	
+7-24	verbände	VVFIN	verbinden	_	O	O	
+7-25	,	$,	,	_	O	O	
+7-26	ebenso	ADV	ebenso	_	O	O	
+7-27	Stipendien	NN	Stipendium	_	O	O	
+7-28	zu	PTKZU	zu	_	O	O	
+7-29	beantragen	VVINF	beantragen	_	O	O	
+7-30	,	$,	,	_	O	O	
+7-31	ob	KOUS	ob	_	O	O	
+7-32	ihnen	PPER	sie	_	O	O	
+7-33	mehr	PIAT	mehr	_	O	O	
+7-34	Jahre	NN	Jahr	_	O	O	
+7-35	gelegentlich	ADJD	gelegentlich	_	O	O	
+7-36	zu	PTKZU	zu	_	O	O	
+7-37	gewähren	VVINF	gewähren	_	O	O	
+7-38	sind	VAFIN	sein	_	O	O	
+7-39	als	KOKOM	als	_	O	O	
+7-40	zwei	CARD	zwei	_	O	O	
+7-41	,	$,	,	_	O	O	
+7-42	ob	KOUS	ob	_	O	O	
+7-43	eine	ART	eine	_	O	O	
+7-44	Art	NN	Art	_	O	O	
+7-45	Verpflichtung	NN	Verpflichtung	_	O	O	
+7-46	eintreten	VVINF	eintreten	_	O	O	
+7-47	kann	VMFIN	können	_	O	O	
+7-48	und	KON	und	_	O	O	
+7-49	dgl.	ADV	dgl.	_	O	O	
+7-50	(	$(	(	_	O	O	
+7-51	Am	APPRART	an	_	O	O	
+7-52	Rande	NN	Rand	_	O	O	
+7-53	:	$.	:	_	O	O	
+7-54	)	$(	)	_	O	O	
+7-55	Ich	PPER	ich	_	O	O	
+7-56	möchte	VMFIN	mögen	_	O	O	
+7-57	gern	ADV	gern	_	O	O	
+7-58	im	APPRART	in	_	O	O	
+7-59	Auge	NN	Auge	_	O	O	
+7-60	behalten	VVINF	behalten	_	O	O	
+7-61	,	$,	,	_	O	O	
+7-62	daß	KOUS	dass	_	O	O	
+7-63	den	ART	die	_	O	O	
+7-64	Schulmännern	NN	<unknown>	_	O	O	
+7-65	die	ART	die	_	O	O	
+7-66	Stipendien	NN	Stipendium	_	O	O	
+7-67	zu	APPR	zu	_	O	O	
+7-68	Gute	NN	Gute	_	O	O	
+7-69	kommen	VVFIN	kommen	_	O	O	
+7-70	,	$,	,	_	O	O	
+7-71	und	KON	und	_	O	O	
+7-72	die	ART	die	_	O	O	
+7-73	jungen	ADJA	jung	_	O	O	
+7-74	Leute	NN	Leute	_	O	O	
+7-75	schon	ADV	schon	_	O	O	
+7-76	bei	APPR	bei	_	O	O	
+7-77	2	CARD	2	_	O	O	
+7-78	Jahren	NN	Jahr	_	O	O	
+7-79	gern	ADV	gern	_	O	O	
+7-80	umsatteln	VVFIN	umsatteln	_	O	O	
+7-81	.	$.	.	_	O	O	
+
+#id=8
+#text=Mommsen hat auf meinen Wunsch die Redaktion der Statuten übernommen, die wir der Akademie und durch sie dem Ministerium vorlegen müssen.
+8-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	hat	VAFIN	haben	_	O	O	
+8-3	auf	APPR	auf	_	O	O	
+8-4	meinen	PPOSAT	mein	_	O	O	
+8-5	Wunsch	NN	Wunsch	_	O	O	
+8-6	die	ART	die	_	O	O	
+8-7	Redaktion	NN	Redaktion	_	O	O	
+8-8	der	ART	die	_	O	O	
+8-9	Statuten	NN	Statut	_	O	O	
+8-10	übernommen	VVPP	übernehmen	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	die	PRELS	die	_	O	O	
+8-13	wir	PPER	wir	_	O	O	
+8-14	der	ART	die	_	O	O	
+8-15	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-16	und	KON	und	_	O	O	
+8-17	durch	APPR	durch	_	O	O	
+8-18	sie	PPER	sie	_	O	O	
+8-19	dem	ART	die	_	O	O	
+8-20	Ministerium	NN	Ministerium	_	O	O	
+8-21	vorlegen	VVINF	vorlegen	_	O	O	
+8-22	müssen	VMFIN	müssen	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=Sagen Sie Helbig meine Theilnahme wegen seiner häuslichen Nöthe.
+9-1	Sagen	VVFIN	sagen	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	Helbig	ADJD	<unknown>	_	O	O	
+9-4	meine	PPOSAT	mein	_	O	O	
+9-5	Theilnahme	NN	<unknown>	_	O	O	
+9-6	wegen	APPR	wegen	_	O	O	
+9-7	seiner	PPOSAT	sein	_	O	O	
+9-8	häuslichen	ADJA	häuslich	_	O	O	
+9-9	Nöthe	NN	<unknown>	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=Noch haben wir immer keine 111] ?
+10-1	Noch	ADV	noch	_	O	O	
+10-2	haben	VAFIN	haben	_	O	O	
+10-3	wir	PPER	wir	_	O	O	
+10-4	immer	ADV	immer	_	O	O	
+10-5	keine	PIAT	keine	_	O	O	
+10-6	111	CARD	@card@	_	O	O	
+10-7	]	$(	]	_	O	O	
+10-8	?	$.	?	_	O	O	
+
+#id=11
+#text=nische Kommission" im Museum.
+11-1	nische	ADJA	<unknown>	_	O	O	
+11-2	Kommission	NN	Kommission	_	O	O	
+11-3	"	$(	"	_	O	O	
+11-4	im	APPRART	in	_	O	O	
+11-5	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+11-6	.	$.	.	_	O	O	
+
+#id=12
+#text=Usedom arbeitet sich nach
+12-1	Usedom	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	arbeitet	VVFIN	arbeiten	_	O	O	
+12-3	sich	PRF	sich	_	O	O	
+12-4	nach	APPR	nach	_	O	O	
+

@@ -1,0 +1,132 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=115 N. 41 Verehrter Freund Lepsius an Henzen Berlin, 29. Februar 1876 g. 3/3 76 Berlin d. 29. Febr.
+1-1	115	CARD	@card@	_	O	O	
+1-2	N.	APPR	n.	_	O	O	
+1-3	41	CARD	41	_	O	O	
+1-4	Verehrter	NN	Verehrte	_	O	O	
+1-5	Freund	NE	Freund	_	O	O	
+1-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	3/3	CARD	3/3	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	76	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-19	d.	ART	d.	_	O	O	
+1-20	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-21	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Febr.	NN	Febr.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1876 Ich lasse Ihnen heute durch das Auswärtige Amt 9 Diplome zugehen für die letzten zum 9. Dezember Ernannten.
+2-1	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Ich	PPER	ich	_	O	O	
+2-3	lasse	VVFIN	lassen	_	O	O	
+2-4	Ihnen	PPER	Sie	_	O	O	
+2-5	heute	ADV	heute	_	O	O	
+2-6	durch	APPR	durch	_	O	O	
+2-7	das	ART	die	_	O	O	
+2-8	Auswärtige	ADJA	auswärtig	_	O	O	
+2-9	Amt	NN	Amt	_	O	O	
+2-10	9	CARD	9	_	O	O	
+2-11	Diplome	NN	Diplom	_	O	O	
+2-12	zugehen	VVFIN	zugehen	_	O	O	
+2-13	für	APPR	für	_	O	O	
+2-14	die	ART	die	_	O	O	
+2-15	letzten	ADJA	letzt	_	O	O	
+2-16	zum	APPRART	zu	_	O	O	
+2-17	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-19	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-20	Ernannten	NN	Ernannte	_	O	O	
+2-21	.	$.	.	_	O	O	
+
+#id=3
+#text=An Prof.
+3-1	An	APPR	an	_	O	O	
+3-2	Prof.	NN	Prof.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=4
+#text=Usener habe ich das seinige direkt gesendet.
+4-1	Usener	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	habe	VAFIN	haben	_	O	O	
+4-3	ich	PPER	ich	_	O	O	
+4-4	das	PDS	die	_	O	O	
+4-5	seinige	PPOSAT	seinige	_	O	O	
+4-6	direkt	ADJD	direkt	_	O	O	
+4-7	gesendet	VVPP	senden	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich habe diesmal die Namen und Titel nur mit Bleistift geschrieben und überlasse Ihnen die Ausführung in Tinte, da mir einerseits die richtige Titulatur nicht immer sicher steht, andrerseits auch zuweilen der Vorname fehlt, der unentbehrlich ist.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	diesmal	ADV	diesmal	_	O	O	
+5-4	die	ART	die	_	O	O	
+5-5	Namen	NN	Name	_	O	O	
+5-6	und	KON	und	_	O	O	
+5-7	Titel	NN	Titel	_	O	O	
+5-8	nur	ADV	nur	_	O	O	
+5-9	mit	APPR	mit	_	O	O	
+5-10	Bleistift	NN	Bleistift	_	O	O	
+5-11	geschrieben	VVPP	schreiben	_	O	O	
+5-12	und	KON	und	_	O	O	
+5-13	überlasse	VVFIN	überlassen	_	O	O	
+5-14	Ihnen	PPER	Sie	_	O	O	
+5-15	die	ART	die	_	O	O	
+5-16	Ausführung	NN	Ausführung	_	O	O	
+5-17	in	APPR	in	_	O	O	
+5-18	Tinte	NN	Tinte	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	da	KOUS	da	_	O	O	
+5-21	mir	PPER	ich	_	O	O	
+5-22	einerseits	ADV	einerseits	_	O	O	
+5-23	die	ART	die	_	O	O	
+5-24	richtige	ADJA	richtig	_	O	O	
+5-25	Titulatur	NN	Titulatur	_	O	O	
+5-26	nicht	PTKNEG	nicht	_	O	O	
+5-27	immer	ADV	immer	_	O	O	
+5-28	sicher	ADJD	sicher	_	O	O	
+5-29	steht	VVFIN	stehen	_	O	O	
+5-30	,	$,	,	_	O	O	
+5-31	andrerseits	ADV	andrerseits	_	O	O	
+5-32	auch	ADV	auch	_	O	O	
+5-33	zuweilen	ADV	zuweilen	_	O	O	
+5-34	der	ART	die	_	O	O	
+5-35	Vorname	NN	Vorname	_	O	O	
+5-36	fehlt	VVFIN	fehlen	_	O	O	
+5-37	,	$,	,	_	O	O	
+5-38	der	PRELS	die	_	O	O	
+5-39	unentbehrlich	ADJD	unentbehrlich	_	O	O	
+5-40	ist	VAFIN	sein	_	O	O	
+5-41	.	$.	.	_	O	O	
+
+#id=6
+#text=Sie werden außerdem noch überall Ihre Unterschrift zuzufügen haben.
+6-1	Sie	PPER	Sie	_	O	O	
+6-2	werden	VAFIN	werden	_	O	O	
+6-3	außerdem	ADV	außerdem	_	O	O	
+6-4	noch	ADV	noch	_	O	O	
+6-5	überall	ADV	überall	_	O	O	
+6-6	Ihre	PPOSAT	ihr	_	O	O	
+6-7	Unterschrift	NN	Unterschrift	_	O	O	
+6-8	zuzufügen	VVIZU	zufügen	_	O	O	
+6-9	haben	VAINF	haben	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Mit herzlichem Gruß Ihr R Lepsius
+7-1	Mit	APPR	mit	_	O	O	
+7-2	herzlichem	ADJA	herzlich	_	O	O	
+7-3	Gruß	NN	Gruß	_	O	O	
+7-4	Ihr	PPOSAT	ihr	_	O	O	
+7-5	R	NN	R	_	O	O	
+7-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

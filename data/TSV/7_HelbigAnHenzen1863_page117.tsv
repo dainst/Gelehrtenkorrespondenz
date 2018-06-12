@@ -1,0 +1,53 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=417 Helbig an Henzen Sorrent, 15. September 1869 2 Soeben erhalte ich beifolgenden Brief Weerths.
+1-1	417	CARD	@card@	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	Sorrent	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1869	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	Soeben	NE	<unknown>	_	O	O	
+1-13	erhalte	VVFIN	erhalten	_	O	O	
+1-14	ich	PPER	ich	_	O	O	
+1-15	beifolgenden	ADJA	<unknown>	_	O	O	
+1-16	Brief	NN	Brief	_	O	O	
+1-17	Weerths	NE	<unknown>	_	O	O	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Nehmen Sie, bitte, davon Notiz und theilen Sie mir Ihre Ansicht darüber mit.
+2-1	Nehmen	VVFIN	nehmen	_	O	O	
+2-2	Sie	PPER	Sie	_	O	O	
+2-3	,	$,	,	_	O	O	
+2-4	bitte	VVIMP	bitten	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	davon	PAV	davon	_	O	O	
+2-7	Notiz	NN	Notiz	_	O	O	
+2-8	und	KON	und	_	O	O	
+2-9	theilen	VVFIN	<unknown>	_	O	O	
+2-10	Sie	PPER	Sie	_	O	O	
+2-11	mir	PRF	ich	_	O	O	
+2-12	Ihre	PPOSAT	ihr	_	O	O	
+2-13	Ansicht	NN	Ansicht	_	O	O	
+2-14	darüber	PAV	darüber	_	O	O	
+2-15	mit	PTKVZ	mit	_	O	O	
+2-16	.	$.	.	_	O	O	
+
+#id=3
+#text=Soll man überhaupt erst de Rossi darüber befragen ?
+3-1	Soll	VMFIN	sollen	_	O	O	
+3-2	man	PIS	man	_	O	O	
+3-3	überhaupt	ADV	überhaupt	_	O	O	
+3-4	erst	ADV	erst	_	O	O	
+3-5	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-7	darüber	PAV	darüber	_	O	O	
+3-8	befragen	VVINF	befragen	_	O	O	
+3-9	?	$.	?	_	O	O	
+

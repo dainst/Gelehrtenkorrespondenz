@@ -1,0 +1,351 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=163 15/VII/5 L -IVerehrter Herr Professor Renzen an Gerhard Wenigstens einige eilige Zeilen zur Beantwortung Ihres 1.
+1-1	163	CARD	163	_	O	O	
+1-2	15/VII/5	CARD	<unknown>	_	O	O	
+1-3	L	NN	L	_	O	O	
+1-4	-IVerehrter	NE	<unknown>	_	O	O	
+1-5	Herr	NN	Herr	_	O	O	
+1-6	Professor	NN	Professor	_	O	O	
+1-7	Renzen	NN	<unknown>	_	O	O	
+1-8	an	APPR	an	_	O	O	
+1-9	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-10	Wenigstens	ADV	wenigstens	_	O	O	
+1-11	einige	PIAT	einige	_	O	O	
+1-12	eilige	ADJA	eilig	_	O	O	
+1-13	Zeilen	NN	Zeile	_	O	O	
+1-14	zur	APPRART	zu	_	O	O	
+1-15	Beantwortung	NN	Beantwortung	_	O	O	
+1-16	Ihres	PPOSAT	ihr	_	O	O	
+1-17	1	CARD	1	_	O	O	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Briefes vom 6 d. M. - Die Langsamkeit der Berliner Geldoperationen kannte ich freilich schon zur Genlige, aber dieses Mal ist's wirklich zu arg.
+2-1	Briefes	NN	Brief	_	O	O	
+2-2	vom	APPRART	von	_	O	O	
+2-3	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-4	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-5	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-6	-	$(	-	_	O	O	
+2-7	Die	ART	die	_	O	O	
+2-8	Langsamkeit	NN	Langsamkeit	_	O	O	
+2-9	der	ART	die	_	O	O	
+2-10	Berliner	ADJA	Berliner	_	O	O	
+2-11	Geldoperationen	NN	<unknown>	_	O	O	
+2-12	kannte	VVFIN	kennen	_	O	O	
+2-13	ich	PPER	ich	_	O	O	
+2-14	freilich	ADV	freilich	_	O	O	
+2-15	schon	ADV	schon	_	O	O	
+2-16	zur	APPRART	zu	_	O	O	
+2-17	Genlige	NN	<unknown>	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	aber	KON	aber	_	O	O	
+2-20	dieses	PDAT	dies	_	O	O	
+2-21	Mal	NN	Mal	_	O	O	
+2-22	ist's	VAFIN	sein	_	O	O	
+2-23	wirklich	ADJD	wirklich	_	O	O	
+2-24	zu	APPR	zu	_	O	O	
+2-25	arg	ADJD	arg	_	O	O	
+2-26	.	$.	.	_	O	O	
+
+#id=3
+#text=Hoffentlich finde ich wenigstens den Credit vor, wenn ich vom Gebitge zurlick kehre, u. werde mir helfen, so cut es geht.
+3-1	Hoffentlich	ADV	hoffentlich	_	O	O	
+3-2	finde	VVFIN	finden	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	wenigstens	ADV	wenigstens	_	O	O	
+3-5	den	ART	die	_	O	O	
+3-6	Credit	NE	Credit	_	O	O	
+3-7	vor	PTKVZ	vor	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	wenn	KOUS	wenn	_	O	O	
+3-10	ich	PPER	ich	_	O	O	
+3-11	vom	APPRART	von	_	O	O	
+3-12	Gebitge	NN	<unknown>	_	O	O	
+3-13	zurlick	NN	<unknown>	_	O	O	
+3-14	kehre	VVFIN	kehren	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	u.	KON	und	_	O	O	
+3-17	werde	VAFIN	werden	_	O	O	
+3-18	mir	PPER	ich	_	O	O	
+3-19	helfen	VVINF	helfen	_	O	O	
+3-20	,	$,	,	_	O	O	
+3-21	so	ADV	so	_	O	O	
+3-22	cut	NN	<unknown>	_	O	O	
+3-23	es	PPER	es	_	O	O	
+3-24	geht	VVFIN	gehen	_	O	O	
+3-25	.	$.	.	_	O	O	
+
+#id=4
+#text=IJäge mir nicht so sehr am Vorwärtskommen , so hätte ich längst suspendirt, um den Herren für klinftige B'Enle eine Lehre zu geben.
+4-1	IJäge	NN	<unknown>	_	O	O	
+4-2	mir	PRF	ich	_	O	O	
+4-3	nicht	PTKNEG	nicht	_	O	O	
+4-4	so	ADV	so	_	O	O	
+4-5	sehr	ADV	sehr	_	O	O	
+4-6	am	APPRART	an	_	O	O	
+4-7	Vorwärtskommen	NN	Vorwärtskommen	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	so	ADV	so	_	O	O	
+4-10	hätte	VAFIN	haben	_	O	O	
+4-11	ich	PPER	ich	_	O	O	
+4-12	längst	ADV	längst	_	O	O	
+4-13	suspendirt	NN	<unknown>	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	um	KOUI	um	_	O	O	
+4-16	den	ART	die	_	O	O	
+4-17	Herren	NN	Herr	_	O	O	
+4-18	für	APPR	für	_	O	O	
+4-19	klinftige	ADJA	<unknown>	_	O	O	
+4-20	B'Enle	NN	<unknown>	_	O	O	
+4-21	eine	ART	eine	_	O	O	
+4-22	Lehre	NN	Lehre	_	O	O	
+4-23	zu	PTKZU	zu	_	O	O	
+4-24	geben	VVINF	geben	_	O	O	
+4-25	.	$.	.	_	O	O	
+
+#id=5
+#text=Uebrigens arbeite ich jetzt seit mehreren Wonaten fast ausschlierlich flir das C.I.L. u. hoffe, so das v0rtWsbekommene Honorar bald abzuverdienen.
+5-1	Uebrigens	NN	<unknown>	_	O	O	
+5-2	arbeite	VVFIN	arbeiten	_	O	O	
+5-3	ich	PPER	ich	_	O	O	
+5-4	jetzt	ADV	jetzt	_	O	O	
+5-5	seit	APPR	seit	_	O	O	
+5-6	mehreren	PIAT	mehrere	_	O	O	
+5-7	Wonaten	NN	<unknown>	_	O	O	
+5-8	fast	ADV	fast	_	O	O	
+5-9	ausschlierlich	ADJD	<unknown>	_	O	O	
+5-10	flir	NN	<unknown>	_	O	O	
+5-11	das	ART	die	_	O	O	
+5-12	C.I.L.	NE	<unknown>	_	O	O	
+5-13	u.	KON	und	_	O	O	
+5-14	hoffe	VVFIN	hoffen	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	so	ADV	so	_	O	O	
+5-17	das	ART	die	_	O	O	
+5-18	v0rtWsbekommene	NN	<unknown>	_	O	O	
+5-19	Honorar	NN	Honorar	_	O	O	
+5-20	bald	ADV	bald	_	O	O	
+5-21	abzuverdienen	VVIZU	<unknown>	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=In der klinfticen ~ocbe werde ich das Copieren, resp. Co11ationiren des Museo Capitol.
+6-1	In	APPR	in	_	O	O	
+6-2	der	ART	die	_	O	O	
+6-3	klinfticen	ADJA	<unknown>	_	O	O	
+6-4	~ocbe	NN	<unknown>	_	O	O	
+6-5	werde	VAFIN	werden	_	O	O	
+6-6	ich	PPER	ich	_	O	O	
+6-7	das	ART	die	_	O	O	
+6-8	Copieren	NN	<unknown>	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	resp.	ADV	resp.	_	O	O	
+6-11	Co11ationiren	NN	<unknown>	_	O	O	
+6-12	des	ART	die	_	O	O	
+6-13	Museo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-14	Capitol	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=hoffentlich beendigen u. in Rocca di Fapa dann diese cca 1300 - 1400 Steine ordnen u. mit Guasco's Nummern versehen, eben so die etwa 600 Inschriften, die Campana besitzt, u. die ich mit de Rossi jetzt collc:;tionirt habe, n8chdem ich sie mtt l\!
+7-1	hoffentlich	ADV	hoffentlich	_	O	O	
+7-2	beendigen	VVFIN	beendigen	_	O	O	
+7-3	u.	APPR	um	_	O	O	
+7-4	in	APPR	in	_	O	O	
+7-5	Rocca	NE	<unknown>	_	O	O	
+7-6	di	NE	di	_	O	O	
+7-7	Fapa	NN	<unknown>	_	O	O	
+7-8	dann	ADV	dann	_	O	O	
+7-9	diese	PDAT	dies	_	O	O	
+7-10	cca	NN	<unknown>	_	O	O	
+7-11	1300	CARD	1300	_	O	O	
+7-12	-	$(	-	_	O	O	
+7-13	1400	CARD	@card@	_	O	O	
+7-14	Steine	NN	Stein	_	O	O	
+7-15	ordnen	VVINF	ordnen	_	O	O	
+7-16	u.	KON	und	_	O	O	
+7-17	mit	APPR	mit	_	O	O	
+7-18	Guasco's	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-19	Nummern	NN	Nummer	_	O	O	
+7-20	versehen	VVPP	versehen	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	eben	ADV	eben	_	O	O	
+7-23	so	ADV	so	_	O	O	
+7-24	die	ART	die	_	O	O	
+7-25	etwa	ADV	etwa	_	O	O	
+7-26	600	CARD	600	_	O	O	
+7-27	Inschriften	NN	Inschrift	_	O	O	
+7-28	,	$,	,	_	O	O	
+7-29	die	PRELS	die	_	O	O	
+7-30	Campana	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-31	besitzt	VVFIN	besitzen	_	O	O	
+7-32	,	$,	,	_	O	O	
+7-33	u.	APPR	um	_	O	O	
+7-34	die	PRELS	die	_	O	O	
+7-35	ich	PPER	ich	_	O	O	
+7-36	mit	APPR	mit	_	O	O	
+7-37	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-38	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-39	jetzt	ADV	jetzt	_	O	O	
+7-40	collc	ADJD	<unknown>	_	O	O	
+7-41	:	$.	:	_	O	O	
+7-42	;	$.	;	_	O	O	
+7-43	tionirt	NN	<unknown>	_	O	O	
+7-44	habe	VAFIN	haben	_	O	O	
+7-45	,	$,	,	_	O	O	
+7-46	n8chdem	VVFIN	<unknown>	_	O	O	
+7-47	ich	PPER	ich	_	O	O	
+7-48	sie	PPER	sie	_	O	O	
+7-49	mtt	ADJA	<unknown>	_	O	O	
+7-50	l\	NN	<unknown>	_	O	O	
+7-51	!	$.	!	_	O	O	
+
+#id=8
+#text=;ommsen vor 8 ode 9 Jahren hie u. da noch ohne die n6thige Erfahrung abgeschrieben.
+8-1	;	$.	;	_	O	O	
+8-2	ommsen	ADJD	<unknown>	_	O	O	
+8-3	vor	APPR	vor	_	O	O	
+8-4	8	CARD	8	_	O	O	
+8-5	ode	ADJA	<unknown>	_	O	O	
+8-6	9	CARD	9	_	O	O	
+8-7	Jahren	NN	Jahr	_	O	O	
+8-8	hie	NE	hie	_	O	O	
+8-9	u.	APPR	um	_	O	O	
+8-10	da	ADV	da	_	O	O	
+8-11	noch	ADV	noch	_	O	O	
+8-12	ohne	APPR	ohne	_	O	O	
+8-13	die	ART	die	_	O	O	
+8-14	n6thige	ADJA	<unknown>	_	O	O	
+8-15	Erfahrung	NN	Erfahrung	_	O	O	
+8-16	abgeschrieben	VVPP	abschreiben	_	O	O	
+8-17	.	$.	.	_	O	O	
+
+#id=9
+#text=Diese Arbeiten kosten aber mehr Zeit, als ich selbst zlaubte.
+9-1	Diese	PDAT	dies	_	O	O	
+9-2	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+9-3	kosten	VVFIN	kosen|kosten	_	O	O	
+9-4	aber	ADV	aber	_	O	O	
+9-5	mehr	PIAT	mehr	_	O	O	
+9-6	Zeit	NN	Zeit	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	als	KOUS	als	_	O	O	
+9-9	ich	PPER	ich	_	O	O	
+9-10	selbst	ADV	selbst	_	O	O	
+9-11	zlaubte	VVFIN	<unknown>	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Namentlich die Capitol.
+10-1	Namentlich	ADJD	namentlich	_	O	O	
+10-2	die	ART	die	_	O	O	
+10-3	Capitol	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-4	.	$.	.	_	O	O	
+
+#id=11
+#text=Fasten u. die sehr ruinirte Basis der Vieomacistri haben mich sehr aufgehalten, die letztere allein fast 9 ganze Vormittage, da sie noch dazu schändlich 'übermalt ist u. jeder buchstabe, so zu sa~en, einzeln in Stanniol abgedruckt werden mußte.
+11-1	Fasten	NN	Fasten	_	O	O	
+11-2	u.	APPR	um	_	O	O	
+11-3	die	ART	die	_	O	O	
+11-4	sehr	ADV	sehr	_	O	O	
+11-5	ruinirte	ADJA	<unknown>	_	O	O	
+11-6	Basis	NN	Basis	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-7	der	ART	die	_	I-webanno.custom.LetterEntity_	I-OBJ	
+11-8	Vieomacistri	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+11-9	haben	VAFIN	haben	_	O	O	
+11-10	mich	PRF	ich	_	O	O	
+11-11	sehr	ADV	sehr	_	O	O	
+11-12	aufgehalten	VVPP	aufhalten	_	O	O	
+11-13	,	$,	,	_	O	O	
+11-14	die	ART	die	_	O	O	
+11-15	letztere	ADJA	letzt	_	O	O	
+11-16	allein	ADV	allein	_	O	O	
+11-17	fast	ADV	fast	_	O	O	
+11-18	9	CARD	9	_	O	O	
+11-19	ganze	ADJA	ganz	_	O	O	
+11-20	Vormittage	NN	Vormittag	_	O	O	
+11-21	,	$,	,	_	O	O	
+11-22	da	KOUS	da	_	O	O	
+11-23	sie	PPER	sie	_	O	O	
+11-24	noch	ADV	noch	_	O	O	
+11-25	dazu	PAV	dazu	_	O	O	
+11-26	schändlich	ADJD	schändlich	_	O	O	
+11-27	'	$(	'	_	O	O	
+11-28	übermalt	VVPP	übermalen	_	O	O	
+11-29	ist	VAFIN	sein	_	O	O	
+11-30	u.	KON	und	_	O	O	
+11-31	jeder	PIAT	jede	_	O	O	
+11-32	buchstabe	NN	Buchstabe	_	O	O	
+11-33	,	$,	,	_	O	O	
+11-34	so	ADV	so	_	O	O	
+11-35	zu	PTKZU	zu	_	O	O	
+11-36	sa~en	VVINF	<unknown>	_	O	O	
+11-37	,	$,	,	_	O	O	
+11-38	einzeln	ADJD	einzeln	_	O	O	
+11-39	in	APPR	in	_	O	O	
+11-40	Stanniol	NN	Stanniol	_	O	O	
+11-41	abgedruckt	VVPP	abdrucken	_	O	O	
+11-42	werden	VAINF	werden	_	O	O	
+11-43	mußte	VMFIN	müssen	_	O	O	
+11-44	.	$.	.	_	O	O	
+
+#id=12
+#text=Das Besultat ist zwar ein correcter Text, der aber nicht .
+12-1	Das	ART	die	_	O	O	
+12-2	Besultat	NN	<unknown>	_	O	O	
+12-3	ist	VAFIN	sein	_	O	O	
+12-4	zwar	ADV	zwar	_	O	O	
+12-5	ein	ART	eine	_	O	O	
+12-6	correcter	NN	<unknown>	_	O	O	
+12-7	Text	NN	Text	_	O	O	
+12-8	,	$,	,	_	O	O	
+12-9	der	PRELS	die	_	O	O	
+12-10	aber	ADV	aber	_	O	O	
+12-11	nicht	PTKNEG	nicht	_	O	O	
+12-12	.	$.	.	_	O	O	
+
+#id=13
+#text=.
+13-1	.	$.	.	_	O	O	
+
+#id=14
+#text=h bJ P l\T .
+14-1	h	NN	h	_	O	O	
+14-2	bJ	NE	<unknown>	_	O	O	
+14-3	P	NE	P	_	O	O	
+14-4	l\T	NN	<unknown>	_	O	O	
+14-5	.	$.	.	_	O	O	
+
+#id=15
+#text=H'" h c'· B vlel werth, da es SJ_C um _o,~e !.lamen ~ omlSC.c er ople ,)- bUrgor handelt.
+15-1	H	NN	H	_	O	O	
+15-2	'	$(	'	_	O	O	
+15-3	"	$(	"	_	O	O	
+15-4	h	NN	h	_	O	O	
+15-5	c'·	ADJA	<unknown>	_	O	O	
+15-6	B	NN	B	_	O	O	
+15-7	vlel	NN	<unknown>	_	O	O	
+15-8	werth	NE	<unknown>	_	O	O	
+15-9	,	$,	,	_	O	O	
+15-10	da	KOUS	da	_	O	O	
+15-11	es	PPER	es	_	O	O	
+15-12	SJ_C	NE	<unknown>	_	O	O	
+15-13	um	APPR	um	_	O	O	
+15-14	_o,~e	NE	<unknown>	_	O	O	
+15-15	!	$.	!	_	O	O	
+15-16	.lamen	NN	<unknown>	_	O	O	
+15-17	~	XY	~	_	O	O	
+15-18	omlSC.c	ADV	<unknown>	_	O	O	
+15-19	er	PPER	er	_	O	O	
+15-20	ople	ADJA	<unknown>	_	O	O	
+15-21	,)-	NN	<unknown>	_	O	O	
+15-22	bUrgor	ADJD	<unknown>	_	O	O	
+15-23	handelt	VVFIN	handeln	_	O	O	
+15-24	.	$.	.	_	O	O	
+
+#id=16
+#text=-
+16-1	-	$(	-	_	O	O	
+

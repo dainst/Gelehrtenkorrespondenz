@@ -1,0 +1,364 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=385 Henzen an Gerhard 29/X/53 2 Sachkenntniß abgefasst, dß.
+1-1	385	CARD	@card@	_	O	O	
+1-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	29/X/53	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-6	2	CARD	2	_	O	O	
+1-7	Sachkenntniß	NN	<unknown>	_	O	O	
+1-8	abgefasst	VVPP	abfassen	_	O	O	
+1-9	,	$,	,	_	O	O	
+1-10	dß	VVFIN	<unknown>	_	O	O	
+1-11	.	$.	.	_	O	O	
+
+#id=2
+#text=ich mic~ sehr gefreut habe; ich habe darin einen neuen Beweis von de R's großer Tfichtigkeit gerade für diese Seite unsres Unternehmens gefun~ den.
+2-1	ich	PPER	ich	_	O	O	
+2-2	mic~	ADJD	<unknown>	_	O	O	
+2-3	sehr	ADV	sehr	_	O	O	
+2-4	gefreut	VVPP	freuen	_	O	O	
+2-5	habe	VAFIN	haben	_	O	O	
+2-6	;	$.	;	_	O	O	
+2-7	ich	PPER	ich	_	O	O	
+2-8	habe	VAFIN	haben	_	O	O	
+2-9	darin	PAV	darin	_	O	O	
+2-10	einen	ART	eine	_	O	O	
+2-11	neuen	ADJA	neu	_	O	O	
+2-12	Beweis	NN	Beweis	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-13	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-14	de	NE	de	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-15	R's	VVFIN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-16	großer	ADJA	groß	_	O	O	
+2-17	Tfichtigkeit	NN	<unknown>	_	O	O	
+2-18	gerade	ADV	gerade	_	O	O	
+2-19	für	APPR	für	_	O	O	
+2-20	diese	PDAT	dies	_	O	O	
+2-21	Seite	NN	Seite	_	O	O	
+2-22	unsres	PPOSAT	unser	_	O	O	
+2-23	Unternehmens	NN	Unternehmen	_	O	O	
+2-24	gefun~	VVPP	<unknown>	_	O	O	
+2-25	den	PRELS	die	_	O	O	
+2-26	.	$.	.	_	O	O	
+
+#id=3
+#text=Selbst Mommsen kommt ihm da nicht gleich; denn natürlich geh5rt dazu die gewaltige Praxis in Codd., die de R. sich seit Jahren ane;eeignet hat.
+3-1	Selbst	ADV	selbst	_	O	O	
+3-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	kommt	VVFIN	kommen	_	O	O	
+3-4	ihm	PPER	er	_	O	O	
+3-5	da	ADV	da	_	O	O	
+3-6	nicht	PTKNEG	nicht	_	O	O	
+3-7	gleich	ADJD	gleich	_	O	O	
+3-8	;	$.	;	_	O	O	
+3-9	denn	KON	denn	_	O	O	
+3-10	natürlich	ADV	natürlich	_	O	O	
+3-11	geh5rt	VVFIN	<unknown>	_	O	O	
+3-12	dazu	PAV	dazu	_	O	O	
+3-13	die	ART	die	_	O	O	
+3-14	gewaltige	ADJA	gewaltig	_	O	O	
+3-15	Praxis	NN	Praxis	_	O	O	
+3-16	in	APPR	in	_	O	O	
+3-17	Codd	NE	Codd	_	O	O	
+3-18	.	$.	.	_	O	O	
+3-19	,	$,	,	_	O	O	
+3-20	die	ART	die	_	O	O	
+3-21	de	FM	de	_	O	O	
+3-22	R.	NE	R.	_	O	O	
+3-23	sich	PRF	sich	_	O	O	
+3-24	seit	APPR	seit	_	O	O	
+3-25	Jahren	NN	Jahr	_	O	O	
+3-26	ane	VVFIN	<unknown>	_	O	O	
+3-27	;	$.	;	_	O	O	
+3-28	eeignet	ADJD	<unknown>	_	O	O	
+3-29	hat	VAFIN	haben	_	O	O	
+3-30	.	$.	.	_	O	O	
+
+#id=4
+#text=• Vorli~.ufig würde mir lieb sein, von Ihnen zu erfahren, bis zu welchem ungef~bren Betrage sich eine etwaige Bewilligung für Hülfsarbeiten, z. B. für das nächste Jahr, belaufen.
+4-1	•	ADJD	<unknown>	_	O	O	
+4-2	Vorli~.ufig	ADJD	<unknown>	_	O	O	
+4-3	würde	VAFIN	werden	_	O	O	
+4-4	mir	PPER	ich	_	O	O	
+4-5	lieb	ADJD	lieb	_	O	O	
+4-6	sein	VAINF	sein	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	von	APPR	von	_	O	O	
+4-9	Ihnen	PPER	Sie	_	O	O	
+4-10	zu	PTKZU	zu	_	O	O	
+4-11	erfahren	VVINF	erfahren	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	bis	APPR	bis	_	O	O	
+4-14	zu	PTKA	zu	_	O	O	
+4-15	welchem	PRELS	welche	_	O	O	
+4-16	ungef~bren	ADJA	<unknown>	_	O	O	
+4-17	Betrage	NN	Betrag	_	O	O	
+4-18	sich	PRF	sich	_	O	O	
+4-19	eine	ART	eine	_	O	O	
+4-20	etwaige	ADJA	etwaig	_	O	O	
+4-21	Bewilligung	NN	Bewilligung	_	O	O	
+4-22	für	APPR	für	_	O	O	
+4-23	Hülfsarbeiten	NN	<unknown>	_	O	O	
+4-24	,	$,	,	_	O	O	
+4-25	z.	APPRART	z.	_	O	O	
+4-26	B.	NN	B.	_	O	O	
+4-27	für	APPR	für	_	O	O	
+4-28	das	ART	die	_	O	O	
+4-29	nächste	ADJA	nah	_	O	O	
+4-30	Jahr	NN	Jahr	_	O	O	
+4-31	,	$,	,	_	O	O	
+4-32	belaufen	VVPP	belaufen	_	O	O	
+4-33	.	$.	.	_	O	O	
+
+#id=5
+#text=dürfte.
+5-1	dürfte	VMFIN	dürfen	_	O	O	
+5-2	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich 1ATürde darnach die SpeciBlantr~ge einrichten.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	1ATürde	NN	<unknown>	_	O	O	
+6-3	darnach	ADV	<unknown>	_	O	O	
+6-4	die	ART	die	_	O	O	
+6-5	SpeciBlantr~ge	NN	<unknown>	_	O	O	
+6-6	einrichten	VVINF	einrichten	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=r--'}lir müssen nothwendig einige ProvinzialcorresponI denten @rnennen.
+7-1	r--'}lir	NE	<unknown>	_	O	O	
+7-2	müssen	VMFIN	müssen	_	O	O	
+7-3	nothwendig	ADJD	<unknown>	_	O	O	
+7-4	einige	PIAT	einige	_	O	O	
+7-5	ProvinzialcorresponI	NN	<unknown>	_	O	O	
+7-6	denten	ADJA	<unknown>	_	O	O	
+7-7	@rnennen	NN	<unknown>	_	O	O	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=Für das Regno schlägt Brunn vor : Benevent, E'rancesco Saverio Sorda; Bonito, D~ Dionisio Cassitto; S. Germano, Franc.
+8-1	Für	APPR	für	_	O	O	
+8-2	das	ART	die	_	O	O	
+8-3	Regno	NN	<unknown>	_	O	O	
+8-4	schlägt	VVFIN	schlagen	_	O	O	
+8-5	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	vor	PTKVZ	vor	_	O	O	
+8-7	:	$.	:	_	O	O	
+8-8	Benevent	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-9	,	$,	,	_	O	O	
+8-10	E'rancesco	NE	<unknown>	_	O	O	
+8-11	Saverio	NE	Saverio	_	O	O	
+8-12	Sorda	NE	<unknown>	_	O	O	
+8-13	;	$.	;	_	O	O	
+8-14	Bonito	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-15	,	$,	,	_	O	O	
+8-16	D~	NE	<unknown>	_	O	O	
+8-17	Dionisio	NE	Dionisio	_	O	O	
+8-18	Cassitto	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-19	;	$.	;	_	O	O	
+8-20	S.	NE	S.	_	O	O	
+8-21	Germano	NE	Germano	_	O	O	
+8-22	,	$,	,	_	O	O	
+8-23	Franc	NN	Franc	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-24	.	$.	.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+
+#id=9
+#text=Saverio Labriola; Luco, Filippo IJlacidi; Venosa, Prof.
+9-1	Saverio	NE	Saverio	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	Labriola	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-3	;	$.	;	_	O	O	
+9-4	Luco	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	,	$,	,	_	O	O	
+9-6	Filippo	NE	Filippo	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-7	IJlacidi	NE	<unknown>	_	O	O	
+9-8	;	$.	;	_	O	O	
+9-9	Venosa	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-10	,	$,	,	_	O	O	
+9-11	Prof.	NN	Prof.	_	O	O	
+
+#id=10
+#text=Raffaele Smith.
+10-1	Raffaele	NE	Raffaele	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	Smith	NE	Smith	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-3	.	$.	.	_	O	O	
+
+#id=11
+#text=FUr Oberitalien schlägt de Rossi vor: Ferrara, Msg. Antonelli, Bibliothekar, u. Boschini, Direttore deI Gabinetto numismatico; iu'ilano, Prof.
+11-1	FUr	NE	<unknown>	_	O	O	
+11-2	Oberitalien	NE	Oberitalien	_	O	O	
+11-3	schlägt	VVFIN	schlagen	_	O	O	
+11-4	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-5	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-6	vor	PTKVZ	vor	_	O	O	
+11-7	:	$.	:	_	O	O	
+11-8	Ferrara	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-9	,	$,	,	_	O	O	
+11-10	Msg	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-12	Antonelli	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-13	,	$,	,	_	O	O	
+11-14	Bibliothekar	NN	Bibliothekar	_	O	O	
+11-15	,	$,	,	_	O	O	
+11-16	u.	APPR	um	_	O	O	
+11-17	Boschini	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-18	,	$,	,	_	O	O	
+11-19	Direttore	NN	<unknown>	_	O	O	
+11-20	deI	VVFIN	<unknown>	_	O	O	
+11-21	Gabinetto	NE	<unknown>	_	O	O	
+11-22	numismatico	NE	<unknown>	_	O	O	
+11-23	;	$.	;	_	O	O	
+11-24	iu'ilano	NE	<unknown>	_	O	O	
+11-25	,	$,	,	_	O	O	
+11-26	Prof.	NN	Prof.	_	O	O	
+
+#id=12
+#text=Biondelli, Direttore deI Gabinetto numismatico; Venedig, Cav. Cicogna ( ist der' s noch nicht ?
+12-1	Biondelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	,	$,	,	_	O	O	
+12-3	Direttore	NN	<unknown>	_	O	O	
+12-4	deI	VVFIN	<unknown>	_	O	O	
+12-5	Gabinetto	NE	<unknown>	_	O	O	
+12-6	numismatico	NE	<unknown>	_	O	O	
+12-7	;	$.	;	_	O	O	
+12-8	Venedig	NE	Venedig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-9	,	$,	,	_	O	O	
+12-10	Cav.	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-11	Cicogna	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+12-12	(	$(	(	_	O	O	
+12-13	ist	VAFIN	sein	_	O	O	
+12-14	der	ART	die	_	O	O	
+12-15	'	$(	'	_	O	O	
+12-16	s	NN	s	_	O	O	
+12-17	noch	ADV	noch	_	O	O	
+12-18	nicht	PTKNEG	nicht	_	O	O	
+12-19	?	$.	?	_	O	O	
+
+#id=13
+#text=); :Fis8, }:lrof.
+13-1	)	$(	)	_	O	O	
+13-2	;	$.	;	_	O	O	
+13-3	:Fis8	NN	<unknown>	_	O	O	
+13-4	,	$,	,	_	O	O	
+13-5	}:lrof	ADJD	<unknown>	_	O	O	
+13-6	.	$.	.	_	O	O	
+
+#id=14
+#text=kichele F'errucci.
+14-1	kichele	NE	<unknown>	_	O	O	
+14-2	F'errucci	NE	<unknown>	_	O	O	
+14-3	.	$.	.	_	O	O	
+
+#id=15
+#text=nenn Falkener noch dort ist, 80 fracen ~ie ihn doch, ob er dh.
+15-1	nenn	VVIMP	nennen	_	O	O	
+15-2	Falkener	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-3	noch	ADV	noch	_	O	O	
+15-4	dort	ADV	dort	_	O	O	
+15-5	ist	VAFIN	sein	_	O	O	
+15-6	,	$,	,	_	O	O	
+15-7	80	CARD	80	_	O	O	
+15-8	fracen	NN	<unknown>	_	O	O	
+15-9	~ie	VVFIN	<unknown>	_	O	O	
+15-10	ihn	PPER	er	_	O	O	
+15-11	doch	ADV	doch	_	O	O	
+15-12	,	$,	,	_	O	O	
+15-13	ob	KOUS	ob	_	O	O	
+15-14	er	PPER	er	_	O	O	
+15-15	dh.	NE	<unknown>	_	O	O	
+
+#id=16
+#text=Campanari di 50 Ecx.
+16-1	Campanari	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-2	di	NE	di	_	O	O	
+16-3	50	CARD	50	_	O	O	
+16-4	Ecx	NE	<unknown>	_	O	O	
+16-5	.	$.	.	_	O	O	
+
+#id=17
+#text=seiner Griech. Inschriften bekommen, die ich ihm geschickt.
+17-1	seiner	PPOSAT	sein	_	O	O	
+17-2	Griech	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-LIT	
+17-3	.	$.	.	_	I-webanno.custom.LetterEntity_	I-LIT	
+17-4	Inschriften	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-LIT	
+17-5	bekommen	VVFIN	bekommen	_	O	O	
+17-6	,	$,	,	_	O	O	
+17-7	die	PRELS	die	_	O	O	
+17-8	ich	PPER	ich	_	O	O	
+17-9	ihm	PPER	er	_	O	O	
+17-10	geschickt	VVPP	schicken	_	O	O	
+17-11	.	$.	.	_	O	O	
+
+#id=18
+#text=Villari uns unbekannt.
+18-1	Villari	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-2	uns	PRF	wir	_	O	O	
+18-3	unbekannt	ADJD	unbekannt	_	O	O	
+18-4	.	$.	.	_	O	O	
+
+#id=19
+#text=- Adunanzen bekommen Sie leider !
+19-1	-	$(	-	_	O	O	
+19-2	Adunanzen	NN	<unknown>	_	O	O	
+19-3	bekommen	VVFIN	bekommen	_	O	O	
+19-4	Sie	PPER	Sie	_	O	O	
+19-5	leider	ADV	leider	_	O	O	
+19-6	!	$.	!	_	O	O	
+
+#id=20
+#text=noch zwei im October-Bull.
+20-1	noch	ADV	noch	_	O	O	
+20-2	zwei	CARD	zwei	_	O	O	
+20-3	im	APPRART	in	_	O	O	
+20-4	October-Bull	NE	<unknown>	_	O	O	
+20-5	.	$.	.	_	O	O	
+
+#id=21
+#text=Freilich ist's ein Uebelstand; aber wir k5nnen doch auch nicht ganze Bli~tter mit ihnen \ füllen.
+21-1	Freilich	ADV	freilich	_	O	O	
+21-2	ist's	VAFIN	sein	_	O	O	
+21-3	ein	ART	eine	_	O	O	
+21-4	Uebelstand	NN	<unknown>	_	O	O	
+21-5	;	$.	;	_	O	O	
+21-6	aber	ADV	aber	_	O	O	
+21-7	wir	PPER	wir	_	O	O	
+21-8	k5nnen	NN	<unknown>	_	O	O	
+21-9	doch	ADV	doch	_	O	O	
+21-10	auch	ADV	auch	_	O	O	
+21-11	nicht	PTKNEG	nicht	_	O	O	
+21-12	ganze	ADJA	ganz	_	O	O	
+21-13	Bli~tter	NN	<unknown>	_	O	O	
+21-14	mit	APPR	mit	_	O	O	
+21-15	ihnen	PPER	sie	_	O	O	
+21-16	\	XY	\	_	O	O	
+21-17	füllen	VVFIN	füllen	_	O	O	
+21-18	.	$.	.	_	O	O	
+
+#id=22
+#text=- Mazzetti unterzeichnet seine Briefe immer Canot \ nico, soll aber in Zukunft das Msg. erhalten.
+22-1	-	$(	-	_	O	O	
+22-2	Mazzetti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+22-3	unterzeichnet	VVFIN	unterzeichnen	_	O	O	
+22-4	seine	PPOSAT	sein	_	O	O	
+22-5	Briefe	NN	Brief	_	O	O	
+22-6	immer	ADV	immer	_	O	O	
+22-7	Canot	NN	<unknown>	_	O	O	
+22-8	\	XY	\	_	O	O	
+22-9	nico	ADJD	<unknown>	_	O	O	
+22-10	,	$,	,	_	O	O	
+22-11	soll	VMFIN	sollen	_	O	O	
+22-12	aber	ADV	aber	_	O	O	
+22-13	in	APPR	in	_	O	O	
+22-14	Zukunft	NN	Zukunft	_	O	O	
+22-15	das	ART	die	_	O	O	
+22-16	Msg	NE	<unknown>	_	O	O	
+22-17	.	$.	.	_	O	O	
+22-18	erhalten	VVPP	erhalten	_	O	O	
+22-19	.	$.	.	_	O	O	
+
+#id=23
+#text=- Braun
+23-1	-	$(	-	_	O	O	
+23-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

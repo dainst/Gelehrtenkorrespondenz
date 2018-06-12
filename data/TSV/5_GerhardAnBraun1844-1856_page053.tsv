@@ -1,0 +1,221 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=219 Gerhard an Braun Berlin, 16. Mai 1844 A. d. Dir.
+1-1	219	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	A.	APPR	an	_	O	O	
+1-12	d.	ART	d.	_	O	O	
+1-13	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=g. 27/V 44 r. 27/V 44 Dr. Braun Berlin 16 Mai 44 Eben lieber Freund kommt Ihr Brief mit dem Beischluß an Wiese an.
+2-1	g.	ADJA	<unknown>	_	O	O	
+2-2	27/V	NE	<unknown>	_	O	O	
+2-3	44	CARD	44	_	O	O	
+2-4	r.	ADJA	<unknown>	_	O	O	
+2-5	27/V	NE	<unknown>	_	O	O	
+2-6	44	CARD	44	_	O	O	
+2-7	Dr.	NN	Dr.	_	O	O	
+2-8	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-10	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-11	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-13	Eben	ADV	eben	_	O	O	
+2-14	lieber	ADJD	lieb	_	O	O	
+2-15	Freund	NE	Freund	_	O	O	
+2-16	kommt	VVFIN	kommen	_	O	O	
+2-17	Ihr	PPOSAT	ihr	_	O	O	
+2-18	Brief	NN	Brief	_	O	O	
+2-19	mit	APPR	mit	_	O	O	
+2-20	dem	ART	die	_	O	O	
+2-21	Beischluß	NN	<unknown>	_	O	O	
+2-22	an	APPR	an	_	O	O	
+2-23	Wiese	NN	Wiese	_	O	O	
+2-24	an	PTKVZ	an	_	O	O	
+2-25	.	$.	.	_	O	O	
+
+#id=3
+#text=Daß Sie keinen Brief von mir hatten wundert mich; ich schrieb Ihnen 22 April und 1 Mai.
+3-1	Daß	KOUS	dass	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	keinen	PIAT	keine	_	O	O	
+3-4	Brief	NN	Brief	_	O	O	
+3-5	von	APPR	von	_	O	O	
+3-6	mir	PPER	ich	_	O	O	
+3-7	hatten	VAFIN	haben	_	O	O	
+3-8	wundert	VVFIN	wundern	_	O	O	
+3-9	mich	PRF	ich	_	O	O	
+3-10	;	$.	;	_	O	O	
+3-11	ich	PPER	ich	_	O	O	
+3-12	schrieb	VVFIN	schreiben	_	O	O	
+3-13	Ihnen	PPER	Sie	_	O	O	
+3-14	22	CARD	22	_	O	O	
+3-15	April	NN	April	_	O	O	
+3-16	und	KON	und	_	O	O	
+3-17	1	CARD	1	_	O	O	
+3-18	Mai	NN	Mai	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=In bisherigen warmen Tagen ging es mir plötzlich gut, bei eingetretener Kälte wieder schlecht.
+4-1	In	APPR	in	_	O	O	
+4-2	bisherigen	ADJA	bisherig	_	O	O	
+4-3	warmen	ADJA	warm	_	O	O	
+4-4	Tagen	NN	Tag	_	O	O	
+4-5	ging	VVFIN	gehen	_	O	O	
+4-6	es	PPER	es	_	O	O	
+4-7	mir	PRF	ich	_	O	O	
+4-8	plötzlich	ADJD	plötzlich	_	O	O	
+4-9	gut	ADJD	gut	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	bei	APPR	bei	_	O	O	
+4-12	eingetretener	ADJA	eingetreten	_	O	O	
+4-13	Kälte	NN	Kälte	_	O	O	
+4-14	wieder	ADV	wieder	_	O	O	
+4-15	schlecht	ADJD	schlecht	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=In Ihren Reiseplänen sind Sie mir wieder allzu schweigsam es scheint Ihnen nichts daran zu liegen daß ich die meinigen damit kombinire.
+5-1	In	APPR	in	_	O	O	
+5-2	Ihren	PPOSAT	ihr	_	O	O	
+5-3	Reiseplänen	NN	Reiseplan	_	O	O	
+5-4	sind	VAFIN	sein	_	O	O	
+5-5	Sie	PPER	Sie	_	O	O	
+5-6	mir	PRF	ich	_	O	O	
+5-7	wieder	ADV	wieder	_	O	O	
+5-8	allzu	PTKA	allzu	_	O	O	
+5-9	schweigsam	ADJD	schweigsam	_	O	O	
+5-10	es	PPER	es	_	O	O	
+5-11	scheint	VVFIN	scheinen	_	O	O	
+5-12	Ihnen	PPER	Sie	_	O	O	
+5-13	nichts	PIS	nichts	_	O	O	
+5-14	daran	PAV	daran	_	O	O	
+5-15	zu	PTKZU	zu	_	O	O	
+5-16	liegen	VVINF	liegen	_	O	O	
+5-17	daß	KOUS	dass	_	O	O	
+5-18	ich	PPER	ich	_	O	O	
+5-19	die	ART	die	_	O	O	
+5-20	meinigen	PPOSS	meinig	_	O	O	
+5-21	damit	PAV	damit	_	O	O	
+5-22	kombinire	NE	<unknown>	_	O	O	
+5-23	.	$.	.	_	O	O	
+
+#id=6
+#text=Mitte August kann ich in Paris oder am Rhein sein, in Frankfurt schon Anfang August.
+6-1	Mitte	NN	Mitte	_	O	O	
+6-2	August	NE	August	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-3	kann	VMFIN	können	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	in	APPR	in	_	O	O	
+6-6	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-7	oder	KON	oder	_	O	O	
+6-8	am	APPRART	an	_	O	O	
+6-9	Rhein	NE	Rhein	_	O	O	
+6-10	sein	VAINF	sein	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	in	APPR	in	_	O	O	
+6-13	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-14	schon	ADV	schon	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+6-15	Anfang	NN	Anfang	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+6-16	August	NE	August	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=Ein italienisches und archäologisches Register in Leipzig drucken zu lassen scheint mir doch höchst mißlich; wer soll die Korrektur übernehmen?
+7-1	Ein	ART	eine	_	O	O	
+7-2	italienisches	ADJA	italienisch	_	O	O	
+7-3	und	KON	und	_	O	O	
+7-4	archäologisches	ADJA	archäologisch	_	O	O	
+7-5	Register	NN	Register	_	O	O	
+7-6	in	APPR	in	_	O	O	
+7-7	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-8	drucken	VVINF	drucken	_	O	O	
+7-9	zu	PTKZU	zu	_	O	O	
+7-10	lassen	VVINF	lassen	_	O	O	
+7-11	scheint	VVFIN	scheinen	_	O	O	
+7-12	mir	PPER	ich	_	O	O	
+7-13	doch	ADV	doch	_	O	O	
+7-14	höchst	ADJD	hochöchst	_	O	O	
+7-15	mißlich	ADJD	misslich	_	O	O	
+7-16	;	$.	;	_	O	O	
+7-17	wer	PWS	wer	_	O	O	
+7-18	soll	VMFIN	sollen	_	O	O	
+7-19	die	ART	die	_	O	O	
+7-20	Korrektur	NN	Korrektur	_	O	O	
+7-21	übernehmen	VVINF	übernehmen	_	O	O	
+7-22	?	$.	?	_	O	O	
+
+#id=8
+#text=Bullettino Bogen kommen wol morgen oder nächstertags an.
+8-1	Bullettino	NE	<unknown>	_	O	O	
+8-2	Bogen	NN	Bogen	_	O	O	
+8-3	kommen	VVFIN	kommen	_	O	O	
+8-4	wol	ADJD	<unknown>	_	O	O	
+8-5	morgen	ADV	morgen	_	O	O	
+8-6	oder	KON	oder	_	O	O	
+8-7	nächstertags	ADV	<unknown>	_	O	O	
+8-8	an	PTKVZ	an	_	O	O	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=Bunsen fährt fort für das Institut Gutes zu bezwecken; gethan hat er noch nichts, außer den Antrag an Metternich wegen Kestner's und etlicher Wahlen unterschreiben.
+9-1	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	fährt	VVFIN	fahren	_	O	O	
+9-3	fort	ADV	fort	_	O	O	
+9-4	für	APPR	für	_	O	O	
+9-5	das	ART	die	_	O	O	
+9-6	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-7	Gutes	NN	Gute	_	O	O	
+9-8	zu	PTKZU	zu	_	O	O	
+9-9	bezwecken	VVINF	bezwecken	_	O	O	
+9-10	;	$.	;	_	O	O	
+9-11	gethan	NE	<unknown>	_	O	O	
+9-12	hat	VAFIN	haben	_	O	O	
+9-13	er	PPER	er	_	O	O	
+9-14	noch	ADV	noch	_	O	O	
+9-15	nichts	PIS	nichts	_	O	O	
+9-16	,	$,	,	_	O	O	
+9-17	außer	APPR	außer	_	O	O	
+9-18	den	ART	die	_	O	O	
+9-19	Antrag	NN	Antrag	_	O	O	
+9-20	an	APPR	an	_	O	O	
+9-21	Metternich	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-22	wegen	APPO	wegen	_	O	O	
+9-23	Kestner's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-24	und	KON	und	_	O	O	
+9-25	etlicher	PIAT	etliche	_	O	O	
+9-26	Wahlen	NN	Wahl	_	O	O	
+9-27	unterschreiben	VVINF	unterschreiben	_	O	O	
+9-28	.	$.	.	_	O	O	
+
+#id=10
+#text=Für diesen kommt also Kestner's Antrag diesmal zu spät.
+10-1	Für	APPR	für	_	O	O	
+10-2	diesen	PDAT	dies	_	O	O	
+10-3	kommt	VVFIN	kommen	_	O	O	
+10-4	also	ADV	also	_	O	O	
+10-5	Kestner's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-6	Antrag	NN	Antrag	_	O	O	
+10-7	diesmal	ADV	diesmal	_	O	O	
+10-8	zu	APPR	zu	_	O	O	
+10-9	spät.	NE	<unknown>	_	O	O	
+
+#id=11
+#text=Ihretwegen mit Bunsen zu sprechen gaben
+11-1	Ihretwegen	ADV	ihretwegen	_	O	O	
+11-2	mit	APPR	mit	_	O	O	
+11-3	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-4	zu	PTKZU	zu	_	O	O	
+11-5	sprechen	VVINF	sprechen	_	O	O	
+11-6	gaben	VVFIN	geben	_	O	O	
+

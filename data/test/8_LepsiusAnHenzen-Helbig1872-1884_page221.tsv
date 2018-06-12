@@ -1,0 +1,245 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=205 Lepsius an Henzen Berlin, 24. April 1875 g. 30/4 75 r.
+1-1	205	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	30/4	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=N. o 89 Berlin, dem 14.
+2-1	N.	NE	N.	_	O	O	
+2-2	o	VVFIN	<unknown>	_	O	O	
+2-3	89	CARD	89	_	O	O	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	dem	PRELS	die	_	O	O	
+2-7	14	CARD	14	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Apri.
+3-1	Apri	NE	<unknown>	_	O	O	
+3-2	.	$.	.	_	O	O	
+
+#id=4
+#text=1875 Verehrter Freund Klügmann fragt an, ob wir uns nicht beim Auswärtigen Amte verwenden könnten um ihm eine Wohnung in der Casa Tarpea zu sichern.
+4-1	1875	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-2	Verehrter	NN	Verehrte	_	O	O	
+4-3	Freund	NE	Freund	_	O	O	
+4-4	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	fragt	VVFIN	fragen	_	O	O	
+4-6	an	PTKVZ	an	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	ob	KOUS	ob	_	O	O	
+4-9	wir	PPER	wir	_	O	O	
+4-10	uns	PRF	wir	_	O	O	
+4-11	nicht	PTKNEG	nicht	_	O	O	
+4-12	beim	APPRART	bei	_	O	O	
+4-13	Auswärtigen	ADJA	auswärtig	_	O	O	
+4-14	Amte	NN	Amt	_	O	O	
+4-15	verwenden	VVINF	verwenden	_	O	O	
+4-16	könnten	VMFIN	können	_	O	O	
+4-17	um	APPR	um	_	O	O	
+4-18	ihm	PPER	er	_	O	O	
+4-19	eine	ART	eine	_	O	O	
+4-20	Wohnung	NN	Wohnung	_	O	O	
+4-21	in	APPR	in	_	O	O	
+4-22	der	ART	die	_	O	O	
+4-23	Casa	NE	Casa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-24	Tarpea	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+4-25	zu	PTKZU	zu	_	O	O	
+4-26	sichern	VVINF	sichern	_	O	O	
+4-27	.	$.	.	_	O	O	
+
+#id=5
+#text=Es scheint dies eng mit dem Künstlerprojekte zusammenzuhängen, und über dieses müssen doch Keudell und Sie mehr wissen als wir.
+5-1	Es	PPER	es	_	O	O	
+5-2	scheint	VVFIN	scheinen	_	O	O	
+5-3	dies	PDS	dies	_	O	O	
+5-4	eng	ADJD	eng	_	O	O	
+5-5	mit	APPR	mit	_	O	O	
+5-6	dem	ART	die	_	O	O	
+5-7	Künstlerprojekte	NN	<unknown>	_	O	O	
+5-8	zusammenzuhängen	VVIZU	zusammenhängen	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	und	KON	und	_	O	O	
+5-11	über	APPR	über	_	O	O	
+5-12	dieses	PDAT	dies	_	O	O	
+5-13	müssen	VMFIN	müssen	_	O	O	
+5-14	doch	ADV	doch	_	O	O	
+5-15	Keudell	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-16	und	KON	und	_	O	O	
+5-17	Sie	PPER	Sie	_	O	O	
+5-18	mehr	ADV	mehr	_	O	O	
+5-19	wissen	VVINF	wissen	_	O	O	
+5-20	als	KOKOM	als	_	O	O	
+5-21	wir	PPER	wir	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=Überhaupt würde wohl Keudell dazu mehr thun können als wir.
+6-1	Überhaupt	ADV	überhaupt	_	O	O	
+6-2	würde	VAFIN	werden	_	O	O	
+6-3	wohl	ADV	wohl	_	O	O	
+6-4	Keudell	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	dazu	PAV	dazu	_	O	O	
+6-6	mehr	PIAT	mehr	_	O	O	
+6-7	thun	NN	<unknown>	_	O	O	
+6-8	können	VMFIN	können	_	O	O	
+6-9	als	KOKOM	als	_	O	O	
+6-10	wir	PPER	wir	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Wer ist eigentlich Urheber und Gönner dieses Projektes für eine Tarpeische Künstlerkolonie.
+7-1	Wer	PWS	wer	_	O	O	
+7-2	ist	VAFIN	sein	_	O	O	
+7-3	eigentlich	ADV	eigentlich	_	O	O	
+7-4	Urheber	NN	Urheber	_	O	O	
+7-5	und	KON	und	_	O	O	
+7-6	Gönner	NN	Gönner	_	O	O	
+7-7	dieses	PDAT	dies	_	O	O	
+7-8	Projektes	NN	Projekt	_	O	O	
+7-9	für	APPR	für	_	O	O	
+7-10	eine	ART	eine	_	O	O	
+7-11	Tarpeische	NN	<unknown>	_	O	O	
+7-12	Künstlerkolonie	NN	Künstlerkolonie	_	O	O	
+7-13	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich kann mir nicht denken daß es zur Ausführung kommen wird, wenn sich nicht in Rom Vieles verändert hat.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	kann	VMFIN	können	_	O	O	
+8-3	mir	PPER	ich	_	O	O	
+8-4	nicht	PTKNEG	nicht	_	O	O	
+8-5	denken	VVFIN	denken	_	O	O	
+8-6	daß	KOUS	dass	_	O	O	
+8-7	es	PPER	es	_	O	O	
+8-8	zur	APPRART	zu	_	O	O	
+8-9	Ausführung	NN	Ausführung	_	O	O	
+8-10	kommen	VVINF	kommen	_	O	O	
+8-11	wird	VAFIN	werden	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	wenn	KOUS	wenn	_	O	O	
+8-14	sich	PRF	sich	_	O	O	
+8-15	nicht	PTKNEG	nicht	_	O	O	
+8-16	in	APPR	in	_	O	O	
+8-17	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-18	Vieles	PIS	viele	_	O	O	
+8-19	verändert	VVPP	verändern	_	O	O	
+8-20	hat	VAFIN	haben	_	O	O	
+8-21	.	$.	.	_	O	O	
+
+#id=9
+#text=Schreiben Sie doch, n, was Sie darüber wissen.
+9-1	Schreiben	VVFIN	schreiben	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	doch	ADV	doch	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	n	VVFIN	<unknown>	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	was	PRELS	was	_	O	O	
+9-8	Sie	PPER	Sie	_	O	O	
+9-9	darüber	PAV	darüber	_	O	O	
+9-10	wissen	VVFIN	wissen	_	O	O	
+9-11	.	$.	.	_	O	O	
+
+#id=10
+#text=DalTD./wird ja auch die Möglichkeit abhängen, für Klügmann zu wirken.
+10-1	DalTD./wird	VVFIN	<unknown>	_	O	O	
+10-2	ja	ADV	ja	_	O	O	
+10-3	auch	ADV	auch	_	O	O	
+10-4	die	ART	die	_	O	O	
+10-5	Möglichkeit	NN	Möglichkeit	_	O	O	
+10-6	abhängen	VVINF	abhängen	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	für	APPR	für	_	O	O	
+10-9	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-10	zu	PTKZU	zu	_	O	O	
+10-11	wirken	VVINF	wirken	_	O	O	
+10-12	.	$.	.	_	O	O	
+
+#id=11
+#text=Ich sende Ihnen eine Anzahl Exemplare der Stipendien-Paragraphen zu gelegentlicher Verwendung.
+11-1	Ich	PPER	ich	_	O	O	
+11-2	sende	VVFIN	senden	_	O	O	
+11-3	Ihnen	PPER	Sie	_	O	O	
+11-4	eine	ART	eine	_	O	O	
+11-5	Anzahl	NN	Anzahl	_	O	O	
+11-6	Exemplare	NN	Exemplar	_	O	O	
+11-7	der	ART	die	_	O	O	
+11-8	Stipendien-Paragraphen	NN	<unknown>	_	O	O	
+11-9	zu	APPR	zu	_	O	O	
+11-10	gelegentlicher	ADJA	gelegentlich	_	O	O	
+11-11	Verwendung	NN	Verwendung	_	O	O	
+11-12	.	$.	.	_	O	O	
+
+#id=12
+#text=Helbig habe ich gebeten, hiefüro Officielles und Privates in seinen Mittheilungen streng auseinander zu halten.
+12-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	habe	VAFIN	haben	_	O	O	
+12-3	ich	PPER	ich	_	O	O	
+12-4	gebeten	VVPP	bitten	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	hiefüro	NN	<unknown>	_	O	O	
+12-7	Officielles	NN	<unknown>	_	O	O	
+12-8	und	KON	und	_	O	O	
+12-9	Privates	NN	Private	_	O	O	
+12-10	in	APPR	in	_	O	O	
+12-11	seinen	PPOSAT	sein	_	O	O	
+12-12	Mittheilungen	NN	<unknown>	_	O	O	
+12-13	streng	ADJD	streng	_	O	O	
+12-14	auseinander	PTKVZ	auseinander	_	O	O	
+12-15	zu	PTKZU	zu	_	O	O	
+12-16	halten	VVINF	halten	_	O	O	
+12-17	.	$.	.	_	O	O	
+
+#id=13
+#text=Er wird Ihnen wohl meinen Brief mittheilen.
+13-1	Er	PPER	er	_	O	O	
+13-2	wird	VAFIN	werden	_	O	O	
+13-3	Ihnen	PPER	Sie	_	O	O	
+13-4	wohl	ADV	wohl	_	O	O	
+13-5	meinen	PPOSAT	mein	_	O	O	
+13-6	Brief	NN	Brief	_	O	O	
+13-7	mittheilen	VVINF	<unknown>	_	O	O	
+13-8	.	$.	.	_	O	O	
+
+#id=14
+#text=Mit Lüders ist die Central Direktion bereits so weit auseinander wegen seiner Ungeschäftlichkeiten und Querelen, daß nun sein Hierherkommen recht nöthig wird,
+14-1	Mit	APPR	mit	_	O	O	
+14-2	Lüders	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-3	ist	VAFIN	sein	_	O	O	
+14-4	die	ART	die	_	O	O	
+14-5	Central	NN	<unknown>	_	O	O	
+14-6	Direktion	NN	Direktion	_	O	O	
+14-7	bereits	ADV	bereits	_	O	O	
+14-8	so	ADV	so	_	O	O	
+14-9	weit	ADJD	weit	_	O	O	
+14-10	auseinander	ADV	auseinander	_	O	O	
+14-11	wegen	APPR	wegen	_	O	O	
+14-12	seiner	PPOSAT	sein	_	O	O	
+14-13	Ungeschäftlichkeiten	NN	<unknown>	_	O	O	
+14-14	und	KON	und	_	O	O	
+14-15	Querelen	NN	Querele	_	O	O	
+14-16	,	$,	,	_	O	O	
+14-17	daß	KOUS	dass	_	O	O	
+14-18	nun	ADV	nun	_	O	O	
+14-19	sein	PPOSAT	sein	_	O	O	
+14-20	Hierherkommen	NN	<unknown>	_	O	O	
+14-21	recht	ADJD	recht	_	O	O	
+14-22	nöthig	ADJD	<unknown>	_	O	O	
+14-23	wird	VAFIN	werden	_	O	O	
+14-24	,	$,	,	_	O	O	
+

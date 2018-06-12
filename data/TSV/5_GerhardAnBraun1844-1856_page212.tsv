@@ -1,0 +1,191 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Dr. Braun Gerhard an Braun Berlin, 25. Juni 1846 g. 6/VII 46 r. 7/VII 46 Berlin 25/6 46 Vielen Dank lieber Freund für Ihre freundlichen Zeilen vom 13 , noch ohne Kunde vom neuen Papst der uns seit gestern Abend aus telegraphischer Quelle über Marseille und Koblenz versichert wird.
+1-1	Dr.	NN	Dr.	_	O	O	
+1-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	6/VII	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	r.	ADJA	<unknown>	_	O	O	
+1-16	7/VII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+1-17	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+1-18	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-19	25/6	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Vielen	PIAT	viele	_	O	O	
+1-22	Dank	NN	Dank	_	O	O	
+1-23	lieber	ADJA	lieb	_	O	O	
+1-24	Freund	NN	Freund	_	O	O	
+1-25	für	APPR	für	_	O	O	
+1-26	Ihre	PPOSAT	ihr	_	O	O	
+1-27	freundlichen	ADJA	freundlich	_	O	O	
+1-28	Zeilen	NN	Zeile	_	O	O	
+1-29	vom	APPRART	von	_	O	O	
+1-30	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-31	,	$,	,	_	O	O	
+1-32	noch	ADV	noch	_	O	O	
+1-33	ohne	APPR	ohne	_	O	O	
+1-34	Kunde	NN	Kunde	_	O	O	
+1-35	vom	APPRART	von	_	O	O	
+1-36	neuen	ADJA	neu	_	O	O	
+1-37	Papst	NN	Papst	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-38	der	ART	die	_	O	O	
+1-39	uns	PRF	wir	_	O	O	
+1-40	seit	APPR	seit	_	O	O	
+1-41	gestern	ADV	gestern	_	O	O	
+1-42	Abend	ADV	abend	_	O	O	
+1-43	aus	APPR	aus	_	O	O	
+1-44	telegraphischer	ADJA	<unknown>	_	O	O	
+1-45	Quelle	NN	Quelle	_	O	O	
+1-46	über	APPR	über	_	O	O	
+1-47	Marseille	NE	Marseille	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-48	und	KON	und	_	O	O	
+1-49	Koblenz	NE	Koblenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-50	versichert	VVPP	versichern	_	O	O	
+1-51	wird	VAFIN	werden	_	O	O	
+1-52	.	$.	.	_	O	O	
+
+#id=2
+#text=Sie haben mir also auch in neuesten Ausfuhrnöthen mit gewohnter einsichtiger Freundschaft beigestanden.
+2-1	Sie	PPER	Sie	_	O	O	
+2-2	haben	VAFIN	haben	_	O	O	
+2-3	mir	PPER	ich	_	O	O	
+2-4	also	ADV	also	_	O	O	
+2-5	auch	ADV	auch	_	O	O	
+2-6	in	APPR	in	_	O	O	
+2-7	neuesten	ADJA	neu	_	O	O	
+2-8	Ausfuhrnöthen	NN	<unknown>	_	O	O	
+2-9	mit	APPR	mit	_	O	O	
+2-10	gewohnter	ADJA	gewohnt	_	O	O	
+2-11	einsichtiger	ADJA	einsichtig	_	O	O	
+2-12	Freundschaft	NN	Freundschaft	_	O	O	
+2-13	beigestanden	VVPP	beistehen	_	O	O	
+2-14	.	$.	.	_	O	O	
+
+#id=3
+#text=Tausend Dank I Abgegangen scheinen die Kisten noch nicht zu sein 11 Das Mosaik sollte aber doch keine neuen Nöthen machen, nach allen früheren Klauseln Dank auch für die Lajard'schen Zeichnungen; dabei hatte ich nun gar keine Schwierigkeit vorausgesetzt.
+3-1	Tausend	CARD	tausend	_	O	O	
+3-2	Dank	APPR	dank	_	O	O	
+3-3	I	FM	I	_	O	O	
+3-4	Abgegangen	NN	<unknown>	_	O	O	
+3-5	scheinen	VVFIN	scheinen	_	O	O	
+3-6	die	ART	die	_	O	O	
+3-7	Kisten	NN	Kiste	_	O	O	
+3-8	noch	ADV	noch	_	O	O	
+3-9	nicht	PTKNEG	nicht	_	O	O	
+3-10	zu	APPR	zu	_	O	O	
+3-11	sein	PPOSAT	sein	_	O	O	
+3-12	11	CARD	11	_	O	O	
+3-13	Das	ART	die	_	O	O	
+3-14	Mosaik	NN	Mosaik	_	O	O	
+3-15	sollte	VMFIN	sollen	_	O	O	
+3-16	aber	ADV	aber	_	O	O	
+3-17	doch	ADV	doch	_	O	O	
+3-18	keine	PIAT	keine	_	O	O	
+3-19	neuen	ADJA	neu	_	O	O	
+3-20	Nöthen	NN	<unknown>	_	O	O	
+3-21	machen	VVINF	machen	_	O	O	
+3-22	,	$,	,	_	O	O	
+3-23	nach	APPR	nach	_	O	O	
+3-24	allen	PIAT	alle	_	O	O	
+3-25	früheren	ADJA	früh	_	O	O	
+3-26	Klauseln	NN	Klausel	_	O	O	
+3-27	Dank	APPR	dank	_	O	O	
+3-28	auch	ADV	auch	_	O	O	
+3-29	für	APPR	für	_	O	O	
+3-30	die	ART	die	_	O	O	
+3-31	Lajard'schen	NN	<unknown>	_	O	O	
+3-32	Zeichnungen	NN	Zeichnung	_	O	O	
+3-33	;	$.	;	_	O	O	
+3-34	dabei	PAV	dabei	_	O	O	
+3-35	hatte	VAFIN	haben	_	O	O	
+3-36	ich	PPER	ich	_	O	O	
+3-37	nun	ADV	nun	_	O	O	
+3-38	gar	ADV	gar	_	O	O	
+3-39	keine	PIAT	keine	_	O	O	
+3-40	Schwierigkeit	NN	Schwierigkeit	_	O	O	
+3-41	vorausgesetzt	VVPP	voraussetzen	_	O	O	
+3-42	.	$.	.	_	O	O	
+
+#id=4
+#text=Alles anders als vormals.
+4-1	Alles	PIS	alle	_	O	O	
+4-2	anders	ADV	anders	_	O	O	
+4-3	als	KOKOM	als	_	O	O	
+4-4	vormals	ADV	vormals	_	O	O	
+4-5	.	$.	.	_	O	O	
+
+#id=5
+#text=Wo vormals panathenäische Vasen zu stehn pd&.rgoenoch.
+5-1	Wo	PWAV	wo	_	O	O	
+5-2	vormals	ADV	vormals	_	O	O	
+5-3	panathenäische	ADJA	<unknown>	_	O	O	
+5-4	Vasen	NN	Vase	_	O	O	
+5-5	zu	APPR	zu	_	O	O	
+5-6	stehn	ADJA	<unknown>	_	O	O	
+5-7	pd&.rgoenoch	NN	<unknown>	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=ten, etwa hatte Baseggio Ipanath.
+6-1	ten	NE	ten	_	O	O	
+6-2	,	$,	,	_	O	O	
+6-3	etwa	ADV	etwa	_	O	O	
+6-4	hatte	VAFIN	haben	_	O	O	
+6-5	Baseggio	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-6	Ipanath	NE	<unknown>	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=e die besagte Oenochoe, mlt derber~hnauze geformt als gewöhnlich, der Thon besonders leicht, die Figuren blaß röthlich.
+7-1	e	VVFIN	<unknown>	_	O	O	
+7-2	die	ART	die	_	O	O	
+7-3	besagte	ADJA	besagt	_	O	O	
+7-4	Oenochoe	NN	<unknown>	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	mlt	ADJA	<unknown>	_	O	O	
+7-7	derber~hnauze	NN	<unknown>	_	O	O	
+7-8	geformt	VVPP	formen	_	O	O	
+7-9	als	KOKOM	als	_	O	O	
+7-10	gewöhnlich	ADJD	gewöhnlich	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	der	ART	die	_	O	O	
+7-13	Thon	NN	Thon	_	O	O	
+7-14	besonders	ADV	besonders	_	O	O	
+7-15	leicht	ADJD	leicht	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	die	ART	die	_	O	O	
+7-18	Figuren	NN	Figur	_	O	O	
+7-19	blaß	ADJD	blass	_	O	O	
+7-20	röthlich	ADJD	<unknown>	_	O	O	
+7-21	.	$.	.	_	O	O	
+
+#id=8
+#text=Dem Vernehmen nach wird Maßmann als Ordinar mit 2000 rt bei der Universität angestellt, Vielen mißfäl-
+8-1	Dem	ART	die	_	O	O	
+8-2	Vernehmen	NN	Vernehmen	_	O	O	
+8-3	nach	APPO	nach	_	O	O	
+8-4	wird	VAFIN	werden	_	O	O	
+8-5	Maßmann	NE	Maßmann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	als	KOKOM	als	_	O	O	
+8-7	Ordinar	NN	<unknown>	_	O	O	
+8-8	mit	APPR	mit	_	O	O	
+8-9	2000	CARD	2000	_	O	O	
+8-10	rt	NN	<unknown>	_	O	O	
+8-11	bei	APPR	bei	_	O	O	
+8-12	der	ART	die	_	O	O	
+8-13	Universität	NN	Universität	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-14	angestellt	VVPP	anstellen	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	Vielen	PIAT	viele	_	O	O	
+8-17	mißfäl-	TRUNC	<unknown>	_	O	O	
+

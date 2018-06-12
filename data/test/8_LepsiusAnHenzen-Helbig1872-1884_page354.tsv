@@ -1,0 +1,253 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=806 L Verehrtester Freund Lepsius an Helbig Berlin, 28. April 1882 Berlin, C. den 28. April 1882 Der Skarabäus von Corneto ist ächt ägyptisch und enthält den Königsnamen Kä-xa-nofre Sebakhotep, der 13.
+1-1	806	CARD	@card@	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Verehrtester	NN	<unknown>	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1882	CARD	1882	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	,	$,	,	_	O	O	
+1-16	C.	NE	C.	_	O	O	
+1-17	den	ART	die	_	O	O	
+1-18	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-20	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-21	1882	CARD	1882	_	O	O	
+1-22	Der	ART	die	_	O	O	
+1-23	Skarabäus	NN	<unknown>	_	O	O	
+1-24	von	APPR	von	_	O	O	
+1-25	Corneto	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-26	ist	VAFIN	sein	_	O	O	
+1-27	ächt	VVFIN	<unknown>	_	O	O	
+1-28	ägyptisch	ADJD	ägyptisch	_	O	O	
+1-29	und	KON	und	_	O	O	
+1-30	enthält	VVFIN	enthalten	_	O	O	
+1-31	den	ART	die	_	O	O	
+1-32	Königsnamen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-33	Kä-xa-nofre	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-34	Sebakhotep	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-35	,	$,	,	_	O	O	
+1-36	der	PRELS	die	_	O	O	
+1-37	13	CARD	13	_	O	O	
+1-38	.	$.	.	_	O	O	
+
+#id=2
+#text=Manethonischen Dynastie, von ca.
+2-1	Manethonischen	ADJA	<unknown>	_	O	O	
+2-2	Dynastie	NN	Dynastie	_	O	O	
+2-3	,	$,	,	_	O	O	
+2-4	von	APPR	von	_	O	O	
+2-5	ca.	ADV	ca.	_	O	O	
+
+#id=3
+#text=2100 vor Chr.
+3-1	2100	CARD	2100	_	O	O	
+3-2	vor	APPR	vor	_	O	O	
+3-3	Chr.	NE	Chr.	_	O	O	
+
+#id=4
+#text=Ich keRne noch andre ganz ähnliche Skarabäen desselben und der benachbarten Könige.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	keRne	VVFIN	kernen	_	O	O	
+4-3	noch	ADV	noch	_	O	O	
+4-4	andre	PIS	andere	_	O	O	
+4-5	ganz	ADV	ganz	_	O	O	
+4-6	ähnliche	ADJA	ähnlich	_	O	O	
+4-7	Skarabäen	NN	<unknown>	_	O	O	
+4-8	desselben	PDAT	derselb	_	O	O	
+4-9	und	KON	und	_	O	O	
+4-10	der	ART	die	_	O	O	
+4-11	benachbarten	ADJA	benachbart	_	O	O	
+4-12	Könige	NN	König	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=In meinem Königsbuche N. 210.
+5-1	In	APPR	in	_	O	O	
+5-2	meinem	PPOSAT	mein	_	O	O	
+5-3	Königsbuche	NN	<unknown>	_	O	O	
+5-4	N.	APPR	n.	_	O	O	
+5-5	210	CARD	@card@	_	O	O	
+5-6	.	$.	.	_	O	O	
+
+#id=6
+#text=Solche Skarabäen sind bis in späten Zeiten in öffentlichem Gebrauch als Amulette geblieben, können also zu jeder Zeit nach Etrurien gebracht worden sein.
+6-1	Solche	PIAT	solche	_	O	O	
+6-2	Skarabäen	NN	<unknown>	_	O	O	
+6-3	sind	VAFIN	sein	_	O	O	
+6-4	bis	KON	bis	_	O	O	
+6-5	in	APPR	in	_	O	O	
+6-6	späten	ADJA	spät	_	O	O	
+6-7	Zeiten	NN	Zeit	_	O	O	
+6-8	in	APPR	in	_	O	O	
+6-9	öffentlichem	ADJA	öffentlich	_	O	O	
+6-10	Gebrauch	NN	Gebrauch	_	O	O	
+6-11	als	KOKOM	als	_	O	O	
+6-12	Amulette	NN	Amulett	_	O	O	
+6-13	geblieben	VVPP	bleiben	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	können	VMFIN	können	_	O	O	
+6-16	also	ADV	also	_	O	O	
+6-17	zu	APPR	zu	_	O	O	
+6-18	jeder	PIAT	jede	_	O	O	
+6-19	Zeit	NN	Zeit	_	O	O	
+6-20	nach	APPR	nach	_	O	O	
+6-21	Etrurien	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-22	gebracht	VVPP	bringen	_	O	O	
+6-23	worden	VAPP	werden	_	O	O	
+6-24	sein	VAINF	sein	_	O	O	
+6-25	.	$.	.	_	O	O	
+
+#id=7
+#text=Gleichwohl fragt der Fernstehende immer wieder an welchem Orte im Etrurischen Grabe wurde er gefunden und von wem?
+7-1	Gleichwohl	ADV	gleichwohl	_	O	O	
+7-2	fragt	VVFIN	fragen	_	O	O	
+7-3	der	ART	die	_	O	O	
+7-4	Fernstehende	NN	<unknown>	_	O	O	
+7-5	immer	ADV	immer	_	O	O	
+7-6	wieder	ADV	wieder	_	O	O	
+7-7	an	APPR	an	_	O	O	
+7-8	welchem	PRELS	welche	_	O	O	
+7-9	Orte	NN	Ort	_	O	O	
+7-10	im	APPRART	in	_	O	O	
+7-11	Etrurischen	ADJA	<unknown>	_	O	O	
+7-12	Grabe	NN	Grab	_	O	O	
+7-13	wurde	VAFIN	werden	_	O	O	
+7-14	er	PPER	er	_	O	O	
+7-15	gefunden	VVPP	finden	_	O	O	
+7-16	und	KON	und	_	O	O	
+7-17	von	APPR	von	_	O	O	
+7-18	wem	PWS	wer	_	O	O	
+7-19	?	$.	?	_	O	O	
+
+#id=8
+#text=Es ist so leicht moderne Al t.e~hümer einzuschmuggeln.
+8-1	Es	PPER	es	_	O	O	
+8-2	ist	VAFIN	sein	_	O	O	
+8-3	so	ADV	so	_	O	O	
+8-4	leicht	ADJD	leicht	_	O	O	
+8-5	moderne	ADJA	modern	_	O	O	
+8-6	Al	NE	Al	_	O	O	
+8-7	t.e~hümer	NN	<unknown>	_	O	O	
+8-8	einzuschmuggeln	VVIZU	einschmuggeln	_	O	O	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=N. 2 halte ich, wenn der Koptschmuck richtig gezeichnet, nicht für ägyptisch; solche Flügel am Diskus sind mir in Ägypten nie vorgekommen.
+9-1	N.	APPR	n.	_	O	O	
+9-2	2	CARD	2	_	O	O	
+9-3	halte	VVFIN	halten	_	O	O	
+9-4	ich	PPER	ich	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	wenn	KOUS	wenn	_	O	O	
+9-7	der	ART	die	_	O	O	
+9-8	Koptschmuck	NN	<unknown>	_	O	O	
+9-9	richtig	ADJD	richtig	_	O	O	
+9-10	gezeichnet	VVPP	zeichnen	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	nicht	PTKNEG	nicht	_	O	O	
+9-13	für	APPR	für	_	O	O	
+9-14	ägyptisch	ADJD	ägyptisch	_	O	O	
+9-15	;	$.	;	_	O	O	
+9-16	solche	PIAT	solche	_	O	O	
+9-17	Flügel	NN	Flügel	_	O	O	
+9-18	am	APPRART	an	_	O	O	
+9-19	Diskus	NN	Diskus	_	O	O	
+9-20	sind	VAFIN	sein	_	O	O	
+9-21	mir	PPER	ich	_	O	O	
+9-22	in	APPR	in	_	O	O	
+9-23	Ägypten	NE	Ägypten	_	O	O	
+9-24	nie	ADV	nie	_	O	O	
+9-25	vorgekommen	VVPP	vorkommen	_	O	O	
+9-26	.	$.	.	_	O	O	
+
+#id=10
+#text=N. 3 Der Kopf einer Kabyle, kann der einer Göttin Bast, der Göttin von Bubastis gewesen sein.
+10-1	N.	APPR	n.	_	O	O	
+10-2	3	CARD	3	_	O	O	
+10-3	Der	ART	die	_	O	O	
+10-4	Kopf	NN	Kopf	_	O	O	
+10-5	einer	ART	eine	_	O	O	
+10-6	Kabyle	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-7	,	$,	,	_	O	O	
+10-8	kann	VMFIN	können	_	O	O	
+10-9	der	ART	die	_	O	O	
+10-10	einer	ART	eine	_	O	O	
+10-11	Göttin	NN	Göttin	_	O	O	
+10-12	Bast	NN	Bast	_	O	O	
+10-13	,	$,	,	_	O	O	
+10-14	der	ART	die	_	O	O	
+10-15	Göttin	NN	Göttin	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-16	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-17	Bubastis	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-18	gewesen	VAPP	sein	_	O	O	
+10-19	sein	VAINF	sein	_	O	O	
+10-20	.	$.	.	_	O	O	
+
+#id=11
+#text=Der Sphinx darf ich also entgegensehen.
+11-1	Der	ART	die	_	O	O	
+11-2	Sphinx	NN	Sphinx	_	O	O	
+11-3	darf	VMFIN	dürfen	_	O	O	
+11-4	ich	PPER	ich	_	O	O	
+11-5	also	ADV	also	_	O	O	
+11-6	entgegensehen	VVINF	entgegensehen	_	O	O	
+11-7	.	$.	.	_	O	O	
+
+#id=12
+#text=Leben Sie wohl und entschuldigen Sie die Sparsamkeit dieser Zeilen.
+12-1	Leben	VVFIN	leben	_	O	O	
+12-2	Sie	PPER	Sie	_	O	O	
+12-3	wohl	ADV	wohl	_	O	O	
+12-4	und	KON	und	_	O	O	
+12-5	entschuldigen	VVFIN	entschuldigen	_	O	O	
+12-6	Sie	PPER	Sie	_	O	O	
+12-7	die	ART	die	_	O	O	
+12-8	Sparsamkeit	NN	Sparsamkeit	_	O	O	
+12-9	dieser	PDAT	dies	_	O	O	
+12-10	Zeilen	NN	Zeile	_	O	O	
+12-11	.	$.	.	_	O	O	
+
+#id=13
+#text=Sonst geht es mir ja verhältnismäßig wohl.
+13-1	Sonst	ADV	sonst	_	O	O	
+13-2	geht	VVFIN	gehen	_	O	O	
+13-3	es	PPER	es	_	O	O	
+13-4	mir	PRF	ich	_	O	O	
+13-5	ja	ADV	ja	_	O	O	
+13-6	verhältnismäßig	ADJD	verhältnismäßig	_	O	O	
+13-7	wohl	ADV	wohl	_	O	O	
+13-8	.	$.	.	_	O	O	
+
+#id=14
+#text=Ich bin jetzt mit dem Bau eines neuen Hauses beschäftigt.
+14-1	Ich	PPER	ich	_	O	O	
+14-2	bin	VAFIN	sein	_	O	O	
+14-3	jetzt	ADV	jetzt	_	O	O	
+14-4	mit	APPR	mit	_	O	O	
+14-5	dem	ART	die	_	O	O	
+14-6	Bau	NN	Bau	_	O	O	
+14-7	eines	ART	eine	_	O	O	
+14-8	neuen	ADJA	neu	_	O	O	
+14-9	Hauses	NN	Haus	_	O	O	
+14-10	beschäftigt	VVPP	beschäftigen	_	O	O	
+14-11	.	$.	.	_	O	O	
+
+#id=15
+#text=Meine Interimswohnung bis März nächsten Jah-
+15-1	Meine	PPOSAT	mein	_	O	O	
+15-2	Interimswohnung	NN	<unknown>	_	O	O	
+15-3	bis	KON	bis	_	O	O	
+15-4	März	NN	März	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+15-5	nächsten	ADJA	nah	_	O	O	
+15-6	Jah-	TRUNC	Jah-	_	O	O	
+

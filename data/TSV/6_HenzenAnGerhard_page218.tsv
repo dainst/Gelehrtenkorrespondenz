@@ -1,0 +1,412 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=222 28/X/54 Verehrter Herr Frofessor Renzen an Gerhard ) Nur wenige Zeilen zur Begleitung einliegenden Brie- .
+1-1	222	CARD	@card@	_	O	O	
+1-2	28/X/54	CARD	<unknown>	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Frofessor	NN	<unknown>	_	O	O	
+1-6	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-9	)	$(	)	_	O	O	
+1-10	Nur	ADV	nur	_	O	O	
+1-11	wenige	PIAT	wenige	_	O	O	
+1-12	Zeilen	NN	Zeile	_	O	O	
+1-13	zur	APPRART	zu	_	O	O	
+1-14	Begleitung	NN	Begleitung	_	O	O	
+1-15	einliegenden	ADJA	<unknown>	_	O	O	
+1-16	Brie-	NN	<unknown>	_	O	O	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text=fes an Ihre 1.
+2-1	fes	ADJD	<unknown>	_	O	O	
+2-2	an	APPR	an	_	O	O	
+2-3	Ihre	PPOSAT	ihr	_	O	O	
+2-4	1	CARD	1	_	O	O	
+2-5	.	$.	.	_	O	O	
+
+#id=3
+#text=Fre.u, der über unser persönliches Ergehen 11 A k ft b d·· ft 0.. t d 17 n .
+3-1	Fre.u	NE	<unknown>	_	O	O	
+3-2	,	$,	,	_	O	O	
+3-3	der	PRELS	die	_	O	O	
+3-4	über	APPR	über	_	O	O	
+3-5	unser	PPOSAT	unser	_	O	O	
+3-6	persönliches	ADJA	persönlich	_	O	O	
+3-7	Ergehen	NN	Ergehen	_	O	O	
+3-8	11	CARD	11	_	O	O	
+3-9	A	NN	A	_	O	O	
+3-10	k	VVFIN	<unknown>	_	O	O	
+3-11	ft	NE	ft	_	O	O	
+3-12	b	ADJA	<unknown>	_	O	O	
+3-13	d··	NN	<unknown>	_	O	O	
+3-14	ft	NE	ft	_	O	O	
+3-15	0.	ADV	@ord@	_	O	O	
+3-16	.	$.	.	_	O	O	
+3-17	t	NN	t	_	O	O	
+3-18	d	VVFIN	<unknown>	_	O	O	
+3-19	17	CARD	17	_	O	O	
+3-20	n	VVFIN	<unknown>	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=d· .
+4-1	d·	NE	<unknown>	_	O	O	
+4-2	.	$.	.	_	O	O	
+
+#id=5
+#text=d f a e l"US.
+5-1	d	ADJA	<unknown>	_	O	O	
+5-2	f	ADJA	<unknown>	_	O	O	
+5-3	a	FM	a	_	O	O	
+5-4	e	ADJA	<unknown>	_	O	O	
+5-5	l"US	NN	<unknown>	_	O	O	
+5-6	.	$.	.	_	O	O	
+
+#id=6
+#text=,.un .
+6-1	,.un	NN	<unknown>	_	O	O	
+6-2	.	$.	.	_	O	O	
+
+#id=7
+#text=ge ,en .ur.
+7-1	ge	ADJA	<unknown>	_	O	O	
+7-2	,en	NN	<unknown>	_	O	O	
+7-3	.ur	NN	<unknown>	_	O	O	
+7-4	.	$.	.	_	O	O	
+
+#id=8
+#text=Je.
+8-1	Je	ADV	je	_	O	O	
+8-2	.	$.	.	_	O	O	
+
+#id=9
+#text=,..:.el _em • sJ.n Wlr Wle er --- I { \ hier, und die fortdauernde, wirklich unnatfirliche W~rme bczeugt, dEo Braun Recht hette, uns nicht frUher hereinzulassen.
+9-1	,..:.el	ADJA	<unknown>	_	O	O	
+9-2	_em	ADJA	<unknown>	_	O	O	
+9-3	•	NN	<unknown>	_	O	O	
+9-4	sJ.n	NE	<unknown>	_	O	O	
+9-5	Wlr	NE	<unknown>	_	O	O	
+9-6	Wle	NN	<unknown>	_	O	O	
+9-7	er	PPER	er	_	O	O	
+9-8	--	$(	--	_	O	O	
+9-9	-	$(	-	_	O	O	
+9-10	I	FM	I	_	O	O	
+9-11	{	$(	{	_	O	O	
+9-12	\	XY	\	_	O	O	
+9-13	hier	ADV	hier	_	O	O	
+9-14	,	$,	,	_	O	O	
+9-15	und	KON	und	_	O	O	
+9-16	die	ART	die	_	O	O	
+9-17	fortdauernde	ADJA	fortdauernd	_	O	O	
+9-18	,	$,	,	_	O	O	
+9-19	wirklich	ADJD	wirklich	_	O	O	
+9-20	unnatfirliche	ADJA	<unknown>	_	O	O	
+9-21	W~rme	NN	<unknown>	_	O	O	
+9-22	bczeugt	VVFIN	<unknown>	_	O	O	
+9-23	,	$,	,	_	O	O	
+9-24	dEo	NN	<unknown>	_	O	O	
+9-25	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-26	Recht	NN	Recht	_	O	O	
+9-27	hette	NN	<unknown>	_	O	O	
+9-28	,	$,	,	_	O	O	
+9-29	uns	PRF	wir	_	O	O	
+9-30	nicht	PTKNEG	nicht	_	O	O	
+9-31	frUher	NN	<unknown>	_	O	O	
+9-32	hereinzulassen	VVIZU	hereinlassen	_	O	O	
+9-33	.	$.	.	_	O	O	
+
+#id=10
+#text=Meine Frau erholt sic~ stetig, aber langsam; so Gott 'NilI, desto ßri.indlicher.
+10-1	Meine	PPOSAT	mein	_	O	O	
+10-2	Frau	NN	Frau	_	O	O	
+10-3	erholt	VVFIN	erholen	_	O	O	
+10-4	sic~	ADJD	<unknown>	_	O	O	
+10-5	stetig	ADJD	stetig	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	aber	ADV	aber	_	O	O	
+10-8	langsam	ADJD	langsam	_	O	O	
+10-9	;	$.	;	_	O	O	
+10-10	so	ADV	so	_	O	O	
+10-11	Gott	NN	Gott	_	O	O	
+10-12	'	$(	'	_	O	O	
+10-13	NilI	NE	<unknown>	_	O	O	
+10-14	,	$,	,	_	O	O	
+10-15	desto	KON	desto	_	O	O	
+10-16	ßri.indlicher	ADJD	<unknown>	_	O	O	
+10-17	.	$.	.	_	O	O	
+
+#id=11
+#text=- Hier habe ich viel zu thun u. zu ordnen gefunden.
+11-1	-	$(	-	_	O	O	
+11-2	Hier	ADV	hier	_	O	O	
+11-3	habe	VAFIN	haben	_	O	O	
+11-4	ich	PPER	ich	_	O	O	
+11-5	viel	ADV	viel	_	O	O	
+11-6	zu	PTKA	zu	_	O	O	
+11-7	thun	ADJD	<unknown>	_	O	O	
+11-8	u.	KON	und	_	O	O	
+11-9	zu	PTKA	zu	_	O	O	
+11-10	ordnen	VVFIN	ordnen	_	O	O	
+11-11	gefunden	VVPP	finden	_	O	O	
+11-12	.	$.	.	_	O	O	
+
+#id=12
+#text=Braun hat sic~ endlich doch entschlossen, das Bull.
+12-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	hat	VAFIN	haben	_	O	O	
+12-3	sic~	ADJD	<unknown>	_	O	O	
+12-4	endlich	ADV	endlich	_	O	O	
+12-5	doch	ADV	doch	_	O	O	
+12-6	entschlossen	VVPP	entschließen	_	O	O	
+12-7	,	$,	,	_	O	O	
+12-8	das	PRELS	die	_	O	O	
+12-9	Bull	NE	Bull	_	O	O	
+12-10	.	$.	.	_	O	O	
+
+#id=13
+#text=fortzusetzen, aber ohne ~on8tsnummer, u. das ist ja im Grunde unwesentlich.
+13-1	fortzusetzen	VVIZU	fortsetzen	_	O	O	
+13-2	,	$,	,	_	O	O	
+13-3	aber	ADV	aber	_	O	O	
+13-4	ohne	APPR	ohne	_	O	O	
+13-5	~on8tsnummer	NN	<unknown>	_	O	O	
+13-6	,	$,	,	_	O	O	
+13-7	u.	KON	und	_	O	O	
+13-8	das	PDS	die	_	O	O	
+13-9	ist	VAFIN	sein	_	O	O	
+13-10	ja	ADV	ja	_	O	O	
+13-11	im	APPRART	in	_	O	O	
+13-12	Grunde	NN	Grund	_	O	O	
+13-13	unwesentlich	ADJD	unwesentlich	_	O	O	
+13-14	.	$.	.	_	O	O	
+
+#id=14
+#text=Es soll sich im Format an die Annali anschließen.
+14-1	Es	PPER	es	_	O	O	
+14-2	soll	VMFIN	sollen	_	O	O	
+14-3	sich	PRF	sich	_	O	O	
+14-4	im	APPRART	in	_	O	O	
+14-5	Format	NN	Format	_	O	O	
+14-6	an	APPR	an	_	O	O	
+14-7	die	ART	die	_	O	O	
+14-8	Annali	NE	<unknown>	_	O	O	
+14-9	anschließen	VVINF	anschließen	_	O	O	
+14-10	.	$.	.	_	O	O	
+
+#id=15
+#text=Ich habe dafür eine ganze Reihe von Artikeln in Ordnun~ gebrecht und hoffe, da wir bereits drucken, baldigst Ihnen die erste Nummer zu senden.
+15-1	Ich	PPER	ich	_	O	O	
+15-2	habe	VAFIN	haben	_	O	O	
+15-3	dafür	PAV	dafür	_	O	O	
+15-4	eine	ART	eine	_	O	O	
+15-5	ganze	ADJA	ganz	_	O	O	
+15-6	Reihe	NN	Reihe	_	O	O	
+15-7	von	APPR	von	_	O	O	
+15-8	Artikeln	NN	Artikel	_	O	O	
+15-9	in	APPR	in	_	O	O	
+15-10	Ordnun~	NN	<unknown>	_	O	O	
+15-11	gebrecht	ADJD	<unknown>	_	O	O	
+15-12	und	KON	und	_	O	O	
+15-13	hoffe	VVFIN	hoffen	_	O	O	
+15-14	,	$,	,	_	O	O	
+15-15	da	KOUS	da	_	O	O	
+15-16	wir	PPER	wir	_	O	O	
+15-17	bereits	ADV	bereits	_	O	O	
+15-18	drucken	VVFIN	drucken	_	O	O	
+15-19	,	$,	,	_	O	O	
+15-20	baldigst	ADJD	baldig	_	O	O	
+15-21	Ihnen	PPER	Sie	_	O	O	
+15-22	die	ART	die	_	O	O	
+15-23	erste	ADJA	erst	_	O	O	
+15-24	Nummer	NN	Nummer	_	O	O	
+15-25	zu	PTKZU	zu	_	O	O	
+15-26	senden	VVINF	senden	_	O	O	
+15-27	.	$.	.	_	O	O	
+
+#id=16
+#text=An das C.I.I~.
+16-1	An	APPR	an	_	O	O	
+16-2	das	ART	die	_	O	O	
+16-3	C.I.I~	NE	<unknown>	_	O	O	
+16-4	.	$.	.	_	O	O	
+
+#id=17
+#text=bin ich noch nicht vvieder cekomP'len, schicl~e aber in dsn.
+17-1	bin	VAFIN	sein	_	O	O	
+17-2	ich	PPER	ich	_	O	O	
+17-3	noch	ADV	noch	_	O	O	
+17-4	nicht	PTKNEG	nicht	_	O	O	
+17-5	vvieder	NN	<unknown>	_	O	O	
+17-6	cekomP'len	ADJD	<unknown>	_	O	O	
+17-7	,	$,	,	_	O	O	
+17-8	schicl~e	VVFIN	<unknown>	_	O	O	
+17-9	aber	ADV	aber	_	O	O	
+17-10	in	APPR	in	_	O	O	
+17-11	dsn	NE	<unknown>	_	O	O	
+17-12	.	$.	.	_	O	O	
+
+#id=18
+#text=1:e.gen meinen Bericht über des Gethane an r:,iommsen zum Behufe des Akademierapports.
+18-1	1:e.gen	NN	<unknown>	_	O	O	
+18-2	meinen	PPOSAT	mein	_	O	O	
+18-3	Bericht	NN	Bericht	_	O	O	
+18-4	über	APPR	über	_	O	O	
+18-5	des	ART	die	_	O	O	
+18-6	Gethane	NN	<unknown>	_	O	O	
+18-7	an	APZR	an	_	O	O	
+18-8	r:,iommsen	VVFIN	<unknown>	_	O	O	
+18-9	zum	APPRART	zu	_	O	O	
+18-10	Behufe	NN	Behufe	_	O	O	
+18-11	des	ART	die	_	O	O	
+18-12	Akademierapports	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+18-13	.	$.	.	_	O	O	
+
+#id=19
+#text=Sollte man finden, dß.
+19-1	Sollte	VMFIN	sollen	_	O	O	
+19-2	man	PIS	man	_	O	O	
+19-3	finden	VVINF	finden	_	O	O	
+19-4	,	$,	,	_	O	O	
+19-5	dß	VVFIN	<unknown>	_	O	O	
+19-6	.	$.	.	_	O	O	
+
+#id=20
+#text=es nicht viel ist, so bitte ich 3ie, meinen trauricen Sommer u. die Cholera geltend zu machen, die auch ohne jenen, so e;erinz; sie auch 'Nar, doch geschadet heben würde, wie sie z. B. auch de Rossi von Ende Juli bis jetzt we~getrieben.
+20-1	es	PPER	es	_	O	O	
+20-2	nicht	PTKNEG	nicht	_	O	O	
+20-3	viel	ADV	viel	_	O	O	
+20-4	ist	VAFIN	sein	_	O	O	
+20-5	,	$,	,	_	O	O	
+20-6	so	ADV	so	_	O	O	
+20-7	bitte	VVFIN	bitten	_	O	O	
+20-8	ich	PPER	ich	_	O	O	
+20-9	3ie	ADJD	<unknown>	_	O	O	
+20-10	,	$,	,	_	O	O	
+20-11	meinen	PPOSAT	mein	_	O	O	
+20-12	trauricen	ADJA	<unknown>	_	O	O	
+20-13	Sommer	NN	Sommer	_	O	O	
+20-14	u.	APPR	um	_	O	O	
+20-15	die	ART	die	_	O	O	
+20-16	Cholera	NN	Cholera	_	O	O	
+20-17	geltend	ADJD	geltend	_	O	O	
+20-18	zu	PTKZU	zu	_	O	O	
+20-19	machen	VVINF	machen	_	O	O	
+20-20	,	$,	,	_	O	O	
+20-21	die	PRELS	die	_	O	O	
+20-22	auch	ADV	auch	_	O	O	
+20-23	ohne	APPR	ohne	_	O	O	
+20-24	jenen	PDAT	jen	_	O	O	
+20-25	,	$,	,	_	O	O	
+20-26	so	ADV	so	_	O	O	
+20-27	e	ADJD	<unknown>	_	O	O	
+20-28	;	$.	;	_	O	O	
+20-29	erinz	NE	<unknown>	_	O	O	
+20-30	;	$.	;	_	O	O	
+20-31	sie	PPER	sie	_	O	O	
+20-32	auch	ADV	auch	_	O	O	
+20-33	'	$(	'	_	O	O	
+20-34	Nar	VVFIN	<unknown>	_	O	O	
+20-35	,	$,	,	_	O	O	
+20-36	doch	ADV	doch	_	O	O	
+20-37	geschadet	VVPP	schaden	_	O	O	
+20-38	heben	VVINF	heben	_	O	O	
+20-39	würde	VAFIN	werden	_	O	O	
+20-40	,	$,	,	_	O	O	
+20-41	wie	KOUS	wie	_	O	O	
+20-42	sie	PPER	sie	_	O	O	
+20-43	z.	APPRART	z.	_	O	O	
+20-44	B.	NN	B.	_	O	O	
+20-45	auch	ADV	auch	_	O	O	
+20-46	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+20-47	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+20-48	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+20-49	Ende	NN	Ende	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+20-50	Juli	NN	Juli	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+20-51	bis	APPR	bis	_	O	O	
+20-52	jetzt	ADV	jetzt	_	O	O	
+20-53	we~getrieben	VVFIN	<unknown>	_	O	O	
+20-54	.	$.	.	_	O	O	
+
+#id=21
+#text=Ich hoffe, im Winter um so mehr vor mich zu brin~en.
+21-1	Ich	PPER	ich	_	O	O	
+21-2	hoffe	VVFIN	hoffen	_	O	O	
+21-3	,	$,	,	_	O	O	
+21-4	im	APPRART	in	_	O	O	
+21-5	Winter	NN	Winter	_	O	O	
+21-6	um	APPR	um	_	O	O	
+21-7	so	ADV	so	_	O	O	
+21-8	mehr	ADV	mehr	_	O	O	
+21-9	vor	APPR	vor	_	O	O	
+21-10	mich	PPER	ich	_	O	O	
+21-11	zu	PTKZU	zu	_	O	O	
+21-12	brin~en	VVINF	<unknown>	_	O	O	
+21-13	.	$.	.	_	O	O	
+
+#id=22
+#text=Durc~ die Ges2ndt8ch~ft ist in meiner ~bweseQheit von Ihnen ein Packet angelanßt, enthaltend Ihre auserlesenen Vasen, Heft 36, Tafel 241 - 246, nebst Arch~ol.
+22-1	Durc~	NN	<unknown>	_	O	O	
+22-2	die	ART	die	_	O	O	
+22-3	Ges2ndt8ch~ft	NN	<unknown>	_	O	O	
+22-4	ist	VAFIN	sein	_	O	O	
+22-5	in	APPR	in	_	O	O	
+22-6	meiner	PPOSAT	mein	_	O	O	
+22-7	~bweseQheit	NN	<unknown>	_	O	O	
+22-8	von	APPR	von	_	O	O	
+22-9	Ihnen	PPER	Sie	_	O	O	
+22-10	ein	ART	eine	_	O	O	
+22-11	Packet	NN	<unknown>	_	O	O	
+22-12	angelanßt	VVFIN	<unknown>	_	O	O	
+22-13	,	$,	,	_	O	O	
+22-14	enthaltend	ADJD	enthaltend	_	O	O	
+22-15	Ihre	PPOSAT	ihr	_	O	O	
+22-16	auserlesenen	ADJA	auserlesen	_	O	O	
+22-17	Vasen	NN	Vase	_	O	O	
+22-18	,	$,	,	_	O	O	
+22-19	Heft	NN	Heft	_	O	O	
+22-20	36	CARD	36	_	O	O	
+22-21	,	$,	,	_	O	O	
+22-22	Tafel	NN	Tafel	_	O	O	
+22-23	241	CARD	@card@	_	O	O	
+22-24	-	$(	-	_	O	O	
+22-25	246	CARD	@card@	_	O	O	
+22-26	,	$,	,	_	O	O	
+22-27	nebst	APPR	nebst	_	O	O	
+22-28	Arch~ol	NN	<unknown>	_	O	O	
+22-29	.	$.	.	_	O	O	
+
+#id=23
+#text=Zeitung 1852, Januar-März; wohl das vermißte Packet ?
+23-1	Zeitung	NN	Zeitung	_	O	O	
+23-2	1852	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+23-3	,	$,	,	_	O	O	
+23-4	Januar-März	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+23-5	;	$.	;	_	O	O	
+23-6	wohl	ADV	wohl	_	O	O	
+23-7	das	ART	die	_	O	O	
+23-8	vermißte	ADJA	vermißt	_	O	O	
+23-9	Packet	NN	<unknown>	_	O	O	
+23-10	?	$.	?	_	O	O	
+
+#id=24
+#text=- Von Lepsius eroßem ";erke fEmd ich J,iefArun~ 33 - 50 u. ein PacT
+24-1	-	$(	-	_	O	O	
+24-2	Von	APPR	von	_	O	O	
+24-3	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+24-4	eroßem	ADJA	<unknown>	_	O	O	
+24-5	"	$(	"	_	O	O	
+24-6	;	$.	;	_	O	O	
+24-7	erke	ADJD	<unknown>	_	O	O	
+24-8	fEmd	VVFIN	<unknown>	_	O	O	
+24-9	ich	PPER	ich	_	O	O	
+24-10	J,iefArun~	NE	<unknown>	_	O	O	
+24-11	33	CARD	33	_	O	O	
+24-12	-	$(	-	_	O	O	
+24-13	50	CARD	50	_	O	O	
+24-14	u.	APPR	um	_	O	O	
+24-15	ein	ART	eine	_	O	O	
+24-16	PacT	NN	<unknown>	_	O	O	
+

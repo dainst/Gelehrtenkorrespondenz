@@ -1,0 +1,216 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=188 A. d. Dir.
+1-1	188	CARD	@card@	_	O	O	
+1-2	A.	APPR	an	_	O	O	
+1-3	d.	ART	d.	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Mein theurer Freund.
+2-1	Mein	PPOSAT	mein	_	O	O	
+2-2	theurer	ADJA	<unknown>	_	O	O	
+2-3	Freund	NN	Freund	_	O	O	
+2-4	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Braun Berlin, 27. Mai 1845 g. 7/VI 45 r. 10/VI 45 Berlin 27 Mai 45 Das Gerücht bestimmt unsern Usedom zu Herrn Bachs Nachfolger, Sydow vielleicht hierher zum Direktor ins Ministerium des Äußeren, zu Moliere's Nachfolger den Major Laner, dessen Gemahlin eine Gräfin Häseler ist.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	an	APPR	an	_	O	O	
+3-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-5	,	$,	,	_	O	O	
+3-6	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-10	g.	ADJA	<unknown>	_	O	O	
+3-11	7/VI	NN	<unknown>	_	O	O	
+3-12	45	CARD	45	_	O	O	
+3-13	r.	VVFIN	<unknown>	_	O	O	
+3-14	10/VI	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-15	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-17	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-18	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-19	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-20	Das	ART	die	_	O	O	
+3-21	Gerücht	NN	Gerücht	_	O	O	
+3-22	bestimmt	VVFIN	bestimmen	_	O	O	
+3-23	unsern	PPOSAT	unsre	_	O	O	
+3-24	Usedom	NN	<unknown>	_	O	O	
+3-25	zu	APPR	zu	_	O	O	
+3-26	Herrn	NN	Herr	_	O	O	
+3-27	Bachs	NE	Bach	_	O	O	
+3-28	Nachfolger	NN	Nachfolger	_	O	O	
+3-29	,	$,	,	_	O	O	
+3-30	Sydow	NN	<unknown>	_	O	O	
+3-31	vielleicht	ADV	vielleicht	_	O	O	
+3-32	hierher	ADV	hierher	_	O	O	
+3-33	zum	APPRART	zu	_	O	O	
+3-34	Direktor	NN	Direktor	_	O	O	
+3-35	ins	APPRART	in	_	O	O	
+3-36	Ministerium	NN	Ministerium	_	O	O	
+3-37	des	ART	die	_	O	O	
+3-38	Äußeren	NN	Äußere	_	O	O	
+3-39	,	$,	,	_	O	O	
+3-40	zu	APPR	zu	_	O	O	
+3-41	Moliere's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-42	Nachfolger	NN	Nachfolger	_	O	O	
+3-43	den	ART	die	_	O	O	
+3-44	Major	NN	Major	_	O	O	
+3-45	Laner	NN	<unknown>	_	O	O	
+3-46	,	$,	,	_	O	O	
+3-47	dessen	PRELAT	die	_	O	O	
+3-48	Gemahlin	NN	Gemahlin	_	O	O	
+3-49	eine	ART	eine	_	O	O	
+3-50	Gräfin	NN	Gräfin	_	O	O	
+3-51	Häseler	NN	<unknown>	_	O	O	
+3-52	ist	VAFIN	sein	_	O	O	
+3-53	.	$.	.	_	O	O	
+
+#id=4
+#text=Usedom war 8 Tage in Rügen; ich sah ihn seitdem noch nicht.
+4-1	Usedom	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	war	VAFIN	sein	_	O	O	
+4-3	8	CARD	8	_	O	O	
+4-4	Tage	NN	Tag	_	O	O	
+4-5	in	APPR	in	_	O	O	
+4-6	Rügen	NN	Rüge|Rügen	_	O	O	
+4-7	;	$.	;	_	O	O	
+4-8	ich	PPER	ich	_	O	O	
+4-9	sah	VVFIN	sehen	_	O	O	
+4-10	ihn	PPER	er	_	O	O	
+4-11	seitdem	PAV	seitdem	_	O	O	
+4-12	noch	ADV	noch	_	O	O	
+4-13	nicht	PTKNEG	nicht	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Meine Frau denkt am 20 Juni nach Elgersburg zu gehn wohin ich sie vielleicht in aller Eil - 4 Tage von hier abwesend - begleite.
+5-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-3	denkt	VVFIN	denken	_	O	O	
+5-4	am	APPRART	an	_	O	O	
+5-5	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-6	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-7	nach	APPR	nach	_	O	O	
+5-8	Elgersburg	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-9	zu	APPR	zu	_	O	O	
+5-10	gehn	ADJA	<unknown>	_	O	O	
+5-11	wohin	PWAV	wohin	_	O	O	
+5-12	ich	PPER	ich	_	O	O	
+5-13	sie	PPER	sie	_	O	O	
+5-14	vielleicht	ADV	vielleicht	_	O	O	
+5-15	in	APPR	in	_	O	O	
+5-16	aller	PIAT	alle	_	O	O	
+5-17	Eil	NN	<unknown>	_	O	O	
+5-18	-	$(	-	_	O	O	
+5-19	4	CARD	4	_	O	O	
+5-20	Tage	NN	Tag	_	O	O	
+5-21	von	APPR	von	_	O	O	
+5-22	hier	ADV	hier	_	O	O	
+5-23	abwesend	ADJD	abwesend	_	O	O	
+5-24	-	$(	-	_	O	O	
+5-25	begleite	VVFIN	begleiten	_	O	O	
+5-26	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich wäre gern mitgegangen - aber machen meine verschnupften Augen mir wieder Noth - aber den Plan einer italienischen Reise und dazwischen liegender Wochen in Frankfurt war es unvereinbar.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	wäre	VAFIN	sein	_	O	O	
+6-3	gern	ADV	gern	_	O	O	
+6-4	mitgegangen	VVPP	mitgehen	_	O	O	
+6-5	-	$(	-	_	O	O	
+6-6	aber	KON	aber	_	O	O	
+6-7	machen	VVFIN	machen	_	O	O	
+6-8	meine	PPOSAT	mein	_	O	O	
+6-9	verschnupften	ADJA	verschnupft	_	O	O	
+6-10	Augen	NN	Auge	_	O	O	
+6-11	mir	PRF	ich	_	O	O	
+6-12	wieder	ADV	wieder	_	O	O	
+6-13	Noth	NE	<unknown>	_	O	O	
+6-14	-	$(	-	_	O	O	
+6-15	aber	KON	aber	_	O	O	
+6-16	den	ART	die	_	O	O	
+6-17	Plan	NN	Plan	_	O	O	
+6-18	einer	ART	eine	_	O	O	
+6-19	italienischen	ADJA	italienisch	_	O	O	
+6-20	Reise	NN	Reise	_	O	O	
+6-21	und	KON	und	_	O	O	
+6-22	dazwischen	PAV	dazwischen	_	O	O	
+6-23	liegender	ADJA	liegend	_	O	O	
+6-24	Wochen	NN	Woche	_	O	O	
+6-25	in	APPR	in	_	O	O	
+6-26	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-27	war	VAFIN	sein	_	O	O	
+6-28	es	PPER	es	_	O	O	
+6-29	unvereinbar	ADJD	unvereinbar	_	O	O	
+6-30	.	$.	.	_	O	O	
+
+#id=7
+#text=Vielleicht im August nächsten Jahres, wenn es, wie kaum zu zweifeln, bei längerem matten Leben alsdann noch wünschenswerth bleibt.
+7-1	Vielleicht	ADV	vielleicht	_	O	O	
+7-2	im	APPRART	in	_	O	O	
+7-3	August	NN	August	_	O	O	
+7-4	nächsten	ADJA	nah	_	O	O	
+7-5	Jahres	NN	Jahr	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	wenn	KOUS	wenn	_	O	O	
+7-8	es	PPER	es	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	wie	KOUS	wie	_	O	O	
+7-11	kaum	ADV	kaum	_	O	O	
+7-12	zu	PTKZU	zu	_	O	O	
+7-13	zweifeln	VVINF	zweifeln	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	bei	APPR	bei	_	O	O	
+7-16	längerem	ADJA	lang	_	O	O	
+7-17	matten	ADJA	matt	_	O	O	
+7-18	Leben	NN	Leben	_	O	O	
+7-19	alsdann	VVFIN	<unknown>	_	O	O	
+7-20	noch	ADV	noch	_	O	O	
+7-21	wünschenswerth	NE	<unknown>	_	O	O	
+7-22	bleibt	VVFIN	bleiben	_	O	O	
+7-23	.	$.	.	_	O	O	
+
+#id=8
+#text=Daß Herr Olfers in Rom für den Herbst erwartet wird kann meine Reiselust freilich nicht spornen; doch glaube ich einen Winterautenthalt in Rom (November bis März) darum nicht aufgeben zu dürfen, einen Herbstmo-
+8-1	Daß	KOUS	dass	_	O	O	
+8-2	Herr	NN	Herr	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	Olfers	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-4	in	APPR	in	_	O	O	
+8-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-6	für	APPR	für	_	O	O	
+8-7	den	ART	die	_	O	O	
+8-8	Herbst	NN	Herbst	_	O	O	
+8-9	erwartet	VVPP	erwarten	_	O	O	
+8-10	wird	VAFIN	werden	_	O	O	
+8-11	kann	VMFIN	können	_	O	O	
+8-12	meine	PPOSAT	mein	_	O	O	
+8-13	Reiselust	NN	Reiselust	_	O	O	
+8-14	freilich	ADV	freilich	_	O	O	
+8-15	nicht	PTKNEG	nicht	_	O	O	
+8-16	spornen	VVINF	spornen	_	O	O	
+8-17	;	$.	;	_	O	O	
+8-18	doch	ADV	doch	_	O	O	
+8-19	glaube	VVFIN	glauben	_	O	O	
+8-20	ich	PPER	ich	_	O	O	
+8-21	einen	ART	eine	_	O	O	
+8-22	Winterautenthalt	NN	<unknown>	_	O	O	
+8-23	in	APPR	in	_	O	O	
+8-24	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-25	(	$(	(	_	O	O	
+8-26	November	NN	November	_	O	O	
+8-27	bis	KON	bis	_	O	O	
+8-28	März	NN	März	_	O	O	
+8-29	)	$(	)	_	O	O	
+8-30	darum	PAV	darum	_	O	O	
+8-31	nicht	PTKNEG	nicht	_	O	O	
+8-32	aufgeben	VVINF	aufgeben	_	O	O	
+8-33	zu	PTKZU	zu	_	O	O	
+8-34	dürfen	VMINF	dürfen	_	O	O	
+8-35	,	$,	,	_	O	O	
+8-36	einen	ART	eine	_	O	O	
+8-37	Herbstmo-	TRUNC	<unknown>	_	O	O	
+

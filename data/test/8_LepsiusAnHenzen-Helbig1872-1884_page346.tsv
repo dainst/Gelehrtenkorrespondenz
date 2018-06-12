@@ -1,0 +1,263 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=17 L Verehrter Freund Lepsius an ~elbig Berlin, 14. Februar 1880 Berlin, C., d. 14. Febr.
+1-1	17	CARD	17	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	~elbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1880	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	,	$,	,	_	O	O	
+1-16	C.	NE	C.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-17	,	$,	,	_	O	O	
+1-18	d.	ART	d.	_	O	O	
+1-19	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Febr.	NN	Febr.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1880 Vorgestern ist das Fragment der kleinen Todtenfigur, das Sie mir angekündigt hatten, bei mir eingeiau- ~en.
+2-1	1880	CARD	@card@	_	O	O	
+2-2	Vorgestern	NN	<unknown>	_	O	O	
+2-3	ist	VAFIN	sein	_	O	O	
+2-4	das	ART	die	_	O	O	
+2-5	Fragment	NN	Fragment	_	O	O	
+2-6	der	ART	die	_	O	O	
+2-7	kleinen	ADJA	klein	_	O	O	
+2-8	Todtenfigur	NN	<unknown>	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	das	PRELS	die	_	O	O	
+2-11	Sie	PPER	Sie	_	O	O	
+2-12	mir	PRF	ich	_	O	O	
+2-13	angekündigt	VVPP	ankündigen	_	O	O	
+2-14	hatten	VAFIN	haben	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	bei	APPR	bei	_	O	O	
+2-17	mir	PPER	ich	_	O	O	
+2-18	eingeiau-	ADJA	<unknown>	_	O	O	
+2-19	~en	NN	<unknown>	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Figur gehört zu der allergeringsten Sorte dieser unzähligen Exemplare, hat keine Inschrift, und hat • daher unter den ägyptischen Monumenten gar keinen Werth.
+3-1	Die	ART	die	_	O	O	
+3-2	Figur	NN	Figur	_	O	O	
+3-3	gehört	VVFIN	gehören	_	O	O	
+3-4	zu	APPR	zu	_	O	O	
+3-5	der	ART	die	_	O	O	
+3-6	allergeringsten	ADJA	allergering	_	O	O	
+3-7	Sorte	NN	Sorte	_	O	O	
+3-8	dieser	PDAT	dies	_	O	O	
+3-9	unzähligen	ADJA	unzählig	_	O	O	
+3-10	Exemplare	NN	Exemplar	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	hat	VAFIN	haben	_	O	O	
+3-13	keine	PIAT	keine	_	O	O	
+3-14	Inschrift	NN	Inschrift	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	und	KON	und	_	O	O	
+3-17	hat	VAFIN	haben	_	O	O	
+3-18	•	ADJD	<unknown>	_	O	O	
+3-19	daher	PAV	daher	_	O	O	
+3-20	unter	APPR	unter	_	O	O	
+3-21	den	ART	die	_	O	O	
+3-22	ägyptischen	ADJA	ägyptisch	_	O	O	
+3-23	Monumenten	NN	Monument	_	O	O	
+3-24	gar	ADV	gar	_	O	O	
+3-25	keinen	PIAT	keine	_	O	O	
+3-26	Werth	NN	<unknown>	_	O	O	
+3-27	.	$.	.	_	O	O	
+
+#id=4
+#text=Nur der Fundort giebt ihm Interesse, wenn dieser durch einen zuverlässigen Augenzeugen vollkommen feststeht, und wenn der Ort der Art ist, daß er die Möglichkeit einer mehr oder weniger großen modernen Zugehörigkeit ausschließt.
+4-1	Nur	ADV	nur	_	O	O	
+4-2	der	ART	die	_	O	O	
+4-3	Fundort	NN	Fundort	_	O	O	
+4-4	giebt	VVFIN	<unknown>	_	O	O	
+4-5	ihm	PPER	er	_	O	O	
+4-6	Interesse	NN	Interesse	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	wenn	KOUS	wenn	_	O	O	
+4-9	dieser	PDS	diese	_	O	O	
+4-10	durch	APPR	durch	_	O	O	
+4-11	einen	ART	eine	_	O	O	
+4-12	zuverlässigen	ADJA	zuverlässig	_	O	O	
+4-13	Augenzeugen	NN	Augenzeuge	_	O	O	
+4-14	vollkommen	ADJD	vollkommen	_	O	O	
+4-15	feststeht	VVFIN	feststehen	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	und	KON	und	_	O	O	
+4-18	wenn	KOUS	wenn	_	O	O	
+4-19	der	ART	die	_	O	O	
+4-20	Ort	NN	Ort	_	O	O	
+4-21	der	ART	die	_	O	O	
+4-22	Art	NN	Art	_	O	O	
+4-23	ist	VAFIN	sein	_	O	O	
+4-24	,	$,	,	_	O	O	
+4-25	daß	KOUS	dass	_	O	O	
+4-26	er	PPER	er	_	O	O	
+4-27	die	ART	die	_	O	O	
+4-28	Möglichkeit	NN	Möglichkeit	_	O	O	
+4-29	einer	ART	eine	_	O	O	
+4-30	mehr	PIS	mehr	_	O	O	
+4-31	oder	KON	oder	_	O	O	
+4-32	weniger	ADV	weniger	_	O	O	
+4-33	großen	ADJA	groß	_	O	O	
+4-34	modernen	ADJA	modern	_	O	O	
+4-35	Zugehörigkeit	NN	Zugehörigkeit	_	O	O	
+4-36	ausschließt	VVFIN	ausschließen	_	O	O	
+4-37	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Zeit der ägyptischen Anfertigung ist eben so zweifellos wie die der früheren.
+5-1	Die	ART	die	_	O	O	
+5-2	Zeit	NN	Zeit	_	O	O	
+5-3	der	ART	die	_	O	O	
+5-4	ägyptischen	ADJA	ägyptisch	_	O	O	
+5-5	Anfertigung	NN	Anfertigung	_	O	O	
+5-6	ist	VAFIN	sein	_	O	O	
+5-7	eben	ADV	eben	_	O	O	
+5-8	so	ADV	so	_	O	O	
+5-9	zweifellos	ADJD	zweifellos	_	O	O	
+5-10	wie	KOKOM	wie	_	O	O	
+5-11	die	PDS	die	_	O	O	
+5-12	der	ART	die	_	O	O	
+5-13	früheren	ADJA	früh	_	O	O	
+5-14	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Art und Farbe der Glasirung weist auf die 26.
+6-1	Die	ART	die	_	O	O	
+6-2	Art	NN	Art	_	O	O	
+6-3	und	KON	und	_	O	O	
+6-4	Farbe	NN	Farbe	_	O	O	
+6-5	der	ART	die	_	O	O	
+6-6	Glasirung	NN	<unknown>	_	O	O	
+6-7	weist	VVFIN	weisen	_	O	O	
+6-8	auf	APPR	auf	_	O	O	
+6-9	die	ART	die	_	O	O	
+6-10	26	CARD	26	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Dynastie hin, oder etwas später.
+7-1	Dynastie	NN	Dynastie	_	O	O	
+7-2	hin	PTKVZ	hin	_	O	O	
+7-3	,	$,	,	_	O	O	
+7-4	oder	KON	oder	_	O	O	
+7-5	etwas	ADV	etwas	_	O	O	
+7-6	später	ADJD	spät	_	O	O	
+7-7	.	$.	.	_	O	O	
+
+#id=8
+#text=An der Ächtheit des ägyptischen Ursprungs ist nicht zu zweifeln.
+8-1	An	APPR	an	_	O	O	
+8-2	der	ART	die	_	O	O	
+8-3	Ächtheit	NN	<unknown>	_	O	O	
+8-4	des	ART	die	_	O	O	
+8-5	ägyptischen	ADJA	ägyptisch	_	O	O	
+8-6	Ursprungs	NN	Ursprung	_	O	O	
+8-7	ist	VAFIN	sein	_	O	O	
+8-8	nicht	PTKNEG	nicht	_	O	O	
+8-9	zu	PTKZU	zu	_	O	O	
+8-10	zweifeln	VVINF	zweifeln	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Er könnte also wiederum nur von einem Reisenden jener Zeit herrühren, der die Statuette mit aus Ägypten nach Europa mitgebracht hätte; aber welcher antike Kunstfreund würde ein so werthloses Exemplar der Mühe werth gehalten haben es aufzubewahren, bei der unendlichen Auswahl der besten Arbeiten die ihm in Ägypten zu Gebote stand.
+9-1	Er	PPER	er	_	O	O	
+9-2	könnte	VMFIN	können	_	O	O	
+9-3	also	ADV	also	_	O	O	
+9-4	wiederum	ADV	wiederum	_	O	O	
+9-5	nur	ADV	nur	_	O	O	
+9-6	von	APPR	von	_	O	O	
+9-7	einem	ART	eine	_	O	O	
+9-8	Reisenden	NN	Reisende	_	O	O	
+9-9	jener	PDAT	jen	_	O	O	
+9-10	Zeit	NN	Zeit	_	O	O	
+9-11	herrühren	VVINF	herrühren	_	O	O	
+9-12	,	$,	,	_	O	O	
+9-13	der	PRELS	die	_	O	O	
+9-14	die	ART	die	_	O	O	
+9-15	Statuette	NN	Statuette	_	O	O	
+9-16	mit	APPR	mit	_	O	O	
+9-17	aus	APPR	aus	_	O	O	
+9-18	Ägypten	NE	Ägypten	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-19	nach	APPR	nach	_	O	O	
+9-20	Europa	NE	Europa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-21	mitgebracht	VVPP	mitbringen	_	O	O	
+9-22	hätte	VAFIN	haben	_	O	O	
+9-23	;	$.	;	_	O	O	
+9-24	aber	KON	aber	_	O	O	
+9-25	welcher	PWS	welche	_	O	O	
+9-26	antike	ADJA	antik	_	O	O	
+9-27	Kunstfreund	NN	Kunstfreund	_	O	O	
+9-28	würde	VAFIN	werden	_	O	O	
+9-29	ein	ART	eine	_	O	O	
+9-30	so	ADV	so	_	O	O	
+9-31	werthloses	ADJA	<unknown>	_	O	O	
+9-32	Exemplar	NN	Exemplar	_	O	O	
+9-33	der	ART	die	_	O	O	
+9-34	Mühe	NN	Mühe	_	O	O	
+9-35	werth	NE	<unknown>	_	O	O	
+9-36	gehalten	VVPP	halten	_	O	O	
+9-37	haben	VAINF	haben	_	O	O	
+9-38	es	PPER	es	_	O	O	
+9-39	aufzubewahren	VVIZU	aufbewahren	_	O	O	
+9-40	,	$,	,	_	O	O	
+9-41	bei	APPR	bei	_	O	O	
+9-42	der	ART	die	_	O	O	
+9-43	unendlichen	ADJA	unendlich	_	O	O	
+9-44	Auswahl	NN	Auswahl	_	O	O	
+9-45	der	ART	die	_	O	O	
+9-46	besten	ADJA	gut	_	O	O	
+9-47	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+9-48	die	ART	die	_	O	O	
+9-49	ihm	PPER	er	_	O	O	
+9-50	in	APPR	in	_	O	O	
+9-51	Ägypten	NE	Ägypten	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-52	zu	APPR	zu	_	O	O	
+9-53	Gebote	NN	Gebot	_	O	O	
+9-54	stand	VVFIN	stehen	_	O	O	
+9-55	.	$.	.	_	O	O	
+
+#id=10
+#text=Und wie kam es in so früher Zeit gerade nach Rom?
+10-1	Und	KON	und	_	O	O	
+10-2	wie	KOUS	wie	_	O	O	
+10-3	kam	VVFIN	kommen	_	O	O	
+10-4	es	PPER	es	_	O	O	
+10-5	in	APPR	in	_	O	O	
+10-6	so	ADV	so	_	O	O	
+10-7	früher	ADV	früher	_	O	O	
+10-8	Zeit	NN	Zeit	_	O	O	
+10-9	gerade	ADV	gerade	_	O	O	
+10-10	nach	APPR	nach	_	O	O	
+10-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-12	?	$.	?	_	O	O	
+
+#id=11
+#text=Dieser Fund könnte daher den auch sonst naheligenden Sl8pt,ismus, der selbst den Etruri-
+11-1	Dieser	PDAT	dies	_	O	O	
+11-2	Fund	NN	Fund	_	O	O	
+11-3	könnte	VMFIN	können	_	O	O	
+11-4	daher	PAV	daher	_	O	O	
+11-5	den	ART	die	_	O	O	
+11-6	auch	ADV	auch	_	O	O	
+11-7	sonst	ADV	sonst	_	O	O	
+11-8	naheligenden	ADJA	<unknown>	_	O	O	
+11-9	Sl8pt,ismus	NN	<unknown>	_	O	O	
+11-10	,	$,	,	_	O	O	
+11-11	der	PRELS	die	_	O	O	
+11-12	selbst	ADV	selbst	_	O	O	
+11-13	den	ART	die	_	O	O	
+11-14	Etruri-	TRUNC	<unknown>	_	O	O	
+

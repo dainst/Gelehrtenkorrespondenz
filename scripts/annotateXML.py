@@ -1,26 +1,41 @@
 #!/usr/env/bin python
 
+"""Make sure you update your conf file and configuration options!
+Usage:
+
+annotateXML <file.xml>
+
+"""
+
+import sys
+sys.path.append("../")
+sys.path.append("../../iDAIPublications")
+
 from config_reader import ProjectCofiguration
 from idai_journals.nlp import DAITokenizeSent
-import pyxmi
+#import pyxmi
 import os
 import pickle
 from training import load_dictionaries
 from templates import template1
 from collections import namedtuple
+from lxml import etree
+import logging
+
+logging.basicConfig(level=logging.INFO)
 
 Annotation = namedtuple('Annotation', ['token', 'pos', 'lemma', 'header', 'ne'])
 
 
 # Fine tune your parameters here!
-conf = ProjectCofiguration("/home/fmambrini/projects/Gelehrtenkorrespondenz/lib/config/korr_nlp.json")
+conf = ProjectCofiguration("../lib/config/korr_mac.json")
 outdir = os.path.join(conf.project_root, "data/TSV")
 #fix
-basename = 'GerhardAnBraun1844-1856'
-model_path = os.path.join(conf.project_root, "lib/models/korrespondez_model_stage4_NEWC.pickle")
-sent_tokenizer_path = '/opt/nlp/nltk_data/tokenizers/punkt/PY3/dai_german_punkt.pickle'
+basename = '5_GerhardAnBraun1844-1856'
+model_path = conf.model
+sent_tokenizer_path = '/Users/fmambrini/PycharmProjects/iDAIPublications/idai_journals/lib/nltk_data_extension/tokenizers/punkt/PY3/dai_german_punkt.pickle'
 
-path_to_preproc = '../lib/preproc/gelehrtekorrespondenz.pickle'
+path_to_preproc = conf.preprocessing_regexp
 
 #d = {
 #    "persons": "lib/dictionaries/persons.txt",
@@ -37,9 +52,6 @@ ns = {'tei': "http://www.tei-c.org/ns/1.0"}
 with open(path_to_preproc, "rb") as f:
     regs = pickle.load(f)
 
-with open(path_to_mod, "rb") as f:
-    crf = pickle.load(f)
-
 def getLines(page_el):
     return [par for par in page_el if par.text is not None]
 
@@ -53,13 +65,17 @@ def deleteRepeatedLines(lines):
         lim = 3
     #check the first 3 lines (unless there are only 4 lines in a text...); add numbers if you want
     for i in range(lim):
-        if lines[half+i].text == lines[i].text:
-            isRepeat = True
+        try:
+            if lines[half+i].text == lines[i].text:
+                isRepeat = True
+        except IndexError:
+            isRepeat = False
     return lines[:half] if isRepeat == True else lines
 
 
 def preprocess_xml_page(page_el, regexps=regs):
     lines = deleteRepeatedLines(getLines(page_el))
+    #lines = getLines(page_el)
     p = "\n".join([l.text for l in lines])
     for reg in regexps:
         p = reg[0].sub(reg[1], p)
@@ -82,7 +98,7 @@ def pos_tag_sents(tokenized_sents):
     tagged_sents = []
     for i, s in enumerate(tokenized_sents):
         tt = TreeTagger(language='german')
-        tags = tt.tag(s)
+        tags = [t for t in tt.tag(s) if len(t) > 1]
         tags = [tuple(tag + ["_", ""]) for tag in tags]
         tagged_sents.append(tags)
     return tagged_sents
@@ -147,9 +163,10 @@ def process_page(page):
     return tsv
 
 
-def main(pages):
+def main(pages, start_num=1):
     for num, p in enumerate(pages):
-        outname = os.path.join(outdir, basename + '_page' + "{0:0=3d}".format(int(num) + 1) + '.tsv')
+        logging.info("Working with page {}".format(num+start_num))
+        outname = os.path.join(outdir, basename + '_page' + "{0:0=3d}".format(int(num) + start_num) + '.tsv')
         pre = preprocess_xml_page(p)
         t = process_page(pre)
         with open(outname, 'w') as out:
@@ -163,4 +180,4 @@ if __name__ == '__main__':
     #parse xml file
     x = etree.parse(inpath)
     pages = getPages(x)
-    main(pages)
+    main(pages[134:135], 135)

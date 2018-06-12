@@ -1,0 +1,251 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=339 Lieber Herr Professor Helbig an Henzen Zürich, 14. Oktober 1870 g. 16/X 70 Zürich, Fluntern, Plattenwiese 14/10 70 Soeben erhalte ich Ihren Brief vom 10., auffällig verspätet.
+1-1	339	CARD	@card@	_	O	O	
+1-2	Lieber	ADJA	lieb	_	O	O	
+1-3	Herr	NN	Herr	_	O	O	
+1-4	Professor	NN	Professor	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	ADJA	<unknown>	_	O	O	
+1-15	16/X	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	70	CARD	70	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-18	,	$,	,	_	O	O	
+1-19	Fluntern	NN	<unknown>	_	O	O	
+1-20	,	$,	,	_	O	O	
+1-21	Plattenwiese	NN	<unknown>	_	O	O	
+1-22	14/10	CARD	@card@	_	O	O	
+1-23	70	CARD	70	_	O	O	
+1-24	Soeben	NE	<unknown>	_	O	O	
+1-25	erhalte	VVFIN	erhalten	_	O	O	
+1-26	ich	PPER	ich	_	O	O	
+1-27	Ihren	PPOSAT	ihr	_	O	O	
+1-28	Brief	NN	Brief	_	O	O	
+1-29	vom	APPRART	von	_	O	O	
+1-30	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-31	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-32	,	$,	,	_	O	O	
+1-33	auffällig	ADJD	auffällig	_	O	O	
+1-34	verspätet	VVPP	verspäten	_	O	O	
+1-35	.	$.	.	_	O	O	
+
+#id=2
+#text=Es ist immer noch nichts passirt.
+2-1	Es	PPER	es	_	O	O	
+2-2	ist	VAFIN	sein	_	O	O	
+2-3	immer	ADV	immer	_	O	O	
+2-4	noch	ADV	noch	_	O	O	
+2-5	nichts	PIAT	nichts	_	O	O	
+2-6	passirt	NN	<unknown>	_	O	O	
+2-7	.	$.	.	_	O	O	
+
+#id=3
+#text=Wir sind in Verzweifelung.
+3-1	Wir	PPER	wir	_	O	O	
+3-2	sind	VAFIN	sein	_	O	O	
+3-3	in	APPR	in	_	O	O	
+3-4	Verzweifelung	NN	<unknown>	_	O	O	
+3-5	.	$.	.	_	O	O	
+
+#id=4
+#text=Seit dem 9. August erwarten wir stündlich die Niederkunft und sie ist immer noch nicht eingetreten.
+4-1	Seit	APPR	seit	_	O	O	
+4-2	dem	ART	die	_	O	O	
+4-3	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-4	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-5	August	NE	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-6	erwarten	VVFIN	erwarten	_	O	O	
+4-7	wir	PPER	wir	_	O	O	
+4-8	stündlich	ADJD	stündlich	_	O	O	
+4-9	die	ART	die	_	O	O	
+4-10	Niederkunft	NN	Niederkunft	_	O	O	
+4-11	und	KON	und	_	O	O	
+4-12	sie	PPER	sie	_	O	O	
+4-13	ist	VAFIN	sein	_	O	O	
+4-14	immer	ADV	immer	_	O	O	
+4-15	noch	ADV	noch	_	O	O	
+4-16	nicht	PTKNEG	nicht	_	O	O	
+4-17	eingetreten	VVPP	eintreten	_	O	O	
+4-18	.	$.	.	_	O	O	
+
+#id=5
+#text=Gusserow selbst weiß nicht mehr, was er davon denken soll.
+5-1	Gusserow	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	selbst	ADV	selbst	_	O	O	
+5-3	weiß	VVFIN	wissen	_	O	O	
+5-4	nicht	PTKNEG	nicht	_	O	O	
+5-5	mehr	ADV	mehr	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	was	PRELS	was	_	O	O	
+5-8	er	PPER	er	_	O	O	
+5-9	davon	PAV	davon	_	O	O	
+5-10	denken	VVINF	denken	_	O	O	
+5-11	soll	VMFIN	sollen	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Nach seiner letzten Diagnose sollte sie spätestens in acht Tagen eintreten und heute haben wir den achten Tag.
+6-1	Nach	APPR	nach	_	O	O	
+6-2	seiner	PPOSAT	sein	_	O	O	
+6-3	letzten	ADJA	letzt	_	O	O	
+6-4	Diagnose	NN	Diagnose	_	O	O	
+6-5	sollte	VMFIN	sollen	_	O	O	
+6-6	sie	PPER	sie	_	O	O	
+6-7	spätestens	ADV	spätestens	_	O	O	
+6-8	in	APPR	in	_	O	O	
+6-9	acht	CARD	acht	_	O	O	
+6-10	Tagen	NN	Tag	_	O	O	
+6-11	eintreten	VVINF	eintreten	_	O	O	
+6-12	und	KON	und	_	O	O	
+6-13	heute	ADV	heute	_	O	O	
+6-14	haben	VAFIN	haben	_	O	O	
+6-15	wir	PPER	wir	_	O	O	
+6-16	den	ART	die	_	O	O	
+6-17	achten	ADJA	acht	_	O	O	
+6-18	Tag	NN	Tag	_	O	O	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=Dazu läuft am 25. unsere Miethe ab und muß ich rasch ein anderes Logis suchen.
+7-1	Dazu	PAV	dazu	_	O	O	
+7-2	läuft	VVFIN	laufen	_	O	O	
+7-3	am	APPRART	an	_	O	O	
+7-4	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-6	unsere	PPOSAT	unser	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-7	Miethe	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-8	ab	PTKVZ	ab	_	O	O	
+7-9	und	KON	und	_	O	O	
+7-10	muß	VMFIN	müssen	_	O	O	
+7-11	ich	PPER	ich	_	O	O	
+7-12	rasch	ADJD	rasch	_	O	O	
+7-13	ein	ART	eine	_	O	O	
+7-14	anderes	PIAT	andere	_	O	O	
+7-15	Logis	NN	<unknown>	_	O	O	
+7-16	suchen	VVINF	suchen	_	O	O	
+7-17	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich werde::.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	werde	VAFIN	werden	_	O	O	
+8-3	:	$.	:	_	O	O	
+8-4	:	$.	:	_	O	O	
+8-5	.	$.	.	_	O	O	
+
+#id=9
+#text=den 25. abreisen, mag die Niederkunft eingetreten sein oder nicht.
+9-1	den	ART	die	_	O	O	
+9-2	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-3	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-4	abreisen	VVFIN	abreisen	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	mag	VMFIN	mögen	_	O	O	
+9-7	die	ART	die	_	O	O	
+9-8	Niederkunft	NN	Niederkunft	_	O	O	
+9-9	eingetreten	VVPP	eintreten	_	O	O	
+9-10	sein	VAINF	sein	_	O	O	
+9-11	oder	KON	oder	_	O	O	
+9-12	nicht	PTKNEG	nicht	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=Meine Frau wird ohnehin im Winter die Reise nicht unternehmen können.
+10-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-3	wird	VAFIN	werden	_	O	O	
+10-4	ohnehin	ADV	ohnehin	_	O	O	
+10-5	im	APPRART	in	_	O	O	
+10-6	Winter	NN	Winter	_	O	O	
+10-7	die	ART	die	_	O	O	
+10-8	Reise	NN	Reise	_	O	O	
+10-9	nicht	PTKNEG	nicht	_	O	O	
+10-10	unternehmen	VVINF	unternehmen	_	O	O	
+10-11	können	VMINF	können	_	O	O	
+10-12	.	$.	.	_	O	O	
+
+#id=11
+#text=Sollte auch Alles nach Wunsch gehen, so wird sie jedenfalls die Reise im Winter nicht unternehmen dürfen.
+11-1	Sollte	VMFIN	sollen	_	O	O	
+11-2	auch	ADV	auch	_	O	O	
+11-3	Alles	PIS	alle	_	O	O	
+11-4	nach	APPR	nach	_	O	O	
+11-5	Wunsch	NN	Wunsch	_	O	O	
+11-6	gehen	VVINF	gehen	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	so	ADV	so	_	O	O	
+11-9	wird	VAFIN	werden	_	O	O	
+11-10	sie	PPER	sie	_	O	O	
+11-11	jedenfalls	ADV	jedenfalls	_	O	O	
+11-12	die	ART	die	_	O	O	
+11-13	Reise	NN	Reise	_	O	O	
+11-14	im	APPRART	in	_	O	O	
+11-15	Winter	NN	Winter	_	O	O	
+11-16	nicht	PTKNEG	nicht	_	O	O	
+11-17	unternehmen	VVINF	unternehmen	_	O	O	
+11-18	dürfen	VMINF	dürfen	_	O	O	
+11-19	.	$.	.	_	O	O	
+
+#id=12
+#text=Sie wird daher einige Monate zunächst in Zürich, dann in Genf zubringen.
+12-1	Sie	PPER	Sie	_	O	O	
+12-2	wird	VAFIN	werden	_	O	O	
+12-3	daher	PAV	daher	_	O	O	
+12-4	einige	PIAT	einige	_	O	O	
+12-5	Monate	NN	Monat	_	O	O	
+12-6	zunächst	ADV	zunächst	_	O	O	
+12-7	in	APPR	in	_	O	O	
+12-8	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-9	,	$,	,	_	O	O	
+12-10	dann	ADV	dann	_	O	O	
+12-11	in	APPR	in	_	O	O	
+12-12	Genf	NE	Genf	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-13	zubringen	VVFIN	zubringen	_	O	O	
+12-14	.	$.	.	_	O	O	
+
+#id=13
+#text=Sollten Sie vor meiner Ankunft Tafeln bezeichnen und drucken lassen wollen, so finden Sie die Probedrücke im Apparatzimmer in einer Mappe, welche die Inschrift trägt "Incisioni da pubblicarsi:nelle annate seguenti".
+13-1	Sollten	VMFIN	sollen	_	O	O	
+13-2	Sie	PPER	Sie	_	O	O	
+13-3	vor	APPR	vor	_	O	O	
+13-4	meiner	PPOSAT	mein	_	O	O	
+13-5	Ankunft	NN	Ankunft	_	O	O	
+13-6	Tafeln	NN	Tafel	_	O	O	
+13-7	bezeichnen	VVINF	bezeichnen	_	O	O	
+13-8	und	KON	und	_	O	O	
+13-9	drucken	VVINF	drucken	_	O	O	
+13-10	lassen	VVINF	lassen	_	O	O	
+13-11	wollen	VMINF	wollen	_	O	O	
+13-12	,	$,	,	_	O	O	
+13-13	so	ADV	so	_	O	O	
+13-14	finden	VVFIN	finden	_	O	O	
+13-15	Sie	PPER	Sie	_	O	O	
+13-16	die	ART	die	_	O	O	
+13-17	Probedrücke	NN	<unknown>	_	O	O	
+13-18	im	APPRART	in	_	O	O	
+13-19	Apparatzimmer	NN	<unknown>	_	O	O	
+13-20	in	APPR	in	_	O	O	
+13-21	einer	ART	eine	_	O	O	
+13-22	Mappe	NN	Mappe	_	O	O	
+13-23	,	$,	,	_	O	O	
+13-24	welche	PRELS	welche	_	O	O	
+13-25	die	ART	die	_	O	O	
+13-26	Inschrift	NN	Inschrift	_	O	O	
+13-27	trägt	VVFIN	tragen	_	O	O	
+13-28	"	$(	"	_	O	O	
+13-29	Incisioni	NN	<unknown>	_	O	O	
+13-30	da	ADV	da	_	O	O	
+13-31	pubblicarsi:nelle	ADJA	<unknown>	_	O	O	
+13-32	annate	NN	<unknown>	_	O	O	
+13-33	seguenti	NN	<unknown>	_	O	O	
+13-34	"	$(	"	_	O	O	
+13-35	.	$.	.	_	O	O	
+

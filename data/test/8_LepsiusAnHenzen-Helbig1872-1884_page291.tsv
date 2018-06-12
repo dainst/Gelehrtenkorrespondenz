@@ -1,0 +1,208 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=\ 593 2 Lepsius an Henzen Berlin, 18. Oktober 1876 Depotzimmer durch eine Wendeltreppe kann es einstweilen verbleiben.
+1-1	\	XY	\	_	O	O	
+1-2	593	CARD	@card@	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Depotzimmer	NN	<unknown>	_	O	O	
+1-14	durch	APPR	durch	_	O	O	
+1-15	eine	ART	eine	_	O	O	
+1-16	Wendeltreppe	NN	Wendeltreppe	_	O	O	
+1-17	kann	VMFIN	können	_	O	O	
+1-18	es	PPER	es	_	O	O	
+1-19	einstweilen	ADV	einstweilen	_	O	O	
+1-20	verbleiben	VVINF	verbleiben	_	O	O	
+1-21	.	$.	.	_	O	O	
+
+#id=2
+#text=Ihr Vorschlag, der durch Mommsen mitgetheilt wurde, daß die Central-Direktion sich an die Museums Verwaltung 5~eft wenden möge, um die Bedenken gegen die bisherige Art gewisser Ankäufe von unsrer Seite hervorzuheben um den von Ihnen bezeichneten Modus vorzuschlagen, mußte abgelehnt werden.
+2-1	Ihr	PPOSAT	ihr	_	O	O	
+2-2	Vorschlag	NN	Vorschlag	_	O	O	
+2-3	,	$,	,	_	O	O	
+2-4	der	PRELS	die	_	O	O	
+2-5	durch	APPR	durch	_	O	O	
+2-6	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-7	mitgetheilt	VVPP	<unknown>	_	O	O	
+2-8	wurde	VAFIN	werden	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	daß	KOUS	dass	_	O	O	
+2-11	die	ART	die	_	O	O	
+2-12	Central-Direktion	NN	<unknown>	_	O	O	
+2-13	sich	PRF	sich	_	O	O	
+2-14	an	APPR	an	_	O	O	
+2-15	die	ART	die	_	O	O	
+2-16	Museums	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-17	Verwaltung	NN	Verwaltung	_	O	O	
+2-18	5~eft	ADJD	<unknown>	_	O	O	
+2-19	wenden	VVINF	wenden	_	O	O	
+2-20	möge	VMFIN	mögen	_	O	O	
+2-21	,	$,	,	_	O	O	
+2-22	um	KOUI	um	_	O	O	
+2-23	die	ART	die	_	O	O	
+2-24	Bedenken	NN	Bedenken	_	O	O	
+2-25	gegen	APPR	gegen	_	O	O	
+2-26	die	ART	die	_	O	O	
+2-27	bisherige	ADJA	bisherig	_	O	O	
+2-28	Art	NN	Art	_	O	O	
+2-29	gewisser	ADJA	gewiss	_	O	O	
+2-30	Ankäufe	NN	Ankauf	_	O	O	
+2-31	von	APPR	von	_	O	O	
+2-32	unsrer	PPOSAT	unser	_	O	O	
+2-33	Seite	NN	Seite	_	O	O	
+2-34	hervorzuheben	VVIZU	hervorheben	_	O	O	
+2-35	um	APPR	um	_	O	O	
+2-36	den	ART	die	_	O	O	
+2-37	von	APPR	von	_	O	O	
+2-38	Ihnen	PPER	Sie	_	O	O	
+2-39	bezeichneten	ADJA	bezeichnet	_	O	O	
+2-40	Modus	NN	Modus	_	O	O	
+2-41	vorzuschlagen	VVIZU	vorschlagen	_	O	O	
+2-42	,	$,	,	_	O	O	
+2-43	mußte	VMFIN	müssen	_	O	O	
+2-44	abgelehnt	VVPP	ablehnen	_	O	O	
+2-45	werden	VAINF	werden	_	O	O	
+2-46	.	$.	.	_	O	O	
+
+#id=3
+#text=Wir fanden daß ein solcher Korrespondenzweg weder in unsrer Aufgabe liege, noch zum Ziele führen werde.
+3-1	Wir	PPER	wir	_	O	O	
+3-2	fanden	VVFIN	finden	_	O	O	
+3-3	daß	KOUS	dass	_	O	O	
+3-4	ein	ART	eine	_	O	O	
+3-5	solcher	PIAT	solche	_	O	O	
+3-6	Korrespondenzweg	NN	<unknown>	_	O	O	
+3-7	weder	KON	weder	_	O	O	
+3-8	in	APPR	in	_	O	O	
+3-9	unsrer	PPOSAT	unser	_	O	O	
+3-10	Aufgabe	NN	Aufgabe	_	O	O	
+3-11	liege	VVFIN	liegen	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	noch	ADV	noch	_	O	O	
+3-14	zum	APPRART	zu	_	O	O	
+3-15	Ziele	NN	Ziel	_	O	O	
+3-16	führen	VVINF	führen	_	O	O	
+3-17	werde	VAFIN	werden	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Mommsen brachte zur Sprache wie wünschenswerth es sei, daß das Sekretariat eine regelmäßige Berücksichtigung der Stadtrömischen Topographie und eine wiederkehrende Berichterstattung darüber veranlasse.
+4-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	brachte	VVFIN	bringen	_	O	O	
+4-3	zur	APPRART	zu	_	O	O	
+4-4	Sprache	NN	Sprache	_	O	O	
+4-5	wie	KOKOM	wie	_	O	O	
+4-6	wünschenswerth	NE	<unknown>	_	O	O	
+4-7	es	PPER	es	_	O	O	
+4-8	sei	VAFIN	sein	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	daß	KOUS	dass	_	O	O	
+4-11	das	ART	die	_	O	O	
+4-12	Sekretariat	NN	Sekretariat	_	O	O	
+4-13	eine	ART	eine	_	O	O	
+4-14	regelmäßige	ADJA	regelmäßig	_	O	O	
+4-15	Berücksichtigung	NN	Berücksichtigung	_	O	O	
+4-16	der	ART	die	_	O	O	
+4-17	Stadtrömischen	NN	<unknown>	_	O	O	
+4-18	Topographie	NN	Topographie	_	O	O	
+4-19	und	KON	und	_	O	O	
+4-20	eine	ART	eine	_	O	O	
+4-21	wiederkehrende	ADJA	wiederkehrend	_	O	O	
+4-22	Berichterstattung	NN	Berichterstattung	_	O	O	
+4-23	darüber	PAV	darüber	_	O	O	
+4-24	veranlasse	VVFIN	veranlassen	_	O	O	
+4-25	.	$.	.	_	O	O	
+
+#id=5
+#text=Sie werden gebeten sich darüber zu äußern, ob Herr Mau nicht geeignet sei, einen solchen Bericht für die Annali abzufassen und fortzusetzen gegen eine entsprechende Renumeration, über deren Höhe Sie einen Vorschlag machen würden.
+5-1	Sie	PPER	Sie	_	O	O	
+5-2	werden	VAFIN	werden	_	O	O	
+5-3	gebeten	VVPP	bitten	_	O	O	
+5-4	sich	PRF	sich	_	O	O	
+5-5	darüber	PAV	darüber	_	O	O	
+5-6	zu	PTKZU	zu	_	O	O	
+5-7	äußern	VVINF	äußern	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	ob	KOUS	ob	_	O	O	
+5-10	Herr	NN	Herr	_	O	O	
+5-11	Mau	NE	Mau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-12	nicht	PTKNEG	nicht	_	O	O	
+5-13	geeignet	ADJD	geeignet	_	O	O	
+5-14	sei	VAFIN	sein	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	einen	ART	eine	_	O	O	
+5-17	solchen	PIAT	solche	_	O	O	
+5-18	Bericht	NN	Bericht	_	O	O	
+5-19	für	APPR	für	_	O	O	
+5-20	die	ART	die	_	O	O	
+5-21	Annali	NE	<unknown>	_	O	O	
+5-22	abzufassen	VVIZU	abfassen	_	O	O	
+5-23	und	KON	und	_	O	O	
+5-24	fortzusetzen	VVIZU	fortsetzen	_	O	O	
+5-25	gegen	APPR	gegen	_	O	O	
+5-26	eine	ART	eine	_	O	O	
+5-27	entsprechende	ADJA	entsprechend	_	O	O	
+5-28	Renumeration	NN	<unknown>	_	O	O	
+5-29	,	$,	,	_	O	O	
+5-30	über	APPR	über	_	O	O	
+5-31	deren	PRELAT	die	_	O	O	
+5-32	Höhe	NN	Höhe	_	O	O	
+5-33	Sie	PPER	Sie	_	O	O	
+5-34	einen	ART	eine	_	O	O	
+5-35	Vorschlag	NN	Vorschlag	_	O	O	
+5-36	machen	VVINF	machen	_	O	O	
+5-37	würden	VAFIN	werden	_	O	O	
+5-38	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihr ergebenster R Lepsius Wir sind jetzt Alle aus den Ferien zurück, bis auf Curtius, der entweder schon bei Ihnen mit den Seinigen ist oder bald eintreffen muß.
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	ergebenster	ADJA	<unknown>	_	O	O	
+6-3	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	Wir	PPER	wir	_	O	O	
+6-6	sind	VAFIN	sein	_	O	O	
+6-7	jetzt	ADV	jetzt	_	O	O	
+6-8	Alle	PIS	alle	_	O	O	
+6-9	aus	APPR	aus	_	O	O	
+6-10	den	ART	die	_	O	O	
+6-11	Ferien	NN	Ferien	_	O	O	
+6-12	zurück	PTKVZ	zurück	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	bis	KOUS	bis	_	O	O	
+6-15	auf	APPR	auf	_	O	O	
+6-16	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-17	,	$,	,	_	O	O	
+6-18	der	PRELS	die	_	O	O	
+6-19	entweder	KON	entweder	_	O	O	
+6-20	schon	ADV	schon	_	O	O	
+6-21	bei	APPR	bei	_	O	O	
+6-22	Ihnen	PPER	Sie	_	O	O	
+6-23	mit	APPR	mit	_	O	O	
+6-24	den	ART	die	_	O	O	
+6-25	Seinigen	NN	<unknown>	_	O	O	
+6-26	ist	VAFIN	sein	_	O	O	
+6-27	oder	KON	oder	_	O	O	
+6-28	bald	ADV	bald	_	O	O	
+6-29	eintreffen	VVINF	eintreffen	_	O	O	
+6-30	muß	VMFIN	müssen	_	O	O	
+6-31	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich schreibe noch besonders an ihn.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	schreibe	VVFIN	schreiben	_	O	O	
+7-3	noch	ADV	noch	_	O	O	
+7-4	besonders	ADV	besonders	_	O	O	
+7-5	an	APPR	an	_	O	O	
+7-6	ihn	PPER	er	_	O	O	
+7-7	.	$.	.	_	O	O	
+

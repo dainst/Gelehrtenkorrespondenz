@@ -1,0 +1,245 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=266 A. d. Dir.
+1-1	266	CARD	@card@	_	O	O	
+1-2	A.	APPR	an	_	O	O	
+1-3	d.	ART	d.	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Dr. Braun Mein theurer Freund.
+2-1	Dr.	NN	Dr.	_	O	O	
+2-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-3	Mein	PPOSAT	mein	_	O	O	
+2-4	theurer	ADJA	<unknown>	_	O	O	
+2-5	Freund	NN	Freund	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Braun Berlin, 26. Juli 1845 g. 7/VIII 45 r. 7/VIII 45 Berlin 26 Juli 45 Ich hätte für diesen Brief gern den Mechanikus abgewartet, der aber Ihre 50 rt noch immer mir läßt.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	an	APPR	an	_	O	O	
+3-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-5	,	$,	,	_	O	O	
+3-6	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-10	g.	ADJA	<unknown>	_	O	O	
+3-11	7/VIII	NN	<unknown>	_	O	O	
+3-12	45	CARD	45	_	O	O	
+3-13	r.	VVFIN	<unknown>	_	O	O	
+3-14	7/VIII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-15	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-17	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-18	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-19	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-20	Ich	PPER	ich	_	O	O	
+3-21	hätte	VAFIN	haben	_	O	O	
+3-22	für	APPR	für	_	O	O	
+3-23	diesen	PDAT	dies	_	O	O	
+3-24	Brief	NN	Brief	_	O	O	
+3-25	gern	ADV	gern	_	O	O	
+3-26	den	ART	die	_	O	O	
+3-27	Mechanikus	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-28	abgewartet	VVPP	abwarten	_	O	O	
+3-29	,	$,	,	_	O	O	
+3-30	der	PRELS	die	_	O	O	
+3-31	aber	ADV	aber	_	O	O	
+3-32	Ihre	PPOSAT	ihr	_	O	O	
+3-33	50	CARD	50	_	O	O	
+3-34	rt	VVFIN	<unknown>	_	O	O	
+3-35	noch	ADV	noch	_	O	O	
+3-36	immer	ADV	immer	_	O	O	
+3-37	mir	PPER	ich	_	O	O	
+3-38	läßt	VVFIN	lassen	_	O	O	
+3-39	.	$.	.	_	O	O	
+
+#id=4
+#text=Meine Frau ist fortwährend in Elgersburg und sehr zufrieden damit, Ihnen und Piutti'n dankbar.
+4-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-3	ist	VAFIN	sein	_	O	O	
+4-4	fortwährend	ADJD	fortwährend	_	O	O	
+4-5	in	APPR	in	_	O	O	
+4-6	Elgersburg	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-7	und	KON	und	_	O	O	
+4-8	sehr	ADV	sehr	_	O	O	
+4-9	zufrieden	ADJD	zufrieden	_	O	O	
+4-10	damit	PAV	damit	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	Ihnen	PPER	Sie	_	O	O	
+4-13	und	KON	und	_	O	O	
+4-14	Piutti'n	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-15	dankbar	ADJD	dankbar	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Erst gegen Mitte August denken wir in Frankfurt zu sein und bis Ende des Monats dortzubleiben.
+5-1	Erst	ADV	erst	_	O	O	
+5-2	gegen	APPR	gegen	_	O	O	
+5-3	Mitte	NN	Mitte	_	O	O	
+5-4	August	NE	August	_	O	O	
+5-5	denken	VVFIN	denken	_	O	O	
+5-6	wir	PPER	wir	_	O	O	
+5-7	in	APPR	in	_	O	O	
+5-8	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-9	zu	PTKZU	zu	_	O	O	
+5-10	sein	VAINF	sein	_	O	O	
+5-11	und	KON	und	_	O	O	
+5-12	bis	APPR	bis	_	O	O	
+5-13	Ende	NN	Ende	_	O	O	
+5-14	des	ART	die	_	O	O	
+5-15	Monats	NN	Monat	_	O	O	
+5-16	dortzubleiben	VVFIN	<unknown>	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Mein Reisetermin bleibt der 9.te August.
+6-1	Mein	PPOSAT	mein	_	O	O	
+6-2	Reisetermin	NN	Reisetermin	_	O	O	
+6-3	bleibt	VVFIN	bleiben	_	O	O	
+6-4	der	ART	die	_	O	O	
+6-5	9.te	ADJA	<unknown>	_	O	O	
+6-6	August	NN	August	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=Roß den ich tagtäglich hier erwartete ist wegen Hämorrhoiden nach Kissingen und Eger gesandt.
+7-1	Roß	NN	Ross	_	O	O	
+7-2	den	ART	die	_	O	O	
+7-3	ich	PPER	ich	_	O	O	
+7-4	tagtäglich	ADJD	tagtäglich	_	O	O	
+7-5	hier	ADV	hier	_	O	O	
+7-6	erwartete	ADJA	erwartet	_	O	O	
+7-7	ist	VAFIN	sein	_	O	O	
+7-8	wegen	APPR	wegen	_	O	O	
+7-9	Hämorrhoiden	NN	Hämorrhoide	_	O	O	
+7-10	nach	APPR	nach	_	O	O	
+7-11	Kissingen	NE	Kissingen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-12	und	KON	und	_	O	O	
+7-13	Eger	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-14	gesandt	VVPP	senden	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=Panofka will nach England.
+8-1	Panofka	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	will	VMFIN	wollen	_	O	O	
+8-3	nach	APPR	nach	_	O	O	
+8-4	England	NE	England	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-5	.	$.	.	_	O	O	
+
+#id=9
+#text=Lanci'n meine Anerkennung seiner penna mordace.
+9-1	Lanci'n	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	meine	VVFIN	meinen	_	O	O	
+9-3	Anerkennung	NN	Anerkennung	_	O	O	
+9-4	seiner	PPOSAT	sein	_	O	O	
+9-5	penna	NE	<unknown>	_	O	O	
+9-6	mordace	NE	<unknown>	_	O	O	
+9-7	.	$.	.	_	O	O	
+
+#id=10
+#text=Falbe, ein unwissender und widerwärtiger Mensch, , beklagt sich daß Sie ihm die : lische Sammlung vertheuert haben, für die er nicht über8000 Scudi geben will.
+10-1	Falbe	NN	Falbe	_	O	O	
+10-2	,	$,	,	_	O	O	
+10-3	ein	ART	eine	_	O	O	
+10-4	unwissender	ADJA	unwissend	_	O	O	
+10-5	und	KON	und	_	O	O	
+10-6	widerwärtiger	ADJA	widerwärtig	_	O	O	
+10-7	Mensch	NN	Mensch	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	,	$,	,	_	O	O	
+10-10	beklagt	VVFIN	beklagen	_	O	O	
+10-11	sich	PRF	sich	_	O	O	
+10-12	daß	KOUS	dass	_	O	O	
+10-13	Sie	PPER	Sie	_	O	O	
+10-14	ihm	PPER	er	_	O	O	
+10-15	die	PDS	die	_	O	O	
+10-16	:	$.	:	_	O	O	
+10-17	lische	ADJA	<unknown>	_	O	O	
+10-18	Sammlung	NN	Sammlung	_	O	O	
+10-19	vertheuert	VVPP	<unknown>	_	O	O	
+10-20	haben	VAFIN	haben	_	O	O	
+10-21	,	$,	,	_	O	O	
+10-22	für	APPR	für	_	O	O	
+10-23	die	PRELS	die	_	O	O	
+10-24	er	PPER	er	_	O	O	
+10-25	nicht	PTKNEG	nicht	_	O	O	
+10-26	über8000	CARD	<unknown>	_	O	O	
+10-27	Scudi	NN	<unknown>	_	O	O	
+10-28	geben	VVINF	geben	_	O	O	
+10-29	will	VMFIN	wollen	_	O	O	
+10-30	.	$.	.	_	O	O	
+
+#id=11
+#text=Sonst spricht er von Aufträgen die er dem Dr. Ussing gebe und mir mit anempfehle, falls ich nach Rom käme; er spricht von Annalensufsätzen desselben, bei denen Sie, wie selbst bei Mommsen, wol im Auge haben werden, daß die junge deutsche Philologie sich nicht allzu breit und übermüthig mache.
+11-1	Sonst	ADV	sonst	_	O	O	
+11-2	spricht	VVFIN	sprechen	_	O	O	
+11-3	er	PPER	er	_	O	O	
+11-4	von	APPR	von	_	O	O	
+11-5	Aufträgen	NN	Auftrag	_	O	O	
+11-6	die	PRELS	die	_	O	O	
+11-7	er	PPER	er	_	O	O	
+11-8	dem	ART	die	_	O	O	
+11-9	Dr.	NN	Dr.	_	O	O	
+11-10	Ussing	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-11	gebe	VVFIN	geben	_	O	O	
+11-12	und	KON	und	_	O	O	
+11-13	mir	PPER	ich	_	O	O	
+11-14	mit	PTKVZ	mit	_	O	O	
+11-15	anempfehle	VVFIN	<unknown>	_	O	O	
+11-16	,	$,	,	_	O	O	
+11-17	falls	KOUS	falls	_	O	O	
+11-18	ich	PPER	ich	_	O	O	
+11-19	nach	APPR	nach	_	O	O	
+11-20	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-21	käme	VVFIN	kommen	_	O	O	
+11-22	;	$.	;	_	O	O	
+11-23	er	PPER	er	_	O	O	
+11-24	spricht	VVFIN	sprechen	_	O	O	
+11-25	von	APPR	von	_	O	O	
+11-26	Annalensufsätzen	NN	<unknown>	_	O	O	
+11-27	desselben	PDS	derselbe	_	O	O	
+11-28	,	$,	,	_	O	O	
+11-29	bei	APPR	bei	_	O	O	
+11-30	denen	PRELS	die	_	O	O	
+11-31	Sie	PPER	Sie	_	O	O	
+11-32	,	$,	,	_	O	O	
+11-33	wie	KOUS	wie	_	O	O	
+11-34	selbst	ADV	selbst	_	O	O	
+11-35	bei	APPR	bei	_	O	O	
+11-36	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-37	,	$,	,	_	O	O	
+11-38	wol	ADJD	<unknown>	_	O	O	
+11-39	im	APPRART	in	_	O	O	
+11-40	Auge	NN	Auge	_	O	O	
+11-41	haben	VAINF	haben	_	O	O	
+11-42	werden	VAFIN	werden	_	O	O	
+11-43	,	$,	,	_	O	O	
+11-44	daß	KOUS	dass	_	O	O	
+11-45	die	ART	die	_	O	O	
+11-46	junge	ADJA	jung	_	O	O	
+11-47	deutsche	ADJA	deutsch	_	O	O	
+11-48	Philologie	NN	Philologie	_	O	O	
+11-49	sich	PRF	sich	_	O	O	
+11-50	nicht	PTKNEG	nicht	_	O	O	
+11-51	allzu	PTKA	allzu	_	O	O	
+11-52	breit	ADJD	breit	_	O	O	
+11-53	und	KON	und	_	O	O	
+11-54	übermüthig	ADJD	<unknown>	_	O	O	
+11-55	mache	VVFIN	machen	_	O	O	
+11-56	.	$.	.	_	O	O	
+
+#id=12
+#text=Thomsen denkt auch nach Italien.
+12-1	Thomsen	NE	Thomsen	_	O	O	
+12-2	denkt	VVFIN	denken	_	O	O	
+12-3	auch	ADV	auch	_	O	O	
+12-4	nach	APPR	nach	_	O	O	
+12-5	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-6	.	$.	.	_	O	O	
+

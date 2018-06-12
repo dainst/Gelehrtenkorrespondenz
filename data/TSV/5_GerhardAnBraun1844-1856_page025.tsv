@@ -1,0 +1,129 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=) 79 4 Gerhard an Braun Berlin, 30. Januar 1844 Wird denn der alberne Junge Cades für alle Ihre Dienste endlich etwas Gutes thun ?
+1-1	)	$(	)	_	O	O	
+1-2	79	CARD	@card@	_	O	O	
+1-3	4	CARD	4	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Wird	VAFIN	werden	_	O	O	
+1-14	denn	ADV	denn	_	O	O	
+1-15	der	ART	die	_	O	O	
+1-16	alberne	ADJA	albern	_	O	O	
+1-17	Junge	ADJA	jung	_	O	O	
+1-18	Cades	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-19	für	APPR	für	_	O	O	
+1-20	alle	PIAT	alle	_	O	O	
+1-21	Ihre	PPOSAT	ihr	_	O	O	
+1-22	Dienste	NN	Dienst	_	O	O	
+1-23	endlich	ADV	endlich	_	O	O	
+1-24	etwas	PIAT	etwas	_	O	O	
+1-25	Gutes	ADJA	gut	_	O	O	
+1-26	thun	NN	<unknown>	_	O	O	
+1-27	?	$.	?	_	O	O	
+
+#id=3
+#text=Wird das Institut denn nicht endlich einmal Prinz Augusts Schuld liquidiren ?
+3-1	Wird	VAFIN	werden	_	O	O	
+3-2	das	ART	die	_	O	O	
+3-3	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-4	denn	ADV	denn	_	O	O	
+3-5	nicht	PTKNEG	nicht	_	O	O	
+3-6	endlich	ADV	endlich	_	O	O	
+3-7	einmal	ADV	einmal	_	O	O	
+3-8	Prinz	NE	Prinz	_	O	O	
+3-9	Augusts	NE	August	_	O	O	
+3-10	Schuld	NN	Schuld	_	O	O	
+3-11	liquidiren	NN	<unknown>	_	O	O	
+3-12	?	$.	?	_	O	O	
+
+#id=4
+#text=Soll Lanci für den Verlust dieses Postens einstehen?
+4-1	Soll	VMFIN	sollen	_	O	O	
+4-2	Lanci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	für	APPR	für	_	O	O	
+4-4	den	ART	die	_	O	O	
+4-5	Verlust	NN	Verlust	_	O	O	
+4-6	dieses	PDAT	dies	_	O	O	
+4-7	Postens	NN	Posten	_	O	O	
+4-8	einstehen	VVINF	einstehen	_	O	O	
+4-9	?	$.	?	_	O	O	
+
+#id=5
+#text=So weit ich begreifen kann, schuldet er wenigstens von 1837 bis incl.
+5-1	So	ADV	so	_	O	O	
+5-2	weit	ADJD	weit	_	O	O	
+5-3	ich	PPER	ich	_	O	O	
+5-4	begreifen	VVINF	begreifen	_	O	O	
+5-5	kann	VMFIN	können	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	schuldet	VVFIN	schulden	_	O	O	
+5-8	er	PPER	er	_	O	O	
+5-9	wenigstens	ADV	wenigstens	_	O	O	
+5-10	von	APPR	von	_	O	O	
+5-11	1837	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-12	bis	APPR	bis	_	O	O	
+5-13	incl.	APPR	incl.	_	O	O	
+
+#id=6
+#text=1842; macht 6 X 14 = 84 rt.
+6-1	1842	CARD	1842	_	O	O	
+6-2	;	$.	;	_	O	O	
+6-3	macht	VVFIN	machen	_	O	O	
+6-4	6	CARD	6	_	O	O	
+6-5	X	NN	X	_	O	O	
+6-6	14	CARD	14	_	O	O	
+6-7	=	$(	=	_	O	O	
+6-8	84	CARD	84	_	O	O	
+6-9	rt	VVFIN	<unknown>	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Welcker hat eine hübsche Distichensammlung im Rheinischen Museum herausgegeben.
+7-1	Welcker	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	hat	VAFIN	haben	_	O	O	
+7-3	eine	ART	eine	_	O	O	
+7-4	hübsche	ADJA	hübsch	_	O	O	
+7-5	Distichensammlung	NN	<unknown>	_	O	O	
+7-6	im	APPRART	in	_	O	O	
+7-7	Rheinischen	ADJA	rheinisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-8	Museum	NN	Museum	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+7-9	herausgegeben	VVPP	herausgeben	_	O	O	
+7-10	.	$.	.	_	O	O	
+
+#id=8
+#text=Alle guten Freunde - Henzen, Preller, Horkel, Blessig u.s.w.
+8-1	Alle	PIAT	alle	_	O	O	
+8-2	guten	ADJA	gut	_	O	O	
+8-3	Freunde	NN	Freund	_	O	O	
+8-4	-	$(	-	_	O	O	
+8-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	,	$,	,	_	O	O	
+8-7	Preller	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-8	,	$,	,	_	O	O	
+8-9	Horkel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-10	,	$,	,	_	O	O	
+8-11	Blessig	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-12	u.s.w.	ADJA	<unknown>	_	O	O	
+
+#id=9
+#text=- bestens zu grüßen.
+9-1	-	$(	-	_	O	O	
+9-2	bestens	ADV	bestens	_	O	O	
+9-3	zu	PTKZU	zu	_	O	O	
+9-4	grüßen	VVINF	grüßen	_	O	O	
+9-5	.	$.	.	_	O	O	
+
+#id=10
+#text=Herzlichst Ihr Gerhard
+10-1	Herzlichst	ADJD	herzlich	_	O	O	
+10-2	Ihr	PPOSAT	ihr	_	O	O	
+10-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

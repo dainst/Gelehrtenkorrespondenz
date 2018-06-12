@@ -1,0 +1,211 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=D. d. Dir.
+1-1	D.	PDS	d.	_	O	O	
+1-2	d.	ART	d.	_	O	O	
+1-3	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Lieber Freund Gerhard an Braun Wildbad, 11. September 1844 g. 23/IX 44 r. 23/IX 44 Wildbad 11 Sept 44 Seit dem 1 d. M. hier habe ich Ihren hierher erbetenen Briefen vergebens entgegen gesehen; auch von Frankfurt ist nichts eingelaufen.
+2-1	Lieber	ADJD	lieb	_	O	O	
+2-2	Freund	NE	Freund	_	O	O	
+2-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	an	APPR	an	_	O	O	
+2-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-6	Wildbad	NN	Wildbad	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	g.	ADJA	<unknown>	_	O	O	
+2-13	23/IX	ADJA	<unknown>	_	O	O	
+2-14	44	CARD	44	_	O	O	
+2-15	r.	ADJA	<unknown>	_	O	O	
+2-16	23/IX	ADJA	<unknown>	_	O	O	
+2-17	44	CARD	44	_	O	O	
+2-18	Wildbad	NN	Wildbad	_	O	O	
+2-19	11	CARD	11	_	O	O	
+2-20	Sept	NN	<unknown>	_	O	O	
+2-21	44	CARD	44	_	O	O	
+2-22	Seit	APPR	seit	_	O	O	
+2-23	dem	ART	die	_	O	O	
+2-24	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-25	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-26	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-27	hier	ADV	hier	_	O	O	
+2-28	habe	VAFIN	haben	_	O	O	
+2-29	ich	PPER	ich	_	O	O	
+2-30	Ihren	PPOSAT	ihr	_	O	O	
+2-31	hierher	ADV	hierher	_	O	O	
+2-32	erbetenen	ADJA	erbeten	_	O	O	
+2-33	Briefen	NN	Brief	_	O	O	
+2-34	vergebens	ADV	vergebens	_	O	O	
+2-35	entgegen	PTKVZ	entgegen	_	O	O	
+2-36	gesehen	VVPP	sehen	_	O	O	
+2-37	;	$.	;	_	O	O	
+2-38	auch	ADV	auch	_	O	O	
+2-39	von	APPR	von	_	O	O	
+2-40	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-41	ist	VAFIN	sein	_	O	O	
+2-42	nichts	PIS	nichts	_	O	O	
+2-43	eingelaufen	VVPP	einlaufen	_	O	O	
+2-44	.	$.	.	_	O	O	
+
+#id=3
+#text=Die hiesigen Bäder haben mir erst Kopfweh gemacht, dann ohne sichtliche Wirkung mich gleichgültig gelassen.
+3-1	Die	ART	die	_	O	O	
+3-2	hiesigen	ADJA	hiesig	_	O	O	
+3-3	Bäder	NN	Bad	_	O	O	
+3-4	haben	VAFIN	haben	_	O	O	
+3-5	mir	PPER	ich	_	O	O	
+3-6	erst	ADV	erst	_	O	O	
+3-7	Kopfweh	NN	Kopfweh	_	O	O	
+3-8	gemacht	VVPP	machen	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	dann	ADV	dann	_	O	O	
+3-11	ohne	APPR	ohne	_	O	O	
+3-12	sichtliche	ADJA	sichtlich	_	O	O	
+3-13	Wirkung	NN	Wirkung	_	O	O	
+3-14	mich	PRF	ich	_	O	O	
+3-15	gleichgültig	ADJD	gleichgültig	_	O	O	
+3-16	gelassen	VVPP	lassen	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Am 14 früh werde ich ihrer ein Dutzend genommen haben und dann abreisen um noch bis zum 22 in Frankfurt zu verweilen; dann über Kassel und Dresden nach Haus.
+4-1	Am	APPRART	an	_	O	O	
+4-2	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-3	früh	ADJD	früh	_	O	O	
+4-4	werde	VAFIN	werden	_	O	O	
+4-5	ich	PPER	ich	_	O	O	
+4-6	ihrer	PPOSAT	ihr	_	O	O	
+4-7	ein	ART	eine	_	O	O	
+4-8	Dutzend	NN	Dutzend	_	O	O	
+4-9	genommen	VVPP	nehmen	_	O	O	
+4-10	haben	VAFIN	haben	_	O	O	
+4-11	und	KON	und	_	O	O	
+4-12	dann	ADV	dann	_	O	O	
+4-13	abreisen	VVFIN	abreisen	_	O	O	
+4-14	um	APPR	um	_	O	O	
+4-15	noch	ADV	noch	_	O	O	
+4-16	bis	APPR	bis	_	O	O	
+4-17	zum	APPRART	zu	_	O	O	
+4-18	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-19	in	APPR	in	_	O	O	
+4-20	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-21	zu	PTKZU	zu	_	O	O	
+4-22	verweilen	VVINF	verweilen	_	O	O	
+4-23	;	$.	;	_	O	O	
+4-24	dann	ADV	dann	_	O	O	
+4-25	über	APPR	über	_	O	O	
+4-26	Kassel	NE	Kassel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-27	und	KON	und	_	O	O	
+4-28	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-29	nach	APPR	nach	_	O	O	
+4-30	Haus	NN	Haus	_	O	O	
+4-31	.	$.	.	_	O	O	
+
+#id=5
+#text=Lassen Sie mich, wenn nicht früher, in Halle bei Prof. Meier einen Brief finden, Xanthische Aktenstücke wenn deren erschienen sind nicht ausgeschlossen.
+5-1	Lassen	VVFIN	lassen	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	mich	PRF	ich	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	wenn	KOUS	wenn	_	O	O	
+5-6	nicht	PTKNEG	nicht	_	O	O	
+5-7	früher	ADJD	früh	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	in	APPR	in	_	O	O	
+5-10	Halle	NN	Halle	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-11	bei	APPR	bei	_	O	O	
+5-12	Prof.	NN	Prof.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-13	Meier	NE	Meier	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-14	einen	ART	eine	_	O	O	
+5-15	Brief	NN	Brief	_	O	O	
+5-16	finden	VVFIN	finden	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	Xanthische	NN	<unknown>	_	O	O	
+5-19	Aktenstücke	NN	Aktenstück	_	O	O	
+5-20	wenn	KOUS	wenn	_	O	O	
+5-21	deren	PDS	die	_	O	O	
+5-22	erschienen	VVFIN	erscheinen	_	O	O	
+5-23	sind	VAFIN	sein	_	O	O	
+5-24	nicht	PTKNEG	nicht	_	O	O	
+5-25	ausgeschlossen	VVPP	ausschließen	_	O	O	
+5-26	.	$.	.	_	O	O	
+
+#id=6
+#text=Meinen neulichen Brief aus Frankfurt werden Sie erhalten haben.
+6-1	Meinen	PPOSAT	mein	_	O	O	
+6-2	neulichen	ADJA	<unknown>	_	O	O	
+6-3	Brief	NN	Brief	_	O	O	
+6-4	aus	APPR	aus	_	O	O	
+6-5	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-6	werden	VAFIN	werden	_	O	O	
+6-7	Sie	PPER	Sie	_	O	O	
+6-8	erhalten	VVPP	erhalten	_	O	O	
+6-9	haben	VAINF	haben	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Mit London haben Sie ohne Zweifel auch jetzt von Paris aus viel Geschäftsverkehr; wollen Sie mir einen Abguß des Minerva-Herkules-spiegels (in Relief) bestellen, den mir vielleicht noch Welcker hinüberbrächte?
+7-1	Mit	APPR	mit	_	O	O	
+7-2	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-3	haben	VAFIN	haben	_	O	O	
+7-4	Sie	PPER	Sie	_	O	O	
+7-5	ohne	APPR	ohne	_	O	O	
+7-6	Zweifel	NN	Zweifel	_	O	O	
+7-7	auch	ADV	auch	_	O	O	
+7-8	jetzt	ADV	jetzt	_	O	O	
+7-9	von	APPR	von	_	O	O	
+7-10	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-11	aus	APPR	aus	_	O	O	
+7-12	viel	PIAT	viele	_	O	O	
+7-13	Geschäftsverkehr	NN	Geschäftsverkehr	_	O	O	
+7-14	;	$.	;	_	O	O	
+7-15	wollen	VMFIN	wollen	_	O	O	
+7-16	Sie	PPER	Sie	_	O	O	
+7-17	mir	PRF	ich	_	O	O	
+7-18	einen	ART	eine	_	O	O	
+7-19	Abguß	NN	Abguß	_	O	O	
+7-20	des	ART	die	_	O	O	
+7-21	Minerva-Herkules-spiegels	NN	<unknown>	_	O	O	
+7-22	(	$(	(	_	O	O	
+7-23	in	APPR	in	_	O	O	
+7-24	Relief	NN	Relief	_	O	O	
+7-25	)	$(	)	_	O	O	
+7-26	bestellen	VVINF	bestellen	_	O	O	
+7-27	,	$,	,	_	O	O	
+7-28	den	PRELS	die	_	O	O	
+7-29	mir	PPER	ich	_	O	O	
+7-30	vielleicht	ADV	vielleicht	_	O	O	
+7-31	noch	ADV	noch	_	O	O	
+7-32	Welcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-33	hinüberbrächte	VVFIN	<unknown>	_	O	O	
+7-34	?	$.	?	_	O	O	
+
+#id=8
+#text=Vielleicht ließe die berüchtigte Inschrift für das Winckelmannprogramm sich benutzen, für das ich noch immer eines zugleich bedeutenden und gefäl-
+8-1	Vielleicht	ADV	vielleicht	_	O	O	
+8-2	ließe	VVFIN	lassen	_	O	O	
+8-3	die	ART	die	_	O	O	
+8-4	berüchtigte	ADJA	berüchtigt	_	O	O	
+8-5	Inschrift	NN	Inschrift	_	O	O	
+8-6	für	APPR	für	_	O	O	
+8-7	das	ART	die	_	O	O	
+8-8	Winckelmannprogramm	NN	<unknown>	_	O	O	
+8-9	sich	PRF	sich	_	O	O	
+8-10	benutzen	VVINF	benutzen	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	für	APPR	für	_	O	O	
+8-13	das	PRELS	die	_	O	O	
+8-14	ich	PPER	ich	_	O	O	
+8-15	noch	ADV	noch	_	O	O	
+8-16	immer	ADV	immer	_	O	O	
+8-17	eines	ART	eine	_	O	O	
+8-18	zugleich	ADV	zugleich	_	O	O	
+8-19	bedeutenden	ADJA	bedeutend	_	O	O	
+8-20	und	KON	und	_	O	O	
+8-21	gefäl-	ADJA	<unknown>	_	O	O	
+

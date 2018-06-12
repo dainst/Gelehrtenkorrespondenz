@@ -1,0 +1,106 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=6 9/VI/55 3 Henzen an Gerhard Meine Frau war in den ersten Tagen der Woche sehr angegriffen, hat sich indeß jetzt erholt.
+1-1	6	CARD	6	_	O	O	
+1-2	9/VI/55	CARD	<unknown>	_	O	O	
+1-3	3	CARD	3	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Meine	PPOSAT	mein	_	O	O	
+1-8	Frau	NN	Frau	_	O	O	
+1-9	war	VAFIN	sein	_	O	O	
+1-10	in	APPR	in	_	O	O	
+1-11	den	ART	die	_	O	O	
+1-12	ersten	ADJA	erst	_	O	O	
+1-13	Tagen	NN	Tag	_	O	O	
+1-14	der	ART	die	_	O	O	
+1-15	Woche	NN	Woche	_	O	O	
+1-16	sehr	ADV	sehr	_	O	O	
+1-17	angegriffen	VVPP	angreifen	_	O	O	
+1-18	,	$,	,	_	O	O	
+1-19	hat	VAFIN	haben	_	O	O	
+1-20	sich	PRF	sich	_	O	O	
+1-21	indeß	NN	<unknown>	_	O	O	
+1-22	jetzt	ADV	jetzt	_	O	O	
+1-23	erholt	VVPP	erholen	_	O	O	
+1-24	.	$.	.	_	O	O	
+
+#id=2
+#text=Herzliche Grüße auch von ihr an Sie u. die Ihrige.
+2-1	Herzliche	ADJA	herzlich	_	O	O	
+2-2	Grüße	NN	Gruß	_	O	O	
+2-3	auch	ADV	auch	_	O	O	
+2-4	von	APPR	von	_	O	O	
+2-5	ihr	PPOSAT	ihr	_	O	O	
+2-6	an	APPR	an	_	O	O	
+2-7	Sie	PPER	Sie	_	O	O	
+2-8	u.	APPR	um	_	O	O	
+2-9	die	ART	die	_	O	O	
+2-10	Ihrige	PPOSAT	ihrige	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihr WHenzen Breslau 9/VI 55.
+3-1	Ihr	PPOSAT	ihr	_	O	O	
+3-2	WHenzen	NN	<unknown>	_	O	O	
+3-3	Breslau	NE	Breslau	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-4	9/VI	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-5	55	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-6	.	$.	.	_	O	O	
+
+#id=4
+#text=P.S. So eben Ihr gestriger Brief.
+4-1	P.S.	NE	P.S.	_	O	O	
+4-2	So	ADV	so	_	O	O	
+4-3	eben	ADV	eben	_	O	O	
+4-4	Ihr	PPOSAT	ihr	_	O	O	
+4-5	gestriger	ADJA	gestrig	_	O	O	
+4-6	Brief	NN	Brief	_	O	O	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=Sie sind sehr freundlich in Ihren guten Absichten für meine Frau; die Hotels werden wir uns merken.
+5-1	Sie	PPER	Sie	_	O	O	
+5-2	sind	VAFIN	sein	_	O	O	
+5-3	sehr	ADV	sehr	_	O	O	
+5-4	freundlich	ADJD	freundlich	_	O	O	
+5-5	in	APPR	in	_	O	O	
+5-6	Ihren	PPOSAT	ihr	_	O	O	
+5-7	guten	ADJA	gut	_	O	O	
+5-8	Absichten	NN	Absicht	_	O	O	
+5-9	für	APPR	für	_	O	O	
+5-10	meine	PPOSAT	mein	_	O	O	
+5-11	Frau	NN	Frau	_	O	O	
+5-12	;	$.	;	_	O	O	
+5-13	die	ART	die	_	O	O	
+5-14	Hotels	NN	Hotel	_	O	O	
+5-15	werden	VAFIN	werden	_	O	O	
+5-16	wir	PPER	wir	_	O	O	
+5-17	uns	PRF	wir	_	O	O	
+5-18	merken	VVINF	merken	_	O	O	
+5-19	.	$.	.	_	O	O	
+
+#id=6
+#text=- Von jener Ungarischen Thonschrift weiß ich noch Nichts.
+6-1	-	$(	-	_	O	O	
+6-2	Von	APPR	von	_	O	O	
+6-3	jener	PDAT	jen	_	O	O	
+6-4	Ungarischen	ADJA	ungarisch	_	O	O	
+6-5	Thonschrift	NN	<unknown>	_	O	O	
+6-6	weiß	VVFIN	wissen	_	O	O	
+6-7	ich	PPER	ich	_	O	O	
+6-8	noch	ADV	noch	_	O	O	
+6-9	Nichts	PIS	nichts	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=- Mommsen weiß vielleicht Etwas beizufügen.
+7-1	-	$(	-	_	O	O	
+7-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-3	weiß	VVFIN	wissen	_	O	O	
+7-4	vielleicht	ADV	vielleicht	_	O	O	
+7-5	Etwas	NN	Etwas	_	O	O	
+7-6	beizufügen	VVIZU	beifügen	_	O	O	
+7-7	.	$.	.	_	O	O	
+

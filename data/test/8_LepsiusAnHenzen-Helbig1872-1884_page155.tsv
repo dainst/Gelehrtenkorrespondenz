@@ -1,0 +1,172 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Richard Lepsius an Wolfgang Helbig Berlin, 18. April 1874 drittels Preisen läßt.
+1-1	2	CARD	2	_	O	O	
+1-2	Richard	NE	Richard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Helbig	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	drittels	NN	Drittel	_	O	O	
+1-14	Preisen	NN	Preis|Preisen	_	O	O	
+1-15	läßt	VVFIN	lassen	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich möchte nun bei Ihnen anfragen ob Sie einmal einen Gang daran wagen wollen in das von Espagne näher bezeichnete Thurmzimmer mit dem Padre Domenico zu steigen.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	möchte	VMFIN	mögen	_	O	O	
+2-3	nun	ADV	nun	_	O	O	
+2-4	bei	APPR	bei	_	O	O	
+2-5	Ihnen	PPER	Sie	_	O	O	
+2-6	anfragen	VVFIN	anfragen	_	O	O	
+2-7	ob	KOUS	ob	_	O	O	
+2-8	Sie	PPER	Sie	_	O	O	
+2-9	einmal	ADV	einmal	_	O	O	
+2-10	einen	ART	eine	_	O	O	
+2-11	Gang	NN	Gang	_	O	O	
+2-12	daran	PAV	daran	_	O	O	
+2-13	wagen	VVINF	wagen	_	O	O	
+2-14	wollen	VMFIN	wollen	_	O	O	
+2-15	in	APPR	in	_	O	O	
+2-16	das	ART	die	_	O	O	
+2-17	von	APPR	von	_	O	O	
+2-18	Espagne	NN	<unknown>	_	O	O	
+2-19	näher	ADJD	nah	_	O	O	
+2-20	bezeichnete	ADJA	bezeichnet	_	O	O	
+2-21	Thurmzimmer	NN	<unknown>	_	O	O	
+2-22	mit	APPR	mit	_	O	O	
+2-23	dem	ART	die	_	O	O	
+2-24	Padre	NN	<unknown>	_	O	O	
+2-25	Domenico	NE	Domenico	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-26	zu	PTKZU	zu	_	O	O	
+2-27	steigen	VVINF	steigen	_	O	O	
+2-28	.	$.	.	_	O	O	
+
+#id=3
+#text=Vielleicht wenn Sie gleich ein gute Stück Geld in die Hand nelmen, schlägt er den Trödel los, für den ich indessen nicht über 800 g im äußersten Falle 1000 g gehen möchte.
+3-1	Vielleicht	ADV	vielleicht	_	O	O	
+3-2	wenn	KOUS	wenn	_	O	O	
+3-3	Sie	PPER	Sie	_	O	O	
+3-4	gleich	APPR	gleich	_	O	O	
+3-5	ein	ART	eine	_	O	O	
+3-6	gute	ADJA	gut	_	O	O	
+3-7	Stück	NN	Stück	_	O	O	
+3-8	Geld	NN	Geld	_	O	O	
+3-9	in	APPR	in	_	O	O	
+3-10	die	ART	die	_	O	O	
+3-11	Hand	NN	Hand	_	O	O	
+3-12	nelmen	NN	<unknown>	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	schlägt	VVFIN	schlagen	_	O	O	
+3-15	er	PPER	er	_	O	O	
+3-16	den	ART	die	_	O	O	
+3-17	Trödel	NN	Trödel	_	O	O	
+3-18	los	PTKVZ	los	_	O	O	
+3-19	,	$,	,	_	O	O	
+3-20	für	APPR	für	_	O	O	
+3-21	den	PRELS	die	_	O	O	
+3-22	ich	PPER	ich	_	O	O	
+3-23	indessen	ADV	indessen	_	O	O	
+3-24	nicht	PTKNEG	nicht	_	O	O	
+3-25	über	APPR	über	_	O	O	
+3-26	800	CARD	800	_	O	O	
+3-27	g	NN	g	_	O	O	
+3-28	im	APPRART	in	_	O	O	
+3-29	äußersten	ADJA	äußer	_	O	O	
+3-30	Falle	NN	Falle	_	O	O	
+3-31	1000	CARD	1000	_	O	O	
+3-32	g	NN	g	_	O	O	
+3-33	gehen	VVINF	gehen	_	O	O	
+3-34	möchte	VMFIN	mögen	_	O	O	
+3-35	.	$.	.	_	O	O	
+
+#id=4
+#text=Oder vielleicht kennen Sie eine richtige Mittelsperson die für einen goldenen Händedruck die Sache vermittelte, da Spitthöver jedenfalls sehr viel aufschlagen würde.
+4-1	Oder	KON	oder	_	O	O	
+4-2	vielleicht	ADV	vielleicht	_	O	O	
+4-3	kennen	VVFIN	kennen	_	O	O	
+4-4	Sie	PPER	Sie	_	O	O	
+4-5	eine	ART	eine	_	O	O	
+4-6	richtige	ADJA	richtig	_	O	O	
+4-7	Mittelsperson	NN	<unknown>	_	O	O	
+4-8	die	ART	die	_	O	O	
+4-9	für	APPR	für	_	O	O	
+4-10	einen	ART	eine	_	O	O	
+4-11	goldenen	ADJA	golden	_	O	O	
+4-12	Händedruck	NN	Händedruck	_	O	O	
+4-13	die	ART	die	_	O	O	
+4-14	Sache	NN	Sache	_	O	O	
+4-15	vermittelte	VVFIN	vermitteln	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	da	KOUS	da	_	O	O	
+4-18	Spitthöver	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-19	jedenfalls	ADV	jedenfalls	_	O	O	
+4-20	sehr	ADV	sehr	_	O	O	
+4-21	viel	PIS	viele	_	O	O	
+4-22	aufschlagen	VVINF	aufschlagen	_	O	O	
+4-23	würde	VAFIN	werden	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=Nun es ist eben eine Anfrage für die Tharros Reise war die letzte Sitzung zu kurz; können Sie sie noch etwas näher motiviren.
+5-1	Nun	ADV	nun	_	O	O	
+5-2	es	PPER	es	_	O	O	
+5-3	ist	VAFIN	sein	_	O	O	
+5-4	eben	ADV	eben	_	O	O	
+5-5	eine	ART	eine	_	O	O	
+5-6	Anfrage	NN	Anfrage	_	O	O	
+5-7	für	APPR	für	_	O	O	
+5-8	die	ART	die	_	O	O	
+5-9	Tharros	NE	<unknown>	_	O	O	
+5-10	Reise	NN	Reise	_	O	O	
+5-11	war	VAFIN	sein	_	O	O	
+5-12	die	ART	die	_	O	O	
+5-13	letzte	ADJA	letzt	_	O	O	
+5-14	Sitzung	NN	Sitzung	_	O	O	
+5-15	zu	PTKA	zu	_	O	O	
+5-16	kurz	ADJD	kurz	_	O	O	
+5-17	;	$.	;	_	O	O	
+5-18	können	VMFIN	können	_	O	O	
+5-19	Sie	PPER	Sie	_	O	O	
+5-20	sie	PPER	sie	_	O	O	
+5-21	noch	ADV	noch	_	O	O	
+5-22	etwas	ADV	etwas	_	O	O	
+5-23	näher	ADJD	nah	_	O	O	
+5-24	motiviren	NN	<unknown>	_	O	O	
+5-25	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Zeichnungen des von uns gekauften Halsbandes sende ich Ihnen mit einigen Korrekturen zurück.
+6-1	Die	ART	die	_	O	O	
+6-2	Zeichnungen	NN	Zeichnung	_	O	O	
+6-3	des	ART	die	_	O	O	
+6-4	von	APPR	von	_	O	O	
+6-5	uns	PPER	wir	_	O	O	
+6-6	gekauften	ADJA	gekauft	_	O	O	
+6-7	Halsbandes	NN	<unknown>	_	O	O	
+6-8	sende	VVFIN	senden	_	O	O	
+6-9	ich	PPER	ich	_	O	O	
+6-10	Ihnen	PPER	Sie	_	O	O	
+6-11	mit	APPR	mit	_	O	O	
+6-12	einigen	PIAT	einige	_	O	O	
+6-13	Korrekturen	NN	Korrektur	_	O	O	
+6-14	zurück	PTKVZ	zurück	_	O	O	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=Mit herzlichem Gruß Ihr ergebenster R Lepsius
+7-1	Mit	APPR	mit	_	O	O	
+7-2	herzlichem	ADJA	herzlich	_	O	O	
+7-3	Gruß	NN	Gruß	_	O	O	
+7-4	Ihr	PPOSAT	ihr	_	O	O	
+7-5	ergebenster	ADJA	<unknown>	_	O	O	
+7-6	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+7-7	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

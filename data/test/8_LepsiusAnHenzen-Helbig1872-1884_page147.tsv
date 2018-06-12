@@ -1,0 +1,57 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Richard Lepsius an Wolfgang Helbig Berlin, 2. April 1874 bis Juni in ••• (unleserlich) bleiben und dann nach Paris oder London wandern sollen.
+1-1	2	CARD	2	_	O	O	
+1-2	Richard	NE	Richard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Helbig	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	bis	APPR	bis	_	O	O	
+1-14	Juni	NN	Juni	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-15	in	APPR	in	_	O	O	
+1-16	•	ADJA	<unknown>	_	O	O	
+1-17	•	ADJA	<unknown>	_	O	O	
+1-18	•	NN	<unknown>	_	O	O	
+1-19	(	$(	(	_	O	O	
+1-20	unleserlich	ADJD	unleserlich	_	O	O	
+1-21	)	$(	)	_	O	O	
+1-22	bleiben	VVINF	bleiben	_	O	O	
+1-23	und	KON	und	_	O	O	
+1-24	dann	ADV	dann	_	O	O	
+1-25	nach	APPR	nach	_	O	O	
+1-26	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-27	oder	KON	oder	_	O	O	
+1-28	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-29	wandern	VVINF	wandern	_	O	O	
+1-30	sollen	VMFIN	sollen	_	O	O	
+1-31	.	$.	.	_	O	O	
+
+#id=2
+#text=Sie sind also wohl schon verkauft oder haben noch keinen Preis ?
+2-1	Sie	PPER	Sie	_	O	O	
+2-2	sind	VAFIN	sein	_	O	O	
+2-3	also	ADV	also	_	O	O	
+2-4	wohl	ADV	wohl	_	O	O	
+2-5	schon	ADV	schon	_	O	O	
+2-6	verkauft	VVPP	verkaufen	_	O	O	
+2-7	oder	KON	oder	_	O	O	
+2-8	haben	VAFIN	haben	_	O	O	
+2-9	noch	ADV	noch	_	O	O	
+2-10	keinen	PIAT	keine	_	O	O	
+2-11	Preis	NN	Preis	_	O	O	
+2-12	?	$.	?	_	O	O	
+
+#id=3
+#text=Herzlich Ihr R Lepsius
+3-1	Herzlich	ADJD	herzlich	_	O	O	
+3-2	Ihr	PPOSAT	ihr	_	O	O	
+3-3	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

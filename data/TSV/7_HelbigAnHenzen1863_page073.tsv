@@ -1,0 +1,247 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=15 410 H Helbig an Henzen Rom, 18. Juni 1866 g. 24/6 66 r. Roma li 18 Giugno 1866 Lieber Herr Professor 1 Ich danke Ihnen für Ihren freundlichen Brief, welcher mir Ihre glückliche Ankunft meldete.
+1-1	15	CARD	15	_	O	O	
+1-2	410	CARD	@card@	_	O	O	
+1-3	H	NN	H	_	O	O	
+1-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	24/6	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	66	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+1-17	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-18	li	VVFIN	<unknown>	_	O	O	
+1-19	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	Giugno	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Lieber	ADJA	lieb	_	O	O	
+1-23	Herr	NN	Herr	_	O	O	
+1-24	Professor	NN	Professor	_	O	O	
+1-25	1	CARD	1	_	O	O	
+1-26	Ich	PPER	ich	_	O	O	
+1-27	danke	VVFIN	danken	_	O	O	
+1-28	Ihnen	PPER	Sie	_	O	O	
+1-29	für	APPR	für	_	O	O	
+1-30	Ihren	PPOSAT	ihr	_	O	O	
+1-31	freundlichen	ADJA	freundlich	_	O	O	
+1-32	Brief	NN	Brief	_	O	O	
+1-33	,	$,	,	_	O	O	
+1-34	welcher	PRELS	welche	_	O	O	
+1-35	mir	PPER	ich	_	O	O	
+1-36	Ihre	PPOSAT	ihr	_	O	O	
+1-37	glückliche	ADJA	glücklich	_	O	O	
+1-38	Ankunft	NN	Ankunft	_	O	O	
+1-39	meldete	VVFIN	melden	_	O	O	
+1-40	.	$.	.	_	O	O	
+
+#id=2
+#text=Viel habe ich Ihnen nicht zu schreiben.
+2-1	Viel	ADV	viel	_	O	O	
+2-2	habe	VAFIN	haben	_	O	O	
+2-3	ich	PPER	ich	_	O	O	
+2-4	Ihnen	PPER	Sie	_	O	O	
+2-5	nicht	PTKNEG	nicht	_	O	O	
+2-6	zu	PTKZU	zu	_	O	O	
+2-7	schreiben	VVINF	schreiben	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Um mit guten Nachrichten zu beginnen, kann ich Ihnen mittheilen, daß de Rossis Kind vollständig wieder hergestellt ist.
+3-1	Um	APPR	um	_	O	O	
+3-2	mit	APPR	mit	_	O	O	
+3-3	guten	ADJA	gut	_	O	O	
+3-4	Nachrichten	NN	Nachricht	_	O	O	
+3-5	zu	PTKZU	zu	_	O	O	
+3-6	beginnen	VVINF	beginnen	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	kann	VMFIN	können	_	O	O	
+3-9	ich	PPER	ich	_	O	O	
+3-10	Ihnen	PPER	Sie	_	O	O	
+3-11	mittheilen	VVINF	<unknown>	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	daß	KOUS	dass	_	O	O	
+3-14	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-15	Rossis	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-16	Kind	NN	Kind	_	O	O	
+3-17	vollständig	ADJD	vollständig	_	O	O	
+3-18	wieder	ADV	wieder	_	O	O	
+3-19	hergestellt	VVPP	herstellen	_	O	O	
+3-20	ist	VAFIN	sein	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Der arme Hirik dagegen hat einen Blutsturz gehabt und befindet sich in höchst bedenklichem Zustande im hiesigen Hospitale.
+4-1	Der	ART	die	_	O	O	
+4-2	arme	ADJA	arm	_	O	O	
+4-3	Hirik	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-4	dagegen	PAV	dagegen	_	O	O	
+4-5	hat	VAFIN	haben	_	O	O	
+4-6	einen	ART	eine	_	O	O	
+4-7	Blutsturz	NN	Blutsturz	_	O	O	
+4-8	gehabt	VVFIN	gehaben	_	O	O	
+4-9	und	KON	und	_	O	O	
+4-10	befindet	VVFIN	befinden	_	O	O	
+4-11	sich	PRF	sich	_	O	O	
+4-12	in	APPR	in	_	O	O	
+4-13	höchst	ADJD	hochöchst	_	O	O	
+4-14	bedenklichem	ADJA	bedenklich	_	O	O	
+4-15	Zustande	NN	Zustand	_	O	O	
+4-16	im	APPRART	in	_	O	O	
+4-17	hiesigen	ADJA	hiesig	_	O	O	
+4-18	Hospitale	NN	Hospital	_	O	O	
+4-19	.	$.	.	_	O	O	
+
+#id=5
+#text=Im Übrigen steht Alles beim Alten.
+5-1	Im	APPRART	in	_	O	O	
+5-2	Übrigen	NN	Übrige	_	O	O	
+5-3	steht	VVFIN	stehen	_	O	O	
+5-4	Alles	PIS	alle	_	O	O	
+5-5	beim	APPRART	bei	_	O	O	
+5-6	Alten	NN	Alte	_	O	O	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=Von der Hitze haben wir noch wenig zu leiden, da öfters starke Regengüsse stattfinden, wohl aber von abgeschmackten Kriegsgerüchten, welche seit einigen Tagen die Stadt unsicher machen.
+6-1	Von	APPR	von	_	O	O	
+6-2	der	ART	die	_	O	O	
+6-3	Hitze	NN	Hitze	_	O	O	
+6-4	haben	VAFIN	haben	_	O	O	
+6-5	wir	PPER	wir	_	O	O	
+6-6	noch	ADV	noch	_	O	O	
+6-7	wenig	PIS	wenige	_	O	O	
+6-8	zu	PTKZU	zu	_	O	O	
+6-9	leiden	VVINF	leiden	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	da	KOUS	da	_	O	O	
+6-12	öfters	ADV	öfters	_	O	O	
+6-13	starke	ADJA	stark	_	O	O	
+6-14	Regengüsse	NN	Regenguss	_	O	O	
+6-15	stattfinden	VVFIN	stattfinden	_	O	O	
+6-16	,	$,	,	_	O	O	
+6-17	wohl	ADV	wohl	_	O	O	
+6-18	aber	ADV	aber	_	O	O	
+6-19	von	APPR	von	_	O	O	
+6-20	abgeschmackten	ADJA	abgeschmackt	_	O	O	
+6-21	Kriegsgerüchten	NN	<unknown>	_	O	O	
+6-22	,	$,	,	_	O	O	
+6-23	welche	PRELS	welche	_	O	O	
+6-24	seit	APPR	seit	_	O	O	
+6-25	einigen	PIAT	einige	_	O	O	
+6-26	Tagen	NN	Tag	_	O	O	
+6-27	die	ART	die	_	O	O	
+6-28	Stadt	NN	Stadt	_	O	O	
+6-29	unsicher	ADJD	unsicher	_	O	O	
+6-30	machen	VVFIN	machen	_	O	O	
+6-31	.	$.	.	_	O	O	
+
+#id=7
+#text=Bald soll Garibaldi bereits auf dem Wege nach Wien sein; bald Venedig zusammengeschossen sein; den Mincio haben die Italiener nunmehr wohl schon dreimal überschritten.
+7-1	Bald	ADV	bald	_	O	O	
+7-2	soll	VMFIN	sollen	_	O	O	
+7-3	Garibaldi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-4	bereits	ADV	bereits	_	O	O	
+7-5	auf	APPR	auf	_	O	O	
+7-6	dem	ART	die	_	O	O	
+7-7	Wege	NN	Weg	_	O	O	
+7-8	nach	APPR	nach	_	O	O	
+7-9	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-10	sein	VAINF	sein	_	O	O	
+7-11	;	$.	;	_	O	O	
+7-12	bald	ADV	bald	_	O	O	
+7-13	Venedig	NE	Venedig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-14	zusammengeschossen	VVPP	zusammenschießen	_	O	O	
+7-15	sein	VAINF	sein	_	O	O	
+7-16	;	$.	;	_	O	O	
+7-17	den	ART	die	_	O	O	
+7-18	Mincio	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-19	haben	VAFIN	haben	_	O	O	
+7-20	die	ART	die	_	O	O	
+7-21	Italiener	NN	Italiener	_	O	O	
+7-22	nunmehr	ADV	nunmehr	_	O	O	
+7-23	wohl	ADV	wohl	_	O	O	
+7-24	schon	ADV	schon	_	O	O	
+7-25	dreimal	ADV	dreimal	_	O	O	
+7-26	überschritten	VVPP	überschreiten	_	O	O	
+7-27	.	$.	.	_	O	O	
+
+#id=8
+#text=Nunmehr zu den Institutsgeschäften.
+8-1	Nunmehr	ADV	nunmehr	_	O	O	
+8-2	zu	APPR	zu	_	O	O	
+8-3	den	ART	die	_	O	O	
+8-4	Institutsgeschäften	NN	<unknown>	_	O	O	
+8-5	.	$.	.	_	O	O	
+
+#id=9
+#text=Gestern traf ein Brief an Sie ein, in welchem sich ein Pariser Buchhändler Ernest Thorin, Boulevard St.
+9-1	Gestern	ADV	gestern	_	O	O	
+9-2	traf	VVFIN	treffen	_	O	O	
+9-3	ein	ART	eine	_	O	O	
+9-4	Brief	NN	Brief	_	O	O	
+9-5	an	APPR	an	_	O	O	
+9-6	Sie	PPER	Sie	_	O	O	
+9-7	ein	PTKVZ	ein	_	O	O	
+9-8	,	$,	,	_	O	O	
+9-9	in	APPR	in	_	O	O	
+9-10	welchem	PRELS	welche	_	O	O	
+9-11	sich	PRF	sich	_	O	O	
+9-12	ein	ART	eine	_	O	O	
+9-13	Pariser	NN	Pariser	_	O	O	
+9-14	Buchhändler	NN	Buchhändler	_	O	O	
+9-15	Ernest	NE	Ernest	_	O	O	
+9-16	Thorin	NE	<unknown>	_	O	O	
+9-17	,	$,	,	_	O	O	
+9-18	Boulevard	NN	Boulevard	_	O	O	
+9-19	St.	NE	St.	_	O	O	
+
+#id=10
+#text=Michel 58 um die Agentur für das Institut bewirbt.
+10-1	Michel	NE	Michel	_	O	O	
+10-2	58	CARD	@card@	_	O	O	
+10-3	um	APPR	um	_	O	O	
+10-4	die	ART	die	_	O	O	
+10-5	Agentur	NN	Agentur	_	O	O	
+10-6	für	APPR	für	_	O	O	
+10-7	das	ART	die	_	O	O	
+10-8	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-9	bewirbt	VVFIN	bewerben	_	O	O	
+10-10	.	$.	.	_	O	O	
+
+#id=11
+#text=Er beruft sich auf seine amicizia mit de Rossi und - Garrucci.
+11-1	Er	PPER	er	_	O	O	
+11-2	beruft	VVFIN	berufen	_	O	O	
+11-3	sich	PRF	sich	_	O	O	
+11-4	auf	APPR	auf	_	O	O	
+11-5	seine	PPOSAT	sein	_	O	O	
+11-6	amicizia	NE	<unknown>	_	O	O	
+11-7	mit	APPR	mit	_	O	O	
+11-8	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-9	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-10	und	KON	und	_	O	O	
+11-11	-	$(	-	_	O	O	
+11-12	Garrucci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-13	.	$.	.	_	O	O	
+
+#id=12
+#text=Sie können ihn vielleicht einmal aufsuchen oder über ihn Er-
+12-1	Sie	PPER	Sie	_	O	O	
+12-2	können	VMFIN	können	_	O	O	
+12-3	ihn	PPER	er	_	O	O	
+12-4	vielleicht	ADV	vielleicht	_	O	O	
+12-5	einmal	ADV	einmal	_	O	O	
+12-6	aufsuchen	VVINF	aufsuchen	_	O	O	
+12-7	oder	KON	oder	_	O	O	
+12-8	über	APPR	über	_	O	O	
+12-9	ihn	PPER	er	_	O	O	
+12-10	Er-	TRUNC	Er-	_	O	O	
+

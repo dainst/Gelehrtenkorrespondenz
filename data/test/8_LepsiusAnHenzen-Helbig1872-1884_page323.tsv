@@ -1,0 +1,163 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=343 Lepsius an Renzen Berlin, 1. Juni 1877 g. r.
+1-1	343	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	ADJA	<unknown>	_	O	O	
+1-12	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=4/6 77 Berlin, d. 1. Juni 1877 Verehrter Freund Ich übersende Ihnen hierbei zur Kenntnisnahme die Antwort des Auswärtigen Amtes auf unsre Vorschläge wegen der Römischen Verwaltung.
+2-1	4/6	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-2	77	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	,	$,	,	_	O	O	
+2-5	d.	ART	d.	_	O	O	
+2-6	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	Verehrter	ADJA	verehrt	_	O	O	
+2-11	Freund	NN	Freund	_	O	O	
+2-12	Ich	PPER	ich	_	O	O	
+2-13	übersende	VVFIN	übersenden	_	O	O	
+2-14	Ihnen	PPER	Sie	_	O	O	
+2-15	hierbei	PAV	hierbei	_	O	O	
+2-16	zur	APPRART	zu	_	O	O	
+2-17	Kenntnisnahme	NN	Kenntnisnahme	_	O	O	
+2-18	die	ART	die	_	O	O	
+2-19	Antwort	NN	Antwort	_	O	O	
+2-20	des	ART	die	_	O	O	
+2-21	Auswärtigen	ADJA	auswärtig	_	O	O	
+2-22	Amtes	NN	Amt	_	O	O	
+2-23	auf	APPR	auf	_	O	O	
+2-24	unsre	PPOSAT	unsre	_	O	O	
+2-25	Vorschläge	NN	Vorschlag	_	O	O	
+2-26	wegen	APPR	wegen	_	O	O	
+2-27	der	ART	die	_	O	O	
+2-28	Römischen	ADJA	römisch	_	O	O	
+2-29	Verwaltung	NN	Verwaltung	_	O	O	
+2-30	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Auszahlung der Russischen Fonds ist jedenfalls sehr erwünscht.
+3-1	Die	ART	die	_	O	O	
+3-2	Auszahlung	NN	Auszahlung	_	O	O	
+3-3	der	ART	die	_	O	O	
+3-4	Russischen	ADJA	russisch	_	O	O	
+3-5	Fonds	NN	Fonds	_	O	O	
+3-6	ist	VAFIN	sein	_	O	O	
+3-7	jedenfalls	ADV	jedenfalls	_	O	O	
+3-8	sehr	ADV	sehr	_	O	O	
+3-9	erwünscht	ADJD	erwünscht	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Schritte beim Auswärtigen Amte ~ ~ z M.4t 'l, • schienen auch Mommsen und Krl für jetzt nicht angezeigt, Dagegen macht Schöne mit Recht darauf aufmerksam, daß die Russischen Gelder nach Berlin werden auszahlt ( sic ! )
+4-1	Schritte	NN	Schritt	_	O	O	
+4-2	beim	APPRART	bei	_	O	O	
+4-3	Auswärtigen	ADJA	auswärtig	_	O	O	
+4-4	Amte	NN	Amt	_	O	O	
+4-5	~	XY	~	_	O	O	
+4-6	~	XY	~	_	O	O	
+4-7	z	VVFIN	<unknown>	_	O	O	
+4-8	M.4t	NE	<unknown>	_	O	O	
+4-9	'	$(	'	_	O	O	
+4-10	l	NN	l	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	•	NN	<unknown>	_	O	O	
+4-13	schienen	VVFIN	scheinen	_	O	O	
+4-14	auch	ADV	auch	_	O	O	
+4-15	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-16	und	KON	und	_	O	O	
+4-17	Krl	NN	<unknown>	_	O	O	
+4-18	für	APPR	für	_	O	O	
+4-19	jetzt	ADV	jetzt	_	O	O	
+4-20	nicht	PTKNEG	nicht	_	O	O	
+4-21	angezeigt	VVPP	anzeigen	_	O	O	
+4-22	,	$,	,	_	O	O	
+4-23	Dagegen	PAV	dagegen	_	O	O	
+4-24	macht	VVFIN	machen	_	O	O	
+4-25	Schöne	NN	Schöne	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-26	mit	APPR	mit	_	O	O	
+4-27	Recht	NN	Recht	_	O	O	
+4-28	darauf	PAV	darauf	_	O	O	
+4-29	aufmerksam	ADJD	aufmerksam	_	O	O	
+4-30	,	$,	,	_	O	O	
+4-31	daß	KOUS	dass	_	O	O	
+4-32	die	ART	die	_	O	O	
+4-33	Russischen	ADJA	russisch	_	O	O	
+4-34	Gelder	NN	Geld	_	O	O	
+4-35	nach	APPR	nach	_	O	O	
+4-36	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-37	werden	VAINF	werden	_	O	O	
+4-38	auszahlt	VVFIN	auszahlen	_	O	O	
+4-39	(	$(	(	_	O	O	
+4-40	sic	NE	<unknown>	_	O	O	
+4-41	!	$.	!	_	O	O	
+4-42	)	$(	)	_	O	O	
+
+#id=5
+#text=werden müssen, um in Fo~ds angelegt zu werden, die dem Reiche als zu sicher gelten.
+5-1	werden	VAINF	werden	_	O	O	
+5-2	müssen	VMFIN	müssen	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	um	KOUI	um	_	O	O	
+5-5	in	APPR	in	_	O	O	
+5-6	Fo~ds	NN	<unknown>	_	O	O	
+5-7	angelegt	VVPP	anlegen	_	O	O	
+5-8	zu	PTKZU	zu	_	O	O	
+5-9	werden	VAINF	werden	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	die	PRELS	die	_	O	O	
+5-12	dem	ART	die	_	O	O	
+5-13	Reiche	NN	Reich|Reiche	_	O	O	
+5-14	als	KOKOM	als	_	O	O	
+5-15	zu	PTKA	zu	_	O	O	
+5-16	sicher	ADJD	sicher	_	O	O	
+5-17	gelten	VVINF	gelten	_	O	O	
+5-18	.	$.	.	_	O	O	
+
+#id=6
+#text=Es würde also gleich die Berechnung hierher zu richten sein, um nicht doppelte Spesen zu haben.
+6-1	Es	PPER	es	_	O	O	
+6-2	würde	VAFIN	werden	_	O	O	
+6-3	also	ADV	also	_	O	O	
+6-4	gleich	ADJD	gleich	_	O	O	
+6-5	die	ART	die	_	O	O	
+6-6	Berechnung	NN	Berechnung	_	O	O	
+6-7	hierher	PAV	hierher	_	O	O	
+6-8	zu	PTKZU	zu	_	O	O	
+6-9	richten	VVINF	richten	_	O	O	
+6-10	sein	VAINF	sein	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	um	KOUI	um	_	O	O	
+6-13	nicht	PTKNEG	nicht	_	O	O	
+6-14	doppelte	ADJA	doppelt	_	O	O	
+6-15	Spesen	NN	Spesen	_	O	O	
+6-16	zu	PTKZU	zu	_	O	O	
+6-17	haben	VAINF	haben	_	O	O	
+6-18	.	$.	.	_	O	O	
+
+#id=7
+#text=Der Ihrige R Lepsius Ich schreibe heute auch an Helbig.
+7-1	Der	ART	die	_	O	O	
+7-2	Ihrige	PPOSAT	ihrige	_	O	O	
+7-3	R	NN	R	_	O	O	
+7-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-5	Ich	PPER	ich	_	O	O	
+7-6	schreibe	VVFIN	schreiben	_	O	O	
+7-7	heute	ADV	heute	_	O	O	
+7-8	auch	ADV	auch	_	O	O	
+7-9	an	APPR	an	_	O	O	
+7-10	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-11	.	$.	.	_	O	O	
+

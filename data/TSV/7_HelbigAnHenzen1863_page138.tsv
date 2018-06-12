@@ -1,0 +1,233 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=297 3 Helbig an Henzen Rom, 19. Juli 1870 bei manchem Nutzen im Einzelnen, doch die Sache nicht erschöpfen würde.
+1-1	297	CARD	@card@	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	bei	APPR	bei	_	O	O	
+1-13	manchem	PIAT	manche	_	O	O	
+1-14	Nutzen	NN	Nutzen	_	O	O	
+1-15	im	APPRART	in	_	O	O	
+1-16	Einzelnen	NN	Einzelne	_	O	O	
+1-17	,	$,	,	_	O	O	
+1-18	doch	KON	doch	_	O	O	
+1-19	die	ART	die	_	O	O	
+1-20	Sache	NN	Sache	_	O	O	
+1-21	nicht	PTKNEG	nicht	_	O	O	
+1-22	erschöpfen	VVINF	erschöpfen	_	O	O	
+1-23	würde	VAFIN	werden	_	O	O	
+1-24	.	$.	.	_	O	O	
+
+#id=2
+#text=Mein Reiseplan würde folgender sein ich bleibe zwei Tage in Arezzo - so lange werden mich, wenn der Bericht der Wahrheit gemäß ist, die dortigen Ausgrabungen aufhalten.
+2-1	Mein	PPOSAT	mein	_	O	O	
+2-2	Reiseplan	NN	Reiseplan	_	O	O	
+2-3	würde	VAFIN	werden	_	O	O	
+2-4	folgender	ADJA	folgend	_	O	O	
+2-5	sein	VAINF	sein	_	O	O	
+2-6	ich	PPER	ich	_	O	O	
+2-7	bleibe	VVFIN	bleiben	_	O	O	
+2-8	zwei	CARD	zwei	_	O	O	
+2-9	Tage	NN	Tag	_	O	O	
+2-10	in	APPR	in	_	O	O	
+2-11	Arezzo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-12	-	$(	-	_	O	O	
+2-13	so	ADV	so	_	O	O	
+2-14	lange	ADV	lange	_	O	O	
+2-15	werden	VAFIN	werden	_	O	O	
+2-16	mich	PRF	ich	_	O	O	
+2-17	,	$,	,	_	O	O	
+2-18	wenn	KOUS	wenn	_	O	O	
+2-19	der	ART	die	_	O	O	
+2-20	Bericht	NN	Bericht	_	O	O	
+2-21	der	ART	die	_	O	O	
+2-22	Wahrheit	NN	Wahrheit	_	O	O	
+2-23	gemäß	ADJD	gemäß	_	O	O	
+2-24	ist	VAFIN	sein	_	O	O	
+2-25	,	$,	,	_	O	O	
+2-26	die	ART	die	_	O	O	
+2-27	dortigen	ADJA	dortig	_	O	O	
+2-28	Ausgrabungen	NN	Ausgrabung	_	O	O	
+2-29	aufhalten	VVINF	aufhalten	_	O	O	
+2-30	.	$.	.	_	O	O	
+
+#id=3
+#text=Einen Tag rechne ich auf Mailand, wo ich die neuerdings gefundene angeblich mit Temperabildern bemalte marmorne Ara - also ein Seitenstück zu dem cornetaner Sarkpphag - untersuchen will.
+3-1	Einen	ART	eine	_	O	O	
+3-2	Tag	NN	Tag	_	O	O	
+3-3	rechne	VVFIN	rechnen	_	O	O	
+3-4	ich	PPER	ich	_	O	O	
+3-5	auf	APPR	auf	_	O	O	
+3-6	Mailand	NE	Mailand	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-7	,	$,	,	_	O	O	
+3-8	wo	PWAV	wo	_	O	O	
+3-9	ich	PPER	ich	_	O	O	
+3-10	die	ART	die	_	O	O	
+3-11	neuerdings	ADV	neuerdings	_	O	O	
+3-12	gefundene	ADJA	gefunden	_	O	O	
+3-13	angeblich	ADJD	angeblich	_	O	O	
+3-14	mit	APPR	mit	_	O	O	
+3-15	Temperabildern	NN	<unknown>	_	O	O	
+3-16	bemalte	VVFIN	bemalen	_	O	O	
+3-17	marmorne	ADJA	marmorn	_	O	O	
+3-18	Ara	NN	Ara	_	O	O	
+3-19	-	$(	-	_	O	O	
+3-20	also	ADV	also	_	O	O	
+3-21	ein	ART	eine	_	O	O	
+3-22	Seitenstück	NN	Seitenstück	_	O	O	
+3-23	zu	APPR	zu	_	O	O	
+3-24	dem	ART	die	_	O	O	
+3-25	cornetaner	NN	<unknown>	_	O	O	
+3-26	Sarkpphag	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-27	-	$(	-	_	O	O	
+3-28	untersuchen	VVINF	untersuchen	_	O	O	
+3-29	will	VMFIN	wollen	_	O	O	
+3-30	.	$.	.	_	O	O	
+
+#id=4
+#text=Von Mailand direct nach Zürich, wo ich demnach etwa um den 3. August eintreffen werde.
+4-1	Von	APPR	von	_	O	O	
+4-2	Mailand	NE	Mailand	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-3	direct	NE	direct	_	O	O	
+4-4	nach	APPR	nach	_	O	O	
+4-5	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-6	,	$,	,	_	O	O	
+4-7	wo	PWAV	wo	_	O	O	
+4-8	ich	PPER	ich	_	O	O	
+4-9	demnach	ADV	demnach	_	O	O	
+4-10	etwa	ADV	etwa	_	O	O	
+4-11	um	APPR	um	_	O	O	
+4-12	den	ART	die	_	O	O	
+4-13	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-14	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-15	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-16	eintreffen	VVINF	eintreffen	_	O	O	
+4-17	werde	VAFIN	werden	_	O	O	
+4-18	.	$.	.	_	O	O	
+
+#id=5
+#text=Vor der Hand bitte ich Sie, mir etwaige Mittheilungen noch unter der alten Adresse "Pension zum Schwanen, Kreuzstraße, Zürich" zukommen zu lassen.
+5-1	Vor	APPR	vor	_	O	O	
+5-2	der	ART	die	_	O	O	
+5-3	Hand	NN	Hand	_	O	O	
+5-4	bitte	VVFIN	bitten	_	O	O	
+5-5	ich	PPER	ich	_	O	O	
+5-6	Sie	PPER	Sie	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	mir	PRF	ich	_	O	O	
+5-9	etwaige	ADJA	etwaig	_	O	O	
+5-10	Mittheilungen	NN	<unknown>	_	O	O	
+5-11	noch	ADV	noch	_	O	O	
+5-12	unter	APPR	unter	_	O	O	
+5-13	der	ART	die	_	O	O	
+5-14	alten	ADJA	alt	_	O	O	
+5-15	Adresse	NN	Adresse	_	O	O	
+5-16	"	$(	"	_	O	O	
+5-17	Pension	NN	Pension	_	O	O	
+5-18	zum	APPRART	zu	_	O	O	
+5-19	Schwanen	NN	<unknown>	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	Kreuzstraße	NN	Kreuzstraße	_	O	O	
+5-22	,	$,	,	_	O	O	
+5-23	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-24	"	$(	"	_	O	O	
+5-25	zukommen	VVINF	zukommen	_	O	O	
+5-26	zu	PTKZU	zu	_	O	O	
+5-27	lassen	VVINF	lassen	_	O	O	
+5-28	.	$.	.	_	O	O	
+
+#id=6
+#text=Von Zürich aus schreibe ich Ihnen, wenn wir neu installirt sind, unsere neue Adresse.
+6-1	Von	APPR	von	_	O	O	
+6-2	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-3	aus	PTKVZ	aus	_	O	O	
+6-4	schreibe	VVFIN	schreiben	_	O	O	
+6-5	ich	PPER	ich	_	O	O	
+6-6	Ihnen	PPER	Sie	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	wenn	KOUS	wenn	_	O	O	
+6-9	wir	PPER	wir	_	O	O	
+6-10	neu	ADJD	neu	_	O	O	
+6-11	installirt	NN	<unknown>	_	O	O	
+6-12	sind	VAFIN	sein	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	unsere	PPOSAT	unser	_	O	O	
+6-15	neue	ADJA	neu	_	O	O	
+6-16	Adresse	NN	Adresse	_	O	O	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=Bürger ist als Landwehrofficier einberufen und hat somit die Revision der Akten des Kopfschen Processes aufgeben müssen.
+7-1	Bürger	NN	Bürger	_	O	O	
+7-2	ist	VAFIN	sein	_	O	O	
+7-3	als	KOKOM	als	_	O	O	
+7-4	Landwehrofficier	NN	<unknown>	_	O	O	
+7-5	einberufen	VVPP	einberufen	_	O	O	
+7-6	und	KON	und	_	O	O	
+7-7	hat	VAFIN	haben	_	O	O	
+7-8	somit	ADV	somit	_	O	O	
+7-9	die	ART	die	_	O	O	
+7-10	Revision	NN	Revision	_	O	O	
+7-11	der	ART	die	_	O	O	
+7-12	Akten	NN	Akt|Akte	_	O	O	
+7-13	des	ART	die	_	O	O	
+7-14	Kopfschen	NN	<unknown>	_	O	O	
+7-15	Processes	NN	<unknown>	_	O	O	
+7-16	aufgeben	VVINF	aufgeben	_	O	O	
+7-17	müssen	VMINF	müssen	_	O	O	
+7-18	.	$.	.	_	O	O	
+
+#id=8
+#text=Das Urtheil in erster Instanz soll noch in diesem Monate erfolgen.
+8-1	Das	ART	die	_	O	O	
+8-2	Urtheil	NN	<unknown>	_	O	O	
+8-3	in	APPR	in	_	O	O	
+8-4	erster	ADJA	erst	_	O	O	
+8-5	Instanz	NN	Instanz	_	O	O	
+8-6	soll	VMFIN	sollen	_	O	O	
+8-7	noch	ADV	noch	_	O	O	
+8-8	in	APPR	in	_	O	O	
+8-9	diesem	PDAT	dies	_	O	O	
+8-10	Monate	NN	Monat	_	O	O	
+8-11	erfolgen	VVINF	erfolgen	_	O	O	
+8-12	.	$.	.	_	O	O	
+
+#id=9
+#text=Jedenfalls schreibe ich Ihnen noch einmal vor meiner Abreise von Rom.
+9-1	Jedenfalls	ADV	jedenfalls	_	O	O	
+9-2	schreibe	VVFIN	schreiben	_	O	O	
+9-3	ich	PPER	ich	_	O	O	
+9-4	Ihnen	PPER	Sie	_	O	O	
+9-5	noch	ADV	noch	_	O	O	
+9-6	einmal	ADV	einmal	_	O	O	
+9-7	vor	APPR	vor	_	O	O	
+9-8	meiner	PPOSAT	mein	_	O	O	
+9-9	Abreise	NN	Abreise	_	O	O	
+9-10	von	APPR	von	_	O	O	
+9-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Leben Sie wohl!
+10-1	Leben	VVFIN	leben	_	O	O	
+10-2	Sie	PPER	Sie	_	O	O	
+10-3	wohl	ADV	wohl	_	O	O	
+10-4	!	$.	!	_	O	O	
+
+#id=11
+#text=Mit herzlichen Grüßen Ihr w. Helbig
+11-1	Mit	APPR	mit	_	O	O	
+11-2	herzlichen	ADJA	herzlich	_	O	O	
+11-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+11-4	Ihr	PPOSAT	ihr	_	O	O	
+11-5	w.	APPR	w.	_	O	O	
+11-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

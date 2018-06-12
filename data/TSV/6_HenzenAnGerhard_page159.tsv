@@ -1,0 +1,168 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=x 410 Henzen an Gerhard 23/XI/53 2 Eltern sein, nachde~ er noch mehrere Tage mit Jahn in München zugebracht u. gründli6he"~ierstudien gemacht hat.
+1-1	x	FM	x	_	O	O	
+1-2	410	CARD	@card@	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	23/XI/53	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	2	CARD	2	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Eltern	NN	Eltern	_	O	O	
+1-9	sein	VAINF	sein	_	O	O	
+1-10	,	$,	,	_	O	O	
+1-11	nachde~	VVFIN	<unknown>	_	O	O	
+1-12	er	PPER	er	_	O	O	
+1-13	noch	ADV	noch	_	O	O	
+1-14	mehrere	PIAT	mehrere	_	O	O	
+1-15	Tage	NN	Tag	_	O	O	
+1-16	mit	APPR	mit	_	O	O	
+1-17	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-18	in	APPR	in	_	O	O	
+1-19	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-20	zugebracht	VVPP	zubringen	_	O	O	
+1-21	u.	APPR	um	_	O	O	
+1-22	gründli6he"~ierstudien	NN	<unknown>	_	O	O	
+1-23	gemacht	VVPP	machen	_	O	O	
+1-24	hat	VAFIN	haben	_	O	O	
+1-25	.	$.	.	_	O	O	
+
+#id=2
+#text=r Cassitto ist der Sohn ejnes verstorbnen Correspondenten.
+2-1	r	NE	r	_	O	O	
+2-2	Cassitto	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-3	ist	VAFIN	sein	_	O	O	
+2-4	der	ART	die	_	O	O	
+2-5	Sohn	NN	Sohn	_	O	O	
+2-6	ejnes	ADJA	<unknown>	_	O	O	
+2-7	verstorbnen	ADJA	<unknown>	_	O	O	
+2-8	Correspondenten	NN	<unknown>	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=- Gestern ist Hübsch aus Ca mit Frau zur großen Freude meiner mit letzterer sehr befreundeten Frau hier angekommen u. in unserm Hause untergekomwen.
+3-1	-	$(	-	_	O	O	
+3-2	Gestern	ADV	gestern	_	O	O	
+3-3	ist	VAFIN	sein	_	O	O	
+3-4	Hübsch	ADJD	hübsch	_	O	O	
+3-5	aus	APPR	aus	_	O	O	
+3-6	Ca	NE	ca	_	O	O	
+3-7	mit	APPR	mit	_	O	O	
+3-8	Frau	NN	Frau	_	O	O	
+3-9	zur	APPRART	zu	_	O	O	
+3-10	großen	ADJA	groß	_	O	O	
+3-11	Freude	NN	Freude	_	O	O	
+3-12	meiner	PPOSAT	mein	_	O	O	
+3-13	mit	APPR	mit	_	O	O	
+3-14	letzterer	ADJA	letzt	_	O	O	
+3-15	sehr	ADV	sehr	_	O	O	
+3-16	befreundeten	ADJA	befreundet	_	O	O	
+3-17	Frau	NN	Frau	_	O	O	
+3-18	hier	ADV	hier	_	O	O	
+3-19	angekommen	VVPP	ankommen	_	O	O	
+3-20	u.	KON	und	_	O	O	
+3-21	in	APPR	in	_	O	O	
+3-22	unserm	PPOSAT	unser	_	O	O	
+3-23	Hause	NN	Haus	_	O	O	
+3-24	untergekomwen	VVINF	<unknown>	_	O	O	
+3-25	.	$.	.	_	O	O	
+
+#id=4
+#text=~ ~iIi t Zumptianum werde, so viel möglich, nach Vorschrift verfahren.
+4-1	~	XY	~	_	O	O	
+4-2	~iIi	NE	<unknown>	_	O	O	
+4-3	t	NN	t	_	O	O	
+4-4	Zumptianum	NN	<unknown>	_	O	O	
+4-5	werde	VAFIN	werden	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	so	ADV	so	_	O	O	
+4-8	viel	ADV	viel	_	O	O	
+4-9	möglich	ADJD	möglich	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	nach	APPR	nach	_	O	O	
+4-12	Vorschrift	NN	Vorschrift	_	O	O	
+4-13	verfahren	VVPP	verfahren	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=- Nova : ein scheußliches Buch von Canina über die V. Appia, u. ein,wo möglich,noch scheußlicheres über die Lästryg Gemälde von Via Graziosa von Matrarga.
+5-1	-	$(	-	_	O	O	
+5-2	Nova	NN	<unknown>	_	O	O	
+5-3	:	$.	:	_	O	O	
+5-4	ein	ART	eine	_	O	O	
+5-5	scheußliches	ADJA	scheußlich	_	O	O	
+5-6	Buch	NN	Buch	_	O	O	
+5-7	von	APPR	von	_	O	O	
+5-8	Canina	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-9	über	APPR	über	_	O	O	
+5-10	die	ART	die	_	O	O	
+5-11	V.	NE	V.	_	O	O	
+5-12	Appia	NE	<unknown>	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	u.	APPR	um	_	O	O	
+5-15	ein,wo	NE	<unknown>	_	O	O	
+5-16	möglich,noch	ADJA	<unknown>	_	O	O	
+5-17	scheußlicheres	ADJA	scheußlich	_	O	O	
+5-18	über	APPR	über	_	O	O	
+5-19	die	ART	die	_	O	O	
+5-20	Lästryg	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-21	Gemälde	NN	Gemälde	_	I-webanno.custom.LetterEntity_	I-OBJ	
+5-22	von	APPR	von	_	O	O	
+5-23	Via	NE	Via	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-24	Graziosa	NE	Graziosa	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+5-25	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+5-26	Matrarga	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+5-27	.	$.	.	_	O	O	
+
+#id=6
+#text=Meine E'rcl.U grüßt herzjHich Sie u. die IhriGe.
+6-1	Meine	PPOSAT	mein	_	O	O	
+6-2	E'rcl.U	NN	<unknown>	_	O	O	
+6-3	grüßt	VVFIN	grüßen	_	O	O	
+6-4	herzjHich	VVFIN	<unknown>	_	O	O	
+6-5	Sie	PPER	Sie	_	O	O	
+6-6	u.	APPR	um	_	O	O	
+6-7	die	ART	die	_	O	O	
+6-8	IhriGe	NN	<unknown>	_	O	O	
+6-9	.	$.	.	_	O	O	
+
+#id=7
+#text=Rom 23/XI 53.
+7-1	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+7-2	23/XI	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+7-3	53	CARD	53	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-4	.	$.	.	_	O	O	
+
+#id=8
+#text=I Istts wahr, dß.
+8-1	I	FM	I	_	O	O	
+8-2	Istts	NN	<unknown>	_	O	O	
+8-3	wahr	ADJD	wahr	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	dß	VVFIN	<unknown>	_	O	O	
+8-6	.	$.	.	_	O	O	
+
+#id=9
+#text=Vhne Curtius ?
+9-1	Vhne	NE	<unknown>	_	O	O	
+9-2	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-3	?	$.	?	_	O	O	
+
+#id=10
+#text=Ihr ergebenster W. Henzen der Thronfolger hieher kommt ?
+10-1	Ihr	PPOSAT	ihr	_	O	O	
+10-2	ergebenster	ADJA	<unknown>	_	O	O	
+10-3	W.	NE	W.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-4	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-5	der	ART	die	_	O	O	
+10-6	Thronfolger	NN	Thronfolger	_	O	O	
+10-7	hieher	NN	<unknown>	_	O	O	
+10-8	kommt	VVFIN	kommen	_	O	O	
+10-9	?	$.	?	_	O	O	
+
+#id=11
+#text=mit, oder
+11-1	mit	PTKVZ	mit	_	O	O	
+11-2	,	$,	,	_	O	O	
+11-3	oder	KON	oder	_	O	O	
+

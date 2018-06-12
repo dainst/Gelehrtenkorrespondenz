@@ -1,0 +1,509 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=\ - 7 536 Lepsius an Henzen Berlin, 14. Dezember 1872 2 höheres Bibliotheksverständnis fähiger, nicht ganz subalterner Mann sein muß.
+1-1	\	XY	\	_	O	O	
+1-2	-	$(	-	_	O	O	
+1-3	7	CARD	7	_	O	O	
+1-4	536	CARD	@card@	_	O	O	
+1-5	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	2	CARD	2	_	O	O	
+1-15	höheres	ADJA	hoch	_	O	O	
+1-16	Bibliotheksverständnis	NN	<unknown>	_	O	O	
+1-17	fähiger	ADJD	fähig	_	O	O	
+1-18	,	$,	,	_	O	O	
+1-19	nicht	PTKNEG	nicht	_	O	O	
+1-20	ganz	ADV	ganz	_	O	O	
+1-21	subalterner	ADJA	subaltern	_	O	O	
+1-22	Mann	NN	Mann	_	O	O	
+1-23	sein	VAINF	sein	_	O	O	
+1-24	muß	VMFIN	müssen	_	O	O	
+1-25	.	$.	.	_	O	O	
+
+#id=2
+#text=Dem könnte dann aber auch sehr wohl die Rechnungsführung übertragen werden, so weit Sie glauben diese aus der Hand geben zu können ohne sich der Ihnen nothwendig verbleibenden Verantwortlichkeit zu entschlagen.
+2-1	Dem	PDS	die	_	O	O	
+2-2	könnte	VMFIN	können	_	O	O	
+2-3	dann	ADV	dann	_	O	O	
+2-4	aber	ADV	aber	_	O	O	
+2-5	auch	ADV	auch	_	O	O	
+2-6	sehr	ADV	sehr	_	O	O	
+2-7	wohl	ADV	wohl	_	O	O	
+2-8	die	ART	die	_	O	O	
+2-9	Rechnungsführung	NN	Rechnungsführung	_	O	O	
+2-10	übertragen	VVPP	übertragen	_	O	O	
+2-11	werden	VAINF	werden	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	so	ADV	so	_	O	O	
+2-14	weit	ADJD	weit	_	O	O	
+2-15	Sie	PPER	Sie	_	O	O	
+2-16	glauben	VVFIN	glauben	_	O	O	
+2-17	diese	PDS	diese	_	O	O	
+2-18	aus	APPR	aus	_	O	O	
+2-19	der	ART	die	_	O	O	
+2-20	Hand	NN	Hand	_	O	O	
+2-21	geben	VVINF	geben	_	O	O	
+2-22	zu	PTKZU	zu	_	O	O	
+2-23	können	VMINF	können	_	O	O	
+2-24	ohne	APPR	ohne	_	O	O	
+2-25	sich	PRF	sich	_	O	O	
+2-26	der	PDS	die	_	O	O	
+2-27	Ihnen	PPER	Sie	_	O	O	
+2-28	nothwendig	ADJD	<unknown>	_	O	O	
+2-29	verbleibenden	ADJA	verbleibend	_	O	O	
+2-30	Verantwortlichkeit	NN	Verantwortlichkeit	_	O	O	
+2-31	zu	PTKZU	zu	_	O	O	
+2-32	entschlagen	VVINF	<unknown>	_	O	O	
+2-33	.	$.	.	_	O	O	
+
+#id=3
+#text=Auf einen besonders angestellten Rechnungsführer wie früher Lanci war, glaubt man hier nicht eingehen zu dürfen.
+3-1	Auf	APPR	auf	_	O	O	
+3-2	einen	ART	eine	_	O	O	
+3-3	besonders	ADV	besonders	_	O	O	
+3-4	angestellten	ADJA	angestellt	_	O	O	
+3-5	Rechnungsführer	NN	Rechnungsführer	_	O	O	
+3-6	wie	KOKOM	wie	_	O	O	
+3-7	früher	ADV	früher	_	O	O	
+3-8	Lanci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-9	war	VAFIN	sein	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	glaubt	VVFIN	glauben	_	O	O	
+3-12	man	PIS	man	_	O	O	
+3-13	hier	ADV	hier	_	O	O	
+3-14	nicht	PTKNEG	nicht	_	O	O	
+3-15	eingehen	VVINF	eingehen	_	O	O	
+3-16	zu	PTKZU	zu	_	O	O	
+3-17	dürfen	VMINF	dürfen	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Titel 11.2 Bureaukosten statt 30 r 100 worin aber NO.
+4-1	Titel	NN	Titel	_	O	O	
+4-2	11.2	CARD	@card@	_	O	O	
+4-3	Bureaukosten	NN	<unknown>	_	O	O	
+4-4	statt	APPR	statt	_	O	O	
+4-5	30	CARD	30	_	O	O	
+4-6	r	NE	r	_	O	O	
+4-7	100	CARD	100	_	O	O	
+4-8	worin	PWAV	worin	_	O	O	
+4-9	aber	ADV	aber	_	O	O	
+4-10	NO	NE	NO	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=6 mitbegriffen sein müßte, da es uns nicht zweckmäßig schien einen besonderen Titel für Trinkgelder und Kleinigkeiten aufzuführen.
+5-1	6	CARD	6	_	O	O	
+5-2	mitbegriffen	VVPP	mitbegreifen	_	O	O	
+5-3	sein	VAINF	sein	_	O	O	
+5-4	müßte	VMFIN	müssen	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	da	KOUS	da	_	O	O	
+5-7	es	PPER	es	_	O	O	
+5-8	uns	PRF	wir	_	O	O	
+5-9	nicht	PTKNEG	nicht	_	O	O	
+5-10	zweckmäßig	ADJD	zweckmäßig	_	O	O	
+5-11	schien	VVFIN	scheinen	_	O	O	
+5-12	einen	ART	eine	_	O	O	
+5-13	besonderen	ADJA	besonder	_	O	O	
+5-14	Titel	NN	Titel	_	O	O	
+5-15	für	APPR	für	_	O	O	
+5-16	Trinkgelder	NN	Trinkgeld	_	O	O	
+5-17	und	KON	und	_	O	O	
+5-18	Kleinigkeiten	NN	Kleinigkeit	_	O	O	
+5-19	aufzuführen	VVIZU	aufführen	_	O	O	
+5-20	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Führkosten können auch zum Theil vielleicht in Titel 11,3 mit aufgenommen werden, für welche wir beibehalten Titel 11,4 wird sich im neuen Hause erhöhen, besonders wenn außer der Erneuerung auch die "Ergänzung" der Möbel, wie uns gut schien, mit genannt wird; also neue Regale und dgl. Daher statt 30 .
+6-1	Die	ART	die	_	O	O	
+6-2	Führkosten	NN	<unknown>	_	O	O	
+6-3	können	VMFIN	können	_	O	O	
+6-4	auch	ADV	auch	_	O	O	
+6-5	zum	APPRART	zu	_	O	O	
+6-6	Theil	NN	<unknown>	_	O	O	
+6-7	vielleicht	ADV	vielleicht	_	O	O	
+6-8	in	APPR	in	_	O	O	
+6-9	Titel	NN	Titel	_	O	O	
+6-10	11,3	CARD	11,3	_	O	O	
+6-11	mit	PTKVZ	mit	_	O	O	
+6-12	aufgenommen	VVPP	aufnehmen	_	O	O	
+6-13	werden	VAINF	werden	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	für	APPR	für	_	O	O	
+6-16	welche	PRELS	welche	_	O	O	
+6-17	wir	PPER	wir	_	O	O	
+6-18	beibehalten	VVFIN	beibehalten	_	O	O	
+6-19	Titel	NN	Titel	_	O	O	
+6-20	11,4	CARD	@card@	_	O	O	
+6-21	wird	VAFIN	werden	_	O	O	
+6-22	sich	PRF	sich	_	O	O	
+6-23	im	APPRART	in	_	O	O	
+6-24	neuen	ADJA	neu	_	O	O	
+6-25	Hause	NN	Haus	_	O	O	
+6-26	erhöhen	VVINF	erhöhen	_	O	O	
+6-27	,	$,	,	_	O	O	
+6-28	besonders	ADV	besonders	_	O	O	
+6-29	wenn	KOUS	wenn	_	O	O	
+6-30	außer	APPR	außer	_	O	O	
+6-31	der	ART	die	_	O	O	
+6-32	Erneuerung	NN	Erneuerung	_	O	O	
+6-33	auch	ADV	auch	_	O	O	
+6-34	die	ART	die	_	O	O	
+6-35	"	$(	"	_	O	O	
+6-36	Ergänzung	NN	Ergänzung	_	O	O	
+6-37	"	$(	"	_	O	O	
+6-38	der	ART	die	_	O	O	
+6-39	Möbel	NN	Möbel	_	O	O	
+6-40	,	$,	,	_	O	O	
+6-41	wie	KOUS	wie	_	O	O	
+6-42	uns	PPER	wir	_	O	O	
+6-43	gut	ADJD	gut	_	O	O	
+6-44	schien	VVFIN	scheinen	_	O	O	
+6-45	,	$,	,	_	O	O	
+6-46	mit	PTKVZ	mit	_	O	O	
+6-47	genannt	VVPP	nennen	_	O	O	
+6-48	wird	VAFIN	werden	_	O	O	
+6-49	;	$.	;	_	O	O	
+6-50	also	ADV	also	_	O	O	
+6-51	neue	ADJA	neu	_	O	O	
+6-52	Regale	NN	Regal	_	O	O	
+6-53	und	KON	und	_	O	O	
+6-54	dgl.	ADV	dgl.	_	O	O	
+6-55	Daher	PAV	daher	_	O	O	
+6-56	statt	APPR	statt	_	O	O	
+6-57	30	CARD	30	_	O	O	
+6-58	.	$.	.	_	O	O	
+
+#id=7
+#text=.
+7-1	.	$.	.	_	O	O	
+
+#id=8
+#text=.
+8-1	.	$.	.	_	O	O	
+
+#id=9
+#text=.
+9-1	.	$.	.	_	O	O	
+
+#id=10
+#text=.
+10-1	.	$.	.	_	O	O	
+
+#id=11
+#text=.
+11-1	.	$.	.	_	O	O	
+
+#id=12
+#text=.
+12-1	.	$.	.	_	O	O	
+
+#id=13
+#text=.
+13-1	.	$.	.	_	O	O	
+
+#id=14
+#text=.
+14-1	.	$.	.	_	O	O	
+
+#id=15
+#text=.
+15-1	.	$.	.	_	O	O	
+
+#id=16
+#text=.
+16-1	.	$.	.	_	O	O	
+
+#id=17
+#text=.
+17-1	.	$.	.	_	O	O	
+
+#id=18
+#text=.
+18-1	.	$.	.	_	O	O	
+
+#id=19
+#text=.
+19-1	.	$.	.	_	O	O	
+
+#id=20
+#text=.
+20-1	.	$.	.	_	O	O	
+
+#id=21
+#text=.
+21-1	.	$.	.	_	O	O	
+
+#id=22
+#text=.
+22-1	.	$.	.	_	O	O	
+
+#id=23
+#text=.
+23-1	.	$.	.	_	O	O	
+
+#id=24
+#text=.
+24-1	.	$.	.	_	O	O	
+
+#id=25
+#text=.
+25-1	.	$.	.	_	O	O	
+
+#id=26
+#text=.
+26-1	.	$.	.	_	O	O	
+
+#id=27
+#text=.
+27-1	.	$.	.	_	O	O	
+
+#id=28
+#text=.
+28-1	.	$.	.	_	O	O	
+
+#id=29
+#text=.
+29-1	.	$.	.	_	O	O	
+
+#id=30
+#text=.
+30-1	.	$.	.	_	O	O	
+
+#id=31
+#text=.
+31-1	.	$.	.	_	O	O	
+
+#id=32
+#text=.
+32-1	.	$.	.	_	O	O	
+
+#id=33
+#text=.
+33-1	.	$.	.	_	O	O	
+
+#id=34
+#text=.
+34-1	.	$.	.	_	O	O	
+
+#id=35
+#text=.
+35-1	.	$.	.	_	O	O	
+
+#id=36
+#text=.
+36-1	.	$.	.	_	O	O	
+
+#id=37
+#text=.
+37-1	.	$.	.	_	O	O	
+
+#id=38
+#text=.
+38-1	.	$.	.	_	O	O	
+
+#id=39
+#text=Titel 11,5 wird sich im neuen Hause auch ganz anders stellen; wir haben statt 15 r angesetzt .
+39-1	Titel	NN	Titel	_	O	O	
+39-2	11,5	CARD	@card@	_	O	O	
+39-3	wird	VAFIN	werden	_	O	O	
+39-4	sich	PRF	sich	_	O	O	
+39-5	im	APPRART	in	_	O	O	
+39-6	neuen	ADJA	neu	_	O	O	
+39-7	Hause	NN	Haus	_	O	O	
+39-8	auch	ADV	auch	_	O	O	
+39-9	ganz	ADV	ganz	_	O	O	
+39-10	anders	ADV	anders	_	O	O	
+39-11	stellen	VVINF	stellen	_	O	O	
+39-12	;	$.	;	_	O	O	
+39-13	wir	PPER	wir	_	O	O	
+39-14	haben	VAFIN	haben	_	O	O	
+39-15	statt	APPR	statt	_	O	O	
+39-16	15	CARD	15	_	O	O	
+39-17	r	NE	r	_	O	O	
+39-18	angesetzt	VVPP	ansetzen	_	O	O	
+39-19	.	$.	.	_	O	O	
+
+#id=40
+#text=.
+40-1	.	$.	.	_	O	O	
+
+#id=41
+#text=.
+41-1	.	$.	.	_	O	O	
+
+#id=42
+#text=.
+42-1	.	$.	.	_	O	O	
+
+#id=43
+#text=.
+43-1	.	$.	.	_	O	O	
+
+#id=44
+#text=.
+44-1	.	$.	.	_	O	O	
+
+#id=45
+#text=.
+45-1	.	$.	.	_	O	O	
+
+#id=46
+#text=.
+46-1	.	$.	.	_	O	O	
+
+#id=47
+#text=.
+47-1	.	$.	.	_	O	O	
+
+#id=48
+#text=.
+48-1	.	$.	.	_	O	O	
+
+#id=49
+#text=.
+49-1	.	$.	.	_	O	O	
+
+#id=50
+#text=.
+50-1	.	$.	.	_	O	O	
+
+#id=51
+#text=.
+51-1	.	$.	.	_	O	O	
+
+#id=52
+#text=.
+52-1	.	$.	.	_	O	O	
+
+#id=53
+#text=.
+53-1	.	$.	.	_	O	O	
+
+#id=54
+#text=.
+54-1	.	$.	.	_	O	O	
+
+#id=55
+#text=.
+55-1	.	$.	.	_	O	O	
+
+#id=56
+#text=.
+56-1	.	$.	.	_	O	O	
+
+#id=57
+#text=.
+57-1	.	$.	.	_	O	O	
+
+#id=58
+#text=.
+58-1	.	$.	.	_	O	O	
+
+#id=59
+#text=.
+59-1	.	$.	.	_	O	O	
+
+#id=60
+#text=.
+60-1	.	$.	.	_	O	O	
+
+#id=61
+#text=.
+61-1	.	$.	.	_	O	O	
+
+#id=62
+#text=.
+62-1	.	$.	.	_	O	O	
+
+#id=63
+#text=.
+63-1	.	$.	.	_	O	O	
+
+#id=64
+#text=.
+64-1	.	$.	.	_	O	O	
+
+#id=65
+#text=.
+65-1	.	$.	.	_	O	O	
+
+#id=66
+#text=.
+66-1	.	$.	.	_	O	O	
+
+#id=67
+#text=.
+67-1	.	$.	.	_	O	O	
+
+#id=68
+#text=.
+68-1	.	$.	.	_	O	O	
+
+#id=69
+#text=.
+69-1	.	$.	.	_	O	O	
+
+#id=70
+#text=.
+70-1	.	$.	.	_	O	O	
+
+#id=71
+#text=.
+71-1	.	$.	.	_	O	O	
+
+#id=72
+#text=.
+72-1	.	$.	.	_	O	O	
+
+#id=73
+#text=.
+73-1	.	$.	.	_	O	O	
+
+#id=74
+#text=Titel 111, 1. ist vorläufig noch beizubehalten, fällt aber im neuen Hause fort.
+74-1	Titel	NN	Titel	_	O	O	
+74-2	111	CARD	@card@	_	O	O	
+74-3	,	$,	,	_	O	O	
+74-4	1	CARD	1	_	O	O	
+74-5	.	$.	.	_	O	O	
+74-6	ist	VAFIN	sein	_	O	O	
+74-7	vorläufig	ADJD	vorläufig	_	O	O	
+74-8	noch	ADV	noch	_	O	O	
+74-9	beizubehalten	VVIZU	beibehalten	_	O	O	
+74-10	,	$,	,	_	O	O	
+74-11	fällt	VVFIN	fallen|fällen	_	O	O	
+74-12	aber	ADV	aber	_	O	O	
+74-13	im	APPRART	in	_	O	O	
+74-14	neuen	ADJA	neu	_	O	O	
+74-15	Hause	NN	Haus	_	O	O	
+74-16	fort	PTKVZ	fort	_	O	O	
+74-17	.	$.	.	_	O	O	
+
+#id=75
+#text=Titel 111, 2. ebenso.
+75-1	Titel	NN	Titel	_	O	O	
+75-2	111	CARD	@card@	_	O	O	
+75-3	,	$,	,	_	O	O	
+75-4	2	CARD	2	_	O	O	
+75-5	.	$.	.	_	O	O	
+75-6	ebenso	ADV	ebenso	_	O	O	
+75-7	.	$.	.	_	O	O	
+
+#id=76
+#text=200 r 100 r 100 r
+76-1	200	CARD	200	_	O	O	
+76-2	r	NE	r	_	O	O	
+76-3	100	CARD	100	_	O	O	
+76-4	r	NE	r	_	O	O	
+76-5	100	CARD	100	_	O	O	
+76-6	r	NE	r	_	O	O	
+

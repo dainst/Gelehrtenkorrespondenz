@@ -1,0 +1,127 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=419 Helbig an Henzen Ohne Datum.
+1-1	419	CARD	@card@	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	Ohne	APPR	ohne	_	O	O	
+1-6	Datum	NN	Datum	_	O	O	
+1-7	.	$.	.	_	O	O	
+
+#id=2
+#text=Poststempel Siena, 6. August 1875 Postkarte Ohne Datum Habe die Cornetanatafel an Heydemann geschickt.
+2-1	Poststempel	NN	Poststempel	_	O	O	
+2-2	Siena	NE	Siena	_	O	O	
+2-3	,	$,	,	_	O	O	
+2-4	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Postkarte	NN	Postkarte	_	O	O	
+2-9	Ohne	APPR	ohne	_	O	O	
+2-10	Datum	NN	Datum	_	O	O	
+2-11	Habe	VAFIN	haben	_	O	O	
+2-12	die	ART	die	_	O	O	
+2-13	Cornetanatafel	NN	<unknown>	_	O	O	
+2-14	an	APPR	an	_	O	O	
+2-15	Heydemann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-16	geschickt	VVPP	schicken	_	O	O	
+2-17	.	$.	.	_	O	O	
+
+#id=3
+#text=Doch bezweifle ich sehr, daß er sich durch die Menge der Bemerkungen durchfindet, und scheint es mir unerläßlich, daß er ein reinliches Exemplar erhalte.
+3-1	Doch	ADV	doch	_	O	O	
+3-2	bezweifle	VVFIN	bezweifeln	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	sehr	ADV	sehr	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	daß	KOUS	dass	_	O	O	
+3-7	er	PPER	er	_	O	O	
+3-8	sich	PRF	sich	_	O	O	
+3-9	durch	APPR	durch	_	O	O	
+3-10	die	ART	die	_	O	O	
+3-11	Menge	NN	Menge	_	O	O	
+3-12	der	ART	die	_	O	O	
+3-13	Bemerkungen	NN	Bemerkung	_	O	O	
+3-14	durchfindet	VVFIN	<unknown>	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	und	KON	und	_	O	O	
+3-17	scheint	VVFIN	scheinen	_	O	O	
+3-18	es	PPER	es	_	O	O	
+3-19	mir	PRF	ich	_	O	O	
+3-20	unerläßlich	ADJD	unerlässlich	_	O	O	
+3-21	,	$,	,	_	O	O	
+3-22	daß	KOUS	dass	_	O	O	
+3-23	er	PPER	er	_	O	O	
+3-24	ein	ART	eine	_	O	O	
+3-25	reinliches	ADJA	reinlich	_	O	O	
+3-26	Exemplar	NN	Exemplar	_	O	O	
+3-27	erhalte	VVFIN	erhalten	_	O	O	
+3-28	.	$.	.	_	O	O	
+
+#id=4
+#text=Wenn Mariani störrisch ist, muß man ihm einmal tüchtig die Meinung sagen.
+4-1	Wenn	KOUS	wenn	_	O	O	
+4-2	Mariani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	störrisch	ADJD	störrisch	_	O	O	
+4-4	ist	VAFIN	sein	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	muß	VMFIN	müssen	_	O	O	
+4-7	man	PIS	man	_	O	O	
+4-8	ihm	PPER	er	_	O	O	
+4-9	einmal	ADV	einmal	_	O	O	
+4-10	tüchtig	ADJD	tüchtig	_	O	O	
+4-11	die	ART	die	_	O	O	
+4-12	Meinung	NN	Meinung	_	O	O	
+4-13	sagen	VVINF	sagen	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Nach Chiusi kann ich augenblicklich nicht gehen, da ich - vielleicht in Folge des Essens von unreifem Obste - eine kleine Indisposition habe, die mich an der Villa fesselt.
+5-1	Nach	APPR	nach	_	O	O	
+5-2	Chiusi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-3	kann	VMFIN	können	_	O	O	
+5-4	ich	PPER	ich	_	O	O	
+5-5	augenblicklich	ADJD	augenblicklich	_	O	O	
+5-6	nicht	PTKNEG	nicht	_	O	O	
+5-7	gehen	VVINF	gehen	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	da	KOUS	da	_	O	O	
+5-10	ich	PPER	ich	_	O	O	
+5-11	-	$(	-	_	O	O	
+5-12	vielleicht	ADV	vielleicht	_	O	O	
+5-13	in	APPR	in	_	O	O	
+5-14	Folge	NN	Folge	_	O	O	
+5-15	des	ART	die	_	O	O	
+5-16	Essens	NN	Essen	_	O	O	
+5-17	von	APPR	von	_	O	O	
+5-18	unreifem	ADJA	<unknown>	_	O	O	
+5-19	Obste	NN	<unknown>	_	O	O	
+5-20	-	$(	-	_	O	O	
+5-21	eine	ART	eine	_	O	O	
+5-22	kleine	ADJA	klein	_	O	O	
+5-23	Indisposition	NN	Indisposition	_	O	O	
+5-24	habe	VAFIN	haben	_	O	O	
+5-25	,	$,	,	_	O	O	
+5-26	die	PRELS	die	_	O	O	
+5-27	mich	PRF	ich	_	O	O	
+5-28	an	APPR	an	_	O	O	
+5-29	der	ART	die	_	O	O	
+5-30	Villa	NN	Villa	_	O	O	
+5-31	fesselt	VVFIN	fesseln	_	O	O	
+5-32	.	$.	.	_	O	O	
+
+#id=6
+#text=Baldigst Weiteres.
+6-1	Baldigst	ADJD	baldig	_	O	O	
+6-2	Weiteres	NN	Weiter	_	O	O	
+6-3	.	$.	.	_	O	O	
+
+#id=7
+#text=Herzlichen Gruß Ihr Helbig
+7-1	Herzlichen	ADJA	herzlich	_	O	O	
+7-2	Gruß	NN	Gruß	_	O	O	
+7-3	Ihr	PPOSAT	ihr	_	O	O	
+7-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

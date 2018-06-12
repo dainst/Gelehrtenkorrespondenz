@@ -1,0 +1,330 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=262 20/XI/51 Verehrter Herr ~rofessor Henzen an Gerhard Braun ist vor 3 Tagen angekommen, grüßt einstweilen bestens.
+1-1	262	CARD	@card@	_	O	O	
+1-2	20/XI/51	CARD	<unknown>	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	~rofessor	NN	<unknown>	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-10	ist	VAFIN	sein	_	O	O	
+1-11	vor	APPR	vor	_	O	O	
+1-12	3	CARD	3	_	O	O	
+1-13	Tagen	NN	Tag	_	O	O	
+1-14	angekommen	VVPP	ankommen	_	O	O	
+1-15	,	$,	,	_	O	O	
+1-16	grüßt	VVFIN	grüßen	_	O	O	
+1-17	einstweilen	ADV	einstweilen	_	O	O	
+1-18	bestens	ADV	bestens	_	O	O	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=Kupfer u. Text werde ich Ihnen morgen oder übermorgen hoffentlich schicken.
+2-1	Kupfer	NN	Kupfer	_	O	O	
+2-2	u.	APPR	um	_	O	O	
+2-3	Text	NN	Text	_	O	O	
+2-4	werde	VAFIN	werden	_	O	O	
+2-5	ich	PPER	ich	_	O	O	
+2-6	Ihnen	PPER	Sie	_	O	O	
+2-7	morgen	ADV	morgen	_	O	O	
+2-8	oder	KON	oder	_	O	O	
+2-9	übermorgen	ADV	übermorgen	_	O	O	
+2-10	hoffentlich	ADV	hoffentlich	_	O	O	
+2-11	schicken	VVINF	schicken	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Sie wissen, in Rom hat Alles seine Schwierigkeit, ganz besonders aber, von den Druckereien Aushängebogen zu erhalten.
+3-1	Sie	PPER	Sie	_	O	O	
+3-2	wissen	VVFIN	wissen	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	in	APPR	in	_	O	O	
+3-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-6	hat	VAFIN	haben	_	O	O	
+3-7	Alles	PIS	alle	_	O	O	
+3-8	seine	PPOSAT	sein	_	O	O	
+3-9	Schwierigkeit	NN	Schwierigkeit	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	ganz	ADV	ganz	_	O	O	
+3-12	besonders	ADV	besonders	_	O	O	
+3-13	aber	ADV	aber	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	von	APPR	von	_	O	O	
+3-16	den	ART	die	_	O	O	
+3-17	Druckereien	NN	Druckerei	_	O	O	
+3-18	Aushängebogen	NN	<unknown>	_	O	O	
+3-19	zu	PTKZU	zu	_	O	O	
+3-20	erhalten	VVINF	erhalten	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Daher pazienza, wenn ich nicht schon schicke, zumal Domenico krank ist.
+4-1	Daher	PAV	daher	_	O	O	
+4-2	pazienza	VVFIN	<unknown>	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	wenn	KOUS	wenn	_	O	O	
+4-5	ich	PPER	ich	_	O	O	
+4-6	nicht	PTKNEG	nicht	_	O	O	
+4-7	schon	ADV	schon	_	O	O	
+4-8	schicke	VVFIN	schicken	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	zumal	KOUS	zumal	_	O	O	
+4-11	Domenico	NE	Domenico	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-12	krank	ADJD	krank	_	O	O	
+4-13	ist	VAFIN	sein	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=- Braun sagt, in Wien habe Graf Thun zwar allerlei mit ihm besprochen, ihn auch eingeladen, von Anträgen sei indeß keine Rede gewesen; ohnehin werde er sich auf solche nie einlassen, sei ~zu ~lti" für dergleichen neue Verhältnisse.
+5-1	-	$(	-	_	O	O	
+5-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	sagt	VVFIN	sagen	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	in	APPR	in	_	O	O	
+5-6	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-7	habe	VAFIN	haben	_	O	O	
+5-8	Graf	NE	Graf	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-9	Thun	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-10	zwar	ADV	zwar	_	O	O	
+5-11	allerlei	PIS	allerlei	_	O	O	
+5-12	mit	APPR	mit	_	O	O	
+5-13	ihm	PPER	er	_	O	O	
+5-14	besprochen	VVPP	besprechen	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	ihn	PPER	er	_	O	O	
+5-17	auch	ADV	auch	_	O	O	
+5-18	eingeladen	VVPP	einladen	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	von	APPR	von	_	O	O	
+5-21	Anträgen	NN	Antrag	_	O	O	
+5-22	sei	VAFIN	sein	_	O	O	
+5-23	indeß	NN	<unknown>	_	O	O	
+5-24	keine	PIAT	keine	_	O	O	
+5-25	Rede	NN	Rede	_	O	O	
+5-26	gewesen	VAPP	sein	_	O	O	
+5-27	;	$.	;	_	O	O	
+5-28	ohnehin	ADV	ohnehin	_	O	O	
+5-29	werde	VAFIN	werden	_	O	O	
+5-30	er	PPER	er	_	O	O	
+5-31	sich	PRF	sich	_	O	O	
+5-32	auf	APPR	auf	_	O	O	
+5-33	solche	PIS	solche	_	O	O	
+5-34	nie	ADV	nie	_	O	O	
+5-35	einlassen	VVINF	einlassen	_	O	O	
+5-36	,	$,	,	_	O	O	
+5-37	sei	VAFIN	sein	_	O	O	
+5-38	~zu	ADV	<unknown>	_	O	O	
+5-39	~lti	NN	<unknown>	_	O	O	
+5-40	"	$(	"	_	O	O	
+5-41	für	APPR	für	_	O	O	
+5-42	dergleichen	PIS	dergleichen	_	O	O	
+5-43	neue	ADJA	neu	_	O	O	
+5-44	Verhältnisse	NN	Verhältnis	_	O	O	
+5-45	.	$.	.	_	O	O	
+
+#id=6
+#text=Dies zur Beruhigung !
+6-1	Dies	PDS	dies	_	O	O	
+6-2	zur	APPRART	zu	_	O	O	
+6-3	Beruhigung	NN	Beruhigung	_	O	O	
+6-4	!	$.	!	_	O	O	
+
+#id=7
+#text=- Zugleich läßt er Ihnen sagen, Sie möchten zum Lohne für die Uebersendung der Monumente, beim Ministerium Schritte für unsre Gehaltserneuerung thun, während er selbst an Bunsen schreibe.
+7-1	-	$(	-	_	O	O	
+7-2	Zugleich	ADV	zugleich	_	O	O	
+7-3	läßt	VVFIN	lassen	_	O	O	
+7-4	er	PPER	er	_	O	O	
+7-5	Ihnen	PPER	Sie	_	O	O	
+7-6	sagen	VVINF	sagen	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	Sie	PPER	Sie	_	O	O	
+7-9	möchten	VMFIN	mögen	_	O	O	
+7-10	zum	APPRART	zu	_	O	O	
+7-11	Lohne	NN	Lohn	_	O	O	
+7-12	für	APPR	für	_	O	O	
+7-13	die	ART	die	_	O	O	
+7-14	Uebersendung	NN	<unknown>	_	O	O	
+7-15	der	ART	die	_	O	O	
+7-16	Monumente	NN	Monument	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	beim	APPRART	bei	_	O	O	
+7-19	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-20	Schritte	NN	Schritt	_	O	O	
+7-21	für	APPR	für	_	O	O	
+7-22	unsre	PPOSAT	unsre	_	O	O	
+7-23	Gehaltserneuerung	NN	<unknown>	_	O	O	
+7-24	thun	NE	<unknown>	_	O	O	
+7-25	,	$,	,	_	O	O	
+7-26	während	KOUS	während	_	O	O	
+7-27	er	PPER	er	_	O	O	
+7-28	selbst	ADV	selbst	_	O	O	
+7-29	an	APPR	an	_	O	O	
+7-30	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-31	schreibe	VVFIN	schreiben	_	O	O	
+7-32	.	$.	.	_	O	O	
+
+#id=8
+#text=Er hält es für nöthig, dß.
+8-1	Er	PPER	er	_	O	O	
+8-2	hält	VVFIN	halten	_	O	O	
+8-3	es	PPER	es	_	O	O	
+8-4	für	APPR	für	_	O	O	
+8-5	nöthig	ADJD	<unknown>	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	dß	VVFIN	<unknown>	_	O	O	
+8-8	.	$.	.	_	O	O	
+
+#id=9
+#text=bie auch Etwas dafür thun.
+9-1	bie	VVFIN	<unknown>	_	O	O	
+9-2	auch	ADV	auch	_	O	O	
+9-3	Etwas	NN	Etwas	_	O	O	
+9-4	dafür	PAV	dafür	_	O	O	
+9-5	thun	NN	<unknown>	_	O	O	
+9-6	.	$.	.	_	O	O	
+
+#id=10
+#text=Einliegenden Artikel empfehle ich wegen des ersten Abschnitts einer recht schleuniEen Publication.
+10-1	Einliegenden	ADJA	<unknown>	_	O	O	
+10-2	Artikel	NN	Artikel	_	O	O	
+10-3	empfehle	VVFIN	empfehlen	_	O	O	
+10-4	ich	PPER	ich	_	O	O	
+10-5	wegen	APPR	wegen	_	O	O	
+10-6	des	ART	die	_	O	O	
+10-7	ersten	ADJA	erst	_	O	O	
+10-8	Abschnitts	NN	Abschnitt	_	O	O	
+10-9	einer	ART	eine	_	O	O	
+10-10	recht	ADJD	recht	_	O	O	
+10-11	schleuniEen	ADJA	<unknown>	_	O	O	
+10-12	Publication	NN	<unknown>	_	O	O	
+10-13	.	$.	.	_	O	O	
+
+#id=11
+#text=Es ist mir da was Menschliches passirt, wozu mich der unglückliche Mercklin verleitet hat.
+11-1	Es	PPER	es	_	O	O	
+11-2	ist	VAFIN	sein	_	O	O	
+11-3	mir	PPER	ich	_	O	O	
+11-4	da	ADV	da	_	O	O	
+11-5	was	PIAT	was	_	O	O	
+11-6	Menschliches	ADJA	menschlich	_	O	O	
+11-7	passirt	NN	<unknown>	_	O	O	
+11-8	,	$,	,	_	O	O	
+11-9	wozu	PWAV	wozu	_	O	O	
+11-10	mich	PRF	ich	_	O	O	
+11-11	der	ART	die	_	O	O	
+11-12	unglückliche	ADJA	unglücklich	_	O	O	
+11-13	Mercklin	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-14	verleitet	VVPP	verleiten	_	O	O	
+11-15	hat	VAFIN	haben	_	O	O	
+11-16	.	$.	.	_	O	O	
+
+#id=12
+#text=Auf den letzten Theil bin ich ein klein wenig stolz.
+12-1	Auf	APPR	auf	_	O	O	
+12-2	den	ART	die	_	O	O	
+12-3	letzten	ADJA	letzt	_	O	O	
+12-4	Theil	NN	<unknown>	_	O	O	
+12-5	bin	VAFIN	sein	_	O	O	
+12-6	ich	PPER	ich	_	O	O	
+12-7	ein	ART	eine	_	O	O	
+12-8	klein	ADJD	klein	_	O	O	
+12-9	wenig	ADV	wenig	_	O	O	
+12-10	stolz	ADJD	stolz	_	O	O	
+12-11	.	$.	.	_	O	O	
+
+#id=13
+#text=Die Texte kamen mir so desparat vor, dß.
+13-1	Die	ART	die	_	O	O	
+13-2	Texte	NN	Text	_	O	O	
+13-3	kamen	VVFIN	kommen	_	O	O	
+13-4	mir	PPER	ich	_	O	O	
+13-5	so	ADV	so	_	O	O	
+13-6	desparat	ADJD	<unknown>	_	O	O	
+13-7	vor	PTKVZ	vor	_	O	O	
+13-8	,	$,	,	_	O	O	
+13-9	dß	VVFIN	<unknown>	_	O	O	
+13-10	.	$.	.	_	O	O	
+
+#id=14
+#text=ich nicht glaubte, irgend Etwas verstehen zu können, während sich jetzt Alles ganz gut galö~t"h~t.
+14-1	ich	PPER	ich	_	O	O	
+14-2	nicht	PTKNEG	nicht	_	O	O	
+14-3	glaubte	VVFIN	glauben	_	O	O	
+14-4	,	$,	,	_	O	O	
+14-5	irgend	ADV	irgend	_	O	O	
+14-6	Etwas	NN	Etwas	_	O	O	
+14-7	verstehen	VVINF	verstehen	_	O	O	
+14-8	zu	PTKZU	zu	_	O	O	
+14-9	können	VMINF	können	_	O	O	
+14-10	,	$,	,	_	O	O	
+14-11	während	KOUS	während	_	O	O	
+14-12	sich	PRF	sich	_	O	O	
+14-13	jetzt	ADV	jetzt	_	O	O	
+14-14	Alles	PIS	alle	_	O	O	
+14-15	ganz	ADV	ganz	_	O	O	
+14-16	gut	ADJD	gut	_	O	O	
+14-17	galö~t"h~t	VVFIN	<unknown>	_	O	O	
+14-18	.	$.	.	_	O	O	
+
+#id=15
+#text=Also Zumpt wird nun doch a comodo suo weiter arbeiten!
+15-1	Also	ADV	also	_	O	O	
+15-2	Zumpt	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-3	wird	VAFIN	werden	_	O	O	
+15-4	nun	ADV	nun	_	O	O	
+15-5	doch	ADV	doch	_	O	O	
+15-6	a	FM	a	_	O	O	
+15-7	comodo	NE	<unknown>	_	O	O	
+15-8	suo	NN	<unknown>	_	O	O	
+15-9	weiter	ADV	weiter	_	O	O	
+15-10	arbeiten	VVINF	arbeiten	_	O	O	
+15-11	!	$.	!	_	O	O	
+
+#id=16
+#text=Ich hatte immer geglaubt, dß nichts Anderes dabei herau~kommen werde, da j,jie allein schwerlich die ganze Akademie zu Vernunft oder vielmehr zu Energie ( denn die nöthige Einsicht fehlt ja nicht) bringen würden.
+16-1	Ich	PPER	ich	_	O	O	
+16-2	hatte	VAFIN	haben	_	O	O	
+16-3	immer	ADV	immer	_	O	O	
+16-4	geglaubt	VVPP	glauben	_	O	O	
+16-5	,	$,	,	_	O	O	
+16-6	dß	VVFIN	<unknown>	_	O	O	
+16-7	nichts	PIS	nichts	_	O	O	
+16-8	Anderes	PIS	andere	_	O	O	
+16-9	dabei	PAV	dabei	_	O	O	
+16-10	herau~kommen	VVPP	<unknown>	_	O	O	
+16-11	werde	VAFIN	werden	_	O	O	
+16-12	,	$,	,	_	O	O	
+16-13	da	ADV	da	_	O	O	
+16-14	j,jie	VVFIN	<unknown>	_	O	O	
+16-15	allein	ADV	allein	_	O	O	
+16-16	schwerlich	ADJD	schwerlich	_	O	O	
+16-17	die	ART	die	_	O	O	
+16-18	ganze	ADJA	ganz	_	O	O	
+16-19	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+16-20	zu	APPR	zu	_	O	O	
+16-21	Vernunft	NN	Vernunft	_	O	O	
+16-22	oder	KON	oder	_	O	O	
+16-23	vielmehr	ADV	vielmehr	_	O	O	
+16-24	zu	APPR	zu	_	O	O	
+16-25	Energie	NN	Energie	_	O	O	
+16-26	(	$(	(	_	O	O	
+16-27	denn	KON	denn	_	O	O	
+16-28	die	ART	die	_	O	O	
+16-29	nöthige	ADJA	<unknown>	_	O	O	
+16-30	Einsicht	NN	Einsicht	_	O	O	
+16-31	fehlt	VVFIN	fehlen	_	O	O	
+16-32	ja	ADV	ja	_	O	O	
+16-33	nicht	PTKNEG	nicht	_	O	O	
+16-34	)	$(	)	_	O	O	
+16-35	bringen	VVINF	bringen	_	O	O	
+16-36	würden	VAINF	werden	_	O	O	
+16-37	.	$.	.	_	O	O	
+
+#id=17
+#text=Leider
+17-1	Leider	ADV	leider	_	O	O	
+

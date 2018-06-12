@@ -1,0 +1,231 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=?
+1-1	?	$.	?	_	O	O	
+
+#id=2
+#text=313 Lepsius an Henzen Berlin, 5. Juli 1872 g. 9/7 72 r. L Berlin d. 5. Juli 1872 Verehrter Freund Ich schreibe um., gehend , daß allerdings ein Brief von Helbig über Gläser und eine Vase von Depoletti, nach welchem Sie wie ich sehe schon am 26. v. M. fragten, bei mir nicht eingegangen ist.
+2-1	313	CARD	@card@	_	O	O	
+2-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-3	an	APPR	an	_	O	O	
+2-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-6	,	$,	,	_	O	O	
+2-7	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	g.	VVFIN	<unknown>	_	O	O	
+2-12	9/7	CARD	9/7	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-13	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-14	r.	ADJA	<unknown>	_	O	O	
+2-15	L	NN	L	_	O	O	
+2-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-17	d.	ART	d.	_	O	O	
+2-18	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-20	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-21	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-22	Verehrter	ADJA	verehrt	_	O	O	
+2-23	Freund	NN	Freund	_	O	O	
+2-24	Ich	PPER	ich	_	O	O	
+2-25	schreibe	VVFIN	schreiben	_	O	O	
+2-26	um	PTKVZ	um	_	O	O	
+2-27	.	$.	.	_	O	O	
+2-28	,	$,	,	_	O	O	
+2-29	gehend	ADJD	gehend	_	O	O	
+2-30	,	$,	,	_	O	O	
+2-31	daß	KOUS	dass	_	O	O	
+2-32	allerdings	ADV	allerdings	_	O	O	
+2-33	ein	ART	eine	_	O	O	
+2-34	Brief	NN	Brief	_	O	O	
+2-35	von	APPR	von	_	O	O	
+2-36	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-37	über	APPR	über	_	O	O	
+2-38	Gläser	NN	Glas	_	O	O	
+2-39	und	KON	und	_	O	O	
+2-40	eine	ART	eine	_	O	O	
+2-41	Vase	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+2-42	von	APPR	von	_	O	O	
+2-43	Depoletti	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-44	,	$,	,	_	O	O	
+2-45	nach	APPR	nach	_	O	O	
+2-46	welchem	PRELS	welche	_	O	O	
+2-47	Sie	PPER	Sie	_	O	O	
+2-48	wie	KOKOM	wie	_	O	O	
+2-49	ich	PPER	ich	_	O	O	
+2-50	sehe	VVFIN	sehen	_	O	O	
+2-51	schon	ADV	schon	_	O	O	
+2-52	am	APPRART	an	_	O	O	
+2-53	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-54	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-55	v.	APPR	von	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-56	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-57	fragten	VVFIN	fragen	_	O	O	
+2-58	,	$,	,	_	O	O	
+2-59	bei	APPR	bei	_	O	O	
+2-60	mir	PPER	ich	_	O	O	
+2-61	nicht	PTKNEG	nicht	_	O	O	
+2-62	eingegangen	VVPP	eingehen	_	O	O	
+2-63	ist	VAFIN	sein	_	O	O	
+2-64	.	$.	.	_	O	O	
+
+#id=3
+#text=Seine letzten Briefe sind vom 30. März 16. April 9.
+3-1	Seine	PPOSAT	sein	_	O	O	
+3-2	letzten	ADJA	letzt	_	O	O	
+3-3	Briefe	NN	Brief	_	O	O	
+3-4	sind	VAFIN	sein	_	O	O	
+3-5	vom	APPRART	von	_	O	O	
+3-6	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-8	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-9	16	CARD	16	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-11	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-12	9	CARD	9	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-13	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=4
+#text=19.
+4-1	19	CARD	19	_	O	O	
+4-2	.	$.	.	_	O	O	
+
+#id=5
+#text=22.
+5-1	22	CARD	22	_	O	O	
+5-2	.	$.	.	_	O	O	
+
+#id=6
+#text=30. Mai.
+6-1	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-2	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-3	Mai	NE	Mai	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-4	.	$.	.	_	O	O	
+
+#id=7
+#text=Sie sind alle direkt oder durch Sie beantwortet worden, aber von den Gläsern und Castellanern steht nichts darin.
+7-1	Sie	PPER	Sie	_	O	O	
+7-2	sind	VAFIN	sein	_	O	O	
+7-3	alle	PIS	alle	_	O	O	
+7-4	direkt	ADJD	direkt	_	O	O	
+7-5	oder	KON	oder	_	O	O	
+7-6	durch	APPR	durch	_	O	O	
+7-7	Sie	PPER	Sie	_	O	O	
+7-8	beantwortet	VVPP	beantworten	_	O	O	
+7-9	worden	VAPP	werden	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	aber	ADV	aber	_	O	O	
+7-12	von	APPR	von	_	O	O	
+7-13	den	ART	die	_	O	O	
+7-14	Gläsern	NN	Glas	_	O	O	
+7-15	und	KON	und	_	O	O	
+7-16	Castellanern	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-17	steht	VVFIN	stehen	_	O	O	
+7-18	nichts	PIS	nichts	_	O	O	
+7-19	darin	PAV	darin	_	O	O	
+7-20	.	$.	.	_	O	O	
+
+#id=8
+#text=Ebensowenig hat sich auch bei nochmaliger Nachsehung nich~von Brunn's Blättern gefunden; sollte dieser Sendung nicht noch nachzukommen sein ?
+8-1	Ebensowenig	ADV	ebensowenig	_	O	O	
+8-2	hat	VAFIN	haben	_	O	O	
+8-3	sich	PRF	sich	_	O	O	
+8-4	auch	ADV	auch	_	O	O	
+8-5	bei	APPR	bei	_	O	O	
+8-6	nochmaliger	ADJA	nochmalig	_	O	O	
+8-7	Nachsehung	NN	<unknown>	_	O	O	
+8-8	nich~von	ADJA	<unknown>	_	O	O	
+8-9	Brunn's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-10	Blättern	NN	Blatt|Blättern	_	O	O	
+8-11	gefunden	VVPP	finden	_	O	O	
+8-12	;	$.	;	_	O	O	
+8-13	sollte	VMFIN	sollen	_	O	O	
+8-14	dieser	PDS	diese	_	O	O	
+8-15	Sendung	NN	Sendung	_	O	O	
+8-16	nicht	PTKNEG	nicht	_	O	O	
+8-17	noch	ADV	noch	_	O	O	
+8-18	nachzukommen	VVIZU	nachkommen	_	O	O	
+8-19	sein	VAINF	sein	_	O	O	
+8-20	?	$.	?	_	O	O	
+
+#id=9
+#text=Was Sie mit Helbig über seine Villeggiaturen abmachen, wird ohne Zweifel der Central Direktion immer ge- ~ehm"se±n"i y 1I11~cll(' / Wenn T -; ~l fertig ist, so sollten Sie einmal der Central Direktion einen bestimmten Vorschlag machen wegen S.'s Büste.
+9-1	Was	PWS	was	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	mit	APPR	mit	_	O	O	
+9-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	über	APPR	über	_	O	O	
+9-6	seine	PPOSAT	sein	_	O	O	
+9-7	Villeggiaturen	NN	<unknown>	_	O	O	
+9-8	abmachen	VVFIN	abmachen	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	wird	VAFIN	werden	_	O	O	
+9-11	ohne	APPR	ohne	_	O	O	
+9-12	Zweifel	NN	Zweifel	_	O	O	
+9-13	der	ART	die	_	O	O	
+9-14	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-15	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+9-16	immer	ADV	immer	_	O	O	
+9-17	ge-	TRUNC	ge-	_	O	O	
+9-18	~ehm"se±n"i	NN	<unknown>	_	O	O	
+9-19	y	ADJA	<unknown>	_	O	O	
+9-20	1I11~cll(	NN	<unknown>	_	O	O	
+9-21	'	$(	'	_	O	O	
+9-22	/	$(	/	_	O	O	
+9-23	Wenn	KOUS	wenn	_	O	O	
+9-24	T	NN	T	_	O	O	
+9-25	-	$(	-	_	O	O	
+9-26	;	$.	;	_	O	O	
+9-27	~l	NN	<unknown>	_	O	O	
+9-28	fertig	ADJD	fertig	_	O	O	
+9-29	ist	VAFIN	sein	_	O	O	
+9-30	,	$,	,	_	O	O	
+9-31	so	ADV	so	_	O	O	
+9-32	sollten	VMFIN	sollen	_	O	O	
+9-33	Sie	PPER	Sie	_	O	O	
+9-34	einmal	ADV	einmal	_	O	O	
+9-35	der	ART	die	_	O	O	
+9-36	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-37	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+9-38	einen	ART	eine	_	O	O	
+9-39	bestimmten	ADJA	bestimmt	_	O	O	
+9-40	Vorschlag	NN	Vorschlag	_	O	O	
+9-41	machen	VVFIN	machen	_	O	O	
+9-42	wegen	APPR	wegen	_	O	O	
+9-43	S.'s	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-44	Büste	NN	Büste	_	O	O	
+9-45	.	$.	.	_	O	O	
+
+#id=10
+#text=Über die Ankäufe in Rom verfügt nun Graf Usedom leider ohne viel zu fragen.
+10-1	Über	APPR	über	_	O	O	
+10-2	die	ART	die	_	O	O	
+10-3	Ankäufe	NN	Ankauf	_	O	O	
+10-4	in	APPR	in	_	O	O	
+10-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-6	verfügt	VVFIN	verfügen	_	O	O	
+10-7	nun	ADV	nun	_	O	O	
+10-8	Graf	NE	Graf	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-9	Usedom	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-10	leider	ADV	leider	_	O	O	
+10-11	ohne	APPR	ohne	_	O	O	
+10-12	viel	PIS	viele	_	O	O	
+10-13	zu	PTKZU	zu	_	O	O	
+10-14	fragen	VVINF	fragen	_	O	O	
+10-15	.	$.	.	_	O	O	
+
+#id=11
+#text=Für die Listen scheint er nicht viel Disposition zu haben.
+11-1	Für	APPR	für	_	O	O	
+11-2	die	ART	die	_	O	O	
+11-3	Listen	NN	List|Liste	_	O	O	
+11-4	scheint	VVFIN	scheinen	_	O	O	
+11-5	er	PPER	er	_	O	O	
+11-6	nicht	PTKNEG	nicht	_	O	O	
+11-7	viel	PIAT	viele	_	O	O	
+11-8	Disposition	NN	Disposition	_	O	O	
+11-9	zu	PTKZU	zu	_	O	O	
+11-10	haben	VAINF	haben	_	O	O	
+11-11	.	$.	.	_	O	O	
+

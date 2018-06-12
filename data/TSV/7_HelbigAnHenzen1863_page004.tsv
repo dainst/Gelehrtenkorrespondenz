@@ -1,0 +1,227 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=( Helbig an Henzen Rom, 10. September 1863 H Rom 10. Sept. 1863. g. 19/9 63 Geehrtester Herr Professor !
+1-1	(	$(	(	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	H	NN	H	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-12	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-13	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-14	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Sept.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	.	$.	.	_	O	O	
+1-18	g.	ADJA	<unknown>	_	O	O	
+1-19	19/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-20	63	CARD	63	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-21	Geehrtester	ADJA	<unknown>	_	O	O	
+1-22	Herr	NN	Herr	_	O	O	
+1-23	Professor	NN	Professor	_	O	O	
+1-24	!	$.	!	_	O	O	
+
+#id=3
+#text=Ihre verschiedenen Aufträge sind besorgt.
+3-1	Ihre	PPOSAT	ihr	_	O	O	
+3-2	verschiedenen	ADJA	verschieden	_	O	O	
+3-3	Aufträge	NN	Auftrag	_	O	O	
+3-4	sind	VAFIN	sein	_	O	O	
+3-5	besorgt	ADJD	besorgt	_	O	O	
+3-6	.	$.	.	_	O	O	
+
+#id=4
+#text=Rossi hat versprochen sich im October, wenn er von der Villegiatur nach Rom zurückgekehrt sein wird, an den versprochenen Aufsatz zu machen.
+4-1	Rossi	NE	Rossi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	hat	VAFIN	haben	_	O	O	
+4-3	versprochen	VVPP	versprechen	_	O	O	
+4-4	sich	PRF	sich	_	O	O	
+4-5	im	APPRART	in	_	O	O	
+4-6	October	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-7	,	$,	,	_	O	O	
+4-8	wenn	KOUS	wenn	_	O	O	
+4-9	er	PPER	er	_	O	O	
+4-10	von	APPR	von	_	O	O	
+4-11	der	ART	die	_	O	O	
+4-12	Villegiatur	NN	<unknown>	_	O	O	
+4-13	nach	APPR	nach	_	O	O	
+4-14	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-15	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+4-16	sein	VAINF	sein	_	O	O	
+4-17	wird	VAFIN	werden	_	O	O	
+4-18	,	$,	,	_	O	O	
+4-19	an	APPR	an	_	O	O	
+4-20	den	ART	die	_	O	O	
+4-21	versprochenen	ADJA	versprochen	_	O	O	
+4-22	Aufsatz	NN	Aufsatz	_	O	O	
+4-23	zu	PTKZU	zu	_	O	O	
+4-24	machen	VVINF	machen	_	O	O	
+4-25	.	$.	.	_	O	O	
+
+#id=5
+#text=Ob er sein Versprechen hält, ist eine andere Frage.
+5-1	Ob	KOUS	ob	_	O	O	
+5-2	er	PPER	er	_	O	O	
+5-3	sein	PPOSAT	sein	_	O	O	
+5-4	Versprechen	NN	Versprechen	_	O	O	
+5-5	hält	VVFIN	halten	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	ist	VAFIN	sein	_	O	O	
+5-8	eine	ART	eine	_	O	O	
+5-9	andere	PIAT	andere	_	O	O	
+5-10	Frage	NN	Frage	_	O	O	
+5-11	.	$.	.	_	O	O	
+
+#id=6
+#text=Dem Advocaten Fortis glaube ich mit Hülfe der mir von Ihnen gegebenen Notizen genügendes Material an die Hand gegeben zu haben, um den Venetianischen Buchhändler abzugurgeln.
+6-1	Dem	ART	die	_	O	O	
+6-2	Advocaten	NN	<unknown>	_	O	O	
+6-3	Fortis	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	glaube	VVFIN	glauben	_	O	O	
+6-5	ich	PPER	ich	_	O	O	
+6-6	mit	APPR	mit	_	O	O	
+6-7	Hülfe	NN	<unknown>	_	O	O	
+6-8	der	ART	die	_	O	O	
+6-9	mir	PRF	ich	_	O	O	
+6-10	von	APPR	von	_	O	O	
+6-11	Ihnen	PPER	Sie	_	O	O	
+6-12	gegebenen	ADJA	gegeben	_	O	O	
+6-13	Notizen	NN	Notiz	_	O	O	
+6-14	genügendes	ADJA	genügend	_	O	O	
+6-15	Material	NN	Material	_	O	O	
+6-16	an	APPR	an	_	O	O	
+6-17	die	ART	die	_	O	O	
+6-18	Hand	NN	Hand	_	O	O	
+6-19	gegeben	VVPP	geben	_	O	O	
+6-20	zu	PTKZU	zu	_	O	O	
+6-21	haben	VAINF	haben	_	O	O	
+6-22	,	$,	,	_	O	O	
+6-23	um	KOUI	um	_	O	O	
+6-24	den	ART	die	_	O	O	
+6-25	Venetianischen	ADJA	venetianisch	_	O	O	
+6-26	Buchhändler	NN	Buchhändler	_	O	O	
+6-27	abzugurgeln	VVIZU	<unknown>	_	O	O	
+6-28	.	$.	.	_	O	O	
+
+#id=7
+#text=Schultz versichert mir, daß die Zimmer, welche Sie für die Ihnen befreundete Berliner Familie bestellt haben, bereits in Ordnung sind und stündlich ihre Insassen aufnehmen können.
+7-1	Schultz	NE	Schultz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	versichert	VVFIN	versichern	_	O	O	
+7-3	mir	PPER	ich	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	daß	KOUS	dass	_	O	O	
+7-6	die	ART	die	_	O	O	
+7-7	Zimmer	NN	Zimmer	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	welche	PRELS	welche	_	O	O	
+7-10	Sie	PPER	Sie	_	O	O	
+7-11	für	APPR	für	_	O	O	
+7-12	die	ART	die	_	O	O	
+7-13	Ihnen	PPER	Sie	_	O	O	
+7-14	befreundete	ADJA	befreundet	_	O	O	
+7-15	Berliner	ADJA	Berliner	_	O	O	
+7-16	Familie	NN	Familie	_	O	O	
+7-17	bestellt	VVPP	bestellen	_	O	O	
+7-18	haben	VAFIN	haben	_	O	O	
+7-19	,	$,	,	_	O	O	
+7-20	bereits	ADV	bereits	_	O	O	
+7-21	in	APPR	in	_	O	O	
+7-22	Ordnung	NN	Ordnung	_	O	O	
+7-23	sind	VAFIN	sein	_	O	O	
+7-24	und	KON	und	_	O	O	
+7-25	stündlich	ADJD	stündlich	_	O	O	
+7-26	ihre	PPOSAT	ihr	_	O	O	
+7-27	Insassen	NN	Insasse	_	O	O	
+7-28	aufnehmen	VVINF	aufnehmen	_	O	O	
+7-29	können	VMINF	können	_	O	O	
+7-30	.	$.	.	_	O	O	
+
+#id=8
+#text=Was die für das Institut eingelaufenen Aufsätze betrifft, so notire ich Folgendes : 1.
+8-1	Was	PWS	was	_	O	O	
+8-2	die	ART	die	_	O	O	
+8-3	für	APPR	für	_	O	O	
+8-4	das	ART	die	_	O	O	
+8-5	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-6	eingelaufenen	ADJA	eingelaufen	_	O	O	
+8-7	Aufsätze	NN	Aufsatz	_	O	O	
+8-8	betrifft	VVFIN	betreffen	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	so	ADV	so	_	O	O	
+8-11	notire	VVFIN	<unknown>	_	O	O	
+8-12	ich	PPER	ich	_	O	O	
+8-13	Folgendes	NN	Folgende	_	O	O	
+8-14	:	$.	:	_	O	O	
+8-15	1	CARD	1	_	O	O	
+8-16	.	$.	.	_	O	O	
+
+#id=9
+#text=Aufsatz von de Witte Darstellungen des Verraths der Eriphyle.
+9-1	Aufsatz	NN	Aufsatz	_	O	O	
+9-2	von	APPR	von	_	O	O	
+9-3	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-4	Witte	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-5	Darstellungen	NN	Darstellung	_	O	O	
+9-6	des	ART	die	_	O	O	
+9-7	Verraths	NN	<unknown>	_	O	O	
+9-8	der	ART	die	_	O	O	
+9-9	Eriphyle	NN	<unknown>	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=2. von Cavedoni Beiträge zur Erklärung der Auguststatue von Prima porta (numismatische Notizen ) • 3. von Conestabile: Bemerkungen über einen etruskischen Spiegel mit einer Darstellung Qen Dioskuren.
+10-1	2	CARD	2	_	O	O	
+10-2	.	$.	.	_	O	O	
+10-3	von	APPR	von	_	O	O	
+10-4	Cavedoni	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-5	Beiträge	NN	Beitrag	_	O	O	
+10-6	zur	APPRART	zu	_	O	O	
+10-7	Erklärung	NN	Erklärung	_	O	O	
+10-8	der	ART	die	_	O	O	
+10-9	Auguststatue	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+10-10	von	APPR	von	_	O	O	
+10-11	Prima	NN	Prima	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-12	porta	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+10-13	(	$(	(	_	O	O	
+10-14	numismatische	ADJA	numismatisch	_	O	O	
+10-15	Notizen	NN	Notiz	_	O	O	
+10-16	)	$(	)	_	O	O	
+10-17	•	NN	<unknown>	_	O	O	
+10-18	3	CARD	3	_	O	O	
+10-19	.	$.	.	_	O	O	
+10-20	von	APPR	von	_	O	O	
+10-21	Conestabile	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-22	:	$.	:	_	O	O	
+10-23	Bemerkungen	NN	Bemerkung	_	O	O	
+10-24	über	APPR	über	_	O	O	
+10-25	einen	ART	eine	_	O	O	
+10-26	etruskischen	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+10-27	Spiegel	NN	Spiegel	_	I-webanno.custom.LetterEntity_	I-OBJ	
+10-28	mit	APPR	mit	_	O	O	
+10-29	einer	ART	eine	_	O	O	
+10-30	Darstellung	NN	Darstellung	_	O	O	
+10-31	Qen	NE	<unknown>	_	O	O	
+10-32	Dioskuren	NN	<unknown>	_	O	O	
+10-33	.	$.	.	_	O	O	
+
+#id=11
+#text=5.
+11-1	5	CARD	5	_	O	O	
+11-2	.	$.	.	_	O	O	
+
+#id=12
+#text=Vier Aufsätze von Rhusopulos (a Ein Ausgrabungsbe-
+12-1	Vier	CARD	vier	_	O	O	
+12-2	Aufsätze	NN	Aufsatz	_	O	O	
+12-3	von	APPR	von	_	O	O	
+12-4	Rhusopulos	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-5	(	$(	(	_	O	O	
+12-6	a	FM	a	_	O	O	
+12-7	Ein	ART	eine	_	O	O	
+12-8	Ausgrabungsbe-	TRUNC	<unknown>	_	O	O	
+

@@ -1,0 +1,51 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=325 2 Helbig an Henzen Ohne Datum - Poststempel Siena, 7. h'~§Pilt 1874 -:J....~.
+1-1	325	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	Ohne	APPR	ohne	_	O	O	
+1-7	Datum	NN	Datum	_	O	O	
+1-8	-	$(	-	_	O	O	
+1-9	Poststempel	NN	Poststempel	_	O	O	
+1-10	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-11	,	$,	,	_	O	O	
+1-12	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-13	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	h'~§Pilt	NN	<unknown>	_	O	O	
+1-15	1874	CARD	@card@	_	O	O	
+1-16	-:J	ADJD	<unknown>	_	O	O	
+1-17	...	$.	...	_	O	O	
+1-18	.~	NN	<unknown>	_	O	O	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=wir jemals gesehen.
+2-1	wir	PPER	wir	_	O	O	
+2-2	jemals	ADV	jemals	_	O	O	
+2-3	gesehen	VVPP	sehen	_	O	O	
+2-4	.	$.	.	_	O	O	
+
+#id=3
+#text=Tausend Grüße an Rosina.
+3-1	Tausend	CARD	tausend	_	O	O	
+3-2	Grüße	NN	Gruß	_	O	O	
+3-3	an	APPR	an	_	O	O	
+3-4	Rosina	NE	Rosina	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	.	$.	.	_	O	O	
+
+#id=4
+#text=Uns geht es ausgezeichnet.
+4-1	Uns	PPER	wir	_	O	O	
+4-2	geht	VVFIN	gehen	_	O	O	
+4-3	es	PPER	es	_	O	O	
+4-4	ausgezeichnet	ADJD	ausgezeichnet	_	O	O	
+4-5	.	$.	.	_	O	O	
+
+#id=5
+#text=Keine Unterschrift
+5-1	Keine	PIAT	keine	_	O	O	
+5-2	Unterschrift	NN	Unterschrift	_	O	O	
+

@@ -1,0 +1,235 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=294 Lepsius an Henzen Berlin, 4. Juni 1875 2 von Lüders aus Bonn eingegangen.
+1-1	294	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	4	CARD	4	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	von	APPR	von	_	O	O	
+1-13	Lüders	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-14	aus	APPR	aus	_	O	O	
+1-15	Bonn	NE	Bonn	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-16	eingegangen	VVPP	eingehen	_	O	O	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text=Wir werden nun aber erst zu einer Konferenz wieder kommen, wenn bestimmtere Nachricht von Straßburg eingegangen sein wird.
+2-1	Wir	PPER	wir	_	O	O	
+2-2	werden	VAFIN	werden	_	O	O	
+2-3	nun	ADV	nun	_	O	O	
+2-4	aber	ADV	aber	_	O	O	
+2-5	erst	ADV	erst	_	O	O	
+2-6	zu	APPR	zu	_	O	O	
+2-7	einer	ART	eine	_	O	O	
+2-8	Konferenz	NN	Konferenz	_	O	O	
+2-9	wieder	ADV	wieder	_	O	O	
+2-10	kommen	VVINF	kommen	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	wenn	KOUS	wenn	_	O	O	
+2-13	bestimmtere	ADJA	bestimmt	_	O	O	
+2-14	Nachricht	NN	Nachricht	_	O	O	
+2-15	von	APPR	von	_	O	O	
+2-16	Straßburg	NE	Straßburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-17	eingegangen	VVPP	eingehen	_	O	O	
+2-18	sein	VAINF	sein	_	O	O	
+2-19	wird	VAFIN	werden	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Steuern Sie nur nach Ihrem Ermessen zum Cavedoni Denkmal bei; ich glaube die Zustimmung der Central Direktion vertreten zu können.
+3-1	Steuern	VVFIN	steuern	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	nur	ADV	nur	_	O	O	
+3-4	nach	APPR	nach	_	O	O	
+3-5	Ihrem	PPOSAT	ihr	_	O	O	
+3-6	Ermessen	NN	Ermessen	_	O	O	
+3-7	zum	APPRART	zu	_	O	O	
+3-8	Cavedoni	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-9	Denkmal	NN	Denkmal	_	O	O	
+3-10	bei	PTKVZ	bei	_	O	O	
+3-11	;	$.	;	_	O	O	
+3-12	ich	PPER	ich	_	O	O	
+3-13	glaube	VVFIN	glauben	_	O	O	
+3-14	die	ART	die	_	O	O	
+3-15	Zustimmung	NN	Zustimmung	_	O	O	
+3-16	der	ART	die	_	O	O	
+3-17	Central	NN	<unknown>	_	O	O	
+3-18	Direktion	NN	Direktion	_	O	O	
+3-19	vertreten	VVINF	vertreten	_	O	O	
+3-20	zu	PTKZU	zu	_	O	O	
+3-21	können	VMINF	können	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=Ebenso mögen Sie Conze befriedigen.
+4-1	Ebenso	ADV	ebenso	_	O	O	
+4-2	mögen	VMFIN	mögen	_	O	O	
+4-3	Sie	PPER	Sie	_	O	O	
+4-4	Conze	NE	Conze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	befriedigen	VVINF	befriedigen	_	O	O	
+4-6	.	$.	.	_	O	O	
+
+#id=5
+#text=Auch dagegen wird niemand etwas haben.
+5-1	Auch	ADV	auch	_	O	O	
+5-2	dagegen	PAV	dagegen	_	O	O	
+5-3	wird	VAFIN	werden	_	O	O	
+5-4	niemand	PIS	niemand	_	O	O	
+5-5	etwas	PIS	etwas	_	O	O	
+5-6	haben	VAINF	haben	_	O	O	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Konferenz kann sich noch hinziehen und Sie werden wünschen vorzugehen.
+6-1	Die	ART	die	_	O	O	
+6-2	Konferenz	NN	Konferenz	_	O	O	
+6-3	kann	VMFIN	können	_	O	O	
+6-4	sich	PRF	sich	_	O	O	
+6-5	noch	ADV	noch	_	O	O	
+6-6	hinziehen	VVINF	hinziehen	_	O	O	
+6-7	und	KON	und	_	O	O	
+6-8	Sie	PPER	Sie	_	O	O	
+6-9	werden	VAINF	werden	_	O	O	
+6-10	wünschen	VVFIN	wünschen	_	O	O	
+6-11	vorzugehen	VVIZU	vorgehen	_	O	O	
+6-12	.	$.	.	_	O	O	
+
+#id=7
+#text=Helbig's Brief vom 1. Juni ist so eben eingegangen.
+7-1	Helbig's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	Brief	NN	Brief	_	O	O	
+7-3	vom	APPRART	von	_	O	O	
+7-4	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-6	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-7	ist	VAFIN	sein	_	O	O	
+7-8	so	ADV	so	_	O	O	
+7-9	eben	ADV	eben	_	O	O	
+7-10	eingegangen	VVPP	eingehen	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich kann nichts thun, als seine sehr dankenswerthen Mittheilungen an Curtius geben, dem die Förderung dieser Dinge, so weit sie ihm nicht durch Bötticher unmöglich gemacht wird, zukommt und am Herzen liegt.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	kann	VMFIN	können	_	O	O	
+8-3	nichts	PIAT	nichts	_	O	O	
+8-4	thun	NN	<unknown>	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	als	KOKOM	als	_	O	O	
+8-7	seine	PPOSAT	sein	_	O	O	
+8-8	sehr	ADV	sehr	_	O	O	
+8-9	dankenswerthen	ADJA	<unknown>	_	O	O	
+8-10	Mittheilungen	NN	<unknown>	_	O	O	
+8-11	an	APPR	an	_	O	O	
+8-12	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-13	geben	VVFIN	geben	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	dem	PRELS	die	_	O	O	
+8-16	die	ART	die	_	O	O	
+8-17	Förderung	NN	Förderung	_	O	O	
+8-18	dieser	PDAT	dies	_	O	O	
+8-19	Dinge	NN	Ding	_	O	O	
+8-20	,	$,	,	_	O	O	
+8-21	so	ADV	so	_	O	O	
+8-22	weit	ADJD	weit	_	O	O	
+8-23	sie	PPER	sie	_	O	O	
+8-24	ihm	PPER	er	_	O	O	
+8-25	nicht	PTKNEG	nicht	_	O	O	
+8-26	durch	APPR	durch	_	O	O	
+8-27	Bötticher	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-28	unmöglich	ADJD	unmöglich	_	O	O	
+8-29	gemacht	VVPP	machen	_	O	O	
+8-30	wird	VAFIN	werden	_	O	O	
+8-31	,	$,	,	_	O	O	
+8-32	zukommt	VVFIN	zukommen	_	O	O	
+8-33	und	KON	und	_	O	O	
+8-34	am	APPRART	an	_	O	O	
+8-35	Herzen	NN	Herz	_	O	O	
+8-36	liegt	VVFIN	liegen	_	O	O	
+8-37	.	$.	.	_	O	O	
+
+#id=9
+#text=Delbrück den ich vorgestern gesprochen ist sehr vergnügt aus Italien zurückgekommen.
+9-1	Delbrück	NE	Delbrück	_	O	O	
+9-2	den	PRELS	die	_	O	O	
+9-3	ich	PPER	ich	_	O	O	
+9-4	vorgestern	ADV	vorgestern	_	O	O	
+9-5	gesprochen	VVPP	sprechen	_	O	O	
+9-6	ist	VAFIN	sein	_	O	O	
+9-7	sehr	ADV	sehr	_	O	O	
+9-8	vergnügt	ADJD	vergnügt	_	O	O	
+9-9	aus	APPR	aus	_	O	O	
+9-10	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-11	zurückgekommen	VVPP	zurückkommen	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Die letzten Wochen waren vom Himmel sehr begünstigt.
+10-1	Die	ART	die	_	O	O	
+10-2	letzten	ADJA	letzt	_	O	O	
+10-3	Wochen	NN	Woche	_	O	O	
+10-4	waren	VAFIN	sein	_	O	O	
+10-5	vom	APPRART	von	_	O	O	
+10-6	Himmel	NN	Himmel	_	O	O	
+10-7	sehr	ADV	sehr	_	O	O	
+10-8	begünstigt	VVPP	begünstigen	_	O	O	
+10-9	.	$.	.	_	O	O	
+
+#id=11
+#text=Heute zum erstenmale schwül, augenblicklich 24 0 R. Rossi hat uns mit seiner Drohung abzulehnen sehr verlegen gemacht.
+11-1	Heute	ADV	heute	_	O	O	
+11-2	zum	APPRART	zu	_	O	O	
+11-3	erstenmale	NN	<unknown>	_	O	O	
+11-4	schwül	ADJD	schwül	_	O	O	
+11-5	,	$,	,	_	O	O	
+11-6	augenblicklich	ADJD	augenblicklich	_	O	O	
+11-7	24	CARD	24	_	O	O	
+11-8	0	CARD	@card@	_	O	O	
+11-9	R.	NE	R.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-10	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-11	hat	VAFIN	haben	_	O	O	
+11-12	uns	PPER	wir	_	O	O	
+11-13	mit	APPR	mit	_	O	O	
+11-14	seiner	PPOSAT	sein	_	O	O	
+11-15	Drohung	NN	Drohung	_	O	O	
+11-16	abzulehnen	VVIZU	ablehnen	_	O	O	
+11-17	sehr	ADV	sehr	_	O	O	
+11-18	verlegen	ADJD	verlegen	_	O	O	
+11-19	gemacht	VVPP	machen	_	O	O	
+11-20	.	$.	.	_	O	O	
+
+#id=12
+#text=Mommsen hatte vorher bei ihm angefragt.
+12-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	hatte	VAFIN	haben	_	O	O	
+12-3	vorher	ADV	vorher	_	O	O	
+12-4	bei	APPR	bei	_	O	O	
+12-5	ihm	PPER	er	_	O	O	
+12-6	angefragt	VVPP	anfragen	_	O	O	
+12-7	.	$.	.	_	O	O	
+
+#id=13
+#text=Gut daß die Bombe nicht geplatzt ist.
+13-1	Gut	ADJD	gut	_	O	O	
+13-2	daß	KOUS	dass	_	O	O	
+13-3	die	ART	die	_	O	O	
+13-4	Bombe	NN	Bombe	_	O	O	
+13-5	nicht	PTKNEG	nicht	_	O	O	
+13-6	geplatzt	VVPP	platzen	_	O	O	
+13-7	ist	VAFIN	sein	_	O	O	
+13-8	.	$.	.	_	O	O	
+
+#id=14
+#text=Herzlich Ihr R Lepsius
+14-1	Herzlich	ADJD	herzlich	_	O	O	
+14-2	Ihr	PPOSAT	ihr	_	O	O	
+14-3	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+14-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

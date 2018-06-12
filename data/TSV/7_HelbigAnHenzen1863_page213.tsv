@@ -1,0 +1,78 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 chen Gruß Helbig an Henzen Siena, 25. Juli 1874 Ihr ergebener Helbig Schöne hat definitiv auf Publication der Cista - verzichtet.
+1-1	2	CARD	2	_	O	O	
+1-2	chen	ADJA	<unknown>	_	O	O	
+1-3	Gruß	NN	Gruß	_	O	O	
+1-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Ihr	PPOSAT	ihr	_	O	O	
+1-14	ergebener	ADJA	ergeben	_	O	O	
+1-15	Helbig	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-16	Schöne	NN	Schöne	_	O	O	
+1-17	hat	VAFIN	haben	_	O	O	
+1-18	definitiv	ADJD	definitiv	_	O	O	
+1-19	auf	APPR	auf	_	O	O	
+1-20	Publication	NN	<unknown>	_	O	O	
+1-21	der	ART	die	_	O	O	
+1-22	Cista	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-23	-	$(	-	_	O	O	
+1-24	verzichtet	VVPP	verzichten	_	O	O	
+1-25	.	$.	.	_	O	O	
+
+#id=2
+#text=Gamurrini habe ich wegen Tav.
+2-1	Gamurrini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	habe	VAFIN	haben	_	O	O	
+2-3	ich	PPER	ich	_	O	O	
+2-4	wegen	APPR	wegen	_	O	O	
+2-5	Tav	NE	<unknown>	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=d'agg.
+3-1	d'agg	NE	<unknown>	_	O	O	
+3-2	.	$.	.	_	O	O	
+
+#id=4
+#text=F getreten, aber ohne Antwort zu erhalten.
+4-1	F	NN	F	_	O	O	
+4-2	getreten	VVPP	treten	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	aber	ADV	aber	_	O	O	
+4-5	ohne	APPR	ohne	_	O	O	
+4-6	Antwort	NN	Antwort	_	O	O	
+4-7	zu	PTKZU	zu	_	O	O	
+4-8	erhalten	VVINF	erhalten	_	O	O	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=Könnten Sie vielleicht das Gleiche thun ?
+5-1	Könnten	VMFIN	können	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	vielleicht	ADV	vielleicht	_	O	O	
+5-4	das	ART	die	_	O	O	
+5-5	Gleiche	ADJA	gleich	_	O	O	
+5-6	thun	NN	<unknown>	_	O	O	
+5-7	?	$.	?	_	O	O	
+
+#id=6
+#text=Vertas ( Es folgt ein Brief von Nadine Helbig )
+6-1	Vertas	NE	<unknown>	_	O	O	
+6-2	(	$(	(	_	O	O	
+6-3	Es	PPER	es	_	O	O	
+6-4	folgt	VVFIN	folgen	_	O	O	
+6-5	ein	ART	eine	_	O	O	
+6-6	Brief	NN	Brief	_	O	O	
+6-7	von	APPR	von	_	O	O	
+6-8	Nadine	NE	Nadine	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-9	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-10	)	$(	)	_	O	O	
+

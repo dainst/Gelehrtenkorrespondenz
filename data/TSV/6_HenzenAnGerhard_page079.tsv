@@ -1,0 +1,334 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=299 16/IX/52 2 Henzen an Gerhard der einzige Neapolitaner, der reist, sehr viel gutes Material liefern kann, u. so habe ich mich mit einer Privatkritik begnügen müssen.
+1-1	299	CARD	@card@	_	O	O	
+1-2	16/IX/52	CARD	<unknown>	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	der	ART	die	_	O	O	
+1-8	einzige	ADJA	einzig	_	O	O	
+1-9	Neapolitaner	NN	Neapolitaner	_	O	O	
+1-10	,	$,	,	_	O	O	
+1-11	der	PRELS	die	_	O	O	
+1-12	reist	VVFIN	reisen	_	O	O	
+1-13	,	$,	,	_	O	O	
+1-14	sehr	ADV	sehr	_	O	O	
+1-15	viel	PIAT	viele	_	O	O	
+1-16	gutes	ADJA	gut	_	O	O	
+1-17	Material	NN	Material	_	O	O	
+1-18	liefern	VVINF	liefern	_	O	O	
+1-19	kann	VMFIN	können	_	O	O	
+1-20	,	$,	,	_	O	O	
+1-21	u.	KON	und	_	O	O	
+1-22	so	ADV	so	_	O	O	
+1-23	habe	VAFIN	haben	_	O	O	
+1-24	ich	PPER	ich	_	O	O	
+1-25	mich	PRF	ich	_	O	O	
+1-26	mit	APPR	mit	_	O	O	
+1-27	einer	ART	eine	_	O	O	
+1-28	Privatkritik	NN	<unknown>	_	O	O	
+1-29	begnügen	VVINF	begnügen	_	O	O	
+1-30	müssen	VMINF	müssen	_	O	O	
+1-31	.	$.	.	_	O	O	
+
+#id=2
+#text=Ohnehin wird Secchi Feuer speien, u. er seiner Bastonade nicht entgehen.
+2-1	Ohnehin	ADV	ohnehin	_	O	O	
+2-2	wird	VAFIN	werden	_	O	O	
+2-3	Secchi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-4	Feuer	NN	Feuer	_	O	O	
+2-5	speien	VVINF	speien	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	u.	APPR	um	_	O	O	
+2-8	er	PPER	er	_	O	O	
+2-9	seiner	PPOSAT	sein	_	O	O	
+2-10	Bastonade	NN	Bastonade	_	O	O	
+2-11	nicht	PTKNEG	nicht	_	O	O	
+2-12	entgehen	VVFIN	entgehen	_	O	O	
+2-13	.	$.	.	_	O	O	
+
+#id=3
+#text=Auch der beigegebne Stich ist so schlecht, dß.
+3-1	Auch	ADV	auch	_	O	O	
+3-2	der	ART	die	_	O	O	
+3-3	beigegebne	ADJA	<unknown>	_	O	O	
+3-4	Stich	NN	Stich	_	O	O	
+3-5	ist	VAFIN	sein	_	O	O	
+3-6	so	ADV	so	_	O	O	
+3-7	schlecht	ADJD	schlecht	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	dß	VVFIN	<unknown>	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=ich nicht wage, die Inschrift darnach etwa in Dtschl. abzudrucken.
+4-1	ich	PPER	ich	_	O	O	
+4-2	nicht	PTKNEG	nicht	_	O	O	
+4-3	wage	VVFIN	wagen	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	die	ART	die	_	O	O	
+4-6	Inschrift	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-7	darnach	ADV	<unknown>	_	O	O	
+4-8	etwa	ADV	etwa	_	O	O	
+4-9	in	APPR	in	_	O	O	
+4-10	Dtschl	NN	<unknown>	_	O	O	
+4-11	.	$.	.	_	O	O	
+4-12	abzudrucken	VVIZU	abdrucken	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Secchi 1st noch immer abwesend.
+5-1	Secchi	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	1st	NN	<unknown>	_	O	O	
+5-3	noch	ADV	noch	_	O	O	
+5-4	immer	ADV	immer	_	O	O	
+5-5	abwesend	ADJD	abwesend	_	O	O	
+5-6	.	$.	.	_	O	O	
+
+#id=6
+#text=Seien Sie versichert, daß es mir schwer genug wird, sein Zeug zu drucken; ailein setzen Sie sich an unsre Stelle!
+6-1	Seien	VAFIN	sein	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	versichert	VVPP	versichern	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	daß	KOUS	dass	_	O	O	
+6-6	es	PPER	es	_	O	O	
+6-7	mir	PPER	ich	_	O	O	
+6-8	schwer	ADJD	schwer	_	O	O	
+6-9	genug	ADV	genug	_	O	O	
+6-10	wird	VAFIN	werden	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	sein	PPOSAT	sein	_	O	O	
+6-13	Zeug	NN	Zeug	_	O	O	
+6-14	zu	PTKZU	zu	_	O	O	
+6-15	drucken	VVINF	drucken	_	O	O	
+6-16	;	$.	;	_	O	O	
+6-17	ailein	ADJD	<unknown>	_	O	O	
+6-18	setzen	VVFIN	setzen	_	O	O	
+6-19	Sie	PPER	Sie	_	O	O	
+6-20	sich	PRF	sich	_	O	O	
+6-21	an	APPR	an	_	O	O	
+6-22	unsre	PPOSAT	unsre	_	O	O	
+6-23	Stelle	NN	Stelle	_	O	O	
+6-24	!	$.	!	_	O	O	
+
+#id=7
+#text=Schließen bie durch eine formelle Weisung der Direction das Aegyptische aus, so werden wir ihn abweisen kBnnen; aber sonst ist~s nicht möglich.
+7-1	Schließen	NN	Schließen	_	O	O	
+7-2	bie	VVFIN	<unknown>	_	O	O	
+7-3	durch	APPR	durch	_	O	O	
+7-4	eine	ART	eine	_	O	O	
+7-5	formelle	ADJA	formell	_	O	O	
+7-6	Weisung	NN	Weisung	_	O	O	
+7-7	der	ART	die	_	O	O	
+7-8	Direction	NN	<unknown>	_	O	O	
+7-9	das	ART	die	_	O	O	
+7-10	Aegyptische	NN	<unknown>	_	O	O	
+7-11	aus	PTKVZ	aus	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	so	ADV	so	_	O	O	
+7-14	werden	VAFIN	werden	_	O	O	
+7-15	wir	PPER	wir	_	O	O	
+7-16	ihn	PPER	er	_	O	O	
+7-17	abweisen	VVFIN	abweisen	_	O	O	
+7-18	kBnnen	NN	<unknown>	_	O	O	
+7-19	;	$.	;	_	O	O	
+7-20	aber	KON	aber	_	O	O	
+7-21	sonst	ADV	sonst	_	O	O	
+7-22	ist~s	VVFIN	<unknown>	_	O	O	
+7-23	nicht	PTKNEG	nicht	_	O	O	
+7-24	möglich	ADJD	möglich	_	O	O	
+7-25	.	$.	.	_	O	O	
+
+#id=8
+#text=Können ~ie nicht die Schriften von Thiersch u. Guhl irgend einem unglücklichen Reisenden aufpacken ?
+8-1	Können	VMFIN	können	_	O	O	
+8-2	~ie	ADJD	<unknown>	_	O	O	
+8-3	nicht	PTKNEG	nicht	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	Schriften	NN	Schrift	_	O	O	
+8-6	von	APPR	von	_	O	O	
+8-7	Thiersch	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-8	u.	APPR	um	_	O	O	
+8-9	Guhl	NN	<unknown>	_	O	O	
+8-10	irgend	ADV	irgend	_	O	O	
+8-11	einem	ART	eine	_	O	O	
+8-12	unglücklichen	ADJA	unglücklich	_	O	O	
+8-13	Reisenden	NN	Reisende	_	O	O	
+8-14	aufpacken	VVINF	<unknown>	_	O	O	
+8-15	?	$.	?	_	O	O	
+
+#id=9
+#text=- Die sonstigen Broschüren hatten uie ja gewünscht.
+9-1	-	$(	-	_	O	O	
+9-2	Die	ART	die	_	O	O	
+9-3	sonstigen	ADJA	sonstig	_	O	O	
+9-4	Broschüren	NN	Broschüre	_	O	O	
+9-5	hatten	VAFIN	haben	_	O	O	
+9-6	uie	ADJD	<unknown>	_	O	O	
+9-7	ja	ADV	ja	_	O	O	
+9-8	gewünscht	VVPP	wünschen	_	O	O	
+9-9	.	$.	.	_	O	O	
+
+#id=10
+#text=- Der einzelne Bogen im Ännalenbande dürfte sich schwer ersetzen las- ,_sen.
+10-1	-	$(	-	_	O	O	
+10-2	Der	ART	die	_	O	O	
+10-3	einzelne	ADJA	einzeln	_	O	O	
+10-4	Bogen	NN	Bogen	_	O	O	
+10-5	im	APPRART	in	_	O	O	
+10-6	Ännalenbande	NN	<unknown>	_	O	O	
+10-7	dürfte	VMFIN	dürfen	_	O	O	
+10-8	sich	PRF	sich	_	O	O	
+10-9	schwer	ADJD	schwer	_	O	O	
+10-10	ersetzen	VVFIN	ersetzen	_	O	O	
+10-11	las-	TRUNC	Las-	_	O	O	
+10-12	,_sen	NN	<unknown>	_	O	O	
+10-13	.	$.	.	_	O	O	
+
+#id=11
+#text=In Albano hat Rosa, der für uns den Plan der Appia macht, sehr genaue Untersuchungen gemacht, die es herausgestellt haben, daß an diesem Orte, wo man so wenig Alter~ thümer zu suchen pflegt, höchst interessante Ueberreste vorhanden sind.
+11-1	In	APPR	in	_	O	O	
+11-2	Albano	NE	Albano	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-3	hat	VAFIN	haben	_	O	O	
+11-4	Rosa	NE	Rosa	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-5	,	$,	,	_	O	O	
+11-6	der	PRELS	die	_	O	O	
+11-7	für	APPR	für	_	O	O	
+11-8	uns	PPER	wir	_	O	O	
+11-9	den	ART	die	_	O	O	
+11-10	Plan	NN	Plan	_	O	O	
+11-11	der	ART	die	_	O	O	
+11-12	Appia	NN	<unknown>	_	O	O	
+11-13	macht	VVFIN	machen	_	O	O	
+11-14	,	$,	,	_	O	O	
+11-15	sehr	ADV	sehr	_	O	O	
+11-16	genaue	ADJA	genau	_	O	O	
+11-17	Untersuchungen	NN	Untersuchung	_	O	O	
+11-18	gemacht	VVPP	machen	_	O	O	
+11-19	,	$,	,	_	O	O	
+11-20	die	PRELS	die	_	O	O	
+11-21	es	PPER	es	_	O	O	
+11-22	herausgestellt	VVPP	herausstellen	_	O	O	
+11-23	haben	VAFIN	haben	_	O	O	
+11-24	,	$,	,	_	O	O	
+11-25	daß	KOUS	dass	_	O	O	
+11-26	an	APPR	an	_	O	O	
+11-27	diesem	PDAT	dies	_	O	O	
+11-28	Orte	NN	Ort	_	O	O	
+11-29	,	$,	,	_	O	O	
+11-30	wo	PWAV	wo	_	O	O	
+11-31	man	PIS	man	_	O	O	
+11-32	so	ADV	so	_	O	O	
+11-33	wenig	PIAT	wenige	_	O	O	
+11-34	Alter~	NN	<unknown>	_	O	O	
+11-35	thümer	ADJD	<unknown>	_	O	O	
+11-36	zu	PTKZU	zu	_	O	O	
+11-37	suchen	VVINF	suchen	_	O	O	
+11-38	pflegt	VVFIN	pflegen	_	O	O	
+11-39	,	$,	,	_	O	O	
+11-40	höchst	ADJD	hochöchst	_	O	O	
+11-41	interessante	ADJA	interessant	_	O	O	
+11-42	Ueberreste	NN	<unknown>	_	O	O	
+11-43	vorhanden	ADJD	vorhanden	_	O	O	
+11-44	sind	VAFIN	sein	_	O	O	
+11-45	.	$.	.	_	O	O	
+
+#id=12
+#text=Der ganze Seerand ist von ihnen bedeckt, u. der See selbst damit umgeben.
+12-1	Der	ART	die	_	O	O	
+12-2	ganze	ADJA	ganz	_	O	O	
+12-3	Seerand	NN	<unknown>	_	O	O	
+12-4	ist	VAFIN	sein	_	O	O	
+12-5	von	APPR	von	_	O	O	
+12-6	ihnen	PPER	sie	_	O	O	
+12-7	bedeckt	VVPP	bedecken	_	O	O	
+12-8	,	$,	,	_	O	O	
+12-9	u.	APPR	um	_	O	O	
+12-10	der	ART	die	_	O	O	
+12-11	See	NN	See	_	O	O	
+12-12	selbst	ADV	selbst	_	O	O	
+12-13	damit	PAV	damit	_	O	O	
+12-14	umgeben	VVPP	umgeben	_	O	O	
+12-15	.	$.	.	_	O	O	
+
+#id=13
+#text=Es sind .... nlagen von einer Großartigkeit, wie sie nicht leicht sonst eine Villa zeigen möchte.
+13-1	Es	PPER	es	_	O	O	
+13-2	sind	VAFIN	sein	_	O	O	
+13-3	...	$.	...	_	O	O	
+13-4	.	$.	.	_	O	O	
+13-5	nlagen	NN	<unknown>	_	O	O	
+13-6	von	APPR	von	_	O	O	
+13-7	einer	ART	eine	_	O	O	
+13-8	Großartigkeit	NN	Großartigkeit	_	O	O	
+13-9	,	$,	,	_	O	O	
+13-10	wie	KOUS	wie	_	O	O	
+13-11	sie	PPER	sie	_	O	O	
+13-12	nicht	PTKNEG	nicht	_	O	O	
+13-13	leicht	ADJD	leicht	_	O	O	
+13-14	sonst	ADV	sonst	_	O	O	
+13-15	eine	ART	eine	_	O	O	
+13-16	Villa	NN	Villa	_	O	O	
+13-17	zeigen	VVINF	zeigen	_	O	O	
+13-18	möchte	VMFIN	mögen	_	O	O	
+13-19	.	$.	.	_	O	O	
+
+#id=14
+#text=Wenn ich nicht schon vorher im Bull.
+14-1	Wenn	KOUS	wenn	_	O	O	
+14-2	ich	PPER	ich	_	O	O	
+14-3	nicht	PTKNEG	nicht	_	O	O	
+14-4	schon	ADV	schon	_	O	O	
+14-5	vorher	ADV	vorher	_	O	O	
+14-6	im	APPRART	in	_	O	O	
+14-7	Bull	NE	Bull	_	O	O	
+14-8	.	$.	.	_	O	O	
+
+#id=15
+#text=davon spreche, so werde ich wohl am 9Yf Dec.
+15-1	davon	PAV	davon	_	O	O	
+15-2	spreche	VVFIN	sprechen	_	O	O	
+15-3	,	$,	,	_	O	O	
+15-4	so	ADV	so	_	O	O	
+15-5	werde	VAFIN	werden	_	O	O	
+15-6	ich	PPER	ich	_	O	O	
+15-7	wohl	ADV	wohl	_	O	O	
+15-8	am	APPRART	an	_	O	O	
+15-9	9Yf	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+15-10	Dec	NE	Dec	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+15-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=16
+#text=darüber handeln; Rosa wird dazu die genauen Pläne liefern.
+16-1	darüber	PAV	darüber	_	O	O	
+16-2	handeln	VVFIN	handeln	_	O	O	
+16-3	;	$.	;	_	O	O	
+16-4	Rosa	NE	Rosa	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-5	wird	VAFIN	werden	_	O	O	
+16-6	dazu	PAV	dazu	_	O	O	
+16-7	die	ART	die	_	O	O	
+16-8	genauen	ADJA	genau	_	O	O	
+16-9	Pläne	NN	Plan	_	O	O	
+16-10	liefern	VVINF	liefern	_	O	O	
+16-11	.	$.	.	_	O	O	
+
+#id=17
+#text=Einstweilen halten wir hier die Sache sehr geheim; sonst sagt Canina: 10
+17-1	Einstweilen	ADV	einstweilen	_	O	O	
+17-2	halten	VVFIN	halten	_	O	O	
+17-3	wir	PPER	wir	_	O	O	
+17-4	hier	ADV	hier	_	O	O	
+17-5	die	ART	die	_	O	O	
+17-6	Sache	NN	Sache	_	O	O	
+17-7	sehr	ADV	sehr	_	O	O	
+17-8	geheim	ADJD	geheim	_	O	O	
+17-9	;	$.	;	_	O	O	
+17-10	sonst	ADV	sonst	_	O	O	
+17-11	sagt	VVFIN	sagen	_	O	O	
+17-12	Canina	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-13	:	$.	:	_	O	O	
+17-14	10	CARD	10	_	O	O	
+

@@ -1,0 +1,35 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an Henzen Siena, 4. September 1875 3 Sie, Fräulein Rosine, die tyroler Nachtigall Fräulein von Hepperger und an Laspeyres !
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	4	CARD	4	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	3	CARD	3	_	O	O	
+1-11	Sie	PPER	Sie	_	O	O	
+1-12	,	$,	,	_	O	O	
+1-13	Fräulein	NN	Fräulein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-14	Rosine	NN	Rosine	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-15	,	$,	,	_	O	O	
+1-16	die	ART	die	_	O	O	
+1-17	tyroler	NN	<unknown>	_	O	O	
+1-18	Nachtigall	NN	Nachtigall	_	O	O	
+1-19	Fräulein	NN	Fräulein	_	O	O	
+1-20	von	APPR	von	_	O	O	
+1-21	Hepperger	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-22	und	KON	und	_	O	O	
+1-23	an	APPR	an	_	O	O	
+1-24	Laspeyres	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-25	!	$.	!	_	O	O	
+
+#id=2
+#text=Ihr ergebener Helbig
+2-1	Ihr	PPOSAT	ihr	_	O	O	
+2-2	ergebener	ADJA	ergeben	_	O	O	
+2-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

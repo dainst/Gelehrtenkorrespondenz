@@ -1,0 +1,321 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=(/ 165 Henzen an Gerhard 30/IV/1852 ( s.u. Braun/Gerhard ) 3 \ seine nicht ganz zufrieden.
+1-1	(	$(	(	_	O	O	
+1-2	/	$(	/	_	O	O	
+1-3	165	CARD	@card@	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	30/IV/1852	NE	<unknown>	_	O	O	
+1-8	(	$(	(	_	O	O	
+1-9	s.u.	NE	<unknown>	_	O	O	
+1-10	Braun/Gerhard	NE	<unknown>	_	O	O	
+1-11	)	$(	)	_	O	O	
+1-12	3	CARD	3	_	O	O	
+1-13	\	XY	\	_	O	O	
+1-14	seine	PPOSAT	sein	_	O	O	
+1-15	nicht	PTKNEG	nicht	_	O	O	
+1-16	ganz	ADV	ganz	_	O	O	
+1-17	zufrieden	ADJD	zufrieden	_	O	O	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Er hält die ganze Lehre von der b.nwendung der Vasen bei Bakchischen Mysterien für zu problematisch, um dem IC Gewicht beilegen zu selbst ausmachen !
+2-1	Er	PPER	er	_	O	O	
+2-2	hält	VVFIN	halten	_	O	O	
+2-3	die	ART	die	_	O	O	
+2-4	ganze	ADJA	ganz	_	O	O	
+2-5	Lehre	NN	Lehre	_	O	O	
+2-6	von	APPR	von	_	O	O	
+2-7	der	ART	die	_	O	O	
+2-8	b.nwendung	NN	<unknown>	_	O	O	
+2-9	der	ART	die	_	O	O	
+2-10	Vasen	NN	Vase	_	O	O	
+2-11	bei	APPR	bei	_	O	O	
+2-12	Bakchischen	NN	<unknown>	_	O	O	
+2-13	Mysterien	NN	Mysterium	_	O	O	
+2-14	für	APPR	für	_	O	O	
+2-15	zu	PTKA	zu	_	O	O	
+2-16	problematisch	ADJD	problematisch	_	O	O	
+2-17	,	$,	,	_	O	O	
+2-18	um	KOUI	um	_	O	O	
+2-19	dem	ART	die	_	O	O	
+2-20	IC	NE	IC	_	O	O	
+2-21	Gewicht	NN	Gewicht	_	O	O	
+2-22	beilegen	VVFIN	beilegen	_	O	O	
+2-23	zu	APPR	zu	_	O	O	
+2-24	selbst	ADV	selbst	_	O	O	
+2-25	ausmachen	VVINF	ausmachen	_	O	O	
+2-26	!	$.	!	_	O	O	
+
+#id=3
+#text=Ich habe L,_können.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	habe	VAFIN	haben	_	O	O	
+3-3	L,_können	NN	<unknown>	_	O	O	
+3-4	.	$.	.	_	O	O	
+
+#id=4
+#text=Doch das mag er am Gebfl~tstage Horns über die epigraphische Ausbeute der Scavi an der Via Appia gelesen, und, da dieselbe eigentlich sehr gering, mit einiger Besorgniß, allzu langweilig zu werden, war daher schließlich nicht wenig erstaunt, von aller Seite großen Beifall zu ernten.
+4-1	Doch	KON	doch	_	O	O	
+4-2	das	PDS	die	_	O	O	
+4-3	mag	VMFIN	mögen	_	O	O	
+4-4	er	PPER	er	_	O	O	
+4-5	am	APPRART	an	_	O	O	
+4-6	Gebfl~tstage	NN	<unknown>	_	O	O	
+4-7	Horns	NE	Horn	_	O	O	
+4-8	über	APPR	über	_	O	O	
+4-9	die	ART	die	_	O	O	
+4-10	epigraphische	ADJA	<unknown>	_	O	O	
+4-11	Ausbeute	NN	Ausbeute	_	O	O	
+4-12	der	ART	die	_	O	O	
+4-13	Scavi	NE	<unknown>	_	O	O	
+4-14	an	APPR	an	_	O	O	
+4-15	der	ART	die	_	O	O	
+4-16	Via	NE	Via	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-17	Appia	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+4-18	gelesen	VVPP	lesen	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	und	KON	und	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	da	KOUS	da	_	O	O	
+4-23	dieselbe	PDS	dieselbe	_	O	O	
+4-24	eigentlich	ADV	eigentlich	_	O	O	
+4-25	sehr	ADV	sehr	_	O	O	
+4-26	gering	ADJD	gering	_	O	O	
+4-27	,	$,	,	_	O	O	
+4-28	mit	APPR	mit	_	O	O	
+4-29	einiger	PIAT	einige	_	O	O	
+4-30	Besorgniß	NN	<unknown>	_	O	O	
+4-31	,	$,	,	_	O	O	
+4-32	allzu	PTKA	allzu	_	O	O	
+4-33	langweilig	ADJD	langweilig	_	O	O	
+4-34	zu	PTKZU	zu	_	O	O	
+4-35	werden	VAINF	werden	_	O	O	
+4-36	,	$,	,	_	O	O	
+4-37	war	VAFIN	sein	_	O	O	
+4-38	daher	PAV	daher	_	O	O	
+4-39	schließlich	ADV	schließlich	_	O	O	
+4-40	nicht	PTKNEG	nicht	_	O	O	
+4-41	wenig	ADV	wenig	_	O	O	
+4-42	erstaunt	VVPP	erstaunen	_	O	O	
+4-43	,	$,	,	_	O	O	
+4-44	von	APPR	von	_	O	O	
+4-45	aller	PIAT	alle	_	O	O	
+4-46	Seite	NN	Seite	_	O	O	
+4-47	großen	ADJA	groß	_	O	O	
+4-48	Beifall	NN	Beifall	_	O	O	
+4-49	zu	PTKZU	zu	_	O	O	
+4-50	ernten	VVINF	ernten	_	O	O	
+4-51	.	$.	.	_	O	O	
+
+#id=5
+#text=Die via Appia war eben den Winter hindurch bei den Forestieri Mode und der Vortrag zeitgemäßer, als ich selbst gedacht.
+5-1	Die	ART	die	_	O	O	
+5-2	via	APPR	via	_	O	O	
+5-3	Appia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	war	VAFIN	sein	_	O	O	
+5-5	eben	ADV	eben	_	O	O	
+5-6	den	ART	die	_	O	O	
+5-7	Winter	NN	Winter	_	O	O	
+5-8	hindurch	ADV	hindurch	_	O	O	
+5-9	bei	APPR	bei	_	O	O	
+5-10	den	ART	die	_	O	O	
+5-11	Forestieri	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-12	Mode	NN	Mode	_	O	O	
+5-13	und	KON	und	_	O	O	
+5-14	der	ART	die	_	O	O	
+5-15	Vortrag	NN	Vortrag	_	O	O	
+5-16	zeitgemäßer	ADJD	zeitgemäßer	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	als	KOUS	als	_	O	O	
+5-19	ich	PPER	ich	_	O	O	
+5-20	selbst	ADV	selbst	_	O	O	
+5-21	gedacht	VVPP	denken|gedenken	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=Bei der P.S. Sebastiano, neben den Columbarien Campana's, hat die Regierung ein größeres und reicheres, sehr wohl erhaltenes entdeckt, einstweilen unsichtbar, da, scheint es, Viscontino es publiciren wird, der mir versprochen, mich hinzuführen; Sie wissen aber, was dergleichen Besuche nutzen, selbst wenn es dazu kommt !
+6-1	Bei	APPR	bei	_	O	O	
+6-2	der	ART	die	_	O	O	
+6-3	P.S.	NE	P.S.	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-4	Sebastiano	NE	Sebastiano	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+6-5	,	$,	,	_	O	O	
+6-6	neben	APPR	neben	_	O	O	
+6-7	den	ART	die	_	O	O	
+6-8	Columbarien	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-9	Campana's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	,	$,	,	_	O	O	
+6-11	hat	VAFIN	haben	_	O	O	
+6-12	die	ART	die	_	O	O	
+6-13	Regierung	NN	Regierung	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-14	ein	ART	eine	_	O	O	
+6-15	größeres	ADJA	groß	_	O	O	
+6-16	und	KON	und	_	O	O	
+6-17	reicheres	ADJA	reich	_	O	O	
+6-18	,	$,	,	_	O	O	
+6-19	sehr	ADV	sehr	_	O	O	
+6-20	wohl	ADV	wohl	_	O	O	
+6-21	erhaltenes	ADJA	erhalten	_	O	O	
+6-22	entdeckt	VVPP	entdecken	_	O	O	
+6-23	,	$,	,	_	O	O	
+6-24	einstweilen	ADV	einstweilen	_	O	O	
+6-25	unsichtbar	ADJD	unsichtbar	_	O	O	
+6-26	,	$,	,	_	O	O	
+6-27	da	ADV	da	_	O	O	
+6-28	,	$,	,	_	O	O	
+6-29	scheint	VVFIN	scheinen	_	O	O	
+6-30	es	PPER	es	_	O	O	
+6-31	,	$,	,	_	O	O	
+6-32	Viscontino	ADV	<unknown>	_	O	O	
+6-33	es	PPER	es	_	O	O	
+6-34	publiciren	ADJD	<unknown>	_	O	O	
+6-35	wird	VAFIN	werden	_	O	O	
+6-36	,	$,	,	_	O	O	
+6-37	der	PRELS	die	_	O	O	
+6-38	mir	PRF	ich	_	O	O	
+6-39	versprochen	VVPP	versprechen	_	O	O	
+6-40	,	$,	,	_	O	O	
+6-41	mich	PPER	ich	_	O	O	
+6-42	hinzuführen	VVIZU	hinführen	_	O	O	
+6-43	;	$.	;	_	O	O	
+6-44	Sie	PPER	Sie	_	O	O	
+6-45	wissen	VVFIN	wissen	_	O	O	
+6-46	aber	ADV	aber	_	O	O	
+6-47	,	$,	,	_	O	O	
+6-48	was	PRELS	was	_	O	O	
+6-49	dergleichen	PIS	dergleichen	_	O	O	
+6-50	Besuche	NN	Besuch	_	O	O	
+6-51	nutzen	VVFIN	nutzen	_	O	O	
+6-52	,	$,	,	_	O	O	
+6-53	selbst	ADV	selbst	_	O	O	
+6-54	wenn	KOUS	wenn	_	O	O	
+6-55	es	PPER	es	_	O	O	
+6-56	dazu	PAV	dazu	_	O	O	
+6-57	kommt	VVFIN	kommen	_	O	O	
+6-58	!	$.	!	_	O	O	
+
+#id=7
+#text=Philippi befindet sich seit gestern etwas besser und ziemlich fieberfrei; wollte '"'ott, daß es dabei bliebe!
+7-1	Philippi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	befindet	VVFIN	befinden	_	O	O	
+7-3	sich	PRF	sich	_	O	O	
+7-4	seit	APPR	seit	_	O	O	
+7-5	gestern	ADV	gestern	_	O	O	
+7-6	etwas	ADV	etwas	_	O	O	
+7-7	besser	ADJD	gut	_	O	O	
+7-8	und	KON	und	_	O	O	
+7-9	ziemlich	ADV	ziemlich	_	O	O	
+7-10	fieberfrei	ADJD	fieberfrei	_	O	O	
+7-11	;	$.	;	_	O	O	
+7-12	wollte	VMFIN	wollen	_	O	O	
+7-13	'	$(	'	_	O	O	
+7-14	"	$(	"	_	O	O	
+7-15	'	$(	'	_	O	O	
+7-16	ott	ADJA	<unknown>	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	daß	KOUS	dass	_	O	O	
+7-19	es	PPER	es	_	O	O	
+7-20	dabei	PAV	dabei	_	O	O	
+7-21	bliebe	VVFIN	bleiben	_	O	O	
+7-22	!	$.	!	_	O	O	
+
+#id=8
+#text=Friedlaender wird in jedem Falle hieher kommen müssen; denn auch bei entschiedner Besserung kann man ihn nicht allein reisen lassen, und sein verabredeter Gefährte, der einen N.onat gewartet hat, ist heute endlich auf (~;\~ Phl~ Zureden abgereist.
+8-1	Friedlaender	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	wird	VAFIN	werden	_	O	O	
+8-3	in	APPR	in	_	O	O	
+8-4	jedem	PIAT	jede	_	O	O	
+8-5	Falle	NN	Falle	_	O	O	
+8-6	hieher	NN	<unknown>	_	O	O	
+8-7	kommen	VVINF	kommen	_	O	O	
+8-8	müssen	VMINF	müssen	_	O	O	
+8-9	;	$.	;	_	O	O	
+8-10	denn	KON	denn	_	O	O	
+8-11	auch	ADV	auch	_	O	O	
+8-12	bei	APPR	bei	_	O	O	
+8-13	entschiedner	NN	<unknown>	_	O	O	
+8-14	Besserung	NN	Besserung	_	O	O	
+8-15	kann	VMFIN	können	_	O	O	
+8-16	man	PIS	man	_	O	O	
+8-17	ihn	PPER	er	_	O	O	
+8-18	nicht	PTKNEG	nicht	_	O	O	
+8-19	allein	ADV	allein	_	O	O	
+8-20	reisen	VVINF	reisen	_	O	O	
+8-21	lassen	VVINF	lassen	_	O	O	
+8-22	,	$,	,	_	O	O	
+8-23	und	KON	und	_	O	O	
+8-24	sein	PPOSAT	sein	_	O	O	
+8-25	verabredeter	ADJA	verabredet	_	O	O	
+8-26	Gefährte	NN	Gefährt|Gefährte	_	O	O	
+8-27	,	$,	,	_	O	O	
+8-28	der	PRELS	die	_	O	O	
+8-29	einen	ART	eine	_	O	O	
+8-30	N.onat	NN	<unknown>	_	O	O	
+8-31	gewartet	VVPP	warten	_	O	O	
+8-32	hat	VAFIN	haben	_	O	O	
+8-33	,	$,	,	_	O	O	
+8-34	ist	VAFIN	sein	_	O	O	
+8-35	heute	ADV	heute	_	O	O	
+8-36	endlich	ADV	endlich	_	O	O	
+8-37	auf	APPR	auf	_	O	O	
+8-38	(	$(	(	_	O	O	
+8-39	~	XY	~	_	O	O	
+8-40	;	$.	;	_	O	O	
+8-41	\~	ADJA	<unknown>	_	O	O	
+8-42	Phl~	NN	<unknown>	_	O	O	
+8-43	Zureden	NN	Zureden	_	O	O	
+8-44	abgereist	VVPP	abreisen	_	O	O	
+8-45	.	$.	.	_	O	O	
+
+#id=9
+#text=Bellermann ist auch leidend an einem sehr hartnäckigem Katarrh, der ihn sehr angreift.
+9-1	Bellermann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	auch	ADV	auch	_	O	O	
+9-4	leidend	ADJD	leidend	_	O	O	
+9-5	an	APPR	an	_	O	O	
+9-6	einem	ART	eine	_	O	O	
+9-7	sehr	ADV	sehr	_	O	O	
+9-8	hartnäckigem	ADJA	hartnäckig	_	O	O	
+9-9	Katarrh	NN	Katarrh	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	der	PRELS	die	_	O	O	
+9-12	ihn	PPER	er	_	O	O	
+9-13	sehr	ADV	sehr	_	O	O	
+9-14	angreift	VVFIN	angreifen	_	O	O	
+9-15	.	$.	.	_	O	O	
+
+#id=10
+#text=Schon seit mehreren <Jjochen geht er kaum aus und ist nur I wenige Stunden außer Bett.
+10-1	Schon	ADV	schon	_	O	O	
+10-2	seit	APPR	seit	_	O	O	
+10-3	mehreren	PIAT	mehrere	_	O	O	
+10-4	<Jjochen	NN	<unknown>	_	O	O	
+10-5	geht	VVFIN	gehen	_	O	O	
+10-6	er	PPER	er	_	O	O	
+10-7	kaum	ADV	kaum	_	O	O	
+10-8	aus	PTKVZ	aus	_	O	O	
+10-9	und	KON	und	_	O	O	
+10-10	ist	VAFIN	sein	_	O	O	
+10-11	nur	ADV	nur	_	O	O	
+10-12	I	NN	I	_	O	O	
+10-13	wenige	PIAT	wenige	_	O	O	
+10-14	Stunden	NN	Stunde|Stunden	_	O	O	
+10-15	außer	APPR	außer	_	O	O	
+10-16	Bett	NN	Bett	_	O	O	
+10-17	.	$.	.	_	O	O	
+
+#id=11
+#text=';Ver ist aber auch nicht krank -
+11-1	'	$(	'	_	O	O	
+11-2	;	$.	;	_	O	O	
+11-3	Ver	ADJD	<unknown>	_	O	O	
+11-4	ist	VAFIN	sein	_	O	O	
+11-5	aber	ADV	aber	_	O	O	
+11-6	auch	ADV	auch	_	O	O	
+11-7	nicht	PTKNEG	nicht	_	O	O	
+11-8	krank	ADJD	krank	_	O	O	
+11-9	-	$(	-	_	O	O	
+

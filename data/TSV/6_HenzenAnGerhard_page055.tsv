@@ -1,0 +1,354 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Ohne Nummer Renzen an Gerhard 20/IV/52 2 mente doch einmal im Zusammenhange besprochen werden, u. so kann ich den Leuten nicht helfen; sie müssen schlucken.
+1-1	Ohne	APPR	ohne	_	O	O	
+1-2	Nummer	NN	Nummer	_	O	O	
+1-3	Renzen	NN	<unknown>	_	O	O	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	20/IV/52	CARD	<unknown>	_	O	O	
+1-7	2	CARD	2	_	O	O	
+1-8	mente	ADJA	<unknown>	_	O	O	
+1-9	doch	KON	doch	_	O	O	
+1-10	einmal	ADV	einmal	_	O	O	
+1-11	im	APPRART	in	_	O	O	
+1-12	Zusammenhange	NN	Zusammenhang	_	O	O	
+1-13	besprochen	VVPP	besprechen	_	O	O	
+1-14	werden	VAFIN	werden	_	O	O	
+1-15	,	$,	,	_	O	O	
+1-16	u.	KON	und	_	O	O	
+1-17	so	ADV	so	_	O	O	
+1-18	kann	VMFIN	können	_	O	O	
+1-19	ich	PPER	ich	_	O	O	
+1-20	den	ART	die	_	O	O	
+1-21	Leuten	NN	Leute	_	O	O	
+1-22	nicht	PTKNEG	nicht	_	O	O	
+1-23	helfen	VVINF	helfen	_	O	O	
+1-24	;	$.	;	_	O	O	
+1-25	sie	PPER	sie	_	O	O	
+1-26	müssen	VMFIN	müssen	_	O	O	
+1-27	schlucken	VVINF	schlucken	_	O	O	
+1-28	.	$.	.	_	O	O	
+
+#id=2
+#text=- Von Wigand sind uns wieder 3 Packete der Berliner Akademie avisirt.
+2-1	-	$(	-	_	O	O	
+2-2	Von	APPR	von	_	O	O	
+2-3	Wigand	NE	Wigand	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-4	sind	VAFIN	sein	_	O	O	
+2-5	uns	PPER	wir	_	O	O	
+2-6	wieder	ADV	wieder	_	O	O	
+2-7	3	CARD	3	_	O	O	
+2-8	Packete	NN	<unknown>	_	O	O	
+2-9	der	ART	die	_	O	O	
+2-10	Berliner	ADJA	Berliner	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-11	Akademie	NN	Akademie	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+2-12	avisirt	NN	<unknown>	_	O	O	
+2-13	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich habe früher schon Brockhaus instruirt, Nichts der, Art anzunehmen, was nicht für Rom bestimmt ist.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	habe	VAFIN	haben	_	O	O	
+3-3	früher	ADV	früher	_	O	O	
+3-4	schon	ADV	schon	_	O	O	
+3-5	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-6	instruirt	NN	<unknown>	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	Nichts	PIAT	nichts	_	O	O	
+3-9	der	PDS	die	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	Art	NN	Art	_	O	O	
+3-12	anzunehmen	VVIZU	annehmen	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	was	PRELS	was	_	O	O	
+3-15	nicht	PTKNEG	nicht	_	O	O	
+3-16	für	APPR	für	_	O	O	
+3-17	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-18	bestimmt	VVPP	bestimmen	_	O	O	
+3-19	ist	VAFIN	sein	_	O	O	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=Wir haben noch ganze Haufen liegen, für Serradifalco u. sogar für Padua; wahrscheinlich sind auch unter dsn.
+4-1	Wir	PPER	wir	_	O	O	
+4-2	haben	VAFIN	haben	_	O	O	
+4-3	noch	ADV	noch	_	O	O	
+4-4	ganze	ADJA	ganz	_	O	O	
+4-5	Haufen	NN	Haufe	_	O	O	
+4-6	liegen	VVINF	liegen	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	für	APPR	für	_	O	O	
+4-9	Serradifalco	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-10	u.	APPR	um	_	O	O	
+4-11	sogar	ADV	sogar	_	O	O	
+4-12	für	APPR	für	_	O	O	
+4-13	Padua	NE	Padua	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-14	;	$.	;	_	O	O	
+4-15	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+4-16	sind	VAFIN	sein	_	O	O	
+4-17	auch	ADV	auch	_	O	O	
+4-18	unter	APPR	unter	_	O	O	
+4-19	dsn	NE	<unknown>	_	O	O	
+4-20	.	$.	.	_	O	O	
+
+#id=5
+#text=Packeten ein paar der Art.
+5-1	Packeten	NN	<unknown>	_	O	O	
+5-2	ein	ART	eine	_	O	O	
+5-3	paar	PIAT	paar	_	O	O	
+5-4	der	ART	die	_	O	O	
+5-5	Art.	NN	Art.	_	O	O	
+
+#id=6
+#text=Wir kommen dabei zu Schaden u. Akademie u. Empfä.nger ebenfalls; denn uns fehlen alle Mittel der Beförderung, u., wie Sie wissen, schickt man einem Neapolitaner die Sachen anders als dh.
+6-1	Wir	PPER	wir	_	O	O	
+6-2	kommen	VVFIN	kommen	_	O	O	
+6-3	dabei	PAV	dabei	_	O	O	
+6-4	zu	APPR	zu	_	O	O	
+6-5	Schaden	NN	Schaden	_	O	O	
+6-6	u.	APPR	um	_	O	O	
+6-7	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-8	u.	APPR	um	_	O	O	
+6-9	Empfä.nger	NN	<unknown>	_	O	O	
+6-10	ebenfalls	ADV	ebenfalls	_	O	O	
+6-11	;	$.	;	_	O	O	
+6-12	denn	KON	denn	_	O	O	
+6-13	uns	PPER	wir	_	O	O	
+6-14	fehlen	VVFIN	fehlen	_	O	O	
+6-15	alle	PIAT	alle	_	O	O	
+6-16	Mittel	NN	Mittel	_	O	O	
+6-17	der	ART	die	_	O	O	
+6-18	Beförderung	NN	Beförderung	_	O	O	
+6-19	,	$,	,	_	O	O	
+6-20	u.	KON	und	_	O	O	
+6-21	,	$,	,	_	O	O	
+6-22	wie	KOUS	wie	_	O	O	
+6-23	Sie	PPER	Sie	_	O	O	
+6-24	wissen	VVFIN	wissen	_	O	O	
+6-25	,	$,	,	_	O	O	
+6-26	schickt	VVFIN	schicken	_	O	O	
+6-27	man	PIS	man	_	O	O	
+6-28	einem	ART	eine	_	O	O	
+6-29	Neapolitaner	NN	Neapolitaner	_	O	O	
+6-30	die	ART	die	_	O	O	
+6-31	Sachen	NN	Sache	_	O	O	
+6-32	anders	ADV	anders	_	O	O	
+6-33	als	KOKOM	als	_	O	O	
+6-34	dh.	NE	<unknown>	_	O	O	
+
+#id=7
+#text=Gelegenheit, so refüsirt er sicher.
+7-1	Gelegenheit	NN	Gelegenheit	_	O	O	
+7-2	,	$,	,	_	O	O	
+7-3	so	ADV	so	_	O	O	
+7-4	refüsirt	VVFIN	<unknown>	_	O	O	
+7-5	er	PPER	er	_	O	O	
+7-6	sicher	ADJD	sicher	_	O	O	
+7-7	.	$.	.	_	O	O	
+
+#id=8
+#text=Demnach bitte ich Sie, ein für alle Mal der Expedition der Akademieschriften anzuzeiGen, dß.
+8-1	Demnach	PAV	demnach	_	O	O	
+8-2	bitte	VVFIN	bitten	_	O	O	
+8-3	ich	PPER	ich	_	O	O	
+8-4	Sie	PPER	Sie	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	ein	ART	eine	_	O	O	
+8-7	für	APPR	für	_	O	O	
+8-8	alle	PIAT	alle	_	O	O	
+8-9	Mal	NN	Mal	_	O	O	
+8-10	der	ART	die	_	O	O	
+8-11	Expedition	NN	Expedition	_	O	O	
+8-12	der	ART	die	_	O	O	
+8-13	Akademieschriften	NN	<unknown>	_	O	O	
+8-14	anzuzeiGen	VVIZU	anzeigen	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	dß	VVFIN	<unknown>	_	O	O	
+8-17	.	$.	.	_	O	O	
+
+#id=9
+#text=wir uns bei bestem Willen nur mit Facketen für Rom befassen können.
+9-1	wir	PPER	wir	_	O	O	
+9-2	uns	PPER	wir	_	O	O	
+9-3	bei	APPR	bei	_	O	O	
+9-4	bestem	ADJA	gut	_	O	O	
+9-5	Willen	NN	Wille	_	O	O	
+9-6	nur	ADV	nur	_	O	O	
+9-7	mit	APPR	mit	_	O	O	
+9-8	Facketen	NN	<unknown>	_	O	O	
+9-9	für	APPR	für	_	O	O	
+9-10	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-11	befassen	VVINF	befassen	_	O	O	
+9-12	können	VMFIN	können	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich brauche wohl nicht hinzuzufügen, dß.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	brauche	VVFIN	brauchen	_	O	O	
+10-3	wohl	ADV	wohl	_	O	O	
+10-4	nicht	PTKNEG	nicht	_	O	O	
+10-5	hinzuzufügen	VVIZU	hinzufügen	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	dß	VVFIN	<unknown>	_	O	O	
+10-8	.	$.	.	_	O	O	
+
+#id=11
+#text=ich sä.mmtlichen Adressenten geschrieben, u. zwar wiederholt, aber ohne Äntwort zu bekommen.
+11-1	ich	PPER	ich	_	O	O	
+11-2	sä.mmtlichen	VVFIN	<unknown>	_	O	O	
+11-3	Adressenten	NN	<unknown>	_	O	O	
+11-4	geschrieben	VVPP	schreiben	_	O	O	
+11-5	,	$,	,	_	O	O	
+11-6	u.	KON	und	_	O	O	
+11-7	zwar	ADV	zwar	_	O	O	
+11-8	wiederholt	ADJD	wiederholt	_	O	O	
+11-9	,	$,	,	_	O	O	
+11-10	aber	ADV	aber	_	O	O	
+11-11	ohne	APPR	ohne	_	O	O	
+11-12	Äntwort	NN	<unknown>	_	O	O	
+11-13	zu	PTKZU	zu	_	O	O	
+11-14	bekommen	VVINF	bekommen	_	O	O	
+11-15	.	$.	.	_	O	O	
+
+#id=12
+#text=Auch die Akademie von Palermo, an der ich in Serradifalco's Abwesenheit mich wandte, u. für die, glaube ich, die Schriften eigentlich bestiwmt sind, antwortete nicht.
+12-1	Auch	ADV	auch	_	O	O	
+12-2	die	ART	die	_	O	O	
+12-3	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+12-4	von	APPR	von	_	O	O	
+12-5	Palermo	NE	Palermo	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-6	,	$,	,	_	O	O	
+12-7	an	APPR	an	_	O	O	
+12-8	der	PRELS	die	_	O	O	
+12-9	ich	PPER	ich	_	O	O	
+12-10	in	APPR	in	_	O	O	
+12-11	Serradifalco's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-12	Abwesenheit	NN	Abwesenheit	_	O	O	
+12-13	mich	PRF	ich	_	O	O	
+12-14	wandte	VVFIN	wenden	_	O	O	
+12-15	,	$,	,	_	O	O	
+12-16	u.	KON	und	_	O	O	
+12-17	für	APPR	für	_	O	O	
+12-18	die	ART	die	_	O	O	
+12-19	,	$,	,	_	O	O	
+12-20	glaube	VVFIN	glauben	_	O	O	
+12-21	ich	PPER	ich	_	O	O	
+12-22	,	$,	,	_	O	O	
+12-23	die	ART	die	_	O	O	
+12-24	Schriften	NN	Schrift	_	O	O	
+12-25	eigentlich	ADV	eigentlich	_	O	O	
+12-26	bestiwmt	ADJD	<unknown>	_	O	O	
+12-27	sind	VAFIN	sein	_	O	O	
+12-28	,	$,	,	_	O	O	
+12-29	antwortete	VVFIN	antworten	_	O	O	
+12-30	nicht	PTKNEG	nicht	_	O	O	
+12-31	.	$.	.	_	O	O	
+
+#id=13
+#text=Der Brief an Bethmann.
+13-1	Der	ART	die	_	O	O	
+13-2	Brief	NN	Brief	_	O	O	
+13-3	an	APPR	an	_	O	O	
+13-4	Bethmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-5	.	$.	.	_	O	O	
+
+#id=14
+#text=ist Qortofrei abgegeben, wie Sie verlangten; doch erinnere ich, daß hier noch die alten Portogesetze existiren u. jede derartige Einlage dem Institut doppeltes Porto verursacht.
+14-1	ist	VAFIN	sein	_	O	O	
+14-2	Qortofrei	ADJD	<unknown>	_	O	O	
+14-3	abgegeben	VVPP	abgeben	_	O	O	
+14-4	,	$,	,	_	O	O	
+14-5	wie	KOUS	wie	_	O	O	
+14-6	Sie	PPER	Sie	_	O	O	
+14-7	verlangten	VVFIN	verlangen	_	O	O	
+14-8	;	$.	;	_	O	O	
+14-9	doch	ADV	doch	_	O	O	
+14-10	erinnere	VVFIN	erinnern	_	O	O	
+14-11	ich	PPER	ich	_	O	O	
+14-12	,	$,	,	_	O	O	
+14-13	daß	KOUS	dass	_	O	O	
+14-14	hier	ADV	hier	_	O	O	
+14-15	noch	ADV	noch	_	O	O	
+14-16	die	ART	die	_	O	O	
+14-17	alten	ADJA	alt	_	O	O	
+14-18	Portogesetze	NN	<unknown>	_	O	O	
+14-19	existiren	ADJA	<unknown>	_	O	O	
+14-20	u.	APPR	um	_	O	O	
+14-21	jede	PIAT	jede	_	O	O	
+14-22	derartige	ADJA	derartig	_	O	O	
+14-23	Einlage	NN	Einlage	_	O	O	
+14-24	dem	ART	die	_	O	O	
+14-25	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+14-26	doppeltes	ADJA	doppelt	_	O	O	
+14-27	Porto	NN	Porto	_	O	O	
+14-28	verursacht	VVPP	verursachen	_	O	O	
+14-29	.	$.	.	_	O	O	
+
+#id=15
+#text=So schlimm, wie Keil meint, dürfte es doch mit :, Brunn's Arbeit nicht stehen.
+15-1	So	ADV	so	_	O	O	
+15-2	schlimm	ADJD	schlimm	_	O	O	
+15-3	,	$,	,	_	O	O	
+15-4	wie	KOUS	wie	_	O	O	
+15-5	Keil	NE	Keil	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-6	meint	VVFIN	meinen	_	O	O	
+15-7	,	$,	,	_	O	O	
+15-8	dürfte	VMFIN	dürfen	_	O	O	
+15-9	es	PPER	es	_	O	O	
+15-10	doch	ADV	doch	_	O	O	
+15-11	mit	PTKVZ	mit	_	O	O	
+15-12	:	$.	:	_	O	O	
+15-13	,	$,	,	_	O	O	
+15-14	Brunn's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-15	Arbeit	NN	Arbeit	_	O	O	
+15-16	nicht	PTKNEG	nicht	_	O	O	
+15-17	stehen	VVINF	stehen	_	O	O	
+15-18	.	$.	.	_	O	O	
+
+#id=16
+#text=Bis zum Herbste wird er doch noch wohl flott werden.
+16-1	Bis	KON	bis	_	O	O	
+16-2	zum	APPRART	zu	_	O	O	
+16-3	Herbste	NN	Herbst	_	O	O	
+16-4	wird	VAFIN	werden	_	O	O	
+16-5	er	PPER	er	_	O	O	
+16-6	doch	ADV	doch	_	O	O	
+16-7	noch	ADV	noch	_	O	O	
+16-8	wohl	ADV	wohl	_	O	O	
+16-9	flott	ADJD	flott	_	O	O	
+16-10	werden	VAINF	werden	_	O	O	
+16-11	.	$.	.	_	O	O	
+
+#id=17
+#text=Koch's sind am Sonntage nach Neapel weitergereist.
+17-1	Koch's	NE	<unknown>	_	O	O	
+17-2	sind	VAFIN	sein	_	O	O	
+17-3	am	APPRART	an	_	O	O	
+17-4	Sonntage	NN	Sonntag	_	O	O	
+17-5	nach	APPR	nach	_	O	O	
+17-6	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+17-7	weitergereist	VVPP	weiterreisen	_	O	O	
+17-8	.	$.	.	_	O	O	
+
+#id=18
+#text=Es hat uns recht leid gethan, dß.
+18-1	Es	PPER	es	_	O	O	
+18-2	hat	VAFIN	haben	_	O	O	
+18-3	uns	PPER	wir	_	O	O	
+18-4	recht	ADJD	recht	_	O	O	
+18-5	leid	ADJD	leid	_	O	O	
+18-6	gethan	NN	<unknown>	_	O	O	
+18-7	,	$,	,	_	O	O	
+18-8	dß	VVFIN	<unknown>	_	O	O	
+18-9	.	$.	.	_	O	O	
+
+#id=19
+#text=sie so schnell Rom ver-
+19-1	sie	PPER	sie	_	O	O	
+19-2	so	ADV	so	_	O	O	
+19-3	schnell	ADJD	schnell	_	O	O	
+19-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+19-5	ver-	TRUNC	ver-	_	O	O	
+

@@ -1,0 +1,246 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=405 Gerhard an Braun Berlin, 24.
+1-1	405	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=Ju~i 1844 A. d. Dir.
+2-1	Ju~i	NN	<unknown>	_	O	O	
+2-2	1844	CARD	1844	_	O	O	
+2-3	A.	APPR	an	_	O	O	
+2-4	d.	ART	d.	_	O	O	
+2-5	Dir.	NN	Dir.	_	O	O	
+
+#id=3
+#text=g. 30/VII 44 Berlin 24 Juli 44 -~._Zu aller Sicherheit lieber Freund von einer andern Seite her die Notiz daß ich Ihnen am 20 Dieses durch die Post Ihren Wechsel von 150 rt Betrag zusandte.
+3-1	g.	NE	G.	_	O	O	
+3-2	30/VII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-3	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-5	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-6	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-7	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	-~._Zu	ADV	<unknown>	_	O	O	
+3-9	aller	PIAT	alle	_	O	O	
+3-10	Sicherheit	NN	Sicherheit	_	O	O	
+3-11	lieber	ADJA	lieb	_	O	O	
+3-12	Freund	NN	Freund	_	O	O	
+3-13	von	APPR	von	_	O	O	
+3-14	einer	ART	eine	_	O	O	
+3-15	andern	PIAT	andere	_	O	O	
+3-16	Seite	NN	Seite	_	O	O	
+3-17	her	APZR	her	_	O	O	
+3-18	die	ART	die	_	O	O	
+3-19	Notiz	NN	Notiz	_	O	O	
+3-20	daß	KOUS	dass	_	O	O	
+3-21	ich	PPER	ich	_	O	O	
+3-22	Ihnen	PPER	Sie	_	O	O	
+3-23	am	APPRART	an	_	O	O	
+3-24	20	CARD	20	_	O	O	
+3-25	Dieses	PDAT	dies	_	O	O	
+3-26	durch	APPR	durch	_	O	O	
+3-27	die	ART	die	_	O	O	
+3-28	Post	NN	Post	_	O	O	
+3-29	Ihren	PPOSAT	ihr	_	O	O	
+3-30	Wechsel	NN	Wechsel	_	O	O	
+3-31	von	APPR	von	_	O	O	
+3-32	150	CARD	150	_	O	O	
+3-33	rt	ADJA	<unknown>	_	O	O	
+3-34	Betrag	NN	Betrag	_	O	O	
+3-35	zusandte	VVFIN	zusenden	_	O	O	
+3-36	.	$.	.	_	O	O	
+
+#id=4
+#text=Der fleißige Kramer (so, denke ich ! )
+4-1	Der	ART	die	_	O	O	
+4-2	fleißige	ADJA	fleißig	_	O	O	
+4-3	Kramer	NE	Kramer	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-4	(	$(	(	_	O	O	
+4-5	so	ADV	so	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	denke	VVFIN	denken	_	O	O	
+4-8	ich	PPER	ich	_	O	O	
+4-9	!	$.	!	_	O	O	
+4-10	)	$(	)	_	O	O	
+
+#id=5
+#text=dessen brauchbare 2 Bände Stellensammlung über die Via Campagna Ihnen bekannt ist, soll ein paar ähnliche Bücher auch über Asia Minor und über Griechenland angefertigt haben, die nicht theurer aber im gewöhnlichen Buchhandel nicht zu haben sind.
+5-1	dessen	PDAT	die	_	O	O	
+5-2	brauchbare	ADJA	brauchbar	_	O	O	
+5-3	2	CARD	2	_	O	O	
+5-4	Bände	NN	Band	_	O	O	
+5-5	Stellensammlung	NN	<unknown>	_	O	O	
+5-6	über	APPR	über	_	O	O	
+5-7	die	ART	die	_	O	O	
+5-8	Via	NE	Via	_	O	O	
+5-9	Campagna	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-10	Ihnen	PPER	Sie	_	O	O	
+5-11	bekannt	VVPP	bekennen	_	O	O	
+5-12	ist	VAFIN	sein	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	soll	VMFIN	sollen	_	O	O	
+5-15	ein	ART	eine	_	O	O	
+5-16	paar	PIAT	paar	_	O	O	
+5-17	ähnliche	ADJA	ähnlich	_	O	O	
+5-18	Bücher	NN	Buch	_	O	O	
+5-19	auch	ADV	auch	_	O	O	
+5-20	über	APPR	über	_	O	O	
+5-21	Asia	NE	Asia	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-22	Minor	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-23	und	KON	und	_	O	O	
+5-24	über	APPR	über	_	O	O	
+5-25	Griechenland	NE	Griechenland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-26	angefertigt	VVPP	anfertigen	_	O	O	
+5-27	haben	VAINF	haben	_	O	O	
+5-28	,	$,	,	_	O	O	
+5-29	die	PRELS	die	_	O	O	
+5-30	nicht	PTKNEG	nicht	_	O	O	
+5-31	theurer	ADJD	<unknown>	_	O	O	
+5-32	aber	ADV	aber	_	O	O	
+5-33	im	APPRART	in	_	O	O	
+5-34	gewöhnlichen	ADJA	gewöhnlich	_	O	O	
+5-35	Buchhandel	NN	Buchhandel	_	O	O	
+5-36	nicht	PTKNEG	nicht	_	O	O	
+5-37	zu	PTKZU	zu	_	O	O	
+5-38	haben	VAINF	haben	_	O	O	
+5-39	sind	VAFIN	sein	_	O	O	
+5-40	.	$.	.	_	O	O	
+
+#id=6
+#text=Vielleicht könnten Sie ein Exemplar davon erlangen, wenn Sie nach Oxford gehn wo diese Sachen gedruckt sind.
+6-1	Vielleicht	ADV	vielleicht	_	O	O	
+6-2	könnten	VMFIN	können	_	O	O	
+6-3	Sie	PPER	Sie	_	O	O	
+6-4	ein	ART	eine	_	O	O	
+6-5	Exemplar	NN	Exemplar	_	O	O	
+6-6	davon	PAV	davon	_	O	O	
+6-7	erlangen	VVINF	erlangen	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	wenn	KOUS	wenn	_	O	O	
+6-10	Sie	PPER	Sie	_	O	O	
+6-11	nach	APPR	nach	_	O	O	
+6-12	Oxford	NE	Oxford	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-13	gehn	ADJA	<unknown>	_	O	O	
+6-14	wo	PWAV	wo	_	O	O	
+6-15	diese	PDAT	dies	_	O	O	
+6-16	Sachen	NN	Sache	_	O	O	
+6-17	gedruckt	VVPP	drucken	_	O	O	
+6-18	sind	VAFIN	sein	_	O	O	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=Außerdem bat ich Sie mir von Wilkinsons Manners und Customs die 3 Bände Second Series (die erste habe ich) anzukaufen, falls Sie Gelegenheit haben zu mäßigerem Preis als der Ladenpreis dazu zu gelangen, und bitte ich Sie mit gewohnter Gefälligkeit auch ein gutes Taschenmesser mit 2 Klingen (eine für gewöhnlichen Gebrauch, die andre für Federschneiden ) für meine eigne Tasche mir mitzubringen.
+7-1	Außerdem	ADV	außerdem	_	O	O	
+7-2	bat	VVFIN	bitten	_	O	O	
+7-3	ich	PPER	ich	_	O	O	
+7-4	Sie	PPER	Sie	_	O	O	
+7-5	mir	PRF	ich	_	O	O	
+7-6	von	APPR	von	_	O	O	
+7-7	Wilkinsons	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-8	Manners	NE	<unknown>	_	O	O	
+7-9	und	KON	und	_	O	O	
+7-10	Customs	NE	<unknown>	_	O	O	
+7-11	die	ART	die	_	O	O	
+7-12	3	CARD	3	_	O	O	
+7-13	Bände	NN	Band	_	O	O	
+7-14	Second	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-LIT	
+7-15	Series	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-LIT	
+7-16	(	$(	(	_	O	O	
+7-17	die	ART	die	_	O	O	
+7-18	erste	ADJA	erst	_	O	O	
+7-19	habe	VAFIN	haben	_	O	O	
+7-20	ich	PPER	ich	_	O	O	
+7-21	)	$(	)	_	O	O	
+7-22	anzukaufen	VVIZU	ankaufen	_	O	O	
+7-23	,	$,	,	_	O	O	
+7-24	falls	KOUS	falls	_	O	O	
+7-25	Sie	PPER	Sie	_	O	O	
+7-26	Gelegenheit	NN	Gelegenheit	_	O	O	
+7-27	haben	VAFIN	haben	_	O	O	
+7-28	zu	APPR	zu	_	O	O	
+7-29	mäßigerem	ADJA	<unknown>	_	O	O	
+7-30	Preis	NN	Preis	_	O	O	
+7-31	als	KOKOM	als	_	O	O	
+7-32	der	ART	die	_	O	O	
+7-33	Ladenpreis	NN	Ladenpreis	_	O	O	
+7-34	dazu	PAV	dazu	_	O	O	
+7-35	zu	PTKZU	zu	_	O	O	
+7-36	gelangen	VVINF	gelangen	_	O	O	
+7-37	,	$,	,	_	O	O	
+7-38	und	KON	und	_	O	O	
+7-39	bitte	VVFIN	bitten	_	O	O	
+7-40	ich	PPER	ich	_	O	O	
+7-41	Sie	PPER	Sie	_	O	O	
+7-42	mit	APPR	mit	_	O	O	
+7-43	gewohnter	ADJA	gewohnt	_	O	O	
+7-44	Gefälligkeit	NN	Gefälligkeit	_	O	O	
+7-45	auch	ADV	auch	_	O	O	
+7-46	ein	ART	eine	_	O	O	
+7-47	gutes	ADJA	gut	_	O	O	
+7-48	Taschenmesser	NN	Taschenmesser	_	O	O	
+7-49	mit	APPR	mit	_	O	O	
+7-50	2	CARD	2	_	O	O	
+7-51	Klingen	NN	Klinge|Klingen	_	O	O	
+7-52	(	$(	(	_	O	O	
+7-53	eine	ART	eine	_	O	O	
+7-54	für	APPR	für	_	O	O	
+7-55	gewöhnlichen	ADJA	gewöhnlich	_	O	O	
+7-56	Gebrauch	NN	Gebrauch	_	O	O	
+7-57	,	$,	,	_	O	O	
+7-58	die	PRELS	die	_	O	O	
+7-59	andre	PIS	andere	_	O	O	
+7-60	für	APPR	für	_	O	O	
+7-61	Federschneiden	NN	<unknown>	_	O	O	
+7-62	)	$(	)	_	O	O	
+7-63	für	APPR	für	_	O	O	
+7-64	meine	PPOSAT	mein	_	O	O	
+7-65	eigne	ADJA	eigen	_	O	O	
+7-66	Tasche	NN	Tasche	_	O	O	
+7-67	mir	PPER	ich	_	O	O	
+7-68	mitzubringen	VVIZU	mitbringen	_	O	O	
+7-69	.	$.	.	_	O	O	
+
+#id=8
+#text=An Ihre liebe Frau, wie auch an Birch Gruner und Campanari die besten Grüße.
+8-1	An	APPR	an	_	O	O	
+8-2	Ihre	PPOSAT	ihr	_	O	O	
+8-3	liebe	ADJA	lieb	_	O	O	
+8-4	Frau	NN	Frau	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	wie	KOUS	wie	_	O	O	
+8-7	auch	ADV	auch	_	O	O	
+8-8	an	APPR	an	_	O	O	
+8-9	Birch	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-10	Gruner	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-11	und	KON	und	_	O	O	
+8-12	Campanari	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-13	die	ART	die	_	O	O	
+8-14	besten	ADJA	gut	_	O	O	
+8-15	Grüße	NN	Gruß	_	O	O	
+8-16	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich hoffe sicher noch vor dem 3 August an welchem ich abzureisen gedenke hier noch
+9-1	Ich	PPER	ich	_	O	O	
+9-2	hoffe	VVFIN	hoffen	_	O	O	
+9-3	sicher	ADJD	sicher	_	O	O	
+9-4	noch	ADV	noch	_	O	O	
+9-5	vor	APPR	vor	_	O	O	
+9-6	dem	ART	die	_	O	O	
+9-7	3	CARD	3	_	O	O	
+9-8	August	NN	August	_	O	O	
+9-9	an	APZR	an	_	O	O	
+9-10	welchem	PRELS	welche	_	O	O	
+9-11	ich	PPER	ich	_	O	O	
+9-12	abzureisen	VVIZU	abreisen	_	O	O	
+9-13	gedenke	VVFIN	gedenken	_	O	O	
+9-14	hier	ADV	hier	_	O	O	
+9-15	noch	ADV	noch	_	O	O	
+

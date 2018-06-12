@@ -1,0 +1,42 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=12 16/1/54 2 Henzen an Gerhard spricht mir fijr die nächsten Tage einen Abriß seines AntiZumpt, den ich dann fijr Sie verarbeite.
+1-1	12	CARD	12	_	O	O	
+1-2	16/1/54	CARD	@card@	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	spricht	VVFIN	sprechen	_	O	O	
+1-8	mir	PPER	ich	_	O	O	
+1-9	fijr	NE	<unknown>	_	O	O	
+1-10	die	ART	die	_	O	O	
+1-11	nächsten	ADJA	nah	_	O	O	
+1-12	Tage	NN	Tag	_	O	O	
+1-13	einen	ART	eine	_	O	O	
+1-14	Abriß	NN	Abriß	_	O	O	
+1-15	seines	PPOSAT	sein	_	O	O	
+1-16	AntiZumpt	NN	<unknown>	_	O	O	
+1-17	,	$,	,	_	O	O	
+1-18	den	PRELS	die	_	O	O	
+1-19	ich	PPER	ich	_	O	O	
+1-20	dann	ADV	dann	_	O	O	
+1-21	fijr	NE	<unknown>	_	O	O	
+1-22	Sie	PPER	Sie	_	O	O	
+1-23	verarbeite	VVFIN	verarbeiten	_	O	O	
+1-24	.	$.	.	_	O	O	
+
+#id=2
+#text=Sehr eilig.
+2-1	Sehr	ADV	sehr	_	O	O	
+2-2	eilig	ADJD	eilig	_	O	O	
+2-3	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihr WHenzen Rom 16/54.
+3-1	Ihr	PPOSAT	ihr	_	O	O	
+3-2	WHenzen	NN	<unknown>	_	O	O	
+3-3	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-4	16/54	CARD	@card@	_	O	O	
+3-5	.	$.	.	_	O	O	
+

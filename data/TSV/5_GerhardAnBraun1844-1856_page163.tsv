@@ -1,0 +1,237 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=~ I 338 A. d. Dir.
+1-1	~	XY	~	_	O	O	
+1-2	I	NN	I	_	O	O	
+1-3	338	CARD	@card@	_	O	O	
+1-4	A.	APPR	an	_	O	O	
+1-5	d.	ART	d.	_	O	O	
+1-6	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Lieber Freund.
+2-1	Lieber	ADJD	lieb	_	O	O	
+2-2	Freund	NE	Freund	_	O	O	
+2-3	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Braun Neapel, 3. Oktober 1845 g. 6/X 45 r. a v. Neapel 3 Okt 45 Daß der 15 Oktober dessen Feier unter den obwaltenden Umständen nicht wohl auszulassen ist Ihnen leicht gemacht worden ist nicht mehr als billig: das neue LotzbeGk'sche Werk werden Sie ja wol auslegen können, wie ich eben nur mein neuestes Vasenwerk beizubringen habe.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	an	APPR	an	_	O	O	
+3-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-4	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-5	,	$,	,	_	O	O	
+3-6	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-10	g.	VVFIN	<unknown>	_	O	O	
+3-11	6/X	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-12	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+3-13	r.	ADJA	<unknown>	_	O	O	
+3-14	a	FM	a	_	O	O	
+3-15	v.	APPR	von	_	O	O	
+3-16	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-17	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-18	Okt	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-19	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-20	Daß	KOUS	dass	_	O	O	
+3-21	der	ART	die	_	O	O	
+3-22	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-23	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-24	dessen	PDAT	die	_	O	O	
+3-25	Feier	NN	Feier	_	O	O	
+3-26	unter	APPR	unter	_	O	O	
+3-27	den	ART	die	_	O	O	
+3-28	obwaltenden	ADJA	obwaltend	_	O	O	
+3-29	Umständen	NN	Umstand	_	O	O	
+3-30	nicht	PTKNEG	nicht	_	O	O	
+3-31	wohl	ADV	wohl	_	O	O	
+3-32	auszulassen	VVIZU	auslassen	_	O	O	
+3-33	ist	VAFIN	sein	_	O	O	
+3-34	Ihnen	PPER	Sie	_	O	O	
+3-35	leicht	ADJD	leicht	_	O	O	
+3-36	gemacht	VVPP	machen	_	O	O	
+3-37	worden	VAPP	werden	_	O	O	
+3-38	ist	VAFIN	sein	_	O	O	
+3-39	nicht	PTKNEG	nicht	_	O	O	
+3-40	mehr	ADV	mehr	_	O	O	
+3-41	als	KOKOM	als	_	O	O	
+3-42	billig	ADJD	billig	_	O	O	
+3-43	:	$.	:	_	O	O	
+3-44	das	ART	die	_	O	O	
+3-45	neue	ADJA	neu	_	O	O	
+3-46	LotzbeGk'sche	NN	<unknown>	_	O	O	
+3-47	Werk	NN	Werk	_	O	O	
+3-48	werden	VAFIN	werden	_	O	O	
+3-49	Sie	PPER	Sie	_	O	O	
+3-50	ja	ADV	ja	_	O	O	
+3-51	wol	ADJD	<unknown>	_	O	O	
+3-52	auslegen	VVINF	auslegen	_	O	O	
+3-53	können	VMINF	können	_	O	O	
+3-54	,	$,	,	_	O	O	
+3-55	wie	KOUS	wie	_	O	O	
+3-56	ich	PPER	ich	_	O	O	
+3-57	eben	ADV	eben	_	O	O	
+3-58	nur	ADV	nur	_	O	O	
+3-59	mein	PPOSAT	mein	_	O	O	
+3-60	neuestes	ADJA	neu	_	O	O	
+3-61	Vasenwerk	NN	<unknown>	_	O	O	
+3-62	beizubringen	VVIZU	beibringen	_	O	O	
+3-63	habe	VAFIN	haben	_	O	O	
+3-64	.	$.	.	_	O	O	
+
+#id=5
+#text=Neapel bietet unerwartet wenig Neues dar; schwerlich ist auch in Pompeji beim Scienziatizug gestern viel herausgekommen.
+5-1	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-2	bietet	VVFIN	bieten	_	O	O	
+5-3	unerwartet	ADJD	unerwartet	_	O	O	
+5-4	wenig	PIAT	wenige	_	O	O	
+5-5	Neues	NN	Neue	_	O	O	
+5-6	dar	PTKVZ	dar	_	O	O	
+5-7	;	$.	;	_	O	O	
+5-8	schwerlich	ADJD	schwerlich	_	O	O	
+5-9	ist	VAFIN	sein	_	O	O	
+5-10	auch	ADV	auch	_	O	O	
+5-11	in	APPR	in	_	O	O	
+5-12	Pompeji	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-13	beim	APPRART	bei	_	O	O	
+5-14	Scienziatizug	NN	<unknown>	_	O	O	
+5-15	gestern	ADV	gestern	_	O	O	
+5-16	viel	ADV	viel	_	O	O	
+5-17	herausgekommen	VVPP	herauskommen	_	O	O	
+5-18	.	$.	.	_	O	O	
+
+#id=6
+#text=Wir waren statt dessen in Baja und lassen auch morgen das Schiff ohne uns nach Paestum dampfen.
+6-1	Wir	PPER	wir	_	O	O	
+6-2	waren	VAFIN	sein	_	O	O	
+6-3	statt	APPR	statt	_	O	O	
+6-4	dessen	PDAT	die	_	O	O	
+6-5	in	APPR	in	_	O	O	
+6-6	Baja	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-7	und	KON	und	_	O	O	
+6-8	lassen	VVFIN	lassen	_	O	O	
+6-9	auch	ADV	auch	_	O	O	
+6-10	morgen	ADV	morgen	_	O	O	
+6-11	das	ART	die	_	O	O	
+6-12	Schiff	NN	Schiff	_	O	O	
+6-13	ohne	APPR	ohne	_	O	O	
+6-14	uns	PPER	wir	_	O	O	
+6-15	nach	APPR	nach	_	O	O	
+6-16	Paestum	NN	<unknown>	_	O	O	
+6-17	dampfen	VVINF	dampfen	_	O	O	
+6-18	.	$.	.	_	O	O	
+
+#id=7
+#text=Überhaupt habe ich am Congresso, der im Ganzen noch löblich genug ausfällt, nicht durch Avellino's Schuld, möglichst wenig Antheil genommen; doch wurde ich in den letzten Tagen zu einem Ehrenauftrag gezogen den ich nicht ablehnen konnte und trug ihnen 10 Minuten auch etwas vor, nachdem das Exempel von Thiersch ein völliges Stillschweigen meinerseits gehässig gemacht haben würde.
+7-1	Überhaupt	ADV	überhaupt	_	O	O	
+7-2	habe	VAFIN	haben	_	O	O	
+7-3	ich	PPER	ich	_	O	O	
+7-4	am	APPRART	an	_	O	O	
+7-5	Congresso	NN	<unknown>	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	der	PRELS	die	_	O	O	
+7-8	im	APPRART	in	_	O	O	
+7-9	Ganzen	NN	Ganze	_	O	O	
+7-10	noch	ADV	noch	_	O	O	
+7-11	löblich	ADJD	löblich	_	O	O	
+7-12	genug	ADV	genug	_	O	O	
+7-13	ausfällt	VVFIN	ausfallen	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	nicht	PTKNEG	nicht	_	O	O	
+7-16	durch	APPR	durch	_	O	O	
+7-17	Avellino's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-18	Schuld	NN	Schuld	_	O	O	
+7-19	,	$,	,	_	O	O	
+7-20	möglichst	ADV	möglichst	_	O	O	
+7-21	wenig	PIAT	wenige	_	O	O	
+7-22	Antheil	NN	<unknown>	_	O	O	
+7-23	genommen	VVPP	nehmen	_	O	O	
+7-24	;	$.	;	_	O	O	
+7-25	doch	ADV	doch	_	O	O	
+7-26	wurde	VAFIN	werden	_	O	O	
+7-27	ich	PPER	ich	_	O	O	
+7-28	in	APPR	in	_	O	O	
+7-29	den	ART	die	_	O	O	
+7-30	letzten	ADJA	letzt	_	O	O	
+7-31	Tagen	NN	Tag	_	O	O	
+7-32	zu	APPR	zu	_	O	O	
+7-33	einem	ART	eine	_	O	O	
+7-34	Ehrenauftrag	NN	<unknown>	_	O	O	
+7-35	gezogen	VVPP	ziehen	_	O	O	
+7-36	den	PRELS	die	_	O	O	
+7-37	ich	PPER	ich	_	O	O	
+7-38	nicht	PTKNEG	nicht	_	O	O	
+7-39	ablehnen	VVINF	ablehnen	_	O	O	
+7-40	konnte	VMFIN	können	_	O	O	
+7-41	und	KON	und	_	O	O	
+7-42	trug	VVFIN	tragen	_	O	O	
+7-43	ihnen	PPER	sie	_	O	O	
+7-44	10	CARD	10	_	O	O	
+7-45	Minuten	NN	Minute	_	O	O	
+7-46	auch	ADV	auch	_	O	O	
+7-47	etwas	PIS	etwas	_	O	O	
+7-48	vor	PTKVZ	vor	_	O	O	
+7-49	,	$,	,	_	O	O	
+7-50	nachdem	KOUS	nachdem	_	O	O	
+7-51	das	ART	die	_	O	O	
+7-52	Exempel	NN	Exempel	_	O	O	
+7-53	von	APPR	von	_	O	O	
+7-54	Thiersch	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-55	ein	ART	eine	_	O	O	
+7-56	völliges	ADJA	völlig	_	O	O	
+7-57	Stillschweigen	NN	Stillschweigen	_	O	O	
+7-58	meinerseits	ADV	meinerseits	_	O	O	
+7-59	gehässig	ADJD	gehässig	_	O	O	
+7-60	gemacht	VVPP	machen	_	O	O	
+7-61	haben	VAINF	haben	_	O	O	
+7-62	würde	VAFIN	werden	_	O	O	
+7-63	.	$.	.	_	O	O	
+
+#id=8
+#text=Meiner Frau die bestens grüßt ging es in den letzten 8 Tagen besser; doch fährt sie fort sich nach Ruhe zu sehnen.
+8-1	Meiner	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-3	die	ART	die	_	O	O	
+8-4	bestens	ADV	bestens	_	O	O	
+8-5	grüßt	VVFIN	grüßen	_	O	O	
+8-6	ging	VVFIN	gehen	_	O	O	
+8-7	es	PPER	es	_	O	O	
+8-8	in	APPR	in	_	O	O	
+8-9	den	ART	die	_	O	O	
+8-10	letzten	ADJA	letzt	_	O	O	
+8-11	8	CARD	8	_	O	O	
+8-12	Tagen	NN	Tag	_	O	O	
+8-13	besser	ADJD	gut	_	O	O	
+8-14	;	$.	;	_	O	O	
+8-15	doch	ADV	doch	_	O	O	
+8-16	fährt	VVFIN	fahren	_	O	O	
+8-17	sie	PPER	sie	_	O	O	
+8-18	fort	PTKVZ	fort	_	O	O	
+8-19	sich	PRF	sich	_	O	O	
+8-20	nach	APPR	nach	_	O	O	
+8-21	Ruhe	NN	Ruhe	_	O	O	
+8-22	zu	PTKZU	zu	_	O	O	
+8-23	sehnen	VVINF	sehnen	_	O	O	
+8-24	.	$.	.	_	O	O	
+
+#id=9
+#text=Wir werden nun bereits am 11.ten abreisen und denken Sonntags am 12.ten Nachmittag mit Pareti's Dili-
+9-1	Wir	PPER	wir	_	O	O	
+9-2	werden	VAFIN	werden	_	O	O	
+9-3	nun	ADV	nun	_	O	O	
+9-4	bereits	ADV	bereits	_	O	O	
+9-5	am	PTKA	am	_	O	O	
+9-6	11.ten	ADJD	<unknown>	_	O	O	
+9-7	abreisen	VVINF	abreisen	_	O	O	
+9-8	und	KON	und	_	O	O	
+9-9	denken	VVFIN	denken	_	O	O	
+9-10	Sonntags	NE	Sonntag	_	O	O	
+9-11	am	APPRART	an	_	O	O	
+9-12	12.ten	ADJA	<unknown>	_	O	O	
+9-13	Nachmittag	NN	Nachmittag	_	O	O	
+9-14	mit	APPR	mit	_	O	O	
+9-15	Pareti's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-16	Dili-	TRUNC	<unknown>	_	O	O	
+

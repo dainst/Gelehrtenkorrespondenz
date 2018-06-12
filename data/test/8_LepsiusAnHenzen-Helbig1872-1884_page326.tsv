@@ -1,0 +1,114 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=/ 361 3 Lepsius an Henzen Berlin, 7. Juni 1877 ist es mit der Casa Lelli, in der man vielleicht nur eine Wohnung zu kündigen braucht?
+1-1	/	$(	/	_	O	O	
+1-2	361	CARD	@card@	_	O	O	
+1-3	3	CARD	3	_	O	O	
+1-4	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	ist	VAFIN	sein	_	O	O	
+1-14	es	PPER	es	_	O	O	
+1-15	mit	APPR	mit	_	O	O	
+1-16	der	ART	die	_	O	O	
+1-17	Casa	NE	Casa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-18	Lelli	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+1-19	,	$,	,	_	O	O	
+1-20	in	APPR	in	_	O	O	
+1-21	der	PRELS	die	_	O	O	
+1-22	man	PIS	man	_	O	O	
+1-23	vielleicht	ADV	vielleicht	_	O	O	
+1-24	nur	ADV	nur	_	O	O	
+1-25	eine	ART	eine	_	O	O	
+1-26	Wohnung	NN	Wohnung	_	O	O	
+1-27	zu	PTKZU	zu	_	O	O	
+1-28	kündigen	VVINF	kündigen	_	O	O	
+1-29	braucht	VVFIN	brauchen	_	O	O	
+1-30	?	$.	?	_	O	O	
+
+#id=2
+#text=Wir haben nicht geglaubt daß die Sache hier Schwierigkeiten machen würde.
+2-1	Wir	PPER	wir	_	O	O	
+2-2	haben	VAFIN	haben	_	O	O	
+2-3	nicht	PTKNEG	nicht	_	O	O	
+2-4	geglaubt	VVPP	glauben	_	O	O	
+2-5	daß	KOUS	dass	_	O	O	
+2-6	die	ART	die	_	O	O	
+2-7	Sache	NN	Sache	_	O	O	
+2-8	hier	ADV	hier	_	O	O	
+2-9	Schwierigkeiten	NN	Schwierigkeit	_	O	O	
+2-10	machen	VVINF	machen	_	O	O	
+2-11	würde	VAFIN	werden	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Und kann deE Klügmann's Wohnung nicht in dem Theile des Hospitals sein, der nicht ausgebaut wird?
+3-1	Und	KON	und	_	O	O	
+3-2	kann	VMFIN	können	_	O	O	
+3-3	deE	NN	<unknown>	_	O	O	
+3-4	Klügmann's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	Wohnung	NN	Wohnung	_	O	O	
+3-6	nicht	PTKNEG	nicht	_	O	O	
+3-7	in	APPR	in	_	O	O	
+3-8	dem	ART	die	_	O	O	
+3-9	Theile	NE	Theile	_	O	O	
+3-10	des	ART	die	_	O	O	
+3-11	Hospitals	NN	Hospital	_	O	O	
+3-12	sein	VAINF	sein	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	der	PRELS	die	_	O	O	
+3-15	nicht	PTKNEG	nicht	_	O	O	
+3-16	ausgebaut	VVPP	ausbauen	_	O	O	
+3-17	wird	VAFIN	werden	_	O	O	
+3-18	?	$.	?	_	O	O	
+
+#id=4
+#text=Vielleicht hilft auch schon eine neue Reklamation des Botschafters, wenn irgendwie die Form gerettet werden kann.
+4-1	Vielleicht	ADV	vielleicht	_	O	O	
+4-2	hilft	VVFIN	helfen	_	O	O	
+4-3	auch	ADV	auch	_	O	O	
+4-4	schon	ADV	schon	_	O	O	
+4-5	eine	ART	eine	_	O	O	
+4-6	neue	ADJA	neu	_	O	O	
+4-7	Reklamation	NN	Reklamation	_	O	O	
+4-8	des	ART	die	_	O	O	
+4-9	Botschafters	NN	Botschafter	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	wenn	KOUS	wenn	_	O	O	
+4-12	irgendwie	ADV	irgendwie	_	O	O	
+4-13	die	ART	die	_	O	O	
+4-14	Form	NN	Form	_	O	O	
+4-15	gerettet	VVPP	retten	_	O	O	
+4-16	werden	VAINF	werden	_	O	O	
+4-17	kann	VMFIN	können	_	O	O	
+4-18	.	$.	.	_	O	O	
+
+#id=5
+#text=Schreiben Sie mir Vorschläge, die wir dann hier gern unterstützen werden.
+5-1	Schreiben	VVFIN	schreiben	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	mir	PRF	ich	_	O	O	
+5-4	Vorschläge	NN	Vorschlag	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	die	PRELS	die	_	O	O	
+5-7	wir	PPER	wir	_	O	O	
+5-8	dann	ADV	dann	_	O	O	
+5-9	hier	ADV	hier	_	O	O	
+5-10	gern	ADV	gern	_	O	O	
+5-11	unterstützen	VVINF	unterstützen	_	O	O	
+5-12	werden	VAFIN	werden	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihr ergebenster R Lepsius
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	ergebenster	ADJA	<unknown>	_	O	O	
+6-3	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-4	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

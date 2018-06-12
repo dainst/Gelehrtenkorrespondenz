@@ -1,0 +1,105 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=~9 3 Gerhard an Braun Berlin, 16. Mai 1844 Daß Göttling, Lepsius, Leemans, Della Marmora zu Korrespondenten der Akademie erwählt sind, schrieb ich Ihnen wol bereits.
+1-1	~9	CARD	<unknown>	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Daß	KOUS	dass	_	O	O	
+1-13	Göttling	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-14	,	$,	,	_	O	O	
+1-15	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-16	,	$,	,	_	O	O	
+1-17	Leemans	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-18	,	$,	,	_	O	O	
+1-19	Della	NE	Della	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-20	Marmora	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-21	zu	APPR	zu	_	O	O	
+1-22	Korrespondenten	NN	Korrespondent	_	O	O	
+1-23	der	ART	die	_	O	O	
+1-24	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-25	erwählt	VVPP	erwählen	_	O	O	
+1-26	sind	VAFIN	sein	_	O	O	
+1-27	,	$,	,	_	O	O	
+1-28	schrieb	VVFIN	schreiben	_	O	O	
+1-29	ich	PPER	ich	_	O	O	
+1-30	Ihnen	PPER	Sie	_	O	O	
+1-31	wol	ADJD	<unknown>	_	O	O	
+1-32	bereits	ADV	bereits	_	O	O	
+1-33	.	$.	.	_	O	O	
+
+#id=2
+#text=Wer sollte das archäologische Haus dann hüten, wenn Henzen im Sommer schon fort will ?
+2-1	Wer	PWS	wer	_	O	O	
+2-2	sollte	VMFIN	sollen	_	O	O	
+2-3	das	ART	die	_	O	O	
+2-4	archäologische	ADJA	archäologisch	_	O	O	
+2-5	Haus	NN	Haus	_	O	O	
+2-6	dann	ADV	dann	_	O	O	
+2-7	hüten	VVINF	hüten	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	wenn	KOUS	wenn	_	O	O	
+2-10	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-11	im	APPRART	in	_	O	O	
+2-12	Sommer	NN	Sommer	_	O	O	
+2-13	schon	ADV	schon	_	O	O	
+2-14	fort	ADV	fort	_	O	O	
+2-15	will	VMFIN	wollen	_	O	O	
+2-16	?	$.	?	_	O	O	
+
+#id=3
+#text=Grüßen Sie ihn samt Horkel, Kestner, Vollard, Blessig und gute Freunde.
+3-1	Grüßen	VVFIN	grüßen	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	ihn	PPER	er	_	O	O	
+3-4	samt	APPR	samt	_	O	O	
+3-5	Horkel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	,	$,	,	_	O	O	
+3-7	Kestner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-8	,	$,	,	_	O	O	
+3-9	Vollard	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-10	,	$,	,	_	O	O	
+3-11	Blessig	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-12	und	KON	und	_	O	O	
+3-13	gute	ADJA	gut	_	O	O	
+3-14	Freunde	NN	Freund	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Ihr Stillschweigen über Ihre liebe Frau habe ich fort als gutes Zeichen zu nehmen und bitte mich ihr gleichfalls zu empfehlen.
+4-1	Ihr	PPOSAT	ihr	_	O	O	
+4-2	Stillschweigen	NN	Stillschweigen	_	O	O	
+4-3	über	APPR	über	_	O	O	
+4-4	Ihre	PPOSAT	ihr	_	O	O	
+4-5	liebe	ADJA	lieb	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-6	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-7	habe	VAFIN	haben	_	O	O	
+4-8	ich	PPER	ich	_	O	O	
+4-9	fort	ADV	fort	_	O	O	
+4-10	als	KOKOM	als	_	O	O	
+4-11	gutes	ADJA	gut	_	O	O	
+4-12	Zeichen	NN	Zeichen	_	O	O	
+4-13	zu	PTKZU	zu	_	O	O	
+4-14	nehmen	VVINF	nehmen	_	O	O	
+4-15	und	KON	und	_	O	O	
+4-16	bitte	VVFIN	bitten	_	O	O	
+4-17	mich	PRF	ich	_	O	O	
+4-18	ihr	PPOSAT	ihr	_	O	O	
+4-19	gleichfalls	ADV	gleichfalls	_	O	O	
+4-20	zu	PTKZU	zu	_	O	O	
+4-21	empfehlen	VVINF	empfehlen	_	O	O	
+4-22	.	$.	.	_	O	O	
+
+#id=5
+#text=Herzliehst Ihr Gerhard
+5-1	Herzliehst	VVFIN	<unknown>	_	O	O	
+5-2	Ihr	PPER	sie	_	O	O	
+5-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

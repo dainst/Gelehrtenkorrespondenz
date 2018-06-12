@@ -1,0 +1,283 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=~ 10 Hensefr an Gerhard "1--»/VIII/52 tig sein werde, wann es auch sei.
+1-1	~	XY	~	_	O	O	
+1-2	10	CARD	10	_	O	O	
+1-3	Hensefr	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	"	$(	"	_	O	O	
+1-7	1--»/VIII/52	NN	<unknown>	_	O	O	
+1-8	tig	VVPP	<unknown>	_	O	O	
+1-9	sein	VAINF	sein	_	O	O	
+1-10	werde	VAFIN	werden	_	O	O	
+1-11	,	$,	,	_	O	O	
+1-12	wann	PWAV	wann	_	O	O	
+1-13	es	PPER	es	_	O	O	
+1-14	auch	ADV	auch	_	O	O	
+1-15	sei	VAFIN	sein	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Meine Zukunft will ich erst, wenn ich über Griechenland in Deutschland angelangt sein werde, weiter in Berathung ziehen.
+2-1	Meine	PPOSAT	mein	_	O	O	
+2-2	Zukunft	NN	Zukunft	_	O	O	
+2-3	will	VMFIN	wollen	_	O	O	
+2-4	ich	PPER	ich	_	O	O	
+2-5	erst	ADV	erst	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	wenn	KOUS	wenn	_	O	O	
+2-8	ich	PPER	ich	_	O	O	
+2-9	über	APPR	über	_	O	O	
+2-10	Griechenland	NE	Griechenland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-11	in	APPR	in	_	O	O	
+2-12	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-13	angelangt	VVPP	angelangen	_	O	O	
+2-14	sein	VAINF	sein	_	O	O	
+2-15	werde	VAFIN	werden	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	weiter	ADV	weiter	_	O	O	
+2-18	in	APPR	in	_	O	O	
+2-19	Berathung	NN	<unknown>	_	O	O	
+2-20	ziehen	VVFIN	ziehen	_	O	O	
+2-21	.	$.	.	_	O	O	
+
+#id=3
+#text=Mein Stubennachbar, ein Folenriecher, las neulich in Lepsius Briefen aus Aegypten von einer oder einigen späten Inschriften bei Kartum, welche weder Coptisch noch Griechisch seien : nur und ( aber in ungewöhnl.
+3-1	Mein	PPOSAT	mein	_	O	O	
+3-2	Stubennachbar	NN	<unknown>	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	ein	ART	eine	_	O	O	
+3-5	Folenriecher	NN	<unknown>	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	las	VVFIN	lesen	_	O	O	
+3-8	neulich	ADV	neulich	_	O	O	
+3-9	in	APPR	in	_	O	O	
+3-10	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-11	Briefen	NN	Brief	_	O	O	
+3-12	aus	APPR	aus	_	O	O	
+3-13	Aegypten	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-14	von	APPR	von	_	O	O	
+3-15	einer	ART	eine	_	O	O	
+3-16	oder	KON	oder	_	O	O	
+3-17	einigen	PIAT	einige	_	O	O	
+3-18	späten	ADJA	spät	_	O	O	
+3-19	Inschriften	NN	Inschrift	_	O	O	
+3-20	bei	APPR	bei	_	O	O	
+3-21	Kartum	NN	<unknown>	_	O	O	
+3-22	,	$,	,	_	O	O	
+3-23	welche	PRELS	welche	_	O	O	
+3-24	weder	KON	weder	_	O	O	
+3-25	Coptisch	ADJD	<unknown>	_	O	O	
+3-26	noch	ADV	noch	_	O	O	
+3-27	Griechisch	ADJD	griechisch	_	O	O	
+3-28	seien	VAFIN	sein	_	O	O	
+3-29	:	$.	:	_	O	O	
+3-30	nur	ADV	nur	_	O	O	
+3-31	und	KON	und	_	O	O	
+3-32	(	$(	(	_	O	O	
+3-33	aber	ADV	aber	_	O	O	
+3-34	in	APPR	in	_	O	O	
+3-35	ungewöhnl	NE	<unknown>	_	O	O	
+3-36	.	$.	.	_	O	O	
+
+#id=4
+#text=buchstaben) seien erkennbar.
+4-1	buchstaben	NN	Buchstabe	_	O	O	
+4-2	)	$(	)	_	O	O	
+4-3	seien	VAFIN	sein	_	O	O	
+4-4	erkennbar	ADJD	erkennbar	_	O	O	
+4-5	.	$.	.	_	O	O	
+
+#id=5
+#text=Nicht weit davon ist in dem Buche von einem polnischen Arzt Hermanovich die Rede.
+5-1	Nicht	PTKNEG	nicht	_	O	O	
+5-2	weit	ADJD	weit	_	O	O	
+5-3	davon	PAV	davon	_	O	O	
+5-4	ist	VAFIN	sein	_	O	O	
+5-5	in	APPR	in	_	O	O	
+5-6	dem	ART	die	_	O	O	
+5-7	Buche	NN	Buche	_	O	O	
+5-8	von	APPR	von	_	O	O	
+5-9	einem	ART	eine	_	O	O	
+5-10	polnischen	ADJA	polnisch	_	O	O	
+5-11	Arzt	NN	Arzt	_	O	O	
+5-12	Hermanovich	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-13	die	ART	die	_	O	O	
+5-14	Rede	NN	Rede	_	O	O	
+5-15	.	$.	.	_	O	O	
+
+#id=6
+#text=Sollte sich dieser vielleicht das Vergnügen gemacht haben, in Oberaegypten einige russich-slavinische Inschriften zu fabriciren?
+6-1	Sollte	VMFIN	sollen	_	O	O	
+6-2	sich	PRF	sich	_	O	O	
+6-3	dieser	PDS	diese	_	O	O	
+6-4	vielleicht	ADV	vielleicht	_	O	O	
+6-5	das	ART	die	_	O	O	
+6-6	Vergnügen	NN	Vergnügen	_	O	O	
+6-7	gemacht	VVPP	machen	_	O	O	
+6-8	haben	VAINF	haben	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	in	APPR	in	_	O	O	
+6-11	Oberaegypten	NE	<unknown>	_	O	O	
+6-12	einige	PIAT	einige	_	O	O	
+6-13	russich-slavinische	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-14	Inschriften	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-15	zu	APPR	zu	_	O	O	
+6-16	fabriciren	NN	<unknown>	_	O	O	
+6-17	?	$.	?	_	O	O	
+
+#id=7
+#text=Wenn Lepsius eine Abschrift hat, kann er vielleicht den Verdacht meines, des Russischen nich unkundigen Freunds:'verific iren 0 oder abweisen.
+7-1	Wenn	KOUS	wenn	_	O	O	
+7-2	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-3	eine	ART	eine	_	O	O	
+7-4	Abschrift	NN	Abschrift	_	O	O	
+7-5	hat	VAFIN	haben	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	kann	VMFIN	können	_	O	O	
+7-8	er	PPER	er	_	O	O	
+7-9	vielleicht	ADV	vielleicht	_	O	O	
+7-10	den	ART	die	_	O	O	
+7-11	Verdacht	NN	Verdacht	_	O	O	
+7-12	meines	PPOSAT	mein	_	O	O	
+7-13	,	$,	,	_	O	O	
+7-14	des	ART	die	_	O	O	
+7-15	Russischen	ADJA	russisch	_	O	O	
+7-16	nich	ADJA	<unknown>	_	O	O	
+7-17	unkundigen	ADJA	unkundig	_	O	O	
+7-18	Freunds:'verific	NE	<unknown>	_	O	O	
+7-19	iren	VVFIN	<unknown>	_	O	O	
+7-20	0	CARD	@card@	_	O	O	
+7-21	oder	KON	oder	_	O	O	
+7-22	abweisen	VVINF	abweisen	_	O	O	
+7-23	.	$.	.	_	O	O	
+
+#id=8
+#text='Om Oktober erwarten wir Welcker.
+8-1	'	$(	'	_	O	O	
+8-2	Om	ADJA	<unknown>	_	O	O	
+8-3	Oktober	NN	Oktober	_	O	O	
+8-4	erwarten	VVFIN	erwarten	_	O	O	
+8-5	wir	PPER	wir	_	O	O	
+8-6	Welcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-7	.	$.	.	_	O	O	
+
+#id=9
+#text=Und 0ie?
+9-1	Und	KON	und	_	O	O	
+9-2	0ie	NN	<unknown>	_	O	O	
+9-3	?	$.	?	_	O	O	
+
+#id=10
+#text=Seit rv: 1846 sind 6 Jahre verst1chen.
+10-1	Seit	APPR	seit	_	O	O	
+10-2	rv	NN	<unknown>	_	O	O	
+10-3	:	$.	:	_	O	O	
+10-4	1846	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+10-5	sind	VAFIN	sein	_	O	O	
+10-6	6	CARD	6	_	O	O	
+10-7	Jahre	NN	Jahr	_	O	O	
+10-8	verst1chen	VVINF	<unknown>	_	O	O	
+10-9	.	$.	.	_	O	O	
+
+#id=11
+#text=Ueber die Vasenchronologie wirds wohl &J?äter noch eine kleine; geben; und es were nicht unmöglich, daß derselbe mit einem Frontangriff auf Ihr Vordertreffen, die Paläographie, eröffnet würde.
+11-1	Ueber	NN	<unknown>	_	O	O	
+11-2	die	ART	die	_	O	O	
+11-3	Vasenchronologie	NN	<unknown>	_	O	O	
+11-4	wirds	VVFIN	<unknown>	_	O	O	
+11-5	wohl	ADV	wohl	_	O	O	
+11-6	&J	ADJD	<unknown>	_	O	O	
+11-7	?	$.	?	_	O	O	
+11-8	äter	NN	<unknown>	_	O	O	
+11-9	noch	ADV	noch	_	O	O	
+11-10	eine	ART	eine	_	O	O	
+11-11	kleine	ADJA	klein	_	O	O	
+11-12	;	$.	;	_	O	O	
+11-13	geben	VVFIN	geben	_	O	O	
+11-14	;	$.	;	_	O	O	
+11-15	und	KON	und	_	O	O	
+11-16	es	PPER	es	_	O	O	
+11-17	were	VVFIN	<unknown>	_	O	O	
+11-18	nicht	PTKNEG	nicht	_	O	O	
+11-19	unmöglich	ADJD	unmöglich	_	O	O	
+11-20	,	$,	,	_	O	O	
+11-21	daß	KOUS	dass	_	O	O	
+11-22	derselbe	PDS	derselbe	_	O	O	
+11-23	mit	APPR	mit	_	O	O	
+11-24	einem	ART	eine	_	O	O	
+11-25	Frontangriff	NN	<unknown>	_	O	O	
+11-26	auf	APPR	auf	_	O	O	
+11-27	Ihr	PPOSAT	ihr	_	O	O	
+11-28	Vordertreffen	NN	<unknown>	_	O	O	
+11-29	,	$,	,	_	O	O	
+11-30	die	ART	die	_	O	O	
+11-31	Paläographie	NN	<unknown>	_	O	O	
+11-32	,	$,	,	_	O	O	
+11-33	eröffnet	VVPP	eröffnen	_	O	O	
+11-34	würde	VAFIN	werden	_	O	O	
+11-35	.	$.	.	_	O	O	
+
+#id=12
+#text=Doch hat das noch lange Zeit.
+12-1	Doch	ADV	doch	_	O	O	
+12-2	hat	VAFIN	haben	_	O	O	
+12-3	das	ART	die	_	O	O	
+12-4	noch	ADV	noch	_	O	O	
+12-5	lange	ADJA	lang	_	O	O	
+12-6	Zeit	NN	Zeit	_	O	O	
+12-7	.	$.	.	_	O	O	
+
+#id=13
+#text=Vorläufig begnDge ich micht damit, daß ~ie die Tatsache, auf welche es mir ankam, wenn auch nur nackt, und noch nicht in ihren Consequegzen ane~kanht haben.
+13-1	Vorläufig	ADJD	vorläufig	_	O	O	
+13-2	begnDge	VVFIN	<unknown>	_	O	O	
+13-3	ich	PPER	ich	_	O	O	
+13-4	micht	ADJD	<unknown>	_	O	O	
+13-5	damit	PAV	damit	_	O	O	
+13-6	,	$,	,	_	O	O	
+13-7	daß	KOUS	dass	_	O	O	
+13-8	~ie	NN	<unknown>	_	O	O	
+13-9	die	ART	die	_	O	O	
+13-10	Tatsache	NN	Tatsache	_	O	O	
+13-11	,	$,	,	_	O	O	
+13-12	auf	APPR	auf	_	O	O	
+13-13	welche	PRELS	welche	_	O	O	
+13-14	es	PPER	es	_	O	O	
+13-15	mir	PRF	ich	_	O	O	
+13-16	ankam	VVFIN	ankommen	_	O	O	
+13-17	,	$,	,	_	O	O	
+13-18	wenn	KOUS	wenn	_	O	O	
+13-19	auch	ADV	auch	_	O	O	
+13-20	nur	ADV	nur	_	O	O	
+13-21	nackt	ADJD	nackt	_	O	O	
+13-22	,	$,	,	_	O	O	
+13-23	und	KON	und	_	O	O	
+13-24	noch	ADV	noch	_	O	O	
+13-25	nicht	PTKNEG	nicht	_	O	O	
+13-26	in	APPR	in	_	O	O	
+13-27	ihren	PPOSAT	ihr	_	O	O	
+13-28	Consequegzen	NN	<unknown>	_	O	O	
+13-29	ane~kanht	VVPP	<unknown>	_	O	O	
+13-30	haben	VAFIN	haben	_	O	O	
+13-31	.	$.	.	_	O	O	
+
+#id=14
+#text=Es bleibt nur noch Platz, Lebewohl zu sagen.
+14-1	Es	PPER	es	_	O	O	
+14-2	bleibt	VVFIN	bleiben	_	O	O	
+14-3	nur	ADV	nur	_	O	O	
+14-4	noch	ADV	noch	_	O	O	
+14-5	Platz	NN	Platz	_	O	O	
+14-6	,	$,	,	_	O	O	
+14-7	Lebewohl	NN	Lebewohl	_	O	O	
+14-8	zu	PTKZU	zu	_	O	O	
+14-9	sagen	VVINF	sagen	_	O	O	
+14-10	.	$.	.	_	O	O	
+
+#id=15
+#text=Ergebenst HBrunn
+15-1	Ergebenst	ADJD	ergeben	_	O	O	
+15-2	HBrunn	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

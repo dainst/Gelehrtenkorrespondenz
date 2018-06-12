@@ -1,0 +1,228 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=404 H Helbig an Henzen Neapel, 24. August 1864 g. 30/8 64 r. Neapel 24. Aug.
+1-1	404	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	30/8	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	64	CARD	64	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	r.	ADJA	<unknown>	_	O	O	
+1-16	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-17	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	Aug.	NN	Aug.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1864. Geehrtester Herr Professor !
+2-1	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	.	$.	.	_	O	O	
+2-3	Geehrtester	ADJA	<unknown>	_	O	O	
+2-4	Herr	NN	Herr	_	O	O	
+2-5	Professor	NN	Professor	_	O	O	
+2-6	!	$.	!	_	O	O	
+
+#id=3
+#text=Wie wir es mit den Institutszeicbnungen halten sollen, ist wirklich ein affare serio und ich möchte mir nicht alle Verantwortung davon aufladen.
+3-1	Wie	KOUS	wie	_	O	O	
+3-2	wir	PPER	wir	_	O	O	
+3-3	es	PPER	es	_	O	O	
+3-4	mit	APPR	mit	_	O	O	
+3-5	den	ART	die	_	O	O	
+3-6	Institutszeicbnungen	NN	<unknown>	_	O	O	
+3-7	halten	VVINF	halten	_	O	O	
+3-8	sollen	VMFIN	sollen	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	ist	VAFIN	sein	_	O	O	
+3-11	wirklich	ADJD	wirklich	_	O	O	
+3-12	ein	ART	eine	_	O	O	
+3-13	affare	NN	<unknown>	_	O	O	
+3-14	serio	VVFIN	<unknown>	_	O	O	
+3-15	und	KON	und	_	O	O	
+3-16	ich	PPER	ich	_	O	O	
+3-17	möchte	VMFIN	mögen	_	O	O	
+3-18	mir	PPER	ich	_	O	O	
+3-19	nicht	PTKNEG	nicht	_	O	O	
+3-20	alle	PIAT	alle	_	O	O	
+3-21	Verantwortung	NN	Verantwortung	_	O	O	
+3-22	davon	PAV	davon	_	O	O	
+3-23	aufladen	VVINF	aufladen	_	O	O	
+3-24	.	$.	.	_	O	O	
+
+#id=4
+#text=Bei der schwächlichen Constitution Scalabrinis wird sich mit diesem unter obwaltenden Umständen nicht viel anfangen lassen.
+4-1	Bei	APPR	bei	_	O	O	
+4-2	der	ART	die	_	O	O	
+4-3	schwächlichen	ADJA	schwächlich	_	O	O	
+4-4	Constitution	NN	<unknown>	_	O	O	
+4-5	Scalabrinis	NN	<unknown>	_	O	O	
+4-6	wird	VAFIN	werden	_	O	O	
+4-7	sich	PRF	sich	_	O	O	
+4-8	mit	APPR	mit	_	O	O	
+4-9	diesem	PDAT	dies	_	O	O	
+4-10	unter	APPR	unter	_	O	O	
+4-11	obwaltenden	ADJA	obwaltend	_	O	O	
+4-12	Umständen	NN	Umstand	_	O	O	
+4-13	nicht	PTKNEG	nicht	_	O	O	
+4-14	viel	ADV	viel	_	O	O	
+4-15	anfangen	VVINF	anfangen	_	O	O	
+4-16	lassen	VVINF	lassen	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Reliefs von Nasti stehen in dem Hofe einer Marmorata, worauf die Sonne in furchtbarer Weise brennt, ebenso die Sachen aus Calvi, über welche ich Ihnen nächstens berichten werde.
+5-1	Die	ART	die	_	O	O	
+5-2	Reliefs	NN	Relief	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-3	von	APPR	von	_	O	O	
+5-4	Nasti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	stehen	VVFIN	stehen	_	O	O	
+5-6	in	APPR	in	_	O	O	
+5-7	dem	ART	die	_	O	O	
+5-8	Hofe	NN	Hof	_	O	O	
+5-9	einer	ART	eine	_	O	O	
+5-10	Marmorata	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-11	,	$,	,	_	O	O	
+5-12	worauf	PWAV	worauf	_	O	O	
+5-13	die	ART	die	_	O	O	
+5-14	Sonne	NN	Sonne	_	O	O	
+5-15	in	APPR	in	_	O	O	
+5-16	furchtbarer	ADJA	furchtbar	_	O	O	
+5-17	Weise	NN	Weise	_	O	O	
+5-18	brennt	VVFIN	brennen	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	ebenso	ADV	ebenso	_	O	O	
+5-21	die	ART	die	_	O	O	
+5-22	Sachen	NN	Sache	_	O	O	
+5-23	aus	APPR	aus	_	O	O	
+5-24	Calvi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-25	,	$,	,	_	O	O	
+5-26	über	APPR	über	_	O	O	
+5-27	welche	PRELS	welche	_	O	O	
+5-28	ich	PPER	ich	_	O	O	
+5-29	Ihnen	PPER	Sie	_	O	O	
+5-30	nächstens	ADV	nächstens	_	O	O	
+5-31	berichten	VVINF	berichten	_	O	O	
+5-32	werde	VAFIN	werden	_	O	O	
+5-33	.	$.	.	_	O	O	
+
+#id=6
+#text=Das Museumlocal Peytrignets ist ein gewächshausartiger Vorbau, in welchem ich entsetzlich ausgestanden habe.
+6-1	Das	ART	die	_	O	O	
+6-2	Museumlocal	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-3	Peytrignets	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+6-4	ist	VAFIN	sein	_	O	O	
+6-5	ein	ART	eine	_	O	O	
+6-6	gewächshausartiger	ADJA	<unknown>	_	O	O	
+6-7	Vorbau	NN	Vorbau	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	in	APPR	in	_	O	O	
+6-10	welchem	PRELS	welche	_	O	O	
+6-11	ich	PPER	ich	_	O	O	
+6-12	entsetzlich	ADJD	entsetzlich	_	O	O	
+6-13	ausgestanden	VVPP	ausstehen	_	O	O	
+6-14	habe	VAFIN	haben	_	O	O	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=Im Museum bleiben von kleinen Sachen, die ich auf meine Verantwortung zeichnen lassen würde, einige Reliefs im Cortile übrig,- also ebenfalls unter freiem Himmel.
+7-1	Im	APPRART	in	_	O	O	
+7-2	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-3	bleiben	VVFIN	bleiben	_	O	O	
+7-4	von	APPR	von	_	O	O	
+7-5	kleinen	ADJA	klein	_	O	O	
+7-6	Sachen	NN	Sache	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	die	PRELS	die	_	O	O	
+7-9	ich	PPER	ich	_	O	O	
+7-10	auf	APPR	auf	_	O	O	
+7-11	meine	PPOSAT	mein	_	O	O	
+7-12	Verantwortung	NN	Verantwortung	_	O	O	
+7-13	zeichnen	VVINF	zeichnen	_	O	O	
+7-14	lassen	VVINF	lassen	_	O	O	
+7-15	würde	VAFIN	werden	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	einige	PIAT	einige	_	O	O	
+7-18	Reliefs	NN	Relief	_	B-webanno.custom.LetterEntity_	B-OBJ	
+7-19	im	APPRART	in	_	O	O	
+7-20	Cortile	NN	<unknown>	_	O	O	
+7-21	übrig,-	VVFIN	<unknown>	_	O	O	
+7-22	also	ADV	also	_	O	O	
+7-23	ebenfalls	ADV	ebenfalls	_	O	O	
+7-24	unter	APPR	unter	_	O	O	
+7-25	freiem	ADJA	frei	_	O	O	
+7-26	Himmel	NN	Himmel	_	O	O	
+7-27	.	$.	.	_	O	O	
+
+#id=8
+#text=Um Kosten zu sparen, würde ich Ihnen daher vorschlagen, es einmal mit einem neapolitanischen Zeichner zu versuchen, dem jungen Gargiulo, welcher leichtere Aufgaben wohl zu bewältigen im Stande ist.
+8-1	Um	APPR	um	_	O	O	
+8-2	Kosten	NN	Kosten	_	O	O	
+8-3	zu	PTKZU	zu	_	O	O	
+8-4	sparen	VVINF	sparen	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	würde	VAFIN	werden	_	O	O	
+8-7	ich	PPER	ich	_	O	O	
+8-8	Ihnen	PPER	Sie	_	O	O	
+8-9	daher	PAV	daher	_	O	O	
+8-10	vorschlagen	VVINF	vorschlagen	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	es	PPER	es	_	O	O	
+8-13	einmal	ADV	einmal	_	O	O	
+8-14	mit	APPR	mit	_	O	O	
+8-15	einem	ART	eine	_	O	O	
+8-16	neapolitanischen	ADJA	neapolitanisch	_	O	O	
+8-17	Zeichner	NN	Zeichner	_	O	O	
+8-18	zu	PTKZU	zu	_	O	O	
+8-19	versuchen	VVINF	versuchen	_	O	O	
+8-20	,	$,	,	_	O	O	
+8-21	dem	ART	die	_	O	O	
+8-22	jungen	ADJA	jung	_	O	O	
+8-23	Gargiulo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-24	,	$,	,	_	O	O	
+8-25	welcher	PWS	welche	_	O	O	
+8-26	leichtere	ADJA	leicht	_	O	O	
+8-27	Aufgaben	NN	Aufgabe	_	O	O	
+8-28	wohl	ADV	wohl	_	O	O	
+8-29	zu	PTKZU	zu	_	O	O	
+8-30	bewältigen	VVINF	bewältigen	_	O	O	
+8-31	im	APPRART	in	_	O	O	
+8-32	Stande	NN	Stand	_	O	O	
+8-33	ist	VAFIN	sein	_	O	O	
+8-34	.	$.	.	_	O	O	
+
+#id=9
+#text=Eine Arbeit bliebe für Scalabrini übrig, zu welcher Gargiulo sicher nicht befähigt ist die Zeichnung der großen paestanisehen Wandgemälde, welche drei Monumententafeln geben
+9-1	Eine	ART	eine	_	O	O	
+9-2	Arbeit	NN	Arbeit	_	O	O	
+9-3	bliebe	VVFIN	bleiben	_	O	O	
+9-4	für	APPR	für	_	O	O	
+9-5	Scalabrini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-6	übrig	ADJD	übrig	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	zu	APPR	zu	_	O	O	
+9-9	welcher	PRELS	welche	_	O	O	
+9-10	Gargiulo	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-11	sicher	ADJD	sicher	_	O	O	
+9-12	nicht	PTKNEG	nicht	_	O	O	
+9-13	befähigt	VVPP	befähigen	_	O	O	
+9-14	ist	VAFIN	sein	_	O	O	
+9-15	die	ART	die	_	O	O	
+9-16	Zeichnung	NN	Zeichnung	_	O	O	
+9-17	der	ART	die	_	O	O	
+9-18	großen	ADJA	groß	_	O	O	
+9-19	paestanisehen	ADJA	<unknown>	_	O	O	
+9-20	Wandgemälde	NN	Wandgemälde	_	O	O	
+9-21	,	$,	,	_	O	O	
+9-22	welche	PRELS	welche	_	O	O	
+9-23	drei	CARD	drei	_	O	O	
+9-24	Monumententafeln	NN	<unknown>	_	O	O	
+9-25	geben	VVINF	geben	_	O	O	
+

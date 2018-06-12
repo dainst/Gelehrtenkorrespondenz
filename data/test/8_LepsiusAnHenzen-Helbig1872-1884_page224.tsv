@@ -1,0 +1,240 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=/ 264 2 Lepsius an Henzen Berlin, 26. Mai 1875 Pr.
+1-1	/	$(	/	_	O	O	
+1-2	264	CARD	@card@	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Pr.	NN	<unknown>	_	O	O	
+
+#id=2
+#text=Ludw.
+2-1	Ludw.	NE	Ludw.	_	O	O	
+
+#id=3
+#text=Schwabe, Tübingen Für Paganini folgt ein andres Diplom.
+3-1	Schwabe	NE	Schwabe	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	,	$,	,	_	O	O	
+3-3	Tübingen	NE	Tübingen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-4	Für	APPR	für	_	O	O	
+3-5	Paganini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	folgt	VVFIN	folgen	_	O	O	
+3-7	ein	ART	eine	_	O	O	
+3-8	andres	PIAT	andere	_	O	O	
+3-9	Diplom.	NN	<unknown>	_	O	O	
+
+#id=4
+#text=Lüders verläßt seine Stellung wieder, die in der That nicht mehr haltbar war.
+4-1	Lüders	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	verläßt	VVFIN	verlassen	_	O	O	
+4-3	seine	PPOSAT	sein	_	O	O	
+4-4	Stellung	NN	Stellung	_	O	O	
+4-5	wieder	ADV	wieder	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	die	PRELS	die	_	O	O	
+4-8	in	APPR	in	_	O	O	
+4-9	der	ART	die	_	O	O	
+4-10	That	NE	<unknown>	_	O	O	
+4-11	nicht	PTKNEG	nicht	_	O	O	
+4-12	mehr	ADV	mehr	_	O	O	
+4-13	haltbar	ADJD	haltbar	_	O	O	
+4-14	war	VAFIN	sein	_	O	O	
+4-15	.	$.	.	_	O	O	
+
+#id=5
+#text=Abgesehen davon, daß es ihm unmöglich war, einen richtigen Standpunkt der Central Direktion gegenüber in seiner Korrespondenz zu gewinnen, befriedigten seine Leistungen hier nach keiner Seite hin.
+5-1	Abgesehen	VVPP	absehen	_	O	O	
+5-2	davon	PAV	davon	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	daß	KOUS	dass	_	O	O	
+5-5	es	PPER	es	_	O	O	
+5-6	ihm	PPER	er	_	O	O	
+5-7	unmöglich	ADJD	unmöglich	_	O	O	
+5-8	war	VAFIN	sein	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	einen	ART	eine	_	O	O	
+5-11	richtigen	ADJA	richtig	_	O	O	
+5-12	Standpunkt	NN	Standpunkt	_	O	O	
+5-13	der	ART	die	_	O	O	
+5-14	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-15	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-16	gegenüber	APPR	gegenüber	_	O	O	
+5-17	in	APPR	in	_	O	O	
+5-18	seiner	PPOSAT	sein	_	O	O	
+5-19	Korrespondenz	NN	Korrespondenz	_	O	O	
+5-20	zu	PTKZU	zu	_	O	O	
+5-21	gewinnen	VVINF	gewinnen	_	O	O	
+5-22	,	$,	,	_	O	O	
+5-23	befriedigten	VVFIN	befriedigen	_	O	O	
+5-24	seine	PPOSAT	sein	_	O	O	
+5-25	Leistungen	NN	Leistung	_	O	O	
+5-26	hier	ADV	hier	_	O	O	
+5-27	nach	APPR	nach	_	O	O	
+5-28	keiner	PIAT	keine	_	O	O	
+5-29	Seite	NN	Seite	_	O	O	
+5-30	hin	PTKVZ	hin	_	O	O	
+5-31	.	$.	.	_	O	O	
+
+#id=6
+#text=Es ist hier aber schließlich Alles amicaliter gelöst worden, besonders du~~h die wohlwollende Intervention von Kadowitz, der es vermocht hat, ihn wie.der in die Diplomatie, für die er vortrefflich geeignet ist, zurückzuführen.
+6-1	Es	PPER	es	_	O	O	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	hier	ADV	hier	_	O	O	
+6-4	aber	ADV	aber	_	O	O	
+6-5	schließlich	ADV	schließlich	_	O	O	
+6-6	Alles	PIAT	alle	_	O	O	
+6-7	amicaliter	NN	<unknown>	_	O	O	
+6-8	gelöst	VVPP	lösen	_	O	O	
+6-9	worden	VAPP	werden	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	besonders	ADV	besonders	_	O	O	
+6-12	du~~h	VVFIN	<unknown>	_	O	O	
+6-13	die	ART	die	_	O	O	
+6-14	wohlwollende	ADJA	wohlwollend	_	O	O	
+6-15	Intervention	NN	Intervention	_	O	O	
+6-16	von	APPR	von	_	O	O	
+6-17	Kadowitz	NN	<unknown>	_	O	O	
+6-18	,	$,	,	_	O	O	
+6-19	der	PRELS	die	_	O	O	
+6-20	es	PPER	es	_	O	O	
+6-21	vermocht	VVPP	vermocht	_	O	O	
+6-22	hat	VAFIN	haben	_	O	O	
+6-23	,	$,	,	_	O	O	
+6-24	ihn	PPER	er	_	O	O	
+6-25	wie.der	VVFIN	<unknown>	_	O	O	
+6-26	in	APPR	in	_	O	O	
+6-27	die	ART	die	_	O	O	
+6-28	Diplomatie	NN	Diplomatie	_	O	O	
+6-29	,	$,	,	_	O	O	
+6-30	für	APPR	für	_	O	O	
+6-31	die	PRELS	die	_	O	O	
+6-32	er	PPER	er	_	O	O	
+6-33	vortrefflich	ADJD	vortrefflich	_	O	O	
+6-34	geeignet	VVPP	eignen	_	O	O	
+6-35	ist	VAFIN	sein	_	O	O	
+6-36	,	$,	,	_	O	O	
+6-37	zurückzuführen	VVIZU	zurückführen	_	O	O	
+6-38	.	$.	.	_	O	O	
+
+#id=7
+#text=Er ist gestern mit seiner Frau wieder abgereist, zunächst nach Bonn, und wird von dort über Marseille zurück gehen.
+7-1	Er	PPER	er	_	O	O	
+7-2	ist	VAFIN	sein	_	O	O	
+7-3	gestern	ADV	gestern	_	O	O	
+7-4	mit	APPR	mit	_	O	O	
+7-5	seiner	PPOSAT	sein	_	O	O	
+7-6	Frau	NN	Frau	_	O	O	
+7-7	wieder	ADV	wieder	_	O	O	
+7-8	abgereist	VVPP	abreisen	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	zunächst	ADV	zunächst	_	O	O	
+7-11	nach	APPR	nach	_	O	O	
+7-12	Bonn	NE	Bonn	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-13	,	$,	,	_	O	O	
+7-14	und	KON	und	_	O	O	
+7-15	wird	VAFIN	werden	_	O	O	
+7-16	von	APPR	von	_	O	O	
+7-17	dort	ADV	dort	_	O	O	
+7-18	über	APPR	über	_	O	O	
+7-19	Marseille	NE	Marseille	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-20	zurück	PTKVZ	zurück	_	O	O	
+7-21	gehen	VVINF	gehen	_	O	O	
+7-22	.	$.	.	_	O	O	
+
+#id=8
+#text=Er wird wenigstens bis Oktober seine Stelle noch versehen, auch länger wenn noch kein Nachfolger gefunden sein sollte.
+8-1	Er	PPER	er	_	O	O	
+8-2	wird	VAFIN	werden	_	O	O	
+8-3	wenigstens	ADV	wenigstens	_	O	O	
+8-4	bis	APPR	bis	_	O	O	
+8-5	Oktober	NN	Oktober	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-6	seine	PPOSAT	sein	_	O	O	
+8-7	Stelle	NN	Stelle	_	O	O	
+8-8	noch	ADV	noch	_	O	O	
+8-9	versehen	VVPP	versehen	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	auch	ADV	auch	_	O	O	
+8-12	länger	ADJD	lang	_	O	O	
+8-13	wenn	KOUS	wenn	_	O	O	
+8-14	noch	ADV	noch	_	O	O	
+8-15	kein	PIAT	keine	_	O	O	
+8-16	Nachfolger	NN	Nachfolger	_	O	O	
+8-17	gefunden	VVPP	finden	_	O	O	
+8-18	sein	VAINF	sein	_	O	O	
+8-19	sollte	VMFIN	sollen	_	O	O	
+8-20	.	$.	.	_	O	O	
+
+#id=9
+#text=An Helbig habe ich nach Cagliari geschrieben; Ich habe Ihre Wünsche oder Anträge noch nicht vorlegen können, da sich die beabsichtigte Sitzung Lüders zerschlagen hat.
+9-1	An	APPR	an	_	O	O	
+9-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-3	habe	VAFIN	haben	_	O	O	
+9-4	ich	PPER	ich	_	O	O	
+9-5	nach	APPR	nach	_	O	O	
+9-6	Cagliari	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-7	geschrieben	VVPP	schreiben	_	O	O	
+9-8	;	$.	;	_	O	O	
+9-9	Ich	PPER	ich	_	O	O	
+9-10	habe	VAFIN	haben	_	O	O	
+9-11	Ihre	PPOSAT	ihr	_	O	O	
+9-12	Wünsche	NN	Wunsch	_	O	O	
+9-13	oder	KON	oder	_	O	O	
+9-14	Anträge	NN	Antrag	_	O	O	
+9-15	noch	ADV	noch	_	O	O	
+9-16	nicht	PTKNEG	nicht	_	O	O	
+9-17	vorlegen	VVINF	vorlegen	_	O	O	
+9-18	können	VMINF	können	_	O	O	
+9-19	,	$,	,	_	O	O	
+9-20	da	KOUS	da	_	O	O	
+9-21	sich	PRF	sich	_	O	O	
+9-22	die	ART	die	_	O	O	
+9-23	beabsichtigte	ADJA	beabsichtigt	_	O	O	
+9-24	Sitzung	NN	Sitzung	_	O	O	
+9-25	Lüders	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-26	zerschlagen	VVPP	zerschlagen	_	O	O	
+9-27	hat	VAFIN	haben	_	O	O	
+9-28	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich hoffe nun für nächsten Montag, trotz einiger Hinternisse.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	hoffe	VVFIN	hoffen	_	O	O	
+10-3	nun	ADV	nun	_	O	O	
+10-4	für	APPR	für	_	O	O	
+10-5	nächsten	ADJA	nah	_	O	O	
+10-6	Montag	NN	Montag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+10-7	,	$,	,	_	O	O	
+10-8	trotz	APPR	trotz	_	O	O	
+10-9	einiger	PIAT	einige	_	O	O	
+10-10	Hinternisse	NN	<unknown>	_	O	O	
+10-11	.	$.	.	_	O	O	
+
+#id=11
+#text=Hier voller Sommer und Aussicht auf reichste O~t Ernte.
+11-1	Hier	ADV	hier	_	O	O	
+11-2	voller	ADJA	voll	_	O	O	
+11-3	Sommer	NN	Sommer	_	O	O	
+11-4	und	KON	und	_	O	O	
+11-5	Aussicht	NN	Aussicht	_	O	O	
+11-6	auf	APPR	auf	_	O	O	
+11-7	reichste	ADJA	reich	_	O	O	
+11-8	O~t	NN	<unknown>	_	O	O	
+11-9	Ernte	NN	Ernte	_	O	O	
+11-10	.	$.	.	_	O	O	
+
+#id=12
+#text=Herzlich der Ihrige R Lepsius
+12-1	Herzlich	ADJD	herzlich	_	O	O	
+12-2	der	ART	die	_	O	O	
+12-3	Ihrige	PPOSAT	ihrige	_	O	O	
+12-4	R	NN	R	_	O	O	
+12-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

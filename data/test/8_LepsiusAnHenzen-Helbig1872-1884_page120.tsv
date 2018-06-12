@@ -1,0 +1,266 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=4 Lepsius an Renzen Berlin, 2. Januar 1874 Abschrift ist ihm nun zugesendet.
+1-1	4	CARD	4	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Abschrift	NN	Abschrift	_	O	O	
+1-12	ist	VAFIN	sein	_	O	O	
+1-13	ihm	PPER	er	_	O	O	
+1-14	nun	ADV	nun	_	O	O	
+1-15	zugesendet	VVPP	zusenden	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Die Sache ist unerhört und ich weiß nicht wie er sich rechtfertigen will.
+2-1	Die	ART	die	_	O	O	
+2-2	Sache	NN	Sache	_	O	O	
+2-3	ist	VAFIN	sein	_	O	O	
+2-4	unerhört	ADJD	unerhört	_	O	O	
+2-5	und	KON	und	_	O	O	
+2-6	ich	PPER	ich	_	O	O	
+2-7	weiß	VVFIN	wissen	_	O	O	
+2-8	nicht	PTKNEG	nicht	_	O	O	
+2-9	wie	KOUS	wie	_	O	O	
+2-10	er	PPER	er	_	O	O	
+2-11	sich	PRF	sich	_	O	O	
+2-12	rechtfertigen	VVINF	rechtfertigen	_	O	O	
+2-13	will	VMFIN	wollen	_	O	O	
+2-14	.	$.	.	_	O	O	
+
+#id=3
+#text=Es kommt Andres dazu, und ich glaube von den Waagschalen Lüders-Rirschfald wird nun die zweite sinken.
+3-1	Es	PPER	es	_	O	O	
+3-2	kommt	VVFIN	kommen	_	O	O	
+3-3	Andres	NE	Andre	_	O	O	
+3-4	dazu	PAV	dazu	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	und	KON	und	_	O	O	
+3-7	ich	PPER	ich	_	O	O	
+3-8	glaube	VVFIN	glauben	_	O	O	
+3-9	von	APPR	von	_	O	O	
+3-10	den	ART	die	_	O	O	
+3-11	Waagschalen	NN	Waagschale	_	O	O	
+3-12	Lüders-Rirschfald	NE	<unknown>	_	O	O	
+3-13	wird	VAFIN	werden	_	O	O	
+3-14	nun	ADV	nun	_	O	O	
+3-15	die	ART	die	_	O	O	
+3-16	zweite	ADJA	zweit	_	O	O	
+3-17	sinken	VVINF	sinken	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Rirschfeld hat uns auch neulich hier am Winckelmannsfeste einen vortrefflichen Vortrag ~&e~ aea über den Priamus vortrefflich vorgetragen und gewinnt hier Boden.
+4-1	Rirschfeld	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	hat	VAFIN	haben	_	O	O	
+4-3	uns	PPER	wir	_	O	O	
+4-4	auch	ADV	auch	_	O	O	
+4-5	neulich	ADV	neulich	_	O	O	
+4-6	hier	ADV	hier	_	O	O	
+4-7	am	APPRART	an	_	O	O	
+4-8	Winckelmannsfeste	NN	<unknown>	_	O	O	
+4-9	einen	ART	eine	_	O	O	
+4-10	vortrefflichen	ADJA	vortrefflich	_	O	O	
+4-11	Vortrag	NN	Vortrag	_	O	O	
+4-12	~&e~	ADJD	<unknown>	_	O	O	
+4-13	aea	ADJD	<unknown>	_	O	O	
+4-14	über	APPR	über	_	O	O	
+4-15	den	ART	die	_	O	O	
+4-16	Priamus	NN	<unknown>	_	O	O	
+4-17	vortrefflich	ADJD	vortrefflich	_	O	O	
+4-18	vorgetragen	VVPP	vortragen	_	O	O	
+4-19	und	KON	und	_	O	O	
+4-20	gewinnt	VVFIN	gewinnen	_	O	O	
+4-21	hier	ADV	hier	_	O	O	
+4-22	Boden	NN	Boden	_	O	O	
+4-23	.	$.	.	_	O	O	
+
+#id=5
+#text=Nun noch eins.
+5-1	Nun	ADV	nun	_	O	O	
+5-2	noch	ADV	noch	_	O	O	
+5-3	eins	CARD	eins	_	O	O	
+5-4	.	$.	.	_	O	O	
+
+#id=6
+#text=Sie Wünschen eine Entscheidung wegen der Medaillons.
+6-1	Sie	PPER	Sie	_	O	O	
+6-2	Wünschen	NN	Wunsch	_	O	O	
+6-3	eine	ART	eine	_	O	O	
+6-4	Entscheidung	NN	Entscheidung	_	O	O	
+6-5	wegen	APPR	wegen	_	O	O	
+6-6	der	ART	die	_	O	O	
+6-7	Medaillons	NN	Medaillon	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=Ehe ich aber die Sache vor die nächste Konferenz bringe, möchte ich unter uns eine Änderung vorschlagen, die mir absolut nothwendig scheint, obgleich sie vielleicht hier Anstoß findet, wenn sie nicht zugleich von Ihnen befürwortet wird.
+7-1	Ehe	KOUS	ehe	_	O	O	
+7-2	ich	PPER	ich	_	O	O	
+7-3	aber	ADV	aber	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	Sache	NN	Sache	_	O	O	
+7-6	vor	APPR	vor	_	O	O	
+7-7	die	ART	die	_	O	O	
+7-8	nächste	ADJA	nah	_	O	O	
+7-9	Konferenz	NN	Konferenz	_	O	O	
+7-10	bringe	VVFIN	bringen	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	möchte	VMFIN	mögen	_	O	O	
+7-13	ich	PPER	ich	_	O	O	
+7-14	unter	APPR	unter	_	O	O	
+7-15	uns	PPER	wir	_	O	O	
+7-16	eine	ART	eine	_	O	O	
+7-17	Änderung	NN	Änderung	_	O	O	
+7-18	vorschlagen	VVINF	vorschlagen	_	O	O	
+7-19	,	$,	,	_	O	O	
+7-20	die	PRELS	die	_	O	O	
+7-21	mir	PRF	ich	_	O	O	
+7-22	absolut	ADJD	absolut	_	O	O	
+7-23	nothwendig	ADJD	<unknown>	_	O	O	
+7-24	scheint	VVFIN	scheinen	_	O	O	
+7-25	,	$,	,	_	O	O	
+7-26	obgleich	KOUS	obgleich	_	O	O	
+7-27	sie	PPER	sie	_	O	O	
+7-28	vielleicht	ADV	vielleicht	_	O	O	
+7-29	hier	ADV	hier	_	O	O	
+7-30	Anstoß	NN	Anstoß	_	O	O	
+7-31	findet	VVFIN	finden	_	O	O	
+7-32	,	$,	,	_	O	O	
+7-33	wenn	KOUS	wenn	_	O	O	
+7-34	sie	PPER	sie	_	O	O	
+7-35	nicht	PTKNEG	nicht	_	O	O	
+7-36	zugleich	ADV	zugleich	_	O	O	
+7-37	von	APPR	von	_	O	O	
+7-38	Ihnen	PPER	Sie	_	O	O	
+7-39	befürwortet	VVPP	befürworten	_	O	O	
+7-40	wird	VAFIN	werden	_	O	O	
+7-41	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich meine Bunsen darf nicht fehlen.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	meine	VVFIN	meinen	_	O	O	
+8-3	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-4	darf	VMFIN	dürfen	_	O	O	
+8-5	nicht	PTKNEG	nicht	_	O	O	
+8-6	fehlen	VVINF	fehlen	_	O	O	
+8-7	.	$.	.	_	O	O	
+
+#id=9
+#text=Er, einer der Gründer des Instituts, der offenbar nächst Gerhard bei weitem das Meiste für das Institut und mit der größten Ringebung und dem größten Erfolg gethan hat; der den jetzigen Instituts Saal gebaut, die Mittel für dasselbe jederzeit geschafft hat; der General Sekretär von Anfang bis zu seinem Weggange von Remy der Vertreter Preußens, dem das Institut von je mehr als irgend einem andern Staate angehört; der die Kapitolinische Kolonie um sich versammelte; den Preußischen und Deutschen Namen durch die wisT sensehaftlichen und künstlerischen Kreise die er als Mittelpunkt um sich versammelte um für das Alterthum zu be-
+9-1	Er	PPER	er	_	O	O	
+9-2	,	$,	,	_	O	O	
+9-3	einer	PIS	eine	_	O	O	
+9-4	der	ART	die	_	O	O	
+9-5	Gründer	NN	Gründer	_	O	O	
+9-6	des	ART	die	_	O	O	
+9-7	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-8	,	$,	,	_	O	O	
+9-9	der	PRELS	die	_	O	O	
+9-10	offenbar	ADJD	offenbar	_	O	O	
+9-11	nächst	APPR	nächst	_	O	O	
+9-12	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-13	bei	APPR	bei	_	O	O	
+9-14	weitem	ADJA	weit	_	O	O	
+9-15	das	ART	die	_	O	O	
+9-16	Meiste	NN	<unknown>	_	O	O	
+9-17	für	APPR	für	_	O	O	
+9-18	das	ART	die	_	O	O	
+9-19	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-20	und	KON	und	_	O	O	
+9-21	mit	APPR	mit	_	O	O	
+9-22	der	ART	die	_	O	O	
+9-23	größten	ADJA	groß	_	O	O	
+9-24	Ringebung	NN	<unknown>	_	O	O	
+9-25	und	KON	und	_	O	O	
+9-26	dem	ART	die	_	O	O	
+9-27	größten	ADJA	groß	_	O	O	
+9-28	Erfolg	NN	Erfolg	_	O	O	
+9-29	gethan	NE	<unknown>	_	O	O	
+9-30	hat	VAFIN	haben	_	O	O	
+9-31	;	$.	;	_	O	O	
+9-32	der	ART	die	_	O	O	
+9-33	den	ART	die	_	O	O	
+9-34	jetzigen	ADJA	jetzig	_	O	O	
+9-35	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-36	Saal	NN	Saal	_	O	O	
+9-37	gebaut	VVPP	bauen	_	O	O	
+9-38	,	$,	,	_	O	O	
+9-39	die	ART	die	_	O	O	
+9-40	Mittel	NN	Mittel	_	O	O	
+9-41	für	APPR	für	_	O	O	
+9-42	dasselbe	PDAT	dasselb	_	O	O	
+9-43	jederzeit	ADV	jederzeit	_	O	O	
+9-44	geschafft	VVPP	schaffen	_	O	O	
+9-45	hat	VAFIN	haben	_	O	O	
+9-46	;	$.	;	_	O	O	
+9-47	der	ART	die	_	O	O	
+9-48	General	NN	General	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-49	Sekretär	NN	Sekretär	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-50	von	APPR	von	_	O	O	
+9-51	Anfang	NN	Anfang	_	O	O	
+9-52	bis	KON	bis	_	O	O	
+9-53	zu	APPR	zu	_	O	O	
+9-54	seinem	PPOSAT	sein	_	O	O	
+9-55	Weggange	NN	<unknown>	_	O	O	
+9-56	von	APPR	von	_	O	O	
+9-57	Remy	NE	Remy	_	O	O	
+9-58	der	ART	die	_	O	O	
+9-59	Vertreter	NN	Vertreter	_	O	O	
+9-60	Preußens	NE	Preußen	_	O	O	
+9-61	,	$,	,	_	O	O	
+9-62	dem	PRELS	die	_	O	O	
+9-63	das	ART	die	_	O	O	
+9-64	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-65	von	APPR	von	_	O	O	
+9-66	je	ADV	je	_	O	O	
+9-67	mehr	ADV	mehr	_	O	O	
+9-68	als	KOKOM	als	_	O	O	
+9-69	irgend	ADV	irgend	_	O	O	
+9-70	einem	ART	eine	_	O	O	
+9-71	andern	PIAT	andere	_	O	O	
+9-72	Staate	NN	Staat	_	O	O	
+9-73	angehört	VVPP	angehören|anhören	_	O	O	
+9-74	;	$.	;	_	O	O	
+9-75	der	ART	die	_	O	O	
+9-76	die	ART	die	_	O	O	
+9-77	Kapitolinische	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-78	Kolonie	NN	Kolonie	_	I-webanno.custom.LetterEntity_	I-OBJ	
+9-79	um	APPR	um	_	O	O	
+9-80	sich	PRF	sich	_	O	O	
+9-81	versammelte	VVFIN	versammeln	_	O	O	
+9-82	;	$.	;	_	O	O	
+9-83	den	ART	die	_	O	O	
+9-84	Preußischen	ADJA	preußisch	_	O	O	
+9-85	und	KON	und	_	O	O	
+9-86	Deutschen	ADJA	deutsch	_	O	O	
+9-87	Namen	NN	Name	_	O	O	
+9-88	durch	APPR	durch	_	O	O	
+9-89	die	ART	die	_	O	O	
+9-90	wisT	NN	<unknown>	_	O	O	
+9-91	sensehaftlichen	ADJA	<unknown>	_	O	O	
+9-92	und	KON	und	_	O	O	
+9-93	künstlerischen	ADJA	künstlerisch	_	O	O	
+9-94	Kreise	NN	Kreis	_	O	O	
+9-95	die	PRELS	die	_	O	O	
+9-96	er	PPER	er	_	O	O	
+9-97	als	KOKOM	als	_	O	O	
+9-98	Mittelpunkt	NN	Mittelpunkt	_	O	O	
+9-99	um	APPR	um	_	O	O	
+9-100	sich	PRF	sich	_	O	O	
+9-101	versammelte	VVFIN	versammeln	_	O	O	
+9-102	um	APPR	um	_	O	O	
+9-103	für	APPR	für	_	O	O	
+9-104	das	ART	die	_	O	O	
+9-105	Alterthum	NN	<unknown>	_	O	O	
+9-106	zu	APPR	zu	_	O	O	
+9-107	be-	TRUNC	be-	_	O	O	
+

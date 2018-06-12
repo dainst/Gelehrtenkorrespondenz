@@ -1,0 +1,114 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Ohne Nummer Henzen an Gerhard 4/VI/55 3 ~reut sich des baldigen Wiedersehens.
+1-1	Ohne	APPR	ohne	_	O	O	
+1-2	Nummer	NN	Nummer	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	4/VI/55	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	3	CARD	3	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	~reut	ADJD	<unknown>	_	O	O	
+1-9	sich	PRF	sich	_	O	O	
+1-10	des	ART	die	_	O	O	
+1-11	baldigen	ADJA	baldig	_	O	O	
+1-12	Wiedersehens	NN	Wiedersehen	_	O	O	
+1-13	.	$.	.	_	O	O	
+
+#id=2
+#text=Mommsen grüßt.
+2-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	grüßt	VVFIN	grüßen	_	O	O	
+2-3	.	$.	.	_	O	O	
+
+#id=3
+#text=Leben Bie recht wohl.
+3-1	Leben	NN	Leben	_	O	O	
+3-2	Bie	VVFIN	<unknown>	_	O	O	
+3-3	recht	ADJD	recht	_	O	O	
+3-4	wohl	ADV	wohl	_	O	O	
+3-5	.	$.	.	_	O	O	
+
+#id=4
+#text=Breslau 4/VI 55 Ihr ergebner W. Henzen P.s.
+4-1	Breslau	NE	Breslau	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-2	4/VI	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-3	55	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-4	Ihr	PPOSAT	ihr	_	O	O	
+4-5	ergebner	ADJA	<unknown>	_	O	O	
+4-6	W.	NE	W.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-7	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-8	P.s.	NE	<unknown>	_	O	O	
+
+#id=5
+#text=Mommsen bittet die Akademie, ihm Anweisung zu geben, wie u. an wen er die Zumptischen Zettelkasten, die uns ganz unnütz sind, abgeben könne, da er sein Logis räumen müsse.
+5-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	bittet	VVFIN	bitten	_	O	O	
+5-3	die	ART	die	_	O	O	
+5-4	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-5	,	$,	,	_	O	O	
+5-6	ihm	PPER	er	_	O	O	
+5-7	Anweisung	NN	Anweisung	_	O	O	
+5-8	zu	PTKZU	zu	_	O	O	
+5-9	geben	VVINF	geben	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	wie	KOUS	wie	_	O	O	
+5-12	u.	APPR	um	_	O	O	
+5-13	an	PTKVZ	an	_	O	O	
+5-14	wen	PWS	wer	_	O	O	
+5-15	er	PPER	er	_	O	O	
+5-16	die	ART	die	_	O	O	
+5-17	Zumptischen	ADJA	<unknown>	_	O	O	
+5-18	Zettelkasten	NN	Zettelkasten	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	die	PRELS	die	_	O	O	
+5-21	uns	PPER	wir	_	O	O	
+5-22	ganz	ADV	ganz	_	O	O	
+5-23	unnütz	ADJD	unnütz	_	O	O	
+5-24	sind	VAFIN	sein	_	O	O	
+5-25	,	$,	,	_	O	O	
+5-26	abgeben	VVINF	abgeben	_	O	O	
+5-27	könne	VMFIN	können	_	O	O	
+5-28	,	$,	,	_	O	O	
+5-29	da	KOUS	da	_	O	O	
+5-30	er	PPER	er	_	O	O	
+5-31	sein	PPOSAT	sein	_	O	O	
+5-32	Logis	NN	<unknown>	_	O	O	
+5-33	räumen	VVINF	räumen	_	O	O	
+5-34	müsse	VMFIN	müssen	_	O	O	
+5-35	.	$.	.	_	O	O	
+
+#id=6
+#text=----~ .... 1, I 1 t Nächstens werde ich die Rechnungen über die Hülfsgelder einsenden, um für den Winter eine neue Bewilligung i zu erlangen.
+6-1	--	$(	--	_	O	O	
+6-2	--	$(	--	_	O	O	
+6-3	~	XY	~	_	O	O	
+6-4	...	$.	...	_	O	O	
+6-5	.	$.	.	_	O	O	
+6-6	1	CARD	1	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	I	FM	I	_	O	O	
+6-9	1	CARD	1	_	O	O	
+6-10	t	NN	t	_	O	O	
+6-11	Nächstens	NN	<unknown>	_	O	O	
+6-12	werde	VAFIN	werden	_	O	O	
+6-13	ich	PPER	ich	_	O	O	
+6-14	die	ART	die	_	O	O	
+6-15	Rechnungen	NN	Rechnung	_	O	O	
+6-16	über	APPR	über	_	O	O	
+6-17	die	ART	die	_	O	O	
+6-18	Hülfsgelder	NN	<unknown>	_	O	O	
+6-19	einsenden	VVINF	einsenden	_	O	O	
+6-20	,	$,	,	_	O	O	
+6-21	um	KOUI	um	_	O	O	
+6-22	für	APPR	für	_	O	O	
+6-23	den	ART	die	_	O	O	
+6-24	Winter	NN	Winter	_	O	O	
+6-25	eine	ART	eine	_	O	O	
+6-26	neue	ADJA	neu	_	O	O	
+6-27	Bewilligung	NN	Bewilligung	_	O	O	
+6-28	i	NE	i	_	O	O	
+6-29	zu	PTKZU	zu	_	O	O	
+6-30	erlangen	VVINF	erlangen	_	O	O	
+6-31	.	$.	.	_	O	O	
+

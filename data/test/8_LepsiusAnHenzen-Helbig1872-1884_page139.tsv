@@ -1,0 +1,233 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Verehrter Freund Lepsius an Henzen Berlin, 20. März 1874 Berlin, den 20.ten März 1874.
+1-1	Verehrter	ADJA	verehrt	_	O	O	
+1-2	Freund	NE	Freund	_	O	O	
+1-3	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-13	,	$,	,	_	O	O	
+1-14	den	ART	die	_	O	O	
+1-15	20.ten	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-16	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Ihre ~ragen zu beantworten mußte erst unsre Sitzung vorüber sein.
+2-1	Ihre	PPOSAT	ihr	_	O	O	
+2-2	~ragen	NN	<unknown>	_	O	O	
+2-3	zu	PTKZU	zu	_	O	O	
+2-4	beantworten	VVINF	beantworten	_	O	O	
+2-5	mußte	VMFIN	müssen	_	O	O	
+2-6	erst	ADV	erst	_	O	O	
+2-7	unsre	PPOSAT	unsre	_	O	O	
+2-8	Sitzung	NN	Sitzung	_	O	O	
+2-9	vorüber	ADV	vorüber	_	O	O	
+2-10	sein	VAINF	sein	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Jetzt eile ich Ihnen mitzutheilen was beschlossen worden ist.
+3-1	Jetzt	ADV	jetzt	_	O	O	
+3-2	eile	VVFIN	eilen	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	Ihnen	PPER	Sie	_	O	O	
+3-5	mitzutheilen	VVIZU	<unknown>	_	O	O	
+3-6	was	PWS	was	_	O	O	
+3-7	beschlossen	VVPP	beschließen	_	O	O	
+3-8	worden	VAPP	werden	_	O	O	
+3-9	ist	VAFIN	sein	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Auf den Antrag von Zangemeister, den Mommsen vorlegte, ist MX. Ferdinand Bompois in Marzy bei Nevers zum Korrespondenten aufgenommen worden.
+4-1	Auf	APPR	auf	_	O	O	
+4-2	den	ART	die	_	O	O	
+4-3	Antrag	NN	Antrag	_	O	O	
+4-4	von	APPR	von	_	O	O	
+4-5	Zangemeister	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-6	,	$,	,	_	O	O	
+4-7	den	ART	die	_	O	O	
+4-8	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-9	vorlegte	VVFIN	vorlegen	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	ist	VAFIN	sein	_	O	O	
+4-12	MX	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-13	.	$.	.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-14	Ferdinand	NE	Ferdinand	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-15	Bompois	VVFIN	<unknown>	_	O	O	
+4-16	in	APPR	in	_	O	O	
+4-17	Marzy	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-18	bei	APPR	bei	_	O	O	
+4-19	Nevers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-20	zum	APPRART	zu	_	O	O	
+4-21	Korrespondenten	NN	Korrespondent	_	O	O	
+4-22	aufgenommen	VVPP	aufnehmen	_	O	O	
+4-23	worden	VAPP	werden	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Dankschreiben von Dumont an Dr.
+5-1	Die	ART	die	_	O	O	
+5-2	Dankschreiben	NN	Dankschreiben	_	O	O	
+5-3	von	APPR	von	_	O	O	
+5-4	Dumont	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	an	APPR	an	_	O	O	
+5-6	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=6
+#text=Klügmann, so wie den neuen Elenco habe ich vorgelegt.
+6-1	Klügmann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	,	$,	,	_	O	O	
+6-3	so	ADV	so	_	O	O	
+6-4	wie	KOKOM	wie	_	O	O	
+6-5	den	ART	die	_	O	O	
+6-6	neuen	ADJA	neu	_	O	O	
+6-7	Elenco	NN	<unknown>	_	O	O	
+6-8	habe	VAFIN	haben	_	O	O	
+6-9	ich	PPER	ich	_	O	O	
+6-10	vorgelegt	VVPP	vorlegen	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Ebenso das Schreiben vom Staats Sekretär von Bülow, für welchen ich die Skizzen des Hauses von Ihnen verlangt und erhalten habe.
+7-1	Ebenso	ADV	ebenso	_	O	O	
+7-2	das	ART	die	_	O	O	
+7-3	Schreiben	NN	Schreiben	_	O	O	
+7-4	vom	APPRART	von	_	O	O	
+7-5	Staats	NN	Staat	_	O	O	
+7-6	Sekretär	NN	Sekretär	_	O	O	
+7-7	von	APPR	von	_	O	O	
+7-8	Bülow	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-9	,	$,	,	_	O	O	
+7-10	für	APPR	für	_	O	O	
+7-11	welchen	PRELS	welche	_	O	O	
+7-12	ich	PPER	ich	_	O	O	
+7-13	die	ART	die	_	O	O	
+7-14	Skizzen	NN	Skizze	_	O	O	
+7-15	des	ART	die	_	O	O	
+7-16	Hauses	NN	Haus	_	O	O	
+7-17	von	APPR	von	_	O	O	
+7-18	Ihnen	PPER	Sie	_	O	O	
+7-19	verlangt	VVPP	verlangen	_	O	O	
+7-20	und	KON	und	_	O	O	
+7-21	erhalten	VVPP	erhalten	_	O	O	
+7-22	habe	VAFIN	haben	_	O	O	
+7-23	.	$.	.	_	O	O	
+
+#id=8
+#text=Prof.
+8-1	Prof.	NN	Prof.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=9
+#text=Matz hat wieder 200 r für H. Eichler in Rom und 600 r für denselben für Paris und Frankreich beantragt und bewilligt erhalten.
+9-1	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	hat	VAFIN	haben	_	O	O	
+9-3	wieder	ADV	wieder	_	O	O	
+9-4	200	CARD	200	_	O	O	
+9-5	r	NE	r	_	O	O	
+9-6	für	APPR	für	_	O	O	
+9-7	H.	NE	H.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-8	Eichler	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-9	in	APPR	in	_	O	O	
+9-10	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-11	und	KON	und	_	O	O	
+9-12	600	CARD	600	_	O	O	
+9-13	r	NE	r	_	O	O	
+9-14	für	APPR	für	_	O	O	
+9-15	denselben	PDAT	derselb	_	O	O	
+9-16	für	APPR	für	_	O	O	
+9-17	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-18	und	KON	und	_	O	O	
+9-19	Frankreich	NE	Frankreich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-20	beantragt	VVPP	beantragen	_	O	O	
+9-21	und	KON	und	_	O	O	
+9-22	bewilligt	VVIMP	bewilligen	_	O	O	
+9-23	erhalten	VVPP	erhalten	_	O	O	
+9-24	.	$.	.	_	O	O	
+
+#id=10
+#text=Darauf trug ich Ihren ganzen Jahresbericht vor und legte die Rechnungen nebst Beilagen vor.
+10-1	Darauf	PAV	darauf	_	O	O	
+10-2	trug	VVFIN	tragen	_	O	O	
+10-3	ich	PPER	ich	_	O	O	
+10-4	Ihren	PPOSAT	ihr	_	O	O	
+10-5	ganzen	ADJA	ganz	_	O	O	
+10-6	Jahresbericht	NN	Jahresbericht	_	O	O	
+10-7	vor	PTKVZ	vor	_	O	O	
+10-8	und	KON	und	_	O	O	
+10-9	legte	VVFIN	legen	_	O	O	
+10-10	die	ART	die	_	O	O	
+10-11	Rechnungen	NN	Rechnung	_	O	O	
+10-12	nebst	APPR	nebst	_	O	O	
+10-13	Beilagen	NN	Beilage	_	O	O	
+10-14	vor	PTKVZ	vor	_	O	O	
+10-15	.	$.	.	_	O	O	
+
+#id=11
+#text=Dabei wurden folgende Bemerkungen gemacht.
+11-1	Dabei	PAV	dabei	_	O	O	
+11-2	wurden	VAFIN	werden	_	O	O	
+11-3	folgende	ADJA	folgend	_	O	O	
+11-4	Bemerkungen	NN	Bemerkung	_	O	O	
+11-5	gemacht	VVPP	machen	_	O	O	
+11-6	.	$.	.	_	O	O	
+
+#id=12
+#text=In Bezug auf die Monumenti wurden die Schwierigkeiten erkannt, die Sie hervorhoben.
+12-1	In	APPR	in	_	O	O	
+12-2	Bezug	NN	Bezug	_	O	O	
+12-3	auf	APPR	auf	_	O	O	
+12-4	die	ART	die	_	O	O	
+12-5	Monumenti	NN	<unknown>	_	O	O	
+12-6	wurden	VAFIN	werden	_	O	O	
+12-7	die	ART	die	_	O	O	
+12-8	Schwierigkeiten	NN	Schwierigkeit	_	O	O	
+12-9	erkannt	VVPP	erkennen	_	O	O	
+12-10	,	$,	,	_	O	O	
+12-11	die	PRELS	die	_	O	O	
+12-12	Sie	PPER	Sie	_	O	O	
+12-13	hervorhoben	VVFIN	hervorheben	_	O	O	
+12-14	.	$.	.	_	O	O	
+
+#id=13
+#text=Man war der Meinung, es werde zum Theil geholfen werden können und auch sonst zweckmäßig sein, wenn von den für die großen Reichpublikationen bestimmten Zeichnungen zuerst für die
+13-1	Man	PIS	man	_	O	O	
+13-2	war	VAFIN	sein	_	O	O	
+13-3	der	ART	die	_	O	O	
+13-4	Meinung	NN	Meinung	_	O	O	
+13-5	,	$,	,	_	O	O	
+13-6	es	PPER	es	_	O	O	
+13-7	werde	VAFIN	werden	_	O	O	
+13-8	zum	APPRART	zu	_	O	O	
+13-9	Theil	NN	<unknown>	_	O	O	
+13-10	geholfen	VVPP	helfen	_	O	O	
+13-11	werden	VAINF	werden	_	O	O	
+13-12	können	VMFIN	können	_	O	O	
+13-13	und	KON	und	_	O	O	
+13-14	auch	ADV	auch	_	O	O	
+13-15	sonst	ADV	sonst	_	O	O	
+13-16	zweckmäßig	ADJD	zweckmäßig	_	O	O	
+13-17	sein	VAINF	sein	_	O	O	
+13-18	,	$,	,	_	O	O	
+13-19	wenn	KOUS	wenn	_	O	O	
+13-20	von	APPR	von	_	O	O	
+13-21	den	ART	die	_	O	O	
+13-22	für	APPR	für	_	O	O	
+13-23	die	ART	die	_	O	O	
+13-24	großen	ADJA	groß	_	O	O	
+13-25	Reichpublikationen	NN	<unknown>	_	O	O	
+13-26	bestimmten	ADJA	bestimmt	_	O	O	
+13-27	Zeichnungen	NN	Zeichnung	_	O	O	
+13-28	zuerst	ADV	zuerst	_	O	O	
+13-29	für	APPR	für	_	O	O	
+13-30	die	ART	die	_	O	O	
+

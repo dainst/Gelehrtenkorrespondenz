@@ -1,0 +1,207 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=71 Gerhard an Braun Berlin, 10. Februar 1849 2 Lenormant als Letronne's Nachfolger ist uns nicht unwillkommen.
+1-1	71	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1849	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	Lenormant	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-13	als	KOKOM	als	_	O	O	
+1-14	Letronne's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-15	Nachfolger	NN	Nachfolger	_	O	O	
+1-16	ist	VAFIN	sein	_	O	O	
+1-17	uns	PPER	wir	_	O	O	
+1-18	nicht	PTKNEG	nicht	_	O	O	
+1-19	unwillkommen	ADJD	unwillkommen	_	O	O	
+1-20	.	$.	.	_	O	O	
+
+#id=2
+#text=Soll ich denn diesmal um Lanci's Neujahrswunsch kommen?
+2-1	Soll	VMFIN	sollen	_	O	O	
+2-2	ich	PPER	ich	_	O	O	
+2-3	denn	ADV	denn	_	O	O	
+2-4	diesmal	ADV	diesmal	_	O	O	
+2-5	um	APPR	um	_	O	O	
+2-6	Lanci's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-7	Neujahrswunsch	NN	<unknown>	_	O	O	
+2-8	kommen	VVINF	kommen	_	O	O	
+2-9	?	$.	?	_	O	O	
+
+#id=3
+#text=Grüßen Sie ihn bestens - , und die conti ?
+3-1	Grüßen	VVFIN	grüßen	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	ihn	PPER	er	_	O	O	
+3-4	bestens	ADV	bestens	_	O	O	
+3-5	-	$(	-	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	und	KON	und	_	O	O	
+3-8	die	PDS	die	_	O	O	
+3-9	conti	VVFIN	<unknown>	_	O	O	
+3-10	?	$.	?	_	O	O	
+
+#id=4
+#text=Sind im politischen Wirbelwind wol verflogen.
+4-1	Sind	VAFIN	sein	_	O	O	
+4-2	im	APPRART	in	_	O	O	
+4-3	politischen	ADJA	politisch	_	O	O	
+4-4	Wirbelwind	NN	Wirbelwind	_	O	O	
+4-5	wol	ADJD	<unknown>	_	O	O	
+4-6	verflogen	VVPP	verfliegen	_	O	O	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=Liquidiren aber muß das Institut unverzüglich, und von nun an einfachste Rechnung haben, darauf dringt Bunsen.
+5-1	Liquidiren	NN	<unknown>	_	O	O	
+5-2	aber	ADV	aber	_	O	O	
+5-3	muß	VMFIN	müssen	_	O	O	
+5-4	das	ART	die	_	O	O	
+5-5	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-6	unverzüglich	ADJD	unverzüglich	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	und	KON	und	_	O	O	
+5-9	von	APPR	von	_	O	O	
+5-10	nun	ADV	nun	_	O	O	
+5-11	an	APZR	an	_	O	O	
+5-12	einfachste	ADJA	einfach	_	O	O	
+5-13	Rechnung	NN	Rechnung	_	O	O	
+5-14	haben	VAFIN	haben	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	darauf	PAV	darauf	_	O	O	
+5-17	dringt	VVFIN	dringen	_	O	O	
+5-18	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-19	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihrem anatomischen Kursus gute Früchte Den Freunden beste Grüße, auch dem Servo Reumont.
+6-1	Ihrem	PPOSAT	ihr	_	O	O	
+6-2	anatomischen	ADJA	anatomisch	_	O	O	
+6-3	Kursus	NN	Kursus	_	O	O	
+6-4	gute	ADJA	gut	_	O	O	
+6-5	Früchte	NN	Frucht	_	O	O	
+6-6	Den	ART	die	_	O	O	
+6-7	Freunden	NN	Freund	_	O	O	
+6-8	beste	ADJA	gut	_	O	O	
+6-9	Grüße	NN	Gruß	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	auch	ADV	auch	_	O	O	
+6-12	dem	ART	die	_	O	O	
+6-13	Servo	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-14	Reumont	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=Herzliehst Gerhard Quer am Rande Daß im Bullettino Agosto Artikel von Welcker und Panofka stehen, welche gleichzeitig in der Archäologischen Zeitung erschienen sind ist ein von mir unvorhergesehenes Testimonium paupertatis unsrer an Erudition doch so reichen Kollegen: begreiflicher Weise hätte ich dem Bullettino nicht vorgegriffen, wäre die Doppelsendung mir bewußt gewesen.
+7-1	Herzliehst	NN	<unknown>	_	O	O	
+7-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-3	Quer	ADV	quer	_	O	O	
+7-4	am	APPRART	an	_	O	O	
+7-5	Rande	NN	Rand	_	O	O	
+7-6	Daß	KOUS	dass	_	O	O	
+7-7	im	APPRART	in	_	O	O	
+7-8	Bullettino	NN	<unknown>	_	O	O	
+7-9	Agosto	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-10	Artikel	NN	Artikel	_	O	O	
+7-11	von	APPR	von	_	O	O	
+7-12	Welcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-13	und	KON	und	_	O	O	
+7-14	Panofka	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-15	stehen	VVFIN	stehen	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	welche	PRELS	welche	_	O	O	
+7-18	gleichzeitig	ADJD	gleichzeitig	_	O	O	
+7-19	in	APPR	in	_	O	O	
+7-20	der	ART	die	_	O	O	
+7-21	Archäologischen	ADJA	archäologisch	_	O	O	
+7-22	Zeitung	NN	Zeitung	_	O	O	
+7-23	erschienen	VVPP	erscheinen	_	O	O	
+7-24	sind	VAFIN	sein	_	O	O	
+7-25	ist	VAFIN	sein	_	O	O	
+7-26	ein	ART	eine	_	O	O	
+7-27	von	APPR	von	_	O	O	
+7-28	mir	PPER	ich	_	O	O	
+7-29	unvorhergesehenes	ADJA	unvorhergesehen	_	O	O	
+7-30	Testimonium	NN	<unknown>	_	O	O	
+7-31	paupertatis	NE	<unknown>	_	O	O	
+7-32	unsrer	PPOSAT	unser	_	O	O	
+7-33	an	APPR	an	_	O	O	
+7-34	Erudition	NN	<unknown>	_	O	O	
+7-35	doch	ADV	doch	_	O	O	
+7-36	so	ADV	so	_	O	O	
+7-37	reichen	ADJA	reich	_	O	O	
+7-38	Kollegen	NN	Kollege	_	O	O	
+7-39	:	$.	:	_	O	O	
+7-40	begreiflicher	ADJA	begreiflich	_	O	O	
+7-41	Weise	NN	Weise	_	O	O	
+7-42	hätte	VAFIN	haben	_	O	O	
+7-43	ich	PPER	ich	_	O	O	
+7-44	dem	ART	die	_	O	O	
+7-45	Bullettino	NN	<unknown>	_	O	O	
+7-46	nicht	PTKNEG	nicht	_	O	O	
+7-47	vorgegriffen	VVPP	vorgreifen	_	O	O	
+7-48	,	$,	,	_	O	O	
+7-49	wäre	VAFIN	sein	_	O	O	
+7-50	die	ART	die	_	O	O	
+7-51	Doppelsendung	NN	<unknown>	_	O	O	
+7-52	mir	PRF	ich	_	O	O	
+7-53	bewußt	ADJD	bewusst	_	O	O	
+7-54	gewesen	VAPP	sein	_	O	O	
+7-55	.	$.	.	_	O	O	
+
+#id=8
+#text=Wie treibst's Orioli, noch in Rom?
+8-1	Wie	KOUS	wie	_	O	O	
+8-2	treibst's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	Orioli	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-4	,	$,	,	_	O	O	
+8-5	noch	ADV	noch	_	O	O	
+8-6	in	APPR	in	_	O	O	
+8-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-8	?	$.	?	_	O	O	
+
+#id=9
+#text=Wird der ARCUS IN VIA SACRA SUMMA bald publicirt ?
+9-1	Wird	VAFIN	werden	_	O	O	
+9-2	der	ART	die	_	O	O	
+9-3	ARCUS	NE	<unknown>	_	O	O	
+9-4	IN	ADJA	<unknown>	_	O	O	
+9-5	VIA	NN	<unknown>	_	O	O	
+9-6	SACRA	NE	<unknown>	_	O	O	
+9-7	SUMMA	NN	<unknown>	_	O	O	
+9-8	bald	ADV	bald	_	O	O	
+9-9	publicirt	ADJD	<unknown>	_	O	O	
+9-10	?	$.	?	_	O	O	
+
+#id=10
+#text=Ihr Bericht darüber ist sehr anziehend - , ich w~ll versuchen ihn sofort für den Staatsa~eiger zu zeitgemäßer Erwähnung des Instituts auszubeuten.
+10-1	Ihr	PPOSAT	ihr	_	O	O	
+10-2	Bericht	NN	Bericht	_	O	O	
+10-3	darüber	PAV	darüber	_	O	O	
+10-4	ist	VAFIN	sein	_	O	O	
+10-5	sehr	ADV	sehr	_	O	O	
+10-6	anziehend	ADJD	anziehend	_	O	O	
+10-7	-	$(	-	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	ich	PPER	ich	_	O	O	
+10-10	w~ll	VVFIN	<unknown>	_	O	O	
+10-11	versuchen	VVFIN	versuchen	_	O	O	
+10-12	ihn	PPER	er	_	O	O	
+10-13	sofort	ADV	sofort	_	O	O	
+10-14	für	APPR	für	_	O	O	
+10-15	den	ART	die	_	O	O	
+10-16	Staatsa~eiger	NN	<unknown>	_	O	O	
+10-17	zu	APPR	zu	_	O	O	
+10-18	zeitgemäßer	ADJA	zeitgemäß	_	O	O	
+10-19	Erwähnung	NN	Erwähnung	_	O	O	
+10-20	des	ART	die	_	O	O	
+10-21	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-22	auszubeuten	VVIZU	ausbeuten	_	O	O	
+10-23	.	$.	.	_	O	O	
+

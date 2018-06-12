@@ -1,0 +1,186 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=111 2 Le ps ius an f{C-f.,{.
+1-1	111	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Le	NE	Le	_	O	O	
+1-4	ps	ADJA	<unknown>	_	O	O	
+1-5	ius	NN	<unknown>	_	O	O	
+1-6	an	APPR	an	_	O	O	
+1-7	f{C-f.,{	NN	<unknown>	_	O	O	
+1-8	.	$.	.	_	O	O	
+
+#id=2
+#text='2-t:M Berlin, 22. April 1873 An Parthey habe ich wegen des Medaillons geschrieben und werde Ihnen seine Antwort melden.
+2-1	'	$(	'	_	O	O	
+2-2	2-t:M	NE	<unknown>	_	O	O	
+2-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	,	$,	,	_	O	O	
+2-5	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	An	APPR	an	_	O	O	
+2-10	Parthey	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-11	habe	VAFIN	haben	_	O	O	
+2-12	ich	PPER	ich	_	O	O	
+2-13	wegen	APPR	wegen	_	O	O	
+2-14	des	ART	die	_	O	O	
+2-15	Medaillons	NN	Medaillon	_	O	O	
+2-16	geschrieben	VVPP	schreiben	_	O	O	
+2-17	und	KON	und	_	O	O	
+2-18	werde	VAFIN	werden	_	O	O	
+2-19	Ihnen	PPER	Sie	_	O	O	
+2-20	seine	PPOSAT	sein	_	O	O	
+2-21	Antwort	NN	Antwort	_	O	O	
+2-22	melden	VVINF	melden	_	O	O	
+2-23	.	$.	.	_	O	O	
+
+#id=3
+#text=Lassen Sie mich doch wissen, was eine Ausführung in Mar~ mor kosten würde, damit ich ihm das noch wissen lasse.
+3-1	Lassen	VVFIN	lassen	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	mich	PRF	ich	_	O	O	
+3-4	doch	ADV	doch	_	O	O	
+3-5	wissen	VVINF	wissen	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	was	PWS	was	_	O	O	
+3-8	eine	ART	eine	_	O	O	
+3-9	Ausführung	NN	Ausführung	_	O	O	
+3-10	in	APPR	in	_	O	O	
+3-11	Mar~	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-12	mor	ADJD	<unknown>	_	O	O	
+3-13	kosten	VVINF	kosten	_	O	O	
+3-14	würde	VAFIN	werden	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	damit	KOUS	damit	_	O	O	
+3-17	ich	PPER	ich	_	O	O	
+3-18	ihm	PPER	er	_	O	O	
+3-19	das	PDS	die	_	O	O	
+3-20	noch	ADV	noch	_	O	O	
+3-21	wissen	VVINF	wissen	_	O	O	
+3-22	lasse	VVFIN	lassen	_	O	O	
+3-23	.	$.	.	_	O	O	
+
+#id=4
+#text=Inzwischen legen Sie wohl auch eine Photographie für mich mit bei.
+4-1	Inzwischen	ADV	inzwischen	_	O	O	
+4-2	legen	VVFIN	legen	_	O	O	
+4-3	Sie	PPER	Sie	_	O	O	
+4-4	wohl	ADV	wohl	_	O	O	
+4-5	auch	ADV	auch	_	O	O	
+4-6	eine	ART	eine	_	O	O	
+4-7	Photographie	NN	Photographie	_	O	O	
+4-8	für	APPR	für	_	O	O	
+4-9	mich	PPER	ich	_	O	O	
+4-10	mit	APPR	mit	_	O	O	
+4-11	bei	PTKVZ	bei	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Pertz ist um seine Pensionierung eingekommen und ich werde ihn vorläufig vertreten, bis ein neuer Oberbibliothekar gefunden ist.
+5-1	Pertz	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	um	APPR	um	_	O	O	
+5-4	seine	PPOSAT	sein	_	O	O	
+5-5	Pensionierung	NN	Pensionierung	_	O	O	
+5-6	eingekommen	VVPP	einkommen	_	O	O	
+5-7	und	KON	und	_	O	O	
+5-8	ich	PPER	ich	_	O	O	
+5-9	werde	VAFIN	werden	_	O	O	
+5-10	ihn	PPER	er	_	O	O	
+5-11	vorläufig	ADJD	vorläufig	_	O	O	
+5-12	vertreten	VVPP	vertreten	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	bis	KOUS	bis	_	O	O	
+5-15	ein	ART	eine	_	O	O	
+5-16	neuer	ADJA	neu	_	O	O	
+5-17	Oberbibliothekar	NN	<unknown>	_	O	O	
+5-18	gefunden	VVPP	finden	_	O	O	
+5-19	ist	VAFIN	sein	_	O	O	
+5-20	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Diplome sollen nun ausgefertigt werden und Ihnen mit den Dezember-Diplomen zugleich zugehen.
+6-1	Die	ART	die	_	O	O	
+6-2	Diplome	NN	Diplom	_	O	O	
+6-3	sollen	VMFIN	sollen	_	O	O	
+6-4	nun	ADV	nun	_	O	O	
+6-5	ausgefertigt	VVPP	ausfertigen	_	O	O	
+6-6	werden	VAFIN	werden	_	O	O	
+6-7	und	KON	und	_	O	O	
+6-8	Ihnen	PPER	Sie	_	O	O	
+6-9	mit	APPR	mit	_	O	O	
+6-10	den	ART	die	_	O	O	
+6-11	Dezember-Diplomen	NN	<unknown>	_	O	O	
+6-12	zugleich	ADV	zugleich	_	O	O	
+6-13	zugehen	VVINF	zugehen	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich lege ein Blatt an Mommsen bei; obgleich er wohl bereits nach Neapel abgereist SQin wird.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	lege	VVFIN	legen	_	O	O	
+7-3	ein	ART	eine	_	O	O	
+7-4	Blatt	NN	Blatt	_	O	O	
+7-5	an	APPR	an	_	O	O	
+7-6	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-7	bei	PTKVZ	bei	_	O	O	
+7-8	;	$.	;	_	O	O	
+7-9	obgleich	KOUS	obgleich	_	O	O	
+7-10	er	PPER	er	_	O	O	
+7-11	wohl	ADV	wohl	_	O	O	
+7-12	bereits	ADV	bereits	_	O	O	
+7-13	nach	APPR	nach	_	O	O	
+7-14	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-15	abgereist	VVPP	abreisen	_	O	O	
+7-16	SQin	NN	<unknown>	_	O	O	
+7-17	wird	VAFIN	werden	_	O	O	
+7-18	.	$.	.	_	O	O	
+
+#id=8
+#text=Melden Sie mir doch seine dortige Adresse.
+8-1	Melden	VVFIN	melden	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	mir	PRF	ich	_	O	O	
+8-4	doch	ADV	doch	_	O	O	
+8-5	seine	PPOSAT	sein	_	O	O	
+8-6	dortige	ADJA	dortig	_	O	O	
+8-7	Adresse	NN	Adresse	_	O	O	
+8-8	.	$.	.	_	O	O	
+
+#id=9
+#text=Mit herzlichem Gruß Ihr ergebenster R Lepsius Die Bewilligung Ihres gewünschten Urlaubes für Juli August September werde ich einstweilen auf mich nehmen.
+9-1	Mit	APPR	mit	_	O	O	
+9-2	herzlichem	ADJA	herzlich	_	O	O	
+9-3	Gruß	NN	Gruß	_	O	O	
+9-4	Ihr	PPOSAT	ihr	_	O	O	
+9-5	ergebenster	ADJA	<unknown>	_	O	O	
+9-6	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+9-7	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-8	Die	ART	die	_	O	O	
+9-9	Bewilligung	NN	Bewilligung	_	O	O	
+9-10	Ihres	PPOSAT	ihr	_	O	O	
+9-11	gewünschten	ADJA	gewünscht	_	O	O	
+9-12	Urlaubes	NN	Urlaub	_	O	O	
+9-13	für	APPR	für	_	O	O	
+9-14	Juli	NN	Juli	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-15	August	NE	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-16	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-17	werde	VAFIN	werden	_	O	O	
+9-18	ich	PPER	ich	_	O	O	
+9-19	einstweilen	ADV	einstweilen	_	O	O	
+9-20	auf	APPR	auf	_	O	O	
+9-21	mich	PRF	ich	_	O	O	
+9-22	nehmen	VVINF	nehmen	_	O	O	
+9-23	.	$.	.	_	O	O	
+
+#id=10
+#text=Sicher hat niemand etwas dagegen.
+10-1	Sicher	ADJD	sicher	_	O	O	
+10-2	hat	VAFIN	haben	_	O	O	
+10-3	niemand	PIS	niemand	_	O	O	
+10-4	etwas	ADV	etwas	_	O	O	
+10-5	dagegen	PAV	dagegen	_	O	O	
+10-6	.	$.	.	_	O	O	
+

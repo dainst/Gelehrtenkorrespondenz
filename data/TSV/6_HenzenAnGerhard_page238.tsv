@@ -1,0 +1,70 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=73 19/111/55 2 Henzen an Gerhard Ist denn mein assecurirter Brief vom 19 n • v~ M. mit dem Akademiecontracte richtig angekommen?
+1-1	73	CARD	73	_	O	O	
+1-2	19/111/55	CARD	@card@	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Ist	VAFIN	sein	_	O	O	
+1-8	denn	ADV	denn	_	O	O	
+1-9	mein	PPOSAT	mein	_	O	O	
+1-10	assecurirter	ADJA	<unknown>	_	O	O	
+1-11	Brief	NN	Brief	_	O	O	
+1-12	vom	APPRART	von	_	O	O	
+1-13	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-14	n	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-15	•	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-16	v~	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-17	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-18	mit	APPR	mit	_	O	O	
+1-19	dem	ART	die	_	O	O	
+1-20	Akademiecontracte	NN	<unknown>	_	O	O	
+1-21	richtig	ADJD	richtig	_	O	O	
+1-22	angekommen	VVPP	ankommen	_	O	O	
+1-23	?	$.	?	_	O	O	
+
+#id=2
+#text=Meine Frau grüßt herzlich mit mir Sie und die Ihrige.
+2-1	Meine	PPOSAT	mein	_	O	O	
+2-2	Frau	NN	Frau	_	O	O	
+2-3	grüßt	VVFIN	grüßen	_	O	O	
+2-4	herzlich	ADJD	herzlich	_	O	O	
+2-5	mit	APPR	mit	_	O	O	
+2-6	mir	PPER	ich	_	O	O	
+2-7	Sie	PPER	Sie	_	O	O	
+2-8	und	KON	und	_	O	O	
+2-9	die	PRELS	die	_	O	O	
+2-10	Ihrige	PPOSAT	ihrige	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Rom 19/111 55 Ihr ergebner WHenzen p.s.
+3-1	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-2	19/111	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-3	55	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-4	Ihr	PPOSAT	ihr	_	O	O	
+3-5	ergebner	ADJA	<unknown>	_	O	O	
+3-6	WHenzen	NN	<unknown>	_	O	O	
+3-7	p.s.	NN	<unknown>	_	O	O	
+
+#id=4
+#text=Wollen Oie so gütig sein, einliegendes Briefchen einfach auf die Post geben zu lassen ?
+4-1	Wollen	VMFIN	wollen	_	O	O	
+4-2	Oie	NN	<unknown>	_	O	O	
+4-3	so	ADV	so	_	O	O	
+4-4	gütig	ADJD	gütig	_	O	O	
+4-5	sein	VAINF	sein	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	einliegendes	VVFIN	<unknown>	_	O	O	
+4-8	Briefchen	NN	Briefchen	_	O	O	
+4-9	einfach	ADJD	einfach	_	O	O	
+4-10	auf	APPR	auf	_	O	O	
+4-11	die	ART	die	_	O	O	
+4-12	Post	NN	Post	_	O	O	
+4-13	geben	VVINF	geben	_	O	O	
+4-14	zu	PTKZU	zu	_	O	O	
+4-15	lassen	VVINF	lassen	_	O	O	
+4-16	?	$.	?	_	O	O	
+

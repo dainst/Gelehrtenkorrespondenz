@@ -1,0 +1,231 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=307 H Lieber Herr Professor Helbig an Henzen London, 11. Juli 1871 g. 15/7 71 r.
+1-1	307	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1871	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	15/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	71	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=18/7 71 5 Gordon Square, W. S. London 11. Juli 1871 Nach den flüchtigen Zeilen, die ich Ihnen vor acht Tagen schrieb und für die ich die Antwort sehnlichst erwarte, schreibe ich Ihnen heute ruhiger und ausführlicher.
+2-1	18/7	CARD	@card@	_	O	O	
+2-2	71	CARD	@card@	_	O	O	
+2-3	5	CARD	5	_	O	O	
+2-4	Gordon	NE	Gordon	_	O	O	
+2-5	Square	NN	Square	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	W.	NE	W.	_	O	O	
+2-8	S.	NE	S.	_	O	O	
+2-9	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-10	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-13	1871	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-14	Nach	APPR	nach	_	O	O	
+2-15	den	ART	die	_	O	O	
+2-16	flüchtigen	ADJA	flüchtig	_	O	O	
+2-17	Zeilen	NN	Zeile	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	die	PRELS	die	_	O	O	
+2-20	ich	PPER	ich	_	O	O	
+2-21	Ihnen	PPER	Sie	_	O	O	
+2-22	vor	APPR	vor	_	O	O	
+2-23	acht	CARD	acht	_	O	O	
+2-24	Tagen	NN	Tag	_	O	O	
+2-25	schrieb	VVFIN	schreiben	_	O	O	
+2-26	und	KON	und	_	O	O	
+2-27	für	APPR	für	_	O	O	
+2-28	die	ART	die	_	O	O	
+2-29	ich	PPER	ich	_	O	O	
+2-30	die	ART	die	_	O	O	
+2-31	Antwort	NN	Antwort	_	O	O	
+2-32	sehnlichst	ADJD	sehnlich	_	O	O	
+2-33	erwarte	VVFIN	erwarten	_	O	O	
+2-34	,	$,	,	_	O	O	
+2-35	schreibe	VVFIN	schreiben	_	O	O	
+2-36	ich	PPER	ich	_	O	O	
+2-37	Ihnen	PPER	Sie	_	O	O	
+2-38	heute	ADV	heute	_	O	O	
+2-39	ruhiger	ADJD	ruhig	_	O	O	
+2-40	und	KON	und	_	O	O	
+2-41	ausführlicher	ADJD	ausführlich	_	O	O	
+2-42	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich bin mit meinem Aufenthalte in hohem Grade zufrieden und habe einige sehr interessante Entdeckungen gemacht, die mich den Adunanzen des Winters mit großer Berhhigung entgegensehen lassen.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	bin	VAFIN	sein	_	O	O	
+3-3	mit	APPR	mit	_	O	O	
+3-4	meinem	PPOSAT	mein	_	O	O	
+3-5	Aufenthalte	NN	Aufenthalt	_	O	O	
+3-6	in	APPR	in	_	O	O	
+3-7	hohem	ADJA	hoch	_	O	O	
+3-8	Grade	NN	Grad	_	O	O	
+3-9	zufrieden	ADJD	zufrieden	_	O	O	
+3-10	und	KON	und	_	O	O	
+3-11	habe	VAFIN	haben	_	O	O	
+3-12	einige	PIS	einige	_	O	O	
+3-13	sehr	ADV	sehr	_	O	O	
+3-14	interessante	ADJA	interessant	_	O	O	
+3-15	Entdeckungen	NN	Entdeckung	_	O	O	
+3-16	gemacht	VVPP	machen	_	O	O	
+3-17	,	$,	,	_	O	O	
+3-18	die	PRELS	die	_	O	O	
+3-19	mich	PRF	ich	_	O	O	
+3-20	den	ART	die	_	O	O	
+3-21	Adunanzen	NN	<unknown>	_	O	O	
+3-22	des	ART	die	_	O	O	
+3-23	Winters	NN	Winter	_	O	O	
+3-24	mit	APPR	mit	_	O	O	
+3-25	großer	ADJA	groß	_	O	O	
+3-26	Berhhigung	NN	<unknown>	_	O	O	
+3-27	entgegensehen	VVINF	entgegensehen	_	O	O	
+3-28	lassen	VVFIN	lassen	_	O	O	
+3-29	.	$.	.	_	O	O	
+
+#id=4
+#text=An eine eingehendere Ausbeutung der Privatsammlungen kann ich leider nicht denken.
+4-1	An	APPR	an	_	O	O	
+4-2	eine	ART	eine	_	O	O	
+4-3	eingehendere	ADJA	eingehend	_	O	O	
+4-4	Ausbeutung	NN	Ausbeutung	_	O	O	
+4-5	der	ART	die	_	O	O	
+4-6	Privatsammlungen	NN	Privatsammlung	_	O	O	
+4-7	kann	VMFIN	können	_	O	O	
+4-8	ich	PPER	ich	_	O	O	
+4-9	leider	ADV	leider	_	O	O	
+4-10	nicht	PTKNEG	nicht	_	O	O	
+4-11	denken	VVINF	denken	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Das Brittische Museum hat im vorigen Jahre so bedeutenden Zuwachs erhalten - namentlich durch die Ausgrabungen von Priene - , daß ich abgesehen von der Orientirung im Allgemeinen alle Hände voilil zu thun habe, um diesen vollständig frischen Stoff nur einger Maßen zu bewältigen.
+5-1	Das	ART	die	_	O	O	
+5-2	Brittische	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-3	Museum	NN	Museum	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-4	hat	VAFIN	haben	_	O	O	
+5-5	im	APPRART	in	_	O	O	
+5-6	vorigen	ADJA	vorig	_	O	O	
+5-7	Jahre	NN	Jahr	_	O	O	
+5-8	so	ADV	so	_	O	O	
+5-9	bedeutenden	ADJA	bedeutend	_	O	O	
+5-10	Zuwachs	NN	Zuwachs	_	O	O	
+5-11	erhalten	VVINF	erhalten	_	O	O	
+5-12	-	$(	-	_	O	O	
+5-13	namentlich	ADJD	namentlich	_	O	O	
+5-14	durch	APPR	durch	_	O	O	
+5-15	die	ART	die	_	O	O	
+5-16	Ausgrabungen	NN	Ausgrabung	_	O	O	
+5-17	von	APPR	von	_	O	O	
+5-18	Priene	NN	<unknown>	_	O	O	
+5-19	-	$(	-	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	daß	KOUS	dass	_	O	O	
+5-22	ich	PPER	ich	_	O	O	
+5-23	abgesehen	ADJD	abgesehen	_	O	O	
+5-24	von	APPR	von	_	O	O	
+5-25	der	ART	die	_	O	O	
+5-26	Orientirung	NN	<unknown>	_	O	O	
+5-27	im	APPRART	in	_	O	O	
+5-28	Allgemeinen	NN	Allgemeine	_	O	O	
+5-29	alle	PIAT	alle	_	O	O	
+5-30	Hände	NN	Hand	_	O	O	
+5-31	voilil	NE	<unknown>	_	O	O	
+5-32	zu	APPR	zu	_	O	O	
+5-33	thun	NE	<unknown>	_	O	O	
+5-34	habe	VAFIN	haben	_	O	O	
+5-35	,	$,	,	_	O	O	
+5-36	um	KOUI	um	_	O	O	
+5-37	diesen	PDAT	dies	_	O	O	
+5-38	vollständig	ADJD	vollständig	_	O	O	
+5-39	frischen	ADJA	frisch	_	O	O	
+5-40	Stoff	NN	Stoff	_	O	O	
+5-41	nur	ADV	nur	_	O	O	
+5-42	einger	ADJA	<unknown>	_	O	O	
+5-43	Maßen	NN	Maß	_	O	O	
+5-44	zu	PTKZU	zu	_	O	O	
+5-45	bewältigen	VVINF	bewältigen	_	O	O	
+5-46	.	$.	.	_	O	O	
+
+#id=6
+#text=Von Privatsammlungen kann ich nur das mitnehmen, was mir am Wege liegt, also abgesehen von London einige Sammlungen in Richmond und Windsor.
+6-1	Von	APPR	von	_	O	O	
+6-2	Privatsammlungen	NN	Privatsammlung	_	O	O	
+6-3	kann	VMFIN	können	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	nur	ADV	nur	_	O	O	
+6-6	das	PDS	die	_	O	O	
+6-7	mitnehmen	VVINF	mitnehmen	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	was	PRELS	was	_	O	O	
+6-10	mir	PPER	ich	_	O	O	
+6-11	am	APPRART	an	_	O	O	
+6-12	Wege	NN	Weg	_	O	O	
+6-13	liegt	VVFIN	liegen	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	also	ADV	also	_	O	O	
+6-16	abgesehen	VVPP	absehen	_	O	O	
+6-17	von	APPR	von	_	O	O	
+6-18	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-19	einige	PIAT	einige	_	O	O	
+6-20	Sammlungen	NN	Sammlung	_	O	O	
+6-21	in	APPR	in	_	O	O	
+6-22	Richmond	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-23	und	KON	und	_	O	O	
+6-24	Windsor	NE	Windsor	_	O	O	
+6-25	.	$.	.	_	O	O	
+
+#id=7
+#text=Was letzteren Ort betrifft, so hat mich Matz mit einem ziemlich weitschichtigen Auftrage für das Sarkophagwerk beglückt.
+7-1	Was	PWS	was	_	O	O	
+7-2	letzteren	ADJA	letzt	_	O	O	
+7-3	Ort	NN	Ort	_	O	O	
+7-4	betrifft	VVFIN	betreffen	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	so	ADV	so	_	O	O	
+7-7	hat	VAFIN	haben	_	O	O	
+7-8	mich	PRF	ich	_	O	O	
+7-9	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-10	mit	APPR	mit	_	O	O	
+7-11	einem	ART	eine	_	O	O	
+7-12	ziemlich	ADV	ziemlich	_	O	O	
+7-13	weitschichtigen	ADJA	<unknown>	_	O	O	
+7-14	Auftrage	NN	Auftrag	_	O	O	
+7-15	für	APPR	für	_	O	O	
+7-16	das	ART	die	_	O	O	
+7-17	Sarkophagwerk	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+7-18	beglückt	VVPP	beglücken	_	O	O	
+7-19	.	$.	.	_	O	O	
+
+#id=8
+#text=Für alle Fälle habe ich eine Liste der englischen Privatsammlungen entworfen, so weit ich
+8-1	Für	APPR	für	_	O	O	
+8-2	alle	PIAT	alle	_	O	O	
+8-3	Fälle	NN	Fall	_	O	O	
+8-4	habe	VAFIN	haben	_	O	O	
+8-5	ich	PPER	ich	_	O	O	
+8-6	eine	ART	eine	_	O	O	
+8-7	Liste	NN	Liste	_	O	O	
+8-8	der	ART	die	_	O	O	
+8-9	englischen	ADJA	englisch	_	O	O	
+8-10	Privatsammlungen	NN	Privatsammlung	_	O	O	
+8-11	entworfen	VVPP	entwerfen	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	so	ADV	so	_	O	O	
+8-14	weit	ADJD	weit	_	O	O	
+8-15	ich	PPER	ich	_	O	O	
+

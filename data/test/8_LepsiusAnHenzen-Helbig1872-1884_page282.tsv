@@ -1,0 +1,112 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=( t 352 I' Verehrtester Freund Lepsius an Renzen Berlin, 23. Juni 1876 g. 26/6 76 r.
+1-1	(	$(	(	_	O	O	
+1-2	t	NN	t	_	O	O	
+1-3	352	CARD	@card@	_	O	O	
+1-4	I	NN	I	_	O	O	
+1-5	'	$(	'	_	O	O	
+1-6	Verehrtester	NN	<unknown>	_	O	O	
+1-7	Freund	NE	Freund	_	O	O	
+1-8	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-9	an	APPR	an	_	O	O	
+1-10	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-11	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-12	,	$,	,	_	O	O	
+1-13	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-14	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	g.	VVFIN	<unknown>	_	O	O	
+1-18	26/6	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-19	76	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-20	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=28/6 Berlin, den 23. Juni 1876 Sie hatten die Stärke der Auflage zu 300 vorgeschlagen, und die Central Direktion ist damit einverstanden.
+2-1	28/6	CARD	@card@	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-3	,	$,	,	_	O	O	
+2-4	den	ART	die	_	O	O	
+2-5	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-7	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-8	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-9	Sie	PPER	Sie	_	O	O	
+2-10	hatten	VAFIN	haben	_	O	O	
+2-11	die	ART	die	_	O	O	
+2-12	Stärke	NN	Stärke	_	O	O	
+2-13	der	ART	die	_	O	O	
+2-14	Auflage	NN	Auflage	_	O	O	
+2-15	zu	APPR	zu	_	O	O	
+2-16	300	CARD	300	_	O	O	
+2-17	vorgeschlagen	VVPP	vorschlagen	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	und	KON	und	_	O	O	
+2-20	die	ART	die	_	O	O	
+2-21	Central	NN	<unknown>	_	O	O	
+2-22	Direktion	NN	Direktion	_	O	O	
+2-23	ist	VAFIN	sein	_	O	O	
+2-24	damit	PAV	damit	_	O	O	
+2-25	einverstanden	ADJD	einverstanden	_	O	O	
+2-26	.	$.	.	_	O	O	
+
+#id=3
+#text=An Schöne habe ich Ihr Monitum gelangen lassen.
+3-1	An	APPR	an	_	O	O	
+3-2	Schöne	NN	Schöne	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	habe	VAFIN	haben	_	O	O	
+3-4	ich	PPER	ich	_	O	O	
+3-5	Ihr	PPOSAT	ihr	_	O	O	
+3-6	Monitum	NN	Monitum	_	O	O	
+3-7	gelangen	VVINF	gelangen	_	O	O	
+3-8	lassen	VVINF	lassen	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Wie 9 Diplome zu viel sind ist mir nicht verständlich.
+4-1	Wie	PWAV	wie	_	O	O	
+4-2	9	CARD	9	_	O	O	
+4-3	Diplome	NN	Diplom	_	O	O	
+4-4	zu	APPR	zu	_	O	O	
+4-5	viel	PIS	viele	_	O	O	
+4-6	sind	VAFIN	sein	_	O	O	
+4-7	ist	VAFIN	sein	_	O	O	
+4-8	mir	PPER	ich	_	O	O	
+4-9	nicht	PTKNEG	nicht	_	O	O	
+4-10	verständlich	ADJD	verständlich	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihren Aufkl&rungsbrief für das Auswärtige Amt habe ich erhalten und weiter befördert.
+5-1	Ihren	PPOSAT	ihr	_	O	O	
+5-2	Aufkl&rungsbrief	NN	<unknown>	_	O	O	
+5-3	für	APPR	für	_	O	O	
+5-4	das	ART	die	_	O	O	
+5-5	Auswärtige	ADJA	auswärtig	_	O	O	
+5-6	Amt	NN	Amt	_	O	O	
+5-7	habe	VAFIN	haben	_	O	O	
+5-8	ich	PPER	ich	_	O	O	
+5-9	erhalten	VVPP	erhalten	_	O	O	
+5-10	und	KON	und	_	O	O	
+5-11	weiter	ADV	weiter	_	O	O	
+5-12	befördert	VVPP	befördern	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Den Codex erwarte ich.
+6-1	Den	ART	die	_	O	O	
+6-2	Codex	NN	<unknown>	_	O	O	
+6-3	erwarte	VVFIN	erwarten	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	.	$.	.	_	O	O	
+
+#id=7
+#text=In Eile Ihr ergebenster R Lepsius
+7-1	In	APPR	in	_	O	O	
+7-2	Eile	NN	Eile	_	O	O	
+7-3	Ihr	PPOSAT	ihr	_	O	O	
+7-4	ergebenster	ADJA	<unknown>	_	O	O	
+7-5	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+7-6	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

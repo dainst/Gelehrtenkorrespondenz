@@ -1,0 +1,275 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=209 2 Lepsius an Henzen Berlin, 1. Juli 1873 außer von mir, zugegangen?
+1-1	209	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	außer	APPR	außer	_	O	O	
+1-13	von	APPR	von	_	O	O	
+1-14	mir	PPER	ich	_	O	O	
+1-15	,	$,	,	_	O	O	
+1-16	zugegangen	VVPP	zugehen	_	O	O	
+1-17	?	$.	?	_	O	O	
+
+#id=2
+#text=Bei uns hat darüber das Reichs Ministerium angefragt wie auch über die vermiethbaren Räumlichkeiten überhaupt.
+2-1	Bei	APPR	bei	_	O	O	
+2-2	uns	PPER	wir	_	O	O	
+2-3	hat	VAFIN	haben	_	O	O	
+2-4	darüber	PAV	darüber	_	O	O	
+2-5	das	ART	die	_	O	O	
+2-6	Reichs	NE	Reich	_	O	O	
+2-7	Ministerium	NN	Ministerium	_	O	O	
+2-8	angefragt	VVPP	anfragen	_	O	O	
+2-9	wie	KOKOM	wie	_	O	O	
+2-10	auch	ADV	auch	_	O	O	
+2-11	über	APPR	über	_	O	O	
+2-12	die	ART	die	_	O	O	
+2-13	vermiethbaren	ADJA	<unknown>	_	O	O	
+2-14	Räumlichkeiten	NN	Räumlichkeit	_	O	O	
+2-15	überhaupt	ADV	überhaupt	_	O	O	
+2-16	.	$.	.	_	O	O	
+
+#id=3
+#text=Wir haben geantwortet, daß Herr Laspeyres von uns aufgegeben worden sei, 6 Zimmer für Stipendiaten, 3 für andere Institutsgelehrte zu reserviren, die natürlich frei vermiethet werden können, nicht wirklich reservirt zu werden brauchen.
+3-1	Wir	PPER	wir	_	O	O	
+3-2	haben	VAFIN	haben	_	O	O	
+3-3	geantwortet	VVPP	antworten	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	daß	KOUS	dass	_	O	O	
+3-6	Herr	NN	Herr	_	O	O	
+3-7	Laspeyres	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-8	von	APPR	von	_	O	O	
+3-9	uns	PRF	wir	_	O	O	
+3-10	aufgegeben	VVPP	aufgeben	_	O	O	
+3-11	worden	VAPP	werden	_	O	O	
+3-12	sei	VAFIN	sein	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	6	CARD	6	_	O	O	
+3-15	Zimmer	NN	Zimmer	_	O	O	
+3-16	für	APPR	für	_	O	O	
+3-17	Stipendiaten	NN	Stipendiat	_	O	O	
+3-18	,	$,	,	_	O	O	
+3-19	3	CARD	3	_	O	O	
+3-20	für	APPR	für	_	O	O	
+3-21	andere	PIS	andere	_	O	O	
+3-22	Institutsgelehrte	NN	<unknown>	_	O	O	
+3-23	zu	APPR	zu	_	O	O	
+3-24	reserviren	NN	<unknown>	_	O	O	
+3-25	,	$,	,	_	O	O	
+3-26	die	PRELS	die	_	O	O	
+3-27	natürlich	ADV	natürlich	_	O	O	
+3-28	frei	ADJD	frei	_	O	O	
+3-29	vermiethet	NN	<unknown>	_	O	O	
+3-30	werden	VAINF	werden	_	O	O	
+3-31	können	VMFIN	können	_	O	O	
+3-32	,	$,	,	_	O	O	
+3-33	nicht	PTKNEG	nicht	_	O	O	
+3-34	wirklich	ADJD	wirklich	_	O	O	
+3-35	reservirt	NN	<unknown>	_	O	O	
+3-36	zu	PTKZU	zu	_	O	O	
+3-37	werden	VAINF	werden	_	O	O	
+3-38	brauchen	VVFIN	brauchen	_	O	O	
+3-39	.	$.	.	_	O	O	
+
+#id=4
+#text=Die 6 Zimmer sollten für 3, könnten aber nöthigenfalls auch für 6 Stipendiaten diemen.
+4-1	Die	ART	die	_	O	O	
+4-2	6	CARD	6	_	O	O	
+4-3	Zimmer	NN	Zimmer	_	O	O	
+4-4	sollten	VMFIN	sollen	_	O	O	
+4-5	für	APPR	für	_	O	O	
+4-6	3	CARD	3	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	könnten	VMFIN	können	_	O	O	
+4-9	aber	ADV	aber	_	O	O	
+4-10	nöthigenfalls	ADV	<unknown>	_	O	O	
+4-11	auch	ADV	auch	_	O	O	
+4-12	für	APPR	für	_	O	O	
+4-13	6	CARD	6	_	O	O	
+4-14	Stipendiaten	NN	Stipendiat	_	O	O	
+4-15	diemen	VVINF	<unknown>	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Von den Wünschen des Prof.
+5-1	Von	APPR	von	_	O	O	
+5-2	den	ART	die	_	O	O	
+5-3	Wünschen	NN	Wunsch	_	O	O	
+5-4	des	ART	die	_	O	O	
+5-5	Prof.	NN	Prof.	_	O	O	
+
+#id=6
+#text=Piper sei uns nichts bekannt geworden.
+6-1	Piper	ADJD	<unknown>	_	O	O	
+6-2	sei	VAFIN	sein	_	O	O	
+6-3	uns	PPER	wir	_	O	O	
+6-4	nichts	PIS	nichts	_	O	O	
+6-5	bekannt	VVPP	bekennen	_	O	O	
+6-6	geworden	VAPP	werden	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=Wir setzen nun voraus, daß die Korrespondenz wegen des Neuen Hauses hinfort immer direkt mit dem Reichs Ministerium geführt wird.
+7-1	Wir	PPER	wir	_	O	O	
+7-2	setzen	VVFIN	setzen	_	O	O	
+7-3	nun	ADV	nun	_	O	O	
+7-4	voraus	PTKVZ	voraus	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	daß	KOUS	dass	_	O	O	
+7-7	die	ART	die	_	O	O	
+7-8	Korrespondenz	NN	Korrespondenz	_	O	O	
+7-9	wegen	APPR	wegen	_	O	O	
+7-10	des	ART	die	_	O	O	
+7-11	Neuen	ADJA	neu	_	O	O	
+7-12	Hauses	NN	Haus	_	O	O	
+7-13	hinfort	ADV	hinfort	_	O	O	
+7-14	immer	ADV	immer	_	O	O	
+7-15	direkt	ADJD	direkt	_	O	O	
+7-16	mit	APPR	mit	_	O	O	
+7-17	dem	ART	die	_	O	O	
+7-18	Reichs	NE	Reich	_	O	O	
+7-19	Ministerium	NN	Ministerium	_	O	O	
+7-20	geführt	VVPP	führen	_	O	O	
+7-21	wird	VAFIN	werden	_	O	O	
+7-22	.	$.	.	_	O	O	
+
+#id=8
+#text=Hier liegen die Pläne jetzt dem Reichsarchitekten vor.
+8-1	Hier	ADV	hier	_	O	O	
+8-2	liegen	VVFIN	liegen	_	O	O	
+8-3	die	ART	die	_	O	O	
+8-4	Pläne	NN	Plan	_	O	O	
+8-5	jetzt	ADV	jetzt	_	O	O	
+8-6	dem	ART	die	_	O	O	
+8-7	Reichsarchitekten	NN	Reichsarchitekt	_	O	O	
+8-8	vor	PTKVZ	vor	_	O	O	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=über das Anerbieten des Dr.
+9-1	über	APPR	über	_	O	O	
+9-2	das	ART	die	_	O	O	
+9-3	Anerbieten	NN	Anerbieten	_	O	O	
+9-4	des	ART	die	_	O	O	
+9-5	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=10
+#text=Klügmann wird Ihnen Mommsen schreiben.
+10-1	Klügmann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	wird	VAFIN	werden	_	O	O	
+10-3	Ihnen	PPER	Sie	_	O	O	
+10-4	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-5	schreiben	VVINF	schreiben	_	O	O	
+10-6	.	$.	.	_	O	O	
+
+#id=11
+#text=Die Wahl des Dr.
+11-1	Die	ART	die	_	O	O	
+11-2	Wahl	NN	Wahl	_	O	O	
+11-3	des	ART	die	_	O	O	
+11-4	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=12
+#text=Kaibel zum Stipendiaten erfolgte ohne Umstände einstimmig, auch ganz conform mit unsem neunen Grundsätzen über die Vertheilung.
+12-1	Kaibel	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	zum	APPRART	zu	_	O	O	
+12-3	Stipendiaten	NN	Stipendiat	_	O	O	
+12-4	erfolgte	VVFIN	erfolgen	_	O	O	
+12-5	ohne	APPR	ohne	_	O	O	
+12-6	Umstände	NN	Umstand	_	O	O	
+12-7	einstimmig	ADJD	einstimmig	_	O	O	
+12-8	,	$,	,	_	O	O	
+12-9	auch	ADV	auch	_	O	O	
+12-10	ganz	ADV	ganz	_	O	O	
+12-11	conform	ADJD	<unknown>	_	O	O	
+12-12	mit	APPR	mit	_	O	O	
+12-13	unsem	ADJA	<unknown>	_	O	O	
+12-14	neunen	ADJA	<unknown>	_	O	O	
+12-15	Grundsätzen	NN	Grundsatz	_	O	O	
+12-16	über	APPR	über	_	O	O	
+12-17	die	ART	die	_	O	O	
+12-18	Vertheilung	NN	<unknown>	_	O	O	
+12-19	.	$.	.	_	O	O	
+
+#id=13
+#text=Dazu wurde Dr.
+13-1	Dazu	PAV	dazu	_	O	O	
+13-2	wurde	VAFIN	werden	_	O	O	
+13-3	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=14
+#text=C. Robert erwählt, ein sehr tüchtiger Mann, der vor kurzem hier ausgezeichnet promovirt hat.
+14-1	C.	NE	C.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	Robert	NE	Robert	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+14-3	erwählt	VVFIN	erwählen	_	O	O	
+14-4	,	$,	,	_	O	O	
+14-5	ein	ART	eine	_	O	O	
+14-6	sehr	ADV	sehr	_	O	O	
+14-7	tüchtiger	ADJA	tüchtig	_	O	O	
+14-8	Mann	NN	Mann	_	O	O	
+14-9	,	$,	,	_	O	O	
+14-10	der	PRELS	die	_	O	O	
+14-11	vor	APPR	vor	_	O	O	
+14-12	kurzem	ADJA	kurz	_	O	O	
+14-13	hier	ADV	hier	_	O	O	
+14-14	ausgezeichnet	ADJD	ausgezeichnet	_	O	O	
+14-15	promovirt	NN	<unknown>	_	O	O	
+14-16	hat	VAFIN	haben	_	O	O	
+14-17	.	$.	.	_	O	O	
+
+#id=15
+#text=Dr.
+15-1	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=16
+#text=Veil wurde gegen ihn zurückgestellt.
+16-1	Veil	ADJD	<unknown>	_	O	O	
+16-2	wurde	VAFIN	werden	_	O	O	
+16-3	gegen	APPR	gegen	_	O	O	
+16-4	ihn	PPER	er	_	O	O	
+16-5	zurückgestellt	VVPP	zurückstellen	_	O	O	
+16-6	.	$.	.	_	O	O	
+
+#id=17
+#text=Im neuen Reichsbudget sind jetzt irrthümlich 3600 r für Stipendien ausgesetzt.
+17-1	Im	APPRART	in	_	O	O	
+17-2	neuen	ADJA	neu	_	O	O	
+17-3	Reichsbudget	NN	<unknown>	_	O	O	
+17-4	sind	VAFIN	sein	_	O	O	
+17-5	jetzt	ADV	jetzt	_	O	O	
+17-6	irrthümlich	ADJD	<unknown>	_	O	O	
+17-7	3600	CARD	@card@	_	O	O	
+17-8	r	NE	r	_	O	O	
+17-9	für	APPR	für	_	O	O	
+17-10	Stipendien	NN	Stipendium	_	O	O	
+17-11	ausgesetzt	VVPP	aussetzen	_	O	O	
+17-12	.	$.	.	_	O	O	
+
+#id=18
+#text=Wir hatten zu den bisherigen 1200 r andre 1200 r also 2400 r für 3 Preußische
+18-1	Wir	PPER	wir	_	O	O	
+18-2	hatten	VAFIN	haben	_	O	O	
+18-3	zu	APPR	zu	_	O	O	
+18-4	den	ART	die	_	O	O	
+18-5	bisherigen	ADJA	bisherig	_	O	O	
+18-6	1200	CARD	1200	_	O	O	
+18-7	r	NE	r	_	O	O	
+18-8	andre	PIAT	andere	_	O	O	
+18-9	1200	CARD	1200	_	O	O	
+18-10	r	NE	r	_	O	O	
+18-11	also	ADV	also	_	O	O	
+18-12	2400	CARD	2400	_	O	O	
+18-13	r	NE	r	_	O	O	
+18-14	für	APPR	für	_	O	O	
+18-15	3	CARD	3	_	O	O	
+18-16	Preußische	NN	Preußische	_	O	O	
+

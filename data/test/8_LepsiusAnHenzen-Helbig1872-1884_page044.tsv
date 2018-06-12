@@ -1,0 +1,235 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=271 Verehrter Freund Lepsius an Henzen Berlin, 15. Juni 1872 g. 19/6 72 B. d. 15. Juni 1872 Ich sende die Diplome der Herren Brizio, Mattei, Tarantini, Romano, Murray, Prakhof, Salazaro, Hi~schfeld, Monti, Lüders, also 10 Stück zu Asher, damit er sie an Sie weiter befördere.
+1-1	271	CARD	@card@	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	19/6	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	B.	NN	B.	_	O	O	
+1-17	d.	ART	d.	_	O	O	
+1-18	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Ich	PPER	ich	_	O	O	
+1-23	sende	VVFIN	senden	_	O	O	
+1-24	die	ART	die	_	O	O	
+1-25	Diplome	NN	Diplom	_	O	O	
+1-26	der	ART	die	_	O	O	
+1-27	Herren	NN	Herr	_	O	O	
+1-28	Brizio	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-29	,	$,	,	_	O	O	
+1-30	Mattei	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-31	,	$,	,	_	O	O	
+1-32	Tarantini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-33	,	$,	,	_	O	O	
+1-34	Romano	NE	Romano	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-35	,	$,	,	_	O	O	
+1-36	Murray	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-37	,	$,	,	_	O	O	
+1-38	Prakhof	NN	<unknown>	_	O	O	
+1-39	,	$,	,	_	O	O	
+1-40	Salazaro	NN	<unknown>	_	O	O	
+1-41	,	$,	,	_	O	O	
+1-42	Hi~schfeld	NN	<unknown>	_	O	O	
+1-43	,	$,	,	_	O	O	
+1-44	Monti	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-45	,	$,	,	_	O	O	
+1-46	Lüders	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-47	,	$,	,	_	O	O	
+1-48	also	ADV	also	_	O	O	
+1-49	10	CARD	10	_	O	O	
+1-50	Stück	NN	Stück	_	O	O	
+1-51	zu	APPR	zu	_	O	O	
+1-52	Asher	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-53	,	$,	,	_	O	O	
+1-54	damit	KOUS	damit	_	O	O	
+1-55	er	PPER	er	_	O	O	
+1-56	sie	PPER	sie	_	O	O	
+1-57	an	APPR	an	_	O	O	
+1-58	Sie	PPER	Sie	_	O	O	
+1-59	weiter	ADV	weiter	_	O	O	
+1-60	befördere	VVFIN	befördern	_	O	O	
+1-61	.	$.	.	_	O	O	
+
+#id=2
+#text=Es sind alles Ihre Kreaturen, daher es wohl recht ist, daß Sie Ihren Sekretarsnamen mit zusetzen, und die einzelnen dann vertheilen.
+2-1	Es	PPER	es	_	O	O	
+2-2	sind	VAFIN	sein	_	O	O	
+2-3	alles	PIS	alle	_	O	O	
+2-4	Ihre	PPOSAT	ihr	_	O	O	
+2-5	Kreaturen	NN	Kreatur	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	daher	PAV	daher	_	O	O	
+2-8	es	PPER	es	_	O	O	
+2-9	wohl	ADV	wohl	_	O	O	
+2-10	recht	ADJD	recht	_	O	O	
+2-11	ist	VAFIN	sein	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	daß	KOUS	dass	_	O	O	
+2-14	Sie	PPER	Sie	_	O	O	
+2-15	Ihren	PPOSAT	ihr	_	O	O	
+2-16	Sekretarsnamen	NN	<unknown>	_	O	O	
+2-17	mit	PTKVZ	mit	_	O	O	
+2-18	zusetzen	VVFIN	zusetzen	_	O	O	
+2-19	,	$,	,	_	O	O	
+2-20	und	KON	und	_	O	O	
+2-21	die	ART	die	_	O	O	
+2-22	einzelnen	ADJA	einzeln	_	O	O	
+2-23	dann	ADV	dann	_	O	O	
+2-24	vertheilen	VVFIN	<unknown>	_	O	O	
+2-25	.	$.	.	_	O	O	
+
+#id=3
+#text=Sollten bei den einen oder andern die Titulaturen fehlen oder anders sein, so können Sie durch Radirung leicht nachhelfen.
+3-1	Sollten	VMFIN	sollen	_	O	O	
+3-2	bei	APPR	bei	_	O	O	
+3-3	den	ART	die	_	O	O	
+3-4	einen	PIS	eine	_	O	O	
+3-5	oder	KON	oder	_	O	O	
+3-6	andern	PIS	andere	_	O	O	
+3-7	die	ART	die	_	O	O	
+3-8	Titulaturen	NN	<unknown>	_	O	O	
+3-9	fehlen	VVINF	fehlen	_	O	O	
+3-10	oder	KON	oder	_	O	O	
+3-11	anders	ADV	anders	_	O	O	
+3-12	sein	VAINF	sein	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	so	ADV	so	_	O	O	
+3-15	können	VMFIN	können	_	O	O	
+3-16	Sie	PPER	Sie	_	O	O	
+3-17	durch	APPR	durch	_	O	O	
+3-18	Radirung	NN	<unknown>	_	O	O	
+3-19	leicht	ADJD	leicht	_	O	O	
+3-20	nachhelfen	VVINF	nachhelfen	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Auch Murray London lasse ich Ihnen zugehen, da die Buchstaben A. S. ihn ohne weitere Adresse nicht genug karakterisiren.
+4-1	Auch	ADV	auch	_	O	O	
+4-2	Murray	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-4	lasse	VVFIN	lassen	_	O	O	
+4-5	ich	PPER	ich	_	O	O	
+4-6	Ihnen	PPER	Sie	_	O	O	
+4-7	zugehen	VVINF	zugehen	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	da	KOUS	da	_	O	O	
+4-10	die	ART	die	_	O	O	
+4-11	Buchstaben	NN	Buchstabe	_	O	O	
+4-12	A.	APPRART	am	_	O	O	
+4-13	S.	NN	S.	_	O	O	
+4-14	ihn	PPER	er	_	O	O	
+4-15	ohne	APPR	ohne	_	O	O	
+4-16	weitere	ADJA	weit	_	O	O	
+4-17	Adresse	NN	Adresse	_	O	O	
+4-18	nicht	PTKNEG	nicht	_	O	O	
+4-19	genug	ADV	genug	_	O	O	
+4-20	karakterisiren	NN	<unknown>	_	O	O	
+4-21	.	$.	.	_	O	O	
+
+#id=5
+#text=Dagegen wird sich A. Holm in Lübeck, wohl hrausfinden lassen; auch an Matz sende ich direkt.
+5-1	Dagegen	PAV	dagegen	_	O	O	
+5-2	wird	VAFIN	werden	_	O	O	
+5-3	sich	PRF	sich	_	O	O	
+5-4	A.	APPRART	am	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	Holm	NE	Holm	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-6	in	APPR	in	_	O	O	
+5-7	Lübeck	NE	Lübeck	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-8	,	$,	,	_	O	O	
+5-9	wohl	ADV	wohl	_	O	O	
+5-10	hrausfinden	NN	<unknown>	_	O	O	
+5-11	lassen	VVFIN	lassen	_	O	O	
+5-12	;	$.	;	_	O	O	
+5-13	auch	ADV	auch	_	O	O	
+5-14	an	APPR	an	_	O	O	
+5-15	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-16	sende	VVFIN	senden	_	O	O	
+5-17	ich	PPER	ich	_	O	O	
+5-18	direkt	ADJD	direkt	_	O	O	
+5-19	.	$.	.	_	O	O	
+
+#id=6
+#text=Von 1872 bleiben dann hier noch zurück : C. Humann , Architekt in Bergamo, den Curtius von hier besorgt, und Mommsen's drei Dalmatiner Giacomo Brogli~, professore deI ginnasio in Zara Giuseppe Allacevich, giudice distrettuale in Knin Giuseppe Reiter, primo tenente di artiglieria e commandante della Fortezza di Chissa die Mommsen besorgt.
+6-1	Von	APPR	von	_	O	O	
+6-2	1872	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-3	bleiben	VVFIN	bleiben	_	O	O	
+6-4	dann	ADV	dann	_	O	O	
+6-5	hier	ADV	hier	_	O	O	
+6-6	noch	ADV	noch	_	O	O	
+6-7	zurück	PTKVZ	zurück	_	O	O	
+6-8	:	$.	:	_	O	O	
+6-9	C.	NE	C.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	Humann	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-11	,	$,	,	_	O	O	
+6-12	Architekt	NN	Architekt	_	O	O	
+6-13	in	APPR	in	_	O	O	
+6-14	Bergamo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-15	,	$,	,	_	O	O	
+6-16	den	ART	die	_	O	O	
+6-17	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-18	von	APPR	von	_	O	O	
+6-19	hier	ADV	hier	_	O	O	
+6-20	besorgt	ADJD	besorgt	_	O	O	
+6-21	,	$,	,	_	O	O	
+6-22	und	KON	und	_	O	O	
+6-23	Mommsen's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-24	drei	CARD	drei	_	O	O	
+6-25	Dalmatiner	NN	Dalmatiner	_	O	O	
+6-26	Giacomo	NE	Giacomo	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-27	Brogli~	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-28	,	$,	,	_	O	O	
+6-29	professore	NN	<unknown>	_	O	O	
+6-30	deI	VVFIN	<unknown>	_	O	O	
+6-31	ginnasio	NE	<unknown>	_	O	O	
+6-32	in	APPR	in	_	O	O	
+6-33	Zara	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-34	Giuseppe	NE	Giuseppe	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-35	Allacevich	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-36	,	$,	,	_	O	O	
+6-37	giudice	ADJA	<unknown>	_	O	O	
+6-38	distrettuale	NN	<unknown>	_	O	O	
+6-39	in	APPR	in	_	O	O	
+6-40	Knin	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-41	Giuseppe	NE	Giuseppe	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-42	Reiter	NN	Reiter	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-43	,	$,	,	_	O	O	
+6-44	primo	ADJA	<unknown>	_	O	O	
+6-45	tenente	NN	<unknown>	_	O	O	
+6-46	di	NE	di	_	O	O	
+6-47	artiglieria	NE	<unknown>	_	O	O	
+6-48	e	ADJA	<unknown>	_	O	O	
+6-49	commandante	ADJA	<unknown>	_	O	O	
+6-50	della	NN	<unknown>	_	O	O	
+6-51	Fortezza	NN	<unknown>	_	O	O	
+6-52	di	NE	di	_	O	O	
+6-53	Chissa	NE	<unknown>	_	O	O	
+6-54	die	ART	die	_	O	O	
+6-55	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-56	besorgt	VVPP	besorgen	_	O	O	
+6-57	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich habe soeben Ihre Sendung des Etats erhalten.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	habe	VAFIN	haben	_	O	O	
+7-3	soeben	ADV	soeben	_	O	O	
+7-4	Ihre	PPOSAT	ihr	_	O	O	
+7-5	Sendung	NN	Sendung	_	O	O	
+7-6	des	ART	die	_	O	O	
+7-7	Etats	NN	Etat	_	O	O	
+7-8	erhalten	VVPP	erhalten	_	O	O	
+7-9	.	$.	.	_	O	O	
+

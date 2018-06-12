@@ -1,0 +1,320 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Ohne Nummer Henzen an Gerhard 28/IX/55 Turin 28/IX 55.
+1-1	Ohne	APPR	ohne	_	O	O	
+1-2	Nummer	NN	Nummer	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	28/IX/55	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	Turin	NE	Turin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	28/IX	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	55	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	.	$.	.	_	O	O	
+
+#id=2
+#text=Verehrter Herr Professor Ich hatte lange die Absicht, Ihnen zu schreiben; allein die Unruhe der Reise veranlaßte mich, es aufzuschieben, bis ich in Montreux einige Ruhetage haben würde.
+2-1	Verehrter	ADJA	verehrt	_	O	O	
+2-2	Herr	NN	Herr	_	O	O	
+2-3	Professor	NN	Professor	_	O	O	
+2-4	Ich	PPER	ich	_	O	O	
+2-5	hatte	VAFIN	haben	_	O	O	
+2-6	lange	ADV	lange	_	O	O	
+2-7	die	ART	die	_	O	O	
+2-8	Absicht	NN	Absicht	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	Ihnen	PPER	Sie	_	O	O	
+2-11	zu	PTKZU	zu	_	O	O	
+2-12	schreiben	VVINF	schreiben	_	O	O	
+2-13	;	$.	;	_	O	O	
+2-14	allein	ADV	allein	_	O	O	
+2-15	die	ART	die	_	O	O	
+2-16	Unruhe	NN	Unruhe	_	O	O	
+2-17	der	ART	die	_	O	O	
+2-18	Reise	NN	Reise	_	O	O	
+2-19	veranlaßte	VVFIN	veranlassen	_	O	O	
+2-20	mich	PRF	ich	_	O	O	
+2-21	,	$,	,	_	O	O	
+2-22	es	PPER	es	_	O	O	
+2-23	aufzuschieben	VVIZU	aufschieben	_	O	O	
+2-24	,	$,	,	_	O	O	
+2-25	bis	KOUS	bis	_	O	O	
+2-26	ich	PPER	ich	_	O	O	
+2-27	in	APPR	in	_	O	O	
+2-28	Montreux	NN	<unknown>	_	O	O	
+2-29	einige	PIAT	einige	_	O	O	
+2-30	Ruhetage	NN	Ruhetag	_	O	O	
+2-31	haben	VAINF	haben	_	O	O	
+2-32	würde	VAFIN	werden	_	O	O	
+2-33	.	$.	.	_	O	O	
+
+#id=3
+#text=Leider sollten mir diese nicht zu Theil werden.
+3-1	Leider	ADV	leider	_	O	O	
+3-2	sollten	VMFIN	sollen	_	O	O	
+3-3	mir	PPER	ich	_	O	O	
+3-4	diese	PDS	diese	_	O	O	
+3-5	nicht	PTKNEG	nicht	_	O	O	
+3-6	zu	APPR	zu	_	O	O	
+3-7	Theil	NN	<unknown>	_	O	O	
+3-8	werden	VAINF	werden	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich erf h d t d H t I dß .
+4-1	Ich	PPER	ich	_	O	O	
+4-2	erf	VVFIN	<unknown>	_	O	O	
+4-3	h	NN	h	_	O	O	
+4-4	d	ADJA	<unknown>	_	O	O	
+4-5	t	NN	t	_	O	O	
+4-6	d	ADJA	<unknown>	_	O	O	
+4-7	H	NN	H	_	O	O	
+4-8	t	NN	t	_	O	O	
+4-9	I	NN	I	_	O	O	
+4-10	dß	VVFIN	<unknown>	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=.!Y.
+5-1	.	$.	.	_	O	O	
+5-2	!	$.	!	_	O	O	
+5-3	Y.	NE	Y.	_	O	O	
+
+#id=6
+#text=B d .
+6-1	B	NE	B	_	O	O	
+6-2	d	VVFIN	<unknown>	_	O	O	
+6-3	.	$.	.	_	O	O	
+
+#id=7
+#text=t 10 u r or vor em 0 e, • meln e~zlger ru er sel Tagen im Grabe liege; ein neuer Blutsturz hatte ihn hingerafft.
+7-1	t	NN	t	_	O	O	
+7-2	10	CARD	10	_	O	O	
+7-3	u	VVFIN	<unknown>	_	O	O	
+7-4	r	NE	r	_	O	O	
+7-5	or	NE	or	_	O	O	
+7-6	vor	APPR	vor	_	O	O	
+7-7	em	ADJA	<unknown>	_	O	O	
+7-8	0	CARD	@card@	_	O	O	
+7-9	e	ADJA	<unknown>	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	•	ADJA	<unknown>	_	O	O	
+7-12	meln	ADJA	<unknown>	_	O	O	
+7-13	e~zlger	NN	<unknown>	_	O	O	
+7-14	ru	VVFIN	<unknown>	_	O	O	
+7-15	er	PPER	er	_	O	O	
+7-16	sel	ADJA	<unknown>	_	O	O	
+7-17	Tagen	NN	Tag	_	O	O	
+7-18	im	APPRART	in	_	O	O	
+7-19	Grabe	NN	Grab	_	B-webanno.custom.LetterEntity_	B-OBJ	
+7-20	liege	VVFIN	liegen	_	O	O	
+7-21	;	$.	;	_	O	O	
+7-22	ein	ART	eine	_	O	O	
+7-23	neuer	ADJA	neu	_	O	O	
+7-24	Blutsturz	NN	Blutsturz	_	O	O	
+7-25	hatte	VAFIN	haben	_	O	O	
+7-26	ihn	PPER	er	_	O	O	
+7-27	hingerafft	VVPP	hinraffen	_	O	O	
+7-28	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich hatte seinen ~ustand nie mit zu sanguinischem Blicke betrachtet, aber ein so rasches ~nde nicht erwartet.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	hatte	VAFIN	haben	_	O	O	
+8-3	seinen	PPOSAT	sein	_	O	O	
+8-4	~ustand	NN	<unknown>	_	O	O	
+8-5	nie	ADV	nie	_	O	O	
+8-6	mit	APPR	mit	_	O	O	
+8-7	zu	PTKA	zu	_	O	O	
+8-8	sanguinischem	ADJA	<unknown>	_	O	O	
+8-9	Blicke	NN	Blick	_	O	O	
+8-10	betrachtet	VVPP	betrachten	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	aber	KON	aber	_	O	O	
+8-13	ein	ART	eine	_	O	O	
+8-14	so	ADV	so	_	O	O	
+8-15	rasches	ADJA	rasch	_	O	O	
+8-16	~nde	NN	<unknown>	_	O	O	
+8-17	nicht	PTKNEG	nicht	_	O	O	
+8-18	erwartet	VVPP	erwarten	_	O	O	
+8-19	.	$.	.	_	O	O	
+
+#id=9
+#text=- Der traurige Zustand der Frau nöthigte uns, dort über 8 Tage zu bleiben, da wir die Schwester nicht mit ihr u. dem kleinen Sohne meines Bruders allein lassen konnten.
+9-1	-	$(	-	_	O	O	
+9-2	Der	ART	die	_	O	O	
+9-3	traurige	ADJA	traurig	_	O	O	
+9-4	Zustand	NN	Zustand	_	O	O	
+9-5	der	ART	die	_	O	O	
+9-6	Frau	NN	Frau	_	O	O	
+9-7	nöthigte	VVFIN	<unknown>	_	O	O	
+9-8	uns	PPER	wir	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	dort	ADV	dort	_	O	O	
+9-11	über	APPR	über	_	O	O	
+9-12	8	CARD	8	_	O	O	
+9-13	Tage	NN	Tag	_	O	O	
+9-14	zu	PTKZU	zu	_	O	O	
+9-15	bleiben	VVINF	bleiben	_	O	O	
+9-16	,	$,	,	_	O	O	
+9-17	da	KOUS	da	_	O	O	
+9-18	wir	PPER	wir	_	O	O	
+9-19	die	ART	die	_	O	O	
+9-20	Schwester	NN	Schwester	_	O	O	
+9-21	nicht	PTKNEG	nicht	_	O	O	
+9-22	mit	APPR	mit	_	O	O	
+9-23	ihr	PPOSAT	ihr	_	O	O	
+9-24	u.	APPR	um	_	O	O	
+9-25	dem	ART	die	_	O	O	
+9-26	kleinen	ADJA	klein	_	O	O	
+9-27	Sohne	NN	Sohn	_	O	O	
+9-28	meines	PPOSAT	mein	_	O	O	
+9-29	Bruders	NN	Bruder	_	O	O	
+9-30	allein	ADV	allein	_	O	O	
+9-31	lassen	VVINF	lassen	_	O	O	
+9-32	konnten	VMFIN	können	_	O	O	
+9-33	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich mußte nach Bremen telegraphiren, um einen Schwager des letzteren kommen zu lassen, u. konnte so erst am 19 n • abreisen, meine Sch~ägerin in sehr bedenklichem geistigen u. körperlichen Zustande zurücklassend.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	mußte	VMFIN	müssen	_	O	O	
+10-3	nach	APPR	nach	_	O	O	
+10-4	Bremen	NE	Bremen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-5	telegraphiren	NN	<unknown>	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	um	KOUI	um	_	O	O	
+10-8	einen	ART	eine	_	O	O	
+10-9	Schwager	NN	Schwager	_	O	O	
+10-10	des	ART	die	_	O	O	
+10-11	letzteren	ADJA	letzt	_	O	O	
+10-12	kommen	VVINF	kommen	_	O	O	
+10-13	zu	PTKZU	zu	_	O	O	
+10-14	lassen	VVINF	lassen	_	O	O	
+10-15	,	$,	,	_	O	O	
+10-16	u.	KON	und	_	O	O	
+10-17	konnte	VMFIN	können	_	O	O	
+10-18	so	ADV	so	_	O	O	
+10-19	erst	ADV	erst	_	O	O	
+10-20	am	APPRART	an	_	O	O	
+10-21	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+10-22	n	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+10-23	•	NN	<unknown>	_	O	O	
+10-24	abreisen	VVINF	abreisen	_	O	O	
+10-25	,	$,	,	_	O	O	
+10-26	meine	PPOSAT	mein	_	O	O	
+10-27	Sch~ägerin	NN	<unknown>	_	O	O	
+10-28	in	APPR	in	_	O	O	
+10-29	sehr	ADV	sehr	_	O	O	
+10-30	bedenklichem	ADJA	bedenklich	_	O	O	
+10-31	geistigen	ADJA	geistig	_	O	O	
+10-32	u.	KON	und	_	O	O	
+10-33	körperlichen	ADJA	körperlich	_	O	O	
+10-34	Zustande	NN	Zustand	_	O	O	
+10-35	zurücklassend	ADJD	zurücklassend	_	O	O	
+10-36	.	$.	.	_	O	O	
+
+#id=11
+#text=Dem Wunsche Ihrer Akademie gemäß gingen wir über den Simplon, um in Stresa die Papiere des de Vit zu untersuchen.
+11-1	Dem	ART	die	_	O	O	
+11-2	Wunsche	NN	Wunsch	_	O	O	
+11-3	Ihrer	PPOSAT	ihr	_	O	O	
+11-4	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+11-5	gemäß	APPO	gemäß	_	O	O	
+11-6	gingen	VVFIN	gehen	_	O	O	
+11-7	wir	PPER	wir	_	O	O	
+11-8	über	APPR	über	_	O	O	
+11-9	den	ART	die	_	O	O	
+11-10	Simplon	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-11	,	$,	,	_	O	O	
+11-12	um	KOUI	um	_	O	O	
+11-13	in	APPR	in	_	O	O	
+11-14	Stresa	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-15	die	ART	die	_	O	O	
+11-16	Papiere	NN	Papier	_	O	O	
+11-17	des	ART	die	_	O	O	
+11-18	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-19	Vit	NE	Vit	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-20	zu	PTKZU	zu	_	O	O	
+11-21	untersuchen	VVINF	untersuchen	_	O	O	
+11-22	.	$.	.	_	O	O	
+
+#id=12
+#text=Sie haben für uns keinen Werth; doch werde ich von Rom aus Ihrer Commission ausführlicher berichten.
+12-1	Sie	PPER	Sie	_	O	O	
+12-2	haben	VAFIN	haben	_	O	O	
+12-3	für	APPR	für	_	O	O	
+12-4	uns	PPER	wir	_	O	O	
+12-5	keinen	PIAT	keine	_	O	O	
+12-6	Werth	NN	<unknown>	_	O	O	
+12-7	;	$.	;	_	O	O	
+12-8	doch	ADV	doch	_	O	O	
+12-9	werde	VAFIN	werden	_	O	O	
+12-10	ich	PPER	ich	_	O	O	
+12-11	von	APPR	von	_	O	O	
+12-12	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-13	aus	APPR	aus	_	O	O	
+12-14	Ihrer	PPOSAT	ihr	_	O	O	
+12-15	Commission	NN	<unknown>	_	O	O	
+12-16	ausführlicher	ADJD	ausführlich	_	O	O	
+12-17	berichten	VVINF	berichten	_	O	O	
+12-18	.	$.	.	_	O	O	
+
+#id=13
+#text=- In Arona mußte ich einen Tag im Bette liegen wegen heftiger Erkältung, die mich noch plagt, u. kam daher erst am Sonntage hier an.
+13-1	-	$(	-	_	O	O	
+13-2	In	APPR	in	_	O	O	
+13-3	Arona	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+13-4	mußte	VMFIN	müssen	_	O	O	
+13-5	ich	PPER	ich	_	O	O	
+13-6	einen	ART	eine	_	O	O	
+13-7	Tag	NN	Tag	_	O	O	
+13-8	im	APPRART	in	_	O	O	
+13-9	Bette	NN	Bett	_	O	O	
+13-10	liegen	VVFIN	liegen	_	O	O	
+13-11	wegen	APPR	wegen	_	O	O	
+13-12	heftiger	ADJA	heftig	_	O	O	
+13-13	Erkältung	NN	Erkältung	_	O	O	
+13-14	,	$,	,	_	O	O	
+13-15	die	PRELS	die	_	O	O	
+13-16	mich	PRF	ich	_	O	O	
+13-17	noch	ADV	noch	_	O	O	
+13-18	plagt	VVFIN	plagen	_	O	O	
+13-19	,	$,	,	_	O	O	
+13-20	u.	KON	und	_	O	O	
+13-21	kam	VVFIN	kommen	_	O	O	
+13-22	daher	PAV	daher	_	O	O	
+13-23	erst	ADV	erst	_	O	O	
+13-24	am	APPRART	an	_	O	O	
+13-25	Sonntage	NN	Sonntag	_	O	O	
+13-26	hier	ADV	hier	_	O	O	
+13-27	an	PTKVZ	an	_	O	O	
+13-28	.	$.	.	_	O	O	
+
+#id=14
+#text=Alles ist hier mit größter Liberalität mir zur Disposition gestellt; aber trotz meiner guten Vorbereitungen des Materials wird die Sache sich sehr in
+14-1	Alles	PIS	alle	_	O	O	
+14-2	ist	VAFIN	sein	_	O	O	
+14-3	hier	ADV	hier	_	O	O	
+14-4	mit	APPR	mit	_	O	O	
+14-5	größter	ADJA	groß	_	O	O	
+14-6	Liberalität	NN	Liberalität	_	O	O	
+14-7	mir	PRF	ich	_	O	O	
+14-8	zur	APPRART	zu	_	O	O	
+14-9	Disposition	NN	Disposition	_	O	O	
+14-10	gestellt	VVPP	stellen	_	O	O	
+14-11	;	$.	;	_	O	O	
+14-12	aber	ADV	aber	_	O	O	
+14-13	trotz	APPR	trotz	_	O	O	
+14-14	meiner	PPOSAT	mein	_	O	O	
+14-15	guten	ADJA	gut	_	O	O	
+14-16	Vorbereitungen	NN	Vorbereitung	_	O	O	
+14-17	des	ART	die	_	O	O	
+14-18	Materials	NN	Material	_	O	O	
+14-19	wird	VAFIN	werden	_	O	O	
+14-20	die	ART	die	_	O	O	
+14-21	Sache	NN	Sache	_	O	O	
+14-22	sich	PRF	sich	_	O	O	
+14-23	sehr	ADV	sehr	_	O	O	
+14-24	in	APPR	in	_	O	O	
+

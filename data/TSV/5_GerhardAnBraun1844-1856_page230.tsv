@@ -1,0 +1,259 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Gerhard an Braun Berlin, 28. Juli 1846 nung, keine Pause davon erhielt) bat ich durch Henzen bereits.
+1-1	2	CARD	2	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	nung	NN	<unknown>	_	O	O	
+1-12	,	$,	,	_	O	O	
+1-13	keine	PIAT	keine	_	O	O	
+1-14	Pause	NN	Pause	_	O	O	
+1-15	davon	PAV	davon	_	O	O	
+1-16	erhielt	VVFIN	erhalten	_	O	O	
+1-17	)	$(	)	_	O	O	
+1-18	bat	VVFIN	bitten	_	O	O	
+1-19	ich	PPER	ich	_	O	O	
+1-20	durch	APPR	durch	_	O	O	
+1-21	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-22	bereits	ADV	bereits	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Ihre Nachfrage danach kam eben bei Abgang Ihres Wechsels an.
+2-1	Ihre	PPOSAT	ihr	_	O	O	
+2-2	Nachfrage	NN	Nachfrage	_	O	O	
+2-3	danach	PAV	danach	_	O	O	
+2-4	kam	VVFIN	kommen	_	O	O	
+2-5	eben	ADV	eben	_	O	O	
+2-6	bei	APPR	bei	_	O	O	
+2-7	Abgang	NN	Abgang	_	O	O	
+2-8	Ihres	PPOSAT	ihr	_	O	O	
+2-9	Wechsels	NN	Wechsel	_	O	O	
+2-10	an	PTKVZ	an	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Wissen Sie Bescheid über die Platten Speckste~- idole die als figure basometiche bezeichnet zu werden pflegen?
+3-1	Wissen	VVFIN	wissen	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	Bescheid	NN	Bescheid	_	O	O	
+3-4	über	APPR	über	_	O	O	
+3-5	die	ART	die	_	O	O	
+3-6	Platten	ADJA	platt	_	O	O	
+3-7	Speckste~-	TRUNC	<unknown>	_	O	O	
+3-8	idole	NN	Idol	_	O	O	
+3-9	die	ART	die	_	O	O	
+3-10	als	KOKOM	als	_	O	O	
+3-11	figure	ADJA	<unknown>	_	O	O	
+3-12	basometiche	NN	<unknown>	_	O	O	
+3-13	bezeichnet	VVPP	bezeichnen	_	O	O	
+3-14	zu	PTKZU	zu	_	O	O	
+3-15	werden	VAINF	werden	_	O	O	
+3-16	pflegen	VVINF	pflegen	_	O	O	
+3-17	?	$.	?	_	O	O	
+
+#id=4
+#text=Wo sind unzweifelhafte Sachen dieser Art in Sammlungen?
+4-1	Wo	PWAV	wo	_	O	O	
+4-2	sind	VAFIN	sein	_	O	O	
+4-3	unzweifelhafte	ADJA	unzweifelhaft	_	O	O	
+4-4	Sachen	NN	Sache	_	O	O	
+4-5	dieser	PDAT	dies	_	O	O	
+4-6	Art	NN	Art	_	O	O	
+4-7	in	APPR	in	_	O	O	
+4-8	Sammlungen	NN	Sammlung	_	O	O	
+4-9	?	$.	?	_	O	O	
+
+#id=5
+#text=Irre ich nicht so sind sie von Hammer unter Templarsachen behandelt und werden jetzt gemeinhin als Fälschungen betrachtet.
+5-1	Irre	VVFIN	irren	_	O	O	
+5-2	ich	PPER	ich	_	O	O	
+5-3	nicht	PTKNEG	nicht	_	O	O	
+5-4	so	ADV	so	_	O	O	
+5-5	sind	VAFIN	sein	_	O	O	
+5-6	sie	PPER	sie	_	O	O	
+5-7	von	APPR	von	_	O	O	
+5-8	Hammer	NE	Hammer	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-9	unter	APPR	unter	_	O	O	
+5-10	Templarsachen	NN	<unknown>	_	O	O	
+5-11	behandelt	VVPP	behandeln	_	O	O	
+5-12	und	KON	und	_	O	O	
+5-13	werden	VAFIN	werden	_	O	O	
+5-14	jetzt	ADV	jetzt	_	O	O	
+5-15	gemeinhin	ADV	gemeinhin	_	O	O	
+5-16	als	KOKOM	als	_	O	O	
+5-17	Fälschungen	NN	Fälschung	_	O	O	
+5-18	betrachtet	VVPP	betrachten	_	O	O	
+5-19	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich glaube dergleichen auch unter etruskischen Laren in Toscana gesehen zu haben.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	glaube	VVFIN	glauben	_	O	O	
+6-3	dergleichen	PIS	dergleichen	_	O	O	
+6-4	auch	ADV	auch	_	O	O	
+6-5	unter	APPR	unter	_	O	O	
+6-6	etruskischen	ADJA	<unknown>	_	O	O	
+6-7	Laren	NE	Laren	_	O	O	
+6-8	in	APPR	in	_	O	O	
+6-9	Toscana	NE	Toscana	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-10	gesehen	VVPP	sehen	_	O	O	
+6-11	zu	PTKZU	zu	_	O	O	
+6-12	haben	VAINF	haben	_	O	O	
+6-13	.	$.	.	_	O	O	
+
+#id=7
+#text=Annali XVI ist angelangt; der Luxus Ihrer Grobheit gegen Stephani mißfällt.
+7-1	Annali	NE	<unknown>	_	O	O	
+7-2	XVI	NE	<unknown>	_	O	O	
+7-3	ist	VAFIN	sein	_	O	O	
+7-4	angelangt	VVPP	angelangen	_	O	O	
+7-5	;	$.	;	_	O	O	
+7-6	der	ART	die	_	O	O	
+7-7	Luxus	NN	Luxus	_	O	O	
+7-8	Ihrer	PPOSAT	ihr	_	O	O	
+7-9	Grobheit	NN	Grobheit	_	O	O	
+7-10	gegen	APPR	gegen	_	O	O	
+7-11	Stephani	NE	Stephani	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-12	mißfällt	VVFIN	missfallen	_	O	O	
+7-13	.	$.	.	_	O	O	
+
+#id=8
+#text=Dem Stich der Monumenti wird mehr Anerkennung als früher zu theil.
+8-1	Dem	ART	die	_	O	O	
+8-2	Stich	NN	Stich	_	O	O	
+8-3	der	ART	die	_	O	O	
+8-4	Monumenti	NN	<unknown>	_	O	O	
+8-5	wird	VAFIN	werden	_	O	O	
+8-6	mehr	PIAT	mehr	_	O	O	
+8-7	Anerkennung	NN	Anerkennung	_	O	O	
+8-8	als	KOKOM	als	_	O	O	
+8-9	früher	ADV	früher	_	O	O	
+8-10	zu	PTKA	zu	_	O	O	
+8-11	theil	ADJD	<unknown>	_	O	O	
+8-12	.	$.	.	_	O	O	
+
+#id=9
+#text=Henzen steigt in Ansehen; junge Leute.
+9-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	steigt	VVFIN	steigen	_	O	O	
+9-3	in	APPR	in	_	O	O	
+9-4	Ansehen	NN	Ansehen	_	O	O	
+9-5	;	$.	;	_	O	O	
+9-6	junge	ADJA	jung	_	O	O	
+9-7	Leute	NN	Leute	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=sonst wundert man sich über so gar viel Ich habe zu dergleichen Äußerungen Spielraum gewährt und das Nöthige dabei bemerkt.
+10-1	sonst	ADV	sonst	_	O	O	
+10-2	wundert	VVFIN	wundern	_	O	O	
+10-3	man	PIS	man	_	O	O	
+10-4	sich	PRF	sich	_	O	O	
+10-5	über	APPR	über	_	O	O	
+10-6	so	ADV	so	_	O	O	
+10-7	gar	ADV	gar	_	O	O	
+10-8	viel	ADV	viel	_	O	O	
+10-9	Ich	PPER	ich	_	O	O	
+10-10	habe	VAFIN	haben	_	O	O	
+10-11	zu	APPR	zu	_	O	O	
+10-12	dergleichen	PIS	dergleichen	_	O	O	
+10-13	Äußerungen	NN	Äußerung	_	O	O	
+10-14	Spielraum	NN	Spielraum	_	O	O	
+10-15	gewährt	VVPP	gewähren|währen	_	O	O	
+10-16	und	KON	und	_	O	O	
+10-17	das	ART	die	_	O	O	
+10-18	Nöthige	NN	<unknown>	_	O	O	
+10-19	dabei	PAV	dabei	_	O	O	
+10-20	bemerkt	VVPP	bemerken	_	O	O	
+10-21	.	$.	.	_	O	O	
+
+#id=11
+#text=Was hat es aber mit dem Senografo con soggetto nuziale für eine Bewandnis - , doppelte Schriftverwahrlosung oder ersteres Erudition ?
+11-1	Was	PWS	was	_	O	O	
+11-2	hat	VAFIN	haben	_	O	O	
+11-3	es	PPER	es	_	O	O	
+11-4	aber	ADV	aber	_	O	O	
+11-5	mit	APPR	mit	_	O	O	
+11-6	dem	ART	die	_	O	O	
+11-7	Senografo	NN	<unknown>	_	O	O	
+11-8	con	NE	Con	_	O	O	
+11-9	soggetto	ADJA	<unknown>	_	O	O	
+11-10	nuziale	NN	<unknown>	_	O	O	
+11-11	für	APPR	für	_	O	O	
+11-12	eine	ART	eine	_	O	O	
+11-13	Bewandnis	NN	<unknown>	_	O	O	
+11-14	-	$(	-	_	O	O	
+11-15	,	$,	,	_	O	O	
+11-16	doppelte	VVFIN	doppeln	_	O	O	
+11-17	Schriftverwahrlosung	NN	<unknown>	_	O	O	
+11-18	oder	KON	oder	_	O	O	
+11-19	ersteres	ADJA	<unknown>	_	O	O	
+11-20	Erudition	NN	<unknown>	_	O	O	
+11-21	?	$.	?	_	O	O	
+
+#id=12
+#text=Je nach dem Sie mit dem hiesigen Schröder zufrieden sind oder nicht, rathe ich Henzen seine Exemplare Tabula Baebiana dorthin zu geben oder mich weiter suchen zu lassen; er dünkt mich apriori empfehlenswerth, weil er Zumpts Epigraphica verlegt.
+12-1	Je	ADV	je	_	O	O	
+12-2	nach	APPR	nach	_	O	O	
+12-3	dem	ART	die	_	O	O	
+12-4	Sie	PPER	Sie	_	O	O	
+12-5	mit	APPR	mit	_	O	O	
+12-6	dem	ART	die	_	O	O	
+12-7	hiesigen	ADJA	hiesig	_	O	O	
+12-8	Schröder	NE	Schröder	_	O	O	
+12-9	zufrieden	ADJD	zufrieden	_	O	O	
+12-10	sind	VAFIN	sein	_	O	O	
+12-11	oder	KON	oder	_	O	O	
+12-12	nicht	PTKNEG	nicht	_	O	O	
+12-13	,	$,	,	_	O	O	
+12-14	rathe	ADJA	<unknown>	_	O	O	
+12-15	ich	PPER	ich	_	O	O	
+12-16	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-17	seine	PPOSAT	sein	_	O	O	
+12-18	Exemplare	NN	Exemplar	_	O	O	
+12-19	Tabula	NN	<unknown>	_	O	O	
+12-20	Baebiana	NE	<unknown>	_	O	O	
+12-21	dorthin	ADV	dorthin	_	O	O	
+12-22	zu	PTKZU	zu	_	O	O	
+12-23	geben	VVINF	geben	_	O	O	
+12-24	oder	KON	oder	_	O	O	
+12-25	mich	PRF	ich	_	O	O	
+12-26	weiter	ADV	weiter	_	O	O	
+12-27	suchen	VVINF	suchen	_	O	O	
+12-28	zu	PTKZU	zu	_	O	O	
+12-29	lassen	VVINF	lassen	_	O	O	
+12-30	;	$.	;	_	O	O	
+12-31	er	PPER	er	_	O	O	
+12-32	dünkt	VVFIN	dünken	_	O	O	
+12-33	mich	PRF	ich	_	O	O	
+12-34	apriori	ADJA	<unknown>	_	O	O	
+12-35	empfehlenswerth	NE	<unknown>	_	O	O	
+12-36	,	$,	,	_	O	O	
+12-37	weil	KOUS	weil	_	O	O	
+12-38	er	PPER	er	_	O	O	
+12-39	Zumpts	NN	<unknown>	_	O	O	
+12-40	Epigraphica	NE	<unknown>	_	O	O	
+12-41	verlegt	VVPP	verlegen	_	O	O	
+12-42	.	$.	.	_	O	O	
+
+#id=13
+#text=Von diesen werden eben erschienene Untersuchungen über die Augustales ge-
+13-1	Von	APPR	von	_	O	O	
+13-2	diesen	PDAT	dies	_	O	O	
+13-3	werden	VAFIN	werden	_	O	O	
+13-4	eben	ADV	eben	_	O	O	
+13-5	erschienene	ADJA	erschienen	_	O	O	
+13-6	Untersuchungen	NN	Untersuchung	_	O	O	
+13-7	über	APPR	über	_	O	O	
+13-8	die	ART	die	_	O	O	
+13-9	Augustales	NN	<unknown>	_	O	O	
+13-10	ge-	TRUNC	ge-	_	O	O	
+

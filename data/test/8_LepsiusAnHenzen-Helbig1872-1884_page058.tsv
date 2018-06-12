@@ -1,0 +1,253 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=3 Lepsius an Henzen Berlin, 20. Juli 1872 hinreichende Erfahrung aus früherer Zeit darüber besitzen.
+1-1	3	CARD	3	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	hinreichende	ADJA	hinreichend	_	O	O	
+1-12	Erfahrung	NN	Erfahrung	_	O	O	
+1-13	aus	APPR	aus	_	O	O	
+1-14	früherer	ADJA	früh	_	O	O	
+1-15	Zeit	NN	Zeit	_	O	O	
+1-16	darüber	PAV	darüber	_	O	O	
+1-17	besitzen	VVFIN	besitzen	_	O	O	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Endlich würde dies auch unsre Akademie nicht zugeben.
+2-1	Endlich	ADV	endlich	_	O	O	
+2-2	würde	VAFIN	werden	_	O	O	
+2-3	dies	PDS	dies	_	O	O	
+2-4	auch	ADV	auch	_	O	O	
+2-5	unsre	PPOSAT	unsre	_	O	O	
+2-6	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-7	nicht	PTKNEG	nicht	_	O	O	
+2-8	zugeben	VVINF	zugeben	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Dagegen würde es keinen Anstand haben die thatsächlichen V~theile mit den Süddeutschen, namentlich mit Bayern, zu theilen.
+3-1	Dagegen	PAV	dagegen	_	O	O	
+3-2	würde	VAFIN	werden	_	O	O	
+3-3	es	PPER	es	_	O	O	
+3-4	keinen	PIAT	keine	_	O	O	
+3-5	Anstand	NN	Anstand	_	O	O	
+3-6	haben	VAFIN	haben	_	O	O	
+3-7	die	ART	die	_	O	O	
+3-8	thatsächlichen	ADJA	<unknown>	_	O	O	
+3-9	V~theile	NN	<unknown>	_	O	O	
+3-10	mit	APPR	mit	_	O	O	
+3-11	den	ART	die	_	O	O	
+3-12	Süddeutschen	NN	Süddeutsche	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	namentlich	ADJD	namentlich	_	O	O	
+3-15	mit	APPR	mit	_	O	O	
+3-16	Bayern	NE	Bayern	_	O	O	
+3-17	,	$,	,	_	O	O	
+3-18	zu	PTKZU	zu	_	O	O	
+3-19	theilen	VVINF	<unknown>	_	O	O	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=Es würden neue Stipendien für Bayern und wenn es gewünscht wird, für Sachsen auf Reichskosten gegründet werden; es könnten Unternehmungen wie die Brunn'sche oder die von Matz für die Münchener Akademie und die Leipziger wissenschaftliche Gesellschaft ganz abgezweigt und zu ihrer Verfügung gestellt werden; es ließe sich auch üher einen Bayerschen Bibliothekar in Rom sprechen, u. a.
+4-1	Es	PPER	es	_	O	O	
+4-2	würden	VAFIN	werden	_	O	O	
+4-3	neue	ADJA	neu	_	O	O	
+4-4	Stipendien	NN	Stipendium	_	O	O	
+4-5	für	APPR	für	_	O	O	
+4-6	Bayern	NE	Bayern	_	O	O	
+4-7	und	KON	und	_	O	O	
+4-8	wenn	KOUS	wenn	_	O	O	
+4-9	es	PPER	es	_	O	O	
+4-10	gewünscht	VVPP	wünschen	_	O	O	
+4-11	wird	VAFIN	werden	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	für	APPR	für	_	O	O	
+4-14	Sachsen	NE	Sachsen	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-15	auf	APPR	auf	_	O	O	
+4-16	Reichskosten	NN	<unknown>	_	O	O	
+4-17	gegründet	VVPP	gründen	_	O	O	
+4-18	werden	VAFIN	werden	_	O	O	
+4-19	;	$.	;	_	O	O	
+4-20	es	PPER	es	_	O	O	
+4-21	könnten	VMFIN	können	_	O	O	
+4-22	Unternehmungen	NN	Unternehmung	_	O	O	
+4-23	wie	KOKOM	wie	_	O	O	
+4-24	die	ART	die	_	O	O	
+4-25	Brunn'sche	NN	<unknown>	_	O	O	
+4-26	oder	KON	oder	_	O	O	
+4-27	die	ART	die	_	O	O	
+4-28	von	APPR	von	_	O	O	
+4-29	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-30	für	APPR	für	_	O	O	
+4-31	die	ART	die	_	O	O	
+4-32	Münchener	ADJA	Münchener	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-33	Akademie	NN	Akademie	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+4-34	und	KON	und	_	O	O	
+4-35	die	ART	die	_	O	O	
+4-36	Leipziger	ADJA	Leipziger	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-37	wissenschaftliche	ADJA	wissenschaftlich	_	O	O	
+4-38	Gesellschaft	NN	Gesellschaft	_	O	O	
+4-39	ganz	ADV	ganz	_	O	O	
+4-40	abgezweigt	VVPP	abzweigen	_	O	O	
+4-41	und	KON	und	_	O	O	
+4-42	zu	APPR	zu	_	O	O	
+4-43	ihrer	PPOSAT	ihr	_	O	O	
+4-44	Verfügung	NN	Verfügung	_	O	O	
+4-45	gestellt	VVPP	stellen	_	O	O	
+4-46	werden	VAINF	werden	_	O	O	
+4-47	;	$.	;	_	O	O	
+4-48	es	PPER	es	_	O	O	
+4-49	ließe	VVFIN	lassen	_	O	O	
+4-50	sich	PRF	sich	_	O	O	
+4-51	auch	ADV	auch	_	O	O	
+4-52	üher	VVFIN	<unknown>	_	O	O	
+4-53	einen	ART	eine	_	O	O	
+4-54	Bayerschen	ADJA	<unknown>	_	O	O	
+4-55	Bibliothekar	NN	Bibliothekar	_	O	O	
+4-56	in	APPR	in	_	O	O	
+4-57	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-58	sprechen	VVINF	sprechen	_	O	O	
+4-59	,	$,	,	_	O	O	
+4-60	u.	APPR	um	_	O	O	
+4-61	a.	ADJA	a.	_	O	O	
+
+#id=5
+#text=Suchen Sie aber schon jetzt auf alle Weise die Idee zu entfernen, daß Bayern an der Central Direktion theilnehmen könne; diese muß in Berlin lokal bleiben, wenn nicht Streitigkeiten, Verschleppungen, Eifersüchteleien wesentliche Störung machen sollen; auch nicht Stimmen Auswärtiger wenn sie nach Berlin kommen können gewährt werden.
+5-1	Suchen	VVFIN	suchen	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	aber	ADV	aber	_	O	O	
+5-4	schon	ADV	schon	_	O	O	
+5-5	jetzt	ADV	jetzt	_	O	O	
+5-6	auf	APPR	auf	_	O	O	
+5-7	alle	PIAT	alle	_	O	O	
+5-8	Weise	NN	Weise	_	O	O	
+5-9	die	ART	die	_	O	O	
+5-10	Idee	NN	Idee	_	O	O	
+5-11	zu	PTKZU	zu	_	O	O	
+5-12	entfernen	VVINF	entfernen	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	daß	KOUS	dass	_	O	O	
+5-15	Bayern	NE	Bayern	_	O	O	
+5-16	an	APPR	an	_	O	O	
+5-17	der	ART	die	_	O	O	
+5-18	Central	NN	<unknown>	_	O	O	
+5-19	Direktion	NN	Direktion	_	O	O	
+5-20	theilnehmen	VVINF	<unknown>	_	O	O	
+5-21	könne	VMFIN	können	_	O	O	
+5-22	;	$.	;	_	O	O	
+5-23	diese	PDS	diese	_	O	O	
+5-24	muß	VMFIN	müssen	_	O	O	
+5-25	in	APPR	in	_	O	O	
+5-26	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-27	lokal	ADJD	lokal	_	O	O	
+5-28	bleiben	VVINF	bleiben	_	O	O	
+5-29	,	$,	,	_	O	O	
+5-30	wenn	KOUS	wenn	_	O	O	
+5-31	nicht	PTKNEG	nicht	_	O	O	
+5-32	Streitigkeiten	NN	Streitigkeit	_	O	O	
+5-33	,	$,	,	_	O	O	
+5-34	Verschleppungen	NN	Verschleppung	_	O	O	
+5-35	,	$,	,	_	O	O	
+5-36	Eifersüchteleien	NN	Eifersüchtelei	_	O	O	
+5-37	wesentliche	ADJA	wesentlich	_	O	O	
+5-38	Störung	NN	Störung	_	O	O	
+5-39	machen	VVINF	machen	_	O	O	
+5-40	sollen	VMFIN	sollen	_	O	O	
+5-41	;	$.	;	_	O	O	
+5-42	auch	ADV	auch	_	O	O	
+5-43	nicht	PTKNEG	nicht	_	O	O	
+5-44	Stimmen	NN	Stimme|Stimmen	_	O	O	
+5-45	Auswärtiger	NN	Auswärtige	_	O	O	
+5-46	wenn	KOUS	wenn	_	O	O	
+5-47	sie	PPER	sie	_	O	O	
+5-48	nach	APPR	nach	_	O	O	
+5-49	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-50	kommen	VVINF	kommen	_	O	O	
+5-51	können	VMINF	können	_	O	O	
+5-52	gewährt	VVPP	gewähren|währen	_	O	O	
+5-53	werden	VAFIN	werden	_	O	O	
+5-54	.	$.	.	_	O	O	
+
+#id=6
+#text=Es ist viel daran gelegen, daß gar nicht, wenn die Zeit kommt, der Vorschlag gemacht werde, da jedenfalls eine Zurückweisung erfolgen würde.
+6-1	Es	PPER	es	_	O	O	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	viel	ADV	viel	_	O	O	
+6-4	daran	PAV	daran	_	O	O	
+6-5	gelegen	VVPP	liegen	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	daß	KOUS	dass	_	O	O	
+6-8	gar	ADV	gar	_	O	O	
+6-9	nicht	PTKNEG	nicht	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	wenn	KOUS	wenn	_	O	O	
+6-12	die	ART	die	_	O	O	
+6-13	Zeit	NN	Zeit	_	O	O	
+6-14	kommt	VVFIN	kommen	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	der	ART	die	_	O	O	
+6-17	Vorschlag	NN	Vorschlag	_	O	O	
+6-18	gemacht	VVPP	machen	_	O	O	
+6-19	werde	VAFIN	werden	_	O	O	
+6-20	,	$,	,	_	O	O	
+6-21	da	KOUS	da	_	O	O	
+6-22	jedenfalls	ADV	jedenfalls	_	O	O	
+6-23	eine	ART	eine	_	O	O	
+6-24	Zurückweisung	NN	Zurückweisung	_	O	O	
+6-25	erfolgen	VVINF	erfolgen	_	O	O	
+6-26	würde	VAFIN	werden	_	O	O	
+6-27	.	$.	.	_	O	O	
+
+#id=7
+#text=Von den fünf vorzüglichen Bewerbern für die Stipendien entschied sich die Wahl für Hirschfeld und Kaibel aus Lübeck.
+7-1	Von	APPR	von	_	O	O	
+7-2	den	ART	die	_	O	O	
+7-3	fünf	CARD	fünf	_	O	O	
+7-4	vorzüglichen	ADJA	vorzüglich	_	O	O	
+7-5	Bewerbern	NN	Bewerber	_	O	O	
+7-6	für	APPR	für	_	O	O	
+7-7	die	ART	die	_	O	O	
+7-8	Stipendien	NN	Stipendium	_	O	O	
+7-9	entschied	VVFIN	entscheiden	_	O	O	
+7-10	sich	PRF	sich	_	O	O	
+7-11	die	ART	die	_	O	O	
+7-12	Wahl	NN	Wahl	_	O	O	
+7-13	für	APPR	für	_	O	O	
+7-14	Hirschfeld	NN	Hirschfeld	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-15	und	KON	und	_	O	O	
+7-16	Kaibel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-17	aus	APPR	aus	_	O	O	
+7-18	Lübeck	NE	Lübeck	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-19	.	$.	.	_	O	O	
+
+#id=8
+#text=Für Dr.
+8-1	Für	APPR	für	_	O	O	
+8-2	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=9
+#text=Belger, der ein ganz besonderes lumen zu sein scheint wird ausnahmsweise ein drittes Sti-
+9-1	Belger	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	,	$,	,	_	O	O	
+9-3	der	PRELS	die	_	O	O	
+9-4	ein	ART	eine	_	O	O	
+9-5	ganz	ADV	ganz	_	O	O	
+9-6	besonderes	ADJA	besonder	_	O	O	
+9-7	lumen	NN	<unknown>	_	O	O	
+9-8	zu	PTKZU	zu	_	O	O	
+9-9	sein	VAINF	sein	_	O	O	
+9-10	scheint	VVFIN	scheinen	_	O	O	
+9-11	wird	VAFIN	werden	_	O	O	
+9-12	ausnahmsweise	ADV	ausnahmsweise	_	O	O	
+9-13	ein	ART	eine	_	O	O	
+9-14	drittes	ADJA	dritt	_	O	O	
+9-15	Sti-	TRUNC	<unknown>	_	O	O	
+

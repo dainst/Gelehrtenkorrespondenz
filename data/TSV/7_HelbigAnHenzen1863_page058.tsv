@@ -1,0 +1,300 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=257 2 Helbig an Henzen Pompei, 14. Juni 1865 Sorrent, Capri zu machen.
+1-1	257	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	Pompei	VVFIN	<unknown>	_	O	O	
+1-7	,	$,	,	_	O	O	
+1-8	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1865	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Sorrent	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-13	,	$,	,	_	O	O	
+1-14	Capri	NE	Capri	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-15	zu	PTKZU	zu	_	O	O	
+1-16	machen	VVINF	machen	_	O	O	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text=Er denkt dann noch einige Tage in Neapel zuzubringen und wird schwerlich vor dem 5. Juli in Rom eintreffen.
+2-1	Er	PPER	er	_	O	O	
+2-2	denkt	VVFIN	denken	_	O	O	
+2-3	dann	ADV	dann	_	O	O	
+2-4	noch	ADV	noch	_	O	O	
+2-5	einige	PIAT	einige	_	O	O	
+2-6	Tage	NN	Tag	_	O	O	
+2-7	in	APPR	in	_	O	O	
+2-8	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-9	zuzubringen	VVIZU	zubringen	_	O	O	
+2-10	und	KON	und	_	O	O	
+2-11	wird	VAFIN	werden	_	O	O	
+2-12	schwerlich	ADJD	schwerlich	_	O	O	
+2-13	vor	APPR	vor	_	O	O	
+2-14	dem	ART	die	_	O	O	
+2-15	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-16	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-17	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-18	in	APPR	in	_	O	O	
+2-19	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-20	eintreffen	VVFIN	eintreffen	_	O	O	
+2-21	.	$.	.	_	O	O	
+
+#id=3
+#text=Was meine Arbeiten betrifft, so denke ich übermorgen in Pompei fertig zu sein.
+3-1	Was	PWS	was	_	O	O	
+3-2	meine	PPOSAT	mein	_	O	O	
+3-3	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+3-4	betrifft	VVFIN	betreffen	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	so	ADV	so	_	O	O	
+3-7	denke	VVFIN	denken	_	O	O	
+3-8	ich	PPER	ich	_	O	O	
+3-9	übermorgen	ADV	übermorgen	_	O	O	
+3-10	in	APPR	in	_	O	O	
+3-11	Pompei	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-12	fertig	ADJD	fertig	_	O	O	
+3-13	zu	PTKZU	zu	_	O	O	
+3-14	sein	VAINF	sein	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Die in Neapel befindlichen Bilder, soweit sie zugänglich sind, also die drei von Minervini geordneten Säle, habe ich ebenfalls absolvirt.
+4-1	Die	ART	die	_	O	O	
+4-2	in	APPR	in	_	O	O	
+4-3	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-4	befindlichen	ADJA	befindlich	_	O	O	
+4-5	Bilder	NN	Bild	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	soweit	KOUS	soweit	_	O	O	
+4-8	sie	PPER	sie	_	O	O	
+4-9	zugänglich	ADJD	zugänglich	_	O	O	
+4-10	sind	VAFIN	sein	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	also	ADV	also	_	O	O	
+4-13	die	ART	die	_	O	O	
+4-14	drei	CARD	drei	_	O	O	
+4-15	von	APPR	von	_	O	O	
+4-16	Minervini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-17	geordneten	ADJA	geordnet	_	O	O	
+4-18	Säle	NN	Saal	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	habe	VAFIN	haben	_	O	O	
+4-21	ich	PPER	ich	_	O	O	
+4-22	ebenfalls	ADV	ebenfalls	_	O	O	
+4-23	absolvirt	ADJD	<unknown>	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=Sehr bös sieht es dagegen mit der übrigen Masse, also etwa zwei Fünftel des gesammten Materials aus.
+5-1	Sehr	ADV	sehr	_	O	O	
+5-2	bös	ADJD	bös	_	O	O	
+5-3	sieht	VVFIN	sehen	_	O	O	
+5-4	es	PPER	es	_	O	O	
+5-5	dagegen	PAV	dagegen	_	O	O	
+5-6	mit	APPR	mit	_	O	O	
+5-7	der	ART	die	_	O	O	
+5-8	übrigen	ADJA	übrig	_	O	O	
+5-9	Masse	NN	Masse	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	also	ADV	also	_	O	O	
+5-12	etwa	ADV	etwa	_	O	O	
+5-13	zwei	CARD	zwei	_	O	O	
+5-14	Fünftel	NN	Fünftel	_	O	O	
+5-15	des	ART	die	_	O	O	
+5-16	gesammten	ADJA	<unknown>	_	O	O	
+5-17	Materials	NN	Material	_	O	O	
+5-18	aus	PTKVZ	aus	_	O	O	
+5-19	.	$.	.	_	O	O	
+
+#id=6
+#text=Dieses befindet sich gegenwärtig, da das Museum gegenwärtig neu geordnet wird, in den Magazinen und zwar liegen die Bilder schichtenweise übereinander.
+6-1	Dieses	PDS	diese	_	O	O	
+6-2	befindet	VVFIN	befinden	_	O	O	
+6-3	sich	PRF	sich	_	O	O	
+6-4	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	da	KOUS	da	_	O	O	
+6-7	das	ART	die	_	O	O	
+6-8	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-9	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+6-10	neu	ADJD	neu	_	O	O	
+6-11	geordnet	VVPP	ordnen	_	O	O	
+6-12	wird	VAFIN	werden	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	in	APPR	in	_	O	O	
+6-15	den	ART	die	_	O	O	
+6-16	Magazinen	NN	Magazin	_	O	O	
+6-17	und	KON	und	_	O	O	
+6-18	zwar	ADV	zwar	_	O	O	
+6-19	liegen	VVFIN	liegen	_	O	O	
+6-20	die	ART	die	_	O	O	
+6-21	Bilder	NN	Bild	_	O	O	
+6-22	schichtenweise	ADJD	schichtenweise	_	O	O	
+6-23	übereinander	PTKVZ	übereinander	_	O	O	
+6-24	.	$.	.	_	O	O	
+
+#id=7
+#text=Fiorelli sagte mir, daß wohl noch ein Jahr Vergehe~önnte, bis sie ausgestellt würden.
+7-1	Fiorelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	sagte	VVFIN	sagen	_	O	O	
+7-3	mir	PPER	ich	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	daß	KOUS	dass	_	O	O	
+7-6	wohl	ADV	wohl	_	O	O	
+7-7	noch	ADV	noch	_	O	O	
+7-8	ein	ART	eine	_	O	O	
+7-9	Jahr	NN	Jahr	_	O	O	
+7-10	Vergehe~önnte	NN	<unknown>	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	bis	KOUS	bis	_	O	O	
+7-13	sie	PPER	sie	_	O	O	
+7-14	ausgestellt	VVPP	ausstellen	_	O	O	
+7-15	würden	VAFIN	werden	_	O	O	
+7-16	.	$.	.	_	O	O	
+
+#id=8
+#text=Mir blieb demnach, um zu diesen Bildern zu gelangen, nichts Anderes übrig, als Fiorelli den Vorschlag zu machen, auf den er schon lange mit Sehnsucht gewartet zu haben scheint, nämlich die Bilder für ihn provisorisch zu ordnen.
+8-1	Mir	PPER	ich	_	O	O	
+8-2	blieb	VVFIN	bleiben	_	O	O	
+8-3	demnach	PAV	demnach	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	um	KOUI	um	_	O	O	
+8-6	zu	APPR	zu	_	O	O	
+8-7	diesen	PDAT	dies	_	O	O	
+8-8	Bildern	NN	Bild	_	O	O	
+8-9	zu	PTKZU	zu	_	O	O	
+8-10	gelangen	VVINF	gelangen	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	nichts	PIAT	nichts	_	O	O	
+8-13	Anderes	PIS	andere	_	O	O	
+8-14	übrig	ADJD	übrig	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	als	KOUS	als	_	O	O	
+8-17	Fiorelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-18	den	ART	die	_	O	O	
+8-19	Vorschlag	NN	Vorschlag	_	O	O	
+8-20	zu	PTKZU	zu	_	O	O	
+8-21	machen	VVINF	machen	_	O	O	
+8-22	,	$,	,	_	O	O	
+8-23	auf	APPR	auf	_	O	O	
+8-24	den	PRELS	die	_	O	O	
+8-25	er	PPER	er	_	O	O	
+8-26	schon	ADV	schon	_	O	O	
+8-27	lange	ADV	lange	_	O	O	
+8-28	mit	APPR	mit	_	O	O	
+8-29	Sehnsucht	NN	Sehnsucht	_	O	O	
+8-30	gewartet	VVPP	warten	_	O	O	
+8-31	zu	PTKZU	zu	_	O	O	
+8-32	haben	VAINF	haben	_	O	O	
+8-33	scheint	VVFIN	scheinen	_	O	O	
+8-34	,	$,	,	_	O	O	
+8-35	nämlich	ADV	nämlich	_	O	O	
+8-36	die	ART	die	_	O	O	
+8-37	Bilder	NN	Bild	_	O	O	
+8-38	für	APPR	für	_	O	O	
+8-39	ihn	PPER	er	_	O	O	
+8-40	provisorisch	ADJD	provisorisch	_	O	O	
+8-41	zu	PTKZU	zu	_	O	O	
+8-42	ordnen	VVINF	ordnen	_	O	O	
+8-43	.	$.	.	_	O	O	
+
+#id=9
+#text=Der durch diese Manipulation herbeigeführte Zeitaufwand würde ein plus von 14 Tagen betragen.
+9-1	Der	ART	die	_	O	O	
+9-2	durch	APPR	durch	_	O	O	
+9-3	diese	PDAT	dies	_	O	O	
+9-4	Manipulation	NN	Manipulation	_	O	O	
+9-5	herbeigeführte	ADJA	herbeigeführt	_	O	O	
+9-6	Zeitaufwand	NN	Zeitaufwand	_	O	O	
+9-7	würde	VAFIN	werden	_	O	O	
+9-8	ein	ART	eine	_	O	O	
+9-9	plus	ADV	plus	_	O	O	
+9-10	von	APPR	von	_	O	O	
+9-11	14	CARD	14	_	O	O	
+9-12	Tagen	NN	Tag	_	O	O	
+9-13	betragen	VVPP	betragen	_	O	O	
+9-14	.	$.	.	_	O	O	
+
+#id=10
+#text=Es fragt sich nunmehr, was Sie dazu meinen.
+10-1	Es	PPER	es	_	O	O	
+10-2	fragt	VVFIN	fragen	_	O	O	
+10-3	sich	PRF	sich	_	O	O	
+10-4	nunmehr	ADV	nunmehr	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	was	PRELS	was	_	O	O	
+10-7	Sie	PPER	Sie	_	O	O	
+10-8	dazu	PAV	dazu	_	O	O	
+10-9	meinen	VVFIN	meinen	_	O	O	
+10-10	.	$.	.	_	O	O	
+
+#id=11
+#text=Soll ich, wie verabredet war, Anfang Juli nach Rom zurückkehren und später noch einmal, um den Rest zu absolviren, etwa Ende September oder Anfang October, nach Neapel gehen?
+11-1	Soll	VMFIN	sollen	_	O	O	
+11-2	ich	PPER	ich	_	O	O	
+11-3	,	$,	,	_	O	O	
+11-4	wie	KOKOM	wie	_	O	O	
+11-5	verabredet	VVPP	verabreden	_	O	O	
+11-6	war	VAFIN	sein	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	Anfang	NN	Anfang	_	O	O	
+11-9	Juli	NN	Juli	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+11-10	nach	APPR	nach	_	O	O	
+11-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-12	zurückkehren	VVINF	zurückkehren	_	O	O	
+11-13	und	KON	und	_	O	O	
+11-14	später	ADJD	spät	_	O	O	
+11-15	noch	ADV	noch	_	O	O	
+11-16	einmal	ADV	einmal	_	O	O	
+11-17	,	$,	,	_	O	O	
+11-18	um	KOUI	um	_	O	O	
+11-19	den	ART	die	_	O	O	
+11-20	Rest	NN	Rest	_	O	O	
+11-21	zu	APPR	zu	_	O	O	
+11-22	absolviren	ADJA	<unknown>	_	O	O	
+11-23	,	$,	,	_	O	O	
+11-24	etwa	ADV	etwa	_	O	O	
+11-25	Ende	NN	Ende	_	O	O	
+11-26	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+11-27	oder	KON	oder	_	O	O	
+11-28	Anfang	NN	Anfang	_	O	O	
+11-29	October	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+11-30	,	$,	,	_	O	O	
+11-31	nach	APPR	nach	_	O	O	
+11-32	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-33	gehen	VVFIN	gehen	_	O	O	
+11-34	?	$.	?	_	O	O	
+
+#id=12
+#text=Oder soll ich vierzehn Tage länger in Neapel bleiben?
+12-1	Oder	KON	oder	_	O	O	
+12-2	soll	VMFIN	sollen	_	O	O	
+12-3	ich	PPER	ich	_	O	O	
+12-4	vierzehn	CARD	vierzehn	_	O	O	
+12-5	Tage	NN	Tag	_	O	O	
+12-6	länger	ADJD	lang	_	O	O	
+12-7	in	APPR	in	_	O	O	
+12-8	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-9	bleiben	VVINF	bleiben	_	O	O	
+12-10	?	$.	?	_	O	O	
+
+#id=13
+#text=Es thut mir sehr leid, daß ich meine Charge sofort mit einer
+13-1	Es	PPER	es	_	O	O	
+13-2	thut	VVFIN	<unknown>	_	O	O	
+13-3	mir	PPER	ich	_	O	O	
+13-4	sehr	ADV	sehr	_	O	O	
+13-5	leid	ADJD	leid	_	O	O	
+13-6	,	$,	,	_	O	O	
+13-7	daß	KOUS	dass	_	O	O	
+13-8	ich	PPER	ich	_	O	O	
+13-9	meine	PPOSAT	mein	_	O	O	
+13-10	Charge	NN	Charge	_	O	O	
+13-11	sofort	ADV	sofort	_	O	O	
+13-12	mit	APPR	mit	_	O	O	
+13-13	einer	ART	eine	_	O	O	
+

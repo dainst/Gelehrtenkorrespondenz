@@ -1,0 +1,245 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=465 Helbig an Henzen Athen, 10. Oktober 1874 H g. 16/X 74 Athen, den 10. Oct.
+1-1	465	CARD	@card@	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	H	NN	H	_	O	O	
+1-12	g.	ADJA	<unknown>	_	O	O	
+1-13	16/X	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-16	,	$,	,	_	O	O	
+1-17	den	ART	die	_	O	O	
+1-18	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-20	Oct	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-21	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=2
+#text=1874 Lieber Herr Professor Auch heute nur wenige Zeilen, da ich alle schwebenden Fragen doch am Besten mündlich mit Ihnen bespreche.
+2-1	1874	CARD	@card@	_	O	O	
+2-2	Lieber	ADJA	lieb	_	O	O	
+2-3	Herr	NN	Herr	_	O	O	
+2-4	Professor	NN	Professor	_	O	O	
+2-5	Auch	ADV	auch	_	O	O	
+2-6	heute	ADV	heute	_	O	O	
+2-7	nur	ADV	nur	_	O	O	
+2-8	wenige	PIAT	wenige	_	O	O	
+2-9	Zeilen	NN	Zeile	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	da	KOUS	da	_	O	O	
+2-12	ich	PPER	ich	_	O	O	
+2-13	alle	PIAT	alle	_	O	O	
+2-14	schwebenden	ADJA	schwebend	_	O	O	
+2-15	Fragen	NN	Frage	_	O	O	
+2-16	doch	ADV	doch	_	O	O	
+2-17	am	APPRART	an	_	O	O	
+2-18	Besten	NN	Beste	_	O	O	
+2-19	mündlich	ADJD	mündlich	_	O	O	
+2-20	mit	APPR	mit	_	O	O	
+2-21	Ihnen	PPER	Sie	_	O	O	
+2-22	bespreche	VVFIN	besprechen	_	O	O	
+2-23	.	$.	.	_	O	O	
+
+#id=3
+#text=1) Chiusiner Artikel: il muro piu lungo misura m. 3,70, il muro piu corto 3,50, wie mein Notizbuch besagt, das ich glücklicher Weise bei mir habe.
+3-1	1	CARD	1	_	O	O	
+3-2	)	$(	)	_	O	O	
+3-3	Chiusiner	ADJA	<unknown>	_	O	O	
+3-4	Artikel	NN	Artikel	_	O	O	
+3-5	:	$.	:	_	O	O	
+3-6	il	NE	il	_	O	O	
+3-7	muro	NE	<unknown>	_	O	O	
+3-8	piu	NE	Piu	_	O	O	
+3-9	lungo	NE	<unknown>	_	O	O	
+3-10	misura	NE	<unknown>	_	O	O	
+3-11	m.	APPR	m.	_	O	O	
+3-12	3,70	CARD	@card@	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	il	FM	il	_	O	O	
+3-15	muro	NN	<unknown>	_	O	O	
+3-16	piu	NE	Piu	_	O	O	
+3-17	corto	NN	<unknown>	_	O	O	
+3-18	3,50	CARD	@card@	_	O	O	
+3-19	,	$,	,	_	O	O	
+3-20	wie	KOUS	wie	_	O	O	
+3-21	mein	PPOSAT	mein	_	O	O	
+3-22	Notizbuch	NN	Notizbuch	_	O	O	
+3-23	besagt	VVFIN	besagen	_	O	O	
+3-24	,	$,	,	_	O	O	
+3-25	das	PRELS	die	_	O	O	
+3-26	ich	PPER	ich	_	O	O	
+3-27	glücklicher	ADJA	glücklich	_	O	O	
+3-28	Weise	NN	Weise	_	O	O	
+3-29	bei	APPR	bei	_	O	O	
+3-30	mir	PPER	ich	_	O	O	
+3-31	habe	VAFIN	haben	_	O	O	
+3-32	.	$.	.	_	O	O	
+
+#id=4
+#text=2) Schliemann, mit dem ich mich gut gestellt, wird voraussichtlich um den 20. October in Rom eintreffen.
+4-1	2	CARD	2	_	O	O	
+4-2	)	$(	)	_	O	O	
+4-3	Schliemann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-4	,	$,	,	_	O	O	
+4-5	mit	APPR	mit	_	O	O	
+4-6	dem	PRELS	die	_	O	O	
+4-7	ich	PPER	ich	_	O	O	
+4-8	mich	PRF	ich	_	O	O	
+4-9	gut	ADJD	gut	_	O	O	
+4-10	gestellt	VVPP	stellen	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	wird	VAFIN	werden	_	O	O	
+4-13	voraussichtlich	ADJD	voraussichtlich	_	O	O	
+4-14	um	APPR	um	_	O	O	
+4-15	den	ART	die	_	O	O	
+4-16	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-18	October	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-19	in	APPR	in	_	O	O	
+4-20	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-21	eintreffen	VVFIN	eintreffen	_	O	O	
+4-22	.	$.	.	_	O	O	
+
+#id=5
+#text=Er will in Italien kolossale Ausgrabungen unternehmen.
+5-1	Er	PPER	er	_	O	O	
+5-2	will	VMFIN	wollen	_	O	O	
+5-3	in	APPR	in	_	O	O	
+5-4	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-5	kolossale	ADJA	kolossal	_	O	O	
+5-6	Ausgrabungen	NN	Ausgrabung	_	O	O	
+5-7	unternehmen	VVINF	unternehmen	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich brauche wohl kaum darum zu bitten, daß Sie ihn freundlich aufnehmen und seine Susceptibilitäten schonen.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	brauche	VVFIN	brauchen	_	O	O	
+6-3	wohl	ADV	wohl	_	O	O	
+6-4	kaum	ADV	kaum	_	O	O	
+6-5	darum	PAV	darum	_	O	O	
+6-6	zu	PTKZU	zu	_	O	O	
+6-7	bitten	VVINF	bitten	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	daß	KOUS	dass	_	O	O	
+6-10	Sie	PPER	Sie	_	O	O	
+6-11	ihn	PPER	er	_	O	O	
+6-12	freundlich	ADJD	freundlich	_	O	O	
+6-13	aufnehmen	VVINF	aufnehmen	_	O	O	
+6-14	und	KON	und	_	O	O	
+6-15	seine	PPOSAT	sein	_	O	O	
+6-16	Susceptibilitäten	NN	<unknown>	_	O	O	
+6-17	schonen	VVFIN	schonen	_	O	O	
+6-18	.	$.	.	_	O	O	
+
+#id=7
+#text=Er kann unendlich nützlich werden.
+7-1	Er	PPER	er	_	O	O	
+7-2	kann	VMFIN	können	_	O	O	
+7-3	unendlich	ADJD	unendlich	_	O	O	
+7-4	nützlich	ADJD	nützlich	_	O	O	
+7-5	werden	VAINF	werden	_	O	O	
+7-6	.	$.	.	_	O	O	
+
+#id=8
+#text=3) Lüders wünscht sehr, daß ich, der ich mich über die hiesige Situation orientirt, der Centraldirection gegenüber über dieselbe auslasse.
+8-1	3	CARD	3	_	O	O	
+8-2	)	$(	)	_	O	O	
+8-3	Lüders	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-4	wünscht	VVFIN	wünschen	_	O	O	
+8-5	sehr	ADV	sehr	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	daß	KOUS	dass	_	O	O	
+8-8	ich	PPER	ich	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	der	PRELS	die	_	O	O	
+8-11	ich	PPER	ich	_	O	O	
+8-12	mich	PRF	ich	_	O	O	
+8-13	über	APPR	über	_	O	O	
+8-14	die	ART	die	_	O	O	
+8-15	hiesige	ADJA	hiesig	_	O	O	
+8-16	Situation	NN	Situation	_	O	O	
+8-17	orientirt	NN	<unknown>	_	O	O	
+8-18	,	$,	,	_	O	O	
+8-19	der	ART	die	_	O	O	
+8-20	Centraldirection	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-21	gegenüber	APPR	gegenüber	_	O	O	
+8-22	über	APPR	über	_	O	O	
+8-23	dieselbe	PDS	dieselbe	_	O	O	
+8-24	auslasse	VVFIN	auslassen	_	O	O	
+8-25	.	$.	.	_	O	O	
+
+#id=9
+#text=Von selbst kann ich dies nicht thun, ohne aufdringlich zu erscheinen.
+9-1	Von	APPR	von	_	O	O	
+9-2	selbst	ADV	selbst	_	O	O	
+9-3	kann	VMFIN	können	_	O	O	
+9-4	ich	PPER	ich	_	O	O	
+9-5	dies	PDS	dies	_	O	O	
+9-6	nicht	PTKNEG	nicht	_	O	O	
+9-7	thun	NN	<unknown>	_	O	O	
+9-8	,	$,	,	_	O	O	
+9-9	ohne	KOUI	ohne	_	O	O	
+9-10	aufdringlich	ADJD	aufdringlich	_	O	O	
+9-11	zu	PTKZU	zu	_	O	O	
+9-12	erscheinen	VVINF	erscheinen	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=Werde ich dagegen dazu aufgefordert, so thue ich es ganz gern.
+10-1	Werde	VAFIN	werden	_	O	O	
+10-2	ich	PPER	ich	_	O	O	
+10-3	dagegen	PAV	dagegen	_	O	O	
+10-4	dazu	PAV	dazu	_	O	O	
+10-5	aufgefordert	VVPP	auffordern	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	so	ADV	so	_	O	O	
+10-8	thue	VVFIN	<unknown>	_	O	O	
+10-9	ich	PPER	ich	_	O	O	
+10-10	es	PPER	es	_	O	O	
+10-11	ganz	ADV	ganz	_	O	O	
+10-12	gern	ADV	gern	_	O	O	
+10-13	.	$.	.	_	O	O	
+
+#id=11
+#text=Könnten Sie bei der CD eine Aufforderung in diesem Sinne vermitteln, so würde Ihnen 1üders sehr dankbar sein.
+11-1	Könnten	VMFIN	können	_	O	O	
+11-2	Sie	PPER	Sie	_	O	O	
+11-3	bei	APPR	bei	_	O	O	
+11-4	der	ART	die	_	O	O	
+11-5	CD	NN	CD	_	O	O	
+11-6	eine	ART	eine	_	O	O	
+11-7	Aufforderung	NN	Aufforderung	_	O	O	
+11-8	in	APPR	in	_	O	O	
+11-9	diesem	PDAT	dies	_	O	O	
+11-10	Sinne	NN	Sinn	_	O	O	
+11-11	vermitteln	VVINF	vermitteln	_	O	O	
+11-12	,	$,	,	_	O	O	
+11-13	so	ADV	so	_	O	O	
+11-14	würde	VAFIN	werden	_	O	O	
+11-15	Ihnen	PPER	Sie	_	O	O	
+11-16	1üders	NN	<unknown>	_	O	O	
+11-17	sehr	ADV	sehr	_	O	O	
+11-18	dankbar	ADJD	dankbar	_	O	O	
+11-19	sein	VAINF	sein	_	O	O	
+11-20	.	$.	.	_	O	O	
+
+#id=12
+#text=In Eile mir herzlichen Grüßen Ihr Helbig
+12-1	In	APPR	in	_	O	O	
+12-2	Eile	NN	Eile	_	O	O	
+12-3	mir	PPER	ich	_	O	O	
+12-4	herzlichen	ADJA	herzlich	_	O	O	
+12-5	Grüßen	NN	Gruß|Grüßen	_	O	O	
+12-6	Ihr	PPOSAT	ihr	_	O	O	
+12-7	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

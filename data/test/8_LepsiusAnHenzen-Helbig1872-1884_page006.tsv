@@ -1,0 +1,264 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=(.
+1-1	(	$(	(	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=( 49 4 Lepsius an K~~ Berlin, 30. Januar 1872 vom Standpunkte des Museums aus aufgefaßt hatte.
+2-1	(	$(	(	_	O	O	
+2-2	49	CARD	@card@	_	O	O	
+2-3	4	CARD	4	_	O	O	
+2-4	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-5	an	APPR	an	_	O	O	
+2-6	K~~	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-8	,	$,	,	_	O	O	
+2-9	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-13	vom	APPRART	von	_	O	O	
+2-14	Standpunkte	NN	Standpunkt	_	O	O	
+2-15	des	ART	die	_	O	O	
+2-16	Museums	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-17	aus	APZR	aus	_	O	O	
+2-18	aufgefaßt	VVPP	auffassen	_	O	O	
+2-19	hatte	VAFIN	haben	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Meine Privatmeinung ist nun allerdings die, daß, wenn Aussicht ist daß etwas daraus werde, eine Verbindung mit Rom eintreten müsse, worüber Curtius noch schwankt.
+3-1	Meine	PPOSAT	mein	_	O	O	
+3-2	Privatmeinung	NN	Privatmeinung	_	O	O	
+3-3	ist	VAFIN	sein	_	O	O	
+3-4	nun	ADV	nun	_	O	O	
+3-5	allerdings	ADV	allerdings	_	O	O	
+3-6	die	PDS	die	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	daß	KOUS	dass	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	wenn	KOUS	wenn	_	O	O	
+3-11	Aussicht	NN	Aussicht	_	O	O	
+3-12	ist	VAFIN	sein	_	O	O	
+3-13	daß	KOUS	dass	_	O	O	
+3-14	etwas	PIS	etwas	_	O	O	
+3-15	daraus	PAV	daraus	_	O	O	
+3-16	werde	VAFIN	werden	_	O	O	
+3-17	,	$,	,	_	O	O	
+3-18	eine	ART	eine	_	O	O	
+3-19	Verbindung	NN	Verbindung	_	O	O	
+3-20	mit	APPR	mit	_	O	O	
+3-21	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-22	eintreten	VVINF	eintreten	_	O	O	
+3-23	müsse	VMFIN	müssen	_	O	O	
+3-24	,	$,	,	_	O	O	
+3-25	worüber	PWAV	worüber	_	O	O	
+3-26	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-27	noch	ADV	noch	_	O	O	
+3-28	schwankt	VVFIN	schwanken	_	O	O	
+3-29	.	$.	.	_	O	O	
+
+#id=4
+#text=Man müßte überhaupt dort klein anfangen, eine Wohnung mi ethen , in der sich ein Stellvertreter unsrer Interessen festsetzte, an den die Stipendiaten gewiesen würden, und dem eine Summe überwiesen würde für kleine Ankäufe und sonstige gelehrte und antiquarische Thätigkeit.
+4-1	Man	PIS	man	_	O	O	
+4-2	müßte	VMFIN	müssen	_	O	O	
+4-3	überhaupt	ADV	überhaupt	_	O	O	
+4-4	dort	ADV	dort	_	O	O	
+4-5	klein	ADJD	klein	_	O	O	
+4-6	anfangen	VVINF	anfangen	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	eine	ART	eine	_	O	O	
+4-9	Wohnung	NN	Wohnung	_	O	O	
+4-10	mi	ADJA	<unknown>	_	O	O	
+4-11	ethen	NN	<unknown>	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	in	APPR	in	_	O	O	
+4-14	der	PRELS	die	_	O	O	
+4-15	sich	PRF	sich	_	O	O	
+4-16	ein	ART	eine	_	O	O	
+4-17	Stellvertreter	NN	Stellvertreter	_	O	O	
+4-18	unsrer	PPOSAT	unser	_	O	O	
+4-19	Interessen	NN	Interesse	_	O	O	
+4-20	festsetzte	VVFIN	festsetzen	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	an	APPR	an	_	O	O	
+4-23	den	PRELS	die	_	O	O	
+4-24	die	ART	die	_	O	O	
+4-25	Stipendiaten	NN	Stipendiat	_	O	O	
+4-26	gewiesen	VVPP	weisen	_	O	O	
+4-27	würden	VAFIN	werden	_	O	O	
+4-28	,	$,	,	_	O	O	
+4-29	und	KON	und	_	O	O	
+4-30	dem	PRELS	die	_	O	O	
+4-31	eine	ART	eine	_	O	O	
+4-32	Summe	NN	Summe	_	O	O	
+4-33	überwiesen	VVPP	überweisen	_	O	O	
+4-34	würde	VAFIN	werden	_	O	O	
+4-35	für	APPR	für	_	O	O	
+4-36	kleine	ADJA	klein	_	O	O	
+4-37	Ankäufe	NN	Ankauf	_	O	O	
+4-38	und	KON	und	_	O	O	
+4-39	sonstige	ADJA	sonstig	_	O	O	
+4-40	gelehrte	ADJA	gelehrt	_	O	O	
+4-41	und	KON	und	_	O	O	
+4-42	antiquarische	ADJA	antiquarisch	_	O	O	
+4-43	Thätigkeit	NN	<unknown>	_	O	O	
+4-44	.	$.	.	_	O	O	
+
+#id=5
+#text=Aufsätze und Material, könnte zunächst Ihnen zur Publikation zugehen.
+5-1	Aufsätze	NN	Aufsatz	_	O	O	
+5-2	und	KON	und	_	O	O	
+5-3	Material	NN	Material	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	könnte	VMFIN	können	_	O	O	
+5-6	zunächst	ADV	zunächst	_	O	O	
+5-7	Ihnen	PPER	Sie	_	O	O	
+5-8	zur	APPRART	zu	_	O	O	
+5-9	Publikation	NN	Publikation	_	O	O	
+5-10	zugehen	VVINF	zugehen	_	O	O	
+5-11	.	$.	.	_	O	O	
+
+#id=6
+#text=Aber wie gesagt, es schwebt bis jetzt Alles noch vollständig in der Luft und ist zu irgend einer näheren Besprechung, noch nicht reif.
+6-1	Aber	KON	aber	_	O	O	
+6-2	wie	KOKOM	wie	_	O	O	
+6-3	gesagt	VVPP	sagen	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	es	PPER	es	_	O	O	
+6-6	schwebt	VVFIN	schweben	_	O	O	
+6-7	bis	KON	bis	_	O	O	
+6-8	jetzt	ADV	jetzt	_	O	O	
+6-9	Alles	PIS	alle	_	O	O	
+6-10	noch	ADV	noch	_	O	O	
+6-11	vollständig	ADJD	vollständig	_	O	O	
+6-12	in	APPR	in	_	O	O	
+6-13	der	ART	die	_	O	O	
+6-14	Luft	NN	Luft	_	O	O	
+6-15	und	KON	und	_	O	O	
+6-16	ist	VAFIN	sein	_	O	O	
+6-17	zu	PTKA	zu	_	O	O	
+6-18	irgend	ADV	irgend	_	O	O	
+6-19	einer	ART	eine	_	O	O	
+6-20	näheren	ADJA	nah	_	O	O	
+6-21	Besprechung	NN	Besprechung	_	O	O	
+6-22	,	$,	,	_	O	O	
+6-23	noch	ADV	noch	_	O	O	
+6-24	nicht	PTKNEG	nicht	_	O	O	
+6-25	reif	ADJD	reif	_	O	O	
+6-26	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich glaube voraussetzen zu dürfen, daß Sie mit jeder derartigen Erweiterung des Arbeitsfeldes sehr einverstanden sein werden.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	glaube	VVFIN	glauben	_	O	O	
+7-3	voraussetzen	VVINF	voraussetzen	_	O	O	
+7-4	zu	PTKZU	zu	_	O	O	
+7-5	dürfen	VMINF	dürfen	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	daß	KOUS	dass	_	O	O	
+7-8	Sie	PPER	Sie	_	O	O	
+7-9	mit	APPR	mit	_	O	O	
+7-10	jeder	PIAT	jede	_	O	O	
+7-11	derartigen	ADJA	derartig	_	O	O	
+7-12	Erweiterung	NN	Erweiterung	_	O	O	
+7-13	des	ART	die	_	O	O	
+7-14	Arbeitsfeldes	NN	Arbeitsfeld	_	O	O	
+7-15	sehr	ADV	sehr	_	O	O	
+7-16	einverstanden	VVPP	einverstehen	_	O	O	
+7-17	sein	VAINF	sein	_	O	O	
+7-18	werden	VAFIN	werden	_	O	O	
+7-19	.	$.	.	_	O	O	
+
+#id=8
+#text=Für Engelmann ist wenig Hoffnung da; doch kann ich noch nichts Offizielles schreiben.
+8-1	Für	APPR	für	_	O	O	
+8-2	Engelmann	NE	Engelmann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	ist	VAFIN	sein	_	O	O	
+8-4	wenig	PIAT	wenige	_	O	O	
+8-5	Hoffnung	NN	Hoffnung	_	O	O	
+8-6	da	PTKVZ	da	_	O	O	
+8-7	;	$.	;	_	O	O	
+8-8	doch	ADV	doch	_	O	O	
+8-9	kann	VMFIN	können	_	O	O	
+8-10	ich	PPER	ich	_	O	O	
+8-11	noch	ADV	noch	_	O	O	
+8-12	nichts	PIAT	nichts	_	O	O	
+8-13	Offizielles	NN	Offizielle	_	O	O	
+8-14	schreiben	VVINF	schreiben	_	O	O	
+8-15	.	$.	.	_	O	O	
+
+#id=9
+#text=Mir persönlich würde es bedenklich scheinen für Engelmann zu verlangen, was uns für Trend.
+9-1	Mir	PPER	ich	_	O	O	
+9-2	persönlich	ADJD	persönlich	_	O	O	
+9-3	würde	VAFIN	werden	_	O	O	
+9-4	es	PPER	es	_	O	O	
+9-5	bedenklich	ADJD	bedenklich	_	O	O	
+9-6	scheinen	VVFIN	scheinen	_	O	O	
+9-7	für	APPR	für	_	O	O	
+9-8	Engelmann	NE	Engelmann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-9	zu	PTKZU	zu	_	O	O	
+9-10	verlangen	VVINF	verlangen	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	was	PRELS	was	_	O	O	
+9-13	uns	PRF	wir	_	O	O	
+9-14	für	APPR	für	_	O	O	
+9-15	Trend	NN	Trend	_	O	O	
+9-16	.	$.	.	_	O	O	
+
+#id=10
+#text=abgeschlagen wurde, aber auch uns an seiner Person ein so weitschichtiges kostbares Unternehmen irgendwie zu binden.
+10-1	abgeschlagen	VVPP	abschlagen	_	O	O	
+10-2	wurde	VAFIN	werden	_	O	O	
+10-3	,	$,	,	_	O	O	
+10-4	aber	KON	aber	_	O	O	
+10-5	auch	ADV	auch	_	O	O	
+10-6	uns	PPER	wir	_	O	O	
+10-7	an	APPR	an	_	O	O	
+10-8	seiner	PPOSAT	sein	_	O	O	
+10-9	Person	NN	Person	_	O	O	
+10-10	ein	ART	eine	_	O	O	
+10-11	so	ADV	so	_	O	O	
+10-12	weitschichtiges	ADJA	<unknown>	_	O	O	
+10-13	kostbares	ADJA	kostbar	_	O	O	
+10-14	Unternehmen	NN	Unternehmen	_	O	O	
+10-15	irgendwie	ADV	irgendwie	_	O	O	
+10-16	zu	PTKZU	zu	_	O	O	
+10-17	binden	VVINF	binden	_	O	O	
+10-18	.	$.	.	_	O	O	
+
+#id=11
+#text=Schon seine Eingabe spricht nicht sehr für ihn; er sollte seine übrige Zeit lieber noch fleißig anwenden vielseitige klassische Anschauungen zu sammeln für seine Lehrthätigkeit an der Schule.
+11-1	Schon	ADV	schon	_	O	O	
+11-2	seine	PPOSAT	sein	_	O	O	
+11-3	Eingabe	NN	Eingabe	_	O	O	
+11-4	spricht	VVFIN	sprechen	_	O	O	
+11-5	nicht	PTKNEG	nicht	_	O	O	
+11-6	sehr	ADV	sehr	_	O	O	
+11-7	für	APPR	für	_	O	O	
+11-8	ihn	PPER	er	_	O	O	
+11-9	;	$.	;	_	O	O	
+11-10	er	PPER	er	_	O	O	
+11-11	sollte	VMFIN	sollen	_	O	O	
+11-12	seine	PPOSAT	sein	_	O	O	
+11-13	übrige	ADJA	übrig	_	O	O	
+11-14	Zeit	NN	Zeit	_	O	O	
+11-15	lieber	ADJD	lieb	_	O	O	
+11-16	noch	ADV	noch	_	O	O	
+11-17	fleißig	ADJD	fleißig	_	O	O	
+11-18	anwenden	VVFIN	anwenden	_	O	O	
+11-19	vielseitige	ADJA	vielseitig	_	O	O	
+11-20	klassische	ADJA	klassisch	_	O	O	
+11-21	Anschauungen	NN	Anschauung	_	O	O	
+11-22	zu	PTKZU	zu	_	O	O	
+11-23	sammeln	VVINF	sammeln	_	O	O	
+11-24	für	APPR	für	_	O	O	
+11-25	seine	PPOSAT	sein	_	O	O	
+11-26	Lehrthätigkeit	NN	<unknown>	_	O	O	
+11-27	an	APPR	an	_	O	O	
+11-28	der	ART	die	_	O	O	
+11-29	Schule	NN	Schule	_	O	O	
+11-30	.	$.	.	_	O	O	
+

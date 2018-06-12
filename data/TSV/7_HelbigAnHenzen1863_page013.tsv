@@ -1,0 +1,237 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=( ') 3 Helbig an das Institut Neapel, 12. Mai 1864 halten.
+1-1	(	$(	(	_	O	O	
+1-2	'	$(	'	_	O	O	
+1-3	)	$(	)	_	O	O	
+1-4	3	CARD	3	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	das	ART	die	_	O	O	
+1-8	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-9	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	halten	VVINF	halten	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Gerhard hat alle meine letzten Briefe unbeantwortet gelassen.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	hat	VAFIN	haben	_	O	O	
+2-3	alle	PIS	alle	_	O	O	
+2-4	meine	PPOSAT	mein	_	O	O	
+2-5	letzten	ADJA	letzt	_	O	O	
+2-6	Briefe	NN	Brief	_	O	O	
+2-7	unbeantwortet	ADJD	unbeantwortet	_	O	O	
+2-8	gelassen	VVPP	lassen	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Vielleicht hat er mir einen Passus über die Mysteriensuch~F in den alten Kunstwerken in meinem letzten Aufsatze übel genommen.
+3-1	Vielleicht	ADV	vielleicht	_	O	O	
+3-2	hat	VAFIN	haben	_	O	O	
+3-3	er	PPER	er	_	O	O	
+3-4	mir	PRF	ich	_	O	O	
+3-5	einen	ART	eine	_	O	O	
+3-6	Passus	NN	Passus	_	O	O	
+3-7	über	APPR	über	_	O	O	
+3-8	die	ART	die	_	O	O	
+3-9	Mysteriensuch~F	NN	<unknown>	_	O	O	
+3-10	in	APPR	in	_	O	O	
+3-11	den	ART	die	_	O	O	
+3-12	alten	ADJA	alt	_	O	O	
+3-13	Kunstwerken	NN	Kunstwerk	_	O	O	
+3-14	in	APPR	in	_	O	O	
+3-15	meinem	PPOSAT	mein	_	O	O	
+3-16	letzten	ADJA	letzt	_	O	O	
+3-17	Aufsatze	NN	<unknown>	_	O	O	
+3-18	übel	ADJD	übel	_	O	O	
+3-19	genommen	VVPP	nehmen	_	O	O	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=An Diätarische Beschäftigung im Museum ist nicht zu denken.
+4-1	An	APPR	an	_	O	O	
+4-2	Diätarische	NN	<unknown>	_	O	O	
+4-3	Beschäftigung	NN	Beschäftigung	_	O	O	
+4-4	im	APPRART	in	_	O	O	
+4-5	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-6	ist	VAFIN	sein	_	O	O	
+4-7	nicht	PTKNEG	nicht	_	O	O	
+4-8	zu	PTKZU	zu	_	O	O	
+4-9	denken	VVINF	denken	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Fiorelli besteht auch für mich auf das pompeianische Entree.
+5-1	Fiorelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	besteht	VVFIN	bestehen	_	O	O	
+5-3	auch	ADV	auch	_	O	O	
+5-4	für	APPR	für	_	O	O	
+5-5	mich	PPER	ich	_	O	O	
+5-6	auf	APPR	auf	_	O	O	
+5-7	das	ART	die	_	O	O	
+5-8	pompeianische	ADJA	<unknown>	_	O	O	
+5-9	Entree	NN	Entree	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Unter solchen Umständen muß ich mich an jeden Strohhalm anklammern.
+6-1	Unter	APPR	unter	_	O	O	
+6-2	solchen	PIAT	solche	_	O	O	
+6-3	Umständen	NN	Umstand	_	O	O	
+6-4	muß	VMFIN	müssen	_	O	O	
+6-5	ich	PPER	ich	_	O	O	
+6-6	mich	PRF	ich	_	O	O	
+6-7	an	APPR	an	_	O	O	
+6-8	jeden	PIAT	jede	_	O	O	
+6-9	Strohhalm	NN	Strohhalm	_	O	O	
+6-10	anklammern	VVINF	anklammern	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich bitte Sie in Berlin anzufragen, ob ich aus dem Akademiefond Unterstützung erhalten kann oder ob noch Möglichkeit vorhanden ist, vielleicht das Stipendium verlängert zu erhalten.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	bitte	VVFIN	bitten	_	O	O	
+7-3	Sie	PPER	Sie	_	O	O	
+7-4	in	APPR	in	_	O	O	
+7-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-6	anzufragen	VVIZU	anfragen	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	ob	KOUS	ob	_	O	O	
+7-9	ich	PPER	ich	_	O	O	
+7-10	aus	APPR	aus	_	O	O	
+7-11	dem	ART	die	_	O	O	
+7-12	Akademiefond	NN	<unknown>	_	O	O	
+7-13	Unterstützung	NN	Unterstützung	_	O	O	
+7-14	erhalten	VVINF	erhalten	_	O	O	
+7-15	kann	VMFIN	können	_	O	O	
+7-16	oder	KON	oder	_	O	O	
+7-17	ob	KOUS	ob	_	O	O	
+7-18	noch	ADV	noch	_	O	O	
+7-19	Möglichkeit	NN	Möglichkeit	_	O	O	
+7-20	vorhanden	ADJD	vorhanden	_	O	O	
+7-21	ist	VAFIN	sein	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	vielleicht	ADV	vielleicht	_	O	O	
+7-24	das	ART	die	_	O	O	
+7-25	Stipendium	NN	Stipendium	_	O	O	
+7-26	verlängert	ADJD	verlängert	_	O	O	
+7-27	zu	PTKZU	zu	_	O	O	
+7-28	erhalten	VVINF	erhalten	_	O	O	
+7-29	.	$.	.	_	O	O	
+
+#id=8
+#text=Ist hiervon nichts möglich, dann bitte ich Sie, ihre Connectionen in Algier oder in Mexico für mich zu interessiren.
+8-1	Ist	VAFIN	sein	_	O	O	
+8-2	hiervon	PAV	hiervon	_	O	O	
+8-3	nichts	PIS	nichts	_	O	O	
+8-4	möglich	ADJD	möglich	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	dann	ADV	dann	_	O	O	
+8-7	bitte	VVFIN	bitten	_	O	O	
+8-8	ich	PPER	ich	_	O	O	
+8-9	Sie	PPER	Sie	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	ihre	PPOSAT	ihr	_	O	O	
+8-12	Connectionen	NN	<unknown>	_	O	O	
+8-13	in	APPR	in	_	O	O	
+8-14	Algier	NE	Algier	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-15	oder	KON	oder	_	O	O	
+8-16	in	APPR	in	_	O	O	
+8-17	Mexico	NE	Mexico	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-18	für	APPR	für	_	O	O	
+8-19	mich	PPER	ich	_	O	O	
+8-20	zu	APPR	zu	_	O	O	
+8-21	interessiren	NN	<unknown>	_	O	O	
+8-22	.	$.	.	_	O	O	
+
+#id=9
+#text=Betreffs Forcella sagt Fiorelli, daß er geneigt wäre, falls er eine wissenschaftliche Publication vom Stapel gelassen hätte, ihm eine Custodenstelle mit 19 Piaster den Monat im Museum zu verschaffen.
+9-1	Betreffs	NN	Betreff	_	O	O	
+9-2	Forcella	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-3	sagt	VVFIN	sagen	_	O	O	
+9-4	Fiorelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	,	$,	,	_	O	O	
+9-6	daß	KOUS	dass	_	O	O	
+9-7	er	PPER	er	_	O	O	
+9-8	geneigt	VVPP	neigen	_	O	O	
+9-9	wäre	VAFIN	sein	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	falls	KOUS	falls	_	O	O	
+9-12	er	PPER	er	_	O	O	
+9-13	eine	ART	eine	_	O	O	
+9-14	wissenschaftliche	ADJA	wissenschaftlich	_	O	O	
+9-15	Publication	NN	<unknown>	_	O	O	
+9-16	vom	APPRART	von	_	O	O	
+9-17	Stapel	NN	Stapel	_	O	O	
+9-18	gelassen	VVPP	lassen	_	O	O	
+9-19	hätte	VAFIN	haben	_	O	O	
+9-20	,	$,	,	_	O	O	
+9-21	ihm	PPER	er	_	O	O	
+9-22	eine	ART	eine	_	O	O	
+9-23	Custodenstelle	NN	<unknown>	_	O	O	
+9-24	mit	APPR	mit	_	O	O	
+9-25	19	CARD	19	_	O	O	
+9-26	Piaster	NN	<unknown>	_	O	O	
+9-27	den	ART	die	_	O	O	
+9-28	Monat	NN	Monat	_	O	O	
+9-29	im	APPRART	in	_	O	O	
+9-30	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-31	zu	PTKZU	zu	_	O	O	
+9-32	verschaffen	VVINF	verschaffen	_	O	O	
+9-33	.	$.	.	_	O	O	
+
+#id=10
+#text=Im nächsten Briefe erhalten Sie für das Bullettino den rapporto über di Scavi di Pompei, Capua, Cuma".
+10-1	Im	APPRART	in	_	O	O	
+10-2	nächsten	ADJA	nah	_	O	O	
+10-3	Briefe	NN	Brief	_	O	O	
+10-4	erhalten	VVFIN	erhalten	_	O	O	
+10-5	Sie	PPER	Sie	_	O	O	
+10-6	für	APPR	für	_	O	O	
+10-7	das	ART	die	_	O	O	
+10-8	Bullettino	NN	<unknown>	_	O	O	
+10-9	den	ART	die	_	O	O	
+10-10	rapporto	NN	<unknown>	_	O	O	
+10-11	über	APPR	über	_	O	O	
+10-12	di	NE	di	_	O	O	
+10-13	Scavi	NE	<unknown>	_	O	O	
+10-14	di	NE	di	_	O	O	
+10-15	Pompei	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-16	,	$,	,	_	O	O	
+10-17	Capua	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-18	,	$,	,	_	O	O	
+10-19	Cuma	NE	Cuma	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-20	"	$(	"	_	O	O	
+10-21	.	$.	.	_	O	O	
+
+#id=11
+#text=e Sora.
+11-1	e	NE	<unknown>	_	O	O	
+11-2	Sora	NE	Sora	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-3	.	$.	.	_	O	O	
+
+#id=12
+#text=Ich bitte um baldige Antwort.
+12-1	Ich	PPER	ich	_	O	O	
+12-2	bitte	VVFIN	bitten	_	O	O	
+12-3	um	APPR	um	_	O	O	
+12-4	baldige	ADJA	baldig	_	O	O	
+12-5	Antwort	NN	Antwort	_	O	O	
+12-6	.	$.	.	_	O	O	
+
+#id=13
+#text=Mit herzlichen Grüßen Ihr Wolfgang Helbig.
+13-1	Mit	APPR	mit	_	O	O	
+13-2	herzlichen	ADJA	herzlich	_	O	O	
+13-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+13-4	Ihr	PPOSAT	ihr	_	O	O	
+13-5	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+13-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-7	.	$.	.	_	O	O	
+

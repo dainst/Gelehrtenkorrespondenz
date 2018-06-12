@@ -1,0 +1,196 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=100 Lepsi us an +t~.
+1-1	100	CARD	100	_	O	O	
+1-2	Lepsi	NN	<unknown>	_	O	O	
+1-3	us	VVFIN	<unknown>	_	O	O	
+1-4	an	APPR	an	_	O	O	
+1-5	+t~	NN	<unknown>	_	O	O	
+1-6	.	$.	.	_	O	O	
+
+#id=2
+#text=tj-<.A .
+2-1	tj-<.A	NE	<unknown>	_	O	O	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=.A .
+3-1	.A	NN	<unknown>	_	O	O	
+3-2	.	$.	.	_	O	O	
+
+#id=4
+#text=";;' Berlin, 4. März 1872 3 ich ihn Ihnen senden, und es wird nun nichts übrig bleiben als darauf hin einen neuen Versuch zu machen, ob sich ein den nothwendigen Bedürfnissen entsprechendes und dabei doch in der äußern Ausführung würdiges Gebäude, dessen Anschlag hier Aussicht auf Annahme hat, herstellen läßt.
+4-1	"	$(	"	_	O	O	
+4-2	;	$.	;	_	O	O	
+4-3	;	$.	;	_	O	O	
+4-4	'	$(	'	_	O	O	
+4-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-6	,	$,	,	_	O	O	
+4-7	4	CARD	4	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-9	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-10	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-11	3	CARD	3	_	O	O	
+4-12	ich	PPER	ich	_	O	O	
+4-13	ihn	PPER	er	_	O	O	
+4-14	Ihnen	PPER	Sie	_	O	O	
+4-15	senden	VVFIN	senden	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	und	KON	und	_	O	O	
+4-18	es	PPER	es	_	O	O	
+4-19	wird	VAFIN	werden	_	O	O	
+4-20	nun	ADV	nun	_	O	O	
+4-21	nichts	PIS	nichts	_	O	O	
+4-22	übrig	ADJD	übrig	_	O	O	
+4-23	bleiben	VVINF	bleiben	_	O	O	
+4-24	als	KON	als	_	O	O	
+4-25	darauf	PAV	darauf	_	O	O	
+4-26	hin	ADV	hin	_	O	O	
+4-27	einen	ART	eine	_	O	O	
+4-28	neuen	ADJA	neu	_	O	O	
+4-29	Versuch	NN	Versuch	_	O	O	
+4-30	zu	PTKZU	zu	_	O	O	
+4-31	machen	VVINF	machen	_	O	O	
+4-32	,	$,	,	_	O	O	
+4-33	ob	KOUS	ob	_	O	O	
+4-34	sich	PRF	sich	_	O	O	
+4-35	ein	ART	eine	_	O	O	
+4-36	den	ART	die	_	O	O	
+4-37	nothwendigen	ADJA	<unknown>	_	O	O	
+4-38	Bedürfnissen	NN	Bedürfnis	_	O	O	
+4-39	entsprechendes	ADJA	entsprechend	_	O	O	
+4-40	und	KON	und	_	O	O	
+4-41	dabei	PAV	dabei	_	O	O	
+4-42	doch	ADV	doch	_	O	O	
+4-43	in	APPR	in	_	O	O	
+4-44	der	ART	die	_	O	O	
+4-45	äußern	VVFIN	äußern	_	O	O	
+4-46	Ausführung	NN	Ausführung	_	O	O	
+4-47	würdiges	ADJA	würdig	_	O	O	
+4-48	Gebäude	NN	Gebäude	_	O	O	
+4-49	,	$,	,	_	O	O	
+4-50	dessen	PRELAT	die	_	O	O	
+4-51	Anschlag	NN	Anschlag	_	O	O	
+4-52	hier	ADV	hier	_	O	O	
+4-53	Aussicht	NN	Aussicht	_	O	O	
+4-54	auf	APPR	auf	_	O	O	
+4-55	Annahme	NN	Annahme	_	O	O	
+4-56	hat	VAFIN	haben	_	O	O	
+4-57	,	$,	,	_	O	O	
+4-58	herstellen	VVINF	herstellen	_	O	O	
+4-59	läßt	VVFIN	lassen	_	O	O	
+4-60	.	$.	.	_	O	O	
+
+#id=5
+#text=... c. Ein Maximum von'/50.
+5-1	...	$.	...	_	O	O	
+5-2	c.	NN	<unknown>	_	O	O	
+5-3	Ein	ART	eine	_	O	O	
+5-4	Maximum	NN	Maximum	_	O	O	
+5-5	von'/50	CARD	<unknown>	_	O	O	
+5-6	.	$.	.	_	O	O	
+
+#id=6
+#text=000 r für den ersten Anschlag glauben wir ungefähr befürworten zu können.
+6-1	000	CARD	@card@	_	O	O	
+6-2	r	NE	r	_	O	O	
+6-3	für	APPR	für	_	O	O	
+6-4	den	ART	die	_	O	O	
+6-5	ersten	ADJA	erst	_	O	O	
+6-6	Anschlag	NN	Anschlag	_	O	O	
+6-7	glauben	VVFIN	glauben	_	O	O	
+6-8	wir	PPER	wir	_	O	O	
+6-9	ungefähr	ADJD	ungefähr	_	O	O	
+6-10	befürworten	VVINF	befürworten	_	O	O	
+6-11	zu	PTKZU	zu	_	O	O	
+6-12	können	VMINF	können	_	O	O	
+6-13	.	$.	.	_	O	O	
+
+#id=7
+#text=Wäre die frühere Absicht ausgeführt worden, den Preußischen Besitz schon jetzt auf das Reich übergehen zu lassen, so wäre die Höhe des Anschlags weniger wichtig; Das Reich wird uns freigebiger behandeln als Preussen.
+7-1	Wäre	VAFIN	sein	_	O	O	
+7-2	die	ART	die	_	O	O	
+7-3	frühere	ADJA	früh	_	O	O	
+7-4	Absicht	NN	Absicht	_	O	O	
+7-5	ausgeführt	VVPP	ausführen	_	O	O	
+7-6	worden	VAPP	werden	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	den	ART	die	_	O	O	
+7-9	Preußischen	ADJA	preußisch	_	O	O	
+7-10	Besitz	NN	Besitz	_	O	O	
+7-11	schon	ADV	schon	_	O	O	
+7-12	jetzt	ADV	jetzt	_	O	O	
+7-13	auf	APPR	auf	_	O	O	
+7-14	das	ART	die	_	O	O	
+7-15	Reich	NN	Reich	_	O	O	
+7-16	übergehen	VVINF	übergehen	_	O	O	
+7-17	zu	PTKZU	zu	_	O	O	
+7-18	lassen	VVINF	lassen	_	O	O	
+7-19	,	$,	,	_	O	O	
+7-20	so	ADV	so	_	O	O	
+7-21	wäre	VAFIN	sein	_	O	O	
+7-22	die	ART	die	_	O	O	
+7-23	Höhe	NN	Höhe	_	O	O	
+7-24	des	ART	die	_	O	O	
+7-25	Anschlags	NN	Anschlag	_	O	O	
+7-26	weniger	ADV	weniger	_	O	O	
+7-27	wichtig	ADJD	wichtig	_	O	O	
+7-28	;	$.	;	_	O	O	
+7-29	Das	ART	die	_	O	O	
+7-30	Reich	NN	Reich	_	O	O	
+7-31	wird	VAFIN	werden	_	O	O	
+7-32	uns	PPER	wir	_	O	O	
+7-33	freigebiger	ADJD	<unknown>	_	O	O	
+7-34	behandeln	VVINF	behandeln	_	O	O	
+7-35	als	KOKOM	als	_	O	O	
+7-36	Preussen	NE	Preußen	_	O	O	
+7-37	.	$.	.	_	O	O	
+
+#id=8
+#text=Wenn wir also durch diesen Zwischenfall wirklich für das diesjährige Büdget zu spät kommen sollten, so würden wir wenigstens den Vortheil haben mit dem Reich verhandeln zu können.
+8-1	Wenn	KOUS	wenn	_	O	O	
+8-2	wir	PPER	wir	_	O	O	
+8-3	also	ADV	also	_	O	O	
+8-4	durch	APPR	durch	_	O	O	
+8-5	diesen	PDAT	dies	_	O	O	
+8-6	Zwischenfall	NN	Zwischenfall	_	O	O	
+8-7	wirklich	ADJD	wirklich	_	O	O	
+8-8	für	APPR	für	_	O	O	
+8-9	das	ART	die	_	O	O	
+8-10	diesjährige	ADJA	diesjährig	_	O	O	
+8-11	Büdget	NN	<unknown>	_	O	O	
+8-12	zu	PTKA	zu	_	O	O	
+8-13	spät	ADJD	spät	_	O	O	
+8-14	kommen	VVINF	kommen	_	O	O	
+8-15	sollten	VMFIN	sollen	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	so	ADV	so	_	O	O	
+8-18	würden	VAFIN	werden	_	O	O	
+8-19	wir	PPER	wir	_	O	O	
+8-20	wenigstens	ADV	wenigstens	_	O	O	
+8-21	den	ART	die	_	O	O	
+8-22	Vortheil	NN	<unknown>	_	O	O	
+8-23	haben	VAFIN	haben	_	O	O	
+8-24	mit	APPR	mit	_	O	O	
+8-25	dem	ART	die	_	O	O	
+8-26	Reich	NN	Reich	_	O	O	
+8-27	verhandeln	VVINF	verhandeln	_	O	O	
+8-28	zu	PTKZU	zu	_	O	O	
+8-29	können	VMINF	können	_	O	O	
+8-30	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich schreibe bald wieder.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	schreibe	VVFIN	schreiben	_	O	O	
+9-3	bald	ADV	bald	_	O	O	
+9-4	wieder	ADV	wieder	_	O	O	
+9-5	.	$.	.	_	O	O	
+
+#id=10
+#text=Ihr ergebenster R Lepsius
+10-1	Ihr	PPOSAT	ihr	_	O	O	
+10-2	ergebenster	ADJA	<unknown>	_	O	O	
+10-3	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+10-4	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

@@ -1,0 +1,237 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=315 Lieber Herr Professor Helbig an Henzen Siena, 5. Juni 1874 g. 6/7 74 r.
+1-1	315	CARD	@card@	_	O	O	
+1-2	Lieber	ADJA	lieb	_	O	O	
+1-3	Herr	NN	Herr	_	O	O	
+1-4	Professor	NN	Professor	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	6/7	CARD	6/7	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=11/7 74 Siena (Ferma in posta ) 5. Juni 1874 Meine Postkarte von vorgestern werden Sie erhalten haben.
+2-1	11/7	CARD	11/7	_	O	O	
+2-2	74	CARD	74	_	O	O	
+2-3	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-4	(	$(	(	_	O	O	
+2-5	Ferma	NN	<unknown>	_	O	O	
+2-6	in	APPR	in	_	O	O	
+2-7	posta	NE	<unknown>	_	O	O	
+2-8	)	$(	)	_	O	O	
+2-9	5	CARD	5	_	O	O	
+2-10	.	$.	.	_	O	O	
+2-11	Juni	NN	Juni	_	O	O	
+2-12	1874	CARD	@card@	_	O	O	
+2-13	Meine	PPOSAT	mein	_	O	O	
+2-14	Postkarte	NN	Postkarte	_	O	O	
+2-15	von	APPR	von	_	O	O	
+2-16	vorgestern	ADV	vorgestern	_	O	O	
+2-17	werden	VAFIN	werden	_	O	O	
+2-18	Sie	PPER	Sie	_	O	O	
+2-19	erhalten	VVPP	erhalten	_	O	O	
+2-20	haben	VAINF	haben	_	O	O	
+2-21	.	$.	.	_	O	O	
+
+#id=3
+#text=Wir sind nach wie vor mit unserem Aufenthalte sehr zufrieden.
+3-1	Wir	PPER	wir	_	O	O	
+3-2	sind	VAFIN	sein	_	O	O	
+3-3	nach	ADV	nach	_	O	O	
+3-4	wie	KOKOM	wie	_	O	O	
+3-5	vor	ADV	vor	_	O	O	
+3-6	mit	APPR	mit	_	O	O	
+3-7	unserem	PPOSAT	unser	_	O	O	
+3-8	Aufenthalte	NN	Aufenthalt	_	O	O	
+3-9	sehr	ADV	sehr	_	O	O	
+3-10	zufrieden	ADJD	zufrieden	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Räume der Villa sind groß, hoch und kühl.
+4-1	Die	ART	die	_	O	O	
+4-2	Räume	NN	Raum	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	Villa	NN	Villa	_	O	O	
+4-5	sind	VAFIN	sein	_	O	O	
+4-6	groß	ADJD	groß	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	hoch	ADJD	hoch	_	O	O	
+4-9	und	KON	und	_	O	O	
+4-10	kühl	ADJD	kühl	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Der Park giebt zu allen Tageszeiten den erwünschten Schatten.
+5-1	Der	ART	die	_	O	O	
+5-2	Park	NN	Park	_	O	O	
+5-3	giebt	VVFIN	<unknown>	_	O	O	
+5-4	zu	APPR	zu	_	O	O	
+5-5	allen	PIAT	alle	_	O	O	
+5-6	Tageszeiten	NN	Tageszeit	_	O	O	
+5-7	den	ART	die	_	O	O	
+5-8	erwünschten	ADJA	erwünscht	_	O	O	
+5-9	Schatten	NN	Schatten	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Siena ist, soweit wir nach flüchtiger Betrachtung urtheilen können, nach Rom und Florenz gewiß die interessanteste Stadt Italiens.
+6-1	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	soweit	KOUS	soweit	_	O	O	
+6-5	wir	PPER	wir	_	O	O	
+6-6	nach	APPR	nach	_	O	O	
+6-7	flüchtiger	ADJA	flüchtig	_	O	O	
+6-8	Betrachtung	NN	Betrachtung	_	O	O	
+6-9	urtheilen	VVINF	<unknown>	_	O	O	
+6-10	können	VMFIN	können	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	nach	APPR	nach	_	O	O	
+6-13	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-14	und	KON	und	_	O	O	
+6-15	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-16	gewiß	ADJD	gewiss	_	O	O	
+6-17	die	ART	die	_	O	O	
+6-18	interessanteste	ADJA	interessant	_	O	O	
+6-19	Stadt	NN	Stadt	_	O	O	
+6-20	Italiens	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-21	.	$.	.	_	O	O	
+
+#id=7
+#text=Der eizige Übelstand, über den wir uns in der Villa zu beklagen haben, ist ihre Größe.
+7-1	Der	ART	die	_	O	O	
+7-2	eizige	ADJA	<unknown>	_	O	O	
+7-3	Übelstand	NN	Übelstand	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	über	APPR	über	_	O	O	
+7-6	den	PRELS	die	_	O	O	
+7-7	wir	PPER	wir	_	O	O	
+7-8	uns	PRF	wir	_	O	O	
+7-9	in	APPR	in	_	O	O	
+7-10	der	ART	die	_	O	O	
+7-11	Villa	NN	Villa	_	O	O	
+7-12	zu	PTKZU	zu	_	O	O	
+7-13	beklagen	VVINF	beklagen	_	O	O	
+7-14	haben	VAFIN	haben	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	ist	VAFIN	sein	_	O	O	
+7-17	ihre	PPOSAT	ihr	_	O	O	
+7-18	Größe	NN	Größe	_	O	O	
+7-19	.	$.	.	_	O	O	
+
+#id=8
+#text=Es fällt schwer, die Bedienung rasch und rechtzeitig bei der Hand zu haben, da dieselbe in zwei Etagen vertheilt ist.
+8-1	Es	PPER	es	_	O	O	
+8-2	fällt	VVFIN	fallen|fällen	_	O	O	
+8-3	schwer	ADJD	schwer	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	die	ART	die	_	O	O	
+8-6	Bedienung	NN	Bedienung	_	O	O	
+8-7	rasch	ADJD	rasch	_	O	O	
+8-8	und	KON	und	_	O	O	
+8-9	rechtzeitig	ADJD	rechtzeitig	_	O	O	
+8-10	bei	APPR	bei	_	O	O	
+8-11	der	ART	die	_	O	O	
+8-12	Hand	NN	Hand	_	O	O	
+8-13	zu	PTKZU	zu	_	O	O	
+8-14	haben	VAINF	haben	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	da	KOUS	da	_	O	O	
+8-17	dieselbe	PDS	dieselbe	_	O	O	
+8-18	in	APPR	in	_	O	O	
+8-19	zwei	CARD	zwei	_	O	O	
+8-20	Etagen	NN	Etage	_	O	O	
+8-21	vertheilt	VVPP	<unknown>	_	O	O	
+8-22	ist	VAFIN	sein	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=Jeden Falls hoffe ich, daß Sie und Fräulein Rosine Ihren Plan, uns hier zu besuchen, ausführen werden.
+9-1	Jeden	PIAT	jede	_	O	O	
+9-2	Falls	NN	Fall	_	O	O	
+9-3	hoffe	VVFIN	hoffen	_	O	O	
+9-4	ich	PPER	ich	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	daß	KOUS	dass	_	O	O	
+9-7	Sie	PPER	Sie	_	O	O	
+9-8	und	KON	und	_	O	O	
+9-9	Fräulein	NN	Fräulein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-10	Rosine	NN	Rosine	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-11	Ihren	PPOSAT	ihr	_	O	O	
+9-12	Plan	NN	Plan	_	O	O	
+9-13	,	$,	,	_	O	O	
+9-14	uns	PRF	wir	_	O	O	
+9-15	hier	ADV	hier	_	O	O	
+9-16	zu	PTKZU	zu	_	O	O	
+9-17	besuchen	VVINF	besuchen	_	O	O	
+9-18	,	$,	,	_	O	O	
+9-19	ausführen	VVINF	ausführen	_	O	O	
+9-20	werden	VAFIN	werden	_	O	O	
+9-21	.	$.	.	_	O	O	
+
+#id=10
+#text=Lieb wäre es uns, wenn Sie auch Angelina mitbrächten, die dann ein Glied mehr in dem complicirten Telegraphendienst bilden könnte, den wir durch die verschiedenen Stockwerke Statt finden lassen müssen.
+10-1	Lieb	ADJD	lieb	_	O	O	
+10-2	wäre	VAFIN	sein	_	O	O	
+10-3	es	PPER	es	_	O	O	
+10-4	uns	PPER	wir	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	wenn	KOUS	wenn	_	O	O	
+10-7	Sie	PPER	Sie	_	O	O	
+10-8	auch	ADV	auch	_	O	O	
+10-9	Angelina	NE	Angelina	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-10	mitbrächten	VVFIN	mitbringen	_	O	O	
+10-11	,	$,	,	_	O	O	
+10-12	die	PRELS	die	_	O	O	
+10-13	dann	ADV	dann	_	O	O	
+10-14	ein	ART	eine	_	O	O	
+10-15	Glied	NN	Glied	_	O	O	
+10-16	mehr	ADV	mehr	_	O	O	
+10-17	in	APPR	in	_	O	O	
+10-18	dem	ART	die	_	O	O	
+10-19	complicirten	ADJA	<unknown>	_	O	O	
+10-20	Telegraphendienst	NN	<unknown>	_	O	O	
+10-21	bilden	VVINF	bilden	_	O	O	
+10-22	könnte	VMFIN	können	_	O	O	
+10-23	,	$,	,	_	O	O	
+10-24	den	PRELS	die	_	O	O	
+10-25	wir	PPER	wir	_	O	O	
+10-26	durch	APPR	durch	_	O	O	
+10-27	die	ART	die	_	O	O	
+10-28	verschiedenen	ADJA	verschieden	_	O	O	
+10-29	Stockwerke	NN	Stockwerk	_	O	O	
+10-30	Statt	NN	Statt	_	O	O	
+10-31	finden	VVINF	finden	_	O	O	
+10-32	lassen	VVINF	lassen	_	O	O	
+10-33	müssen	VMFIN	müssen	_	O	O	
+10-34	.	$.	.	_	O	O	
+
+#id=11
+#text=Wie würden Sie sich hier ausruhen können Und einige Wochen Ruhe werden Ihnen schließlich doch
+11-1	Wie	KOUS	wie	_	O	O	
+11-2	würden	VAFIN	werden	_	O	O	
+11-3	Sie	PPER	Sie	_	O	O	
+11-4	sich	PRF	sich	_	O	O	
+11-5	hier	ADV	hier	_	O	O	
+11-6	ausruhen	VVINF	ausruhen	_	O	O	
+11-7	können	VMINF	können	_	O	O	
+11-8	Und	KON	und	_	O	O	
+11-9	einige	PIAT	einige	_	O	O	
+11-10	Wochen	NN	Woche	_	O	O	
+11-11	Ruhe	NN	Ruhe	_	O	O	
+11-12	werden	VAFIN	werden	_	O	O	
+11-13	Ihnen	PPER	Sie	_	O	O	
+11-14	schließlich	ADV	schließlich	_	O	O	
+11-15	doch	ADV	doch	_	O	O	
+

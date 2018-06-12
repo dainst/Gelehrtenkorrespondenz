@@ -1,0 +1,225 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=6 Lepsius an Henzen Berlin, 2. Januar 1874 gen wollen.
+1-1	6	CARD	6	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	gen	APPR	gen	_	O	O	
+1-12	wollen	VMFIN	wollen	_	O	O	
+1-13	.	$.	.	_	O	O	
+
+#id=2
+#text=Soll er bleiben, so würde ich Visconti fallen lassen.
+2-1	Soll	VMFIN	sollen	_	O	O	
+2-2	er	PPER	er	_	O	O	
+2-3	bleiben	VVINF	bleiben	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	so	ADV	so	_	O	O	
+2-6	würde	VAFIN	werden	_	O	O	
+2-7	ich	PPER	ich	_	O	O	
+2-8	Visconti	NN	Visconte	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-9	fallen	VVINF	fallen	_	O	O	
+2-10	lassen	VVINF	lassen	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich hätte natürlich gegen alle 5 Vorschläge nichts, nur müßte eben Bunsen dabei sein.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	hätte	VAFIN	haben	_	O	O	
+3-3	natürlich	ADV	natürlich	_	O	O	
+3-4	gegen	APPR	gegen	_	O	O	
+3-5	alle	PIAT	alle	_	O	O	
+3-6	5	CARD	5	_	O	O	
+3-7	Vorschläge	NN	Vorschlag	_	O	O	
+3-8	nichts	PIS	nichts	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	nur	ADV	nur	_	O	O	
+3-11	müßte	VMFIN	müssen	_	O	O	
+3-12	eben	ADV	eben	_	O	O	
+3-13	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-14	dabei	PAV	dabei	_	O	O	
+3-15	sein	VAINF	sein	_	O	O	
+3-16	.	$.	.	_	O	O	
+
+#id=4
+#text=Ließen sich vielleicht sechs Medaillons anbringen?
+4-1	Ließen	VVFIN	lassen	_	O	O	
+4-2	sich	PRF	sich	_	O	O	
+4-3	vielleicht	ADV	vielleicht	_	O	O	
+4-4	sechs	CARD	sechs	_	O	O	
+4-5	Medaillons	NN	Medaillon	_	O	O	
+4-6	anbringen	VVINF	anbringen	_	O	O	
+4-7	?	$.	?	_	O	O	
+
+#id=5
+#text=Ich würde natürlich auch hier meine Überzeugung in der Central Direktion geltend zu machen suchen.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	würde	VAFIN	werden	_	O	O	
+5-3	natürlich	ADV	natürlich	_	O	O	
+5-4	auch	ADV	auch	_	O	O	
+5-5	hier	ADV	hier	_	O	O	
+5-6	meine	PPOSAT	mein	_	O	O	
+5-7	Überzeugung	NN	Überzeugung	_	O	O	
+5-8	in	APPR	in	_	O	O	
+5-9	der	ART	die	_	O	O	
+5-10	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-11	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-12	geltend	ADJD	geltend	_	O	O	
+5-13	zu	PTKZU	zu	_	O	O	
+5-14	machen	VVINF	machen	_	O	O	
+5-15	suchen	VVINF	suchen	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Indessen vermuthe ich bei Haupt, der eine Natur wie die Bunsen's nicht zu würdigen weiß und vermag, vielleicht auch bei Mommsen, dem er wohl unsympathisch ist, große Opposition zu finden, die von vornherein sehr abgeschwächt sein würde, wenn der Vorschlag schon von Rom aus, wo ja Bunsen's Anerkennung noch näher liegt,als hier, entgegen käme.
+6-1	Indessen	ADV	indessen	_	O	O	
+6-2	vermuthe	VVFIN	<unknown>	_	O	O	
+6-3	ich	PPER	ich	_	O	O	
+6-4	bei	APPR	bei	_	O	O	
+6-5	Haupt	NE	Haupt	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-6	,	$,	,	_	O	O	
+6-7	der	PRELS	die	_	O	O	
+6-8	eine	ART	eine	_	O	O	
+6-9	Natur	NN	Natur	_	O	O	
+6-10	wie	KOKOM	wie	_	O	O	
+6-11	die	ART	die	_	O	O	
+6-12	Bunsen's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-13	nicht	PTKNEG	nicht	_	O	O	
+6-14	zu	PTKZU	zu	_	O	O	
+6-15	würdigen	VVINF	würdigen	_	O	O	
+6-16	weiß	VVFIN	wissen	_	O	O	
+6-17	und	KON	und	_	O	O	
+6-18	vermag	VVFIN	vermag	_	O	O	
+6-19	,	$,	,	_	O	O	
+6-20	vielleicht	ADV	vielleicht	_	O	O	
+6-21	auch	ADV	auch	_	O	O	
+6-22	bei	APPR	bei	_	O	O	
+6-23	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-24	,	$,	,	_	O	O	
+6-25	dem	PRELS	die	_	O	O	
+6-26	er	PPER	er	_	O	O	
+6-27	wohl	ADV	wohl	_	O	O	
+6-28	unsympathisch	ADJD	unsympathisch	_	O	O	
+6-29	ist	VAFIN	sein	_	O	O	
+6-30	,	$,	,	_	O	O	
+6-31	große	ADJA	groß	_	O	O	
+6-32	Opposition	NN	Opposition	_	O	O	
+6-33	zu	PTKZU	zu	_	O	O	
+6-34	finden	VVINF	finden	_	O	O	
+6-35	,	$,	,	_	O	O	
+6-36	die	PRELS	die	_	O	O	
+6-37	von	APPR	von	_	O	O	
+6-38	vornherein	ADV	vornherein	_	O	O	
+6-39	sehr	ADV	sehr	_	O	O	
+6-40	abgeschwächt	VVPP	abschwächen	_	O	O	
+6-41	sein	VAINF	sein	_	O	O	
+6-42	würde	VAFIN	werden	_	O	O	
+6-43	,	$,	,	_	O	O	
+6-44	wenn	KOUS	wenn	_	O	O	
+6-45	der	ART	die	_	O	O	
+6-46	Vorschlag	NN	Vorschlag	_	O	O	
+6-47	schon	ADV	schon	_	O	O	
+6-48	von	APPR	von	_	O	O	
+6-49	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-50	aus	PTKVZ	aus	_	O	O	
+6-51	,	$,	,	_	O	O	
+6-52	wo	PWAV	wo	_	O	O	
+6-53	ja	ADV	ja	_	O	O	
+6-54	Bunsen's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-55	Anerkennung	NN	Anerkennung	_	O	O	
+6-56	noch	ADV	noch	_	O	O	
+6-57	näher	ADJD	nah	_	O	O	
+6-58	liegt,als	NN	<unknown>	_	O	O	
+6-59	hier	ADV	hier	_	O	O	
+6-60	,	$,	,	_	O	O	
+6-61	entgegen	ADV	entgegen	_	O	O	
+6-62	käme	VVFIN	kommen	_	O	O	
+6-63	.	$.	.	_	O	O	
+
+#id=7
+#text=Jedenfalls möchte ich Ihre Antwort erst abwarten, die mir hier vielleicht viel Streit erspart.
+7-1	Jedenfalls	ADV	jedenfalls	_	O	O	
+7-2	möchte	VMFIN	mögen	_	O	O	
+7-3	ich	PPER	ich	_	O	O	
+7-4	Ihre	PPOSAT	ihr	_	O	O	
+7-5	Antwort	NN	Antwort	_	O	O	
+7-6	erst	ADV	erst	_	O	O	
+7-7	abwarten	VVINF	abwarten	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	die	PRELS	die	_	O	O	
+7-10	mir	PPER	ich	_	O	O	
+7-11	hier	ADV	hier	_	O	O	
+7-12	vielleicht	ADV	vielleicht	_	O	O	
+7-13	viel	PIAT	viele	_	O	O	
+7-14	Streit	NN	Streit	_	O	O	
+7-15	erspart	VVPP	ersparen	_	O	O	
+7-16	.	$.	.	_	O	O	
+
+#id=8
+#text=Wenn Sie sich entschließen sollten, einen von den dreien fallen zu lassen, so würde es dann auch bessser sein, ihn gar nicht zu nennen oder doch nicht zur Wahl zu stellen.
+8-1	Wenn	KOUS	wenn	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	sich	PRF	sich	_	O	O	
+8-4	entschließen	VVINF	entschließen	_	O	O	
+8-5	sollten	VMFIN	sollen	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	einen	ART	eine	_	O	O	
+8-8	von	APPR	von	_	O	O	
+8-9	den	ART	die	_	O	O	
+8-10	dreien	CARD	dreien	_	O	O	
+8-11	fallen	VVINF	fallen	_	O	O	
+8-12	zu	PTKZU	zu	_	O	O	
+8-13	lassen	VVINF	lassen	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	so	ADV	so	_	O	O	
+8-16	würde	VAFIN	werden	_	O	O	
+8-17	es	PPER	es	_	O	O	
+8-18	dann	ADV	dann	_	O	O	
+8-19	auch	ADV	auch	_	O	O	
+8-20	bessser	ADJD	<unknown>	_	O	O	
+8-21	sein	VAINF	sein	_	O	O	
+8-22	,	$,	,	_	O	O	
+8-23	ihn	PPER	er	_	O	O	
+8-24	gar	ADV	gar	_	O	O	
+8-25	nicht	PTKNEG	nicht	_	O	O	
+8-26	zu	PTKZU	zu	_	O	O	
+8-27	nennen	VVINF	nennen	_	O	O	
+8-28	oder	KON	oder	_	O	O	
+8-29	doch	ADV	doch	_	O	O	
+8-30	nicht	PTKNEG	nicht	_	O	O	
+8-31	zur	APPRART	zu	_	O	O	
+8-32	Wahl	NN	Wahl	_	O	O	
+8-33	zu	PTKZU	zu	_	O	O	
+8-34	stellen	VVINF	stellen	_	O	O	
+8-35	.	$.	.	_	O	O	
+
+#id=9
+#text=Die Sendung von Helbig ist noch immer nicht eingegangen.
+9-1	Die	ART	die	_	O	O	
+9-2	Sendung	NN	Sendung	_	O	O	
+9-3	von	APPR	von	_	O	O	
+9-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	ist	VAFIN	sein	_	O	O	
+9-6	noch	ADV	noch	_	O	O	
+9-7	immer	ADV	immer	_	O	O	
+9-8	nicht	PTKNEG	nicht	_	O	O	
+9-9	eingegangen	VVPP	eingehen	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=Mit herzlichem Gruß Ihr ergebe R Lepsius
+10-1	Mit	APPR	mit	_	O	O	
+10-2	herzlichem	ADJA	herzlich	_	O	O	
+10-3	Gruß	NN	Gruß	_	O	O	
+10-4	Ihr	PPOSAT	ihr	_	O	O	
+10-5	ergebe	VVFIN	ergeben	_	O	O	
+10-6	R	NN	R	_	O	O	
+10-7	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

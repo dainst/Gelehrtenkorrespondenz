@@ -1,0 +1,228 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=293 Helbig an Henzen Rom, 16. Juli 1870 H g. 20/7 70 Roma, li 16. Juli 1870 Lieber Herr Professor Besten Dank für Ihren freundlichen Brief.
+1-1	293	CARD	@card@	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	H	NN	H	_	O	O	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	20/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	70	CARD	70	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-16	,	$,	,	_	O	O	
+1-17	li	ADJD	<unknown>	_	O	O	
+1-18	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Lieber	ADJA	lieb	_	O	O	
+1-23	Herr	NN	Herr	_	O	O	
+1-24	Professor	NN	Professor	_	O	O	
+1-25	Besten	ADJA	gut	_	O	O	
+1-26	Dank	NN	Dank	_	O	O	
+1-27	für	APPR	für	_	O	O	
+1-28	Ihren	PPOSAT	ihr	_	O	O	
+1-29	freundlichen	ADJA	freundlich	_	O	O	
+1-30	Brief	NN	Brief	_	O	O	
+1-31	.	$.	.	_	O	O	
+
+#id=2
+#text=Garrucci und Aurora werden besorgt werden.
+2-1	Garrucci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	und	KON	und	_	O	O	
+2-3	Aurora	NE	Aurora	_	O	O	
+2-4	werden	VAFIN	werden	_	O	O	
+2-5	besorgt	VVPP	besorgen	_	O	O	
+2-6	werden	VAINF	werden	_	O	O	
+2-7	.	$.	.	_	O	O	
+
+#id=3
+#text=Hinck hat den gestrigen Tag außer dem Bett zugebracht und fühlt sich wohl.
+3-1	Hinck	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	hat	VAFIN	haben	_	O	O	
+3-3	den	ART	die	_	O	O	
+3-4	gestrigen	ADJA	gestrig	_	O	O	
+3-5	Tag	NN	Tag	_	O	O	
+3-6	außer	APPR	außer	_	O	O	
+3-7	dem	ART	die	_	O	O	
+3-8	Bett	NN	Bett	_	O	O	
+3-9	zugebracht	VVPP	zubringen	_	O	O	
+3-10	und	KON	und	_	O	O	
+3-11	fühlt	VVFIN	fühlen	_	O	O	
+3-12	sich	PRF	sich	_	O	O	
+3-13	wohl	ADV	wohl	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Der ihn seit Erhards Abreise behandelnde Arzt Manassei ist dagegen, daß er auf das Land gehe; er fürchtet, daß die zu feine Luft eher schädlich, als nützlich sei.
+4-1	Der	PRELS	die	_	O	O	
+4-2	ihn	PPER	er	_	O	O	
+4-3	seit	APPR	seit	_	O	O	
+4-4	Erhards	NE	Erhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	Abreise	NN	Abreise	_	O	O	
+4-6	behandelnde	ADJA	behandelnd	_	O	O	
+4-7	Arzt	NN	Arzt	_	O	O	
+4-8	Manassei	NN	<unknown>	_	O	O	
+4-9	ist	VAFIN	sein	_	O	O	
+4-10	dagegen	PAV	dagegen	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	daß	KOUS	dass	_	O	O	
+4-13	er	PPER	er	_	O	O	
+4-14	auf	APPR	auf	_	O	O	
+4-15	das	ART	die	_	O	O	
+4-16	Land	NN	Land	_	O	O	
+4-17	gehe	VVFIN	gehen	_	O	O	
+4-18	;	$.	;	_	O	O	
+4-19	er	PPER	er	_	O	O	
+4-20	fürchtet	VVFIN	fürchten	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	daß	KOUS	dass	_	O	O	
+4-23	die	ART	die	_	O	O	
+4-24	zu	APPR	zu	_	O	O	
+4-25	feine	ADJA	fein	_	O	O	
+4-26	Luft	NN	Luft	_	O	O	
+4-27	eher	ADV	eher	_	O	O	
+4-28	schädlich	ADJD	schädlich	_	O	O	
+4-29	,	$,	,	_	O	O	
+4-30	als	KOKOM	als	_	O	O	
+4-31	nützlich	ADJD	nützlich	_	O	O	
+4-32	sei	VAFIN	sein	_	O	O	
+4-33	.	$.	.	_	O	O	
+
+#id=5
+#text=An Trendelenburg habe ich geschrieben, damit er, falilis er den Brief von der Centraldirection schon erhalten hätte, ruhig in Neapel bleibe.
+5-1	An	APPR	an	_	O	O	
+5-2	Trendelenburg	NN	Trendelenburg	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	habe	VAFIN	haben	_	O	O	
+5-4	ich	PPER	ich	_	O	O	
+5-5	geschrieben	VVPP	schreiben	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	damit	PAV	damit	_	O	O	
+5-8	er	PPER	er	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	falilis	VVFIN	<unknown>	_	O	O	
+5-11	er	PPER	er	_	O	O	
+5-12	den	ART	die	_	O	O	
+5-13	Brief	NN	Brief	_	O	O	
+5-14	von	APPR	von	_	O	O	
+5-15	der	ART	die	_	O	O	
+5-16	Centraldirection	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-17	schon	ADV	schon	_	O	O	
+5-18	erhalten	VVPP	erhalten	_	O	O	
+5-19	hätte	VAFIN	haben	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	ruhig	ADJD	ruhig	_	O	O	
+5-22	in	APPR	in	_	O	O	
+5-23	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-24	bleibe	VVFIN	bleiben	_	O	O	
+5-25	.	$.	.	_	O	O	
+
+#id=6
+#text=Bei Calvary hätte ich nur die auf beiliegendem Zettel angegebene Broschüre zu bestellen.
+6-1	Bei	APPR	bei	_	O	O	
+6-2	Calvary	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	hätte	VAFIN	haben	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	nur	ADV	nur	_	O	O	
+6-6	die	ART	die	_	O	O	
+6-7	auf	APPR	auf	_	O	O	
+6-8	beiliegendem	ADJA	beiliegend	_	O	O	
+6-9	Zettel	NN	Zettel	_	O	O	
+6-10	angegebene	ADJA	angegeben	_	O	O	
+6-11	Broschüre	NN	Broschüre	_	O	O	
+6-12	zu	PTKZU	zu	_	O	O	
+6-13	bestellen	VVINF	bestellen	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Haben Sie die Güte, die beiden von der Jablonowskyschen Gesellschaft gekrönten Preisschriften über den antiken Handel (Büchsenschütz ?
+7-1	Haben	VAFIN	haben	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	die	ART	die	_	O	O	
+7-4	Güte	NN	Güte	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	die	PRELS	die	_	O	O	
+7-7	beiden	PIS	beide	_	O	O	
+7-8	von	APPR	von	_	O	O	
+7-9	der	ART	die	_	O	O	
+7-10	Jablonowskyschen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-11	Gesellschaft	NN	Gesellschaft	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+7-12	gekrönten	ADJA	gekrönt	_	O	O	
+7-13	Preisschriften	NN	<unknown>	_	O	O	
+7-14	über	APPR	über	_	O	O	
+7-15	den	ART	die	_	O	O	
+7-16	antiken	ADJA	antik	_	B-webanno.custom.LetterEntity_	B-OBJ	
+7-17	Handel	NN	Handel	_	I-webanno.custom.LetterEntity_	I-OBJ	
+7-18	(	$(	(	_	O	O	
+7-19	Büchsenschütz	NN	<unknown>	_	O	O	
+7-20	?	$.	?	_	O	O	
+
+#id=8
+#text=Blümmer ?)
+8-1	Blümmer	NN	<unknown>	_	O	O	
+8-2	?	$.	?	_	O	O	
+8-3	)	$(	)	_	O	O	
+
+#id=9
+#text=bei1ügen; ich habe den Schlüssel zu meinem Sekretär, in dem sich mein Notizbuch mit den betreffenden Titeln befindet, verlegt und süche ihn den ganzen Morgen vergebens.
+9-1	bei1ügen	NN	<unknown>	_	O	O	
+9-2	;	$.	;	_	O	O	
+9-3	ich	PPER	ich	_	O	O	
+9-4	habe	VAFIN	haben	_	O	O	
+9-5	den	ART	die	_	O	O	
+9-6	Schlüssel	NN	Schlüssel	_	O	O	
+9-7	zu	APPR	zu	_	O	O	
+9-8	meinem	PPOSAT	mein	_	O	O	
+9-9	Sekretär	NN	Sekretär	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	in	APPR	in	_	O	O	
+9-12	dem	PRELS	die	_	O	O	
+9-13	sich	PRF	sich	_	O	O	
+9-14	mein	PPOSAT	mein	_	O	O	
+9-15	Notizbuch	NN	Notizbuch	_	O	O	
+9-16	mit	APPR	mit	_	O	O	
+9-17	den	ART	die	_	O	O	
+9-18	betreffenden	ADJA	betreffend	_	O	O	
+9-19	Titeln	NN	Titel	_	O	O	
+9-20	befindet	VVFIN	befinden	_	O	O	
+9-21	,	$,	,	_	O	O	
+9-22	verlegt	VVPP	verlegen	_	O	O	
+9-23	und	KON	und	_	O	O	
+9-24	süche	VVFIN	<unknown>	_	O	O	
+9-25	ihn	PPER	er	_	O	O	
+9-26	den	ART	die	_	O	O	
+9-27	ganzen	ADJA	ganz	_	O	O	
+9-28	Morgen	NN	Morgen	_	O	O	
+9-29	vergebens	ADV	vergebens	_	O	O	
+9-30	.	$.	.	_	O	O	
+
+#id=10
+#text=Meine Abreise habe ich, falls nicht unerwartete Hindernisse dazwischen kommen, auf das Ende der nächsten Woche festgesetzt.
+10-1	Meine	PPOSAT	mein	_	O	O	
+10-2	Abreise	NN	Abreise	_	O	O	
+10-3	habe	VAFIN	haben	_	O	O	
+10-4	ich	PPER	ich	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	falls	KOUS	falls	_	O	O	
+10-7	nicht	PTKNEG	nicht	_	O	O	
+10-8	unerwartete	ADJA	unerwartet	_	O	O	
+10-9	Hindernisse	NN	Hindernis	_	O	O	
+10-10	dazwischen	PAV	dazwischen	_	O	O	
+10-11	kommen	VVFIN	kommen	_	O	O	
+10-12	,	$,	,	_	O	O	
+10-13	auf	APPR	auf	_	O	O	
+10-14	das	ART	die	_	O	O	
+10-15	Ende	NN	Ende	_	O	O	
+10-16	der	ART	die	_	O	O	
+10-17	nächsten	ADJA	nah	_	O	O	
+10-18	Woche	NN	Woche	_	O	O	
+10-19	festgesetzt	VVPP	festsetzen	_	O	O	
+10-20	.	$.	.	_	O	O	
+

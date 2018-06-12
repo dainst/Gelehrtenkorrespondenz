@@ -1,0 +1,210 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=262 Lepsius an Henzen Berlin, 24. April 1877 g. 28/4 77 r.
+1-1	262	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	28/4	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	77	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=Verehrter Freund Für die Direktion des Sarkophagunternehmens ist für jetzt noch niemand bestimmt.
+2-1	Verehrter	ADJA	verehrt	_	O	O	
+2-2	Freund	NN	Freund	_	O	O	
+2-3	Für	APPR	für	_	O	O	
+2-4	die	ART	die	_	O	O	
+2-5	Direktion	NN	Direktion	_	O	O	
+2-6	des	ART	die	_	O	O	
+2-7	Sarkophagunternehmens	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+2-8	ist	VAFIN	sein	_	O	O	
+2-9	für	APPR	für	_	O	O	
+2-10	jetzt	ADV	jetzt	_	O	O	
+2-11	noch	ADV	noch	_	O	O	
+2-12	niemand	PIS	niemand	_	O	O	
+2-13	bestimmt	VVPP	bestimmen	_	O	O	
+2-14	.	$.	.	_	O	O	
+
+#id=3
+#text=Mit Eichler wird sich Michaelis ins Vernehmen setzen, und nöthigenfalls neue Vorschläge machen.
+3-1	Mit	APPR	mit	_	O	O	
+3-2	Eichler	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	wird	VAFIN	werden	_	O	O	
+3-4	sich	PRF	sich	_	O	O	
+3-5	Michaelis	NE	Michaelis	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	ins	APPRART	in	_	O	O	
+3-7	Vernehmen	NN	Vernehmen	_	O	O	
+3-8	setzen	VVINF	setzen	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	und	KON	und	_	O	O	
+3-11	nöthigenfalls	NN	<unknown>	_	O	O	
+3-12	neue	ADJA	neu	_	O	O	
+3-13	Vorschläge	NN	Vorschlag	_	O	O	
+3-14	machen	VVFIN	machen	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=In Bezug auf die Vasen von Adria wird nun Alles wie bisher zu Ende geführt und die Überschreibung~s andern Fonds gedeckt.
+4-1	In	APPR	in	_	O	O	
+4-2	Bezug	NN	Bezug	_	O	O	
+4-3	auf	APPR	auf	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	Vasen	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-6	von	APPR	von	_	O	O	
+4-7	Adria	NE	Adria	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-8	wird	VAFIN	werden	_	O	O	
+4-9	nun	ADV	nun	_	O	O	
+4-10	Alles	PIS	alle	_	O	O	
+4-11	wie	KOKOM	wie	_	O	O	
+4-12	bisher	ADV	bisher	_	O	O	
+4-13	zu	APPR	zu	_	O	O	
+4-14	Ende	NN	Ende	_	O	O	
+4-15	geführt	VVPP	führen	_	O	O	
+4-16	und	KON	und	_	O	O	
+4-17	die	ART	die	_	O	O	
+4-18	Überschreibung~s	NN	<unknown>	_	O	O	
+4-19	andern	PIAT	andere	_	O	O	
+4-20	Fonds	NN	Fonds	_	O	O	
+4-21	gedeckt	VVPP	decken	_	O	O	
+4-22	.	$.	.	_	O	O	
+
+#id=5
+#text=Für Köch liegt hier eine Anweisung bei, die er ----.-.... mit seiner Unterschrift hier einschicken muß, am besten wohl durch seinen Vater zu präsentiren und zu erheben.
+5-1	Für	APPR	für	_	O	O	
+5-2	Köch	NN	<unknown>	_	O	O	
+5-3	liegt	VVFIN	liegen	_	O	O	
+5-4	hier	ADV	hier	_	O	O	
+5-5	eine	ART	eine	_	O	O	
+5-6	Anweisung	NN	Anweisung	_	O	O	
+5-7	bei	PTKVZ	bei	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	die	PRELS	die	_	O	O	
+5-10	er	PPER	er	_	O	O	
+5-11	--	$(	--	_	O	O	
+5-12	--	$(	--	_	O	O	
+5-13	.-	NN	<unknown>	_	O	O	
+5-14	...	$.	...	_	O	O	
+5-15	.	$.	.	_	O	O	
+5-16	mit	APPR	mit	_	O	O	
+5-17	seiner	PPOSAT	sein	_	O	O	
+5-18	Unterschrift	NN	Unterschrift	_	O	O	
+5-19	hier	ADV	hier	_	O	O	
+5-20	einschicken	VVINF	einschicken	_	O	O	
+5-21	muß	VMFIN	müssen	_	O	O	
+5-22	,	$,	,	_	O	O	
+5-23	am	APPRART	an	_	O	O	
+5-24	besten	ADJA	gut	_	O	O	
+5-25	wohl	ADV	wohl	_	O	O	
+5-26	durch	APPR	durch	_	O	O	
+5-27	seinen	PPOSAT	sein	_	O	O	
+5-28	Vater	NN	Vater	_	O	O	
+5-29	zu	APPR	zu	_	O	O	
+5-30	präsentiren	ADJA	<unknown>	_	O	O	
+5-31	und	KON	und	_	O	O	
+5-32	zu	PTKZU	zu	_	O	O	
+5-33	erheben	VVINF	erheben	_	O	O	
+5-34	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihren Übersuß (sic) würden Sie vorläufig behalten und verrechnen können.
+6-1	Ihren	PPOSAT	ihr	_	O	O	
+6-2	Übersuß	NN	<unknown>	_	O	O	
+6-3	(	$(	(	_	O	O	
+6-4	sic	NE	<unknown>	_	O	O	
+6-5	)	$(	)	_	O	O	
+6-6	würden	VAFIN	werden	_	O	O	
+6-7	Sie	PPER	Sie	_	O	O	
+6-8	vorläufig	ADJD	vorläufig	_	O	O	
+6-9	behalten	VVINF	behalten	_	O	O	
+6-10	und	KON	und	_	O	O	
+6-11	verrechnen	VVINF	verrechnen	_	O	O	
+6-12	können	VMINF	können	_	O	O	
+6-13	.	$.	.	_	O	O	
+
+#id=7
+#text=Für eine untersiegelte Autorisation werde ich alsbald sorgen.
+7-1	Für	APPR	für	_	O	O	
+7-2	eine	ART	eine	_	O	O	
+7-3	untersiegelte	ADJA	<unknown>	_	O	O	
+7-4	Autorisation	NN	<unknown>	_	O	O	
+7-5	werde	VAFIN	werden	_	O	O	
+7-6	ich	PPER	ich	_	O	O	
+7-7	alsbald	ADV	alsbald	_	O	O	
+7-8	sorgen	VVINF	sorgen	_	O	O	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=Unsre Eingaben an das Auswärtige Amt über die Verwaltung und über Klügmann liegen zu Ihrer Information hier bei.
+8-1	Unsre	PPOSAT	unsre	_	O	O	
+8-2	Eingaben	NN	Eingabe	_	O	O	
+8-3	an	APPR	an	_	O	O	
+8-4	das	ART	die	_	O	O	
+8-5	Auswärtige	ADJA	auswärtig	_	O	O	
+8-6	Amt	NN	Amt	_	O	O	
+8-7	über	APPR	über	_	O	O	
+8-8	die	ART	die	_	O	O	
+8-9	Verwaltung	NN	Verwaltung	_	O	O	
+8-10	und	KON	und	_	O	O	
+8-11	über	APPR	über	_	O	O	
+8-12	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-13	liegen	VVFIN	liegen	_	O	O	
+8-14	zu	APPR	zu	_	O	O	
+8-15	Ihrer	PPOSAT	ihr	_	O	O	
+8-16	Information	NN	Information	_	O	O	
+8-17	hier	ADV	hier	_	O	O	
+8-18	bei	PTKVZ	bei	_	O	O	
+8-19	.	$.	.	_	O	O	
+
+#id=9
+#text=Curtius wird wohl am 29. hier sein; für den 1. Mai hat er angeschlagen.
+9-1	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	wird	VAFIN	werden	_	O	O	
+9-3	wohl	ADV	wohl	_	O	O	
+9-4	am	APPRART	an	_	O	O	
+9-5	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-7	hier	ADV	hier	_	O	O	
+9-8	sein	VAINF	sein	_	O	O	
+9-9	;	$.	;	_	O	O	
+9-10	für	APPR	für	_	O	O	
+9-11	den	ART	die	_	O	O	
+9-12	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-13	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-14	Mai	NE	Mai	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-15	hat	VAFIN	haben	_	O	O	
+9-16	er	PPER	er	_	O	O	
+9-17	angeschlagen	VVPP	anschlagen	_	O	O	
+9-18	.	$.	.	_	O	O	
+
+#id=10
+#text=Herzlich der Ihrige R Lepsius Meinen etwas verspätet aufgegebenen Brief vom 18. über die Diplome werden Sie erhalten haben.
+10-1	Herzlich	ADJD	herzlich	_	O	O	
+10-2	der	ART	die	_	O	O	
+10-3	Ihrige	PPOSAT	ihrige	_	O	O	
+10-4	R	NN	R	_	O	O	
+10-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-6	Meinen	PPOSAT	mein	_	O	O	
+10-7	etwas	ADV	etwas	_	O	O	
+10-8	verspätet	VVFIN	verspäten	_	O	O	
+10-9	aufgegebenen	ADJA	aufgegeben	_	O	O	
+10-10	Brief	NN	Brief	_	O	O	
+10-11	vom	APPRART	von	_	O	O	
+10-12	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+10-13	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+10-14	über	APPR	über	_	O	O	
+10-15	die	ART	die	_	O	O	
+10-16	Diplome	NN	Diplom	_	O	O	
+10-17	werden	VAFIN	werden	_	O	O	
+10-18	Sie	PPER	Sie	_	O	O	
+10-19	erhalten	VVPP	erhalten	_	O	O	
+10-20	haben	VAINF	haben	_	O	O	
+10-21	.	$.	.	_	O	O	
+

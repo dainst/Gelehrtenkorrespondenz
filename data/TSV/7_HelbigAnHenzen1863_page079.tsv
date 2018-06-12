@@ -1,0 +1,258 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=31 H Lieber Herr Professor Helbig an Henzen Rom, 14. Juli 1866 g. 20/7 66 r. Roma li 14. Luglio 1866.
+1-1	31	CARD	31	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	20/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	66	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+1-19	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-20	li	VVFIN	<unknown>	_	O	O	
+1-21	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-22	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	Luglio	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-24	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-25	.	$.	.	_	O	O	
+
+#id=2
+#text=Ihren freundlichen Brief vom 10. beantworte ich sofort.
+2-1	Ihren	PPOSAT	ihr	_	O	O	
+2-2	freundlichen	ADJA	freundlich	_	O	O	
+2-3	Brief	NN	Brief	_	O	O	
+2-4	vom	APPRART	von	_	O	O	
+2-5	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-7	beantworte	VVFIN	beantworten	_	O	O	
+2-8	ich	PPER	ich	_	O	O	
+2-9	sofort	ADV	sofort	_	O	O	
+2-10	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Separatabdrücke für Wescher sind bestellt.
+3-1	Die	ART	die	_	O	O	
+3-2	Separatabdrücke	NN	<unknown>	_	O	O	
+3-3	für	APPR	für	_	O	O	
+3-4	Wescher	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	sind	VAFIN	sein	_	O	O	
+3-6	bestellt	VVPP	bestellen	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Was den Druck betrifft, so sind die Annali bis Foglio 12 gediehen.
+4-1	Was	PWS	was	_	O	O	
+4-2	den	ART	die	_	O	O	
+4-3	Druck	NN	Druck	_	O	O	
+4-4	betrifft	VVFIN	betreffen	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	so	ADV	so	_	O	O	
+4-7	sind	VAFIN	sein	_	O	O	
+4-8	die	ART	die	_	O	O	
+4-9	Annali	NE	<unknown>	_	O	O	
+4-10	bis	KON	bis	_	O	O	
+4-11	Foglio	NE	<unknown>	_	O	O	
+4-12	12	CARD	12	_	O	O	
+4-13	gediehen	VVPP	gedeihen	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Nach Schönes Aufsatz wird Reiffe~scheids folgen, dann meiner über Alkibiades, dann Benndorfs Hektorvase.
+5-1	Nach	APPR	nach	_	O	O	
+5-2	Schönes	ADJA	schön	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	Aufsatz	NN	Aufsatz	_	O	O	
+5-4	wird	VAFIN	werden	_	O	O	
+5-5	Reiffe~scheids	NN	<unknown>	_	O	O	
+5-6	folgen	VVINF	folgen	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	dann	ADV	dann	_	O	O	
+5-9	meiner	PPOSAT	mein	_	O	O	
+5-10	über	APPR	über	_	O	O	
+5-11	Alkibiades	NN	<unknown>	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	dann	ADV	dann	_	O	O	
+5-14	Benndorfs	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-15	Hektorvase	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Sache geht bis dahin so leidlich, allerdings unter gehörigen Anstrengungen meinerseits, da ich fast alle Correcturen selbst machen muß.
+6-1	Die	ART	die	_	O	O	
+6-2	Sache	NN	Sache	_	O	O	
+6-3	geht	VVFIN	gehen	_	O	O	
+6-4	bis	KON	bis	_	O	O	
+6-5	dahin	PAV	dahin	_	O	O	
+6-6	so	ADV	so	_	O	O	
+6-7	leidlich	ADJD	leidlich	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	allerdings	ADV	allerdings	_	O	O	
+6-10	unter	APPR	unter	_	O	O	
+6-11	gehörigen	ADJA	gehörig	_	O	O	
+6-12	Anstrengungen	NN	Anstrengung	_	O	O	
+6-13	meinerseits	ADV	meinerseits	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	da	KOUS	da	_	O	O	
+6-16	ich	PPER	ich	_	O	O	
+6-17	fast	ADV	fast	_	O	O	
+6-18	alle	PIAT	alle	_	O	O	
+6-19	Correcturen	NN	<unknown>	_	O	O	
+6-20	selbst	ADV	selbst	_	O	O	
+6-21	machen	VVINF	machen	_	O	O	
+6-22	muß	VMFIN	müssen	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Schöne geht morgen nach Neapel, Reifferscheid nach drei Tagen nach Monte Cassino.
+7-1	Schöne	NN	Schöne	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	geht	VVFIN	gehen	_	O	O	
+7-3	morgen	ADV	morgen	_	O	O	
+7-4	nach	APPR	nach	_	O	O	
+7-5	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-6	,	$,	,	_	O	O	
+7-7	Reifferscheid	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-8	nach	APPR	nach	_	O	O	
+7-9	drei	CARD	drei	_	O	O	
+7-10	Tagen	NN	Tag	_	O	O	
+7-11	nach	APPR	nach	_	O	O	
+7-12	Monte	NE	Monte	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-13	Cassino	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Nur Benndorf wird den Sommer über in Rom bleiben.
+8-1	Nur	ADV	nur	_	O	O	
+8-2	Benndorf	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	wird	VAFIN	werden	_	O	O	
+8-4	den	ART	die	_	O	O	
+8-5	Sommer	NN	Sommer	_	O	O	
+8-6	über	APPR	über	_	O	O	
+8-7	in	APPR	in	_	O	O	
+8-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-9	bleiben	VVINF	bleiben	_	O	O	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=Kekule hat seinen Aufsatz leider nicht hinterlassen.
+9-1	Kekule	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	hat	VAFIN	haben	_	O	O	
+9-3	seinen	PPOSAT	sein	_	O	O	
+9-4	Aufsatz	NN	Aufsatz	_	O	O	
+9-5	leider	ADV	leider	_	O	O	
+9-6	nicht	PTKNEG	nicht	_	O	O	
+9-7	hinterlassen	VVINF	hinterlassen	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Machen Sie ihm aber darüber keinenVorwurf; es thut ihm sehr leid und er war in den letzten Tagen durch en die Revision~iner Collationen für Benott sehr abgehetzt.
+10-1	Machen	VVFIN	machen	_	O	O	
+10-2	Sie	PPER	Sie	_	O	O	
+10-3	ihm	PPER	er	_	O	O	
+10-4	aber	KON	aber	_	O	O	
+10-5	darüber	PAV	darüber	_	O	O	
+10-6	keinenVorwurf	ADJD	<unknown>	_	O	O	
+10-7	;	$.	;	_	O	O	
+10-8	es	PPER	es	_	O	O	
+10-9	thut	VVFIN	<unknown>	_	O	O	
+10-10	ihm	PPER	er	_	O	O	
+10-11	sehr	ADV	sehr	_	O	O	
+10-12	leid	ADJD	leid	_	O	O	
+10-13	und	KON	und	_	O	O	
+10-14	er	PPER	er	_	O	O	
+10-15	war	VAFIN	sein	_	O	O	
+10-16	in	APPR	in	_	O	O	
+10-17	den	ART	die	_	O	O	
+10-18	letzten	ADJA	letzt	_	O	O	
+10-19	Tagen	NN	Tag	_	O	O	
+10-20	durch	APPR	durch	_	O	O	
+10-21	en	FM	en	_	O	O	
+10-22	die	ART	die	_	O	O	
+10-23	Revision~iner	ADJA	<unknown>	_	O	O	
+10-24	Collationen	NN	<unknown>	_	O	O	
+10-25	für	APPR	für	_	O	O	
+10-26	Benott	NN	<unknown>	_	O	O	
+10-27	sehr	ADV	sehr	_	O	O	
+10-28	abgehetzt	VVPP	abhetzen	_	O	O	
+10-29	.	$.	.	_	O	O	
+
+#id=11
+#text=Bis etwa in die Mitte August liegt noch Material vor; dann aber wird ein Stillstand eintreten um so mehr, da mir Ambrosi angezeigt hat, daß er um diese Zeit auf einige Wochen in das Bad reist.
+11-1	Bis	KON	bis	_	O	O	
+11-2	etwa	ADV	etwa	_	O	O	
+11-3	in	APPR	in	_	O	O	
+11-4	die	ART	die	_	O	O	
+11-5	Mitte	NN	Mitte	_	O	O	
+11-6	August	NE	August	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+11-7	liegt	VVFIN	liegen	_	O	O	
+11-8	noch	ADV	noch	_	O	O	
+11-9	Material	NN	Material	_	O	O	
+11-10	vor	PTKVZ	vor	_	O	O	
+11-11	;	$.	;	_	O	O	
+11-12	dann	ADV	dann	_	O	O	
+11-13	aber	ADV	aber	_	O	O	
+11-14	wird	VAFIN	werden	_	O	O	
+11-15	ein	ART	eine	_	O	O	
+11-16	Stillstand	NN	Stillstand	_	O	O	
+11-17	eintreten	VVFIN	eintreten	_	O	O	
+11-18	um	APPR	um	_	O	O	
+11-19	so	ADV	so	_	O	O	
+11-20	mehr	ADV	mehr	_	O	O	
+11-21	,	$,	,	_	O	O	
+11-22	da	KOUS	da	_	O	O	
+11-23	mir	PPER	ich	_	O	O	
+11-24	Ambrosi	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-25	angezeigt	VVPP	anzeigen	_	O	O	
+11-26	hat	VAFIN	haben	_	O	O	
+11-27	,	$,	,	_	O	O	
+11-28	daß	KOUS	dass	_	O	O	
+11-29	er	PPER	er	_	O	O	
+11-30	um	APPR	um	_	O	O	
+11-31	diese	PDAT	dies	_	O	O	
+11-32	Zeit	NN	Zeit	_	O	O	
+11-33	auf	APPR	auf	_	O	O	
+11-34	einige	PIAT	einige	_	O	O	
+11-35	Wochen	NN	Woche	_	O	O	
+11-36	in	APPR	in	_	O	O	
+11-37	das	ART	die	_	O	O	
+11-38	Bad	NE	Bad	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-39	reist	VVFIN	reisen	_	O	O	
+11-40	.	$.	.	_	O	O	
+
+#id=12
+#text=Der Druck der Monumenti geht in zufriedenstelIender Weise vor sich.
+12-1	Der	ART	die	_	O	O	
+12-2	Druck	NN	Druck	_	O	O	
+12-3	der	ART	die	_	O	O	
+12-4	Monumenti	NN	<unknown>	_	O	O	
+12-5	geht	VVFIN	gehen	_	O	O	
+12-6	in	APPR	in	_	O	O	
+12-7	zufriedenstelIender	ADJA	<unknown>	_	O	O	
+12-8	Weise	NN	Weise	_	O	O	
+12-9	vor	APPR	vor	_	O	O	
+12-10	sich	PRF	sich	_	O	O	
+12-11	.	$.	.	_	O	O	
+
+#id=13
+#text=Überhaupt bin ich mit dem Gange der Geschäftsführung nicht unzufrieden;
+13-1	Überhaupt	ADV	überhaupt	_	O	O	
+13-2	bin	VAFIN	sein	_	O	O	
+13-3	ich	PPER	ich	_	O	O	
+13-4	mit	APPR	mit	_	O	O	
+13-5	dem	ART	die	_	O	O	
+13-6	Gange	NN	Gang	_	O	O	
+13-7	der	ART	die	_	O	O	
+13-8	Geschäftsführung	NN	Geschäftsführung	_	O	O	
+13-9	nicht	PTKNEG	nicht	_	O	O	
+13-10	unzufrieden	ADJD	unzufrieden	_	O	O	
+13-11	;	$.	;	_	O	O	
+

@@ -1,0 +1,68 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=/ 68 4 Lepsius an Renzen Berlin, 30. Januar 1874 Letzteres war aber über die im Ägyptischen Alterthum gebrauchten Steine, und war eine Brochüre in 4°.
+1-1	/	$(	/	_	O	O	
+1-2	68	CARD	68	_	O	O	
+1-3	4	CARD	4	_	O	O	
+1-4	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Letzteres	NN	Letztere	_	O	O	
+1-14	war	VAFIN	sein	_	O	O	
+1-15	aber	ADV	aber	_	O	O	
+1-16	über	APPR	über	_	O	O	
+1-17	die	ART	die	_	O	O	
+1-18	im	APPRART	in	_	O	O	
+1-19	Ägyptischen	ADJA	ägyptisch	_	O	O	
+1-20	Alterthum	NN	<unknown>	_	O	O	
+1-21	gebrauchten	ADJA	gebraucht	_	O	O	
+1-22	Steine	NN	Stein	_	O	O	
+1-23	,	$,	,	_	O	O	
+1-24	und	KON	und	_	O	O	
+1-25	war	VAFIN	sein	_	O	O	
+1-26	eine	ART	eine	_	O	O	
+1-27	Brochüre	NN	<unknown>	_	O	O	
+1-28	in	APPR	in	_	O	O	
+1-29	4°	ADJD	<unknown>	_	O	O	
+1-30	.	$.	.	_	O	O	
+
+#id=2
+#text=Sollte sie nicht in jenem Buche von 1847 zitirt sein?
+2-1	Sollte	VMFIN	sollen	_	O	O	
+2-2	sie	PPER	sie	_	O	O	
+2-3	nicht	PTKNEG	nicht	_	O	O	
+2-4	in	APPR	in	_	O	O	
+2-5	jenem	PDAT	jen	_	O	O	
+2-6	Buche	NN	Buche	_	O	O	
+2-7	von	APPR	von	_	O	O	
+2-8	1847	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-9	zitirt	NN	<unknown>	_	O	O	
+2-10	sein	VAINF	sein	_	O	O	
+2-11	?	$.	?	_	O	O	
+
+#id=3
+#text=Senden Sie mir den Catalogo, wenn er zu haben ist, gegen Zahlung an Asher.
+3-1	Senden	VVFIN	senden	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	mir	PRF	ich	_	O	O	
+3-4	den	ART	die	_	O	O	
+3-5	Catalogo	NE	<unknown>	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	wenn	KOUS	wenn	_	O	O	
+3-8	er	PPER	er	_	O	O	
+3-9	zu	PTKA	zu	_	O	O	
+3-10	haben	VAINF	haben	_	O	O	
+3-11	ist	VAFIN	sein	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	gegen	APPR	gegen	_	O	O	
+3-14	Zahlung	NN	Zahlung	_	O	O	
+3-15	an	APPR	an	_	O	O	
+3-16	Asher	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-17	.	$.	.	_	O	O	
+

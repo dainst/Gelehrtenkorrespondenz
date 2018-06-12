@@ -1,0 +1,235 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=282 A. d. Dir.
+1-1	282	CARD	@card@	_	O	O	
+1-2	A.	APPR	an	_	O	O	
+1-3	d.	ART	d.	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Dr. Braun Mein theurer Freund.
+2-1	Dr.	NN	Dr.	_	O	O	
+2-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-3	Mein	PPOSAT	mein	_	O	O	
+2-4	theurer	ADJA	<unknown>	_	O	O	
+2-5	Freund	NN	Freund	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Braun Berlin, 9. August 1845 g. 22/VIII 45 Berlin 9 Aug 45 Ich schreibe Ihnen wenig Stunden vor meiner Abreise nach Frankfurt wo ich bis Ende des Monats zu verweilen gedenke.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	an	APPR	an	_	O	O	
+3-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-5	,	$,	,	_	O	O	
+3-6	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-10	g.	VVFIN	<unknown>	_	O	O	
+3-11	22/VIII	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-12	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-13	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-14	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-15	Aug	NE	Aug	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-16	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-17	Ich	PPER	ich	_	O	O	
+3-18	schreibe	VVFIN	schreiben	_	O	O	
+3-19	Ihnen	PPER	Sie	_	O	O	
+3-20	wenig	PIAT	wenige	_	O	O	
+3-21	Stunden	NN	Stunde|Stunden	_	O	O	
+3-22	vor	APPR	vor	_	O	O	
+3-23	meiner	PPOSAT	mein	_	O	O	
+3-24	Abreise	NN	Abreise	_	O	O	
+3-25	nach	APPR	nach	_	O	O	
+3-26	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-27	wo	PWAV	wo	_	O	O	
+3-28	ich	PPER	ich	_	O	O	
+3-29	bis	APPR	bis	_	O	O	
+3-30	Ende	NN	Ende	_	O	O	
+3-31	des	ART	die	_	O	O	
+3-32	Monats	NN	Monat	_	O	O	
+3-33	zu	PTKZU	zu	_	O	O	
+3-34	verweilen	VVINF	verweilen	_	O	O	
+3-35	gedenke	VVFIN	gedenken	_	O	O	
+3-36	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich hole meine Frau in Elgersburg ab, wo beide Damen höchst zufrieden bis jetzt verweilten.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	hole	VVFIN	holen	_	O	O	
+5-3	meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-5	in	APPR	in	_	O	O	
+5-6	Elgersburg	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-7	ab	PTKVZ	ab	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	wo	PWAV	wo	_	O	O	
+5-10	beide	PIAT	beide	_	O	O	
+5-11	Damen	NN	Dame	_	O	O	
+5-12	höchst	ADJD	hochöchst	_	O	O	
+5-13	zufrieden	ADJD	zufrieden	_	O	O	
+5-14	bis	KON	bis	_	O	O	
+5-15	jetzt	ADV	jetzt	_	O	O	
+5-16	verweilten	VVFIN	verweilen	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Quittung Ihres Mechanikus folgt in beikommendem Schnitzel.
+6-1	Die	ART	die	_	O	O	
+6-2	Quittung	NN	Quittung	_	O	O	
+6-3	Ihres	PPOSAT	ihr	_	O	O	
+6-4	Mechanikus	NN	<unknown>	_	O	O	
+6-5	folgt	VVFIN	folgen	_	O	O	
+6-6	in	APPR	in	_	O	O	
+6-7	beikommendem	ADJA	<unknown>	_	O	O	
+6-8	Schnitzel	NN	Schnitzel	_	O	O	
+6-9	.	$.	.	_	O	O	
+
+#id=7
+#text=Wollen Sie Kestner prevenieren, daß ich seiner Güte vertrauend 1 Kiste und 1 Koffer unter seiner Adresse sende.
+7-1	Wollen	VMFIN	wollen	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	Kestner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-4	prevenieren	VVINF	<unknown>	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	daß	KOUS	dass	_	O	O	
+7-7	ich	PPER	ich	_	O	O	
+7-8	seiner	PPOSAT	sein	_	O	O	
+7-9	Güte	NN	Güte	_	O	O	
+7-10	vertrauend	ADJD	vertrauend	_	O	O	
+7-11	1	CARD	1	_	O	O	
+7-12	Kiste	NN	Kiste	_	O	O	
+7-13	und	KON	und	_	O	O	
+7-14	1	CARD	1	_	O	O	
+7-15	Koffer	NN	Koffer	_	O	O	
+7-16	unter	APPR	unter	_	O	O	
+7-17	seiner	PPOSAT	sein	_	O	O	
+7-18	Adresse	NN	Adresse	_	O	O	
+7-19	sende	VVFIN	senden	_	O	O	
+7-20	.	$.	.	_	O	O	
+
+#id=8
+#text=Die Aussicht mit Usedom war ein schöner Traum.
+8-1	Die	ART	die	_	O	O	
+8-2	Aussicht	NN	Aussicht	_	O	O	
+8-3	mit	APPR	mit	_	O	O	
+8-4	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-5	war	VAFIN	sein	_	O	O	
+8-6	ein	ART	eine	_	O	O	
+8-7	schöner	ADJA	schön	_	O	O	
+8-8	Traum	NN	Traum	_	O	O	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=Calandrelli erinnertan 1 oder 2 Steine die Sie ihm versprochen hätten.
+9-1	Calandrelli	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	erinnertan	ADJD	<unknown>	_	O	O	
+9-3	1	CARD	1	_	O	O	
+9-4	oder	KON	oder	_	O	O	
+9-5	2	CARD	2	_	O	O	
+9-6	Steine	NN	Stein	_	O	O	
+9-7	die	ART	die	_	O	O	
+9-8	Sie	PPER	Sie	_	O	O	
+9-9	ihm	PPER	er	_	O	O	
+9-10	versprochen	VVPP	versprechen	_	O	O	
+9-11	hätten	VAFIN	haben	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Welcker schreibt ja ganz zweifelhaft über die Reise.
+10-1	Welcker	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	schreibt	VVFIN	schreiben	_	O	O	
+10-3	ja	ADV	ja	_	O	O	
+10-4	ganz	ADV	ganz	_	O	O	
+10-5	zweifelhaft	ADJD	zweifelhaft	_	O	O	
+10-6	über	APPR	über	_	O	O	
+10-7	die	ART	die	_	O	O	
+10-8	Reise	NN	Reise	_	O	O	
+10-9	.	$.	.	_	O	O	
+
+#id=11
+#text=Vollard bitte ich in Einliegendem über römische Wohnungsgedanken mit Ihnen zu sprechen.
+11-1	Vollard	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	bitte	VVFIN	bitten	_	O	O	
+11-3	ich	PPER	ich	_	O	O	
+11-4	in	APPR	in	_	O	O	
+11-5	Einliegendem	NN	<unknown>	_	O	O	
+11-6	über	APPR	über	_	O	O	
+11-7	römische	ADJA	römisch	_	O	O	
+11-8	Wohnungsgedanken	NN	<unknown>	_	O	O	
+11-9	mit	APPR	mit	_	O	O	
+11-10	Ihnen	PPER	Sie	_	O	O	
+11-11	zu	PTKZU	zu	_	O	O	
+11-12	sprechen	VVINF	sprechen	_	O	O	
+11-13	.	$.	.	_	O	O	
+
+#id=12
+#text=Es ist aber sehr möglich daß ich über Rom nach Neapel gehe, meiner Frau die Seereise zu ersparen.
+12-1	Es	PPER	es	_	O	O	
+12-2	ist	VAFIN	sein	_	O	O	
+12-3	aber	ADV	aber	_	O	O	
+12-4	sehr	ADV	sehr	_	O	O	
+12-5	möglich	ADJD	möglich	_	O	O	
+12-6	daß	KOUS	dass	_	O	O	
+12-7	ich	PPER	ich	_	O	O	
+12-8	über	APPR	über	_	O	O	
+12-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-10	nach	APPR	nach	_	O	O	
+12-11	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-12	gehe	VVFIN	gehen	_	O	O	
+12-13	,	$,	,	_	O	O	
+12-14	meiner	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-15	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+12-16	die	ART	die	_	O	O	
+12-17	Seereise	NN	Seereise	_	O	O	
+12-18	zu	PTKZU	zu	_	O	O	
+12-19	ersparen	VVINF	ersparen	_	O	O	
+12-20	.	$.	.	_	O	O	
+
+#id=13
+#text=Melicher meint zwar, schaden könne sie ihr nicht.
+13-1	Melicher	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	meint	VVFIN	meinen	_	O	O	
+13-3	zwar	ADV	zwar	_	O	O	
+13-4	,	$,	,	_	O	O	
+13-5	schaden	VVINF	schaden	_	O	O	
+13-6	könne	VMFIN	können	_	O	O	
+13-7	sie	PPER	sie	_	O	O	
+13-8	ihr	PPER	ihr	_	O	O	
+13-9	nicht	PTKNEG	nicht	_	O	O	
+13-10	.	$.	.	_	O	O	
+
+#id=14
+#text=Warum aber sollen wir an der See nicht wohnen und wie an Neapel denken ohne an der Küste?
+14-1	Warum	PWAV	warum	_	O	O	
+14-2	aber	ADV	aber	_	O	O	
+14-3	sollen	VMFIN	sollen	_	O	O	
+14-4	wir	PPER	wir	_	O	O	
+14-5	an	APPR	an	_	O	O	
+14-6	der	ART	die	_	O	O	
+14-7	See	NN	See	_	O	O	
+14-8	nicht	PTKNEG	nicht	_	O	O	
+14-9	wohnen	VVINF	wohnen	_	O	O	
+14-10	und	KON	und	_	O	O	
+14-11	wie	KOKOM	wie	_	O	O	
+14-12	an	APPR	an	_	O	O	
+14-13	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+14-14	denken	VVFIN	denken	_	O	O	
+14-15	ohne	APPR	ohne	_	O	O	
+14-16	an	APPR	an	_	O	O	
+14-17	der	ART	die	_	O	O	
+14-18	Küste	NN	Küste	_	O	O	
+14-19	?	$.	?	_	O	O	
+
+#id=15
+#text=oder wie sonst im Angesicht des Golfs.
+15-1	oder	KON	oder	_	O	O	
+15-2	wie	KOUS	wie	_	O	O	
+15-3	sonst	ADV	sonst	_	O	O	
+15-4	im	APPRART	in	_	O	O	
+15-5	Angesicht	NN	Angesicht	_	O	O	
+15-6	des	ART	die	_	O	O	
+15-7	Golfs	NN	Golf	_	O	O	
+15-8	.	$.	.	_	O	O	
+

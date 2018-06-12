@@ -1,0 +1,319 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=235 Henzen an Gerhard -- 3/VIl!52 Verehrter Herr ~rofessor rv:eine Antwort auf Ihren Brief vom 19 v. M. habe ich um einige Tage aufgeschoben, weil meine Frau zugleich der Ihrigen antworten wollte.
+1-1	235	CARD	@card@	_	O	O	
+1-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	--	$(	--	_	O	O	
+1-6	3/VIl	ADJD	<unknown>	_	O	O	
+1-7	!	$.	!	_	O	O	
+1-8	52	CARD	52	_	O	O	
+1-9	Verehrter	ADJA	verehrt	_	O	O	
+1-10	Herr	NN	Herr	_	O	O	
+1-11	~rofessor	NN	<unknown>	_	O	O	
+1-12	rv:eine	ADJA	<unknown>	_	O	O	
+1-13	Antwort	NN	Antwort	_	O	O	
+1-14	auf	APPR	auf	_	O	O	
+1-15	Ihren	PPOSAT	ihr	_	O	O	
+1-16	Brief	NN	Brief	_	O	O	
+1-17	vom	APPRART	von	_	O	O	
+1-18	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-19	v.	APPR	von	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-20	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-21	habe	VAFIN	haben	_	O	O	
+1-22	ich	PPER	ich	_	O	O	
+1-23	um	APPR	um	_	O	O	
+1-24	einige	PIAT	einige	_	O	O	
+1-25	Tage	NN	Tag	_	O	O	
+1-26	aufgeschoben	VVPP	aufschieben	_	O	O	
+1-27	,	$,	,	_	O	O	
+1-28	weil	KOUS	weil	_	O	O	
+1-29	meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-30	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-31	zugleich	ADV	zugleich	_	O	O	
+1-32	der	ART	die	_	O	O	
+1-33	Ihrigen	NN	<unknown>	_	O	O	
+1-34	antworten	VVINF	antworten	_	O	O	
+1-35	wollte	VMFIN	wollen	_	O	O	
+1-36	.	$.	.	_	O	O	
+
+#id=2
+#text=Leider aber ist dieselbe wieder krank; ein Rückfall des neulich erwähnten Unwohlseins, das seit Montag eintrat, ward vorgestern so stark, daß heftiges Fieber u. gewaltige Congestionen nach Kopf u. Herz nur durch energischte Anwendung des Wassers gedämpft werden konnten, wozu meine Schwägerin, die darin Praxix hat, bei uns zubrachte.
+2-1	Leider	ADV	leider	_	O	O	
+2-2	aber	ADV	aber	_	O	O	
+2-3	ist	VAFIN	sein	_	O	O	
+2-4	dieselbe	PDS	dieselbe	_	O	O	
+2-5	wieder	ADV	wieder	_	O	O	
+2-6	krank	ADJD	krank	_	O	O	
+2-7	;	$.	;	_	O	O	
+2-8	ein	ART	eine	_	O	O	
+2-9	Rückfall	NN	Rückfall	_	O	O	
+2-10	des	ART	die	_	O	O	
+2-11	neulich	ADV	neulich	_	O	O	
+2-12	erwähnten	ADJA	erwähnt	_	O	O	
+2-13	Unwohlseins	NN	Unwohlsein	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	das	PRELS	die	_	O	O	
+2-16	seit	APPR	seit	_	O	O	
+2-17	Montag	NN	Montag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-18	eintrat	VVFIN	eintreten	_	O	O	
+2-19	,	$,	,	_	O	O	
+2-20	ward	VVFIN	werd	_	O	O	
+2-21	vorgestern	ADV	vorgestern	_	O	O	
+2-22	so	ADV	so	_	O	O	
+2-23	stark	ADJD	stark	_	O	O	
+2-24	,	$,	,	_	O	O	
+2-25	daß	KOUS	dass	_	O	O	
+2-26	heftiges	ADJA	heftig	_	O	O	
+2-27	Fieber	NN	Fieber	_	O	O	
+2-28	u.	APPR	um	_	O	O	
+2-29	gewaltige	ADJA	gewaltig	_	O	O	
+2-30	Congestionen	NN	<unknown>	_	O	O	
+2-31	nach	APPR	nach	_	O	O	
+2-32	Kopf	NN	Kopf	_	O	O	
+2-33	u.	APPR	um	_	O	O	
+2-34	Herz	NN	Herz	_	O	O	
+2-35	nur	ADV	nur	_	O	O	
+2-36	durch	APPR	durch	_	O	O	
+2-37	energischte	ADJA	<unknown>	_	O	O	
+2-38	Anwendung	NN	Anwendung	_	O	O	
+2-39	des	ART	die	_	O	O	
+2-40	Wassers	NN	Wasser	_	O	O	
+2-41	gedämpft	VVPP	dämpfen	_	O	O	
+2-42	werden	VAINF	werden	_	O	O	
+2-43	konnten	VMFIN	können	_	O	O	
+2-44	,	$,	,	_	O	O	
+2-45	wozu	PWAV	wozu	_	O	O	
+2-46	meine	PPOSAT	mein	_	O	O	
+2-47	Schwägerin	NN	Schwägerin	_	O	O	
+2-48	,	$,	,	_	O	O	
+2-49	die	PRELS	die	_	O	O	
+2-50	darin	PAV	darin	_	O	O	
+2-51	Praxix	NN	<unknown>	_	O	O	
+2-52	hat	VAFIN	haben	_	O	O	
+2-53	,	$,	,	_	O	O	
+2-54	bei	APPR	bei	_	O	O	
+2-55	uns	PRF	wir	_	O	O	
+2-56	zubrachte	VVFIN	zubringen	_	O	O	
+2-57	.	$.	.	_	O	O	
+
+#id=3
+#text=Mehrere Bäder brachen auch wirklich die Krankheit, u. seit vorgestern Nacht ist sie fieberfrei, aber recht matt u. fast immer in sanftem Schweiße.
+3-1	Mehrere	PIAT	mehrere	_	O	O	
+3-2	Bäder	NN	Bad	_	O	O	
+3-3	brachen	VVFIN	brechen	_	O	O	
+3-4	auch	ADV	auch	_	O	O	
+3-5	wirklich	ADJD	wirklich	_	O	O	
+3-6	die	ART	die	_	O	O	
+3-7	Krankheit	NN	Krankheit	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	u.	APPR	um	_	O	O	
+3-10	seit	KOUS	seit	_	O	O	
+3-11	vorgestern	ADV	vorgestern	_	O	O	
+3-12	Nacht	NN	Nacht	_	O	O	
+3-13	ist	VAFIN	sein	_	O	O	
+3-14	sie	PPER	sie	_	O	O	
+3-15	fieberfrei	ADJD	fieberfrei	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	aber	ADV	aber	_	O	O	
+3-18	recht	ADJD	recht	_	O	O	
+3-19	matt	ADJD	matt	_	O	O	
+3-20	u.	KON	und	_	O	O	
+3-21	fast	ADV	fast	_	O	O	
+3-22	immer	ADV	immer	_	O	O	
+3-23	in	APPR	in	_	O	O	
+3-24	sanftem	ADJA	sanft	_	O	O	
+3-25	Schweiße	NN	Schweiß	_	O	O	
+3-26	.	$.	.	_	O	O	
+
+#id=4
+#text=In eingen Tagen wird daher hoffentlich 1:I.lles vorüber sein.
+4-1	In	APPR	in	_	O	O	
+4-2	eingen	ADJA	<unknown>	_	O	O	
+4-3	Tagen	NN	Tag	_	O	O	
+4-4	wird	VAFIN	werden	_	O	O	
+4-5	daher	PAV	daher	_	O	O	
+4-6	hoffentlich	ADV	hoffentlich	_	O	O	
+4-7	1:I.lles	NN	<unknown>	_	O	O	
+4-8	vorüber	ADV	vorüber	_	O	O	
+4-9	sein	VAINF	sein	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=- Dieses mehr für Ihre Frau Gemahlin, als für Sie, zugleich mit herzlichen Grüßen von meiner Frau u. die Notiz, dß.
+5-1	-	$(	-	_	O	O	
+5-2	Dieses	PDAT	dies	_	O	O	
+5-3	mehr	ADV	mehr	_	O	O	
+5-4	für	APPR	für	_	O	O	
+5-5	Ihre	PPOSAT	ihr	_	O	O	
+5-6	Frau	NN	Frau	_	O	O	
+5-7	Gemahlin	NN	Gemahlin	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	als	KOKOM	als	_	O	O	
+5-10	für	APPR	für	_	O	O	
+5-11	Sie	PPER	Sie	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	zugleich	ADV	zugleich	_	O	O	
+5-14	mit	APPR	mit	_	O	O	
+5-15	herzlichen	ADJA	herzlich	_	O	O	
+5-16	Grüßen	NN	Gruß|Grüßen	_	O	O	
+5-17	von	APPR	von	_	O	O	
+5-18	meiner	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-19	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-20	u.	APPR	um	_	O	O	
+5-21	die	ART	die	_	O	O	
+5-22	Notiz	NN	Notiz	_	O	O	
+5-23	,	$,	,	_	O	O	
+5-24	dß	VVFIN	<unknown>	_	O	O	
+5-25	.	$.	.	_	O	O	
+
+#id=6
+#text=in dem Preise ds.
+6-1	in	APPR	in	_	O	O	
+6-2	dem	ART	die	_	O	O	
+6-3	Preise	NN	Preis	_	O	O	
+6-4	ds.	ADJD	<unknown>	_	O	O	
+
+#id=7
+#text=Mosaiks die Fassung mitbegriffen ist, wie ich denn auch die Auslagen von Braun bereits zurück erhielt.
+7-1	Mosaiks	NN	Mosaik	_	B-webanno.custom.LetterEntity_	B-OBJ	
+7-2	die	ART	die	_	O	O	
+7-3	Fassung	NN	Fassung	_	O	O	
+7-4	mitbegriffen	VVPP	mitbegreifen	_	O	O	
+7-5	ist	VAFIN	sein	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	wie	KOUS	wie	_	O	O	
+7-8	ich	PPER	ich	_	O	O	
+7-9	denn	ADV	denn	_	O	O	
+7-10	auch	ADV	auch	_	O	O	
+7-11	die	ART	die	_	O	O	
+7-12	Auslagen	NN	Auslage	_	O	O	
+7-13	von	APPR	von	_	O	O	
+7-14	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+7-15	bereits	ADV	bereits	_	O	O	
+7-16	zurück	PTKVZ	zurück	_	O	O	
+7-17	erhielt	VVFIN	erhalten	_	O	O	
+7-18	.	$.	.	_	O	O	
+
+#id=8
+#text=- über die Bücherauslagen wird mein nächster Brief die Quittung bringen.
+8-1	-	$(	-	_	O	O	
+8-2	über	APPR	über	_	O	O	
+8-3	die	ART	die	_	O	O	
+8-4	Bücherauslagen	NN	<unknown>	_	O	O	
+8-5	wird	VAFIN	werden	_	O	O	
+8-6	mein	PPOSAT	mein	_	O	O	
+8-7	nächster	ADJA	nah	_	O	O	
+8-8	Brief	NN	Brief	_	O	O	
+8-9	die	ART	die	_	O	O	
+8-10	Quittung	NN	Quittung	_	O	O	
+8-11	bringen	VVINF	bringen	_	O	O	
+8-12	.	$.	.	_	O	O	
+
+#id=9
+#text=Sie werden jetzt l~ngst Friedländer gesehen u. das unendlich traurige Resultat seiner Reise erfahren haben.
+9-1	Sie	PPER	Sie	_	O	O	
+9-2	werden	VAFIN	werden	_	O	O	
+9-3	jetzt	ADV	jetzt	_	O	O	
+9-4	l~ngst	ADV	<unknown>	_	O	O	
+9-5	Friedländer	NN	Friedland	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-6	gesehen	VVPP	sehen	_	O	O	
+9-7	u.	APPR	um	_	O	O	
+9-8	das	ART	die	_	O	O	
+9-9	unendlich	ADJD	unendlich	_	O	O	
+9-10	traurige	ADJA	traurig	_	O	O	
+9-11	Resultat	NN	Resultat	_	O	O	
+9-12	seiner	PPOSAT	sein	_	O	O	
+9-13	Reise	NN	Reise	_	O	O	
+9-14	erfahren	VVPP	erfahren	_	O	O	
+9-15	haben	VAINF	haben	_	O	O	
+9-16	.	$.	.	_	O	O	
+
+#id=10
+#text=Uns hat die Trauernachricht tief erschüttert.
+10-1	Uns	PPER	wir	_	O	O	
+10-2	hat	VAFIN	haben	_	O	O	
+10-3	die	ART	die	_	O	O	
+10-4	Trauernachricht	NN	<unknown>	_	O	O	
+10-5	tief	ADJD	tief	_	O	O	
+10-6	erschüttert	VVPP	erschüttern	_	O	O	
+10-7	.	$.	.	_	O	O	
+
+#id=11
+#text=Wir hielten sehr viel von Philippi, der eben so liebenswJrdig, wie gescheudt u. Kenntnißreich, in jeder Beziehung durch u. durch tüchtig war.
+11-1	Wir	PPER	wir	_	O	O	
+11-2	hielten	VVFIN	halten	_	O	O	
+11-3	sehr	ADV	sehr	_	O	O	
+11-4	viel	ADV	viel	_	O	O	
+11-5	von	APPR	von	_	O	O	
+11-6	Philippi	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-7	,	$,	,	_	O	O	
+11-8	der	PRELS	die	_	O	O	
+11-9	eben	ADV	eben	_	O	O	
+11-10	so	ADV	so	_	O	O	
+11-11	liebenswJrdig	ADJD	<unknown>	_	O	O	
+11-12	,	$,	,	_	O	O	
+11-13	wie	KOUS	wie	_	O	O	
+11-14	gescheudt	NE	<unknown>	_	O	O	
+11-15	u.	APPR	um	_	O	O	
+11-16	Kenntnißreich	NN	<unknown>	_	O	O	
+11-17	,	$,	,	_	O	O	
+11-18	in	APPR	in	_	O	O	
+11-19	jeder	PIAT	jede	_	O	O	
+11-20	Beziehung	NN	Beziehung	_	O	O	
+11-21	durch	APPR	durch	_	O	O	
+11-22	u.	APPR	um	_	O	O	
+11-23	durch	APPR	durch	_	O	O	
+11-24	tüchtig	ADJD	tüchtig	_	O	O	
+11-25	war	VAFIN	sein	_	O	O	
+11-26	.	$.	.	_	O	O	
+
+#id=12
+#text=In diesem Zeitpunkt hatten wir seinen Tod nicht erwartet.
+12-1	In	APPR	in	_	O	O	
+12-2	diesem	PDAT	dies	_	O	O	
+12-3	Zeitpunkt	NN	Zeitpunkt	_	O	O	
+12-4	hatten	VAFIN	haben	_	O	O	
+12-5	wir	PPER	wir	_	O	O	
+12-6	seinen	PPOSAT	sein	_	O	O	
+12-7	Tod	NN	Tod	_	O	O	
+12-8	nicht	PTKNEG	nicht	_	O	O	
+12-9	erwartet	VVPP	erwarten	_	O	O	
+12-10	.	$.	.	_	O	O	
+
+#id=13
+#text=Sie wissen aus früheren Briefen, wie ich liber seinen ~ustand dachte.
+13-1	Sie	PPER	Sie	_	O	O	
+13-2	wissen	VVFIN	wissen	_	O	O	
+13-3	aus	APPR	aus	_	O	O	
+13-4	früheren	ADJA	früh	_	O	O	
+13-5	Briefen	NN	Brief	_	O	O	
+13-6	,	$,	,	_	O	O	
+13-7	wie	KOUS	wie	_	O	O	
+13-8	ich	PPER	ich	_	O	O	
+13-9	liber	ADJD	<unknown>	_	O	O	
+13-10	seinen	PPOSAT	sein	_	O	O	
+13-11	~ustand	NN	<unknown>	_	O	O	
+13-12	dachte	VVFIN	denken	_	O	O	
+13-13	.	$.	.	_	O	O	
+
+#id=14
+#text=Daß er ganz falsch behandelt sei, hat auch der Oestreichische Arzt in rv:ailand zugegeben,
+14-1	Daß	KOUS	dass	_	O	O	
+14-2	er	PPER	er	_	O	O	
+14-3	ganz	ADV	ganz	_	O	O	
+14-4	falsch	ADJD	falsch	_	O	O	
+14-5	behandelt	VVPP	behandeln	_	O	O	
+14-6	sei	VAFIN	sein	_	O	O	
+14-7	,	$,	,	_	O	O	
+14-8	hat	VAFIN	haben	_	O	O	
+14-9	auch	ADV	auch	_	O	O	
+14-10	der	ART	die	_	O	O	
+14-11	Oestreichische	NN	<unknown>	_	O	O	
+14-12	Arzt	NN	Arzt	_	O	O	
+14-13	in	APPR	in	_	O	O	
+14-14	rv:ailand	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+14-15	zugegeben	VVPP	zugeben	_	O	O	
+14-16	,	$,	,	_	O	O	
+

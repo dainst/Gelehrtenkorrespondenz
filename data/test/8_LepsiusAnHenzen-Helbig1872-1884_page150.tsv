@@ -1,0 +1,207 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=164 Lepsius an Henzen Berlin, 5. April 1874 g. 9/4 74 r. Berlin d. 5. April 1874 Verehrter Freund Meinen Brief vom 2. n d. mit der Abschrift des Etats werden Sie erhalten haben.
+1-1	164	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	9/4	CARD	9/4	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	r.	ADJA	<unknown>	_	O	O	
+1-15	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-16	d.	ART	d.	_	O	O	
+1-17	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Verehrter	ADJA	verehrt	_	O	O	
+1-22	Freund	NN	Freund	_	O	O	
+1-23	Meinen	PPOSAT	mein	_	O	O	
+1-24	Brief	NN	Brief	_	O	O	
+1-25	vom	APPRART	von	_	O	O	
+1-26	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-27	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-28	n	VVFIN	<unknown>	_	O	O	
+1-29	d.	PDS	d.	_	O	O	
+1-30	mit	APPR	mit	_	O	O	
+1-31	der	ART	die	_	O	O	
+1-32	Abschrift	NN	Abschrift	_	O	O	
+1-33	des	ART	die	_	O	O	
+1-34	Etats	NN	Etat	_	O	O	
+1-35	werden	VAFIN	werden	_	O	O	
+1-36	Sie	PPER	Sie	_	O	O	
+1-37	erhalten	VVPP	erhalten	_	O	O	
+1-38	haben	VAINF	haben	_	O	O	
+1-39	.	$.	.	_	O	O	
+
+#id=2
+#text=Binnen 14 Tagen werden wir aber auch durch Krüger's wirksame Hülfe die Statuten zurück erhalten, nachdem sie den Bundesrath passirt haben werden.
+2-1	Binnen	APPR	binnen	_	O	O	
+2-2	14	CARD	14	_	O	O	
+2-3	Tagen	NN	Tag	_	O	O	
+2-4	werden	VAFIN	werden	_	O	O	
+2-5	wir	PPER	wir	_	O	O	
+2-6	aber	ADV	aber	_	O	O	
+2-7	auch	ADV	auch	_	O	O	
+2-8	durch	APPR	durch	_	O	O	
+2-9	Krüger's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-10	wirksame	ADJA	wirksam	_	O	O	
+2-11	Hülfe	NN	<unknown>	_	O	O	
+2-12	die	ART	die	_	O	O	
+2-13	Statuten	NN	Statut	_	O	O	
+2-14	zurück	PTKVZ	zurück	_	O	O	
+2-15	erhalten	VVINF	erhalten	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	nachdem	KOUS	nachdem	_	O	O	
+2-18	sie	PPER	sie	_	O	O	
+2-19	den	ART	die	_	O	O	
+2-20	Bundesrath	NN	<unknown>	_	O	O	
+2-21	passirt	NN	<unknown>	_	O	O	
+2-22	haben	VAINF	haben	_	O	O	
+2-23	werden	VAFIN	werden	_	O	O	
+2-24	.	$.	.	_	O	O	
+
+#id=3
+#text=und so werden wir nun doch wohl mit der Ausr------- schreibung der Stipendien noch warten können, bis die weitere Centraldirektion berufen ist.
+3-1	und	KON	und	_	O	O	
+3-2	so	ADV	so	_	O	O	
+3-3	werden	VAFIN	werden	_	O	O	
+3-4	wir	PPER	wir	_	O	O	
+3-5	nun	ADV	nun	_	O	O	
+3-6	doch	ADV	doch	_	O	O	
+3-7	wohl	ADV	wohl	_	O	O	
+3-8	mit	APPR	mit	_	O	O	
+3-9	der	ART	die	_	O	O	
+3-10	Ausr-	TRUNC	<unknown>	_	O	O	
+3-11	--	$(	--	_	O	O	
+3-12	--	$(	--	_	O	O	
+3-13	--	$(	--	_	O	O	
+3-14	schreibung	NN	Schreibung	_	O	O	
+3-15	der	ART	die	_	O	O	
+3-16	Stipendien	NN	Stipendium	_	O	O	
+3-17	noch	ADV	noch	_	O	O	
+3-18	warten	VVINF	warten	_	O	O	
+3-19	können	VMINF	können	_	O	O	
+3-20	,	$,	,	_	O	O	
+3-21	bis	KOUS	bis	_	O	O	
+3-22	die	ART	die	_	O	O	
+3-23	weitere	ADJA	weit	_	O	O	
+3-24	Centraldirektion	NN	<unknown>	_	O	O	
+3-25	berufen	VVPP	berufen	_	O	O	
+3-26	ist	VAFIN	sein	_	O	O	
+3-27	.	$.	.	_	O	O	
+
+#id=4
+#text=Den Reichskanzler wollen wir nun angehen, uns zu erlauben den Reservefonds an die Legationskasse zur Verwaltung zu übergeben mit Abzug einer Summe für Rom und für Athen.
+4-1	Den	ART	die	_	O	O	
+4-2	Reichskanzler	NN	Reichskanzler	_	O	O	
+4-3	wollen	VMFIN	wollen	_	O	O	
+4-4	wir	PPER	wir	_	O	O	
+4-5	nun	ADV	nun	_	O	O	
+4-6	angehen	VVINF	angehen	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	uns	PPER	wir	_	O	O	
+4-9	zu	PTKZU	zu	_	O	O	
+4-10	erlauben	VVINF	erlauben	_	O	O	
+4-11	den	ART	die	_	O	O	
+4-12	Reservefonds	NN	Reservefonds	_	O	O	
+4-13	an	APPR	an	_	O	O	
+4-14	die	ART	die	_	O	O	
+4-15	Legationskasse	NN	<unknown>	_	O	O	
+4-16	zur	APPRART	zu	_	O	O	
+4-17	Verwaltung	NN	Verwaltung	_	O	O	
+4-18	zu	PTKZU	zu	_	O	O	
+4-19	übergeben	VVINF	übergeben	_	O	O	
+4-20	mit	APPR	mit	_	O	O	
+4-21	Abzug	NN	Abzug	_	O	O	
+4-22	einer	ART	eine	_	O	O	
+4-23	Summe	NN	Summe	_	O	O	
+4-24	für	APPR	für	_	O	O	
+4-25	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-26	und	KON	und	_	O	O	
+4-27	für	APPR	für	_	O	O	
+4-28	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-29	.	$.	.	_	O	O	
+
+#id=5
+#text=Dann werden wir die Anweisungen hier direkt geben können Die von mir vermiEten 1600 r werden Sie gefunden haben; sie waren nur in der Originalrechnung wunderlich verborgen.
+5-1	Dann	ADV	dann	_	O	O	
+5-2	werden	VAFIN	werden	_	O	O	
+5-3	wir	PPER	wir	_	O	O	
+5-4	die	ART	die	_	O	O	
+5-5	Anweisungen	NN	Anweisung	_	O	O	
+5-6	hier	ADV	hier	_	O	O	
+5-7	direkt	ADJD	direkt	_	O	O	
+5-8	geben	VVINF	geben	_	O	O	
+5-9	können	VMINF	können	_	O	O	
+5-10	Die	ART	die	_	O	O	
+5-11	von	APPR	von	_	O	O	
+5-12	mir	PPER	ich	_	O	O	
+5-13	vermiEten	VVFIN	vermieten	_	O	O	
+5-14	1600	CARD	@card@	_	O	O	
+5-15	r	NE	r	_	O	O	
+5-16	werden	VAFIN	werden	_	O	O	
+5-17	Sie	PPER	Sie	_	O	O	
+5-18	gefunden	VVPP	finden	_	O	O	
+5-19	haben	VAINF	haben	_	O	O	
+5-20	;	$.	;	_	O	O	
+5-21	sie	PPER	sie	_	O	O	
+5-22	waren	VAFIN	sein	_	O	O	
+5-23	nur	ADV	nur	_	O	O	
+5-24	in	APPR	in	_	O	O	
+5-25	der	ART	die	_	O	O	
+5-26	Originalrechnung	NN	<unknown>	_	O	O	
+5-27	wunderlich	ADJD	wunderlich	_	O	O	
+5-28	verborgen	VVPP	verbergen	_	O	O	
+5-29	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich werde wohl Ende dieses Monats eine bibliothekarische Rundreise bis nach Wien und Paris machen müssen.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	werde	VAFIN	werden	_	O	O	
+6-3	wohl	ADV	wohl	_	O	O	
+6-4	Ende	NN	Ende	_	O	O	
+6-5	dieses	PDAT	dies	_	O	O	
+6-6	Monats	NN	Monat	_	O	O	
+6-7	eine	ART	eine	_	O	O	
+6-8	bibliothekarische	ADJA	<unknown>	_	O	O	
+6-9	Rundreise	NN	Rundreise	_	O	O	
+6-10	bis	KON	bis	_	O	O	
+6-11	nach	APPR	nach	_	O	O	
+6-12	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-13	und	KON	und	_	O	O	
+6-14	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-15	machen	VVINF	machen	_	O	O	
+6-16	müssen	VMINF	müssen	_	O	O	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=Bis dahin werden die Statuten hoffentlich zurück sein.
+7-1	Bis	KON	bis	_	O	O	
+7-2	dahin	PAV	dahin	_	O	O	
+7-3	werden	VAFIN	werden	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	Statuten	NN	Statut	_	O	O	
+7-6	hoffentlich	ADV	hoffentlich	_	O	O	
+7-7	zurück	PTKVZ	zurück	_	O	O	
+7-8	sein	VAINF	sein	_	O	O	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=Ende Mai denke ich wieder hier zurück zu
+8-1	Ende	NN	Ende	_	O	O	
+8-2	Mai	NN	Mai	_	O	O	
+8-3	denke	VVFIN	denken	_	O	O	
+8-4	ich	PPER	ich	_	O	O	
+8-5	wieder	ADV	wieder	_	O	O	
+8-6	hier	ADV	hier	_	O	O	
+8-7	zurück	PTKVZ	zurück	_	O	O	
+8-8	zu	PTKZU	zu	_	O	O	
+

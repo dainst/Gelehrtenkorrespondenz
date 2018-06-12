@@ -1,0 +1,109 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=236 Gerhard an Braun Berlin, 5. Juli 1845 3 Wiese ist auf 4 Wochen in den Harz.
+1-1	236	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	3	CARD	3	_	O	O	
+1-12	Wiese	NN	Wiese	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-13	ist	VAFIN	sein	_	O	O	
+1-14	auf	APPR	auf	_	O	O	
+1-15	4	CARD	4	_	O	O	
+1-16	Wochen	NN	Woche	_	O	O	
+1-17	in	APPR	in	_	O	O	
+1-18	den	ART	die	_	O	O	
+1-19	Harz	NN	Harz	_	O	O	
+1-20	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich sehne mich Welckern wieder zu sehen; ich habe wieder längere Zeit nichts mehr von ihm gehört, seit ich eine Verstimmung von ihm beseitigte.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	sehne	VVFIN	sehnen	_	O	O	
+2-3	mich	PRF	ich	_	O	O	
+2-4	Welckern	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-5	wieder	ADV	wieder	_	O	O	
+2-6	zu	PTKZU	zu	_	O	O	
+2-7	sehen	VVINF	sehen	_	O	O	
+2-8	;	$.	;	_	O	O	
+2-9	ich	PPER	ich	_	O	O	
+2-10	habe	VAFIN	haben	_	O	O	
+2-11	wieder	ADV	wieder	_	O	O	
+2-12	längere	ADJA	lang	_	O	O	
+2-13	Zeit	NN	Zeit	_	O	O	
+2-14	nichts	PIS	nichts	_	O	O	
+2-15	mehr	ADV	mehr	_	O	O	
+2-16	von	APPR	von	_	O	O	
+2-17	ihm	PPER	er	_	O	O	
+2-18	gehört	VVFIN	gehören	_	O	O	
+2-19	,	$,	,	_	O	O	
+2-20	seit	KOUS	seit	_	O	O	
+2-21	ich	PPER	ich	_	O	O	
+2-22	eine	ART	eine	_	O	O	
+2-23	Verstimmung	NN	Verstimmung	_	O	O	
+2-24	von	APPR	von	_	O	O	
+2-25	ihm	PPER	er	_	O	O	
+2-26	beseitigte	VVFIN	beseitigen	_	O	O	
+2-27	.	$.	.	_	O	O	
+
+#id=3
+#text=Von Roß hörte ich lange nichts, erwarte ihn aber.
+3-1	Von	APPR	von	_	O	O	
+3-2	Roß	NN	Ross	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	hörte	VVFIN	hören	_	O	O	
+3-4	ich	PPER	ich	_	O	O	
+3-5	lange	ADV	lange	_	O	O	
+3-6	nichts	PIS	nichts	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	erwarte	VVFIN	erwarten	_	O	O	
+3-9	ihn	PPER	er	_	O	O	
+3-10	aber	ADV	aber	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=Parthey ist aus Athen decorirt zurückgekommen; sein Freund Brassier gilt dort für einen wirklichen {li' ' , i '\,.11 '..-/' v { ,·tA Mit allem Herzlichen für werthe Freunde der Ihrige Gerhard
+4-1	Parthey	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	ist	VAFIN	sein	_	O	O	
+4-3	aus	APPR	aus	_	O	O	
+4-4	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-5	decorirt	NN	<unknown>	_	O	O	
+4-6	zurückgekommen	VVPP	zurückkommen	_	O	O	
+4-7	;	$.	;	_	O	O	
+4-8	sein	PPOSAT	sein	_	O	O	
+4-9	Freund	NN	Freund	_	O	O	
+4-10	Brassier	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-11	gilt	VVFIN	gelten	_	O	O	
+4-12	dort	ADV	dort	_	O	O	
+4-13	für	APPR	für	_	O	O	
+4-14	einen	ART	eine	_	O	O	
+4-15	wirklichen	ADJA	wirklich	_	O	O	
+4-16	{	$(	{	_	O	O	
+4-17	li	NE	Li	_	O	O	
+4-18	'	$(	'	_	O	O	
+4-19	'	$(	'	_	O	O	
+4-20	,	$,	,	_	O	O	
+4-21	i	NE	i	_	O	O	
+4-22	'	$(	'	_	O	O	
+4-23	\,.11	CARD	<unknown>	_	O	O	
+4-24	'	$(	'	_	O	O	
+4-25	..-/	ADJA	<unknown>	_	O	O	
+4-26	'	$(	'	_	O	O	
+4-27	v	ADJA	<unknown>	_	O	O	
+4-28	{	$(	{	_	O	O	
+4-29	,·tA	NN	<unknown>	_	O	O	
+4-30	Mit	APPR	mit	_	O	O	
+4-31	allem	PIS	alle	_	O	O	
+4-32	Herzlichen	NN	Herzliche	_	O	O	
+4-33	für	APPR	für	_	O	O	
+4-34	werthe	NE	<unknown>	_	O	O	
+4-35	Freunde	NN	Freund	_	O	O	
+4-36	der	ART	die	_	O	O	
+4-37	Ihrige	PPOSAT	ihrige	_	O	O	
+4-38	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

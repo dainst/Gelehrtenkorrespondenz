@@ -1,0 +1,86 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=589 Lepsius an Henzen Berlin, 22. Dezember 1875 g. 27/XII 75 Berlin, den 22. Dez.
+1-1	589	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	27/XII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	,	$,	,	_	O	O	
+1-16	den	ART	die	_	O	O	
+1-17	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-19	Dez.	NN	Dez.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=2
+#text=1875 Herrn Professor Henzen Es stellt sich nun nachträglich heraus, daß für das Pariser Depot doch gar keine Schwierigkeit vorhanden ist hierher verlegt zu werden.
+2-1	1875	CARD	@card@	_	O	O	
+2-2	Herrn	NN	Herr	_	O	O	
+2-3	Professor	NN	Professor	_	O	O	
+2-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-5	Es	PPER	es	_	O	O	
+2-6	stellt	VVFIN	stellen	_	O	O	
+2-7	sich	PRF	sich	_	O	O	
+2-8	nun	ADV	nun	_	O	O	
+2-9	nachträglich	ADJD	nachträglich	_	O	O	
+2-10	heraus	PTKVZ	heraus	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	daß	KOUS	dass	_	O	O	
+2-13	für	APPR	für	_	O	O	
+2-14	das	ART	die	_	O	O	
+2-15	Pariser	NN	Pariser	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-16	Depot	NN	Depot	_	O	O	
+2-17	doch	ADV	doch	_	O	O	
+2-18	gar	ADV	gar	_	O	O	
+2-19	keine	PIAT	keine	_	O	O	
+2-20	Schwierigkeit	NN	Schwierigkeit	_	O	O	
+2-21	vorhanden	ADJD	vorhanden	_	O	O	
+2-22	ist	VAFIN	sein	_	O	O	
+2-23	hierher	PAV	hierher	_	O	O	
+2-24	verlegt	VVPP	verlegen	_	O	O	
+2-25	zu	PTKZU	zu	_	O	O	
+2-26	werden	VAINF	werden	_	O	O	
+2-27	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich frage daher nochmals an, welche Gründe, außer der Transportfrage, etwa dafür sprechen, daß es hierher oder nach Rom transportirt werde.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	frage	VVFIN	fragen	_	O	O	
+3-3	daher	PAV	daher	_	O	O	
+3-4	nochmals	ADV	nochmals	_	O	O	
+3-5	an	PTKVZ	an	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	welche	PRELS	welche	_	O	O	
+3-8	Gründe	NN	Grund	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	außer	APPR	außer	_	O	O	
+3-11	der	ART	die	_	O	O	
+3-12	Transportfrage	NN	Transportfrage	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	etwa	ADV	etwa	_	O	O	
+3-15	dafür	PAV	dafür	_	O	O	
+3-16	sprechen	VVFIN	sprechen	_	O	O	
+3-17	,	$,	,	_	O	O	
+3-18	daß	KOUS	dass	_	O	O	
+3-19	es	PPER	es	_	O	O	
+3-20	hierher	PAV	hierher	_	O	O	
+3-21	oder	KON	oder	_	O	O	
+3-22	nach	APPR	nach	_	O	O	
+3-23	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-24	transportirt	NN	<unknown>	_	O	O	
+3-25	werde	VAFIN	werden	_	O	O	
+3-26	.	$.	.	_	O	O	
+
+#id=4
+#text=Lepsius
+4-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

@@ -1,0 +1,189 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=366 2 Helbig an Henzen Siena, 14. Juli 1875 ber machen, müßte aber zur Beurtheilung der Münzen metrologische Daten haben.
+1-1	366	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	ber	ADJD	<unknown>	_	O	O	
+1-13	machen	VVFIN	machen	_	O	O	
+1-14	,	$,	,	_	O	O	
+1-15	müßte	VMFIN	müssen	_	O	O	
+1-16	aber	ADV	aber	_	O	O	
+1-17	zur	APPRART	zu	_	O	O	
+1-18	Beurtheilung	NN	<unknown>	_	O	O	
+1-19	der	ART	die	_	O	O	
+1-20	Münzen	NN	Münze	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-21	metrologische	ADJA	<unknown>	_	O	O	
+1-22	Daten	NN	Datum	_	O	O	
+1-23	haben	VAINF	haben	_	O	O	
+1-24	.	$.	.	_	O	O	
+
+#id=2
+#text=Sie scheinen mir, wenn mich mein Gedächtnis nicht täuscht, das Gewicht des phönikischen Staters zu haben ungenaue Wägung in einer hiesigen Apotheke Gramm 8 - 7.
+2-1	Sie	PPER	Sie	_	O	O	
+2-2	scheinen	VVFIN	scheinen	_	O	O	
+2-3	mir	PPER	ich	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	wenn	KOUS	wenn	_	O	O	
+2-6	mich	PPER	ich	_	O	O	
+2-7	mein	PPOSAT	mein	_	O	O	
+2-8	Gedächtnis	NN	Gedächtnis	_	O	O	
+2-9	nicht	PTKNEG	nicht	_	O	O	
+2-10	täuscht	VVFIN	täuschen	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	das	ART	die	_	O	O	
+2-13	Gewicht	NN	Gewicht	_	O	O	
+2-14	des	ART	die	_	O	O	
+2-15	phönikischen	ADJA	<unknown>	_	O	O	
+2-16	Staters	NN	<unknown>	_	O	O	
+2-17	zu	PTKZU	zu	_	O	O	
+2-18	haben	VAINF	haben	_	O	O	
+2-19	ungenaue	ADJA	ungenau	_	O	O	
+2-20	Wägung	NN	Wägung	_	O	O	
+2-21	in	APPR	in	_	O	O	
+2-22	einer	ART	eine	_	O	O	
+2-23	hiesigen	ADJA	hiesig	_	O	O	
+2-24	Apotheke	NN	Apotheke	_	O	O	
+2-25	Gramm	NN	Gramm	_	O	O	
+2-26	8	CARD	8	_	O	O	
+2-27	-	$(	-	_	O	O	
+2-28	7	CARD	7	_	O	O	
+2-29	.	$.	.	_	O	O	
+
+#id=3
+#text=Könnten Sie vielleicht bei Brandis das Normalgewicht dieses Staters constatiren und mir dasselbe mittheilen?
+3-1	Könnten	VMFIN	können	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	vielleicht	ADV	vielleicht	_	O	O	
+3-4	bei	APPR	bei	_	O	O	
+3-5	Brandis	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	das	ART	die	_	O	O	
+3-7	Normalgewicht	NN	Normalgewicht	_	O	O	
+3-8	dieses	PDAT	dies	_	O	O	
+3-9	Staters	NN	<unknown>	_	O	O	
+3-10	constatiren	ADJA	<unknown>	_	O	O	
+3-11	und	KON	und	_	O	O	
+3-12	mir	PPER	ich	_	O	O	
+3-13	dasselbe	PDAT	dasselb	_	O	O	
+3-14	mittheilen	NN	<unknown>	_	O	O	
+3-15	?	$.	?	_	O	O	
+
+#id=4
+#text=Dann könnte ich sofot den Artikel loslassen.
+4-1	Dann	ADV	dann	_	O	O	
+4-2	könnte	VMFIN	können	_	O	O	
+4-3	ich	PPER	ich	_	O	O	
+4-4	sofot	ADV	<unknown>	_	O	O	
+4-5	den	ART	die	_	O	O	
+4-6	Artikel	NN	Artikel	_	O	O	
+4-7	loslassen	VVINF	loslassen	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=Mit de Sanctis habe ich ausgemacht, daß ihm die sardinischen Zeichnungen gleich bezahlt würden, wie die in Rom ausgeführten.
+5-1	Mit	APPR	mit	_	O	O	
+5-2	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	Sanctis	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-4	habe	VAFIN	haben	_	O	O	
+5-5	ich	PPER	ich	_	O	O	
+5-6	ausgemacht	VVPP	ausmachen	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	daß	KOUS	dass	_	O	O	
+5-9	ihm	PPER	er	_	O	O	
+5-10	die	ART	die	_	O	O	
+5-11	sardinischen	ADJA	<unknown>	_	O	O	
+5-12	Zeichnungen	NN	Zeichnung	_	O	O	
+5-13	gleich	ADJD	gleich	_	O	O	
+5-14	bezahlt	VVPP	bezahlen	_	O	O	
+5-15	würden	VAFIN	werden	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	wie	KOUS	wie	_	O	O	
+5-18	die	ART	die	_	O	O	
+5-19	in	APPR	in	_	O	O	
+5-20	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-21	ausgeführten	ADJA	ausgeführt	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=Am Besten Sie zahlen ihm ein Acconto und ich mache nach meiner Rückkehr mit ihm eine reguläre Abrechnung.
+6-1	Am	APPRART	an	_	O	O	
+6-2	Besten	NN	Beste	_	O	O	
+6-3	Sie	PPER	Sie	_	O	O	
+6-4	zahlen	VVFIN	zahlen	_	O	O	
+6-5	ihm	PPER	er	_	O	O	
+6-6	ein	ART	eine	_	O	O	
+6-7	Acconto	NN	<unknown>	_	O	O	
+6-8	und	KON	und	_	O	O	
+6-9	ich	PPER	ich	_	O	O	
+6-10	mache	VVFIN	machen	_	O	O	
+6-11	nach	APPR	nach	_	O	O	
+6-12	meiner	PPOSAT	mein	_	O	O	
+6-13	Rückkehr	NN	Rückkehr	_	O	O	
+6-14	mit	APPR	mit	_	O	O	
+6-15	ihm	PPER	er	_	O	O	
+6-16	eine	ART	eine	_	O	O	
+6-17	reguläre	ADJA	regulär	_	O	O	
+6-18	Abrechnung	NN	Abrechnung	_	O	O	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=Meine Frau ist mit Hagens auf zwei Tage nach Orvieto gegangen.
+7-1	Meine	PPOSAT	mein	_	O	O	
+7-2	Frau	NN	Frau	_	O	O	
+7-3	ist	VAFIN	sein	_	O	O	
+7-4	mit	APPR	mit	_	O	O	
+7-5	Hagens	NE	Hagen	_	O	O	
+7-6	auf	APPR	auf	_	O	O	
+7-7	zwei	CARD	zwei	_	O	O	
+7-8	Tage	NN	Tag	_	O	O	
+7-9	nach	APPR	nach	_	O	O	
+7-10	Orvieto	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-11	gegangen	VVPP	gehen	_	O	O	
+7-12	.	$.	.	_	O	O	
+
+#id=8
+#text=Lili grüßt vielmals.
+8-1	Lili	NE	Lili	_	O	O	
+8-2	grüßt	VVFIN	grüßen	_	O	O	
+8-3	vielmals	ADV	vielmals	_	O	O	
+8-4	.	$.	.	_	O	O	
+
+#id=9
+#text=Mit herzlichem Gruß Ihr Helbig Neros Kräfte nehmen zusehends ab.
+9-1	Mit	APPR	mit	_	O	O	
+9-2	herzlichem	ADJA	herzlich	_	O	O	
+9-3	Gruß	NN	Gruß	_	O	O	
+9-4	Ihr	PPOSAT	ihr	_	O	O	
+9-5	Helbig	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-6	Neros	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-7	Kräfte	NN	Kraft	_	O	O	
+9-8	nehmen	VVFIN	nehmen	_	O	O	
+9-9	zusehends	ADV	zusehends	_	O	O	
+9-10	ab	PTKVZ	ab	_	O	O	
+9-11	.	$.	.	_	O	O	
+
+#id=10
+#text=Am Rande der ersten Seite Bitte Niemanden etwas von diesem Funde zu sagen.
+10-1	Am	APPRART	an	_	O	O	
+10-2	Rande	NN	Rand	_	O	O	
+10-3	der	ART	die	_	O	O	
+10-4	ersten	ADJA	erst	_	O	O	
+10-5	Seite	NN	Seite	_	O	O	
+10-6	Bitte	VVFIN	bitten	_	O	O	
+10-7	Niemanden	NN	<unknown>	_	O	O	
+10-8	etwas	ADV	etwas	_	O	O	
+10-9	von	APPR	von	_	O	O	
+10-10	diesem	PDAT	dies	_	O	O	
+10-11	Funde	NN	Fund	_	O	O	
+10-12	zu	PTKZU	zu	_	O	O	
+10-13	sagen	VVINF	sagen	_	O	O	
+10-14	.	$.	.	_	O	O	
+

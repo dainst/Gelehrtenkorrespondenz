@@ -1,0 +1,228 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=-- ";> 38 Verehrter Freund Lepsius an Henzen Berlin, 16. Januar 1875 g. 20/1 75 r.
+1-1	--	$(	--	_	O	O	
+1-2	"	$(	"	_	O	O	
+1-3	;	$.	;	_	O	O	
+1-4	>	$(	>	_	O	O	
+1-5	38	CARD	@card@	_	O	O	
+1-6	Verehrter	NN	Verehrte	_	O	O	
+1-7	Freund	NE	Freund	_	O	O	
+1-8	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-9	an	APPR	an	_	O	O	
+1-10	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-11	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-12	,	$,	,	_	O	O	
+1-13	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-14	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	g.	VVFIN	<unknown>	_	O	O	
+1-18	20/1	CARD	20/1	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-19	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-20	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=23/75 Berlin, den 16. Jan.
+2-1	23/75	CARD	@card@	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-3	,	$,	,	_	O	O	
+2-4	den	ART	die	_	O	O	
+2-5	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=3
+#text=1875 Gestern ist der neue Etat bei uns eingegangen und ich sende Ihnen sogleich eine Abschrift davon.
+3-1	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-2	Gestern	NN	Gestern	_	O	O	
+3-3	ist	VAFIN	sein	_	O	O	
+3-4	der	ART	die	_	O	O	
+3-5	neue	ADJA	neu	_	O	O	
+3-6	Etat	NN	Etat	_	O	O	
+3-7	bei	APPR	bei	_	O	O	
+3-8	uns	PRF	wir	_	O	O	
+3-9	eingegangen	VVPP	eingehen	_	O	O	
+3-10	und	KON	und	_	O	O	
+3-11	ich	PPER	ich	_	O	O	
+3-12	sende	VVFIN	senden	_	O	O	
+3-13	Ihnen	PPER	Sie	_	O	O	
+3-14	sogleich	ADV	sogleich	_	O	O	
+3-15	eine	ART	eine	_	O	O	
+3-16	Abschrift	NN	Abschrift	_	O	O	
+3-17	davon	PTKVZ	davon	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=In dem Begleitschreiben wird gesagt, daß er der Rechnungslegung zu Grunde gelegt werden soll (für 1874 bleibt es bei.Einsendung der Quittungen).
+4-1	In	APPR	in	_	O	O	
+4-2	dem	ART	die	_	O	O	
+4-3	Begleitschreiben	NN	Begleitschreiben	_	O	O	
+4-4	wird	VAFIN	werden	_	O	O	
+4-5	gesagt	VVPP	sagen	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	daß	KOUS	dass	_	O	O	
+4-8	er	PPER	er	_	O	O	
+4-9	der	ART	die	_	O	O	
+4-10	Rechnungslegung	NN	<unknown>	_	O	O	
+4-11	zu	APPR	zu	_	O	O	
+4-12	Grunde	NN	Grund	_	O	O	
+4-13	gelegt	VVPP	legen	_	O	O	
+4-14	werden	VAINF	werden	_	O	O	
+4-15	soll	VMFIN	sollen	_	O	O	
+4-16	(	$(	(	_	O	O	
+4-17	für	APPR	für	_	O	O	
+4-18	1874	CARD	@card@	_	O	O	
+4-19	bleibt	VVFIN	bleiben	_	O	O	
+4-20	es	PPER	es	_	O	O	
+4-21	bei.Einsendung	NN	<unknown>	_	O	O	
+4-22	der	ART	die	_	O	O	
+4-23	Quittungen	NN	Quittung	_	O	O	
+4-24	)	$(	)	_	O	O	
+4-25	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Legationskasse ist angewiesen worden Ihnen in Quartalraten praenumerando die Summe von 4 mal 7 762.50 M. zu z~len = 31 050 M jährlich.
+5-1	Die	ART	die	_	O	O	
+5-2	Legationskasse	NN	<unknown>	_	O	O	
+5-3	ist	VAFIN	sein	_	O	O	
+5-4	angewiesen	ADJD	angewiesen	_	O	O	
+5-5	worden	VAPP	werden	_	O	O	
+5-6	Ihnen	PPER	Sie	_	O	O	
+5-7	in	APPR	in	_	O	O	
+5-8	Quartalraten	NN	<unknown>	_	O	O	
+5-9	praenumerando	NE	<unknown>	_	O	O	
+5-10	die	ART	die	_	O	O	
+5-11	Summe	NN	Summe	_	O	O	
+5-12	von	APPR	von	_	O	O	
+5-13	4	CARD	4	_	O	O	
+5-14	mal	ADV	mal	_	O	O	
+5-15	7	CARD	7	_	O	O	
+5-16	762.50	CARD	@card@	_	O	O	
+5-17	M.	NE	M.	_	O	O	
+5-18	zu	PTKZU	zu	_	O	O	
+5-19	z~len	VVINF	<unknown>	_	O	O	
+5-20	=	$(	=	_	O	O	
+5-21	31	CARD	31	_	O	O	
+5-22	050	CARD	@card@	_	O	O	
+5-23	M	NN	M	_	O	O	
+5-24	jährlich	ADJD	jährlich	_	O	O	
+5-25	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich werde Ihnen nach unsrer bevorstehenden Sitzung mehr schreiben, namentlich ob es zweckmäßiger scheinen sollte, Ihnen einen Theil des Reservefmnds in Rom zu lassen, wie Sie es wünschten.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	werde	VAFIN	werden	_	O	O	
+6-3	Ihnen	PPER	Sie	_	O	O	
+6-4	nach	APPR	nach	_	O	O	
+6-5	unsrer	PPOSAT	unser	_	O	O	
+6-6	bevorstehenden	ADJA	bevorstehend	_	O	O	
+6-7	Sitzung	NN	Sitzung	_	O	O	
+6-8	mehr	ADV	mehr	_	O	O	
+6-9	schreiben	VVINF	schreiben	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	namentlich	ADJD	namentlich	_	O	O	
+6-12	ob	APPR	ob	_	O	O	
+6-13	es	PPER	es	_	O	O	
+6-14	zweckmäßiger	ADJD	zweckmäßiger	_	O	O	
+6-15	scheinen	VVINF	scheinen	_	O	O	
+6-16	sollte	VMFIN	sollen	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	Ihnen	PPER	Sie	_	O	O	
+6-19	einen	ART	eine	_	O	O	
+6-20	Theil	NN	<unknown>	_	O	O	
+6-21	des	ART	die	_	O	O	
+6-22	Reservefmnds	NN	<unknown>	_	O	O	
+6-23	in	APPR	in	_	O	O	
+6-24	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-25	zu	PTKZU	zu	_	O	O	
+6-26	lassen	VVINF	lassen	_	O	O	
+6-27	,	$,	,	_	O	O	
+6-28	wie	KOUS	wie	_	O	O	
+6-29	Sie	PPER	Sie	_	O	O	
+6-30	es	PPER	es	_	O	O	
+6-31	wünschten	VVFIN	wünschen	_	O	O	
+6-32	.	$.	.	_	O	O	
+
+#id=7
+#text=Das Siegel will ich also auf meine hiesige Rechnung nehmen.
+7-1	Das	ART	die	_	O	O	
+7-2	Siegel	NN	Siegel	_	O	O	
+7-3	will	VMFIN	wollen	_	O	O	
+7-4	ich	PPER	ich	_	O	O	
+7-5	also	ADV	also	_	O	O	
+7-6	auf	APPR	auf	_	O	O	
+7-7	meine	PPOSAT	mein	_	O	O	
+7-8	hiesige	ADJA	hiesig	_	O	O	
+7-9	Rechnung	NN	Rechnung	_	O	O	
+7-10	nehmen	VVINF	nehmen	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Den Termin für die Zusammenkuft der General Versammlung schreibe ich Ihnen sobald er feststeht.
+8-1	Den	ART	die	_	O	O	
+8-2	Termin	NN	Termin	_	O	O	
+8-3	für	APPR	für	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	Zusammenkuft	NN	<unknown>	_	O	O	
+8-6	der	ART	die	_	O	O	
+8-7	General	NN	General	_	O	O	
+8-8	Versammlung	NN	Versammlung	_	O	O	
+8-9	schreibe	VVFIN	schreiben	_	O	O	
+8-10	ich	PPER	ich	_	O	O	
+8-11	Ihnen	PPER	Sie	_	O	O	
+8-12	sobald	KOUS	sobald	_	O	O	
+8-13	er	PPER	er	_	O	O	
+8-14	feststeht	VVFIN	feststehen	_	O	O	
+8-15	.	$.	.	_	O	O	
+
+#id=9
+#text=Senden Sie doch umgehend eine Anzahl 5 - 6 Exemplarw des Elenco.
+9-1	Senden	VVFIN	senden	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	doch	ADV	doch	_	O	O	
+9-4	umgehend	ADJD	umgehend	_	O	O	
+9-5	eine	ART	eine	_	O	O	
+9-6	Anzahl	NN	Anzahl	_	O	O	
+9-7	5	CARD	5	_	O	O	
+9-8	-	$(	-	_	O	O	
+9-9	6	CARD	6	_	O	O	
+9-10	Exemplarw	NN	<unknown>	_	O	O	
+9-11	des	ART	die	_	O	O	
+9-12	Elenco	NE	<unknown>	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich habe 1 erhalten.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	habe	VAFIN	haben	_	O	O	
+10-3	1	CARD	1	_	O	O	
+10-4	erhalten	VVPP	erhalten	_	O	O	
+10-5	.	$.	.	_	O	O	
+
+#id=11
+#text=Endlich gehen die Exemplare der Photographien Laspeyres ein; doch fehlen noch die Exemplare der Originale, die ich noch reklamiren muß.
+11-1	Endlich	ADV	endlich	_	O	O	
+11-2	gehen	VVFIN	gehen	_	O	O	
+11-3	die	ART	die	_	O	O	
+11-4	Exemplare	NN	Exemplar	_	O	O	
+11-5	der	ART	die	_	O	O	
+11-6	Photographien	NN	Photographie	_	O	O	
+11-7	Laspeyres	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-8	ein	PTKVZ	ein	_	O	O	
+11-9	;	$.	;	_	O	O	
+11-10	doch	ADV	doch	_	O	O	
+11-11	fehlen	VVFIN	fehlen	_	O	O	
+11-12	noch	ADV	noch	_	O	O	
+11-13	die	ART	die	_	O	O	
+11-14	Exemplare	NN	Exemplar	_	O	O	
+11-15	der	ART	die	_	O	O	
+11-16	Originale	NN	Original	_	O	O	
+11-17	,	$,	,	_	O	O	
+11-18	die	PRELS	die	_	O	O	
+11-19	ich	PPER	ich	_	O	O	
+11-20	noch	ADV	noch	_	O	O	
+11-21	reklamiren	NN	<unknown>	_	O	O	
+11-22	muß	VMFIN	müssen	_	O	O	
+11-23	.	$.	.	_	O	O	
+

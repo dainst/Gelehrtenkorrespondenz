@@ -1,0 +1,213 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=, \ ~ 109 A. d. Dir.
+1-1	,	$,	,	_	O	O	
+1-2	\	XY	\	_	O	O	
+1-3	~	XY	~	_	O	O	
+1-4	109	CARD	@card@	_	O	O	
+1-5	A.	APPR	an	_	O	O	
+1-6	d.	ART	d.	_	O	O	
+1-7	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Dr. Braun Mein theurer Freund.
+2-1	Dr.	NN	Dr.	_	O	O	
+2-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-3	Mein	PPOSAT	mein	_	O	O	
+2-4	theurer	ADJA	<unknown>	_	O	O	
+2-5	Freund	NN	Freund	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Braun Berlin, 20. Februar 1844 G. 8/111 44 R. 9/111 44 Berlin 20 Febr 44 Ihre beiden Briefe vom 6 und 8 Februar empfange ich eben gleichzeitig.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	an	APPR	an	_	O	O	
+3-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-5	,	$,	,	_	O	O	
+3-6	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-10	G.	NE	G.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-11	8/111	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-12	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-13	R.	NE	R.	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-14	9/111	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-15	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-17	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-18	Febr	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-19	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-20	Ihre	PPOSAT	ihr	_	O	O	
+3-21	beiden	PIAT	beide	_	O	O	
+3-22	Briefe	NN	Brief	_	O	O	
+3-23	vom	APPRART	von	_	O	O	
+3-24	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-25	und	KON	und	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-26	8	CARD	8	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-27	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-28	empfange	VVFIN	empfangen	_	O	O	
+3-29	ich	PPER	ich	_	O	O	
+3-30	eben	ADV	eben	_	O	O	
+3-31	gleichzeitig	ADJD	gleichzeitig	_	O	O	
+3-32	.	$.	.	_	O	O	
+
+#id=4
+#text=Ihre Verhandlung mit Avellino und dessen Antwort ist ganz gut, alles in Ordnung; bündig aber finde ich die Antwort nicht.
+4-1	Ihre	PPOSAT	ihr	_	O	O	
+4-2	Verhandlung	NN	Verhandlung	_	O	O	
+4-3	mit	APPR	mit	_	O	O	
+4-4	Avellino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	und	KON	und	_	O	O	
+4-6	dessen	PDAT	die	_	O	O	
+4-7	Antwort	NN	Antwort	_	O	O	
+4-8	ist	VAFIN	sein	_	O	O	
+4-9	ganz	ADV	ganz	_	O	O	
+4-10	gut	ADJD	gut	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	alles	PIS	alle	_	O	O	
+4-13	in	APPR	in	_	O	O	
+4-14	Ordnung	NN	Ordnung	_	O	O	
+4-15	;	$.	;	_	O	O	
+4-16	bündig	ADJD	bündig	_	O	O	
+4-17	aber	ADV	aber	_	O	O	
+4-18	finde	VVFIN	finden	_	O	O	
+4-19	ich	PPER	ich	_	O	O	
+4-20	die	ART	die	_	O	O	
+4-21	Antwort	NN	Antwort	_	O	O	
+4-22	nicht	PTKNEG	nicht	_	O	O	
+4-23	.	$.	.	_	O	O	
+
+#id=5
+#text=Das Institut ist oft formlos gewesen, aber die Membri onorarj della Direzione haben stets eine solemne Anzeige erhalten, Avellino nur darum nicht weil er von tnfang an dazu gehörte; sein Diplom hat er also in allen ersten Aktenstücken der Gründung des Instituts erhalten, dessen Existenz seinem Amanuensis doch nicht entgangen sein sollte.
+5-1	Das	ART	die	_	O	O	
+5-2	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-3	ist	VAFIN	sein	_	O	O	
+5-4	oft	ADV	oft	_	O	O	
+5-5	formlos	ADJD	formlos	_	O	O	
+5-6	gewesen	VAPP	sein	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	aber	KON	aber	_	O	O	
+5-9	die	ART	die	_	O	O	
+5-10	Membri	NN	<unknown>	_	O	O	
+5-11	onorarj	NE	<unknown>	_	O	O	
+5-12	della	NE	Della	_	O	O	
+5-13	Direzione	NE	<unknown>	_	O	O	
+5-14	haben	VAFIN	haben	_	O	O	
+5-15	stets	ADV	stets	_	O	O	
+5-16	eine	ART	eine	_	O	O	
+5-17	solemne	NN	<unknown>	_	O	O	
+5-18	Anzeige	NN	Anzeige	_	O	O	
+5-19	erhalten	VVINF	erhalten	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	Avellino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-22	nur	ADV	nur	_	O	O	
+5-23	darum	PAV	darum	_	O	O	
+5-24	nicht	PTKNEG	nicht	_	O	O	
+5-25	weil	KOUS	weil	_	O	O	
+5-26	er	PPER	er	_	O	O	
+5-27	von	APPR	von	_	O	O	
+5-28	tnfang	NN	<unknown>	_	O	O	
+5-29	an	PTKVZ	an	_	O	O	
+5-30	dazu	PAV	dazu	_	O	O	
+5-31	gehörte	VVFIN	gehören	_	O	O	
+5-32	;	$.	;	_	O	O	
+5-33	sein	PPOSAT	sein	_	O	O	
+5-34	Diplom	NN	Diplom	_	O	O	
+5-35	hat	VAFIN	haben	_	O	O	
+5-36	er	PPER	er	_	O	O	
+5-37	also	ADV	also	_	O	O	
+5-38	in	APPR	in	_	O	O	
+5-39	allen	PIAT	alle	_	O	O	
+5-40	ersten	ADJA	erst	_	O	O	
+5-41	Aktenstücken	NN	Aktenstück	_	O	O	
+5-42	der	ART	die	_	O	O	
+5-43	Gründung	NN	Gründung	_	O	O	
+5-44	des	ART	die	_	O	O	
+5-45	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-46	erhalten	VVPP	erhalten	_	O	O	
+5-47	,	$,	,	_	O	O	
+5-48	dessen	PRELAT	die	_	O	O	
+5-49	Existenz	NN	Existenz	_	O	O	
+5-50	seinem	PPOSAT	sein	_	O	O	
+5-51	Amanuensis	NN	<unknown>	_	O	O	
+5-52	doch	ADV	doch	_	O	O	
+5-53	nicht	PTKNEG	nicht	_	O	O	
+5-54	entgangen	VVPP	entgehen	_	O	O	
+5-55	sein	VAINF	sein	_	O	O	
+5-56	sollte	VMFIN	sollen	_	O	O	
+5-57	.	$.	.	_	O	O	
+
+#id=6
+#text=Rochette der bei seiner Titelschaar dasselbe Manövre macht würde vermuthlich dieselbe Ausflucht haben, wenn man ihn danach fragte.
+6-1	Rochette	NN	<unknown>	_	O	O	
+6-2	der	ART	die	_	O	O	
+6-3	bei	APPR	bei	_	O	O	
+6-4	seiner	PPOSAT	sein	_	O	O	
+6-5	Titelschaar	NN	<unknown>	_	O	O	
+6-6	dasselbe	PDAT	dasselb	_	O	O	
+6-7	Manövre	NN	<unknown>	_	O	O	
+6-8	macht	VVFIN	machen	_	O	O	
+6-9	würde	VAFIN	werden	_	O	O	
+6-10	vermuthlich	ADJD	<unknown>	_	O	O	
+6-11	dieselbe	PDAT	dieselb	_	O	O	
+6-12	Ausflucht	NN	Ausflucht	_	O	O	
+6-13	haben	VAINF	haben	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	wenn	KOUS	wenn	_	O	O	
+6-16	man	PIS	man	_	O	O	
+6-17	ihn	PPER	er	_	O	O	
+6-18	danach	PAV	danach	_	O	O	
+6-19	fragte	VVFIN	fragen	_	O	O	
+6-20	.	$.	.	_	O	O	
+
+#id=7
+#text=Dieser Held verspricht einen hiesigen Besuch für den Monat April.
+7-1	Dieser	PDAT	dies	_	O	O	
+7-2	Held	NN	Held	_	O	O	
+7-3	verspricht	VVFIN	versprechen	_	O	O	
+7-4	einen	ART	eine	_	O	O	
+7-5	hiesigen	ADJA	hiesig	_	O	O	
+7-6	Besuch	NN	Besuch	_	O	O	
+7-7	für	APPR	für	_	O	O	
+7-8	den	ART	die	_	O	O	
+7-9	Monat	NN	Monat	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-10	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Kann Lanci entbehrlich gemacht werden, so müßte nach so langer Abwesenheit sich doch wol auch sein Gehalt oder dessen Hälfte ohne Zorn zu des armen Instituts Gunsten ihm ankünden lassen.
+8-1	Kann	VMFIN	können	_	O	O	
+8-2	Lanci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	entbehrlich	ADJD	entbehrlich	_	O	O	
+8-4	gemacht	VVPP	machen	_	O	O	
+8-5	werden	VAINF	werden	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	so	ADV	so	_	O	O	
+8-8	müßte	VMFIN	müssen	_	O	O	
+8-9	nach	APPR	nach	_	O	O	
+8-10	so	ADV	so	_	O	O	
+8-11	langer	ADJA	lang	_	O	O	
+8-12	Abwesenheit	NN	Abwesenheit	_	O	O	
+8-13	sich	PRF	sich	_	O	O	
+8-14	doch	ADV	doch	_	O	O	
+8-15	wol	ADJD	<unknown>	_	O	O	
+8-16	auch	ADV	auch	_	O	O	
+8-17	sein	PPOSAT	sein	_	O	O	
+8-18	Gehalt	NN	Gehalt	_	O	O	
+8-19	oder	KON	oder	_	O	O	
+8-20	dessen	PDAT	die	_	O	O	
+8-21	Hälfte	NN	Hälfte	_	O	O	
+8-22	ohne	APPR	ohne	_	O	O	
+8-23	Zorn	NN	Zorn	_	O	O	
+8-24	zu	APPR	zu	_	O	O	
+8-25	des	ART	die	_	O	O	
+8-26	armen	ADJA	arm	_	O	O	
+8-27	Instituts	NN	Institut	_	O	O	
+8-28	Gunsten	NN	Gunst	_	O	O	
+8-29	ihm	PPER	er	_	O	O	
+8-30	ankünden	NN	<unknown>	_	O	O	
+8-31	lassen	VVINF	lassen	_	O	O	
+8-32	.	$.	.	_	O	O	
+

@@ -1,0 +1,225 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=399 Lieber Herr Professor Helbig an Henzen Siena, 29. Juli 1875 g. 31/7 75 n. c. r. li, 29. Juli 1875 Aus Ihrem Briefe vom 27. an meine Frau sehe ich mit Schrecken, daß ein Brief von mir an Sie verloren gegangen.
+1-1	399	CARD	@card@	_	O	O	
+1-2	Lieber	ADJA	lieb	_	O	O	
+1-3	Herr	NN	Herr	_	O	O	
+1-4	Professor	NN	Professor	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	31/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	n.	APPR	n.	_	O	O	
+1-18	c.	ADJA	<unknown>	_	O	O	
+1-19	r.	ADJA	<unknown>	_	O	O	
+1-20	li	NN	<unknown>	_	O	O	
+1-21	,	$,	,	_	O	O	
+1-22	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-23	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-24	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-25	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-26	Aus	APPR	aus	_	O	O	
+1-27	Ihrem	PPOSAT	ihr	_	O	O	
+1-28	Briefe	NN	Brief	_	O	O	
+1-29	vom	APPRART	von	_	O	O	
+1-30	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-31	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-32	an	APPR	an	_	O	O	
+1-33	meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-34	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-35	sehe	VVFIN	sehen	_	O	O	
+1-36	ich	PPER	ich	_	O	O	
+1-37	mit	APPR	mit	_	O	O	
+1-38	Schrecken	NN	Schrecken	_	O	O	
+1-39	,	$,	,	_	O	O	
+1-40	daß	KOUS	dass	_	O	O	
+1-41	ein	ART	eine	_	O	O	
+1-42	Brief	NN	Brief	_	O	O	
+1-43	von	APPR	von	_	O	O	
+1-44	mir	PPER	ich	_	O	O	
+1-45	an	APPR	an	_	O	O	
+1-46	Sie	PPER	Sie	_	O	O	
+1-47	verloren	VVPP	verlieren	_	O	O	
+1-48	gegangen	VVPP	gehen	_	O	O	
+1-49	.	$.	.	_	O	O	
+
+#id=2
+#text=Das Exemplar der Tafel mit der Cornetaner Vase, das ich nach Rom zurückgeschickt, kann ja ganz gut an Heydemann abgeschickt werden d. h. nachdem Mariani di beiden von mir darauf notirten Correcturen berücksichtigt.
+2-1	Das	ART	die	_	O	O	
+2-2	Exemplar	NN	Exemplar	_	O	O	
+2-3	der	ART	die	_	O	O	
+2-4	Tafel	NN	Tafel	_	O	O	
+2-5	mit	APPR	mit	_	O	O	
+2-6	der	ART	die	_	O	O	
+2-7	Cornetaner	NN	<unknown>	_	O	O	
+2-8	Vase	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+2-9	,	$,	,	_	O	O	
+2-10	das	PRELS	die	_	O	O	
+2-11	ich	PPER	ich	_	O	O	
+2-12	nach	APPR	nach	_	O	O	
+2-13	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-14	zurückgeschickt	VVPP	zurückschicken	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	kann	VMFIN	können	_	O	O	
+2-17	ja	ADV	ja	_	O	O	
+2-18	ganz	ADV	ganz	_	O	O	
+2-19	gut	ADJD	gut	_	O	O	
+2-20	an	APPR	an	_	O	O	
+2-21	Heydemann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-22	abgeschickt	VVPP	abschicken	_	O	O	
+2-23	werden	VAINF	werden	_	O	O	
+2-24	d.	PDS	d.	_	O	O	
+2-25	h.	VVFIN	heißen	_	O	O	
+2-26	nachdem	KOUS	nachdem	_	O	O	
+2-27	Mariani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-28	di	NE	di	_	O	O	
+2-29	beiden	PIAT	beide	_	O	O	
+2-30	von	APPR	von	_	O	O	
+2-31	mir	PPER	ich	_	O	O	
+2-32	darauf	PAV	darauf	_	O	O	
+2-33	notirten	VVFIN	<unknown>	_	O	O	
+2-34	Correcturen	NN	<unknown>	_	O	O	
+2-35	berücksichtigt	VVPP	berücksichtigen	_	O	O	
+2-36	.	$.	.	_	O	O	
+
+#id=3
+#text=In Montepulciano bei Buccelli nur robbaccia.
+3-1	In	APPR	in	_	O	O	
+3-2	Montepulciano	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-3	bei	APPR	bei	_	O	O	
+3-4	Buccelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	nur	ADV	nur	_	O	O	
+3-6	robbaccia	NE	<unknown>	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Dagegen war das Fest, wenn man bedenkt, daß dasselbe in einem Städtchen von 3000 Einwohnern Statt fand, in authentischer und materieller Hinsicht gar nicht übel arrangirt.
+4-1	Dagegen	PAV	dagegen	_	O	O	
+4-2	war	VAFIN	sein	_	O	O	
+4-3	das	ART	die	_	O	O	
+4-4	Fest	NN	Fest	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	wenn	KOUS	wenn	_	O	O	
+4-7	man	PIS	man	_	O	O	
+4-8	bedenkt	VVFIN	bedenken	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	daß	KOUS	dass	_	O	O	
+4-11	dasselbe	PDS	dasselbe	_	O	O	
+4-12	in	APPR	in	_	O	O	
+4-13	einem	ART	eine	_	O	O	
+4-14	Städtchen	NN	Städtchen	_	O	O	
+4-15	von	APPR	von	_	O	O	
+4-16	3000	CARD	3000	_	O	O	
+4-17	Einwohnern	NN	Einwohner	_	O	O	
+4-18	Statt	NN	Statt	_	O	O	
+4-19	fand	VVFIN	finden	_	O	O	
+4-20	,	$,	,	_	O	O	
+4-21	in	APPR	in	_	O	O	
+4-22	authentischer	ADJA	authentisch	_	O	O	
+4-23	und	KON	und	_	O	O	
+4-24	materieller	ADJA	materiell	_	O	O	
+4-25	Hinsicht	NN	Hinsicht	_	O	O	
+4-26	gar	ADV	gar	_	O	O	
+4-27	nicht	PTKNEG	nicht	_	O	O	
+4-28	übel	ADJD	übel	_	O	O	
+4-29	arrangirt	NN	<unknown>	_	O	O	
+4-30	.	$.	.	_	O	O	
+
+#id=5
+#text=Gamurrini kam nicht.
+5-1	Gamurrini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	kam	VVFIN	kommen	_	O	O	
+5-3	nicht	PTKNEG	nicht	_	O	O	
+5-4	.	$.	.	_	O	O	
+
+#id=6
+#text=Auch ist er, wie ich von dem anwesenden Sindaco di Sarteano hörte, nicht in Chiusi, sondern auf seiner Tenu~a im Chianathale.
+6-1	Auch	ADV	auch	_	O	O	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	er	PPER	er	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	wie	KOUS	wie	_	O	O	
+6-6	ich	PPER	ich	_	O	O	
+6-7	von	APPR	von	_	O	O	
+6-8	dem	ART	die	_	O	O	
+6-9	anwesenden	ADJA	anwesend	_	O	O	
+6-10	Sindaco	NE	<unknown>	_	O	O	
+6-11	di	NE	di	_	O	O	
+6-12	Sarteano	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-13	hörte	VVFIN	hören	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	nicht	PTKNEG	nicht	_	O	O	
+6-16	in	APPR	in	_	O	O	
+6-17	Chiusi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-18	,	$,	,	_	O	O	
+6-19	sondern	KON	sondern	_	O	O	
+6-20	auf	APPR	auf	_	O	O	
+6-21	seiner	PPOSAT	sein	_	O	O	
+6-22	Tenu~a	NN	<unknown>	_	O	O	
+6-23	im	APPRART	in	_	O	O	
+6-24	Chianathale	NN	<unknown>	_	O	O	
+6-25	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich werde ihm nach Rom schreiben, von wo ihm, denke ich, die Briefe nachgeschickt werden.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	werde	VAFIN	werden	_	O	O	
+7-3	ihm	PPER	er	_	O	O	
+7-4	nach	APPR	nach	_	O	O	
+7-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-6	schreiben	VVINF	schreiben	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	von	APPR	von	_	O	O	
+7-9	wo	PWAV	wo	_	O	O	
+7-10	ihm	PPER	er	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	denke	VVFIN	denken	_	O	O	
+7-13	ich	PPER	ich	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	die	ART	die	_	O	O	
+7-16	Briefe	NN	Brief	_	O	O	
+7-17	nachgeschickt	VVPP	nachschicken	_	O	O	
+7-18	werden	VAFIN	werden	_	O	O	
+7-19	.	$.	.	_	O	O	
+
+#id=8
+#text=Um Sie nicht zu bemühen, habe ich an Nino um zwei weitere Exemplare der Bullettini geschrieben, die ich nächsten Sonntag an zwei weitere ausgrabende Piovani überliefern werde.
+8-1	Um	APPR	um	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	nicht	PTKNEG	nicht	_	O	O	
+8-4	zu	PTKZU	zu	_	O	O	
+8-5	bemühen	VVINF	bemühen	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	habe	VAFIN	haben	_	O	O	
+8-8	ich	PPER	ich	_	O	O	
+8-9	an	APPR	an	_	O	O	
+8-10	Nino	NE	Nino	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-11	um	APPR	um	_	O	O	
+8-12	zwei	CARD	zwei	_	O	O	
+8-13	weitere	ADJA	weit	_	O	O	
+8-14	Exemplare	NN	Exemplar	_	O	O	
+8-15	der	ART	die	_	O	O	
+8-16	Bullettini	NN	<unknown>	_	O	O	
+8-17	geschrieben	VVPP	schreiben	_	O	O	
+8-18	,	$,	,	_	O	O	
+8-19	die	PRELS	die	_	O	O	
+8-20	ich	PPER	ich	_	O	O	
+8-21	nächsten	ADJA	nah	_	O	O	
+8-22	Sonntag	NN	Sonntag	_	O	O	
+8-23	an	APPR	an	_	O	O	
+8-24	zwei	CARD	zwei	_	O	O	
+8-25	weitere	ADJA	weit	_	O	O	
+8-26	ausgrabende	ADJA	<unknown>	_	O	O	
+8-27	Piovani	NN	<unknown>	_	O	O	
+8-28	überliefern	VVINF	überliefern	_	O	O	
+8-29	werde	VAFIN	werden	_	O	O	
+8-30	.	$.	.	_	O	O	
+

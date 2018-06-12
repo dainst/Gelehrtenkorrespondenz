@@ -1,0 +1,30 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=19 2 Lepsius an Henzen Berlin, 10. Januar 1873 An Helbig e compagna besten Gruß.
+1-1	19	CARD	19	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	An	APPR	an	_	O	O	
+1-13	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-14	e	ADJA	<unknown>	_	O	O	
+1-15	compagna	NE	<unknown>	_	O	O	
+1-16	besten	ADJA	gut	_	O	O	
+1-17	Gruß	NN	Gruß	_	O	O	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Seine Briefe sind erledigt.
+2-1	Seine	PPOSAT	sein	_	O	O	
+2-2	Briefe	NN	Brief	_	O	O	
+2-3	sind	VAFIN	sein	_	O	O	
+2-4	erledigt	VVPP	erledigen	_	O	O	
+2-5	.	$.	.	_	O	O	
+

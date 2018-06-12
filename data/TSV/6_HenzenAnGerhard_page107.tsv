@@ -1,0 +1,295 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=124 Henzen an Gerhard 11/IV/53 2 r'c, 1 machen mus sen.
+1-1	124	CARD	@card@	_	O	O	
+1-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	11/IV/53	CARD	<unknown>	_	O	O	
+1-6	2	CARD	2	_	O	O	
+1-7	r'c	NE	<unknown>	_	O	O	
+1-8	,	$,	,	_	O	O	
+1-9	1	CARD	1	_	O	O	
+1-10	machen	VVFIN	machen	_	O	O	
+1-11	mus	ADJA	<unknown>	_	O	O	
+1-12	sen.	NN	sen.	_	O	O	
+
+#id=2
+#text=- Vorgestern starb Wahle an Bauchwassersucht; ein Sohn wird das Geschäft fortsetzen, der freilich eben erst von der Universität kommt.
+2-1	-	$(	-	_	O	O	
+2-2	Vorgestern	ADV	vorgestern	_	O	O	
+2-3	starb	VVFIN	sterben	_	O	O	
+2-4	Wahle	NN	<unknown>	_	O	O	
+2-5	an	APPR	an	_	O	O	
+2-6	Bauchwassersucht	NN	Bauchwassersucht	_	O	O	
+2-7	;	$.	;	_	O	O	
+2-8	ein	ART	eine	_	O	O	
+2-9	Sohn	NN	Sohn	_	O	O	
+2-10	wird	VAFIN	werden	_	O	O	
+2-11	das	ART	die	_	O	O	
+2-12	Geschäft	NN	Geschäft	_	O	O	
+2-13	fortsetzen	VVINF	fortsetzen	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	der	PRELS	die	_	O	O	
+2-16	freilich	ADV	freilich	_	O	O	
+2-17	eben	ADV	eben	_	O	O	
+2-18	erst	ADV	erst	_	O	O	
+2-19	von	APPR	von	_	O	O	
+2-20	der	ART	die	_	O	O	
+2-21	Universität	NN	Universität	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-22	kommt	VVFIN	kommen	_	O	O	
+2-23	.	$.	.	_	O	O	
+
+#id=3
+#text=- EiU/liegen- \ den Brief sind Sie wohl so gut, sei es in Berlin, sei es nach Leipzig zu besorgen.
+3-1	-	$(	-	_	O	O	
+3-2	EiU/liegen-	TRUNC	<unknown>	_	O	O	
+3-3	\	XY	\	_	O	O	
+3-4	den	ART	die	_	O	O	
+3-5	Brief	NN	Brief	_	O	O	
+3-6	sind	VAFIN	sein	_	O	O	
+3-7	Sie	PPER	Sie	_	O	O	
+3-8	wohl	ADV	wohl	_	O	O	
+3-9	so	ADV	so	_	O	O	
+3-10	gut	ADJD	gut	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	sei	VAFIN	sein	_	O	O	
+3-13	es	PPER	es	_	O	O	
+3-14	in	APPR	in	_	O	O	
+3-15	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-16	,	$,	,	_	O	O	
+3-17	sei	VAFIN	sein	_	O	O	
+3-18	es	PPER	es	_	O	O	
+3-19	nach	APPR	nach	_	O	O	
+3-20	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-21	zu	PTKZU	zu	_	O	O	
+3-22	besorgen	VVINF	besorgen	_	O	O	
+3-23	.	$.	.	_	O	O	
+
+#id=4
+#text=- Leben Sie recht wohl u. empfehlen mich bestens Ihrer 1.
+4-1	-	$(	-	_	O	O	
+4-2	Leben	VVFIN	leben	_	O	O	
+4-3	Sie	PPER	Sie	_	O	O	
+4-4	recht	ADJD	recht	_	O	O	
+4-5	wohl	ADV	wohl	_	O	O	
+4-6	u.	KON	und	_	O	O	
+4-7	empfehlen	VVFIN	empfehlen	_	O	O	
+4-8	mich	PRF	ich	_	O	O	
+4-9	bestens	ADV	bestens	_	O	O	
+4-10	Ihrer	PPOSAT	ihr	_	O	O	
+4-11	1	CARD	1	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Frau, für die eine lange Epistel beiliegt.
+5-1	Frau	NN	Frau	_	O	O	
+5-2	,	$,	,	_	O	O	
+5-3	für	APPR	für	_	O	O	
+5-4	die	PRELS	die	_	O	O	
+5-5	eine	ART	eine	_	O	O	
+5-6	lange	ADJA	lang	_	O	O	
+5-7	Epistel	NN	Epistel	_	O	O	
+5-8	beiliegt	VVFIN	beiliegen	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihr WHz.
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	WHz	NN	<unknown>	_	O	O	
+6-3	.	$.	.	_	O	O	
+
+#id=7
+#text=Rom 11/IV 53 Wie gefallen denn in Berlin Mommsen's An 1 kten?
+7-1	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+7-2	11/IV	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+7-3	53	CARD	53	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-4	Wie	KOKOM	wie	_	O	O	
+7-5	gefallen	VVPP	fallen|gefallen	_	O	O	
+7-6	denn	KON	denn	_	O	O	
+7-7	in	APPR	in	_	O	O	
+7-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-9	Mommsen's	VVFIN	<unknown>	_	O	O	
+7-10	An	APPR	an	_	O	O	
+7-11	1	CARD	1	_	O	O	
+7-12	kten	NN	<unknown>	_	O	O	
+7-13	?	$.	?	_	O	O	
+
+#id=8
+#text=Die Akademie thäte doch wohl daren, die betreffenden Partien ds.
+8-1	Die	ART	die	_	O	O	
+8-2	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-3	thäte	ADJD	<unknown>	_	O	O	
+8-4	doch	ADV	doch	_	O	O	
+8-5	wohl	ADV	wohl	_	O	O	
+8-6	daren	VVFIN	<unknown>	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	die	ART	die	_	O	O	
+8-9	betreffenden	ADJA	betreffend	_	O	O	
+8-10	Partien	NN	Partie	_	O	O	
+8-11	ds.	ADJD	<unknown>	_	O	O	
+
+#id=9
+#text=C.I.Gr. zu cassiren u. umzudrucken.
+9-1	C.I.Gr	NE	<unknown>	_	O	O	
+9-2	.	$.	.	_	O	O	
+9-3	zu	APPR	zu	_	O	O	
+9-4	cassiren	NN	<unknown>	_	O	O	
+9-5	u.	APPR	um	_	O	O	
+9-6	umzudrucken	NE	<unknown>	_	O	O	
+9-7	.	$.	.	_	O	O	
+
+#id=10
+#text=Es ist eine Schande für sie, Ligorio nicht zu kennen.
+10-1	Es	PPER	es	_	O	O	
+10-2	ist	VAFIN	sein	_	O	O	
+10-3	eine	ART	eine	_	O	O	
+10-4	Schande	NN	Schande	_	O	O	
+10-5	für	APPR	für	_	O	O	
+10-6	sie	PPER	sie	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	Ligorio	NE	<unknown>	_	O	O	
+10-9	nicht	PTKNEG	nicht	_	O	O	
+10-10	zu	PTKZU	zu	_	O	O	
+10-11	kennen	VVINF	kennen	_	O	O	
+10-12	.	$.	.	_	O	O	
+
+#id=11
+#text=,- I Für Riccio, den Ihnen die ~iste bringt, schulden Sie dem i !
+11-1	,-	TRUNC	<unknown>	_	O	O	
+11-2	I	FM	I	_	O	O	
+11-3	Für	APPR	für	_	O	O	
+11-4	Riccio	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-5	,	$,	,	_	O	O	
+11-6	den	PRELS	die	_	O	O	
+11-7	Ihnen	PPER	Sie	_	O	O	
+11-8	die	ART	die	_	O	O	
+11-9	~iste	NN	<unknown>	_	O	O	
+11-10	bringt	VVFIN	bringen	_	O	O	
+11-11	,	$,	,	_	O	O	
+11-12	schulden	VVFIN	schulden	_	O	O	
+11-13	Sie	PPER	Sie	_	O	O	
+11-14	dem	ART	die	_	O	O	
+11-15	i	NE	i	_	O	O	
+11-16	!	$.	!	_	O	O	
+
+#id=12
+#text=j I Institut Sc.
+12-1	j	NE	<unknown>	_	O	O	
+12-2	I	NE	I	_	O	O	
+12-3	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+12-4	Sc.	NE	<unknown>	_	O	O	
+
+#id=13
+#text=2.65 Papier ='vf.
+13-1	2.65	CARD	@card@	_	O	O	
+13-2	Papier	NN	Papier	_	O	O	
+13-3	='vf	NE	<unknown>	_	O	O	
+13-4	.	$.	.	_	O	O	
+
+#id=14
+#text=3 - 25 Sgo. circa.
+14-1	3	CARD	3	_	O	O	
+14-2	-	$(	-	_	O	O	
+14-3	25	CARD	25	_	O	O	
+14-4	Sgo	NE	<unknown>	_	O	O	
+14-5	.	$.	.	_	O	O	
+14-6	circa	ADV	circa	_	O	O	
+14-7	.	$.	.	_	O	O	
+
+#id=15
+#text=!
+15-1	!	$.	!	_	O	O	
+
+#id=16
+#text=L,"-, 12/IV Die Ankunft Ihres 1.
+16-1	L,"-	TRUNC	<unknown>	_	O	O	
+16-2	,	$,	,	_	O	O	
+16-3	12/IV	TRUNC	<unknown>	_	O	O	
+16-4	Die	ART	die	_	O	O	
+16-5	Ankunft	NN	Ankunft	_	O	O	
+16-6	Ihres	PPOSAT	ihr	_	O	O	
+16-7	1	CARD	1	_	O	O	
+16-8	.	$.	.	_	O	O	
+
+#id=17
+#text=Bri@fsvom 2r: veranlasste mich, vorstehende Zeilen noch zurückzuhalten.
+17-1	Bri@fsvom	NE	<unknown>	_	O	O	
+17-2	2r	NE	<unknown>	_	O	O	
+17-3	:	$.	:	_	O	O	
+17-4	veranlasste	VVFIN	veranlassen	_	O	O	
+17-5	mich	PRF	ich	_	O	O	
+17-6	,	$,	,	_	O	O	
+17-7	vorstehende	ADJA	vorstehend	_	O	O	
+17-8	Zeilen	NN	Zeile	_	O	O	
+17-9	noch	ADV	noch	_	O	O	
+17-10	zurückzuhalten	VVIZU	zurückhalten	_	O	O	
+17-11	.	$.	.	_	O	O	
+
+#id=18
+#text=- Den Vorschlag, Usedom zum Honorarpräsidenten z,u m,gchen, modificire ich ( u. Welcker u. Braun stimmen bei) dahin, diesen Titel dem jedesmaligen Preußischen Gesandten beizulegen, wozu freilich vielleicht die königl. Genehmigung nothwendig.
+18-1	-	$(	-	_	O	O	
+18-2	Den	ART	die	_	O	O	
+18-3	Vorschlag	NN	Vorschlag	_	O	O	
+18-4	,	$,	,	_	O	O	
+18-5	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-6	zum	APPRART	zu	_	O	O	
+18-7	Honorarpräsidenten	NN	<unknown>	_	O	O	
+18-8	z,u	NE	<unknown>	_	O	O	
+18-9	m,gchen	VVFIN	<unknown>	_	O	O	
+18-10	,	$,	,	_	O	O	
+18-11	modificire	VVFIN	<unknown>	_	O	O	
+18-12	ich	PPER	ich	_	O	O	
+18-13	(	$(	(	_	O	O	
+18-14	u.	APPR	um	_	O	O	
+18-15	Welcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-16	u.	APPR	um	_	O	O	
+18-17	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-18	stimmen	VVFIN	stimmen	_	O	O	
+18-19	bei	PTKVZ	bei	_	O	O	
+18-20	)	$(	)	_	O	O	
+18-21	dahin	PAV	dahin	_	O	O	
+18-22	,	$,	,	_	O	O	
+18-23	diesen	PDAT	dies	_	O	O	
+18-24	Titel	NN	Titel	_	O	O	
+18-25	dem	ART	die	_	O	O	
+18-26	jedesmaligen	ADV	<unknown>	_	O	O	
+18-27	Preußischen	ADJA	preußisch	_	O	O	
+18-28	Gesandten	NN	<unknown>	_	O	O	
+18-29	beizulegen	VVIZU	beilegen	_	O	O	
+18-30	,	$,	,	_	O	O	
+18-31	wozu	PWAV	wozu	_	O	O	
+18-32	freilich	ADV	freilich	_	O	O	
+18-33	vielleicht	ADV	vielleicht	_	O	O	
+18-34	die	ART	die	_	O	O	
+18-35	königl	NE	<unknown>	_	O	O	
+18-36	.	$.	.	_	O	O	
+18-37	Genehmigung	NN	Genehmigung	_	O	O	
+18-38	nothwendig	ADJD	<unknown>	_	O	O	
+18-39	.	$.	.	_	O	O	
+
+#id=19
+#text=Wir brauchen eine Stütze der Art; man ~laubt hier an eine viel directere Unterstützung des Instituts, als sie es wir-
+19-1	Wir	PPER	wir	_	O	O	
+19-2	brauchen	VVFIN	brauchen	_	O	O	
+19-3	eine	ART	eine	_	O	O	
+19-4	Stütze	NN	Stütze	_	O	O	
+19-5	der	ART	die	_	O	O	
+19-6	Art	NN	Art	_	O	O	
+19-7	;	$.	;	_	O	O	
+19-8	man	PIS	man	_	O	O	
+19-9	~laubt	VVFIN	<unknown>	_	O	O	
+19-10	hier	ADV	hier	_	O	O	
+19-11	an	APPR	an	_	O	O	
+19-12	eine	ART	eine	_	O	O	
+19-13	viel	ADV	viel	_	O	O	
+19-14	directere	ADJA	<unknown>	_	O	O	
+19-15	Unterstützung	NN	Unterstützung	_	O	O	
+19-16	des	ART	die	_	O	O	
+19-17	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+19-18	,	$,	,	_	O	O	
+19-19	als	KOUS	als	_	O	O	
+19-20	sie	PPER	sie	_	O	O	
+19-21	es	PPER	es	_	O	O	
+19-22	wir-	TRUNC	wir-	_	O	O	
+

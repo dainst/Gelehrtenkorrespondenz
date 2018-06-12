@@ -1,0 +1,243 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=--------- Verehrter Freund Richard Lepsius an Wolfgang Helbig ; Berlin, 6. Januar 1874 Berlin den 6. Jan 1874 Heute endlich ist Ihre Sendung vom Auswärtigen hier angekommen.
+1-1	--	$(	--	_	O	O	
+1-2	--	$(	--	_	O	O	
+1-3	--	$(	--	_	O	O	
+1-4	--	$(	--	_	O	O	
+1-5	-	$(	-	_	O	O	
+1-6	Verehrter	NN	Verehrte	_	O	O	
+1-7	Freund	NE	Freund	_	O	O	
+1-8	Richard	NE	Richard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-9	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-10	an	APPR	an	_	O	O	
+1-11	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-12	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-13	;	$.	;	_	O	O	
+1-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	,	$,	,	_	O	O	
+1-16	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-21	den	ART	die	_	O	O	
+1-22	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-23	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-24	Jan	NE	Jan	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-25	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-26	Heute	ADV	heute	_	O	O	
+1-27	endlich	ADV	endlich	_	O	O	
+1-28	ist	VAFIN	sein	_	O	O	
+1-29	Ihre	PPOSAT	ihr	_	O	O	
+1-30	Sendung	NN	Sendung	_	O	O	
+1-31	vom	APPRART	von	_	O	O	
+1-32	Auswärtigen	NN	Auswärtige	_	O	O	
+1-33	hier	ADV	hier	_	O	O	
+1-34	angekommen	VVPP	ankommen	_	O	O	
+1-35	.	$.	.	_	O	O	
+
+#id=2
+#text=Das Geräusch in dem verschlossenen Kästchen war mir sehr verdächtig; ich meinte es müßten lauter kleine Schärbchen darin poltern.
+2-1	Das	ART	die	_	O	O	
+2-2	Geräusch	NN	Geräusch	_	O	O	
+2-3	in	APPR	in	_	O	O	
+2-4	dem	ART	die	_	O	O	
+2-5	verschlossenen	ADJA	verschlossen	_	O	O	
+2-6	Kästchen	NN	Kästchen	_	O	O	
+2-7	war	VAFIN	sein	_	O	O	
+2-8	mir	PPER	ich	_	O	O	
+2-9	sehr	ADV	sehr	_	O	O	
+2-10	verdächtig	ADJD	verdächtig	_	O	O	
+2-11	;	$.	;	_	O	O	
+2-12	ich	PPER	ich	_	O	O	
+2-13	meinte	VVFIN	meinen	_	O	O	
+2-14	es	PPER	es	_	O	O	
+2-15	müßten	VMFIN	müssen	_	O	O	
+2-16	lauter	ADJD	laut	_	O	O	
+2-17	kleine	ADJA	klein	_	O	O	
+2-18	Schärbchen	NN	<unknown>	_	O	O	
+2-19	darin	PAV	darin	_	O	O	
+2-20	poltern	VVINF	poltern	_	O	O	
+2-21	.	$.	.	_	O	O	
+
+#id=3
+#text=Indessen fand sich, daß nur um die Hauptsache herum eine Menge kleiner Metalluren Holz und Erdstückchen in Auflösung waren, von denen nur einige, 4, größeren verbogenen Bleistücken sich aussonderten, alles Übrige weg zu schütten war.
+3-1	Indessen	ADV	indessen	_	O	O	
+3-2	fand	VVFIN	finden	_	O	O	
+3-3	sich	PRF	sich	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	daß	KOUS	dass	_	O	O	
+3-6	nur	ADV	nur	_	O	O	
+3-7	um	APPR	um	_	O	O	
+3-8	die	ART	die	_	O	O	
+3-9	Hauptsache	NN	Hauptsache	_	O	O	
+3-10	herum	APZR	herum	_	O	O	
+3-11	eine	ART	eine	_	O	O	
+3-12	Menge	NN	Menge	_	O	O	
+3-13	kleiner	ADJA	klein	_	O	O	
+3-14	Metalluren	NN	<unknown>	_	O	O	
+3-15	Holz	NN	Holz	_	O	O	
+3-16	und	KON	und	_	O	O	
+3-17	Erdstückchen	NN	<unknown>	_	O	O	
+3-18	in	APPR	in	_	O	O	
+3-19	Auflösung	NN	Auflösung	_	O	O	
+3-20	waren	VAFIN	sein	_	O	O	
+3-21	,	$,	,	_	O	O	
+3-22	von	APPR	von	_	O	O	
+3-23	denen	PRELS	die	_	O	O	
+3-24	nur	ADV	nur	_	O	O	
+3-25	einige	PIS	einige	_	O	O	
+3-26	,	$,	,	_	O	O	
+3-27	4	CARD	4	_	O	O	
+3-28	,	$,	,	_	O	O	
+3-29	größeren	ADJA	groß	_	O	O	
+3-30	verbogenen	ADJA	verbogen	_	O	O	
+3-31	Bleistücken	NN	<unknown>	_	O	O	
+3-32	sich	PRF	sich	_	O	O	
+3-33	aussonderten	ADJD	<unknown>	_	O	O	
+3-34	,	$,	,	_	O	O	
+3-35	alles	PIAT	alle	_	O	O	
+3-36	Übrige	NN	Übrige	_	O	O	
+3-37	weg	PTKVZ	weg	_	O	O	
+3-38	zu	PTKZU	zu	_	O	O	
+3-39	schütten	VVINF	schütten	_	O	O	
+3-40	war	VAFIN	sein	_	O	O	
+3-41	.	$.	.	_	O	O	
+
+#id=4
+#text=Ferner zwei kleine Pappkästchen mit kleinen Kupfernägelchen und vielleicht lederstückchen in dem einen, und Knochen, Smaltproben und Holzstückchen in dem andern.
+4-1	Ferner	ADJD	fern	_	O	O	
+4-2	zwei	CARD	zwei	_	O	O	
+4-3	kleine	ADJA	klein	_	O	O	
+4-4	Pappkästchen	NN	<unknown>	_	O	O	
+4-5	mit	APPR	mit	_	O	O	
+4-6	kleinen	ADJA	klein	_	O	O	
+4-7	Kupfernägelchen	NN	<unknown>	_	O	O	
+4-8	und	KON	und	_	O	O	
+4-9	vielleicht	ADV	vielleicht	_	O	O	
+4-10	lederstückchen	VVFIN	<unknown>	_	O	O	
+4-11	in	APPR	in	_	O	O	
+4-12	dem	ART	die	_	O	O	
+4-13	einen	PIS	eine	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	und	KON	und	_	O	O	
+4-16	Knochen	NN	Knochen	_	O	O	
+4-17	,	$,	,	_	O	O	
+4-18	Smaltproben	NN	<unknown>	_	O	O	
+4-19	und	KON	und	_	O	O	
+4-20	Holzstückchen	NN	Holzstückchen	_	O	O	
+4-21	in	APPR	in	_	O	O	
+4-22	dem	ART	die	_	O	O	
+4-23	andern	PIS	andere	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=Endlich aber die kleine Smalt-Statue, vortrefflich erhalten und von sorgfältigster Arbeit.
+5-1	Endlich	ADV	endlich	_	O	O	
+5-2	aber	ADV	aber	_	O	O	
+5-3	die	ART	die	_	O	O	
+5-4	kleine	ADJA	klein	_	O	O	
+5-5	Smalt-Statue	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-6	,	$,	,	_	O	O	
+5-7	vortrefflich	ADJD	vortrefflich	_	O	O	
+5-8	erhalten	VVPP	erhalten	_	O	O	
+5-9	und	KON	und	_	O	O	
+5-10	von	APPR	von	_	O	O	
+5-11	sorgfältigster	ADJA	sorgfältig	_	O	O	
+5-12	Arbeit	NN	Arbeit	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Sie ist ächt ägyptisch, gehört einem königlichen Schreiber Hor, Sohn der Men-enteNit (Geliebt von der Nerith ), und ist dem Stile nach aus Psametichzeit, um 600 vor Ohr.
+6-1	Sie	PPER	Sie	_	O	O	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	ächt	VVFIN	<unknown>	_	O	O	
+6-4	ägyptisch	ADJD	ägyptisch	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	gehört	VVFIN	gehören	_	O	O	
+6-7	einem	ART	eine	_	O	O	
+6-8	königlichen	ADJA	königlich	_	O	O	
+6-9	Schreiber	NN	Schreiber	_	O	O	
+6-10	Hor	NN	<unknown>	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	Sohn	NN	Sohn	_	O	O	
+6-13	der	ART	die	_	O	O	
+6-14	Men-enteNit	NN	<unknown>	_	O	O	
+6-15	(	$(	(	_	O	O	
+6-16	Geliebt	NN	<unknown>	_	O	O	
+6-17	von	APPR	von	_	O	O	
+6-18	der	ART	die	_	O	O	
+6-19	Nerith	NE	<unknown>	_	O	O	
+6-20	)	$(	)	_	O	O	
+6-21	,	$,	,	_	O	O	
+6-22	und	KON	und	_	O	O	
+6-23	ist	VAFIN	sein	_	O	O	
+6-24	dem	ART	die	_	O	O	
+6-25	Stile	NN	Stil	_	O	O	
+6-26	nach	APPR	nach	_	O	O	
+6-27	aus	APPR	aus	_	O	O	
+6-28	Psametichzeit	NN	<unknown>	_	O	O	
+6-29	,	$,	,	_	O	O	
+6-30	um	APPR	um	_	O	O	
+6-31	600	CARD	600	_	O	O	
+6-32	vor	APPR	vor	_	O	O	
+6-33	Ohr	NN	Ohr	_	O	O	
+6-34	.	$.	.	_	O	O	
+
+#id=7
+#text=Der Text enthält die gewöhnlichen Formeln dieser kleinen Statuen, welche uschbti, respondentes, hießen und dem Verstorbenen in jener Welt gewisse Vortheile verschafften; sie wurden immer in größerer Zahl mit ins Grab gegeben.
+7-1	Der	ART	die	_	O	O	
+7-2	Text	NN	Text	_	O	O	
+7-3	enthält	VVFIN	enthalten	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	gewöhnlichen	ADJA	gewöhnlich	_	O	O	
+7-6	Formeln	NN	Formel	_	O	O	
+7-7	dieser	PDAT	dies	_	O	O	
+7-8	kleinen	ADJA	klein	_	O	O	
+7-9	Statuen	NN	Statue	_	B-webanno.custom.LetterEntity_	B-OBJ	
+7-10	,	$,	,	_	O	O	
+7-11	welche	PRELS	welche	_	O	O	
+7-12	uschbti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-13	,	$,	,	_	O	O	
+7-14	respondentes	NE	<unknown>	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	hießen	VVFIN	heißen	_	O	O	
+7-17	und	KON	und	_	O	O	
+7-18	dem	ART	die	_	O	O	
+7-19	Verstorbenen	NN	Verstorbene	_	O	O	
+7-20	in	APPR	in	_	O	O	
+7-21	jener	PDAT	jen	_	O	O	
+7-22	Welt	NN	Welt	_	O	O	
+7-23	gewisse	ADJA	gewiss	_	O	O	
+7-24	Vortheile	NN	<unknown>	_	O	O	
+7-25	verschafften	VVFIN	verschaffen	_	O	O	
+7-26	;	$.	;	_	O	O	
+7-27	sie	PPER	sie	_	O	O	
+7-28	wurden	VAFIN	werden	_	O	O	
+7-29	immer	ADV	immer	_	O	O	
+7-30	in	APPR	in	_	O	O	
+7-31	größerer	ADJA	groß	_	O	O	
+7-32	Zahl	NN	Zahl	_	O	O	
+7-33	mit	APPR	mit	_	O	O	
+7-34	ins	APPRART	in	_	O	O	
+7-35	Grab	NN	Grab	_	O	O	
+7-36	gegeben	VVPP	geben	_	O	O	
+7-37	.	$.	.	_	O	O	
+
+#id=8
+#text=Was diese fremde Reliquie nun in einem etruskischen Grabe zu thun hat ?
+8-1	Was	PWS	was	_	O	O	
+8-2	diese	PDS	diese	_	O	O	
+8-3	fremde	ADJA	fremd	_	O	O	
+8-4	Reliquie	NN	Reliquie	_	O	O	
+8-5	nun	ADV	nun	_	O	O	
+8-6	in	APPR	in	_	O	O	
+8-7	einem	ART	eine	_	O	O	
+8-8	etruskischen	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-9	Grabe	NN	Grab	_	I-webanno.custom.LetterEntity_	I-OBJ	
+8-10	zu	APPR	zu	_	O	O	
+8-11	thun	NE	<unknown>	_	O	O	
+8-12	hat	VAFIN	haben	_	O	O	
+8-13	?	$.	?	_	O	O	
+

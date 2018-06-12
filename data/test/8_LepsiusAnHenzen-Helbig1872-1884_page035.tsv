@@ -1,0 +1,96 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=197 3 Lepsius an Henzen Berlin, 8. Mai 1872 wenn Laspeyre~in 14 Tagen selbst kommt, wird wohl Alles noch einzurenken sein.
+1-1	197	CARD	@card@	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	wenn	KOUS	wenn	_	O	O	
+1-13	Laspeyre~in	NE	<unknown>	_	O	O	
+1-14	14	CARD	14	_	O	O	
+1-15	Tagen	NN	Tag	_	O	O	
+1-16	selbst	ADV	selbst	_	O	O	
+1-17	kommt	VVFIN	kommen	_	O	O	
+1-18	,	$,	,	_	O	O	
+1-19	wird	VAFIN	werden	_	O	O	
+1-20	wohl	ADV	wohl	_	O	O	
+1-21	Alles	PIS	alle	_	O	O	
+1-22	noch	ADV	noch	_	O	O	
+1-23	einzurenken	VVIZU	einrenken	_	O	O	
+1-24	sein	VAINF	sein	_	O	O	
+1-25	.	$.	.	_	O	O	
+
+#id=2
+#text=Ihre Kreaturen machen die Runde.
+2-1	Ihre	PPOSAT	ihr	_	O	O	
+2-2	Kreaturen	NN	Kreatur	_	O	O	
+2-3	machen	VVFIN	machen	_	O	O	
+2-4	die	ART	die	_	O	O	
+2-5	Runde	NN	Runde	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Diplome muß ich erst noch umdrucken lassen, um dem Imperatore sein Recht zu geben.
+3-1	Die	ART	die	_	O	O	
+3-2	Diplome	NN	Diplom	_	O	O	
+3-3	muß	VMFIN	müssen	_	O	O	
+3-4	ich	PPER	ich	_	O	O	
+3-5	erst	ADV	erst	_	O	O	
+3-6	noch	ADV	noch	_	O	O	
+3-7	umdrucken	ADJD	<unknown>	_	O	O	
+3-8	lassen	VVINF	lassen	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	um	KOUI	um	_	O	O	
+3-11	dem	ART	die	_	O	O	
+3-12	Imperatore	NN	<unknown>	_	O	O	
+3-13	sein	PPOSAT	sein	_	O	O	
+3-14	Recht	NN	Recht	_	O	O	
+3-15	zu	PTKZU	zu	_	O	O	
+3-16	geben	VVINF	geben	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Ihr ergebenster R. Lepsius Am Rande der ersten Seite : Nach dem was mir Dielitz sagt, muß sich sein Brief mit dem von Helbig gekreuzt haben.
+4-1	Ihr	PPOSAT	ihr	_	O	O	
+4-2	ergebenster	ADJA	<unknown>	_	O	O	
+4-3	R.	NE	R.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+4-4	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+4-5	Am	APPRART	an	_	O	O	
+4-6	Rande	NN	Rand	_	O	O	
+4-7	der	ART	die	_	O	O	
+4-8	ersten	ADJA	erst	_	O	O	
+4-9	Seite	NN	Seite	_	O	O	
+4-10	:	$.	:	_	O	O	
+4-11	Nach	APPR	nach	_	O	O	
+4-12	dem	ART	die	_	O	O	
+4-13	was	PRELS	was	_	O	O	
+4-14	mir	PPER	ich	_	O	O	
+4-15	Dielitz	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-16	sagt	VVFIN	sagen	_	O	O	
+4-17	,	$,	,	_	O	O	
+4-18	muß	VMFIN	müssen	_	O	O	
+4-19	sich	PRF	sich	_	O	O	
+4-20	sein	PPOSAT	sein	_	O	O	
+4-21	Brief	NN	Brief	_	O	O	
+4-22	mit	APPR	mit	_	O	O	
+4-23	dem	ART	die	_	O	O	
+4-24	von	APPR	von	_	O	O	
+4-25	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-26	gekreuzt	VVPP	kreuzen	_	O	O	
+4-27	haben	VAINF	haben	_	O	O	
+4-28	.	$.	.	_	O	O	
+
+#id=5
+#text=Über Lanciani nächstens.
+5-1	Über	APPR	über	_	O	O	
+5-2	Lanciani	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	nächstens	ADV	nächstens	_	O	O	
+5-4	.	$.	.	_	O	O	
+

@@ -1,0 +1,247 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=23 Verehrter Freund Lepsius an Renzen Berlin, 6. Januar 1875 g. 11/1 75 r.
+1-1	23	CARD	23	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	11/1	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=12/75 Berlin, den 6. Jan.
+2-1	12/75	CARD	@card@	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-3	,	$,	,	_	O	O	
+2-4	den	ART	die	_	O	O	
+2-5	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=3
+#text=1875 Reute hat mir Asher die von Ihnen angekündigten 400 r 16.
+3-1	1875	CARD	@card@	_	O	O	
+3-2	Reute	NN	<unknown>	_	O	O	
+3-3	hat	VAFIN	haben	_	O	O	
+3-4	mir	PPER	ich	_	O	O	
+3-5	Asher	ADV	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	die	ART	die	_	O	O	
+3-7	von	APPR	von	_	O	O	
+3-8	Ihnen	PPER	Sie	_	O	O	
+3-9	angekündigten	ADJA	angekündigt	_	O	O	
+3-10	400	CARD	400	_	O	O	
+3-11	r	NE	r	_	O	O	
+3-12	16	CARD	16	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=6.
+4-1	6	CARD	6	_	O	O	
+4-2	.	$.	.	_	O	O	
+
+#id=5
+#text=ausgezahlt, als zum Reservefonds gehörig.
+5-1	ausgezahlt	VVPP	auszahlen	_	O	O	
+5-2	,	$,	,	_	O	O	
+5-3	als	KOKOM	als	_	O	O	
+5-4	zum	APPRART	zu	_	O	O	
+5-5	Reservefonds	NN	Reservefonds	_	O	O	
+5-6	gehörig	ADJD	gehörig	_	O	O	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=Sie lagern einstweilen bei mir.
+6-1	Sie	PPER	Sie	_	O	O	
+6-2	lagern	VVFIN	lagern	_	O	O	
+6-3	einstweilen	ADV	einstweilen	_	O	O	
+6-4	bei	APPR	bei	_	O	O	
+6-5	mir	PPER	ich	_	O	O	
+6-6	.	$.	.	_	O	O	
+
+#id=7
+#text=Zu Ihrer Liste der neuen Institutsmitglieder kommen nun von hier aus noch Prof.
+7-1	Zu	APPR	zu	_	O	O	
+7-2	Ihrer	PPOSAT	ihr	_	O	O	
+7-3	Liste	NN	Liste	_	O	O	
+7-4	der	ART	die	_	O	O	
+7-5	neuen	ADJA	neu	_	O	O	
+7-6	Institutsmitglieder	NN	Institutsmitglied	_	O	O	
+7-7	kommen	VVFIN	kommen	_	O	O	
+7-8	nun	ADV	nun	_	O	O	
+7-9	von	APPR	von	_	O	O	
+7-10	hier	ADV	hier	_	O	O	
+7-11	aus	APZR	aus	_	O	O	
+7-12	noch	ADV	noch	_	O	O	
+7-13	Prof.	NN	Prof.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=8
+#text=Dr.
+8-1	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=9
+#text=Förster in Breslau membro ordinario (Schöne) Joseph KampeI, Kustos am Museum zu Pest ~ Prof.
+9-1	Förster	NN	Förster	_	O	O	
+9-2	in	APPR	in	_	O	O	
+9-3	Breslau	NE	Breslau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-4	membro	NE	<unknown>	_	O	O	
+9-5	ordinario	NN	<unknown>	_	O	O	
+9-6	(	$(	(	_	O	O	
+9-7	Schöne	NN	Schöne	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-8	)	$(	)	_	O	O	
+9-9	Joseph	NE	Joseph	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-10	KampeI	NN	<unknown>	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	Kustos	NN	<unknown>	_	O	O	
+9-13	am	APPRART	an	_	O	O	
+9-14	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-15	zu	APPR	zu	_	O	O	
+9-16	Pest	NN	Pest	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-17	~	XY	~	_	O	O	
+9-18	Prof.	NN	Prof.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=10
+#text=Matkovic, in Agram beide membri corrispondenti (Mommsen) Ich lege Ihnen Mommsen's Zettel bei, da ich ihn heute nicht fragen kann ob der Mann Rampel oder Kampel heißt.
+10-1	Matkovic	NE	<unknown>	_	O	O	
+10-2	,	$,	,	_	O	O	
+10-3	in	APPR	in	_	O	O	
+10-4	Agram	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-5	beide	PIAT	beide	_	O	O	
+10-6	membri	NN	<unknown>	_	O	O	
+10-7	corrispondenti	NN	<unknown>	_	O	O	
+10-8	(	$(	(	_	O	O	
+10-9	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-10	)	$(	)	_	O	O	
+10-11	Ich	PPER	ich	_	O	O	
+10-12	lege	VVFIN	legen	_	O	O	
+10-13	Ihnen	PPER	Sie	_	O	O	
+10-14	Mommsen's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-15	Zettel	NN	Zettel	_	O	O	
+10-16	bei	PTKVZ	bei	_	O	O	
+10-17	,	$,	,	_	O	O	
+10-18	da	KOUS	da	_	O	O	
+10-19	ich	PPER	ich	_	O	O	
+10-20	ihn	PPER	er	_	O	O	
+10-21	heute	ADV	heute	_	O	O	
+10-22	nicht	PTKNEG	nicht	_	O	O	
+10-23	fragen	VVINF	fragen	_	O	O	
+10-24	kann	VMFIN	können	_	O	O	
+10-25	ob	KOUS	ob	_	O	O	
+10-26	der	ART	die	_	O	O	
+10-27	Mann	NN	Mann	_	O	O	
+10-28	Rampel	NN	<unknown>	_	O	O	
+10-29	oder	KON	oder	_	O	O	
+10-30	Kampel	NN	<unknown>	_	O	O	
+10-31	heißt	VVFIN	heißen	_	O	O	
+10-32	.	$.	.	_	O	O	
+
+#id=11
+#text=Sie kennen seine Rand, um das Richtige zu lesen.
+11-1	Sie	PPER	Sie	_	O	O	
+11-2	kennen	VVFIN	kennen	_	O	O	
+11-3	seine	PPOSAT	sein	_	O	O	
+11-4	Rand	NN	Rand	_	O	O	
+11-5	,	$,	,	_	O	O	
+11-6	um	KOUI	um	_	O	O	
+11-7	das	ART	die	_	O	O	
+11-8	Richtige	NN	Richtige	_	O	O	
+11-9	zu	PTKZU	zu	_	O	O	
+11-10	lesen	VVINF	lesen	_	O	O	
+11-11	.	$.	.	_	O	O	
+
+#id=12
+#text=Wenige Tage nach meinem letzten Briefe am 30 n Mittags ist dann Matz gestorben; am ~ d. haben wir ihn begraben.
+12-1	Wenige	PIAT	wenige	_	O	O	
+12-2	Tage	NN	Tag	_	O	O	
+12-3	nach	APPR	nach	_	O	O	
+12-4	meinem	PPOSAT	mein	_	O	O	
+12-5	letzten	ADJA	letzt	_	O	O	
+12-6	Briefe	NN	Brief	_	O	O	
+12-7	am	APPRART	an	_	O	O	
+12-8	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+12-9	n	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+12-10	Mittags	NN	Mittag	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+12-11	ist	VAFIN	sein	_	O	O	
+12-12	dann	ADV	dann	_	O	O	
+12-13	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-14	gestorben	VVPP	sterben	_	O	O	
+12-15	;	$.	;	_	O	O	
+12-16	am	APPRART	an	_	O	O	
+12-17	~	XY	~	_	O	O	
+12-18	d.	PDS	d.	_	O	O	
+12-19	haben	VAFIN	haben	_	O	O	
+12-20	wir	PPER	wir	_	O	O	
+12-21	ihn	PPER	er	_	O	O	
+12-22	begraben	VVPP	begraben	_	O	O	
+12-23	.	$.	.	_	O	O	
+
+#id=13
+#text=Je näher man ihn kannte, um so mehr lernte man ihn auch schätzen.
+13-1	Je	ADV	je	_	O	O	
+13-2	näher	ADJD	nah	_	O	O	
+13-3	man	PIS	man	_	O	O	
+13-4	ihn	PPER	er	_	O	O	
+13-5	kannte	VVFIN	kennen	_	O	O	
+13-6	,	$,	,	_	O	O	
+13-7	um	KOUI	um	_	O	O	
+13-8	so	ADV	so	_	O	O	
+13-9	mehr	ADV	mehr	_	O	O	
+13-10	lernte	VVFIN	lernen	_	O	O	
+13-11	man	PIS	man	_	O	O	
+13-12	ihn	PPER	er	_	O	O	
+13-13	auch	ADV	auch	_	O	O	
+13-14	schätzen	VVINF	schätzen	_	O	O	
+13-15	.	$.	.	_	O	O	
+
+#id=14
+#text=Die Lücke die er läßt, wird auch schwer zu ersetzen sein.
+14-1	Die	ART	die	_	O	O	
+14-2	Lücke	NN	Lücke	_	O	O	
+14-3	die	PRELS	die	_	O	O	
+14-4	er	PPER	er	_	O	O	
+14-5	läßt	VVFIN	lassen	_	O	O	
+14-6	,	$,	,	_	O	O	
+14-7	wird	VAFIN	werden	_	O	O	
+14-8	auch	ADV	auch	_	O	O	
+14-9	schwer	ADJD	schwer	_	O	O	
+14-10	zu	PTKZU	zu	_	O	O	
+14-11	ersetzen	VVINF	ersetzen	_	O	O	
+14-12	sein	VAINF	sein	_	O	O	
+14-13	.	$.	.	_	O	O	
+
+#id=15
+#text=Grüßen Sie Relbig, dessen Brief ich so eben er~ halten.
+15-1	Grüßen	VVFIN	grüßen	_	O	O	
+15-2	Sie	PPER	Sie	_	O	O	
+15-3	Relbig	ADJD	<unknown>	_	O	O	
+15-4	,	$,	,	_	O	O	
+15-5	dessen	PRELAT	die	_	O	O	
+15-6	Brief	NN	Brief	_	O	O	
+15-7	ich	PPER	ich	_	O	O	
+15-8	so	ADV	so	_	O	O	
+15-9	eben	ADV	eben	_	O	O	
+15-10	er~	ADJD	<unknown>	_	O	O	
+15-11	halten	VVINF	halten	_	O	O	
+15-12	.	$.	.	_	O	O	
+
+#id=16
+#text=Seine Frage wird von hier aus schwer zu beant-
+16-1	Seine	PPOSAT	sein	_	O	O	
+16-2	Frage	NN	Frage	_	O	O	
+16-3	wird	VAFIN	werden	_	O	O	
+16-4	von	APPR	von	_	O	O	
+16-5	hier	ADV	hier	_	O	O	
+16-6	aus	APZR	aus	_	O	O	
+16-7	schwer	ADJD	schwer	_	O	O	
+16-8	zu	APPR	zu	_	O	O	
+16-9	beant-	TRUNC	<unknown>	_	O	O	
+

@@ -1,0 +1,105 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=593 3 Lepsius an Henzen Berlin, 18. Oktober 1876 Ich wünsche von Herzen, daß Sie neu gestärkt in den Winter wieder eintreten.
+1-1	593	CARD	@card@	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Ich	PPER	ich	_	O	O	
+1-13	wünsche	VVFIN	wünschen	_	O	O	
+1-14	von	APPR	von	_	O	O	
+1-15	Herzen	NN	Herz	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	daß	KOUS	dass	_	O	O	
+1-18	Sie	PPER	Sie	_	O	O	
+1-19	neu	ADJD	neu	_	O	O	
+1-20	gestärkt	VVPP	stärken	_	O	O	
+1-21	in	APPR	in	_	O	O	
+1-22	den	ART	die	_	O	O	
+1-23	Winter	NN	Winter	_	O	O	
+1-24	wieder	ADV	wieder	_	O	O	
+1-25	eintreten	VVINF	eintreten	_	O	O	
+1-26	.	$.	.	_	O	O	
+
+#id=2
+#text=Wir sind hier endlich in einem schönen Nachherbst eingetreten, der auch dem spärlichen Obst zu Gute kommt, besonders den Trauben die nun eine gute Ernte versprechen.
+2-1	Wir	PPER	wir	_	O	O	
+2-2	sind	VAFIN	sein	_	O	O	
+2-3	hier	ADV	hier	_	O	O	
+2-4	endlich	ADV	endlich	_	O	O	
+2-5	in	APPR	in	_	O	O	
+2-6	einem	ART	eine	_	O	O	
+2-7	schönen	ADJA	schön	_	O	O	
+2-8	Nachherbst	NN	<unknown>	_	O	O	
+2-9	eingetreten	VVPP	eintreten	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	der	PRELS	die	_	O	O	
+2-12	auch	ADV	auch	_	O	O	
+2-13	dem	ART	die	_	O	O	
+2-14	spärlichen	ADJA	spärlich	_	O	O	
+2-15	Obst	NN	Obst	_	O	O	
+2-16	zu	APPR	zu	_	O	O	
+2-17	Gute	NN	Gute	_	O	O	
+2-18	kommt	VVFIN	kommen	_	O	O	
+2-19	,	$,	,	_	O	O	
+2-20	besonders	ADV	besonders	_	O	O	
+2-21	den	ART	die	_	O	O	
+2-22	Trauben	NN	Traube	_	O	O	
+2-23	die	ART	die	_	O	O	
+2-24	nun	ADV	nun	_	O	O	
+2-25	eine	ART	eine	_	O	O	
+2-26	gute	ADJA	gut	_	O	O	
+2-27	Ernte	NN	Ernte	_	O	O	
+2-28	versprechen	VVFIN	versprechen	_	O	O	
+2-29	.	$.	.	_	O	O	
+
+#id=3
+#text=Mich hat Kissingen zwar nicht wieder verjüngt, aber doch im Ganzen gestärkt.
+3-1	Mich	PPER	ich	_	O	O	
+3-2	hat	VAFIN	haben	_	O	O	
+3-3	Kissingen	NE	Kissingen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-4	zwar	ADV	zwar	_	O	O	
+3-5	nicht	PTKNEG	nicht	_	O	O	
+3-6	wieder	ADV	wieder	_	O	O	
+3-7	verjüngt	VVPP	verjüngen	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	aber	KON	aber	_	O	O	
+3-10	doch	ADV	doch	_	O	O	
+3-11	im	APPRART	in	_	O	O	
+3-12	Ganzen	NN	Ganze	_	O	O	
+3-13	gestärkt	VVPP	stärken	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Grüßen Sie Helbig von mir.
+4-1	Grüßen	VVFIN	grüßen	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-4	von	APPR	von	_	O	O	
+4-5	mir	PPER	ich	_	O	O	
+4-6	.	$.	.	_	O	O	
+
+#id=5
+#text=Der Antrag für ihn geht natürlich ab.
+5-1	Der	ART	die	_	O	O	
+5-2	Antrag	NN	Antrag	_	O	O	
+5-3	für	APPR	für	_	O	O	
+5-4	ihn	PPER	er	_	O	O	
+5-5	geht	VVFIN	gehen	_	O	O	
+5-6	natürlich	ADV	natürlich	_	O	O	
+5-7	ab	PTKVZ	ab	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihr R L.
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-3	L.	NE	L.	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

@@ -1,0 +1,46 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=453 Helbig an Henzen Neapel, 28. September 1864 3 NB.
+1-1	453	CARD	@card@	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	3	CARD	3	_	O	O	
+1-12	NB	NE	NB	_	O	O	
+1-13	.	$.	.	_	O	O	
+
+#id=2
+#text=Eben war der Canonicus Criscio bei mir und sagte mir, daß bei einem Proprietario in Pozzuoli 80 Inschriften aufgespeichert liegen.
+2-1	Eben	ADV	eben	_	O	O	
+2-2	war	VAFIN	sein	_	O	O	
+2-3	der	ART	die	_	O	O	
+2-4	Canonicus	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-5	Criscio	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-6	bei	APPR	bei	_	O	O	
+2-7	mir	PPER	ich	_	O	O	
+2-8	und	KON	und	_	O	O	
+2-9	sagte	VVFIN	sagen	_	O	O	
+2-10	mir	PPER	ich	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	daß	KOUS	dass	_	O	O	
+2-13	bei	APPR	bei	_	O	O	
+2-14	einem	ART	eine	_	O	O	
+2-15	Proprietario	NE	<unknown>	_	O	O	
+2-16	in	APPR	in	_	O	O	
+2-17	Pozzuoli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-18	80	CARD	80	_	O	O	
+2-19	Inschriften	NN	Inschrift	_	O	O	
+2-20	aufgespeichert	VVPP	aufspeichern	_	O	O	
+2-21	liegen	VVFIN	liegen	_	O	O	
+2-22	.	$.	.	_	O	O	
+
+#id=3
+#text=?
+3-1	?	$.	?	_	O	O	
+

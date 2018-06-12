@@ -1,0 +1,212 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=155 Gerhard an Braun Berlin, 30. April 1845 A. d. Dir.
+1-1	155	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	A.	APPR	an	_	O	O	
+1-12	d.	ART	d.	_	O	O	
+1-13	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=g. 12/V 45 r. 15/V 45 Berlin 30 April 45 Mein theurer Freund.
+2-1	g.	ADJA	<unknown>	_	O	O	
+2-2	12/V	CARD	<unknown>	_	O	O	
+2-3	45	CARD	45	_	O	O	
+2-4	r.	ADJA	<unknown>	_	O	O	
+2-5	15/V	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-6	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-8	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	Mein	PPOSAT	mein	_	O	O	
+2-12	theurer	ADJA	<unknown>	_	O	O	
+2-13	Freund	NN	Freund	_	O	O	
+2-14	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihr Geldsack lastet noch schwer bei mir; kein Gelbke oder Geißler hat sich zur schwierigen Theilung gemeldet.
+3-1	Ihr	PPOSAT	ihr	_	O	O	
+3-2	Geldsack	NN	Geldsack	_	O	O	
+3-3	lastet	VVFIN	lasten	_	O	O	
+3-4	noch	ADV	noch	_	O	O	
+3-5	schwer	ADJD	schwer	_	O	O	
+3-6	bei	APPR	bei	_	O	O	
+3-7	mir	PPER	ich	_	O	O	
+3-8	;	$.	;	_	O	O	
+3-9	kein	PIAT	keine	_	O	O	
+3-10	Gelbke	NN	<unknown>	_	O	O	
+3-11	oder	KON	oder	_	O	O	
+3-12	Geißler	NE	Geißler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-13	hat	VAFIN	haben	_	O	O	
+3-14	sich	PRF	sich	_	O	O	
+3-15	zur	APPRART	zu	_	O	O	
+3-16	schwierigen	ADJA	schwierig	_	O	O	
+3-17	Theilung	NN	<unknown>	_	O	O	
+3-18	gemeldet	VVPP	melden	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Für Elgersburg hatte ich in den letzten Wochen alles eingeleitet, von Dr. Piutti einladende Antwort erhalten, auch durch Frl.
+4-1	Für	APPR	für	_	O	O	
+4-2	Elgersburg	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	hatte	VAFIN	haben	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	in	APPR	in	_	O	O	
+4-6	den	ART	die	_	O	O	
+4-7	letzten	ADJA	letzt	_	O	O	
+4-8	Wochen	NN	Woche	_	O	O	
+4-9	alles	PIS	alle	_	O	O	
+4-10	eingeleitet	VVPP	einleiten	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	von	APPR	von	_	O	O	
+4-13	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-14	Piutti	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-15	einladende	ADJA	einladend	_	O	O	
+4-16	Antwort	NN	Antwort	_	O	O	
+4-17	erhalten	VVPP	erhalten	_	O	O	
+4-18	,	$,	,	_	O	O	
+4-19	auch	ADV	auch	_	O	O	
+4-20	durch	APPR	durch	_	O	O	
+4-21	Frl.	NN	Frl.	_	O	O	
+
+#id=5
+#text=von Waitz dortige Wohnlichkeiten für meine 2 Damen in Anspruch genommen.
+5-1	von	APPR	von	_	O	O	
+5-2	Waitz	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	dortige	ADJA	dortig	_	O	O	
+5-4	Wohnlichkeiten	NN	<unknown>	_	O	O	
+5-5	für	APPR	für	_	O	O	
+5-6	meine	PPOSAT	mein	_	O	O	
+5-7	2	CARD	2	_	O	O	
+5-8	Damen	NN	Dame	_	O	O	
+5-9	in	APPR	in	_	O	O	
+5-10	Anspruch	NN	Anspruch	_	O	O	
+5-11	genommen	VVPP	nehmen	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Von Melicher der mit dem Gesundheitszustand meiner Frau bis jetzt nur lavirt hat, erwartete ich keinen definitven Rath mehr und hielt mich alsdann nicht mehr gebunden die Wasserkur seiner Abneigung dagegen ohngeachtet meiner Frau vorzuenthalten.
+6-1	Von	APPR	von	_	O	O	
+6-2	Melicher	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	der	ART	die	_	O	O	
+6-4	mit	APPR	mit	_	O	O	
+6-5	dem	ART	die	_	O	O	
+6-6	Gesundheitszustand	NN	Gesundheitszustand	_	O	O	
+6-7	meiner	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-8	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-9	bis	KON	bis	_	O	O	
+6-10	jetzt	ADV	jetzt	_	O	O	
+6-11	nur	ADV	nur	_	O	O	
+6-12	lavirt	NN	<unknown>	_	O	O	
+6-13	hat	VAFIN	haben	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	erwartete	VVFIN	erwarten	_	O	O	
+6-16	ich	PPER	ich	_	O	O	
+6-17	keinen	PIAT	keine	_	O	O	
+6-18	definitven	NE	<unknown>	_	O	O	
+6-19	Rath	NE	Rath	_	O	O	
+6-20	mehr	ADV	mehr	_	O	O	
+6-21	und	KON	und	_	O	O	
+6-22	hielt	VVFIN	halten	_	O	O	
+6-23	mich	PRF	ich	_	O	O	
+6-24	alsdann	ADJD	<unknown>	_	O	O	
+6-25	nicht	PTKNEG	nicht	_	O	O	
+6-26	mehr	ADV	mehr	_	O	O	
+6-27	gebunden	ADJD	gebunden	_	O	O	
+6-28	die	ART	die	_	O	O	
+6-29	Wasserkur	NN	<unknown>	_	O	O	
+6-30	seiner	PPOSAT	sein	_	O	O	
+6-31	Abneigung	NN	Abneigung	_	O	O	
+6-32	dagegen	PAV	dagegen	_	O	O	
+6-33	ohngeachtet	VVFIN	<unknown>	_	O	O	
+6-34	meiner	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-35	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-36	vorzuenthalten	VVIZU	vorenthalten	_	O	O	
+6-37	.	$.	.	_	O	O	
+
+#id=7
+#text=Wider erwarten kommt mir derselbe nun mit dem Rath entgegen meine Frau Obersalzbrunn in loco oder sonst auf dem Lande trinken zu lassen und widerräth eine Wasserkur nochmals entschieden, indem es sehr bedenklich sei meiner Frau zarte Gesundheit solchen Krisen auszusetzen, wie man sie gerade durch Wasserkur herbeiführen wolle.
+7-1	Wider	PTKVZ	wider	_	O	O	
+7-2	erwarten	VVINF	erwarten	_	O	O	
+7-3	kommt	VVFIN	kommen	_	O	O	
+7-4	mir	PPER	ich	_	O	O	
+7-5	derselbe	PDS	derselbe	_	O	O	
+7-6	nun	ADV	nun	_	O	O	
+7-7	mit	APPR	mit	_	O	O	
+7-8	dem	ART	die	_	O	O	
+7-9	Rath	NE	Rath	_	O	O	
+7-10	entgegen	APPR	entgegen	_	O	O	
+7-11	meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-12	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-13	Obersalzbrunn	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-14	in	APPR	in	_	O	O	
+7-15	loco	NE	<unknown>	_	O	O	
+7-16	oder	KON	oder	_	O	O	
+7-17	sonst	ADV	sonst	_	O	O	
+7-18	auf	APPR	auf	_	O	O	
+7-19	dem	ART	die	_	O	O	
+7-20	Lande	NN	Land	_	O	O	
+7-21	trinken	VVINF	trinken	_	O	O	
+7-22	zu	PTKZU	zu	_	O	O	
+7-23	lassen	VVINF	lassen	_	O	O	
+7-24	und	KON	und	_	O	O	
+7-25	widerräth	NE	<unknown>	_	O	O	
+7-26	eine	ART	eine	_	O	O	
+7-27	Wasserkur	NN	<unknown>	_	O	O	
+7-28	nochmals	ADV	nochmals	_	O	O	
+7-29	entschieden	VVPP	entscheiden	_	O	O	
+7-30	,	$,	,	_	O	O	
+7-31	indem	KOUS	indem	_	O	O	
+7-32	es	PPER	es	_	O	O	
+7-33	sehr	ADV	sehr	_	O	O	
+7-34	bedenklich	ADJD	bedenklich	_	O	O	
+7-35	sei	VAFIN	sein	_	O	O	
+7-36	meiner	PPOSAT	mein	_	O	O	
+7-37	Frau	NN	Frau	_	O	O	
+7-38	zarte	ADJA	zart	_	O	O	
+7-39	Gesundheit	NN	Gesundheit	_	O	O	
+7-40	solchen	PIAT	solche	_	O	O	
+7-41	Krisen	NN	Krise	_	O	O	
+7-42	auszusetzen	VVIZU	aussetzen	_	O	O	
+7-43	,	$,	,	_	O	O	
+7-44	wie	KOUS	wie	_	O	O	
+7-45	man	PIS	man	_	O	O	
+7-46	sie	PPER	sie	_	O	O	
+7-47	gerade	ADV	gerade	_	O	O	
+7-48	durch	APPR	durch	_	O	O	
+7-49	Wasserkur	NN	<unknown>	_	O	O	
+7-50	herbeiführen	VVINF	herbeiführen	_	O	O	
+7-51	wolle	VMFIN	wollen	_	O	O	
+7-52	.	$.	.	_	O	O	
+
+#id=8
+#text=Diese Entschiedenheit des Arztes dem wir uns einmal anvertraut haben macht uns von neuem stutzig, und wird mei-
+8-1	Diese	PDAT	dies	_	O	O	
+8-2	Entschiedenheit	NN	Entschiedenheit	_	O	O	
+8-3	des	ART	die	_	O	O	
+8-4	Arztes	NN	Arzt	_	O	O	
+8-5	dem	PRELS	die	_	O	O	
+8-6	wir	PPER	wir	_	O	O	
+8-7	uns	PRF	wir	_	O	O	
+8-8	einmal	ADV	einmal	_	O	O	
+8-9	anvertraut	VVPP	anvertrauen	_	O	O	
+8-10	haben	VAINF	haben	_	O	O	
+8-11	macht	VVFIN	machen	_	O	O	
+8-12	uns	PPER	wir	_	O	O	
+8-13	von	APPR	von	_	O	O	
+8-14	neuem	ADJA	neu	_	O	O	
+8-15	stutzig	ADJD	stutzig	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	und	KON	und	_	O	O	
+8-18	wird	VAFIN	werden	_	O	O	
+8-19	mei-	TRUNC	mei-	_	O	O	
+

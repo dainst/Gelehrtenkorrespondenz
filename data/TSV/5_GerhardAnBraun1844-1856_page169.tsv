@@ -1,0 +1,216 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Dr. Braun Gerhard an Braun Florenz, 25. März 1846 g. 28/III 46 r. 4/IV % Florenz 25 März 46 Während Sie lieber Freund mir Lanci's völliges Ausscheiden erklären, empfange ich seine bereits in Aussicht gestellte Kapitulation und sende Ihnen dieselbe sofort abschriftlich.
+1-1	Dr.	NN	Dr.	_	O	O	
+1-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	28/III	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	r.	ADJA	<unknown>	_	O	O	
+1-16	4/IV	ADJA	<unknown>	_	O	O	
+1-17	%	NN	%	_	O	O	
+1-18	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-19	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Während	APPR	während	_	O	O	
+1-23	Sie	PPER	Sie	_	O	O	
+1-24	lieber	ADJD	lieb	_	O	O	
+1-25	Freund	NE	Freund	_	O	O	
+1-26	mir	PRF	ich	_	O	O	
+1-27	Lanci's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-28	völliges	ADJA	völlig	_	O	O	
+1-29	Ausscheiden	NN	Ausscheiden	_	O	O	
+1-30	erklären	VVINF	erklären	_	O	O	
+1-31	,	$,	,	_	O	O	
+1-32	empfange	VVFIN	empfangen	_	O	O	
+1-33	ich	PPER	ich	_	O	O	
+1-34	seine	PPOSAT	sein	_	O	O	
+1-35	bereits	ADV	bereits	_	O	O	
+1-36	in	APPR	in	_	O	O	
+1-37	Aussicht	NN	Aussicht	_	O	O	
+1-38	gestellte	ADJA	gestellt	_	O	O	
+1-39	Kapitulation	NN	Kapitulation	_	O	O	
+1-40	und	KON	und	_	O	O	
+1-41	sende	VVFIN	senden	_	O	O	
+1-42	Ihnen	PPER	Sie	_	O	O	
+1-43	dieselbe	PDS	dieselbe	_	O	O	
+1-44	sofort	ADV	sofort	_	O	O	
+1-45	abschriftlich	ADJD	<unknown>	_	O	O	
+1-46	.	$.	.	_	O	O	
+
+#id=2
+#text=Meiner Abreise ganz nahe entschuldigen Sie ihm daß er keine direkte Antwort für jetzt von mir erhält, sagen Sie ihm aber auch daß seine Vorschläge beherzigt und Ihnen zur Verständigung mit ihm empfohlen sind.
+2-1	Meiner	PPOSAT	mein	_	O	O	
+2-2	Abreise	NN	Abreise	_	O	O	
+2-3	ganz	ADV	ganz	_	O	O	
+2-4	nahe	PTKVZ	nahe	_	O	O	
+2-5	entschuldigen	VVFIN	entschuldigen	_	O	O	
+2-6	Sie	PPER	Sie	_	O	O	
+2-7	ihm	PPER	er	_	O	O	
+2-8	daß	KOUS	dass	_	O	O	
+2-9	er	PPER	er	_	O	O	
+2-10	keine	PIAT	keine	_	O	O	
+2-11	direkte	ADJA	direkt	_	O	O	
+2-12	Antwort	NN	Antwort	_	O	O	
+2-13	für	APPR	für	_	O	O	
+2-14	jetzt	ADV	jetzt	_	O	O	
+2-15	von	APPR	von	_	O	O	
+2-16	mir	PPER	ich	_	O	O	
+2-17	erhält	VVFIN	erhalten	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	sagen	VVFIN	sagen	_	O	O	
+2-20	Sie	PPER	Sie	_	O	O	
+2-21	ihm	PPER	er	_	O	O	
+2-22	aber	ADV	aber	_	O	O	
+2-23	auch	ADV	auch	_	O	O	
+2-24	daß	KOUS	dass	_	O	O	
+2-25	seine	PPOSAT	sein	_	O	O	
+2-26	Vorschläge	NN	Vorschlag	_	O	O	
+2-27	beherzigt	VVFIN	beherzigen	_	O	O	
+2-28	und	KON	und	_	O	O	
+2-29	Ihnen	PPER	Sie	_	O	O	
+2-30	zur	APPRART	zu	_	O	O	
+2-31	Verständigung	NN	Verständigung	_	O	O	
+2-32	mit	APPR	mit	_	O	O	
+2-33	ihm	PPER	er	_	O	O	
+2-34	empfohlen	VVPP	empfehlen	_	O	O	
+2-35	sind	VAFIN	sein	_	O	O	
+2-36	.	$.	.	_	O	O	
+
+#id=3
+#text=Erst wenn Ihre Erklärung darüber eingeht kann ich ihm an.tworten; er muß begreifen daß ich nur der Mittelsmann bin, dem dreierlei Personalinteressen gleich achtbar, die Sicherheit aber der Institutsgeschäfte das Wichtigste ist und diese beruft auf Ihre Verantwortlichkeit.
+3-1	Erst	ADV	erst	_	O	O	
+3-2	wenn	KOUS	wenn	_	O	O	
+3-3	Ihre	PPOSAT	ihr	_	O	O	
+3-4	Erklärung	NN	Erklärung	_	O	O	
+3-5	darüber	PAV	darüber	_	O	O	
+3-6	eingeht	VVFIN	eingehen	_	O	O	
+3-7	kann	VMFIN	können	_	O	O	
+3-8	ich	PPER	ich	_	O	O	
+3-9	ihm	PPER	er	_	O	O	
+3-10	an.tworten	NN	<unknown>	_	O	O	
+3-11	;	$.	;	_	O	O	
+3-12	er	PPER	er	_	O	O	
+3-13	muß	VMFIN	müssen	_	O	O	
+3-14	begreifen	VVINF	begreifen	_	O	O	
+3-15	daß	KOUS	dass	_	O	O	
+3-16	ich	PPER	ich	_	O	O	
+3-17	nur	ADV	nur	_	O	O	
+3-18	der	ART	die	_	O	O	
+3-19	Mittelsmann	NN	Mittelsmann	_	O	O	
+3-20	bin	VAFIN	sein	_	O	O	
+3-21	,	$,	,	_	O	O	
+3-22	dem	PRELS	die	_	O	O	
+3-23	dreierlei	PIS	dreierlei	_	O	O	
+3-24	Personalinteressen	NN	Personalinteresse	_	O	O	
+3-25	gleich	ADJD	gleich	_	O	O	
+3-26	achtbar	ADJD	achtbar	_	O	O	
+3-27	,	$,	,	_	O	O	
+3-28	die	ART	die	_	O	O	
+3-29	Sicherheit	NN	Sicherheit	_	O	O	
+3-30	aber	KON	aber	_	O	O	
+3-31	der	ART	die	_	O	O	
+3-32	Institutsgeschäfte	NN	<unknown>	_	O	O	
+3-33	das	ART	die	_	O	O	
+3-34	Wichtigste	NN	Wichtigste	_	O	O	
+3-35	ist	VAFIN	sein	_	O	O	
+3-36	und	KON	und	_	O	O	
+3-37	diese	PDS	diese	_	O	O	
+3-38	beruft	VVFIN	berufen	_	O	O	
+3-39	auf	APPR	auf	_	O	O	
+3-40	Ihre	PPOSAT	ihr	_	O	O	
+3-41	Verantwortlichkeit	NN	Verantwortlichkeit	_	O	O	
+3-42	.	$.	.	_	O	O	
+
+#id=4
+#text=Den Lancischen Artikeln ist wol kaum anderes entgegenzusetzen als nur § 2 Aff.
+4-1	Den	ART	die	_	O	O	
+4-2	Lancischen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	Artikeln	NN	Artikel	_	O	O	
+4-4	ist	VAFIN	sein	_	O	O	
+4-5	wol	ADJD	<unknown>	_	O	O	
+4-6	kaum	ADV	kaum	_	O	O	
+4-7	anderes	PIS	andere	_	O	O	
+4-8	entgegenzusetzen	VVIZU	entgegensetzen	_	O	O	
+4-9	als	KOKOM	als	_	O	O	
+4-10	nur	ADV	nur	_	O	O	
+4-11	§	NN	§	_	O	O	
+4-12	2	CARD	2	_	O	O	
+4-13	Aff	NN	<unknown>	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Let.
+5-1	Let	ADJD	<unknown>	_	O	O	
+5-2	.	$.	.	_	O	O	
+
+#id=6
+#text=daß die Originale nicht lediglich von Rom abhängen, sich also ohne Ihre und Henzen's Schuld häufen können.
+6-1	daß	KOUS	dass	_	O	O	
+6-2	die	ART	die	_	O	O	
+6-3	Originale	NN	Original	_	O	O	
+6-4	nicht	PTKNEG	nicht	_	O	O	
+6-5	lediglich	ADV	lediglich	_	O	O	
+6-6	von	APPR	von	_	O	O	
+6-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-8	abhängen	VVFIN	abhängen	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	sich	PRF	sich	_	O	O	
+6-11	also	ADV	also	_	O	O	
+6-12	ohne	APPR	ohne	_	O	O	
+6-13	Ihre	PPOSAT	ihr	_	O	O	
+6-14	und	KON	und	_	O	O	
+6-15	Henzen's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-16	Schuld	NN	Schuld	_	O	O	
+6-17	häufen	VVINF	häufen	_	O	O	
+6-18	können	VMINF	können	_	O	O	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=Außerdem muß er, damit Sie die erforderliche Verantwortlichkeit übernehmen können, meine Bedenken widerlegen, daß die in den Wintermonaten gleich dringenden und gehäuften Arbeiten der Revision und der Rechnung die terminmäßige Ablieferung von
+7-1	Außerdem	ADV	außerdem	_	O	O	
+7-2	muß	VMFIN	müssen	_	O	O	
+7-3	er	PPER	er	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	damit	KOUS	damit	_	O	O	
+7-6	Sie	PPER	Sie	_	O	O	
+7-7	die	ART	die	_	O	O	
+7-8	erforderliche	ADJA	erforderlich	_	O	O	
+7-9	Verantwortlichkeit	NN	Verantwortlichkeit	_	O	O	
+7-10	übernehmen	VVINF	übernehmen	_	O	O	
+7-11	können	VMFIN	können	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	meine	PPOSAT	mein	_	O	O	
+7-14	Bedenken	NN	Bedenken	_	O	O	
+7-15	widerlegen	VVFIN	widerlegen	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	daß	KOUS	dass	_	O	O	
+7-18	die	ART	die	_	O	O	
+7-19	in	APPR	in	_	O	O	
+7-20	den	ART	die	_	O	O	
+7-21	Wintermonaten	NN	Wintermonat	_	O	O	
+7-22	gleich	ADJD	gleich	_	O	O	
+7-23	dringenden	ADJA	dringend	_	O	O	
+7-24	und	KON	und	_	O	O	
+7-25	gehäuften	ADJA	gehäuft	_	O	O	
+7-26	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+7-27	der	ART	die	_	O	O	
+7-28	Revision	NN	Revision	_	O	O	
+7-29	und	KON	und	_	O	O	
+7-30	der	ART	die	_	O	O	
+7-31	Rechnung	NN	Rechnung	_	O	O	
+7-32	die	ART	die	_	O	O	
+7-33	terminmäßige	ADJA	<unknown>	_	O	O	
+7-34	Ablieferung	NN	Ablieferung	_	O	O	
+7-35	von	APPR	von	_	O	O	
+

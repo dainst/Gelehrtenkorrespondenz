@@ -1,0 +1,264 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=290 H Lieber Herr Professor Helbig an Henzen Rom, 13. Juli 1870 g. 19/7 70 Roma, li 13. Juli 1870 Ich bin im Stande, Ihnen in Betreff von Hinck gute Nachrichten zu geben.
+1-1	290	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	19/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	70	CARD	70	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-19	,	$,	,	_	O	O	
+1-20	li	ADJD	<unknown>	_	O	O	
+1-21	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-22	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-24	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-25	Ich	PPER	ich	_	O	O	
+1-26	bin	VAFIN	sein	_	O	O	
+1-27	im	APPRART	in	_	O	O	
+1-28	Stande	NN	Stand	_	O	O	
+1-29	,	$,	,	_	O	O	
+1-30	Ihnen	PPER	Sie	_	O	O	
+1-31	in	APPR	in	_	O	O	
+1-32	Betreff	NN	Betreff	_	O	O	
+1-33	von	APPR	von	_	O	O	
+1-34	Hinck	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-35	gute	ADJA	gut	_	O	O	
+1-36	Nachrichten	NN	Nachricht	_	O	O	
+1-37	zu	PTKZU	zu	_	O	O	
+1-38	geben	VVINF	geben	_	O	O	
+1-39	.	$.	.	_	O	O	
+
+#id=2
+#text=Seit drei Tagen ist nichts vorgekommen und er ist entschieden in der Reconvalescenz begriffen.
+2-1	Seit	APPR	seit	_	O	O	
+2-2	drei	CARD	drei	_	O	O	
+2-3	Tagen	NN	Tag	_	O	O	
+2-4	ist	VAFIN	sein	_	O	O	
+2-5	nichts	PIS	nichts	_	O	O	
+2-6	vorgekommen	VVPP	vorkommen	_	O	O	
+2-7	und	KON	und	_	O	O	
+2-8	er	PPER	er	_	O	O	
+2-9	ist	VAFIN	sein	_	O	O	
+2-10	entschieden	ADJD	entschieden	_	O	O	
+2-11	in	APPR	in	_	O	O	
+2-12	der	ART	die	_	O	O	
+2-13	Reconvalescenz	NN	<unknown>	_	O	O	
+2-14	begriffen	VVPP	begreifen	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Somit ist Trendelenburgs Anwesenheit in Rom unnöthig.
+3-1	Somit	ADV	somit	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	Trendelenburgs	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-4	Anwesenheit	NN	Anwesenheit	_	O	O	
+3-5	in	APPR	in	_	O	O	
+3-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-7	unnöthig	ADJD	<unknown>	_	O	O	
+3-8	.	$.	.	_	O	O	
+
+#id=4
+#text=Ohnehin wäre sie unstatthaft gewesen, da er in Folge seines pompeianischen Aufenthalts unwohl geworden ist und keinesfalls die römische Sommerhitze ertragen würde.
+4-1	Ohnehin	ADV	ohnehin	_	O	O	
+4-2	wäre	VAFIN	sein	_	O	O	
+4-3	sie	PPER	sie	_	O	O	
+4-4	unstatthaft	ADJD	unstatthaft	_	O	O	
+4-5	gewesen	VAPP	sein	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	da	KOUS	da	_	O	O	
+4-8	er	PPER	er	_	O	O	
+4-9	in	APPR	in	_	O	O	
+4-10	Folge	NN	Folge	_	O	O	
+4-11	seines	PPOSAT	sein	_	O	O	
+4-12	pompeianischen	ADJA	<unknown>	_	O	O	
+4-13	Aufenthalts	NN	Aufenthalt	_	O	O	
+4-14	unwohl	ADJD	unwohl	_	O	O	
+4-15	geworden	VAPP	werden	_	O	O	
+4-16	ist	VAFIN	sein	_	O	O	
+4-17	und	KON	und	_	O	O	
+4-18	keinesfalls	ADV	keinesfalls	_	O	O	
+4-19	die	ART	die	_	O	O	
+4-20	römische	ADJA	römisch	_	O	O	
+4-21	Sommerhitze	NN	Sommerhitze	_	O	O	
+4-22	ertragen	VVPP	ertragen	_	O	O	
+4-23	würde	VAFIN	werden	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=Hincks Absicht ist vor der Hand in Rom zu bleiben.
+5-1	Hincks	NE	<unknown>	_	O	O	
+5-2	Absicht	NN	Absicht	_	O	O	
+5-3	ist	VAFIN	sein	_	O	O	
+5-4	vor	APPR	vor	_	O	O	
+5-5	der	ART	die	_	O	O	
+5-6	Hand	NN	Hand	_	O	O	
+5-7	in	APPR	in	_	O	O	
+5-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-9	zu	PTKZU	zu	_	O	O	
+5-10	bleiben	VVINF	bleiben	_	O	O	
+5-11	.	$.	.	_	O	O	
+
+#id=6
+#text=Nach etwa,: vier Wochen räth ihm Erhardt in das Gebrige zu gehen.
+6-1	Nach	APPR	nach	_	O	O	
+6-2	etwa	ADV	etwa	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	:	$.	:	_	O	O	
+6-5	vier	CARD	vier	_	O	O	
+6-6	Wochen	NN	Woche	_	O	O	
+6-7	räth	VVFIN	<unknown>	_	O	O	
+6-8	ihm	PPER	er	_	O	O	
+6-9	Erhardt	NE	Erhardt	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	in	APPR	in	_	O	O	
+6-11	das	ART	die	_	O	O	
+6-12	Gebrige	NN	<unknown>	_	O	O	
+6-13	zu	PTKZU	zu	_	O	O	
+6-14	gehen	VVINF	gehen	_	O	O	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=Da es ihm unmöglich sein wird, bei der Hitze öfters in die Stadt zu kommen, so schlage ich vor, daß Gerdhausen, der in Rom aushalten will, falls Dinge vorkommen, die er sich selbst nicht zu erledigen getraut, zu Hinck auf das Land geht, um sich von ihm Raths zu erholen.
+7-1	Da	KOUS	da	_	O	O	
+7-2	es	PPER	es	_	O	O	
+7-3	ihm	PPER	er	_	O	O	
+7-4	unmöglich	ADJD	unmöglich	_	O	O	
+7-5	sein	VAINF	sein	_	O	O	
+7-6	wird	VAFIN	werden	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	bei	APPR	bei	_	O	O	
+7-9	der	ART	die	_	O	O	
+7-10	Hitze	NN	Hitze	_	O	O	
+7-11	öfters	ADV	öfters	_	O	O	
+7-12	in	APPR	in	_	O	O	
+7-13	die	ART	die	_	O	O	
+7-14	Stadt	NN	Stadt	_	O	O	
+7-15	zu	PTKZU	zu	_	O	O	
+7-16	kommen	VVINF	kommen	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	so	ADV	so	_	O	O	
+7-19	schlage	VVFIN	schlagen	_	O	O	
+7-20	ich	PPER	ich	_	O	O	
+7-21	vor	PTKVZ	vor	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	daß	KOUS	dass	_	O	O	
+7-24	Gerdhausen	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-25	,	$,	,	_	O	O	
+7-26	der	PRELS	die	_	O	O	
+7-27	in	APPR	in	_	O	O	
+7-28	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-29	aushalten	VVINF	aushalten	_	O	O	
+7-30	will	VMFIN	wollen	_	O	O	
+7-31	,	$,	,	_	O	O	
+7-32	falls	KOUS	falls	_	O	O	
+7-33	Dinge	NN	Ding	_	O	O	
+7-34	vorkommen	VVFIN	vorkommen	_	O	O	
+7-35	,	$,	,	_	O	O	
+7-36	die	PRELS	die	_	O	O	
+7-37	er	PPER	er	_	O	O	
+7-38	sich	PRF	sich	_	O	O	
+7-39	selbst	ADV	selbst	_	O	O	
+7-40	nicht	PTKNEG	nicht	_	O	O	
+7-41	zu	PTKZU	zu	_	O	O	
+7-42	erledigen	VVINF	erledigen	_	O	O	
+7-43	getraut	VVFIN	getrauen	_	O	O	
+7-44	,	$,	,	_	O	O	
+7-45	zu	APPR	zu	_	O	O	
+7-46	Hinck	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-47	auf	APPR	auf	_	O	O	
+7-48	das	ART	die	_	O	O	
+7-49	Land	NN	Land	_	O	O	
+7-50	geht	VVFIN	gehen	_	O	O	
+7-51	,	$,	,	_	O	O	
+7-52	um	KOUI	um	_	O	O	
+7-53	sich	PRF	sich	_	O	O	
+7-54	von	APPR	von	_	O	O	
+7-55	ihm	PPER	er	_	O	O	
+7-56	Raths	NN	<unknown>	_	O	O	
+7-57	zu	PTKZU	zu	_	O	O	
+7-58	erholen	VVINF	erholen	_	O	O	
+7-59	.	$.	.	_	O	O	
+
+#id=8
+#text=Gerdhausen hat sich mit diesem Vorschlage einverstanden erklärt.
+8-1	Gerdhausen	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	hat	VAFIN	haben	_	O	O	
+8-3	sich	PRF	sich	_	O	O	
+8-4	mit	APPR	mit	_	O	O	
+8-5	diesem	PDAT	dies	_	O	O	
+8-6	Vorschlage	NN	Vorschlag	_	O	O	
+8-7	einverstanden	ADJD	einverstanden	_	O	O	
+8-8	erklärt	VVPP	erklären	_	O	O	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=Meines Erachtens wäre es übrigens für Hinck besser, er bleibe in Rom.
+9-1	Meines	PPOSAT	mein	_	O	O	
+9-2	Erachtens	NN	Erachten	_	O	O	
+9-3	wäre	VAFIN	sein	_	O	O	
+9-4	es	PPER	es	_	O	O	
+9-5	übrigens	ADV	übrigens	_	O	O	
+9-6	für	APPR	für	_	O	O	
+9-7	Hinck	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-8	besser	ADJD	gut	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	er	PPER	er	_	O	O	
+9-11	bleibe	VVFIN	bleiben	_	O	O	
+9-12	in	APPR	in	_	O	O	
+9-13	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-14	.	$.	.	_	O	O	
+
+#id=10
+#text=Hier hat er wenigstens den kleinen Schulz, der ihn etwas dirigirt und auf den er unter Umständen hört.
+10-1	Hier	ADV	hier	_	O	O	
+10-2	hat	VAFIN	haben	_	O	O	
+10-3	er	PPER	er	_	O	O	
+10-4	wenigstens	ADV	wenigstens	_	O	O	
+10-5	den	ART	die	_	O	O	
+10-6	kleinen	ADJA	klein	_	O	O	
+10-7	Schulz	NE	Schulz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-8	,	$,	,	_	O	O	
+10-9	der	PRELS	die	_	O	O	
+10-10	ihn	PPER	er	_	O	O	
+10-11	etwas	PIAT	etwas	_	O	O	
+10-12	dirigirt	NN	<unknown>	_	O	O	
+10-13	und	KON	und	_	O	O	
+10-14	auf	APPR	auf	_	O	O	
+10-15	den	ART	die	_	O	O	
+10-16	er	PPER	er	_	O	O	
+10-17	unter	APPR	unter	_	O	O	
+10-18	Umständen	NN	Umstand	_	O	O	
+10-19	hört	VVFIN	hören	_	O	O	
+10-20	.	$.	.	_	O	O	
+
+#id=11
+#text=Sich selbst überlassen und in der Künstlergesellschaft im Gebirge könnte er leicht neue spropositi begehen.
+11-1	Sich	PRF	sich	_	O	O	
+11-2	selbst	ADV	selbst	_	O	O	
+11-3	überlassen	VVPP	überlassen	_	O	O	
+11-4	und	KON	und	_	O	O	
+11-5	in	APPR	in	_	O	O	
+11-6	der	ART	die	_	O	O	
+11-7	Künstlergesellschaft	NN	Künstlergesellschaft	_	O	O	
+11-8	im	APPRART	in	_	O	O	
+11-9	Gebirge	NN	Gebirge	_	O	O	
+11-10	könnte	VMFIN	können	_	O	O	
+11-11	er	PPER	er	_	O	O	
+11-12	leicht	ADJD	leicht	_	O	O	
+11-13	neue	ADJA	neu	_	O	O	
+11-14	spropositi	NN	<unknown>	_	O	O	
+11-15	begehen	VVINF	begehen	_	O	O	
+11-16	.	$.	.	_	O	O	
+

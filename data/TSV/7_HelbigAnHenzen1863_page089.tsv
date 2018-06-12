@@ -1,0 +1,255 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=320 Helbig an Henzen Moskau, 11. September 1866 Helbig Moskau 11. Sept.
+1-1	320	CARD	320	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Moskau	NE	Moskau	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-12	Moskau	NE	Moskau	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-13	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-14	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Sept.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1866 Lieber Herr Professor Nur wenige Zeilen, um Ihnen meine glückliche Ankunft anzuzeigen.
+2-1	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Lieber	ADJA	lieb	_	O	O	
+2-3	Herr	NN	Herr	_	O	O	
+2-4	Professor	NN	Professor	_	O	O	
+2-5	Nur	ADV	nur	_	O	O	
+2-6	wenige	PIAT	wenige	_	O	O	
+2-7	Zeilen	NN	Zeile	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	um	KOUI	um	_	O	O	
+2-10	Ihnen	PPER	Sie	_	O	O	
+2-11	meine	PPOSAT	mein	_	O	O	
+2-12	glückliche	ADJA	glücklich	_	O	O	
+2-13	Ankunft	NN	Ankunft	_	O	O	
+2-14	anzuzeigen	VVIZU	anzeigen	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich befinde mich gegenwärtig in Moskau, im Palais der Fürstin Troubetskoy, einer Tante meiner Braut.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	befinde	VVFIN	befinden	_	O	O	
+3-3	mich	PRF	ich	_	O	O	
+3-4	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+3-5	in	APPR	in	_	O	O	
+3-6	Moskau	NE	Moskau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-7	,	$,	,	_	O	O	
+3-8	im	APPRART	in	_	O	O	
+3-9	Palais	NN	Palais	_	O	O	
+3-10	der	ART	die	_	O	O	
+3-11	Fürstin	NN	Fürstin	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-12	Troubetskoy	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-13	,	$,	,	_	O	O	
+3-14	einer	ART	eine	_	O	O	
+3-15	Tante	NN	Tante	_	O	O	
+3-16	meiner	PPOSAT	mein	_	O	O	
+3-17	Braut	NN	Braut	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Alle Verwandte haben mich mit der größten Liebenswürdigkeit aufgenommen, machen mir das Leben in jeder Weise angenehm, lassen mir aber auch keinen Augenblick Zeit für mich.
+4-1	Alle	PIAT	alle	_	O	O	
+4-2	Verwandte	NN	Verwandte	_	O	O	
+4-3	haben	VAFIN	haben	_	O	O	
+4-4	mich	PRF	ich	_	O	O	
+4-5	mit	APPR	mit	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	größten	ADJA	groß	_	O	O	
+4-8	Liebenswürdigkeit	NN	Liebenswürdigkeit	_	O	O	
+4-9	aufgenommen	VVPP	aufnehmen	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	machen	VVFIN	machen	_	O	O	
+4-12	mir	PPER	ich	_	O	O	
+4-13	das	ART	die	_	O	O	
+4-14	Leben	NN	Leben	_	O	O	
+4-15	in	APPR	in	_	O	O	
+4-16	jeder	PIAT	jede	_	O	O	
+4-17	Weise	NN	Weise	_	O	O	
+4-18	angenehm	ADJD	angenehm	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	lassen	VVFIN	lassen	_	O	O	
+4-21	mir	PPER	ich	_	O	O	
+4-22	aber	ADV	aber	_	O	O	
+4-23	auch	ADV	auch	_	O	O	
+4-24	keinen	PIAT	keine	_	O	O	
+4-25	Augenblick	NN	Augenblick	_	O	O	
+4-26	Zeit	NN	Zeit	_	O	O	
+4-27	für	APPR	für	_	O	O	
+4-28	mich	PRF	ich	_	O	O	
+4-29	.	$.	.	_	O	O	
+
+#id=5
+#text=Meine Hochzeit wird in etwa 17 Tagen stattfinden, dann sofort zurück nach Rom.
+5-1	Meine	PPOSAT	mein	_	O	O	
+5-2	Hochzeit	NN	Hochzeit	_	O	O	
+5-3	wird	VAFIN	werden	_	O	O	
+5-4	in	APPR	in	_	O	O	
+5-5	etwa	ADV	etwa	_	O	O	
+5-6	17	CARD	17	_	O	O	
+5-7	Tagen	NN	Tag	_	O	O	
+5-8	stattfinden	VVINF	stattfinden	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	dann	ADV	dann	_	O	O	
+5-11	sofort	ADV	sofort	_	O	O	
+5-12	zurück	PTKVZ	zurück	_	O	O	
+5-13	nach	APPR	nach	_	O	O	
+5-14	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-15	.	$.	.	_	O	O	
+
+#id=6
+#text=Die nächsten Tage werden wir noch in Moskau bleiben und etwa übermorgen die Rundreise bei den Verwandten auf dem Lande antreten.
+6-1	Die	ART	die	_	O	O	
+6-2	nächsten	ADJA	nah	_	O	O	
+6-3	Tage	NN	Tag	_	O	O	
+6-4	werden	VAFIN	werden	_	O	O	
+6-5	wir	PPER	wir	_	O	O	
+6-6	noch	ADV	noch	_	O	O	
+6-7	in	APPR	in	_	O	O	
+6-8	Moskau	NE	Moskau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-9	bleiben	VVINF	bleiben	_	O	O	
+6-10	und	KON	und	_	O	O	
+6-11	etwa	ADV	etwa	_	O	O	
+6-12	übermorgen	ADV	übermorgen	_	O	O	
+6-13	die	ART	die	_	O	O	
+6-14	Rundreise	NN	Rundreise	_	O	O	
+6-15	bei	APPR	bei	_	O	O	
+6-16	den	ART	die	_	O	O	
+6-17	Verwandten	NN	Verwandte	_	O	O	
+6-18	auf	APPR	auf	_	O	O	
+6-19	dem	ART	die	_	O	O	
+6-20	Lande	NN	Land	_	O	O	
+6-21	antreten	VVINF	antreten	_	O	O	
+6-22	.	$.	.	_	O	O	
+
+#id=7
+#text=Moskau in seinen alten Theilen ist prachtvoll und bietet einen der eigenthümlichsten Eindrücke, den man sich denken kann.
+7-1	Moskau	NE	Moskau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-2	in	APPR	in	_	O	O	
+7-3	seinen	PPOSAT	sein	_	O	O	
+7-4	alten	ADJA	alt	_	O	O	
+7-5	Theilen	NN	<unknown>	_	O	O	
+7-6	ist	VAFIN	sein	_	O	O	
+7-7	prachtvoll	ADJD	prachtvoll	_	O	O	
+7-8	und	KON	und	_	O	O	
+7-9	bietet	VVFIN	bieten	_	O	O	
+7-10	einen	PIS	eine	_	O	O	
+7-11	der	ART	die	_	O	O	
+7-12	eigenthümlichsten	ADJA	<unknown>	_	O	O	
+7-13	Eindrücke	NN	Eindruck	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	den	PRELS	die	_	O	O	
+7-16	man	PIS	man	_	O	O	
+7-17	sich	PRF	sich	_	O	O	
+7-18	denken	VVINF	denken	_	O	O	
+7-19	kann	VMFIN	können	_	O	O	
+7-20	.	$.	.	_	O	O	
+
+#id=8
+#text=Das Wasser ist leider schlecht und weich, Wein und Brandwein dagegen desto ausgezeichneter.
+8-1	Das	ART	die	_	O	O	
+8-2	Wasser	NN	Wasser	_	O	O	
+8-3	ist	VAFIN	sein	_	O	O	
+8-4	leider	ADV	leider	_	O	O	
+8-5	schlecht	ADJD	schlecht	_	O	O	
+8-6	und	KON	und	_	O	O	
+8-7	weich	ADJD	weich	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	Wein	NN	Wein	_	O	O	
+8-10	und	KON	und	_	O	O	
+8-11	Brandwein	NN	Brandwein	_	O	O	
+8-12	dagegen	PAV	dagegen	_	O	O	
+8-13	desto	KON	desto	_	O	O	
+8-14	ausgezeichneter	ADJD	ausgezeichneter	_	O	O	
+8-15	.	$.	.	_	O	O	
+
+#id=9
+#text=Kollegen besuchen.
+9-1	Kollegen	NN	Kollege	_	O	O	
+9-2	besuchen	VVFIN	besuchen	_	O	O	
+9-3	.	$.	.	_	O	O	
+
+#id=10
+#text=Morgen werde ich die archäologischen GebeGott, daß Sie alle Sachen in Rom in Ordnung vorgefunden haben.
+10-1	Morgen	ADV	morgen	_	O	O	
+10-2	werde	VAFIN	werden	_	O	O	
+10-3	ich	PPER	ich	_	O	O	
+10-4	die	ART	die	_	O	O	
+10-5	archäologischen	ADJA	archäologisch	_	O	O	
+10-6	GebeGott	NN	<unknown>	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	daß	KOUS	dass	_	O	O	
+10-9	Sie	PPER	Sie	_	O	O	
+10-10	alle	PIAT	alle	_	O	O	
+10-11	Sachen	NN	Sache	_	O	O	
+10-12	in	APPR	in	_	O	O	
+10-13	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-14	in	APPR	in	_	O	O	
+10-15	Ordnung	NN	Ordnung	_	O	O	
+10-16	vorgefunden	VVPP	vorfinden	_	O	O	
+10-17	haben	VAFIN	haben	_	O	O	
+10-18	.	$.	.	_	O	O	
+
+#id=11
+#text=Doch es läutet jetzt zum Frühstück.
+11-1	Doch	KON	doch	_	O	O	
+11-2	es	PPER	es	_	O	O	
+11-3	läutet	VVFIN	läuten	_	O	O	
+11-4	jetzt	ADV	jetzt	_	O	O	
+11-5	zum	APPRART	zu	_	O	O	
+11-6	Frühstück	NN	Frühstück	_	O	O	
+11-7	.	$.	.	_	O	O	
+
+#id=12
+#text=Entschuldigen Sie meine Kürze, grüßen Sie die Frau Professorin und alle Capitoliner.
+12-1	Entschuldigen	VVFIN	entschuldigen	_	O	O	
+12-2	Sie	PPER	Sie	_	O	O	
+12-3	meine	PPOSAT	mein	_	O	O	
+12-4	Kürze	NN	Kürze	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	grüßen	VVFIN	grüßen	_	O	O	
+12-7	Sie	PPER	Sie	_	O	O	
+12-8	die	ART	die	_	O	O	
+12-9	Frau	NN	Frau	_	O	O	
+12-10	Professorin	NN	Professorin	_	O	O	
+12-11	und	KON	und	_	O	O	
+12-12	alle	PIAT	alle	_	O	O	
+12-13	Capitoliner	NN	<unknown>	_	O	O	
+12-14	.	$.	.	_	O	O	
+
+#id=13
+#text=Meine Braut empfiehlt sich Ihnen.
+13-1	Meine	PPOSAT	mein	_	O	O	
+13-2	Braut	NN	Braut	_	O	O	
+13-3	empfiehlt	VVFIN	empfehlen	_	O	O	
+13-4	sich	PRF	sich	_	O	O	
+13-5	Ihnen	PPER	Sie	_	O	O	
+13-6	.	$.	.	_	O	O	
+
+#id=14
+#text=Sollten Sie vor meiner Rückkunft irgend welchen Bescheid zu haben wünschen, so bitte ich
+14-1	Sollten	VMFIN	sollen	_	O	O	
+14-2	Sie	PPER	Sie	_	O	O	
+14-3	vor	APPR	vor	_	O	O	
+14-4	meiner	PPOSAT	mein	_	O	O	
+14-5	Rückkunft	NN	Rückkunft	_	O	O	
+14-6	irgend	ADV	irgend	_	O	O	
+14-7	welchen	PIAT	welche	_	O	O	
+14-8	Bescheid	NN	Bescheid	_	O	O	
+14-9	zu	PTKZU	zu	_	O	O	
+14-10	haben	VAINF	haben	_	O	O	
+14-11	wünschen	VVINF	wünschen	_	O	O	
+14-12	,	$,	,	_	O	O	
+14-13	so	ADV	so	_	O	O	
+14-14	bitte	VVFIN	bitten	_	O	O	
+14-15	ich	PPER	ich	_	O	O	
+

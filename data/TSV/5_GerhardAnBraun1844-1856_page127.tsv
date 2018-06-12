@@ -1,0 +1,141 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=109 3 Gerhard an Braun Berlin, 24. März 1845 hört dem italienischen Revisor ein Stück Geld abgeben müsse, bleibt in der Ordnung, wie es bei Abfassung dieses Antrags (nicht für Henzen's Person, sondern für die 2.te Sekretariatsstelle ) in der Ordnung befunden wurde.
+1-1	109	CARD	@card@	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	hört	VVFIN	hören	_	O	O	
+1-13	dem	ART	die	_	O	O	
+1-14	italienischen	ADJA	italienisch	_	O	O	
+1-15	Revisor	NN	<unknown>	_	O	O	
+1-16	ein	ART	eine	_	O	O	
+1-17	Stück	NN	Stück	_	O	O	
+1-18	Geld	NN	Geld	_	O	O	
+1-19	abgeben	VVINF	abgeben	_	O	O	
+1-20	müsse	VMFIN	müssen	_	O	O	
+1-21	,	$,	,	_	O	O	
+1-22	bleibt	VVFIN	bleiben	_	O	O	
+1-23	in	APPR	in	_	O	O	
+1-24	der	ART	die	_	O	O	
+1-25	Ordnung	NN	Ordnung	_	O	O	
+1-26	,	$,	,	_	O	O	
+1-27	wie	KOUS	wie	_	O	O	
+1-28	es	PPER	es	_	O	O	
+1-29	bei	APPR	bei	_	O	O	
+1-30	Abfassung	NN	Abfassung	_	O	O	
+1-31	dieses	PDAT	dies	_	O	O	
+1-32	Antrags	NN	Antrag	_	O	O	
+1-33	(	$(	(	_	O	O	
+1-34	nicht	PTKNEG	nicht	_	O	O	
+1-35	für	APPR	für	_	O	O	
+1-36	Henzen's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-37	Person	NN	Person	_	O	O	
+1-38	,	$,	,	_	O	O	
+1-39	sondern	KON	sondern	_	O	O	
+1-40	für	APPR	für	_	O	O	
+1-41	die	ART	die	_	O	O	
+1-42	2.te	ADJA	<unknown>	_	O	O	
+1-43	Sekretariatsstelle	NN	<unknown>	_	O	O	
+1-44	)	$(	)	_	O	O	
+1-45	in	APPR	in	_	O	O	
+1-46	der	ART	die	_	O	O	
+1-47	Ordnung	NN	Ordnung	_	O	O	
+1-48	befunden	VVPP	befinden	_	O	O	
+1-49	wurde	VAFIN	werden	_	O	O	
+1-50	.	$.	.	_	O	O	
+
+#id=2
+#text=Besorgen Sie also, wie den direkten Dank auf die Rescripte die Ihnen selbst zugegangen sein werden, so auch unsre persönliche Verständigung mit Henzen.
+2-1	Besorgen	VVFIN	besorgen	_	O	O	
+2-2	Sie	PPER	Sie	_	O	O	
+2-3	also	ADV	also	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	wie	KOUS	wie	_	O	O	
+2-6	den	ART	die	_	O	O	
+2-7	direkten	ADJA	direkt	_	O	O	
+2-8	Dank	NN	Dank	_	O	O	
+2-9	auf	APPR	auf	_	O	O	
+2-10	die	ART	die	_	O	O	
+2-11	Rescripte	NN	<unknown>	_	O	O	
+2-12	die	PRELS	die	_	O	O	
+2-13	Ihnen	PPER	Sie	_	O	O	
+2-14	selbst	ADV	selbst	_	O	O	
+2-15	zugegangen	VVPP	zugehen	_	O	O	
+2-16	sein	VAINF	sein	_	O	O	
+2-17	werden	VAFIN	werden	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	so	ADV	so	_	O	O	
+2-20	auch	ADV	auch	_	O	O	
+2-21	unsre	PPOSAT	unsre	_	O	O	
+2-22	persönliche	ADJA	persönlich	_	O	O	
+2-23	Verständigung	NN	Verständigung	_	O	O	
+2-24	mit	APPR	mit	_	O	O	
+2-25	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-26	.	$.	.	_	O	O	
+
+#id=3
+#text=In der französischen Liste der Monumenti neuester Publikation finde ich die von Luynes angekaufte Teseus-Paris-vase; also zum dritten mal publicirt nach Bullettino Napoletano und Archäologische Zeitung Daß Henzen's Stellung von Ihrem Bleiben in Rom abhängig gemacht ist, ist eine neue Subtilität von J. Schulze.
+3-1	In	APPR	in	_	O	O	
+3-2	der	ART	die	_	O	O	
+3-3	französischen	ADJA	französisch	_	O	O	
+3-4	Liste	NN	Liste	_	O	O	
+3-5	der	ART	die	_	O	O	
+3-6	Monumenti	NN	<unknown>	_	O	O	
+3-7	neuester	ADJA	neu	_	O	O	
+3-8	Publikation	NN	Publikation	_	O	O	
+3-9	finde	VVFIN	finden	_	O	O	
+3-10	ich	PPER	ich	_	O	O	
+3-11	die	ART	die	_	O	O	
+3-12	von	APPR	von	_	O	O	
+3-13	Luynes	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-14	angekaufte	ADJA	angekauft	_	O	O	
+3-15	Teseus-Paris-vase	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-16	;	$.	;	_	O	O	
+3-17	also	ADV	also	_	O	O	
+3-18	zum	APPRART	zu	_	O	O	
+3-19	dritten	ADJA	dritt	_	O	O	
+3-20	mal	ADV	mal	_	O	O	
+3-21	publicirt	ADJD	<unknown>	_	O	O	
+3-22	nach	APPR	nach	_	O	O	
+3-23	Bullettino	NE	<unknown>	_	O	O	
+3-24	Napoletano	NE	<unknown>	_	O	O	
+3-25	und	KON	und	_	O	O	
+3-26	Archäologische	ADJA	archäologisch	_	O	O	
+3-27	Zeitung	NN	Zeitung	_	O	O	
+3-28	Daß	KOUS	dass	_	O	O	
+3-29	Henzen's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-30	Stellung	NN	Stellung	_	O	O	
+3-31	von	APPR	von	_	O	O	
+3-32	Ihrem	PPOSAT	ihr	_	O	O	
+3-33	Bleiben	NN	Bleibe|Bleiben	_	O	O	
+3-34	in	APPR	in	_	O	O	
+3-35	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-36	abhängig	ADJD	abhängig	_	O	O	
+3-37	gemacht	VVPP	machen	_	O	O	
+3-38	ist	VAFIN	sein	_	O	O	
+3-39	,	$,	,	_	O	O	
+3-40	ist	VAFIN	sein	_	O	O	
+3-41	eine	ART	eine	_	O	O	
+3-42	neue	ADJA	neu	_	O	O	
+3-43	Subtilität	NN	Subtilität	_	O	O	
+3-44	von	APPR	von	_	O	O	
+3-45	J.	NE	J.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-46	Schulze	NE	Schulze	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-47	.	$.	.	_	O	O	
+
+#id=4
+#text=Von Herzen der Ihrige Gerhard
+4-1	Von	APPR	von	_	O	O	
+4-2	Herzen	NN	Herz	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	Ihrige	PPOSAT	ihrige	_	O	O	
+4-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

@@ -1,0 +1,262 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=llelbig an Henzen Siena, 3. September 1874 3 den Rand geschriebenen Anfragen an Dressel ab und bitte, dieselbe an Bormann gelangen zu lassen, sowie derselbe nach Berlin zurückgekehrt ist.
+1-1	llelbig	ADJD	<unknown>	_	O	O	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	3	CARD	3	_	O	O	
+1-11	den	ART	die	_	O	O	
+1-12	Rand	NN	Rand	_	O	O	
+1-13	geschriebenen	ADJA	geschrieben	_	O	O	
+1-14	Anfragen	NN	Anfrage	_	O	O	
+1-15	an	APPR	an	_	O	O	
+1-16	Dressel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-17	ab	PTKVZ	ab	_	O	O	
+1-18	und	KON	und	_	O	O	
+1-19	bitte	VVIMP	bitten	_	O	O	
+1-20	,	$,	,	_	O	O	
+1-21	dieselbe	PDS	dieselbe	_	O	O	
+1-22	an	APPR	an	_	O	O	
+1-23	Bormann	NE	Bormann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-24	gelangen	VVINF	gelangen	_	O	O	
+1-25	zu	PTKZU	zu	_	O	O	
+1-26	lassen	VVINF	lassen	_	O	O	
+1-27	,	$,	,	_	O	O	
+1-28	sowie	KON	sowie	_	O	O	
+1-29	derselbe	PDS	derselbe	_	O	O	
+1-30	nach	APPR	nach	_	O	O	
+1-31	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-32	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+1-33	ist	VAFIN	sein	_	O	O	
+1-34	.	$.	.	_	O	O	
+
+#id=2
+#text=Der arme Bormann wird schön damit zu thun bekommen; denn zur Beantwortung meiner Anfragen muß er Zoologen, Mineralogen, Botaniker und Chemiker in Bewegung setzen.
+2-1	Der	ART	die	_	O	O	
+2-2	arme	ADJA	arm	_	O	O	
+2-3	Bormann	NN	Bormann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-4	wird	VAFIN	werden	_	O	O	
+2-5	schön	ADJD	schön	_	O	O	
+2-6	damit	PAV	damit	_	O	O	
+2-7	zu	APPR	zu	_	O	O	
+2-8	thun	NE	<unknown>	_	O	O	
+2-9	bekommen	VVINF	bekommen	_	O	O	
+2-10	;	$.	;	_	O	O	
+2-11	denn	KON	denn	_	O	O	
+2-12	zur	APPRART	zu	_	O	O	
+2-13	Beantwortung	NN	Beantwortung	_	O	O	
+2-14	meiner	PPOSAT	mein	_	O	O	
+2-15	Anfragen	NN	Anfrage	_	O	O	
+2-16	muß	VMFIN	müssen	_	O	O	
+2-17	er	PPER	er	_	O	O	
+2-18	Zoologen	NN	Zoologe	_	O	O	
+2-19	,	$,	,	_	O	O	
+2-20	Mineralogen	NN	Mineraloge	_	O	O	
+2-21	,	$,	,	_	O	O	
+2-22	Botaniker	NN	Botaniker	_	O	O	
+2-23	und	KON	und	_	O	O	
+2-24	Chemiker	NN	Chemiker	_	O	O	
+2-25	in	APPR	in	_	O	O	
+2-26	Bewegung	NN	Bewegung	_	O	O	
+2-27	setzen	VVFIN	setzen	_	O	O	
+2-28	.	$.	.	_	O	O	
+
+#id=3
+#text=Doch er hat es nun einmal gewollt •.
+3-1	Doch	KON	doch	_	O	O	
+3-2	er	PPER	er	_	O	O	
+3-3	hat	VAFIN	haben	_	O	O	
+3-4	es	PPER	es	_	O	O	
+3-5	nun	ADV	nun	_	O	O	
+3-6	einmal	ADV	einmal	_	O	O	
+3-7	gewollt	ADJD	gewollt	_	O	O	
+3-8	•	ADJD	<unknown>	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Ende October denke ich sicher nach Rom zurückgekehrt zu sein.
+4-1	Ende	NN	Ende	_	O	O	
+4-2	October	ADJD	<unknown>	_	O	O	
+4-3	denke	VVFIN	denken	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	sicher	ADJD	sicher	_	O	O	
+4-6	nach	APPR	nach	_	O	O	
+4-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-8	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+4-9	zu	PTKZU	zu	_	O	O	
+4-10	sein	VAINF	sein	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Wie ich Ihnen bereits mitgetheilt, I soll die Reise nurden Zweck der Orientirung und der Ausj füllung empfindlicher Lücken anstreben.
+5-1	Wie	KOUS	wie	_	O	O	
+5-2	ich	PPER	ich	_	O	O	
+5-3	Ihnen	PPER	Sie	_	O	O	
+5-4	bereits	ADV	bereits	_	O	O	
+5-5	mitgetheilt	VVPP	<unknown>	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	I	NE	I	_	O	O	
+5-8	soll	VMFIN	sollen	_	O	O	
+5-9	die	ART	die	_	O	O	
+5-10	Reise	NN	Reise	_	O	O	
+5-11	nurden	VVFIN	<unknown>	_	O	O	
+5-12	Zweck	NN	Zweck	_	O	O	
+5-13	der	ART	die	_	O	O	
+5-14	Orientirung	NN	<unknown>	_	O	O	
+5-15	und	KON	und	_	O	O	
+5-16	der	ART	die	_	O	O	
+5-17	Ausj	NN	<unknown>	_	O	O	
+5-18	füllung	NN	Füllung	_	O	O	
+5-19	empfindlicher	ADJA	empfindlich	_	O	O	
+5-20	Lücken	NN	Lücke	_	O	O	
+5-21	anstreben	VVINF	anstreben	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=Für die mir zunächst liegenden Studien hoffe ich wenig davon, höchstens einige Beobachtungen bei dem Besuche von Mykene.
+6-1	Für	APPR	für	_	O	O	
+6-2	die	ART	die	_	O	O	
+6-3	mir	PRF	ich	_	O	O	
+6-4	zunächst	ADV	zunächst	_	O	O	
+6-5	liegenden	ADJA	liegend	_	O	O	
+6-6	Studien	NN	Studie|Studium	_	O	O	
+6-7	hoffe	VVFIN	hoffen	_	O	O	
+6-8	ich	PPER	ich	_	O	O	
+6-9	wenig	PIS	wenige	_	O	O	
+6-10	davon	PAV	davon	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	höchstens	ADV	höchstens	_	O	O	
+6-13	einige	PIAT	einige	_	O	O	
+6-14	Beobachtungen	NN	Beobachtung	_	O	O	
+6-15	bei	APPR	bei	_	O	O	
+6-16	dem	ART	die	_	O	O	
+6-17	Besuche	NN	Besuch	_	O	O	
+6-18	von	APPR	von	_	O	O	
+6-19	Mykene	NN	<unknown>	_	O	O	
+6-20	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich fange jetzt an, allerlei Ricordi für die Zeit meiner Abwesenheit zusammenzustellen, die ich aber, da noch Mancherlei dazu kommen könnte, erst in dem letzten Momente an Sie abschicke.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	fange	VVFIN	fangen	_	O	O	
+7-3	jetzt	ADV	jetzt	_	O	O	
+7-4	an	PTKVZ	an	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	allerlei	PIS	allerlei	_	O	O	
+7-7	Ricordi	NE	<unknown>	_	O	O	
+7-8	für	APPR	für	_	O	O	
+7-9	die	ART	die	_	O	O	
+7-10	Zeit	NN	Zeit	_	O	O	
+7-11	meiner	PPOSAT	mein	_	O	O	
+7-12	Abwesenheit	NN	Abwesenheit	_	O	O	
+7-13	zusammenzustellen	VVIZU	zusammenstellen	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	die	PRELS	die	_	O	O	
+7-16	ich	PPER	ich	_	O	O	
+7-17	aber	ADV	aber	_	O	O	
+7-18	,	$,	,	_	O	O	
+7-19	da	KOUS	da	_	O	O	
+7-20	noch	ADV	noch	_	O	O	
+7-21	Mancherlei	NN	<unknown>	_	O	O	
+7-22	dazu	PAV	dazu	_	O	O	
+7-23	kommen	VVINF	kommen	_	O	O	
+7-24	könnte	VMFIN	können	_	O	O	
+7-25	,	$,	,	_	O	O	
+7-26	erst	ADV	erst	_	O	O	
+7-27	in	APPR	in	_	O	O	
+7-28	dem	ART	die	_	O	O	
+7-29	letzten	ADJA	letzt	_	O	O	
+7-30	Momente	NN	Moment	_	O	O	
+7-31	an	APPR	an	_	O	O	
+7-32	Sie	PPER	Sie	_	O	O	
+7-33	abschicke	VVFIN	<unknown>	_	O	O	
+7-34	.	$.	.	_	O	O	
+
+#id=8
+#text=Könnten wir uns vielleicht, falls Sie sich nicht zu dem Ausfluge nach Siena entscheiden, um den 20. in Rom treffen?
+8-1	Könnten	VMFIN	können	_	O	O	
+8-2	wir	PPER	wir	_	O	O	
+8-3	uns	PRF	wir	_	O	O	
+8-4	vielleicht	ADV	vielleicht	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	falls	KOUS	falls	_	O	O	
+8-7	Sie	PPER	Sie	_	O	O	
+8-8	sich	PRF	sich	_	O	O	
+8-9	nicht	PTKNEG	nicht	_	O	O	
+8-10	zu	APPR	zu	_	O	O	
+8-11	dem	ART	die	_	O	O	
+8-12	Ausfluge	NN	<unknown>	_	O	O	
+8-13	nach	APPR	nach	_	O	O	
+8-14	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-15	entscheiden	VVFIN	entscheiden	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	um	KOUI	um	_	O	O	
+8-18	den	ART	die	_	O	O	
+8-19	20	CARD	20	_	O	O	
+8-20	.	$.	.	_	O	O	
+8-21	in	APPR	in	_	O	O	
+8-22	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-23	treffen	VVFIN	treffen	_	O	O	
+8-24	?	$.	?	_	O	O	
+
+#id=9
+#text=Der Lloyddampfer geht von Brindisi den 23. ab.
+9-1	Der	ART	die	_	O	O	
+9-2	Lloyddampfer	NN	<unknown>	_	O	O	
+9-3	geht	VVFIN	gehen	_	O	O	
+9-4	von	APPR	von	_	O	O	
+9-5	Brindisi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-6	den	ART	die	_	O	O	
+9-7	23	CARD	23	_	O	O	
+9-8	.	$.	.	_	O	O	
+9-9	ab	PTKVZ	ab	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=Seit vier Tagen haben wir hier wieder Hitze, wie zu Anfang Juli, aber gemildert durch starken Wind.
+10-1	Seit	APPR	seit	_	O	O	
+10-2	vier	CARD	vier	_	O	O	
+10-3	Tagen	NN	Tag	_	O	O	
+10-4	haben	VAFIN	haben	_	O	O	
+10-5	wir	PPER	wir	_	O	O	
+10-6	hier	ADV	hier	_	O	O	
+10-7	wieder	ADV	wieder	_	O	O	
+10-8	Hitze	NN	Hitze	_	O	O	
+10-9	,	$,	,	_	O	O	
+10-10	wie	KOUS	wie	_	O	O	
+10-11	zu	APPR	zu	_	O	O	
+10-12	Anfang	NN	Anfang	_	O	O	
+10-13	Juli	NN	Juli	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+10-14	,	$,	,	_	O	O	
+10-15	aber	ADV	aber	_	O	O	
+10-16	gemildert	VVPP	mildern	_	O	O	
+10-17	durch	APPR	durch	_	O	O	
+10-18	starken	ADJA	stark	_	O	O	
+10-19	Wind	NN	Wind	_	O	O	
+10-20	.	$.	.	_	O	O	
+
+#id=11
+#text=Mit herzlichen Grüßen Ihr ergebener Helbig Gamurrinis Begleitung auf der griechischen Reise scheint mir gesichert.
+11-1	Mit	APPR	mit	_	O	O	
+11-2	herzlichen	ADJA	herzlich	_	O	O	
+11-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+11-4	Ihr	PPOSAT	ihr	_	O	O	
+11-5	ergebener	ADJA	ergeben	_	O	O	
+11-6	Helbig	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-7	Gamurrinis	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-8	Begleitung	NN	Begleitung	_	O	O	
+11-9	auf	APPR	auf	_	O	O	
+11-10	der	ART	die	_	O	O	
+11-11	griechischen	ADJA	griechisch	_	O	O	
+11-12	Reise	NN	Reise	_	O	O	
+11-13	scheint	VVFIN	scheinen	_	O	O	
+11-14	mir	PPER	ich	_	O	O	
+11-15	gesichert	VVPP	sichern	_	O	O	
+11-16	.	$.	.	_	O	O	
+

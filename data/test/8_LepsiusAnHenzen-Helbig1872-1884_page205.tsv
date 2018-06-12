@@ -1,0 +1,135 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=43 3 Lepsius an Henzen Berlin, 19. Januar 1875 Zahlungen geschehen dann inerhalb des Reichs, das kein Geldporto zahlt, gratis.
+1-1	43	CARD	43	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Zahlungen	NN	Zahlung	_	O	O	
+1-13	geschehen	VVFIN	geschehen	_	O	O	
+1-14	dann	ADV	dann	_	O	O	
+1-15	inerhalb	ADJA	<unknown>	_	O	O	
+1-16	des	ART	die	_	O	O	
+1-17	Reichs	NN	Reich	_	O	O	
+1-18	,	$,	,	_	O	O	
+1-19	das	PRELS	die	_	O	O	
+1-20	kein	PIAT	keine	_	O	O	
+1-21	Geldporto	NN	<unknown>	_	O	O	
+1-22	zahlt	VVFIN	zahlen	_	O	O	
+1-23	,	$,	,	_	O	O	
+1-24	gratis	ADJD	gratis	_	O	O	
+1-25	.	$.	.	_	O	O	
+
+#id=2
+#text=Der Jahresrechnung müssen die Etatstitel zu Grunde liegen.
+2-1	Der	ART	die	_	O	O	
+2-2	Jahresrechnung	NN	Jahresrechnung	_	O	O	
+2-3	müssen	VMFIN	müssen	_	O	O	
+2-4	die	ART	die	_	O	O	
+2-5	Etatstitel	NN	<unknown>	_	O	O	
+2-6	zu	APPR	zu	_	O	O	
+2-7	Grunde	NN	Grund	_	O	O	
+2-8	liegen	VVINF	liegen	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Da Sie immer eine ansehnliche Kasse durch die praenumerando Zahlung an Sie haben, so erledigt sich auch das Bedürfnis nach einem Theile des Reservefonds oder des Titels Insgemein, da Sie ja immer aus Ihrer Gesammtkasse vorschießen können.
+3-1	Da	KOUS	da	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	immer	ADV	immer	_	O	O	
+3-4	eine	ART	eine	_	O	O	
+3-5	ansehnliche	ADJA	ansehnlich	_	O	O	
+3-6	Kasse	NN	Kasse	_	O	O	
+3-7	durch	APPR	durch	_	O	O	
+3-8	die	ART	die	_	O	O	
+3-9	praenumerando	NE	<unknown>	_	O	O	
+3-10	Zahlung	NN	Zahlung	_	O	O	
+3-11	an	APPR	an	_	O	O	
+3-12	Sie	PPER	Sie	_	O	O	
+3-13	haben	VAFIN	haben	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	so	ADV	so	_	O	O	
+3-16	erledigt	VVFIN	erledigen	_	O	O	
+3-17	sich	PRF	sich	_	O	O	
+3-18	auch	ADV	auch	_	O	O	
+3-19	das	ART	die	_	O	O	
+3-20	Bedürfnis	NN	Bedürfnis	_	O	O	
+3-21	nach	APPR	nach	_	O	O	
+3-22	einem	ART	eine	_	O	O	
+3-23	Theile	NE	Theile	_	O	O	
+3-24	des	ART	die	_	O	O	
+3-25	Reservefonds	NN	Reservefonds	_	O	O	
+3-26	oder	KON	oder	_	O	O	
+3-27	des	ART	die	_	O	O	
+3-28	Titels	NN	Titel	_	O	O	
+3-29	Insgemein	NN	<unknown>	_	O	O	
+3-30	,	$,	,	_	O	O	
+3-31	da	KOUS	da	_	O	O	
+3-32	Sie	PPER	Sie	_	O	O	
+3-33	ja	ADV	ja	_	O	O	
+3-34	immer	ADV	immer	_	O	O	
+3-35	aus	APPR	aus	_	O	O	
+3-36	Ihrer	PPOSAT	ihr	_	O	O	
+3-37	Gesammtkasse	NN	<unknown>	_	O	O	
+3-38	vorschießen	VVINF	vorschießen	_	O	O	
+3-39	können	VMFIN	können	_	O	O	
+3-40	.	$.	.	_	O	O	
+
+#id=4
+#text=Ebenso wird Lüders angewiesen.
+4-1	Ebenso	ADV	ebenso	_	O	O	
+4-2	wird	VAFIN	werden	_	O	O	
+4-3	Lüders	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-4	angewiesen	VVPP	anweisen	_	O	O	
+4-5	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Gesandtschaft hat also mit allen dem nichts mehr zu thun.
+5-1	Die	ART	die	_	O	O	
+5-2	Gesandtschaft	NN	Gesandtschaft	_	O	O	
+5-3	hat	VAFIN	haben	_	O	O	
+5-4	also	ADV	also	_	O	O	
+5-5	mit	APPR	mit	_	O	O	
+5-6	allen	PIS	alle	_	O	O	
+5-7	dem	ART	die	_	O	O	
+5-8	nichts	PIS	nichts	_	O	O	
+5-9	mehr	ADV	mehr	_	O	O	
+5-10	zu	APPR	zu	_	O	O	
+5-11	thun	NE	<unknown>	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Hierbei wird es nun hoffentlich bleiben da die Kasse nun selbst definitiv in Ordnung gekommen ist.
+6-1	Hierbei	PAV	hierbei	_	O	O	
+6-2	wird	VAFIN	werden	_	O	O	
+6-3	es	PPER	es	_	O	O	
+6-4	nun	ADV	nun	_	O	O	
+6-5	hoffentlich	ADV	hoffentlich	_	O	O	
+6-6	bleiben	VVFIN	bleiben	_	O	O	
+6-7	da	ADV	da	_	O	O	
+6-8	die	ART	die	_	O	O	
+6-9	Kasse	NN	Kasse	_	O	O	
+6-10	nun	ADV	nun	_	O	O	
+6-11	selbst	ADV	selbst	_	O	O	
+6-12	definitiv	ADJD	definitiv	_	O	O	
+6-13	in	APPR	in	_	O	O	
+6-14	Ordnung	NN	Ordnung	_	O	O	
+6-15	gekommen	VVPP	kommen	_	O	O	
+6-16	ist	VAFIN	sein	_	O	O	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=Ihr herzlich ergebner R Lepsius
+7-1	Ihr	PPOSAT	ihr	_	O	O	
+7-2	herzlich	ADJD	herzlich	_	O	O	
+7-3	ergebner	ADJA	<unknown>	_	O	O	
+7-4	R	NN	R	_	O	O	
+7-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

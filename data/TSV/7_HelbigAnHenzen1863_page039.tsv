@@ -1,0 +1,233 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=415 H Lieber Herr Professor Helbig an Henzen Neapel, 5. September 1864 g. 8/9 64 r.
+1-1	415	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	8/9	CARD	8/9	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	64	CARD	64	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=9/9 64 Napoli 5. Sept.
+2-1	9/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-2	64	CARD	64	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-3	Napoli	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	Sept.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=3
+#text=1864 Indem ich morgen nach Pompei abgehe, schreibe ich Ihnen hiermit mein Testament.
+3-1	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-2	Indem	KOUS	indem	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	morgen	ADV	morgen	_	O	O	
+3-5	nach	APPR	nach	_	O	O	
+3-6	Pompei	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-7	abgehe	VVFIN	abgehen	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	schreibe	VVFIN	schreiben	_	O	O	
+3-10	ich	PPER	ich	_	O	O	
+3-11	Ihnen	PPER	Sie	_	O	O	
+3-12	hiermit	PAV	hiermit	_	O	O	
+3-13	mein	PPOSAT	mein	_	O	O	
+3-14	Testament	NN	Testament	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich danke für Brief, Wechsel und Bullettini, die ich richtig erhalten habe.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	danke	VVFIN	danken	_	O	O	
+4-3	für	APPR	für	_	O	O	
+4-4	Brief	NN	Brief	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	Wechsel	NN	Wechsel	_	O	O	
+4-7	und	KON	und	_	O	O	
+4-8	Bullettini	NN	<unknown>	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	die	PRELS	die	_	O	O	
+4-11	ich	PPER	ich	_	O	O	
+4-12	richtig	ADJD	richtig	_	O	O	
+4-13	erhalten	VVPP	erhalten	_	O	O	
+4-14	habe	VAFIN	haben	_	O	O	
+4-15	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich werde mich bemühen, meine Arbeit in Pompei möglichst rasch zu absolviren, zumal da ich doch nicht umhin kann, im December wiederum nach Neapel zurückzugehen.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	werde	VAFIN	werden	_	O	O	
+5-3	mich	PRF	ich	_	O	O	
+5-4	bemühen	VVINF	bemühen	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	meine	PPOSAT	mein	_	O	O	
+5-7	Arbeit	NN	Arbeit	_	O	O	
+5-8	in	APPR	in	_	O	O	
+5-9	Pompei	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-10	möglichst	ADV	möglichst	_	O	O	
+5-11	rasch	ADJD	rasch	_	O	O	
+5-12	zu	PTKZU	zu	_	O	O	
+5-13	absolviren	ADJA	<unknown>	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	zumal	ADV	zumal	_	O	O	
+5-16	da	KOUS	da	_	O	O	
+5-17	ich	PPER	ich	_	O	O	
+5-18	doch	ADV	doch	_	O	O	
+5-19	nicht	PTKNEG	nicht	_	O	O	
+5-20	umhin	ADV	umhin	_	O	O	
+5-21	kann	VMFIN	können	_	O	O	
+5-22	,	$,	,	_	O	O	
+5-23	im	APPRART	in	_	O	O	
+5-24	December	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-25	wiederum	ADV	wiederum	_	O	O	
+5-26	nach	APPR	nach	_	O	O	
+5-27	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-28	zurückzugehen	VVIZU	zurückgehen	_	O	O	
+5-29	.	$.	.	_	O	O	
+
+#id=6
+#text=Gegenwärtig habe ich Neapel entsetzlich satt: ich komme mir vor wie eine geschlagene und vollständig demoralisirte Armee.
+6-1	Gegenwärtig	ADJD	gegenwärtig	_	O	O	
+6-2	habe	VAFIN	haben	_	O	O	
+6-3	ich	PPER	ich	_	O	O	
+6-4	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-5	entsetzlich	ADJD	entsetzlich	_	O	O	
+6-6	satt	ADJD	satt	_	O	O	
+6-7	:	$.	:	_	O	O	
+6-8	ich	PPER	ich	_	O	O	
+6-9	komme	VVFIN	kommen	_	O	O	
+6-10	mir	PPER	ich	_	O	O	
+6-11	vor	PTKVZ	vor	_	O	O	
+6-12	wie	KOKOM	wie	_	O	O	
+6-13	eine	ART	eine	_	O	O	
+6-14	geschlagene	ADJA	geschlagen	_	O	O	
+6-15	und	KON	und	_	O	O	
+6-16	vollständig	ADJD	vollständig	_	O	O	
+6-17	demoralisirte	ADJA	<unknown>	_	O	O	
+6-18	Armee	NN	Armee	_	O	O	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=Was den Ausflug nach Paestum betrifft, so ziehe ich vor ihn im December vorzunehmen.
+7-1	Was	PWS	was	_	O	O	
+7-2	den	ART	die	_	O	O	
+7-3	Ausflug	NN	Ausflug	_	O	O	
+7-4	nach	APPR	nach	_	O	O	
+7-5	Paestum	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-6	betrifft	VVFIN	betreffen	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	so	ADV	so	_	O	O	
+7-9	ziehe	VVFIN	zeihen|ziehen	_	O	O	
+7-10	ich	PPER	ich	_	O	O	
+7-11	vor	APPR	vor	_	O	O	
+7-12	ihn	PPER	er	_	O	O	
+7-13	im	APPRART	in	_	O	O	
+7-14	December	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-15	vorzunehmen	VVIZU	vornehmen	_	O	O	
+7-16	.	$.	.	_	O	O	
+
+#id=8
+#text=Um die nöthigen Notizen über die Bellislesche Vasensammlung und die ausgegrabenen Statuen Salamancas und eines anderen Speculanten aufzunehmen, müßte ich jedenfalls eine Nacht in Bellisle's Casino zubringen, was ich mir gegenwärtig bei der Malaria und meinem zerrütteten Zustande nicht getraue.
+8-1	Um	KOUI	um	_	O	O	
+8-2	die	ART	die	_	O	O	
+8-3	nöthigen	ADJA	<unknown>	_	O	O	
+8-4	Notizen	NN	Notiz	_	O	O	
+8-5	über	APPR	über	_	O	O	
+8-6	die	ART	die	_	O	O	
+8-7	Bellislesche	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-8	Vasensammlung	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+8-9	und	KON	und	_	O	O	
+8-10	die	ART	die	_	O	O	
+8-11	ausgegrabenen	ADJA	ausgegraben	_	O	O	
+8-12	Statuen	NN	Statue	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-13	Salamancas	NE	<unknown>	_	O	O	
+8-14	und	KON	und	_	O	O	
+8-15	eines	ART	eine	_	O	O	
+8-16	anderen	PIAT	andere	_	O	O	
+8-17	Speculanten	NN	<unknown>	_	O	O	
+8-18	aufzunehmen	VVIZU	aufnehmen	_	O	O	
+8-19	,	$,	,	_	O	O	
+8-20	müßte	VMFIN	müssen	_	O	O	
+8-21	ich	PPER	ich	_	O	O	
+8-22	jedenfalls	ADV	jedenfalls	_	O	O	
+8-23	eine	ART	eine	_	O	O	
+8-24	Nacht	NN	Nacht	_	O	O	
+8-25	in	APPR	in	_	O	O	
+8-26	Bellisle's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-27	Casino	NN	Casino	_	O	O	
+8-28	zubringen	VVINF	zubringen	_	O	O	
+8-29	,	$,	,	_	O	O	
+8-30	was	PRELS	was	_	O	O	
+8-31	ich	PPER	ich	_	O	O	
+8-32	mir	PRF	ich	_	O	O	
+8-33	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+8-34	bei	APPR	bei	_	O	O	
+8-35	der	ART	die	_	O	O	
+8-36	Malaria	NN	Malaria	_	O	O	
+8-37	und	KON	und	_	O	O	
+8-38	meinem	PPOSAT	mein	_	O	O	
+8-39	zerrütteten	ADJA	zerrüttet	_	O	O	
+8-40	Zustande	NN	Zustand	_	O	O	
+8-41	nicht	PTKNEG	nicht	_	O	O	
+8-42	getraue	VVFIN	getrauen	_	O	O	
+8-43	.	$.	.	_	O	O	
+
+#id=9
+#text=Schreiben Sie mir, ob Sie meine Notizen über die Ausgrabungen von Calvi (Kolossalstatue des Verus, Bacchustempelchen mit Metopen auf bacchischen Kult bezüglich ) und über die paestanischen (Kolossalstatuen der Livia und des Tiber) für das nächste Bulletttino brauchen.
+9-1	Schreiben	VVFIN	schreiben	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	mir	PPER	ich	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	ob	KOUS	ob	_	O	O	
+9-6	Sie	PPER	Sie	_	O	O	
+9-7	meine	PPOSAT	mein	_	O	O	
+9-8	Notizen	NN	Notiz	_	O	O	
+9-9	über	APPR	über	_	O	O	
+9-10	die	ART	die	_	O	O	
+9-11	Ausgrabungen	NN	Ausgrabung	_	O	O	
+9-12	von	APPR	von	_	O	O	
+9-13	Calvi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-14	(	$(	(	_	O	O	
+9-15	Kolossalstatue	NN	Kolossalstatue	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-16	des	ART	die	_	I-webanno.custom.LetterEntity_	I-OBJ	
+9-17	Verus	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+9-18	,	$,	,	_	O	O	
+9-19	Bacchustempelchen	NN	<unknown>	_	O	O	
+9-20	mit	APPR	mit	_	O	O	
+9-21	Metopen	NN	Metope	_	O	O	
+9-22	auf	APPR	auf	_	O	O	
+9-23	bacchischen	ADJA	<unknown>	_	O	O	
+9-24	Kult	NN	Kult	_	O	O	
+9-25	bezüglich	ADJD	bezüglich	_	O	O	
+9-26	)	$(	)	_	O	O	
+9-27	und	KON	und	_	O	O	
+9-28	über	APPR	über	_	O	O	
+9-29	die	ART	die	_	O	O	
+9-30	paestanischen	ADJA	<unknown>	_	O	O	
+9-31	(	$(	(	_	O	O	
+9-32	Kolossalstatuen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-33	der	ART	die	_	O	O	
+9-34	Livia	NE	Livia	_	O	O	
+9-35	und	KON	und	_	O	O	
+9-36	des	ART	die	_	O	O	
+9-37	Tiber	NE	Tiber	_	O	O	
+9-38	)	$(	)	_	O	O	
+9-39	für	APPR	für	_	O	O	
+9-40	das	ART	die	_	O	O	
+9-41	nächste	ADJA	nah	_	O	O	
+9-42	Bulletttino	NN	<unknown>	_	O	O	
+9-43	brauchen	VVFIN	brauchen	_	O	O	
+9-44	.	$.	.	_	O	O	
+

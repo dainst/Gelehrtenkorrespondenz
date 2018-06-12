@@ -1,0 +1,57 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an Henzen Meidanowa, 2. September 1871 4 sere Reise geht über Petersburg, Berlin, Dresden, München, Verona.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	Meidanowa	NE	<unknown>	_	O	O	
+1-5	,	$,	,	_	O	O	
+1-6	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1871	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	4	CARD	4	_	O	O	
+1-11	sere	ADJA	<unknown>	_	O	O	
+1-12	Reise	NN	Reise	_	O	O	
+1-13	geht	VVFIN	gehen	_	O	O	
+1-14	über	APPR	über	_	O	O	
+1-15	Petersburg	NE	Petersburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-16	,	$,	,	_	O	O	
+1-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-18	,	$,	,	_	O	O	
+1-19	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-20	,	$,	,	_	O	O	
+1-21	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-22	,	$,	,	_	O	O	
+1-23	Verona	NE	Verona	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-24	.	$.	.	_	O	O	
+
+#id=2
+#text=Wenn Sie Zeit haben, so schreiben Sie mir bitte: Dresden 3 Schweizerstraße.
+2-1	Wenn	KOUS	wenn	_	O	O	
+2-2	Sie	PPER	Sie	_	O	O	
+2-3	Zeit	NN	Zeit	_	O	O	
+2-4	haben	VAFIN	haben	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	so	ADV	so	_	O	O	
+2-7	schreiben	VVFIN	schreiben	_	O	O	
+2-8	Sie	PPER	Sie	_	O	O	
+2-9	mir	PPER	ich	_	O	O	
+2-10	bitte	PTKANT	bitte	_	O	O	
+2-11	:	$.	:	_	O	O	
+2-12	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-13	3	CARD	3	_	O	O	
+2-14	Schweizerstraße	NN	Schweizerstraße	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Herzliche Grüße an alle Capitoliner Ihr ergebener Helbig
+3-1	Herzliche	ADJA	herzlich	_	O	O	
+3-2	Grüße	NN	Gruß	_	O	O	
+3-3	an	APPR	an	_	O	O	
+3-4	alle	PIAT	alle	_	O	O	
+3-5	Capitoliner	NN	<unknown>	_	O	O	
+3-6	Ihr	PPOSAT	ihr	_	O	O	
+3-7	ergebener	ADJA	ergeben	_	O	O	
+3-8	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

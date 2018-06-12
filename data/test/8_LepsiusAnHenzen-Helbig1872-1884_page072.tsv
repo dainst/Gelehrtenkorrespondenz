@@ -1,0 +1,281 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=I • 7 ( 536 Lepsius an Henzen Berlin, 14. Dezember 1872 4 Ich habe nun auch über mein mündliches Gespräch mit Delbrück referirt, in Folge dessen beschlossen wurde die Baupläne wieder aufnehmen zu lassen, in dem Sinne, wie ich Ihnen im vorigen Briefe geschrieben habe.
+1-1	I	FM	I	_	O	O	
+1-2	•	ADJD	<unknown>	_	O	O	
+1-3	7	CARD	7	_	O	O	
+1-4	(	$(	(	_	O	O	
+1-5	536	CARD	@card@	_	O	O	
+1-6	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	4	CARD	4	_	O	O	
+1-16	Ich	PPER	ich	_	O	O	
+1-17	habe	VAFIN	haben	_	O	O	
+1-18	nun	ADV	nun	_	O	O	
+1-19	auch	ADV	auch	_	O	O	
+1-20	über	APPR	über	_	O	O	
+1-21	mein	PPOSAT	mein	_	O	O	
+1-22	mündliches	ADJA	mündlich	_	O	O	
+1-23	Gespräch	NN	Gespräch	_	O	O	
+1-24	mit	APPR	mit	_	O	O	
+1-25	Delbrück	NE	Delbrück	_	O	O	
+1-26	referirt	NN	<unknown>	_	O	O	
+1-27	,	$,	,	_	O	O	
+1-28	in	APPR	in	_	O	O	
+1-29	Folge	NN	Folge	_	O	O	
+1-30	dessen	PDS	die	_	O	O	
+1-31	beschlossen	VVPP	beschließen	_	O	O	
+1-32	wurde	VAFIN	werden	_	O	O	
+1-33	die	ART	die	_	O	O	
+1-34	Baupläne	NN	Bauplan	_	O	O	
+1-35	wieder	ADV	wieder	_	O	O	
+1-36	aufnehmen	VVINF	aufnehmen	_	O	O	
+1-37	zu	PTKZU	zu	_	O	O	
+1-38	lassen	VVINF	lassen	_	O	O	
+1-39	,	$,	,	_	O	O	
+1-40	in	APPR	in	_	O	O	
+1-41	dem	ART	die	_	O	O	
+1-42	Sinne	NN	Sinn	_	O	O	
+1-43	,	$,	,	_	O	O	
+1-44	wie	KOUS	wie	_	O	O	
+1-45	ich	PPER	ich	_	O	O	
+1-46	Ihnen	PPER	Sie	_	O	O	
+1-47	im	APPRART	in	_	O	O	
+1-48	vorigen	ADJA	vorig	_	O	O	
+1-49	Briefe	NN	Brief	_	O	O	
+1-50	geschrieben	VVPP	schreiben	_	O	O	
+1-51	habe	VAFIN	haben	_	O	O	
+1-52	.	$.	.	_	O	O	
+
+#id=2
+#text=Was die Instituts Kreaturen betrifft, so wurde zu den Ihrigen nur noch Tommaso Luciani in Venedig von Mommsen vorgeschlagen.
+2-1	Was	PWS	was	_	O	O	
+2-2	die	ART	die	_	O	O	
+2-3	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-4	Kreaturen	NN	Kreatur	_	O	O	
+2-5	betrifft	VVFIN	betreffen	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	so	ADV	so	_	O	O	
+2-8	wurde	VAFIN	werden	_	O	O	
+2-9	zu	APPR	zu	_	O	O	
+2-10	den	ART	die	_	O	O	
+2-11	Ihrigen	NN	<unknown>	_	O	O	
+2-12	nur	ADV	nur	_	O	O	
+2-13	noch	ADV	noch	_	O	O	
+2-14	Tommaso	NE	Tommaso	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-15	Luciani	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-16	in	APPR	in	_	O	O	
+2-17	Venedig	NE	Venedig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-18	von	APPR	von	_	O	O	
+2-19	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-20	vorgeschlagen	VVPP	vorschlagen	_	O	O	
+2-21	.	$.	.	_	O	O	
+
+#id=3
+#text=Außerdem schien es zweckmäßig einige Promotionen vorzunehmen, und Bursian, H. He~~ ~ Zangemeister, Schubring, 7aba~ unter die ordentlichen Mitglieder aufzunehmen; wenn Sie noch andre dafür haben, bedarf es nur der Mittheilung zur Eintragung.
+3-1	Außerdem	ADV	außerdem	_	O	O	
+3-2	schien	VVFIN	scheinen	_	O	O	
+3-3	es	PPER	es	_	O	O	
+3-4	zweckmäßig	ADJD	zweckmäßig	_	O	O	
+3-5	einige	PIAT	einige	_	O	O	
+3-6	Promotionen	NN	Promotion	_	O	O	
+3-7	vorzunehmen	VVIZU	vornehmen	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	und	KON	und	_	O	O	
+3-10	Bursian	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-11	,	$,	,	_	O	O	
+3-12	H.	NE	H.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-13	He~~	VVPP	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-14	~	XY	~	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-15	Zangemeister	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-16	,	$,	,	_	O	O	
+3-17	Schubring	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-18	,	$,	,	_	O	O	
+3-19	7aba~	NN	<unknown>	_	O	O	
+3-20	unter	APPR	unter	_	O	O	
+3-21	die	ART	die	_	O	O	
+3-22	ordentlichen	ADJA	ordentlich	_	O	O	
+3-23	Mitglieder	NN	Mitglied	_	O	O	
+3-24	aufzunehmen	VVIZU	aufnehmen	_	O	O	
+3-25	;	$.	;	_	O	O	
+3-26	wenn	KOUS	wenn	_	O	O	
+3-27	Sie	PPER	Sie	_	O	O	
+3-28	noch	ADV	noch	_	O	O	
+3-29	andre	PIS	andere	_	O	O	
+3-30	dafür	PAV	dafür	_	O	O	
+3-31	haben	VAFIN	haben	_	O	O	
+3-32	,	$,	,	_	O	O	
+3-33	bedarf	VVFIN	bedürfen	_	O	O	
+3-34	es	PPER	es	_	O	O	
+3-35	nur	ADV	nur	_	O	O	
+3-36	der	ART	die	_	O	O	
+3-37	Mittheilung	NN	<unknown>	_	O	O	
+3-38	zur	APPRART	zu	_	O	O	
+3-39	Eintragung	NN	Eintragung	_	O	O	
+3-40	.	$.	.	_	O	O	
+
+#id=4
+#text=Den Tod von Abeken, Parthey, Pinder, E.
+4-1	Den	ART	die	_	O	O	
+4-2	Tod	NN	Tod	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-4	Abeken	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-5	,	$,	,	_	O	O	
+4-6	Parthey	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-7	,	$,	,	_	O	O	
+4-8	Pinder	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-9	,	$,	,	_	O	O	
+4-10	E.	NE	E.	_	O	O	
+
+#id=5
+#text=Magnus, und ..... tabe, wenn ich richtig angemerk~ De~~!ia, Friedericus Andri6 und Ferrari, werden Sie auch verzeichnet haben.
+5-1	Magnus	NE	Magnus	_	O	O	
+5-2	,	$,	,	_	O	O	
+5-3	und	KON	und	_	O	O	
+5-4	...	$.	...	_	O	O	
+5-5	.	$.	.	_	O	O	
+5-6	.	$.	.	_	O	O	
+5-7	tabe	ADJD	<unknown>	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	wenn	KOUS	wenn	_	O	O	
+5-10	ich	PPER	ich	_	O	O	
+5-11	richtig	ADJD	richtig	_	O	O	
+5-12	angemerk~	ADJA	<unknown>	_	O	O	
+5-13	De~~	NN	<unknown>	_	O	O	
+5-14	!	$.	!	_	O	O	
+5-15	ia	NE	<unknown>	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	Friedericus	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-18	Andri6	NE	<unknown>	_	O	O	
+5-19	und	KON	und	_	O	O	
+5-20	Ferrari	NE	Ferrari	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-21	,	$,	,	_	O	O	
+5-22	werden	VAFIN	werden	_	O	O	
+5-23	Sie	PPER	Sie	_	O	O	
+5-24	auch	ADV	auch	_	O	O	
+5-25	verzeichnet	VVPP	verzeichnen	_	O	O	
+5-26	haben	VAINF	haben	_	O	O	
+5-27	.	$.	.	_	O	O	
+
+#id=6
+#text=Statt E.
+6-1	Statt	APPR	statt	_	O	O	
+6-2	E.	NE	E.	_	O	O	
+
+#id=7
+#text=B ~n ~ ist H. zu schreiben; sollten Sie nicht auch besser überall die Deutschen Anfangsbuchstaben beibehalten, und daher Ihren eignen Namen W. schreiben, wie Wplfgan~Helbig also auch I. Friedländer, u. s. f.; schreiben und sprechen wir doch auch nie Julius Janin, sondern Jules, nicht Wilhelm sondern William Pitt u. s. w. T. Matz ist noch einzuschieben.
+7-1	B	NE	B	_	O	O	
+7-2	~n	NN	<unknown>	_	O	O	
+7-3	~	XY	~	_	O	O	
+7-4	ist	VAFIN	sein	_	O	O	
+7-5	H.	NE	H.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-6	zu	PTKZU	zu	_	O	O	
+7-7	schreiben	VVINF	schreiben	_	O	O	
+7-8	;	$.	;	_	O	O	
+7-9	sollten	VMFIN	sollen	_	O	O	
+7-10	Sie	PPER	Sie	_	O	O	
+7-11	nicht	PTKNEG	nicht	_	O	O	
+7-12	auch	ADV	auch	_	O	O	
+7-13	besser	ADJD	gut	_	O	O	
+7-14	überall	ADV	überall	_	O	O	
+7-15	die	ART	die	_	O	O	
+7-16	Deutschen	ADJA	deutsch	_	O	O	
+7-17	Anfangsbuchstaben	NN	Anfangsbuchstabe	_	O	O	
+7-18	beibehalten	VVPP	beibehalten	_	O	O	
+7-19	,	$,	,	_	O	O	
+7-20	und	KON	und	_	O	O	
+7-21	daher	ADV	daher	_	O	O	
+7-22	Ihren	PPOSAT	ihr	_	O	O	
+7-23	eignen	ADJA	eigen	_	O	O	
+7-24	Namen	NN	Name	_	O	O	
+7-25	W.	NE	W.	_	O	O	
+7-26	schreiben	VVFIN	schreiben	_	O	O	
+7-27	,	$,	,	_	O	O	
+7-28	wie	KOUS	wie	_	O	O	
+7-29	Wplfgan~Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-30	also	ADV	also	_	O	O	
+7-31	auch	ADV	auch	_	O	O	
+7-32	I.	NE	I.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-33	Friedländer	NN	Friedland	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-34	,	$,	,	_	O	O	
+7-35	u.	KON	und	_	O	O	
+7-36	s.	ADV	s.	_	O	O	
+7-37	f.	APPR	f.	_	O	O	
+7-38	;	$.	;	_	O	O	
+7-39	schreiben	VVINF	schreiben	_	O	O	
+7-40	und	KON	und	_	O	O	
+7-41	sprechen	VVFIN	sprechen	_	O	O	
+7-42	wir	PPER	wir	_	O	O	
+7-43	doch	ADV	doch	_	O	O	
+7-44	auch	ADV	auch	_	O	O	
+7-45	nie	ADV	nie	_	O	O	
+7-46	Julius	NE	Julius	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-47	Janin	NE	Janin	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-48	,	$,	,	_	O	O	
+7-49	sondern	KON	sondern	_	O	O	
+7-50	Jules	NE	Jules	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-51	,	$,	,	_	O	O	
+7-52	nicht	PTKNEG	nicht	_	O	O	
+7-53	Wilhelm	NE	Wilhelm	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-54	sondern	KON	sondern	_	O	O	
+7-55	William	NE	William	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-56	Pitt	NE	Pitt	_	O	O	
+7-57	u.	APPR	um	_	O	O	
+7-58	s.	ADV	s.	_	O	O	
+7-59	w.	APPR	w.	_	O	O	
+7-60	T.	NE	T.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-61	Matz	NE	Matz	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-62	ist	VAFIN	sein	_	O	O	
+7-63	noch	ADV	noch	_	O	O	
+7-64	einzuschieben	VVIZU	einschieben	_	O	O	
+7-65	.	$.	.	_	O	O	
+
+#id=8
+#text=Köhler in Straßburg, Schöne in Berlin zu verzeichnen.
+8-1	Köhler	NE	Köhler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	in	APPR	in	_	O	O	
+8-3	Straßburg	NE	Straßburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-4	,	$,	,	_	O	O	
+8-5	Schöne	NN	Schöne	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	in	APPR	in	_	O	O	
+8-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-8	zu	PTKZU	zu	_	O	O	
+8-9	verzeichnen	VVINF	verzeichnen	_	O	O	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=An Calvary ist dann Ihre vorläufige Mittheilung an ihn von der Central Direktion bestätigt worden, nachdem er auch an mich als Vorsitzenden mit Beilage Ihrer
+9-1	An	APPR	an	_	O	O	
+9-2	Calvary	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-3	ist	VAFIN	sein	_	O	O	
+9-4	dann	ADV	dann	_	O	O	
+9-5	Ihre	PPOSAT	ihr	_	O	O	
+9-6	vorläufige	ADJA	vorläufig	_	O	O	
+9-7	Mittheilung	NN	<unknown>	_	O	O	
+9-8	an	APPR	an	_	O	O	
+9-9	ihn	PPER	er	_	O	O	
+9-10	von	APPR	von	_	O	O	
+9-11	der	ART	die	_	O	O	
+9-12	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-13	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+9-14	bestätigt	VVPP	bestätigen	_	O	O	
+9-15	worden	VAPP	werden	_	O	O	
+9-16	,	$,	,	_	O	O	
+9-17	nachdem	KOUS	nachdem	_	O	O	
+9-18	er	PPER	er	_	O	O	
+9-19	auch	ADV	auch	_	O	O	
+9-20	an	APPR	an	_	O	O	
+9-21	mich	PPER	ich	_	O	O	
+9-22	als	KOKOM	als	_	O	O	
+9-23	Vorsitzenden	NN	Vorsitzende	_	O	O	
+9-24	mit	APPR	mit	_	O	O	
+9-25	Beilage	NN	Beilage	_	O	O	
+9-26	Ihrer	PPOSAT	ihr	_	O	O	
+
