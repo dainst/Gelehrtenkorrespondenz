@@ -100,7 +100,7 @@ X = t.X_train
 y = t.y_train
 scorer = f1_scorer
 
-train_sizes, train_scores, test_scores = plot_learning_curve(estimator, title, X, y, scorer, cv = 7, n_jobs=3)
+train_sizes, train_scores, test_scores = plot_learning_curve(estimator, title, X, y, scorer, cv = 8, n_jobs=3)
 
 with open('learning_curve_results.pickle', "wb") as out:
     pickle.dump((train_sizes, train_scores, test_scores), out)
