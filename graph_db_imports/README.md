@@ -11,12 +11,7 @@ To install the Neo4j Python driver run `pip3 install neo4j-driver`.
 
 With Docker installed, simply run:
 ```
-docker run \
-    --publish=7474:7474 --publish=7687:7687 \
-    --volume=$HOME/.neo4j/data:/data \
-    --volume=$HOME/.neo4j/logs:/logs \
-    --env NEO4J_AUTH=neo4j/<password> \
-    neo4j:3.0
+docker run --publish=7474:7474 --publish=7687:7687 --volume=$HOME/.neo4j/data:/data --env NEO4J_AUTH=neo4j/<password> neo4j:3.4.0
 ```
 While replacing <password> with whatever you want to use as your database's root password. 
 
