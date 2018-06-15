@@ -1,7 +1,7 @@
 import logging
 import re
 
-from graph_db_imports.data_structures import *
+from data_structures import *
 
 logging.basicConfig(format='%(asctime)s %(message)s')
 

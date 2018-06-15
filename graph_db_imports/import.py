@@ -1,8 +1,8 @@
 import sys
 import logging
 
-from graph_db_imports.tsv_reader import read_data as read_tsv_data
-from graph_db_imports.neo4j_writer import write_data
+from tsv_reader import read_data as read_tsv_data
+from neo4j_writer import write_data
 
 logging.basicConfig(format='%(asctime)s %(message)s')
 
