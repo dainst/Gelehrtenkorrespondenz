@@ -21,10 +21,10 @@ Once started you can access its database browser at
 ## Importing data
 
 A TSV file containing metadata is already included in the repository. To import the data into Neo4j run 
-__neo4j_import.py__:
+__import.py__:
 
 ```
-python3 neo4j_import.py ./gelehrtenbriefe_metadata.tsv localhost 7687 neo4j <password>
+python3 import.py ./gelehrtenbriefe_metadata.tsv localhost 7687 neo4j <password>
 ```
 
 ## Deleting data
