@@ -111,14 +111,16 @@ def _import_letters(session, data: List[LetterData]):
     statement = \
         'CREATE (letter:Letter{date: {date}, title: {title}, summary: {summary}, quantity_description: {quantity_description}, quantity_page_count: {quantity_page_count}})'
 
-    author_link_statement = \
+    person_link_stub = \
         'MATCH (letter:Letter{date: {date}, title: {title}, summary: {summary}, quantity_description: {quantity_description}, quantity_page_count: {quantity_page_count}})' \
-        'MATCH (person:Person{label: {label_person}})' \
+        'MATCH (person:Person{label: {label_person}})'
+
+    author_link_statement = \
+        person_link_stub + \
         'CREATE (person)-[:IS_AUTHOR]->(letter)'
 
     recipient_link_statement = \
-        'MATCH (letter:Letter{date: {date}, title: {title}, summary: {summary}, quantity_description: {quantity_description}, quantity_page_count: {quantity_page_count}})' \
-        'MATCH (person:Person{label: {label_person}})' \
+        person_link_stub + \
         'CREATE (person)-[:IS_RECIPIENT]->(letter)'
 
     with session.begin_transaction() as tx:
