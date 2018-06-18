@@ -16,10 +16,10 @@ namespaces = {
 }
 
 
-def _extract_persons(author_nodes):
+def _extract_persons(person_nodes):
     authors = []
 
-    for node in author_nodes:
+    for node in person_nodes:
         split_name = node.xpath('./@normal')[0].split(',', 1)
 
         if len(split_name) == 2:
