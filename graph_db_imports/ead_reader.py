@@ -68,7 +68,7 @@ def _process_ead_item(item):
     return letter
 
 
-def read_ead_file(ead_file):
+def read_file(ead_file):
     result = []
     logger.info(f'Parsing input file {ead_file}.')
     parser = etree.XMLParser()
@@ -88,7 +88,7 @@ def read_ead_file(ead_file):
     return result
 
 
-def read_ead_files(file_paths):
+def read_files(file_paths):
     result = []
 
     for file_path in file_paths:
@@ -115,5 +115,5 @@ if __name__ == '__main__':
         logger.info('1) The EAD file containing metadata.')
         sys.exit()
 
-    read_ead_file(sys.argv[1])
+    read_file(sys.argv[1])
 
