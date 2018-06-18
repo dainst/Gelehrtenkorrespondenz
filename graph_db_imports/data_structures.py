@@ -23,7 +23,7 @@ class LocalizationPoint:
         self.location = location
 
 
-class Localization:
+class LocalizationTimespan:
 
     def __init__(self, location: Location, date_from: str = '', date_to: str = ''):
         self.location = location
@@ -37,10 +37,35 @@ class Localization:
         if not isinstance(other, type(self)): return NotImplemented
         return self.location == other.location and self.date_from == other.date_from and self.date_to == other.date_to
 
+    @staticmethod
+    def aggregate_localization_points_to_timespan(localization_points: List[LocalizationPoint]):
+        localization_points = sorted(localization_points, key=lambda x: (x.date, x.location.label))
+
+        persons_localizations_list = []
+
+        current_location = localization_points[0].location
+        current_date_from = localization_points[0].date
+        current_date_to = localization_points[0].date
+
+        for current_point in localization_points:
+
+            if current_location.id != current_point.location.id:
+                persons_localizations_list.append(LocalizationTimespan(current_location, current_date_from, current_date_to))
+
+                current_location = current_point.location
+                current_date_from = current_point.date
+                current_date_to = current_point.date
+            else:
+                current_date_to = current_point.date
+
+        persons_localizations_list.append(LocalizationTimespan(current_location, current_date_from, current_date_to))
+
+        return persons_localizations_list
+
 
 class PersonData:
 
-    def __init__(self, name: str, gnd_id: int, localizations: List[Localization],
+    def __init__(self, name: str, gnd_id: int, localizations: List[LocalizationTimespan],
                  first_name: str = '', last_name: str = ''):
         self.label = name
         self.gnd_id = gnd_id

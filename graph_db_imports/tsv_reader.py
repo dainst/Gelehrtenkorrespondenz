@@ -51,36 +51,6 @@ def _create_localization_points(data_rows):
     return localization_points
 
 
-def _aggregate_localization_points_to_timespans(localization_points):
-    localizations = dict()
-    for person_id in localization_points:
-
-        persons_localization_points: List[LocalizationPoint] = localization_points[person_id]
-        persons_localization_points = sorted(persons_localization_points, key=lambda x: (x.date, x.location.label))
-
-        persons_localizations_list = []
-
-        current_location = persons_localization_points[0].location
-        current_date_from = persons_localization_points[0].date
-        current_date_to = persons_localization_points[0].date
-
-        for current_point in persons_localization_points:
-
-            if current_location.id != current_point.location.id:
-                persons_localizations_list.append(Localization(current_location, current_date_from, current_date_to))
-
-                current_location = current_point.location
-                current_date_from = current_point.date
-                current_date_to = current_point.date
-            else:
-                current_date_to = current_point.date
-
-        persons_localizations_list.append(Localization(current_location, current_date_from, current_date_to))
-        localizations[person_id] = persons_localizations_list
-
-    return localizations
-
-
 def _extract_date(line_values):
     match = DATE_PATTERN.match(line_values[7])
     if match is not None:
@@ -155,7 +125,10 @@ def read_data(tsv_path, ignore_first_line):
 
         logger.info('Aggregating localization timespans...')
         localization_points = _create_localization_points(lines)
-        localization_timespans = _aggregate_localization_points_to_timespans(localization_points)
+        localization_timespans = dict()
+        for person_id in localization_points:
+            localization_timespans[person_id] = \
+                LocalizationTimespan.aggregate_localization_points_to_timespan(localization_points[person_id])
 
         logger.info('Parsing letter data...')
         for line in lines:
