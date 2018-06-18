@@ -76,7 +76,7 @@ def read_ead_file(ead_file):
     tree = etree.parse(ead_file, parser)
 
     items = tree.xpath(
-        '/default:ead/default:archdesc[@level="collection"]/default:dsc/default:c[@level="item"]',
+        '//default:c[@level="item"]',
         namespaces=namespaces
     )
 
@@ -84,6 +84,25 @@ def read_ead_file(ead_file):
         result.append(_process_ead_item(item))
 
     logger.info('Done.')
+
+    return result
+
+
+def read_ead_files(file_paths):
+    result = []
+
+    for file_path in file_paths:
+        logger.info(f'Parsing input file {file_path}.')
+        parser = etree.XMLParser()
+        tree = etree.parse(file_path, parser)
+
+        items = tree.xpath(
+            '//default:c[@level="item"]',
+            namespaces=namespaces
+        )
+
+        for item in items:
+            result.append(_process_ead_item(item))
 
     return result
 
