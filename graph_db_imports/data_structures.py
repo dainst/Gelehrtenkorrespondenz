@@ -68,7 +68,7 @@ class LocalizationTimespan:
 
 class PersonData:
 
-    def __init__(self, name: str, gnd_id: int, localizations: List[LocalizationTimespan],
+    def __init__(self, name: str, gnd_id: str, localizations: List[LocalizationTimespan],
                  first_name: str = '', last_name: str = ''):
         self.label = name
         self.gnd_id = gnd_id
