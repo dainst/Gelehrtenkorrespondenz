@@ -4,6 +4,7 @@
 
 * Python 3.5
 * Docker
+* LXML [Prerequisites](http://lxml.de/installation.html).
 
 ### Installing Python dependencies
 
