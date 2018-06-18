@@ -1,4 +1,7 @@
 from typing import List
+import re
+
+PAGE_COUNT_PATTERN = re.compile('.*(\d+)\s*Seiten.*')
 
 
 class Location:
@@ -95,3 +98,11 @@ class LetterData:
         self.summary = summary
         self.quantity_description = quantity_description
         self.quantity_page_count = quantity_page_count
+
+    @staticmethod
+    def parse_page_count(value):
+        match = PAGE_COUNT_PATTERN.match(value)
+        if match is not None:
+            return match.group(1)
+        else:
+            return -1

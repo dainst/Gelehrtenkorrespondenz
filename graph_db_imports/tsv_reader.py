@@ -8,16 +8,7 @@ logging.basicConfig(format='%(asctime)s %(message)s')
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
-PAGE_COUNT_PATTERN = re.compile('.*(\d+)\s*Seiten.*')
 DATE_PATTERN = re.compile('\d{4}-\d{2}-\d{2}')
-
-
-def _parse_page_count( value):
-    match = PAGE_COUNT_PATTERN.match(value)
-    if match is not None:
-        return match.group(1)
-    else:
-        return -1
 
 
 def _create_localization_points(data_rows):
@@ -105,7 +96,8 @@ def _extract_letter_data(line_values, localizations):
     recipients = _extract_recipients(line_values, localizations)
 
     result = LetterData(authors, recipients, date=line_values[7], title=line_values[4], summary=line_values[17],
-                        quantity_description=line_values[8], quantity_page_count=_parse_page_count(line_values[8]))
+                        quantity_description=line_values[8],
+                        quantity_page_count=LetterData.parse_page_count(line_values[8]))
 
     return result
 
