@@ -1,5 +1,6 @@
 import logging
 import sys
+import re
 
 from lxml import etree
 from data_structures import *
@@ -11,13 +12,18 @@ logger.setLevel(logging.DEBUG)
 
 # See: http://lxml.de/xpathxslt.html#namespaces-and-prefixes
 # and https://stackoverflow.com/questions/8053568/how-do-i-use-empty-namespaces-in-an-lxml-xpath-query
-namespaces = {
-    'default': 'urn:isbn:1-931666-22-9'
+
+DF = 'default'
+
+NS = {
+    DF: 'urn:isbn:1-931666-22-9'
 }
 
+RECIPIENT_PLACE_PATTERN = re.compile('Empfängerort:\s(.*)')
 
-def _extract_persons(person_nodes):
-    authors = []
+
+def _extract_persons(person_nodes, localization_timespans):
+    persons = []
 
     for node in person_nodes:
         split_name = node.xpath('./@normal')[0].split(',', 1)
@@ -29,38 +35,96 @@ def _extract_persons(person_nodes):
             first_name = ''
 
         gnd_id = node.xpath('./@authfilenumber')[0]
-        localizations = []
-
         name = node.text
 
-        author = PersonData(name, gnd_id, localizations, first_name=first_name, last_name=last_name)
+        if name in localization_timespans:
+            localizations = localization_timespans[name]
+        else:
+            localizations = []
 
-        authors.append(author)
+        person = PersonData(name, gnd_id, localizations, first_name=first_name, last_name=last_name)
 
-    return authors
+        persons.append(person)
+
+    return persons
 
 
-def _process_ead_item(item):
-    global namespaces
+def _extract_localization_points(item):
+    global NS
+    global DF
+    global RECIPIENT_PLACE_PATTERN
 
-    letter_date = item.xpath('.//default:unitdate[@label="Entstehungsdatum"]/@normal', namespaces=namespaces)
+    result = dict()
 
-    summary = item.xpath('./default:scopecontent/default:head/following-sibling::default:p', namespaces=namespaces)
+    authors = _extract_persons(item.xpath(f'.//{DF}:persname[@role="Verfasser"]', namespaces=NS), [])
+    authors_location_node = item.xpath(
+        f'//{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname', namespaces=NS
+    )
+
+    authors_location_label = authors_location_node[0].text
+    authors_location_gnd_id = authors_location_node[0].xpath('./@authfilenumber')[0]
+
+    recipients = _extract_persons(item.xpath(f'.//{DF}:persname[@role="Adressat"]', namespaces=NS), [])
+    recipients_location_node = item.xpath(f'.//{DF}:note[@label="Bemerkung"]/{DF}:p', namespaces=NS)
+
+    if len(recipients_location_node) == 1:
+        match = RECIPIENT_PLACE_PATTERN.match(recipients_location_node[0].text)
+        if match is not None:
+            recipients_location_label = match.group(1)
+        else:
+            recipients_location_label = ''
+    else:
+        recipients_location_label = ''
+
+    letter_date = item.xpath(f'.//{DF}:unitdate[@label="Entstehungsdatum"]/@normal', namespaces=NS)
+    if len(letter_date) == 1:
+        letter_date = letter_date[0]
+    else:
+        letter_date = ''
+
+    authors_location = Location(label=authors_location_label, gazetteer_id=authors_location_gnd_id)
+    recipients_location = Location(label=recipients_location_label, gazetteer_id=-1)
+
+    for author in authors:
+        result[author.id] = LocalizationPoint(location=authors_location, date=letter_date)
+    for recipient in recipients:
+        result[recipient.id] = LocalizationPoint(location=recipients_location, date=letter_date)
+
+    return result
+
+
+def _process_ead_item(item, localization_timespans):
+    global NS
+    global DF
+
+    letter_date = item.xpath(
+        f'.//{DF}:unitdate[@label="Entstehungsdatum"]/@normal', namespaces=NS
+    )
+    if len(letter_date) == 1:
+        letter_date = letter_date[0]
+    else:
+        letter_date = ''
+
+    summary = item.xpath(
+        f'./{DF}:scopecontent/{DF}:head[text()="Inhaltsangabe"]/following-sibling::{DF}:p', namespaces=NS
+    )
     if len(summary) == 1:
         summary = summary[0].text
     else:
         summary = ''
 
-    quantity = item.xpath('.//default:extend[@label="Umfang"]', namespaces=namespaces)
+    quantity = item.xpath(f'.//{DF}:extend[@label="Umfang"]', namespaces=NS)
     if len(quantity) == 1:
         quantity = quantity[0].text
     else:
         quantity = ''
 
-    title = item.xpath('.//default:unittitle', namespaces=namespaces)[0].text
+    title = item.xpath(f'.//{DF}:unittitle', namespaces=NS)[0].text
 
-    authors = _extract_persons(item.xpath('.//default:persname[@role="Verfasser"]', namespaces=namespaces))
-    recipients = _extract_persons(item.xpath('.//default:persname[@role="Adressat"]', namespaces=namespaces))
+    authors = _extract_persons(
+        item.xpath(f'.//{DF}:persname[@role="Verfasser"]', namespaces=NS), localization_timespans)
+    recipients = _extract_persons(
+        item.xpath(f'.//{DF}:persname[@role="Adressat"]', namespaces=NS), localization_timespans)
 
     letter = LetterData(authors, recipients, date=letter_date, summary=summary, quantity_description=quantity,
                         quantity_page_count=LetterData.parse_page_count(quantity), title=title)
@@ -69,6 +133,9 @@ def _process_ead_item(item):
 
 
 def read_file(ead_file):
+    global NS
+    global DF
+
     result = []
     logger.info(f'Parsing input file {ead_file}.')
     parser = etree.XMLParser()
@@ -76,12 +143,27 @@ def read_file(ead_file):
     tree = etree.parse(ead_file, parser)
 
     items = tree.xpath(
-        '//default:c[@level="item"]',
-        namespaces=namespaces
+        f'//{DF}:c[@level="item"]',
+        namespaces=NS
     )
 
+    localization_points = dict()
+
     for item in items:
-        result.append(_process_ead_item(item))
+        points = _extract_localization_points(item)
+        for person_id in points:
+            if person_id in localization_points:
+                localization_points[person_id].append(points[person_id])
+            else:
+                localization_points[person_id] = [points[person_id]]
+
+    localization_timespans = dict()
+    for person_id in localization_points:
+        localization_timespans[person_id] = \
+            LocalizationTimespan.aggregate_localization_points_to_timespan(localization_points[person_id])
+
+    for item in items:
+        result.append(_process_ead_item(item, localization_timespans))
 
     logger.info('Done.')
 
@@ -89,20 +171,49 @@ def read_file(ead_file):
 
 
 def read_files(file_paths):
+    global NS
+    global DF
+
     result = []
 
+    localization_points = dict()
+
+    logger.info(f'Collecting localization points.')
     for file_path in file_paths:
-        logger.info(f'Parsing input file {file_path}.')
+        parser = etree.XMLParser()
+        tree = etree.parse(file_path, parser)
+        items = tree.xpath(
+            f'//{DF}:c[@level="item"]',
+            namespaces=NS
+        )
+
+        for item in items:
+            points = _extract_localization_points(item)
+            for person_id in points:
+                if person_id in localization_points:
+                    localization_points[person_id].append(points[person_id])
+                else:
+                    localization_points[person_id] = [points[person_id]]
+
+    localization_timespans = dict()
+
+    logger.info('Aggregating localization points into timespans.')
+    for person_id in localization_points:
+        localization_timespans[person_id] = \
+            LocalizationTimespan.aggregate_localization_points_to_timespan(localization_points[person_id])
+
+    for file_path in file_paths:
+        logger.info(f'Parsing letter data for input file {file_path}.')
         parser = etree.XMLParser()
         tree = etree.parse(file_path, parser)
 
         items = tree.xpath(
-            '//default:c[@level="item"]',
-            namespaces=namespaces
+            f'//{DF}:c[@level="item"]',
+            namespaces=NS
         )
 
         for item in items:
-            result.append(_process_ead_item(item))
+            result.append(_process_ead_item(item, localization_timespans))
 
     return result
 
