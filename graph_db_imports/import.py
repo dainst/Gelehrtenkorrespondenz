@@ -46,7 +46,6 @@ if __name__ == '__main__':
         xml_files_in_dir = [f'{input_path}{f}' for f in files_in_dir if os.path.splitext(f)[1] == '.xml']
 
         if len(xml_files_in_dir) != 0:
-            logger.debug(xml_files_in_dir)
             letter_data = read_ead_files(file_paths=xml_files_in_dir)
         else:
             logger.warning(f'Not valid files found in directory: {input_path}')
