@@ -37,8 +37,8 @@ def _extract_persons(person_nodes, localization_timespans):
         gnd_id = node.xpath('./@authfilenumber')[0]
         name = node.text
 
-        if name in localization_timespans:
-            localizations = localization_timespans[name]
+        if gnd_id in localization_timespans:
+            localizations = localization_timespans[gnd_id]
         else:
             localizations = []
 
@@ -56,7 +56,11 @@ def _extract_localization_points(item):
 
     result = dict()
 
-    authors = _extract_persons(item.xpath(f'.//{DF}:persname[@role="Verfasser"]', namespaces=NS), [])
+    authors = _extract_persons(
+        item.xpath(
+            f'.//{DF}:persname[@role="Verfasser"]', namespaces=NS
+        ), [])
+
     authors_location_node = item.xpath(
         f'//{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname', namespaces=NS
     )
@@ -180,6 +184,7 @@ def read_files(file_paths):
 
     logger.info(f'Collecting localization points.')
     for file_path in file_paths:
+        logger.info(f'File: {file_path}.')
         parser = etree.XMLParser()
         tree = etree.parse(file_path, parser)
         items = tree.xpath(

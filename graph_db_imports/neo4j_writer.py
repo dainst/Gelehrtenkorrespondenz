@@ -24,11 +24,11 @@ def _import_locations(session, data: List[LetterData]):
                     locations.add(localization.location)
 
     statement = \
-        'CREATE (place:Place{label: {label}, gazetteer_id:{gazetteer_id}})'
+        'CREATE (place:Place{label: {label}, gnd_id: {gnd_id}})'
 
     with session.begin_transaction() as tx:
         for location in locations:
-            tx.run(statement, {'label': location.label, 'gazetteer_id': location.gazetteer_id})
+            tx.run(statement, {'label': location.label, 'gnd_id': location.gnd_id})
 
 
 def _import_localisations(session, data: List[LetterData]):
@@ -46,7 +46,7 @@ def _import_localisations(session, data: List[LetterData]):
                     localisations.add(localization)
 
     statement = \
-        'MATCH (place:Place{label: {place_label}})' \
+        'MATCH (place:Place{gnd_id: {gnd_id}})' \
         'CREATE (localization:Localization{from: {from}, to: {to}})-[:HAS_PLACE]->(place)'
 
     with session.begin_transaction() as tx:
@@ -55,7 +55,7 @@ def _import_localisations(session, data: List[LetterData]):
                    {
                        'from': localization.date_from,
                        'to': localization.date_to,
-                       'place_label': localization.location.label
+                       'gnd_id': localization.location.gnd_id
                    })
 
 
@@ -75,9 +75,9 @@ def _import_persons(session, data: List[LetterData]):
         'CREATE (person:Person{label: {label}, gnd_id: {gnd_id}, first_name: {first_name}, last_name: {last_name}})'
 
     link_statement = \
-        'MATCH (place:Place{label: {place_label}})' \
+        'MATCH (place:Place{gnd_id: {gnd_id_location}})' \
         'MATCH (localization: Localization{from: {from}, to: {to}})-[:HAS_PLACE]->(place)' \
-        'MATCH (person:Person{label: {person_label}, gnd_id: {gnd_id}, first_name: {first_name}, last_name: {last_name}})' \
+        'MATCH (person:Person{gnd_id: {gnd_id}})' \
         'CREATE (person)-[:RESIDES]->(localization)'
 
     with session.begin_transaction() as tx:
@@ -93,13 +93,10 @@ def _import_persons(session, data: List[LetterData]):
             for localization in person.localizations:
 
                 input_data = {
-                    'place_label': localization.location.label,
+                    'gnd_id_location': localization.location.gnd_id,
                     'from': localization.date_from,
                     'to': localization.date_to,
-                    'person_label': person.label,
-                    'gnd_id': person.gnd_id,
-                    'first_name': person.first_name,
-                    'last_name': person.last_name
+                    'gnd_id': person.gnd_id
                 }
 
                 tx.run(link_statement, input_data)
@@ -113,7 +110,7 @@ def _import_letters(session, data: List[LetterData]):
 
     person_link_stub = \
         'MATCH (letter:Letter{date: {date}, title: {title}, summary: {summary}, quantity_description: {quantity_description}, quantity_page_count: {quantity_page_count}})' \
-        'MATCH (person:Person{label: {label_person}})'
+        'MATCH (person:Person{gnd_id: {gnd_id}})'
 
     author_link_statement = \
         person_link_stub + \
@@ -137,11 +134,11 @@ def _import_letters(session, data: List[LetterData]):
             tx.run(statement, input_data)
 
             for author in letter.authors:
-                author_link_input_data = {**input_data, **{'label_person': author.label}}
+                author_link_input_data = {**input_data, **{'gnd_id': author.id}}
                 tx.run(author_link_statement, author_link_input_data)
 
             for recipient in letter.recipients:
-                recipient_link_input_data = {**input_data, **{'label_person': recipient.label}}
+                recipient_link_input_data = {**input_data, **{'gnd_id': recipient.id}}
                 tx.run(recipient_link_statement, recipient_link_input_data)
 
 
