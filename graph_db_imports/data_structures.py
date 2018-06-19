@@ -18,12 +18,18 @@ class Location:
         if not isinstance(other, type(self)): return NotImplemented
         return self.label == other.label and self.gnd_id == other.gnd_id and self.id == other.id
 
+    def __str__(self):
+        return str(dict({'label': self.label, 'gnd_id': self.gnd_id, 'id': self.id}))
+
 
 class LocalizationPoint:
 
     def __init__(self, location: Location, date: str):
         self.date = date
         self.location = location
+
+    def __str__(self):
+        return str(dict({'date': self.date, 'location': self.location}))
 
 
 class LocalizationTimeSpan:
@@ -39,6 +45,9 @@ class LocalizationTimeSpan:
     def __eq__(self, other):
         if not isinstance(other, type(self)): return NotImplemented
         return self.location == other.location and self.date_from == other.date_from and self.date_to == other.date_to
+
+    def __str__(self):
+        return str(dict({'date_from': self.date_from, 'date_to': self.date_to, 'location': self.location}))
 
     @staticmethod
     def aggregate_localization_points_to_timespan(localization_points: List[LocalizationPoint]):
@@ -88,6 +97,10 @@ class PersonData:
         return self.label == other.label and self.gnd_id == other.gnd_id and self.first_name == other.first_name and \
             self.last_name == other.last_name
 
+    def __str__(self):
+        return str(dict({'label': self.label, 'gnd_id': self.gnd_id, 'first_name': self.first_name,
+                         'last_name': self.last_name, 'localizations': self.localizations, 'id': self.id}))
+
 
 class LetterData:
 
@@ -100,6 +113,12 @@ class LetterData:
         self.summary = summary
         self.quantity_description = quantity_description
         self.quantity_page_count = quantity_page_count
+
+    def __str__(self):
+        return str(dict({'authors': self.authors, 'recipients': self.recipients, 'date': self.date,
+                         'title': self.title, 'summary': self.summary,
+                         'quantity_description': self.quantity_description,
+                         'quantity_page_count': self.quantity_page_count}))
 
     @staticmethod
     def parse_page_count(value):
