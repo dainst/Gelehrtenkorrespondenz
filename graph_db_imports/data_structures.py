@@ -6,17 +6,17 @@ PAGE_COUNT_PATTERN = re.compile('.*(\d+)\s*Seiten.*')
 
 class Location:
 
-    def __init__(self, label: str, gazetteer_id: int):
+    def __init__(self, label: str, gnd_id: int):
         self.label = label
-        self.gazetteer_id = gazetteer_id
-        self.id = label
+        self.gnd_id = gnd_id
+        self.id = self.gnd_id
 
     def __hash__(self):
-        return hash((self.label, self.gazetteer_id, self.id))
+        return hash((self.label, self.gnd_id, self.id))
 
     def __eq__(self, other):
         if not isinstance(other, type(self)): return NotImplemented
-        return self.label == other.label and self.gazetteer_id == other.gazetteer_id and self.id == other.id
+        return self.label == other.label and self.gnd_id == other.gnd_id and self.id == other.id
 
 
 class LocalizationPoint:
@@ -26,7 +26,7 @@ class LocalizationPoint:
         self.location = location
 
 
-class LocalizationTimespan:
+class LocalizationTimeSpan:
 
     def __init__(self, location: Location, date_from: str = '', date_to: str = ''):
         self.location = location
@@ -53,7 +53,9 @@ class LocalizationTimespan:
         for current_point in localization_points:
 
             if current_location.id != current_point.location.id:
-                persons_localizations_list.append(LocalizationTimespan(current_location, current_date_from, current_date_to))
+                persons_localizations_list.append(
+                    LocalizationTimeSpan(current_location, current_date_from, current_date_to)
+                )
 
                 current_location = current_point.location
                 current_date_from = current_point.date
@@ -61,14 +63,14 @@ class LocalizationTimespan:
             else:
                 current_date_to = current_point.date
 
-        persons_localizations_list.append(LocalizationTimespan(current_location, current_date_from, current_date_to))
+        persons_localizations_list.append(LocalizationTimeSpan(current_location, current_date_from, current_date_to))
 
         return persons_localizations_list
 
 
 class PersonData:
 
-    def __init__(self, name: str, gnd_id: str, localizations: List[LocalizationTimespan],
+    def __init__(self, name: str, gnd_id: str, localizations: List[LocalizationTimeSpan],
                  first_name: str = '', last_name: str = ''):
         self.label = name
         self.gnd_id = gnd_id
@@ -76,7 +78,7 @@ class PersonData:
         self.last_name = last_name
         self.localizations = localizations
 
-        self.id = self.label
+        self.id = self.gnd_id
 
     def __hash__(self):
         return hash((self.label, self.gnd_id, self.first_name, self.last_name))

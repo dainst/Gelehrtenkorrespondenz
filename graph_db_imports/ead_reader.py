@@ -82,8 +82,8 @@ def _extract_localization_points(item):
     else:
         letter_date = ''
 
-    authors_location = Location(label=authors_location_label, gazetteer_id=authors_location_gnd_id)
-    recipients_location = Location(label=recipients_location_label, gazetteer_id=-1)
+    authors_location = Location(label=authors_location_label, gnd_id=authors_location_gnd_id)
+    recipients_location = Location(label=recipients_location_label, gnd_id=-1)
 
     for author in authors:
         result[author.id] = LocalizationPoint(location=authors_location, date=letter_date)
@@ -160,7 +160,7 @@ def read_file(ead_file):
     localization_timespans = dict()
     for person_id in localization_points:
         localization_timespans[person_id] = \
-            LocalizationTimespan.aggregate_localization_points_to_timespan(localization_points[person_id])
+            LocalizationTimeSpan.aggregate_localization_points_to_timespan(localization_points[person_id])
 
     for item in items:
         result.append(_process_ead_item(item, localization_timespans))
@@ -200,7 +200,7 @@ def read_files(file_paths):
     logger.info('Aggregating localization points into timespans.')
     for person_id in localization_points:
         localization_timespans[person_id] = \
-            LocalizationTimespan.aggregate_localization_points_to_timespan(localization_points[person_id])
+            LocalizationTimeSpan.aggregate_localization_points_to_timespan(localization_points[person_id])
 
     for file_path in file_paths:
         logger.info(f'Parsing letter data for input file {file_path}.')

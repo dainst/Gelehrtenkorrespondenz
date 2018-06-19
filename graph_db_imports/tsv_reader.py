@@ -120,7 +120,7 @@ def read_data(tsv_path, ignore_first_line):
         localization_timespans = dict()
         for person_id in localization_points:
             localization_timespans[person_id] = \
-                LocalizationTimespan.aggregate_localization_points_to_timespan(localization_points[person_id])
+                LocalizationTimeSpan.aggregate_localization_points_to_timespan(localization_points[person_id])
 
         logger.info('Parsing letter data...')
         for line in lines:
