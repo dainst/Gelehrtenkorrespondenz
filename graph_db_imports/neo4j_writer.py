@@ -23,12 +23,19 @@ def _import_locations(session, data: List[LetterData]):
                 if localization.location not in locations:
                     locations.add(localization.location)
 
+    props = dict({'props': []})
+    for location in locations:
+        props['props'].append({
+            'label': location.label, 'gnd_id': location.gnd_id
+        })
+
     statement = \
-        'CREATE (place:Place{label: {label}, gnd_id: {gnd_id}})'
+        'UNWIND {props} as props ' \
+        'CREATE (n:Place) ' \
+        'SET n = props'
 
     with session.begin_transaction() as tx:
-        for location in locations:
-            tx.run(statement, {'label': location.label, 'gnd_id': location.gnd_id})
+        tx.run(statement, props)
 
 
 def _import_localisations(session, data: List[LetterData]):
@@ -45,18 +52,21 @@ def _import_localisations(session, data: List[LetterData]):
                 if localization not in localisations:
                     localisations.add(localization)
 
+    props = dict({'props': []})
+    for localization in localisations:
+        props['props'].append({
+            'from': localization.date_from,
+            'to': localization.date_to,
+            'gnd_id': localization.location.gnd_id
+        })
+
     statement = \
-        'MATCH (place:Place{gnd_id: {gnd_id}})' \
-        'CREATE (localization:Localization{from: {from}, to: {to}})-[:HAS_PLACE]->(place)'
+        'UNWIND {props} as props ' \
+        'MATCH (place:Place {gnd_id: props.gnd_id}) ' \
+        'CREATE (localization:Localization{from: props.from, to: props.to})-[:HAS_PLACE]->(place)'
 
     with session.begin_transaction() as tx:
-        for localization in localisations:
-            tx.run(statement,
-                   {
-                       'from': localization.date_from,
-                       'to': localization.date_to,
-                       'gnd_id': localization.location.gnd_id
-                   })
+        tx.run(statement, props)
 
 
 def _import_persons(session, data: List[LetterData]):
@@ -71,75 +81,75 @@ def _import_persons(session, data: List[LetterData]):
             if person not in persons:
                 persons.add(person)
 
-    statement = \
-        'CREATE (person:Person{label: {label}, gnd_id: {gnd_id}, first_name: {first_name}, last_name: {last_name}})'
+    props = dict({'props': []})
 
-    link_statement = \
-        'MATCH (place:Place{gnd_id: {gnd_id_location}})' \
-        'MATCH (localization: Localization{from: {from}, to: {to}})-[:HAS_PLACE]->(place)' \
-        'MATCH (person:Person{gnd_id: {gnd_id}})' \
+    for person in persons:
+        current_props = {
+            'label': person.label,
+            'gnd_id': person.gnd_id,
+            'first_name': person.first_name,
+            'last_name': person.last_name,
+            'localizations': []
+        }
+
+        for localization in person.localizations:
+            current_props['localizations'].append({
+                'gnd_id_location': localization.location.gnd_id,
+                'from': localization.date_from,
+                'to': localization.date_to
+            })
+
+        props['props'].append(current_props)
+
+    statement = \
+        'UNWIND {props} AS props ' \
+        'CREATE (person:Person{label: props.label, gnd_id: props.gnd_id, first_name: props.first_name, last_name: props.last_name})' \
+        'WITH person, props ' \
+        'UNWIND props.localizations AS local_props ' \
+        'MATCH (place:Place{gnd_id: local_props.gnd_id_location}) ' \
+        'MATCH (localization: Localization{from: local_props.from, to: local_props.to})-[:HAS_PLACE]->(place) ' \
         'CREATE (person)-[:RESIDES]->(localization)'
 
     with session.begin_transaction() as tx:
-        for person in persons:
-            tx.run(statement,
-                   {
-                       'label': person.label,
-                       'gnd_id': person.gnd_id,
-                       'first_name': person.first_name,
-                       'last_name': person.last_name
-                   })
-        for person in persons:
-            for localization in person.localizations:
-
-                input_data = {
-                    'gnd_id_location': localization.location.gnd_id,
-                    'from': localization.date_from,
-                    'to': localization.date_to,
-                    'gnd_id': person.gnd_id
-                }
-
-                tx.run(link_statement, input_data)
+        tx.run(statement, props)
 
 
 def _import_letters(session, data: List[LetterData]):
     logger.info('Importing letter nodes.')
 
+    props = dict({'props': []})
+    for letter in data:
+        current_props = {
+            'date': letter.date,
+            'title': letter.title,
+            'summary': letter.summary,
+            'quantity_description': letter.quantity_description,
+            'quantity_page_count': letter.quantity_page_count,
+            'authors': [],
+            'recipients': []
+        }
+
+        for author in letter.authors:
+            current_props['authors'].append({'gnd_id': author.gnd_id})
+        for recipient in letter.recipients:
+            current_props['recipients'].append({'gnd_id': recipient.gnd_id})
+
+        props['props'].append(current_props)
+
     statement = \
-        'CREATE (letter:Letter{date: {date}, title: {title}, summary: {summary}, quantity_description: {quantity_description}, quantity_page_count: {quantity_page_count}})'
-
-    person_link_stub = \
-        'MATCH (letter:Letter{date: {date}, title: {title}, summary: {summary}, quantity_description: {quantity_description}, quantity_page_count: {quantity_page_count}})' \
-        'MATCH (person:Person{gnd_id: {gnd_id}})'
-
-    author_link_statement = \
-        person_link_stub + \
-        'CREATE (person)-[:IS_AUTHOR]->(letter)'
-
-    recipient_link_statement = \
-        person_link_stub + \
+        'UNWIND {props} as props ' \
+        'CREATE (letter:Letter{date: props.date, title: props.title, summary: props.summary, quantity_description: props.quantity_description, quantity_page_count: props.quantity_page_count}) ' \
+        'WITH letter, props ' \
+        'UNWIND props.authors as person_props ' \
+        'MATCH (person:Person{gnd_id: person_props.gnd_id}) ' \
+        'CREATE (person)-[:IS_AUTHOR]->(letter) ' \
+        'WITH letter, props ' \
+        'UNWIND props.recipients as person_props ' \
+        'MATCH (person:Person{gnd_id: person_props.gnd_id}) ' \
         'CREATE (person)-[:IS_RECIPIENT]->(letter)'
 
     with session.begin_transaction() as tx:
-        for letter in data:
-
-            input_data = {
-                'date': letter.date,
-                'title': letter.title,
-                'summary': letter.summary,
-                'quantity_description': letter.quantity_description,
-                'quantity_page_count': letter.quantity_page_count
-            }
-
-            tx.run(statement, input_data)
-
-            for author in letter.authors:
-                author_link_input_data = {**input_data, **{'gnd_id': author.id}}
-                tx.run(author_link_statement, author_link_input_data)
-
-            for recipient in letter.recipients:
-                recipient_link_input_data = {**input_data, **{'gnd_id': recipient.id}}
-                tx.run(recipient_link_statement, recipient_link_input_data)
+        tx.run(statement, props)
 
 
 def write_data(data, url, port, username, password):
