@@ -34,6 +34,7 @@ This new corpus reader is more flexible and can load all the custom columns for 
 * `crfsuite` : a couple of useful scripts from the older python module [CRFSuite](https://github.com/chokkan/crfsuite)
  (but actually, `training.py` makes use of just a few scripts of them; **to do**: get rid of the useless / unused stuff)
 * `doc` is where the ipynb with the documentations and tutorials will go
+* in `graph_db_imports` you can find some scripts and raw data for importing into graph databases (currently neo4j only) 
 
 ## How do I install them?
 
