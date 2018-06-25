@@ -1,8 +1,8 @@
 import logging
 
 from neo4j.v1 import GraphDatabase
-from neo4j.exceptions import ClientError
 from data_structures import *
+from typing import Set
 
 logging.basicConfig(format='%(asctime)s %(message)s')
 
@@ -10,24 +10,24 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 
-def _import_locations(session, data: List[LetterData]):
+def _import_places(session, data: List[LetterData]):
     logger.info('Importing place nodes.')
-    locations = set()
+    places = set()
 
     for letter in data:
         for person in letter.authors:
             for localization in person.localizations:
-                if localization.location not in locations:
-                    locations.add(localization.location)
+                if localization.place not in places:
+                    places.add(localization.place)
         for person in letter.recipients:
             for localization in person.localizations:
-                if localization.location not in locations:
-                    locations.add(localization.location)
+                if localization.place not in places:
+                    places.add(localization.place)
 
     props = dict({'props': []})
-    for location in locations:
+    for place in places:
         props['props'].append({
-            'label': location.label, 'gnd_id': location.gnd_id
+            'label': place.label, 'gnd_id': place.gnd_id
         })
 
     statement = \
@@ -41,7 +41,7 @@ def _import_locations(session, data: List[LetterData]):
 
 def _import_localisations(session, data: List[LetterData]):
     logger.info('Importing localization nodes.')
-    localisations = set()
+    localisations: Set[LocalizationTimeSpan] = set()
 
     for letter in data:
         for person in letter.authors:
@@ -58,7 +58,7 @@ def _import_localisations(session, data: List[LetterData]):
         props['props'].append({
             'from': localization.date_from,
             'to': localization.date_to,
-            'gnd_id': localization.location.gnd_id
+            'gnd_id': localization.place.gnd_id
         })
 
     statement = \
@@ -95,7 +95,7 @@ def _import_persons(session, data: List[LetterData]):
 
         for localization in person.localizations:
             current_props['localizations'].append({
-                'gnd_id_location': localization.location.gnd_id,
+                'gnd_id_place': localization.place.gnd_id,
                 'from': localization.date_from,
                 'to': localization.date_to
             })
@@ -107,8 +107,9 @@ def _import_persons(session, data: List[LetterData]):
         'CREATE (person:Person{label: props.label, gnd_id: props.gnd_id, first_name: props.first_name, last_name: props.last_name})' \
         'WITH person, props ' \
         'UNWIND props.localizations AS local_props ' \
-        'MATCH (place:Place{gnd_id: local_props.gnd_id_location}) ' \
-        'MATCH (localization: Localization{from: local_props.from, to: local_props.to})-[:HAS_PLACE]->(place) ' \
+        'MATCH (place:Place{gnd_id: local_props.gnd_id_place}) ' \
+        'MATCH (localization:Localization{from: local_props.from, to: local_props.to})' \
+        'MATCH (localization)-[:HAS_PLACE]->(place) ' \
         'CREATE (person)-[:RESIDES]->(localization)'
 
     with session.begin_transaction() as tx:
@@ -160,22 +161,14 @@ def write_data(data, url, port, username, password):
     with driver.session() as session:
 
         with session.begin_transaction() as tx:
-            try:
-                tx.run('CREATE INDEX ON :Place(gnd_id)')
-            except ClientError as e:
-                logger.info(e)
+            tx.run('CREATE INDEX ON :Place(gnd_id)')
+            tx.run('CREATE INDEX ON :Localization(from, to)')
+            tx.run('CREATE INDEX ON :Person(gnd_id)')
+            tx.run('CREATE CONSTRAINT ON (letter:Letter) ASSERT letter.id IS UNIQUE')
 
-            try:
-                tx.run('CREATE INDEX ON :Person(gnd_id)')
-            except ClientError as e:
-                logger.info(e)
-
-            try:
-                tx.run('CREATE CONSTRAINT ON (letter:Letter) ASSERT letter.id IS UNIQUE')
-            except ClientError as e:
-                logger.info(e)
-
-        _import_locations(session, data)
+        _import_places(session, data)
         _import_localisations(session, data)
         _import_persons(session, data)
         _import_letters(session, data)
+
+    logger.info('Done.')

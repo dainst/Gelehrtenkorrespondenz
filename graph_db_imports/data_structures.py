@@ -4,7 +4,7 @@ import re
 PAGE_COUNT_PATTERN = re.compile('.*(\d+)\s*Seiten.*')
 
 
-class Location:
+class Place:
 
     def __init__(self, label: str, gnd_id: str):
         self.label = label
@@ -25,56 +25,56 @@ class Location:
 
 class LocalizationPoint:
 
-    def __init__(self, location: Location, date: str):
+    def __init__(self, place: Place, date: str):
         self.date = date
-        self.location = location
+        self.place = place
 
     def __str__(self):
-        return str(dict({'date': self.date, 'location': self.location}))
+        return str(dict({'date': self.date, 'place': self.place}))
 
 
 class LocalizationTimeSpan:
 
-    def __init__(self, location: Location, date_from: str = '', date_to: str = ''):
-        self.location = location
+    def __init__(self, place: Place, date_from: str = '', date_to: str = ''):
+        self.place = place
         self.date_from = date_from
         self.date_to = date_to
 
     def __hash__(self):
-        return hash((self.location, self.date_from, self.date_to))
+        return hash((self.place, self.date_from, self.date_to))
 
     def __eq__(self, other):
         if not isinstance(other, type(self)):
             return NotImplemented
-        return self.location == other.location and self.date_from == other.date_from and self.date_to == other.date_to
+        return self.place == other.place and self.date_from == other.date_from and self.date_to == other.date_to
 
     def __str__(self):
-        return str(dict({'date_from': self.date_from, 'date_to': self.date_to, 'location': self.location}))
+        return str(dict({'date_from': self.date_from, 'date_to': self.date_to, 'place': self.place}))
 
     @staticmethod
     def aggregate_localization_points_to_timespan(localization_points: List[LocalizationPoint]):
-        localization_points = sorted(localization_points, key=lambda x: (x.date, x.location.label))
+        localization_points = sorted(localization_points, key=lambda x: (x.date, x.place.label))
 
         persons_localizations_list = []
 
-        current_location = localization_points[0].location
+        current_place = localization_points[0].place
         current_date_from = localization_points[0].date
         current_date_to = localization_points[0].date
 
         for current_point in localization_points:
 
-            if current_location.id != current_point.location.id:
+            if current_place.id != current_point.place.id:
                 persons_localizations_list.append(
-                    LocalizationTimeSpan(current_location, current_date_from, current_date_to)
+                    LocalizationTimeSpan(current_place, current_date_from, current_date_to)
                 )
 
-                current_location = current_point.location
+                current_place = current_point.place
                 current_date_from = current_point.date
                 current_date_to = current_point.date
             else:
                 current_date_to = current_point.date
 
-        persons_localizations_list.append(LocalizationTimeSpan(current_location, current_date_from, current_date_to))
+        persons_localizations_list.append(LocalizationTimeSpan(current_place, current_date_from, current_date_to))
 
         return persons_localizations_list
 

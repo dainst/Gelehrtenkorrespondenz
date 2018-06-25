@@ -61,28 +61,28 @@ def _extract_localization_points(item):
             f'./{DF}:controlaccess/{DF}:persname[@role="Verfasser"]', namespaces=NS
         ), [])
 
-    authors_location_node = item.xpath(
+    authors_place_node = item.xpath(
         f'./{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname', namespaces=NS
     )
 
-    if len(authors_location_node) == 1:
-        authors_location_label = authors_location_node[0].text
-        authors_location_gnd_id = authors_location_node[0].xpath('./@authfilenumber')[0]
+    if len(authors_place_node) == 1:
+        authors_place_label = authors_place_node[0].text
+        authors_place_gnd_id = authors_place_node[0].xpath('./@authfilenumber')[0]
     else:
-        authors_location_label = ''
-        authors_location_gnd_id = -1
+        authors_place_label = ''
+        authors_place_gnd_id = -1
 
     recipients = _extract_persons(item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"]', namespaces=NS), [])
-    recipients_location_node = item.xpath(f'./{DF}:did/{DF}:note[@label="Bemerkung"]/{DF}:p', namespaces=NS)
+    recipients_place_node = item.xpath(f'./{DF}:did/{DF}:note[@label="Bemerkung"]/{DF}:p', namespaces=NS)
 
-    if len(recipients_location_node) == 1:
-        match = RECIPIENT_PLACE_PATTERN.match(recipients_location_node[0].text)
+    if len(recipients_place_node) == 1:
+        match = RECIPIENT_PLACE_PATTERN.match(recipients_place_node[0].text)
         if match is not None:
-            recipients_location_label = match.group(1)
+            recipients_place_label = match.group(1)
         else:
-            recipients_location_label = ''
+            recipients_place_label = ''
     else:
-        recipients_location_label = ''
+        recipients_place_label = ''
 
     letter_date = item.xpath(f'./{DF}:did/{DF}:unitdate[@label="Entstehungsdatum"]/@normal', namespaces=NS)
     if len(letter_date) == 1:
@@ -90,13 +90,13 @@ def _extract_localization_points(item):
     else:
         letter_date = ''
 
-    authors_location = Location(label=authors_location_label, gnd_id=authors_location_gnd_id)
-    recipients_location = Location(label=recipients_location_label, gnd_id=-1)
+    authors_place = Place(label=authors_place_label, gnd_id=authors_place_gnd_id)
+    recipients_place = Place(label=recipients_place_label, gnd_id=str(-1))
 
     for author in authors:
-        result[author.id] = LocalizationPoint(location=authors_location, date=letter_date)
+        result[author.id] = LocalizationPoint(place=authors_place, date=letter_date)
     for recipient in recipients:
-        result[recipient.id] = LocalizationPoint(location=recipients_location, date=letter_date)
+        result[recipient.id] = LocalizationPoint(place=recipients_place, date=letter_date)
 
     return result
 

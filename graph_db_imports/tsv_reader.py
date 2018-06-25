@@ -18,22 +18,22 @@ def _create_localization_points(data_rows):
         date = _extract_date(line_values)
 
         authors = _extract_authors(line_values, [])
-        author_location = _extract_author_location(line_values)
+        author_place = _extract_author_place(line_values)
 
         recipients = _extract_recipients(line_values, [])
-        recipient_location = _extract_recipient_location(line_values)
+        recipient_place = _extract_recipient_place(line_values)
 
-        if author_location is not None:
+        if author_place is not None:
             for author in authors:
-                new_point = LocalizationPoint(author_location, date)
+                new_point = LocalizationPoint(author_place, date)
                 if author.id not in localization_points:
                     localization_points[author.id] = [new_point]
                 else:
                     localization_points[author.id] += [new_point]
 
-        if recipient_location is not None:
+        if recipient_place is not None:
             for recipient in recipients:
-                new_point = LocalizationPoint(recipient_location, date)
+                new_point = LocalizationPoint(recipient_place, date)
                 if recipient.id not in localization_points:
                     localization_points[recipient.id] = [new_point]
                 else:
@@ -76,16 +76,16 @@ def _extract_recipients(line_values, localizations):
     return results
 
 
-def _extract_author_location(line_values):
+def _extract_author_place(line_values):
     if line_values[5] != '' or line_values[6] != '':
-        return Location(line_values[5].rstrip('.'), line_values[6])
+        return Place(line_values[5].rstrip('.'), line_values[6])
     else:
         return None
 
 
-def _extract_recipient_location(line_values):
+def _extract_recipient_place(line_values):
     if line_values[15] != '' or line_values[16]:
-        return Location(line_values[15].rstrip('.'), line_values[16])
+        return Place(line_values[15].rstrip('.'), line_values[16])
     else:
         return None
 
