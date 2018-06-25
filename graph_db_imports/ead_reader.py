@@ -58,18 +58,22 @@ def _extract_localization_points(item):
 
     authors = _extract_persons(
         item.xpath(
-            f'.//{DF}:persname[@role="Verfasser"]', namespaces=NS
+            f'./{DF}:controlaccess/{DF}:persname[@role="Verfasser"]', namespaces=NS
         ), [])
 
     authors_location_node = item.xpath(
-        f'//{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname', namespaces=NS
+        f'./{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname', namespaces=NS
     )
 
-    authors_location_label = authors_location_node[0].text
-    authors_location_gnd_id = authors_location_node[0].xpath('./@authfilenumber')[0]
+    if len(authors_location_node) == 1:
+        authors_location_label = authors_location_node[0].text
+        authors_location_gnd_id = authors_location_node[0].xpath('./@authfilenumber')[0]
+    else:
+        authors_location_label = ''
+        authors_location_gnd_id = -1
 
-    recipients = _extract_persons(item.xpath(f'.//{DF}:persname[@role="Adressat"]', namespaces=NS), [])
-    recipients_location_node = item.xpath(f'.//{DF}:note[@label="Bemerkung"]/{DF}:p', namespaces=NS)
+    recipients = _extract_persons(item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"]', namespaces=NS), [])
+    recipients_location_node = item.xpath(f'./{DF}:did/{DF}:note[@label="Bemerkung"]/{DF}:p', namespaces=NS)
 
     if len(recipients_location_node) == 1:
         match = RECIPIENT_PLACE_PATTERN.match(recipients_location_node[0].text)
@@ -80,7 +84,7 @@ def _extract_localization_points(item):
     else:
         recipients_location_label = ''
 
-    letter_date = item.xpath(f'.//{DF}:unitdate[@label="Entstehungsdatum"]/@normal', namespaces=NS)
+    letter_date = item.xpath(f'./{DF}:did/{DF}:unitdate[@label="Entstehungsdatum"]/@normal', namespaces=NS)
     if len(letter_date) == 1:
         letter_date = letter_date[0]
     else:
@@ -102,7 +106,7 @@ def _process_ead_item(item, localization_timespans):
     global DF
 
     letter_date = item.xpath(
-        f'.//{DF}:unitdate[@label="Entstehungsdatum"]/@normal', namespaces=NS
+        f'./{DF}:did/{DF}:unitdate[@label="Entstehungsdatum"]/@normal', namespaces=NS
     )
     if len(letter_date) == 1:
         letter_date = letter_date[0]
@@ -117,18 +121,18 @@ def _process_ead_item(item, localization_timespans):
     else:
         summary = ''
 
-    quantity = item.xpath(f'.//{DF}:extend[@label="Umfang"]', namespaces=NS)
+    quantity = item.xpath(f'./{DF}:did/{DF}:physdesc[@label="Angaben zum Material"]/{DF}:extend[@label="Umfang"]', namespaces=NS)
     if len(quantity) == 1:
         quantity = quantity[0].text
     else:
         quantity = ''
 
-    title = item.xpath(f'.//{DF}:unittitle', namespaces=NS)[0].text
+    title = item.xpath(f'./{DF}:did/{DF}:unittitle', namespaces=NS)[0].text
 
     authors = _extract_persons(
-        item.xpath(f'.//{DF}:persname[@role="Verfasser"]', namespaces=NS), localization_timespans)
+        item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Verfasser"]', namespaces=NS), localization_timespans)
     recipients = _extract_persons(
-        item.xpath(f'.//{DF}:persname[@role="Adressat"]', namespaces=NS), localization_timespans)
+        item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"]', namespaces=NS), localization_timespans)
 
     letter = LetterData(authors, recipients, date=letter_date, summary=summary, quantity_description=quantity,
                         quantity_page_count=LetterData.parse_page_count(quantity), title=title)
