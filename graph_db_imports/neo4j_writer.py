@@ -1,6 +1,7 @@
 import logging
 
 from neo4j.v1 import GraphDatabase
+from neo4j.exceptions import ClientError
 from data_structures import *
 
 logging.basicConfig(format='%(asctime)s %(message)s')
@@ -120,6 +121,7 @@ def _import_letters(session, data: List[LetterData]):
     props = dict({'props': []})
     for letter in data:
         current_props = {
+            'id': letter.id,
             'date': letter.date,
             'title': letter.title,
             'summary': letter.summary,
@@ -138,7 +140,7 @@ def _import_letters(session, data: List[LetterData]):
 
     statement = \
         'UNWIND {props} as props ' \
-        'CREATE (letter:Letter{date: props.date, title: props.title, summary: props.summary, quantity_description: props.quantity_description, quantity_page_count: props.quantity_page_count}) ' \
+        'CREATE (letter:Letter{id: props.id, date: props.date, title: props.title, summary: props.summary, quantity_description: props.quantity_description, quantity_page_count: props.quantity_page_count}) ' \
         'WITH letter, props ' \
         'UNWIND props.authors as person_props ' \
         'MATCH (person:Person{gnd_id: person_props.gnd_id}) ' \
@@ -156,6 +158,23 @@ def write_data(data, url, port, username, password):
     driver = GraphDatabase.driver('bolt://%s:%i ' % (url, port), auth=(username, password))
 
     with driver.session() as session:
+
+        with session.begin_transaction() as tx:
+            try:
+                tx.run('CREATE INDEX ON :Place(gnd_id)')
+            except ClientError as e:
+                logger.info(e)
+
+            try:
+                tx.run('CREATE INDEX ON :Person(gnd_id)')
+            except ClientError as e:
+                logger.info(e)
+
+            try:
+                tx.run('CREATE CONSTRAINT ON (letter:Letter) ASSERT letter.id IS UNIQUE')
+            except ClientError as e:
+                logger.info(e)
+
         _import_locations(session, data)
         _import_localisations(session, data)
         _import_persons(session, data)
