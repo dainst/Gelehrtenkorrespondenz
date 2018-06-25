@@ -12,7 +12,7 @@
 
 This is recommended for most cases and assumes you are using MacOS or Linux.
 
-1) Create a Python virtual environment by executing `python3 -m venv venv/` in the root directory.
+1) Create a Python virtual environment by executing `python3 -m venv venv/` in the project's root directory.
 2) Start the virtual environment: `source venv/bin/activate`.
 3) Install the dependencies while inside the virtual environment: `pip3 install -r graph_db_imports/requirements.txt`.
 
