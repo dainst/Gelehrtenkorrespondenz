@@ -24,19 +24,19 @@ def _import_places(session, data: List[LetterData]):
                 if localization.place not in places:
                     places.add(localization.place)
 
-    props = dict({'props': []})
+    parameters = dict({'place_list': []})
     for place in places:
-        props['props'].append({
+        parameters['place_list'].append({
             'label': place.label, 'gnd_id': place.gnd_id
         })
 
     statement = \
-        'UNWIND {props} as props ' \
+        'UNWIND {place_list} as data ' \
         'CREATE (n:Place) ' \
-        'SET n = props'
+        'SET n = data'
 
     with session.begin_transaction() as tx:
-        tx.run(statement, props)
+        tx.run(statement, parameters)
 
 
 def _import_localisations(session, data: List[LetterData]):
@@ -53,21 +53,21 @@ def _import_localisations(session, data: List[LetterData]):
                 if localization not in localisations:
                     localisations.add(localization)
 
-    props = dict({'props': []})
+    parameters = dict({'localization_list': []})
     for localization in localisations:
-        props['props'].append({
+        parameters['localization_list'].append({
             'from': localization.date_from,
             'to': localization.date_to,
             'gnd_id': localization.place.gnd_id
         })
 
     statement = \
-        'UNWIND {props} as props ' \
-        'MATCH (place:Place {gnd_id: props.gnd_id}) ' \
-        'CREATE (localization:Localization{from: props.from, to: props.to})-[:HAS_PLACE]->(place)'
+        'UNWIND {localization_list} as data ' \
+        'MATCH (place:Place {gnd_id: data.gnd_id}) ' \
+        'CREATE (localization:Localization{from: data.from, to: data.to})-[:HAS_PLACE]->(place)'
 
     with session.begin_transaction() as tx:
-        tx.run(statement, props)
+        tx.run(statement, parameters)
 
 
 def _import_persons(session, data: List[LetterData]):
@@ -82,10 +82,10 @@ def _import_persons(session, data: List[LetterData]):
             if person not in persons:
                 persons.add(person)
 
-    props = dict({'props': []})
+    parameters = dict({'person_list': []})
 
     for person in persons:
-        current_props = {
+        data = {
             'label': person.label,
             'gnd_id': person.gnd_id,
             'first_name': person.first_name,
@@ -94,34 +94,36 @@ def _import_persons(session, data: List[LetterData]):
         }
 
         for localization in person.localizations:
-            current_props['localizations'].append({
+            data['localizations'].append({
                 'gnd_id_place': localization.place.gnd_id,
                 'from': localization.date_from,
                 'to': localization.date_to
             })
 
-        props['props'].append(current_props)
+        parameters['person_list'].append(data)
 
     statement = \
-        'UNWIND {props} AS props ' \
-        'CREATE (person:Person{label: props.label, gnd_id: props.gnd_id, first_name: props.first_name, last_name: props.last_name})' \
-        'WITH person, props ' \
-        'UNWIND props.localizations AS local_props ' \
-        'MATCH (place:Place{gnd_id: local_props.gnd_id_place}) ' \
-        'MATCH (localization:Localization{from: local_props.from, to: local_props.to})' \
+        'UNWIND {person_list} AS data ' \
+        'CREATE (person:Person{label: data.label, gnd_id: data.gnd_id, first_name: data.first_name, last_name: data.last_name})' \
+        'WITH person, data ' \
+        'UNWIND data.localizations AS local_data ' \
+        'MATCH (place:Place{gnd_id: local_data.gnd_id_place}) ' \
+        'MATCH (localization:Localization{from: local_data.from, to: local_data.to})' \
         'MATCH (localization)-[:HAS_PLACE]->(place) ' \
         'CREATE (person)-[:RESIDES]->(localization)'
 
     with session.begin_transaction() as tx:
-        tx.run(statement, props)
+        tx.run(statement, parameters)
 
 
 def _import_letters(session, data: List[LetterData]):
     logger.info('Importing letter nodes.')
 
-    props = dict({'props': []})
+    parameters = {
+        'letter_list': []
+    }
     for letter in data:
-        current_props = {
+        data = {
             'id': letter.id,
             'date': letter.date,
             'title': letter.title,
@@ -133,26 +135,26 @@ def _import_letters(session, data: List[LetterData]):
         }
 
         for author in letter.authors:
-            current_props['authors'].append({'gnd_id': author.gnd_id})
+            data['authors'].append({'gnd_id': author.gnd_id})
         for recipient in letter.recipients:
-            current_props['recipients'].append({'gnd_id': recipient.gnd_id})
+            data['recipients'].append({'gnd_id': recipient.gnd_id})
 
-        props['props'].append(current_props)
+        parameters['letter_list'].append(data)
 
     statement = \
-        'UNWIND {props} as props ' \
-        'CREATE (letter:Letter{id: props.id, date: props.date, title: props.title, summary: props.summary, quantity_description: props.quantity_description, quantity_page_count: props.quantity_page_count}) ' \
-        'WITH letter, props ' \
-        'UNWIND props.authors as person_props ' \
-        'MATCH (person:Person{gnd_id: person_props.gnd_id}) ' \
+        'UNWIND {letter_list} as data ' \
+        'CREATE (letter:Letter{id: data.id, date: data.date, title: data.title, summary: data.summary, quantity_description: data.quantity_description, quantity_page_count: data.quantity_page_count}) ' \
+        'WITH letter, data ' \
+        'UNWIND data.authors as person_data ' \
+        'MATCH (person:Person{gnd_id: person_data.gnd_id}) ' \
         'CREATE (person)-[:IS_AUTHOR]->(letter) ' \
-        'WITH letter, props ' \
-        'UNWIND props.recipients as person_props ' \
-        'MATCH (person:Person{gnd_id: person_props.gnd_id}) ' \
+        'WITH letter, data ' \
+        'UNWIND data.recipients as person_data ' \
+        'MATCH (person:Person{gnd_id: person_data.gnd_id}) ' \
         'CREATE (person)-[:IS_RECIPIENT]->(letter)'
 
     with session.begin_transaction() as tx:
-        tx.run(statement, props)
+        tx.run(statement, parameters)
 
 
 def write_data(data, url, port, username, password):
