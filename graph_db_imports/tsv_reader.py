@@ -90,12 +90,12 @@ def _extract_recipient_location(line_values):
         return None
 
 
-def _extract_letter_data(line_values, localizations):
+def _extract_letter_data(index, line_values, localizations):
 
     authors = _extract_authors(line_values, localizations)
     recipients = _extract_recipients(line_values, localizations)
 
-    result = LetterData(authors, recipients, date=line_values[7], title=line_values[4], summary=line_values[17],
+    result = LetterData(index, authors, recipients, date=line_values[7], title=line_values[4], summary=line_values[17],
                         quantity_description=line_values[8],
                         quantity_page_count=LetterData.parse_page_count(line_values[8]))
 
@@ -123,8 +123,8 @@ def read_data(tsv_path, ignore_first_line):
                 LocalizationTimeSpan.aggregate_localization_points_to_timespan(localization_points[person_id])
 
         logger.info('Parsing letter data...')
-        for line in lines:
-            letter_data = _extract_letter_data(line, localization_timespans)
+        for idx, line in enumerate(lines):
+            letter_data = _extract_letter_data(idx, line, localization_timespans)
             result.append(letter_data)
 
     logger.info('Done.')

@@ -15,7 +15,8 @@ class Location:
         return hash((self.label, self.gnd_id, self.id))
 
     def __eq__(self, other):
-        if not isinstance(other, type(self)): return NotImplemented
+        if not isinstance(other, type(self)):
+            return NotImplemented
         return self.label == other.label and self.gnd_id == other.gnd_id and self.id == other.id
 
     def __str__(self):
@@ -43,7 +44,8 @@ class LocalizationTimeSpan:
         return hash((self.location, self.date_from, self.date_to))
 
     def __eq__(self, other):
-        if not isinstance(other, type(self)): return NotImplemented
+        if not isinstance(other, type(self)):
+            return NotImplemented
         return self.location == other.location and self.date_from == other.date_from and self.date_to == other.date_to
 
     def __str__(self):
@@ -93,7 +95,8 @@ class PersonData:
         return hash((self.label, self.gnd_id, self.first_name, self.last_name))
 
     def __eq__(self, other):
-        if not isinstance(other, type(self)): return NotImplemented
+        if not isinstance(other, type(self)):
+            return NotImplemented
         return self.label == other.label and self.gnd_id == other.gnd_id and self.first_name == other.first_name and \
             self.last_name == other.last_name
 
@@ -104,8 +107,9 @@ class PersonData:
 
 class LetterData:
 
-    def __init__(self, authors: List[PersonData], recipients: List[PersonData], date: str = '', title: str = '',
-                 summary: str = '', quantity_description: str = '', quantity_page_count: int = None):
+    def __init__(self, letter_id: str, authors: List[PersonData], recipients: List[PersonData], date: str = '',
+                 title: str = '', summary: str = '', quantity_description: str = '', quantity_page_count: int = None):
+        self.id = letter_id
         self.authors = authors
         self.recipients = recipients
         self.date = date
@@ -116,7 +120,7 @@ class LetterData:
 
     def __str__(self):
         return str(dict({'authors': self.authors, 'recipients': self.recipients, 'date': self.date,
-                         'title': self.title, 'summary': self.summary,
+                         'title': self.title, 'summary': self.summary, 'id': self.id,
                          'quantity_description': self.quantity_description,
                          'quantity_page_count': self.quantity_page_count}))
 

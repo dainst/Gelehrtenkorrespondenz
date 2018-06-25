@@ -105,6 +105,10 @@ def _process_ead_item(item, localization_timespans):
     global NS
     global DF
 
+    letter_id = item.xpath(
+        f'./@id'
+    )
+
     letter_date = item.xpath(
         f'./{DF}:did/{DF}:unitdate[@label="Entstehungsdatum"]/@normal', namespaces=NS
     )
@@ -134,8 +138,8 @@ def _process_ead_item(item, localization_timespans):
     recipients = _extract_persons(
         item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"]', namespaces=NS), localization_timespans)
 
-    letter = LetterData(authors, recipients, date=letter_date, summary=summary, quantity_description=quantity,
-                        quantity_page_count=LetterData.parse_page_count(quantity), title=title)
+    letter = LetterData(letter_id, authors, recipients, date=letter_date, summary=summary, title=title,
+                        quantity_description=quantity, quantity_page_count=LetterData.parse_page_count(quantity))
 
     return letter
 
