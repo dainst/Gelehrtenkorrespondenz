@@ -6,7 +6,7 @@ PAGE_COUNT_PATTERN = re.compile('.*(\d+)\s*Seiten.*')
 
 class Location:
 
-    def __init__(self, label: str, gnd_id: int):
+    def __init__(self, label: str, gnd_id: str):
         self.label = label
         self.gnd_id = gnd_id
         self.id = self.gnd_id
