@@ -1,0 +1,335 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=,..:--,\ 99 10/111/52 Verehrter Herr Professor 1 Henzen an Gerhard Auf Ihren 1.
+1-1	,..:--,\	NN	<unknown>	_	O	O	
+1-2	99	CARD	99	_	O	O	
+1-3	10/111/52	CARD	@card@	_	O	O	
+1-4	Verehrter	ADJA	verehrt	_	O	O	
+1-5	Herr	NN	Herr	_	O	O	
+1-6	Professor	NN	Professor	_	O	O	
+1-7	1	CARD	1	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-9	an	APPR	an	_	O	O	
+1-10	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-11	Auf	APPR	auf	_	O	O	
+1-12	Ihren	PPOSAT	ihr	_	O	O	
+1-13	1	CARD	1	_	O	O	
+1-14	.	$.	.	_	O	O	
+
+#id=2
+#text=Bri.ef vom 27 Febr.
+2-1	Bri.ef	NE	<unknown>	_	O	O	
+2-2	vom	APPRART	von	_	O	O	
+2-3	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-4	Febr.	NN	Febr.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=3
+#text=nur die Erwiederung, dß.
+3-1	nur	ADV	nur	_	O	O	
+3-2	die	ART	die	_	O	O	
+3-3	Erwiederung	NN	<unknown>	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	dß	VVFIN	<unknown>	_	O	O	
+3-6	.	$.	.	_	O	O	
+
+#id=4
+#text=ich hoffe, deutlich genug gesagt zu haben, wie mir Brunns bevorstehende Entfernung sehr leid ist, wie ich aber ihn keineswegs als unentbehrlich betrachten kann, da er in der That in den letzten Jahren so wenig für ds.
+4-1	ich	PPER	ich	_	O	O	
+4-2	hoffe	VVFIN	hoffen	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	deutlich	ADJD	deutlich	_	O	O	
+4-5	genug	ADV	genug	_	O	O	
+4-6	gesagt	VVPP	sagen	_	O	O	
+4-7	zu	PTKZU	zu	_	O	O	
+4-8	haben	VAINF	haben	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	wie	KOUS	wie	_	O	O	
+4-11	mir	PPER	ich	_	O	O	
+4-12	Brunns	NN	Brunn	_	O	O	
+4-13	bevorstehende	ADJA	bevorstehend	_	O	O	
+4-14	Entfernung	NN	Entfernung	_	O	O	
+4-15	sehr	ADV	sehr	_	O	O	
+4-16	leid	ADJD	leid	_	O	O	
+4-17	ist	VAFIN	sein	_	O	O	
+4-18	,	$,	,	_	O	O	
+4-19	wie	KOUS	wie	_	O	O	
+4-20	ich	PPER	ich	_	O	O	
+4-21	aber	KON	aber	_	O	O	
+4-22	ihn	PPER	er	_	O	O	
+4-23	keineswegs	ADV	keineswegs	_	O	O	
+4-24	als	KOKOM	als	_	O	O	
+4-25	unentbehrlich	ADJD	unentbehrlich	_	O	O	
+4-26	betrachten	VVINF	betrachten	_	O	O	
+4-27	kann	VMFIN	können	_	O	O	
+4-28	,	$,	,	_	O	O	
+4-29	da	KOUS	da	_	O	O	
+4-30	er	PPER	er	_	O	O	
+4-31	in	APPR	in	_	O	O	
+4-32	der	ART	die	_	O	O	
+4-33	That	NE	<unknown>	_	O	O	
+4-34	in	APPR	in	_	O	O	
+4-35	den	ART	die	_	O	O	
+4-36	letzten	ADJA	letzt	_	O	O	
+4-37	Jahren	NN	Jahr	_	O	O	
+4-38	so	ADV	so	_	O	O	
+4-39	wenig	ADV	wenig	_	O	O	
+4-40	für	APPR	für	_	O	O	
+4-41	ds.	ADJA	<unknown>	_	O	O	
+
+#id=5
+#text=Institut geleistet, W~Ch ihm aber keineswegs zur Last lege, augenommen die Fälle, wo er ausdrücklich übernommen hatte, einzutreten.
+5-1	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-2	geleistet	VVPP	leisten	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	W~Ch	VVFIN	<unknown>	_	O	O	
+5-5	ihm	PPER	er	_	O	O	
+5-6	aber	ADV	aber	_	O	O	
+5-7	keineswegs	ADV	keineswegs	_	O	O	
+5-8	zur	APPRART	zu	_	O	O	
+5-9	Last	NN	Last	_	O	O	
+5-10	lege	VVFIN	legen	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	augenommen	ADJD	<unknown>	_	O	O	
+5-13	die	ART	die	_	O	O	
+5-14	Fälle	NN	Fall	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	wo	PWAV	wo	_	O	O	
+5-17	er	PPER	er	_	O	O	
+5-18	ausdrücklich	ADJD	ausdrücklich	_	O	O	
+5-19	übernommen	VVPP	übernehmen	_	O	O	
+5-20	hatte	VAFIN	haben	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	einzutreten	VVIZU	eintreten	_	O	O	
+5-23	.	$.	.	_	O	O	
+
+#id=6
+#text=Braun ist durchaus Partei in Brunns Sache, u. , obwohl ich ihn ( Braun ) , was seine Fabrikgeschichte u. dann übernommene Besorgung betrifft, vollständig Recht gebe, insofern Brunn eingegangne Verpfli.chtungen treu zu bleiben hatte, so glaube ich doch immer noch, daß er, beim Institute irgendwie angestellt, seine Sachen ordentlicher wahrgenommen hätte; denn daß Brauns Frabrikwirthschaft ein völlig un~mrdiges, ich möchte sagen, für ihn selbst unanständiges Treiben ist, dabei bleibe ich nun einmal, u. thut mir dabei unser armes Institut am meisten leid, das darüber um allen Credit kommt.
+6-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	durchaus	ADV	durchaus	_	O	O	
+6-4	Partei	NN	Partei	_	O	O	
+6-5	in	APPR	in	_	O	O	
+6-6	Brunns	NN	Brunn	_	O	O	
+6-7	Sache	NN	Sache	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	u.	KON	und	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	obwohl	KOUS	obwohl	_	O	O	
+6-12	ich	PPER	ich	_	O	O	
+6-13	ihn	PPER	er	_	O	O	
+6-14	(	$(	(	_	O	O	
+6-15	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-16	)	$(	)	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	was	PRELS	was	_	O	O	
+6-19	seine	PPOSAT	sein	_	O	O	
+6-20	Fabrikgeschichte	NN	<unknown>	_	O	O	
+6-21	u.	APPR	um	_	O	O	
+6-22	dann	ADV	dann	_	O	O	
+6-23	übernommene	ADJA	übernommen	_	O	O	
+6-24	Besorgung	NN	Besorgung	_	O	O	
+6-25	betrifft	VVFIN	betreffen	_	O	O	
+6-26	,	$,	,	_	O	O	
+6-27	vollständig	ADJD	vollständig	_	O	O	
+6-28	Recht	NN	Recht	_	O	O	
+6-29	gebe	VVFIN	geben	_	O	O	
+6-30	,	$,	,	_	O	O	
+6-31	insofern	KOUS	insofern	_	O	O	
+6-32	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-33	eingegangne	ADJA	<unknown>	_	O	O	
+6-34	Verpfli.chtungen	NN	<unknown>	_	O	O	
+6-35	treu	ADJD	treu	_	O	O	
+6-36	zu	PTKZU	zu	_	O	O	
+6-37	bleiben	VVINF	bleiben	_	O	O	
+6-38	hatte	VAFIN	haben	_	O	O	
+6-39	,	$,	,	_	O	O	
+6-40	so	ADV	so	_	O	O	
+6-41	glaube	VVFIN	glauben	_	O	O	
+6-42	ich	PPER	ich	_	O	O	
+6-43	doch	ADV	doch	_	O	O	
+6-44	immer	ADV	immer	_	O	O	
+6-45	noch	ADV	noch	_	O	O	
+6-46	,	$,	,	_	O	O	
+6-47	daß	KOUS	dass	_	O	O	
+6-48	er	PPER	er	_	O	O	
+6-49	,	$,	,	_	O	O	
+6-50	beim	APPRART	bei	_	O	O	
+6-51	Institute	NN	Institut	_	O	O	
+6-52	irgendwie	ADV	irgendwie	_	O	O	
+6-53	angestellt	VVPP	anstellen	_	O	O	
+6-54	,	$,	,	_	O	O	
+6-55	seine	PPOSAT	sein	_	O	O	
+6-56	Sachen	NN	Sache	_	O	O	
+6-57	ordentlicher	ADJD	ordentlich	_	O	O	
+6-58	wahrgenommen	VVPP	wahrnehmen	_	O	O	
+6-59	hätte	VAFIN	haben	_	O	O	
+6-60	;	$.	;	_	O	O	
+6-61	denn	KON	denn	_	O	O	
+6-62	daß	KOUS	dass	_	O	O	
+6-63	Brauns	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-64	Frabrikwirthschaft	NN	<unknown>	_	O	O	
+6-65	ein	ART	eine	_	O	O	
+6-66	völlig	ADJD	völlig	_	O	O	
+6-67	un~mrdiges	ADJA	<unknown>	_	O	O	
+6-68	,	$,	,	_	O	O	
+6-69	ich	PPER	ich	_	O	O	
+6-70	möchte	VMFIN	mögen	_	O	O	
+6-71	sagen	VVINF	sagen	_	O	O	
+6-72	,	$,	,	_	O	O	
+6-73	für	APPR	für	_	O	O	
+6-74	ihn	PPER	er	_	O	O	
+6-75	selbst	ADV	selbst	_	O	O	
+6-76	unanständiges	ADJA	unanständig	_	O	O	
+6-77	Treiben	NN	Treiben	_	O	O	
+6-78	ist	VAFIN	sein	_	O	O	
+6-79	,	$,	,	_	O	O	
+6-80	dabei	PAV	dabei	_	O	O	
+6-81	bleibe	VVFIN	bleiben	_	O	O	
+6-82	ich	PPER	ich	_	O	O	
+6-83	nun	ADV	nun	_	O	O	
+6-84	einmal	ADV	einmal	_	O	O	
+6-85	,	$,	,	_	O	O	
+6-86	u.	APPR	um	_	O	O	
+6-87	thut	NN	<unknown>	_	O	O	
+6-88	mir	PRF	ich	_	O	O	
+6-89	dabei	PAV	dabei	_	O	O	
+6-90	unser	PPOSAT	unser	_	O	O	
+6-91	armes	ADJA	arm	_	O	O	
+6-92	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-93	am	APPRART	an	_	O	O	
+6-94	meisten	PIS	meiste	_	O	O	
+6-95	leid	ADJD	leid	_	O	O	
+6-96	,	$,	,	_	O	O	
+6-97	das	ART	die	_	O	O	
+6-98	darüber	PAV	darüber	_	O	O	
+6-99	um	APPR	um	_	O	O	
+6-100	allen	PIAT	alle	_	O	O	
+6-101	Credit	NE	Credit	_	O	O	
+6-102	kommt	VVFIN	kommen	_	O	O	
+6-103	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich entschuldige es daher in Etwas, wenn Brunn sich nicht dafür interessieren konnte, wie es Braun verlangte.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	entschuldige	VVFIN	entschuldigen	_	O	O	
+7-3	es	PPER	es	_	O	O	
+7-4	daher	PAV	daher	_	O	O	
+7-5	in	APPR	in	_	O	O	
+7-6	Etwas	NN	Etwas	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	wenn	KOUS	wenn	_	O	O	
+7-9	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-10	sich	PRF	sich	_	O	O	
+7-11	nicht	PTKNEG	nicht	_	O	O	
+7-12	dafür	PAV	dafür	_	O	O	
+7-13	interessieren	VVINF	interessieren	_	O	O	
+7-14	konnte	VMFIN	können	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	wie	KOUS	wie	_	O	O	
+7-17	es	PPER	es	_	O	O	
+7-18	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-19	verlangte	VVFIN	verlangen	_	O	O	
+7-20	.	$.	.	_	O	O	
+
+#id=8
+#text=Junge Gelehrte übrigens, die sonst so zahlreich hier waren, fehlen.
+8-1	Junge	ADJA	jung	_	O	O	
+8-2	Gelehrte	NN	Gelehrte	_	O	O	
+8-3	übrigens	ADV	übrigens	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	die	PRELS	die	_	O	O	
+8-6	sonst	ADV	sonst	_	O	O	
+8-7	so	ADV	so	_	O	O	
+8-8	zahlreich	ADJD	zahlreich	_	O	O	
+8-9	hier	ADV	hier	_	O	O	
+8-10	waren	VAFIN	sein	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	fehlen	VVFIN	fehlen	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Philippi ist Jurist u. Leider 1 sehr kränklich in diesem Winter.
+9-1	Philippi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	Jurist	NN	Jurist	_	O	O	
+9-4	u.	APPR	um	_	O	O	
+9-5	Leider	ADV	leider	_	O	O	
+9-6	1	CARD	1	_	O	O	
+9-7	sehr	ADV	sehr	_	O	O	
+9-8	kränklich	ADJD	kränklich	_	O	O	
+9-9	in	APPR	in	_	O	O	
+9-10	diesem	PDAT	dies	_	O	O	
+9-11	Winter	NN	Winter	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Wenn derselbe nicht in jedem Falle vorzöge, Jurist zu bleiben, würde er gut für ein C.I.L. gewesen sein.
+10-1	Wenn	KOUS	wenn	_	O	O	
+10-2	derselbe	PDS	derselbe	_	O	O	
+10-3	nicht	PTKNEG	nicht	_	O	O	
+10-4	in	APPR	in	_	O	O	
+10-5	jedem	PIAT	jede	_	O	O	
+10-6	Falle	NN	Falle	_	O	O	
+10-7	vorzöge	VVFIN	<unknown>	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	Jurist	NN	Jurist	_	O	O	
+10-10	zu	PTKZU	zu	_	O	O	
+10-11	bleiben	VVINF	bleiben	_	O	O	
+10-12	,	$,	,	_	O	O	
+10-13	würde	VAFIN	werden	_	O	O	
+10-14	er	PPER	er	_	O	O	
+10-15	gut	ADJD	gut	_	O	O	
+10-16	für	APPR	für	_	O	O	
+10-17	ein	ART	eine	_	O	O	
+10-18	C.I.L.	NE	<unknown>	_	O	O	
+10-19	gewesen	VAPP	sein	_	O	O	
+10-20	sein	VAINF	sein	_	O	O	
+10-21	.	$.	.	_	O	O	
+
+#id=11
+#text=Von Gehülfen für das Institut aber ist gar Niemand da.
+11-1	Von	APPR	von	_	O	O	
+11-2	Gehülfen	NN	<unknown>	_	O	O	
+11-3	für	APPR	für	_	O	O	
+11-4	das	ART	die	_	O	O	
+11-5	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+11-6	aber	ADV	aber	_	O	O	
+11-7	ist	VAFIN	sein	_	O	O	
+11-8	gar	ADV	gar	_	O	O	
+11-9	Niemand	PIS	niemand	_	O	O	
+11-10	da	PTKVZ	da	_	O	O	
+11-11	.	$.	.	_	O	O	
+
+#id=12
+#text=Es müßte sich auch eigen treffen, dß.
+12-1	Es	PPER	es	_	O	O	
+12-2	müßte	VMFIN	müssen	_	O	O	
+12-3	sich	PRF	sich	_	O	O	
+12-4	auch	ADV	auch	_	O	O	
+12-5	eigen	ADJD	eigen	_	O	O	
+12-6	treffen	VVINF	treffen	_	O	O	
+12-7	,	$,	,	_	O	O	
+12-8	dß	VVFIN	<unknown>	_	O	O	
+12-9	.	$.	.	_	O	O	
+
+#id=13
+#text=Jemand, wie Brunn, mit der Absicht hieher käme, hier auf eigne Hand länger sich aufzu-
+13-1	Jemand	PIS	jemand	_	O	O	
+13-2	,	$,	,	_	O	O	
+13-3	wie	KOKOM	wie	_	O	O	
+13-4	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-5	,	$,	,	_	O	O	
+13-6	mit	APPR	mit	_	O	O	
+13-7	der	ART	die	_	O	O	
+13-8	Absicht	NN	Absicht	_	O	O	
+13-9	hieher	NN	<unknown>	_	O	O	
+13-10	käme	VVFIN	kommen	_	O	O	
+13-11	,	$,	,	_	O	O	
+13-12	hier	ADV	hier	_	O	O	
+13-13	auf	APPR	auf	_	O	O	
+13-14	eigne	ADJA	eigen	_	O	O	
+13-15	Hand	NN	Hand	_	O	O	
+13-16	länger	ADJD	lang	_	O	O	
+13-17	sich	PRF	sich	_	O	O	
+13-18	aufzu-	ADJA	<unknown>	_	O	O	
+

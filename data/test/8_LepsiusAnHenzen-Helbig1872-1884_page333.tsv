@@ -1,0 +1,234 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=, , 646 Lepsius an Henzen Berlin, 11. Oktober 1877 g. 14/X 77 r. Berlin, den 11. Okt.
+1-1	,	$,	,	_	O	O	
+1-2	,	$,	,	_	O	O	
+1-3	646	CARD	@card@	_	O	O	
+1-4	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	ADJA	<unknown>	_	O	O	
+1-14	14/X	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	77	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+1-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-18	,	$,	,	_	O	O	
+1-19	den	ART	die	_	O	O	
+1-20	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-21	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Okt.	NN	Okt.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1877 Verehrtester Freund Heute Morgen endlich haben sich die vermißten Matzschen Papiere bei einer dritten Haussuchung gefunden, Ullter weggestellten Kunstsachen, wohin sie eine unbefugte aufräumende Hand gestellt hatte.
+2-1	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Verehrtester	NN	<unknown>	_	O	O	
+2-3	Freund	NE	Freund	_	O	O	
+2-4	Heute	ADV	heute	_	O	O	
+2-5	Morgen	ADV	morgen	_	O	O	
+2-6	endlich	ADV	endlich	_	O	O	
+2-7	haben	VAFIN	haben	_	O	O	
+2-8	sich	PRF	sich	_	O	O	
+2-9	die	ART	die	_	O	O	
+2-10	vermißten	ADJA	vermißt	_	O	O	
+2-11	Matzschen	NN	<unknown>	_	O	O	
+2-12	Papiere	NN	Papier	_	O	O	
+2-13	bei	APPR	bei	_	O	O	
+2-14	einer	ART	eine	_	O	O	
+2-15	dritten	ADJA	dritt	_	O	O	
+2-16	Haussuchung	NN	Haussuchung	_	O	O	
+2-17	gefunden	VVPP	finden	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	Ullter	ADJA	<unknown>	_	O	O	
+2-20	weggestellten	ADJA	<unknown>	_	O	O	
+2-21	Kunstsachen	NN	<unknown>	_	O	O	
+2-22	,	$,	,	_	O	O	
+2-23	wohin	PWAV	wohin	_	O	O	
+2-24	sie	PPER	sie	_	O	O	
+2-25	eine	ART	eine	_	O	O	
+2-26	unbefugte	ADJA	unbefugt	_	O	O	
+2-27	aufräumende	ADJA	<unknown>	_	O	O	
+2-28	Hand	NN	Hand	_	O	O	
+2-29	gestellt	VVPP	stellen	_	O	O	
+2-30	hatte	VAFIN	haben	_	O	O	
+2-31	.	$.	.	_	O	O	
+
+#id=3
+#text=Michaelis hatte immer von einem großen adressirten Pakete geschrieben.
+3-1	Michaelis	NE	Michaelis	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	hatte	VAFIN	haben	_	O	O	
+3-3	immer	ADV	immer	_	O	O	
+3-4	von	APPR	von	_	O	O	
+3-5	einem	ART	eine	_	O	O	
+3-6	großen	ADJA	groß	_	O	O	
+3-7	adressirten	NN	<unknown>	_	O	O	
+3-8	Pakete	NN	Paket	_	O	O	
+3-9	geschrieben	VVPP	schreiben	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Sie fanden sich aber in zwei Holz Kästen ohne jegliche Adresse.
+4-1	Sie	PPER	Sie	_	O	O	
+4-2	fanden	VVFIN	finden	_	O	O	
+4-3	sich	PRF	sich	_	O	O	
+4-4	aber	ADV	aber	_	O	O	
+4-5	in	APPR	in	_	O	O	
+4-6	zwei	CARD	zwei	_	O	O	
+4-7	Holz	NN	Holz	_	O	O	
+4-8	Kästen	NN	Kasten	_	O	O	
+4-9	ohne	APPR	ohne	_	O	O	
+4-10	jegliche	PIAT	jegliche	_	O	O	
+4-11	Adresse	NN	Adresse	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Sie werden morgen hochversichert durch die Post an Sie abgehen.
+5-1	Sie	PPER	Sie	_	O	O	
+5-2	werden	VAFIN	werden	_	O	O	
+5-3	morgen	ADV	morgen	_	O	O	
+5-4	hochversichert	ADJD	<unknown>	_	O	O	
+5-5	durch	APPR	durch	_	O	O	
+5-6	die	ART	die	_	O	O	
+5-7	Post	NN	Post	_	O	O	
+5-8	an	APPR	an	_	O	O	
+5-9	Sie	PPER	Sie	_	O	O	
+5-10	abgehen	VVINF	abgehen	_	O	O	
+5-11	.	$.	.	_	O	O	
+
+#id=6
+#text=Sie sind meines Wissens nach Rom zurück.
+6-1	Sie	PPER	Sie	_	O	O	
+6-2	sind	VAFIN	sein	_	O	O	
+6-3	meines	PPOSAT	mein	_	O	O	
+6-4	Wissens	NN	Wissen	_	O	O	
+6-5	nach	APPR	nach	_	O	O	
+6-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-7	zurück	PTKVZ	zurück	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich habe fünf Wochen in der kräftigenden ozonreichen Harzluft in Stolberg zugebracht, wo es mir sehr gut ging.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	habe	VAFIN	haben	_	O	O	
+7-3	fünf	CARD	fünf	_	O	O	
+7-4	Wochen	NN	Woche	_	O	O	
+7-5	in	APPR	in	_	O	O	
+7-6	der	ART	die	_	O	O	
+7-7	kräftigenden	ADJA	<unknown>	_	O	O	
+7-8	ozonreichen	ADJA	<unknown>	_	O	O	
+7-9	Harzluft	NN	<unknown>	_	O	O	
+7-10	in	APPR	in	_	O	O	
+7-11	Stolberg	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-12	zugebracht	VVPP	zubringen	_	O	O	
+7-13	,	$,	,	_	O	O	
+7-14	wo	PWAV	wo	_	O	O	
+7-15	es	PPER	es	_	O	O	
+7-16	mir	PRF	ich	_	O	O	
+7-17	sehr	ADV	sehr	_	O	O	
+7-18	gut	ADJD	gut	_	O	O	
+7-19	ging	VVFIN	gehen	_	O	O	
+7-20	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich hoffe einigermaßen gestärkt in die Winter Campagne einzutreten.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	hoffe	VVFIN	hoffen	_	O	O	
+8-3	einigermaßen	ADV	einigermaßen	_	O	O	
+8-4	gestärkt	VVPP	stärken	_	O	O	
+8-5	in	APPR	in	_	O	O	
+8-6	die	ART	die	_	O	O	
+8-7	Winter	NN	Winter	_	O	O	
+8-8	Campagne	NN	<unknown>	_	O	O	
+8-9	einzutreten	VVIZU	eintreten	_	O	O	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=Conze ist seit Anfang des Monats hier.
+9-1	Conze	NE	Conze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	seit	APPR	seit	_	O	O	
+9-4	Anfang	NN	Anfang	_	O	O	
+9-5	des	ART	die	_	O	O	
+9-6	Monats	NN	Monat	_	O	O	
+9-7	hier	ADV	hier	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Montag werden wir ihn in die Centraldirektion als zwölftes Mitglied wählen in der Akademie.
+10-1	Montag	NN	Montag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+10-2	werden	VAFIN	werden	_	O	O	
+10-3	wir	PPER	wir	_	O	O	
+10-4	ihn	PPER	er	_	O	O	
+10-5	in	APPR	in	_	O	O	
+10-6	die	ART	die	_	O	O	
+10-7	Centraldirektion	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-8	als	KOKOM	als	_	O	O	
+10-9	zwölftes	ADJA	zwölft	_	O	O	
+10-10	Mitglied	NN	Mitglied	_	O	O	
+10-11	wählen	VVFIN	wählen	_	O	O	
+10-12	in	APPR	in	_	O	O	
+10-13	der	ART	die	_	O	O	
+10-14	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-15	.	$.	.	_	O	O	
+
+#id=11
+#text=Die Institutsgeschäfte habe ich ihm bereits privatim übergeben.
+11-1	Die	ART	die	_	O	O	
+11-2	Institutsgeschäfte	NN	<unknown>	_	O	O	
+11-3	habe	VAFIN	haben	_	O	O	
+11-4	ich	PPER	ich	_	O	O	
+11-5	ihm	PPER	er	_	O	O	
+11-6	bereits	ADV	bereits	_	O	O	
+11-7	privatim	ADJD	<unknown>	_	O	O	
+11-8	übergeben	VVINF	übergeben	_	O	O	
+11-9	.	$.	.	_	O	O	
+
+#id=12
+#text=Ihr Promemoria ist bei mir eingegangen.
+12-1	Ihr	PPOSAT	ihr	_	O	O	
+12-2	Promemoria	NN	<unknown>	_	O	O	
+12-3	ist	VAFIN	sein	_	O	O	
+12-4	bei	APPR	bei	_	O	O	
+12-5	mir	PPER	ich	_	O	O	
+12-6	eingegangen	VVPP	eingehen	_	O	O	
+12-7	.	$.	.	_	O	O	
+
+#id=13
+#text=Ich werde es in der bevorstehenden Sitzung vorlegen, Nach dem Inhalte kann es jetzt meiner Meinung nach keine Schwierigkeit mehr sein wegen der aufzunehmenden Bücher.
+13-1	Ich	PPER	ich	_	O	O	
+13-2	werde	VAFIN	werden	_	O	O	
+13-3	es	PPER	es	_	O	O	
+13-4	in	APPR	in	_	O	O	
+13-5	der	ART	die	_	O	O	
+13-6	bevorstehenden	ADJA	bevorstehend	_	O	O	
+13-7	Sitzung	NN	Sitzung	_	O	O	
+13-8	vorlegen	VVINF	vorlegen	_	O	O	
+13-9	,	$,	,	_	O	O	
+13-10	Nach	APPR	nach	_	O	O	
+13-11	dem	ART	die	_	O	O	
+13-12	Inhalte	NN	Inhalt	_	O	O	
+13-13	kann	VMFIN	können	_	O	O	
+13-14	es	PPER	es	_	O	O	
+13-15	jetzt	ADV	jetzt	_	O	O	
+13-16	meiner	PPOSAT	mein	_	O	O	
+13-17	Meinung	NN	Meinung	_	O	O	
+13-18	nach	APPR	nach	_	O	O	
+13-19	keine	PIAT	keine	_	O	O	
+13-20	Schwierigkeit	NN	Schwierigkeit	_	O	O	
+13-21	mehr	ADV	mehr	_	O	O	
+13-22	sein	PPOSAT	sein	_	O	O	
+13-23	wegen	APPR	wegen	_	O	O	
+13-24	der	ART	die	_	O	O	
+13-25	aufzunehmenden	ADJA	aufzunehmend	_	O	O	
+13-26	Bücher	NN	Buch	_	O	O	
+13-27	.	$.	.	_	O	O	
+
+#id=14
+#text=Wenn
+14-1	Wenn	KOUS	wenn	_	O	O	
+

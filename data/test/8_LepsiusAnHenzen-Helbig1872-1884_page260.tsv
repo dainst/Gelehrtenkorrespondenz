@@ -1,0 +1,233 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=l ( ~ ( .e 106 N. 37 Verehrter Freund Lepsius an Henzen Berlin, 25. Februar 1876 g. 28/2 76 Rom, den 25. Febr. 1876 Sie haben mir nur 1 Exemplar des letzten Elenco gesendet.
+1-1	l	NN	l	_	O	O	
+1-2	(	$(	(	_	O	O	
+1-3	~	XY	~	_	O	O	
+1-4	(	$(	(	_	O	O	
+1-5	.e	NE	<unknown>	_	O	O	
+1-6	106	CARD	@card@	_	O	O	
+1-7	N.	APPR	n.	_	O	O	
+1-8	37	CARD	37	_	O	O	
+1-9	Verehrter	NN	Verehrte	_	O	O	
+1-10	Freund	NE	Freund	_	O	O	
+1-11	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-12	an	APPR	an	_	O	O	
+1-13	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	,	$,	,	_	O	O	
+1-16	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	g.	VVFIN	<unknown>	_	O	O	
+1-21	28/2	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-22	76	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-23	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-24	,	$,	,	_	O	O	
+1-25	den	ART	die	_	O	O	
+1-26	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-27	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-28	Febr.	NN	Febr.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-29	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-30	Sie	PPER	Sie	_	O	O	
+1-31	haben	VAFIN	haben	_	O	O	
+1-32	mir	PPER	ich	_	O	O	
+1-33	nur	ADV	nur	_	O	O	
+1-34	1	CARD	1	_	O	O	
+1-35	Exemplar	NN	Exemplar	_	O	O	
+1-36	des	ART	die	_	O	O	
+1-37	letzten	ADJA	letzt	_	O	O	
+1-38	Elenco	NN	<unknown>	_	O	O	
+1-39	gesendet	VVPP	senden	_	O	O	
+1-40	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich bitte alljährlich um etwa 5 Exemplare, da gelegentlich Nachfrage danach ist.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	bitte	VVFIN	bitten	_	O	O	
+3-3	alljährlich	ADJD	alljährlich	_	O	O	
+3-4	um	APPR	um	_	O	O	
+3-5	etwa	ADV	etwa	_	O	O	
+3-6	5	CARD	5	_	O	O	
+3-7	Exemplare	NN	Exemplar	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	da	ADV	da	_	O	O	
+3-10	gelegentlich	ADJD	gelegentlich	_	O	O	
+3-11	Nachfrage	NN	Nachfrage	_	O	O	
+3-12	danach	PAV	danach	_	O	O	
+3-13	ist	VAFIN	sein	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Auch bitte ich noch um je 1 Exemplar der Elenchi 1866. 1870. 1871., wenn vorhanden.
+4-1	Auch	ADV	auch	_	O	O	
+4-2	bitte	VVFIN	bitten	_	O	O	
+4-3	ich	PPER	ich	_	O	O	
+4-4	noch	ADV	noch	_	O	O	
+4-5	um	APPR	um	_	O	O	
+4-6	je	ADV	je	_	O	O	
+4-7	1	CARD	1	_	O	O	
+4-8	Exemplar	NN	Exemplar	_	O	O	
+4-9	der	ART	die	_	O	O	
+4-10	Elenchi	NE	<unknown>	_	O	O	
+4-11	1866	CARD	1866	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-1	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-2	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-1	1871	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-2	.	$.	.	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	wenn	KOUS	wenn	_	O	O	
+6-5	vorhanden	ADJD	vorhanden	_	O	O	
+6-6	.	$.	.	_	O	O	
+
+#id=7
+#text=Das Schreiben des Reichskanzleramtes in Bezug auf die Düsseldorfer Kunst Akademie ist nur irrthümlich, durch den neuen Referenten im Reichskanzler Amt Legat.
+7-1	Das	ART	die	_	O	O	
+7-2	Schreiben	NN	Schreiben	_	O	O	
+7-3	des	ART	die	_	O	O	
+7-4	Reichskanzleramtes	NN	<unknown>	_	O	O	
+7-5	in	APPR	in	_	O	O	
+7-6	Bezug	NN	Bezug	_	O	O	
+7-7	auf	APPR	auf	_	O	O	
+7-8	die	ART	die	_	O	O	
+7-9	Düsseldorfer	ADJA	Düsseldorfer	_	O	O	
+7-10	Kunst	NN	Kunst	_	O	O	
+7-11	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-12	ist	VAFIN	sein	_	O	O	
+7-13	nur	ADV	nur	_	O	O	
+7-14	irrthümlich	ADJD	<unknown>	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	durch	APPR	durch	_	O	O	
+7-17	den	ART	die	_	O	O	
+7-18	neuen	ADJA	neu	_	O	O	
+7-19	Referenten	NN	Referent	_	O	O	
+7-20	im	APPRART	in	_	O	O	
+7-21	Reichskanzler	NN	Reichskanzler	_	O	O	
+7-22	Amt	NN	Amt	_	O	O	
+7-23	Legat	NN	Legat	_	O	O	
+7-24	.	$.	.	_	O	O	
+
+#id=8
+#text=Rath Busch nach Rom, statt an die Central Direktion dirigirt worden.
+8-1	Rath	NE	Rath	_	O	O	
+8-2	Busch	NE	Busch	_	O	O	
+8-3	nach	APPR	nach	_	O	O	
+8-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-5	,	$,	,	_	O	O	
+8-6	statt	KOUI	statt	_	O	O	
+8-7	an	APPR	an	_	O	O	
+8-8	die	ART	die	_	O	O	
+8-9	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-10	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+8-11	dirigirt	NN	<unknown>	_	O	O	
+8-12	worden	VAPP	werden	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Da auch in unserm Depot Exemplare der gewünschten Jahrgänge sich vorfinden, so wird die Sendung besser von hieraus geschehen.
+9-1	Da	ADV	da	_	O	O	
+9-2	auch	ADV	auch	_	O	O	
+9-3	in	APPR	in	_	O	O	
+9-4	unserm	PPOSAT	unser	_	O	O	
+9-5	Depot	NN	Depot	_	O	O	
+9-6	Exemplare	NN	Exemplar	_	O	O	
+9-7	der	ART	die	_	O	O	
+9-8	gewünschten	ADJA	gewünscht	_	O	O	
+9-9	Jahrgänge	NN	Jahrgang	_	O	O	
+9-10	sich	PRF	sich	_	O	O	
+9-11	vorfinden	VVFIN	vorfinden	_	O	O	
+9-12	,	$,	,	_	O	O	
+9-13	so	ADV	so	_	O	O	
+9-14	wird	VAFIN	werden	_	O	O	
+9-15	die	ART	die	_	O	O	
+9-16	Sendung	NN	Sendung	_	O	O	
+9-17	besser	ADJD	gut	_	O	O	
+9-18	von	APPR	von	_	O	O	
+9-19	hieraus	PAV	hieraus	_	O	O	
+9-20	geschehen	VVINF	geschehen	_	O	O	
+9-21	.	$.	.	_	O	O	
+
+#id=10
+#text=Die Central Direktion hat das Exemplar vom Jahre 1861 an gratis bewilligt, unter der Voraussetzung daß die Fortsetzungen zum gewöhnlichen Preise bezogen wird.
+10-1	Die	ART	die	_	O	O	
+10-2	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-3	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+10-4	hat	VAFIN	haben	_	O	O	
+10-5	das	ART	die	_	O	O	
+10-6	Exemplar	NN	Exemplar	_	O	O	
+10-7	vom	APPRART	von	_	O	O	
+10-8	Jahre	NN	Jahr	_	O	O	
+10-9	1861	CARD	1861	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+10-10	an	APZR	an	_	O	O	
+10-11	gratis	ADJD	gratis	_	O	O	
+10-12	bewilligt	VVPP	bewilligen	_	O	O	
+10-13	,	$,	,	_	O	O	
+10-14	unter	APPR	unter	_	O	O	
+10-15	der	ART	die	_	O	O	
+10-16	Voraussetzung	NN	Voraussetzung	_	O	O	
+10-17	daß	KOUS	dass	_	O	O	
+10-18	die	ART	die	_	O	O	
+10-19	Fortsetzungen	NN	Fortsetzung	_	O	O	
+10-20	zum	APPRART	zu	_	O	O	
+10-21	gewöhnlichen	ADJA	gewöhnlich	_	O	O	
+10-22	Preise	NN	Preis	_	O	O	
+10-23	bezogen	VVPP	beziehen	_	O	O	
+10-24	wird	VAFIN	werden	_	O	O	
+10-25	.	$.	.	_	O	O	
+
+#id=11
+#text=Mein Brief vom 19. d. wird Ihnen zugegangen sein.
+11-1	Mein	PPOSAT	mein	_	O	O	
+11-2	Brief	NN	Brief	_	O	O	
+11-3	vom	APPRART	von	_	O	O	
+11-4	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+11-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+11-6	d.	PDS	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+11-7	wird	VAFIN	werden	_	O	O	
+11-8	Ihnen	PPER	Sie	_	O	O	
+11-9	zugegangen	VVPP	zugehen	_	O	O	
+11-10	sein	VAINF	sein	_	O	O	
+11-11	.	$.	.	_	O	O	
+
+#id=12
+#text=Ebers in Leipzig schreibt mir, daß er in den Osterferien nach Rom gehen will und sich freuen wird, mit Helbig die beabsichtigte Arbeit zu besprechen.
+12-1	Ebers	NN	Eber	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	in	APPR	in	_	O	O	
+12-3	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-4	schreibt	VVFIN	schreiben	_	O	O	
+12-5	mir	PPER	ich	_	O	O	
+12-6	,	$,	,	_	O	O	
+12-7	daß	KOUS	dass	_	O	O	
+12-8	er	PPER	er	_	O	O	
+12-9	in	APPR	in	_	O	O	
+12-10	den	ART	die	_	O	O	
+12-11	Osterferien	NN	Osterferien	_	O	O	
+12-12	nach	APPR	nach	_	O	O	
+12-13	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-14	gehen	VVINF	gehen	_	O	O	
+12-15	will	VMFIN	wollen	_	O	O	
+12-16	und	KON	und	_	O	O	
+12-17	sich	PRF	sich	_	O	O	
+12-18	freuen	VVINF	freuen	_	O	O	
+12-19	wird	VAFIN	werden	_	O	O	
+12-20	,	$,	,	_	O	O	
+12-21	mit	APPR	mit	_	O	O	
+12-22	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-23	die	ART	die	_	O	O	
+12-24	beabsichtigte	ADJA	beabsichtigt	_	O	O	
+12-25	Arbeit	NN	Arbeit	_	O	O	
+12-26	zu	PTKZU	zu	_	O	O	
+12-27	besprechen	VVINF	besprechen	_	O	O	
+12-28	.	$.	.	_	O	O	
+
+#id=13
+#text=Mit bestem Gruß Ihr R Lepsius
+13-1	Mit	APPR	mit	_	O	O	
+13-2	bestem	ADJA	gut	_	O	O	
+13-3	Gruß	NN	Gruß	_	O	O	
+13-4	Ihr	PPOSAT	ihr	_	O	O	
+13-5	R	NN	R	_	O	O	
+13-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

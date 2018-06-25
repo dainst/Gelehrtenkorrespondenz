@@ -1,0 +1,355 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=240 3/VII/53 3 Henzen an Gerhard wogegen die Einnahme von höchstens 140 verkauften Exemplaren ( und ich rechne hoch, da die Nachlässigkeit der Agenten, bes.
+1-1	240	CARD	240	_	O	O	
+1-2	3/VII/53	CARD	<unknown>	_	O	O	
+1-3	3	CARD	3	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	wogegen	PWAV	wogegen	_	O	O	
+1-8	die	ART	die	_	O	O	
+1-9	Einnahme	NN	Einnahme	_	O	O	
+1-10	von	APPR	von	_	O	O	
+1-11	höchstens	ADV	höchstens	_	O	O	
+1-12	140	CARD	@card@	_	O	O	
+1-13	verkauften	ADJA	verkauft	_	O	O	
+1-14	Exemplaren	NN	Exemplar	_	O	O	
+1-15	(	$(	(	_	O	O	
+1-16	und	KON	und	_	O	O	
+1-17	ich	PPER	ich	_	O	O	
+1-18	rechne	VVFIN	rechnen	_	O	O	
+1-19	hoch	ADJD	hoch	_	O	O	
+1-20	,	$,	,	_	O	O	
+1-21	da	KOUS	da	_	O	O	
+1-22	die	ART	die	_	O	O	
+1-23	Nachlässigkeit	NN	Nachlässigkeit	_	O	O	
+1-24	der	ART	die	_	O	O	
+1-25	Agenten	NN	Agent	_	O	O	
+1-26	,	$,	,	_	O	O	
+1-27	bes.	VVFIN	<unknown>	_	O	O	
+
+#id=2
+#text=in Paris u. London, trotz aller Mühe noch nicht zur Einsendung von Conti sich hat bringen lassen ) nach Abzug der Kosten kaum mehr, als 1050 Scudi geben dürfte.
+2-1	in	APPR	in	_	O	O	
+2-2	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-3	u.	APPR	um	_	O	O	
+2-4	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-5	,	$,	,	_	O	O	
+2-6	trotz	APPR	trotz	_	O	O	
+2-7	aller	PIAT	alle	_	O	O	
+2-8	Mühe	NN	Mühe	_	O	O	
+2-9	noch	ADV	noch	_	O	O	
+2-10	nicht	PTKNEG	nicht	_	O	O	
+2-11	zur	APPRART	zu	_	O	O	
+2-12	Einsendung	NN	Einsendung	_	O	O	
+2-13	von	APPR	von	_	O	O	
+2-14	Conti	NE	Conti	_	O	O	
+2-15	sich	PRF	sich	_	O	O	
+2-16	hat	VAFIN	haben	_	O	O	
+2-17	bringen	VVINF	bringen	_	O	O	
+2-18	lassen	VVINF	lassen	_	O	O	
+2-19	)	$(	)	_	O	O	
+2-20	nach	APPR	nach	_	O	O	
+2-21	Abzug	NN	Abzug	_	O	O	
+2-22	der	ART	die	_	O	O	
+2-23	Kosten	NN	Kosten	_	O	O	
+2-24	kaum	ADV	kaum	_	O	O	
+2-25	mehr	ADV	mehr	_	O	O	
+2-26	,	$,	,	_	O	O	
+2-27	als	KOKOM	als	_	O	O	
+2-28	1050	CARD	@card@	_	O	O	
+2-29	Scudi	NN	<unknown>	_	O	O	
+2-30	geben	VVINF	geben	_	O	O	
+2-31	dürfte	VMFIN	dürfen	_	O	O	
+2-32	.	$.	.	_	O	O	
+
+#id=3
+#text=Der Tod u. 1848 hat uns schwer mitGenommen!
+3-1	Der	ART	die	_	O	O	
+3-2	Tod	NN	Tod	_	O	O	
+3-3	u.	APPR	um	_	O	O	
+3-4	1848	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-5	hat	VAFIN	haben	_	O	O	
+3-6	uns	PPER	wir	_	O	O	
+3-7	schwer	ADJD	schwer	_	O	O	
+3-8	mitGenommen	VVINF	<unknown>	_	O	O	
+3-9	!	$.	!	_	O	O	
+
+#id=4
+#text=Reduciren Vllir nun auch unsre Publicationen auf das genaue Maß von 82 Bogen, so bleibt immer ein Deficit von wenigstens 100 Scudi.
+4-1	Reduciren	NN	<unknown>	_	O	O	
+4-2	Vllir	NE	<unknown>	_	O	O	
+4-3	nun	ADV	nun	_	O	O	
+4-4	auch	ADV	auch	_	O	O	
+4-5	unsre	PPOSAT	unsre	_	O	O	
+4-6	Publicationen	NN	<unknown>	_	O	O	
+4-7	auf	APPR	auf	_	O	O	
+4-8	das	ART	die	_	O	O	
+4-9	genaue	ADJA	genau	_	O	O	
+4-10	Maß	NN	Maß	_	O	O	
+4-11	von	APPR	von	_	O	O	
+4-12	82	CARD	@card@	_	O	O	
+4-13	Bogen	NN	Bogen	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	so	ADV	so	_	O	O	
+4-16	bleibt	VVFIN	bleiben	_	O	O	
+4-17	immer	ADV	immer	_	O	O	
+4-18	ein	ART	eine	_	O	O	
+4-19	Deficit	NN	<unknown>	_	O	O	
+4-20	von	APPR	von	_	O	O	
+4-21	wenigstens	ADV	wenigstens	_	O	O	
+4-22	100	CARD	100	_	O	O	
+4-23	Scudi	NN	<unknown>	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=Durch Einnahemen von mehreren verkauften Exemplaren der Gesammtwerke, durch Eingang vieler rückständiger Summen u. s. w. habe ich dennoch über eine Kasse von etwa 1250 Scuci zu verfügen u. Braun hat etwa 550 noch immer in Händen.
+5-1	Durch	APPR	durch	_	O	O	
+5-2	Einnahemen	NN	<unknown>	_	O	O	
+5-3	von	APPR	von	_	O	O	
+5-4	mehreren	PIAT	mehrere	_	O	O	
+5-5	verkauften	ADJA	verkauft	_	O	O	
+5-6	Exemplaren	NN	Exemplar	_	O	O	
+5-7	der	ART	die	_	O	O	
+5-8	Gesammtwerke	NN	<unknown>	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	durch	APPR	durch	_	O	O	
+5-11	Eingang	NN	Eingang	_	O	O	
+5-12	vieler	PIAT	viele	_	O	O	
+5-13	rückständiger	ADJA	rückständiger	_	O	O	
+5-14	Summen	NN	Summe|Summen	_	O	O	
+5-15	u.	APPR	um	_	O	O	
+5-16	s.	ADV	s.	_	O	O	
+5-17	w.	APPR	w.	_	O	O	
+5-18	habe	VAFIN	haben	_	O	O	
+5-19	ich	PPER	ich	_	O	O	
+5-20	dennoch	ADV	dennoch	_	O	O	
+5-21	über	APPR	über	_	O	O	
+5-22	eine	ART	eine	_	O	O	
+5-23	Kasse	NN	Kasse	_	O	O	
+5-24	von	APPR	von	_	O	O	
+5-25	etwa	ADV	etwa	_	O	O	
+5-26	1250	CARD	@card@	_	O	O	
+5-27	Scuci	NN	<unknown>	_	O	O	
+5-28	zu	PTKZU	zu	_	O	O	
+5-29	verfügen	VVINF	verfügen	_	O	O	
+5-30	u.	KON	und	_	O	O	
+5-31	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-32	hat	VAFIN	haben	_	O	O	
+5-33	etwa	ADV	etwa	_	O	O	
+5-34	550	CARD	@card@	_	O	O	
+5-35	noch	ADV	noch	_	O	O	
+5-36	immer	ADV	immer	_	O	O	
+5-37	in	APPR	in	_	O	O	
+5-38	Händen	NN	Hand	_	O	O	
+5-39	.	$.	.	_	O	O	
+
+#id=6
+#text=Ueberdies haben England, Frankreich u. Oberitalien noch die Annali 1851 zu zahlen, so daß also lteine augenblickliche Gefahr ist; aber Reformen sind nöthig, um die Association zu heben.
+6-1	Ueberdies	NN	<unknown>	_	O	O	
+6-2	haben	VAFIN	haben	_	O	O	
+6-3	England	NE	England	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-4	,	$,	,	_	O	O	
+6-5	Frankreich	NE	Frankreich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-6	u.	KON	und	_	O	O	
+6-7	Oberitalien	NE	Oberitalien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-8	noch	ADV	noch	_	O	O	
+6-9	die	ART	die	_	O	O	
+6-10	Annali	NE	<unknown>	_	O	O	
+6-11	1851	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-12	zu	PTKZU	zu	_	O	O	
+6-13	zahlen	VVINF	zahlen	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	so	ADV	so	_	O	O	
+6-16	daß	KOUS	dass	_	O	O	
+6-17	also	ADV	also	_	O	O	
+6-18	lteine	NN	<unknown>	_	O	O	
+6-19	augenblickliche	ADJA	augenblicklich	_	O	O	
+6-20	Gefahr	NN	Gefahr	_	O	O	
+6-21	ist	VAFIN	sein	_	O	O	
+6-22	;	$.	;	_	O	O	
+6-23	aber	KON	aber	_	O	O	
+6-24	Reformen	NN	Reform	_	O	O	
+6-25	sind	VAFIN	sein	_	O	O	
+6-26	nöthig	ADJD	<unknown>	_	O	O	
+6-27	,	$,	,	_	O	O	
+6-28	um	KOUI	um	_	O	O	
+6-29	die	ART	die	_	O	O	
+6-30	Association	NN	<unknown>	_	O	O	
+6-31	zu	PTKZU	zu	_	O	O	
+6-32	heben	VVINF	heben	_	O	O	
+6-33	.	$.	.	_	O	O	
+
+#id=7
+#text=Sonst müssen wir spätestens in 5 Jahren sicher die Bottega schlieBen.
+7-1	Sonst	ADV	sonst	_	O	O	
+7-2	müssen	VMFIN	müssen	_	O	O	
+7-3	wir	PPER	wir	_	O	O	
+7-4	spätestens	ADV	spätestens	_	O	O	
+7-5	in	APPR	in	_	O	O	
+7-6	5	CARD	5	_	O	O	
+7-7	Jahren	NN	Jahr	_	O	O	
+7-8	sicher	ADJD	sicher	_	O	O	
+7-9	die	ART	die	_	O	O	
+7-10	Bottega	NN	<unknown>	_	O	O	
+7-11	schlieBen	VVINF	<unknown>	_	O	O	
+7-12	.	$.	.	_	O	O	
+
+#id=8
+#text=Braun will nicht daran seine Notice schon jetzt zu schreiben, sondern sie erst im Winter loslassen; er arbeitet stets an seinem Buche Uber Rom.
+8-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	will	VMFIN	wollen	_	O	O	
+8-3	nicht	PTKNEG	nicht	_	O	O	
+8-4	daran	PAV	daran	_	O	O	
+8-5	seine	PPOSAT	sein	_	O	O	
+8-6	Notice	NN	<unknown>	_	O	O	
+8-7	schon	ADV	schon	_	O	O	
+8-8	jetzt	ADV	jetzt	_	O	O	
+8-9	zu	PTKZU	zu	_	O	O	
+8-10	schreiben	VVINF	schreiben	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	sondern	KON	sondern	_	O	O	
+8-13	sie	PPER	sie	_	O	O	
+8-14	erst	ADV	erst	_	O	O	
+8-15	im	APPRART	in	_	O	O	
+8-16	Winter	NN	Winter	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-17	loslassen	VVFIN	loslassen	_	O	O	
+8-18	;	$.	;	_	O	O	
+8-19	er	PPER	er	_	O	O	
+8-20	arbeitet	VVFIN	arbeiten	_	O	O	
+8-21	stets	ADV	stets	_	O	O	
+8-22	an	APPR	an	_	O	O	
+8-23	seinem	PPOSAT	sein	_	O	O	
+8-24	Buche	NN	Buche	_	O	O	
+8-25	Uber	NE	<unknown>	_	O	O	
+8-26	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-27	.	$.	.	_	O	O	
+
+#id=9
+#text=Einstweilen will er nur einen Rapport mAchen.
+9-1	Einstweilen	ADV	einstweilen	_	O	O	
+9-2	will	VMFIN	wollen	_	O	O	
+9-3	er	PPER	er	_	O	O	
+9-4	nur	ADV	nur	_	O	O	
+9-5	einen	ART	eine	_	O	O	
+9-6	Rapport	NN	Rapport	_	O	O	
+9-7	mAchen	VVINF	machen	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Treiben Sie, daß wenigstens das geSChehe, was ja auch genügen wird, u. daß er rechtzeitig an Bunsen schreibe; Sie wissen, wie es uns 1848 ercangen ist.
+10-1	Treiben	VVFIN	treiben	_	O	O	
+10-2	Sie	PPER	Sie	_	O	O	
+10-3	,	$,	,	_	O	O	
+10-4	daß	KOUS	dass	_	O	O	
+10-5	wenigstens	ADV	wenigstens	_	O	O	
+10-6	das	ART	die	_	O	O	
+10-7	geSChehe	NN	<unknown>	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	was	PRELS	was	_	O	O	
+10-10	ja	ADV	ja	_	O	O	
+10-11	auch	ADV	auch	_	O	O	
+10-12	genügen	VVINF	genügen	_	O	O	
+10-13	wird	VAFIN	werden	_	O	O	
+10-14	,	$,	,	_	O	O	
+10-15	u.	APPR	um	_	O	O	
+10-16	daß	KOUS	dass	_	O	O	
+10-17	er	PPER	er	_	O	O	
+10-18	rechtzeitig	ADJD	rechtzeitig	_	O	O	
+10-19	an	APPR	an	_	O	O	
+10-20	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-21	schreibe	VVFIN	schreiben	_	O	O	
+10-22	;	$.	;	_	O	O	
+10-23	Sie	PPER	Sie	_	O	O	
+10-24	wissen	VVFIN	wissen	_	O	O	
+10-25	,	$,	,	_	O	O	
+10-26	wie	KOUS	wie	_	O	O	
+10-27	es	PPER	es	_	O	O	
+10-28	uns	PPER	wir	_	O	O	
+10-29	1848	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+10-30	ercangen	VVPP	<unknown>	_	O	O	
+10-31	ist	VAFIN	sein	_	O	O	
+10-32	.	$.	.	_	O	O	
+
+#id=11
+#text=Dann aber - warum wollen Sie denn auch dieses KaI nicht einmal für mich die Initiative ergreifen?
+11-1	Dann	ADV	dann	_	O	O	
+11-2	aber	ADV	aber	_	O	O	
+11-3	-	$(	-	_	O	O	
+11-4	warum	PWAV	warum	_	O	O	
+11-5	wollen	VMFIN	wollen	_	O	O	
+11-6	Sie	PPER	Sie	_	O	O	
+11-7	denn	ADV	denn	_	O	O	
+11-8	auch	ADV	auch	_	O	O	
+11-9	dieses	PDAT	dies	_	O	O	
+11-10	KaI	NN	Kai	_	O	O	
+11-11	nicht	PTKNEG	nicht	_	O	O	
+11-12	einmal	ADV	einmal	_	O	O	
+11-13	für	APPR	für	_	O	O	
+11-14	mich	PPER	ich	_	O	O	
+11-15	die	ART	die	_	O	O	
+11-16	Initiative	NN	Initiative	_	O	O	
+11-17	ergreifen	VVINF	ergreifen	_	O	O	
+11-18	?	$.	?	_	O	O	
+
+#id=12
+#text=Ich weiß sehr gut, daß Braun vor 3 Jahren mit Bunsen u. Jo.
+12-1	Ich	PPER	ich	_	O	O	
+12-2	weiß	VVFIN	wissen	_	O	O	
+12-3	sehr	ADV	sehr	_	O	O	
+12-4	gut	ADJD	gut	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	daß	KOUS	dass	_	O	O	
+12-7	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-8	vor	APPR	vor	_	O	O	
+12-9	3	CARD	3	_	O	O	
+12-10	Jahren	NN	Jahr	_	O	O	
+12-11	mit	APPR	mit	_	O	O	
+12-12	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-13	u.	APPR	um	_	O	O	
+12-14	Jo	NE	Jo	_	O	O	
+12-15	.	$.	.	_	O	O	
+
+#id=13
+#text=Schulze über meine damaligen ji'orderuncen hinsichtlich Brunn' s gesprochen, natürlich nicht zu meinen Gunsten.
+13-1	Schulze	NE	Schulze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	über	APPR	über	_	O	O	
+13-3	meine	PPOSAT	mein	_	O	O	
+13-4	damaligen	ADJA	damalig	_	O	O	
+13-5	ji'orderuncen	NN	<unknown>	_	O	O	
+13-6	hinsichtlich	APPR	hinsichtlich	_	O	O	
+13-7	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-8	'	$(	'	_	O	O	
+13-9	s	NN	s	_	O	O	
+13-10	gesprochen	VVPP	sprechen	_	O	O	
+13-11	,	$,	,	_	O	O	
+13-12	natürlich	ADV	natürlich	_	O	O	
+13-13	nicht	PTKNEG	nicht	_	O	O	
+13-14	zu	APPR	zu	_	O	O	
+13-15	meinen	PPOSAT	mein	_	O	O	
+13-16	Gunsten	NN	Gunst	_	O	O	
+13-17	.	$.	.	_	O	O	
+
+#id=14
+#text=I. Schulze, u., ich zweifle nicht, auch Bunsen sind sehr f~jr ihn einf';e-
+14-1	I.	NE	I.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	Schulze	NE	Schulze	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+14-3	,	$,	,	_	O	O	
+14-4	u.	KON	und	_	O	O	
+14-5	,	$,	,	_	O	O	
+14-6	ich	PPER	ich	_	O	O	
+14-7	zweifle	VVFIN	zweifeln	_	O	O	
+14-8	nicht	PTKNEG	nicht	_	O	O	
+14-9	,	$,	,	_	O	O	
+14-10	auch	ADV	auch	_	O	O	
+14-11	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-12	sind	VAFIN	sein	_	O	O	
+14-13	sehr	ADV	sehr	_	O	O	
+14-14	f~jr	NN	<unknown>	_	O	O	
+14-15	ihn	PPER	er	_	O	O	
+14-16	einf	NN	<unknown>	_	O	O	
+14-17	'	$(	'	_	O	O	
+14-18	;	$.	;	_	O	O	
+14-19	e-	TRUNC	e-	_	O	O	
+

@@ -1,0 +1,135 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=257 3 Helbig an Henzen ~ Pompei, 14. Juli 1865 derartigen Schwierigkeit beginnen muß.
+1-1	257	CARD	@card@	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	~	XY	~	_	O	O	
+1-7	Pompei	VVFIN	<unknown>	_	O	O	
+1-8	,	$,	,	_	O	O	
+1-9	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1865	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	derartigen	ADJA	derartig	_	O	O	
+1-14	Schwierigkeit	NN	Schwierigkeit	_	O	O	
+1-15	beginnen	VVINF	beginnen	_	O	O	
+1-16	muß	VMFIN	müssen	_	O	O	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text=Indeß liegt die Schuld nicht an mir.
+2-1	Indeß	NE	<unknown>	_	O	O	
+2-2	liegt	VVFIN	liegen	_	O	O	
+2-3	die	ART	die	_	O	O	
+2-4	Schuld	NN	Schuld	_	O	O	
+2-5	nicht	PTKNEG	nicht	_	O	O	
+2-6	an	APPR	an	_	O	O	
+2-7	mir	PPER	ich	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Entscheiden Sie, was Sie für sich selbst und für die Interessen des Instituts für geeigneter halten und theilen Sie mir Ihre Ansicht, bitte, möglichst bald mit, damit ich mich mit der Wahl des Logis in Neapel danach richten kann.
+3-1	Entscheiden	VVFIN	entscheiden	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	was	PRELS	was	_	O	O	
+3-5	Sie	PPER	Sie	_	O	O	
+3-6	für	APPR	für	_	O	O	
+3-7	sich	PRF	sich	_	O	O	
+3-8	selbst	ADV	selbst	_	O	O	
+3-9	und	KON	und	_	O	O	
+3-10	für	APPR	für	_	O	O	
+3-11	die	ART	die	_	O	O	
+3-12	Interessen	NN	Interesse	_	O	O	
+3-13	des	ART	die	_	O	O	
+3-14	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-15	für	APPR	für	_	O	O	
+3-16	geeigneter	ADJD	geeignet	_	O	O	
+3-17	halten	VVINF	halten	_	O	O	
+3-18	und	KON	und	_	O	O	
+3-19	theilen	VVFIN	<unknown>	_	O	O	
+3-20	Sie	PPER	Sie	_	O	O	
+3-21	mir	PRF	ich	_	O	O	
+3-22	Ihre	PPOSAT	ihr	_	O	O	
+3-23	Ansicht	NN	Ansicht	_	O	O	
+3-24	,	$,	,	_	O	O	
+3-25	bitte	ADV	bitte	_	O	O	
+3-26	,	$,	,	_	O	O	
+3-27	möglichst	ADV	möglichst	_	O	O	
+3-28	bald	ADV	bald	_	O	O	
+3-29	mit	PTKVZ	mit	_	O	O	
+3-30	,	$,	,	_	O	O	
+3-31	damit	KOUS	damit	_	O	O	
+3-32	ich	PPER	ich	_	O	O	
+3-33	mich	PRF	ich	_	O	O	
+3-34	mit	APPR	mit	_	O	O	
+3-35	der	ART	die	_	O	O	
+3-36	Wahl	NN	Wahl	_	O	O	
+3-37	des	ART	die	_	O	O	
+3-38	Logis	NE	<unknown>	_	O	O	
+3-39	in	APPR	in	_	O	O	
+3-40	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-41	danach	PAV	danach	_	O	O	
+3-42	richten	VVINF	richten	_	O	O	
+3-43	kann	VMFIN	können	_	O	O	
+3-44	.	$.	.	_	O	O	
+
+#id=4
+#text=Fiorelli grüßt Sie vielmals, ebenso Spangenberg, Lignana und CasteIlani.
+4-1	Fiorelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	grüßt	VVFIN	grüßen	_	O	O	
+4-3	Sie	PPER	Sie	_	O	O	
+4-4	vielmals	ADV	vielmals	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	ebenso	ADV	ebenso	_	O	O	
+4-7	Spangenberg	NE	Spangenberg	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-8	,	$,	,	_	O	O	
+4-9	Lignana	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-10	und	KON	und	_	O	O	
+4-11	CasteIlani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Bei letzterem schöne Sachen für das Bullettino, und einige griechische in Neapel gefundene Grabinschriften.
+5-1	Bei	APPR	bei	_	O	O	
+5-2	letzterem	ADJA	letzt	_	O	O	
+5-3	schöne	ADJA	schön	_	O	O	
+5-4	Sachen	NN	Sache	_	O	O	
+5-5	für	APPR	für	_	O	O	
+5-6	das	ART	die	_	O	O	
+5-7	Bullettino	NN	<unknown>	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	und	KON	und	_	O	O	
+5-10	einige	PIAT	einige	_	O	O	
+5-11	griechische	ADJA	griechisch	_	O	O	
+5-12	in	APPR	in	_	O	O	
+5-13	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-14	gefundene	ADJA	gefunden	_	O	O	
+5-15	Grabinschriften	NN	Grabinschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Mit der Bitte, mich der Frau Professorin zu empfehlen und die ragazzi zu grüßen Ihr Wolfgang Helbig •
+6-1	Mit	APPR	mit	_	O	O	
+6-2	der	ART	die	_	O	O	
+6-3	Bitte	NN	Bitte	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	mich	PRF	ich	_	O	O	
+6-6	der	ART	die	_	O	O	
+6-7	Frau	NN	Frau	_	O	O	
+6-8	Professorin	NN	Professorin	_	O	O	
+6-9	zu	PTKZU	zu	_	O	O	
+6-10	empfehlen	VVINF	empfehlen	_	O	O	
+6-11	und	KON	und	_	O	O	
+6-12	die	ART	die	_	O	O	
+6-13	ragazzi	NN	<unknown>	_	O	O	
+6-14	zu	PTKZU	zu	_	O	O	
+6-15	grüßen	VVINF	grüßen	_	O	O	
+6-16	Ihr	PPOSAT	ihr	_	O	O	
+6-17	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-18	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-19	•	ADJA	<unknown>	_	O	O	
+

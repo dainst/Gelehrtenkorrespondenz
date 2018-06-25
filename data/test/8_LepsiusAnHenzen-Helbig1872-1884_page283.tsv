@@ -1,0 +1,245 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text='\ ", fi trti., q r?
+1-1	'	$(	'	_	O	O	
+1-2	\	XY	\	_	O	O	
+1-3	"	$(	"	_	O	O	
+1-4	,	$,	,	_	O	O	
+1-5	fi	VVFIN	<unknown>	_	O	O	
+1-6	trti	NE	<unknown>	_	O	O	
+1-7	.	$.	.	_	O	O	
+1-8	,	$,	,	_	O	O	
+1-9	q	FM	q	_	O	O	
+1-10	r	FM	r	_	O	O	
+1-11	?	$.	?	_	O	O	
+
+#id=2
+#text=Lepsius an Henzen Berlin, 11. Juli 1876 NO.
+2-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	NO	NE	NO	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=77 g. 15/7 76 L r.
+3-1	77	CARD	@card@	_	O	O	
+3-2	g.	ADJA	<unknown>	_	O	O	
+3-3	15/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-4	76	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+3-5	L	NN	L	_	O	O	
+3-6	r.	VVFIN	<unknown>	_	O	O	
+
+#id=4
+#text=17/7 76 Berlin, den 11. Juli 1876 Professor Henzen Verehrtester Freund Die vorletzten Kreaturen waren in meinen Listen nicht als expedirt angestrichen worden; daher der Irr~_ thum.
+4-1	17/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+4-2	76	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+4-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-4	,	$,	,	_	O	O	
+4-5	den	ART	die	_	O	O	
+4-6	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-8	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-9	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-10	Professor	NN	Professor	_	O	O	
+4-11	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-12	Verehrtester	NN	<unknown>	_	O	O	
+4-13	Freund	NE	Freund	_	O	O	
+4-14	Die	ART	die	_	O	O	
+4-15	vorletzten	ADJA	vorletzt	_	O	O	
+4-16	Kreaturen	NN	Kreatur	_	O	O	
+4-17	waren	VAFIN	sein	_	O	O	
+4-18	in	APPR	in	_	O	O	
+4-19	meinen	PPOSAT	mein	_	O	O	
+4-20	Listen	NN	List|Liste	_	O	O	
+4-21	nicht	PTKNEG	nicht	_	O	O	
+4-22	als	KOKOM	als	_	O	O	
+4-23	expedirt	NN	<unknown>	_	O	O	
+4-24	angestrichen	VVPP	anstreichen	_	O	O	
+4-25	worden	VAPP	werden	_	O	O	
+4-26	;	$.	;	_	O	O	
+4-27	daher	PAV	daher	_	O	O	
+4-28	der	ART	die	_	O	O	
+4-29	Irr~_	ADJA	<unknown>	_	O	O	
+4-30	thum	NN	<unknown>	_	O	O	
+4-31	.	$.	.	_	O	O	
+
+#id=5
+#text=Außerdem ist einige Konfusion hineingekommen, weil mehrere Vorschläge doppelt eingegangen waren, was erst beim Eintragen in den Index zum Vorschein kommt.
+5-1	Außerdem	ADV	außerdem	_	O	O	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	einige	PIAT	einige	_	O	O	
+5-4	Konfusion	NN	Konfusion	_	O	O	
+5-5	hineingekommen	VVPP	hineinkommen	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	weil	KOUS	weil	_	O	O	
+5-8	mehrere	PIAT	mehrere	_	O	O	
+5-9	Vorschläge	NN	Vorschlag	_	O	O	
+5-10	doppelt	ADJD	doppelt	_	O	O	
+5-11	eingegangen	VVPP	eingehen	_	O	O	
+5-12	waren	VAFIN	sein	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	was	PRELS	was	_	O	O	
+5-15	erst	ADV	erst	_	O	O	
+5-16	beim	APPRART	bei	_	O	O	
+5-17	Eintragen	NN	Eintragen	_	O	O	
+5-18	in	APPR	in	_	O	O	
+5-19	den	ART	die	_	O	O	
+5-20	Index	NN	Index	_	O	O	
+5-21	zum	APPRART	zu	_	O	O	
+5-22	Vorschein	NN	Vorschein	_	O	O	
+5-23	kommt	VVFIN	kommen	_	O	O	
+5-24	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich hoffe nun, daß auch die Nummern der überschüssigen Diplome nicht mit Tinte geschrieben sind, sonst müßten diese radirt werden.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	hoffe	VVFIN	hoffen	_	O	O	
+6-3	nun	ADV	nun	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	daß	KOUS	dass	_	O	O	
+6-6	auch	ADV	auch	_	O	O	
+6-7	die	ART	die	_	O	O	
+6-8	Nummern	NN	Nummer	_	O	O	
+6-9	der	ART	die	_	O	O	
+6-10	überschüssigen	ADJA	überschüssig	_	O	O	
+6-11	Diplome	NN	Diplom	_	O	O	
+6-12	nicht	PTKNEG	nicht	_	O	O	
+6-13	mit	APPR	mit	_	O	O	
+6-14	Tinte	NN	Tinte	_	O	O	
+6-15	geschrieben	VVPP	schreiben	_	O	O	
+6-16	sind	VAFIN	sein	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	sonst	ADV	sonst	_	O	O	
+6-19	müßten	VMFIN	müssen	_	O	O	
+6-20	diese	PDAT	dies	_	O	O	
+6-21	radirt	NN	<unknown>	_	O	O	
+6-22	werden	VAINF	werden	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Schreiben Sie mir genau die Anzahl derselben und brauchen Sie dieselben wo möglich das nächstemal auf, damit keine weitere Verwirrung entsteht.
+7-1	Schreiben	VVFIN	schreiben	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	mir	PRF	ich	_	O	O	
+7-4	genau	ADJD	genau	_	O	O	
+7-5	die	ART	die	_	O	O	
+7-6	Anzahl	NN	Anzahl	_	O	O	
+7-7	derselben	PDAT	dieselb	_	O	O	
+7-8	und	KON	und	_	O	O	
+7-9	brauchen	VVFIN	brauchen	_	O	O	
+7-10	Sie	PPER	Sie	_	O	O	
+7-11	dieselben	PDS	dieselbe	_	O	O	
+7-12	wo	PWAV	wo	_	O	O	
+7-13	möglich	ADJD	möglich	_	O	O	
+7-14	das	PDS	die	_	O	O	
+7-15	nächstemal	ADJD	<unknown>	_	O	O	
+7-16	auf	PTKVZ	auf	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	damit	KOUS	damit	_	O	O	
+7-19	keine	PIAT	keine	_	O	O	
+7-20	weitere	ADJA	weit	_	O	O	
+7-21	Verwirrung	NN	Verwirrung	_	O	O	
+7-22	entsteht	VVFIN	entstehen	_	O	O	
+7-23	.	$.	.	_	O	O	
+
+#id=8
+#text=In kurzem wird mein Assistent im Ägyptischen Museum, Dr.
+8-1	In	APPR	in	_	O	O	
+8-2	kurzem	ADJA	kurz	_	O	O	
+8-3	wird	VAFIN	werden	_	O	O	
+8-4	mein	PPOSAT	mein	_	O	O	
+8-5	Assistent	NN	Assistent	_	O	O	
+8-6	im	APPRART	in	_	O	O	
+8-7	Ägyptischen	ADJA	ägyptisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-8	Museum	NN	Museum	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+8-9	,	$,	,	_	O	O	
+8-10	Dr.	NN	Dr.	_	O	O	
+
+#id=9
+#text=Stern, als Begleiter eines jungen Russen 601enischef, der Ägyptologie treibt und Stern zu dieser Reise auf G.'s Kosten engagiert hat, um von ihm zu lernen beim Besuch der verschiedenen ägyptischen Museen, nach Rom kommen, um die dortigen ägyptischen Monumente kennen zu lernen.
+9-1	Stern	NE	stern	_	O	O	
+9-2	,	$,	,	_	O	O	
+9-3	als	KOKOM	als	_	O	O	
+9-4	Begleiter	NN	Begleiter	_	O	O	
+9-5	eines	ART	eine	_	O	O	
+9-6	jungen	ADJA	jung	_	O	O	
+9-7	Russen	NN	Russe	_	O	O	
+9-8	601enischef	NN	<unknown>	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	der	ART	die	_	O	O	
+9-11	Ägyptologie	NN	Ägyptologie	_	O	O	
+9-12	treibt	VVFIN	treiben	_	O	O	
+9-13	und	KON	und	_	O	O	
+9-14	Stern	NN	Stern	_	O	O	
+9-15	zu	APPR	zu	_	O	O	
+9-16	dieser	PDAT	dies	_	O	O	
+9-17	Reise	NN	Reise	_	O	O	
+9-18	auf	APPR	auf	_	O	O	
+9-19	G.'s	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-20	Kosten	NN	Kosten	_	O	O	
+9-21	engagiert	VVPP	engagieren	_	O	O	
+9-22	hat	VAFIN	haben	_	O	O	
+9-23	,	$,	,	_	O	O	
+9-24	um	KOUI	um	_	O	O	
+9-25	von	APPR	von	_	O	O	
+9-26	ihm	PPER	er	_	O	O	
+9-27	zu	PTKZU	zu	_	O	O	
+9-28	lernen	VVINF	lernen	_	O	O	
+9-29	beim	APPRART	bei	_	O	O	
+9-30	Besuch	NN	Besuch	_	O	O	
+9-31	der	ART	die	_	O	O	
+9-32	verschiedenen	ADJA	verschieden	_	O	O	
+9-33	ägyptischen	ADJA	ägyptisch	_	O	O	
+9-34	Museen	NN	Museum	_	O	O	
+9-35	,	$,	,	_	O	O	
+9-36	nach	APPR	nach	_	O	O	
+9-37	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-38	kommen	VVFIN	kommen	_	O	O	
+9-39	,	$,	,	_	O	O	
+9-40	um	KOUI	um	_	O	O	
+9-41	die	ART	die	_	O	O	
+9-42	dortigen	ADJA	dortig	_	O	O	
+9-43	ägyptischen	ADJA	ägyptisch	_	O	O	
+9-44	Monumente	NN	Monument	_	O	O	
+9-45	kennen	VVINF	kennen	_	O	O	
+9-46	zu	PTKZU	zu	_	O	O	
+9-47	lernen	VVINF	lernen	_	O	O	
+9-48	.	$.	.	_	O	O	
+
+#id=10
+#text=Sie wünschen für die kurze Zeit ihres Aufenthalts möglichst vollständigen Zugang namentlich zum Museo Gregoriano zu erhalten.
+10-1	Sie	PPER	Sie	_	O	O	
+10-2	wünschen	VVFIN	wünschen	_	O	O	
+10-3	für	APPR	für	_	O	O	
+10-4	die	ART	die	_	O	O	
+10-5	kurze	ADJA	kurz	_	O	O	
+10-6	Zeit	NN	Zeit	_	O	O	
+10-7	ihres	PPOSAT	ihr	_	O	O	
+10-8	Aufenthalts	NN	Aufenthalt	_	O	O	
+10-9	möglichst	ADV	möglichst	_	O	O	
+10-10	vollständigen	ADJA	vollständig	_	O	O	
+10-11	Zugang	NN	Zugang	_	O	O	
+10-12	namentlich	ADJD	namentlich	_	O	O	
+10-13	zum	APPRART	zu	_	O	O	
+10-14	Museo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-15	Gregoriano	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+10-16	zu	PTKZU	zu	_	O	O	
+10-17	erhalten	VVINF	erhalten	_	O	O	
+10-18	.	$.	.	_	O	O	
+
+#id=11
+#text=Ich bitte Sie daher, bei-
+11-1	Ich	PPER	ich	_	O	O	
+11-2	bitte	VVFIN	bitten	_	O	O	
+11-3	Sie	PPER	Sie	_	O	O	
+11-4	daher	PAV	daher	_	O	O	
+11-5	,	$,	,	_	O	O	
+11-6	bei-	TRUNC	bei-	_	O	O	
+

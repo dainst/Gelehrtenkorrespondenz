@@ -1,0 +1,247 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=244 24/XI/54 2 Renzen an Gerhard ner Rückkehr eigentlich nur fiir ds.
+1-1	244	CARD	@card@	_	O	O	
+1-2	24/XI/54	CARD	<unknown>	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	ner	ADJA	<unknown>	_	O	O	
+1-8	Rückkehr	NN	Rückkehr	_	O	O	
+1-9	eigentlich	ADV	eigentlich	_	O	O	
+1-10	nur	ADV	nur	_	O	O	
+1-11	fiir	NE	<unknown>	_	O	O	
+1-12	ds.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=Insti tut gearbeitet, habe jetzt aber so viel zusammengeschrieben, dß ich von nächster ~oche an fast ausschließlich meine Zeit dem C.I. L. widmen kann, da ich mich für ~inckelmann's-Tag schon in Ordnune; bin.
+2-1	Insti	NE	<unknown>	_	O	O	
+2-2	tut	VVFIN	tun	_	O	O	
+2-3	gearbeitet	ADJD	gearbeitet	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	habe	VAFIN	haben	_	O	O	
+2-6	jetzt	ADV	jetzt	_	O	O	
+2-7	aber	ADV	aber	_	O	O	
+2-8	so	ADV	so	_	O	O	
+2-9	viel	ADV	viel	_	O	O	
+2-10	zusammengeschrieben	VVPP	zusammenschreiben	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	dß	VVFIN	<unknown>	_	O	O	
+2-13	ich	PPER	ich	_	O	O	
+2-14	von	APPR	von	_	O	O	
+2-15	nächster	ADJA	nah	_	O	O	
+2-16	~oche	NN	<unknown>	_	O	O	
+2-17	an	APZR	an	_	O	O	
+2-18	fast	ADV	fast	_	O	O	
+2-19	ausschließlich	ADV	ausschließlich	_	O	O	
+2-20	meine	PPOSAT	mein	_	O	O	
+2-21	Zeit	NN	Zeit	_	O	O	
+2-22	dem	ART	die	_	O	O	
+2-23	C.I.	NE	C.I.	_	O	O	
+2-24	L.	NE	L.	_	O	O	
+2-25	widmen	VVINF	widmen	_	O	O	
+2-26	kann	VMFIN	können	_	O	O	
+2-27	,	$,	,	_	O	O	
+2-28	da	KOUS	da	_	O	O	
+2-29	ich	PPER	ich	_	O	O	
+2-30	mich	PRF	ich	_	O	O	
+2-31	für	APPR	für	_	O	O	
+2-32	~inckelmann's-Tag	NN	<unknown>	_	O	O	
+2-33	schon	ADV	schon	_	O	O	
+2-34	in	APPR	in	_	O	O	
+2-35	Ordnune	NN	<unknown>	_	O	O	
+2-36	;	$.	;	_	O	O	
+2-37	bin	VAFIN	sein	_	O	O	
+2-38	.	$.	.	_	O	O	
+
+#id=3
+#text=~eine Frau befindet sich, Gottlob!
+3-1	~eine	ADJA	<unknown>	_	O	O	
+3-2	Frau	NN	Frau	_	O	O	
+3-3	befindet	VVFIN	befinden	_	O	O	
+3-4	sich	PRF	sich	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	Gottlob	NN	Gottlob	_	O	O	
+3-7	!	$.	!	_	O	O	
+
+#id=4
+#text=recht wohl, wenn auch noch kleine Schw~chen vorhanden sind.
+4-1	recht	ADJD	recht	_	O	O	
+4-2	wohl	ADV	wohl	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	wenn	KOUS	wenn	_	O	O	
+4-5	auch	ADV	auch	_	O	O	
+4-6	noch	ADV	noch	_	O	O	
+4-7	kleine	ADJA	klein	_	O	O	
+4-8	Schw~chen	NN	<unknown>	_	O	O	
+4-9	vorhanden	ADJD	vorhanden	_	O	O	
+4-10	sind	VAFIN	sein	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Herzliche Grüße.
+5-1	Herzliche	ADJA	herzlich	_	O	O	
+5-2	Grüße	NN	Gruß	_	O	O	
+5-3	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihr ~VHz • Rom 24/XI 54.
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	~VHz	NN	<unknown>	_	O	O	
+6-3	•	NN	<unknown>	_	O	O	
+6-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+6-5	24/XI	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+6-6	54	CARD	54	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=221 L. e;.
+7-1	221	CARD	@card@	_	O	O	
+7-2	L.	NE	L.	_	O	O	
+7-3	e	VVFIN	<unknown>	_	O	O	
+7-4	;	$.	;	_	O	O	
+7-5	.	$.	.	_	O	O	
+
+#id=8
+#text=?3/XI 54 M .
+8-1	?	$.	?	_	O	O	
+8-2	3/XI	NN	<unknown>	_	O	O	
+8-3	54	CARD	54	_	O	O	
+8-4	M	NN	M	_	O	O	
+8-5	.	$.	.	_	O	O	
+
+#id=9
+#text=1 n 't' onSleur e Decre alre, J'ai l'honncur de proposer ~ la Direction Hamaine de l'Institut arch~ologiQue d'admettre comme membra correspondent Mr. de Coussemaker, Jge au Trihunal civil ~ Dunkerque.
+9-1	1	CARD	1	_	O	O	
+9-2	n	ADJA	<unknown>	_	O	O	
+9-3	'	$(	'	_	O	O	
+9-4	t	NN	t	_	O	O	
+9-5	'	$(	'	_	O	O	
+9-6	onSleur	NN	<unknown>	_	O	O	
+9-7	e	ADJA	<unknown>	_	O	O	
+9-8	Decre	NN	<unknown>	_	O	O	
+9-9	alre	VVFIN	<unknown>	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	J'ai	NE	<unknown>	_	O	O	
+9-12	l'honncur	NN	<unknown>	_	O	O	
+9-13	de	NE	de	_	O	O	
+9-14	proposer	ADJA	<unknown>	_	O	O	
+9-15	~	XY	~	_	O	O	
+9-16	la	FM	la	_	O	O	
+9-17	Direction	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-18	Hamaine	NE	<unknown>	_	O	O	
+9-19	de	NE	de	_	O	O	
+9-20	l'Institut	NN	<unknown>	_	O	O	
+9-21	arch~ologiQue	NE	<unknown>	_	O	O	
+9-22	d'admettre	NE	<unknown>	_	O	O	
+9-23	comme	ADJA	<unknown>	_	O	O	
+9-24	membra	NN	<unknown>	_	O	O	
+9-25	correspondent	NN	<unknown>	_	O	O	
+9-26	Mr.	NN	Mr.	_	O	O	
+9-27	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-28	Coussemaker	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-29	,	$,	,	_	O	O	
+9-30	Jge	NN	<unknown>	_	O	O	
+9-31	au	ITJ	au	_	O	O	
+9-32	Trihunal	NN	<unknown>	_	O	O	
+9-33	civil	ADJD	<unknown>	_	O	O	
+9-34	~	XY	~	_	O	O	
+9-35	Dunkerque	NE	<unknown>	_	O	O	
+9-36	.	$.	.	_	O	O	
+
+#id=10
+#text=Ce savant gui ne s'occupe pas excllJsivement du moyan-~ge erime e cultive la sciencs arch~oloe;ique; il m~rite sous tous les rapports Que sa demande soit accuiellie comme - j'esp~re que In ~irection voudra bien le faire.
+10-1	Ce	ADJA	<unknown>	_	O	O	
+10-2	savant	ADJA	<unknown>	_	O	O	
+10-3	gui	NE	Gui	_	O	O	
+10-4	ne	ART	eine	_	O	O	
+10-5	s'occupe	NN	<unknown>	_	O	O	
+10-6	pas	NE	pas	_	O	O	
+10-7	excllJsivement	NN	<unknown>	_	O	O	
+10-8	du	PPER	du	_	O	O	
+10-9	moyan-~ge	VVFIN	<unknown>	_	O	O	
+10-10	erime	NE	<unknown>	_	O	O	
+10-11	e	ADJA	<unknown>	_	O	O	
+10-12	cultive	NN	<unknown>	_	O	O	
+10-13	la	FM	la	_	O	O	
+10-14	sciencs	NN	<unknown>	_	O	O	
+10-15	arch~oloe	NE	<unknown>	_	O	O	
+10-16	;	$.	;	_	O	O	
+10-17	ique	VVFIN	<unknown>	_	O	O	
+10-18	;	$.	;	_	O	O	
+10-19	il	NE	il	_	O	O	
+10-20	m~rite	VVFIN	<unknown>	_	O	O	
+10-21	sous	NE	<unknown>	_	O	O	
+10-22	tous	NE	<unknown>	_	O	O	
+10-23	les	ADJA	<unknown>	_	O	O	
+10-24	rapports	NN	Rapport	_	O	O	
+10-25	Que	ADJA	<unknown>	_	O	O	
+10-26	sa	ADJA	<unknown>	_	O	O	
+10-27	demande	NN	<unknown>	_	O	O	
+10-28	soit	ADJD	<unknown>	_	O	O	
+10-29	accuiellie	ADJD	<unknown>	_	O	O	
+10-30	comme	ADJA	<unknown>	_	O	O	
+10-31	-	$(	-	_	O	O	
+10-32	j'esp~re	ADJA	<unknown>	_	O	O	
+10-33	que	NN	<unknown>	_	O	O	
+10-34	In	APPR	in	_	O	O	
+10-35	~irection	NN	<unknown>	_	O	O	
+10-36	voudra	NE	<unknown>	_	O	O	
+10-37	bien	ADJA	<unknown>	_	O	O	
+10-38	le	ADJA	<unknown>	_	O	O	
+10-39	faire	ADJA	fair	_	O	O	
+10-40	.	$.	.	_	O	O	
+
+#id=11
+#text=Veuillez agr~er, Bonsieur le Secr~taire, l'assursnce de mes sentiments de consid~rBtion tr~s distingu~e.
+11-1	Veuillez	NE	<unknown>	_	O	O	
+11-2	agr~er	ADJA	<unknown>	_	O	O	
+11-3	,	$,	,	_	O	O	
+11-4	Bonsieur	NN	<unknown>	_	O	O	
+11-5	le	ADJA	<unknown>	_	O	O	
+11-6	Secr~taire	NN	<unknown>	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	l'assursnce	NN	<unknown>	_	O	O	
+11-9	de	NE	de	_	O	O	
+11-10	mes	ADJA	<unknown>	_	O	O	
+11-11	sentiments	NN	Sentiment	_	O	O	
+11-12	de	NE	de	_	O	O	
+11-13	consid~rBtion	NN	<unknown>	_	O	O	
+11-14	tr~s	VVFIN	<unknown>	_	O	O	
+11-15	distingu~e	NE	<unknown>	_	O	O	
+11-16	.	$.	.	_	O	O	
+
+#id=12
+#text=Le Pr~sident de 18 Section Franqaise Dr.
+12-1	Le	NE	Le	_	O	O	
+12-2	Pr~sident	NN	<unknown>	_	O	O	
+12-3	de	NE	de	_	O	O	
+12-4	18	CARD	18	_	O	O	
+12-5	Section	NN	<unknown>	_	O	O	
+12-6	Franqaise	NN	<unknown>	_	O	O	
+12-7	Dr.	NN	Dr.	_	O	O	
+
+#id=13
+#text=Albert oe J.../uynes Dampierre 15 ~Tovembre 1f35L~.
+13-1	Albert	NE	Albert	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	oe	NE	<unknown>	_	O	O	
+13-3	J	NN	J	_	O	O	
+13-4	...	$.	...	_	O	O	
+13-5	/uynes	ADJA	<unknown>	_	O	O	
+13-6	Dampierre	NN	<unknown>	_	O	O	
+13-7	15	CARD	15	_	O	O	
+13-8	~Tovembre	ADJA	<unknown>	_	O	O	
+13-9	1f35L~	NN	<unknown>	_	O	O	
+13-10	.	$.	.	_	O	O	
+
+#id=14
+#text=par Chevreuse, Seine & Ojss.
+14-1	par	ADJA	<unknown>	_	O	O	
+14-2	Chevreuse	NN	<unknown>	_	O	O	
+14-3	,	$,	,	_	O	O	
+14-4	Seine	NE	Seine	_	O	O	
+14-5	&	KON	&	_	O	O	
+14-6	Ojss	NE	<unknown>	_	O	O	
+14-7	.	$.	.	_	O	O	
+

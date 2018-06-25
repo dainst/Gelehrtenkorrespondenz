@@ -1,0 +1,242 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=/ 170 2 Gerhard an Braun Berlin, 1. April 1844 Daß sich mit Calandrelli nichts anfangen ließ schrieb ich Ihnen.
+1-1	/	$(	/	_	O	O	
+1-2	170	CARD	170	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Daß	KOUS	dass	_	O	O	
+1-14	sich	PRF	sich	_	O	O	
+1-15	mit	APPR	mit	_	O	O	
+1-16	Calandrelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-17	nichts	PIS	nichts	_	O	O	
+1-18	anfangen	VVINF	anfangen	_	O	O	
+1-19	ließ	VVFIN	lassen	_	O	O	
+1-20	schrieb	VVFIN	schreiben	_	O	O	
+1-21	ich	PPER	ich	_	O	O	
+1-22	Ihnen	PPER	Sie	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Falbe sagt daß in Kopenhagen 5 Exemplare Institutswerke, sämtlich incomplet, sind; Bravo habe die Verwirrung nur größer gemacht, an Fortsetzung seit 1838 denke man lieber gar nicht.
+2-1	Falbe	NN	Falbe	_	O	O	
+2-2	sagt	VVFIN	sagen	_	O	O	
+2-3	daß	KOUS	dass	_	O	O	
+2-4	in	APPR	in	_	O	O	
+2-5	Kopenhagen	NE	Kopenhagen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-6	5	CARD	5	_	O	O	
+2-7	Exemplare	NN	Exemplar	_	O	O	
+2-8	Institutswerke	NN	<unknown>	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	sämtlich	ADJD	sämtlich	_	O	O	
+2-11	incomplet	NN	<unknown>	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	sind	VAFIN	sein	_	O	O	
+2-14	;	$.	;	_	O	O	
+2-15	Bravo	NN	Bravo	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-16	habe	VAFIN	haben	_	O	O	
+2-17	die	ART	die	_	O	O	
+2-18	Verwirrung	NN	Verwirrung	_	O	O	
+2-19	nur	ADV	nur	_	O	O	
+2-20	größer	ADJD	groß	_	O	O	
+2-21	gemacht	VVPP	machen	_	O	O	
+2-22	,	$,	,	_	O	O	
+2-23	an	APPR	an	_	O	O	
+2-24	Fortsetzung	NN	Fortsetzung	_	O	O	
+2-25	seit	APPR	seit	_	O	O	
+2-26	1838	CARD	@card@	_	O	O	
+2-27	denke	VVFIN	denken	_	O	O	
+2-28	man	PIS	man	_	O	O	
+2-29	lieber	ADJD	lieb	_	O	O	
+2-30	gar	ADV	gar	_	O	O	
+2-31	nicht	PTKNEG	nicht	_	O	O	
+2-32	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich habe ihn aufgefordert seine Defekte mir nun zu liquidiren und wird es wol besser sein fernerhin dies ohne Bravo abzumachen; oder hat dieser seit 1838 die Zahlung geschafft?
+3-1	Ich	PPER	ich	_	O	O	
+3-2	habe	VAFIN	haben	_	O	O	
+3-3	ihn	PPER	er	_	O	O	
+3-4	aufgefordert	ADJD	aufgefordert	_	O	O	
+3-5	seine	PPOSAT	sein	_	O	O	
+3-6	Defekte	NN	Defekte	_	O	O	
+3-7	mir	PRF	ich	_	O	O	
+3-8	nun	ADV	nun	_	O	O	
+3-9	zu	APPR	zu	_	O	O	
+3-10	liquidiren	NN	<unknown>	_	O	O	
+3-11	und	KON	und	_	O	O	
+3-12	wird	VAFIN	werden	_	O	O	
+3-13	es	PPER	es	_	O	O	
+3-14	wol	ADJD	<unknown>	_	O	O	
+3-15	besser	ADJD	gut	_	O	O	
+3-16	sein	VAINF	sein	_	O	O	
+3-17	fernerhin	ADV	fernerhin	_	O	O	
+3-18	dies	PDS	dies	_	O	O	
+3-19	ohne	APPR	ohne	_	O	O	
+3-20	Bravo	NN	Bravo	_	O	O	
+3-21	abzumachen	VVIZU	abmachen	_	O	O	
+3-22	;	$.	;	_	O	O	
+3-23	oder	KON	oder	_	O	O	
+3-24	hat	VAFIN	haben	_	O	O	
+3-25	dieser	PDS	diese	_	O	O	
+3-26	seit	APPR	seit	_	O	O	
+3-27	1838	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-28	die	ART	die	_	O	O	
+3-29	Zahlung	NN	Zahlung	_	O	O	
+3-30	geschafft	VVPP	schaffen	_	O	O	
+3-31	?	$.	?	_	O	O	
+
+#id=4
+#text=Ist dies nicht der Fall und werden nicht Procente erspart, so ist ja Brockhaus der natürlichste Mittelsmann.
+4-1	Ist	VAFIN	sein	_	O	O	
+4-2	dies	PDS	dies	_	O	O	
+4-3	nicht	PTKNEG	nicht	_	O	O	
+4-4	der	ART	die	_	O	O	
+4-5	Fall	NN	Fall	_	O	O	
+4-6	und	KON	und	_	O	O	
+4-7	werden	VAFIN	werden	_	O	O	
+4-8	nicht	PTKNEG	nicht	_	O	O	
+4-9	Procente	NN	<unknown>	_	O	O	
+4-10	erspart	VVPP	ersparen	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	so	ADV	so	_	O	O	
+4-13	ist	VAFIN	sein	_	O	O	
+4-14	ja	ADV	ja	_	O	O	
+4-15	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-16	der	ART	die	_	O	O	
+4-17	natürlichste	ADJA	natürlich	_	O	O	
+4-18	Mittelsmann	NN	Mittelsmann	_	O	O	
+4-19	.	$.	.	_	O	O	
+
+#id=5
+#text=Jahn und Schulz sind hier und grüßen.
+5-1	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	und	KON	und	_	O	O	
+5-3	Schulz	NE	Schulz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	sind	VAFIN	sein	_	O	O	
+5-5	hier	ADV	hier	_	O	O	
+5-6	und	KON	und	_	O	O	
+5-7	grüßen	VVINF	grüßen	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Jahn bereitet ein Bändchen archäologische Abhandlung, Schulz sein Manifest, nachdem eben Baltards Werk zu seinem Schrecken erschienen ist.
+6-1	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	bereitet	VVFIN	bereiten	_	O	O	
+6-3	ein	ART	eine	_	O	O	
+6-4	Bändchen	NN	Bändchen	_	O	O	
+6-5	archäologische	ADJA	archäologisch	_	O	O	
+6-6	Abhandlung	NN	Abhandlung	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	Schulz	NE	Schulz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-9	sein	PPOSAT	sein	_	O	O	
+6-10	Manifest	NN	Manifest	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	nachdem	KOUS	nachdem	_	O	O	
+6-13	eben	ADV	eben	_	O	O	
+6-14	Baltards	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-15	Werk	NN	Werk	_	O	O	
+6-16	zu	APPR	zu	_	O	O	
+6-17	seinem	PPOSAT	sein	_	O	O	
+6-18	Schrecken	NN	Schrecken	_	O	O	
+6-19	erschienen	VVPP	erscheinen	_	O	O	
+6-20	ist	VAFIN	sein	_	O	O	
+6-21	.	$.	.	_	O	O	
+
+#id=7
+#text=Er versichertmit Ihnen in Ordnung zu sein.
+7-1	Er	PPER	er	_	O	O	
+7-2	versichertmit	VVFIN	<unknown>	_	O	O	
+7-3	Ihnen	PPER	Sie	_	O	O	
+7-4	in	APPR	in	_	O	O	
+7-5	Ordnung	NN	Ordnung	_	O	O	
+7-6	zu	PTKZU	zu	_	O	O	
+7-7	sein	VAINF	sein	_	O	O	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=Millingen hat mir kürzlich geschrieben; auf 01fers Veranlassung hatte ich sein Anerbieten eines silbernen Kandelabers mit der Aufforderung beantwortet er möge zusammenstellen und taxiren was er sonst uns anbieten und cediren möge.
+8-1	Millingen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	hat	VAFIN	haben	_	O	O	
+8-3	mir	PPER	ich	_	O	O	
+8-4	kürzlich	ADJD	kürzlich	_	O	O	
+8-5	geschrieben	VVPP	schreiben	_	O	O	
+8-6	;	$.	;	_	O	O	
+8-7	auf	APPR	auf	_	O	O	
+8-8	01fers	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-9	Veranlassung	NN	Veranlassung	_	O	O	
+8-10	hatte	VAFIN	haben	_	O	O	
+8-11	ich	PPER	ich	_	O	O	
+8-12	sein	PPOSAT	sein	_	O	O	
+8-13	Anerbieten	NN	Anerbieten	_	O	O	
+8-14	eines	ART	eine	_	O	O	
+8-15	silbernen	ADJA	silbern	_	O	O	
+8-16	Kandelabers	NN	<unknown>	_	O	O	
+8-17	mit	APPR	mit	_	O	O	
+8-18	der	ART	die	_	O	O	
+8-19	Aufforderung	NN	Aufforderung	_	O	O	
+8-20	beantwortet	VVFIN	beantworten	_	O	O	
+8-21	er	PPER	er	_	O	O	
+8-22	möge	VMFIN	mögen	_	O	O	
+8-23	zusammenstellen	VVINF	zusammenstellen	_	O	O	
+8-24	und	KON	und	_	O	O	
+8-25	taxiren	ADJA	<unknown>	_	O	O	
+8-26	was	PRELS	was	_	O	O	
+8-27	er	PPER	er	_	O	O	
+8-28	sonst	ADV	sonst	_	O	O	
+8-29	uns	PPER	wir	_	O	O	
+8-30	anbieten	VVINF	anbieten	_	O	O	
+8-31	und	KON	und	_	O	O	
+8-32	cediren	NN	<unknown>	_	O	O	
+8-33	möge	VMFIN	mögen	_	O	O	
+8-34	.	$.	.	_	O	O	
+
+#id=9
+#text=Er antwortet, Sie möchten Auswahl und Taxe über Sich nehmen, wenn Sie einmal nach Florenz kämen.
+9-1	Er	PPER	er	_	O	O	
+9-2	antwortet	VVFIN	antworten	_	O	O	
+9-3	,	$,	,	_	O	O	
+9-4	Sie	PPER	Sie	_	O	O	
+9-5	möchten	VMFIN	mögen	_	O	O	
+9-6	Auswahl	NN	Auswahl	_	O	O	
+9-7	und	KON	und	_	O	O	
+9-8	Taxe	NN	Taxe	_	O	O	
+9-9	über	APPR	über	_	O	O	
+9-10	Sich	PRF	sich	_	O	O	
+9-11	nehmen	VVINF	nehmen	_	O	O	
+9-12	,	$,	,	_	O	O	
+9-13	wenn	KOUS	wenn	_	O	O	
+9-14	Sie	PPER	Sie	_	O	O	
+9-15	einmal	ADV	einmal	_	O	O	
+9-16	nach	APPR	nach	_	O	O	
+9-17	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-18	kämen	VVFIN	kommen	_	O	O	
+9-19	.	$.	.	_	O	O	
+
+#id=10
+#text=Des Straßburger Schweigkürcher's am 14 März d. J. erfolgter Tod wird dem Institut von dessen Familie
+10-1	Des	ART	die	_	O	O	
+10-2	Straßburger	NN	Straßburger	_	O	O	
+10-3	Schweigkürcher's	VVFIN	<unknown>	_	O	O	
+10-4	am	APPRART	an	_	O	O	
+10-5	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+10-6	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+10-7	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+10-8	J.	NE	J.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+10-9	erfolgter	ADJA	erfolgt	_	O	O	
+10-10	Tod	NN	Tod	_	O	O	
+10-11	wird	VAFIN	werden	_	O	O	
+10-12	dem	ART	die	_	O	O	
+10-13	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-14	von	APPR	von	_	O	O	
+10-15	dessen	PDAT	die	_	O	O	
+10-16	Familie	NN	Familie	_	O	O	
+

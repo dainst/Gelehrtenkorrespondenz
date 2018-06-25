@@ -1,0 +1,203 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Lieber Freund.
+1-1	Lieber	ADJD	lieb	_	O	O	
+1-2	Freund	NE	Freund	_	O	O	
+1-3	.	$.	.	_	O	O	
+
+#id=2
+#text=Gerhard an Braun Berlin, 15. November 1848 g. 27/XI 48 r.. 8/XII 48 Berlin 15 Nov 48 Sie werden gern vernehmen daß es in unserm sogenanrlten Belagerungszustand besser als vorher geht: aller Verkehr außer Clubbs und Plakate wie sonst und heute läuft auch die Ablieferung der Waffen Seitens der Bürgerwehr ruhig ab.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1848	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	g.	ADJA	<unknown>	_	O	O	
+2-11	27/XI	NN	<unknown>	_	O	O	
+2-12	48	CARD	48	_	O	O	
+2-13	r.	VVFIN	<unknown>	_	O	O	
+2-14	.	$.	.	_	O	O	
+2-15	8/XII	CARD	<unknown>	_	O	O	
+2-16	48	CARD	48	_	O	O	
+2-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-18	15	CARD	15	_	O	O	
+2-19	Nov	NE	<unknown>	_	O	O	
+2-20	48	CARD	48	_	O	O	
+2-21	Sie	PPER	Sie	_	O	O	
+2-22	werden	VAFIN	werden	_	O	O	
+2-23	gern	ADV	gern	_	O	O	
+2-24	vernehmen	VVFIN	vernehmen	_	O	O	
+2-25	daß	KOUS	dass	_	O	O	
+2-26	es	PPER	es	_	O	O	
+2-27	in	APPR	in	_	O	O	
+2-28	unserm	PPOSAT	unser	_	O	O	
+2-29	sogenanrlten	ADJA	<unknown>	_	O	O	
+2-30	Belagerungszustand	NN	Belagerungszustand	_	O	O	
+2-31	besser	ADJD	gut	_	O	O	
+2-32	als	KOKOM	als	_	O	O	
+2-33	vorher	ADV	vorher	_	O	O	
+2-34	geht	VVFIN	gehen	_	O	O	
+2-35	:	$.	:	_	O	O	
+2-36	aller	PIAT	alle	_	O	O	
+2-37	Verkehr	NN	Verkehr	_	O	O	
+2-38	außer	APPR	außer	_	O	O	
+2-39	Clubbs	NN	<unknown>	_	O	O	
+2-40	und	KON	und	_	O	O	
+2-41	Plakate	NN	Plakat	_	O	O	
+2-42	wie	KOKOM	wie	_	O	O	
+2-43	sonst	ADV	sonst	_	O	O	
+2-44	und	KON	und	_	O	O	
+2-45	heute	ADV	heute	_	O	O	
+2-46	läuft	VVFIN	laufen	_	O	O	
+2-47	auch	ADV	auch	_	O	O	
+2-48	die	ART	die	_	O	O	
+2-49	Ablieferung	NN	Ablieferung	_	O	O	
+2-50	der	ART	die	_	O	O	
+2-51	Waffen	NN	Waffe	_	O	O	
+2-52	Seitens	NN	<unknown>	_	O	O	
+2-53	der	ART	die	_	O	O	
+2-54	Bürgerwehr	NN	Bürgerwehr	_	O	O	
+2-55	ruhig	ADJD	ruhig	_	O	O	
+2-56	ab	PTKVZ	ab	_	O	O	
+2-57	.	$.	.	_	O	O	
+
+#id=3
+#text=Wie der große Bruch zwischen König und Volksvertretern gelöst werden soll bleibt eine hoffentlich unblutig abzuwickelnde Frage.
+3-1	Wie	KOUS	wie	_	O	O	
+3-2	der	ART	die	_	O	O	
+3-3	große	ADJA	groß	_	O	O	
+3-4	Bruch	NN	Bruch	_	O	O	
+3-5	zwischen	APPR	zwischen	_	O	O	
+3-6	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-7	und	KON	und	_	O	O	
+3-8	Volksvertretern	NN	Volksvertreter	_	O	O	
+3-9	gelöst	VVPP	lösen	_	O	O	
+3-10	werden	VAINF	werden	_	O	O	
+3-11	soll	VMFIN	sollen	_	O	O	
+3-12	bleibt	VVFIN	bleiben	_	O	O	
+3-13	eine	PIS	eine	_	O	O	
+3-14	hoffentlich	ADV	hoffentlich	_	O	O	
+3-15	unblutig	ADJD	unblutig	_	O	O	
+3-16	abzuwickelnde	ADJA	abzuwickelnd	_	O	O	
+3-17	Frage	NN	Frage	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Für Zeichnung und Belehrung hinsichtlich der Kapitolinischen Herme besten Dank.
+4-1	Für	APPR	für	_	O	O	
+4-2	Zeichnung	NN	Zeichnung	_	O	O	
+4-3	und	KON	und	_	O	O	
+4-4	Belehrung	NN	Belehrung	_	O	O	
+4-5	hinsichtlich	APPR	hinsichtlich	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	Kapitolinischen	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-8	Herme	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-9	besten	ADJA	gut	_	O	O	
+4-10	Dank	NN	Dank	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich erhalte recht gern seiner Zeit eine Zeichnung derselben in genügender Größe; den neulichen kleinen Maßstab hatte ich nur für Kopf und Bruststück verstanden wie bei Arditi.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	erhalte	VVFIN	erhalten	_	O	O	
+5-3	recht	ADJD	recht	_	O	O	
+5-4	gern	ADV	gern	_	O	O	
+5-5	seiner	PPOSAT	sein	_	O	O	
+5-6	Zeit	NN	Zeit	_	O	O	
+5-7	eine	ART	eine	_	O	O	
+5-8	Zeichnung	NN	Zeichnung	_	O	O	
+5-9	derselben	PDAT	dieselb	_	O	O	
+5-10	in	APPR	in	_	O	O	
+5-11	genügender	ADJA	genügender	_	O	O	
+5-12	Größe	NN	Größe	_	O	O	
+5-13	;	$.	;	_	O	O	
+5-14	den	ART	die	_	O	O	
+5-15	neulichen	ADJA	<unknown>	_	O	O	
+5-16	kleinen	ADJA	klein	_	O	O	
+5-17	Maßstab	NN	Maßstab	_	O	O	
+5-18	hatte	VAFIN	haben	_	O	O	
+5-19	ich	PPER	ich	_	O	O	
+5-20	nur	ADV	nur	_	O	O	
+5-21	für	APPR	für	_	O	O	
+5-22	Kopf	NN	Kopf	_	O	O	
+5-23	und	KON	und	_	O	O	
+5-24	Bruststück	NN	<unknown>	_	O	O	
+5-25	verstanden	VVPP	verstehen	_	O	O	
+5-26	wie	KOKOM	wie	_	O	O	
+5-27	bei	APPR	bei	_	O	O	
+5-28	Arditi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-29	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich lasse das Monument nun weg.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	lasse	VVFIN	lassen	_	O	O	
+6-3	das	ART	die	_	O	O	
+6-4	Monument	NN	Monument	_	O	O	
+6-5	nun	ADV	nun	_	O	O	
+6-6	weg.	ADJA	<unknown>	_	O	O	
+
+#id=7
+#text=Olfers hat endlich etwa die Hälfte meiner Antiken übernommen, der seit 1846 ihm vorliegenden; die gute Lehre mich nicht in neue dergleichen Verlegenheit zu stecken habe ich weg, obwohl ich kleine Ankäufe von eminenter Wichtigkeit auf meine Schultern zu nehmen auch jetzt noch nicht anstehen würde.
+7-1	Olfers	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	hat	VAFIN	haben	_	O	O	
+7-3	endlich	ADV	endlich	_	O	O	
+7-4	etwa	ADV	etwa	_	O	O	
+7-5	die	ART	die	_	O	O	
+7-6	Hälfte	NN	Hälfte	_	O	O	
+7-7	meiner	PPOSAT	mein	_	O	O	
+7-8	Antiken	NN	Antike	_	O	O	
+7-9	übernommen	VVPP	übernehmen	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	der	PRELS	die	_	O	O	
+7-12	seit	APPR	seit	_	O	O	
+7-13	1846	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-14	ihm	PPER	er	_	O	O	
+7-15	vorliegenden	ADJA	vorliegend	_	O	O	
+7-16	;	$.	;	_	O	O	
+7-17	die	ART	die	_	O	O	
+7-18	gute	ADJA	gut	_	O	O	
+7-19	Lehre	NN	Lehre	_	O	O	
+7-20	mich	PRF	ich	_	O	O	
+7-21	nicht	PTKNEG	nicht	_	O	O	
+7-22	in	APPR	in	_	O	O	
+7-23	neue	ADJA	neu	_	O	O	
+7-24	dergleichen	PIS	dergleichen	_	O	O	
+7-25	Verlegenheit	NN	Verlegenheit	_	O	O	
+7-26	zu	PTKZU	zu	_	O	O	
+7-27	stecken	VVINF	stecken	_	O	O	
+7-28	habe	VAFIN	haben	_	O	O	
+7-29	ich	PPER	ich	_	O	O	
+7-30	weg	ADV	weg	_	O	O	
+7-31	,	$,	,	_	O	O	
+7-32	obwohl	KOUS	obwohl	_	O	O	
+7-33	ich	PPER	ich	_	O	O	
+7-34	kleine	ADJA	klein	_	O	O	
+7-35	Ankäufe	NN	Ankauf	_	O	O	
+7-36	von	APPR	von	_	O	O	
+7-37	eminenter	ADJA	eminent	_	O	O	
+7-38	Wichtigkeit	NN	Wichtigkeit	_	O	O	
+7-39	auf	APPR	auf	_	O	O	
+7-40	meine	PPOSAT	mein	_	O	O	
+7-41	Schultern	NN	Schulter|Schultern	_	O	O	
+7-42	zu	PTKZU	zu	_	O	O	
+7-43	nehmen	VVINF	nehmen	_	O	O	
+7-44	auch	ADV	auch	_	O	O	
+7-45	jetzt	ADV	jetzt	_	O	O	
+7-46	noch	ADV	noch	_	O	O	
+7-47	nicht	PTKNEG	nicht	_	O	O	
+7-48	anstehen	VVINF	anstehen	_	O	O	
+7-49	würde	VAFIN	werden	_	O	O	
+7-50	.	$.	.	_	O	O	
+
+#id=8
+#text=Nun denke ich aber
+8-1	Nun	ADV	nun	_	O	O	
+8-2	denke	VVFIN	denken	_	O	O	
+8-3	ich	PPER	ich	_	O	O	
+8-4	aber	ADV	aber	_	O	O	
+

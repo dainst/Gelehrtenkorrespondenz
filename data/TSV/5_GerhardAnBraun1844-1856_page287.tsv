@@ -1,0 +1,221 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=83 2 Gerhard an Braun Berlin, 24. März 1849 als Schärfen gegen mich genommen worden, non fa niente 1 - - - - - - - Baiern ?
+1-1	83	CARD	83	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1849	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	als	KOKOM	als	_	O	O	
+1-13	Schärfen	NN	Schärfe|Schärfen	_	O	O	
+1-14	gegen	APPR	gegen	_	O	O	
+1-15	mich	PRF	ich	_	O	O	
+1-16	genommen	VVPP	nehmen	_	O	O	
+1-17	worden	VAPP	werden	_	O	O	
+1-18	,	$,	,	_	O	O	
+1-19	non	FM	non	_	O	O	
+1-20	fa	FM	fa	_	O	O	
+1-21	niente	ADJA	<unknown>	_	O	O	
+1-22	1	CARD	1	_	O	O	
+1-23	-	$(	-	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-24	-	$(	-	_	I-webanno.custom.LetterEntity_	I-OBJ	
+1-25	-	$(	-	_	I-webanno.custom.LetterEntity_	I-OBJ	
+1-26	-	$(	-	_	I-webanno.custom.LetterEntity_	I-OBJ	
+1-27	-	$(	-	_	I-webanno.custom.LetterEntity_	I-OBJ	
+1-28	-	$(	-	_	I-webanno.custom.LetterEntity_	I-OBJ	
+1-29	-	$(	-	_	I-webanno.custom.LetterEntity_	I-OBJ	
+1-30	Baiern	NN	Baier	_	I-webanno.custom.LetterEntity_	I-OBJ	
+1-31	?	$.	?	_	O	O	
+
+#id=2
+#text=daß Gott erbarm !
+2-1	daß	KOUS	dass	_	O	O	
+2-2	Gott	NN	Gott	_	O	O	
+2-3	erbarm	VVIMP	erbarmen	_	O	O	
+2-4	!	$.	!	_	O	O	
+
+#id=3
+#text=Über die Rechnungen hatte ich nur so viel verlangt um gegen Bunsen das Institut vertreten zu können.
+3-1	Über	APPR	über	_	O	O	
+3-2	die	ART	die	_	O	O	
+3-3	Rechnungen	NN	Rechnung	_	O	O	
+3-4	hatte	VAFIN	haben	_	O	O	
+3-5	ich	PPER	ich	_	O	O	
+3-6	nur	ADV	nur	_	O	O	
+3-7	so	ADV	so	_	O	O	
+3-8	viel	ADV	viel	_	O	O	
+3-9	verlangt	VVPP	verlangen	_	O	O	
+3-10	um	APPR	um	_	O	O	
+3-11	gegen	APPR	gegen	_	O	O	
+3-12	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-13	das	ART	die	_	O	O	
+3-14	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-15	vertreten	VVINF	vertreten	_	O	O	
+3-16	zu	PTKZU	zu	_	O	O	
+3-17	können	VMINF	können	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Des guten Kassenstands kann Niemand sich mehr freuen als ich; er liegt aber seit Jahren außer meiner Kenntnis.
+4-1	Des	ART	die	_	O	O	
+4-2	guten	ADJA	gut	_	O	O	
+4-3	Kassenstands	NN	<unknown>	_	O	O	
+4-4	kann	VMFIN	können	_	O	O	
+4-5	Niemand	PIS	niemand	_	O	O	
+4-6	sich	PRF	sich	_	O	O	
+4-7	mehr	ADV	mehr	_	O	O	
+4-8	freuen	VVINF	freuen	_	O	O	
+4-9	als	KOKOM	als	_	O	O	
+4-10	ich	PPER	ich	_	O	O	
+4-11	;	$.	;	_	O	O	
+4-12	er	PPER	er	_	O	O	
+4-13	liegt	VVFIN	liegen	_	O	O	
+4-14	aber	ADV	aber	_	O	O	
+4-15	seit	APPR	seit	_	O	O	
+4-16	Jahren	NN	Jahr	_	O	O	
+4-17	außer	APPR	außer	_	O	O	
+4-18	meiner	PPOSAT	mein	_	O	O	
+4-19	Kenntnis	NN	Kenntnis	_	O	O	
+4-20	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Apoth(eose) Homers Platten werde an Wigand senden.
+5-1	Die	ART	die	_	O	O	
+5-2	Apoth(eose)	NN	<unknown>	_	O	O	
+5-3	Homers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	Platten	NN	Platte	_	O	O	
+5-5	werde	VAFIN	werden	_	O	O	
+5-6	an	APPR	an	_	O	O	
+5-7	Wigand	NE	Wigand	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-8	senden	VVINF	senden	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihr Plan nach England zu gehen hört sich gut an und wünsche ich von Herzen daß Sie Ihrer römischen Interessen unbeschadet sich flott machen können.
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	Plan	NN	Plan	_	O	O	
+6-3	nach	APPR	nach	_	O	O	
+6-4	England	NE	England	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-5	zu	PTKZU	zu	_	O	O	
+6-6	gehen	VVINF	gehen	_	O	O	
+6-7	hört	VVFIN	hören	_	O	O	
+6-8	sich	PRF	sich	_	O	O	
+6-9	gut	ADJD	gut	_	O	O	
+6-10	an	PTKVZ	an	_	O	O	
+6-11	und	KON	und	_	O	O	
+6-12	wünsche	VVFIN	wünschen	_	O	O	
+6-13	ich	PPER	ich	_	O	O	
+6-14	von	APPR	von	_	O	O	
+6-15	Herzen	NN	Herz	_	O	O	
+6-16	daß	KOUS	dass	_	O	O	
+6-17	Sie	PPER	Sie	_	O	O	
+6-18	Ihrer	PPOSAT	ihr	_	O	O	
+6-19	römischen	ADJA	römisch	_	O	O	
+6-20	Interessen	NN	Interesse	_	O	O	
+6-21	unbeschadet	APPR	unbeschadet	_	O	O	
+6-22	sich	PRF	sich	_	O	O	
+6-23	flott	ADJD	flott	_	O	O	
+6-24	machen	VVINF	machen	_	O	O	
+6-25	können	VMINF	können	_	O	O	
+6-26	.	$.	.	_	O	O	
+
+#id=7
+#text=Haben Sie bittre Erfahrungen gemacht an Freunden die Ihrer sich schämen, so lassen Sie nach wie vor Sich es einigermaßen gefallen in meinem deutschen Bekanntenund Wirkungskreis allezeit einen dankbaren Herold Ihres Verdienstes und Beistandes gehabt zu haben - , dafür bin ich noch immer nicht abgenutzt; bin mir auch daneben bewußt Haltung und Gesinnung gegen Sie nie verändert zu haben.
+7-1	Haben	VAFIN	haben	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	bittre	ADJA	bitter	_	O	O	
+7-4	Erfahrungen	NN	Erfahrung	_	O	O	
+7-5	gemacht	VVPP	machen	_	O	O	
+7-6	an	APPR	an	_	O	O	
+7-7	Freunden	NN	Freund	_	O	O	
+7-8	die	PRELS	die	_	O	O	
+7-9	Ihrer	PPER	sie	_	O	O	
+7-10	sich	PRF	sich	_	O	O	
+7-11	schämen	VVINF	schämen	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	so	ADV	so	_	O	O	
+7-14	lassen	VVFIN	lassen	_	O	O	
+7-15	Sie	PPER	Sie	_	O	O	
+7-16	nach	PTKVZ	nach	_	O	O	
+7-17	wie	KOKOM	wie	_	O	O	
+7-18	vor	APPR	vor	_	O	O	
+7-19	Sich	PRF	sich	_	O	O	
+7-20	es	PPER	es	_	O	O	
+7-21	einigermaßen	ADV	einigermaßen	_	O	O	
+7-22	gefallen	VVPP	fallen|gefallen	_	O	O	
+7-23	in	APPR	in	_	O	O	
+7-24	meinem	PPOSAT	mein	_	O	O	
+7-25	deutschen	ADJA	deutsch	_	O	O	
+7-26	Bekanntenund	NN	<unknown>	_	O	O	
+7-27	Wirkungskreis	NN	Wirkungskreis	_	O	O	
+7-28	allezeit	ADV	allezeit	_	O	O	
+7-29	einen	ART	eine	_	O	O	
+7-30	dankbaren	ADJA	dankbar	_	O	O	
+7-31	Herold	NN	Herold	_	O	O	
+7-32	Ihres	PPOSAT	ihr	_	O	O	
+7-33	Verdienstes	NN	Verdienst	_	O	O	
+7-34	und	KON	und	_	O	O	
+7-35	Beistandes	NN	Beistand	_	O	O	
+7-36	gehabt	VAPP	haben	_	O	O	
+7-37	zu	PTKZU	zu	_	O	O	
+7-38	haben	VAINF	haben	_	O	O	
+7-39	-	$(	-	_	O	O	
+7-40	,	$,	,	_	O	O	
+7-41	dafür	PAV	dafür	_	O	O	
+7-42	bin	VAFIN	sein	_	O	O	
+7-43	ich	PPER	ich	_	O	O	
+7-44	noch	ADV	noch	_	O	O	
+7-45	immer	ADV	immer	_	O	O	
+7-46	nicht	PTKNEG	nicht	_	O	O	
+7-47	abgenutzt	VVPP	abnutzen	_	O	O	
+7-48	;	$.	;	_	O	O	
+7-49	bin	VAFIN	sein	_	O	O	
+7-50	mir	PPER	ich	_	O	O	
+7-51	auch	ADV	auch	_	O	O	
+7-52	daneben	PAV	daneben	_	O	O	
+7-53	bewußt	ADJD	bewusst	_	O	O	
+7-54	Haltung	NN	Haltung	_	O	O	
+7-55	und	KON	und	_	O	O	
+7-56	Gesinnung	NN	Gesinnung	_	O	O	
+7-57	gegen	APPR	gegen	_	O	O	
+7-58	Sie	PPER	Sie	_	O	O	
+7-59	nie	ADV	nie	_	O	O	
+7-60	verändert	VVPP	verändern	_	O	O	
+7-61	zu	PTKZU	zu	_	O	O	
+7-62	haben	VAINF	haben	_	O	O	
+7-63	.	$.	.	_	O	O	
+
+#id=8
+#text=Der Ihrige Gerhard Gargallo hat neuerdings hieher geschrieben<,die Aufnahme gewisser Aufsätze beim Institut zu befürworten, bei dem er sich durch Mommsen verschwäzt glaubt.
+8-1	Der	ART	die	_	O	O	
+8-2	Ihrige	PPOSAT	ihrige	_	O	O	
+8-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-4	Gargallo	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-5	hat	VAFIN	haben	_	O	O	
+8-6	neuerdings	ADV	neuerdings	_	O	O	
+8-7	hieher	NN	<unknown>	_	O	O	
+8-8	geschrieben<,die	NE	<unknown>	_	O	O	
+8-9	Aufnahme	NN	Aufnahme	_	O	O	
+8-10	gewisser	ADJA	gewiss	_	O	O	
+8-11	Aufsätze	NN	Aufsatz	_	O	O	
+8-12	beim	APPRART	bei	_	O	O	
+8-13	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-14	zu	PTKZU	zu	_	O	O	
+8-15	befürworten	VVINF	befürworten	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	bei	APPR	bei	_	O	O	
+8-18	dem	PRELS	die	_	O	O	
+8-19	er	PPER	er	_	O	O	
+8-20	sich	PRF	sich	_	O	O	
+8-21	durch	APPR	durch	_	O	O	
+8-22	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-23	verschwäzt	ADJD	<unknown>	_	O	O	
+8-24	glaubt	VVFIN	glauben	_	O	O	
+8-25	.	$.	.	_	O	O	
+

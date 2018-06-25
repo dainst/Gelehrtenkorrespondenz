@@ -1,0 +1,235 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Verehrter Freund Richard Lepsius an Wolfgang Helbig Berlin, 2. April 1874 B. d. 2. April 1874 Gewiß ist es sehr wichtig diesen Caeretaner Dingen und Allem was auf die orientalischen Verbindungen hinweist, nachzugehen und ich freue mich, daß Sie es thun.
+1-1	Verehrter	ADJA	verehrt	_	O	O	
+1-2	Freund	NN	Freund	_	O	O	
+1-3	Richard	NE	Richard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Helbig	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	B.	NN	B.	_	O	O	
+1-15	d.	ART	d.	_	O	O	
+1-16	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	Gewiß	ADJD	gewiss	_	O	O	
+1-21	ist	VAFIN	sein	_	O	O	
+1-22	es	PPER	es	_	O	O	
+1-23	sehr	ADV	sehr	_	O	O	
+1-24	wichtig	ADJD	wichtig	_	O	O	
+1-25	diesen	PDAT	dies	_	O	O	
+1-26	Caeretaner	ADJA	<unknown>	_	O	O	
+1-27	Dingen	NN	Ding	_	O	O	
+1-28	und	KON	und	_	O	O	
+1-29	Allem	NN	<unknown>	_	O	O	
+1-30	was	PIS	was	_	O	O	
+1-31	auf	APPR	auf	_	O	O	
+1-32	die	ART	die	_	O	O	
+1-33	orientalischen	ADJA	orientalisch	_	O	O	
+1-34	Verbindungen	NN	Verbindung	_	O	O	
+1-35	hinweist	VVFIN	hinweisen	_	O	O	
+1-36	,	$,	,	_	O	O	
+1-37	nachzugehen	VVIZU	nachgehen	_	O	O	
+1-38	und	KON	und	_	O	O	
+1-39	ich	PPER	ich	_	O	O	
+1-40	freue	VVFIN	freuen	_	O	O	
+1-41	mich	PRF	ich	_	O	O	
+1-42	,	$,	,	_	O	O	
+1-43	daß	KOUS	dass	_	O	O	
+1-44	Sie	PPER	Sie	_	O	O	
+1-45	es	PPER	es	_	O	O	
+1-46	thun	NN	<unknown>	_	O	O	
+1-47	.	$.	.	_	O	O	
+
+#id=2
+#text=Die Sache mit Thaccos will ich in der nächsten Sitzung der Cantral Direction vorbringen.
+2-1	Die	ART	die	_	O	O	
+2-2	Sache	NN	Sache	_	O	O	
+2-3	mit	APPR	mit	_	O	O	
+2-4	Thaccos	NE	<unknown>	_	O	O	
+2-5	will	VMFIN	wollen	_	O	O	
+2-6	ich	PPER	ich	_	O	O	
+2-7	in	APPR	in	_	O	O	
+2-8	der	ART	die	_	O	O	
+2-9	nächsten	ADJA	nah	_	O	O	
+2-10	Sitzung	NN	Sitzung	_	O	O	
+2-11	der	ART	die	_	O	O	
+2-12	Cantral	NN	<unknown>	_	O	O	
+2-13	Direction	NN	<unknown>	_	O	O	
+2-14	vorbringen	VVINF	vorbringen	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Freilich aber sind Ausgrabungen immer eine sehr bedenkliche selten lehrende Sache.
+3-1	Freilich	ADV	freilich	_	O	O	
+3-2	aber	ADV	aber	_	O	O	
+3-3	sind	VAFIN	sein	_	O	O	
+3-4	Ausgrabungen	NN	Ausgrabung	_	O	O	
+3-5	immer	ADV	immer	_	O	O	
+3-6	eine	ART	eine	_	O	O	
+3-7	sehr	ADV	sehr	_	O	O	
+3-8	bedenkliche	ADJA	bedenklich	_	O	O	
+3-9	selten	ADJD	selten	_	O	O	
+3-10	lehrende	ADJA	lehrend	_	O	O	
+3-11	Sache	NN	Sache	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Doch würde eine Reise dahin vielleicht anknüpfungen mit dortigen Ausgräbern und findern ergeben, die gutes sähen könnten.
+4-1	Doch	ADV	doch	_	O	O	
+4-2	würde	VAFIN	werden	_	O	O	
+4-3	eine	ART	eine	_	O	O	
+4-4	Reise	NN	Reise	_	O	O	
+4-5	dahin	PAV	dahin	_	O	O	
+4-6	vielleicht	ADV	vielleicht	_	O	O	
+4-7	anknüpfungen	NN	Anknüpfung	_	O	O	
+4-8	mit	APPR	mit	_	O	O	
+4-9	dortigen	ADJA	dortig	_	O	O	
+4-10	Ausgräbern	NN	Ausgräber	_	O	O	
+4-11	und	KON	und	_	O	O	
+4-12	findern	NN	Finder	_	O	O	
+4-13	ergeben	VVPP	ergeben	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	die	ART	die	_	O	O	
+4-16	gutes	ADJA	gut	_	O	O	
+4-17	sähen	VVFIN	sehen	_	O	O	
+4-18	könnten	VMFIN	können	_	O	O	
+4-19	.	$.	.	_	O	O	
+
+#id=5
+#text=Ausgrabunden würden doch auch bei den Regierungen Schwierigkeiten aller Art finden, und daher kostspielig sein.
+5-1	Ausgrabunden	NN	<unknown>	_	O	O	
+5-2	würden	VAFIN	werden	_	O	O	
+5-3	doch	ADV	doch	_	O	O	
+5-4	auch	ADV	auch	_	O	O	
+5-5	bei	APPR	bei	_	O	O	
+5-6	den	ART	die	_	O	O	
+5-7	Regierungen	NN	Regierung	_	O	O	
+5-8	Schwierigkeiten	NN	Schwierigkeit	_	O	O	
+5-9	aller	PIAT	alle	_	O	O	
+5-10	Art	NN	Art	_	O	O	
+5-11	finden	VVINF	finden	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	und	KON	und	_	O	O	
+5-14	daher	PAV	daher	_	O	O	
+5-15	kostspielig	ADJD	kostspielig	_	O	O	
+5-16	sein	VAINF	sein	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich glaube also nicht daß man auf derlei Eis einginge.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	glaube	VVFIN	glauben	_	O	O	
+6-3	also	ADV	also	_	O	O	
+6-4	nicht	PTKNEG	nicht	_	O	O	
+6-5	daß	KOUS	dass	_	O	O	
+6-6	man	PIS	man	_	O	O	
+6-7	auf	APPR	auf	_	O	O	
+6-8	derlei	PIAT	derlei	_	O	O	
+6-9	Eis	NN	Eis	_	O	O	
+6-10	einginge	VVFIN	eingehen	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Aber eine Reise würde sich wohl lohnen mit einem Zeichner.
+7-1	Aber	KON	aber	_	O	O	
+7-2	eine	ART	eine	_	O	O	
+7-3	Reise	NN	Reise	_	O	O	
+7-4	würde	VAFIN	werden	_	O	O	
+7-5	sich	PRF	sich	_	O	O	
+7-6	wohl	ADV	wohl	_	O	O	
+7-7	lohnen	VVFIN	lohnen	_	O	O	
+7-8	mit	APPR	mit	_	O	O	
+7-9	einem	ART	eine	_	O	O	
+7-10	Zeichner	NN	Zeichner	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Doch ich sehe eben, daß ich ein Wort Ihrer - verzeihen Sie oft schwer leserlichen Schrift falsch gelesen habe, und Sie selbst nicht an eignen Ausgrabungen denken.
+8-1	Doch	KON	doch	_	O	O	
+8-2	ich	PPER	ich	_	O	O	
+8-3	sehe	VVFIN	sehen	_	O	O	
+8-4	eben	ADV	eben	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	daß	KOUS	dass	_	O	O	
+8-7	ich	PPER	ich	_	O	O	
+8-8	ein	ART	eine	_	O	O	
+8-9	Wort	NN	Wort	_	O	O	
+8-10	Ihrer	PPOSAT	ihr	_	O	O	
+8-11	-	$(	-	_	O	O	
+8-12	verzeihen	VVFIN	verzeihen	_	O	O	
+8-13	Sie	PPER	Sie	_	O	O	
+8-14	oft	ADV	oft	_	O	O	
+8-15	schwer	ADJD	schwer	_	O	O	
+8-16	leserlichen	ADJA	leserlich	_	O	O	
+8-17	Schrift	NN	Schrift	_	O	O	
+8-18	falsch	ADJD	falsch	_	O	O	
+8-19	gelesen	VVPP	lesen	_	O	O	
+8-20	habe	VAFIN	haben	_	O	O	
+8-21	,	$,	,	_	O	O	
+8-22	und	KON	und	_	O	O	
+8-23	Sie	PPER	Sie	_	O	O	
+8-24	selbst	ADV	selbst	_	O	O	
+8-25	nicht	PTKNEG	nicht	_	O	O	
+8-26	an	APPR	an	_	O	O	
+8-27	eignen	ADJA	eigen	_	O	O	
+8-28	Ausgrabungen	NN	Ausgrabung	_	O	O	
+8-29	denken	VVFIN	denken	_	O	O	
+8-30	.	$.	.	_	O	O	
+
+#id=9
+#text=Ihre Zeichnungen des HalEbandes sind recht befriedigend.
+9-1	Ihre	PPOSAT	ihr	_	O	O	
+9-2	Zeichnungen	NN	Zeichnung	_	O	O	
+9-3	des	ART	die	_	O	O	
+9-4	HalEbandes	NN	<unknown>	_	O	O	
+9-5	sind	VAFIN	sein	_	O	O	
+9-6	recht	ADJD	recht	_	O	O	
+9-7	befriedigend	ADJD	befriedigend	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich werde wenig nachzubessern haben.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	werde	VAFIN	werden	_	O	O	
+10-3	wenig	ADV	wenig	_	O	O	
+10-4	nachzubessern	VVIZU	nachbessern	_	O	O	
+10-5	haben	VAINF	haben	_	O	O	
+10-6	.	$.	.	_	O	O	
+
+#id=11
+#text=I~I( Die Currirsendung mit den Abdrücken ist noch nicht eingegangen.
+11-1	I~I(	NN	<unknown>	_	O	O	
+11-2	Die	ART	die	_	O	O	
+11-3	Currirsendung	NN	<unknown>	_	O	O	
+11-4	mit	APPR	mit	_	O	O	
+11-5	den	ART	die	_	O	O	
+11-6	Abdrücken	NN	Abdruck	_	O	O	
+11-7	ist	VAFIN	sein	_	O	O	
+11-8	noch	ADV	noch	_	O	O	
+11-9	nicht	PTKNEG	nicht	_	O	O	
+11-10	eingegangen	VVPP	eingehen	_	O	O	
+11-11	.	$.	.	_	O	O	
+
+#id=12
+#text=e über die Funde in Tharros schriben Sie, daß sie
+12-1	e	ADJD	<unknown>	_	O	O	
+12-2	über	APPR	über	_	O	O	
+12-3	die	ART	die	_	O	O	
+12-4	Funde	NN	Fund	_	O	O	
+12-5	in	APPR	in	_	O	O	
+12-6	Tharros	NE	<unknown>	_	O	O	
+12-7	schriben	VVFIN	<unknown>	_	O	O	
+12-8	Sie	PPER	Sie	_	O	O	
+12-9	,	$,	,	_	O	O	
+12-10	daß	KOUS	dass	_	O	O	
+12-11	sie	PPER	sie	_	O	O	
+

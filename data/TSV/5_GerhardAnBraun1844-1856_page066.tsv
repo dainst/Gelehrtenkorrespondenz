@@ -1,0 +1,260 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=, ) 409 Gerhard an Braun Berlin, 7. Juli 1844 A. d. Dir.
+1-1	,	$,	,	_	O	O	
+1-2	)	$(	)	_	O	O	
+1-3	409	CARD	@card@	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	A.	APPR	an	_	O	O	
+1-14	d.	ART	d.	_	O	O	
+1-15	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=g. 12/VIII 44 Mein theurer Freund.
+2-1	g.	ADJA	<unknown>	_	O	O	
+2-2	12/VIII	CARD	<unknown>	_	O	O	
+2-3	44	CARD	44	_	O	O	
+2-4	Mein	PPOSAT	mein	_	O	O	
+2-5	theurer	ADJA	<unknown>	_	O	O	
+2-6	Freund	NN	Freund	_	O	O	
+2-7	.	$.	.	_	O	O	
+
+#id=3
+#text=Seien Sie willkommen in Deutschland; endlich kann man Ihnen doch wohl an den Rhein schreiben.
+3-1	Seien	VAFIN	sein	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	willkommen	ADJD	willkommen	_	O	O	
+3-4	in	APPR	in	_	O	O	
+3-5	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-6	;	$.	;	_	O	O	
+3-7	endlich	ADV	endlich	_	O	O	
+3-8	kann	VMFIN	können	_	O	O	
+3-9	man	PIS	man	_	O	O	
+3-10	Ihnen	PPER	Sie	_	O	O	
+3-11	doch	ADV	doch	_	O	O	
+3-12	wohl	ADV	wohl	_	O	O	
+3-13	an	APPR	an	_	O	O	
+3-14	den	ART	die	_	O	O	
+3-15	Rhein	NE	Rhein	_	O	O	
+3-16	schreiben	VVINF	schreiben	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Rückständige Antworten giebt es wenig.
+4-1	Rückständige	ADJA	rückständig	_	O	O	
+4-2	Antworten	NN	Antwort	_	O	O	
+4-3	giebt	VVFIN	<unknown>	_	O	O	
+4-4	es	PPER	es	_	O	O	
+4-5	wenig	PIS	wenige	_	O	O	
+4-6	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Kistensache hat Ihnen noch nachträglich Mühe gemacht, das thut mir leid.
+5-1	Die	ART	die	_	O	O	
+5-2	Kistensache	NN	<unknown>	_	O	O	
+5-3	hat	VAFIN	haben	_	O	O	
+5-4	Ihnen	PPER	Sie	_	O	O	
+5-5	noch	ADV	noch	_	O	O	
+5-6	nachträglich	ADJD	nachträglich	_	O	O	
+5-7	Mühe	NN	Mühe	_	O	O	
+5-8	gemacht	VVPP	machen	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	das	PDS	die	_	O	O	
+5-11	thut	VVFIN	<unknown>	_	O	O	
+5-12	mir	PPER	ich	_	O	O	
+5-13	leid	ADJD	leid	_	O	O	
+5-14	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihnen je ungefällig zu sein kann weder Gerstäcker noch mir einfallen; doch liegt das Unpraktische am Tage daß die Campana'schen erst hierher gingen von wo aus sie nun an Brockhaus empfohlen sind, ohne daß sich Porto dafür einfordern ließ.
+6-1	Ihnen	PPER	Sie	_	O	O	
+6-2	je	ADV	je	_	O	O	
+6-3	ungefällig	ADJD	ungefällig	_	O	O	
+6-4	zu	PTKZU	zu	_	O	O	
+6-5	sein	VAINF	sein	_	O	O	
+6-6	kann	VMFIN	können	_	O	O	
+6-7	weder	KON	weder	_	O	O	
+6-8	Gerstäcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-9	noch	ADV	noch	_	O	O	
+6-10	mir	PPER	ich	_	O	O	
+6-11	einfallen	VVINF	einfallen	_	O	O	
+6-12	;	$.	;	_	O	O	
+6-13	doch	ADV	doch	_	O	O	
+6-14	liegt	VVFIN	liegen	_	O	O	
+6-15	das	ART	die	_	O	O	
+6-16	Unpraktische	NN	Unpraktische	_	O	O	
+6-17	am	APPRART	an	_	O	O	
+6-18	Tage	NN	Tag	_	O	O	
+6-19	daß	KOUS	dass	_	O	O	
+6-20	die	ART	die	_	O	O	
+6-21	Campana'schen	NN	<unknown>	_	O	O	
+6-22	erst	ADV	erst	_	O	O	
+6-23	hierher	PAV	hierher	_	O	O	
+6-24	gingen	VVFIN	gehen	_	O	O	
+6-25	von	APPR	von	_	O	O	
+6-26	wo	PWAV	wo	_	O	O	
+6-27	aus	APPR	aus	_	O	O	
+6-28	sie	PPER	sie	_	O	O	
+6-29	nun	ADV	nun	_	O	O	
+6-30	an	APPR	an	_	O	O	
+6-31	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-32	empfohlen	VVPP	empfehlen	_	O	O	
+6-33	sind	VAFIN	sein	_	O	O	
+6-34	,	$,	,	_	O	O	
+6-35	ohne	APPR	ohne	_	O	O	
+6-36	daß	KOUS	dass	_	O	O	
+6-37	sich	PRF	sich	_	O	O	
+6-38	Porto	NN	Porto	_	O	O	
+6-39	dafür	PAV	dafür	_	O	O	
+6-40	einfordern	VVINF	einfordern	_	O	O	
+6-41	ließ	VVFIN	lassen	_	O	O	
+6-42	.	$.	.	_	O	O	
+
+#id=7
+#text=So kommt jeder einzelne Artikel der Ladung um so theurer.
+7-1	So	ADV	so	_	O	O	
+7-2	kommt	VVFIN	kommen	_	O	O	
+7-3	jeder	PIS	jede	_	O	O	
+7-4	einzelne	ADJA	einzeln	_	O	O	
+7-5	Artikel	NN	Artikel	_	O	O	
+7-6	der	ART	die	_	O	O	
+7-7	Ladung	NN	Ladung	_	O	O	
+7-8	um	APPR	um	_	O	O	
+7-9	so	ADV	so	_	O	O	
+7-10	theurer	ADJD	<unknown>	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Die Illusion daß die Verweisung erst von Grenzmauthen kam dürfen Sie laut Gerstäckers Versicherung Sich für andre Fälle nicht machen; wir wollen Alles auf Henzen schieben, der als Verliebter Schuld an dem Versäumniß sein kann ohne daß wir ihm deshalb zürnen können.
+8-1	Die	ART	die	_	O	O	
+8-2	Illusion	NN	Illusion	_	O	O	
+8-3	daß	KOUS	dass	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	Verweisung	NN	Verweisung	_	O	O	
+8-6	erst	ADV	erst	_	O	O	
+8-7	von	APPR	von	_	O	O	
+8-8	Grenzmauthen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-9	kam	VVFIN	kommen	_	O	O	
+8-10	dürfen	VMFIN	dürfen	_	O	O	
+8-11	Sie	PPER	Sie	_	O	O	
+8-12	laut	APPR	laut	_	O	O	
+8-13	Gerstäckers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-14	Versicherung	NN	Versicherung	_	O	O	
+8-15	Sich	PRF	sich	_	O	O	
+8-16	für	APPR	für	_	O	O	
+8-17	andre	PIAT	andere	_	O	O	
+8-18	Fälle	NN	Fall	_	O	O	
+8-19	nicht	PTKNEG	nicht	_	O	O	
+8-20	machen	VVINF	machen	_	O	O	
+8-21	;	$.	;	_	O	O	
+8-22	wir	PPER	wir	_	O	O	
+8-23	wollen	VMFIN	wollen	_	O	O	
+8-24	Alles	PIS	alle	_	O	O	
+8-25	auf	APPR	auf	_	O	O	
+8-26	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-27	schieben	VVINF	schieben	_	O	O	
+8-28	,	$,	,	_	O	O	
+8-29	der	PRELS	die	_	O	O	
+8-30	als	KOKOM	als	_	O	O	
+8-31	Verliebter	ADJA	verliebt	_	O	O	
+8-32	Schuld	NN	Schuld	_	O	O	
+8-33	an	APPR	an	_	O	O	
+8-34	dem	ART	die	_	O	O	
+8-35	Versäumniß	NN	<unknown>	_	O	O	
+8-36	sein	VAINF	sein	_	O	O	
+8-37	kann	VMFIN	können	_	O	O	
+8-38	ohne	APPR	ohne	_	O	O	
+8-39	daß	KOUS	dass	_	O	O	
+8-40	wir	PPER	wir	_	O	O	
+8-41	ihm	PPER	er	_	O	O	
+8-42	deshalb	PAV	deshalb	_	O	O	
+8-43	zürnen	VVINF	zürnen	_	O	O	
+8-44	können	VMINF	können	_	O	O	
+8-45	.	$.	.	_	O	O	
+
+#id=9
+#text=Möge es diesem Ehestand nur ferner wohl gehen!
+9-1	Möge	VMFIN	mögen	_	O	O	
+9-2	es	PPER	es	_	O	O	
+9-3	diesem	PDAT	dies	_	O	O	
+9-4	Ehestand	NN	Ehestand	_	O	O	
+9-5	nur	ADV	nur	_	O	O	
+9-6	ferner	ADJD	fern	_	O	O	
+9-7	wohl	ADV	wohl	_	O	O	
+9-8	gehen	VVINF	gehen	_	O	O	
+9-9	!	$.	!	_	O	O	
+
+#id=10
+#text=Ich hoffe er hat gut gewählt; Frau Henzen hörte ich ja immer sehr rühmen.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	hoffe	VVFIN	hoffen	_	O	O	
+10-3	er	PPER	er	_	O	O	
+10-4	hat	VAFIN	haben	_	O	O	
+10-5	gut	ADJD	gut	_	O	O	
+10-6	gewählt	VVPP	wählen	_	O	O	
+10-7	;	$.	;	_	O	O	
+10-8	Frau	NN	Frau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-9	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-10	hörte	VVFIN	hören	_	O	O	
+10-11	ich	PPER	ich	_	O	O	
+10-12	ja	ADV	ja	_	O	O	
+10-13	immer	ADV	immer	_	O	O	
+10-14	sehr	ADV	sehr	_	O	O	
+10-15	rühmen	VVINF	rühmen	_	O	O	
+10-16	.	$.	.	_	O	O	
+
+#id=11
+#text=Krause hat über den empfangenen Trippel der ihm so wenig nützen als der vollblasige früher empfangene Glasfluß gejammert, und nach Ihrer Liste wird es nun s9-1 zweifelhaft ob überhaupt er dieffatale Sendung haben sollte oder vielleicht Rauch, der bei Ihnen mit einem
+11-1	Krause	NE	Krause	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	hat	VAFIN	haben	_	O	O	
+11-3	über	APPR	über	_	O	O	
+11-4	den	ART	die	_	O	O	
+11-5	empfangenen	ADJA	empfangen	_	O	O	
+11-6	Trippel	NN	<unknown>	_	O	O	
+11-7	der	ART	die	_	O	O	
+11-8	ihm	PPER	er	_	O	O	
+11-9	so	ADV	so	_	O	O	
+11-10	wenig	PIS	wenige	_	O	O	
+11-11	nützen	VVFIN	nützen	_	O	O	
+11-12	als	KOKOM	als	_	O	O	
+11-13	der	ART	die	_	O	O	
+11-14	vollblasige	ADJA	<unknown>	_	O	O	
+11-15	früher	ADJD	früh	_	O	O	
+11-16	empfangene	ADJA	empfangen	_	O	O	
+11-17	Glasfluß	NN	<unknown>	_	O	O	
+11-18	gejammert	VVPP	jammern	_	O	O	
+11-19	,	$,	,	_	O	O	
+11-20	und	KON	und	_	O	O	
+11-21	nach	APPR	nach	_	O	O	
+11-22	Ihrer	PPOSAT	ihr	_	O	O	
+11-23	Liste	NN	Liste	_	O	O	
+11-24	wird	VAFIN	werden	_	O	O	
+11-25	es	PPER	es	_	O	O	
+11-26	nun	ADV	nun	_	O	O	
+11-27	s9-1	ADJD	<unknown>	_	O	O	
+11-28	zweifelhaft	ADJD	zweifelhaft	_	O	O	
+11-29	ob	ADV	ob	_	O	O	
+11-30	überhaupt	ADV	überhaupt	_	O	O	
+11-31	er	PPER	er	_	O	O	
+11-32	dieffatale	ADJA	<unknown>	_	O	O	
+11-33	Sendung	NN	Sendung	_	O	O	
+11-34	haben	VAINF	haben	_	O	O	
+11-35	sollte	VMFIN	sollen	_	O	O	
+11-36	oder	KON	oder	_	O	O	
+11-37	vielleicht	ADV	vielleicht	_	O	O	
+11-38	Rauch	NE	Rauch	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-39	,	$,	,	_	O	O	
+11-40	der	PRELS	die	_	O	O	
+11-41	bei	APPR	bei	_	O	O	
+11-42	Ihnen	PPER	Sie	_	O	O	
+11-43	mit	APPR	mit	_	O	O	
+11-44	einem	ART	eine	_	O	O	
+

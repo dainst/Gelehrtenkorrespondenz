@@ -1,0 +1,75 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=92 3 Gerhard an Braun Berlin, 8. Februar 1844 senden?
+1-1	92	CARD	92	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	senden	VVFIN	senden	_	O	O	
+1-13	?	$.	?	_	O	O	
+
+#id=2
+#text=Unter Kreuzband ging~das nach Neapel gesandte verloren und es wird theuer kommen, muß es aber doch wol thun.
+2-1	Unter	APPR	unter	_	O	O	
+2-2	Kreuzband	NN	Kreuzband	_	O	O	
+2-3	ging~das	VVFIN	<unknown>	_	O	O	
+2-4	nach	APPR	nach	_	O	O	
+2-5	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-6	gesandte	ADJA	gesandt	_	O	O	
+2-7	verloren	VVPP	verlieren	_	O	O	
+2-8	und	KON	und	_	O	O	
+2-9	es	PPER	es	_	O	O	
+2-10	wird	VAFIN	werden	_	O	O	
+2-11	theuer	ADJD	<unknown>	_	O	O	
+2-12	kommen	VVINF	kommen	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	muß	VMFIN	müssen	_	O	O	
+2-15	es	PPER	es	_	O	O	
+2-16	aber	ADV	aber	_	O	O	
+2-17	doch	ADV	doch	_	O	O	
+2-18	wol	ADJD	<unknown>	_	O	O	
+2-19	thun	NE	<unknown>	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Jahn wäre wol geneigt für Epigraphisches wieder nach Italien zu gehen; was traut Borghesi ihm zu " Allen Freunden den besten Gruß.
+3-1	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	wäre	VAFIN	sein	_	O	O	
+3-3	wol	ADJD	<unknown>	_	O	O	
+3-4	geneigt	VVPP	neigen	_	O	O	
+3-5	für	APPR	für	_	O	O	
+3-6	Epigraphisches	NN	<unknown>	_	O	O	
+3-7	wieder	ADV	wieder	_	O	O	
+3-8	nach	APPR	nach	_	O	O	
+3-9	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-10	zu	PTKZU	zu	_	O	O	
+3-11	gehen	VVINF	gehen	_	O	O	
+3-12	;	$.	;	_	O	O	
+3-13	was	PWS	was	_	O	O	
+3-14	traut	VVFIN	trauen	_	O	O	
+3-15	Borghesi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-16	ihm	PPER	er	_	O	O	
+3-17	zu	PTKVZ	zu	_	O	O	
+3-18	"	$(	"	_	O	O	
+3-19	Allen	NE	Allen	_	O	O	
+3-20	Freunden	NN	Freund	_	O	O	
+3-21	den	ART	die	_	O	O	
+3-22	besten	ADJA	gut	_	O	O	
+3-23	Gruß	NN	Gruß	_	O	O	
+3-24	.	$.	.	_	O	O	
+
+#id=4
+#text=Von Herzen der Ihrige Gerhard
+4-1	Von	APPR	von	_	O	O	
+4-2	Herzen	NN	Herz	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	Ihrige	PPOSAT	ihrige	_	O	O	
+4-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

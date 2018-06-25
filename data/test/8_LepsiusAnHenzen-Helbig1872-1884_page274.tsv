@@ -1,0 +1,236 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=210 Lepsius an Henzen Berlin, 19. April 1876 g. 22/4 76 r. Berlin, den 19. Apr.
+1-1	210	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	22/4	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	76	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	r.	ADJA	<unknown>	_	O	O	
+1-15	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-16	,	$,	,	_	O	O	
+1-17	den	ART	die	_	O	O	
+1-18	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-20	Apr.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=2
+#text=1876 Verehrter Freund Ihr Brief vom 13. ist eingelaufen.
+2-1	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Verehrter	NN	Verehrte	_	O	O	
+2-3	Freund	NE	Freund	_	O	O	
+2-4	Ihr	PPOSAT	ihr	_	O	O	
+2-5	Brief	NN	Brief	_	O	O	
+2-6	vom	APPRART	von	_	O	O	
+2-7	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-9	ist	VAFIN	sein	_	O	O	
+2-10	eingelaufen	VVPP	einlaufen	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Inzwischen ist auch Minister Krüger, nach dem Sie fragen, in Rom hoffentlich wohlbehalten eingetroffen.
+3-1	Inzwischen	ADV	inzwischen	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	auch	ADV	auch	_	O	O	
+3-4	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	Krüger	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-6	,	$,	,	_	O	O	
+3-7	nach	APPR	nach	_	O	O	
+3-8	dem	PRELS	die	_	O	O	
+3-9	Sie	PPER	Sie	_	O	O	
+3-10	fragen	VVFIN	fragen	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	in	APPR	in	_	O	O	
+3-13	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-14	hoffentlich	ADV	hoffentlich	_	O	O	
+3-15	wohlbehalten	ADJD	wohlbehalten	_	O	O	
+3-16	eingetroffen	VVPP	eintreffen	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Nachricht darüber kann al~dings kaum schon hier sein.
+4-1	Nachricht	NN	Nachricht	_	O	O	
+4-2	darüber	PAV	darüber	_	O	O	
+4-3	kann	VMFIN	können	_	O	O	
+4-4	al~dings	NN	<unknown>	_	O	O	
+4-5	kaum	ADV	kaum	_	O	O	
+4-6	schon	ADV	schon	_	O	O	
+4-7	hier	ADV	hier	_	O	O	
+4-8	sein	VAINF	sein	_	O	O	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=Er und Mommsen werden Sie über vielerlei Hiesiges unterrichten, was sich der schriftlichen Diskussion entzieht.
+5-1	Er	PPER	er	_	O	O	
+5-2	und	KON	und	_	O	O	
+5-3	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	werden	VAFIN	werden	_	O	O	
+5-5	Sie	PPER	Sie	_	O	O	
+5-6	über	APPR	über	_	O	O	
+5-7	vielerlei	ADJD	vielerlei	_	O	O	
+5-8	Hiesiges	NN	Hiesige	_	O	O	
+5-9	unterrichten	VVINF	unterrichten	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	was	PRELS	was	_	O	O	
+5-12	sich	PRF	sich	_	O	O	
+5-13	der	ART	die	_	O	O	
+5-14	schriftlichen	ADJA	schriftlich	_	O	O	
+5-15	Diskussion	NN	Diskussion	_	O	O	
+5-16	entzieht	VVFIN	entziehen	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=In Bezug auf das Verhältnis des Hauses zur Botschaft wird Ihre Stimme allerdings entscheidend sein müssen.
+6-1	In	APPR	in	_	O	O	
+6-2	Bezug	NN	Bezug	_	O	O	
+6-3	auf	APPR	auf	_	O	O	
+6-4	das	ART	die	_	O	O	
+6-5	Verhältnis	NN	Verhältnis	_	O	O	
+6-6	des	ART	die	_	O	O	
+6-7	Hauses	NN	Haus	_	O	O	
+6-8	zur	APPRART	zu	_	O	O	
+6-9	Botschaft	NN	Botschaft	_	O	O	
+6-10	wird	VAFIN	werden	_	O	O	
+6-11	Ihre	PPOSAT	ihr	_	O	O	
+6-12	Stimme	NN	Stimme	_	O	O	
+6-13	allerdings	ADV	allerdings	_	O	O	
+6-14	entscheidend	ADJD	entscheidend	_	O	O	
+6-15	sein	VAINF	sein	_	O	O	
+6-16	müssen	VMINF	müssen	_	O	O	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=Was Preller betrifft, so bezog ich mich im letzten Briefe auf einen früheren in dem ich einen Antrag von unsrer Seite von einer Anregung die von oben etwa durch Keudell veranlaßt würde, abhängig gemacht hatte.
+7-1	Was	PWS	was	_	O	O	
+7-2	Preller	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-3	betrifft	VVFIN	betreffen	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	so	ADV	so	_	O	O	
+7-6	bezog	VVFIN	beziehen	_	O	O	
+7-7	ich	PPER	ich	_	O	O	
+7-8	mich	PRF	ich	_	O	O	
+7-9	im	APPRART	in	_	O	O	
+7-10	letzten	ADJA	letzt	_	O	O	
+7-11	Briefe	NN	Brief	_	O	O	
+7-12	auf	APPR	auf	_	O	O	
+7-13	einen	ART	eine	_	O	O	
+7-14	früheren	ADJA	früh	_	O	O	
+7-15	in	APPR	in	_	O	O	
+7-16	dem	ART	die	_	O	O	
+7-17	ich	PPER	ich	_	O	O	
+7-18	einen	ART	eine	_	O	O	
+7-19	Antrag	NN	Antrag	_	O	O	
+7-20	von	APPR	von	_	O	O	
+7-21	unsrer	PPOSAT	unser	_	O	O	
+7-22	Seite	NN	Seite	_	O	O	
+7-23	von	APPR	von	_	O	O	
+7-24	einer	ART	eine	_	O	O	
+7-25	Anregung	NN	Anregung	_	O	O	
+7-26	die	ART	die	_	O	O	
+7-27	von	APPR	von	_	O	O	
+7-28	oben	ADV	oben	_	O	O	
+7-29	etwa	ADV	etwa	_	O	O	
+7-30	durch	APPR	durch	_	O	O	
+7-31	Keudell	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-32	veranlaßt	VVPP	veranlassen	_	O	O	
+7-33	würde	VAFIN	werden	_	O	O	
+7-34	,	$,	,	_	O	O	
+7-35	abhängig	ADJD	abhängig	_	O	O	
+7-36	gemacht	VVPP	machen	_	O	O	
+7-37	hatte	VAFIN	haben	_	O	O	
+7-38	.	$.	.	_	O	O	
+
+#id=8
+#text=Die Sache steht auch jetzt noch so, daß der Antrag in der General Versammlung vorläufig abgelehnt ist; sollte eine Anregung aus dem Auswärtigen Amte vereithelt werden, so wird er von uns sehr gern aufgenommen werden.
+8-1	Die	ART	die	_	O	O	
+8-2	Sache	NN	Sache	_	O	O	
+8-3	steht	VVFIN	stehen	_	O	O	
+8-4	auch	ADV	auch	_	O	O	
+8-5	jetzt	ADV	jetzt	_	O	O	
+8-6	noch	ADV	noch	_	O	O	
+8-7	so	ADV	so	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	daß	KOUS	dass	_	O	O	
+8-10	der	ART	die	_	O	O	
+8-11	Antrag	NN	Antrag	_	O	O	
+8-12	in	APPR	in	_	O	O	
+8-13	der	ART	die	_	O	O	
+8-14	General	NN	General	_	O	O	
+8-15	Versammlung	NN	Versammlung	_	O	O	
+8-16	vorläufig	ADJD	vorläufig	_	O	O	
+8-17	abgelehnt	VVPP	ablehnen	_	O	O	
+8-18	ist	VAFIN	sein	_	O	O	
+8-19	;	$.	;	_	O	O	
+8-20	sollte	VMFIN	sollen	_	O	O	
+8-21	eine	ART	eine	_	O	O	
+8-22	Anregung	NN	Anregung	_	O	O	
+8-23	aus	APPR	aus	_	O	O	
+8-24	dem	ART	die	_	O	O	
+8-25	Auswärtigen	ADJA	auswärtig	_	O	O	
+8-26	Amte	NN	Amt	_	O	O	
+8-27	vereithelt	VVPP	<unknown>	_	O	O	
+8-28	werden	VAINF	werden	_	O	O	
+8-29	,	$,	,	_	O	O	
+8-30	so	ADV	so	_	O	O	
+8-31	wird	VAFIN	werden	_	O	O	
+8-32	er	PPER	er	_	O	O	
+8-33	von	APPR	von	_	O	O	
+8-34	uns	PPER	wir	_	O	O	
+8-35	sehr	ADV	sehr	_	O	O	
+8-36	gern	ADV	gern	_	O	O	
+8-37	aufgenommen	VVPP	aufnehmen	_	O	O	
+8-38	werden	VAINF	werden	_	O	O	
+8-39	.	$.	.	_	O	O	
+
+#id=9
+#text=Über Helbig's Erhöhung um 200 r ~atte Ihnen H. Krüger der damals auf meinen Wunsch die Auseinandersetzung übernahm, geschrieben; d. h. von der Absicht sie in diesem Jahre zu beantragen.
+9-1	Über	APPR	über	_	O	O	
+9-2	Helbig's	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-3	Erhöhung	NN	Erhöhung	_	O	O	
+9-4	um	APPR	um	_	O	O	
+9-5	200	CARD	200	_	O	O	
+9-6	r	NE	r	_	O	O	
+9-7	~atte	NN	<unknown>	_	O	O	
+9-8	Ihnen	PPER	Sie	_	O	O	
+9-9	H.	NE	H.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-10	Krüger	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-11	der	ART	die	_	O	O	
+9-12	damals	ADV	damals	_	O	O	
+9-13	auf	APPR	auf	_	O	O	
+9-14	meinen	PPOSAT	mein	_	O	O	
+9-15	Wunsch	NN	Wunsch	_	O	O	
+9-16	die	ART	die	_	O	O	
+9-17	Auseinandersetzung	NN	Auseinandersetzung	_	O	O	
+9-18	übernahm	VVFIN	übernehmen	_	O	O	
+9-19	,	$,	,	_	O	O	
+9-20	geschrieben	VVPP	schreiben	_	O	O	
+9-21	;	$.	;	_	O	O	
+9-22	d.	PDS	d.	_	O	O	
+9-23	h.	VVFIN	heißen	_	O	O	
+9-24	von	APPR	von	_	O	O	
+9-25	der	ART	die	_	O	O	
+9-26	Absicht	NN	Absicht	_	O	O	
+9-27	sie	PPER	sie	_	O	O	
+9-28	in	APPR	in	_	O	O	
+9-29	diesem	PDAT	dies	_	O	O	
+9-30	Jahre	NN	Jahr	_	O	O	
+9-31	zu	PTKZU	zu	_	O	O	
+9-32	beantragen	VVINF	beantragen	_	O	O	
+9-33	.	$.	.	_	O	O	
+
+#id=10
+#text=Die Sache konnte Ihnen
+10-1	Die	ART	die	_	O	O	
+10-2	Sache	NN	Sache	_	O	O	
+10-3	konnte	VMFIN	können	_	O	O	
+10-4	Ihnen	PPER	Sie	_	O	O	
+

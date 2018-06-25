@@ -1,0 +1,199 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=296 Lepsius an Henzen Berlin, 29. Oktober 1873 L g. 2/11 73 r. Berlin, den 29 Okt.
+1-1	296	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	L	NN	L	_	O	O	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	2/11	CARD	2/11	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	73	CARD	73	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	r.	ADJA	<unknown>	_	O	O	
+1-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-17	,	$,	,	_	O	O	
+1-18	den	ART	die	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-19	29	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	Okt.	NN	Okt.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1873 Verehrter Freund Nun ist wohl jedermann wieder in die Winterquartiere eingerückt, wenn auch Helbig wie zu erwarten wieder bei Ihnen ist.
+2-1	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Verehrter	NN	Verehrte	_	O	O	
+2-3	Freund	NE	Freund	_	O	O	
+2-4	Nun	ADV	nun	_	O	O	
+2-5	ist	VAFIN	sein	_	O	O	
+2-6	wohl	ADV	wohl	_	O	O	
+2-7	jedermann	PIS	jedermann	_	O	O	
+2-8	wieder	ADV	wieder	_	O	O	
+2-9	in	APPR	in	_	O	O	
+2-10	die	ART	die	_	O	O	
+2-11	Winterquartiere	NN	Winterquartier	_	O	O	
+2-12	eingerückt	VVPP	einrücken	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	wenn	KOUS	wenn	_	O	O	
+2-15	auch	ADV	auch	_	O	O	
+2-16	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-17	wie	KOKOM	wie	_	O	O	
+2-18	zu	ADV	zu	_	O	O	
+2-19	erwarten	VVFIN	erwarten	_	O	O	
+2-20	wieder	ADV	wieder	_	O	O	
+2-21	bei	APPR	bei	_	O	O	
+2-22	Ihnen	PPER	Sie	_	O	O	
+2-23	ist	VAFIN	sein	_	O	O	
+2-24	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich hoffe daß bei ihm alles gut geworden ist, da es so lange gewährt hat.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	hoffe	VVFIN	hoffen	_	O	O	
+3-3	daß	KOUS	dass	_	O	O	
+3-4	bei	APPR	bei	_	O	O	
+3-5	ihm	PPER	er	_	O	O	
+3-6	alles	PIS	alle	_	O	O	
+3-7	gut	ADJD	gut	_	O	O	
+3-8	geworden	VAPP	werden	_	O	O	
+3-9	ist	VAFIN	sein	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	da	KOUS	da	_	O	O	
+3-12	es	PPER	es	_	O	O	
+3-13	so	ADV	so	_	O	O	
+3-14	lange	ADV	lange	_	O	O	
+3-15	gewährt	VVPP	gewähren|währen	_	O	O	
+3-16	hat	VAFIN	haben	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich bitte ihm meine Grüße und Glückwünsche auszurichten.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	bitte	VVFIN	bitten	_	O	O	
+4-3	ihm	PPER	er	_	O	O	
+4-4	meine	PPOSAT	mein	_	O	O	
+4-5	Grüße	NN	Gruß	_	O	O	
+4-6	und	KON	und	_	O	O	
+4-7	Glückwünsche	NN	Glückwunsch	_	O	O	
+4-8	auszurichten	VVIZU	ausrichten	_	O	O	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=Herrn Asher muß man immer etwas auf die Finger sehen und es ist mir lieb, daß Sie seine Rechnung erst an mich dirigirt haben, da er uns nicht weniger als 161.10 zu viel angerechnet hat.
+5-1	Herrn	NN	Herr	_	O	O	
+5-2	Asher	ADV	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	muß	VMFIN	müssen	_	O	O	
+5-4	man	PIS	man	_	O	O	
+5-5	immer	ADV	immer	_	O	O	
+5-6	etwas	ADV	etwas	_	O	O	
+5-7	auf	APPR	auf	_	O	O	
+5-8	die	ART	die	_	O	O	
+5-9	Finger	NN	Finger	_	O	O	
+5-10	sehen	VVINF	sehen	_	O	O	
+5-11	und	KON	und	_	O	O	
+5-12	es	PPER	es	_	O	O	
+5-13	ist	VAFIN	sein	_	O	O	
+5-14	mir	PPER	ich	_	O	O	
+5-15	lieb	ADJD	lieb	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	daß	KOUS	dass	_	O	O	
+5-18	Sie	PPER	Sie	_	O	O	
+5-19	seine	PPOSAT	sein	_	O	O	
+5-20	Rechnung	NN	Rechnung	_	O	O	
+5-21	erst	ADV	erst	_	O	O	
+5-22	an	APPR	an	_	O	O	
+5-23	mich	PPER	ich	_	O	O	
+5-24	dirigirt	NN	<unknown>	_	O	O	
+5-25	haben	VAFIN	haben	_	O	O	
+5-26	,	$,	,	_	O	O	
+5-27	da	KOUS	da	_	O	O	
+5-28	er	PPER	er	_	O	O	
+5-29	uns	PRF	wir	_	O	O	
+5-30	nicht	PTKNEG	nicht	_	O	O	
+5-31	weniger	ADV	weniger	_	O	O	
+5-32	als	KOKOM	als	_	O	O	
+5-33	161.10	CARD	@card@	_	O	O	
+5-34	zu	APPR	zu	_	O	O	
+5-35	viel	ADV	viel	_	O	O	
+5-36	angerechnet	VVPP	anrechnen	_	O	O	
+5-37	hat	VAFIN	haben	_	O	O	
+5-38	.	$.	.	_	O	O	
+
+#id=6
+#text=Da Sie von 5 % Zinsen sprechen, die in der heute eingehenden Rechnungskopie gar nicht erscheinen, so scheint er Ihnen die Rechnung ganz anders gruppiert zu haben.
+6-1	Da	KOUS	da	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	von	APPR	von	_	O	O	
+6-4	5	CARD	5	_	O	O	
+6-5	%	NN	%	_	O	O	
+6-6	Zinsen	NN	Zins	_	O	O	
+6-7	sprechen	VVFIN	sprechen	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	die	PRELS	die	_	O	O	
+6-10	in	APPR	in	_	O	O	
+6-11	der	ART	die	_	O	O	
+6-12	heute	ADV	heute	_	O	O	
+6-13	eingehenden	ADJA	eingehend	_	O	O	
+6-14	Rechnungskopie	NN	<unknown>	_	O	O	
+6-15	gar	ADV	gar	_	O	O	
+6-16	nicht	PTKNEG	nicht	_	O	O	
+6-17	erscheinen	VVFIN	erscheinen	_	O	O	
+6-18	,	$,	,	_	O	O	
+6-19	so	ADV	so	_	O	O	
+6-20	scheint	VVFIN	scheinen	_	O	O	
+6-21	er	PPER	er	_	O	O	
+6-22	Ihnen	PPER	Sie	_	O	O	
+6-23	die	ART	die	_	O	O	
+6-24	Rechnung	NN	Rechnung	_	O	O	
+6-25	ganz	ADV	ganz	_	O	O	
+6-26	anders	ADV	anders	_	O	O	
+6-27	gruppiert	VVPP	gruppieren	_	O	O	
+6-28	zu	PTKZU	zu	_	O	O	
+6-29	haben	VAINF	haben	_	O	O	
+6-30	.	$.	.	_	O	O	
+
+#id=7
+#text=Hier lautet sie so statt 150.- r 150 - L.
+7-1	Hier	ADV	hier	_	O	O	
+7-2	lautet	VVFIN	lauten	_	O	O	
+7-3	sie	PPER	sie	_	O	O	
+7-4	so	ADV	so	_	O	O	
+7-5	statt	APPR	statt	_	O	O	
+7-6	150.-	CARD	@card@	_	O	O	
+7-7	r	NE	r	_	O	O	
+7-8	150	CARD	150	_	O	O	
+7-9	-	$(	-	_	O	O	
+7-10	L.	NE	L.	_	O	O	
+
+#id=8
+#text=20 25 5 5 150 r - 150 - 9 9 12 L.
+8-1	20	CARD	20	_	O	O	
+8-2	25	CARD	25	_	O	O	
+8-3	5	CARD	5	_	O	O	
+8-4	5	CARD	5	_	O	O	
+8-5	150	CARD	150	_	O	O	
+8-6	r	NE	r	_	O	O	
+8-7	-	$(	-	_	O	O	
+8-8	150	CARD	150	_	O	O	
+8-9	-	$(	-	_	O	O	
+8-10	9	CARD	9	_	O	O	
+8-11	9	CARD	9	_	O	O	
+8-12	12	CARD	12	_	O	O	
+8-13	L.	NE	L.	_	O	O	
+
+#id=9
+#text=85 a 6.22 = 723.25 a 6 2/3 - 566.20
+9-1	85	CARD	85	_	O	O	
+9-2	a	FM	a	_	O	O	
+9-3	6.22	CARD	@card@	_	O	O	
+9-4	=	$(	=	_	O	O	
+9-5	723.25	CARD	@card@	_	O	O	
+9-6	a	FM	a	_	O	O	
+9-7	6	CARD	6	_	O	O	
+9-8	2/3	CARD	2/3	_	O	O	
+9-9	-	$(	-	_	O	O	
+9-10	566.20	CARD	@card@	_	O	O	
+

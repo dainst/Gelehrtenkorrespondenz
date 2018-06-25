@@ -1,0 +1,140 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=4 H Helbig an Henzen Ohne Datum g. 4/8 65 r.
+1-1	4	CARD	4	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	Ohne	APPR	ohne	_	O	O	
+1-7	Datum	NN	Datum	_	O	O	
+1-8	g.	VVFIN	<unknown>	_	O	O	
+1-9	4/8	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-10	65	CARD	65	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-11	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=5/8 65 Lieber Herr Professor !
+2-1	5/8	CARD	5/8	_	O	O	
+2-2	65	CARD	65	_	O	O	
+2-3	Lieber	ADJA	lieb	_	O	O	
+2-4	Herr	NN	Herr	_	O	O	
+2-5	Professor	NN	Professor	_	O	O	
+2-6	!	$.	!	_	O	O	
+
+#id=3
+#text=Beiliegend ein Paket Briefe.
+3-1	Beiliegend	ADJD	beiliegend	_	O	O	
+3-2	ein	ART	eine	_	O	O	
+3-3	Paket	NN	Paket	_	O	O	
+3-4	Briefe	NN	Brief	_	O	O	
+3-5	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich bitte um Entschuldigung, daß ich den Bremer Brief aufgebrochen habe.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	bitte	VVFIN	bitten	_	O	O	
+4-3	um	APPR	um	_	O	O	
+4-4	Entschuldigung	NN	Entschuldigung	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	daß	KOUS	dass	_	O	O	
+4-7	ich	PPER	ich	_	O	O	
+4-8	den	ART	die	_	O	O	
+4-9	Bremer	NN	Bremer	_	O	O	
+4-10	Brief	NN	Brief	_	O	O	
+4-11	aufgebrochen	VVPP	aufbrechen	_	O	O	
+4-12	habe	VAFIN	haben	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich verstand den Poststempel Bremen M. nicht.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	verstand	VVFIN	verstehen	_	O	O	
+5-3	den	ART	die	_	O	O	
+5-4	Poststempel	NN	Poststempel	_	O	O	
+5-5	Bremen	NE	Bremen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-6	M.	NE	M.	_	O	O	
+5-7	nicht	PTKNEG	nicht	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Neues: Fortunati ist in der Stadt, vollständig verrückt.
+6-1	Neues	NN	Neue	_	O	O	
+6-2	:	$.	:	_	O	O	
+6-3	Fortunati	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	ist	VAFIN	sein	_	O	O	
+6-5	in	APPR	in	_	O	O	
+6-6	der	ART	die	_	O	O	
+6-7	Stadt	NN	Stadt	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	vollständig	ADJD	vollständig	_	O	O	
+6-10	verrückt	VVPP	verrücken	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Er war beim Cardinal de Pietri mit Geldforderungen und konnte nur mit Mühe von vier Bedienten aus dem Zimmer gebracht werden.
+7-1	Er	PPER	er	_	O	O	
+7-2	war	VAFIN	sein	_	O	O	
+7-3	beim	APPRART	bei	_	O	O	
+7-4	Cardinal	NE	<unknown>	_	O	O	
+7-5	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-6	Pietri	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-7	mit	APPR	mit	_	O	O	
+7-8	Geldforderungen	NN	Geldforderung	_	O	O	
+7-9	und	KON	und	_	O	O	
+7-10	konnte	VMFIN	können	_	O	O	
+7-11	nur	ADV	nur	_	O	O	
+7-12	mit	APPR	mit	_	O	O	
+7-13	Mühe	NN	Mühe	_	O	O	
+7-14	von	APPR	von	_	O	O	
+7-15	vier	CARD	vier	_	O	O	
+7-16	Bedienten	NN	Bediente	_	O	O	
+7-17	aus	APPR	aus	_	O	O	
+7-18	dem	ART	die	_	O	O	
+7-19	Zimmer	NN	Zimmer	_	O	O	
+7-20	gebracht	VVPP	bringen	_	O	O	
+7-21	werden	VAINF	werden	_	O	O	
+7-22	.	$.	.	_	O	O	
+
+#id=8
+#text=Bei mir war er noch nicht.
+8-1	Bei	APPR	bei	_	O	O	
+8-2	mir	PPER	ich	_	O	O	
+8-3	war	VAFIN	sein	_	O	O	
+8-4	er	PPER	er	_	O	O	
+8-5	noch	ADV	noch	_	O	O	
+8-6	nicht	PTKNEG	nicht	_	O	O	
+8-7	.	$.	.	_	O	O	
+
+#id=9
+#text=Eine freudigere Nachricht Umpfenbach hat Geld geschickt.
+9-1	Eine	ART	eine	_	O	O	
+9-2	freudigere	ADJA	freudig	_	O	O	
+9-3	Nachricht	NN	Nachricht	_	O	O	
+9-4	Umpfenbach	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	hat	VAFIN	haben	_	O	O	
+9-6	Geld	NN	Geld	_	O	O	
+9-7	geschickt	VVPP	schicken	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Mit der Bitte mich der Frau Professorin zu empfehlen und die Olevanoschen Capitoliner zu grüßen Ihr Wolfgang Helbig
+10-1	Mit	APPR	mit	_	O	O	
+10-2	der	ART	die	_	O	O	
+10-3	Bitte	NN	Bitte	_	O	O	
+10-4	mich	PRF	ich	_	O	O	
+10-5	der	ART	die	_	O	O	
+10-6	Frau	NN	Frau	_	O	O	
+10-7	Professorin	NN	Professorin	_	O	O	
+10-8	zu	PTKZU	zu	_	O	O	
+10-9	empfehlen	VVINF	empfehlen	_	O	O	
+10-10	und	KON	und	_	O	O	
+10-11	die	ART	die	_	O	O	
+10-12	Olevanoschen	ADJA	<unknown>	_	O	O	
+10-13	Capitoliner	NN	<unknown>	_	O	O	
+10-14	zu	PTKZU	zu	_	O	O	
+10-15	grüßen	VVINF	grüßen	_	O	O	
+10-16	Ihr	PPOSAT	ihr	_	O	O	
+10-17	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+10-18	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

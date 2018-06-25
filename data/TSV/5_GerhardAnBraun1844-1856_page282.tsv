@@ -1,0 +1,204 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text='.
+1-1	'	$(	'	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=78 2 Gerhard an Braun Berlin, 6. März 1849 Hier war noch keine Thatäußerung der Kammer möglich; Usedom erwarten wir, allein oder gedoppelt.
+2-1	78	CARD	78	_	O	O	
+2-2	2	CARD	2	_	O	O	
+2-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-4	an	APPR	an	_	O	O	
+2-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-7	,	$,	,	_	O	O	
+2-8	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	1849	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	Hier	ADV	hier	_	O	O	
+2-13	war	VAFIN	sein	_	O	O	
+2-14	noch	ADV	noch	_	O	O	
+2-15	keine	PIAT	keine	_	O	O	
+2-16	Thatäußerung	NN	<unknown>	_	O	O	
+2-17	der	ART	die	_	O	O	
+2-18	Kammer	NN	Kammer	_	O	O	
+2-19	möglich	ADJD	möglich	_	O	O	
+2-20	;	$.	;	_	O	O	
+2-21	Usedom	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-22	erwarten	VVFIN	erwarten	_	O	O	
+2-23	wir	PPER	wir	_	O	O	
+2-24	,	$,	,	_	O	O	
+2-25	allein	ADV	allein	_	O	O	
+2-26	oder	KON	oder	_	O	O	
+2-27	gedoppelt	VVPP	doppeln	_	O	O	
+2-28	.	$.	.	_	O	O	
+
+#id=3
+#text=Unsre Zustände sind dermalen ruhig, doch erwarten viele zum 10.ten oder 12.ten einen allgemeinen Putsch durch ganz Deutschland.
+3-1	Unsre	PPOSAT	unsre	_	O	O	
+3-2	Zustände	NN	Zustand	_	O	O	
+3-3	sind	VAFIN	sein	_	O	O	
+3-4	dermalen	ADV	<unknown>	_	O	O	
+3-5	ruhig	ADJD	ruhig	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	doch	KON	doch	_	O	O	
+3-8	erwarten	VVFIN	erwarten	_	O	O	
+3-9	viele	PIS	viele	_	O	O	
+3-10	zum	APPRART	zu	_	O	O	
+3-11	10.ten	NN	<unknown>	_	O	O	
+3-12	oder	KON	oder	_	O	O	
+3-13	12.ten	VVFIN	<unknown>	_	O	O	
+3-14	einen	ART	eine	_	O	O	
+3-15	allgemeinen	ADJA	allgemein	_	O	O	
+3-16	Putsch	NN	Putsch	_	O	O	
+3-17	durch	APPR	durch	_	O	O	
+3-18	ganz	ADV	ganz	_	O	O	
+3-19	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=Prokesch ein sehr werther Mann, ist als freier Vertreter Östreichs uns hier auch eben nicht sehr heilbringend.
+4-1	Prokesch	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	ein	ART	eine	_	O	O	
+4-3	sehr	ADV	sehr	_	O	O	
+4-4	werther	ADJA	<unknown>	_	O	O	
+4-5	Mann	NN	Mann	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	ist	VAFIN	sein	_	O	O	
+4-8	als	KOKOM	als	_	O	O	
+4-9	freier	ADJA	frei	_	O	O	
+4-10	Vertreter	NN	Vertreter	_	O	O	
+4-11	Östreichs	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-12	uns	PRF	wir	_	O	O	
+4-13	hier	ADV	hier	_	O	O	
+4-14	auch	ADV	auch	_	O	O	
+4-15	eben	ADV	eben	_	O	O	
+4-16	nicht	PTKNEG	nicht	_	O	O	
+4-17	sehr	ADV	sehr	_	O	O	
+4-18	heilbringend	ADJD	heilbringend	_	O	O	
+4-19	.	$.	.	_	O	O	
+
+#id=5
+#text=Meine Frau g~ißt bestens, nimmt Ihren Rath gemäß Clematis aber, weil das auf d~ckende Stimmung einzuwirken scheint, nur 1 mal täglich.
+5-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-3	g~ißt	VVFIN	<unknown>	_	O	O	
+5-4	bestens	ADV	bestens	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	nimmt	VVFIN	nehmen	_	O	O	
+5-7	Ihren	PPOSAT	ihr	_	O	O	
+5-8	Rath	NE	Rath	_	O	O	
+5-9	gemäß	APPR	gemäß	_	O	O	
+5-10	Clematis	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-11	aber	ADV	aber	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	weil	KOUS	weil	_	O	O	
+5-14	das	PDS	die	_	O	O	
+5-15	auf	APPR	auf	_	O	O	
+5-16	d~ckende	NN	<unknown>	_	O	O	
+5-17	Stimmung	NN	Stimmung	_	O	O	
+5-18	einzuwirken	VVIZU	einwirken	_	O	O	
+5-19	scheint	VVFIN	scheinen	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	nur	ADV	nur	_	O	O	
+5-22	1	CARD	1	_	O	O	
+5-23	mal	ADV	mal	_	O	O	
+5-24	täglich	ADJD	täglich	_	O	O	
+5-25	.	$.	.	_	O	O	
+
+#id=6
+#text=Das D~senübel scheint intensiv schwächer, aber ausgedehnter bereits seit einiger Zeit.
+6-1	Das	ART	die	_	O	O	
+6-2	D~senübel	NN	<unknown>	_	O	O	
+6-3	scheint	VVFIN	scheinen	_	O	O	
+6-4	intensiv	ADJD	intensiv	_	O	O	
+6-5	schwächer	ADJD	schwach	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	aber	ADV	aber	_	O	O	
+6-8	ausgedehnter	ADJD	ausgedehnter	_	O	O	
+6-9	bereits	ADV	bereits	_	O	O	
+6-10	seit	APPR	seit	_	O	O	
+6-11	einiger	PIAT	einige	_	O	O	
+6-12	Zeit	NN	Zeit	_	O	O	
+6-13	.	$.	.	_	O	O	
+
+#id=7
+#text=Was Sie nach Rücksprache mit Wahle über Wasserkur oder sonstige FI~hlingsbenutzung uns rathen wollen erwarten wir verlangend.
+7-1	Was	PWS	was	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	nach	APPR	nach	_	O	O	
+7-4	Rücksprache	NN	Rücksprache	_	O	O	
+7-5	mit	APPR	mit	_	O	O	
+7-6	Wahle	NN	<unknown>	_	O	O	
+7-7	über	APPR	über	_	O	O	
+7-8	Wasserkur	NN	<unknown>	_	O	O	
+7-9	oder	KON	oder	_	O	O	
+7-10	sonstige	ADJA	sonstig	_	O	O	
+7-11	FI~hlingsbenutzung	NN	<unknown>	_	O	O	
+7-12	uns	PRF	wir	_	O	O	
+7-13	rathen	NE	<unknown>	_	O	O	
+7-14	wollen	VMFIN	wollen	_	O	O	
+7-15	erwarten	VVFIN	erwarten	_	O	O	
+7-16	wir	PPER	wir	_	O	O	
+7-17	verlangend	ADJD	verlangend	_	O	O	
+7-18	.	$.	.	_	O	O	
+
+#id=8
+#text=Quer am Rande Getreulichst der Ihrige Gerhard Ihre Denkmälerkunde ist Wiese geneigt selbst an Miss Thomson zu bringen.
+8-1	Quer	ADJD	quer	_	O	O	
+8-2	am	APPRART	an	_	O	O	
+8-3	Rande	NN	Rand	_	O	O	
+8-4	Getreulichst	VVFIN	<unknown>	_	O	O	
+8-5	der	ART	die	_	O	O	
+8-6	Ihrige	PPOSAT	ihrige	_	O	O	
+8-7	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-8	Ihre	PPOSAT	ihr	_	O	O	
+8-9	Denkmälerkunde	NN	<unknown>	_	O	O	
+8-10	ist	VAFIN	sein	_	O	O	
+8-11	Wiese	NN	Wiese	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-12	geneigt	ADJD	geneigt	_	O	O	
+8-13	selbst	ADV	selbst	_	O	O	
+8-14	an	APPR	an	_	O	O	
+8-15	Miss	NN	Miss	_	O	O	
+8-16	Thomson	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-17	zu	PTKZU	zu	_	O	O	
+8-18	bringen	VVINF	bringen	_	O	O	
+8-19	.	$.	.	_	O	O	
+
+#id=9
+#text=Von Aristoteles sind nur einzelne Schriften in kleiner Ausgabe gedruckt.
+9-1	Von	APPR	von	_	O	O	
+9-2	Aristoteles	NN	Aristoteles	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-3	sind	VAFIN	sein	_	O	O	
+9-4	nur	ADV	nur	_	O	O	
+9-5	einzelne	ADJA	einzeln	_	O	O	
+9-6	Schriften	NN	Schrift	_	O	O	
+9-7	in	APPR	in	_	O	O	
+9-8	kleiner	ADJA	klein	_	O	O	
+9-9	Ausgabe	NN	Ausgabe	_	O	O	
+9-10	gedruckt	VVPP	drucken	_	O	O	
+9-11	.	$.	.	_	O	O	
+
+#id=10
+#text=Für G. Hermanns NaChfolger soll Lehrs abgelehnt haben; Hase und dann erst Ritschl sollen wie es heißt
+10-1	Für	APPR	für	_	O	O	
+10-2	G.	NE	G.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-3	Hermanns	NE	Hermann	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-4	NaChfolger	NN	Nachfolger	_	O	O	
+10-5	soll	VMFIN	sollen	_	O	O	
+10-6	Lehrs	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-7	abgelehnt	VVPP	ablehnen	_	O	O	
+10-8	haben	VAINF	haben	_	O	O	
+10-9	;	$.	;	_	O	O	
+10-10	Hase	NN	Hase	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-11	und	KON	und	_	O	O	
+10-12	dann	ADV	dann	_	O	O	
+10-13	erst	ADV	erst	_	O	O	
+10-14	Ritschl	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-15	sollen	VMFIN	sollen	_	O	O	
+10-16	wie	KOKOM	wie	_	O	O	
+10-17	es	PPER	es	_	O	O	
+10-18	heißt	VVFIN	heißen	_	O	O	
+

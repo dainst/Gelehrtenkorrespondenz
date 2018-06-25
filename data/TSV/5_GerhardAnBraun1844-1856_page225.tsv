@@ -1,0 +1,54 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=5 Gerhard an Braun Berlin, 16. Juli 1846 Ob das Institut für Serradifalco zahle, habe ich bereits Henzen gefragt.
+1-1	5	CARD	5	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Ob	APPR	ob	_	O	O	
+1-12	das	ART	die	_	O	O	
+1-13	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-14	für	APPR	für	_	O	O	
+1-15	Serradifalco	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-16	zahle	VVFIN	zahlen	_	O	O	
+1-17	,	$,	,	_	O	O	
+1-18	habe	VAFIN	haben	_	O	O	
+1-19	ich	PPER	ich	_	O	O	
+1-20	bereits	ADV	bereits	_	O	O	
+1-21	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-22	gefragt	VVPP	fragen	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Wie wird sich die Archäologie beim neuen Papst stehen ?
+2-1	Wie	KOUS	wie	_	O	O	
+2-2	wird	VAFIN	werden	_	O	O	
+2-3	sich	PRF	sich	_	O	O	
+2-4	die	ART	die	_	O	O	
+2-5	Archäologie	NN	Archäologie	_	O	O	
+2-6	beim	APPRART	bei	_	O	O	
+2-7	neuen	ADJA	neu	_	O	O	
+2-8	Papst	NN	Papst	_	O	O	
+2-9	stehen	VVINF	stehen	_	O	O	
+2-10	?	$.	?	_	O	O	
+
+#id=3
+#text=Viel Herzliches an Ihre liebe Frau und werthe Freunde Thr Gerhard
+3-1	Viel	PIAT	viele	_	O	O	
+3-2	Herzliches	NN	Herzliche	_	O	O	
+3-3	an	APPR	an	_	O	O	
+3-4	Ihre	PPOSAT	ihr	_	O	O	
+3-5	liebe	ADJA	lieb	_	O	O	
+3-6	Frau	NN	Frau	_	O	O	
+3-7	und	KON	und	_	O	O	
+3-8	werthe	ADJA	<unknown>	_	O	O	
+3-9	Freunde	NN	Freund	_	O	O	
+3-10	Thr	NN	<unknown>	_	O	O	
+3-11	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

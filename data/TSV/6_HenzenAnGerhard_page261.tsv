@@ -1,0 +1,335 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=160 10!XI/55 2 Henzen an Gerhard ~~IS meinen eignen Portoantheil, auf Sc.
+1-1	160	CARD	160	_	O	O	
+1-2	10	CARD	10	_	O	O	
+1-3	!	$.	!	_	O	O	
+1-4	XI/55	CARD	<unknown>	_	O	O	
+1-5	2	CARD	2	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-9	~~IS	NN	<unknown>	_	O	O	
+1-10	meinen	PPOSAT	mein	_	O	O	
+1-11	eignen	ADJA	eigen	_	O	O	
+1-12	Portoantheil	NN	<unknown>	_	O	O	
+1-13	,	$,	,	_	O	O	
+1-14	auf	APPR	auf	_	O	O	
+1-15	Sc.	NE	<unknown>	_	O	O	
+
+#id=2
+#text=42.92, weniger, als ich fürchtete; dabei hat noch der Consul von Ancona uns ds.
+2-1	42.92	CARD	@card@	_	O	O	
+2-2	,	$,	,	_	O	O	
+2-3	weniger	ADV	weniger	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	als	KOUS	als	_	O	O	
+2-6	ich	PPER	ich	_	O	O	
+2-7	fürchtete	VVFIN	fürchten	_	O	O	
+2-8	;	$.	;	_	O	O	
+2-9	dabei	PAV	dabei	_	O	O	
+2-10	hat	VAFIN	haben	_	O	O	
+2-11	noch	ADV	noch	_	O	O	
+2-12	der	ART	die	_	O	O	
+2-13	Consul	NN	<unknown>	_	O	O	
+2-14	von	APPR	von	_	O	O	
+2-15	Ancona	NE	Ancona	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-16	uns	PRF	wir	_	O	O	
+2-17	ds.	ADJD	<unknown>	_	O	O	
+
+#id=3
+#text=Ungethüm, da er es nicht versichern konnte, per Diligence hieher geschickt, was allein 13 Scudi kostete.
+3-1	Ungethüm	NN	<unknown>	_	O	O	
+3-2	,	$,	,	_	O	O	
+3-3	da	KOUS	da	_	O	O	
+3-4	er	PPER	er	_	O	O	
+3-5	es	PPER	es	_	O	O	
+3-6	nicht	PTKNEG	nicht	_	O	O	
+3-7	versichern	VVINF	versichern	_	O	O	
+3-8	konnte	VMFIN	können	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	per	APPR	per	_	O	O	
+3-11	Diligence	NN	<unknown>	_	O	O	
+3-12	hieher	NN	<unknown>	_	O	O	
+3-13	geschickt	VVPP	schicken	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	was	PRELS	was	_	O	O	
+3-16	allein	ADV	allein	_	O	O	
+3-17	13	CARD	13	_	O	O	
+3-18	Scudi	NN	<unknown>	_	O	O	
+3-19	kostete	VVFIN	kosten	_	O	O	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=Vom Dazio hat ~hile uns glücklicher Weise befreit.
+4-1	Vom	APPRART	von	_	O	O	
+4-2	Dazio	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	hat	VAFIN	haben	_	O	O	
+4-4	~hile	ADJD	<unknown>	_	O	O	
+4-5	uns	PPER	wir	_	O	O	
+4-6	glücklicher	ADJA	glücklich	_	O	O	
+4-7	Weise	NN	Weise	_	O	O	
+4-8	befreit	VVPP	befreien	_	O	O	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=I Da die Kiste das Gewicht von 587 hiesigen Pfunden hat, so ist die Ausgabe noch gnädig abgegangen.
+5-1	I	FM	I	_	O	O	
+5-2	Da	ADV	da	_	O	O	
+5-3	die	ART	die	_	O	O	
+5-4	Kiste	NN	Kiste	_	O	O	
+5-5	das	ART	die	_	O	O	
+5-6	Gewicht	NN	Gewicht	_	O	O	
+5-7	von	APPR	von	_	O	O	
+5-8	587	CARD	@card@	_	O	O	
+5-9	hiesigen	ADJA	hiesig	_	O	O	
+5-10	Pfunden	NN	Pfund	_	O	O	
+5-11	hat	VAFIN	haben	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	so	ADV	so	_	O	O	
+5-14	ist	VAFIN	sein	_	O	O	
+5-15	die	ART	die	_	O	O	
+5-16	Ausgabe	NN	Ausgabe	_	O	O	
+5-17	noch	ADV	noch	_	O	O	
+5-18	gnädig	ADJD	gnädig	_	O	O	
+5-19	abgegangen	VVPP	abgehen	_	O	O	
+5-20	.	$.	.	_	O	O	
+
+#id=6
+#text=Wie stehen die Unterhandlungen über die Ambrosiana?
+6-1	Wie	KOUS	wie	_	O	O	
+6-2	stehen	VVFIN	stehen	_	O	O	
+6-3	die	ART	die	_	O	O	
+6-4	Unterhandlungen	NN	Unterhandlung	_	O	O	
+6-5	über	APPR	über	_	O	O	
+6-6	die	ART	die	_	O	O	
+6-7	Ambrosiana	NE	<unknown>	_	O	O	
+6-8	?	$.	?	_	O	O	
+
+#id=7
+#text=Wahrscheinlich geht de Rossi im nächsten Sommer nach Brescia; er würde bereit sein, in Mailand die etwa bis dahin gemachte Abschrift zu revidiren, natürlich unter Vergütung seines Aufenthalts.
+7-1	Wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+7-2	geht	VVFIN	gehen	_	O	O	
+7-3	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-4	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-5	im	APPRART	in	_	O	O	
+7-6	nächsten	ADJA	nah	_	O	O	
+7-7	Sommer	NN	Sommer	_	O	O	
+7-8	nach	APPR	nach	_	O	O	
+7-9	Brescia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-10	;	$.	;	_	O	O	
+7-11	er	PPER	er	_	O	O	
+7-12	würde	VAFIN	werden	_	O	O	
+7-13	bereit	ADJD	bereit	_	O	O	
+7-14	sein	VAINF	sein	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	in	APPR	in	_	O	O	
+7-17	Mailand	NE	Mailand	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-18	die	ART	die	_	O	O	
+7-19	etwa	ADV	etwa	_	O	O	
+7-20	bis	APPR	bis	_	O	O	
+7-21	dahin	PAV	dahin	_	O	O	
+7-22	gemachte	ADJA	gemacht	_	O	O	
+7-23	Abschrift	NN	Abschrift	_	O	O	
+7-24	zu	APPR	zu	_	O	O	
+7-25	revidiren	NN	<unknown>	_	O	O	
+7-26	,	$,	,	_	O	O	
+7-27	natürlich	ADV	natürlich	_	O	O	
+7-28	unter	APPR	unter	_	O	O	
+7-29	Vergütung	NN	Vergütung	_	O	O	
+7-30	seines	PPOSAT	sein	_	O	O	
+7-31	Aufenthalts	NN	Aufenthalt	_	O	O	
+7-32	.	$.	.	_	O	O	
+
+#id=8
+#text=Der exilirte Peruginer Professor Fabretti sagte mir in 'l'urin, er kenne den gleichT falls exilirten Fürsten Borromeo u. zweifle nicht, dß.
+8-1	Der	ART	die	_	O	O	
+8-2	exilirte	ADJA	<unknown>	_	O	O	
+8-3	Peruginer	NN	<unknown>	_	O	O	
+8-4	Professor	NN	Professor	_	O	O	
+8-5	Fabretti	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	sagte	VVFIN	sagen	_	O	O	
+8-7	mir	PPER	ich	_	O	O	
+8-8	in	APPR	in	_	O	O	
+8-9	'	$(	'	_	O	O	
+8-10	l'urin	NN	<unknown>	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	er	PPER	er	_	O	O	
+8-13	kenne	VVFIN	kennen	_	O	O	
+8-14	den	ART	die	_	O	O	
+8-15	gleichT	ADJA	<unknown>	_	O	O	
+8-16	falls	KOUS	falls	_	O	O	
+8-17	exilirten	ADJA	<unknown>	_	O	O	
+8-18	Fürsten	NN	Fürst	_	O	O	
+8-19	Borromeo	NE	Borromeo	_	O	O	
+8-20	u.	KON	und	_	O	O	
+8-21	zweifle	VVFIN	zweifeln	_	O	O	
+8-22	nicht	PTKNEG	nicht	_	O	O	
+8-23	,	$,	,	_	O	O	
+8-24	dß	VVFIN	<unknown>	_	O	O	
+8-25	.	$.	.	_	O	O	
+
+#id=9
+#text=derselbe jede Arbeit zu dsm. Zwecke gestatten werde.
+9-1	derselbe	PDAT	derselb	_	O	O	
+9-2	jede	PIAT	jede	_	O	O	
+9-3	Arbeit	NN	Arbeit	_	O	O	
+9-4	zu	APPR	zu	_	O	O	
+9-5	dsm	NE	<unknown>	_	O	O	
+9-6	.	$.	.	_	O	O	
+9-7	Zwecke	NN	Zweck	_	O	O	
+9-8	gestatten	VVINF	gestatten	_	O	O	
+9-9	werde	VAFIN	werden	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=Dann aber würde es von äußerster Wichtigkeit sei~, für Verona Schritte zu thun, damit de Rossi dort dieselbe Arbeit für Fra Giocondo u. den noch wichtigen Felice Feliciano machen könne.
+10-1	Dann	ADV	dann	_	O	O	
+10-2	aber	ADV	aber	_	O	O	
+10-3	würde	VAFIN	werden	_	O	O	
+10-4	es	PPER	es	_	O	O	
+10-5	von	APPR	von	_	O	O	
+10-6	äußerster	ADJA	äußer	_	O	O	
+10-7	Wichtigkeit	NN	Wichtigkeit	_	O	O	
+10-8	sei~	VVFIN	<unknown>	_	O	O	
+10-9	,	$,	,	_	O	O	
+10-10	für	APPR	für	_	O	O	
+10-11	Verona	NE	Verona	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-12	Schritte	NN	Schritt	_	O	O	
+10-13	zu	APPR	zu	_	O	O	
+10-14	thun	NE	<unknown>	_	O	O	
+10-15	,	$,	,	_	O	O	
+10-16	damit	KOUS	damit	_	O	O	
+10-17	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-18	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-19	dort	ADV	dort	_	O	O	
+10-20	dieselbe	PDAT	dieselb	_	O	O	
+10-21	Arbeit	NN	Arbeit	_	O	O	
+10-22	für	APPR	für	_	O	O	
+10-23	Fra	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-24	Giocondo	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-25	u.	APPR	um	_	O	O	
+10-26	den	ART	die	_	O	O	
+10-27	noch	ADV	noch	_	O	O	
+10-28	wichtigen	ADJA	wichtig	_	O	O	
+10-29	Felice	NE	Felice	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-30	Feliciano	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-31	machen	VVINF	machen	_	O	O	
+10-32	könne	VMFIN	können	_	O	O	
+10-33	.	$.	.	_	O	O	
+
+#id=11
+#text=Ich habe Mommsen gebeten, in seinem Rapport darauf anzutragen.
+11-1	Ich	PPER	ich	_	O	O	
+11-2	habe	VAFIN	haben	_	O	O	
+11-3	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-4	gebeten	VVPP	bitten	_	O	O	
+11-5	,	$,	,	_	O	O	
+11-6	in	APPR	in	_	O	O	
+11-7	seinem	PPOSAT	sein	_	O	O	
+11-8	Rapport	NN	Rapport	_	O	O	
+11-9	darauf	PAV	darauf	_	O	O	
+11-10	anzutragen	VVIZU	antragen	_	O	O	
+11-11	.	$.	.	_	O	O	
+
+#id=12
+#text=Die Veroneser canonici sind bekanntlich zäher u. eifersüchtiger, als selbst die Neapolitaner, u. ohne diplomatische Verwendung, resp. Einschreiten Radetzky's, wird Nichts zu machen sein.
+12-1	Die	ART	die	_	O	O	
+12-2	Veroneser	NE	<unknown>	_	O	O	
+12-3	canonici	NE	<unknown>	_	O	O	
+12-4	sind	VAFIN	sein	_	O	O	
+12-5	bekanntlich	ADV	bekanntlich	_	O	O	
+12-6	zäher	ADJD	zäh	_	O	O	
+12-7	u.	KON	und	_	O	O	
+12-8	eifersüchtiger	ADJD	eifersüchtig	_	O	O	
+12-9	,	$,	,	_	O	O	
+12-10	als	KOUS	als	_	O	O	
+12-11	selbst	ADV	selbst	_	O	O	
+12-12	die	ART	die	_	O	O	
+12-13	Neapolitaner	NN	Neapolitaner	_	O	O	
+12-14	,	$,	,	_	O	O	
+12-15	u.	KON	und	_	O	O	
+12-16	ohne	APPR	ohne	_	O	O	
+12-17	diplomatische	ADJA	diplomatisch	_	O	O	
+12-18	Verwendung	NN	Verwendung	_	O	O	
+12-19	,	$,	,	_	O	O	
+12-20	resp.	ADV	resp.	_	O	O	
+12-21	Einschreiten	NN	Einschreiten	_	O	O	
+12-22	Radetzky's	VVFIN	<unknown>	_	O	O	
+12-23	,	$,	,	_	O	O	
+12-24	wird	VAFIN	werden	_	O	O	
+12-25	Nichts	PIS	nichts	_	O	O	
+12-26	zu	PTKZU	zu	_	O	O	
+12-27	machen	VVINF	machen	_	O	O	
+12-28	sein	VAINF	sein	_	O	O	
+12-29	.	$.	.	_	O	O	
+
+#id=13
+#text=Die Sache ist aber dringender, als alles Andre, u. bitte ich, sie sogleich zur Sprache zu bringen.
+13-1	Die	ART	die	_	O	O	
+13-2	Sache	NN	Sache	_	O	O	
+13-3	ist	VAFIN	sein	_	O	O	
+13-4	aber	ADV	aber	_	O	O	
+13-5	dringender	ADJD	dringender	_	O	O	
+13-6	,	$,	,	_	O	O	
+13-7	als	KOUS	als	_	O	O	
+13-8	alles	PIS	alle	_	O	O	
+13-9	Andre	NE	Andre	_	O	O	
+13-10	,	$,	,	_	O	O	
+13-11	u.	KON	und	_	O	O	
+13-12	bitte	VVIMP	bitten	_	O	O	
+13-13	ich	PPER	ich	_	O	O	
+13-14	,	$,	,	_	O	O	
+13-15	sie	PPER	sie	_	O	O	
+13-16	sogleich	ADV	sogleich	_	O	O	
+13-17	zur	APPRART	zu	_	O	O	
+13-18	Sprache	NN	Sprache	_	O	O	
+13-19	zu	PTKZU	zu	_	O	O	
+13-20	bringen	VVINF	bringen	_	O	O	
+13-21	.	$.	.	_	O	O	
+
+#id=14
+#text=Einen Antrag an die Akademie stellen kann ich eben nicht, da ich nicht weiß, was seit Juli geschehen oder erreicht ist, wo Pritzel die Unterhandlungen übernahm.
+14-1	Einen	ART	eine	_	O	O	
+14-2	Antrag	NN	Antrag	_	O	O	
+14-3	an	APPR	an	_	O	O	
+14-4	die	ART	die	_	O	O	
+14-5	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+14-6	stellen	VVINF	stellen	_	O	O	
+14-7	kann	VMFIN	können	_	O	O	
+14-8	ich	PPER	ich	_	O	O	
+14-9	eben	ADV	eben	_	O	O	
+14-10	nicht	PTKNEG	nicht	_	O	O	
+14-11	,	$,	,	_	O	O	
+14-12	da	KOUS	da	_	O	O	
+14-13	ich	PPER	ich	_	O	O	
+14-14	nicht	PTKNEG	nicht	_	O	O	
+14-15	weiß	VVFIN	wissen	_	O	O	
+14-16	,	$,	,	_	O	O	
+14-17	was	PRELS	was	_	O	O	
+14-18	seit	APPR	seit	_	O	O	
+14-19	Juli	NN	Juli	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+14-20	geschehen	VVPP	geschehen	_	O	O	
+14-21	oder	KON	oder	_	O	O	
+14-22	erreicht	VVPP	erreichen	_	O	O	
+14-23	ist	VAFIN	sein	_	O	O	
+14-24	,	$,	,	_	O	O	
+14-25	wo	PWAV	wo	_	O	O	
+14-26	Pritzel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-27	die	ART	die	_	O	O	
+14-28	Unterhandlungen	NN	Unterhandlung	_	O	O	
+14-29	übernahm	VVFIN	übernehmen	_	O	O	
+14-30	.	$.	.	_	O	O	
+
+#id=15
+#text=Wir haben hier unsre Emilie todt, Steinha~er wie-
+15-1	Wir	PPER	wir	_	O	O	
+15-2	haben	VAFIN	haben	_	O	O	
+15-3	hier	ADV	hier	_	O	O	
+15-4	unsre	PPOSAT	unsre	_	O	O	
+15-5	Emilie	NE	Emilie	_	O	O	
+15-6	todt	ADJA	<unknown>	_	O	O	
+15-7	,	$,	,	_	O	O	
+15-8	Steinha~er	ADJA	<unknown>	_	O	O	
+15-9	wie-	TRUNC	wie-	_	O	O	
+

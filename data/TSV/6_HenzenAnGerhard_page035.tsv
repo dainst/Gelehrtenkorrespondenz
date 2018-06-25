@@ -1,0 +1,51 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=: , 31 17/1/52 4 Henzen an Gerhard P.S. Ist es wahr, dß.
+1-1	:	$.	:	_	O	O	
+1-2	,	$,	,	_	O	O	
+1-3	31	CARD	31	_	O	O	
+1-4	17/1/52	CARD	@card@	_	O	O	
+1-5	4	CARD	4	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	P.S.	NE	P.S.	_	O	O	
+1-10	Ist	VAFIN	sein	_	O	O	
+1-11	es	PPER	es	_	O	O	
+1-12	wahr	ADJD	wahr	_	O	O	
+1-13	,	$,	,	_	O	O	
+1-14	dß	VVFIN	<unknown>	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=Urlichs jetzt wirklich an dem Codex topographicus denkt, u. bis wann kann derselbe erscheinen?
+2-1	Urlichs	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	jetzt	ADV	jetzt	_	O	O	
+2-3	wirklich	ADJD	wirklich	_	O	O	
+2-4	an	APPR	an	_	O	O	
+2-5	dem	ART	die	_	O	O	
+2-6	Codex	NN	<unknown>	_	O	O	
+2-7	topographicus	NE	<unknown>	_	O	O	
+2-8	denkt	VVFIN	denken	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	u.	KON	und	_	O	O	
+2-11	bis	KON	bis	_	O	O	
+2-12	wann	PWAV	wann	_	O	O	
+2-13	kann	VMFIN	können	_	O	O	
+2-14	derselbe	PDS	derselbe	_	O	O	
+2-15	erscheinen	VVINF	erscheinen	_	O	O	
+2-16	?	$.	?	_	O	O	
+
+#id=3
+#text=Einige einschlägige Notizen darüber würden mir sehr erwünscht sein.
+3-1	Einige	PIAT	einige	_	O	O	
+3-2	einschlägige	ADJA	einschlägig	_	O	O	
+3-3	Notizen	NN	Notiz	_	O	O	
+3-4	darüber	PAV	darüber	_	O	O	
+3-5	würden	VAFIN	werden	_	O	O	
+3-6	mir	PPER	ich	_	O	O	
+3-7	sehr	ADV	sehr	_	O	O	
+3-8	erwünscht	ADJD	erwünscht	_	O	O	
+3-9	sein	VAINF	sein	_	O	O	
+3-10	.	$.	.	_	O	O	
+

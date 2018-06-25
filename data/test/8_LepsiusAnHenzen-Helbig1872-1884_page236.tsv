@@ -1,0 +1,55 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=123 2 Lepsius an Helbig Berlin, 31. Juli 1875 doch bis jetzt die Erfüllung ihrer Wünsche mit einiger Sicherheit voraussagen zu können.
+1-1	123	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	31	CARD	31	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	doch	ADV	doch	_	O	O	
+1-13	bis	APPR	bis	_	O	O	
+1-14	jetzt	ADV	jetzt	_	O	O	
+1-15	die	ART	die	_	O	O	
+1-16	Erfüllung	NN	Erfüllung	_	O	O	
+1-17	ihrer	PPOSAT	ihr	_	O	O	
+1-18	Wünsche	NN	Wunsch	_	O	O	
+1-19	mit	APPR	mit	_	O	O	
+1-20	einiger	PIAT	einige	_	O	O	
+1-21	Sicherheit	NN	Sicherheit	_	O	O	
+1-22	voraussagen	VVINF	voraussagen	_	O	O	
+1-23	zu	PTKZU	zu	_	O	O	
+1-24	können	VMINF	können	_	O	O	
+1-25	.	$.	.	_	O	O	
+
+#id=2
+#text=Die Vorschläge der Herren Chessa und Solavo zu Korrespondenten sind notirt worden für den 9. Dezember.
+2-1	Die	ART	die	_	O	O	
+2-2	Vorschläge	NN	Vorschlag	_	O	O	
+2-3	der	ART	die	_	O	O	
+2-4	Herren	NN	Herr	_	O	O	
+2-5	Chessa	NE	<unknown>	_	O	O	
+2-6	und	KON	und	_	O	O	
+2-7	Solavo	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-8	zu	APPR	zu	_	O	O	
+2-9	Korrespondenten	NN	Korrespondent	_	O	O	
+2-10	sind	VAFIN	sein	_	O	O	
+2-11	notirt	NN	<unknown>	_	O	O	
+2-12	worden	VAPP	werden	_	O	O	
+2-13	für	APPR	für	_	O	O	
+2-14	den	ART	die	_	O	O	
+2-15	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-16	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-17	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-18	.	$.	.	_	O	O	
+
+#id=3
+#text=R Lepsius
+3-1	R	NE	r	_	O	O	
+3-2	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

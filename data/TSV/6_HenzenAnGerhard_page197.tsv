@@ -1,0 +1,355 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=r 118 Renzen an Gerhard 9/V/54 3 ganz wegblieb.
+1-1	r	FM	r	_	O	O	
+1-2	118	CARD	@card@	_	O	O	
+1-3	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	9/V/54	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	3	CARD	3	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	ganz	ADV	ganz	_	O	O	
+1-9	wegblieb	VVFIN	wegbleiben	_	O	O	
+1-10	.	$.	.	_	O	O	
+
+#id=2
+#text=So kam z,uletzt noch kaum dieser und jener, u. zugleich fehlte es gänzlich an Neuigkeiten.
+2-1	So	ADV	so	_	O	O	
+2-2	kam	VVFIN	kommen	_	O	O	
+2-3	z,uletzt	NE	<unknown>	_	O	O	
+2-4	noch	ADV	noch	_	O	O	
+2-5	kaum	ADV	kaum	_	O	O	
+2-6	dieser	PDAT	dies	_	O	O	
+2-7	und	KON	und	_	O	O	
+2-8	jener	PDS	jen	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	u.	KON	und	_	O	O	
+2-11	zugleich	ADV	zugleich	_	O	O	
+2-12	fehlte	VVFIN	fehlen	_	O	O	
+2-13	es	PPER	es	_	O	O	
+2-14	gänzlich	ADJD	gänzlich	_	O	O	
+2-15	an	APPR	an	_	O	O	
+2-16	Neuigkeiten	NN	Neuigkeit	_	O	O	
+2-17	.	$.	.	_	O	O	
+
+#id=3
+#text=Es ist zu hoffen, dß.
+3-1	Es	PPER	es	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	zu	PTKZU	zu	_	O	O	
+3-4	hoffen	VVINF	hoffen	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	dß	VVFIN	<unknown>	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=im nächsten Winter die Adunanzen wieder mehr in Gang kommen mögen.
+4-1	im	APPRART	in	_	O	O	
+4-2	nächsten	ADJA	nah	_	O	O	
+4-3	Winter	NN	Winter	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	Adunanzen	NN	<unknown>	_	O	O	
+4-6	wieder	ADV	wieder	_	O	O	
+4-7	mehr	ADV	mehr	_	O	O	
+4-8	in	APPR	in	_	O	O	
+4-9	Gang	NN	Gang	_	O	O	
+4-10	kommen	VVINF	kommen	_	O	O	
+4-11	mögen	VMFIN	mögen	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=r Danke für den Bogen Monatsbericht.
+5-1	r	NE	r	_	O	O	
+5-2	Danke	NN	Dank	_	O	O	
+5-3	für	APPR	für	_	O	O	
+5-4	den	ART	die	_	O	O	
+5-5	Bogen	NN	Bogen	_	O	O	
+5-6	Monatsbericht	NN	Monatsbericht	_	O	O	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=Uebrigens erkfirt Zumpt in einem neulichen Briefe an de Rossi, wie sehr er sich freue, mit demselben so einstimmig zu sein, da letzterer offenbar nur aus Freundschaft für M. seine wahre Meinung verhäl te .
+6-1	Uebrigens	NN	<unknown>	_	O	O	
+6-2	erkfirt	NN	<unknown>	_	O	O	
+6-3	Zumpt	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	in	APPR	in	_	O	O	
+6-5	einem	ART	eine	_	O	O	
+6-6	neulichen	ADJA	<unknown>	_	O	O	
+6-7	Briefe	NN	Brief	_	O	O	
+6-8	an	APPR	an	_	O	O	
+6-9	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-11	,	$,	,	_	O	O	
+6-12	wie	KOUS	wie	_	O	O	
+6-13	sehr	ADV	sehr	_	O	O	
+6-14	er	PPER	er	_	O	O	
+6-15	sich	PRF	sich	_	O	O	
+6-16	freue	VVFIN	freuen	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	mit	APPR	mit	_	O	O	
+6-19	demselben	PDAT	dieselb	_	O	O	
+6-20	so	ADV	so	_	O	O	
+6-21	einstimmig	ADJD	einstimmig	_	O	O	
+6-22	zu	PTKZU	zu	_	O	O	
+6-23	sein	VAINF	sein	_	O	O	
+6-24	,	$,	,	_	O	O	
+6-25	da	KOUS	da	_	O	O	
+6-26	letzterer	ADJA	letzt	_	O	O	
+6-27	offenbar	ADJD	offenbar	_	O	O	
+6-28	nur	ADV	nur	_	O	O	
+6-29	aus	APPR	aus	_	O	O	
+6-30	Freundschaft	NN	Freundschaft	_	O	O	
+6-31	für	APPR	für	_	O	O	
+6-32	M.	NE	M.	_	O	O	
+6-33	seine	PPOSAT	sein	_	O	O	
+6-34	wahre	ADJA	wahr	_	O	O	
+6-35	Meinung	NN	Meinung	_	O	O	
+6-36	verhäl	NE	<unknown>	_	O	O	
+6-37	te	VVFIN	<unknown>	_	O	O	
+6-38	.	$.	.	_	O	O	
+
+#id=7
+#text='.vas soll das bedeuten?
+7-1	'	$(	'	_	O	O	
+7-2	.vas	NN	<unknown>	_	O	O	
+7-3	soll	VMFIN	sollen	_	O	O	
+7-4	das	PDS	die	_	O	O	
+7-5	bedeuten	VVINF	bedeuten	_	O	O	
+7-6	?	$.	?	_	O	O	
+
+#id=8
+#text=Uns hat das viel lachen gemacht.
+8-1	Uns	PPER	wir	_	O	O	
+8-2	hat	VAFIN	haben	_	O	O	
+8-3	das	PDS	die	_	O	O	
+8-4	viel	ADV	viel	_	O	O	
+8-5	lachen	VVFIN	lachen	_	O	O	
+8-6	gemacht	VVPP	machen	_	O	O	
+8-7	.	$.	.	_	O	O	
+
+#id=9
+#text=Nun aber noch die Bitte, die Frage der Copialien endlicb aufts Rejne zu bringen.
+9-1	Nun	ADV	nun	_	O	O	
+9-2	aber	ADV	aber	_	O	O	
+9-3	noch	ADV	noch	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	Bitte	NN	Bitte	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	die	ART	die	_	O	O	
+9-8	Frage	NN	Frage	_	O	O	
+9-9	der	ART	die	_	O	O	
+9-10	Copialien	NN	<unknown>	_	O	O	
+9-11	endlicb	ADJA	<unknown>	_	O	O	
+9-12	aufts	NN	<unknown>	_	O	O	
+9-13	Rejne	NN	<unknown>	_	O	O	
+9-14	zu	PTKZU	zu	_	O	O	
+9-15	bringen	VVINF	bringen	_	O	O	
+9-16	.	$.	.	_	O	O	
+
+#id=10
+#text=Zwei Copisten arbeiten, ein sehr tüchtiger, Schiller Sarti's, den wir mit 11 .scudi monatlich für die Vatic~na unter aussicht auf l~n[ere Besch~fti~ung angestellt haben; ein zweiter, weniger gebildet, erhi:il t nur 10 Ecudi flir Cl ie Folge u. arbeitet zunächst nur bis zum ::·chluB der Bibliothek im Juni.
+10-1	Zwei	CARD	zwei	_	O	O	
+10-2	Copisten	NN	<unknown>	_	O	O	
+10-3	arbeiten	VVFIN	arbeiten	_	O	O	
+10-4	,	$,	,	_	O	O	
+10-5	ein	ART	eine	_	O	O	
+10-6	sehr	ADV	sehr	_	O	O	
+10-7	tüchtiger	ADJD	tüchtig	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	Schiller	NE	Schiller	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-10	Sarti's	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-11	,	$,	,	_	O	O	
+10-12	den	PRELS	die	_	O	O	
+10-13	wir	PPER	wir	_	O	O	
+10-14	mit	APPR	mit	_	O	O	
+10-15	11	CARD	11	_	O	O	
+10-16	.scudi	NN	<unknown>	_	O	O	
+10-17	monatlich	ADJD	monatlich	_	O	O	
+10-18	für	APPR	für	_	O	O	
+10-19	die	ART	die	_	O	O	
+10-20	Vatic~na	NN	<unknown>	_	O	O	
+10-21	unter	APPR	unter	_	O	O	
+10-22	aussicht	NN	Aussicht	_	O	O	
+10-23	auf	APPR	auf	_	O	O	
+10-24	l~n[ere	NN	<unknown>	_	O	O	
+10-25	Besch~fti~ung	NN	<unknown>	_	O	O	
+10-26	angestellt	VVPP	anstellen	_	O	O	
+10-27	haben	VAFIN	haben	_	O	O	
+10-28	;	$.	;	_	O	O	
+10-29	ein	ART	eine	_	O	O	
+10-30	zweiter	ADJA	zweit	_	O	O	
+10-31	,	$,	,	_	O	O	
+10-32	weniger	ADV	weniger	_	O	O	
+10-33	gebildet	VVPP	bilden	_	O	O	
+10-34	,	$,	,	_	O	O	
+10-35	erhi:il	ADJD	<unknown>	_	O	O	
+10-36	t	NN	t	_	O	O	
+10-37	nur	ADV	nur	_	O	O	
+10-38	10	CARD	10	_	O	O	
+10-39	Ecudi	NN	<unknown>	_	O	O	
+10-40	flir	NE	<unknown>	_	O	O	
+10-41	Cl	NE	<unknown>	_	O	O	
+10-42	ie	ADJA	<unknown>	_	O	O	
+10-43	Folge	NN	Folge	_	O	O	
+10-44	u.	KON	und	_	O	O	
+10-45	arbeitet	VVFIN	arbeiten	_	O	O	
+10-46	zunächst	ADV	zunächst	_	O	O	
+10-47	nur	ADV	nur	_	O	O	
+10-48	bis	APPR	bis	_	O	O	
+10-49	zum	APPRART	zu	_	O	O	
+10-50	::·chluB	NN	<unknown>	_	O	O	
+10-51	der	ART	die	_	O	O	
+10-52	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-53	im	APPRART	in	_	O	O	
+10-54	Juni	NN	Juni	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+10-55	.	$.	.	_	O	O	
+
+#id=11
+#text='Nüßten wir aber, über welche Summe wir für dieses Jahr disponiren können, so ~irden wir leicht noch einen dritten beschäftigen.
+11-1	'	$(	'	_	O	O	
+11-2	Nüßten	VVFIN	<unknown>	_	O	O	
+11-3	wir	PPER	wir	_	O	O	
+11-4	aber	ADV	aber	_	O	O	
+11-5	,	$,	,	_	O	O	
+11-6	über	APPR	über	_	O	O	
+11-7	welche	PRELS	welche	_	O	O	
+11-8	Summe	NN	Summe	_	O	O	
+11-9	wir	PPER	wir	_	O	O	
+11-10	für	APPR	für	_	O	O	
+11-11	dieses	PDAT	dies	_	O	O	
+11-12	Jahr	NN	Jahr	_	O	O	
+11-13	disponiren	NN	<unknown>	_	O	O	
+11-14	können	VMFIN	können	_	O	O	
+11-15	,	$,	,	_	O	O	
+11-16	so	ADV	so	_	O	O	
+11-17	~irden	NN	<unknown>	_	O	O	
+11-18	wir	PPER	wir	_	O	O	
+11-19	leicht	ADJD	leicht	_	O	O	
+11-20	noch	ADV	noch	_	O	O	
+11-21	einen	ART	eine	_	O	O	
+11-22	dritten	ADJA	dritt	_	O	O	
+11-23	beschäftigen	VVFIN	beschäftigen	_	O	O	
+11-24	.	$.	.	_	O	O	
+
+#id=12
+#text=Außerdem möchten wir der Wohlfeilheit halber, und um alle Papiere von gleichmäßigem Format zu haben, sogleich eine größere ~:"uanti tät }-'apier anschaffen, so wie Auch I~':appen u. sonstige Dinge nöthic sjnd, die ich flir de Rossi u. seine Arbeiter anschaffen muß, da elie Akademie nicht verlangen wird, dß.
+12-1	Außerdem	ADV	außerdem	_	O	O	
+12-2	möchten	VMFIN	mögen	_	O	O	
+12-3	wir	PPER	wir	_	O	O	
+12-4	der	ART	die	_	O	O	
+12-5	Wohlfeilheit	NN	<unknown>	_	O	O	
+12-6	halber	APPO	halber	_	O	O	
+12-7	,	$,	,	_	O	O	
+12-8	und	KON	und	_	O	O	
+12-9	um	APPR	um	_	O	O	
+12-10	alle	PIAT	alle	_	O	O	
+12-11	Papiere	NN	Papier	_	O	O	
+12-12	von	APPR	von	_	O	O	
+12-13	gleichmäßigem	ADJA	gleichmäßig	_	O	O	
+12-14	Format	NN	Format	_	O	O	
+12-15	zu	PTKZU	zu	_	O	O	
+12-16	haben	VAINF	haben	_	O	O	
+12-17	,	$,	,	_	O	O	
+12-18	sogleich	ADV	sogleich	_	O	O	
+12-19	eine	ART	eine	_	O	O	
+12-20	größere	ADJA	groß	_	O	O	
+12-21	~:"uanti	ADJA	<unknown>	_	O	O	
+12-22	tät	NN	<unknown>	_	O	O	
+12-23	}-'apier	NN	<unknown>	_	O	O	
+12-24	anschaffen	VVFIN	anschaffen	_	O	O	
+12-25	,	$,	,	_	O	O	
+12-26	so	ADV	so	_	O	O	
+12-27	wie	KOKOM	wie	_	O	O	
+12-28	Auch	ADV	auch	_	O	O	
+12-29	I~':appen	NN	<unknown>	_	O	O	
+12-30	u.	APPR	um	_	O	O	
+12-31	sonstige	ADJA	sonstig	_	O	O	
+12-32	Dinge	NN	Ding	_	O	O	
+12-33	nöthic	NE	<unknown>	_	O	O	
+12-34	sjnd	NE	<unknown>	_	O	O	
+12-35	,	$,	,	_	O	O	
+12-36	die	PRELS	die	_	O	O	
+12-37	ich	PPER	ich	_	O	O	
+12-38	flir	NE	<unknown>	_	O	O	
+12-39	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-40	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+12-41	u.	APPR	um	_	O	O	
+12-42	seine	PPOSAT	sein	_	O	O	
+12-43	Arbeiter	NN	Arbeiter	_	O	O	
+12-44	anschaffen	VVINF	anschaffen	_	O	O	
+12-45	muß	VMFIN	müssen	_	O	O	
+12-46	,	$,	,	_	O	O	
+12-47	da	KOUS	da	_	O	O	
+12-48	elie	ADJA	<unknown>	_	O	O	
+12-49	Akademie	NN	Akademie	_	O	O	
+12-50	nicht	PTKNEG	nicht	_	O	O	
+12-51	verlangen	VVINF	verlangen	_	O	O	
+12-52	wird	VAFIN	werden	_	O	O	
+12-53	,	$,	,	_	O	O	
+12-54	dß	VVFIN	<unknown>	_	O	O	
+12-55	.	$.	.	_	O	O	
+
+#id=13
+#text=letzterem Kosten erwachsen, eben so wenig aber, dB.
+13-1	letzterem	ADJA	letzt	_	O	O	
+13-2	Kosten	NN	Kosten	_	O	O	
+13-3	erwachsen	VVPP	erwachsen	_	O	O	
+13-4	,	$,	,	_	O	O	
+13-5	eben	ADV	eben	_	O	O	
+13-6	so	ADV	so	_	O	O	
+13-7	wenig	ADV	wenig	_	O	O	
+13-8	aber	ADV	aber	_	O	O	
+13-9	,	$,	,	_	O	O	
+13-10	dB	NN	<unknown>	_	O	O	
+13-11	.	$.	.	_	O	O	
+
+#id=14
+#text=ich dieselben statt seiner trage.
+14-1	ich	PPER	ich	_	O	O	
+14-2	dieselben	PDS	dieselbe	_	O	O	
+14-3	statt	APPR	statt	_	O	O	
+14-4	seiner	PPOSAT	sein	_	O	O	
+14-5	trage	VVFIN	tragen	_	O	O	
+14-6	.	$.	.	_	O	O	
+
+#id=15
+#text=Da ich nun, wie Sie wissen, von meinem Gehalt lebe u. keine größeren Summen in promptu habe, so möchte ich beld die Sache re- ~ulirt sehen, wenigstens wissen, wie viel man für 1854
+15-1	Da	KOUS	da	_	O	O	
+15-2	ich	PPER	ich	_	O	O	
+15-3	nun	ADV	nun	_	O	O	
+15-4	,	$,	,	_	O	O	
+15-5	wie	KOUS	wie	_	O	O	
+15-6	Sie	PPER	Sie	_	O	O	
+15-7	wissen	VVFIN	wissen	_	O	O	
+15-8	,	$,	,	_	O	O	
+15-9	von	APPR	von	_	O	O	
+15-10	meinem	PPOSAT	mein	_	O	O	
+15-11	Gehalt	NN	Gehalt	_	O	O	
+15-12	lebe	VVFIN	leben	_	O	O	
+15-13	u.	APPR	um	_	O	O	
+15-14	keine	PIAT	keine	_	O	O	
+15-15	größeren	ADJA	groß	_	O	O	
+15-16	Summen	NN	Summe|Summen	_	O	O	
+15-17	in	APPR	in	_	O	O	
+15-18	promptu	NE	<unknown>	_	O	O	
+15-19	habe	VAFIN	haben	_	O	O	
+15-20	,	$,	,	_	O	O	
+15-21	so	ADV	so	_	O	O	
+15-22	möchte	VMFIN	mögen	_	O	O	
+15-23	ich	PPER	ich	_	O	O	
+15-24	beld	NN	<unknown>	_	O	O	
+15-25	die	ART	die	_	O	O	
+15-26	Sache	NN	Sache	_	O	O	
+15-27	re-	TRUNC	re-	_	O	O	
+15-28	~ulirt	NN	<unknown>	_	O	O	
+15-29	sehen	VVINF	sehen	_	O	O	
+15-30	,	$,	,	_	O	O	
+15-31	wenigstens	ADV	wenigstens	_	O	O	
+15-32	wissen	VVFIN	wissen	_	O	O	
+15-33	,	$,	,	_	O	O	
+15-34	wie	KOUS	wie	_	O	O	
+15-35	viel	PIS	viele	_	O	O	
+15-36	man	PIS	man	_	O	O	
+15-37	für	APPR	für	_	O	O	
+15-38	1854	CARD	1854	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+

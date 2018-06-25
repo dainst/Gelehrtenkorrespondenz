@@ -1,0 +1,267 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=411 Lieber Herr Professor Helbig an Henzen Siena, 5. August 1875 g. 5/8 75 Siena, li 3. Aug.
+1-1	411	CARD	@card@	_	O	O	
+1-2	Lieber	ADJA	lieb	_	O	O	
+1-3	Herr	NN	Herr	_	O	O	
+1-4	Professor	NN	Professor	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	5/8	CARD	5/8	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-18	,	$,	,	_	O	O	
+1-19	li	ADJD	<unknown>	_	O	O	
+1-20	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-21	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Aug.	NN	Aug.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1875 Empfangen Sie umgehend die gewünschte Erklärung.
+2-1	1875	CARD	@card@	_	O	O	
+2-2	Empfangen	NN	Empfangen	_	O	O	
+2-3	Sie	PPER	Sie	_	O	O	
+2-4	umgehend	ADJD	umgehend	_	O	O	
+2-5	die	ART	die	_	O	O	
+2-6	gewünschte	ADJA	gewünscht	_	O	O	
+2-7	Erklärung	NN	Erklärung	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Zugleich wollte ich Sie bitten, doch ja Eichler zu veranlassen, möglichst rasch nach Neapel zu gehen.
+3-1	Zugleich	ADV	zugleich	_	O	O	
+3-2	wollte	VMFIN	wollen	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	Sie	PPER	Sie	_	O	O	
+3-5	bitten	VVINF	bitten	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	doch	KON	doch	_	O	O	
+3-8	ja	ADV	ja	_	O	O	
+3-9	Eichler	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-10	zu	PTKZU	zu	_	O	O	
+3-11	veranlassen	VVINF	veranlassen	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	möglichst	ADV	möglichst	_	O	O	
+3-14	rasch	ADJD	rasch	_	O	O	
+3-15	nach	APPR	nach	_	O	O	
+3-16	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-17	zu	PTKZU	zu	_	O	O	
+3-18	gehen	VVINF	gehen	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Wie mir Robert schreibt, sind Wandbilder von dem höchsten Interesse zu Tage gekommen, die leicht bei einem Unwetter zu Grunde gehen können.
+4-1	Wie	KOUS	wie	_	O	O	
+4-2	mir	PPER	ich	_	O	O	
+4-3	Robert	NE	Robert	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-4	schreibt	VVFIN	schreiben	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	sind	VAFIN	sein	_	O	O	
+4-7	Wandbilder	NN	Wandbild	_	O	O	
+4-8	von	APPR	von	_	O	O	
+4-9	dem	ART	die	_	O	O	
+4-10	höchsten	ADJA	hoch	_	O	O	
+4-11	Interesse	NN	Interesse	_	O	O	
+4-12	zu	APPR	zu	_	O	O	
+4-13	Tage	NN	Tag	_	O	O	
+4-14	gekommen	VVPP	kommen	_	O	O	
+4-15	,	$,	,	_	O	O	
+4-16	die	PRELS	die	_	O	O	
+4-17	leicht	ADJD	leicht	_	O	O	
+4-18	bei	APPR	bei	_	O	O	
+4-19	einem	ART	eine	_	O	O	
+4-20	Unwetter	NN	Unwetter	_	O	O	
+4-21	zu	APPR	zu	_	O	O	
+4-22	Grunde	NN	Grund	_	O	O	
+4-23	gehen	VVINF	gehen	_	O	O	
+4-24	können	VMFIN	können	_	O	O	
+4-25	.	$.	.	_	O	O	
+
+#id=5
+#text=Außerdem wäre es der Revision halber zu wünschen, daß die Zeichnungen bald ausgeführt würden; denn es ist zweifelhaft, wie lange Robert in Pompei bleiben wird.
+5-1	Außerdem	ADV	außerdem	_	O	O	
+5-2	wäre	VAFIN	sein	_	O	O	
+5-3	es	PPER	es	_	O	O	
+5-4	der	ART	die	_	O	O	
+5-5	Revision	NN	Revision	_	O	O	
+5-6	halber	APPO	halber	_	O	O	
+5-7	zu	PTKZU	zu	_	O	O	
+5-8	wünschen	VVINF	wünschen	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	daß	KOUS	dass	_	O	O	
+5-11	die	ART	die	_	O	O	
+5-12	Zeichnungen	NN	Zeichnung	_	O	O	
+5-13	bald	ADV	bald	_	O	O	
+5-14	ausgeführt	VVPP	ausführen	_	O	O	
+5-15	würden	VAFIN	werden	_	O	O	
+5-16	;	$.	;	_	O	O	
+5-17	denn	KON	denn	_	O	O	
+5-18	es	PPER	es	_	O	O	
+5-19	ist	VAFIN	sein	_	O	O	
+5-20	zweifelhaft	ADJD	zweifelhaft	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	wie	KOUS	wie	_	O	O	
+5-23	lange	ADV	lange	_	O	O	
+5-24	Robert	NE	Robert	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-25	in	APPR	in	_	O	O	
+5-26	Pompei	ADJD	<unknown>	_	O	O	
+5-27	bleiben	VVINF	bleiben	_	O	O	
+5-28	wird	VAFIN	werden	_	O	O	
+5-29	.	$.	.	_	O	O	
+
+#id=6
+#text=Robert fragt zugleich an, ob Keku1e die "Originalzeichnung" der tarentiner tabula iliaca in Rom hinterlassen.
+6-1	Robert	NE	Robert	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	fragt	VVFIN	fragen	_	O	O	
+6-3	zugleich	ADV	zugleich	_	O	O	
+6-4	an	PTKVZ	an	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	ob	KOUS	ob	_	O	O	
+6-7	Keku1e	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-8	die	ART	die	_	O	O	
+6-9	"	$(	"	_	O	O	
+6-10	Originalzeichnung	NN	Originalzeichnung	_	O	O	
+6-11	"	$(	"	_	O	O	
+6-12	der	ART	die	_	O	O	
+6-13	tarentiner	NN	<unknown>	_	O	O	
+6-14	tabula	NE	<unknown>	_	O	O	
+6-15	iliaca	NE	<unknown>	_	O	O	
+6-16	in	APPR	in	_	O	O	
+6-17	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-18	hinterlassen	VVFIN	hinterlassen	_	O	O	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=Mir hat er sie nicht übergeben.
+7-1	Mir	PPER	ich	_	O	O	
+7-2	hat	VAFIN	haben	_	O	O	
+7-3	er	PPER	er	_	O	O	
+7-4	sie	PPER	sie	_	O	O	
+7-5	nicht	PTKNEG	nicht	_	O	O	
+7-6	übergeben	VVINF	übergeben	_	O	O	
+7-7	.	$.	.	_	O	O	
+
+#id=8
+#text=Vielleicht Ihnen?
+8-1	Vielleicht	ADV	vielleicht	_	O	O	
+8-2	Ihnen	PPER	Sie	_	O	O	
+8-3	?	$.	?	_	O	O	
+
+#id=9
+#text=Übrigens kann auch noch der Lucido, welchen ich Ihnen hinterlassen, ganz gut gestochen werden.
+9-1	Übrigens	ADV	übrigens	_	O	O	
+9-2	kann	VMFIN	können	_	O	O	
+9-3	auch	ADV	auch	_	O	O	
+9-4	noch	ADV	noch	_	O	O	
+9-5	der	ART	die	_	O	O	
+9-6	Lucido	NE	<unknown>	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	welchen	PRELS	welche	_	O	O	
+9-9	ich	PPER	ich	_	O	O	
+9-10	Ihnen	PPER	Sie	_	O	O	
+9-11	hinterlassen	VVFIN	hinterlassen	_	O	O	
+9-12	,	$,	,	_	O	O	
+9-13	ganz	ADV	ganz	_	O	O	
+9-14	gut	ADJD	gut	_	O	O	
+9-15	gestochen	VVPP	stechen	_	O	O	
+9-16	werden	VAFIN	werden	_	O	O	
+9-17	.	$.	.	_	O	O	
+
+#id=10
+#text=Auch bei uns ist nunmehr die Hitze eingetreten, die seit drei Tagen ziemlich stark ist.
+10-1	Auch	ADV	auch	_	O	O	
+10-2	bei	APPR	bei	_	O	O	
+10-3	uns	PPER	wir	_	O	O	
+10-4	ist	VAFIN	sein	_	O	O	
+10-5	nunmehr	ADV	nunmehr	_	O	O	
+10-6	die	ART	die	_	O	O	
+10-7	Hitze	NN	Hitze	_	O	O	
+10-8	eingetreten	VVPP	eintreten	_	O	O	
+10-9	,	$,	,	_	O	O	
+10-10	die	PRELS	die	_	O	O	
+10-11	seit	APPR	seit	_	O	O	
+10-12	drei	CARD	drei	_	O	O	
+10-13	Tagen	NN	Tag	_	O	O	
+10-14	ziemlich	ADV	ziemlich	_	O	O	
+10-15	stark	ADJD	stark	_	O	O	
+10-16	ist	VAFIN	sein	_	O	O	
+10-17	.	$.	.	_	O	O	
+
+#id=11
+#text=Doch wird wohl diese Nacht ein Gewitter abkühlen.
+11-1	Doch	ADV	doch	_	O	O	
+11-2	wird	VAFIN	werden	_	O	O	
+11-3	wohl	ADV	wohl	_	O	O	
+11-4	diese	PDAT	dies	_	O	O	
+11-5	Nacht	NN	Nacht	_	O	O	
+11-6	ein	ART	eine	_	O	O	
+11-7	Gewitter	NN	Gewitter	_	O	O	
+11-8	abkühlen	VVINF	abkühlen	_	O	O	
+11-9	.	$.	.	_	O	O	
+
+#id=12
+#text=Jeden Falls bitte ich Sie, spätestens den 14.
+12-1	Jeden	PIAT	jede	_	O	O	
+12-2	Falls	NN	Fall	_	O	O	
+12-3	bitte	VVFIN	bitten	_	O	O	
+12-4	ich	PPER	ich	_	O	O	
+12-5	Sie	PPER	Sie	_	O	O	
+12-6	,	$,	,	_	O	O	
+12-7	spätestens	ADV	spätestens	_	O	O	
+12-8	den	ART	die	_	O	O	
+12-9	14	CARD	14	_	O	O	
+12-10	.	$.	.	_	O	O	
+
+#id=13
+#text=Abends in Siena einzutreffen, damit Sie das am 15.
+13-1	Abends	ADV	abends	_	O	O	
+13-2	in	APPR	in	_	O	O	
+13-3	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+13-4	einzutreffen	VVIZU	eintreffen	_	O	O	
+13-5	,	$,	,	_	O	O	
+13-6	damit	KOUS	damit	_	O	O	
+13-7	Sie	PPER	Sie	_	O	O	
+13-8	das	PDS	die	_	O	O	
+13-9	am	APPRART	an	_	O	O	
+13-10	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+13-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=14
+#text=Statt findende Palio ansehen können.
+14-1	Statt	APPR	statt	_	O	O	
+14-2	findende	ADJA	findend	_	O	O	
+14-3	Palio	NN	<unknown>	_	O	O	
+14-4	ansehen	VVINF	ansehen	_	O	O	
+14-5	können	VMFIN	können	_	O	O	
+14-6	.	$.	.	_	O	O	
+
+#id=15
+#text=Obwohl im Allgemeinen kein Freund von Volksfesten, werden Sie sich durch den aesthetischen Eindruck, den dieses Fest
+15-1	Obwohl	KOUS	obwohl	_	O	O	
+15-2	im	APPRART	in	_	O	O	
+15-3	Allgemeinen	NN	Allgemeine	_	O	O	
+15-4	kein	PIAT	keine	_	O	O	
+15-5	Freund	NN	Freund	_	O	O	
+15-6	von	APPR	von	_	O	O	
+15-7	Volksfesten	NN	Volksfest	_	O	O	
+15-8	,	$,	,	_	O	O	
+15-9	werden	VAFIN	werden	_	O	O	
+15-10	Sie	PPER	Sie	_	O	O	
+15-11	sich	PRF	sich	_	O	O	
+15-12	durch	APPR	durch	_	O	O	
+15-13	den	ART	die	_	O	O	
+15-14	aesthetischen	ADJA	<unknown>	_	O	O	
+15-15	Eindruck	NN	Eindruck	_	O	O	
+15-16	,	$,	,	_	O	O	
+15-17	den	PRELS	die	_	O	O	
+15-18	dieses	PDAT	dies	_	O	O	
+15-19	Fest	NN	Fest	_	O	O	
+

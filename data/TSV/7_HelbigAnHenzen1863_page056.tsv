@@ -1,0 +1,51 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=I ., E; ,,)1..L ';' 123 3 Helbig an das Institut Paris, 24. März 1865 NB.
+1-1	I	NE	I	_	O	O	
+1-2	.	$.	.	_	O	O	
+1-3	,	$,	,	_	O	O	
+1-4	E	NN	E	_	O	O	
+1-5	;	$.	;	_	O	O	
+1-6	,,)1..L	NN	<unknown>	_	O	O	
+1-7	'	$(	'	_	O	O	
+1-8	;	$.	;	_	O	O	
+1-9	'	$(	'	_	O	O	
+1-10	123	CARD	@card@	_	O	O	
+1-11	3	CARD	3	_	O	O	
+1-12	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-13	an	APPR	an	_	O	O	
+1-14	das	ART	die	_	O	O	
+1-15	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-16	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-17	,	$,	,	_	O	O	
+1-18	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	1865	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	NB	NE	NB	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Bullettinofutter in Hülle und Fülle, worunter ein archaisches Relief mit der Liebe des Hephaistos und der Athene aus Großgriechenland.
+2-1	Bullettinofutter	NN	<unknown>	_	O	O	
+2-2	in	APPR	in	_	O	O	
+2-3	Hülle	NN	Hülle	_	O	O	
+2-4	und	KON	und	_	O	O	
+2-5	Fülle	NN	Fülle	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	worunter	PWAV	worunter	_	O	O	
+2-8	ein	ART	eine	_	B-webanno.custom.LetterEntity_	B-OBJ	
+2-9	archaisches	ADJA	archaisch	_	I-webanno.custom.LetterEntity_	I-OBJ	
+2-10	Relief	NN	Relief	_	I-webanno.custom.LetterEntity_	I-OBJ	
+2-11	mit	APPR	mit	_	O	O	
+2-12	der	ART	die	_	O	O	
+2-13	Liebe	NN	Liebe	_	O	O	
+2-14	des	ART	die	_	O	O	
+2-15	Hephaistos	NN	<unknown>	_	O	O	
+2-16	und	KON	und	_	O	O	
+2-17	der	ART	die	_	O	O	
+2-18	Athene	NE	Athene	_	O	O	
+2-19	aus	APPR	aus	_	O	O	
+2-20	Großgriechenland	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-21	.	$.	.	_	O	O	
+

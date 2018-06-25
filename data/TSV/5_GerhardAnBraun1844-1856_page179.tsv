@@ -1,0 +1,241 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=r. ' f , 1.\.A\.
+1-1	r.	ADJA	<unknown>	_	O	O	
+1-2	'	$(	'	_	O	O	
+1-3	f	TRUNC	<unknown>	_	O	O	
+1-4	,	$,	,	_	O	O	
+1-5	1.\.A\	TRUNC	<unknown>	_	O	O	
+1-6	.	$.	.	_	O	O	
+
+#id=2
+#text='·', \ 1.. C\.tl ~ :" ( Gerhard an Braun Berlin, 17. April 1846 2 begreife aber daß der Restaurator Sie auf die 3 Vasen warten ließ.
+2-1	'	$(	'	_	O	O	
+2-2	·	NN	<unknown>	_	O	O	
+2-3	'	$(	'	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	\	XY	\	_	O	O	
+2-6	1.	ADV	1.	_	O	O	
+2-7	.	$.	.	_	O	O	
+2-8	C\.tl	NE	<unknown>	_	O	O	
+2-9	~	XY	~	_	O	O	
+2-10	:	$.	:	_	O	O	
+2-11	"	$(	"	_	O	O	
+2-12	(	$(	(	_	O	O	
+2-13	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-14	an	APPR	an	_	O	O	
+2-15	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-17	,	$,	,	_	O	O	
+2-18	17	CARD	17	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-20	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-21	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-22	2	CARD	2	_	O	O	
+2-23	begreife	VVFIN	begreifen	_	O	O	
+2-24	aber	KON	aber	_	O	O	
+2-25	daß	KOUS	dass	_	O	O	
+2-26	der	ART	die	_	O	O	
+2-27	Restaurator	NN	Restaurator	_	O	O	
+2-28	Sie	PPER	Sie	_	O	O	
+2-29	auf	APPR	auf	_	O	O	
+2-30	die	ART	die	_	O	O	
+2-31	3	CARD	3	_	O	O	
+2-32	Vasen	NN	Vase	_	O	O	
+2-33	warten	VVINF	warten	_	O	O	
+2-34	ließ	VVFIN	lassen	_	O	O	
+2-35	.	$.	.	_	O	O	
+
+#id=3
+#text=Den Kandelaber werden Sie also für 40 Scudi genommen haben, wie ich Sie bat.
+3-1	Den	ART	die	_	O	O	
+3-2	Kandelaber	NN	Kandelaber	_	O	O	
+3-3	werden	VAFIN	werden	_	O	O	
+3-4	Sie	PPER	Sie	_	O	O	
+3-5	also	ADV	also	_	O	O	
+3-6	für	APPR	für	_	O	O	
+3-7	40	CARD	40	_	O	O	
+3-8	Scudi	NN	<unknown>	_	O	O	
+3-9	genommen	VVPP	nehmen	_	O	O	
+3-10	haben	VAINF	haben	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	wie	KOUS	wie	_	O	O	
+3-13	ich	PPER	ich	_	O	O	
+3-14	Sie	PPER	Sie	_	O	O	
+3-15	bat	VVFIN	bitten	_	O	O	
+3-16	.	$.	.	_	O	O	
+
+#id=4
+#text=Bei Ratti und Gerstäcker werde fragen.
+4-1	Bei	APPR	bei	_	O	O	
+4-2	Ratti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	und	KON	und	_	O	O	
+4-4	Gerstäcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	werde	VAFIN	werden	_	O	O	
+4-6	fragen	VVINF	fragen	_	O	O	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=Rochette hat sich zum 20.sten circa angedroht.
+5-1	Rochette	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	hat	VAFIN	haben	_	O	O	
+5-3	sich	PRF	sich	_	O	O	
+5-4	zum	APPRART	zu	_	O	O	
+5-5	20.sten	NN	<unknown>	_	O	O	
+5-6	circa	ADV	circa	_	O	O	
+5-7	angedroht	VVPP	androhen	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihren Artikel las ich noch nicht; doch wird in Paris und hier bedauert daß Sie Ihr gewaltiges Recht gegen ihn nicht lieber in grandioser Kürze behauptet hatten.
+6-1	Ihren	PPOSAT	ihr	_	O	O	
+6-2	Artikel	NN	Artikel	_	O	O	
+6-3	las	VVFIN	lesen	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	noch	ADV	noch	_	O	O	
+6-6	nicht	PTKNEG	nicht	_	O	O	
+6-7	;	$.	;	_	O	O	
+6-8	doch	ADV	doch	_	O	O	
+6-9	wird	VAFIN	werden	_	O	O	
+6-10	in	APPR	in	_	O	O	
+6-11	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-12	und	KON	und	_	O	O	
+6-13	hier	ADV	hier	_	O	O	
+6-14	bedauert	VVFIN	bedauern	_	O	O	
+6-15	daß	KOUS	dass	_	O	O	
+6-16	Sie	PPER	Sie	_	O	O	
+6-17	Ihr	PPOSAT	ihr	_	O	O	
+6-18	gewaltiges	ADJA	gewaltig	_	O	O	
+6-19	Recht	NN	Recht	_	O	O	
+6-20	gegen	APPR	gegen	_	O	O	
+6-21	ihn	PPER	er	_	O	O	
+6-22	nicht	PTKNEG	nicht	_	O	O	
+6-23	lieber	ADJD	lieb	_	O	O	
+6-24	in	APPR	in	_	O	O	
+6-25	grandioser	ADJA	grandios	_	O	O	
+6-26	Kürze	NN	Kürze	_	O	O	
+6-27	behauptet	VVPP	behaupten	_	O	O	
+6-28	hatten	VAFIN	haben	_	O	O	
+6-29	.	$.	.	_	O	O	
+
+#id=7
+#text=Meine Frau bleibt in Frankfurt bis Mitte Mai.
+7-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-3	bleibt	VVFIN	bleiben	_	O	O	
+7-4	in	APPR	in	_	O	O	
+7-5	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-6	bis	APPR	bis	_	O	O	
+7-7	Mitte	NN	Mitte	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-8	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=Usedom fuhr eine Stunde früher von hier ab als ich ankam.
+8-1	Usedom	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	fuhr	VVFIN	fahren	_	O	O	
+8-3	eine	ART	eine	_	O	O	
+8-4	Stunde	NN	Stunde	_	O	O	
+8-5	früher	ADV	früher	_	O	O	
+8-6	von	APPR	von	_	O	O	
+8-7	hier	ADV	hier	_	O	O	
+8-8	ab	PTKVZ	ab	_	O	O	
+8-9	als	KOKOM	als	_	O	O	
+8-10	ich	PPER	ich	_	O	O	
+8-11	ankam	VVFIN	ankommen	_	O	O	
+8-12	.	$.	.	_	O	O	
+
+#id=9
+#text=An alle Freunde viel Herzliches.
+9-1	An	APPR	an	_	O	O	
+9-2	alle	PIAT	alle	_	O	O	
+9-3	Freunde	NN	Freund	_	O	O	
+9-4	viel	PIAT	viele	_	O	O	
+9-5	Herzliches	NN	Herzliche	_	O	O	
+9-6	.	$.	.	_	O	O	
+
+#id=10
+#text=Der Himmel segne Sie mit Gesundheit und Ruhe; Ihr Brief schien sehr aufgeregt.
+10-1	Der	ART	die	_	O	O	
+10-2	Himmel	NN	Himmel	_	O	O	
+10-3	segne	VVFIN	segnen	_	O	O	
+10-4	Sie	PPER	Sie	_	O	O	
+10-5	mit	APPR	mit	_	O	O	
+10-6	Gesundheit	NN	Gesundheit	_	O	O	
+10-7	und	KON	und	_	O	O	
+10-8	Ruhe	NN	Ruhe	_	O	O	
+10-9	;	$.	;	_	O	O	
+10-10	Ihr	PPOSAT	ihr	_	O	O	
+10-11	Brief	NN	Brief	_	O	O	
+10-12	schien	VVFIN	scheinen	_	O	O	
+10-13	sehr	ADV	sehr	_	O	O	
+10-14	aufgeregt	VVPP	aufregen	_	O	O	
+10-15	.	$.	.	_	O	O	
+
+#id=11
+#text=Herzlichst Ihr Gerhard Waagen war bereits abgereist; der Brief wird ihm nachgesandt.
+11-1	Herzlichst	ADJD	herzlich	_	O	O	
+11-2	Ihr	PPOSAT	ihr	_	O	O	
+11-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-4	Waagen	NN	Waage	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-5	war	VAFIN	sein	_	O	O	
+11-6	bereits	ADV	bereits	_	O	O	
+11-7	abgereist	VVPP	abreisen	_	O	O	
+11-8	;	$.	;	_	O	O	
+11-9	der	ART	die	_	O	O	
+11-10	Brief	NN	Brief	_	O	O	
+11-11	wird	VAFIN	werden	_	O	O	
+11-12	ihm	PPER	er	_	O	O	
+11-13	nachgesandt	VVPP	<unknown>	_	O	O	
+11-14	.	$.	.	_	O	O	
+
+#id=12
+#text=Nach Ihren Durchzeichnungen kann ich jetzt erst blicken, finde aber nicht "2 Vasen" sondern die einer Schale von und , die ich bei mehr Muth und Mitteln dem Baseggio für 150 Scudi die er forderte gern abgenommen hätte; die jetzige Schätzung auf 100
+12-1	Nach	APPR	nach	_	O	O	
+12-2	Ihren	PPOSAT	ihr	_	O	O	
+12-3	Durchzeichnungen	NN	<unknown>	_	O	O	
+12-4	kann	VMFIN	können	_	O	O	
+12-5	ich	PPER	ich	_	O	O	
+12-6	jetzt	ADV	jetzt	_	O	O	
+12-7	erst	ADV	erst	_	O	O	
+12-8	blicken	VVINF	blicken	_	O	O	
+12-9	,	$,	,	_	O	O	
+12-10	finde	VVFIN	finden	_	O	O	
+12-11	aber	ADV	aber	_	O	O	
+12-12	nicht	PTKNEG	nicht	_	O	O	
+12-13	"	$(	"	_	O	O	
+12-14	2	CARD	2	_	O	O	
+12-15	Vasen	NN	Vase	_	O	O	
+12-16	"	$(	"	_	O	O	
+12-17	sondern	KON	sondern	_	O	O	
+12-18	die	PRELS	die	_	O	O	
+12-19	einer	ART	eine	_	O	O	
+12-20	Schale	NN	Schale	_	O	O	
+12-21	von	APPR	von	_	O	O	
+12-22	und	KON	und	_	O	O	
+12-23	,	$,	,	_	O	O	
+12-24	die	PRELS	die	_	O	O	
+12-25	ich	PPER	ich	_	O	O	
+12-26	bei	APPR	bei	_	O	O	
+12-27	mehr	PIAT	mehr	_	O	O	
+12-28	Muth	NN	<unknown>	_	O	O	
+12-29	und	KON	und	_	O	O	
+12-30	Mitteln	NN	Mittel|Mitteln	_	O	O	
+12-31	dem	ART	die	_	O	O	
+12-32	Baseggio	NN	<unknown>	_	O	O	
+12-33	für	APPR	für	_	O	O	
+12-34	150	CARD	150	_	O	O	
+12-35	Scudi	NN	<unknown>	_	O	O	
+12-36	die	PRELS	die	_	O	O	
+12-37	er	PPER	er	_	O	O	
+12-38	forderte	VVFIN	fordern	_	O	O	
+12-39	gern	ADV	gern	_	O	O	
+12-40	abgenommen	VVPP	abnehmen	_	O	O	
+12-41	hätte	VAFIN	haben	_	O	O	
+12-42	;	$.	;	_	O	O	
+12-43	die	ART	die	_	O	O	
+12-44	jetzige	ADJA	jetzig	_	O	O	
+12-45	Schätzung	NN	Schätzung	_	O	O	
+12-46	auf	APPR	auf	_	O	O	
+12-47	100	CARD	100	_	O	O	
+

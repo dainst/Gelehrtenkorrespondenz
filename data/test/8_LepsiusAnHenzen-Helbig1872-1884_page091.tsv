@@ -1,0 +1,250 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=- ~ / 92 Lepsius an Henzen Berlin, 10. April 1873 L g. 14/4 73 r.
+1-1	-	$(	-	_	O	O	
+1-2	~	XY	~	_	O	O	
+1-3	/	$(	/	_	O	O	
+1-4	92	CARD	92	_	O	O	
+1-5	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	L	NN	L	_	O	O	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	14/4	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	73	CARD	73	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=16/4 Berlin d. 10. n Apr.
+2-1	16/4	CARD	@card@	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-3	d.	ART	d.	_	O	O	
+2-4	10	CARD	10	_	O	O	
+2-5	.	$.	.	_	O	O	
+2-6	n	ADJA	<unknown>	_	O	O	
+2-7	Apr.	NN	<unknown>	_	O	O	
+
+#id=3
+#text=1873. Verehrtester Freund Ich habe sogleich wegen der 100 r für Laspeyres nachgefragt und erfahren, daß Alles seit 14 Tagen etwa abgethan ist.
+3-1	1873	CARD	1873	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-2	.	$.	.	_	O	O	
+3-3	Verehrtester	ADJA	<unknown>	_	O	O	
+3-4	Freund	NN	Freund	_	O	O	
+3-5	Ich	PPER	ich	_	O	O	
+3-6	habe	VAFIN	haben	_	O	O	
+3-7	sogleich	ADV	sogleich	_	O	O	
+3-8	wegen	APPR	wegen	_	O	O	
+3-9	der	ART	die	_	O	O	
+3-10	100	CARD	100	_	O	O	
+3-11	r	NE	r	_	O	O	
+3-12	für	APPR	für	_	O	O	
+3-13	Laspeyres	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-14	nachgefragt	VVPP	nachfragen	_	O	O	
+3-15	und	KON	und	_	O	O	
+3-16	erfahren	VVPP	erfahren	_	O	O	
+3-17	,	$,	,	_	O	O	
+3-18	daß	KOUS	dass	_	O	O	
+3-19	Alles	PIS	alle	_	O	O	
+3-20	seit	APPR	seit	_	O	O	
+3-21	14	CARD	14	_	O	O	
+3-22	Tagen	NN	Tag	_	O	O	
+3-23	etwa	ADV	etwa	_	O	O	
+3-24	abgethan	VVPP	<unknown>	_	O	O	
+3-25	ist	VAFIN	sein	_	O	O	
+3-26	.	$.	.	_	O	O	
+
+#id=4
+#text=Wenn also die Benachrichtigung vom Auswärtigen Amte nicht jetzt schon eingegangen sein sollte, so muß sie in diesen Tagen eingehen.
+4-1	Wenn	KOUS	wenn	_	O	O	
+4-2	also	ADV	also	_	O	O	
+4-3	die	ART	die	_	O	O	
+4-4	Benachrichtigung	NN	Benachrichtigung	_	O	O	
+4-5	vom	APPRART	von	_	O	O	
+4-6	Auswärtigen	ADJA	auswärtig	_	O	O	
+4-7	Amte	NN	Amt	_	O	O	
+4-8	nicht	PTKNEG	nicht	_	O	O	
+4-9	jetzt	ADV	jetzt	_	O	O	
+4-10	schon	ADV	schon	_	O	O	
+4-11	eingegangen	VVPP	eingehen	_	O	O	
+4-12	sein	VAINF	sein	_	O	O	
+4-13	sollte	VMFIN	sollen	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	so	ADV	so	_	O	O	
+4-16	muß	VMFIN	müssen	_	O	O	
+4-17	sie	PPER	sie	_	O	O	
+4-18	in	APPR	in	_	O	O	
+4-19	diesen	PDAT	dies	_	O	O	
+4-20	Tagen	NN	Tag	_	O	O	
+4-21	eingehen	VVINF	eingehen	_	O	O	
+4-22	.	$.	.	_	O	O	
+
+#id=5
+#text=Um Weiteres handelt es sich doch nicht, so viel ich aus Ihrem Briefe ersehe.
+5-1	Um	APPR	um	_	O	O	
+5-2	Weiteres	NN	Weiter	_	O	O	
+5-3	handelt	VVFIN	handeln	_	O	O	
+5-4	es	PPER	es	_	O	O	
+5-5	sich	PRF	sich	_	O	O	
+5-6	doch	ADV	doch	_	O	O	
+5-7	nicht	PTKNEG	nicht	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	so	ADV	so	_	O	O	
+5-10	viel	ADV	viel	_	O	O	
+5-11	ich	PPER	ich	_	O	O	
+5-12	aus	APPR	aus	_	O	O	
+5-13	Ihrem	PPOSAT	ihr	_	O	O	
+5-14	Briefe	NN	Brief	_	O	O	
+5-15	ersehe	VVFIN	ersehen	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Verzögerung kam daher, daß jener erste Fond erschöpft war, und daher der König erst noch einmal angegangen werden mußte.
+6-1	Die	ART	die	_	O	O	
+6-2	Verzögerung	NN	Verzögerung	_	O	O	
+6-3	kam	VVFIN	kommen	_	O	O	
+6-4	daher	PAV	daher	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	daß	KOUS	dass	_	O	O	
+6-7	jener	PDAT	jen	_	O	O	
+6-8	erste	ADJA	erst	_	O	O	
+6-9	Fond	NN	Fond	_	O	O	
+6-10	erschöpft	VVPP	erschöpfen	_	O	O	
+6-11	war	VAFIN	sein	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	und	KON	und	_	O	O	
+6-14	daher	PAV	daher	_	O	O	
+6-15	der	ART	die	_	O	O	
+6-16	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-17	erst	ADV	erst	_	O	O	
+6-18	noch	ADV	noch	_	O	O	
+6-19	einmal	ADV	einmal	_	O	O	
+6-20	angegangen	VVPP	angehen	_	O	O	
+6-21	werden	VAINF	werden	_	O	O	
+6-22	mußte	VMFIN	müssen	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Unter den Korrespondenten Vorschlägen sind noch die Herren Carlone in Nizza, Blanc in Veuve, Brambilla in Milano, Stranchetti in Pianzano charakterlos.
+7-1	Unter	APPR	unter	_	O	O	
+7-2	den	ART	die	_	O	O	
+7-3	Korrespondenten	NN	Korrespondent	_	O	O	
+7-4	Vorschlägen	NN	Vorschlag	_	O	O	
+7-5	sind	VAFIN	sein	_	O	O	
+7-6	noch	ADV	noch	_	O	O	
+7-7	die	ART	die	_	O	O	
+7-8	Herren	NN	Herr	_	O	O	
+7-9	Carlone	NN	<unknown>	_	O	O	
+7-10	in	APPR	in	_	O	O	
+7-11	Nizza	NE	Nizza	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-12	,	$,	,	_	O	O	
+7-13	Blanc	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-14	in	APPR	in	_	O	O	
+7-15	Veuve	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-16	,	$,	,	_	O	O	
+7-17	Brambilla	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-18	in	APPR	in	_	O	O	
+7-19	Milano	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-20	,	$,	,	_	O	O	
+7-21	Stranchetti	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-22	in	APPR	in	_	O	O	
+7-23	Pianzano	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-24	charakterlos	ADJD	charakterlos	_	O	O	
+7-25	.	$.	.	_	O	O	
+
+#id=8
+#text=Es ist immer wünschenswerth etwas von ihren Beschäftigungen zu wissen.
+8-1	Es	PPER	es	_	O	O	
+8-2	ist	VAFIN	sein	_	O	O	
+8-3	immer	ADV	immer	_	O	O	
+8-4	wünschenswerth	NE	<unknown>	_	O	O	
+8-5	etwas	ADV	etwas	_	O	O	
+8-6	von	APPR	von	_	O	O	
+8-7	ihren	PPOSAT	ihr	_	O	O	
+8-8	Beschäftigungen	NN	Beschäftigung	_	O	O	
+8-9	zu	PTKZU	zu	_	O	O	
+8-10	wissen	VVINF	wissen	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Von Dr.
+9-1	Von	APPR	von	_	O	O	
+9-2	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=10
+#text=Stadt, den Sie unter den ragazzi anführen, ist mir nichts, daher auch nicht der Vorname, um den ich bitte, bekannt, und ob er, wie auch Kaibel und Wilamowitz als in Roma residirend aufgeführt werden sollen.
+10-1	Stadt	NN	Stadt	_	O	O	
+10-2	,	$,	,	_	O	O	
+10-3	den	PRELS	die	_	O	O	
+10-4	Sie	PPER	Sie	_	O	O	
+10-5	unter	APPR	unter	_	O	O	
+10-6	den	ART	die	_	O	O	
+10-7	ragazzi	NN	<unknown>	_	O	O	
+10-8	anführen	VVFIN	anführen	_	O	O	
+10-9	,	$,	,	_	O	O	
+10-10	ist	VAFIN	sein	_	O	O	
+10-11	mir	PPER	ich	_	O	O	
+10-12	nichts	PIS	nichts	_	O	O	
+10-13	,	$,	,	_	O	O	
+10-14	daher	PAV	daher	_	O	O	
+10-15	auch	ADV	auch	_	O	O	
+10-16	nicht	PTKNEG	nicht	_	O	O	
+10-17	der	ART	die	_	O	O	
+10-18	Vorname	NN	Vorname	_	O	O	
+10-19	,	$,	,	_	O	O	
+10-20	um	APPR	um	_	O	O	
+10-21	den	PRELS	die	_	O	O	
+10-22	ich	PPER	ich	_	O	O	
+10-23	bitte	VVFIN	bitten	_	O	O	
+10-24	,	$,	,	_	O	O	
+10-25	bekannt	ADJD	bekannt	_	O	O	
+10-26	,	$,	,	_	O	O	
+10-27	und	KON	und	_	O	O	
+10-28	ob	KOUS	ob	_	O	O	
+10-29	er	PPER	er	_	O	O	
+10-30	,	$,	,	_	O	O	
+10-31	wie	KOUS	wie	_	O	O	
+10-32	auch	ADV	auch	_	O	O	
+10-33	Kaibel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-34	und	KON	und	_	O	O	
+10-35	Wilamowitz	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-36	als	KOKOM	als	_	O	O	
+10-37	in	APPR	in	_	O	O	
+10-38	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-39	residirend	ADJD	<unknown>	_	O	O	
+10-40	aufgeführt	VVPP	aufführen	_	O	O	
+10-41	werden	VAINF	werden	_	O	O	
+10-42	sollen	VMFIN	sollen	_	O	O	
+10-43	.	$.	.	_	O	O	
+
+#id=11
+#text=Sie schreiben deutlich deI Ravoni Mattei, Pas quale; das muß doch ohne Zweifel Baroni lauten?
+11-1	Sie	PPER	Sie	_	O	O	
+11-2	schreiben	VVFIN	schreiben	_	O	O	
+11-3	deutlich	ADJD	deutlich	_	O	O	
+11-4	deI	ADJA	<unknown>	_	O	O	
+11-5	Ravoni	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-6	Mattei	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+11-7	,	$,	,	_	O	O	
+11-8	Pas	ADJD	<unknown>	_	O	O	
+11-9	quale	VVFIN	<unknown>	_	O	O	
+11-10	;	$.	;	_	O	O	
+11-11	das	PDS	die	_	O	O	
+11-12	muß	VMFIN	müssen	_	O	O	
+11-13	doch	ADV	doch	_	O	O	
+11-14	ohne	APPR	ohne	_	O	O	
+11-15	Zweifel	NN	Zweifel	_	O	O	
+11-16	Baroni	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-17	lauten	VVINF	lauten	_	O	O	
+11-18	?	$.	?	_	O	O	
+
+#id=12
+#text=Auch bei
+12-1	Auch	ADV	auch	_	O	O	
+12-2	bei	APPR	bei	_	O	O	
+

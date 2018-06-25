@@ -1,0 +1,66 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=165 4 Henzen an Gerhard 30jIVj1852 ( s.u. BraunjGerhard ) in diesem fabelhaften Frühlinge?
+1-1	165	CARD	@card@	_	O	O	
+1-2	4	CARD	4	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	30jIVj1852	ADJA	<unknown>	_	O	O	
+1-7	(	$(	(	_	O	O	
+1-8	s.u.	NE	<unknown>	_	O	O	
+1-9	BraunjGerhard	NE	<unknown>	_	O	O	
+1-10	)	$(	)	_	O	O	
+1-11	in	APPR	in	_	O	O	
+1-12	diesem	PDAT	dies	_	O	O	
+1-13	fabelhaften	ADJA	fabelhaft	_	O	O	
+1-14	Frühlinge	NN	Frühling	_	O	O	
+1-15	?	$.	?	_	O	O	
+
+#id=2
+#text=Auch ich leide noch an den beaux rutes einer sehr heftigen Erkältung.
+2-1	Auch	ADV	auch	_	O	O	
+2-2	ich	PPER	ich	_	O	O	
+2-3	leide	VVFIN	leiden	_	O	O	
+2-4	noch	ADV	noch	_	O	O	
+2-5	an	APPR	an	_	O	O	
+2-6	den	ART	die	_	O	O	
+2-7	beaux	NN	<unknown>	_	O	O	
+2-8	rutes	ADJA	<unknown>	_	O	O	
+2-9	einer	ART	eine	_	O	O	
+2-10	sehr	ADV	sehr	_	O	O	
+2-11	heftigen	ADJA	heftig	_	O	O	
+2-12	Erkältung	NN	Erkältung	_	O	O	
+2-13	.	$.	.	_	O	O	
+
+#id=3
+#text=Erst seit einigen Tagen haben wir normales Frühlingswetter.
+3-1	Erst	ADV	erst	_	O	O	
+3-2	seit	APPR	seit	_	O	O	
+3-3	einigen	PIAT	einige	_	O	O	
+3-4	Tagen	NN	Tag	_	O	O	
+3-5	haben	VAFIN	haben	_	O	O	
+3-6	wir	PPER	wir	_	O	O	
+3-7	normales	ADJA	normal	_	O	O	
+3-8	Frühlingswetter	NN	Frühlingswetter	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Meine Frau grüßt mit mir bestens Sie und die Ihrige.
+4-1	Meine	PPOSAT	mein	_	O	O	
+4-2	Frau	NN	Frau	_	O	O	
+4-3	grüßt	VVFIN	grüßen	_	O	O	
+4-4	mit	APPR	mit	_	O	O	
+4-5	mir	PPER	ich	_	O	O	
+4-6	bestens	ADV	bestens	_	O	O	
+4-7	Sie	PPER	Sie	_	O	O	
+4-8	und	KON	und	_	O	O	
+4-9	die	PRELS	die	_	O	O	
+4-10	Ihrige	PPOSAT	ihrige	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihr WHenzen
+5-1	Ihr	PPOSAT	ihr	_	O	O	
+5-2	WHenzen	NN	<unknown>	_	O	O	
+

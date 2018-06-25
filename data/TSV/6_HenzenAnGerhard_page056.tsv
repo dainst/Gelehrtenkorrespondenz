@@ -1,0 +1,362 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Ohne Nummer Henzen an Gerhard 20/IV/52 3 lassen; aber so geht's gewöhnlich 1 Diejenigen, die man zu behalten wünscht, ziehen schnell vorüber; die Andern bleiben Jahre lang.
+1-1	Ohne	APPR	ohne	_	O	O	
+1-2	Nummer	NN	Nummer	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	20/IV/52	NN	<unknown>	_	O	O	
+1-7	3	CARD	3	_	O	O	
+1-8	lassen	VVFIN	lassen	_	O	O	
+1-9	;	$.	;	_	O	O	
+1-10	aber	KON	aber	_	O	O	
+1-11	so	ADV	so	_	O	O	
+1-12	geht's	VVFIN	gehen	_	O	O	
+1-13	gewöhnlich	ADJD	gewöhnlich	_	O	O	
+1-14	1	CARD	1	_	O	O	
+1-15	Diejenigen	PDS	diejenigen	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	die	PRELS	die	_	O	O	
+1-18	man	PIS	man	_	O	O	
+1-19	zu	PTKZU	zu	_	O	O	
+1-20	behalten	VVINF	behalten	_	O	O	
+1-21	wünscht	VVFIN	wünschen	_	O	O	
+1-22	,	$,	,	_	O	O	
+1-23	ziehen	VVFIN	zeihen|ziehen	_	O	O	
+1-24	schnell	ADJD	schnell	_	O	O	
+1-25	vorüber	PTKVZ	vorüber	_	O	O	
+1-26	;	$.	;	_	O	O	
+1-27	die	ART	die	_	O	O	
+1-28	Andern	PIS	andere	_	O	O	
+1-29	bleiben	VVFIN	bleiben	_	O	O	
+1-30	Jahre	NN	Jahr	_	O	O	
+1-31	lang	ADJD	lang	_	O	O	
+1-32	.	$.	.	_	O	O	
+
+#id=2
+#text=Die Unruhe der Ostertage, ein kleines Unwohlsein meiner Seits, d. die große Entfernung ihrer Wohnung im Babuino, machten, daß wir sie doch nicht einmal sehr oft gesehen~ Indeß haben wir gethan, was wir konnten.
+2-1	Die	ART	die	_	O	O	
+2-2	Unruhe	NN	Unruhe	_	O	O	
+2-3	der	ART	die	_	O	O	
+2-4	Ostertage	NN	Ostertag	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	ein	ART	eine	_	O	O	
+2-7	kleines	ADJA	klein	_	O	O	
+2-8	Unwohlsein	NN	Unwohlsein	_	O	O	
+2-9	meiner	PPOSAT	mein	_	O	O	
+2-10	Seits	NN	<unknown>	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	d.	ART	d.	_	O	O	
+2-13	die	ART	die	_	O	O	
+2-14	große	ADJA	groß	_	O	O	
+2-15	Entfernung	NN	Entfernung	_	O	O	
+2-16	ihrer	PPOSAT	ihr	_	O	O	
+2-17	Wohnung	NN	Wohnung	_	O	O	
+2-18	im	APPRART	in	_	O	O	
+2-19	Babuino	NE	<unknown>	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	machten	VVFIN	machen	_	O	O	
+2-22	,	$,	,	_	O	O	
+2-23	daß	KOUS	dass	_	O	O	
+2-24	wir	PPER	wir	_	O	O	
+2-25	sie	PPER	sie	_	O	O	
+2-26	doch	ADV	doch	_	O	O	
+2-27	nicht	PTKNEG	nicht	_	O	O	
+2-28	einmal	ADV	einmal	_	O	O	
+2-29	sehr	ADV	sehr	_	O	O	
+2-30	oft	ADV	oft	_	O	O	
+2-31	gesehen~	ADJA	<unknown>	_	O	O	
+2-32	Indeß	NN	<unknown>	_	O	O	
+2-33	haben	VAFIN	haben	_	O	O	
+2-34	wir	PPER	wir	_	O	O	
+2-35	gethan	NE	<unknown>	_	O	O	
+2-36	,	$,	,	_	O	O	
+2-37	was	PWS	was	_	O	O	
+2-38	wir	PPER	wir	_	O	O	
+2-39	konnten	VMFIN	können	_	O	O	
+2-40	.	$.	.	_	O	O	
+
+#id=3
+#text=Friedlaender wird ja wohl jetzt wirklich abgereist sein.
+3-1	Friedlaender	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	wird	VAFIN	werden	_	O	O	
+3-3	ja	ADV	ja	_	O	O	
+3-4	wohl	ADV	wohl	_	O	O	
+3-5	jetzt	ADV	jetzt	_	O	O	
+3-6	wirklich	ADJD	wirklich	_	O	O	
+3-7	abgereist	VVPP	abreisen	_	O	O	
+3-8	sein	VAINF	sein	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Sein letzter Brief mit bestimmter Meldung seines Entschlusses war für uns ein wahrer Trost.
+4-1	Sein	PPOSAT	sein	_	O	O	
+4-2	letzter	ADJA	letzt	_	O	O	
+4-3	Brief	NN	Brief	_	O	O	
+4-4	mit	APPR	mit	_	O	O	
+4-5	bestimmter	ADJA	bestimmt	_	O	O	
+4-6	Meldung	NN	Meldung	_	O	O	
+4-7	seines	PPOSAT	sein	_	O	O	
+4-8	Entschlusses	NN	Entschluss	_	O	O	
+4-9	war	VAFIN	sein	_	O	O	
+4-10	für	APPR	für	_	O	O	
+4-11	uns	PPER	wir	_	O	O	
+4-12	ein	ART	eine	_	O	O	
+4-13	wahrer	ADJA	wahr	_	O	O	
+4-14	Trost	NN	Trost	_	O	O	
+4-15	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich hoffe, er wird nach Rom kommen.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	hoffe	VVFIN	hoffen	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	er	PPER	er	_	O	O	
+5-5	wird	VAFIN	werden	_	O	O	
+5-6	nach	APPR	nach	_	O	O	
+5-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-8	kommen	VVINF	kommen	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Daß Philippi reisen kann, daran ist einstweilen nicht entfernt zu denken.
+6-1	Daß	KOUS	dass	_	O	O	
+6-2	Philippi	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	reisen	VVINF	reisen	_	O	O	
+6-4	kann	VMFIN	können	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	daran	PAV	daran	_	O	O	
+6-7	ist	VAFIN	sein	_	O	O	
+6-8	einstweilen	ADV	einstweilen	_	O	O	
+6-9	nicht	PTKNEG	nicht	_	O	O	
+6-10	entfernt	ADJD	entfernt	_	O	O	
+6-11	zu	PTKZU	zu	_	O	O	
+6-12	denken	VVINF	denken	_	O	O	
+6-13	.	$.	.	_	O	O	
+
+#id=7
+#text='vVir hegen die allerschlimm- :e.dLht,dev sten Besorgnisse.
+7-1	'	$(	'	_	O	O	
+7-2	vVir	NN	<unknown>	_	O	O	
+7-3	hegen	VVFIN	hegen	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	allerschlimm-	ADJA	<unknown>	_	O	O	
+7-6	:e.dLht,dev	NN	<unknown>	_	O	O	
+7-7	sten	ADJA	<unknown>	_	O	O	
+7-8	Besorgnisse	NN	Besorgnis	_	O	O	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=leb schrieb nach Mailand an Fr~e allzu deutlich zu werden, um ihm nicht die ganze Reise zu verderben; indeß glaube ich, es wird sich ganz von selbst so machen, dE.
+8-1	leb	VVIMP	leben	_	O	O	
+8-2	schrieb	VVFIN	schreiben	_	O	O	
+8-3	nach	APPR	nach	_	O	O	
+8-4	Mailand	NE	Mailand	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-5	an	APPR	an	_	O	O	
+8-6	Fr~e	NE	<unknown>	_	O	O	
+8-7	allzu	PTKA	allzu	_	O	O	
+8-8	deutlich	ADJD	deutlich	_	O	O	
+8-9	zu	PTKZU	zu	_	O	O	
+8-10	werden	VAINF	werden	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	um	KOUI	um	_	O	O	
+8-13	ihm	PPER	er	_	O	O	
+8-14	nicht	PTKNEG	nicht	_	O	O	
+8-15	die	ART	die	_	O	O	
+8-16	ganze	ADJA	ganz	_	O	O	
+8-17	Reise	NN	Reise	_	O	O	
+8-18	zu	PTKZU	zu	_	O	O	
+8-19	verderben	VVINF	verderben	_	O	O	
+8-20	;	$.	;	_	O	O	
+8-21	indeß	NE	<unknown>	_	O	O	
+8-22	glaube	VVFIN	glauben	_	O	O	
+8-23	ich	PPER	ich	_	O	O	
+8-24	,	$,	,	_	O	O	
+8-25	es	PPER	es	_	O	O	
+8-26	wird	VAFIN	werden	_	O	O	
+8-27	sich	PRF	sich	_	O	O	
+8-28	ganz	ADV	ganz	_	O	O	
+8-29	von	APPR	von	_	O	O	
+8-30	selbst	ADV	selbst	_	O	O	
+8-31	so	ADV	so	_	O	O	
+8-32	machen	VVINF	machen	_	O	O	
+8-33	,	$,	,	_	O	O	
+8-34	dE	NN	<unknown>	_	O	O	
+8-35	.	$.	.	_	O	O	
+
+#id=9
+#text=er trotz seiner Abneigung, dieses Mal die Reise bis Rom auszudehnen, durch p~unfähigkeit zum Reisen hieher gefi.ihrt werden wird.
+9-1	er	PPER	er	_	O	O	
+9-2	trotz	APPR	trotz	_	O	O	
+9-3	seiner	PPOSAT	sein	_	O	O	
+9-4	Abneigung	NN	Abneigung	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	dieses	PDAT	dies	_	O	O	
+9-7	Mal	NN	Mal	_	O	O	
+9-8	die	ART	die	_	O	O	
+9-9	Reise	NN	Reise	_	O	O	
+9-10	bis	APPR	bis	_	O	O	
+9-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-12	auszudehnen	VVIZU	ausdehnen	_	O	O	
+9-13	,	$,	,	_	O	O	
+9-14	durch	APPR	durch	_	O	O	
+9-15	p~unfähigkeit	NN	<unknown>	_	O	O	
+9-16	zum	APPRART	zu	_	O	O	
+9-17	Reisen	NN	Reise|Reisen	_	O	O	
+9-18	hieher	NN	<unknown>	_	O	O	
+9-19	gefi.ihrt	VVPP	<unknown>	_	O	O	
+9-20	werden	VAINF	werden	_	O	O	
+9-21	wird	VAFIN	werden	_	O	O	
+9-22	.	$.	.	_	O	O	
+
+#id=10
+#text=Dass es schnell mit Ph:~ Ende gehe, glaube ich nicht, besorge aber sehr, dass er nicht mehr von hier fortkommt, wofern nicht der Sommer eine wunderbare Aenderung herbeiführt.
+10-1	Dass	KOUS	dass	_	O	O	
+10-2	es	PPER	es	_	O	O	
+10-3	schnell	ADJD	schnell	_	O	O	
+10-4	mit	APPR	mit	_	O	O	
+10-5	Ph:~	ADJA	<unknown>	_	O	O	
+10-6	Ende	NN	Ende	_	O	O	
+10-7	gehe	VVFIN	gehen	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	glaube	VVFIN	glauben	_	O	O	
+10-10	ich	PPER	ich	_	O	O	
+10-11	nicht	PTKNEG	nicht	_	O	O	
+10-12	,	$,	,	_	O	O	
+10-13	besorge	VVFIN	besorgen	_	O	O	
+10-14	aber	ADV	aber	_	O	O	
+10-15	sehr	ADV	sehr	_	O	O	
+10-16	,	$,	,	_	O	O	
+10-17	dass	KOUS	dass	_	O	O	
+10-18	er	PPER	er	_	O	O	
+10-19	nicht	PTKNEG	nicht	_	O	O	
+10-20	mehr	ADV	mehr	_	O	O	
+10-21	von	APPR	von	_	O	O	
+10-22	hier	ADV	hier	_	O	O	
+10-23	fortkommt	VVFIN	fortkommen	_	O	O	
+10-24	,	$,	,	_	O	O	
+10-25	wofern	ADJD	<unknown>	_	O	O	
+10-26	nicht	PTKNEG	nicht	_	O	O	
+10-27	der	ART	die	_	O	O	
+10-28	Sommer	NN	Sommer	_	O	O	
+10-29	eine	ART	eine	_	O	O	
+10-30	wunderbare	ADJA	wunderbar	_	O	O	
+10-31	Aenderung	NN	<unknown>	_	O	O	
+10-32	herbeiführt	VVFIN	herbeiführen	_	O	O	
+10-33	.	$.	.	_	O	O	
+
+#id=11
+#text=Unter allen Umständen u. für alle '.l.
+11-1	Unter	APPR	unter	_	O	O	
+11-2	allen	PIAT	alle	_	O	O	
+11-3	Umständen	NN	Umstand	_	O	O	
+11-4	u.	APPR	um	_	O	O	
+11-5	für	APPR	für	_	O	O	
+11-6	alle	PIAT	alle	_	O	O	
+11-7	'	$(	'	_	O	O	
+11-8	.l	NN	<unknown>	_	O	O	
+11-9	.	$.	.	_	O	O	
+
+#id=12
+#text=:heile wäre es daher sehr wünschenswerth, dß.
+12-1	:heile	NN	<unknown>	_	O	O	
+12-2	wäre	VAFIN	sein	_	O	O	
+12-3	es	PPER	es	_	O	O	
+12-4	daher	PAV	daher	_	O	O	
+12-5	sehr	ADV	sehr	_	O	O	
+12-6	wünschenswerth	NE	<unknown>	_	O	O	
+12-7	,	$,	,	_	O	O	
+12-8	dß	VVFIN	<unknown>	_	O	O	
+12-9	.	$.	.	_	O	O	
+
+#id=13
+#text=Fr~ hieher käme.
+13-1	Fr~	ADJA	<unknown>	_	O	O	
+13-2	hieher	NN	<unknown>	_	O	O	
+13-3	käme	VVFIN	kommen	_	O	O	
+13-4	.	$.	.	_	O	O	
+
+#id=14
+#text=Wie sehr leid uns diese Kr@~heit thut, können bie sich leicht denken.
+14-1	Wie	KOKOM	wie	_	O	O	
+14-2	sehr	ADV	sehr	_	O	O	
+14-3	leid	ADJD	leid	_	O	O	
+14-4	uns	PPER	wir	_	O	O	
+14-5	diese	PDAT	dies	_	O	O	
+14-6	Kr@~heit	NN	<unknown>	_	O	O	
+14-7	thut	NN	<unknown>	_	O	O	
+14-8	,	$,	,	_	O	O	
+14-9	können	VMFIN	können	_	O	O	
+14-10	bie	ADJD	<unknown>	_	O	O	
+14-11	sich	PRF	sich	_	O	O	
+14-12	leicht	ADJD	leicht	_	O	O	
+14-13	denken	VVINF	denken	_	O	O	
+14-14	.	$.	.	_	O	O	
+
+#id=15
+#text=Der liebe Gott möge helfen; aber Hoffnung haben wir kaum noch.
+15-1	Der	ART	die	_	O	O	
+15-2	liebe	ADJA	lieb	_	O	O	
+15-3	Gott	NN	Gott	_	O	O	
+15-4	möge	VMFIN	mögen	_	O	O	
+15-5	helfen	VVINF	helfen	_	O	O	
+15-6	;	$.	;	_	O	O	
+15-7	aber	KON	aber	_	O	O	
+15-8	Hoffnung	NN	Hoffnung	_	O	O	
+15-9	haben	VAFIN	haben	_	O	O	
+15-10	wir	PPER	wir	_	O	O	
+15-11	kaum	ADV	kaum	_	O	O	
+15-12	noch	ADV	noch	_	O	O	
+15-13	.	$.	.	_	O	O	
+
+#id=16
+#text=Vor 3 Tagen ist er nach Albano gefahren, um IJuftwechsel zu versuchen; leider aber ist gerade Regenwetter eingetreten, u. wahrscheinlich kehrt er deBhalb schon heute zurück.
+16-1	Vor	APPR	vor	_	O	O	
+16-2	3	CARD	3	_	O	O	
+16-3	Tagen	NN	Tag	_	O	O	
+16-4	ist	VAFIN	sein	_	O	O	
+16-5	er	PPER	er	_	O	O	
+16-6	nach	APPR	nach	_	O	O	
+16-7	Albano	NE	Albano	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+16-8	gefahren	VVPP	fahren	_	O	O	
+16-9	,	$,	,	_	O	O	
+16-10	um	KOUI	um	_	O	O	
+16-11	IJuftwechsel	NN	<unknown>	_	O	O	
+16-12	zu	PTKZU	zu	_	O	O	
+16-13	versuchen	VVINF	versuchen	_	O	O	
+16-14	;	$.	;	_	O	O	
+16-15	leider	ADV	leider	_	O	O	
+16-16	aber	ADV	aber	_	O	O	
+16-17	ist	VAFIN	sein	_	O	O	
+16-18	gerade	ADV	gerade	_	O	O	
+16-19	Regenwetter	NN	Regenwetter	_	O	O	
+16-20	eingetreten	VVPP	eintreten	_	O	O	
+16-21	,	$,	,	_	O	O	
+16-22	u.	KON	und	_	O	O	
+16-23	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+16-24	kehrt	PTKVZ	kehrt	_	O	O	
+16-25	er	PPER	er	_	O	O	
+16-26	deBhalb	VVFIN	<unknown>	_	O	O	
+16-27	schon	ADV	schon	_	O	O	
+16-28	heute	ADV	heute	_	O	O	
+16-29	zurück	PTKVZ	zurück	_	O	O	
+16-30	.	$.	.	_	O	O	
+
+#id=17
+#text=- Die Verwandtem scheinen die Sache noch nicht so schlimm anzusehen, u. einstweilen
+17-1	-	$(	-	_	O	O	
+17-2	Die	ART	die	_	O	O	
+17-3	Verwandtem	NN	Verwandte	_	O	O	
+17-4	scheinen	VVFIN	scheinen	_	O	O	
+17-5	die	ART	die	_	O	O	
+17-6	Sache	NN	Sache	_	O	O	
+17-7	noch	ADV	noch	_	O	O	
+17-8	nicht	PTKNEG	nicht	_	O	O	
+17-9	so	ADV	so	_	O	O	
+17-10	schlimm	ADJD	schlimm	_	O	O	
+17-11	anzusehen	VVIZU	ansehen	_	O	O	
+17-12	,	$,	,	_	O	O	
+17-13	u.	KON	und	_	O	O	
+17-14	einstweilen	ADV	einstweilen	_	O	O	
+

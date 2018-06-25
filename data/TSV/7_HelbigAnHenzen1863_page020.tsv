@@ -1,0 +1,167 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=c 260 H Helbig an Henzen Ohne Datum g. 26/6 64 r.
+1-1	c	ADJA	<unknown>	_	O	O	
+1-2	260	CARD	@card@	_	O	O	
+1-3	H	NN	H	_	O	O	
+1-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	Ohne	APPR	ohne	_	O	O	
+1-8	Datum	NN	Datum	_	O	O	
+1-9	g.	VVFIN	<unknown>	_	O	O	
+1-10	26/6	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-11	64	CARD	64	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-12	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=27/6 64 Geehrtester Herr Professor !
+2-1	27/6	CARD	@card@	_	O	O	
+2-2	64	CARD	64	_	O	O	
+2-3	Geehrtester	ADJA	<unknown>	_	O	O	
+2-4	Herr	NN	Herr	_	O	O	
+2-5	Professor	NN	Professor	_	O	O	
+2-6	!	$.	!	_	O	O	
+
+#id=3
+#text=Vor der Hand nur wenige Anfragen, um deren gelegentliche Beantwortung ich bitte.
+3-1	Vor	APPR	vor	_	O	O	
+3-2	der	ART	die	_	O	O	
+3-3	Hand	NN	Hand	_	O	O	
+3-4	nur	ADV	nur	_	O	O	
+3-5	wenige	PIAT	wenige	_	O	O	
+3-6	Anfragen	NN	Anfrage	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	um	KOUI	um	_	O	O	
+3-9	deren	PDAT	die	_	O	O	
+3-10	gelegentliche	ADJA	gelegentlich	_	O	O	
+3-11	Beantwortung	NN	Beantwortung	_	O	O	
+3-12	ich	PPER	ich	_	O	O	
+3-13	bitte	PTKANT	bitte	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Haben Sie den Kekuleschen Brief mit meinen Notizen über die pompeianische n Sil~tatue erhalten?
+4-1	Haben	VAFIN	haben	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	den	ART	die	_	O	O	
+4-4	Kekuleschen	NN	<unknown>	_	O	O	
+4-5	Brief	NN	Brief	_	O	O	
+4-6	mit	APPR	mit	_	O	O	
+4-7	meinen	PPOSAT	mein	_	O	O	
+4-8	Notizen	NN	Notiz	_	O	O	
+4-9	über	APPR	über	_	O	O	
+4-10	die	ART	die	_	O	O	
+4-11	pompeianische	ADJA	<unknown>	_	O	O	
+4-12	n	ADJA	<unknown>	_	O	O	
+4-13	Sil~tatue	NN	<unknown>	_	O	O	
+4-14	erhalten	VVPP	erhalten	_	O	O	
+4-15	?	$.	?	_	O	O	
+
+#id=5
+#text=Ich frage deßhalb, weil Kekule zu wenig Bolli auf den Brief geklebt hatte.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	frage	VVFIN	fragen	_	O	O	
+5-3	deßhalb	ADJD	<unknown>	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	weil	KOUS	weil	_	O	O	
+5-6	Kekule	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-7	zu	APPR	zu	_	O	O	
+5-8	wenig	PIAT	wenige	_	O	O	
+5-9	Bolli	NN	<unknown>	_	O	O	
+5-10	auf	APPR	auf	_	O	O	
+5-11	den	ART	die	_	O	O	
+5-12	Brief	NN	Brief	_	O	O	
+5-13	geklebt	VVPP	kleben	_	O	O	
+5-14	hatte	VAFIN	haben	_	O	O	
+5-15	.	$.	.	_	O	O	
+
+#id=6
+#text=Zweitens wie Heißt der Mann aus Ruvo, an dessen Zahlungsfähigkeit Sie zweifeln.
+6-1	Zweitens	ADV	zweitens	_	O	O	
+6-2	wie	KOUS	wie	_	O	O	
+6-3	Heißt	VVFIN	heißen	_	O	O	
+6-4	der	ART	die	_	O	O	
+6-5	Mann	NN	Mann	_	O	O	
+6-6	aus	APPR	aus	_	O	O	
+6-7	Ruvo	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-8	,	$,	,	_	O	O	
+6-9	an	APPR	an	_	O	O	
+6-10	dessen	PRELAT	die	_	O	O	
+6-11	Zahlungsfähigkeit	NN	Zahlungsfähigkeit	_	O	O	
+6-12	Sie	PPER	Sie	_	O	O	
+6-13	zweifeln	VVFIN	zweifeln	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Das Institutsiegel war gerade auf den betreffenden Namen gedruckt, welcher dadurch verloren ging.
+7-1	Das	ART	die	_	O	O	
+7-2	Institutsiegel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+7-3	war	VAFIN	sein	_	O	O	
+7-4	gerade	ADV	gerade	_	O	O	
+7-5	auf	APPR	auf	_	O	O	
+7-6	den	ART	die	_	O	O	
+7-7	betreffenden	ADJA	betreffend	_	O	O	
+7-8	Namen	NN	Name	_	O	O	
+7-9	gedruckt	VVPP	drucken	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	welcher	PWS	welche	_	O	O	
+7-12	dadurch	PAV	dadurch	_	O	O	
+7-13	verloren	VVPP	verlieren	_	O	O	
+7-14	ging	VVFIN	gehen	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=Von Gerhard gute Nachrichten und Aussicht auf die athenische Stelle.
+8-1	Von	APPR	von	_	O	O	
+8-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	gute	ADJA	gut	_	O	O	
+8-4	Nachrichten	NN	Nachricht	_	O	O	
+8-5	und	KON	und	_	O	O	
+8-6	Aussicht	NN	Aussicht	_	O	O	
+8-7	auf	APPR	auf	_	O	O	
+8-8	die	ART	die	_	O	O	
+8-9	athenische	ADJA	athenisch	_	O	O	
+8-10	Stelle	NN	Stelle	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Mit herzlichen Grüßen Ihr Wolfgang Helbig Sollte Zangemeister nach Neapel kommen, so mag er mir schreiben.
+9-1	Mit	APPR	mit	_	O	O	
+9-2	herzlichen	ADJA	herzlich	_	O	O	
+9-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+9-4	Ihr	PPOSAT	ihr	_	O	O	
+9-5	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+9-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-7	Sollte	VMFIN	sollen	_	O	O	
+9-8	Zangemeister	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-9	nach	APPR	nach	_	O	O	
+9-10	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-11	kommen	VVINF	kommen	_	O	O	
+9-12	,	$,	,	_	O	O	
+9-13	so	ADV	so	_	O	O	
+9-14	mag	VMFIN	mögen	_	O	O	
+9-15	er	PPER	er	_	O	O	
+9-16	mir	PPER	ich	_	O	O	
+9-17	schreiben	VVINF	schreiben	_	O	O	
+9-18	.	$.	.	_	O	O	
+
+#id=10
+#text=Es ist ein billiges und hübsches Zimmer für 8 Ducati in meinem Hause zu vermiethen.
+10-1	Es	PPER	es	_	O	O	
+10-2	ist	VAFIN	sein	_	O	O	
+10-3	ein	ART	eine	_	O	O	
+10-4	billiges	ADJA	billig	_	O	O	
+10-5	und	KON	und	_	O	O	
+10-6	hübsches	ADJA	hübsch	_	O	O	
+10-7	Zimmer	NN	Zimmer	_	O	O	
+10-8	für	APPR	für	_	O	O	
+10-9	8	CARD	8	_	O	O	
+10-10	Ducati	NN	<unknown>	_	O	O	
+10-11	in	APPR	in	_	O	O	
+10-12	meinem	PPOSAT	mein	_	O	O	
+10-13	Hause	NN	Haus	_	O	O	
+10-14	zu	APPR	zu	_	O	O	
+10-15	vermiethen	NE	<unknown>	_	O	O	
+10-16	.	$.	.	_	O	O	
+

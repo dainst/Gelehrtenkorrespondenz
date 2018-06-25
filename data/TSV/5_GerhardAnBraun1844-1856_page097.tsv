@@ -1,0 +1,211 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=27 A. d. Dir.
+1-1	27	CARD	27	_	O	O	
+1-2	A.	APPR	an	_	O	O	
+1-3	d.	ART	d.	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Dr. Braun Mein theurer Freund.
+2-1	Dr.	NN	Dr.	_	O	O	
+2-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-3	Mein	PPOSAT	mein	_	O	O	
+2-4	theurer	ADJA	<unknown>	_	O	O	
+2-5	Freund	NN	Freund	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Braun Berlin, 10. Januar 1845 g. 23/1 45 r. 25/1 45 Berlin 10/1845 Das Mißverständniß mit der Tosischen Vase datirt weit zurück; ich weiß es als solches nur durch das sonst konstatirte Faktum zu bezeichnen daß alle Ihre Mittheilungen stets aufs diskreteste von mir benutzt worden sind, ferner daß die von mir bei Basseggio genommene Zeichnung lange vor dem Tosischen Ankauf fiel.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	an	APPR	an	_	O	O	
+3-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-5	,	$,	,	_	O	O	
+3-6	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-10	g.	VVFIN	<unknown>	_	O	O	
+3-11	23/1	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-12	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+3-13	r.	ADJA	<unknown>	_	O	O	
+3-14	25/1	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-15	45	CARD	45	_	O	O	
+3-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-17	10/1845	CARD	@card@	_	O	O	
+3-18	Das	ART	die	_	O	O	
+3-19	Mißverständniß	NN	<unknown>	_	O	O	
+3-20	mit	APPR	mit	_	O	O	
+3-21	der	ART	die	_	O	O	
+3-22	Tosischen	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-23	Vase	NN	Vase	_	I-webanno.custom.LetterEntity_	I-OBJ	
+3-24	datirt	NN	<unknown>	_	O	O	
+3-25	weit	ADJD	weit	_	O	O	
+3-26	zurück	PTKVZ	zurück	_	O	O	
+3-27	;	$.	;	_	O	O	
+3-28	ich	PPER	ich	_	O	O	
+3-29	weiß	VVFIN	wissen	_	O	O	
+3-30	es	PPER	es	_	O	O	
+3-31	als	KOKOM	als	_	O	O	
+3-32	solches	PIS	solche	_	O	O	
+3-33	nur	ADV	nur	_	O	O	
+3-34	durch	APPR	durch	_	O	O	
+3-35	das	ART	die	_	O	O	
+3-36	sonst	ADV	sonst	_	O	O	
+3-37	konstatirte	ADJA	<unknown>	_	O	O	
+3-38	Faktum	NN	Faktum	_	O	O	
+3-39	zu	PTKZU	zu	_	O	O	
+3-40	bezeichnen	VVINF	bezeichnen	_	O	O	
+3-41	daß	KOUS	dass	_	O	O	
+3-42	alle	PIS	alle	_	O	O	
+3-43	Ihre	PPOSAT	ihr	_	O	O	
+3-44	Mittheilungen	NN	<unknown>	_	O	O	
+3-45	stets	ADV	stets	_	O	O	
+3-46	aufs	APPRART	aufs	_	O	O	
+3-47	diskreteste	NN	<unknown>	_	O	O	
+3-48	von	APPR	von	_	O	O	
+3-49	mir	PPER	ich	_	O	O	
+3-50	benutzt	VVPP	benutzen	_	O	O	
+3-51	worden	VAPP	werden	_	O	O	
+3-52	sind	VAFIN	sein	_	O	O	
+3-53	,	$,	,	_	O	O	
+3-54	ferner	ADJD	fern	_	O	O	
+3-55	daß	KOUS	dass	_	O	O	
+3-56	die	ART	die	_	O	O	
+3-57	von	APPR	von	_	O	O	
+3-58	mir	PPER	ich	_	O	O	
+3-59	bei	APPR	bei	_	O	O	
+3-60	Basseggio	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-61	genommene	ADJA	genommen	_	O	O	
+3-62	Zeichnung	NN	Zeichnung	_	O	O	
+3-63	lange	ADV	lange	_	O	O	
+3-64	vor	APPR	vor	_	O	O	
+3-65	dem	ART	die	_	O	O	
+3-66	Tosischen	ADJA	<unknown>	_	O	O	
+3-67	Ankauf	NN	Ankauf	_	O	O	
+3-68	fiel	VVFIN	fallen	_	O	O	
+3-69	.	$.	.	_	O	O	
+
+#id=5
+#text=Daß wir nicht nur von den für die französischen Institutshefte beabsichtigten Publikationen (von denen die Phineus-Teseus und andre Vasen meinen Portefeuilles unvorhergesehen abgingen) sondern noch mehr von unsern beiderseits bezweckten (besonders den für die Instituts',J1ohumente bestimmten !! )
+5-1	Daß	KOUS	dass	_	O	O	
+5-2	wir	PPER	wir	_	O	O	
+5-3	nicht	PTKNEG	nicht	_	O	O	
+5-4	nur	ADV	nur	_	O	O	
+5-5	von	APPR	von	_	O	O	
+5-6	den	ART	die	_	O	O	
+5-7	für	APPR	für	_	O	O	
+5-8	die	ART	die	_	O	O	
+5-9	französischen	ADJA	französisch	_	O	O	
+5-10	Institutshefte	NN	<unknown>	_	O	O	
+5-11	beabsichtigten	ADJA	beabsichtigt	_	O	O	
+5-12	Publikationen	NN	Publikation	_	O	O	
+5-13	(	$(	(	_	O	O	
+5-14	von	APPR	von	_	O	O	
+5-15	denen	PDS	die	_	O	O	
+5-16	die	ART	die	_	O	O	
+5-17	Phineus-Teseus	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-18	und	KON	und	_	O	O	
+5-19	andre	PIAT	andere	_	O	O	
+5-20	Vasen	NN	Vase	_	O	O	
+5-21	meinen	PPOSAT	mein	_	O	O	
+5-22	Portefeuilles	NN	Portefeuille	_	O	O	
+5-23	unvorhergesehen	ADJD	unvorhergesehen	_	O	O	
+5-24	abgingen	VVFIN	abgehen	_	O	O	
+5-25	)	$(	)	_	O	O	
+5-26	sondern	KON	sondern	_	O	O	
+5-27	noch	ADV	noch	_	O	O	
+5-28	mehr	ADV	mehr	_	O	O	
+5-29	von	APPR	von	_	O	O	
+5-30	unsern	PPOSAT	unsre	_	O	O	
+5-31	beiderseits	APPR	beiderseits	_	O	O	
+5-32	bezweckten	ADJA	bezweckt	_	O	O	
+5-33	(	$(	(	_	O	O	
+5-34	besonders	ADV	besonders	_	O	O	
+5-35	den	ART	die	_	O	O	
+5-36	für	APPR	für	_	O	O	
+5-37	die	ART	die	_	O	O	
+5-38	Instituts',J1ohumente	NN	<unknown>	_	O	O	
+5-39	bestimmten	VVFIN	bestimmen	_	O	O	
+5-40	!	$.	!	_	O	O	
+5-41	!	$.	!	_	O	O	
+5-42	)	$(	)	_	O	O	
+
+#id=6
+#text=mehr unterrichtet sein sollten ist allzu wahr.
+6-1	mehr	ADV	mehr	_	O	O	
+6-2	unterrichtet	VVPP	unterrichten	_	O	O	
+6-3	sein	VAINF	sein	_	O	O	
+6-4	sollten	VMFIN	sollen	_	O	O	
+6-5	ist	VAFIN	sein	_	O	O	
+6-6	allzu	PTKA	allzu	_	O	O	
+6-7	wahr	ADJD	wahr	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich aber habe dato nur noch den Rest meiner Homerischen und etwaniger smnstiger Vasenbilder - nichts was muthmaßlich mit Ihnen kollidieren könnte - und ein Heft apulischer Vasenbilder des hiesigen Museums vor; als Anhang zu diesem möchte ich jedoch Paris-urtheil verkleinert geben.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	aber	ADV	aber	_	O	O	
+7-3	habe	VAFIN	haben	_	O	O	
+7-4	dato	NE	<unknown>	_	O	O	
+7-5	nur	ADV	nur	_	O	O	
+7-6	noch	ADV	noch	_	O	O	
+7-7	den	ART	die	_	O	O	
+7-8	Rest	NN	Rest	_	O	O	
+7-9	meiner	PPOSAT	mein	_	O	O	
+7-10	Homerischen	NN	<unknown>	_	O	O	
+7-11	und	KON	und	_	O	O	
+7-12	etwaniger	ADJA	<unknown>	_	O	O	
+7-13	smnstiger	ADJA	<unknown>	_	O	O	
+7-14	Vasenbilder	NN	<unknown>	_	O	O	
+7-15	-	$(	-	_	O	O	
+7-16	nichts	PIAT	nichts	_	O	O	
+7-17	was	PIS	was	_	O	O	
+7-18	muthmaßlich	ADJD	<unknown>	_	O	O	
+7-19	mit	APPR	mit	_	O	O	
+7-20	Ihnen	PPER	Sie	_	O	O	
+7-21	kollidieren	VVINF	kollidieren	_	O	O	
+7-22	könnte	VMFIN	können	_	O	O	
+7-23	-	$(	-	_	O	O	
+7-24	und	KON	und	_	O	O	
+7-25	ein	ART	eine	_	O	O	
+7-26	Heft	NN	Heft	_	O	O	
+7-27	apulischer	NN	<unknown>	_	O	O	
+7-28	Vasenbilder	NN	<unknown>	_	O	O	
+7-29	des	ART	die	_	O	O	
+7-30	hiesigen	ADJA	hiesig	_	O	O	
+7-31	Museums	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-32	vor	PTKVZ	vor	_	O	O	
+7-33	;	$.	;	_	O	O	
+7-34	als	KOKOM	als	_	O	O	
+7-35	Anhang	NN	Anhang	_	O	O	
+7-36	zu	APPR	zu	_	O	O	
+7-37	diesem	PDAT	dies	_	O	O	
+7-38	möchte	VMFIN	mögen	_	O	O	
+7-39	ich	PPER	ich	_	O	O	
+7-40	jedoch	ADV	jedoch	_	O	O	
+7-41	Paris-urtheil	NN	<unknown>	_	O	O	
+7-42	verkleinert	VVPP	verkleinern	_	O	O	
+7-43	geben	VVINF	geben	_	O	O	
+7-44	.	$.	.	_	O	O	
+
+#id=8
+#text=Sehen Sie ob dies Sie irgendwie durchkreuzen kann.
+8-1	Sehen	VVFIN	sehen	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	ob	KOUS	ob	_	O	O	
+8-4	dies	PDS	dies	_	O	O	
+8-5	Sie	PPER	Sie	_	O	O	
+8-6	irgendwie	ADV	irgendwie	_	O	O	
+8-7	durchkreuzen	VVINF	durchkreuzen	_	O	O	
+8-8	kann	VMFIN	können	_	O	O	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=Das Gegenstück der Kadmosva-
+9-1	Das	ART	die	_	O	O	
+9-2	Gegenstück	NN	Gegenstück	_	O	O	
+9-3	der	ART	die	_	O	O	
+9-4	Kadmosva-	TRUNC	<unknown>	_	O	O	
+

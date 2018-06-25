@@ -1,0 +1,44 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=339 Helbig an Henzen Zürich, 14. Oktober 1870 2 Lieber wäre es mir allerdings, wenn diese Manipulationen bis zu meiner Rückkehr aufgeschoben würden.
+1-1	339	CARD	@card@	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	Lieber	NN	Liebe	_	O	O	
+1-13	wäre	VAFIN	sein	_	O	O	
+1-14	es	PPER	es	_	O	O	
+1-15	mir	PRF	ich	_	O	O	
+1-16	allerdings	ADV	allerdings	_	O	O	
+1-17	,	$,	,	_	O	O	
+1-18	wenn	KOUS	wenn	_	O	O	
+1-19	diese	PDAT	dies	_	O	O	
+1-20	Manipulationen	NN	Manipulation	_	O	O	
+1-21	bis	KON	bis	_	O	O	
+1-22	zu	APPR	zu	_	O	O	
+1-23	meiner	PPOSAT	mein	_	O	O	
+1-24	Rückkehr	NN	Rückkehr	_	O	O	
+1-25	aufgeschoben	VVPP	aufschieben	_	O	O	
+1-26	würden	VAFIN	werden	_	O	O	
+1-27	.	$.	.	_	O	O	
+
+#id=2
+#text=Grüßen Sie vielmals Brunns und Fräulein Kopf Ihr w. Helbig
+2-1	Grüßen	VVFIN	grüßen	_	O	O	
+2-2	Sie	PPER	Sie	_	O	O	
+2-3	vielmals	ADV	vielmals	_	O	O	
+2-4	Brunns	NN	Brunn	_	O	O	
+2-5	und	KON	und	_	O	O	
+2-6	Fräulein	NN	Fräulein	_	O	O	
+2-7	Kopf	NN	Kopf	_	O	O	
+2-8	Ihr	PPOSAT	ihr	_	O	O	
+2-9	w.	APPR	w.	_	O	O	
+2-10	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

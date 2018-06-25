@@ -1,0 +1,291 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=6 9/VI/55 Henzen an Gerhard ß~s~ Verehrter Herr Professor Meinem Briefe vom 3 n • d. habe ich jetzt nach aus Rom eingelaufenen Nachrichten Folgendes hinzuzufügen 1) Auf gütige Verwendung Herrn v. Thile's hatte das Ministerium den Generalconsul Freiherrn Dr.
+1-1	6	CARD	6	_	O	O	
+1-2	9/VI/55	CARD	<unknown>	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	ß~s~	ADJA	<unknown>	_	O	O	
+1-7	Verehrter	ADJA	verehrt	_	O	O	
+1-8	Herr	NN	Herr	_	O	O	
+1-9	Professor	NN	Professor	_	O	O	
+1-10	Meinem	PPOSAT	mein	_	O	O	
+1-11	Briefe	NN	Brief	_	O	O	
+1-12	vom	APPRART	von	_	O	O	
+1-13	3	CARD	3	_	O	O	
+1-14	n	ADJA	<unknown>	_	O	O	
+1-15	•	NN	<unknown>	_	O	O	
+1-16	d.	PDS	d.	_	O	O	
+1-17	habe	VAFIN	haben	_	O	O	
+1-18	ich	PPER	ich	_	O	O	
+1-19	jetzt	ADV	jetzt	_	O	O	
+1-20	nach	APPR	nach	_	O	O	
+1-21	aus	APPR	aus	_	O	O	
+1-22	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-23	eingelaufenen	ADJA	eingelaufen	_	O	O	
+1-24	Nachrichten	NN	Nachricht	_	O	O	
+1-25	Folgendes	NN	Folgende	_	O	O	
+1-26	hinzuzufügen	VVIZU	hinzufügen	_	O	O	
+1-27	1	CARD	1	_	O	O	
+1-28	)	$(	)	_	O	O	
+1-29	Auf	APPR	auf	_	O	O	
+1-30	gütige	ADJA	gütig	_	O	O	
+1-31	Verwendung	NN	Verwendung	_	O	O	
+1-32	Herrn	NN	Herr	_	O	O	
+1-33	v.	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-34	Thile's	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-35	hatte	VAFIN	haben	_	O	O	
+1-36	das	ART	die	_	O	O	
+1-37	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-38	den	ART	die	_	O	O	
+1-39	Generalconsul	NN	<unknown>	_	O	O	
+1-40	Freiherrn	NN	Freiherr	_	O	O	
+1-41	Dr.	NN	Dr.	_	O	O	
+
+#id=2
+#text=v. Minutoli beauftragt, mir, resp. dem Institut, Papier= ode Stanniolabdrücke der von Mommsen kürzlich publicirten Bronzetafeln von Malaga zu verschaffen.
+2-1	v.	APPR	von	_	O	O	
+2-2	Minutoli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-3	beauftragt	VVPP	beauftragen	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	mir	PRF	ich	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	resp.	ADV	resp.	_	O	O	
+2-8	dem	ART	die	_	O	O	
+2-9	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-10	,	$,	,	_	O	O	
+2-11	Papier=	NN	<unknown>	_	O	O	
+2-12	ode	ADJA	<unknown>	_	O	O	
+2-13	Stanniolabdrücke	NN	<unknown>	_	O	O	
+2-14	der	ART	die	_	O	O	
+2-15	von	APPR	von	_	O	O	
+2-16	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-17	kürzlich	ADJD	kürzlich	_	O	O	
+2-18	publicirten	ADJA	<unknown>	_	O	O	
+2-19	Bronzetafeln	NN	Bronzetafel	_	O	O	
+2-20	von	APPR	von	_	O	O	
+2-21	Malaga	NE	Malaga	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-22	zu	PTKZU	zu	_	O	O	
+2-23	verschaffen	VVINF	verschaffen	_	O	O	
+2-24	.	$.	.	_	O	O	
+
+#id=3
+#text=Minutoli schreibt aus Malaga selbst, daß er dieselben gemacht und empfiehlt den Besitzer, Herrn George Loving, "einen gebildeten, wohlhabenden Mann, Numismatiker u. Besitzer einer reichen Münzensammlung" zum Correspondenten.
+3-1	Minutoli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	schreibt	VVFIN	schreiben	_	O	O	
+3-3	aus	APPR	aus	_	O	O	
+3-4	Malaga	NE	Malaga	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-5	selbst	ADV	selbst	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	daß	KOUS	dass	_	O	O	
+3-8	er	PPER	er	_	O	O	
+3-9	dieselben	PDS	dieselbe	_	O	O	
+3-10	gemacht	VVPP	machen	_	O	O	
+3-11	und	KON	und	_	O	O	
+3-12	empfiehlt	VVFIN	empfehlen	_	O	O	
+3-13	den	ART	die	_	O	O	
+3-14	Besitzer	NN	Besitzer	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	Herrn	NN	Herr	_	O	O	
+3-17	George	NE	George	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-18	Loving	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-19	,	$,	,	_	O	O	
+3-20	"	$(	"	_	O	O	
+3-21	einen	ART	eine	_	O	O	
+3-22	gebildeten	ADJA	gebildet	_	O	O	
+3-23	,	$,	,	_	O	O	
+3-24	wohlhabenden	ADJA	wohlhabend	_	O	O	
+3-25	Mann	NN	Mann	_	O	O	
+3-26	,	$,	,	_	O	O	
+3-27	Numismatiker	NN	Numismatiker	_	O	O	
+3-28	u.	APPR	um	_	O	O	
+3-29	Besitzer	NN	Besitzer	_	O	O	
+3-30	einer	ART	eine	_	O	O	
+3-31	reichen	ADJA	reich	_	O	O	
+3-32	Münzensammlung	NN	Münzensammlung	_	O	O	
+3-33	"	$(	"	_	O	O	
+3-34	zum	APPRART	zu	_	O	O	
+3-35	Correspondenten	NN	<unknown>	_	O	O	
+3-36	.	$.	.	_	O	O	
+
+#id=4
+#text=Braun läßt Bie nun bitten, möglichst bald das Nöthige zu verfügen, u. hat zugleich auch Herrn von Minutoli bitten lassen, ein Diplom für sich anzunehmen ( Ist er nicht aber schon Correspondent ?).
+4-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	läßt	VVFIN	lassen	_	O	O	
+4-3	Bie	ADJD	<unknown>	_	O	O	
+4-4	nun	ADV	nun	_	O	O	
+4-5	bitten	VVINF	bitten	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	möglichst	ADV	möglichst	_	O	O	
+4-8	bald	ADV	bald	_	O	O	
+4-9	das	ART	die	_	O	O	
+4-10	Nöthige	NN	<unknown>	_	O	O	
+4-11	zu	PTKZU	zu	_	O	O	
+4-12	verfügen	VVINF	verfügen	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	u.	KON	und	_	O	O	
+4-15	hat	VAFIN	haben	_	O	O	
+4-16	zugleich	ADV	zugleich	_	O	O	
+4-17	auch	ADV	auch	_	O	O	
+4-18	Herrn	NN	Herr	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-19	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-20	Minutoli	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-21	bitten	VVINF	bitten	_	O	O	
+4-22	lassen	VVINF	lassen	_	O	O	
+4-23	,	$,	,	_	O	O	
+4-24	ein	ART	eine	_	O	O	
+4-25	Diplom	NN	Diplom	_	O	O	
+4-26	für	APPR	für	_	O	O	
+4-27	sich	PRF	sich	_	O	O	
+4-28	anzunehmen	VVIZU	annehmen	_	O	O	
+4-29	(	$(	(	_	O	O	
+4-30	Ist	VAFIN	sein	_	O	O	
+4-31	er	PPER	er	_	O	O	
+4-32	nicht	PTKNEG	nicht	_	O	O	
+4-33	aber	ADV	aber	_	O	O	
+4-34	schon	ADV	schon	_	O	O	
+4-35	Correspondent	NN	<unknown>	_	O	O	
+4-36	?	$.	?	_	O	O	
+4-37	)	$(	)	_	O	O	
+4-38	.	$.	.	_	O	O	
+
+#id=5
+#text=Beide können uns in Spanien sehr nützen.
+5-1	Beide	PIS	beide	_	O	O	
+5-2	können	VMFIN	können	_	O	O	
+5-3	uns	PRF	wir	_	O	O	
+5-4	in	APPR	in	_	O	O	
+5-5	Spanien	NE	Spanien	_	O	O	
+5-6	sehr	ADV	sehr	_	O	O	
+5-7	nützen	VVINF	nützen	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=2) Brockhaus meldet, es sei dh.
+6-1	2	CARD	2	_	O	O	
+6-2	)	$(	)	_	O	O	
+6-3	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-4	meldet	VVFIN	melden	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	es	PPER	es	_	O	O	
+6-7	sei	VAFIN	sein	_	O	O	
+6-8	dh.	NE	<unknown>	_	O	O	
+
+#id=7
+#text=den Tod des Königs von Sachsen ein Exemplar der Annali erledigt, indeß wohl sicher, dß.
+7-1	den	ART	die	_	O	O	
+7-2	Tod	NN	Tod	_	O	O	
+7-3	des	ART	die	_	O	O	
+7-4	Königs	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-5	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-6	Sachsen	NE	Sachsen	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-7	ein	ART	eine	_	O	O	
+7-8	Exemplar	NN	Exemplar	_	O	O	
+7-9	der	ART	die	_	O	O	
+7-10	Annali	NE	<unknown>	_	O	O	
+7-11	erledigt	VVPP	erledigen	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	indeß	NN	<unknown>	_	O	O	
+7-14	wohl	ADV	wohl	_	O	O	
+7-15	sicher	ADJD	sicher	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	dß	VVFIN	<unknown>	_	O	O	
+7-18	.	$.	.	_	O	O	
+
+#id=8
+#text=der jetzige König die Fortsetzung nehmen würde, wenn man ihn ersuche.
+8-1	der	ART	die	_	O	O	
+8-2	jetzige	ADJA	jetzig	_	O	O	
+8-3	König	NN	König	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	Fortsetzung	NN	Fortsetzung	_	O	O	
+8-6	nehmen	VVINF	nehmen	_	O	O	
+8-7	würde	VAFIN	werden	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	wenn	KOUS	wenn	_	O	O	
+8-10	man	PIS	man	_	O	O	
+8-11	ihn	PPER	er	_	O	O	
+8-12	ersuche	VVFIN	ersuchen	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Braun bittet Sie, dies zu thun, da Sie ja gewöhnlich die Güte haben, in solchen Fällen die Honneurs zu machen.
+9-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	bittet	VVFIN	bitten	_	O	O	
+9-3	Sie	PPER	Sie	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	dies	PDS	dies	_	O	O	
+9-6	zu	APPR	zu	_	O	O	
+9-7	thun	NE	<unknown>	_	O	O	
+9-8	,	$,	,	_	O	O	
+9-9	da	KOUS	da	_	O	O	
+9-10	Sie	PPER	Sie	_	O	O	
+9-11	ja	ADV	ja	_	O	O	
+9-12	gewöhnlich	ADJD	gewöhnlich	_	O	O	
+9-13	die	ART	die	_	O	O	
+9-14	Güte	NN	Güte	_	O	O	
+9-15	haben	VAFIN	haben	_	O	O	
+9-16	,	$,	,	_	O	O	
+9-17	in	APPR	in	_	O	O	
+9-18	solchen	PIAT	solche	_	O	O	
+9-19	Fällen	NN	Fall|Fällen	_	O	O	
+9-20	die	ART	die	_	O	O	
+9-21	Honneurs	NN	Honneur	_	O	O	
+9-22	zu	PTKZU	zu	_	O	O	
+9-23	machen	VVINF	machen	_	O	O	
+9-24	.	$.	.	_	O	O	
+
+#id=10
+#text=3) Da unsre Englischen Angelegenheiten in den letzten Jahren von Campanari sehr lässig betrieben wurden, so hat Braun ihm den Vertrieb abgenommen u. ihn an Williams & Norgate übergeben, die sehr thätig u. solid sein sollen.
+10-1	3	CARD	3	_	O	O	
+10-2	)	$(	)	_	O	O	
+10-3	Da	ADV	da	_	O	O	
+10-4	unsre	PPOSAT	unsre	_	O	O	
+10-5	Englischen	ADJA	englisch	_	O	O	
+10-6	Angelegenheiten	NN	Angelegenheit	_	O	O	
+10-7	in	APPR	in	_	O	O	
+10-8	den	ART	die	_	O	O	
+10-9	letzten	ADJA	letzt	_	O	O	
+10-10	Jahren	NN	Jahr	_	O	O	
+10-11	von	APPR	von	_	O	O	
+10-12	Campanari	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-13	sehr	ADV	sehr	_	O	O	
+10-14	lässig	ADJD	lässig	_	O	O	
+10-15	betrieben	VVPP	betreiben	_	O	O	
+10-16	wurden	VAFIN	werden	_	O	O	
+10-17	,	$,	,	_	O	O	
+10-18	so	ADV	so	_	O	O	
+10-19	hat	VAFIN	haben	_	O	O	
+10-20	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-21	ihm	PPER	er	_	O	O	
+10-22	den	ART	die	_	O	O	
+10-23	Vertrieb	NN	Vertrieb	_	O	O	
+10-24	abgenommen	VVPP	abnehmen	_	O	O	
+10-25	u.	APPR	um	_	O	O	
+10-26	ihn	PPER	er	_	O	O	
+10-27	an	APPR	an	_	O	O	
+10-28	Williams	NE	William	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-29	&	KON	&	_	O	O	
+10-30	Norgate	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-31	übergeben	VVINF	übergeben	_	O	O	
+10-32	,	$,	,	_	O	O	
+10-33	die	PRELS	die	_	O	O	
+10-34	sehr	ADV	sehr	_	O	O	
+10-35	thätig	ADJD	<unknown>	_	O	O	
+10-36	u.	KON	und	_	O	O	
+10-37	solid	ADJD	solid	_	O	O	
+10-38	sein	VAINF	sein	_	O	O	
+10-39	sollen	VMFIN	sollen	_	O	O	
+10-40	.	$.	.	_	O	O	
+
+#id=11
+#text=Sie werden das ohne Zweifel billigen.
+11-1	Sie	PPER	Sie	_	O	O	
+11-2	werden	VAFIN	werden	_	O	O	
+11-3	das	PDS	die	_	O	O	
+11-4	ohne	APPR	ohne	_	O	O	
+11-5	Zweifel	NN	Zweifel	_	O	O	
+11-6	billigen	VVINF	billigen	_	O	O	
+11-7	.	$.	.	_	O	O	
+

@@ -1,0 +1,140 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=296 2 Helbig an Henzen London, 4. Juni 1871 Güte, zu verificiren, ob wir haben : Murdoch Smith and Porcher hist. of the rec.
+1-1	296	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	4	CARD	4	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1871	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Güte	NN	Güte	_	O	O	
+1-13	,	$,	,	_	O	O	
+1-14	zu	APPR	zu	_	O	O	
+1-15	verificiren	NN	<unknown>	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	ob	KOUS	ob	_	O	O	
+1-18	wir	PPER	wir	_	O	O	
+1-19	haben	VAFIN	haben	_	O	O	
+1-20	:	$.	:	_	O	O	
+1-21	Murdoch	NN	<unknown>	_	O	O	
+1-22	Smith	NE	Smith	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-23	and	FM	and	_	O	O	
+1-24	Porcher	NN	<unknown>	_	O	O	
+1-25	hist.	NE	<unknown>	_	O	O	
+1-26	of	FM	of	_	O	O	
+1-27	the	FM	the	_	O	O	
+1-28	rec	NE	<unknown>	_	O	O	
+1-29	.	$.	.	_	O	O	
+
+#id=2
+#text=disc.
+2-1	disc	NE	<unknown>	_	O	O	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=at Cyrene London 1864 fol.
+3-1	at	ADJA	<unknown>	_	O	O	
+3-2	Cyrene	NN	<unknown>	_	O	O	
+3-3	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-4	1864	CARD	@card@	_	O	O	
+3-5	fol	NN	<unknown>	_	O	O	
+3-6	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich glaube bestimmt, daß auch dieses Buch uns fehlt.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	glaube	VVFIN	glauben	_	O	O	
+4-3	bestimmt	ADJD	bestimmt	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	daß	KOUS	dass	_	O	O	
+4-6	auch	ADV	auch	_	O	O	
+4-7	dieses	PDAT	dies	_	O	O	
+4-8	Buch	NN	Buch	_	O	O	
+4-9	uns	PPER	wir	_	O	O	
+4-10	fehlt	VVFIN	fehlen	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Newton und Franks haben versprochen, die Direction des Brit. Museums zu veranlassen, uns diese Werke zu schenken.
+5-1	Newton	NE	Newton	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	und	KON	und	_	O	O	
+5-3	Franks	NE	Frank	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	haben	VAFIN	haben	_	O	O	
+5-5	versprochen	VVPP	versprechen	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	die	ART	die	_	O	O	
+5-8	Direction	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-9	des	ART	die	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-10	Brit.	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-11	Museums	NN	Museum	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-12	zu	PTKZU	zu	_	O	O	
+5-13	veranlassen	VVINF	veranlassen	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	uns	PPER	wir	_	O	O	
+5-16	diese	PDAT	dies	_	O	O	
+5-17	Werke	NN	Werk	_	O	O	
+5-18	zu	PTKZU	zu	_	O	O	
+5-19	schenken	VVINF	schenken	_	O	O	
+5-20	.	$.	.	_	O	O	
+
+#id=6
+#text=Sie verreisen gegen Mitte Juli und es wäre wünschenswerth das Eisen zu schmieden, so lange es warm ist.
+6-1	Sie	PPER	Sie	_	O	O	
+6-2	verreisen	VVFIN	verreisen	_	O	O	
+6-3	gegen	APPR	gegen	_	O	O	
+6-4	Mitte	NN	Mitte	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-5	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-6	und	KON	und	_	O	O	
+6-7	es	PPER	es	_	O	O	
+6-8	wäre	VAFIN	sein	_	O	O	
+6-9	wünschenswerth	NE	<unknown>	_	O	O	
+6-10	das	ART	die	_	O	O	
+6-11	Eisen	NN	Eisen	_	O	O	
+6-12	zu	PTKZU	zu	_	O	O	
+6-13	schmieden	VVINF	schmieden	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	so	ADV	so	_	O	O	
+6-16	lange	ADV	lange	_	O	O	
+6-17	es	PPER	es	_	O	O	
+6-18	warm	ADJD	warm	_	O	O	
+6-19	ist	VAFIN	sein	_	O	O	
+6-20	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Dürftigkeit meines Schreibmaterials hindert mich an ausführlicher Mittheilung.
+7-1	Die	ART	die	_	O	O	
+7-2	Dürftigkeit	NN	Dürftigkeit	_	O	O	
+7-3	meines	PPOSAT	mein	_	O	O	
+7-4	Schreibmaterials	NN	<unknown>	_	O	O	
+7-5	hindert	VVFIN	hindern	_	O	O	
+7-6	mich	PRF	ich	_	O	O	
+7-7	an	APPR	an	_	O	O	
+7-8	ausführlicher	ADJA	ausführlich	_	O	O	
+7-9	Mittheilung	NN	<unknown>	_	O	O	
+7-10	.	$.	.	_	O	O	
+
+#id=8
+#text=Entschuldigen Sie !
+8-1	Entschuldigen	VVFIN	entschuldigen	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	!	$.	!	_	O	O	
+
+#id=9
+#text=Herzliche Grüße an Fräulein Kopf und die Kapitoliner Ihr ergebener Helbig
+9-1	Herzliche	ADJA	herzlich	_	O	O	
+9-2	Grüße	NN	Gruß	_	O	O	
+9-3	an	APPR	an	_	O	O	
+9-4	Fräulein	NN	Fräulein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	Kopf	NN	Kopf	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-6	und	KON	und	_	O	O	
+9-7	die	ART	die	_	O	O	
+9-8	Kapitoliner	NN	<unknown>	_	O	O	
+9-9	Ihr	PPOSAT	ihr	_	O	O	
+9-10	ergebener	ADJA	ergeben	_	O	O	
+9-11	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

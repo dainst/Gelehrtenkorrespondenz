@@ -1,0 +1,237 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=, J 207 A. d. Dir.
+1-1	,	$,	,	_	O	O	
+1-2	J	NN	J	_	O	O	
+1-3	207	CARD	@card@	_	O	O	
+1-4	A.	APPR	an	_	O	O	
+1-5	d.	ART	d.	_	O	O	
+1-6	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Mein theurer Freund.
+2-1	Mein	PPOSAT	mein	_	O	O	
+2-2	theurer	ADJA	<unknown>	_	O	O	
+2-3	Freund	NN	Freund	_	O	O	
+2-4	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Braun Berlin, 1. Mai 1844 g. 13/V 44 r. 13/V 44 Berlin 1 Mai 44 Die im Museum mit großer Anstrengung obwohl nicht ohne Succeß gehaltenen Vorlesungen hatte ich glücklich hinter mir; körperlich gebessert kann ich mich darum nicht sagen.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	an	APPR	an	_	O	O	
+3-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-5	,	$,	,	_	O	O	
+3-6	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-10	g.	VVFIN	<unknown>	_	O	O	
+3-11	13/V	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-12	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+3-13	r.	ADJA	<unknown>	_	O	O	
+3-14	13/V	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-15	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-17	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-18	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-19	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-20	Die	ART	die	_	O	O	
+3-21	im	APPRART	in	_	O	O	
+3-22	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-23	mit	APPR	mit	_	O	O	
+3-24	großer	ADJA	groß	_	O	O	
+3-25	Anstrengung	NN	Anstrengung	_	O	O	
+3-26	obwohl	KOUS	obwohl	_	O	O	
+3-27	nicht	PTKNEG	nicht	_	O	O	
+3-28	ohne	APPR	ohne	_	O	O	
+3-29	Succeß	NN	<unknown>	_	O	O	
+3-30	gehaltenen	ADJA	gehalten	_	O	O	
+3-31	Vorlesungen	NN	Vorlesung	_	O	O	
+3-32	hatte	VAFIN	haben	_	O	O	
+3-33	ich	PPER	ich	_	O	O	
+3-34	glücklich	ADJD	glücklich	_	O	O	
+3-35	hinter	APPR	hinter	_	O	O	
+3-36	mir	PPER	ich	_	O	O	
+3-37	;	$.	;	_	O	O	
+3-38	körperlich	ADJD	körperlich	_	O	O	
+3-39	gebessert	VVPP	bessern	_	O	O	
+3-40	kann	VMFIN	können	_	O	O	
+3-41	ich	PPER	ich	_	O	O	
+3-42	mich	PRF	ich	_	O	O	
+3-43	darum	PAV	darum	_	O	O	
+3-44	nicht	PTKNEG	nicht	_	O	O	
+3-45	sagen	VVINF	sagen	_	O	O	
+3-46	.	$.	.	_	O	O	
+
+#id=4
+#text=Für Zwecke der äußersten Noth ist es meinen Augen vergönnt sich zu ermannen; gearbeitet aber habe ich seit 2 Monaten nicht und fürchte die nervöse Augenschrumpfung, das mir neue Phänomen feuchten trüben kleinen Auges das an aller Arbeit mich hindert, auch jetzt noch nicht los zu sein.
+4-1	Für	APPR	für	_	O	O	
+4-2	Zwecke	NN	Zweck	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	äußersten	ADJA	äußer	_	O	O	
+4-5	Noth	NE	<unknown>	_	O	O	
+4-6	ist	VAFIN	sein	_	O	O	
+4-7	es	PPER	es	_	O	O	
+4-8	meinen	PPOSAT	mein	_	O	O	
+4-9	Augen	NN	Auge	_	O	O	
+4-10	vergönnt	VVFIN	vergönnen	_	O	O	
+4-11	sich	PRF	sich	_	O	O	
+4-12	zu	PTKZU	zu	_	O	O	
+4-13	ermannen	VVINF	ermannen	_	O	O	
+4-14	;	$.	;	_	O	O	
+4-15	gearbeitet	VVPP	arbeiten	_	O	O	
+4-16	aber	KON	aber	_	O	O	
+4-17	habe	VAFIN	haben	_	O	O	
+4-18	ich	PPER	ich	_	O	O	
+4-19	seit	APPR	seit	_	O	O	
+4-20	2	CARD	2	_	O	O	
+4-21	Monaten	NN	Monat	_	O	O	
+4-22	nicht	PTKNEG	nicht	_	O	O	
+4-23	und	KON	und	_	O	O	
+4-24	fürchte	VVFIN	fürchten	_	O	O	
+4-25	die	ART	die	_	O	O	
+4-26	nervöse	ADJA	nervös	_	O	O	
+4-27	Augenschrumpfung	NN	<unknown>	_	O	O	
+4-28	,	$,	,	_	O	O	
+4-29	das	PRELS	die	_	O	O	
+4-30	mir	PRF	ich	_	O	O	
+4-31	neue	ADJA	neu	_	O	O	
+4-32	Phänomen	NN	Phänomen	_	O	O	
+4-33	feuchten	ADJA	feucht	_	O	O	
+4-34	trüben	ADJA	trüb	_	O	O	
+4-35	kleinen	ADJA	klein	_	O	O	
+4-36	Auges	NN	Auge	_	O	O	
+4-37	das	ART	die	_	O	O	
+4-38	an	APPR	an	_	O	O	
+4-39	aller	PIAT	alle	_	O	O	
+4-40	Arbeit	NN	Arbeit	_	O	O	
+4-41	mich	PRF	ich	_	O	O	
+4-42	hindert	VVFIN	hindern	_	O	O	
+4-43	,	$,	,	_	O	O	
+4-44	auch	ADV	auch	_	O	O	
+4-45	jetzt	ADV	jetzt	_	O	O	
+4-46	noch	ADV	noch	_	O	O	
+4-47	nicht	PTKNEG	nicht	_	O	O	
+4-48	los	ADJD	los	_	O	O	
+4-49	zu	PTKZU	zu	_	O	O	
+4-50	sein	VAINF	sein	_	O	O	
+4-51	.	$.	.	_	O	O	
+
+#id=5
+#text=Petroleum nahm ich einige Tage hindurch in denen es mir gerade nicht schlimm und in Folge des Mittels nicht besser ging; Jetzt hat Melicher mir Silicen gegeben.
+5-1	Petroleum	NN	Petroleum	_	O	O	
+5-2	nahm	VVFIN	nehmen	_	O	O	
+5-3	ich	PPER	ich	_	O	O	
+5-4	einige	PIAT	einige	_	O	O	
+5-5	Tage	NN	Tag	_	O	O	
+5-6	hindurch	ADV	hindurch	_	O	O	
+5-7	in	APPR	in	_	O	O	
+5-8	denen	PRELS	die	_	O	O	
+5-9	es	PPER	es	_	O	O	
+5-10	mir	PRF	ich	_	O	O	
+5-11	gerade	ADV	gerade	_	O	O	
+5-12	nicht	PTKNEG	nicht	_	O	O	
+5-13	schlimm	ADJD	schlimm	_	O	O	
+5-14	und	KON	und	_	O	O	
+5-15	in	APPR	in	_	O	O	
+5-16	Folge	NN	Folge	_	O	O	
+5-17	des	ART	die	_	O	O	
+5-18	Mittels	NN	Mittel	_	O	O	
+5-19	nicht	PTKNEG	nicht	_	O	O	
+5-20	besser	ADJD	gut	_	O	O	
+5-21	ging	VVFIN	gehen	_	O	O	
+5-22	;	$.	;	_	O	O	
+5-23	Jetzt	ADV	jetzt	_	O	O	
+5-24	hat	VAFIN	haben	_	O	O	
+5-25	Melicher	NN	<unknown>	_	O	O	
+5-26	mir	PPER	ich	_	O	O	
+5-27	Silicen	NN	<unknown>	_	O	O	
+5-28	gegeben	VVPP	geben	_	O	O	
+5-29	.	$.	.	_	O	O	
+
+#id=6
+#text=Sollten Bäder wie Wildbad oder Gassungen mir wirklich nicht dienlich sein können?
+6-1	Sollten	VMFIN	sollen	_	O	O	
+6-2	Bäder	NN	Bad	_	O	O	
+6-3	wie	KOKOM	wie	_	O	O	
+6-4	Wildbad	NN	Wildbad	_	O	O	
+6-5	oder	KON	oder	_	O	O	
+6-6	Gassungen	NN	<unknown>	_	O	O	
+6-7	mir	PRF	ich	_	O	O	
+6-8	wirklich	ADJD	wirklich	_	O	O	
+6-9	nicht	PTKNEG	nicht	_	O	O	
+6-10	dienlich	ADJD	dienlich	_	O	O	
+6-11	sein	VAINF	sein	_	O	O	
+6-12	können	VMINF	können	_	O	O	
+6-13	?	$.	?	_	O	O	
+
+#id=7
+#text=Kahle war dagegen; Melicher meinte Wildbad wohin meine Frau ihren Vater zu begleiten gedenkt werde mir weder schaden noch nützen.
+7-1	Kahle	NN	Kahle	_	O	O	
+7-2	war	VAFIN	sein	_	O	O	
+7-3	dagegen	PAV	dagegen	_	O	O	
+7-4	;	$.	;	_	O	O	
+7-5	Melicher	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-6	meinte	VVFIN	meinen	_	O	O	
+7-7	Wildbad	NN	Wildbad	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-8	wohin	PWAV	wohin	_	O	O	
+7-9	meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-10	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-11	ihren	PPOSAT	ihr	_	O	O	
+7-12	Vater	NN	Vater	_	O	O	
+7-13	zu	PTKZU	zu	_	O	O	
+7-14	begleiten	VVINF	begleiten	_	O	O	
+7-15	gedenkt	VVFIN	gedenken	_	O	O	
+7-16	werde	VAFIN	werden	_	O	O	
+7-17	mir	PPER	ich	_	O	O	
+7-18	weder	KON	weder	_	O	O	
+7-19	schaden	VVFIN	schaden	_	O	O	
+7-20	noch	ADV	noch	_	O	O	
+7-21	nützen	VVINF	nützen	_	O	O	
+7-22	.	$.	.	_	O	O	
+
+#id=8
+#text=Roß sendet Ihnen über Berlin einen Aufsatz für die Annalen.
+8-1	Roß	NN	Ross	_	O	O	
+8-2	sendet	VVFIN	senden	_	O	O	
+8-3	Ihnen	PPER	Sie	_	O	O	
+8-4	über	APPR	über	_	O	O	
+8-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-6	einen	ART	eine	_	O	O	
+8-7	Aufsatz	NN	Aufsatz	_	O	O	
+8-8	für	APPR	für	_	O	O	
+8-9	die	ART	die	_	O	O	
+8-10	Annalen	NN	Annalen	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Die dazu gehörigen Zeichnungen, gerollt und auf sta.~kpapier, sende ich geb"rochen in einem Brief, sobald es drängt und kein Reisender dazu sich findet.
+9-1	Die	ART	die	_	O	O	
+9-2	dazu	PAV	dazu	_	O	O	
+9-3	gehörigen	ADJA	gehörig	_	O	O	
+9-4	Zeichnungen	NN	Zeichnung	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	gerollt	VVPP	rollen	_	O	O	
+9-7	und	KON	und	_	O	O	
+9-8	auf	APPR	auf	_	O	O	
+9-9	sta.~kpapier	NN	<unknown>	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	sende	VVFIN	senden	_	O	O	
+9-12	ich	PPER	ich	_	O	O	
+9-13	geb"rochen	ADJD	<unknown>	_	O	O	
+9-14	in	APPR	in	_	O	O	
+9-15	einem	ART	eine	_	O	O	
+9-16	Brief	NN	Brief	_	O	O	
+9-17	,	$,	,	_	O	O	
+9-18	sobald	KOUS	sobald	_	O	O	
+9-19	es	PPER	es	_	O	O	
+9-20	drängt	VVFIN	drängen	_	O	O	
+9-21	und	KON	und	_	O	O	
+9-22	kein	PIAT	keine	_	O	O	
+9-23	Reisender	NN	Reisende	_	O	O	
+9-24	dazu	PAV	dazu	_	O	O	
+9-25	sich	PRF	sich	_	O	O	
+9-26	findet	VVFIN	finden	_	O	O	
+9-27	.	$.	.	_	O	O	
+

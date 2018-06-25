@@ -1,0 +1,265 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=( Relbig an Renzen Rom, 10. September 1863 2 richt.
+1-1	(	$(	(	_	O	O	
+1-2	Relbig	ADJD	<unknown>	_	O	O	
+1-3	an	APPR	an	_	O	O	
+1-4	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	richt.	NN	<unknown>	_	O	O	
+
+#id=2
+#text=b Über ein Pallasidol.
+2-1	b	ADJD	<unknown>	_	O	O	
+2-2	Über	APPR	über	_	O	O	
+2-3	ein	ART	eine	_	O	O	
+2-4	Pallasidol	NN	<unknown>	_	O	O	
+2-5	.	$.	.	_	O	O	
+
+#id=3
+#text=c Über ein Relief mit • Über eine römische Votivinschrift (mit Abklatsch.
+3-1	c	ADJD	<unknown>	_	O	O	
+3-2	Über	APPR	über	_	O	O	
+3-3	ein	ART	eine	_	O	O	
+3-4	Relief	NN	Relief	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-5	mit	APPR	mit	_	O	O	
+3-6	•	NN	<unknown>	_	O	O	
+3-7	Über	APPR	über	_	O	O	
+3-8	eine	ART	eine	_	O	O	
+3-9	römische	ADJA	römisch	_	O	O	
+3-10	Votivinschrift	NN	<unknown>	_	O	O	
+3-11	(	$(	(	_	O	O	
+3-12	mit	APPR	mit	_	O	O	
+3-13	Abklatsch	NN	Abklatsch	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=b und e mit Zeichnung ) Jahn hat seinen Aufsatz immer noch nicht geschickt, was mir unangenehm ist, da ich ihn für meine Abhandlung über die Vasen von Cervetri berücksichtigen möchte.
+4-1	b	ADJA	<unknown>	_	O	O	
+4-2	und	KON	und	_	O	O	
+4-3	e	ADJA	<unknown>	_	O	O	
+4-4	mit	APPR	mit	_	O	O	
+4-5	Zeichnung	NN	Zeichnung	_	O	O	
+4-6	)	$(	)	_	O	O	
+4-7	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-8	hat	VAFIN	haben	_	O	O	
+4-9	seinen	PPOSAT	sein	_	O	O	
+4-10	Aufsatz	NN	Aufsatz	_	O	O	
+4-11	immer	ADV	immer	_	O	O	
+4-12	noch	ADV	noch	_	O	O	
+4-13	nicht	PTKNEG	nicht	_	O	O	
+4-14	geschickt	ADJD	geschickt	_	O	O	
+4-15	,	$,	,	_	O	O	
+4-16	was	PWS	was	_	O	O	
+4-17	mir	PPER	ich	_	O	O	
+4-18	unangenehm	ADJD	unangenehm	_	O	O	
+4-19	ist	VAFIN	sein	_	O	O	
+4-20	,	$,	,	_	O	O	
+4-21	da	KOUS	da	_	O	O	
+4-22	ich	PPER	ich	_	O	O	
+4-23	ihn	PPER	er	_	O	O	
+4-24	für	APPR	für	_	O	O	
+4-25	meine	PPOSAT	mein	_	O	O	
+4-26	Abhandlung	NN	Abhandlung	_	O	O	
+4-27	über	APPR	über	_	O	O	
+4-28	die	ART	die	_	O	O	
+4-29	Vasen	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-30	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-31	Cervetri	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-32	berücksichtigen	VVINF	berücksichtigen	_	O	O	
+4-33	möchte	VMFIN	mögen	_	O	O	
+4-34	.	$.	.	_	O	O	
+
+#id=5
+#text=Dauert es noch lange, muß ich sie in ihrer jetzigen Gestalt drucken lassen.
+5-1	Dauert	VVFIN	dauern	_	O	O	
+5-2	es	PPER	es	_	O	O	
+5-3	noch	ADV	noch	_	O	O	
+5-4	lange	ADV	lange	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	muß	VMFIN	müssen	_	O	O	
+5-7	ich	PPER	ich	_	O	O	
+5-8	sie	PPER	sie	_	O	O	
+5-9	in	APPR	in	_	O	O	
+5-10	ihrer	PPOSAT	ihr	_	O	O	
+5-11	jetzigen	ADJA	jetzig	_	O	O	
+5-12	Gestalt	NN	Gestalt	_	O	O	
+5-13	drucken	VVINF	drucken	_	O	O	
+5-14	lassen	VVINF	lassen	_	O	O	
+5-15	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Angelegenheit Ritschl contra G{rucci ist immer noch nicht erledigt, da der Jesuitengeneral, als ich mit meiner Bitte vorging, nicht in Rom war.
+6-1	Die	ART	die	_	O	O	
+6-2	Angelegenheit	NN	Angelegenheit	_	O	O	
+6-3	Ritschl	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	contra	ADV	contra	_	O	O	
+6-5	G{rucci	NE	<unknown>	_	O	O	
+6-6	ist	VAFIN	sein	_	O	O	
+6-7	immer	ADV	immer	_	O	O	
+6-8	noch	ADV	noch	_	O	O	
+6-9	nicht	PTKNEG	nicht	_	O	O	
+6-10	erledigt	VVPP	erledigen	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	da	KOUS	da	_	O	O	
+6-13	der	ART	die	_	O	O	
+6-14	Jesuitengeneral	NN	<unknown>	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	als	KOUS	als	_	O	O	
+6-17	ich	PPER	ich	_	O	O	
+6-18	mit	APPR	mit	_	O	O	
+6-19	meiner	PPOSAT	mein	_	O	O	
+6-20	Bitte	NN	Bitte	_	O	O	
+6-21	vorging	VVFIN	vorgehen	_	O	O	
+6-22	,	$,	,	_	O	O	
+6-23	nicht	PTKNEG	nicht	_	O	O	
+6-24	in	APPR	in	_	O	O	
+6-25	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-26	war	VAFIN	sein	_	O	O	
+6-27	.	$.	.	_	O	O	
+
+#id=7
+#text=Gestern ist er zurückgekehrt und heute früh war ich bei ihm.
+7-1	Gestern	ADV	gestern	_	O	O	
+7-2	ist	VAFIN	sein	_	O	O	
+7-3	er	PPER	er	_	O	O	
+7-4	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+7-5	und	KON	und	_	O	O	
+7-6	heute	ADV	heute	_	O	O	
+7-7	früh	ADJD	früh	_	O	O	
+7-8	war	VAFIN	sein	_	O	O	
+7-9	ich	PPER	ich	_	O	O	
+7-10	bei	APPR	bei	_	O	O	
+7-11	ihm	PPER	er	_	O	O	
+7-12	.	$.	.	_	O	O	
+
+#id=8
+#text=Zwar gab er mir keine definitive Antwort, sagte vielmehr, er müsse sich erst über den Stand der Dinge unterrichten, behandelte mich aber höflich und sprach mit großen Lobeserhebungen über die Leistungen des Instituts.
+8-1	Zwar	ADV	zwar	_	O	O	
+8-2	gab	VVFIN	geben	_	O	O	
+8-3	er	PPER	er	_	O	O	
+8-4	mir	PRF	ich	_	O	O	
+8-5	keine	PIAT	keine	_	O	O	
+8-6	definitive	ADJA	definitiv	_	O	O	
+8-7	Antwort	NN	Antwort	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	sagte	VVFIN	sagen	_	O	O	
+8-10	vielmehr	ADV	vielmehr	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	er	PPER	er	_	O	O	
+8-13	müsse	VMFIN	müssen	_	O	O	
+8-14	sich	PRF	sich	_	O	O	
+8-15	erst	ADV	erst	_	O	O	
+8-16	über	APPR	über	_	O	O	
+8-17	den	ART	die	_	O	O	
+8-18	Stand	NN	Stand	_	O	O	
+8-19	der	ART	die	_	O	O	
+8-20	Dinge	NN	Ding	_	O	O	
+8-21	unterrichten	VVINF	unterrichten	_	O	O	
+8-22	,	$,	,	_	O	O	
+8-23	behandelte	VVFIN	behandeln	_	O	O	
+8-24	mich	PRF	ich	_	O	O	
+8-25	aber	ADV	aber	_	O	O	
+8-26	höflich	ADJD	höflich	_	O	O	
+8-27	und	KON	und	_	O	O	
+8-28	sprach	VVFIN	sprechen	_	O	O	
+8-29	mit	APPR	mit	_	O	O	
+8-30	großen	ADJA	groß	_	O	O	
+8-31	Lobeserhebungen	NN	<unknown>	_	O	O	
+8-32	über	APPR	über	_	O	O	
+8-33	die	ART	die	_	O	O	
+8-34	Leistungen	NN	Leistung	_	O	O	
+8-35	des	ART	die	_	O	O	
+8-36	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-37	.	$.	.	_	O	O	
+
+#id=9
+#text=Die Ocularinspection der Mummiusinschrift habe ich vorgenommen und den Bericht darüber an Ritschl geschickt.
+9-1	Die	ART	die	_	O	O	
+9-2	Ocularinspection	NN	<unknown>	_	O	O	
+9-3	der	ART	die	_	O	O	
+9-4	Mummiusinschrift	NN	<unknown>	_	O	O	
+9-5	habe	VAFIN	haben	_	O	O	
+9-6	ich	PPER	ich	_	O	O	
+9-7	vorgenommen	VVPP	vornehmen	_	O	O	
+9-8	und	KON	und	_	O	O	
+9-9	den	ART	die	_	O	O	
+9-10	Bericht	NN	Bericht	_	O	O	
+9-11	darüber	PAV	darüber	_	O	O	
+9-12	an	APPR	an	_	O	O	
+9-13	Ritschl	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-14	geschickt	VVPP	schicken	_	O	O	
+9-15	.	$.	.	_	O	O	
+
+#id=10
+#text=Die von Visconti bemerkten Eigenthümlichkeiten sind sehr beachtenswerth, wenn er auch nach meiner Ansicht zu weit geht, die Inschrift geradezu für eine moderne Fälschung zu erklären.
+10-1	Die	ART	die	_	O	O	
+10-2	von	APPR	von	_	O	O	
+10-3	Visconti	NN	Visconte	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-4	bemerkten	ADJA	bemerkt	_	O	O	
+10-5	Eigenthümlichkeiten	NN	<unknown>	_	O	O	
+10-6	sind	VAFIN	sein	_	O	O	
+10-7	sehr	ADV	sehr	_	O	O	
+10-8	beachtenswerth	ADJD	<unknown>	_	O	O	
+10-9	,	$,	,	_	O	O	
+10-10	wenn	KOUS	wenn	_	O	O	
+10-11	er	PPER	er	_	O	O	
+10-12	auch	ADV	auch	_	O	O	
+10-13	nach	APPR	nach	_	O	O	
+10-14	meiner	PPOSAT	mein	_	O	O	
+10-15	Ansicht	NN	Ansicht	_	O	O	
+10-16	zu	PTKA	zu	_	O	O	
+10-17	weit	ADJD	weit	_	O	O	
+10-18	geht	VVFIN	gehen	_	O	O	
+10-19	,	$,	,	_	O	O	
+10-20	die	ART	die	_	O	O	
+10-21	Inschrift	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+10-22	geradezu	ADV	geradezu	_	O	O	
+10-23	für	APPR	für	_	O	O	
+10-24	eine	ART	eine	_	O	O	
+10-25	moderne	ADJA	modern	_	O	O	
+10-26	Fälschung	NN	Fälschung	_	O	O	
+10-27	zu	PTKZU	zu	_	O	O	
+10-28	erklären	VVINF	erklären	_	O	O	
+10-29	.	$.	.	_	O	O	
+
+#id=11
+#text=Jedenfalls ist die Inschrift mit einer Nachlässigkeit gefertigt, wie wir sie schwerlich bei einem römischen opus publicum voraussetzen dürfen.
+11-1	Jedenfalls	ADV	jedenfalls	_	O	O	
+11-2	ist	VAFIN	sein	_	O	O	
+11-3	die	ART	die	_	O	O	
+11-4	Inschrift	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-5	mit	APPR	mit	_	O	O	
+11-6	einer	ART	eine	_	O	O	
+11-7	Nachlässigkeit	NN	Nachlässigkeit	_	O	O	
+11-8	gefertigt	VVPP	fertigen	_	O	O	
+11-9	,	$,	,	_	O	O	
+11-10	wie	KOUS	wie	_	O	O	
+11-11	wir	PPER	wir	_	O	O	
+11-12	sie	PPER	sie	_	O	O	
+11-13	schwerlich	ADJD	schwerlich	_	O	O	
+11-14	bei	APPR	bei	_	O	O	
+11-15	einem	ART	eine	_	O	O	
+11-16	römischen	ADJA	römisch	_	O	O	
+11-17	opus	ADJA	<unknown>	_	O	O	
+11-18	publicum	NN	<unknown>	_	O	O	
+11-19	voraussetzen	VVINF	voraussetzen	_	O	O	
+11-20	dürfen	VMFIN	dürfen	_	O	O	
+11-21	.	$.	.	_	O	O	
+
+#id=12
+#text=Alle übrigen Inschriften, welche in dieser
+12-1	Alle	PIAT	alle	_	O	O	
+12-2	übrigen	ADJA	übrig	_	O	O	
+12-3	Inschriften	NN	Inschrift	_	O	O	
+12-4	,	$,	,	_	O	O	
+12-5	welche	PRELS	welche	_	O	O	
+12-6	in	APPR	in	_	O	O	
+12-7	dieser	PDAT	dies	_	O	O	
+

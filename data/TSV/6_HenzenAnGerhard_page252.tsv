@@ -1,0 +1,217 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=19 3/VII/55 Verehrter Herr Professor Renzen an Gerhard Leider muß unsre Reise noch um einige Tage verschoben bleiben; es scheint ein eigner Unstern darüber zu walten!
+1-1	19	CARD	19	_	O	O	
+1-2	3/VII/55	CARD	<unknown>	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Renzen	NN	<unknown>	_	O	O	
+1-7	an	APPR	an	_	O	O	
+1-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Leider	ADV	leider	_	O	O	
+1-10	muß	VMFIN	müssen	_	O	O	
+1-11	unsre	PPOSAT	unsre	_	O	O	
+1-12	Reise	NN	Reise	_	O	O	
+1-13	noch	ADV	noch	_	O	O	
+1-14	um	APPR	um	_	O	O	
+1-15	einige	PIAT	einige	_	O	O	
+1-16	Tage	NN	Tag	_	O	O	
+1-17	verschoben	VVPP	verschieben	_	O	O	
+1-18	bleiben	VVINF	bleiben	_	O	O	
+1-19	;	$.	;	_	O	O	
+1-20	es	PPER	es	_	O	O	
+1-21	scheint	VVFIN	scheinen	_	O	O	
+1-22	ein	ART	eine	_	O	O	
+1-23	eigner	ADJA	eigen	_	O	O	
+1-24	Unstern	NN	Unstern	_	O	O	
+1-25	darüber	PAV	darüber	_	O	O	
+1-26	zu	PTKZU	zu	_	O	O	
+1-27	walten	VVINF	walten	_	O	O	
+1-28	!	$.	!	_	O	O	
+
+#id=2
+#text=Das Befinden meiner Frau ist nämlich der' Art, daß wir, sintemal sie ja doch einmal für dieses Jahr besonders geschont werden muß, Donnerstag noch nicht wohl reisen können.
+2-1	Das	ART	die	_	O	O	
+2-2	Befinden	NN	Befinden	_	O	O	
+2-3	meiner	PPOSAT	mein	_	O	O	
+2-4	Frau	NN	Frau	_	O	O	
+2-5	ist	VAFIN	sein	_	O	O	
+2-6	nämlich	ADV	nämlich	_	O	O	
+2-7	der	ART	die	_	O	O	
+2-8	'	$(	'	_	O	O	
+2-9	Art	NN	Art	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	daß	KOUS	dass	_	O	O	
+2-12	wir	PPER	wir	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	sintemal	ADJD	<unknown>	_	O	O	
+2-15	sie	PPER	sie	_	O	O	
+2-16	ja	ADV	ja	_	O	O	
+2-17	doch	ADV	doch	_	O	O	
+2-18	einmal	ADV	einmal	_	O	O	
+2-19	für	APPR	für	_	O	O	
+2-20	dieses	PDAT	dies	_	O	O	
+2-21	Jahr	NN	Jahr	_	O	O	
+2-22	besonders	ADV	besonders	_	O	O	
+2-23	geschont	VVPP	schonen	_	O	O	
+2-24	werden	VAINF	werden	_	O	O	
+2-25	muß	VMFIN	müssen	_	O	O	
+2-26	,	$,	,	_	O	O	
+2-27	Donnerstag	NN	Donnerstag	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-28	noch	ADV	noch	_	O	O	
+2-29	nicht	PTKNEG	nicht	_	O	O	
+2-30	wohl	ADV	wohl	_	O	O	
+2-31	reisen	VVINF	reisen	_	O	O	
+2-32	können	VMFIN	können	_	O	O	
+2-33	.	$.	.	_	O	O	
+
+#id=3
+#text=Wir hoffen, Sonnabend zu reisen, ohne den Tag als ganz sicher bezeichnen zu können.
+3-1	Wir	PPER	wir	_	O	O	
+3-2	hoffen	VVFIN	hoffen	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	Sonnabend	NN	Sonnabend	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-5	zu	PTKZU	zu	_	O	O	
+3-6	reisen	VVINF	reisen	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	ohne	KOUI	ohne	_	O	O	
+3-9	den	ART	die	_	O	O	
+3-10	Tag	NN	Tag	_	O	O	
+3-11	als	KOKOM	als	_	O	O	
+3-12	ganz	ADV	ganz	_	O	O	
+3-13	sicher	ADJD	sicher	_	O	O	
+3-14	bezeichnen	VVINF	bezeichnen	_	O	O	
+3-15	zu	PTKZU	zu	_	O	O	
+3-16	können	VMINF	können	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Danke für die Nachricht hinsichtlich der neuen Bewilligung; das Geld wird wohl vorhanden sein, da Mommsen mir sagt, er habe für dieses Jahr genug.
+4-1	Danke	NN	Dank	_	O	O	
+4-2	für	APPR	für	_	O	O	
+4-3	die	ART	die	_	O	O	
+4-4	Nachricht	NN	Nachricht	_	O	O	
+4-5	hinsichtlich	APPR	hinsichtlich	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	neuen	ADJA	neu	_	O	O	
+4-8	Bewilligung	NN	Bewilligung	_	O	O	
+4-9	;	$.	;	_	O	O	
+4-10	das	ART	die	_	O	O	
+4-11	Geld	NN	Geld	_	O	O	
+4-12	wird	VAFIN	werden	_	O	O	
+4-13	wohl	ADV	wohl	_	O	O	
+4-14	vorhanden	ADJD	vorhanden	_	O	O	
+4-15	sein	VAINF	sein	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	da	KOUS	da	_	O	O	
+4-18	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-19	mir	PPER	ich	_	O	O	
+4-20	sagt	VVFIN	sagen	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	er	PPER	er	_	O	O	
+4-23	habe	VAFIN	haben	_	O	O	
+4-24	für	APPR	für	_	O	O	
+4-25	dieses	PDAT	dies	_	O	O	
+4-26	Jahr	NN	Jahr	_	O	O	
+4-27	genug	ADV	genug	_	O	O	
+4-28	.	$.	.	_	O	O	
+
+#id=5
+#text=Im Nothfalle sind ja auch nur die ~onate October - December, der Transport der Zettel nach Rom, Abschrift eines Codex in Florenz u. meine eventuellen Ausgaben in Turin zu decken, u. kann zu Anfange des Jahres eine neue Bewilligung erfolgen.
+5-1	Im	APPRART	in	_	O	O	
+5-2	Nothfalle	NN	<unknown>	_	O	O	
+5-3	sind	VAFIN	sein	_	O	O	
+5-4	ja	ADV	ja	_	O	O	
+5-5	auch	ADV	auch	_	O	O	
+5-6	nur	ADV	nur	_	O	O	
+5-7	die	ART	die	_	O	O	
+5-8	~onate	NN	<unknown>	_	O	O	
+5-9	October	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-10	-	$(	-	_	O	O	
+5-11	December	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-12	,	$,	,	_	O	O	
+5-13	der	ART	die	_	O	O	
+5-14	Transport	NN	Transport	_	O	O	
+5-15	der	ART	die	_	O	O	
+5-16	Zettel	NN	Zettel	_	O	O	
+5-17	nach	APPR	nach	_	O	O	
+5-18	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-19	,	$,	,	_	O	O	
+5-20	Abschrift	NN	Abschrift	_	O	O	
+5-21	eines	ART	eine	_	O	O	
+5-22	Codex	NN	<unknown>	_	O	O	
+5-23	in	APPR	in	_	O	O	
+5-24	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-25	u.	APPR	um	_	O	O	
+5-26	meine	PPOSAT	mein	_	O	O	
+5-27	eventuellen	ADJA	eventuell	_	O	O	
+5-28	Ausgaben	NN	Ausgabe	_	O	O	
+5-29	in	APPR	in	_	O	O	
+5-30	Turin	NE	Turin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-31	zu	PTKZU	zu	_	O	O	
+5-32	decken	VVINF	decken	_	O	O	
+5-33	,	$,	,	_	O	O	
+5-34	u.	KON	und	_	O	O	
+5-35	kann	VMFIN	können	_	O	O	
+5-36	zu	APPR	zu	_	O	O	
+5-37	Anfange	NN	<unknown>	_	O	O	
+5-38	des	ART	die	_	O	O	
+5-39	Jahres	NN	Jahr	_	O	O	
+5-40	eine	ART	eine	_	O	O	
+5-41	neue	ADJA	neu	_	O	O	
+5-42	Bewilligung	NN	Bewilligung	_	O	O	
+5-43	erfolgen	VVINF	erfolgen	_	O	O	
+5-44	.	$.	.	_	O	O	
+
+#id=6
+#text=Hertz's Ernennung freut mich sehr~ Danke für die bei Abeken eingeleiteten Präliminarien.
+6-1	Hertz's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	Ernennung	NN	Ernennung	_	O	O	
+6-3	freut	VVFIN	freuen	_	O	O	
+6-4	mich	PRF	ich	_	O	O	
+6-5	sehr~	ADJA	<unknown>	_	O	O	
+6-6	Danke	NN	Dank	_	O	O	
+6-7	für	APPR	für	_	O	O	
+6-8	die	ART	die	_	O	O	
+6-9	bei	APPR	bei	_	O	O	
+6-10	Abeken	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-11	eingeleiteten	ADJA	eingeleitet	_	O	O	
+6-12	Präliminarien	NN	Präliminarien	_	O	O	
+6-13	.	$.	.	_	O	O	
+
+#id=7
+#text=Mommsen dankt bestens Ihren Glückwünschen.
+7-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	dankt	VVFIN	danken	_	O	O	
+7-3	bestens	ADV	bestens	_	O	O	
+7-4	Ihren	PPOSAT	ihr	_	O	O	
+7-5	Glückwünschen	NN	Glückwunsch	_	O	O	
+7-6	.	$.	.	_	O	O	
+
+#id=8
+#text=Mutter und Tochter befinden sich wohl.
+8-1	Mutter	NN	Mutter	_	O	O	
+8-2	und	KON	und	_	O	O	
+8-3	Tochter	NN	Tochter	_	O	O	
+8-4	befinden	VVFIN	befinden	_	O	O	
+8-5	sich	PRF	sich	_	O	O	
+8-6	wohl	ADV	wohl	_	O	O	
+8-7	.	$.	.	_	O	O	
+
+#id=9
+#text=Und somit den auf baldiges wirkliches Wiedersehen Ihr Breslau 3/VII 55. Whz
+9-1	Und	KON	und	_	O	O	
+9-2	somit	ADV	somit	_	O	O	
+9-3	den	ART	die	_	O	O	
+9-4	auf	APPR	auf	_	O	O	
+9-5	baldiges	ADJA	baldig	_	O	O	
+9-6	wirkliches	ADJA	wirklich	_	O	O	
+9-7	Wiedersehen	NN	Wiedersehen	_	O	O	
+9-8	Ihr	PPOSAT	ihr	_	O	O	
+9-9	Breslau	NE	Breslau	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+9-10	3/VII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+9-11	55	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+9-12	.	$.	.	_	O	O	
+9-13	Whz	NE	<unknown>	_	O	O	
+

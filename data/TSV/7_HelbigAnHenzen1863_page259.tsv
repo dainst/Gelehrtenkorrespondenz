@@ -1,0 +1,243 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=427 Relbig an Renzen Siena, 10. August 1875 g. 11/8 75 Siena, li 10. Aug.
+1-1	427	CARD	@card@	_	O	O	
+1-2	Relbig	NN	<unknown>	_	O	O	
+1-3	an	APPR	an	_	O	O	
+1-4	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	11/8	CARD	11/8	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-15	,	$,	,	_	O	O	
+1-16	li	ADJD	<unknown>	_	O	O	
+1-17	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	Aug.	NN	Aug.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1875 Lieber Herr Professor Wir bitten Sie, doch ja auf der Herreise zu uns zu kommen.
+2-1	1875	CARD	@card@	_	O	O	
+2-2	Lieber	ADJA	lieb	_	O	O	
+2-3	Herr	NN	Herr	_	O	O	
+2-4	Professor	NN	Professor	_	O	O	
+2-5	Wir	PPER	wir	_	O	O	
+2-6	bitten	VVFIN	bitten	_	O	O	
+2-7	Sie	PPER	Sie	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	doch	KON	doch	_	O	O	
+2-10	ja	ADV	ja	_	O	O	
+2-11	auf	APPR	auf	_	O	O	
+2-12	der	ART	die	_	O	O	
+2-13	Herreise	NN	<unknown>	_	O	O	
+2-14	zu	APPR	zu	_	O	O	
+2-15	uns	PPER	wir	_	O	O	
+2-16	zu	PTKZU	zu	_	O	O	
+2-17	kommen	VVINF	kommen	_	O	O	
+2-18	.	$.	.	_	O	O	
+
+#id=3
+#text=Meine Frau nämlich muß den 10. September in Familienangelegenheiten nach Rußland reisen und wird erst im October zurückkehren, nachdem ich und die Kinder Siena bereits verlassen.
+3-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-3	nämlich	ADV	nämlich	_	O	O	
+3-4	muß	VMFIN	müssen	_	O	O	
+3-5	den	ART	die	_	O	O	
+3-6	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-8	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-9	in	APPR	in	_	O	O	
+3-10	Familienangelegenheiten	NN	Familienangelegenheit	_	O	O	
+3-11	nach	APPR	nach	_	O	O	
+3-12	Rußland	NE	Russland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-13	reisen	VVINF	reisen	_	O	O	
+3-14	und	KON	und	_	O	O	
+3-15	wird	VAFIN	werden	_	O	O	
+3-16	erst	ADV	erst	_	O	O	
+3-17	im	APPRART	in	_	O	O	
+3-18	October	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-19	zurückkehren	VVINF	zurückkehren	_	O	O	
+3-20	,	$,	,	_	O	O	
+3-21	nachdem	KOUS	nachdem	_	O	O	
+3-22	ich	PPER	ich	_	O	O	
+3-23	und	KON	und	_	O	O	
+3-24	die	ART	die	_	O	O	
+3-25	Kinder	NN	Kind	_	O	O	
+3-26	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-27	bereits	ADV	bereits	_	O	O	
+3-28	verlassen	VVPP	verlassen	_	O	O	
+3-29	.	$.	.	_	O	O	
+
+#id=4
+#text=Wie Sie sich denken können, ist sie nicht sehr erbaut von dieser Aussicht.
+4-1	Wie	KOUS	wie	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	sich	PRF	sich	_	O	O	
+4-4	denken	VVINF	denken	_	O	O	
+4-5	können	VMFIN	können	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	ist	VAFIN	sein	_	O	O	
+4-8	sie	PPER	sie	_	O	O	
+4-9	nicht	PTKNEG	nicht	_	O	O	
+4-10	sehr	ADV	sehr	_	O	O	
+4-11	erbaut	VVFIN	erbauen	_	O	O	
+4-12	von	APPR	von	_	O	O	
+4-13	dieser	PDAT	dies	_	O	O	
+4-14	Aussicht	NN	Aussicht	_	O	O	
+4-15	.	$.	.	_	O	O	
+
+#id=5
+#text=Aber es läßt sich nun einmal nicht ändern.
+5-1	Aber	KON	aber	_	O	O	
+5-2	es	PPER	es	_	O	O	
+5-3	läßt	VVFIN	lassen	_	O	O	
+5-4	sich	PRF	sich	_	O	O	
+5-5	nun	ADV	nun	_	O	O	
+5-6	einmal	ADV	einmal	_	O	O	
+5-7	nicht	PTKNEG	nicht	_	O	O	
+5-8	ändern	VVINF	ändern	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Beiliegende Zeilen bitte ich Sie an Brandis - Heckert ist noch abwesend - zu schicken, den Paß durch Nino auf der russischen Gesandtschaft visiren zu lassen und ihn dann entweder selbst mitzubringen oder per Post an uns zu schicken.
+6-1	Beiliegende	ADJA	beiliegend	_	O	O	
+6-2	Zeilen	NN	Zeile	_	O	O	
+6-3	bitte	VVFIN	bitten	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	Sie	PPER	Sie	_	O	O	
+6-6	an	APPR	an	_	O	O	
+6-7	Brandis	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-8	-	$(	-	_	O	O	
+6-9	Heckert	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	ist	VAFIN	sein	_	O	O	
+6-11	noch	ADV	noch	_	O	O	
+6-12	abwesend	ADJD	abwesend	_	O	O	
+6-13	-	$(	-	_	O	O	
+6-14	zu	PTKZU	zu	_	O	O	
+6-15	schicken	VVINF	schicken	_	O	O	
+6-16	,	$,	,	_	O	O	
+6-17	den	ART	die	_	O	O	
+6-18	Paß	NN	Pass	_	O	O	
+6-19	durch	APPR	durch	_	O	O	
+6-20	Nino	NE	Nino	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-21	auf	APPR	auf	_	O	O	
+6-22	der	ART	die	_	O	O	
+6-23	russischen	ADJA	russisch	_	O	O	
+6-24	Gesandtschaft	NN	Gesandtschaft	_	O	O	
+6-25	visiren	NN	<unknown>	_	O	O	
+6-26	zu	PTKZU	zu	_	O	O	
+6-27	lassen	VVINF	lassen	_	O	O	
+6-28	und	KON	und	_	O	O	
+6-29	ihn	PPER	er	_	O	O	
+6-30	dann	ADV	dann	_	O	O	
+6-31	entweder	KON	entweder	_	O	O	
+6-32	selbst	ADV	selbst	_	O	O	
+6-33	mitzubringen	VVIZU	mitbringen	_	O	O	
+6-34	oder	KON	oder	_	O	O	
+6-35	per	APPR	per	_	O	O	
+6-36	Post	NN	Post	_	O	O	
+6-37	an	APPR	an	_	O	O	
+6-38	uns	PPER	wir	_	O	O	
+6-39	zu	PTKZU	zu	_	O	O	
+6-40	schicken	VVINF	schicken	_	O	O	
+6-41	.	$.	.	_	O	O	
+
+#id=7
+#text=Von Curtius erhielt ich einen im Ganzen liebenswürdigen Brief, in dem er mir mittheilte, die CD habe für mich bei dem Reichskanzleramte Gehaltserhöhung beantragt, dabei aber sub rosa zu verstehen gab, ich sei doch eigentlich durch mein passives Verhalten daran schuld, daß aus dem Ankaufe bei CasteIlani nichts geworden.
+7-1	Von	APPR	von	_	O	O	
+7-2	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-3	erhielt	VVFIN	erhalten	_	O	O	
+7-4	ich	PPER	ich	_	O	O	
+7-5	einen	ART	eine	_	O	O	
+7-6	im	APPRART	in	_	O	O	
+7-7	Ganzen	NN	Ganze	_	O	O	
+7-8	liebenswürdigen	ADJA	liebenswürdig	_	O	O	
+7-9	Brief	NN	Brief	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	in	APPR	in	_	O	O	
+7-12	dem	PRELS	die	_	O	O	
+7-13	er	PPER	er	_	O	O	
+7-14	mir	PRF	ich	_	O	O	
+7-15	mittheilte	VVFIN	<unknown>	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	die	ART	die	_	O	O	
+7-18	CD	NN	CD	_	O	O	
+7-19	habe	VAFIN	haben	_	O	O	
+7-20	für	APPR	für	_	O	O	
+7-21	mich	PPER	ich	_	O	O	
+7-22	bei	APPR	bei	_	O	O	
+7-23	dem	ART	die	_	O	O	
+7-24	Reichskanzleramte	ADJA	<unknown>	_	O	O	
+7-25	Gehaltserhöhung	NN	Gehaltserhöhung	_	O	O	
+7-26	beantragt	VVPP	beantragen	_	O	O	
+7-27	,	$,	,	_	O	O	
+7-28	dabei	PAV	dabei	_	O	O	
+7-29	aber	ADV	aber	_	O	O	
+7-30	sub	NN	<unknown>	_	O	O	
+7-31	rosa	ADJD	rosa	_	O	O	
+7-32	zu	PTKZU	zu	_	O	O	
+7-33	verstehen	VVINF	verstehen	_	O	O	
+7-34	gab	VVFIN	geben	_	O	O	
+7-35	,	$,	,	_	O	O	
+7-36	ich	PPER	ich	_	O	O	
+7-37	sei	VAFIN	sein	_	O	O	
+7-38	doch	ADV	doch	_	O	O	
+7-39	eigentlich	ADV	eigentlich	_	O	O	
+7-40	durch	APPR	durch	_	O	O	
+7-41	mein	PPOSAT	mein	_	O	O	
+7-42	passives	ADJA	passiv	_	O	O	
+7-43	Verhalten	NN	Verhalten	_	O	O	
+7-44	daran	PAV	daran	_	O	O	
+7-45	schuld	ADJD	schuld	_	O	O	
+7-46	,	$,	,	_	O	O	
+7-47	daß	KOUS	dass	_	O	O	
+7-48	aus	APPR	aus	_	O	O	
+7-49	dem	ART	die	_	O	O	
+7-50	Ankaufe	NN	<unknown>	_	O	O	
+7-51	bei	APPR	bei	_	O	O	
+7-52	CasteIlani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-53	nichts	PIS	nichts	_	O	O	
+7-54	geworden	VAPP	werden	_	O	O	
+7-55	.	$.	.	_	O	O	
+
+#id=8
+#text=H. CasteIlani war nämlich in Berlin und hat die Marmorwerke von dort nach London transport iren lassen.
+8-1	H.	NE	H.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	CasteIlani	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-3	war	VAFIN	sein	_	O	O	
+8-4	nämlich	ADV	nämlich	_	O	O	
+8-5	in	APPR	in	_	O	O	
+8-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-7	und	KON	und	_	O	O	
+8-8	hat	VAFIN	haben	_	O	O	
+8-9	die	ART	die	_	O	O	
+8-10	Marmorwerke	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-LIT	
+8-11	von	APPR	von	_	O	O	
+8-12	dort	ADV	dort	_	O	O	
+8-13	nach	APPR	nach	_	O	O	
+8-14	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-15	transport	NN	Transport	_	O	O	
+8-16	iren	ADJD	<unknown>	_	O	O	
+8-17	lassen	VVINF	lassen	_	O	O	
+8-18	.	$.	.	_	O	O	
+
+#id=9
+#text=Es ist wirklich nicht zum Aushalten mit dem Berliner Museum !
+9-1	Es	PPER	es	_	O	O	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	wirklich	ADJD	wirklich	_	O	O	
+9-4	nicht	PTKNEG	nicht	_	O	O	
+9-5	zum	APPRART	zu	_	O	O	
+9-6	Aushalten	NN	Aushalten	_	O	O	
+9-7	mit	APPR	mit	_	O	O	
+9-8	dem	ART	die	_	O	O	
+9-9	Berliner	ADJA	Berliner	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-10	Museum	NN	Museum	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+9-11	!	$.	!	_	O	O	
+

@@ -1,0 +1,79 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=?
+1-1	?	$.	?	_	O	O	
+
+#id=2
+#text=2 Lepsius an Henzen Berlin, 31. Juli 1875 nichts zu thun, ist auf Veranlassung des Ministers von Bode mit andern gemacht und wird nun von diesem erledigt werden.
+2-1	2	CARD	2	_	O	O	
+2-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-3	an	APPR	an	_	O	O	
+2-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-6	,	$,	,	_	O	O	
+2-7	31	CARD	31	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	nichts	PIAT	nichts	_	O	O	
+2-12	zu	APPR	zu	_	O	O	
+2-13	thun	NE	<unknown>	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	ist	VAFIN	sein	_	O	O	
+2-16	auf	APPR	auf	_	O	O	
+2-17	Veranlassung	NN	Veranlassung	_	O	O	
+2-18	des	ART	die	_	O	O	
+2-19	Ministers	NN	Minister	_	O	O	
+2-20	von	APPR	von	_	O	O	
+2-21	Bode	NE	Bode	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-22	mit	APPR	mit	_	O	O	
+2-23	andern	PIAT	andere	_	O	O	
+2-24	gemacht	VVPP	machen	_	O	O	
+2-25	und	KON	und	_	O	O	
+2-26	wird	VAFIN	werden	_	O	O	
+2-27	nun	ADV	nun	_	O	O	
+2-28	von	APPR	von	_	O	O	
+2-29	diesem	PDAT	dies	_	O	O	
+2-30	erledigt	VVPP	erledigen	_	O	O	
+2-31	werden	VAINF	werden	_	O	O	
+2-32	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihre Leidenschaft gegen Dielitz geht zu weit und thut nicht gut.
+3-1	Ihre	PPOSAT	ihr	_	O	O	
+3-2	Leidenschaft	NN	Leidenschaft	_	O	O	
+3-3	gegen	APPR	gegen	_	O	O	
+3-4	Dielitz	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	geht	VVFIN	gehen	_	O	O	
+3-6	zu	APPR	zu	_	O	O	
+3-7	weit	ADJD	weit	_	O	O	
+3-8	und	KON	und	_	O	O	
+3-9	thut	ADJD	<unknown>	_	O	O	
+3-10	nicht	PTKNEG	nicht	_	O	O	
+3-11	gut	ADJD	gut	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Daß Overbeck Rektor in Leipzig geworden, haben Sie wohl gelesen.
+4-1	Daß	KOUS	dass	_	O	O	
+4-2	Overbeck	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	Rektor	NN	Rektor	_	O	O	
+4-4	in	APPR	in	_	O	O	
+4-5	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-6	geworden	VAPP	werden	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	haben	VAFIN	haben	_	O	O	
+4-9	Sie	PPER	Sie	_	O	O	
+4-10	wohl	ADV	wohl	_	O	O	
+4-11	gelesen	VVPP	lesen	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Mit bestem Gruß Ihr R Lepsius
+5-1	Mit	APPR	mit	_	O	O	
+5-2	bestem	ADJA	gut	_	O	O	
+5-3	Gruß	NN	Gruß	_	O	O	
+5-4	Ihr	PPOSAT	ihr	_	O	O	
+5-5	R	NN	R	_	O	O	
+5-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

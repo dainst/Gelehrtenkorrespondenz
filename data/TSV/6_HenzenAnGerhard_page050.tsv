@@ -1,0 +1,445 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=144 Renzen an Gerhard 2/IV/52 Verehrter Herr Professor Gestern ist endlich die Bewilligung unseres Gehaltes für das laufende Jahr angelangt.
+1-1	144	CARD	@card@	_	O	O	
+1-2	Renzen	NN	<unknown>	_	O	O	
+1-3	an	APPR	an	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	2/IV/52	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-6	Verehrter	ADJA	verehrt	_	O	O	
+1-7	Herr	NN	Herr	_	O	O	
+1-8	Professor	NN	Professor	_	O	O	
+1-9	Gestern	NN	Gestern	_	O	O	
+1-10	ist	VAFIN	sein	_	O	O	
+1-11	endlich	ADV	endlich	_	O	O	
+1-12	die	ART	die	_	O	O	
+1-13	Bewilligung	NN	Bewilligung	_	O	O	
+1-14	unseres	PPOSAT	unser	_	O	O	
+1-15	Gehaltes	NN	Gehalt	_	O	O	
+1-16	für	APPR	für	_	O	O	
+1-17	das	ART	die	_	O	O	
+1-18	laufende	ADJA	laufend	_	O	O	
+1-19	Jahr	NN	Jahr	_	O	O	
+1-20	angelangt	VVPP	angelangen	_	O	O	
+1-21	.	$.	.	_	O	O	
+
+#id=2
+#text=Ein einjähriges Budget ist doch eigentlich eine Institution, die für unsre Zeiten wenig paßt !
+2-1	Ein	ART	eine	_	O	O	
+2-2	einjähriges	ADJA	einjährig	_	O	O	
+2-3	Budget	NN	Budget	_	O	O	
+2-4	ist	VAFIN	sein	_	O	O	
+2-5	doch	ADV	doch	_	O	O	
+2-6	eigentlich	ADV	eigentlich	_	O	O	
+2-7	eine	ART	eine	_	O	O	
+2-8	Institution	NN	Institution	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	die	PRELS	die	_	O	O	
+2-11	für	APPR	für	_	O	O	
+2-12	unsre	PPOSAT	unsre	_	O	O	
+2-13	Zeiten	NN	Zeit	_	O	O	
+2-14	wenig	ADV	wenig	_	O	O	
+2-15	paßt	VVFIN	passen	_	O	O	
+2-16	!	$.	!	_	O	O	
+
+#id=3
+#text=Ich schreibe Ihnen den Indice delle materie ab, wenn Sie ihn so sehr wünschen.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	schreibe	VVFIN	schreiben	_	O	O	
+3-3	Ihnen	PPER	Sie	_	O	O	
+3-4	den	ART	die	_	O	O	
+3-5	Indice	NN	<unknown>	_	O	O	
+3-6	delle	VVFIN	dellen	_	O	O	
+3-7	materie	NN	Materie	_	O	O	
+3-8	ab	PTKVZ	ab	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	wenn	KOUS	wenn	_	O	O	
+3-11	Sie	PPER	Sie	_	O	O	
+3-12	ihn	PPER	er	_	O	O	
+3-13	so	ADV	so	_	O	O	
+3-14	sehr	ADV	sehr	_	O	O	
+3-15	wünschen	VVFIN	wünschen	_	O	O	
+3-16	.	$.	.	_	O	O	
+
+#id=4
+#text=I. Scavi e topografia Delle antiche mura che cingeano la citta di Verona ( tav.
+4-1	I.	NE	I.	_	O	O	
+4-2	Scavi	NE	<unknown>	_	O	O	
+4-3	e	VVFIN	<unknown>	_	O	O	
+4-4	topografia	ADJA	<unknown>	_	O	O	
+4-5	Delle	NN	Delle	_	O	O	
+4-6	antiche	ADJA	<unknown>	_	O	O	
+4-7	mura	NN	<unknown>	_	O	O	
+4-8	che	VVFIN	<unknown>	_	O	O	
+4-9	cingeano	NE	<unknown>	_	O	O	
+4-10	la	FM	la	_	O	O	
+4-11	citta	NE	<unknown>	_	O	O	
+4-12	di	NE	di	_	O	O	
+4-13	Verona	NE	Verona	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-14	(	$(	(	_	O	O	
+4-15	tav	NE	<unknown>	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=d'agg.
+5-1	d'agg	NE	<unknown>	_	O	O	
+5-2	.	$.	.	_	O	O	
+
+#id=6
+#text=B).
+6-1	B	NE	B	_	O	O	
+6-2	)	$(	)	_	O	O	
+6-3	.	$.	.	_	O	O	
+
+#id=7
+#text=G. Orti - Mana- ~.
+7-1	G.	NE	G.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	Orti	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-3	-	$(	-	_	O	O	
+7-4	Mana-	TRUNC	<unknown>	_	O	O	
+7-5	~	XY	~	_	O	O	
+7-6	.	$.	.	_	O	O	
+
+#id=8
+#text=- Sulle recenti scoperte deI .E'oro Trajano e della Basilica Ulpia ( Mon.
+8-1	-	$(	-	_	O	O	
+8-2	Sulle	NN	<unknown>	_	O	O	
+8-3	recenti	NN	<unknown>	_	O	O	
+8-4	scoperte	VVFIN	<unknown>	_	O	O	
+8-5	deI	ADJA	<unknown>	_	O	O	
+8-6	.E'oro	ADJA	<unknown>	_	O	O	
+8-7	Trajano	NN	<unknown>	_	O	O	
+8-8	e	VVFIN	<unknown>	_	O	O	
+8-9	della	NE	Della	_	O	O	
+8-10	Basilica	NE	<unknown>	_	O	O	
+8-11	Ulpia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-12	(	$(	(	_	O	O	
+8-13	Mon.	NE	<unknown>	_	O	O	
+
+#id=9
+#text=vol.
+9-1	vol	NE	<unknown>	_	O	O	
+9-2	.	$.	.	_	O	O	
+
+#id=10
+#text=V, tav.
+10-1	V	NN	V	_	O	O	
+10-2	,	$,	,	_	O	O	
+10-3	tav	NE	<unknown>	_	O	O	
+10-4	.	$.	.	_	O	O	
+
+#id=11
+#text=XXX); L.
+11-1	XXX	NE	<unknown>	_	O	O	
+11-2	)	$(	)	_	O	O	
+11-3	;	$.	;	_	O	O	
+11-4	L.	NE	L.	_	O	O	
+
+#id=12
+#text=Canina.
+12-1	Canina	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	.	$.	.	_	O	O	
+
+#id=13
+#text=- Sulle recenti discoperte fatte nel grande edifizio capitolino cognito col nome di Tabulario ( Mon.
+13-1	-	$(	-	_	O	O	
+13-2	Sulle	NN	<unknown>	_	O	O	
+13-3	recenti	NN	<unknown>	_	O	O	
+13-4	discoperte	ADJD	<unknown>	_	O	O	
+13-5	fatte	ADJA	<unknown>	_	O	O	
+13-6	nel	ADJA	<unknown>	_	O	O	
+13-7	grande	NN	<unknown>	_	O	O	
+13-8	edifizio	NE	<unknown>	_	O	O	
+13-9	capitolino	NE	<unknown>	_	O	O	
+13-10	cognito	VVFIN	<unknown>	_	O	O	
+13-11	col	ADJD	<unknown>	_	O	O	
+13-12	nome	ADJA	<unknown>	_	O	O	
+13-13	di	NE	di	_	O	O	
+13-14	Tabulario	NE	<unknown>	_	O	O	
+13-15	(	$(	(	_	O	O	
+13-16	Mon.	NE	<unknown>	_	O	O	
+
+#id=14
+#text=vol.
+14-1	vol	NE	<unknown>	_	O	O	
+14-2	.	$.	.	_	O	O	
+
+#id=15
+#text=V, t.
+15-1	V	NN	V	_	O	O	
+15-2	,	$,	,	_	O	O	
+15-3	t.	VVFIN	<unknown>	_	O	O	
+
+#id=16
+#text=XXXI).
+16-1	XXXI	NN	<unknown>	_	O	O	
+16-2	)	$(	)	_	O	O	
+16-3	.	$.	.	_	O	O	
+
+#id=17
+#text=Canina.
+17-1	Canina	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-2	.	$.	.	_	O	O	
+
+#id=18
+#text=- Sulla Via Appia, articolo preliminare.
+18-1	-	$(	-	_	O	O	
+18-2	Sulla	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+18-3	Via	NE	Via	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+18-4	Appia	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+18-5	,	$,	,	_	O	O	
+18-6	articolo	NN	<unknown>	_	O	O	
+18-7	preliminare	VVFIN	<unknown>	_	O	O	
+18-8	.	$.	.	_	O	O	
+
+#id=19
+#text=Canina.
+19-1	Canina	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+19-2	.	$.	.	_	O	O	
+
+#id=20
+#text=- 11.
+20-1	-	$(	-	_	O	O	
+20-2	11	CARD	11	_	O	O	
+20-3	.	$.	.	_	O	O	
+
+#id=21
+#text=Monumenti.
+21-1	Monumenti	NN	<unknown>	_	O	O	
+21-2	.	$.	.	_	O	O	
+
+#id=22
+#text=a. Scultura.
+22-1	a.	APPRART	a.	_	O	O	
+22-2	Scultura	NN	<unknown>	_	O	O	
+22-3	.	$.	.	_	O	O	
+
+#id=23
+#text=Sul gruppo centrale deI fregio deI Partenone, discorso letto dal dott.
+23-1	Sul	ADJA	<unknown>	_	O	O	
+23-2	gruppo	NN	<unknown>	_	O	O	
+23-3	centrale	ADJA	<unknown>	_	O	O	
+23-4	deI	ADJA	<unknown>	_	O	O	
+23-5	fregio	ADJA	<unknown>	_	O	O	
+23-6	deI	ADJA	<unknown>	_	O	O	
+23-7	Partenone	NN	<unknown>	_	O	O	
+23-8	,	$,	,	_	O	O	
+23-9	discorso	ADJD	<unknown>	_	O	O	
+23-10	letto	ADJA	<unknown>	_	O	O	
+23-11	dal	ADJA	<unknown>	_	O	O	
+23-12	dott	NN	<unknown>	_	O	O	
+23-13	.	$.	.	_	O	O	
+
+#id=24
+#text=Braun nella ricorrenza deI natale di Winckelmann 1850 ( Mon.
+24-1	Braun	NE	Braun	_	O	O	
+24-2	nella	NE	Nella	_	O	O	
+24-3	ricorrenza	NE	<unknown>	_	O	O	
+24-4	deI	ADJA	<unknown>	_	O	O	
+24-5	natale	ADJA	<unknown>	_	O	O	
+24-6	di	NE	di	_	O	O	
+24-7	Winckelmann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+24-8	1850	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+24-9	(	$(	(	_	O	O	
+24-10	Mon.	NE	<unknown>	_	O	O	
+
+#id=25
+#text=vol.
+25-1	vol	NE	<unknown>	_	O	O	
+25-2	.	$.	.	_	O	O	
+
+#id=26
+#text=V, tavv. XXVI.
+26-1	V	NN	V	_	O	O	
+26-2	,	$,	,	_	O	O	
+26-3	tavv	NE	<unknown>	_	O	O	
+26-4	.	$.	.	_	O	O	
+26-5	XXVI.	NE	<unknown>	_	O	O	
+
+#id=27
+#text=XXVII).
+27-1	XXVII	NE	<unknown>	_	O	O	
+27-2	)	$(	)	_	O	O	
+27-3	.	$.	.	_	O	O	
+
+#id=28
+#text=Analisi deI gruppo delle dodici figure in trono che appariscono sul fregio orientale deI Partenone, lettera diretta al nobile sg. William R. Hamilton, segretario deI la Societa de' Dilettanti ( Mon.
+28-1	Analisi	NE	<unknown>	_	O	O	
+28-2	deI	VVFIN	<unknown>	_	O	O	
+28-3	gruppo	NE	<unknown>	_	O	O	
+28-4	delle	VVFIN	dellen	_	O	O	
+28-5	dodici	NE	<unknown>	_	O	O	
+28-6	figure	VVFIN	<unknown>	_	O	O	
+28-7	in	APPR	in	_	O	O	
+28-8	trono	ADJA	<unknown>	_	O	O	
+28-9	che	ADJA	<unknown>	_	O	O	
+28-10	appariscono	ADJA	<unknown>	_	O	O	
+28-11	sul	ADJA	<unknown>	_	O	O	
+28-12	fregio	ADJA	<unknown>	_	O	O	
+28-13	orientale	ADJA	<unknown>	_	O	O	
+28-14	deI	ADJA	<unknown>	_	O	O	
+28-15	Partenone	NN	<unknown>	_	O	O	
+28-16	,	$,	,	_	O	O	
+28-17	lettera	NE	<unknown>	_	O	O	
+28-18	diretta	NE	<unknown>	_	O	O	
+28-19	al	NE	al	_	O	O	
+28-20	nobile	ADJA	<unknown>	_	O	O	
+28-21	sg	NE	<unknown>	_	O	O	
+28-22	.	$.	.	_	O	O	
+28-23	William	NE	William	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+28-24	R.	NE	R.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+28-25	Hamilton	NE	Hamilton	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+28-26	,	$,	,	_	O	O	
+28-27	segretario	ADJA	<unknown>	_	O	O	
+28-28	deI	ADJA	<unknown>	_	O	O	
+28-29	la	FM	la	_	O	O	
+28-30	Societa	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-LIT	
+28-31	de	NE	de	_	I-webanno.custom.LetterEntity_	I-LIT	
+28-32	'	$(	'	_	I-webanno.custom.LetterEntity_	I-LIT	
+28-33	Dilettanti	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-LIT	
+28-34	(	$(	(	_	O	O	
+28-35	Mon.	NE	<unknown>	_	O	O	
+
+#id=29
+#text=1. c.).
+29-1	1	CARD	1	_	O	O	
+29-2	.	$.	.	_	O	O	
+29-3	c.	NN	<unknown>	_	O	O	
+29-4	)	$(	)	_	O	O	
+29-5	.	$.	.	_	O	O	
+
+#id=30
+#text=E.
+30-1	E.	ART	e.	_	O	O	
+
+#id=31
+#text=Braun - Postilla deI medesimo.
+31-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+31-2	-	$(	-	_	O	O	
+31-3	Postilla	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+31-4	deI	VVFIN	<unknown>	_	O	O	
+31-5	medesimo	ADJD	<unknown>	_	O	O	
+31-6	.	$.	.	_	O	O	
+
+#id=32
+#text=- Trono d'Apolline e candelabro di bronzo ( Mon.
+32-1	-	$(	-	_	O	O	
+32-2	Trono	ADJA	<unknown>	_	O	O	
+32-3	d'Apolline	NN	<unknown>	_	O	O	
+32-4	e	VVFIN	<unknown>	_	O	O	
+32-5	candelabro	NE	<unknown>	_	O	O	
+32-6	di	NE	di	_	O	O	
+32-7	bronzo	NE	<unknown>	_	O	O	
+32-8	(	$(	(	_	O	O	
+32-9	Mon.	NE	<unknown>	_	O	O	
+
+#id=33
+#text=vol.
+33-1	vol	NE	<unknown>	_	O	O	
+33-2	.	$.	.	_	O	O	
+
+#id=34
+#text=V, t. XXVIII); H. Brunn.
+34-1	V	NN	V	_	O	O	
+34-2	,	$,	,	_	O	O	
+34-3	t.	VVFIN	<unknown>	_	O	O	
+34-4	XXVIII	NE	<unknown>	_	O	O	
+34-5	)	$(	)	_	O	O	
+34-6	;	$.	;	_	O	O	
+34-7	H.	NE	H.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+34-8	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+34-9	.	$.	.	_	O	O	
+
+#id=35
+#text=- Intorno ad un disco di marmo deI Museo Campana, discorso letto dal dott. H. Brunn nell'adunanza solenne pel giorno natalizio di Winckelmann ( Mon.
+35-1	-	$(	-	_	O	O	
+35-2	Intorno	ADJA	<unknown>	_	O	O	
+35-3	ad	FM	ad	_	O	O	
+35-4	un	FM	un	_	O	O	
+35-5	disco	NE	<unknown>	_	O	O	
+35-6	di	NE	di	_	O	O	
+35-7	marmo	NE	<unknown>	_	O	O	
+35-8	deI	ADJA	<unknown>	_	O	O	
+35-9	Museo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+35-10	Campana	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+35-11	,	$,	,	_	O	O	
+35-12	discorso	ADJD	<unknown>	_	O	O	
+35-13	letto	ADJA	<unknown>	_	O	O	
+35-14	dal	ADJA	<unknown>	_	O	O	
+35-15	dott	NN	<unknown>	_	O	O	
+35-16	.	$.	.	_	O	O	
+35-17	H.	NE	H.	_	O	O	
+35-18	Brunn	NN	Brunn	_	O	O	
+35-19	nell'adunanza	NE	<unknown>	_	O	O	
+35-20	solenne	NN	<unknown>	_	O	O	
+35-21	pel	ADJA	<unknown>	_	O	O	
+35-22	giorno	ADJA	<unknown>	_	O	O	
+35-23	natalizio	NE	<unknown>	_	O	O	
+35-24	di	NE	di	_	O	O	
+35-25	Winckelmann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+35-26	(	$(	(	_	O	O	
+35-27	Mon.	NE	<unknown>	_	O	O	
+
+#id=36
+#text=vol.
+36-1	vol	NE	<unknown>	_	O	O	
+36-2	.	$.	.	_	O	O	
+
+#id=37
+#text=V, t.
+37-1	V	NN	V	_	O	O	
+37-2	,	$,	,	_	O	O	
+37-3	t.	VVFIN	<unknown>	_	O	O	
+
+#id=38
+#text=XXIX ).
+38-1	XXIX	NE	<unknown>	_	O	O	
+38-2	)	$(	)	_	O	O	
+38-3	.	$.	.	_	O	O	
+
+#id=39
+#text=- Intorno ad un disco di marmo, posseduto dal sg. F. Lanci ( Tav.
+39-1	-	$(	-	_	O	O	
+39-2	Intorno	ADJA	<unknown>	_	O	O	
+39-3	ad	FM	ad	_	O	O	
+39-4	un	FM	un	_	O	O	
+39-5	disco	NE	<unknown>	_	O	O	
+39-6	di	NE	di	_	O	O	
+39-7	marmo	NE	<unknown>	_	O	O	
+39-8	,	$,	,	_	O	O	
+39-9	posseduto	NN	<unknown>	_	O	O	
+39-10	dal	VVFIN	<unknown>	_	O	O	
+39-11	sg	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+39-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+39-13	F.	NE	F.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+39-14	Lanci	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+39-15	(	$(	(	_	O	O	
+39-16	Tav	NE	<unknown>	_	O	O	
+39-17	.	$.	.	_	O	O	
+
+#id=40
+#text=d'agg.
+40-1	d'agg	NE	<unknown>	_	O	O	
+40-2	.	$.	.	_	O	O	
+
+#id=41
+#text=E).
+41-1	E	NN	E	_	O	O	
+41-2	)	$(	)	_	O	O	
+41-3	.	$.	.	_	O	O	
+
+#id=42
+#text=H. Brunn.
+42-1	H.	NE	H.	_	O	O	
+42-2	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+42-3	.	$.	.	_	O	O	
+
+#id=43
+#text=- Sul frontone deI tempio di
+43-1	-	$(	-	_	O	O	
+43-2	Sul	ADJA	<unknown>	_	O	O	
+43-3	frontone	NN	<unknown>	_	O	O	
+43-4	deI	VVFIN	<unknown>	_	O	O	
+43-5	tempio	NE	<unknown>	_	O	O	
+43-6	di	NE	di	_	O	O	
+

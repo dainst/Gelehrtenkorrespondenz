@@ -1,0 +1,143 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=41 Verehrter Freund Lepsius an Renzen Berlin, 17. Januar 1874 g. 21/1 74 r.
+1-1	41	CARD	41	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	17	CARD	17	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	21/1	CARD	21/1	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=21/74 Berlin d. 17. Jan.
+2-1	21/74	CARD	@card@	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-3	d.	ART	d.	_	O	O	
+2-4	17	CARD	17	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=3
+#text=1874 Ich habe mich geirrt in der Stimmung der Central Direktion über die Medaillons.
+3-1	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-2	Ich	PPER	ich	_	O	O	
+3-3	habe	VAFIN	haben	_	O	O	
+3-4	mich	PRF	ich	_	O	O	
+3-5	geirrt	VVPP	irren	_	O	O	
+3-6	in	APPR	in	_	O	O	
+3-7	der	ART	die	_	O	O	
+3-8	Stimmung	NN	Stimmung	_	O	O	
+3-9	der	ART	die	_	O	O	
+3-10	Central	NN	<unknown>	_	O	O	
+3-11	Direktion	NN	Direktion	_	O	O	
+3-12	über	APPR	über	_	O	O	
+3-13	die	ART	die	_	O	O	
+3-14	Medaillons	NN	Medaillon	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Keiner hat eine Bemerkung gemacht, man findet allgemein die Wahl vortrefflich.
+4-1	Keiner	PIS	keine	_	O	O	
+4-2	hat	VAFIN	haben	_	O	O	
+4-3	eine	ART	eine	_	O	O	
+4-4	Bemerkung	NN	Bemerkung	_	O	O	
+4-5	gemacht	VVPP	machen	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	man	PIS	man	_	O	O	
+4-8	findet	VVFIN	finden	_	O	O	
+4-9	allgemein	ADJD	allgemein	_	O	O	
+4-10	die	ART	die	_	O	O	
+4-11	Wahl	NN	Wahl	_	O	O	
+4-12	vortrefflich	ADJD	vortrefflich	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Dennoch war es gut, daß ich Ihre Vorschläge produciren konnte was jede Discussion vermeiden ließ.
+5-1	Dennoch	ADV	dennoch	_	O	O	
+5-2	war	VAFIN	sein	_	O	O	
+5-3	es	PPER	es	_	O	O	
+5-4	gut	ADJD	gut	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	daß	KOUS	dass	_	O	O	
+5-7	ich	PPER	ich	_	O	O	
+5-8	Ihre	PPOSAT	ihr	_	O	O	
+5-9	Vorschläge	NN	Vorschlag	_	O	O	
+5-10	produciren	NN	<unknown>	_	O	O	
+5-11	konnte	VMFIN	können	_	O	O	
+5-12	was	PIS	was	_	O	O	
+5-13	jede	PIAT	jede	_	O	O	
+5-14	Discussion	NN	<unknown>	_	O	O	
+5-15	vermeiden	VVINF	vermeiden	_	O	O	
+5-16	ließ	VVFIN	lassen	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Sie können jetzt also die ganze Bestellung machen, obgleich wir noch keine Sitzung wieder hatten sondern ich nur privatim die Stimmen gesammelt habe.
+6-1	Sie	PPER	Sie	_	O	O	
+6-2	können	VMFIN	können	_	O	O	
+6-3	jetzt	ADV	jetzt	_	O	O	
+6-4	also	ADV	also	_	O	O	
+6-5	die	ART	die	_	O	O	
+6-6	ganze	ADJA	ganz	_	O	O	
+6-7	Bestellung	NN	Bestellung	_	O	O	
+6-8	machen	VVINF	machen	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	obgleich	KOUS	obgleich	_	O	O	
+6-11	wir	PPER	wir	_	O	O	
+6-12	noch	ADV	noch	_	O	O	
+6-13	keine	PIAT	keine	_	O	O	
+6-14	Sitzung	NN	Sitzung	_	O	O	
+6-15	wieder	ADV	wieder	_	O	O	
+6-16	hatten	VAFIN	haben	_	O	O	
+6-17	sondern	KON	sondern	_	O	O	
+6-18	ich	PPER	ich	_	O	O	
+6-19	nur	ADV	nur	_	O	O	
+6-20	privatim	VVFIN	<unknown>	_	O	O	
+6-21	die	ART	die	_	O	O	
+6-22	Stimmen	NN	Stimme|Stimmen	_	O	O	
+6-23	gesammelt	VVPP	sammeln	_	O	O	
+6-24	habe	VAFIN	haben	_	O	O	
+6-25	.	$.	.	_	O	O	
+
+#id=7
+#text=Auch für Luynes überzeugte sich jeder leicht.
+7-1	Auch	ADV	auch	_	O	O	
+7-2	für	APPR	für	_	O	O	
+7-3	Luynes	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-4	überzeugte	VVFIN	überzeugen	_	O	O	
+7-5	sich	PRF	sich	_	O	O	
+7-6	jeder	PIS	jede	_	O	O	
+7-7	leicht	ADJD	leicht	_	O	O	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=Wegen des Elenco wird Ihre Ansicht keinen Widerspruch finden.
+8-1	Wegen	APPR	wegen	_	O	O	
+8-2	des	ART	die	_	O	O	
+8-3	Elenco	NE	<unknown>	_	O	O	
+8-4	wird	VAFIN	werden	_	O	O	
+8-5	Ihre	PPOSAT	ihr	_	O	O	
+8-6	Ansicht	NN	Ansicht	_	O	O	
+8-7	keinen	PIAT	keine	_	O	O	
+8-8	Widerspruch	NN	Widerspruch	_	O	O	
+8-9	finden	VVINF	finden	_	O	O	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=Ihr herzlich grüßender R Lepsius
+9-1	Ihr	PPOSAT	ihr	_	O	O	
+9-2	herzlich	ADJD	herzlich	_	O	O	
+9-3	grüßender	ADJA	grüßend	_	O	O	
+9-4	R	NN	R	_	O	O	
+9-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

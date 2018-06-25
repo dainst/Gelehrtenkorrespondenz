@@ -1,0 +1,339 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=138 !6/ V /5 4 Henzen an Gerhard Verehrter Herr Professor Ihr Brief vom 17t~n d. M. hat mich in der 'l'hat recht beruhigt, da Ihr Stillschweigen mich Unwohlsein bei Ihnen besorgen ließ.
+1-1	138	CARD	@card@	_	O	O	
+1-2	!	$.	!	_	O	O	
+1-3	6/	CARD	@card@	_	O	O	
+1-4	V	NN	V	_	O	O	
+1-5	/5	CARD	@card@	_	O	O	
+1-6	4	CARD	4	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-8	an	APPR	an	_	O	O	
+1-9	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-10	Verehrter	ADJA	verehrt	_	O	O	
+1-11	Herr	NN	Herr	_	O	O	
+1-12	Professor	NN	Professor	_	O	O	
+1-13	Ihr	PPOSAT	ihr	_	O	O	
+1-14	Brief	NN	Brief	_	O	O	
+1-15	vom	APPRART	von	_	O	O	
+1-16	17t~n	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-17	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-18	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-19	hat	VAFIN	haben	_	O	O	
+1-20	mich	PRF	ich	_	O	O	
+1-21	in	APPR	in	_	O	O	
+1-22	der	ART	die	_	O	O	
+1-23	'	$(	'	_	O	O	
+1-24	l'hat	NN	<unknown>	_	O	O	
+1-25	recht	ADJD	recht	_	O	O	
+1-26	beruhigt	VVPP	beruhigen	_	O	O	
+1-27	,	$,	,	_	O	O	
+1-28	da	KOUS	da	_	O	O	
+1-29	Ihr	PPOSAT	ihr	_	O	O	
+1-30	Stillschweigen	NN	Stillschweigen	_	O	O	
+1-31	mich	PRF	ich	_	O	O	
+1-32	Unwohlsein	NN	Unwohlsein	_	O	O	
+1-33	bei	APPR	bei	_	O	O	
+1-34	Ihnen	PPER	Sie	_	O	O	
+1-35	besorgen	VVINF	besorgen	_	O	O	
+1-36	ließ	VVFIN	lassen	_	O	O	
+1-37	.	$.	.	_	O	O	
+
+#id=2
+#text=Leid thut mir's, daß ich Sie so wenig befriedigen kann, u., glauben Sie mir, mir liegt das Institut nicht weniger am Herzen, als Ihnen, vielleicht noch um so mehr, je directer ich hei seinem Bestehen betheiligt bin.
+2-1	Leid	ADJD	leid	_	O	O	
+2-2	thut	NN	<unknown>	_	O	O	
+2-3	mir's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-4	,	$,	,	_	O	O	
+2-5	daß	KOUS	dass	_	O	O	
+2-6	ich	PPER	ich	_	O	O	
+2-7	Sie	PPER	Sie	_	O	O	
+2-8	so	ADV	so	_	O	O	
+2-9	wenig	PIS	wenige	_	O	O	
+2-10	befriedigen	VVINF	befriedigen	_	O	O	
+2-11	kann	VMFIN	können	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	u.	KON	und	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	glauben	VVFIN	glauben	_	O	O	
+2-16	Sie	PPER	Sie	_	O	O	
+2-17	mir	PPER	ich	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	mir	PPER	ich	_	O	O	
+2-20	liegt	VVFIN	liegen	_	O	O	
+2-21	das	ART	die	_	O	O	
+2-22	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-23	nicht	PTKNEG	nicht	_	O	O	
+2-24	weniger	ADV	weniger	_	O	O	
+2-25	am	APPRART	an	_	O	O	
+2-26	Herzen	NN	Herz	_	O	O	
+2-27	,	$,	,	_	O	O	
+2-28	als	KOUS	als	_	O	O	
+2-29	Ihnen	PPER	Sie	_	O	O	
+2-30	,	$,	,	_	O	O	
+2-31	vielleicht	ADV	vielleicht	_	O	O	
+2-32	noch	ADV	noch	_	O	O	
+2-33	um	APPR	um	_	O	O	
+2-34	so	ADV	so	_	O	O	
+2-35	mehr	ADV	mehr	_	O	O	
+2-36	,	$,	,	_	O	O	
+2-37	je	APPR	je	_	O	O	
+2-38	directer	ADJA	<unknown>	_	O	O	
+2-39	ich	PPER	ich	_	O	O	
+2-40	hei	VVFIN	<unknown>	_	O	O	
+2-41	seinem	PPOSAT	sein	_	O	O	
+2-42	Bestehen	NN	Bestehen	_	O	O	
+2-43	betheiligt	VVPP	<unknown>	_	O	O	
+2-44	bin	VAFIN	sein	_	O	O	
+2-45	.	$.	.	_	O	O	
+
+#id=3
+#text=Das kann mich aber nicht verm5gen, aufschneiderische Adunanzberichte zu schicken, wo wir besser uns ?
+3-1	Das	PDS	die	_	O	O	
+3-2	kann	VMFIN	können	_	O	O	
+3-3	mich	PRF	ich	_	O	O	
+3-4	aber	ADV	aber	_	O	O	
+3-5	nicht	PTKNEG	nicht	_	O	O	
+3-6	verm5gen	NN	<unknown>	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	aufschneiderische	ADJA	<unknown>	_	O	O	
+3-9	Adunanzberichte	NN	<unknown>	_	O	O	
+3-10	zu	PTKZU	zu	_	O	O	
+3-11	schicken	VVINF	schicken	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	wo	PWAV	wo	_	O	O	
+3-14	wir	PPER	wir	_	O	O	
+3-15	besser	ADJD	gut	_	O	O	
+3-16	uns	PPER	wir	_	O	O	
+3-17	?	$.	?	_	O	O	
+
+#id=4
+#text='anz ruhie; verbalten, da wir eben Nichts zu saßen haben.
+4-1	'	$(	'	_	O	O	
+4-2	anz	ADJA	<unknown>	_	O	O	
+4-3	ruhie	NN	<unknown>	_	O	O	
+4-4	;	$.	;	_	O	O	
+4-5	verbalten	NN	<unknown>	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	da	KOUS	da	_	O	O	
+4-8	wir	PPER	wir	_	O	O	
+4-9	eben	ADV	eben	_	O	O	
+4-10	Nichts	PIS	nichts	_	O	O	
+4-11	zu	PTKVZ	zu	_	O	O	
+4-12	saßen	VVFIN	sitzen	_	O	O	
+4-13	haben	VAINF	haben	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Zu der Monumentennoth kam eben Braun's Abwesenheit aus mehreren Adunanzen durch die unsre weni~en Besucher discustirt wurden.
+5-1	Zu	APPR	zu	_	O	O	
+5-2	der	ART	die	_	O	O	
+5-3	Monumentennoth	NN	<unknown>	_	O	O	
+5-4	kam	VVFIN	kommen	_	O	O	
+5-5	eben	ADV	eben	_	O	O	
+5-6	Braun's	VVFIN	<unknown>	_	O	O	
+5-7	Abwesenheit	NN	Abwesenheit	_	O	O	
+5-8	aus	APPR	aus	_	O	O	
+5-9	mehreren	PIAT	mehrere	_	O	O	
+5-10	Adunanzen	NN	<unknown>	_	O	O	
+5-11	durch	APPR	durch	_	O	O	
+5-12	die	ART	die	_	O	O	
+5-13	unsre	PPOSAT	unsre	_	O	O	
+5-14	weni~en	NN	<unknown>	_	O	O	
+5-15	Besucher	NN	Besucher	_	O	O	
+5-16	discustirt	ADJD	<unknown>	_	O	O	
+5-17	wurden	VAINF	werden	_	O	O	
+5-18	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich versichere Ibnen, ich habe mit Aerger und - docb e;enuc;, ich kann ,Sie doch nicht überzeugen und habe mir vorgenommen, nicht mehr zu klagen!
+6-1	Ich	PPER	ich	_	O	O	
+6-2	versichere	VVFIN	versichern	_	O	O	
+6-3	Ibnen	ADJD	<unknown>	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	ich	PPER	ich	_	O	O	
+6-6	habe	VAFIN	haben	_	O	O	
+6-7	mit	APPR	mit	_	O	O	
+6-8	Aerger	NE	<unknown>	_	O	O	
+6-9	und	KON	und	_	O	O	
+6-10	-	$(	-	_	O	O	
+6-11	docb	ADJD	<unknown>	_	O	O	
+6-12	e	VVFIN	<unknown>	_	O	O	
+6-13	;	$.	;	_	O	O	
+6-14	enuc	NE	<unknown>	_	O	O	
+6-15	;	$.	;	_	O	O	
+6-16	,	$,	,	_	O	O	
+6-17	ich	PPER	ich	_	O	O	
+6-18	kann	VMFIN	können	_	O	O	
+6-19	,Sie	NN	<unknown>	_	O	O	
+6-20	doch	ADV	doch	_	O	O	
+6-21	nicht	PTKNEG	nicht	_	O	O	
+6-22	überzeugen	VVINF	überzeugen	_	O	O	
+6-23	und	KON	und	_	O	O	
+6-24	habe	VAFIN	haben	_	O	O	
+6-25	mir	PPER	ich	_	O	O	
+6-26	vorgenommen	VVPP	vornehmen	_	O	O	
+6-27	,	$,	,	_	O	O	
+6-28	nicht	PTKNEG	nicht	_	O	O	
+6-29	mehr	ADV	mehr	_	O	O	
+6-30	zu	PTKZU	zu	_	O	O	
+6-31	klagen	VVINF	klagen	_	O	O	
+6-32	!	$.	!	_	O	O	
+
+#id=7
+#text=- _.
+7-1	-	$(	-	_	O	O	
+7-2	_	XY	_	_	O	O	
+7-3	.	$.	.	_	O	O	
+
+#id=8
+#text=\ An die Kreuzzeitung hat Braun ceschrieben; Lorentzen's \ I Bericht war auf kein politisches Blatt, sondern auf Ihre l~eitung berechnet.
+8-1	\	XY	\	_	O	O	
+8-2	An	APPR	an	_	O	O	
+8-3	die	ART	die	_	O	O	
+8-4	Kreuzzeitung	NN	<unknown>	_	O	O	
+8-5	hat	VAFIN	haben	_	O	O	
+8-6	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-7	ceschrieben	ADJD	<unknown>	_	O	O	
+8-8	;	$.	;	_	O	O	
+8-9	Lorentzen's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-10	\	XY	\	_	O	O	
+8-11	I	NN	I	_	O	O	
+8-12	Bericht	NN	Bericht	_	O	O	
+8-13	war	VAFIN	sein	_	O	O	
+8-14	auf	APPR	auf	_	O	O	
+8-15	kein	PIAT	keine	_	O	O	
+8-16	politisches	ADJA	politisch	_	O	O	
+8-17	Blatt	NN	Blatt	_	O	O	
+8-18	,	$,	,	_	O	O	
+8-19	sondern	KON	sondern	_	O	O	
+8-20	auf	APPR	auf	_	O	O	
+8-21	Ihre	PPOSAT	ihr	_	O	O	
+8-22	l~eitung	NN	<unknown>	_	O	O	
+8-23	berechnet	VVPP	berechnen	_	O	O	
+8-24	.	$.	.	_	O	O	
+
+#id=9
+#text=Uebrigens weiß ich doch wahrlich nicht, was wir noch h~tten thun sollen, um flir den 21~ April vom 15nige für das Institut Bewilligungen zu erhalten.
+9-1	Uebrigens	NN	<unknown>	_	O	O	
+9-2	weiß	VVFIN	wissen	_	O	O	
+9-3	ich	PPER	ich	_	O	O	
+9-4	doch	ADV	doch	_	O	O	
+9-5	wahrlich	ADV	wahrlich	_	O	O	
+9-6	nicht	PTKNEG	nicht	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	was	PRELS	was	_	O	O	
+9-9	wir	PPER	wir	_	O	O	
+9-10	noch	ADV	noch	_	O	O	
+9-11	h~tten	NN	<unknown>	_	O	O	
+9-12	thun	NE	<unknown>	_	O	O	
+9-13	sollen	VMFIN	sollen	_	O	O	
+9-14	,	$,	,	_	O	O	
+9-15	um	KOUI	um	_	O	O	
+9-16	flir	NN	<unknown>	_	O	O	
+9-17	den	ART	die	_	O	O	
+9-18	21~	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-19	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-20	vom	APPRART	von	_	O	O	
+9-21	15nige	NN	<unknown>	_	O	O	
+9-22	für	APPR	für	_	O	O	
+9-23	das	ART	die	_	O	O	
+9-24	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-25	Bewilligungen	NN	Bewilligung	_	O	O	
+9-26	zu	PTKZU	zu	_	O	O	
+9-27	erhalten	VVINF	erhalten	_	O	O	
+9-28	.	$.	.	_	O	O	
+
+#id=10
+#text=Wir waren der Meinung, Usedom werde des Programm dem Y5nige liberreichen, und so hatten Sie selbst es früher dargestellt, als Sie mich auf diese Gelegenheit vertr5steten.
+10-1	Wir	PPER	wir	_	O	O	
+10-2	waren	VAFIN	sein	_	O	O	
+10-3	der	ART	die	_	O	O	
+10-4	Meinung	NN	Meinung	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-7	werde	VAFIN	werden	_	O	O	
+10-8	des	ART	die	_	O	O	
+10-9	Programm	NN	Programm	_	O	O	
+10-10	dem	ART	die	_	O	O	
+10-11	Y5nige	NN	<unknown>	_	O	O	
+10-12	liberreichen	ADJA	<unknown>	_	O	O	
+10-13	,	$,	,	_	O	O	
+10-14	und	KON	und	_	O	O	
+10-15	so	ADV	so	_	O	O	
+10-16	hatten	VAFIN	haben	_	O	O	
+10-17	Sie	PPER	Sie	_	O	O	
+10-18	selbst	ADV	selbst	_	O	O	
+10-19	es	PPER	es	_	O	O	
+10-20	früher	ADJD	früh	_	O	O	
+10-21	dargestellt	VVPP	darstellen	_	O	O	
+10-22	,	$,	,	_	O	O	
+10-23	als	KOUS	als	_	O	O	
+10-24	Sie	PPER	Sie	_	O	O	
+10-25	mich	PRF	ich	_	O	O	
+10-26	auf	APPR	auf	_	O	O	
+10-27	diese	PDAT	dies	_	O	O	
+10-28	Gelegenheit	NN	Gelegenheit	_	O	O	
+10-29	vertr5steten	VVFIN	<unknown>	_	O	O	
+10-30	.	$.	.	_	O	O	
+
+#id=11
+#text=~enn Sie jetzt sagten, die politischen Verh§ltnisse machen es unm5glich, so wUrde ich es natürlich finden; aber die fehlenden Adunanzberichte k5nnen nicht Ursache sein.
+11-1	~enn	VVIMP	<unknown>	_	O	O	
+11-2	Sie	PPER	Sie	_	O	O	
+11-3	jetzt	ADV	jetzt	_	O	O	
+11-4	sagten	VVFIN	sagen	_	O	O	
+11-5	,	$,	,	_	O	O	
+11-6	die	ART	die	_	O	O	
+11-7	politischen	ADJA	politisch	_	O	O	
+11-8	Verh§ltnisse	NN	<unknown>	_	O	O	
+11-9	machen	VVFIN	machen	_	O	O	
+11-10	es	PPER	es	_	O	O	
+11-11	unm5glich	ADJD	<unknown>	_	O	O	
+11-12	,	$,	,	_	O	O	
+11-13	so	ADV	so	_	O	O	
+11-14	wUrde	VVFIN	<unknown>	_	O	O	
+11-15	ich	PPER	ich	_	O	O	
+11-16	es	PPER	es	_	O	O	
+11-17	natürlich	ADV	natürlich	_	O	O	
+11-18	finden	VVINF	finden	_	O	O	
+11-19	;	$.	;	_	O	O	
+11-20	aber	ADV	aber	_	O	O	
+11-21	die	ART	die	_	O	O	
+11-22	fehlenden	ADJA	fehlend	_	O	O	
+11-23	Adunanzberichte	ADJA	<unknown>	_	O	O	
+11-24	k5nnen	NN	<unknown>	_	O	O	
+11-25	nicht	PTKNEG	nicht	_	O	O	
+11-26	Ursache	NN	Ursache	_	O	O	
+11-27	sein	VAINF	sein	_	O	O	
+11-28	.	$.	.	_	O	O	
+
+#id=12
+#text=Ich wenigstens gebe micJ, auch dann nicht dazu her, zu renommiren ohne Grund.
+12-1	Ich	PPER	ich	_	O	O	
+12-2	wenigstens	ADV	wenigstens	_	O	O	
+12-3	gebe	VVFIN	geben	_	O	O	
+12-4	micJ	ADJD	<unknown>	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	auch	ADV	auch	_	O	O	
+12-7	dann	ADV	dann	_	O	O	
+12-8	nicht	PTKNEG	nicht	_	O	O	
+12-9	dazu	PAV	dazu	_	O	O	
+12-10	her	PTKVZ	her	_	O	O	
+12-11	,	$,	,	_	O	O	
+12-12	zu	APPR	zu	_	O	O	
+12-13	renommiren	NN	<unknown>	_	O	O	
+12-14	ohne	APPR	ohne	_	O	O	
+12-15	Grund	NN	Grund	_	O	O	
+12-16	.	$.	.	_	O	O	
+
+#id=13
+#text=- Dtr Schluß ist ir~mer, daß
+13-1	-	$(	-	_	O	O	
+13-2	Dtr	NN	<unknown>	_	O	O	
+13-3	Schluß	NN	Schluss	_	O	O	
+13-4	ist	VAFIN	sein	_	O	O	
+13-5	ir~mer	ADJD	<unknown>	_	O	O	
+13-6	,	$,	,	_	O	O	
+13-7	daß	KOUS	dass	_	O	O	
+

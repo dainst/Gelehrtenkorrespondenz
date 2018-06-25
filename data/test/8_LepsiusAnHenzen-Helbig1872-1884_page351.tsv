@@ -1,0 +1,267 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=47 L Verehrter Freund Lepsius an Helbig Berlin, 12. Januar 1882 Berlin, C. den 12. Jan.
+1-1	47	CARD	47	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1882	CARD	1882	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	,	$,	,	_	O	O	
+1-16	C.	NE	C.	_	O	O	
+1-17	den	ART	die	_	O	O	
+1-18	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-20	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=2
+#text=1882 Der Kopf ist gesund hier angekommen, schon vor 14 Tagen, ohne sieh bei mir zu melden.
+2-1	1882	CARD	1882	_	O	O	
+2-2	Der	ART	die	_	O	O	
+2-3	Kopf	NN	Kopf	_	O	O	
+2-4	ist	VAFIN	sein	_	O	O	
+2-5	gesund	ADJD	gesund	_	O	O	
+2-6	hier	ADV	hier	_	O	O	
+2-7	angekommen	VVPP	ankommen	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	schon	ADV	schon	_	O	O	
+2-10	vor	APPR	vor	_	O	O	
+2-11	14	CARD	14	_	O	O	
+2-12	Tagen	NN	Tag	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	ohne	KOUI	ohne	_	O	O	
+2-15	sieh	VVIMP	sehen	_	O	O	
+2-16	bei	APPR	bei	_	O	O	
+2-17	mir	PPER	ich	_	O	O	
+2-18	zu	PTKZU	zu	_	O	O	
+2-19	melden	VVINF	melden	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Jetzt ist auch der Arbeitslohn mit 80 + 5 mark und der Transport mit 50 - 60 Mark bezahlt.
+3-1	Jetzt	ADV	jetzt	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	auch	ADV	auch	_	O	O	
+3-4	der	ART	die	_	O	O	
+3-5	Arbeitslohn	NN	Arbeitslohn	_	O	O	
+3-6	mit	APPR	mit	_	O	O	
+3-7	80	CARD	80	_	O	O	
+3-8	+	KON	+	_	O	O	
+3-9	5	CARD	5	_	O	O	
+3-10	mark	NN	Mark	_	O	O	
+3-11	und	KON	und	_	O	O	
+3-12	der	ART	die	_	O	O	
+3-13	Transport	NN	Transport	_	O	O	
+3-14	mit	APPR	mit	_	O	O	
+3-15	50	CARD	50	_	O	O	
+3-16	-	$(	-	_	O	O	
+3-17	60	CARD	60	_	O	O	
+3-18	Mark	NN	Mark	_	O	O	
+3-19	bezahlt	VVPP	bezahlen	_	O	O	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=Nehmen Sie nochmals meinen besonders warmen Dank für Ihre Thätigkeit hin.
+4-1	Nehmen	VVFIN	nehmen	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	nochmals	ADV	nochmals	_	O	O	
+4-4	meinen	VVFIN	meinen	_	O	O	
+4-5	besonders	ADV	besonders	_	O	O	
+4-6	warmen	ADJA	warm	_	O	O	
+4-7	Dank	NN	Dank	_	O	O	
+4-8	für	APPR	für	_	O	O	
+4-9	Ihre	PPOSAT	ihr	_	O	O	
+4-10	Thätigkeit	NN	<unknown>	_	O	O	
+4-11	hin	PTKVZ	hin	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Wo ist der zweite Abugß des Kopfes, der in den 80 Lire inbeJ griffen war, nun hingekommen?
+5-1	Wo	PWAV	wo	_	O	O	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	der	ART	die	_	O	O	
+5-4	zweite	ADJA	zweit	_	O	O	
+5-5	Abugß	NN	<unknown>	_	O	O	
+5-6	des	ART	die	_	O	O	
+5-7	Kopfes	NN	Kopf	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-8	,	$,	,	_	O	O	
+5-9	der	PRELS	die	_	O	O	
+5-10	in	APPR	in	_	O	O	
+5-11	den	ART	die	_	O	O	
+5-12	80	CARD	80	_	O	O	
+5-13	Lire	NN	Lira	_	O	O	
+5-14	inbeJ	NE	<unknown>	_	O	O	
+5-15	griffen	VVFIN	greifen	_	O	O	
+5-16	war	VAFIN	sein	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	nun	ADV	nun	_	O	O	
+5-19	hingekommen	VVPP	hinkommen	_	O	O	
+5-20	?	$.	?	_	O	O	
+
+#id=6
+#text=und ist nun an die Duchessa Alles richtig bezahlt worden, oder sind wir nicht noch besondern Dank schuldig.
+6-1	und	KON	und	_	O	O	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	nun	ADV	nun	_	O	O	
+6-4	an	APPR	an	_	O	O	
+6-5	die	ART	die	_	O	O	
+6-6	Duchessa	NN	<unknown>	_	O	O	
+6-7	Alles	PIS	alle	_	O	O	
+6-8	richtig	ADJD	richtig	_	O	O	
+6-9	bezahlt	VVPP	bezahlen	_	O	O	
+6-10	worden	VAPP	werden	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	oder	KON	oder	_	O	O	
+6-13	sind	VAFIN	sein	_	O	O	
+6-14	wir	PPER	wir	_	O	O	
+6-15	nicht	PTKNEG	nicht	_	O	O	
+6-16	noch	ADV	noch	_	O	O	
+6-17	besondern	VVFIN	besondern	_	O	O	
+6-18	Dank	APPR	dank	_	O	O	
+6-19	schuldig	ADJD	schuldig	_	O	O	
+6-20	.	$.	.	_	O	O	
+
+#id=7
+#text=Ober die kleine Statue des Barone Busacco schrieb ich ihm unseren Dank und meine Meinung, die aber sehr unbestimmt bleibt.
+7-1	Ober	NN	Ober	_	O	O	
+7-2	die	ART	die	_	O	O	
+7-3	kleine	ADJA	klein	_	B-webanno.custom.LetterEntity_	B-OBJ	
+7-4	Statue	NN	Statue	_	I-webanno.custom.LetterEntity_	I-OBJ	
+7-5	des	ART	die	_	O	O	
+7-6	Barone	NN	Baron	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-7	Busacco	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-8	schrieb	VVFIN	schreiben	_	O	O	
+7-9	ich	PPER	ich	_	O	O	
+7-10	ihm	PPER	er	_	O	O	
+7-11	unseren	PPOSAT	unser	_	O	O	
+7-12	Dank	NN	Dank	_	O	O	
+7-13	und	KON	und	_	O	O	
+7-14	meine	PPOSAT	mein	_	O	O	
+7-15	Meinung	NN	Meinung	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	die	PRELS	die	_	O	O	
+7-18	aber	ADV	aber	_	O	O	
+7-19	sehr	ADV	sehr	_	O	O	
+7-20	unbestimmt	ADJD	unbestimmt	_	O	O	
+7-21	bleibt	VVFIN	bleiben	_	O	O	
+7-22	.	$.	.	_	O	O	
+
+#id=8
+#text=Die kleine Figur von Dressel war ein Priester des Ammon und der Priester einer anderen Gottheit dessen Name zerstört ist.
+8-1	Die	ART	die	_	O	O	
+8-2	kleine	ADJA	klein	_	O	O	
+8-3	Figur	NN	Figur	_	O	O	
+8-4	von	APPR	von	_	O	O	
+8-5	Dressel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	war	VAFIN	sein	_	O	O	
+8-7	ein	ART	eine	_	O	O	
+8-8	Priester	NN	Priester	_	O	O	
+8-9	des	ART	die	_	O	O	
+8-10	Ammon	NE	Ammon	_	O	O	
+8-11	und	KON	und	_	O	O	
+8-12	der	ART	die	_	O	O	
+8-13	Priester	NN	Priester	_	O	O	
+8-14	einer	ART	eine	_	O	O	
+8-15	anderen	PIAT	andere	_	O	O	
+8-16	Gottheit	NN	Gottheit	_	O	O	
+8-17	dessen	PDAT	die	_	O	O	
+8-18	Name	NN	Name	_	O	O	
+8-19	zerstört	VVPP	zerstören	_	O	O	
+8-20	ist	VAFIN	sein	_	O	O	
+8-21	.	$.	.	_	O	O	
+
+#id=9
+#text=Ebenso ist der Name in der untersten Zeile weggebrochen.
+9-1	Ebenso	ADV	ebenso	_	O	O	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	der	ART	die	_	O	O	
+9-4	Name	NN	Name	_	O	O	
+9-5	in	APPR	in	_	O	O	
+9-6	der	ART	die	_	O	O	
+9-7	untersten	ADJA	unter	_	O	O	
+9-8	Zeile	NN	Zeile	_	O	O	
+9-9	weggebrochen	VVPP	wegbrechen	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=Der Ammon weist zunächst auf Theben, doch nicht mit Nothwendigkeit.
+10-1	Der	ART	die	_	O	O	
+10-2	Ammon	NE	Ammon	_	O	O	
+10-3	weist	VVFIN	weisen	_	O	O	
+10-4	zunächst	ADV	zunächst	_	O	O	
+10-5	auf	APPR	auf	_	O	O	
+10-6	Theben	NE	Theben	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	doch	ADV	doch	_	O	O	
+10-9	nicht	PTKNEG	nicht	_	O	O	
+10-10	mit	APPR	mit	_	O	O	
+10-11	Nothwendigkeit	NN	<unknown>	_	O	O	
+10-12	.	$.	.	_	O	O	
+
+#id=11
+#text=Figuren von sehr geringer Technik wie diese finden sieh oft in sehr verschiedenen Zeiten doch ist dies eher ein älterer Stil von Theben.
+11-1	Figuren	NN	Figur	_	O	O	
+11-2	von	APPR	von	_	O	O	
+11-3	sehr	ADV	sehr	_	O	O	
+11-4	geringer	ADJA	gering	_	O	O	
+11-5	Technik	NN	Technik	_	O	O	
+11-6	wie	KOKOM	wie	_	O	O	
+11-7	diese	PDS	diese	_	O	O	
+11-8	finden	VVFIN	finden	_	O	O	
+11-9	sieh	VVIMP	sehen	_	O	O	
+11-10	oft	ADV	oft	_	O	O	
+11-11	in	APPR	in	_	O	O	
+11-12	sehr	ADV	sehr	_	O	O	
+11-13	verschiedenen	ADJA	verschieden	_	O	O	
+11-14	Zeiten	NN	Zeit	_	O	O	
+11-15	doch	ADV	doch	_	O	O	
+11-16	ist	VAFIN	sein	_	O	O	
+11-17	dies	PDS	dies	_	O	O	
+11-18	eher	ADV	eher	_	O	O	
+11-19	ein	ART	eine	_	O	O	
+11-20	älterer	ADJA	alt	_	O	O	
+11-21	Stil	NN	Stil	_	O	O	
+11-22	von	APPR	von	_	O	O	
+11-23	Theben	NE	Theben	_	O	O	
+11-24	.	$.	.	_	O	O	
+
+#id=12
+#text=Mehr läßt sieh nicht sagen.
+12-1	Mehr	ADV	mehr	_	O	O	
+12-2	läßt	VVFIN	lassen	_	O	O	
+12-3	sieh	VVIMP	sehen	_	O	O	
+12-4	nicht	PTKNEG	nicht	_	O	O	
+12-5	sagen	VVINF	sagen	_	O	O	
+12-6	.	$.	.	_	O	O	
+
+#id=13
+#text=Ober das Stärken und Bügeln bei den Ägyptern kenne ich keine Stelle bei den Alten; doch muß es ge-
+13-1	Ober	NN	Ober	_	O	O	
+13-2	das	ART	die	_	O	O	
+13-3	Stärken	NN	Stärke|Stärken	_	O	O	
+13-4	und	KON	und	_	O	O	
+13-5	Bügeln	NN	Bügel|Bügeln	_	O	O	
+13-6	bei	APPR	bei	_	O	O	
+13-7	den	ART	die	_	O	O	
+13-8	Ägyptern	NN	Ägypter	_	O	O	
+13-9	kenne	VVFIN	kennen	_	O	O	
+13-10	ich	PPER	ich	_	O	O	
+13-11	keine	PIAT	keine	_	O	O	
+13-12	Stelle	NN	Stelle	_	O	O	
+13-13	bei	APPR	bei	_	O	O	
+13-14	den	ART	die	_	O	O	
+13-15	Alten	NN	Alte	_	O	O	
+13-16	;	$.	;	_	O	O	
+13-17	doch	ADV	doch	_	O	O	
+13-18	muß	VMFIN	müssen	_	O	O	
+13-19	es	PPER	es	_	O	O	
+13-20	ge-	TRUNC	ge-	_	O	O	
+

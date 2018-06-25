@@ -1,0 +1,296 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=(~ .
+1-1	(	$(	(	_	O	O	
+1-2	~	XY	~	_	O	O	
+1-3	.	$.	.	_	O	O	
+
+#id=2
+#text=( r) • ): •.
+2-1	(	$(	(	_	O	O	
+2-2	r	FM	r	_	O	O	
+2-3	)	$(	)	_	O	O	
+2-4	•	NN	<unknown>	_	O	O	
+2-5	)	$(	)	_	O	O	
+2-6	:	$.	:	_	O	O	
+2-7	•	NN	<unknown>	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=JA'~ .. <, 1"'" 1i .J '.
+3-1	JA'~	NN	<unknown>	_	O	O	
+3-2	.	$.	.	_	O	O	
+3-3	.	$.	.	_	O	O	
+3-4	<	$(	<	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	1	CARD	1	_	O	O	
+3-7	"	$(	"	_	O	O	
+3-8	'	$(	'	_	O	O	
+3-9	"	$(	"	_	O	O	
+3-10	1i	NN	<unknown>	_	O	O	
+3-11	.J	NE	<unknown>	_	O	O	
+3-12	'	$(	'	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=ll) v lf\ CC{/vt i " '\ 276 Lepsius an Henzen Berlin, 30. April 1877 2 deten, mußten wir diesen als ebensowohl vom Sekretariat ausgehend ansehen.
+4-1	ll	NN	<unknown>	_	O	O	
+4-2	)	$(	)	_	O	O	
+4-3	v	ADJA	<unknown>	_	O	O	
+4-4	lf\	NN	<unknown>	_	O	O	
+4-5	CC{/vt	NN	<unknown>	_	O	O	
+4-6	i	FM	i	_	O	O	
+4-7	"	$(	"	_	O	O	
+4-8	'	$(	'	_	O	O	
+4-9	\	XY	\	_	O	O	
+4-10	276	CARD	@card@	_	O	O	
+4-11	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+4-12	an	APPR	an	_	O	O	
+4-13	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+4-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-15	,	$,	,	_	O	O	
+4-16	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-18	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-19	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-20	2	CARD	2	_	O	O	
+4-21	deten	VVFIN	<unknown>	_	O	O	
+4-22	,	$,	,	_	O	O	
+4-23	mußten	VMFIN	müssen	_	O	O	
+4-24	wir	PPER	wir	_	O	O	
+4-25	diesen	PDS	diese	_	O	O	
+4-26	als	KOKOM	als	_	O	O	
+4-27	ebensowohl	ADV	<unknown>	_	O	O	
+4-28	vom	APPRART	von	_	O	O	
+4-29	Sekretariat	NN	Sekretariat	_	O	O	
+4-30	ausgehend	ADJD	ausgehend	_	O	O	
+4-31	ansehen	VVINF	ansehen	_	O	O	
+4-32	.	$.	.	_	O	O	
+
+#id=5
+#text=Wenn Sie sich über Ihre besonderen Intentionen und über Ihre Stellung zu dem Antrage klar ausgesprochen hätten, wäre eine solche Verschiedenheit der Auffassung nicht möglich geworden.
+5-1	Wenn	KOUS	wenn	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	sich	PRF	sich	_	O	O	
+5-4	über	APPR	über	_	O	O	
+5-5	Ihre	PPOSAT	ihr	_	O	O	
+5-6	besonderen	ADJA	besonder	_	O	O	
+5-7	Intentionen	NN	Intention	_	O	O	
+5-8	und	KON	und	_	O	O	
+5-9	über	APPR	über	_	O	O	
+5-10	Ihre	PPOSAT	ihr	_	O	O	
+5-11	Stellung	NN	Stellung	_	O	O	
+5-12	zu	APPR	zu	_	O	O	
+5-13	dem	ART	die	_	O	O	
+5-14	Antrage	NN	<unknown>	_	O	O	
+5-15	klar	ADJD	klar	_	O	O	
+5-16	ausgesprochen	VVPP	aussprechen	_	O	O	
+5-17	hätten	VAFIN	haben	_	O	O	
+5-18	,	$,	,	_	O	O	
+5-19	wäre	VAFIN	sein	_	O	O	
+5-20	eine	ART	eine	_	O	O	
+5-21	solche	PIAT	solche	_	O	O	
+5-22	Verschiedenheit	NN	Verschiedenheit	_	O	O	
+5-23	der	ART	die	_	O	O	
+5-24	Auffassung	NN	Auffassung	_	O	O	
+5-25	nicht	PTKNEG	nicht	_	O	O	
+5-26	möglich	ADJD	möglich	_	O	O	
+5-27	geworden	VAPP	werden	_	O	O	
+5-28	.	$.	.	_	O	O	
+
+#id=6
+#text=Wir haben durchaus geglaubt in Ihrem Sinne zu handeln.
+6-1	Wir	PPER	wir	_	O	O	
+6-2	haben	VAFIN	haben	_	O	O	
+6-3	durchaus	ADV	durchaus	_	O	O	
+6-4	geglaubt	VVPP	glauben	_	O	O	
+6-5	in	APPR	in	_	O	O	
+6-6	Ihrem	PPOSAT	ihr	_	O	O	
+6-7	Sinne	NN	Sinn	_	O	O	
+6-8	zu	PTKZU	zu	_	O	O	
+6-9	handeln	VVINF	handeln	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=So eben geht Ihr Brief vom 28. April ein.
+7-1	So	ADV	so	_	O	O	
+7-2	eben	ADV	eben	_	O	O	
+7-3	geht	VVFIN	gehen	_	O	O	
+7-4	Ihr	PPOSAT	ihr	_	O	O	
+7-5	Brief	NN	Brief	_	O	O	
+7-6	vom	APPRART	von	_	O	O	
+7-7	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-10	ein	PTKVZ	ein	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Ihre Bemerkungen über die Stipendiaten werde ich mittheilen.
+8-1	Ihre	PPOSAT	ihr	_	O	O	
+8-2	Bemerkungen	NN	Bemerkung	_	O	O	
+8-3	über	APPR	über	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	Stipendiaten	NN	Stipendiat	_	O	O	
+8-6	werde	VAFIN	werden	_	O	O	
+8-7	ich	PPER	ich	_	O	O	
+8-8	mittheilen	VVINF	<unknown>	_	O	O	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=Die beglaubigte Vollmacht wird ausgestellt werden, sobald ich von Schöne das zweckmäßige Formular, daß bei <0-- ähnlicher Gelegenheit im Ministerium festgestellt wurde, erhalten haben werde.
+9-1	Die	ART	die	_	O	O	
+9-2	beglaubigte	ADJA	beglaubigt	_	O	O	
+9-3	Vollmacht	NN	Vollmacht	_	O	O	
+9-4	wird	VAFIN	werden	_	O	O	
+9-5	ausgestellt	VVPP	ausstellen	_	O	O	
+9-6	werden	VAINF	werden	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	sobald	KOUS	sobald	_	O	O	
+9-9	ich	PPER	ich	_	O	O	
+9-10	von	APPR	von	_	O	O	
+9-11	Schöne	NN	Schöne	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-12	das	ART	die	_	O	O	
+9-13	zweckmäßige	ADJA	zweckmäßig	_	O	O	
+9-14	Formular	NN	Formular	_	O	O	
+9-15	,	$,	,	_	O	O	
+9-16	daß	KOUS	dass	_	O	O	
+9-17	bei	APPR	bei	_	O	O	
+9-18	<0	NN	<unknown>	_	O	O	
+9-19	--	$(	--	_	O	O	
+9-20	ähnlicher	ADJA	ähnlich	_	O	O	
+9-21	Gelegenheit	NN	Gelegenheit	_	O	O	
+9-22	im	APPRART	in	_	O	O	
+9-23	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-24	festgestellt	VVPP	feststellen	_	O	O	
+9-25	wurde	VAFIN	werden	_	O	O	
+9-26	,	$,	,	_	O	O	
+9-27	erhalten	VVPP	erhalten	_	O	O	
+9-28	haben	VAINF	haben	_	O	O	
+9-29	werde	VAFIN	werden	_	O	O	
+9-30	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich habe sogleich wieder erinnert.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	habe	VAFIN	haben	_	O	O	
+10-3	sogleich	ADV	sogleich	_	O	O	
+10-4	wieder	ADV	wieder	_	O	O	
+10-5	erinnert	VVFIN	erinnern	_	O	O	
+10-6	.	$.	.	_	O	O	
+
+#id=11
+#text=Die Absicht von Lanci scheint mir persönlich sehr zweckmäßig und acceptabel.
+11-1	Die	ART	die	_	O	O	
+11-2	Absicht	NN	Absicht	_	O	O	
+11-3	von	APPR	von	_	O	O	
+11-4	Lanci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-5	scheint	VVFIN	scheinen	_	O	O	
+11-6	mir	PPER	ich	_	O	O	
+11-7	persönlich	ADJD	persönlich	_	O	O	
+11-8	sehr	ADV	sehr	_	O	O	
+11-9	zweckmäßig	ADJD	zweckmäßig	_	O	O	
+11-10	und	KON	und	_	O	O	
+11-11	acceptabel	ADJD	<unknown>	_	O	O	
+11-12	.	$.	.	_	O	O	
+
+#id=12
+#text=den 29. hier wieder eingetroffen; Curtius ist vongef er ist wohl und munter.
+12-1	den	ART	die	_	O	O	
+12-2	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+12-3	.	$.	.	_	O	O	
+12-4	hier	ADV	hier	_	O	O	
+12-5	wieder	ADV	wieder	_	O	O	
+12-6	eingetroffen	VVPP	eintreffen	_	O	O	
+12-7	;	$.	;	_	O	O	
+12-8	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-9	ist	VAFIN	sein	_	O	O	
+12-10	vongef	ADV	<unknown>	_	O	O	
+12-11	er	PPER	er	_	O	O	
+12-12	ist	VAFIN	sein	_	O	O	
+12-13	wohl	ADV	wohl	_	O	O	
+12-14	und	KON	und	_	O	O	
+12-15	munter	ADJD	munter	_	O	O	
+12-16	.	$.	.	_	O	O	
+
+#id=13
+#text=Frau und Tochter werden bald folgen.
+13-1	Frau	NN	Frau	_	O	O	
+13-2	und	KON	und	_	O	O	
+13-3	Tochter	NN	Tochter	_	O	O	
+13-4	werden	VAFIN	werden	_	O	O	
+13-5	bald	ADV	bald	_	O	O	
+13-6	folgen	VVINF	folgen	_	O	O	
+13-7	.	$.	.	_	O	O	
+
+#id=14
+#text=Er soll heute und Sonntag festlich begossen werden.
+14-1	Er	PPER	er	_	O	O	
+14-2	soll	VMFIN	sollen	_	O	O	
+14-3	heute	ADV	heute	_	O	O	
+14-4	und	KON	und	_	O	O	
+14-5	Sonntag	NN	Sonntag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+14-6	festlich	ADJD	festlich	_	O	O	
+14-7	begossen	VVPP	begießen	_	O	O	
+14-8	werden	VAINF	werden	_	O	O	
+14-9	.	$.	.	_	O	O	
+
+#id=15
+#text=Conze's Berufung ist ergangen und acceptirt.
+15-1	Conze's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-2	Berufung	NN	Berufung	_	O	O	
+15-3	ist	VAFIN	sein	_	O	O	
+15-4	ergangen	VVPP	ergehen	_	O	O	
+15-5	und	KON	und	_	O	O	
+15-6	acceptirt	ADJD	<unknown>	_	O	O	
+15-7	.	$.	.	_	O	O	
+
+#id=16
+#text=Der Frühling rückt sehr langsam vor.
+16-1	Der	ART	die	_	O	O	
+16-2	Frühling	NN	Frühling	_	O	O	
+16-3	rückt	VVFIN	rücken	_	O	O	
+16-4	sehr	ADV	sehr	_	O	O	
+16-5	langsam	ADJD	langsam	_	O	O	
+16-6	vor	PTKVZ	vor	_	O	O	
+16-7	.	$.	.	_	O	O	
+
+#id=17
+#text=Mit besten Grüßen Ihr R Lepsius Quer auf der 2. Seite : Die Bücher von Parthey werden jetzt verpackt.
+17-1	Mit	APPR	mit	_	O	O	
+17-2	besten	ADJA	gut	_	O	O	
+17-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+17-4	Ihr	PPOSAT	ihr	_	O	O	
+17-5	R	NN	R	_	O	O	
+17-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-7	Quer	ADV	quer	_	O	O	
+17-8	auf	APPR	auf	_	O	O	
+17-9	der	ART	die	_	O	O	
+17-10	2	CARD	2	_	O	O	
+17-11	.	$.	.	_	O	O	
+17-12	Seite	NN	Seite	_	O	O	
+17-13	:	$.	:	_	O	O	
+17-14	Die	ART	die	_	O	O	
+17-15	Bücher	NN	Buch	_	O	O	
+17-16	von	APPR	von	_	O	O	
+17-17	Parthey	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-18	werden	VAFIN	werden	_	O	O	
+17-19	jetzt	ADV	jetzt	_	O	O	
+17-20	verpackt	VVPP	verpacken	_	O	O	
+17-21	.	$.	.	_	O	O	
+
+#id=18
+#text=Es wird wohl am besten sein, wenn wir hier die Verpac~_
+18-1	Es	PPER	es	_	O	O	
+18-2	wird	VAFIN	werden	_	O	O	
+18-3	wohl	ADV	wohl	_	O	O	
+18-4	am	PTKA	am	_	O	O	
+18-5	besten	ADJD	gut	_	O	O	
+18-6	sein	VAINF	sein	_	O	O	
+18-7	,	$,	,	_	O	O	
+18-8	wenn	KOUS	wenn	_	O	O	
+18-9	wir	PPER	wir	_	O	O	
+18-10	hier	ADV	hier	_	O	O	
+18-11	die	ART	die	_	O	O	
+18-12	Verpac~_	NN	<unknown>	_	O	O	
+

@@ -1,0 +1,208 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=39 A. d. Dir.
+1-1	39	CARD	39	_	O	O	
+1-2	A.	APPR	an	_	O	O	
+1-3	d.	ART	d.	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Lieber Freund. Gerhard an Braun Berlin, 20. Januar 1845 g. 1/11 45 r. 1/11 45 Berlin 20 Jan 45 Meine Theilnahme an der Ihnen zugefallenen Ordensehre, ich glaube durch Schulze veranlaßt, kann ich Ihnen nicht unbezeugt lassen, ohne daß ich dazu glückwünschen mag.
+2-1	Lieber	ADJD	lieb	_	O	O	
+2-2	Freund	NE	Freund	_	O	O	
+2-3	.	$.	.	_	O	O	
+2-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-5	an	APPR	an	_	O	O	
+2-6	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-8	,	$,	,	_	O	O	
+2-9	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-13	g.	VVFIN	<unknown>	_	O	O	
+2-14	1/11	CARD	@card@	_	O	O	
+2-15	45	CARD	45	_	O	O	
+2-16	r.	ADJA	<unknown>	_	O	O	
+2-17	1/11	CARD	@card@	_	O	O	
+2-18	45	CARD	45	_	O	O	
+2-19	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-20	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-21	Jan	NE	Jan	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-22	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-23	Meine	PPOSAT	mein	_	O	O	
+2-24	Theilnahme	NN	<unknown>	_	O	O	
+2-25	an	APPR	an	_	O	O	
+2-26	der	ART	die	_	O	O	
+2-27	Ihnen	PPER	Sie	_	O	O	
+2-28	zugefallenen	ADJA	zugefallen	_	O	O	
+2-29	Ordensehre	NN	<unknown>	_	O	O	
+2-30	,	$,	,	_	O	O	
+2-31	ich	PPER	ich	_	O	O	
+2-32	glaube	VVFIN	glauben	_	O	O	
+2-33	durch	APPR	durch	_	O	O	
+2-34	Schulze	NE	Schulze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-35	veranlaßt	VVPP	veranlassen	_	O	O	
+2-36	,	$,	,	_	O	O	
+2-37	kann	VMFIN	können	_	O	O	
+2-38	ich	PPER	ich	_	O	O	
+2-39	Ihnen	PPER	Sie	_	O	O	
+2-40	nicht	PTKNEG	nicht	_	O	O	
+2-41	unbezeugt	ADJD	<unknown>	_	O	O	
+2-42	lassen	VVINF	lassen	_	O	O	
+2-43	,	$,	,	_	O	O	
+2-44	ohne	APPR	ohne	_	O	O	
+2-45	daß	KOUS	dass	_	O	O	
+2-46	ich	PPER	ich	_	O	O	
+2-47	dazu	PAV	dazu	_	O	O	
+2-48	glückwünschen	VVINF	<unknown>	_	O	O	
+2-49	mag	VMFIN	mögen	_	O	O	
+2-50	.	$.	.	_	O	O	
+
+#id=5
+#text=Hiesigen Personen bezeichne ich es vielmehr als ein Übelstand daß neben italienischen Gelehrten Ihnen durch die Beurtheilung qua preußischer Beamter eine geringe Klasse zUIiel die Ihnen bei andrer nicht ferner Gelegenheit gesteigert werden könne.
+5-1	Hiesigen	ADJA	hiesig	_	O	O	
+5-2	Personen	NN	Person	_	O	O	
+5-3	bezeichne	VVFIN	bezeichnen	_	O	O	
+5-4	ich	PPER	ich	_	O	O	
+5-5	es	PPER	es	_	O	O	
+5-6	vielmehr	ADV	vielmehr	_	O	O	
+5-7	als	KOKOM	als	_	O	O	
+5-8	ein	ART	eine	_	O	O	
+5-9	Übelstand	NN	Übelstand	_	O	O	
+5-10	daß	KOUS	dass	_	O	O	
+5-11	neben	APPR	neben	_	O	O	
+5-12	italienischen	ADJA	italienisch	_	O	O	
+5-13	Gelehrten	NN	Gelehrte	_	O	O	
+5-14	Ihnen	PPER	Sie	_	O	O	
+5-15	durch	APPR	durch	_	O	O	
+5-16	die	ART	die	_	O	O	
+5-17	Beurtheilung	NN	<unknown>	_	O	O	
+5-18	qua	NE	<unknown>	_	O	O	
+5-19	preußischer	ADJA	preußisch	_	O	O	
+5-20	Beamter	NN	Beamter	_	O	O	
+5-21	eine	ART	eine	_	O	O	
+5-22	geringe	ADJA	gering	_	O	O	
+5-23	Klasse	NN	Klasse	_	O	O	
+5-24	zUIiel	NE	<unknown>	_	O	O	
+5-25	die	ART	die	_	O	O	
+5-26	Ihnen	PPER	Sie	_	O	O	
+5-27	bei	APPR	bei	_	O	O	
+5-28	andrer	PIAT	andere	_	O	O	
+5-29	nicht	PTKNEG	nicht	_	O	O	
+5-30	ferner	ADJD	fern	_	O	O	
+5-31	Gelegenheit	NN	Gelegenheit	_	O	O	
+5-32	gesteigert	VVPP	steigern	_	O	O	
+5-33	werden	VAINF	werden	_	O	O	
+5-34	könne	VMFIN	können	_	O	O	
+5-35	.	$.	.	_	O	O	
+
+#id=6
+#text=Nächst diesem Adiaphonis danke ich es Ihrem Scharfsinn neben Helena .
+6-1	Nächst	APPR	nächst	_	O	O	
+6-2	diesem	PDAT	dies	_	O	O	
+6-3	Adiaphonis	NN	<unknown>	_	O	O	
+6-4	danke	VVFIN	danken	_	O	O	
+6-5	ich	PPER	ich	_	O	O	
+6-6	es	PPER	es	_	O	O	
+6-7	Ihrem	PPOSAT	ihr	_	O	O	
+6-8	Scharfsinn	NN	Scharfsinn	_	O	O	
+6-9	neben	APPR	neben	_	O	O	
+6-10	Helena	NE	Helena	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=an Ariadne gedacht zu haben.
+7-1	an	APPR	an	_	O	O	
+7-2	Ariadne	NE	Ariadne	_	O	O	
+7-3	gedacht	VVPP	denken|gedenken	_	O	O	
+7-4	zu	PTKZU	zu	_	O	O	
+7-5	haben	VAINF	haben	_	O	O	
+7-6	.	$.	.	_	O	O	
+
+#id=8
+#text=An die bekannte Stelle Hygin Astronomica denke ich selten mehr, seit Inghirani sie einem so durchgedroschen und verleidet hat.
+8-1	An	APPR	an	_	O	O	
+8-2	die	ART	die	_	O	O	
+8-3	bekannte	ADJA	bekannt	_	O	O	
+8-4	Stelle	NN	Stelle	_	O	O	
+8-5	Hygin	NE	Hygin	_	O	O	
+8-6	Astronomica	NE	<unknown>	_	O	O	
+8-7	denke	VVFIN	denken	_	O	O	
+8-8	ich	PPER	ich	_	O	O	
+8-9	selten	ADJD	selten	_	O	O	
+8-10	mehr	ADV	mehr	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	seit	APPR	seit	_	O	O	
+8-13	Inghirani	NE	<unknown>	_	O	O	
+8-14	sie	PPER	sie	_	O	O	
+8-15	einem	PIS	eine	_	O	O	
+8-16	so	ADV	so	_	O	O	
+8-17	durchgedroschen	VVPP	durchdreschen	_	O	O	
+8-18	und	KON	und	_	O	O	
+8-19	verleidet	VVFIN	verleiden	_	O	O	
+8-20	hat	VAFIN	haben	_	O	O	
+8-21	.	$.	.	_	O	O	
+
+#id=9
+#text=Eine andre Frau als Helena hätte auch ich sehr gern in der Malafisch, - auf Ariadne aber wage ich nicht einzugehn, da in dem Mythos stets ein Kranz nämlich von Blumen gemeint und überdies im Innern der 6 Bilder nicht die entfernteste bacchische Andeutung vorhanden ist.
+9-1	Eine	ART	eine	_	O	O	
+9-2	andre	PIAT	andere	_	O	O	
+9-3	Frau	NN	Frau	_	O	O	
+9-4	als	KOKOM	als	_	O	O	
+9-5	Helena	NE	Helena	_	O	O	
+9-6	hätte	VAFIN	haben	_	O	O	
+9-7	auch	ADV	auch	_	O	O	
+9-8	ich	PPER	ich	_	O	O	
+9-9	sehr	ADV	sehr	_	O	O	
+9-10	gern	ADV	gern	_	O	O	
+9-11	in	APPR	in	_	O	O	
+9-12	der	ART	die	_	O	O	
+9-13	Malafisch	NN	<unknown>	_	O	O	
+9-14	,	$,	,	_	O	O	
+9-15	-	$(	-	_	O	O	
+9-16	auf	APPR	auf	_	O	O	
+9-17	Ariadne	NE	Ariadne	_	O	O	
+9-18	aber	ADV	aber	_	O	O	
+9-19	wage	VVFIN	wagen	_	O	O	
+9-20	ich	PPER	ich	_	O	O	
+9-21	nicht	PTKNEG	nicht	_	O	O	
+9-22	einzugehn	VVIZU	<unknown>	_	O	O	
+9-23	,	$,	,	_	O	O	
+9-24	da	KOUS	da	_	O	O	
+9-25	in	APPR	in	_	O	O	
+9-26	dem	ART	die	_	O	O	
+9-27	Mythos	NN	Mythos	_	O	O	
+9-28	stets	ADV	stets	_	O	O	
+9-29	ein	ART	eine	_	O	O	
+9-30	Kranz	NN	Kranz	_	O	O	
+9-31	nämlich	ADV	nämlich	_	O	O	
+9-32	von	APPR	von	_	O	O	
+9-33	Blumen	NN	Blume	_	O	O	
+9-34	gemeint	VVPP	meinen	_	O	O	
+9-35	und	KON	und	_	O	O	
+9-36	überdies	ADV	überdies	_	O	O	
+9-37	im	APPRART	in	_	O	O	
+9-38	Innern	NN	Innere	_	O	O	
+9-39	der	ART	die	_	O	O	
+9-40	6	CARD	6	_	O	O	
+9-41	Bilder	NN	Bild	_	O	O	
+9-42	nicht	PTKNEG	nicht	_	O	O	
+9-43	die	ART	die	_	O	O	
+9-44	entfernteste	ADJA	entfernt	_	O	O	
+9-45	bacchische	ADJA	<unknown>	_	O	O	
+9-46	Andeutung	NN	Andeutung	_	O	O	
+9-47	vorhanden	ADJD	vorhanden	_	O	O	
+9-48	ist	VAFIN	sein	_	O	O	
+9-49	.	$.	.	_	O	O	
+
+#id=10
+#text=Krause wird an die groß-griechischen Münzen neu
+10-1	Krause	NE	Krause	_	O	O	
+10-2	wird	VAFIN	werden	_	O	O	
+10-3	an	APPR	an	_	O	O	
+10-4	die	ART	die	_	O	O	
+10-5	groß-griechischen	ADJA	<unknown>	_	O	O	
+10-6	Münzen	NN	Münze	_	O	O	
+10-7	neu	ADJD	neu	_	O	O	
+

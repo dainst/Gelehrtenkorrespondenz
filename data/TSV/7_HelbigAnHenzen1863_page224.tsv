@@ -1,0 +1,249 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Helbig an Henzen Siena, 20. August 1874 habe.
+1-1	2	CARD	2	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	habe	VAFIN	haben	_	O	O	
+1-12	.	$.	.	_	O	O	
+
+#id=2
+#text=Dabei sind viele für Brunn nothwendige Urnen.
+2-1	Dabei	PAV	dabei	_	O	O	
+2-2	sind	VAFIN	sein	_	O	O	
+2-3	viele	PIS	viele	_	O	O	
+2-4	für	APPR	für	_	O	O	
+2-5	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-6	nothwendige	ADJA	<unknown>	_	O	O	
+2-7	Urnen	NN	Urne	_	B-webanno.custom.LetterEntity_	B-OBJ	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Übrigens wird es mit Gamurrini's athenischer Reise wirklich ernst.
+3-1	Übrigens	ADV	übrigens	_	O	O	
+3-2	wird	VAFIN	werden	_	O	O	
+3-3	es	PPER	es	_	O	O	
+3-4	mit	APPR	mit	_	O	O	
+3-5	Gamurrini's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	athenischer	ADJA	<unknown>	_	O	O	
+3-7	Reise	NN	Reise	_	O	O	
+3-8	wirklich	ADJD	wirklich	_	O	O	
+3-9	ernst	PTKVZ	ernst	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Gestern war ich in S. Gimignano: einige etruskische Gräber unerheblichen Inhalts, lediglich für statistische Topographie des Etruskerthums interessant.
+4-1	Gestern	ADV	gestern	_	O	O	
+4-2	war	VAFIN	sein	_	O	O	
+4-3	ich	PPER	ich	_	O	O	
+4-4	in	APPR	in	_	O	O	
+4-5	S.	NE	S.	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-6	Gimignano	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+4-7	:	$.	:	_	O	O	
+4-8	einige	PIAT	einige	_	O	O	
+4-9	etruskische	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-10	Gräber	NN	Grab	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-11	unerheblichen	ADJA	unerheblich	_	O	O	
+4-12	Inhalts	NN	Inhalt	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	lediglich	ADV	lediglich	_	O	O	
+4-15	für	APPR	für	_	O	O	
+4-16	statistische	ADJA	statistisch	_	O	O	
+4-17	Topographie	NN	Topographie	_	O	O	
+4-18	des	ART	die	_	O	O	
+4-19	Etruskerthums	NN	<unknown>	_	O	O	
+4-20	interessant	ADJD	interessant	_	O	O	
+4-21	.	$.	.	_	O	O	
+
+#id=5
+#text=Gegen Lepsius Vorgehen müssen wir doch protestiren.
+5-1	Gegen	APPR	gegen	_	O	O	
+5-2	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	Vorgehen	NN	Vorgehen	_	O	O	
+5-4	müssen	VMFIN	müssen	_	O	O	
+5-5	wir	PPER	wir	_	O	O	
+5-6	doch	ADV	doch	_	O	O	
+5-7	protestiren	NN	<unknown>	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Seien Sie so gut und und fassen Sie den Protest ab.
+6-1	Seien	VAFIN	sein	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	so	ADV	so	_	O	O	
+6-4	gut	ADJD	gut	_	O	O	
+6-5	und	KON	und	_	O	O	
+6-6	und	KON	und	_	O	O	
+6-7	fassen	VVFIN	fassen	_	O	O	
+6-8	Sie	PPER	Sie	_	O	O	
+6-9	den	ART	die	_	O	O	
+6-10	Protest	NN	Protest	_	O	O	
+6-11	ab	PTKVZ	ab	_	O	O	
+6-12	.	$.	.	_	O	O	
+
+#id=7
+#text=Je energischer er ausfällt, mit um so größerem Vergnügen werde ich ihn unterzeichnen.
+7-1	Je	ADV	je	_	O	O	
+7-2	energischer	ADJD	energisch	_	O	O	
+7-3	er	PPER	er	_	O	O	
+7-4	ausfällt	VVFIN	ausfallen	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	mit	APPR	mit	_	O	O	
+7-7	um	APPR	um	_	O	O	
+7-8	so	ADV	so	_	O	O	
+7-9	größerem	ADJA	groß	_	O	O	
+7-10	Vergnügen	NN	Vergnügen	_	O	O	
+7-11	werde	VAFIN	werden	_	O	O	
+7-12	ich	PPER	ich	_	O	O	
+7-13	ihn	PPER	er	_	O	O	
+7-14	unterzeichnen	VVINF	unterzeichnen	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=Wenn wir in dieser Weise von der vorgesetzten Behörde behandelt werden, dann ist es wahrlich nicht zu verwundern, daß auch untergeordnete Individuen wie Schulz auf unseren Nasen herum spielen.
+8-1	Wenn	KOUS	wenn	_	O	O	
+8-2	wir	PPER	wir	_	O	O	
+8-3	in	APPR	in	_	O	O	
+8-4	dieser	PDAT	dies	_	O	O	
+8-5	Weise	NN	Weise	_	O	O	
+8-6	von	APPR	von	_	O	O	
+8-7	der	ART	die	_	O	O	
+8-8	vorgesetzten	ADJA	vorgesetzt	_	O	O	
+8-9	Behörde	NN	Behörde	_	O	O	
+8-10	behandelt	VVPP	behandeln	_	O	O	
+8-11	werden	VAFIN	werden	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	dann	ADV	dann	_	O	O	
+8-14	ist	VAFIN	sein	_	O	O	
+8-15	es	PPER	es	_	O	O	
+8-16	wahrlich	ADV	wahrlich	_	O	O	
+8-17	nicht	PTKNEG	nicht	_	O	O	
+8-18	zu	PTKZU	zu	_	O	O	
+8-19	verwundern	VVINF	verwundern	_	O	O	
+8-20	,	$,	,	_	O	O	
+8-21	daß	KOUS	dass	_	O	O	
+8-22	auch	ADV	auch	_	O	O	
+8-23	untergeordnete	ADJA	untergeordnet	_	O	O	
+8-24	Individuen	NN	Individuum	_	O	O	
+8-25	wie	KOKOM	wie	_	O	O	
+8-26	Schulz	NE	Schulz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-27	auf	APPR	auf	_	O	O	
+8-28	unseren	PPOSAT	unser	_	O	O	
+8-29	Nasen	NN	Nase	_	O	O	
+8-30	herum	APZR	herum	_	O	O	
+8-31	spielen	VVFIN	spielen	_	O	O	
+8-32	.	$.	.	_	O	O	
+
+#id=9
+#text=Mau schickte mir einige Zeilen Polemik gegen Mommsens Auffassung der Zeit des Ripostiglio.
+9-1	Mau	NE	Mau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	schickte	VVFIN	schicken	_	O	O	
+9-3	mir	PPER	ich	_	O	O	
+9-4	einige	PIAT	einige	_	O	O	
+9-5	Zeilen	NN	Zeile	_	O	O	
+9-6	Polemik	NN	Polemik	_	O	O	
+9-7	gegen	APPR	gegen	_	O	O	
+9-8	Mommsens	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-9	Auffassung	NN	Auffassung	_	O	O	
+9-10	der	ART	die	_	O	O	
+9-11	Zeit	NN	Zeit	_	O	O	
+9-12	des	ART	die	_	O	O	
+9-13	Ripostiglio	NN	<unknown>	_	O	O	
+9-14	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich bin hier von allen wissenschaftlichen Hilfsmitteln entblößt und außer Stande, mir ein Urtheil über die Richtigkeit des Urtheils von Mommsen und der Entgegnung Maus zu bilden, und muß dabei bitten, die Publication unseres Artikels bis zu meiner Rückkehr nach Rom zu verschieben.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	bin	VAFIN	sein	_	O	O	
+10-3	hier	ADV	hier	_	O	O	
+10-4	von	APPR	von	_	O	O	
+10-5	allen	PIAT	alle	_	O	O	
+10-6	wissenschaftlichen	ADJA	wissenschaftlich	_	O	O	
+10-7	Hilfsmitteln	NN	Hilfsmittel	_	O	O	
+10-8	entblößt	VVPP	entblößen	_	O	O	
+10-9	und	KON	und	_	O	O	
+10-10	außer	APPR	außer	_	O	O	
+10-11	Stande	NN	Stand	_	O	O	
+10-12	,	$,	,	_	O	O	
+10-13	mir	PRF	ich	_	O	O	
+10-14	ein	ART	eine	_	O	O	
+10-15	Urtheil	NN	<unknown>	_	O	O	
+10-16	über	APPR	über	_	O	O	
+10-17	die	ART	die	_	O	O	
+10-18	Richtigkeit	NN	Richtigkeit	_	O	O	
+10-19	des	ART	die	_	O	O	
+10-20	Urtheils	NN	<unknown>	_	O	O	
+10-21	von	APPR	von	_	O	O	
+10-22	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-23	und	KON	und	_	O	O	
+10-24	der	ART	die	_	O	O	
+10-25	Entgegnung	NN	Entgegnung	_	O	O	
+10-26	Maus	NE	Maus	_	O	O	
+10-27	zu	PTKZU	zu	_	O	O	
+10-28	bilden	VVINF	bilden	_	O	O	
+10-29	,	$,	,	_	O	O	
+10-30	und	KON	und	_	O	O	
+10-31	muß	VMFIN	müssen	_	O	O	
+10-32	dabei	PAV	dabei	_	O	O	
+10-33	bitten	VVINF	bitten	_	O	O	
+10-34	,	$,	,	_	O	O	
+10-35	die	ART	die	_	O	O	
+10-36	Publication	NN	<unknown>	_	O	O	
+10-37	unseres	PPOSAT	unser	_	O	O	
+10-38	Artikels	NN	Artikel	_	O	O	
+10-39	bis	KON	bis	_	O	O	
+10-40	zu	APPR	zu	_	O	O	
+10-41	meiner	PPOSAT	mein	_	O	O	
+10-42	Rückkehr	NN	Rückkehr	_	O	O	
+10-43	nach	APPR	nach	_	O	O	
+10-44	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-45	zu	PTKZU	zu	_	O	O	
+10-46	verschieben	VVINF	verschieben	_	O	O	
+10-47	.	$.	.	_	O	O	
+
+#id=11
+#text=Um die Sache zu beschleunigen, schlug Mau mir vor, er wolle allein die Entgegnung unterzeichnen.
+11-1	Um	KOUI	um	_	O	O	
+11-2	die	ART	die	_	O	O	
+11-3	Sache	NN	Sache	_	O	O	
+11-4	zu	PTKZU	zu	_	O	O	
+11-5	beschleunigen	VVINF	beschleunigen	_	O	O	
+11-6	,	$,	,	_	O	O	
+11-7	schlug	VVFIN	schlagen	_	O	O	
+11-8	Mau	NE	Mau	_	O	O	
+11-9	mir	PPER	ich	_	O	O	
+11-10	vor	PTKVZ	vor	_	O	O	
+11-11	,	$,	,	_	O	O	
+11-12	er	PPER	er	_	O	O	
+11-13	wolle	VMFIN	wollen	_	O	O	
+11-14	allein	ADV	allein	_	O	O	
+11-15	die	ART	die	_	O	O	
+11-16	Entgegnung	NN	Entgegnung	_	O	O	
+11-17	unterzeichnen	VVINF	unterzeichnen	_	O	O	
+11-18	.	$.	.	_	O	O	
+
+#id=12
+#text=Dies geht aber doch nicht; denn dieses Zurücktreten meiner Seits, wo es sich
+12-1	Dies	PDS	dies	_	O	O	
+12-2	geht	VVFIN	gehen	_	O	O	
+12-3	aber	ADV	aber	_	O	O	
+12-4	doch	ADV	doch	_	O	O	
+12-5	nicht	PTKNEG	nicht	_	O	O	
+12-6	;	$.	;	_	O	O	
+12-7	denn	KON	denn	_	O	O	
+12-8	dieses	PDAT	dies	_	O	O	
+12-9	Zurücktreten	NN	Zurücktreten	_	O	O	
+12-10	meiner	PPOSAT	mein	_	O	O	
+12-11	Seits	NN	<unknown>	_	O	O	
+12-12	,	$,	,	_	O	O	
+12-13	wo	PWAV	wo	_	O	O	
+12-14	es	PPER	es	_	O	O	
+12-15	sich	PRF	sich	_	O	O	
+

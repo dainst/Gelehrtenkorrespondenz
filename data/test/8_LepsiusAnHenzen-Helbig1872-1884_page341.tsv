@@ -1,0 +1,196 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=277 Lepsius an Henzen Berlin, 17. April 1879 g. 22/4 79 Berlin, d. 17. Apr.
+1-1	277	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	17	CARD	17	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1879	CARD	1879	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	22/4	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	79	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	,	$,	,	_	O	O	
+1-16	d.	ART	d.	_	O	O	
+1-17	17	CARD	17	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-19	Apr.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=2
+#text=1879 Verehrtester Freund Die jetzt hier anwesenden Mitglieder der Central Direktion haben heute nachträglich noch beschlossen, den Geh.
+2-1	1879	CARD	1879	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Verehrtester	NN	<unknown>	_	O	O	
+2-3	Freund	NE	Freund	_	O	O	
+2-4	Die	ART	die	_	O	O	
+2-5	jetzt	ADV	jetzt	_	O	O	
+2-6	hier	ADV	hier	_	O	O	
+2-7	anwesenden	ADJA	anwesend	_	O	O	
+2-8	Mitglieder	NN	Mitglied	_	O	O	
+2-9	der	ART	die	_	O	O	
+2-10	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-11	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+2-12	haben	VAFIN	haben	_	O	O	
+2-13	heute	ADV	heute	_	O	O	
+2-14	nachträglich	ADJD	nachträglich	_	O	O	
+2-15	noch	ADV	noch	_	O	O	
+2-16	beschlossen	VVPP	beschließen	_	O	O	
+2-17	,	$,	,	_	O	O	
+2-18	den	ART	die	_	O	O	
+2-19	Geh	VVIMP	gehen	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Leg.
+3-1	Leg.	NE	<unknown>	_	O	O	
+
+#id=4
+#text=Rath I.
+4-1	Rath	NE	Rath	_	O	O	
+4-2	I.	NE	I.	_	O	O	
+
+#id=5
+#text=V. von Tasmund, den mehrjährigen Referenten über das Institut im Auswärtigen Amt Mitglied der Archäologischen Gesellschaft, den Sie ja von Rom her kennen, zum membro ordinario zu erwählen.
+5-1	V.	NE	V.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-3	Tasmund	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-4	,	$,	,	_	O	O	
+5-5	den	ART	die	_	O	O	
+5-6	mehrjährigen	ADJA	mehrjährig	_	O	O	
+5-7	Referenten	NN	Referent	_	O	O	
+5-8	über	APPR	über	_	O	O	
+5-9	das	ART	die	_	O	O	
+5-10	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-11	im	APPRART	in	_	O	O	
+5-12	Auswärtigen	ADJA	auswärtig	_	O	O	
+5-13	Amt	NN	Amt	_	O	O	
+5-14	Mitglied	NN	Mitglied	_	O	O	
+5-15	der	ART	die	_	O	O	
+5-16	Archäologischen	ADJA	archäologisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-17	Gesellschaft	NN	Gesellschaft	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-18	,	$,	,	_	O	O	
+5-19	den	PRELS	die	_	O	O	
+5-20	Sie	PPER	Sie	_	O	O	
+5-21	ja	ADV	ja	_	O	O	
+5-22	von	APPR	von	_	O	O	
+5-23	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-24	her	PTKVZ	her	_	O	O	
+5-25	kennen	VVFIN	kennen	_	O	O	
+5-26	,	$,	,	_	O	O	
+5-27	zum	APPRART	zu	_	O	O	
+5-28	membro	NN	<unknown>	_	O	O	
+5-29	ordinario	NN	<unknown>	_	O	O	
+5-30	zu	PTKZU	zu	_	O	O	
+5-31	erwählen	VVINF	erwählen	_	O	O	
+5-32	.	$.	.	_	O	O	
+
+#id=6
+#text=Wollen Sie also so gut sein seinen Namen für den 21. n d. in die Liste mit aufzunehmen und vite zu präkonisiren.
+6-1	Wollen	VMFIN	wollen	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	also	ADV	also	_	O	O	
+6-4	so	ADV	so	_	O	O	
+6-5	gut	ADJD	gut	_	O	O	
+6-6	sein	VAINF	sein	_	O	O	
+6-7	seinen	PPOSAT	sein	_	O	O	
+6-8	Namen	NN	Name	_	O	O	
+6-9	für	APPR	für	_	O	O	
+6-10	den	ART	die	_	O	O	
+6-11	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-13	n	VVFIN	<unknown>	_	O	O	
+6-14	d.	PDS	d.	_	O	O	
+6-15	in	APPR	in	_	O	O	
+6-16	die	ART	die	_	O	O	
+6-17	Liste	NN	Liste	_	O	O	
+6-18	mit	PTKVZ	mit	_	O	O	
+6-19	aufzunehmen	VVIZU	aufnehmen	_	O	O	
+6-20	und	KON	und	_	O	O	
+6-21	vite	VVFIN	<unknown>	_	O	O	
+6-22	zu	APPR	zu	_	O	O	
+6-23	präkonisiren	NN	<unknown>	_	O	O	
+6-24	.	$.	.	_	O	O	
+
+#id=7
+#text=Da solche Nachzügler leicht sich verlieren, bitte ich ein Auge auf den rechtzeitigen Einschub zu haben.
+7-1	Da	ADV	da	_	O	O	
+7-2	solche	PIAT	solche	_	O	O	
+7-3	Nachzügler	NN	Nachzügler	_	O	O	
+7-4	leicht	ADJD	leicht	_	O	O	
+7-5	sich	PRF	sich	_	O	O	
+7-6	verlieren	VVFIN	verlieren	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	bitte	VVFIN	bitten	_	O	O	
+7-9	ich	PPER	ich	_	O	O	
+7-10	ein	ART	eine	_	O	O	
+7-11	Auge	NN	Auge	_	O	O	
+7-12	auf	APPR	auf	_	O	O	
+7-13	den	ART	die	_	O	O	
+7-14	rechtzeitigen	ADJA	rechtzeitig	_	O	O	
+7-15	Einschub	NN	Einschub	_	O	O	
+7-16	zu	PTKZU	zu	_	O	O	
+7-17	haben	VAINF	haben	_	O	O	
+7-18	.	$.	.	_	O	O	
+
+#id=8
+#text=Hier wird das Diplom mit den andern am 21. n übersendet werden.
+8-1	Hier	ADV	hier	_	O	O	
+8-2	wird	VAFIN	werden	_	O	O	
+8-3	das	ART	die	_	O	O	
+8-4	Diplom	NN	Diplom	_	O	O	
+8-5	mit	APPR	mit	_	O	O	
+8-6	den	ART	die	_	O	O	
+8-7	andern	PIS	andere	_	O	O	
+8-8	am	APPRART	an	_	O	O	
+8-9	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+8-11	n	ADJD	<unknown>	_	O	O	
+8-12	übersendet	VVPP	übersenden	_	O	O	
+8-13	werden	VAFIN	werden	_	O	O	
+8-14	.	$.	.	_	O	O	
+
+#id=9
+#text=Die Diplome, die ich Ihnen per Post angekündigt hatte, werden nun doch durch G. R.
+9-1	Die	ART	die	_	O	O	
+9-2	Diplome	NN	Diplom	_	O	O	
+9-3	,	$,	,	_	O	O	
+9-4	die	PRELS	die	_	O	O	
+9-5	ich	PPER	ich	_	O	O	
+9-6	Ihnen	PPER	Sie	_	O	O	
+9-7	per	APPR	per	_	O	O	
+9-8	Post	NN	Post	_	O	O	
+9-9	angekündigt	VVPP	ankündigen	_	O	O	
+9-10	hatte	VAFIN	haben	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	werden	VAFIN	werden	_	O	O	
+9-13	nun	ADV	nun	_	O	O	
+9-14	doch	ADV	doch	_	O	O	
+9-15	durch	APPR	durch	_	O	O	
+9-16	G.	NE	G.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-17	R.	NE	R.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+
+#id=10
+#text=Schöne persönlich überbracht, der gestern von aier abgereist ist.
+10-1	Schöne	NN	Schöne	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	persönlich	ADJD	persönlich	_	O	O	
+10-3	überbracht	VVPP	überbringen	_	O	O	
+10-4	,	$,	,	_	O	O	
+10-5	der	PRELS	die	_	O	O	
+10-6	gestern	ADV	gestern	_	O	O	
+10-7	von	APPR	von	_	O	O	
+10-8	aier	ADJD	<unknown>	_	O	O	
+10-9	abgereist	VVPP	abreisen	_	O	O	
+10-10	ist	VAFIN	sein	_	O	O	
+10-11	.	$.	.	_	O	O	
+
+#id=11
+#text=Der Ihrige R Lepsius
+11-1	Der	ART	die	_	O	O	
+11-2	Ihrige	PPOSAT	ihrige	_	O	O	
+11-3	R	NN	R	_	O	O	
+11-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

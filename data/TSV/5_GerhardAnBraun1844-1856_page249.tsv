@@ -1,0 +1,204 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Mein theurer Freund.
+1-1	Mein	PPOSAT	mein	_	O	O	
+1-2	theurer	ADJA	<unknown>	_	O	O	
+1-3	Freund	NN	Freund	_	O	O	
+1-4	.	$.	.	_	O	O	
+
+#id=2
+#text=Gerhard an Braun Berlin, 26. Oktober 1848 g. 6/XI 48 r. 9/XII 48 Berlin 26 Okt 48 Dr. Leopold Schmidt, Ritschls Zögling irl Philologie und in Archäologie der meinige, sollte Ihnen wol schon früher genannt worden sein.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1848	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	g.	ADJA	<unknown>	_	O	O	
+2-11	6/XI	NN	<unknown>	_	O	O	
+2-12	48	CARD	48	_	O	O	
+2-13	r.	VVFIN	<unknown>	_	O	O	
+2-14	9/XII	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-15	48	CARD	48	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-17	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-18	Okt	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-19	48	CARD	48	_	O	O	
+2-20	Dr.	NN	Dr.	_	O	O	
+2-21	Leopold	NE	Leopold	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-22	Schmidt	NE	Schmidt	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-23	,	$,	,	_	O	O	
+2-24	Ritschls	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-25	Zögling	NN	Zögling	_	O	O	
+2-26	irl	ADJA	<unknown>	_	O	O	
+2-27	Philologie	NN	Philologie	_	O	O	
+2-28	und	KON	und	_	O	O	
+2-29	in	APPR	in	_	O	O	
+2-30	Archäologie	NN	Archäologie	_	O	O	
+2-31	der	ART	die	_	O	O	
+2-32	meinige	PPOSS	meinig	_	O	O	
+2-33	,	$,	,	_	O	O	
+2-34	sollte	VMFIN	sollen	_	O	O	
+2-35	Ihnen	PPER	Sie	_	O	O	
+2-36	wol	ADJD	<unknown>	_	O	O	
+2-37	schon	ADV	schon	_	O	O	
+2-38	früher	ADJD	früh	_	O	O	
+2-39	genannt	VVPP	nennen	_	O	O	
+2-40	worden	VAPP	werden	_	O	O	
+2-41	sein	VAINF	sein	_	O	O	
+2-42	.	$.	.	_	O	O	
+
+#id=4
+#text=Den akademischen Monatsbericht für Scarpellini besorge ich heute; Usedom kann nicht mehr lange hier verweilen und nimmt ihn wol mit.
+4-1	Den	ART	die	_	O	O	
+4-2	akademischen	ADJA	akademisch	_	O	O	
+4-3	Monatsbericht	NN	Monatsbericht	_	O	O	
+4-4	für	APPR	für	_	O	O	
+4-5	Scarpellini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-6	besorge	VVFIN	besorgen	_	O	O	
+4-7	ich	PPER	ich	_	O	O	
+4-8	heute	ADV	heute	_	O	O	
+4-9	;	$.	;	_	O	O	
+4-10	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-11	kann	VMFIN	können	_	O	O	
+4-12	nicht	PTKNEG	nicht	_	O	O	
+4-13	mehr	ADV	mehr	_	O	O	
+4-14	lange	ADV	lange	_	O	O	
+4-15	hier	ADV	hier	_	O	O	
+4-16	verweilen	VVINF	verweilen	_	O	O	
+4-17	und	KON	und	_	O	O	
+4-18	nimmt	VVFIN	nehmen	_	O	O	
+4-19	ihn	PPER	er	_	O	O	
+4-20	wol	ADJD	<unknown>	_	O	O	
+4-21	mit	PTKVZ	mit	_	O	O	
+4-22	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihr Text zur Apotheose Homeri wäre längst gedruckt, wenn Sie mich tanti geglaubt hätten.
+5-1	Ihr	PPOSAT	ihr	_	O	O	
+5-2	Text	NN	Text	_	O	O	
+5-3	zur	APPRART	zu	_	O	O	
+5-4	Apotheose	NN	Apotheose	_	O	O	
+5-5	Homeri	NE	<unknown>	_	O	O	
+5-6	wäre	VAFIN	sein	_	O	O	
+5-7	längst	ADV	längst	_	O	O	
+5-8	gedruckt	VVPP	drucken	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	wenn	KOUS	wenn	_	O	O	
+5-11	Sie	PPER	Sie	_	O	O	
+5-12	mich	PRF	ich	_	O	O	
+5-13	tanti	ADJD	<unknown>	_	O	O	
+5-14	geglaubt	VVPP	glauben	_	O	O	
+5-15	hätten	VAFIN	haben	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Otto Jahn muß aber aus seinen Kalamitäten nun rückgängig nach Leipzig sein; er hätte Ihnen wol wenigstens selbst schreiben können.
+6-1	Otto	NE	Otto	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	Jahn	NE	Jahn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-3	muß	VMFIN	müssen	_	O	O	
+6-4	aber	ADV	aber	_	O	O	
+6-5	aus	APPR	aus	_	O	O	
+6-6	seinen	PPOSAT	sein	_	O	O	
+6-7	Kalamitäten	NN	Kalamität	_	O	O	
+6-8	nun	ADV	nun	_	O	O	
+6-9	rückgängig	ADJD	rückgängig	_	O	O	
+6-10	nach	APPR	nach	_	O	O	
+6-11	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-12	sein	VAINF	sein	_	O	O	
+6-13	;	$.	;	_	O	O	
+6-14	er	PPER	er	_	O	O	
+6-15	hätte	VAFIN	haben	_	O	O	
+6-16	Ihnen	PPER	Sie	_	O	O	
+6-17	wol	ADJD	<unknown>	_	O	O	
+6-18	wenigstens	ADV	wenigstens	_	O	O	
+6-19	selbst	ADV	selbst	_	O	O	
+6-20	schreiben	VVINF	schreiben	_	O	O	
+6-21	können	VMINF	können	_	O	O	
+6-22	.	$.	.	_	O	O	
+
+#id=7
+#text=Daß aber der Buchhändler der Ihren Text in 8 Tagen druckt Ihre Abdrücke vorher verlangte um dann sogeleich zu versenden, wundert mich nicht.
+7-1	Daß	KOUS	dass	_	O	O	
+7-2	aber	ADV	aber	_	O	O	
+7-3	der	ART	die	_	O	O	
+7-4	Buchhändler	NN	Buchhändler	_	O	O	
+7-5	der	ART	die	_	O	O	
+7-6	Ihren	PPOSAT	ihr	_	O	O	
+7-7	Text	NN	Text	_	O	O	
+7-8	in	APPR	in	_	O	O	
+7-9	8	CARD	8	_	O	O	
+7-10	Tagen	NN	Tag	_	O	O	
+7-11	druckt	VVFIN	drucken	_	O	O	
+7-12	Ihre	PPOSAT	ihr	_	O	O	
+7-13	Abdrücke	NN	Abdruck	_	O	O	
+7-14	vorher	ADV	vorher	_	O	O	
+7-15	verlangte	VVFIN	verlangen	_	O	O	
+7-16	um	APPR	um	_	O	O	
+7-17	dann	ADV	dann	_	O	O	
+7-18	sogeleich	ADJD	<unknown>	_	O	O	
+7-19	zu	PTKZU	zu	_	O	O	
+7-20	versenden	VVINF	versenden	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	wundert	VVFIN	wundern	_	O	O	
+7-23	mich	PRF	ich	_	O	O	
+7-24	nicht	PTKNEG	nicht	_	O	O	
+7-25	.	$.	.	_	O	O	
+
+#id=8
+#text=Daß das Institut noch Geld hat und Ihnen beiden der gute Muth nicht ausgeht wird nöthig aber hoffentlich auch hinlänglich sein um das Institut zu erhalten.
+8-1	Daß	KOUS	dass	_	O	O	
+8-2	das	ART	die	_	O	O	
+8-3	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-4	noch	ADV	noch	_	O	O	
+8-5	Geld	NN	Geld	_	O	O	
+8-6	hat	VAFIN	haben	_	O	O	
+8-7	und	KON	und	_	O	O	
+8-8	Ihnen	PPER	Sie	_	O	O	
+8-9	beiden	PIAT	beide	_	O	O	
+8-10	der	ART	die	_	O	O	
+8-11	gute	ADJA	gut	_	O	O	
+8-12	Muth	NE	<unknown>	_	O	O	
+8-13	nicht	PTKNEG	nicht	_	O	O	
+8-14	ausgeht	VVFIN	ausgehen	_	O	O	
+8-15	wird	VAFIN	werden	_	O	O	
+8-16	nöthig	ADJD	<unknown>	_	O	O	
+8-17	aber	KON	aber	_	O	O	
+8-18	hoffentlich	ADV	hoffentlich	_	O	O	
+8-19	auch	ADV	auch	_	O	O	
+8-20	hinlänglich	ADJD	hinlänglich	_	O	O	
+8-21	sein	VAINF	sein	_	O	O	
+8-22	um	APPR	um	_	O	O	
+8-23	das	ART	die	_	O	O	
+8-24	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-25	zu	PTKZU	zu	_	O	O	
+8-26	erhalten	VVINF	erhalten	_	O	O	
+8-27	.	$.	.	_	O	O	
+
+#id=9
+#text=Sorgen Sie aber Bunsens wegen.
+9-1	Sorgen	VVFIN	sorgen	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	aber	ADV	aber	_	O	O	
+9-4	Bunsens	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	wegen	APPO	wegen	_	O	O	
+9-6	.	$.	.	_	O	O	
+
+#id=10
+#text=Für baldmöglichste Liquidation, und säumen Sie nicht sobald Usedom zurück ist
+10-1	Für	APPR	für	_	O	O	
+10-2	baldmöglichste	ADJA	<unknown>	_	O	O	
+10-3	Liquidation	NN	Liquidation	_	O	O	
+10-4	,	$,	,	_	O	O	
+10-5	und	KON	und	_	O	O	
+10-6	säumen	VVFIN	säumen	_	O	O	
+10-7	Sie	PPER	Sie	_	O	O	
+10-8	nicht	PTKNEG	nicht	_	O	O	
+10-9	sobald	KOUS	sobald	_	O	O	
+10-10	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-11	zurück	PTKVZ	zurück	_	O	O	
+10-12	ist	VAFIN	sein	_	O	O	
+

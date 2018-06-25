@@ -1,0 +1,343 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=26 5/11/55 Henzen an Gerhard Ihr 1.
+1-1	26	CARD	26	_	O	O	
+1-2	5/11/55	CARD	@card@	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Ihr	PPOSAT	ihr	_	O	O	
+1-7	1	CARD	1	_	O	O	
+1-8	.	$.	.	_	O	O	
+
+#id=2
+#text=Brief vom 25t~n, verehrter Herr Professor, brachte ja recht erfreuliche Nachrichten: Der Auszug in den Akademieberichten leistet Alles, was zu wünschen ist.
+2-1	Brief	NN	Brief	_	O	O	
+2-2	vom	APPRART	von	_	O	O	
+2-3	25t~n	NE	<unknown>	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	verehrter	ADJA	verehrt	_	O	O	
+2-6	Herr	NN	Herr	_	O	O	
+2-7	Professor	NN	Professor	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	brachte	VVFIN	bringen	_	O	O	
+2-10	ja	ADV	ja	_	O	O	
+2-11	recht	ADJD	recht	_	O	O	
+2-12	erfreuliche	ADJA	erfreulich	_	O	O	
+2-13	Nachrichten	NN	Nachricht	_	O	O	
+2-14	:	$.	:	_	O	O	
+2-15	Der	ART	die	_	O	O	
+2-16	Auszug	NN	Auszug	_	O	O	
+2-17	in	APPR	in	_	O	O	
+2-18	den	ART	die	_	O	O	
+2-19	Akademieberichten	NN	<unknown>	_	O	O	
+2-20	leistet	VVFIN	leisten	_	O	O	
+2-21	Alles	PIS	alle	_	O	O	
+2-22	,	$,	,	_	O	O	
+2-23	was	PWS	was	_	O	O	
+2-24	zu	PTKZU	zu	_	O	O	
+2-25	wünschen	VVINF	wünschen	_	O	O	
+2-26	ist	VAFIN	sein	_	O	O	
+2-27	.	$.	.	_	O	O	
+
+#id=3
+#text=Der Reisezuschuß soll, so Gott will, gut verwendet und die Reise selbst, wofern es irgend die Gesundheit meiner Frau erlaubt, so eingerichtet werden, daß auch die Hinausreise schon einiger Maßen für das C.I.L. ersprießlich wird, nicht bloß die Rückreise u. die Breslauer Residenz.
+3-1	Der	ART	die	_	O	O	
+3-2	Reisezuschuß	NN	<unknown>	_	O	O	
+3-3	soll	VMFIN	sollen	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	so	ADV	so	_	O	O	
+3-6	Gott	NN	Gott	_	O	O	
+3-7	will	VMFIN	wollen	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	gut	ADJD	gut	_	O	O	
+3-10	verwendet	VVPP	verwenden	_	O	O	
+3-11	und	KON	und	_	O	O	
+3-12	die	ART	die	_	O	O	
+3-13	Reise	NN	Reise	_	O	O	
+3-14	selbst	ADV	selbst	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	wofern	VVFIN	<unknown>	_	O	O	
+3-17	es	PPER	es	_	O	O	
+3-18	irgend	ADV	irgend	_	O	O	
+3-19	die	ART	die	_	O	O	
+3-20	Gesundheit	NN	Gesundheit	_	O	O	
+3-21	meiner	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-22	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-23	erlaubt	VVPP	erlauben	_	O	O	
+3-24	,	$,	,	_	O	O	
+3-25	so	ADV	so	_	O	O	
+3-26	eingerichtet	VVPP	einrichten	_	O	O	
+3-27	werden	VAFIN	werden	_	O	O	
+3-28	,	$,	,	_	O	O	
+3-29	daß	KOUS	dass	_	O	O	
+3-30	auch	ADV	auch	_	O	O	
+3-31	die	ART	die	_	O	O	
+3-32	Hinausreise	NN	<unknown>	_	O	O	
+3-33	schon	ADV	schon	_	O	O	
+3-34	einiger	PIAT	einige	_	O	O	
+3-35	Maßen	NN	Maß	_	O	O	
+3-36	für	APPR	für	_	O	O	
+3-37	das	ART	die	_	O	O	
+3-38	C.I.L.	NE	<unknown>	_	O	O	
+3-39	ersprießlich	ADJD	ersprießlich	_	O	O	
+3-40	wird	VAFIN	werden	_	O	O	
+3-41	,	$,	,	_	O	O	
+3-42	nicht	PTKNEG	nicht	_	O	O	
+3-43	bloß	ADJD	bloß	_	O	O	
+3-44	die	ART	die	_	O	O	
+3-45	Rückreise	NN	Rückreise	_	O	O	
+3-46	u.	APPR	um	_	O	O	
+3-47	die	ART	die	_	O	O	
+3-48	Breslauer	NN	Breslauer	_	O	O	
+3-49	Residenz	NN	Residenz	_	O	O	
+3-50	.	$.	.	_	O	O	
+
+#id=4
+#text=Darüber läßt sich denn freilich Näheres erst später festsetzen, namentlich auch wenn ich genauer wissen werde, für wie lange Zeit mich Mommsen bei sich zu haben wünscht; denn allerlei, was für vorigen Sommer berechnet war, ist nun möglicher Weise schon von ihm beseitigt.
+4-1	Darüber	PAV	darüber	_	O	O	
+4-2	läßt	VVFIN	lassen	_	O	O	
+4-3	sich	PRF	sich	_	O	O	
+4-4	denn	ADV	denn	_	O	O	
+4-5	freilich	ADV	freilich	_	O	O	
+4-6	Näheres	NN	Nähere	_	O	O	
+4-7	erst	ADV	erst	_	O	O	
+4-8	später	ADJD	spät	_	O	O	
+4-9	festsetzen	VVINF	festsetzen	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	namentlich	ADJD	namentlich	_	O	O	
+4-12	auch	ADV	auch	_	O	O	
+4-13	wenn	KOUS	wenn	_	O	O	
+4-14	ich	PPER	ich	_	O	O	
+4-15	genauer	ADJD	genau	_	O	O	
+4-16	wissen	VVINF	wissen	_	O	O	
+4-17	werde	VAFIN	werden	_	O	O	
+4-18	,	$,	,	_	O	O	
+4-19	für	APPR	für	_	O	O	
+4-20	wie	KOUS	wie	_	O	O	
+4-21	lange	ADJA	lang	_	O	O	
+4-22	Zeit	NN	Zeit	_	O	O	
+4-23	mich	PRF	ich	_	O	O	
+4-24	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-25	bei	APPR	bei	_	O	O	
+4-26	sich	PRF	sich	_	O	O	
+4-27	zu	PTKZU	zu	_	O	O	
+4-28	haben	VAINF	haben	_	O	O	
+4-29	wünscht	VVFIN	wünschen	_	O	O	
+4-30	;	$.	;	_	O	O	
+4-31	denn	KON	denn	_	O	O	
+4-32	allerlei	PIS	allerlei	_	O	O	
+4-33	,	$,	,	_	O	O	
+4-34	was	PRELS	was	_	O	O	
+4-35	für	APPR	für	_	O	O	
+4-36	vorigen	ADJA	vorig	_	O	O	
+4-37	Sommer	NN	Sommer	_	O	O	
+4-38	berechnet	VVPP	berechnen	_	O	O	
+4-39	war	VAFIN	sein	_	O	O	
+4-40	,	$,	,	_	O	O	
+4-41	ist	VAFIN	sein	_	O	O	
+4-42	nun	ADV	nun	_	O	O	
+4-43	möglicher	ADJA	möglich	_	O	O	
+4-44	Weise	NN	Weise	_	O	O	
+4-45	schon	ADV	schon	_	O	O	
+4-46	von	APPR	von	_	O	O	
+4-47	ihm	PPER	er	_	O	O	
+4-48	beseitigt	VVPP	beseitigen	_	O	O	
+4-49	.	$.	.	_	O	O	
+
+#id=5
+#text=Abreisen müssen wir aber jeden Falls zu Ende Aprils, um der Hitze zu entgehen.
+5-1	Abreisen	NN	Abreise	_	O	O	
+5-2	müssen	VMFIN	müssen	_	O	O	
+5-3	wir	PPER	wir	_	O	O	
+5-4	aber	ADV	aber	_	O	O	
+5-5	jeden	PIAT	jede	_	O	O	
+5-6	Falls	NN	Fall	_	O	O	
+5-7	zu	APPR	zu	_	O	O	
+5-8	Ende	NN	Ende	_	O	O	
+5-9	Aprils	NN	April	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	um	KOUI	um	_	O	O	
+5-12	der	ART	die	_	O	O	
+5-13	Hitze	NN	Hitze	_	O	O	
+5-14	zu	PTKZU	zu	_	O	O	
+5-15	entgehen	VVINF	entgehen	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Es wird mir schwer in vieler Hinsicht, aber es geht nicht anders, wollen wir nicht unvorsichtig sein.
+6-1	Es	PPER	es	_	O	O	
+6-2	wird	VAFIN	werden	_	O	O	
+6-3	mir	PPER	ich	_	O	O	
+6-4	schwer	ADJD	schwer	_	O	O	
+6-5	in	APPR	in	_	O	O	
+6-6	vieler	PIAT	viele	_	O	O	
+6-7	Hinsicht	NN	Hinsicht	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	aber	KON	aber	_	O	O	
+6-10	es	PPER	es	_	O	O	
+6-11	geht	VVFIN	gehen	_	O	O	
+6-12	nicht	PTKNEG	nicht	_	O	O	
+6-13	anders	ADV	anders	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	wollen	VMFIN	wollen	_	O	O	
+6-16	wir	PPER	wir	_	O	O	
+6-17	nicht	PTKNEG	nicht	_	O	O	
+6-18	unvorsichtig	ADJD	unvorsichtig	_	O	O	
+6-19	sein	VAINF	sein	_	O	O	
+6-20	.	$.	.	_	O	O	
+
+#id=7
+#text=Die annali müssen bis dahin fertig sein, während für die diesjährigen Braun sehr entschieden an Druck in Deutschland denkt, wo ich dann in Breslau die Correctur besorgen würde.
+7-1	Die	ART	die	_	O	O	
+7-2	annali	NE	<unknown>	_	O	O	
+7-3	müssen	VMFIN	müssen	_	O	O	
+7-4	bis	KON	bis	_	O	O	
+7-5	dahin	PAV	dahin	_	O	O	
+7-6	fertig	ADJD	fertig	_	O	O	
+7-7	sein	VAINF	sein	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	während	KOUS	während	_	O	O	
+7-10	für	APPR	für	_	O	O	
+7-11	die	ART	die	_	O	O	
+7-12	diesjährigen	ADJA	diesjährig	_	O	O	
+7-13	Braun	NN	Braun	_	O	O	
+7-14	sehr	ADV	sehr	_	O	O	
+7-15	entschieden	ADJD	entschieden	_	O	O	
+7-16	an	APPR	an	_	O	O	
+7-17	Druck	NN	Druck	_	O	O	
+7-18	in	APPR	in	_	O	O	
+7-19	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-20	denkt	VVFIN	denken	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	wo	PWAV	wo	_	O	O	
+7-23	ich	PPER	ich	_	O	O	
+7-24	dann	ADV	dann	_	O	O	
+7-25	in	APPR	in	_	O	O	
+7-26	Breslau	NE	Breslau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-27	die	ART	die	_	O	O	
+7-28	Correctur	NN	<unknown>	_	O	O	
+7-29	besorgen	VVINF	besorgen	_	O	O	
+7-30	würde	VAFIN	werden	_	O	O	
+7-31	.	$.	.	_	O	O	
+
+#id=8
+#text=Vom Index, der in Gotha endlich r-gedruckt wmrd, hatte ich die erste Correctur u. habe an Wüstemann, dem ich auf Braun's Wunsch ein Diplom von hier sandte, geschrieben, Ihnen ein Exemplar der Aushängebogen zugehen zu lassen.
+8-1	Vom	APPRART	von	_	O	O	
+8-2	Index	NN	Index	_	O	O	
+8-3	,	$,	,	_	O	O	
+8-4	der	PRELS	die	_	O	O	
+8-5	in	APPR	in	_	O	O	
+8-6	Gotha	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-7	endlich	ADV	endlich	_	O	O	
+8-8	r-gedruckt	ADJD	<unknown>	_	O	O	
+8-9	wmrd	VVFIN	<unknown>	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	hatte	VAFIN	haben	_	O	O	
+8-12	ich	PPER	ich	_	O	O	
+8-13	die	ART	die	_	O	O	
+8-14	erste	ADJA	erst	_	O	O	
+8-15	Correctur	NN	<unknown>	_	O	O	
+8-16	u.	KON	und	_	O	O	
+8-17	habe	VAFIN	haben	_	O	O	
+8-18	an	APPR	an	_	O	O	
+8-19	Wüstemann	NE	Wüstemann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-20	,	$,	,	_	O	O	
+8-21	dem	PRELS	die	_	O	O	
+8-22	ich	PPER	ich	_	O	O	
+8-23	auf	APPR	auf	_	O	O	
+8-24	Braun's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-25	Wunsch	NN	Wunsch	_	O	O	
+8-26	ein	ART	eine	_	O	O	
+8-27	Diplom	NN	Diplom	_	O	O	
+8-28	von	APPR	von	_	O	O	
+8-29	hier	ADV	hier	_	O	O	
+8-30	sandte	VVFIN	senden	_	O	O	
+8-31	,	$,	,	_	O	O	
+8-32	geschrieben	VVPP	schreiben	_	O	O	
+8-33	,	$,	,	_	O	O	
+8-34	Ihnen	PPER	Sie	_	O	O	
+8-35	ein	ART	eine	_	O	O	
+8-36	Exemplar	NN	Exemplar	_	O	O	
+8-37	der	ART	die	_	O	O	
+8-38	Aushängebogen	NN	<unknown>	_	O	O	
+8-39	zugehen	VVINF	zugehen	_	O	O	
+8-40	zu	PTKZU	zu	_	O	O	
+8-41	lassen	VVINF	lassen	_	O	O	
+8-42	.	$.	.	_	O	O	
+
+#id=9
+#text=Auch werde ich in der Folge Ihnen die Aushängebogen der Annali schicken, damit uie besser au fait sind, was gewiß Niemand mehr wünscht, als ich.
+9-1	Auch	ADV	auch	_	O	O	
+9-2	werde	VAFIN	werden	_	O	O	
+9-3	ich	PPER	ich	_	O	O	
+9-4	in	APPR	in	_	O	O	
+9-5	der	ART	die	_	O	O	
+9-6	Folge	NN	Folge	_	O	O	
+9-7	Ihnen	PPER	Sie	_	O	O	
+9-8	die	ART	die	_	O	O	
+9-9	Aushängebogen	NN	<unknown>	_	O	O	
+9-10	der	ART	die	_	O	O	
+9-11	Annali	NE	<unknown>	_	O	O	
+9-12	schicken	VVINF	schicken	_	O	O	
+9-13	,	$,	,	_	O	O	
+9-14	damit	PAV	damit	_	O	O	
+9-15	uie	VVFIN	<unknown>	_	O	O	
+9-16	besser	ADJD	gut	_	O	O	
+9-17	au	ITJ	au	_	O	O	
+9-18	fait	ADJD	<unknown>	_	O	O	
+9-19	sind	VAFIN	sein	_	O	O	
+9-20	,	$,	,	_	O	O	
+9-21	was	PRELS	was	_	O	O	
+9-22	gewiß	ADJD	gewiss	_	O	O	
+9-23	Niemand	PIS	niemand	_	O	O	
+9-24	mehr	ADV	mehr	_	O	O	
+9-25	wünscht	VVFIN	wünschen	_	O	O	
+9-26	,	$,	,	_	O	O	
+9-27	als	KOKOM	als	_	O	O	
+9-28	ich	PPER	ich	_	O	O	
+9-29	.	$.	.	_	O	O	
+
+#id=10
+#text=- Von Centu für Mercklin weiß ich Nichts.
+10-1	-	$(	-	_	O	O	
+10-2	Von	APPR	von	_	O	O	
+10-3	Centu	NN	<unknown>	_	O	O	
+10-4	für	APPR	für	_	O	O	
+10-5	Mercklin	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-6	weiß	VVFIN	wissen	_	O	O	
+10-7	ich	PPER	ich	_	O	O	
+10-8	Nichts	PIS	nichts	_	O	O	
+10-9	.	$.	.	_	O	O	
+
+#id=11
+#text=Uebrigens ist Brockhaus nach wie vor Commissionär des Instituts, und es I ~ersteht sich doch wohl von selbst, dß.
+11-1	Uebrigens	NN	<unknown>	_	O	O	
+11-2	ist	VAFIN	sein	_	O	O	
+11-3	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+11-4	nach	PTKVZ	nach	_	O	O	
+11-5	wie	KOKOM	wie	_	O	O	
+11-6	vor	APPR	vor	_	O	O	
+11-7	Commissionär	NN	<unknown>	_	O	O	
+11-8	des	ART	die	_	O	O	
+11-9	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+11-10	,	$,	,	_	O	O	
+11-11	und	KON	und	_	O	O	
+11-12	es	PPER	es	_	O	O	
+11-13	I	NN	I	_	O	O	
+11-14	~ersteht	VVFIN	<unknown>	_	O	O	
+11-15	sich	PRF	sich	_	O	O	
+11-16	doch	ADV	doch	_	O	O	
+11-17	wohl	ADV	wohl	_	O	O	
+11-18	von	APPR	von	_	O	O	
+11-19	selbst	ADV	selbst	_	O	O	
+11-20	,	$,	,	_	O	O	
+11-21	dß	VVFIN	<unknown>	_	O	O	
+11-22	.	$.	.	_	O	O	
+
+#id=12
+#text=Braun XKKKR jede
+12-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	XKKKR	NE	<unknown>	_	O	O	
+12-3	jede	PIAT	jede	_	O	O	
+

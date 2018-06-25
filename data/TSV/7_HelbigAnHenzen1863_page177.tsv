@@ -1,0 +1,234 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Relbig an Renzen Rom, 13. August 1872 H g. 16/8 72 r. Roma, li 13. August 1872 Lieber Herr Professor Herzlichen Dank für Ihren freundlichen Brief und die Einlage von Mommsen.
+1-1	Relbig	ADJD	<unknown>	_	O	O	
+1-2	an	APPR	an	_	O	O	
+1-3	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	H	NN	H	_	O	O	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	16/8	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	r.	ADJA	<unknown>	_	O	O	
+1-15	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-16	,	$,	,	_	O	O	
+1-17	li	ADJD	<unknown>	_	O	O	
+1-18	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Lieber	ADJA	lieb	_	O	O	
+1-23	Herr	NN	Herr	_	O	O	
+1-24	Professor	NN	Professor	_	O	O	
+1-25	Herzlichen	ADJA	herzlich	_	O	O	
+1-26	Dank	NN	Dank	_	O	O	
+1-27	für	APPR	für	_	O	O	
+1-28	Ihren	PPOSAT	ihr	_	O	O	
+1-29	freundlichen	ADJA	freundlich	_	O	O	
+1-30	Brief	NN	Brief	_	O	O	
+1-31	und	KON	und	_	O	O	
+1-32	die	ART	die	_	O	O	
+1-33	Einlage	NN	Einlage	_	O	O	
+1-34	von	APPR	von	_	O	O	
+1-35	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-36	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich bin somit über die Entwic- .~/ kelung der Angelegenheit hinlänglich beruh~~.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	bin	VAFIN	sein	_	O	O	
+2-3	somit	ADV	somit	_	O	O	
+2-4	über	APPR	über	_	O	O	
+2-5	die	ART	die	_	O	O	
+2-6	Entwic-	TRUNC	<unknown>	_	O	O	
+2-7	.~/	ADJA	<unknown>	_	O	O	
+2-8	kelung	NN	<unknown>	_	O	O	
+2-9	der	ART	die	_	O	O	
+2-10	Angelegenheit	NN	Angelegenheit	_	O	O	
+2-11	hinlänglich	ADJD	hinlänglich	_	O	O	
+2-12	beruh~~	VVFIN	<unknown>	_	O	O	
+2-13	.	$.	.	_	O	O	
+
+#id=3
+#text=Wenn Mommsen die Aquisition vertritt, dann wird Niemand wagen, die Stimme dagegen zu erheben.
+3-1	Wenn	KOUS	wenn	_	O	O	
+3-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	die	ART	die	_	O	O	
+3-4	Aquisition	NN	<unknown>	_	O	O	
+3-5	vertritt	VVFIN	vertreten	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	dann	ADV	dann	_	O	O	
+3-8	wird	VAFIN	werden	_	O	O	
+3-9	Niemand	PIS	niemand	_	O	O	
+3-10	wagen	VVINF	wagen	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	die	ART	die	_	O	O	
+3-13	Stimme	NN	Stimme	_	O	O	
+3-14	dagegen	PAV	dagegen	_	O	O	
+3-15	zu	PTKZU	zu	_	O	O	
+3-16	erheben	VVINF	erheben	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Allerdings aber wird seine Intervention nöthig sein; denn auch die Zeilen von Lepsius, die Sie mir neulich zuschickten, waren wegen des Preises der Gegenstände etwas wehmüthig gestimmt.
+4-1	Allerdings	ADV	allerdings	_	O	O	
+4-2	aber	ADV	aber	_	O	O	
+4-3	wird	VAFIN	werden	_	O	O	
+4-4	seine	PPOSAT	sein	_	O	O	
+4-5	Intervention	NN	Intervention	_	O	O	
+4-6	nöthig	ADJD	<unknown>	_	O	O	
+4-7	sein	VAINF	sein	_	O	O	
+4-8	;	$.	;	_	O	O	
+4-9	denn	KON	denn	_	O	O	
+4-10	auch	ADV	auch	_	O	O	
+4-11	die	ART	die	_	O	O	
+4-12	Zeilen	NN	Zeile	_	O	O	
+4-13	von	APPR	von	_	O	O	
+4-14	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-15	,	$,	,	_	O	O	
+4-16	die	PRELS	die	_	O	O	
+4-17	Sie	PPER	Sie	_	O	O	
+4-18	mir	PRF	ich	_	O	O	
+4-19	neulich	ADV	neulich	_	O	O	
+4-20	zuschickten	VVFIN	zuschicken	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	waren	VAFIN	sein	_	O	O	
+4-23	wegen	APPR	wegen	_	O	O	
+4-24	des	ART	die	_	O	O	
+4-25	Preises	NN	Preis	_	O	O	
+4-26	der	ART	die	_	O	O	
+4-27	Gegenstände	NN	Gegenstand	_	O	O	
+4-28	etwas	ADV	etwas	_	O	O	
+4-29	wehmüthig	ADJD	<unknown>	_	O	O	
+4-30	gestimmt	VVPP	stimmen	_	O	O	
+4-31	.	$.	.	_	O	O	
+
+#id=5
+#text=An Adler habe ich wegen der Caeretana geschrieben, ebenso an Schöne, den ich gebeten, doch ja nicht uns im Stiche zu lassen.
+5-1	An	APPR	an	_	O	O	
+5-2	Adler	NE	Adler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	habe	VAFIN	haben	_	O	O	
+5-4	ich	PPER	ich	_	O	O	
+5-5	wegen	APPR	wegen	_	O	O	
+5-6	der	ART	die	_	O	O	
+5-7	Caeretana	NE	<unknown>	_	O	O	
+5-8	geschrieben	VVPP	schreiben	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	ebenso	ADV	ebenso	_	O	O	
+5-11	an	APPR	an	_	O	O	
+5-12	Schöne	NN	Schöne	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-13	,	$,	,	_	O	O	
+5-14	den	PRELS	die	_	O	O	
+5-15	ich	PPER	ich	_	O	O	
+5-16	gebeten	VVPP	bitten	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	doch	KON	doch	_	O	O	
+5-19	ja	ADV	ja	_	O	O	
+5-20	nicht	PTKNEG	nicht	_	O	O	
+5-21	uns	PPER	wir	_	O	O	
+5-22	im	APPRART	in	_	O	O	
+5-23	Stiche	NN	Stich	_	O	O	
+5-24	zu	PTKZU	zu	_	O	O	
+5-25	lassen	VVINF	lassen	_	O	O	
+5-26	.	$.	.	_	O	O	
+
+#id=6
+#text=Übrigens ist seine Ciste nur eine Tafel.
+6-1	Übrigens	ADV	übrigens	_	O	O	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	seine	PPOSAT	sein	_	O	O	
+6-4	Ciste	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-5	nur	ADV	nur	_	O	O	
+6-6	eine	ART	eine	_	O	O	
+6-7	Tafel	NN	Tafel	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=Diese Lücke wäre daher durch Einschiebung der Silberschale wohl zu decken.
+7-1	Diese	PDAT	dies	_	O	O	
+7-2	Lücke	NN	Lücke	_	O	O	
+7-3	wäre	VAFIN	sein	_	O	O	
+7-4	daher	PAV	daher	_	O	O	
+7-5	durch	APPR	durch	_	O	O	
+7-6	Einschiebung	NN	<unknown>	_	O	O	
+7-7	der	ART	die	_	O	O	
+7-8	Silberschale	NN	Silberschale	_	O	O	
+7-9	wohl	ADV	wohl	_	O	O	
+7-10	zu	PTKZU	zu	_	O	O	
+7-11	decken	VVINF	decken	_	O	O	
+7-12	.	$.	.	_	O	O	
+
+#id=8
+#text=Nur müßte ich, um für ihn eintreten zu können, sicher sein, im October die betreffenden Bücher in Rom vorzufinden.
+8-1	Nur	ADV	nur	_	O	O	
+8-2	müßte	VMFIN	müssen	_	O	O	
+8-3	ich	PPER	ich	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	um	KOUI	um	_	O	O	
+8-6	für	APPR	für	_	O	O	
+8-7	ihn	PPER	er	_	O	O	
+8-8	eintreten	VVINF	eintreten	_	O	O	
+8-9	zu	PTKZU	zu	_	O	O	
+8-10	können	VMINF	können	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	sicher	ADJD	sicher	_	O	O	
+8-13	sein	VAINF	sein	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	im	APPRART	in	_	O	O	
+8-16	October	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-17	die	ART	die	_	O	O	
+8-18	betreffenden	ADJA	betreffend	_	O	O	
+8-19	Bücher	NN	Buch	_	O	O	
+8-20	in	APPR	in	_	O	O	
+8-21	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-22	vorzufinden	VVIZU	vorfinden	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=Beifolgend erhalten Sie den ersten Artikel Prakhoffs.
+9-1	Beifolgend	ADJD	<unknown>	_	O	O	
+9-2	erhalten	VVFIN	erhalten	_	O	O	
+9-3	Sie	PPER	Sie	_	O	O	
+9-4	den	ART	die	_	O	O	
+9-5	ersten	ADJA	erst	_	O	O	
+9-6	Artikel	NN	Artikel	_	O	O	
+9-7	Prakhoffs	NE	<unknown>	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Mit der übersetzung des zweiten etwas längeren ist meine Frau noch nicht fertig.
+10-1	Mit	APPR	mit	_	O	O	
+10-2	der	ART	die	_	O	O	
+10-3	übersetzung	NN	Übersetzung	_	O	O	
+10-4	des	ART	die	_	O	O	
+10-5	zweiten	ADJA	zweit	_	O	O	
+10-6	etwas	PIAT	etwas	_	O	O	
+10-7	längeren	ADJA	lang	_	O	O	
+10-8	ist	VAFIN	sein	_	O	O	
+10-9	meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-10	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-11	noch	ADV	noch	_	O	O	
+10-12	nicht	PTKNEG	nicht	_	O	O	
+10-13	fertig	ADJD	fertig	_	O	O	
+10-14	.	$.	.	_	O	O	
+
+#id=11
+#text=Leider war dieselbe in der letzten Zeit wiederum durch ihre Neuralgien heim-
+11-1	Leider	ADV	leider	_	O	O	
+11-2	war	VAFIN	sein	_	O	O	
+11-3	dieselbe	PDS	dieselbe	_	O	O	
+11-4	in	APPR	in	_	O	O	
+11-5	der	ART	die	_	O	O	
+11-6	letzten	ADJA	letzt	_	O	O	
+11-7	Zeit	NN	Zeit	_	O	O	
+11-8	wiederum	ADV	wiederum	_	O	O	
+11-9	durch	APPR	durch	_	O	O	
+11-10	ihre	PPOSAT	ihr	_	O	O	
+11-11	Neuralgien	NN	<unknown>	_	O	O	
+11-12	heim-	TRUNC	heim-	_	O	O	
+

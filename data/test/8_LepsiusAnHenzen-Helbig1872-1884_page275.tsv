@@ -1,0 +1,233 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=210 2 also nicht unbekannt sein.
+1-1	210	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	also	ADV	also	_	O	O	
+1-4	nicht	PTKNEG	nicht	_	O	O	
+1-5	unbekannt	ADJD	unbekannt	_	O	O	
+1-6	sein	VAINF	sein	_	O	O	
+1-7	.	$.	.	_	O	O	
+
+#id=2
+#text=Lepsius an Henzen Berlin, 19. April 1876 Die Übernahme der Vasen von Adria auf Titel 111, 1 war von Ihrer Einwilligung abhängig gemacht und wird im andern Falle an den Reservefonds verwiesen.
+2-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	Die	ART	die	_	O	O	
+2-11	Übernahme	NN	Übernahme	_	O	O	
+2-12	der	ART	die	_	O	O	
+2-13	Vasen	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+2-14	von	APPR	von	_	O	O	
+2-15	Adria	NE	Adria	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-16	auf	APPR	auf	_	O	O	
+2-17	Titel	NN	Titel	_	O	O	
+2-18	111	CARD	@card@	_	O	O	
+2-19	,	$,	,	_	O	O	
+2-20	1	CARD	1	_	O	O	
+2-21	war	VAFIN	sein	_	O	O	
+2-22	von	APPR	von	_	O	O	
+2-23	Ihrer	PPOSAT	ihr	_	O	O	
+2-24	Einwilligung	NN	Einwilligung	_	O	O	
+2-25	abhängig	ADJD	abhängig	_	O	O	
+2-26	gemacht	VVPP	machen	_	O	O	
+2-27	und	KON	und	_	O	O	
+2-28	wird	VAFIN	werden	_	O	O	
+2-29	im	APPRART	in	_	O	O	
+2-30	andern	PIAT	andere	_	O	O	
+2-31	Falle	NN	Falle	_	O	O	
+2-32	an	APPR	an	_	O	O	
+2-33	den	ART	die	_	O	O	
+2-34	Reservefonds	NN	Reservefonds	_	O	O	
+2-35	verwiesen	VVPP	verweisen	_	O	O	
+2-36	.	$.	.	_	O	O	
+
+#id=3
+#text=Es scheint übrigens, daß sich die Kosten unerwartet hoch belaufen sollen, wie mir Schöne sagt.
+3-1	Es	PPER	es	_	O	O	
+3-2	scheint	VVFIN	scheinen	_	O	O	
+3-3	übrigens	ADV	übrigens	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	daß	KOUS	dass	_	O	O	
+3-6	sich	PRF	sich	_	O	O	
+3-7	die	ART	die	_	O	O	
+3-8	Kosten	NN	Kosten	_	O	O	
+3-9	unerwartet	ADJD	unerwartet	_	O	O	
+3-10	hoch	ADJD	hoch	_	O	O	
+3-11	belaufen	VVINF	belaufen	_	O	O	
+3-12	sollen	VMFIN	sollen	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	wie	KOUS	wie	_	O	O	
+3-15	mir	PPER	ich	_	O	O	
+3-16	Schöne	NN	Schöne	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-17	sagt	VVFIN	sagen	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Als das Terrakottenwerk zurückkam, schickte ich nach dem Auswärtigen Amte und erhielt die Antwort, daß ein Feldjäger so bald nicht in Aussicht stehe.
+4-1	Als	KOUS	als	_	O	O	
+4-2	das	ART	die	_	O	O	
+4-3	Terrakottenwerk	NN	<unknown>	_	O	O	
+4-4	zurückkam	VVFIN	zurückkommen	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	schickte	VVFIN	schicken	_	O	O	
+4-7	ich	PPER	ich	_	O	O	
+4-8	nach	APPR	nach	_	O	O	
+4-9	dem	ART	die	_	O	O	
+4-10	Auswärtigen	ADJA	auswärtig	_	O	O	
+4-11	Amte	NN	Amt	_	O	O	
+4-12	und	KON	und	_	O	O	
+4-13	erhielt	VVFIN	erhalten	_	O	O	
+4-14	die	ART	die	_	O	O	
+4-15	Antwort	NN	Antwort	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	daß	KOUS	dass	_	O	O	
+4-18	ein	ART	eine	_	O	O	
+4-19	Feldjäger	NN	Feldjäger	_	O	O	
+4-20	so	ADV	so	_	O	O	
+4-21	bald	ADV	bald	_	O	O	
+4-22	nicht	PTKNEG	nicht	_	O	O	
+4-23	in	APPR	in	_	O	O	
+4-24	Aussicht	NN	Aussicht	_	O	O	
+4-25	stehe	VVFIN	stehen	_	O	O	
+4-26	.	$.	.	_	O	O	
+
+#id=5
+#text=Da Sie zweimal um Eile gebeten hatten, glaubte ich die Post vorziehen zu müssen, von deren Unzuverlässigkeit in Italien mir nichts bekannt war.
+5-1	Da	KOUS	da	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	zweimal	ADV	zweimal	_	O	O	
+5-4	um	APPR	um	_	O	O	
+5-5	Eile	NN	Eile	_	O	O	
+5-6	gebeten	VVPP	bitten	_	O	O	
+5-7	hatten	VAFIN	haben	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	glaubte	VVFIN	glauben	_	O	O	
+5-10	ich	PPER	ich	_	O	O	
+5-11	die	ART	die	_	O	O	
+5-12	Post	NN	Post	_	O	O	
+5-13	vorziehen	VVINF	vorziehen	_	O	O	
+5-14	zu	PTKZU	zu	_	O	O	
+5-15	müssen	VMINF	müssen	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	von	APPR	von	_	O	O	
+5-18	deren	PRELAT	die	_	O	O	
+5-19	Unzuverlässigkeit	NN	Unzuverlässigkeit	_	O	O	
+5-20	in	APPR	in	_	O	O	
+5-21	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-22	mir	PRF	ich	_	O	O	
+5-23	nichts	PIS	nichts	_	O	O	
+5-24	bekannt	VVPP	bekennen	_	O	O	
+5-25	war	VAFIN	sein	_	O	O	
+5-26	.	$.	.	_	O	O	
+
+#id=6
+#text=Mommsen wird nun wohl nach Neapel fort sein; sonst bitte ich ihn bestens zu grüßen; wie auch Minister Krüger.
+6-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	wird	VAFIN	werden	_	O	O	
+6-3	nun	ADV	nun	_	O	O	
+6-4	wohl	ADV	wohl	_	O	O	
+6-5	nach	APPR	nach	_	O	O	
+6-6	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-7	fort	ADV	fort	_	O	O	
+6-8	sein	VAINF	sein	_	O	O	
+6-9	;	$.	;	_	O	O	
+6-10	sonst	ADV	sonst	_	O	O	
+6-11	bitte	VVFIN	bitten	_	O	O	
+6-12	ich	PPER	ich	_	O	O	
+6-13	ihn	PPER	er	_	O	O	
+6-14	bestens	ADV	bestens	_	O	O	
+6-15	zu	PTKZU	zu	_	O	O	
+6-16	grüßen	VVINF	grüßen	_	O	O	
+6-17	;	$.	;	_	O	O	
+6-18	wie	KOKOM	wie	_	O	O	
+6-19	auch	ADV	auch	_	O	O	
+6-20	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-21	Krüger	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-22	.	$.	.	_	O	O	
+
+#id=7
+#text=Sagen Sie ihm, daß ich seinen Entwurf vor seiner Abreise noch erhalten, ihn aber vorläufig bei Seite gelegt habe, da der Antrag nun keine Eile hat.
+7-1	Sagen	VVFIN	sagen	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	ihm	PPER	er	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	daß	KOUS	dass	_	O	O	
+7-6	ich	PPER	ich	_	O	O	
+7-7	seinen	PPOSAT	sein	_	O	O	
+7-8	Entwurf	NN	Entwurf	_	O	O	
+7-9	vor	APPR	vor	_	O	O	
+7-10	seiner	PPOSAT	sein	_	O	O	
+7-11	Abreise	NN	Abreise	_	O	O	
+7-12	noch	ADV	noch	_	O	O	
+7-13	erhalten	VVINF	erhalten	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	ihn	PPER	er	_	O	O	
+7-16	aber	ADV	aber	_	O	O	
+7-17	vorläufig	ADJD	vorläufig	_	O	O	
+7-18	bei	APPR	bei	_	O	O	
+7-19	Seite	NN	Seite	_	O	O	
+7-20	gelegt	VVPP	legen	_	O	O	
+7-21	habe	VAFIN	haben	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	da	KOUS	da	_	O	O	
+7-24	der	ART	die	_	O	O	
+7-25	Antrag	NN	Antrag	_	O	O	
+7-26	nun	ADV	nun	_	O	O	
+7-27	keine	PIAT	keine	_	O	O	
+7-28	Eile	NN	Eile	_	O	O	
+7-29	hat	VAFIN	haben	_	O	O	
+7-30	.	$.	.	_	O	O	
+
+#id=8
+#text=Die Seinigen seien alle wohl; für heute Abend ist meiner Jugend Musik und Lämmerhüpfen in seinem Hause angesagt.
+8-1	Die	ART	die	_	O	O	
+8-2	Seinigen	NN	<unknown>	_	O	O	
+8-3	seien	VAFIN	sein	_	O	O	
+8-4	alle	PIS	alle	_	O	O	
+8-5	wohl	ADV	wohl	_	O	O	
+8-6	;	$.	;	_	O	O	
+8-7	für	APPR	für	_	O	O	
+8-8	heute	ADV	heute	_	O	O	
+8-9	Abend	ADV	abend	_	O	O	
+8-10	ist	VAFIN	sein	_	O	O	
+8-11	meiner	PPOSAT	mein	_	O	O	
+8-12	Jugend	NN	Jugend	_	O	O	
+8-13	Musik	NN	Musik	_	O	O	
+8-14	und	KON	und	_	O	O	
+8-15	Lämmerhüpfen	NN	<unknown>	_	O	O	
+8-16	in	APPR	in	_	O	O	
+8-17	seinem	PPOSAT	sein	_	O	O	
+8-18	Hause	NN	Haus	_	O	O	
+8-19	angesagt	VVPP	ansagen	_	O	O	
+8-20	.	$.	.	_	O	O	
+
+#id=9
+#text=Er möge die Nonnen von Trinita di Monte nicht versäumen.
+9-1	Er	PPER	er	_	O	O	
+9-2	möge	VMFIN	mögen	_	O	O	
+9-3	die	ART	die	_	O	O	
+9-4	Nonnen	NN	Nonne	_	O	O	
+9-5	von	APPR	von	_	O	O	
+9-6	Trinita	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-7	di	NE	di	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+9-8	Monte	NE	Monte	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+9-9	nicht	PTKNEG	nicht	_	O	O	
+9-10	versäumen	VVINF	versäumen	_	O	O	
+9-11	.	$.	.	_	O	O	
+
+#id=10
+#text=Mit herzlichem Gruß Ihr R Lepsius
+10-1	Mit	APPR	mit	_	O	O	
+10-2	herzlichem	ADJA	herzlich	_	O	O	
+10-3	Gruß	NN	Gruß	_	O	O	
+10-4	Ihr	PPOSAT	ihr	_	O	O	
+10-5	R	NN	R	_	O	O	
+10-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

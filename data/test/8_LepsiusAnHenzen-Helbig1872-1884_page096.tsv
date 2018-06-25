@@ -1,0 +1,105 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Lepsius an ~~ Berlin, 12. Mai 1873 lung von Ihnen gleich beigelegt; ich meine jede Empfehlung ist noch wirksamer vor der Central Direktion wenn sie von Ihnen separat eingesendet wird, und wenn ich nicht irre ist dieser Wunsch früher einmal ausdrücklich ausgesprochen worden.
+1-1	2	CARD	2	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	~~	NN	<unknown>	_	O	O	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	lung	NN	<unknown>	_	O	O	
+1-12	von	APPR	von	_	O	O	
+1-13	Ihnen	PPER	Sie	_	O	O	
+1-14	gleich	ADJD	gleich	_	O	O	
+1-15	beigelegt	VVPP	beilegen	_	O	O	
+1-16	;	$.	;	_	O	O	
+1-17	ich	PPER	ich	_	O	O	
+1-18	meine	VVFIN	meinen	_	O	O	
+1-19	jede	PIAT	jede	_	O	O	
+1-20	Empfehlung	NN	Empfehlung	_	O	O	
+1-21	ist	VAFIN	sein	_	O	O	
+1-22	noch	ADV	noch	_	O	O	
+1-23	wirksamer	ADJD	wirksam	_	O	O	
+1-24	vor	APPR	vor	_	O	O	
+1-25	der	ART	die	_	O	O	
+1-26	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-27	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+1-28	wenn	KOUS	wenn	_	O	O	
+1-29	sie	PPER	sie	_	O	O	
+1-30	von	APPR	von	_	O	O	
+1-31	Ihnen	PPER	Sie	_	O	O	
+1-32	separat	ADJD	separat	_	O	O	
+1-33	eingesendet	VVPP	einsenden	_	O	O	
+1-34	wird	VAFIN	werden	_	O	O	
+1-35	,	$,	,	_	O	O	
+1-36	und	KON	und	_	O	O	
+1-37	wenn	KOUS	wenn	_	O	O	
+1-38	ich	PPER	ich	_	O	O	
+1-39	nicht	PTKNEG	nicht	_	O	O	
+1-40	irre	ADJD	irre	_	O	O	
+1-41	ist	VAFIN	sein	_	O	O	
+1-42	dieser	PDAT	dies	_	O	O	
+1-43	Wunsch	NN	Wunsch	_	O	O	
+1-44	früher	ADV	früher	_	O	O	
+1-45	einmal	ADV	einmal	_	O	O	
+1-46	ausdrücklich	ADJD	ausdrücklich	_	O	O	
+1-47	ausgesprochen	VVPP	aussprechen	_	O	O	
+1-48	worden	VAPP	werden	_	O	O	
+1-49	.	$.	.	_	O	O	
+
+#id=2
+#text=Von Mommsen habe ich aus Neapel noch keine direkte Nachricht.
+2-1	Von	APPR	von	_	O	O	
+2-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-3	habe	VAFIN	haben	_	O	O	
+2-4	ich	PPER	ich	_	O	O	
+2-5	aus	APPR	aus	_	O	O	
+2-6	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-7	noch	ADV	noch	_	O	O	
+2-8	keine	PIAT	keine	_	O	O	
+2-9	direkte	ADJA	direkt	_	O	O	
+2-10	Nachricht	NN	Nachricht	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich hoffe es geht ihm dort so gut wie in Rom.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	hoffe	VVFIN	hoffen	_	O	O	
+3-3	es	PPER	es	_	O	O	
+3-4	geht	VVFIN	gehen	_	O	O	
+3-5	ihm	PPER	er	_	O	O	
+3-6	dort	ADV	dort	_	O	O	
+3-7	so	ADV	so	_	O	O	
+3-8	gut	ADJD	gut	_	O	O	
+3-9	wie	KOKOM	wie	_	O	O	
+3-10	in	APPR	in	_	O	O	
+3-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Vom Reichskanzler ist uns noch nichts zugegangen über Laspeyres oder Brunn, und Delbrück habe ich lange nicht gesehen.
+4-1	Vom	APPRART	von	_	O	O	
+4-2	Reichskanzler	NN	Reichskanzler	_	O	O	
+4-3	ist	VAFIN	sein	_	O	O	
+4-4	uns	PPER	wir	_	O	O	
+4-5	noch	ADV	noch	_	O	O	
+4-6	nichts	PIS	nichts	_	O	O	
+4-7	zugegangen	VVPP	zugehen	_	O	O	
+4-8	über	APPR	über	_	O	O	
+4-9	Laspeyres	NN	<unknown>	_	O	O	
+4-10	oder	KON	oder	_	O	O	
+4-11	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-12	,	$,	,	_	O	O	
+4-13	und	KON	und	_	O	O	
+4-14	Delbrück	NE	Delbrück	_	O	O	
+4-15	habe	VAFIN	haben	_	O	O	
+4-16	ich	PPER	ich	_	O	O	
+4-17	lange	ADV	lange	_	O	O	
+4-18	nicht	PTKNEG	nicht	_	O	O	
+4-19	gesehen	VVPP	sehen	_	O	O	
+4-20	.	$.	.	_	O	O	
+

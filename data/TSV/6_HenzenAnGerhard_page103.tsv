@@ -1,0 +1,118 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=\ J Ohne Nummer Henzeh an Gerhard 3/111/53 2 u. der bei unsrer Armuth an Relationen mit jenen Gegenden nützlich sein kann.
+1-1	\	XY	\	_	O	O	
+1-2	J	NN	J	_	O	O	
+1-3	Ohne	APPR	ohne	_	O	O	
+1-4	Nummer	NN	Nummer	_	O	O	
+1-5	Henzeh	NN	<unknown>	_	O	O	
+1-6	an	APPR	an	_	O	O	
+1-7	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	3/111/53	CARD	@card@	_	O	O	
+1-9	2	CARD	2	_	O	O	
+1-10	u.	APPR	um	_	O	O	
+1-11	der	ART	die	_	O	O	
+1-12	bei	APPR	bei	_	O	O	
+1-13	unsrer	PPOSAT	unser	_	O	O	
+1-14	Armuth	NN	<unknown>	_	O	O	
+1-15	an	APPR	an	_	O	O	
+1-16	Relationen	NN	Relation	_	O	O	
+1-17	mit	APPR	mit	_	O	O	
+1-18	jenen	PDAT	jen	_	O	O	
+1-19	Gegenden	NN	Gegend	_	O	O	
+1-20	nützlich	ADJD	nützlich	_	O	O	
+1-21	sein	VAINF	sein	_	O	O	
+1-22	kann	VMFIN	können	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Wir haben mit einigem Bedauern erfahren, dß.
+2-1	Wir	PPER	wir	_	O	O	
+2-2	haben	VAFIN	haben	_	O	O	
+2-3	mit	APPR	mit	_	O	O	
+2-4	einigem	PIAT	einige	_	O	O	
+2-5	Bedauern	NN	Bedauern	_	O	O	
+2-6	erfahren	VVPP	erfahren	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	dß	VVFIN	<unknown>	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihre 1.
+3-1	Ihre	PPOSAT	ihr	_	O	O	
+3-2	1	CARD	1	_	O	O	
+3-3	.	$.	.	_	O	O	
+
+#id=4
+#text=Frau so leidend gewesen, u. hoffen auf baldige bessere Nachrichten.
+4-1	Frau	NN	Frau	_	O	O	
+4-2	so	ADV	so	_	O	O	
+4-3	leidend	ADJD	leidend	_	O	O	
+4-4	gewesen	VAPP	sein	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	u.	KON	und	_	O	O	
+4-7	hoffen	VVFIN	hoffen	_	O	O	
+4-8	auf	APPR	auf	_	O	O	
+4-9	baldige	ADJA	baldig	_	O	O	
+4-10	bessere	ADJA	gut	_	O	O	
+4-11	Nachrichten	NN	Nachricht	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Meine Frau grüßt Sie beide mit mir herzliehst.
+5-1	Meine	PPOSAT	mein	_	O	O	
+5-2	Frau	NN	Frau	_	O	O	
+5-3	grüßt	VVFIN	grüßen	_	O	O	
+5-4	Sie	PPER	Sie	_	O	O	
+5-5	beide	PIS	beide	_	O	O	
+5-6	mit	APPR	mit	_	O	O	
+5-7	mir	PPER	ich	_	O	O	
+5-8	herzliehst	VVFIN	<unknown>	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihr ergebner w. Benzen.
+6-1	Ihr	PPER	sie	_	O	O	
+6-2	ergebner	VVFIN	<unknown>	_	O	O	
+6-3	w.	APPR	w.	_	O	O	
+6-4	Benzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	.	$.	.	_	O	O	
+
+#id=7
+#text=Rom 3/111 53 Vertas :r.
+7-1	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+7-2	3/111	CARD	@card@	_	O	O	
+7-3	53	CARD	53	_	O	O	
+7-4	Vertas	NN	<unknown>	_	O	O	
+7-5	:r	NN	<unknown>	_	O	O	
+7-6	.	$.	.	_	O	O	
+
+#id=8
+#text=S. Sie schrieben einmal Dircksen habe einen Borghesi unbekannten Neratius im Orelli entdeckt.
+8-1	S.	ADV	s.	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	schrieben	VVFIN	schreiben	_	O	O	
+8-4	einmal	ADV	einmal	_	O	O	
+8-5	Dircksen	NE	<unknown>	_	O	O	
+8-6	habe	VAFIN	haben	_	O	O	
+8-7	einen	ART	eine	_	O	O	
+8-8	Borghesi	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-9	unbekannten	ADJA	unbekannt	_	O	O	
+8-10	Neratius	NN	<unknown>	_	O	O	
+8-11	im	APPRART	in	_	O	O	
+8-12	Orelli	NE	<unknown>	_	O	O	
+8-13	entdeckt	VVPP	entdecken	_	O	O	
+8-14	.	$.	.	_	O	O	
+
+#id=9
+#text=Kgnn man noch immer nichts Weiteres darüber erfahren ?
+9-1	Kgnn	NE	<unknown>	_	O	O	
+9-2	man	PIS	man	_	O	O	
+9-3	noch	ADV	noch	_	O	O	
+9-4	immer	ADV	immer	_	O	O	
+9-5	nichts	PIAT	nichts	_	O	O	
+9-6	Weiteres	NN	Weiter	_	O	O	
+9-7	darüber	PAV	darüber	_	O	O	
+9-8	erfahren	VVPP	erfahren	_	O	O	
+9-9	?	$.	?	_	O	O	
+

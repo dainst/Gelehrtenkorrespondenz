@@ -1,0 +1,187 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=- - J 525 L Lepsius an Henzen Berlin, 7. Juni 1872 g. 11/6 72 r.
+1-1	-	$(	-	_	O	O	
+1-2	-	$(	-	_	O	O	
+1-3	J	NN	J	_	O	O	
+1-4	525	CARD	525	_	O	O	
+1-5	L	NN	L	_	O	O	
+1-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	11/6	CARD	11/6	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=12/6 72 Berlin d. 7. Juni 1872. Verehrtester Freund Von der Oberrechnungskammer sind einige Monita eingegangen, von denen ich Ihnen die folgenden drei schwer wiegenden Berichtigungen mittheilen soll, um bei der nächsten Rechnung richtig anzuknüpfen; Antwort von Ihnen wird nicht erwartet.
+2-1	12/6	CARD	12/6	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-2	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	d.	ART	d.	_	O	O	
+2-5	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	.	$.	.	_	O	O	
+2-10	Verehrtester	ADJA	<unknown>	_	O	O	
+2-11	Freund	NN	Freund	_	O	O	
+2-12	Von	APPR	von	_	O	O	
+2-13	der	ART	die	_	O	O	
+2-14	Oberrechnungskammer	NN	<unknown>	_	O	O	
+2-15	sind	VAFIN	sein	_	O	O	
+2-16	einige	PIAT	einige	_	O	O	
+2-17	Monita	NN	<unknown>	_	O	O	
+2-18	eingegangen	VVPP	eingehen	_	O	O	
+2-19	,	$,	,	_	O	O	
+2-20	von	APPR	von	_	O	O	
+2-21	denen	PRELS	die	_	O	O	
+2-22	ich	PPER	ich	_	O	O	
+2-23	Ihnen	PPER	Sie	_	O	O	
+2-24	die	ART	die	_	O	O	
+2-25	folgenden	ADJA	folgend	_	O	O	
+2-26	drei	CARD	drei	_	O	O	
+2-27	schwer	ADJD	schwer	_	O	O	
+2-28	wiegenden	ADJA	wiegend	_	O	O	
+2-29	Berichtigungen	NN	Berichtigung	_	O	O	
+2-30	mittheilen	VVINF	<unknown>	_	O	O	
+2-31	soll	VMFIN	sollen	_	O	O	
+2-32	,	$,	,	_	O	O	
+2-33	um	KOUI	um	_	O	O	
+2-34	bei	APPR	bei	_	O	O	
+2-35	der	ART	die	_	O	O	
+2-36	nächsten	ADJA	nah	_	O	O	
+2-37	Rechnung	NN	Rechnung	_	O	O	
+2-38	richtig	ADJD	richtig	_	O	O	
+2-39	anzuknüpfen	VVIZU	anknüpfen	_	O	O	
+2-40	;	$.	;	_	O	O	
+2-41	Antwort	NN	Antwort	_	O	O	
+2-42	von	APPR	von	_	O	O	
+2-43	Ihnen	PPER	Sie	_	O	O	
+2-44	wird	VAFIN	werden	_	O	O	
+2-45	nicht	PTKNEG	nicht	_	O	O	
+2-46	erwartet	VVPP	erwarten	_	O	O	
+2-47	.	$.	.	_	O	O	
+
+#id=3
+#text=1.
+3-1	1	CARD	1	_	O	O	
+3-2	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Rechnung von Francesco Josa beträgt nicht ~ 590 sondern L 5.915.
+4-1	Die	ART	die	_	O	O	
+4-2	Rechnung	NN	Rechnung	_	O	O	
+4-3	von	APPR	von	_	O	O	
+4-4	Francesco	NE	Francesco	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	Josa	NE	Josa	_	O	O	
+4-6	beträgt	VVFIN	betragen	_	O	O	
+4-7	nicht	PTKNEG	nicht	_	O	O	
+4-8	~	XY	~	_	O	O	
+4-9	590	CARD	@card@	_	O	O	
+4-10	sondern	KON	sondern	_	O	O	
+4-11	L	NN	L	_	O	O	
+4-12	5.915	CARD	@card@	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=2.
+5-1	2	CARD	2	_	O	O	
+5-2	.	$.	.	_	O	O	
+
+#id=6
+#text=Der vorjährige Bestand des Reservefonds beträgt nicht ~ 26971-16-5, sondern nur 26971-15-5.
+6-1	Der	ART	die	_	O	O	
+6-2	vorjährige	ADJA	vorjährig	_	O	O	
+6-3	Bestand	NN	Bestand	_	O	O	
+6-4	des	ART	die	_	O	O	
+6-5	Reservefonds	NN	Reservefonds	_	O	O	
+6-6	beträgt	VVFIN	betragen	_	O	O	
+6-7	nicht	PTKNEG	nicht	_	O	O	
+6-8	~	XY	~	_	O	O	
+6-9	26971-16-5	CARD	@card@	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	sondern	KON	sondern	_	O	O	
+6-12	nur	ADV	nur	_	O	O	
+6-13	26971-15-5	CARD	@card@	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=3.
+7-1	3	CARD	3	_	O	O	
+7-2	.	$.	.	_	O	O	
+
+#id=8
+#text=Unter Berücksichtigung der ad 1 und 2 nachgewiesenen Cent.
+8-1	Unter	APPR	unter	_	O	O	
+8-2	Berücksichtigung	NN	Berücksichtigung	_	O	O	
+8-3	der	ART	die	_	O	O	
+8-4	ad	FM	ad	_	O	O	
+8-5	1	CARD	1	_	O	O	
+8-6	und	KON	und	_	O	O	
+8-7	2	CARD	2	_	O	O	
+8-8	nachgewiesenen	ADJA	nachgewiesen	_	O	O	
+8-9	Cent	NN	Cent	_	O	O	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=1,5 + 1 - C. 2,5 stellt sich der Reservefonds wie folgt : Einnahme Ausgabe Bleibt Bestand 37439-26- 5 2611 -59- 0 34,827-67- 5 In gleicher Weise vermindert sich der Kassenbestand des Instituts um diese 2,5 Centesimi und stellt sich folgendermaßen Reservefonds Überschuß des Apparats f, 4372-5 f, 34827-67-5
+9-1	1,5	CARD	1,5	_	O	O	
+9-2	+	KON	+	_	O	O	
+9-3	1	CARD	1	_	O	O	
+9-4	-	$(	-	_	O	O	
+9-5	C.	NE	C.	_	O	O	
+9-6	2,5	CARD	2,5	_	O	O	
+9-7	stellt	VVFIN	stellen	_	O	O	
+9-8	sich	PRF	sich	_	O	O	
+9-9	der	ART	die	_	O	O	
+9-10	Reservefonds	NN	Reservefonds	_	O	O	
+9-11	wie	KOKOM	wie	_	O	O	
+9-12	folgt	VVFIN	folgen	_	O	O	
+9-13	:	$.	:	_	O	O	
+9-14	Einnahme	NN	Einnahme	_	O	O	
+9-15	Ausgabe	NN	Ausgabe	_	O	O	
+9-16	Bleibt	VVFIN	bleiben	_	O	O	
+9-17	Bestand	NN	Bestand	_	O	O	
+9-18	37439-26-	CARD	@card@	_	O	O	
+9-19	5	CARD	5	_	O	O	
+9-20	2611	CARD	@card@	_	O	O	
+9-21	-59-	CARD	@card@	_	O	O	
+9-22	0	CARD	@card@	_	O	O	
+9-23	34,827-67-	CARD	@card@	_	O	O	
+9-24	5	CARD	5	_	O	O	
+9-25	In	APPR	in	_	O	O	
+9-26	gleicher	ADJA	gleich	_	O	O	
+9-27	Weise	NN	Weise	_	O	O	
+9-28	vermindert	VVFIN	vermindern	_	O	O	
+9-29	sich	PRF	sich	_	O	O	
+9-30	der	ART	die	_	O	O	
+9-31	Kassenbestand	NN	Kassenbestand	_	O	O	
+9-32	des	ART	die	_	O	O	
+9-33	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-34	um	APPR	um	_	O	O	
+9-35	diese	PDAT	dies	_	O	O	
+9-36	2,5	CARD	2,5	_	O	O	
+9-37	Centesimi	NN	<unknown>	_	O	O	
+9-38	und	KON	und	_	O	O	
+9-39	stellt	VVFIN	stellen	_	O	O	
+9-40	sich	PRF	sich	_	O	O	
+9-41	folgendermaßen	ADV	folgendermaßen	_	O	O	
+9-42	Reservefonds	NN	Reservefonds	_	O	O	
+9-43	Überschuß	NN	Überschuss	_	O	O	
+9-44	des	ART	die	_	O	O	
+9-45	Apparats	NN	Apparat	_	O	O	
+9-46	f	VVFIN	<unknown>	_	O	O	
+9-47	,	$,	,	_	O	O	
+9-48	4372-5	CARD	@card@	_	O	O	
+9-49	f	NN	F	_	O	O	
+9-50	,	$,	,	_	O	O	
+9-51	34827-67-5	CARD	@card@	_	O	O	
+

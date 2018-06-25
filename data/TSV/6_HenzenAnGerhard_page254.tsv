@@ -1,0 +1,387 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=, \ \ Ohne Nummer Henzen an Gerhard 3 1 /VII/55 2 Zeit seit Neujahr, möchte ich nicht zum 2 n • Male dhmachen.
+1-1	,	$,	,	_	O	O	
+1-2	\	XY	\	_	O	O	
+1-3	\	XY	\	_	O	O	
+1-4	Ohne	APPR	ohne	_	O	O	
+1-5	Nummer	NN	Nummer	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	3	CARD	3	_	O	O	
+1-10	1	CARD	1	_	O	O	
+1-11	/VII/55	NN	<unknown>	_	O	O	
+1-12	2	CARD	2	_	O	O	
+1-13	Zeit	NN	Zeit	_	O	O	
+1-14	seit	APPR	seit	_	O	O	
+1-15	Neujahr	NN	Neujahr	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	möchte	VMFIN	mögen	_	O	O	
+1-18	ich	PPER	ich	_	O	O	
+1-19	nicht	PTKNEG	nicht	_	O	O	
+1-20	zum	APPRART	zu	_	O	O	
+1-21	2	CARD	2	_	O	O	
+1-22	n	ADJA	<unknown>	_	O	O	
+1-23	•	ADJA	<unknown>	_	O	O	
+1-24	Male	NN	Mal	_	O	O	
+1-25	dhmachen	NE	<unknown>	_	O	O	
+1-26	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich habe nie so angestrengt gearbeitet, u. so rein mechanische, langweilige Arbeit, wie wir sie jetzt haben, ist geeignet, Einem ganz den Verstand zu rauben. ,- Von Braun heute ein Brief.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	habe	VAFIN	haben	_	O	O	
+2-3	nie	ADV	nie	_	O	O	
+2-4	so	ADV	so	_	O	O	
+2-5	angestrengt	ADJD	angestrengt	_	O	O	
+2-6	gearbeitet	VVPP	arbeiten	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	u.	KON	und	_	O	O	
+2-9	so	ADV	so	_	O	O	
+2-10	rein	ADV	rein	_	O	O	
+2-11	mechanische	ADJA	mechanisch	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	langweilige	ADJA	langweilig	_	O	O	
+2-14	Arbeit	NN	Arbeit	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	wie	KOUS	wie	_	O	O	
+2-17	wir	PPER	wir	_	O	O	
+2-18	sie	PPER	sie	_	O	O	
+2-19	jetzt	ADV	jetzt	_	O	O	
+2-20	haben	VAFIN	haben	_	O	O	
+2-21	,	$,	,	_	O	O	
+2-22	ist	VAFIN	sein	_	O	O	
+2-23	geeignet	ADJD	geeignet	_	O	O	
+2-24	,	$,	,	_	O	O	
+2-25	Einem	PIS	eine	_	O	O	
+2-26	ganz	ADV	ganz	_	O	O	
+2-27	den	ART	die	_	O	O	
+2-28	Verstand	NN	Verstand	_	O	O	
+2-29	zu	PTKZU	zu	_	O	O	
+2-30	rauben	VVINF	rauben	_	O	O	
+2-31	.	$.	.	_	O	O	
+2-32	,-	NN	<unknown>	_	O	O	
+2-33	Von	APPR	von	_	O	O	
+2-34	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-35	heute	ADV	heute	_	O	O	
+2-36	ein	ART	eine	_	O	O	
+2-37	Brief	NN	Brief	_	O	O	
+2-38	.	$.	.	_	O	O	
+
+#id=3
+#text=Er hat es übelever,..·" I merkt, dß.
+3-1	Er	PPER	er	_	O	O	
+3-2	hat	VAFIN	haben	_	O	O	
+3-3	es	PPER	es	_	O	O	
+3-4	übelever,..·	ADJA	<unknown>	_	O	O	
+3-5	"	$(	"	_	O	O	
+3-6	I	NN	I	_	O	O	
+3-7	merkt	VVFIN	merken	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	dß	VVFIN	<unknown>	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Sie die Feje aryschen Monumente nicht sehr lieben; indeß da kann man ihm nicht helfen.
+4-1	Sie	PPER	Sie	_	O	O	
+4-2	die	ART	die	_	O	O	
+4-3	Feje	NE	<unknown>	_	O	O	
+4-4	aryschen	ADJA	<unknown>	_	O	O	
+4-5	Monumente	NN	Monument	_	O	O	
+4-6	nicht	PTKNEG	nicht	_	O	O	
+4-7	sehr	ADV	sehr	_	O	O	
+4-8	lieben	VVFIN	lieben	_	O	O	
+4-9	;	$.	;	_	O	O	
+4-10	indeß	NN	<unknown>	_	O	O	
+4-11	da	ADV	da	_	O	O	
+4-12	kann	VMFIN	können	_	O	O	
+4-13	man	PIS	man	_	O	O	
+4-14	ihm	PPER	er	_	O	O	
+4-15	nicht	PTKNEG	nicht	_	O	O	
+4-16	helfen	VVINF	helfen	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=Hat er Ihnen, wie ich ihn bat, das 2 e • Heft sotto fscia geschickt?
+5-1	Hat	VAFIN	haben	_	O	O	
+5-2	er	PPER	er	_	O	O	
+5-3	Ihnen	PPER	Sie	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	wie	KOUS	wie	_	O	O	
+5-6	ich	PPER	ich	_	O	O	
+5-7	ihn	PPER	er	_	O	O	
+5-8	bat	VVFIN	bitten	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	das	PRELS	die	_	O	O	
+5-11	2	CARD	2	_	O	O	
+5-12	e	ADJA	<unknown>	_	O	O	
+5-13	•	ADJA	<unknown>	_	O	O	
+5-14	Heft	NN	Heft	_	O	O	
+5-15	sotto	NE	<unknown>	_	O	O	
+5-16	fscia	NE	<unknown>	_	O	O	
+5-17	geschickt	VVPP	schicken	_	O	O	
+5-18	?	$.	?	_	O	O	
+
+#id=6
+#text=, { Meine Frau ist mit dem ersten Act Ihrer Badecur sehr zufrieden gewesen.
+6-1	,	$,	,	_	O	O	
+6-2	{	$(	{	_	O	O	
+6-3	Meine	PPOSAT	mein	_	O	O	
+6-4	Frau	NN	Frau	_	O	O	
+6-5	ist	VAFIN	sein	_	O	O	
+6-6	mit	APPR	mit	_	O	O	
+6-7	dem	ART	die	_	O	O	
+6-8	ersten	ADJA	erst	_	O	O	
+6-9	Act	NN	<unknown>	_	O	O	
+6-10	Ihrer	PPOSAT	ihr	_	O	O	
+6-11	Badecur	NN	<unknown>	_	O	O	
+6-12	sehr	ADV	sehr	_	O	O	
+6-13	zufrieden	ADJD	zufrieden	_	O	O	
+6-14	gewesen	VAPP	sein	_	O	O	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=Heute wird sie nun in Cuxhaven ode Retzebüttel angekommen sein.
+7-1	Heute	ADV	heute	_	O	O	
+7-2	wird	VAFIN	werden	_	O	O	
+7-3	sie	PPER	sie	_	O	O	
+7-4	nun	ADV	nun	_	O	O	
+7-5	in	APPR	in	_	O	O	
+7-6	Cuxhaven	NE	Cuxhaven	_	O	O	
+7-7	ode	ADJA	<unknown>	_	O	O	
+7-8	Retzebüttel	NN	<unknown>	_	O	O	
+7-9	angekommen	VVPP	ankommen	_	O	O	
+7-10	sein	VAINF	sein	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Es thut mir herzlich leid, dß.
+8-1	Es	PPER	es	_	O	O	
+8-2	thut	VVFIN	<unknown>	_	O	O	
+8-3	mir	PPER	ich	_	O	O	
+8-4	herzlich	ADJD	herzlich	_	O	O	
+8-5	leid	ADJD	leid	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	dß	VVFIN	<unknown>	_	O	O	
+8-8	.	$.	.	_	O	O	
+
+#id=9
+#text=das Befinden Ihrer 1.
+9-1	das	ART	die	_	O	O	
+9-2	Befinden	NN	Befinden	_	O	O	
+9-3	Ihrer	PPOSAT	ihr	_	O	O	
+9-4	1	CARD	1	_	O	O	
+9-5	.	$.	.	_	O	O	
+
+#id=10
+#text=Frau eine Kur nöthig macht.
+10-1	Frau	NN	Frau	_	O	O	
+10-2	eine	ART	eine	_	O	O	
+10-3	Kur	NN	Kur	_	O	O	
+10-4	nöthig	ADJD	<unknown>	_	O	O	
+10-5	macht	VVFIN	machen	_	O	O	
+10-6	.	$.	.	_	O	O	
+
+#id=11
+#text=In Folge von allerlei Aufforderungen müssen wir nun doch wohl nach Bonn gehen.
+11-1	In	APPR	in	_	O	O	
+11-2	Folge	NN	Folge	_	O	O	
+11-3	von	APPR	von	_	O	O	
+11-4	allerlei	PIAT	allerlei	_	O	O	
+11-5	Aufforderungen	NN	Aufforderung	_	O	O	
+11-6	müssen	VMFIN	müssen	_	O	O	
+11-7	wir	PPER	wir	_	O	O	
+11-8	nun	ADV	nun	_	O	O	
+11-9	doch	ADV	doch	_	O	O	
+11-10	wohl	ADV	wohl	_	O	O	
+11-11	nach	APPR	nach	_	O	O	
+11-12	Bonn	NE	Bonn	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-13	gehen	VVINF	gehen	_	O	O	
+11-14	.	$.	.	_	O	O	
+
+#id=12
+#text=Ich denke, dort etwa den 24 ode 25 n • zu sein, u. dann den Rhein hinauf zu fahren.
+12-1	Ich	PPER	ich	_	O	O	
+12-2	denke	VVFIN	denken	_	O	O	
+12-3	,	$,	,	_	O	O	
+12-4	dort	ADV	dort	_	O	O	
+12-5	etwa	ADV	etwa	_	O	O	
+12-6	den	ART	die	_	O	O	
+12-7	24	CARD	24	_	O	O	
+12-8	ode	ADJA	<unknown>	_	O	O	
+12-9	25	CARD	25	_	O	O	
+12-10	n	ADJA	<unknown>	_	O	O	
+12-11	•	NN	<unknown>	_	O	O	
+12-12	zu	PTKZU	zu	_	O	O	
+12-13	sein	VAINF	sein	_	O	O	
+12-14	,	$,	,	_	O	O	
+12-15	u.	KON	und	_	O	O	
+12-16	dann	ADV	dann	_	O	O	
+12-17	den	ART	die	_	O	O	
+12-18	Rhein	NE	Rhein	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-19	hinauf	ADV	hinauf	_	O	O	
+12-20	zu	PTKZU	zu	_	O	O	
+12-21	fahren	VVINF	fahren	_	O	O	
+12-22	.	$.	.	_	O	O	
+
+#id=13
+#text=Ist nirgends ein Zusammentreffen möglich?
+13-1	Ist	VAFIN	sein	_	O	O	
+13-2	nirgends	ADV	nirgends	_	O	O	
+13-3	ein	ART	eine	_	O	O	
+13-4	Zusammentreffen	NN	Zusammentreffen	_	O	O	
+13-5	möglich	ADJD	möglich	_	O	O	
+13-6	?	$.	?	_	O	O	
+
+#id=14
+#text=Ich bin sehr froh, dß.
+14-1	Ich	PPER	ich	_	O	O	
+14-2	bin	VAFIN	sein	_	O	O	
+14-3	sehr	ADV	sehr	_	O	O	
+14-4	froh	ADJD	froh	_	O	O	
+14-5	,	$,	,	_	O	O	
+14-6	dß	VVFIN	<unknown>	_	O	O	
+14-7	.	$.	.	_	O	O	
+
+#id=15
+#text=ich nun doch einige Wochen früher los komme, als ich fürchtete, bes.
+15-1	ich	PPER	ich	_	O	O	
+15-2	nun	ADV	nun	_	O	O	
+15-3	doch	ADV	doch	_	O	O	
+15-4	einige	PIAT	einige	_	O	O	
+15-5	Wochen	NN	Woche	_	O	O	
+15-6	früher	ADV	früher	_	O	O	
+15-7	los	ADJD	los	_	O	O	
+15-8	komme	VVFIN	kommen	_	O	O	
+15-9	,	$,	,	_	O	O	
+15-10	als	KOUS	als	_	O	O	
+15-11	ich	PPER	ich	_	O	O	
+15-12	fürchtete	VVFIN	fürchten	_	O	O	
+15-13	,	$,	,	_	O	O	
+15-14	bes.	VVFIN	<unknown>	_	O	O	
+
+#id=16
+#text=wegen Turin's u. wegen der Rückkehr nach Rom.
+16-1	wegen	APPR	wegen	_	O	O	
+16-2	Turin's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-3	u.	KON	und	_	O	O	
+16-4	wegen	APPR	wegen	_	O	O	
+16-5	der	ART	die	_	O	O	
+16-6	Rückkehr	NN	Rückkehr	_	O	O	
+16-7	nach	APPR	nach	_	O	O	
+16-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+16-9	.	$.	.	_	O	O	
+
+#id=17
+#text=Wenn die Cholera nicht alle Pläne vereitelt, u. zu ganz directer Rückkehr über Marseille nöthigt, denke ich trotz des Aufenthalts bei meinem kranken Bruder doch vor dem 15 n • Sept.
+17-1	Wenn	KOUS	wenn	_	O	O	
+17-2	die	ART	die	_	O	O	
+17-3	Cholera	NN	Cholera	_	O	O	
+17-4	nicht	PTKNEG	nicht	_	O	O	
+17-5	alle	PIAT	alle	_	O	O	
+17-6	Pläne	NN	Plan	_	O	O	
+17-7	vereitelt	VVPP	vereiteln	_	O	O	
+17-8	,	$,	,	_	O	O	
+17-9	u.	APPR	um	_	O	O	
+17-10	zu	PTKA	zu	_	O	O	
+17-11	ganz	ADJD	ganz	_	O	O	
+17-12	directer	ADJA	<unknown>	_	O	O	
+17-13	Rückkehr	NN	Rückkehr	_	O	O	
+17-14	über	APPR	über	_	O	O	
+17-15	Marseille	NE	Marseille	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+17-16	nöthigt	VVFIN	<unknown>	_	O	O	
+17-17	,	$,	,	_	O	O	
+17-18	denke	VVFIN	denken	_	O	O	
+17-19	ich	PPER	ich	_	O	O	
+17-20	trotz	APPR	trotz	_	O	O	
+17-21	des	ART	die	_	O	O	
+17-22	Aufenthalts	NN	Aufenthalt	_	O	O	
+17-23	bei	APPR	bei	_	O	O	
+17-24	meinem	PPOSAT	mein	_	O	O	
+17-25	kranken	ADJA	krank	_	O	O	
+17-26	Bruder	NN	Bruder	_	O	O	
+17-27	doch	ADV	doch	_	O	O	
+17-28	vor	APPR	vor	_	O	O	
+17-29	dem	ART	die	_	O	O	
+17-30	15	CARD	15	_	O	O	
+17-31	n	ADJA	<unknown>	_	O	O	
+17-32	•	ADJA	<unknown>	_	O	O	
+17-33	Sept.	NN	<unknown>	_	O	O	
+
+#id=18
+#text=in Turin zu sein.
+18-1	in	APPR	in	_	O	O	
+18-2	Turin	NE	Turin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+18-3	zu	PTKZU	zu	_	O	O	
+18-4	sein	VAINF	sein	_	O	O	
+18-5	.	$.	.	_	O	O	
+
+#id=19
+#text=Curtius bitte mit besten Grüßen zu erinnern, dß.
+19-1	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+19-2	bitte	VVFIN	bitten	_	O	O	
+19-3	mit	APPR	mit	_	O	O	
+19-4	besten	ADJA	gut	_	O	O	
+19-5	Grüßen	NN	Gruß|Grüßen	_	O	O	
+19-6	zu	PTKZU	zu	_	O	O	
+19-7	erinnern	VVINF	erinnern	_	O	O	
+19-8	,	$,	,	_	O	O	
+19-9	dß	VVFIN	<unknown>	_	O	O	
+19-10	.	$.	.	_	O	O	
+
+#id=20
+#text=er mir ein Exemplar seines Wegebaus für ds.
+20-1	er	PPER	er	_	O	O	
+20-2	mir	PPER	ich	_	O	O	
+20-3	ein	ART	eine	_	O	O	
+20-4	Exemplar	NN	Exemplar	_	O	O	
+20-5	seines	PPOSAT	sein	_	O	O	
+20-6	Wegebaus	NN	Wegebau	_	O	O	
+20-7	für	APPR	für	_	O	O	
+20-8	ds.	ADJA	<unknown>	_	O	O	
+
+#id=21
+#text=Institut hieher schicken wollte; es wird Zeit damit.
+21-1	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+21-2	hieher	NN	<unknown>	_	O	O	
+21-3	schicken	VVINF	schicken	_	O	O	
+21-4	wollte	VMFIN	wollen	_	O	O	
+21-5	;	$.	;	_	O	O	
+21-6	es	PPER	es	_	O	O	
+21-7	wird	VAFIN	werden	_	O	O	
+21-8	Zeit	NN	Zeit	_	O	O	
+21-9	damit	PAV	damit	_	O	O	
+21-10	.	$.	.	_	O	O	
+
+#id=22
+#text=Ferner sagen Sie gefälligst Horkel er möge sich des Ah1mianus Marcellinus erinnern, den er vor 10 Jahren aus der Institutsbibliothek mitgenommen unter der Bedingung, ein andres
+22-1	Ferner	ADJD	fern	_	O	O	
+22-2	sagen	VVFIN	sagen	_	O	O	
+22-3	Sie	PPER	Sie	_	O	O	
+22-4	gefälligst	ADJD	gefälligst	_	O	O	
+22-5	Horkel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+22-6	er	PPER	er	_	O	O	
+22-7	möge	VMFIN	mögen	_	O	O	
+22-8	sich	PRF	sich	_	O	O	
+22-9	des	ART	die	_	O	O	
+22-10	Ah1mianus	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+22-11	Marcellinus	NE	Marcellinus	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+22-12	erinnern	VVINF	erinnern	_	O	O	
+22-13	,	$,	,	_	O	O	
+22-14	den	PRELS	die	_	O	O	
+22-15	er	PPER	er	_	O	O	
+22-16	vor	APPR	vor	_	O	O	
+22-17	10	CARD	10	_	O	O	
+22-18	Jahren	NN	Jahr	_	O	O	
+22-19	aus	APPR	aus	_	O	O	
+22-20	der	ART	die	_	O	O	
+22-21	Institutsbibliothek	NN	Institutsbibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+22-22	mitgenommen	VVPP	mitnehmen	_	O	O	
+22-23	unter	APPR	unter	_	O	O	
+22-24	der	ART	die	_	O	O	
+22-25	Bedingung	NN	Bedingung	_	O	O	
+22-26	,	$,	,	_	O	O	
+22-27	ein	ART	eine	_	O	O	
+22-28	andres	PIAT	andere	_	O	O	
+

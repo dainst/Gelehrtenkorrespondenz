@@ -1,0 +1,200 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Verehrter Freund Lepsius an Henzen Berlin, 30. Januar 1875 g. 2/2 75 r. Berlin, d. 30. Jan.
+1-1	Verehrter	ADJA	verehrt	_	O	O	
+1-2	Freund	NE	Freund	_	O	O	
+1-3	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	2/2	CARD	2/2	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	r.	ADJA	<unknown>	_	O	O	
+1-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-17	,	$,	,	_	O	O	
+1-18	d.	ART	d.	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-19	30	CARD	30	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1875 Meine beiden letzten Briefe kurz nach einander ( ich bitte um die data) werden Sie erhalten haben, den gestrigen mit Anmeldung der Laspeyres'schen Zeichnungen.
+2-1	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Meine	PPOSAT	mein	_	O	O	
+2-3	beiden	PIAT	beide	_	O	O	
+2-4	letzten	ADJA	letzt	_	O	O	
+2-5	Briefe	NN	Brief	_	O	O	
+2-6	kurz	ADJD	kurz	_	O	O	
+2-7	nach	APPR	nach	_	O	O	
+2-8	einander	PRF	einander	_	O	O	
+2-9	(	$(	(	_	O	O	
+2-10	ich	PPER	ich	_	O	O	
+2-11	bitte	VVFIN	bitten	_	O	O	
+2-12	um	APPR	um	_	O	O	
+2-13	die	ART	die	_	O	O	
+2-14	data	NN	<unknown>	_	O	O	
+2-15	)	$(	)	_	O	O	
+2-16	werden	VAINF	werden	_	O	O	
+2-17	Sie	PPER	Sie	_	O	O	
+2-18	erhalten	VVPP	erhalten	_	O	O	
+2-19	haben	VAINF	haben	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	den	ART	die	_	O	O	
+2-22	gestrigen	ADJA	gestrig	_	O	O	
+2-23	mit	APPR	mit	_	O	O	
+2-24	Anmeldung	NN	Anmeldung	_	O	O	
+2-25	der	ART	die	_	O	O	
+2-26	Laspeyres'schen	ADJA	<unknown>	_	O	O	
+2-27	Zeichnungen	NN	Zeichnung	_	O	O	
+2-28	.	$.	.	_	O	O	
+
+#id=3
+#text=Dressel's Bewerbung ist eingegangen.
+3-1	Dressel's	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	Bewerbung	NN	Bewerbung	_	O	O	
+3-3	ist	VAFIN	sein	_	O	O	
+3-4	eingegangen	VVPP	eingehen	_	O	O	
+3-5	.	$.	.	_	O	O	
+
+#id=4
+#text=Wir schicken gern die Doktordissertation an die auswärtigen Mitglieder voraus, wenn wir 5 Exemplare davon erhalten, die dann wieder zurückgestellt werden können.
+4-1	Wir	PPER	wir	_	O	O	
+4-2	schicken	VVFIN	schicken	_	O	O	
+4-3	gern	ADV	gern	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	Doktordissertation	NN	<unknown>	_	O	O	
+4-6	an	APPR	an	_	O	O	
+4-7	die	ART	die	_	O	O	
+4-8	auswärtigen	ADJA	auswärtig	_	O	O	
+4-9	Mitglieder	NN	Mitglied	_	O	O	
+4-10	voraus	PTKVZ	voraus	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	wenn	KOUS	wenn	_	O	O	
+4-13	wir	PPER	wir	_	O	O	
+4-14	5	CARD	5	_	O	O	
+4-15	Exemplare	NN	Exemplar	_	O	O	
+4-16	davon	PAV	davon	_	O	O	
+4-17	erhalten	VVINF	erhalten	_	O	O	
+4-18	,	$,	,	_	O	O	
+4-19	die	PRELS	die	_	O	O	
+4-20	dann	ADV	dann	_	O	O	
+4-21	wieder	ADV	wieder	_	O	O	
+4-22	zurückgestellt	VVPP	zurückstellen	_	O	O	
+4-23	werden	VAINF	werden	_	O	O	
+4-24	können	VMFIN	können	_	O	O	
+4-25	.	$.	.	_	O	O	
+
+#id=5
+#text=Über die Matz'schen Werke und Eichler wird also die General Versammlung entscheiden.
+5-1	Über	APPR	über	_	O	O	
+5-2	die	ART	die	_	O	O	
+5-3	Matz'schen	ADJA	<unknown>	_	O	O	
+5-4	Werke	NN	Werk	_	O	O	
+5-5	und	KON	und	_	O	O	
+5-6	Eichler	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-7	wird	VAFIN	werden	_	O	O	
+5-8	also	ADV	also	_	O	O	
+5-9	die	ART	die	_	O	O	
+5-10	General	NN	General	_	O	O	
+5-11	Versammlung	NN	Versammlung	_	O	O	
+5-12	entscheiden	VVINF	entscheiden	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich werde Klügmann und Robert nennen.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	werde	VAFIN	werden	_	O	O	
+6-3	Klügmann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	und	KON	und	_	O	O	
+6-5	Robert	NE	Robert	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-6	nennen	VVINF	nennen	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=Eine weitere officielle Anweisung die Gelder zu erheben werden Sie außer der meinigen, die so gemeint ist, nicht erhalten.
+7-1	Eine	ART	eine	_	O	O	
+7-2	weitere	ADJA	weit	_	O	O	
+7-3	officielle	ADJA	<unknown>	_	O	O	
+7-4	Anweisung	NN	Anweisung	_	O	O	
+7-5	die	ART	die	_	O	O	
+7-6	Gelder	NN	Geld	_	O	O	
+7-7	zu	PTKZU	zu	_	O	O	
+7-8	erheben	VVINF	erheben	_	O	O	
+7-9	werden	VAINF	werden	_	O	O	
+7-10	Sie	PPER	Sie	_	O	O	
+7-11	außer	APPR	außer	_	O	O	
+7-12	der	ART	die	_	O	O	
+7-13	meinigen	PPOSS	meinig	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	die	PRELS	die	_	O	O	
+7-16	so	ADV	so	_	O	O	
+7-17	gemeint	VVPP	meinen	_	O	O	
+7-18	ist	VAFIN	sein	_	O	O	
+7-19	,	$,	,	_	O	O	
+7-20	nicht	PTKNEG	nicht	_	O	O	
+7-21	erhalten	VVINF	erhalten	_	O	O	
+7-22	.	$.	.	_	O	O	
+
+#id=8
+#text=Die Provision steckt immer in der Berechnung des Tageskurses der fremden Münze.
+8-1	Die	ART	die	_	O	O	
+8-2	Provision	NN	Provision	_	O	O	
+8-3	steckt	VVFIN	stecken	_	O	O	
+8-4	immer	ADV	immer	_	O	O	
+8-5	in	APPR	in	_	O	O	
+8-6	der	ART	die	_	O	O	
+8-7	Berechnung	NN	Berechnung	_	O	O	
+8-8	des	ART	die	_	O	O	
+8-9	Tageskurses	NN	<unknown>	_	O	O	
+8-10	der	ART	die	_	O	O	
+8-11	fremden	ADJA	fremd	_	O	O	
+8-12	Münze	NN	Münze	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Mommsen hat Ihnen durch die Legationskasse das erwartete Geld gesendet.
+9-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	hat	VAFIN	haben	_	O	O	
+9-3	Ihnen	PPER	Sie	_	O	O	
+9-4	durch	APPR	durch	_	O	O	
+9-5	die	ART	die	_	O	O	
+9-6	Legationskasse	NN	<unknown>	_	O	O	
+9-7	das	ART	die	_	O	O	
+9-8	erwartete	ADJA	erwartet	_	O	O	
+9-9	Geld	NN	Geld	_	O	O	
+9-10	gesendet	VVPP	senden	_	O	O	
+9-11	.	$.	.	_	O	O	
+
+#id=10
+#text=Für weitere Auslagen werden Sie wohl immer genug in Cassa haben; sonst ziehen Sie eben auf die Legationskasse auf Rechnung der Central Di-
+10-1	Für	APPR	für	_	O	O	
+10-2	weitere	ADJA	weit	_	O	O	
+10-3	Auslagen	NN	Auslage	_	O	O	
+10-4	werden	VAFIN	werden	_	O	O	
+10-5	Sie	PPER	Sie	_	O	O	
+10-6	wohl	ADV	wohl	_	O	O	
+10-7	immer	ADV	immer	_	O	O	
+10-8	genug	ADV	genug	_	O	O	
+10-9	in	APPR	in	_	O	O	
+10-10	Cassa	NE	<unknown>	_	O	O	
+10-11	haben	VAINF	haben	_	O	O	
+10-12	;	$.	;	_	O	O	
+10-13	sonst	ADV	sonst	_	O	O	
+10-14	ziehen	VVFIN	zeihen|ziehen	_	O	O	
+10-15	Sie	PPER	Sie	_	O	O	
+10-16	eben	ADV	eben	_	O	O	
+10-17	auf	APPR	auf	_	O	O	
+10-18	die	ART	die	_	O	O	
+10-19	Legationskasse	NN	<unknown>	_	O	O	
+10-20	auf	APPR	auf	_	O	O	
+10-21	Rechnung	NN	Rechnung	_	O	O	
+10-22	der	ART	die	_	O	O	
+10-23	Central	NN	<unknown>	_	O	O	
+10-24	Di-	TRUNC	Di-	_	O	O	
+

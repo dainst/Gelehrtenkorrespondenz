@@ -1,0 +1,59 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=-- 74 6/111/53 Henzen an Gerhard 3 , Meine Frau dankt der Ihrigen bestens für Ihren 1 .
+1-1	--	$(	--	_	O	O	
+1-2	74	CARD	74	_	O	O	
+1-3	6/111/53	CARD	@card@	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	3	CARD	3	_	O	O	
+1-8	,	$,	,	_	O	O	
+1-9	Meine	PPOSAT	mein	_	O	O	
+1-10	Frau	NN	Frau	_	O	O	
+1-11	dankt	VVFIN	danken	_	O	O	
+1-12	der	ART	die	_	O	O	
+1-13	Ihrigen	NN	<unknown>	_	O	O	
+1-14	bestens	ADV	bestens	_	O	O	
+1-15	für	APPR	für	_	O	O	
+1-16	Ihren	PPOSAT	ihr	_	O	O	
+1-17	1	CARD	1	_	O	O	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=~ ' __ fr~dliehen Brief, den sie baldigst erwiedern wird.
+2-1	~	XY	~	_	O	O	
+2-2	'	$(	'	_	O	O	
+2-3	__	ADJD	<unknown>	_	O	O	
+2-4	fr~dliehen	ADJA	<unknown>	_	O	O	
+2-5	Brief	NN	Brief	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	den	PRELS	die	_	O	O	
+2-8	sie	PPER	sie	_	O	O	
+2-9	baldigst	ADJD	baldig	_	O	O	
+2-10	erwiedern	VVINF	<unknown>	_	O	O	
+2-11	wird	VAFIN	werden	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Braun u. Weleker sind ganz wohl u. grüßen herzliehst.
+3-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-2	u.	APPR	um	_	O	O	
+3-3	Weleker	NN	<unknown>	_	O	O	
+3-4	sind	VAFIN	sein	_	O	O	
+3-5	ganz	ADV	ganz	_	O	O	
+3-6	wohl	ADV	wohl	_	O	O	
+3-7	u.	KON	und	_	O	O	
+3-8	grüßen	VVFIN	grüßen	_	O	O	
+3-9	herzliehst	ADJD	<unknown>	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Ihr WHenzen Rom 6/111 53.
+4-1	Ihr	PPOSAT	ihr	_	O	O	
+4-2	WHenzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+4-3	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-4	6/111	CARD	6/111	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-5	53	CARD	53	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-6	.	$.	.	_	O	O	
+

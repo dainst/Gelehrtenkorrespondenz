@@ -1,0 +1,88 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=276 2 Lepsius an Benzen Berlin, 30. April 1877 kungskosten durch Asher auslegen und Ihnen zur Berechnung stellen lassen.
+1-1	276	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Benzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	kungskosten	NN	<unknown>	_	O	O	
+1-13	durch	APPR	durch	_	O	O	
+1-14	Asher	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-15	auslegen	VVINF	auslegen	_	O	O	
+1-16	und	KON	und	_	O	O	
+1-17	Ihnen	PPER	Sie	_	O	O	
+1-18	zur	APPRART	zu	_	O	O	
+1-19	Berechnung	NN	Berechnung	_	O	O	
+1-20	stellen	VVINF	stellen	_	O	O	
+1-21	lassen	VVFIN	lassen	_	O	O	
+1-22	.	$.	.	_	O	O	
+
+#id=2
+#text=Wir lassen Ihnen dann die Sendung unfrankirt zugehen.
+2-1	Wir	PPER	wir	_	O	O	
+2-2	lassen	VVFIN	lassen	_	O	O	
+2-3	Ihnen	PPER	Sie	_	O	O	
+2-4	dann	ADV	dann	_	O	O	
+2-5	die	ART	die	_	O	O	
+2-6	Sendung	NN	Sendung	_	O	O	
+2-7	unfrankirt	ADJD	<unknown>	_	O	O	
+2-8	zugehen	VVINF	zugehen	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Das Ganze kann ja nicht bedeutend sein.
+3-1	Das	ART	die	_	O	O	
+3-2	Ganze	NN	Ganze	_	O	O	
+3-3	kann	VMFIN	können	_	O	O	
+3-4	ja	ADV	ja	_	O	O	
+3-5	nicht	PTKNEG	nicht	_	O	O	
+3-6	bedeutend	ADJD	bedeutend	_	O	O	
+3-7	sein	VAINF	sein	_	O	O	
+3-8	.	$.	.	_	O	O	
+
+#id=4
+#text=Zugleich lasse ich hier an die Italienische Botschaft schreiben, mit der Bitte die Kisten zollfrei in Italien eingehen zu lassen.
+4-1	Zugleich	ADV	zugleich	_	O	O	
+4-2	lasse	VVFIN	lassen	_	O	O	
+4-3	ich	PPER	ich	_	O	O	
+4-4	hier	ADV	hier	_	O	O	
+4-5	an	APPR	an	_	O	O	
+4-6	die	ART	die	_	O	O	
+4-7	Italienische	ADJA	italienisch	_	O	O	
+4-8	Botschaft	NN	Botschaft	_	O	O	
+4-9	schreiben	VVINF	schreiben	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	mit	APPR	mit	_	O	O	
+4-12	der	PRELS	die	_	O	O	
+4-13	Bitte	ADV	Bitte	_	O	O	
+4-14	die	ART	die	_	O	O	
+4-15	Kisten	NN	Kiste	_	O	O	
+4-16	zollfrei	ADJD	zollfrei	_	O	O	
+4-17	in	APPR	in	_	O	O	
+4-18	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-19	eingehen	VVINF	eingehen	_	O	O	
+4-20	zu	PTKZU	zu	_	O	O	
+4-21	lassen	VVINF	lassen	_	O	O	
+4-22	.	$.	.	_	O	O	
+
+#id=5
+#text=Schreiben Sie umgehend, ob es Ihnen so recht ist.
+5-1	Schreiben	VVFIN	schreiben	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	umgehend	ADJD	umgehend	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	ob	KOUS	ob	_	O	O	
+5-6	es	PPER	es	_	O	O	
+5-7	Ihnen	PPER	Sie	_	O	O	
+5-8	so	ADV	so	_	O	O	
+5-9	recht	ADJD	recht	_	O	O	
+5-10	ist	VAFIN	sein	_	O	O	
+5-11	.	$.	.	_	O	O	
+

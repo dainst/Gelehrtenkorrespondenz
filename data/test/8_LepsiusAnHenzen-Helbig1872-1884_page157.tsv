@@ -1,0 +1,222 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Richard Lepsius an Wolf gang Helbig Berlin, 4. Mai 1874 die in Aussicht stehende erweiterte Central Direktion.
+1-1	2	CARD	2	_	O	O	
+1-2	Richard	NE	Richard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Wolf	NE	Wolf	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	gang	ADJD	gang	_	O	O	
+1-7	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	4	CARD	4	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	die	ART	die	_	O	O	
+1-15	in	APPR	in	_	O	O	
+1-16	Aussicht	NN	Aussicht	_	O	O	
+1-17	stehende	ADJA	stehend	_	O	O	
+1-18	erweiterte	ADJA	erweitert	_	O	O	
+1-19	Central	NN	<unknown>	_	O	O	
+1-20	Direktion	NN	Direktion	_	O	O	
+1-21	.	$.	.	_	O	O	
+
+#id=2
+#text=Sie müssen sich also gedulden, bis sie dieser vorgelegt werden kann.
+2-1	Sie	PPER	Sie	_	O	O	
+2-2	müssen	VMFIN	müssen	_	O	O	
+2-3	sich	PRF	sich	_	O	O	
+2-4	also	ADV	also	_	O	O	
+2-5	gedulden	VVINF	gedulden	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	bis	KOUS	bis	_	O	O	
+2-8	sie	PPER	sie	_	O	O	
+2-9	dieser	PDS	diese	_	O	O	
+2-10	vorgelegt	VVPP	vorlegen	_	O	O	
+2-11	werden	VAINF	werden	_	O	O	
+2-12	kann	VMFIN	können	_	O	O	
+2-13	.	$.	.	_	O	O	
+
+#id=3
+#text=Was den Professortitel betrifft, so steht die Sache ganz ebenso.
+3-1	Was	PWS	was	_	O	O	
+3-2	den	ART	die	_	O	O	
+3-3	Professortitel	NN	<unknown>	_	O	O	
+3-4	betrifft	VVFIN	betreffen	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	so	ADV	so	_	O	O	
+3-7	steht	VVFIN	stehen	_	O	O	
+3-8	die	ART	die	_	O	O	
+3-9	Sache	NN	Sache	_	O	O	
+3-10	ganz	ADV	ganz	_	O	O	
+3-11	ebenso	ADV	ebenso	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Das Reich wird sich ohne Zeifel für competent halten denselven zu ertheilen.
+4-1	Das	ART	die	_	O	O	
+4-2	Reich	NN	Reich	_	O	O	
+4-3	wird	VAFIN	werden	_	O	O	
+4-4	sich	PRF	sich	_	O	O	
+4-5	ohne	APPR	ohne	_	O	O	
+4-6	Zeifel	NN	<unknown>	_	O	O	
+4-7	für	APPR	für	_	O	O	
+4-8	competent	ADJD	<unknown>	_	O	O	
+4-9	halten	VVFIN	halten	_	O	O	
+4-10	denselven	ADJD	<unknown>	_	O	O	
+4-11	zu	PTKZU	zu	_	O	O	
+4-12	ertheilen	VVINF	<unknown>	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Wir sind einstimmig der Meinung, daß Ihr Wunsch erfüllbar sei.
+5-1	Wir	PPER	wir	_	O	O	
+5-2	sind	VAFIN	sein	_	O	O	
+5-3	einstimmig	ADJD	einstimmig	_	O	O	
+5-4	der	ART	die	_	O	O	
+5-5	Meinung	NN	Meinung	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	daß	KOUS	dass	_	O	O	
+5-8	Ihr	PPOSAT	ihr	_	O	O	
+5-9	Wunsch	NN	Wunsch	_	O	O	
+5-10	erfüllbar	ADJD	erfüllbar	_	O	O	
+5-11	sei	VAFIN	sein	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Er muß aber der zukünftigen Central Direktion vorgelegt werden.
+6-1	Er	PPER	er	_	O	O	
+6-2	muß	VMFIN	müssen	_	O	O	
+6-3	aber	ADV	aber	_	O	O	
+6-4	der	ART	die	_	O	O	
+6-5	zukünftigen	ADJA	zukünftig	_	O	O	
+6-6	Central	NN	<unknown>	_	O	O	
+6-7	Direktion	NN	Direktion	_	O	O	
+6-8	vorgelegt	VVPP	vorlegen	_	O	O	
+6-9	werden	VAINF	werden	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Wir glauben hiermit das nach der Sachlage Mögliche gethan zu haben und daß Sie mit diesen Resultaten vollkommen zufrieden sein können und werden.
+7-1	Wir	PPER	wir	_	O	O	
+7-2	glauben	VVFIN	glauben	_	O	O	
+7-3	hiermit	PAV	hiermit	_	O	O	
+7-4	das	PDS	die	_	O	O	
+7-5	nach	APPR	nach	_	O	O	
+7-6	der	ART	die	_	O	O	
+7-7	Sachlage	NN	Sachlage	_	O	O	
+7-8	Mögliche	ADJA	möglich	_	O	O	
+7-9	gethan	NN	<unknown>	_	O	O	
+7-10	zu	PTKZU	zu	_	O	O	
+7-11	haben	VAINF	haben	_	O	O	
+7-12	und	KON	und	_	O	O	
+7-13	daß	KOUS	dass	_	O	O	
+7-14	Sie	PPER	Sie	_	O	O	
+7-15	mit	APPR	mit	_	O	O	
+7-16	diesen	PDAT	dies	_	O	O	
+7-17	Resultaten	NN	Resultat	_	O	O	
+7-18	vollkommen	ADJD	vollkommen	_	O	O	
+7-19	zufrieden	ADJD	zufrieden	_	O	O	
+7-20	sein	VAINF	sein	_	O	O	
+7-21	können	VMFIN	können	_	O	O	
+7-22	und	KON	und	_	O	O	
+7-23	werden	VAINF	werden	_	O	O	
+7-24	.	$.	.	_	O	O	
+
+#id=8
+#text=Was die Reise nach Tharros betrifft, die ich für mein Theil für sehr ersprießlich halten würde, so giebt auch die Central Direktion sehr gern ihre Genehmigung, auch für den Zeichner.
+8-1	Was	PWS	was	_	O	O	
+8-2	die	ART	die	_	O	O	
+8-3	Reise	NN	Reise	_	O	O	
+8-4	nach	APPR	nach	_	O	O	
+8-5	Tharros	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-6	betrifft	VVFIN	betreffen	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	die	PRELS	die	_	O	O	
+8-9	ich	PPER	ich	_	O	O	
+8-10	für	APPR	für	_	O	O	
+8-11	mein	PPOSAT	mein	_	O	O	
+8-12	Theil	NN	<unknown>	_	O	O	
+8-13	für	APPR	für	_	O	O	
+8-14	sehr	ADV	sehr	_	O	O	
+8-15	ersprießlich	ADJD	ersprießlich	_	O	O	
+8-16	halten	VVINF	halten	_	O	O	
+8-17	würde	VAFIN	werden	_	O	O	
+8-18	,	$,	,	_	O	O	
+8-19	so	ADV	so	_	O	O	
+8-20	giebt	VVFIN	<unknown>	_	O	O	
+8-21	auch	ADV	auch	_	O	O	
+8-22	die	ART	die	_	O	O	
+8-23	Central	NN	<unknown>	_	O	O	
+8-24	Direktion	NN	Direktion	_	O	O	
+8-25	sehr	ADV	sehr	_	O	O	
+8-26	gern	ADV	gern	_	O	O	
+8-27	ihre	PPOSAT	ihr	_	O	O	
+8-28	Genehmigung	NN	Genehmigung	_	O	O	
+8-29	,	$,	,	_	O	O	
+8-30	auch	ADV	auch	_	O	O	
+8-31	für	APPR	für	_	O	O	
+8-32	den	ART	die	_	O	O	
+8-33	Zeichner	NN	Zeichner	_	O	O	
+8-34	.	$.	.	_	O	O	
+
+#id=9
+#text=Was die Kosten betrifft, die Sie oder Henzen - auf c(irca) 700 Lire schätzten, so würde zuletzt auf Ihren Reisefonds von 800 r zu conkurriren sein; kann er es nicht leisten, so wird auch der Titel Insgemein in Anspruch genommen werden können.
+9-1	Was	PWS	was	_	O	O	
+9-2	die	ART	die	_	O	O	
+9-3	Kosten	NN	Kosten	_	O	O	
+9-4	betrifft	VVFIN	betreffen	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	die	PRELS	die	_	O	O	
+9-7	Sie	PPER	Sie	_	O	O	
+9-8	oder	KON	oder	_	O	O	
+9-9	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-10	-	$(	-	_	O	O	
+9-11	auf	APPR	auf	_	O	O	
+9-12	c(irca)	ADJA	<unknown>	_	O	O	
+9-13	700	CARD	700	_	O	O	
+9-14	Lire	NN	Lira	_	O	O	
+9-15	schätzten	VVFIN	schätzen	_	O	O	
+9-16	,	$,	,	_	O	O	
+9-17	so	ADV	so	_	O	O	
+9-18	würde	VAFIN	werden	_	O	O	
+9-19	zuletzt	ADV	zuletzt	_	O	O	
+9-20	auf	APPR	auf	_	O	O	
+9-21	Ihren	PPOSAT	ihr	_	O	O	
+9-22	Reisefonds	NN	Reisefonds	_	O	O	
+9-23	von	APPR	von	_	O	O	
+9-24	800	CARD	800	_	O	O	
+9-25	r	NE	r	_	O	O	
+9-26	zu	APPR	zu	_	O	O	
+9-27	conkurriren	NN	<unknown>	_	O	O	
+9-28	sein	VAINF	sein	_	O	O	
+9-29	;	$.	;	_	O	O	
+9-30	kann	VMFIN	können	_	O	O	
+9-31	er	PPER	er	_	O	O	
+9-32	es	PPER	es	_	O	O	
+9-33	nicht	PTKNEG	nicht	_	O	O	
+9-34	leisten	VVINF	leisten	_	O	O	
+9-35	,	$,	,	_	O	O	
+9-36	so	ADV	so	_	O	O	
+9-37	wird	VAFIN	werden	_	O	O	
+9-38	auch	ADV	auch	_	O	O	
+9-39	der	ART	die	_	O	O	
+9-40	Titel	NN	Titel	_	O	O	
+9-41	Insgemein	NN	<unknown>	_	O	O	
+9-42	in	APPR	in	_	O	O	
+9-43	Anspruch	NN	Anspruch	_	O	O	
+9-44	genommen	VVPP	nehmen	_	O	O	
+9-45	werden	VAINF	werden	_	O	O	
+9-46	können	VMINF	können	_	O	O	
+9-47	.	$.	.	_	O	O	
+
+#id=10
+#text=Ihr aufrichtig ergebener R Lepsius
+10-1	Ihr	PPOSAT	ihr	_	O	O	
+10-2	aufrichtig	ADJD	aufrichtig	_	O	O	
+10-3	ergebener	ADJA	ergeben	_	O	O	
+10-4	R	NN	R	_	O	O	
+10-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

@@ -1,0 +1,311 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=r , , ~ • 296 25/VII/53 Verehrter Herr Professor Henzen an Gerhard Rom 25/VII 53.
+1-1	r	NE	r	_	O	O	
+1-2	,	$,	,	_	O	O	
+1-3	,	$,	,	_	O	O	
+1-4	~	XY	~	_	O	O	
+1-5	•	NN	<unknown>	_	O	O	
+1-6	296	CARD	@card@	_	O	O	
+1-7	25/VII/53	CARD	<unknown>	_	O	O	
+1-8	Verehrter	ADJA	verehrt	_	O	O	
+1-9	Herr	NN	Herr	_	O	O	
+1-10	Professor	NN	Professor	_	O	O	
+1-11	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-12	an	APPR	an	_	O	O	
+1-13	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-14	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	25/VII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-16	53	CARD	53	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich vergaß mehrmals, Sie zu fragen, ob Sie für die Arch.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	vergaß	VVFIN	vergessen	_	O	O	
+2-3	mehrmals	ADV	mehrmals	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	Sie	PPER	Sie	_	O	O	
+2-6	zu	PTKZU	zu	_	O	O	
+2-7	fragen	VVINF	fragen	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	ob	KOUS	ob	_	O	O	
+2-10	Sie	PPER	Sie	_	O	O	
+2-11	für	APPR	für	_	O	O	
+2-12	die	ART	die	_	O	O	
+2-13	Arch	NN	<unknown>	_	O	O	
+2-14	.	$.	.	_	O	O	
+
+#id=3
+#text=Ztg einen Aufsatz von Gargallo wollen, Erklärung eines Rhyten, recht hübsche Zeichnung, Greif mit Amazone.
+3-1	Ztg	VVIMP	<unknown>	_	O	O	
+3-2	einen	ART	eine	_	O	O	
+3-3	Aufsatz	NN	Aufsatz	_	O	O	
+3-4	von	APPR	von	_	O	O	
+3-5	Gargallo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	wollen	VMFIN	wollen	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	Erklärung	NN	Erklärung	_	O	O	
+3-9	eines	ART	eine	_	O	O	
+3-10	Rhyten	NN	<unknown>	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	recht	ADJD	recht	_	O	O	
+3-13	hübsche	ADJA	hübsch	_	O	O	
+3-14	Zeichnung	NN	Zeichnung	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	Greif	NN	Greif	_	O	O	
+3-17	mit	APPR	mit	_	O	O	
+3-18	Amazone	NN	Amazone	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Wir konnten es nicht brauchen, daher versprach ich, bei Ihnen anzufragen.
+4-1	Wir	PPER	wir	_	O	O	
+4-2	konnten	VMFIN	können	_	O	O	
+4-3	es	PPER	es	_	O	O	
+4-4	nicht	PTKNEG	nicht	_	O	O	
+4-5	brauchen	VVINF	brauchen	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	daher	PAV	daher	_	O	O	
+4-8	versprach	VVFIN	versprechen	_	O	O	
+4-9	ich	PPER	ich	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	bei	APPR	bei	_	O	O	
+4-12	Ihnen	PPER	Sie	_	O	O	
+4-13	anzufragen	VVIZU	anfragen	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Es ist aber eine alte Geschichte, u. Sie dlirfen ihm per carita nicht schreiben, dß.
+5-1	Es	PPER	es	_	O	O	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	aber	ADV	aber	_	O	O	
+5-4	eine	ART	eine	_	O	O	
+5-5	alte	ADJA	alt	_	O	O	
+5-6	Geschichte	NN	Geschichte	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	u.	KON	und	_	O	O	
+5-9	Sie	PPER	Sie	_	O	O	
+5-10	dlirfen	VVFIN	<unknown>	_	O	O	
+5-11	ihm	PPER	er	_	O	O	
+5-12	per	APPR	per	_	O	O	
+5-13	carita	NE	Carita	_	O	O	
+5-14	nicht	PTKNEG	nicht	_	O	O	
+5-15	schreiben	VVINF	schreiben	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	dß	VVFIN	<unknown>	_	O	O	
+5-18	.	$.	.	_	O	O	
+
+#id=6
+#text=Sie erst \ jetzt ~_ •..•• ~>< davon hören.
+6-1	Sie	PPER	Sie	_	O	O	
+6-2	erst	ADV	erst	_	O	O	
+6-3	\	XY	\	_	O	O	
+6-4	jetzt	ADV	jetzt	_	O	O	
+6-5	~_	ADJA	<unknown>	_	O	O	
+6-6	•	NN	<unknown>	_	O	O	
+6-7	.	$.	.	_	O	O	
+6-8	.	$.	.	_	O	O	
+6-9	•	ADJA	<unknown>	_	O	O	
+6-10	•	NN	<unknown>	_	O	O	
+6-11	~><	ADJD	<unknown>	_	O	O	
+6-12	davon	PAV	davon	_	O	O	
+6-13	hören	VVFIN	hören	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=De Rossi wünscht zu wissen, in welchem Blatte etwa unsre gemeinsame Ernennung zu Correspondenten angezeigt sei.
+7-1	De	NE	De	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-3	wünscht	VVFIN	wünschen	_	O	O	
+7-4	zu	PTKZU	zu	_	O	O	
+7-5	wissen	VVINF	wissen	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	in	APPR	in	_	O	O	
+7-8	welchem	PRELS	welche	_	O	O	
+7-9	Blatte	NN	Blatt	_	O	O	
+7-10	etwa	ADV	etwa	_	O	O	
+7-11	unsre	PPOSAT	unsre	_	O	O	
+7-12	gemeinsame	ADJA	gemeinsam	_	O	O	
+7-13	Ernennung	NN	Ernennung	_	O	O	
+7-14	zu	APPR	zu	_	O	O	
+7-15	Correspondenten	NN	<unknown>	_	O	O	
+7-16	angezeigt	VVPP	anzeigen	_	O	O	
+7-17	sei	VAFIN	sein	_	O	O	
+7-18	.	$.	.	_	O	O	
+
+#id=8
+#text=Ist das etwa geschehen, So schicken Sie mir einen Ausschnitt.
+8-1	Ist	VAFIN	sein	_	O	O	
+8-2	das	PDS	die	_	O	O	
+8-3	etwa	ADV	etwa	_	O	O	
+8-4	geschehen	VVINF	geschehen	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	So	ADV	so	_	O	O	
+8-7	schicken	VVFIN	schicken	_	O	O	
+8-8	Sie	PPER	Sie	_	O	O	
+8-9	mir	PRF	ich	_	O	O	
+8-10	einen	ART	eine	_	O	O	
+8-11	Ausschnitt	NN	Ausschnitt	_	O	O	
+8-12	.	$.	.	_	O	O	
+
+#id=9
+#text=So wie die Sache jetzt steht, ist's nöthig, hier etwas zu klingeln, u. daher will da Rossi seine Ernennung in der hiesißen Zeitung angezeigt haben.
+9-1	So	ADV	so	_	O	O	
+9-2	wie	KOKOM	wie	_	O	O	
+9-3	die	ART	die	_	O	O	
+9-4	Sache	NN	Sache	_	O	O	
+9-5	jetzt	ADV	jetzt	_	O	O	
+9-6	steht	VVFIN	stehen	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	ist's	VAFIN	sein	_	O	O	
+9-9	nöthig	ADJD	<unknown>	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	hier	ADV	hier	_	O	O	
+9-12	etwas	PIS	etwas	_	O	O	
+9-13	zu	PTKZU	zu	_	O	O	
+9-14	klingeln	VVINF	klingeln	_	O	O	
+9-15	,	$,	,	_	O	O	
+9-16	u.	KON	und	_	O	O	
+9-17	daher	PAV	daher	_	O	O	
+9-18	will	VMFIN	wollen	_	O	O	
+9-19	da	ADV	da	_	O	O	
+9-20	Rossi	NE	Rossi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-21	seine	PPOSAT	sein	_	O	O	
+9-22	Ernennung	NN	Ernennung	_	O	O	
+9-23	in	APPR	in	_	O	O	
+9-24	der	ART	die	_	O	O	
+9-25	hiesißen	ADJA	<unknown>	_	O	O	
+9-26	Zeitung	NN	Zeitung	_	O	O	
+9-27	angezeigt	VVPP	anzeigen	_	O	O	
+9-28	haben	VAINF	haben	_	O	O	
+9-29	.	$.	.	_	O	O	
+
+#id=10
+#text=Auch wird, sobald mit Mommsen Alles geregelt u. zwischen de Rossi u. ihm geordnet ist, eine officielle Aufforderung der Akademie an letzteren nöthig sein, die aber möglichst förmlich u. imposant sein muß, da er mit deren Hülfe sich eine Dispensation von seinem Dienste als Scrittore verschaffen will, die im Nothfalle auch Usedom bei der Regierung beantragen müßte.
+10-1	Auch	ADV	auch	_	O	O	
+10-2	wird	VAFIN	werden	_	O	O	
+10-3	,	$,	,	_	O	O	
+10-4	sobald	KOUS	sobald	_	O	O	
+10-5	mit	APPR	mit	_	O	O	
+10-6	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-7	Alles	PIS	alle	_	O	O	
+10-8	geregelt	VVPP	regeln	_	O	O	
+10-9	u.	KON	und	_	O	O	
+10-10	zwischen	APPR	zwischen	_	O	O	
+10-11	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-12	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-13	u.	APPR	um	_	O	O	
+10-14	ihm	PPER	er	_	O	O	
+10-15	geordnet	VVPP	ordnen	_	O	O	
+10-16	ist	VAFIN	sein	_	O	O	
+10-17	,	$,	,	_	O	O	
+10-18	eine	ART	eine	_	O	O	
+10-19	officielle	ADJA	<unknown>	_	O	O	
+10-20	Aufforderung	NN	Aufforderung	_	O	O	
+10-21	der	ART	die	_	O	O	
+10-22	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-23	an	APPR	an	_	O	O	
+10-24	letzteren	ADJA	letzt	_	O	O	
+10-25	nöthig	ADJD	<unknown>	_	O	O	
+10-26	sein	VAINF	sein	_	O	O	
+10-27	,	$,	,	_	O	O	
+10-28	die	PRELS	die	_	O	O	
+10-29	aber	ADV	aber	_	O	O	
+10-30	möglichst	ADV	möglichst	_	O	O	
+10-31	förmlich	ADJD	förmlich	_	O	O	
+10-32	u.	KON	und	_	O	O	
+10-33	imposant	ADJD	imposant	_	O	O	
+10-34	sein	VAINF	sein	_	O	O	
+10-35	muß	VMFIN	müssen	_	O	O	
+10-36	,	$,	,	_	O	O	
+10-37	da	KOUS	da	_	O	O	
+10-38	er	PPER	er	_	O	O	
+10-39	mit	APPR	mit	_	O	O	
+10-40	deren	PDAT	die	_	O	O	
+10-41	Hülfe	NN	<unknown>	_	O	O	
+10-42	sich	PRF	sich	_	O	O	
+10-43	eine	ART	eine	_	O	O	
+10-44	Dispensation	NN	<unknown>	_	O	O	
+10-45	von	APPR	von	_	O	O	
+10-46	seinem	PPOSAT	sein	_	O	O	
+10-47	Dienste	NN	Dienst	_	O	O	
+10-48	als	KOKOM	als	_	O	O	
+10-49	Scrittore	NN	<unknown>	_	O	O	
+10-50	verschaffen	VVINF	verschaffen	_	O	O	
+10-51	will	VMFIN	wollen	_	O	O	
+10-52	,	$,	,	_	O	O	
+10-53	die	PRELS	die	_	O	O	
+10-54	im	APPRART	in	_	O	O	
+10-55	Nothfalle	NN	<unknown>	_	O	O	
+10-56	auch	ADV	auch	_	O	O	
+10-57	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-58	bei	APPR	bei	_	O	O	
+10-59	der	ART	die	_	O	O	
+10-60	Regierung	NN	Regierung	_	O	O	
+10-61	beantragen	VVINF	beantragen	_	O	O	
+10-62	müßte	VMFIN	müssen	_	O	O	
+10-63	.	$.	.	_	O	O	
+
+#id=11
+#text=Doch mur.., wie gesagt, erst die Unterhandlung zwisehen ihm u. M. zu Ende geführt sein, damit letzterem nicht vorgegriffen werde.
+11-1	Doch	KON	doch	_	O	O	
+11-2	mur.	NE	<unknown>	_	O	O	
+11-3	.	$.	.	_	O	O	
+11-4	,	$,	,	_	O	O	
+11-5	wie	KOKOM	wie	_	O	O	
+11-6	gesagt	VVPP	sagen	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	erst	ADV	erst	_	O	O	
+11-9	die	ART	die	_	O	O	
+11-10	Unterhandlung	NN	Unterhandlung	_	O	O	
+11-11	zwisehen	VVFIN	<unknown>	_	O	O	
+11-12	ihm	PPER	er	_	O	O	
+11-13	u.	APPR	um	_	O	O	
+11-14	M.	NE	M.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-15	zu	APPR	zu	_	O	O	
+11-16	Ende	NN	Ende	_	O	O	
+11-17	geführt	VVPP	führen	_	O	O	
+11-18	sein	VAINF	sein	_	O	O	
+11-19	,	$,	,	_	O	O	
+11-20	damit	KOUS	damit	_	O	O	
+11-21	letzterem	ADJA	letzt	_	O	O	
+11-22	nicht	PTKNEG	nicht	_	O	O	
+11-23	vorgegriffen	VVPP	vorgreifen	_	O	O	
+11-24	werde	VAFIN	werden	_	O	O	
+11-25	.	$.	.	_	O	O	
+
+#id=12
+#text=Wird auch eine kleine Summe bewilligt werden, um etwa Schreiber zuziehen zu können?
+12-1	Wird	VAFIN	werden	_	O	O	
+12-2	auch	ADV	auch	_	O	O	
+12-3	eine	ART	eine	_	O	O	
+12-4	kleine	ADJA	klein	_	O	O	
+12-5	Summe	NN	Summe	_	O	O	
+12-6	bewilligt	VVPP	bewilligen	_	O	O	
+12-7	werden	VAINF	werden	_	O	O	
+12-8	,	$,	,	_	O	O	
+12-9	um	KOUI	um	_	O	O	
+12-10	etwa	ADV	etwa	_	O	O	
+12-11	Schreiber	NE	Schreiber	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-12	zuziehen	VVINF	zuziehen	_	O	O	
+12-13	zu	PTKZU	zu	_	O	O	
+12-14	können	VMINF	können	_	O	O	
+12-15	?	$.	?	_	O	O	
+
+#id=13
+#text=Bei den vielen rein materiellen Arbeiten wäre das ein ungemeines Zeit- u. so-
+13-1	Bei	APPR	bei	_	O	O	
+13-2	den	ART	die	_	O	O	
+13-3	vielen	PIAT	viele	_	O	O	
+13-4	rein	ADV	rein	_	O	O	
+13-5	materiellen	ADJA	materiell	_	O	O	
+13-6	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+13-7	wäre	VAFIN	sein	_	O	O	
+13-8	das	PDS	die	_	O	O	
+13-9	ein	ART	eine	_	O	O	
+13-10	ungemeines	ADJA	<unknown>	_	O	O	
+13-11	Zeit-	TRUNC	Zeit-	_	O	O	
+13-12	u.	APPR	um	_	O	O	
+13-13	so-	TRUNC	so-	_	O	O	
+

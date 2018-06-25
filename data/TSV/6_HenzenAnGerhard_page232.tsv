@@ -1,0 +1,301 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=26 5/11/55 2 Henzen an Gerhard ~enderUng Ihnen zur definitiven Bestätigung vorlegen wPrde • Auch ich mache mir keineswegs Illusionen über einen vermehrten Absatz der Schriften, wofern nicht etwa ein Buchhändler sie ordentlich in Verlag nähme, u. das wird schwer sein !
+1-1	26	CARD	26	_	O	O	
+1-2	5/11/55	CARD	@card@	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	~enderUng	NN	<unknown>	_	O	O	
+1-8	Ihnen	PPER	Sie	_	O	O	
+1-9	zur	APPRART	zu	_	O	O	
+1-10	definitiven	ADJA	definitiv	_	O	O	
+1-11	Bestätigung	NN	Bestätigung	_	O	O	
+1-12	vorlegen	VVFIN	vorlegen	_	O	O	
+1-13	wPrde	NN	<unknown>	_	O	O	
+1-14	•	ADJD	<unknown>	_	O	O	
+1-15	Auch	ADV	auch	_	O	O	
+1-16	ich	PPER	ich	_	O	O	
+1-17	mache	VVFIN	machen	_	O	O	
+1-18	mir	PPER	ich	_	O	O	
+1-19	keineswegs	ADV	keineswegs	_	O	O	
+1-20	Illusionen	NN	Illusion	_	O	O	
+1-21	über	APPR	über	_	O	O	
+1-22	einen	ART	eine	_	O	O	
+1-23	vermehrten	ADJA	vermehrt	_	O	O	
+1-24	Absatz	NN	Absatz	_	O	O	
+1-25	der	ART	die	_	O	O	
+1-26	Schriften	NN	Schrift	_	O	O	
+1-27	,	$,	,	_	O	O	
+1-28	wofern	ADJD	<unknown>	_	O	O	
+1-29	nicht	PTKNEG	nicht	_	O	O	
+1-30	etwa	ADV	etwa	_	O	O	
+1-31	ein	ART	eine	_	O	O	
+1-32	Buchhändler	NN	Buchhändler	_	O	O	
+1-33	sie	PPER	sie	_	O	O	
+1-34	ordentlich	ADJD	ordentlich	_	O	O	
+1-35	in	APPR	in	_	O	O	
+1-36	Verlag	NN	Verlag	_	O	O	
+1-37	nähme	VVFIN	nehmen	_	O	O	
+1-38	,	$,	,	_	O	O	
+1-39	u.	KON	und	_	O	O	
+1-40	das	PDS	die	_	O	O	
+1-41	wird	VAFIN	werden	_	O	O	
+1-42	schwer	ADJD	schwer	_	O	O	
+1-43	sein	VAINF	sein	_	O	O	
+1-44	!	$.	!	_	O	O	
+
+#id=2
+#text=Meinen Brief hinsichtlich der akademischen Einla- ~ung haben Sie erhalten u. hoffentlich sich durch ihn überzeugen lassen.
+2-1	Meinen	PPOSAT	mein	_	O	O	
+2-2	Brief	NN	Brief	_	O	O	
+2-3	hinsichtlich	APPR	hinsichtlich	_	O	O	
+2-4	der	ART	die	_	O	O	
+2-5	akademischen	ADJA	akademisch	_	O	O	
+2-6	Einla-	TRUNC	<unknown>	_	O	O	
+2-7	~ung	NN	<unknown>	_	O	O	
+2-8	haben	VAFIN	haben	_	O	O	
+2-9	Sie	PPER	Sie	_	O	O	
+2-10	erhalten	VVPP	erhalten	_	O	O	
+2-11	u.	KON	und	_	O	O	
+2-12	hoffentlich	ADV	hoffentlich	_	O	O	
+2-13	sich	PRF	sich	_	O	O	
+2-14	durch	APPR	durch	_	O	O	
+2-15	ihn	PPER	er	_	O	O	
+2-16	überzeugen	VVINF	überzeugen	_	O	O	
+2-17	lassen	VVINF	lassen	_	O	O	
+2-18	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich arbeite jetzt eifrig u. mÜhevoll in der Kellerluft des Vatikanischen Museums; namentlich die schändliche Uebermalung macht mir viel Mühe, da dann Stanniol aushelfen muß.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	arbeite	VVFIN	arbeiten	_	O	O	
+3-3	jetzt	ADV	jetzt	_	O	O	
+3-4	eifrig	ADJD	eifrig	_	O	O	
+3-5	u.	KON	und	_	O	O	
+3-6	mÜhevoll	ADJD	mühevoll	_	O	O	
+3-7	in	APPR	in	_	O	O	
+3-8	der	ART	die	_	O	O	
+3-9	Kellerluft	NN	Kellerluft	_	O	O	
+3-10	des	ART	die	_	O	O	
+3-11	Vatikanischen	ADJA	vatikanisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-12	Museums	NN	Museum	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+3-13	;	$.	;	_	O	O	
+3-14	namentlich	ADJD	namentlich	_	O	O	
+3-15	die	ART	die	_	O	O	
+3-16	schändliche	ADJA	schändlich	_	O	O	
+3-17	Uebermalung	NN	<unknown>	_	O	O	
+3-18	macht	VVFIN	machen	_	O	O	
+3-19	mir	PPER	ich	_	O	O	
+3-20	viel	PIAT	viele	_	O	O	
+3-21	Mühe	NN	Mühe	_	O	O	
+3-22	,	$,	,	_	O	O	
+3-23	da	KOUS	da	_	O	O	
+3-24	dann	ADV	dann	_	O	O	
+3-25	Stanniol	NN	Stanniol	_	O	O	
+3-26	aushelfen	VVINF	aushelfen	_	O	O	
+3-27	muß	VMFIN	müssen	_	O	O	
+3-28	.	$.	.	_	O	O	
+
+#id=4
+#text=Da mir Leitern zu Gebote stehn, so ~ kann ich selbst bei Kellermann noch Manches berichtigen.
+4-1	Da	KOUS	da	_	O	O	
+4-2	mir	PPER	ich	_	O	O	
+4-3	Leitern	NN	Leiter	_	O	O	
+4-4	zu	APPR	zu	_	O	O	
+4-5	Gebote	NN	Gebot	_	O	O	
+4-6	stehn	VVFIN	<unknown>	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	so	ADV	so	_	O	O	
+4-9	~	XY	~	_	O	O	
+4-10	kann	VMFIN	können	_	O	O	
+4-11	ich	PPER	ich	_	O	O	
+4-12	selbst	ADV	selbst	_	O	O	
+4-13	bei	APPR	bei	_	O	O	
+4-14	Kellermann	NE	Kellermann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-15	noch	ADV	noch	_	O	O	
+4-16	Manches	PIS	manche	_	O	O	
+4-17	berichtigen	VVINF	berichtigen	_	O	O	
+4-18	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Arbeit wird erleichtert dh.
+5-1	Die	ART	die	_	O	O	
+5-2	Arbeit	NN	Arbeit	_	O	O	
+5-3	wird	VAFIN	werden	_	O	O	
+5-4	erleichtert	ADJD	erleichtert	_	O	O	
+5-5	dh.	NE	<unknown>	_	O	O	
+
+#id=6
+#text=die in der Bibliothek copirten Scheden Marini's, u., wenn ich auch die Blätter meistens zu Hause selbst wieder umschreiben muß, da es denn doch an der Genauigkeit fehlt, die ich mir bei selbstgesehenen Steinen zur Pflicht mache, so geben sie immerhin noch größere Sicherheit.
+6-1	die	ART	die	_	O	O	
+6-2	in	APPR	in	_	O	O	
+6-3	der	ART	die	_	O	O	
+6-4	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-5	copirten	VVFIN	<unknown>	_	O	O	
+6-6	Scheden	NE	<unknown>	_	O	O	
+6-7	Marini's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-8	,	$,	,	_	O	O	
+6-9	u.	KON	und	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	wenn	KOUS	wenn	_	O	O	
+6-12	ich	PPER	ich	_	O	O	
+6-13	auch	ADV	auch	_	O	O	
+6-14	die	ART	die	_	O	O	
+6-15	Blätter	NN	Blatt	_	O	O	
+6-16	meistens	ADV	meistens	_	O	O	
+6-17	zu	APPR	zu	_	O	O	
+6-18	Hause	NN	Haus	_	O	O	
+6-19	selbst	ADV	selbst	_	O	O	
+6-20	wieder	ADV	wieder	_	O	O	
+6-21	umschreiben	VVINF	umschreiben	_	O	O	
+6-22	muß	VMFIN	müssen	_	O	O	
+6-23	,	$,	,	_	O	O	
+6-24	da	KOUS	da	_	O	O	
+6-25	es	PPER	es	_	O	O	
+6-26	denn	ADV	denn	_	O	O	
+6-27	doch	ADV	doch	_	O	O	
+6-28	an	APPR	an	_	O	O	
+6-29	der	ART	die	_	O	O	
+6-30	Genauigkeit	NN	Genauigkeit	_	O	O	
+6-31	fehlt	VVFIN	fehlen	_	O	O	
+6-32	,	$,	,	_	O	O	
+6-33	die	PRELS	die	_	O	O	
+6-34	ich	PPER	ich	_	O	O	
+6-35	mir	PRF	ich	_	O	O	
+6-36	bei	APPR	bei	_	O	O	
+6-37	selbstgesehenen	ADJA	<unknown>	_	O	O	
+6-38	Steinen	NN	Stein	_	O	O	
+6-39	zur	APPRART	zu	_	O	O	
+6-40	Pflicht	NN	Pflicht	_	O	O	
+6-41	mache	VVFIN	machen	_	O	O	
+6-42	,	$,	,	_	O	O	
+6-43	so	ADV	so	_	O	O	
+6-44	geben	VVFIN	geben	_	O	O	
+6-45	sie	PPER	sie	_	O	O	
+6-46	immerhin	ADV	immerhin	_	O	O	
+6-47	noch	ADV	noch	_	O	O	
+6-48	größere	ADJA	groß	_	O	O	
+6-49	Sicherheit	NN	Sicherheit	_	O	O	
+6-50	.	$.	.	_	O	O	
+
+#id=7
+#text=Es freut mich zu vernehmen, dß.
+7-1	Es	PPER	es	_	O	O	
+7-2	freut	VVFIN	freuen	_	O	O	
+7-3	mich	PRF	ich	_	O	O	
+7-4	zu	PTKZU	zu	_	O	O	
+7-5	vernehmen	VVINF	vernehmen	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	dß	VVFIN	<unknown>	_	O	O	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=r:ine Ihnen erwünschte Aenderung in Ihrer Stellung zum Museum vorgegangen.
+8-1	r:ine	NN	<unknown>	_	O	O	
+8-2	Ihnen	PPER	Sie	_	O	O	
+8-3	erwünschte	ADJA	erwünscht	_	O	O	
+8-4	Aenderung	NN	<unknown>	_	O	O	
+8-5	in	APPR	in	_	O	O	
+8-6	Ihrer	PPOSAT	ihr	_	O	O	
+8-7	Stellung	NN	Stellung	_	O	O	
+8-8	zum	APPRART	zu	_	O	O	
+8-9	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-10	vorgegangen	VVPP	vorgehen	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Archäolog deßelben werden Sie doch gewiß, wenn Sie wollen, bleiben können; Panofka wird doch nicht etwa Sie erse~zen sollen ?
+9-1	Archäolog	ADJA	<unknown>	_	O	O	
+9-2	deßelben	NN	<unknown>	_	O	O	
+9-3	werden	VAFIN	werden	_	O	O	
+9-4	Sie	PPER	Sie	_	O	O	
+9-5	doch	ADV	doch	_	O	O	
+9-6	gewiß	ADJD	gewiss	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	wenn	KOUS	wenn	_	O	O	
+9-9	Sie	PPER	Sie	_	O	O	
+9-10	wollen	VMFIN	wollen	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	bleiben	VVINF	bleiben	_	O	O	
+9-13	können	VMFIN	können	_	O	O	
+9-14	;	$.	;	_	O	O	
+9-15	Panofka	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-16	wird	VAFIN	werden	_	O	O	
+9-17	doch	ADV	doch	_	O	O	
+9-18	nicht	PTKNEG	nicht	_	O	O	
+9-19	etwa	ADV	etwa	_	O	O	
+9-20	Sie	PPER	Sie	_	O	O	
+9-21	erse~zen	VVINF	<unknown>	_	O	O	
+9-22	sollen	VMINF	sollen	_	O	O	
+9-23	?	$.	?	_	O	O	
+
+#id=10
+#text=!
+10-1	!	$.	!	_	O	O	
+
+#id=11
+#text=I Sie werden wohl das von meiner Frau gekaufte Mosaik jetzt längst in Händen haben; in jedem Falle muß es baldigst eintreffen.
+11-1	I	FM	I	_	O	O	
+11-2	Sie	PPER	Sie	_	O	O	
+11-3	werden	VAFIN	werden	_	O	O	
+11-4	wohl	ADV	wohl	_	O	O	
+11-5	das	ART	die	_	O	O	
+11-6	von	APPR	von	_	O	O	
+11-7	meiner	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-8	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-9	gekaufte	ADJA	gekauft	_	O	O	
+11-10	Mosaik	NN	Mosaik	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-11	jetzt	ADV	jetzt	_	O	O	
+11-12	längst	ADV	längst	_	O	O	
+11-13	in	APPR	in	_	O	O	
+11-14	Händen	NN	Hand	_	O	O	
+11-15	haben	VAINF	haben	_	O	O	
+11-16	;	$.	;	_	O	O	
+11-17	in	APPR	in	_	O	O	
+11-18	jedem	PIAT	jede	_	O	O	
+11-19	Falle	NN	Falle	_	O	O	
+11-20	muß	VMFIN	müssen	_	O	O	
+11-21	es	PPER	es	_	O	O	
+11-22	baldigst	ADJD	baldig	_	O	O	
+11-23	eintreffen	VVINF	eintreffen	_	O	O	
+11-24	.	$.	.	_	O	O	
+
+#id=12
+#text=Meiner Frau geht es für jetzt recht wohl.
+12-1	Meiner	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+12-3	geht	VVFIN	gehen	_	O	O	
+12-4	es	PPER	es	_	O	O	
+12-5	für	APPR	für	_	O	O	
+12-6	jetzt	ADV	jetzt	_	O	O	
+12-7	recht	ADJD	recht	_	O	O	
+12-8	wohl	ADV	wohl	_	O	O	
+12-9	.	$.	.	_	O	O	
+
+#id=13
+#text=Sie \ grüßt herzlichst mit mir Sie u. die Ihrige.
+13-1	Sie	PPER	Sie	_	O	O	
+13-2	\	XY	\	_	O	O	
+13-3	grüßt	VVFIN	grüßen	_	O	O	
+13-4	herzlichst	ADJD	herzlich	_	O	O	
+13-5	mit	APPR	mit	_	O	O	
+13-6	mir	PPER	ich	_	O	O	
+13-7	Sie	PPER	Sie	_	O	O	
+13-8	u.	APPR	um	_	O	O	
+13-9	die	ART	die	_	O	O	
+13-10	Ihrige	PPOSAT	ihrige	_	O	O	
+13-11	.	$.	.	_	O	O	
+
+#id=14
+#text=~ Ihr ergebner Rom 5/11 55 W. Henzen
+14-1	~	XY	~	_	O	O	
+14-2	Ihr	PPER	sie	_	O	O	
+14-3	ergebner	VVFIN	<unknown>	_	O	O	
+14-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+14-5	5/11	CARD	@card@	_	O	O	
+14-6	55	CARD	@card@	_	O	O	
+14-7	W.	NE	W.	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+14-8	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+

@@ -1,0 +1,360 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=, .1 Ohne Nummer Henzen an Gerhard 6/IX/53 Verehrter Herr Professor Leider schreibe ich Ihnen noch immer von R. di Papa.
+1-1	,	$,	,	_	O	O	
+1-2	.1	CARD	@card@	_	O	O	
+1-3	Ohne	APPR	ohne	_	O	O	
+1-4	Nummer	NN	Nummer	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	6/IX/53	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	Verehrter	ADJA	verehrt	_	O	O	
+1-10	Herr	NN	Herr	_	O	O	
+1-11	Professor	NN	Professor	_	O	O	
+1-12	Leider	ADV	leider	_	O	O	
+1-13	schreibe	VVFIN	schreiben	_	O	O	
+1-14	ich	PPER	ich	_	O	O	
+1-15	Ihnen	PPER	Sie	_	O	O	
+1-16	noch	ADV	noch	_	O	O	
+1-17	immer	ADV	immer	_	O	O	
+1-18	von	APPR	von	_	O	O	
+1-19	R.	NE	R.	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-20	di	NE	di	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+1-21	Papa	NN	Papa	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+1-22	.	$.	.	_	O	O	
+
+#id=2
+#text=Die Hitze ist heuer so anhaltend, dß.
+2-1	Die	ART	die	_	O	O	
+2-2	Hitze	NN	Hitze	_	O	O	
+2-3	ist	VAFIN	sein	_	O	O	
+2-4	heuer	ADV	heuer	_	O	O	
+2-5	so	ADV	so	_	O	O	
+2-6	anhaltend	ADJD	anhaltend	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	dß	VVFIN	<unknown>	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=noch kein Ende abzusehen ist, u. schwerlich werden wir vor dem 15t~n hiI .. h k·· !
+3-1	noch	ADV	noch	_	O	O	
+3-2	kein	PIAT	keine	_	O	O	
+3-3	Ende	NN	Ende	_	O	O	
+3-4	abzusehen	VVIZU	absehen	_	O	O	
+3-5	ist	VAFIN	sein	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	u.	KON	und	_	O	O	
+3-8	schwerlich	ADJD	schwerlich	_	O	O	
+3-9	werden	VAFIN	werden	_	O	O	
+3-10	wir	PPER	wir	_	O	O	
+3-11	vor	APPR	vor	_	O	O	
+3-12	dem	ART	die	_	O	O	
+3-13	15t~n	NE	<unknown>	_	O	O	
+3-14	hiI	NE	<unknown>	_	O	O	
+3-15	.	$.	.	_	O	O	
+3-16	.	$.	.	_	O	O	
+3-17	h	NN	h	_	O	O	
+3-18	k··	NN	<unknown>	_	O	O	
+3-19	!	$.	!	_	O	O	
+
+#id=4
+#text=neJnZle.
+4-1	neJnZle	NN	<unknown>	_	O	O	
+4-2	.	$.	.	_	O	O	
+
+#id=5
+#text=en onnen.
+5-1	en	FM	en	_	O	O	
+5-2	onnen	NN	<unknown>	_	O	O	
+5-3	.	$.	.	_	O	O	
+
+#id=6
+#text=Das wäre nun sonst nicht unangenehm, , zumal meine Privatarbeiten dabei gewinnen, wenn nicht der Annalendruck doch unterdessen langsamer ginge.
+6-1	Das	PDS	die	_	O	O	
+6-2	wäre	VAFIN	sein	_	O	O	
+6-3	nun	ADV	nun	_	O	O	
+6-4	sonst	ADV	sonst	_	O	O	
+6-5	nicht	PTKNEG	nicht	_	O	O	
+6-6	unangenehm	ADJD	unangenehm	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	zumal	KOUS	zumal	_	O	O	
+6-10	meine	PPOSAT	mein	_	O	O	
+6-11	Privatarbeiten	NN	<unknown>	_	O	O	
+6-12	dabei	PAV	dabei	_	O	O	
+6-13	gewinnen	VVFIN	gewinnen	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	wenn	KOUS	wenn	_	O	O	
+6-16	nicht	PTKNEG	nicht	_	O	O	
+6-17	der	ART	die	_	O	O	
+6-18	Annalendruck	NN	<unknown>	_	O	O	
+6-19	doch	ADV	doch	_	O	O	
+6-20	unterdessen	ADV	unterdessen	_	O	O	
+6-21	langsamer	ADJD	langsam	_	O	O	
+6-22	ginge	VVFIN	gehen	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Gottlob schreitet die Genesung meiner Frau fort, obwohl ihr beI finden noch immer zu wünschen übrig läßt.
+7-1	Gottlob	ADV	gottlob	_	O	O	
+7-2	schreitet	VVFIN	schreiten	_	O	O	
+7-3	die	ART	die	_	O	O	
+7-4	Genesung	NN	Genesung	_	O	O	
+7-5	meiner	PPOSAT	mein	_	O	O	
+7-6	Frau	NN	Frau	_	O	O	
+7-7	fort	PTKVZ	fort	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	obwohl	KOUS	obwohl	_	O	O	
+7-10	ihr	PPER	ihr	_	O	O	
+7-11	beI	ADV	<unknown>	_	O	O	
+7-12	finden	VVFIN	finden	_	O	O	
+7-13	noch	ADV	noch	_	O	O	
+7-14	immer	ADV	immer	_	O	O	
+7-15	zu	PTKVZ	zu	_	O	O	
+7-16	wünschen	VVFIN	wünschen	_	O	O	
+7-17	übrig	ADJD	übrig	_	O	O	
+7-18	läßt	VVFIN	lassen	_	O	O	
+7-19	.	$.	.	_	O	O	
+
+#id=8
+#text=t-"._Sie klac-en über meinen letzteü Brief; aber, so viel ich mich erinnere, enthielt derselbe nur meine Vertheidigung ge~:en c1eü Vorvmrf, dß.
+8-1	t-"._Sie	NE	<unknown>	_	O	O	
+8-2	klac-en	VVFIN	<unknown>	_	O	O	
+8-3	über	APPR	über	_	O	O	
+8-4	meinen	PPOSAT	mein	_	O	O	
+8-5	letzteü	ADJA	<unknown>	_	O	O	
+8-6	Brief	NN	Brief	_	O	O	
+8-7	;	$.	;	_	O	O	
+8-8	aber	ADV	aber	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	so	ADV	so	_	O	O	
+8-11	viel	ADV	viel	_	O	O	
+8-12	ich	PPER	ich	_	O	O	
+8-13	mich	PRF	ich	_	O	O	
+8-14	erinnere	VVFIN	erinnern	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	enthielt	VVFIN	enthalten	_	O	O	
+8-17	derselbe	PDS	derselbe	_	O	O	
+8-18	nur	ADV	nur	_	O	O	
+8-19	meine	PPOSAT	mein	_	O	O	
+8-20	Vertheidigung	NN	<unknown>	_	O	O	
+8-21	ge~:en	NE	<unknown>	_	O	O	
+8-22	c1eü	NE	<unknown>	_	O	O	
+8-23	Vorvmrf	NN	<unknown>	_	O	O	
+8-24	,	$,	,	_	O	O	
+8-25	dß	VVFIN	<unknown>	_	O	O	
+8-26	.	$.	.	_	O	O	
+
+#id=9
+#text=ich 0ie ohne Auskunft über ds • Institut lasse, inden l ich IlJnen kurz zuvor gerade über unsre klägliche Finanzlage berichtet hatte.
+9-1	ich	PPER	ich	_	O	O	
+9-2	0ie	VVFIN	<unknown>	_	O	O	
+9-3	ohne	APPR	ohne	_	O	O	
+9-4	Auskunft	NN	Auskunft	_	O	O	
+9-5	über	APPR	über	_	O	O	
+9-6	ds	ADJA	<unknown>	_	O	O	
+9-7	•	ADJA	<unknown>	_	O	O	
+9-8	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-9	lasse	VVFIN	lassen	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	inden	ADJA	<unknown>	_	O	O	
+9-12	l	NN	l	_	O	O	
+9-13	ich	PPER	ich	_	O	O	
+9-14	IlJnen	VVFIN	<unknown>	_	O	O	
+9-15	kurz	ADJD	kurz	_	O	O	
+9-16	zuvor	ADV	zuvor	_	O	O	
+9-17	gerade	ADV	gerade	_	O	O	
+9-18	über	APPR	über	_	O	O	
+9-19	unsre	PPOSAT	unsre	_	O	O	
+9-20	klägliche	ADJA	kläglich	_	O	O	
+9-21	Finanzlage	NN	Finanzlage	_	O	O	
+9-22	berichtet	VVPP	berichten	_	O	O	
+9-23	hatte	VAFIN	haben	_	O	O	
+9-24	.	$.	.	_	O	O	
+
+#id=10
+#text=Und auch dieses Mal muß ich auf dieselbe alte Bitte zurfickkommen, bei Ihren Antworten gefälligst meine Anfragen zu berücksjchtigen, was Sie mir nicht übel nehmen dfirfen.
+10-1	Und	KON	und	_	O	O	
+10-2	auch	ADV	auch	_	O	O	
+10-3	dieses	PDAT	dies	_	O	O	
+10-4	Mal	NN	Mal	_	O	O	
+10-5	muß	VMFIN	müssen	_	O	O	
+10-6	ich	PPER	ich	_	O	O	
+10-7	auf	APPR	auf	_	O	O	
+10-8	dieselbe	PDAT	dieselb	_	O	O	
+10-9	alte	ADJA	alt	_	O	O	
+10-10	Bitte	NN	Bitte	_	O	O	
+10-11	zurfickkommen	VVINF	<unknown>	_	O	O	
+10-12	,	$,	,	_	O	O	
+10-13	bei	APPR	bei	_	O	O	
+10-14	Ihren	PPOSAT	ihr	_	O	O	
+10-15	Antworten	NN	Antwort	_	O	O	
+10-16	gefälligst	ADJD	gefälligst	_	O	O	
+10-17	meine	PPOSAT	mein	_	O	O	
+10-18	Anfragen	NN	Anfrage	_	O	O	
+10-19	zu	PTKZU	zu	_	O	O	
+10-20	berücksjchtigen	VVINF	<unknown>	_	O	O	
+10-21	,	$,	,	_	O	O	
+10-22	was	PRELS	was	_	O	O	
+10-23	Sie	PPER	Sie	_	O	O	
+10-24	mir	PRF	ich	_	O	O	
+10-25	nicht	PTKNEG	nicht	_	O	O	
+10-26	übel	ADJD	übel	_	O	O	
+10-27	nehmen	VVFIN	nehmen	_	O	O	
+10-28	dfirfen	NE	<unknown>	_	O	O	
+10-29	.	$.	.	_	O	O	
+
+#id=11
+#text=Ich vermisse wieder die ersehnte Auskunft darüber, ob ein .Fonds fijT Hülfsarbei ten Seitens der Akademie in Aussicht steht, oder nicht, eine Notiz, die ich schon bei meinen Verhandlungen mit de Rossi brauche, u. um die ich wieder- ,.- 1 holt ber, ~ebeten habe.
+11-1	Ich	PPER	ich	_	O	O	
+11-2	vermisse	VVFIN	vermissen	_	O	O	
+11-3	wieder	ADV	wieder	_	O	O	
+11-4	die	ART	die	_	O	O	
+11-5	ersehnte	ADJA	ersehnt	_	O	O	
+11-6	Auskunft	NN	Auskunft	_	O	O	
+11-7	darüber	PAV	darüber	_	O	O	
+11-8	,	$,	,	_	O	O	
+11-9	ob	KOUS	ob	_	O	O	
+11-10	ein	ART	eine	_	O	O	
+11-11	.Fonds	NN	<unknown>	_	O	O	
+11-12	fijT	ADJA	<unknown>	_	O	O	
+11-13	Hülfsarbei	NN	<unknown>	_	O	O	
+11-14	ten	NE	ten	_	O	O	
+11-15	Seitens	NN	<unknown>	_	O	O	
+11-16	der	ART	die	_	O	O	
+11-17	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+11-18	in	APPR	in	_	O	O	
+11-19	Aussicht	NN	Aussicht	_	O	O	
+11-20	steht	VVFIN	stehen	_	O	O	
+11-21	,	$,	,	_	O	O	
+11-22	oder	KON	oder	_	O	O	
+11-23	nicht	PTKNEG	nicht	_	O	O	
+11-24	,	$,	,	_	O	O	
+11-25	eine	ART	eine	_	O	O	
+11-26	Notiz	NN	Notiz	_	O	O	
+11-27	,	$,	,	_	O	O	
+11-28	die	PRELS	die	_	O	O	
+11-29	ich	PPER	ich	_	O	O	
+11-30	schon	ADV	schon	_	O	O	
+11-31	bei	APPR	bei	_	O	O	
+11-32	meinen	PPOSAT	mein	_	O	O	
+11-33	Verhandlungen	NN	Verhandlung	_	O	O	
+11-34	mit	APPR	mit	_	O	O	
+11-35	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-36	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-37	brauche	VVFIN	brauchen	_	O	O	
+11-38	,	$,	,	_	O	O	
+11-39	u.	KON	und	_	O	O	
+11-40	um	APPR	um	_	O	O	
+11-41	die	ART	die	_	O	O	
+11-42	ich	PPER	ich	_	O	O	
+11-43	wieder-	TRUNC	wieder-	_	O	O	
+11-44	,.-	NN	<unknown>	_	O	O	
+11-45	1	CARD	1	_	O	O	
+11-46	holt	VVFIN	holen	_	O	O	
+11-47	ber	ADJD	<unknown>	_	O	O	
+11-48	,	$,	,	_	O	O	
+11-49	~ebeten	ADJD	<unknown>	_	O	O	
+11-50	habe	VAFIN	haben	_	O	O	
+11-51	.	$.	.	_	O	O	
+
+#id=12
+#text=- Ferner sa~en Sie reir kein Wort darüob die von Brunn gesarnwelten Materialien von uns sofort benutzt werden dürfen ( ich schrieb wohl schon, dß.
+12-1	-	$(	-	_	O	O	
+12-2	Ferner	ADJD	fern	_	O	O	
+12-3	sa~en	VVFIN	<unknown>	_	O	O	
+12-4	Sie	PPER	Sie	_	O	O	
+12-5	reir	NE	<unknown>	_	O	O	
+12-6	kein	PIAT	keine	_	O	O	
+12-7	Wort	NN	Wort	_	O	O	
+12-8	darüob	VVFIN	<unknown>	_	O	O	
+12-9	die	ART	die	_	O	O	
+12-10	von	APPR	von	_	O	O	
+12-11	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-12	gesarnwelten	ADJA	<unknown>	_	O	O	
+12-13	Materialien	NN	Material	_	O	O	
+12-14	von	APPR	von	_	O	O	
+12-15	uns	PPER	wir	_	O	O	
+12-16	sofort	ADV	sofort	_	O	O	
+12-17	benutzt	VVPP	benutzen	_	O	O	
+12-18	werden	VAINF	werden	_	O	O	
+12-19	dürfen	VMFIN	dürfen	_	O	O	
+12-20	(	$(	(	_	O	O	
+12-21	ich	PPER	ich	_	O	O	
+12-22	schrieb	VVFIN	schreiben	_	O	O	
+12-23	wohl	ADV	wohl	_	O	O	
+12-24	schon	ADV	schon	_	O	O	
+12-25	,	$,	,	_	O	O	
+12-26	dß	VVFIN	<unknown>	_	O	O	
+12-27	.	$.	.	_	O	O	
+
+#id=13
+#text=Ritschl das selbstverst5nd.
+13-1	Ritschl	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	das	ART	die	_	O	O	
+13-3	selbstverst5nd	NE	<unknown>	_	O	O	
+13-4	.	$.	.	_	O	O	
+
+#id=14
+#text=annimrrt).
+14-1	annimrrt	VVFIN	<unknown>	_	O	O	
+14-2	)	$(	)	_	O	O	
+14-3	.	$.	.	_	O	O	
+
+#id=15
+#text=Sie begreifen, dß.
+15-1	Sie	PPER	Sie	_	O	O	
+15-2	begreifen	VVFIN	begreifen	_	O	O	
+15-3	,	$,	,	_	O	O	
+15-4	dß	VVFIN	<unknown>	_	O	O	
+15-5	.	$.	.	_	O	O	
+
+#id=16
+#text=Alles ins Stocken geräth, wenn Sie mich solche Anfra~en immer wiederholen lassen; aber, wenn auch mitunter Nißvergnügen, Stachel dürfen Sie in meinen betreffenden Aeuße- \ rungen nicht sehen.
+16-1	Alles	PIAT	alle	_	O	O	
+16-2	ins	APPRART	in	_	O	O	
+16-3	Stocken	NN	Stocken	_	O	O	
+16-4	geräth	VVPP	<unknown>	_	O	O	
+16-5	,	$,	,	_	O	O	
+16-6	wenn	KOUS	wenn	_	O	O	
+16-7	Sie	PPER	Sie	_	O	O	
+16-8	mich	PRF	ich	_	O	O	
+16-9	solche	PIAT	solche	_	O	O	
+16-10	Anfra~en	NN	<unknown>	_	O	O	
+16-11	immer	ADV	immer	_	O	O	
+16-12	wiederholen	VVINF	wiederholen	_	O	O	
+16-13	lassen	VVFIN	lassen	_	O	O	
+16-14	;	$.	;	_	O	O	
+16-15	aber	ADV	aber	_	O	O	
+16-16	,	$,	,	_	O	O	
+16-17	wenn	KOUS	wenn	_	O	O	
+16-18	auch	ADV	auch	_	O	O	
+16-19	mitunter	ADV	mitunter	_	O	O	
+16-20	Nißvergnügen	NN	<unknown>	_	O	O	
+16-21	,	$,	,	_	O	O	
+16-22	Stachel	NN	Stachel	_	O	O	
+16-23	dürfen	VMFIN	dürfen	_	O	O	
+16-24	Sie	PPER	Sie	_	O	O	
+16-25	in	APPR	in	_	O	O	
+16-26	meinen	PPOSAT	mein	_	O	O	
+16-27	betreffenden	ADJA	betreffend	_	O	O	
+16-28	Aeuße-	TRUNC	<unknown>	_	O	O	
+16-29	\	XY	\	_	O	O	
+16-30	rungen	VVFIN	<UNKNOWN>	_	O	O	
+16-31	nicht	PTKNEG	nicht	_	O	O	
+16-32	sehen	VVINF	sehen	_	O	O	
+16-33	.	$.	.	_	O	O	
+
+#id=17
+#text=- Ich bin Ihnen gewiß sehr dankbAr r--""'---
+17-1	-	$(	-	_	O	O	
+17-2	Ich	PPER	ich	_	O	O	
+17-3	bin	VAFIN	sein	_	O	O	
+17-4	Ihnen	PPER	Sie	_	O	O	
+17-5	gewiß	ADJD	gewiss	_	O	O	
+17-6	sehr	ADV	sehr	_	O	O	
+17-7	dankbAr	ADJD	dankbar	_	O	O	
+17-8	r--""'-	ADJD	<unknown>	_	O	O	
+17-9	--	$(	--	_	O	O	
+

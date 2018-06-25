@@ -1,0 +1,299 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Ohne Nummer Henzen an Gerhard 28/VI/51 2 Mutter erwartet.
+1-1	Ohne	APPR	ohne	_	O	O	
+1-2	Nummer	NN	Nummer	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	28/VI/51	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	2	CARD	2	_	O	O	
+1-8	Mutter	NN	Mutter	_	O	O	
+1-9	erwartet	VVPP	erwarten	_	O	O	
+1-10	.	$.	.	_	O	O	
+
+#id=2
+#text=Hiernach müssen uie schon entschuldigen, wenn ich d(ie)s(e)s Mal Ihrem Rathe nicht folge, u. erst nach Dresden gebe, übrigens dasselbe möglichst kurz abmache.
+2-1	Hiernach	PAV	hiernach	_	O	O	
+2-2	müssen	VMFIN	müssen	_	O	O	
+2-3	uie	ADJD	<unknown>	_	O	O	
+2-4	schon	ADV	schon	_	O	O	
+2-5	entschuldigen	VVINF	entschuldigen	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	wenn	KOUS	wenn	_	O	O	
+2-8	ich	PPER	ich	_	O	O	
+2-9	d(ie)s(e)s	NN	<unknown>	_	O	O	
+2-10	Mal	NN	Mal	_	O	O	
+2-11	Ihrem	PPOSAT	ihr	_	O	O	
+2-12	Rathe	NN	<unknown>	_	O	O	
+2-13	nicht	PTKNEG	nicht	_	O	O	
+2-14	folge	VVFIN	folgen	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	u.	KON	und	_	O	O	
+2-17	erst	ADV	erst	_	O	O	
+2-18	nach	APPR	nach	_	O	O	
+2-19	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-20	gebe	VVFIN	geben	_	O	O	
+2-21	,	$,	,	_	O	O	
+2-22	übrigens	ADV	übrigens	_	O	O	
+2-23	dasselbe	PDS	dasselbe	_	O	O	
+2-24	möglichst	ADV	möglichst	_	O	O	
+2-25	kurz	ADJD	kurz	_	O	O	
+2-26	abmache	VVFIN	<unknown>	_	O	O	
+2-27	.	$.	.	_	O	O	
+
+#id=3
+#text=Am 3 n • ode 4 n • hoffe ich in Berlin einzutreffen.
+3-1	Am	APPRART	an	_	O	O	
+3-2	3	CARD	3	_	O	O	
+3-3	n	ADJA	<unknown>	_	O	O	
+3-4	•	NN	<unknown>	_	O	O	
+3-5	ode	VVFIN	<unknown>	_	O	O	
+3-6	4	CARD	4	_	O	O	
+3-7	n	ADJA	<unknown>	_	O	O	
+3-8	•	NN	<unknown>	_	O	O	
+3-9	hoffe	VVFIN	hoffen	_	O	O	
+3-10	ich	PPER	ich	_	O	O	
+3-11	in	APPR	in	_	O	O	
+3-12	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-13	einzutreffen	VVIZU	eintreffen	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Wir haben "" durchaus keinen anderen Bestimmungsgrund für dt'.e VVj'hl unsrer Wohnung, als Ihre Nähe u. möglichste Ent.2Qannung, u. würden daher gern zwar nicht in ein Hotel gegen.
+4-1	Wir	PPER	wir	_	O	O	
+4-2	haben	VAFIN	haben	_	O	O	
+4-3	"	$(	"	_	O	O	
+4-4	"	$(	"	_	O	O	
+4-5	durchaus	ADV	durchaus	_	O	O	
+4-6	keinen	PIAT	keine	_	O	O	
+4-7	anderen	PIS	andere	_	O	O	
+4-8	Bestimmungsgrund	NN	<unknown>	_	O	O	
+4-9	für	APPR	für	_	O	O	
+4-10	dt'.e	NE	<unknown>	_	O	O	
+4-11	VVj'hl	NN	<unknown>	_	O	O	
+4-12	unsrer	PPOSAT	unser	_	O	O	
+4-13	Wohnung	NN	Wohnung	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	als	KOKOM	als	_	O	O	
+4-16	Ihre	PPOSAT	ihr	_	O	O	
+4-17	Nähe	NN	Nähe	_	O	O	
+4-18	u.	APPR	um	_	O	O	
+4-19	möglichste	ADJA	möglich	_	O	O	
+4-20	Ent.2Qannung	NN	<unknown>	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	u.	KON	und	_	O	O	
+4-23	würden	VAFIN	werden	_	O	O	
+4-24	daher	PAV	daher	_	O	O	
+4-25	gern	ADV	gern	_	O	O	
+4-26	zwar	ADV	zwar	_	O	O	
+4-27	nicht	PTKNEG	nicht	_	O	O	
+4-28	in	APPR	in	_	O	O	
+4-29	ein	ART	eine	_	O	O	
+4-30	Hotel	NN	Hotel	_	O	O	
+4-31	gegen	PTKVZ	gegen	_	O	O	
+4-32	.	$.	.	_	O	O	
+
+#id=5
+#text=Man hat uns ein hotel garni am Gendarmenmarkt empfohlen, das ja auch \ nicht allzu fern sein würde; wissen Sie uns\ein näheres zu nennen, oder auch ein Wohn- u. Schlafzimmer in einem Privathause bei Ihnen bekannten Leuten, u. vermiethbar auf Tage oder vielleicht auf 2 Wochen, so würden wir Ihnen sehr dankbar sein, wollten Sie uns poste restante nach Dresden die Adresse aufgeben, immerhin auch schon miethen.
+5-1	Man	PIS	man	_	O	O	
+5-2	hat	VAFIN	haben	_	O	O	
+5-3	uns	PPER	wir	_	O	O	
+5-4	ein	ART	eine	_	O	O	
+5-5	hotel	NN	Hotel	_	O	O	
+5-6	garni	NE	Garni	_	O	O	
+5-7	am	APPRART	an	_	O	O	
+5-8	Gendarmenmarkt	NN	Gendarmenmarkt	_	O	O	
+5-9	empfohlen	VVPP	empfehlen	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	das	PRELS	die	_	O	O	
+5-12	ja	ADV	ja	_	O	O	
+5-13	auch	ADV	auch	_	O	O	
+5-14	\	XY	\	_	O	O	
+5-15	nicht	PTKNEG	nicht	_	O	O	
+5-16	allzu	PTKA	allzu	_	O	O	
+5-17	fern	ADJD	fern	_	O	O	
+5-18	sein	VAINF	sein	_	O	O	
+5-19	würde	VAFIN	werden	_	O	O	
+5-20	;	$.	;	_	O	O	
+5-21	wissen	VVFIN	wissen	_	O	O	
+5-22	Sie	PPER	Sie	_	O	O	
+5-23	uns\ein	ADJD	<unknown>	_	O	O	
+5-24	näheres	ADJA	nah	_	O	O	
+5-25	zu	PTKZU	zu	_	O	O	
+5-26	nennen	VVINF	nennen	_	O	O	
+5-27	,	$,	,	_	O	O	
+5-28	oder	KON	oder	_	O	O	
+5-29	auch	ADV	auch	_	O	O	
+5-30	ein	ART	eine	_	O	O	
+5-31	Wohn-	TRUNC	Wohn-	_	O	O	
+5-32	u.	KON	und	_	O	O	
+5-33	Schlafzimmer	NN	Schlafzimmer	_	O	O	
+5-34	in	APPR	in	_	O	O	
+5-35	einem	ART	eine	_	O	O	
+5-36	Privathause	NN	<unknown>	_	O	O	
+5-37	bei	APPR	bei	_	O	O	
+5-38	Ihnen	PPER	Sie	_	O	O	
+5-39	bekannten	ADJA	bekannt	_	O	O	
+5-40	Leuten	NN	Leute	_	O	O	
+5-41	,	$,	,	_	O	O	
+5-42	u.	APPR	um	_	O	O	
+5-43	vermiethbar	NN	<unknown>	_	O	O	
+5-44	auf	APPR	auf	_	O	O	
+5-45	Tage	NN	Tag	_	O	O	
+5-46	oder	KON	oder	_	O	O	
+5-47	vielleicht	ADV	vielleicht	_	O	O	
+5-48	auf	APPR	auf	_	O	O	
+5-49	2	CARD	2	_	O	O	
+5-50	Wochen	NN	Woche	_	O	O	
+5-51	,	$,	,	_	O	O	
+5-52	so	ADV	so	_	O	O	
+5-53	würden	VAFIN	werden	_	O	O	
+5-54	wir	PPER	wir	_	O	O	
+5-55	Ihnen	PPER	Sie	_	O	O	
+5-56	sehr	ADV	sehr	_	O	O	
+5-57	dankbar	ADJD	dankbar	_	O	O	
+5-58	sein	VAINF	sein	_	O	O	
+5-59	,	$,	,	_	O	O	
+5-60	wollten	VMFIN	wollen	_	O	O	
+5-61	Sie	PPER	Sie	_	O	O	
+5-62	uns	PRF	wir	_	O	O	
+5-63	poste	NN	<unknown>	_	O	O	
+5-64	restante	NN	<unknown>	_	O	O	
+5-65	nach	APPR	nach	_	O	O	
+5-66	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-67	die	ART	die	_	O	O	
+5-68	Adresse	NN	Adresse	_	O	O	
+5-69	aufgeben	VVINF	aufgeben	_	O	O	
+5-70	,	$,	,	_	O	O	
+5-71	immerhin	ADV	immerhin	_	O	O	
+5-72	auch	ADV	auch	_	O	O	
+5-73	schon	ADV	schon	_	O	O	
+5-74	miethen	NN	<unknown>	_	O	O	
+5-75	.	$.	.	_	O	O	
+
+#id=6
+#text=- Vermuthlich haben Sie Stirnhemsersgesehen, von denen wir nicht wissen, ob wir sie in Berlin oder sonstwo in Dtschl. noch treffen werden.
+6-1	-	$(	-	_	O	O	
+6-2	Vermuthlich	ADJD	<unknown>	_	O	O	
+6-3	haben	VAFIN	haben	_	O	O	
+6-4	Sie	PPER	Sie	_	O	O	
+6-5	Stirnhemsersgesehen	NN	<unknown>	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	von	APPR	von	_	O	O	
+6-8	denen	PRELS	die	_	O	O	
+6-9	wir	PPER	wir	_	O	O	
+6-10	nicht	PTKNEG	nicht	_	O	O	
+6-11	wissen	VVFIN	wissen	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	ob	KOUS	ob	_	O	O	
+6-14	wir	PPER	wir	_	O	O	
+6-15	sie	PPER	sie	_	O	O	
+6-16	in	APPR	in	_	O	O	
+6-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-18	oder	KON	oder	_	O	O	
+6-19	sonstwo	ADV	sonstwo	_	O	O	
+6-20	in	APPR	in	_	O	O	
+6-21	Dtschl	NN	<unknown>	_	O	O	
+6-22	.	$.	.	_	O	O	
+6-23	noch	ADV	noch	_	O	O	
+6-24	treffen	VVINF	treffen	_	O	O	
+6-25	werden	VAFIN	werden	_	O	O	
+6-26	.	$.	.	_	O	O	
+
+#id=7
+#text=Jahn u. Mommsen, der uns in München entgegen kam, grüßen herzlich.
+7-1	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	u.	APPR	um	_	O	O	
+7-3	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-4	,	$,	,	_	O	O	
+7-5	der	PRELS	die	_	O	O	
+7-6	uns	PRF	wir	_	O	O	
+7-7	in	APPR	in	_	O	O	
+7-8	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-9	entgegen	APPO	entgegen	_	O	O	
+7-10	kam	VVFIN	kommen	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	grüßen	VVFIN	grüßen	_	O	O	
+7-13	herzlich	ADJD	herzlich	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Letzterer ist sehr abgemagert u. sieht zum Erschrecken angegriffen aus.
+8-1	Letzterer	NN	Letztere	_	O	O	
+8-2	ist	VAFIN	sein	_	O	O	
+8-3	sehr	ADV	sehr	_	O	O	
+8-4	abgemagert	VVPP	abmagern	_	O	O	
+8-5	u.	KON	und	_	O	O	
+8-6	sieht	VVFIN	sehen	_	O	O	
+8-7	zum	APPRART	zu	_	O	O	
+8-8	Erschrecken	NN	Erschrecken	_	O	O	
+8-9	angegriffen	ADJD	angegriffen	_	O	O	
+8-10	aus	PTKVZ	aus	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Die kleine Reise scheint ihm wohl gethan zu haben.
+9-1	Die	ART	die	_	O	O	
+9-2	kleine	ADJA	klein	_	O	O	
+9-3	Reise	NN	Reise	_	O	O	
+9-4	scheint	VVFIN	scheinen	_	O	O	
+9-5	ihm	PPER	er	_	O	O	
+9-6	wohl	ADV	wohl	_	O	O	
+9-7	gethan	NN	<unknown>	_	O	O	
+9-8	zu	PTKZU	zu	_	O	O	
+9-9	haben	VAINF	haben	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=- Ich freu mich, Horkel in B. zu sehen; ich hatte gefürchtet, ihn nicht zu begegnen.
+10-1	-	$(	-	_	O	O	
+10-2	Ich	PPER	ich	_	O	O	
+10-3	freu	VVIMP	freuen	_	O	O	
+10-4	mich	PRF	ich	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	Horkel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-7	in	APPR	in	_	O	O	
+10-8	B.	NN	B.	_	O	O	
+10-9	zu	PTKZU	zu	_	O	O	
+10-10	sehen	VVINF	sehen	_	O	O	
+10-11	;	$.	;	_	O	O	
+10-12	ich	PPER	ich	_	O	O	
+10-13	hatte	VAFIN	haben	_	O	O	
+10-14	gefürchtet	VVPP	fürchten	_	O	O	
+10-15	,	$,	,	_	O	O	
+10-16	ihn	PPER	er	_	O	O	
+10-17	nicht	PTKNEG	nicht	_	O	O	
+10-18	zu	PTKZU	zu	_	O	O	
+10-19	begegnen	VVINF	begegnen	_	O	O	
+10-20	.	$.	.	_	O	O	
+
+#id=11
+#text=Meine Frau grüßt bestens Sie u. die Ihrige, u. so auf baldiges Wiedersehen !
+11-1	Meine	PPOSAT	mein	_	O	O	
+11-2	Frau	NN	Frau	_	O	O	
+11-3	grüßt	VVFIN	grüßen	_	O	O	
+11-4	bestens	ADV	bestens	_	O	O	
+11-5	Sie	PPER	Sie	_	O	O	
+11-6	u.	APPR	um	_	O	O	
+11-7	die	ART	die	_	O	O	
+11-8	Ihrige	PPOSAT	ihrige	_	O	O	
+11-9	,	$,	,	_	O	O	
+11-10	u.	KON	und	_	O	O	
+11-11	so	ADV	so	_	O	O	
+11-12	auf	APPR	auf	_	O	O	
+11-13	baldiges	ADJA	baldig	_	O	O	
+11-14	Wiedersehen	NN	Wiedersehen	_	O	O	
+11-15	!	$.	!	_	O	O	
+
+#id=12
+#text=Ihr WHenzen.
+12-1	Ihr	PPOSAT	ihr	_	O	O	
+12-2	WHenzen	NN	<unknown>	_	O	O	
+12-3	.	$.	.	_	O	O	
+
+#id=13
+#text=Leipzig 28/VI/51
+13-1	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+13-2	28/VI/51	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+

@@ -1,0 +1,116 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=271 2 Lepsius an Henzen Berlin, 15. Juni 1872 Die Oberrechnungs Kammer hat noch nichts damit zu thun.
+1-1	271	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Die	ART	die	_	O	O	
+1-13	Oberrechnungs	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-14	Kammer	NN	Kammer	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-15	hat	VAFIN	haben	_	O	O	
+1-16	noch	ADV	noch	_	O	O	
+1-17	nichts	PIS	nichts	_	O	O	
+1-18	damit	PAV	damit	_	O	O	
+1-19	zu	APPR	zu	_	O	O	
+1-20	thun	NE	<unknown>	_	O	O	
+1-21	.	$.	.	_	O	O	
+
+#id=2
+#text=Es war nur der formelle Entwurf unsrer Kalkulatur, der nichts als die Rechnungen von 1871 vorlagen.
+2-1	Es	PPER	es	_	O	O	
+2-2	war	VAFIN	sein	_	O	O	
+2-3	nur	ADV	nur	_	O	O	
+2-4	der	ART	die	_	O	O	
+2-5	formelle	ADJA	formell	_	O	O	
+2-6	Entwurf	NN	Entwurf	_	O	O	
+2-7	unsrer	PPOSAT	unser	_	O	O	
+2-8	Kalkulatur	NN	<unknown>	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	der	PRELS	die	_	O	O	
+2-11	nichts	PIS	nichts	_	O	O	
+2-12	als	KOKOM	als	_	O	O	
+2-13	die	ART	die	_	O	O	
+2-14	Rechnungen	NN	Rechnung	_	O	O	
+2-15	von	APPR	von	_	O	O	
+2-16	1871	CARD	@card@	_	O	O	
+2-17	vorlagen	VVFIN	vorliegen	_	O	O	
+2-18	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihre Änderungen sind also ganz legitim, und bedürfen nur der allgemeinen Bemerkung, daß sie Durchschnittszahlen von dem Jahre geben.
+3-1	Ihre	PPOSAT	ihr	_	O	O	
+3-2	Änderungen	NN	Änderung	_	O	O	
+3-3	sind	VAFIN	sein	_	O	O	
+3-4	also	ADV	also	_	O	O	
+3-5	ganz	ADV	ganz	_	O	O	
+3-6	legitim	ADJD	legitim	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	und	KON	und	_	O	O	
+3-9	bedürfen	VVFIN	bedürfen	_	O	O	
+3-10	nur	ADV	nur	_	O	O	
+3-11	der	ART	die	_	O	O	
+3-12	allgemeinen	ADJA	allgemein	_	O	O	
+3-13	Bemerkung	NN	Bemerkung	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	daß	KOUS	dass	_	O	O	
+3-16	sie	PPER	sie	_	O	O	
+3-17	Durchschnittszahlen	NN	Durchschnittszahl	_	O	O	
+3-18	von	APPR	von	_	O	O	
+3-19	dem	ART	die	_	O	O	
+3-20	Jahre	NN	Jahr	_	O	O	
+3-21	geben	VVFIN	geben	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Gehaltserhöhungen werden wir hier zufügen.
+4-1	Die	ART	die	_	O	O	
+4-2	Gehaltserhöhungen	NN	Gehaltserhöhung	_	O	O	
+4-3	werden	VAFIN	werden	_	O	O	
+4-4	wir	PPER	wir	_	O	O	
+4-5	hier	ADV	hier	_	O	O	
+4-6	zufügen	VVINF	zufügen	_	O	O	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich bin mit Ihnen über H. einverstanden.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	bin	VAFIN	sein	_	O	O	
+5-3	mit	APPR	mit	_	O	O	
+5-4	Ihnen	PPER	Sie	_	O	O	
+5-5	über	APPR	über	_	O	O	
+5-6	H.	NE	H.	_	O	O	
+5-7	einverstanden	VVPP	einverstehen	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Ob die 400 r nicht beanstandet werden, wird sich erst zeigen.
+6-1	Ob	KOUS	ob	_	O	O	
+6-2	die	ART	die	_	O	O	
+6-3	400	CARD	400	_	O	O	
+6-4	r	NE	r	_	O	O	
+6-5	nicht	PTKNEG	nicht	_	O	O	
+6-6	beanstandet	VVPP	beanstanden	_	O	O	
+6-7	werden	VAFIN	werden	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	wird	VAFIN	werden	_	O	O	
+6-10	sich	PRF	sich	_	O	O	
+6-11	erst	ADV	erst	_	O	O	
+6-12	zeigen	VVINF	zeigen	_	O	O	
+6-13	.	$.	.	_	O	O	
+
+#id=7
+#text=Sehr herzlich ergeben R Lepsius
+7-1	Sehr	ADV	sehr	_	O	O	
+7-2	herzlich	ADJD	herzlich	_	O	O	
+7-3	ergeben	VVFIN	ergeben	_	O	O	
+7-4	R	NN	R	_	O	O	
+7-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

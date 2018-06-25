@@ -1,0 +1,371 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=381 9/XII/52 Renzen an Gerhard 2 N. 27. in dem Institutsexemplar ; es wi,3re schön, wenn Sie es uns nachliefern könnten.
+1-1	381	CARD	@card@	_	O	O	
+1-2	9/XII/52	CARD	<unknown>	_	O	O	
+1-3	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	N.	APPR	n.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	27	CARD	27	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	.	$.	.	_	O	O	
+1-10	in	APPR	in	_	O	O	
+1-11	dem	ART	die	_	O	O	
+1-12	Institutsexemplar	NN	<unknown>	_	O	O	
+1-13	;	$.	;	_	O	O	
+1-14	es	PPER	es	_	O	O	
+1-15	wi,3re	VVFIN	<unknown>	_	O	O	
+1-16	schön	ADJD	schön	_	O	O	
+1-17	,	$,	,	_	O	O	
+1-18	wenn	KOUS	wenn	_	O	O	
+1-19	Sie	PPER	Sie	_	O	O	
+1-20	es	PPER	es	_	O	O	
+1-21	uns	PRF	wir	_	O	O	
+1-22	nachliefern	VVINF	nachliefern	_	O	O	
+1-23	könnten	VMFIN	können	_	O	O	
+1-24	.	$.	.	_	O	O	
+
+#id=2
+#text=Wenn nicht, nehme ich es aus meinem Exemplar.
+2-1	Wenn	KOUS	wenn	_	O	O	
+2-2	nicht	PTKNEG	nicht	_	O	O	
+2-3	,	$,	,	_	O	O	
+2-4	nehme	VVFIN	nehmen	_	O	O	
+2-5	ich	PPER	ich	_	O	O	
+2-6	es	PPER	es	_	O	O	
+2-7	aus	APPR	aus	_	O	O	
+2-8	meinem	PPOSAT	mein	_	O	O	
+2-9	Exemplar	NN	Exemplar	_	O	O	
+2-10	.	$.	.	_	O	O	
+
+#id=3
+#text=Wollen Sie nicht Prof.
+3-1	Wollen	VMFIN	wollen	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	nicht	PTKNEG	nicht	_	O	O	
+3-4	Prof.	NN	Prof.	_	O	O	
+
+#id=4
+#text=Kramer im Namen ds.
+4-1	Kramer	NE	Kramer	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	im	APPRART	in	_	O	O	
+4-3	Namen	NN	Name	_	O	O	
+4-4	ds.	ADJD	<unknown>	_	O	O	
+
+#id=5
+#text=Instituts bitten, uns von seinem Strabo, dessen ersten Band er geschenkt, auch die zwei folgenden zu verehren?
+5-1	Instituts	NN	Institut	_	O	O	
+5-2	bitten	VVINF	bitten	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	uns	PRF	wir	_	O	O	
+5-5	von	APPR	von	_	O	O	
+5-6	seinem	PPOSAT	sein	_	O	O	
+5-7	Strabo	NN	<unknown>	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	dessen	PRELAT	die	_	O	O	
+5-10	ersten	ADJA	erst	_	O	O	
+5-11	Band	NN	Band	_	O	O	
+5-12	er	PPER	er	_	O	O	
+5-13	geschenkt	VVPP	schenken	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	auch	ADV	auch	_	O	O	
+5-16	die	ART	die	_	O	O	
+5-17	zwei	CARD	zwei	_	O	O	
+5-18	folgenden	ADJA	folgend	_	O	O	
+5-19	zu	PTKZU	zu	_	O	O	
+5-20	verehren	VVINF	verehren	_	O	O	
+5-21	?	$.	?	_	O	O	
+
+#id=6
+#text=Eben so Curtius um den 2~ Th.
+6-1	Eben	ADV	eben	_	O	O	
+6-2	so	ADV	so	_	O	O	
+6-3	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	um	APPR	um	_	O	O	
+6-5	den	ART	die	_	O	O	
+6-6	2~	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+6-7	Th.	NE	Th.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=7
+#text=ds.
+7-1	ds.	ADJD	<unknown>	_	O	O	
+
+#id=8
+#text=Peloponnes bitten.
+8-1	Peloponnes	NN	<unknown>	_	O	O	
+8-2	bitten	VVINF	bitten	_	O	O	
+8-3	.	$.	.	_	O	O	
+
+#id=9
+#text=Georg Wigand wird die Sachen leicht hieher besorgen.
+9-1	Georg	NE	Georg	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	Wigand	NE	Wigand	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-3	wird	VAFIN	werden	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	Sachen	NN	Sache	_	O	O	
+9-6	leicht	ADJD	leicht	_	O	O	
+9-7	hieher	NN	<unknown>	_	O	O	
+9-8	besorgen	VVINF	besorgen	_	O	O	
+9-9	.	$.	.	_	O	O	
+
+#id=10
+#text=Was das Porto betrifft, so habe ich die letzten Briefe nicht frankirt, um zu erfahren, ob es vortheilhaft, oder nicht, von hier aus zu frankiren, was bis nach Berlin 13 Baj.
+10-1	Was	PWS	was	_	O	O	
+10-2	das	ART	die	_	O	O	
+10-3	Porto	NN	Porto	_	O	O	
+10-4	betrifft	VVFIN	betreffen	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	so	ADV	so	_	O	O	
+10-7	habe	VAFIN	haben	_	O	O	
+10-8	ich	PPER	ich	_	O	O	
+10-9	die	ART	die	_	O	O	
+10-10	letzten	ADJA	letzt	_	O	O	
+10-11	Briefe	NN	Brief	_	O	O	
+10-12	nicht	PTKNEG	nicht	_	O	O	
+10-13	frankirt	NN	<unknown>	_	O	O	
+10-14	,	$,	,	_	O	O	
+10-15	um	KOUI	um	_	O	O	
+10-16	zu	PTKZU	zu	_	O	O	
+10-17	erfahren	VVINF	erfahren	_	O	O	
+10-18	,	$,	,	_	O	O	
+10-19	ob	KOUS	ob	_	O	O	
+10-20	es	PPER	es	_	O	O	
+10-21	vortheilhaft	ADJD	<unknown>	_	O	O	
+10-22	,	$,	,	_	O	O	
+10-23	oder	KON	oder	_	O	O	
+10-24	nicht	PTKNEG	nicht	_	O	O	
+10-25	,	$,	,	_	O	O	
+10-26	von	APPR	von	_	O	O	
+10-27	hier	ADV	hier	_	O	O	
+10-28	aus	APZR	aus	_	O	O	
+10-29	zu	APPR	zu	_	O	O	
+10-30	frankiren	NN	<unknown>	_	O	O	
+10-31	,	$,	,	_	O	O	
+10-32	was	PRELS	was	_	O	O	
+10-33	bis	APPR	bis	_	O	O	
+10-34	nach	APPR	nach	_	O	O	
+10-35	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-36	13	CARD	13	_	O	O	
+10-37	Baj	NE	<unknown>	_	O	O	
+10-38	.	$.	.	_	O	O	
+
+#id=11
+#text=kostet nach der neuen Postconvention, wobei dann die Preußische I'ortofreihei t Nichts nützt.
+11-1	kostet	VVFIN	kosten	_	O	O	
+11-2	nach	APPR	nach	_	O	O	
+11-3	der	ART	die	_	O	O	
+11-4	neuen	ADJA	neu	_	O	O	
+11-5	Postconvention	NN	<unknown>	_	O	O	
+11-6	,	$,	,	_	O	O	
+11-7	wobei	PWAV	wobei	_	O	O	
+11-8	dann	ADV	dann	_	O	O	
+11-9	die	ART	die	_	O	O	
+11-10	Preußische	ADJA	preußisch	_	O	O	
+11-11	I'ortofreihei	NN	<unknown>	_	O	O	
+11-12	t	NN	t	_	O	O	
+11-13	Nichts	PIS	nichts	_	O	O	
+11-14	nützt	VVFIN	nützen	_	O	O	
+11-15	.	$.	.	_	O	O	
+
+#id=12
+#text=Ich bat Sie schon darliber um ~uskunft.
+12-1	Ich	PPER	ich	_	O	O	
+12-2	bat	VVFIN	bitten	_	O	O	
+12-3	Sie	PPER	Sie	_	O	O	
+12-4	schon	ADV	schon	_	O	O	
+12-5	darliber	VVFIN	<unknown>	_	O	O	
+12-6	um	APPR	um	_	O	O	
+12-7	~uskunft	NN	<unknown>	_	O	O	
+12-8	.	$.	.	_	O	O	
+
+#id=13
+#text=Sagen Sie mir in Ihrem Nächsten gef~lligst, was vortheilhafter.
+13-1	Sagen	VVFIN	sagen	_	O	O	
+13-2	Sie	PPER	Sie	_	O	O	
+13-3	mir	PRF	ich	_	O	O	
+13-4	in	APPR	in	_	O	O	
+13-5	Ihrem	PPOSAT	ihr	_	O	O	
+13-6	Nächsten	NN	Nächste	_	O	O	
+13-7	gef~lligst	VVFIN	<unknown>	_	O	O	
+13-8	,	$,	,	_	O	O	
+13-9	was	PWS	was	_	O	O	
+13-10	vortheilhafter	VVFIN	<unknown>	_	O	O	
+13-11	.	$.	.	_	O	O	
+
+#id=14
+#text=Das Bull.
+14-1	Das	ART	die	_	O	O	
+14-2	Bull	NE	Bull	_	O	O	
+14-3	.	$.	.	_	O	O	
+
+#id=15
+#text=dagegen kostet jetzt hier 4 Baj.
+15-1	dagegen	PAV	dagegen	_	O	O	
+15-2	kostet	VVFIN	kosten	_	O	O	
+15-3	jetzt	ADV	jetzt	_	O	O	
+15-4	hier	ADV	hier	_	O	O	
+15-5	4	CARD	4	_	O	O	
+15-6	Baj	NE	<unknown>	_	O	O	
+15-7	.	$.	.	_	O	O	
+
+#id=16
+#text=u. muß ich Sie bitten, alle etwaigen Kreuzbandsendungen zu frankiren; wo nicht, zahlen sie Briefporto.
+16-1	u.	KON	und	_	O	O	
+16-2	muß	VMFIN	müssen	_	O	O	
+16-3	ich	PPER	ich	_	O	O	
+16-4	Sie	PPER	Sie	_	O	O	
+16-5	bitten	VVINF	bitten	_	O	O	
+16-6	,	$,	,	_	O	O	
+16-7	alle	PIAT	alle	_	O	O	
+16-8	etwaigen	ADJA	etwaig	_	O	O	
+16-9	Kreuzbandsendungen	NN	<unknown>	_	O	O	
+16-10	zu	APPR	zu	_	O	O	
+16-11	frankiren	NN	<unknown>	_	O	O	
+16-12	;	$.	;	_	O	O	
+16-13	wo	PWAV	wo	_	O	O	
+16-14	nicht	PTKNEG	nicht	_	O	O	
+16-15	,	$,	,	_	O	O	
+16-16	zahlen	VVFIN	zahlen	_	O	O	
+16-17	sie	PPER	sie	_	O	O	
+16-18	Briefporto	NN	Briefporto	_	O	O	
+16-19	.	$.	.	_	O	O	
+
+#id=17
+#text=Welcker befand sich in den letzten Tacen doch etwas besser u. freut sich des schönen ~etters.
+17-1	Welcker	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-2	befand	VVFIN	befinden	_	O	O	
+17-3	sich	PRF	sich	_	O	O	
+17-4	in	APPR	in	_	O	O	
+17-5	den	ART	die	_	O	O	
+17-6	letzten	ADJA	letzt	_	O	O	
+17-7	Tacen	NN	<unknown>	_	O	O	
+17-8	doch	ADV	doch	_	O	O	
+17-9	etwas	ADV	etwas	_	O	O	
+17-10	besser	ADJD	gut	_	O	O	
+17-11	u.	KON	und	_	O	O	
+17-12	freut	VVFIN	freuen	_	O	O	
+17-13	sich	PRF	sich	_	O	O	
+17-14	des	ART	die	_	O	O	
+17-15	schönen	ADJA	schön	_	O	O	
+17-16	~etters	NN	<unknown>	_	O	O	
+17-17	.	$.	.	_	O	O	
+
+#id=18
+#text=Vorgestern, am 7~ Abends, hei2ben wir zuerst etwas ein, heute wieder offne Fenster.
+18-1	Vorgestern	ADV	vorgestern	_	O	O	
+18-2	,	$,	,	_	O	O	
+18-3	am	APPRART	an	_	O	O	
+18-4	7~	ADJA	<unknown>	_	O	O	
+18-5	Abends	NN	Abend	_	O	O	
+18-6	,	$,	,	_	O	O	
+18-7	hei2ben	VVFIN	<unknown>	_	O	O	
+18-8	wir	PPER	wir	_	O	O	
+18-9	zuerst	ADV	zuerst	_	O	O	
+18-10	etwas	PIS	etwas	_	O	O	
+18-11	ein	PTKVZ	ein	_	O	O	
+18-12	,	$,	,	_	O	O	
+18-13	heute	ADV	heute	_	O	O	
+18-14	wieder	ADV	wieder	_	O	O	
+18-15	offne	ADJA	<unknown>	_	O	O	
+18-16	Fenster	NN	Fenster	_	O	O	
+18-17	.	$.	.	_	O	O	
+
+#id=19
+#text=~eine Frau war wieder recht unwohl, Maßenkrampf mit einem Anfalle ds.
+19-1	~eine	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+19-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+19-3	war	VAFIN	sein	_	O	O	
+19-4	wieder	ADV	wieder	_	O	O	
+19-5	recht	ADJD	recht	_	O	O	
+19-6	unwohl	ADJD	unwohl	_	O	O	
+19-7	,	$,	,	_	O	O	
+19-8	Maßenkrampf	NN	<unknown>	_	O	O	
+19-9	mit	APPR	mit	_	O	O	
+19-10	einem	ART	eine	_	O	O	
+19-11	Anfalle	NN	<unknown>	_	O	O	
+19-12	ds.	ADJD	<unknown>	_	O	O	
+
+#id=20
+#text=Uebels vom vorie;en Sommer; doch ist sie heute viel besser.
+20-1	Uebels	NN	<unknown>	_	O	O	
+20-2	vom	APPRART	von	_	O	O	
+20-3	vorie	NN	<unknown>	_	O	O	
+20-4	;	$.	;	_	O	O	
+20-5	en	FM	en	_	O	O	
+20-6	Sommer	NE	Sommer	_	O	O	
+20-7	;	$.	;	_	O	O	
+20-8	doch	ADV	doch	_	O	O	
+20-9	ist	VAFIN	sein	_	O	O	
+20-10	sie	PPER	sie	_	O	O	
+20-11	heute	ADV	heute	_	O	O	
+20-12	viel	ADV	viel	_	O	O	
+20-13	besser	ADJD	gut	_	O	O	
+20-14	.	$.	.	_	O	O	
+
+#id=21
+#text=Sie e;rüßt bestens Sie beide.
+21-1	Sie	PPER	Sie	_	O	O	
+21-2	e	VVFIN	<unknown>	_	O	O	
+21-3	;	$.	;	_	O	O	
+21-4	rüßt	VVFIN	<unknown>	_	O	O	
+21-5	bestens	ADV	bestens	_	O	O	
+21-6	Sie	PPER	Sie	_	O	O	
+21-7	beide	PIS	beide	_	O	O	
+21-8	.	$.	.	_	O	O	
+
+#id=22
+#text=Morgen haben wir St.
+22-1	Morgen	ADV	morgen	_	O	O	
+22-2	haben	VAFIN	haben	_	O	O	
+22-3	wir	PPER	wir	_	O	O	
+22-4	St.	NE	St.	_	O	O	
+
+#id=23
+#text=~inckelmannsfest.
+23-1	~inckelmannsfest	NN	<unknown>	_	O	O	
+23-2	.	$.	.	_	O	O	
+
+#id=24
+#text=Q.;ltu) Br/Tiest "' über TyrtajHs u. Anakreon von V. Bore;hese, ich liber die Ruinen der Villen von Albano, gegen mein~ Gewohnheit mehr eine chiacchierata, als eine durche;earbeitete Dissertation;
+24-1	Q.	NE	Q.	_	O	O	
+24-2	;	$.	;	_	O	O	
+24-3	ltu	NN	<unknown>	_	O	O	
+24-4	)	$(	)	_	O	O	
+24-5	Br/Tiest	NE	<unknown>	_	O	O	
+24-6	"	$(	"	_	O	O	
+24-7	'	$(	'	_	O	O	
+24-8	über	APPR	über	_	O	O	
+24-9	TyrtajHs	NE	<unknown>	_	O	O	
+24-10	u.	APPR	um	_	O	O	
+24-11	Anakreon	NN	<unknown>	_	O	O	
+24-12	von	APPR	von	_	O	O	
+24-13	V.	NE	V.	_	O	O	
+24-14	Bore	NE	<unknown>	_	O	O	
+24-15	;	$.	;	_	O	O	
+24-16	hese	NN	<unknown>	_	O	O	
+24-17	,	$,	,	_	O	O	
+24-18	ich	PPER	ich	_	O	O	
+24-19	liber	VVFIN	<unknown>	_	O	O	
+24-20	die	ART	die	_	O	O	
+24-21	Ruinen	NN	Ruine	_	O	O	
+24-22	der	ART	die	_	O	O	
+24-23	Villen	NN	Villa	_	O	O	
+24-24	von	APPR	von	_	O	O	
+24-25	Albano	NE	Albano	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+24-26	,	$,	,	_	O	O	
+24-27	gegen	APPR	gegen	_	O	O	
+24-28	mein~	ADJA	<unknown>	_	O	O	
+24-29	Gewohnheit	NN	Gewohnheit	_	O	O	
+24-30	mehr	ADV	mehr	_	O	O	
+24-31	eine	ART	eine	_	O	O	
+24-32	chiacchierata	NN	<unknown>	_	O	O	
+24-33	,	$,	,	_	O	O	
+24-34	als	KOUS	als	_	O	O	
+24-35	eine	ART	eine	_	O	O	
+24-36	durche	NN	<unknown>	_	O	O	
+24-37	;	$.	;	_	O	O	
+24-38	earbeitete	ADJA	<unknown>	_	O	O	
+24-39	Dissertation	NN	Dissertation	_	O	O	
+24-40	;	$.	;	_	O	O	
+

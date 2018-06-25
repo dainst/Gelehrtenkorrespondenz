@@ -1,0 +1,136 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=300 30/XII/51 2 Henzen an Gerhard Wetter, u. nur die letzten Tage her heftige Tramontana u. demnach für Rom bedeutende Kälte.
+1-1	300	CARD	300	_	O	O	
+1-2	30/XII/51	CARD	<unknown>	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Wetter	NN	Wetter	_	O	O	
+1-8	,	$,	,	_	O	O	
+1-9	u.	KON	und	_	O	O	
+1-10	nur	ADV	nur	_	O	O	
+1-11	die	ART	die	_	O	O	
+1-12	letzten	ADJA	letzt	_	O	O	
+1-13	Tage	NN	Tag	_	O	O	
+1-14	her	APZR	her	_	O	O	
+1-15	heftige	ADJA	heftig	_	O	O	
+1-16	Tramontana	NN	<unknown>	_	O	O	
+1-17	u.	APPR	um	_	O	O	
+1-18	demnach	ADV	demnach	_	O	O	
+1-19	für	APPR	für	_	O	O	
+1-20	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-21	bedeutende	ADJA	bedeutend	_	O	O	
+1-22	Kälte	NN	Kälte	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Meine Frau ist, wohl in Folge der Deutschen Reise, außerordentlich gesund, bis jetzt noch von den alljährlichen Magenkrämpfen frei geblieben.
+2-1	Meine	PPOSAT	mein	_	O	O	
+2-2	Frau	NN	Frau	_	O	O	
+2-3	ist	VAFIN	sein	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	wohl	ADV	wohl	_	O	O	
+2-6	in	APPR	in	_	O	O	
+2-7	Folge	NN	Folge	_	O	O	
+2-8	der	ART	die	_	O	O	
+2-9	Deutschen	ADJA	deutsch	_	O	O	
+2-10	Reise	NN	Reise	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	außerordentlich	ADJD	außerordentlich	_	O	O	
+2-13	gesund	ADJD	gesund	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	bis	KOUS	bis	_	O	O	
+2-16	jetzt	ADV	jetzt	_	O	O	
+2-17	noch	ADV	noch	_	O	O	
+2-18	von	APPR	von	_	O	O	
+2-19	den	ART	die	_	O	O	
+2-20	alljährlichen	ADJA	alljährlich	_	O	O	
+2-21	Magenkrämpfen	NN	Magenkrampf	_	O	O	
+2-22	frei	ADJD	frei	_	O	O	
+2-23	geblieben	VVPP	bleiben	_	O	O	
+2-24	.	$.	.	_	O	O	
+
+#id=3
+#text=Meine .... ugen sind auch sehr erträglich.
+3-1	Meine	PPOSAT	mein	_	O	O	
+3-2	...	$.	...	_	O	O	
+3-3	.	$.	.	_	O	O	
+3-4	ugen	ADJD	<unknown>	_	O	O	
+3-5	sind	VAFIN	sein	_	O	O	
+3-6	auch	ADV	auch	_	O	O	
+3-7	sehr	ADV	sehr	_	O	O	
+3-8	erträglich	ADJD	erträglich	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Braun ist nicht zu Hause u. ziehe ich vor, dsn.
+4-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	ist	VAFIN	sein	_	O	O	
+4-3	nicht	PTKNEG	nicht	_	O	O	
+4-4	zu	APPR	zu	_	O	O	
+4-5	Hause	NN	Haus	_	O	O	
+4-6	u.	KON	und	_	O	O	
+4-7	ziehe	VVFIN	zeihen|ziehen	_	O	O	
+4-8	ich	PPER	ich	_	O	O	
+4-9	vor	PTKVZ	vor	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	dsn	ADJD	<unknown>	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Brief gleich heute abzusenden, um nicht zu spät zu kommen, zumal der Ihrige 12 Tage gebraucht hat.
+5-1	Brief	NN	Brief	_	O	O	
+5-2	gleich	ADJD	gleich	_	O	O	
+5-3	heute	ADV	heute	_	O	O	
+5-4	abzusenden	VVIZU	absenden	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	um	KOUI	um	_	O	O	
+5-7	nicht	PTKNEG	nicht	_	O	O	
+5-8	zu	PTKA	zu	_	O	O	
+5-9	spät	ADJD	spät	_	O	O	
+5-10	zu	PTKZU	zu	_	O	O	
+5-11	kommen	VVINF	kommen	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	zumal	KOUS	zumal	_	O	O	
+5-14	der	ART	die	_	O	O	
+5-15	Ihrige	PPOSAT	ihrige	_	O	O	
+5-16	12	CARD	12	_	O	O	
+5-17	Tage	NN	Tag	_	O	O	
+5-18	gebraucht	VVPP	brauchen|gebrauchen	_	O	O	
+5-19	hat	VAFIN	haben	_	O	O	
+5-20	.	$.	.	_	O	O	
+
+#id=6
+#text=Unsre besten Grüße und Glückwünsche für Sie u. Ihre Frau, so wie unsre Empfehlung an Ihre Frau h'lutter u. Frl. Schweckenn.
+6-1	Unsre	PPOSAT	unsre	_	O	O	
+6-2	besten	ADJA	gut	_	O	O	
+6-3	Grüße	NN	Gruß	_	O	O	
+6-4	und	KON	und	_	O	O	
+6-5	Glückwünsche	NN	Glückwunsch	_	O	O	
+6-6	für	APPR	für	_	O	O	
+6-7	Sie	PPER	Sie	_	O	O	
+6-8	u.	APPR	um	_	O	O	
+6-9	Ihre	PPOSAT	ihr	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-11	,	$,	,	_	O	O	
+6-12	so	ADV	so	_	O	O	
+6-13	wie	KOKOM	wie	_	O	O	
+6-14	unsre	PPOSAT	unsre	_	O	O	
+6-15	Empfehlung	NN	Empfehlung	_	O	O	
+6-16	an	APPR	an	_	O	O	
+6-17	Ihre	PPOSAT	ihr	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-18	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-19	h'lutter	NN	<unknown>	_	O	O	
+6-20	u.	APPR	um	_	O	O	
+6-21	Frl.	NN	Frl.	_	O	O	
+6-22	Schweckenn	NE	<unknown>	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Ihr WH.
+7-1	Ihr	PPOSAT	ihr	_	O	O	
+7-2	WH	NN	<unknown>	_	O	O	
+7-3	.	$.	.	_	O	O	
+

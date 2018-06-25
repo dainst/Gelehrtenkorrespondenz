@@ -1,0 +1,314 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=( \ 97 Lepsius an Henzen Berlin, 1. Februar 1872 g. 5/3 72 ~.
+1-1	(	$(	(	_	O	O	
+1-2	\	XY	\	_	O	O	
+1-3	97	CARD	97	_	O	O	
+1-4	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	5/3	CARD	5/3	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	~	XY	~	_	O	O	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text=I ~ (.
+2-1	I	FM	I	_	O	O	
+2-2	~	XY	~	_	O	O	
+2-3	(	$(	(	_	O	O	
+2-4	.	$.	.	_	O	O	
+
+#id=3
+#text=::.A/C .... · r.
+3-1	::.A/C	NE	<unknown>	_	O	O	
+3-2	...	$.	...	_	O	O	
+3-3	.	$.	.	_	O	O	
+3-4	·	ADJD	<unknown>	_	O	O	
+3-5	r.	VVFIN	<unknown>	_	O	O	
+
+#id=4
+#text=6/3 72 '- - L Berlin d. 1. Febr.
+4-1	6/3	CARD	6/3	_	O	O	
+4-2	72	CARD	72	_	O	O	
+4-3	'	$(	'	_	O	O	
+4-4	-	$(	-	_	O	O	
+4-5	-	$(	-	_	O	O	
+4-6	L	NN	L	_	O	O	
+4-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-8	d.	ART	d.	_	O	O	
+4-9	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-11	Febr.	NN	Febr.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=5
+#text=1872 Verehrter Freund In Bälde wird ein Landrath, Freiherr von Zedlitz 1') ?
+5-1	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+5-2	Verehrter	NN	Verehrte	_	O	O	
+5-3	Freund	NE	Freund	_	O	O	
+5-4	In	APPR	in	_	O	O	
+5-5	Bälde	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-6	wird	VAFIN	werden	_	O	O	
+5-7	ein	ART	eine	_	O	O	
+5-8	Landrath	NE	<unknown>	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	Freiherr	NN	Freiherr	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-11	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-12	Zedlitz	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-13	1	CARD	1	_	O	O	
+5-14	'	$(	'	_	O	O	
+5-15	)	$(	)	_	O	O	
+5-16	?	$.	?	_	O	O	
+
+#id=6
+#text=(I,l~":\'1 mit seiner Frau, gebe von Kutmitz, mit einem Empfehlungsbruefe von mir an Sie und Dr.
+6-1	(	$(	(	_	O	O	
+6-2	I,l~":\'1	VVIMP	<unknown>	_	O	O	
+6-3	mit	APPR	mit	_	O	O	
+6-4	seiner	PPOSAT	sein	_	O	O	
+6-5	Frau	NN	Frau	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	gebe	VVFIN	geben	_	O	O	
+6-8	von	APPR	von	_	O	O	
+6-9	Kutmitz	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	,	$,	,	_	O	O	
+6-11	mit	APPR	mit	_	O	O	
+6-12	einem	ART	eine	_	O	O	
+6-13	Empfehlungsbruefe	NN	<unknown>	_	O	O	
+6-14	von	APPR	von	_	O	O	
+6-15	mir	PPER	ich	_	O	O	
+6-16	an	APPR	an	_	O	O	
+6-17	Sie	PPER	Sie	_	O	O	
+6-18	und	KON	und	_	O	O	
+6-19	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=7
+#text=Helbig in Rom anlangen.
+7-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	in	APPR	in	_	O	O	
+7-3	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-4	anlangen	VVFIN	anlangen	_	O	O	
+7-5	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich kenne die Leute nicht persönlich, doch hat Geh.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	kenne	VVFIN	kennen	_	O	O	
+8-3	die	ART	die	_	O	O	
+8-4	Leute	NN	Leute	_	O	O	
+8-5	nicht	PTKNEG	nicht	_	O	O	
+8-6	persönlich	ADJD	persönlich	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	doch	KON	doch	_	O	O	
+8-9	hat	VAFIN	haben	_	O	O	
+8-10	Geh	VVIMP	gehen	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Rath D"'tI,l; !,,\,'It,)..j(1_'~ Kueck den Brief von mir gewünscht, der namentlich mit der <l._ .
+9-1	Rath	NE	Rath	_	O	O	
+9-2	D"'tI,l	NE	<unknown>	_	O	O	
+9-3	;	$.	;	_	O	O	
+9-4	!	$.	!	_	O	O	
+9-5	,,\,'It,)..j(1_'~	ADJA	<unknown>	_	O	O	
+9-6	Kueck	NN	<unknown>	_	O	O	
+9-7	den	ART	die	_	O	O	
+9-8	Brief	NN	Brief	_	O	O	
+9-9	von	APPR	von	_	O	O	
+9-10	mir	PPER	ich	_	O	O	
+9-11	gewünscht	VVPP	wünschen	_	O	O	
+9-12	,	$,	,	_	O	O	
+9-13	der	PRELS	die	_	O	O	
+9-14	namentlich	ADJD	namentlich	_	O	O	
+9-15	mit	APPR	mit	_	O	O	
+9-16	der	ART	die	_	O	O	
+9-17	<l._	NN	<unknown>	_	O	O	
+9-18	.	$.	.	_	O	O	
+
+#id=10
+#text=..
+10-1	.	$.	.	_	O	O	
+10-2	.	$.	.	_	O	O	
+
+#id=11
+#text=,,~.'
+11-1	,,~	NN	<unknown>	_	O	O	
+11-2	.	$.	.	_	O	O	
+11-3	'	$(	'	_	O	O	
+
+#id=12
+#text=Frau ihrer Familie eng befreundet oder gar verwandt ist.
+12-1	Frau	NN	Frau	_	O	O	
+12-2	ihrer	PPOSAT	ihr	_	O	O	
+12-3	Familie	NN	Familie	_	O	O	
+12-4	eng	ADJD	eng	_	O	O	
+12-5	befreundet	VVPP	befreunden	_	O	O	
+12-6	oder	KON	oder	_	O	O	
+12-7	gar	ADV	gar	_	O	O	
+12-8	verwandt	VVPP	verwenden	_	O	O	
+12-9	ist	VAFIN	sein	_	O	O	
+12-10	.	$.	.	_	O	O	
+
+#id=13
+#text=Aus letzterem Grunde, wenn sich nicht andre, wofür ich nicht stehen kann, vorfinden, wird es gut sein, sich der Leute anzunehmen, da wir Kneck's guten Willen jetzt vielfach nöthig haben.
+13-1	Aus	APPR	aus	_	O	O	
+13-2	letzterem	ADJA	letzt	_	O	O	
+13-3	Grunde	NN	Grund	_	O	O	
+13-4	,	$,	,	_	O	O	
+13-5	wenn	KOUS	wenn	_	O	O	
+13-6	sich	PRF	sich	_	O	O	
+13-7	nicht	PTKNEG	nicht	_	O	O	
+13-8	andre	PIS	andere	_	O	O	
+13-9	,	$,	,	_	O	O	
+13-10	wofür	PWAV	wofür	_	O	O	
+13-11	ich	PPER	ich	_	O	O	
+13-12	nicht	PTKNEG	nicht	_	O	O	
+13-13	stehen	VVINF	stehen	_	O	O	
+13-14	kann	VMFIN	können	_	O	O	
+13-15	,	$,	,	_	O	O	
+13-16	vorfinden	VVFIN	vorfinden	_	O	O	
+13-17	,	$,	,	_	O	O	
+13-18	wird	VAFIN	werden	_	O	O	
+13-19	es	PPER	es	_	O	O	
+13-20	gut	ADJD	gut	_	O	O	
+13-21	sein	VAINF	sein	_	O	O	
+13-22	,	$,	,	_	O	O	
+13-23	sich	PRF	sich	_	O	O	
+13-24	der	ART	die	_	O	O	
+13-25	Leute	NN	Leute	_	O	O	
+13-26	anzunehmen	VVIZU	annehmen	_	O	O	
+13-27	,	$,	,	_	O	O	
+13-28	da	KOUS	da	_	O	O	
+13-29	wir	PPER	wir	_	O	O	
+13-30	Kneck's	VVFIN	<unknown>	_	O	O	
+13-31	guten	ADJA	gut	_	O	O	
+13-32	Willen	NN	Wille	_	O	O	
+13-33	jetzt	ADV	jetzt	_	O	O	
+13-34	vielfach	ADV	vielfach	_	O	O	
+13-35	nöthig	ADJD	<unknown>	_	O	O	
+13-36	haben	VAINF	haben	_	O	O	
+13-37	.	$.	.	_	O	O	
+
+#id=14
+#text=( \ Meinen letzten Brief werden Sie erhalten haben.
+14-1	(	$(	(	_	O	O	
+14-2	\	XY	\	_	O	O	
+14-3	Meinen	NN	Meinen	_	O	O	
+14-4	letzten	ADJA	letzt	_	O	O	
+14-5	Brief	NN	Brief	_	O	O	
+14-6	werden	VAFIN	werden	_	O	O	
+14-7	Sie	PPER	Sie	_	O	O	
+14-8	erhalten	VVPP	erhalten	_	O	O	
+14-9	haben	VAINF	haben	_	O	O	
+14-10	.	$.	.	_	O	O	
+
+#id=15
+#text=Ich habe mir jetzt die Plände wieder geben lassen und werde sie durchzeichnen lassen.
+15-1	Ich	PPER	ich	_	O	O	
+15-2	habe	VAFIN	haben	_	O	O	
+15-3	mir	PPER	ich	_	O	O	
+15-4	jetzt	ADV	jetzt	_	O	O	
+15-5	die	ART	die	_	O	O	
+15-6	Plände	NN	<unknown>	_	O	O	
+15-7	wieder	ADV	wieder	_	O	O	
+15-8	geben	VVINF	geben	_	O	O	
+15-9	lassen	VVINF	lassen	_	O	O	
+15-10	und	KON	und	_	O	O	
+15-11	werde	VAFIN	werden	_	O	O	
+15-12	sie	PPER	sie	_	O	O	
+15-13	durchzeichnen	ADJD	<unknown>	_	O	O	
+15-14	lassen	VVINF	lassen	_	O	O	
+15-15	.	$.	.	_	O	O	
+
+#id=16
+#text=Die Projekte gefallen mir sehr, was aber mit den Anschlägen zu thun sein wird ist schwer zu sagen.
+16-1	Die	ART	die	_	O	O	
+16-2	Projekte	NN	Projekt	_	O	O	
+16-3	gefallen	VVFIN	gefallen	_	O	O	
+16-4	mir	PPER	ich	_	O	O	
+16-5	sehr	ADV	sehr	_	O	O	
+16-6	,	$,	,	_	O	O	
+16-7	was	PRELS	was	_	O	O	
+16-8	aber	ADV	aber	_	O	O	
+16-9	mit	APPR	mit	_	O	O	
+16-10	den	ART	die	_	O	O	
+16-11	Anschlägen	NN	Anschlag	_	O	O	
+16-12	zu	APPR	zu	_	O	O	
+16-13	thun	NE	<unknown>	_	O	O	
+16-14	sein	VAINF	sein	_	O	O	
+16-15	wird	VAFIN	werden	_	O	O	
+16-16	ist	VAFIN	sein	_	O	O	
+16-17	schwer	ADJD	schwer	_	O	O	
+16-18	zu	PTKZU	zu	_	O	O	
+16-19	sagen	VVINF	sagen	_	O	O	
+16-20	.	$.	.	_	O	O	
+
+#id=17
+#text=Ich hoffe übermorgen eine Si~zung zu Stande zu bekommen.
+17-1	Ich	PPER	ich	_	O	O	
+17-2	hoffe	VVFIN	hoffen	_	O	O	
+17-3	übermorgen	ADV	übermorgen	_	O	O	
+17-4	eine	ART	eine	_	O	O	
+17-5	Si~zung	NN	<unknown>	_	O	O	
+17-6	zu	APPR	zu	_	O	O	
+17-7	Stande	NN	Stand	_	O	O	
+17-8	zu	PTKZU	zu	_	O	O	
+17-9	bekommen	VVINF	bekommen	_	O	O	
+17-10	.	$.	.	_	O	O	
+
+#id=18
+#text=Vielleicht ist es trotz alledem noch immer gerathen die Anschläge wie sie sind, einzuschicken und die Streichungen des Finanzministers, wenn dieser nicht gar auf vorherigen genauen Anschlägen besteht, anzuwarten.
+18-1	Vielleicht	ADV	vielleicht	_	O	O	
+18-2	ist	VAFIN	sein	_	O	O	
+18-3	es	PPER	es	_	O	O	
+18-4	trotz	APPR	trotz	_	O	O	
+18-5	alledem	PDS	alldie	_	O	O	
+18-6	noch	ADV	noch	_	O	O	
+18-7	immer	ADV	immer	_	O	O	
+18-8	gerathen	VVFIN	<unknown>	_	O	O	
+18-9	die	ART	die	_	O	O	
+18-10	Anschläge	NN	Anschlag	_	O	O	
+18-11	wie	KOKOM	wie	_	O	O	
+18-12	sie	PPER	sie	_	O	O	
+18-13	sind	VAFIN	sein	_	O	O	
+18-14	,	$,	,	_	O	O	
+18-15	einzuschicken	VVIZU	einschicken	_	O	O	
+18-16	und	KON	und	_	O	O	
+18-17	die	ART	die	_	O	O	
+18-18	Streichungen	NN	Streichung	_	O	O	
+18-19	des	ART	die	_	O	O	
+18-20	Finanzministers	NN	Finanzminister	_	O	O	
+18-21	,	$,	,	_	O	O	
+18-22	wenn	KOUS	wenn	_	O	O	
+18-23	dieser	PDAT	dies	_	O	O	
+18-24	nicht	PTKNEG	nicht	_	O	O	
+18-25	gar	ADV	gar	_	O	O	
+18-26	auf	APPR	auf	_	O	O	
+18-27	vorherigen	ADJA	vorherig	_	O	O	
+18-28	genauen	ADJA	genau	_	O	O	
+18-29	Anschlägen	NN	Anschlag	_	O	O	
+18-30	besteht	VVFIN	bestehen	_	O	O	
+18-31	,	$,	,	_	O	O	
+18-32	anzuwarten	NN	<unknown>	_	O	O	
+18-33	.	$.	.	_	O	O	
+
+#id=19
+#text=Ich glaube in der That, daß eine ganze An-
+19-1	Ich	PPER	ich	_	O	O	
+19-2	glaube	VVFIN	glauben	_	O	O	
+19-3	in	APPR	in	_	O	O	
+19-4	der	ART	die	_	O	O	
+19-5	That	NE	<unknown>	_	O	O	
+19-6	,	$,	,	_	O	O	
+19-7	daß	KOUS	dass	_	O	O	
+19-8	eine	ART	eine	_	O	O	
+19-9	ganze	ADJA	ganz	_	O	O	
+19-10	An-	TRUNC	An-	_	O	O	
+

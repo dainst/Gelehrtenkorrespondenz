@@ -1,0 +1,341 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Ohne Nummer Renzen an Gerhard 4/VII/53 Gestern besuchte mich de Rossi und, da das Gespr~ch auf unsre früheren Inschriften kam, so hielt icb es fi5r passend, vorl~ufig einmal in Bezug auf das C.I.L. anzuklopfen : Er erkl~rte, er sei bereit, auf einen solchen Plan einzugehen, aber unter der Bedingung, durchaus als gleichberechtigter ~itarbeiter zu gelten.
+1-1	Ohne	APPR	ohne	_	O	O	
+1-2	Nummer	NN	Nummer	_	O	O	
+1-3	Renzen	NN	<unknown>	_	O	O	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	4/VII/53	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	Gestern	NN	Gestern	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	besuchte	VVFIN	besuchen	_	O	O	
+1-9	mich	PRF	ich	_	O	O	
+1-10	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-11	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-12	und	KON	und	_	O	O	
+1-13	,	$,	,	_	O	O	
+1-14	da	KOUS	da	_	O	O	
+1-15	das	ART	die	_	O	O	
+1-16	Gespr~ch	NN	<unknown>	_	O	O	
+1-17	auf	APPR	auf	_	O	O	
+1-18	unsre	PPOSAT	unsre	_	O	O	
+1-19	früheren	ADJA	früh	_	O	O	
+1-20	Inschriften	NN	Inschrift	_	O	O	
+1-21	kam	VVFIN	kommen	_	O	O	
+1-22	,	$,	,	_	O	O	
+1-23	so	ADV	so	_	O	O	
+1-24	hielt	VVFIN	halten	_	O	O	
+1-25	icb	ADJD	<unknown>	_	O	O	
+1-26	es	PPER	es	_	O	O	
+1-27	fi5r	NE	<unknown>	_	O	O	
+1-28	passend	ADJD	passend	_	O	O	
+1-29	,	$,	,	_	O	O	
+1-30	vorl~ufig	ADJD	<unknown>	_	O	O	
+1-31	einmal	ADV	einmal	_	O	O	
+1-32	in	APPR	in	_	O	O	
+1-33	Bezug	NN	Bezug	_	O	O	
+1-34	auf	APPR	auf	_	O	O	
+1-35	das	ART	die	_	O	O	
+1-36	C.I.L.	NE	<unknown>	_	O	O	
+1-37	anzuklopfen	VVIZU	anklopfen	_	O	O	
+1-38	:	$.	:	_	O	O	
+1-39	Er	PPER	er	_	O	O	
+1-40	erkl~rte	VVFIN	<unknown>	_	O	O	
+1-41	,	$,	,	_	O	O	
+1-42	er	PPER	er	_	O	O	
+1-43	sei	VAFIN	sein	_	O	O	
+1-44	bereit	ADJD	bereit	_	O	O	
+1-45	,	$,	,	_	O	O	
+1-46	auf	APPR	auf	_	O	O	
+1-47	einen	ART	eine	_	O	O	
+1-48	solchen	PIAT	solche	_	O	O	
+1-49	Plan	NN	Plan	_	O	O	
+1-50	einzugehen	VVIZU	eingehen	_	O	O	
+1-51	,	$,	,	_	O	O	
+1-52	aber	ADV	aber	_	O	O	
+1-53	unter	APPR	unter	_	O	O	
+1-54	der	ART	die	_	O	O	
+1-55	Bedingung	NN	Bedingung	_	O	O	
+1-56	,	$,	,	_	O	O	
+1-57	durchaus	ADV	durchaus	_	O	O	
+1-58	als	KOKOM	als	_	O	O	
+1-59	gleichberechtigter	ADJA	gleichberechtigt	_	O	O	
+1-60	~itarbeiter	NN	<unknown>	_	O	O	
+1-61	zu	PTKZU	zu	_	O	O	
+1-62	gelten	VVINF	gelten	_	O	O	
+1-63	.	$.	.	_	O	O	
+
+#id=2
+#text=Ihm sei vom Card. Mai alle Freiheit für seine bibliothekarischen Arbeiten zugesagt, u., wenn er einen so ehrenvollen Auftrag erhalte, so werde man ihn auch von seinem Dienst als scrittore sicher dispensiren, vielleicht gar ihm noch andre Erleichterungen gewähren.
+2-1	Ihm	PPER	er|es	_	O	O	
+2-2	sei	VAFIN	sein	_	O	O	
+2-3	vom	APPRART	von	_	O	O	
+2-4	Card	NN	Card	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-6	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-7	alle	PIAT	alle	_	O	O	
+2-8	Freiheit	NN	Freiheit	_	O	O	
+2-9	für	APPR	für	_	O	O	
+2-10	seine	PPOSAT	sein	_	O	O	
+2-11	bibliothekarischen	ADJA	<unknown>	_	O	O	
+2-12	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+2-13	zugesagt	VVPP	zusagen	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	u.	KON	und	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	wenn	KOUS	wenn	_	O	O	
+2-18	er	PPER	er	_	O	O	
+2-19	einen	ART	eine	_	O	O	
+2-20	so	ADV	so	_	O	O	
+2-21	ehrenvollen	ADJA	ehrenvoll	_	O	O	
+2-22	Auftrag	NN	Auftrag	_	O	O	
+2-23	erhalte	VVFIN	erhalten	_	O	O	
+2-24	,	$,	,	_	O	O	
+2-25	so	ADV	so	_	O	O	
+2-26	werde	VAFIN	werden	_	O	O	
+2-27	man	PIS	man	_	O	O	
+2-28	ihn	PPER	er	_	O	O	
+2-29	auch	ADV	auch	_	O	O	
+2-30	von	APPR	von	_	O	O	
+2-31	seinem	PPOSAT	sein	_	O	O	
+2-32	Dienst	NN	Dienst	_	O	O	
+2-33	als	KOKOM	als	_	O	O	
+2-34	scrittore	NN	<unknown>	_	O	O	
+2-35	sicher	ADJD	sicher	_	O	O	
+2-36	dispensiren	ADJA	<unknown>	_	O	O	
+2-37	,	$,	,	_	O	O	
+2-38	vielleicht	ADV	vielleicht	_	O	O	
+2-39	gar	ADV	gar	_	O	O	
+2-40	ihm	PPER	er	_	O	O	
+2-41	noch	ADV	noch	_	O	O	
+2-42	andre	PIAT	andere	_	O	O	
+2-43	Erleichterungen	NN	Erleichterung	_	O	O	
+2-44	gewähren	VVFIN	gewähren	_	O	O	
+2-45	.	$.	.	_	O	O	
+
+#id=3
+#text=Wir beide würden d_ann gemeinsam die 1'/lss.
+3-1	Wir	PPER	wir	_	O	O	
+3-2	beide	PIS	beide	_	O	O	
+3-3	würden	VAFIN	werden	_	O	O	
+3-4	d_ann	NN	<unknown>	_	O	O	
+3-5	gemeinsam	ADJD	gemeinsam	_	O	O	
+3-6	die	ART	die	_	O	O	
+3-7	1'/lss	NN	<unknown>	_	O	O	
+3-8	.	$.	.	_	O	O	
+
+#id=4
+#text=möglichst schnell durchgehn können.
+4-1	möglichst	ADV	möglichst	_	O	O	
+4-2	schnell	ADJD	schnell	_	O	O	
+4-3	durchgehn	VVINF	<unknown>	_	O	O	
+4-4	können	VMFIN	können	_	O	O	
+4-5	.	$.	.	_	O	O	
+
+#id=5
+#text=Nicht weniger sei er bereit, mit mir den Originalien nachzugehn, auch nicht bloß auf Rom sich zu beschränken, sondern Italien liberhaupt, namentlich den Kirchenstaat, mit zu behandeln.
+5-1	Nicht	PTKNEG	nicht	_	O	O	
+5-2	weniger	ADV	weniger	_	O	O	
+5-3	sei	VAFIN	sein	_	O	O	
+5-4	er	PPER	er	_	O	O	
+5-5	bereit	ADJD	bereit	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	mit	APPR	mit	_	O	O	
+5-8	mir	PPER	ich	_	O	O	
+5-9	den	ART	die	_	O	O	
+5-10	Originalien	NN	<unknown>	_	O	O	
+5-11	nachzugehn	VVIZU	<unknown>	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	auch	ADV	auch	_	O	O	
+5-14	nicht	PTKNEG	nicht	_	O	O	
+5-15	bloß	ADJD	bloß	_	O	O	
+5-16	auf	APPR	auf	_	O	O	
+5-17	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-18	sich	PRF	sich	_	O	O	
+5-19	zu	PTKZU	zu	_	O	O	
+5-20	beschränken	VVINF	beschränken	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	sondern	KON	sondern	_	O	O	
+5-23	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-24	liberhaupt	NE	<unknown>	_	O	O	
+5-25	,	$,	,	_	O	O	
+5-26	namentlich	ADJD	namentlich	_	O	O	
+5-27	den	ART	die	_	O	O	
+5-28	Kirchenstaat	NN	Kirchenstaat	_	O	O	
+5-29	,	$,	,	_	O	O	
+5-30	mit	PTKVZ	mit	_	O	O	
+5-31	zu	PTKZU	zu	_	O	O	
+5-32	behandeln	VVINF	behandeln	_	O	O	
+5-33	.	$.	.	_	O	O	
+
+#id=6
+#text=Dabei verzichtet er auf jedes Honorar u. verlengt nur Ersatz einiger Augaben, etwaiger Reisekosten u. s. w. Ich schreibe heute an Mommsen, der de Rossi eben so sehr achtet, wie ich, u. nur eine Verschleppung besorgte.
+6-1	Dabei	PAV	dabei	_	O	O	
+6-2	verzichtet	VVFIN	verzichten	_	O	O	
+6-3	er	PPER	er	_	O	O	
+6-4	auf	APPR	auf	_	O	O	
+6-5	jedes	PIAT	jede	_	O	O	
+6-6	Honorar	NN	Honorar	_	O	O	
+6-7	u.	KON	und	_	O	O	
+6-8	verlengt	VVFIN	<unknown>	_	O	O	
+6-9	nur	ADV	nur	_	O	O	
+6-10	Ersatz	NN	Ersatz	_	O	O	
+6-11	einiger	PIAT	einige	_	O	O	
+6-12	Augaben	NN	<unknown>	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	etwaiger	ADJA	etwaig	_	O	O	
+6-15	Reisekosten	NN	Reisekosten	_	O	O	
+6-16	u.	APPR	um	_	O	O	
+6-17	s.	ADV	s.	_	O	O	
+6-18	w.	APPR	w.	_	O	O	
+6-19	Ich	PPER	ich	_	O	O	
+6-20	schreibe	VVFIN	schreiben	_	O	O	
+6-21	heute	ADV	heute	_	O	O	
+6-22	an	APPR	an	_	O	O	
+6-23	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-24	,	$,	,	_	O	O	
+6-25	der	PRELS	die	_	O	O	
+6-26	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-27	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-28	eben	ADV	eben	_	O	O	
+6-29	so	ADV	so	_	O	O	
+6-30	sehr	ADV	sehr	_	O	O	
+6-31	achtet	VVFIN	achten	_	O	O	
+6-32	,	$,	,	_	O	O	
+6-33	wie	KOUS	wie	_	O	O	
+6-34	ich	PPER	ich	_	O	O	
+6-35	,	$,	,	_	O	O	
+6-36	u.	KON	und	_	O	O	
+6-37	nur	ADV	nur	_	O	O	
+6-38	eine	ART	eine	_	O	O	
+6-39	Verschleppung	NN	Verschleppung	_	O	O	
+6-40	besorgte	VVFIN	besorgen	_	O	O	
+6-41	.	$.	.	_	O	O	
+
+#id=7
+#text=Nach dem aber, was er mir gestern sagte, fürchte ich die jetzt weniger, zumal wenn ich ihm ad letus bin.
+7-1	Nach	APPR	nach	_	O	O	
+7-2	dem	ART	die	_	O	O	
+7-3	aber	ADV	aber	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	was	PRELS	was	_	O	O	
+7-6	er	PPER	er	_	O	O	
+7-7	mir	PRF	ich	_	O	O	
+7-8	gestern	ADV	gestern	_	O	O	
+7-9	sagte	VVFIN	sagen	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	fürchte	VVFIN	fürchten	_	O	O	
+7-12	ich	PPER	ich	_	O	O	
+7-13	die	ART	die	_	O	O	
+7-14	jetzt	ADV	jetzt	_	O	O	
+7-15	weniger	ADV	weniger	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	zumal	KOUS	zumal	_	O	O	
+7-18	wenn	KOUS	wenn	_	O	O	
+7-19	ich	PPER	ich	_	O	O	
+7-20	ihm	PPER	er	_	O	O	
+7-21	ad	FM	ad	_	O	O	
+7-22	letus	NE	<unknown>	_	O	O	
+7-23	bin	VAFIN	sein	_	O	O	
+7-24	.	$.	.	_	O	O	
+
+#id=8
+#text=Ohnehin sprach er es unumwunden aus, daß er nach Beendigunc seiner ch~i~tl~ Inschriften vom Pabste auf der Stelle die kittel erhalten werde, auch die heidnischen von Rom herauszugeben, u. diese Absicht habe, sofern nicht das Berliner C.I.I,.
+8-1	Ohnehin	ADV	ohnehin	_	O	O	
+8-2	sprach	VVFIN	sprechen	_	O	O	
+8-3	er	PPER	er	_	O	O	
+8-4	es	PPER	es	_	O	O	
+8-5	unumwunden	ADJD	unumwunden	_	O	O	
+8-6	aus	PTKVZ	aus	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	daß	KOUS	dass	_	O	O	
+8-9	er	PPER	er	_	O	O	
+8-10	nach	APPR	nach	_	O	O	
+8-11	Beendigunc	NE	<unknown>	_	O	O	
+8-12	seiner	PPOSAT	sein	_	O	O	
+8-13	ch~i~tl~	ADJA	<unknown>	_	O	O	
+8-14	Inschriften	NN	Inschrift	_	O	O	
+8-15	vom	APPRART	von	_	O	O	
+8-16	Pabste	NN	<unknown>	_	O	O	
+8-17	auf	APPR	auf	_	O	O	
+8-18	der	ART	die	_	O	O	
+8-19	Stelle	NN	Stelle	_	O	O	
+8-20	die	ART	die	_	O	O	
+8-21	kittel	NN	Kittel	_	O	O	
+8-22	erhalten	VVPP	erhalten	_	O	O	
+8-23	werde	VAFIN	werden	_	O	O	
+8-24	,	$,	,	_	O	O	
+8-25	auch	ADV	auch	_	O	O	
+8-26	die	ART	die	_	O	O	
+8-27	heidnischen	ADJA	heidnisch	_	O	O	
+8-28	von	APPR	von	_	O	O	
+8-29	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-30	herauszugeben	VVIZU	herausgeben	_	O	O	
+8-31	,	$,	,	_	O	O	
+8-32	u.	APPR	um	_	O	O	
+8-33	diese	PDAT	dies	_	O	O	
+8-34	Absicht	NN	Absicht	_	O	O	
+8-35	habe	VAFIN	haben	_	O	O	
+8-36	,	$,	,	_	O	O	
+8-37	sofern	KOUS	sofern	_	O	O	
+8-38	nicht	PTKNEG	nicht	_	O	O	
+8-39	das	ART	die	_	O	O	
+8-40	Berliner	ADJA	Berliner	_	O	O	
+8-41	C.I.I	NE	<unknown>	_	O	O	
+8-42	,	$,	,	_	O	O	
+8-43	.	$.	.	_	O	O	
+
+#id=9
+#text=zu Stande komme.
+9-1	zu	APPR	zu	_	O	O	
+9-2	Stande	NN	Stand	_	O	O	
+9-3	komme	VVFIN	kommen	_	O	O	
+9-4	.	$.	.	_	O	O	
+
+#id=10
+#text=Er würde also ganz sicher Sartis privativa erneuern u. mit größerem Recht, da er wirklich arbeitet; dann aber könnten wir nur einpacken.
+10-1	Er	PPER	er	_	O	O	
+10-2	würde	VAFIN	werden	_	O	O	
+10-3	also	ADV	also	_	O	O	
+10-4	ganz	ADV	ganz	_	O	O	
+10-5	sicher	ADJD	sicher	_	O	O	
+10-6	Sartis	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-7	privativa	NE	<unknown>	_	O	O	
+10-8	erneuern	VVINF	erneuern	_	O	O	
+10-9	u.	KON	und	_	O	O	
+10-10	mit	APPR	mit	_	O	O	
+10-11	größerem	ADJA	groß	_	O	O	
+10-12	Recht	NN	Recht	_	O	O	
+10-13	,	$,	,	_	O	O	
+10-14	da	KOUS	da	_	O	O	
+10-15	er	PPER	er	_	O	O	
+10-16	wirklich	ADJD	wirklich	_	O	O	
+10-17	arbeitet	VVFIN	arbeiten	_	O	O	
+10-18	;	$.	;	_	O	O	
+10-19	dann	ADV	dann	_	O	O	
+10-20	aber	ADV	aber	_	O	O	
+10-21	könnten	VMFIN	können	_	O	O	
+10-22	wir	PPER	wir	_	O	O	
+10-23	nur	ADV	nur	_	O	O	
+10-24	einpacken	VVINF	einpacken	_	O	O	
+10-25	.	$.	.	_	O	O	
+
+#id=11
+#text=Wie weit Sie von diesen vorläufigen Mittheilungen Gebrauch machen wollen, müssen Sie selbst beurtheilen.
+11-1	Wie	KOUS	wie	_	O	O	
+11-2	weit	ADJD	weit	_	O	O	
+11-3	Sie	PPER	Sie	_	O	O	
+11-4	von	APPR	von	_	O	O	
+11-5	diesen	PDAT	dies	_	O	O	
+11-6	vorläufigen	ADJA	vorläufig	_	O	O	
+11-7	Mittheilungen	NN	<unknown>	_	O	O	
+11-8	Gebrauch	NN	Gebrauch	_	O	O	
+11-9	machen	VVINF	machen	_	O	O	
+11-10	wollen	VMFIN	wollen	_	O	O	
+11-11	,	$,	,	_	O	O	
+11-12	müssen	VMFIN	müssen	_	O	O	
+11-13	Sie	PPER	Sie	_	O	O	
+11-14	selbst	ADV	selbst	_	O	O	
+11-15	beurtheilen	VVINF	<unknown>	_	O	O	
+11-16	.	$.	.	_	O	O	
+

@@ -1,0 +1,247 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=297 H Lieber Herr Professor Helbig an Henzen Rom, 19. Juli 1870 g. 24/7 70 r.
+1-1	297	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	24/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	70	CARD	70	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=26/7 70 Roma, li 19. Juli 1870 Besten Dank für Ihren lieben Brief vom 13.
+2-1	26/7	CARD	@card@	_	O	O	
+2-2	70	CARD	70	_	O	O	
+2-3	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-4	,	$,	,	_	O	O	
+2-5	li	ADJD	<unknown>	_	O	O	
+2-6	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	Besten	ADJA	gut	_	O	O	
+2-11	Dank	NN	Dank	_	O	O	
+2-12	für	APPR	für	_	O	O	
+2-13	Ihren	PPOSAT	ihr	_	O	O	
+2-14	lieben	ADJA	lieb	_	O	O	
+2-15	Brief	NN	Brief	_	O	O	
+2-16	vom	APPRART	von	_	O	O	
+2-17	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=3
+#text=Aus Rom ist nichts Neues zu melden.
+3-1	Aus	APPR	aus	_	O	O	
+3-2	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-3	ist	VAFIN	sein	_	O	O	
+3-4	nichts	PIAT	nichts	_	O	O	
+3-5	Neues	NN	Neue	_	O	O	
+3-6	zu	PTKZU	zu	_	O	O	
+3-7	melden	VVINF	melden	_	O	O	
+3-8	.	$.	.	_	O	O	
+
+#id=4
+#text=Wie Sie sich denken können, cursiren bereits die abgeschmacktesten Kriegsgerüchte.
+4-1	Wie	KOUS	wie	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	sich	PRF	sich	_	O	O	
+4-4	denken	VVINF	denken	_	O	O	
+4-5	können	VMFIN	können	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	cursiren	NN	<unknown>	_	O	O	
+4-8	bereits	ADV	bereits	_	O	O	
+4-9	die	ART	die	_	O	O	
+4-10	abgeschmacktesten	ADJA	abgeschmackt	_	O	O	
+4-11	Kriegsgerüchte	NN	<unknown>	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Bald heißt es, die Preußen stünden bereits in der Nähe von Paris, bald verbreitet man, die Franzosen wären in Hannover eingezogen.
+5-1	Bald	ADV	bald	_	O	O	
+5-2	heißt	VVFIN	heißen	_	O	O	
+5-3	es	PPER	es	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	die	ART	die	_	O	O	
+5-6	Preußen	NN	Preuße	_	O	O	
+5-7	stünden	VVFIN	stehen	_	O	O	
+5-8	bereits	ADV	bereits	_	O	O	
+5-9	in	APPR	in	_	O	O	
+5-10	der	ART	die	_	O	O	
+5-11	Nähe	NN	Nähe	_	O	O	
+5-12	von	APPR	von	_	O	O	
+5-13	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-14	,	$,	,	_	O	O	
+5-15	bald	ADV	bald	_	O	O	
+5-16	verbreitet	ADJD	verbreitet	_	O	O	
+5-17	man	PIS	man	_	O	O	
+5-18	,	$,	,	_	O	O	
+5-19	die	ART	die	_	O	O	
+5-20	Franzosen	NN	Franzose	_	O	O	
+5-21	wären	VAFIN	sein	_	O	O	
+5-22	in	APPR	in	_	O	O	
+5-23	Hannover	NE	Hannover	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-24	eingezogen	VVPP	einziehen	_	O	O	
+5-25	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Peters sind bereits abgereist, Trendelenburg wird täglich in Rom erwartet auf der Durchreise nach Berlin, wohin er sich als Ersatzreservist begiebt.
+6-1	Die	ART	die	_	O	O	
+6-2	Peters	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	sind	VAFIN	sein	_	O	O	
+6-4	bereits	ADV	bereits	_	O	O	
+6-5	abgereist	VVPP	abreisen	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	Trendelenburg	NN	Trendelenburg	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-8	wird	VAFIN	werden	_	O	O	
+6-9	täglich	ADJD	täglich	_	O	O	
+6-10	in	APPR	in	_	O	O	
+6-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-12	erwartet	VVFIN	erwarten	_	O	O	
+6-13	auf	APPR	auf	_	O	O	
+6-14	der	ART	die	_	O	O	
+6-15	Durchreise	NN	Durchreise	_	O	O	
+6-16	nach	APPR	nach	_	O	O	
+6-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-18	,	$,	,	_	O	O	
+6-19	wohin	PWAV	wohin	_	O	O	
+6-20	er	PPER	er	_	O	O	
+6-21	sich	PRF	sich	_	O	O	
+6-22	als	KOKOM	als	_	O	O	
+6-23	Ersatzreservist	NN	<unknown>	_	O	O	
+6-24	begiebt	VVFIN	<unknown>	_	O	O	
+6-25	.	$.	.	_	O	O	
+
+#id=7
+#text=Hinck geht es nach wie vor gut; er ist bereits öfters ausgegangen.
+7-1	Hinck	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	geht	VVFIN	gehen	_	O	O	
+7-3	es	PPER	es	_	O	O	
+7-4	nach	PTKVZ	nach	_	O	O	
+7-5	wie	KOKOM	wie	_	O	O	
+7-6	vor	APPR	vor	_	O	O	
+7-7	gut	ADJD	gut	_	O	O	
+7-8	;	$.	;	_	O	O	
+7-9	er	PPER	er	_	O	O	
+7-10	ist	VAFIN	sein	_	O	O	
+7-11	bereits	ADV	bereits	_	O	O	
+7-12	öfters	ADV	öfters	_	O	O	
+7-13	ausgegangen	VVPP	ausgehen	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Manassei, den ich gestern sprach, betrachtet ihn als genesen und erklärt, daß, wenn er sich in Acht nimmt, nichts zu befürchten sei.
+8-1	Manassei	NN	<unknown>	_	O	O	
+8-2	,	$,	,	_	O	O	
+8-3	den	PRELS	die	_	O	O	
+8-4	ich	PPER	ich	_	O	O	
+8-5	gestern	ADV	gestern	_	O	O	
+8-6	sprach	VVFIN	sprechen	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	betrachtet	VVFIN	betrachten	_	O	O	
+8-9	ihn	PPER	er	_	O	O	
+8-10	als	KOKOM	als	_	O	O	
+8-11	genesen	VVPP	genesen	_	O	O	
+8-12	und	KON	und	_	O	O	
+8-13	erklärt	VVFIN	erklären	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	daß	KOUS	dass	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	wenn	KOUS	wenn	_	O	O	
+8-18	er	PPER	er	_	O	O	
+8-19	sich	PRF	sich	_	O	O	
+8-20	in	APPR	in	_	O	O	
+8-21	Acht	NN	Acht	_	O	O	
+8-22	nimmt	VVFIN	nehmen	_	O	O	
+8-23	,	$,	,	_	O	O	
+8-24	nichts	PIS	nichts	_	O	O	
+8-25	zu	PTKZU	zu	_	O	O	
+8-26	befürchten	VVINF	befürchten	_	O	O	
+8-27	sei	VAFIN	sein	_	O	O	
+8-28	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich sehe unter solchen Umständen nichts, was meiner Abreise im Wege stünde, und ich denke, daß ich nächsten Sonntag oder Montag reisen werde, nachdem ich noch einmal Manassei gesprochen, der gegenwärtig auf einige Tage abwesend ist.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	sehe	VVFIN	sehen	_	O	O	
+9-3	unter	APPR	unter	_	O	O	
+9-4	solchen	PIAT	solche	_	O	O	
+9-5	Umständen	NN	Umstand	_	O	O	
+9-6	nichts	PIS	nichts	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	was	PRELS	was	_	O	O	
+9-9	meiner	PPOSAT	mein	_	O	O	
+9-10	Abreise	NN	Abreise	_	O	O	
+9-11	im	APPRART	in	_	O	O	
+9-12	Wege	NN	Weg	_	O	O	
+9-13	stünde	VVFIN	stehen	_	O	O	
+9-14	,	$,	,	_	O	O	
+9-15	und	KON	und	_	O	O	
+9-16	ich	PPER	ich	_	O	O	
+9-17	denke	VVFIN	denken	_	O	O	
+9-18	,	$,	,	_	O	O	
+9-19	daß	KOUS	dass	_	O	O	
+9-20	ich	PPER	ich	_	O	O	
+9-21	nächsten	ADJA	nah	_	O	O	
+9-22	Sonntag	NN	Sonntag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-23	oder	KON	oder	_	O	O	
+9-24	Montag	NN	Montag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-25	reisen	VVINF	reisen	_	O	O	
+9-26	werde	VAFIN	werden	_	O	O	
+9-27	,	$,	,	_	O	O	
+9-28	nachdem	KOUS	nachdem	_	O	O	
+9-29	ich	PPER	ich	_	O	O	
+9-30	noch	ADV	noch	_	O	O	
+9-31	einmal	ADV	einmal	_	O	O	
+9-32	Manassei	NN	<unknown>	_	O	O	
+9-33	gesprochen	VVPP	sprechen	_	O	O	
+9-34	,	$,	,	_	O	O	
+9-35	der	PRELS	die	_	O	O	
+9-36	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+9-37	auf	APPR	auf	_	O	O	
+9-38	einige	PIAT	einige	_	O	O	
+9-39	Tage	NN	Tag	_	O	O	
+9-40	abwesend	ADJD	abwesend	_	O	O	
+9-41	ist	VAFIN	sein	_	O	O	
+9-42	.	$.	.	_	O	O	
+
+#id=10
+#text=Nicht läugnen kann ich, daß die Mittheilung, welche Sie mir über die von der Centraldirection verordnete Sarkophagpublication gemacht haben, mich in hohem Grade
+10-1	Nicht	PTKNEG	nicht	_	O	O	
+10-2	läugnen	TRUNC	<unknown>	_	O	O	
+10-3	kann	VMFIN	können	_	O	O	
+10-4	ich	PPER	ich	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	daß	KOUS	dass	_	O	O	
+10-7	die	ART	die	_	O	O	
+10-8	Mittheilung	NN	<unknown>	_	O	O	
+10-9	,	$,	,	_	O	O	
+10-10	welche	PRELS	welche	_	O	O	
+10-11	Sie	PPER	Sie	_	O	O	
+10-12	mir	PRF	ich	_	O	O	
+10-13	über	APPR	über	_	O	O	
+10-14	die	ART	die	_	O	O	
+10-15	von	APPR	von	_	O	O	
+10-16	der	ART	die	_	O	O	
+10-17	Centraldirection	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-18	verordnete	ADJA	verordnet	_	O	O	
+10-19	Sarkophagpublication	NN	<unknown>	_	O	O	
+10-20	gemacht	VVPP	machen	_	O	O	
+10-21	haben	VAFIN	haben	_	O	O	
+10-22	,	$,	,	_	O	O	
+10-23	mich	PRF	ich	_	O	O	
+10-24	in	APPR	in	_	O	O	
+10-25	hohem	ADJA	hoch	_	O	O	
+10-26	Grade	NN	Grad	_	O	O	
+

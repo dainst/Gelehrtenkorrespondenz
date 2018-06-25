@@ -1,0 +1,358 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=79 4/111/54 Verehrter Herr Professor !
+1-1	79	CARD	@card@	_	O	O	
+1-2	4/111/54	CARD	@card@	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	!	$.	!	_	O	O	
+
+#id=2
+#text=Henzen an Gerhard Ich beantworte rasch Ihren 1.
+2-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	an	APPR	an	_	O	O	
+2-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Ich	PPER	ich	_	O	O	
+2-5	beantworte	VVFIN	beantworten	_	O	O	
+2-6	rasch	ADJD	rasch	_	O	O	
+2-7	Ihren	PPOSAT	ihr	_	O	O	
+2-8	1	CARD	1	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Brief vom 24t~n, der mir wenig Trost bringt.
+3-1	Brief	NN	Brief	_	O	O	
+3-2	vom	APPRART	von	_	O	O	
+3-3	24t~n	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-4	,	$,	,	_	O	O	
+3-5	der	PRELS	die	_	O	O	
+3-6	mir	PPER	ich	_	O	O	
+3-7	wenig	PIAT	wenige	_	O	O	
+3-8	Trost	NN	Trost	_	O	O	
+3-9	bringt	VVFIN	bringen	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich fürchte, die so wohl combinirte und allen eignen, wie C.I.L.-Interessen entsprechende Scl1weizer Reise wird aufgegeben werden müßen.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	fürchte	VVFIN	fürchten	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	die	PRELS	die	_	O	O	
+4-5	so	ADV	so	_	O	O	
+4-6	wohl	ADV	wohl	_	O	O	
+4-7	combinirte	VVFIN	<unknown>	_	O	O	
+4-8	und	KON	und	_	O	O	
+4-9	allen	PIS	alle	_	O	O	
+4-10	eignen	VVINF	eignen	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	wie	KOUS	wie	_	O	O	
+4-13	C.I.L.-Interessen	NE	<unknown>	_	O	O	
+4-14	entsprechende	ADJA	entsprechend	_	O	O	
+4-15	Scl1weizer	NN	<unknown>	_	O	O	
+4-16	Reise	NN	Reise	_	O	O	
+4-17	wird	VAFIN	werden	_	O	O	
+4-18	aufgegeben	VVPP	aufgeben	_	O	O	
+4-19	werden	VAINF	werden	_	O	O	
+4-20	müßen	VVINF	<unknown>	_	O	O	
+4-21	.	$.	.	_	O	O	
+
+#id=5
+#text=i'Jenn auch die Classe über 3 Wochen beschließt, die Zumptiaua herauszugeben, so wird es doch Mai, ehe sie Mommsen bekommt.
+5-1	i'Jenn	VVIMP	<unknown>	_	O	O	
+5-2	auch	ADV	auch	_	O	O	
+5-3	die	ART	die	_	O	O	
+5-4	Classe	NN	<unknown>	_	O	O	
+5-5	über	APPR	über	_	O	O	
+5-6	3	CARD	3	_	O	O	
+5-7	Wochen	NN	Woche	_	O	O	
+5-8	beschließt	VVFIN	beschließen	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	die	ART	die	_	O	O	
+5-11	Zumptiaua	NN	<unknown>	_	O	O	
+5-12	herauszugeben	VVIZU	herausgeben	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	so	ADV	so	_	O	O	
+5-15	wird	VAFIN	werden	_	O	O	
+5-16	es	PPER	es	_	O	O	
+5-17	doch	ADV	doch	_	O	O	
+5-18	Mai	NN	Mai	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-19	,	$,	,	_	O	O	
+5-20	ehe	KOUS	ehe	_	O	O	
+5-21	sie	PPER	sie	_	O	O	
+5-22	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-23	bekommt	VVFIN	bekommen	_	O	O	
+5-24	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich würde dann aufts gerathewohl hinausreisen müssen, ohne zu Wissen, ob ich viel nützen kann; denn als M. mich einlud, nach Z. zu kommen, glaubte er, wenigstens 6 Mtte vor meiner Ankunft Alles zu erhalten u. so alle Vorbereitungen treffen zu k6nnen, u. dem gemäß ist er jetzt nahe daran, mich abzumahnen.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	würde	VAFIN	werden	_	O	O	
+6-3	dann	ADV	dann	_	O	O	
+6-4	aufts	NN	<unknown>	_	O	O	
+6-5	gerathewohl	ADJA	<unknown>	_	O	O	
+6-6	hinausreisen	NN	<unknown>	_	O	O	
+6-7	müssen	VMINF	müssen	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	ohne	KOUI	ohne	_	O	O	
+6-10	zu	PTKZU	zu	_	O	O	
+6-11	Wissen	VVINF	wissen	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	ob	KOUS	ob	_	O	O	
+6-14	ich	PPER	ich	_	O	O	
+6-15	viel	ADV	viel	_	O	O	
+6-16	nützen	VVINF	nützen	_	O	O	
+6-17	kann	VMFIN	können	_	O	O	
+6-18	;	$.	;	_	O	O	
+6-19	denn	KON	denn	_	O	O	
+6-20	als	KOKOM	als	_	O	O	
+6-21	M.	NE	M.	_	O	O	
+6-22	mich	PRF	ich	_	O	O	
+6-23	einlud	VVFIN	einladen	_	O	O	
+6-24	,	$,	,	_	O	O	
+6-25	nach	APPR	nach	_	O	O	
+6-26	Z.	NE	Z.	_	O	O	
+6-27	zu	PTKZU	zu	_	O	O	
+6-28	kommen	VVINF	kommen	_	O	O	
+6-29	,	$,	,	_	O	O	
+6-30	glaubte	VVFIN	glauben	_	O	O	
+6-31	er	PPER	er	_	O	O	
+6-32	,	$,	,	_	O	O	
+6-33	wenigstens	ADV	wenigstens	_	O	O	
+6-34	6	CARD	6	_	O	O	
+6-35	Mtte	NN	<unknown>	_	O	O	
+6-36	vor	APPR	vor	_	O	O	
+6-37	meiner	PPOSAT	mein	_	O	O	
+6-38	Ankunft	NN	Ankunft	_	O	O	
+6-39	Alles	PIS	alle	_	O	O	
+6-40	zu	PTKZU	zu	_	O	O	
+6-41	erhalten	VVINF	erhalten	_	O	O	
+6-42	u.	KON	und	_	O	O	
+6-43	so	ADV	so	_	O	O	
+6-44	alle	PIAT	alle	_	O	O	
+6-45	Vorbereitungen	NN	Vorbereitung	_	O	O	
+6-46	treffen	VVFIN	treffen	_	O	O	
+6-47	zu	APPR	zu	_	O	O	
+6-48	k6nnen	NN	<unknown>	_	O	O	
+6-49	,	$,	,	_	O	O	
+6-50	u.	APPR	um	_	O	O	
+6-51	dem	PRELS	die	_	O	O	
+6-52	gemäß	APPO	gemäß	_	O	O	
+6-53	ist	VAFIN	sein	_	O	O	
+6-54	er	PPER	er	_	O	O	
+6-55	jetzt	ADV	jetzt	_	O	O	
+6-56	nahe	PTKVZ	nahe	_	O	O	
+6-57	daran	PAV	daran	_	O	O	
+6-58	,	$,	,	_	O	O	
+6-59	mich	PPER	ich	_	O	O	
+6-60	abzumahnen	VVIZU	abmahnen	_	O	O	
+6-61	.	$.	.	_	O	O	
+
+#id=7
+#text=Daß ich die kostspielie;e Reise unter meinen Verhältnissen nicht mache, wenn es nicht nothwendig, begreifen Sie leicht.
+7-1	Daß	KOUS	dass	_	O	O	
+7-2	ich	PPER	ich	_	O	O	
+7-3	die	ART	die	_	O	O	
+7-4	kostspielie	NN	<unknown>	_	O	O	
+7-5	;	$.	;	_	O	O	
+7-6	e	ADJA	<unknown>	_	O	O	
+7-7	Reise	NN	Reise	_	O	O	
+7-8	unter	APPR	unter	_	O	O	
+7-9	meinen	PPOSAT	mein	_	O	O	
+7-10	Verhältnissen	NN	Verhältnis	_	O	O	
+7-11	nicht	PTKNEG	nicht	_	O	O	
+7-12	mache	VVFIN	machen	_	O	O	
+7-13	,	$,	,	_	O	O	
+7-14	wenn	KOUS	wenn	_	O	O	
+7-15	es	PPER	es	_	O	O	
+7-16	nicht	PTKNEG	nicht	_	O	O	
+7-17	nothwendig	ADJD	<unknown>	_	O	O	
+7-18	,	$,	,	_	O	O	
+7-19	begreifen	VVFIN	begreifen	_	O	O	
+7-20	Sie	PPER	Sie	_	O	O	
+7-21	leicht	ADJD	leicht	_	O	O	
+7-22	.	$.	.	_	O	O	
+
+#id=8
+#text=Wenn meine Frau im Juni aufts Land geht, kommt sie schon durch, u. meines Bruders Reise nach Italien scheint nicht zu Stande zu kommen.
+8-1	Wenn	KOUS	wenn	_	O	O	
+8-2	meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-4	im	APPRART	in	_	O	O	
+8-5	Juni	NN	Juni	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-6	aufts	NN	<unknown>	_	O	O	
+8-7	Land	NN	Land	_	O	O	
+8-8	geht	VVFIN	gehen	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	kommt	VVFIN	kommen	_	O	O	
+8-11	sie	PPER	sie	_	O	O	
+8-12	schon	ADV	schon	_	O	O	
+8-13	durch	PTKVZ	durch	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	u.	APPR	um	_	O	O	
+8-16	meines	PPOSAT	mein	_	O	O	
+8-17	Bruders	NN	Bruder	_	O	O	
+8-18	Reise	NN	Reise	_	O	O	
+8-19	nach	APPR	nach	_	O	O	
+8-20	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-21	scheint	VVFIN	scheinen	_	O	O	
+8-22	nicht	PTKNEG	nicht	_	O	O	
+8-23	zu	APPR	zu	_	O	O	
+8-24	Stande	NN	Stand	_	O	O	
+8-25	zu	PTKZU	zu	_	O	O	
+8-26	kommen	VVINF	kommen	_	O	O	
+8-27	.	$.	.	_	O	O	
+
+#id=9
+#text=Da man ihm Rom nicht erlauben will, so m6chte er lieber in der südlichen Schweiz bleiben, u. ich rathe ihm zu Madeira.
+9-1	Da	KOUS	da	_	O	O	
+9-2	man	PIS	man	_	O	O	
+9-3	ihm	PPER	er	_	O	O	
+9-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-5	nicht	PTKNEG	nicht	_	O	O	
+9-6	erlauben	VVINF	erlauben	_	O	O	
+9-7	will	VMFIN	wollen	_	O	O	
+9-8	,	$,	,	_	O	O	
+9-9	so	ADV	so	_	O	O	
+9-10	m6chte	VVFIN	<unknown>	_	O	O	
+9-11	er	PPER	er	_	O	O	
+9-12	lieber	ADJD	lieb	_	O	O	
+9-13	in	APPR	in	_	O	O	
+9-14	der	ART	die	_	O	O	
+9-15	südlichen	ADJA	südlich	_	O	O	
+9-16	Schweiz	NE	Schweiz	_	O	O	
+9-17	bleiben	VVINF	bleiben	_	O	O	
+9-18	,	$,	,	_	O	O	
+9-19	u.	APPR	um	_	O	O	
+9-20	ich	PPER	ich	_	O	O	
+9-21	rathe	ADJA	<unknown>	_	O	O	
+9-22	ihm	PPER	er	_	O	O	
+9-23	zu	APPR	zu	_	O	O	
+9-24	Madeira	NE	Madeira	_	O	O	
+9-25	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich schreibe Ihnen dies, damit Sie sehen, dß.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	schreibe	VVFIN	schreiben	_	O	O	
+10-3	Ihnen	PPER	Sie	_	O	O	
+10-4	dies	PDS	dies	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	damit	KOUS	damit	_	O	O	
+10-7	Sie	PPER	Sie	_	O	O	
+10-8	sehen	VVFIN	sehen	_	O	O	
+10-9	,	$,	,	_	O	O	
+10-10	dß	VVFIN	<unknown>	_	O	O	
+10-11	.	$.	.	_	O	O	
+
+#id=11
+#text=meine Reise eben an den Zetteln hangt, u. wie n5thiE deren rasche Auslieferung n, ist, will mafnicht das C.I.L. noch weiter verz6gern.
+11-1	meine	PPOSAT	mein	_	O	O	
+11-2	Reise	NN	Reise	_	O	O	
+11-3	eben	ADV	eben	_	O	O	
+11-4	an	APPR	an	_	O	O	
+11-5	den	ART	die	_	O	O	
+11-6	Zetteln	NN	Zettel	_	O	O	
+11-7	hangt	VVFIN	<unknown>	_	O	O	
+11-8	,	$,	,	_	O	O	
+11-9	u.	KON	und	_	O	O	
+11-10	wie	KOKOM	wie	_	O	O	
+11-11	n5thiE	ADJD	<unknown>	_	O	O	
+11-12	deren	PDAT	die	_	O	O	
+11-13	rasche	ADJA	rasch	_	O	O	
+11-14	Auslieferung	NN	Auslieferung	_	O	O	
+11-15	n	VVFIN	<unknown>	_	O	O	
+11-16	,	$,	,	_	O	O	
+11-17	ist	VAFIN	sein	_	O	O	
+11-18	,	$,	,	_	O	O	
+11-19	will	VMFIN	wollen	_	O	O	
+11-20	mafnicht	ADJD	<unknown>	_	O	O	
+11-21	das	ART	die	_	O	O	
+11-22	C.I.L.	NE	<unknown>	_	O	O	
+11-23	noch	ADV	noch	_	O	O	
+11-24	weiter	ADV	weiter	_	O	O	
+11-25	verz6gern	VVINF	<unknown>	_	O	O	
+11-26	.	$.	.	_	O	O	
+
+#id=12
+#text=~as den Contract betrifft, so ist derselbe nach einerr: Briefe Hauptt s an Mommsen gar nicht an diesen, sondern an mich gesandt~" Sie scheinen zu e;lauben, dh.
+12-1	~as	NN	<unknown>	_	O	O	
+12-2	den	ART	die	_	O	O	
+12-3	Contract	NN	<unknown>	_	O	O	
+12-4	betrifft	VVFIN	betreffen	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	so	ADV	so	_	O	O	
+12-7	ist	VAFIN	sein	_	O	O	
+12-8	derselbe	PDS	derselbe	_	O	O	
+12-9	nach	APPR	nach	_	O	O	
+12-10	einerr	NN	<unknown>	_	O	O	
+12-11	:	$.	:	_	O	O	
+12-12	Briefe	NN	Brief	_	O	O	
+12-13	Hauptt	NN	<unknown>	_	O	O	
+12-14	s	NN	s	_	O	O	
+12-15	an	APPR	an	_	O	O	
+12-16	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-17	gar	ADV	gar	_	O	O	
+12-18	nicht	PTKNEG	nicht	_	O	O	
+12-19	an	APPR	an	_	O	O	
+12-20	diesen	PDAT	dies	_	O	O	
+12-21	,	$,	,	_	O	O	
+12-22	sondern	KON	sondern	_	O	O	
+12-23	an	APPR	an	_	O	O	
+12-24	mich	PRF	ich	_	O	O	
+12-25	gesandt~	VVFIN	<unknown>	_	O	O	
+12-26	"	$(	"	_	O	O	
+12-27	Sie	PPER	Sie	_	O	O	
+12-28	scheinen	VVFIN	scheinen	_	O	O	
+12-29	zu	PTKZU	zu	_	O	O	
+12-30	e	VVINF	<unknown>	_	O	O	
+12-31	;	$.	;	_	O	O	
+12-32	lauben	ADJD	<unknown>	_	O	O	
+12-33	,	$,	,	_	O	O	
+12-34	dh.	NE	<unknown>	_	O	O	
+
+#id=13
+#text=]i;ommsen's Vermittlung.
+13-1	]i	NN	<unknown>	_	O	O	
+13-2	;	$.	;	_	O	O	
+13-3	ommsen's	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-4	Vermittlung	NN	Vermittlung	_	O	O	
+13-5	.	$.	.	_	O	O	
+
+#id=14
+#text=Jeden ~alls ist ds.
+14-1	Jeden	PIAT	jede	_	O	O	
+14-2	~alls	NN	<unknown>	_	O	O	
+14-3	ist	VAFIN	sein	_	O	O	
+14-4	ds.	ADJD	<unknown>	_	O	O	
+
+#id=15
+#text=imbroglio groß, u. ich begreife nur nicht, warum man nicht längst ein Duplikat geschickt hat.
+15-1	imbroglio	NE	<unknown>	_	O	O	
+15-2	groß	ADJD	groß	_	O	O	
+15-3	,	$,	,	_	O	O	
+15-4	u.	KON	und	_	O	O	
+15-5	ich	PPER	ich	_	O	O	
+15-6	begreife	VVFIN	begreifen	_	O	O	
+15-7	nur	ADV	nur	_	O	O	
+15-8	nicht	PTKNEG	nicht	_	O	O	
+15-9	,	$,	,	_	O	O	
+15-10	warum	PWAV	warum	_	O	O	
+15-11	man	PIS	man	_	O	O	
+15-12	nicht	PTKNEG	nicht	_	O	O	
+15-13	längst	ADV	längst	_	O	O	
+15-14	ein	ART	eine	_	O	O	
+15-15	Duplikat	NN	Duplikat	_	O	O	
+15-16	geschickt	VVPP	schicken	_	O	O	
+15-17	hat	VAFIN	haben	_	O	O	
+15-18	.	$.	.	_	O	O	
+
+#id=16
+#text=Dann wtire ja Alles abgemacht.
+16-1	Dann	ADV	dann	_	O	O	
+16-2	wtire	NN	<unknown>	_	O	O	
+16-3	ja	ADV	ja	_	O	O	
+16-4	Alles	PIS	alle	_	O	O	
+16-5	abgemacht	VVPP	abmachen	_	O	O	
+16-6	.	$.	.	_	O	O	
+

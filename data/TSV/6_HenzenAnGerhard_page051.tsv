@@ -1,0 +1,309 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Ohne Nummer Henzen an Gerhard 20/IV/52 Verehrter Herr Professor In Antwort auf Ihr Schreiben vom 3 d. M. zunächst die Anzeige gleichzeitigen Abgangs des Bullettino.
+1-1	Ohne	APPR	ohne	_	O	O	
+1-2	Nummer	NN	Nummer	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	20/IV/52	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	Verehrter	ADJA	verehrt	_	O	O	
+1-8	Herr	NN	Herr	_	O	O	
+1-9	Professor	NN	Professor	_	O	O	
+1-10	In	APPR	in	_	O	O	
+1-11	Antwort	NN	Antwort	_	O	O	
+1-12	auf	APPR	auf	_	O	O	
+1-13	Ihr	PPOSAT	ihr	_	O	O	
+1-14	Schreiben	NN	Schreiben	_	O	O	
+1-15	vom	APPRART	von	_	O	O	
+1-16	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-17	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-18	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-19	zunächst	ADV	zunächst	_	O	O	
+1-20	die	ART	die	_	O	O	
+1-21	Anzeige	NN	Anzeige	_	O	O	
+1-22	gleichzeitigen	ADJA	gleichzeitig	_	O	O	
+1-23	Abgangs	NN	Abgang	_	O	O	
+1-24	des	ART	die	_	O	O	
+1-25	Bullettino	NN	<unknown>	_	O	O	
+1-26	.	$.	.	_	O	O	
+
+#id=2
+#text=Sie werden den neuen Drucker freilich auch an dem Papier erkennen, gegen dessen geringere Qualität wir sofort protestirt haben, ohne übrigens die Nummern ds.
+2-1	Sie	PPER	Sie	_	O	O	
+2-2	werden	VAFIN	werden	_	O	O	
+2-3	den	ART	die	_	O	O	
+2-4	neuen	ADJA	neu	_	O	O	
+2-5	Drucker	NN	Drucker	_	O	O	
+2-6	freilich	ADV	freilich	_	O	O	
+2-7	auch	ADV	auch	_	O	O	
+2-8	an	APPR	an	_	O	O	
+2-9	dem	ART	die	_	O	O	
+2-10	Papier	NN	Papier	_	O	O	
+2-11	erkennen	VVINF	erkennen	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	gegen	APPR	gegen	_	O	O	
+2-14	dessen	PRELAT	die	_	O	O	
+2-15	geringere	ADJA	gering	_	O	O	
+2-16	Qualität	NN	Qualität	_	O	O	
+2-17	wir	PPER	wir	_	O	O	
+2-18	sofort	ADV	sofort	_	O	O	
+2-19	protestirt	NN	<unknown>	_	O	O	
+2-20	haben	VAFIN	haben	_	O	O	
+2-21	,	$,	,	_	O	O	
+2-22	ohne	KOUI	ohne	_	O	O	
+2-23	übrigens	ADV	übrigens	_	O	O	
+2-24	die	ART	die	_	O	O	
+2-25	Nummern	NN	Nummer	_	O	O	
+2-26	ds.	ADJD	<unknown>	_	O	O	
+
+#id=3
+#text=Aufenthalts halber ganz zurückzuweisen.
+3-1	Aufenthalts	NN	Aufenthalt	_	O	O	
+3-2	halber	APPO	halber	_	O	O	
+3-3	ganz	ADV	ganz	_	O	O	
+3-4	zurückzuweisen	VVIZU	zurückweisen	_	O	O	
+3-5	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Annali sind noch beim Buchbinder, u. von den Monumenti werden die 2 letzten Tafeln gerade gedruckt.
+4-1	Die	ART	die	_	O	O	
+4-2	Annali	NE	<unknown>	_	O	O	
+4-3	sind	VAFIN	sein	_	O	O	
+4-4	noch	ADV	noch	_	O	O	
+4-5	beim	APPRART	bei	_	O	O	
+4-6	Buchbinder	NN	Buchbinder	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	u.	KON	und	_	O	O	
+4-9	von	APPR	von	_	O	O	
+4-10	den	ART	die	_	O	O	
+4-11	Monumenti	NN	<unknown>	_	O	O	
+4-12	werden	VAFIN	werden	_	O	O	
+4-13	die	ART	die	_	O	O	
+4-14	2	CARD	2	_	O	O	
+4-15	letzten	ADJA	letzt	_	O	O	
+4-16	Tafeln	NN	Tafel	_	O	O	
+4-17	gerade	ADV	gerade	_	O	O	
+4-18	gedruckt	VVPP	drucken	_	O	O	
+4-19	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Gouvernementsarbeiten u. Brunns unsinnige Acconti sind an Letzterem schuld.
+5-1	Die	ART	die	_	O	O	
+5-2	Gouvernementsarbeiten	NN	<unknown>	_	O	O	
+5-3	u.	APPR	um	_	O	O	
+5-4	Brunns	NN	Brunn	_	O	O	
+5-5	unsinnige	ADJA	unsinnig	_	O	O	
+5-6	Acconti	NN	<unknown>	_	O	O	
+5-7	sind	VAFIN	sein	_	O	O	
+5-8	an	APPR	an	_	O	O	
+5-9	Letzterem	NN	Letztere	_	O	O	
+5-10	schuld	ADJD	schuld	_	O	O	
+5-11	.	$.	.	_	O	O	
+
+#id=6
+#text=- Von Mommsen hatte ich selbst noch einen Brief vom 7t~ - Daß die Gehaltsangelegenheit endlich in Ordnung, schrieb ich wohl schon.
+6-1	-	$(	-	_	O	O	
+6-2	Von	APPR	von	_	O	O	
+6-3	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	hatte	VAFIN	haben	_	O	O	
+6-5	ich	PPER	ich	_	O	O	
+6-6	selbst	ADV	selbst	_	O	O	
+6-7	noch	ADV	noch	_	O	O	
+6-8	einen	ART	eine	_	O	O	
+6-9	Brief	NN	Brief	_	O	O	
+6-10	vom	APPRART	von	_	O	O	
+6-11	7t~	NN	<unknown>	_	O	O	
+6-12	-	$(	-	_	O	O	
+6-13	Daß	KOUS	dass	_	O	O	
+6-14	die	ART	die	_	O	O	
+6-15	Gehaltsangelegenheit	NN	<unknown>	_	O	O	
+6-16	endlich	ADV	endlich	_	O	O	
+6-17	in	APPR	in	_	O	O	
+6-18	Ordnung	NN	Ordnung	_	O	O	
+6-19	,	$,	,	_	O	O	
+6-20	schrieb	VVFIN	schreiben	_	O	O	
+6-21	ich	PPER	ich	_	O	O	
+6-22	wohl	ADV	wohl	_	O	O	
+6-23	schon	ADV	schon	_	O	O	
+6-24	.	$.	.	_	O	O	
+
+#id=7
+#text=- Wir sind begierig auf die letzten Nummern Ihres A.A., Brunn wegen des , ich wegen mehrerer epigraphischer Nachweisungen, die der eingelaufenen Nummer zufolge darin enthalten sind.
+7-1	-	$(	-	_	O	O	
+7-2	Wir	PPER	wir	_	O	O	
+7-3	sind	VAFIN	sein	_	O	O	
+7-4	begierig	ADJD	begierig	_	O	O	
+7-5	auf	APPR	auf	_	O	O	
+7-6	die	ART	die	_	O	O	
+7-7	letzten	ADJA	letzt	_	O	O	
+7-8	Nummern	NN	Nummer	_	O	O	
+7-9	Ihres	PPOSAT	ihr	_	O	O	
+7-10	A.A.	NE	A.A.	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-13	wegen	APPR	wegen	_	O	O	
+7-14	des	ART	die	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	ich	PPER	ich	_	O	O	
+7-17	wegen	APPR	wegen	_	O	O	
+7-18	mehrerer	PIAT	mehrere	_	O	O	
+7-19	epigraphischer	ADJA	<unknown>	_	O	O	
+7-20	Nachweisungen	NN	<unknown>	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	die	PRELS	die	_	O	O	
+7-23	der	ART	die	_	O	O	
+7-24	eingelaufenen	ADJA	eingelaufen	_	O	O	
+7-25	Nummer	NN	Nummer	_	O	O	
+7-26	zufolge	APPO	zufolge	_	O	O	
+7-27	darin	PAV	darin	_	O	O	
+7-28	enthalten	VVPP	enthalten	_	O	O	
+7-29	sind	VAFIN	sein	_	O	O	
+7-30	.	$.	.	_	O	O	
+
+#id=8
+#text=- Heute kaufte ich für Sie für 2 1/2 Scudi Viscontis Iconographie ßreque, die Mailänder Octavausgabe, ursprünglicher Preis etwa 140 Franken; ich dachte, für jenes Geld könnten Sie sie im äußersten Falle gleich wieder verkaufen.
+8-1	-	$(	-	_	O	O	
+8-2	Heute	ADV	heute	_	O	O	
+8-3	kaufte	VVFIN	kaufen	_	O	O	
+8-4	ich	PPER	ich	_	O	O	
+8-5	für	APPR	für	_	O	O	
+8-6	Sie	PPER	Sie	_	O	O	
+8-7	für	APPR	für	_	O	O	
+8-8	2	CARD	2	_	O	O	
+8-9	1/2	CARD	1/2	_	O	O	
+8-10	Scudi	NN	<unknown>	_	O	O	
+8-11	Viscontis	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-12	Iconographie	NN	<unknown>	_	O	O	
+8-13	ßreque	NE	<unknown>	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	die	ART	die	_	O	O	
+8-16	Mailänder	NN	Mailänder	_	O	O	
+8-17	Octavausgabe	NN	<unknown>	_	O	O	
+8-18	,	$,	,	_	O	O	
+8-19	ursprünglicher	ADJA	ursprünglich	_	O	O	
+8-20	Preis	NN	Preis	_	O	O	
+8-21	etwa	ADV	etwa	_	O	O	
+8-22	140	CARD	@card@	_	O	O	
+8-23	Franken	NN	Franke	_	O	O	
+8-24	;	$.	;	_	O	O	
+8-25	ich	PPER	ich	_	O	O	
+8-26	dachte	VVFIN	denken	_	O	O	
+8-27	,	$,	,	_	O	O	
+8-28	für	APPR	für	_	O	O	
+8-29	jenes	PDAT	jen	_	O	O	
+8-30	Geld	NN	Geld	_	O	O	
+8-31	könnten	VMFIN	können	_	O	O	
+8-32	Sie	PPER	Sie	_	O	O	
+8-33	sie	PPER	sie	_	O	O	
+8-34	im	APPRART	in	_	O	O	
+8-35	äußersten	ADJA	äußer	_	O	O	
+8-36	Falle	NN	Falle	_	O	O	
+8-37	gleich	ADJD	gleich	_	O	O	
+8-38	wieder	ADV	wieder	_	O	O	
+8-39	verkaufen	VVINF	verkaufen	_	O	O	
+8-40	.	$.	.	_	O	O	
+
+#id=9
+#text=Hinsichtlich ds.
+9-1	Hinsichtlich	APPR	hinsichtlich	_	O	O	
+9-2	ds.	ADJA	<unknown>	_	O	O	
+
+#id=10
+#text=Micali schrieb ich nach Florenz, aber erst, seit ich gewiß war, hier bei Antiquaren u. in Auctionen keinen zu finden.
+10-1	Micali	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	schrieb	VVFIN	schreiben	_	O	O	
+10-3	ich	PPER	ich	_	O	O	
+10-4	nach	APPR	nach	_	O	O	
+10-5	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-6	,	$,	,	_	O	O	
+10-7	aber	KON	aber	_	O	O	
+10-8	erst	ADV	erst	_	O	O	
+10-9	,	$,	,	_	O	O	
+10-10	seit	KOUS	seit	_	O	O	
+10-11	ich	PPER	ich	_	O	O	
+10-12	gewiß	ADJD	gewiss	_	O	O	
+10-13	war	VAFIN	sein	_	O	O	
+10-14	,	$,	,	_	O	O	
+10-15	hier	ADV	hier	_	O	O	
+10-16	bei	APPR	bei	_	O	O	
+10-17	Antiquaren	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-18	u.	APPR	um	_	O	O	
+10-19	in	APPR	in	_	O	O	
+10-20	Auctionen	NN	<unknown>	_	O	O	
+10-21	keinen	PIS	keine	_	O	O	
+10-22	zu	PTKZU	zu	_	O	O	
+10-23	finden	VVINF	finden	_	O	O	
+10-24	.	$.	.	_	O	O	
+
+#id=11
+#text=Für dieses Mal werden Sie doch auf ein Exemplar verzichten müssen.
+11-1	Für	APPR	für	_	O	O	
+11-2	dieses	PDAT	dies	_	O	O	
+11-3	Mal	NN	Mal	_	O	O	
+11-4	werden	VAFIN	werden	_	O	O	
+11-5	Sie	PPER	Sie	_	O	O	
+11-6	doch	ADV	doch	_	O	O	
+11-7	auf	APPR	auf	_	O	O	
+11-8	ein	ART	eine	_	O	O	
+11-9	Exemplar	NN	Exemplar	_	O	O	
+11-10	verzichten	VVINF	verzichten	_	O	O	
+11-11	müssen	VMINF	müssen	_	O	O	
+11-12	.	$.	.	_	O	O	
+
+#id=12
+#text=- Unsre Sitzung für d. Geburtstag Roms wird ziemlich schwach ausfallen.
+12-1	-	$(	-	_	O	O	
+12-2	Unsre	PPOSAT	unsre	_	O	O	
+12-3	Sitzung	NN	Sitzung	_	O	O	
+12-4	für	APPR	für	_	O	O	
+12-5	d.	ART	d.	_	O	O	
+12-6	Geburtstag	NN	Geburtstag	_	O	O	
+12-7	Roms	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-8	wird	VAFIN	werden	_	O	O	
+12-9	ziemlich	ADV	ziemlich	_	O	O	
+12-10	schwach	ADJD	schwach	_	O	O	
+12-11	ausfallen	VVINF	ausfallen	_	O	O	
+12-12	.	$.	.	_	O	O	
+
+#id=13
+#text=In Ermanglung von Monumenten wird Braun über einzelne Punkte der älteren Topographie lesen, ich über die epigraphische Ausbeute der Ausgrabungen auf der Appia, die aber sehr gering ist.
+13-1	In	APPR	in	_	O	O	
+13-2	Ermanglung	NN	Ermanglung	_	O	O	
+13-3	von	APPR	von	_	O	O	
+13-4	Monumenten	NN	Monument	_	O	O	
+13-5	wird	VAFIN	werden	_	O	O	
+13-6	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-7	über	APPR	über	_	O	O	
+13-8	einzelne	ADJA	einzeln	_	O	O	
+13-9	Punkte	NN	Punkt	_	O	O	
+13-10	der	ART	die	_	O	O	
+13-11	älteren	ADJA	alt	_	O	O	
+13-12	Topographie	NN	Topographie	_	O	O	
+13-13	lesen	VVINF	lesen	_	O	O	
+13-14	,	$,	,	_	O	O	
+13-15	ich	PPER	ich	_	O	O	
+13-16	über	APPR	über	_	O	O	
+13-17	die	ART	die	_	O	O	
+13-18	epigraphische	ADJA	<unknown>	_	O	O	
+13-19	Ausbeute	NN	Ausbeute	_	O	O	
+13-20	der	ART	die	_	O	O	
+13-21	Ausgrabungen	NN	Ausgrabung	_	O	O	
+13-22	auf	APPR	auf	_	O	O	
+13-23	der	ART	die	_	O	O	
+13-24	Appia	NN	<unknown>	_	O	O	
+13-25	,	$,	,	_	O	O	
+13-26	die	PRELS	die	_	O	O	
+13-27	aber	ADV	aber	_	O	O	
+13-28	sehr	ADV	sehr	_	O	O	
+13-29	gering	ADJD	gering	_	O	O	
+13-30	ist	VAFIN	sein	_	O	O	
+13-31	.	$.	.	_	O	O	
+
+#id=14
+#text=Indeß mußten diese Monu-
+14-1	Indeß	NN	<unknown>	_	O	O	
+14-2	mußten	VMFIN	müssen	_	O	O	
+14-3	diese	PDAT	dies	_	O	O	
+14-4	Monu-	TRUNC	<unknown>	_	O	O	
+

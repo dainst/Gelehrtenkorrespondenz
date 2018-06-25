@@ -1,0 +1,218 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=381 H Lieber Herr Professor Helbig an Henzen Neapel, 16. August 1864 g. 19/8 64 r. Napoli 16. Aug. 1864.
+1-1	381	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	19/8	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	64	CARD	64	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+1-19	Napoli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-20	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-21	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Aug.	NN	Aug.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-24	.	$.	.	_	O	O	
+
+#id=3
+#text=Ecco ein Artikel über einige interessante Antiquitäten, welche übrigens sämmtlich für einen Spottpreis zu verkaufen sind.
+3-1	Ecco	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	ein	ART	eine	_	O	O	
+3-3	Artikel	NN	Artikel	_	O	O	
+3-4	über	APPR	über	_	O	O	
+3-5	einige	PIAT	einige	_	O	O	
+3-6	interessante	ADJA	interessant	_	O	O	
+3-7	Antiquitäten	NN	Antiquität	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	welche	PRELS	welche	_	O	O	
+3-10	übrigens	ADV	übrigens	_	O	O	
+3-11	sämmtlich	ADJD	<unknown>	_	O	O	
+3-12	für	APPR	für	_	O	O	
+3-13	einen	ART	eine	_	O	O	
+3-14	Spottpreis	NN	Spottpreis	_	O	O	
+3-15	zu	PTKZU	zu	_	O	O	
+3-16	verkaufen	VVINF	verkaufen	_	O	O	
+3-17	sind	VAFIN	sein	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Statuette ist beim ersten Gebot auf 35 Piaster geschätzt worden, geht also sicher bis auf 30 herunter.
+4-1	Die	ART	die	_	O	O	
+4-2	Statuette	NN	Statuette	_	O	O	
+4-3	ist	VAFIN	sein	_	O	O	
+4-4	beim	APPRART	bei	_	O	O	
+4-5	ersten	ADJA	erst	_	O	O	
+4-6	Gebot	NN	Gebot	_	O	O	
+4-7	auf	APPR	auf	_	O	O	
+4-8	35	CARD	35	_	O	O	
+4-9	Piaster	NN	<unknown>	_	O	O	
+4-10	geschätzt	VVPP	schätzen	_	O	O	
+4-11	worden	VAPP	werden	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	geht	VVFIN	gehen	_	O	O	
+4-14	also	ADV	also	_	O	O	
+4-15	sicher	ADJD	sicher	_	O	O	
+4-16	bis	KON	bis	_	O	O	
+4-17	auf	APPR	auf	_	O	O	
+4-18	30	CARD	30	_	O	O	
+4-19	herunter	PTKVZ	herunter	_	O	O	
+4-20	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich habe darüber an Gerhard und Olfers geschrieben, voraussichtlich natürlich ohne Erfolg, da die Sache Eile hat und der Besitzer bereits mit Torlonia anknüpft, welcher binnen 4 Wochen hierher kommt.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	darüber	PAV	darüber	_	O	O	
+5-4	an	APPR	an	_	O	O	
+5-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-6	und	KON	und	_	O	O	
+5-7	Olfers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-8	geschrieben	VVPP	schreiben	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	voraussichtlich	ADJD	voraussichtlich	_	O	O	
+5-11	natürlich	ADV	natürlich	_	O	O	
+5-12	ohne	APPR	ohne	_	O	O	
+5-13	Erfolg	NN	Erfolg	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	da	KOUS	da	_	O	O	
+5-16	die	ART	die	_	O	O	
+5-17	Sache	NN	Sache	_	O	O	
+5-18	Eile	NN	Eile	_	O	O	
+5-19	hat	VAFIN	haben	_	O	O	
+5-20	und	KON	und	_	O	O	
+5-21	der	ART	die	_	O	O	
+5-22	Besitzer	NN	Besitzer	_	O	O	
+5-23	bereits	ADV	bereits	_	O	O	
+5-24	mit	APPR	mit	_	O	O	
+5-25	Torlonia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-26	anknüpft	VVFIN	anknüpfen	_	O	O	
+5-27	,	$,	,	_	O	O	
+5-28	welcher	PWS	welche	_	O	O	
+5-29	binnen	APPR	binnen	_	O	O	
+5-30	4	CARD	4	_	O	O	
+5-31	Wochen	NN	Woche	_	O	O	
+5-32	hierher	PAV	hierher	_	O	O	
+5-33	kommt	VVFIN	kommen	_	O	O	
+5-34	.	$.	.	_	O	O	
+
+#id=6
+#text=Die archäologischen Entdeckungen folgen Schlag auf Schlag.
+6-1	Die	ART	die	_	O	O	
+6-2	archäologischen	ADJA	archäologisch	_	O	O	
+6-3	Entdeckungen	NN	Entdeckung	_	O	O	
+6-4	folgen	VVFIN	folgen	_	O	O	
+6-5	Schlag	NN	Schlag	_	O	O	
+6-6	auf	APPR	auf	_	O	O	
+6-7	Schlag	NN	Schlag	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=In Paestum sind zwei prachtvolle Kolossalstatuen des Germanicus und der älteren Antonia gefunden worden, welche ich hier bei dem Restaurateur gesehen und notirt habe.
+7-1	In	APPR	in	_	O	O	
+7-2	Paestum	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-3	sind	VAFIN	sein	_	O	O	
+7-4	zwei	CARD	zwei	_	O	O	
+7-5	prachtvolle	ADJA	prachtvoll	_	O	O	
+7-6	Kolossalstatuen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+7-7	des	ART	die	_	O	O	
+7-8	Germanicus	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-9	und	KON	und	_	O	O	
+7-10	der	ART	die	_	O	O	
+7-11	älteren	ADJA	alt	_	O	O	
+7-12	Antonia	NE	Antonia	_	O	O	
+7-13	gefunden	VVPP	finden	_	O	O	
+7-14	worden	VAPP	werden	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	welche	PRELS	welche	_	O	O	
+7-17	ich	PPER	ich	_	O	O	
+7-18	hier	ADV	hier	_	O	O	
+7-19	bei	APPR	bei	_	O	O	
+7-20	dem	ART	die	_	O	O	
+7-21	Restaurateur	NN	Restaurateur	_	O	O	
+7-22	gesehen	VVPP	sehen	_	O	O	
+7-23	und	KON	und	_	O	O	
+7-24	notirt	NN	<unknown>	_	O	O	
+7-25	habe	VAFIN	haben	_	O	O	
+7-26	.	$.	.	_	O	O	
+
+#id=8
+#text=Doch kann ich Ihnen meinen Artikel darüber erst schicken, wenn ich in Paestum gewesen bin, da sich daselbst noch zwei Pendants zu denselben befinden sollen, welche von einem anderen Speculanten in unmittelbarer Nähe jener beiden gefunden wären.
+8-1	Doch	ADV	doch	_	O	O	
+8-2	kann	VMFIN	können	_	O	O	
+8-3	ich	PPER	ich	_	O	O	
+8-4	Ihnen	PPER	Sie	_	O	O	
+8-5	meinen	PPOSAT	mein	_	O	O	
+8-6	Artikel	NN	Artikel	_	O	O	
+8-7	darüber	PAV	darüber	_	O	O	
+8-8	erst	ADV	erst	_	O	O	
+8-9	schicken	VVINF	schicken	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	wenn	KOUS	wenn	_	O	O	
+8-12	ich	PPER	ich	_	O	O	
+8-13	in	APPR	in	_	O	O	
+8-14	Paestum	NN	<unknown>	_	O	O	
+8-15	gewesen	VAPP	sein	_	O	O	
+8-16	bin	VAFIN	sein	_	O	O	
+8-17	,	$,	,	_	O	O	
+8-18	da	KOUS	da	_	O	O	
+8-19	sich	PRF	sich	_	O	O	
+8-20	daselbst	ADV	daselbst	_	O	O	
+8-21	noch	ADV	noch	_	O	O	
+8-22	zwei	CARD	zwei	_	O	O	
+8-23	Pendants	NN	Pendant	_	O	O	
+8-24	zu	APPR	zu	_	O	O	
+8-25	denselben	PDS	derselbe	_	O	O	
+8-26	befinden	VVINF	befinden	_	O	O	
+8-27	sollen	VMFIN	sollen	_	O	O	
+8-28	,	$,	,	_	O	O	
+8-29	welche	PRELS	welche	_	O	O	
+8-30	von	APPR	von	_	O	O	
+8-31	einem	ART	eine	_	O	O	
+8-32	anderen	PIAT	andere	_	O	O	
+8-33	Speculanten	NN	<unknown>	_	O	O	
+8-34	in	APPR	in	_	O	O	
+8-35	unmittelbarer	ADJA	unmittelbar	_	O	O	
+8-36	Nähe	NN	Nähe	_	O	O	
+8-37	jener	PDAT	jen	_	O	O	
+8-38	beiden	PIAT	beide	_	O	O	
+8-39	gefunden	VVPP	finden	_	O	O	
+8-40	wären	VAFIN	sein	_	O	O	
+8-41	.	$.	.	_	O	O	
+
+#id=9
+#text=In Calvi: Kolossalstatue des L. Verus und, um mit Gerhardscher Prägnanz zu schreiben, anziehendes Votivrelief an Mercur wegen Kin-
+9-1	In	APPR	in	_	O	O	
+9-2	Calvi	NE	<unknown>	_	O	O	
+9-3	:	$.	:	_	O	O	
+9-4	Kolossalstatue	NN	Kolossalstatue	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-5	des	ART	die	_	O	O	
+9-6	L.	NE	L.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-7	Verus	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-8	und	KON	und	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	um	KOUI	um	_	O	O	
+9-11	mit	APPR	mit	_	O	O	
+9-12	Gerhardscher	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-13	Prägnanz	NN	Prägnanz	_	O	O	
+9-14	zu	PTKZU	zu	_	O	O	
+9-15	schreiben	VVINF	schreiben	_	O	O	
+9-16	,	$,	,	_	O	O	
+9-17	anziehendes	ADJA	anziehend	_	O	O	
+9-18	Votivrelief	NN	<unknown>	_	O	O	
+9-19	an	APPR	an	_	O	O	
+9-20	Mercur	NN	<unknown>	_	O	O	
+9-21	wegen	APPR	wegen	_	O	O	
+9-22	Kin-	TRUNC	Kin-	_	O	O	
+

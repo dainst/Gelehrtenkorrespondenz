@@ -1,0 +1,98 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=646 2 Lepsius an Henzen Berlin, 11. Oktober 1877 Sie nicht so consequent Ihre eigne Meinung über die Angelegenheit zurückgehalten hätten, so wäre sie von vornherein in richtigere Wege gekommen.
+1-1	646	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Sie	PPER	Sie	_	O	O	
+1-13	nicht	PTKNEG	nicht	_	O	O	
+1-14	so	ADV	so	_	O	O	
+1-15	consequent	ADJD	<unknown>	_	O	O	
+1-16	Ihre	PPOSAT	ihr	_	O	O	
+1-17	eigne	ADJA	eigen	_	O	O	
+1-18	Meinung	NN	Meinung	_	O	O	
+1-19	über	APPR	über	_	O	O	
+1-20	die	ART	die	_	O	O	
+1-21	Angelegenheit	NN	Angelegenheit	_	O	O	
+1-22	zurückgehalten	VVPP	zurückhalten	_	O	O	
+1-23	hätten	VAFIN	haben	_	O	O	
+1-24	,	$,	,	_	O	O	
+1-25	so	ADV	so	_	O	O	
+1-26	wäre	VAFIN	sein	_	O	O	
+1-27	sie	PPER	sie	_	O	O	
+1-28	von	APPR	von	_	O	O	
+1-29	vornherein	ADV	vornherein	_	O	O	
+1-30	in	APPR	in	_	O	O	
+1-31	richtigere	ADJA	richtig	_	O	O	
+1-32	Wege	NN	Weg	_	O	O	
+1-33	gekommen	VVPP	kommen	_	O	O	
+1-34	.	$.	.	_	O	O	
+
+#id=2
+#text=Wir waren hier der Meinung sie in Ihrem Sinne zu behandeln.
+2-1	Wir	PPER	wir	_	O	O	
+2-2	waren	VAFIN	sein	_	O	O	
+2-3	hier	ADV	hier	_	O	O	
+2-4	der	ART	die	_	O	O	
+2-5	Meinung	NN	Meinung	_	O	O	
+2-6	sie	PPER	sie	_	O	O	
+2-7	in	APPR	in	_	O	O	
+2-8	Ihrem	PPOSAT	ihr	_	O	O	
+2-9	Sinne	NN	Sinn	_	O	O	
+2-10	zu	PTKZU	zu	_	O	O	
+2-11	behandeln	VVINF	behandeln	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich hoffe daß die Ferien Ihnen nur Kräftigung gebracht haben.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	hoffe	VVFIN	hoffen	_	O	O	
+3-3	daß	KOUS	dass	_	O	O	
+3-4	die	ART	die	_	O	O	
+3-5	Ferien	NN	Ferien	_	O	O	
+3-6	Ihnen	PPER	Sie	_	O	O	
+3-7	nur	ADV	nur	_	O	O	
+3-8	Kräftigung	NN	Kräftigung	_	O	O	
+3-9	gebracht	VVPP	bringen	_	O	O	
+3-10	haben	VAINF	haben	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=Ihr ergebenster R Lepsius Wir correspondiren mit dem Deutschen Konsul in Moskau über den Modus der Auszahlung und werden wohl ein Drittel der Summe daran geben müssen.
+4-1	Ihr	PPOSAT	ihr	_	O	O	
+4-2	ergebenster	ADJA	<unknown>	_	O	O	
+4-3	R	NN	R	_	O	O	
+4-4	Lepsius	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	Wir	PPER	wir	_	O	O	
+4-6	correspondiren	NN	<unknown>	_	O	O	
+4-7	mit	APPR	mit	_	O	O	
+4-8	dem	ART	die	_	O	O	
+4-9	Deutschen	ADJA	deutsch	_	O	O	
+4-10	Konsul	NN	Konsul	_	O	O	
+4-11	in	APPR	in	_	O	O	
+4-12	Moskau	NE	Moskau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-13	über	APPR	über	_	O	O	
+4-14	den	ART	die	_	O	O	
+4-15	Modus	NN	Modus	_	O	O	
+4-16	der	ART	die	_	O	O	
+4-17	Auszahlung	NN	Auszahlung	_	O	O	
+4-18	und	KON	und	_	O	O	
+4-19	werden	VAFIN	werden	_	O	O	
+4-20	wohl	ADV	wohl	_	O	O	
+4-21	ein	ART	eine	_	O	O	
+4-22	Drittel	NN	Drittel	_	O	O	
+4-23	der	ART	die	_	O	O	
+4-24	Summe	NN	Summe	_	O	O	
+4-25	daran	PAV	daran	_	O	O	
+4-26	geben	VVINF	geben	_	O	O	
+4-27	müssen	VMINF	müssen	_	O	O	
+4-28	.	$.	.	_	O	O	
+

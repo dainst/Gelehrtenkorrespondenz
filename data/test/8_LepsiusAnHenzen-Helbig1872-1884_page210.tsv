@@ -1,0 +1,221 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=72 Verehrter Freund Lepsius an Henzen Berlin, 14. Februar 1875 g. 17/2 75 r.
+1-1	72	CARD	72	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	17/2	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=18/2 Berlin, den 14. Febr.
+2-1	18/2	CARD	@card@	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-3	,	$,	,	_	O	O	
+2-4	den	ART	die	_	O	O	
+2-5	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-7	Febr.	NN	Febr.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=3
+#text=1875.
+3-1	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-2	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Ephemeris ist seiner Zeit auf ausdrücklichen Wunsch von Mommsen auf Römische Rechnung gesetzt worden.
+4-1	Die	ART	die	_	O	O	
+4-2	Ephemeris	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	ist	VAFIN	sein	_	O	O	
+4-4	seiner	PPOSAT	sein	_	O	O	
+4-5	Zeit	NN	Zeit	_	O	O	
+4-6	auf	APPR	auf	_	O	O	
+4-7	ausdrücklichen	ADJA	ausdrücklich	_	O	O	
+4-8	Wunsch	NN	Wunsch	_	O	O	
+4-9	von	APPR	von	_	O	O	
+4-10	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-11	auf	APPR	auf	_	O	O	
+4-12	Römische	ADJA	römisch	_	O	O	
+4-13	Rechnung	NN	Rechnung	_	O	O	
+4-14	gesetzt	VVPP	setzen	_	O	O	
+4-15	worden	VAPP	werden	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich habe heute Asher aufgegeben, die 40 Lire für den Ungarelli vom Museum einzuziehen und Ihnen zugehen zu lassen.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	heute	ADV	heute	_	O	O	
+5-4	Asher	ADV	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	aufgegeben	VVPP	aufgeben	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	die	PRELS	die	_	O	O	
+5-8	40	CARD	40	_	O	O	
+5-9	Lire	NN	Lira	_	O	O	
+5-10	für	APPR	für	_	O	O	
+5-11	den	ART	die	_	O	O	
+5-12	Ungarelli	NE	<unknown>	_	O	O	
+5-13	vom	APPRART	von	_	O	O	
+5-14	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-15	einzuziehen	VVIZU	einziehen	_	O	O	
+5-16	und	KON	und	_	O	O	
+5-17	Ihnen	PPER	Sie	_	O	O	
+5-18	zugehen	VVINF	zugehen	_	O	O	
+5-19	zu	PTKZU	zu	_	O	O	
+5-20	lassen	VVINF	lassen	_	O	O	
+5-21	.	$.	.	_	O	O	
+
+#id=6
+#text=Weil und Schreiber haben sich um ein zweites Stipendium beworben.
+6-1	Weil	KOUS	weil	_	O	O	
+6-2	und	KON	und	_	O	O	
+6-3	Schreiber	NE	Schreiber	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	haben	VAFIN	haben	_	O	O	
+6-5	sich	PRF	sich	_	O	O	
+6-6	um	APPR	um	_	O	O	
+6-7	ein	ART	eine	_	O	O	
+6-8	zweites	ADJA	zweit	_	O	O	
+6-9	Stipendium	NN	Stipendium	_	O	O	
+6-10	beworben	VVPP	bewerben	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Nach den Statuten ist dazu ein Gutachten des Sekretariats erforderlich.
+7-1	Nach	APPR	nach	_	O	O	
+7-2	den	ART	die	_	O	O	
+7-3	Statuten	NN	Statut	_	O	O	
+7-4	ist	VAFIN	sein	_	O	O	
+7-5	dazu	PAV	dazu	_	O	O	
+7-6	ein	ART	eine	_	O	O	
+7-7	Gutachten	NN	Gutachten	_	O	O	
+7-8	des	ART	die	_	O	O	
+7-9	Sekretariats	NN	Sekretariat	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-10	erforderlich	ADJD	erforderlich	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Darf ich Sie darum ersuchen.
+8-1	Darf	VMFIN	dürfen	_	O	O	
+8-2	ich	PPER	ich	_	O	O	
+8-3	Sie	PPER	Sie	_	O	O	
+8-4	darum	PAV	darum	_	O	O	
+8-5	ersuchen	VVINF	ersuchen	_	O	O	
+8-6	.	$.	.	_	O	O	
+
+#id=9
+#text=Können Sie mir nicht wenigstens einen ungefähren Ueberschlag geben, wie groß der in Ihren Händen befindliche Theil des Reservefonds ist und ob er hinreicht die früher auf ihn angewiesene~'aber nicht erhobene Summe von r 985.
+9-1	Können	VMFIN	können	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	mir	PRF	ich	_	O	O	
+9-4	nicht	PTKNEG	nicht	_	O	O	
+9-5	wenigstens	ADV	wenigstens	_	O	O	
+9-6	einen	ART	eine	_	O	O	
+9-7	ungefähren	ADJA	ungefähr	_	O	O	
+9-8	Ueberschlag	NN	<unknown>	_	O	O	
+9-9	geben	VVINF	geben	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	wie	KOKOM	wie	_	O	O	
+9-12	groß	ADJD	groß	_	O	O	
+9-13	der	ART	die	_	O	O	
+9-14	in	APPR	in	_	O	O	
+9-15	Ihren	PPOSAT	ihr	_	O	O	
+9-16	Händen	NN	Hand	_	O	O	
+9-17	befindliche	ADJA	befindlich	_	O	O	
+9-18	Theil	NN	<unknown>	_	O	O	
+9-19	des	ART	die	_	O	O	
+9-20	Reservefonds	NN	Reservefonds	_	O	O	
+9-21	ist	VAFIN	sein	_	O	O	
+9-22	und	KON	und	_	O	O	
+9-23	ob	KOUS	ob	_	O	O	
+9-24	er	PPER	er	_	O	O	
+9-25	hinreicht	VVFIN	hinreichen	_	O	O	
+9-26	die	ART	die	_	O	O	
+9-27	früher	ADV	früher	_	O	O	
+9-28	auf	APPR	auf	_	O	O	
+9-29	ihn	PPER	er	_	O	O	
+9-30	angewiesene~'aber	NN	<unknown>	_	O	O	
+9-31	nicht	PTKNEG	nicht	_	O	O	
+9-32	erhobene	ADJA	erhoben	_	O	O	
+9-33	Summe	NN	Summe	_	O	O	
+9-34	von	APPR	von	_	O	O	
+9-35	r	NE	r	_	O	O	
+9-36	985	CARD	@card@	_	O	O	
+9-37	.	$.	.	_	O	O	
+
+#id=10
+#text=21.
+10-1	21	CARD	21	_	O	O	
+10-2	.	$.	.	_	O	O	
+
+#id=11
+#text=6. für das Sarkophagwerk, noch jetzt zu decken.
+11-1	6	CARD	6	_	O	O	
+11-2	.	$.	.	_	O	O	
+11-3	für	APPR	für	_	O	O	
+11-4	das	ART	die	_	O	O	
+11-5	Sarkophagwerk	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-6	,	$,	,	_	O	O	
+11-7	noch	ADV	noch	_	O	O	
+11-8	jetzt	ADV	jetzt	_	O	O	
+11-9	zu	PTKZU	zu	_	O	O	
+11-10	decken	VVINF	decken	_	O	O	
+11-11	.	$.	.	_	O	O	
+
+#id=12
+#text=Sie haben doch nun genug in Cassa um sich des Reservefonds, mit dessen Uebersicht wir fortwährend in Rückstand bleiben, zu entledigen.
+12-1	Sie	PPER	Sie	_	O	O	
+12-2	haben	VAFIN	haben	_	O	O	
+12-3	doch	ADV	doch	_	O	O	
+12-4	nun	ADV	nun	_	O	O	
+12-5	genug	ADV	genug	_	O	O	
+12-6	in	APPR	in	_	O	O	
+12-7	Cassa	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-8	um	APPR	um	_	O	O	
+12-9	sich	PRF	sich	_	O	O	
+12-10	des	ART	die	_	O	O	
+12-11	Reservefonds	NN	Reservefonds	_	O	O	
+12-12	,	$,	,	_	O	O	
+12-13	mit	APPR	mit	_	O	O	
+12-14	dessen	PRELAT	die	_	O	O	
+12-15	Uebersicht	NN	<unknown>	_	O	O	
+12-16	wir	PPER	wir	_	O	O	
+12-17	fortwährend	ADJD	fortwährend	_	O	O	
+12-18	in	APPR	in	_	O	O	
+12-19	Rückstand	NN	Rückstand	_	O	O	
+12-20	bleiben	VVFIN	bleiben	_	O	O	
+12-21	,	$,	,	_	O	O	
+12-22	zu	PTKZU	zu	_	O	O	
+12-23	entledigen	VVINF	entledigen	_	O	O	
+12-24	.	$.	.	_	O	O	
+
+#id=13
+#text=Ich fragte wohl schon ob Sie etwas von einer bei Eichler in Rechnung stehenden von Matz angeordneten
+13-1	Ich	PPER	ich	_	O	O	
+13-2	fragte	VVFIN	fragen	_	O	O	
+13-3	wohl	ADV	wohl	_	O	O	
+13-4	schon	ADV	schon	_	O	O	
+13-5	ob	KOUS	ob	_	O	O	
+13-6	Sie	PPER	Sie	_	O	O	
+13-7	etwas	ADV	etwas	_	O	O	
+13-8	von	APPR	von	_	O	O	
+13-9	einer	ART	eine	_	O	O	
+13-10	bei	APPR	bei	_	O	O	
+13-11	Eichler	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-12	in	APPR	in	_	O	O	
+13-13	Rechnung	NN	Rechnung	_	O	O	
+13-14	stehenden	ADJA	stehend	_	O	O	
+13-15	von	APPR	von	_	O	O	
+13-16	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-17	angeordneten	ADJA	angeordnet	_	O	O	
+

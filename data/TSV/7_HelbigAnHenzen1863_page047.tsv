@@ -1,0 +1,247 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=60 H Geehrteste Herrn !
+1-1	60	CARD	60	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Geehrteste	ADJA	<unknown>	_	O	O	
+1-4	Herrn	NN	Herr	_	O	O	
+1-5	!	$.	!	_	O	O	
+
+#id=2
+#text=Helbig an das Institut Paris, 4. Februar 1865 g. 8/2 65 r.
+2-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	das	ART	die	_	O	O	
+2-4	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-5	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-6	,	$,	,	_	O	O	
+2-7	4	CARD	4	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	1865	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	g.	VVFIN	<unknown>	_	O	O	
+2-12	8/2	CARD	8/2	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-13	65	CARD	65	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-14	r.	ADJA	<unknown>	_	O	O	
+
+#id=3
+#text=9/2 65 Paris 4. Febr.
+3-1	9/2	CARD	9/2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-2	65	CARD	65	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-3	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-4	4	CARD	4	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-6	Febr.	NN	Febr.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=4
+#text=1865 Da ich nicht weiß, wie bald ich wiederum in Rom eintreffen werde, halte ich es für meine Pflicht, Ihnen unterdeß ein Lebenszeichen von mir zu geben.
+4-1	1865	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-2	Da	ADV	da	_	O	O	
+4-3	ich	PPER	ich	_	O	O	
+4-4	nicht	PTKNEG	nicht	_	O	O	
+4-5	weiß	VVFIN	wissen	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	wie	KOUS	wie	_	O	O	
+4-8	bald	ADV	bald	_	O	O	
+4-9	ich	PPER	ich	_	O	O	
+4-10	wiederum	ADV	wiederum	_	O	O	
+4-11	in	APPR	in	_	O	O	
+4-12	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-13	eintreffen	VVINF	eintreffen	_	O	O	
+4-14	werde	VAFIN	werden	_	O	O	
+4-15	,	$,	,	_	O	O	
+4-16	halte	VVFIN	halten	_	O	O	
+4-17	ich	PPER	ich	_	O	O	
+4-18	es	PPER	es	_	O	O	
+4-19	für	APPR	für	_	O	O	
+4-20	meine	PPOSAT	mein	_	O	O	
+4-21	Pflicht	NN	Pflicht	_	O	O	
+4-22	,	$,	,	_	O	O	
+4-23	Ihnen	PPER	Sie	_	O	O	
+4-24	unterdeß	VVFIN	<unknown>	_	O	O	
+4-25	ein	ART	eine	_	O	O	
+4-26	Lebenszeichen	NN	Lebenszeichen	_	O	O	
+4-27	von	APPR	von	_	O	O	
+4-28	mir	PPER	ich	_	O	O	
+4-29	zu	PTKZU	zu	_	O	O	
+4-30	geben	VVINF	geben	_	O	O	
+4-31	.	$.	.	_	O	O	
+
+#id=5
+#text=Als ich letzten Sonnabend in Paris eintraf, in der Erwartung, den folgenden Tag via Marseille nach Rom abzugehen, fand ich eine Depesche vor, im Allgemeinen unverständlich, worin die Worte vorkamen retenir, musee Pourtales; musee de Berlin, attendre des instructions.
+5-1	Als	KOUS	als	_	O	O	
+5-2	ich	PPER	ich	_	O	O	
+5-3	letzten	ADJA	letzt	_	O	O	
+5-4	Sonnabend	NN	Sonnabend	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-5	in	APPR	in	_	O	O	
+5-6	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-7	eintraf	VVFIN	eintreffen	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	in	APPR	in	_	O	O	
+5-10	der	ART	die	_	O	O	
+5-11	Erwartung	NN	Erwartung	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	den	ART	die	_	O	O	
+5-14	folgenden	ADJA	folgend	_	O	O	
+5-15	Tag	NN	Tag	_	O	O	
+5-16	via	APPR	via	_	O	O	
+5-17	Marseille	NE	Marseille	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-18	nach	APPR	nach	_	O	O	
+5-19	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-20	abzugehen	VVIZU	abgehen	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	fand	VVFIN	finden	_	O	O	
+5-23	ich	PPER	ich	_	O	O	
+5-24	eine	ART	eine	_	O	O	
+5-25	Depesche	NN	Depesche	_	O	O	
+5-26	vor	PTKVZ	vor	_	O	O	
+5-27	,	$,	,	_	O	O	
+5-28	im	APPRART	in	_	O	O	
+5-29	Allgemeinen	NN	Allgemeine	_	O	O	
+5-30	unverständlich	ADJD	unverständlich	_	O	O	
+5-31	,	$,	,	_	O	O	
+5-32	worin	PWAV	worin	_	O	O	
+5-33	die	ART	die	_	O	O	
+5-34	Worte	NN	Wort	_	O	O	
+5-35	vorkamen	VVFIN	vorkommen	_	O	O	
+5-36	retenir	NE	<unknown>	_	O	O	
+5-37	,	$,	,	_	O	O	
+5-38	musee	ADJA	<unknown>	_	O	O	
+5-39	Pourtales	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-40	;	$.	;	_	O	O	
+5-41	musee	NN	<unknown>	_	O	O	
+5-42	de	NE	de	_	O	O	
+5-43	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-44	,	$,	,	_	O	O	
+5-45	attendre	VVFIN	<unknown>	_	O	O	
+5-46	des	ART	die	_	O	O	
+5-47	instructions	NN	<unknown>	_	O	O	
+5-48	.	$.	.	_	O	O	
+
+#id=6
+#text=Der Gesandte hat daher einen Anderen mit meinen Depeschen weitergeschickt und mich hier festgehalten.
+6-1	Der	ART	die	_	O	O	
+6-2	Gesandte	NN	Gesandte	_	O	O	
+6-3	hat	VAFIN	haben	_	O	O	
+6-4	daher	PAV	daher	_	O	O	
+6-5	einen	ART	eine	_	O	O	
+6-6	Anderen	PIS	andere	_	O	O	
+6-7	mit	APPR	mit	_	O	O	
+6-8	meinen	PPOSAT	mein	_	O	O	
+6-9	Depeschen	NN	Depesche	_	O	O	
+6-10	weitergeschickt	VVPP	weiterschicken	_	O	O	
+6-11	und	KON	und	_	O	O	
+6-12	mich	PRF	ich	_	O	O	
+6-13	hier	ADV	hier	_	O	O	
+6-14	festgehalten	VVPP	festhalten	_	O	O	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=Einen Rapporto über die etwa vom musee Pourtales zu aquirirenden Gegenstände habe ich bereits nach Berlin abgehen lassen und sehe nunmehr den in Aussicht gestellten Instructionen entgegen.
+7-1	Einen	ART	eine	_	O	O	
+7-2	Rapporto	NN	<unknown>	_	O	O	
+7-3	über	APPR	über	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	etwa	ADV	etwa	_	O	O	
+7-6	vom	APPRART	von	_	O	O	
+7-7	musee	ADJA	<unknown>	_	O	O	
+7-8	Pourtales	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-9	zu	APPR	zu	_	O	O	
+7-10	aquirirenden	ADJA	<unknown>	_	O	O	
+7-11	Gegenstände	NN	Gegenstand	_	O	O	
+7-12	habe	VAFIN	haben	_	O	O	
+7-13	ich	PPER	ich	_	O	O	
+7-14	bereits	ADV	bereits	_	O	O	
+7-15	nach	APPR	nach	_	O	O	
+7-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-17	abgehen	VVINF	abgehen	_	O	O	
+7-18	lassen	VVINF	lassen	_	O	O	
+7-19	und	KON	und	_	O	O	
+7-20	sehe	VVFIN	sehen	_	O	O	
+7-21	nunmehr	ADV	nunmehr	_	O	O	
+7-22	den	ART	die	_	O	O	
+7-23	in	APPR	in	_	O	O	
+7-24	Aussicht	NN	Aussicht	_	O	O	
+7-25	gestellten	ADJA	gestellt	_	O	O	
+7-26	Instructionen	NN	<unknown>	_	O	O	
+7-27	entgegen	PTKVZ	entgegen	_	O	O	
+7-28	.	$.	.	_	O	O	
+
+#id=8
+#text=Diese lassen glücklicher Weise auf sich warten, sodaß ich Gelegenheit habe, mich eine zeitlang auf Staatskosten in dieser Metropole der Intelligenz zu civilisiren.
+8-1	Diese	PDS	diese	_	O	O	
+8-2	lassen	VVFIN	lassen	_	O	O	
+8-3	glücklicher	ADJA	glücklich	_	O	O	
+8-4	Weise	NN	Weise	_	O	O	
+8-5	auf	APPR	auf	_	O	O	
+8-6	sich	PRF	sich	_	O	O	
+8-7	warten	VVINF	warten	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	sodaß	KON	sodass	_	O	O	
+8-10	ich	PPER	ich	_	O	O	
+8-11	Gelegenheit	NN	Gelegenheit	_	O	O	
+8-12	habe	VAFIN	haben	_	O	O	
+8-13	,	$,	,	_	O	O	
+8-14	mich	PRF	ich	_	O	O	
+8-15	eine	ART	eine	_	O	O	
+8-16	zeitlang	ADJD	zeitlang	_	O	O	
+8-17	auf	APPR	auf	_	O	O	
+8-18	Staatskosten	NN	Staatskosten	_	O	O	
+8-19	in	APPR	in	_	O	O	
+8-20	dieser	PDAT	dies	_	O	O	
+8-21	Metropole	NN	Metropole	_	O	O	
+8-22	der	ART	die	_	O	O	
+8-23	Intelligenz	NN	Intelligenz	_	O	O	
+8-24	zu	APPR	zu	_	O	O	
+8-25	civilisiren	NN	<unknown>	_	O	O	
+8-26	.	$.	.	_	O	O	
+
+#id=9
+#text=Es ist recht angenehm hier.
+9-1	Es	PPER	es	_	O	O	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	recht	ADJD	recht	_	O	O	
+9-4	angenehm	ADJD	angenehm	_	O	O	
+9-5	hier	ADV	hier	_	O	O	
+9-6	.	$.	.	_	O	O	
+
+#id=10
+#text=Bullettinofutter die Hülle und Fülle.
+10-1	Bullettinofutter	NN	<unknown>	_	O	O	
+10-2	die	ART	die	_	O	O	
+10-3	Hülle	NN	Hülle	_	O	O	
+10-4	und	KON	und	_	O	O	
+10-5	Fülle	NN	Fülle	_	O	O	
+10-6	.	$.	.	_	O	O	
+
+#id=11
+#text=Ein Franzose, ein Couleurbruder von mir, ist ein großes Thier geworden, hat eine Tochter von Thourenel geheirathet und führt mich von Dejeuner zu Dejeuner,
+11-1	Ein	ART	eine	_	O	O	
+11-2	Franzose	NN	Franzose	_	O	O	
+11-3	,	$,	,	_	O	O	
+11-4	ein	ART	eine	_	O	O	
+11-5	Couleurbruder	NN	<unknown>	_	O	O	
+11-6	von	APPR	von	_	O	O	
+11-7	mir	PPER	ich	_	O	O	
+11-8	,	$,	,	_	O	O	
+11-9	ist	VAFIN	sein	_	O	O	
+11-10	ein	ART	eine	_	O	O	
+11-11	großes	ADJA	groß	_	O	O	
+11-12	Thier	NN	<unknown>	_	O	O	
+11-13	geworden	VAPP	werden	_	O	O	
+11-14	,	$,	,	_	O	O	
+11-15	hat	VAFIN	haben	_	O	O	
+11-16	eine	ART	eine	_	O	O	
+11-17	Tochter	NN	Tochter	_	O	O	
+11-18	von	APPR	von	_	O	O	
+11-19	Thourenel	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-20	geheirathet	NN	<unknown>	_	O	O	
+11-21	und	KON	und	_	O	O	
+11-22	führt	VVFIN	führen	_	O	O	
+11-23	mich	PRF	ich	_	O	O	
+11-24	von	APPR	von	_	O	O	
+11-25	Dejeuner	NN	<unknown>	_	O	O	
+11-26	zu	APPR	zu	_	O	O	
+11-27	Dejeuner	NN	<unknown>	_	O	O	
+11-28	,	$,	,	_	O	O	
+

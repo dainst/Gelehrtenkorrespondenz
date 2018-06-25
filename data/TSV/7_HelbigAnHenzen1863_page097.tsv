@@ -1,0 +1,255 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=193 H Lieber Herr Professor Helbig an Henzen Neapel, 21. April 1868 g. 24/4 68 r. Neapel 21/4 68 In aller Eile nur wenige Worte.
+1-1	193	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1868	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	24/4	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	68	CARD	68	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+1-19	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-20	21/4	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-21	68	CARD	68	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	In	APPR	in	_	O	O	
+1-23	aller	PIAT	alle	_	O	O	
+1-24	Eile	NN	Eile	_	O	O	
+1-25	nur	ADV	nur	_	O	O	
+1-26	wenige	PIAT	wenige	_	O	O	
+1-27	Worte	NN	Wort	_	O	O	
+1-28	.	$.	.	_	O	O	
+
+#id=2
+#text=CasteIlani hat Monumente von solcher Wichtigkeit angekauft, wie ich noch nie bei einem Privatmann gefunden habe.
+2-1	CasteIlani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	hat	VAFIN	haben	_	O	O	
+2-3	Monumente	NN	Monument	_	O	O	
+2-4	von	APPR	von	_	O	O	
+2-5	solcher	PIAT	solche	_	O	O	
+2-6	Wichtigkeit	NN	Wichtigkeit	_	O	O	
+2-7	angekauft	VVPP	ankaufen	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	wie	KOUS	wie	_	O	O	
+2-10	ich	PPER	ich	_	O	O	
+2-11	noch	ADV	noch	_	O	O	
+2-12	nie	ADV	nie	_	O	O	
+2-13	bei	APPR	bei	_	O	O	
+2-14	einem	ART	eine	_	O	O	
+2-15	Privatmann	NN	Privatmann	_	O	O	
+2-16	gefunden	VVPP	finden	_	O	O	
+2-17	habe	VAFIN	haben	_	O	O	
+2-18	.	$.	.	_	O	O	
+
+#id=3
+#text=In vier Wochen bringt er sie nach Paris und London.
+3-1	In	APPR	in	_	O	O	
+3-2	vier	CARD	vier	_	O	O	
+3-3	Wochen	NN	Woche	_	O	O	
+3-4	bringt	VVFIN	bringen	_	O	O	
+3-5	er	PPER	er	_	O	O	
+3-6	sie	PPER	sie	_	O	O	
+3-7	nach	APPR	nach	_	O	O	
+3-8	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-9	und	KON	und	_	O	O	
+3-10	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=Sollen sie gezeichnet werden, so ist die größte Eile nöthig.
+4-1	Sollen	VMFIN	sollen	_	O	O	
+4-2	sie	PPER	sie	_	O	O	
+4-3	gezeichnet	VVPP	zeichnen	_	O	O	
+4-4	werden	VAINF	werden	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	so	ADV	so	_	O	O	
+4-7	ist	VAFIN	sein	_	O	O	
+4-8	die	ART	die	_	O	O	
+4-9	größte	ADJA	groß	_	O	O	
+4-10	Eile	NN	Eile	_	O	O	
+4-11	nöthig	ADJD	<unknown>	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=In Capua ein bemaltes Grab, ebenfalls höchst wichtig.
+5-1	In	APPR	in	_	O	O	
+5-2	Capua	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-3	ein	ART	eine	_	O	O	
+5-4	bemaltes	ADJA	bemalt	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-5	Grab	NN	Grab	_	I-webanno.custom.LetterEntity_	I-OBJ	
+5-6	,	$,	,	_	O	O	
+5-7	ebenfalls	ADV	ebenfalls	_	O	O	
+5-8	höchst	ADJD	hochöchst	_	O	O	
+5-9	wichtig	ADJD	wichtig	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Schicken Sie, bitte, umgehend Schulz.
+6-1	Schicken	VVFIN	schicken	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	bitte	VVIMP	bitten	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	umgehend	ADJD	umgehend	_	O	O	
+6-7	Schulz	NE	Schulz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=Entschuldigen Sie bitte, daß ich Sie am Morgen meiner Abreise nicht besucht habe.
+7-1	Entschuldigen	VVFIN	entschuldigen	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	bitte	ADV	bitte	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	daß	KOUS	dass	_	O	O	
+7-6	ich	PPER	ich	_	O	O	
+7-7	Sie	PPER	Sie	_	O	O	
+7-8	am	APPRART	an	_	O	O	
+7-9	Morgen	NN	Morgen	_	O	O	
+7-10	meiner	PPOSAT	mein	_	O	O	
+7-11	Abreise	NN	Abreise	_	O	O	
+7-12	nicht	PTKNEG	nicht	_	O	O	
+7-13	besucht	VVPP	besuchen	_	O	O	
+7-14	habe	VAFIN	haben	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich hatte zu große Eile.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	hatte	VAFIN	haben	_	O	O	
+8-3	zu	APPR	zu	_	O	O	
+8-4	große	ADJA	groß	_	O	O	
+8-5	Eile	NN	Eile	_	O	O	
+8-6	.	$.	.	_	O	O	
+
+#id=9
+#text=Grüßen Sie, bitte, Frau Henzen und die zurückgebliebenen Capitoliner.
+9-1	Grüßen	VVFIN	grüßen	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	,	$,	,	_	O	O	
+9-4	bitte	VVIMP	bitten	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	Frau	NN	Frau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-7	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-8	und	KON	und	_	O	O	
+9-9	die	ART	die	_	O	O	
+9-10	zurückgebliebenen	ADJA	zurückgeblieben	_	O	O	
+9-11	Capitoliner	NN	<unknown>	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=CasteIlani hat auch prachtvolle geschnittene Steine, welche ich für eine Centurie auszunutzen gedenke.
+10-1	CasteIlani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	hat	VAFIN	haben	_	O	O	
+10-3	auch	ADV	auch	_	O	O	
+10-4	prachtvolle	ADJA	prachtvoll	_	O	O	
+10-5	geschnittene	ADJA	geschnitten	_	O	O	
+10-6	Steine	NN	Stein	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	welche	PRELS	welche	_	O	O	
+10-9	ich	PPER	ich	_	O	O	
+10-10	für	APPR	für	_	O	O	
+10-11	eine	ART	eine	_	O	O	
+10-12	Centurie	NN	<unknown>	_	O	O	
+10-13	auszunutzen	VVIZU	ausnutzen	_	O	O	
+10-14	gedenke	VVFIN	gedenken	_	O	O	
+10-15	.	$.	.	_	O	O	
+
+#id=11
+#text=Leider giebt es ganz Neapel nicht den geeigenten feinen Gyps.
+11-1	Leider	ADV	leider	_	O	O	
+11-2	giebt	VVFIN	<unknown>	_	O	O	
+11-3	es	PPER	es	_	O	O	
+11-4	ganz	ADV	ganz	_	O	O	
+11-5	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-6	nicht	PTKNEG	nicht	_	O	O	
+11-7	den	ART	die	_	O	O	
+11-8	geeigenten	ADJA	<unknown>	_	O	O	
+11-9	feinen	ADJA	fein	_	O	O	
+11-10	Gyps	NN	<unknown>	_	O	O	
+11-11	.	$.	.	_	O	O	
+
+#id=12
+#text=Sagen Sie, bitte, Schulz, daß er zwei Pfund davon aus Rom mitbringt.
+12-1	Sagen	VVFIN	sagen	_	O	O	
+12-2	Sie	PPER	Sie	_	O	O	
+12-3	,	$,	,	_	O	O	
+12-4	bitte	VVIMP	bitten	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	Schulz	NE	Schulz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-7	,	$,	,	_	O	O	
+12-8	daß	KOUS	dass	_	O	O	
+12-9	er	PPER	er	_	O	O	
+12-10	zwei	CARD	zwei	_	O	O	
+12-11	Pfund	NN	Pfund	_	O	O	
+12-12	davon	PAV	davon	_	O	O	
+12-13	aus	APPR	aus	_	O	O	
+12-14	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-15	mitbringt	VVFIN	mitbringen	_	O	O	
+12-16	.	$.	.	_	O	O	
+
+#id=13
+#text=Wo man den besten kauft, mag er bei Martinetti erfragen.
+13-1	Wo	PWAV	wo	_	O	O	
+13-2	man	PIS	man	_	O	O	
+13-3	den	ART	die	_	O	O	
+13-4	besten	ADJA	gut	_	O	O	
+13-5	kauft	VVFIN	kaufen	_	O	O	
+13-6	,	$,	,	_	O	O	
+13-7	mag	VMFIN	mögen	_	O	O	
+13-8	er	PPER	er	_	O	O	
+13-9	bei	APPR	bei	_	O	O	
+13-10	Martinetti	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-11	erfragen	VVINF	erfragen	_	O	O	
+13-12	.	$.	.	_	O	O	
+
+#id=14
+#text=Der Technische Ausdruck ist scajola per impronte gemmarie.
+14-1	Der	ART	die	_	O	O	
+14-2	Technische	ADJA	technisch	_	O	O	
+14-3	Ausdruck	NN	Ausdruck	_	O	O	
+14-4	ist	VAFIN	sein	_	O	O	
+14-5	scajola	NE	<unknown>	_	O	O	
+14-6	per	APPR	per	_	O	O	
+14-7	impronte	ADJA	<unknown>	_	O	O	
+14-8	gemmarie	NE	<unknown>	_	O	O	
+14-9	.	$.	.	_	O	O	
+
+#id=15
+#text=Meine Frau grüßt bestens.
+15-1	Meine	PPOSAT	mein	_	O	O	
+15-2	Frau	NN	Frau	_	O	O	
+15-3	grüßt	VVFIN	grüßen	_	O	O	
+15-4	bestens	ADV	bestens	_	O	O	
+15-5	.	$.	.	_	O	O	
+
+#id=16
+#text=Es geht uns allen ganz gut.
+16-1	Es	PPER	es	_	O	O	
+16-2	geht	VVFIN	gehen	_	O	O	
+16-3	uns	PPER	wir	_	O	O	
+16-4	allen	PIAT	alle	_	O	O	
+16-5	ganz	ADV	ganz	_	O	O	
+16-6	gut	ADJD	gut	_	O	O	
+16-7	.	$.	.	_	O	O	
+
+#id=17
+#text=Mit besten Grüßen Ihr ergebener W. Helbig •
+17-1	Mit	APPR	mit	_	O	O	
+17-2	besten	ADJA	gut	_	O	O	
+17-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+17-4	Ihr	PPOSAT	ihr	_	O	O	
+17-5	ergebener	ADJA	ergeben	_	O	O	
+17-6	W.	NE	W.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-7	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+17-8	•	ADJA	<unknown>	_	O	O	
+

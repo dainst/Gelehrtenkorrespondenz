@@ -1,0 +1,262 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=325 Lieber Herr Professor, Helbig an Henzen Ohne Datum - Poststempel Siena, 7. August 1874 -:J....sec.. g. 8/7 74 r.
+1-1	325	CARD	@card@	_	O	O	
+1-2	Lieber	ADJA	lieb	_	O	O	
+1-3	Herr	NN	Herr	_	O	O	
+1-4	Professor	NN	Professor	_	O	O	
+1-5	,	$,	,	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-9	Ohne	APPR	ohne	_	O	O	
+1-10	Datum	NN	Datum	_	O	O	
+1-11	-	$(	-	_	O	O	
+1-12	Poststempel	NN	Poststempel	_	O	O	
+1-13	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-14	,	$,	,	_	O	O	
+1-15	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-16	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	-:J	ADJD	<unknown>	_	O	O	
+1-20	...	$.	...	_	O	O	
+1-21	.sec.	NN	<unknown>	_	O	O	
+1-22	.	$.	.	_	O	O	
+1-23	g.	ADJA	<unknown>	_	O	O	
+1-24	8/7	CARD	8/7	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-25	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-26	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=11/7 74 Postkarte - ohne Datum Da mein Mann seine Atropin Kur macht, so beantworte ich Ihre Karte.
+2-1	11/7	CARD	11/7	_	O	O	
+2-2	74	CARD	74	_	O	O	
+2-3	Postkarte	NN	Postkarte	_	O	O	
+2-4	-	$(	-	_	O	O	
+2-5	ohne	APPR	ohne	_	O	O	
+2-6	Datum	NN	Datum	_	O	O	
+2-7	Da	ADV	da	_	O	O	
+2-8	mein	PPOSAT	mein	_	O	O	
+2-9	Mann	NN	Mann	_	O	O	
+2-10	seine	PPOSAT	sein	_	O	O	
+2-11	Atropin	NN	Atropin	_	O	O	
+2-12	Kur	NN	Kur	_	O	O	
+2-13	macht	VVFIN	machen	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	so	ADV	so	_	O	O	
+2-16	beantworte	VVFIN	beantworten	_	O	O	
+2-17	ich	PPER	ich	_	O	O	
+2-18	Ihre	PPOSAT	ihr	_	O	O	
+2-19	Karte	NN	Karte	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Allerdings hat Conze darum gebeten sowohl Stamponi, wie Original zugeschickt zu erhalten.
+3-1	Allerdings	ADV	allerdings	_	O	O	
+3-2	hat	VAFIN	haben	_	O	O	
+3-3	Conze	NE	Conze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-4	darum	PAV	darum	_	O	O	
+3-5	gebeten	VVPP	bitten	_	O	O	
+3-6	sowohl	KON	sowohl	_	O	O	
+3-7	Stamponi	NN	<unknown>	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	wie	KOKOM	wie	_	O	O	
+3-10	Original	ADJD	original	_	O	O	
+3-11	zugeschickt	VVPP	zuschicken	_	O	O	
+3-12	zu	PTKZU	zu	_	O	O	
+3-13	erhalten	VVINF	erhalten	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Wolf dankt für Ihren Brief und fragt an, da ja der laufende Institutsfond bis Ende des Jahres verausgabt werden soll, ob es nicht räthlich ist, die bereits für die sardinische Reise bewilligten 800 Frs.
+4-1	Wolf	NE	Wolf	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	dankt	VVFIN	danken	_	O	O	
+4-3	für	APPR	für	_	O	O	
+4-4	Ihren	PPOSAT	ihr	_	O	O	
+4-5	Brief	NN	Brief	_	O	O	
+4-6	und	KON	und	_	O	O	
+4-7	fragt	VVFIN	fragen	_	O	O	
+4-8	an	PTKVZ	an	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	da	KOUS	da	_	O	O	
+4-11	ja	ADV	ja	_	O	O	
+4-12	der	ART	die	_	O	O	
+4-13	laufende	ADJA	laufend	_	O	O	
+4-14	Institutsfond	NN	<unknown>	_	O	O	
+4-15	bis	KON	bis	_	O	O	
+4-16	Ende	NN	Ende	_	O	O	
+4-17	des	ART	die	_	O	O	
+4-18	Jahres	NN	Jahr	_	O	O	
+4-19	verausgabt	VVPP	verausgaben	_	O	O	
+4-20	werden	VAINF	werden	_	O	O	
+4-21	soll	VMFIN	sollen	_	O	O	
+4-22	,	$,	,	_	O	O	
+4-23	ob	KOUS	ob	_	O	O	
+4-24	es	PPER	es	_	O	O	
+4-25	nicht	PTKNEG	nicht	_	O	O	
+4-26	räthlich	ADJD	<unknown>	_	O	O	
+4-27	ist	VAFIN	sein	_	O	O	
+4-28	,	$,	,	_	O	O	
+4-29	die	PRELS	die	_	O	O	
+4-30	bereits	ADV	bereits	_	O	O	
+4-31	für	APPR	für	_	O	O	
+4-32	die	ART	die	_	O	O	
+4-33	sardinische	ADJA	sardinisch	_	O	O	
+4-34	Reise	NN	Reise	_	O	O	
+4-35	bewilligten	VVFIN	bewilligen	_	O	O	
+4-36	800	CARD	800	_	O	O	
+4-37	Frs.	NE	<unknown>	_	O	O	
+
+#id=5
+#text=auf dies Jahr zu übertragen?
+5-1	auf	APPR	auf	_	O	O	
+5-2	dies	PDAT	dies	_	O	O	
+5-3	Jahr	NN	Jahr	_	O	O	
+5-4	zu	PTKZU	zu	_	O	O	
+5-5	übertragen	VVINF	übertragen	_	O	O	
+5-6	?	$.	?	_	O	O	
+
+#id=6
+#text=Viele Reisen wird er wegen seiner Augen zunächst nicht machen können, doch denkt er nach wie vor an Volterra und Chiusi.
+6-1	Viele	PIAT	viele	_	O	O	
+6-2	Reisen	NN	Reise|Reisen	_	O	O	
+6-3	wird	VAFIN	werden	_	O	O	
+6-4	er	PPER	er	_	O	O	
+6-5	wegen	APPR	wegen	_	O	O	
+6-6	seiner	PPOSAT	sein	_	O	O	
+6-7	Augen	NN	Auge	_	O	O	
+6-8	zunächst	ADV	zunächst	_	O	O	
+6-9	nicht	PTKNEG	nicht	_	O	O	
+6-10	machen	VVINF	machen	_	O	O	
+6-11	können	VMINF	können	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	doch	KON	doch	_	O	O	
+6-14	denkt	VVFIN	denken	_	O	O	
+6-15	er	PPER	er	_	O	O	
+6-16	nach	ADV	nach	_	O	O	
+6-17	wie	KOKOM	wie	_	O	O	
+6-18	vor	ADV	vor	_	O	O	
+6-19	an	APPR	an	_	O	O	
+6-20	Volterra	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-21	und	KON	und	_	O	O	
+6-22	Chiusi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Hier ist es wahrhaft himmlisch, unsere Villa ist unendlich schöner, als ich mir je erlaubt hätte zu denken, und Sie müssen mit Rosina herkommen.
+7-1	Hier	ADV	hier	_	O	O	
+7-2	ist	VAFIN	sein	_	O	O	
+7-3	es	PPER	es	_	O	O	
+7-4	wahrhaft	ADJD	wahrhaft	_	O	O	
+7-5	himmlisch	ADJD	himmlisch	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	unsere	PPOSAT	unser	_	O	O	
+7-8	Villa	NN	Villa	_	O	O	
+7-9	ist	VAFIN	sein	_	O	O	
+7-10	unendlich	ADJD	unendlich	_	O	O	
+7-11	schöner	ADJD	schön	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	als	KOUS	als	_	O	O	
+7-14	ich	PPER	ich	_	O	O	
+7-15	mir	PRF	ich	_	O	O	
+7-16	je	ADV	je	_	O	O	
+7-17	erlaubt	ADJD	erlaubt	_	O	O	
+7-18	hätte	VAFIN	haben	_	O	O	
+7-19	zu	PTKZU	zu	_	O	O	
+7-20	denken	VVINF	denken	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	und	KON	und	_	O	O	
+7-23	Sie	PPER	Sie	_	O	O	
+7-24	müssen	VMFIN	müssen	_	O	O	
+7-25	mit	APPR	mit	_	O	O	
+7-26	Rosina	NE	Rosina	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-27	herkommen	VVINF	herkommen	_	O	O	
+7-28	.	$.	.	_	O	O	
+
+#id=8
+#text=Unser Cisternenwasser ist ausgezeichnet, kalt und klar und reichlich.
+8-1	Unser	PPOSAT	unser	_	O	O	
+8-2	Cisternenwasser	NN	<unknown>	_	O	O	
+8-3	ist	VAFIN	sein	_	O	O	
+8-4	ausgezeichnet	VVPP	auszeichnen	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	kalt	ADJD	kalt	_	O	O	
+8-7	und	KON	und	_	O	O	
+8-8	klar	ADJD	klar	_	O	O	
+8-9	und	KON	und	_	O	O	
+8-10	reichlich	ADJD	reichlich	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Sie werden den hiesigen Aufenthalt recht sehr genießen, in unserer Villa haben wir herrlichsten Wald und sammtgrüne Wiesen, Garten und Feld.
+9-1	Sie	PPER	Sie	_	O	O	
+9-2	werden	VAFIN	werden	_	O	O	
+9-3	den	ART	die	_	O	O	
+9-4	hiesigen	ADJA	hiesig	_	O	O	
+9-5	Aufenthalt	NN	Aufenthalt	_	O	O	
+9-6	recht	ADJD	recht	_	O	O	
+9-7	sehr	ADV	sehr	_	O	O	
+9-8	genießen	VVINF	genießen	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	in	APPR	in	_	O	O	
+9-11	unserer	PPOSAT	unser	_	O	O	
+9-12	Villa	NN	Villa	_	O	O	
+9-13	haben	VAFIN	haben	_	O	O	
+9-14	wir	PPER	wir	_	O	O	
+9-15	herrlichsten	ADJA	herrlich	_	O	O	
+9-16	Wald	NN	Wald	_	O	O	
+9-17	und	KON	und	_	O	O	
+9-18	sammtgrüne	ADJA	<unknown>	_	O	O	
+9-19	Wiesen	NN	Wiese	_	O	O	
+9-20	,	$,	,	_	O	O	
+9-21	Garten	NN	Garten	_	O	O	
+9-22	und	KON	und	_	O	O	
+9-23	Feld	NN	Feld	_	O	O	
+9-24	.	$.	.	_	O	O	
+
+#id=10
+#text=Die Stadt ist entzückend.
+10-1	Die	ART	die	_	O	O	
+10-2	Stadt	NN	Stadt	_	O	O	
+10-3	ist	VAFIN	sein	_	O	O	
+10-4	entzückend	ADJD	entzückend	_	O	O	
+10-5	.	$.	.	_	O	O	
+
+#id=11
+#text=Richten Sie sich so ein, daß Sie zum 15. August hier sind.
+11-1	Richten	VVFIN	richten	_	O	O	
+11-2	Sie	PPER	Sie	_	O	O	
+11-3	sich	PRF	sich	_	O	O	
+11-4	so	ADV	so	_	O	O	
+11-5	ein	PTKVZ	ein	_	O	O	
+11-6	,	$,	,	_	O	O	
+11-7	daß	KOUS	dass	_	O	O	
+11-8	Sie	PPER	Sie	_	O	O	
+11-9	zum	APPRART	zu	_	O	O	
+11-10	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+11-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+11-12	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+11-13	hier	ADV	hier	_	O	O	
+11-14	sind	VAFIN	sein	_	O	O	
+11-15	.	$.	.	_	O	O	
+
+#id=12
+#text=Am 2. Juli haben wir den Palio mitgemacht, was das großartigste ist, was
+12-1	Am	APPRART	an	_	O	O	
+12-2	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+12-3	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+12-4	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+12-5	haben	VAFIN	haben	_	O	O	
+12-6	wir	PPER	wir	_	O	O	
+12-7	den	ART	die	_	O	O	
+12-8	Palio	NN	<unknown>	_	O	O	
+12-9	mitgemacht	VVPP	mitmachen	_	O	O	
+12-10	,	$,	,	_	O	O	
+12-11	was	PRELS	was	_	O	O	
+12-12	das	ART	die	_	O	O	
+12-13	großartigste	ADJA	großartig	_	O	O	
+12-14	ist	VAFIN	sein	_	O	O	
+12-15	,	$,	,	_	O	O	
+12-16	was	PRELS	was	_	O	O	
+

@@ -1,0 +1,277 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=404 3 Helbig an Henzen Neapel, 24. August 1864 hen und mir Alles zusammen zu schicken.
+1-1	404	CARD	@card@	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	hen	VVFIN	<unknown>	_	O	O	
+1-13	und	KON	und	_	O	O	
+1-14	mir	PRF	ich	_	O	O	
+1-15	Alles	PIS	alle	_	O	O	
+1-16	zusammen	PTKVZ	zusammen	_	O	O	
+1-17	zu	PTKZU	zu	_	O	O	
+1-18	schicken	VVINF	schicken	_	O	O	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=Genau erinnere ich mich allerdings der Summe nicht mehr.
+2-1	Genau	ADJD	genau	_	O	O	
+2-2	erinnere	VVFIN	erinnern	_	O	O	
+2-3	ich	PPER	ich	_	O	O	
+2-4	mich	PRF	ich	_	O	O	
+2-5	allerdings	ADV	allerdings	_	O	O	
+2-6	der	ART	die	_	O	O	
+2-7	Summe	NN	Summe	_	O	O	
+2-8	nicht	PTKNEG	nicht	_	O	O	
+2-9	mehr	ADV	mehr	_	O	O	
+2-10	.	$.	.	_	O	O	
+
+#id=3
+#text=In der Zwischenzeit habe ich für das Institut 5 1/2 Francs ausgelegt.
+3-1	In	APPR	in	_	O	O	
+3-2	der	ART	die	_	O	O	
+3-3	Zwischenzeit	NN	Zwischenzeit	_	O	O	
+3-4	habe	VAFIN	haben	_	O	O	
+3-5	ich	PPER	ich	_	O	O	
+3-6	für	APPR	für	_	O	O	
+3-7	das	ART	die	_	O	O	
+3-8	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-9	5	CARD	5	_	O	O	
+3-10	1/2	CARD	1/2	_	O	O	
+3-11	Francs	NN	Franc	_	O	O	
+3-12	ausgelegt	VVPP	auslegen	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Also würde ich zu erhalten haben Renumeration 20 Scudi Rest vom Fuciner See 23.
+4-1	Also	ADV	also	_	O	O	
+4-2	würde	VAFIN	werden	_	O	O	
+4-3	ich	PPER	ich	_	O	O	
+4-4	zu	PTKZU	zu	_	O	O	
+4-5	erhalten	VVINF	erhalten	_	O	O	
+4-6	haben	VAFIN	haben	_	O	O	
+4-7	Renumeration	NN	<unknown>	_	O	O	
+4-8	20	CARD	20	_	O	O	
+4-9	Scudi	NN	<unknown>	_	O	O	
+4-10	Rest	NN	Rest	_	O	O	
+4-11	vom	APPRART	von	_	O	O	
+4-12	Fuciner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-13	See	NN	See	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-14	23	CARD	23	_	O	O	
+4-15	.	$.	.	_	O	O	
+
+#id=5
+#text=49 1/2 Auslagen für das Institut 5 1/2 Francs.
+5-1	49	CARD	@card@	_	O	O	
+5-2	1/2	CARD	1/2	_	O	O	
+5-3	Auslagen	NN	Auslage	_	O	O	
+5-4	für	APPR	für	_	O	O	
+5-5	das	ART	die	_	O	O	
+5-6	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-7	5	CARD	5	_	O	O	
+5-8	1/2	CARD	1/2	_	O	O	
+5-9	Francs	NN	Franc	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Ferner autorisiren Sie mich Dettkens Mohren, welcher die Briefe von der Post holt, 2 Francs Trinkgeld zu geben?
+6-1	Ferner	ADJD	fern	_	O	O	
+6-2	autorisiren	VVFIN	<unknown>	_	O	O	
+6-3	Sie	PPER	Sie	_	O	O	
+6-4	mich	PRF	ich	_	O	O	
+6-5	Dettkens	NN	<unknown>	_	O	O	
+6-6	Mohren	NN	Mohr	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	welcher	PRELS	welche	_	O	O	
+6-9	die	ART	die	_	O	O	
+6-10	Briefe	NN	Brief	_	O	O	
+6-11	von	APPR	von	_	O	O	
+6-12	der	ART	die	_	O	O	
+6-13	Post	NN	Post	_	O	O	
+6-14	holt	VVFIN	holen	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	2	CARD	2	_	O	O	
+6-17	Francs	NN	Franc	_	O	O	
+6-18	Trinkgeld	NN	Trinkgeld	_	O	O	
+6-19	zu	PTKZU	zu	_	O	O	
+6-20	geben	VVINF	geben	_	O	O	
+6-21	?	$.	?	_	O	O	
+
+#id=7
+#text=Es scheint mir sehr am Platze.
+7-1	Es	PPER	es	_	O	O	
+7-2	scheint	VVFIN	scheinen	_	O	O	
+7-3	mir	PPER	ich	_	O	O	
+7-4	sehr	ADV	sehr	_	O	O	
+7-5	am	APPRART	an	_	O	O	
+7-6	Platze	NN	Platz	_	O	O	
+7-7	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich selbst befinde mich ziemlich schlecht, da ich ein rheumatisches Fieber gehabt und zwei Tage habe das Zimmer hüten müssen.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	selbst	ADV	selbst	_	O	O	
+8-3	befinde	VVFIN	befinden	_	O	O	
+8-4	mich	PRF	ich	_	O	O	
+8-5	ziemlich	ADV	ziemlich	_	O	O	
+8-6	schlecht	ADJD	schlecht	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	da	KOUS	da	_	O	O	
+8-9	ich	PPER	ich	_	O	O	
+8-10	ein	ART	eine	_	O	O	
+8-11	rheumatisches	ADJA	<unknown>	_	O	O	
+8-12	Fieber	NN	Fieber	_	O	O	
+8-13	gehabt	VVFIN	gehaben	_	O	O	
+8-14	und	KON	und	_	O	O	
+8-15	zwei	CARD	zwei	_	O	O	
+8-16	Tage	NN	Tag	_	O	O	
+8-17	habe	VAFIN	haben	_	O	O	
+8-18	das	ART	die	_	O	O	
+8-19	Zimmer	NN	Zimmer	_	O	O	
+8-20	hüten	VVINF	hüten	_	O	O	
+8-21	müssen	VMINF	müssen	_	O	O	
+8-22	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich habe einen Tag in den scheußlichsten Phantasien zugebracht.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	habe	VAFIN	haben	_	O	O	
+9-3	einen	ART	eine	_	O	O	
+9-4	Tag	NN	Tag	_	O	O	
+9-5	in	APPR	in	_	O	O	
+9-6	den	ART	die	_	O	O	
+9-7	scheußlichsten	ADJA	scheußlich	_	O	O	
+9-8	Phantasien	NN	Phantasie	_	O	O	
+9-9	zugebracht	VVPP	zubringen	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=Hätten sich nicht meine Hausleute und eine Baronessa Procasca, deren Bekanntschaft ich hier gemacht habe, freundlichst meiner angenommen, hätte die Sache sehr schief ablaufen können.
+10-1	Hätten	VAFIN	haben	_	O	O	
+10-2	sich	PRF	sich	_	O	O	
+10-3	nicht	PTKNEG	nicht	_	O	O	
+10-4	meine	PPOSAT	mein	_	O	O	
+10-5	Hausleute	NN	<unknown>	_	O	O	
+10-6	und	KON	und	_	O	O	
+10-7	eine	ART	eine	_	O	O	
+10-8	Baronessa	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-9	Procasca	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-10	,	$,	,	_	O	O	
+10-11	deren	PRELAT	die	_	O	O	
+10-12	Bekanntschaft	NN	Bekanntschaft	_	O	O	
+10-13	ich	PPER	ich	_	O	O	
+10-14	hier	ADV	hier	_	O	O	
+10-15	gemacht	VVPP	machen	_	O	O	
+10-16	habe	VAFIN	haben	_	O	O	
+10-17	,	$,	,	_	O	O	
+10-18	freundlichst	ADJD	freundlich	_	O	O	
+10-19	meiner	PPOSAT	mein	_	O	O	
+10-20	angenommen	VVPP	annehmen	_	O	O	
+10-21	,	$,	,	_	O	O	
+10-22	hätte	VAFIN	haben	_	O	O	
+10-23	die	ART	die	_	O	O	
+10-24	Sache	NN	Sache	_	O	O	
+10-25	sehr	ADV	sehr	_	O	O	
+10-26	schief	ADJD	schief	_	O	O	
+10-27	ablaufen	VVINF	ablaufen	_	O	O	
+10-28	können	VMINF	können	_	O	O	
+10-29	.	$.	.	_	O	O	
+
+#id=11
+#text=Nichts ist scheußlicher, als bei der Hitze so viel herumlaufen zu müssen und n~cht das nöthige Geld für Droschken zu haben.
+11-1	Nichts	PIS	nichts	_	O	O	
+11-2	ist	VAFIN	sein	_	O	O	
+11-3	scheußlicher	ADJD	scheußlich	_	O	O	
+11-4	,	$,	,	_	O	O	
+11-5	als	KOUS	als	_	O	O	
+11-6	bei	APPR	bei	_	O	O	
+11-7	der	ART	die	_	O	O	
+11-8	Hitze	NN	Hitze	_	O	O	
+11-9	so	ADV	so	_	O	O	
+11-10	viel	PIS	viele	_	O	O	
+11-11	herumlaufen	VVINF	herumlaufen	_	O	O	
+11-12	zu	PTKZU	zu	_	O	O	
+11-13	müssen	VMINF	müssen	_	O	O	
+11-14	und	KON	und	_	O	O	
+11-15	n~cht	VVFIN	<unknown>	_	O	O	
+11-16	das	ART	die	_	O	O	
+11-17	nöthige	ADJA	<unknown>	_	O	O	
+11-18	Geld	NN	Geld	_	O	O	
+11-19	für	APPR	für	_	O	O	
+11-20	Droschken	NN	Droschke	_	O	O	
+11-21	zu	PTKZU	zu	_	O	O	
+11-22	haben	VAINF	haben	_	O	O	
+11-23	.	$.	.	_	O	O	
+
+#id=12
+#text=Jedenfalls werde ich Gott danken, wenn ich Neapel hinter mir habe.
+12-1	Jedenfalls	ADV	jedenfalls	_	O	O	
+12-2	werde	VAFIN	werden	_	O	O	
+12-3	ich	PPER	ich	_	O	O	
+12-4	Gott	NN	Gott	_	O	O	
+12-5	danken	VVINF	danken	_	O	O	
+12-6	,	$,	,	_	O	O	
+12-7	wenn	KOUS	wenn	_	O	O	
+12-8	ich	PPER	ich	_	O	O	
+12-9	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-10	hinter	APPR	hinter	_	O	O	
+12-11	mir	PPER	ich	_	O	O	
+12-12	habe	VAFIN	haben	_	O	O	
+12-13	.	$.	.	_	O	O	
+
+#id=13
+#text=Das Fraternisiren mit den Neapolitanern, welches mir bisher Spaß machte, wird mir gegenwärtig ekelhaft.
+13-1	Das	ART	die	_	O	O	
+13-2	Fraternisiren	NN	<unknown>	_	O	O	
+13-3	mit	APPR	mit	_	O	O	
+13-4	den	ART	die	_	O	O	
+13-5	Neapolitanern	NN	Neapolitaner	_	O	O	
+13-6	,	$,	,	_	O	O	
+13-7	welches	PRELS	welche	_	O	O	
+13-8	mir	PPER	ich	_	O	O	
+13-9	bisher	ADV	bisher	_	O	O	
+13-10	Spaß	NN	Spaß	_	O	O	
+13-11	machte	VVFIN	machen	_	O	O	
+13-12	,	$,	,	_	O	O	
+13-13	wird	VAFIN	werden	_	O	O	
+13-14	mir	PPER	ich	_	O	O	
+13-15	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+13-16	ekelhaft	ADJD	ekelhaft	_	O	O	
+13-17	.	$.	.	_	O	O	
+
+#id=14
+#text=Fiorelli ist wirklich der einzige anständige Mensch unter den hiesigen Antiquaren.
+14-1	Fiorelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	ist	VAFIN	sein	_	O	O	
+14-3	wirklich	ADJD	wirklich	_	O	O	
+14-4	der	ART	die	_	O	O	
+14-5	einzige	ADJA	einzig	_	O	O	
+14-6	anständige	ADJA	anständig	_	O	O	
+14-7	Mensch	NN	Mensch	_	O	O	
+14-8	unter	APPR	unter	_	O	O	
+14-9	den	ART	die	_	O	O	
+14-10	hiesigen	ADJA	hiesig	_	O	O	
+14-11	Antiquaren	NN	<unknown>	_	O	O	
+14-12	.	$.	.	_	O	O	
+
+#id=15
+#text=Minervini, den ich einige Male gesprochen und gehörig sondirt
+15-1	Minervini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-2	,	$,	,	_	O	O	
+15-3	den	PRELS	die	_	O	O	
+15-4	ich	PPER	ich	_	O	O	
+15-5	einige	PIAT	einige	_	O	O	
+15-6	Male	NN	Mal	_	O	O	
+15-7	gesprochen	VVPP	sprechen	_	O	O	
+15-8	und	KON	und	_	O	O	
+15-9	gehörig	ADJD	gehörig	_	O	O	
+15-10	sondirt	NN	<unknown>	_	O	O	
+

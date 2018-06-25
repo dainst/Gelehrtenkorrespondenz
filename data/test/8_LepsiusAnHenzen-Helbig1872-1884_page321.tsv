@@ -1,0 +1,218 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=331 Lepsius an Renzen Berlin, 26. Mai 1877 2 lich sich bei der mündlichen Besprechung auch davon überzeugt hätten.
+1-1	331	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	lich	VVFIN	<unknown>	_	O	O	
+1-13	sich	PRF	sich	_	O	O	
+1-14	bei	APPR	bei	_	O	O	
+1-15	der	ART	die	_	O	O	
+1-16	mündlichen	ADJA	mündlich	_	O	O	
+1-17	Besprechung	NN	Besprechung	_	O	O	
+1-18	auch	ADV	auch	_	O	O	
+1-19	davon	PAV	davon	_	O	O	
+1-20	überzeugt	VVPP	überzeugen	_	O	O	
+1-21	hätten	VAFIN	haben	_	O	O	
+1-22	.	$.	.	_	O	O	
+
+#id=2
+#text=Noch ist uns keine Antwort vom Auswärtigen Amt zugegangen.
+2-1	Noch	ADV	noch	_	O	O	
+2-2	ist	VAFIN	sein	_	O	O	
+2-3	uns	PPER	wir	_	O	O	
+2-4	keine	PIAT	keine	_	O	O	
+2-5	Antwort	NN	Antwort	_	O	O	
+2-6	vom	APPRART	von	_	O	O	
+2-7	Auswärtigen	ADJA	auswärtig	_	O	O	
+2-8	Amt	NN	Amt	_	O	O	
+2-9	zugegangen	VVPP	zugehen	_	O	O	
+2-10	.	$.	.	_	O	O	
+
+#id=3
+#text=Vielleicht nach Rom?
+3-1	Vielleicht	ADV	vielleicht	_	O	O	
+3-2	nach	APPR	nach	_	O	O	
+3-3	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-4	?	$.	?	_	O	O	
+
+#id=4
+#text=Lassen Sie uns gefälligst wissen, wie auf anderm Wege die Eingabe der Central-Direktion an das Auswärtige Amt zur Kenntnis der Architekten kommen konnte, wie doch aus Ihrem Briefe hervorzugehen scheint.
+4-1	Lassen	VVFIN	lassen	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	uns	PRF	wir	_	O	O	
+4-4	gefälligst	ADJD	gefälligst	_	O	O	
+4-5	wissen	VVINF	wissen	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	wie	KOUS	wie	_	O	O	
+4-8	auf	APPR	auf	_	O	O	
+4-9	anderm	PIS	andere	_	O	O	
+4-10	Wege	NN	Weg	_	O	O	
+4-11	die	ART	die	_	O	O	
+4-12	Eingabe	NN	Eingabe	_	O	O	
+4-13	der	ART	die	_	O	O	
+4-14	Central-Direktion	NN	<unknown>	_	O	O	
+4-15	an	APPR	an	_	O	O	
+4-16	das	ART	die	_	O	O	
+4-17	Auswärtige	ADJA	auswärtig	_	O	O	
+4-18	Amt	NN	Amt	_	O	O	
+4-19	zur	APPRART	zu	_	O	O	
+4-20	Kenntnis	NN	Kenntnis	_	O	O	
+4-21	der	ART	die	_	O	O	
+4-22	Architekten	NN	Architekt	_	O	O	
+4-23	kommen	VVINF	kommen	_	O	O	
+4-24	konnte	VMFIN	können	_	O	O	
+4-25	,	$,	,	_	O	O	
+4-26	wie	KOUS	wie	_	O	O	
+4-27	doch	ADV	doch	_	O	O	
+4-28	aus	APPR	aus	_	O	O	
+4-29	Ihrem	PPOSAT	ihr	_	O	O	
+4-30	Briefe	NN	Brief	_	O	O	
+4-31	hervorzugehen	VVIZU	hervorgehen	_	O	O	
+4-32	scheint	VVFIN	scheinen	_	O	O	
+4-33	.	$.	.	_	O	O	
+
+#id=5
+#text=In Bezug auf Lanci's Anerbieten eine historische Notiz über das Institut zur Jubelfeier abzufassen, wurde dieses gern angenommen in der Weise, daß er ihr die Form giebt eines von ihm an das Institut oder dessen Sekretariat zu richtenden Schreibens.
+5-1	In	APPR	in	_	O	O	
+5-2	Bezug	NN	Bezug	_	O	O	
+5-3	auf	APPR	auf	_	O	O	
+5-4	Lanci's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	Anerbieten	NN	Anerbieten	_	O	O	
+5-6	eine	ART	eine	_	O	O	
+5-7	historische	ADJA	historisch	_	O	O	
+5-8	Notiz	NN	Notiz	_	O	O	
+5-9	über	APPR	über	_	O	O	
+5-10	das	ART	die	_	O	O	
+5-11	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-12	zur	APPRART	zu	_	O	O	
+5-13	Jubelfeier	NN	Jubelfeier	_	O	O	
+5-14	abzufassen	VVIZU	abfassen	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	wurde	VAFIN	werden	_	O	O	
+5-17	dieses	PDAT	dies	_	O	O	
+5-18	gern	ADV	gern	_	O	O	
+5-19	angenommen	VVPP	annehmen	_	O	O	
+5-20	in	APPR	in	_	O	O	
+5-21	der	ART	die	_	O	O	
+5-22	Weise	NN	Weise	_	O	O	
+5-23	,	$,	,	_	O	O	
+5-24	daß	KOUS	dass	_	O	O	
+5-25	er	PPER	er	_	O	O	
+5-26	ihr	PPER	ihr	_	O	O	
+5-27	die	ART	die	_	O	O	
+5-28	Form	NN	Form	_	O	O	
+5-29	giebt	VVFIN	<unknown>	_	O	O	
+5-30	eines	PIS	eine	_	O	O	
+5-31	von	APPR	von	_	O	O	
+5-32	ihm	PPER	er	_	O	O	
+5-33	an	APPR	an	_	O	O	
+5-34	das	ART	die	_	O	O	
+5-35	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-36	oder	KON	oder	_	O	O	
+5-37	dessen	PDAT	die	_	O	O	
+5-38	Sekretariat	NN	Sekretariat	_	O	O	
+5-39	zu	APPR	zu	_	O	O	
+5-40	richtenden	ADJA	richtend	_	O	O	
+5-41	Schreibens	NN	Schreiben	_	O	O	
+5-42	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Druckkosten würde das Institut übernehmen.
+6-1	Die	ART	die	_	O	O	
+6-2	Druckkosten	NN	Druckkosten	_	O	O	
+6-3	würde	VAFIN	werden	_	O	O	
+6-4	das	ART	die	_	O	O	
+6-5	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-6	übernehmen	VVINF	übernehmen	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Genehmigung des Kaisers zur Annahme des Testaments~vanoff ist bei uns durch das Auswärtige Amt eingegangen.
+7-1	Die	ART	die	_	O	O	
+7-2	Genehmigung	NN	Genehmigung	_	O	O	
+7-3	des	ART	die	_	O	O	
+7-4	Kaisers	NN	Kaiser	_	O	O	
+7-5	zur	APPRART	zu	_	O	O	
+7-6	Annahme	NN	Annahme	_	O	O	
+7-7	des	ART	die	_	O	O	
+7-8	Testaments~vanoff	NN	<unknown>	_	O	O	
+7-9	ist	VAFIN	sein	_	O	O	
+7-10	bei	APPR	bei	_	O	O	
+7-11	uns	PPER	wir	_	O	O	
+7-12	durch	APPR	durch	_	O	O	
+7-13	das	ART	die	_	O	O	
+7-14	Auswärtige	ADJA	auswärtig	_	O	O	
+7-15	Amt	NN	Amt	_	O	O	
+7-16	eingegangen	VVPP	eingehen	_	O	O	
+7-17	.	$.	.	_	O	O	
+
+#id=8
+#text=Wir stehen nach einer hoffentlich letzten kalten Woche nun wirklich mitten im blüthenreichenrrühling.
+8-1	Wir	PPER	wir	_	O	O	
+8-2	stehen	VVFIN	stehen	_	O	O	
+8-3	nach	APPR	nach	_	O	O	
+8-4	einer	ART	eine	_	O	O	
+8-5	hoffentlich	ADV	hoffentlich	_	O	O	
+8-6	letzten	ADJA	letzt	_	O	O	
+8-7	kalten	ADJA	kalt	_	O	O	
+8-8	Woche	NN	Woche	_	O	O	
+8-9	nun	ADV	nun	_	O	O	
+8-10	wirklich	ADJD	wirklich	_	O	O	
+8-11	mitten	ADV	mitten	_	O	O	
+8-12	im	APPRART	in	_	O	O	
+8-13	blüthenreichenrrühling	NN	<unknown>	_	O	O	
+8-14	.	$.	.	_	O	O	
+
+#id=9
+#text=Ihr ergebenster R Lepsius Die 11 Kisten Parthey'scher Bücher stehen jetzt zur Absendung bereit.
+9-1	Ihr	PPOSAT	ihr	_	O	O	
+9-2	ergebenster	ADJA	<unknown>	_	O	O	
+9-3	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+9-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	Die	ART	die	_	O	O	
+9-6	11	CARD	11	_	O	O	
+9-7	Kisten	NN	Kiste	_	O	O	
+9-8	Parthey'scher	ADJA	<unknown>	_	O	O	
+9-9	Bücher	NN	Buch	_	O	O	
+9-10	stehen	VVFIN	stehen	_	O	O	
+9-11	jetzt	ADV	jetzt	_	O	O	
+9-12	zur	APPRART	zu	_	O	O	
+9-13	Absendung	NN	Absendung	_	O	O	
+9-14	bereit	PTKVZ	bereit	_	O	O	
+9-15	.	$.	.	_	O	O	
+
+#id=10
+#text=Wir haben aber noch keine Antwort vom Italienischen Botschafter über das erbetene Lasciapassare.
+10-1	Wir	PPER	wir	_	O	O	
+10-2	haben	VAFIN	haben	_	O	O	
+10-3	aber	ADV	aber	_	O	O	
+10-4	noch	ADV	noch	_	O	O	
+10-5	keine	PIAT	keine	_	O	O	
+10-6	Antwort	NN	Antwort	_	O	O	
+10-7	vom	APPRART	von	_	O	O	
+10-8	Italienischen	ADJA	italienisch	_	O	O	
+10-9	Botschafter	NN	Botschafter	_	O	O	
+10-10	über	APPR	über	_	O	O	
+10-11	das	ART	die	_	O	O	
+10-12	erbetene	ADJA	erbeten	_	O	O	
+10-13	Lasciapassare	NN	<unknown>	_	O	O	
+10-14	.	$.	.	_	O	O	
+
+#id=11
+#text=Die Verpackungskosten werden Ihnen durch Asher
+11-1	Die	ART	die	_	O	O	
+11-2	Verpackungskosten	NN	Verpackungskosten	_	O	O	
+11-3	werden	VAFIN	werden	_	O	O	
+11-4	Ihnen	PPER	Sie	_	O	O	
+11-5	durch	APPR	durch	_	O	O	
+11-6	Asher	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

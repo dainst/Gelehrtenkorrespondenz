@@ -1,0 +1,216 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Dr. Braun Mein theurer Freund.
+1-1	Dr.	NN	Dr.	_	O	O	
+1-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	Mein	PPOSAT	mein	_	O	O	
+1-4	theurer	ADJA	<unknown>	_	O	O	
+1-5	Freund	NN	Freund	_	O	O	
+1-6	.	$.	.	_	O	O	
+
+#id=2
+#text=Gerhard an Braun Berlin, 20. Juli 1846 g. 1/VIII 46 r. 1/VIII 46 Berlin 20 Juli 46 Das Ableben der Frau von Usedom und die bald darauf erschollene Nachricht vom Tod des Prinzen Heinrich sind zwei Ereignisse die einem fühlbar machen wie sehr man mit fernen Freunden fortlebt.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	g.	VVFIN	<unknown>	_	O	O	
+2-11	1/VIII	NE	<unknown>	_	O	O	
+2-12	46	CARD	46	_	O	O	
+2-13	r.	ADJA	<unknown>	_	O	O	
+2-14	1/VIII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-15	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-17	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-18	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-19	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-20	Das	ART	die	_	O	O	
+2-21	Ableben	NN	Ableben	_	O	O	
+2-22	der	ART	die	_	O	O	
+2-23	Frau	NN	Frau	_	O	O	
+2-24	von	APPR	von	_	O	O	
+2-25	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-26	und	KON	und	_	O	O	
+2-27	die	ART	die	_	O	O	
+2-28	bald	ADV	bald	_	O	O	
+2-29	darauf	PAV	darauf	_	O	O	
+2-30	erschollene	ADJA	<unknown>	_	O	O	
+2-31	Nachricht	NN	Nachricht	_	O	O	
+2-32	vom	APPRART	von	_	O	O	
+2-33	Tod	NN	Tod	_	O	O	
+2-34	des	ART	die	_	O	O	
+2-35	Prinzen	NN	Prinz	_	O	O	
+2-36	Heinrich	NE	Heinrich	_	O	O	
+2-37	sind	VAFIN	sein	_	O	O	
+2-38	zwei	CARD	zwei	_	O	O	
+2-39	Ereignisse	NN	Ereignis	_	O	O	
+2-40	die	ART	die	_	O	O	
+2-41	einem	PIS	eine	_	O	O	
+2-42	fühlbar	ADJD	fühlbar	_	O	O	
+2-43	machen	VVINF	machen	_	O	O	
+2-44	wie	KOKOM	wie	_	O	O	
+2-45	sehr	ADV	sehr	_	O	O	
+2-46	man	PIS	man	_	O	O	
+2-47	mit	APPR	mit	_	O	O	
+2-48	fernen	ADJA	fern	_	O	O	
+2-49	Freunden	NN	Freund	_	O	O	
+2-50	fortlebt	VVFIN	fortleben	_	O	O	
+2-51	.	$.	.	_	O	O	
+
+#id=3
+#text=Sagen Sie an Usedom vorläufig ein Wort unseres innigsten Antheils; an Vollard schreibe ich heute selbst ein paar Zeilen.
+3-1	Sagen	VVFIN	sagen	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	an	APPR	an	_	O	O	
+3-4	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	vorläufig	ADJD	vorläufig	_	O	O	
+3-6	ein	ART	eine	_	O	O	
+3-7	Wort	NN	Wort	_	O	O	
+3-8	unseres	PPOSAT	unser	_	O	O	
+3-9	innigsten	ADJA	innig	_	O	O	
+3-10	Antheils	NN	<unknown>	_	O	O	
+3-11	;	$.	;	_	O	O	
+3-12	an	APPR	an	_	O	O	
+3-13	Vollard	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-14	schreibe	VVFIN	schreiben	_	O	O	
+3-15	ich	PPER	ich	_	O	O	
+3-16	heute	ADV	heute	_	O	O	
+3-17	selbst	ADV	selbst	_	O	O	
+3-18	ein	ART	eine	_	O	O	
+3-19	paar	PIAT	paar	_	O	O	
+3-20	Zeilen	NN	Zeile	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Wie ist für ihn gesorgt und wie stellt sich wohl seine unvermeidliche Übersiedlung ??
+4-1	Wie	KOUS	wie	_	O	O	
+4-2	ist	VAFIN	sein	_	O	O	
+4-3	für	APPR	für	_	O	O	
+4-4	ihn	PPER	er	_	O	O	
+4-5	gesorgt	VVPP	sorgen	_	O	O	
+4-6	und	KON	und	_	O	O	
+4-7	wie	KOUS	wie	_	O	O	
+4-8	stellt	VVFIN	stellen	_	O	O	
+4-9	sich	PRF	sich	_	O	O	
+4-10	wohl	ADV	wohl	_	O	O	
+4-11	seine	PPOSAT	sein	_	O	O	
+4-12	unvermeidliche	ADJA	unvermeidlich	_	O	O	
+4-13	Übersiedlung	NN	Übersiedlung	_	O	O	
+4-14	?	$.	?	_	O	O	
+4-15	?	$.	?	_	O	O	
+
+#id=5
+#text=In der Akademie habe ich gestern einen schweren Kampf gehabt um durchzusetzen daß Savigny um fernere Befürwortung epigraphischer Zwecke bei dem König, Monumentales in Italien betreffend, angegangen werden sollte.
+5-1	In	APPR	in	_	O	O	
+5-2	der	ART	die	_	O	O	
+5-3	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-4	habe	VAFIN	haben	_	O	O	
+5-5	ich	PPER	ich	_	O	O	
+5-6	gestern	ADV	gestern	_	O	O	
+5-7	einen	ART	eine	_	O	O	
+5-8	schweren	ADJA	schwer	_	O	O	
+5-9	Kampf	NN	Kampf	_	O	O	
+5-10	gehabt	VAPP	haben	_	O	O	
+5-11	um	KOUI	um	_	O	O	
+5-12	durchzusetzen	VVIZU	durchsetzen	_	O	O	
+5-13	daß	KOUS	dass	_	O	O	
+5-14	Savigny	NE	<unknown>	_	O	O	
+5-15	um	APPR	um	_	O	O	
+5-16	fernere	ADJA	fern	_	O	O	
+5-17	Befürwortung	NN	Befürwortung	_	O	O	
+5-18	epigraphischer	ADJA	<unknown>	_	O	O	
+5-19	Zwecke	NN	Zweck	_	O	O	
+5-20	bei	APPR	bei	_	O	O	
+5-21	dem	ART	die	_	O	O	
+5-22	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-23	,	$,	,	_	O	O	
+5-24	Monumentales	NN	Monumentale	_	O	O	
+5-25	in	APPR	in	_	O	O	
+5-26	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-27	betreffend	ADJD	betreffend	_	O	O	
+5-28	,	$,	,	_	O	O	
+5-29	angegangen	VVPP	angehen	_	O	O	
+5-30	werden	VAINF	werden	_	O	O	
+5-31	sollte	VMFIN	sollen	_	O	O	
+5-32	.	$.	.	_	O	O	
+
+#id=6
+#text=Nachdem ich vorwärts gekommen war stieß sich die Sache noch daran, daß Mommsen die Samnitischen Abschriften sogleich nachdem er sie genommen habe zugesichert habe ( ? )
+6-1	Nachdem	KOUS	nachdem	_	O	O	
+6-2	ich	PPER	ich	_	O	O	
+6-3	vorwärts	ADV	vorwärts	_	O	O	
+6-4	gekommen	VVPP	kommen	_	O	O	
+6-5	war	VAFIN	sein	_	O	O	
+6-6	stieß	VVFIN	stoßen	_	O	O	
+6-7	sich	PRF	sich	_	O	O	
+6-8	die	ART	die	_	O	O	
+6-9	Sache	NN	Sache	_	O	O	
+6-10	noch	ADV	noch	_	O	O	
+6-11	daran	PAV	daran	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	daß	KOUS	dass	_	O	O	
+6-14	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-15	die	ART	die	_	O	O	
+6-16	Samnitischen	NN	<unknown>	_	O	O	
+6-17	Abschriften	NN	Abschrift	_	O	O	
+6-18	sogleich	ADV	sogleich	_	O	O	
+6-19	nachdem	KOUS	nachdem	_	O	O	
+6-20	er	PPER	er	_	O	O	
+6-21	sie	PPER	sie	_	O	O	
+6-22	genommen	VVPP	nehmen	_	O	O	
+6-23	habe	VAFIN	haben	_	O	O	
+6-24	zugesichert	VVPP	zusichern	_	O	O	
+6-25	habe	VAFIN	haben	_	O	O	
+6-26	(	$(	(	_	O	O	
+6-27	?	$.	?	_	O	O	
+6-28	)	$(	)	_	O	O	
+
+#id=7
+#text=und bis zu deren Ankunft jeder Beschluß verschoben werden könne.
+7-1	und	KON	und	_	O	O	
+7-2	bis	KOUS	bis	_	O	O	
+7-3	zu	APPR	zu	_	O	O	
+7-4	deren	PDAT	die	_	O	O	
+7-5	Ankunft	NN	Ankunft	_	O	O	
+7-6	jeder	PIAT	jede	_	O	O	
+7-7	Beschluß	NN	Beschluss	_	O	O	
+7-8	verschoben	VVPP	verschieben	_	O	O	
+7-9	werden	VAINF	werden	_	O	O	
+7-10	könne	VMFIN	können	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich habe versprochen und bitte Sie zu veranlassen daß er sie baldmöglichst einschickt, so wie es im Interesse der Sache bleibt daß leitende Artikel, einmal
+8-1	Ich	PPER	ich	_	O	O	
+8-2	habe	VAFIN	haben	_	O	O	
+8-3	versprochen	VVPP	versprechen	_	O	O	
+8-4	und	KON	und	_	O	O	
+8-5	bitte	ADV	bitte	_	O	O	
+8-6	Sie	PPER	Sie	_	O	O	
+8-7	zu	PTKZU	zu	_	O	O	
+8-8	veranlassen	VVINF	veranlassen	_	O	O	
+8-9	daß	KOUS	dass	_	O	O	
+8-10	er	PPER	er	_	O	O	
+8-11	sie	PPER	sie	_	O	O	
+8-12	baldmöglichst	ADV	baldmöglichst	_	O	O	
+8-13	einschickt	VVFIN	einschicken	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	so	ADV	so	_	O	O	
+8-16	wie	KOUS	wie	_	O	O	
+8-17	es	PPER	es	_	O	O	
+8-18	im	APPRART	in	_	O	O	
+8-19	Interesse	NN	Interesse	_	O	O	
+8-20	der	ART	die	_	O	O	
+8-21	Sache	NN	Sache	_	O	O	
+8-22	bleibt	VVFIN	bleiben	_	O	O	
+8-23	daß	KOUS	dass	_	O	O	
+8-24	leitende	ADJA	leitend	_	O	O	
+8-25	Artikel	NN	Artikel	_	O	O	
+8-26	,	$,	,	_	O	O	
+8-27	einmal	ADV	einmal	_	O	O	
+

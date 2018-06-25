@@ -1,0 +1,277 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=1 7/1/51 Henzen an Gerhard 2 Sie erhalten für mich von BZrgk (20/IX/49) f. 17 1/2 = Sc.
+1-1	1	CARD	1	_	O	O	
+1-2	7/1/51	CARD	@card@	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	2	CARD	2	_	O	O	
+1-7	Sie	PPER	Sie	_	O	O	
+1-8	erhalten	VVFIN	erhalten	_	O	O	
+1-9	für	APPR	für	_	O	O	
+1-10	mich	PPER	ich	_	O	O	
+1-11	von	APPR	von	_	O	O	
+1-12	BZrgk	NN	<unknown>	_	O	O	
+1-13	(	$(	(	_	O	O	
+1-14	20/IX/49	NE	<unknown>	_	O	O	
+1-15	)	$(	)	_	O	O	
+1-16	f.	APPR	f.	_	O	O	
+1-17	17	CARD	17	_	O	O	
+1-18	1/2	CARD	1/2	_	O	O	
+1-19	=	$(	=	_	O	O	
+1-20	Sc.	NN	<unknown>	_	O	O	
+
+#id=2
+#text=11.66 Preis des M Porto desselben bis Bologna Von Friedlaender für Zeitungen f. 8.24 Dagegen erhielt ich im April d. J. von Promis für Sie, für 1 Vasi apuli Sie bezahlten an Friedlaender für mich f. 13 = Sc.
+2-1	11.66	CARD	@card@	_	O	O	
+2-2	Preis	NN	Preis	_	O	O	
+2-3	des	ART	die	_	O	O	
+2-4	M	NE	M	_	O	O	
+2-5	Porto	NN	Porto	_	O	O	
+2-6	desselben	PDAT	derselb	_	O	O	
+2-7	bis	APPR	bis	_	O	O	
+2-8	Bologna	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-9	Von	APPR	von	_	O	O	
+2-10	Friedlaender	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-11	für	APPR	für	_	O	O	
+2-12	Zeitungen	NN	Zeitung	_	O	O	
+2-13	f.	APPR	f.	_	O	O	
+2-14	8.24	CARD	@card@	_	O	O	
+2-15	Dagegen	PAV	dagegen	_	O	O	
+2-16	erhielt	VVFIN	erhalten	_	O	O	
+2-17	ich	PPER	ich	_	O	O	
+2-18	im	APPRART	in	_	O	O	
+2-19	April	NN	April	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-20	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-21	J.	NE	J.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-22	von	APPR	von	_	O	O	
+2-23	Promis	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-24	für	APPR	für	_	O	O	
+2-25	Sie	PPER	Sie	_	O	O	
+2-26	,	$,	,	_	O	O	
+2-27	für	APPR	für	_	O	O	
+2-28	1	CARD	1	_	O	O	
+2-29	Vasi	NE	<unknown>	_	O	O	
+2-30	apuli	NN	<unknown>	_	O	O	
+2-31	Sie	PPER	Sie	_	O	O	
+2-32	bezahlten	VVFIN	bezahlen	_	O	O	
+2-33	an	APPR	an	_	O	O	
+2-34	Friedlaender	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-35	für	APPR	für	_	O	O	
+2-36	mich	PPER	ich	_	O	O	
+2-37	f.	APPR	f.	_	O	O	
+2-38	13	CARD	13	_	O	O	
+2-39	=	$(	=	_	O	O	
+2-40	Sc.	NN	<unknown>	_	O	O	
+
+#id=3
+#text=20.50 8.66 Bleiben Ihnen gut, u. überweise ich der Instituscasse = tt " tI 3.60 35,5 5.86 Sc.
+3-1	20.50	CARD	@card@	_	O	O	
+3-2	8.66	CARD	@card@	_	O	O	
+3-3	Bleiben	NN	Bleibe|Bleiben	_	O	O	
+3-4	Ihnen	PPER	Sie	_	O	O	
+3-5	gut	ADJD	gut	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	u.	KON	und	_	O	O	
+3-8	überweise	VVFIN	überweisen	_	O	O	
+3-9	ich	PPER	ich	_	O	O	
+3-10	der	ART	die	_	O	O	
+3-11	Instituscasse	NN	<unknown>	_	O	O	
+3-12	=	$(	=	_	O	O	
+3-13	tt	NE	<unknown>	_	O	O	
+3-14	"	$(	"	_	O	O	
+3-15	tI	VVFIN	<unknown>	_	O	O	
+3-16	3.60	CARD	@card@	_	O	O	
+3-17	35,5	CARD	@card@	_	O	O	
+3-18	5.86	CARD	@card@	_	O	O	
+3-19	Sc.	NN	<unknown>	_	O	O	
+
+#id=4
+#text=21.47,5 tt 29.16 Sc.
+4-1	21.47,5	CARD	@card@	_	O	O	
+4-2	tt	ADJA	<unknown>	_	O	O	
+4-3	29.16	CARD	@card@	_	O	O	
+4-4	Sc.	NN	<unknown>	_	O	O	
+
+#id=5
+#text=7.68,5 Mit Orioli hatte ich seiner Zeit genug über seine Viterbeser roba zu verhandeln, u. möchte nicht gern wieder anfangen, obwohl ich freilich nicht über den Vf. klagen konnte, ist er doch meistens auf seinem StUck geblieben.
+5-1	7.68,5	CARD	@card@	_	O	O	
+5-2	Mit	APPR	mit	_	O	O	
+5-3	Orioli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	hatte	VAFIN	haben	_	O	O	
+5-5	ich	PPER	ich	_	O	O	
+5-6	seiner	PPOSAT	sein	_	O	O	
+5-7	Zeit	NN	Zeit	_	O	O	
+5-8	genug	ADV	genug	_	O	O	
+5-9	über	APPR	über	_	O	O	
+5-10	seine	PPOSAT	sein	_	O	O	
+5-11	Viterbeser	NN	<unknown>	_	O	O	
+5-12	roba	NE	<unknown>	_	O	O	
+5-13	zu	PTKZU	zu	_	O	O	
+5-14	verhandeln	VVINF	verhandeln	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	u.	KON	und	_	O	O	
+5-17	möchte	VMFIN	mögen	_	O	O	
+5-18	nicht	PTKNEG	nicht	_	O	O	
+5-19	gern	ADV	gern	_	O	O	
+5-20	wieder	ADV	wieder	_	O	O	
+5-21	anfangen	VVINF	anfangen	_	O	O	
+5-22	,	$,	,	_	O	O	
+5-23	obwohl	KOUS	obwohl	_	O	O	
+5-24	ich	PPER	ich	_	O	O	
+5-25	freilich	ADV	freilich	_	O	O	
+5-26	nicht	PTKNEG	nicht	_	O	O	
+5-27	über	APPR	über	_	O	O	
+5-28	den	ART	die	_	O	O	
+5-29	Vf.	NE	<unknown>	_	O	O	
+5-30	klagen	VVINF	klagen	_	O	O	
+5-31	konnte	VMFIN	können	_	O	O	
+5-32	,	$,	,	_	O	O	
+5-33	ist	VAFIN	sein	_	O	O	
+5-34	er	PPER	er	_	O	O	
+5-35	doch	ADV	doch	_	O	O	
+5-36	meistens	ADV	meistens	_	O	O	
+5-37	auf	APPR	auf	_	O	O	
+5-38	seinem	PPOSAT	sein	_	O	O	
+5-39	StUck	NN	Stuck	_	O	O	
+5-40	geblieben	VVPP	bleiben	_	O	O	
+5-41	.	$.	.	_	O	O	
+
+#id=6
+#text=Nur einige falsche u. längst edirte konnte ich ihm ganz streichen u. den ursprünglich sehr langen Aufsatz so reduciren.
+6-1	Nur	ADV	nur	_	O	O	
+6-2	einige	PIAT	einige	_	O	O	
+6-3	falsche	ADJA	falsch	_	O	O	
+6-4	u.	KON	und	_	O	O	
+6-5	längst	ADV	längst	_	O	O	
+6-6	edirte	NN	<unknown>	_	O	O	
+6-7	konnte	VMFIN	können	_	O	O	
+6-8	ich	PPER	ich	_	O	O	
+6-9	ihm	PPER	er	_	O	O	
+6-10	ganz	ADV	ganz	_	O	O	
+6-11	streichen	VVINF	streichen	_	O	O	
+6-12	u.	KON	und	_	O	O	
+6-13	den	ART	die	_	O	O	
+6-14	ursprünglich	ADJD	ursprünglich	_	O	O	
+6-15	sehr	ADV	sehr	_	O	O	
+6-16	langen	ADJA	lang	_	O	O	
+6-17	Aufsatz	NN	Aufsatz	_	O	O	
+6-18	so	ADV	so	_	O	O	
+6-19	reduciren	NN	<unknown>	_	O	O	
+6-20	.	$.	.	_	O	O	
+
+#id=7
+#text=Was den Beinamen angeht, so hat übrigens Birch ebenso wenig Recht, wie Orioli, wenn ich auch nicht weiß, was dort gestanden; stist auch nichts daran gelegen, da all das Zeug wenig werth u. nur des Verfassers wegen aufgenommen, der gerade über diese Inschrift nach meiner ansicht completen Unsinn bringt.
+7-1	Was	PWS	was	_	O	O	
+7-2	den	ART	die	_	O	O	
+7-3	Beinamen	NN	Beiname	_	O	O	
+7-4	angeht	VVFIN	angehen	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	so	ADV	so	_	O	O	
+7-7	hat	VAFIN	haben	_	O	O	
+7-8	übrigens	ADV	übrigens	_	O	O	
+7-9	Birch	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-10	ebenso	ADV	ebenso	_	O	O	
+7-11	wenig	PIAT	wenige	_	O	O	
+7-12	Recht	NN	Recht	_	O	O	
+7-13	,	$,	,	_	O	O	
+7-14	wie	KOKOM	wie	_	O	O	
+7-15	Orioli	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-16	,	$,	,	_	O	O	
+7-17	wenn	KOUS	wenn	_	O	O	
+7-18	ich	PPER	ich	_	O	O	
+7-19	auch	ADV	auch	_	O	O	
+7-20	nicht	PTKNEG	nicht	_	O	O	
+7-21	weiß	VVFIN	wissen	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	was	PRELS	was	_	O	O	
+7-24	dort	ADV	dort	_	O	O	
+7-25	gestanden	VVPP	gestehen|stehen	_	O	O	
+7-26	;	$.	;	_	O	O	
+7-27	stist	NN	<unknown>	_	O	O	
+7-28	auch	ADV	auch	_	O	O	
+7-29	nichts	PIS	nichts	_	O	O	
+7-30	daran	PAV	daran	_	O	O	
+7-31	gelegen	VVPP	liegen	_	O	O	
+7-32	,	$,	,	_	O	O	
+7-33	da	KOUS	da	_	O	O	
+7-34	all	PIAT	alle	_	O	O	
+7-35	das	ART	die	_	O	O	
+7-36	Zeug	NN	Zeug	_	O	O	
+7-37	wenig	ADV	wenig	_	O	O	
+7-38	werth	NE	<unknown>	_	O	O	
+7-39	u.	APPR	um	_	O	O	
+7-40	nur	ADV	nur	_	O	O	
+7-41	des	ART	die	_	O	O	
+7-42	Verfassers	NN	Verfasser	_	O	O	
+7-43	wegen	APPO	wegen	_	O	O	
+7-44	aufgenommen	VVPP	aufnehmen	_	O	O	
+7-45	,	$,	,	_	O	O	
+7-46	der	PRELS	die	_	O	O	
+7-47	gerade	ADV	gerade	_	O	O	
+7-48	über	APPR	über	_	O	O	
+7-49	diese	PDAT	dies	_	O	O	
+7-50	Inschrift	NN	Inschrift	_	O	O	
+7-51	nach	APPR	nach	_	O	O	
+7-52	meiner	PPOSAT	mein	_	O	O	
+7-53	ansicht	NN	Ansicht	_	O	O	
+7-54	completen	ADJA	<unknown>	_	O	O	
+7-55	Unsinn	NN	Unsinn	_	O	O	
+7-56	bringt	VVFIN	bringen	_	O	O	
+7-57	.	$.	.	_	O	O	
+
+#id=8
+#text=Die Sachen für Minervini sind wenigstens an eine hier aufgegebne Adresse abgeliefert.
+8-1	Die	ART	die	_	O	O	
+8-2	Sachen	NN	Sache	_	O	O	
+8-3	für	APPR	für	_	O	O	
+8-4	Minervini	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-5	sind	VAFIN	sein	_	O	O	
+8-6	wenigstens	ADV	wenigstens	_	O	O	
+8-7	an	APPR	an	_	O	O	
+8-8	eine	ART	eine	_	O	O	
+8-9	hier	ADV	hier	_	O	O	
+8-10	aufgegebne	ADJA	<unknown>	_	O	O	
+8-11	Adresse	NN	Adresse	_	O	O	
+8-12	abgeliefert	VVPP	abliefern	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=- RewR~ wird sich schwer zu Sendungen der gewünschten Art verstehen.
+9-1	-	$(	-	_	O	O	
+9-2	RewR~	VVIMP	<unknown>	_	O	O	
+9-3	wird	VAFIN	werden	_	O	O	
+9-4	sich	PRF	sich	_	O	O	
+9-5	schwer	ADJD	schwer	_	O	O	
+9-6	zu	APPR	zu	_	O	O	
+9-7	Sendungen	NN	Sendung	_	O	O	
+9-8	der	ART	die	_	O	O	
+9-9	gewünschten	ADJA	gewünscht	_	O	O	
+9-10	Art	NN	Art	_	O	O	
+9-11	verstehen	VVINF	verstehen	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Vescaroli gräbt für N Municipium im Tabularium mit Glück; hat eine Treppe entdeckt, welche von oben her ganz
+10-1	Vescaroli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	gräbt	VVFIN	graben	_	O	O	
+10-3	für	APPR	für	_	O	O	
+10-4	N	NE	N	_	O	O	
+10-5	Municipium	NN	<unknown>	_	O	O	
+10-6	im	APPRART	in	_	O	O	
+10-7	Tabularium	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-8	mit	APPR	mit	_	O	O	
+10-9	Glück	NN	Glück	_	O	O	
+10-10	;	$.	;	_	O	O	
+10-11	hat	VAFIN	haben	_	O	O	
+10-12	eine	ART	eine	_	O	O	
+10-13	Treppe	NN	Treppe	_	O	O	
+10-14	entdeckt	VVPP	entdecken	_	O	O	
+10-15	,	$,	,	_	O	O	
+10-16	welche	PRELS	welche	_	O	O	
+10-17	von	APPR	von	_	O	O	
+10-18	oben	ADV	oben	_	O	O	
+10-19	her	APZR	her	_	O	O	
+10-20	ganz	ADV	ganz	_	O	O	
+

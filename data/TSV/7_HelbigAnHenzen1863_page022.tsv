@@ -1,0 +1,33 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=267 2 Herzlichen Grüßen Helbig an Henzen Neapel, 27. Juni 1864 Ihr Wolfgang Helbig Beiliegendes Billet bitte ich möglichst rasch an den Cavaliere gelangen zu lassen.
+1-1	267	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Herzlichen	ADJA	herzlich	_	O	O	
+1-4	Grüßen	NN	Gruß|Grüßen	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Ihr	PPOSAT	ihr	_	O	O	
+1-15	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-16	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-17	Beiliegendes	ADJA	<unknown>	_	O	O	
+1-18	Billet	NN	<unknown>	_	O	O	
+1-19	bitte	VVFIN	bitten	_	O	O	
+1-20	ich	PPER	ich	_	O	O	
+1-21	möglichst	ADV	möglichst	_	O	O	
+1-22	rasch	ADJD	rasch	_	O	O	
+1-23	an	APPR	an	_	O	O	
+1-24	den	ART	die	_	O	O	
+1-25	Cavaliere	NN	<unknown>	_	O	O	
+1-26	gelangen	VVINF	gelangen	_	O	O	
+1-27	zu	PTKZU	zu	_	O	O	
+1-28	lassen	VVINF	lassen	_	O	O	
+1-29	.	$.	.	_	O	O	
+

@@ -1,0 +1,80 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=4Helbig an Henzen Rom, 8. August 1866 der Blitz reisen, bitte ich Sie um sofortige Antwort.
+1-1	4Helbig	ADJD	<unknown>	_	O	O	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	der	ART	die	_	O	O	
+1-11	Blitz	NN	Blitz	_	O	O	
+1-12	reisen	VVFIN	reisen	_	O	O	
+1-13	,	$,	,	_	O	O	
+1-14	bitte	VVFIN	bitten	_	O	O	
+1-15	ich	PPER	ich	_	O	O	
+1-16	Sie	PPER	Sie	_	O	O	
+1-17	um	APPR	um	_	O	O	
+1-18	sofortige	ADJA	sofortig	_	O	O	
+1-19	Antwort	NN	Antwort	_	O	O	
+1-20	.	$.	.	_	O	O	
+
+#id=2
+#text=Also, ausgenommen Gerhard, bitte ich Sie um strengste Discretion.
+2-1	Also	ADV	also	_	O	O	
+2-2	,	$,	,	_	O	O	
+2-3	ausgenommen	ADV	ausgenommen	_	O	O	
+2-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-5	,	$,	,	_	O	O	
+2-6	bitte	VVFIN	bitten	_	O	O	
+2-7	ich	PPER	ich	_	O	O	
+2-8	Sie	PPER	Sie	_	O	O	
+2-9	um	APPR	um	_	O	O	
+2-10	strengste	ADJA	streng	_	O	O	
+2-11	Discretion	NN	<unknown>	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Das Impromptü thut mir leid.
+3-1	Das	ART	die	_	O	O	
+3-2	Impromptü	NE	<unknown>	_	O	O	
+3-3	thut	VVFIN	<unknown>	_	O	O	
+3-4	mir	PPER	ich	_	O	O	
+3-5	leid	ADJD	leid	_	O	O	
+3-6	.	$.	.	_	O	O	
+
+#id=4
+#text=Do.ch können Sie überzeugt sein, daß der Geschäftsgang durchaus nicht darunter leidet.
+4-1	Do.ch	NE	<unknown>	_	O	O	
+4-2	können	VMFIN	können	_	O	O	
+4-3	Sie	PPER	Sie	_	O	O	
+4-4	überzeugt	ADJD	überzeugt	_	O	O	
+4-5	sein	VAINF	sein	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	daß	KOUS	dass	_	O	O	
+4-8	der	ART	die	_	O	O	
+4-9	Geschäftsgang	NN	Geschäftsgang	_	O	O	
+4-10	durchaus	ADV	durchaus	_	O	O	
+4-11	nicht	PTKNEG	nicht	_	O	O	
+4-12	darunter	PAV	darunter	_	O	O	
+4-13	leidet	VVFIN	leiden	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Mit herzlichen Grüßen an die Frau Professorin Ihr ergebener W. Helbig •
+5-1	Mit	APPR	mit	_	O	O	
+5-2	herzlichen	ADJA	herzlich	_	O	O	
+5-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+5-4	an	APPR	an	_	O	O	
+5-5	die	ART	die	_	O	O	
+5-6	Frau	NN	Frau	_	O	O	
+5-7	Professorin	NN	Professorin	_	O	O	
+5-8	Ihr	PPOSAT	ihr	_	O	O	
+5-9	ergebener	ADJA	ergeben	_	O	O	
+5-10	W.	NE	W.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-11	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-12	•	ADJA	<unknown>	_	O	O	
+

@@ -1,0 +1,244 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=199 L Verehrter Freund Lepsius an Henzen Berlin, 10. Mai 1872 g. 14/5 72 B. d. 10. Mai 1872.
+1-1	199	CARD	@card@	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	14/5	CARD	14/5	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	B.	NN	B.	_	O	O	
+1-18	d.	ART	d.	_	O	O	
+1-19	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Ihre Vorschläge vom 21. April sind angenommen.
+2-1	Ihre	PPOSAT	ihr	_	O	O	
+2-2	Vorschläge	NN	Vorschlag	_	O	O	
+2-3	vom	APPRART	von	_	O	O	
+2-4	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-6	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-7	sind	VAFIN	sein	_	O	O	
+2-8	angenommen	VVPP	annehmen	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Können Sie nicht den Vornamen des Herrn Prakhof und seine condizione, so wie die des Sig.
+3-1	Können	VMFIN	können	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	nicht	PTKNEG	nicht	_	O	O	
+3-4	den	ART	die	_	O	O	
+3-5	Vornamen	NN	Vorname	_	O	O	
+3-6	des	ART	die	_	O	O	
+3-7	Herrn	NN	Herr	_	O	O	
+3-8	Prakhof	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-9	und	KON	und	_	O	O	
+3-10	seine	PPOSAT	sein	_	O	O	
+3-11	condizione	NE	<unknown>	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	so	ADV	so	_	O	O	
+3-14	wie	KOKOM	wie	_	O	O	
+3-15	die	ART	die	_	O	O	
+3-16	des	ART	die	_	O	O	
+3-17	Sig	NN	<unknown>	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Ant.
+4-1	Ant.	NE	Ant.	_	O	O	
+
+#id=5
+#text=Monti beschaffen ?
+5-1	Monti	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	beschaffen	VVFIN	beschaffen	_	O	O	
+5-3	?	$.	?	_	O	O	
+
+#id=6
+#text=Curtius hat auch zugefügt den Architekt Carl Humann in Bergamo; Mommsen die Dalmatiner Giacomo Brogli, Professor des Gymnasiums in Zara, Gius.
+6-1	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	hat	VAFIN	haben	_	O	O	
+6-3	auch	ADV	auch	_	O	O	
+6-4	zugefügt	ADJD	zugefügt	_	O	O	
+6-5	den	ART	die	_	O	O	
+6-6	Architekt	NN	Architekt	_	O	O	
+6-7	Carl	NE	Carl	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-8	Humann	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-9	in	APPR	in	_	O	O	
+6-10	Bergamo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-11	;	$.	;	_	O	O	
+6-12	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-13	die	ART	die	_	O	O	
+6-14	Dalmatiner	NN	Dalmatiner	_	O	O	
+6-15	Giacomo	NE	Giacomo	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-16	Brogli	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-17	,	$,	,	_	O	O	
+6-18	Professor	NN	Professor	_	O	O	
+6-19	des	ART	die	_	O	O	
+6-20	Gymnasiums	NN	Gymnasium	_	O	O	
+6-21	in	APPR	in	_	O	O	
+6-22	Zara	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-23	,	$,	,	_	O	O	
+6-24	Gius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-25	.	$.	.	_	O	O	
+
+#id=7
+#text=Allarevich, Distriktsrichter, giudice distrettuale, in Knin, Gius.
+7-1	Allarevich	NN	<unknown>	_	O	O	
+7-2	,	$,	,	_	O	O	
+7-3	Distriktsrichter	NN	<unknown>	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	giudice	NN	<unknown>	_	O	O	
+7-6	distrettuale	NN	<unknown>	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	in	APPR	in	_	O	O	
+7-9	Knin	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-10	,	$,	,	_	O	O	
+7-11	Gius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-12	.	$.	.	_	O	O	
+
+#id=8
+#text=Reiter, K. K.
+8-1	Reiter	NN	Reiter	_	O	O	
+8-2	,	$,	,	_	O	O	
+8-3	K.	NE	K.	_	O	O	
+8-4	K.	NE	K.	_	O	O	
+
+#id=9
+#text=Pr em • Lieutenant und Festungskommandant in Chissa presso Spalato, prima tenente di artiglieria e comandante della f9rtezza.
+9-1	Pr	NE	<unknown>	_	O	O	
+9-2	em	ADJA	<unknown>	_	O	O	
+9-3	•	NN	<unknown>	_	O	O	
+9-4	Lieutenant	NE	<unknown>	_	O	O	
+9-5	und	KON	und	_	O	O	
+9-6	Festungskommandant	NN	Festungskommandant	_	O	O	
+9-7	in	APPR	in	_	O	O	
+9-8	Chissa	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-9	presso	ADJA	<unknown>	_	O	O	
+9-10	Spalato	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-11	,	$,	,	_	O	O	
+9-12	prima	ADJA	prima	_	O	O	
+9-13	tenente	NN	<unknown>	_	O	O	
+9-14	di	NE	di	_	O	O	
+9-15	artiglieria	NE	<unknown>	_	O	O	
+9-16	e	ADJA	<unknown>	_	O	O	
+9-17	comandante	ADJA	<unknown>	_	O	O	
+9-18	della	NN	<unknown>	_	O	O	
+9-19	f9rtezza	NN	<unknown>	_	O	O	
+9-20	.	$.	.	_	O	O	
+
+#id=10
+#text=Die Diplome sind noch im Rückstand, weil die Meinungen verschieden waren, ob die Formel von dem übergange ans Reich zu verändern sei.
+10-1	Die	ART	die	_	O	O	
+10-2	Diplome	NN	Diplom	_	O	O	
+10-3	sind	VAFIN	sein	_	O	O	
+10-4	noch	ADV	noch	_	O	O	
+10-5	im	APPRART	in	_	O	O	
+10-6	Rückstand	NN	Rückstand	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	weil	KOUS	weil	_	O	O	
+10-9	die	ART	die	_	O	O	
+10-10	Meinungen	NN	Meinung	_	O	O	
+10-11	verschieden	VVPP	verscheiden	_	O	O	
+10-12	waren	VAFIN	sein	_	O	O	
+10-13	,	$,	,	_	O	O	
+10-14	ob	KOUS	ob	_	O	O	
+10-15	die	ART	die	_	O	O	
+10-16	Formel	NN	Formel	_	O	O	
+10-17	von	APPR	von	_	O	O	
+10-18	dem	ART	die	_	O	O	
+10-19	übergange	NN	<unknown>	_	O	O	
+10-20	ans	APPRART	ans	_	O	O	
+10-21	Reich	NN	Reich	_	O	O	
+10-22	zu	PTKZU	zu	_	O	O	
+10-23	verändern	VVINF	verändern	_	O	O	
+10-24	sei	VAFIN	sein	_	O	O	
+10-25	.	$.	.	_	O	O	
+
+#id=11
+#text=Nun soll sie bereits jetzt umgedruckt werden, d. h. der Titel des Protektors lauten : S. M. Guglielmo Imperatore di Germania Re di Prussia.
+11-1	Nun	ADV	nun	_	O	O	
+11-2	soll	VMFIN	sollen	_	O	O	
+11-3	sie	PPER	sie	_	O	O	
+11-4	bereits	ADV	bereits	_	O	O	
+11-5	jetzt	ADV	jetzt	_	O	O	
+11-6	umgedruckt	VVPP	<unknown>	_	O	O	
+11-7	werden	VAINF	werden	_	O	O	
+11-8	,	$,	,	_	O	O	
+11-9	d.	PDS	d.	_	O	O	
+11-10	h.	VVFIN	heißen	_	O	O	
+11-11	der	ART	die	_	O	O	
+11-12	Titel	NN	Titel	_	O	O	
+11-13	des	ART	die	_	O	O	
+11-14	Protektors	NN	Protektor	_	O	O	
+11-15	lauten	VVINF	lauten	_	O	O	
+11-16	:	$.	:	_	O	O	
+11-17	S.	NE	S.	_	O	O	
+11-18	M.	NE	M.	_	O	O	
+11-19	Guglielmo	NE	Guglielmo	_	O	O	
+11-20	Imperatore	NN	<unknown>	_	O	O	
+11-21	di	NE	di	_	O	O	
+11-22	Germania	NE	Germania	_	O	O	
+11-23	Re	NN	Re	_	O	O	
+11-24	di	NE	di	_	O	O	
+11-25	Prussia	NE	<unknown>	_	O	O	
+11-26	.	$.	.	_	O	O	
+
+#id=12
+#text=Das Übrige bleibt: L'Instituto archeologico che fu in Roma fondato dall'anno 1829, inteso com'e incessantemente a promuovere e propagare gli studi delle antichita classiche e la cultura d'ogni ramo di sapere che all'archeologia si rapport i , consapevole quan-
+12-1	Das	ART	die	_	O	O	
+12-2	Übrige	NN	Übrige	_	O	O	
+12-3	bleibt	VVFIN	bleiben	_	O	O	
+12-4	:	$.	:	_	O	O	
+12-5	L'Instituto	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+12-6	archeologico	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+12-7	che	ADJA	<unknown>	_	O	O	
+12-8	fu	NN	<unknown>	_	O	O	
+12-9	in	APPR	in	_	O	O	
+12-10	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-11	fondato	NE	<unknown>	_	O	O	
+12-12	dall'anno	VVFIN	<unknown>	_	O	O	
+12-13	1829	CARD	@card@	_	O	O	
+12-14	,	$,	,	_	O	O	
+12-15	inteso	ADV	<unknown>	_	O	O	
+12-16	com'e	ADJA	<unknown>	_	O	O	
+12-17	incessantemente	NN	<unknown>	_	O	O	
+12-18	a	FM	a	_	O	O	
+12-19	promuovere	ADJA	<unknown>	_	O	O	
+12-20	e	ADJA	<unknown>	_	O	O	
+12-21	propagare	ADJA	<unknown>	_	O	O	
+12-22	gli	NE	<unknown>	_	O	O	
+12-23	studi	NE	<unknown>	_	O	O	
+12-24	delle	VVFIN	dellen	_	O	O	
+12-25	antichita	NE	<unknown>	_	O	O	
+12-26	classiche	ADJA	<unknown>	_	O	O	
+12-27	e	ADJA	<unknown>	_	O	O	
+12-28	la	FM	la	_	O	O	
+12-29	cultura	NN	<unknown>	_	O	O	
+12-30	d'ogni	NE	<unknown>	_	O	O	
+12-31	ramo	NE	Ramo	_	O	O	
+12-32	di	NE	di	_	O	O	
+12-33	sapere	ADJA	<unknown>	_	O	O	
+12-34	che	ADJA	<unknown>	_	O	O	
+12-35	all'archeologia	NE	<unknown>	_	O	O	
+12-36	si	ADJA	<unknown>	_	O	O	
+12-37	rapport	NN	Rapport	_	O	O	
+12-38	i	NE	i	_	O	O	
+12-39	,	$,	,	_	O	O	
+12-40	consapevole	NE	<unknown>	_	O	O	
+12-41	quan-	TRUNC	<unknown>	_	O	O	
+

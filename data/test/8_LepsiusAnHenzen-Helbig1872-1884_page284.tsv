@@ -1,0 +1,196 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Lepsius an Henzen Berlin, 11. Juli 1876 2 de freundlich aufzunehmen und ihnen die Schwierigkeiten, die sich vielleicht im Vatikan darbieten, überwinden zu helfen.
+1-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	2	CARD	2	_	O	O	
+1-11	de	NE	de	_	O	O	
+1-12	freundlich	ADJD	freundlich	_	O	O	
+1-13	aufzunehmen	VVIZU	aufnehmen	_	O	O	
+1-14	und	KON	und	_	O	O	
+1-15	ihnen	PPER	sie	_	O	O	
+1-16	die	ART	die	_	O	O	
+1-17	Schwierigkeiten	NN	Schwierigkeit	_	O	O	
+1-18	,	$,	,	_	O	O	
+1-19	die	PRELS	die	_	O	O	
+1-20	sich	PRF	sich	_	O	O	
+1-21	vielleicht	ADV	vielleicht	_	O	O	
+1-22	im	APPRART	in	_	O	O	
+1-23	Vatikan	NN	Vatikan	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-24	darbieten	VVFIN	darbieten	_	O	O	
+1-25	,	$,	,	_	O	O	
+1-26	überwinden	VVINF	überwinden	_	O	O	
+1-27	zu	PTKZU	zu	_	O	O	
+1-28	helfen	VVINF	helfen	_	O	O	
+1-29	.	$.	.	_	O	O	
+
+#id=2
+#text=Was Trinkgelder wirken können, wird dem jungen reichen Golenischef, der außerdem noch seinen Hofmeister bei sich hat, zu erwirken nicht schwer fallen.
+2-1	Was	PWS	was	_	O	O	
+2-2	Trinkgelder	NN	Trinkgeld	_	O	O	
+2-3	wirken	VVINF	wirken	_	O	O	
+2-4	können	VMFIN	können	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	wird	VAFIN	werden	_	O	O	
+2-7	dem	ART	die	_	O	O	
+2-8	jungen	ADJA	jung	_	O	O	
+2-9	reichen	ADJA	reich	_	O	O	
+2-10	Golenischef	NN	<unknown>	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	der	PRELS	die	_	O	O	
+2-13	außerdem	ADV	außerdem	_	O	O	
+2-14	noch	ADV	noch	_	O	O	
+2-15	seinen	PPOSAT	sein	_	O	O	
+2-16	Hofmeister	NN	Hofmeister	_	O	O	
+2-17	bei	APPR	bei	_	O	O	
+2-18	sich	PRF	sich	_	O	O	
+2-19	hat	VAFIN	haben	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	zu	PTKA	zu	_	O	O	
+2-22	erwirken	VVFIN	erwirken	_	O	O	
+2-23	nicht	PTKNEG	nicht	_	O	O	
+2-24	schwer	ADJD	schwer	_	O	O	
+2-25	fallen	VVINF	fallen	_	O	O	
+2-26	.	$.	.	_	O	O	
+
+#id=3
+#text=Beide jungen Leute sind in jeder Beziehung sehr empfehlenswerth und zuverlässig und bescheiden.
+3-1	Beide	PIAT	beide	_	O	O	
+3-2	jungen	ADJA	jung	_	O	O	
+3-3	Leute	NN	Leute	_	O	O	
+3-4	sind	VAFIN	sein	_	O	O	
+3-5	in	APPR	in	_	O	O	
+3-6	jeder	PIAT	jede	_	O	O	
+3-7	Beziehung	NN	Beziehung	_	O	O	
+3-8	sehr	ADV	sehr	_	O	O	
+3-9	empfehlenswerth	ADJD	<unknown>	_	O	O	
+3-10	und	KON	und	_	O	O	
+3-11	zuverlässig	ADJD	zuverlässig	_	O	O	
+3-12	und	KON	und	_	O	O	
+3-13	bescheiden	ADJD	bescheiden	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Grüßen Sie Mommsen, wenn er zurückkommt, herzlich von mir.
+4-1	Grüßen	VVFIN	grüßen	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-4	,	$,	,	_	O	O	
+4-5	wenn	KOUS	wenn	_	O	O	
+4-6	er	PPER	er	_	O	O	
+4-7	zurückkommt	VVFIN	zurückkommen	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	herzlich	ADJD	herzlich	_	O	O	
+4-10	von	APPR	von	_	O	O	
+4-11	mir	PPER	ich	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Wann steht seine Rückkehr hierher etwa bevor ?
+5-1	Wann	PWAV	wann	_	O	O	
+5-2	steht	VVFIN	stehen	_	O	O	
+5-3	seine	PPOSAT	sein	_	O	O	
+5-4	Rückkehr	NN	Rückkehr	_	O	O	
+5-5	hierher	PAV	hierher	_	O	O	
+5-6	etwa	ADV	etwa	_	O	O	
+5-7	bevor	PTKVZ	bevor	_	O	O	
+5-8	?	$.	?	_	O	O	
+
+#id=6
+#text=Der Ihrige R Lepsius Sollten Sie gerade abwesend sein, wenn die beiden Ägyptologen ankommen, so werden sich wohl die Herren DresseI oder Mau ihrer etwas annehmen können.
+6-1	Der	ART	die	_	O	O	
+6-2	Ihrige	PPOSAT	ihrige	_	O	O	
+6-3	R	NN	R	_	O	O	
+6-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	Sollten	VVFIN	sollen	_	O	O	
+6-6	Sie	PPER	Sie	_	O	O	
+6-7	gerade	ADV	gerade	_	O	O	
+6-8	abwesend	ADJD	abwesend	_	O	O	
+6-9	sein	VAINF	sein	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	wenn	KOUS	wenn	_	O	O	
+6-12	die	ART	die	_	O	O	
+6-13	beiden	PIAT	beide	_	O	O	
+6-14	Ägyptologen	NN	<unknown>	_	O	O	
+6-15	ankommen	VVFIN	ankommen	_	O	O	
+6-16	,	$,	,	_	O	O	
+6-17	so	ADV	so	_	O	O	
+6-18	werden	VAFIN	werden	_	O	O	
+6-19	sich	PRF	sich	_	O	O	
+6-20	wohl	ADV	wohl	_	O	O	
+6-21	die	ART	die	_	O	O	
+6-22	Herren	NN	Herr	_	O	O	
+6-23	DresseI	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-24	oder	KON	oder	_	O	O	
+6-25	Mau	NE	Mau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-26	ihrer	PPOSAT	ihr	_	O	O	
+6-27	etwas	ADV	etwas	_	O	O	
+6-28	annehmen	VVINF	annehmen	_	O	O	
+6-29	können	VMINF	können	_	O	O	
+6-30	.	$.	.	_	O	O	
+
+#id=7
+#text=Stern reiste mit Ebers in Ägypten und war dann längere Zeit vom Viceg;e,iner könig an die Spitz~Kairäner Arabischen Bibliothek gestellt.
+7-1	Stern	NE	stern	_	O	O	
+7-2	reiste	VVFIN	reisen	_	O	O	
+7-3	mit	APPR	mit	_	O	O	
+7-4	Ebers	NN	Eber	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-5	in	APPR	in	_	O	O	
+7-6	Ägypten	NE	Ägypten	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-7	und	KON	und	_	O	O	
+7-8	war	VAFIN	sein	_	O	O	
+7-9	dann	ADV	dann	_	O	O	
+7-10	längere	ADJA	lang	_	O	O	
+7-11	Zeit	NN	Zeit	_	O	O	
+7-12	vom	APPRART	von	_	O	O	
+7-13	Viceg	NN	<unknown>	_	O	O	
+7-14	;	$.	;	_	O	O	
+7-15	e,iner	ADJA	<unknown>	_	O	O	
+7-16	könig	NN	König	_	O	O	
+7-17	an	APPR	an	_	O	O	
+7-18	die	ART	die	_	O	O	
+7-19	Spitz~Kairäner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-20	Arabischen	ADJA	arabisch	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+7-21	Bibliothek	NN	Bibliothek	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+7-22	gestellt	VVPP	stellen	_	O	O	
+7-23	.	$.	.	_	O	O	
+
+#id=8
+#text=Er ist ein sehr vorzüglicher Orientalist, der jetzt auf der königl. Bibliothek hier arabische Handschriften verzeichnet.
+8-1	Er	PPER	er	_	O	O	
+8-2	ist	VAFIN	sein	_	O	O	
+8-3	ein	ART	eine	_	O	O	
+8-4	sehr	ADV	sehr	_	O	O	
+8-5	vorzüglicher	ADJA	vorzüglich	_	O	O	
+8-6	Orientalist	NN	Orientalist	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	der	PRELS	die	_	O	O	
+8-9	jetzt	ADV	jetzt	_	O	O	
+8-10	auf	APPR	auf	_	O	O	
+8-11	der	ART	die	_	O	O	
+8-12	königl	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-13	.	$.	.	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+8-14	Bibliothek	NN	Bibliothek	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+8-15	hier	ADV	hier	_	O	O	
+8-16	arabische	ADJA	arabisch	_	O	O	
+8-17	Handschriften	NN	Handschrift	_	O	O	
+8-18	verzeichnet	VVPP	verzeichnen	_	O	O	
+8-19	.	$.	.	_	O	O	
+
+#id=9
+#text=Minister Krüger erwiedert Ihre Grüße bestens.
+9-1	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	Krüger	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-3	erwiedert	VVFIN	<unknown>	_	O	O	
+9-4	Ihre	PPOSAT	ihr	_	O	O	
+9-5	Grüße	NN	Gruß	_	O	O	
+9-6	bestens	ADV	bestens	_	O	O	
+9-7	.	$.	.	_	O	O	
+

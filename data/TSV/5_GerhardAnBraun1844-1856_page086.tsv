@@ -1,0 +1,233 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=446 Gerhard an Braun Berlin, 21. November 1844 2 Den Auszug aus Luynes Ihrerseits zu beantwortenden Vorschläge werden Sie auf der Rückseite von Gerstäckers 1000 rt Sendung gefunden haben.
+1-1	446	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	Den	ART	die	_	O	O	
+1-13	Auszug	NN	Auszug	_	O	O	
+1-14	aus	APPR	aus	_	O	O	
+1-15	Luynes	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-16	Ihrerseits	NN	<unknown>	_	O	O	
+1-17	zu	APPR	zu	_	O	O	
+1-18	beantwortenden	ADJA	beantwortend	_	O	O	
+1-19	Vorschläge	NN	Vorschlag	_	O	O	
+1-20	werden	VAFIN	werden	_	O	O	
+1-21	Sie	PPER	Sie	_	O	O	
+1-22	auf	APPR	auf	_	O	O	
+1-23	der	ART	die	_	O	O	
+1-24	Rückseite	NN	Rückseite	_	O	O	
+1-25	von	APPR	von	_	O	O	
+1-26	Gerstäckers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-27	1000	CARD	1000	_	O	O	
+1-28	rt	ADJA	<unknown>	_	O	O	
+1-29	Sendung	NN	Sendung	_	O	O	
+1-30	gefunden	VVPP	finden	_	O	O	
+1-31	haben	VAINF	haben	_	O	O	
+1-32	.	$.	.	_	O	O	
+
+#id=2
+#text=Mein Verleger wird immer muthloser, ich muß die Flügel einziehen und werde die Spiegel wol nicht vollständig geben können.
+2-1	Mein	PPOSAT	mein	_	O	O	
+2-2	Verleger	NN	Verleger	_	O	O	
+2-3	wird	VAFIN	werden	_	O	O	
+2-4	immer	ADV	immer	_	O	O	
+2-5	muthloser	VVFIN	<unknown>	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	ich	PPER	ich	_	O	O	
+2-8	muß	VMFIN	müssen	_	O	O	
+2-9	die	ART	die	_	O	O	
+2-10	Flügel	NN	Flügel	_	O	O	
+2-11	einziehen	VVINF	einziehen	_	O	O	
+2-12	und	KON	und	_	O	O	
+2-13	werde	VAFIN	werden	_	O	O	
+2-14	die	ART	die	_	O	O	
+2-15	Spiegel	NN	Spiegel	_	O	O	
+2-16	wol	ADJD	<unknown>	_	O	O	
+2-17	nicht	PTKNEG	nicht	_	O	O	
+2-18	vollständig	ADJD	vollständig	_	O	O	
+2-19	geben	VVINF	geben	_	O	O	
+2-20	können	VMINF	können	_	O	O	
+2-21	.	$.	.	_	O	O	
+
+#id=3
+#text=So wenig Absatz, selbst in Italien !
+3-1	So	ADV	so	_	O	O	
+3-2	wenig	PIAT	wenige	_	O	O	
+3-3	Absatz	NN	Absatz	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	selbst	ADV	selbst	_	O	O	
+3-6	in	APPR	in	_	O	O	
+3-7	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-8	!	$.	!	_	O	O	
+
+#id=4
+#text=Ob Henzen mir Zardetti's und der Turiner Bibliothek Schuld wol eingemahnt haben mag, wie er vor seiner Reise Willens war?
+4-1	Ob	KOUS	ob	_	O	O	
+4-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	mir	PPER	ich	_	O	O	
+4-4	Zardetti's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	und	KON	und	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	Turiner	NN	Turiner	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-8	Bibliothek	NN	Bibliothek	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+4-9	Schuld	NN	Schuld	_	O	O	
+4-10	wol	ADJD	<unknown>	_	O	O	
+4-11	eingemahnt	VVPP	<unknown>	_	O	O	
+4-12	haben	VAINF	haben	_	O	O	
+4-13	mag	VMFIN	mögen	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	wie	KOUS	wie	_	O	O	
+4-16	er	PPER	er	_	O	O	
+4-17	vor	APPR	vor	_	O	O	
+4-18	seiner	PPOSAT	sein	_	O	O	
+4-19	Reise	NN	Reise	_	O	O	
+4-20	Willens	NN	Wille	_	O	O	
+4-21	war	VAFIN	sein	_	O	O	
+4-22	?	$.	?	_	O	O	
+
+#id=5
+#text=Beides für je ein Exemplar Etruskische etc. Vasenbilder.
+5-1	Beides	PIS	beide	_	O	O	
+5-2	für	APPR	für	_	O	O	
+5-3	je	APPR	je	_	O	O	
+5-4	ein	ART	eine	_	O	O	
+5-5	Exemplar	NN	Exemplar	_	O	O	
+5-6	Etruskische	ADJA	<unknown>	_	O	O	
+5-7	etc.	ADV	etc.	_	O	O	
+5-8	Vasenbilder	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Inschrift des Relief-Spiegels im britischen Museum habe ich als Madech kopiert, also nicht ganz revidirt, obwohl wahrscheinlich, identisch mit Malufisch; die Lesart Malacisch scheint irrig.
+6-1	Die	ART	die	_	O	O	
+6-2	Inschrift	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-3	des	ART	die	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-4	Relief-Spiegels	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-5	im	APPRART	in	_	O	O	
+6-6	britischen	ADJA	britisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-7	Museum	NN	Museum	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+6-8	habe	VAFIN	haben	_	O	O	
+6-9	ich	PPER	ich	_	O	O	
+6-10	als	KOKOM	als	_	O	O	
+6-11	Madech	ADJD	<unknown>	_	O	O	
+6-12	kopiert	VVPP	kopieren	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	also	ADV	also	_	O	O	
+6-15	nicht	PTKNEG	nicht	_	O	O	
+6-16	ganz	ADV	ganz	_	O	O	
+6-17	revidirt	NN	<unknown>	_	O	O	
+6-18	,	$,	,	_	O	O	
+6-19	obwohl	KOUS	obwohl	_	O	O	
+6-20	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+6-21	,	$,	,	_	O	O	
+6-22	identisch	ADJD	identisch	_	O	O	
+6-23	mit	APPR	mit	_	O	O	
+6-24	Malufisch	NN	<unknown>	_	O	O	
+6-25	;	$.	;	_	O	O	
+6-26	die	ART	die	_	O	O	
+6-27	Lesart	NN	Lesart	_	O	O	
+6-28	Malacisch	NN	<unknown>	_	O	O	
+6-29	scheint	VVFIN	scheinen	_	O	O	
+6-30	irrig	ADJD	irrig	_	O	O	
+6-31	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich bin noch immer äußerst reizbar, arbeite sehr wenig und hüte Abend das Haus.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	bin	VAFIN	sein	_	O	O	
+7-3	noch	ADV	noch	_	O	O	
+7-4	immer	ADV	immer	_	O	O	
+7-5	äußerst	ADV	äußerst	_	O	O	
+7-6	reizbar	ADJD	reizbar	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	arbeite	VVFIN	arbeiten	_	O	O	
+7-9	sehr	ADV	sehr	_	O	O	
+7-10	wenig	PIS	wenige	_	O	O	
+7-11	und	KON	und	_	O	O	
+7-12	hüte	VVFIN	hüten	_	O	O	
+7-13	Abend	ADV	abend	_	O	O	
+7-14	das	ART	die	_	O	O	
+7-15	Haus	NN	Haus	_	O	O	
+7-16	.	$.	.	_	O	O	
+
+#id=8
+#text=Leider ist auch meiner Frau zum erstmal daß wir zusammen sind es begegnet, von nervösen Kopfweh so überwältigt zu werden daß sie weder ausgehn noch sich beschäftigen kann.
+8-1	Leider	ADV	leider	_	O	O	
+8-2	ist	VAFIN	sein	_	O	O	
+8-3	auch	ADV	auch	_	O	O	
+8-4	meiner	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-5	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-6	zum	APPRART	zu	_	O	O	
+8-7	erstmal	ADV	erstmal	_	O	O	
+8-8	daß	KOUS	dass	_	O	O	
+8-9	wir	PPER	wir	_	O	O	
+8-10	zusammen	ADV	zusammen	_	O	O	
+8-11	sind	VAFIN	sein	_	O	O	
+8-12	es	PPER	es	_	O	O	
+8-13	begegnet	VVPP	begegnen	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	von	APPR	von	_	O	O	
+8-16	nervösen	ADJA	nervös	_	O	O	
+8-17	Kopfweh	NN	Kopfweh	_	O	O	
+8-18	so	ADV	so	_	O	O	
+8-19	überwältigt	VVPP	überwältigen	_	O	O	
+8-20	zu	PTKZU	zu	_	O	O	
+8-21	werden	VAINF	werden	_	O	O	
+8-22	daß	KOUS	dass	_	O	O	
+8-23	sie	PPER	sie	_	O	O	
+8-24	weder	KON	weder	_	O	O	
+8-25	ausgehn	VVPP	<unknown>	_	O	O	
+8-26	noch	KON	noch	_	O	O	
+8-27	sich	PRF	sich	_	O	O	
+8-28	beschäftigen	VVINF	beschäftigen	_	O	O	
+8-29	kann	VMFIN	können	_	O	O	
+8-30	.	$.	.	_	O	O	
+
+#id=9
+#text=Melicher behandelt sie.
+9-1	Melicher	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	behandelt	VVFIN	behandeln	_	O	O	
+9-3	sie	PPER	sie	_	O	O	
+9-4	.	$.	.	_	O	O	
+
+#id=10
+#text=Von Welcker eben ein fast verdrießlicher Brief mit der Triptolemos Zeichnung die ich nach genommener Durchzeichnung ihm zurücksende.
+10-1	Von	APPR	von	_	O	O	
+10-2	Welcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-3	eben	ADV	eben	_	O	O	
+10-4	ein	ART	eine	_	O	O	
+10-5	fast	ADV	fast	_	O	O	
+10-6	verdrießlicher	ADJA	<unknown>	_	O	O	
+10-7	Brief	NN	Brief	_	O	O	
+10-8	mit	APPR	mit	_	O	O	
+10-9	der	ART	die	_	O	O	
+10-10	Triptolemos	NN	<unknown>	_	O	O	
+10-11	Zeichnung	NN	Zeichnung	_	O	O	
+10-12	die	ART	die	_	O	O	
+10-13	ich	PPER	ich	_	O	O	
+10-14	nach	APPR	nach	_	O	O	
+10-15	genommener	ADJA	genommener	_	O	O	
+10-16	Durchzeichnung	NN	<unknown>	_	O	O	
+10-17	ihm	PPER	er	_	O	O	
+10-18	zurücksende	NN	<unknown>	_	O	O	
+10-19	.	$.	.	_	O	O	
+
+#id=11
+#text=Was haben Sie für Absichten damit ?
+11-1	Was	PWS	was	_	O	O	
+11-2	haben	VAFIN	haben	_	O	O	
+11-3	Sie	PPER	Sie	_	O	O	
+11-4	für	APPR	für	_	O	O	
+11-5	Absichten	NN	Absicht	_	O	O	
+11-6	damit	PAV	damit	_	O	O	
+11-7	?	$.	?	_	O	O	
+

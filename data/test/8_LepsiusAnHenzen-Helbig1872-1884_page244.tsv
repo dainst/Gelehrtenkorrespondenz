@@ -1,0 +1,234 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=586 Lepsius an Henzen Berlin, 20. Dezember 1875 g. 24/XII 75 r. Herrn Prof.
+1-1	586	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	24/XII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	r.	ADJA	<unknown>	_	O	O	
+1-15	Herrn	NN	Herr	_	O	O	
+1-16	Prof.	NN	Prof.	_	O	O	
+
+#id=2
+#text=Henzen Berlin, den 20. Dez.
+2-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-3	,	$,	,	_	O	O	
+2-4	den	ART	die	_	O	O	
+2-5	20	CARD	20	_	O	O	
+2-6	.	$.	.	_	O	O	
+2-7	Dez.	NN	Dez.	_	O	O	
+
+#id=3
+#text=1875 In der gestrigen Sitzung der Central-Direktion ist die Erlaubnis des Schriftenaustauschs mit der Accademia dei Lincei und der Abtretung der beiden Monumente an das Museo Italiano bestätigt worden.
+3-1	1875	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-2	In	APPR	in	_	O	O	
+3-3	der	ART	die	_	O	O	
+3-4	gestrigen	ADJA	gestrig	_	O	O	
+3-5	Sitzung	NN	Sitzung	_	O	O	
+3-6	der	ART	die	_	O	O	
+3-7	Central-Direktion	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-8	ist	VAFIN	sein	_	O	O	
+3-9	die	ART	die	_	O	O	
+3-10	Erlaubnis	NN	Erlaubnis	_	O	O	
+3-11	des	ART	die	_	O	O	
+3-12	Schriftenaustauschs	NN	<unknown>	_	O	O	
+3-13	mit	APPR	mit	_	O	O	
+3-14	der	ART	die	_	O	O	
+3-15	Accademia	NN	<unknown>	_	O	O	
+3-16	dei	ADJA	<unknown>	_	O	O	
+3-17	Lincei	NN	<unknown>	_	O	O	
+3-18	und	KON	und	_	O	O	
+3-19	der	ART	die	_	O	O	
+3-20	Abtretung	NN	Abtretung	_	O	O	
+3-21	der	ART	die	_	O	O	
+3-22	beiden	PIAT	beide	_	O	O	
+3-23	Monumente	NN	Monument	_	O	O	
+3-24	an	APPR	an	_	O	O	
+3-25	das	ART	die	_	O	O	
+3-26	Museo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-27	Italiano	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+3-28	bestätigt	VVPP	bestätigen	_	O	O	
+3-29	worden	VAPP	werden	_	O	O	
+3-30	.	$.	.	_	O	O	
+
+#id=4
+#text=In Bezug auf die von Ihnen beantragte Vergütung an Dr.
+4-1	In	APPR	in	_	O	O	
+4-2	Bezug	NN	Bezug	_	O	O	
+4-3	auf	APPR	auf	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	von	APPR	von	_	O	O	
+4-6	Ihnen	PPER	Sie	_	O	O	
+4-7	beantragte	ADJA	beantragt	_	O	O	
+4-8	Vergütung	NN	Vergütung	_	O	O	
+4-9	an	APPR	an	_	O	O	
+4-10	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=5
+#text=DresseI, wurde bemerkt, daß, da die Ausgrabungen in Monte Testaccio wesentlich auf Kosten des Instituts gemacht wurden, eine Vergütung für die Amphorenstempel wohl nur gering sein könne.
+5-1	DresseI	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	,	$,	,	_	O	O	
+5-3	wurde	VAFIN	werden	_	O	O	
+5-4	bemerkt	VVPP	bemerken	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	daß	KOUS	dass	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	da	KOUS	da	_	O	O	
+5-9	die	ART	die	_	O	O	
+5-10	Ausgrabungen	NN	Ausgrabung	_	O	O	
+5-11	in	APPR	in	_	O	O	
+5-12	Monte	NE	Monte	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-13	Testaccio	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+5-14	wesentlich	ADJD	wesentlich	_	O	O	
+5-15	auf	APPR	auf	_	O	O	
+5-16	Kosten	NN	Kosten	_	O	O	
+5-17	des	ART	die	_	O	O	
+5-18	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-19	gemacht	VVPP	machen	_	O	O	
+5-20	wurden	VAFIN	werden	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	eine	ART	eine	_	O	O	
+5-23	Vergütung	NN	Vergütung	_	O	O	
+5-24	für	APPR	für	_	O	O	
+5-25	die	ART	die	_	O	O	
+5-26	Amphorenstempel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-27	wohl	ADV	wohl	_	O	O	
+5-28	nur	ADV	nur	_	O	O	
+5-29	gering	ADJD	gering	_	O	O	
+5-30	sein	VAINF	sein	_	O	O	
+5-31	könne	VMFIN	können	_	O	O	
+5-32	.	$.	.	_	O	O	
+
+#id=6
+#text=Im Übrigen sei es allerdings wohl zweckmäßig, mit solchen Thoninschriften eine Ausnahme zu machen und sie im Institute zu deponiren, die Sammlung auch gelegentlich zu vermehren, weil für diese unscheinbaren Dinge von epigraphischem Werth sonst kein Platz und kein Interesse in Rom sei.
+6-1	Im	APPRART	in	_	O	O	
+6-2	Übrigen	NN	Übrige	_	O	O	
+6-3	sei	VAFIN	sein	_	O	O	
+6-4	es	PPER	es	_	O	O	
+6-5	allerdings	ADV	allerdings	_	O	O	
+6-6	wohl	ADV	wohl	_	O	O	
+6-7	zweckmäßig	ADJD	zweckmäßig	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	mit	APPR	mit	_	O	O	
+6-10	solchen	PIAT	solche	_	O	O	
+6-11	Thoninschriften	NN	<unknown>	_	O	O	
+6-12	eine	ART	eine	_	O	O	
+6-13	Ausnahme	NN	Ausnahme	_	O	O	
+6-14	zu	PTKZU	zu	_	O	O	
+6-15	machen	VVINF	machen	_	O	O	
+6-16	und	KON	und	_	O	O	
+6-17	sie	PPER	sie	_	O	O	
+6-18	im	APPRART	in	_	O	O	
+6-19	Institute	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-20	zu	APPR	zu	_	O	O	
+6-21	deponiren	NN	<unknown>	_	O	O	
+6-22	,	$,	,	_	O	O	
+6-23	die	ART	die	_	O	O	
+6-24	Sammlung	NN	Sammlung	_	O	O	
+6-25	auch	ADV	auch	_	O	O	
+6-26	gelegentlich	ADJD	gelegentlich	_	O	O	
+6-27	zu	PTKZU	zu	_	O	O	
+6-28	vermehren	VVINF	vermehren	_	O	O	
+6-29	,	$,	,	_	O	O	
+6-30	weil	KOUS	weil	_	O	O	
+6-31	für	APPR	für	_	O	O	
+6-32	diese	PDAT	dies	_	O	O	
+6-33	unscheinbaren	ADJA	unscheinbar	_	O	O	
+6-34	Dinge	NN	Ding	_	O	O	
+6-35	von	APPR	von	_	O	O	
+6-36	epigraphischem	ADJA	<unknown>	_	O	O	
+6-37	Werth	NE	<unknown>	_	O	O	
+6-38	sonst	ADV	sonst	_	O	O	
+6-39	kein	PIAT	keine	_	O	O	
+6-40	Platz	NN	Platz	_	O	O	
+6-41	und	KON	und	_	O	O	
+6-42	kein	PIAT	keine	_	O	O	
+6-43	Interesse	NN	Interesse	_	O	O	
+6-44	in	APPR	in	_	O	O	
+6-45	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-46	sei	VAFIN	sein	_	O	O	
+6-47	.	$.	.	_	O	O	
+
+#id=7
+#text=Ob dies aber prinzipmäßig geschehen dürfe, darüber müsse die Generalversammlung entscheiden.
+7-1	Ob	KOUS	ob	_	O	O	
+7-2	dies	PDS	dies	_	O	O	
+7-3	aber	ADV	aber	_	O	O	
+7-4	prinzipmäßig	ADJD	<unknown>	_	O	O	
+7-5	geschehen	VVINF	geschehen	_	O	O	
+7-6	dürfe	VMFIN	dürfen	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	darüber	PAV	darüber	_	O	O	
+7-9	müsse	VMFIN	müssen	_	O	O	
+7-10	die	ART	die	_	O	O	
+7-11	Generalversammlung	NN	Generalversammlung	_	O	O	
+7-12	entscheiden	VVINF	entscheiden	_	O	O	
+7-13	.	$.	.	_	O	O	
+
+#id=8
+#text=Inzwischen werde man die zunächst vorliegenden Amphoren- und Ziegelstempel anzunehmen haben, die Inschriftsteine aber abzulehnen, da für dergleichen keine Grenze zu ziehen sei, und das Institut sich vor allen Sammlungen, mit der bezeichneten Ausnahme, zu hüten habe.
+8-1	Inzwischen	ADV	inzwischen	_	O	O	
+8-2	werde	VAFIN	werden	_	O	O	
+8-3	man	PIS	man	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	zunächst	ADV	zunächst	_	O	O	
+8-6	vorliegenden	ADJA	vorliegend	_	O	O	
+8-7	Amphoren-	TRUNC	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-8	und	KON	und	_	O	O	
+8-9	Ziegelstempel	NN	<unknown>	_	O	O	
+8-10	anzunehmen	VVIZU	annehmen	_	O	O	
+8-11	haben	VAINF	haben	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	die	ART	die	_	O	O	
+8-14	Inschriftsteine	NN	<unknown>	_	O	O	
+8-15	aber	ADV	aber	_	O	O	
+8-16	abzulehnen	VVIZU	ablehnen	_	O	O	
+8-17	,	$,	,	_	O	O	
+8-18	da	KOUS	da	_	O	O	
+8-19	für	APPR	für	_	O	O	
+8-20	dergleichen	PIS	dergleichen	_	O	O	
+8-21	keine	PIAT	keine	_	O	O	
+8-22	Grenze	NN	Grenze	_	O	O	
+8-23	zu	PTKZU	zu	_	O	O	
+8-24	ziehen	VVINF	ziehen	_	O	O	
+8-25	sei	VAFIN	sein	_	O	O	
+8-26	,	$,	,	_	O	O	
+8-27	und	KON	und	_	O	O	
+8-28	das	ART	die	_	O	O	
+8-29	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-30	sich	PRF	sich	_	O	O	
+8-31	vor	APPR	vor	_	O	O	
+8-32	allen	PIAT	alle	_	O	O	
+8-33	Sammlungen	NN	Sammlung	_	O	O	
+8-34	,	$,	,	_	O	O	
+8-35	mit	APPR	mit	_	O	O	
+8-36	der	ART	die	_	O	O	
+8-37	bezeichneten	ADJA	bezeichnet	_	O	O	
+8-38	Ausnahme	NN	Ausnahme	_	O	O	
+8-39	,	$,	,	_	O	O	
+8-40	zu	PTKZU	zu	_	O	O	
+8-41	hüten	VVINF	hüten	_	O	O	
+8-42	habe	VAFIN	haben	_	O	O	
+8-43	.	$.	.	_	O	O	
+
+#id=9
+#text=Sie möchten also über die Stempel noch einmal
+9-1	Sie	PPER	Sie	_	O	O	
+9-2	möchten	VMFIN	mögen	_	O	O	
+9-3	also	ADV	also	_	O	O	
+9-4	über	APPR	über	_	O	O	
+9-5	die	ART	die	_	O	O	
+9-6	Stempel	NN	Stempel	_	O	O	
+9-7	noch	ADV	noch	_	O	O	
+9-8	einmal	ADV	einmal	_	O	O	
+

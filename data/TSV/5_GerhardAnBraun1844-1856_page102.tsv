@@ -1,0 +1,246 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=39 Gerhard an Braun Berlin, 20. Januar 1845 2 erinnert; er hat viel zu thun, anzi Alles.
+1-1	39	CARD	39	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	erinnert	VVFIN	erinnern	_	O	O	
+1-13	;	$.	;	_	O	O	
+1-14	er	PPER	er	_	O	O	
+1-15	hat	VAFIN	haben	_	O	O	
+1-16	viel	ADV	viel	_	O	O	
+1-17	zu	APPR	zu	_	O	O	
+1-18	thun	NE	<unknown>	_	O	O	
+1-19	,	$,	,	_	O	O	
+1-20	anzi	VVFIN	<unknown>	_	O	O	
+1-21	Alles	PIS	alle	_	O	O	
+1-22	.	$.	.	_	O	O	
+
+#id=3
+#text=Meiner Frau Gesundheit hat kränkelnden Waffenstillstand, ich selbst war die Augenschwäche und mehr Verschnupfung kaum auf ein paar Tage ganz los.
+3-1	Meiner	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-3	Gesundheit	NN	Gesundheit	_	O	O	
+3-4	hat	VAFIN	haben	_	O	O	
+3-5	kränkelnden	ADJA	kränkelnd	_	O	O	
+3-6	Waffenstillstand	NN	Waffenstillstand	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	ich	PPER	ich	_	O	O	
+3-9	selbst	ADV	selbst	_	O	O	
+3-10	war	VAFIN	sein	_	O	O	
+3-11	die	ART	die	_	O	O	
+3-12	Augenschwäche	NN	<unknown>	_	O	O	
+3-13	und	KON	und	_	O	O	
+3-14	mehr	PIAT	mehr	_	O	O	
+3-15	Verschnupfung	NN	<unknown>	_	O	O	
+3-16	kaum	ADV	kaum	_	O	O	
+3-17	auf	APPR	auf	_	O	O	
+3-18	ein	ART	eine	_	O	O	
+3-19	paar	PIAT	paar	_	O	O	
+3-20	Tage	NN	Tag	_	O	O	
+3-21	ganz	ADV	ganz	_	O	O	
+3-22	los	ADJD	los	_	O	O	
+3-23	.	$.	.	_	O	O	
+
+#id=4
+#text=Wir lumpen uns durch und denken an die Möglichkeit eines italienischen Winters; von Wasser- und Meereskuren aber räth Melicher ab, nachdem er als sei seine Weisheit zu Ende in schlimmen Wochen voreilig uns für längere Zeit weggeblieben war.
+4-1	Wir	PPER	wir	_	O	O	
+4-2	lumpen	VVFIN	lumpen	_	O	O	
+4-3	uns	PPER	wir	_	O	O	
+4-4	durch	PTKVZ	durch	_	O	O	
+4-5	und	KON	und	_	O	O	
+4-6	denken	VVFIN	denken	_	O	O	
+4-7	an	APPR	an	_	O	O	
+4-8	die	ART	die	_	O	O	
+4-9	Möglichkeit	NN	Möglichkeit	_	O	O	
+4-10	eines	ART	eine	_	O	O	
+4-11	italienischen	ADJA	italienisch	_	O	O	
+4-12	Winters	NN	Winter	_	O	O	
+4-13	;	$.	;	_	O	O	
+4-14	von	APPR	von	_	O	O	
+4-15	Wasser-	TRUNC	Wasser-	_	O	O	
+4-16	und	KON	und	_	O	O	
+4-17	Meereskuren	NN	<unknown>	_	O	O	
+4-18	aber	KON	aber	_	O	O	
+4-19	räth	ADJA	<unknown>	_	O	O	
+4-20	Melicher	NN	<unknown>	_	O	O	
+4-21	ab	PTKVZ	ab	_	O	O	
+4-22	,	$,	,	_	O	O	
+4-23	nachdem	KOUS	nachdem	_	O	O	
+4-24	er	PPER	er	_	O	O	
+4-25	als	KOKOM	als	_	O	O	
+4-26	sei	VAFIN	sein	_	O	O	
+4-27	seine	PPOSAT	sein	_	O	O	
+4-28	Weisheit	NN	Weisheit	_	O	O	
+4-29	zu	APPR	zu	_	O	O	
+4-30	Ende	NN	Ende	_	O	O	
+4-31	in	APPR	in	_	O	O	
+4-32	schlimmen	ADJA	schlimm	_	O	O	
+4-33	Wochen	NN	Woche	_	O	O	
+4-34	voreilig	ADJD	voreilig	_	O	O	
+4-35	uns	PRF	wir	_	O	O	
+4-36	für	APPR	für	_	O	O	
+4-37	längere	ADJA	lang	_	O	O	
+4-38	Zeit	NN	Zeit	_	O	O	
+4-39	weggeblieben	VVPP	wegbleiben	_	O	O	
+4-40	war	VAFIN	sein	_	O	O	
+4-41	.	$.	.	_	O	O	
+
+#id=5
+#text=Im Frühjahr wollte er weiter ~hne~ nachdenken; wir auch, indem ich alsda~±n Schriftliches Wahle zu konsultiren übermachen werde.
+5-1	Im	APPRART	in	_	O	O	
+5-2	Frühjahr	NN	Frühjahr	_	O	O	
+5-3	wollte	VMFIN	wollen	_	O	O	
+5-4	er	PPER	er	_	O	O	
+5-5	weiter	ADV	weiter	_	O	O	
+5-6	~hne~	ADJD	<unknown>	_	O	O	
+5-7	nachdenken	VVINF	nachdenken	_	O	O	
+5-8	;	$.	;	_	O	O	
+5-9	wir	PPER	wir	_	O	O	
+5-10	auch	ADV	auch	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	indem	KOUS	indem	_	O	O	
+5-13	ich	PPER	ich	_	O	O	
+5-14	alsda~±n	NE	<unknown>	_	O	O	
+5-15	Schriftliches	ADJA	schriftlich	_	O	O	
+5-16	Wahle	NN	<unknown>	_	O	O	
+5-17	zu	APPR	zu	_	O	O	
+5-18	konsultiren	NN	<unknown>	_	O	O	
+5-19	übermachen	VVPP	<unknown>	_	O	O	
+5-20	werde	VAFIN	werden	_	O	O	
+5-21	.	$.	.	_	O	O	
+
+#id=6
+#text=Einer Wasserkur uns zu unterwerfen würden wir uns auf ärztlichen Befehl natürlich unterwerfen; müßte aber Befehl vorhanden sein, da alle mögliche sonstige Inconvenienz, nämlich auch in Bezug auf Familienbesuche in Frankfurt und dergleichen daran hängt.
+6-1	Einer	ART	eine	_	O	O	
+6-2	Wasserkur	NN	<unknown>	_	O	O	
+6-3	uns	PPER	wir	_	O	O	
+6-4	zu	PTKZU	zu	_	O	O	
+6-5	unterwerfen	VVINF	unterwerfen	_	O	O	
+6-6	würden	VAFIN	werden	_	O	O	
+6-7	wir	PPER	wir	_	O	O	
+6-8	uns	PRF	wir	_	O	O	
+6-9	auf	APPR	auf	_	O	O	
+6-10	ärztlichen	ADJA	ärztlich	_	O	O	
+6-11	Befehl	NN	Befehl	_	O	O	
+6-12	natürlich	ADV	natürlich	_	O	O	
+6-13	unterwerfen	VVINF	unterwerfen	_	O	O	
+6-14	;	$.	;	_	O	O	
+6-15	müßte	VMFIN	müssen	_	O	O	
+6-16	aber	ADV	aber	_	O	O	
+6-17	Befehl	NN	Befehl	_	O	O	
+6-18	vorhanden	ADJD	vorhanden	_	O	O	
+6-19	sein	VAINF	sein	_	O	O	
+6-20	,	$,	,	_	O	O	
+6-21	da	KOUS	da	_	O	O	
+6-22	alle	PIAT	alle	_	O	O	
+6-23	mögliche	ADJA	möglich	_	O	O	
+6-24	sonstige	ADJA	sonstig	_	O	O	
+6-25	Inconvenienz	NN	<unknown>	_	O	O	
+6-26	,	$,	,	_	O	O	
+6-27	nämlich	ADV	nämlich	_	O	O	
+6-28	auch	ADV	auch	_	O	O	
+6-29	in	APPR	in	_	O	O	
+6-30	Bezug	NN	Bezug	_	O	O	
+6-31	auf	APPR	auf	_	O	O	
+6-32	Familienbesuche	NN	Familienbesuch	_	O	O	
+6-33	in	APPR	in	_	O	O	
+6-34	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-35	und	KON	und	_	O	O	
+6-36	dergleichen	PIS	dergleichen	_	O	O	
+6-37	daran	PAV	daran	_	O	O	
+6-38	hängt	VVFIN	hängen	_	O	O	
+6-39	.	$.	.	_	O	O	
+
+#id=7
+#text=Dachten Sie wol wieder daran den merkwürdigen Proserpinaraub in Villa Medici zeichnen zu lassen ?
+7-1	Dachten	VVFIN	denken	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	wol	ADJD	<unknown>	_	O	O	
+7-4	wieder	ADV	wieder	_	O	O	
+7-5	daran	PAV	daran	_	O	O	
+7-6	den	ART	die	_	O	O	
+7-7	merkwürdigen	ADJA	merkwürdig	_	O	O	
+7-8	Proserpinaraub	NN	<unknown>	_	O	O	
+7-9	in	APPR	in	_	O	O	
+7-10	Villa	NN	Villa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-11	Medici	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+7-12	zeichnen	VVINF	zeichnen	_	O	O	
+7-13	zu	PTKZU	zu	_	O	O	
+7-14	lassen	VVINF	lassen	_	O	O	
+7-15	?	$.	?	_	O	O	
+
+#id=8
+#text=Hat sich keine Möglichkeit weiter gezeigt die Abbildung zu Inghirani Monumenti Etruschi I (Urne) allein zu kaufen ?
+8-1	Hat	VAFIN	haben	_	O	O	
+8-2	sich	PRF	sich	_	O	O	
+8-3	keine	PIAT	keine	_	O	O	
+8-4	Möglichkeit	NN	Möglichkeit	_	O	O	
+8-5	weiter	ADV	weiter	_	O	O	
+8-6	gezeigt	ADJD	gezeigt	_	O	O	
+8-7	die	ART	die	_	O	O	
+8-8	Abbildung	NN	Abbildung	_	O	O	
+8-9	zu	APPR	zu	_	O	O	
+8-10	Inghirani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-11	Monumenti	NN	<unknown>	_	O	O	
+8-12	Etruschi	NE	<unknown>	_	O	O	
+8-13	I	FM	I	_	O	O	
+8-14	(	$(	(	_	O	O	
+8-15	Urne	NN	Urne	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-16	)	$(	)	_	O	O	
+8-17	allein	ADV	allein	_	O	O	
+8-18	zu	PTKZU	zu	_	O	O	
+8-19	kaufen	VVINF	kaufen	_	O	O	
+8-20	?	$.	?	_	O	O	
+
+#id=9
+#text=In der 10.ten Auflage von Tölken's Scu~pturen Verzeichniß steht eine Jüppiter Statue verzeichnet als gefunden "an einem Ort in Massicci genannt in der Nähe des Dorfes il Crasso bei Rom" , mir unbekannt.
+9-1	In	APPR	in	_	O	O	
+9-2	der	ART	die	_	O	O	
+9-3	10.ten	ADJA	<unknown>	_	O	O	
+9-4	Auflage	NN	Auflage	_	O	O	
+9-5	von	APPR	von	_	O	O	
+9-6	Tölken's	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-7	Scu~pturen	NN	<unknown>	_	O	O	
+9-8	Verzeichniß	NN	<unknown>	_	O	O	
+9-9	steht	VVFIN	stehen	_	O	O	
+9-10	eine	ART	eine	_	O	O	
+9-11	Jüppiter	NN	<unknown>	_	O	O	
+9-12	Statue	NN	Statue	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-13	verzeichnet	VVFIN	verzeichnen	_	O	O	
+9-14	als	KOKOM	als	_	O	O	
+9-15	gefunden	VVPP	finden	_	O	O	
+9-16	"	$(	"	_	O	O	
+9-17	an	APPR	an	_	O	O	
+9-18	einem	ART	eine	_	O	O	
+9-19	Ort	NN	Ort	_	O	O	
+9-20	in	APPR	in	_	O	O	
+9-21	Massicci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-22	genannt	VVPP	nennen	_	O	O	
+9-23	in	APPR	in	_	O	O	
+9-24	der	ART	die	_	O	O	
+9-25	Nähe	NN	Nähe	_	O	O	
+9-26	des	ART	die	_	O	O	
+9-27	Dorfes	NN	Dorf	_	O	O	
+9-28	il	NE	il	_	O	O	
+9-29	Crasso	NE	<unknown>	_	O	O	
+9-30	bei	APPR	bei	_	O	O	
+9-31	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-32	"	$(	"	_	O	O	
+9-33	,	$,	,	_	O	O	
+9-34	mir	PRF	ich	_	O	O	
+9-35	unbekannt	ADJD	unbekannt	_	O	O	
+9-36	.	$.	.	_	O	O	
+
+#id=10
+#text=Können
+10-1	Können	VMFIN	können	_	O	O	
+

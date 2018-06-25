@@ -1,0 +1,273 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Lieber Herr Professor, Nadine Helbig an Henzen Siena, 25. Juli 1874 siehe: Helbig an Henzen vom 25. Juli 1874 tausend Dank für Ihren lieben Brief.
+1-1	Lieber	ADJA	lieb	_	O	O	
+1-2	Herr	NN	Herr	_	O	O	
+1-3	Professor	NN	Professor	_	O	O	
+1-4	,	$,	,	_	O	O	
+1-5	Nadine	NE	Nadine	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	Helbig	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	siehe	ADV	siehe	_	O	O	
+1-16	:	$.	:	_	O	O	
+1-17	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-18	an	APPR	an	_	O	O	
+1-19	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-20	vom	APPRART	von	_	O	O	
+1-21	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-22	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-23	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-24	1874	CARD	@card@	_	O	O	
+1-25	tausend	CARD	tausend	_	O	O	
+1-26	Dank	NN	Dank	_	O	O	
+1-27	für	APPR	für	_	O	O	
+1-28	Ihren	PPOSAT	ihr	_	O	O	
+1-29	lieben	ADJA	lieb	_	O	O	
+1-30	Brief	NN	Brief	_	O	O	
+1-31	.	$.	.	_	O	O	
+
+#id=2
+#text=Hoffentlich machen Sie Ernst mit Ihrem Besuch hier.
+2-1	Hoffentlich	ADV	hoffentlich	_	O	O	
+2-2	machen	VVFIN	machen	_	O	O	
+2-3	Sie	PPER	Sie	_	O	O	
+2-4	Ernst	NE	Ernst	_	O	O	
+2-5	mit	APPR	mit	_	O	O	
+2-6	Ihrem	PPOSAT	ihr	_	O	O	
+2-7	Besuch	NN	Besuch	_	O	O	
+2-8	hier	ADV	hier	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Es wäre mir sehr lieb, wenn Sie am 15.ten August hier wären, um dem Palio beizuwohnen.
+3-1	Es	PPER	es	_	O	O	
+3-2	wäre	VAFIN	sein	_	O	O	
+3-3	mir	PPER	ich	_	O	O	
+3-4	sehr	ADV	sehr	_	O	O	
+3-5	lieb	ADJD	lieb	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	wenn	KOUS	wenn	_	O	O	
+3-8	Sie	PPER	Sie	_	O	O	
+3-9	am	APPRART	an	_	O	O	
+3-10	15.ten	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-11	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-12	hier	ADV	hier	_	O	O	
+3-13	wären	VAFIN	sein	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	um	KOUI	um	_	O	O	
+3-16	dem	ART	die	_	O	O	
+3-17	Palio	NN	<unknown>	_	O	O	
+3-18	beizuwohnen	VVIZU	beiwohnen	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Auch Rosina würde dieser Klimawechsel wohl thun.
+4-1	Auch	ADV	auch	_	O	O	
+4-2	Rosina	NE	Rosina	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	würde	VAFIN	werden	_	O	O	
+4-4	dieser	PDAT	dies	_	O	O	
+4-5	Klimawechsel	NN	Klimawechsel	_	O	O	
+4-6	wohl	ADV	wohl	_	O	O	
+4-7	thun	NE	<unknown>	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=Sogar Wolfgang ist zufrieden, mir ist es zu kalt, so können wir z. B. heute nicht bei offenen Fenstern bleiben, denn draußen haben wir bloß 13 Grad R. und gestern sind wir in Plaids ausgegangen.
+5-1	Sogar	ADV	sogar	_	O	O	
+5-2	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	ist	VAFIN	sein	_	O	O	
+5-4	zufrieden	ADJD	zufrieden	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	mir	PPER	ich	_	O	O	
+5-7	ist	VAFIN	sein	_	O	O	
+5-8	es	PPER	es	_	O	O	
+5-9	zu	PTKA	zu	_	O	O	
+5-10	kalt	ADJD	kalt	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	so	ADV	so	_	O	O	
+5-13	können	VMFIN	können	_	O	O	
+5-14	wir	PPER	wir	_	O	O	
+5-15	z.	APPRART	z.	_	O	O	
+5-16	B.	NN	B.	_	O	O	
+5-17	heute	ADV	heute	_	O	O	
+5-18	nicht	PTKNEG	nicht	_	O	O	
+5-19	bei	APPR	bei	_	O	O	
+5-20	offenen	ADJA	offen	_	O	O	
+5-21	Fenstern	NN	Fenster	_	O	O	
+5-22	bleiben	VVINF	bleiben	_	O	O	
+5-23	,	$,	,	_	O	O	
+5-24	denn	KON	denn	_	O	O	
+5-25	draußen	ADV	draußen	_	O	O	
+5-26	haben	VAFIN	haben	_	O	O	
+5-27	wir	PPER	wir	_	O	O	
+5-28	bloß	ADJD	bloß	_	O	O	
+5-29	13	CARD	13	_	O	O	
+5-30	Grad	NN	Grad	_	O	O	
+5-31	R.	NE	R.	_	O	O	
+5-32	und	KON	und	_	O	O	
+5-33	gestern	ADV	gestern	_	O	O	
+5-34	sind	VAFIN	sein	_	O	O	
+5-35	wir	PPER	wir	_	O	O	
+5-36	in	APPR	in	_	O	O	
+5-37	Plaids	NN	<unknown>	_	O	O	
+5-38	ausgegangen	VVPP	ausgehen	_	O	O	
+5-39	.	$.	.	_	O	O	
+
+#id=6
+#text=Uns geht es Allen ausgezeichnet, aber ich habe viel Trauriges erlebt, da das jüngste Kind von Burtschaell's, meinen englischen Freunden, ganz plötzlich gestorben ist.
+6-1	Uns	PPER	wir	_	O	O	
+6-2	geht	VVFIN	gehen	_	O	O	
+6-3	es	PPER	es	_	O	O	
+6-4	Allen	NE	Allen	_	O	O	
+6-5	ausgezeichnet	VVPP	auszeichnen	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	aber	KON	aber	_	O	O	
+6-8	ich	PPER	ich	_	O	O	
+6-9	habe	VAFIN	haben	_	O	O	
+6-10	viel	PIAT	viele	_	O	O	
+6-11	Trauriges	NN	Traurige	_	O	O	
+6-12	erlebt	VVFIN	erleben	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	da	KOUS	da	_	O	O	
+6-15	das	ART	die	_	O	O	
+6-16	jüngste	ADJA	jung	_	O	O	
+6-17	Kind	NN	Kind	_	O	O	
+6-18	von	NE	von	_	O	O	
+6-19	Burtschaell's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-20	,	$,	,	_	O	O	
+6-21	meinen	PPOSAT	mein	_	O	O	
+6-22	englischen	ADJA	englisch	_	O	O	
+6-23	Freunden	NN	Freund	_	O	O	
+6-24	,	$,	,	_	O	O	
+6-25	ganz	ADV	ganz	_	O	O	
+6-26	plötzlich	ADJD	plötzlich	_	O	O	
+6-27	gestorben	VVPP	sterben	_	O	O	
+6-28	ist	VAFIN	sein	_	O	O	
+6-29	.	$.	.	_	O	O	
+
+#id=7
+#text=Wir haben uns sehr über Bormanns Besuch gefreut, sonst leben wir hier sehr einsam, wenngleich auch hier es unprotected females in Hülle und Fülle giebt.
+7-1	Wir	PPER	wir	_	O	O	
+7-2	haben	VAFIN	haben	_	O	O	
+7-3	uns	PPER	wir	_	O	O	
+7-4	sehr	ADV	sehr	_	O	O	
+7-5	über	APPR	über	_	O	O	
+7-6	Bormanns	NE	Bormann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-7	Besuch	NN	Besuch	_	O	O	
+7-8	gefreut	VVPP	freuen	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	sonst	ADV	sonst	_	O	O	
+7-11	leben	VVFIN	leben	_	O	O	
+7-12	wir	PPER	wir	_	O	O	
+7-13	hier	ADV	hier	_	O	O	
+7-14	sehr	ADV	sehr	_	O	O	
+7-15	einsam	ADJD	einsam	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	wenngleich	KOUS	wenngleich	_	O	O	
+7-18	auch	ADV	auch	_	O	O	
+7-19	hier	ADV	hier	_	O	O	
+7-20	es	PPER	es	_	O	O	
+7-21	unprotected	ADJA	<unknown>	_	O	O	
+7-22	females	ADJA	<unknown>	_	O	O	
+7-23	in	APPR	in	_	O	O	
+7-24	Hülle	NN	Hülle	_	O	O	
+7-25	und	KON	und	_	O	O	
+7-26	Fülle	NN	Fülle	_	O	O	
+7-27	giebt	VVFIN	<unknown>	_	O	O	
+7-28	.	$.	.	_	O	O	
+
+#id=8
+#text=Trotz fleißigem Sight seeing, haben wir noch lange nicht Alles gesehen.
+8-1	Trotz	APPR	trotz	_	O	O	
+8-2	fleißigem	ADJA	fleißig	_	O	O	
+8-3	Sight	NN	<unknown>	_	O	O	
+8-4	seeing	ADJD	<unknown>	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	haben	VAFIN	haben	_	O	O	
+8-7	wir	PPER	wir	_	O	O	
+8-8	noch	ADV	noch	_	O	O	
+8-9	lange	ADV	lange	_	O	O	
+8-10	nicht	PTKNEG	nicht	_	O	O	
+8-11	Alles	PIS	alle	_	O	O	
+8-12	gesehen	VVPP	sehen	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Jetzt fangen wir aber an zu arbeiten.
+9-1	Jetzt	ADV	jetzt	_	O	O	
+9-2	fangen	VVFIN	fangen	_	O	O	
+9-3	wir	PPER	wir	_	O	O	
+9-4	aber	ADV	aber	_	O	O	
+9-5	an	APZR	an	_	O	O	
+9-6	zu	PTKZU	zu	_	O	O	
+9-7	arbeiten	VVINF	arbeiten	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Wolf ist mit seiner Kur sehr zufrieden und ist sehr fleißig.
+10-1	Wolf	NE	Wolf	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	ist	VAFIN	sein	_	O	O	
+10-3	mit	APPR	mit	_	O	O	
+10-4	seiner	PPOSAT	sein	_	O	O	
+10-5	Kur	NN	Kur	_	O	O	
+10-6	sehr	ADV	sehr	_	O	O	
+10-7	zufrieden	ADJD	zufrieden	_	O	O	
+10-8	und	KON	und	_	O	O	
+10-9	ist	VAFIN	sein	_	O	O	
+10-10	sehr	ADV	sehr	_	O	O	
+10-11	fleißig	ADJD	fleißig	_	O	O	
+10-12	.	$.	.	_	O	O	
+
+#id=11
+#text=Joukowsky komponirt, wir beide wir kopiren eine herrliche Sybilla tiburtina von Peruzzi und ich bause den Fußboden in S. Caterina.
+11-1	Joukowsky	ADJA	<unknown>	_	O	O	
+11-2	komponirt	NN	<unknown>	_	O	O	
+11-3	,	$,	,	_	O	O	
+11-4	wir	PPER	wir	_	O	O	
+11-5	beide	PIS	beide	_	O	O	
+11-6	wir	PPER	wir	_	O	O	
+11-7	kopiren	NN	<unknown>	_	O	O	
+11-8	eine	ART	eine	_	O	O	
+11-9	herrliche	ADJA	herrlich	_	O	O	
+11-10	Sybilla	NE	Sybilla	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-11	tiburtina	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+11-12	von	APPR	von	_	O	O	
+11-13	Peruzzi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-14	und	KON	und	_	O	O	
+11-15	ich	PPER	ich	_	O	O	
+11-16	bause	VVFIN	<unknown>	_	O	O	
+11-17	den	ART	die	_	O	O	
+11-18	Fußboden	NN	Fußboden	_	O	O	
+11-19	in	APPR	in	_	O	O	
+11-20	S.	NE	S.	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-21	Caterina	NE	Caterina	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+11-22	.	$.	.	_	O	O	
+
+#id=12
+#text=Vorgestern habe ich einen langen Brief von Klügmann, aber dies schreibe ich Alles extra an Rosina.
+12-1	Vorgestern	ADV	vorgestern	_	O	O	
+12-2	habe	VAFIN	haben	_	O	O	
+12-3	ich	PPER	ich	_	O	O	
+12-4	einen	ART	eine	_	O	O	
+12-5	langen	ADJA	lang	_	O	O	
+12-6	Brief	NN	Brief	_	O	O	
+12-7	von	APPR	von	_	O	O	
+12-8	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-9	,	$,	,	_	O	O	
+12-10	aber	KON	aber	_	O	O	
+12-11	dies	PDS	dies	_	O	O	
+12-12	schreibe	VVFIN	schreiben	_	O	O	
+12-13	ich	PPER	ich	_	O	O	
+12-14	Alles	PIS	alle	_	O	O	
+12-15	extra	ADJD	extra	_	O	O	
+12-16	an	APPR	an	_	O	O	
+12-17	Rosina	NE	Rosina	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-18	.	$.	.	_	O	O	
+

@@ -1,0 +1,100 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=252 4 Lepsius an Henzen Berlin, 7. Juni 1872 Quer auf der ersten Seite : Zwei andre Monita kann ich hier erledigen.
+1-1	252	CARD	@card@	_	O	O	
+1-2	4	CARD	4	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Quer	ADV	quer	_	O	O	
+1-13	auf	APPR	auf	_	O	O	
+1-14	der	ART	die	_	O	O	
+1-15	ersten	ADJA	erst	_	O	O	
+1-16	Seite	NN	Seite	_	O	O	
+1-17	:	$.	:	_	O	O	
+1-18	Zwei	CARD	zwei	_	O	O	
+1-19	andre	PIAT	andere	_	O	O	
+1-20	Monita	NN	<unknown>	_	O	O	
+1-21	kann	VMFIN	können	_	O	O	
+1-22	ich	PPER	ich	_	O	O	
+1-23	hier	ADV	hier	_	O	O	
+1-24	erledigen	VVINF	erledigen	_	O	O	
+1-25	.	$.	.	_	O	O	
+
+#id=2
+#text=Es fehlen die Quittungen über die 25 r 12.
+2-1	Es	PPER	es	_	O	O	
+2-2	fehlen	VVFIN	fehlen	_	O	O	
+2-3	die	ART	die	_	O	O	
+2-4	Quittungen	NN	Quittung	_	O	O	
+2-5	über	APPR	über	_	O	O	
+2-6	die	ART	die	_	O	O	
+2-7	25	CARD	25	_	O	O	
+2-8	r	NE	r	_	O	O	
+2-9	12	CARD	12	_	O	O	
+2-10	.	$.	.	_	O	O	
+
+#id=3
+#text=6.
+3-1	6	CARD	6	_	O	O	
+3-2	.	$.	.	_	O	O	
+
+#id=4
+#text=Buchbinderlohn für die Instituts Werke nach Straßburg, und über die 25.10 Druck der Statuten.
+4-1	Buchbinderlohn	NN	<unknown>	_	O	O	
+4-2	für	APPR	für	_	O	O	
+4-3	die	ART	die	_	O	O	
+4-4	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-5	Werke	NN	Werk	_	O	O	
+4-6	nach	APPR	nach	_	O	O	
+4-7	Straßburg	NE	Straßburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-8	,	$,	,	_	O	O	
+4-9	und	KON	und	_	O	O	
+4-10	über	APPR	über	_	O	O	
+4-11	die	ART	die	_	O	O	
+4-12	25.10	CARD	@card@	_	O	O	
+4-13	Druck	NN	Druck	_	O	O	
+4-14	der	ART	die	_	O	O	
+4-15	Statuten	NN	Statut	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Wiederholen Sie doch schriftlich was ich Asher mündlich gesagt habe, daß er die Quitttungen über seine Auslagen Ihnen mit einsenden muß, damit Sie sie den~ Ministeriums beilegen können.
+5-1	Wiederholen	VVFIN	wiederholen	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	doch	ADV	doch	_	O	O	
+5-4	schriftlich	ADJD	schriftlich	_	O	O	
+5-5	was	PRELS	was	_	O	O	
+5-6	ich	PPER	ich	_	O	O	
+5-7	Asher	ADV	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-8	mündlich	ADJD	mündlich	_	O	O	
+5-9	gesagt	VVPP	sagen	_	O	O	
+5-10	habe	VAFIN	haben	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	daß	KOUS	dass	_	O	O	
+5-13	er	PPER	er	_	O	O	
+5-14	die	ART	die	_	O	O	
+5-15	Quitttungen	NN	<unknown>	_	O	O	
+5-16	über	APPR	über	_	O	O	
+5-17	seine	PPOSAT	sein	_	O	O	
+5-18	Auslagen	NN	Auslage	_	O	O	
+5-19	Ihnen	PPER	Sie	_	O	O	
+5-20	mit	PTKVZ	mit	_	O	O	
+5-21	einsenden	VVINF	einsenden	_	O	O	
+5-22	muß	VMFIN	müssen	_	O	O	
+5-23	,	$,	,	_	O	O	
+5-24	damit	KOUS	damit	_	O	O	
+5-25	Sie	PPER	Sie	_	O	O	
+5-26	sie	PPER	sie	_	O	O	
+5-27	den~	ADJA	<unknown>	_	O	O	
+5-28	Ministeriums	NN	Ministerium	_	O	O	
+5-29	beilegen	VVINF	beilegen	_	O	O	
+5-30	können	VMFIN	können	_	O	O	
+5-31	.	$.	.	_	O	O	
+

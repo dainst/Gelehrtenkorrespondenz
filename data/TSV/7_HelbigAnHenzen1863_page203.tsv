@@ -1,0 +1,71 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=297 Helbig an Henzen Achern, 31. Oktober 1873 2 ( Via dei Pausani ) • In Florenz werde ich mich jeden Falls einen ganzen Tag aufhalten, um die Vasi di buchero anzusehen und über dieselben die nöthigen Anweisungen zu geben.
+1-1	297	CARD	@card@	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	Achern	VVFIN	<unknown>	_	O	O	
+1-6	,	$,	,	_	O	O	
+1-7	31	CARD	31	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	(	$(	(	_	O	O	
+1-13	Via	NE	Via	_	O	O	
+1-14	dei	NE	<unknown>	_	O	O	
+1-15	Pausani	NE	<unknown>	_	O	O	
+1-16	)	$(	)	_	O	O	
+1-17	•	NN	<unknown>	_	O	O	
+1-18	In	APPR	in	_	O	O	
+1-19	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-20	werde	VAFIN	werden	_	O	O	
+1-21	ich	PPER	ich	_	O	O	
+1-22	mich	PRF	ich	_	O	O	
+1-23	jeden	PIAT	jede	_	O	O	
+1-24	Falls	NN	Fall	_	O	O	
+1-25	einen	ART	eine	_	O	O	
+1-26	ganzen	ADJA	ganz	_	O	O	
+1-27	Tag	NN	Tag	_	O	O	
+1-28	aufhalten	VVINF	aufhalten	_	O	O	
+1-29	,	$,	,	_	O	O	
+1-30	um	KOUI	um	_	O	O	
+1-31	die	ART	die	_	O	O	
+1-32	Vasi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-33	di	NE	di	_	I-webanno.custom.LetterEntity_	I-OBJ	
+1-34	buchero	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+1-35	anzusehen	VVIZU	ansehen	_	O	O	
+1-36	und	KON	und	_	O	O	
+1-37	über	APPR	über	_	O	O	
+1-38	dieselben	PDAT	dieselb	_	O	O	
+1-39	die	ART	die	_	O	O	
+1-40	nöthigen	ADJA	<unknown>	_	O	O	
+1-41	Anweisungen	NN	Anweisung	_	O	O	
+1-42	zu	PTKZU	zu	_	O	O	
+1-43	geben	VVINF	geben	_	O	O	
+1-44	.	$.	.	_	O	O	
+
+#id=2
+#text=Grüßen Sie, bitte, vielmals Klügmann, Fräulein Kopf und die Ragazzi.
+2-1	Grüßen	VVFIN	grüßen	_	O	O	
+2-2	Sie	PPER	Sie	_	O	O	
+2-3	,	$,	,	_	O	O	
+2-4	bitte	VVIMP	bitten	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	vielmals	ADV	vielmals	_	O	O	
+2-7	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-8	,	$,	,	_	O	O	
+2-9	Fräulein	NN	Fräulein	_	O	O	
+2-10	Kopf	NN	Kopf	_	O	O	
+2-11	und	KON	und	_	O	O	
+2-12	die	ART	die	_	O	O	
+2-13	Ragazzi	NE	<unknown>	_	O	O	
+2-14	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihr ergebener Helbig
+3-1	Ihr	PPOSAT	ihr	_	O	O	
+3-2	ergebener	ADJA	ergeben	_	O	O	
+3-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

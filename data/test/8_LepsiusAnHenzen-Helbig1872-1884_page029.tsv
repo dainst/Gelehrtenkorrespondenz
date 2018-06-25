@@ -1,0 +1,176 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=112 Lepsius an Berlin, 9. März 1872 2 2 Wohnungen für die beiden Sekretare jede a 6 Zimmer mit Zubehör.
+1-1	112	CARD	112	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	2	CARD	2	_	O	O	
+1-11	2	CARD	2	_	O	O	
+1-12	Wohnungen	NN	Wohnung	_	O	O	
+1-13	für	APPR	für	_	O	O	
+1-14	die	ART	die	_	O	O	
+1-15	beiden	PIAT	beide	_	O	O	
+1-16	Sekretare	NN	<unknown>	_	O	O	
+1-17	jede	PIAT	jede	_	O	O	
+1-18	a	FM	a	_	O	O	
+1-19	6	CARD	6	_	O	O	
+1-20	Zimmer	NN	Zimmer	_	O	O	
+1-21	mit	APPR	mit	_	O	O	
+1-22	Zubehör	NN	Zubehör	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Sehr nöthig ist ein genaues und übersichtliches Nivellement mit vollständigen Durchschnitten nach den beiden Hauptrichtungen von Monte Caprino nach der via Saponari und im rechten Winkel dazu.
+2-1	Sehr	ADV	sehr	_	O	O	
+2-2	nöthig	ADJD	<unknown>	_	O	O	
+2-3	ist	VAFIN	sein	_	O	O	
+2-4	ein	ART	eine	_	O	O	
+2-5	genaues	ADJA	genau	_	O	O	
+2-6	und	KON	und	_	O	O	
+2-7	übersichtliches	ADJA	übersichtlich	_	O	O	
+2-8	Nivellement	NN	<unknown>	_	O	O	
+2-9	mit	APPR	mit	_	O	O	
+2-10	vollständigen	ADJA	vollständig	_	O	O	
+2-11	Durchschnitten	NN	<unknown>	_	O	O	
+2-12	nach	APPR	nach	_	O	O	
+2-13	den	ART	die	_	O	O	
+2-14	beiden	PIAT	beide	_	O	O	
+2-15	Hauptrichtungen	NN	Hauptrichtung	_	O	O	
+2-16	von	APPR	von	_	O	O	
+2-17	Monte	NE	Monte	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-18	Caprino	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+2-19	nach	APPR	nach	_	O	O	
+2-20	der	ART	die	_	O	O	
+2-21	via	APPR	via	_	O	O	
+2-22	Saponari	NN	<unknown>	_	O	O	
+2-23	und	KON	und	_	O	O	
+2-24	im	APPRART	in	_	O	O	
+2-25	rechten	ADJA	recht|rechts	_	O	O	
+2-26	Winkel	NN	Winkel	_	O	O	
+2-27	dazu	PAV	dazu	_	O	O	
+2-28	.	$.	.	_	O	O	
+
+#id=3
+#text=Die die Meinung der Central Direktion.
+3-1	Die	ART	die	_	O	O	
+3-2	die	ART	die	_	O	O	
+3-3	Meinung	NN	Meinung	_	O	O	
+3-4	der	ART	die	_	O	O	
+3-5	Central	NN	<unknown>	_	O	O	
+3-6	Direktion	NN	Direktion	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Als meine Privatmeinung füge ich noch hinzu, daß es doch wohl noch möglich werden wird, den Plan wenn das Gebäude zurückgesetzt wird, zu erweitern, etwa in der Weise der Skizzen, wenn der jetzige Angriff auf den Finanz Minister, wie ich ihn jetzt mit Olshausen besprochen habe, gelingt.
+4-1	Als	KON	als	_	O	O	
+4-2	meine	PPOSAT	mein	_	O	O	
+4-3	Privatmeinung	NN	Privatmeinung	_	O	O	
+4-4	füge	VVFIN	fügen	_	O	O	
+4-5	ich	PPER	ich	_	O	O	
+4-6	noch	ADV	noch	_	O	O	
+4-7	hinzu	PTKVZ	hinzu	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	daß	KOUS	dass	_	O	O	
+4-10	es	PPER	es	_	O	O	
+4-11	doch	ADV	doch	_	O	O	
+4-12	wohl	ADV	wohl	_	O	O	
+4-13	noch	ADV	noch	_	O	O	
+4-14	möglich	ADJD	möglich	_	O	O	
+4-15	werden	VAINF	werden	_	O	O	
+4-16	wird	VAFIN	werden	_	O	O	
+4-17	,	$,	,	_	O	O	
+4-18	den	ART	die	_	O	O	
+4-19	Plan	NN	Plan	_	O	O	
+4-20	wenn	KOUS	wenn	_	O	O	
+4-21	das	ART	die	_	O	O	
+4-22	Gebäude	NN	Gebäude	_	O	O	
+4-23	zurückgesetzt	VVPP	zurücksetzen	_	O	O	
+4-24	wird	VAFIN	werden	_	O	O	
+4-25	,	$,	,	_	O	O	
+4-26	zu	PTKZU	zu	_	O	O	
+4-27	erweitern	VVINF	erweitern	_	O	O	
+4-28	,	$,	,	_	O	O	
+4-29	etwa	ADV	etwa	_	O	O	
+4-30	in	APPR	in	_	O	O	
+4-31	der	ART	die	_	O	O	
+4-32	Weise	NN	Weise	_	O	O	
+4-33	der	ART	die	_	O	O	
+4-34	Skizzen	NN	Skizze	_	O	O	
+4-35	,	$,	,	_	O	O	
+4-36	wenn	KOUS	wenn	_	O	O	
+4-37	der	ART	die	_	O	O	
+4-38	jetzige	ADJA	jetzig	_	O	O	
+4-39	Angriff	NN	Angriff	_	O	O	
+4-40	auf	APPR	auf	_	O	O	
+4-41	den	ART	die	_	O	O	
+4-42	Finanz	NN	Finanz	_	O	O	
+4-43	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-44	,	$,	,	_	O	O	
+4-45	wie	KOUS	wie	_	O	O	
+4-46	ich	PPER	ich	_	O	O	
+4-47	ihn	PPER	er	_	O	O	
+4-48	jetzt	ADV	jetzt	_	O	O	
+4-49	mit	APPR	mit	_	O	O	
+4-50	Olshausen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-51	besprochen	VVPP	besprechen	_	O	O	
+4-52	habe	VAFIN	haben	_	O	O	
+4-53	,	$,	,	_	O	O	
+4-54	gelingt	VVFIN	gelingen	_	O	O	
+4-55	.	$.	.	_	O	O	
+
+#id=5
+#text=Das kann sich aber erst in einigen Wochen entscheiden.
+5-1	Das	PDS	die	_	O	O	
+5-2	kann	VMFIN	können	_	O	O	
+5-3	sich	PRF	sich	_	O	O	
+5-4	aber	ADV	aber	_	O	O	
+5-5	erst	ADV	erst	_	O	O	
+5-6	in	APPR	in	_	O	O	
+5-7	einigen	PIAT	einige	_	O	O	
+5-8	Wochen	NN	Woche	_	O	O	
+5-9	entscheiden	VVINF	entscheiden	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Zur Zeit ist Olshausen wieder verreist.
+6-1	Zur	APPRART	zu	_	O	O	
+6-2	Zeit	NN	Zeit	_	O	O	
+6-3	ist	VAFIN	sein	_	O	O	
+6-4	Olshausen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	wieder	ADV	wieder	_	O	O	
+6-6	verreist	VVPP	verreisen	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=Der attache scientifique in Paris ist wie ich erwartete von Birm.
+7-1	Der	ART	die	_	O	O	
+7-2	attache	ADJA	<unknown>	_	O	O	
+7-3	scientifique	NN	<unknown>	_	O	O	
+7-4	in	APPR	in	_	O	O	
+7-5	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-6	ist	VAFIN	sein	_	O	O	
+7-7	wie	KOKOM	wie	_	O	O	
+7-8	ich	PPER	ich	_	O	O	
+7-9	erwartete	VVFIN	erwarten	_	O	O	
+7-10	von	APPR	von	_	O	O	
+7-11	Birm	NN	<unknown>	_	O	O	
+7-12	.	$.	.	_	O	O	
+
+#id=8
+#text=abgelehnt.
+8-1	abgelehnt	VVPP	ablehnen	_	O	O	
+8-2	.	$.	.	_	O	O	
+
+#id=9
+#text=~- Ihr R Lepsius
+9-1	~-	NN	<unknown>	_	O	O	
+9-2	Ihr	PPOSAT	ihr	_	O	O	
+9-3	R	NN	R	_	O	O	
+9-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

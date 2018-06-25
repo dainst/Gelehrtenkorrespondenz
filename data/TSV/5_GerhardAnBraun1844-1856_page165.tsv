@@ -1,0 +1,96 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=; 338 3 Gerhard an Braun Neapel, 3. Oktober 1845 halten; der Schärfe schien er mir nicht durchaus versichert zu sein.
+1-1	;	$.	;	_	O	O	
+1-2	338	CARD	@card@	_	O	O	
+1-3	3	CARD	3	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	halten	VVINF	halten	_	O	O	
+1-14	;	$.	;	_	O	O	
+1-15	der	ART	die	_	O	O	
+1-16	Schärfe	NN	Schärfe	_	O	O	
+1-17	schien	VVFIN	scheinen	_	O	O	
+1-18	er	PPER	er	_	O	O	
+1-19	mir	PRF	ich	_	O	O	
+1-20	nicht	PTKNEG	nicht	_	O	O	
+1-21	durchaus	ADV	durchaus	_	O	O	
+1-22	versichert	VVPP	versichern	_	O	O	
+1-23	zu	PTKZU	zu	_	O	O	
+1-24	sein	VAINF	sein	_	O	O	
+1-25	.	$.	.	_	O	O	
+
+#id=3
+#text=Fr~idländer wußte von keiner Ihnen schuldigen Antwort.
+3-1	Fr~idländer	NE	<unknown>	_	O	O	
+3-2	wußte	VVFIN	wissen	_	O	O	
+3-3	von	APPR	von	_	O	O	
+3-4	keiner	PIS	keine	_	O	O	
+3-5	Ihnen	PPER	Sie	_	O	O	
+3-6	schuldigen	ADJA	schuldig	_	O	O	
+3-7	Antwort	NN	Antwort	_	O	O	
+3-8	.	$.	.	_	O	O	
+
+#id=4
+#text=Mit Mommsen, der meinen Besuch in keiner Weise erwiedert hat, 80 daß ich ein bei Temple für ihn besprochenes Belitäfelchen nicht einmal überweisen kann, und mit Schrader geht er nächsten Sonnabend nach Scilien ab.
+4-1	Mit	APPR	mit	_	O	O	
+4-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	,	$,	,	_	O	O	
+4-4	der	PRELS	die	_	O	O	
+4-5	meinen	PPOSAT	mein	_	O	O	
+4-6	Besuch	NN	Besuch	_	O	O	
+4-7	in	APPR	in	_	O	O	
+4-8	keiner	PIAT	keine	_	O	O	
+4-9	Weise	NN	Weise	_	O	O	
+4-10	erwiedert	VVPP	<unknown>	_	O	O	
+4-11	hat	VAFIN	haben	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	80	CARD	80	_	O	O	
+4-14	daß	KOUS	dass	_	O	O	
+4-15	ich	PPER	ich	_	O	O	
+4-16	ein	ART	eine	_	O	O	
+4-17	bei	APPR	bei	_	O	O	
+4-18	Temple	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-19	für	APPR	für	_	O	O	
+4-20	ihn	PPER	er	_	O	O	
+4-21	besprochenes	ADJA	besprochen	_	O	O	
+4-22	Belitäfelchen	NN	<unknown>	_	O	O	
+4-23	nicht	PTKNEG	nicht	_	O	O	
+4-24	einmal	ADV	einmal	_	O	O	
+4-25	überweisen	VVINF	überweisen	_	O	O	
+4-26	kann	VMFIN	können	_	O	O	
+4-27	,	$,	,	_	O	O	
+4-28	und	KON	und	_	O	O	
+4-29	mit	APPR	mit	_	O	O	
+4-30	Schrader	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-31	geht	VVFIN	gehen	_	O	O	
+4-32	er	PPER	er	_	O	O	
+4-33	nächsten	ADJA	nah	_	O	O	
+4-34	Sonnabend	NN	Sonnabend	_	O	O	
+4-35	nach	APPR	nach	_	O	O	
+4-36	Scilien	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-37	ab	PTKVZ	ab	_	O	O	
+4-38	.	$.	.	_	O	O	
+
+#id=5
+#text=Mit besten Grüßen an Ihre liebe Frau und an Henzens Ihr Gerhard
+5-1	Mit	APPR	mit	_	O	O	
+5-2	besten	ADJA	gut	_	O	O	
+5-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+5-4	an	APPR	an	_	O	O	
+5-5	Ihre	PPOSAT	ihr	_	O	O	
+5-6	liebe	ADJA	lieb	_	O	O	
+5-7	Frau	NN	Frau	_	O	O	
+5-8	und	KON	und	_	O	O	
+5-9	an	APPR	an	_	O	O	
+5-10	Henzens	NN	<unknown>	_	O	O	
+5-11	Ihr	PPOSAT	ihr	_	O	O	
+5-12	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

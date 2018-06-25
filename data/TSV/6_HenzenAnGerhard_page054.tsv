@@ -1,0 +1,112 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=144 2/IV/52 4 Renzen an Gerhard Es ist gut, dß.
+1-1	144	CARD	@card@	_	O	O	
+1-2	2/IV/52	CARD	<unknown>	_	O	O	
+1-3	4	CARD	4	_	O	O	
+1-4	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Es	PPER	es	_	O	O	
+1-8	ist	VAFIN	sein	_	O	O	
+1-9	gut	ADJD	gut	_	O	O	
+1-10	,	$,	,	_	O	O	
+1-11	dß	VVFIN	<unknown>	_	O	O	
+1-12	.	$.	.	_	O	O	
+
+#id=2
+#text=dem Panofkaschen Unwesen u. Unsinn einmal zu Leibe gegangen wird.
+2-1	dem	ART	die	_	O	O	
+2-2	Panofkaschen	NN	<unknown>	_	O	O	
+2-3	Unwesen	NN	Unwesen	_	O	O	
+2-4	u.	APPR	um	_	O	O	
+2-5	Unsinn	NN	Unsinn	_	O	O	
+2-6	einmal	ADV	einmal	_	O	O	
+2-7	zu	APPR	zu	_	O	O	
+2-8	Leibe	NN	Leib	_	O	O	
+2-9	gegangen	VVPP	gehen	_	O	O	
+2-10	wird	VAFIN	werden	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Seit 5 Tagen endlich Frühling.
+3-1	Seit	APPR	seit	_	O	O	
+3-2	5	CARD	5	_	O	O	
+3-3	Tagen	NN	Tag	_	O	O	
+3-4	endlich	ADV	endlich	_	O	O	
+3-5	Frühling	NN	Frühling	_	O	O	
+3-6	.	$.	.	_	O	O	
+
+#id=4
+#text=Bis dahin war es noch sehr kalt u. unangenehm.
+4-1	Bis	KON	bis	_	O	O	
+4-2	dahin	PAV	dahin	_	O	O	
+4-3	war	VAFIN	sein	_	O	O	
+4-4	es	PPER	es	_	O	O	
+4-5	noch	ADV	noch	_	O	O	
+4-6	sehr	ADV	sehr	_	O	O	
+4-7	kalt	ADJD	kalt	_	O	O	
+4-8	u.	KON	und	_	O	O	
+4-9	unangenehm	ADJD	unangenehm	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=In der letzten Sitzung ein wüthendes Hieroglyphenduell zwischen Secchi u. Lanci; vielleicht haben damit des ersteren Vorlesungen bei uns ein Ende genommen, indem die Sache Skandal gemacht zu haben scheint.
+5-1	In	APPR	in	_	O	O	
+5-2	der	ART	die	_	O	O	
+5-3	letzten	ADJA	letzt	_	O	O	
+5-4	Sitzung	NN	Sitzung	_	O	O	
+5-5	ein	ART	eine	_	O	O	
+5-6	wüthendes	ADJA	<unknown>	_	O	O	
+5-7	Hieroglyphenduell	NN	<unknown>	_	O	O	
+5-8	zwischen	APPR	zwischen	_	O	O	
+5-9	Secchi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-10	u.	APPR	um	_	O	O	
+5-11	Lanci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-12	;	$.	;	_	O	O	
+5-13	vielleicht	ADV	vielleicht	_	O	O	
+5-14	haben	VAFIN	haben	_	O	O	
+5-15	damit	PAV	damit	_	O	O	
+5-16	des	ART	die	_	O	O	
+5-17	ersteren	PIAT	erstere	_	O	O	
+5-18	Vorlesungen	NN	Vorlesung	_	O	O	
+5-19	bei	APPR	bei	_	O	O	
+5-20	uns	PPER	wir	_	O	O	
+5-21	ein	ART	eine	_	O	O	
+5-22	Ende	NN	Ende	_	O	O	
+5-23	genommen	VVPP	nehmen	_	O	O	
+5-24	,	$,	,	_	O	O	
+5-25	indem	KOUS	indem	_	O	O	
+5-26	die	ART	die	_	O	O	
+5-27	Sache	NN	Sache	_	O	O	
+5-28	Skandal	NN	Skandal	_	O	O	
+5-29	gemacht	VVPP	machen	_	O	O	
+5-30	zu	PTKZU	zu	_	O	O	
+5-31	haben	VAINF	haben	_	O	O	
+5-32	scheint	VVFIN	scheinen	_	O	O	
+5-33	.	$.	.	_	O	O	
+
+#id=6
+#text=Leben Sie wohl.
+6-1	Leben	VVFIN	leben	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	wohl	ADV	wohl	_	O	O	
+6-4	.	$.	.	_	O	O	
+
+#id=7
+#text=Herzliche Grüße an Ihre Frau Gemahl in.
+7-1	Herzliche	ADJA	herzlich	_	O	O	
+7-2	Grüße	NN	Gruß	_	O	O	
+7-3	an	APPR	an	_	O	O	
+7-4	Ihre	PPOSAT	ihr	_	O	O	
+7-5	Frau	NN	Frau	_	O	O	
+7-6	Gemahl	NN	Gemahl	_	O	O	
+7-7	in	APPR	in	_	O	O	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=Ihr Rom 2/IV/52
+8-1	Ihr	PPOSAT	ihr	_	O	O	
+8-2	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+8-3	2/IV/52	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+

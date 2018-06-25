@@ -1,0 +1,51 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=329 Lepsius an Henzen Berlin, 13. Juni 1876 2 Grüßen Sie Mommsen herzlich, wenn er noch bei Ihnen ist.
+1-1	329	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	Grüßen	NN	Gruß|Grüßen	_	O	O	
+1-13	Sie	PPER	Sie	_	O	O	
+1-14	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-15	herzlich	ADJD	herzlich	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	wenn	KOUS	wenn	_	O	O	
+1-18	er	PPER	er	_	O	O	
+1-19	noch	ADV	noch	_	O	O	
+1-20	bei	APPR	bei	_	O	O	
+1-21	Ihnen	PPER	Sie	_	O	O	
+1-22	ist	VAFIN	sein	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Am Rande : Stets der Ihrige R Lepsius Sonnenbrand und Gewitterfluthen wechseln in diesen Tagen des Übergangs zum wirklichen Sommers.
+2-1	Am	APPRART	an	_	O	O	
+2-2	Rande	NN	Rand	_	O	O	
+2-3	:	$.	:	_	O	O	
+2-4	Stets	ADV	stets	_	O	O	
+2-5	der	ART	die	_	O	O	
+2-6	Ihrige	PPOSAT	ihrige	_	O	O	
+2-7	R	NN	R	_	O	O	
+2-8	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-9	Sonnenbrand	NE	Sonnenbrand	_	O	O	
+2-10	und	KON	und	_	O	O	
+2-11	Gewitterfluthen	NN	<unknown>	_	O	O	
+2-12	wechseln	VVFIN	wechseln	_	O	O	
+2-13	in	APPR	in	_	O	O	
+2-14	diesen	PDAT	dies	_	O	O	
+2-15	Tagen	NN	Tag	_	O	O	
+2-16	des	ART	die	_	O	O	
+2-17	Übergangs	NN	Übergang	_	O	O	
+2-18	zum	APPRART	zu	_	O	O	
+2-19	wirklichen	ADJA	wirklich	_	O	O	
+2-20	Sommers	NN	Sommer	_	O	O	
+2-21	.	$.	.	_	O	O	
+

@@ -1,0 +1,328 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=74 6/111/53 Verehrter Herr Professor !
+1-1	74	CARD	74	_	O	O	
+1-2	6/111/53	CARD	@card@	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	!	$.	!	_	O	O	
+
+#id=2
+#text=Henzen an Gerhard Dieses Mal leider eine Trauerbotschaft.
+2-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	an	APPR	an	_	O	O	
+2-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Dieses	PDAT	dies	_	O	O	
+2-5	Mal	NN	Mal	_	O	O	
+2-6	leider	ADV	leider	_	O	O	
+2-7	eine	ART	eine	_	O	O	
+2-8	Trauerbotschaft	NN	<unknown>	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Gestern Abend ist Kestner am Lungenschlage ganz unerwartet gestorben.
+3-1	Gestern	ADV	gestern	_	O	O	
+3-2	Abend	ADV	abend	_	O	O	
+3-3	ist	VAFIN	sein	_	O	O	
+3-4	Kestner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	am	APPRART	an	_	O	O	
+3-6	Lungenschlage	NN	<unknown>	_	O	O	
+3-7	ganz	ADV	ganz	_	O	O	
+3-8	unerwartet	ADJD	unerwartet	_	O	O	
+3-9	gestorben	VVPP	sterben	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Nach geringem Unwohlsein war er unvorsichtiger ViJeise bei dem schlechten Wetter ausgegangen u. hatte sich einen neuen Grippeanfall zugezogen, als plötzlich Tramontana eintrat, Frostwetter mit sich führte u. in Folge dieses jähen Uebergangs der Schlag erfolgte.
+4-1	Nach	APPR	nach	_	O	O	
+4-2	geringem	ADJA	gering	_	O	O	
+4-3	Unwohlsein	NN	Unwohlsein	_	O	O	
+4-4	war	VAFIN	sein	_	O	O	
+4-5	er	PPER	er	_	O	O	
+4-6	unvorsichtiger	ADJA	unvorsichtig	_	O	O	
+4-7	ViJeise	NN	<unknown>	_	O	O	
+4-8	bei	APPR	bei	_	O	O	
+4-9	dem	ART	die	_	O	O	
+4-10	schlechten	ADJA	schlecht	_	O	O	
+4-11	Wetter	NN	Wetter	_	O	O	
+4-12	ausgegangen	VVPP	ausgehen	_	O	O	
+4-13	u.	KON	und	_	O	O	
+4-14	hatte	VAFIN	haben	_	O	O	
+4-15	sich	PRF	sich	_	O	O	
+4-16	einen	ART	eine	_	O	O	
+4-17	neuen	ADJA	neu	_	O	O	
+4-18	Grippeanfall	NN	<unknown>	_	O	O	
+4-19	zugezogen	VVPP	zuziehen	_	O	O	
+4-20	,	$,	,	_	O	O	
+4-21	als	KOKOM	als	_	O	O	
+4-22	plötzlich	ADJD	plötzlich	_	O	O	
+4-23	Tramontana	NN	<unknown>	_	O	O	
+4-24	eintrat	VVFIN	eintreten	_	O	O	
+4-25	,	$,	,	_	O	O	
+4-26	Frostwetter	NN	Frostwetter	_	O	O	
+4-27	mit	APPR	mit	_	O	O	
+4-28	sich	PRF	sich	_	O	O	
+4-29	führte	VVFIN	führen	_	O	O	
+4-30	u.	APPR	um	_	O	O	
+4-31	in	APPR	in	_	O	O	
+4-32	Folge	NN	Folge	_	O	O	
+4-33	dieses	PDAT	dies	_	O	O	
+4-34	jähen	ADJA	jäh	_	O	O	
+4-35	Uebergangs	NN	<unknown>	_	O	O	
+4-36	der	ART	die	_	O	O	
+4-37	Schlag	NN	Schlag	_	O	O	
+4-38	erfolgte	VVFIN	erfolgen	_	O	O	
+4-39	.	$.	.	_	O	O	
+
+#id=5
+#text=In 2 Stunden war er todt.
+5-1	In	APPR	in	_	O	O	
+5-2	2	CARD	2	_	O	O	
+5-3	Stunden	NN	Stunde|Stunden	_	O	O	
+5-4	war	VAFIN	sein	_	O	O	
+5-5	er	PPER	er	_	O	O	
+5-6	todt	ADJD	<unknown>	_	O	O	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=Er starb bei vollem Bewußtsein, nahm von seinen Dienern u. den wenigen anwesenden Freunden Abschied, ließ viele grüßen, schrieb sich selbst noch seine Grabschrift, empfahl den Anwesenden zu sorgen, dß.seine Kunstsachen gut nach Hannover transpoDtirt würden u. hie.8 dann alle abtreten, um ruhig einzuschlafen.
+6-1	Er	PPER	er	_	O	O	
+6-2	starb	VVFIN	sterben	_	O	O	
+6-3	bei	APPR	bei	_	O	O	
+6-4	vollem	ADJA	voll	_	O	O	
+6-5	Bewußtsein	NN	Bewusstsein	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	nahm	VVFIN	nehmen	_	O	O	
+6-8	von	APPR	von	_	O	O	
+6-9	seinen	PPOSAT	sein	_	O	O	
+6-10	Dienern	NN	Diener	_	O	O	
+6-11	u.	APPR	um	_	O	O	
+6-12	den	ART	die	_	O	O	
+6-13	wenigen	PIAT	wenige	_	O	O	
+6-14	anwesenden	ADJA	anwesend	_	O	O	
+6-15	Freunden	NN	Freund	_	O	O	
+6-16	Abschied	NN	Abschied	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	ließ	VVFIN	lassen	_	O	O	
+6-19	viele	PIS	viele	_	O	O	
+6-20	grüßen	VVINF	grüßen	_	O	O	
+6-21	,	$,	,	_	O	O	
+6-22	schrieb	VVFIN	schreiben	_	O	O	
+6-23	sich	PRF	sich	_	O	O	
+6-24	selbst	ADV	selbst	_	O	O	
+6-25	noch	ADV	noch	_	O	O	
+6-26	seine	PPOSAT	sein	_	O	O	
+6-27	Grabschrift	NN	Grabschrift	_	O	O	
+6-28	,	$,	,	_	O	O	
+6-29	empfahl	VVFIN	empfehlen	_	O	O	
+6-30	den	ART	die	_	O	O	
+6-31	Anwesenden	NN	Anwesende	_	O	O	
+6-32	zu	PTKZU	zu	_	O	O	
+6-33	sorgen	VVINF	sorgen	_	O	O	
+6-34	,	$,	,	_	O	O	
+6-35	dß.seine	ADJA	<unknown>	_	O	O	
+6-36	Kunstsachen	NN	<unknown>	_	O	O	
+6-37	gut	ADJD	gut	_	O	O	
+6-38	nach	APPR	nach	_	O	O	
+6-39	Hannover	NE	Hannover	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-40	transpoDtirt	NN	<unknown>	_	O	O	
+6-41	würden	VAFIN	werden	_	O	O	
+6-42	u.	APPR	um	_	O	O	
+6-43	hie.8	CARD	<unknown>	_	O	O	
+6-44	dann	ADV	dann	_	O	O	
+6-45	alle	PIS	alle	_	O	O	
+6-46	abtreten	VVINF	abtreten	_	O	O	
+6-47	,	$,	,	_	O	O	
+6-48	um	KOUI	um	_	O	O	
+6-49	ruhig	ADJD	ruhig	_	O	O	
+6-50	einzuschlafen	VVIZU	einschlafen	_	O	O	
+6-51	.	$.	.	_	O	O	
+
+#id=7
+#text=Er war 76 Jahre alt geworden.
+7-1	Er	PPER	er	_	O	O	
+7-2	war	VAFIN	sein	_	O	O	
+7-3	76	CARD	@card@	_	O	O	
+7-4	Jahre	NN	Jahr	_	O	O	
+7-5	alt	ADJD	alt	_	O	O	
+7-6	geworden	VAPP	werden	_	O	O	
+7-7	.	$.	.	_	O	O	
+
+#id=8
+#text=Für viele ist sein ~od denn noch immer ein bedeutender Verlust, u. hin u. wieder werden auch wir ihn noch vermissen.
+8-1	Für	APPR	für	_	O	O	
+8-2	viele	PIS	viele	_	O	O	
+8-3	ist	VAFIN	sein	_	O	O	
+8-4	sein	PPOSAT	sein	_	O	O	
+8-5	~od	NN	<unknown>	_	O	O	
+8-6	denn	KON	denn	_	O	O	
+8-7	noch	ADV	noch	_	O	O	
+8-8	immer	ADV	immer	_	O	O	
+8-9	ein	ART	eine	_	O	O	
+8-10	bedeutender	ADJA	bedeutend	_	O	O	
+8-11	Verlust	NN	Verlust	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	u.	KON	und	_	O	O	
+8-14	hin	ADV	hin	_	O	O	
+8-15	u.	APPR	um	_	O	O	
+8-16	wieder	ADV	wieder	_	O	O	
+8-17	werden	VAFIN	werden	_	O	O	
+8-18	auch	ADV	auch	_	O	O	
+8-19	wir	PPER	wir	_	O	O	
+8-20	ihn	PPER	er	_	O	O	
+8-21	noch	ADV	noch	_	O	O	
+8-22	vermissen	VVINF	vermissen	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=Einstweilen nun müßen wir sofort auf einen Ersatz für ihn denken, u., wie es nun einmal ist, meinen auch Braun u. Welcker die einzige Möglichkeit sei, Usedom zu bitten, für die Zeit seines Hierseins die Vicepräsidentschaft zu übernehmen.
+9-1	Einstweilen	ADV	einstweilen	_	O	O	
+9-2	nun	ADV	nun	_	O	O	
+9-3	müßen	VVFIN	<unknown>	_	O	O	
+9-4	wir	PPER	wir	_	O	O	
+9-5	sofort	ADV	sofort	_	O	O	
+9-6	auf	APPR	auf	_	O	O	
+9-7	einen	ART	eine	_	O	O	
+9-8	Ersatz	NN	Ersatz	_	O	O	
+9-9	für	APPR	für	_	O	O	
+9-10	ihn	PPER	er	_	O	O	
+9-11	denken	VVINF	denken	_	O	O	
+9-12	,	$,	,	_	O	O	
+9-13	u.	KON	und	_	O	O	
+9-14	,	$,	,	_	O	O	
+9-15	wie	KOUS	wie	_	O	O	
+9-16	es	PPER	es	_	O	O	
+9-17	nun	ADV	nun	_	O	O	
+9-18	einmal	ADV	einmal	_	O	O	
+9-19	ist	VAFIN	sein	_	O	O	
+9-20	,	$,	,	_	O	O	
+9-21	meinen	VVFIN	meinen	_	O	O	
+9-22	auch	ADV	auch	_	O	O	
+9-23	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-24	u.	APPR	um	_	O	O	
+9-25	Welcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-26	die	ART	die	_	O	O	
+9-27	einzige	ADJA	einzig	_	O	O	
+9-28	Möglichkeit	NN	Möglichkeit	_	O	O	
+9-29	sei	VAFIN	sein	_	O	O	
+9-30	,	$,	,	_	O	O	
+9-31	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-32	zu	PTKZU	zu	_	O	O	
+9-33	bitten	VVINF	bitten	_	O	O	
+9-34	,	$,	,	_	O	O	
+9-35	für	APPR	für	_	O	O	
+9-36	die	ART	die	_	O	O	
+9-37	Zeit	NN	Zeit	_	O	O	
+9-38	seines	PPOSAT	sein	_	O	O	
+9-39	Hierseins	NN	Hiersein	_	O	O	
+9-40	die	ART	die	_	O	O	
+9-41	Vicepräsidentschaft	NN	<unknown>	_	O	O	
+9-42	zu	PTKZU	zu	_	O	O	
+9-43	übernehmen	VVINF	übernehmen	_	O	O	
+9-44	.	$.	.	_	O	O	
+
+#id=10
+#text=Einen Diplomaten von Rang können wir doch nicht füglieh entbehren.
+10-1	Einen	ART	eine	_	O	O	
+10-2	Diplomaten	NN	Diplomat	_	O	O	
+10-3	von	APPR	von	_	O	O	
+10-4	Rang	NN	Rang	_	O	O	
+10-5	können	VMFIN	können	_	O	O	
+10-6	wir	PPER	wir	_	O	O	
+10-7	doch	ADV	doch	_	O	O	
+10-8	nicht	PTKNEG	nicht	_	O	O	
+10-9	füglieh	VVFIN	<unknown>	_	O	O	
+10-10	entbehren	VVINF	entbehren	_	O	O	
+10-11	.	$.	.	_	O	O	
+
+#id=11
+#text=Es scheint mir vernünftig, den Gedanken an eine Denkmünze aufzugeben.
+11-1	Es	PPER	es	_	O	O	
+11-2	scheint	VVFIN	scheinen	_	O	O	
+11-3	mir	PPER	ich	_	O	O	
+11-4	vernünftig	ADJD	vernünftig	_	O	O	
+11-5	,	$,	,	_	O	O	
+11-6	den	ART	die	_	O	O	
+11-7	Gedanken	NN	Gedanke	_	O	O	
+11-8	an	APPR	an	_	O	O	
+11-9	eine	ART	eine	_	O	O	
+11-10	Denkmünze	NN	<unknown>	_	O	O	
+11-11	aufzugeben	VVIZU	aufgeben	_	O	O	
+11-12	.	$.	.	_	O	O	
+
+#id=12
+#text=Man wiirde eine solche von Seiten der großen Majorität gewiß mißbilligen, abgesehen davon, dß.
+12-1	Man	PIS	man	_	O	O	
+12-2	wiirde	VVFIN	<unknown>	_	O	O	
+12-3	eine	ART	eine	_	O	O	
+12-4	solche	PIS	solche	_	O	O	
+12-5	von	APPR	von	_	O	O	
+12-6	Seiten	NN	Seite	_	O	O	
+12-7	der	ART	die	_	O	O	
+12-8	großen	ADJA	groß	_	O	O	
+12-9	Majorität	NN	Majorität	_	O	O	
+12-10	gewiß	ADJD	gewiss	_	O	O	
+12-11	mißbilligen	VVINF	missbilligen	_	O	O	
+12-12	,	$,	,	_	O	O	
+12-13	abgesehen	ADJD	abgesehen	_	O	O	
+12-14	davon	PAV	davon	_	O	O	
+12-15	,	$,	,	_	O	O	
+12-16	dß	VVFIN	<unknown>	_	O	O	
+12-17	.	$.	.	_	O	O	
+
+#id=13
+#text=solche Medaillen mit ihren Allegorien immer sehr schwach ausfallen.
+13-1	solche	PIAT	solche	_	O	O	
+13-2	Medaillen	NN	Medaille	_	O	O	
+13-3	mit	APPR	mit	_	O	O	
+13-4	ihren	PPOSAT	ihr	_	O	O	
+13-5	Allegorien	NN	Allegorie	_	O	O	
+13-6	immer	ADV	immer	_	O	O	
+13-7	sehr	ADV	sehr	_	O	O	
+13-8	schwach	ADJD	schwach	_	O	O	
+13-9	ausfallen	VVFIN	ausfallen	_	O	O	
+13-10	.	$.	.	_	O	O	
+
+#id=14
+#text=Soll man nun aber gar noch ds.
+14-1	Soll	VMFIN	sollen	_	O	O	
+14-2	man	PIS	man	_	O	O	
+14-3	nun	ADV	nun	_	O	O	
+14-4	aber	ADV	aber	_	O	O	
+14-5	gar	ADV	gar	_	O	O	
+14-6	noch	ADV	noch	_	O	O	
+14-7	ds.	ADJD	<unknown>	_	O	O	
+
+#id=15
+#text=Geld dazu erbetteln, so finde ich es geradezu unwlirdie;.
+15-1	Geld	NN	Geld	_	O	O	
+15-2	dazu	PAV	dazu	_	O	O	
+15-3	erbetteln	VVFIN	erbetteln	_	O	O	
+15-4	,	$,	,	_	O	O	
+15-5	so	ADV	so	_	O	O	
+15-6	finde	VVFIN	finden	_	O	O	
+15-7	ich	PPER	ich	_	O	O	
+15-8	es	PPER	es	_	O	O	
+15-9	geradezu	ADV	geradezu	_	O	O	
+15-10	unwlirdie	ADJD	<unknown>	_	O	O	
+15-11	;	$.	;	_	O	O	
+15-12	.	$.	.	_	O	O	
+
+#id=16
+#text='lViII man etwas thun, so veranstalte man irgend eine Extrapublication eines bedeu-
+16-1	'	$(	'	_	O	O	
+16-2	lViII	NN	<unknown>	_	O	O	
+16-3	man	PIS	man	_	O	O	
+16-4	etwas	ADV	etwas	_	O	O	
+16-5	thun	NE	<unknown>	_	O	O	
+16-6	,	$,	,	_	O	O	
+16-7	so	ADV	so	_	O	O	
+16-8	veranstalte	VVFIN	veranstalten	_	O	O	
+16-9	man	PIS	man	_	O	O	
+16-10	irgend	ADV	irgend	_	O	O	
+16-11	eine	ART	eine	_	O	O	
+16-12	Extrapublication	NN	<unknown>	_	O	O	
+16-13	eines	ART	eine	_	O	O	
+16-14	bedeu-	TRUNC	Bedeu-	_	O	O	
+

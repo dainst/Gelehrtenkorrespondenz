@@ -1,0 +1,244 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=H Lieber Herr Professor Relbig an Renzen Rom, 29. August 1866 g. 12/9 66 n. c. r. Roma li 29. Agosto 1866 Herzlichen Dank für Ihren freundlichen Brief und Ihren Glückwunsch.
+1-1	H	NN	H	_	O	O	
+1-2	Lieber	ADJA	lieb	_	O	O	
+1-3	Herr	NN	Herr	_	O	O	
+1-4	Professor	NN	Professor	_	O	O	
+1-5	Relbig	ADJD	<unknown>	_	O	O	
+1-6	an	APPR	an	_	O	O	
+1-7	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	12/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	66	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	n.	APPR	n.	_	O	O	
+1-18	c.	ADJA	<unknown>	_	O	O	
+1-19	r.	ADJA	<unknown>	_	O	O	
+1-20	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-21	li	VVFIN	<unknown>	_	O	O	
+1-22	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-23	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-24	Agosto	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-25	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-26	Herzlichen	ADJA	herzlich	_	O	O	
+1-27	Dank	NN	Dank	_	O	O	
+1-28	für	APPR	für	_	O	O	
+1-29	Ihren	PPOSAT	ihr	_	O	O	
+1-30	freundlichen	ADJA	freundlich	_	O	O	
+1-31	Brief	NN	Brief	_	O	O	
+1-32	und	KON	und	_	O	O	
+1-33	Ihren	PPOSAT	ihr	_	O	O	
+1-34	Glückwunsch	NN	Glückwunsch	_	O	O	
+1-35	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich habe hier in den letzten Zeiten wie auf Kohlen gesessen, da bereits seit Freitag, also seit 6 Tagen, das Telegramm eingetroffen ist, welches mich zur Abreise aufforderte.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	habe	VAFIN	haben	_	O	O	
+2-3	hier	ADV	hier	_	O	O	
+2-4	in	APPR	in	_	O	O	
+2-5	den	ART	die	_	O	O	
+2-6	letzten	ADJA	letzt	_	O	O	
+2-7	Zeiten	NN	Zeit	_	O	O	
+2-8	wie	KOKOM	wie	_	O	O	
+2-9	auf	APPR	auf	_	O	O	
+2-10	Kohlen	NN	Kohle	_	O	O	
+2-11	gesessen	VVPP	sitzen	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	da	KOUS	da	_	O	O	
+2-14	bereits	ADV	bereits	_	O	O	
+2-15	seit	APPR	seit	_	O	O	
+2-16	Freitag	NN	Freitag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-17	,	$,	,	_	O	O	
+2-18	also	ADV	also	_	O	O	
+2-19	seit	APPR	seit	_	O	O	
+2-20	6	CARD	6	_	O	O	
+2-21	Tagen	NN	Tag	_	O	O	
+2-22	,	$,	,	_	O	O	
+2-23	das	ART	die	_	O	O	
+2-24	Telegramm	NN	Telegramm	_	O	O	
+2-25	eingetroffen	VVPP	eintreffen	_	O	O	
+2-26	ist	VAFIN	sein	_	O	O	
+2-27	,	$,	,	_	O	O	
+2-28	welches	PRELS	welche	_	O	O	
+2-29	mich	PRF	ich	_	O	O	
+2-30	zur	APPRART	zu	_	O	O	
+2-31	Abreise	NN	Abreise	_	O	O	
+2-32	aufforderte	VVFIN	auffordern	_	O	O	
+2-33	.	$.	.	_	O	O	
+
+#id=3
+#text=Wenn ich fertig werden kann, reise ich schon morgen.
+3-1	Wenn	KOUS	wenn	_	O	O	
+3-2	ich	PPER	ich	_	O	O	
+3-3	fertig	ADJD	fertig	_	O	O	
+3-4	werden	VAINF	werden	_	O	O	
+3-5	kann	VMFIN	können	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	reise	VVFIN	reisen	_	O	O	
+3-8	ich	PPER	ich	_	O	O	
+3-9	schon	ADV	schon	_	O	O	
+3-10	morgen	ADV	morgen	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=Da jede Minute kostbar ist, so erlaube ich mir nur Sie darauf aufmerksam zu machen, daß Sie auf Ihrem Stehpulte unter dem marmornen Briefbeschwerer die nöthigen Bemerkungen über den Stand der Geschäfte vorfinden werden und über etwaige Punkte, über welche ich von unserer früheren Verabredung vorläufig abgewichen bin.
+4-1	Da	ADV	da	_	O	O	
+4-2	jede	PIAT	jede	_	O	O	
+4-3	Minute	NN	Minute	_	O	O	
+4-4	kostbar	ADJD	kostbar	_	O	O	
+4-5	ist	VAFIN	sein	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	so	ADV	so	_	O	O	
+4-8	erlaube	VVFIN	erlauben	_	O	O	
+4-9	ich	PPER	ich	_	O	O	
+4-10	mir	PRF	ich	_	O	O	
+4-11	nur	ADV	nur	_	O	O	
+4-12	Sie	PPER	Sie	_	O	O	
+4-13	darauf	PAV	darauf	_	O	O	
+4-14	aufmerksam	ADJD	aufmerksam	_	O	O	
+4-15	zu	PTKZU	zu	_	O	O	
+4-16	machen	VVINF	machen	_	O	O	
+4-17	,	$,	,	_	O	O	
+4-18	daß	KOUS	dass	_	O	O	
+4-19	Sie	PPER	Sie	_	O	O	
+4-20	auf	APPR	auf	_	O	O	
+4-21	Ihrem	PPOSAT	ihr	_	O	O	
+4-22	Stehpulte	NN	Stehpult	_	O	O	
+4-23	unter	APPR	unter	_	O	O	
+4-24	dem	ART	die	_	O	O	
+4-25	marmornen	ADJA	marmorn	_	O	O	
+4-26	Briefbeschwerer	NN	Briefbeschwerer	_	O	O	
+4-27	die	ART	die	_	O	O	
+4-28	nöthigen	ADJA	<unknown>	_	O	O	
+4-29	Bemerkungen	NN	Bemerkung	_	O	O	
+4-30	über	APPR	über	_	O	O	
+4-31	den	ART	die	_	O	O	
+4-32	Stand	NN	Stand	_	O	O	
+4-33	der	ART	die	_	O	O	
+4-34	Geschäfte	NN	Geschäft	_	O	O	
+4-35	vorfinden	VVINF	vorfinden	_	O	O	
+4-36	werden	VAFIN	werden	_	O	O	
+4-37	und	KON	und	_	O	O	
+4-38	über	APPR	über	_	O	O	
+4-39	etwaige	ADJA	etwaig	_	O	O	
+4-40	Punkte	NN	Punkt	_	O	O	
+4-41	,	$,	,	_	O	O	
+4-42	über	APPR	über	_	O	O	
+4-43	welche	PRELS	welche	_	O	O	
+4-44	ich	PPER	ich	_	O	O	
+4-45	von	APPR	von	_	O	O	
+4-46	unserer	PPOSAT	unser	_	O	O	
+4-47	früheren	ADJA	früh	_	O	O	
+4-48	Verabredung	NN	Verabredung	_	O	O	
+4-49	vorläufig	ADJD	vorläufig	_	O	O	
+4-50	abgewichen	VVPP	abweichen	_	O	O	
+4-51	bin	VAFIN	sein	_	O	O	
+4-52	.	$.	.	_	O	O	
+
+#id=5
+#text=Zu Ihrer Beruhigung sei Ihnen notificirt, daß das Augustbullettino gestern spedirt worden ist, daß von den Annali Bogen 16 gedruckt ist, ebenso sämmtliche Tav.
+5-1	Zu	APPR	zu	_	O	O	
+5-2	Ihrer	PPOSAT	ihr	_	O	O	
+5-3	Beruhigung	NN	Beruhigung	_	O	O	
+5-4	sei	VAFIN	sein	_	O	O	
+5-5	Ihnen	PPER	Sie	_	O	O	
+5-6	notificirt	NN	<unknown>	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	daß	KOUS	dass	_	O	O	
+5-9	das	ART	die	_	O	O	
+5-10	Augustbullettino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-11	gestern	ADV	gestern	_	O	O	
+5-12	spedirt	ADJD	<unknown>	_	O	O	
+5-13	worden	VAPP	werden	_	O	O	
+5-14	ist	VAFIN	sein	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	daß	KOUS	dass	_	O	O	
+5-17	von	APPR	von	_	O	O	
+5-18	den	ART	die	_	O	O	
+5-19	Annali	NE	<unknown>	_	O	O	
+5-20	Bogen	NN	Bogen	_	O	O	
+5-21	16	CARD	16	_	O	O	
+5-22	gedruckt	VVPP	drucken	_	O	O	
+5-23	ist	VAFIN	sein	_	O	O	
+5-24	,	$,	,	_	O	O	
+5-25	ebenso	ADV	ebenso	_	O	O	
+5-26	sämmtliche	ADJA	<unknown>	_	O	O	
+5-27	Tav	NE	<unknown>	_	O	O	
+5-28	.	$.	.	_	O	O	
+
+#id=6
+#text=dragge bis R inclusive.
+6-1	dragge	NN	<unknown>	_	O	O	
+6-2	bis	KON	bis	_	O	O	
+6-3	R	NN	R	_	O	O	
+6-4	inclusive	NN	<unknown>	_	O	O	
+6-5	.	$.	.	_	O	O	
+
+#id=7
+#text=Von den Monumenti habe ich nur drei Tafeln drucken lassen können,was an der Langsamkeit der Bearbeiter liegt.
+7-1	Von	APPR	von	_	O	O	
+7-2	den	ART	die	_	O	O	
+7-3	Monumenti	NN	<unknown>	_	O	O	
+7-4	habe	VAFIN	haben	_	O	O	
+7-5	ich	PPER	ich	_	O	O	
+7-6	nur	ADV	nur	_	O	O	
+7-7	drei	CARD	drei	_	O	O	
+7-8	Tafeln	NN	Tafel	_	O	O	
+7-9	drucken	VVINF	drucken	_	O	O	
+7-10	lassen	VVFIN	lassen	_	O	O	
+7-11	können,was	NE	<unknown>	_	O	O	
+7-12	an	APPR	an	_	O	O	
+7-13	der	ART	die	_	O	O	
+7-14	Langsamkeit	NN	Langsamkeit	_	O	O	
+7-15	der	ART	die	_	O	O	
+7-16	Bearbeiter	NN	Bearbeiter	_	O	O	
+7-17	liegt	VVFIN	liegen	_	O	O	
+7-18	.	$.	.	_	O	O	
+
+#id=8
+#text=Der einzige Impiccio ist der unselige Geldzettel, welchen ich immer noch vergeblich suche.
+8-1	Der	ART	die	_	O	O	
+8-2	einzige	ADJA	einzig	_	O	O	
+8-3	Impiccio	NN	<unknown>	_	O	O	
+8-4	ist	VAFIN	sein	_	O	O	
+8-5	der	ART	die	_	O	O	
+8-6	unselige	ADJA	unselig	_	O	O	
+8-7	Geldzettel	NN	<unknown>	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	welchen	PRELS	welche	_	O	O	
+8-10	ich	PPER	ich	_	O	O	
+8-11	immer	ADV	immer	_	O	O	
+8-12	noch	ADV	noch	_	O	O	
+8-13	vergeblich	ADJD	vergeblich	_	O	O	
+8-14	suche	VVFIN	suchen	_	O	O	
+8-15	.	$.	.	_	O	O	
+
+#id=9
+#text=Über Garruccis Wunsch werden Sie unterdeß geantwortet haben.
+9-1	Über	APPR	über	_	O	O	
+9-2	Garruccis	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-3	Wunsch	NN	Wunsch	_	O	O	
+9-4	werden	VAFIN	werden	_	O	O	
+9-5	Sie	PPER	Sie	_	O	O	
+9-6	unterdeß	NN	<unknown>	_	O	O	
+9-7	geantwortet	VVPP	antworten	_	O	O	
+9-8	haben	VAINF	haben	_	O	O	
+9-9	.	$.	.	_	O	O	
+
+#id=10
+#text=Benndorf wird ihm, falls ich schon
+10-1	Benndorf	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	wird	VAFIN	werden	_	O	O	
+10-3	ihm	PPER	er	_	O	O	
+10-4	,	$,	,	_	O	O	
+10-5	falls	KOUS	falls	_	O	O	
+10-6	ich	PPER	ich	_	O	O	
+10-7	schon	ADV	schon	_	O	O	
+

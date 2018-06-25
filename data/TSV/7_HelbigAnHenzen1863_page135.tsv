@@ -1,0 +1,166 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=293 2 Helbig an Henzen Rom, 16. Juli 1870 Von Briefen nichts Erhebliches: Eine erneute Bestellung von Gypsabgüssen von Seiten Lübkes; Bitte von Lempertz um baldige Zahlung Wechsel ist bereits expedirt; Rossi aus Arezzo über die dortigen Ausgrabungen - werden von mir auf der Reise in die Schweiz in Augenschein genommen werden.
+1-1	293	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Von	APPR	von	_	O	O	
+1-13	Briefen	NN	Brief	_	O	O	
+1-14	nichts	PIAT	nichts	_	O	O	
+1-15	Erhebliches	NN	Erhebliche	_	O	O	
+1-16	:	$.	:	_	O	O	
+1-17	Eine	ART	eine	_	O	O	
+1-18	erneute	ADJA	erneut	_	O	O	
+1-19	Bestellung	NN	Bestellung	_	O	O	
+1-20	von	APPR	von	_	O	O	
+1-21	Gypsabgüssen	NN	<unknown>	_	O	O	
+1-22	von	APPR	von	_	O	O	
+1-23	Seiten	NN	Seite	_	O	O	
+1-24	Lübkes	NN	<unknown>	_	O	O	
+1-25	;	$.	;	_	O	O	
+1-26	Bitte	ADV	Bitte	_	O	O	
+1-27	von	APPR	von	_	O	O	
+1-28	Lempertz	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-29	um	APPR	um	_	O	O	
+1-30	baldige	ADJA	baldig	_	O	O	
+1-31	Zahlung	NN	Zahlung	_	O	O	
+1-32	Wechsel	NN	Wechsel	_	O	O	
+1-33	ist	VAFIN	sein	_	O	O	
+1-34	bereits	ADV	bereits	_	O	O	
+1-35	expedirt	NN	<unknown>	_	O	O	
+1-36	;	$.	;	_	O	O	
+1-37	Rossi	NE	Rossi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-38	aus	APPR	aus	_	O	O	
+1-39	Arezzo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-40	über	APPR	über	_	O	O	
+1-41	die	ART	die	_	O	O	
+1-42	dortigen	ADJA	dortig	_	O	O	
+1-43	Ausgrabungen	NN	Ausgrabung	_	O	O	
+1-44	-	$(	-	_	O	O	
+1-45	werden	VAFIN	werden	_	O	O	
+1-46	von	APPR	von	_	O	O	
+1-47	mir	PPER	ich	_	O	O	
+1-48	auf	APPR	auf	_	O	O	
+1-49	der	ART	die	_	O	O	
+1-50	Reise	NN	Reise	_	O	O	
+1-51	in	APPR	in	_	O	O	
+1-52	die	ART	die	_	O	O	
+1-53	Schweiz	NE	Schweiz	_	O	O	
+1-54	in	APPR	in	_	O	O	
+1-55	Augenschein	NN	Augenschein	_	O	O	
+1-56	genommen	VVPP	nehmen	_	O	O	
+1-57	werden	VAINF	werden	_	O	O	
+1-58	.	$.	.	_	O	O	
+
+#id=2
+#text=Bormann fängt an, sich zu erholen.
+2-1	Bormann	NE	Bormann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	fängt	VVFIN	fangen	_	O	O	
+2-3	an	PTKVZ	an	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	sich	PRF	sich	_	O	O	
+2-6	zu	PTKZU	zu	_	O	O	
+2-7	erholen	VVINF	erholen	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich höre von ihm mit Staunen, daß Curtius noch immer an der Richtigkeit der Restauration der Amazone zweifelt.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	höre	VVFIN	hören	_	O	O	
+3-3	von	APPR	von	_	O	O	
+3-4	ihm	PPER	er	_	O	O	
+3-5	mit	APPR	mit	_	O	O	
+3-6	Staunen	NN	Staunen	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	daß	KOUS	dass	_	O	O	
+3-9	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-10	noch	ADV	noch	_	O	O	
+3-11	immer	ADV	immer	_	O	O	
+3-12	an	APPR	an	_	O	O	
+3-13	der	ART	die	_	O	O	
+3-14	Richtigkeit	NN	Richtigkeit	_	O	O	
+3-15	der	ART	die	_	O	O	
+3-16	Restauration	NN	Restauration	_	O	O	
+3-17	der	ART	die	_	O	O	
+3-18	Amazone	NN	Amazone	_	O	O	
+3-19	zweifelt	VVFIN	zweifeln	_	O	O	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=Machen Sie, bitte, die Florentiner Bronze geltend.
+4-1	Machen	VVFIN	machen	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	bitte	VVIMP	bitten	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	die	ART	die	_	O	O	
+4-7	Florentiner	NN	Florentiner	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-8	Bronze	NN	Bronze	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-9	geltend	ADJD	geltend	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Könnten Sie vielleicht in Berlin Marcelliani einige Subscribenten verschaffen ?
+5-1	Könnten	VMFIN	können	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	vielleicht	ADV	vielleicht	_	O	O	
+5-4	in	APPR	in	_	O	O	
+5-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-6	Marcelliani	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+5-7	einige	PIAT	einige	_	O	O	
+5-8	Subscribenten	NN	<unknown>	_	O	O	
+5-9	verschaffen	VVINF	verschaffen	_	O	O	
+5-10	?	$.	?	_	O	O	
+
+#id=6
+#text=Hoffentlich überstehen Sie mit guter Gesundheit alle die Diners, Soupers u.s.w.
+6-1	Hoffentlich	ADV	hoffentlich	_	O	O	
+6-2	überstehen	VVFIN	überstehen	_	O	O	
+6-3	Sie	PPER	Sie	_	O	O	
+6-4	mit	APPR	mit	_	O	O	
+6-5	guter	ADJA	gut	_	O	O	
+6-6	Gesundheit	NN	Gesundheit	_	O	O	
+6-7	alle	PIS	alle	_	O	O	
+6-8	die	ART	die	_	O	O	
+6-9	Diners	NN	<UNKNOWN>	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	Soupers	NN	Souper	_	O	O	
+6-12	u.s.w.	ADJA	<unknown>	_	O	O	
+
+#id=7
+#text=Es fällt Einem dabei unwillkürlich das Sprichwort ein "Gott bewahre mich vor meinen Freunden".
+7-1	Es	PPER	es	_	O	O	
+7-2	fällt	VVFIN	fallen|fällen	_	O	O	
+7-3	Einem	PIS	eine	_	O	O	
+7-4	dabei	PAV	dabei	_	O	O	
+7-5	unwillkürlich	ADJD	unwillkürlich	_	O	O	
+7-6	das	ART	die	_	O	O	
+7-7	Sprichwort	NN	Sprichwort	_	O	O	
+7-8	ein	ART	eine	_	O	O	
+7-9	"	$(	"	_	O	O	
+7-10	Gott	NN	Gott	_	O	O	
+7-11	bewahre	VVFIN	bewahren	_	O	O	
+7-12	mich	PRF	ich	_	O	O	
+7-13	vor	APPR	vor	_	O	O	
+7-14	meinen	PPOSAT	mein	_	O	O	
+7-15	Freunden	NN	Freund	_	O	O	
+7-16	"	$(	"	_	O	O	
+7-17	.	$.	.	_	O	O	
+
+#id=8
+#text=Mit herzlichen Grüßen Ihr Helbig •
+8-1	Mit	APPR	mit	_	O	O	
+8-2	herzlichen	ADJA	herzlich	_	O	O	
+8-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+8-4	Ihr	PPOSAT	ihr	_	O	O	
+8-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	•	ADJA	<unknown>	_	O	O	
+

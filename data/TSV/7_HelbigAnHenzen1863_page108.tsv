@@ -1,0 +1,239 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=33 4 Helbig an Henzen Moskau, 5. August 1868 Einfluß gewinnt.
+1-1	33	CARD	33	_	O	O	
+1-2	4	CARD	4	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Moskau	NE	Moskau	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1868	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Einfluß	NN	Einfluss	_	O	O	
+1-13	gewinnt	VVFIN	gewinnen	_	O	O	
+1-14	.	$.	.	_	O	O	
+
+#id=2
+#text=Die Parthei hat gegenwärtig eine ge~ waltige Agitation gegen die fast durchweg aus fremden Elementen bestehende Petersburger Akademie begonnen und ich glaube, daß der Kaiser über kurz oder lang wird nachgeben müssen.
+2-1	Die	ART	die	_	O	O	
+2-2	Parthei	NN	<unknown>	_	O	O	
+2-3	hat	VAFIN	haben	_	O	O	
+2-4	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+2-5	eine	ART	eine	_	O	O	
+2-6	ge~	ADJA	<unknown>	_	O	O	
+2-7	waltige	ADJA	<unknown>	_	O	O	
+2-8	Agitation	NN	Agitation	_	O	O	
+2-9	gegen	APPR	gegen	_	O	O	
+2-10	die	ART	die	_	O	O	
+2-11	fast	ADV	fast	_	O	O	
+2-12	durchweg	ADV	durchweg	_	O	O	
+2-13	aus	APPR	aus	_	O	O	
+2-14	fremden	ADJA	fremd	_	O	O	
+2-15	Elementen	NN	Element	_	O	O	
+2-16	bestehende	ADJA	bestehend	_	O	O	
+2-17	Petersburger	NN	Petersburger	_	O	O	
+2-18	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-19	begonnen	VVPP	beginnen	_	O	O	
+2-20	und	KON	und	_	O	O	
+2-21	ich	PPER	ich	_	O	O	
+2-22	glaube	VVFIN	glauben	_	O	O	
+2-23	,	$,	,	_	O	O	
+2-24	daß	KOUS	dass	_	O	O	
+2-25	der	ART	die	_	O	O	
+2-26	Kaiser	NN	Kaiser	_	O	O	
+2-27	über	APPR	über	_	O	O	
+2-28	kurz	ADJD	kurz	_	O	O	
+2-29	oder	KON	oder	_	O	O	
+2-30	lang	ADJD	lang	_	O	O	
+2-31	wird	VAFIN	werden	_	O	O	
+2-32	nachgeben	VVINF	nachgeben	_	O	O	
+2-33	müssen	VMINF	müssen	_	O	O	
+2-34	.	$.	.	_	O	O	
+
+#id=3
+#text=Auch Vinogradski, der sich Ihnen bestens empfiehlt, habe ich gesehen.
+3-1	Auch	ADV	auch	_	O	O	
+3-2	Vinogradski	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	,	$,	,	_	O	O	
+3-4	der	PRELS	die	_	O	O	
+3-5	sich	PRF	sich	_	O	O	
+3-6	Ihnen	PPER	Sie	_	O	O	
+3-7	bestens	ADV	bestens	_	O	O	
+3-8	empfiehlt	VVFIN	empfehlen	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	habe	VAFIN	haben	_	O	O	
+3-11	ich	PPER	ich	_	O	O	
+3-12	gesehen	VVPP	sehen	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Leider kommt er, da er zu bescheiden ist und er die mise en scene nic~gehörig versteht, in Rußland zu nichts Odentlichem.
+4-1	Leider	ADV	leider	_	O	O	
+4-2	kommt	VVFIN	kommen	_	O	O	
+4-3	er	PPER	er	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	da	KOUS	da	_	O	O	
+4-6	er	PPER	er	_	O	O	
+4-7	zu	PTKA	zu	_	O	O	
+4-8	bescheiden	ADJD	bescheiden	_	O	O	
+4-9	ist	VAFIN	sein	_	O	O	
+4-10	und	KON	und	_	O	O	
+4-11	er	PPER	er	_	O	O	
+4-12	die	ART	die	_	O	O	
+4-13	mise	ADJA	<unknown>	_	O	O	
+4-14	en	FM	en	_	O	O	
+4-15	scene	NN	<unknown>	_	O	O	
+4-16	nic~gehörig	ADJD	<unknown>	_	O	O	
+4-17	versteht	VVFIN	verstehen	_	O	O	
+4-18	,	$,	,	_	O	O	
+4-19	in	APPR	in	_	O	O	
+4-20	Rußland	NE	Russland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-21	zu	APPR	zu	_	O	O	
+4-22	nichts	PIAT	nichts	_	O	O	
+4-23	Odentlichem	NN	<unknown>	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=Es thut mir herzlich leid, daß mich die Ordnung der hiesigen Angelegenheiten länger aufgehalten hat, als ich dachte.
+5-1	Es	PPER	es	_	O	O	
+5-2	thut	VVFIN	<unknown>	_	O	O	
+5-3	mir	PPER	ich	_	O	O	
+5-4	herzlich	ADJD	herzlich	_	O	O	
+5-5	leid	ADJD	leid	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	daß	KOUS	dass	_	O	O	
+5-8	mich	PRF	ich	_	O	O	
+5-9	die	ART	die	_	O	O	
+5-10	Ordnung	NN	Ordnung	_	O	O	
+5-11	der	ART	die	_	O	O	
+5-12	hiesigen	ADJA	hiesig	_	O	O	
+5-13	Angelegenheiten	NN	Angelegenheit	_	O	O	
+5-14	länger	ADJD	lang	_	O	O	
+5-15	aufgehalten	VVPP	aufhalten	_	O	O	
+5-16	hat	VAFIN	haben	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	als	KOUS	als	_	O	O	
+5-19	ich	PPER	ich	_	O	O	
+5-20	dachte	VVFIN	denken	_	O	O	
+5-21	.	$.	.	_	O	O	
+
+#id=6
+#text=Hoffentlich hat Ihnen die Verlängerung meiner Abwesenheit keine zu großen Unannehmlichkeiten bereitet.
+6-1	Hoffentlich	ADV	hoffentlich	_	O	O	
+6-2	hat	VAFIN	haben	_	O	O	
+6-3	Ihnen	PPER	Sie	_	O	O	
+6-4	die	ART	die	_	O	O	
+6-5	Verlängerung	NN	Verlängerung	_	O	O	
+6-6	meiner	PPOSAT	mein	_	O	O	
+6-7	Abwesenheit	NN	Abwesenheit	_	O	O	
+6-8	keine	PIAT	keine	_	O	O	
+6-9	zu	APPR	zu	_	O	O	
+6-10	großen	ADJA	groß	_	O	O	
+6-11	Unannehmlichkeiten	NN	Unannehmlichkeit	_	O	O	
+6-12	bereitet	VVFIN	bereiten	_	O	O	
+6-13	.	$.	.	_	O	O	
+
+#id=7
+#text=Um den 15. September sind wir jedenfalls zurück.
+7-1	Um	KOUI	um	_	O	O	
+7-2	den	ART	die	_	O	O	
+7-3	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-4	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-5	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-6	sind	VAFIN	sein	_	O	O	
+7-7	wir	PPER	wir	_	O	O	
+7-8	jedenfalls	ADV	jedenfalls	_	O	O	
+7-9	zurück	PTKVZ	zurück	_	O	O	
+7-10	.	$.	.	_	O	O	
+
+#id=8
+#text=Meine Frau grüßt bestens.
+8-1	Meine	PPOSAT	mein	_	O	O	
+8-2	Frau	NN	Frau	_	O	O	
+8-3	grüßt	VVFIN	grüßen	_	O	O	
+8-4	bestens	ADV	bestens	_	O	O	
+8-5	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich bitte Herrn Aldenhoven zu grüßen und für seine freundlichen Nachrichten vom 20. Juli zu danken.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	bitte	VVFIN	bitten	_	O	O	
+9-3	Herrn	NN	Herr	_	O	O	
+9-4	Aldenhoven	NE	<unknown>	_	O	O	
+9-5	zu	PTKZU	zu	_	O	O	
+9-6	grüßen	VVINF	grüßen	_	O	O	
+9-7	und	KON	und	_	O	O	
+9-8	für	APPR	für	_	O	O	
+9-9	seine	PPOSAT	sein	_	O	O	
+9-10	freundlichen	ADJA	freundlich	_	O	O	
+9-11	Nachrichten	NN	Nachricht	_	O	O	
+9-12	vom	APPRART	von	_	O	O	
+9-13	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-14	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-15	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-16	zu	PTKZU	zu	_	O	O	
+9-17	danken	VVINF	danken	_	O	O	
+9-18	.	$.	.	_	O	O	
+
+#id=10
+#text=Viele Empfehlungen an Frau Henzen !
+10-1	Viele	PIAT	viele	_	O	O	
+10-2	Empfehlungen	NN	Empfehlung	_	O	O	
+10-3	an	APPR	an	_	O	O	
+10-4	Frau	NN	Frau	_	O	O	
+10-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-6	!	$.	!	_	O	O	
+
+#id=11
+#text=Mit besten Grüßen Ihr ergebener W. Helbig Dürfte ich Sie bitten, mir die Nummer des Bullettino 1867, in welchem Kekules Scavi di Pompei stehen, nach Dresden zu schicken?
+11-1	Mit	APPR	mit	_	O	O	
+11-2	besten	ADJA	gut	_	O	O	
+11-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+11-4	Ihr	PPOSAT	ihr	_	O	O	
+11-5	ergebener	ADJA	ergeben	_	O	O	
+11-6	W.	NE	W.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-7	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-8	Dürfte	VVFIN	dürfen	_	O	O	
+11-9	ich	PPER	ich	_	O	O	
+11-10	Sie	PPER	Sie	_	O	O	
+11-11	bitten	VVINF	bitten	_	O	O	
+11-12	,	$,	,	_	O	O	
+11-13	mir	PRF	ich	_	O	O	
+11-14	die	ART	die	_	O	O	
+11-15	Nummer	NN	Nummer	_	O	O	
+11-16	des	ART	die	_	O	O	
+11-17	Bullettino	NN	<unknown>	_	O	O	
+11-18	1867	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+11-19	,	$,	,	_	O	O	
+11-20	in	APPR	in	_	O	O	
+11-21	welchem	PRELS	welche	_	O	O	
+11-22	Kekules	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-23	Scavi	NE	<unknown>	_	O	O	
+11-24	di	NE	di	_	O	O	
+11-25	Pompei	ADJD	<unknown>	_	O	O	
+11-26	stehen	VVFIN	stehen	_	O	O	
+11-27	,	$,	,	_	O	O	
+11-28	nach	APPR	nach	_	O	O	
+11-29	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-30	zu	PTKZU	zu	_	O	O	
+11-31	schicken	VVINF	schicken	_	O	O	
+11-32	?	$.	?	_	O	O	
+
+#id=12
+#text=Ich habe danach einige Rectificationen in den Nachträgen meines Buches vorzunehmen.
+12-1	Ich	PPER	ich	_	O	O	
+12-2	habe	VAFIN	haben	_	O	O	
+12-3	danach	PAV	danach	_	O	O	
+12-4	einige	PIAT	einige	_	O	O	
+12-5	Rectificationen	NN	<unknown>	_	O	O	
+12-6	in	APPR	in	_	O	O	
+12-7	den	ART	die	_	O	O	
+12-8	Nachträgen	NN	Nachtrag	_	O	O	
+12-9	meines	PPOSAT	mein	_	O	O	
+12-10	Buches	NN	Buch	_	O	O	
+12-11	vorzunehmen	VVIZU	vornehmen	_	O	O	
+12-12	.	$.	.	_	O	O	
+

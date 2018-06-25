@@ -1,0 +1,88 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=120 16/IV/51 2 Henzen an Gerhard zu berichten; u. Canonico de Orlandis in Cividale.
+1-1	120	CARD	120	_	O	O	
+1-2	16/IV/51	CARD	<unknown>	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	zu	PTKZU	zu	_	O	O	
+1-8	berichten	VVINF	berichten	_	O	O	
+1-9	;	$.	;	_	O	O	
+1-10	u.	APPR	um	_	O	O	
+1-11	Canonico	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-12	de	NE	de	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-13	Orlandis	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-14	in	APPR	in	_	O	O	
+1-15	Cividale	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Der Frühling greift meine Augen wieder sehr an u. werde ich suchen, bald möglichst abzureisen.
+2-1	Der	ART	die	_	O	O	
+2-2	Frühling	NN	Frühling	_	O	O	
+2-3	greift	VVFIN	greifen	_	O	O	
+2-4	meine	PPOSAT	mein	_	O	O	
+2-5	Augen	NN	Auge	_	O	O	
+2-6	wieder	ADV	wieder	_	O	O	
+2-7	sehr	ADV	sehr	_	O	O	
+2-8	an	PTKVZ	an	_	O	O	
+2-9	u.	KON	und	_	O	O	
+2-10	werde	VAFIN	werden	_	O	O	
+2-11	ich	PPER	ich	_	O	O	
+2-12	suchen	VVINF	suchen	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	bald	ADV	bald	_	O	O	
+2-15	möglichst	ADV	möglichst	_	O	O	
+2-16	abzureisen	VVIZU	abreisen	_	O	O	
+2-17	.	$.	.	_	O	O	
+
+#id=3
+#text=Sollte gar Ihre Antwort mich nicht mehr treffen, so wird sie mir schon nachgeschickt werden.
+3-1	Sollte	VMFIN	sollen	_	O	O	
+3-2	gar	ADV	gar	_	O	O	
+3-3	Ihre	PPOSAT	ihr	_	O	O	
+3-4	Antwort	NN	Antwort	_	O	O	
+3-5	mich	PRF	ich	_	O	O	
+3-6	nicht	PTKNEG	nicht	_	O	O	
+3-7	mehr	ADV	mehr	_	O	O	
+3-8	treffen	VVINF	treffen	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	so	ADV	so	_	O	O	
+3-11	wird	VAFIN	werden	_	O	O	
+3-12	sie	PPER	sie	_	O	O	
+3-13	mir	PRF	ich	_	O	O	
+3-14	schon	ADV	schon	_	O	O	
+3-15	nachgeschickt	VVPP	nachschicken	_	O	O	
+3-16	werden	VAINF	werden	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Leben Sie wohl.
+4-1	Leben	VVFIN	leben	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	wohl	ADV	wohl	_	O	O	
+4-4	.	$.	.	_	O	O	
+
+#id=5
+#text=Beste Grüße meiner Frau an Sie und die Ihrige.
+5-1	Beste	ADJA	gut	_	O	O	
+5-2	Grüße	NN	Gruß	_	O	O	
+5-3	meiner	PPOSAT	mein	_	O	O	
+5-4	Frau	NN	Frau	_	O	O	
+5-5	an	APPR	an	_	O	O	
+5-6	Sie	PPER	Sie	_	O	O	
+5-7	und	KON	und	_	O	O	
+5-8	die	PRELS	die	_	O	O	
+5-9	Ihrige	PPOSAT	ihrige	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihr w. Renzen Rom 16/IV/51
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	w.	APPR	w.	_	O	O	
+6-3	Renzen	NN	<unknown>	_	O	O	
+6-4	Rom	NE	Rom	_	O	O	
+6-5	16/IV/51	CARD	<unknown>	_	O	O	
+

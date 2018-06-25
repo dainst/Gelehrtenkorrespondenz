@@ -1,0 +1,51 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=3 Lepsius an Henzen Berlin, 23. März 1874 Herzlich Ihr R Lepsius Quer quf der 4. Seite : So eben geht bei mir Ihr stattliches Werk der Acta Fr.
+1-1	3	CARD	3	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Herzlich	NN	<unknown>	_	O	O	
+1-12	Ihr	PPOSAT	ihr	_	O	O	
+1-13	R	NN	R	_	O	O	
+1-14	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-15	Quer	ADV	quer	_	O	O	
+1-16	quf	VVFIN	<unknown>	_	O	O	
+1-17	der	ART	die	_	O	O	
+1-18	4	CARD	4	_	O	O	
+1-19	.	$.	.	_	O	O	
+1-20	Seite	NN	Seite	_	O	O	
+1-21	:	$.	:	_	O	O	
+1-22	So	ADV	so	_	O	O	
+1-23	eben	ADV	eben	_	O	O	
+1-24	geht	VVFIN	gehen	_	O	O	
+1-25	bei	APPR	bei	_	O	O	
+1-26	mir	PPER	ich	_	O	O	
+1-27	Ihr	PPOSAT	ihr	_	O	O	
+1-28	stattliches	ADJA	stattlich	_	O	O	
+1-29	Werk	NN	Werk	_	O	O	
+1-30	der	ART	die	_	O	O	
+1-31	Acta	NN	<unknown>	_	O	O	
+1-32	Fr.	NN	Freitag	_	O	O	
+
+#id=2
+#text=Arvaliae als Geschenk des Verfassers ein, wofür ich herzlich danke.
+2-1	Arvaliae	NN	<unknown>	_	O	O	
+2-2	als	KOKOM	als	_	O	O	
+2-3	Geschenk	NN	Geschenk	_	O	O	
+2-4	des	ART	die	_	O	O	
+2-5	Verfassers	NN	Verfasser	_	O	O	
+2-6	ein	PTKVZ	ein	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	wofür	PWAV	wofür	_	O	O	
+2-9	ich	PPER	ich	_	O	O	
+2-10	herzlich	ADJD	herzlich	_	O	O	
+2-11	danke	VVFIN	danken	_	O	O	
+2-12	.	$.	.	_	O	O	
+

@@ -1,0 +1,244 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=N. 67 Verehrter Freund Lepsius an Helbig Berlin, 19. Mai 1876 Berlin, d. 19. Mai 1876 Ich habe den Herren die von der Central Direktion noch hier sind, Ihre Wünsche wegen des Urlaubs mitgetheilt.
+1-1	N.	APPR	n.	_	O	O	
+1-2	67	CARD	@card@	_	O	O	
+1-3	Verehrter	NN	Verehrte	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	,	$,	,	_	O	O	
+1-16	d.	ART	d.	_	O	O	
+1-17	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Ich	PPER	ich	_	O	O	
+1-22	habe	VAFIN	haben	_	O	O	
+1-23	den	ART	die	_	O	O	
+1-24	Herren	NN	Herr	_	O	O	
+1-25	die	ART	die	_	O	O	
+1-26	von	APPR	von	_	O	O	
+1-27	der	ART	die	_	O	O	
+1-28	Central	NN	<unknown>	_	O	O	
+1-29	Direktion	NN	Direktion	_	O	O	
+1-30	noch	ADV	noch	_	O	O	
+1-31	hier	ADV	hier	_	O	O	
+1-32	sind	VAFIN	sein	_	O	O	
+1-33	,	$,	,	_	O	O	
+1-34	Ihre	PPOSAT	ihr	_	O	O	
+1-35	Wünsche	NN	Wunsch	_	O	O	
+1-36	wegen	APPR	wegen	_	O	O	
+1-37	des	ART	die	_	O	O	
+1-38	Urlaubs	NN	Urlaub	_	O	O	
+1-39	mitgetheilt	VVPP	<unknown>	_	O	O	
+1-40	.	$.	.	_	O	O	
+
+#id=2
+#text=Es steht nichts entgegen; wir bitten nur uns Ihre näheren Bestimmungen mitzutheilen, wenn Sie darüber mit Henzen übereingekommen sein werden.
+2-1	Es	PPER	es	_	O	O	
+2-2	steht	VVFIN	stehen	_	O	O	
+2-3	nichts	PIS	nichts	_	O	O	
+2-4	entgegen	PTKVZ	entgegen	_	O	O	
+2-5	;	$.	;	_	O	O	
+2-6	wir	PPER	wir	_	O	O	
+2-7	bitten	VVFIN	bitten	_	O	O	
+2-8	nur	ADV	nur	_	O	O	
+2-9	uns	PPER	wir	_	O	O	
+2-10	Ihre	PPOSAT	ihr	_	O	O	
+2-11	näheren	ADJA	nah	_	O	O	
+2-12	Bestimmungen	NN	Bestimmung	_	O	O	
+2-13	mitzutheilen	VVIZU	<unknown>	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	wenn	KOUS	wenn	_	O	O	
+2-16	Sie	PPER	Sie	_	O	O	
+2-17	darüber	PAV	darüber	_	O	O	
+2-18	mit	APPR	mit	_	O	O	
+2-19	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-20	übereingekommen	VVPP	übereinkommen	_	O	O	
+2-21	sein	VAINF	sein	_	O	O	
+2-22	werden	VAFIN	werden	_	O	O	
+2-23	.	$.	.	_	O	O	
+
+#id=3
+#text=Daß Ebers so e~stlich k~rank geworden ist, ist recht bedauerlich.
+3-1	Daß	KOUS	dass	_	O	O	
+3-2	Ebers	NN	Eber	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	so	ADV	so	_	O	O	
+3-4	e~stlich	ADJD	<unknown>	_	O	O	
+3-5	k~rank	ADJD	<unknown>	_	O	O	
+3-6	geworden	VAPP	werden	_	O	O	
+3-7	ist	VAFIN	sein	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	ist	VAFIN	sein	_	O	O	
+3-10	recht	ADJD	recht	_	O	O	
+3-11	bedauerlich	ADJD	bedauerlich	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Er würde für die Aufgabe die Sie sich gestellt haben, gewiß recht nützlich gewesen sein.
+4-1	Er	PPER	er	_	O	O	
+4-2	würde	VAFIN	werden	_	O	O	
+4-3	für	APPR	für	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	Aufgabe	NN	Aufgabe	_	O	O	
+4-6	die	PRELS	die	_	O	O	
+4-7	Sie	PPER	Sie	_	O	O	
+4-8	sich	PRF	sich	_	O	O	
+4-9	gestellt	VVPP	stellen	_	O	O	
+4-10	haben	VAINF	haben	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	gewiß	ADJD	gewiss	_	O	O	
+4-13	recht	ADJD	recht	_	O	O	
+4-14	nützlich	ADJD	nützlich	_	O	O	
+4-15	gewesen	VAPP	sein	_	O	O	
+4-16	sein	VAINF	sein	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=Er hat meinen letzten Brief gar nicht beantwortet; ich fürchte daher, daß er jetzt gar nichts vornehmen kann, da er zu Bett liegt.
+5-1	Er	PPER	er	_	O	O	
+5-2	hat	VAFIN	haben	_	O	O	
+5-3	meinen	PPOSAT	mein	_	O	O	
+5-4	letzten	ADJA	letzt	_	O	O	
+5-5	Brief	NN	Brief	_	O	O	
+5-6	gar	ADV	gar	_	O	O	
+5-7	nicht	PTKNEG	nicht	_	O	O	
+5-8	beantwortet	VVPP	beantworten	_	O	O	
+5-9	;	$.	;	_	O	O	
+5-10	ich	PPER	ich	_	O	O	
+5-11	fürchte	VVFIN	fürchten	_	O	O	
+5-12	daher	PAV	daher	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	daß	KOUS	dass	_	O	O	
+5-15	er	PPER	er	_	O	O	
+5-16	jetzt	ADV	jetzt	_	O	O	
+5-17	gar	ADV	gar	_	O	O	
+5-18	nichts	PIAT	nichts	_	O	O	
+5-19	vornehmen	ADJA	vornehm	_	O	O	
+5-20	kann	VMFIN	können	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	da	KOUS	da	_	O	O	
+5-23	er	PPER	er	_	O	O	
+5-24	zu	APPR	zu	_	O	O	
+5-25	Bett	NN	Bett	_	O	O	
+5-26	liegt	VVFIN	liegen	_	O	O	
+5-27	.	$.	.	_	O	O	
+
+#id=6
+#text=Senden Sie uns doch endlich warmes Wetter über die Alpen.
+6-1	Senden	VVFIN	senden	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	uns	PRF	wir	_	O	O	
+6-4	doch	ADV	doch	_	O	O	
+6-5	endlich	ADV	endlich	_	O	O	
+6-6	warmes	ADJA	warm	_	O	O	
+6-7	Wetter	NN	Wetter	_	O	O	
+6-8	über	APPR	über	_	O	O	
+6-9	die	ART	die	_	O	O	
+6-10	Alpen	NN	Alp	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Selbst Dove entsetzt sich vor diesem langen Winter und findet ihn pnerhört.
+7-1	Selbst	ADV	selbst	_	O	O	
+7-2	Dove	NN	<unknown>	_	O	O	
+7-3	entsetzt	VVFIN	entsetzen	_	O	O	
+7-4	sich	PRF	sich	_	O	O	
+7-5	vor	APPR	vor	_	O	O	
+7-6	diesem	PDAT	dies	_	O	O	
+7-7	langen	ADJA	lang	_	O	O	
+7-8	Winter	NN	Winter	_	O	O	
+7-9	und	KON	und	_	O	O	
+7-10	findet	VVFIN	finden	_	O	O	
+7-11	ihn	PPER	er	_	O	O	
+7-12	pnerhört	ADJD	<unknown>	_	O	O	
+7-13	.	$.	.	_	O	O	
+
+#id=8
+#text=Minister Krüger w~rd nun aus Sizilien zurückgekehrt sein; er wollte zu Pfingsten hier sein, wo er seinen Freund Delbrück sehr vermissen wird.
+8-1	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	Krüger	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-3	w~rd	VVFIN	<unknown>	_	O	O	
+8-4	nun	ADV	nun	_	O	O	
+8-5	aus	APPR	aus	_	O	O	
+8-6	Sizilien	NE	Sizilien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-7	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+8-8	sein	VAINF	sein	_	O	O	
+8-9	;	$.	;	_	O	O	
+8-10	er	PPER	er	_	O	O	
+8-11	wollte	VMFIN	wollen	_	O	O	
+8-12	zu	APPR	zu	_	O	O	
+8-13	Pfingsten	NN	Pfingsten	_	O	O	
+8-14	hier	ADV	hier	_	O	O	
+8-15	sein	VAINF	sein	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	wo	PWAV	wo	_	O	O	
+8-18	er	PPER	er	_	O	O	
+8-19	seinen	PPOSAT	sein	_	O	O	
+8-20	Freund	NN	Freund	_	O	O	
+8-21	Delbrück	NE	Delbrück	_	O	O	
+8-22	sehr	ADV	sehr	_	O	O	
+8-23	vermissen	VVINF	vermissen	_	O	O	
+8-24	wird	VAFIN	werden	_	O	O	
+8-25	.	$.	.	_	O	O	
+
+#id=9
+#text=Meine besten Grüße an ihn und Mommsen, wenn sie zur Hand sind.
+9-1	Meine	PPOSAT	mein	_	O	O	
+9-2	besten	ADJA	gut	_	O	O	
+9-3	Grüße	NN	Gruß	_	O	O	
+9-4	an	APPR	an	_	O	O	
+9-5	ihn	PPER	er	_	O	O	
+9-6	und	KON	und	_	O	O	
+9-7	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-8	,	$,	,	_	O	O	
+9-9	wenn	KOUS	wenn	_	O	O	
+9-10	sie	PPER	sie	_	O	O	
+9-11	zur	APPRART	zu	_	O	O	
+9-12	Hand	NN	Hand	_	O	O	
+9-13	sind	VAFIN	sein	_	O	O	
+9-14	.	$.	.	_	O	O	
+
+#id=10
+#text=Noch sind die Vorschläge wegen der neuen Kreaturen, die Henzen mit Ihnen besprechen wollte, nicht eingegangen.
+10-1	Noch	ADV	noch	_	O	O	
+10-2	sind	VAFIN	sein	_	O	O	
+10-3	die	ART	die	_	O	O	
+10-4	Vorschläge	NN	Vorschlag	_	O	O	
+10-5	wegen	APPR	wegen	_	O	O	
+10-6	der	ART	die	_	O	O	
+10-7	neuen	ADJA	neu	_	O	O	
+10-8	Kreaturen	NN	Kreatur	_	O	O	
+10-9	,	$,	,	_	O	O	
+10-10	die	ART	die	_	O	O	
+10-11	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-12	mit	APPR	mit	_	O	O	
+10-13	Ihnen	PPER	Sie	_	O	O	
+10-14	besprechen	VVINF	besprechen	_	O	O	
+10-15	wollte	VMFIN	wollen	_	O	O	
+10-16	,	$,	,	_	O	O	
+10-17	nicht	PTKNEG	nicht	_	O	O	
+10-18	eingegangen	VVPP	eingehen	_	O	O	
+10-19	.	$.	.	_	O	O	
+
+#id=11
+#text=Grüßen Sie Henzen herzlich von Ihrem ergebensten R Lespsius
+11-1	Grüßen	VVFIN	grüßen	_	O	O	
+11-2	Sie	PPER	Sie	_	O	O	
+11-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-4	herzlich	ADJD	herzlich	_	O	O	
+11-5	von	APPR	von	_	O	O	
+11-6	Ihrem	PPOSAT	ihr	_	O	O	
+11-7	ergebensten	ADJA	ergeben	_	O	O	
+11-8	R	NN	R	_	O	O	
+11-9	Lespsius	NE	<unknown>	_	O	O	
+

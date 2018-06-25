@@ -1,0 +1,184 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=, ) 381 dersegens.
+1-1	,	$,	,	_	O	O	
+1-2	)	$(	)	_	O	O	
+1-3	381	CARD	@card@	_	O	O	
+1-4	dersegens	VVFIN	<unknown>	_	O	O	
+1-5	.	$.	.	_	O	O	
+
+#id=2
+#text=2 Helbig an Henzen Neapel, 16. August 1864 Von der Inschrift von Calvi werde ich Ihnen nächstens einen Abklatsch schicken können, da sie binnen Kurzem dem Museum einverleibt werden wird.
+2-1	2	CARD	2	_	O	O	
+2-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-3	an	APPR	an	_	O	O	
+2-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-5	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-6	,	$,	,	_	O	O	
+2-7	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	Von	APPR	von	_	O	O	
+2-12	der	ART	die	_	O	O	
+2-13	Inschrift	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+2-14	von	APPR	von	_	O	O	
+2-15	Calvi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-16	werde	VAFIN	werden	_	O	O	
+2-17	ich	PPER	ich	_	O	O	
+2-18	Ihnen	PPER	Sie	_	O	O	
+2-19	nächstens	ADV	nächstens	_	O	O	
+2-20	einen	ART	eine	_	O	O	
+2-21	Abklatsch	NN	Abklatsch	_	O	O	
+2-22	schicken	VVINF	schicken	_	O	O	
+2-23	können	VMINF	können	_	O	O	
+2-24	,	$,	,	_	O	O	
+2-25	da	KOUS	da	_	O	O	
+2-26	sie	PPER	sie	_	O	O	
+2-27	binnen	APPR	binnen	_	O	O	
+2-28	Kurzem	NN	Kurze	_	O	O	
+2-29	dem	ART	die	_	O	O	
+2-30	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-31	einverleibt	VVPP	einverleiben	_	O	O	
+2-32	werden	VAINF	werden	_	O	O	
+2-33	wird	VAFIN	werden	_	O	O	
+2-34	.	$.	.	_	O	O	
+
+#id=3
+#text=De Vecchi ist der bekannte Deputirte.
+3-1	De	NE	De	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	Vecchi	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-3	ist	VAFIN	sein	_	O	O	
+3-4	der	ART	die	_	O	O	
+3-5	bekannte	ADJA	bekannt	_	O	O	
+3-6	Deputirte	NN	<unknown>	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Adresse Torino p. i. deI parlamento nazionale.
+4-1	Adresse	NN	Adresse	_	O	O	
+4-2	Torino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-3	p.	APPR	p.	_	O	O	
+4-4	i.	APPRART	in	_	O	O	
+4-5	deI	ADJA	<unknown>	_	O	O	
+4-6	parlamento	NN	<unknown>	_	O	O	
+4-7	nazionale	ADJA	<unknown>	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=Von Gerhard traf vor einigen Tagen ein Brief ein, wie gewöhnlich vergnüglich und hoffnungsreich.
+5-1	Von	APPR	von	_	O	O	
+5-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	traf	VVFIN	treffen	_	O	O	
+5-4	vor	APPR	vor	_	O	O	
+5-5	einigen	PIAT	einige	_	O	O	
+5-6	Tagen	NN	Tag	_	O	O	
+5-7	ein	ART	eine	_	O	O	
+5-8	Brief	NN	Brief	_	O	O	
+5-9	ein	PTKVZ	ein	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	wie	KOKOM	wie	_	O	O	
+5-12	gewöhnlich	ADJD	gewöhnlich	_	O	O	
+5-13	vergnüglich	ADJD	vergnüglich	_	O	O	
+5-14	und	KON	und	_	O	O	
+5-15	hoffnungsreich	ADJD	<unknown>	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich bitte ihm von meinem Pumpe nichts zu schreiben.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	bitte	VVFIN	bitten	_	O	O	
+6-3	ihm	PPER	er	_	O	O	
+6-4	von	APPR	von	_	O	O	
+6-5	meinem	PPOSAT	mein	_	O	O	
+6-6	Pumpe	NN	Pumpe	_	O	O	
+6-7	nichts	PIS	nichts	_	O	O	
+6-8	zu	PTKZU	zu	_	O	O	
+6-9	schreiben	VVINF	schreiben	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Sonst verläßt er sich darauf und denkt, ich kann mich verschiedene Jahre so durchpumpen.
+7-1	Sonst	ADV	sonst	_	O	O	
+7-2	verläßt	VVFIN	verlassen	_	O	O	
+7-3	er	PPER	er	_	O	O	
+7-4	sich	PRF	sich	_	O	O	
+7-5	darauf	PAV	darauf	_	O	O	
+7-6	und	KON	und	_	O	O	
+7-7	denkt	VVFIN	denken	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	ich	PPER	ich	_	O	O	
+7-10	kann	VMFIN	können	_	O	O	
+7-11	mich	PRF	ich	_	O	O	
+7-12	verschiedene	ADJA	verschieden	_	O	O	
+7-13	Jahre	NN	Jahr	_	O	O	
+7-14	so	ADV	so	_	O	O	
+7-15	durchpumpen	VVINF	<unknown>	_	O	O	
+7-16	.	$.	.	_	O	O	
+
+#id=8
+#text=In 12 Tagen siedle ich nach Pompei über.
+8-1	In	APPR	in	_	O	O	
+8-2	12	CARD	12	_	O	O	
+8-3	Tagen	NN	Tag	_	O	O	
+8-4	siedle	VVFIN	siedeln	_	O	O	
+8-5	ich	PPER	ich	_	O	O	
+8-6	nach	APPR	nach	_	O	O	
+8-7	Pompei	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-8	über	PTKVZ	über	_	O	O	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=Der ribasso, um welchen ich beim Minister eingekommen war, ist mir nicht bewilligt worden.
+9-1	Der	ART	die	_	O	O	
+9-2	ribasso	NN	<unknown>	_	O	O	
+9-3	,	$,	,	_	O	O	
+9-4	um	APPR	um	_	O	O	
+9-5	welchen	PRELS	welche	_	O	O	
+9-6	ich	PPER	ich	_	O	O	
+9-7	beim	APPRART	bei	_	O	O	
+9-8	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-9	eingekommen	VVPP	einkommen	_	O	O	
+9-10	war	VAFIN	sein	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	ist	VAFIN	sein	_	O	O	
+9-13	mir	PPER	ich	_	O	O	
+9-14	nicht	PTKNEG	nicht	_	O	O	
+9-15	bewilligt	VVPP	bewilligen	_	O	O	
+9-16	worden	VAPP	werden	_	O	O	
+9-17	.	$.	.	_	O	O	
+
+#id=10
+#text=Er hat mir einen höflichen Brief geschrieben, jedoch erklärt, es dürfe in dieser Hinsicht keine Ausnahme gemacht werden.
+10-1	Er	PPER	er	_	O	O	
+10-2	hat	VAFIN	haben	_	O	O	
+10-3	mir	PPER	ich	_	O	O	
+10-4	einen	ART	eine	_	O	O	
+10-5	höflichen	ADJA	höflich	_	O	O	
+10-6	Brief	NN	Brief	_	O	O	
+10-7	geschrieben	VVPP	schreiben	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	jedoch	ADV	jedoch	_	O	O	
+10-10	erklärt	VVPP	erklären	_	O	O	
+10-11	,	$,	,	_	O	O	
+10-12	es	PPER	es	_	O	O	
+10-13	dürfe	VMFIN	dürfen	_	O	O	
+10-14	in	APPR	in	_	O	O	
+10-15	dieser	PDAT	dies	_	O	O	
+10-16	Hinsicht	NN	Hinsicht	_	O	O	
+10-17	keine	PIAT	keine	_	O	O	
+10-18	Ausnahme	NN	Ausnahme	_	O	O	
+10-19	gemacht	VVPP	machen	_	O	O	
+10-20	werden	VAINF	werden	_	O	O	
+10-21	.	$.	.	_	O	O	
+
+#id=11
+#text=Mit herzlichen Grüßen Ihr Wolf gang Helbig
+11-1	Mit	APPR	mit	_	O	O	
+11-2	herzlichen	ADJA	herzlich	_	O	O	
+11-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+11-4	Ihr	PPOSAT	ihr	_	O	O	
+11-5	Wolf	NN	Wolf	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+11-6	gang	ADJD	gang	_	O	O	
+11-7	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

@@ -1,0 +1,245 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=652 Lepsius an Henzen Berlin, 18. August 1879 g. 21/8 79 Prof.
+1-1	652	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1879	CARD	1879	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	21/8	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	79	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	Prof.	NN	Prof.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=2
+#text=Henzen Berlin, C. 18. Aug.
+2-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-3	,	$,	,	_	O	O	
+2-4	C.	NE	C.	_	O	O	
+2-5	18	CARD	18	_	O	O	
+2-6	.	$.	.	_	O	O	
+2-7	Aug.	NN	Aug.	_	O	O	
+
+#id=3
+#text=1879 Verehrter Freund Mein College Prof.
+3-1	1879	CARD	1879	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-2	Verehrter	NN	Verehrte	_	O	O	
+3-3	Freund	NE	Freund	_	O	O	
+3-4	Mein	PPOSAT	mein	_	O	O	
+3-5	College	NN	College	_	O	O	
+3-6	Prof.	NN	Prof.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=4
+#text=Schrader der Assyriolog hat eine besondere Nachforschung über den Nebucadnezar Kopf gemacht, den unser Museum in einer Glaspaste besitzt.
+4-1	Schrader	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	der	ART	die	_	O	O	
+4-3	Assyriolog	ADJA	<unknown>	_	O	O	
+4-4	hat	VAFIN	haben	_	O	O	
+4-5	eine	ART	eine	_	O	O	
+4-6	besondere	ADJA	besonder	_	O	O	
+4-7	Nachforschung	NN	Nachforschung	_	O	O	
+4-8	über	APPR	über	_	O	O	
+4-9	den	ART	die	_	O	O	
+4-10	Nebucadnezar	NN	<unknown>	_	O	O	
+4-11	Kopf	NN	Kopf	_	O	O	
+4-12	gemacht	VVPP	machen	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	den	PRELS	die	_	O	O	
+4-15	unser	PPOSAT	unser	_	O	O	
+4-16	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-17	in	APPR	in	_	O	O	
+4-18	einer	ART	eine	_	O	O	
+4-19	Glaspaste	NN	<unknown>	_	O	O	
+4-20	besitzt	VVFIN	besitzen	_	O	O	
+4-21	.	$.	.	_	O	O	
+
+#id=5
+#text=Es findet sich daß das Original dazu in der Sammlung eines Prior Daini in Rom vorhanden war nach einer Notiz von Raspe in Tassie's Catalogue, London I (1791 ) p. o 64. N 653 : "Cameo, formerly in the Cab.
+5-1	Es	PPER	es	_	O	O	
+5-2	findet	VVFIN	finden	_	O	O	
+5-3	sich	PRF	sich	_	O	O	
+5-4	daß	KOUS	dass	_	O	O	
+5-5	das	ART	die	_	O	O	
+5-6	Original	NN	Original	_	O	O	
+5-7	dazu	PAV	dazu	_	O	O	
+5-8	in	APPR	in	_	O	O	
+5-9	der	ART	die	_	O	O	
+5-10	Sammlung	NN	Sammlung	_	O	O	
+5-11	eines	ART	eine	_	O	O	
+5-12	Prior	NN	Prior	_	O	O	
+5-13	Daini	NN	<unknown>	_	O	O	
+5-14	in	APPR	in	_	O	O	
+5-15	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-16	vorhanden	ADJD	vorhanden	_	O	O	
+5-17	war	VAFIN	sein	_	O	O	
+5-18	nach	APPR	nach	_	O	O	
+5-19	einer	ART	eine	_	O	O	
+5-20	Notiz	NN	Notiz	_	O	O	
+5-21	von	APPR	von	_	O	O	
+5-22	Raspe	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-23	in	APPR	in	_	O	O	
+5-24	Tassie's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-25	Catalogue	NE	<unknown>	_	O	O	
+5-26	,	$,	,	_	O	O	
+5-27	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-28	I	NE	I	_	O	O	
+5-29	(	$(	(	_	O	O	
+5-30	1791	CARD	@card@	_	O	O	
+5-31	)	$(	)	_	O	O	
+5-32	p.	APPR	p.	_	O	O	
+5-33	o	ADJA	<unknown>	_	O	O	
+5-34	64	CARD	64	_	O	O	
+5-35	.	$.	.	_	O	O	
+5-36	N	NN	N	_	O	O	
+5-37	653	CARD	@card@	_	O	O	
+5-38	:	$.	:	_	O	O	
+5-39	"	$(	"	_	O	O	
+5-40	Cameo	NN	<unknown>	_	O	O	
+5-41	,	$,	,	_	O	O	
+5-42	formerly	NE	<unknown>	_	O	O	
+5-43	in	APPR	in	_	O	O	
+5-44	the	FM	the	_	O	O	
+5-45	Cab.	NN	<unknown>	_	O	O	
+
+#id=6
+#text=of Prieur Dainiat Rome; the paste is in the Cab.
+6-1	of	FM	of	_	O	O	
+6-2	Prieur	NN	<unknown>	_	O	O	
+6-3	Dainiat	NN	<unknown>	_	O	O	
+6-4	Rome	VVFIN	<unknown>	_	O	O	
+6-5	;	$.	;	_	O	O	
+6-6	the	FM	the	_	O	O	
+6-7	paste	NN	Paste	_	O	O	
+6-8	is	NE	is	_	O	O	
+6-9	in	APPR	in	_	O	O	
+6-10	the	FM	the	_	O	O	
+6-11	Cab.	NN	<unknown>	_	O	O	
+
+#id=7
+#text=of Prussia.
+7-1	of	FM	of	_	O	O	
+7-2	Prussia	NE	<unknown>	_	O	O	
+7-3	.	$.	.	_	O	O	
+
+#id=8
+#text=Winck(elmann) Cab.
+8-1	Winck(elmann)	NE	<unknown>	_	O	O	
+8-2	Cab.	NE	<unknown>	_	O	O	
+
+#id=9
+#text=de Stosch p. 28 NO 126."
+9-1	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	Stosch	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-3	p.	APPR	p.	_	O	O	
+9-4	28	CARD	28	_	O	O	
+9-5	NO	NE	NO	_	O	O	
+9-6	126	CARD	126	_	O	O	
+9-7	.	$.	.	_	O	O	
+9-8	"	$(	"	_	O	O	
+
+#id=10
+#text=Es liegt ihm viel dar an , und es wäre auch dem Museum sehr wünschenswerth, wenn ermittelt werden könnte, wo diese Sammlung Daini hingekommen ist, und mit ihr das bezeichnete Original.
+10-1	Es	PPER	es	_	O	O	
+10-2	liegt	VVFIN	liegen	_	O	O	
+10-3	ihm	PPER	er	_	O	O	
+10-4	viel	PIS	viele	_	O	O	
+10-5	dar	PTKVZ	dar	_	O	O	
+10-6	an	PTKVZ	an	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	und	KON	und	_	O	O	
+10-9	es	PPER	es	_	O	O	
+10-10	wäre	VAFIN	sein	_	O	O	
+10-11	auch	ADV	auch	_	O	O	
+10-12	dem	ART	die	_	O	O	
+10-13	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-14	sehr	ADV	sehr	_	O	O	
+10-15	wünschenswerth	NE	<unknown>	_	O	O	
+10-16	,	$,	,	_	O	O	
+10-17	wenn	KOUS	wenn	_	O	O	
+10-18	ermittelt	VVPP	ermitteln	_	O	O	
+10-19	werden	VAINF	werden	_	O	O	
+10-20	könnte	VMFIN	können	_	O	O	
+10-21	,	$,	,	_	O	O	
+10-22	wo	PWAV	wo	_	O	O	
+10-23	diese	PDAT	dies	_	O	O	
+10-24	Sammlung	NN	Sammlung	_	O	O	
+10-25	Daini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-26	hingekommen	VVPP	hinkommen	_	O	O	
+10-27	ist	VAFIN	sein	_	O	O	
+10-28	,	$,	,	_	O	O	
+10-29	und	KON	und	_	O	O	
+10-30	mit	APPR	mit	_	O	O	
+10-31	ihr	PPER	ihr	_	O	O	
+10-32	das	ART	die	_	O	O	
+10-33	bezeichnete	ADJA	bezeichnet	_	O	O	
+10-34	Original	NN	Original	_	O	O	
+10-35	.	$.	.	_	O	O	
+
+#id=11
+#text=Die Paste ist von dieser Größe Mehr darüber und über die ganze Untersuchung ist von ihm gesagt im Berliner Akademischen Monatsbericht vom 17. März 1879, wo auch die Photog~~phie davon ist.
+11-1	Die	ART	die	_	O	O	
+11-2	Paste	NN	Paste	_	O	O	
+11-3	ist	VAFIN	sein	_	O	O	
+11-4	von	APPR	von	_	O	O	
+11-5	dieser	PDAT	dies	_	O	O	
+11-6	Größe	NN	Größe	_	O	O	
+11-7	Mehr	ADV	mehr	_	O	O	
+11-8	darüber	PAV	darüber	_	O	O	
+11-9	und	KON	und	_	O	O	
+11-10	über	APPR	über	_	O	O	
+11-11	die	ART	die	_	O	O	
+11-12	ganze	ADJA	ganz	_	O	O	
+11-13	Untersuchung	NN	Untersuchung	_	O	O	
+11-14	ist	VAFIN	sein	_	O	O	
+11-15	von	APPR	von	_	O	O	
+11-16	ihm	PPER	er	_	O	O	
+11-17	gesagt	VVPP	sagen	_	O	O	
+11-18	im	APPRART	in	_	O	O	
+11-19	Berliner	ADJA	Berliner	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-20	Akademischen	ADJA	akademisch	_	O	O	
+11-21	Monatsbericht	NN	Monatsbericht	_	O	O	
+11-22	vom	APPRART	von	_	O	O	
+11-23	17	CARD	17	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+11-24	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+11-25	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+11-26	1879	CARD	1879	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+11-27	,	$,	,	_	O	O	
+11-28	wo	PWAV	wo	_	O	O	
+11-29	auch	ADV	auch	_	O	O	
+11-30	die	ART	die	_	O	O	
+11-31	Photog~~phie	NN	<unknown>	_	O	O	
+11-32	davon	PAV	davon	_	O	O	
+11-33	ist	VAFIN	sein	_	O	O	
+11-34	.	$.	.	_	O	O	
+
+#id=12
+#text=Darf ich Ihnen und Freund Helbig, der noch auf Reisen ist, die Sache empfehlen und um Auskunft bitten, ob
+12-1	Darf	VMFIN	dürfen	_	O	O	
+12-2	ich	PPER	ich	_	O	O	
+12-3	Ihnen	PPER	Sie	_	O	O	
+12-4	und	KON	und	_	O	O	
+12-5	Freund	NE	Freund	_	O	O	
+12-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-7	,	$,	,	_	O	O	
+12-8	der	PRELS	die	_	O	O	
+12-9	noch	ADV	noch	_	O	O	
+12-10	auf	APPR	auf	_	O	O	
+12-11	Reisen	NN	Reise|Reisen	_	O	O	
+12-12	ist	VAFIN	sein	_	O	O	
+12-13	,	$,	,	_	O	O	
+12-14	die	ART	die	_	O	O	
+12-15	Sache	NN	Sache	_	O	O	
+12-16	empfehlen	VVINF	empfehlen	_	O	O	
+12-17	und	KON	und	_	O	O	
+12-18	um	APPR	um	_	O	O	
+12-19	Auskunft	NN	Auskunft	_	O	O	
+12-20	bitten	VVINF	bitten	_	O	O	
+12-21	,	$,	,	_	O	O	
+12-22	ob	KOUS	ob	_	O	O	
+

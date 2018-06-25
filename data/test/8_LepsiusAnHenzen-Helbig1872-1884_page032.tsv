@@ -1,0 +1,265 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=3 Lepsius an Henzen Berlin, 7. April 1872 sagt, dessen Fassung nun aber mit Berücksichtigung auch Ihrer Bemerkungen so weit vorläufig in wiederholten Sitzungen von uns festgestellt ist, daß es morgen der Klasse vorgelegt werden kann.
+1-1	3	CARD	3	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	sagt	VVFIN	sagen	_	O	O	
+1-12	,	$,	,	_	O	O	
+1-13	dessen	PRELAT	die	_	O	O	
+1-14	Fassung	NN	Fassung	_	O	O	
+1-15	nun	ADV	nun	_	O	O	
+1-16	aber	ADV	aber	_	O	O	
+1-17	mit	APPR	mit	_	O	O	
+1-18	Berücksichtigung	NN	Berücksichtigung	_	O	O	
+1-19	auch	ADV	auch	_	O	O	
+1-20	Ihrer	PPOSAT	ihr	_	O	O	
+1-21	Bemerkungen	NN	Bemerkung	_	O	O	
+1-22	so	ADV	so	_	O	O	
+1-23	weit	ADJD	weit	_	O	O	
+1-24	vorläufig	ADJD	vorläufig	_	O	O	
+1-25	in	APPR	in	_	O	O	
+1-26	wiederholten	ADJA	wiederholt	_	O	O	
+1-27	Sitzungen	NN	Sitzung	_	O	O	
+1-28	von	APPR	von	_	O	O	
+1-29	uns	PRF	wir	_	O	O	
+1-30	festgestellt	VVPP	feststellen	_	O	O	
+1-31	ist	VAFIN	sein	_	O	O	
+1-32	,	$,	,	_	O	O	
+1-33	daß	KOUS	dass	_	O	O	
+1-34	es	PPER	es	_	O	O	
+1-35	morgen	ADV	morgen	_	O	O	
+1-36	der	ART	die	_	O	O	
+1-37	Klasse	NN	Klasse	_	O	O	
+1-38	vorgelegt	VVPP	vorlegen	_	O	O	
+1-39	werden	VAINF	werden	_	O	O	
+1-40	kann	VMFIN	können	_	O	O	
+1-41	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich hoffe es wird hier und im Plenum keine wesentlichen Schwierigkeiten finden.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	hoffe	VVFIN	hoffen	_	O	O	
+2-3	es	PPER	es	_	O	O	
+2-4	wird	VAFIN	werden	_	O	O	
+2-5	hier	ADV	hier	_	O	O	
+2-6	und	KON	und	_	O	O	
+2-7	im	APPRART	in	_	O	O	
+2-8	Plenum	NN	Plenum	_	O	O	
+2-9	keine	PIAT	keine	_	O	O	
+2-10	wesentlichen	ADJA	wesentlich	_	O	O	
+2-11	Schwierigkeiten	NN	Schwierigkeit	_	O	O	
+2-12	finden	VVINF	finden	_	O	O	
+2-13	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich lasse für Sie eine Abschrift machen, die Ihnen bald zugehen wird.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	lasse	VVFIN	lassen	_	O	O	
+3-3	für	APPR	für	_	O	O	
+3-4	Sie	PPER	Sie	_	O	O	
+3-5	eine	ART	eine	_	O	O	
+3-6	Abschrift	NN	Abschrift	_	O	O	
+3-7	machen	VVINF	machen	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	die	PRELS	die	_	O	O	
+3-10	Ihnen	PPER	Sie	_	O	O	
+3-11	bald	ADV	bald	_	O	O	
+3-12	zugehen	VVINF	zugehen	_	O	O	
+3-13	wird	VAFIN	werden	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Sagen Sie Helbig meine besten Grüße.
+4-1	Sagen	VVFIN	sagen	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-4	meine	PPOSAT	mein	_	O	O	
+4-5	besten	ADJA	gut	_	O	O	
+4-6	Grüße	NN	Gruß	_	O	O	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=Mit vielem Antheil haben wir den Verlust seines Kindes vernommen.
+5-1	Mit	APPR	mit	_	O	O	
+5-2	vielem	PIAT	viele	_	O	O	
+5-3	Antheil	NN	<unknown>	_	O	O	
+5-4	haben	VAFIN	haben	_	O	O	
+5-5	wir	PPER	wir	_	O	O	
+5-6	den	ART	die	_	O	O	
+5-7	Verlust	NN	Verlust	_	O	O	
+5-8	seines	PPOSAT	sein	_	O	O	
+5-9	Kindes	NN	Kind	_	O	O	
+5-10	vernommen	VVPP	vernehmen	_	O	O	
+5-11	.	$.	.	_	O	O	
+
+#id=6
+#text=Die officielle Bestätigung der ihm zur Disposition gestellten 500 r wird er von Dielitz erhalten haben.
+6-1	Die	ART	die	_	O	O	
+6-2	officielle	ADJA	<unknown>	_	O	O	
+6-3	Bestätigung	NN	Bestätigung	_	O	O	
+6-4	der	ART	die	_	O	O	
+6-5	ihm	PPER	er	_	O	O	
+6-6	zur	APPRART	zu	_	O	O	
+6-7	Disposition	NN	Disposition	_	O	O	
+6-8	gestellten	ADJA	gestellt	_	O	O	
+6-9	500	CARD	500	_	O	O	
+6-10	r	NE	r	_	O	O	
+6-11	wird	VAFIN	werden	_	O	O	
+6-12	er	PPER	er	_	O	O	
+6-13	von	APPR	von	_	O	O	
+6-14	Dielitz	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-15	erhalten	VVPP	erhalten	_	O	O	
+6-16	haben	VAINF	haben	_	O	O	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=Sein letzter Brief wegen der Sammlung von Münzen ist an Friedländer gegangen; wir werden aber in der Sache nichts thun können, wenn uns die Sammlung nicht zugesendet wird.
+7-1	Sein	PPOSAT	sein	_	O	O	
+7-2	letzter	ADJA	letzt	_	O	O	
+7-3	Brief	NN	Brief	_	O	O	
+7-4	wegen	APPR	wegen	_	O	O	
+7-5	der	ART	die	_	O	O	
+7-6	Sammlung	NN	Sammlung	_	O	O	
+7-7	von	APPR	von	_	O	O	
+7-8	Münzen	NN	Münze	_	B-webanno.custom.LetterEntity_	B-OBJ	
+7-9	ist	VAFIN	sein	_	O	O	
+7-10	an	APPR	an	_	O	O	
+7-11	Friedländer	NN	Friedland	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-12	gegangen	VVPP	gehen	_	O	O	
+7-13	;	$.	;	_	O	O	
+7-14	wir	PPER	wir	_	O	O	
+7-15	werden	VAFIN	werden	_	O	O	
+7-16	aber	ADV	aber	_	O	O	
+7-17	in	APPR	in	_	O	O	
+7-18	der	ART	die	_	O	O	
+7-19	Sache	NN	Sache	_	O	O	
+7-20	nichts	PIAT	nichts	_	O	O	
+7-21	thun	NN	<unknown>	_	O	O	
+7-22	können	VMINF	können	_	O	O	
+7-23	,	$,	,	_	O	O	
+7-24	wenn	KOUS	wenn	_	O	O	
+7-25	uns	PPER	wir	_	O	O	
+7-26	die	ART	die	_	O	O	
+7-27	Sammlung	NN	Sammlung	_	O	O	
+7-28	nicht	PTKNEG	nicht	_	O	O	
+7-29	zugesendet	VVPP	zusenden	_	O	O	
+7-30	wird	VAFIN	werden	_	O	O	
+7-31	.	$.	.	_	O	O	
+
+#id=8
+#text=Die officielle Antwort wird noch erfolgen.
+8-1	Die	ART	die	_	O	O	
+8-2	officielle	ADJA	<unknown>	_	O	O	
+8-3	Antwort	NN	Antwort	_	O	O	
+8-4	wird	VAFIN	werden	_	O	O	
+8-5	noch	ADV	noch	_	O	O	
+8-6	erfolgen	VVINF	erfolgen	_	O	O	
+8-7	.	$.	.	_	O	O	
+
+#id=9
+#text=Usedoms Propositionen finden einigen Widerstand bei Falk.
+9-1	Usedoms	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	Propositionen	NN	Proposition	_	O	O	
+9-3	finden	VVFIN	finden	_	O	O	
+9-4	einigen	PIAT	einige	_	O	O	
+9-5	Widerstand	NN	Widerstand	_	O	O	
+9-6	bei	APPR	bei	_	O	O	
+9-7	Falk	NE	Falk	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Dennoch wird er meine ich wohl eintreten, obgleich wiederum vielleicht nur provisorisch.
+10-1	Dennoch	ADV	dennoch	_	O	O	
+10-2	wird	VAFIN	werden	_	O	O	
+10-3	er	PPER	er	_	O	O	
+10-4	meine	VVFIN	meinen	_	O	O	
+10-5	ich	PPER	ich	_	O	O	
+10-6	wohl	ADV	wohl	_	O	O	
+10-7	eintreten	VVINF	eintreten	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	obgleich	KOUS	obgleich	_	O	O	
+10-10	wiederum	ADV	wiederum	_	O	O	
+10-11	vielleicht	ADV	vielleicht	_	O	O	
+10-12	nur	ADV	nur	_	O	O	
+10-13	provisorisch	ADJD	provisorisch	_	O	O	
+10-14	.	$.	.	_	O	O	
+
+#id=11
+#text=Wir kommen aus den künstlichen Zuständen nicht heraus.
+11-1	Wir	PPER	wir	_	O	O	
+11-2	kommen	VVFIN	kommen	_	O	O	
+11-3	aus	APPR	aus	_	O	O	
+11-4	den	ART	die	_	O	O	
+11-5	künstlichen	ADJA	künstlich	_	O	O	
+11-6	Zuständen	NN	Zustand	_	O	O	
+11-7	nicht	PTKNEG	nicht	_	O	O	
+11-8	heraus	PTKVZ	heraus	_	O	O	
+11-9	.	$.	.	_	O	O	
+
+#id=12
+#text=Schöne, der auch hier war, ist für die Kunststelle im Ministerium genannt worden.
+12-1	Schöne	NN	Schöne	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	,	$,	,	_	O	O	
+12-3	der	PRELS	die	_	O	O	
+12-4	auch	ADV	auch	_	O	O	
+12-5	hier	ADV	hier	_	O	O	
+12-6	war	VAFIN	sein	_	O	O	
+12-7	,	$,	,	_	O	O	
+12-8	ist	VAFIN	sein	_	O	O	
+12-9	für	APPR	für	_	O	O	
+12-10	die	ART	die	_	O	O	
+12-11	Kunststelle	NN	<unknown>	_	O	O	
+12-12	im	APPRART	in	_	O	O	
+12-13	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+12-14	genannt	VVPP	nennen	_	O	O	
+12-15	worden	VAPP	werden	_	O	O	
+12-16	.	$.	.	_	O	O	
+
+#id=13
+#text=Wir könnten ja damit zufrieden sein; doch scheint nicht ernstlich daran gedacht, und er dürfte auch aus zu weichem Stoffe sein, um dieser Brandung Stand zu halten.
+13-1	Wir	PPER	wir	_	O	O	
+13-2	könnten	VMFIN	können	_	O	O	
+13-3	ja	ADV	ja	_	O	O	
+13-4	damit	PAV	damit	_	O	O	
+13-5	zufrieden	ADJD	zufrieden	_	O	O	
+13-6	sein	VAINF	sein	_	O	O	
+13-7	;	$.	;	_	O	O	
+13-8	doch	KON	doch	_	O	O	
+13-9	scheint	VVFIN	scheinen	_	O	O	
+13-10	nicht	PTKNEG	nicht	_	O	O	
+13-11	ernstlich	ADJD	ernstlich	_	O	O	
+13-12	daran	PAV	daran	_	O	O	
+13-13	gedacht	VVPP	denken|gedenken	_	O	O	
+13-14	,	$,	,	_	O	O	
+13-15	und	KON	und	_	O	O	
+13-16	er	PPER	er	_	O	O	
+13-17	dürfte	VMFIN	dürfen	_	O	O	
+13-18	auch	ADV	auch	_	O	O	
+13-19	aus	APPR	aus	_	O	O	
+13-20	zu	PTKA	zu	_	O	O	
+13-21	weichem	ADJA	weich	_	O	O	
+13-22	Stoffe	NN	Stoff	_	O	O	
+13-23	sein	VAINF	sein	_	O	O	
+13-24	,	$,	,	_	O	O	
+13-25	um	KOUI	um	_	O	O	
+13-26	dieser	PDAT	dies	_	O	O	
+13-27	Brandung	NN	Brandung	_	O	O	
+13-28	Stand	NN	Stand	_	O	O	
+13-29	zu	PTKZU	zu	_	O	O	
+13-30	halten	VVINF	halten	_	O	O	
+13-31	.	$.	.	_	O	O	
+
+#id=14
+#text=Ihr R Lepsius
+14-1	Ihr	PPOSAT	ihr	_	O	O	
+14-2	R	NN	R	_	O	O	
+14-3	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

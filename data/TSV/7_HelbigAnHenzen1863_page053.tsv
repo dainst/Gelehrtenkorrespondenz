@@ -1,0 +1,121 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=101 2 Helbig an das Institut Paris, 10. März 1865 denn, daß man mich rasch über die fehlenden Hefte benachrichtigt.
+1-1	101	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	das	ART	die	_	O	O	
+1-6	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-7	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1865	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	denn	ADV	denn	_	O	O	
+1-14	,	$,	,	_	O	O	
+1-15	daß	KOUS	dass	_	O	O	
+1-16	man	PIS	man	_	O	O	
+1-17	mich	PRF	ich	_	O	O	
+1-18	rasch	ADJD	rasch	_	O	O	
+1-19	über	APPR	über	_	O	O	
+1-20	die	ART	die	_	O	O	
+1-21	fehlenden	ADJA	fehlend	_	O	O	
+1-22	Hefte	NN	Heft	_	O	O	
+1-23	benachrichtigt	VVPP	benachrichtigen	_	O	O	
+1-24	.	$.	.	_	O	O	
+
+#id=2
+#text=Didier behauptet, die Revue arch. 1863 ( November) und 64 (Jüi.llet) beide nach Romcgeschickt zu haben, will die fehlenden Nummern ersetzen, verlangt aber für beide Bezahlung.
+2-1	Didier	NE	Didier	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	behauptet	VVFIN	behaupten	_	O	O	
+2-3	,	$,	,	_	O	O	
+2-4	die	ART	die	_	O	O	
+2-5	Revue	NN	Revue	_	O	O	
+2-6	arch	VVFIN	<unknown>	_	O	O	
+2-7	.	$.	.	_	O	O	
+2-8	1863	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-9	(	$(	(	_	O	O	
+2-10	November	NN	November	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-11	)	$(	)	_	O	O	
+2-12	und	KON	und	_	O	O	
+2-13	64	CARD	64	_	O	O	
+2-14	(	$(	(	_	O	O	
+2-15	Jüi.llet	NE	<unknown>	_	O	O	
+2-16	)	$(	)	_	O	O	
+2-17	beide	PIS	beide	_	O	O	
+2-18	nach	APPR	nach	_	O	O	
+2-19	Romcgeschickt	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-20	zu	PTKZU	zu	_	O	O	
+2-21	haben	VAINF	haben	_	O	O	
+2-22	,	$,	,	_	O	O	
+2-23	will	VMFIN	wollen	_	O	O	
+2-24	die	ART	die	_	O	O	
+2-25	fehlenden	ADJA	fehlend	_	O	O	
+2-26	Nummern	NN	Nummer	_	O	O	
+2-27	ersetzen	VVINF	ersetzen	_	O	O	
+2-28	,	$,	,	_	O	O	
+2-29	verlangt	VVFIN	verlangen	_	O	O	
+2-30	aber	ADV	aber	_	O	O	
+2-31	für	APPR	für	_	O	O	
+2-32	beide	PIAT	beide	_	O	O	
+2-33	Bezahlung	NN	Bezahlung	_	O	O	
+2-34	.	$.	.	_	O	O	
+
+#id=4
+#text=Es ist nunmehr entschieden, daß ich nicht weniger und nicht länger als bis zum 27. März in Paris bleiben werde.
+4-1	Es	PPER	es	_	O	O	
+4-2	ist	VAFIN	sein	_	O	O	
+4-3	nunmehr	ADV	nunmehr	_	O	O	
+4-4	entschieden	VVPP	entscheiden	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	daß	KOUS	dass	_	O	O	
+4-7	ich	PPER	ich	_	O	O	
+4-8	nicht	PTKNEG	nicht	_	O	O	
+4-9	weniger	ADV	weniger	_	O	O	
+4-10	und	KON	und	_	O	O	
+4-11	nicht	PTKNEG	nicht	_	O	O	
+4-12	länger	ADJD	lang	_	O	O	
+4-13	als	KOKOM	als	_	O	O	
+4-14	bis	APPR	bis	_	O	O	
+4-15	zum	APPRART	zu	_	O	O	
+4-16	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-18	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-19	in	APPR	in	_	O	O	
+4-20	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-21	bleiben	VVINF	bleiben	_	O	O	
+4-22	werde	VAFIN	werden	_	O	O	
+4-23	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich bitte Sie, sich darnach mit etwaigen anderweitigen Aufträgen einzurichten.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	bitte	VVFIN	bitten	_	O	O	
+5-3	Sie	PPER	Sie	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	sich	PRF	sich	_	O	O	
+5-6	darnach	ADV	<unknown>	_	O	O	
+5-7	mit	APPR	mit	_	O	O	
+5-8	etwaigen	ADJA	etwaig	_	O	O	
+5-9	anderweitigen	ADJA	anderweitig	_	O	O	
+5-10	Aufträgen	NN	Auftrag	_	O	O	
+5-11	einzurichten	VVIZU	einrichten	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Mit herzlichen Grüßen an alle Inhaber der Casa Ihr Wolfgang Helbig •
+6-1	Mit	APPR	mit	_	O	O	
+6-2	herzlichen	ADJA	herzlich	_	O	O	
+6-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+6-4	an	APPR	an	_	O	O	
+6-5	alle	PIAT	alle	_	O	O	
+6-6	Inhaber	NN	Inhaber	_	O	O	
+6-7	der	ART	die	_	O	O	
+6-8	Casa	NE	Casa	_	O	O	
+6-9	Ihr	PPOSAT	ihr	_	O	O	
+6-10	Wolfgang	NN	Wolfgang	_	O	O	
+6-11	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-12	•	ADJA	<unknown>	_	O	O	
+

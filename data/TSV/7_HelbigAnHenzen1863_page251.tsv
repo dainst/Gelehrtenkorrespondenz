@@ -1,0 +1,189 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=381 Postkarte Lieber Herr Professor Helbig an Henzen Ohne Datum.
+1-1	381	CARD	@card@	_	O	O	
+1-2	Postkarte	NN	Postkarte	_	O	O	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-9	Ohne	APPR	ohne	_	O	O	
+1-10	Datum	NN	Datum	_	O	O	
+1-11	.	$.	.	_	O	O	
+
+#id=2
+#text=Poststempel Siena, 24. Juli 1875 g. 25/7 75 Ohne Datum Eben bin ich im Begriff, nach Montepulciano ( festa di Poliziano) abzureisen, wo ich Gamurrini treffen werde - hoffentlich allein.
+2-1	Poststempel	NN	Poststempel	_	O	O	
+2-2	Siena	NE	Siena	_	O	O	
+2-3	,	$,	,	_	O	O	
+2-4	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	g.	VVFIN	<unknown>	_	O	O	
+2-9	25/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-10	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-11	Ohne	APPR	ohne	_	O	O	
+2-12	Datum	NN	Datum	_	O	O	
+2-13	Eben	ADV	eben	_	O	O	
+2-14	bin	VAFIN	sein	_	O	O	
+2-15	ich	PPER	ich	_	O	O	
+2-16	im	APPRART	in	_	O	O	
+2-17	Begriff	NN	Begriff	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	nach	APPR	nach	_	O	O	
+2-20	Montepulciano	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-21	(	$(	(	_	O	O	
+2-22	festa	NE	<unknown>	_	O	O	
+2-23	di	NE	di	_	O	O	
+2-24	Poliziano	NE	<unknown>	_	O	O	
+2-25	)	$(	)	_	O	O	
+2-26	abzureisen	VVIZU	abreisen	_	O	O	
+2-27	,	$,	,	_	O	O	
+2-28	wo	PWAV	wo	_	O	O	
+2-29	ich	PPER	ich	_	O	O	
+2-30	Gamurrini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-31	treffen	VVINF	treffen	_	O	O	
+2-32	werde	VAFIN	werden	_	O	O	
+2-33	-	$(	-	_	O	O	
+2-34	hoffentlich	ADV	hoffentlich	_	O	O	
+2-35	allein	ADV	allein	_	O	O	
+2-36	.	$.	.	_	O	O	
+
+#id=3
+#text=Heydemann kann die Tafel erhalten, nachdem Mariani von den darauf beigefügten Bemerkungen Notiz genommen.
+3-1	Heydemann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	kann	VMFIN	können	_	O	O	
+3-3	die	ART	die	_	O	O	
+3-4	Tafel	NN	Tafel	_	O	O	
+3-5	erhalten	VVPP	erhalten	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	nachdem	KOUS	nachdem	_	O	O	
+3-8	Mariani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-9	von	APPR	von	_	O	O	
+3-10	den	ART	die	_	O	O	
+3-11	darauf	PAV	darauf	_	O	O	
+3-12	beigefügten	ADJA	beigefügt	_	O	O	
+3-13	Bemerkungen	NN	Bemerkung	_	O	O	
+3-14	Notiz	NN	Notiz	_	O	O	
+3-15	genommen	VVPP	nehmen	_	O	O	
+3-16	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Parrocchi von Collalto und Marmoraja machen Ausgrabungen und sind zu Correspondenten geeignet.
+4-1	Die	ART	die	_	O	O	
+4-2	Parrocchi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-3	von	APPR	von	_	O	O	
+4-4	Collalto	NN	<unknown>	_	O	O	
+4-5	und	KON	und	_	O	O	
+4-6	Marmoraja	NN	<unknown>	_	O	O	
+4-7	machen	VVFIN	machen	_	O	O	
+4-8	Ausgrabungen	NN	Ausgrabung	_	O	O	
+4-9	und	KON	und	_	O	O	
+4-10	sind	VAFIN	sein	_	O	O	
+4-11	zu	APPR	zu	_	O	O	
+4-12	Correspondenten	NN	<unknown>	_	O	O	
+4-13	geeignet	VVPP	eignen	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich möchte ihnen Bullettino Artikel als Muster für Correspondenzen überantworten.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	möchte	VMFIN	mögen	_	O	O	
+5-3	ihnen	PPER	sie	_	O	O	
+5-4	Bullettino	ADV	<unknown>	_	O	O	
+5-5	Artikel	NN	Artikel	_	O	O	
+5-6	als	KOKOM	als	_	O	O	
+5-7	Muster	NN	Muster	_	O	O	
+5-8	für	APPR	für	_	O	O	
+5-9	Correspondenzen	NN	<unknown>	_	O	O	
+5-10	überantworten	VVINF	überantworten	_	O	O	
+5-11	.	$.	.	_	O	O	
+
+#id=6
+#text=Am Meisten dafür geeignet wären wohl aus dem Jahre 1874 der Artikel Scavi di Chiusi von Nardi-Dei und mein Artikel in demselben Jahrgang Scavi di Chiusi (Grab Terrosi ) • Dürfte ich um zwei Exemplare der beiden Nummern bitten?
+6-1	Am	APPRART	an	_	O	O	
+6-2	Meisten	NN	<unknown>	_	O	O	
+6-3	dafür	PAV	dafür	_	O	O	
+6-4	geeignet	ADJD	geeignet	_	O	O	
+6-5	wären	VAFIN	sein	_	O	O	
+6-6	wohl	ADV	wohl	_	O	O	
+6-7	aus	APPR	aus	_	O	O	
+6-8	dem	ART	die	_	O	O	
+6-9	Jahre	NN	Jahr	_	O	O	
+6-10	1874	CARD	@card@	_	O	O	
+6-11	der	ART	die	_	O	O	
+6-12	Artikel	NN	Artikel	_	O	O	
+6-13	Scavi	NE	<unknown>	_	O	O	
+6-14	di	NE	di	_	O	O	
+6-15	Chiusi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-16	von	APPR	von	_	O	O	
+6-17	Nardi-Dei	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-18	und	KON	und	_	O	O	
+6-19	mein	PPOSAT	mein	_	O	O	
+6-20	Artikel	NN	Artikel	_	O	O	
+6-21	in	APPR	in	_	O	O	
+6-22	demselben	PDAT	dieselb	_	O	O	
+6-23	Jahrgang	NN	Jahrgang	_	O	O	
+6-24	Scavi	NE	<unknown>	_	O	O	
+6-25	di	NE	di	_	O	O	
+6-26	Chiusi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-27	(	$(	(	_	O	O	
+6-28	Grab	NN	Grab	_	O	O	
+6-29	Terrosi	NN	<unknown>	_	O	O	
+6-30	)	$(	)	_	O	O	
+6-31	•	NN	<unknown>	_	O	O	
+6-32	Dürfte	VVFIN	dürfen	_	O	O	
+6-33	ich	PPER	ich	_	O	O	
+6-34	um	APPR	um	_	O	O	
+6-35	zwei	CARD	zwei	_	O	O	
+6-36	Exemplare	NN	Exemplar	_	O	O	
+6-37	der	ART	die	_	O	O	
+6-38	beiden	PIAT	beide	_	O	O	
+6-39	Nummern	NN	Nummer	_	O	O	
+6-40	bitten	VVINF	bitten	_	O	O	
+6-41	?	$.	?	_	O	O	
+
+#id=7
+#text=Danke sehr für die Angabe des Gewichts des phönikischen Staters.
+7-1	Danke	PTKANT	danke	_	O	O	
+7-2	sehr	ADV	sehr	_	O	O	
+7-3	für	APPR	für	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	Angabe	NN	Angabe	_	O	O	
+7-6	des	ART	die	_	O	O	
+7-7	Gewichts	NN	Gewicht	_	O	O	
+7-8	des	ART	die	_	O	O	
+7-9	phönikischen	ADJA	<unknown>	_	O	O	
+7-10	Staters	NN	<unknown>	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Doch sind die gallischen Goldmünzen in einem anderen leichteren Fuße geprägt, den ich in Rom constatiren muß.
+8-1	Doch	ADV	doch	_	O	O	
+8-2	sind	VAFIN	sein	_	O	O	
+8-3	die	ART	die	_	O	O	
+8-4	gallischen	ADJA	<unknown>	_	O	O	
+8-5	Goldmünzen	NN	Goldmünze	_	O	O	
+8-6	in	APPR	in	_	O	O	
+8-7	einem	ART	eine	_	O	O	
+8-8	anderen	PIS	andere	_	O	O	
+8-9	leichteren	ADJA	leicht	_	O	O	
+8-10	Fuße	NN	Fuß	_	O	O	
+8-11	geprägt	VVPP	prägen	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	den	PRELS	die	_	O	O	
+8-14	ich	PPER	ich	_	O	O	
+8-15	in	APPR	in	_	O	O	
+8-16	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-17	constatiren	NN	<unknown>	_	O	O	
+8-18	muß	VMFIN	müssen	_	O	O	
+8-19	.	$.	.	_	O	O	
+
+#id=9
+#text=Ihr Helbig
+9-1	Ihr	PPOSAT	ihr	_	O	O	
+9-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

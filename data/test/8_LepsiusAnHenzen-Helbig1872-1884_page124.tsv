@@ -1,0 +1,163 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=15 Lapsius an Henzen Berlin, 5. Januar 1874 2 wenn nicht, so ist er nur den Korrespondenten noch zuzufügen.
+1-1	15	CARD	15	_	O	O	
+1-2	Lapsius	NN	<unknown>	_	O	O	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	wenn	KOUS	wenn	_	O	O	
+1-13	nicht	PTKNEG	nicht	_	O	O	
+1-14	,	$,	,	_	O	O	
+1-15	so	ADV	so	_	O	O	
+1-16	ist	VAFIN	sein	_	O	O	
+1-17	er	PPER	er	_	O	O	
+1-18	nur	ADV	nur	_	O	O	
+1-19	den	ART	die	_	O	O	
+1-20	Korrespondenten	NN	Korrespondent	_	O	O	
+1-21	noch	ADV	noch	_	O	O	
+1-22	zuzufügen	VVIZU	zufügen	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=So eben erhalte ich Ihren Brief vom 2. n • Die Gesandtschaft wird wohl noch angewiesen werden, wenn H. v. ~~i K~ auf seine Anfrage noch keine Antwort hat.
+2-1	So	ADV	so	_	O	O	
+2-2	eben	ADV	eben	_	O	O	
+2-3	erhalte	VVFIN	erhalten	_	O	O	
+2-4	ich	PPER	ich	_	O	O	
+2-5	Ihren	PPOSAT	ihr	_	O	O	
+2-6	Brief	NN	Brief	_	O	O	
+2-7	vom	APPRART	von	_	O	O	
+2-8	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-10	n	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-11	•	NN	<unknown>	_	O	O	
+2-12	Die	ART	die	_	O	O	
+2-13	Gesandtschaft	NN	Gesandtschaft	_	O	O	
+2-14	wird	VAFIN	werden	_	O	O	
+2-15	wohl	ADV	wohl	_	O	O	
+2-16	noch	ADV	noch	_	O	O	
+2-17	angewiesen	ADJD	angewiesen	_	O	O	
+2-18	werden	VAINF	werden	_	O	O	
+2-19	,	$,	,	_	O	O	
+2-20	wenn	KOUS	wenn	_	O	O	
+2-21	H.	NE	H.	_	O	O	
+2-22	v.	APPR	von	_	O	O	
+2-23	~~i	NN	<unknown>	_	O	O	
+2-24	K~	NN	<unknown>	_	O	O	
+2-25	auf	APPR	auf	_	O	O	
+2-26	seine	PPOSAT	sein	_	O	O	
+2-27	Anfrage	NN	Anfrage	_	O	O	
+2-28	noch	ADV	noch	_	O	O	
+2-29	keine	PIAT	keine	_	O	O	
+2-30	Antwort	NN	Antwort	_	O	O	
+2-31	hat	VAFIN	haben	_	O	O	
+2-32	.	$.	.	_	O	O	
+
+#id=3
+#text=Wäre hier die Sache nicht in Ordnung, so hätte mir wohl Hepke geantwortet.
+3-1	Wäre	VAFIN	sein	_	O	O	
+3-2	hier	ADV	hier	_	O	O	
+3-3	die	ART	die	_	O	O	
+3-4	Sache	NN	Sache	_	O	O	
+3-5	nicht	PTKNEG	nicht	_	O	O	
+3-6	in	APPR	in	_	O	O	
+3-7	Ordnung	NN	Ordnung	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	so	ADV	so	_	O	O	
+3-10	hätte	VAFIN	haben	_	O	O	
+3-11	mir	PPER	ich	_	O	O	
+3-12	wohl	ADV	wohl	_	O	O	
+3-13	Hepke	NE	Hepke	_	O	O	
+3-14	geantwortet	VVPP	antworten	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich will nun aber hier weiter forschen und drängen.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	will	VMFIN	wollen	_	O	O	
+4-3	nun	ADV	nun	_	O	O	
+4-4	aber	ADV	aber	_	O	O	
+4-5	hier	ADV	hier	_	O	O	
+4-6	weiter	ADV	weiter	_	O	O	
+4-7	forschen	VVINF	forschen	_	O	O	
+4-8	und	KON	und	_	O	O	
+4-9	drängen	VVINF	dringen|drängen	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Auch über den Bibliotheks Diener werden wir in der nächsten Konferenz sprechen.
+5-1	Auch	ADV	auch	_	O	O	
+5-2	über	APPR	über	_	O	O	
+5-3	den	ART	die	_	O	O	
+5-4	Bibliotheks	ADJA	<unknown>	_	O	O	
+5-5	Diener	NN	Diener	_	O	O	
+5-6	werden	VAFIN	werden	_	O	O	
+5-7	wir	PPER	wir	_	O	O	
+5-8	in	APPR	in	_	O	O	
+5-9	der	ART	die	_	O	O	
+5-10	nächsten	ADJA	nah	_	O	O	
+5-11	Konferenz	NN	Konferenz	_	O	O	
+5-12	sprechen	VVINF	sprechen	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Desgleichen über die Offerte der Institutswerke an die französische Sektion in Rom, die gewiß bewilligt wird.
+6-1	Desgleichen	ADV	desgleichen	_	O	O	
+6-2	über	APPR	über	_	O	O	
+6-3	die	ART	die	_	O	O	
+6-4	Offerte	NN	Offerte	_	O	O	
+6-5	der	ART	die	_	O	O	
+6-6	Institutswerke	NN	<unknown>	_	O	O	
+6-7	an	APPR	an	_	O	O	
+6-8	die	ART	die	_	O	O	
+6-9	französische	ADJA	französisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-10	Sektion	NN	Sektion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+6-11	in	APPR	in	_	O	O	
+6-12	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-13	,	$,	,	_	O	O	
+6-14	die	PRELS	die	_	O	O	
+6-15	gewiß	ADJD	gewiss	_	O	O	
+6-16	bewilligt	VVPP	bewilligen	_	O	O	
+6-17	wird	VAFIN	werden	_	O	O	
+6-18	.	$.	.	_	O	O	
+
+#id=7
+#text=Kirchhoff wird nächsten Donnerstag noch besonders 1 Exemplar der Inscr.
+7-1	Kirchhoff	NE	Kirchhoff	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	wird	VAFIN	werden	_	O	O	
+7-3	nächsten	ADJA	nah	_	O	O	
+7-4	Donnerstag	NN	Donnerstag	_	O	O	
+7-5	noch	ADV	noch	_	O	O	
+7-6	besonders	ADV	besonders	_	O	O	
+7-7	1	CARD	1	_	O	O	
+7-8	Exemplar	NN	Exemplar	_	O	O	
+7-9	der	ART	die	_	O	O	
+7-10	Inscr	NN	<unknown>	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Att.
+8-1	Att	NE	<unknown>	_	O	O	
+8-2	.	$.	.	_	O	O	
+
+#id=9
+#text=für Sie beantragen.
+9-1	für	APPR	für	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	beantragen	VVFIN	beantragen	_	O	O	
+9-4	.	$.	.	_	O	O	
+
+#id=10
+#text=Der Ihrige R Lepsius
+10-1	Der	ART	die	_	O	O	
+10-2	Ihrige	PPOSAT	ihrige	_	O	O	
+10-3	R	NN	R	_	O	O	
+10-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

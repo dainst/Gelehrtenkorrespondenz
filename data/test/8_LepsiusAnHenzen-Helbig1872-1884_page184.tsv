@@ -1,0 +1,251 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=628 2 Lepsius an Henzen Berlin, 2. Dezember 1874 seinen Bericht mitgetheilt, der vortrefflich ist, aber schwerlich das darin bezeichnete Ziel, erreichen wird, Ihnen schon jetzt Gewißheit über die Zurückdatirung durch formelle Gewährung - ich meine auf 1844 und 65 - zu verschaffen.
+1-1	628	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	seinen	PPOSAT	sein	_	O	O	
+1-13	Bericht	NN	Bericht	_	O	O	
+1-14	mitgetheilt	VVPP	<unknown>	_	O	O	
+1-15	,	$,	,	_	O	O	
+1-16	der	PRELS	die	_	O	O	
+1-17	vortrefflich	ADJD	vortrefflich	_	O	O	
+1-18	ist	VAFIN	sein	_	O	O	
+1-19	,	$,	,	_	O	O	
+1-20	aber	ADV	aber	_	O	O	
+1-21	schwerlich	ADJD	schwerlich	_	O	O	
+1-22	das	ART	die	_	O	O	
+1-23	darin	PAV	darin	_	O	O	
+1-24	bezeichnete	ADJA	bezeichnet	_	O	O	
+1-25	Ziel	NN	Ziel	_	O	O	
+1-26	,	$,	,	_	O	O	
+1-27	erreichen	VVINF	erreichen	_	O	O	
+1-28	wird	VAFIN	werden	_	O	O	
+1-29	,	$,	,	_	O	O	
+1-30	Ihnen	PPER	Sie	_	O	O	
+1-31	schon	ADV	schon	_	O	O	
+1-32	jetzt	ADV	jetzt	_	O	O	
+1-33	Gewißheit	NN	Gewissheit	_	O	O	
+1-34	über	APPR	über	_	O	O	
+1-35	die	ART	die	_	O	O	
+1-36	Zurückdatirung	NN	<unknown>	_	O	O	
+1-37	durch	APPR	durch	_	O	O	
+1-38	formelle	ADJA	formell	_	O	O	
+1-39	Gewährung	NN	Gewährung	_	O	O	
+1-40	-	$(	-	_	O	O	
+1-41	ich	PPER	ich	_	O	O	
+1-42	meine	VVFIN	meinen	_	O	O	
+1-43	auf	APPR	auf	_	O	O	
+1-44	1844	CARD	1844	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-45	und	KON	und	_	O	O	
+1-46	65	CARD	65	_	O	O	
+1-47	-	$(	-	_	O	O	
+1-48	zu	PTKZU	zu	_	O	O	
+1-49	verschaffen	VVINF	verschaffen	_	O	O	
+1-50	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich habe die Ganze Sache schon einmal mit Hepke durchgesprochen bei Gelegenheit der Statutenabfassung.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	habe	VAFIN	haben	_	O	O	
+2-3	die	ART	die	_	O	O	
+2-4	Ganze	ADJA	ganz	_	O	O	
+2-5	Sache	NN	Sache	_	O	O	
+2-6	schon	ADV	schon	_	O	O	
+2-7	einmal	ADV	einmal	_	O	O	
+2-8	mit	APPR	mit	_	O	O	
+2-9	Hepke	NE	Hepke	_	O	O	
+2-10	durchgesprochen	VVPP	durchsprechen	_	O	O	
+2-11	bei	APPR	bei	_	O	O	
+2-12	Gelegenheit	NN	Gelegenheit	_	O	O	
+2-13	der	ART	die	_	O	O	
+2-14	Statutenabfassung	NN	<unknown>	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Er weigerte sich positiv etwas davon auszusprechen; sie gehört auch nicht in das Statut.
+3-1	Er	PPER	er	_	O	O	
+3-2	weigerte	VVFIN	weigern	_	O	O	
+3-3	sich	PRF	sich	_	O	O	
+3-4	positiv	ADJD	positiv	_	O	O	
+3-5	etwas	PIS	etwas	_	O	O	
+3-6	davon	PAV	davon	_	O	O	
+3-7	auszusprechen	VVIZU	aussprechen	_	O	O	
+3-8	;	$.	;	_	O	O	
+3-9	sie	PPER	sie	_	O	O	
+3-10	gehört	VVFIN	gehören	_	O	O	
+3-11	auch	ADV	auch	_	O	O	
+3-12	nicht	PTKNEG	nicht	_	O	O	
+3-13	in	APPR	in	_	O	O	
+3-14	das	ART	die	_	O	O	
+3-15	Statut	NN	Statut	_	O	O	
+3-16	.	$.	.	_	O	O	
+
+#id=4
+#text=Er behauptete aber auch, daß überhaupt für diese Ausnahme ein besonderes Gesetz·; nöthig sei; dasselbe sagte Kriif"' ger, mit dem ich neulich das ganze Reichsgesetz .
+4-1	Er	PPER	er	_	O	O	
+4-2	behauptete	VVFIN	behaupten	_	O	O	
+4-3	aber	ADV	aber	_	O	O	
+4-4	auch	ADV	auch	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	daß	KOUS	dass	_	O	O	
+4-7	überhaupt	ADV	überhaupt	_	O	O	
+4-8	für	APPR	für	_	O	O	
+4-9	diese	PDAT	dies	_	O	O	
+4-10	Ausnahme	NN	Ausnahme	_	O	O	
+4-11	ein	ART	eine	_	O	O	
+4-12	besonderes	ADJA	besonder	_	O	O	
+4-13	Gesetz·	NN	<unknown>	_	O	O	
+4-14	;	$.	;	_	O	O	
+4-15	nöthig	ADJD	<unknown>	_	O	O	
+4-16	sei	VAFIN	sein	_	O	O	
+4-17	;	$.	;	_	O	O	
+4-18	dasselbe	PDS	dasselbe	_	O	O	
+4-19	sagte	VVFIN	sagen	_	O	O	
+4-20	Kriif	NE	<unknown>	_	O	O	
+4-21	"	$(	"	_	O	O	
+4-22	'	$(	'	_	O	O	
+4-23	ger	VVFIN	<unknown>	_	O	O	
+4-24	,	$,	,	_	O	O	
+4-25	mit	APPR	mit	_	O	O	
+4-26	dem	PRELS	die	_	O	O	
+4-27	ich	PPER	ich	_	O	O	
+4-28	neulich	ADV	neulich	_	O	O	
+4-29	das	ART	die	_	O	O	
+4-30	ganze	ADJA	ganz	_	O	O	
+4-31	Reichsgesetz	NN	Reichsgesetz	_	O	O	
+4-32	.	$.	.	_	O	O	
+
+#id=5
+#text=darauf hin durchgegangen habe.
+5-1	darauf	PAV	darauf	_	O	O	
+5-2	hin	ADV	hin	_	O	O	
+5-3	durchgegangen	VVPP	durchgehen	_	O	O	
+5-4	habe	VAFIN	haben	_	O	O	
+5-5	.	$.	.	_	O	O	
+
+#id=6
+#text=Dasselbe endlich Herr von Bülow mit dem ich neulich in einer Gesellschaft darüber sprach, dann aber freilich unterbrochen wurde und nicht zum Schlusse kam.
+6-1	Dasselbe	PDS	dieselbe	_	O	O	
+6-2	endlich	ADV	endlich	_	O	O	
+6-3	Herr	NN	Herr	_	O	O	
+6-4	von	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	Bülow	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-6	mit	APPR	mit	_	O	O	
+6-7	dem	ART	die	_	O	O	
+6-8	ich	PPER	ich	_	O	O	
+6-9	neulich	ADV	neulich	_	O	O	
+6-10	in	APPR	in	_	O	O	
+6-11	einer	ART	eine	_	O	O	
+6-12	Gesellschaft	NN	Gesellschaft	_	O	O	
+6-13	darüber	PAV	darüber	_	O	O	
+6-14	sprach	VVFIN	sprechen	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	dann	ADV	dann	_	O	O	
+6-17	aber	ADV	aber	_	O	O	
+6-18	freilich	ADV	freilich	_	O	O	
+6-19	unterbrochen	VVPP	unterbrechen	_	O	O	
+6-20	wurde	VAFIN	werden	_	O	O	
+6-21	und	KON	und	_	O	O	
+6-22	nicht	PTKNEG	nicht	_	O	O	
+6-23	zum	APPRART	zu	_	O	O	
+6-24	Schlusse	NN	Schluss	_	O	O	
+6-25	kam	VVFIN	kommen	_	O	O	
+6-26	.	$.	.	_	O	O	
+
+#id=7
+#text=Das Resultat war überall, daß es nur möglich sein werde, daß Ihnen das Auswärtige Amt seine Willfährigkeit ausspreche, den Antrag beim Reichstage zu machen, wenn der Fall eintreten würde.
+7-1	Das	ART	die	_	O	O	
+7-2	Resultat	NN	Resultat	_	O	O	
+7-3	war	VAFIN	sein	_	O	O	
+7-4	überall	ADV	überall	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	daß	KOUS	dass	_	O	O	
+7-7	es	PPER	es	_	O	O	
+7-8	nur	ADV	nur	_	O	O	
+7-9	möglich	ADJD	möglich	_	O	O	
+7-10	sein	VAINF	sein	_	O	O	
+7-11	werde	VAFIN	werden	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	daß	KOUS	dass	_	O	O	
+7-14	Ihnen	PPER	Sie	_	O	O	
+7-15	das	ART	die	_	O	O	
+7-16	Auswärtige	ADJA	auswärtig	_	O	O	
+7-17	Amt	NN	Amt	_	O	O	
+7-18	seine	PPOSAT	sein	_	O	O	
+7-19	Willfährigkeit	NN	<unknown>	_	O	O	
+7-20	ausspreche	VVFIN	aussprechen	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	den	ART	die	_	O	O	
+7-23	Antrag	NN	Antrag	_	O	O	
+7-24	beim	APPRART	bei	_	O	O	
+7-25	Reichstage	NN	Reichstag	_	O	O	
+7-26	zu	PTKZU	zu	_	O	O	
+7-27	machen	VVINF	machen	_	O	O	
+7-28	,	$,	,	_	O	O	
+7-29	wenn	KOUS	wenn	_	O	O	
+7-30	der	ART	die	_	O	O	
+7-31	Fall	NN	Fall	_	O	O	
+7-32	eintreten	VVINF	eintreten	_	O	O	
+7-33	würde	VAFIN	werden	_	O	O	
+7-34	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich glaube aber auch, daß Sie damit ganz beruhigt sein könnten.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	glaube	VVFIN	glauben	_	O	O	
+8-3	aber	ADV	aber	_	O	O	
+8-4	auch	ADV	auch	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	daß	KOUS	dass	_	O	O	
+8-7	Sie	PPER	Sie	_	O	O	
+8-8	damit	PAV	damit	_	O	O	
+8-9	ganz	ADV	ganz	_	O	O	
+8-10	beruhigt	VVPP	beruhigen	_	O	O	
+8-11	sein	VAINF	sein	_	O	O	
+8-12	könnten	VMFIN	können	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Eine festere Zusage wie sie noch in unserm Antrage enthalten sein wird, wenn der Entwurf des Berichtes bleibt, wird nicht zu erlangen sein.
+9-1	Eine	ART	eine	_	O	O	
+9-2	festere	ADJA	fest	_	O	O	
+9-3	Zusage	NN	Zusage	_	O	O	
+9-4	wie	KOKOM	wie	_	O	O	
+9-5	sie	PPER	sie	_	O	O	
+9-6	noch	ADV	noch	_	O	O	
+9-7	in	APPR	in	_	O	O	
+9-8	unserm	PPOSAT	unser	_	O	O	
+9-9	Antrage	NN	<unknown>	_	O	O	
+9-10	enthalten	VVPP	enthalten	_	O	O	
+9-11	sein	VAINF	sein	_	O	O	
+9-12	wird	VAFIN	werden	_	O	O	
+9-13	,	$,	,	_	O	O	
+9-14	wenn	KOUS	wenn	_	O	O	
+9-15	der	ART	die	_	O	O	
+9-16	Entwurf	NN	Entwurf	_	O	O	
+9-17	des	ART	die	_	O	O	
+9-18	Berichtes	NN	Bericht	_	O	O	
+9-19	bleibt	VVFIN	bleiben	_	O	O	
+9-20	,	$,	,	_	O	O	
+9-21	wird	VAFIN	werden	_	O	O	
+9-22	nicht	PTKNEG	nicht	_	O	O	
+9-23	zu	PTKZU	zu	_	O	O	
+9-24	erlangen	VVINF	erlangen	_	O	O	
+9-25	sein	VAINF	sein	_	O	O	
+9-26	.	$.	.	_	O	O	
+
+#id=10
+#text=Ihr R L
+10-1	Ihr	PPOSAT	ihr	_	O	O	
+10-2	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+10-3	L	NE	L	_	O	O	
+

@@ -1,0 +1,42 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=421 Gerhard an Braun Wildbad, 11. September 1844 5 kam; können Sie demselben nicht etwa durch Welcker den weiteren Weg versichern?
+1-1	421	CARD	421	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	Wildbad	NN	Wildbad	_	O	O	
+1-6	,	$,	,	_	O	O	
+1-7	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	5	CARD	5	_	O	O	
+1-12	kam	VVFIN	kommen	_	O	O	
+1-13	;	$.	;	_	O	O	
+1-14	können	VMFIN	können	_	O	O	
+1-15	Sie	PPER	Sie	_	O	O	
+1-16	demselben	PDS	dieselbe	_	O	O	
+1-17	nicht	PTKNEG	nicht	_	O	O	
+1-18	etwa	ADV	etwa	_	O	O	
+1-19	durch	APPR	durch	_	O	O	
+1-20	Welcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-21	den	ART	die	_	O	O	
+1-22	weiteren	ADJA	weit	_	O	O	
+1-23	Weg	NN	Weg	_	O	O	
+1-24	versichern	VVINF	versichern	_	O	O	
+1-25	?	$.	?	_	O	O	
+
+#id=2
+#text=Dieser wi~d sich ohne Zweifel mit Bunsen noch sehen.
+2-1	Dieser	PDS	diese	_	O	O	
+2-2	wi~d	VVFIN	<unknown>	_	O	O	
+2-3	sich	PRF	sich	_	O	O	
+2-4	ohne	APPR	ohne	_	O	O	
+2-5	Zweifel	NN	Zweifel	_	O	O	
+2-6	mit	APPR	mit	_	O	O	
+2-7	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-8	noch	ADV	noch	_	O	O	
+2-9	sehen	VVINF	sehen	_	O	O	
+2-10	.	$.	.	_	O	O	
+

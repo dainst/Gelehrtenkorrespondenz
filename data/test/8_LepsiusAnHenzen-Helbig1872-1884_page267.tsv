@@ -1,0 +1,216 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=174 Lepsius an Henzen Berlin, 2~.
+1-1	174	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	2~	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=März 1876 0 N • 48. g. 1/4 76 r. Berlin, den 28. März 1876 Herrn Prof.
+2-1	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-3	0	CARD	@card@	_	O	O	
+2-4	N	NN	N	_	O	O	
+2-5	•	NN	<unknown>	_	O	O	
+2-6	48	CARD	48	_	O	O	
+2-7	.	$.	.	_	O	O	
+2-8	g.	ADJA	<unknown>	_	O	O	
+2-9	1/4	CARD	1/4	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-10	76	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-11	r.	ADJA	<unknown>	_	O	O	
+2-12	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-13	,	$,	,	_	O	O	
+2-14	den	ART	die	_	O	O	
+2-15	28	CARD	28	_	O	O	
+2-16	.	$.	.	_	O	O	
+2-17	März	NN	März	_	O	O	
+2-18	1876	CARD	@card@	_	O	O	
+2-19	Herrn	NN	Herr	_	O	O	
+2-20	Prof.	NN	Prof.	_	O	O	
+
+#id=3
+#text=Henzen In den Sitzungen vom 24 - 26 n März d. J. hat die Generalversammlung auf den Antrag des Herrn Mommsen, daß zur Fortsetzung der Sammlung von Figlinen in Rom eine Summe von 150 Mark dem Römischen Institut aus Titel V, 1. des Etat überwiesen werde, mit der Maßgabe, daß die Central-Direktion mit der gleichen Bewilligung weiter fortzufahren gedenke, falls dieselbe sich in der praktischen Handhabung bewähren sollte.
+3-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	In	APPR	in	_	O	O	
+3-3	den	ART	die	_	O	O	
+3-4	Sitzungen	NN	Sitzung	_	O	O	
+3-5	vom	APPRART	von	_	O	O	
+3-6	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-7	-	$(	-	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-8	26	CARD	26	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-9	n	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-10	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-11	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-12	J.	NE	J.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-13	hat	VAFIN	haben	_	O	O	
+3-14	die	ART	die	_	O	O	
+3-15	Generalversammlung	NN	Generalversammlung	_	O	O	
+3-16	auf	APPR	auf	_	O	O	
+3-17	den	ART	die	_	O	O	
+3-18	Antrag	NN	Antrag	_	O	O	
+3-19	des	ART	die	_	O	O	
+3-20	Herrn	NN	Herr	_	O	O	
+3-21	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-22	,	$,	,	_	O	O	
+3-23	daß	KOUS	dass	_	O	O	
+3-24	zur	APPRART	zu	_	O	O	
+3-25	Fortsetzung	NN	Fortsetzung	_	O	O	
+3-26	der	ART	die	_	O	O	
+3-27	Sammlung	NN	Sammlung	_	O	O	
+3-28	von	APPR	von	_	O	O	
+3-29	Figlinen	NN	<unknown>	_	O	O	
+3-30	in	APPR	in	_	O	O	
+3-31	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-32	eine	ART	eine	_	O	O	
+3-33	Summe	NN	Summe	_	O	O	
+3-34	von	APPR	von	_	O	O	
+3-35	150	CARD	150	_	O	O	
+3-36	Mark	NN	Mark	_	O	O	
+3-37	dem	ART	die	_	O	O	
+3-38	Römischen	ADJA	römisch	_	O	O	
+3-39	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-40	aus	APPR	aus	_	O	O	
+3-41	Titel	NN	Titel	_	O	O	
+3-42	V	NN	V	_	O	O	
+3-43	,	$,	,	_	O	O	
+3-44	1	CARD	1	_	O	O	
+3-45	.	$.	.	_	O	O	
+3-46	des	ART	die	_	O	O	
+3-47	Etat	NN	Etat	_	O	O	
+3-48	überwiesen	VVPP	überweisen	_	O	O	
+3-49	werde	VAFIN	werden	_	O	O	
+3-50	,	$,	,	_	O	O	
+3-51	mit	APPR	mit	_	O	O	
+3-52	der	ART	die	_	O	O	
+3-53	Maßgabe	NN	Maßgabe	_	O	O	
+3-54	,	$,	,	_	O	O	
+3-55	daß	KOUS	dass	_	O	O	
+3-56	die	ART	die	_	O	O	
+3-57	Central-Direktion	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-58	mit	APPR	mit	_	O	O	
+3-59	der	ART	die	_	O	O	
+3-60	gleichen	ADJA	gleich	_	O	O	
+3-61	Bewilligung	NN	Bewilligung	_	O	O	
+3-62	weiter	ADV	weiter	_	O	O	
+3-63	fortzufahren	VVIZU	fortfahren	_	O	O	
+3-64	gedenke	VVFIN	gedenken	_	O	O	
+3-65	,	$,	,	_	O	O	
+3-66	falls	KOUS	falls	_	O	O	
+3-67	dieselbe	PDS	dieselbe	_	O	O	
+3-68	sich	PRF	sich	_	O	O	
+3-69	in	APPR	in	_	O	O	
+3-70	der	ART	die	_	O	O	
+3-71	praktischen	ADJA	praktisch	_	O	O	
+3-72	Handhabung	NN	Handhabung	_	O	O	
+3-73	bewähren	VVINF	bewähren	_	O	O	
+3-74	sollte	VMFIN	sollen	_	O	O	
+3-75	.	$.	.	_	O	O	
+
+#id=4
+#text=Herrn Brunn wurden für die Fortsetzung des Urhenwerks 800 Mark bewilligt und sollen dieselben auf den Antrag desselben an das Römische Sekretariat über~wiesen werden, um davon die Kosten der neuen Stiche zu decken.
+4-1	Herrn	NN	Herr	_	O	O	
+4-2	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	wurden	VAFIN	werden	_	O	O	
+4-4	für	APPR	für	_	O	O	
+4-5	die	ART	die	_	O	O	
+4-6	Fortsetzung	NN	Fortsetzung	_	O	O	
+4-7	des	ART	die	_	O	O	
+4-8	Urhenwerks	NN	<unknown>	_	O	O	
+4-9	800	CARD	800	_	O	O	
+4-10	Mark	NN	Mark	_	O	O	
+4-11	bewilligt	VVPP	bewilligen	_	O	O	
+4-12	und	KON	und	_	O	O	
+4-13	sollen	VMFIN	sollen	_	O	O	
+4-14	dieselben	PDS	dieselbe	_	O	O	
+4-15	auf	APPR	auf	_	O	O	
+4-16	den	ART	die	_	O	O	
+4-17	Antrag	NN	Antrag	_	O	O	
+4-18	desselben	PDAT	derselb	_	O	O	
+4-19	an	APPR	an	_	O	O	
+4-20	das	ART	die	_	O	O	
+4-21	Römische	ADJA	römisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-22	Sekretariat	NN	Sekretariat	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+4-23	über~wiesen	VVPP	<unknown>	_	O	O	
+4-24	werden	VAINF	werden	_	O	O	
+4-25	,	$,	,	_	O	O	
+4-26	um	KOUI	um	_	O	O	
+4-27	davon	PAV	davon	_	O	O	
+4-28	die	ART	die	_	O	O	
+4-29	Kosten	NN	Kosten	_	O	O	
+4-30	der	ART	die	_	O	O	
+4-31	neuen	ADJA	neu	_	O	O	
+4-32	Stiche	NN	Stich	_	O	O	
+4-33	zu	PTKZU	zu	_	O	O	
+4-34	decken	VVINF	decken	_	O	O	
+4-35	.	$.	.	_	O	O	
+
+#id=5
+#text=Es wurde der Antrag des Römischen Sekretariats bewilligt, daß HerIllPatanelli für seine in den Bücherkatalogen auszuführenden Arbeiten bis zu 800 Mark aus dem Reservefonds ausgezahlt werden sollen.
+5-1	Es	PPER	es	_	O	O	
+5-2	wurde	VAFIN	werden	_	O	O	
+5-3	der	ART	die	_	O	O	
+5-4	Antrag	NN	Antrag	_	O	O	
+5-5	des	ART	die	_	O	O	
+5-6	Römischen	ADJA	römisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-7	Sekretariats	NN	Sekretariat	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-8	bewilligt	VVPP	bewilligen	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	daß	KOUS	dass	_	O	O	
+5-11	HerIllPatanelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-12	für	APPR	für	_	O	O	
+5-13	seine	PPOSAT	sein	_	O	O	
+5-14	in	APPR	in	_	O	O	
+5-15	den	ART	die	_	O	O	
+5-16	Bücherkatalogen	NN	<unknown>	_	O	O	
+5-17	auszuführenden	ADJA	<unknown>	_	O	O	
+5-18	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+5-19	bis	KON	bis	_	O	O	
+5-20	zu	APPR	zu	_	O	O	
+5-21	800	CARD	800	_	O	O	
+5-22	Mark	NN	Mark	_	O	O	
+5-23	aus	APPR	aus	_	O	O	
+5-24	dem	ART	die	_	O	O	
+5-25	Reservefonds	NN	Reservefonds	_	O	O	
+5-26	ausgezahlt	VVPP	auszahlen	_	O	O	
+5-27	werden	VAINF	werden	_	O	O	
+5-28	sollen	VMFIN	sollen	_	O	O	
+5-29	.	$.	.	_	O	O	
+
+#id=6
+#text=Über das Parthey'sche Medaillon und über die Preller'schen Bilder war die Generalversammlung derselben Ansicht, wie die hiesigen Mitglieder.
+6-1	Über	APPR	über	_	O	O	
+6-2	das	ART	die	_	O	O	
+6-3	Parthey'sche	ADJA	<unknown>	_	O	O	
+6-4	Medaillon	NN	Medaillon	_	O	O	
+6-5	und	KON	und	_	O	O	
+6-6	über	APPR	über	_	O	O	
+6-7	die	ART	die	_	O	O	
+6-8	Preller'schen	ADJA	<unknown>	_	O	O	
+6-9	Bilder	NN	Bild	_	O	O	
+6-10	war	VAFIN	sein	_	O	O	
+6-11	die	ART	die	_	O	O	
+6-12	Generalversammlung	NN	Generalversammlung	_	O	O	
+6-13	derselben	PDAT	dieselb	_	O	O	
+6-14	Ansicht	NN	Ansicht	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	wie	KOUS	wie	_	O	O	
+6-17	die	ART	die	_	O	O	
+6-18	hiesigen	ADJA	hiesig	_	O	O	
+6-19	Mitglieder	NN	Mitglied	_	O	O	
+6-20	.	$.	.	_	O	O	
+
+#id=7
+#text=In Bezug auf den Unterhaltungsfonds des neuen
+7-1	In	APPR	in	_	O	O	
+7-2	Bezug	NN	Bezug	_	O	O	
+7-3	auf	APPR	auf	_	O	O	
+7-4	den	ART	die	_	O	O	
+7-5	Unterhaltungsfonds	NN	<unknown>	_	O	O	
+7-6	des	ART	die	_	O	O	
+7-7	neuen	ADJA	neu	_	O	O	
+

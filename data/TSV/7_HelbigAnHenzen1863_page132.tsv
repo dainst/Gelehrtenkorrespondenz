@@ -1,0 +1,239 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=290 2 Relbig an Renzen Rom, 13. Juli 1870 Das Augustbullettino ist auch bereits fertig; doch halte ich seine Spedition bis Ende des Monats zurück und schicke nur Ihnen vorläufig ein Exemplar.
+1-1	290	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Relbig	NN	<unknown>	_	O	O	
+1-4	an	APPR	an	_	O	O	
+1-5	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Das	ART	die	_	O	O	
+1-13	Augustbullettino	NE	<unknown>	_	O	O	
+1-14	ist	VAFIN	sein	_	O	O	
+1-15	auch	ADV	auch	_	O	O	
+1-16	bereits	ADV	bereits	_	O	O	
+1-17	fertig	ADJD	fertig	_	O	O	
+1-18	;	$.	;	_	O	O	
+1-19	doch	ADV	doch	_	O	O	
+1-20	halte	VVFIN	halten	_	O	O	
+1-21	ich	PPER	ich	_	O	O	
+1-22	seine	PPOSAT	sein	_	O	O	
+1-23	Spedition	NN	Spedition	_	O	O	
+1-24	bis	KON	bis	_	O	O	
+1-25	Ende	NN	Ende	_	O	O	
+1-26	des	ART	die	_	O	O	
+1-27	Monats	NN	Monat	_	O	O	
+1-28	zurück	PTKVZ	zurück	_	O	O	
+1-29	und	KON	und	_	O	O	
+1-30	schicke	VVFIN	schicken	_	O	O	
+1-31	nur	ADV	nur	_	O	O	
+1-32	Ihnen	PPER	Sie	_	O	O	
+1-33	vorläufig	ADJD	vorläufig	_	O	O	
+1-34	ein	ART	eine	_	O	O	
+1-35	Exemplar	NN	Exemplar	_	O	O	
+1-36	.	$.	.	_	O	O	
+
+#id=2
+#text=Der Aufsatz von Janssen hätte meines Erachtens besser anderswo seinen Platz gefunden.
+2-1	Der	ART	die	_	O	O	
+2-2	Aufsatz	NN	Aufsatz	_	O	O	
+2-3	von	APPR	von	_	O	O	
+2-4	Janssen	NE	Janssen	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-5	hätte	VAFIN	haben	_	O	O	
+2-6	meines	PPOSAT	mein	_	O	O	
+2-7	Erachtens	NN	Erachten	_	O	O	
+2-8	besser	ADJD	gut	_	O	O	
+2-9	anderswo	ADV	anderswo	_	O	O	
+2-10	seinen	PPOSAT	sein	_	O	O	
+2-11	Platz	NN	Platz	_	O	O	
+2-12	gefunden	VVPP	finden	_	O	O	
+2-13	.	$.	.	_	O	O	
+
+#id=3
+#text=Was die Annali betrifft, so ist Bruzzas Artikel fertig gedruckt und sind Forsters Artikel in Angriff genommen.
+3-1	Was	PWS	was	_	O	O	
+3-2	die	ART	die	_	O	O	
+3-3	Annali	NE	<unknown>	_	O	O	
+3-4	betrifft	VVFIN	betreffen	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	so	ADV	so	_	O	O	
+3-7	ist	VAFIN	sein	_	O	O	
+3-8	Bruzzas	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-9	Artikel	NN	Artikel	_	O	O	
+3-10	fertig	ADJD	fertig	_	O	O	
+3-11	gedruckt	VVPP	drucken	_	O	O	
+3-12	und	KON	und	_	O	O	
+3-13	sind	VAFIN	sein	_	O	O	
+3-14	Forsters	NE	Forster	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-15	Artikel	NN	Artikel	_	O	O	
+3-16	in	APPR	in	_	O	O	
+3-17	Angriff	NN	Angriff	_	O	O	
+3-18	genommen	VVPP	nehmen	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Von Briefen nichts besonders Beachtenswerthes.
+4-1	Von	APPR	von	_	O	O	
+4-2	Briefen	NN	Brief	_	O	O	
+4-3	nichts	PIS	nichts	_	O	O	
+4-4	besonders	ADV	besonders	_	O	O	
+4-5	Beachtenswerthes	NE	<unknown>	_	O	O	
+4-6	.	$.	.	_	O	O	
+
+#id=5
+#text=Geärgert habe ich mich über einen von Dilthey, der sich ebenfalls darüber beschwert, nicht genug zu den Publicationen herangezogen zu werden.
+5-1	Geärgert	VVPP	ärgern	_	O	O	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	ich	PPER	ich	_	O	O	
+5-4	mich	PRF	ich	_	O	O	
+5-5	über	APPR	über	_	O	O	
+5-6	einen	ART	eine	_	O	O	
+5-7	von	APPR	von	_	O	O	
+5-8	Dilthey	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-9	,	$,	,	_	O	O	
+5-10	der	PRELS	die	_	O	O	
+5-11	sich	PRF	sich	_	O	O	
+5-12	ebenfalls	ADV	ebenfalls	_	O	O	
+5-13	darüber	PAV	darüber	_	O	O	
+5-14	beschwert	VVFIN	beschweren	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	nicht	PTKNEG	nicht	_	O	O	
+5-17	genug	ADV	genug	_	O	O	
+5-18	zu	APPR	zu	_	O	O	
+5-19	den	ART	die	_	O	O	
+5-20	Publicationen	NN	<unknown>	_	O	O	
+5-21	herangezogen	VVPP	heranziehen	_	O	O	
+5-22	zu	PTKZU	zu	_	O	O	
+5-23	werden	VAINF	werden	_	O	O	
+5-24	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich dächte doch, daß er mit seinem siebenbergigen Mede,aufsatz eine Zeit lang befriedigt sein könnte.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	dächte	VVFIN	denken	_	O	O	
+6-3	doch	ADV	doch	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	daß	KOUS	dass	_	O	O	
+6-6	er	PPER	er	_	O	O	
+6-7	mit	APPR	mit	_	O	O	
+6-8	seinem	PPOSAT	sein	_	O	O	
+6-9	siebenbergigen	ADJA	<unknown>	_	O	O	
+6-10	Mede,aufsatz	NN	<unknown>	_	O	O	
+6-11	eine	ART	eine	_	O	O	
+6-12	Zeit	NN	Zeit	_	O	O	
+6-13	lang	ADJD	lang	_	O	O	
+6-14	befriedigt	VVPP	befriedigen	_	O	O	
+6-15	sein	VAINF	sein	_	O	O	
+6-16	könnte	VMFIN	können	_	O	O	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=Gegenwärtig hat Bürge~, der hier bei dem Advocaten Calabresi arbeitet, die Akten deE Kopfschen Processes unter den Händen, wird sie einer genauen Revision unterwerden und das Resultat veröffentlichen.
+7-1	Gegenwärtig	ADJD	gegenwärtig	_	O	O	
+7-2	hat	VAFIN	haben	_	O	O	
+7-3	Bürge~	NN	<unknown>	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	der	PRELS	die	_	O	O	
+7-6	hier	ADV	hier	_	O	O	
+7-7	bei	APPR	bei	_	O	O	
+7-8	dem	ART	die	_	O	O	
+7-9	Advocaten	NN	<unknown>	_	O	O	
+7-10	Calabresi	NN	<unknown>	_	O	O	
+7-11	arbeitet	VVFIN	arbeiten	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	die	ART	die	_	O	O	
+7-14	Akten	NN	Akt|Akte	_	O	O	
+7-15	deE	NN	<unknown>	_	O	O	
+7-16	Kopfschen	NN	<unknown>	_	O	O	
+7-17	Processes	NN	<unknown>	_	O	O	
+7-18	unter	APPR	unter	_	O	O	
+7-19	den	ART	die	_	O	O	
+7-20	Händen	NN	Hand	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	wird	VAFIN	werden	_	O	O	
+7-23	sie	PPER	sie	_	O	O	
+7-24	einer	ART	eine	_	O	O	
+7-25	genauen	ADJA	genau	_	O	O	
+7-26	Revision	NN	Revision	_	O	O	
+7-27	unterwerden	VVFIN	<unknown>	_	O	O	
+7-28	und	KON	und	_	O	O	
+7-29	das	ART	die	_	O	O	
+7-30	Resultat	NN	Resultat	_	O	O	
+7-31	veröffentlichen	VVINF	veröffentlichen	_	O	O	
+7-32	.	$.	.	_	O	O	
+
+#id=8
+#text=Der Termin meiner Abreise ist noch nicht fixirt.
+8-1	Der	ART	die	_	O	O	
+8-2	Termin	NN	Termin	_	O	O	
+8-3	meiner	PPOSAT	mein	_	O	O	
+8-4	Abreise	NN	Abreise	_	O	O	
+8-5	ist	VAFIN	sein	_	O	O	
+8-6	noch	ADV	noch	_	O	O	
+8-7	nicht	PTKNEG	nicht	_	O	O	
+8-8	fixirt	NN	<unknown>	_	O	O	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=Wahrscheinlich werde ich etwas eher reisen, als ich vorhatte.
+9-1	Wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+9-2	werde	VAFIN	werden	_	O	O	
+9-3	ich	PPER	ich	_	O	O	
+9-4	etwas	ADV	etwas	_	O	O	
+9-5	eher	ADV	eher	_	O	O	
+9-6	reisen	VVINF	reisen	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	als	KOUS	als	_	O	O	
+9-9	ich	PPER	ich	_	O	O	
+9-10	vorhatte	VVFIN	vorhatte	_	O	O	
+9-11	.	$.	.	_	O	O	
+
+#id=10
+#text=Der Hotelier hat meiner mit dem ihr zugesagten Logis nicht Wort gehalten und selbst auf die Logis-jagd ausgehen kann sie in ihrem Zustande unmöglich.
+10-1	Der	ART	die	_	O	O	
+10-2	Hotelier	NN	Hotelier	_	O	O	
+10-3	hat	VAFIN	haben	_	O	O	
+10-4	meiner	PPOSAT	mein	_	O	O	
+10-5	mit	APPR	mit	_	O	O	
+10-6	dem	ART	die	_	O	O	
+10-7	ihr	PPOSAT	ihr	_	O	O	
+10-8	zugesagten	ADJA	zugesagt	_	O	O	
+10-9	Logis	NE	<unknown>	_	O	O	
+10-10	nicht	PTKNEG	nicht	_	O	O	
+10-11	Wort	NN	Wort	_	O	O	
+10-12	gehalten	VVPP	halten	_	O	O	
+10-13	und	KON	und	_	O	O	
+10-14	selbst	ADV	selbst	_	O	O	
+10-15	auf	APPR	auf	_	O	O	
+10-16	die	ART	die	_	O	O	
+10-17	Logis-jagd	NN	<unknown>	_	O	O	
+10-18	ausgehen	VVINF	ausgehen	_	O	O	
+10-19	kann	VMFIN	können	_	O	O	
+10-20	sie	PPER	sie	_	O	O	
+10-21	in	APPR	in	_	O	O	
+10-22	ihrem	PPOSAT	ihr	_	O	O	
+10-23	Zustande	NN	Zustand	_	O	O	
+10-24	unmöglich	ADJD	unmöglich	_	O	O	
+10-25	.	$.	.	_	O	O	
+
+#id=11
+#text=Da sich der sommo Benndorf gar nicht um sie bekümmert, ist sie
+11-1	Da	KOUS	da	_	O	O	
+11-2	sich	PRF	sich	_	O	O	
+11-3	der	ART	die	_	O	O	
+11-4	sommo	NE	<unknown>	_	O	O	
+11-5	Benndorf	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-6	gar	ADV	gar	_	O	O	
+11-7	nicht	PTKNEG	nicht	_	O	O	
+11-8	um	APPR	um	_	O	O	
+11-9	sie	PPER	sie	_	O	O	
+11-10	bekümmert	VVPP	bekümmern	_	O	O	
+11-11	,	$,	,	_	O	O	
+11-12	ist	VAFIN	sein	_	O	O	
+11-13	sie	PPER	sie	_	O	O	
+

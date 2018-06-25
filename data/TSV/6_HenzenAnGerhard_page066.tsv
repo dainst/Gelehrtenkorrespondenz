@@ -1,0 +1,195 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=\ !
+1-1	\	XY	\	_	O	O	
+1-2	!	$.	!	_	O	O	
+
+#id=2
+#text=I I 213 14/VI/52 3 Henzen an Gerhard das er im Bull.
+2-1	I	FM	I	_	O	O	
+2-2	I	NN	I	_	O	O	
+2-3	213	CARD	@card@	_	O	O	
+2-4	14/VI/52	CARD	<unknown>	_	O	O	
+2-5	3	CARD	3	_	O	O	
+2-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-7	an	APPR	an	_	O	O	
+2-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-9	das	ART	die	_	O	O	
+2-10	er	PPER	er	_	O	O	
+2-11	im	APPRART	in	_	O	O	
+2-12	Bull	NE	Bull	_	O	O	
+2-13	.	$.	.	_	O	O	
+
+#id=3
+#text=gedruckt haben will, das aber wohl für die Annali bleiben muß.
+3-1	gedruckt	VVPP	drucken	_	O	O	
+3-2	haben	VAINF	haben	_	O	O	
+3-3	will	VMFIN	wollen	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	das	PRELS	die	_	O	O	
+3-6	aber	ADV	aber	_	O	O	
+3-7	wohl	ADV	wohl	_	O	O	
+3-8	für	APPR	für	_	O	O	
+3-9	die	ART	die	_	O	O	
+3-10	Annali	NE	<unknown>	_	O	O	
+3-11	bleiben	VVINF	bleiben	_	O	O	
+3-12	muß	VMFIN	müssen	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Pazienza!
+4-1	Pazienza	NE	<unknown>	_	O	O	
+4-2	!	$.	!	_	O	O	
+
+#id=5
+#text=- Bei Ardea sind von Guidi sehr schöne Terracotten gefunden, vortrefflicher Stil, meist sitzende Figuren, auch Reliefs.
+5-1	-	$(	-	_	O	O	
+5-2	Bei	APPR	bei	_	O	O	
+5-3	Ardea	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	sind	VAFIN	sein	_	O	O	
+5-5	von	APPR	von	_	O	O	
+5-6	Guidi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-7	sehr	ADV	sehr	_	O	O	
+5-8	schöne	ADJA	schön	_	O	O	
+5-9	Terracotten	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-10	gefunden	VVPP	finden	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	vortrefflicher	ADJA	vortrefflich	_	O	O	
+5-13	Stil	NN	Stil	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	meist	ADV	meist	_	O	O	
+5-16	sitzende	ADJA	sitzend	_	O	O	
+5-17	Figuren	NN	Figur	_	O	O	
+5-18	,	$,	,	_	O	O	
+5-19	auch	ADV	auch	_	O	O	
+5-20	Reliefs	NN	Relief	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-21	.	$.	.	_	O	O	
+
+#id=6
+#text=Dabei Vasen, bis jetzt unbedeutend, der Rand einer größeren mit Altlateinischer Inschrift, alles mit größter Eifersucht bewacht, gerade wie ds.
+6-1	Dabei	PAV	dabei	_	O	O	
+6-2	Vasen	NN	Vase	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	bis	KON	bis	_	O	O	
+6-5	jetzt	ADV	jetzt	_	O	O	
+6-6	unbedeutend	ADJD	unbedeutend	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	der	ART	die	_	O	O	
+6-9	Rand	NN	Rand	_	O	O	
+6-10	einer	ART	eine	_	O	O	
+6-11	größeren	ADJA	groß	_	O	O	
+6-12	mit	APPR	mit	_	O	O	
+6-13	Altlateinischer	NN	<unknown>	_	O	O	
+6-14	Inschrift	NN	Inschrift	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	alles	PIS	alle	_	O	O	
+6-17	mit	APPR	mit	_	O	O	
+6-18	größter	ADJA	groß	_	O	O	
+6-19	Eifersucht	NN	Eifersucht	_	O	O	
+6-20	bewacht	VVPP	bewachen	_	O	O	
+6-21	,	$,	,	_	O	O	
+6-22	gerade	ADV	gerade	_	O	O	
+6-23	wie	KOKOM	wie	_	O	O	
+6-24	ds.	ADJA	<unknown>	_	O	O	
+
+#id=7
+#text=neue Columbarium, Uber das wir, wenn das Glück günstig ist, vielleicht in 20 Jahren mehr hören werden, da Secchi trotz seiner völligen Ignoranz in Epigraphicis die Illustration an sich gerissen hat.
+7-1	neue	ADJA	neu	_	O	O	
+7-2	Columbarium	NN	<unknown>	_	O	O	
+7-3	,	$,	,	_	O	O	
+7-4	Uber	NN	<unknown>	_	O	O	
+7-5	das	PDS	die	_	O	O	
+7-6	wir	PPER	wir	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	wenn	KOUS	wenn	_	O	O	
+7-9	das	ART	die	_	O	O	
+7-10	Glück	NN	Glück	_	O	O	
+7-11	günstig	ADJD	günstig	_	O	O	
+7-12	ist	VAFIN	sein	_	O	O	
+7-13	,	$,	,	_	O	O	
+7-14	vielleicht	ADV	vielleicht	_	O	O	
+7-15	in	APPR	in	_	O	O	
+7-16	20	CARD	20	_	O	O	
+7-17	Jahren	NN	Jahr	_	O	O	
+7-18	mehr	ADV	mehr	_	O	O	
+7-19	hören	VVINF	hören	_	O	O	
+7-20	werden	VAFIN	werden	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	da	KOUS	da	_	O	O	
+7-23	Secchi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-24	trotz	APPR	trotz	_	O	O	
+7-25	seiner	PPOSAT	sein	_	O	O	
+7-26	völligen	ADJA	völlig	_	O	O	
+7-27	Ignoranz	NN	Ignoranz	_	O	O	
+7-28	in	APPR	in	_	O	O	
+7-29	Epigraphicis	NN	<unknown>	_	O	O	
+7-30	die	ART	die	_	O	O	
+7-31	Illustration	NN	Illustration	_	O	O	
+7-32	an	APPR	an	_	O	O	
+7-33	sich	PRF	sich	_	O	O	
+7-34	gerissen	VVPP	reißen	_	O	O	
+7-35	hat	VAFIN	haben	_	O	O	
+7-36	.	$.	.	_	O	O	
+
+#id=8
+#text=Unter solchen Umständen ist Mahlen Pflicht; aber es ist zu mißlich, ganze Inschriften aus dem Kopfe nieder zu schreiben.
+8-1	Unter	APPR	unter	_	O	O	
+8-2	solchen	PIAT	solche	_	O	O	
+8-3	Umständen	NN	Umstand	_	O	O	
+8-4	ist	VAFIN	sein	_	O	O	
+8-5	Mahlen	NN	Mahlen	_	O	O	
+8-6	Pflicht	NN	Pflicht	_	O	O	
+8-7	;	$.	;	_	O	O	
+8-8	aber	KON	aber	_	O	O	
+8-9	es	PPER	es	_	O	O	
+8-10	ist	VAFIN	sein	_	O	O	
+8-11	zu	PTKA	zu	_	O	O	
+8-12	mißlich	ADJD	misslich	_	O	O	
+8-13	,	$,	,	_	O	O	
+8-14	ganze	ADJA	ganz	_	O	O	
+8-15	Inschriften	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-16	aus	APPR	aus	_	O	O	
+8-17	dem	ART	die	_	O	O	
+8-18	Kopfe	NN	Kopf	_	O	O	
+8-19	nieder	ADJD	nieder	_	O	O	
+8-20	zu	PTKZU	zu	_	O	O	
+8-21	schreiben	VVINF	schreiben	_	O	O	
+8-22	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich habe mir indeß einige Hauptsachen so zu eigen gemacht.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	habe	VAFIN	haben	_	O	O	
+9-3	mir	PPER	ich	_	O	O	
+9-4	indeß	NN	<unknown>	_	O	O	
+9-5	einige	PIAT	einige	_	O	O	
+9-6	Hauptsachen	NN	Hauptsache	_	O	O	
+9-7	so	ADV	so	_	O	O	
+9-8	zu	PTKA	zu	_	O	O	
+9-9	eigen	ADJD	eigen	_	O	O	
+9-10	gemacht	VVPP	machen	_	O	O	
+9-11	.	$.	.	_	O	O	
+
+#id=10
+#text=- Mit uns ern beiderseitigen herzlichen GrUßen an Sie u. Ihre Frau Ihr WH.
+10-1	-	$(	-	_	O	O	
+10-2	Mit	APPR	mit	_	O	O	
+10-3	uns	PPER	wir	_	O	O	
+10-4	ern	ADJA	<unknown>	_	O	O	
+10-5	beiderseitigen	ADJA	beiderseitig	_	O	O	
+10-6	herzlichen	ADJA	herzlich	_	O	O	
+10-7	GrUßen	NN	<unknown>	_	O	O	
+10-8	an	APPR	an	_	O	O	
+10-9	Sie	PPER	Sie	_	O	O	
+10-10	u.	APPR	um	_	O	O	
+10-11	Ihre	PPOSAT	ihr	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-12	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-13	Ihr	PPOSAT	ihr	_	O	O	
+10-14	WH	NN	<unknown>	_	O	O	
+10-15	.	$.	.	_	O	O	
+
+#id=11
+#text=Rom 14/VI/52
+11-1	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+11-2	14/VI/52	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+

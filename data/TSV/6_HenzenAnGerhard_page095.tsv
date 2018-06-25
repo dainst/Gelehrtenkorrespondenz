@@ -1,0 +1,362 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=395 Henzen an Gerhard Re~ 22/XII/52 Verehrter Herr Professor r- \ Ihr Exemplar Micali wünschen können, das Sie nicht begehrt Ich verstehe nicht recht, welche Auskunft Sie über nennen.
+1-1	395	CARD	@card@	_	O	O	
+1-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Re~	NE	<unknown>	_	O	O	
+1-6	22/XII/52	CARD	<unknown>	_	O	O	
+1-7	Verehrter	ADJA	verehrt	_	O	O	
+1-8	Herr	NN	Herr	_	O	O	
+1-9	Professor	NN	Professor	_	O	O	
+1-10	r-	TRUNC	R-	_	O	O	
+1-11	\	XY	\	_	O	O	
+1-12	Ihr	PPOSAT	ihr	_	O	O	
+1-13	Exemplar	NN	Exemplar	_	O	O	
+1-14	Micali	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-15	wünschen	VVINF	wünschen	_	O	O	
+1-16	können	VMFIN	können	_	O	O	
+1-17	,	$,	,	_	O	O	
+1-18	das	PRELS	die	_	O	O	
+1-19	Sie	PPER	Sie	_	O	O	
+1-20	nicht	PTKNEG	nicht	_	O	O	
+1-21	begehrt	ADJD	begehrt	_	O	O	
+1-22	Ich	PPER	ich	_	O	O	
+1-23	verstehe	VVFIN	verstehen	_	O	O	
+1-24	nicht	PTKNEG	nicht	_	O	O	
+1-25	recht	ADJD	recht	_	O	O	
+1-26	,	$,	,	_	O	O	
+1-27	welche	PRELS	welche	_	O	O	
+1-28	Auskunft	NN	Auskunft	_	O	O	
+1-29	Sie	PPER	Sie	_	O	O	
+1-30	über	PTKVZ	über	_	O	O	
+1-31	nennen	VVFIN	nennen	_	O	O	
+1-32	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich konnte doch unmöglich wissen, daß Sie gleichzeitiß Friedlaendern Auftrag gegeben!
+2-1	Ich	PPER	ich	_	O	O	
+2-2	konnte	VMFIN	können	_	O	O	
+2-3	doch	ADV	doch	_	O	O	
+2-4	unmöglich	ADJD	unmöglich	_	O	O	
+2-5	wissen	VVINF	wissen	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	daß	KOUS	dass	_	O	O	
+2-8	Sie	PPER	Sie	_	O	O	
+2-9	gleichzeitiß	VVFIN	<unknown>	_	O	O	
+2-10	Friedlaendern	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-11	Auftrag	NN	Auftrag	_	O	O	
+2-12	gegeben	VVPP	geben	_	O	O	
+2-13	!	$.	!	_	O	O	
+
+#id=3
+#text=Sie haben von Brunn quittung über die Bezahlung u. schrieben mir seiner Zeit, Sie würden es leicht in Dtschland los werden.
+3-1	Sie	PPER	Sie	_	O	O	
+3-2	haben	VAFIN	haben	_	O	O	
+3-3	von	APPR	von	_	O	O	
+3-4	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	quittung	NN	Quittung	_	O	O	
+3-6	über	APPR	über	_	O	O	
+3-7	die	ART	die	_	O	O	
+3-8	Bezahlung	NN	Bezahlung	_	O	O	
+3-9	u.	KON	und	_	O	O	
+3-10	schrieben	VVFIN	schreiben	_	O	O	
+3-11	mir	PPER	ich	_	O	O	
+3-12	seiner	PPOSAT	sein	_	O	O	
+3-13	Zeit	NN	Zeit	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	Sie	PPER	Sie	_	O	O	
+3-16	würden	VAFIN	werden	_	O	O	
+3-17	es	PPER	es	_	O	O	
+3-18	leicht	ADJD	leicht	_	O	O	
+3-19	in	APPR	in	_	O	O	
+3-20	Dtschland	NN	<unknown>	_	O	O	
+3-21	los	ADJD	los	_	O	O	
+3-22	werden	VAINF	werden	_	O	O	
+3-23	.	$.	.	_	O	O	
+
+#id=4
+#text=Da ich es zu spät für die Annalensendung erhielt, so mußte ich natürlich die nächste Spedition abwarten, denn das Porto für ein einzelnes Packet würde Ihnen doch zu hoch gekommen sein.
+4-1	Da	KOUS	da	_	O	O	
+4-2	ich	PPER	ich	_	O	O	
+4-3	es	PPER	es	_	O	O	
+4-4	zu	APPR	zu	_	O	O	
+4-5	spät	ADJD	spät	_	O	O	
+4-6	für	APPR	für	_	O	O	
+4-7	die	ART	die	_	O	O	
+4-8	Annalensendung	NN	<unknown>	_	O	O	
+4-9	erhielt	VVFIN	erhalten	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	so	ADV	so	_	O	O	
+4-12	mußte	VMFIN	müssen	_	O	O	
+4-13	ich	PPER	ich	_	O	O	
+4-14	natürlich	ADV	natürlich	_	O	O	
+4-15	die	ART	die	_	O	O	
+4-16	nächste	ADJA	nah	_	O	O	
+4-17	Spedition	NN	Spedition	_	O	O	
+4-18	abwarten	VVINF	abwarten	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	denn	KON	denn	_	O	O	
+4-21	das	ART	die	_	O	O	
+4-22	Porto	NN	Porto	_	O	O	
+4-23	für	APPR	für	_	O	O	
+4-24	ein	ART	eine	_	O	O	
+4-25	einzelnes	ADJA	einzeln	_	O	O	
+4-26	Packet	NN	<unknown>	_	O	O	
+4-27	würde	VAFIN	werden	_	O	O	
+4-28	Ihnen	PPER	Sie	_	O	O	
+4-29	doch	ADV	doch	_	O	O	
+4-30	zu	PTKA	zu	_	O	O	
+4-31	hoch	ADJD	hoch	_	O	O	
+4-32	gekommen	VVPP	kommen	_	O	O	
+4-33	sein	VAINF	sein	_	O	O	
+4-34	.	$.	.	_	O	O	
+
+#id=5
+#text=Also glau.be ich ganz außer Schuld zu sein.
+5-1	Also	ADV	also	_	O	O	
+5-2	glau.be	VVFIN	<unknown>	_	O	O	
+5-3	ich	PPER	ich	_	O	O	
+5-4	ganz	ADV	ganz	_	O	O	
+5-5	außer	APPR	außer	_	O	O	
+5-6	Schuld	NN	Schuld	_	O	O	
+5-7	zu	PTKZU	zu	_	O	O	
+5-8	sein	VAINF	sein	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Zum Schlusse finden Sie übrigens einen Schein darüber, dß.
+6-1	Zum	APPRART	zu	_	O	O	
+6-2	Schlusse	NN	Schluss	_	O	O	
+6-3	finden	VVFIN	finden	_	O	O	
+6-4	Sie	PPER	Sie	_	O	O	
+6-5	übrigens	ADV	übrigens	_	O	O	
+6-6	einen	ART	eine	_	O	O	
+6-7	Schein	NN	Schein	_	O	O	
+6-8	darüber	PAV	darüber	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	dß	VVFIN	<unknown>	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=ich jene Bücher für Sie habe, wenn Sie den wünschen.
+7-1	ich	PPER	ich	_	O	O	
+7-2	jene	PDAT	jen	_	O	O	
+7-3	Bücher	NN	Buch	_	O	O	
+7-4	für	APPR	für	_	O	O	
+7-5	Sie	PPER	Sie	_	O	O	
+7-6	habe	VAFIN	haben	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	wenn	KOUS	wenn	_	O	O	
+7-9	Sie	PPER	Sie	_	O	O	
+7-10	den	PDS	die	_	O	O	
+7-11	wünschen	VVFIN	wünschen	_	O	O	
+7-12	.	$.	.	_	O	O	
+
+#id=8
+#text=Gr.
+8-1	Gr.	NN	Gr.	_	O	O	
+
+#id=9
+#text=Usedom ist sehr krank; Lepsius '\Verk noch immer nicht zu erlangen.
+9-1	Usedom	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	sehr	ADV	sehr	_	O	O	
+9-4	krank	ADJD	krank	_	O	O	
+9-5	;	$.	;	_	O	O	
+9-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-7	'	$(	'	_	O	O	
+9-8	\Verk	NN	<unknown>	_	O	O	
+9-9	noch	ADV	noch	_	O	O	
+9-10	immer	ADV	immer	_	O	O	
+9-11	nicht	PTKNEG	nicht	_	O	O	
+9-12	zu	PTKZU	zu	_	O	O	
+9-13	erlangen	VVINF	erlangen	_	O	O	
+9-14	.	$.	.	_	O	O	
+
+#id=10
+#text=NB.
+10-1	NB	NE	NB	_	O	O	
+10-2	.	$.	.	_	O	O	
+
+#id=11
+#text=Soeben wird mir von der Gesandtschaft gemeldet, dß.
+11-1	Soeben	ADV	soeben	_	O	O	
+11-2	wird	VAFIN	werden	_	O	O	
+11-3	mir	PPER	ich	_	O	O	
+11-4	von	APPR	von	_	O	O	
+11-5	der	ART	die	_	O	O	
+11-6	Gesandtschaft	NN	Gesandtschaft	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+11-7	gemeldet	VVPP	melden	_	O	O	
+11-8	,	$,	,	_	O	O	
+11-9	dß	VVFIN	<unknown>	_	O	O	
+11-10	.	$.	.	_	O	O	
+
+#id=12
+#text=wir es bekom~en sollen.
+12-1	wir	PPER	wir	_	O	O	
+12-2	es	PPER	es	_	O	O	
+12-3	bekom~en	VVINF	<unknown>	_	O	O	
+12-4	sollen	VMFIN	sollen	_	O	O	
+12-5	.	$.	.	_	O	O	
+
+#id=13
+#text=Mir liegt eigentlich mehr an den Beischlüssen.
+13-1	Mir	PPER	ich	_	O	O	
+13-2	liegt	VVFIN	liegen	_	O	O	
+13-3	eigentlich	ADV	eigentlich	_	O	O	
+13-4	mehr	ADV	mehr	_	O	O	
+13-5	an	APPR	an	_	O	O	
+13-6	den	ART	die	_	O	O	
+13-7	Beischlüssen	NN	<unknown>	_	O	O	
+13-8	.	$.	.	_	O	O	
+
+#id=14
+#text=Welcker arbeitet ausschließlich an der Mythologie, f u. zwar sehr eifrig.
+14-1	Welcker	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	arbeitet	VVFIN	arbeiten	_	O	O	
+14-3	ausschließlich	ADV	ausschließlich	_	O	O	
+14-4	an	APPR	an	_	O	O	
+14-5	der	ART	die	_	O	O	
+14-6	Mythologie	NN	Mythologie	_	O	O	
+14-7	,	$,	,	_	O	O	
+14-8	f	VVFIN	<unknown>	_	O	O	
+14-9	u.	APPR	um	_	O	O	
+14-10	zwar	ADV	zwar	_	O	O	
+14-11	sehr	ADV	sehr	_	O	O	
+14-12	eifrig	ADJD	eifrig	_	O	O	
+14-13	.	$.	.	_	O	O	
+
+#id=15
+#text=Es geht ihm doch eher besser.
+15-1	Es	PPER	es	_	O	O	
+15-2	geht	VVFIN	gehen	_	O	O	
+15-3	ihm	PPER	er	_	O	O	
+15-4	doch	ADV	doch	_	O	O	
+15-5	eher	ADV	eher	_	O	O	
+15-6	besser	ADJD	gut	_	O	O	
+15-7	.	$.	.	_	O	O	
+
+#id=16
+#text=(....."" Also Neigebaur wiederum?
+16-1	(	$(	(	_	O	O	
+16-2	...	$.	...	_	O	O	
+16-3	.	$.	.	_	O	O	
+16-4	.	$.	.	_	O	O	
+16-5	"	$(	"	_	O	O	
+16-6	"	$(	"	_	O	O	
+16-7	Also	ADV	also	_	O	O	
+16-8	Neigebaur	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-9	wiederum	ADV	wiederum	_	O	O	
+16-10	?	$.	?	_	O	O	
+
+#id=17
+#text=Der Kerl wird von Jahr zu Jahr ekelhafter.
+17-1	Der	ART	die	_	O	O	
+17-2	Kerl	NN	Kerl	_	O	O	
+17-3	wird	VAFIN	werden	_	O	O	
+17-4	von	APPR	von	_	O	O	
+17-5	Jahr	NN	Jahr	_	O	O	
+17-6	zu	APPR	zu	_	O	O	
+17-7	Jahr	NN	Jahr	_	O	O	
+17-8	ekelhafter	ADJD	ekelhaft	_	O	O	
+17-9	.	$.	.	_	O	O	
+
+#id=18
+#text=Wieseler's kleine Artikel sind bis auf einen gedruckt; der größere über Jahreszeiten gesetzt; die sehen Bildwerke müssen für 1853 bleiben.
+18-1	Wieseler's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-2	kleine	ADJA	klein	_	O	O	
+18-3	Artikel	NN	Artikel	_	O	O	
+18-4	sind	VAFIN	sein	_	O	O	
+18-5	bis	KON	bis	_	O	O	
+18-6	auf	APPR	auf	_	O	O	
+18-7	einen	ART	eine	_	O	O	
+18-8	gedruckt	VVPP	drucken	_	O	O	
+18-9	;	$.	;	_	O	O	
+18-10	der	ART	die	_	O	O	
+18-11	größere	ADJA	groß	_	O	O	
+18-12	über	APPR	über	_	O	O	
+18-13	Jahreszeiten	NN	Jahreszeit	_	O	O	
+18-14	gesetzt	VVPP	setzen	_	O	O	
+18-15	;	$.	;	_	O	O	
+18-16	die	PDS	die	_	O	O	
+18-17	sehen	VVFIN	sehen	_	O	O	
+18-18	Bildwerke	NN	Bildwerk	_	O	O	
+18-19	müssen	VMFIN	müssen	_	O	O	
+18-20	für	APPR	für	_	O	O	
+18-21	1853	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+18-22	bleiben	VVINF	bleiben	_	O	O	
+18-23	.	$.	.	_	O	O	
+
+#id=19
+#text=Da derselbe zu Ende des Js.
+19-1	Da	KOUS	da	_	O	O	
+19-2	derselbe	PDS	derselbe	_	O	O	
+19-3	zu	APPR	zu	_	O	O	
+19-4	Ende	NN	Ende	_	O	O	
+19-5	des	ART	die	_	O	O	
+19-6	Js	NN	J	_	O	O	
+19-7	.	$.	.	_	O	O	
+
+#id=20
+#text=1851 einlieferte, konnte er sich selbst denken, dß.
+20-1	1851	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+20-2	einlieferte	VVFIN	<unknown>	_	O	O	
+20-3	,	$,	,	_	O	O	
+20-4	konnte	VMFIN	können	_	O	O	
+20-5	er	PPER	er	_	O	O	
+20-6	sich	PRF	sich	_	O	O	
+20-7	selbst	ADV	selbst	_	O	O	
+20-8	denken	VVINF	denken	_	O	O	
+20-9	,	$,	,	_	O	O	
+20-10	dß	VVFIN	<unknown>	_	O	O	
+20-11	.	$.	.	_	O	O	
+
+#id=21
+#text=Aufnahme in jenem Jahre unmöglich.
+21-1	Aufnahme	NN	Aufnahme	_	O	O	
+21-2	in	APPR	in	_	O	O	
+21-3	jenem	PDAT	jen	_	O	O	
+21-4	Jahre	NN	Jahr	_	O	O	
+21-5	unmöglich	ADJD	unmöglich	_	O	O	
+21-6	.	$.	.	_	O	O	
+
+#id=22
+#text=Hätte er in den 3 oder 4 vorhergehenden Jahren, wie er versprochen, geliefert, so stand raschem Abdrucke Nichts entgegen.
+22-1	Hätte	VAFIN	haben	_	O	O	
+22-2	er	PPER	er	_	O	O	
+22-3	in	APPR	in	_	O	O	
+22-4	den	ART	die	_	O	O	
+22-5	3	CARD	3	_	O	O	
+22-6	oder	KON	oder	_	O	O	
+22-7	4	CARD	4	_	O	O	
+22-8	vorhergehenden	ADJA	vorhergehend	_	O	O	
+22-9	Jahren	NN	Jahr	_	O	O	
+22-10	,	$,	,	_	O	O	
+22-11	wie	KOUS	wie	_	O	O	
+22-12	er	PPER	er	_	O	O	
+22-13	versprochen	VVPP	versprechen	_	O	O	
+22-14	,	$,	,	_	O	O	
+22-15	geliefert	VVPP	liefern	_	O	O	
+22-16	,	$,	,	_	O	O	
+22-17	so	ADV	so	_	O	O	
+22-18	stand	VVFIN	stehen	_	O	O	
+22-19	raschem	ADJA	rasch	_	O	O	
+22-20	Abdrucke	NN	Abdruck	_	O	O	
+22-21	Nichts	PIS	nichts	_	O	O	
+22-22	entgegen	PTKVZ	entgegen	_	O	O	
+22-23	.	$.	.	_	O	O	
+
+#id=23
+#text=Nachdem er aber lange gezögert, kam er plötz-
+23-1	Nachdem	KOUS	nachdem	_	O	O	
+23-2	er	PPER	er	_	O	O	
+23-3	aber	ADV	aber	_	O	O	
+23-4	lange	ADV	lange	_	O	O	
+23-5	gezögert	VVPP	zögern	_	O	O	
+23-6	,	$,	,	_	O	O	
+23-7	kam	VVFIN	kommen	_	O	O	
+23-8	er	PPER	er	_	O	O	
+23-9	plötz-	ADJD	<unknown>	_	O	O	
+

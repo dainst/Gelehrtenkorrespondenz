@@ -1,0 +1,222 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=1 Lepsius an Benzen Berlin, 28. Dezember 1875 NO 176 g. 1/1 76 r. Berlin, den 28. Dez.
+1-1	1	CARD	1	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Benzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	NO	NE	NO	_	O	O	
+1-12	176	CARD	@card@	_	O	O	
+1-13	g.	ADJA	<unknown>	_	O	O	
+1-14	1/1	CARD	1/1	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	76	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+1-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-18	,	$,	,	_	O	O	
+1-19	den	ART	die	_	O	O	
+1-20	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-21	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-22	Dez.	NN	Dez.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=2
+#text=1875 Berr Professor Benzen In Ihrem Briefe vom 10. März 1874 schrieben Sie der Central-Direktion, daß Herr Dressel schon früher Amgesammelt phoren-henkel~und sich mit dem S. Strezza in derselben Absicht getroffen und vereinigt habe.
+2-1	1875	CARD	@card@	_	O	O	
+2-2	Berr	NN	<unknown>	_	O	O	
+2-3	Professor	NN	Professor	_	O	O	
+2-4	Benzen	NN	<unknown>	_	O	O	
+2-5	In	APPR	in	_	O	O	
+2-6	Ihrem	PPOSAT	ihr	_	O	O	
+2-7	Briefe	NN	Brief	_	O	O	
+2-8	vom	APPRART	von	_	O	O	
+2-9	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-11	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-12	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-13	schrieben	VVFIN	schreiben	_	O	O	
+2-14	Sie	PPER	Sie	_	O	O	
+2-15	der	ART	die	_	O	O	
+2-16	Central-Direktion	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-17	,	$,	,	_	O	O	
+2-18	daß	KOUS	dass	_	O	O	
+2-19	Herr	NN	Herr	_	O	O	
+2-20	Dressel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-21	schon	ADV	schon	_	O	O	
+2-22	früher	ADJD	früh	_	O	O	
+2-23	Amgesammelt	VVFIN	<unknown>	_	O	O	
+2-24	phoren-henkel~und	NE	<unknown>	_	O	O	
+2-25	sich	PRF	sich	_	O	O	
+2-26	mit	APPR	mit	_	O	O	
+2-27	dem	ART	die	_	O	O	
+2-28	S.	NN	S.	_	O	O	
+2-29	Strezza	NN	<unknown>	_	O	O	
+2-30	in	APPR	in	_	O	O	
+2-31	derselben	PDAT	dieselb	_	O	O	
+2-32	Absicht	NN	Absicht	_	O	O	
+2-33	getroffen	VVPP	treffen|triefen	_	O	O	
+2-34	und	KON	und	_	O	O	
+2-35	vereinigt	VVPP	vereinigen	_	O	O	
+2-36	habe	VAFIN	haben	_	O	O	
+2-37	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Ausbeute sei besonders reich gewesen, seitdem am Fuße des Monte Testaccio ausgedehnte Arbeiten für einen neu anzulegenden Stadttheil ausgeführt wurden.
+3-1	Die	ART	die	_	O	O	
+3-2	Ausbeute	NN	Ausbeute	_	O	O	
+3-3	sei	VAFIN	sein	_	O	O	
+3-4	besonders	ADV	besonders	_	O	O	
+3-5	reich	ADJD	reich	_	O	O	
+3-6	gewesen	VAPP	sein	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	seitdem	KOUS	seitdem	_	O	O	
+3-9	am	APPRART	an	_	O	O	
+3-10	Fuße	NN	Fuß	_	O	O	
+3-11	des	ART	die	_	O	O	
+3-12	Monte	NE	Monte	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-13	Testaccio	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+3-14	ausgedehnte	ADJA	ausgedehnt	_	O	O	
+3-15	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+3-16	für	APPR	für	_	O	O	
+3-17	einen	ART	eine	_	O	O	
+3-18	neu	ADJD	neu	_	O	O	
+3-19	anzulegenden	ADJA	anzulegend	_	O	O	
+3-20	Stadttheil	NN	<unknown>	_	O	O	
+3-21	ausgeführt	VVPP	ausführen	_	O	O	
+3-22	wurden	VAFIN	werden	_	O	O	
+3-23	.	$.	.	_	O	O	
+
+#id=4
+#text=Für diese Mühwaltung der Verfolgung dieser Arbeiten beantragten Sie 200 r, und für die Bearbeitung dieses gewonnenen Materials und fernere Überwachung der Arbeiten, noch weitere 100 r.
+4-1	Für	APPR	für	_	O	O	
+4-2	diese	PDAT	dies	_	O	O	
+4-3	Mühwaltung	NN	<unknown>	_	O	O	
+4-4	der	ART	die	_	O	O	
+4-5	Verfolgung	NN	Verfolgung	_	O	O	
+4-6	dieser	PDAT	dies	_	O	O	
+4-7	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+4-8	beantragten	VVFIN	beantragen	_	O	O	
+4-9	Sie	PPER	Sie	_	O	O	
+4-10	200	CARD	200	_	O	O	
+4-11	r	NE	r	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	und	KON	und	_	O	O	
+4-14	für	APPR	für	_	O	O	
+4-15	die	ART	die	_	O	O	
+4-16	Bearbeitung	NN	Bearbeitung	_	O	O	
+4-17	dieses	PDAT	dies	_	O	O	
+4-18	gewonnenen	ADJA	gewonnen	_	O	O	
+4-19	Materials	NN	Material	_	O	O	
+4-20	und	KON	und	_	O	O	
+4-21	fernere	ADJA	fern	_	O	O	
+4-22	Überwachung	NN	Überwachung	_	O	O	
+4-23	der	ART	die	_	O	O	
+4-24	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+4-25	,	$,	,	_	O	O	
+4-26	noch	ADV	noch	_	O	O	
+4-27	weitere	ADJA	weit	_	O	O	
+4-28	100	CARD	100	_	O	O	
+4-29	r.	ADJA	<unknown>	_	O	O	
+
+#id=5
+#text=Es ist daher von den 300 r nichts für eigne Ausgrabungen ausgegeben worden, sondern für die Überwachung 'fremder Ausgrabungen, welche die Henkel zu Tage brachten, und dann für die Bearbeitung des Materials.
+5-1	Es	PPER	es	_	O	O	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	daher	PAV	daher	_	O	O	
+5-4	von	APPR	von	_	O	O	
+5-5	den	ART	die	_	O	O	
+5-6	300	CARD	300	_	O	O	
+5-7	r	NE	r	_	O	O	
+5-8	nichts	PIS	nichts	_	O	O	
+5-9	für	APPR	für	_	O	O	
+5-10	eigne	ADJA	eigen	_	O	O	
+5-11	Ausgrabungen	NN	Ausgrabung	_	O	O	
+5-12	ausgegeben	VVPP	ausgeben	_	O	O	
+5-13	worden	VAPP	werden	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	sondern	KON	sondern	_	O	O	
+5-16	für	APPR	für	_	O	O	
+5-17	die	ART	die	_	O	O	
+5-18	Überwachung	NN	Überwachung	_	O	O	
+5-19	'	$(	'	_	O	O	
+5-20	fremder	ADJA	fremd	_	O	O	
+5-21	Ausgrabungen	NN	Ausgrabung	_	O	O	
+5-22	,	$,	,	_	O	O	
+5-23	welche	PRELS	welche	_	O	O	
+5-24	die	ART	die	_	O	O	
+5-25	Henkel	NN	Henkel	_	O	O	
+5-26	zu	APPR	zu	_	O	O	
+5-27	Tage	NN	Tag	_	O	O	
+5-28	brachten	VVFIN	bringen	_	O	O	
+5-29	,	$,	,	_	O	O	
+5-30	und	KON	und	_	O	O	
+5-31	dann	ADV	dann	_	O	O	
+5-32	für	APPR	für	_	O	O	
+5-33	die	ART	die	_	O	O	
+5-34	Bearbeitung	NN	Bearbeitung	_	O	O	
+5-35	des	ART	die	_	O	O	
+5-36	Materials	NN	Material	_	O	O	
+5-37	.	$.	.	_	O	O	
+
+#id=6
+#text=Das ändert die Sachlage nicht zu Gunsten des Dr.
+6-1	Das	PDS	die	_	O	O	
+6-2	ändert	VVFIN	ändern	_	O	O	
+6-3	die	ART	die	_	O	O	
+6-4	Sachlage	NN	Sachlage	_	O	O	
+6-5	nicht	PTKNEG	nicht	_	O	O	
+6-6	zu	APPR	zu	_	O	O	
+6-7	Gunsten	NN	Gunst	_	O	O	
+6-8	des	ART	die	_	O	O	
+6-9	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=7
+#text=Dressel in Bezug auf den Ersatz der Vergütung.
+7-1	Dressel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	in	APPR	in	_	O	O	
+7-3	Bezug	NN	Bezug	_	O	O	
+7-4	auf	APPR	auf	_	O	O	
+7-5	den	ART	die	_	O	O	
+7-6	Ersatz	NN	Ersatz	_	O	O	
+7-7	der	ART	die	_	O	O	
+7-8	Vergütung	NN	Vergütung	_	O	O	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=Jedenfalls aber ist es nicht Sache der Central-Direktion eine solche abzumessen, sondern es muß Ihnen allein vorbehalten bleiben, einen Antrag für eine bestimmte Summe zu stellen, um überhaupt
+8-1	Jedenfalls	ADV	jedenfalls	_	O	O	
+8-2	aber	ADV	aber	_	O	O	
+8-3	ist	VAFIN	sein	_	O	O	
+8-4	es	PPER	es	_	O	O	
+8-5	nicht	PTKNEG	nicht	_	O	O	
+8-6	Sache	NN	Sache	_	O	O	
+8-7	der	ART	die	_	O	O	
+8-8	Central-Direktion	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-9	eine	ART	eine	_	O	O	
+8-10	solche	PIS	solche	_	O	O	
+8-11	abzumessen	VVIZU	abmessen	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	sondern	KON	sondern	_	O	O	
+8-14	es	PPER	es	_	O	O	
+8-15	muß	VMFIN	müssen	_	O	O	
+8-16	Ihnen	PPER	Sie	_	O	O	
+8-17	allein	ADV	allein	_	O	O	
+8-18	vorbehalten	VVINF	vorbehalten	_	O	O	
+8-19	bleiben	VVINF	bleiben	_	O	O	
+8-20	,	$,	,	_	O	O	
+8-21	einen	ART	eine	_	O	O	
+8-22	Antrag	NN	Antrag	_	O	O	
+8-23	für	APPR	für	_	O	O	
+8-24	eine	ART	eine	_	O	O	
+8-25	bestimmte	ADJA	bestimmt	_	O	O	
+8-26	Summe	NN	Summe	_	O	O	
+8-27	zu	PTKZU	zu	_	O	O	
+8-28	stellen	VVINF	stellen	_	O	O	
+8-29	,	$,	,	_	O	O	
+8-30	um	KOUI	um	_	O	O	
+8-31	überhaupt	ADV	überhaupt	_	O	O	
+

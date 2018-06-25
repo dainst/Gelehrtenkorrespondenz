@@ -1,0 +1,268 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=9 12/VI/55 Mit andrer Schrift Annali de Wit Lajard Verehrter Herr Professor Henzen an Gerhard r Mit bestem Dank für Ihren 1.
+1-1	9	CARD	9	_	O	O	
+1-2	12/VI/55	CARD	<unknown>	_	O	O	
+1-3	Mit	APPR	mit	_	O	O	
+1-4	andrer	PIAT	andere	_	O	O	
+1-5	Schrift	NN	Schrift	_	O	O	
+1-6	Annali	NE	<unknown>	_	O	O	
+1-7	de	NE	de	_	O	O	
+1-8	Wit	NN	<unknown>	_	O	O	
+1-9	Lajard	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-10	Verehrter	ADJA	verehrt	_	O	O	
+1-11	Herr	NN	Herr	_	O	O	
+1-12	Professor	NN	Professor	_	O	O	
+1-13	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-14	an	APPR	an	_	O	O	
+1-15	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-16	r	NE	r	_	O	O	
+1-17	Mit	APPR	mit	_	O	O	
+1-18	bestem	ADJA	gut	_	O	O	
+1-19	Dank	NN	Dank	_	O	O	
+1-20	für	APPR	für	_	O	O	
+1-21	Ihren	PPOSAT	ihr	_	O	O	
+1-22	1	CARD	1	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Brief vom 11 d. beantworte ich sogleich Ihre Anfrage in Betreff der Mittiriaca Grut.
+2-1	Brief	NN	Brief	_	O	O	
+2-2	vom	APPRART	von	_	O	O	
+2-3	11	CARD	11	_	O	O	
+2-4	d.	ART	d.	_	O	O	
+2-5	beantworte	VVFIN	beantworten	_	O	O	
+2-6	ich	PPER	ich	_	O	O	
+2-7	sogleich	ADV	sogleich	_	O	O	
+2-8	Ihre	PPOSAT	ihr	_	O	O	
+2-9	Anfrage	NN	Anfrage	_	O	O	
+2-10	in	APPR	in	_	O	O	
+2-11	Betreff	NN	Betreff	_	O	O	
+2-12	der	ART	die	_	O	O	
+2-13	Mittiriaca	NE	<unknown>	_	O	O	
+2-14	Grut	NN	<unknown>	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=1087, 4; 5.
+3-1	1087	CARD	@card@	_	O	O	
+3-2	,	$,	,	_	O	O	
+3-3	4	CARD	4	_	O	O	
+3-4	;	$.	;	_	O	O	
+3-5	5	CARD	5	_	O	O	
+3-6	.	$.	.	_	O	O	
+
+#id=4
+#text=Wahrscheinlich sind sie in der That nicht im Pighius; denn Zumpt hat an den betreffenden Stellen Nichts notirt.
+4-1	Wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+4-2	sind	VAFIN	sein	_	O	O	
+4-3	sie	PPER	sie	_	O	O	
+4-4	in	APPR	in	_	O	O	
+4-5	der	ART	die	_	O	O	
+4-6	That	NE	<unknown>	_	O	O	
+4-7	nicht	PTKNEG	nicht	_	O	O	
+4-8	im	APPRART	in	_	O	O	
+4-9	Pighius	NE	<unknown>	_	O	O	
+4-10	;	$.	;	_	O	O	
+4-11	denn	KON	denn	_	O	O	
+4-12	Zumpt	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-13	hat	VAFIN	haben	_	O	O	
+4-14	an	APPR	an	_	O	O	
+4-15	den	ART	die	_	O	O	
+4-16	betreffenden	ADJA	betreffend	_	O	O	
+4-17	Stellen	NN	Stelle|Stellen	_	O	O	
+4-18	Nichts	PIAT	nichts	_	O	O	
+4-19	notirt	NN	<unknown>	_	O	O	
+4-20	.	$.	.	_	O	O	
+
+#id=5
+#text=Mit Minutoli halten Sie es, wie Sie meinen; nur daß ihm u. Loving irgend Etwas erwiesen werde.
+5-1	Mit	APPR	mit	_	O	O	
+5-2	Minutoli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	halten	VVFIN	halten	_	O	O	
+5-4	Sie	PPER	Sie	_	O	O	
+5-5	es	PPER	es	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	wie	KOUS	wie	_	O	O	
+5-8	Sie	PPER	Sie	_	O	O	
+5-9	meinen	VVFIN	meinen	_	O	O	
+5-10	;	$.	;	_	O	O	
+5-11	nur	ADV	nur	_	O	O	
+5-12	daß	KOUS	dass	_	O	O	
+5-13	ihm	PPER	er	_	O	O	
+5-14	u.	APPR	um	_	O	O	
+5-15	Loving	NE	<unknown>	_	O	O	
+5-16	irgend	ADV	irgend	_	O	O	
+5-17	Etwas	NN	Etwas	_	O	O	
+5-18	erwiesen	VVPP	erweisen	_	O	O	
+5-19	werde	VAFIN	werden	_	O	O	
+5-20	.	$.	.	_	O	O	
+
+#id=6
+#text=- Ich bedaure, daß Sie den Brief an den König von Sachsen nicht übernehmen wollen; denn Braun schreibt gewiß nicht, wenn ich nicht da bin, ihn zu erinnern.
+6-1	-	$(	-	_	O	O	
+6-2	Ich	PPER	ich	_	O	O	
+6-3	bedaure	VVFIN	bedauern	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	daß	KOUS	dass	_	O	O	
+6-6	Sie	PPER	Sie	_	O	O	
+6-7	den	ART	die	_	O	O	
+6-8	Brief	NN	Brief	_	O	O	
+6-9	an	APPR	an	_	O	O	
+6-10	den	ART	die	_	O	O	
+6-11	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-12	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-13	Sachsen	NE	Sachsen	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-14	nicht	PTKNEG	nicht	_	O	O	
+6-15	übernehmen	VVINF	übernehmen	_	O	O	
+6-16	wollen	VMFIN	wollen	_	O	O	
+6-17	;	$.	;	_	O	O	
+6-18	denn	KON	denn	_	O	O	
+6-19	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-20	schreibt	VVFIN	schreiben	_	O	O	
+6-21	gewiß	ADJD	gewiss	_	O	O	
+6-22	nicht	PTKNEG	nicht	_	O	O	
+6-23	,	$,	,	_	O	O	
+6-24	wenn	KOUS	wenn	_	O	O	
+6-25	ich	PPER	ich	_	O	O	
+6-26	nicht	PTKNEG	nicht	_	O	O	
+6-27	da	ADV	da	_	O	O	
+6-28	bin	VAFIN	sein	_	O	O	
+6-29	,	$,	,	_	O	O	
+6-30	ihn	PPER	er	_	O	O	
+6-31	zu	PTKZU	zu	_	O	O	
+6-32	erinnern	VVINF	erinnern	_	O	O	
+6-33	.	$.	.	_	O	O	
+
+#id=7
+#text=Bei Ambrosch war ich bereits; er war sehr freundlich.
+7-1	Bei	APPR	bei	_	O	O	
+7-2	Ambrosch	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-3	war	VAFIN	sein	_	O	O	
+7-4	ich	PPER	ich	_	O	O	
+7-5	bereits	ADV	bereits	_	O	O	
+7-6	;	$.	;	_	O	O	
+7-7	er	PPER	er	_	O	O	
+7-8	war	VAFIN	sein	_	O	O	
+7-9	sehr	ADV	sehr	_	O	O	
+7-10	freundlich	ADJD	freundlich	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=v Mommsen bittet um Rücksendung des Briefes jon de Wit, den wohl Haupt haben müße, da wir ihm jetzt auf sein I i_Anerbieten doch einmal antworten müssen.
+8-1	v	ADJA	<unknown>	_	O	O	
+8-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	bittet	VVFIN	bitten	_	O	O	
+8-4	um	APPR	um	_	O	O	
+8-5	Rücksendung	NN	Rücksendung	_	O	O	
+8-6	des	ART	die	_	O	O	
+8-7	Briefes	NN	Brief	_	O	O	
+8-8	jon	NE	Jon	_	O	O	
+8-9	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-10	Wit	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-11	,	$,	,	_	O	O	
+8-12	den	PRELS	die	_	O	O	
+8-13	wohl	ADV	wohl	_	O	O	
+8-14	Haupt	NE	Haupt	_	O	O	
+8-15	haben	VAFIN	haben	_	O	O	
+8-16	müße	ADJD	<unknown>	_	O	O	
+8-17	,	$,	,	_	O	O	
+8-18	da	KOUS	da	_	O	O	
+8-19	wir	PPER	wir	_	O	O	
+8-20	ihm	PPER	er	_	O	O	
+8-21	jetzt	ADV	jetzt	_	O	O	
+8-22	auf	APPR	auf	_	O	O	
+8-23	sein	PPOSAT	sein	_	O	O	
+8-24	I	NN	I	_	O	O	
+8-25	i_Anerbieten	VVFIN	<unknown>	_	O	O	
+8-26	doch	ADV	doch	_	O	O	
+8-27	einmal	ADV	einmal	_	O	O	
+8-28	antworten	VVINF	antworten	_	O	O	
+8-29	müssen	VMINF	müssen	_	O	O	
+8-30	.	$.	.	_	O	O	
+
+#id=9
+#text=Wie lange werden Sie denn in diesem Sommer in Berlin bleiben?
+9-1	Wie	KOKOM	wie	_	O	O	
+9-2	lange	ADV	lange	_	O	O	
+9-3	werden	VAFIN	werden	_	O	O	
+9-4	Sie	PPER	Sie	_	O	O	
+9-5	denn	ADV	denn	_	O	O	
+9-6	in	APPR	in	_	O	O	
+9-7	diesem	PDAT	dies	_	O	O	
+9-8	Sommer	NN	Sommer	_	O	O	
+9-9	in	APPR	in	_	O	O	
+9-10	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-11	bleiben	VVINF	bleiben	_	O	O	
+9-12	?	$.	?	_	O	O	
+
+#id=10
+#text=Sie können wohl denken, dß.
+10-1	Sie	PPER	Sie	_	O	O	
+10-2	können	VMFIN	können	_	O	O	
+10-3	wohl	ADV	wohl	_	O	O	
+10-4	denken	VVINF	denken	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	dß	VVFIN	<unknown>	_	O	O	
+10-7	.	$.	.	_	O	O	
+
+#id=11
+#text=ich Sie u. einige Ändere gern sähe, ungern aber zu einer Zeit, wo dieser ungeheure Berg langweiligster Arbeiten noch vor u. auf mir liegt.
+11-1	ich	PPER	ich	_	O	O	
+11-2	Sie	PPER	Sie	_	O	O	
+11-3	u.	APPR	um	_	O	O	
+11-4	einige	PIAT	einige	_	O	O	
+11-5	Ändere	NN	<unknown>	_	O	O	
+11-6	gern	ADV	gern	_	O	O	
+11-7	sähe	VVFIN	sehen	_	O	O	
+11-8	,	$,	,	_	O	O	
+11-9	ungern	ADV	ungern	_	O	O	
+11-10	aber	ADV	aber	_	O	O	
+11-11	zu	APPR	zu	_	O	O	
+11-12	einer	ART	eine	_	O	O	
+11-13	Zeit	NN	Zeit	_	O	O	
+11-14	,	$,	,	_	O	O	
+11-15	wo	PWAV	wo	_	O	O	
+11-16	dieser	PDAT	dies	_	O	O	
+11-17	ungeheure	ADJA	ungeheuer	_	O	O	
+11-18	Berg	NN	Berg	_	O	O	
+11-19	langweiligster	ADJA	langweilig	_	O	O	
+11-20	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+11-21	noch	ADV	noch	_	O	O	
+11-22	vor	PTKVZ	vor	_	O	O	
+11-23	u.	KON	und	_	O	O	
+11-24	auf	APPR	auf	_	O	O	
+11-25	mir	PPER	ich	_	O	O	
+11-26	liegt	VVFIN	liegen	_	O	O	
+11-27	.	$.	.	_	O	O	
+
+#id=12
+#text=Auch ist es mir ganz recht, wenn einzelne Größen nicht in Berlin sind, wenn ich hinkomme, da unnütze Höflichkeitsvisiten bekanntlich nicht nach meinem Geschmack
+12-1	Auch	ADV	auch	_	O	O	
+12-2	ist	VAFIN	sein	_	O	O	
+12-3	es	PPER	es	_	O	O	
+12-4	mir	PRF	ich	_	O	O	
+12-5	ganz	ADV	ganz	_	O	O	
+12-6	recht	ADJD	recht	_	O	O	
+12-7	,	$,	,	_	O	O	
+12-8	wenn	KOUS	wenn	_	O	O	
+12-9	einzelne	ADJA	einzeln	_	O	O	
+12-10	Größen	NN	Größe	_	O	O	
+12-11	nicht	PTKNEG	nicht	_	O	O	
+12-12	in	APPR	in	_	O	O	
+12-13	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-14	sind	VAFIN	sein	_	O	O	
+12-15	,	$,	,	_	O	O	
+12-16	wenn	KOUS	wenn	_	O	O	
+12-17	ich	PPER	ich	_	O	O	
+12-18	hinkomme	VVFIN	hinkommen	_	O	O	
+12-19	,	$,	,	_	O	O	
+12-20	da	KOUS	da	_	O	O	
+12-21	unnütze	ADJA	unnütz	_	O	O	
+12-22	Höflichkeitsvisiten	NN	<unknown>	_	O	O	
+12-23	bekanntlich	ADV	bekanntlich	_	O	O	
+12-24	nicht	PTKNEG	nicht	_	O	O	
+12-25	nach	APPR	nach	_	O	O	
+12-26	meinem	PPOSAT	mein	_	O	O	
+12-27	Geschmack	NN	Geschmack	_	O	O	
+

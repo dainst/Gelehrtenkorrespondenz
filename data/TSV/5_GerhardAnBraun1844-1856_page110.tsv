@@ -1,0 +1,165 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=\ /:J.-vv 63 Gerhard an Braun Berlin, 10. Februar 1845 3 nehmen nach verloren, wiedergefunden und wiederverloren.
+1-1	\	XY	\	_	O	O	
+1-2	/:J.-vv	NE	<unknown>	_	O	O	
+1-3	63	CARD	63	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	3	CARD	3	_	O	O	
+1-14	nehmen	VVFIN	nehmen	_	O	O	
+1-15	nach	ADV	nach	_	O	O	
+1-16	verloren	VVPP	verlieren	_	O	O	
+1-17	,	$,	,	_	O	O	
+1-18	wiedergefunden	VVPP	wiederfinden	_	O	O	
+1-19	und	KON	und	_	O	O	
+1-20	wiederverloren	VVFIN	<unknown>	_	O	O	
+1-21	.	$.	.	_	O	O	
+
+#id=2
+#text=Das Diplom an Beeskow ist abgegangen; ich habe es beim Membro corrispondente gelesen, da Kestner auf meine Anzeige deshalb geschwiegen und durchaus keine Qualification des Mannes mir sonst bekannt war.
+2-1	Das	ART	die	_	O	O	
+2-2	Diplom	NN	Diplom	_	O	O	
+2-3	an	APPR	an	_	O	O	
+2-4	Beeskow	NE	<unknown>	_	O	O	
+2-5	ist	VAFIN	sein	_	O	O	
+2-6	abgegangen	VVPP	abgehen	_	O	O	
+2-7	;	$.	;	_	O	O	
+2-8	ich	PPER	ich	_	O	O	
+2-9	habe	VAFIN	haben	_	O	O	
+2-10	es	PPER	es	_	O	O	
+2-11	beim	APPRART	bei	_	O	O	
+2-12	Membro	NN	<unknown>	_	O	O	
+2-13	corrispondente	NN	<unknown>	_	O	O	
+2-14	gelesen	VVPP	lesen	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	da	KOUS	da	_	O	O	
+2-17	Kestner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-18	auf	APPR	auf	_	O	O	
+2-19	meine	PPOSAT	mein	_	O	O	
+2-20	Anzeige	NN	Anzeige	_	O	O	
+2-21	deshalb	PAV	deshalb	_	O	O	
+2-22	geschwiegen	VVPP	schweigen	_	O	O	
+2-23	und	KON	und	_	O	O	
+2-24	durchaus	ADV	durchaus	_	O	O	
+2-25	keine	PIAT	keine	_	O	O	
+2-26	Qualification	NN	<unknown>	_	O	O	
+2-27	des	ART	die	_	O	O	
+2-28	Mannes	NN	Mann	_	O	O	
+2-29	mir	PRF	ich	_	O	O	
+2-30	sonst	ADV	sonst	_	O	O	
+2-31	bekannt	ADJD	bekannt	_	O	O	
+2-32	war	VAFIN	sein	_	O	O	
+2-33	.	$.	.	_	O	O	
+
+#id=3
+#text=Domenico wünschte mir neulich zum Neujahr Glück; wollen Sie es mit Gegengruß und einer pezza dura erwiedern ?
+3-1	Domenico	NE	Domenico	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	wünschte	VVFIN	wünschen	_	O	O	
+3-3	mir	PPER	ich	_	O	O	
+3-4	neulich	ADV	neulich	_	O	O	
+3-5	zum	APPRART	zu	_	O	O	
+3-6	Neujahr	NN	Neujahr	_	O	O	
+3-7	Glück	NN	Glück	_	O	O	
+3-8	;	$.	;	_	O	O	
+3-9	wollen	VMFIN	wollen	_	O	O	
+3-10	Sie	PPER	Sie	_	O	O	
+3-11	es	PPER	es	_	O	O	
+3-12	mit	APPR	mit	_	O	O	
+3-13	Gegengruß	NN	<unknown>	_	O	O	
+3-14	und	KON	und	_	O	O	
+3-15	einer	ART	eine	_	O	O	
+3-16	pezza	ADJA	<unknown>	_	O	O	
+3-17	dura	NN	<unknown>	_	O	O	
+3-18	erwiedern	VVINF	<unknown>	_	O	O	
+3-19	?	$.	?	_	O	O	
+
+#id=4
+#text=Ratti macht noch immer kein Ende mit meinem Gesso.
+4-1	Ratti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	macht	VVFIN	machen	_	O	O	
+4-3	noch	ADV	noch	_	O	O	
+4-4	immer	ADV	immer	_	O	O	
+4-5	kein	PIAT	keine	_	O	O	
+4-6	Ende	NN	Ende	_	O	O	
+4-7	mit	APPR	mit	_	O	O	
+4-8	meinem	PPOSAT	mein	_	O	O	
+4-9	Gesso	NN	<unknown>	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Kiepert, der nach Weimar zum geographischen Institut übersiedelt, hat eine sehr plausible Karte entworfen, in welcher von Ninive aus Handels- und Kultusstraßen nach Kleinasien auslaufen.
+5-1	Kiepert	NN	<unknown>	_	O	O	
+5-2	,	$,	,	_	O	O	
+5-3	der	PRELS	die	_	O	O	
+5-4	nach	APPR	nach	_	O	O	
+5-5	Weimar	NE	Weimar	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-6	zum	APPRART	zu	_	O	O	
+5-7	geographischen	ADJA	geographisch	_	O	O	
+5-8	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-9	übersiedelt	VVPP	übersiedeln	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	hat	VAFIN	haben	_	O	O	
+5-12	eine	ART	eine	_	O	O	
+5-13	sehr	ADV	sehr	_	O	O	
+5-14	plausible	ADJA	plausibel	_	O	O	
+5-15	Karte	NN	Karte	_	O	O	
+5-16	entworfen	VVPP	entwerfen	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	in	APPR	in	_	O	O	
+5-19	welcher	PRELS	welche	_	O	O	
+5-20	von	APPR	von	_	O	O	
+5-21	Ninive	NN	<unknown>	_	O	O	
+5-22	aus	APPR	aus	_	O	O	
+5-23	Handels-	TRUNC	Handels-	_	O	O	
+5-24	und	KON	und	_	O	O	
+5-25	Kultusstraßen	NN	<unknown>	_	O	O	
+5-26	nach	APPR	nach	_	O	O	
+5-27	Kleinasien	NE	Kleinasien	_	O	O	
+5-28	auslaufen	VVFIN	auslaufen	_	O	O	
+5-29	.	$.	.	_	O	O	
+
+#id=6
+#text=Phönicisches wie Ägyptisches in Asien (auch die vermuthlichen Sesostrissachen ) und demnach meist assirisch.
+6-1	Phönicisches	NN	<unknown>	_	O	O	
+6-2	wie	KOKOM	wie	_	O	O	
+6-3	Ägyptisches	NN	<unknown>	_	O	O	
+6-4	in	APPR	in	_	O	O	
+6-5	Asien	NE	Asien	_	O	O	
+6-6	(	$(	(	_	O	O	
+6-7	auch	ADV	auch	_	O	O	
+6-8	die	ART	die	_	O	O	
+6-9	vermuthlichen	ADJA	<unknown>	_	O	O	
+6-10	Sesostrissachen	NN	<unknown>	_	O	O	
+6-11	)	$(	)	_	O	O	
+6-12	und	KON	und	_	O	O	
+6-13	demnach	PAV	demnach	_	O	O	
+6-14	meist	ADV	meist	_	O	O	
+6-15	assirisch	ADJD	<unknown>	_	O	O	
+6-16	.	$.	.	_	O	O	
+
+#id=7
+#text=Von Herzen der Ihrige Gerhard Steffen hat sehr abgenommen und eben einen Blutsturz gehabt.
+7-1	Von	APPR	von	_	O	O	
+7-2	Herzen	NN	Herz	_	O	O	
+7-3	der	ART	die	_	O	O	
+7-4	Ihrige	PPOSAT	ihrige	_	O	O	
+7-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-6	Steffen	NE	Steffen	_	O	O	
+7-7	hat	VAFIN	haben	_	O	O	
+7-8	sehr	ADV	sehr	_	O	O	
+7-9	abgenommen	VVPP	abnehmen	_	O	O	
+7-10	und	KON	und	_	O	O	
+7-11	eben	ADV	eben	_	O	O	
+7-12	einen	ART	eine	_	O	O	
+7-13	Blutsturz	NN	Blutsturz	_	O	O	
+7-14	gehabt	VAPP	haben	_	O	O	
+7-15	.	$.	.	_	O	O	
+

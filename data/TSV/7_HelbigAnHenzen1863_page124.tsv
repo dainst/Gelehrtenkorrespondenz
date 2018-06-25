@@ -1,0 +1,167 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=230 2 Helbig an Henzen Zürich, 12. Juni 1870 sei Dank, viel besser und ich hoffe, daß sie mit dem Schrecken davonkommen und sich künftig mehr in Acht nehmen wird.
+1-1	230	CARD	230	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	sei	VAFIN	sein	_	O	O	
+1-13	Dank	NN	Dank	_	O	O	
+1-14	,	$,	,	_	O	O	
+1-15	viel	ADV	viel	_	O	O	
+1-16	besser	ADJD	gut	_	O	O	
+1-17	und	KON	und	_	O	O	
+1-18	ich	PPER	ich	_	O	O	
+1-19	hoffe	VVFIN	hoffen	_	O	O	
+1-20	,	$,	,	_	O	O	
+1-21	daß	KOUS	dass	_	O	O	
+1-22	sie	PPER	sie	_	O	O	
+1-23	mit	APPR	mit	_	O	O	
+1-24	dem	ART	die	_	O	O	
+1-25	Schrecken	NN	Schrecken	_	O	O	
+1-26	davonkommen	VVINF	davonkommen	_	O	O	
+1-27	und	KON	und	_	O	O	
+1-28	sich	PRF	sich	_	O	O	
+1-29	künftig	ADJD	künftig	_	O	O	
+1-30	mehr	ADV	mehr	_	O	O	
+1-31	in	APPR	in	_	O	O	
+1-32	Acht	NN	Acht	_	O	O	
+1-33	nehmen	VVINF	nehmen	_	O	O	
+1-34	wird	VAFIN	werden	_	O	O	
+1-35	.	$.	.	_	O	O	
+
+#id=2
+#text=Gestern kam Willmanns auf einen Tag zu uns; heute Morgen reiste er wieder ab, ohne zu dem Diner nach Olten zu gehen, wohin er von den verschiedensten Seiten eingeladen worden war.
+2-1	Gestern	ADV	gestern	_	O	O	
+2-2	kam	VVFIN	kommen	_	O	O	
+2-3	Willmanns	NE	Willmann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-4	auf	APPR	auf	_	O	O	
+2-5	einen	ART	eine	_	O	O	
+2-6	Tag	NN	Tag	_	O	O	
+2-7	zu	APPR	zu	_	O	O	
+2-8	uns	PPER	wir	_	O	O	
+2-9	;	$.	;	_	O	O	
+2-10	heute	ADV	heute	_	O	O	
+2-11	Morgen	ADV	morgen	_	O	O	
+2-12	reiste	VVFIN	reisen	_	O	O	
+2-13	er	PPER	er	_	O	O	
+2-14	wieder	ADV	wieder	_	O	O	
+2-15	ab	PTKVZ	ab	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	ohne	KOUI	ohne	_	O	O	
+2-18	zu	APPR	zu	_	O	O	
+2-19	dem	ART	die	_	O	O	
+2-20	Diner	NN	<UNKNOWN>	_	O	O	
+2-21	nach	APPR	nach	_	O	O	
+2-22	Olten	NN	<unknown>	_	O	O	
+2-23	zu	PTKZU	zu	_	O	O	
+2-24	gehen	VVINF	gehen	_	O	O	
+2-25	,	$,	,	_	O	O	
+2-26	wohin	PWAV	wohin	_	O	O	
+2-27	er	PPER	er	_	O	O	
+2-28	von	APPR	von	_	O	O	
+2-29	den	ART	die	_	O	O	
+2-30	verschiedensten	ADJA	verschieden	_	O	O	
+2-31	Seiten	NN	Seite	_	O	O	
+2-32	eingeladen	VVPP	einladen	_	O	O	
+2-33	worden	VAPP	werden	_	O	O	
+2-34	war	VAFIN	sein	_	O	O	
+2-35	.	$.	.	_	O	O	
+
+#id=3
+#text=Er fühlt sich in Freiburg ganz wohl und hat sich nicht im Geringsten verändert.
+3-1	Er	PPER	er	_	O	O	
+3-2	fühlt	VVFIN	fühlen	_	O	O	
+3-3	sich	PRF	sich	_	O	O	
+3-4	in	APPR	in	_	O	O	
+3-5	Freiburg	NE	Freiburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-6	ganz	ADV	ganz	_	O	O	
+3-7	wohl	ADV	wohl	_	O	O	
+3-8	und	KON	und	_	O	O	
+3-9	hat	VAFIN	haben	_	O	O	
+3-10	sich	PRF	sich	_	O	O	
+3-11	nicht	PTKNEG	nicht	_	O	O	
+3-12	im	APPRART	in	_	O	O	
+3-13	Geringsten	NN	Geringste	_	O	O	
+3-14	verändert	VVPP	verändern	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Sollte ein Mahnbrief von Marcelliani eintreffen, so bitte ich Sie, ihn von dem veränderten Termin meiner Abreise in Kenntnis zu setzen.
+4-1	Sollte	VMFIN	sollen	_	O	O	
+4-2	ein	ART	eine	_	O	O	
+4-3	Mahnbrief	NN	Mahnbrief	_	O	O	
+4-4	von	APPR	von	_	O	O	
+4-5	Marcelliani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-6	eintreffen	VVINF	eintreffen	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	so	ADV	so	_	O	O	
+4-9	bitte	VVFIN	bitten	_	O	O	
+4-10	ich	PPER	ich	_	O	O	
+4-11	Sie	PPER	Sie	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	ihn	PPER	er	_	O	O	
+4-14	von	APPR	von	_	O	O	
+4-15	dem	ART	die	_	O	O	
+4-16	veränderten	ADJA	verändert	_	O	O	
+4-17	Termin	NN	Termin	_	O	O	
+4-18	meiner	PPOSAT	mein	_	O	O	
+4-19	Abreise	NN	Abreise	_	O	O	
+4-20	in	APPR	in	_	O	O	
+4-21	Kenntnis	NN	Kenntnis	_	O	O	
+4-22	zu	PTKZU	zu	_	O	O	
+4-23	setzen	VVINF	setzen	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=Soviel für heute.
+5-1	Soviel	PIS	soviele	_	O	O	
+5-2	für	APPR	für	_	O	O	
+5-3	heute	ADV	heute	_	O	O	
+5-4	.	$.	.	_	O	O	
+
+#id=6
+#text=Hoffentlich kann ich Ihnen baldigst gute Nachrichten bringen.
+6-1	Hoffentlich	ADV	hoffentlich	_	O	O	
+6-2	kann	VMFIN	können	_	O	O	
+6-3	ich	PPER	ich	_	O	O	
+6-4	Ihnen	PPER	Sie	_	O	O	
+6-5	baldigst	ADJD	baldig	_	O	O	
+6-6	gute	ADJA	gut	_	O	O	
+6-7	Nachrichten	NN	Nachricht	_	O	O	
+6-8	bringen	VVINF	bringen	_	O	O	
+6-9	.	$.	.	_	O	O	
+
+#id=7
+#text=Viele Grüße an Fräulein Kopf und Hinck.
+7-1	Viele	PIAT	viele	_	O	O	
+7-2	Grüße	NN	Gruß	_	O	O	
+7-3	an	APPR	an	_	O	O	
+7-4	Fräulein	NN	Fräulein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-5	Kopf	NN	Kopf	_	O	O	
+7-6	und	KON	und	_	O	O	
+7-7	Hinck	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=Meine Frau grüßt ebenfalls bestens.
+8-1	Meine	PPOSAT	mein	_	O	O	
+8-2	Frau	NN	Frau	_	O	O	
+8-3	grüßt	VVFIN	grüßen	_	O	O	
+8-4	ebenfalls	ADV	ebenfalls	_	O	O	
+8-5	bestens	ADV	bestens	_	O	O	
+8-6	.	$.	.	_	O	O	
+
+#id=9
+#text=Ihr ergebener Helbig
+9-1	Ihr	PPOSAT	ihr	_	O	O	
+9-2	ergebener	ADJA	ergeben	_	O	O	
+9-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

@@ -1,0 +1,112 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=72 2 Lepsius an Henzen Berlin, 14. Februar 1874 Zeichnung zu 14 r wissen.
+1-1	72	CARD	72	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Zeichnung	NN	Zeichnung	_	O	O	
+1-13	zu	APPR	zu	_	O	O	
+1-14	14	CARD	14	_	O	O	
+1-15	r	NE	r	_	O	O	
+1-16	wissen	VVFIN	wissen	_	O	O	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text=Sie könnte auch, wie die 3, die Sie erhalten haben werden zu 15 r , für das Institut bestimmt gewesen sein.
+2-1	Sie	PPER	Sie	_	O	O	
+2-2	könnte	VMFIN	können	_	O	O	
+2-3	auch	ADV	auch	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	wie	KOUS	wie	_	O	O	
+2-6	die	ART	die	_	O	O	
+2-7	3	CARD	3	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	die	PRELS	die	_	O	O	
+2-10	Sie	PPER	Sie	_	O	O	
+2-11	erhalten	VVINF	erhalten	_	O	O	
+2-12	haben	VAFIN	haben	_	O	O	
+2-13	werden	VAFIN	werden	_	O	O	
+2-14	zu	APPR	zu	_	O	O	
+2-15	15	CARD	15	_	O	O	
+2-16	r	NE	r	_	O	O	
+2-17	,	$,	,	_	O	O	
+2-18	für	APPR	für	_	O	O	
+2-19	das	ART	die	_	O	O	
+2-20	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-21	bestimmt	VVPP	bestimmen	_	O	O	
+2-22	gewesen	VAPP	sein	_	O	O	
+2-23	sein	VAINF	sein	_	O	O	
+2-24	.	$.	.	_	O	O	
+
+#id=3
+#text=Viel Kälte haben wir bis jetzt nicht gehabt, aber viel Schnee mit einigen Graden über Null.
+3-1	Viel	PIAT	viele	_	O	O	
+3-2	Kälte	NN	Kälte	_	O	O	
+3-3	haben	VAFIN	haben	_	O	O	
+3-4	wir	PPER	wir	_	O	O	
+3-5	bis	KON	bis	_	O	O	
+3-6	jetzt	ADV	jetzt	_	O	O	
+3-7	nicht	PTKNEG	nicht	_	O	O	
+3-8	gehabt	VAPP	haben	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	aber	ADV	aber	_	O	O	
+3-11	viel	PIAT	viele	_	O	O	
+3-12	Schnee	NN	Schnee	_	O	O	
+3-13	mit	APPR	mit	_	O	O	
+3-14	einigen	PIAT	einige	_	O	O	
+3-15	Graden	NN	Grad	_	O	O	
+3-16	über	APPR	über	_	O	O	
+3-17	Null	CARD	null	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=In Bezug auf Klügmann für das Sarkophagwerk werden hier Bedenken erhoben.
+4-1	In	APPR	in	_	O	O	
+4-2	Bezug	NN	Bezug	_	O	O	
+4-3	auf	APPR	auf	_	O	O	
+4-4	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	für	APPR	für	_	O	O	
+4-6	das	ART	die	_	O	O	
+4-7	Sarkophagwerk	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-8	werden	VAFIN	werden	_	O	O	
+4-9	hier	ADV	hier	_	O	O	
+4-10	Bedenken	NN	Bedenken	_	O	O	
+4-11	erhoben	VVPP	erheben	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Würden Sie an Robert denken können, als ausführende Hand eines hiesigen Nachfolgers von Matz ?
+5-1	Würden	VAFIN	werden	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	an	APPR	an	_	O	O	
+5-4	Robert	NE	Robert	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	denken	VVINF	denken	_	O	O	
+5-6	können	VMINF	können	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	als	KOKOM	als	_	O	O	
+5-9	ausführende	ADJA	ausführend	_	O	O	
+5-10	Hand	NN	Hand	_	O	O	
+5-11	eines	ART	eine	_	O	O	
+5-12	hiesigen	ADJA	hiesig	_	O	O	
+5-13	Nachfolgers	NN	Nachfolger	_	O	O	
+5-14	von	APPR	von	_	O	O	
+5-15	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-16	?	$.	?	_	O	O	
+
+#id=6
+#text=Mit herzlichen Grüßen Ihr R Lepsius
+6-1	Mit	APPR	mit	_	O	O	
+6-2	herzlichen	ADJA	herzlich	_	O	O	
+6-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+6-4	Ihr	PPOSAT	ihr	_	O	O	
+6-5	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

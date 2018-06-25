@@ -1,0 +1,198 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Dr. Braun Gerhard an Braun Berlin, 17. April 1846 g. 28/IV 46 r. 2/V 46 Berlin 17 April 46 Ich mag nicht zögern lieber Freund Ihnen meine glückliche Heimkehr zu berichten; gestern langte ich hier an, fand auch Ihren Brief vor.
+1-1	Dr.	NN	Dr.	_	O	O	
+1-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	17	CARD	17	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	28/IV	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	r.	ADJA	<unknown>	_	O	O	
+1-16	2/V	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+1-17	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+1-18	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-19	17	CARD	17	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Ich	PPER	ich	_	O	O	
+1-23	mag	VMFIN	mögen	_	O	O	
+1-24	nicht	PTKNEG	nicht	_	O	O	
+1-25	zögern	VVFIN	zögern	_	O	O	
+1-26	lieber	ADJD	lieb	_	O	O	
+1-27	Freund	NE	Freund	_	O	O	
+1-28	Ihnen	PPER	Sie	_	O	O	
+1-29	meine	PPOSAT	mein	_	O	O	
+1-30	glückliche	ADJA	glücklich	_	O	O	
+1-31	Heimkehr	NN	Heimkehr	_	O	O	
+1-32	zu	PTKZU	zu	_	O	O	
+1-33	berichten	VVINF	berichten	_	O	O	
+1-34	;	$.	;	_	O	O	
+1-35	gestern	ADV	gestern	_	O	O	
+1-36	langte	VVFIN	langen	_	O	O	
+1-37	ich	PPER	ich	_	O	O	
+1-38	hier	ADV	hier	_	O	O	
+1-39	an	PTKVZ	an	_	O	O	
+1-40	,	$,	,	_	O	O	
+1-41	fand	VVFIN	finden	_	O	O	
+1-42	auch	ADV	auch	_	O	O	
+1-43	Ihren	PPOSAT	ihr	_	O	O	
+1-44	Brief	NN	Brief	_	O	O	
+1-45	vor	PTKVZ	vor	_	O	O	
+1-46	.	$.	.	_	O	O	
+
+#id=2
+#text=Leider ohne Jahresbericht und selbst ohne die rückständigen Quittungen und die Notiz Ihrer Sculpturen.
+2-1	Leider	ADV	leider	_	O	O	
+2-2	ohne	APPR	ohne	_	O	O	
+2-3	Jahresbericht	NN	Jahresbericht	_	O	O	
+2-4	und	KON	und	_	O	O	
+2-5	selbst	ADV	selbst	_	O	O	
+2-6	ohne	APPR	ohne	_	O	O	
+2-7	die	ART	die	_	O	O	
+2-8	rückständigen	ADJA	rückständig	_	O	O	
+2-9	Quittungen	NN	Quittung	_	O	O	
+2-10	und	KON	und	_	O	O	
+2-11	die	ART	die	_	O	O	
+2-12	Notiz	NN	Notiz	_	O	O	
+2-13	Ihrer	PPOSAT	ihr	_	O	O	
+2-14	Sculpturen	NN	<unknown>	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich habe es verabsäumt das Annalen und Monumenti Exemplar von 1844 nachdem es von mir weggeholt war mir wieder zurückzufordern und kann nun nichts vom Institut hier anzeigen vor Ankunft der Brockhaus-Sendung.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	habe	VAFIN	haben	_	O	O	
+3-3	es	PPER	es	_	O	O	
+3-4	verabsäumt	ADJD	<unknown>	_	O	O	
+3-5	das	ART	die	_	O	O	
+3-6	Annalen	NN	Annalen	_	O	O	
+3-7	und	KON	und	_	O	O	
+3-8	Monumenti	NN	<unknown>	_	O	O	
+3-9	Exemplar	NN	Exemplar	_	O	O	
+3-10	von	APPR	von	_	O	O	
+3-11	1844	CARD	1844	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-12	nachdem	KOUS	nachdem	_	O	O	
+3-13	es	PPER	es	_	O	O	
+3-14	von	APPR	von	_	O	O	
+3-15	mir	PPER	ich	_	O	O	
+3-16	weggeholt	VVPP	wegholen	_	O	O	
+3-17	war	VAFIN	sein	_	O	O	
+3-18	mir	PPER	ich	_	O	O	
+3-19	wieder	ADV	wieder	_	O	O	
+3-20	zurückzufordern	VVIZU	zurückfordern	_	O	O	
+3-21	und	KON	und	_	O	O	
+3-22	kann	VMFIN	können	_	O	O	
+3-23	nun	ADV	nun	_	O	O	
+3-24	nichts	PIS	nichts	_	O	O	
+3-25	vom	APPRART	von	_	O	O	
+3-26	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-27	hier	ADV	hier	_	O	O	
+3-28	anzeigen	VVFIN	anzeigen	_	O	O	
+3-29	vor	APPR	vor	_	O	O	
+3-30	Ankunft	NN	Ankunft	_	O	O	
+3-31	der	ART	die	_	O	O	
+3-32	Brockhaus-Sendung	NN	<unknown>	_	O	O	
+3-33	.	$.	.	_	O	O	
+
+#id=4
+#text=In Chiusi kaufte ich eine hübsche Schaukelvase mit Torso in Skyphosform, sonst allerlei Brauchbares nichts Eclatantes.
+4-1	In	APPR	in	_	O	O	
+4-2	Chiusi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-3	kaufte	VVFIN	kaufen	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	eine	ART	eine	_	O	O	
+4-6	hübsche	ADJA	hübsch	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-7	Schaukelvase	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-8	mit	APPR	mit	_	O	O	
+4-9	Torso	NN	Torso	_	O	O	
+4-10	in	APPR	in	_	O	O	
+4-11	Skyphosform	NN	<unknown>	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	sonst	ADV	sonst	_	O	O	
+4-14	allerlei	PIAT	allerlei	_	O	O	
+4-15	Brauchbares	NN	Brauchbares	_	O	O	
+4-16	nichts	PIAT	nichts	_	O	O	
+4-17	Eclatantes	NN	<unknown>	_	O	O	
+4-18	.	$.	.	_	O	O	
+
+#id=5
+#text=Auch eine hübsche Todtenkiste Fran- ~ois gehörig; einige andre schlug ich vor.
+5-1	Auch	ADV	auch	_	O	O	
+5-2	eine	ART	eine	_	O	O	
+5-3	hübsche	ADJA	hübsch	_	O	O	
+5-4	Todtenkiste	NN	<unknown>	_	O	O	
+5-5	Fran-	TRUNC	fran-	_	O	O	
+5-6	~ois	NN	<unknown>	_	O	O	
+5-7	gehörig	ADJD	gehörig	_	O	O	
+5-8	;	$.	;	_	O	O	
+5-9	einige	PIAT	einige	_	O	O	
+5-10	andre	PIS	andere	_	O	O	
+5-11	schlug	VVFIN	schlagen	_	O	O	
+5-12	ich	PPER	ich	_	O	O	
+5-13	vor	PTKVZ	vor	_	O	O	
+5-14	.	$.	.	_	O	O	
+
+#id=6
+#text=Über die 2 Baseggioschen Vasen und sonstigen Vorschlägmwird Herr von Olfers den ich noch nicht sah sich ja wol bald äussern.
+6-1	Über	APPR	über	_	O	O	
+6-2	die	ART	die	_	O	O	
+6-3	2	CARD	2	_	O	O	
+6-4	Baseggioschen	ADJA	<unknown>	_	O	O	
+6-5	Vasen	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-6	und	KON	und	_	O	O	
+6-7	sonstigen	ADJA	sonstig	_	O	O	
+6-8	Vorschlägmwird	NN	<unknown>	_	O	O	
+6-9	Herr	NN	Herr	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-11	Olfers	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-12	den	ART	die	_	O	O	
+6-13	ich	PPER	ich	_	O	O	
+6-14	noch	ADV	noch	_	O	O	
+6-15	nicht	PTKNEG	nicht	_	O	O	
+6-16	sah	VVFIN	sehen	_	O	O	
+6-17	sich	PRF	sich	_	O	O	
+6-18	ja	ADV	ja	_	O	O	
+6-19	wol	ADJD	<unknown>	_	O	O	
+6-20	bald	ADV	bald	_	O	O	
+6-21	äussern	VVINF	äußern	_	O	O	
+6-22	.	$.	.	_	O	O	
+
+#id=7
+#text=Über Welckers Laune und Ergehen sind Sie ja sehr lakonisch.
+7-1	Über	APPR	über	_	O	O	
+7-2	Welckers	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-3	Laune	NN	Laune	_	O	O	
+7-4	und	KON	und	_	O	O	
+7-5	Ergehen	NN	Ergehen	_	O	O	
+7-6	sind	VAFIN	sein	_	O	O	
+7-7	Sie	PPER	Sie	_	O	O	
+7-8	ja	ADV	ja	_	O	O	
+7-9	sehr	ADV	sehr	_	O	O	
+7-10	lakonisch	ADJD	lakonisch	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Die ~sendung meiner Vasenkiste mit allem Privatbeischluß wünsche ich freilich baldmöglichst zu hören;
+8-1	Die	ART	die	_	O	O	
+8-2	~sendung	NN	<unknown>	_	O	O	
+8-3	meiner	PPOSAT	mein	_	O	O	
+8-4	Vasenkiste	NN	<unknown>	_	O	O	
+8-5	mit	APPR	mit	_	O	O	
+8-6	allem	PIS	alle	_	O	O	
+8-7	Privatbeischluß	NN	<unknown>	_	O	O	
+8-8	wünsche	VVFIN	wünschen	_	O	O	
+8-9	ich	PPER	ich	_	O	O	
+8-10	freilich	ADV	freilich	_	O	O	
+8-11	baldmöglichst	ADV	baldmöglichst	_	O	O	
+8-12	zu	PTKZU	zu	_	O	O	
+8-13	hören	VVINF	hören	_	O	O	
+8-14	;	$.	;	_	O	O	
+

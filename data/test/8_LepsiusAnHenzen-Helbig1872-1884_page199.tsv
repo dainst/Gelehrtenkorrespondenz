@@ -1,0 +1,226 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=~ \ 20 Verehrter Freund Lepsius an Henzen Berlin, 7. Januar 1875 g. 11/1 75 r.
+1-1	~	XY	~	_	O	O	
+1-2	\	XY	\	_	O	O	
+1-3	20	CARD	20	_	O	O	
+1-4	Verehrter	NN	Verehrte	_	O	O	
+1-5	Freund	NE	Freund	_	O	O	
+1-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	11/1	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=12/75 Berlin d. 7. Jan.
+2-1	12/75	CARD	@card@	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-3	d.	ART	d.	_	O	O	
+2-4	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=3
+#text=1875 Ich eile meinen gestrigen Konfusen wieder gut zu machen.
+3-1	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-2	Ich	PPER	ich	_	O	O	
+3-3	eile	VVFIN	eilen	_	O	O	
+3-4	meinen	PPOSAT	mein	_	O	O	
+3-5	gestrigen	ADJA	gestrig	_	O	O	
+3-6	Konfusen	NN	<unknown>	_	O	O	
+3-7	wieder	ADV	wieder	_	O	O	
+3-8	gut	ADJD	gut	_	O	O	
+3-9	zu	PTKZU	zu	_	O	O	
+3-10	machen	VVINF	machen	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=Sie werden selbst gesehen haben, daß ich die Preußischen mit den Deutschen Institutsf9nds verwechselt habe, da ich leider immer m1t beiden, dem Reichstags und d~ Landtag's Bewilligungen zu thun habe, und mit den letztern jetzt vornehmlich.
+4-1	Sie	PPER	Sie	_	O	O	
+4-2	werden	VAFIN	werden	_	O	O	
+4-3	selbst	ADV	selbst	_	O	O	
+4-4	gesehen	VVPP	sehen	_	O	O	
+4-5	haben	VAINF	haben	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	daß	KOUS	dass	_	O	O	
+4-8	ich	PPER	ich	_	O	O	
+4-9	die	ART	die	_	O	O	
+4-10	Preußischen	NN	Preußische	_	O	O	
+4-11	mit	APPR	mit	_	O	O	
+4-12	den	ART	die	_	O	O	
+4-13	Deutschen	ADJA	deutsch	_	O	O	
+4-14	Institutsf9nds	NN	<unknown>	_	O	O	
+4-15	verwechselt	VVPP	verwechseln	_	O	O	
+4-16	habe	VAFIN	haben	_	O	O	
+4-17	,	$,	,	_	O	O	
+4-18	da	KOUS	da	_	O	O	
+4-19	ich	PPER	ich	_	O	O	
+4-20	leider	ADV	leider	_	O	O	
+4-21	immer	ADV	immer	_	O	O	
+4-22	m1t	ADJD	<unknown>	_	O	O	
+4-23	beiden	PIAT	beide	_	O	O	
+4-24	,	$,	,	_	O	O	
+4-25	dem	ART	die	_	O	O	
+4-26	Reichstags	NN	Reichstag	_	O	O	
+4-27	und	KON	und	_	O	O	
+4-28	d~	NN	<unknown>	_	O	O	
+4-29	Landtag's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-30	Bewilligungen	NN	Bewilligung	_	O	O	
+4-31	zu	APPR	zu	_	O	O	
+4-32	thun	NE	<unknown>	_	O	O	
+4-33	habe	VAFIN	haben	_	O	O	
+4-34	,	$,	,	_	O	O	
+4-35	und	KON	und	_	O	O	
+4-36	mit	APPR	mit	_	O	O	
+4-37	den	ART	die	_	O	O	
+4-38	letztern	ADJD	<unknown>	_	O	O	
+4-39	jetzt	ADV	jetzt	_	O	O	
+4-40	vornehmlich	ADJD	vornehmlich	_	O	O	
+4-41	.	$.	.	_	O	O	
+
+#id=5
+#text=Unsre Reichstagsbewilligungen sind ja da, und die Anweisungen für 1875 werden Ihnen etwa in 4 Tagen zugeschickt werden.
+5-1	Unsre	PPOSAT	unsre	_	O	O	
+5-2	Reichstagsbewilligungen	NN	<unknown>	_	O	O	
+5-3	sind	VAFIN	sein	_	O	O	
+5-4	ja	ADV	ja	_	O	O	
+5-5	da	ADV	da	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	und	KON	und	_	O	O	
+5-8	die	ART	die	_	O	O	
+5-9	Anweisungen	NN	Anweisung	_	O	O	
+5-10	für	APPR	für	_	O	O	
+5-11	1875	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-12	werden	VAFIN	werden	_	O	O	
+5-13	Ihnen	PPER	Sie	_	O	O	
+5-14	etwa	ADV	etwa	_	O	O	
+5-15	in	APPR	in	_	O	O	
+5-16	4	CARD	4	_	O	O	
+5-17	Tagen	NN	Tag	_	O	O	
+5-18	zugeschickt	VVPP	zuschicken	_	O	O	
+5-19	werden	VAINF	werden	_	O	O	
+5-20	.	$.	.	_	O	O	
+
+#id=6
+#text=Es wird dann die ganze Summe Ihres Römischen Etats auf einmal auf die Römische Gesandtschaft angewiesen werden, zu Ihrer Disposition, vierteljährlich praenumerando zu erheben.
+6-1	Es	PPER	es	_	O	O	
+6-2	wird	VAFIN	werden	_	O	O	
+6-3	dann	ADV	dann	_	O	O	
+6-4	die	ART	die	_	O	O	
+6-5	ganze	ADJA	ganz	_	O	O	
+6-6	Summe	NN	Summe	_	O	O	
+6-7	Ihres	PPOSAT	ihr	_	O	O	
+6-8	Römischen	ADJA	römisch	_	O	O	
+6-9	Etats	NN	Etat	_	O	O	
+6-10	auf	APPR	auf	_	O	O	
+6-11	einmal	ADV	einmal	_	O	O	
+6-12	auf	APPR	auf	_	O	O	
+6-13	die	ART	die	_	O	O	
+6-14	Römische	ADJA	römisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-15	Gesandtschaft	NN	Gesandtschaft	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+6-16	angewiesen	VVPP	anweisen	_	O	O	
+6-17	werden	VAINF	werden	_	O	O	
+6-18	,	$,	,	_	O	O	
+6-19	zu	APPR	zu	_	O	O	
+6-20	Ihrer	PPOSAT	ihr	_	O	O	
+6-21	Disposition	NN	Disposition	_	O	O	
+6-22	,	$,	,	_	O	O	
+6-23	vierteljährlich	ADJD	vierteljährlich	_	O	O	
+6-24	praenumerando	NE	<unknown>	_	O	O	
+6-25	zu	PTKZU	zu	_	O	O	
+6-26	erheben	VVINF	erheben	_	O	O	
+6-27	.	$.	.	_	O	O	
+
+#id=7
+#text=Sobald die Ausfertigung des definitiven Etats in meinen Händen ist, werde ich Ihnen den für Sie bestimmten Auszug senden in Abschrift.
+7-1	Sobald	KOUS	sobald	_	O	O	
+7-2	die	ART	die	_	O	O	
+7-3	Ausfertigung	NN	Ausfertigung	_	O	O	
+7-4	des	ART	die	_	O	O	
+7-5	definitiven	ADJA	definitiv	_	O	O	
+7-6	Etats	NN	Etat	_	O	O	
+7-7	in	APPR	in	_	O	O	
+7-8	meinen	PPOSAT	mein	_	O	O	
+7-9	Händen	NN	Hand	_	O	O	
+7-10	ist	VAFIN	sein	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	werde	VAFIN	werden	_	O	O	
+7-13	ich	PPER	ich	_	O	O	
+7-14	Ihnen	PPER	Sie	_	O	O	
+7-15	den	ART	die	_	O	O	
+7-16	für	APPR	für	_	O	O	
+7-17	Sie	PPER	Sie	_	O	O	
+7-18	bestimmten	ADJA	bestimmt	_	O	O	
+7-19	Auszug	NN	Auszug	_	O	O	
+7-20	senden	VVFIN	senden	_	O	O	
+7-21	in	APPR	in	_	O	O	
+7-22	Abschrift	NN	Abschrift	_	O	O	
+7-23	.	$.	.	_	O	O	
+
+#id=8
+#text=Die Kasse ist auch jetzt erst dahinter gekommen, daß der Reservefonds doch wieder anwachsen wird.
+8-1	Die	ART	die	_	O	O	
+8-2	Kasse	NN	Kasse	_	O	O	
+8-3	ist	VAFIN	sein	_	O	O	
+8-4	auch	ADV	auch	_	O	O	
+8-5	jetzt	ADV	jetzt	_	O	O	
+8-6	erst	ADV	erst	_	O	O	
+8-7	dahinter	PAV	dahinter	_	O	O	
+8-8	gekommen	VVPP	kommen	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	daß	KOUS	dass	_	O	O	
+8-11	der	ART	die	_	O	O	
+8-12	Reservefonds	NN	Reservefonds	_	O	O	
+8-13	doch	ADV	doch	_	O	O	
+8-14	wieder	ADV	wieder	_	O	O	
+8-15	anwachsen	VVINF	anwachsen	_	O	O	
+8-16	wird	VAFIN	werden	_	O	O	
+8-17	.	$.	.	_	O	O	
+
+#id=9
+#text=Denn die Überschüsse der einzelnen Titel werden zunächst dem Titel Insgemein der Central Direktion zugeschrieben und wenn dieses zu voll wird, werden die zunächst überflüssigen Gelder in den Reservefonds gelegt, wo sie uns
+9-1	Denn	KON	denn	_	O	O	
+9-2	die	ART	die	_	O	O	
+9-3	Überschüsse	NN	Überschuss	_	O	O	
+9-4	der	ART	die	_	O	O	
+9-5	einzelnen	ADJA	einzeln	_	O	O	
+9-6	Titel	NN	Titel	_	O	O	
+9-7	werden	VAFIN	werden	_	O	O	
+9-8	zunächst	ADV	zunächst	_	O	O	
+9-9	dem	ART	die	_	O	O	
+9-10	Titel	NN	Titel	_	O	O	
+9-11	Insgemein	NN	<unknown>	_	O	O	
+9-12	der	ART	die	_	O	O	
+9-13	Central	NN	<unknown>	_	O	O	
+9-14	Direktion	NN	Direktion	_	O	O	
+9-15	zugeschrieben	VVPP	zuschreiben	_	O	O	
+9-16	und	KON	und	_	O	O	
+9-17	wenn	KOUS	wenn	_	O	O	
+9-18	dieses	PDS	diese	_	O	O	
+9-19	zu	PTKA	zu	_	O	O	
+9-20	voll	ADJD	voll	_	O	O	
+9-21	wird	VAFIN	werden	_	O	O	
+9-22	,	$,	,	_	O	O	
+9-23	werden	VAFIN	werden	_	O	O	
+9-24	die	ART	die	_	O	O	
+9-25	zunächst	ADV	zunächst	_	O	O	
+9-26	überflüssigen	ADJA	überflüssig	_	O	O	
+9-27	Gelder	NN	Geld	_	O	O	
+9-28	in	APPR	in	_	O	O	
+9-29	den	ART	die	_	O	O	
+9-30	Reservefonds	NN	Reservefonds	_	O	O	
+9-31	gelegt	VVPP	legen	_	O	O	
+9-32	,	$,	,	_	O	O	
+9-33	wo	PWAV	wo	_	O	O	
+9-34	sie	PPER	sie	_	O	O	
+9-35	uns	PRF	wir	_	O	O	
+

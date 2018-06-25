@@ -1,0 +1,344 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=289 20/XII/51 Verehrter Herr Professor Henzen an ~erhard Ich habeunversehend eine ziemlich lange Zeit verstreichen lassen, Ihren 1.
+1-1	289	CARD	@card@	_	O	O	
+1-2	20/XII/51	CARD	<unknown>	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	~erhard	NE	<unknown>	_	O	O	
+1-9	Ich	PPER	ich	_	O	O	
+1-10	habeunversehend	ADJD	<unknown>	_	O	O	
+1-11	eine	ART	eine	_	O	O	
+1-12	ziemlich	ADV	ziemlich	_	O	O	
+1-13	lange	ADJA	lang	_	O	O	
+1-14	Zeit	NN	Zeit	_	O	O	
+1-15	verstreichen	VVINF	verstreichen	_	O	O	
+1-16	lassen	VVFIN	lassen	_	O	O	
+1-17	,	$,	,	_	O	O	
+1-18	Ihren	PPOSAT	ihr	_	O	O	
+1-19	1	CARD	1	_	O	O	
+1-20	.	$.	.	_	O	O	
+
+#id=2
+#text=Brief vom 1 d. M. zu beantworten, und zwar recht eigentlich aus 1V1angel an Stoff; denn 1über unsre Winckelmannst t.
+2-1	Brief	NN	Brief	_	O	O	
+2-2	vom	APPRART	von	_	O	O	
+2-3	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-4	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-5	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-6	zu	PTKZU	zu	_	O	O	
+2-7	beantworten	VVINF	beantworten	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	und	KON	und	_	O	O	
+2-10	zwar	ADV	zwar	_	O	O	
+2-11	recht	ADJD	recht	_	O	O	
+2-12	eigentlich	ADV	eigentlich	_	O	O	
+2-13	aus	APPR	aus	_	O	O	
+2-14	1V1angel	NN	<unknown>	_	O	O	
+2-15	an	APPR	an	_	O	O	
+2-16	Stoff	NN	Stoff	_	O	O	
+2-17	;	$.	;	_	O	O	
+2-18	denn	KON	denn	_	O	O	
+2-19	1über	NN	<unknown>	_	O	O	
+2-20	unsre	PPOSAT	unsre	_	O	O	
+2-21	Winckelmannst	NN	<unknown>	_	O	O	
+2-22	t.	VVFIN	<unknown>	_	O	O	
+
+#id=3
+#text='.J-,tung erfuhren Sie ja ds.
+3-1	'	$(	'	_	O	O	
+3-2	.J-,tung	NN	<unknown>	_	O	O	
+3-3	erfuhren	VVFIN	erfahren	_	O	O	
+3-4	Sie	PPER	Sie	_	O	O	
+3-5	ja	ADV	ja	_	O	O	
+3-6	ds.	ADJD	<unknown>	_	O	O	
+
+#id=4
+#text=Nöthige aus der A.A.Z. Sie war ziemlich , aber sehr zahlreich besucht u. hinterher von einem glänzenden Pranzo bei Usedom begleitet, zu dem die Ital.
+4-1	Nöthige	NN	<unknown>	_	O	O	
+4-2	aus	APPR	aus	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	A.A.Z.	NE	<unknown>	_	O	O	
+4-5	Sie	PPER	Sie	_	O	O	
+4-6	war	VAFIN	sein	_	O	O	
+4-7	ziemlich	ADV	ziemlich	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	aber	KON	aber	_	O	O	
+4-10	sehr	ADV	sehr	_	O	O	
+4-11	zahlreich	ADJD	zahlreich	_	O	O	
+4-12	besucht	VVPP	besuchen	_	O	O	
+4-13	u.	KON	und	_	O	O	
+4-14	hinterher	ADV	hinterher	_	O	O	
+4-15	von	APPR	von	_	O	O	
+4-16	einem	ART	eine	_	O	O	
+4-17	glänzenden	ADJA	glänzend	_	O	O	
+4-18	Pranzo	NE	<unknown>	_	O	O	
+4-19	bei	APPR	bei	_	O	O	
+4-20	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-21	begleitet	VVPP	begleiten	_	O	O	
+4-22	,	$,	,	_	O	O	
+4-23	zu	APPR	zu	_	O	O	
+4-24	dem	PRELS	die	_	O	O	
+4-25	die	ART	die	_	O	O	
+4-26	Ital.	NN	<unknown>	_	O	O	
+
+#id=5
+#text=Notabilitäten u. Cola r-Mure zugegen waren.
+5-1	Notabilitäten	NN	<unknown>	_	O	O	
+5-2	u.	APPR	um	_	O	O	
+5-3	Cola	NE	Cola	_	O	O	
+5-4	r-Mure	VVFIN	<unknown>	_	O	O	
+5-5	zugegen	ADJD	zugegen	_	O	O	
+5-6	waren	VAINF	sein	_	O	O	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=- Sie werden ohne Zweifel Tafeln u. I Text der Mon.
+6-1	-	$(	-	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	werden	VAFIN	werden	_	O	O	
+6-4	ohne	APPR	ohne	_	O	O	
+6-5	Zweifel	NN	Zweifel	_	O	O	
+6-6	Tafeln	NN	Tafel	_	O	O	
+6-7	u.	APPR	um	_	O	O	
+6-8	I	FM	I	_	O	O	
+6-9	Text	NN	Text	_	O	O	
+6-10	der	ART	die	_	O	O	
+6-11	Mon.	NE	<unknown>	_	O	O	
+
+#id=7
+#text=u. Ann.
+7-1	u.	APPR	um	_	O	O	
+7-2	Ann	NE	Ann	_	O	O	
+7-3	.	$.	.	_	O	O	
+
+#id=8
+#text=zu rechter Zeit erhalten haben.
+8-1	zu	APPR	zu	_	O	O	
+8-2	rechter	ADJA	recht	_	O	O	
+8-3	Zeit	NN	Zeit	_	O	O	
+8-4	erhalten	VVPP	erhalten	_	O	O	
+8-5	haben	VAFIN	haben	_	O	O	
+8-6	.	$.	.	_	O	O	
+
+#id=9
+#text=Meine Schwägerin ist mit einem Knaben niedergekommen, der gleich nach der Geburt gestorben.
+9-1	Meine	PPOSAT	mein	_	O	O	
+9-2	Schwägerin	NN	Schwägerin	_	O	O	
+9-3	ist	VAFIN	sein	_	O	O	
+9-4	mit	APPR	mit	_	O	O	
+9-5	einem	ART	eine	_	O	O	
+9-6	Knaben	NN	Knabe	_	O	O	
+9-7	niedergekommen	VVPP	niederkommen	_	O	O	
+9-8	,	$,	,	_	O	O	
+9-9	der	PRELS	die	_	O	O	
+9-10	gleich	ADJD	gleich	_	O	O	
+9-11	nach	APPR	nach	_	O	O	
+9-12	der	ART	die	_	O	O	
+9-13	Geburt	NN	Geburt	_	O	O	
+9-14	gestorben	VVPP	sterben	_	O	O	
+9-15	.	$.	.	_	O	O	
+
+#id=10
+#text=Sie befindet sich wohl, u. für ihren Gesundheitszustand mag Gott es wohl am I !
+10-1	Sie	PPER	Sie	_	O	O	
+10-2	befindet	VVFIN	befinden	_	O	O	
+10-3	sich	PRF	sich	_	O	O	
+10-4	wohl	ADV	wohl	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	u.	KON	und	_	O	O	
+10-7	für	APPR	für	_	O	O	
+10-8	ihren	PPOSAT	ihr	_	O	O	
+10-9	Gesundheitszustand	NN	Gesundheitszustand	_	O	O	
+10-10	mag	VMFIN	mögen	_	O	O	
+10-11	Gott	NN	Gott	_	O	O	
+10-12	es	PPER	es	_	O	O	
+10-13	wohl	ADV	wohl	_	O	O	
+10-14	am	APPRART	an	_	O	O	
+10-15	I	NN	I	_	O	O	
+10-16	!	$.	!	_	O	O	
+
+#id=11
+#text=Besten gefügt haben.
+11-1	Besten	ADJD	gut	_	O	O	
+11-2	gefügt	VVPP	fügen	_	O	O	
+11-3	haben	VAFIN	haben	_	O	O	
+11-4	.	$.	.	_	O	O	
+
+#id=12
+#text=l,"-.·· - Steiner ist unter aller Kritik schlecht.
+12-1	l,"-.··	NN	<unknown>	_	O	O	
+12-2	-	$(	-	_	O	O	
+12-3	Steiner	NE	Steiner	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-4	ist	VAFIN	sein	_	O	O	
+12-5	unter	APPR	unter	_	O	O	
+12-6	aller	PIAT	alle	_	O	O	
+12-7	Kritik	NN	Kritik	_	O	O	
+12-8	schlecht	ADJD	schlecht	_	O	O	
+12-9	.	$.	.	_	O	O	
+
+#id=13
+#text=Mommsen schreibt mir, dß.
+13-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	schreibt	VVFIN	schreiben	_	O	O	
+13-3	mir	PPER	ich	_	O	O	
+13-4	,	$,	,	_	O	O	
+13-5	dß	VVFIN	<unknown>	_	O	O	
+13-6	.	$.	.	_	O	O	
+
+#id=14
+#text=er dabei sei, ihm seinen Galgen in den Centralblättern aufzuschlagen, wo Sie ds.
+14-1	er	PPER	er	_	O	O	
+14-2	dabei	PAV	dabei	_	O	O	
+14-3	sei	VAFIN	sein	_	O	O	
+14-4	,	$,	,	_	O	O	
+14-5	ihm	PPER	er	_	O	O	
+14-6	seinen	PPOSAT	sein	_	O	O	
+14-7	Galgen	NN	Galgen	_	O	O	
+14-8	in	APPR	in	_	O	O	
+14-9	den	ART	die	_	O	O	
+14-10	Centralblättern	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+14-11	aufzuschlagen	VVIZU	aufschlagen	_	O	O	
+14-12	,	$,	,	_	O	O	
+14-13	wo	PWAV	wo	_	O	O	
+14-14	Sie	PPER	Sie	_	O	O	
+14-15	ds.	ADJA	<unknown>	_	O	O	
+
+#id=15
+#text=Nähere erfahren werden.
+15-1	Nähere	NN	Nähere	_	O	O	
+15-2	erfahren	VVPP	erfahren	_	O	O	
+15-3	werden	VAFIN	werden	_	O	O	
+15-4	.	$.	.	_	O	O	
+
+#id=16
+#text=- Erschrecken uie nicht, wenn Ihnen ds.
+16-1	-	$(	-	_	O	O	
+16-2	Erschrecken	NN	Erschrecken	_	O	O	
+16-3	uie	VVFIN	<unknown>	_	O	O	
+16-4	nicht	PTKNEG	nicht	_	O	O	
+16-5	,	$,	,	_	O	O	
+16-6	wenn	KOUS	wenn	_	O	O	
+16-7	Ihnen	PPER	Sie	_	O	O	
+16-8	ds.	ADJD	<unknown>	_	O	O	
+
+#id=17
+#text=nä.chste Bull.
+17-1	nä.chste	ADJA	<unknown>	_	O	O	
+17-2	Bull	NE	Bull	_	O	O	
+17-3	.	$.	.	_	O	O	
+
+#id=18
+#text=eine lettera al sig.
+18-1	eine	ART	eine	_	O	O	
+18-2	lettera	NE	<unknown>	_	O	O	
+18-3	al	NE	al	_	O	O	
+18-4	sig	VVFIN	<unknown>	_	O	O	
+18-5	.	$.	.	_	O	O	
+
+#id=19
+#text=Gervasio von mir bringt, die Ihnen vielleicht etwas gepfeffert vorkommt.
+19-1	Gervasio	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+19-2	von	APPR	von	_	O	O	
+19-3	mir	PPER	ich	_	O	O	
+19-4	bringt	VVFIN	bringen	_	O	O	
+19-5	,	$,	,	_	O	O	
+19-6	die	PRELS	die	_	O	O	
+19-7	Ihnen	PPER	Sie	_	O	O	
+19-8	vielleicht	ADV	vielleicht	_	O	O	
+19-9	etwas	ADV	etwas	_	O	O	
+19-10	gepfeffert	VVPP	pfeffern	_	O	O	
+19-11	vorkommt	VVFIN	vorkommen	_	O	O	
+19-12	.	$.	.	_	O	O	
+
+#id=20
+#text=Der Kerl hat seinen Institustitel als seccatore generale stets mit Recht geführt u. uns nie genützt, gern aber hinter dem Rücken geklatscht.
+20-1	Der	ART	die	_	O	O	
+20-2	Kerl	NN	Kerl	_	O	O	
+20-3	hat	VAFIN	haben	_	O	O	
+20-4	seinen	PPOSAT	sein	_	O	O	
+20-5	Institustitel	NN	<unknown>	_	O	O	
+20-6	als	KOKOM	als	_	O	O	
+20-7	seccatore	ADJA	<unknown>	_	O	O	
+20-8	generale	NN	General	_	O	O	
+20-9	stets	ADV	stets	_	O	O	
+20-10	mit	APPR	mit	_	O	O	
+20-11	Recht	NN	Recht	_	O	O	
+20-12	geführt	VVPP	führen	_	O	O	
+20-13	u.	KON	und	_	O	O	
+20-14	uns	PRF	wir	_	O	O	
+20-15	nie	ADV	nie	_	O	O	
+20-16	genützt	VVPP	nützen	_	O	O	
+20-17	,	$,	,	_	O	O	
+20-18	gern	ADV	gern	_	O	O	
+20-19	aber	ADV	aber	_	O	O	
+20-20	hinter	APPR	hinter	_	O	O	
+20-21	dem	ART	die	_	O	O	
+20-22	Rücken	NN	Rücken	_	O	O	
+20-23	geklatscht	VVPP	klatschen	_	O	O	
+20-24	.	$.	.	_	O	O	
+
+#id=21
+#text=Ich hoffe, er wird sich fernerhin hüten, wieder Hand an uns zu legen.
+21-1	Ich	PPER	ich	_	O	O	
+21-2	hoffe	VVFIN	hoffen	_	O	O	
+21-3	,	$,	,	_	O	O	
+21-4	er	PPER	er	_	O	O	
+21-5	wird	VAFIN	werden	_	O	O	
+21-6	sich	PRF	sich	_	O	O	
+21-7	fernerhin	ADV	fernerhin	_	O	O	
+21-8	hüten	VVINF	hüten	_	O	O	
+21-9	,	$,	,	_	O	O	
+21-10	wieder	ADV	wieder	_	O	O	
+21-11	Hand	NN	Hand	_	O	O	
+21-12	an	APPR	an	_	O	O	
+21-13	uns	PPER	wir	_	O	O	
+21-14	zu	PTKZU	zu	_	O	O	
+21-15	legen	VVINF	legen	_	O	O	
+21-16	.	$.	.	_	O	O	
+
+#id=22
+#text=Uebrigens bin ich noch glimpflieh genug mit ihm verfahren, da seine Dummheit mehr verdiente.
+22-1	Uebrigens	NN	<unknown>	_	O	O	
+22-2	bin	VAFIN	sein	_	O	O	
+22-3	ich	PPER	ich	_	O	O	
+22-4	noch	ADV	noch	_	O	O	
+22-5	glimpflieh	VVFIN	<unknown>	_	O	O	
+22-6	genug	ADV	genug	_	O	O	
+22-7	mit	APPR	mit	_	O	O	
+22-8	ihm	PPER	er	_	O	O	
+22-9	verfahren	VVPP	verfahren	_	O	O	
+22-10	,	$,	,	_	O	O	
+22-11	da	KOUS	da	_	O	O	
+22-12	seine	PPOSAT	sein	_	O	O	
+22-13	Dummheit	NN	Dummheit	_	O	O	
+22-14	mehr	ADV	mehr	_	O	O	
+22-15	verdiente	VVFIN	verdienen	_	O	O	
+22-16	.	$.	.	_	O	O	
+
+#id=23
+#text=Wir wünschen Ihnen beiden ein recht fröhliches Fest u. glücklichen Uebergang in das neue Jahr, in dem uie beide
+23-1	Wir	PPER	wir	_	O	O	
+23-2	wünschen	VVFIN	wünschen	_	O	O	
+23-3	Ihnen	PPER	Sie	_	O	O	
+23-4	beiden	PIAT	beide	_	O	O	
+23-5	ein	ART	eine	_	O	O	
+23-6	recht	ADJD	recht	_	O	O	
+23-7	fröhliches	ADJA	fröhlich	_	O	O	
+23-8	Fest	NN	Fest	_	O	O	
+23-9	u.	APPR	um	_	O	O	
+23-10	glücklichen	ADJA	glücklich	_	O	O	
+23-11	Uebergang	NN	<unknown>	_	O	O	
+23-12	in	APPR	in	_	O	O	
+23-13	das	ART	die	_	O	O	
+23-14	neue	ADJA	neu	_	O	O	
+23-15	Jahr	NN	Jahr	_	O	O	
+23-16	,	$,	,	_	O	O	
+23-17	in	APPR	in	_	O	O	
+23-18	dem	PRELS	die	_	O	O	
+23-19	uie	ADJD	<unknown>	_	O	O	
+23-20	beide	PIAT	beide	_	O	O	
+

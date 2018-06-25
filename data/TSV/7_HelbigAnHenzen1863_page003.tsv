@@ -1,0 +1,250 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Forcella thun ?
+1-1	2	CARD	2	_	O	O	
+1-2	Forcella	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	thun	NE	<unknown>	_	O	O	
+1-4	?	$.	?	_	O	O	
+
+#id=2
+#text=Helbig an Henzen Rom, 20. August 1863 Eingelaufen sind für das Institut allerlei Dinge Geschenke und Aufsätze, mit deren Aufzählung ich Sie nicht behelligen will, da Sie mit Brunn die Aufsätze, welche bis zu Ihrer Rückkunft gedruckt werden sollen, bereits bestimmt haben, also die neu eingelaufenen Aufsätze vor der Hand nicht in Betracht kommen.
+2-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	Eingelaufen	NN	<unknown>	_	O	O	
+2-11	sind	VAFIN	sein	_	O	O	
+2-12	für	APPR	für	_	O	O	
+2-13	das	ART	die	_	O	O	
+2-14	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-15	allerlei	PIAT	allerlei	_	O	O	
+2-16	Dinge	NN	Ding	_	O	O	
+2-17	Geschenke	NN	Geschenk	_	O	O	
+2-18	und	KON	und	_	O	O	
+2-19	Aufsätze	NN	Aufsatz	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	mit	APPR	mit	_	O	O	
+2-22	deren	PRELAT	die	_	O	O	
+2-23	Aufzählung	NN	Aufzählung	_	O	O	
+2-24	ich	PPER	ich	_	O	O	
+2-25	Sie	PPER	Sie	_	O	O	
+2-26	nicht	PTKNEG	nicht	_	O	O	
+2-27	behelligen	VVINF	behelligen	_	O	O	
+2-28	will	VMFIN	wollen	_	O	O	
+2-29	,	$,	,	_	O	O	
+2-30	da	KOUS	da	_	O	O	
+2-31	Sie	PPER	Sie	_	O	O	
+2-32	mit	APPR	mit	_	O	O	
+2-33	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-34	die	ART	die	_	O	O	
+2-35	Aufsätze	NN	Aufsatz	_	O	O	
+2-36	,	$,	,	_	O	O	
+2-37	welche	PRELS	welche	_	O	O	
+2-38	bis	APPR	bis	_	O	O	
+2-39	zu	APPR	zu	_	O	O	
+2-40	Ihrer	PPOSAT	ihr	_	O	O	
+2-41	Rückkunft	NN	Rückkunft	_	O	O	
+2-42	gedruckt	VVPP	drucken	_	O	O	
+2-43	werden	VAINF	werden	_	O	O	
+2-44	sollen	VMFIN	sollen	_	O	O	
+2-45	,	$,	,	_	O	O	
+2-46	bereits	ADV	bereits	_	O	O	
+2-47	bestimmt	VVPP	bestimmen	_	O	O	
+2-48	haben	VAFIN	haben	_	O	O	
+2-49	,	$,	,	_	O	O	
+2-50	also	ADV	also	_	O	O	
+2-51	die	ART	die	_	O	O	
+2-52	neu	ADJD	neu	_	O	O	
+2-53	eingelaufenen	ADJA	eingelaufen	_	O	O	
+2-54	Aufsätze	NN	Aufsatz	_	O	O	
+2-55	vor	APPR	vor	_	O	O	
+2-56	der	ART	die	_	O	O	
+2-57	Hand	NN	Hand	_	O	O	
+2-58	nicht	PTKNEG	nicht	_	O	O	
+2-59	in	APPR	in	_	O	O	
+2-60	Betracht	NN	Betracht	_	O	O	
+2-61	kommen	VVFIN	kommen	_	O	O	
+2-62	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard muß ich alle 14 Tage über den Bestand des Instituts Bericht abstatten.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	muß	VMFIN	müssen	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	alle	PIAT	alle	_	O	O	
+3-5	14	CARD	14	_	O	O	
+3-6	Tage	NN	Tag	_	O	O	
+3-7	über	APPR	über	_	O	O	
+3-8	den	ART	die	_	O	O	
+3-9	Bestand	NN	Bestand	_	O	O	
+3-10	des	ART	die	_	O	O	
+3-11	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-12	Bericht	NN	Bericht	_	O	O	
+3-13	abstatten	VVINF	abstatten	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Sie sehen, ich durchlebe alle Leiden und Freuden des Institutssecretärs.
+4-1	Sie	PPER	Sie	_	O	O	
+4-2	sehen	VVFIN	sehen	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	durchlebe	VVFIN	durchleben	_	O	O	
+4-6	alle	PIAT	alle	_	O	O	
+4-7	Leiden	NN	Leiden	_	O	O	
+4-8	und	KON	und	_	O	O	
+4-9	Freuden	NN	Freude	_	O	O	
+4-10	des	ART	die	_	O	O	
+4-11	Institutssecretärs	NN	<unknown>	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Beigelegt habe ich einen speciell an Sie adressirten Brief Newtons, über den ich mir Verhaltungsmaßregeln ausbitte.
+5-1	Beigelegt	VVPP	beilegen	_	O	O	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	ich	PPER	ich	_	O	O	
+5-4	einen	ART	eine	_	O	O	
+5-5	speciell	ADJD	<unknown>	_	O	O	
+5-6	an	APPR	an	_	O	O	
+5-7	Sie	PPER	Sie	_	O	O	
+5-8	adressirten	VVFIN	<unknown>	_	O	O	
+5-9	Brief	NN	Brief	_	O	O	
+5-10	Newtons	NE	Newton	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	über	APPR	über	_	O	O	
+5-13	den	PRELS	die	_	O	O	
+5-14	ich	PPER	ich	_	O	O	
+5-15	mir	PRF	ich	_	O	O	
+5-16	Verhaltungsmaßregeln	NN	<unknown>	_	O	O	
+5-17	ausbitte	VVFIN	<unknown>	_	O	O	
+5-18	.	$.	.	_	O	O	
+
+#id=6
+#text=Neues ist aus Rom nicht viel zu melden.
+6-1	Neues	NN	Neue	_	O	O	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	aus	APPR	aus	_	O	O	
+6-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-5	nicht	PTKNEG	nicht	_	O	O	
+6-6	viel	PIS	viele	_	O	O	
+6-7	zu	PTKZU	zu	_	O	O	
+6-8	melden	VVINF	melden	_	O	O	
+6-9	.	$.	.	_	O	O	
+
+#id=7
+#text=Im Auftrage Ritsch~s war ich neulich bei Ga~cci und wurde bei dieser Gelegenheit von dem ehrwürdigen Vater ziemlich grob behandelt, der namentlich gegen Brunn und Mommsen unverschämt ausfiel.
+7-1	Im	APPRART	in	_	O	O	
+7-2	Auftrage	NN	Auftrag	_	O	O	
+7-3	Ritsch~s	NE	<unknown>	_	O	O	
+7-4	war	VAFIN	sein	_	O	O	
+7-5	ich	PPER	ich	_	O	O	
+7-6	neulich	ADV	neulich	_	O	O	
+7-7	bei	APPR	bei	_	O	O	
+7-8	Ga~cci	NE	<unknown>	_	O	O	
+7-9	und	KON	und	_	O	O	
+7-10	wurde	VAFIN	werden	_	O	O	
+7-11	bei	APPR	bei	_	O	O	
+7-12	dieser	PDAT	dies	_	O	O	
+7-13	Gelegenheit	NN	Gelegenheit	_	O	O	
+7-14	von	APPR	von	_	O	O	
+7-15	dem	ART	die	_	O	O	
+7-16	ehrwürdigen	ADJA	ehrwürdig	_	O	O	
+7-17	Vater	NN	Vater	_	O	O	
+7-18	ziemlich	ADV	ziemlich	_	O	O	
+7-19	grob	ADJD	grob	_	O	O	
+7-20	behandelt	VVPP	behandeln	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	der	PRELS	die	_	O	O	
+7-23	namentlich	ADJD	namentlich	_	O	O	
+7-24	gegen	APPR	gegen	_	O	O	
+7-25	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-26	und	KON	und	_	O	O	
+7-27	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-28	unverschämt	ADJD	unverschämt	_	O	O	
+7-29	ausfiel	VVFIN	ausfallen	_	O	O	
+7-30	.	$.	.	_	O	O	
+
+#id=8
+#text=Rosa befindet sich wohl und g~t Sie.
+8-1	Rosa	ADJD	rosa	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	befindet	VVFIN	befinden	_	O	O	
+8-3	sich	PRF	sich	_	O	O	
+8-4	wohl	ADV	wohl	_	O	O	
+8-5	und	KON	und	_	O	O	
+8-6	g~t	VVFIN	<unknown>	_	O	O	
+8-7	Sie	PPER	Sie	_	O	O	
+8-8	.	$.	.	_	O	O	
+
+#id=9
+#text=Mischones Befinden ist befriedigend.
+9-1	Mischones	ADJA	<unknown>	_	O	O	
+9-2	Befinden	NN	Befinden	_	O	O	
+9-3	ist	VAFIN	sein	_	O	O	
+9-4	befriedigend	ADJD	befriedigend	_	O	O	
+9-5	.	$.	.	_	O	O	
+
+#id=10
+#text=Er frühstückt öfters bei mir.
+10-1	Er	PPER	er	_	O	O	
+10-2	frühstückt	VVFIN	frühstücken	_	O	O	
+10-3	öfters	ADV	öfters	_	O	O	
+10-4	bei	APPR	bei	_	O	O	
+10-5	mir	PPER	ich	_	O	O	
+10-6	.	$.	.	_	O	O	
+
+#id=11
+#text=An Rossi, welcher in Frascati Villegiatur macht, habe ich geschrieben.
+11-1	An	APPR	an	_	O	O	
+11-2	Rossi	NE	Rossi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-3	,	$,	,	_	O	O	
+11-4	welcher	PRELS	welche	_	O	O	
+11-5	in	APPR	in	_	O	O	
+11-6	Frascati	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-7	Villegiatur	NN	<unknown>	_	O	O	
+11-8	macht	VVFIN	machen	_	O	O	
+11-9	,	$,	,	_	O	O	
+11-10	habe	VAFIN	haben	_	O	O	
+11-11	ich	PPER	ich	_	O	O	
+11-12	geschrieben	VVPP	schreiben	_	O	O	
+11-13	.	$.	.	_	O	O	
+
+#id=12
+#text=Trifft bis morgen keine Antwort ein, so suche ich ihn Sonntag in Frascati auf.
+12-1	Trifft	VVFIN	treffen	_	O	O	
+12-2	bis	APPR	bis	_	O	O	
+12-3	morgen	ADV	morgen	_	O	O	
+12-4	keine	PIAT	keine	_	O	O	
+12-5	Antwort	NN	Antwort	_	O	O	
+12-6	ein	PTKVZ	ein	_	O	O	
+12-7	,	$,	,	_	O	O	
+12-8	so	ADV	so	_	O	O	
+12-9	suche	VVFIN	suchen	_	O	O	
+12-10	ich	PPER	ich	_	O	O	
+12-11	ihn	PPER	er	_	O	O	
+12-12	Sonntag	NN	Sonntag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+12-13	in	APPR	in	_	O	O	
+12-14	Frascati	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-15	auf	PTKVZ	auf	_	O	O	
+12-16	.	$.	.	_	O	O	
+
+#id=13
+#text=Mit der Bitte mich der Frau Professorin zu empfehlen Ihr ergebener Vlolfgang Helbig
+13-1	Mit	APPR	mit	_	O	O	
+13-2	der	ART	die	_	O	O	
+13-3	Bitte	NN	Bitte	_	O	O	
+13-4	mich	PRF	ich	_	O	O	
+13-5	der	ART	die	_	O	O	
+13-6	Frau	NN	Frau	_	O	O	
+13-7	Professorin	NN	Professorin	_	O	O	
+13-8	zu	PTKZU	zu	_	O	O	
+13-9	empfehlen	VVINF	empfehlen	_	O	O	
+13-10	Ihr	PPOSAT	ihr	_	O	O	
+13-11	ergebener	ADJA	ergeben	_	O	O	
+13-12	Vlolfgang	NN	<unknown>	_	O	O	
+13-13	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

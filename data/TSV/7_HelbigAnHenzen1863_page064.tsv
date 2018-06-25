@@ -1,0 +1,92 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=4 R Helbig an Renzen Rom, 26. Juli 1865 g. 29/7 65 Rom 26/7 a665.
+1-1	4	CARD	4	_	O	O	
+1-2	R	NN	R	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1865	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	29/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	65	CARD	65	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-16	26/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-17	a665	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Lieber Herr Professor !
+2-1	Lieber	ADJA	lieb	_	O	O	
+2-2	Herr	NN	Herr	_	O	O	
+2-3	Professor	NN	Professor	_	O	O	
+2-4	!	$.	!	_	O	O	
+
+#id=3
+#text=Beiliegend ein Brief für Sie und Dr.
+3-1	Beiliegend	ADJD	beiliegend	_	O	O	
+3-2	ein	ART	eine	_	O	O	
+3-3	Brief	NN	Brief	_	O	O	
+3-4	für	APPR	für	_	O	O	
+3-5	Sie	PPER	Sie	_	O	O	
+3-6	und	KON	und	_	O	O	
+3-7	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=4
+#text=Schöne.
+4-1	Schöne	NN	Schöne	_	O	O	
+4-2	.	$.	.	_	O	O	
+
+#id=5
+#text=Bartoccini schreibt mir, daß er Arbeit brauche.
+5-1	Bartoccini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	schreibt	VVFIN	schreiben	_	O	O	
+5-3	mir	PPER	ich	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	daß	KOUS	dass	_	O	O	
+5-6	er	PPER	er	_	O	O	
+5-7	Arbeit	NN	Arbeit	_	O	O	
+5-8	brauche	VVFIN	brauchen	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich habe ihm geschickt, was vorlag, aber die Gemälde von Ostia nicht abwarten können.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	habe	VAFIN	haben	_	O	O	
+6-3	ihm	PPER	er	_	O	O	
+6-4	geschickt	ADJD	geschickt	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	was	PWS	was	_	O	O	
+6-7	vorlag	VVFIN	vorliegen	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	aber	KON	aber	_	O	O	
+6-10	die	ART	die	_	O	O	
+6-11	Gemälde	NN	Gemälde	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-12	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-13	Ostia	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-14	nicht	PTKNEG	nicht	_	O	O	
+6-15	abwarten	VVINF	abwarten	_	O	O	
+6-16	können	VMFIN	können	_	O	O	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=Sonst nichts Neues.
+7-1	Sonst	ADV	sonst	_	O	O	
+7-2	nichts	PIAT	nichts	_	O	O	
+7-3	Neues	NN	Neue	_	O	O	
+7-4	.	$.	.	_	O	O	
+
+#id=8
+#text=Mit herzlichen Grüßen Ihr Wolfgang Helbig
+8-1	Mit	APPR	mit	_	O	O	
+8-2	herzlichen	ADJA	herzlich	_	O	O	
+8-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+8-4	Ihr	PPOSAT	ihr	_	O	O	
+8-5	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+8-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

@@ -1,0 +1,240 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=797 L Verehrter Freund Lepsius an Renzen Berlin, 17. Oktober 1879 Berlin, d. 17. Okt.
+1-1	797	CARD	@card@	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	17	CARD	17	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1879	CARD	1879	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	,	$,	,	_	O	O	
+1-16	d.	ART	d.	_	O	O	
+1-17	17	CARD	17	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	Okt.	NN	Okt.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1879 Ich bin erst vor kurzem aus den Ferien zurückgekehrt und fand hier Ihre Briefe vor; sonst hätte ich früher geantwortet.
+2-1	1879	CARD	1879	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Ich	PPER	ich	_	O	O	
+2-3	bin	VAFIN	sein	_	O	O	
+2-4	erst	ADV	erst	_	O	O	
+2-5	vor	APPR	vor	_	O	O	
+2-6	kurzem	ADJA	kurz	_	O	O	
+2-7	aus	APPR	aus	_	O	O	
+2-8	den	ART	die	_	O	O	
+2-9	Ferien	NN	Ferien	_	O	O	
+2-10	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+2-11	und	KON	und	_	O	O	
+2-12	fand	VVFIN	finden	_	O	O	
+2-13	hier	ADV	hier	_	O	O	
+2-14	Ihre	PPOSAT	ihr	_	O	O	
+2-15	Briefe	NN	Brief	_	O	O	
+2-16	vor	PTKVZ	vor	_	O	O	
+2-17	;	$.	;	_	O	O	
+2-18	sonst	ADV	sonst	_	O	O	
+2-19	hätte	VAFIN	haben	_	O	O	
+2-20	ich	PPER	ich	_	O	O	
+2-21	früher	ADV	früher	_	O	O	
+2-22	geantwortet	VVPP	antworten	_	O	O	
+2-23	.	$.	.	_	O	O	
+
+#id=3
+#text=Für Ihre Bemühungen wegen der Daini bin ich Ihnen sehr dankbar.
+3-1	Für	APPR	für	_	O	O	
+3-2	Ihre	PPOSAT	ihr	_	O	O	
+3-3	Bemühungen	NN	Bemühung	_	O	O	
+3-4	wegen	APPR	wegen	_	O	O	
+3-5	der	ART	die	_	O	O	
+3-6	Daini	NN	<unknown>	_	O	O	
+3-7	bin	VAFIN	sein	_	O	O	
+3-8	ich	PPER	ich	_	O	O	
+3-9	Ihnen	PPER	Sie	_	O	O	
+3-10	sehr	ADV	sehr	_	O	O	
+3-11	dankbar	ADJD	dankbar	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Freilich kommt es hier weniger auf die Familienverhältnisse als darauf an, ob sich aus diesen ermitteln läßt, wo ihre Sammlungen hingekommen sein mögen, um nach dem Nebucadnezarkopfe auszuschauen.
+4-1	Freilich	ADV	freilich	_	O	O	
+4-2	kommt	VVFIN	kommen	_	O	O	
+4-3	es	PPER	es	_	O	O	
+4-4	hier	ADV	hier	_	O	O	
+4-5	weniger	ADV	weniger	_	O	O	
+4-6	auf	APPR	auf	_	O	O	
+4-7	die	ART	die	_	O	O	
+4-8	Familienverhältnisse	NN	Familienverhältnis	_	O	O	
+4-9	als	KOKOM	als	_	O	O	
+4-10	darauf	PAV	darauf	_	O	O	
+4-11	an	PTKVZ	an	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	ob	KOUS	ob	_	O	O	
+4-14	sich	PRF	sich	_	O	O	
+4-15	aus	APPR	aus	_	O	O	
+4-16	diesen	PDAT	dies	_	O	O	
+4-17	ermitteln	VVINF	ermitteln	_	O	O	
+4-18	läßt	VVFIN	lassen	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	wo	PWAV	wo	_	O	O	
+4-21	ihre	PPOSAT	ihr	_	O	O	
+4-22	Sammlungen	NN	Sammlung	_	O	O	
+4-23	hingekommen	VVPP	hinkommen	_	O	O	
+4-24	sein	VAINF	sein	_	O	O	
+4-25	mögen	VMFIN	mögen	_	O	O	
+4-26	,	$,	,	_	O	O	
+4-27	um	KOUI	um	_	O	O	
+4-28	nach	APPR	nach	_	O	O	
+4-29	dem	ART	die	_	O	O	
+4-30	Nebucadnezarkopfe	NN	<unknown>	_	O	O	
+4-31	auszuschauen	VVIZU	ausschauen	_	O	O	
+4-32	.	$.	.	_	O	O	
+
+#id=5
+#text=Er wird sich wohl in irgend einer Römischen Sammlung verhalten, wo ihn ein glückliches Auge einmal trifft.
+5-1	Er	PPER	er	_	O	O	
+5-2	wird	VAFIN	werden	_	O	O	
+5-3	sich	PRF	sich	_	O	O	
+5-4	wohl	ADV	wohl	_	O	O	
+5-5	in	APPR	in	_	O	O	
+5-6	irgend	ADV	irgend	_	O	O	
+5-7	einer	ART	eine	_	O	O	
+5-8	Römischen	ADJA	römisch	_	O	O	
+5-9	Sammlung	NN	Sammlung	_	O	O	
+5-10	verhalten	VVFIN	verhalten	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	wo	PWAV	wo	_	O	O	
+5-13	ihn	PPER	er	_	O	O	
+5-14	ein	ART	eine	_	O	O	
+5-15	glückliches	ADJA	glücklich	_	O	O	
+5-16	Auge	NN	Auge	_	O	O	
+5-17	einmal	ADV	einmal	_	O	O	
+5-18	trifft	VVFIN	treffen	_	O	O	
+5-19	.	$.	.	_	O	O	
+
+#id=6
+#text=Man muß nur von der Sache wissen und die Gestalt kennen.
+6-1	Man	PIS	man	_	O	O	
+6-2	muß	VMFIN	müssen	_	O	O	
+6-3	nur	ADV	nur	_	O	O	
+6-4	von	APPR	von	_	O	O	
+6-5	der	ART	die	_	O	O	
+6-6	Sache	NN	Sache	_	O	O	
+6-7	wissen	VVINF	wissen	_	O	O	
+6-8	und	KON	und	_	O	O	
+6-9	die	ART	die	_	O	O	
+6-10	Gestalt	NN	Gestalt	_	O	O	
+6-11	kennen	VVINF	kennen	_	O	O	
+6-12	.	$.	.	_	O	O	
+
+#id=7
+#text=Was die kleine Gemme betrifft, deren Abdruck Sie mir geschickt haben, so ist sie ohne Zweifel asiatischen Ursprungs.
+7-1	Was	PWS	was	_	O	O	
+7-2	die	ART	die	_	O	O	
+7-3	kleine	ADJA	klein	_	O	O	
+7-4	Gemme	NN	<unknown>	_	O	O	
+7-5	betrifft	VVFIN	betreffen	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	deren	PRELAT	die	_	O	O	
+7-8	Abdruck	NN	Abdruck	_	O	O	
+7-9	Sie	PPER	Sie	_	O	O	
+7-10	mir	PRF	ich	_	O	O	
+7-11	geschickt	ADJD	geschickt	_	O	O	
+7-12	haben	VAFIN	haben	_	O	O	
+7-13	,	$,	,	_	O	O	
+7-14	so	ADV	so	_	O	O	
+7-15	ist	VAFIN	sein	_	O	O	
+7-16	sie	PPER	sie	_	O	O	
+7-17	ohne	APPR	ohne	_	O	O	
+7-18	Zweifel	NN	Zweifel	_	O	O	
+7-19	asiatischen	ADJA	asiatisch	_	O	O	
+7-20	Ursprungs	NN	Ursprung	_	O	O	
+7-21	.	$.	.	_	O	O	
+
+#id=8
+#text=Ober die Zeit der Entstehung wüßte ich aber gar keine Vermuthung aufzustellen.
+8-1	Ober	NN	Ober	_	O	O	
+8-2	die	ART	die	_	O	O	
+8-3	Zeit	NN	Zeit	_	O	O	
+8-4	der	ART	die	_	O	O	
+8-5	Entstehung	NN	Entstehung	_	O	O	
+8-6	wüßte	VVFIN	wissen	_	O	O	
+8-7	ich	PPER	ich	_	O	O	
+8-8	aber	ADV	aber	_	O	O	
+8-9	gar	ADV	gar	_	O	O	
+8-10	keine	PIAT	keine	_	O	O	
+8-11	Vermuthung	NN	<unknown>	_	O	O	
+8-12	aufzustellen	VVIZU	aufstellen	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Die Entscheidung über Ihren Vorschlag wegen Bodkine, der mir übrigens allein richtig scheint, kann nur in einer Sitzung der Central Direktion getroffen werden, die aber vor Ende Monats schwerlich berufen werden kann.
+9-1	Die	ART	die	_	O	O	
+9-2	Entscheidung	NN	Entscheidung	_	O	O	
+9-3	über	APPR	über	_	O	O	
+9-4	Ihren	PPOSAT	ihr	_	O	O	
+9-5	Vorschlag	NN	Vorschlag	_	O	O	
+9-6	wegen	APPR	wegen	_	O	O	
+9-7	Bodkine	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-8	,	$,	,	_	O	O	
+9-9	der	PRELS	die	_	O	O	
+9-10	mir	PPER	ich	_	O	O	
+9-11	übrigens	ADV	übrigens	_	O	O	
+9-12	allein	ADV	allein	_	O	O	
+9-13	richtig	ADJD	richtig	_	O	O	
+9-14	scheint	VVFIN	scheinen	_	O	O	
+9-15	,	$,	,	_	O	O	
+9-16	kann	VMFIN	können	_	O	O	
+9-17	nur	ADV	nur	_	O	O	
+9-18	in	APPR	in	_	O	O	
+9-19	einer	ART	eine	_	O	O	
+9-20	Sitzung	NN	Sitzung	_	O	O	
+9-21	der	ART	die	_	O	O	
+9-22	Central	NN	<unknown>	_	O	O	
+9-23	Direktion	NN	Direktion	_	O	O	
+9-24	getroffen	VVPP	treffen|triefen	_	O	O	
+9-25	werden	VAINF	werden	_	O	O	
+9-26	,	$,	,	_	O	O	
+9-27	die	PRELS	die	_	O	O	
+9-28	aber	ADV	aber	_	O	O	
+9-29	vor	APPR	vor	_	O	O	
+9-30	Ende	NN	Ende	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-31	Monats	NN	Monat	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-32	schwerlich	ADJD	schwerlich	_	O	O	
+9-33	berufen	VVPP	berufen	_	O	O	
+9-34	werden	VAINF	werden	_	O	O	
+9-35	kann	VMFIN	können	_	O	O	
+9-36	.	$.	.	_	O	O	
+
+#id=10
+#text=Die gewünschten Programme werde ich Ihnen noch heute bei ABher bestilen.
+10-1	Die	ART	die	_	O	O	
+10-2	gewünschten	ADJA	gewünscht	_	O	O	
+10-3	Programme	NN	Programm	_	O	O	
+10-4	werde	VAFIN	werden	_	O	O	
+10-5	ich	PPER	ich	_	O	O	
+10-6	Ihnen	PPER	Sie	_	O	O	
+10-7	noch	ADV	noch	_	O	O	
+10-8	heute	ADV	heute	_	O	O	
+10-9	bei	APPR	bei	_	O	O	
+10-10	ABher	ADJA	<unknown>	_	O	O	
+10-11	bestilen	NN	<unknown>	_	O	O	
+10-12	.	$.	.	_	O	O	
+
+#id=11
+#text=Mit herzlichem Gruße Ihr ergebener R Lepsius
+11-1	Mit	APPR	mit	_	O	O	
+11-2	herzlichem	ADJA	herzlich	_	O	O	
+11-3	Gruße	NN	Gruß	_	O	O	
+11-4	Ihr	PPOSAT	ihr	_	O	O	
+11-5	ergebener	ADJA	ergeben	_	O	O	
+11-6	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+11-7	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

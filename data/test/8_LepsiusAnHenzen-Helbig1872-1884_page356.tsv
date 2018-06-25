@@ -1,0 +1,219 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=%6 L Lepsius an Helbig Berlin, 15. Juni 1882 Berlin d. 15. Juni 1882 Mein verehrtester Freund Endlich ist die Sphinx des Herrn Baracco in meine Hände gekommen, nachdem sie längere Zeit im Statuen Departement unrichtig gelagert hatte.
+1-1	%6	CARD	@card@	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1882	CARD	1882	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-13	d.	ART	d.	_	O	O	
+1-14	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-15	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	1882	CARD	1882	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	Mein	PPOSAT	mein	_	O	O	
+1-19	verehrtester	ADJA	<unknown>	_	O	O	
+1-20	Freund	NN	Freund	_	O	O	
+1-21	Endlich	ADV	endlich	_	O	O	
+1-22	ist	VAFIN	sein	_	O	O	
+1-23	die	ART	die	_	O	O	
+1-24	Sphinx	NN	Sphinx	_	O	O	
+1-25	des	ART	die	_	O	O	
+1-26	Herrn	NN	Herr	_	O	O	
+1-27	Baracco	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-28	in	APPR	in	_	O	O	
+1-29	meine	PPOSAT	mein	_	O	O	
+1-30	Hände	NN	Hand	_	O	O	
+1-31	gekommen	VVPP	kommen	_	O	O	
+1-32	,	$,	,	_	O	O	
+1-33	nachdem	KOUS	nachdem	_	O	O	
+1-34	sie	PPER	sie	_	O	O	
+1-35	längere	ADJA	lang	_	O	O	
+1-36	Zeit	NN	Zeit	_	O	O	
+1-37	im	APPRART	in	_	O	O	
+1-38	Statuen	NN	Statue	_	O	O	
+1-39	Departement	NN	Departement	_	O	O	
+1-40	unrichtig	ADJD	unrichtig	_	O	O	
+1-41	gelagert	VVPP	lagern	_	O	O	
+1-42	hatte	VAFIN	haben	_	O	O	
+1-43	.	$.	.	_	O	O	
+
+#id=2
+#text=Es ist ein wohl schönes Stück diese Sphinx - denn sie ist wirklich sowohl dem Thiere nach, als nach dem Kopfe mit weiblicher Kopf tracht.
+2-1	Es	PPER	es	_	O	O	
+2-2	ist	VAFIN	sein	_	O	O	
+2-3	ein	ART	eine	_	O	O	
+2-4	wohl	ADV	wohl	_	O	O	
+2-5	schönes	ADJA	schön	_	O	O	
+2-6	Stück	NN	Stück	_	O	O	
+2-7	diese	PDAT	dies	_	O	O	
+2-8	Sphinx	NN	Sphinx	_	O	O	
+2-9	-	$(	-	_	O	O	
+2-10	denn	KON	denn	_	O	O	
+2-11	sie	PPER	sie	_	O	O	
+2-12	ist	VAFIN	sein	_	O	O	
+2-13	wirklich	ADJD	wirklich	_	O	O	
+2-14	sowohl	KON	sowohl	_	O	O	
+2-15	dem	ART	die	_	O	O	
+2-16	Thiere	NN	<unknown>	_	O	O	
+2-17	nach	PTKVZ	nach	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	als	KOUS	als	_	O	O	
+2-20	nach	APPR	nach	_	O	O	
+2-21	dem	ART	die	_	O	O	
+2-22	Kopfe	NN	Kopf	_	O	O	
+2-23	mit	APPR	mit	_	O	O	
+2-24	weiblicher	ADJA	weiblich	_	O	O	
+2-25	Kopf	NN	Kopf	_	O	O	
+2-26	tracht	VVFIN	<unknown>	_	O	O	
+2-27	.	$.	.	_	O	O	
+
+#id=3
+#text=Sie trägt auf der Brust das Schild des Königs Thutmes IV, der Fortgang der Inschrift ist abgebrochen.
+3-1	Sie	PPER	Sie	_	O	O	
+3-2	trägt	VVFIN	tragen	_	O	O	
+3-3	auf	APPR	auf	_	O	O	
+3-4	der	ART	die	_	O	O	
+3-5	Brust	NN	Brust	_	O	O	
+3-6	das	ART	die	_	O	O	
+3-7	Schild	NN	Schild	_	O	O	
+3-8	des	ART	die	_	O	O	
+3-9	Königs	NE	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-10	Thutmes	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-11	IV	NE	IV	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	der	ART	die	_	O	O	
+3-14	Fortgang	NN	Fortgang	_	O	O	
+3-15	der	ART	die	_	O	O	
+3-16	Inschrift	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-17	ist	VAFIN	sein	_	O	O	
+3-18	abgebrochen	VVPP	abbrechen	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Es war ohne Zweifel die Frau dieses Königs, welche königliche Tochter, Schwester und Frau war und Ärä-t hieß mit der Uräus Schlange geschrieben.
+4-1	Es	PPER	es	_	O	O	
+4-2	war	VAFIN	sein	_	O	O	
+4-3	ohne	APPR	ohne	_	O	O	
+4-4	Zweifel	NN	Zweifel	_	O	O	
+4-5	die	ART	die	_	O	O	
+4-6	Frau	NN	Frau	_	O	O	
+4-7	dieses	PDAT	dies	_	O	O	
+4-8	Königs	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-9	,	$,	,	_	O	O	
+4-10	welche	PRELS	welche	_	O	O	
+4-11	königliche	ADJA	königlich	_	O	O	
+4-12	Tochter	NN	Tochter	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	Schwester	NN	Schwester	_	O	O	
+4-15	und	KON	und	_	O	O	
+4-16	Frau	NN	Frau	_	O	O	
+4-17	war	VAFIN	sein	_	O	O	
+4-18	und	KON	und	_	O	O	
+4-19	Ärä-t	NN	<unknown>	_	O	O	
+4-20	hieß	VVFIN	heißen	_	O	O	
+4-21	mit	APPR	mit	_	O	O	
+4-22	der	ART	die	_	O	O	
+4-23	Uräus	NN	<unknown>	_	O	O	
+4-24	Schlange	NN	Schlange	_	O	O	
+4-25	geschrieben	VVPP	schreiben	_	O	O	
+4-26	.	$.	.	_	O	O	
+
+#id=5
+#text=Sie wurde wie andre Königinnen als Sphinx dargestellt, was aber nicht sehr häufig vorkommt.
+5-1	Sie	PPER	Sie	_	O	O	
+5-2	wurde	VAFIN	werden	_	O	O	
+5-3	wie	KOKOM	wie	_	O	O	
+5-4	andre	PIAT	andere	_	O	O	
+5-5	Königinnen	NN	Königin	_	O	O	
+5-6	als	KOKOM	als	_	O	O	
+5-7	Sphinx	NN	Sphinx	_	O	O	
+5-8	dargestellt	VVPP	darstellen	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	was	PRELS	was	_	O	O	
+5-11	aber	ADV	aber	_	O	O	
+5-12	nicht	PTKNEG	nicht	_	O	O	
+5-13	sehr	ADV	sehr	_	O	O	
+5-14	häufig	ADJD	häufig	_	O	O	
+5-15	vorkommt	VVFIN	vorkommen	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Den Irrthum von Dulin werde ich wohl irgendwo berichtigen.
+6-1	Den	ART	die	_	O	O	
+6-2	Irrthum	NN	<unknown>	_	O	O	
+6-3	von	APPR	von	_	O	O	
+6-4	Dulin	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-5	werde	VAFIN	werden	_	O	O	
+6-6	ich	PPER	ich	_	O	O	
+6-7	wohl	ADV	wohl	_	O	O	
+6-8	irgendwo	ADV	irgendwo	_	O	O	
+6-9	berichtigen	VVINF	berichtigen	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich danke bestens daß Sie mich darauf aufmerksam gemacht haben.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	danke	VVFIN	danken	_	O	O	
+7-3	bestens	ADV	bestens	_	O	O	
+7-4	daß	KOUS	dass	_	O	O	
+7-5	Sie	PPER	Sie	_	O	O	
+7-6	mich	PRF	ich	_	O	O	
+7-7	darauf	PAV	darauf	_	O	O	
+7-8	aufmerksam	ADJD	aufmerksam	_	O	O	
+7-9	gemacht	VVPP	machen	_	O	O	
+7-10	haben	VAINF	haben	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Ampere sagt nur ganz richtig, daß auf der Brust der Name Thutmes IV stehe.
+8-1	Ampere	NN	Ampere	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	sagt	VVFIN	sagen	_	O	O	
+8-3	nur	ADV	nur	_	O	O	
+8-4	ganz	ADV	ganz	_	O	O	
+8-5	richtig	ADJD	richtig	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	daß	KOUS	dass	_	O	O	
+8-8	auf	APPR	auf	_	O	O	
+8-9	der	ART	die	_	O	O	
+8-10	Brust	NN	Brust	_	O	O	
+8-11	der	ART	die	_	O	O	
+8-12	Name	NN	Name	_	O	O	
+8-13	Thutmes	NE	<unknown>	_	O	O	
+8-14	IV	NE	IV	_	O	O	
+8-15	stehe	VVFIN	stehen	_	O	O	
+8-16	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich melde dasselbe an Herrn Baracco und lege den Dankbrief hier ein.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	melde	VVFIN	melden	_	O	O	
+9-3	dasselbe	PDS	dasselbe	_	O	O	
+9-4	an	APPR	an	_	O	O	
+9-5	Herrn	NN	Herr	_	O	O	
+9-6	Baracco	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-7	und	KON	und	_	O	O	
+9-8	lege	VVFIN	legen	_	O	O	
+9-9	den	ART	die	_	O	O	
+9-10	Dankbrief	NN	Dankbrief	_	O	O	
+9-11	hier	ADV	hier	_	O	O	
+9-12	ein	PTKVZ	ein	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=Mit herzlichem Gruß Ihr ergebenster R Lepsius
+10-1	Mit	APPR	mit	_	O	O	
+10-2	herzlichem	ADJA	herzlich	_	O	O	
+10-3	Gruß	NN	Gruß	_	O	O	
+10-4	Ihr	PPOSAT	ihr	_	O	O	
+10-5	ergebenster	ADJA	<unknown>	_	O	O	
+10-6	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+10-7	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

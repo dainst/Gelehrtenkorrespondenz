@@ -1,0 +1,241 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=67 L Verehrter Freund Lepsius an Renzen Berlin, 18. März 1873 g. 22/3 73 r.
+1-1	67	CARD	@card@	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	22/3	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	73	CARD	73	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=29/3 Der V. Band des C.I.L. wird Ihnen zugegangen sein durch ASher, oder bald zugehen.
+2-1	29/3	CARD	@card@	_	O	O	
+2-2	Der	ART	die	_	O	O	
+2-3	V.	NE	V.	_	O	O	
+2-4	Band	NN	Band	_	O	O	
+2-5	des	ART	die	_	O	O	
+2-6	C.I.L.	NE	<unknown>	_	O	O	
+2-7	wird	VAFIN	werden	_	O	O	
+2-8	Ihnen	PPER	Sie	_	O	O	
+2-9	zugegangen	VVPP	zugehen	_	O	O	
+2-10	sein	VAINF	sein	_	O	O	
+2-11	durch	APPR	durch	_	O	O	
+2-12	ASher	NE	<unknown>	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	oder	KON	oder	_	O	O	
+2-15	bald	ADV	bald	_	O	O	
+2-16	zugehen	VVFIN	zugehen	_	O	O	
+2-17	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Kasse monirt bereits das Inventarisirungs Attest, welches einzuschieben ist.
+3-1	Die	ART	die	_	O	O	
+3-2	Kasse	NN	Kasse	_	O	O	
+3-3	monirt	NN	<unknown>	_	O	O	
+3-4	bereits	ADV	bereits	_	O	O	
+3-5	das	ART	die	_	O	O	
+3-6	Inventarisirungs	NN	<unknown>	_	O	O	
+3-7	Attest	NN	Attest	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	welches	PWS	welche	_	O	O	
+3-10	einzuschieben	VVIZU	einschieben	_	O	O	
+3-11	ist	VAFIN	sein	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich habe sie verständigt, daß Sie das Vol.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	habe	VAFIN	haben	_	O	O	
+4-3	sie	PPER	sie	_	O	O	
+4-4	verständigt	VVPP	verständigen	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	daß	KOUS	dass	_	O	O	
+4-7	Sie	PPER	Sie	_	O	O	
+4-8	das	ART	die	_	O	O	
+4-9	Vol.	NN	<unknown>	_	O	O	
+
+#id=5
+#text=erst haben müßten, ehe Sie es bescheinigen könn~D.
+5-1	erst	ADV	erst	_	O	O	
+5-2	haben	VAINF	haben	_	O	O	
+5-3	müßten	VMFIN	müssen	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	ehe	KOUS	ehe	_	O	O	
+5-6	Sie	PPER	Sie	_	O	O	
+5-7	es	PPER	es	_	O	O	
+5-8	bescheinigen	VVINF	bescheinigen	_	O	O	
+5-9	könn~D	VVFIN	<unknown>	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Papiere der Epigraphischen Kommission habe ich dem Sekretariat zugestellt.
+6-1	Die	ART	die	_	O	O	
+6-2	Papiere	NN	Papier	_	O	O	
+6-3	der	ART	die	_	O	O	
+6-4	Epigraphischen	NN	<unknown>	_	O	O	
+6-5	Kommission	NN	Kommission	_	O	O	
+6-6	habe	VAFIN	haben	_	O	O	
+6-7	ich	PPER	ich	_	O	O	
+6-8	dem	ART	die	_	O	O	
+6-9	Sekretariat	NN	Sekretariat	_	O	O	
+6-10	zugestellt	VVPP	zustellen	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Ihren Rechnungen sehe ich also bald entgegen.
+7-1	Ihren	PPOSAT	ihr	_	O	O	
+7-2	Rechnungen	NN	Rechnung	_	O	O	
+7-3	sehe	VVFIN	sehen	_	O	O	
+7-4	ich	PPER	ich	_	O	O	
+7-5	also	ADV	also	_	O	O	
+7-6	bald	ADV	bald	_	O	O	
+7-7	entgegen	PTKVZ	entgegen	_	O	O	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=Die 4 Quittungen will Asher mir sch ... icken.
+8-1	Die	ART	die	_	O	O	
+8-2	4	CARD	4	_	O	O	
+8-3	Quittungen	NN	Quittung	_	O	O	
+8-4	will	VMFIN	wollen	_	O	O	
+8-5	Asher	ADV	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	mir	PPER	ich	_	O	O	
+8-7	sch	VVFIN	<unknown>	_	O	O	
+8-8	...	$.	...	_	O	O	
+8-9	icken	ADJD	<unknown>	_	O	O	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=Bunsen hat guten Willen, aber keine glückliche Hand im Empfehlen.
+9-1	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	hat	VAFIN	haben	_	O	O	
+9-3	guten	ADJA	gut	_	O	O	
+9-4	Willen	NN	Wille	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	aber	ADV	aber	_	O	O	
+9-7	keine	PIAT	keine	_	O	O	
+9-8	glückliche	ADJA	glücklich	_	O	O	
+9-9	Hand	NN	Hand	_	O	O	
+9-10	im	APPRART	in	_	O	O	
+9-11	Empfehlen	NN	Empfehlen	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Sollte das Medaillon nicht besser auf den Titel Insgemein genommen werden?
+10-1	Sollte	VMFIN	sollen	_	O	O	
+10-2	das	ART	die	_	O	O	
+10-3	Medaillon	NN	Medaillon	_	O	O	
+10-4	nicht	PTKNEG	nicht	_	O	O	
+10-5	besser	ADJD	gut	_	O	O	
+10-6	auf	APPR	auf	_	O	O	
+10-7	den	ART	die	_	O	O	
+10-8	Titel	NN	Titel	_	O	O	
+10-9	Insgemein	NN	<unknown>	_	O	O	
+10-10	genommen	VVPP	nehmen	_	O	O	
+10-11	werden	VAINF	werden	_	O	O	
+10-12	?	$.	?	_	O	O	
+
+#id=11
+#text=In der Baurechnung könnte es wenigstens nicht namentlich erscheinen; sondern müßte anonym verrechnet werden; das geht allerdings se~r wohl.
+11-1	In	APPR	in	_	O	O	
+11-2	der	ART	die	_	O	O	
+11-3	Baurechnung	NN	<unknown>	_	O	O	
+11-4	könnte	VMFIN	können	_	O	O	
+11-5	es	PPER	es	_	O	O	
+11-6	wenigstens	ADV	wenigstens	_	O	O	
+11-7	nicht	PTKNEG	nicht	_	O	O	
+11-8	namentlich	ADJD	namentlich	_	O	O	
+11-9	erscheinen	VVINF	erscheinen	_	O	O	
+11-10	;	$.	;	_	O	O	
+11-11	sondern	KON	sondern	_	O	O	
+11-12	müßte	VMFIN	müssen	_	O	O	
+11-13	anonym	ADJD	anonym	_	O	O	
+11-14	verrechnet	VVPP	verrechnen	_	O	O	
+11-15	werden	VAINF	werden	_	O	O	
+11-16	;	$.	;	_	O	O	
+11-17	das	PDS	die	_	O	O	
+11-18	geht	VVFIN	gehen	_	O	O	
+11-19	allerdings	ADV	allerdings	_	O	O	
+11-20	se~r	NE	<unknown>	_	O	O	
+11-21	wohl	ADV	wohl	_	O	O	
+11-22	.	$.	.	_	O	O	
+
+#id=12
+#text=Was Sie mit Mommsen über die Pensionsfrage besprechen, ist ohne Zweifel zweckmäßig.
+12-1	Was	PWS	was	_	O	O	
+12-2	Sie	PPER	Sie	_	O	O	
+12-3	mit	APPR	mit	_	O	O	
+12-4	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-5	über	APPR	über	_	O	O	
+12-6	die	ART	die	_	O	O	
+12-7	Pensionsfrage	NN	Pensionsfrage	_	O	O	
+12-8	besprechen	VVFIN	besprechen	_	O	O	
+12-9	,	$,	,	_	O	O	
+12-10	ist	VAFIN	sein	_	O	O	
+12-11	ohne	APPR	ohne	_	O	O	
+12-12	Zweifel	NN	Zweifel	_	O	O	
+12-13	zweckmäßig	ADJD	zweckmäßig	_	O	O	
+12-14	.	$.	.	_	O	O	
+
+#id=13
+#text=Er hat doch meinen Brief vom 12. n erhalten.
+13-1	Er	PPER	er	_	O	O	
+13-2	hat	VAFIN	haben	_	O	O	
+13-3	doch	ADV	doch	_	O	O	
+13-4	meinen	PPOSAT	mein	_	O	O	
+13-5	Brief	NN	Brief	_	O	O	
+13-6	vom	APPRART	von	_	O	O	
+13-7	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+13-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+13-9	n	ADJD	<unknown>	_	O	O	
+13-10	erhalten	VVPP	erhalten	_	O	O	
+13-11	.	$.	.	_	O	O	
+
+#id=14
+#text=Die 600 r sind für Preußen abgemacht, vom Januar an zu zahlen.
+14-1	Die	ART	die	_	O	O	
+14-2	600	CARD	600	_	O	O	
+14-3	r	NE	r	_	O	O	
+14-4	sind	VAFIN	sein	_	O	O	
+14-5	für	APPR	für	_	O	O	
+14-6	Preußen	NE	Preußen	_	O	O	
+14-7	abgemacht	VVPP	abmachen	_	O	O	
+14-8	,	$,	,	_	O	O	
+14-9	vom	APPRART	von	_	O	O	
+14-10	Januar	NN	Januar	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+14-11	an	APZR	an	_	O	O	
+14-12	zu	PTKZU	zu	_	O	O	
+14-13	zahlen	VVINF	zahlen	_	O	O	
+14-14	.	$.	.	_	O	O	
+
+#id=15
+#text=In circa 4 Wochen werden Sie die officielle Nachricht haben und das Geld erheben können.
+15-1	In	APPR	in	_	O	O	
+15-2	circa	ADV	circa	_	O	O	
+15-3	4	CARD	4	_	O	O	
+15-4	Wochen	NN	Woche	_	O	O	
+15-5	werden	VAFIN	werden	_	O	O	
+15-6	Sie	PPER	Sie	_	O	O	
+15-7	die	ART	die	_	O	O	
+15-8	officielle	ADJA	<unknown>	_	O	O	
+15-9	Nachricht	NN	Nachricht	_	O	O	
+15-10	haben	VAFIN	haben	_	O	O	
+15-11	und	KON	und	_	O	O	
+15-12	das	ART	die	_	O	O	
+15-13	Geld	NN	Geld	_	O	O	
+15-14	erheben	VVINF	erheben	_	O	O	
+15-15	können	VMINF	können	_	O	O	
+15-16	.	$.	.	_	O	O	
+

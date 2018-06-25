@@ -1,0 +1,228 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=336 Helbig an Henzen Zürich, 30. September 1870 3 entschieden auf die Schweizerreise hofft.
+1-1	336	CARD	@card@	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	3	CARD	3	_	O	O	
+1-12	entschieden	VVPP	entscheiden	_	O	O	
+1-13	auf	APPR	auf	_	O	O	
+1-14	die	ART	die	_	O	O	
+1-15	Schweizerreise	NN	<unknown>	_	O	O	
+1-16	hofft	VVFIN	hoffen	_	O	O	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text=Sie kam eben von Stuttgard und ich traf sie bei Wille.
+2-1	Sie	PPER	Sie	_	O	O	
+2-2	kam	VVFIN	kommen	_	O	O	
+2-3	eben	ADV	eben	_	O	O	
+2-4	von	APPR	von	_	O	O	
+2-5	Stuttgard	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-6	und	KON	und	_	O	O	
+2-7	ich	PPER	ich	_	O	O	
+2-8	traf	VVFIN	treffen	_	O	O	
+2-9	sie	PPER	sie	_	O	O	
+2-10	bei	APPR	bei	_	O	O	
+2-11	Wille	NN	Wille	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Benndorf bereitet eine saugrobe Recension der Vasenpublication von Heydemann vor.
+3-1	Benndorf	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	bereitet	VVFIN	bereiten	_	O	O	
+3-3	eine	ART	eine	_	O	O	
+3-4	saugrobe	ADJA	<unknown>	_	O	O	
+3-5	Recension	NN	<unknown>	_	O	O	
+3-6	der	ART	die	_	O	O	
+3-7	Vasenpublication	NN	<unknown>	_	O	O	
+3-8	von	APPR	von	_	O	O	
+3-9	Heydemann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-10	vor	PTKVZ	vor	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=Allerdings sind darin einige schlimme Mißgriffe begangen worden, u. a. die nicht einmal consequent durchgeführte Bezeichnung der weiblichen Fleischfarbe durch Schraffirung.
+4-1	Allerdings	ADV	allerdings	_	O	O	
+4-2	sind	VAFIN	sein	_	O	O	
+4-3	darin	PAV	darin	_	O	O	
+4-4	einige	PIAT	einige	_	O	O	
+4-5	schlimme	ADJA	schlimm	_	O	O	
+4-6	Mißgriffe	NN	Missgriff	_	O	O	
+4-7	begangen	VVPP	begehen	_	O	O	
+4-8	worden	VAPP	werden	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	u.	KON	und	_	O	O	
+4-11	a.	APPR	a.	_	O	O	
+4-12	die	ART	die	_	O	O	
+4-13	nicht	PTKNEG	nicht	_	O	O	
+4-14	einmal	ADV	einmal	_	O	O	
+4-15	consequent	ADJD	<unknown>	_	O	O	
+4-16	durchgeführte	ADJA	durchgeführt	_	O	O	
+4-17	Bezeichnung	NN	Bezeichnung	_	O	O	
+4-18	der	ART	die	_	O	O	
+4-19	weiblichen	ADJA	weiblich	_	O	O	
+4-20	Fleischfarbe	NN	Fleischfarbe	_	O	O	
+4-21	durch	APPR	durch	_	O	O	
+4-22	Schraffirung	NN	<unknown>	_	O	O	
+4-23	.	$.	.	_	O	O	
+
+#id=5
+#text=Wenn jedoch Benndorf die Balken bei Heydemann wahrnimmt, möchte er doch die Splitter bei sich selbst nicht übersehen.
+5-1	Wenn	KOUS	wenn	_	O	O	
+5-2	jedoch	ADV	jedoch	_	O	O	
+5-3	Benndorf	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	die	ART	die	_	O	O	
+5-5	Balken	NN	Balken	_	O	O	
+5-6	bei	APPR	bei	_	O	O	
+5-7	Heydemann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-8	wahrnimmt	VVFIN	wahrnehmen	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	möchte	VMFIN	mögen	_	O	O	
+5-11	er	PPER	er	_	O	O	
+5-12	doch	ADV	doch	_	O	O	
+5-13	die	ART	die	_	O	O	
+5-14	Splitter	NN	Splitter	_	O	O	
+5-15	bei	APPR	bei	_	O	O	
+5-16	sich	PRF	sich	_	O	O	
+5-17	selbst	ADV	selbst	_	O	O	
+5-18	nicht	PTKNEG	nicht	_	O	O	
+5-19	übersehen	VVPP	übersehen	_	O	O	
+5-20	.	$.	.	_	O	O	
+
+#id=6
+#text=Auch in seinem neusten Hefte finden wir wieder jene zittrigen und unsicheren Contouren, wie sie nie ein alter Vasenmaler gezogen.
+6-1	Auch	ADV	auch	_	O	O	
+6-2	in	APPR	in	_	O	O	
+6-3	seinem	PPOSAT	sein	_	O	O	
+6-4	neusten	ADJA	neu	_	O	O	
+6-5	Hefte	NN	Heft	_	O	O	
+6-6	finden	VVFIN	finden	_	O	O	
+6-7	wir	PPER	wir	_	O	O	
+6-8	wieder	ADV	wieder	_	O	O	
+6-9	jene	PDAT	jen	_	O	O	
+6-10	zittrigen	ADJA	zittrig	_	O	O	
+6-11	und	KON	und	_	O	O	
+6-12	unsicheren	ADJA	unsicher	_	O	O	
+6-13	Contouren	NN	<unknown>	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	wie	KOUS	wie	_	O	O	
+6-16	sie	PPER	sie	_	O	O	
+6-17	nie	ADV	nie	_	O	O	
+6-18	ein	ART	eine	_	O	O	
+6-19	alter	ADJA	alt	_	O	O	
+6-20	Vasenmaler	NN	<unknown>	_	O	O	
+6-21	gezogen	VVPP	ziehen	_	O	O	
+6-22	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Schweizer Zeitungen fangen nachgerade an, komisch zu werden.
+7-1	Die	ART	die	_	O	O	
+7-2	Schweizer	ADJA	Schweizer	_	O	O	
+7-3	Zeitungen	NN	Zeitung	_	O	O	
+7-4	fangen	VVFIN	fangen	_	O	O	
+7-5	nachgerade	ADV	nachgerade	_	O	O	
+7-6	an	PTKVZ	an	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	komisch	ADJD	komisch	_	O	O	
+7-9	zu	PTKZU	zu	_	O	O	
+7-10	werden	VAINF	werden	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=In ihren Kriegsberichten nehmen gegenwärtig Brutalitäten preußischer Officiere gegen Untergebene eine besondere Rubrik ein.
+8-1	In	APPR	in	_	O	O	
+8-2	ihren	PPOSAT	ihr	_	O	O	
+8-3	Kriegsberichten	NN	Kriegsbericht	_	O	O	
+8-4	nehmen	VVFIN	nehmen	_	O	O	
+8-5	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+8-6	Brutalitäten	NN	Brutalität	_	O	O	
+8-7	preußischer	ADJA	preußisch	_	O	O	
+8-8	Officiere	NN	<unknown>	_	O	O	
+8-9	gegen	APPR	gegen	_	O	O	
+8-10	Untergebene	NN	<unknown>	_	O	O	
+8-11	eine	ART	eine	_	O	O	
+8-12	besondere	ADJA	besonder	_	O	O	
+8-13	Rubrik	NN	Rubrik	_	O	O	
+8-14	ein	PTKVZ	ein	_	O	O	
+8-15	.	$.	.	_	O	O	
+
+#id=9
+#text=Ein wahres Glück, daß Straßburg endlich gefallen.
+9-1	Ein	ART	eine	_	O	O	
+9-2	wahres	ADJA	wahr	_	O	O	
+9-3	Glück	NN	Glück	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	daß	KOUS	dass	_	O	O	
+9-6	Straßburg	NE	Straßburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-7	endlich	ADV	endlich	_	O	O	
+9-8	gefallen	VVPP	fallen|gefallen	_	O	O	
+9-9	.	$.	.	_	O	O	
+
+#id=10
+#text=Die sentimentalen Ergüsse über das grausame Schicksal der Schwesterstadt sind nunmehr abgeschnitten.
+10-1	Die	ART	die	_	O	O	
+10-2	sentimentalen	ADJA	sentimental	_	O	O	
+10-3	Ergüsse	NN	Erguss	_	O	O	
+10-4	über	APPR	über	_	O	O	
+10-5	das	ART	die	_	O	O	
+10-6	grausame	ADJA	grausam	_	O	O	
+10-7	Schicksal	NN	Schicksal	_	O	O	
+10-8	der	ART	die	_	O	O	
+10-9	Schwesterstadt	NN	Schwesterstadt	_	O	O	
+10-10	sind	VAFIN	sein	_	O	O	
+10-11	nunmehr	ADV	nunmehr	_	O	O	
+10-12	abgeschnitten	VVPP	abschneiden	_	O	O	
+10-13	.	$.	.	_	O	O	
+
+#id=11
+#text=Grüßen Sie herzlich Lepsius und Bormann und gratuliren Sie dem letzteren zu dem eisernen Kreuze, das er, wie mir Dilthey berichtet, erhalten.
+11-1	Grüßen	VVFIN	grüßen	_	O	O	
+11-2	Sie	PPER	Sie	_	O	O	
+11-3	herzlich	ADJD	herzlich	_	O	O	
+11-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-5	und	KON	und	_	O	O	
+11-6	Bormann	NE	Bormann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-7	und	KON	und	_	O	O	
+11-8	gratuliren	VVFIN	<unknown>	_	O	O	
+11-9	Sie	PPER	Sie	_	O	O	
+11-10	dem	ART	die	_	O	O	
+11-11	letzteren	ADJA	letzt	_	O	O	
+11-12	zu	APPR	zu	_	O	O	
+11-13	dem	ART	die	_	O	O	
+11-14	eisernen	ADJA	eisern	_	O	O	
+11-15	Kreuze	NN	Kreuz	_	O	O	
+11-16	,	$,	,	_	O	O	
+11-17	das	PRELS	die	_	O	O	
+11-18	er	PPER	er	_	O	O	
+11-19	,	$,	,	_	O	O	
+11-20	wie	KOUS	wie	_	O	O	
+11-21	mir	PPER	ich	_	O	O	
+11-22	Dilthey	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-23	berichtet	VVFIN	berichten	_	O	O	
+11-24	,	$,	,	_	O	O	
+11-25	erhalten	VVPP	erhalten	_	O	O	
+11-26	.	$.	.	_	O	O	
+
+#id=12
+#text=Viele Grüße von meiner Frau.
+12-1	Viele	PIAT	viele	_	O	O	
+12-2	Grüße	NN	Gruß	_	O	O	
+12-3	von	APPR	von	_	O	O	
+12-4	meiner	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-5	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+12-6	.	$.	.	_	O	O	
+
+#id=13
+#text=Ihr ergebener Helbig
+13-1	Ihr	PPOSAT	ihr	_	O	O	
+13-2	ergebener	ADJA	ergeben	_	O	O	
+13-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

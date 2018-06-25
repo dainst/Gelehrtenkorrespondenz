@@ -1,0 +1,195 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=410 2 Gerhard an Braun Bonn, 11. August 1844 desselben eine Vergünstigung ist.
+1-1	410	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Bonn	NE	Bonn	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	desselben	PDS	derselbe	_	O	O	
+1-13	eine	ART	eine	_	O	O	
+1-14	Vergünstigung	NN	Vergünstigung	_	O	O	
+1-15	ist	VAFIN	sein	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=3
+#text=Das Museum samt Ihnen ist mein Hauptzweck, also wünsche ich demselben nahe zu wohnen, falls vielleicht in oder nahe bei Ihrer Wohnung Tag- oder Wochenweise zu miethen Gelegenheit ist, wie Sie schon Welcker'n verhoffen ließen; ist dies aber nicht der Fall, so bäte ich Sie bei Campbell ( ich denke 16 ?
+3-1	Das	ART	die	_	O	O	
+3-2	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-3	samt	APPR	samt	_	O	O	
+3-4	Ihnen	PPER	Sie	_	O	O	
+3-5	ist	VAFIN	sein	_	O	O	
+3-6	mein	PPOSAT	mein	_	O	O	
+3-7	Hauptzweck	NN	Hauptzweck	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	also	ADV	also	_	O	O	
+3-10	wünsche	VVFIN	wünschen	_	O	O	
+3-11	ich	PPER	ich	_	O	O	
+3-12	demselben	PDS	dieselbe	_	O	O	
+3-13	nahe	PTKVZ	nahe	_	O	O	
+3-14	zu	PTKZU	zu	_	O	O	
+3-15	wohnen	VVINF	wohnen	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	falls	KOUS	falls	_	O	O	
+3-18	vielleicht	ADV	vielleicht	_	O	O	
+3-19	in	APPR	in	_	O	O	
+3-20	oder	KON	oder	_	O	O	
+3-21	nahe	APPR	nahe	_	O	O	
+3-22	bei	APPR	bei	_	O	O	
+3-23	Ihrer	PPOSAT	ihr	_	O	O	
+3-24	Wohnung	NN	Wohnung	_	O	O	
+3-25	Tag-	TRUNC	Tag-	_	O	O	
+3-26	oder	KON	oder	_	O	O	
+3-27	Wochenweise	NN	<unknown>	_	O	O	
+3-28	zu	APPR	zu	_	O	O	
+3-29	miethen	NE	<unknown>	_	O	O	
+3-30	Gelegenheit	NN	Gelegenheit	_	O	O	
+3-31	ist	VAFIN	sein	_	O	O	
+3-32	,	$,	,	_	O	O	
+3-33	wie	KOUS	wie	_	O	O	
+3-34	Sie	PPER	Sie	_	O	O	
+3-35	schon	ADV	schon	_	O	O	
+3-36	Welcker'n	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-37	verhoffen	NE	<unknown>	_	O	O	
+3-38	ließen	VVFIN	lassen	_	O	O	
+3-39	;	$.	;	_	O	O	
+3-40	ist	VAFIN	sein	_	O	O	
+3-41	dies	PDS	dies	_	O	O	
+3-42	aber	ADV	aber	_	O	O	
+3-43	nicht	PTKNEG	nicht	_	O	O	
+3-44	der	ART	die	_	O	O	
+3-45	Fall	NN	Fall	_	O	O	
+3-46	,	$,	,	_	O	O	
+3-47	so	ADV	so	_	O	O	
+3-48	bäte	VVFIN	bitten	_	O	O	
+3-49	ich	PPER	ich	_	O	O	
+3-50	Sie	PPER	Sie	_	O	O	
+3-51	bei	APPR	bei	_	O	O	
+3-52	Campbell	NE	Campbell	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-53	(	$(	(	_	O	O	
+3-54	ich	PPER	ich	_	O	O	
+3-55	denke	VVFIN	denken	_	O	O	
+3-56	16	CARD	16	_	O	O	
+3-57	?	$.	?	_	O	O	
+
+#id=4
+#text=Gr. Marlborough Street) anzufragen ob ich bei ihm absteigen kann: ich will zu dem Ende eine schriftliche Anfrage beilegen die Sie der Mühe ihn zu sprechen überhändigt, falls Ihnen das nicht paßte.
+4-1	Gr.	NN	Gr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	Marlborough	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-3	Street	NE	Street	_	O	O	
+4-4	)	$(	)	_	O	O	
+4-5	anzufragen	VVIZU	anfragen	_	O	O	
+4-6	ob	KOUS	ob	_	O	O	
+4-7	ich	PPER	ich	_	O	O	
+4-8	bei	APPR	bei	_	O	O	
+4-9	ihm	PPER	er	_	O	O	
+4-10	absteigen	VVINF	absteigen	_	O	O	
+4-11	kann	VMFIN	können	_	O	O	
+4-12	:	$.	:	_	O	O	
+4-13	ich	PPER	ich	_	O	O	
+4-14	will	VMFIN	wollen	_	O	O	
+4-15	zu	APPR	zu	_	O	O	
+4-16	dem	ART	die	_	O	O	
+4-17	Ende	NN	Ende	_	O	O	
+4-18	eine	ART	eine	_	O	O	
+4-19	schriftliche	ADJA	schriftlich	_	O	O	
+4-20	Anfrage	NN	Anfrage	_	O	O	
+4-21	beilegen	VVFIN	beilegen	_	O	O	
+4-22	die	PDS	die	_	O	O	
+4-23	Sie	PPER	Sie	_	O	O	
+4-24	der	ART	die	_	O	O	
+4-25	Mühe	NN	Mühe	_	O	O	
+4-26	ihn	PPER	er	_	O	O	
+4-27	zu	PTKZU	zu	_	O	O	
+4-28	sprechen	VVINF	sprechen	_	O	O	
+4-29	überhändigt	VVFIN	<unknown>	_	O	O	
+4-30	,	$,	,	_	O	O	
+4-31	falls	KOUS	falls	_	O	O	
+4-32	Ihnen	PPER	Sie	_	O	O	
+4-33	das	PDS	die	_	O	O	
+4-34	nicht	PTKNEG	nicht	_	O	O	
+4-35	paßte	VVFIN	passen	_	O	O	
+4-36	.	$.	.	_	O	O	
+
+#id=5
+#text=Sie wie ihn bitte ich mir nach Ostende poste restante zu schreiben, wohin ich vom Customhouse fahren soll; hoffentlich ist die Post zur Stunde in der ich das Schiff dort suche nicht unzugänglich.
+5-1	Sie	PPER	Sie	_	O	O	
+5-2	wie	KOKOM	wie	_	O	O	
+5-3	ihn	PPER	er	_	O	O	
+5-4	bitte	VVFIN	bitten	_	O	O	
+5-5	ich	PPER	ich	_	O	O	
+5-6	mir	PRF	ich	_	O	O	
+5-7	nach	APPR	nach	_	O	O	
+5-8	Ostende	NN	Ostende	_	O	O	
+5-9	poste	NN	<unknown>	_	O	O	
+5-10	restante	NN	<unknown>	_	O	O	
+5-11	zu	PTKZU	zu	_	O	O	
+5-12	schreiben	VVINF	schreiben	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	wohin	PWAV	wohin	_	O	O	
+5-15	ich	PPER	ich	_	O	O	
+5-16	vom	APPRART	von	_	O	O	
+5-17	Customhouse	NE	<unknown>	_	O	O	
+5-18	fahren	VVINF	fahren	_	O	O	
+5-19	soll	VMFIN	sollen	_	O	O	
+5-20	;	$.	;	_	O	O	
+5-21	hoffentlich	ADV	hoffentlich	_	O	O	
+5-22	ist	VAFIN	sein	_	O	O	
+5-23	die	ART	die	_	O	O	
+5-24	Post	NN	Post	_	O	O	
+5-25	zur	APPRART	zu	_	O	O	
+5-26	Stunde	NN	Stunde	_	O	O	
+5-27	in	APPR	in	_	O	O	
+5-28	der	ART	die	_	O	O	
+5-29	ich	PPER	ich	_	O	O	
+5-30	das	ART	die	_	O	O	
+5-31	Schiff	NN	Schiff	_	O	O	
+5-32	dort	ADV	dort	_	O	O	
+5-33	suche	VVFIN	suchen	_	O	O	
+5-34	nicht	PTKNEG	nicht	_	O	O	
+5-35	unzugänglich	ADJD	unzugänglich	_	O	O	
+5-36	.	$.	.	_	O	O	
+
+#id=6
+#text=Alles Weitere also mündlich Herzliehst Ihr Gerhard Panofka ist in Paris seit dem 9.ten und rechnete auf 14 Tage.
+6-1	Alles	PIAT	alle	_	O	O	
+6-2	Weitere	NN	Weiter	_	O	O	
+6-3	also	ADV	also	_	O	O	
+6-4	mündlich	ADJD	mündlich	_	O	O	
+6-5	Herzliehst	VVFIN	<unknown>	_	O	O	
+6-6	Ihr	PPER	sie	_	O	O	
+6-7	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-8	Panofka	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-9	ist	VAFIN	sein	_	O	O	
+6-10	in	APPR	in	_	O	O	
+6-11	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-12	seit	APPR	seit	_	O	O	
+6-13	dem	ART	die	_	O	O	
+6-14	9.ten	NN	<unknown>	_	O	O	
+6-15	und	KON	und	_	O	O	
+6-16	rechnete	VVFIN	rechnen	_	O	O	
+6-17	auf	APPR	auf	_	O	O	
+6-18	14	CARD	14	_	O	O	
+6-19	Tage	NN	Tag	_	O	O	
+6-20	.	$.	.	_	O	O	
+
+#id=7
+#text=Wollen Sie Birch von meinem bevorstehenden Besuch in Kenntnis setzen ?
+7-1	Wollen	VMFIN	wollen	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	Birch	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-4	von	APPR	von	_	O	O	
+7-5	meinem	PPOSAT	mein	_	O	O	
+7-6	bevorstehenden	ADJA	bevorstehend	_	O	O	
+7-7	Besuch	NN	Besuch	_	O	O	
+7-8	in	APPR	in	_	O	O	
+7-9	Kenntnis	NN	Kenntnis	_	O	O	
+7-10	setzen	VVINF	setzen	_	O	O	
+7-11	?	$.	?	_	O	O	
+

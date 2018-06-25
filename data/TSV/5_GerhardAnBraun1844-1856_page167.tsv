@@ -1,0 +1,227 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Dr. Braun Lieber Freund.
+1-1	Dr.	NN	Dr.	_	O	O	
+1-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Freund	NN	Freund	_	O	O	
+1-5	.	$.	.	_	O	O	
+
+#id=2
+#text=Gerhard an Braun Foligno, 15. März 1846 g. 17/111 46 r. 4/IV 46 Foligno 15 März 46 Schon vor 2 Uhr waren wir glücklich hier angelangt und ruhen uns aus.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Foligno	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	g.	VVFIN	<unknown>	_	O	O	
+2-11	17/111	CARD	@card@	_	O	O	
+2-12	46	CARD	46	_	O	O	
+2-13	r.	ADJA	<unknown>	_	O	O	
+2-14	4/IV	ADJA	<unknown>	_	O	O	
+2-15	46	CARD	46	_	O	O	
+2-16	Foligno	NN	<unknown>	_	O	O	
+2-17	15	CARD	15	_	O	O	
+2-18	März	NN	März	_	O	O	
+2-19	46	CARD	46	_	O	O	
+2-20	Schon	ADV	schon	_	O	O	
+2-21	vor	APPR	vor	_	O	O	
+2-22	2	CARD	2	_	O	O	
+2-23	Uhr	NN	Uhr	_	O	O	
+2-24	waren	VAFIN	sein	_	O	O	
+2-25	wir	PPER	wir	_	O	O	
+2-26	glücklich	ADJD	glücklich	_	O	O	
+2-27	hier	ADV	hier	_	O	O	
+2-28	angelangt	VVPP	angelangen	_	O	O	
+2-29	und	KON	und	_	O	O	
+2-30	ruhen	VVFIN	ruhen	_	O	O	
+2-31	uns	PPER	wir	_	O	O	
+2-32	aus	PTKVZ	aus	_	O	O	
+2-33	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich habe also Zeit Ihnen zu sagen daß Lanci mir beim Abschied neue Vorschläge, nach Florenz zu senden, andeutete.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	habe	VAFIN	haben	_	O	O	
+3-3	also	ADV	also	_	O	O	
+3-4	Zeit	APPR	zeit	_	O	O	
+3-5	Ihnen	PPER	Sie	_	O	O	
+3-6	zu	PTKZU	zu	_	O	O	
+3-7	sagen	VVINF	sagen	_	O	O	
+3-8	daß	KOUS	dass	_	O	O	
+3-9	Lanci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-10	mir	PRF	ich	_	O	O	
+3-11	beim	APPRART	bei	_	O	O	
+3-12	Abschied	NN	Abschied	_	O	O	
+3-13	neue	ADJA	neu	_	O	O	
+3-14	Vorschläge	NN	Vorschlag	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	nach	APPR	nach	_	O	O	
+3-17	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-18	zu	PTKZU	zu	_	O	O	
+3-19	senden	VVINF	senden	_	O	O	
+3-20	,	$,	,	_	O	O	
+3-21	andeutete	VVFIN	andeuten	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=Schwerlich habe ich dort Zeit darauf zu antworten und an dem ändern zu wollen was nach langer beiderseitiger Bedenkzeit abgemacht und meinem Rapporto alla Direzione angehängt ist.
+4-1	Schwerlich	ADJD	schwerlich	_	O	O	
+4-2	habe	VAFIN	haben	_	O	O	
+4-3	ich	PPER	ich	_	O	O	
+4-4	dort	ADV	dort	_	O	O	
+4-5	Zeit	NN	Zeit	_	O	O	
+4-6	darauf	PAV	darauf	_	O	O	
+4-7	zu	PTKZU	zu	_	O	O	
+4-8	antworten	VVINF	antworten	_	O	O	
+4-9	und	KON	und	_	O	O	
+4-10	an	APPR	an	_	O	O	
+4-11	dem	PDS	die	_	O	O	
+4-12	ändern	VVINF	ändern	_	O	O	
+4-13	zu	PTKZU	zu	_	O	O	
+4-14	wollen	VMINF	wollen	_	O	O	
+4-15	was	PRELS	was	_	O	O	
+4-16	nach	APPR	nach	_	O	O	
+4-17	langer	ADJA	lang	_	O	O	
+4-18	beiderseitiger	ADJA	beiderseitig	_	O	O	
+4-19	Bedenkzeit	NN	Bedenkzeit	_	O	O	
+4-20	abgemacht	VVPP	abmachen	_	O	O	
+4-21	und	KON	und	_	O	O	
+4-22	meinem	PPOSAT	mein	_	O	O	
+4-23	Rapporto	NN	<unknown>	_	O	O	
+4-24	alla	NE	Alla	_	O	O	
+4-25	Direzione	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-26	angehängt	VVPP	anhängen	_	O	O	
+4-27	ist	VAFIN	sein	_	O	O	
+4-28	.	$.	.	_	O	O	
+
+#id=5
+#text=Nur wenn es zugleich als Ihr und Henzens Wunsch bezeichnet würde was er herantragen will würde ich darauf eingehen.
+5-1	Nur	ADV	nur	_	O	O	
+5-2	wenn	KOUS	wenn	_	O	O	
+5-3	es	PPER	es	_	O	O	
+5-4	zugleich	ADV	zugleich	_	O	O	
+5-5	als	KOKOM	als	_	O	O	
+5-6	Ihr	PPOSAT	ihr	_	O	O	
+5-7	und	KON	und	_	O	O	
+5-8	Henzens	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-9	Wunsch	NN	Wunsch	_	O	O	
+5-10	bezeichnet	VVPP	bezeichnen	_	O	O	
+5-11	würde	VAFIN	werden	_	O	O	
+5-12	was	PIS	was	_	O	O	
+5-13	er	PPER	er	_	O	O	
+5-14	herantragen	VVINF	herantragen	_	O	O	
+5-15	will	VMFIN	wollen	_	O	O	
+5-16	würde	VAFIN	werden	_	O	O	
+5-17	ich	PPER	ich	_	O	O	
+5-18	darauf	PAV	darauf	_	O	O	
+5-19	eingehen	VVINF	eingehen	_	O	O	
+5-20	.	$.	.	_	O	O	
+
+#id=6
+#text=Für die Spedition meiner oggetti antichi e libri erwarte ich also Ihre Anordnung sobald die drei großen Vase~idas, OJ~heus, Pelops, - vom Restauratuer zurück sind.
+6-1	Für	APPR	für	_	O	O	
+6-2	die	ART	die	_	O	O	
+6-3	Spedition	NN	Spedition	_	O	O	
+6-4	meiner	PPOSAT	mein	_	O	O	
+6-5	oggetti	NN	<unknown>	_	O	O	
+6-6	antichi	NE	<unknown>	_	O	O	
+6-7	e	ADJA	<unknown>	_	O	O	
+6-8	libri	NN	<unknown>	_	O	O	
+6-9	erwarte	VVFIN	erwarten	_	O	O	
+6-10	ich	PPER	ich	_	O	O	
+6-11	also	ADV	also	_	O	O	
+6-12	Ihre	PPOSAT	ihr	_	O	O	
+6-13	Anordnung	NN	Anordnung	_	O	O	
+6-14	sobald	KOUS	sobald	_	O	O	
+6-15	die	ART	die	_	O	O	
+6-16	drei	CARD	drei	_	O	O	
+6-17	großen	ADJA	groß	_	O	O	
+6-18	Vase~idas	NN	<unknown>	_	O	O	
+6-19	,	$,	,	_	O	O	
+6-20	OJ~heus	NN	<unknown>	_	O	O	
+6-21	,	$,	,	_	O	O	
+6-22	Pelops	NN	<unknown>	_	O	O	
+6-23	,	$,	,	_	O	O	
+6-24	-	$(	-	_	O	O	
+6-25	vom	APPRART	von	_	O	O	
+6-26	Restauratuer	NN	<unknown>	_	O	O	
+6-27	zurück	PTKVZ	zurück	_	O	O	
+6-28	sind	VAFIN	sein	_	O	O	
+6-29	.	$.	.	_	O	O	
+
+#id=7
+#text=Einige Specialien der Parbarei betreffend die ich hiernächst bezeichne verweisen Sie wol an Domenico, unter Freund Henzens Aufsicht.
+7-1	Einige	PIAT	einige	_	O	O	
+7-2	Specialien	NN	<unknown>	_	O	O	
+7-3	der	ART	die	_	O	O	
+7-4	Parbarei	NN	<unknown>	_	O	O	
+7-5	betreffend	ADJD	betreffend	_	O	O	
+7-6	die	ART	die	_	O	O	
+7-7	ich	PPER	ich	_	O	O	
+7-8	hiernächst	ADJD	<unknown>	_	O	O	
+7-9	bezeichne	VVFIN	bezeichnen	_	O	O	
+7-10	verweisen	VVFIN	verweisen	_	O	O	
+7-11	Sie	PPER	Sie	_	O	O	
+7-12	wol	ADJD	<unknown>	_	O	O	
+7-13	an	APPR	an	_	O	O	
+7-14	Domenico	NE	Domenico	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-15	,	$,	,	_	O	O	
+7-16	unter	APPR	unter	_	O	O	
+7-17	Freund	NE	Freund	_	O	O	
+7-18	Henzens	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-19	Aufsicht	NN	Aufsicht	_	O	O	
+7-20	.	$.	.	_	O	O	
+
+#id=8
+#text=Ist nämlich die Kiste nach Leipzig noch nicht abgegangen, so wünsche ich aus dem großen mit Opere di Canina bezeichneten Paket seine Stadtpläne Roms herausgenommen und mir mit der frühen Gelegenheit zugefertigt.
+8-1	Ist	VAFIN	sein	_	O	O	
+8-2	nämlich	ADV	nämlich	_	O	O	
+8-3	die	ART	die	_	O	O	
+8-4	Kiste	NN	Kiste	_	O	O	
+8-5	nach	APPR	nach	_	O	O	
+8-6	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-7	noch	ADV	noch	_	O	O	
+8-8	nicht	PTKNEG	nicht	_	O	O	
+8-9	abgegangen	VVPP	abgehen	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	so	ADV	so	_	O	O	
+8-12	wünsche	VVFIN	wünschen	_	O	O	
+8-13	ich	PPER	ich	_	O	O	
+8-14	aus	APPR	aus	_	O	O	
+8-15	dem	ART	die	_	O	O	
+8-16	großen	ADJA	groß	_	O	O	
+8-17	mit	APPR	mit	_	O	O	
+8-18	Opere	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-19	di	NE	di	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-20	Canina	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-21	bezeichneten	ADJA	bezeichnet	_	O	O	
+8-22	Paket	NN	Paket	_	O	O	
+8-23	seine	PPOSAT	sein	_	O	O	
+8-24	Stadtpläne	NN	Stadtplan	_	O	O	
+8-25	Roms	NE	Rom	_	O	O	
+8-26	herausgenommen	VVPP	herausnehmen	_	O	O	
+8-27	und	KON	und	_	O	O	
+8-28	mir	PRF	ich	_	O	O	
+8-29	mit	APPR	mit	_	O	O	
+8-30	der	ART	die	_	O	O	
+8-31	frühen	ADJA	früh	_	O	O	
+8-32	Gelegenheit	NN	Gelegenheit	_	O	O	
+8-33	zugefertigt	VVFIN	<unknown>	_	O	O	
+8-34	.	$.	.	_	O	O	
+
+#id=9
+#text=Das offene Schiebkästchen no 100 in welches ich
+9-1	Das	ART	die	_	O	O	
+9-2	offene	ADJA	offen	_	O	O	
+9-3	Schiebkästchen	NN	<unknown>	_	O	O	
+9-4	no	NE	no	_	O	O	
+9-5	100	CARD	100	_	O	O	
+9-6	in	APPR	in	_	O	O	
+9-7	welches	PIS	welche	_	O	O	
+9-8	ich	PPER	ich	_	O	O	
+

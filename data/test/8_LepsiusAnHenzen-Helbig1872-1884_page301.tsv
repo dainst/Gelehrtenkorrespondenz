@@ -1,0 +1,85 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=r 13 Herrn Prof.
+1-1	r	FM	r	_	O	O	
+1-2	13	CARD	13	_	O	O	
+1-3	Herrn	NN	Herr	_	O	O	
+1-4	Prof.	NN	Prof.	_	O	O	
+
+#id=2
+#text=Henzen Verehrter Freund Lepsius an Henzen Berlin, 3. Januar 1877 g. 6/1 77 r. Berlin, den 3. Jan.
+2-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	Verehrter	ADJA	verehrt	_	O	O	
+2-3	Freund	NE	Freund	_	O	O	
+2-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-5	an	APPR	an	_	O	O	
+2-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-8	,	$,	,	_	O	O	
+2-9	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-13	g.	VVFIN	<unknown>	_	O	O	
+2-14	6/1	CARD	6/1	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-15	77	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-16	r.	ADJA	<unknown>	_	O	O	
+2-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-18	,	$,	,	_	O	O	
+2-19	den	ART	die	_	O	O	
+2-20	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-21	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-22	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=3
+#text=1877 Nach einer Benachrichtigung der Kasse, werden die Monate Januar Februar März bei der Rechnungslegung zu dem Jahre 1876 hinzugenommen.
+3-1	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-2	Nach	APPR	nach	_	O	O	
+3-3	einer	ART	eine	_	O	O	
+3-4	Benachrichtigung	NN	Benachrichtigung	_	O	O	
+3-5	der	ART	die	_	O	O	
+3-6	Kasse	NN	Kasse	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	werden	VAFIN	werden	_	O	O	
+3-9	die	ART	die	_	O	O	
+3-10	Monate	NN	Monat	_	O	O	
+3-11	Januar	NN	Januar	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-12	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-13	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-14	bei	APPR	bei	_	O	O	
+3-15	der	ART	die	_	O	O	
+3-16	Rechnungslegung	NN	<unknown>	_	O	O	
+3-17	zu	APPR	zu	_	O	O	
+3-18	dem	ART	die	_	O	O	
+3-19	Jahre	NN	Jahr	_	O	O	
+3-20	1876	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-21	hinzugenommen	VVPP	hinzunehmen	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=Der Rechnungsabschluß ist bis dahin zu verschieben und ist im Laufe des April c. hierher einzusenden.
+4-1	Der	ART	die	_	O	O	
+4-2	Rechnungsabschluß	NN	Rechnungsabschluss	_	O	O	
+4-3	ist	VAFIN	sein	_	O	O	
+4-4	bis	APPR	bis	_	O	O	
+4-5	dahin	PAV	dahin	_	O	O	
+4-6	zu	PTKZU	zu	_	O	O	
+4-7	verschieben	VVINF	verschieben	_	O	O	
+4-8	und	KON	und	_	O	O	
+4-9	ist	VAFIN	sein	_	O	O	
+4-10	im	APPRART	in	_	O	O	
+4-11	Laufe	NN	Lauf	_	O	O	
+4-12	des	ART	die	_	O	O	
+4-13	April	NN	April	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-14	c.	NN	<unknown>	_	O	O	
+4-15	hierher	PAV	hierher	_	O	O	
+4-16	einzusenden	VVIZU	einsenden	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihr R Lepsius ,
+5-1	Ihr	PPOSAT	ihr	_	O	O	
+5-2	R	NN	R	_	O	O	
+5-3	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	,	$,	,	_	O	O	
+

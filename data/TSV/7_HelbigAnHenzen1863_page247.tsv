@@ -1,0 +1,190 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=357 Lieber Herr Professor Helbig an Henzen Siena, 10. Juli 1875 g. 11/7 75 r. Siena, li 10. Juli 1875 Ihren mir gestern zugehenden Brief heute beantwortend, muß ich bemerken, daß ich de Sanctis keineswegs das bestimmte Versprechen gegeben, ihm eine Tafel zum Stich zuzuwe~sen, sondern daß ich ihm nur zugesagt, ich würde versuchen, ihn für das Institut zu beschäftigen.
+1-1	357	CARD	@card@	_	O	O	
+1-2	Lieber	ADJA	lieb	_	O	O	
+1-3	Herr	NN	Herr	_	O	O	
+1-4	Professor	NN	Professor	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	11/7	CARD	11/7	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	r.	ADJA	<unknown>	_	O	O	
+1-18	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-19	,	$,	,	_	O	O	
+1-20	li	ADJD	<unknown>	_	O	O	
+1-21	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-22	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-24	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-25	Ihren	PPOSAT	ihr	_	O	O	
+1-26	mir	PPER	ich	_	O	O	
+1-27	gestern	ADV	gestern	_	O	O	
+1-28	zugehenden	ADJA	zugehend	_	O	O	
+1-29	Brief	NN	Brief	_	O	O	
+1-30	heute	ADV	heute	_	O	O	
+1-31	beantwortend	ADJD	<unknown>	_	O	O	
+1-32	,	$,	,	_	O	O	
+1-33	muß	VMFIN	müssen	_	O	O	
+1-34	ich	PPER	ich	_	O	O	
+1-35	bemerken	VVINF	bemerken	_	O	O	
+1-36	,	$,	,	_	O	O	
+1-37	daß	KOUS	dass	_	O	O	
+1-38	ich	PPER	ich	_	O	O	
+1-39	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-40	Sanctis	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-41	keineswegs	ADV	keineswegs	_	O	O	
+1-42	das	ART	die	_	O	O	
+1-43	bestimmte	ADJA	bestimmt	_	O	O	
+1-44	Versprechen	NN	Versprechen	_	O	O	
+1-45	gegeben	VVPP	geben	_	O	O	
+1-46	,	$,	,	_	O	O	
+1-47	ihm	PPER	er	_	O	O	
+1-48	eine	ART	eine	_	O	O	
+1-49	Tafel	NN	Tafel	_	O	O	
+1-50	zum	APPRART	zu	_	O	O	
+1-51	Stich	NN	Stich	_	O	O	
+1-52	zuzuwe~sen	VVIZU	<unknown>	_	O	O	
+1-53	,	$,	,	_	O	O	
+1-54	sondern	KON	sondern	_	O	O	
+1-55	daß	KOUS	dass	_	O	O	
+1-56	ich	PPER	ich	_	O	O	
+1-57	ihm	PPER	er	_	O	O	
+1-58	nur	ADV	nur	_	O	O	
+1-59	zugesagt	VVPP	zusagen	_	O	O	
+1-60	,	$,	,	_	O	O	
+1-61	ich	PPER	ich	_	O	O	
+1-62	würde	VAFIN	werden	_	O	O	
+1-63	versuchen	VVINF	versuchen	_	O	O	
+1-64	,	$,	,	_	O	O	
+1-65	ihn	PPER	er	_	O	O	
+1-66	für	APPR	für	_	O	O	
+1-67	das	ART	die	_	O	O	
+1-68	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-69	zu	PTKZU	zu	_	O	O	
+1-70	beschäftigen	VVINF	beschäftigen	_	O	O	
+1-71	.	$.	.	_	O	O	
+
+#id=2
+#text=Trotz aller Mühe aber, die ich mir gegeben, habe ich keine geeignete Tafel zusammenstellen können.
+2-1	Trotz	APPR	trotz	_	O	O	
+2-2	aller	PIAT	alle	_	O	O	
+2-3	Mühe	NN	Mühe	_	O	O	
+2-4	aber	ADV	aber	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	die	PRELS	die	_	O	O	
+2-7	ich	PPER	ich	_	O	O	
+2-8	mir	PRF	ich	_	O	O	
+2-9	gegeben	VVPP	geben	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	habe	VAFIN	haben	_	O	O	
+2-12	ich	PPER	ich	_	O	O	
+2-13	keine	PIAT	keine	_	O	O	
+2-14	geeignete	ADJA	geeignet	_	O	O	
+2-15	Tafel	NN	Tafel	_	O	O	
+2-16	zusammenstellen	VVINF	zusammenstellen	_	O	O	
+2-17	können	VMINF	können	_	O	O	
+2-18	.	$.	.	_	O	O	
+
+#id=3
+#text=Übrigens hat de Sanctis noch mehrere Aggiuntatafeln in Arbeit: Capuana aus den Scavi Doria (Colu in Form eines bärtigen Kopfes, Axt mit Widderkopf als Griff u.s.w. ).
+3-1	Übrigens	ADV	übrigens	_	O	O	
+3-2	hat	VAFIN	haben	_	O	O	
+3-3	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-4	Sanctis	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-5	noch	ADV	noch	_	O	O	
+3-6	mehrere	PIAT	mehrere	_	O	O	
+3-7	Aggiuntatafeln	NN	<unknown>	_	O	O	
+3-8	in	APPR	in	_	O	O	
+3-9	Arbeit	NN	Arbeit	_	O	O	
+3-10	:	$.	:	_	O	O	
+3-11	Capuana	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-12	aus	APPR	aus	_	O	O	
+3-13	den	ART	die	_	O	O	
+3-14	Scavi	NE	<unknown>	_	O	O	
+3-15	Doria	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-16	(	$(	(	_	O	O	
+3-17	Colu	NE	<unknown>	_	O	O	
+3-18	in	APPR	in	_	O	O	
+3-19	Form	NN	Form	_	O	O	
+3-20	eines	ART	eine	_	O	O	
+3-21	bärtigen	ADJA	bärtig	_	O	O	
+3-22	Kopfes	NN	Kopf	_	O	O	
+3-23	,	$,	,	_	O	O	
+3-24	Axt	NN	Axt	_	O	O	
+3-25	mit	APPR	mit	_	O	O	
+3-26	Widderkopf	NN	Widderkopf	_	O	O	
+3-27	als	KOKOM	als	_	O	O	
+3-28	Griff	NN	Griff	_	O	O	
+3-29	u.s.w.	NE	<unknown>	_	O	O	
+3-30	)	$(	)	_	O	O	
+3-31	.	$.	.	_	O	O	
+
+#id=4
+#text=Weitere Arbeit kann ich ihm jetzt mit dem besten Willen nicht zuweisen, da die Cornetaner Vasen doch besser lithographirt, als gestochen werden.
+4-1	Weitere	ADJA	weit	_	O	O	
+4-2	Arbeit	NN	Arbeit	_	O	O	
+4-3	kann	VMFIN	können	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	ihm	PPER	er	_	O	O	
+4-6	jetzt	ADV	jetzt	_	O	O	
+4-7	mit	APPR	mit	_	O	O	
+4-8	dem	ART	die	_	O	O	
+4-9	besten	ADJA	gut	_	O	O	
+4-10	Willen	NN	Wille	_	O	O	
+4-11	nicht	PTKNEG	nicht	_	O	O	
+4-12	zuweisen	VVINF	zuweisen	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	da	KOUS	da	_	O	O	
+4-15	die	ART	die	_	O	O	
+4-16	Cornetaner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-17	Vasen	NN	Vase	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-18	doch	ADV	doch	_	O	O	
+4-19	besser	ADJD	gut	_	O	O	
+4-20	lithographirt	ADJD	<unknown>	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	als	KOKOM	als	_	O	O	
+4-23	gestochen	VVPP	stechen	_	O	O	
+4-24	werden	VAFIN	werden	_	O	O	
+4-25	.	$.	.	_	O	O	
+
+#id=5
+#text=Beiliegenden Brief bitte ich an Klügmann zu schicken, dessen gegenwärtige Adresse mir unbekannt ist.
+5-1	Beiliegenden	ADJA	beiliegend	_	O	O	
+5-2	Brief	NN	Brief	_	O	O	
+5-3	bitte	VVFIN	bitten	_	O	O	
+5-4	ich	PPER	ich	_	O	O	
+5-5	an	APPR	an	_	O	O	
+5-6	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-7	zu	PTKZU	zu	_	O	O	
+5-8	schicken	VVINF	schicken	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	dessen	PRELAT	die	_	O	O	
+5-11	gegenwärtige	ADJA	gegenwärtig	_	O	O	
+5-12	Adresse	NN	Adresse	_	O	O	
+5-13	mir	PRF	ich	_	O	O	
+5-14	unbekannt	ADJD	unbekannt	_	O	O	
+5-15	ist	VAFIN	sein	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Scusi l'incommodo !
+6-1	Scusi	NE	<unknown>	_	O	O	
+6-2	l'incommodo	NE	<unknown>	_	O	O	
+6-3	!	$.	!	_	O	O	
+
+#id=7
+#text=Herzliche Grüße Ihr Helbig
+7-1	Herzliche	ADJA	herzlich	_	O	O	
+7-2	Grüße	NN	Gruß	_	O	O	
+7-3	Ihr	PPOSAT	ihr	_	O	O	
+7-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

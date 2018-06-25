@@ -1,0 +1,274 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=678 Lepsius an Henzen Berlin, 27. Dezember 1874 2 Ihnen gehen noch die Überschüsse des Jahres zu.
+1-1	678	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	Ihnen	PPER	Sie	_	O	O	
+1-13	gehen	VVFIN	gehen	_	O	O	
+1-14	noch	ADV	noch	_	O	O	
+1-15	die	ART	die	_	O	O	
+1-16	Überschüsse	NN	Überschuss	_	O	O	
+1-17	des	ART	die	_	O	O	
+1-18	Jahres	NN	Jahr	_	O	O	
+1-19	zu	PTKVZ	zu	_	O	O	
+1-20	.	$.	.	_	O	O	
+
+#id=2
+#text=Alle sächlichen Ausgaben sind übertragbar auf das nächste Jahr.
+2-1	Alle	PIAT	alle	_	O	O	
+2-2	sächlichen	ADJA	sächlich	_	O	O	
+2-3	Ausgaben	NN	Ausgabe	_	O	O	
+2-4	sind	VAFIN	sein	_	O	O	
+2-5	übertragbar	ADJD	übertragbar	_	O	O	
+2-6	auf	APPR	auf	_	O	O	
+2-7	das	ART	die	_	O	O	
+2-8	nächste	ADJA	nah	_	O	O	
+2-9	Jahr	NN	Jahr	_	O	O	
+2-10	.	$.	.	_	O	O	
+
+#id=3
+#text=Was früher von großen Ausgaben auf den Reservefonds genommen wurde, hat jetzt seine besonderen Titel.
+3-1	Was	PWS	was	_	O	O	
+3-2	früher	ADV	früher	_	O	O	
+3-3	von	APPR	von	_	O	O	
+3-4	großen	ADJA	groß	_	O	O	
+3-5	Ausgaben	NN	Ausgabe	_	O	O	
+3-6	auf	APPR	auf	_	O	O	
+3-7	den	ART	die	_	O	O	
+3-8	Reservefonds	NN	Reservefonds	_	O	O	
+3-9	genommen	VVPP	nehmen	_	O	O	
+3-10	wurde	VAFIN	werden	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	hat	VAFIN	haben	_	O	O	
+3-13	jetzt	ADV	jetzt	_	O	O	
+3-14	seine	PPOSAT	sein	_	O	O	
+3-15	besonderen	ADJA	besonder	_	O	O	
+3-16	Titel	NN	Titel	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Wir können auch jetzt noch beliebig auf ihn anweisen, und müssen es, wenn wir einmal die gesammte Jahreseinnahme überschreiten sollten; dies wünschen wir aber nur in den äußersten Fällen zu thun, da er nie wieder zunehmen kann.
+4-1	Wir	PPER	wir	_	O	O	
+4-2	können	VMFIN	können	_	O	O	
+4-3	auch	ADV	auch	_	O	O	
+4-4	jetzt	ADV	jetzt	_	O	O	
+4-5	noch	ADV	noch	_	O	O	
+4-6	beliebig	ADJD	beliebig	_	O	O	
+4-7	auf	APPR	auf	_	O	O	
+4-8	ihn	PPER	er	_	O	O	
+4-9	anweisen	VVINF	anweisen	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	und	KON	und	_	O	O	
+4-12	müssen	VMFIN	müssen	_	O	O	
+4-13	es	PPER	es	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	wenn	KOUS	wenn	_	O	O	
+4-16	wir	PPER	wir	_	O	O	
+4-17	einmal	ADV	einmal	_	O	O	
+4-18	die	ART	die	_	O	O	
+4-19	gesammte	ADJA	<unknown>	_	O	O	
+4-20	Jahreseinnahme	NN	<unknown>	_	O	O	
+4-21	überschreiten	VVINF	überschreiten	_	O	O	
+4-22	sollten	VMFIN	sollen	_	O	O	
+4-23	;	$.	;	_	O	O	
+4-24	dies	PDS	dies	_	O	O	
+4-25	wünschen	VVFIN	wünschen	_	O	O	
+4-26	wir	PPER	wir	_	O	O	
+4-27	aber	ADV	aber	_	O	O	
+4-28	nur	ADV	nur	_	O	O	
+4-29	in	APPR	in	_	O	O	
+4-30	den	ART	die	_	O	O	
+4-31	äußersten	ADJA	äußer	_	O	O	
+4-32	Fällen	NN	Fall|Fällen	_	O	O	
+4-33	zu	APPR	zu	_	O	O	
+4-34	thun	NE	<unknown>	_	O	O	
+4-35	,	$,	,	_	O	O	
+4-36	da	KOUS	da	_	O	O	
+4-37	er	PPER	er	_	O	O	
+4-38	nie	ADV	nie	_	O	O	
+4-39	wieder	ADV	wieder	_	O	O	
+4-40	zunehmen	VVINF	zunehmen	_	O	O	
+4-41	kann	VMFIN	können	_	O	O	
+4-42	.	$.	.	_	O	O	
+
+#id=5
+#text=Wohl aber kann er uns am Schlusse des Jahres gelegentlich nützlich werden als Vorschußkasse, wenn wir eine im folgenden Jahre erst fällige Summe voraus zu zahlen wünschen, die wir dann an den Reservefonds zurückzahlen; um dies zu erleichtern sollen auch die Zinsen ein Jahr liegen bleiben, ehe sie in Einnahme gestellt werden.
+5-1	Wohl	ADV	wohl	_	O	O	
+5-2	aber	ADV	aber	_	O	O	
+5-3	kann	VMFIN	können	_	O	O	
+5-4	er	PPER	er	_	O	O	
+5-5	uns	PRF	wir	_	O	O	
+5-6	am	APPRART	an	_	O	O	
+5-7	Schlusse	NN	Schluss	_	O	O	
+5-8	des	ART	die	_	O	O	
+5-9	Jahres	NN	Jahr	_	O	O	
+5-10	gelegentlich	ADJD	gelegentlich	_	O	O	
+5-11	nützlich	ADJD	nützlich	_	O	O	
+5-12	werden	VAFIN	werden	_	O	O	
+5-13	als	KOKOM	als	_	O	O	
+5-14	Vorschußkasse	NN	Vorschusskasse	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	wenn	KOUS	wenn	_	O	O	
+5-17	wir	PPER	wir	_	O	O	
+5-18	eine	PIS	eine	_	O	O	
+5-19	im	APPRART	in	_	O	O	
+5-20	folgenden	ADJA	folgend	_	O	O	
+5-21	Jahre	NN	Jahr	_	O	O	
+5-22	erst	ADV	erst	_	O	O	
+5-23	fällige	ADJA	fällig	_	O	O	
+5-24	Summe	NN	Summe	_	O	O	
+5-25	voraus	PTKVZ	voraus	_	O	O	
+5-26	zu	PTKZU	zu	_	O	O	
+5-27	zahlen	VVINF	zahlen	_	O	O	
+5-28	wünschen	VVFIN	wünschen	_	O	O	
+5-29	,	$,	,	_	O	O	
+5-30	die	PRELS	die	_	O	O	
+5-31	wir	PPER	wir	_	O	O	
+5-32	dann	ADV	dann	_	O	O	
+5-33	an	APPR	an	_	O	O	
+5-34	den	ART	die	_	O	O	
+5-35	Reservefonds	NN	Reservefonds	_	O	O	
+5-36	zurückzahlen	VVFIN	zurückzahlen	_	O	O	
+5-37	;	$.	;	_	O	O	
+5-38	um	KOUI	um	_	O	O	
+5-39	dies	PDS	dies	_	O	O	
+5-40	zu	PTKZU	zu	_	O	O	
+5-41	erleichtern	VVINF	erleichtern	_	O	O	
+5-42	sollen	VMFIN	sollen	_	O	O	
+5-43	auch	ADV	auch	_	O	O	
+5-44	die	ART	die	_	O	O	
+5-45	Zinsen	NN	Zins	_	O	O	
+5-46	ein	ART	eine	_	O	O	
+5-47	Jahr	NN	Jahr	_	O	O	
+5-48	liegen	VVINF	liegen	_	O	O	
+5-49	bleiben	VVINF	bleiben	_	O	O	
+5-50	,	$,	,	_	O	O	
+5-51	ehe	KOUS	ehe	_	O	O	
+5-52	sie	PPER	sie	_	O	O	
+5-53	in	APPR	in	_	O	O	
+5-54	Einnahme	NN	Einnahme	_	O	O	
+5-55	gestellt	VVPP	stellen	_	O	O	
+5-56	werden	VAFIN	werden	_	O	O	
+5-57	.	$.	.	_	O	O	
+
+#id=6
+#text=Es wäre mir nun lieb, wenn Sie mir recht bald den Rest des Reservefonds durch die Legationskasse zusenden könnten, damit wir damit die Rechnung Matz in Ordnung bringen können.
+6-1	Es	PPER	es	_	O	O	
+6-2	wäre	VAFIN	sein	_	O	O	
+6-3	mir	PPER	ich	_	O	O	
+6-4	nun	ADV	nun	_	O	O	
+6-5	lieb	ADJD	lieb	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	wenn	KOUS	wenn	_	O	O	
+6-8	Sie	PPER	Sie	_	O	O	
+6-9	mir	PPER	ich	_	O	O	
+6-10	recht	ADJD	recht	_	O	O	
+6-11	bald	ADV	bald	_	O	O	
+6-12	den	ART	die	_	O	O	
+6-13	Rest	NN	Rest	_	O	O	
+6-14	des	ART	die	_	O	O	
+6-15	Reservefonds	NN	Reservefonds	_	O	O	
+6-16	durch	APPR	durch	_	O	O	
+6-17	die	ART	die	_	O	O	
+6-18	Legationskasse	NN	<unknown>	_	O	O	
+6-19	zusenden	VVINF	zusenden	_	O	O	
+6-20	könnten	VMFIN	können	_	O	O	
+6-21	,	$,	,	_	O	O	
+6-22	damit	KOUS	damit	_	O	O	
+6-23	wir	PPER	wir	_	O	O	
+6-24	damit	PAV	damit	_	O	O	
+6-25	die	ART	die	_	O	O	
+6-26	Rechnung	NN	Rechnung	_	O	O	
+6-27	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-28	in	APPR	in	_	O	O	
+6-29	Ordnung	NN	Ordnung	_	O	O	
+6-30	bringen	VVINF	bringen	_	O	O	
+6-31	können	VMFIN	können	_	O	O	
+6-32	.	$.	.	_	O	O	
+
+#id=7
+#text=Daß dieser vortreffliche Freund im Sterben liegt, ist Ihnen vielleicht schon gemeldet worden.
+7-1	Daß	KOUS	dass	_	O	O	
+7-2	dieser	PDS	diese	_	O	O	
+7-3	vortreffliche	ADJA	vortrefflich	_	O	O	
+7-4	Freund	NN	Freund	_	O	O	
+7-5	im	APPRART	in	_	O	O	
+7-6	Sterben	NN	Sterben	_	O	O	
+7-7	liegt	VVFIN	liegen	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	ist	VAFIN	sein	_	O	O	
+7-10	Ihnen	PPER	Sie	_	O	O	
+7-11	vielleicht	ADV	vielleicht	_	O	O	
+7-12	schon	ADV	schon	_	O	O	
+7-13	gemeldet	VVPP	melden	_	O	O	
+7-14	worden	VAPP	werden	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=Gestern Abend ist sein Vater, selber Arzt, an sein Sterbebett gekommen.
+8-1	Gestern	ADV	gestern	_	O	O	
+8-2	Abend	ADV	abend	_	O	O	
+8-3	ist	VAFIN	sein	_	O	O	
+8-4	sein	PPOSAT	sein	_	O	O	
+8-5	Vater	NN	Vater	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	selber	ADV	selber	_	O	O	
+8-8	Arzt	NN	Arzt	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	an	APPR	an	_	O	O	
+8-11	sein	PPOSAT	sein	_	O	O	
+8-12	Sterbebett	NN	Sterbebett	_	O	O	
+8-13	gekommen	VVPP	kommen	_	O	O	
+8-14	.	$.	.	_	O	O	
+
+#id=9
+#text=Die Lunge hat sich nach dem ersten Blutsturze, der durch eine Erkältung nach Erhitzung durch die Vorlesung erfolgte, in rapidester Weise verzehrt; alle Hoffnung ist aufgegeben, schon nach 18 Tagen.
+9-1	Die	ART	die	_	O	O	
+9-2	Lunge	NN	Lunge	_	O	O	
+9-3	hat	VAFIN	haben	_	O	O	
+9-4	sich	PRF	sich	_	O	O	
+9-5	nach	APPR	nach	_	O	O	
+9-6	dem	ART	die	_	O	O	
+9-7	ersten	ADJA	erst	_	O	O	
+9-8	Blutsturze	NN	<unknown>	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	der	PRELS	die	_	O	O	
+9-11	durch	APPR	durch	_	O	O	
+9-12	eine	ART	eine	_	O	O	
+9-13	Erkältung	NN	Erkältung	_	O	O	
+9-14	nach	APPR	nach	_	O	O	
+9-15	Erhitzung	NN	Erhitzung	_	O	O	
+9-16	durch	APPR	durch	_	O	O	
+9-17	die	ART	die	_	O	O	
+9-18	Vorlesung	NN	Vorlesung	_	O	O	
+9-19	erfolgte	VVFIN	erfolgen	_	O	O	
+9-20	,	$,	,	_	O	O	
+9-21	in	APPR	in	_	O	O	
+9-22	rapidester	ADJA	<unknown>	_	O	O	
+9-23	Weise	NN	Weise	_	O	O	
+9-24	verzehrt	VVPP	verzehren	_	O	O	
+9-25	;	$.	;	_	O	O	
+9-26	alle	PIAT	alle	_	O	O	
+9-27	Hoffnung	NN	Hoffnung	_	O	O	
+9-28	ist	VAFIN	sein	_	O	O	
+9-29	aufgegeben	VVPP	aufgeben	_	O	O	
+9-30	,	$,	,	_	O	O	
+9-31	schon	ADV	schon	_	O	O	
+9-32	nach	APPR	nach	_	O	O	
+9-33	18	CARD	18	_	O	O	
+9-34	Tagen	NN	Tag	_	O	O	
+9-35	.	$.	.	_	O	O	
+
+#id=10
+#text=Der
+10-1	Der	ART	die	_	O	O	
+

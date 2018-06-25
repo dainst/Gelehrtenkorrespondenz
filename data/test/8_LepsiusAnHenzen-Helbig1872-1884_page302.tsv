@@ -1,0 +1,239 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=81 Verehrter Freund Lepsius an Henzen Berlin, 30. Januar 1877 g. 3/2 77 r.
+1-1	81	CARD	@card@	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	3/2	CARD	3/2	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	77	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=5/2 Berlin, den 30. Jan.
+2-1	5/2	CARD	5/2	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-3	,	$,	,	_	O	O	
+2-4	den	ART	die	_	O	O	
+2-5	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=3
+#text=1877.
+3-1	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-2	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich muß wegen des Jeffroy um Entschuldigung bitten.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	muß	VMFIN	müssen	_	O	O	
+4-3	wegen	APPR	wegen	_	O	O	
+4-4	des	ART	die	_	O	O	
+4-5	Jeffroy	NN	<unknown>	_	O	O	
+4-6	um	APPR	um	_	O	O	
+4-7	Entschuldigung	NN	Entschuldigung	_	O	O	
+4-8	bitten	VVINF	bitten	_	O	O	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Sache ist bereits längst erledigt worden und ich glaubte Ihnen das Resultat mitgetheilt zu haben.
+5-1	Die	ART	die	_	O	O	
+5-2	Sache	NN	Sache	_	O	O	
+5-3	ist	VAFIN	sein	_	O	O	
+5-4	bereits	ADV	bereits	_	O	O	
+5-5	längst	ADV	längst	_	O	O	
+5-6	erledigt	VVPP	erledigen	_	O	O	
+5-7	worden	VAPP	werden	_	O	O	
+5-8	und	KON	und	_	O	O	
+5-9	ich	PPER	ich	_	O	O	
+5-10	glaubte	VVFIN	glauben	_	O	O	
+5-11	Ihnen	PPER	Sie	_	O	O	
+5-12	das	ART	die	_	O	O	
+5-13	Resultat	NN	Resultat	_	O	O	
+5-14	mitgetheilt	VVPP	<unknown>	_	O	O	
+5-15	zu	PTKZU	zu	_	O	O	
+5-16	haben	VAINF	haben	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Herren haben alle meinem Vorschlage durch Umlauf beigestimmt, daß dem Herrn Jeffroy die fehlenden Monumente, deren Fortsetzung er nebst den andern Werken kaufen wird, geschenkweise zu überlassen seien.
+6-1	Die	ART	die	_	O	O	
+6-2	Herren	NN	Herr	_	O	O	
+6-3	haben	VAFIN	haben	_	O	O	
+6-4	alle	PIS	alle	_	O	O	
+6-5	meinem	PPOSAT	mein	_	O	O	
+6-6	Vorschlage	NN	Vorschlag	_	O	O	
+6-7	durch	APPR	durch	_	O	O	
+6-8	Umlauf	NN	Umlauf	_	O	O	
+6-9	beigestimmt	VVFIN	<unknown>	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	daß	KOUS	dass	_	O	O	
+6-12	dem	ART	die	_	O	O	
+6-13	Herrn	NN	Herr	_	O	O	
+6-14	Jeffroy	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-15	die	ART	die	_	O	O	
+6-16	fehlenden	ADJA	fehlend	_	O	O	
+6-17	Monumente	NN	Monument	_	O	O	
+6-18	,	$,	,	_	O	O	
+6-19	deren	PRELAT	die	_	O	O	
+6-20	Fortsetzung	NN	Fortsetzung	_	O	O	
+6-21	er	PPER	er	_	O	O	
+6-22	nebst	APPR	nebst	_	O	O	
+6-23	den	ART	die	_	O	O	
+6-24	andern	PIAT	andere	_	O	O	
+6-25	Werken	NN	Werk	_	O	O	
+6-26	kaufen	VVINF	kaufen	_	O	O	
+6-27	wird	VAFIN	werden	_	O	O	
+6-28	,	$,	,	_	O	O	
+6-29	geschenkweise	ADJD	<unknown>	_	O	O	
+6-30	zu	PTKZU	zu	_	O	O	
+6-31	überlassen	VVINF	überlassen	_	O	O	
+6-32	seien	VAFIN	sein	_	O	O	
+6-33	.	$.	.	_	O	O	
+
+#id=7
+#text=Was den Italienischen Mittelsmann betrifft, so sich kannYdie Central Direktion als solche nicht wohl an die Museums Direktion wenden, die mit ihr in keinerlei Verbindung steht und auf ihre Initiative in solchen Dingen sehr eifersüchtig ist.
+7-1	Was	PWS	was	_	O	O	
+7-2	den	ART	die	_	O	O	
+7-3	Italienischen	ADJA	italienisch	_	O	O	
+7-4	Mittelsmann	NN	Mittelsmann	_	O	O	
+7-5	betrifft	VVFIN	betreffen	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	so	ADV	so	_	O	O	
+7-8	sich	PRF	sich	_	O	O	
+7-9	kannYdie	NE	<unknown>	_	O	O	
+7-10	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-11	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+7-12	als	KOKOM	als	_	O	O	
+7-13	solche	PIS	solche	_	O	O	
+7-14	nicht	PTKNEG	nicht	_	O	O	
+7-15	wohl	ADV	wohl	_	O	O	
+7-16	an	APPR	an	_	O	O	
+7-17	die	ART	die	_	O	O	
+7-18	Museums	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-19	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+7-20	wenden	VVFIN	wenden	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	die	PRELS	die	_	O	O	
+7-23	mit	APPR	mit	_	O	O	
+7-24	ihr	PPOSAT	ihr	_	O	O	
+7-25	in	APPR	in	_	O	O	
+7-26	keinerlei	PIAT	keinerlei	_	O	O	
+7-27	Verbindung	NN	Verbindung	_	O	O	
+7-28	steht	VVFIN	stehen	_	O	O	
+7-29	und	KON	und	_	O	O	
+7-30	auf	APPR	auf	_	O	O	
+7-31	ihre	PPOSAT	ihr	_	O	O	
+7-32	Initiative	NN	Initiative	_	O	O	
+7-33	in	APPR	in	_	O	O	
+7-34	solchen	PIAT	solche	_	O	O	
+7-35	Dingen	NN	Ding	_	O	O	
+7-36	sehr	ADV	sehr	_	O	O	
+7-37	eifersüchtig	ADJD	eifersüchtig	_	O	O	
+7-38	ist	VAFIN	sein	_	O	O	
+7-39	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich kann nur persönlich die Sache wie schon früher wieder in Anregung bringen, wahrscheinlich wieder ohne Erfolg.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	kann	VMFIN	können	_	O	O	
+8-3	nur	ADV	nur	_	O	O	
+8-4	persönlich	ADJD	persönlich	_	O	O	
+8-5	die	ART	die	_	O	O	
+8-6	Sache	NN	Sache	_	O	O	
+8-7	wie	KOKOM	wie	_	O	O	
+8-8	schon	ADV	schon	_	O	O	
+8-9	früher	ADV	früher	_	O	O	
+8-10	wieder	ADV	wieder	_	O	O	
+8-11	in	APPR	in	_	O	O	
+8-12	Anregung	NN	Anregung	_	O	O	
+8-13	bringen	VVINF	bringen	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+8-16	wieder	ADV	wieder	_	O	O	
+8-17	ohne	APPR	ohne	_	O	O	
+8-18	Erfolg	NN	Erfolg	_	O	O	
+8-19	.	$.	.	_	O	O	
+
+#id=9
+#text=Förmlich beantragen mit Bitte um Erledigung der Sache könnte das nur Helbig.
+9-1	Förmlich	ADJD	förmlich	_	O	O	
+9-2	beantragen	VVFIN	beantragen	_	O	O	
+9-3	mit	APPR	mit	_	O	O	
+9-4	Bitte	NN	Bitte	_	O	O	
+9-5	um	APPR	um	_	O	O	
+9-6	Erledigung	NN	Erledigung	_	O	O	
+9-7	der	ART	die	_	O	O	
+9-8	Sache	NN	Sache	_	O	O	
+9-9	könnte	VMFIN	können	_	O	O	
+9-10	das	PDS	die	_	O	O	
+9-11	nur	ADV	nur	_	O	O	
+9-12	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich sehe auch keinen Grund warum er es nicht thun sollte.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	sehe	VVFIN	sehen	_	O	O	
+10-3	auch	ADV	auch	_	O	O	
+10-4	keinen	PIAT	keine	_	O	O	
+10-5	Grund	NN	Grund	_	O	O	
+10-6	warum	PWAV	warum	_	O	O	
+10-7	er	PPER	er	_	O	O	
+10-8	es	PPER	es	_	O	O	
+10-9	nicht	PTKNEG	nicht	_	O	O	
+10-10	thun	NE	<unknown>	_	O	O	
+10-11	sollte	VMFIN	sollen	_	O	O	
+10-12	.	$.	.	_	O	O	
+
+#id=11
+#text=Die Entscheidung über die Festfeier wird wohl der General Versammlung vorzubehalten sein.
+11-1	Die	ART	die	_	O	O	
+11-2	Entscheidung	NN	Entscheidung	_	O	O	
+11-3	über	APPR	über	_	O	O	
+11-4	die	ART	die	_	O	O	
+11-5	Festfeier	NN	<unknown>	_	O	O	
+11-6	wird	VAFIN	werden	_	O	O	
+11-7	wohl	ADV	wohl	_	O	O	
+11-8	der	ART	die	_	O	O	
+11-9	General	NN	General	_	O	O	
+11-10	Versammlung	NN	Versammlung	_	O	O	
+11-11	vorzubehalten	VVIZU	vorbehalten	_	O	O	
+11-12	sein	VAINF	sein	_	O	O	
+11-13	.	$.	.	_	O	O	
+
+#id=12
+#text=Mein persönliches Gefühl, wenn ich das gleich nach Lesung Ihres Briefs äußern darf, würde nicht für ein Jubiläum nach 49
+12-1	Mein	PPOSAT	mein	_	O	O	
+12-2	persönliches	ADJA	persönlich	_	O	O	
+12-3	Gefühl	NN	Gefühl	_	O	O	
+12-4	,	$,	,	_	O	O	
+12-5	wenn	KOUS	wenn	_	O	O	
+12-6	ich	PPER	ich	_	O	O	
+12-7	das	PDS	die	_	O	O	
+12-8	gleich	ADJD	gleich	_	O	O	
+12-9	nach	APPR	nach	_	O	O	
+12-10	Lesung	NN	Lesung	_	O	O	
+12-11	Ihres	PPOSAT	ihr	_	O	O	
+12-12	Briefs	NN	Brief	_	O	O	
+12-13	äußern	VVINF	äußern	_	O	O	
+12-14	darf	VMFIN	dürfen	_	O	O	
+12-15	,	$,	,	_	O	O	
+12-16	würde	VAFIN	werden	_	O	O	
+12-17	nicht	PTKNEG	nicht	_	O	O	
+12-18	für	APPR	für	_	O	O	
+12-19	ein	ART	eine	_	O	O	
+12-20	Jubiläum	NN	Jubiläum	_	O	O	
+12-21	nach	APPR	nach	_	O	O	
+12-22	49	CARD	@card@	_	O	O	
+

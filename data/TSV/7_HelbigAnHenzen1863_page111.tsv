@@ -1,0 +1,259 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=403 Helbig an Henzen Dresden, 5. September 1868 3 nicht wußte, ob es vortheilhaft ist, ein in Paris erschienenes Buch bei Calvary zu bestellen, so habe ich den Ankauf nicht abgeschlossen und Calvary gesagt, er möchte Ihre Anweisung abwarten.
+1-1	403	CARD	@card@	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1868	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	3	CARD	3	_	O	O	
+1-12	nicht	PTKNEG	nicht	_	O	O	
+1-13	wußte	VVFIN	wissen	_	O	O	
+1-14	,	$,	,	_	O	O	
+1-15	ob	KOUS	ob	_	O	O	
+1-16	es	PPER	es	_	O	O	
+1-17	vortheilhaft	ADJD	<unknown>	_	O	O	
+1-18	ist	VAFIN	sein	_	O	O	
+1-19	,	$,	,	_	O	O	
+1-20	ein	ART	eine	_	O	O	
+1-21	in	APPR	in	_	O	O	
+1-22	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-23	erschienenes	ADJA	erschienen	_	O	O	
+1-24	Buch	NN	Buch	_	O	O	
+1-25	bei	APPR	bei	_	O	O	
+1-26	Calvary	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-27	zu	PTKZU	zu	_	O	O	
+1-28	bestellen	VVINF	bestellen	_	O	O	
+1-29	,	$,	,	_	O	O	
+1-30	so	ADV	so	_	O	O	
+1-31	habe	VAFIN	haben	_	O	O	
+1-32	ich	PPER	ich	_	O	O	
+1-33	den	ART	die	_	O	O	
+1-34	Ankauf	NN	Ankauf	_	O	O	
+1-35	nicht	PTKNEG	nicht	_	O	O	
+1-36	abgeschlossen	VVPP	abschließen	_	O	O	
+1-37	und	KON	und	_	O	O	
+1-38	Calvary	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-39	gesagt	VVPP	sagen	_	O	O	
+1-40	,	$,	,	_	O	O	
+1-41	er	PPER	er	_	O	O	
+1-42	möchte	VMFIN	mögen	_	O	O	
+1-43	Ihre	PPOSAT	ihr	_	O	O	
+1-44	Anweisung	NN	Anweisung	_	O	O	
+1-45	abwarten	VVINF	abwarten	_	O	O	
+1-46	.	$.	.	_	O	O	
+
+#id=2
+#text=( Am rande : Ja ! )
+2-1	(	$(	(	_	O	O	
+2-2	Am	APPRART	an	_	O	O	
+2-3	rande	NN	Rand	_	O	O	
+2-4	:	$.	:	_	O	O	
+2-5	Ja	PTKANT	ja	_	O	O	
+2-6	!	$.	!	_	O	O	
+2-7	)	$(	)	_	O	O	
+
+#id=3
+#text=- Mit Bleistift zwischen o ) dem Absatz : Mommsen Di~est für mich: ferner, für mich, wenn noch nicht bestellt, Hieronymus von Schöne ) In Dresden habe ich Ihren freundlichen Brief vom 20. September vorgefunden und danke Ihnen dafür herzlich.
+3-1	-	$(	-	_	O	O	
+3-2	Mit	APPR	mit	_	O	O	
+3-3	Bleistift	NN	Bleistift	_	O	O	
+3-4	zwischen	APPR	zwischen	_	O	O	
+3-5	o	ADJD	<unknown>	_	O	O	
+3-6	)	$(	)	_	O	O	
+3-7	dem	ART	die	_	O	O	
+3-8	Absatz	NN	Absatz	_	O	O	
+3-9	:	$.	:	_	O	O	
+3-10	Mommsen	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-11	Di~est	NN	<unknown>	_	O	O	
+3-12	für	APPR	für	_	O	O	
+3-13	mich	PRF	ich	_	O	O	
+3-14	:	$.	:	_	O	O	
+3-15	ferner	ADJD	fern	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	für	APPR	für	_	O	O	
+3-18	mich	PPER	ich	_	O	O	
+3-19	,	$,	,	_	O	O	
+3-20	wenn	KOUS	wenn	_	O	O	
+3-21	noch	ADV	noch	_	O	O	
+3-22	nicht	PTKNEG	nicht	_	O	O	
+3-23	bestellt	VVPP	bestellen	_	O	O	
+3-24	,	$,	,	_	O	O	
+3-25	Hieronymus	NE	Hieronymus	_	O	O	
+3-26	von	APPR	von	_	O	O	
+3-27	Schöne	NN	Schöne	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-28	)	$(	)	_	O	O	
+3-29	In	APPR	in	_	O	O	
+3-30	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-31	habe	VAFIN	haben	_	O	O	
+3-32	ich	PPER	ich	_	O	O	
+3-33	Ihren	PPOSAT	ihr	_	O	O	
+3-34	freundlichen	ADJA	freundlich	_	O	O	
+3-35	Brief	NN	Brief	_	O	O	
+3-36	vom	APPRART	von	_	O	O	
+3-37	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-38	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-39	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-40	vorgefunden	VVPP	vorfinden	_	O	O	
+3-41	und	KON	und	_	O	O	
+3-42	danke	VVFIN	danken	_	O	O	
+3-43	Ihnen	PPER	Sie	_	O	O	
+3-44	dafür	PAV	dafür	_	O	O	
+3-45	herzlich	ADJD	herzlich	_	O	O	
+3-46	.	$.	.	_	O	O	
+
+#id=4
+#text=Zugleich fand ich aber auch 12 Correcturbogen, den Rest meines Buches und die Abhandlung Donners, welche mir gehörig zu thun geben.
+4-1	Zugleich	ADV	zugleich	_	O	O	
+4-2	fand	VVFIN	finden	_	O	O	
+4-3	ich	PPER	ich	_	O	O	
+4-4	aber	ADV	aber	_	O	O	
+4-5	auch	ADV	auch	_	O	O	
+4-6	12	CARD	12	_	O	O	
+4-7	Correcturbogen	NN	<unknown>	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	den	ART	die	_	O	O	
+4-10	Rest	NN	Rest	_	O	O	
+4-11	meines	PPOSAT	mein	_	O	O	
+4-12	Buches	NN	Buch	_	O	O	
+4-13	und	KON	und	_	O	O	
+4-14	die	ART	die	_	O	O	
+4-15	Abhandlung	NN	Abhandlung	_	O	O	
+4-16	Donners	NN	Donner	_	O	O	
+4-17	,	$,	,	_	O	O	
+4-18	welche	PRELS	welche	_	O	O	
+4-19	mir	PRF	ich	_	O	O	
+4-20	gehörig	ADJD	gehörig	_	O	O	
+4-21	zu	APPR	zu	_	O	O	
+4-22	thun	NE	<unknown>	_	O	O	
+4-23	geben	VVFIN	geben	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=Es wäre mir sehr lieb, wenn ich diese Arbeit noch in Dresden absolviren und zugleich noch eine Zeit lang mit den Meinigen zubringen könnte, die ich auf der Durchreise nach Rußland nur flüchtig gesehen habe.
+5-1	Es	PPER	es	_	O	O	
+5-2	wäre	VAFIN	sein	_	O	O	
+5-3	mir	PPER	ich	_	O	O	
+5-4	sehr	ADV	sehr	_	O	O	
+5-5	lieb	ADJD	lieb	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	wenn	KOUS	wenn	_	O	O	
+5-8	ich	PPER	ich	_	O	O	
+5-9	diese	PDAT	dies	_	O	O	
+5-10	Arbeit	NN	Arbeit	_	O	O	
+5-11	noch	ADV	noch	_	O	O	
+5-12	in	APPR	in	_	O	O	
+5-13	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-14	absolviren	ADJA	<unknown>	_	O	O	
+5-15	und	KON	und	_	O	O	
+5-16	zugleich	ADV	zugleich	_	O	O	
+5-17	noch	ADV	noch	_	O	O	
+5-18	eine	ART	eine	_	O	O	
+5-19	Zeit	NN	Zeit	_	O	O	
+5-20	lang	ADJD	lang	_	O	O	
+5-21	mit	APPR	mit	_	O	O	
+5-22	den	ART	die	_	O	O	
+5-23	Meinigen	PPOSS	meinig	_	O	O	
+5-24	zubringen	VVINF	zubringen	_	O	O	
+5-25	könnte	VMFIN	können	_	O	O	
+5-26	,	$,	,	_	O	O	
+5-27	die	PRELS	die	_	O	O	
+5-28	ich	PPER	ich	_	O	O	
+5-29	auf	APPR	auf	_	O	O	
+5-30	der	ART	die	_	O	O	
+5-31	Durchreise	NN	Durchreise	_	O	O	
+5-32	nach	APPR	nach	_	O	O	
+5-33	Rußland	NE	Russland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-34	nur	ADV	nur	_	O	O	
+5-35	flüchtig	ADJD	flüchtig	_	O	O	
+5-36	gesehen	VVPP	sehen	_	O	O	
+5-37	habe	VAFIN	haben	_	O	O	
+5-38	.	$.	.	_	O	O	
+
+#id=6
+#text=Allerdings aber möchte ich von Ihnen erfahren, ob mein längeres Ausbleiben Sie in unbequemer Weise geniren und die Institutsinteressen beeinträchtigen würde.
+6-1	Allerdings	ADV	allerdings	_	O	O	
+6-2	aber	ADV	aber	_	O	O	
+6-3	möchte	VMFIN	mögen	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	von	APPR	von	_	O	O	
+6-6	Ihnen	PPER	Sie	_	O	O	
+6-7	erfahren	VVPP	erfahren	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	ob	KOUS	ob	_	O	O	
+6-10	mein	PPOSAT	mein	_	O	O	
+6-11	längeres	ADJA	lang	_	O	O	
+6-12	Ausbleiben	NN	Ausbleiben	_	O	O	
+6-13	Sie	PPER	Sie	_	O	O	
+6-14	in	APPR	in	_	O	O	
+6-15	unbequemer	ADJA	unbequem	_	O	O	
+6-16	Weise	NN	Weise	_	O	O	
+6-17	geniren	NN	<unknown>	_	O	O	
+6-18	und	KON	und	_	O	O	
+6-19	die	ART	die	_	O	O	
+6-20	Institutsinteressen	NN	<unknown>	_	O	O	
+6-21	beeinträchtigen	VVINF	beeinträchtigen	_	O	O	
+6-22	würde	VAFIN	werden	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Unter allen Umständen können Sie davon überzeugt sein, daß ich nicht später als den 1. October in Rom eintreffen werde.
+7-1	Unter	APPR	unter	_	O	O	
+7-2	allen	PIAT	alle	_	O	O	
+7-3	Umständen	NN	Umstand	_	O	O	
+7-4	können	VMFIN	können	_	O	O	
+7-5	Sie	PPER	Sie	_	O	O	
+7-6	davon	PAV	davon	_	O	O	
+7-7	überzeugt	VVPP	überzeugen	_	O	O	
+7-8	sein	VAINF	sein	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	daß	KOUS	dass	_	O	O	
+7-11	ich	PPER	ich	_	O	O	
+7-12	nicht	PTKNEG	nicht	_	O	O	
+7-13	später	ADJD	spät	_	O	O	
+7-14	als	KOKOM	als	_	O	O	
+7-15	den	ART	die	_	O	O	
+7-16	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-18	October	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-19	in	APPR	in	_	O	O	
+7-20	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-21	eintreffen	VVINF	eintreffen	_	O	O	
+7-22	werde	VAFIN	werden	_	O	O	
+7-23	.	$.	.	_	O	O	
+
+#id=8
+#text=Halten Sie es aber für angemessen, daß ich eher komme, so bitte ich, mir sofort darüber zu schreiben.
+8-1	Halten	VVFIN	halten	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	es	PPER	es	_	O	O	
+8-4	aber	ADV	aber	_	O	O	
+8-5	für	APPR	für	_	O	O	
+8-6	angemessen	ADJD	angemessen	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	daß	KOUS	dass	_	O	O	
+8-9	ich	PPER	ich	_	O	O	
+8-10	eher	ADV	eher	_	O	O	
+8-11	komme	VVFIN	kommen	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	so	ADV	so	_	O	O	
+8-14	bitte	VVFIN	bitten	_	O	O	
+8-15	ich	PPER	ich	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	mir	PRF	ich	_	O	O	
+8-18	sofort	ADV	sofort	_	O	O	
+8-19	darüber	PAV	darüber	_	O	O	
+8-20	zu	PTKZU	zu	_	O	O	
+8-21	schreiben	VVINF	schreiben	_	O	O	
+8-22	.	$.	.	_	O	O	
+
+#id=9
+#text=Was weitere
+9-1	Was	PWS	was	_	O	O	
+9-2	weitere	ADJA	weit	_	O	O	
+

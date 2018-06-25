@@ -1,0 +1,195 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=54 20/11/54 3 Henzen an Gerhard frieden sein würden.
+1-1	54	CARD	54	_	O	O	
+1-2	20/11/54	CARD	@card@	_	O	O	
+1-3	3	CARD	3	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	frieden	VVINF	frieden	_	O	O	
+1-8	sein	VAINF	sein	_	O	O	
+1-9	würden	VAFIN	werden	_	O	O	
+1-10	.	$.	.	_	O	O	
+
+#id=2
+#text=Er grüßt Sie bestens.
+2-1	Er	PPER	er	_	O	O	
+2-2	grüßt	VVFIN	grüßen	_	O	O	
+2-3	Sie	PPER	Sie	_	O	O	
+2-4	bestens	ADV	bestens	_	O	O	
+2-5	.	$.	.	_	O	O	
+
+#id=3
+#text=Selbst das Albaner Gebirge bis tief herab voll Schnee, u. Carneval, wie ich höre, unbeschreiblich scheußlich, ich selbst noch dh.
+3-1	Selbst	ADV	selbst	_	O	O	
+3-2	das	ART	die	_	O	O	
+3-3	Albaner	NN	Albaner	_	O	O	
+3-4	Gebirge	NN	Gebirge	_	O	O	
+3-5	bis	APPR	bis	_	O	O	
+3-6	tief	ADJD	tief	_	O	O	
+3-7	herab	ADV	herab	_	O	O	
+3-8	voll	ADJD	voll	_	O	O	
+3-9	Schnee	NN	Schnee	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	u.	APPR	um	_	O	O	
+3-12	Carneval	NN	<unknown>	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	wie	KOUS	wie	_	O	O	
+3-15	ich	PPER	ich	_	O	O	
+3-16	höre	VVFIN	hören	_	O	O	
+3-17	,	$,	,	_	O	O	
+3-18	unbeschreiblich	ADJD	unbeschreiblich	_	O	O	
+3-19	scheußlich	ADJD	scheußlich	_	O	O	
+3-20	,	$,	,	_	O	O	
+3-21	ich	PPER	ich	_	O	O	
+3-22	selbst	ADV	selbst	_	O	O	
+3-23	noch	ADV	noch	_	O	O	
+3-24	dh.	NE	<unknown>	_	O	O	
+
+#id=4
+#text=geschwollne Backen ans' Haus gefesselt.
+4-1	geschwollne	ADJA	<unknown>	_	O	O	
+4-2	Backen	NN	Backe|Backen	_	O	O	
+4-3	ans	APPRART	ans	_	O	O	
+4-4	'	$(	'	_	O	O	
+4-5	Haus	NN	Haus	_	O	O	
+4-6	gefesselt	VVPP	fesseln	_	O	O	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=r Meine Frau dankt der Ihrigen herzlich für ihren liebenswürdigen Brief u. grüßt mit mir Sie beide freundllichst.
+5-1	r	NE	r	_	O	O	
+5-2	Meine	PPOSAT	mein	_	O	O	
+5-3	Frau	NN	Frau	_	O	O	
+5-4	dankt	VVFIN	danken	_	O	O	
+5-5	der	ART	die	_	O	O	
+5-6	Ihrigen	NN	<unknown>	_	O	O	
+5-7	herzlich	ADJD	herzlich	_	O	O	
+5-8	für	APPR	für	_	O	O	
+5-9	ihren	PPOSAT	ihr	_	O	O	
+5-10	liebenswürdigen	ADJA	liebenswürdig	_	O	O	
+5-11	Brief	NN	Brief	_	O	O	
+5-12	u.	KON	und	_	O	O	
+5-13	grüßt	VVFIN	grüßen	_	O	O	
+5-14	mit	APPR	mit	_	O	O	
+5-15	mir	PPER	ich	_	O	O	
+5-16	Sie	PPER	Sie	_	O	O	
+5-17	beide	PIS	beide	_	O	O	
+5-18	freundllichst	VVFIN	<unknown>	_	O	O	
+5-19	.	$.	.	_	O	O	
+
+#id=6
+#text=Einliegenden Brief an Friedlaender empfehle ich • .
+6-1	Einliegenden	ADJA	<unknown>	_	O	O	
+6-2	Brief	NN	Brief	_	O	O	
+6-3	an	APPR	an	_	O	O	
+6-4	Friedlaender	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	empfehle	VVFIN	empfehlen	_	O	O	
+6-6	ich	PPER	ich	_	O	O	
+6-7	•	ADJD	<unknown>	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=-- Ihr ercebenster w. Henzen Rom 20/11 54. r Dominus Piper reist übermorgen nach Neapel, nachdem er sieb hier in Ermangelung jeglichen Italienisch ode Französisch mit Lateinisch alle meglio durchgeholfen; schließlich sehr befriedigt, da er zu guter Letzt mehr erreicht, als zu erwarten war, bes.
+7-1	--	$(	--	_	O	O	
+7-2	Ihr	PPOSAT	ihr	_	O	O	
+7-3	ercebenster	NN	<unknown>	_	O	O	
+7-4	w.	APPR	w.	_	O	O	
+7-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+7-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+7-7	20/11	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+7-8	54	CARD	54	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-9	.	$.	.	_	O	O	
+7-10	r	NE	r	_	O	O	
+7-11	Dominus	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-12	Piper	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-13	reist	VVFIN	reisen	_	O	O	
+7-14	übermorgen	ADV	übermorgen	_	O	O	
+7-15	nach	APPR	nach	_	O	O	
+7-16	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-17	,	$,	,	_	O	O	
+7-18	nachdem	KOUS	nachdem	_	O	O	
+7-19	er	PPER	er	_	O	O	
+7-20	sieb	VVIMP	sieben	_	O	O	
+7-21	hier	ADV	hier	_	O	O	
+7-22	in	APPR	in	_	O	O	
+7-23	Ermangelung	NN	Ermangelung	_	O	O	
+7-24	jeglichen	PIAT	jegliche	_	O	O	
+7-25	Italienisch	NN	italienisch	_	O	O	
+7-26	ode	ADJA	<unknown>	_	O	O	
+7-27	Französisch	NN	Französisch	_	O	O	
+7-28	mit	APPR	mit	_	O	O	
+7-29	Lateinisch	NN	<unknown>	_	O	O	
+7-30	alle	PIAT	alle	_	O	O	
+7-31	meglio	NN	<unknown>	_	O	O	
+7-32	durchgeholfen	VVFIN	<unknown>	_	O	O	
+7-33	;	$.	;	_	O	O	
+7-34	schließlich	ADV	schließlich	_	O	O	
+7-35	sehr	ADV	sehr	_	O	O	
+7-36	befriedigt	VVFIN	befriedigen	_	O	O	
+7-37	,	$,	,	_	O	O	
+7-38	da	KOUS	da	_	O	O	
+7-39	er	PPER	er	_	O	O	
+7-40	zu	APPR	zu	_	O	O	
+7-41	guter	ADJA	gut	_	O	O	
+7-42	Letzt	NN	letzt	_	O	O	
+7-43	mehr	ADV	mehr	_	O	O	
+7-44	erreicht	VVPP	erreichen	_	O	O	
+7-45	,	$,	,	_	O	O	
+7-46	als	KOUS	als	_	O	O	
+7-47	zu	PTKZU	zu	_	O	O	
+7-48	erwarten	VVINF	erwarten	_	O	O	
+7-49	war	VAFIN	sein	_	O	O	
+7-50	,	$,	,	_	O	O	
+7-51	bes.	VVFIN	<unknown>	_	O	O	
+
+#id=8
+#text=dh.
+8-1	dh.	NE	<unknown>	_	O	O	
+
+#id=9
+#text=de Rossi's Verwendung, mit dem ich ihn Gleich bekannt machte.
+9-1	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	Rossi's	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-3	Verwendung	NN	Verwendung	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	mit	APPR	mit	_	O	O	
+9-6	dem	PRELS	die	_	O	O	
+9-7	ich	PPER	ich	_	O	O	
+9-8	ihn	PPER	er	_	O	O	
+9-9	Gleich	NN	<unknown>	_	O	O	
+9-10	bekannt	ADJD	bekannt	_	O	O	
+9-11	machte	VVFIN	machen	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Es ist doch ein sehr guter Eerl; Ihre Empfehlung hatte mir anfangs etwas bange gemacht, aber ich hatte sie wohl etwas zu ßpitzfindig interpretirt.
+10-1	Es	PPER	es	_	O	O	
+10-2	ist	VAFIN	sein	_	O	O	
+10-3	doch	ADV	doch	_	O	O	
+10-4	ein	ART	eine	_	O	O	
+10-5	sehr	ADV	sehr	_	O	O	
+10-6	guter	ADJA	gut	_	O	O	
+10-7	Eerl	NE	<unknown>	_	O	O	
+10-8	;	$.	;	_	O	O	
+10-9	Ihre	PPOSAT	ihr	_	O	O	
+10-10	Empfehlung	NN	Empfehlung	_	O	O	
+10-11	hatte	VAFIN	haben	_	O	O	
+10-12	mir	PPER	ich	_	O	O	
+10-13	anfangs	ADV	anfangs	_	O	O	
+10-14	etwas	ADV	etwas	_	O	O	
+10-15	bange	ADJD	bange	_	O	O	
+10-16	gemacht	VVPP	machen	_	O	O	
+10-17	,	$,	,	_	O	O	
+10-18	aber	KON	aber	_	O	O	
+10-19	ich	PPER	ich	_	O	O	
+10-20	hatte	VAFIN	haben	_	O	O	
+10-21	sie	PPER	sie	_	O	O	
+10-22	wohl	ADV	wohl	_	O	O	
+10-23	etwas	ADV	etwas	_	O	O	
+10-24	zu	PTKA	zu	_	O	O	
+10-25	ßpitzfindig	ADJD	<unknown>	_	O	O	
+10-26	interpretirt	NN	<unknown>	_	O	O	
+10-27	.	$.	.	_	O	O	
+

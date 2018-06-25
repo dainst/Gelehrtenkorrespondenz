@@ -1,0 +1,81 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=60 5 Gerhard an Braun Berlin, 21. Januar 1844 le ist hier nicht bekannt aber nicht unmöglich; Graf Brü~l mag wol darauf hinarbeiten.
+1-1	60	CARD	60	_	O	O	
+1-2	5	CARD	5	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	le	NN	<unknown>	_	O	O	
+1-13	ist	VAFIN	sein	_	O	O	
+1-14	hier	ADV	hier	_	O	O	
+1-15	nicht	PTKNEG	nicht	_	O	O	
+1-16	bekannt	ADJD	bekannt	_	O	O	
+1-17	aber	ADV	aber	_	O	O	
+1-18	nicht	PTKNEG	nicht	_	O	O	
+1-19	unmöglich	ADJD	unmöglich	_	O	O	
+1-20	;	$.	;	_	O	O	
+1-21	Graf	NE	Graf	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-22	Brü~l	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-23	mag	VMFIN	mögen	_	O	O	
+1-24	wol	ADJD	<unknown>	_	O	O	
+1-25	darauf	PAV	darauf	_	O	O	
+1-26	hinarbeiten	VVINF	hinarbeiten	_	O	O	
+1-27	.	$.	.	_	O	O	
+
+#id=3
+#text=Nichts von Vollard ?
+3-1	Nichts	PIS	nichts	_	O	O	
+3-2	von	APPR	von	_	O	O	
+3-3	Vollard	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-4	?	$.	?	_	O	O	
+
+#id=4
+#text=Von Herzen der Ihrige Gerhard Zahn hat die ungebührlichste Ordens erhöhung zu erlangen gewußt, hat aber wohlweislich seine persönliche Erscheinung beim Ordensfest unterlassen.
+4-1	Von	APPR	von	_	O	O	
+4-2	Herzen	NN	Herz	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	Ihrige	PPOSAT	ihrige	_	O	O	
+4-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-6	Zahn	NN	Zahn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-7	hat	VAFIN	haben	_	O	O	
+4-8	die	ART	die	_	O	O	
+4-9	ungebührlichste	ADJA	<unknown>	_	O	O	
+4-10	Ordens	NN	Orden	_	O	O	
+4-11	erhöhung	NN	Erhöhung	_	O	O	
+4-12	zu	PTKZU	zu	_	O	O	
+4-13	erlangen	VVINF	erlangen	_	O	O	
+4-14	gewußt	VVPP	wissen	_	O	O	
+4-15	,	$,	,	_	O	O	
+4-16	hat	VAFIN	haben	_	O	O	
+4-17	aber	ADV	aber	_	O	O	
+4-18	wohlweislich	ADJD	wohlweislich	_	O	O	
+4-19	seine	PPOSAT	sein	_	O	O	
+4-20	persönliche	ADJA	persönlich	_	O	O	
+4-21	Erscheinung	NN	Erscheinung	_	O	O	
+4-22	beim	APPRART	bei	_	O	O	
+4-23	Ordensfest	NN	Ordensfest	_	O	O	
+4-24	unterlassen	VVPP	unterlassen	_	O	O	
+4-25	.	$.	.	_	O	O	
+
+#id=5
+#text=Herrn von Olfers habe ich in diesem Jahr noch nicht gesehen.
+5-1	Herrn	NN	Herr	_	O	O	
+5-2	von	APPR	von	_	O	O	
+5-3	Olfers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	habe	VAFIN	haben	_	O	O	
+5-5	ich	PPER	ich	_	O	O	
+5-6	in	APPR	in	_	O	O	
+5-7	diesem	PDAT	dies	_	O	O	
+5-8	Jahr	NN	Jahr	_	O	O	
+5-9	noch	ADV	noch	_	O	O	
+5-10	nicht	PTKNEG	nicht	_	O	O	
+5-11	gesehen	VVPP	sehen	_	O	O	
+5-12	.	$.	.	_	O	O	
+

@@ -1,0 +1,328 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Ohne Nummer Renzen an Gerhard 10/X/54 Albano 10/X 54.
+1-1	Ohne	APPR	ohne	_	O	O	
+1-2	Nummer	NN	Nummer	_	O	O	
+1-3	Renzen	NN	<unknown>	_	O	O	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	10/X/54	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	Albano	NE	Albano	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	10/X	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	54	CARD	54	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	.	$.	.	_	O	O	
+
+#id=2
+#text=Verehrter Herr Professor Schon der Ort, von wo ich schreibe, zei~t Ihnen, in wie übelen Umstri.nden wir uns euc r ] bisher befanden.
+2-1	Verehrter	ADJA	verehrt	_	O	O	
+2-2	Herr	NN	Herr	_	O	O	
+2-3	Professor	NN	Professor	_	O	O	
+2-4	Schon	ADV	schon	_	O	O	
+2-5	der	ART	die	_	O	O	
+2-6	Ort	NN	Ort	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	von	APPR	von	_	O	O	
+2-9	wo	PWAV	wo	_	O	O	
+2-10	ich	PPER	ich	_	O	O	
+2-11	schreibe	VVFIN	schreiben	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	zei~t	VVFIN	<unknown>	_	O	O	
+2-14	Ihnen	PPER	Sie	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	in	APPR	in	_	O	O	
+2-17	wie	KOUS	wie	_	O	O	
+2-18	übelen	NN	<unknown>	_	O	O	
+2-19	Umstri.nden	VVFIN	<unknown>	_	O	O	
+2-20	wir	PPER	wir	_	O	O	
+2-21	uns	PRF	wir	_	O	O	
+2-22	euc	NE	<unknown>	_	O	O	
+2-23	r	NE	r	_	O	O	
+2-24	]	$(	]	_	O	O	
+2-25	bisher	ADV	bisher	_	O	O	
+2-26	befanden	VVINF	befinden	_	O	O	
+2-27	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Krankheit meiner Frau nahm immer zu, bis vor 3 Nochen ein entschiedneres Fieber mit starkem Schweiß ausbrach; seitdem ward es langsam besser.
+3-1	Die	ART	die	_	O	O	
+3-2	Krankheit	NN	Krankheit	_	O	O	
+3-3	meiner	PPOSAT	mein	_	O	O	
+3-4	Frau	NN	Frau	_	O	O	
+3-5	nahm	VVFIN	nehmen	_	O	O	
+3-6	immer	ADV	immer	_	O	O	
+3-7	zu	PTKVZ	zu	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	bis	KOUS	bis	_	O	O	
+3-10	vor	APPR	vor	_	O	O	
+3-11	3	CARD	3	_	O	O	
+3-12	Nochen	NN	<unknown>	_	O	O	
+3-13	ein	ART	eine	_	O	O	
+3-14	entschiedneres	ADJA	<unknown>	_	O	O	
+3-15	Fieber	NN	Fieber	_	O	O	
+3-16	mit	APPR	mit	_	O	O	
+3-17	starkem	ADJA	stark	_	O	O	
+3-18	Schweiß	NN	Schweiß	_	O	O	
+3-19	ausbrach	VVFIN	ausbrechen	_	O	O	
+3-20	;	$.	;	_	O	O	
+3-21	seitdem	PAV	seitdem	_	O	O	
+3-22	ward	VVFIN	werd	_	O	O	
+3-23	es	PPER	es	_	O	O	
+3-24	langsam	ADJD	langsam	_	O	O	
+3-25	besser	ADJD	gut	_	O	O	
+3-26	.	$.	.	_	O	O	
+
+#id=4
+#text=IndeB die Luft in La Rocca wieder zu frisch ist und ist i.iberha.upt vielleicht zu fein für sie, und, da es in Rom bis jetzt noch schwül u. heiß, so verordnete Braun Albano als Zwischenstation.
+4-1	IndeB	NE	<unknown>	_	O	O	
+4-2	die	ART	die	_	O	O	
+4-3	Luft	NN	Luft	_	O	O	
+4-4	in	APPR	in	_	O	O	
+4-5	La	NE	La	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-6	Rocca	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-7	wieder	ADV	wieder	_	O	O	
+4-8	zu	PTKA	zu	_	O	O	
+4-9	frisch	ADJD	frisch	_	O	O	
+4-10	ist	VAFIN	sein	_	O	O	
+4-11	und	KON	und	_	O	O	
+4-12	ist	VAFIN	sein	_	O	O	
+4-13	i.iberha.upt	ADJD	<unknown>	_	O	O	
+4-14	vielleicht	ADV	vielleicht	_	O	O	
+4-15	zu	PTKA	zu	_	O	O	
+4-16	fein	ADJD	fein	_	O	O	
+4-17	für	APPR	für	_	O	O	
+4-18	sie	PPER	sie	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	und	KON	und	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	da	KOUS	da	_	O	O	
+4-23	es	PPER	es	_	O	O	
+4-24	in	APPR	in	_	O	O	
+4-25	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-26	bis	KON	bis	_	O	O	
+4-27	jetzt	ADV	jetzt	_	O	O	
+4-28	noch	ADV	noch	_	O	O	
+4-29	schwül	ADJD	schwül	_	O	O	
+4-30	u.	KON	und	_	O	O	
+4-31	heiß	ADJD	heiß	_	O	O	
+4-32	,	$,	,	_	O	O	
+4-33	so	ADV	so	_	O	O	
+4-34	verordnete	VVFIN	verordnen	_	O	O	
+4-35	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-36	Albano	NE	Albano	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-37	als	KOKOM	als	_	O	O	
+4-38	Zwischenstation	NN	Zwischenstation	_	O	O	
+4-39	.	$.	.	_	O	O	
+
+#id=5
+#text=Vor 14 Tacen zogen wir hieher; sie mußte in den ~asen getracen werden, hat jedoch hier ancefangen, sich zu erholen u. macht t~glich, wenn auch sehr schwache Fortschritte.
+5-1	Vor	APPR	vor	_	O	O	
+5-2	14	CARD	14	_	O	O	
+5-3	Tacen	NN	<unknown>	_	O	O	
+5-4	zogen	VVFIN	ziehen	_	O	O	
+5-5	wir	PPER	wir	_	O	O	
+5-6	hieher	NN	<unknown>	_	O	O	
+5-7	;	$.	;	_	O	O	
+5-8	sie	PPER	sie	_	O	O	
+5-9	mußte	VMFIN	müssen	_	O	O	
+5-10	in	APPR	in	_	O	O	
+5-11	den	ART	die	_	O	O	
+5-12	~asen	ADJA	<unknown>	_	O	O	
+5-13	getracen	NN	<unknown>	_	O	O	
+5-14	werden	VAINF	werden	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	hat	VAFIN	haben	_	O	O	
+5-17	jedoch	ADV	jedoch	_	O	O	
+5-18	hier	ADV	hier	_	O	O	
+5-19	ancefangen	NN	<unknown>	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	sich	PRF	sich	_	O	O	
+5-22	zu	PTKZU	zu	_	O	O	
+5-23	erholen	VVINF	erholen	_	O	O	
+5-24	u.	KON	und	_	O	O	
+5-25	macht	VVFIN	machen	_	O	O	
+5-26	t~glich	ADJD	<unknown>	_	O	O	
+5-27	,	$,	,	_	O	O	
+5-28	wenn	KOUS	wenn	_	O	O	
+5-29	auch	ADV	auch	_	O	O	
+5-30	sehr	ADV	sehr	_	O	O	
+5-31	schwache	ADJA	schwach	_	O	O	
+5-32	Fortschritte	NN	Fortschritt	_	O	O	
+5-33	.	$.	.	_	O	O	
+
+#id=6
+#text=Das 'Hetter scheint endlich sich zum Rer:':nen zusammen zu ziehen, • .. • rn .'
+6-1	Das	ART	die	_	O	O	
+6-2	'	$(	'	_	O	O	
+6-3	Hetter	NN	<unknown>	_	O	O	
+6-4	scheint	VVFIN	scheinen	_	O	O	
+6-5	endlich	ADV	endlich	_	O	O	
+6-6	sich	PRF	sich	_	O	O	
+6-7	zum	APPRART	zu	_	O	O	
+6-8	Rer:':nen	NN	<unknown>	_	O	O	
+6-9	zusammen	PTKVZ	zusammen	_	O	O	
+6-10	zu	PTKZU	zu	_	O	O	
+6-11	ziehen	VVINF	ziehen	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	•	ADJD	<unknown>	_	O	O	
+6-14	.	$.	.	_	O	O	
+6-15	.	$.	.	_	O	O	
+6-16	•	NN	<unknown>	_	O	O	
+6-17	rn	NE	rn	_	O	O	
+6-18	.	$.	.	_	O	O	
+6-19	'	$(	'	_	O	O	
+
+#id=7
+#text=.
+7-1	.	$.	.	_	O	O	
+
+#id=8
+#text=• u. so hoffe lch, spatestens lD 8 ~asen ln nom zu seln, wohin ich mic r ) von Herzen sehne, Gott dankend, dar dieser traurise Sommer vorüber ist.
+8-1	•	NN	<unknown>	_	O	O	
+8-2	u.	APPR	um	_	O	O	
+8-3	so	ADV	so	_	O	O	
+8-4	hoffe	VVFIN	hoffen	_	O	O	
+8-5	lch	NN	<unknown>	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	spatestens	ADJA	<unknown>	_	O	O	
+8-8	lD	NN	<unknown>	_	O	O	
+8-9	8	CARD	8	_	O	O	
+8-10	~asen	ADJA	<unknown>	_	O	O	
+8-11	ln	NN	<unknown>	_	O	O	
+8-12	nom	NN	<unknown>	_	O	O	
+8-13	zu	PTKZU	zu	_	O	O	
+8-14	seln	VVINF	<unknown>	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	wohin	PWAV	wohin	_	O	O	
+8-17	ich	PPER	ich	_	O	O	
+8-18	mic	ADJA	<unknown>	_	O	O	
+8-19	r	FM	r	_	O	O	
+8-20	)	$(	)	_	O	O	
+8-21	von	APPR	von	_	O	O	
+8-22	Herzen	NN	Herz	_	O	O	
+8-23	sehne	VVFIN	sehnen	_	O	O	
+8-24	,	$,	,	_	O	O	
+8-25	Gott	NN	Gott	_	O	O	
+8-26	dankend	ADJD	dankend	_	O	O	
+8-27	,	$,	,	_	O	O	
+8-28	dar	PTKVZ	dar	_	O	O	
+8-29	dieser	PDAT	dies	_	O	O	
+8-30	traurise	ADJA	<unknown>	_	O	O	
+8-31	Sommer	NN	Sommer	_	O	O	
+8-32	vorüber	ADV	vorüber	_	O	O	
+8-33	ist	VAFIN	sein	_	O	O	
+8-34	.	$.	.	_	O	O	
+
+#id=9
+#text=Es mag sehr dUIflm VOiJ.
+9-1	Es	PPER	es	_	O	O	
+9-2	mag	VMFIN	mögen	_	O	O	
+9-3	sehr	ADV	sehr	_	O	O	
+9-4	dUIflm	NE	<unknown>	_	O	O	
+9-5	VOiJ	NE	<unknown>	_	O	O	
+9-6	.	$.	.	_	O	O	
+
+#id=10
+#text=mir sein, Aber icl; veitehe wirJ\lich noch nicht, ob in der ii'olge unser Geh;::ü t praenumerando geZAhlt werden soll, oder nicht.
+10-1	mir	PPER	ich	_	O	O	
+10-2	sein	VAINF	sein	_	O	O	
+10-3	,	$,	,	_	O	O	
+10-4	Aber	KON	aber	_	O	O	
+10-5	icl	NE	<unknown>	_	O	O	
+10-6	;	$.	;	_	O	O	
+10-7	veitehe	ADJD	<unknown>	_	O	O	
+10-8	wirJ\lich	ADJD	<unknown>	_	O	O	
+10-9	noch	ADV	noch	_	O	O	
+10-10	nicht	PTKNEG	nicht	_	O	O	
+10-11	,	$,	,	_	O	O	
+10-12	ob	KOUS	ob	_	O	O	
+10-13	in	APPR	in	_	O	O	
+10-14	der	ART	die	_	O	O	
+10-15	ii'olge	NN	<unknown>	_	O	O	
+10-16	unser	PPOSAT	unser	_	O	O	
+10-17	Geh	VVIMP	gehen	_	O	O	
+10-18	;	$.	;	_	O	O	
+10-19	::ü	NE	<unknown>	_	O	O	
+10-20	t	NN	t	_	O	O	
+10-21	praenumerando	NE	<unknown>	_	O	O	
+10-22	geZAhlt	VVPP	zahlen	_	O	O	
+10-23	werden	VAINF	werden	_	O	O	
+10-24	soll	VMFIN	sollen	_	O	O	
+10-25	,	$,	,	_	O	O	
+10-26	oder	KON	oder	_	O	O	
+10-27	nicht	PTKNEG	nicht	_	O	O	
+10-28	.	$.	.	_	O	O	
+
+#id=11
+#text=Sie wijrden mich durcr1 ein unumwundenes ,dputlic1:es_~,'ort sehr verpflichten.
+11-1	Sie	PPER	Sie	_	O	O	
+11-2	wijrden	VVFIN	<unknown>	_	O	O	
+11-3	mich	PRF	ich	_	O	O	
+11-4	durcr1	ADJD	<unknown>	_	O	O	
+11-5	ein	ART	eine	_	O	O	
+11-6	unumwundenes	ADJA	<unknown>	_	O	O	
+11-7	,dputlic1:es_~,'ort	NN	<unknown>	_	O	O	
+11-8	sehr	ADV	sehr	_	O	O	
+11-9	verpflichten	VVINF	verpflichten	_	O	O	
+11-10	.	$.	.	_	O	O	
+
+#id=12
+#text=DaR ich die Zablunc bis ult. Dec.
+12-1	DaR	PTKVZ	dar	_	O	O	
+12-2	ich	PPER	ich	_	O	O	
+12-3	die	ART	die	_	O	O	
+12-4	Zablunc	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-5	bis	KON	bis	_	O	O	
+12-6	ult.	NE	<unknown>	_	O	O	
+12-7	Dec	NE	Dec	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+12-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=14
+#text=in Empfang nehmen kann, scileint mir inder klar uno werde ich 088 thun, so hald ich nach Rom komme.
+14-1	in	APPR	in	_	O	O	
+14-2	Empfang	NN	Empfang	_	O	O	
+14-3	nehmen	VVINF	nehmen	_	O	O	
+14-4	kann	VMFIN	können	_	O	O	
+14-5	,	$,	,	_	O	O	
+14-6	scileint	VVFIN	<unknown>	_	O	O	
+14-7	mir	PPER	ich	_	O	O	
+14-8	inder	NN	Inder	_	O	O	
+14-9	klar	ADJD	klar	_	O	O	
+14-10	uno	ADJD	<unknown>	_	O	O	
+14-11	werde	VAFIN	werden	_	O	O	
+14-12	ich	PPER	ich	_	O	O	
+14-13	088	CARD	@card@	_	O	O	
+14-14	thun	NN	<unknown>	_	O	O	
+14-15	,	$,	,	_	O	O	
+14-16	so	ADV	so	_	O	O	
+14-17	hald	VVFIN	<unknown>	_	O	O	
+14-18	ich	PPER	ich	_	O	O	
+14-19	nach	APPR	nach	_	O	O	
+14-20	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+14-21	komme	VVFIN	kommen	_	O	O	
+14-22	.	$.	.	_	O	O	
+
+#id=15
+#text=Diplome erbat ich mir zu vielmas wiederholten Wlrlerl seit Ende vori(»~i1 J,;hres; es ist Ihnen das nur bei
+15-1	Diplome	NN	Diplom	_	O	O	
+15-2	erbat	VVFIN	erbitten	_	O	O	
+15-3	ich	PPER	ich	_	O	O	
+15-4	mir	PRF	ich	_	O	O	
+15-5	zu	APPR	zu	_	O	O	
+15-6	vielmas	NE	<unknown>	_	O	O	
+15-7	wiederholten	VVFIN	wiederholen	_	O	O	
+15-8	Wlrlerl	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-9	seit	APPR	seit	_	O	O	
+15-10	Ende	NN	Ende	_	O	O	
+15-11	vori(»~i1	ADJA	<unknown>	_	O	O	
+15-12	J	NN	J	_	O	O	
+15-13	,	$,	,	_	O	O	
+15-14	;	$.	;	_	O	O	
+15-15	hres	NN	<unknown>	_	O	O	
+15-16	;	$.	;	_	O	O	
+15-17	es	PPER	es	_	O	O	
+15-18	ist	VAFIN	sein	_	O	O	
+15-19	Ihnen	PPER	Sie	_	O	O	
+15-20	das	PDS	die	_	O	O	
+15-21	nur	ADV	nur	_	O	O	
+15-22	bei	APPR	bei	_	O	O	
+

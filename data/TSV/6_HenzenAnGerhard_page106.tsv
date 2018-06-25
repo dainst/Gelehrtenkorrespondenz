@@ -1,0 +1,359 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=124 Henzen an Gerhard 11/IV/53 Verehrtester Herr Professor Es sind so lange keine Nachrichten von Ihnen angelangt, dß.
+1-1	124	CARD	@card@	_	O	O	
+1-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	11/IV/53	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-6	Verehrtester	NN	<unknown>	_	O	O	
+1-7	Herr	NN	Herr	_	O	O	
+1-8	Professor	NN	Professor	_	O	O	
+1-9	Es	PPER	es	_	O	O	
+1-10	sind	VAFIN	sein	_	O	O	
+1-11	so	ADV	so	_	O	O	
+1-12	lange	ADV	lange	_	O	O	
+1-13	keine	PIAT	keine	_	O	O	
+1-14	Nachrichten	NN	Nachricht	_	O	O	
+1-15	von	APPR	von	_	O	O	
+1-16	Ihnen	PPER	Sie	_	O	O	
+1-17	angelangt	VVPP	angelangen	_	O	O	
+1-18	,	$,	,	_	O	O	
+1-19	dß	VVFIN	<unknown>	_	O	O	
+1-20	.	$.	.	_	O	O	
+
+#id=2
+#text=mir bange wird, es möge Ihnen nicht Gut gehen.
+2-1	mir	PPER	ich	_	O	O	
+2-2	bange	ADJD	bange	_	O	O	
+2-3	wird	VAFIN	werden	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	es	PPER	es	_	O	O	
+2-6	möge	VMFIN	mögen	_	O	O	
+2-7	Ihnen	PPER	Sie	_	O	O	
+2-8	nicht	PTKNEG	nicht	_	O	O	
+2-9	Gut	NN	Gut	_	O	O	
+2-10	gehen	VVINF	gehen	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=I_w~ein Brief vom 7.
+3-1	I_w~ein	ADJA	<unknown>	_	O	O	
+3-2	Brief	NN	Brief	_	O	O	
+3-3	vom	APPRART	von	_	O	O	
+3-4	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=4
+#text=ten März ist noch ohne Antwort.
+4-1	ten	NE	ten	_	O	O	
+4-2	März	NN	März	_	O	O	
+4-3	ist	VAFIN	sein	_	O	O	
+4-4	noch	ADV	noch	_	O	O	
+4-5	ohne	APPR	ohne	_	O	O	
+4-6	Antwort	NN	Antwort	_	O	O	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=- Ich bin begierig, wie Sie meine epigraphischen Vorschläge vom 27 n • M f v. 1. au genommen.
+5-1	-	$(	-	_	O	O	
+5-2	Ich	PPER	ich	_	O	O	
+5-3	bin	VAFIN	sein	_	O	O	
+5-4	begierig	ADJD	begierig	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	wie	KOUS	wie	_	O	O	
+5-7	Sie	PPER	Sie	_	O	O	
+5-8	meine	PPOSAT	mein	_	O	O	
+5-9	epigraphischen	ADJA	<unknown>	_	O	O	
+5-10	Vorschläge	NN	Vorschlag	_	O	O	
+5-11	vom	APPRART	von	_	O	O	
+5-12	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-13	n	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-14	•	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-15	M	NE	M	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-16	f	VVFIN	<unknown>	_	O	O	
+5-17	v.	APPR	von	_	O	O	
+5-18	1	CARD	1	_	O	O	
+5-19	.	$.	.	_	O	O	
+5-20	au	ITJ	au	_	O	O	
+5-21	genommen	VVPP	nehmen	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich füge noch hinzu, daß Rocchi in Bologna die Inschriften, die noch in den Hauptorten der Romagna u. bis nach Pesaro u. Urbino herab existiren, auf Kosten der Franzosen in den Jahren 45 - 47 sorgfältigst abgeschrieben, resp. collationirt hat, u. g1aube ich wohl, dß.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	füge	VVFIN	fügen	_	O	O	
+6-3	noch	ADV	noch	_	O	O	
+6-4	hinzu	PTKVZ	hinzu	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	daß	KOUS	dass	_	O	O	
+6-7	Rocchi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-8	in	APPR	in	_	O	O	
+6-9	Bologna	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-10	die	ART	die	_	O	O	
+6-11	Inschriften	NN	Inschrift	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	die	PRELS	die	_	O	O	
+6-14	noch	ADV	noch	_	O	O	
+6-15	in	APPR	in	_	O	O	
+6-16	den	ART	die	_	O	O	
+6-17	Hauptorten	NN	<unknown>	_	O	O	
+6-18	der	ART	die	_	O	O	
+6-19	Romagna	NE	<unknown>	_	O	O	
+6-20	u.	APPR	um	_	O	O	
+6-21	bis	KON	bis	_	O	O	
+6-22	nach	APPR	nach	_	O	O	
+6-23	Pesaro	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-24	u.	APPR	um	_	O	O	
+6-25	Urbino	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-26	herab	ADV	herab	_	O	O	
+6-27	existiren	ADJA	<unknown>	_	O	O	
+6-28	,	$,	,	_	O	O	
+6-29	auf	APPR	auf	_	O	O	
+6-30	Kosten	NN	Kosten	_	O	O	
+6-31	der	ART	die	_	O	O	
+6-32	Franzosen	NN	Franzose	_	O	O	
+6-33	in	APPR	in	_	O	O	
+6-34	den	ART	die	_	O	O	
+6-35	Jahren	NN	Jahr	_	O	O	
+6-36	45	CARD	45	_	O	O	
+6-37	-	$(	-	_	O	O	
+6-38	47	CARD	47	_	O	O	
+6-39	sorgfältigst	ADJD	sorgfältig	_	O	O	
+6-40	abgeschrieben	VVPP	abschreiben	_	O	O	
+6-41	,	$,	,	_	O	O	
+6-42	resp.	ADV	resp.	_	O	O	
+6-43	collationirt	ADJD	<unknown>	_	O	O	
+6-44	hat	VAFIN	haben	_	O	O	
+6-45	,	$,	,	_	O	O	
+6-46	u.	KON	und	_	O	O	
+6-47	g1aube	VVFIN	<unknown>	_	O	O	
+6-48	ich	PPER	ich	_	O	O	
+6-49	wohl	ADV	wohl	_	O	O	
+6-50	,	$,	,	_	O	O	
+6-51	dß	VVFIN	<unknown>	_	O	O	
+6-52	.	$.	.	_	O	O	
+
+#id=7
+#text=er sie mir zum Zwecke eines C.I.L. für ein Billiges ablassen würde.
+7-1	er	PPER	er	_	O	O	
+7-2	sie	PPER	sie	_	O	O	
+7-3	mir	PPER	ich	_	O	O	
+7-4	zum	APPRART	zu	_	O	O	
+7-5	Zwecke	NN	Zweck	_	O	O	
+7-6	eines	ART	eine	_	O	O	
+7-7	C.I.L.	NE	<unknown>	_	O	O	
+7-8	für	APPR	für	_	O	O	
+7-9	ein	ART	eine	_	O	O	
+7-10	Billiges	NN	Billige	_	O	O	
+7-11	ablassen	VVINF	ablassen	_	O	O	
+7-12	würde	VAFIN	werden	_	O	O	
+7-13	.	$.	.	_	O	O	
+
+#id=8
+#text=Uebrigens sehen wir täglich der Ankunft des Vergers entgegen,von dem ich wohl Näheres über das nie aufgegebne Frfs. Corpus erfahren werde.
+8-1	Uebrigens	NN	<unknown>	_	O	O	
+8-2	sehen	VVFIN	sehen	_	O	O	
+8-3	wir	PPER	wir	_	O	O	
+8-4	täglich	ADJD	täglich	_	O	O	
+8-5	der	ART	die	_	O	O	
+8-6	Ankunft	NN	Ankunft	_	O	O	
+8-7	des	ART	die	_	O	O	
+8-8	Vergers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-9	entgegen,von	NN	<unknown>	_	O	O	
+8-10	dem	PRELS	die	_	O	O	
+8-11	ich	PPER	ich	_	O	O	
+8-12	wohl	ADV	wohl	_	O	O	
+8-13	Näheres	NN	Nähere	_	O	O	
+8-14	über	APPR	über	_	O	O	
+8-15	das	ART	die	_	O	O	
+8-16	nie	ADV	nie	_	O	O	
+8-17	aufgegebne	ADJA	<unknown>	_	O	O	
+8-18	Frfs	NE	<unknown>	_	O	O	
+8-19	.	$.	.	_	O	O	
+8-20	Corpus	NN	Corpus	_	O	O	
+8-21	erfahren	VVPP	erfahren	_	O	O	
+8-22	werde	VAFIN	werden	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=Jea.en Falls wird es gut sein, die etwaigen Beschlüsse der Akademie zu beschleunigen, damit man endlich weiß, woran man ist; denn ich verheh~~' Ihnen nicht, dß.
+9-1	Jea.en	NE	<unknown>	_	O	O	
+9-2	Falls	NN	Fall	_	O	O	
+9-3	wird	VAFIN	werden	_	O	O	
+9-4	es	PPER	es	_	O	O	
+9-5	gut	ADJD	gut	_	O	O	
+9-6	sein	VAINF	sein	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	die	ART	die	_	O	O	
+9-9	etwaigen	ADJA	etwaig	_	O	O	
+9-10	Beschlüsse	NN	Beschluss	_	O	O	
+9-11	der	ART	die	_	O	O	
+9-12	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-13	zu	PTKZU	zu	_	O	O	
+9-14	beschleunigen	VVINF	beschleunigen	_	O	O	
+9-15	,	$,	,	_	O	O	
+9-16	damit	KOUS	damit	_	O	O	
+9-17	man	PIS	man	_	O	O	
+9-18	endlich	ADV	endlich	_	O	O	
+9-19	weiß	VVFIN	wissen	_	O	O	
+9-20	,	$,	,	_	O	O	
+9-21	woran	PWAV	woran	_	O	O	
+9-22	man	PIS	man	_	O	O	
+9-23	ist	VAFIN	sein	_	O	O	
+9-24	;	$.	;	_	O	O	
+9-25	denn	KON	denn	_	O	O	
+9-26	ich	PPER	ich	_	O	O	
+9-27	verheh~~	VVFIN	<unknown>	_	O	O	
+9-28	'	$(	'	_	O	O	
+9-29	Ihnen	PPER	Sie	_	O	O	
+9-30	nicht	PTKNEG	nicht	_	O	O	
+9-31	,	$,	,	_	O	O	
+9-32	dß	VVFIN	<unknown>	_	O	O	
+9-33	.	$.	.	_	O	O	
+
+#id=10
+#text=weder Mommsen, noch ich, noch de Rossi uns ein Gewissen daraus machen würden, uns an die Franzosen anzuschließen, sobald dieselben wirklich Ernst zeigen u. annehmbare Bedingungen stellen.
+10-1	weder	KON	weder	_	O	O	
+10-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-3	,	$,	,	_	O	O	
+10-4	noch	ADV	noch	_	O	O	
+10-5	ich	PPER	ich	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	noch	ADV	noch	_	O	O	
+10-8	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-9	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-10	uns	PRF	wir	_	O	O	
+10-11	ein	ART	eine	_	O	O	
+10-12	Gewissen	NN	Gewissen	_	O	O	
+10-13	daraus	PAV	daraus	_	O	O	
+10-14	machen	VVINF	machen	_	O	O	
+10-15	würden	VAFIN	werden	_	O	O	
+10-16	,	$,	,	_	O	O	
+10-17	uns	PRF	wir	_	O	O	
+10-18	an	APPR	an	_	O	O	
+10-19	die	ART	die	_	O	O	
+10-20	Franzosen	NN	Franzose	_	O	O	
+10-21	anzuschließen	VVIZU	anschließen	_	O	O	
+10-22	,	$,	,	_	O	O	
+10-23	sobald	KOUS	sobald	_	O	O	
+10-24	dieselben	PDS	dieselbe	_	O	O	
+10-25	wirklich	ADJD	wirklich	_	O	O	
+10-26	Ernst	NE	Ernst	_	O	O	
+10-27	zeigen	VVFIN	zeigen	_	O	O	
+10-28	u.	APPR	um	_	O	O	
+10-29	annehmbare	ADJA	annehmbar	_	O	O	
+10-30	Bedingungen	NN	Bedingung	_	O	O	
+10-31	stellen	VVINF	stellen	_	O	O	
+10-32	.	$.	.	_	O	O	
+
+#id=11
+#text=De Rossi erinnerte mich noch neulich wieder an das Project, die Inschriften der Stadt Rom zu sammeln.
+11-1	De	NE	De	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-3	erinnerte	VVFIN	erinnern	_	O	O	
+11-4	mich	PRF	ich	_	O	O	
+11-5	noch	ADV	noch	_	O	O	
+11-6	neulich	ADV	neulich	_	O	O	
+11-7	wieder	ADV	wieder	_	O	O	
+11-8	an	APPR	an	_	O	O	
+11-9	das	ART	die	_	O	O	
+11-10	Project	NN	<unknown>	_	O	O	
+11-11	,	$,	,	_	O	O	
+11-12	die	ART	die	_	O	O	
+11-13	Inschriften	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-14	der	ART	die	_	O	O	
+11-15	Stadt	NN	Stadt	_	O	O	
+11-16	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-17	zu	PTKZU	zu	_	O	O	
+11-18	sammeln	VVINF	sammeln	_	O	O	
+11-19	.	$.	.	_	O	O	
+
+#id=12
+#text=Lanci geht morsen nach Neapel u. wird im Namen des Instituts dem Grafen D. LeoQoldo von S klo Hoheit das Diplom als Ehrenmitglied überreichen.
+12-1	Lanci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	geht	VVFIN	gehen	_	O	O	
+12-3	morsen	ADJD	<unknown>	_	O	O	
+12-4	nach	APPR	nach	_	O	O	
+12-5	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-6	u.	KON	und	_	O	O	
+12-7	wird	VAFIN	werden	_	O	O	
+12-8	im	APPRART	in	_	O	O	
+12-9	Namen	NN	Name	_	O	O	
+12-10	des	ART	die	_	O	O	
+12-11	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+12-12	dem	ART	die	_	O	O	
+12-13	Grafen	NN	Graf	_	O	O	
+12-14	D.	NE	D.	_	O	O	
+12-15	LeoQoldo	NE	<unknown>	_	O	O	
+12-16	von	APPR	von	_	O	O	
+12-17	S	NN	S	_	O	O	
+12-18	klo	NN	Klo	_	O	O	
+12-19	Hoheit	NN	Hoheit	_	O	O	
+12-20	das	ART	die	_	O	O	
+12-21	Diplom	NN	Diplom	_	O	O	
+12-22	als	KOKOM	als	_	O	O	
+12-23	Ehrenmitglied	NN	Ehrenmitglied	_	O	O	
+12-24	überreichen	VVINF	überreichen	_	O	O	
+12-25	.	$.	.	_	O	O	
+
+#id=13
+#text=- D~ BurjJ.ian ist an3:ekoIIJr.
+13-1	-	$(	-	_	O	O	
+13-2	D~	NE	<unknown>	_	O	O	
+13-3	BurjJ.ian	NE	<unknown>	_	O	O	
+13-4	ist	VAFIN	sein	_	O	O	
+13-5	an3:ekoIIJr	NN	<unknown>	_	O	O	
+13-6	.	$.	.	_	O	O	
+
+#id=14
+#text=!.en; muß auch wohl zum Correspondenten gem8cht werden.
+14-1	!	$.	!	_	O	O	
+14-2	.en	NN	<unknown>	_	O	O	
+14-3	;	$.	;	_	O	O	
+14-4	muß	VMFIN	müssen	_	O	O	
+14-5	auch	ADV	auch	_	O	O	
+14-6	wohl	ADV	wohl	_	O	O	
+14-7	zum	APPRART	zu	_	O	O	
+14-8	Correspondenten	NN	<unknown>	_	O	O	
+14-9	gem8cht	VVPP	<unknown>	_	O	O	
+14-10	werden	VAINF	werden	_	O	O	
+14-11	.	$.	.	_	O	O	
+
+#id=15
+#text=- Welcker wird heute in Florenz ankommen.
+15-1	-	$(	-	_	O	O	
+15-2	Welcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-3	wird	VAFIN	werden	_	O	O	
+15-4	heute	ADV	heute	_	O	O	
+15-5	in	APPR	in	_	O	O	
+15-6	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+15-7	ankommen	VVINF	ankommen	_	O	O	
+15-8	.	$.	.	_	O	O	
+
+#id=16
+#text=- Die Institutswerke sind zur Spedition seit 2 Wochen zusammen \ gelegt u. warten nur auf Braun's Tischler, die die Kisten 1_
+16-1	-	$(	-	_	O	O	
+16-2	Die	ART	die	_	B-webanno.custom.LetterEntity_	B-LIT	
+16-3	Institutswerke	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-4	sind	VAFIN	sein	_	O	O	
+16-5	zur	APPRART	zu	_	O	O	
+16-6	Spedition	NN	Spedition	_	O	O	
+16-7	seit	APPR	seit	_	O	O	
+16-8	2	CARD	2	_	O	O	
+16-9	Wochen	NN	Woche	_	O	O	
+16-10	zusammen	PTKVZ	zusammen	_	O	O	
+16-11	\	XY	\	_	O	O	
+16-12	gelegt	VVPP	legen	_	O	O	
+16-13	u.	KON	und	_	O	O	
+16-14	warten	VVFIN	warten	_	O	O	
+16-15	nur	ADV	nur	_	O	O	
+16-16	auf	APPR	auf	_	O	O	
+16-17	Braun's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-18	Tischler	NN	Tischler	_	O	O	
+16-19	,	$,	,	_	O	O	
+16-20	die	PRELS	die	_	O	O	
+16-21	die	ART	die	_	O	O	
+16-22	Kisten	NN	Kiste	_	O	O	
+16-23	1_	NN	<unknown>	_	O	O	
+

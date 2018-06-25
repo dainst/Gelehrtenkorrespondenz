@@ -1,0 +1,261 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an Henzen Siena, 25. Juli 1874 g. 27/7 84 r.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	g.	VVFIN	<unknown>	_	O	O	
+1-11	27/7	CARD	27/7	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-12	84	CARD	84	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-13	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=28/7 74 ~~~ ~oma, li 25. Luglio 74 Lieber Herr Professor Nur wenige Worte als Antwort auf Ihren freundlichen Brief vom 21.
+2-1	28/7	CARD	@card@	_	O	O	
+2-2	74	CARD	74	_	O	O	
+2-3	~~~	ADJA	<unknown>	_	O	O	
+2-4	~oma	NN	<unknown>	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	li	ADJA	<unknown>	_	O	O	
+2-7	25	CARD	25	_	O	O	
+2-8	.	$.	.	_	O	O	
+2-9	Luglio	NE	<unknown>	_	O	O	
+2-10	74	CARD	74	_	O	O	
+2-11	Lieber	ADJA	lieb	_	O	O	
+2-12	Herr	NN	Herr	_	O	O	
+2-13	Professor	NN	Professor	_	O	O	
+2-14	Nur	ADV	nur	_	O	O	
+2-15	wenige	PIAT	wenige	_	O	O	
+2-16	Worte	NN	Wort	_	O	O	
+2-17	als	KOKOM	als	_	O	O	
+2-18	Antwort	NN	Antwort	_	O	O	
+2-19	auf	APPR	auf	_	O	O	
+2-20	Ihren	PPOSAT	ihr	_	O	O	
+2-21	freundlichen	ADJA	freundlich	_	O	O	
+2-22	Brief	NN	Brief	_	O	O	
+2-23	vom	APPRART	von	_	O	O	
+2-24	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-25	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=3
+#text=Kekule hat sich bereit erklärt, sein Wort zu halten.
+3-1	Kekule	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	hat	VAFIN	haben	_	O	O	
+3-3	sich	PRF	sich	_	O	O	
+3-4	bereit	ADJD	bereit	_	O	O	
+3-5	erklärt	VVPP	erklären	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	sein	PPOSAT	sein	_	O	O	
+3-8	Wort	NN	Wort	_	O	O	
+3-9	zu	PTKZU	zu	_	O	O	
+3-10	halten	VVINF	halten	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=Von Förster erhielt ich einen Brief, worin er mittheilte, er habe die Erläuterung der Peliasvase einem seiner Schüler, Schulze, abgetreten, da er selbst zu sehr beschäftigt.
+4-1	Von	APPR	von	_	O	O	
+4-2	Förster	NN	Förster	_	O	O	
+4-3	erhielt	VVFIN	erhalten	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	einen	ART	eine	_	O	O	
+4-6	Brief	NN	Brief	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	worin	PWAV	worin	_	O	O	
+4-9	er	PPER	er	_	O	O	
+4-10	mittheilte	VVFIN	<unknown>	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	er	PPER	er	_	O	O	
+4-13	habe	VAFIN	haben	_	O	O	
+4-14	die	ART	die	_	O	O	
+4-15	Erläuterung	NN	Erläuterung	_	O	O	
+4-16	der	ART	die	_	O	O	
+4-17	Peliasvase	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-18	einem	ART	eine	_	O	O	
+4-19	seiner	PPOSAT	sein	_	O	O	
+4-20	Schüler	NN	Schüler	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	Schulze	NE	Schulze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-23	,	$,	,	_	O	O	
+4-24	abgetreten	VVPP	abtreten	_	O	O	
+4-25	,	$,	,	_	O	O	
+4-26	da	KOUS	da	_	O	O	
+4-27	er	PPER	er	_	O	O	
+4-28	selbst	ADV	selbst	_	O	O	
+4-29	zu	PTKA	zu	_	O	O	
+4-30	sehr	ADV	sehr	_	O	O	
+4-31	beschäftigt	VVPP	beschäftigen	_	O	O	
+4-32	.	$.	.	_	O	O	
+
+#id=5
+#text=Habe vorläufig dagegen protestirt und geschrieben, ich würde mit Ihnen über die Sache sprechen.
+5-1	Habe	VAFIN	haben	_	O	O	
+5-2	vorläufig	ADJD	vorläufig	_	O	O	
+5-3	dagegen	PAV	dagegen	_	O	O	
+5-4	protestirt	VVFIN	<unknown>	_	O	O	
+5-5	und	KON	und	_	O	O	
+5-6	geschrieben	VVPP	schreiben	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	ich	PPER	ich	_	O	O	
+5-9	würde	VAFIN	werden	_	O	O	
+5-10	mit	APPR	mit	_	O	O	
+5-11	Ihnen	PPER	Sie	_	O	O	
+5-12	über	APPR	über	_	O	O	
+5-13	die	ART	die	_	O	O	
+5-14	Sache	NN	Sache	_	O	O	
+5-15	sprechen	VVINF	sprechen	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Sache hat gar keine Eile, da die Tafel doch nicht vor Anfang 75 fertig wird und unmöglich in diesem Jahre publicirt werden kann.
+6-1	Die	ART	die	_	O	O	
+6-2	Sache	NN	Sache	_	O	O	
+6-3	hat	VAFIN	haben	_	O	O	
+6-4	gar	ADV	gar	_	O	O	
+6-5	keine	PIAT	keine	_	O	O	
+6-6	Eile	NN	Eile	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	da	KOUS	da	_	O	O	
+6-9	die	ART	die	_	O	O	
+6-10	Tafel	NN	Tafel	_	O	O	
+6-11	doch	ADV	doch	_	O	O	
+6-12	nicht	PTKNEG	nicht	_	O	O	
+6-13	vor	APPR	vor	_	O	O	
+6-14	Anfang	NN	Anfang	_	O	O	
+6-15	75	CARD	75	_	O	O	
+6-16	fertig	ADJD	fertig	_	O	O	
+6-17	wird	VAFIN	werden	_	O	O	
+6-18	und	KON	und	_	O	O	
+6-19	unmöglich	ADJD	unmöglich	_	O	O	
+6-20	in	APPR	in	_	O	O	
+6-21	diesem	PDAT	dies	_	O	O	
+6-22	Jahre	NN	Jahr	_	O	O	
+6-23	publicirt	VVPP	<unknown>	_	O	O	
+6-24	werden	VAINF	werden	_	O	O	
+6-25	kann	VMFIN	können	_	O	O	
+6-26	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Zeichnungen von Volterra habe ich richtig erhalten und werde Anfang August dorthin gehen.
+7-1	Die	ART	die	_	O	O	
+7-2	Zeichnungen	NN	Zeichnung	_	O	O	
+7-3	von	APPR	von	_	O	O	
+7-4	Volterra	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-5	habe	VAFIN	haben	_	O	O	
+7-6	ich	PPER	ich	_	O	O	
+7-7	richtig	ADJD	richtig	_	O	O	
+7-8	erhalten	VVPP	erhalten	_	O	O	
+7-9	und	KON	und	_	O	O	
+7-10	werde	VAFIN	werden	_	O	O	
+7-11	Anfang	NN	Anfang	_	O	O	
+7-12	August	NE	August	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-13	dorthin	ADV	dorthin	_	O	O	
+7-14	gehen	VVINF	gehen	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=Vor der Hand scheue ich noch immer etwas die Reflexe.
+8-1	Vor	APPR	vor	_	O	O	
+8-2	der	ART	die	_	O	O	
+8-3	Hand	NN	Hand	_	O	O	
+8-4	scheue	VVFIN	scheuen	_	O	O	
+8-5	ich	PPER	ich	_	O	O	
+8-6	noch	ADV	noch	_	O	O	
+8-7	immer	ADV	immer	_	O	O	
+8-8	etwas	ADV	etwas	_	O	O	
+8-9	die	ART	die	_	O	O	
+8-10	Reflexe	NN	Reflex	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Sonst hat mir die Cur sehr gut getan und ich rathe Ihnen ernstlich meinem Beispiele zu folgen.
+9-1	Sonst	ADV	sonst	_	O	O	
+9-2	hat	VAFIN	haben	_	O	O	
+9-3	mir	PPER	ich	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	Cur	NN	<unknown>	_	O	O	
+9-6	sehr	ADV	sehr	_	O	O	
+9-7	gut	ADJD	gut	_	O	O	
+9-8	getan	VVPP	tun	_	O	O	
+9-9	und	KON	und	_	O	O	
+9-10	ich	PPER	ich	_	O	O	
+9-11	rathe	ADJA	<unknown>	_	O	O	
+9-12	Ihnen	PPER	Sie	_	O	O	
+9-13	ernstlich	ADJD	ernstlich	_	O	O	
+9-14	meinem	PPOSAT	mein	_	O	O	
+9-15	Beispiele	NN	Beispiel	_	O	O	
+9-16	zu	PTKZU	zu	_	O	O	
+9-17	folgen	VVINF	folgen	_	O	O	
+9-18	.	$.	.	_	O	O	
+
+#id=10
+#text=Die Ermüdung meiner Augen ist vollständig beseitigt.
+10-1	Die	ART	die	_	O	O	
+10-2	Ermüdung	NN	Ermüdung	_	O	O	
+10-3	meiner	PPOSAT	mein	_	O	O	
+10-4	Augen	NN	Auge	_	O	O	
+10-5	ist	VAFIN	sein	_	O	O	
+10-6	vollständig	ADJD	vollständig	_	O	O	
+10-7	beseitigt	VVPP	beseitigen	_	O	O	
+10-8	.	$.	.	_	O	O	
+
+#id=11
+#text=Schaden kann die Cur keines Falls etwas.
+11-1	Schaden	NN	Schaden	_	O	O	
+11-2	kann	VMFIN	können	_	O	O	
+11-3	die	ART	die	_	O	O	
+11-4	Cur	NN	<unknown>	_	O	O	
+11-5	keines	PIAT	keine	_	O	O	
+11-6	Falls	NN	Fall	_	O	O	
+11-7	etwas	ADV	etwas	_	O	O	
+11-8	.	$.	.	_	O	O	
+
+#id=12
+#text=Vor vier Tagen war Bormann in Siena, ziemlich elend aussehend.
+12-1	Vor	APPR	vor	_	O	O	
+12-2	vier	CARD	vier	_	O	O	
+12-3	Tagen	NN	Tag	_	O	O	
+12-4	war	VAFIN	sein	_	O	O	
+12-5	Bormann	NE	Bormann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-6	in	APPR	in	_	O	O	
+12-7	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-8	,	$,	,	_	O	O	
+12-9	ziemlich	ADV	ziemlich	_	O	O	
+12-10	elend	ADJD	elend	_	O	O	
+12-11	aussehend	ADJD	aussehend	_	O	O	
+12-12	.	$.	.	_	O	O	
+
+#id=13
+#text=Wetter wundervoll kühl gestern zwei schwere Gewitter, heute Landregen.
+13-1	Wetter	NN	Wetter	_	O	O	
+13-2	wundervoll	ADJD	wundervoll	_	O	O	
+13-3	kühl	ADJD	kühl	_	O	O	
+13-4	gestern	ADV	gestern	_	O	O	
+13-5	zwei	CARD	zwei	_	O	O	
+13-6	schwere	ADJA	schwer	_	O	O	
+13-7	Gewitter	NN	Gewitter	_	O	O	
+13-8	,	$,	,	_	O	O	
+13-9	heute	ADV	heute	_	O	O	
+13-10	Landregen	NN	Landregen	_	O	O	
+13-11	.	$.	.	_	O	O	
+
+#id=14
+#text=Ich überlasse jetzt die Feder meiner Frau.
+14-1	Ich	PPER	ich	_	O	O	
+14-2	überlasse	VVFIN	überlassen	_	O	O	
+14-3	jetzt	ADV	jetzt	_	O	O	
+14-4	die	ART	die	_	O	O	
+14-5	Feder	NN	Feder	_	O	O	
+14-6	meiner	PPOSAT	mein	_	O	O	
+14-7	Frau	NN	Frau	_	O	O	
+14-8	.	$.	.	_	O	O	
+
+#id=15
+#text=Herzli-
+15-1	Herzli-	TRUNC	<unknown>	_	O	O	
+

@@ -1,0 +1,191 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=380 Lepsius an Henzen Berlin, 23. Juli 1875 n. o 118 g. 26/7 75 r.
+1-1	380	CARD	380	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	n.	APPR	n.	_	O	O	
+1-12	o	ADJA	<unknown>	_	O	O	
+1-13	118	CARD	@card@	_	O	O	
+1-14	g.	ADJA	<unknown>	_	O	O	
+1-15	26/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	75	CARD	75	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=29/7 Berlin, d. 23. Juli 1875 Verehrter Freund Die Central Direktion ist mit den chromolithographischen Tafeln und der Einrichtu~g die Sie vorschlagen um die nöthigen Summen einigermaßen wieder auszugleichen, einverstanden.
+2-1	29/7	CARD	@card@	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-3	,	$,	,	_	O	O	
+2-4	d.	ART	d.	_	O	O	
+2-5	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	1875	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	Verehrter	ADJA	verehrt	_	O	O	
+2-10	Freund	NN	Freund	_	O	O	
+2-11	Die	ART	die	_	O	O	
+2-12	Central	NN	<unknown>	_	O	O	
+2-13	Direktion	NN	Direktion	_	O	O	
+2-14	ist	VAFIN	sein	_	O	O	
+2-15	mit	APPR	mit	_	O	O	
+2-16	den	ART	die	_	O	O	
+2-17	chromolithographischen	ADJA	<unknown>	_	O	O	
+2-18	Tafeln	NN	Tafel	_	O	O	
+2-19	und	KON	und	_	O	O	
+2-20	der	ART	die	_	O	O	
+2-21	Einrichtu~g	NN	<unknown>	_	O	O	
+2-22	die	PRELS	die	_	O	O	
+2-23	Sie	PPER	Sie	_	O	O	
+2-24	vorschlagen	VVFIN	vorschlagen	_	O	O	
+2-25	um	APPR	um	_	O	O	
+2-26	die	ART	die	_	O	O	
+2-27	nöthigen	ADJA	<unknown>	_	O	O	
+2-28	Summen	NN	Summe|Summen	_	O	O	
+2-29	einigermaßen	ADV	einigermaßen	_	O	O	
+2-30	wieder	ADV	wieder	_	O	O	
+2-31	auszugleichen	VVIZU	ausgleichen	_	O	O	
+2-32	,	$,	,	_	O	O	
+2-33	einverstanden	ADJD	einverstanden	_	O	O	
+2-34	.	$.	.	_	O	O	
+
+#id=3
+#text=Die stattliche Ausnahme und Abwechselung wird gewiß recht gut thun.
+3-1	Die	ART	die	_	O	O	
+3-2	stattliche	ADJA	stattlich	_	O	O	
+3-3	Ausnahme	NN	Ausnahme	_	O	O	
+3-4	und	KON	und	_	O	O	
+3-5	Abwechselung	NN	Abwechselung	_	O	O	
+3-6	wird	VAFIN	werden	_	O	O	
+3-7	gewiß	ADJD	gewiss	_	O	O	
+3-8	recht	ADJD	recht	_	O	O	
+3-9	gut	ADJD	gut	_	O	O	
+3-10	thun	NE	<unknown>	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=Auch gegen den gewünschten Urlaub hat sie nichts, vorausgesetzt was'· sich versteht, daß Sie für angemessene Vertretung sorgen, worüber Sie wohl noch ein Wort schreiben.
+4-1	Auch	ADV	auch	_	O	O	
+4-2	gegen	APPR	gegen	_	O	O	
+4-3	den	ART	die	_	O	O	
+4-4	gewünschten	ADJA	gewünscht	_	O	O	
+4-5	Urlaub	NN	Urlaub	_	O	O	
+4-6	hat	VAFIN	haben	_	O	O	
+4-7	sie	PPER	sie	_	O	O	
+4-8	nichts	PIS	nichts	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	vorausgesetzt	ADJD	vorausgesetzt	_	O	O	
+4-11	was'·	ADJD	<unknown>	_	O	O	
+4-12	sich	PRF	sich	_	O	O	
+4-13	versteht	VVFIN	verstehen	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	daß	KOUS	dass	_	O	O	
+4-16	Sie	PPER	Sie	_	O	O	
+4-17	für	APPR	für	_	O	O	
+4-18	angemessene	ADJA	angemessen	_	O	O	
+4-19	Vertretung	NN	Vertretung	_	O	O	
+4-20	sorgen	VVFIN	sorgen	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	worüber	PWAV	worüber	_	O	O	
+4-23	Sie	PPER	Sie	_	O	O	
+4-24	wohl	ADV	wohl	_	O	O	
+4-25	noch	ADV	noch	_	O	O	
+4-26	ein	ART	eine	_	O	O	
+4-27	Wort	NN	Wort	_	O	O	
+4-28	schreiben	VVFIN	schreiben	_	O	O	
+4-29	.	$.	.	_	O	O	
+
+#id=5
+#text=Hier wird nun bald Alles auseinanderfliegen.
+5-1	Hier	ADV	hier	_	O	O	
+5-2	wird	VAFIN	werden	_	O	O	
+5-3	nun	ADV	nun	_	O	O	
+5-4	bald	ADV	bald	_	O	O	
+5-5	Alles	PIS	alle	_	O	O	
+5-6	auseinanderfliegen	VVINF	auseinanderfliegen	_	O	O	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich komme vor Mitte August nicht fort und denke für einige Wochen wieder nach Schlesien zu gehen statt nach Paris zum geographischen Kongreß der aber von hier aus ganz zahlreich beschickt wird.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	komme	VVFIN	kommen	_	O	O	
+6-3	vor	APPR	vor	_	O	O	
+6-4	Mitte	NN	Mitte	_	O	O	
+6-5	August	NE	August	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-6	nicht	PTKNEG	nicht	_	O	O	
+6-7	fort	PTKVZ	fort	_	O	O	
+6-8	und	KON	und	_	O	O	
+6-9	denke	VVFIN	denken	_	O	O	
+6-10	für	APPR	für	_	O	O	
+6-11	einige	PIAT	einige	_	O	O	
+6-12	Wochen	NN	Woche	_	O	O	
+6-13	wieder	ADV	wieder	_	O	O	
+6-14	nach	APPR	nach	_	O	O	
+6-15	Schlesien	NE	Schlesien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-16	zu	PTKZU	zu	_	O	O	
+6-17	gehen	VVINF	gehen	_	O	O	
+6-18	statt	APPR	statt	_	O	O	
+6-19	nach	APPR	nach	_	O	O	
+6-20	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-21	zum	APPRART	zu	_	O	O	
+6-22	geographischen	ADJA	geographisch	_	O	O	
+6-23	Kongreß	NN	Kongress	_	O	O	
+6-24	der	ART	die	_	O	O	
+6-25	aber	ADV	aber	_	O	O	
+6-26	von	APPR	von	_	O	O	
+6-27	hier	ADV	hier	_	O	O	
+6-28	aus	APZR	aus	_	O	O	
+6-29	ganz	ADV	ganz	_	O	O	
+6-30	zahlreich	ADJD	zahlreich	_	O	O	
+6-31	beschickt	VVPP	beschicken	_	O	O	
+6-32	wird	VAFIN	werden	_	O	O	
+6-33	.	$.	.	_	O	O	
+
+#id=7
+#text=Der Dornauszieher ist nun wieder eingepackt und wandert nach London wahrscheinlich auf Nimmerwiedersehen.
+7-1	Der	ART	die	_	O	O	
+7-2	Dornauszieher	NN	<unknown>	_	O	O	
+7-3	ist	VAFIN	sein	_	O	O	
+7-4	nun	ADV	nun	_	O	O	
+7-5	wieder	ADV	wieder	_	O	O	
+7-6	eingepackt	VVPP	einpacken	_	O	O	
+7-7	und	KON	und	_	O	O	
+7-8	wandert	VVFIN	wandern	_	O	O	
+7-9	nach	APPR	nach	_	O	O	
+7-10	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-11	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+7-12	auf	APPR	auf	_	O	O	
+7-13	Nimmerwiedersehen	NN	Nimmerwiedersehen	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Köhler werde ich nun dieser Tage seine Wahl officieIl mittheilen.
+8-1	Köhler	NE	Köhler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	werde	VAFIN	werden	_	O	O	
+8-3	ich	PPER	ich	_	O	O	
+8-4	nun	ADV	nun	_	O	O	
+8-5	dieser	PDAT	dies	_	O	O	
+8-6	Tage	NN	Tag	_	O	O	
+8-7	seine	PPOSAT	sein	_	O	O	
+8-8	Wahl	NN	Wahl	_	O	O	
+8-9	officieIl	ADJD	<unknown>	_	O	O	
+8-10	mittheilen	VVINF	<unknown>	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Mit herzlichem Gruß Ihr ergebenster R Lepsius
+9-1	Mit	APPR	mit	_	O	O	
+9-2	herzlichem	ADJA	herzlich	_	O	O	
+9-3	Gruß	NN	Gruß	_	O	O	
+9-4	Ihr	PPOSAT	ihr	_	O	O	
+9-5	ergebenster	ADJA	<unknown>	_	O	O	
+9-6	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+9-7	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

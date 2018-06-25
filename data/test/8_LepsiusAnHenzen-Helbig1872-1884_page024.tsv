@@ -1,0 +1,53 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=93 Lepsius an +1 J.t":i. r ~ Berlin, 28. Februar 1872 4 Es freut mich von Professor Henzen bessere \ Nachricht durch Sie zu erhalten.
+1-1	93	CARD	93	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	+1	NN	<unknown>	_	O	O	
+1-5	J.t":i	NE	<unknown>	_	O	O	
+1-6	.	$.	.	_	O	O	
+1-7	r	FM	r	_	O	O	
+1-8	~	XY	~	_	O	O	
+1-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	4	CARD	4	_	O	O	
+1-16	Es	NN	Es	_	O	O	
+1-17	freut	VVFIN	freuen	_	O	O	
+1-18	mich	PRF	ich	_	O	O	
+1-19	von	APPR	von	_	O	O	
+1-20	Professor	NN	Professor	_	O	O	
+1-21	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-22	bessere	ADJA	gut	_	O	O	
+1-23	\	XY	\	_	O	O	
+1-24	Nachricht	NN	Nachricht	_	O	O	
+1-25	durch	APPR	durch	_	O	O	
+1-26	Sie	PPER	Sie	_	O	O	
+1-27	zu	PTKZU	zu	_	O	O	
+1-28	erhalten	VVINF	erhalten	_	O	O	
+1-29	.	$.	.	_	O	O	
+
+#id=2
+#text=Grüßen Sie ihn und seine Frau bestens von mir.
+2-1	Grüßen	VVFIN	grüßen	_	O	O	
+2-2	Sie	PPER	Sie	_	O	O	
+2-3	ihn	PPER	er	_	O	O	
+2-4	und	KON	und	_	O	O	
+2-5	seine	PPOSAT	sein	_	O	O	
+2-6	Frau	NN	Frau	_	O	O	
+2-7	bestens	ADV	bestens	_	O	O	
+2-8	von	APPR	von	_	O	O	
+2-9	mir	PPER	ich	_	O	O	
+2-10	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihr ergebenster R Lepsius
+3-1	Ihr	PPOSAT	ihr	_	O	O	
+3-2	ergebenster	ADJA	<unknown>	_	O	O	
+3-3	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-4	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

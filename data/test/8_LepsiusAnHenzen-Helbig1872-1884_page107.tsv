@@ -1,0 +1,255 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=i 298 Verehrter Freund Lepsius anHenzen Berlin, 2, November 1873 g. 5/11 73 r. Berlin d. 2. Nov.
+1-1	i	FM	i	_	O	O	
+1-2	298	CARD	@card@	_	O	O	
+1-3	Verehrter	NN	Verehrte	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	anHenzen	NN	<unknown>	_	O	O	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	,	$,	,	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	5/11	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	73	CARD	73	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+1-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-18	d.	ART	d.	_	O	O	
+1-19	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Nov.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1873.
+2-1	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=Herr Cohn (Asher) war gestern bei mir und explicirte den ansehnlichen Rechnungsfehler dahin, daß sein Commis zwar die Gesammtsumme richtig angegeben, in den einzelenen Posten aber den letzten von 22 L ausgelassen habe.
+3-1	Herr	NN	Herr	_	O	O	
+3-2	Cohn	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	(	$(	(	_	O	O	
+3-4	Asher	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	)	$(	)	_	O	O	
+3-6	war	VAFIN	sein	_	O	O	
+3-7	gestern	ADV	gestern	_	O	O	
+3-8	bei	APPR	bei	_	O	O	
+3-9	mir	PPER	ich	_	O	O	
+3-10	und	KON	und	_	O	O	
+3-11	explicirte	NN	<unknown>	_	O	O	
+3-12	den	ART	die	_	O	O	
+3-13	ansehnlichen	ADJA	ansehnlich	_	O	O	
+3-14	Rechnungsfehler	NN	Rechnungsfehler	_	O	O	
+3-15	dahin	PAV	dahin	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	daß	KOUS	dass	_	O	O	
+3-18	sein	PPOSAT	sein	_	O	O	
+3-19	Commis	NN	<unknown>	_	O	O	
+3-20	zwar	ADV	zwar	_	O	O	
+3-21	die	ART	die	_	O	O	
+3-22	Gesammtsumme	NN	<unknown>	_	O	O	
+3-23	richtig	ADJD	richtig	_	O	O	
+3-24	angegeben	VVPP	angeben	_	O	O	
+3-25	,	$,	,	_	O	O	
+3-26	in	APPR	in	_	O	O	
+3-27	den	ART	die	_	O	O	
+3-28	einzelenen	ADJA	<unknown>	_	O	O	
+3-29	Posten	NN	Posten	_	O	O	
+3-30	aber	KON	aber	_	O	O	
+3-31	den	ART	die	_	O	O	
+3-32	letzten	ADJA	letzt	_	O	O	
+3-33	von	APPR	von	_	O	O	
+3-34	22	CARD	22	_	O	O	
+3-35	L	NN	L	_	O	O	
+3-36	ausgelassen	VVPP	auslassen	_	O	O	
+3-37	habe	VAFIN	haben	_	O	O	
+3-38	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Berechnung des Lire zu 6.22 und zu 6.22 1/2 rechtfertigt er durch den verschiedenen Stand des Geldes in England.
+4-1	Die	ART	die	_	O	O	
+4-2	Berechnung	NN	Berechnung	_	O	O	
+4-3	des	ART	die	_	O	O	
+4-4	Lire	NN	Lira	_	O	O	
+4-5	zu	APPR	zu	_	O	O	
+4-6	6.22	CARD	@card@	_	O	O	
+4-7	und	KON	und	_	O	O	
+4-8	zu	APPR	zu	_	O	O	
+4-9	6.22	CARD	@card@	_	O	O	
+4-10	1/2	CARD	1/2	_	O	O	
+4-11	rechtfertigt	VVFIN	rechtfertigen	_	O	O	
+4-12	er	PPER	er	_	O	O	
+4-13	durch	APPR	durch	_	O	O	
+4-14	den	ART	die	_	O	O	
+4-15	verschiedenen	ADJA	verschieden	_	O	O	
+4-16	Stand	NN	Stand	_	O	O	
+4-17	des	ART	die	_	O	O	
+4-18	Geldes	NN	Geld	_	O	O	
+4-19	in	APPR	in	_	O	O	
+4-20	England	NE	England	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-21	.	$.	.	_	O	O	
+
+#id=5
+#text=Er hat statt diesen Stand bei jeder einzelenen Summe zu berechnen, ein Mittel gezogen und berechnet.
+5-1	Er	PPER	er	_	O	O	
+5-2	hat	VAFIN	haben	_	O	O	
+5-3	statt	APPR	statt	_	O	O	
+5-4	diesen	PDAT	dies	_	O	O	
+5-5	Stand	NN	Stand	_	O	O	
+5-6	bei	APPR	bei	_	O	O	
+5-7	jeder	PIAT	jede	_	O	O	
+5-8	einzelenen	ADJA	<unknown>	_	O	O	
+5-9	Summe	NN	Summe	_	O	O	
+5-10	zu	PTKZU	zu	_	O	O	
+5-11	berechnen	VVINF	berechnen	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	ein	ART	eine	_	O	O	
+5-14	Mittel	NN	Mittel	_	O	O	
+5-15	gezogen	VVPP	ziehen	_	O	O	
+5-16	und	KON	und	_	O	O	
+5-17	berechnet	VVPP	berechnen	_	O	O	
+5-18	.	$.	.	_	O	O	
+
+#id=6
+#text=In der That ist dies in der Ordnung bei seinen baaren Auslagen.
+6-1	In	APPR	in	_	O	O	
+6-2	der	ART	die	_	O	O	
+6-3	That	NE	<unknown>	_	O	O	
+6-4	ist	VAFIN	sein	_	O	O	
+6-5	dies	PDS	dies	_	O	O	
+6-6	in	APPR	in	_	O	O	
+6-7	der	ART	die	_	O	O	
+6-8	Ordnung	NN	Ordnung	_	O	O	
+6-9	bei	APPR	bei	_	O	O	
+6-10	seinen	PPOSAT	sein	_	O	O	
+6-11	baaren	ADJA	<unknown>	_	O	O	
+6-12	Auslagen	NN	Auslage	_	O	O	
+6-13	.	$.	.	_	O	O	
+
+#id=7
+#text=Ebenso würde er allerdings für baare Auslagen die vom März d. J. beginnen auch Zinsen berechnen können, die nach ihm für die vorliegende Rechnung 30 - 40 r beträge zu 5 % was ich nicht nachgerechnet habe.
+7-1	Ebenso	ADV	ebenso	_	O	O	
+7-2	würde	VAFIN	werden	_	O	O	
+7-3	er	PPER	er	_	O	O	
+7-4	allerdings	ADV	allerdings	_	O	O	
+7-5	für	APPR	für	_	O	O	
+7-6	baare	ADJA	<unknown>	_	O	O	
+7-7	Auslagen	NN	Auslage	_	O	O	
+7-8	die	ART	die	_	O	O	
+7-9	vom	APPRART	von	_	O	O	
+7-10	März	NN	März	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-11	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-12	J.	NE	J.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-13	beginnen	VVFIN	beginnen	_	O	O	
+7-14	auch	ADV	auch	_	O	O	
+7-15	Zinsen	NN	Zins	_	O	O	
+7-16	berechnen	VVINF	berechnen	_	O	O	
+7-17	können	VMINF	können	_	O	O	
+7-18	,	$,	,	_	O	O	
+7-19	die	PRELS	die	_	O	O	
+7-20	nach	APPR	nach	_	O	O	
+7-21	ihm	PPER	er	_	O	O	
+7-22	für	APPR	für	_	O	O	
+7-23	die	ART	die	_	O	O	
+7-24	vorliegende	ADJA	vorliegend	_	O	O	
+7-25	Rechnung	NN	Rechnung	_	O	O	
+7-26	30	CARD	30	_	O	O	
+7-27	-	$(	-	_	O	O	
+7-28	40	CARD	40	_	O	O	
+7-29	r	NE	r	_	O	O	
+7-30	beträge	NN	Betrag	_	O	O	
+7-31	zu	APPR	zu	_	O	O	
+7-32	5	CARD	5	_	O	O	
+7-33	%	NN	%	_	O	O	
+7-34	was	PRELS	was	_	O	O	
+7-35	ich	PPER	ich	_	O	O	
+7-36	nicht	PTKNEG	nicht	_	O	O	
+7-37	nachgerechnet	VVPP	nachrechnen	_	O	O	
+7-38	habe	VAFIN	haben	_	O	O	
+7-39	.	$.	.	_	O	O	
+
+#id=8
+#text=Indessen hat er davon abgestanden auf meine Bemerkung, daß dergleichen das Geschäft tragen könne.
+8-1	Indessen	ADV	indessen	_	O	O	
+8-2	hat	VAFIN	haben	_	O	O	
+8-3	er	PPER	er	_	O	O	
+8-4	davon	PAV	davon	_	O	O	
+8-5	abgestanden	VVPP	abstehen	_	O	O	
+8-6	auf	APPR	auf	_	O	O	
+8-7	meine	PPOSAT	mein	_	O	O	
+8-8	Bemerkung	NN	Bemerkung	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	daß	KOUS	dass	_	O	O	
+8-11	dergleichen	PIS	dergleichen	_	O	O	
+8-12	das	ART	die	_	O	O	
+8-13	Geschäft	NN	Geschäft	_	O	O	
+8-14	tragen	VVINF	tragen	_	O	O	
+8-15	könne	VMFIN	können	_	O	O	
+8-16	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich habe ihm aäch noch schriftlich aufgegeben unser Guthaben abzuziehen.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	habe	VAFIN	haben	_	O	O	
+9-3	ihm	PPER	er	_	O	O	
+9-4	aäch	NN	<unknown>	_	O	O	
+9-5	noch	ADV	noch	_	O	O	
+9-6	schriftlich	ADJD	schriftlich	_	O	O	
+9-7	aufgegeben	VVPP	aufgeben	_	O	O	
+9-8	unser	PPOSAT	unser	_	O	O	
+9-9	Guthaben	NN	Guthaben	_	O	O	
+9-10	abzuziehen	VVIZU	abziehen	_	O	O	
+9-11	.	$.	.	_	O	O	
+
+#id=10
+#text=Er wird dem also wohl nachkommen.
+10-1	Er	PPER	er	_	O	O	
+10-2	wird	VAFIN	werden	_	O	O	
+10-3	dem	ART	die	_	O	O	
+10-4	also	ADV	also	_	O	O	
+10-5	wohl	ADV	wohl	_	O	O	
+10-6	nachkommen	VVINF	nachkommen	_	O	O	
+10-7	.	$.	.	_	O	O	
+
+#id=11
+#text=Darauf hin können Sie ihm die Summe auszahlen.
+11-1	Darauf	PAV	darauf	_	O	O	
+11-2	hin	ADV	hin	_	O	O	
+11-3	können	VMFIN	können	_	O	O	
+11-4	Sie	PPER	Sie	_	O	O	
+11-5	ihm	PPER	er	_	O	O	
+11-6	die	ART	die	_	O	O	
+11-7	Summe	NN	Summe	_	O	O	
+11-8	auszahlen	VVINF	auszahlen	_	O	O	
+11-9	.	$.	.	_	O	O	
+
+#id=12
+#text=Auch soll er Ihnen die Einzelquittungen, so weit er sie beschaffen kann, zusenden, die Sie dann uns bei der Jah-
+12-1	Auch	ADV	auch	_	O	O	
+12-2	soll	VMFIN	sollen	_	O	O	
+12-3	er	PPER	er	_	O	O	
+12-4	Ihnen	PPER	Sie	_	O	O	
+12-5	die	ART	die	_	O	O	
+12-6	Einzelquittungen	NN	<unknown>	_	O	O	
+12-7	,	$,	,	_	O	O	
+12-8	so	ADV	so	_	O	O	
+12-9	weit	ADJD	weit	_	O	O	
+12-10	er	PPER	er	_	O	O	
+12-11	sie	PPER	sie	_	O	O	
+12-12	beschaffen	VVINF	beschaffen	_	O	O	
+12-13	kann	VMFIN	können	_	O	O	
+12-14	,	$,	,	_	O	O	
+12-15	zusenden	VVFIN	zusenden	_	O	O	
+12-16	,	$,	,	_	O	O	
+12-17	die	PRELS	die	_	O	O	
+12-18	Sie	PPER	Sie	_	O	O	
+12-19	dann	ADV	dann	_	O	O	
+12-20	uns	PPER	wir	_	O	O	
+12-21	bei	APPR	bei	_	O	O	
+12-22	der	ART	die	_	O	O	
+12-23	Jah-	TRUNC	Jah-	_	O	O	
+

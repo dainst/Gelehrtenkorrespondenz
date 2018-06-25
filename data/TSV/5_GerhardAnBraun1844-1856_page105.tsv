@@ -1,0 +1,60 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=51 2 tens.
+1-1	51	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	tens	VVFIN	<unknown>	_	O	O	
+1-4	.	$.	.	_	O	O	
+
+#id=2
+#text=Wie geht es Vollard's ?
+2-1	Wie	KOUS	wie	_	O	O	
+2-2	geht	VVFIN	gehen	_	O	O	
+2-3	es	PPER	es	_	O	O	
+2-4	Vollard's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-5	?	$.	?	_	O	O	
+
+#id=3
+#text=Gerhard an Braun Berlin, 29. Januar 1845 Kestner hat mir geschrieben ohne in Institutssachen irgend eine Beschränkung zu heischen.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	an	APPR	an	_	O	O	
+3-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-5	,	$,	,	_	O	O	
+3-6	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-10	Kestner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-11	hat	VAFIN	haben	_	O	O	
+3-12	mir	PPER	ich	_	O	O	
+3-13	geschrieben	VVPP	schreiben	_	O	O	
+3-14	ohne	APPR	ohne	_	O	O	
+3-15	in	APPR	in	_	O	O	
+3-16	Institutssachen	NN	<unknown>	_	O	O	
+3-17	irgend	ADV	irgend	_	O	O	
+3-18	eine	ART	eine	_	O	O	
+3-19	Beschränkung	NN	Beschränkung	_	O	O	
+3-20	zu	PTKZU	zu	_	O	O	
+3-21	heischen	VVINF	<unknown>	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=5
+#text=Eine Beschreibung des Museo Gregoriano von Ungarelli finde ich citiert ?
+5-1	Eine	ART	eine	_	O	O	
+5-2	Beschreibung	NN	Beschreibung	_	O	O	
+5-3	des	ART	die	_	O	O	
+5-4	Museo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-5	Gregoriano	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-6	von	APPR	von	_	O	O	
+5-7	Ungarelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-8	finde	VVFIN	finden	_	O	O	
+5-9	ich	PPER	ich	_	O	O	
+5-10	citiert	ADJD	<unknown>	_	O	O	
+5-11	?	$.	?	_	O	O	
+
+#id=6
+#text=Ihr Gerhard
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

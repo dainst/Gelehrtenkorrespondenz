@@ -1,0 +1,228 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Lepsius an Henzen Berlin, 20. Juli 1872 g. 25/§... 72 r.
+1-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	g.	VVFIN	<unknown>	_	O	O	
+1-11	25/§	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-12	...	$.	...	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-13	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=26/6 72 p.-l..e...' Berlin d. 20. Juli 1872 Verehrter Freund rIhre Veränderungen des Etats Entwurfs sind alle begründet und von uns gebilligt worden.
+2-1	26/6	CARD	@card@	_	O	O	
+2-2	72	CARD	72	_	O	O	
+2-3	p.-l..e	NN	<unknown>	_	O	O	
+2-4	...	$.	...	_	O	O	
+2-5	'	$(	'	_	O	O	
+2-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-7	d.	ART	d.	_	O	O	
+2-8	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	Verehrter	NN	Verehrte	_	O	O	
+2-13	Freund	NE	Freund	_	O	O	
+2-14	rIhre	ADJA	<unknown>	_	O	O	
+2-15	Veränderungen	NN	Veränderung	_	O	O	
+2-16	des	ART	die	_	O	O	
+2-17	Etats	NN	Etat	_	O	O	
+2-18	Entwurfs	NN	Entwurf	_	O	O	
+2-19	sind	VAFIN	sein	_	O	O	
+2-20	alle	PIS	alle	_	O	O	
+2-21	begründet	VVPP	begründen	_	O	O	
+2-22	und	KON	und	_	O	O	
+2-23	von	APPR	von	_	O	O	
+2-24	uns	PRF	wir	_	O	O	
+2-25	gebilligt	VVPP	billigen	_	O	O	
+2-26	worden	VAPP	werden	_	O	O	
+2-27	.	$.	.	_	O	O	
+
+#id=3
+#text=Wir haben dann nur noch die Gehaltserhöhungen, ohne Veränderung unsrer früheren Anträge, darin aufgenommen.
+3-1	Wir	PPER	wir	_	O	O	
+3-2	haben	VAFIN	haben	_	O	O	
+3-3	dann	ADV	dann	_	O	O	
+3-4	nur	ADV	nur	_	O	O	
+3-5	noch	ADV	noch	_	O	O	
+3-6	die	ART	die	_	O	O	
+3-7	Gehaltserhöhungen	NN	Gehaltserhöhung	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	ohne	KOUI	ohne	_	O	O	
+3-10	Veränderung	NN	Veränderung	_	O	O	
+3-11	unsrer	PPOSAT	unser	_	O	O	
+3-12	früheren	ADJA	früh	_	O	O	
+3-13	Anträge	NN	Antrag	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	darin	PAV	darin	_	O	O	
+3-16	aufgenommen	VVPP	aufnehmen	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Meine Versuche unseren beiderseitigen Wünschen jetzt schon Eingang zu verschaffen, wurden entschieden abgelehnt, und allerdings ließ sich nicht viel gegen den Grund anführen, daß es sich nicht wohl schicke, unsre eignen ausführlich moti~ virten Anträge schon jetzt, ehe sie noch beantwortet sind, wieder zu verändern.
+4-1	Meine	PPOSAT	mein	_	O	O	
+4-2	Versuche	NN	Versuch	_	O	O	
+4-3	unseren	PPOSAT	unser	_	O	O	
+4-4	beiderseitigen	ADJA	beiderseitig	_	O	O	
+4-5	Wünschen	NN	Wunsch	_	O	O	
+4-6	jetzt	ADV	jetzt	_	O	O	
+4-7	schon	ADV	schon	_	O	O	
+4-8	Eingang	NN	Eingang	_	O	O	
+4-9	zu	PTKZU	zu	_	O	O	
+4-10	verschaffen	VVINF	verschaffen	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	wurden	VAFIN	werden	_	O	O	
+4-13	entschieden	ADJD	entschieden	_	O	O	
+4-14	abgelehnt	VVPP	ablehnen	_	O	O	
+4-15	,	$,	,	_	O	O	
+4-16	und	KON	und	_	O	O	
+4-17	allerdings	ADV	allerdings	_	O	O	
+4-18	ließ	VVFIN	lassen	_	O	O	
+4-19	sich	PRF	sich	_	O	O	
+4-20	nicht	PTKNEG	nicht	_	O	O	
+4-21	viel	ADV	viel	_	O	O	
+4-22	gegen	APPR	gegen	_	O	O	
+4-23	den	ART	die	_	O	O	
+4-24	Grund	NN	Grund	_	O	O	
+4-25	anführen	VVINF	anführen	_	O	O	
+4-26	,	$,	,	_	O	O	
+4-27	daß	KOUS	dass	_	O	O	
+4-28	es	PPER	es	_	O	O	
+4-29	sich	PRF	sich	_	O	O	
+4-30	nicht	PTKNEG	nicht	_	O	O	
+4-31	wohl	ADV	wohl	_	O	O	
+4-32	schicke	VVFIN	schicken	_	O	O	
+4-33	,	$,	,	_	O	O	
+4-34	unsre	PPOSAT	unsre	_	O	O	
+4-35	eignen	ADJA	eigen	_	O	O	
+4-36	ausführlich	ADJD	ausführlich	_	O	O	
+4-37	moti~	ADJA	<unknown>	_	O	O	
+4-38	virten	ADJA	<unknown>	_	O	O	
+4-39	Anträge	NN	Antrag	_	O	O	
+4-40	schon	ADV	schon	_	O	O	
+4-41	jetzt	ADV	jetzt	_	O	O	
+4-42	,	$,	,	_	O	O	
+4-43	ehe	KOUS	ehe	_	O	O	
+4-44	sie	PPER	sie	_	O	O	
+4-45	noch	ADV	noch	_	O	O	
+4-46	beantwortet	VVPP	beantworten	_	O	O	
+4-47	sind	VAFIN	sein	_	O	O	
+4-48	,	$,	,	_	O	O	
+4-49	wieder	ADV	wieder	_	O	O	
+4-50	zu	PTKZU	zu	_	O	O	
+4-51	verändern	VVINF	verändern	_	O	O	
+4-52	.	$.	.	_	O	O	
+
+#id=5
+#text=Späteres Zurückkommen darauf wurde jedoch vorbehalten.
+5-1	Späteres	ADJA	spät	_	O	O	
+5-2	Zurückkommen	NN	Zurückkommen	_	O	O	
+5-3	darauf	PAV	darauf	_	O	O	
+5-4	wurde	VAFIN	werden	_	O	O	
+5-5	jedoch	ADV	jedoch	_	O	O	
+5-6	vorbehalten	VVPP	vorbehalten	_	O	O	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=An Benndorf noch mehr als 25 % zu bewilligen schien den Herren kein Grund vorzuliegen.
+6-1	An	APPR	an	_	O	O	
+6-2	Benndorf	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	noch	ADV	noch	_	O	O	
+6-4	mehr	ADV	mehr	_	O	O	
+6-5	als	KOKOM	als	_	O	O	
+6-6	25	CARD	25	_	O	O	
+6-7	%	NN	%	_	O	O	
+6-8	zu	PTKZU	zu	_	O	O	
+6-9	bewilligen	VVINF	bewilligen	_	O	O	
+6-10	schien	VVFIN	scheinen	_	O	O	
+6-11	den	ART	die	_	O	O	
+6-12	Herren	NN	Herr	_	O	O	
+6-13	kein	PIAT	keine	_	O	O	
+6-14	Grund	NN	Grund	_	O	O	
+6-15	vorzuliegen	VVIZU	vorliegen	_	O	O	
+6-16	.	$.	.	_	O	O	
+
+#id=7
+#text=Dagegen schlug Mommsen vor, der Bibliothek von Spalat~~ für den Ankauf der ihr noch fehlenden Jahrgänge 50 % zu bewill~gen, da sie zu arm sei und die Werke dort nützlich seien; ihr auch für das C. I. L. von Herrn Glavinic wesentliche Dienste geleistet seien.
+7-1	Dagegen	PAV	dagegen	_	O	O	
+7-2	schlug	VVFIN	schlagen	_	O	O	
+7-3	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-4	vor	PTKVZ	vor	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	der	ART	die	_	O	O	
+7-7	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-8	von	APPR	von	_	O	O	
+7-9	Spalat~~	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-10	für	APPR	für	_	O	O	
+7-11	den	ART	die	_	O	O	
+7-12	Ankauf	NN	Ankauf	_	O	O	
+7-13	der	ART	die	_	O	O	
+7-14	ihr	PPOSAT	ihr	_	O	O	
+7-15	noch	ADV	noch	_	O	O	
+7-16	fehlenden	ADJA	fehlend	_	O	O	
+7-17	Jahrgänge	NN	Jahrgang	_	O	O	
+7-18	50	CARD	50	_	O	O	
+7-19	%	NN	%	_	O	O	
+7-20	zu	APPR	zu	_	O	O	
+7-21	bewill~gen	NE	<unknown>	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	da	KOUS	da	_	O	O	
+7-24	sie	PPER	sie	_	O	O	
+7-25	zu	PTKA	zu	_	O	O	
+7-26	arm	ADJD	arm	_	O	O	
+7-27	sei	VAFIN	sein	_	O	O	
+7-28	und	KON	und	_	O	O	
+7-29	die	ART	die	_	O	O	
+7-30	Werke	NN	Werk	_	O	O	
+7-31	dort	ADV	dort	_	O	O	
+7-32	nützlich	ADJD	nützlich	_	O	O	
+7-33	seien	VAINF	sein	_	O	O	
+7-34	;	$.	;	_	O	O	
+7-35	ihr	PPOSAT	ihr	_	O	O	
+7-36	auch	ADV	auch	_	O	O	
+7-37	für	APPR	für	_	O	O	
+7-38	das	ART	die	_	O	O	
+7-39	C.	NE	C.	_	O	O	
+7-40	I.	NE	I.	_	O	O	
+7-41	L.	NE	L.	_	O	O	
+7-42	von	APPR	von	_	O	O	
+7-43	Herrn	NN	Herr	_	O	O	
+7-44	Glavinic	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-45	wesentliche	ADJA	wesentlich	_	O	O	
+7-46	Dienste	NN	Dienst	_	O	O	
+7-47	geleistet	VVPP	leisten	_	O	O	
+7-48	seien	VAFIN	sein	_	O	O	
+7-49	.	$.	.	_	O	O	
+
+#id=8
+#text=Schöne wird Ihnen über das Museo Braschi geschrieben haben.
+8-1	Schöne	NN	Schöne	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	wird	VAFIN	werden	_	O	O	
+8-3	Ihnen	PPER	Sie	_	O	O	
+8-4	über	APPR	über	_	O	O	
+8-5	das	ART	die	_	O	O	
+8-6	Museo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-7	Braschi	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+8-8	geschrieben	VVPP	schreiben	_	O	O	
+8-9	haben	VAINF	haben	_	O	O	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=Es wird wohl hinreichen, wenn Sie privatim
+9-1	Es	PPER	es	_	O	O	
+9-2	wird	VAFIN	werden	_	O	O	
+9-3	wohl	ADV	wohl	_	O	O	
+9-4	hinreichen	VVINF	hinreichen	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	wenn	KOUS	wenn	_	O	O	
+9-7	Sie	PPER	Sie	_	O	O	
+9-8	privatim	VVFIN	<unknown>	_	O	O	
+

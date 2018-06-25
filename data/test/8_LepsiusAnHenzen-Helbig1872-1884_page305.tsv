@@ -1,0 +1,230 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=r 119 Lepsius an Henzen Berlin, 24. Februar 1877 g. 27/2 77 Berlin, den 24. Febr.
+1-1	r	FM	r	_	O	O	
+1-2	119	CARD	119	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	27/2	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	77	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-16	,	$,	,	_	O	O	
+1-17	den	ART	die	_	O	O	
+1-18	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-20	Febr.	NN	Febr.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=2
+#text=1877 Verehrter Freund Ich will wenigstens nicht länger säumen Ihnen den Empfang Ihrer letzten Mitbheilungen z~elden, wenn auch einstweilen nicht mehr als das.
+2-1	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Verehrter	NN	Verehrte	_	O	O	
+2-3	Freund	NE	Freund	_	O	O	
+2-4	Ich	PPER	ich	_	O	O	
+2-5	will	VMFIN	wollen	_	O	O	
+2-6	wenigstens	ADV	wenigstens	_	O	O	
+2-7	nicht	PTKNEG	nicht	_	O	O	
+2-8	länger	ADJD	lang	_	O	O	
+2-9	säumen	VVFIN	säumen	_	O	O	
+2-10	Ihnen	PPER	Sie	_	O	O	
+2-11	den	ART	die	_	O	O	
+2-12	Empfang	NN	Empfang	_	O	O	
+2-13	Ihrer	PPOSAT	ihr	_	O	O	
+2-14	letzten	ADJA	letzt	_	O	O	
+2-15	Mitbheilungen	NN	<unknown>	_	O	O	
+2-16	z~elden	VVINF	<unknown>	_	O	O	
+2-17	,	$,	,	_	O	O	
+2-18	wenn	KOUS	wenn	_	O	O	
+2-19	auch	ADV	auch	_	O	O	
+2-20	einstweilen	ADV	einstweilen	_	O	O	
+2-21	nicht	PTKNEG	nicht	_	O	O	
+2-22	mehr	PIS	mehr	_	O	O	
+2-23	als	KOKOM	als	_	O	O	
+2-24	das	PDS	die	_	O	O	
+2-25	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich denke bei dem was in Aussicht steht wird doch die richesse noch bedeutend den embarras überwiegen.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	denke	VVFIN	denken	_	O	O	
+3-3	bei	APPR	bei	_	O	O	
+3-4	dem	ART	die	_	O	O	
+3-5	was	PIS	was	_	O	O	
+3-6	in	APPR	in	_	O	O	
+3-7	Aussicht	NN	Aussicht	_	O	O	
+3-8	steht	VVFIN	stehen	_	O	O	
+3-9	wird	VAFIN	werden	_	O	O	
+3-10	doch	ADV	doch	_	O	O	
+3-11	die	ART	die	_	O	O	
+3-12	richesse	NN	<unknown>	_	O	O	
+3-13	noch	ADV	noch	_	O	O	
+3-14	bedeutend	ADJD	bedeutend	_	O	O	
+3-15	den	ART	die	_	O	O	
+3-16	embarras	NN	<unknown>	_	O	O	
+3-17	überwiegen	VVINF	überwiegen	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Was aber zunächst nun in der Sache zu thun ist, muß erst noch näher untersucht werden.
+4-1	Was	PWS	was	_	O	O	
+4-2	aber	ADV	aber	_	O	O	
+4-3	zunächst	ADV	zunächst	_	O	O	
+4-4	nun	ADV	nun	_	O	O	
+4-5	in	APPR	in	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	Sache	NN	Sache	_	O	O	
+4-8	zu	APPR	zu	_	O	O	
+4-9	thun	NE	<unknown>	_	O	O	
+4-10	ist	VAFIN	sein	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	muß	VMFIN	müssen	_	O	O	
+4-13	erst	ADV	erst	_	O	O	
+4-14	noch	ADV	noch	_	O	O	
+4-15	näher	ADJD	nah	_	O	O	
+4-16	untersucht	VVPP	untersuchen	_	O	O	
+4-17	werden	VAINF	werden	_	O	O	
+4-18	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich habe das Testament zunächst Mommsen mitgetheilt.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	das	ART	die	_	O	O	
+5-4	Testament	NN	Testament	_	O	O	
+5-5	zunächst	ADV	zunächst	_	O	O	
+5-6	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-7	mitgetheilt	VVPP	<unknown>	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Vor e~n~gen Tagen am19.
+6-1	Vor	APPR	vor	_	O	O	
+6-2	e~n~gen	NE	<unknown>	_	O	O	
+6-3	Tagen	NN	Tag	_	O	O	
+6-4	am19	VVFIN	<unknown>	_	O	O	
+6-5	.	$.	.	_	O	O	
+
+#id=7
+#text=d. habe ich Ihnen die ü Diplome für den 9. Dezember 76 unausge11lt übersendet nur mit der Nummer und meiner Unterschrift.
+7-1	d.	PDS	d.	_	O	O	
+7-2	habe	VAFIN	haben	_	O	O	
+7-3	ich	PPER	ich	_	O	O	
+7-4	Ihnen	PPER	Sie	_	O	O	
+7-5	die	ART	die	_	O	O	
+7-6	ü	ADJA	<unknown>	_	O	O	
+7-7	Diplome	NN	Diplom	_	O	O	
+7-8	für	APPR	für	_	O	O	
+7-9	den	ART	die	_	O	O	
+7-10	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-12	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-13	76	CARD	@card@	_	O	O	
+7-14	unausge11lt	ADJD	<unknown>	_	O	O	
+7-15	übersendet	VVFIN	übersenden	_	O	O	
+7-16	nur	ADV	nur	_	O	O	
+7-17	mit	APPR	mit	_	O	O	
+7-18	der	ART	die	_	O	O	
+7-19	Nummer	NN	Nummer	_	O	O	
+7-20	und	KON	und	_	O	O	
+7-21	meiner	PPOSAT	mein	_	O	O	
+7-22	Unterschrift	NN	Unterschrift	_	O	O	
+7-23	.	$.	.	_	O	O	
+
+#id=8
+#text=In Bezug auf die 9 Diplome die wie Sie schreiben schon bei Ihnen liegen, bitte ich mir zu sagen, für welches der beiden J-ahresdaten sie gedruckt sind.
+8-1	In	APPR	in	_	O	O	
+8-2	Bezug	NN	Bezug	_	O	O	
+8-3	auf	APPR	auf	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	9	CARD	9	_	O	O	
+8-6	Diplome	NN	Diplom	_	O	O	
+8-7	die	ART	die	_	O	O	
+8-8	wie	KOKOM	wie	_	O	O	
+8-9	Sie	PPER	Sie	_	O	O	
+8-10	schreiben	VVFIN	schreiben	_	O	O	
+8-11	schon	ADV	schon	_	O	O	
+8-12	bei	APPR	bei	_	O	O	
+8-13	Ihnen	PPER	Sie	_	O	O	
+8-14	liegen	VVINF	liegen	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	bitte	VVFIN	bitten	_	O	O	
+8-17	ich	PPER	ich	_	O	O	
+8-18	mir	PPER	ich	_	O	O	
+8-19	zu	PTKZU	zu	_	O	O	
+8-20	sagen	VVINF	sagen	_	O	O	
+8-21	,	$,	,	_	O	O	
+8-22	für	APPR	für	_	O	O	
+8-23	welches	PRELS	welche	_	O	O	
+8-24	der	ART	die	_	O	O	
+8-25	beiden	PIAT	beide	_	O	O	
+8-26	J-ahresdaten	NN	<unknown>	_	O	O	
+8-27	sie	PPER	sie	_	O	O	
+8-28	gedruckt	VVPP	drucken	_	O	O	
+8-29	sind	VAFIN	sein	_	O	O	
+8-30	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich habe deshalb bei der letzten Sendung noch keine Rücksicht darauf genommen.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	habe	VAFIN	haben	_	O	O	
+9-3	deshalb	PAV	deshalb	_	O	O	
+9-4	bei	APPR	bei	_	O	O	
+9-5	der	ART	die	_	O	O	
+9-6	letzten	ADJA	letzt	_	O	O	
+9-7	Sendung	NN	Sendung	_	O	O	
+9-8	noch	ADV	noch	_	O	O	
+9-9	keine	PIAT	keine	_	O	O	
+9-10	Rücksicht	NN	Rücksicht	_	O	O	
+9-11	darauf	PAV	darauf	_	O	O	
+9-12	genommen	VVPP	nehmen	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=Vom Elenco bitte ich mir immer eine kleine Anzahl Exemplare zu senden; ich habe wieder nur 1 Exemplar erhalten.
+10-1	Vom	APPRART	von	_	O	O	
+10-2	Elenco	NE	<unknown>	_	O	O	
+10-3	bitte	VVFIN	bitten	_	O	O	
+10-4	ich	PPER	ich	_	O	O	
+10-5	mir	PRF	ich	_	O	O	
+10-6	immer	ADV	immer	_	O	O	
+10-7	eine	ART	eine	_	O	O	
+10-8	kleine	ADJA	klein	_	O	O	
+10-9	Anzahl	NN	Anzahl	_	O	O	
+10-10	Exemplare	NN	Exemplar	_	O	O	
+10-11	zu	PTKZU	zu	_	O	O	
+10-12	senden	VVINF	senden	_	O	O	
+10-13	;	$.	;	_	O	O	
+10-14	ich	PPER	ich	_	O	O	
+10-15	habe	VAFIN	haben	_	O	O	
+10-16	wieder	ADV	wieder	_	O	O	
+10-17	nur	ADV	nur	_	O	O	
+10-18	1	CARD	1	_	O	O	
+10-19	Exemplar	NN	Exemplar	_	O	O	
+10-20	erhalten	VVPP	erhalten	_	O	O	
+10-21	.	$.	.	_	O	O	
+
+#id=11
+#text=Wenn Ihre Rechnungslegung nicht rechtzeitig eingeht, so wird uns das in der Generalversammlung in
+11-1	Wenn	KOUS	wenn	_	O	O	
+11-2	Ihre	PPOSAT	ihr	_	O	O	
+11-3	Rechnungslegung	NN	<unknown>	_	O	O	
+11-4	nicht	PTKNEG	nicht	_	O	O	
+11-5	rechtzeitig	ADJD	rechtzeitig	_	O	O	
+11-6	eingeht	VVFIN	eingehen	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	so	ADV	so	_	O	O	
+11-9	wird	VAFIN	werden	_	O	O	
+11-10	uns	PPER	wir	_	O	O	
+11-11	das	ART	die	_	O	O	
+11-12	in	APPR	in	_	O	O	
+11-13	der	ART	die	_	O	O	
+11-14	Generalversammlung	NN	Generalversammlung	_	O	O	
+11-15	in	APPR	in	_	O	O	
+

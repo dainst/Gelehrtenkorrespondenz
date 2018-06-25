@@ -1,0 +1,300 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=12 16/1/54 Henzen an Gerhard Verehrtester Herr Professor !
+1-1	12	CARD	12	_	O	O	
+1-2	16/1/54	CARD	@card@	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Verehrtester	NN	<unknown>	_	O	O	
+1-7	Herr	NN	Herr	_	O	O	
+1-8	Professor	NN	Professor	_	O	O	
+1-9	!	$.	!	_	O	O	
+
+#id=2
+#text=Einliegend ein Bericht Uber Sit.
+2-1	Einliegend	ADJD	<unknown>	_	O	O	
+2-2	ein	ART	eine	_	O	O	
+2-3	Bericht	NN	Bericht	_	O	O	
+2-4	Uber	NE	<unknown>	_	O	O	
+2-5	Sit	VVFIN	<unknown>	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Winckelrnannstag.
+3-1	Winckelrnannstag	NN	<unknown>	_	O	O	
+3-2	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich habe Friedl. gebeten, ihn zu verfassen, da ich Herrn Garrucci sein Theil gönne, aus Institutsrücksichten ihn aber schonen muß.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	habe	VAFIN	haben	_	O	O	
+4-3	Friedl	NE	Friedl	_	O	O	
+4-4	.	$.	.	_	O	O	
+4-5	gebeten	VVPP	bitten	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	ihn	PPER	er	_	O	O	
+4-8	zu	PTKZU	zu	_	O	O	
+4-9	verfassen	VVINF	verfassen	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	da	KOUS	da	_	O	O	
+4-12	ich	PPER	ich	_	O	O	
+4-13	Herrn	NN	Herr	_	O	O	
+4-14	Garrucci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-15	sein	PPOSAT	sein	_	O	O	
+4-16	Theil	NN	<unknown>	_	O	O	
+4-17	gönne	VVFIN	gönnen	_	O	O	
+4-18	,	$,	,	_	O	O	
+4-19	aus	APPR	aus	_	O	O	
+4-20	Institutsrücksichten	NN	<unknown>	_	O	O	
+4-21	ihn	PPER	er	_	O	O	
+4-22	aber	ADV	aber	_	O	O	
+4-23	schonen	VVINF	schonen	_	O	O	
+4-24	muß	VMFIN	müssen	_	O	O	
+4-25	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich würde daher gern sehen, dß.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	würde	VAFIN	werden	_	O	O	
+5-3	daher	PAV	daher	_	O	O	
+5-4	gern	ADV	gern	_	O	O	
+5-5	sehen	VVINF	sehen	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	dß	VVFIN	<unknown>	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Sie dem Berichte den Namen des Vfs.
+6-1	Sie	PPER	Sie	_	O	O	
+6-2	dem	ART	die	_	O	O	
+6-3	Berichte	NN	Bericht	_	O	O	
+6-4	den	ART	die	_	O	O	
+6-5	Namen	NN	Name	_	O	O	
+6-6	des	ART	die	_	O	O	
+6-7	Vfs	NN	<unknown>	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=beifügen, wogegen dieser auch Nichts einwendet, wenn Sie es passend finden.
+7-1	beifügen	VVFIN	beifügen	_	O	O	
+7-2	,	$,	,	_	O	O	
+7-3	wogegen	PWAV	wogegen	_	O	O	
+7-4	dieser	PDAT	dies	_	O	O	
+7-5	auch	ADV	auch	_	O	O	
+7-6	Nichts	PIS	nichts	_	O	O	
+7-7	einwendet	VVFIN	einwenden	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	wenn	KOUS	wenn	_	O	O	
+7-10	Sie	PPER	Sie	_	O	O	
+7-11	es	PPER	es	_	O	O	
+7-12	passend	ADJD	passend	_	O	O	
+7-13	finden	VVFIN	finden	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Inhaltsanzeige im Bull., das mir endlich für übermorgen verheißen ist.
+8-1	Inhaltsanzeige	NN	<unknown>	_	O	O	
+8-2	im	APPRART	in	_	O	O	
+8-3	Bull	NE	Bull	_	O	O	
+8-4	.	$.	.	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	das	PRELS	die	_	O	O	
+8-7	mir	PPER	ich	_	O	O	
+8-8	endlich	ADV	endlich	_	O	O	
+8-9	für	APPR	für	_	O	O	
+8-10	übermorgen	ADV	übermorgen	_	O	O	
+8-11	verheißen	VVPP	verheißen	_	O	O	
+8-12	ist	VAFIN	sein	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Mommsen schreibt mir von seinen Amendements zu meinen Verbesserungsvorschlegen zu dem Briefentwurfe der Comrnission.
+9-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	schreibt	VVFIN	schreiben	_	O	O	
+9-3	mir	PPER	ich	_	O	O	
+9-4	von	APPR	von	_	O	O	
+9-5	seinen	PPOSAT	sein	_	O	O	
+9-6	Amendements	NN	<unknown>	_	O	O	
+9-7	zu	APPR	zu	_	O	O	
+9-8	meinen	PPOSAT	mein	_	O	O	
+9-9	Verbesserungsvorschlegen	NN	<unknown>	_	O	O	
+9-10	zu	APPR	zu	_	O	O	
+9-11	dem	ART	die	_	O	O	
+9-12	Briefentwurfe	NN	<unknown>	_	O	O	
+9-13	der	ART	die	_	O	O	
+9-14	Comrnission	NN	<unknown>	_	O	O	
+9-15	.	$.	.	_	O	O	
+
+#id=10
+#text=Der Schlußsatz ist nicht ganz im Einklange mit ~J:ommsen' s früheren VlDrschl~~ gen; inde8 erkli:jre ich mich hiemit mit seinen Modificationen einverstanden u. ~itte nur um Beschleunigung der ganzen Sache.
+10-1	Der	ART	die	_	O	O	
+10-2	Schlußsatz	NN	Schlusssatz	_	O	O	
+10-3	ist	VAFIN	sein	_	O	O	
+10-4	nicht	PTKNEG	nicht	_	O	O	
+10-5	ganz	ADV	ganz	_	O	O	
+10-6	im	APPRART	in	_	O	O	
+10-7	Einklange	NN	<unknown>	_	O	O	
+10-8	mit	APPR	mit	_	O	O	
+10-9	~J:ommsen	ADJA	<unknown>	_	O	O	
+10-10	'	$(	'	_	O	O	
+10-11	s	NN	s	_	O	O	
+10-12	früheren	ADJA	früh	_	O	O	
+10-13	VlDrschl~~	NN	<unknown>	_	O	O	
+10-14	gen	APPR	gen	_	O	O	
+10-15	;	$.	;	_	O	O	
+10-16	inde8	ADJD	<unknown>	_	O	O	
+10-17	erkli:jre	VVFIN	<unknown>	_	O	O	
+10-18	ich	PPER	ich	_	O	O	
+10-19	mich	PRF	ich	_	O	O	
+10-20	hiemit	NN	<unknown>	_	O	O	
+10-21	mit	APPR	mit	_	O	O	
+10-22	seinen	PPOSAT	sein	_	O	O	
+10-23	Modificationen	NN	<unknown>	_	O	O	
+10-24	einverstanden	ADJD	einverstanden	_	O	O	
+10-25	u.	APPR	um	_	O	O	
+10-26	~itte	NN	<unknown>	_	O	O	
+10-27	nur	ADV	nur	_	O	O	
+10-28	um	APPR	um	_	O	O	
+10-29	Beschleunigung	NN	Beschleunigung	_	O	O	
+10-30	der	ART	die	_	O	O	
+10-31	ganzen	ADJA	ganz	_	O	O	
+10-32	Sache	NN	Sache	_	O	O	
+10-33	.	$.	.	_	O	O	
+
+#id=11
+#text=Nach heute eingegangnem Schreiben Usedom's ist also ds.
+11-1	Nach	APPR	nach	_	O	O	
+11-2	heute	ADV	heute	_	O	O	
+11-3	eingegangnem	ADJA	<unknown>	_	O	O	
+11-4	Schreiben	NN	Schreiben	_	O	O	
+11-5	Usedom's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-6	ist	VAFIN	sein	_	O	O	
+11-7	also	ADV	also	_	O	O	
+11-8	ds.	ADJD	<unknown>	_	O	O	
+
+#id=12
+#text=Institut wieder einmal auf 6 Jahre gesichert.
+12-1	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+12-2	wieder	ADV	wieder	_	O	O	
+12-3	einmal	ADV	einmal	_	O	O	
+12-4	auf	APPR	auf	_	O	O	
+12-5	6	CARD	6	_	O	O	
+12-6	Jahre	NN	Jahr	_	O	O	
+12-7	gesichert	VVPP	sichern	_	O	O	
+12-8	.	$.	.	_	O	O	
+
+#id=13
+#text=Gott sei Dank!
+13-1	Gott	NN	Gott	_	O	O	
+13-2	sei	VAFIN	sein	_	O	O	
+13-3	Dank	NN	Dank	_	O	O	
+13-4	!	$.	!	_	O	O	
+
+#id=14
+#text=Jetzt aber empfehle ich Ihnen recht dringend, da Sie das ~Li ttelalter pe+- hO"n'esciren, auf r~~i ttel zu denken, unsre Publicationen zu heben u. sich mit Usedom darüber vorl~ufig zu verst~ndigen, der ja große Theilnahme zeigt.
+14-1	Jetzt	ADV	jetzt	_	O	O	
+14-2	aber	ADV	aber	_	O	O	
+14-3	empfehle	VVFIN	empfehlen	_	O	O	
+14-4	ich	PPER	ich	_	O	O	
+14-5	Ihnen	PPER	Sie	_	O	O	
+14-6	recht	ADJD	recht	_	O	O	
+14-7	dringend	ADJD	dringend	_	O	O	
+14-8	,	$,	,	_	O	O	
+14-9	da	KOUS	da	_	O	O	
+14-10	Sie	PPER	Sie	_	O	O	
+14-11	das	ART	die	_	O	O	
+14-12	~Li	NN	<unknown>	_	O	O	
+14-13	ttelalter	ADJA	<unknown>	_	O	O	
+14-14	pe+-	TRUNC	<unknown>	_	O	O	
+14-15	hO"n'esciren	NN	<unknown>	_	O	O	
+14-16	,	$,	,	_	O	O	
+14-17	auf	APPR	auf	_	O	O	
+14-18	r~~i	NE	<unknown>	_	O	O	
+14-19	ttel	ADJD	<unknown>	_	O	O	
+14-20	zu	PTKZU	zu	_	O	O	
+14-21	denken	VVINF	denken	_	O	O	
+14-22	,	$,	,	_	O	O	
+14-23	unsre	PPOSAT	unsre	_	O	O	
+14-24	Publicationen	NN	<unknown>	_	O	O	
+14-25	zu	PTKZU	zu	_	O	O	
+14-26	heben	VVINF	heben	_	O	O	
+14-27	u.	KON	und	_	O	O	
+14-28	sich	PRF	sich	_	O	O	
+14-29	mit	APPR	mit	_	O	O	
+14-30	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-31	darüber	PAV	darüber	_	O	O	
+14-32	vorl~ufig	ADJD	<unknown>	_	O	O	
+14-33	zu	PTKZU	zu	_	O	O	
+14-34	verst~ndigen	VVINF	<unknown>	_	O	O	
+14-35	,	$,	,	_	O	O	
+14-36	der	ART	die	_	O	O	
+14-37	ja	ADV	ja	_	O	O	
+14-38	große	ADJA	groß	_	O	O	
+14-39	Theilnahme	NN	<unknown>	_	O	O	
+14-40	zeigt	VVFIN	zeigen	_	O	O	
+14-41	.	$.	.	_	O	O	
+
+#id=15
+#text=Ich erinnere bie an die Merc1linsche Inschrift aus Südrußland, um die ich für meinen Orelli bat.
+15-1	Ich	PPER	ich	_	O	O	
+15-2	erinnere	VVFIN	erinnern	_	O	O	
+15-3	bie	ADJD	<unknown>	_	O	O	
+15-4	an	APPR	an	_	O	O	
+15-5	die	ART	die	_	O	O	
+15-6	Merc1linsche	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+15-7	Inschrift	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-OBJ	
+15-8	aus	APPR	aus	_	O	O	
+15-9	Südrußland	NN	Südrußland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+15-10	,	$,	,	_	O	O	
+15-11	um	APPR	um	_	O	O	
+15-12	die	PRELS	die	_	O	O	
+15-13	ich	PPER	ich	_	O	O	
+15-14	für	APPR	für	_	O	O	
+15-15	meinen	PPOSAT	mein	_	O	O	
+15-16	Orelli	NE	<unknown>	_	O	O	
+15-17	bat	VVFIN	bitten	_	O	O	
+15-18	.	$.	.	_	O	O	
+
+#id=16
+#text=Der Index des letzteren besch~ftigt mich noch immer, wird dafür aber auch ein Art von Repertorium der H. Antiquit~ten, so )weit dse. sich auf Inschriften stUtzen.
+16-1	Der	ART	die	_	O	O	
+16-2	Index	NN	Index	_	O	O	
+16-3	des	ART	die	_	O	O	
+16-4	letzteren	ADJA	letzt	_	O	O	
+16-5	besch~ftigt	VVFIN	<unknown>	_	O	O	
+16-6	mich	PRF	ich	_	O	O	
+16-7	noch	ADV	noch	_	O	O	
+16-8	immer	ADV	immer	_	O	O	
+16-9	,	$,	,	_	O	O	
+16-10	wird	VAFIN	werden	_	O	O	
+16-11	dafür	PAV	dafür	_	O	O	
+16-12	aber	ADV	aber	_	O	O	
+16-13	auch	ADV	auch	_	O	O	
+16-14	ein	ART	eine	_	O	O	
+16-15	Art	NN	Art	_	O	O	
+16-16	von	APPR	von	_	O	O	
+16-17	Repertorium	NN	<unknown>	_	O	O	
+16-18	der	ART	die	_	O	O	
+16-19	H.	NE	H.	_	O	O	
+16-20	Antiquit~ten	NN	<unknown>	_	O	O	
+16-21	,	$,	,	_	O	O	
+16-22	so	ADV	so	_	O	O	
+16-23	)weit	ADJD	<unknown>	_	O	O	
+16-24	dse	ADJD	<unknown>	_	O	O	
+16-25	.	$.	.	_	O	O	
+16-26	sich	PRF	sich	_	O	O	
+16-27	auf	APPR	auf	_	O	O	
+16-28	Inschriften	NN	Inschrift	_	O	O	
+16-29	stUtzen	VVFIN	stutzen	_	O	O	
+16-30	.	$.	.	_	O	O	
+
+#id=17
+#text=- De Rossi ver- '-
+17-1	-	$(	-	_	O	O	
+17-2	De	FM	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-3	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+17-4	ver-	TRUNC	ver-	_	O	O	
+17-5	'	$(	'	_	O	O	
+17-6	-	$(	-	_	O	O	
+

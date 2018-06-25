@@ -1,0 +1,251 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=460 Gerhard an Braun Berlin, 10. Dezember 1844 2 gen?
+1-1	460	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	gen	APPR	gen	_	O	O	
+1-13	?	$.	?	_	O	O	
+
+#id=2
+#text=Ich dachte an Secchi und Cavedoni.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	dachte	VVFIN	denken	_	O	O	
+2-3	an	APPR	an	_	O	O	
+2-4	Secchi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-5	und	KON	und	_	O	O	
+2-6	Cavedoni	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-7	.	$.	.	_	O	O	
+
+#id=3
+#text=Lassen Sie mir Ihre Adunanzenberichte und was den 9 December betrifft zum Abschluß der Archäologischen Zeitung baldmöglichst zugehn.
+3-1	Lassen	VVFIN	lassen	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	mir	PRF	ich	_	O	O	
+3-4	Ihre	PPOSAT	ihr	_	O	O	
+3-5	Adunanzenberichte	NN	<unknown>	_	O	O	
+3-6	und	KON	und	_	O	O	
+3-7	was	PIS	was	_	O	O	
+3-8	den	ART	die	_	O	O	
+3-9	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-10	December	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-11	betrifft	VVFIN	betreffen	_	O	O	
+3-12	zum	APPRART	zu	_	O	O	
+3-13	Abschluß	NN	Abschluss	_	O	O	
+3-14	der	ART	die	_	O	O	
+3-15	Archäologischen	ADJA	archäologisch	_	O	O	
+3-16	Zeitung	NN	Zeitung	_	O	O	
+3-17	baldmöglichst	ADV	baldmöglichst	_	O	O	
+3-18	zugehn	ADJD	<unknown>	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Über Henzen freue ich mich durch Horkel Beruhigendes zu hören.
+4-1	Über	APPR	über	_	O	O	
+4-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	freue	VVFIN	freuen	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	mich	PRF	ich	_	O	O	
+4-6	durch	APPR	durch	_	O	O	
+4-7	Horkel	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-8	Beruhigendes	NN	Beruhigende	_	O	O	
+4-9	zu	PTKZU	zu	_	O	O	
+4-10	hören	VVINF	hören	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Für ärztlichen Rath viel Dank!
+5-1	Für	APPR	für	_	O	O	
+5-2	ärztlichen	ADJA	ärztlich	_	O	O	
+5-3	Rath	NE	Rath	_	O	O	
+5-4	viel	PIAT	viele	_	O	O	
+5-5	Dank	NN	Dank	_	O	O	
+5-6	!	$.	!	_	O	O	
+
+#id=6
+#text=Euphrasia brauchte ich schon viel.
+6-1	Euphrasia	NE	<unknown>	_	O	O	
+6-2	brauchte	VVFIN	brauchen	_	O	O	
+6-3	ich	PPER	ich	_	O	O	
+6-4	schon	ADV	schon	_	O	O	
+6-5	viel	PIS	viele	_	O	O	
+6-6	.	$.	.	_	O	O	
+
+#id=7
+#text=Was meine Frau betrifft so ist sie leider bei Melicher stark in der Kur; seit 4 Wochen aufs Zimmer beschränkt ging sie nur 1 mal aus und litt seitdem lang an Kopf und Zähnen.
+7-1	Was	PWS	was	_	O	O	
+7-2	meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-3	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-4	betrifft	VVFIN	betreffen	_	O	O	
+7-5	so	ADV	so	_	O	O	
+7-6	ist	VAFIN	sein	_	O	O	
+7-7	sie	PPER	sie	_	O	O	
+7-8	leider	ADV	leider	_	O	O	
+7-9	bei	APPR	bei	_	O	O	
+7-10	Melicher	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-11	stark	ADJD	stark	_	O	O	
+7-12	in	APPR	in	_	O	O	
+7-13	der	ART	die	_	O	O	
+7-14	Kur	NN	Kur	_	O	O	
+7-15	;	$.	;	_	O	O	
+7-16	seit	APPR	seit	_	O	O	
+7-17	4	CARD	4	_	O	O	
+7-18	Wochen	NN	Woche	_	O	O	
+7-19	aufs	APPRART	aufs	_	O	O	
+7-20	Zimmer	NN	Zimmer	_	O	O	
+7-21	beschränkt	ADJD	beschränkt	_	O	O	
+7-22	ging	VVFIN	gehen	_	O	O	
+7-23	sie	PPER	sie	_	O	O	
+7-24	nur	ADV	nur	_	O	O	
+7-25	1	CARD	1	_	O	O	
+7-26	mal	ADV	mal	_	O	O	
+7-27	aus	PTKVZ	aus	_	O	O	
+7-28	und	KON	und	_	O	O	
+7-29	litt	VVFIN	leiden	_	O	O	
+7-30	seitdem	PAV	seitdem	_	O	O	
+7-31	lang	ADJD	lang	_	O	O	
+7-32	an	APPR	an	_	O	O	
+7-33	Kopf	NN	Kopf	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-34	und	KON	und	_	O	O	
+7-35	Zähnen	NN	Zahn	_	O	O	
+7-36	.	$.	.	_	O	O	
+
+#id=8
+#text=Wir haben ungute Zeit; Ihr Rath bleibt dennoch gut aufgehoben.
+8-1	Wir	PPER	wir	_	O	O	
+8-2	haben	VAFIN	haben	_	O	O	
+8-3	ungute	ADJA	ungut	_	O	O	
+8-4	Zeit	NN	Zeit	_	O	O	
+8-5	;	$.	;	_	O	O	
+8-6	Ihr	PPOSAT	ihr	_	O	O	
+8-7	Rath	NE	Rath	_	O	O	
+8-8	bleibt	VVFIN	bleiben	_	O	O	
+8-9	dennoch	ADV	dennoch	_	O	O	
+8-10	gut	ADJD	gut	_	O	O	
+8-11	aufgehoben	VVPP	aufheben	_	O	O	
+8-12	.	$.	.	_	O	O	
+
+#id=9
+#text=Guten Dienst hat ihr Borax homöopathisch als Antidoton gegen Boraxbäder gethan, die im Sommer ihr schadeten.
+9-1	Guten	ADJA	gut	_	O	O	
+9-2	Dienst	NN	Dienst	_	O	O	
+9-3	hat	VAFIN	haben	_	O	O	
+9-4	ihr	PPOSAT	ihr	_	O	O	
+9-5	Borax	NN	Borax	_	O	O	
+9-6	homöopathisch	ADJD	homöopathisch	_	O	O	
+9-7	als	KOKOM	als	_	O	O	
+9-8	Antidoton	NN	<unknown>	_	O	O	
+9-9	gegen	APPR	gegen	_	O	O	
+9-10	Boraxbäder	NN	<unknown>	_	O	O	
+9-11	gethan	NE	<unknown>	_	O	O	
+9-12	,	$,	,	_	O	O	
+9-13	die	PRELS	die	_	O	O	
+9-14	im	APPRART	in	_	O	O	
+9-15	Sommer	NN	Sommer	_	O	O	
+9-16	ihr	PPER	ihr	_	O	O	
+9-17	schadeten	VVFIN	schaden	_	O	O	
+9-18	.	$.	.	_	O	O	
+
+#id=10
+#text=Daß Schelling über Sanus - Hiunus (ab Hiundo cf. Chaos) las, schrieb ich wol.
+10-1	Daß	KOUS	dass	_	O	O	
+10-2	Schelling	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-3	über	APPR	über	_	O	O	
+10-4	Sanus	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-5	-	$(	-	_	O	O	
+10-6	Hiunus	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-7	(	$(	(	_	O	O	
+10-8	ab	APPR	ab	_	O	O	
+10-9	Hiundo	NE	<unknown>	_	O	O	
+10-10	cf.	NE	<unknown>	_	O	O	
+10-11	Chaos	NN	Chaos	_	O	O	
+10-12	)	$(	)	_	O	O	
+10-13	las	VVFIN	lesen	_	O	O	
+10-14	,	$,	,	_	O	O	
+10-15	schrieb	VVFIN	schreiben	_	O	O	
+10-16	ich	PPER	ich	_	O	O	
+10-17	wol	ADJD	<unknown>	_	O	O	
+10-18	.	$.	.	_	O	O	
+
+#id=11
+#text=An Philippsborn weiß ich jetzt nicht recht zu kommen; warum schreibt Schulz nicht noch einmal.
+11-1	An	APPR	an	_	O	O	
+11-2	Philippsborn	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-3	weiß	VVFIN	wissen	_	O	O	
+11-4	ich	PPER	ich	_	O	O	
+11-5	jetzt	ADV	jetzt	_	O	O	
+11-6	nicht	PTKNEG	nicht	_	O	O	
+11-7	recht	ADJD	recht	_	O	O	
+11-8	zu	PTKZU	zu	_	O	O	
+11-9	kommen	VVINF	kommen	_	O	O	
+11-10	;	$.	;	_	O	O	
+11-11	warum	PWAV	warum	_	O	O	
+11-12	schreibt	VVFIN	schreiben	_	O	O	
+11-13	Schulz	NE	Schulz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-14	nicht	PTKNEG	nicht	_	O	O	
+11-15	noch	ADV	noch	_	O	O	
+11-16	einmal	ADV	einmal	_	O	O	
+11-17	.	$.	.	_	O	O	
+
+#id=12
+#text=Ob Usedom es übernimmt, will ich fragen.
+12-1	Ob	KOUS	ob	_	O	O	
+12-2	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-3	es	PPER	es	_	O	O	
+12-4	übernimmt	VVFIN	übernehmen	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	will	VMFIN	wollen	_	O	O	
+12-7	ich	PPER	ich	_	O	O	
+12-8	fragen	VVINF	fragen	_	O	O	
+12-9	.	$.	.	_	O	O	
+
+#id=13
+#text=Meine Frau erwiedert Ihre Grüße samt alle den Meinigen herzlich.
+13-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+13-3	erwiedert	VVFIN	<unknown>	_	O	O	
+13-4	Ihre	PPOSAT	ihr	_	O	O	
+13-5	Grüße	NN	Gruß	_	O	O	
+13-6	samt	APPR	samt	_	O	O	
+13-7	alle	PIS	alle	_	O	O	
+13-8	den	ART	die	_	O	O	
+13-9	Meinigen	PPOSS	meinig	_	O	O	
+13-10	herzlich	ADJD	herzlich	_	O	O	
+13-11	.	$.	.	_	O	O	
+
+#id=14
+#text=Ein Beischluß an Vollard, wo möglich noch zum 21.sten.
+14-1	Ein	ART	eine	_	O	O	
+14-2	Beischluß	NN	<unknown>	_	O	O	
+14-3	an	APPR	an	_	O	O	
+14-4	Vollard	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-5	,	$,	,	_	O	O	
+14-6	wo	PWAV	wo	_	O	O	
+14-7	möglich	ADJD	möglich	_	O	O	
+14-8	noch	ADV	noch	_	O	O	
+14-9	zum	APPRART	zu	_	O	O	
+14-10	21.sten	NN	<unknown>	_	O	O	
+14-11	.	$.	.	_	O	O	
+
+#id=15
+#text=Grüßen Sie Ihre liebe Frau und werthe Freunde Herzlichst Ihr Gerhard
+15-1	Grüßen	VVFIN	grüßen	_	O	O	
+15-2	Sie	PPER	Sie	_	O	O	
+15-3	Ihre	PPOSAT	ihr	_	O	O	
+15-4	liebe	ADJA	lieb	_	O	O	
+15-5	Frau	NN	Frau	_	O	O	
+15-6	und	KON	und	_	O	O	
+15-7	werthe	ADJA	<unknown>	_	O	O	
+15-8	Freunde	NN	Freund	_	O	O	
+15-9	Herzlichst	VVFIN	<unknown>	_	O	O	
+15-10	Ihr	PPER	sie	_	O	O	
+15-11	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

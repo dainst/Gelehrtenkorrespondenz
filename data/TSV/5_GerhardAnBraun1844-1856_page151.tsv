@@ -1,0 +1,265 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=236 Gerhard an Braun Berlin, 5. Juli 1845 2 Fogelberg war 4 Tage hier; ich war mehrmals mit ihm im Museum und beim B xeliusschmaus.
+1-1	236	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	Fogelberg	NN	<unknown>	_	O	O	
+1-13	war	VAFIN	sein	_	O	O	
+1-14	4	CARD	4	_	O	O	
+1-15	Tage	NN	Tag	_	O	O	
+1-16	hier	ADV	hier	_	O	O	
+1-17	;	$.	;	_	O	O	
+1-18	ich	PPER	ich	_	O	O	
+1-19	war	VAFIN	sein	_	O	O	
+1-20	mehrmals	ADV	mehrmals	_	O	O	
+1-21	mit	APPR	mit	_	O	O	
+1-22	ihm	PPER	er	_	O	O	
+1-23	im	APPRART	in	_	O	O	
+1-24	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-25	und	KON	und	_	O	O	
+1-26	beim	APPRART	bei	_	O	O	
+1-27	B	NN	B	_	O	O	
+1-28	xeliusschmaus	ADJD	<unknown>	_	O	O	
+1-29	.	$.	.	_	O	O	
+
+#id=2
+#text=Meine Frau brachte ich am 20.sten selbst nach Elgersburg; Ort, Wasser und Arzt sind sehr zu loben, die Bequemlichkeiten erträglich.
+2-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-3	brachte	VVFIN	bringen	_	O	O	
+2-4	ich	PPER	ich	_	O	O	
+2-5	am	APPRART	an	_	O	O	
+2-6	20.sten	NN	<unknown>	_	O	O	
+2-7	selbst	ADV	selbst	_	O	O	
+2-8	nach	APPR	nach	_	O	O	
+2-9	Elgersburg	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-10	;	$.	;	_	O	O	
+2-11	Ort	NN	Ort	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	Wasser	NN	Wasser	_	O	O	
+2-14	und	KON	und	_	O	O	
+2-15	Arzt	NN	Arzt	_	O	O	
+2-16	sind	VAFIN	sein	_	O	O	
+2-17	sehr	ADV	sehr	_	O	O	
+2-18	zu	PTKZU	zu	_	O	O	
+2-19	loben	VVINF	loben	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	die	ART	die	_	O	O	
+2-22	Bequemlichkeiten	NN	Bequemlichkeit	_	O	O	
+2-23	erträglich	ADJD	erträglich	_	O	O	
+2-24	.	$.	.	_	O	O	
+
+#id=3
+#text=Sie hat die Kur mit viel guten Muth angefangen, und wünsche ich nur daß ihre Vereinsamung und Besorgnisse um Auswärtiges von Seiten des Gemüthes nicht durchkreuzen was sie sich körperlich gutes thut.
+3-1	Sie	PPER	Sie	_	O	O	
+3-2	hat	VAFIN	haben	_	O	O	
+3-3	die	ART	die	_	O	O	
+3-4	Kur	NN	Kur	_	O	O	
+3-5	mit	APPR	mit	_	O	O	
+3-6	viel	PIAT	viele	_	O	O	
+3-7	guten	ADJA	gut	_	O	O	
+3-8	Muth	NE	<unknown>	_	O	O	
+3-9	angefangen	VVPP	anfangen	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	und	KON	und	_	O	O	
+3-12	wünsche	VVFIN	wünschen	_	O	O	
+3-13	ich	PPER	ich	_	O	O	
+3-14	nur	ADV	nur	_	O	O	
+3-15	daß	KOUS	dass	_	O	O	
+3-16	ihre	PPOSAT	ihr	_	O	O	
+3-17	Vereinsamung	NN	Vereinsamung	_	O	O	
+3-18	und	KON	und	_	O	O	
+3-19	Besorgnisse	NN	Besorgnis	_	O	O	
+3-20	um	APPR	um	_	O	O	
+3-21	Auswärtiges	NN	Auswärtige	_	O	O	
+3-22	von	APPR	von	_	O	O	
+3-23	Seiten	NN	Seite	_	O	O	
+3-24	des	ART	die	_	O	O	
+3-25	Gemüthes	NN	<unknown>	_	O	O	
+3-26	nicht	PTKNEG	nicht	_	O	O	
+3-27	durchkreuzen	VVFIN	durchkreuzen	_	O	O	
+3-28	was	PIS	was	_	O	O	
+3-29	sie	PPER	sie	_	O	O	
+3-30	sich	PRF	sich	_	O	O	
+3-31	körperlich	ADJD	körperlich	_	O	O	
+3-32	gutes	ADJA	gut	_	O	O	
+3-33	thut	NN	<unknown>	_	O	O	
+3-34	.	$.	.	_	O	O	
+
+#id=4
+#text=Leider sind die Nachrichten über einschI •••••••• Podagra meines Schwiegervaters der Art daß sie in Erwägung seiner häuslichen Vereinsamung und eines Zustands der ihn vielleicht von der Badereise abhält vielleicht sich bewogen findet mit Abbrechung der Kur früher dorthin zu eilen.
+4-1	Leider	ADV	leider	_	O	O	
+4-2	sind	VAFIN	sein	_	O	O	
+4-3	die	ART	die	_	O	O	
+4-4	Nachrichten	NN	Nachricht	_	O	O	
+4-5	über	APPR	über	_	O	O	
+4-6	einschI	ADJA	<unknown>	_	O	O	
+4-7	•	NN	<unknown>	_	O	O	
+4-8	•	ADJA	<unknown>	_	O	O	
+4-9	•	NN	<unknown>	_	O	O	
+4-10	•	ADJA	<unknown>	_	O	O	
+4-11	•	NN	<unknown>	_	O	O	
+4-12	•	ADJA	<unknown>	_	O	O	
+4-13	•	NN	<unknown>	_	O	O	
+4-14	•	ADJA	<unknown>	_	O	O	
+4-15	Podagra	NN	Podagra	_	O	O	
+4-16	meines	PPOSAT	mein	_	O	O	
+4-17	Schwiegervaters	NN	Schwiegervater	_	O	O	
+4-18	der	ART	die	_	O	O	
+4-19	Art	NN	Art	_	O	O	
+4-20	daß	KOUS	dass	_	O	O	
+4-21	sie	PPER	sie	_	O	O	
+4-22	in	APPR	in	_	O	O	
+4-23	Erwägung	NN	Erwägung	_	O	O	
+4-24	seiner	PPOSAT	sein	_	O	O	
+4-25	häuslichen	ADJA	häuslich	_	O	O	
+4-26	Vereinsamung	NN	Vereinsamung	_	O	O	
+4-27	und	KON	und	_	O	O	
+4-28	eines	ART	eine	_	O	O	
+4-29	Zustands	NN	Zustand	_	O	O	
+4-30	der	ART	die	_	O	O	
+4-31	ihn	PPER	er	_	O	O	
+4-32	vielleicht	ADV	vielleicht	_	O	O	
+4-33	von	APPR	von	_	O	O	
+4-34	der	ART	die	_	O	O	
+4-35	Badereise	NN	Badereise	_	O	O	
+4-36	abhält	VVFIN	abhalten	_	O	O	
+4-37	vielleicht	ADV	vielleicht	_	O	O	
+4-38	sich	PRF	sich	_	O	O	
+4-39	bewogen	ADJD	bewegt	_	O	O	
+4-40	findet	VVFIN	finden	_	O	O	
+4-41	mit	APPR	mit	_	O	O	
+4-42	Abbrechung	NN	<unknown>	_	O	O	
+4-43	der	ART	die	_	O	O	
+4-44	Kur	NN	Kur	_	O	O	
+4-45	früher	ADV	früher	_	O	O	
+4-46	dorthin	ADV	dorthin	_	O	O	
+4-47	zu	PTKZU	zu	_	O	O	
+4-48	eilen	VVINF	eilen	_	O	O	
+4-49	.	$.	.	_	O	O	
+
+#id=5
+#text=Mir geht es in meiner Einsamkeit gut, thätig so Gott will bis zum 9.ten August.
+5-1	Mir	PPER	ich	_	O	O	
+5-2	geht	VVFIN	gehen	_	O	O	
+5-3	es	PPER	es	_	O	O	
+5-4	in	APPR	in	_	O	O	
+5-5	meiner	PPOSAT	mein	_	O	O	
+5-6	Einsamkeit	NN	Einsamkeit	_	O	O	
+5-7	gut	ADJD	gut	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	thätig	ADJD	<unknown>	_	O	O	
+5-10	so	ADV	so	_	O	O	
+5-11	Gott	NN	Gott	_	O	O	
+5-12	will	VMFIN	wollen	_	O	O	
+5-13	bis	APPR	bis	_	O	O	
+5-14	zum	APPRART	zu	_	O	O	
+5-15	9.ten	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-16	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Durchkreuzt in Frankfurt und hier Nichts meine Pläne, so bleibt es beim Reisen gen Neapel zu Ende August.
+6-1	Durchkreuzt	VVFIN	durchkreuzen	_	O	O	
+6-2	in	APPR	in	_	O	O	
+6-3	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-4	und	KON	und	_	O	O	
+6-5	hier	ADV	hier	_	O	O	
+6-6	Nichts	PIAT	nichts	_	O	O	
+6-7	meine	PPOSAT	mein	_	O	O	
+6-8	Pläne	NN	Plan	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	so	ADV	so	_	O	O	
+6-11	bleibt	VVFIN	bleiben	_	O	O	
+6-12	es	PPER	es	_	O	O	
+6-13	beim	APPRART	bei	_	O	O	
+6-14	Reisen	NN	Reise|Reisen	_	O	O	
+6-15	gen	APPR	gen	_	O	O	
+6-16	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-17	zu	APPR	zu	_	O	O	
+6-18	Ende	NN	Ende	_	O	O	
+6-19	August	NE	August	_	O	O	
+6-20	.	$.	.	_	O	O	
+
+#id=7
+#text=Schaffen Sie mir bei Zeiten Adressen über dortige leidliche Wohnung mit einer Aussicht, und wer mein Beistand sein könnte; wie sehr wird H. W. Schulz dort von mir vermißt werden, der im Dresdener Kram unterzugehen scheint.
+7-1	Schaffen	VVFIN	schaffen	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	mir	PRF	ich	_	O	O	
+7-4	bei	APPR	bei	_	O	O	
+7-5	Zeiten	NN	Zeit	_	O	O	
+7-6	Adressen	NN	Adresse	_	O	O	
+7-7	über	APPR	über	_	O	O	
+7-8	dortige	ADJA	dortig	_	O	O	
+7-9	leidliche	ADJA	leidlich	_	O	O	
+7-10	Wohnung	NN	Wohnung	_	O	O	
+7-11	mit	APPR	mit	_	O	O	
+7-12	einer	ART	eine	_	O	O	
+7-13	Aussicht	NN	Aussicht	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	und	KON	und	_	O	O	
+7-16	wer	PWS	wer	_	O	O	
+7-17	mein	PPOSAT	mein	_	O	O	
+7-18	Beistand	NN	Beistand	_	O	O	
+7-19	sein	VAINF	sein	_	O	O	
+7-20	könnte	VMFIN	können	_	O	O	
+7-21	;	$.	;	_	O	O	
+7-22	wie	KOUS	wie	_	O	O	
+7-23	sehr	ADV	sehr	_	O	O	
+7-24	wird	VAFIN	werden	_	O	O	
+7-25	H.	NE	H.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-26	W.	NE	W.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-27	Schulz	NE	Schulz	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-28	dort	ADV	dort	_	O	O	
+7-29	von	APPR	von	_	O	O	
+7-30	mir	PPER	ich	_	O	O	
+7-31	vermißt	VVPP	vermissen	_	O	O	
+7-32	werden	VAINF	werden	_	O	O	
+7-33	,	$,	,	_	O	O	
+7-34	der	PRELS	die	_	O	O	
+7-35	im	APPRART	in	_	O	O	
+7-36	Dresdener	NN	Dresdener	_	O	O	
+7-37	Kram	NN	Kram	_	O	O	
+7-38	unterzugehen	VVIZU	untergehen	_	O	O	
+7-39	scheint	VVFIN	scheinen	_	O	O	
+7-40	.	$.	.	_	O	O	
+
+#id=8
+#text=Kestner über Capuccini war kein Meisterstück.
+8-1	Kestner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	über	APPR	über	_	O	O	
+8-3	Capuccini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-4	war	VAFIN	sein	_	O	O	
+8-5	kein	PIAT	keine	_	O	O	
+8-6	Meisterstück	NN	Meisterstück	_	O	O	
+8-7	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich wünsche sehr diesmal auch ein wenig Etrurien zu sehen; haben wir Jemanden in Volterra ?
+9-1	Ich	PPER	ich	_	O	O	
+9-2	wünsche	VVFIN	wünschen	_	O	O	
+9-3	sehr	ADV	sehr	_	O	O	
+9-4	diesmal	ADV	diesmal	_	O	O	
+9-5	auch	ADV	auch	_	O	O	
+9-6	ein	ART	eine	_	O	O	
+9-7	wenig	PIAT	wenige	_	O	O	
+9-8	Etrurien	NN	<unknown>	_	O	O	
+9-9	zu	PTKZU	zu	_	O	O	
+9-10	sehen	VVINF	sehen	_	O	O	
+9-11	;	$.	;	_	O	O	
+9-12	haben	VAFIN	haben	_	O	O	
+9-13	wir	PPER	wir	_	O	O	
+9-14	Jemanden	NN	Jemand	_	O	O	
+9-15	in	APPR	in	_	O	O	
+9-16	Volterra	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-17	?	$.	?	_	O	O	
+

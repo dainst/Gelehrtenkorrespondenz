@@ -1,0 +1,223 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=525 L Verehrter Freund Lepsius an Henzen Berlin, 8. Dezember 1872 g. 13/XII 72 Berlin d. 8.
+1-1	525	CARD	525	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	13/XII	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-18	d.	ART	d.	_	O	O	
+1-19	8	CARD	8	_	O	O	
+1-20	.	$.	.	_	O	O	
+
+#id=2
+#text=Dez.1872 Endlich ist mir die officielle Anzeige unter dem 3. n d. zugegangen, daß Ihnen für 1873 600 r und Helbig 200 r Gehaltserhöhung gewährt worden ist, abgesehen von den gleichfalls wieder übernommenen 400 r für muneration für den GehÜlfen.
+2-1	Dez.1872	NE	<unknown>	_	O	O	
+2-2	Endlich	ADV	endlich	_	O	O	
+2-3	ist	VAFIN	sein	_	O	O	
+2-4	mir	PPER	ich	_	O	O	
+2-5	die	ART	die	_	O	O	
+2-6	officielle	ADJA	<unknown>	_	O	O	
+2-7	Anzeige	NN	Anzeige	_	O	O	
+2-8	unter	APPR	unter	_	O	O	
+2-9	dem	ART	die	_	O	O	
+2-10	3	CARD	3	_	O	O	
+2-11	.	$.	.	_	O	O	
+2-12	n	VVFIN	<unknown>	_	O	O	
+2-13	d.	PDS	d.	_	O	O	
+2-14	zugegangen	VVPP	zugehen	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	daß	KOUS	dass	_	O	O	
+2-17	Ihnen	PPER	Sie	_	O	O	
+2-18	für	APPR	für	_	O	O	
+2-19	1873	CARD	1873	_	O	O	
+2-20	600	CARD	600	_	O	O	
+2-21	r	NE	r	_	O	O	
+2-22	und	KON	und	_	O	O	
+2-23	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-24	200	CARD	200	_	O	O	
+2-25	r	NE	r	_	O	O	
+2-26	Gehaltserhöhung	NN	Gehaltserhöhung	_	O	O	
+2-27	gewährt	VVPP	gewähren|währen	_	O	O	
+2-28	worden	VAPP	werden	_	O	O	
+2-29	ist	VAFIN	sein	_	O	O	
+2-30	,	$,	,	_	O	O	
+2-31	abgesehen	VVPP	absehen	_	O	O	
+2-32	von	APPR	von	_	O	O	
+2-33	den	ART	die	_	O	O	
+2-34	gleichfalls	ADV	gleichfalls	_	O	O	
+2-35	wieder	ADV	wieder	_	O	O	
+2-36	übernommenen	ADJA	übernommen	_	O	O	
+2-37	400	CARD	400	_	O	O	
+2-38	r	NE	r	_	O	O	
+2-39	für	APPR	für	_	O	O	
+2-40	muneration	NN	<unknown>	_	O	O	
+2-41	für	APPR	für	_	O	O	
+2-42	den	ART	die	_	O	O	
+2-43	GehÜlfen	NN	<unknown>	_	O	O	
+2-44	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich habe auf beiliegendem Blatte an Helbig das ihn Betreffende direkt angezeigt.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	habe	VAFIN	haben	_	O	O	
+3-3	auf	APPR	auf	_	O	O	
+3-4	beiliegendem	ADJA	beiliegend	_	O	O	
+3-5	Blatte	NN	Blatt	_	O	O	
+3-6	an	APPR	an	_	O	O	
+3-7	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-8	das	PDS	die	_	O	O	
+3-9	ihn	PPER	er	_	O	O	
+3-10	Betreffende	NN	Betreffende	_	O	O	
+3-11	direkt	ADJD	direkt	_	O	O	
+3-12	angezeigt	VVPP	anzeigen	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Zugleich ist der Central Direktion aber die Aufforderung von unserm Minister zugegangen, den Etat für 1874 mit den nothwendigen oder wünschenswerthen Veränderungen der einzelnen Positionen einzusenden, da ihn der Reichskanzler Durchlaucht Behufs Aufnahme einer angemessenen Dotation für das Institut mitgetheilt zu erhalten wünscht.
+4-1	Zugleich	ADV	zugleich	_	O	O	
+4-2	ist	VAFIN	sein	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	Central	NN	<unknown>	_	O	O	
+4-5	Direktion	NN	Direktion	_	O	O	
+4-6	aber	KON	aber	_	O	O	
+4-7	die	ART	die	_	O	O	
+4-8	Aufforderung	NN	Aufforderung	_	O	O	
+4-9	von	APPR	von	_	O	O	
+4-10	unserm	PPOSAT	unser	_	O	O	
+4-11	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-12	zugegangen	VVPP	zugehen	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	den	ART	die	_	O	O	
+4-15	Etat	NN	Etat	_	O	O	
+4-16	für	APPR	für	_	O	O	
+4-17	1874	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-18	mit	APPR	mit	_	O	O	
+4-19	den	ART	die	_	O	O	
+4-20	nothwendigen	ADJA	<unknown>	_	O	O	
+4-21	oder	KON	oder	_	O	O	
+4-22	wünschenswerthen	ADJA	<unknown>	_	O	O	
+4-23	Veränderungen	NN	Veränderung	_	O	O	
+4-24	der	ART	die	_	O	O	
+4-25	einzelnen	ADJA	einzeln	_	O	O	
+4-26	Positionen	NN	Position	_	O	O	
+4-27	einzusenden	VVIZU	einsenden	_	O	O	
+4-28	,	$,	,	_	O	O	
+4-29	da	KOUS	da	_	O	O	
+4-30	ihn	PPER	er	_	O	O	
+4-31	der	ART	die	_	O	O	
+4-32	Reichskanzler	NN	Reichskanzler	_	O	O	
+4-33	Durchlaucht	NN	Durchlaucht	_	O	O	
+4-34	Behufs	NN	<unknown>	_	O	O	
+4-35	Aufnahme	NN	Aufnahme	_	O	O	
+4-36	einer	ART	eine	_	O	O	
+4-37	angemessenen	ADJA	angemessen	_	O	O	
+4-38	Dotation	NN	<unknown>	_	O	O	
+4-39	für	APPR	für	_	O	O	
+4-40	das	ART	die	_	O	O	
+4-41	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-42	mitgetheilt	ADJD	<unknown>	_	O	O	
+4-43	zu	PTKZU	zu	_	O	O	
+4-44	erhalten	VVINF	erhalten	_	O	O	
+4-45	wünscht	VVFIN	wünschen	_	O	O	
+4-46	.	$.	.	_	O	O	
+
+#id=5
+#text=Wir werden daher so bald als möglich eine Sitzung der Central Direktion haben, ~ das nothwendige zu berathen.
+5-1	Wir	PPER	wir	_	O	O	
+5-2	werden	VAFIN	werden	_	O	O	
+5-3	daher	PAV	daher	_	O	O	
+5-4	so	ADV	so	_	O	O	
+5-5	bald	ADV	bald	_	O	O	
+5-6	als	KOKOM	als	_	O	O	
+5-7	möglich	ADJD	möglich	_	O	O	
+5-8	eine	ART	eine	_	O	O	
+5-9	Sitzung	NN	Sitzung	_	O	O	
+5-10	der	ART	die	_	O	O	
+5-11	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-12	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-13	haben	VAINF	haben	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	~	XY	~	_	O	O	
+5-16	das	ART	die	_	O	O	
+5-17	nothwendige	NN	<unknown>	_	O	O	
+5-18	zu	APPR	zu	_	O	O	
+5-19	berathen	NE	<unknown>	_	O	O	
+5-20	.	$.	.	_	O	O	
+
+#id=6
+#text=Wenn ich auch bis dahin von Ihnen nicht Antwort haben kann, so bitte ich Sie doch alsbald in Überlegung zu ziehen, was Ihnen und Helbig etwa für Vorschläge zweckmäßig erscheinen, da diese auch nachher noch zur Erwägung kommen, ehe unser Bericht an das Ministerium abgeht.
+6-1	Wenn	KOUS	wenn	_	O	O	
+6-2	ich	PPER	ich	_	O	O	
+6-3	auch	ADV	auch	_	O	O	
+6-4	bis	KON	bis	_	O	O	
+6-5	dahin	PAV	dahin	_	O	O	
+6-6	von	APPR	von	_	O	O	
+6-7	Ihnen	PPER	Sie	_	O	O	
+6-8	nicht	PTKNEG	nicht	_	O	O	
+6-9	Antwort	NN	Antwort	_	O	O	
+6-10	haben	VAINF	haben	_	O	O	
+6-11	kann	VMFIN	können	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	so	ADV	so	_	O	O	
+6-14	bitte	VVFIN	bitten	_	O	O	
+6-15	ich	PPER	ich	_	O	O	
+6-16	Sie	PPER	Sie	_	O	O	
+6-17	doch	ADV	doch	_	O	O	
+6-18	alsbald	ADV	alsbald	_	O	O	
+6-19	in	APPR	in	_	O	O	
+6-20	Überlegung	NN	Überlegung	_	O	O	
+6-21	zu	PTKZU	zu	_	O	O	
+6-22	ziehen	VVINF	ziehen	_	O	O	
+6-23	,	$,	,	_	O	O	
+6-24	was	PWS	was	_	O	O	
+6-25	Ihnen	PPER	Sie	_	O	O	
+6-26	und	KON	und	_	O	O	
+6-27	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-28	etwa	ADV	etwa	_	O	O	
+6-29	für	APPR	für	_	O	O	
+6-30	Vorschläge	NN	Vorschlag	_	O	O	
+6-31	zweckmäßig	ADJD	zweckmäßig	_	O	O	
+6-32	erscheinen	VVFIN	erscheinen	_	O	O	
+6-33	,	$,	,	_	O	O	
+6-34	da	KOUS	da	_	O	O	
+6-35	diese	PDS	diese	_	O	O	
+6-36	auch	ADV	auch	_	O	O	
+6-37	nachher	ADV	nachher	_	O	O	
+6-38	noch	ADV	noch	_	O	O	
+6-39	zur	APPRART	zu	_	O	O	
+6-40	Erwägung	NN	Erwägung	_	O	O	
+6-41	kommen	VVFIN	kommen	_	O	O	
+6-42	,	$,	,	_	O	O	
+6-43	ehe	KOUS	ehe	_	O	O	
+6-44	unser	PPOSAT	unser	_	O	O	
+6-45	Bericht	NN	Bericht	_	O	O	
+6-46	an	APPR	an	_	O	O	
+6-47	das	ART	die	_	O	O	
+6-48	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-49	abgeht	VVFIN	abgehen	_	O	O	
+6-50	.	$.	.	_	O	O	
+
+#id=7
+#text=Natürlich werden wir auch auf die Gehaltsfrage da-
+7-1	Natürlich	ADV	natürlich	_	O	O	
+7-2	werden	VAFIN	werden	_	O	O	
+7-3	wir	PPER	wir	_	O	O	
+7-4	auch	ADV	auch	_	O	O	
+7-5	auf	APPR	auf	_	O	O	
+7-6	die	ART	die	_	O	O	
+7-7	Gehaltsfrage	NN	Gehaltsfrage	_	O	O	
+7-8	da-	TRUNC	da-	_	O	O	
+

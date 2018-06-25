@@ -1,0 +1,170 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=95 2 Lepsius an Henzen Berlin, 9. Februar 1876 zur Verwirklibhung dieser trefflichen Idee.
+1-1	95	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	zur	APPRART	zu	_	O	O	
+1-13	Verwirklibhung	NN	<unknown>	_	O	O	
+1-14	dieser	PDAT	dies	_	O	O	
+1-15	trefflichen	ADJA	trefflich	_	O	O	
+1-16	Idee	NN	Idee	_	O	O	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich für mein Theil würde übrigens die Bilder nicht in bunten Farben wünschen; Preller's Größe tritt in der Komposition hervor.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	für	APPR	für	_	O	O	
+2-3	mein	PPOSAT	mein	_	O	O	
+2-4	Theil	NN	<unknown>	_	O	O	
+2-5	würde	VAFIN	werden	_	O	O	
+2-6	übrigens	ADV	übrigens	_	O	O	
+2-7	die	ART	die	_	O	O	
+2-8	Bilder	NN	Bild	_	O	O	
+2-9	nicht	PTKNEG	nicht	_	O	O	
+2-10	in	APPR	in	_	O	O	
+2-11	bunten	ADJA	bunt	_	O	O	
+2-12	Farben	NN	Farbe	_	O	O	
+2-13	wünschen	VVINF	wünschen	_	O	O	
+2-14	;	$.	;	_	O	O	
+2-15	Preller's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-16	Größe	NN	Größe	_	O	O	
+2-17	tritt	VVFIN	treten	_	O	O	
+2-18	in	APPR	in	_	O	O	
+2-19	der	ART	die	_	O	O	
+2-20	Komposition	NN	Komposition	_	O	O	
+2-21	hervor	PTKVZ	hervor	_	O	O	
+2-22	.	$.	.	_	O	O	
+
+#id=3
+#text=Wie wird dann das Innere der Vorhalle in dieser Beziehung gehalten werden?
+3-1	Wie	KOUS	wie	_	O	O	
+3-2	wird	VAFIN	werden	_	O	O	
+3-3	dann	ADV	dann	_	O	O	
+3-4	das	ART	die	_	O	O	
+3-5	Innere	NN	Innere	_	O	O	
+3-6	der	ART	die	_	O	O	
+3-7	Vorhalle	NN	Vorhalle	_	O	O	
+3-8	in	APPR	in	_	O	O	
+3-9	dieser	PDAT	dies	_	O	O	
+3-10	Beziehung	NN	Beziehung	_	O	O	
+3-11	gehalten	VVPP	halten	_	O	O	
+3-12	werden	VAINF	werden	_	O	O	
+3-13	?	$.	?	_	O	O	
+
+#id=4
+#text=Sehr bunt?
+4-1	Sehr	ADV	sehr	_	O	O	
+4-2	bunt	ADJD	bunt	_	O	O	
+4-3	?	$.	?	_	O	O	
+
+#id=5
+#text=Nach großen Schneefällen haben wir jetzt Frühlingswetter.
+5-1	Nach	APPR	nach	_	O	O	
+5-2	großen	ADJA	groß	_	O	O	
+5-3	Schneefällen	NN	Schneefall	_	O	O	
+5-4	haben	VAFIN	haben	_	O	O	
+5-5	wir	PPER	wir	_	O	O	
+5-6	jetzt	ADV	jetzt	_	O	O	
+5-7	Frühlingswetter	NN	Frühlingswetter	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=In einigen Wochen wird ein Bruder von mir für einen Monat nach Rom kommen, Geh.
+6-1	In	APPR	in	_	O	O	
+6-2	einigen	PIAT	einige	_	O	O	
+6-3	Wochen	NN	Woche	_	O	O	
+6-4	wird	VAFIN	werden	_	O	O	
+6-5	ein	ART	eine	_	O	O	
+6-6	Bruder	NN	Bruder	_	O	O	
+6-7	von	APPR	von	_	O	O	
+6-8	mir	PPER	ich	_	O	O	
+6-9	für	APPR	für	_	O	O	
+6-10	einen	ART	eine	_	O	O	
+6-11	Monat	NN	Monat	_	O	O	
+6-12	nach	APPR	nach	_	O	O	
+6-13	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-14	kommen	VVINF	kommen	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	Geh	VVIMP	gehen	_	O	O	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=Reg.
+7-1	Reg.	NN	Reg.	_	O	O	
+
+#id=8
+#text=Rath a. D., wenn er mit seiner schwachen Gesundheit die Reise machen kann.
+8-1	Rath	NE	Rath	_	O	O	
+8-2	a.	APPRART	a.	_	O	O	
+8-3	D.	NE	D.	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	wenn	KOUS	wenn	_	O	O	
+8-6	er	PPER	er	_	O	O	
+8-7	mit	APPR	mit	_	O	O	
+8-8	seiner	PPOSAT	sein	_	O	O	
+8-9	schwachen	ADJA	schwach	_	O	O	
+8-10	Gesundheit	NN	Gesundheit	_	O	O	
+8-11	die	ART	die	_	O	O	
+8-12	Reise	NN	Reise	_	O	O	
+8-13	machen	VVINF	machen	_	O	O	
+8-14	kann	VMFIN	können	_	O	O	
+8-15	.	$.	.	_	O	O	
+
+#id=9
+#text=Wenn Sie und Helbig ihn freundlich aufnehmen und ihn gelegentlich berathen wollen, wird er wie ich Ihnen sehr dankbar sein.
+9-1	Wenn	KOUS	wenn	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	und	KON	und	_	O	O	
+9-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	ihn	PPER	er	_	O	O	
+9-6	freundlich	ADJD	freundlich	_	O	O	
+9-7	aufnehmen	VVINF	aufnehmen	_	O	O	
+9-8	und	KON	und	_	O	O	
+9-9	ihn	PPER	er	_	O	O	
+9-10	gelegentlich	ADJD	gelegentlich	_	O	O	
+9-11	berathen	NN	<unknown>	_	O	O	
+9-12	wollen	VMFIN	wollen	_	O	O	
+9-13	,	$,	,	_	O	O	
+9-14	wird	VAFIN	werden	_	O	O	
+9-15	er	PPER	er	_	O	O	
+9-16	wie	KOUS	wie	_	O	O	
+9-17	ich	PPER	ich	_	O	O	
+9-18	Ihnen	PPER	Sie	_	O	O	
+9-19	sehr	ADV	sehr	_	O	O	
+9-20	dankbar	ADJD	dankbar	_	O	O	
+9-21	sein	VAINF	sein	_	O	O	
+9-22	.	$.	.	_	O	O	
+
+#id=10
+#text=Der Ihrige R Lepsius Oben auf der 1. Seite - nicht von Lepsius geschrieben : Eichler Fasching Rom nicht Fasching
+10-1	Der	ART	die	_	O	O	
+10-2	Ihrige	PPOSAT	ihrige	_	O	O	
+10-3	R	NN	R	_	O	O	
+10-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-5	Oben	ADV	oben	_	O	O	
+10-6	auf	APPR	auf	_	O	O	
+10-7	der	ART	die	_	O	O	
+10-8	1	CARD	1	_	O	O	
+10-9	.	$.	.	_	O	O	
+10-10	Seite	NN	Seite	_	O	O	
+10-11	-	$(	-	_	O	O	
+10-12	nicht	PTKNEG	nicht	_	O	O	
+10-13	von	APPR	von	_	O	O	
+10-14	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-15	geschrieben	VVPP	schreiben	_	O	O	
+10-16	:	$.	:	_	O	O	
+10-17	Eichler	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-18	Fasching	NN	Fasching	_	O	O	
+10-19	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-20	nicht	PTKNEG	nicht	_	O	O	
+10-21	Fasching	NN	Fasching	_	O	O	
+

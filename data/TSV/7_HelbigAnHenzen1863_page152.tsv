@@ -1,0 +1,226 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=327 H Lieber Herr Professor Helbig an Henzen Zürich, 14. September 1870 g. 14/9 70 r.
+1-1	327	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1870	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	14/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	70	CARD	70	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=19/9 70 Zürich, Fluntern, Plattenwiese 14/9 70 Vermuthlich haben Sie auf meinen letzten Brief nicht geantwortet, weil Sie die Nachricht von der Nieder/kunft meiner Frau abwarten wollten.
+2-1	19/9	CARD	@card@	_	O	O	
+2-2	70	CARD	70	_	O	O	
+2-3	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	,	$,	,	_	O	O	
+2-5	Fluntern	NN	<unknown>	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	Plattenwiese	NN	<unknown>	_	O	O	
+2-8	14/9	CARD	@card@	_	O	O	
+2-9	70	CARD	70	_	O	O	
+2-10	Vermuthlich	NN	<unknown>	_	O	O	
+2-11	haben	VAFIN	haben	_	O	O	
+2-12	Sie	PPER	Sie	_	O	O	
+2-13	auf	APPR	auf	_	O	O	
+2-14	meinen	PPOSAT	mein	_	O	O	
+2-15	letzten	ADJA	letzt	_	O	O	
+2-16	Brief	NN	Brief	_	O	O	
+2-17	nicht	PTKNEG	nicht	_	O	O	
+2-18	geantwortet	VVPP	antworten	_	O	O	
+2-19	,	$,	,	_	O	O	
+2-20	weil	KOUS	weil	_	O	O	
+2-21	Sie	PPER	Sie	_	O	O	
+2-22	die	ART	die	_	O	O	
+2-23	Nachricht	NN	Nachricht	_	O	O	
+2-24	von	APPR	von	_	O	O	
+2-25	der	ART	die	_	O	O	
+2-26	Nieder/kunft	NN	<unknown>	_	O	O	
+2-27	meiner	PPOSAT	mein	_	O	O	
+2-28	Frau	NN	Frau	_	O	O	
+2-29	abwarten	VVINF	abwarten	_	O	O	
+2-30	wollten	VMFIN	wollen	_	O	O	
+2-31	.	$.	.	_	O	O	
+
+#id=3
+#text=Dieselbe ist noch nicht eingetreten, obwohl alle Ärzte als letzten Termin den 9. September bezeichnet hatten.
+3-1	Dieselbe	PDS	dieselbe	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	noch	ADV	noch	_	O	O	
+3-4	nicht	PTKNEG	nicht	_	O	O	
+3-5	eingetreten	VVPP	eintreten	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	obwohl	KOUS	obwohl	_	O	O	
+3-8	alle	PIAT	alle	_	O	O	
+3-9	Ärzte	NN	Arzt	_	O	O	
+3-10	als	KOKOM	als	_	O	O	
+3-11	letzten	ADJA	letzt	_	O	O	
+3-12	Termin	NN	Termin	_	O	O	
+3-13	den	ART	die	_	O	O	
+3-14	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-15	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-16	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-17	bezeichnet	VVPP	bezeichnen	_	O	O	
+3-18	hatten	VAFIN	haben	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich weiß nicht, ob ich mich über diese Verzögerung freuen oder sie bedauern soll.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	weiß	VVFIN	wissen	_	O	O	
+4-3	nicht	PTKNEG	nicht	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	ob	KOUS	ob	_	O	O	
+4-6	ich	PPER	ich	_	O	O	
+4-7	mich	PRF	ich	_	O	O	
+4-8	über	APPR	über	_	O	O	
+4-9	diese	PDAT	dies	_	O	O	
+4-10	Verzögerung	NN	Verzögerung	_	O	O	
+4-11	freuen	VVINF	freuen	_	O	O	
+4-12	oder	KON	oder	_	O	O	
+4-13	sie	PPER	sie	_	O	O	
+4-14	bedauern	VVINF	bedauern	_	O	O	
+4-15	soll	VMFIN	sollen	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Erfreulich ist dabei, daß sich meine Frau seit der letzten Woche bedeutend besser fühlt und sie somit Kräfte sammelt für das peinliche Ereignis.
+5-1	Erfreulich	ADJD	erfreulich	_	O	O	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	dabei	PAV	dabei	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	daß	KOUS	dass	_	O	O	
+5-6	sich	PRF	sich	_	O	O	
+5-7	meine	PPOSAT	mein	_	O	O	
+5-8	Frau	NN	Frau	_	O	O	
+5-9	seit	APPR	seit	_	O	O	
+5-10	der	ART	die	_	O	O	
+5-11	letzten	ADJA	letzt	_	O	O	
+5-12	Woche	NN	Woche	_	O	O	
+5-13	bedeutend	ADJD	bedeutend	_	O	O	
+5-14	besser	ADJD	gut	_	O	O	
+5-15	fühlt	VVFIN	fühlen	_	O	O	
+5-16	und	KON	und	_	O	O	
+5-17	sie	PPER	sie	_	O	O	
+5-18	somit	ADV	somit	_	O	O	
+5-19	Kräfte	NN	Kraft	_	O	O	
+5-20	sammelt	VVFIN	sammeln	_	O	O	
+5-21	für	APPR	für	_	O	O	
+5-22	das	ART	die	_	O	O	
+5-23	peinliche	ADJA	peinlich	_	O	O	
+5-24	Ereignis	NN	Ereignis	_	O	O	
+5-25	.	$.	.	_	O	O	
+
+#id=6
+#text=Bedauerlich ist dagegen, daß wir so tief in den Winter hineinkommen und wir mit der Passage der Alpen und überhaupt der Reise beträchtliche Schwierigkeiten haben werden.
+6-1	Bedauerlich	ADJD	bedauerlich	_	O	O	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	dagegen	PAV	dagegen	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	daß	KOUS	dass	_	O	O	
+6-6	wir	PPER	wir	_	O	O	
+6-7	so	ADV	so	_	O	O	
+6-8	tief	ADJD	tief	_	O	O	
+6-9	in	APPR	in	_	O	O	
+6-10	den	ART	die	_	O	O	
+6-11	Winter	NN	Winter	_	O	O	
+6-12	hineinkommen	VVINF	hineinkommen	_	O	O	
+6-13	und	KON	und	_	O	O	
+6-14	wir	PPER	wir	_	O	O	
+6-15	mit	APPR	mit	_	O	O	
+6-16	der	ART	die	_	O	O	
+6-17	Passage	NN	Passage	_	O	O	
+6-18	der	ART	die	_	O	O	
+6-19	Alpen	NN	Alp	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-20	und	KON	und	_	O	O	
+6-21	überhaupt	ADV	überhaupt	_	O	O	
+6-22	der	ART	die	_	O	O	
+6-23	Reise	NN	Reise	_	O	O	
+6-24	beträchtliche	ADJA	beträchtlich	_	O	O	
+6-25	Schwierigkeiten	NN	Schwierigkeit	_	O	O	
+6-26	haben	VAINF	haben	_	O	O	
+6-27	werden	VAFIN	werden	_	O	O	
+6-28	.	$.	.	_	O	O	
+
+#id=7
+#text=Sollte sich das Ereignis noch länger hinausschieben, so wird mir, um Unannehmlichkeiten von Berlin aus zu vermeiden, nichts übrig bleiben, als nach Eintritt der Niederkunft, wenn sie glücklich von Statten gegangen ist, allein nach Rom zu reisen und meine Frau, wenn sie reisefertig ist, allein nachkommen zu lassen oder von Rom aus zum dritten Male in diesem Jahre die
+7-1	Sollte	VMFIN	sollen	_	O	O	
+7-2	sich	PRF	sich	_	O	O	
+7-3	das	ART	die	_	O	O	
+7-4	Ereignis	NN	Ereignis	_	O	O	
+7-5	noch	ADV	noch	_	O	O	
+7-6	länger	ADJD	lang	_	O	O	
+7-7	hinausschieben	VVINF	hinausschieben	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	so	ADV	so	_	O	O	
+7-10	wird	VAFIN	werden	_	O	O	
+7-11	mir	PPER	ich	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	um	KOUI	um	_	O	O	
+7-14	Unannehmlichkeiten	NN	Unannehmlichkeit	_	O	O	
+7-15	von	APPR	von	_	O	O	
+7-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-17	aus	PTKVZ	aus	_	O	O	
+7-18	zu	PTKZU	zu	_	O	O	
+7-19	vermeiden	VVINF	vermeiden	_	O	O	
+7-20	,	$,	,	_	O	O	
+7-21	nichts	PIS	nichts	_	O	O	
+7-22	übrig	ADJD	übrig	_	O	O	
+7-23	bleiben	VVFIN	bleiben	_	O	O	
+7-24	,	$,	,	_	O	O	
+7-25	als	KOUS	als	_	O	O	
+7-26	nach	APPR	nach	_	O	O	
+7-27	Eintritt	NN	Eintritt	_	O	O	
+7-28	der	ART	die	_	O	O	
+7-29	Niederkunft	NN	Niederkunft	_	O	O	
+7-30	,	$,	,	_	O	O	
+7-31	wenn	KOUS	wenn	_	O	O	
+7-32	sie	PPER	sie	_	O	O	
+7-33	glücklich	ADJD	glücklich	_	O	O	
+7-34	von	APPR	von	_	O	O	
+7-35	Statten	NN	<unknown>	_	O	O	
+7-36	gegangen	VVPP	gehen	_	O	O	
+7-37	ist	VAFIN	sein	_	O	O	
+7-38	,	$,	,	_	O	O	
+7-39	allein	ADV	allein	_	O	O	
+7-40	nach	APPR	nach	_	O	O	
+7-41	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-42	zu	PTKZU	zu	_	O	O	
+7-43	reisen	VVINF	reisen	_	O	O	
+7-44	und	KON	und	_	O	O	
+7-45	meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-46	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-47	,	$,	,	_	O	O	
+7-48	wenn	KOUS	wenn	_	O	O	
+7-49	sie	PPER	sie	_	O	O	
+7-50	reisefertig	ADJD	reisefertig	_	O	O	
+7-51	ist	VAFIN	sein	_	O	O	
+7-52	,	$,	,	_	O	O	
+7-53	allein	ADV	allein	_	O	O	
+7-54	nachkommen	VVINF	nachkommen	_	O	O	
+7-55	zu	PTKZU	zu	_	O	O	
+7-56	lassen	VVINF	lassen	_	O	O	
+7-57	oder	KON	oder	_	O	O	
+7-58	von	APPR	von	_	O	O	
+7-59	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-60	aus	APPR	aus	_	O	O	
+7-61	zum	APPRART	zu	_	O	O	
+7-62	dritten	ADJA	dritt	_	O	O	
+7-63	Male	NN	Mal	_	O	O	
+7-64	in	APPR	in	_	O	O	
+7-65	diesem	PDAT	dies	_	O	O	
+7-66	Jahre	NN	Jahr	_	O	O	
+7-67	die	ART	die	_	O	O	
+

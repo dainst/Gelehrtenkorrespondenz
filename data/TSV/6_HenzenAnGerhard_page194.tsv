@@ -1,0 +1,131 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=110 22/IV/54 2 Renzen an Gerhard gend um ~estimmte Auskunft liber die Copialien, damit in meiner Abwesenheit die Arbeiten auf der Bibliothek fortgehen u. ich de Rossi dazu Geld anweisen kann.
+1-1	110	CARD	110	_	O	O	
+1-2	22/IV/54	CARD	<unknown>	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	gend	VVFIN	<unknown>	_	O	O	
+1-8	um	APPR	um	_	O	O	
+1-9	~estimmte	ADJA	<unknown>	_	O	O	
+1-10	Auskunft	NN	Auskunft	_	O	O	
+1-11	liber	NN	<unknown>	_	O	O	
+1-12	die	ART	die	_	O	O	
+1-13	Copialien	NN	<unknown>	_	O	O	
+1-14	,	$,	,	_	O	O	
+1-15	damit	KOUS	damit	_	O	O	
+1-16	in	APPR	in	_	O	O	
+1-17	meiner	PPOSAT	mein	_	O	O	
+1-18	Abwesenheit	NN	Abwesenheit	_	O	O	
+1-19	die	ART	die	_	O	O	
+1-20	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+1-21	auf	APPR	auf	_	O	O	
+1-22	der	ART	die	_	O	O	
+1-23	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-24	fortgehen	VVFIN	fortgehen	_	O	O	
+1-25	u.	APPR	um	_	O	O	
+1-26	ich	PPER	ich	_	O	O	
+1-27	de	NE	de	_	O	O	
+1-28	Rossi	NE	Rossi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-29	dazu	PAV	dazu	_	O	O	
+1-30	Geld	NN	Geld	_	O	O	
+1-31	anweisen	VVINF	anweisen	_	O	O	
+1-32	kann	VMFIN	können	_	O	O	
+1-33	.	$.	.	_	O	O	
+
+#id=2
+#text=Einstweilen wird mit den bewilligten 100 Scudi gearbeitet.
+2-1	Einstweilen	ADV	einstweilen	_	O	O	
+2-2	wird	VAFIN	werden	_	O	O	
+2-3	mit	APPR	mit	_	O	O	
+2-4	den	ART	die	_	O	O	
+2-5	bewilligten	ADJA	bewilligt	_	O	O	
+2-6	100	CARD	100	_	O	O	
+2-7	Scudi	NN	<unknown>	_	O	O	
+2-8	gearbeitet	VVPP	arbeiten	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Wir hoffen, bald von Ihnen etwas darliber zu hBren, was Sie zu Gunsten des Instituts bei Gelegenheit des Jubileums in Aussicht stellen.
+3-1	Wir	PPER	wir	_	O	O	
+3-2	hoffen	VVFIN	hoffen	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	bald	ADV	bald	_	O	O	
+3-5	von	APPR	von	_	O	O	
+3-6	Ihnen	PPER	Sie	_	O	O	
+3-7	etwas	ADV	etwas	_	O	O	
+3-8	darliber	VVFIN	<unknown>	_	O	O	
+3-9	zu	APPR	zu	_	O	O	
+3-10	hBren	NE	<unknown>	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	was	PRELS	was	_	O	O	
+3-13	Sie	PPER	Sie	_	O	O	
+3-14	zu	APPR	zu	_	O	O	
+3-15	Gunsten	NN	Gunst	_	O	O	
+3-16	des	ART	die	_	O	O	
+3-17	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-18	bei	APPR	bei	_	O	O	
+3-19	Gelegenheit	NN	Gelegenheit	_	O	O	
+3-20	des	ART	die	_	O	O	
+3-21	Jubileums	NN	<unknown>	_	O	O	
+3-22	in	APPR	in	_	O	O	
+3-23	Aussicht	NN	Aussicht	_	O	O	
+3-24	stellen	VVFIN	stellen	_	O	O	
+3-25	.	$.	.	_	O	O	
+
+#id=4
+#text=MBchten die Institutsangelegenheiten dort besseren Fortgang haben, als hier, wo große fiacchezza herrscht.
+4-1	MBchten	NN	<unknown>	_	O	O	
+4-2	die	ART	die	_	O	O	
+4-3	Institutsangelegenheiten	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-4	dort	ADV	dort	_	O	O	
+4-5	besseren	ADJA	gut	_	O	O	
+4-6	Fortgang	NN	Fortgang	_	O	O	
+4-7	haben	VAFIN	haben	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	als	KOUS	als	_	O	O	
+4-10	hier	ADV	hier	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	wo	PWAV	wo	_	O	O	
+4-13	große	ADJA	groß	_	O	O	
+4-14	fiacchezza	NN	<unknown>	_	O	O	
+4-15	herrscht	VVFIN	herrschen	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=In Ermangelung aller sonstigen Neuigkeiten verbleibe ich mit herzlichen GrUßen auch meiner Frau an 0ie u. dje Ihrige.
+5-1	In	APPR	in	_	O	O	
+5-2	Ermangelung	NN	Ermangelung	_	O	O	
+5-3	aller	PIAT	alle	_	O	O	
+5-4	sonstigen	ADJA	sonstig	_	O	O	
+5-5	Neuigkeiten	NN	Neuigkeit	_	O	O	
+5-6	verbleibe	VVFIN	verbleiben	_	O	O	
+5-7	ich	PPER	ich	_	O	O	
+5-8	mit	APPR	mit	_	O	O	
+5-9	herzlichen	ADJA	herzlich	_	O	O	
+5-10	GrUßen	NN	<unknown>	_	O	O	
+5-11	auch	ADV	auch	_	O	O	
+5-12	meiner	PPOSAT	mein	_	O	O	
+5-13	Frau	NN	Frau	_	O	O	
+5-14	an	APPR	an	_	O	O	
+5-15	0ie	NN	<unknown>	_	O	O	
+5-16	u.	APPR	um	_	O	O	
+5-17	dje	NE	<unknown>	_	O	O	
+5-18	Ihrige	PPOSAT	ihrige	_	O	O	
+5-19	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihr ergebner VIHz.
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	ergebner	ADJA	<unknown>	_	O	O	
+6-3	VIHz	NN	<unknown>	_	O	O	
+6-4	.	$.	.	_	O	O	
+
+#id=7
+#text=ROID 22/IV 54
+7-1	ROID	ADJD	<unknown>	_	O	O	
+7-2	22/IV	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+7-3	54	CARD	54	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+

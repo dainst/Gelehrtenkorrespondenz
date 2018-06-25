@@ -1,0 +1,320 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=10 5/VIII/52 Verehrter Herr Professor Henzen an Gerhard Albano 5/VIII/52 r So eben erholte ich Ihren Brief vom 27 n • v. M., den !
+1-1	10	CARD	10	_	O	O	
+1-2	5/VIII/52	CARD	<unknown>	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Albano	NE	Albano	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	5/VIII/52	CARD	<unknown>	_	O	O	
+1-11	r	NE	r	_	O	O	
+1-12	So	ADV	so	_	O	O	
+1-13	eben	ADV	eben	_	O	O	
+1-14	erholte	VVFIN	erholen	_	O	O	
+1-15	ich	PPER	ich	_	O	O	
+1-16	Ihren	PPOSAT	ihr	_	O	O	
+1-17	Brief	NN	Brief	_	O	O	
+1-18	vom	APPRART	von	_	O	O	
+1-19	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-20	n	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-21	•	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-22	v.	APPR	von	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-23	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-24	,	$,	,	_	O	O	
+1-25	den	PRELS	die	_	O	O	
+1-26	!	$.	!	_	O	O	
+
+#id=2
+#text=ich sofort zur Einsicht und gründlichen Beantwortung an Braun schicke.
+2-1	ich	PPER	ich	_	O	O	
+2-2	sofort	ADV	sofort	_	O	O	
+2-3	zur	APPRART	zu	_	O	O	
+2-4	Einsicht	NN	Einsicht	_	O	O	
+2-5	und	KON	und	_	O	O	
+2-6	gründlichen	ADJA	gründlich	_	O	O	
+2-7	Beantwortung	NN	Beantwortung	_	O	O	
+2-8	an	APPR	an	_	O	O	
+2-9	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-10	schicke	VVFIN	schicken	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Sie selbst werden indeß von mir u. meiner Urau ein Schreiben vom gestrigen Datum erhalten haben.
+3-1	Sie	PPER	Sie	_	O	O	
+3-2	selbst	ADV	selbst	_	O	O	
+3-3	werden	VAFIN	werden	_	O	O	
+3-4	indeß	NN	<unknown>	_	O	O	
+3-5	von	APPR	von	_	O	O	
+3-6	mir	PPER	ich	_	O	O	
+3-7	u.	APPR	um	_	O	O	
+3-8	meiner	PPOSAT	mein	_	O	O	
+3-9	Urau	NN	<unknown>	_	O	O	
+3-10	ein	ART	eine	_	O	O	
+3-11	Schreiben	NN	Schreiben	_	O	O	
+3-12	vom	APPRART	von	_	O	O	
+3-13	gestrigen	ADJA	gestrig	_	O	O	
+3-14	Datum	NN	Datum	_	O	O	
+3-15	erhalten	VVPP	erhalten	_	O	O	
+3-16	haben	VAINF	haben	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=- Was Secchi angeht, so schicken Sie uns ein Directionsedict, wodurch alles Ägyptische ein fUr alle Mal ausgeschlossen wird.
+4-1	-	$(	-	_	O	O	
+4-2	Was	PWS	was	_	O	O	
+4-3	Secchi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-4	angeht	VVFIN	angehen	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	so	ADV	so	_	O	O	
+4-7	schicken	VVFIN	schicken	_	O	O	
+4-8	Sie	PPER	Sie	_	O	O	
+4-9	uns	PRF	wir	_	O	O	
+4-10	ein	ART	eine	_	O	O	
+4-11	Directionsedict	NN	<unknown>	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	wodurch	PWAV	wodurch	_	O	O	
+4-14	alles	PIAT	alle	_	O	O	
+4-15	Ägyptische	NN	<unknown>	_	O	O	
+4-16	ein	ART	eine	_	O	O	
+4-17	fUr	NN	<unknown>	_	O	O	
+4-18	alle	PIAT	alle	_	O	O	
+4-19	Mal	NN	Mal	_	O	O	
+4-20	ausgeschlossen	VVPP	ausschließen	_	O	O	
+4-21	wird	VAFIN	werden	_	O	O	
+4-22	.	$.	.	_	O	O	
+
+#id=5
+#text=Sonst weiß ich nicht, wie wir ein noch so seccantes Directionsmitglied abhalten sollen, seine Sachen, die wir nicht beurtheilen können, drucken zu lassen.
+5-1	Sonst	ADV	sonst	_	O	O	
+5-2	weiß	VVFIN	wissen	_	O	O	
+5-3	ich	PPER	ich	_	O	O	
+5-4	nicht	PTKNEG	nicht	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	wie	KOUS	wie	_	O	O	
+5-7	wir	PPER	wir	_	O	O	
+5-8	ein	ART	eine	_	O	O	
+5-9	noch	ADV	noch	_	O	O	
+5-10	so	ADV	so	_	O	O	
+5-11	seccantes	ADJA	<unknown>	_	O	O	
+5-12	Directionsmitglied	NN	<unknown>	_	O	O	
+5-13	abhalten	VVINF	abhalten	_	O	O	
+5-14	sollen	VMFIN	sollen	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	seine	PPOSAT	sein	_	O	O	
+5-17	Sachen	NN	Sache	_	O	O	
+5-18	,	$,	,	_	O	O	
+5-19	die	PRELS	die	_	O	O	
+5-20	wir	PPER	wir	_	O	O	
+5-21	nicht	PTKNEG	nicht	_	O	O	
+5-22	beurtheilen	VVINF	<unknown>	_	O	O	
+5-23	können	VMFIN	können	_	O	O	
+5-24	,	$,	,	_	O	O	
+5-25	drucken	VVINF	drucken	_	O	O	
+5-26	zu	PTKZU	zu	_	O	O	
+5-27	lassen	VVINF	lassen	_	O	O	
+5-28	.	$.	.	_	O	O	
+
+#id=6
+#text=Wir müssen einmal lawiren, u., was das Schä.men betrifft, so haben uns Panofkasche u. ähnliche Artikel, die wir haben schlucken müssen, ziemlich dickfellig gemacht.
+6-1	Wir	PPER	wir	_	O	O	
+6-2	müssen	VMFIN	müssen	_	O	O	
+6-3	einmal	ADV	einmal	_	O	O	
+6-4	lawiren	ADJA	<unknown>	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	u.	KON	und	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	was	PRELS	was	_	O	O	
+6-9	das	ART	die	_	O	O	
+6-10	Schä.men	NN	<unknown>	_	O	O	
+6-11	betrifft	VVFIN	betreffen	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	so	ADV	so	_	O	O	
+6-14	haben	VAFIN	haben	_	O	O	
+6-15	uns	PPER	wir	_	O	O	
+6-16	Panofkasche	NN	<unknown>	_	O	O	
+6-17	u.	APPR	um	_	O	O	
+6-18	ähnliche	ADJA	ähnlich	_	O	O	
+6-19	Artikel	NN	Artikel	_	O	O	
+6-20	,	$,	,	_	O	O	
+6-21	die	PRELS	die	_	O	O	
+6-22	wir	PPER	wir	_	O	O	
+6-23	haben	VAFIN	haben	_	O	O	
+6-24	schlucken	VVINF	schlucken	_	O	O	
+6-25	müssen	VMINF	müssen	_	O	O	
+6-26	,	$,	,	_	O	O	
+6-27	ziemlich	ADV	ziemlich	_	O	O	
+6-28	dickfellig	ADJD	dickfellig	_	O	O	
+6-29	gemacht	VVPP	machen	_	O	O	
+6-30	.	$.	.	_	O	O	
+
+#id=7
+#text=- Unsre Protocolle aus jener Periode enthalten leider Qottes nur Secchiana; wie konnen wir also drucken ohne Sec chi ?
+7-1	-	$(	-	_	O	O	
+7-2	Unsre	PPOSAT	unsre	_	O	O	
+7-3	Protocolle	NN	<unknown>	_	O	O	
+7-4	aus	APPR	aus	_	O	O	
+7-5	jener	PDAT	jen	_	O	O	
+7-6	Periode	NN	Periode	_	O	O	
+7-7	enthalten	VVFIN	enthalten	_	O	O	
+7-8	leider	ADV	leider	_	O	O	
+7-9	Qottes	NN	<unknown>	_	O	O	
+7-10	nur	ADV	nur	_	O	O	
+7-11	Secchiana	NN	<unknown>	_	O	O	
+7-12	;	$.	;	_	O	O	
+7-13	wie	KOUS	wie	_	O	O	
+7-14	konnen	VVFIN	<unknown>	_	O	O	
+7-15	wir	PPER	wir	_	O	O	
+7-16	also	ADV	also	_	O	O	
+7-17	drucken	VVFIN	drucken	_	O	O	
+7-18	ohne	APPR	ohne	_	O	O	
+7-19	Sec	NE	<unknown>	_	O	O	
+7-20	chi	VVFIN	<unknown>	_	O	O	
+7-21	?	$.	?	_	O	O	
+
+#id=8
+#text=Uebrigens ist ja unsre Absicht nur, eine Rückäußerung der Aegyptologen hervorzurufen; denn einfaches Ignoriren oder mit Verachtung strafen ist sehr einfach u. leicht.
+8-1	Uebrigens	NN	<unknown>	_	O	O	
+8-2	ist	VAFIN	sein	_	O	O	
+8-3	ja	ADV	ja	_	O	O	
+8-4	unsre	PPOSAT	unsre	_	O	O	
+8-5	Absicht	NN	Absicht	_	O	O	
+8-6	nur	ADV	nur	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	eine	ART	eine	_	O	O	
+8-9	Rückäußerung	NN	<unknown>	_	O	O	
+8-10	der	ART	die	_	O	O	
+8-11	Aegyptologen	NN	<unknown>	_	O	O	
+8-12	hervorzurufen	VVIZU	hervorrufen	_	O	O	
+8-13	;	$.	;	_	O	O	
+8-14	denn	KON	denn	_	O	O	
+8-15	einfaches	ADJA	einfach	_	O	O	
+8-16	Ignoriren	NN	<unknown>	_	O	O	
+8-17	oder	KON	oder	_	O	O	
+8-18	mit	APPR	mit	_	O	O	
+8-19	Verachtung	NN	Verachtung	_	O	O	
+8-20	strafen	VVINF	strafen	_	O	O	
+8-21	ist	VAFIN	sein	_	O	O	
+8-22	sehr	ADV	sehr	_	O	O	
+8-23	einfach	ADJD	einfach	_	O	O	
+8-24	u.	KON	und	_	O	O	
+8-25	leicht	ADJD	leicht	_	O	O	
+8-26	.	$.	.	_	O	O	
+
+#id=9
+#text=Für den Le..-ien hat die neue Netbode viel Ansprechendes, u. das Unglück ist nur, dß.
+9-1	Für	APPR	für	_	O	O	
+9-2	den	ART	die	_	O	O	
+9-3	Le..-ien	NN	<unknown>	_	O	O	
+9-4	hat	VAFIN	haben	_	O	O	
+9-5	die	ART	die	_	O	O	
+9-6	neue	ADJA	neu	_	O	O	
+9-7	Netbode	NN	<unknown>	_	O	O	
+9-8	viel	PIAT	viele	_	O	O	
+9-9	Ansprechendes	NN	Ansprechende	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	u.	APPR	um	_	O	O	
+9-12	das	ART	die	_	O	O	
+9-13	Unglück	NN	Unglück	_	O	O	
+9-14	ist	VAFIN	sein	_	O	O	
+9-15	nur	ADV	nur	_	O	O	
+9-16	,	$,	,	_	O	O	
+9-17	dß	VVFIN	<unknown>	_	O	O	
+9-18	.	$.	.	_	O	O	
+
+#id=10
+#text=einem Charlatan, wie unser rv:embro onorario delle Direzione ist, nicht getraut werden kann, u. dß, er liberall extravagirt.
+10-1	einem	ART	eine	_	O	O	
+10-2	Charlatan	NN	<unknown>	_	O	O	
+10-3	,	$,	,	_	O	O	
+10-4	wie	KOUS	wie	_	O	O	
+10-5	unser	PPOSAT	unser	_	O	O	
+10-6	rv:embro	NN	<unknown>	_	O	O	
+10-7	onorario	NE	<unknown>	_	O	O	
+10-8	delle	VVFIN	dellen	_	O	O	
+10-9	Direzione	NE	<unknown>	_	O	O	
+10-10	ist	VAFIN	sein	_	O	O	
+10-11	,	$,	,	_	O	O	
+10-12	nicht	PTKNEG	nicht	_	O	O	
+10-13	getraut	VVPP	getrauen|trauen	_	O	O	
+10-14	werden	VAINF	werden	_	O	O	
+10-15	kann	VMFIN	können	_	O	O	
+10-16	,	$,	,	_	O	O	
+10-17	u.	KON	und	_	O	O	
+10-18	dß	VVFIN	<unknown>	_	O	O	
+10-19	,	$,	,	_	O	O	
+10-20	er	PPER	er	_	O	O	
+10-21	liberall	VVFIN	<unknown>	_	O	O	
+10-22	extravagirt	ADJD	<unknown>	_	O	O	
+10-23	.	$.	.	_	O	O	
+
+#id=11
+#text=r Die Hefte von Thiersch u. Grebl bitte ich, bei erster Gelegenheit zurückzusenden.
+11-1	r	FM	r	_	O	O	
+11-2	Die	ART	die	_	O	O	
+11-3	Hefte	NN	Heft	_	O	O	
+11-4	von	APPR	von	_	O	O	
+11-5	Thiersch	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-6	u.	APPR	um	_	O	O	
+11-7	Grebl	NE	<unknown>	_	O	O	
+11-8	bitte	VVFIN	bitten	_	O	O	
+11-9	ich	PPER	ich	_	O	O	
+11-10	,	$,	,	_	O	O	
+11-11	bei	APPR	bei	_	O	O	
+11-12	erster	ADJA	erst	_	O	O	
+11-13	Gelegenheit	NN	Gelegenheit	_	O	O	
+11-14	zurückzusenden	VVIZU	zurücksenden	_	O	O	
+11-15	.	$.	.	_	O	O	
+
+#id=12
+#text=Sie müssen von Jemanden benutzt, auf dem Tische gelassen u. von Domenico's Weisheit dem vorbereiteten Haufen beigepackt sein.
+12-1	Sie	PPER	Sie	_	O	O	
+12-2	müssen	VMFIN	müssen	_	O	O	
+12-3	von	APPR	von	_	O	O	
+12-4	Jemanden	NN	Jemand	_	O	O	
+12-5	benutzt	VVPP	benutzen	_	O	O	
+12-6	,	$,	,	_	O	O	
+12-7	auf	APPR	auf	_	O	O	
+12-8	dem	ART	die	_	O	O	
+12-9	Tische	NN	Tisch	_	O	O	
+12-10	gelassen	VVPP	lassen	_	O	O	
+12-11	u.	KON	und	_	O	O	
+12-12	von	APPR	von	_	O	O	
+12-13	Domenico's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-14	Weisheit	NN	Weisheit	_	O	O	
+12-15	dem	ART	die	_	O	O	
+12-16	vorbereiteten	ADJA	vorbereitet	_	O	O	
+12-17	Haufen	NN	Haufe	_	O	O	
+12-18	beigepackt	VVPP	beipacken	_	O	O	
+12-19	sein	VAINF	sein	_	O	O	
+12-20	.	$.	.	_	O	O	
+
+#id=13
+#text=EntsChuldic;en Sie !
+13-1	EntsChuldic	NE	<unknown>	_	O	O	
+13-2	;	$.	;	_	O	O	
+13-3	en	FM	en	_	O	O	
+13-4	Sie	PPER	Sie	_	O	O	
+13-5	!	$.	!	_	O	O	
+
+#id=14
+#text=L So viel icr.
+14-1	L	NE	L	_	O	O	
+14-2	So	ADV	so	_	O	O	
+14-3	viel	ADV	viel	_	O	O	
+14-4	icr	ADJD	<unknown>	_	O	O	
+14-5	.	$.	.	_	O	O	
+
+#id=15
+#text=mich~ erinnere, hatte Braun den Cent-
+15-1	mich~	ADJD	<unknown>	_	O	O	
+15-2	erinnere	VVFIN	erinnern	_	O	O	
+15-3	,	$,	,	_	O	O	
+15-4	hatte	VAFIN	haben	_	O	O	
+15-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-6	den	ART	die	_	O	O	
+15-7	Cent-	TRUNC	<unknown>	_	O	O	
+

@@ -1,0 +1,233 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=4 Lepsius an Henzen Berlin, 18. Juli 1872 g. 25/7 72 r. Berlin d. 18. Juli 1872 Verehrter Freund Ich legte ~estern der Central Direktion Schöne's Mittheilung über die Paduaner Angelegenheit vor; er hatte auch Ihren Brief eingesendet.
+1-1	4	CARD	4	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	25/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	r.	ADJA	<unknown>	_	O	O	
+1-15	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-16	d.	ART	d.	_	O	O	
+1-17	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Verehrter	ADJA	verehrt	_	O	O	
+1-22	Freund	NN	Freund	_	O	O	
+1-23	Ich	PPER	ich	_	O	O	
+1-24	legte	VVFIN	legen	_	O	O	
+1-25	~estern	NN	<unknown>	_	O	O	
+1-26	der	ART	die	_	O	O	
+1-27	Central	NN	<unknown>	_	O	O	
+1-28	Direktion	NN	Direktion	_	O	O	
+1-29	Schöne's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-30	Mittheilung	NN	<unknown>	_	O	O	
+1-31	über	APPR	über	_	O	O	
+1-32	die	ART	die	_	O	O	
+1-33	Paduaner	NN	<unknown>	_	O	O	
+1-34	Angelegenheit	NN	Angelegenheit	_	O	O	
+1-35	vor	PTKVZ	vor	_	O	O	
+1-36	;	$.	;	_	O	O	
+1-37	er	PPER	er	_	O	O	
+1-38	hatte	VAFIN	haben	_	O	O	
+1-39	auch	ADV	auch	_	O	O	
+1-40	Ihren	PPOSAT	ihr	_	O	O	
+1-41	Brief	NN	Brief	_	O	O	
+1-42	eingesendet	VVPP	einsenden	_	O	O	
+1-43	.	$.	.	_	O	O	
+
+#id=2
+#text=Wir haben uns nun entschlossen, einzutreten und die 2.000 fr.
+2-1	Wir	PPER	wir	_	O	O	
+2-2	haben	VAFIN	haben	_	O	O	
+2-3	uns	PPER	wir	_	O	O	
+2-4	nun	ADV	nun	_	O	O	
+2-5	entschlossen	VVPP	entschließen	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	einzutreten	VVIZU	eintreten	_	O	O	
+2-8	und	KON	und	_	O	O	
+2-9	die	ART	die	_	O	O	
+2-10	2.000	CARD	@card@	_	O	O	
+2-11	fr.	NN	Freitag	_	O	O	
+
+#id=3
+#text=die Italien nicht bezahlen kann, auf unsern Reservefonds zu nehmen.
+3-1	die	ART	die	_	O	O	
+3-2	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-3	nicht	PTKNEG	nicht	_	O	O	
+3-4	bezahlen	VVINF	bezahlen	_	O	O	
+3-5	kann	VMFIN	können	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	auf	APPR	auf	_	O	O	
+3-8	unsern	PPOSAT	unsre	_	O	O	
+3-9	Reservefonds	NN	Reservefonds	_	O	O	
+3-10	zu	PTKZU	zu	_	O	O	
+3-11	nehmen	VVINF	nehmen	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Nur muß das Verlangen von Padua ausgehen, und das werden Sie am besten vermitteln.
+4-1	Nur	ADV	nur	_	O	O	
+4-2	muß	VMFIN	müssen	_	O	O	
+4-3	das	ART	die	_	O	O	
+4-4	Verlangen	NN	Verlangen	_	O	O	
+4-5	von	APPR	von	_	O	O	
+4-6	Padua	NE	Padua	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-7	ausgehen	VVINF	ausgehen	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	und	KON	und	_	O	O	
+4-10	das	PDS	die	_	O	O	
+4-11	werden	VAFIN	werden	_	O	O	
+4-12	Sie	PPER	Sie	_	O	O	
+4-13	am	PTKA	am	_	O	O	
+4-14	besten	ADJD	gut	_	O	O	
+4-15	vermitteln	VVINF	vermitteln	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich habe dies auch an Schöne geschrieben der Ihnen seinerseits schreiben wird.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	dies	PDS	dies	_	O	O	
+5-4	auch	ADV	auch	_	O	O	
+5-5	an	APPR	an	_	O	O	
+5-6	Schöne	NN	Schöne	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-7	geschrieben	VVPP	schreiben	_	O	O	
+5-8	der	PRELS	die	_	O	O	
+5-9	Ihnen	PPER	Sie	_	O	O	
+5-10	seinerseits	ADV	seinerseits	_	O	O	
+5-11	schreiben	VVINF	schreiben	_	O	O	
+5-12	wird	VAFIN	werden	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Was die Büste betrifft, so habe ich allerdings nur zunächst an die Medallirung und Abgüsse davon gedacht, auch hier noch nicht weiter davon gesprochen, da die Sache besser von Ihnen ausgeht.
+6-1	Was	PWS	was	_	O	O	
+6-2	die	ART	die	_	O	O	
+6-3	Büste	NN	Büste	_	O	O	
+6-4	betrifft	VVFIN	betreffen	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	so	ADV	so	_	O	O	
+6-7	habe	VAFIN	haben	_	O	O	
+6-8	ich	PPER	ich	_	O	O	
+6-9	allerdings	ADV	allerdings	_	O	O	
+6-10	nur	ADV	nur	_	O	O	
+6-11	zunächst	ADV	zunächst	_	O	O	
+6-12	an	APPR	an	_	O	O	
+6-13	die	ART	die	_	O	O	
+6-14	Medallirung	NN	<unknown>	_	O	O	
+6-15	und	KON	und	_	O	O	
+6-16	Abgüsse	NN	Abguß	_	O	O	
+6-17	davon	PAV	davon	_	O	O	
+6-18	gedacht	VVPP	denken|gedenken	_	O	O	
+6-19	,	$,	,	_	O	O	
+6-20	auch	ADV	auch	_	O	O	
+6-21	hier	ADV	hier	_	O	O	
+6-22	noch	ADV	noch	_	O	O	
+6-23	nicht	PTKNEG	nicht	_	O	O	
+6-24	weiter	ADV	weiter	_	O	O	
+6-25	davon	PAV	davon	_	O	O	
+6-26	gesprochen	VVPP	sprechen	_	O	O	
+6-27	,	$,	,	_	O	O	
+6-28	da	KOUS	da	_	O	O	
+6-29	die	ART	die	_	O	O	
+6-30	Sache	NN	Sache	_	O	O	
+6-31	besser	ADJD	gut	_	O	O	
+6-32	von	APPR	von	_	O	O	
+6-33	Ihnen	PPER	Sie	_	O	O	
+6-34	ausgeht	VVFIN	ausgehen	_	O	O	
+6-35	.	$.	.	_	O	O	
+
+#id=7
+#text=Troschel's Arbeit ist wohl jedenfalls erst abzuwarten.
+7-1	Troschel's	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	Arbeit	NN	Arbeit	_	O	O	
+7-3	ist	VAFIN	sein	_	O	O	
+7-4	wohl	ADV	wohl	_	O	O	
+7-5	jedenfalls	ADV	jedenfalls	_	O	O	
+7-6	erst	ADV	erst	_	O	O	
+7-7	abzuwarten	VVIZU	abwarten	_	O	O	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=Wie sind wohl bei Ihnen die Preise ?
+8-1	Wie	KOUS	wie	_	O	O	
+8-2	sind	VAFIN	sein	_	O	O	
+8-3	wohl	ADV	wohl	_	O	O	
+8-4	bei	APPR	bei	_	O	O	
+8-5	Ihnen	PPER	Sie	_	O	O	
+8-6	die	ART	die	_	O	O	
+8-7	Preise	NN	Preis	_	O	O	
+8-8	?	$.	?	_	O	O	
+
+#id=9
+#text=Lassen Sie doch Helbig wissen daß ich sehr über seinen letzten Brief verwundert war, da er, wie ich ihm ausdrücklich geschrieben, Alles was das Museum betrifft jetzt nicht mehr an mich oder andre frühere Kommissionsmitglieder sondern an Grafen Use·dom oder Herrn P. Dielitz zu richten hat.
+9-1	Lassen	VVFIN	lassen	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	doch	ADV	doch	_	O	O	
+9-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	wissen	VVFIN	wissen	_	O	O	
+9-6	daß	KOUS	dass	_	O	O	
+9-7	ich	PPER	ich	_	O	O	
+9-8	sehr	ADV	sehr	_	O	O	
+9-9	über	APPR	über	_	O	O	
+9-10	seinen	PPOSAT	sein	_	O	O	
+9-11	letzten	ADJA	letzt	_	O	O	
+9-12	Brief	NN	Brief	_	O	O	
+9-13	verwundert	VVPP	verwundern	_	O	O	
+9-14	war	VAFIN	sein	_	O	O	
+9-15	,	$,	,	_	O	O	
+9-16	da	KOUS	da	_	O	O	
+9-17	er	PPER	er	_	O	O	
+9-18	,	$,	,	_	O	O	
+9-19	wie	KOUS	wie	_	O	O	
+9-20	ich	PPER	ich	_	O	O	
+9-21	ihm	PPER	er	_	O	O	
+9-22	ausdrücklich	ADJD	ausdrücklich	_	O	O	
+9-23	geschrieben	VVPP	schreiben	_	O	O	
+9-24	,	$,	,	_	O	O	
+9-25	Alles	PIAT	alle	_	O	O	
+9-26	was	PIS	was	_	O	O	
+9-27	das	ART	die	_	O	O	
+9-28	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-29	betrifft	VVFIN	betreffen	_	O	O	
+9-30	jetzt	ADV	jetzt	_	O	O	
+9-31	nicht	PTKNEG	nicht	_	O	O	
+9-32	mehr	ADV	mehr	_	O	O	
+9-33	an	APPR	an	_	O	O	
+9-34	mich	PRF	ich	_	O	O	
+9-35	oder	KON	oder	_	O	O	
+9-36	andre	PIAT	andere	_	O	O	
+9-37	frühere	ADJA	früh	_	O	O	
+9-38	Kommissionsmitglieder	NN	Kommissionsmitglied	_	O	O	
+9-39	sondern	KON	sondern	_	O	O	
+9-40	an	APPR	an	_	O	O	
+9-41	Grafen	NN	Graf	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-42	Use·dom	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-43	oder	KON	oder	_	O	O	
+9-44	Herrn	NN	Herr	_	O	O	
+9-45	P.	APPR	p.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-46	Dielitz	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-47	zu	PTKZU	zu	_	O	O	
+9-48	richten	VVINF	richten	_	O	O	
+9-49	hat	VAFIN	haben	_	O	O	
+9-50	.	$.	.	_	O	O	
+
+#id=10
+#text=Doch ich will ihm dies lieber
+10-1	Doch	KON	doch	_	O	O	
+10-2	ich	PPER	ich	_	O	O	
+10-3	will	VMFIN	wollen	_	O	O	
+10-4	ihm	PPER	er	_	O	O	
+10-5	dies	PDS	dies	_	O	O	
+10-6	lieber	ADJD	lieb	_	O	O	
+

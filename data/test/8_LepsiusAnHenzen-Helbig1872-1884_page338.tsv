@@ -1,0 +1,100 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=674 2 Lepsius an Henzen Berlin, 25. Oktober 1877 Auch Helbig's Wunsch wegen Klügmann, den Sie unterstützen, werde ich Montag vorlegen.
+1-1	674	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Auch	ADV	auch	_	O	O	
+1-13	Helbig's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-14	Wunsch	NN	Wunsch	_	O	O	
+1-15	wegen	APPR	wegen	_	O	O	
+1-16	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-17	,	$,	,	_	O	O	
+1-18	den	PRELS	die	_	O	O	
+1-19	Sie	PPER	Sie	_	O	O	
+1-20	unterstützen	VVFIN	unterstützen	_	O	O	
+1-21	,	$,	,	_	O	O	
+1-22	werde	VAFIN	werden	_	O	O	
+1-23	ich	PPER	ich	_	O	O	
+1-24	Montag	NN	Montag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-25	vorlegen	VVINF	vorlegen	_	O	O	
+1-26	.	$.	.	_	O	O	
+
+#id=2
+#text=Wann kommt nur Mommsen wieder, den ich bestens grüBe.
+2-1	Wann	PWAV	wann	_	O	O	
+2-2	kommt	VVFIN	kommen	_	O	O	
+2-3	nur	ADV	nur	_	O	O	
+2-4	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-5	wieder	ADV	wieder	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	den	PRELS	die	_	O	O	
+2-8	ich	PPER	ich	_	O	O	
+2-9	bestens	ADV	bestens	_	O	O	
+2-10	grüBe	ADJD	<unknown>	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Wir warten also seine Rückkehr wegen der Arch.
+3-1	Wir	PPER	wir	_	O	O	
+3-2	warten	VVFIN	warten	_	O	O	
+3-3	also	ADV	also	_	O	O	
+3-4	seine	PPOSAT	sein	_	O	O	
+3-5	Rückkehr	NN	Rückkehr	_	O	O	
+3-6	wegen	APPR	wegen	_	O	O	
+3-7	der	ART	die	_	O	O	
+3-8	Arch	NN	<unknown>	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Bibliothek ab.
+4-1	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-2	ab	PTKVZ	ab	_	O	O	
+4-3	.	$.	.	_	O	O	
+
+#id=5
+#text=Endlich ist schönes warmes Herbstwetter bei uns eingegangen.
+5-1	Endlich	ADV	endlich	_	O	O	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	schönes	ADJA	schön	_	O	O	
+5-4	warmes	ADJA	warm	_	O	O	
+5-5	Herbstwetter	NN	Herbstwetter	_	O	O	
+5-6	bei	APPR	bei	_	O	O	
+5-7	uns	PRF	wir	_	O	O	
+5-8	eingegangen	VVPP	eingehen	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Ihr ergebenster R Lepsius Danke herzlich für den Hochzeitsgruß.
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	ergebenster	ADJA	<unknown>	_	O	O	
+6-3	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	Danke	NN	Dank	_	O	O	
+6-6	herzlich	ADJD	herzlich	_	O	O	
+6-7	für	APPR	für	_	O	O	
+6-8	den	ART	die	_	O	O	
+6-9	Hochzeitsgruß	NN	<unknown>	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Das glückliche Paar wird heute wohl in Darmstadt einziehen.
+7-1	Das	ART	die	_	O	O	
+7-2	glückliche	ADJA	glücklich	_	O	O	
+7-3	Paar	NN	Paar	_	O	O	
+7-4	wird	VAFIN	werden	_	O	O	
+7-5	heute	ADV	heute	_	O	O	
+7-6	wohl	ADV	wohl	_	O	O	
+7-7	in	APPR	in	_	O	O	
+7-8	Darmstadt	NE	Darmstadt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-9	einziehen	VVINF	einziehen	_	O	O	
+7-10	.	$.	.	_	O	O	
+

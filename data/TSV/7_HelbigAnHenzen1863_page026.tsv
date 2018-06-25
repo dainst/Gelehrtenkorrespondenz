@@ -1,0 +1,261 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=349 H Helbig an Henzen Ohne Datum g. 6/8 64 r. Lieber Herr Professor 1 Herzlichen Dank für Ihre Kassandrabriefe.
+1-1	349	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	Ohne	APPR	ohne	_	O	O	
+1-7	Datum	NN	Datum	_	O	O	
+1-8	g.	VVFIN	<unknown>	_	O	O	
+1-9	6/8	CARD	6/8	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-10	64	CARD	64	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-11	r.	ADJA	<unknown>	_	O	O	
+1-12	Lieber	ADJA	lieb	_	O	O	
+1-13	Herr	NN	Herr	_	O	O	
+1-14	Professor	NN	Professor	_	O	O	
+1-15	1	CARD	1	_	O	O	
+1-16	Herzlichen	ADJA	herzlich	_	O	O	
+1-17	Dank	NN	Dank	_	O	O	
+1-18	für	APPR	für	_	O	O	
+1-19	Ihre	PPOSAT	ihr	_	O	O	
+1-20	Kassandrabriefe	NN	<unknown>	_	O	O	
+1-21	.	$.	.	_	O	O	
+
+#id=2
+#text=Wahrhaft schnöde ist es, daß Gerhard, nachdem er mich früher mit Briefen und Aufträgen aller Art bestürmt hatte, seit 4 Wochen ein unverbrüchliches Stillschweigen beobachtet.
+2-1	Wahrhaft	ADJD	wahrhaft	_	O	O	
+2-2	schnöde	ADJD	schnöde	_	O	O	
+2-3	ist	VAFIN	sein	_	O	O	
+2-4	es	PPER	es	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	daß	KOUS	dass	_	O	O	
+2-7	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-8	,	$,	,	_	O	O	
+2-9	nachdem	KOUS	nachdem	_	O	O	
+2-10	er	PPER	er	_	O	O	
+2-11	mich	PRF	ich	_	O	O	
+2-12	früher	ADV	früher	_	O	O	
+2-13	mit	APPR	mit	_	O	O	
+2-14	Briefen	NN	Brief	_	O	O	
+2-15	und	KON	und	_	O	O	
+2-16	Aufträgen	NN	Auftrag	_	O	O	
+2-17	aller	PIAT	alle	_	O	O	
+2-18	Art	NN	Art	_	O	O	
+2-19	bestürmt	VVPP	bestürmen	_	O	O	
+2-20	hatte	VAFIN	haben	_	O	O	
+2-21	,	$,	,	_	O	O	
+2-22	seit	APPR	seit	_	O	O	
+2-23	4	CARD	4	_	O	O	
+2-24	Wochen	NN	Woche	_	O	O	
+2-25	ein	ART	eine	_	O	O	
+2-26	unverbrüchliches	ADJA	<unknown>	_	O	O	
+2-27	Stillschweigen	NN	Stillschweigen	_	O	O	
+2-28	beobachtet	VVPP	beobachten	_	O	O	
+2-29	.	$.	.	_	O	O	
+
+#id=3
+#text=Beiliegende Zeilen bitte ich in dem Aufsatze über die antichita di Peytrignet hinter die Beschreibung der von mir für Orpheus bei den Thraken erklärten Vase einzuschalten.
+3-1	Beiliegende	ADJA	beiliegend	_	O	O	
+3-2	Zeilen	NN	Zeile	_	O	O	
+3-3	bitte	VVFIN	bitten	_	O	O	
+3-4	ich	PPER	ich	_	O	O	
+3-5	in	APPR	in	_	O	O	
+3-6	dem	ART	die	_	O	O	
+3-7	Aufsatze	NN	<unknown>	_	O	O	
+3-8	über	APPR	über	_	O	O	
+3-9	die	ART	die	_	O	O	
+3-10	antichita	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-11	di	NE	di	_	I-webanno.custom.LetterEntity_	I-OBJ	
+3-12	Peytrignet	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+3-13	hinter	APPR	hinter	_	O	O	
+3-14	die	ART	die	_	O	O	
+3-15	Beschreibung	NN	Beschreibung	_	O	O	
+3-16	der	ART	die	_	O	O	
+3-17	von	APPR	von	_	O	O	
+3-18	mir	PPER	ich	_	O	O	
+3-19	für	APPR	für	_	O	O	
+3-20	Orpheus	NE	Orpheus	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-21	bei	APPR	bei	_	O	O	
+3-22	den	ART	die	_	O	O	
+3-23	Thraken	NN	<unknown>	_	O	O	
+3-24	erklärten	VVFIN	erklären	_	O	O	
+3-25	Vase	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-26	einzuschalten	VVIZU	einschalten	_	O	O	
+3-27	.	$.	.	_	O	O	
+
+#id=4
+#text=Es ist gut, wenn eine solche Frage in größerem Zusammenhang abgemacht wird.
+4-1	Es	PPER	es	_	O	O	
+4-2	ist	VAFIN	sein	_	O	O	
+4-3	gut	ADJD	gut	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	wenn	KOUS	wenn	_	O	O	
+4-6	eine	ART	eine	_	O	O	
+4-7	solche	PIAT	solche	_	O	O	
+4-8	Frage	NN	Frage	_	O	O	
+4-9	in	APPR	in	_	O	O	
+4-10	größerem	ADJA	groß	_	O	O	
+4-11	Zusammenhang	NN	Zusammenhang	_	O	O	
+4-12	abgemacht	VVPP	abmachen	_	O	O	
+4-13	wird	VAFIN	werden	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Nächsten Sonntag werde ich aufs Neue nach Pagani gehen, um die Terracotten in Augenschein zu nehmen.
+5-1	Nächsten	ADJA	nah	_	O	O	
+5-2	Sonntag	NN	Sonntag	_	O	O	
+5-3	werde	VAFIN	werden	_	O	O	
+5-4	ich	PPER	ich	_	O	O	
+5-5	aufs	APPRART	aufs	_	O	O	
+5-6	Neue	NN	Neue	_	O	O	
+5-7	nach	APPR	nach	_	O	O	
+5-8	Pagani	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-9	gehen	VVINF	gehen	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	um	KOUI	um	_	O	O	
+5-12	die	ART	die	_	O	O	
+5-13	Terracotten	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-14	in	APPR	in	_	O	O	
+5-15	Augenschein	NN	Augenschein	_	O	O	
+5-16	zu	PTKZU	zu	_	O	O	
+5-17	nehmen	VVINF	nehmen	_	O	O	
+5-18	.	$.	.	_	O	O	
+
+#id=6
+#text=Nach Peytrignets Beschreibung scheinen sie analoger Art zu sein wie die von mir für Brunn aquirirte.
+6-1	Nach	APPR	nach	_	O	O	
+6-2	Peytrignets	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	Beschreibung	NN	Beschreibung	_	O	O	
+6-4	scheinen	VVFIN	scheinen	_	O	O	
+6-5	sie	PPER	sie	_	O	O	
+6-6	analoger	ADJA	analog	_	O	O	
+6-7	Art	NN	Art	_	O	O	
+6-8	zu	PTKZU	zu	_	O	O	
+6-9	sein	VAINF	sein	_	O	O	
+6-10	wie	KOKOM	wie	_	O	O	
+6-11	die	ART	die	_	O	O	
+6-12	von	APPR	von	_	O	O	
+6-13	mir	PPER	ich	_	O	O	
+6-14	für	APPR	für	_	O	O	
+6-15	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-16	aquirirte	VVFIN	<unknown>	_	O	O	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=Geld brauche ich nicht vor Ende September.
+7-1	Geld	NN	Geld	_	O	O	
+7-2	brauche	VVFIN	brauchen	_	O	O	
+7-3	ich	PPER	ich	_	O	O	
+7-4	nicht	PTKNEG	nicht	_	O	O	
+7-5	vor	APPR	vor	_	O	O	
+7-6	Ende	NN	Ende	_	O	O	
+7-7	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=Wann die Berliner über die mir zu ertheilende Renumeration entschieden haben, bitte ich mir mitzutheilen, wieviel sie mir zuerkannt haben.
+8-1	Wann	PWAV	wann	_	O	O	
+8-2	die	ART	die	_	O	O	
+8-3	Berliner	NN	Berliner	_	O	O	
+8-4	über	APPR	über	_	O	O	
+8-5	die	ART	die	_	O	O	
+8-6	mir	PRF	ich	_	O	O	
+8-7	zu	APPR	zu	_	O	O	
+8-8	ertheilende	ADJA	<unknown>	_	O	O	
+8-9	Renumeration	NN	<unknown>	_	O	O	
+8-10	entschieden	VVPP	entscheiden	_	O	O	
+8-11	haben	VAFIN	haben	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	bitte	VVFIN	bitten	_	O	O	
+8-14	ich	PPER	ich	_	O	O	
+8-15	mir	PPER	ich	_	O	O	
+8-16	mitzutheilen	VVIZU	<unknown>	_	O	O	
+8-17	,	$,	,	_	O	O	
+8-18	wieviel	PWAV	wieviele	_	O	O	
+8-19	sie	PPER	sie	_	O	O	
+8-20	mir	PRF	ich	_	O	O	
+8-21	zuerkannt	VVPP	zuerkennen	_	O	O	
+8-22	haben	VAFIN	haben	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=Danke für die Bullettini.
+9-1	Danke	NN	Dank	_	O	O	
+9-2	für	APPR	für	_	O	O	
+9-3	die	ART	die	_	O	O	
+9-4	Bullettini	NN	<unknown>	_	O	O	
+9-5	.	$.	.	_	O	O	
+
+#id=10
+#text=Sehr wünschenswerth wären mir einige Abdrücke meiner bassirilievi chiusini.
+10-1	Sehr	ADV	sehr	_	O	O	
+10-2	wünschenswerth	NE	<unknown>	_	O	O	
+10-3	wären	VAFIN	sein	_	O	O	
+10-4	mir	PPER	ich	_	O	O	
+10-5	einige	PIAT	einige	_	O	O	
+10-6	Abdrücke	NN	Abdruck	_	O	O	
+10-7	meiner	PPOSAT	mein	_	O	O	
+10-8	bassirilievi	ADJA	<unknown>	_	O	O	
+10-9	chiusini	NN	<unknown>	_	O	O	
+10-10	.	$.	.	_	O	O	
+
+#id=11
+#text=Bilder imponiren mehr.
+11-1	Bilder	NN	Bild	_	O	O	
+11-2	imponiren	NN	<unknown>	_	O	O	
+11-3	mehr	ADV	mehr	_	O	O	
+11-4	.	$.	.	_	O	O	
+
+#id=12
+#text=Betreffs der Inschrift von Calvi werde ich auszurichten suchen, was sich mit Diplomatie ausrichten läßt.
+12-1	Betreffs	NN	Betreff	_	O	O	
+12-2	der	ART	die	_	O	O	
+12-3	Inschrift	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+12-4	von	APPR	von	_	O	O	
+12-5	Calvi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-6	werde	VAFIN	werden	_	O	O	
+12-7	ich	PPER	ich	_	O	O	
+12-8	auszurichten	VVIZU	ausrichten	_	O	O	
+12-9	suchen	VVINF	suchen	_	O	O	
+12-10	,	$,	,	_	O	O	
+12-11	was	PRELS	was	_	O	O	
+12-12	sich	PRF	sich	_	O	O	
+12-13	mit	APPR	mit	_	O	O	
+12-14	Diplomatie	NN	Diplomatie	_	O	O	
+12-15	ausrichten	VVINF	ausrichten	_	O	O	
+12-16	läßt	VVFIN	lassen	_	O	O	
+12-17	.	$.	.	_	O	O	
+
+#id=13
+#text=Es wäre gut, Peytrignet zum Corrispondenten zu machen •.
+13-1	Es	PPER	es	_	O	O	
+13-2	wäre	VAFIN	sein	_	O	O	
+13-3	gut	ADJD	gut	_	O	O	
+13-4	,	$,	,	_	O	O	
+13-5	Peytrignet	NN	<unknown>	_	O	O	
+13-6	zum	APPRART	zu	_	O	O	
+13-7	Corrispondenten	NN	<unknown>	_	O	O	
+13-8	zu	PTKZU	zu	_	O	O	
+13-9	machen	VVINF	machen	_	O	O	
+13-10	•	VVFIN	<unknown>	_	O	O	
+13-11	.	$.	.	_	O	O	
+
+#id=14
+#text=Wie er mir sagt, hat er eine große Broncelampe mit Sculpturen aquirirt.
+14-1	Wie	KOUS	wie	_	O	O	
+14-2	er	PPER	er	_	O	O	
+14-3	mir	PPER	ich	_	O	O	
+14-4	sagt	VVFIN	sagen	_	O	O	
+14-5	,	$,	,	_	O	O	
+14-6	hat	VAFIN	haben	_	O	O	
+14-7	er	PPER	er	_	O	O	
+14-8	eine	ART	eine	_	O	O	
+14-9	große	ADJA	groß	_	O	O	
+14-10	Broncelampe	NN	<unknown>	_	O	O	
+14-11	mit	APPR	mit	_	O	O	
+14-12	Sculpturen	NN	<unknown>	_	O	O	
+14-13	aquirirt	NN	<unknown>	_	O	O	
+14-14	.	$.	.	_	O	O	
+

@@ -1,0 +1,126 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Hirlk hat und hat uns sehr hat uns de Witte 2 ungefähr gestärkt Helbig an Henzen Rom, 22. August 1867 drei Wochen bei uns gewohnt verlassen.
+1-1	Hirlk	ADJD	<unknown>	_	O	O	
+1-2	hat	VAFIN	haben	_	O	O	
+1-3	und	KON	und	_	O	O	
+1-4	hat	VAFIN	haben	_	O	O	
+1-5	uns	PPER	wir	_	O	O	
+1-6	sehr	ADV	sehr	_	O	O	
+1-7	hat	VAFIN	haben	_	O	O	
+1-8	uns	PPER	wir	_	O	O	
+1-9	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-10	Witte	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-11	2	CARD	2	_	O	O	
+1-12	ungefähr	ADJD	ungefähr	_	O	O	
+1-13	gestärkt	VVPP	stärken	_	O	O	
+1-14	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-15	an	APPR	an	_	O	O	
+1-16	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-17	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-18	,	$,	,	_	O	O	
+1-19	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	1867	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	drei	CARD	drei	_	O	O	
+1-24	Wochen	NN	Woche	_	O	O	
+1-25	bei	APPR	bei	_	O	O	
+1-26	uns	PRF	wir	_	O	O	
+1-27	gewohnt	VVPP	wohnen	_	O	O	
+1-28	verlassen	VVFIN	verlassen	_	O	O	
+1-29	.	$.	.	_	O	O	
+
+#id=2
+#text=Von anderen Amici heimgesucht, welcher in Alban6 Villegiatur machte, sich aber baldigst nach Frascati flüchtete.
+2-1	Von	APPR	von	_	O	O	
+2-2	anderen	PIS	andere	_	O	O	
+2-3	Amici	NE	<unknown>	_	O	O	
+2-4	heimgesucht	VVPP	heimsuchen	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	welcher	PWS	welche	_	O	O	
+2-7	in	APPR	in	_	O	O	
+2-8	Alban6	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-9	Villegiatur	NN	<unknown>	_	O	O	
+2-10	machte	VVFIN	machen	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	sich	PRF	sich	_	O	O	
+2-13	aber	ADV	aber	_	O	O	
+2-14	baldigst	ADJD	baldig	_	O	O	
+2-15	nach	APPR	nach	_	O	O	
+2-16	Frascati	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-17	flüchtete	VVFIN	flüchten	_	O	O	
+2-18	.	$.	.	_	O	O	
+
+#id=3
+#text=Bedenklich bin ich um Mr. Marr, nach dem ich sowohl in Albano wie in Rom habe Nachforschungen anstellen lassen, doch ohne Erfolg.
+3-1	Bedenklich	ADJD	bedenklich	_	O	O	
+3-2	bin	VAFIN	sein	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	um	APPR	um	_	O	O	
+3-5	Mr.	NN	Mr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	Marr	VVFIN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-7	,	$,	,	_	O	O	
+3-8	nach	APPR	nach	_	O	O	
+3-9	dem	PRELS	die	_	O	O	
+3-10	ich	PPER	ich	_	O	O	
+3-11	sowohl	KON	sowohl	_	O	O	
+3-12	in	APPR	in	_	O	O	
+3-13	Albano	NE	Albano	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-14	wie	KOKOM	wie	_	O	O	
+3-15	in	APPR	in	_	O	O	
+3-16	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-17	habe	VAFIN	haben	_	O	O	
+3-18	Nachforschungen	NN	Nachforschung	_	O	O	
+3-19	anstellen	VVINF	anstellen	_	O	O	
+3-20	lassen	VVINF	lassen	_	O	O	
+3-21	,	$,	,	_	O	O	
+3-22	doch	KON	doch	_	O	O	
+3-23	ohne	APPR	ohne	_	O	O	
+3-24	Erfolg	NN	Erfolg	_	O	O	
+3-25	.	$.	.	_	O	O	
+
+#id=4
+#text=Wir selbst befinden uns alle wohl.
+4-1	Wir	PPER	wir	_	O	O	
+4-2	selbst	ADV	selbst	_	O	O	
+4-3	befinden	VVFIN	befinden	_	O	O	
+4-4	uns	PPER	wir	_	O	O	
+4-5	alle	PIS	alle	_	O	O	
+4-6	wohl	PTKVZ	wohl	_	O	O	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=Hoffentlich geht es auch bei Ihnen gut.
+5-1	Hoffentlich	ADV	hoffentlich	_	O	O	
+5-2	geht	VVFIN	gehen	_	O	O	
+5-3	es	PPER	es	_	O	O	
+5-4	auch	ADV	auch	_	O	O	
+5-5	bei	APPR	bei	_	O	O	
+5-6	Ihnen	PPER	Sie	_	O	O	
+5-7	gut	ADJD	gut	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich bitte mich der Frau Professorin vielmals zu empfehlen.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	bitte	VVFIN	bitten	_	O	O	
+6-3	mich	PRF	ich	_	O	O	
+6-4	der	ART	die	_	O	O	
+6-5	Frau	NN	Frau	_	O	O	
+6-6	Professorin	NN	Professorin	_	O	O	
+6-7	vielmals	ADV	vielmals	_	O	O	
+6-8	zu	PTKZU	zu	_	O	O	
+6-9	empfehlen	VVINF	empfehlen	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Mit herzlichen Grüßen Ihr ergebener W. Helbig
+7-1	Mit	APPR	mit	_	O	O	
+7-2	herzlichen	ADJA	herzlich	_	O	O	
+7-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+7-4	Ihr	PPOSAT	ihr	_	O	O	
+7-5	ergebener	ADJA	ergeben	_	O	O	
+7-6	W.	NE	W.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-7	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+

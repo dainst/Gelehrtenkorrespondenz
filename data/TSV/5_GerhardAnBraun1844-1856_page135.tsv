@@ -1,0 +1,260 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=145 Gerhard an Braun Berlin, 19. April 1845 3 Henzen für seinen Brief vorläufig besten Dank; hoffentlich sind Sie wieder gesundet.
+1-1	145	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	3	CARD	3	_	O	O	
+1-12	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-13	für	APPR	für	_	O	O	
+1-14	seinen	PPOSAT	sein	_	O	O	
+1-15	Brief	NN	Brief	_	O	O	
+1-16	vorläufig	ADJD	vorläufig	_	O	O	
+1-17	besten	ADJA	gut	_	O	O	
+1-18	Dank	NN	Dank	_	O	O	
+1-19	;	$.	;	_	O	O	
+1-20	hoffentlich	ADV	hoffentlich	_	O	O	
+1-21	sind	VAFIN	sein	_	O	O	
+1-22	Sie	PPER	Sie	_	O	O	
+1-23	wieder	ADV	wieder	_	O	O	
+1-24	gesundet	VVPP	gesunden	_	O	O	
+1-25	.	$.	.	_	O	O	
+
+#id=2
+#text=Uns geht es leidlich wohl, häufige Bangigkeit meiner Frau ausgenommen.
+2-1	Uns	PPER	wir	_	O	O	
+2-2	geht	VVFIN	gehen	_	O	O	
+2-3	es	PPER	es	_	O	O	
+2-4	leidlich	ADJD	leidlich	_	O	O	
+2-5	wohl	ADV	wohl	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	häufige	ADJA	häufig	_	O	O	
+2-8	Bangigkeit	NN	Bangigkeit	_	O	O	
+2-9	meiner	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-10	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-11	ausgenommen	VVPP	ausnehmen	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Von Dr. Biutti erwarten wir Antwort; wie aber wenn er Monate verlangt statt Wochen?
+3-1	Von	APPR	von	_	O	O	
+3-2	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	Biutti	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-4	erwarten	VVFIN	erwarten	_	O	O	
+3-5	wir	PPER	wir	_	O	O	
+3-6	Antwort	NN	Antwort	_	O	O	
+3-7	;	$.	;	_	O	O	
+3-8	wie	KOKOM	wie	_	O	O	
+3-9	aber	ADV	aber	_	O	O	
+3-10	wenn	KOUS	wenn	_	O	O	
+3-11	er	PPER	er	_	O	O	
+3-12	Monate	NN	Monat	_	O	O	
+3-13	verlangt	VVPP	verlangen	_	O	O	
+3-14	statt	APPR	statt	_	O	O	
+3-15	Wochen	NN	Woche	_	O	O	
+3-16	?	$.	?	_	O	O	
+
+#id=4
+#text=was dieses Jahr nicht gehen würde.
+4-1	was	PIAT	was	_	O	O	
+4-2	dieses	PDAT	dies	_	O	O	
+4-3	Jahr	NN	Jahr	_	O	O	
+4-4	nicht	PTKNEG	nicht	_	O	O	
+4-5	gehen	VVINF	gehen	_	O	O	
+4-6	würde	VAFIN	werden	_	O	O	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Alabasterbüste kostet 100 Scudi; wird sich wol gelegentlich hier anbringen lassen, wo sie ein gutes Museumstück ist.
+5-1	Die	ART	die	_	O	O	
+5-2	Alabasterbüste	NN	<unknown>	_	O	O	
+5-3	kostet	VVFIN	kosten	_	O	O	
+5-4	100	CARD	100	_	O	O	
+5-5	Scudi	NN	<unknown>	_	O	O	
+5-6	;	$.	;	_	O	O	
+5-7	wird	VAFIN	werden	_	O	O	
+5-8	sich	PRF	sich	_	O	O	
+5-9	wol	ADJD	<unknown>	_	O	O	
+5-10	gelegentlich	ADJD	gelegentlich	_	O	O	
+5-11	hier	ADV	hier	_	O	O	
+5-12	anbringen	VVINF	anbringen	_	O	O	
+5-13	lassen	VVINF	lassen	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	wo	PWAV	wo	_	O	O	
+5-16	sie	PPER	sie	_	O	O	
+5-17	ein	ART	eine	_	O	O	
+5-18	gutes	ADJA	gut	_	O	O	
+5-19	Museumstück	NN	<unknown>	_	O	O	
+5-20	ist	VAFIN	sein	_	O	O	
+5-21	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich denke man wird sie ohne Weiteres beipacken können, wenn ich das Geld auch erst später mir liquid mache.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	denke	VVFIN	denken	_	O	O	
+6-3	man	PIS	man	_	O	O	
+6-4	wird	VAFIN	werden	_	O	O	
+6-5	sie	PPER	sie	_	O	O	
+6-6	ohne	APPR	ohne	_	O	O	
+6-7	Weiteres	NN	Weiter	_	O	O	
+6-8	beipacken	VVINF	<unknown>	_	O	O	
+6-9	können	VMINF	können	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	wenn	KOUS	wenn	_	O	O	
+6-12	ich	PPER	ich	_	O	O	
+6-13	das	ART	die	_	O	O	
+6-14	Geld	NN	Geld	_	O	O	
+6-15	auch	ADV	auch	_	O	O	
+6-16	erst	ADV	erst	_	O	O	
+6-17	später	ADJD	spät	_	O	O	
+6-18	mir	PPER	ich	_	O	O	
+6-19	liquid	ADJD	liquid	_	O	O	
+6-20	mache	VVFIN	machen	_	O	O	
+6-21	.	$.	.	_	O	O	
+
+#id=7
+#text=Gibt es große Transporte, so könnten wol auch einige meiner Vasen mitgehn, nämlich in Löchern von Sculpturenkisten, ohne Vergrößerung des Volumens.
+7-1	Gibt	VVFIN	geben	_	O	O	
+7-2	es	PPER	es	_	O	O	
+7-3	große	ADJA	groß	_	O	O	
+7-4	Transporte	NN	Transport	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	so	ADV	so	_	O	O	
+7-7	könnten	VMFIN	können	_	O	O	
+7-8	wol	ADJD	<unknown>	_	O	O	
+7-9	auch	ADV	auch	_	O	O	
+7-10	einige	PIAT	einige	_	O	O	
+7-11	meiner	PPOSAT	mein	_	O	O	
+7-12	Vasen	NN	Vase	_	O	O	
+7-13	mitgehn	VVPP	<unknown>	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	nämlich	ADV	nämlich	_	O	O	
+7-16	in	APPR	in	_	O	O	
+7-17	Löchern	NN	Loch|Löchern	_	O	O	
+7-18	von	APPR	von	_	O	O	
+7-19	Sculpturenkisten	NN	<unknown>	_	O	O	
+7-20	,	$,	,	_	O	O	
+7-21	ohne	KOUI	ohne	_	O	O	
+7-22	Vergrößerung	NN	Vergrößerung	_	O	O	
+7-23	des	ART	die	_	O	O	
+7-24	Volumens	NN	Volumen	_	O	O	
+7-25	.	$.	.	_	O	O	
+
+#id=8
+#text=Ihre Stellung zu Lanci bezeichnen Sie wie auch ich sie ansehe; nur kann ich nichts dabei thun, sobald mir nicht Form und Inha~t gegeben wird meinerseits seinen Mißbräuchen mich entgegenzustellen.
+8-1	Ihre	PPOSAT	ihr	_	O	O	
+8-2	Stellung	NN	Stellung	_	O	O	
+8-3	zu	APPR	zu	_	O	O	
+8-4	Lanci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-5	bezeichnen	VVFIN	bezeichnen	_	O	O	
+8-6	Sie	PPER	Sie	_	O	O	
+8-7	wie	KOKOM	wie	_	O	O	
+8-8	auch	ADV	auch	_	O	O	
+8-9	ich	PPER	ich	_	O	O	
+8-10	sie	PPER	sie	_	O	O	
+8-11	ansehe	VVFIN	ansehen	_	O	O	
+8-12	;	$.	;	_	O	O	
+8-13	nur	ADV	nur	_	O	O	
+8-14	kann	VMFIN	können	_	O	O	
+8-15	ich	PPER	ich	_	O	O	
+8-16	nichts	PIS	nichts	_	O	O	
+8-17	dabei	PAV	dabei	_	O	O	
+8-18	thun	NN	<unknown>	_	O	O	
+8-19	,	$,	,	_	O	O	
+8-20	sobald	KOUS	sobald	_	O	O	
+8-21	mir	PPER	ich	_	O	O	
+8-22	nicht	PTKNEG	nicht	_	O	O	
+8-23	Form	NN	Form	_	O	O	
+8-24	und	KON	und	_	O	O	
+8-25	Inha~t	NN	<unknown>	_	O	O	
+8-26	gegeben	ADJD	gegeben	_	O	O	
+8-27	wird	VAFIN	werden	_	O	O	
+8-28	meinerseits	ADV	meinerseits	_	O	O	
+8-29	seinen	PPOSAT	sein	_	O	O	
+8-30	Mißbräuchen	NN	Missbrauch	_	O	O	
+8-31	mich	PPER	ich	_	O	O	
+8-32	entgegenzustellen	VVIZU	entgegenstellen	_	O	O	
+8-33	.	$.	.	_	O	O	
+
+#id=9
+#text=Über das Dr.'sche Daguerreotyp des Palimpsest wä- (\-L-<> re es doch gar merkwürdig Mehr zu wissen; was muß der ,---.--.
+9-1	Über	APPR	über	_	O	O	
+9-2	das	ART	die	_	O	O	
+9-3	Dr.'sche	NE	<unknown>	_	O	O	
+9-4	Daguerreotyp	NE	<unknown>	_	O	O	
+9-5	des	ART	die	_	O	O	
+9-6	Palimpsest	NN	<unknown>	_	O	O	
+9-7	wä-	TRUNC	<unknown>	_	O	O	
+9-8	(	$(	(	_	O	O	
+9-9	\-L-	NN	<unknown>	_	O	O	
+9-10	re	VVFIN	<unknown>	_	O	O	
+9-11	es	PPER	es	_	O	O	
+9-12	doch	ADV	doch	_	O	O	
+9-13	gar	ADV	gar	_	O	O	
+9-14	merkwürdig	ADJD	merkwürdig	_	O	O	
+9-15	Mehr	ADV	mehr	_	O	O	
+9-16	zu	PTKZU	zu	_	O	O	
+9-17	wissen	VVINF	wissen	_	O	O	
+9-18	;	$.	;	_	O	O	
+9-19	was	PWS	was	_	O	O	
+9-20	muß	VMFIN	müssen	_	O	O	
+9-21	der	ART	die	_	O	O	
+9-22	,---.	NN	<unknown>	_	O	O	
+9-23	--	$(	--	_	O	O	
+9-24	.	$.	.	_	O	O	
+
+#id=10
+#text=für Augen wiedergewonnen haben.
+10-1	für	APPR	für	_	O	O	
+10-2	Augen	NN	Auge	_	O	O	
+10-3	wiedergewonnen	VVPP	wiedergewinnen	_	O	O	
+10-4	haben	VAFIN	haben	_	O	O	
+10-5	.	$.	.	_	O	O	
+
+#id=11
+#text=Altro che pulci !
+11-1	Altro	NE	<unknown>	_	O	O	
+11-2	che	VVFIN	<unknown>	_	O	O	
+11-3	pulci	NE	<unknown>	_	O	O	
+11-4	!	$.	!	_	O	O	
+
+#id=12
+#text=Fü~ Tortolini wartet Jacobi auf Gelegenheit, nachdem ihm Cornelius abgeneigt war.
+12-1	Fü~	ADJA	<unknown>	_	O	O	
+12-2	Tortolini	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-3	wartet	VVFIN	warten	_	O	O	
+12-4	Jacobi	NE	Jacobi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-5	auf	APPR	auf	_	O	O	
+12-6	Gelegenheit	NN	Gelegenheit	_	O	O	
+12-7	,	$,	,	_	O	O	
+12-8	nachdem	KOUS	nachdem	_	O	O	
+12-9	ihm	PPER	er	_	O	O	
+12-10	Cornelius	NE	Cornelius	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-11	abgeneigt	VVPP	abneigen	_	O	O	
+12-12	war	VAFIN	sein	_	O	O	
+12-13	.	$.	.	_	O	O	
+
+#id=13
+#text=An Millingen habe ich nicht allzu spät geantwortet; Pusius sollte ihn besuchen.
+13-1	An	APPR	an	_	O	O	
+13-2	Millingen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-3	habe	VAFIN	haben	_	O	O	
+13-4	ich	PPER	ich	_	O	O	
+13-5	nicht	PTKNEG	nicht	_	O	O	
+13-6	allzu	PTKA	allzu	_	O	O	
+13-7	spät	ADJD	spät	_	O	O	
+13-8	geantwortet	VVPP	antworten	_	O	O	
+13-9	;	$.	;	_	O	O	
+13-10	Pusius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-11	sollte	VMFIN	sollen	_	O	O	
+13-12	ihn	PPER	er	_	O	O	
+13-13	besuchen	VVINF	besuchen	_	O	O	
+13-14	.	$.	.	_	O	O	
+

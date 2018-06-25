@@ -1,0 +1,231 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=426 Verehrter Freund Lepsius an Henzen Berlin, 23. Dezember 1873 g. 26/12 73 r.
+1-1	426	CARD	@card@	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	26/12	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	73	CARD	73	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=29/12 73 Berlin d. 23. Dez.
+2-1	29/12	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-2	73	CARD	73	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	d.	ART	d.	_	O	O	
+2-5	23	CARD	23	_	O	O	
+2-6	.	$.	.	_	O	O	
+2-7	Dez.	NN	Dez.	_	O	O	
+
+#id=3
+#text=1873 Von Helbig ist noch nichts eingegangen und der Siegelabdruck der in seinem Briefe lag, war so zerbrochen und fragmentirt, daß ich um einen zweiten in weniger spröden Siegellack bitten würde.
+3-1	1873	CARD	1873	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-2	Von	APPR	von	_	O	O	
+3-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-4	ist	VAFIN	sein	_	O	O	
+3-5	noch	ADV	noch	_	O	O	
+3-6	nichts	PIS	nichts	_	O	O	
+3-7	eingegangen	VVPP	eingehen	_	O	O	
+3-8	und	KON	und	_	O	O	
+3-9	der	ART	die	_	O	O	
+3-10	Siegelabdruck	NN	<unknown>	_	O	O	
+3-11	der	ART	die	_	O	O	
+3-12	in	APPR	in	_	O	O	
+3-13	seinem	PPOSAT	sein	_	O	O	
+3-14	Briefe	NN	Brief	_	O	O	
+3-15	lag	VVFIN	liegen	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	war	VAFIN	sein	_	O	O	
+3-18	so	ADV	so	_	O	O	
+3-19	zerbrochen	VVPP	zerbrechen	_	O	O	
+3-20	und	KON	und	_	O	O	
+3-21	fragmentirt	ADJD	<unknown>	_	O	O	
+3-22	,	$,	,	_	O	O	
+3-23	daß	KOUS	dass	_	O	O	
+3-24	ich	PPER	ich	_	O	O	
+3-25	um	APPR	um	_	O	O	
+3-26	einen	ART	eine	_	O	O	
+3-27	zweiten	ADJA	zweit	_	O	O	
+3-28	in	APPR	in	_	O	O	
+3-29	weniger	PIAT	wenige	_	O	O	
+3-30	spröden	ADJA	spröde	_	O	O	
+3-31	Siegellack	NN	Siegellack	_	O	O	
+3-32	bitten	VVINF	bitten	_	O	O	
+3-33	würde	VAFIN	werden	_	O	O	
+3-34	.	$.	.	_	O	O	
+
+#id=4
+#text=Soviel ich jetzt noch sehen kann ist er stark ägyptisirend, aber nichtin Ägypten gefertigt.
+4-1	Soviel	KOUS	soviel	_	O	O	
+4-2	ich	PPER	ich	_	O	O	
+4-3	jetzt	ADV	jetzt	_	O	O	
+4-4	noch	ADV	noch	_	O	O	
+4-5	sehen	VVINF	sehen	_	O	O	
+4-6	kann	VMFIN	können	_	O	O	
+4-7	ist	VAFIN	sein	_	O	O	
+4-8	er	PPER	er	_	O	O	
+4-9	stark	ADJD	stark	_	O	O	
+4-10	ägyptisirend	ADJD	<unknown>	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	aber	ADV	aber	_	O	O	
+4-13	nichtin	ADJA	<unknown>	_	O	O	
+4-14	Ägypten	NE	Ägypten	_	O	O	
+4-15	gefertigt	VVPP	fertigen	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Den Parthey'schen Katalog hatte Haupt lange bei sich; dann habe ich ihn längst durch Asher abholen lassen zur Beförderung nach Rom.
+5-1	Den	ART	die	_	O	O	
+5-2	Parthey'schen	ADJA	<unknown>	_	O	O	
+5-3	Katalog	NN	Katalog	_	O	O	
+5-4	hatte	VAFIN	haben	_	O	O	
+5-5	Haupt	NE	Haupt	_	O	O	
+5-6	lange	ADV	lange	_	O	O	
+5-7	bei	APPR	bei	_	O	O	
+5-8	sich	PRF	sich	_	O	O	
+5-9	;	$.	;	_	O	O	
+5-10	dann	ADV	dann	_	O	O	
+5-11	habe	VAFIN	haben	_	O	O	
+5-12	ich	PPER	ich	_	O	O	
+5-13	ihn	PPER	er	_	O	O	
+5-14	längst	ADV	längst	_	O	O	
+5-15	durch	APPR	durch	_	O	O	
+5-16	Asher	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-17	abholen	VVINF	abholen	_	O	O	
+5-18	lassen	VVFIN	lassen	_	O	O	
+5-19	zur	APPRART	zu	_	O	O	
+5-20	Beförderung	NN	Beförderung	_	O	O	
+5-21	nach	APPR	nach	_	O	O	
+5-22	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-23	.	$.	.	_	O	O	
+
+#id=6
+#text=Wenn er nun noch nicht abgegangen ist, will ich versuchen ihn durch das Auswärtige Amt zu senden, falls ein Kurier in Aussicht ist.
+6-1	Wenn	KOUS	wenn	_	O	O	
+6-2	er	PPER	er	_	O	O	
+6-3	nun	ADV	nun	_	O	O	
+6-4	noch	ADV	noch	_	O	O	
+6-5	nicht	PTKNEG	nicht	_	O	O	
+6-6	abgegangen	VVPP	abgehen	_	O	O	
+6-7	ist	VAFIN	sein	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	will	VMFIN	wollen	_	O	O	
+6-10	ich	PPER	ich	_	O	O	
+6-11	versuchen	VVFIN	versuchen	_	O	O	
+6-12	ihn	PPER	er	_	O	O	
+6-13	durch	APPR	durch	_	O	O	
+6-14	das	ART	die	_	O	O	
+6-15	Auswärtige	ADJA	auswärtig	_	O	O	
+6-16	Amt	NN	Amt	_	O	O	
+6-17	zu	PTKZU	zu	_	O	O	
+6-18	senden	VVINF	senden	_	O	O	
+6-19	,	$,	,	_	O	O	
+6-20	falls	KOUS	falls	_	O	O	
+6-21	ein	ART	eine	_	O	O	
+6-22	Kurier	NN	Kurier	_	O	O	
+6-23	in	APPR	in	_	O	O	
+6-24	Aussicht	NN	Aussicht	_	O	O	
+6-25	ist	VAFIN	sein	_	O	O	
+6-26	.	$.	.	_	O	O	
+
+#id=7
+#text=Die 40 Fr.
+7-1	Die	ART	die	_	O	O	
+7-2	40	CARD	40	_	O	O	
+7-3	Fr.	NN	Freitag	_	O	O	
+
+#id=8
+#text=für den Ungarelli habe ich an Asher zur Berechnung auszahlen lassen.
+8-1	für	APPR	für	_	O	O	
+8-2	den	ART	die	_	O	O	
+8-3	Ungarelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-4	habe	VAFIN	haben	_	O	O	
+8-5	ich	PPER	ich	_	O	O	
+8-6	an	APPR	an	_	O	O	
+8-7	Asher	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-8	zur	APPRART	zu	_	O	O	
+8-9	Berechnung	NN	Berechnung	_	O	O	
+8-10	auszahlen	VVINF	auszahlen	_	O	O	
+8-11	lassen	VVINF	lassen	_	O	O	
+8-12	.	$.	.	_	O	O	
+
+#id=9
+#text=Uber die Gehaltszahlung am 1. Januar habe ich an Geh.
+9-1	Uber	NN	<unknown>	_	O	O	
+9-2	die	ART	die	_	O	O	
+9-3	Gehaltszahlung	NN	Gehaltszahlung	_	O	O	
+9-4	am	APPRART	an	_	O	O	
+9-5	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-7	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-8	habe	VAFIN	haben	_	O	O	
+9-9	ich	PPER	ich	_	O	O	
+9-10	an	PTKVZ	an	_	O	O	
+9-11	Geh	VVIMP	gehen	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=L.
+10-1	L.	NE	L.	_	O	O	
+
+#id=11
+#text=R. Hepke der jetzt unser Institut zu besorgen hat, geschrieben, er möge, wenn nöthig die Sache hier anregen und die Zahlung anweisen lassen.
+11-1	R.	NE	R.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	Hepke	NE	Hepke	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-3	der	ART	die	_	O	O	
+11-4	jetzt	ADV	jetzt	_	O	O	
+11-5	unser	PPOSAT	unser	_	O	O	
+11-6	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+11-7	zu	PTKZU	zu	_	O	O	
+11-8	besorgen	VVINF	besorgen	_	O	O	
+11-9	hat	VAFIN	haben	_	O	O	
+11-10	,	$,	,	_	O	O	
+11-11	geschrieben	VVPP	schreiben	_	O	O	
+11-12	,	$,	,	_	O	O	
+11-13	er	PPER	er	_	O	O	
+11-14	möge	VMFIN	mögen	_	O	O	
+11-15	,	$,	,	_	O	O	
+11-16	wenn	KOUS	wenn	_	O	O	
+11-17	nöthig	ADJD	<unknown>	_	O	O	
+11-18	die	ART	die	_	O	O	
+11-19	Sache	NN	Sache	_	O	O	
+11-20	hier	ADV	hier	_	O	O	
+11-21	anregen	VVINF	anregen	_	O	O	
+11-22	und	KON	und	_	O	O	
+11-23	die	ART	die	_	O	O	
+11-24	Zahlung	NN	Zahlung	_	O	O	
+11-25	anweisen	VVINF	anweisen	_	O	O	
+11-26	lassen	VVFIN	lassen	_	O	O	
+11-27	.	$.	.	_	O	O	
+
+#id=12
+#text=Wäre es nicht möglich die oft besagte Schrift von Belli über die ägyptischen Steine in einer Römischen
+12-1	Wäre	VAFIN	sein	_	O	O	
+12-2	es	PPER	es	_	O	O	
+12-3	nicht	PTKNEG	nicht	_	O	O	
+12-4	möglich	ADJD	möglich	_	O	O	
+12-5	die	ART	die	_	O	O	
+12-6	oft	ADV	oft	_	O	O	
+12-7	besagte	ADJA	besagt	_	O	O	
+12-8	Schrift	NN	Schrift	_	O	O	
+12-9	von	APPR	von	_	O	O	
+12-10	Belli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-11	über	APPR	über	_	O	O	
+12-12	die	ART	die	_	O	O	
+12-13	ägyptischen	ADJA	ägyptisch	_	O	O	
+12-14	Steine	NN	Stein	_	O	O	
+12-15	in	APPR	in	_	O	O	
+12-16	einer	ART	eine	_	O	O	
+12-17	Römischen	NN	Römische	_	O	O	
+

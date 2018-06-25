@@ -1,0 +1,91 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=235 3/ V Ij'5 2 3 mit denen man umgehn könne.
+1-1	235	CARD	@card@	_	O	O	
+1-2	3/	CARD	@card@	_	O	O	
+1-3	V	NN	V	_	O	O	
+1-4	Ij'5	CARD	<unknown>	_	O	O	
+1-5	2	CARD	2	_	O	O	
+1-6	3	CARD	3	_	O	O	
+1-7	mit	APPR	mit	_	O	O	
+1-8	denen	PDS	die	_	O	O	
+1-9	man	PIS	man	_	O	O	
+1-10	umgehn	VVINF	<unknown>	_	O	O	
+1-11	könne	VMFIN	können	_	O	O	
+1-12	.	$.	.	_	O	O	
+
+#id=2
+#text=Henzen an Gerhard Bileno's noch hier u. nichts Bestimmtes verlautend, obwohl die zuletzt doch reisen werden.
+2-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	an	APPR	an	_	O	O	
+2-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Bileno's	VVFIN	<unknown>	_	O	O	
+2-5	noch	ADV	noch	_	O	O	
+2-6	hier	ADV	hier	_	O	O	
+2-7	u.	APPR	um	_	O	O	
+2-8	nichts	PIAT	nichts	_	O	O	
+2-9	Bestimmtes	NN	Bestimmte	_	O	O	
+2-10	verlautend	ADJD	<unknown>	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	obwohl	KOUS	obwohl	_	O	O	
+2-13	die	ART	die	_	O	O	
+2-14	zuletzt	ADV	zuletzt	_	O	O	
+2-15	doch	ADV	doch	_	O	O	
+2-16	reisen	VVINF	reisen	_	O	O	
+2-17	werden	VAFIN	werden	_	O	O	
+2-18	.	$.	.	_	O	O	
+
+#id=3
+#text=Annalendruck dh.
+3-1	Annalendruck	NE	<unknown>	_	O	O	
+3-2	dh.	NE	<unknown>	_	O	O	
+
+#id=4
+#text=Papiermangel u. neuen Drucker sehr langsam.
+4-1	Papiermangel	NN	Papiermangel	_	O	O	
+4-2	u.	APPR	um	_	O	O	
+4-3	neuen	ADJA	neu	_	O	O	
+4-4	Drucker	NN	Drucker	_	O	O	
+4-5	sehr	ADV	sehr	_	O	O	
+4-6	langsam	ADJD	langsam	_	O	O	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=lIeben Sie wohl u. empfehlen micht Ihrer Frau bestens.
+5-1	lIeben	VVFIN	lieben	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	wohl	ADV	wohl	_	O	O	
+5-4	u.	KON	und	_	O	O	
+5-5	empfehlen	VVFIN	empfehlen	_	O	O	
+5-6	micht	ADJD	<unknown>	_	O	O	
+5-7	Ihrer	PPOSAT	ihr	_	O	O	
+5-8	Frau	NN	Frau	_	O	O	
+5-9	bestens	ADV	bestens	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Morgen ist's ein Jahr, dß.
+6-1	Morgen	ADV	morgen	_	O	O	
+6-2	ist's	VAFIN	sein	_	O	O	
+6-3	ein	ART	eine	_	O	O	
+6-4	Jahr	NN	Jahr	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	dß	VVFIN	<unknown>	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=wir bei Ihnen eintrafen !
+7-1	wir	PPER	wir	_	O	O	
+7-2	bei	APPR	bei	_	O	O	
+7-3	Ihnen	PPER	Sie	_	O	O	
+7-4	eintrafen	VVFIN	eintreffen	_	O	O	
+7-5	!	$.	!	_	O	O	
+
+#id=8
+#text=Ihre WHenzen Rom 3/VI/52.
+8-1	Ihre	PPOSAT	ihr	_	O	O	
+8-2	WHenzen	NN	<unknown>	_	O	O	
+8-3	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-4	3/VI/52	VVFIN	<unknown>	_	O	O	
+8-5	.	$.	.	_	O	O	
+

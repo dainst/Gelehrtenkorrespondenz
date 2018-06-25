@@ -1,0 +1,247 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=( 49 L Verehrter Freund Lepsius an U~'U<.< Berlin, 30. Januar 1872 g. 4/2 72 r.
+1-1	(	$(	(	_	O	O	
+1-2	49	CARD	@card@	_	O	O	
+1-3	L	NN	L	_	O	O	
+1-4	Verehrter	ADJA	verehrt	_	O	O	
+1-5	Freund	NE	Freund	_	O	O	
+1-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	an	APPR	an	_	O	O	
+1-8	U~'U<.<	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	4/2	CARD	4/2	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=5/2 72 Berlin d. 30. Jan.
+2-1	5/2	CARD	5/2	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-2	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	d.	ART	d.	_	O	O	
+2-5	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=3
+#text=72.
+3-1	72	CARD	72	_	O	O	
+3-2	.	$.	.	_	O	O	
+
+#id=4
+#text=Vorgestern haben wir Trendelenburg begraben, dessen schneller von ihm in letzter Zeit klar vorausgesehener Tod uns Alle tief bewegt hat.
+4-1	Vorgestern	ADV	vorgestern	_	O	O	
+4-2	haben	VAFIN	haben	_	O	O	
+4-3	wir	PPER	wir	_	O	O	
+4-4	Trendelenburg	NN	Trendelenburg	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	begraben	VVPP	begraben	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	dessen	PDS	die	_	O	O	
+4-8	schneller	ADJD	schnell	_	O	O	
+4-9	von	APPR	von	_	O	O	
+4-10	ihm	PPER	er	_	O	O	
+4-11	in	APPR	in	_	O	O	
+4-12	letzter	ADJA	letzt	_	O	O	
+4-13	Zeit	NN	Zeit	_	O	O	
+4-14	klar	ADJD	klar	_	O	O	
+4-15	vorausgesehener	ADJA	<unknown>	_	O	O	
+4-16	Tod	NN	Tod	_	O	O	
+4-17	uns	PRF	wir	_	O	O	
+4-18	Alle	PIAT	alle	_	O	O	
+4-19	tief	ADJD	tief	_	O	O	
+4-20	bewegt	VVPP	bewegen	_	O	O	
+4-21	hat	VAFIN	haben	_	O	O	
+4-22	.	$.	.	_	O	O	
+
+#id=5
+#text=Geistes- und GemüthsAufregung der er nicht mehr mächtig werden konnte bei seinem schon gebrochenen körperlichen Zustande hat die Katastrophe so unerwartet beschleunigt.
+5-1	Geistes-	TRUNC	Geistes-	_	O	O	
+5-2	und	KON	und	_	O	O	
+5-3	GemüthsAufregung	NN	<unknown>	_	O	O	
+5-4	der	ART	die	_	O	O	
+5-5	er	PPER	er	_	O	O	
+5-6	nicht	PTKNEG	nicht	_	O	O	
+5-7	mehr	ADV	mehr	_	O	O	
+5-8	mächtig	ADJD	mächtig	_	O	O	
+5-9	werden	VAINF	werden	_	O	O	
+5-10	konnte	VMFIN	können	_	O	O	
+5-11	bei	APPR	bei	_	O	O	
+5-12	seinem	PPOSAT	sein	_	O	O	
+5-13	schon	ADV	schon	_	O	O	
+5-14	gebrochenen	ADJA	gebrochen	_	O	O	
+5-15	körperlichen	ADJA	körperlich	_	O	O	
+5-16	Zustande	NN	Zustand	_	O	O	
+5-17	hat	VAFIN	haben	_	O	O	
+5-18	die	ART	die	_	O	O	
+5-19	Katastrophe	NN	Katastrophe	_	O	O	
+5-20	so	ADV	so	_	O	O	
+5-21	unerwartet	ADJD	unerwartet	_	O	O	
+5-22	beschleunigt	VVPP	beschleunigen	_	O	O	
+5-23	.	$.	.	_	O	O	
+
+#id=6
+#text=Adler hatte vor kurzem seinen ersten Schwiegervater, nun seinen zweiten verloren.
+6-1	Adler	NE	Adler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	hatte	VAFIN	haben	_	O	O	
+6-3	vor	APPR	vor	_	O	O	
+6-4	kurzem	ADJA	kurz	_	O	O	
+6-5	seinen	PPOSAT	sein	_	O	O	
+6-6	ersten	ADJA	erst	_	O	O	
+6-7	Schwiegervater	NN	Schwiegervater	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	nun	ADV	nun	_	O	O	
+6-10	seinen	PPOSAT	sein	_	O	O	
+6-11	zweiten	ADJA	zweit	_	O	O	
+6-12	verloren	VVPP	verlieren	_	O	O	
+6-13	.	$.	.	_	O	O	
+
+#id=7
+#text=Nun wird er aber in den nächsten Tagen seinen Römischen Bericht nebst den Plänen bei dem neuen Minister einreichen.
+7-1	Nun	ADV	nun	_	O	O	
+7-2	wird	VAFIN	werden	_	O	O	
+7-3	er	PPER	er	_	O	O	
+7-4	aber	ADV	aber	_	O	O	
+7-5	in	APPR	in	_	O	O	
+7-6	den	ART	die	_	O	O	
+7-7	nächsten	ADJA	nah	_	O	O	
+7-8	Tagen	NN	Tag	_	O	O	
+7-9	seinen	PPOSAT	sein	_	O	O	
+7-10	Römischen	ADJA	römisch	_	O	O	
+7-11	Bericht	NN	Bericht	_	O	O	
+7-12	nebst	APPR	nebst	_	O	O	
+7-13	den	ART	die	_	O	O	
+7-14	Plänen	NN	Plan	_	O	O	
+7-15	bei	APPR	bei	_	O	O	
+7-16	dem	ART	die	_	O	O	
+7-17	neuen	ADJA	neu	_	O	O	
+7-18	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-19	einreichen	VVINF	einreichen	_	O	O	
+7-20	.	$.	.	_	O	O	
+
+#id=8
+#text=Dessen Wirkung, in Verbindung mit unserm früheren Berichte müssen wir abwarten, bevor der definitive Auftrag erfolgen kann.
+8-1	Dessen	PDAT	die	_	O	O	
+8-2	Wirkung	NN	Wirkung	_	O	O	
+8-3	,	$,	,	_	O	O	
+8-4	in	APPR	in	_	O	O	
+8-5	Verbindung	NN	Verbindung	_	O	O	
+8-6	mit	APPR	mit	_	O	O	
+8-7	unserm	PPOSAT	unser	_	O	O	
+8-8	früheren	ADJA	früh	_	O	O	
+8-9	Berichte	NN	Bericht	_	O	O	
+8-10	müssen	VMFIN	müssen	_	O	O	
+8-11	wir	PPER	wir	_	O	O	
+8-12	abwarten	VVINF	abwarten	_	O	O	
+8-13	,	$,	,	_	O	O	
+8-14	bevor	KOUS	bevor	_	O	O	
+8-15	der	ART	die	_	O	O	
+8-16	definitive	ADJA	definitiv	_	O	O	
+8-17	Auftrag	NN	Auftrag	_	O	O	
+8-18	erfolgen	VVINF	erfolgen	_	O	O	
+8-19	kann	VMFIN	können	_	O	O	
+8-20	.	$.	.	_	O	O	
+
+#id=9
+#text=Das liegt im nothwendigen Verlauf der Sache und weder ich noch Mommsen oder überhaupt die Central Direktion kann daran etwas ändern.
+9-1	Das	PDS	die	_	O	O	
+9-2	liegt	VVFIN	liegen	_	O	O	
+9-3	im	APPRART	in	_	O	O	
+9-4	nothwendigen	ADJA	<unknown>	_	O	O	
+9-5	Verlauf	NN	Verlauf	_	O	O	
+9-6	der	ART	die	_	O	O	
+9-7	Sache	NN	Sache	_	O	O	
+9-8	und	KON	und	_	O	O	
+9-9	weder	KON	weder	_	O	O	
+9-10	ich	PPER	ich	_	O	O	
+9-11	noch	ADV	noch	_	O	O	
+9-12	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-13	oder	KON	oder	_	O	O	
+9-14	überhaupt	ADV	überhaupt	_	O	O	
+9-15	die	ART	die	_	O	O	
+9-16	Central	NN	<unknown>	_	O	O	
+9-17	Direktion	NN	Direktion	_	O	O	
+9-18	kann	VMFIN	können	_	O	O	
+9-19	daran	PAV	daran	_	O	O	
+9-20	etwas	ADV	etwas	_	O	O	
+9-21	ändern	VVINF	ändern	_	O	O	
+9-22	.	$.	.	_	O	O	
+
+#id=10
+#text=Namentlich bitte ich zu glauben, d&ß mir die Beschleunigung so viel sie möglich ist nicht weniger am Herzen liegt als Ihnen.
+10-1	Namentlich	ADJD	namentlich	_	O	O	
+10-2	bitte	ADV	bitte	_	O	O	
+10-3	ich	PPER	ich	_	O	O	
+10-4	zu	PTKZU	zu	_	O	O	
+10-5	glauben	VVINF	glauben	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	d&ß	VVFIN	<unknown>	_	O	O	
+10-8	mir	PPER	ich	_	O	O	
+10-9	die	ART	die	_	O	O	
+10-10	Beschleunigung	NN	Beschleunigung	_	O	O	
+10-11	so	ADV	so	_	O	O	
+10-12	viel	ADV	viel	_	O	O	
+10-13	sie	PPER	sie	_	O	O	
+10-14	möglich	ADJD	möglich	_	O	O	
+10-15	ist	VAFIN	sein	_	O	O	
+10-16	nicht	PTKNEG	nicht	_	O	O	
+10-17	weniger	ADV	weniger	_	O	O	
+10-18	am	APPRART	an	_	O	O	
+10-19	Herzen	NN	Herz	_	O	O	
+10-20	liegt	VVFIN	liegen	_	O	O	
+10-21	als	KOKOM	als	_	O	O	
+10-22	Ihnen	PPER	Sie	_	O	O	
+10-23	.	$.	.	_	O	O	
+
+#id=11
+#text=Ja ich bin hier eigentlich der einzige der die Sache hier ernstlich betreibt, bisher meist durch Abeken, jetzt auch durch Adler.
+11-1	Ja	PTKANT	ja	_	O	O	
+11-2	ich	PPER	ich	_	O	O	
+11-3	bin	VAFIN	sein	_	O	O	
+11-4	hier	ADV	hier	_	O	O	
+11-5	eigentlich	ADV	eigentlich	_	O	O	
+11-6	der	ART	die	_	O	O	
+11-7	einzige	ADJA	einzig	_	O	O	
+11-8	der	PRELS	die	_	O	O	
+11-9	die	ART	die	_	O	O	
+11-10	Sache	NN	Sache	_	O	O	
+11-11	hier	ADV	hier	_	O	O	
+11-12	ernstlich	ADJD	ernstlich	_	O	O	
+11-13	betreibt	VVFIN	betreiben	_	O	O	
+11-14	,	$,	,	_	O	O	
+11-15	bisher	ADV	bisher	_	O	O	
+11-16	meist	ADV	meist	_	O	O	
+11-17	durch	APPR	durch	_	O	O	
+11-18	Abeken	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-19	,	$,	,	_	O	O	
+11-20	jetzt	ADV	jetzt	_	O	O	
+11-21	auch	ADV	auch	_	O	O	
+11-22	durch	APPR	durch	_	O	O	
+11-23	Adler	NE	Adler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-24	.	$.	.	_	O	O	
+
+#id=12
+#text=Daß es nicht möglich gewesen ist, den Ankauf Montanari rund und schnell zu gutem Ende
+12-1	Daß	KOUS	dass	_	O	O	
+12-2	es	PPER	es	_	O	O	
+12-3	nicht	PTKNEG	nicht	_	O	O	
+12-4	möglich	ADJD	möglich	_	O	O	
+12-5	gewesen	VAPP	sein	_	O	O	
+12-6	ist	VAFIN	sein	_	O	O	
+12-7	,	$,	,	_	O	O	
+12-8	den	ART	die	_	O	O	
+12-9	Ankauf	NN	Ankauf	_	O	O	
+12-10	Montanari	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-11	rund	ADV	rund	_	O	O	
+12-12	und	KON	und	_	O	O	
+12-13	schnell	ADJD	schnell	_	O	O	
+12-14	zu	PTKZU	zu	_	O	O	
+12-15	gutem	ADJA	gut	_	O	O	
+12-16	Ende	NN	Ende	_	O	O	
+

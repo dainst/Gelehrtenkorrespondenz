@@ -1,0 +1,270 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=191 Gerhard an Braun Berlin, 22. April 1844 2 Subscription für Exemplare.
+1-1	191	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	Subscription	NN	<unknown>	_	O	O	
+1-13	für	APPR	für	_	O	O	
+1-14	Exemplare	NN	Exemplar	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=Was ist das für ein neues "Grabmal des Porsenna" bei Cetona, welches auf Sozzi's und eines Hamiltons Autorität im Kunstblatt NO 21 beschrieben ist.
+2-1	Was	PWS	was	_	O	O	
+2-2	ist	VAFIN	sein	_	O	O	
+2-3	das	PDS	die	_	O	O	
+2-4	für	APPR	für	_	O	O	
+2-5	ein	ART	eine	_	O	O	
+2-6	neues	ADJA	neu	_	O	O	
+2-7	"	$(	"	_	O	O	
+2-8	Grabmal	NN	Grabmal	_	O	O	
+2-9	des	ART	die	_	O	O	
+2-10	Porsenna	NN	<unknown>	_	O	O	
+2-11	"	$(	"	_	O	O	
+2-12	bei	APPR	bei	_	O	O	
+2-13	Cetona	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-14	,	$,	,	_	O	O	
+2-15	welches	PRELS	welche	_	O	O	
+2-16	auf	APPR	auf	_	O	O	
+2-17	Sozzi's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-18	und	KON	und	_	O	O	
+2-19	eines	ART	eine	_	O	O	
+2-20	Hamiltons	NE	<unknown>	_	O	O	
+2-21	Autorität	NN	Autorität	_	O	O	
+2-22	im	APPRART	in	_	O	O	
+2-23	Kunstblatt	NN	Kunstblatt	_	O	O	
+2-24	NO	NE	NO	_	O	O	
+2-25	21	CARD	21	_	O	O	
+2-26	beschrieben	VVPP	beschreiben	_	O	O	
+2-27	ist	VAFIN	sein	_	O	O	
+2-28	.	$.	.	_	O	O	
+
+#id=3
+#text=Römische Bäder ?
+3-1	Römische	ADJA	römisch	_	O	O	
+3-2	Bäder	NN	Bad	_	O	O	
+3-3	?	$.	?	_	O	O	
+
+#id=4
+#text=Die Halbirung der Annalen ist gewiß übel; deshalb aber würde ich das bisherige Verhältnis von Annali und Bullettino noch nicht zerreißen.
+4-1	Die	ART	die	_	O	O	
+4-2	Halbirung	NN	<unknown>	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	Annalen	NN	Annalen	_	O	O	
+4-5	ist	VAFIN	sein	_	O	O	
+4-6	gewiß	ADJD	gewiss	_	O	O	
+4-7	übel	ADJD	übel	_	O	O	
+4-8	;	$.	;	_	O	O	
+4-9	deshalb	PAV	deshalb	_	O	O	
+4-10	aber	ADV	aber	_	O	O	
+4-11	würde	VAFIN	werden	_	O	O	
+4-12	ich	PPER	ich	_	O	O	
+4-13	das	ART	die	_	O	O	
+4-14	bisherige	ADJA	bisherig	_	O	O	
+4-15	Verhältnis	NN	Verhältnis	_	O	O	
+4-16	von	APPR	von	_	O	O	
+4-17	Annali	NE	<unknown>	_	O	O	
+4-18	und	KON	und	_	O	O	
+4-19	Bullettino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-20	noch	ADV	noch	_	O	O	
+4-21	nicht	PTKNEG	nicht	_	O	O	
+4-22	zerreißen	VVINF	zerreißen	_	O	O	
+4-23	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Franzosen können ja lieber einen ganzen Jahrgang übernehmen.
+5-1	Die	ART	die	_	O	O	
+5-2	Franzosen	NN	Franzose	_	O	O	
+5-3	können	VMFIN	können	_	O	O	
+5-4	ja	ADV	ja	_	O	O	
+5-5	lieber	ADJD	lieb	_	O	O	
+5-6	einen	ART	eine	_	O	O	
+5-7	ganzen	ADJA	ganz	_	O	O	
+5-8	Jahrgang	NN	Jahrgang	_	O	O	
+5-9	übernehmen	VVINF	übernehmen	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Lotzbecksche Zueignung scheint mir gut; ich werde sie an Bunsen Ihrem Wunsch gemäß zeigen, sie wird ihm ebenso recht sein.
+6-1	Die	ART	die	_	O	O	
+6-2	Lotzbecksche	ADJA	<unknown>	_	O	O	
+6-3	Zueignung	NN	Zueignung	_	O	O	
+6-4	scheint	VVFIN	scheinen	_	O	O	
+6-5	mir	PPER	ich	_	O	O	
+6-6	gut	ADJD	gut	_	O	O	
+6-7	;	$.	;	_	O	O	
+6-8	ich	PPER	ich	_	O	O	
+6-9	werde	VAFIN	werden	_	O	O	
+6-10	sie	PPER	sie	_	O	O	
+6-11	an	APPR	an	_	O	O	
+6-12	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-13	Ihrem	PPOSAT	ihr	_	O	O	
+6-14	Wunsch	NN	Wunsch	_	O	O	
+6-15	gemäß	APPO	gemäß	_	O	O	
+6-16	zeigen	VVINF	zeigen	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	sie	PPER	sie	_	O	O	
+6-19	wird	VAFIN	werden	_	O	O	
+6-20	ihm	PPER	er	_	O	O	
+6-21	ebenso	ADV	ebenso	_	O	O	
+6-22	recht	ADJD	recht	_	O	O	
+6-23	sein	VAINF	sein	_	O	O	
+6-24	.	$.	.	_	O	O	
+
+#id=7
+#text=Der König bekommt allerhöchstdero nach dem Curialstyl "allerhöchstdieselben brachten dem Höchsten ihre Andacht dar."
+7-1	Der	ART	die	_	O	O	
+7-2	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-3	bekommt	VVFIN	bekommen	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-4	allerhöchstdero	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-5	nach	APPR	nach	_	O	O	
+7-6	dem	ART	die	_	O	O	
+7-7	Curialstyl	ADJA	<unknown>	_	O	O	
+7-8	"	$(	"	_	O	O	
+7-9	allerhöchstdieselben	ADJA	<unknown>	_	O	O	
+7-10	brachten	VVFIN	bringen	_	O	O	
+7-11	dem	ART	die	_	O	O	
+7-12	Höchsten	NN	Höchste	_	O	O	
+7-13	ihre	PPOSAT	ihr	_	O	O	
+7-14	Andacht	NN	Andacht	_	O	O	
+7-15	dar	PTKVZ	dar	_	O	O	
+7-16	.	$.	.	_	O	O	
+7-17	"	$(	"	_	O	O	
+
+#id=8
+#text=Unsre gestrige Paliliengesellschaft von Bunsen geladen - 13 Personen, absit omen !
+8-1	Unsre	PPOSAT	unsre	_	O	O	
+8-2	gestrige	ADJA	gestrig	_	O	O	
+8-3	Paliliengesellschaft	NN	<unknown>	_	O	O	
+8-4	von	APPR	von	_	O	O	
+8-5	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	geladen	VVPP	laden	_	O	O	
+8-7	-	$(	-	_	O	O	
+8-8	13	CARD	13	_	O	O	
+8-9	Personen	NN	Person	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	absit	NN	<unknown>	_	O	O	
+8-12	omen	ADJD	<unknown>	_	O	O	
+8-13	!	$.	!	_	O	O	
+
+#id=9
+#text=- bestand außer Bunsen und Söhne, Panofka und mir, nur Usedom, Liphart (der aber wieder an den Rhein geht) , Franz, Kramer, Röstell, Reumont, des rühmlichen Namens wegen auch M. Niebuhr.
+9-1	-	$(	-	_	O	O	
+9-2	bestand	VVFIN	bestehen	_	O	O	
+9-3	außer	APPR	außer	_	O	O	
+9-4	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	und	KON	und	_	O	O	
+9-6	Söhne	NN	Sohn	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	Panofka	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-9	und	KON	und	_	O	O	
+9-10	mir	PPER	ich	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	nur	ADV	nur	_	O	O	
+9-13	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-14	,	$,	,	_	O	O	
+9-15	Liphart	NN	<unknown>	_	O	O	
+9-16	(	$(	(	_	O	O	
+9-17	der	ART	die	_	O	O	
+9-18	aber	ADV	aber	_	O	O	
+9-19	wieder	ADV	wieder	_	O	O	
+9-20	an	APPR	an	_	O	O	
+9-21	den	ART	die	_	O	O	
+9-22	Rhein	NE	Rhein	_	O	O	
+9-23	geht	VVFIN	gehen	_	O	O	
+9-24	)	$(	)	_	O	O	
+9-25	,	$,	,	_	O	O	
+9-26	Franz	NE	Franz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-27	,	$,	,	_	O	O	
+9-28	Kramer	NE	Kramer	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-29	,	$,	,	_	O	O	
+9-30	Röstell	NN	<unknown>	_	O	O	
+9-31	,	$,	,	_	O	O	
+9-32	Reumont	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-33	,	$,	,	_	O	O	
+9-34	des	ART	die	_	O	O	
+9-35	rühmlichen	ADJA	rühmlich	_	O	O	
+9-36	Namens	NN	Name	_	O	O	
+9-37	wegen	APPR	wegen	_	O	O	
+9-38	auch	ADV	auch	_	O	O	
+9-39	M.	APPR	m.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-40	Niebuhr	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-41	.	$.	.	_	O	O	
+
+#id=10
+#text=-._~-,--_._ .. --.
+10-1	-._~-,--_._	ADJD	<unknown>	_	O	O	
+10-2	.	$.	.	_	O	O	
+10-3	.	$.	.	_	O	O	
+10-4	--	$(	--	_	O	O	
+10-5	.	$.	.	_	O	O	
+
+#id=11
+#text=Ihre Decaden haben guten Succeß; Schwark in der Hallischen Litteratur Zeitung und Hermann in dem Göttinger G 1.
+11-1	Ihre	PPOSAT	ihr	_	O	O	
+11-2	Decaden	NN	<unknown>	_	O	O	
+11-3	haben	VAFIN	haben	_	O	O	
+11-4	guten	ADJA	gut	_	O	O	
+11-5	Succeß	NN	<unknown>	_	O	O	
+11-6	;	$.	;	_	O	O	
+11-7	Schwark	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-8	in	APPR	in	_	O	O	
+11-9	der	ART	die	_	O	O	
+11-10	Hallischen	NN	<unknown>	_	O	O	
+11-11	Litteratur	NN	<unknown>	_	O	O	
+11-12	Zeitung	NN	Zeitung	_	O	O	
+11-13	und	KON	und	_	O	O	
+11-14	Hermann	NE	Hermann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-15	in	APPR	in	_	O	O	
+11-16	dem	ART	die	_	O	O	
+11-17	Göttinger	NN	Göttinger	_	O	O	
+11-18	G	NN	G	_	O	O	
+11-19	1	CARD	1	_	O	O	
+11-20	.	$.	.	_	O	O	
+
+#id=12
+#text=Anzeiger haben viel daran gelobt und gezupft.
+12-1	Anzeiger	NN	Anzeiger	_	O	O	
+12-2	haben	VAFIN	haben	_	O	O	
+12-3	viel	ADV	viel	_	O	O	
+12-4	daran	PAV	daran	_	O	O	
+12-5	gelobt	VVPP	geloben|loben	_	O	O	
+12-6	und	KON	und	_	O	O	
+12-7	gezupft	VVPP	zupfen	_	O	O	
+12-8	.	$.	.	_	O	O	
+
+#id=13
+#text=Letzteres lege ich der Sendung archäologische Zeitung bei, die ich Ihnen am Ende doch unter Band schicken muß - gleich heute.
+13-1	Letzteres	NN	Letztere	_	O	O	
+13-2	lege	VVFIN	legen	_	O	O	
+13-3	ich	PPER	ich	_	O	O	
+13-4	der	ART	die	_	O	O	
+13-5	Sendung	NN	Sendung	_	O	O	
+13-6	archäologische	ADJA	archäologisch	_	O	O	
+13-7	Zeitung	NN	Zeitung	_	O	O	
+13-8	bei	PTKVZ	bei	_	O	O	
+13-9	,	$,	,	_	O	O	
+13-10	die	PRELS	die	_	O	O	
+13-11	ich	PPER	ich	_	O	O	
+13-12	Ihnen	PPER	Sie	_	O	O	
+13-13	am	APPRART	an	_	O	O	
+13-14	Ende	NN	Ende	_	O	O	
+13-15	doch	ADV	doch	_	O	O	
+13-16	unter	APPR	unter	_	O	O	
+13-17	Band	NN	Band	_	O	O	
+13-18	schicken	VVINF	schicken	_	O	O	
+13-19	muß	VMFIN	müssen	_	O	O	
+13-20	-	$(	-	_	O	O	
+13-21	gleich	ADJD	gleich	_	O	O	
+13-22	heute	ADV	heute	_	O	O	
+13-23	.	$.	.	_	O	O	
+

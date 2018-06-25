@@ -1,0 +1,234 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=/ .
+1-1	/	$(	/	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=\n t ' .... 2 L Verehrter Freund Lepsius an inc. Berlin, 7. Januar 1872 g. 12/1 72 r.
+2-1	\n	NE	<unknown>	_	O	O	
+2-2	t	NN	t	_	O	O	
+2-3	'	$(	'	_	O	O	
+2-4	...	$.	...	_	O	O	
+2-5	.	$.	.	_	O	O	
+2-6	2	CARD	2	_	O	O	
+2-7	L	NN	L	_	O	O	
+2-8	Verehrter	ADJA	verehrt	_	O	O	
+2-9	Freund	NE	Freund	_	O	O	
+2-10	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-11	an	APPR	an	_	O	O	
+2-12	inc.	APPR	inc.	_	O	O	
+2-13	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-14	,	$,	,	_	O	O	
+2-15	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-16	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-17	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-18	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-19	g.	VVFIN	<unknown>	_	O	O	
+2-20	12/1	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-21	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-22	r.	ADJA	<unknown>	_	O	O	
+
+#id=3
+#text=13/2 72 Berlin den 7. Jan.
+3-1	13/2	CARD	13/2	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-2	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-4	den	ART	die	_	O	O	
+3-5	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-7	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=4
+#text=1872 Die Beilage wird Ihnen sagen, daß plötzlich große Bewegung in unser Haus gezogen ist.
+4-1	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-2	Die	ART	die	_	O	O	
+4-3	Beilage	NN	Beilage	_	O	O	
+4-4	wird	VAFIN	werden	_	O	O	
+4-5	Ihnen	PPER	Sie	_	O	O	
+4-6	sagen	VVINF	sagen	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	daß	KOUS	dass	_	O	O	
+4-9	plötzlich	ADJD	plötzlich	_	O	O	
+4-10	große	ADJA	groß	_	O	O	
+4-11	Bewegung	NN	Bewegung	_	O	O	
+4-12	in	APPR	in	_	O	O	
+4-13	unser	PPOSAT	unser	_	O	O	
+4-14	Haus	NN	Haus	_	O	O	
+4-15	gezogen	VVPP	ziehen	_	O	O	
+4-16	ist	VAFIN	sein	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=Leider muß ich mich äußerlich ganz davon zurückhalten, da mich ein ganz ungewöhnlich starker Katarrh seit einigen Tagen heimsucht, und mir die Stimme fast ganz genommen hat.
+5-1	Leider	ADV	leider	_	O	O	
+5-2	muß	VMFIN	müssen	_	O	O	
+5-3	ich	PPER	ich	_	O	O	
+5-4	mich	PRF	ich	_	O	O	
+5-5	äußerlich	ADJD	äußerlich	_	O	O	
+5-6	ganz	ADV	ganz	_	O	O	
+5-7	davon	PAV	davon	_	O	O	
+5-8	zurückhalten	VVINF	zurückhalten	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	da	KOUS	da	_	O	O	
+5-11	mich	PRF	ich	_	O	O	
+5-12	ein	ART	eine	_	O	O	
+5-13	ganz	ADV	ganz	_	O	O	
+5-14	ungewöhnlich	ADJD	ungewöhnlich	_	O	O	
+5-15	starker	ADJA	stark	_	O	O	
+5-16	Katarrh	NN	Katarrh	_	O	O	
+5-17	seit	APPR	seit	_	O	O	
+5-18	einigen	PIAT	einige	_	O	O	
+5-19	Tagen	NN	Tag	_	O	O	
+5-20	heimsucht	VVFIN	heimsuchen	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	und	KON	und	_	O	O	
+5-23	mir	PRF	ich	_	O	O	
+5-24	die	ART	die	_	O	O	
+5-25	Stimme	NN	Stimme	_	O	O	
+5-26	fast	ADV	fast	_	O	O	
+5-27	ganz	ADV	ganz	_	O	O	
+5-28	genommen	VVPP	nehmen	_	O	O	
+5-29	hat	VAFIN	haben	_	O	O	
+5-30	.	$.	.	_	O	O	
+
+#id=6
+#text=Nach vier Jahren gegenseitiger Anziehung ist gestern mit einemmale Alles in Sturm genommen zu unsrer Aller Freude.
+6-1	Nach	APPR	nach	_	O	O	
+6-2	vier	CARD	vier	_	O	O	
+6-3	Jahren	NN	Jahr	_	O	O	
+6-4	gegenseitiger	ADJA	gegenseitig	_	O	O	
+6-5	Anziehung	NN	Anziehung	_	O	O	
+6-6	ist	VAFIN	sein	_	O	O	
+6-7	gestern	ADV	gestern	_	O	O	
+6-8	mit	APPR	mit	_	O	O	
+6-9	einemmale	ADJA	<unknown>	_	O	O	
+6-10	Alles	NN	All	_	O	O	
+6-11	in	APPR	in	_	O	O	
+6-12	Sturm	NE	Sturm	_	O	O	
+6-13	genommen	VVPP	nehmen	_	O	O	
+6-14	zu	APPR	zu	_	O	O	
+6-15	unsrer	PPOSAT	unser	_	O	O	
+6-16	Aller	NE	Aller	_	O	O	
+6-17	Freude	NN	Freude	_	O	O	
+6-18	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Beilage bitte ich an Frau Prof.
+7-1	Die	ART	die	_	O	O	
+7-2	Beilage	NN	Beilage	_	O	O	
+7-3	bitte	VVFIN	bitten	_	O	O	
+7-4	ich	PPER	ich	_	O	O	
+7-5	an	APPR	an	_	O	O	
+7-6	Frau	NN	Frau	_	O	O	
+7-7	Prof.	NN	Prof.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=8
+#text=Henzen zu geben Adler ist zurück; noch aber war es nicht möglich eine Konferenz abzuhalten.
+8-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	zu	PTKZU	zu	_	O	O	
+8-3	geben	VVINF	geben	_	O	O	
+8-4	Adler	NE	Adler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-5	ist	VAFIN	sein	_	O	O	
+8-6	zurück	ADV	zurück	_	O	O	
+8-7	;	$.	;	_	O	O	
+8-8	noch	ADV	noch	_	O	O	
+8-9	aber	ADV	aber	_	O	O	
+8-10	war	VAFIN	sein	_	O	O	
+8-11	es	PPER	es	_	O	O	
+8-12	nicht	PTKNEG	nicht	_	O	O	
+8-13	möglich	ADJD	möglich	_	O	O	
+8-14	eine	ART	eine	_	O	O	
+8-15	Konferenz	NN	Konferenz	_	O	O	
+8-16	abzuhalten	VVIZU	abhalten	_	O	O	
+8-17	.	$.	.	_	O	O	
+
+#id=9
+#text=Auch er befürwortet warm den Granaro.
+9-1	Auch	ADV	auch	_	O	O	
+9-2	er	PPER	er	_	O	O	
+9-3	befürwortet	VVFIN	befürworten	_	O	O	
+9-4	warm	ADJD	warm	_	O	O	
+9-5	den	ART	die	_	O	O	
+9-6	Granaro	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-7	.	$.	.	_	O	O	
+
+#id=10
+#text=Aus seiner Beschreibung der Sachlage geht aber auch hervor, daß das Reich die Häuser kaufen muß, welche das Grundstück Montanari von unten her begrenzen; sonst würde2 diese;,(och bauem.:und die Aussicht wir dem Caffarelli lassen doch verbauen.
+10-1	Aus	APPR	aus	_	O	O	
+10-2	seiner	PPOSAT	sein	_	O	O	
+10-3	Beschreibung	NN	Beschreibung	_	O	O	
+10-4	der	ART	die	_	O	O	
+10-5	Sachlage	NN	Sachlage	_	O	O	
+10-6	geht	VVFIN	gehen	_	O	O	
+10-7	aber	ADV	aber	_	O	O	
+10-8	auch	ADV	auch	_	O	O	
+10-9	hervor	PTKVZ	hervor	_	O	O	
+10-10	,	$,	,	_	O	O	
+10-11	daß	KOUS	dass	_	O	O	
+10-12	das	ART	die	_	O	O	
+10-13	Reich	NN	Reich	_	O	O	
+10-14	die	ART	die	_	O	O	
+10-15	Häuser	NN	Haus	_	O	O	
+10-16	kaufen	VVINF	kaufen	_	O	O	
+10-17	muß	VMFIN	müssen	_	O	O	
+10-18	,	$,	,	_	O	O	
+10-19	welche	PRELS	welche	_	O	O	
+10-20	das	ART	die	_	O	O	
+10-21	Grundstück	NN	Grundstück	_	O	O	
+10-22	Montanari	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-23	von	APPR	von	_	O	O	
+10-24	unten	ADV	unten	_	O	O	
+10-25	her	APZR	her	_	O	O	
+10-26	begrenzen	VVFIN	begrenzen	_	O	O	
+10-27	;	$.	;	_	O	O	
+10-28	sonst	ADV	sonst	_	O	O	
+10-29	würde2	VVFIN	<unknown>	_	O	O	
+10-30	diese	PDS	diese	_	O	O	
+10-31	;	$.	;	_	O	O	
+10-32	,(och	ADJA	<unknown>	_	O	O	
+10-33	bauem.:und	NN	<unknown>	_	O	O	
+10-34	die	ART	die	_	O	O	
+10-35	Aussicht	NN	Aussicht	_	O	O	
+10-36	wir	PPER	wir	_	O	O	
+10-37	dem	ART	die	_	O	O	
+10-38	Caffarelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-39	lassen	VVFIN	lassen	_	O	O	
+10-40	doch	ADV	doch	_	O	O	
+10-41	verbauen	VVINF	verbauen	_	O	O	
+10-42	.	$.	.	_	O	O	
+
+#id=11
+#text=Tauffkirchen wird wohl aufgefordert werden einen Bericht darüber zu geben.
+11-1	Tauffkirchen	NN	<unknown>	_	O	O	
+11-2	wird	VAFIN	werden	_	O	O	
+11-3	wohl	ADV	wohl	_	O	O	
+11-4	aufgefordert	VVPP	auffordern	_	O	O	
+11-5	werden	VAFIN	werden	_	O	O	
+11-6	einen	ART	eine	_	O	O	
+11-7	Bericht	NN	Bericht	_	O	O	
+11-8	darüber	PAV	darüber	_	O	O	
+11-9	zu	PTKZU	zu	_	O	O	
+11-10	geben	VVINF	geben	_	O	O	
+11-11	.	$.	.	_	O	O	
+
+#id=12
+#text=Noch erwünschter würde es hier sein, wenn er unaufgefordert den Ankauf jener Häuser seinerseits beabtragen woll-
+12-1	Noch	ADV	noch	_	O	O	
+12-2	erwünschter	ADJD	erwünscht	_	O	O	
+12-3	würde	VAFIN	werden	_	O	O	
+12-4	es	PPER	es	_	O	O	
+12-5	hier	ADV	hier	_	O	O	
+12-6	sein	VAINF	sein	_	O	O	
+12-7	,	$,	,	_	O	O	
+12-8	wenn	KOUS	wenn	_	O	O	
+12-9	er	PPER	er	_	O	O	
+12-10	unaufgefordert	ADJD	unaufgefordert	_	O	O	
+12-11	den	ART	die	_	O	O	
+12-12	Ankauf	NN	Ankauf	_	O	O	
+12-13	jener	PDAT	jen	_	O	O	
+12-14	Häuser	NN	Haus	_	O	O	
+12-15	seinerseits	ADV	seinerseits	_	O	O	
+12-16	beabtragen	ADJA	<unknown>	_	O	O	
+12-17	woll-	TRUNC	Woll-	_	O	O	
+

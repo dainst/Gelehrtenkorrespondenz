@@ -1,0 +1,149 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=124 Lepsius an Henzen Berlin, 26. Februar 1877 g. 2/3 77 Berlin, den 26. Febr.
+1-1	124	CARD	@card@	_	O	O	
+1-2	Lepsius	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	2/3	CARD	2/3	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	77	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	,	$,	,	_	O	O	
+1-16	den	ART	die	_	O	O	
+1-17	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-19	Febr.	NN	Febr.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=2
+#text=1877 Verehrter Freund In Bezug auf das Testament müssen wir vor Allem eine beglaubigte Abschrift, und eine gleichfalls garantirte übersetzung hbben, ehe hier etwas damit anzufangen ist.
+2-1	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Verehrter	NN	Verehrte	_	O	O	
+2-3	Freund	NE	Freund	_	O	O	
+2-4	In	APPR	in	_	O	O	
+2-5	Bezug	NN	Bezug	_	O	O	
+2-6	auf	APPR	auf	_	O	O	
+2-7	das	ART	die	_	O	O	
+2-8	Testament	NN	Testament	_	O	O	
+2-9	müssen	VMFIN	müssen	_	O	O	
+2-10	wir	PPER	wir	_	O	O	
+2-11	vor	APPR	vor	_	O	O	
+2-12	Allem	NN	<unknown>	_	O	O	
+2-13	eine	ART	eine	_	O	O	
+2-14	beglaubigte	ADJA	beglaubigt	_	O	O	
+2-15	Abschrift	NN	Abschrift	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	und	KON	und	_	O	O	
+2-18	eine	ART	eine	_	O	O	
+2-19	gleichfalls	ADV	gleichfalls	_	O	O	
+2-20	garantirte	ADJA	<unknown>	_	O	O	
+2-21	übersetzung	NN	Übersetzung	_	O	O	
+2-22	hbben	NN	<unknown>	_	O	O	
+2-23	,	$,	,	_	O	O	
+2-24	ehe	KOUS	ehe	_	O	O	
+2-25	hier	ADV	hier	_	O	O	
+2-26	etwas	PIS	etwas	_	O	O	
+2-27	damit	PAV	damit	_	O	O	
+2-28	anzufangen	VVIZU	anfangen	_	O	O	
+2-29	ist	VAFIN	sein	_	O	O	
+2-30	.	$.	.	_	O	O	
+
+#id=3
+#text=Bei der Gesandtschaft muß ja wohl ein vereidigter Translator sein, und dann würde die Übersetzung jedenfalls dort richtiger ausfallen als hier.
+3-1	Bei	APPR	bei	_	O	O	
+3-2	der	ART	die	_	O	O	
+3-3	Gesandtschaft	NN	Gesandtschaft	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-4	muß	VMFIN	müssen	_	O	O	
+3-5	ja	ADV	ja	_	O	O	
+3-6	wohl	ADV	wohl	_	O	O	
+3-7	ein	ART	eine	_	O	O	
+3-8	vereidigter	ADJA	vereidigter	_	O	O	
+3-9	Translator	NN	<unknown>	_	O	O	
+3-10	sein	VAINF	sein	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	und	KON	und	_	O	O	
+3-13	dann	ADV	dann	_	O	O	
+3-14	würde	VAFIN	werden	_	O	O	
+3-15	die	ART	die	_	O	O	
+3-16	Übersetzung	NN	Übersetzung	_	O	O	
+3-17	jedenfalls	ADV	jedenfalls	_	O	O	
+3-18	dort	ADV	dort	_	O	O	
+3-19	richtiger	ADJD	richtig	_	O	O	
+3-20	ausfallen	VVINF	ausfallen	_	O	O	
+3-21	als	KOKOM	als	_	O	O	
+3-22	hier	ADV	hier	_	O	O	
+3-23	.	$.	.	_	O	O	
+
+#id=4
+#text=Haben Sie also die Güte dies ins Werk setzen zu lassen.
+4-1	Haben	VAFIN	haben	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	also	ADV	also	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	Güte	NN	Güte	_	O	O	
+4-6	dies	PDS	dies	_	O	O	
+4-7	ins	APPRART	in	_	O	O	
+4-8	Werk	NN	Werk	_	O	O	
+4-9	setzen	VVINF	setzen	_	O	O	
+4-10	zu	PTKZU	zu	_	O	O	
+4-11	lassen	VVINF	lassen	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Die unpraktischen Bestimmungen werden sich wohl heraus interpretiren lassen und dann keine Schwierigkeit machen.
+5-1	Die	ART	die	_	O	O	
+5-2	unpraktischen	ADJA	unpraktisch	_	O	O	
+5-3	Bestimmungen	NN	Bestimmung	_	O	O	
+5-4	werden	VAFIN	werden	_	O	O	
+5-5	sich	PRF	sich	_	O	O	
+5-6	wohl	ADV	wohl	_	O	O	
+5-7	heraus	ADV	heraus	_	O	O	
+5-8	interpretiren	NN	<unknown>	_	O	O	
+5-9	lassen	VVINF	lassen	_	O	O	
+5-10	und	KON	und	_	O	O	
+5-11	dann	ADV	dann	_	O	O	
+5-12	keine	PIAT	keine	_	O	O	
+5-13	Schwierigkeit	NN	Schwierigkeit	_	O	O	
+5-14	machen	VVINF	machen	_	O	O	
+5-15	.	$.	.	_	O	O	
+
+#id=6
+#text=Unsre Anträge sind gerne acceptirt worden; darunter auch die Helbig'sche Zulage von 200 r und die Erhöhung des Hauptfonds auf 20 000 r.
+6-1	Unsre	PPOSAT	unsre	_	O	O	
+6-2	Anträge	NN	Antrag	_	O	O	
+6-3	sind	VAFIN	sein	_	O	O	
+6-4	gerne	ADV	gerne	_	O	O	
+6-5	acceptirt	ADJD	<unknown>	_	O	O	
+6-6	worden	VAPP	werden	_	O	O	
+6-7	;	$.	;	_	O	O	
+6-8	darunter	ADV	darunter	_	O	O	
+6-9	auch	ADV	auch	_	O	O	
+6-10	die	ART	die	_	O	O	
+6-11	Helbig'sche	ADJA	<unknown>	_	O	O	
+6-12	Zulage	NN	Zulage	_	O	O	
+6-13	von	APPR	von	_	O	O	
+6-14	200	CARD	200	_	O	O	
+6-15	r	NE	r	_	O	O	
+6-16	und	KON	und	_	O	O	
+6-17	die	ART	die	_	O	O	
+6-18	Erhöhung	NN	Erhöhung	_	O	O	
+6-19	des	ART	die	_	O	O	
+6-20	Hauptfonds	NN	<unknown>	_	O	O	
+6-21	auf	APPR	auf	_	O	O	
+6-22	20	CARD	20	_	O	O	
+6-23	000	CARD	@card@	_	O	O	
+6-24	r.	ADJA	<unknown>	_	O	O	
+
+#id=7
+#text=Ihr ergebenster R Lepsius
+7-1	Ihr	PPOSAT	ihr	_	O	O	
+7-2	ergebenster	ADJA	<unknown>	_	O	O	
+7-3	R	NN	R	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+7-4	Lepsius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

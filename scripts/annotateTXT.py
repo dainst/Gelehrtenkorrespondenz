@@ -1,5 +1,9 @@
 #!/usr/env/bin python
 
+import sys
+sys.path.append("../")
+sys.path.append("../../iDAIPublications")
+
 from config_reader import ProjectCofiguration
 from idai_journals.nlp import DAITokenizeSent
 import pyxmi
@@ -8,16 +12,17 @@ import pickle
 from training import load_dictionaries
 from templates import template1
 from collections import namedtuple
+from tqdm import tqdm
 
 Annotation = namedtuple('Annotation', ['token', 'pos', 'lemma', 'header', 'ne'])
 
 
 # Fine tune your parameters here!
-conf = ProjectCofiguration("/Users/fmambrini/PycharmProjects/Gelehrtenkorrespondenz/lib/config/korr_main.json")
-outdir = os.path.join(conf.project_root, "data/TSV")
-basename = '4_MommsenAnBrunn'
-model_path = os.path.join(conf.project_root, "lib/models/korrespondez_model_stage3.pickle")
-sent_tokenizer_path = '/Users/fmambrini/PycharmProjects/iDAIPublications/idai_journals/lib/nltk_data_extension/tokenizers/punkt/PY3/dai_german_punkt.pickle'
+conf = ProjectCofiguration("/Users/fmambrini/PycharmProjects/Gelehrtenkorrespondenz/lib/config/korr_mac.json")
+outdir = os.path.join(conf.project_root, "data/test")
+basename = '8_LepsiusAnHenzen-Helbig1872-1884'
+model_path = os.path.join(conf.project_root, "lib/models/korrespondez_model_stage7.pickle")
+sent_tokenizer_path = '/Users/fmambrini/PycharmProjects/Gelehrtenkorrespondenz/lib/tokenizers/korrespondenz_sent_tok.pickle'
 
 #d = {
 #    "persons": "lib/dictionaries/persons.txt",
@@ -39,7 +44,7 @@ def pos_tag_sents(tokenized_sents):
     tagged_sents = []
     for i, s in enumerate(tokenized_sents):
         tt = TreeTagger(language='german')
-        tags = tt.tag(s)
+        tags = [t for t in tt.tag(s) if len(t) > 1]
         tags = [tuple(tag + ["_", ""]) for tag in tags]
         tagged_sents.append(tags)
     return tagged_sents
@@ -104,9 +109,9 @@ def process_page(page):
     return tsv
 
 
-def main(pages):
-    for num, p in enumerate(pages):
-        outname = os.path.join(outdir, basename + '_page' + "{0:0=3d}".format(int(num) + 1) + '.tsv')
+def main(pages, start_num=1):
+    for num, p in enumerate(tqdm(pages)):
+        outname = os.path.join(outdir, basename + '_page' + "{0:0=3d}".format(int(num) + start_num) + '.tsv')
         t = process_page(p)
         with open(outname, 'w') as out:
             out.write(t)
@@ -119,4 +124,5 @@ if __name__ == '__main__':
     with open(inpath) as f:
         txt = f.read()
     pages = txt.split("\f")
+    #main(pages[17:18], start_num=18)
     main(pages)

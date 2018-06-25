@@ -1,0 +1,334 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=79 4/111/54 Renzen an Gerhard 2 Das Ehrendiplom wird nun auch zu sp~t kommen; denn bei den Zerwürfnissen wegen des BaI.
+1-1	79	CARD	@card@	_	O	O	
+1-2	4/111/54	CARD	@card@	_	O	O	
+1-3	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	2	CARD	2	_	O	O	
+1-7	Das	ART	die	_	O	O	
+1-8	Ehrendiplom	NN	Ehrendiplom	_	O	O	
+1-9	wird	VAFIN	werden	_	O	O	
+1-10	nun	ADV	nun	_	O	O	
+1-11	auch	ADV	auch	_	O	O	
+1-12	zu	PTKA	zu	_	O	O	
+1-13	sp~t	ADJD	<unknown>	_	O	O	
+1-14	kommen	VVINF	kommen	_	O	O	
+1-15	;	$.	;	_	O	O	
+1-16	denn	KON	denn	_	O	O	
+1-17	bei	APPR	bei	_	O	O	
+1-18	den	ART	die	_	O	O	
+1-19	Zerwürfnissen	NN	Zerwürfnis	_	O	O	
+1-20	wegen	APPR	wegen	_	O	O	
+1-21	des	ART	die	_	O	O	
+1-22	BaI	NN	<unknown>	_	O	O	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Caffarelli ist L~aum anzunehmen, daß der Prinz über Rom zurückreist.
+2-1	Caffarelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	ist	VAFIN	sein	_	O	O	
+2-3	L~aum	NN	<unknown>	_	O	O	
+2-4	anzunehmen	VVIZU	annehmen	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	daß	KOUS	dass	_	O	O	
+2-7	der	ART	die	_	O	O	
+2-8	Prinz	NN	Prinz	_	O	O	
+2-9	über	APPR	über	_	O	O	
+2-10	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-11	zurückreist	VVFIN	<unknown>	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich danke Ihnen, daß Sie Ihrem Gedanken, mich mit einem rothen Vogel zu beh~ngen, entsagt haben.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	danke	VVFIN	danken	_	O	O	
+3-3	Ihnen	PPER	Sie	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	daß	KOUS	dass	_	O	O	
+3-6	Sie	PPER	Sie	_	O	O	
+3-7	Ihrem	PPOSAT	ihr	_	O	O	
+3-8	Gedanken	NN	Gedanke	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	mich	PRF	ich	_	O	O	
+3-11	mit	APPR	mit	_	O	O	
+3-12	einem	ART	eine	_	O	O	
+3-13	rothen	NN	<unknown>	_	O	O	
+3-14	Vogel	NN	Vogel	_	O	O	
+3-15	zu	PTKZU	zu	_	O	O	
+3-16	beh~ngen	VVINF	<unknown>	_	O	O	
+3-17	,	$,	,	_	O	O	
+3-18	entsagt	VVPP	entsagen	_	O	O	
+3-19	haben	VAFIN	haben	_	O	O	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich bin nicht gemacht für derartige gioccarelli u. werde auch so schon mit den Italienern durchkommen.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	bin	VAFIN	sein	_	O	O	
+4-3	nicht	PTKNEG	nicht	_	O	O	
+4-4	gemacht	VVPP	machen	_	O	O	
+4-5	für	APPR	für	_	O	O	
+4-6	derartige	ADJA	derartig	_	O	O	
+4-7	gioccarelli	NE	<unknown>	_	O	O	
+4-8	u.	KON	und	_	O	O	
+4-9	werde	VAFIN	werden	_	O	O	
+4-10	auch	ADV	auch	_	O	O	
+4-11	so	ADV	so	_	O	O	
+4-12	schon	ADV	schon	_	O	O	
+4-13	mit	APPR	mit	_	O	O	
+4-14	den	ART	die	_	O	O	
+4-15	Italienern	NN	Italiener	_	O	O	
+4-16	durchkommen	VVINF	durchkommen	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=Dagegen werde ich dieser frage an Usedom ausführlich über meine Wünsche schreiben.
+5-1	Dagegen	PAV	dagegen	_	O	O	
+5-2	werde	VAFIN	werden	_	O	O	
+5-3	ich	PPER	ich	_	O	O	
+5-4	dieser	PDS	diese	_	O	O	
+5-5	frage	VVFIN	fragen	_	O	O	
+5-6	an	APPR	an	_	O	O	
+5-7	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-8	ausführlich	ADJD	ausführlich	_	O	O	
+5-9	über	APPR	über	_	O	O	
+5-10	meine	PPOSAT	mein	_	O	O	
+5-11	Wünsche	NN	Wunsch	_	O	O	
+5-12	schreiben	VVINF	schreiben	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich besprach heute die Sache ausfUhrlich mit Braun, und er r~th mir, von der Institutsfrage an sich, die ja doch nur eine de iure-Frage ist, abzustehen, dagegen geltend zu machen, daß ich jetzt 11 Jahre beim Institut arbeite u. im Begriffe bin, auf ein großes Unternehmen einzugehen, das mich viele Jahre besch~ftigen wird, nach dessen Vollendung icb.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	besprach	VVFIN	besprechen	_	O	O	
+6-3	heute	ADV	heute	_	O	O	
+6-4	die	ART	die	_	O	O	
+6-5	Sache	NN	Sache	_	O	O	
+6-6	ausfUhrlich	ADJD	<unknown>	_	O	O	
+6-7	mit	APPR	mit	_	O	O	
+6-8	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-9	,	$,	,	_	O	O	
+6-10	und	KON	und	_	O	O	
+6-11	er	PPER	er	_	O	O	
+6-12	r~th	VVFIN	<unknown>	_	O	O	
+6-13	mir	PPER	ich	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	von	APPR	von	_	O	O	
+6-16	der	ART	die	_	O	O	
+6-17	Institutsfrage	NN	<unknown>	_	O	O	
+6-18	an	APZR	an	_	O	O	
+6-19	sich	PRF	sich	_	O	O	
+6-20	,	$,	,	_	O	O	
+6-21	die	PRELS	die	_	O	O	
+6-22	ja	ADV	ja	_	O	O	
+6-23	doch	ADV	doch	_	O	O	
+6-24	nur	ADV	nur	_	O	O	
+6-25	eine	ART	eine	_	O	O	
+6-26	de	NE	de	_	O	O	
+6-27	iure-Frage	NN	<unknown>	_	O	O	
+6-28	ist	VAFIN	sein	_	O	O	
+6-29	,	$,	,	_	O	O	
+6-30	abzustehen	ADJD	<unknown>	_	O	O	
+6-31	,	$,	,	_	O	O	
+6-32	dagegen	PAV	dagegen	_	O	O	
+6-33	geltend	ADJD	geltend	_	O	O	
+6-34	zu	PTKZU	zu	_	O	O	
+6-35	machen	VVINF	machen	_	O	O	
+6-36	,	$,	,	_	O	O	
+6-37	daß	KOUS	dass	_	O	O	
+6-38	ich	PPER	ich	_	O	O	
+6-39	jetzt	ADV	jetzt	_	O	O	
+6-40	11	CARD	11	_	O	O	
+6-41	Jahre	NN	Jahr	_	O	O	
+6-42	beim	APPRART	bei	_	O	O	
+6-43	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-44	arbeite	VVFIN	arbeiten	_	O	O	
+6-45	u.	APPR	um	_	O	O	
+6-46	im	APPRART	in	_	O	O	
+6-47	Begriffe	NN	Begriff	_	O	O	
+6-48	bin	VAFIN	sein	_	O	O	
+6-49	,	$,	,	_	O	O	
+6-50	auf	APPR	auf	_	O	O	
+6-51	ein	ART	eine	_	O	O	
+6-52	großes	ADJA	groß	_	O	O	
+6-53	Unternehmen	NN	Unternehmen	_	O	O	
+6-54	einzugehen	VVIZU	eingehen	_	O	O	
+6-55	,	$,	,	_	O	O	
+6-56	das	PRELS	die	_	O	O	
+6-57	mich	PRF	ich	_	O	O	
+6-58	viele	PIAT	viele	_	O	O	
+6-59	Jahre	NN	Jahr	_	O	O	
+6-60	besch~ftigen	VVINF	<unknown>	_	O	O	
+6-61	wird	VAFIN	werden	_	O	O	
+6-62	,	$,	,	_	O	O	
+6-63	nach	APPR	nach	_	O	O	
+6-64	dessen	PRELAT	die	_	O	O	
+6-65	Vollendung	NN	Vollendung	_	O	O	
+6-66	icb	ADJD	<unknown>	_	O	O	
+6-67	.	$.	.	_	O	O	
+
+#id=7
+#text=schwerlich sehr geeignet sein würde, etwa als Privatdocent eine UniversitEitscarriere zu beginnen, wenn etwa unterdeß das Inntitut einmal aufhBre.
+7-1	schwerlich	ADJD	schwerlich	_	O	O	
+7-2	sehr	ADV	sehr	_	O	O	
+7-3	geeignet	ADJD	geeignet	_	O	O	
+7-4	sein	VAINF	sein	_	O	O	
+7-5	würde	VAFIN	werden	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	etwa	ADV	etwa	_	O	O	
+7-8	als	KOKOM	als	_	O	O	
+7-9	Privatdocent	NN	<unknown>	_	O	O	
+7-10	eine	ART	eine	_	O	O	
+7-11	UniversitEitscarriere	NN	<unknown>	_	O	O	
+7-12	zu	PTKZU	zu	_	O	O	
+7-13	beginnen	VVINF	beginnen	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	wenn	KOUS	wenn	_	O	O	
+7-16	etwa	ADV	etwa	_	O	O	
+7-17	unterdeß	NN	<unknown>	_	O	O	
+7-18	das	ART	die	_	O	O	
+7-19	Inntitut	NN	<unknown>	_	O	O	
+7-20	einmal	ADV	einmal	_	O	O	
+7-21	aufhBre	ADJD	<unknown>	_	O	O	
+7-22	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich solle daher UsecLom bitten, mir eine eventuelle Anwartschaft auf Preußische Anstellung auszuwirken.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	solle	VMFIN	sollen	_	O	O	
+8-3	daher	PAV	daher	_	O	O	
+8-4	UsecLom	NN	<unknown>	_	O	O	
+8-5	bitten	VVINF	bitten	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	mir	PRF	ich	_	O	O	
+8-8	eine	ART	eine	_	O	O	
+8-9	eventuelle	ADJA	eventuell	_	O	O	
+8-10	Anwartschaft	NN	Anwartschaft	_	O	O	
+8-11	auf	APPR	auf	_	O	O	
+8-12	Preußische	ADJA	preußisch	_	O	O	
+8-13	Anstellung	NN	Anstellung	_	O	O	
+8-14	auszuwirken	VVIZU	auswirken	_	O	O	
+8-15	.	$.	.	_	O	O	
+
+#id=9
+#text=Hoffentlich brauche ich mich deren nie zu bedienen; aber da meine gesammten Renten nur 400 rf'.
+9-1	Hoffentlich	ADV	hoffentlich	_	O	O	
+9-2	brauche	VVFIN	brauchen	_	O	O	
+9-3	ich	PPER	ich	_	O	O	
+9-4	mich	PRF	ich	_	O	O	
+9-5	deren	PDS	die	_	O	O	
+9-6	nie	ADV	nie	_	O	O	
+9-7	zu	PTKZU	zu	_	O	O	
+9-8	bedienen	VVINF	bedienen	_	O	O	
+9-9	;	$.	;	_	O	O	
+9-10	aber	KON	aber	_	O	O	
+9-11	da	ADV	da	_	O	O	
+9-12	meine	PPOSAT	mein	_	O	O	
+9-13	gesammten	ADJA	<unknown>	_	O	O	
+9-14	Renten	NN	Rente	_	O	O	
+9-15	nur	ADV	nur	_	O	O	
+9-16	400	CARD	400	_	O	O	
+9-17	rf	NN	<unknown>	_	O	O	
+9-18	'	$(	'	_	O	O	
+9-19	.	$.	.	_	O	O	
+
+#id=10
+#text=betragen, so begreifen Sie, daß ich für den Fall eines AufhBrens des Instituts u. des C.I.L. einige Garantien sehr INünschen muß.
+10-1	betragen	VVPP	betragen	_	O	O	
+10-2	,	$,	,	_	O	O	
+10-3	so	ADV	so	_	O	O	
+10-4	begreifen	VVFIN	begreifen	_	O	O	
+10-5	Sie	PPER	Sie	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	daß	KOUS	dass	_	O	O	
+10-8	ich	PPER	ich	_	O	O	
+10-9	für	APPR	für	_	O	O	
+10-10	den	ART	die	_	O	O	
+10-11	Fall	NN	Fall	_	O	O	
+10-12	eines	ART	eine	_	O	O	
+10-13	AufhBrens	NN	<unknown>	_	O	O	
+10-14	des	ART	die	_	O	O	
+10-15	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-16	u.	APPR	um	_	O	O	
+10-17	des	ART	die	_	O	O	
+10-18	C.I.L.	NE	<unknown>	_	O	O	
+10-19	einige	PIAT	einige	_	O	O	
+10-20	Garantien	NN	Garantie	_	O	O	
+10-21	sehr	ADV	sehr	_	O	O	
+10-22	INünschen	NN	<unknown>	_	O	O	
+10-23	muß	VMFIN	müssen	_	O	O	
+10-24	.	$.	.	_	O	O	
+
+#id=11
+#text=In welcher }I'orm das geschehen kann, muß ich Ihnen u. Herrn v. Usedom zu beurtheilen ilberlassen.
+11-1	In	APPR	in	_	O	O	
+11-2	welcher	PIS	welche	_	O	O	
+11-3	}I'orm	NN	<unknown>	_	O	O	
+11-4	das	PDS	die	_	O	O	
+11-5	geschehen	VVINF	geschehen	_	O	O	
+11-6	kann	VMFIN	können	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	muß	VMFIN	müssen	_	O	O	
+11-9	ich	PPER	ich	_	O	O	
+11-10	Ihnen	PPER	Sie	_	O	O	
+11-11	u.	APPR	um	_	O	O	
+11-12	Herrn	NN	Herr	_	O	O	
+11-13	v.	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-14	Usedom	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-15	zu	PTKZU	zu	_	O	O	
+11-16	beurtheilen	VVINF	<unknown>	_	O	O	
+11-17	ilberlassen	VVINF	<unknown>	_	O	O	
+11-18	.	$.	.	_	O	O	
+
+#id=12
+#text=Etwas der Art muß aber fUr mich geschehen.
+12-1	Etwas	ADV	etwas	_	O	O	
+12-2	der	ART	die	_	O	O	
+12-3	Art	NN	Art	_	O	O	
+12-4	muß	VMFIN	müssen	_	O	O	
+12-5	aber	ADV	aber	_	O	O	
+12-6	fUr	NN	<unknown>	_	O	O	
+12-7	mich	PRF	ich	_	O	O	
+12-8	geschehen	VVINF	geschehen	_	O	O	
+12-9	.	$.	.	_	O	O	
+
+#id=13
+#text=Sonst mirde ich ja besser thun, jetzt gleich, wo ich noch jung bin, zurückzutreten.
+13-1	Sonst	ADV	sonst	_	O	O	
+13-2	mirde	ADJD	<unknown>	_	O	O	
+13-3	ich	PPER	ich	_	O	O	
+13-4	ja	ADV	ja	_	O	O	
+13-5	besser	ADJD	gut	_	O	O	
+13-6	thun	NN	<unknown>	_	O	O	
+13-7	,	$,	,	_	O	O	
+13-8	jetzt	ADV	jetzt	_	O	O	
+13-9	gleich	ADJD	gleich	_	O	O	
+13-10	,	$,	,	_	O	O	
+13-11	wo	PWAV	wo	_	O	O	
+13-12	ich	PPER	ich	_	O	O	
+13-13	noch	ADV	noch	_	O	O	
+13-14	jung	ADJD	jung	_	O	O	
+13-15	bin	VAFIN	sein	_	O	O	
+13-16	,	$,	,	_	O	O	
+13-17	zurückzutreten	VVIZU	zurücktreten	_	O	O	
+13-18	.	$.	.	_	O	O	
+
+#id=14
+#text=r Overbeck in Bonn war hier, kathol.
+14-1	r	NE	r	_	O	O	
+14-2	Overbeck	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-3	in	APPR	in	_	O	O	
+14-4	Bonn	NE	Bonn	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+14-5	war	VAFIN	sein	_	O	O	
+14-6	hier	ADV	hier	_	O	O	
+14-7	,	$,	,	_	O	O	
+14-8	kathol	ADJD	<unknown>	_	O	O	
+14-9	.	$.	.	_	O	O	
+
+#id=15
+#text=Theolog und
+15-1	Theolog	NN	Theolog	_	O	O	
+15-2	und	KON	und	_	O	O	
+

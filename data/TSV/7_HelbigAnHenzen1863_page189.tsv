@@ -1,0 +1,202 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=H Lieber Herr Professor Helbig an Henzen Rom, 26. Juli 1873 g. 29/7 73 r.
+1-1	H	NN	H	_	O	O	
+1-2	Lieber	ADJA	lieb	_	O	O	
+1-3	Herr	NN	Herr	_	O	O	
+1-4	Professor	NN	Professor	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	29/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	73	CARD	73	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=3/8 73 Roma, li 26. Juli 1873 Herzlichen Dank für die Münchener Correspondenzkarte, die erste dieser Gattung, die ich zu Gesicht bekam.
+2-1	3/8	CARD	3/8	_	O	O	
+2-2	73	CARD	73	_	O	O	
+2-3	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-4	,	$,	,	_	O	O	
+2-5	li	ADJD	<unknown>	_	O	O	
+2-6	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	Herzlichen	ADJA	herzlich	_	O	O	
+2-11	Dank	NN	Dank	_	O	O	
+2-12	für	APPR	für	_	O	O	
+2-13	die	ART	die	_	O	O	
+2-14	Münchener	ADJA	Münchener	_	O	O	
+2-15	Correspondenzkarte	NN	<unknown>	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	die	ART	die	_	O	O	
+2-18	erste	ADJA	erst	_	O	O	
+2-19	dieser	PDAT	dies	_	O	O	
+2-20	Gattung	NN	Gattung	_	O	O	
+2-21	,	$,	,	_	O	O	
+2-22	die	PRELS	die	_	O	O	
+2-23	ich	PPER	ich	_	O	O	
+2-24	zu	APPR	zu	_	O	O	
+2-25	Gesicht	NN	Gesicht	_	O	O	
+2-26	bekam	VVFIN	bekommen	_	O	O	
+2-27	.	$.	.	_	O	O	
+
+#id=3
+#text=Von Rom ist nicht viel Gutes zu melden.
+3-1	Von	APPR	von	_	O	O	
+3-2	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-3	ist	VAFIN	sein	_	O	O	
+3-4	nicht	PTKNEG	nicht	_	O	O	
+3-5	viel	PIAT	viele	_	O	O	
+3-6	Gutes	NN	Gute	_	O	O	
+3-7	zu	PTKZU	zu	_	O	O	
+3-8	melden	VVINF	melden	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich bin gegenwärtig beschäftigt, den Apparat und die ungebundenen Bücher in den neuen uns angewiesenen Raum zu transportiren, wobei der ohnehin schon so complicirte Mechanismus keineswegs an Klarheit gewinnt.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	bin	VAFIN	sein	_	O	O	
+4-3	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+4-4	beschäftigt	VVPP	beschäftigen	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	den	ART	die	_	O	O	
+4-7	Apparat	NN	Apparat	_	O	O	
+4-8	und	KON	und	_	O	O	
+4-9	die	ART	die	_	O	O	
+4-10	ungebundenen	ADJA	ungebunden	_	O	O	
+4-11	Bücher	NN	Buch	_	O	O	
+4-12	in	APPR	in	_	O	O	
+4-13	den	ART	die	_	O	O	
+4-14	neuen	ADJA	neu	_	O	O	
+4-15	uns	PPER	wir	_	O	O	
+4-16	angewiesenen	ADJA	angewiesen	_	O	O	
+4-17	Raum	NN	Raum	_	O	O	
+4-18	zu	APPR	zu	_	O	O	
+4-19	transportiren	NN	<unknown>	_	O	O	
+4-20	,	$,	,	_	O	O	
+4-21	wobei	PWAV	wobei	_	O	O	
+4-22	der	ART	die	_	O	O	
+4-23	ohnehin	ADV	ohnehin	_	O	O	
+4-24	schon	ADV	schon	_	O	O	
+4-25	so	ADV	so	_	O	O	
+4-26	complicirte	ADJA	<unknown>	_	O	O	
+4-27	Mechanismus	NN	Mechanismus	_	O	O	
+4-28	keineswegs	ADV	keineswegs	_	O	O	
+4-29	an	APPR	an	_	O	O	
+4-30	Klarheit	NN	Klarheit	_	O	O	
+4-31	gewinnt	VVFIN	gewinnen	_	O	O	
+4-32	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich habe dabei Dressel zu Hülfe genommen und werde die Centraldirection bitten, ihm dafür eine angemessene Renumeration zu gewähren.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	dabei	PAV	dabei	_	O	O	
+5-4	Dressel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	zu	APPR	zu	_	O	O	
+5-6	Hülfe	NN	<unknown>	_	O	O	
+5-7	genommen	VVPP	nehmen	_	O	O	
+5-8	und	KON	und	_	O	O	
+5-9	werde	VAFIN	werden	_	O	O	
+5-10	die	ART	die	_	O	O	
+5-11	Centraldirection	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-12	bitten	VVINF	bitten	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	ihm	PPER	er	_	O	O	
+5-15	dafür	PAV	dafür	_	O	O	
+5-16	eine	ART	eine	_	O	O	
+5-17	angemessene	ADJA	angemessen	_	O	O	
+5-18	Renumeration	NN	<unknown>	_	O	O	
+5-19	zu	PTKZU	zu	_	O	O	
+5-20	gewähren	VVINF	gewähren	_	O	O	
+5-21	.	$.	.	_	O	O	
+
+#id=6
+#text=Gamurrini hat endlich die chiusiner Protokolle zurückgeschickt und dabei furchtbar in den Druckbogen gewirthschaftet.
+6-1	Gamurrini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	hat	VAFIN	haben	_	O	O	
+6-3	endlich	ADV	endlich	_	O	O	
+6-4	die	ART	die	_	O	O	
+6-5	chiusiner	ADJA	<unknown>	_	O	O	
+6-6	Protokolle	NN	Protokoll	_	O	O	
+6-7	zurückgeschickt	VVPP	zurückschicken	_	O	O	
+6-8	und	KON	und	_	O	O	
+6-9	dabei	PAV	dabei	_	O	O	
+6-10	furchtbar	ADJD	furchtbar	_	O	O	
+6-11	in	APPR	in	_	O	O	
+6-12	den	ART	die	_	O	O	
+6-13	Druckbogen	NN	Druckbogen	_	O	O	
+6-14	gewirthschaftet	VVPP	<unknown>	_	O	O	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=Er hat es nicht unterlassen können, eine Einleitung und am Schlusse eine Beschreibung der nach meinem dortigen Aufenthalt fehlenden Ausgrabungen beizufügen, so daß der Artikel unter seinen Namen erscheint.
+7-1	Er	PPER	er	_	O	O	
+7-2	hat	VAFIN	haben	_	O	O	
+7-3	es	PPER	es	_	O	O	
+7-4	nicht	PTKNEG	nicht	_	O	O	
+7-5	unterlassen	VVINF	unterlassen	_	O	O	
+7-6	können	VMINF	können	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	eine	ART	eine	_	O	O	
+7-9	Einleitung	NN	Einleitung	_	O	O	
+7-10	und	KON	und	_	O	O	
+7-11	am	APPRART	an	_	O	O	
+7-12	Schlusse	NN	Schluss	_	O	O	
+7-13	eine	ART	eine	_	O	O	
+7-14	Beschreibung	NN	Beschreibung	_	O	O	
+7-15	der	ART	die	_	O	O	
+7-16	nach	APPR	nach	_	O	O	
+7-17	meinem	PPOSAT	mein	_	O	O	
+7-18	dortigen	ADJA	dortig	_	O	O	
+7-19	Aufenthalt	NN	Aufenthalt	_	O	O	
+7-20	fehlenden	ADJA	fehlend	_	O	O	
+7-21	Ausgrabungen	NN	Ausgrabung	_	O	O	
+7-22	beizufügen	VVIZU	beifügen	_	O	O	
+7-23	,	$,	,	_	O	O	
+7-24	so	ADV	so	_	O	O	
+7-25	daß	KOUS	dass	_	O	O	
+7-26	der	ART	die	_	O	O	
+7-27	Artikel	NN	Artikel	_	O	O	
+7-28	unter	APPR	unter	_	O	O	
+7-29	seinen	PPOSAT	sein	_	O	O	
+7-30	Namen	NN	Name	_	O	O	
+7-31	erscheint	VVFIN	erscheinen	_	O	O	
+7-32	.	$.	.	_	O	O	
+
+#id=8
+#text=Habeat sibi.
+8-1	Habeat	NN	<unknown>	_	O	O	
+8-2	sibi	NE	<unknown>	_	O	O	
+8-3	.	$.	.	_	O	O	
+
+#id=9
+#text=Hierdurch ist die von mir nach Chiusi projectirte Reise überflüssig geworden.
+9-1	Hierdurch	PAV	hierdurch	_	O	O	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	die	ART	die	_	O	O	
+9-4	von	APPR	von	_	O	O	
+9-5	mir	PPER	ich	_	O	O	
+9-6	nach	APPR	nach	_	O	O	
+9-7	Chiusi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-8	projectirte	NN	<unknown>	_	O	O	
+9-9	Reise	NN	Reise	_	O	O	
+9-10	überflüssig	ADJD	überflüssig	_	O	O	
+9-11	geworden	VAPP	werden	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Dagegen werde ich
+10-1	Dagegen	PAV	dagegen	_	O	O	
+10-2	werde	VAFIN	werden	_	O	O	
+10-3	ich	PPER	ich	_	O	O	
+

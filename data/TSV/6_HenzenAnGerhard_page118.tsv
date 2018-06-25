@@ -1,0 +1,357 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=172 13/V/53 Henzen an Gerhard Hochverehrter Herr Professor Ich muß fre,fich besorgen, dß.
+1-1	172	CARD	@card@	_	O	O	
+1-2	13/V/53	CARD	<unknown>	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Hochverehrter	ADJA	hochverehrt	_	O	O	
+1-7	Herr	NN	Herr	_	O	O	
+1-8	Professor	NN	Professor	_	O	O	
+1-9	Ich	PPER	ich	_	O	O	
+1-10	muß	VMFIN	müssen	_	O	O	
+1-11	fre,fich	ADJD	<unknown>	_	O	O	
+1-12	besorgen	VVINF	besorgen	_	O	O	
+1-13	,	$,	,	_	O	O	
+1-14	dß	VVFIN	<unknown>	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=vorstehender ostensibler Brief Ihren Erwartungen nicht entspricht; aber nach Allem, was ich bis jetzt als meine epigraph.
+2-1	vorstehender	ADJA	vorstehender	_	O	O	
+2-2	ostensibler	ADJA	<unknown>	_	O	O	
+2-3	Brief	NN	Brief	_	O	O	
+2-4	Ihren	PPOSAT	ihr	_	O	O	
+2-5	Erwartungen	NN	Erwartung	_	O	O	
+2-6	nicht	PTKNEG	nicht	_	O	O	
+2-7	entspricht	VVFIN	entsprechen	_	O	O	
+2-8	;	$.	;	_	O	O	
+2-9	aber	ADV	aber	_	O	O	
+2-10	nach	APPR	nach	_	O	O	
+2-11	Allem	NN	<unknown>	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	was	PRELS	was	_	O	O	
+2-14	ich	PPER	ich	_	O	O	
+2-15	bis	APPR	bis	_	O	O	
+2-16	jetzt	ADV	jetzt	_	O	O	
+2-17	als	KOKOM	als	_	O	O	
+2-18	meine	PPOSAT	mein	_	O	O	
+2-19	epigraph	NN	<unknown>	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Grundsätze ausgesprochen, konnten Sie billiger Weise nichts Andres erwarten.
+3-1	Grundsätze	NN	Grundsatz	_	O	O	
+3-2	ausgesprochen	VVPP	aussprechen	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	konnten	VMFIN	können	_	O	O	
+3-5	Sie	PPER	Sie	_	O	O	
+3-6	billiger	ADJA	billig	_	O	O	
+3-7	Weise	NN	Weise	_	O	O	
+3-8	nichts	PIAT	nichts	_	O	O	
+3-9	Andres	NE	Andre	_	O	O	
+3-10	erwarten	VVINF	erwarten	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=Will die Akademie ein C.I.L., so muß sie auch ds.
+4-1	Will	VMFIN	wollen	_	O	O	
+4-2	die	ART	die	_	O	O	
+4-3	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-4	ein	ART	eine	_	O	O	
+4-5	C.I.L.	NE	<unknown>	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	so	ADV	so	_	O	O	
+4-8	muß	VMFIN	müssen	_	O	O	
+4-9	sie	PPER	sie	_	O	O	
+4-10	auch	ADV	auch	_	O	O	
+4-11	ds.	ADJD	<unknown>	_	O	O	
+
+#id=5
+#text=Umumgängliche wollen u. sich entschließen , mit Mommsen Frieden zu machen, wie Sie u. alle diejenigen verlangen, denen es um die Sache zu thun ist.
+5-1	Umumgängliche	NN	<unknown>	_	O	O	
+5-2	wollen	VMFIN	wollen	_	O	O	
+5-3	u.	APPR	um	_	O	O	
+5-4	sich	PRF	sich	_	O	O	
+5-5	entschließen	VVINF	entschließen	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	mit	APPR	mit	_	O	O	
+5-8	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-9	Frieden	NN	Frieden	_	O	O	
+5-10	zu	PTKZU	zu	_	O	O	
+5-11	machen	VVINF	machen	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	wie	KOUS	wie	_	O	O	
+5-14	Sie	PPER	Sie	_	O	O	
+5-15	u.	APPR	um	_	O	O	
+5-16	alle	PIAT	alle	_	O	O	
+5-17	diejenigen	PDS	diejenigen	_	O	O	
+5-18	verlangen	VVFIN	verlangen	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	denen	PRELS	die	_	O	O	
+5-21	es	PPER	es	_	O	O	
+5-22	um	APPR	um	_	O	O	
+5-23	die	ART	die	_	O	O	
+5-24	Sache	NN	Sache	_	O	O	
+5-25	zu	APPR	zu	_	O	O	
+5-26	thun	NE	<unknown>	_	O	O	
+5-27	ist	VAFIN	sein	_	O	O	
+5-28	.	$.	.	_	O	O	
+
+#id=6
+#text=Auf eine Sammlune; stä,dtischer Inschriften gehe ich nicht ein, so lange ich nicht weiß, was aus d. C.I.1. wird; denn es versteht sich von selbst, dß.
+6-1	Auf	APPR	auf	_	O	O	
+6-2	eine	ART	eine	_	O	O	
+6-3	Sammlune	NN	<unknown>	_	O	O	
+6-4	;	$.	;	_	O	O	
+6-5	stä,dtischer	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-6	Inschriften	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-7	gehe	VVFIN	gehen	_	O	O	
+6-8	ich	PPER	ich	_	O	O	
+6-9	nicht	PTKNEG	nicht	_	O	O	
+6-10	ein	PTKVZ	ein	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	so	ADV	so	_	O	O	
+6-13	lange	ADV	lange	_	O	O	
+6-14	ich	PPER	ich	_	O	O	
+6-15	nicht	PTKNEG	nicht	_	O	O	
+6-16	weiß	VVFIN	wissen	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	was	PRELS	was	_	O	O	
+6-19	aus	APPR	aus	_	O	O	
+6-20	d.	ART	d.	_	O	O	
+6-21	C.I.1	NE	<unknown>	_	O	O	
+6-22	.	$.	.	_	O	O	
+6-23	wird	VAFIN	werden	_	O	O	
+6-24	;	$.	;	_	O	O	
+6-25	denn	KON	denn	_	O	O	
+6-26	es	PPER	es	_	O	O	
+6-27	versteht	VVFIN	verstehen	_	O	O	
+6-28	sich	PRF	sich	_	O	O	
+6-29	von	APPR	von	_	O	O	
+6-30	selbst	ADV	selbst	_	O	O	
+6-31	,	$,	,	_	O	O	
+6-32	dß	VVFIN	<unknown>	_	O	O	
+6-33	.	$.	.	_	O	O	
+
+#id=7
+#text=die Akademie sie nur unterstützen kann, sofern sie ein Theil des C.I.L. bilden wird.
+7-1	die	ART	die	_	O	O	
+7-2	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-3	sie	PPER	sie	_	O	O	
+7-4	nur	ADV	nur	_	O	O	
+7-5	unterstützen	VVINF	unterstützen	_	O	O	
+7-6	kann	VMFIN	können	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	sofern	KOUS	sofern	_	O	O	
+7-9	sie	PPER	sie	_	O	O	
+7-10	ein	ART	eine	_	O	O	
+7-11	Theil	NN	<unknown>	_	O	O	
+7-12	des	ART	die	_	O	O	
+7-13	C.I.L.	NE	<unknown>	_	O	O	
+7-14	bilden	VVINF	bilden	_	O	O	
+7-15	wird	VAFIN	werden	_	O	O	
+7-16	.	$.	.	_	O	O	
+
+#id=8
+#text=Rommt Nichts zu Stande, istts immer besser, als etwas Schlechtes; ich entbehre die 400 rf, behalte aber meine Unabh~ngigkeit, die auch ihren Werth hat.
+8-1	Rommt	VVFIN	<unknown>	_	O	O	
+8-2	Nichts	PIS	nichts	_	O	O	
+8-3	zu	APPR	zu	_	O	O	
+8-4	Stande	NN	Stand	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	istts	NN	<unknown>	_	O	O	
+8-7	immer	ADV	immer	_	O	O	
+8-8	besser	ADJD	gut	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	als	KOUS	als	_	O	O	
+8-11	etwas	PIAT	etwas	_	O	O	
+8-12	Schlechtes	NN	Schlechte	_	O	O	
+8-13	;	$.	;	_	O	O	
+8-14	ich	PPER	ich	_	O	O	
+8-15	entbehre	VVFIN	entbehren	_	O	O	
+8-16	die	ART	die	_	O	O	
+8-17	400	CARD	400	_	O	O	
+8-18	rf	VVFIN	<unknown>	_	O	O	
+8-19	,	$,	,	_	O	O	
+8-20	behalte	VVFIN	behalten	_	O	O	
+8-21	aber	ADV	aber	_	O	O	
+8-22	meine	PPOSAT	mein	_	O	O	
+8-23	Unabh~ngigkeit	NN	<unknown>	_	O	O	
+8-24	,	$,	,	_	O	O	
+8-25	die	PRELS	die	_	O	O	
+8-26	auch	ADV	auch	_	O	O	
+8-27	ihren	PPOSAT	ihr	_	O	O	
+8-28	Werth	NN	<unknown>	_	O	O	
+8-29	hat	VAFIN	haben	_	O	O	
+8-30	.	$.	.	_	O	O	
+
+#id=9
+#text=Und wahrhaftig, ein solches C.I.L. zu machen, ist kein Vergnügen!
+9-1	Und	KON	und	_	O	O	
+9-2	wahrhaftig	ADJD	wahrhaftig	_	O	O	
+9-3	,	$,	,	_	O	O	
+9-4	ein	ART	eine	_	O	O	
+9-5	solches	PIAT	solche	_	O	O	
+9-6	C.I.L.	NE	<unknown>	_	O	O	
+9-7	zu	PTKZU	zu	_	O	O	
+9-8	machen	VVINF	machen	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	ist	VAFIN	sein	_	O	O	
+9-11	kein	PIAT	keine	_	O	O	
+9-12	Vergnügen	NN	Vergnügen	_	O	O	
+9-13	!	$.	!	_	O	O	
+
+#id=10
+#text=Es sind dabei so viele durch u. durch langweilige Partien, dß.
+10-1	Es	PPER	es	_	O	O	
+10-2	sind	VAFIN	sein	_	O	O	
+10-3	dabei	PAV	dabei	_	O	O	
+10-4	so	ADV	so	_	O	O	
+10-5	viele	PIS	viele	_	O	O	
+10-6	durch	PTKVZ	durch	_	O	O	
+10-7	u.	KON	und	_	O	O	
+10-8	durch	APPR	durch	_	O	O	
+10-9	langweilige	ADJA	langweilig	_	O	O	
+10-10	Partien	NN	Partie	_	O	O	
+10-11	,	$,	,	_	O	O	
+10-12	dß	VVFIN	<unknown>	_	O	O	
+10-13	.	$.	.	_	O	O	
+
+#id=11
+#text=Einem bange bei dem Gedanken wird, u. nur das Bewußtsein, etwas wirklicb Nützliches zu schaffen, giebt Muth dazu.
+11-1	Einem	ART	eine	_	O	O	
+11-2	bange	ADJA	bange	_	O	O	
+11-3	bei	APPR	bei	_	O	O	
+11-4	dem	ART	die	_	O	O	
+11-5	Gedanken	NN	Gedanke	_	O	O	
+11-6	wird	VAFIN	werden	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	u.	KON	und	_	O	O	
+11-9	nur	ADV	nur	_	O	O	
+11-10	das	ART	die	_	O	O	
+11-11	Bewußtsein	NN	Bewusstsein	_	O	O	
+11-12	,	$,	,	_	O	O	
+11-13	etwas	PIAT	etwas	_	O	O	
+11-14	wirklicb	ADJA	<unknown>	_	O	O	
+11-15	Nützliches	NN	Nützliche	_	O	O	
+11-16	zu	PTKZU	zu	_	O	O	
+11-17	schaffen	VVINF	schaffen	_	O	O	
+11-18	,	$,	,	_	O	O	
+11-19	giebt	VVFIN	<unknown>	_	O	O	
+11-20	Muth	NE	<unknown>	_	O	O	
+11-21	dazu	PAV	dazu	_	O	O	
+11-22	.	$.	.	_	O	O	
+
+#id=12
+#text=Aber ich gestehe Ihnen aufrichtig, dß.
+12-1	Aber	KON	aber	_	O	O	
+12-2	ich	PPER	ich	_	O	O	
+12-3	gestehe	VVFIN	gestehen	_	O	O	
+12-4	Ihnen	PPER	Sie	_	O	O	
+12-5	aufrichtig	ADJD	aufrichtig	_	O	O	
+12-6	,	$,	,	_	O	O	
+12-7	dß	VVFIN	<unknown>	_	O	O	
+12-8	.	$.	.	_	O	O	
+
+#id=13
+#text=ich ohne Mommsen mich schon deßhalb auf Nichts einlassen k5nnte, weil ich mich der Aufgabe nicht gewachsen weiß, u. bitte Sie, vor allen Dingen zu glauben, dß.
+13-1	ich	PPER	ich	_	O	O	
+13-2	ohne	APPR	ohne	_	O	O	
+13-3	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-4	mich	PRF	ich	_	O	O	
+13-5	schon	ADV	schon	_	O	O	
+13-6	deßhalb	ADJD	<unknown>	_	O	O	
+13-7	auf	APPR	auf	_	O	O	
+13-8	Nichts	PIAT	nichts	_	O	O	
+13-9	einlassen	VVFIN	einlassen	_	O	O	
+13-10	k5nnte	NN	<unknown>	_	O	O	
+13-11	,	$,	,	_	O	O	
+13-12	weil	KOUS	weil	_	O	O	
+13-13	ich	PPER	ich	_	O	O	
+13-14	mich	PRF	ich	_	O	O	
+13-15	der	ART	die	_	O	O	
+13-16	Aufgabe	NN	Aufgabe	_	O	O	
+13-17	nicht	PTKNEG	nicht	_	O	O	
+13-18	gewachsen	VVPP	wachsen	_	O	O	
+13-19	weiß	VVFIN	wissen	_	O	O	
+13-20	,	$,	,	_	O	O	
+13-21	u.	KON	und	_	O	O	
+13-22	bitte	VVIMP	bitten	_	O	O	
+13-23	Sie	PPER	Sie	_	O	O	
+13-24	,	$,	,	_	O	O	
+13-25	vor	APPR	vor	_	O	O	
+13-26	allen	PIAT	alle	_	O	O	
+13-27	Dingen	NN	Ding	_	O	O	
+13-28	zu	PTKZU	zu	_	O	O	
+13-29	glauben	VVINF	glauben	_	O	O	
+13-30	,	$,	,	_	O	O	
+13-31	dß	VVFIN	<unknown>	_	O	O	
+13-32	.	$.	.	_	O	O	
+
+#id=14
+#text=keine Verbitterung oder Hass gegen Zumptino zum Grunde liegen, der mir eben nur ein Princip vortritt.
+14-1	keine	PIAT	keine	_	O	O	
+14-2	Verbitterung	NN	Verbitterung	_	O	O	
+14-3	oder	KON	oder	_	O	O	
+14-4	Hass	NN	Hass	_	O	O	
+14-5	gegen	APPR	gegen	_	O	O	
+14-6	Zumptino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-7	zum	APPRART	zu	_	O	O	
+14-8	Grunde	NN	Grund	_	O	O	
+14-9	liegen	VVFIN	liegen	_	O	O	
+14-10	,	$,	,	_	O	O	
+14-11	der	PRELS	die	_	O	O	
+14-12	mir	PPER	ich	_	O	O	
+14-13	eben	ADV	eben	_	O	O	
+14-14	nur	ADV	nur	_	O	O	
+14-15	ein	ART	eine	_	O	O	
+14-16	Princip	NN	<unknown>	_	O	O	
+14-17	vortritt	VVFIN	vortreten	_	O	O	
+14-18	.	$.	.	_	O	O	
+
+#id=15
+#text=An die Herren Lepsius u. Tomdehab ry denke ich selbst nächster Tage zu schreiben, um ihnen zu danken.
+15-1	An	APPR	an	_	O	O	
+15-2	die	ART	die	_	O	O	
+15-3	Herren	NN	Herr	_	O	O	
+15-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-5	u.	APPR	um	_	O	O	
+15-6	Tomdehab	NE	<unknown>	_	O	O	
+15-7	ry	NE	<unknown>	_	O	O	
+15-8	denke	VVFIN	denken	_	O	O	
+15-9	ich	PPER	ich	_	O	O	
+15-10	selbst	ADV	selbst	_	O	O	
+15-11	nächster	ADJA	nah	_	O	O	
+15-12	Tage	NN	Tag	_	O	O	
+15-13	zu	PTKZU	zu	_	O	O	
+15-14	schreiben	VVINF	schreiben	_	O	O	
+15-15	,	$,	,	_	O	O	
+15-16	um	KOUI	um	_	O	O	
+15-17	ihnen	PPER	sie	_	O	O	
+15-18	zu	PTKZU	zu	_	O	O	
+15-19	danken	VVINF	danken	_	O	O	
+15-20	.	$.	.	_	O	O	
+
+#id=16
+#text=Uebrigens kenne ich des ersteren Brief an Ritschl u. hätte dem zu folge in Ihrem Briefe Nachrichten andrer
+16-1	Uebrigens	NN	<unknown>	_	O	O	
+16-2	kenne	VVFIN	kennen	_	O	O	
+16-3	ich	PPER	ich	_	O	O	
+16-4	des	ART	die	_	O	O	
+16-5	ersteren	PIAT	erstere	_	O	O	
+16-6	Brief	NN	Brief	_	O	O	
+16-7	an	APPR	an	_	O	O	
+16-8	Ritschl	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-9	u.	KON	und	_	O	O	
+16-10	hätte	VAFIN	haben	_	O	O	
+16-11	dem	PDS	die	_	O	O	
+16-12	zu	ADV	zu	_	O	O	
+16-13	folge	VVFIN	folgen	_	O	O	
+16-14	in	APPR	in	_	O	O	
+16-15	Ihrem	PPOSAT	ihr	_	O	O	
+16-16	Briefe	NN	Brief	_	O	O	
+16-17	Nachrichten	NN	Nachricht	_	O	O	
+16-18	andrer	PIAT	andere	_	O	O	
+

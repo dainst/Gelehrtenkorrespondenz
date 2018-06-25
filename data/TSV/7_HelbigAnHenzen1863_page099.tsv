@@ -1,0 +1,225 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text='\ I 203 2 Helbig an Henzen Neapel, 27. April 1868 Impronte dell'Istituto einzutauschen, die er sehr gern zu haben wünscht und die uns nicht viel kosten wird.
+1-1	'	$(	'	_	O	O	
+1-2	\	XY	\	_	O	O	
+1-3	I	NN	I	_	O	O	
+1-4	203	CARD	@card@	_	O	O	
+1-5	2	CARD	2	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1868	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Impronte	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-LIT	
+1-16	dell'Istituto	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-LIT	
+1-17	einzutauschen	VVIZU	eintauschen	_	O	O	
+1-18	,	$,	,	_	O	O	
+1-19	die	PRELS	die	_	O	O	
+1-20	er	PPER	er	_	O	O	
+1-21	sehr	ADV	sehr	_	O	O	
+1-22	gern	ADV	gern	_	O	O	
+1-23	zu	PTKZU	zu	_	O	O	
+1-24	haben	VAINF	haben	_	O	O	
+1-25	wünscht	VVFIN	wünschen	_	O	O	
+1-26	und	KON	und	_	O	O	
+1-27	die	PRELS	die	_	O	O	
+1-28	uns	PPER	wir	_	O	O	
+1-29	nicht	PTKNEG	nicht	_	O	O	
+1-30	viel	ADV	viel	_	O	O	
+1-31	kosten	VVINF	kosten	_	O	O	
+1-32	wird	VAFIN	werden	_	O	O	
+1-33	.	$.	.	_	O	O	
+
+#id=2
+#text=Die Angelegenheit in Capua macht noch Schwierigkeiten, da der Eigenthümer den Eingang des Grabes vorläufig wieder hat verschütten lassen und die Erde nicht gratis wegräumen will.
+2-1	Die	ART	die	_	O	O	
+2-2	Angelegenheit	NN	Angelegenheit	_	O	O	
+2-3	in	APPR	in	_	O	O	
+2-4	Capua	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-5	macht	VVFIN	machen	_	O	O	
+2-6	noch	ADV	noch	_	O	O	
+2-7	Schwierigkeiten	NN	Schwierigkeit	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	da	KOUS	da	_	O	O	
+2-10	der	ART	die	_	O	O	
+2-11	Eigenthümer	NN	<unknown>	_	O	O	
+2-12	den	ART	die	_	O	O	
+2-13	Eingang	NN	Eingang	_	O	O	
+2-14	des	ART	die	_	O	O	
+2-15	Grabes	NN	Grab	_	O	O	
+2-16	vorläufig	ADJD	vorläufig	_	O	O	
+2-17	wieder	ADV	wieder	_	O	O	
+2-18	hat	VAFIN	haben	_	O	O	
+2-19	verschütten	VVINF	verschütten	_	O	O	
+2-20	lassen	VVINF	lassen	_	O	O	
+2-21	und	KON	und	_	O	O	
+2-22	die	ART	die	_	O	O	
+2-23	Erde	NN	Erde	_	O	O	
+2-24	nicht	PTKNEG	nicht	_	O	O	
+2-25	gratis	ADJD	gratis	_	O	O	
+2-26	wegräumen	VVINF	wegräumen	_	O	O	
+2-27	will	VMFIN	wollen	_	O	O	
+2-28	.	$.	.	_	O	O	
+
+#id=3
+#text=Was unsere Abreise nach Rußland betrifft, so können Sie sich über den Termin derselben vollständig beruhigen.
+3-1	Was	PWS	was	_	O	O	
+3-2	unsere	PPOSAT	unser	_	O	O	
+3-3	Abreise	NN	Abreise	_	O	O	
+3-4	nach	APPR	nach	_	O	O	
+3-5	Rußland	NE	Russland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-6	betrifft	VVFIN	betreffen	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	so	ADV	so	_	O	O	
+3-9	können	VMFIN	können	_	O	O	
+3-10	Sie	PPER	Sie	_	O	O	
+3-11	sich	PRF	sich	_	O	O	
+3-12	über	APPR	über	_	O	O	
+3-13	den	ART	die	_	O	O	
+3-14	Termin	NN	Termin	_	O	O	
+3-15	derselben	PDAT	dieselb	_	O	O	
+3-16	vollständig	ADJD	vollständig	_	O	O	
+3-17	beruhigen	VVINF	beruhigen	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Wir erwarten noch so viel Papiere, Antworten u.s. w., haben auch erst jetzt um Reisegeld geschrieben, daß ich froh sein werde, wenn wir Anfang Juni werden reisen können.
+4-1	Wir	PPER	wir	_	O	O	
+4-2	erwarten	VVFIN	erwarten	_	O	O	
+4-3	noch	ADV	noch	_	O	O	
+4-4	so	ADV	so	_	O	O	
+4-5	viel	PIAT	viele	_	O	O	
+4-6	Papiere	NN	Papier	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	Antworten	NN	Antwort	_	O	O	
+4-9	u.s.	VVFIN	<unknown>	_	O	O	
+4-10	w.	APPR	w.	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	haben	VAFIN	haben	_	O	O	
+4-13	auch	ADV	auch	_	O	O	
+4-14	erst	ADV	erst	_	O	O	
+4-15	jetzt	ADV	jetzt	_	O	O	
+4-16	um	APPR	um	_	O	O	
+4-17	Reisegeld	NN	Reisegeld	_	O	O	
+4-18	geschrieben	VVPP	schreiben	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	daß	KOUS	dass	_	O	O	
+4-21	ich	PPER	ich	_	O	O	
+4-22	froh	ADJD	froh	_	O	O	
+4-23	sein	VAINF	sein	_	O	O	
+4-24	werde	VAFIN	werden	_	O	O	
+4-25	,	$,	,	_	O	O	
+4-26	wenn	KOUS	wenn	_	O	O	
+4-27	wir	PPER	wir	_	O	O	
+4-28	Anfang	NN	Anfang	_	O	O	
+4-29	Juni	NN	Juni	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-30	werden	VAFIN	werden	_	O	O	
+4-31	reisen	VVINF	reisen	_	O	O	
+4-32	können	VMINF	können	_	O	O	
+4-33	.	$.	.	_	O	O	
+
+#id=5
+#text=Meine Frau, die Kleine und ich befinden uns alle wohl.
+5-1	Meine	PPOSAT	mein	_	O	O	
+5-2	Frau	NN	Frau	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	die	PRELS	die	_	O	O	
+5-5	Kleine	ADJA	klein	_	O	O	
+5-6	und	KON	und	_	O	O	
+5-7	ich	PPER	ich	_	O	O	
+5-8	befinden	VVFIN	befinden	_	O	O	
+5-9	uns	PPER	wir	_	O	O	
+5-10	alle	PIS	alle	_	O	O	
+5-11	wohl	PTKVZ	wohl	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Reise und der Klimawechsel hat uns sehr wohl getan.
+6-1	Die	ART	die	_	O	O	
+6-2	Reise	NN	Reise	_	O	O	
+6-3	und	KON	und	_	O	O	
+6-4	der	ART	die	_	O	O	
+6-5	Klimawechsel	NN	Klimawechsel	_	O	O	
+6-6	hat	VAFIN	haben	_	O	O	
+6-7	uns	PPER	wir	_	O	O	
+6-8	sehr	ADV	sehr	_	O	O	
+6-9	wohl	ADV	wohl	_	O	O	
+6-10	getan	VVPP	tun	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Aus Neapel ist nicht viel Neues zu berichten.
+7-1	Aus	APPR	aus	_	O	O	
+7-2	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-3	ist	VAFIN	sein	_	O	O	
+7-4	nicht	PTKNEG	nicht	_	O	O	
+7-5	viel	PIAT	viele	_	O	O	
+7-6	Neues	NN	Neue	_	O	O	
+7-7	zu	PTKZU	zu	_	O	O	
+7-8	berichten	VVINF	berichten	_	O	O	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich habe neulich die Scuola pompeiana besucht, wo zwei unglückliche Zöglinge sitzen, die an den Fenstern trommeln und nicht wissen, was sie mit ihrer Zeit anfangen sollen.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	habe	VAFIN	haben	_	O	O	
+8-3	neulich	ADV	neulich	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	Scuola	NN	<unknown>	_	O	O	
+8-6	pompeiana	NE	<unknown>	_	O	O	
+8-7	besucht	VVPP	besuchen	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	wo	PWAV	wo	_	O	O	
+8-10	zwei	CARD	zwei	_	O	O	
+8-11	unglückliche	ADJA	unglücklich	_	O	O	
+8-12	Zöglinge	NN	Zögling	_	O	O	
+8-13	sitzen	VVFIN	sitzen	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	die	PRELS	die	_	O	O	
+8-16	an	APPR	an	_	O	O	
+8-17	den	ART	die	_	O	O	
+8-18	Fenstern	NN	Fenster	_	O	O	
+8-19	trommeln	VVINF	trommeln	_	O	O	
+8-20	und	KON	und	_	O	O	
+8-21	nicht	PTKNEG	nicht	_	O	O	
+8-22	wissen	VVFIN	wissen	_	O	O	
+8-23	,	$,	,	_	O	O	
+8-24	was	PRELS	was	_	O	O	
+8-25	sie	PPER	sie	_	O	O	
+8-26	mit	APPR	mit	_	O	O	
+8-27	ihrer	PPOSAT	ihr	_	O	O	
+8-28	Zeit	NN	Zeit	_	O	O	
+8-29	anfangen	VVINF	anfangen	_	O	O	
+8-30	sollen	VMFIN	sollen	_	O	O	
+8-31	.	$.	.	_	O	O	
+
+#id=9
+#text=Herzliche Grüße an Frau Henzen.
+9-1	Herzliche	ADJA	herzlich	_	O	O	
+9-2	Grüße	NN	Gruß	_	O	O	
+9-3	an	APPR	an	_	O	O	
+9-4	Frau	NN	Frau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-6	.	$.	.	_	O	O	
+
+#id=10
+#text=Mit bestem Gruße von mir und meiner Frau Ihr ergebener W. Helbig •
+10-1	Mit	APPR	mit	_	O	O	
+10-2	bestem	ADJA	gut	_	O	O	
+10-3	Gruße	NN	Gruß	_	O	O	
+10-4	von	APPR	von	_	O	O	
+10-5	mir	PPER	ich	_	O	O	
+10-6	und	KON	und	_	O	O	
+10-7	meiner	PPOSAT	mein	_	O	O	
+10-8	Frau	NN	Frau	_	O	O	
+10-9	Ihr	PPOSAT	ihr	_	O	O	
+10-10	ergebener	ADJA	ergeben	_	O	O	
+10-11	W.	NE	W.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-12	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-13	•	ADJA	<unknown>	_	O	O	
+

@@ -1,0 +1,161 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=233 H Lieber Herr Professor Helbig an Henzen Florenz, 21. Mai 1868 g. 22/5 68 r. Florenz 21. Mai 1868.
+1-1	233	CARD	@card@	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Lieber	ADJA	lieb	_	O	O	
+1-4	Herr	NN	Herr	_	O	O	
+1-5	Professor	NN	Professor	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1868	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	22/5	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	68	CARD	68	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+1-19	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-20	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-21	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	1868	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-24	.	$.	.	_	O	O	
+
+#id=2
+#text=Meinen herzlichen Dank für Ihren freundlichen Brief vom 20.
+2-1	Meinen	PPOSAT	mein	_	O	O	
+2-2	herzlichen	ADJA	herzlich	_	O	O	
+2-3	Dank	NN	Dank	_	O	O	
+2-4	für	APPR	für	_	O	O	
+2-5	Ihren	PPOSAT	ihr	_	O	O	
+2-6	freundlichen	ADJA	freundlich	_	O	O	
+2-7	Brief	NN	Brief	_	O	O	
+2-8	vom	APPRART	von	_	O	O	
+2-9	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=3
+#text=Die Sache von Barone ist in Ordnung.
+3-1	Die	ART	die	_	O	O	
+3-2	Sache	NN	Sache	_	O	O	
+3-3	von	APPR	von	_	O	O	
+3-4	Barone	NN	Baron	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	ist	VAFIN	sein	_	O	O	
+3-6	in	APPR	in	_	O	O	
+3-7	Ordnung	NN	Ordnung	_	O	O	
+3-8	.	$.	.	_	O	O	
+
+#id=4
+#text=Ottenfels versprach, Sorvillo, den östreichischen Consul, anzuweisen, den Uberschuß zu bezahlen, hat es aber vermuthlich nach diplomatischer Bummelweise nicht sofort gethan.
+4-1	Ottenfels	NN	<unknown>	_	O	O	
+4-2	versprach	VVFIN	versprechen	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	Sorvillo	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	,	$,	,	_	O	O	
+4-6	den	ART	die	_	O	O	
+4-7	östreichischen	ADJA	<unknown>	_	O	O	
+4-8	Consul	NN	<unknown>	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	anzuweisen	VVIZU	anweisen	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	den	ART	die	_	O	O	
+4-13	Uberschuß	NN	<unknown>	_	O	O	
+4-14	zu	PTKZU	zu	_	O	O	
+4-15	bezahlen	VVINF	bezahlen	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	hat	VAFIN	haben	_	O	O	
+4-18	es	PPER	es	_	O	O	
+4-19	aber	ADV	aber	_	O	O	
+4-20	vermuthlich	ADJD	<unknown>	_	O	O	
+4-21	nach	APPR	nach	_	O	O	
+4-22	diplomatischer	ADJA	diplomatisch	_	O	O	
+4-23	Bummelweise	NN	<unknown>	_	O	O	
+4-24	nicht	PTKNEG	nicht	_	O	O	
+4-25	sofort	ADV	sofort	_	O	O	
+4-26	gethan	NE	<unknown>	_	O	O	
+4-27	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich schreibe an ihn sofort.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	schreibe	VVFIN	schreiben	_	O	O	
+5-3	an	APPR	an	_	O	O	
+5-4	ihn	PPER	er	_	O	O	
+5-5	sofort	ADV	sofort	_	O	O	
+5-6	.	$.	.	_	O	O	
+
+#id=6
+#text=Unsere Reise bis jetzt ist gut von Statten gegangen.
+6-1	Unsere	PPOSAT	unser	_	O	O	
+6-2	Reise	NN	Reise	_	O	O	
+6-3	bis	APPR	bis	_	O	O	
+6-4	jetzt	ADV	jetzt	_	O	O	
+6-5	ist	VAFIN	sein	_	O	O	
+6-6	gut	ADJD	gut	_	O	O	
+6-7	von	APPR	von	_	O	O	
+6-8	Statten	NN	<unknown>	_	O	O	
+6-9	gegangen	VVPP	gehen	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Heute und vielleicht auch morgen bleiben wir noch in Florenz.
+7-1	Heute	ADV	heute	_	O	O	
+7-2	und	KON	und	_	O	O	
+7-3	vielleicht	ADV	vielleicht	_	O	O	
+7-4	auch	ADV	auch	_	O	O	
+7-5	morgen	ADV	morgen	_	O	O	
+7-6	bleiben	VVFIN	bleiben	_	O	O	
+7-7	wir	PPER	wir	_	O	O	
+7-8	noch	ADV	noch	_	O	O	
+7-9	in	APPR	in	_	O	O	
+7-10	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Viele Grüße an Frau Henzen.
+8-1	Viele	PIAT	viele	_	O	O	
+8-2	Grüße	NN	Gruß	_	O	O	
+8-3	an	APPR	an	_	O	O	
+8-4	Frau	NN	Frau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-5	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-6	.	$.	.	_	O	O	
+
+#id=9
+#text=Meine Frau grüßt vielmals.
+9-1	Meine	PPOSAT	mein	_	O	O	
+9-2	Frau	NN	Frau	_	O	O	
+9-3	grüßt	VVFIN	grüßen	_	O	O	
+9-4	vielmals	ADV	vielmals	_	O	O	
+9-5	.	$.	.	_	O	O	
+
+#id=10
+#text=Leben Sie herzlich wohl Ihr w. Helbig Beifolgende Zettel haben Sie wohl die Freundlichkeit, durch Nino an Adressaten befördern zu lassen.
+10-1	Leben	VVFIN	leben	_	O	O	
+10-2	Sie	PPER	Sie	_	O	O	
+10-3	herzlich	ADJD	herzlich	_	O	O	
+10-4	wohl	ADV	wohl	_	O	O	
+10-5	Ihr	PPOSAT	ihr	_	O	O	
+10-6	w.	APPR	w.	_	O	O	
+10-7	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-8	Beifolgende	ADJA	<unknown>	_	O	O	
+10-9	Zettel	NN	Zettel	_	O	O	
+10-10	haben	VAFIN	haben	_	O	O	
+10-11	Sie	PPER	Sie	_	O	O	
+10-12	wohl	ADV	wohl	_	O	O	
+10-13	die	ART	die	_	O	O	
+10-14	Freundlichkeit	NN	Freundlichkeit	_	O	O	
+10-15	,	$,	,	_	O	O	
+10-16	durch	APPR	durch	_	O	O	
+10-17	Nino	NE	Nino	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-18	an	APPR	an	_	O	O	
+10-19	Adressaten	NN	Adressat	_	O	O	
+10-20	befördern	VVINF	befördern	_	O	O	
+10-21	zu	PTKZU	zu	_	O	O	
+10-22	lassen	VVINF	lassen	_	O	O	
+10-23	.	$.	.	_	O	O	
+

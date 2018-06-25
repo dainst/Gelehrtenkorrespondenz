@@ -1,0 +1,203 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=175 A. d. Dir.
+1-1	175	CARD	@card@	_	O	O	
+1-2	A.	APPR	an	_	O	O	
+1-3	d.	ART	d.	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Mein theurer Freund.
+2-1	Mein	PPOSAT	mein	_	O	O	
+2-2	theurer	ADJA	<unknown>	_	O	O	
+2-3	Freund	NN	Freund	_	O	O	
+2-4	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Braun Berlin, 15. Mai 1845 g. 26/V 45 r. 26/V 45 Berlin 15 Mai Ihre beiden Briefe voll Hiobsposten sind glücklich angelangt; die vielfache Noth thut mir von Herzen Leid.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	an	APPR	an	_	O	O	
+3-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-5	,	$,	,	_	O	O	
+3-6	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-10	g.	VVFIN	<unknown>	_	O	O	
+3-11	26/V	NE	<unknown>	_	O	O	
+3-12	45	CARD	45	_	O	O	
+3-13	r.	ADJA	<unknown>	_	O	O	
+3-14	26/V	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-15	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-17	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-18	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-19	Ihre	PPOSAT	ihr	_	O	O	
+3-20	beiden	PIAT	beide	_	O	O	
+3-21	Briefe	NN	Brief	_	O	O	
+3-22	voll	ADJD	voll	_	O	O	
+3-23	Hiobsposten	NN	<unknown>	_	O	O	
+3-24	sind	VAFIN	sein	_	O	O	
+3-25	glücklich	ADJD	glücklich	_	O	O	
+3-26	angelangt	VVPP	angelangen	_	O	O	
+3-27	;	$.	;	_	O	O	
+3-28	die	ART	die	_	O	O	
+3-29	vielfache	ADJA	vielfach	_	O	O	
+3-30	Noth	NE	<unknown>	_	O	O	
+3-31	thut	VVFIN	<unknown>	_	O	O	
+3-32	mir	PPER	ich	_	O	O	
+3-33	von	APPR	von	_	O	O	
+3-34	Herzen	NN	Herz	_	O	O	
+3-35	Leid	NN	Leid	_	O	O	
+3-36	.	$.	.	_	O	O	
+
+#id=4
+#text=Wie viel mag es auch bei Vollards und bei dem Prinzen geben 1 Ihr in der Kürze praktischer gel betreffend ist sehr dankenswerth.
+4-1	Wie	KOKOM	wie	_	O	O	
+4-2	viel	PIS	viele	_	O	O	
+4-3	mag	VMFIN	mögen	_	O	O	
+4-4	es	PPER	es	_	O	O	
+4-5	auch	ADV	auch	_	O	O	
+4-6	bei	APPR	bei	_	O	O	
+4-7	Vollards	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-8	und	KON	und	_	O	O	
+4-9	bei	APPR	bei	_	O	O	
+4-10	dem	ART	die	_	O	O	
+4-11	Prinzen	NN	Prinz	_	O	O	
+4-12	geben	VVFIN	geben	_	O	O	
+4-13	1	CARD	1	_	O	O	
+4-14	Ihr	PPOSAT	ihr	_	O	O	
+4-15	in	APPR	in	_	O	O	
+4-16	der	ART	die	_	O	O	
+4-17	Kürze	NN	Kürze	_	O	O	
+4-18	praktischer	ADJD	praktisch	_	O	O	
+4-19	gel	ADJD	<unknown>	_	O	O	
+4-20	betreffend	ADJD	betreffend	_	O	O	
+4-21	ist	VAFIN	sein	_	O	O	
+4-22	sehr	ADV	sehr	_	O	O	
+4-23	dankenswerth	NE	<unknown>	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=• meine Spie~ Endlich hat Dr. Gelbke einkassirt; einen 500 rt Beutel zu vertheilen (die Kasse hatte eine Zahlung für mich damit verbunden) machte Noth bis ich ihn für 1/2 rt Schaden in Kassenscheine umsetzte; diesen kleinen Schaden habe ich vertheilt und lege nun die Quittungen bei über 333.20 und 66 rt.
+5-1	•	NN	<unknown>	_	O	O	
+5-2	meine	PPOSAT	mein	_	O	O	
+5-3	Spie~	NN	<unknown>	_	O	O	
+5-4	Endlich	ADV	endlich	_	O	O	
+5-5	hat	VAFIN	haben	_	O	O	
+5-6	Dr.	NN	Dr.	_	O	O	
+5-7	Gelbke	NN	<unknown>	_	O	O	
+5-8	einkassirt	NN	<unknown>	_	O	O	
+5-9	;	$.	;	_	O	O	
+5-10	einen	ART	eine	_	O	O	
+5-11	500	CARD	500	_	O	O	
+5-12	rt	ADJA	<unknown>	_	O	O	
+5-13	Beutel	NN	Beutel	_	O	O	
+5-14	zu	PTKZU	zu	_	O	O	
+5-15	vertheilen	VVINF	<unknown>	_	O	O	
+5-16	(	$(	(	_	O	O	
+5-17	die	ART	die	_	O	O	
+5-18	Kasse	NN	Kasse	_	O	O	
+5-19	hatte	VAFIN	haben	_	O	O	
+5-20	eine	ART	eine	_	O	O	
+5-21	Zahlung	NN	Zahlung	_	O	O	
+5-22	für	APPR	für	_	O	O	
+5-23	mich	PRF	ich	_	O	O	
+5-24	damit	PAV	damit	_	O	O	
+5-25	verbunden	ADJD	verbunden	_	O	O	
+5-26	)	$(	)	_	O	O	
+5-27	machte	VVFIN	machen	_	O	O	
+5-28	Noth	NE	<unknown>	_	O	O	
+5-29	bis	APPR	bis	_	O	O	
+5-30	ich	PPER	ich	_	O	O	
+5-31	ihn	PPER	er	_	O	O	
+5-32	für	APPR	für	_	O	O	
+5-33	1/2	CARD	1/2	_	O	O	
+5-34	rt	ADJA	<unknown>	_	O	O	
+5-35	Schaden	NN	Schaden	_	O	O	
+5-36	in	APPR	in	_	O	O	
+5-37	Kassenscheine	NN	<unknown>	_	O	O	
+5-38	umsetzte	VVFIN	umsetzen	_	O	O	
+5-39	;	$.	;	_	O	O	
+5-40	diesen	PDAT	dies	_	O	O	
+5-41	kleinen	ADJA	klein	_	O	O	
+5-42	Schaden	NN	Schaden	_	O	O	
+5-43	habe	VAFIN	haben	_	O	O	
+5-44	ich	PPER	ich	_	O	O	
+5-45	vertheilt	ADJD	<unknown>	_	O	O	
+5-46	und	KON	und	_	O	O	
+5-47	lege	VVFIN	legen	_	O	O	
+5-48	nun	ADV	nun	_	O	O	
+5-49	die	ART	die	_	O	O	
+5-50	Quittungen	NN	Quittung	_	O	O	
+5-51	bei	APPR	bei	_	O	O	
+5-52	über	APPR	über	_	O	O	
+5-53	333.20	CARD	@card@	_	O	O	
+5-54	und	KON	und	_	O	O	
+5-55	66	CARD	@card@	_	O	O	
+5-56	rt	VVFIN	<unknown>	_	O	O	
+5-57	.	$.	.	_	O	O	
+
+#id=6
+#text=Meine Frau denkt nach Mitte Juni auf 5 Wochen nach Elgersburg zu gehn; ich gegen Mitte August sie in Frankfurt zu finden.
+6-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-3	denkt	VVFIN	denken	_	O	O	
+6-4	nach	APPR	nach	_	O	O	
+6-5	Mitte	NN	Mitte	_	O	O	
+6-6	Juni	NN	Juni	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-7	auf	APPR	auf	_	O	O	
+6-8	5	CARD	5	_	O	O	
+6-9	Wochen	NN	Woche	_	O	O	
+6-10	nach	APPR	nach	_	O	O	
+6-11	Elgersburg	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-12	zu	PTKZU	zu	_	O	O	
+6-13	gehn	VVINF	<unknown>	_	O	O	
+6-14	;	$.	;	_	O	O	
+6-15	ich	PPER	ich	_	O	O	
+6-16	gegen	APPR	gegen	_	O	O	
+6-17	Mitte	NN	Mitte	_	O	O	
+6-18	August	NN	August	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-19	sie	PPER	sie	_	O	O	
+6-20	in	APPR	in	_	O	O	
+6-21	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-22	zu	PTKZU	zu	_	O	O	
+6-23	finden	VVINF	finden	_	O	O	
+6-24	.	$.	.	_	O	O	
+
+#id=7
+#text=An eine Möglichkeit italienischer Reise denke wir noch.
+7-1	An	APPR	an	_	O	O	
+7-2	eine	ART	eine	_	O	O	
+7-3	Möglichkeit	NN	Möglichkeit	_	O	O	
+7-4	italienischer	ADJA	italienisch	_	O	O	
+7-5	Reise	NN	Reise	_	O	O	
+7-6	denke	VVFIN	denken	_	O	O	
+7-7	wir	PPER	wir	_	O	O	
+7-8	noch	ADV	noch	_	O	O	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=Der Minister würde nichts dagegen haben.
+8-1	Der	ART	die	_	O	O	
+8-2	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	würde	VAFIN	werden	_	O	O	
+8-4	nichts	PIS	nichts	_	O	O	
+8-5	dagegen	PAV	dagegen	_	O	O	
+8-6	haben	VAINF	haben	_	O	O	
+8-7	.	$.	.	_	O	O	
+
+#id=9
+#text=Ihre epigraphischen Notizen werde ich discret zu beherzigen wissen.
+9-1	Ihre	PPOSAT	ihr	_	O	O	
+9-2	epigraphischen	ADJA	<unknown>	_	O	O	
+9-3	Notizen	NN	Notiz	_	O	O	
+9-4	werde	VAFIN	werden	_	O	O	
+9-5	ich	PPER	ich	_	O	O	
+9-6	discret	ADJD	<unknown>	_	O	O	
+9-7	zu	PTKZU	zu	_	O	O	
+9-8	beherzigen	VVINF	beherzigen	_	O	O	
+9-9	wissen	VVINF	wissen	_	O	O	
+9-10	.	$.	.	_	O	O	
+

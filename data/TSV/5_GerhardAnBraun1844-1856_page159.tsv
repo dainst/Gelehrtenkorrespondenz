@@ -1,0 +1,261 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=300 2 Gerhard an Braun Frankfurt, 25. August 1845 der sie künftig in unsre Nähe ins Pommerland bringt.
+1-1	300	CARD	300	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	Frankfurt	NE	Frankfurt	_	O	O	
+1-7	,	$,	,	_	O	O	
+1-8	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	der	ART	die	_	O	O	
+1-13	sie	PPER	sie	_	O	O	
+1-14	künftig	ADJD	künftig	_	O	O	
+1-15	in	APPR	in	_	O	O	
+1-16	unsre	PPOSAT	unsre	_	O	O	
+1-17	Nähe	NN	Nähe	_	O	O	
+1-18	ins	APPRART	in	_	O	O	
+1-19	Pommerland	NN	Pommerland	_	O	O	
+1-20	bringt	VVFIN	bringen	_	O	O	
+1-21	.	$.	.	_	O	O	
+
+#id=3
+#text=Aller brieflichen Bemühung ungeachtet weiß ich nicht genau wie es um Welcker steht, nur daß er am 10.ten noch krank war, jetzt schwerlich reisen und im Winter schwerlich lesen kann.
+3-1	Aller	PIAT	alle	_	O	O	
+3-2	brieflichen	ADJA	brieflich	_	O	O	
+3-3	Bemühung	NN	Bemühung	_	O	O	
+3-4	ungeachtet	APPO	ungeachtet	_	O	O	
+3-5	weiß	VVFIN	wissen	_	O	O	
+3-6	ich	PPER	ich	_	O	O	
+3-7	nicht	PTKNEG	nicht	_	O	O	
+3-8	genau	ADJD	genau	_	O	O	
+3-9	wie	KOKOM	wie	_	O	O	
+3-10	es	PPER	es	_	O	O	
+3-11	um	APPR	um	_	O	O	
+3-12	Welcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-13	steht	VVFIN	stehen	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	nur	ADV	nur	_	O	O	
+3-16	daß	KOUS	dass	_	O	O	
+3-17	er	PPER	er	_	O	O	
+3-18	am	APPRART	an	_	O	O	
+3-19	10.ten	NN	<unknown>	_	O	O	
+3-20	noch	ADV	noch	_	O	O	
+3-21	krank	ADJD	krank	_	O	O	
+3-22	war	VAFIN	sein	_	O	O	
+3-23	,	$,	,	_	O	O	
+3-24	jetzt	ADV	jetzt	_	O	O	
+3-25	schwerlich	ADJD	schwerlich	_	O	O	
+3-26	reisen	VVINF	reisen	_	O	O	
+3-27	und	KON	und	_	O	O	
+3-28	im	APPRART	in	_	O	O	
+3-29	Winter	NN	Winter	_	O	O	
+3-30	schwerlich	ADJD	schwerlich	_	O	O	
+3-31	lesen	VVINF	lesen	_	O	O	
+3-32	kann	VMFIN	können	_	O	O	
+3-33	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich wäre zu ihm gereist, wäre sein übel nicht gerade geeignet von Gesprächen ihn abzuhalten und hätte ich irgend einen Wink dazu von ihm erhalten; ich habe ihn nochmals um direkte Kunde, bis jetzt vergeblich, gebeten.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	wäre	VAFIN	sein	_	O	O	
+4-3	zu	APPR	zu	_	O	O	
+4-4	ihm	PPER	er	_	O	O	
+4-5	gereist	VVPP	reisen	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	wäre	VAFIN	sein	_	O	O	
+4-8	sein	PPOSAT	sein	_	O	O	
+4-9	übel	ADJD	übel	_	O	O	
+4-10	nicht	PTKNEG	nicht	_	O	O	
+4-11	gerade	ADV	gerade	_	O	O	
+4-12	geeignet	ADJD	geeignet	_	O	O	
+4-13	von	APPR	von	_	O	O	
+4-14	Gesprächen	NN	Gespräch	_	O	O	
+4-15	ihn	PPER	er	_	O	O	
+4-16	abzuhalten	VVIZU	abhalten	_	O	O	
+4-17	und	KON	und	_	O	O	
+4-18	hätte	VAFIN	haben	_	O	O	
+4-19	ich	PPER	ich	_	O	O	
+4-20	irgend	ADV	irgend	_	O	O	
+4-21	einen	ART	eine	_	O	O	
+4-22	Wink	NN	Wink	_	O	O	
+4-23	dazu	PAV	dazu	_	O	O	
+4-24	von	APPR	von	_	O	O	
+4-25	ihm	PPER	er	_	O	O	
+4-26	erhalten	VVINF	erhalten	_	O	O	
+4-27	;	$.	;	_	O	O	
+4-28	ich	PPER	ich	_	O	O	
+4-29	habe	VAFIN	haben	_	O	O	
+4-30	ihn	PPER	er	_	O	O	
+4-31	nochmals	ADV	nochmals	_	O	O	
+4-32	um	APPR	um	_	O	O	
+4-33	direkte	ADJA	direkt	_	O	O	
+4-34	Kunde	NN	Kunde	_	O	O	
+4-35	,	$,	,	_	O	O	
+4-36	bis	KON	bis	_	O	O	
+4-37	jetzt	ADV	jetzt	_	O	O	
+4-38	vergeblich	ADJD	vergeblich	_	O	O	
+4-39	,	$,	,	_	O	O	
+4-40	gebeten	VVPP	bitten	_	O	O	
+4-41	.	$.	.	_	O	O	
+
+#id=5
+#text=Dagegen erwarte ich noch Roß hier zu sehen, von Kissingen aus, sprach Göttingen auf seiner Durchreise nach London und denke mit Blessig heute nach Wiesbaden zu gehen.
+5-1	Dagegen	PAV	dagegen	_	O	O	
+5-2	erwarte	VVFIN	erwarten	_	O	O	
+5-3	ich	PPER	ich	_	O	O	
+5-4	noch	ADV	noch	_	O	O	
+5-5	Roß	NN	Ross	_	O	O	
+5-6	hier	ADV	hier	_	O	O	
+5-7	zu	PTKZU	zu	_	O	O	
+5-8	sehen	VVINF	sehen	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	von	APPR	von	_	O	O	
+5-11	Kissingen	NE	Kissingen	_	O	O	
+5-12	aus	PTKVZ	aus	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	sprach	VVFIN	sprechen	_	O	O	
+5-15	Göttingen	NE	Göttingen	_	O	O	
+5-16	auf	APPR	auf	_	O	O	
+5-17	seiner	PPOSAT	sein	_	O	O	
+5-18	Durchreise	NN	Durchreise	_	O	O	
+5-19	nach	APPR	nach	_	O	O	
+5-20	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-21	und	KON	und	_	O	O	
+5-22	denke	VVFIN	denken	_	O	O	
+5-23	mit	APPR	mit	_	O	O	
+5-24	Blessig	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-25	heute	ADV	heute	_	O	O	
+5-26	nach	APPR	nach	_	O	O	
+5-27	Wiesbaden	NE	Wiesbaden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-28	zu	PTKZU	zu	_	O	O	
+5-29	gehen	VVINF	gehen	_	O	O	
+5-30	.	$.	.	_	O	O	
+
+#id=6
+#text=Piutti hat nichts gegen eine Wohnung am Meer; ich wünschte daher eine der üblichen Wohnungen an S. Lucia einigermaßen mich versichern zu können, bevor die Naturalisten alles wegnehmen.
+6-1	Piutti	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	hat	VAFIN	haben	_	O	O	
+6-3	nichts	PIS	nichts	_	O	O	
+6-4	gegen	APPR	gegen	_	O	O	
+6-5	eine	ART	eine	_	O	O	
+6-6	Wohnung	NN	Wohnung	_	O	O	
+6-7	am	APPRART	an	_	O	O	
+6-8	Meer	NN	Meer	_	O	O	
+6-9	;	$.	;	_	O	O	
+6-10	ich	PPER	ich	_	O	O	
+6-11	wünschte	VVFIN	wünschen	_	O	O	
+6-12	daher	PAV	daher	_	O	O	
+6-13	eine	PIS	eine	_	O	O	
+6-14	der	ART	die	_	O	O	
+6-15	üblichen	ADJA	üblich	_	O	O	
+6-16	Wohnungen	NN	Wohnung	_	O	O	
+6-17	an	APPR	an	_	O	O	
+6-18	S.	NE	S.	_	O	O	
+6-19	Lucia	NE	Lucia	_	O	O	
+6-20	einigermaßen	ADV	einigermaßen	_	O	O	
+6-21	mich	PPER	ich	_	O	O	
+6-22	versichern	VVINF	versichern	_	O	O	
+6-23	zu	PTKZU	zu	_	O	O	
+6-24	können	VMINF	können	_	O	O	
+6-25	,	$,	,	_	O	O	
+6-26	bevor	KOUS	bevor	_	O	O	
+6-27	die	ART	die	_	O	O	
+6-28	Naturalisten	NN	Naturalist	_	O	O	
+6-29	alles	PIS	alle	_	O	O	
+6-30	wegnehmen	VVFIN	wegnehmen	_	O	O	
+6-31	.	$.	.	_	O	O	
+
+#id=7
+#text=Vie.lleicht können Sie einen unsrer guten Freunde in Neapel oder der nach Neapel geht dafür interessiren.
+7-1	Vie.lleicht	ADJD	<unknown>	_	O	O	
+7-2	können	VMFIN	können	_	O	O	
+7-3	Sie	PPER	Sie	_	O	O	
+7-4	einen	ART	eine	_	O	O	
+7-5	unsrer	PPOSAT	unser	_	O	O	
+7-6	guten	ADJA	gut	_	O	O	
+7-7	Freunde	NN	Freund	_	O	O	
+7-8	in	APPR	in	_	O	O	
+7-9	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-10	oder	KON	oder	_	O	O	
+7-11	der	ART	die	_	O	O	
+7-12	nach	APPR	nach	_	O	O	
+7-13	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-14	geht	VVFIN	gehen	_	O	O	
+7-15	dafür	PAV	dafür	_	O	O	
+7-16	interessiren	NN	<unknown>	_	O	O	
+7-17	.	$.	.	_	O	O	
+
+#id=8
+#text=Es ist eine gar schöne Sache nach Reisemühen eine wohlbekannte Stätte zu finden.
+8-1	Es	PPER	es	_	O	O	
+8-2	ist	VAFIN	sein	_	O	O	
+8-3	eine	ART	eine	_	O	O	
+8-4	gar	ADV	gar	_	O	O	
+8-5	schöne	ADJA	schön	_	O	O	
+8-6	Sache	NN	Sache	_	O	O	
+8-7	nach	APPR	nach	_	O	O	
+8-8	Reisemühen	NN	<unknown>	_	O	O	
+8-9	eine	ART	eine	_	O	O	
+8-10	wohlbekannte	ADJA	wohlbekannt	_	O	O	
+8-11	Stätte	NN	Stätte	_	O	O	
+8-12	zu	PTKZU	zu	_	O	O	
+8-13	finden	VVINF	finden	_	O	O	
+8-14	.	$.	.	_	O	O	
+
+#id=9
+#text=Eben kündet Welcker an daß er zunächst nach Ems gehe, noch im September aber zum Winteraufenthalt nach Italien.
+9-1	Eben	ADV	eben	_	O	O	
+9-2	kündet	VVFIN	künden	_	O	O	
+9-3	Welcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-4	an	APPR	an	_	O	O	
+9-5	daß	KOUS	dass	_	O	O	
+9-6	er	PPER	er	_	O	O	
+9-7	zunächst	ADV	zunächst	_	O	O	
+9-8	nach	APPR	nach	_	O	O	
+9-9	Ems	NE	Ems	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-10	gehe	VVFIN	gehen	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	noch	ADV	noch	_	O	O	
+9-13	im	APPRART	in	_	O	O	
+9-14	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-15	aber	ADV	aber	_	O	O	
+9-16	zum	APPRART	zu	_	O	O	
+9-17	Winteraufenthalt	NN	<unknown>	_	O	O	
+9-18	nach	APPR	nach	_	O	O	
+9-19	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-20	.	$.	.	_	O	O	
+
+#id=10
+#text=Hoffentlich folgen wir diesem Brief bald glücklich nach.
+10-1	Hoffentlich	ADV	hoffentlich	_	O	O	
+10-2	folgen	VVFIN	folgen	_	O	O	
+10-3	wir	PPER	wir	_	O	O	
+10-4	diesem	PDAT	dies	_	O	O	
+10-5	Brief	NN	Brief	_	O	O	
+10-6	bald	ADV	bald	_	O	O	
+10-7	glücklich	ADJD	glücklich	_	O	O	
+10-8	nach	PTKVZ	nach	_	O	O	
+10-9	.	$.	.	_	O	O	
+
+#id=11
+#text=Mit besten Grüßen meiner Frau - Ihnen Ihrer lieben Frau und gemeinsamen Freunden.
+11-1	Mit	APPR	mit	_	O	O	
+11-2	besten	ADJA	gut	_	O	O	
+11-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+11-4	meiner	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-5	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-6	-	$(	-	_	O	O	
+11-7	Ihnen	PPER	Sie	_	O	O	
+11-8	Ihrer	PPOSAT	ihr	_	O	O	
+11-9	lieben	ADJA	lieb	_	O	O	
+11-10	Frau	NN	Frau	_	O	O	
+11-11	und	KON	und	_	O	O	
+11-12	gemeinsamen	ADJA	gemeinsam	_	O	O	
+11-13	Freunden	NN	Freund	_	O	O	
+11-14	.	$.	.	_	O	O	
+

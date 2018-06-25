@@ -1,0 +1,59 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Verehrter Freund Lepsius an Renzen Berlin, 31. Juli 1873 B. d. 31. Juli 1873 Darf ich Sie bitten sich Sonnabend um 6 Uhr zur Sitzung der Central Direktion in Mommsen's Wohnung einzufinden, und mich baldmöglichst wissen zu lassen, ob Sie nicht verhindert sind.
+1-1	Verehrter	ADJA	verehrt	_	O	O	
+1-2	Freund	NE	Freund	_	O	O	
+1-3	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	31	CARD	31	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	B.	NN	B.	_	O	O	
+1-13	d.	ART	d.	_	O	O	
+1-14	31	CARD	31	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-15	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	Darf	VVFIN	dürfen	_	O	O	
+1-19	ich	PPER	ich	_	O	O	
+1-20	Sie	PPER	Sie	_	O	O	
+1-21	bitten	VVFIN	bitten	_	O	O	
+1-22	sich	PRF	sich	_	O	O	
+1-23	Sonnabend	NN	Sonnabend	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-24	um	APPR	um	_	O	O	
+1-25	6	CARD	6	_	O	O	
+1-26	Uhr	NN	Uhr	_	O	O	
+1-27	zur	APPRART	zu	_	O	O	
+1-28	Sitzung	NN	Sitzung	_	O	O	
+1-29	der	ART	die	_	O	O	
+1-30	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-31	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+1-32	in	APPR	in	_	O	O	
+1-33	Mommsen's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-34	Wohnung	NN	Wohnung	_	O	O	
+1-35	einzufinden	VVIZU	einfinden	_	O	O	
+1-36	,	$,	,	_	O	O	
+1-37	und	KON	und	_	O	O	
+1-38	mich	PRF	ich	_	O	O	
+1-39	baldmöglichst	ADV	baldmöglichst	_	O	O	
+1-40	wissen	VVINF	wissen	_	O	O	
+1-41	zu	PTKZU	zu	_	O	O	
+1-42	lassen	VVINF	lassen	_	O	O	
+1-43	,	$,	,	_	O	O	
+1-44	ob	KOUS	ob	_	O	O	
+1-45	Sie	PPER	Sie	_	O	O	
+1-46	nicht	PTKNEG	nicht	_	O	O	
+1-47	verhindert	VVPP	verhindern	_	O	O	
+1-48	sind	VAFIN	sein	_	O	O	
+1-49	.	$.	.	_	O	O	
+
+#id=2
+#text=Ergebenst R Lepsius
+2-1	Ergebenst	ADJD	ergeben	_	O	O	
+2-2	R	NN	R	_	O	O	
+2-3	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

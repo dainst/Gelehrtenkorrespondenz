@@ -1,0 +1,259 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=525 2 bei wieder zurückkommen.
+1-1	525	CARD	525	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	bei	APPR	bei	_	O	O	
+1-4	wieder	ADV	wieder	_	O	O	
+1-5	zurückkommen	VVFIN	zurückkommen	_	O	O	
+1-6	.	$.	.	_	O	O	
+
+#id=2
+#text=Lepsius an Henzen Berlin, 8. Dezember 1872 Mit Delbrück hatte ich gestern früh über eine Sache zu confer,iren, die das Institut nichts anging, benutzte aber die Gelegenheit ihm vom Römischen Bau dringlichst zu sprechen, und die Skizzen des beabsichtigten Baus vorzulegen.
+2-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	Mit	APPR	mit	_	O	O	
+2-11	Delbrück	NE	Delbrück	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-12	hatte	VAFIN	haben	_	O	O	
+2-13	ich	PPER	ich	_	O	O	
+2-14	gestern	ADV	gestern	_	O	O	
+2-15	früh	ADJD	früh	_	O	O	
+2-16	über	APPR	über	_	O	O	
+2-17	eine	ART	eine	_	O	O	
+2-18	Sache	NN	Sache	_	O	O	
+2-19	zu	APPR	zu	_	O	O	
+2-20	confer,iren	NN	<unknown>	_	O	O	
+2-21	,	$,	,	_	O	O	
+2-22	die	PRELS	die	_	O	O	
+2-23	das	ART	die	_	O	O	
+2-24	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-25	nichts	PIS	nichts	_	O	O	
+2-26	anging	VVFIN	angehen	_	O	O	
+2-27	,	$,	,	_	O	O	
+2-28	benutzte	VVFIN	benutzen	_	O	O	
+2-29	aber	ADV	aber	_	O	O	
+2-30	die	ART	die	_	O	O	
+2-31	Gelegenheit	NN	Gelegenheit	_	O	O	
+2-32	ihm	PPER	er	_	O	O	
+2-33	vom	APPRART	von	_	O	O	
+2-34	Römischen	ADJA	römisch	_	O	O	
+2-35	Bau	NN	Bau	_	O	O	
+2-36	dringlichst	ADJD	dringlich	_	O	O	
+2-37	zu	PTKZU	zu	_	O	O	
+2-38	sprechen	VVINF	sprechen	_	O	O	
+2-39	,	$,	,	_	O	O	
+2-40	und	KON	und	_	O	O	
+2-41	die	ART	die	_	O	O	
+2-42	Skizzen	NN	Skizze	_	O	O	
+2-43	des	ART	die	_	O	O	
+2-44	beabsichtigten	ADJA	beabsichtigt	_	O	O	
+2-45	Baus	NN	Bau	_	O	O	
+2-46	vorzulegen	VVIZU	vorlegen	_	O	O	
+2-47	.	$.	.	_	O	O	
+
+#id=3
+#text=Auf meine ausdrückliche Frage ob er uns autorisiren wolle von dem kleinen Bau ganz abzusehen und mit dem großen Projekte vorzugehen, gab er dies zu.
+3-1	Auf	APPR	auf	_	O	O	
+3-2	meine	PPOSAT	mein	_	O	O	
+3-3	ausdrückliche	ADJA	ausdrücklich	_	O	O	
+3-4	Frage	NN	Frage	_	O	O	
+3-5	ob	KOUS	ob	_	O	O	
+3-6	er	PPER	er	_	O	O	
+3-7	uns	PPER	wir	_	O	O	
+3-8	autorisiren	NN	<unknown>	_	O	O	
+3-9	wolle	VMFIN	wollen	_	O	O	
+3-10	von	APPR	von	_	O	O	
+3-11	dem	ART	die	_	O	O	
+3-12	kleinen	ADJA	klein	_	O	O	
+3-13	Bau	NN	Bau	_	O	O	
+3-14	ganz	ADV	ganz	_	O	O	
+3-15	abzusehen	VVIZU	absehen	_	O	O	
+3-16	und	KON	und	_	O	O	
+3-17	mit	APPR	mit	_	O	O	
+3-18	dem	ART	die	_	O	O	
+3-19	großen	ADJA	groß	_	O	O	
+3-20	Projekte	NN	Projekt	_	O	O	
+3-21	vorzugehen	VVIZU	vorgehen	_	O	O	
+3-22	,	$,	,	_	O	O	
+3-23	gab	VVFIN	geben	_	O	O	
+3-24	er	PPER	er	_	O	O	
+3-25	dies	PDS	dies	_	O	O	
+3-26	zu	PTKVZ	zu	_	O	O	
+3-27	.	$.	.	_	O	O	
+
+#id=4
+#text=Damit scheint mir die Hauptsache gewonnen.
+4-1	Damit	PAV	damit	_	O	O	
+4-2	scheint	VVFIN	scheinen	_	O	O	
+4-3	mir	PPER	ich	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	Hauptsache	NN	Hauptsache	_	O	O	
+4-6	gewonnen	VVPP	gewinnen	_	O	O	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich werde diesen neuen Status in der nächsten Sitzung der Central Direktion vorlegen und denke, wir werden dann sogleich Herrn Laspeyres beauftragen können, die Pläne wieder aufzunehmen.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	werde	VAFIN	werden	_	O	O	
+5-3	diesen	PDAT	dies	_	O	O	
+5-4	neuen	ADJA	neu	_	O	O	
+5-5	Status	NN	Status	_	O	O	
+5-6	in	APPR	in	_	O	O	
+5-7	der	ART	die	_	O	O	
+5-8	nächsten	ADJA	nah	_	O	O	
+5-9	Sitzung	NN	Sitzung	_	O	O	
+5-10	der	ART	die	_	O	O	
+5-11	Central	NN	<unknown>	_	O	O	
+5-12	Direktion	NN	Direktion	_	O	O	
+5-13	vorlegen	VVINF	vorlegen	_	O	O	
+5-14	und	KON	und	_	O	O	
+5-15	denke	VVFIN	denken	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	wir	PPER	wir	_	O	O	
+5-18	werden	VAFIN	werden	_	O	O	
+5-19	dann	ADV	dann	_	O	O	
+5-20	sogleich	ADV	sogleich	_	O	O	
+5-21	Herrn	NN	Herr	_	O	O	
+5-22	Laspeyres	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-23	beauftragen	VVINF	beauftragen	_	O	O	
+5-24	können	VMINF	können	_	O	O	
+5-25	,	$,	,	_	O	O	
+5-26	die	ART	die	_	O	O	
+5-27	Pläne	NN	Plan	_	O	O	
+5-28	wieder	ADV	wieder	_	O	O	
+5-29	aufzunehmen	VVIZU	aufnehmen	_	O	O	
+5-30	.	$.	.	_	O	O	
+
+#id=6
+#text=Lassen Sie mich daher umgehend wissen, wie es in dieser Bezä:ehung bei Ihnen steht, und was Laspeyres jetzt zu einem solchen eventuellen neuen oder erneuerten Auftrage sagt, ob er die Arbeit, falls es die Central Direktion wünscht, jetzt wieder aufnehmen kann und will und ob er vielleicht besondere Bedingungen stipulial wünscht, über welche die Central Direktion erst wieder zu beschließen hätte.
+6-1	Lassen	VVFIN	lassen	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	mich	PRF	ich	_	O	O	
+6-4	daher	PAV	daher	_	O	O	
+6-5	umgehend	ADJD	umgehend	_	O	O	
+6-6	wissen	VVINF	wissen	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	wie	KOUS	wie	_	O	O	
+6-9	es	PPER	es	_	O	O	
+6-10	in	APPR	in	_	O	O	
+6-11	dieser	PDAT	dies	_	O	O	
+6-12	Bezä:ehung	NN	<unknown>	_	O	O	
+6-13	bei	APPR	bei	_	O	O	
+6-14	Ihnen	PPER	Sie	_	O	O	
+6-15	steht	VVFIN	stehen	_	O	O	
+6-16	,	$,	,	_	O	O	
+6-17	und	KON	und	_	O	O	
+6-18	was	PWS	was	_	O	O	
+6-19	Laspeyres	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-20	jetzt	ADV	jetzt	_	O	O	
+6-21	zu	APPR	zu	_	O	O	
+6-22	einem	ART	eine	_	O	O	
+6-23	solchen	PIAT	solche	_	O	O	
+6-24	eventuellen	ADJA	eventuell	_	O	O	
+6-25	neuen	ADJA	neu	_	O	O	
+6-26	oder	KON	oder	_	O	O	
+6-27	erneuerten	ADJA	erneuert	_	O	O	
+6-28	Auftrage	NN	Auftrag	_	O	O	
+6-29	sagt	VVFIN	sagen	_	O	O	
+6-30	,	$,	,	_	O	O	
+6-31	ob	KOUS	ob	_	O	O	
+6-32	er	PPER	er	_	O	O	
+6-33	die	ART	die	_	O	O	
+6-34	Arbeit	NN	Arbeit	_	O	O	
+6-35	,	$,	,	_	O	O	
+6-36	falls	KOUS	falls	_	O	O	
+6-37	es	PPER	es	_	O	O	
+6-38	die	ART	die	_	O	O	
+6-39	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-40	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+6-41	wünscht	VVFIN	wünschen	_	O	O	
+6-42	,	$,	,	_	O	O	
+6-43	jetzt	ADV	jetzt	_	O	O	
+6-44	wieder	ADV	wieder	_	O	O	
+6-45	aufnehmen	VVINF	aufnehmen	_	O	O	
+6-46	kann	VMFIN	können	_	O	O	
+6-47	und	KON	und	_	O	O	
+6-48	will	VMFIN	wollen	_	O	O	
+6-49	und	KON	und	_	O	O	
+6-50	ob	KOUS	ob	_	O	O	
+6-51	er	PPER	er	_	O	O	
+6-52	vielleicht	ADV	vielleicht	_	O	O	
+6-53	besondere	ADJA	besonder	_	O	O	
+6-54	Bedingungen	NN	Bedingung	_	O	O	
+6-55	stipulial	ADJD	<unknown>	_	O	O	
+6-56	wünscht	VVFIN	wünschen	_	O	O	
+6-57	,	$,	,	_	O	O	
+6-58	über	APPR	über	_	O	O	
+6-59	welche	PRELS	welche	_	O	O	
+6-60	die	ART	die	_	O	O	
+6-61	Central	NN	<unknown>	_	O	O	
+6-62	Direktion	NN	Direktion	_	O	O	
+6-63	erst	ADV	erst	_	O	O	
+6-64	wieder	ADV	wieder	_	O	O	
+6-65	zu	PTKZU	zu	_	O	O	
+6-66	beschließen	VVINF	beschließen	_	O	O	
+6-67	hätte	VAFIN	haben	_	O	O	
+6-68	.	$.	.	_	O	O	
+
+#id=7
+#text=Was nun die neuen Rechnugen für 1872 betrifft, so meine ich doch allerdings, daß Sie sie nach dem neuen Schema zu verzeichnen haben, obgleich der vereinbarte Etat für 1873-75 aufgestellt ist.
+7-1	Was	PWS	was	_	O	O	
+7-2	nun	ADV	nun	_	O	O	
+7-3	die	ART	die	_	O	O	
+7-4	neuen	ADJA	neu	_	O	O	
+7-5	Rechnugen	NN	<unknown>	_	O	O	
+7-6	für	APPR	für	_	O	O	
+7-7	1872	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-8	betrifft	VVFIN	betreffen	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	so	ADV	so	_	O	O	
+7-11	meine	VVFIN	meinen	_	O	O	
+7-12	ich	PPER	ich	_	O	O	
+7-13	doch	ADV	doch	_	O	O	
+7-14	allerdings	ADV	allerdings	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	daß	KOUS	dass	_	O	O	
+7-17	Sie	PPER	Sie	_	O	O	
+7-18	sie	PPER	sie	_	O	O	
+7-19	nach	APPR	nach	_	O	O	
+7-20	dem	ART	die	_	O	O	
+7-21	neuen	ADJA	neu	_	O	O	
+7-22	Schema	NN	Schema	_	O	O	
+7-23	zu	PTKZU	zu	_	O	O	
+7-24	verzeichnen	VVINF	verzeichnen	_	O	O	
+7-25	haben	VAFIN	haben	_	O	O	
+7-26	,	$,	,	_	O	O	
+7-27	obgleich	KOUS	obgleich	_	O	O	
+7-28	der	ART	die	_	O	O	
+7-29	vereinbarte	ADJA	vereinbart	_	O	O	
+7-30	Etat	NN	Etat	_	O	O	
+7-31	für	APPR	für	_	O	O	
+7-32	1873-75	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-33	aufgestellt	VVPP	aufstellen	_	O	O	
+7-34	ist	VAFIN	sein	_	O	O	
+7-35	.	$.	.	_	O	O	
+
+#id=8
+#text=In Bezug auf letzteren habe ich Ihnen ohne Zw~el mitgetheilt, daß wir Ih-
+8-1	In	APPR	in	_	O	O	
+8-2	Bezug	NN	Bezug	_	O	O	
+8-3	auf	APPR	auf	_	O	O	
+8-4	letzteren	ADJA	letzt	_	O	O	
+8-5	habe	VAFIN	haben	_	O	O	
+8-6	ich	PPER	ich	_	O	O	
+8-7	Ihnen	PPER	Sie	_	O	O	
+8-8	ohne	APPR	ohne	_	O	O	
+8-9	Zw~el	NN	<unknown>	_	O	O	
+8-10	mitgetheilt	VVPP	<unknown>	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	daß	KOUS	dass	_	O	O	
+8-13	wir	PPER	wir	_	O	O	
+8-14	Ih-	TRUNC	ih-	_	O	O	
+

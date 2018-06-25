@@ -1,0 +1,51 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=142 31/V/54 3 Henzen an Gerhard richten schuld ist.
+1-1	142	CARD	@card@	_	O	O	
+1-2	31/V/54	CARD	<unknown>	_	O	O	
+1-3	3	CARD	3	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	richten	VVFIN	richten	_	O	O	
+1-8	schuld	ADJD	schuld	_	O	O	
+1-9	ist	VAFIN	sein	_	O	O	
+1-10	.	$.	.	_	O	O	
+
+#id=2
+#text=Pinder ist sehr fleißig und grUBt bestens.
+2-1	Pinder	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	ist	VAFIN	sein	_	O	O	
+2-3	sehr	ADV	sehr	_	O	O	
+2-4	fleißig	ADJD	fleißig	_	O	O	
+2-5	und	KON	und	_	O	O	
+2-6	grUBt	ADJD	<unknown>	_	O	O	
+2-7	bestens	ADV	bestens	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihr ergebner W. Henzen.
+3-1	Ihr	PPER	sie	_	O	O	
+3-2	ergebner	VVFIN	<unknown>	_	O	O	
+3-3	W.	APPR	w.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-4	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-5	.	$.	.	_	O	O	
+
+#id=4
+#text=Rom 31/V 54.
+4-1	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-2	31/V	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-3	54	CARD	54	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-4	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich bitte um gefälliGe Beförderung einlieGender Briefe.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	bitte	VVFIN	bitten	_	O	O	
+5-3	um	APPR	um	_	O	O	
+5-4	gefälliGe	ADJA	gefällig	_	O	O	
+5-5	Beförderung	NN	Beförderung	_	O	O	
+5-6	einlieGender	VVFIN	<unknown>	_	O	O	
+5-7	Briefe	NN	Brief	_	O	O	
+5-8	.	$.	.	_	O	O	
+

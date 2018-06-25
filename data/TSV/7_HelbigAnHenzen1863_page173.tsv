@@ -1,0 +1,229 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=318 2 Helbig an Henzen CasteIlamare, 10. Juli 1872 den den Artikel leicht unter den Osservazioni im Index finden.
+1-1	318	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	CasteIlamare	NN	<unknown>	_	O	O	
+1-7	,	$,	,	_	O	O	
+1-8	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	den	ART	die	_	O	O	
+1-13	den	ART	die	_	O	O	
+1-14	Artikel	NN	Artikel	_	O	O	
+1-15	leicht	ADJD	leicht	_	O	O	
+1-16	unter	APPR	unter	_	O	O	
+1-17	den	ART	die	_	O	O	
+1-18	Osservazioni	NN	<unknown>	_	O	O	
+1-19	im	APPRART	in	_	O	O	
+1-20	Index	NN	Index	_	O	O	
+1-21	finden	VVFIN	finden	_	O	O	
+1-22	.	$.	.	_	O	O	
+
+#id=2
+#text=2) Die Seite aus dem Bull.
+2-1	2	CARD	2	_	O	O	
+2-2	)	$(	)	_	O	O	
+2-3	Die	ART	die	_	O	O	
+2-4	Seite	NN	Seite	_	O	O	
+2-5	aus	APPR	aus	_	O	O	
+2-6	dem	ART	die	_	O	O	
+2-7	Bull	NE	Bull	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=1872, wo ich einen beim Mausoleum gefundenen Kopf mit dem HerakIes Steinhäuser verglichen habe.
+3-1	1872	CARD	@card@	_	O	O	
+3-2	,	$,	,	_	O	O	
+3-3	wo	PWAV	wo	_	O	O	
+3-4	ich	PPER	ich	_	O	O	
+3-5	einen	ART	eine	_	O	O	
+3-6	beim	APPRART	bei	_	O	O	
+3-7	Mausoleum	NN	Mausoleum	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-8	gefundenen	ADJA	gefunden	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-9	Kopf	NN	Kopf	_	I-webanno.custom.LetterEntity_	I-OBJ	
+3-10	mit	APPR	mit	_	O	O	
+3-11	dem	ART	die	_	O	O	
+3-12	HerakIes	NN	<unknown>	_	O	O	
+3-13	Steinhäuser	NN	Steinhaus	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-14	verglichen	VVPP	vergleichen	_	O	O	
+3-15	habe	VAFIN	haben	_	O	O	
+3-16	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich machte diese Bemerkungen in einer Adunanz.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	machte	VVFIN	machen	_	O	O	
+4-3	diese	PDAT	dies	_	O	O	
+4-4	Bemerkungen	NN	Bemerkung	_	O	O	
+4-5	in	APPR	in	_	O	O	
+4-6	einer	ART	eine	_	O	O	
+4-7	Adunanz	NN	<unknown>	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=Vermuthlich finden sich die Berichte in dem März oder Aprilbullettino dieses Jahres.
+5-1	Vermuthlich	ADJD	<unknown>	_	O	O	
+5-2	finden	VVFIN	finden	_	O	O	
+5-3	sich	PRF	sich	_	O	O	
+5-4	die	ART	die	_	O	O	
+5-5	Berichte	NN	Bericht	_	O	O	
+5-6	in	APPR	in	_	O	O	
+5-7	dem	ART	die	_	O	O	
+5-8	März	NN	März	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-9	oder	KON	oder	_	O	O	
+5-10	Aprilbullettino	NN	<unknown>	_	O	O	
+5-11	dieses	PDAT	dies	_	O	O	
+5-12	Jahres	NN	Jahr	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Letztere Anfrage könnte vielleicht Hirschfeld beantworten.
+6-1	Letztere	ADJA	letzt	_	O	O	
+6-2	Anfrage	NN	Anfrage	_	O	O	
+6-3	könnte	VMFIN	können	_	O	O	
+6-4	vielleicht	ADV	vielleicht	_	O	O	
+6-5	Hirschfeld	NN	Hirschfeld	_	O	O	
+6-6	beantworten	VVINF	beantworten	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=Meine Frau und Lili grüßen vielmals.
+7-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-3	und	KON	und	_	O	O	
+7-4	Lili	NE	Lili	_	O	O	
+7-5	grüßen	VVFIN	grüßen	_	O	O	
+7-6	vielmals	ADV	vielmals	_	O	O	
+7-7	.	$.	.	_	O	O	
+
+#id=8
+#text=Letztere hat sich dem Sport ergeben und reitet fleißig auf einem sehr zierlichen weißen Esel, der den Namen Mariuccia führt.
+8-1	Letztere	NN	Letztere	_	O	O	
+8-2	hat	VAFIN	haben	_	O	O	
+8-3	sich	PRF	sich	_	O	O	
+8-4	dem	ART	die	_	O	O	
+8-5	Sport	NN	Sport	_	O	O	
+8-6	ergeben	VVPP	ergeben	_	O	O	
+8-7	und	KON	und	_	O	O	
+8-8	reitet	VVFIN	reiten	_	O	O	
+8-9	fleißig	ADJD	fleißig	_	O	O	
+8-10	auf	APPR	auf	_	O	O	
+8-11	einem	ART	eine	_	O	O	
+8-12	sehr	ADV	sehr	_	O	O	
+8-13	zierlichen	ADJA	zierlich	_	O	O	
+8-14	weißen	ADJA	weiß	_	O	O	
+8-15	Esel	NN	Esel	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	der	PRELS	die	_	O	O	
+8-18	den	ART	die	_	O	O	
+8-19	Namen	NN	Name	_	O	O	
+8-20	Mariuccia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-21	führt	VVFIN	führen	_	O	O	
+8-22	.	$.	.	_	O	O	
+
+#id=9
+#text=Die Villa, wo wir wohnen, hat eine prachtvolle Aussicht auf den Golf und den Vesuv.
+9-1	Die	ART	die	_	O	O	
+9-2	Villa	NN	Villa	_	O	O	
+9-3	,	$,	,	_	O	O	
+9-4	wo	PWAV	wo	_	O	O	
+9-5	wir	PPER	wir	_	O	O	
+9-6	wohnen	VVFIN	wohnen	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	hat	VAFIN	haben	_	O	O	
+9-9	eine	ART	eine	_	O	O	
+9-10	prachtvolle	ADJA	prachtvoll	_	O	O	
+9-11	Aussicht	NN	Aussicht	_	O	O	
+9-12	auf	APPR	auf	_	O	O	
+9-13	den	ART	die	_	O	O	
+9-14	Golf	NN	Golf	_	O	O	
+9-15	und	KON	und	_	O	O	
+9-16	den	ART	die	_	O	O	
+9-17	Vesuv	NN	Vesuv	_	O	O	
+9-18	.	$.	.	_	O	O	
+
+#id=10
+#text=Das Leben ist billig, aber auch etwas uncivilisirt, wie Sie es aus der Qualität dieser im Qui si sana erworbenen Tinte ersehen werden.
+10-1	Das	ART	die	_	O	O	
+10-2	Leben	NN	Leben	_	O	O	
+10-3	ist	VAFIN	sein	_	O	O	
+10-4	billig	ADJD	billig	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	aber	KON	aber	_	O	O	
+10-7	auch	ADV	auch	_	O	O	
+10-8	etwas	ADV	etwas	_	O	O	
+10-9	uncivilisirt	ADJD	<unknown>	_	O	O	
+10-10	,	$,	,	_	O	O	
+10-11	wie	KOUS	wie	_	O	O	
+10-12	Sie	PPER	Sie	_	O	O	
+10-13	es	PPER	es	_	O	O	
+10-14	aus	APPR	aus	_	O	O	
+10-15	der	ART	die	_	O	O	
+10-16	Qualität	NN	Qualität	_	O	O	
+10-17	dieser	PDAT	dies	_	O	O	
+10-18	im	APPRART	in	_	O	O	
+10-19	Qui	NE	<unknown>	_	O	O	
+10-20	si	VVFIN	<unknown>	_	O	O	
+10-21	sana	NE	Sana	_	O	O	
+10-22	erworbenen	ADJA	erworben	_	O	O	
+10-23	Tinte	NN	Tinte	_	O	O	
+10-24	ersehen	VVPP	ersehen	_	O	O	
+10-25	werden	VAINF	werden	_	O	O	
+10-26	.	$.	.	_	O	O	
+
+#id=11
+#text=Jeder nicht zum täglichen Lebensbedarf gehörige Gegenstand muß aus CasteIlamare beschafft werden, bis wohin d. h. bis zur Piazza wir immerhin eine halbe Stunde zu gehen haben.
+11-1	Jeder	PIAT	jede	_	O	O	
+11-2	nicht	PTKNEG	nicht	_	O	O	
+11-3	zum	APPRART	zu	_	O	O	
+11-4	täglichen	ADJA	täglich	_	O	O	
+11-5	Lebensbedarf	NN	Lebensbedarf	_	O	O	
+11-6	gehörige	ADJA	gehörig	_	O	O	
+11-7	Gegenstand	NN	Gegenstand	_	O	O	
+11-8	muß	VMFIN	müssen	_	O	O	
+11-9	aus	APPR	aus	_	O	O	
+11-10	CasteIlamare	ADJA	<unknown>	_	O	O	
+11-11	beschafft	VVPP	beschaffen	_	O	O	
+11-12	werden	VAINF	werden	_	O	O	
+11-13	,	$,	,	_	O	O	
+11-14	bis	APPR	bis	_	O	O	
+11-15	wohin	PWAV	wohin	_	O	O	
+11-16	d.	PDS	d.	_	O	O	
+11-17	h.	VVFIN	heißen	_	O	O	
+11-18	bis	KON	bis	_	O	O	
+11-19	zur	APPRART	zu	_	O	O	
+11-20	Piazza	NE	<unknown>	_	O	O	
+11-21	wir	PPER	wir	_	O	O	
+11-22	immerhin	ADV	immerhin	_	O	O	
+11-23	eine	ART	eine	_	O	O	
+11-24	halbe	ADJA	halb	_	O	O	
+11-25	Stunde	NN	Stunde	_	O	O	
+11-26	zu	PTKZU	zu	_	O	O	
+11-27	gehen	VVINF	gehen	_	O	O	
+11-28	haben	VAINF	haben	_	O	O	
+11-29	.	$.	.	_	O	O	
+
+#id=12
+#text=Viele Grüße an Fräulein Kopf und nochmals tausend Entschuldigungen.
+12-1	Viele	PIAT	viele	_	O	O	
+12-2	Grüße	NN	Gruß	_	O	O	
+12-3	an	APPR	an	_	O	O	
+12-4	Fräulein	NN	Fräulein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-5	Kopf	NN	Kopf	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+12-6	und	KON	und	_	O	O	
+12-7	nochmals	ADV	nochmals	_	O	O	
+12-8	tausend	CARD	tausend	_	O	O	
+12-9	Entschuldigungen	NN	Entschuldigung	_	O	O	
+12-10	.	$.	.	_	O	O	
+
+#id=13
+#text=Ihr ergebener Helbig
+13-1	Ihr	PPOSAT	ihr	_	O	O	
+13-2	ergebener	ADJA	ergeben	_	O	O	
+13-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

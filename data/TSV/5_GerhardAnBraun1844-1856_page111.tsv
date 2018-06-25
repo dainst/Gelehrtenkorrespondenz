@@ -1,0 +1,221 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=83 Gerhard an Braun Berlin, 25. Februar 1845 A. d. Dir.
+1-1	83	CARD	83	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	A.	APPR	an	_	O	O	
+1-12	d.	ART	d.	_	O	O	
+1-13	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=g. 10/111 45 r. 14/111 45 Dr. Braun Berlin 25 Febr 45 Mein theurer Freund.
+2-1	g.	ADJA	<unknown>	_	O	O	
+2-2	10/111	CARD	@card@	_	O	O	
+2-3	45	CARD	45	_	O	O	
+2-4	r.	ADJA	<unknown>	_	O	O	
+2-5	14/111	CARD	@card@	_	O	O	
+2-6	45	CARD	45	_	O	O	
+2-7	Dr.	NN	Dr.	_	O	O	
+2-8	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-10	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-11	Febr	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-13	Mein	PPOSAT	mein	_	O	O	
+2-14	theurer	ADJA	<unknown>	_	O	O	
+2-15	Freund	NN	Freund	_	O	O	
+2-16	.	$.	.	_	O	O	
+
+#id=3
+#text=Sie erhalten anbei meine Abhandlung über die Hermen, die ich ausführlicher zu geben denke als in dieser Gelegenheitsschrift.
+3-1	Sie	PPER	Sie	_	O	O	
+3-2	erhalten	VVFIN	erhalten	_	O	O	
+3-3	anbei	ADV	anbei	_	O	O	
+3-4	meine	PPOSAT	mein	_	O	O	
+3-5	Abhandlung	NN	Abhandlung	_	O	O	
+3-6	über	APPR	über	_	O	O	
+3-7	die	ART	die	_	O	O	
+3-8	Hermen	NN	<unknown>	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	die	PRELS	die	_	O	O	
+3-11	ich	PPER	ich	_	O	O	
+3-12	ausführlicher	ADJD	ausführlich	_	O	O	
+3-13	zu	PTKZU	zu	_	O	O	
+3-14	geben	VVINF	geben	_	O	O	
+3-15	denke	VVFIN	denken	_	O	O	
+3-16	als	KOKOM	als	_	O	O	
+3-17	in	APPR	in	_	O	O	
+3-18	dieser	PDAT	dies	_	O	O	
+3-19	Gelegenheitsschrift	NN	<unknown>	_	O	O	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=Franz druckt an Aeschylus Latein und Deutsch und ist mit dem florentiner Corr.
+4-1	Franz	NE	Franz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	druckt	VVFIN	drucken	_	O	O	
+4-3	an	APPR	an	_	O	O	
+4-4	Aeschylus	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	Latein	NN	Latein	_	O	O	
+4-6	und	KON	und	_	O	O	
+4-7	Deutsch	NN	deutsch	_	O	O	
+4-8	und	KON	und	_	O	O	
+4-9	ist	VAFIN	sein	_	O	O	
+4-10	mit	APPR	mit	_	O	O	
+4-11	dem	ART	die	_	O	O	
+4-12	florentiner	ADJA	<unknown>	_	O	O	
+4-13	Corr	NN	<unknown>	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=zufrieden.
+5-1	zufrieden	ADJD	zufrieden	_	O	O	
+5-2	.	$.	.	_	O	O	
+
+#id=6
+#text=Er reclamirt die Annalen seit 1842; ich werde sie bei Brockhaus anweisen.
+6-1	Er	PPER	er	_	O	O	
+6-2	reclamirt	VVFIN	<unknown>	_	O	O	
+6-3	die	ART	die	_	O	O	
+6-4	Annalen	NN	Annalen	_	O	O	
+6-5	seit	APPR	seit	_	O	O	
+6-6	1842	CARD	1842	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-7	;	$.	;	_	O	O	
+6-8	ich	PPER	ich	_	O	O	
+6-9	werde	VAFIN	werden	_	O	O	
+6-10	sie	PPER	sie	_	O	O	
+6-11	bei	APPR	bei	_	O	O	
+6-12	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-13	anweisen	VVINF	anweisen	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Fatal daß die Monumenti 1843 ohne Imhalt des Bandes 111 geliefert sind.
+7-1	Fatal	ADJD	fatal	_	O	O	
+7-2	daß	KOUS	dass	_	O	O	
+7-3	die	ART	die	_	O	O	
+7-4	Monumenti	NN	<unknown>	_	O	O	
+7-5	1843	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-6	ohne	APPR	ohne	_	O	O	
+7-7	Imhalt	NN	<unknown>	_	O	O	
+7-8	des	ART	die	_	O	O	
+7-9	Bandes	NN	Band	_	O	O	
+7-10	111	CARD	@card@	_	O	O	
+7-11	geliefert	VVPP	liefern	_	O	O	
+7-12	sind	VAFIN	sein	_	O	O	
+7-13	.	$.	.	_	O	O	
+
+#id=8
+#text=Was ist aus der Statue des Hermaphrodit geworden der einen Amor hält, eine der Chablais'schen ?
+8-1	Was	PWS	was	_	O	O	
+8-2	ist	VAFIN	sein	_	O	O	
+8-3	aus	APPR	aus	_	O	O	
+8-4	der	ART	die	_	O	O	
+8-5	Statue	NN	Statue	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-6	des	ART	die	_	O	O	
+8-7	Hermaphrodit	NN	Hermaphrodit	_	O	O	
+8-8	geworden	VAPP	werden	_	O	O	
+8-9	der	PRELS	die	_	O	O	
+8-10	einen	ART	eine	_	O	O	
+8-11	Amor	NN	Amor	_	O	O	
+8-12	hält	VVFIN	halten	_	O	O	
+8-13	,	$,	,	_	O	O	
+8-14	eine	PIS	eine	_	O	O	
+8-15	der	ART	die	_	O	O	
+8-16	Chablais'schen	NN	<unknown>	_	O	O	
+8-17	?	$.	?	_	O	O	
+
+#id=9
+#text=Auch in den Kellern?
+9-1	Auch	ADV	auch	_	O	O	
+9-2	in	APPR	in	_	O	O	
+9-3	den	ART	die	_	O	O	
+9-4	Kellern	NN	Keller	_	O	O	
+9-5	?	$.	?	_	O	O	
+
+#id=10
+#text=Haben Sie die kapitolinische sogenannte Hermathene neuerdings genau observirt?
+10-1	Haben	VAFIN	haben	_	O	O	
+10-2	Sie	PPER	Sie	_	O	O	
+10-3	die	ART	die	_	O	O	
+10-4	kapitolinische	ADJA	<unknown>	_	O	O	
+10-5	sogenannte	ADJA	sogenannt	_	O	O	
+10-6	Hermathene	NN	<unknown>	_	O	O	
+10-7	neuerdings	ADV	neuerdings	_	O	O	
+10-8	genau	ADJD	genau	_	O	O	
+10-9	observirt	NN	<unknown>	_	O	O	
+10-10	?	$.	?	_	O	O	
+
+#id=11
+#text=Meine Notiz darüber ist mit den Noten zur Hermenabhandlung verloren gegangen, ich glaube mich.
+11-1	Meine	PPOSAT	mein	_	O	O	
+11-2	Notiz	NN	Notiz	_	O	O	
+11-3	darüber	PAV	darüber	_	O	O	
+11-4	ist	VAFIN	sein	_	O	O	
+11-5	mit	APPR	mit	_	O	O	
+11-6	den	ART	die	_	O	O	
+11-7	Noten	NN	Note	_	O	O	
+11-8	zur	APPRART	zu	_	O	O	
+11-9	Hermenabhandlung	NN	<unknown>	_	O	O	
+11-10	verloren	VVPP	verlieren	_	O	O	
+11-11	gegangen	VVPP	gehen	_	O	O	
+11-12	,	$,	,	_	O	O	
+11-13	ich	PPER	ich	_	O	O	
+11-14	glaube	VVFIN	glauben	_	O	O	
+11-15	mich	PRF	ich	_	O	O	
+11-16	.	$.	.	_	O	O	
+
+#id=12
+#text=aber zu erinnern, daß ich ein Doppelbild einer kriegerischen Minerva und einer Ergane erkannte.
+12-1	aber	ADV	aber	_	O	O	
+12-2	zu	PTKZU	zu	_	O	O	
+12-3	erinnern	VVINF	erinnern	_	O	O	
+12-4	,	$,	,	_	O	O	
+12-5	daß	KOUS	dass	_	O	O	
+12-6	ich	PPER	ich	_	O	O	
+12-7	ein	ART	eine	_	O	O	
+12-8	Doppelbild	NN	Doppelbild	_	O	O	
+12-9	einer	ART	eine	_	O	O	
+12-10	kriegerischen	ADJA	kriegerisch	_	O	O	
+12-11	Minerva	NE	Minerva	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-12	und	KON	und	_	O	O	
+12-13	einer	ART	eine	_	O	O	
+12-14	Ergane	NN	<unknown>	_	O	O	
+12-15	erkannte	VVFIN	erkennen	_	O	O	
+12-16	.	$.	.	_	O	O	
+
+#id=13
+#text=Daß Wagner seine Wahl zum Membro onorario della Direzione officiell erhalten und acceptirt hat, fahre ich fort vorauszusetzen indem ich das Diplom mit Inbe-
+13-1	Daß	KOUS	dass	_	O	O	
+13-2	Wagner	NE	Wagner	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-3	seine	PPOSAT	sein	_	O	O	
+13-4	Wahl	NN	Wahl	_	O	O	
+13-5	zum	APPRART	zu	_	O	O	
+13-6	Membro	NN	<unknown>	_	O	O	
+13-7	onorario	NE	<unknown>	_	O	O	
+13-8	della	NE	Della	_	O	O	
+13-9	Direzione	NE	<unknown>	_	O	O	
+13-10	officiell	ADJD	<unknown>	_	O	O	
+13-11	erhalten	VVPP	erhalten	_	O	O	
+13-12	und	KON	und	_	O	O	
+13-13	acceptirt	ADJD	<unknown>	_	O	O	
+13-14	hat	VAFIN	haben	_	O	O	
+13-15	,	$,	,	_	O	O	
+13-16	fahre	VVFIN	fahren	_	O	O	
+13-17	ich	PPER	ich	_	O	O	
+13-18	fort	ADV	fort	_	O	O	
+13-19	vorauszusetzen	VVIZU	voraussetzen	_	O	O	
+13-20	indem	KOUS	indem	_	O	O	
+13-21	ich	PPER	ich	_	O	O	
+13-22	das	ART	die	_	O	O	
+13-23	Diplom	NN	Diplom	_	O	O	
+13-24	mit	APPR	mit	_	O	O	
+13-25	Inbe-	TRUNC	<unknown>	_	O	O	
+

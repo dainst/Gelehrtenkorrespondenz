@@ -1,0 +1,229 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=19 H Helbig an Henzen Rom, 21. August 1865 g. 23/8 65 r.
+1-1	19	CARD	19	_	O	O	
+1-2	H	NN	H	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1865	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	g.	VVFIN	<unknown>	_	O	O	
+1-13	23/8	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-14	65	CARD	65	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-15	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=24/8 65 Rom 21/8 65. Lieber Herr Professor 1 Erst heut habe ich Ihren lieben Brief vom 17. erhalten.
+2-1	24/8	CARD	@card@	_	O	O	
+2-2	65	CARD	65	_	O	O	
+2-3	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	21/8	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	65	CARD	65	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	.	$.	.	_	O	O	
+2-7	Lieber	ADJA	lieb	_	O	O	
+2-8	Herr	NN	Herr	_	O	O	
+2-9	Professor	NN	Professor	_	O	O	
+2-10	1	CARD	1	_	O	O	
+2-11	Erst	ADV	erst	_	O	O	
+2-12	heut	VVFIN	heuen	_	O	O	
+2-13	habe	VAFIN	haben	_	O	O	
+2-14	ich	PPER	ich	_	O	O	
+2-15	Ihren	PPOSAT	ihr	_	O	O	
+2-16	lieben	ADJA	lieb	_	O	O	
+2-17	Brief	NN	Brief	_	O	O	
+2-18	vom	APPRART	von	_	O	O	
+2-19	17	CARD	17	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-21	erhalten	VVPP	erhalten	_	O	O	
+2-22	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Hoffnung, Sie in Olevano auf einige Tage besuchen zu können, ist wiederum zu Wasser geworden, diesmal durch wirklich ganz unverantwortliche Nachlässigkeit des Chefs der Druckerei.
+3-1	Die	ART	die	_	O	O	
+3-2	Hoffnung	NN	Hoffnung	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	Sie	PPER	Sie	_	O	O	
+3-5	in	APPR	in	_	O	O	
+3-6	Olevano	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-7	auf	APPR	auf	_	O	O	
+3-8	einige	PIAT	einige	_	O	O	
+3-9	Tage	NN	Tag	_	O	O	
+3-10	besuchen	VVINF	besuchen	_	O	O	
+3-11	zu	PTKZU	zu	_	O	O	
+3-12	können	VMINF	können	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	ist	VAFIN	sein	_	O	O	
+3-15	wiederum	ADV	wiederum	_	O	O	
+3-16	zu	APPR	zu	_	O	O	
+3-17	Wasser	NN	Wasser	_	O	O	
+3-18	geworden	VAPP	werden	_	O	O	
+3-19	,	$,	,	_	O	O	
+3-20	diesmal	ADV	diesmal	_	O	O	
+3-21	durch	APPR	durch	_	O	O	
+3-22	wirklich	ADJD	wirklich	_	O	O	
+3-23	ganz	ADV	ganz	_	O	O	
+3-24	unverantwortliche	ADJA	unverantwortlich	_	O	O	
+3-25	Nachlässigkeit	NN	Nachlässigkeit	_	O	O	
+3-26	des	ART	die	_	O	O	
+3-27	Chefs	NN	Chef	_	O	O	
+3-28	der	ART	die	_	O	O	
+3-29	Druckerei	NN	Druckerei	_	O	O	
+3-30	.	$.	.	_	O	O	
+
+#id=4
+#text=Bereits Donnerstag hatte ich für das erste Foglio des Bullettino das "si stampi" gegeben und trotzdem hat dieser Lump erst heut sich dazu bequemt, den Druck zu beginnen.
+4-1	Bereits	ADV	bereits	_	O	O	
+4-2	Donnerstag	NN	Donnerstag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-3	hatte	VAFIN	haben	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	für	APPR	für	_	O	O	
+4-6	das	ART	die	_	O	O	
+4-7	erste	ADJA	erst	_	O	O	
+4-8	Foglio	NN	<unknown>	_	O	O	
+4-9	des	ART	die	_	O	O	
+4-10	Bullettino	NN	<unknown>	_	O	O	
+4-11	das	ART	die	_	O	O	
+4-12	"	$(	"	_	O	O	
+4-13	si	ADJA	<unknown>	_	O	O	
+4-14	stampi	NN	<unknown>	_	O	O	
+4-15	"	$(	"	_	O	O	
+4-16	gegeben	VVPP	geben	_	O	O	
+4-17	und	KON	und	_	O	O	
+4-18	trotzdem	PAV	trotzdem	_	O	O	
+4-19	hat	VAFIN	haben	_	O	O	
+4-20	dieser	PDAT	dies	_	O	O	
+4-21	Lump	NN	Lump	_	O	O	
+4-22	erst	ADV	erst	_	O	O	
+4-23	heut	VVFIN	heuen	_	O	O	
+4-24	sich	PRF	sich	_	O	O	
+4-25	dazu	PAV	dazu	_	O	O	
+4-26	bequemt	VVPP	bequemen	_	O	O	
+4-27	,	$,	,	_	O	O	
+4-28	den	ART	die	_	O	O	
+4-29	Druck	NN	Druck	_	O	O	
+4-30	zu	PTKZU	zu	_	O	O	
+4-31	beginnen	VVINF	beginnen	_	O	O	
+4-32	.	$.	.	_	O	O	
+
+#id=5
+#text=Es ist nunmehr das zweite Foglio vorzunehmen, wo für die G~ruccischen Siglen, die fast stets nur einmal wiederkehreh, derselbe Tanz beginnen wird.
+5-1	Es	PPER	es	_	O	O	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	nunmehr	ADV	nunmehr	_	O	O	
+5-4	das	ART	die	_	O	O	
+5-5	zweite	ADJA	zweit	_	O	O	
+5-6	Foglio	NN	<unknown>	_	O	O	
+5-7	vorzunehmen	VVIZU	vornehmen	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	wo	PWAV	wo	_	O	O	
+5-10	für	APPR	für	_	O	O	
+5-11	die	ART	die	_	O	O	
+5-12	G~ruccischen	NN	<unknown>	_	O	O	
+5-13	Siglen	NE	<unknown>	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	die	PRELS	die	_	O	O	
+5-16	fast	ADV	fast	_	O	O	
+5-17	stets	ADV	stets	_	O	O	
+5-18	nur	ADV	nur	_	O	O	
+5-19	einmal	ADV	einmal	_	O	O	
+5-20	wiederkehreh	NN	<unknown>	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	derselbe	PDAT	derselb	_	O	O	
+5-23	Tanz	NN	Tanz	_	O	O	
+5-24	beginnen	VVINF	beginnen	_	O	O	
+5-25	wird	VAFIN	werden	_	O	O	
+5-26	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich habe an Puccinelli einen fulminanten Brief gerichtet.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	habe	VAFIN	haben	_	O	O	
+6-3	an	APPR	an	_	O	O	
+6-4	Puccinelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	einen	ART	eine	_	O	O	
+6-6	fulminanten	ADJA	fulminant	_	O	O	
+6-7	Brief	NN	Brief	_	O	O	
+6-8	gerichtet	VVPP	richten	_	O	O	
+6-9	.	$.	.	_	O	O	
+
+#id=7
+#text=Wiederholte Mahnungen an Viscontino, die Gemälde von Ostia zum Stiche zu schicken, sind ebenfalls erfolglos geblieben der Mensch macht in Frascati Villeggiatur und kommt nie nach Rom.
+7-1	Wiederholte	ADJA	wiederholt	_	O	O	
+7-2	Mahnungen	NN	Mahnung	_	O	O	
+7-3	an	APPR	an	_	O	O	
+7-4	Viscontino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-5	,	$,	,	_	O	O	
+7-6	die	ART	die	_	O	O	
+7-7	Gemälde	NN	Gemälde	_	B-webanno.custom.LetterEntity_	B-OBJ	
+7-8	von	APPR	von	_	O	O	
+7-9	Ostia	NN	<unknown>	_	O	O	
+7-10	zum	APPRART	zu	_	O	O	
+7-11	Stiche	NN	Stich	_	O	O	
+7-12	zu	PTKZU	zu	_	O	O	
+7-13	schicken	VVINF	schicken	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	sind	VAFIN	sein	_	O	O	
+7-16	ebenfalls	ADV	ebenfalls	_	O	O	
+7-17	erfolglos	ADJD	erfolglos	_	O	O	
+7-18	geblieben	VVPP	bleiben	_	O	O	
+7-19	der	ART	die	_	O	O	
+7-20	Mensch	NN	Mensch	_	O	O	
+7-21	macht	VVFIN	machen	_	O	O	
+7-22	in	APPR	in	_	O	O	
+7-23	Frascati	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-24	Villeggiatur	NN	<unknown>	_	O	O	
+7-25	und	KON	und	_	O	O	
+7-26	kommt	VVFIN	kommen	_	O	O	
+7-27	nie	ADV	nie	_	O	O	
+7-28	nach	APPR	nach	_	O	O	
+7-29	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-30	.	$.	.	_	O	O	
+
+#id=8
+#text=Es schiene mir sehr am Platze, ein Exempel zu statuiren und seinen ohnehin vermuthlich nichtssagenden Artikel für den nächsten Jahrgang aufzusparen.
+8-1	Es	PPER	es	_	O	O	
+8-2	schiene	VVFIN	scheinen	_	O	O	
+8-3	mir	PPER	ich	_	O	O	
+8-4	sehr	ADV	sehr	_	O	O	
+8-5	am	APPRART	an	_	O	O	
+8-6	Platze	NN	Platz	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	ein	ART	eine	_	O	O	
+8-9	Exempel	NN	Exempel	_	O	O	
+8-10	zu	APPR	zu	_	O	O	
+8-11	statuiren	NN	<unknown>	_	O	O	
+8-12	und	KON	und	_	O	O	
+8-13	seinen	PPOSAT	sein	_	O	O	
+8-14	ohnehin	ADV	ohnehin	_	O	O	
+8-15	vermuthlich	ADJD	<unknown>	_	O	O	
+8-16	nichtssagenden	ADJA	nichtssagend	_	O	O	
+8-17	Artikel	NN	Artikel	_	O	O	
+8-18	für	APPR	für	_	O	O	
+8-19	den	ART	die	_	O	O	
+8-20	nächsten	ADJA	nah	_	O	O	
+8-21	Jahrgang	NN	Jahrgang	_	O	O	
+8-22	aufzusparen	VVIZU	aufsparen	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=Von Brunn ebenfalls sehe ich der Antwort betreffs der Cornetaner Gemälde vergeblich entgegen.
+9-1	Von	APPR	von	_	O	O	
+9-2	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-3	ebenfalls	ADV	ebenfalls	_	O	O	
+9-4	sehe	VVFIN	sehen	_	O	O	
+9-5	ich	PPER	ich	_	O	O	
+9-6	der	ART	die	_	O	O	
+9-7	Antwort	NN	Antwort	_	O	O	
+9-8	betreffs	NN	Betreff	_	O	O	
+9-9	der	ART	die	_	O	O	
+9-10	Cornetaner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-11	Gemälde	NN	Gemälde	_	I-webanno.custom.LetterEntity_	I-OBJ	
+9-12	vergeblich	ADJD	vergeblich	_	O	O	
+9-13	entgegen	PTKVZ	entgegen	_	O	O	
+9-14	.	$.	.	_	O	O	
+

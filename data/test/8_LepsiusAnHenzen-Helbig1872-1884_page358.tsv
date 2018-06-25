@@ -1,0 +1,219 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=502 L Mein verehrter Freund Lepsius an Helbig Berlin, 26. Juni 1883 Berlin C. 26. Juni 1883 Ich freue mich, daß das Bild bei Hoskins Ihnen den Gefallen thut, den Korb voll Chesbet, von den Kefa, den Phöniziern bringen zu lassen.
+1-1	502	CARD	@card@	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Mein	PPOSAT	mein	_	O	O	
+1-4	verehrter	ADJA	verehrt	_	O	O	
+1-5	Freund	NE	Freund	_	O	O	
+1-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	an	APPR	an	_	O	O	
+1-8	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1883	ADJA	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-16	C.	NE	C.	_	O	O	
+1-17	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	1883	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Ich	PPER	ich	_	O	O	
+1-22	freue	VVFIN	freuen	_	O	O	
+1-23	mich	PRF	ich	_	O	O	
+1-24	,	$,	,	_	O	O	
+1-25	daß	KOUS	dass	_	O	O	
+1-26	das	ART	die	_	O	O	
+1-27	Bild	NN	Bild	_	O	O	
+1-28	bei	APPR	bei	_	O	O	
+1-29	Hoskins	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-30	Ihnen	PPER	Sie	_	O	O	
+1-31	den	ART	die	_	O	O	
+1-32	Gefallen	NN	Gefallen	_	O	O	
+1-33	thut	NN	<unknown>	_	O	O	
+1-34	,	$,	,	_	O	O	
+1-35	den	ART	die	_	O	O	
+1-36	Korb	NN	Korb	_	O	O	
+1-37	voll	ADJD	voll	_	O	O	
+1-38	Chesbet	NE	<unknown>	_	O	O	
+1-39	,	$,	,	_	O	O	
+1-40	von	APPR	von	_	O	O	
+1-41	den	ART	die	_	O	O	
+1-42	Kefa	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-43	,	$,	,	_	O	O	
+1-44	den	ART	die	_	O	O	
+1-45	Phöniziern	NN	Phönizier	_	O	O	
+1-46	bringen	VVINF	bringen	_	O	O	
+1-47	zu	PTKZU	zu	_	O	O	
+1-48	lassen	VVINF	lassen	_	O	O	
+1-49	.	$.	.	_	O	O	
+
+#id=2
+#text=Der Name Xesbet stand ursprünglich darüber.
+2-1	Der	ART	die	_	O	O	
+2-2	Name	NN	Name	_	O	O	
+2-3	Xesbet	NE	<unknown>	_	O	O	
+2-4	stand	VVFIN	stehen	_	O	O	
+2-5	ursprünglich	ADJD	ursprünglich	_	O	O	
+2-6	darüber	PAV	darüber	_	O	O	
+2-7	.	$.	.	_	O	O	
+
+#id=3
+#text=Sie finden übrigesn über die Bezugsarten des xesbet Alles Nöthige in meiner Abhandlung, '.P..!
+3-1	Sie	PPER	Sie	_	O	O	
+3-2	finden	VVFIN	finden	_	O	O	
+3-3	übrigesn	NE	<unknown>	_	O	O	
+3-4	über	APPR	über	_	O	O	
+3-5	die	ART	die	_	O	O	
+3-6	Bezugsarten	NN	<unknown>	_	O	O	
+3-7	des	ART	die	_	O	O	
+3-8	xesbet	NE	<unknown>	_	O	O	
+3-9	Alles	PIAT	alle	_	O	O	
+3-10	Nöthige	NN	<unknown>	_	O	O	
+3-11	in	APPR	in	_	O	O	
+3-12	meiner	PPOSAT	mein	_	O	O	
+3-13	Abhandlung	NN	Abhandlung	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	'	$(	'	_	O	O	
+3-16	.P.	NN	<unknown>	_	O	O	
+3-17	.	$.	.	_	O	O	
+3-18	!	$.	!	_	O	O	
+
+#id=4
+#text=JCV in der unter AnderemtaUch steht, daß dieser Tribut auch aus Phönizien kam, theils ungebrannter d. h. ächter, ohne Zweifel aus BabyIon und weiter her vermittelt, theils gebrannter, d. h. unächter.
+4-1	JCV	NE	<unknown>	_	O	O	
+4-2	in	APPR	in	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	unter	APPR	unter	_	O	O	
+4-5	AnderemtaUch	NN	<unknown>	_	O	O	
+4-6	steht	VVFIN	stehen	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	daß	KOUS	dass	_	O	O	
+4-9	dieser	PDAT	dies	_	O	O	
+4-10	Tribut	NN	Tribut	_	O	O	
+4-11	auch	ADV	auch	_	O	O	
+4-12	aus	APPR	aus	_	O	O	
+4-13	Phönizien	NE	Phönizien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-14	kam	VVFIN	kommen	_	O	O	
+4-15	,	$,	,	_	O	O	
+4-16	theils	ADJD	<unknown>	_	O	O	
+4-17	ungebrannter	ADJD	<unknown>	_	O	O	
+4-18	d.	PDS	d.	_	O	O	
+4-19	h.	VVFIN	heißen	_	O	O	
+4-20	ächter	ADJD	<unknown>	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	ohne	KOUI	ohne	_	O	O	
+4-23	Zweifel	NN	Zweifel	_	O	O	
+4-24	aus	APPR	aus	_	O	O	
+4-25	BabyIon	NN	<unknown>	_	O	O	
+4-26	und	KON	und	_	O	O	
+4-27	weiter	ADV	weiter	_	O	O	
+4-28	her	APZR	her	_	O	O	
+4-29	vermittelt	VVPP	vermitteln	_	O	O	
+4-30	,	$,	,	_	O	O	
+4-31	theils	ADJA	<unknown>	_	O	O	
+4-32	gebrannter	ADJA	gebrannt	_	O	O	
+4-33	,	$,	,	_	O	O	
+4-34	d.	PDS	d.	_	O	O	
+4-35	h.	VVFIN	heißen	_	O	O	
+4-36	unächter	ADJD	<unknown>	_	O	O	
+4-37	.	$.	.	_	O	O	
+
+#id=5
+#text=Mi~ geht es verhältnismäßig gut, wie es Ihnen hoffentlich immer geht.
+5-1	Mi~	NE	<unknown>	_	O	O	
+5-2	geht	VVFIN	gehen	_	O	O	
+5-3	es	PPER	es	_	O	O	
+5-4	verhältnismäßig	ADJD	verhältnismäßig	_	O	O	
+5-5	gut	ADJD	gut	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	wie	KOUS	wie	_	O	O	
+5-8	es	PPER	es	_	O	O	
+5-9	Ihnen	PPER	Sie	_	O	O	
+5-10	hoffentlich	ADV	hoffentlich	_	O	O	
+5-11	immer	ADV	immer	_	O	O	
+5-12	geht	VVFIN	gehen	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Empfehlen Sie mich Herrn von KeudelI und Henzen.
+6-1	Empfehlen	VVFIN	empfehlen	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	mich	PRF	ich	_	O	O	
+6-4	Herrn	NN	Herr	_	O	O	
+6-5	von	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-6	KeudelI	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-7	und	KON	und	_	O	O	
+6-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-9	.	$.	.	_	O	O	
+
+#id=7
+#text=Meine Berliner Adresse ist jetzt Kleiststraße N. 1, wo ich mir ein neues Haus gebaut habe nach Abbruch des alten, gänzlich verstadteten.
+7-1	Meine	PPOSAT	mein	_	O	O	
+7-2	Berliner	ADJA	Berliner	_	O	O	
+7-3	Adresse	NN	Adresse	_	O	O	
+7-4	ist	VAFIN	sein	_	O	O	
+7-5	jetzt	ADV	jetzt	_	O	O	
+7-6	Kleiststraße	NN	Kleiststraße	_	O	O	
+7-7	N.	APPR	n.	_	O	O	
+7-8	1	CARD	1	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	wo	PWAV	wo	_	O	O	
+7-11	ich	PPER	ich	_	O	O	
+7-12	mir	PRF	ich	_	O	O	
+7-13	ein	ART	eine	_	O	O	
+7-14	neues	ADJA	neu	_	O	O	
+7-15	Haus	NN	Haus	_	O	O	
+7-16	gebaut	VVPP	bauen	_	O	O	
+7-17	habe	VAFIN	haben	_	O	O	
+7-18	nach	APPR	nach	_	O	O	
+7-19	Abbruch	NN	Abbruch	_	O	O	
+7-20	des	ART	die	_	O	O	
+7-21	alten	ADJA	alt	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	gänzlich	ADJD	gänzlich	_	O	O	
+7-24	verstadteten	VVFIN	<unknown>	_	O	O	
+7-25	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich habe Ihnen noch nicht direkt meinen herz lichen Dank gesagt für Ihr freundliches Gedenken an meinem Jubiläumstage.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	habe	VAFIN	haben	_	O	O	
+8-3	Ihnen	PPER	Sie	_	O	O	
+8-4	noch	ADV	noch	_	O	O	
+8-5	nicht	PTKNEG	nicht	_	O	O	
+8-6	direkt	ADJD	direkt	_	O	O	
+8-7	meinen	PPOSAT	mein	_	O	O	
+8-8	herz	VVIMP	herzen	_	O	O	
+8-9	lichen	ADJA	<unknown>	_	O	O	
+8-10	Dank	NN	Dank	_	O	O	
+8-11	gesagt	VVPP	sagen	_	O	O	
+8-12	für	APPR	für	_	O	O	
+8-13	Ihr	PPOSAT	ihr	_	O	O	
+8-14	freundliches	ADJA	freundlich	_	O	O	
+8-15	Gedenken	NN	Gedenken	_	O	O	
+8-16	an	APPR	an	_	O	O	
+8-17	meinem	PPOSAT	mein	_	O	O	
+8-18	Jubiläumstage	NN	Jubiläumstag	_	O	O	
+8-19	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich hole es hier nach.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	hole	VVFIN	holen	_	O	O	
+9-3	es	PPER	es	_	O	O	
+9-4	hier	ADV	hier	_	O	O	
+9-5	nach	PTKVZ	nach	_	O	O	
+9-6	.	$.	.	_	O	O	
+
+#id=10
+#text=Ihr stets getreuer R Lepsius
+10-1	Ihr	PPOSAT	ihr	_	O	O	
+10-2	stets	ADV	stets	_	O	O	
+10-3	getreuer	ADJA	getreu	_	O	O	
+10-4	R	NN	R	_	O	O	
+10-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

@@ -1,0 +1,228 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=62 L Verehrter Freund Lepsius an Henzen Berlin, 12. Februar 1872 g. 16/2 72 Berlin den 12. Febr.
+1-1	62	CARD	@card@	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Verehrter	ADJA	verehrt	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	16/2	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	72	CARD	72	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-18	den	ART	die	_	O	O	
+1-19	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Febr.	NN	Febr.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1872 Ich bedaure wenn der Fortgang der Bauangelegenheit Ihren Wünschen nicht entspricht.
+2-1	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Ich	PPER	ich	_	O	O	
+2-3	bedaure	VVFIN	bedauern	_	O	O	
+2-4	wenn	KOUS	wenn	_	O	O	
+2-5	der	ART	die	_	O	O	
+2-6	Fortgang	NN	Fortgang	_	O	O	
+2-7	der	ART	die	_	O	O	
+2-8	Bauangelegenheit	NN	<unknown>	_	O	O	
+2-9	Ihren	PPOSAT	ihr	_	O	O	
+2-10	Wünschen	NN	Wunsch	_	O	O	
+2-11	nicht	PTKNEG	nicht	_	O	O	
+2-12	entspricht	VVFIN	entsprechen	_	O	O	
+2-13	.	$.	.	_	O	O	
+
+#id=3
+#text=Er entspricht auch den unsrigen nicht, in dem wir sie am liebsten schon ganz hinter uns hätten.
+3-1	Er	PPER	er	_	O	O	
+3-2	entspricht	VVFIN	entsprechen	_	O	O	
+3-3	auch	ADV	auch	_	O	O	
+3-4	den	ART	die	_	O	O	
+3-5	unsrigen	PPOSAT	unsrig	_	O	O	
+3-6	nicht	PTKNEG	nicht	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	in	APPR	in	_	O	O	
+3-9	dem	PRELS	die	_	O	O	
+3-10	wir	PPER	wir	_	O	O	
+3-11	sie	PPER	sie	_	O	O	
+3-12	am	PTKA	am	_	O	O	
+3-13	liebsten	ADJD	lieb	_	O	O	
+3-14	schon	ADV	schon	_	O	O	
+3-15	ganz	ADV	ganz	_	O	O	
+3-16	hinter	APPR	hinter	_	O	O	
+3-17	uns	PPER	wir	_	O	O	
+3-18	hätten	VAFIN	haben	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Was wir aber zunächst wünschen, die Ermächtigung mit den Plänen vorzugehen, ist ja längst erledigt.
+4-1	Was	PWS	was	_	O	O	
+4-2	wir	PPER	wir	_	O	O	
+4-3	aber	ADV	aber	_	O	O	
+4-4	zunächst	ADV	zunächst	_	O	O	
+4-5	wünschen	VVFIN	wünschen	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	die	ART	die	_	O	O	
+4-8	Ermächtigung	NN	Ermächtigung	_	O	O	
+4-9	mit	APPR	mit	_	O	O	
+4-10	den	ART	die	_	O	O	
+4-11	Plänen	NN	Plan	_	O	O	
+4-12	vorzugehen	VVIZU	vorgehen	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	ist	VAFIN	sein	_	O	O	
+4-15	ja	ADV	ja	_	O	O	
+4-16	längst	ADV	längst	_	O	O	
+4-17	erledigt	VVPP	erledigen	_	O	O	
+4-18	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich schrieb Ihnen schon als Resultat unsrer letzten Hauptsitzung, daß sich die Central Direktion mit Ihnen gegen den jetzigen Institutsplatz und für den Granaro entschieden habe, falls nicht etwa der Garten Montanari noch in Betracht kommen könnte, was durch den Ankauf bedingt werde.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	schrieb	VVFIN	schreiben	_	O	O	
+5-3	Ihnen	PPER	Sie	_	O	O	
+5-4	schon	ADV	schon	_	O	O	
+5-5	als	KOKOM	als	_	O	O	
+5-6	Resultat	NN	Resultat	_	O	O	
+5-7	unsrer	PPOSAT	unser	_	O	O	
+5-8	letzten	ADJA	letzt	_	O	O	
+5-9	Hauptsitzung	NN	<unknown>	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	daß	KOUS	dass	_	O	O	
+5-12	sich	PRF	sich	_	O	O	
+5-13	die	ART	die	_	O	O	
+5-14	Central	NN	<unknown>	_	O	O	
+5-15	Direktion	NN	Direktion	_	O	O	
+5-16	mit	APPR	mit	_	O	O	
+5-17	Ihnen	PPER	Sie	_	O	O	
+5-18	gegen	APPR	gegen	_	O	O	
+5-19	den	ART	die	_	O	O	
+5-20	jetzigen	ADJA	jetzig	_	O	O	
+5-21	Institutsplatz	NN	<unknown>	_	O	O	
+5-22	und	KON	und	_	O	O	
+5-23	für	APPR	für	_	O	O	
+5-24	den	ART	die	_	O	O	
+5-25	Granaro	NN	<unknown>	_	O	O	
+5-26	entschieden	VVPP	entscheiden	_	O	O	
+5-27	habe	VAFIN	haben	_	O	O	
+5-28	,	$,	,	_	O	O	
+5-29	falls	KOUS	falls	_	O	O	
+5-30	nicht	PTKNEG	nicht	_	O	O	
+5-31	etwa	ADV	etwa	_	O	O	
+5-32	der	ART	die	_	O	O	
+5-33	Garten	NN	Garten	_	O	O	
+5-34	Montanari	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-35	noch	ADV	noch	_	O	O	
+5-36	in	APPR	in	_	O	O	
+5-37	Betracht	NN	Betracht	_	O	O	
+5-38	kommen	VVINF	kommen	_	O	O	
+5-39	könnte	VMFIN	können	_	O	O	
+5-40	,	$,	,	_	O	O	
+5-41	was	PRELS	was	_	O	O	
+5-42	durch	APPR	durch	_	O	O	
+5-43	den	ART	die	_	O	O	
+5-44	Ankauf	NN	Ankauf	_	O	O	
+5-45	bedingt	VVPP	bedingen	_	O	O	
+5-46	werde	VAFIN	werden	_	O	O	
+5-47	.	$.	.	_	O	O	
+
+#id=6
+#text=Nun der Ankauf sich zerschlagen und Adler uns noch weiter informirt hat, war auch von jenem Platze nicht mehr die Rede.
+6-1	Nun	ADV	nun	_	O	O	
+6-2	der	ART	die	_	O	O	
+6-3	Ankauf	NN	Ankauf	_	O	O	
+6-4	sich	PRF	sich	_	O	O	
+6-5	zerschlagen	VVINF	zerschlagen	_	O	O	
+6-6	und	KON	und	_	O	O	
+6-7	Adler	NE	Adler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-8	uns	PRF	wir	_	O	O	
+6-9	noch	ADV	noch	_	O	O	
+6-10	weiter	ADV	weiter	_	O	O	
+6-11	informirt	ADJD	<unknown>	_	O	O	
+6-12	hat	VAFIN	haben	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	war	VAFIN	sein	_	O	O	
+6-15	auch	ADV	auch	_	O	O	
+6-16	von	APPR	von	_	O	O	
+6-17	jenem	PDAT	jen	_	O	O	
+6-18	Platze	NN	Platz	_	O	O	
+6-19	nicht	PTKNEG	nicht	_	O	O	
+6-20	mehr	ADV	mehr	_	O	O	
+6-21	die	ART	die	_	O	O	
+6-22	Rede	NN	Rede	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich sehe also nicht, was Herrn Laspeyres hindert, der sehr bestimmten officiellen Aufforderung die Pläne herzustellen, jetzt Folge zu leisten, da namentlich auch die beiden Bedenken der Feuergefahr und der Grundmauer die nun verworfen sind, beseitigt worden sind, abgesehen von den möglichen Ausstellungen, die von den früheren Behörden noch gemacht werden können.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	sehe	VVFIN	sehen	_	O	O	
+7-3	also	ADV	also	_	O	O	
+7-4	nicht	PTKNEG	nicht	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	was	PWS	was	_	O	O	
+7-7	Herrn	NN	Herr	_	O	O	
+7-8	Laspeyres	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-9	hindert	VVFIN	hindern	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	der	ART	die	_	O	O	
+7-12	sehr	ADV	sehr	_	O	O	
+7-13	bestimmten	ADJA	bestimmt	_	O	O	
+7-14	officiellen	ADJA	<unknown>	_	O	O	
+7-15	Aufforderung	NN	Aufforderung	_	O	O	
+7-16	die	ART	die	_	O	O	
+7-17	Pläne	NN	Plan	_	O	O	
+7-18	herzustellen	VVIZU	herstellen	_	O	O	
+7-19	,	$,	,	_	O	O	
+7-20	jetzt	ADV	jetzt	_	O	O	
+7-21	Folge	NN	Folge	_	O	O	
+7-22	zu	PTKZU	zu	_	O	O	
+7-23	leisten	VVINF	leisten	_	O	O	
+7-24	,	$,	,	_	O	O	
+7-25	da	ADV	da	_	O	O	
+7-26	namentlich	ADJD	namentlich	_	O	O	
+7-27	auch	ADV	auch	_	O	O	
+7-28	die	ART	die	_	O	O	
+7-29	beiden	PIAT	beide	_	O	O	
+7-30	Bedenken	NN	Bedenken	_	O	O	
+7-31	der	ART	die	_	O	O	
+7-32	Feuergefahr	NN	Feuergefahr	_	O	O	
+7-33	und	KON	und	_	O	O	
+7-34	der	ART	die	_	O	O	
+7-35	Grundmauer	NN	Grundmauer	_	O	O	
+7-36	die	PDS	die	_	O	O	
+7-37	nun	ADV	nun	_	O	O	
+7-38	verworfen	VVPP	verwerfen	_	O	O	
+7-39	sind	VAFIN	sein	_	O	O	
+7-40	,	$,	,	_	O	O	
+7-41	beseitigt	VVPP	beseitigen	_	O	O	
+7-42	worden	VAPP	werden	_	O	O	
+7-43	sind	VAFIN	sein	_	O	O	
+7-44	,	$,	,	_	O	O	
+7-45	abgesehen	VVPP	absehen	_	O	O	
+7-46	von	APPR	von	_	O	O	
+7-47	den	ART	die	_	O	O	
+7-48	möglichen	ADJA	möglich	_	O	O	
+7-49	Ausstellungen	NN	Ausstellung	_	O	O	
+7-50	,	$,	,	_	O	O	
+7-51	die	PRELS	die	_	O	O	
+7-52	von	APPR	von	_	O	O	
+7-53	den	ART	die	_	O	O	
+7-54	früheren	ADJA	früh	_	O	O	
+7-55	Behörden	NN	Behörde	_	O	O	
+7-56	noch	ADV	noch	_	O	O	
+7-57	gemacht	VVPP	machen	_	O	O	
+7-58	werden	VAINF	werden	_	O	O	
+7-59	können	VMFIN	können	_	O	O	
+7-60	.	$.	.	_	O	O	
+
+#id=8
+#text=Die Einsendung
+8-1	Die	ART	die	_	O	O	
+8-2	Einsendung	NN	Einsendung	_	O	O	
+

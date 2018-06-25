@@ -1,0 +1,101 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=224/b A. d. Dir.
+1-1	224/b	ADJD	<unknown>	_	O	O	
+1-2	A.	APPR	an	_	O	O	
+1-3	d.	ART	d.	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Gerhard an Braun Berlin, 17. Juni 1845 g. 6/VII 45 Herrn Dr. Braun Berlin 17 Juni 45 Sie erhalten anbei lieber Freund Archäologische Zeitung no.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	an	APPR	an	_	O	O	
+2-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	17	CARD	17	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	g.	VVFIN	<unknown>	_	O	O	
+2-11	6/VII	CARD	<unknown>	_	O	O	
+2-12	45	CARD	45	_	O	O	
+2-13	Herrn	NN	Herr	_	O	O	
+2-14	Dr.	NN	Dr.	_	O	O	
+2-15	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-17	17	CARD	17	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-18	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-19	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-20	Sie	PPER	Sie	_	O	O	
+2-21	erhalten	VVFIN	erhalten	_	O	O	
+2-22	anbei	ADV	anbei	_	O	O	
+2-23	lieber	ADJD	lieb	_	O	O	
+2-24	Freund	NE	Freund	_	O	O	
+2-25	Archäologische	ADJA	archäologisch	_	O	O	
+2-26	Zeitung	NN	Zeitung	_	O	O	
+2-27	no.	VVFIN	<unknown>	_	O	O	
+
+#id=3
+#text=30 wegen Panofka über Midas.
+3-1	30	CARD	30	_	O	O	
+3-2	wegen	APPR	wegen	_	O	O	
+3-3	Panofka	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-4	über	APPR	über	_	O	O	
+3-5	Midas	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	.	$.	.	_	O	O	
+
+#id=4
+#text=Facsimile und Brief von Neigebaur, aus Zahlung 15 April d. J. worüber ich eine Gegenäußerung an mich erwarte.
+4-1	Facsimile	NN	<unknown>	_	O	O	
+4-2	und	KON	und	_	O	O	
+4-3	Brief	NN	Brief	_	O	O	
+4-4	von	APPR	von	_	O	O	
+4-5	Neigebaur	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-6	,	$,	,	_	O	O	
+4-7	aus	APPR	aus	_	O	O	
+4-8	Zahlung	NN	Zahlung	_	O	O	
+4-9	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-10	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-11	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-12	J.	NE	J.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-13	worüber	PWAV	worüber	_	O	O	
+4-14	ich	PPER	ich	_	O	O	
+4-15	eine	ART	eine	_	O	O	
+4-16	Gegenäußerung	NN	Gegenäußerung	_	O	O	
+4-17	an	APPR	an	_	O	O	
+4-18	mich	PRF	ich	_	O	O	
+4-19	erwarte	VVFIN	erwarten	_	O	O	
+4-20	.	$.	.	_	O	O	
+
+#id=5
+#text=Ausschnitt aus dem akademischen Monatsbericht d. J. wegen Gerhard Etruskische Gottheiten.
+5-1	Ausschnitt	NN	Ausschnitt	_	O	O	
+5-2	aus	APPR	aus	_	O	O	
+5-3	dem	ART	die	_	O	O	
+5-4	akademischen	ADJA	akademisch	_	O	O	
+5-5	Monatsbericht	NN	Monatsbericht	_	O	O	
+5-6	d.	ART	d.	_	O	O	
+5-7	J.	NE	J.	_	O	O	
+5-8	wegen	APPR	wegen	_	O	O	
+5-9	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-10	Etruskische	ADJA	<unknown>	_	O	O	
+5-11	Gottheiten	NN	Gottheit	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Einlage von Wiese an Frau von Moliere.
+6-1	Einlage	NN	Einlage	_	O	O	
+6-2	von	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-3	Wiese	NN	Wiese	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+6-4	an	APPR	an	_	O	O	
+6-5	Frau	NN	Frau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-6	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-7	Moliere	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=Ihr Gerhard
+7-1	Ihr	PPOSAT	ihr	_	O	O	
+7-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

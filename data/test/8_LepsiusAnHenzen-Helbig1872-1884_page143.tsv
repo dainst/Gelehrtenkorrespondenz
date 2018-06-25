@@ -1,0 +1,253 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Lepsius an Henzen Berlin, 23. März 1874 L G. 27/3 74 R. Berlin, d. 23.
+1-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	L	NN	L	_	O	O	
+1-11	G.	NE	G.	_	O	O	
+1-12	27/3	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+1-13	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+1-14	R.	NE	R.	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-16	,	$,	,	_	O	O	
+1-17	d.	ART	d.	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-18	23	CARD	23	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=Hz 1874 Verehrter Freund So eben geht der G. L.
+2-1	Hz	NN	Hz	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-2	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-3	Verehrter	NN	Verehrte	_	O	O	
+2-4	Freund	NE	Freund	_	O	O	
+2-5	So	ADV	so	_	O	O	
+2-6	eben	ADV	eben	_	O	O	
+2-7	geht	VVFIN	gehen	_	O	O	
+2-8	der	ART	die	_	O	O	
+2-9	G.	NE	G.	_	O	O	
+2-10	L.	NE	L.	_	O	O	
+
+#id=3
+#text=R. Hepke von mir, der die Institutssachen bearbeitet, die ich mit ihm durchgesprochen habe.
+3-1	R.	NE	R.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	Hepke	NE	Hepke	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-3	von	APPR	von	_	O	O	
+3-4	mir	PPER	ich	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	der	PRELS	die	_	O	O	
+3-7	die	ART	die	_	O	O	
+3-8	Institutssachen	NN	<unknown>	_	O	O	
+3-9	bearbeitet	VVPP	bearbeiten	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	die	PRELS	die	_	O	O	
+3-12	ich	PPER	ich	_	O	O	
+3-13	mit	APPR	mit	_	O	O	
+3-14	ihm	PPER	er	_	O	O	
+3-15	durchgesprochen	VVPP	durchsprechen	_	O	O	
+3-16	habe	VAFIN	haben	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Das Statut hat noch immer das Stadium des Bundesraths vor sich; die genaue Revision hat er aber vollendet.
+4-1	Das	ART	die	_	O	O	
+4-2	Statut	NN	Statut	_	O	O	
+4-3	hat	VAFIN	haben	_	O	O	
+4-4	noch	ADV	noch	_	O	O	
+4-5	immer	ADV	immer	_	O	O	
+4-6	das	ART	die	_	O	O	
+4-7	Stadium	NN	Stadium	_	O	O	
+4-8	des	ART	die	_	O	O	
+4-9	Bundesraths	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-10	vor	APPR	vor	_	O	O	
+4-11	sich	PRF	sich	_	O	O	
+4-12	;	$.	;	_	O	O	
+4-13	die	ART	die	_	O	O	
+4-14	genaue	ADJA	genau	_	O	O	
+4-15	Revision	NN	Revision	_	O	O	
+4-16	hat	VAFIN	haben	_	O	O	
+4-17	er	PPER	er	_	O	O	
+4-18	aber	ADV	aber	_	O	O	
+4-19	vollendet	VVPP	vollenden	_	O	O	
+4-20	.	$.	.	_	O	O	
+
+#id=5
+#text=Früher als das Statut wird uns der neue Etat zugehen, vielleicht noch in dieser Woche.
+5-1	Früher	ADV	früher	_	O	O	
+5-2	als	KOKOM	als	_	O	O	
+5-3	das	ART	die	_	O	O	
+5-4	Statut	NN	Statut	_	O	O	
+5-5	wird	VAFIN	werden	_	O	O	
+5-6	uns	PPER	wir	_	O	O	
+5-7	der	ART	die	_	O	O	
+5-8	neue	ADJA	neu	_	O	O	
+5-9	Etat	NN	Etat	_	O	O	
+5-10	zugehen	VVINF	zugehen	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	vielleicht	ADV	vielleicht	_	O	O	
+5-13	noch	ADV	noch	_	O	O	
+5-14	in	APPR	in	_	O	O	
+5-15	dieser	PDAT	dies	_	O	O	
+5-16	Woche	NN	Woche	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Damit können wir dann einstweilen wirthschaften, da uns die Gelder darauf angewiesen werden.
+6-1	Damit	PAV	damit	_	O	O	
+6-2	können	VMFIN	können	_	O	O	
+6-3	wir	PPER	wir	_	O	O	
+6-4	dann	ADV	dann	_	O	O	
+6-5	einstweilen	ADV	einstweilen	_	O	O	
+6-6	wirthschaften	ADJD	<unknown>	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	da	KOUS	da	_	O	O	
+6-9	uns	PPER	wir	_	O	O	
+6-10	die	ART	die	_	O	O	
+6-11	Gelder	NN	Geld	_	O	O	
+6-12	darauf	PAV	darauf	_	O	O	
+6-13	angewiesen	VVPP	anweisen	_	O	O	
+6-14	werden	VAFIN	werden	_	O	O	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=Unsre Nachtragsforderungen sind dem Reichstag noch nicht vorgelegt worden, kommen also erst für 1875 in Betracht.
+7-1	Unsre	PPOSAT	unsre	_	O	O	
+7-2	Nachtragsforderungen	NN	<unknown>	_	O	O	
+7-3	sind	VAFIN	sein	_	O	O	
+7-4	dem	ART	die	_	O	O	
+7-5	Reichstag	NN	Reichstag	_	O	O	
+7-6	noch	ADV	noch	_	O	O	
+7-7	nicht	PTKNEG	nicht	_	O	O	
+7-8	vorgelegt	VVPP	vorlegen	_	O	O	
+7-9	worden	VAPP	werden	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	kommen	VVFIN	kommen	_	O	O	
+7-12	also	ADV	also	_	O	O	
+7-13	erst	ADV	erst	_	O	O	
+7-14	für	APPR	für	_	O	O	
+7-15	1875	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-16	in	APPR	in	_	O	O	
+7-17	Betracht	NN	Betracht	_	O	O	
+7-18	.	$.	.	_	O	O	
+
+#id=8
+#text=Inzwischen werden die nöthigen Fonds für Archäologische Zeitung und Ephemeris aus den 4000 r Fonds genommen.
+8-1	Inzwischen	ADV	inzwischen	_	O	O	
+8-2	werden	VAFIN	werden	_	O	O	
+8-3	die	ART	die	_	O	O	
+8-4	nöthigen	ADJA	<unknown>	_	O	O	
+8-5	Fonds	NN	Fonds	_	O	O	
+8-6	für	APPR	für	_	O	O	
+8-7	Archäologische	ADJA	archäologisch	_	O	O	
+8-8	Zeitung	NN	Zeitung	_	O	O	
+8-9	und	KON	und	_	O	O	
+8-10	Ephemeris	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-11	aus	APPR	aus	_	O	O	
+8-12	den	ART	die	_	O	O	
+8-13	4000	CARD	4000	_	O	O	
+8-14	r	NE	r	_	O	O	
+8-15	Fonds	NN	Fonds	_	O	O	
+8-16	genommen	VVPP	nehmen	_	O	O	
+8-17	.	$.	.	_	O	O	
+
+#id=9
+#text=Auch die Erhöhung der 3600 rauf 4000 r für die Stipendien kann erst 1875 zur Genehmigung kommen.
+9-1	Auch	ADV	auch	_	O	O	
+9-2	die	ART	die	_	O	O	
+9-3	Erhöhung	NN	Erhöhung	_	O	O	
+9-4	der	ART	die	_	O	O	
+9-5	3600	CARD	@card@	_	O	O	
+9-6	rauf	ADV	rauf	_	O	O	
+9-7	4000	CARD	4000	_	O	O	
+9-8	r	NE	r	_	O	O	
+9-9	für	APPR	für	_	O	O	
+9-10	die	ART	die	_	O	O	
+9-11	Stipendien	NN	Stipendium	_	O	O	
+9-12	kann	VMFIN	können	_	O	O	
+9-13	erst	ADV	erst	_	O	O	
+9-14	1875	CARD	@card@	_	O	O	
+9-15	zur	APPRART	zu	_	O	O	
+9-16	Genehmigung	NN	Genehmigung	_	O	O	
+9-17	kommen	VVINF	kommen	_	O	O	
+9-18	.	$.	.	_	O	O	
+
+#id=10
+#text=Es werden also für dieses Jahr 1874 vier Stipendien a 900 r vergeben.
+10-1	Es	PPER	es	_	O	O	
+10-2	werden	VAFIN	werden	_	O	O	
+10-3	also	ADV	also	_	O	O	
+10-4	für	APPR	für	_	O	O	
+10-5	dieses	PDAT	dies	_	O	O	
+10-6	Jahr	NN	Jahr	_	O	O	
+10-7	1874	CARD	@card@	_	O	O	
+10-8	vier	CARD	vier	_	O	O	
+10-9	Stipendien	NN	Stipendium	_	O	O	
+10-10	a	FM	a	_	O	O	
+10-11	900	CARD	900	_	O	O	
+10-12	r	NE	r	_	O	O	
+10-13	vergeben	VVINF	vergeben	_	O	O	
+10-14	.	$.	.	_	O	O	
+
+#id=11
+#text=Und zwar können diesmal die Süddeutschen noch nicht mit stimmen , weil die Statuten noch fehlen, und dann erst die Erweiterung der Central Direktion vorgenommen werden kann, die von uns, der Berliner Direktion durch Kooptation ausgeht.
+11-1	Und	KON	und	_	O	O	
+11-2	zwar	ADV	zwar	_	O	O	
+11-3	können	VMFIN	können	_	O	O	
+11-4	diesmal	ADV	diesmal	_	O	O	
+11-5	die	ART	die	_	O	O	
+11-6	Süddeutschen	NN	Süddeutsche	_	O	O	
+11-7	noch	ADV	noch	_	O	O	
+11-8	nicht	PTKNEG	nicht	_	O	O	
+11-9	mit	PTKVZ	mit	_	O	O	
+11-10	stimmen	VVINF	stimmen	_	O	O	
+11-11	,	$,	,	_	O	O	
+11-12	weil	KOUS	weil	_	O	O	
+11-13	die	ART	die	_	O	O	
+11-14	Statuten	NN	Statut	_	O	O	
+11-15	noch	ADV	noch	_	O	O	
+11-16	fehlen	VVFIN	fehlen	_	O	O	
+11-17	,	$,	,	_	O	O	
+11-18	und	KON	und	_	O	O	
+11-19	dann	ADV	dann	_	O	O	
+11-20	erst	ADV	erst	_	O	O	
+11-21	die	ART	die	_	O	O	
+11-22	Erweiterung	NN	Erweiterung	_	O	O	
+11-23	der	ART	die	_	O	O	
+11-24	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+11-25	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+11-26	vorgenommen	VVPP	vornehmen	_	O	O	
+11-27	werden	VAINF	werden	_	O	O	
+11-28	kann	VMFIN	können	_	O	O	
+11-29	,	$,	,	_	O	O	
+11-30	die	PRELS	die	_	O	O	
+11-31	von	APPR	von	_	O	O	
+11-32	uns	PPER	wir	_	O	O	
+11-33	,	$,	,	_	O	O	
+11-34	der	ART	die	_	O	O	
+11-35	Berliner	ADJA	Berliner	_	O	O	
+11-36	Direktion	NN	Direktion	_	O	O	
+11-37	durch	APPR	durch	_	O	O	
+11-38	Kooptation	NN	<unknown>	_	O	O	
+11-39	ausgeht	VVFIN	ausgehen	_	O	O	
+11-40	.	$.	.	_	O	O	
+
+#id=12
+#text=Titel IV und V bittet Hepke ausdrücklich für jetzt noch ge-
+12-1	Titel	NN	Titel	_	O	O	
+12-2	IV	NE	IV	_	O	O	
+12-3	und	KON	und	_	O	O	
+12-4	V	NN	V	_	O	O	
+12-5	bittet	VVFIN	bitten	_	O	O	
+12-6	Hepke	NE	Hepke	_	O	O	
+12-7	ausdrücklich	ADJD	ausdrücklich	_	O	O	
+12-8	für	APPR	für	_	O	O	
+12-9	jetzt	ADV	jetzt	_	O	O	
+12-10	noch	ADV	noch	_	O	O	
+12-11	ge-	TRUNC	ge-	_	O	O	
+

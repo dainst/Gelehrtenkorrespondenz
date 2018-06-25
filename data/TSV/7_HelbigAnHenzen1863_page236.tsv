@@ -1,0 +1,155 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Postkarte Relbig an Renzen Ohne Datum.
+1-1	Postkarte	NN	Postkarte	_	O	O	
+1-2	Relbig	ADJD	<unknown>	_	O	O	
+1-3	an	APPR	an	_	O	O	
+1-4	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	Ohne	APPR	ohne	_	O	O	
+1-6	Datum	NN	Datum	_	O	O	
+1-7	.	$.	.	_	O	O	
+
+#id=2
+#text=Poststempel Siena, 16. September 1874 g. 19/9 74 r. Lieber Herr Professor !
+2-1	Poststempel	NN	Poststempel	_	O	O	
+2-2	Siena	NE	Siena	_	O	O	
+2-3	,	$,	,	_	O	O	
+2-4	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	g.	VVFIN	<unknown>	_	O	O	
+2-9	19/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-10	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-11	r.	ADJA	<unknown>	_	O	O	
+2-12	Lieber	ADJA	lieb	_	O	O	
+2-13	Herr	NN	Herr	_	O	O	
+2-14	Professor	NN	Professor	_	O	O	
+2-15	!	$.	!	_	O	O	
+
+#id=3
+#text=Die Nachrichten, die wir über die klimatischen Verhältnisse Roms erhalten, bestimmen uns, den 20. direct nach Rom abzureisen und zwar alle zusammen.
+3-1	Die	ART	die	_	O	O	
+3-2	Nachrichten	NN	Nachricht	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	die	PRELS	die	_	O	O	
+3-5	wir	PPER	wir	_	O	O	
+3-6	über	APPR	über	_	O	O	
+3-7	die	ART	die	_	O	O	
+3-8	klimatischen	ADJA	klimatisch	_	O	O	
+3-9	Verhältnisse	NN	Verhältnis	_	O	O	
+3-10	Roms	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-11	erhalten	VVPP	erhalten	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	bestimmen	VVFIN	bestimmen	_	O	O	
+3-14	uns	PPER	wir	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	den	ART	die	_	O	O	
+3-17	20	CARD	20	_	O	O	
+3-18	.	$.	.	_	O	O	
+3-19	direct	NE	direct	_	O	O	
+3-20	nach	APPR	nach	_	O	O	
+3-21	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-22	abzureisen	VVIZU	abreisen	_	O	O	
+3-23	und	KON	und	_	O	O	
+3-24	zwar	ADV	zwar	_	O	O	
+3-25	alle	PIS	alle	_	O	O	
+3-26	zusammen	PTKVZ	zusammen	_	O	O	
+3-27	.	$.	.	_	O	O	
+
+#id=4
+#text=Den 21. und 22. bleibe ich in Rom und reise den 23. weiter.
+4-1	Den	ART	die	_	O	O	
+4-2	21	CARD	21	_	O	O	
+4-3	.	$.	.	_	O	O	
+4-4	und	KON	und	_	O	O	
+4-5	22	CARD	22	_	O	O	
+4-6	.	$.	.	_	O	O	
+4-7	bleibe	VVFIN	bleiben	_	O	O	
+4-8	ich	PPER	ich	_	O	O	
+4-9	in	APPR	in	_	O	O	
+4-10	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-11	und	KON	und	_	O	O	
+4-12	reise	VVFIN	reisen	_	O	O	
+4-13	den	ART	die	_	O	O	
+4-14	23	CARD	23	_	O	O	
+4-15	.	$.	.	_	O	O	
+4-16	weiter	ADV	weiter	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=Es wäre mir sehr erfreulich und außerdem für die Geschäftsangelegenheiten ersprießlich, wenn ich Sie den 21. oder 22. in Rom sehen könnte.
+5-1	Es	PPER	es	_	O	O	
+5-2	wäre	VAFIN	sein	_	O	O	
+5-3	mir	PPER	ich	_	O	O	
+5-4	sehr	ADV	sehr	_	O	O	
+5-5	erfreulich	ADJD	erfreulich	_	O	O	
+5-6	und	KON	und	_	O	O	
+5-7	außerdem	ADV	außerdem	_	O	O	
+5-8	für	APPR	für	_	O	O	
+5-9	die	ART	die	_	O	O	
+5-10	Geschäftsangelegenheiten	NN	<unknown>	_	O	O	
+5-11	ersprießlich	ADJD	ersprießlich	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	wenn	KOUS	wenn	_	O	O	
+5-14	ich	PPER	ich	_	O	O	
+5-15	Sie	PPER	Sie	_	O	O	
+5-16	den	ART	die	_	O	O	
+5-17	21	CARD	21	_	O	O	
+5-18	.	$.	.	_	O	O	
+5-19	oder	KON	oder	_	O	O	
+5-20	22	CARD	22	_	O	O	
+5-21	.	$.	.	_	O	O	
+5-22	in	APPR	in	_	O	O	
+5-23	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-24	sehen	VVINF	sehen	_	O	O	
+5-25	könnte	VMFIN	können	_	O	O	
+5-26	.	$.	.	_	O	O	
+
+#id=6
+#text=Wenn wir die Geschäftssachen erörtern, wäre DresseIs Gegenwart erwünscht, da ich über manche Sachen die Correspondenz nicht gehörig kenne.
+6-1	Wenn	KOUS	wenn	_	O	O	
+6-2	wir	PPER	wir	_	O	O	
+6-3	die	ART	die	_	O	O	
+6-4	Geschäftssachen	NN	<unknown>	_	O	O	
+6-5	erörtern	VVFIN	erörtern	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	wäre	VAFIN	sein	_	O	O	
+6-8	DresseIs	NN	<unknown>	_	O	O	
+6-9	Gegenwart	NN	Gegenwart	_	O	O	
+6-10	erwünscht	ADJD	erwünscht	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	da	KOUS	da	_	O	O	
+6-13	ich	PPER	ich	_	O	O	
+6-14	über	APPR	über	_	O	O	
+6-15	manche	PIAT	manche	_	O	O	
+6-16	Sachen	NN	Sache	_	O	O	
+6-17	die	ART	die	_	O	O	
+6-18	Correspondenz	NN	<unknown>	_	O	O	
+6-19	nicht	PTKNEG	nicht	_	O	O	
+6-20	gehörig	ADJD	gehörig	_	O	O	
+6-21	kenne	VVFIN	kennen	_	O	O	
+6-22	.	$.	.	_	O	O	
+
+#id=7
+#text=Also hoffentlich auf Wiedersehen binnen 5 Tagen.
+7-1	Also	ADV	also	_	O	O	
+7-2	hoffentlich	ADV	hoffentlich	_	O	O	
+7-3	auf	APPR	auf	_	O	O	
+7-4	Wiedersehen	NN	Wiedersehen	_	O	O	
+7-5	binnen	APPR	binnen	_	O	O	
+7-6	5	CARD	5	_	O	O	
+7-7	Tagen	NN	Tag	_	O	O	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=Mit herzlichen Grüßen von uns allen Ihr Helbig
+8-1	Mit	APPR	mit	_	O	O	
+8-2	herzlichen	ADJA	herzlich	_	O	O	
+8-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+8-4	von	APPR	von	_	O	O	
+8-5	uns	PPER	wir	_	O	O	
+8-6	allen	PIAT	alle	_	O	O	
+8-7	Ihr	PPOSAT	ihr	_	O	O	
+8-8	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

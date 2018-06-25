@@ -1,0 +1,202 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Gerhard an Braun Berlin, 25. Juni 1846 lig und bei all seiner sonstigen Brauchbarkeit auch mir unbegreiflich.
+1-1	2	CARD	2	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	an	APPR	an	_	O	O	
+1-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	lig	VVFIN	<unknown>	_	O	O	
+1-12	und	KON	und	_	O	O	
+1-13	bei	APPR	bei	_	O	O	
+1-14	all	PIAT	alle	_	O	O	
+1-15	seiner	PPOSAT	sein	_	O	O	
+1-16	sonstigen	ADJA	sonstig	_	O	O	
+1-17	Brauchbarkeit	NN	Brauchbarkeit	_	O	O	
+1-18	auch	ADV	auch	_	O	O	
+1-19	mir	PPER	ich	_	O	O	
+1-20	unbegreiflich	ADJD	unbegreiflich	_	O	O	
+1-21	.	$.	.	_	O	O	
+
+#id=2
+#text=Ein andres Berliner Curiosum, ist daß Tiek nächsten Sonnabend an der Schwelle seines 70. sten Geburtstags mit einer mitteljungen Person die Niemand kennt Hochzeit macht.
+2-1	Ein	ART	eine	_	O	O	
+2-2	andres	PIAT	andere	_	O	O	
+2-3	Berliner	NN	Berliner	_	O	O	
+2-4	Curiosum	VVFIN	<unknown>	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	ist	VAFIN	sein	_	O	O	
+2-7	daß	KOUS	dass	_	O	O	
+2-8	Tiek	NE	<unknown>	_	O	O	
+2-9	nächsten	ADJA	nah	_	O	O	
+2-10	Sonnabend	NN	Sonnabend	_	O	O	
+2-11	an	APPR	an	_	O	O	
+2-12	der	ART	die	_	O	O	
+2-13	Schwelle	NN	Schwelle	_	O	O	
+2-14	seines	PPOSAT	sein	_	O	O	
+2-15	70	CARD	70	_	O	O	
+2-16	.	$.	.	_	O	O	
+2-17	sten	ADJA	<unknown>	_	O	O	
+2-18	Geburtstags	NN	Geburtstag	_	O	O	
+2-19	mit	APPR	mit	_	O	O	
+2-20	einer	ART	eine	_	O	O	
+2-21	mitteljungen	ADJA	mitteljung	_	O	O	
+2-22	Person	NN	Person	_	O	O	
+2-23	die	ART	die	_	O	O	
+2-24	Niemand	PIS	niemand	_	O	O	
+2-25	kennt	VVFIN	kennen	_	O	O	
+2-26	Hochzeit	NN	Hochzeit	_	O	O	
+2-27	macht	VVFIN	machen	_	O	O	
+2-28	.	$.	.	_	O	O	
+
+#id=3
+#text=Meine Frau grüßt bestens.
+3-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-3	grüßt	VVFIN	grüßen	_	O	O	
+3-4	bestens	ADV	bestens	_	O	O	
+3-5	.	$.	.	_	O	O	
+
+#id=4
+#text=Sagen Sie viel Herzliches von uns an Usedom, den wir glücklich in Rom wissen, und lassen Sie auch Kestnern bestens gegrüßt sein.
+4-1	Sagen	VVFIN	sagen	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	viel	PIAT	viele	_	O	O	
+4-4	Herzliches	NN	Herzliche	_	O	O	
+4-5	von	APPR	von	_	O	O	
+4-6	uns	PPER	wir	_	O	O	
+4-7	an	APPR	an	_	O	O	
+4-8	Usedom	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-9	,	$,	,	_	O	O	
+4-10	den	PRELS	die	_	O	O	
+4-11	wir	PPER	wir	_	O	O	
+4-12	glücklich	ADJD	glücklich	_	O	O	
+4-13	in	APPR	in	_	O	O	
+4-14	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-15	wissen	VVFIN	wissen	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	und	KON	und	_	O	O	
+4-18	lassen	VVFIN	lassen	_	O	O	
+4-19	Sie	PPER	Sie	_	O	O	
+4-20	auch	ADV	auch	_	O	O	
+4-21	Kestnern	NN	<unknown>	_	O	O	
+4-22	bestens	ADV	bestens	_	O	O	
+4-23	gegrüßt	VVPP	grüßen	_	O	O	
+4-24	sein	VAINF	sein	_	O	O	
+4-25	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihr Gerhard Für Ihre Galvanoplastik fürchtet Gerstäcker, den Kabrun dafür interessirt hat, die theuern Preise und die Konkurrenz des technisch ausgezeichneten Hackewitz.
+5-1	Ihr	PPOSAT	ihr	_	O	O	
+5-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+5-3	Für	APPR	für	_	O	O	
+5-4	Ihre	PPOSAT	ihr	_	O	O	
+5-5	Galvanoplastik	NN	<unknown>	_	O	O	
+5-6	fürchtet	VVFIN	fürchten	_	O	O	
+5-7	Gerstäcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-8	,	$,	,	_	O	O	
+5-9	den	ART	die	_	O	O	
+5-10	Kabrun	NN	<unknown>	_	O	O	
+5-11	dafür	PAV	dafür	_	O	O	
+5-12	interessirt	NN	<unknown>	_	O	O	
+5-13	hat	VAFIN	haben	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	die	ART	die	_	O	O	
+5-16	theuern	ADJA	<unknown>	_	O	O	
+5-17	Preise	NN	Preis	_	O	O	
+5-18	und	KON	und	_	O	O	
+5-19	die	ART	die	_	O	O	
+5-20	Konkurrenz	NN	Konkurrenz	_	O	O	
+5-21	des	ART	die	_	O	O	
+5-22	technisch	ADJD	technisch	_	O	O	
+5-23	ausgezeichneten	ADJA	ausgezeichnet	_	O	O	
+5-24	Hackewitz	NN	<unknown>	_	O	O	
+5-25	.	$.	.	_	O	O	
+
+#id=6
+#text=Viel möchten Sie für den Anfang nicht senden.
+6-1	Viel	ADV	viel	_	O	O	
+6-2	möchten	VMFIN	mögen	_	O	O	
+6-3	Sie	PPER	Sie	_	O	O	
+6-4	für	APPR	für	_	O	O	
+6-5	den	ART	die	_	O	O	
+6-6	Anfang	NN	Anfang	_	O	O	
+6-7	nicht	PTKNEG	nicht	_	O	O	
+6-8	senden	VVINF	senden	_	O	O	
+6-9	.	$.	.	_	O	O	
+
+#id=7
+#text=Wir dachten Ihnen frei Porto von der Akademie der Künste für die Hiehersendung zur Kunstausstellung zu vermitteln und sprach ich deshalb mit Cornelius, der aber Niemand andern (Rauch gewiß nicht) darüber zu sprechen wußte als den Tölken.
+7-1	Wir	PPER	wir	_	O	O	
+7-2	dachten	VVFIN	denken	_	O	O	
+7-3	Ihnen	PPER	Sie	_	O	O	
+7-4	frei	ADJD	frei	_	O	O	
+7-5	Porto	NN	Porto	_	O	O	
+7-6	von	APPR	von	_	O	O	
+7-7	der	ART	die	_	O	O	
+7-8	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-9	der	ART	die	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+7-10	Künste	NN	Kunst	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+7-11	für	APPR	für	_	O	O	
+7-12	die	ART	die	_	O	O	
+7-13	Hiehersendung	NN	<unknown>	_	O	O	
+7-14	zur	APPRART	zu	_	O	O	
+7-15	Kunstausstellung	NN	Kunstausstellung	_	O	O	
+7-16	zu	PTKZU	zu	_	O	O	
+7-17	vermitteln	VVINF	vermitteln	_	O	O	
+7-18	und	KON	und	_	O	O	
+7-19	sprach	VVFIN	sprechen	_	O	O	
+7-20	ich	PPER	ich	_	O	O	
+7-21	deshalb	PAV	deshalb	_	O	O	
+7-22	mit	APPR	mit	_	O	O	
+7-23	Cornelius	NE	Cornelius	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-24	,	$,	,	_	O	O	
+7-25	der	PRELS	die	_	O	O	
+7-26	aber	ADV	aber	_	O	O	
+7-27	Niemand	PIS	niemand	_	O	O	
+7-28	andern	PIAT	andere	_	O	O	
+7-29	(	$(	(	_	O	O	
+7-30	Rauch	NN	Rauch	_	O	O	
+7-31	gewiß	ADJD	gewiss	_	O	O	
+7-32	nicht	PTKNEG	nicht	_	O	O	
+7-33	)	$(	)	_	O	O	
+7-34	darüber	PAV	darüber	_	O	O	
+7-35	zu	PTKZU	zu	_	O	O	
+7-36	sprechen	VVINF	sprechen	_	O	O	
+7-37	wußte	VVFIN	wissen	_	O	O	
+7-38	als	KOKOM	als	_	O	O	
+7-39	den	ART	die	_	O	O	
+7-40	Tölken	NN	<unknown>	_	O	O	
+7-41	.	$.	.	_	O	O	
+
+#id=8
+#text=F. Förster Replik auf Cornelius' überschwengliche Dankrede zur Nachtmusik ist auch den Künstlern genehem und ist ein schlechter Berliner Empfang für C.
+8-1	F.	APPR	f.	_	O	O	
+8-2	Förster	NN	Förster	_	O	O	
+8-3	Replik	NN	Replik	_	O	O	
+8-4	auf	APPR	auf	_	O	O	
+8-5	Cornelius	NE	Cornelius	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	'	$(	'	_	O	O	
+8-7	überschwengliche	ADJA	überschwenglich	_	O	O	
+8-8	Dankrede	NN	Dankrede	_	O	O	
+8-9	zur	APPRART	zu	_	O	O	
+8-10	Nachtmusik	NN	Nachtmusik	_	O	O	
+8-11	ist	VAFIN	sein	_	O	O	
+8-12	auch	ADV	auch	_	O	O	
+8-13	den	ART	die	_	O	O	
+8-14	Künstlern	NN	Künstler	_	O	O	
+8-15	genehem	ADJA	<unknown>	_	O	O	
+8-16	und	KON	und	_	O	O	
+8-17	ist	VAFIN	sein	_	O	O	
+8-18	ein	ART	eine	_	O	O	
+8-19	schlechter	ADJD	schlecht	_	O	O	
+8-20	Berliner	ADJA	Berliner	_	O	O	
+8-21	Empfang	NN	Empfang	_	O	O	
+8-22	für	APPR	für	_	O	O	
+8-23	C.	NE	C.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

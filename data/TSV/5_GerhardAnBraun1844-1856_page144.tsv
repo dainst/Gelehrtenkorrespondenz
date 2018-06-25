@@ -1,0 +1,254 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=188 2 Gerhard an Braun Berlin, 27. Mai 1845 nat in Neapel, zu Ostern wieder hier.
+1-1	188	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	nat	ADJD	<unknown>	_	O	O	
+1-13	in	APPR	in	_	O	O	
+1-14	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-15	,	$,	,	_	O	O	
+1-16	zu	APPR	zu	_	O	O	
+1-17	Ostern	NN	Ostern	_	O	O	
+1-18	wieder	ADV	wieder	_	O	O	
+1-19	hier	ADV	hier	_	O	O	
+1-20	.	$.	.	_	O	O	
+
+#id=2
+#text=Falbe hat wiederum um seine Defekte geschrieben, die er nun hier begehrt.
+2-1	Falbe	NN	Falbe	_	O	O	
+2-2	hat	VAFIN	haben	_	O	O	
+2-3	wiederum	ADV	wiederum	_	O	O	
+2-4	um	APPR	um	_	O	O	
+2-5	seine	PPOSAT	sein	_	O	O	
+2-6	Defekte	NN	Defekte	_	O	O	
+2-7	geschrieben	VVPP	schreiben	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	die	PRELS	die	_	O	O	
+2-10	er	PPER	er	_	O	O	
+2-11	nun	ADV	nun	_	O	O	
+2-12	hier	ADV	hier	_	O	O	
+2-13	begehrt	ADJD	begehrt	_	O	O	
+2-14	.	$.	.	_	O	O	
+
+#id=3
+#text=Was war ihm in Rom gesagt ?
+3-1	Was	PWS	was	_	O	O	
+3-2	war	VAFIN	sein	_	O	O	
+3-3	ihm	PPER	er	_	O	O	
+3-4	in	APPR	in	_	O	O	
+3-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-6	gesagt	VVPP	sagen	_	O	O	
+3-7	?	$.	?	_	O	O	
+
+#id=4
+#text=ich meine er war an Brockhaus verwiesen ?
+4-1	ich	PPER	ich	_	O	O	
+4-2	meine	VVFIN	meinen	_	O	O	
+4-3	er	PPER	er	_	O	O	
+4-4	war	VAFIN	sein	_	O	O	
+4-5	an	APPR	an	_	O	O	
+4-6	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-7	verwiesen	VVPP	verweisen	_	O	O	
+4-8	?	$.	?	_	O	O	
+
+#id=5
+#text=Angenehm wenn Leemans nun sein Schriftliches erhalten hat.
+5-1	Angenehm	ADJD	angenehm	_	O	O	
+5-2	wenn	KOUS	wenn	_	O	O	
+5-3	Leemans	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	nun	ADV	nun	_	O	O	
+5-5	sein	PPOSAT	sein	_	O	O	
+5-6	Schriftliches	NN	Schriftliche	_	O	O	
+5-7	erhalten	VVPP	erhalten	_	O	O	
+5-8	hat	VAFIN	haben	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Man glaubt daß auch Bunsen im Lauf des Sommers hierher komme.
+6-1	Man	PIS	man	_	O	O	
+6-2	glaubt	VVFIN	glauben	_	O	O	
+6-3	daß	KOUS	dass	_	O	O	
+6-4	auch	ADV	auch	_	O	O	
+6-5	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-6	im	APPRART	in	_	O	O	
+6-7	Lauf	NN	Lauf	_	O	O	
+6-8	des	ART	die	_	O	O	
+6-9	Sommers	NN	Sommer	_	O	O	
+6-10	hierher	PAV	hierher	_	O	O	
+6-11	komme	VVFIN	kommen	_	O	O	
+6-12	.	$.	.	_	O	O	
+
+#id=7
+#text=Weiß Niemand wo die Bullettino 1831 p. 182 Beschriebene Gemme sich jetzt befindet?
+7-1	Weiß	VVFIN	wissen	_	O	O	
+7-2	Niemand	PIS	niemand	_	O	O	
+7-3	wo	PWAV	wo	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	Bullettino	NN	<unknown>	_	O	O	
+7-6	1831	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-7	p.	APPR	p.	_	O	O	
+7-8	182	CARD	@card@	_	O	O	
+7-9	Beschriebene	ADJA	beschrieben	_	O	O	
+7-10	Gemme	NN	<unknown>	_	O	O	
+7-11	sich	PRF	sich	_	O	O	
+7-12	jetzt	ADV	jetzt	_	O	O	
+7-13	befindet	VVFIN	befinden	_	O	O	
+7-14	?	$.	?	_	O	O	
+
+#id=8
+#text=schrieb an Borghesi darum, er scheint aber meine sotto fascia gesandte Dissertation De re •••••••• Lem.
+8-1	schrieb	VVFIN	schreiben	_	O	O	
+8-2	an	APPR	an	_	O	O	
+8-3	Borghesi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-4	darum	PAV	darum	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	er	PPER	er	_	O	O	
+8-7	scheint	VVFIN	scheinen	_	O	O	
+8-8	aber	ADV	aber	_	O	O	
+8-9	meine	PPOSAT	mein	_	O	O	
+8-10	sotto	NN	<unknown>	_	O	O	
+8-11	fascia	ADJD	<unknown>	_	O	O	
+8-12	gesandte	ADJA	gesandt	_	O	O	
+8-13	Dissertation	NN	Dissertation	_	O	O	
+8-14	De	NE	De	_	O	O	
+8-15	re	ADJA	<unknown>	_	O	O	
+8-16	•	NN	<unknown>	_	O	O	
+8-17	•	ADJA	<unknown>	_	O	O	
+8-18	•	NN	<unknown>	_	O	O	
+8-19	•	ADJA	<unknown>	_	O	O	
+8-20	•	NN	<unknown>	_	O	O	
+8-21	•	ADJD	<unknown>	_	O	O	
+8-22	•	ADJA	<unknown>	_	O	O	
+8-23	•	NN	<unknown>	_	O	O	
+8-24	Lem	VVFIN	<unknown>	_	O	O	
+8-25	.	$.	.	_	O	O	
+
+#id=9
+#text=nicht erhalten zu haben und läßt bei sonstiger Antwort diesen Punkt unerledigt.
+9-1	nicht	PTKNEG	nicht	_	O	O	
+9-2	erhalten	VVPP	erhalten	_	O	O	
+9-3	zu	PTKZU	zu	_	O	O	
+9-4	haben	VAINF	haben	_	O	O	
+9-5	und	KON	und	_	O	O	
+9-6	läßt	VVFIN	lassen	_	O	O	
+9-7	bei	APPR	bei	_	O	O	
+9-8	sonstiger	ADJA	sonstig	_	O	O	
+9-9	Antwort	NN	Antwort	_	O	O	
+9-10	diesen	PDAT	dies	_	O	O	
+9-11	Punkt	NN	Punkt	_	O	O	
+9-12	unerledigt	ADJD	unerledigt	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=Eine Zeichnung sende ich ins französische Heft, wo man an der Geschlechtsangabe kein Ärgernis nimmt.
+10-1	Eine	ART	eine	_	O	O	
+10-2	Zeichnung	NN	Zeichnung	_	O	O	
+10-3	sende	VVFIN	senden	_	O	O	
+10-4	ich	PPER	ich	_	O	O	
+10-5	ins	APPRART	in	_	O	O	
+10-6	französische	ADJA	französisch	_	O	O	
+10-7	Heft	NN	Heft	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	wo	PWAV	wo	_	O	O	
+10-10	man	PIS	man	_	O	O	
+10-11	an	APPR	an	_	O	O	
+10-12	der	ART	die	_	O	O	
+10-13	Geschlechtsangabe	NN	Geschlechtsangabe	_	O	O	
+10-14	kein	PIAT	keine	_	O	O	
+10-15	Ärgernis	NN	Ärgernis	_	O	O	
+10-16	nimmt	VVFIN	nehmen	_	O	O	
+10-17	.	$.	.	_	O	O	
+
+#id=11
+#text=Die Angabe der Defekte meiner Werke erwarte ich also.
+11-1	Die	ART	die	_	O	O	
+11-2	Angabe	NN	Angabe	_	O	O	
+11-3	der	ART	die	_	O	O	
+11-4	Defekte	NN	Defekte	_	O	O	
+11-5	meiner	PPOSAT	mein	_	O	O	
+11-6	Werke	NN	Werk	_	O	O	
+11-7	erwarte	VVFIN	erwarten	_	O	O	
+11-8	ich	PPER	ich	_	O	O	
+11-9	also	ADV	also	_	O	O	
+11-10	.	$.	.	_	O	O	
+
+#id=12
+#text=Was stellt die französische Vase dar ?
+12-1	Was	PWS	was	_	O	O	
+12-2	stellt	VVFIN	stellen	_	O	O	
+12-3	die	ART	die	_	O	O	
+12-4	französische	ADJA	französisch	_	B-webanno.custom.LetterEntity_	B-OBJ	
+12-5	Vase	NN	Vase	_	I-webanno.custom.LetterEntity_	I-OBJ	
+12-6	dar	PTKVZ	dar	_	O	O	
+12-7	?	$.	?	_	O	O	
+
+#id=13
+#text=Ein Brief von Wiese an Frau von Moliere schließt sich nicht wall ein; ich sende ihn durchs Ministerium.
+13-1	Ein	ART	eine	_	O	O	
+13-2	Brief	NN	Brief	_	O	O	
+13-3	von	APPR	von	_	O	O	
+13-4	Wiese	NN	Wiese	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-5	an	APPR	an	_	O	O	
+13-6	Frau	NN	Frau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-7	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+13-8	Moliere	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+13-9	schließt	VVFIN	schließen	_	O	O	
+13-10	sich	PRF	sich	_	O	O	
+13-11	nicht	PTKNEG	nicht	_	O	O	
+13-12	wall	VVIMP	wallen	_	O	O	
+13-13	ein	PTKVZ	ein	_	O	O	
+13-14	;	$.	;	_	O	O	
+13-15	ich	PPER	ich	_	O	O	
+13-16	sende	VVFIN	senden	_	O	O	
+13-17	ihn	PPER	er	_	O	O	
+13-18	durchs	APPRART	durchs	_	O	O	
+13-19	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+13-20	.	$.	.	_	O	O	
+
+#id=14
+#text=Ich weiß nicht ob ich Ihnen schon mein Befremden geäußert habe, daß Sie zur ersten Bewillkommnung wackerer junger Gelehrter all Ihr Pulver von Präconisationen verschießen; Curtius kann sich auch darüber wundern, be-
+14-1	Ich	PPER	ich	_	O	O	
+14-2	weiß	VVFIN	wissen	_	O	O	
+14-3	nicht	PTKNEG	nicht	_	O	O	
+14-4	ob	KOUS	ob	_	O	O	
+14-5	ich	PPER	ich	_	O	O	
+14-6	Ihnen	PPER	Sie	_	O	O	
+14-7	schon	ADV	schon	_	O	O	
+14-8	mein	PPOSAT	mein	_	O	O	
+14-9	Befremden	NN	Befremden	_	O	O	
+14-10	geäußert	VVPP	äußern	_	O	O	
+14-11	habe	VAFIN	haben	_	O	O	
+14-12	,	$,	,	_	O	O	
+14-13	daß	KOUS	dass	_	O	O	
+14-14	Sie	PPER	Sie	_	O	O	
+14-15	zur	APPRART	zu	_	O	O	
+14-16	ersten	ADJA	erst	_	O	O	
+14-17	Bewillkommnung	NN	<unknown>	_	O	O	
+14-18	wackerer	ADJA	wacker	_	O	O	
+14-19	junger	ADJA	jung	_	O	O	
+14-20	Gelehrter	NN	Gelehrte	_	O	O	
+14-21	all	PIAT	alle	_	O	O	
+14-22	Ihr	PPOSAT	ihr	_	O	O	
+14-23	Pulver	NN	Pulver	_	O	O	
+14-24	von	APPR	von	_	O	O	
+14-25	Präconisationen	NN	<unknown>	_	O	O	
+14-26	verschießen	VVFIN	verschießen	_	O	O	
+14-27	;	$.	;	_	O	O	
+14-28	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-29	kann	VMFIN	können	_	O	O	
+14-30	sich	PRF	sich	_	O	O	
+14-31	auch	ADV	auch	_	O	O	
+14-32	darüber	PAV	darüber	_	O	O	
+14-33	wundern	VVINF	wundern	_	O	O	
+14-34	,	$,	,	_	O	O	
+14-35	be-	TRUNC	be-	_	O	O	
+

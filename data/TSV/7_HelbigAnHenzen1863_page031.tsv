@@ -1,0 +1,312 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=J 2 Relbig an Renzen Pompei, 19. August 1864 ten Budget wäre es mir sehr angenehm, möglichst viel von den Münzen los zu werden und die • • • • • • • • • • der Summe möglichst zu verringern.
+1-1	J	NN	J	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Relbig	NN	<unknown>	_	O	O	
+1-4	an	APPR	an	_	O	O	
+1-5	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	Pompei	VVFIN	<unknown>	_	O	O	
+1-7	,	$,	,	_	O	O	
+1-8	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1864	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	ten	NE	ten	_	O	O	
+1-13	Budget	NN	Budget	_	O	O	
+1-14	wäre	VAFIN	sein	_	O	O	
+1-15	es	PPER	es	_	O	O	
+1-16	mir	PRF	ich	_	O	O	
+1-17	sehr	ADV	sehr	_	O	O	
+1-18	angenehm	ADJD	angenehm	_	O	O	
+1-19	,	$,	,	_	O	O	
+1-20	möglichst	ADV	möglichst	_	O	O	
+1-21	viel	ADV	viel	_	O	O	
+1-22	von	APPR	von	_	O	O	
+1-23	den	ART	die	_	O	O	
+1-24	Münzen	NN	Münze	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-25	los	ADJD	los	_	O	O	
+1-26	zu	PTKZU	zu	_	O	O	
+1-27	werden	VAINF	werden	_	O	O	
+1-28	und	KON	und	_	O	O	
+1-29	die	ART	die	_	O	O	
+1-30	•	ADJA	<unknown>	_	O	O	
+1-31	•	NN	<unknown>	_	O	O	
+1-32	•	ADJA	<unknown>	_	O	O	
+1-33	•	NN	<unknown>	_	O	O	
+1-34	•	ADJA	<unknown>	_	O	O	
+1-35	•	NN	<unknown>	_	O	O	
+1-36	•	ADJA	<unknown>	_	O	O	
+1-37	•	NN	<unknown>	_	O	O	
+1-38	•	ADJA	<unknown>	_	O	O	
+1-39	•	NN	<unknown>	_	O	O	
+1-40	der	ART	die	_	O	O	
+1-41	Summe	NN	Summe	_	O	O	
+1-42	möglichst	ADV	möglichst	_	O	O	
+1-43	zu	PTKZU	zu	_	O	O	
+1-44	verringern	VVINF	verringern	_	O	O	
+1-45	.	$.	.	_	O	O	
+
+#id=2
+#text=Länger warten lassen kann man den Assessor auf keinen Fall.
+2-1	Länger	ADJD	lang	_	O	O	
+2-2	warten	VVINF	warten	_	O	O	
+2-3	lassen	VVINF	lassen	_	O	O	
+2-4	kann	VMFIN	können	_	O	O	
+2-5	man	PIS	man	_	O	O	
+2-6	den	ART	die	_	O	O	
+2-7	Assessor	NN	Assessor	_	O	O	
+2-8	auf	APPR	auf	_	O	O	
+2-9	keinen	PIAT	keine	_	O	O	
+2-10	Fall	NN	Fall	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=An eine Specificirung der Münzen, wenn ich sie nicht unter den Augen habe, ist nicht zu denken.
+3-1	An	APPR	an	_	O	O	
+3-2	eine	ART	eine	_	O	O	
+3-3	Specificirung	NN	<unknown>	_	O	O	
+3-4	der	ART	die	_	O	O	
+3-5	Münzen	NN	Münze	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-6	,	$,	,	_	O	O	
+3-7	wenn	KOUS	wenn	_	O	O	
+3-8	ich	PPER	ich	_	O	O	
+3-9	sie	PPER	sie	_	O	O	
+3-10	nicht	PTKNEG	nicht	_	O	O	
+3-11	unter	APPR	unter	_	O	O	
+3-12	den	ART	die	_	O	O	
+3-13	Augen	NN	Auge	_	O	O	
+3-14	habe	VAFIN	haben	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	ist	VAFIN	sein	_	O	O	
+3-17	nicht	PTKNEG	nicht	_	O	O	
+3-18	zu	PTKZU	zu	_	O	O	
+3-19	denken	VVINF	denken	_	O	O	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=Friedländer mag nehmen, was, und taxiren, wie er will.
+4-1	Friedländer	NN	Friedland	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	mag	VMFIN	mögen	_	O	O	
+4-3	nehmen	VVINF	nehmen	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	was	PRELS	was	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	und	KON	und	_	O	O	
+4-8	taxiren	NN	<unknown>	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	wie	KOUS	wie	_	O	O	
+4-11	er	PPER	er	_	O	O	
+4-12	will	VMFIN	wollen	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Da Brun~die Usedomschen Münzen an sich genommen hat, gehören sämmtliche darin enthaltenen Münzen mir.
+5-1	Da	KOUS	da	_	O	O	
+5-2	Brun~die	NE	<unknown>	_	O	O	
+5-3	Usedomschen	ADJA	<unknown>	_	O	O	
+5-4	Münzen	NN	Münze	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-5	an	APPR	an	_	O	O	
+5-6	sich	PRF	sich	_	O	O	
+5-7	genommen	VVPP	nehmen	_	O	O	
+5-8	hat	VAFIN	haben	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	gehören	VVFIN	gehören	_	O	O	
+5-11	sämmtliche	ADJA	<unknown>	_	O	O	
+5-12	darin	PAV	darin	_	O	O	
+5-13	enthaltenen	ADJA	enthalten	_	O	O	
+5-14	Münzen	NN	Münze	_	O	O	
+5-15	mir	PPER	ich	_	O	O	
+5-16	.	$.	.	_	O	O	
+
+#id=6
+#text=Also fort mit Schaden !
+6-1	Also	ADV	also	_	O	O	
+6-2	fort	ADV	fort	_	O	O	
+6-3	mit	APPR	mit	_	O	O	
+6-4	Schaden	NN	Schaden	_	O	O	
+6-5	!	$.	!	_	O	O	
+
+#id=7
+#text=Eine große Freude für mich ist es, daß ich vorige Woche habe den Narkissostorso kaufen können.
+7-1	Eine	ART	eine	_	O	O	
+7-2	große	ADJA	groß	_	O	O	
+7-3	Freude	NN	Freude	_	O	O	
+7-4	für	APPR	für	_	O	O	
+7-5	mich	PRF	ich	_	O	O	
+7-6	ist	VAFIN	sein	_	O	O	
+7-7	es	PPER	es	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	daß	KOUS	dass	_	O	O	
+7-10	ich	PPER	ich	_	O	O	
+7-11	vorige	ADJA	vorig	_	O	O	
+7-12	Woche	NN	Woche	_	O	O	
+7-13	habe	VAFIN	haben	_	O	O	
+7-14	den	ART	die	_	O	O	
+7-15	Narkissostorso	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+7-16	kaufen	VVINF	kaufen	_	O	O	
+7-17	können	VMINF	können	_	O	O	
+7-18	.	$.	.	_	O	O	
+
+#id=8
+#text=Olfers hat mir mit löblicher Coulanz - ich revocire Alles gegen ihn Geschriebene - die betreffende Anweisung zugehen lassen.
+8-1	Olfers	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	hat	VAFIN	haben	_	O	O	
+8-3	mir	PPER	ich	_	O	O	
+8-4	mit	APPR	mit	_	O	O	
+8-5	löblicher	ADJA	löblich	_	O	O	
+8-6	Coulanz	NN	<unknown>	_	O	O	
+8-7	-	$(	-	_	O	O	
+8-8	ich	PPER	ich	_	O	O	
+8-9	revocire	VVFIN	<unknown>	_	O	O	
+8-10	Alles	PIS	alle	_	O	O	
+8-11	gegen	APPR	gegen	_	O	O	
+8-12	ihn	PPER	er	_	O	O	
+8-13	Geschriebene	NN	<unknown>	_	O	O	
+8-14	-	$(	-	_	O	O	
+8-15	die	ART	die	_	O	O	
+8-16	betreffende	ADJA	betreffend	_	O	O	
+8-17	Anweisung	NN	Anweisung	_	O	O	
+8-18	zugehen	VVINF	zugehen	_	O	O	
+8-19	lassen	VVINF	lassen	_	O	O	
+8-20	.	$.	.	_	O	O	
+
+#id=9
+#text=Die Sache wird entschieden Effect machen.
+9-1	Die	ART	die	_	O	O	
+9-2	Sache	NN	Sache	_	O	O	
+9-3	wird	VAFIN	werden	_	O	O	
+9-4	entschieden	ADJD	entschieden	_	O	O	
+9-5	Effect	NN	<unknown>	_	O	O	
+9-6	machen	VVINF	machen	_	O	O	
+9-7	.	$.	.	_	O	O	
+
+#id=10
+#text=Fiorelli taxirt den Torso auf 50 Piaster, ich habe ihn für 30 aquirirt.
+10-1	Fiorelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	taxirt	NN	<unknown>	_	O	O	
+10-3	den	ART	die	_	O	O	
+10-4	Torso	NN	Torso	_	O	O	
+10-5	auf	APPR	auf	_	O	O	
+10-6	50	CARD	50	_	O	O	
+10-7	Piaster	NN	<unknown>	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	ich	PPER	ich	_	O	O	
+10-10	habe	VAFIN	haben	_	O	O	
+10-11	ihn	PPER	er	_	O	O	
+10-12	für	APPR	für	_	O	O	
+10-13	30	CARD	30	_	O	O	
+10-14	aquirirt	NN	<unknown>	_	O	O	
+10-15	.	$.	.	_	O	O	
+
+#id=11
+#text=Er ist heute auf dem Wege nach Berlin.
+11-1	Er	PPER	er	_	O	O	
+11-2	ist	VAFIN	sein	_	O	O	
+11-3	heute	ADV	heute	_	O	O	
+11-4	auf	APPR	auf	_	O	O	
+11-5	dem	ART	die	_	O	O	
+11-6	Wege	NN	Weg	_	O	O	
+11-7	nach	APPR	nach	_	O	O	
+11-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-9	.	$.	.	_	O	O	
+
+#id=12
+#text=Wie soll ich es, falls Scalabrini nicht nach Neapel kommt, mit dem Jahnschen Auftrage halten?
+12-1	Wie	KOUS	wie	_	O	O	
+12-2	soll	VMFIN	sollen	_	O	O	
+12-3	ich	PPER	ich	_	O	O	
+12-4	es	PPER	es	_	O	O	
+12-5	,	$,	,	_	O	O	
+12-6	falls	KOUS	falls	_	O	O	
+12-7	Scalabrini	NE	<unknown>	_	O	O	
+12-8	nicht	PTKNEG	nicht	_	O	O	
+12-9	nach	APPR	nach	_	O	O	
+12-10	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-11	kommt	VVFIN	kommen	_	O	O	
+12-12	,	$,	,	_	O	O	
+12-13	mit	APPR	mit	_	O	O	
+12-14	dem	ART	die	_	O	O	
+12-15	Jahnschen	NN	<unknown>	_	O	O	
+12-16	Auftrage	NN	Auftrag	_	O	O	
+12-17	halten	VVINF	halten	_	O	O	
+12-18	?	$.	?	_	O	O	
+
+#id=13
+#text=Einen Zeichner express von Neapel nach Capua hin und zurück reisen zu lassen würde die Sache unendlich vertheuern.
+13-1	Einen	ART	eine	_	O	O	
+13-2	Zeichner	NN	Zeichner	_	O	O	
+13-3	express	ADV	express	_	O	O	
+13-4	von	APPR	von	_	O	O	
+13-5	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+13-6	nach	APPR	nach	_	O	O	
+13-7	Capua	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+13-8	hin	PTKVZ	hin	_	O	O	
+13-9	und	KON	und	_	O	O	
+13-10	zurück	ADV	zurück	_	O	O	
+13-11	reisen	VVINF	reisen	_	O	O	
+13-12	zu	PTKZU	zu	_	O	O	
+13-13	lassen	VVINF	lassen	_	O	O	
+13-14	würde	VAFIN	werden	_	O	O	
+13-15	die	ART	die	_	O	O	
+13-16	Sache	NN	Sache	_	O	O	
+13-17	unendlich	ADJD	unendlich	_	O	O	
+13-18	vertheuern	VVINF	<unknown>	_	O	O	
+13-19	.	$.	.	_	O	O	
+
+#id=14
+#text=Ich bitte um Instruction hierüber.
+14-1	Ich	PPER	ich	_	O	O	
+14-2	bitte	VVFIN	bitten	_	O	O	
+14-3	um	APPR	um	_	O	O	
+14-4	Instruction	NN	<unknown>	_	O	O	
+14-5	hierüber	PAV	hierüber	_	O	O	
+14-6	.	$.	.	_	O	O	
+
+#id=15
+#text=Über Gargiulo kann ich Ihnen noch nichts Definitives schreiben, da er bis jetzt nur zwei kleine Aktaionreliefs in Contour gezeichnet hat.
+15-1	Über	APPR	über	_	O	O	
+15-2	Gargiulo	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-3	kann	VMFIN	können	_	O	O	
+15-4	ich	PPER	ich	_	O	O	
+15-5	Ihnen	PPER	Sie	_	O	O	
+15-6	noch	ADV	noch	_	O	O	
+15-7	nichts	PIAT	nichts	_	O	O	
+15-8	Definitives	NN	Definitive	_	O	O	
+15-9	schreiben	VVINF	schreiben	_	O	O	
+15-10	,	$,	,	_	O	O	
+15-11	da	KOUS	da	_	O	O	
+15-12	er	PPER	er	_	O	O	
+15-13	bis	APPR	bis	_	O	O	
+15-14	jetzt	ADV	jetzt	_	O	O	
+15-15	nur	ADV	nur	_	O	O	
+15-16	zwei	CARD	zwei	_	B-webanno.custom.LetterEntity_	B-OBJ	
+15-17	kleine	ADJA	klein	_	I-webanno.custom.LetterEntity_	I-OBJ	
+15-18	Aktaionreliefs	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+15-19	in	APPR	in	_	O	O	
+15-20	Contour	NN	<unknown>	_	O	O	
+15-21	gezeichnet	VVPP	zeichnen	_	O	O	
+15-22	hat	VAFIN	haben	_	O	O	
+15-23	.	$.	.	_	O	O	
+
+#id=16
+#text=So viel läßt sich jedoch schon jetzt mit Sicherheit sagen, daß er vielfach mit anderen Arbeiten überla-
+16-1	So	ADV	so	_	O	O	
+16-2	viel	ADV	viel	_	O	O	
+16-3	läßt	VVFIN	lassen	_	O	O	
+16-4	sich	PRF	sich	_	O	O	
+16-5	jedoch	ADV	jedoch	_	O	O	
+16-6	schon	ADV	schon	_	O	O	
+16-7	jetzt	ADV	jetzt	_	O	O	
+16-8	mit	APPR	mit	_	O	O	
+16-9	Sicherheit	NN	Sicherheit	_	O	O	
+16-10	sagen	VVINF	sagen	_	O	O	
+16-11	,	$,	,	_	O	O	
+16-12	daß	KOUS	dass	_	O	O	
+16-13	er	PPER	er	_	O	O	
+16-14	vielfach	ADV	vielfach	_	O	O	
+16-15	mit	APPR	mit	_	O	O	
+16-16	anderen	PIS	andere	_	O	O	
+16-17	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+16-18	überla-	TRUNC	<unknown>	_	O	O	
+

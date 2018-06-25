@@ -1,0 +1,243 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Gerhard an Braun Berlin, 27. April 184~ 3 Über Empfang der durch Leontiew gesandten Leibnitzmedaille (an Sig.
+1-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	184~	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	3	CARD	3	_	O	O	
+1-11	Über	APPR	über	_	O	O	
+1-12	Empfang	NN	Empfang	_	O	O	
+1-13	der	ART	die	_	O	O	
+1-14	durch	APPR	durch	_	O	O	
+1-15	Leontiew	NE	<unknown>	_	O	O	
+1-16	gesandten	ADJA	gesandt	_	O	O	
+1-17	Leibnitzmedaille	NN	<unknown>	_	O	O	
+1-18	(	$(	(	_	O	O	
+1-19	an	APZR	an	_	O	O	
+1-20	Sig	VVFIN	<unknown>	_	O	O	
+1-21	.	$.	.	_	O	O	
+
+#id=2
+#text=Secchi und Andre) hat Niemand bescheinigt.
+2-1	Secchi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	und	KON	und	_	O	O	
+2-3	Andre	NE	Andre	_	O	O	
+2-4	)	$(	)	_	O	O	
+2-5	hat	VAFIN	haben	_	O	O	
+2-6	Niemand	PIS	niemand	_	O	O	
+2-7	bescheinigt	VVPP	bescheinigen	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Gegen Lersch ist allerseits viel UngJYs-t und zur Professur kann man doch eigentlich ihn nicht empfehlen.
+3-1	Gegen	APPR	gegen	_	O	O	
+3-2	Lersch	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	ist	VAFIN	sein	_	O	O	
+3-4	allerseits	ADV	allerseits	_	O	O	
+3-5	viel	PIAT	viele	_	O	O	
+3-6	UngJYs-t	NN	<unknown>	_	O	O	
+3-7	und	KON	und	_	O	O	
+3-8	zur	APPRART	zu	_	O	O	
+3-9	Professur	NN	Professur	_	O	O	
+3-10	kann	VMFIN	können	_	O	O	
+3-11	man	PIS	man	_	O	O	
+3-12	doch	ADV	doch	_	O	O	
+3-13	eigentlich	ADV	eigentlich	_	O	O	
+3-14	ihn	PPER	er	_	O	O	
+3-15	nicht	PTKNEG	nicht	_	O	O	
+3-16	empfehlen	VVINF	empfehlen	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=J. Friedländer hat einen Antrag fürs Dresdener Münzkabinet 300 rt und wird da Olfers ihm alle hiesige Hoffnung abschneidet wol gehen, was mir sehr leid thut.
+4-1	J.	APPR	j.	_	O	O	
+4-2	Friedländer	NN	Friedland	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	hat	VAFIN	haben	_	O	O	
+4-4	einen	ART	eine	_	O	O	
+4-5	Antrag	NN	Antrag	_	O	O	
+4-6	fürs	APPRART	fürs	_	O	O	
+4-7	Dresdener	NN	Dresdener	_	O	O	
+4-8	Münzkabinet	NN	<unknown>	_	O	O	
+4-9	300	CARD	300	_	O	O	
+4-10	rt	VVFIN	<unknown>	_	O	O	
+4-11	und	KON	und	_	O	O	
+4-12	wird	VAFIN	werden	_	O	O	
+4-13	da	ADV	da	_	O	O	
+4-14	Olfers	NN	<unknown>	_	O	O	
+4-15	ihm	PPER	er	_	O	O	
+4-16	alle	PIAT	alle	_	O	O	
+4-17	hiesige	ADJA	hiesig	_	O	O	
+4-18	Hoffnung	NN	Hoffnung	_	O	O	
+4-19	abschneidet	VVFIN	abschneiden	_	O	O	
+4-20	wol	ADJD	<unknown>	_	O	O	
+4-21	gehen	VVINF	gehen	_	O	O	
+4-22	,	$,	,	_	O	O	
+4-23	was	PRELS	was	_	O	O	
+4-24	mir	PPER	ich	_	O	O	
+4-25	sehr	ADV	sehr	_	O	O	
+4-26	leid	ADJD	leid	_	O	O	
+4-27	thut	NN	<unknown>	_	O	O	
+4-28	.	$.	.	_	O	O	
+
+#id=5
+#text=Hatte Bethmann dem Institut Dienste geleistet ?
+5-1	Hatte	VAFIN	haben	_	O	O	
+5-2	Bethmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	dem	ART	die	_	O	O	
+5-4	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-5	Dienste	NN	Dienst	_	O	O	
+5-6	geleistet	VVPP	leisten	_	O	O	
+5-7	?	$.	?	_	O	O	
+
+#id=6
+#text=Er scheint mir zum Korrespondenten geeignet.
+6-1	Er	PPER	er	_	O	O	
+6-2	scheint	VVFIN	scheinen	_	O	O	
+6-3	mir	PPER	ich	_	O	O	
+6-4	zum	APPRART	zu	_	O	O	
+6-5	Korrespondenten	NN	Korrespondent	_	O	O	
+6-6	geeignet	VVPP	eignen	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=Von Paris gar nichts; ich muß doch endlich wieder einen Mahnbrief senden.
+7-1	Von	APPR	von	_	O	O	
+7-2	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-3	gar	ADV	gar	_	O	O	
+7-4	nichts	PIS	nichts	_	O	O	
+7-5	;	$.	;	_	O	O	
+7-6	ich	PPER	ich	_	O	O	
+7-7	muß	VMFIN	müssen	_	O	O	
+7-8	doch	ADV	doch	_	O	O	
+7-9	endlich	ADV	endlich	_	O	O	
+7-10	wieder	ADV	wieder	_	O	O	
+7-11	einen	ART	eine	_	O	O	
+7-12	Mahnbrief	NN	Mahnbrief	_	O	O	
+7-13	senden	VVINF	senden	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Was halten Sie von dem Bacchuspanzer im Albanischen Relief der 8 Gottheiten?
+8-1	Was	PWS	was	_	O	O	
+8-2	halten	VVFIN	halten	_	O	O	
+8-3	Sie	PPER	Sie	_	O	O	
+8-4	von	APPR	von	_	O	O	
+8-5	dem	ART	die	_	O	O	
+8-6	Bacchuspanzer	NN	<unknown>	_	O	O	
+8-7	im	APPRART	in	_	O	O	
+8-8	Albanischen	ADJA	albanisch	_	O	O	
+8-9	Relief	NN	Relief	_	O	O	
+8-10	der	ART	die	_	O	O	
+8-11	8	CARD	8	_	O	O	
+8-12	Gottheiten	NN	Gottheit	_	O	O	
+8-13	?	$.	?	_	O	O	
+
+#id=9
+#text=Ich sah ihn noch voriges Jahr ohne Unglauben an, denn wem hat es eigentlich einfallen können der Nebris ihn zu substituiren ?
+9-1	Ich	PPER	ich	_	O	O	
+9-2	sah	VVFIN	sehen	_	O	O	
+9-3	ihn	PPER	er	_	O	O	
+9-4	noch	ADV	noch	_	O	O	
+9-5	voriges	ADJA	vorig	_	O	O	
+9-6	Jahr	NN	Jahr	_	O	O	
+9-7	ohne	APPR	ohne	_	O	O	
+9-8	Unglauben	NN	Unglaube	_	O	O	
+9-9	an	PTKVZ	an	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	denn	KON	denn	_	O	O	
+9-12	wem	PWS	wer	_	O	O	
+9-13	hat	VAFIN	haben	_	O	O	
+9-14	es	PPER	es	_	O	O	
+9-15	eigentlich	ADV	eigentlich	_	O	O	
+9-16	einfallen	VVINF	einfallen	_	O	O	
+9-17	können	VMINF	können	_	O	O	
+9-18	der	ART	die	_	O	O	
+9-19	Nebris	NN	<unknown>	_	O	O	
+9-20	ihn	PPER	er	_	O	O	
+9-21	zu	APPR	zu	_	O	O	
+9-22	substituiren	NN	<unknown>	_	O	O	
+9-23	?	$.	?	_	O	O	
+
+#id=10
+#text=Die Replik der Minervengeburt ist unbedeutend, kann Ihnen aber durchgezeichnet werden wenn Sie dennoch es wünschen.
+10-1	Die	ART	die	_	O	O	
+10-2	Replik	NN	Replik	_	O	O	
+10-3	der	ART	die	_	O	O	
+10-4	Minervengeburt	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+10-5	ist	VAFIN	sein	_	O	O	
+10-6	unbedeutend	ADJD	unbedeutend	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	kann	VMFIN	können	_	O	O	
+10-9	Ihnen	PPER	Sie	_	O	O	
+10-10	aber	ADV	aber	_	O	O	
+10-11	durchgezeichnet	ADJD	<unknown>	_	O	O	
+10-12	werden	VAINF	werden	_	O	O	
+10-13	wenn	KOUS	wenn	_	O	O	
+10-14	Sie	PPER	Sie	_	O	O	
+10-15	dennoch	ADV	dennoch	_	O	O	
+10-16	es	PPER	es	_	O	O	
+10-17	wünschen	VVINF	wünschen	_	O	O	
+10-18	.	$.	.	_	O	O	
+
+#id=11
+#text=Röstell geht in wenig Wochen als Ord.
+11-1	Röstell	NN	<unknown>	_	O	O	
+11-2	geht	VVFIN	gehen	_	O	O	
+11-3	in	APPR	in	_	O	O	
+11-4	wenig	PIAT	wenige	_	O	O	
+11-5	Wochen	NN	Woche	_	O	O	
+11-6	als	KOKOM	als	_	O	O	
+11-7	Ord	ADJD	<unknown>	_	O	O	
+11-8	.	$.	.	_	O	O	
+
+#id=12
+#text=nach Marburg.
+12-1	nach	APPR	nach	_	O	O	
+12-2	Marburg	NE	Marburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-3	.	$.	.	_	O	O	
+
+#id=13
+#text=Wann kommt Abeken ?
+13-1	Wann	PWAV	wann	_	O	O	
+13-2	kommt	VVFIN	kommen	_	O	O	
+13-3	Abeken	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-4	?	$.	?	_	O	O	
+
+#id=14
+#text=Daß Lepsius 90 000 rt für sein ägyptisches Opus fordert, für das eine Commission nächstens begutachten d. h. Ja sagen soll, glaube ich Ihnen geschrieben zu ha-
+14-1	Daß	KOUS	dass	_	O	O	
+14-2	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-3	90	CARD	90	_	O	O	
+14-4	000	CARD	@card@	_	O	O	
+14-5	rt	NN	<unknown>	_	O	O	
+14-6	für	APPR	für	_	O	O	
+14-7	sein	PPOSAT	sein	_	O	O	
+14-8	ägyptisches	ADJA	ägyptisch	_	O	O	
+14-9	Opus	NN	Opus	_	O	O	
+14-10	fordert	VVFIN	fordern	_	O	O	
+14-11	,	$,	,	_	O	O	
+14-12	für	APPR	für	_	O	O	
+14-13	das	PRELS	die	_	O	O	
+14-14	eine	ART	eine	_	O	O	
+14-15	Commission	NN	<unknown>	_	O	O	
+14-16	nächstens	ADV	nächstens	_	O	O	
+14-17	begutachten	VVFIN	begutachten	_	O	O	
+14-18	d.	PDS	d.	_	O	O	
+14-19	h.	VVFIN	heißen	_	O	O	
+14-20	Ja	ADV	ja	_	O	O	
+14-21	sagen	VVINF	sagen	_	O	O	
+14-22	soll	VMFIN	sollen	_	O	O	
+14-23	,	$,	,	_	O	O	
+14-24	glaube	VVFIN	glauben	_	O	O	
+14-25	ich	PPER	ich	_	O	O	
+14-26	Ihnen	PPER	Sie	_	O	O	
+14-27	geschrieben	VVPP	schreiben	_	O	O	
+14-28	zu	APPR	zu	_	O	O	
+14-29	ha-	TRUNC	ha-	_	O	O	
+

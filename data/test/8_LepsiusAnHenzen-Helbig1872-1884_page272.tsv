@@ -1,0 +1,209 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=188 N. 57 Verehrter Freund Lepsius an Henzen Berlin, 3. April 1876 g. 8/4 76 r.
+1-1	188	CARD	@card@	_	O	O	
+1-2	N.	APPR	n.	_	O	O	
+1-3	57	CARD	@card@	_	O	O	
+1-4	Verehrter	NN	Verehrte	_	O	O	
+1-5	Freund	NE	Freund	_	O	O	
+1-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	an	APPR	an	_	O	O	
+1-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	g.	VVFIN	<unknown>	_	O	O	
+1-16	8/4	CARD	8/4	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-17	76	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-18	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=14/4 Berlin d. 3. April 1876 Kekule läßt mir folgende Berichtigungen des E~ lenco zugehen: p. 4 Caddeddi statt Cadeddi 5.
+2-1	14/4	CARD	@card@	_	O	O	
+2-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-3	d.	ART	d.	_	O	O	
+2-4	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	1876	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Kekule	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-9	läßt	VVFIN	lassen	_	O	O	
+2-10	mir	PPER	ich	_	O	O	
+2-11	folgende	ADJA	folgend	_	O	O	
+2-12	Berichtigungen	NN	Berichtigung	_	O	O	
+2-13	des	ART	die	_	O	O	
+2-14	E~	NN	<unknown>	_	O	O	
+2-15	lenco	NE	<unknown>	_	O	O	
+2-16	zugehen	VVINF	zugehen	_	O	O	
+2-17	:	$.	:	_	O	O	
+2-18	p.	APPR	p.	_	O	O	
+2-19	4	CARD	4	_	O	O	
+2-20	Caddeddi	NE	<unknown>	_	O	O	
+2-21	statt	APPR	statt	_	O	O	
+2-22	Cadeddi	NE	<unknown>	_	O	O	
+2-23	5	CARD	5	_	O	O	
+2-24	.	$.	.	_	O	O	
+
+#id=3
+#text=8.
+3-1	8	CARD	8	_	O	O	
+3-2	.	$.	.	_	O	O	
+
+#id=4
+#text=9.
+4-1	9	CARD	9	_	O	O	
+4-2	.	$.	.	_	O	O	
+
+#id=5
+#text=P. Pervanoglu, n Mauceri G. Finlay F. Umpfenbach denschmitt.
+5-1	P.	NE	P.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	Pervanoglu	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-3	,	$,	,	_	O	O	
+5-4	n	VVFIN	<unknown>	_	O	O	
+5-5	Mauceri	NE	<unknown>	_	O	O	
+5-6	G.	NE	G.	_	O	O	
+5-7	Finlay	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-8	F.	NE	F.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-9	Umpfenbach	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-10	denschmitt	NE	<unknown>	_	O	O	
+5-11	.	$.	.	_	O	O	
+
+#id=6
+#text=10. F. Habel Atene jetzt ?
+6-1	10	CARD	10	_	O	O	
+6-2	.	$.	.	_	O	O	
+6-3	F.	APPR	f.	_	O	O	
+6-4	Habel	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	Atene	NN	<unknown>	_	O	O	
+6-6	jetzt	ADV	jetzt	_	O	O	
+6-7	?	$.	?	_	O	O	
+
+#id=7
+#text=in Mainz Hinter LinIn meinem letzten Briefe habe ich wohl geschrieben daß wir auf eine Erhöhung von Titel V,1 auf 25,000 Mark antragen wollen; es soll heißen 20,000 Mark.
+7-1	in	APPR	in	_	O	O	
+7-2	Mainz	NE	Mainz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-3	Hinter	APPR	hinter	_	O	O	
+7-4	LinIn	NN	<unknown>	_	O	O	
+7-5	meinem	PPOSAT	mein	_	O	O	
+7-6	letzten	ADJA	letzt	_	O	O	
+7-7	Briefe	NN	Brief	_	O	O	
+7-8	habe	VAFIN	haben	_	O	O	
+7-9	ich	PPER	ich	_	O	O	
+7-10	wohl	ADV	wohl	_	O	O	
+7-11	geschrieben	VVPP	schreiben	_	O	O	
+7-12	daß	KOUS	dass	_	O	O	
+7-13	wir	PPER	wir	_	O	O	
+7-14	auf	APPR	auf	_	O	O	
+7-15	eine	ART	eine	_	O	O	
+7-16	Erhöhung	NN	Erhöhung	_	O	O	
+7-17	von	APPR	von	_	O	O	
+7-18	Titel	NN	Titel	_	O	O	
+7-19	V,1	CARD	<unknown>	_	O	O	
+7-20	auf	APPR	auf	_	O	O	
+7-21	25,000	CARD	@card@	_	O	O	
+7-22	Mark	NN	Mark	_	O	O	
+7-23	antragen	VVINF	antragen	_	O	O	
+7-24	wollen	VMINF	wollen	_	O	O	
+7-25	;	$.	;	_	O	O	
+7-26	es	PPER	es	_	O	O	
+7-27	soll	VMFIN	sollen	_	O	O	
+7-28	heißen	ADJA	heiß	_	O	O	
+7-29	20,000	CARD	@card@	_	O	O	
+7-30	Mark	NN	Mark	_	O	O	
+7-31	.	$.	.	_	O	O	
+
+#id=8
+#text=In Ihrem letzten Briefe vom 1. April fragten Sie nach den Vasen von Adria.
+8-1	In	APPR	in	_	O	O	
+8-2	Ihrem	PPOSAT	ihr	_	O	O	
+8-3	letzten	ADJA	letzt	_	O	O	
+8-4	Briefe	NN	Brief	_	O	O	
+8-5	vom	APPRART	von	_	O	O	
+8-6	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+8-8	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+8-9	fragten	VVFIN	fragen	_	O	O	
+8-10	Sie	PPER	Sie	_	O	O	
+8-11	nach	APPR	nach	_	O	O	
+8-12	den	ART	die	_	O	O	
+8-13	Vasen	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-14	von	APPR	von	_	O	O	
+8-15	Adria	NE	Adria	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-16	.	$.	.	_	O	O	
+
+#id=9
+#text=Es war allerdings die Meinung, daß Sie diese Italienische Sache vielleicht auf Titel 111, 1. nehmen würden.
+9-1	Es	PPER	es	_	O	O	
+9-2	war	VAFIN	sein	_	O	O	
+9-3	allerdings	ADV	allerdings	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	Meinung	NN	Meinung	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	daß	KOUS	dass	_	O	O	
+9-8	Sie	PPER	Sie	_	O	O	
+9-9	diese	PDAT	dies	_	O	O	
+9-10	Italienische	ADJA	italienisch	_	O	O	
+9-11	Sache	NN	Sache	_	O	O	
+9-12	vielleicht	ADV	vielleicht	_	O	O	
+9-13	auf	APPR	auf	_	O	O	
+9-14	Titel	NN	Titel	_	O	O	
+9-15	111	CARD	@card@	_	O	O	
+9-16	,	$,	,	_	O	O	
+9-17	1	CARD	1	_	O	O	
+9-18	.	$.	.	_	O	O	
+9-19	nehmen	VVINF	nehmen	_	O	O	
+9-20	würden	VAFIN	werden	_	O	O	
+9-21	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich habe aber wohl zuzufügen vergessen, daß ich beauftragt war, nei Ihnen darüber anzufragen, und bitte dies zu entschuldigen wenn es so ist.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	habe	VAFIN	haben	_	O	O	
+10-3	aber	ADV	aber	_	O	O	
+10-4	wohl	ADV	wohl	_	O	O	
+10-5	zuzufügen	VVIZU	zufügen	_	O	O	
+10-6	vergessen	VVINF	vergessen	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	daß	KOUS	dass	_	O	O	
+10-9	ich	PPER	ich	_	O	O	
+10-10	beauftragt	VVPP	beauftragen	_	O	O	
+10-11	war	VAFIN	sein	_	O	O	
+10-12	,	$,	,	_	O	O	
+10-13	nei	VVFIN	<unknown>	_	O	O	
+10-14	Ihnen	PPER	Sie	_	O	O	
+10-15	darüber	PAV	darüber	_	O	O	
+10-16	anzufragen	VVIZU	anfragen	_	O	O	
+10-17	,	$,	,	_	O	O	
+10-18	und	KON	und	_	O	O	
+10-19	bitte	ADV	bitte	_	O	O	
+10-20	dies	PDS	dies	_	O	O	
+10-21	zu	PTKZU	zu	_	O	O	
+10-22	entschuldigen	VVINF	entschuldigen	_	O	O	
+10-23	wenn	KOUS	wenn	_	O	O	
+10-24	es	PPER	es	_	O	O	
+10-25	so	ADV	so	_	O	O	
+10-26	ist	VAFIN	sein	_	O	O	
+10-27	.	$.	.	_	O	O	
+
+#id=11
+#text=Auch darüber wird Mommsen mit Ihnen sprechen, nachdem er in Padua ~erhandelt haben wird.
+11-1	Auch	ADV	auch	_	O	O	
+11-2	darüber	PAV	darüber	_	O	O	
+11-3	wird	VAFIN	werden	_	O	O	
+11-4	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-5	mit	APPR	mit	_	O	O	
+11-6	Ihnen	PPER	Sie	_	O	O	
+11-7	sprechen	VVINF	sprechen	_	O	O	
+11-8	,	$,	,	_	O	O	
+11-9	nachdem	KOUS	nachdem	_	O	O	
+11-10	er	PPER	er	_	O	O	
+11-11	in	APPR	in	_	O	O	
+11-12	Padua	NE	Padua	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-13	~erhandelt	ADJD	<unknown>	_	O	O	
+11-14	haben	VAINF	haben	_	O	O	
+11-15	wird	VAFIN	werden	_	O	O	
+11-16	.	$.	.	_	O	O	
+

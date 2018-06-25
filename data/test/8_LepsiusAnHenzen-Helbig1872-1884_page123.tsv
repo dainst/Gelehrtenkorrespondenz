@@ -1,0 +1,143 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=15 Verehrter Freund Lepsius an Henzen Berlin, 5. Januar 1874 g. 9/1 74 Berlin d. 5. Jan.
+1-1	15	CARD	15	_	O	O	
+1-2	Verehrter	NN	Verehrte	_	O	O	
+1-3	Freund	NE	Freund	_	O	O	
+1-4	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	g.	VVFIN	<unknown>	_	O	O	
+1-14	9/1	CARD	9/1	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-15	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-16	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-17	d.	ART	d.	_	O	O	
+1-18	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1874 Die neuen Kreaturen sind also nun folgende Membri Ordinari : L. Torelli Giacomo Lombroso Lüders Hirschfeld v. Sallet Membri corrispondenti A. Mau Ett.
+2-1	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Die	ART	die	_	O	O	
+2-3	neuen	ADJA	neu	_	O	O	
+2-4	Kreaturen	NN	Kreatur	_	O	O	
+2-5	sind	VAFIN	sein	_	O	O	
+2-6	also	ADV	also	_	O	O	
+2-7	nun	ADV	nun	_	O	O	
+2-8	folgende	ADJA	folgend	_	O	O	
+2-9	Membri	NN	<unknown>	_	O	O	
+2-10	Ordinari	NE	<unknown>	_	O	O	
+2-11	:	$.	:	_	O	O	
+2-12	L.	NE	L.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-13	Torelli	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-14	Giacomo	NE	Giacomo	_	O	O	
+2-15	Lombroso	ADJA	<unknown>	_	O	O	
+2-16	Lüders	NN	<unknown>	_	O	O	
+2-17	Hirschfeld	NN	Hirschfeld	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-18	v.	APPR	von	_	O	O	
+2-19	Sallet	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-20	Membri	NN	<unknown>	_	O	O	
+2-21	corrispondenti	NN	<unknown>	_	O	O	
+2-22	A.	APPRART	am	_	O	O	
+2-23	Mau	NE	Mau	_	O	O	
+2-24	Ett	VVFIN	<unknown>	_	O	O	
+2-25	.	$.	.	_	O	O	
+
+#id=3
+#text=di Rugiero Heinr.
+3-1	di	NE	di	_	O	O	
+3-2	Rugiero	NE	<unknown>	_	O	O	
+3-3	Heinr.	NE	Heinr.	_	O	O	
+
+#id=4
+#text=Findly C. Curtius Wesel G. Lolling Fr.
+4-1	Findly	NE	<unknown>	_	O	O	
+4-2	C.	NE	C.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	Curtius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-4	Wesel	NN	<unknown>	_	O	O	
+4-5	G.	NE	G.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-6	Lolling	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-7	Fr.	NN	Freitag	_	O	O	
+
+#id=5
+#text=Julius Millingen in Konstantinopel (Curtius) Dr.
+5-1	Julius	NE	Julius	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	Millingen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-3	in	APPR	in	_	O	O	
+5-4	Konstantinopel	NE	Konstantinopel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-5	(	$(	(	_	O	O	
+5-6	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-7	)	$(	)	_	O	O	
+5-8	Dr.	NN	Dr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=6
+#text=S. SChröder, Drag.
+6-1	S.	NE	S.	_	O	O	
+6-2	SChröder	NE	Schröder	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	Drag	NN	<unknown>	_	O	O	
+6-5	.	$.	.	_	O	O	
+
+#id=7
+#text=bei der Gesandtschaft in Konstantinopel (Curtius) ( ?)
+7-1	bei	APPR	bei	_	O	O	
+7-2	der	ART	die	_	O	O	
+7-3	Gesandtschaft	NN	Gesandtschaft	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-4	in	APPR	in	_	O	O	
+7-5	Konstantinopel	NE	Konstantinopel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-6	(	$(	(	_	O	O	
+7-7	Curtius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-8	)	$(	)	_	O	O	
+7-9	(	$(	(	_	O	O	
+7-10	?	$.	?	_	O	O	
+7-11	)	$(	)	_	O	O	
+
+#id=8
+#text=Odolesca, in Bukarest (Mommsen) Der Herr Nardi-Dei war auf Ihren (oder Helbig's ?)
+8-1	Odolesca	NE	<unknown>	_	O	O	
+8-2	,	$,	,	_	O	O	
+8-3	in	APPR	in	_	O	O	
+8-4	Bukarest	NE	Bukarest	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-5	(	$(	(	_	O	O	
+8-6	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-7	)	$(	)	_	O	O	
+8-8	Der	ART	die	_	O	O	
+8-9	Herr	NN	Herr	_	O	O	
+8-10	Nardi-Dei	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-11	war	VAFIN	sein	_	O	O	
+8-12	auf	APPR	auf	_	O	O	
+8-13	Ihren	PPOSAT	ihr	_	O	O	
+8-14	(	$(	(	_	O	O	
+8-15	oder	KON	oder	_	O	O	
+8-16	Helbig's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-17	?	$.	?	_	O	O	
+8-18	)	$(	)	_	O	O	
+
+#id=9
+#text=Wunsch schon im yuli gewählt und das Diplom übersendet; er war alo wohl s.'uoh schon angezeigt;
+9-1	Wunsch	NN	Wunsch	_	O	O	
+9-2	schon	ADV	schon	_	O	O	
+9-3	im	APPRART	in	_	O	O	
+9-4	yuli	NN	<unknown>	_	O	O	
+9-5	gewählt	VVPP	wählen	_	O	O	
+9-6	und	KON	und	_	O	O	
+9-7	das	ART	die	_	O	O	
+9-8	Diplom	NN	Diplom	_	O	O	
+9-9	übersendet	VVPP	übersenden	_	O	O	
+9-10	;	$.	;	_	O	O	
+9-11	er	PPER	er	_	O	O	
+9-12	war	VAFIN	sein	_	O	O	
+9-13	alo	NE	Alo	_	O	O	
+9-14	wohl	ADV	wohl	_	O	O	
+9-15	s.'uoh	VVFIN	<unknown>	_	O	O	
+9-16	schon	ADV	schon	_	O	O	
+9-17	angezeigt	VVPP	anzeigen	_	O	O	
+9-18	;	$.	;	_	O	O	
+

@@ -1,0 +1,247 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=84 L Verehrtester Freund Lepsius an Henzen Berlin, 2. April 1873 g. 6/4 73 B. d. 2. April 1873.
+1-1	84	CARD	84	_	O	O	
+1-2	L	NN	L	_	O	O	
+1-3	Verehrtester	NN	<unknown>	_	O	O	
+1-4	Freund	NE	Freund	_	O	O	
+1-5	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	6/4	CARD	6/4	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	73	CARD	73	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	B.	NN	B.	_	O	O	
+1-18	d.	ART	d.	_	O	O	
+1-19	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	.	$.	.	_	O	O	
+
+#id=2
+#text=Nur für einige Worte habe ich eben Zeit um Ihnen zu melden, daß soeben die officielle Nachricht von der Zulage zu Ihren Besoldungen von resp. 600 r und 200 r, so wie von 400 r zur Remunerirung eines Gehülfen Für Sie bei mir eingeht.
+2-1	Nur	ADV	nur	_	O	O	
+2-2	für	APPR	für	_	O	O	
+2-3	einige	PIAT	einige	_	O	O	
+2-4	Worte	NN	Wort	_	O	O	
+2-5	habe	VAFIN	haben	_	O	O	
+2-6	ich	PPER	ich	_	O	O	
+2-7	eben	ADV	eben	_	O	O	
+2-8	Zeit	NN	Zeit	_	O	O	
+2-9	um	APPR	um	_	O	O	
+2-10	Ihnen	PPER	Sie	_	O	O	
+2-11	zu	PTKZU	zu	_	O	O	
+2-12	melden	VVINF	melden	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	daß	KOUS	dass	_	O	O	
+2-15	soeben	ADV	soeben	_	O	O	
+2-16	die	ART	die	_	O	O	
+2-17	officielle	ADJA	<unknown>	_	O	O	
+2-18	Nachricht	NN	Nachricht	_	O	O	
+2-19	von	APPR	von	_	O	O	
+2-20	der	ART	die	_	O	O	
+2-21	Zulage	NN	Zulage	_	O	O	
+2-22	zu	APPR	zu	_	O	O	
+2-23	Ihren	PPOSAT	ihr	_	O	O	
+2-24	Besoldungen	NN	Besoldung	_	O	O	
+2-25	von	APPR	von	_	O	O	
+2-26	resp.	ADV	resp.	_	O	O	
+2-27	600	CARD	600	_	O	O	
+2-28	r	NE	r	_	O	O	
+2-29	und	KON	und	_	O	O	
+2-30	200	CARD	200	_	O	O	
+2-31	r	NE	r	_	O	O	
+2-32	,	$,	,	_	O	O	
+2-33	so	ADV	so	_	O	O	
+2-34	wie	KOKOM	wie	_	O	O	
+2-35	von	APPR	von	_	O	O	
+2-36	400	CARD	400	_	O	O	
+2-37	r	NE	r	_	O	O	
+2-38	zur	APPRART	zu	_	O	O	
+2-39	Remunerirung	NN	<unknown>	_	O	O	
+2-40	eines	ART	eine	_	O	O	
+2-41	Gehülfen	NN	<unknown>	_	O	O	
+2-42	Für	APPR	für	_	O	O	
+2-43	Sie	PPER	Sie	_	O	O	
+2-44	bei	APPR	bei	_	O	O	
+2-45	mir	PPER	ich	_	O	O	
+2-46	eingeht	VVFIN	eingehen	_	O	O	
+2-47	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Kaiserl.
+3-1	Die	ART	die	_	O	O	
+3-2	Kaiserl.	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=4
+#text=Gesandtschaft ist angewiesen zu zaheln.
+4-1	Gesandtschaft	NN	Gesandtschaft	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+4-2	ist	VAFIN	sein	_	O	O	
+4-3	angewiesen	ADJD	angewiesen	_	O	O	
+4-4	zu	PTKZU	zu	_	O	O	
+4-5	zaheln	VVINF	<unknown>	_	O	O	
+4-6	.	$.	.	_	O	O	
+
+#id=5
+#text=Ferner ist heute Morgen Ihr Brief vom 29. n , gleichzeitig mit obigem Reskripte, das auch vom 29. n datirt ist, angekommen.
+5-1	Ferner	ADJD	fern	_	O	O	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	heute	ADV	heute	_	O	O	
+5-4	Morgen	ADV	morgen	_	O	O	
+5-5	Ihr	PPOSAT	ihr	_	O	O	
+5-6	Brief	NN	Brief	_	O	O	
+5-7	vom	APPRART	von	_	O	O	
+5-8	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-10	n	ADJA	<unknown>	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	gleichzeitig	ADJD	gleichzeitig	_	O	O	
+5-13	mit	APPR	mit	_	O	O	
+5-14	obigem	ADJA	obig	_	O	O	
+5-15	Reskripte	NN	<unknown>	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	das	PRELS	die	_	O	O	
+5-18	auch	ADV	auch	_	O	O	
+5-19	vom	APPRART	von	_	O	O	
+5-20	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-21	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-22	n	ADJA	<unknown>	_	O	O	
+5-23	datirt	NN	<unknown>	_	O	O	
+5-24	ist	VAFIN	sein	_	O	O	
+5-25	,	$,	,	_	O	O	
+5-26	angekommen	VVPP	ankommen	_	O	O	
+5-27	.	$.	.	_	O	O	
+
+#id=6
+#text=Inventarisationsattest und Accessionsverzeichnis gehen alsbald ab, den Rechnungen nach.
+6-1	Inventarisationsattest	NN	<unknown>	_	O	O	
+6-2	und	KON	und	_	O	O	
+6-3	Accessionsverzeichnis	NN	<unknown>	_	O	O	
+6-4	gehen	VVFIN	gehen	_	O	O	
+6-5	alsbald	ADV	alsbald	_	O	O	
+6-6	ab	PTKVZ	ab	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	den	ART	die	_	O	O	
+6-9	Rechnungen	NN	Rechnung	_	O	O	
+6-10	nach	PTKVZ	nach	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Mommsens Brief ist angekommen.
+7-1	Mommsens	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	Brief	NN	Brief	_	O	O	
+7-3	ist	VAFIN	sein	_	O	O	
+7-4	angekommen	VVPP	ankommen	_	O	O	
+7-5	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich freue mich daß es ihm so wohl geht.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	freue	VVFIN	freuen	_	O	O	
+8-3	mich	PRF	ich	_	O	O	
+8-4	daß	KOUS	dass	_	O	O	
+8-5	es	PPER	es	_	O	O	
+8-6	ihm	PPER	er	_	O	O	
+8-7	so	ADV	so	_	O	O	
+8-8	wohl	ADV	wohl	_	O	O	
+8-9	geht	VVFIN	gehen	_	O	O	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=Es ist begreiflich, daß sein Erscheinen in Rom dieses Jahr besonderes Interesse nach allen Seiten hin erweckt.
+9-1	Es	PPER	es	_	O	O	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	begreiflich	ADJD	begreiflich	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	daß	KOUS	dass	_	O	O	
+9-6	sein	PPOSAT	sein	_	O	O	
+9-7	Erscheinen	NN	Erscheinen	_	O	O	
+9-8	in	APPR	in	_	O	O	
+9-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-10	dieses	PDAT	dies	_	O	O	
+9-11	Jahr	NN	Jahr	_	O	O	
+9-12	besonderes	ADJA	besonder	_	O	O	
+9-13	Interesse	NN	Interesse	_	O	O	
+9-14	nach	APPR	nach	_	O	O	
+9-15	allen	PIAT	alle	_	O	O	
+9-16	Seiten	NN	Seite	_	O	O	
+9-17	hin	APZR	hin	_	O	O	
+9-18	erweckt	VVPP	erwecken	_	O	O	
+9-19	.	$.	.	_	O	O	
+
+#id=10
+#text=Grüßen Sie ihn herzlich von mir; ich schreibe ihm nächstens.
+10-1	Grüßen	VVFIN	grüßen	_	O	O	
+10-2	Sie	PPER	Sie	_	O	O	
+10-3	ihn	PPER	er	_	O	O	
+10-4	herzlich	ADJD	herzlich	_	O	O	
+10-5	von	APPR	von	_	O	O	
+10-6	mir	PPER	ich	_	O	O	
+10-7	;	$.	;	_	O	O	
+10-8	ich	PPER	ich	_	O	O	
+10-9	schreibe	VVFIN	schreiben	_	O	O	
+10-10	ihm	PPER	er	_	O	O	
+10-11	nächstens	ADV	nächstens	_	O	O	
+10-12	.	$.	.	_	O	O	
+
+#id=11
+#text=Wenn das Medaillon gut ausfällt, werde ich der Familie vorschlagen eines in Marmor (für sein Grab ? )
+11-1	Wenn	KOUS	wenn	_	O	O	
+11-2	das	ART	die	_	O	O	
+11-3	Medaillon	NN	Medaillon	_	O	O	
+11-4	gut	ADJD	gut	_	O	O	
+11-5	ausfällt	VVFIN	ausfallen	_	O	O	
+11-6	,	$,	,	_	O	O	
+11-7	werde	VAFIN	werden	_	O	O	
+11-8	ich	PPER	ich	_	O	O	
+11-9	der	ART	die	_	O	O	
+11-10	Familie	NN	Familie	_	O	O	
+11-11	vorschlagen	VVFIN	vorschlagen	_	O	O	
+11-12	eines	PIS	eine	_	O	O	
+11-13	in	APPR	in	_	O	O	
+11-14	Marmor	NN	Marmor	_	O	O	
+11-15	(	$(	(	_	O	O	
+11-16	für	APPR	für	_	O	O	
+11-17	sein	PPOSAT	sein	_	O	O	
+11-18	Grab	NN	Grab	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-19	?	$.	?	_	O	O	
+11-20	)	$(	)	_	O	O	
+
+#id=12
+#text=ausführen zu lassen.
+12-1	ausführen	VVINF	ausführen	_	O	O	
+12-2	zu	PTKZU	zu	_	O	O	
+12-3	lassen	VVINF	lassen	_	O	O	
+12-4	.	$.	.	_	O	O	
+
+#id=13
+#text=Die Notiz von Helbig durch Mommsen über die Vasen habe ich abgegeben.
+13-1	Die	ART	die	_	O	O	
+13-2	Notiz	NN	Notiz	_	O	O	
+13-3	von	APPR	von	_	O	O	
+13-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-5	durch	APPR	durch	_	O	O	
+13-6	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-7	über	APPR	über	_	O	O	
+13-8	die	ART	die	_	O	O	
+13-9	Vasen	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+13-10	habe	VAFIN	haben	_	O	O	
+13-11	ich	PPER	ich	_	O	O	
+13-12	abgegeben	VVPP	abgeben	_	O	O	
+13-13	.	$.	.	_	O	O	
+
+#id=14
+#text=Usedom ist gestern gekommen 0-
+14-1	Usedom	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	ist	VAFIN	sein	_	O	O	
+14-3	gestern	ADV	gestern	_	O	O	
+14-4	gekommen	VVPP	kommen	_	O	O	
+14-5	0-	TRUNC	0-	_	O	O	
+

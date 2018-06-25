@@ -1,0 +1,235 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=H Lieber Herr Professor Helbig an Henzen Siena, 26. August 1874 g. 27/8 74 r.
+1-1	H	NN	H	_	O	O	
+1-2	Lieber	ADJA	lieb	_	O	O	
+1-3	Herr	NN	Herr	_	O	O	
+1-4	Professor	NN	Professor	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	g.	VVFIN	<unknown>	_	O	O	
+1-15	27/8	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=28/8 74 Siena 26. Aug.
+2-1	28/8	CARD	@card@	_	O	O	
+2-2	74	CARD	74	_	O	O	
+2-3	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	Aug.	NN	Aug.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=3
+#text=1874 Gleichzeitig mit diesem geht der unselige cornetaner Artikel an Dressel ab d. h. die Liste ohne Einleitung und Anmerkungen.
+3-1	1874	CARD	@card@	_	O	O	
+3-2	Gleichzeitig	ADJD	gleichzeitig	_	O	O	
+3-3	mit	APPR	mit	_	O	O	
+3-4	diesem	PDAT	dies	_	O	O	
+3-5	geht	VVFIN	gehen	_	O	O	
+3-6	der	ART	die	_	O	O	
+3-7	unselige	ADJA	unselig	_	O	O	
+3-8	cornetaner	NN	<unknown>	_	O	O	
+3-9	Artikel	NN	Artikel	_	O	O	
+3-10	an	APPR	an	_	O	O	
+3-11	Dressel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-12	ab	APPR	ab	_	O	O	
+3-13	d.	PDS	d.	_	O	O	
+3-14	h.	VVFIN	heißen	_	O	O	
+3-15	die	ART	die	_	O	O	
+3-16	Liste	NN	Liste	_	O	O	
+3-17	ohne	APPR	ohne	_	O	O	
+3-18	Einleitung	NN	Einleitung	_	O	O	
+3-19	und	KON	und	_	O	O	
+3-20	Anmerkungen	NN	Anmerkung	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Um die fehlenden Theile in einer einiger Maßen anständigen Weise herzustellen, brauche ich nothwendig ein vollständiges Exemplar von Lindenschmitt, Alterthümer der heidnischen Vorzeit - was uns fehlt, habe ich im Desiderienbuche notirt - und Salzmanns Kameiros und ich würde Ihnen sehr dankbar sein, wenn ich diese:, beiden Opera nach meiner Rückkehr aus Griechenland in Rom vorfände.
+4-1	Um	KOUI	um	_	O	O	
+4-2	die	ART	die	_	O	O	
+4-3	fehlenden	ADJA	fehlend	_	O	O	
+4-4	Theile	NE	Theile	_	O	O	
+4-5	in	APPR	in	_	O	O	
+4-6	einer	ART	eine	_	O	O	
+4-7	einiger	PIAT	einige	_	O	O	
+4-8	Maßen	NN	Maß	_	O	O	
+4-9	anständigen	ADJA	anständig	_	O	O	
+4-10	Weise	NN	Weise	_	O	O	
+4-11	herzustellen	VVIZU	herstellen	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	brauche	VVFIN	brauchen	_	O	O	
+4-14	ich	PPER	ich	_	O	O	
+4-15	nothwendig	ADJD	<unknown>	_	O	O	
+4-16	ein	ART	eine	_	O	O	
+4-17	vollständiges	ADJA	vollständig	_	O	O	
+4-18	Exemplar	NN	Exemplar	_	O	O	
+4-19	von	APPR	von	_	O	O	
+4-20	Lindenschmitt	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-21	,	$,	,	_	O	O	
+4-22	Alterthümer	NN	<unknown>	_	O	O	
+4-23	der	ART	die	_	O	O	
+4-24	heidnischen	ADJA	heidnisch	_	O	O	
+4-25	Vorzeit	NN	Vorzeit	_	O	O	
+4-26	-	$(	-	_	O	O	
+4-27	was	PWS	was	_	O	O	
+4-28	uns	PPER	wir	_	O	O	
+4-29	fehlt	VVFIN	fehlen	_	O	O	
+4-30	,	$,	,	_	O	O	
+4-31	habe	VAFIN	haben	_	O	O	
+4-32	ich	PPER	ich	_	O	O	
+4-33	im	APPRART	in	_	O	O	
+4-34	Desiderienbuche	NN	<unknown>	_	O	O	
+4-35	notirt	NN	<unknown>	_	O	O	
+4-36	-	$(	-	_	O	O	
+4-37	und	KON	und	_	O	O	
+4-38	Salzmanns	NE	Salzmann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-39	Kameiros	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-40	und	KON	und	_	O	O	
+4-41	ich	PPER	ich	_	O	O	
+4-42	würde	VAFIN	werden	_	O	O	
+4-43	Ihnen	PPER	Sie	_	O	O	
+4-44	sehr	ADV	sehr	_	O	O	
+4-45	dankbar	ADJD	dankbar	_	O	O	
+4-46	sein	VAINF	sein	_	O	O	
+4-47	,	$,	,	_	O	O	
+4-48	wenn	KOUS	wenn	_	O	O	
+4-49	ich	PPER	ich	_	O	O	
+4-50	diese	PDS	diese	_	O	O	
+4-51	:	$.	:	_	O	O	
+4-52	,	$,	,	_	O	O	
+4-53	beiden	PIAT	beide	_	O	O	
+4-54	Opera	NN	Opus	_	O	O	
+4-55	nach	APPR	nach	_	O	O	
+4-56	meiner	PPOSAT	mein	_	O	O	
+4-57	Rückkehr	NN	Rückkehr	_	O	O	
+4-58	aus	APPR	aus	_	O	O	
+4-59	Griechenland	NE	Griechenland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-60	in	APPR	in	_	O	O	
+4-61	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-62	vorfände	VVFIN	vorfinden	_	O	O	
+4-63	.	$.	.	_	O	O	
+
+#id=5
+#text=Schlecht genug wird der Artikel schon ausfallen und es ist wünschenswerth, daß wenigstens dies nothwendige Material darin geboten werde.
+5-1	Schlecht	ADJD	schlecht	_	O	O	
+5-2	genug	ADV	genug	_	O	O	
+5-3	wird	VAFIN	werden	_	O	O	
+5-4	der	ART	die	_	O	O	
+5-5	Artikel	NN	Artikel	_	O	O	
+5-6	schon	ADV	schon	_	O	O	
+5-7	ausfallen	VVINF	ausfallen	_	O	O	
+5-8	und	KON	und	_	O	O	
+5-9	es	PPER	es	_	O	O	
+5-10	ist	VAFIN	sein	_	O	O	
+5-11	wünschenswerth	NE	<unknown>	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	daß	KOUS	dass	_	O	O	
+5-14	wenigstens	ADV	wenigstens	_	O	O	
+5-15	dies	PDS	dies	_	O	O	
+5-16	nothwendige	ADJA	<unknown>	_	O	O	
+5-17	Material	NN	Material	_	O	O	
+5-18	darin	PAV	darin	_	O	O	
+5-19	geboten	VVPP	bieten|gebieten	_	O	O	
+5-20	werde	VAFIN	werden	_	O	O	
+5-21	.	$.	.	_	O	O	
+
+#id=6
+#text=Der Aufenthalt wird hier so unangenehm, daß wir uns definitiv entschieden haben, den 15. September in die Stadt zu ziehen.
+6-1	Der	ART	die	_	O	O	
+6-2	Aufenthalt	NN	Aufenthalt	_	O	O	
+6-3	wird	VAFIN	werden	_	O	O	
+6-4	hier	ADV	hier	_	O	O	
+6-5	so	ADV	so	_	O	O	
+6-6	unangenehm	ADJD	unangenehm	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	daß	KOUS	dass	_	O	O	
+6-9	wir	PPER	wir	_	O	O	
+6-10	uns	PRF	wir	_	O	O	
+6-11	definitiv	ADJD	definitiv	_	O	O	
+6-12	entschieden	VVPP	entscheiden	_	O	O	
+6-13	haben	VAFIN	haben	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	den	ART	die	_	O	O	
+6-16	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-18	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-19	in	APPR	in	_	O	O	
+6-20	die	ART	die	_	O	O	
+6-21	Stadt	NN	Stadt	_	O	O	
+6-22	zu	PTKZU	zu	_	O	O	
+6-23	ziehen	VVINF	ziehen	_	O	O	
+6-24	.	$.	.	_	O	O	
+
+#id=7
+#text=Also kommen Sie, bitte, bald.
+7-1	Also	ADV	also	_	O	O	
+7-2	kommen	VVFIN	kommen	_	O	O	
+7-3	Sie	PPER	Sie	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	bitte	VVIMP	bitten	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	bald	ADV	bald	_	O	O	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=Über Hitze werden Sie sich gewiß nicht zu beklagen haben.
+8-1	Über	APPR	über	_	O	O	
+8-2	Hitze	NN	Hitze	_	O	O	
+8-3	werden	VAFIN	werden	_	O	O	
+8-4	Sie	PPER	Sie	_	O	O	
+8-5	sich	PRF	sich	_	O	O	
+8-6	gewiß	ADJD	gewiss	_	O	O	
+8-7	nicht	PTKNEG	nicht	_	O	O	
+8-8	zu	PTKZU	zu	_	O	O	
+8-9	beklagen	VVINF	beklagen	_	O	O	
+8-10	haben	VAINF	haben	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Jetzt haben wir seit drei Tagen einen Sturm, wie er etwa in Rom im December vorkommt, und wissen wir uns vor Krachen der Thüren und Fenster kaum zu retten.
+9-1	Jetzt	ADV	jetzt	_	O	O	
+9-2	haben	VAFIN	haben	_	O	O	
+9-3	wir	PPER	wir	_	O	O	
+9-4	seit	APPR	seit	_	O	O	
+9-5	drei	CARD	drei	_	O	O	
+9-6	Tagen	NN	Tag	_	O	O	
+9-7	einen	ART	eine	_	O	O	
+9-8	Sturm	NN	Sturm	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	wie	KOUS	wie	_	O	O	
+9-11	er	PPER	er	_	O	O	
+9-12	etwa	ADV	etwa	_	O	O	
+9-13	in	APPR	in	_	O	O	
+9-14	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-15	im	APPRART	in	_	O	O	
+9-16	December	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-17	vorkommt	VVFIN	vorkommen	_	O	O	
+9-18	,	$,	,	_	O	O	
+9-19	und	KON	und	_	O	O	
+9-20	wissen	VVFIN	wissen	_	O	O	
+9-21	wir	PPER	wir	_	O	O	
+9-22	uns	PRF	wir	_	O	O	
+9-23	vor	APPR	vor	_	O	O	
+9-24	Krachen	NN	Krachen	_	O	O	
+9-25	der	ART	die	_	O	O	
+9-26	Thüren	NN	<unknown>	_	O	O	
+9-27	und	KON	und	_	O	O	
+9-28	Fenster	NN	Fenster	_	O	O	
+9-29	kaum	ADV	kaum	_	O	O	
+9-30	zu	PTKZU	zu	_	O	O	
+9-31	retten	VVINF	retten	_	O	O	
+9-32	.	$.	.	_	O	O	
+
+#id=10
+#text=Wunderbar
+10-1	Wunderbar	ADJD	wunderbar	_	O	O	
+

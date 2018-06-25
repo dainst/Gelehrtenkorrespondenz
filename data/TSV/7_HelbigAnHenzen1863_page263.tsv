@@ -1,0 +1,258 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an Henzen Siena, 4.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	4	CARD	4	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=Septenber 1875 2 römische Stelle zu besetzen.
+2-1	Septenber	NN	<unknown>	_	O	O	
+2-2	1875	CARD	@card@	_	O	O	
+2-3	2	CARD	2	_	O	O	
+2-4	römische	ADJA	römisch	_	O	O	
+2-5	Stelle	NN	Stelle	_	O	O	
+2-6	zu	PTKZU	zu	_	O	O	
+2-7	besetzen	VVINF	besetzen	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=An Perrot, der ja jetzt Membre de l'Institut und großes Thier, ist gewiß nicht zu denken.
+3-1	An	APPR	an	_	O	O	
+3-2	Perrot	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	,	$,	,	_	O	O	
+3-4	der	PRELS	die	_	O	O	
+3-5	ja	ADV	ja	_	O	O	
+3-6	jetzt	ADV	jetzt	_	O	O	
+3-7	Membre	NN	<unknown>	_	O	O	
+3-8	de	NE	de	_	O	O	
+3-9	l'Institut	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-10	und	KON	und	_	O	O	
+3-11	großes	ADJA	groß	_	O	O	
+3-12	Thier	NN	<unknown>	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	ist	VAFIN	sein	_	O	O	
+3-15	gewiß	ADJD	gewiss	_	O	O	
+3-16	nicht	PTKNEG	nicht	_	O	O	
+3-17	zu	PTKZU	zu	_	O	O	
+3-18	denken	VVINF	denken	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Meine Frau hat die Absicht an Fräulein Rosine zu schreiben.
+4-1	Meine	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-3	hat	VAFIN	haben	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	Absicht	NN	Absicht	_	O	O	
+4-6	an	APPR	an	_	O	O	
+4-7	Fräulein	NN	Fräulein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-8	Rosine	NN	Rosine	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-9	zu	PTKZU	zu	_	O	O	
+4-10	schreiben	VVINF	schreiben	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Ob sie noch in diesen Tagen da~u kommt, ist aber fraglich und ich bitte, sie im Falle, daß es unterbleibt, zu entschuldigen.
+5-1	Ob	KOUS	ob	_	O	O	
+5-2	sie	PPER	sie	_	O	O	
+5-3	noch	ADV	noch	_	O	O	
+5-4	in	APPR	in	_	O	O	
+5-5	diesen	PDAT	dies	_	O	O	
+5-6	Tagen	NN	Tag	_	O	O	
+5-7	da~u	NE	<unknown>	_	O	O	
+5-8	kommt	VVFIN	kommen	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	ist	VAFIN	sein	_	O	O	
+5-11	aber	ADV	aber	_	O	O	
+5-12	fraglich	ADJD	fraglich	_	O	O	
+5-13	und	KON	und	_	O	O	
+5-14	ich	PPER	ich	_	O	O	
+5-15	bitte	VVFIN	bitten	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	sie	PPER	sie	_	O	O	
+5-18	im	APPRART	in	_	O	O	
+5-19	Falle	NN	Falle	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	daß	KOUS	dass	_	O	O	
+5-22	es	PPER	es	_	O	O	
+5-23	unterbleibt	VVFIN	unterbleiben	_	O	O	
+5-24	,	$,	,	_	O	O	
+5-25	zu	PTKZU	zu	_	O	O	
+5-26	entschuldigen	VVINF	entschuldigen	_	O	O	
+5-27	.	$.	.	_	O	O	
+
+#id=6
+#text=Es wird jetzt im letzten Momente das Itinerarium fixirt, welches sie in Rußland einhalten soll, um möglichst viele Verwandte zu sehen, und selbstverständlich geht es hierbei ohne Confusion nicht ab: Ordre, Contreordre; ein Brief, der heute eintrifft, besagt das Gegentheil von einem der gestern ankam; viele widersprechende Telegramme u.s.w.
+6-1	Es	PPER	es	_	O	O	
+6-2	wird	VAFIN	werden	_	O	O	
+6-3	jetzt	ADV	jetzt	_	O	O	
+6-4	im	APPRART	in	_	O	O	
+6-5	letzten	ADJA	letzt	_	O	O	
+6-6	Momente	NN	Moment	_	O	O	
+6-7	das	ART	die	_	O	O	
+6-8	Itinerarium	NN	<unknown>	_	O	O	
+6-9	fixirt	NN	<unknown>	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	welches	PRELS	welche	_	O	O	
+6-12	sie	PPER	sie	_	O	O	
+6-13	in	APPR	in	_	O	O	
+6-14	Rußland	NE	Russland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-15	einhalten	VVINF	einhalten	_	O	O	
+6-16	soll	VMFIN	sollen	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	um	KOUI	um	_	O	O	
+6-19	möglichst	ADV	möglichst	_	O	O	
+6-20	viele	PIAT	viele	_	O	O	
+6-21	Verwandte	NN	Verwandte	_	O	O	
+6-22	zu	PTKZU	zu	_	O	O	
+6-23	sehen	VVINF	sehen	_	O	O	
+6-24	,	$,	,	_	O	O	
+6-25	und	KON	und	_	O	O	
+6-26	selbstverständlich	ADJD	selbstverständlich	_	O	O	
+6-27	geht	VVFIN	gehen	_	O	O	
+6-28	es	PPER	es	_	O	O	
+6-29	hierbei	PAV	hierbei	_	O	O	
+6-30	ohne	APPR	ohne	_	O	O	
+6-31	Confusion	NN	<unknown>	_	O	O	
+6-32	nicht	PTKNEG	nicht	_	O	O	
+6-33	ab	PTKVZ	ab	_	O	O	
+6-34	:	$.	:	_	O	O	
+6-35	Ordre	VVFIN	ordern	_	O	O	
+6-36	,	$,	,	_	O	O	
+6-37	Contreordre	NN	<unknown>	_	O	O	
+6-38	;	$.	;	_	O	O	
+6-39	ein	ART	eine	_	O	O	
+6-40	Brief	NN	Brief	_	O	O	
+6-41	,	$,	,	_	O	O	
+6-42	der	PRELS	die	_	O	O	
+6-43	heute	ADV	heute	_	O	O	
+6-44	eintrifft	VVFIN	eintreffen	_	O	O	
+6-45	,	$,	,	_	O	O	
+6-46	besagt	VVFIN	besagen	_	O	O	
+6-47	das	ART	die	_	O	O	
+6-48	Gegentheil	NN	<unknown>	_	O	O	
+6-49	von	APPR	von	_	O	O	
+6-50	einem	ART	eine	_	O	O	
+6-51	der	PRELS	die	_	O	O	
+6-52	gestern	ADV	gestern	_	O	O	
+6-53	ankam	VVFIN	ankommen	_	O	O	
+6-54	;	$.	;	_	O	O	
+6-55	viele	PIAT	viele	_	O	O	
+6-56	widersprechende	ADJA	widersprechend	_	O	O	
+6-57	Telegramme	NN	Telegramm	_	O	O	
+6-58	u.s.w.	ADJA	<unknown>	_	O	O	
+
+#id=7
+#text=Ich freue mich sehr aus Fräulein Rosines Brief zu hören, daß es Ihnen in Oberbozen gut gefällt und daß Sie sich daselbst auch gesellschaftlich acclimatisiren.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	freue	VVFIN	freuen	_	O	O	
+7-3	mich	PRF	ich	_	O	O	
+7-4	sehr	ADV	sehr	_	O	O	
+7-5	aus	APPR	aus	_	O	O	
+7-6	Fräulein	NN	Fräulein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-7	Rosines	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-8	Brief	NN	Brief	_	O	O	
+7-9	zu	PTKZU	zu	_	O	O	
+7-10	hören	VVINF	hören	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	daß	KOUS	dass	_	O	O	
+7-13	es	PPER	es	_	O	O	
+7-14	Ihnen	PPER	Sie	_	O	O	
+7-15	in	APPR	in	_	O	O	
+7-16	Oberbozen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-17	gut	ADJD	gut	_	O	O	
+7-18	gefällt	VVPP	fällen	_	O	O	
+7-19	und	KON	und	_	O	O	
+7-20	daß	KOUS	dass	_	O	O	
+7-21	Sie	PPER	Sie	_	O	O	
+7-22	sich	PRF	sich	_	O	O	
+7-23	daselbst	ADV	daselbst	_	O	O	
+7-24	auch	ADV	auch	_	O	O	
+7-25	gesellschaftlich	ADJD	gesellschaftlich	_	O	O	
+7-26	acclimatisiren	ADJD	<unknown>	_	O	O	
+7-27	.	$.	.	_	O	O	
+
+#id=8
+#text=Wer weiß, zu was für einer Metamorphose dies führen kann.
+8-1	Wer	PWS	wer	_	O	O	
+8-2	weiß	VVFIN	wissen	_	O	O	
+8-3	,	$,	,	_	O	O	
+8-4	zu	APPR	zu	_	O	O	
+8-5	was	PRELS	was	_	O	O	
+8-6	für	APPR	für	_	O	O	
+8-7	einer	ART	eine	_	O	O	
+8-8	Metamorphose	NN	Metamorphose	_	O	O	
+8-9	dies	PDS	dies	_	O	O	
+8-10	führen	VVINF	führen	_	O	O	
+8-11	kann	VMFIN	können	_	O	O	
+8-12	.	$.	.	_	O	O	
+
+#id=9
+#text=Vielleicht sehen wir Sie noch, nachdem Sie nach Rom zürückgekehrt sind, allabendlich Ihren Schoppen Wein trinken, werden Sie Stifter eines Gesangvereins zur Cultivirung tyroler Schnadehüpferl, tragen Sie einen grünen Hut mit Gamsbart und, was sich sonst noch die lebhafte Phantasie ausdenken kann.
+9-1	Vielleicht	ADV	vielleicht	_	O	O	
+9-2	sehen	VVFIN	sehen	_	O	O	
+9-3	wir	PPER	wir	_	O	O	
+9-4	Sie	PPER	Sie	_	O	O	
+9-5	noch	ADV	noch	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	nachdem	KOUS	nachdem	_	O	O	
+9-8	Sie	PPER	Sie	_	O	O	
+9-9	nach	APPR	nach	_	O	O	
+9-10	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-11	zürückgekehrt	VVPP	<unknown>	_	O	O	
+9-12	sind	VAFIN	sein	_	O	O	
+9-13	,	$,	,	_	O	O	
+9-14	allabendlich	ADV	allabendlich	_	O	O	
+9-15	Ihren	PPOSAT	ihr	_	O	O	
+9-16	Schoppen	NN	Schoppen	_	O	O	
+9-17	Wein	NN	Wein	_	O	O	
+9-18	trinken	VVFIN	trinken	_	O	O	
+9-19	,	$,	,	_	O	O	
+9-20	werden	VAFIN	werden	_	O	O	
+9-21	Sie	PPER	Sie	_	O	O	
+9-22	Stifter	NN	Stifter	_	O	O	
+9-23	eines	ART	eine	_	O	O	
+9-24	Gesangvereins	NN	Gesangverein	_	O	O	
+9-25	zur	APPRART	zu	_	O	O	
+9-26	Cultivirung	NN	<unknown>	_	O	O	
+9-27	tyroler	NN	<unknown>	_	O	O	
+9-28	Schnadehüpferl	NE	<unknown>	_	O	O	
+9-29	,	$,	,	_	O	O	
+9-30	tragen	VVFIN	tragen	_	O	O	
+9-31	Sie	PPER	Sie	_	O	O	
+9-32	einen	ART	eine	_	O	O	
+9-33	grünen	ADJA	grün	_	O	O	
+9-34	Hut	NN	Hut	_	O	O	
+9-35	mit	APPR	mit	_	O	O	
+9-36	Gamsbart	NN	<unknown>	_	O	O	
+9-37	und	KON	und	_	O	O	
+9-38	,	$,	,	_	O	O	
+9-39	was	PRELS	was	_	O	O	
+9-40	sich	PRF	sich	_	O	O	
+9-41	sonst	ADV	sonst	_	O	O	
+9-42	noch	ADV	noch	_	O	O	
+9-43	die	ART	die	_	O	O	
+9-44	lebhafte	ADJA	lebhaft	_	O	O	
+9-45	Phantasie	NN	Phantasie	_	O	O	
+9-46	ausdenken	VVINF	ausdenken	_	O	O	
+9-47	kann	VMFIN	können	_	O	O	
+9-48	.	$.	.	_	O	O	
+
+#id=10
+#text=Herzliche Grüße von meiner Frau, Lili und mir an
+10-1	Herzliche	ADJA	herzlich	_	O	O	
+10-2	Grüße	NN	Gruß	_	O	O	
+10-3	von	APPR	von	_	O	O	
+10-4	meiner	PPOSAT	mein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-5	Frau	NN	Frau	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-6	,	$,	,	_	O	O	
+10-7	Lili	NE	Lili	_	O	O	
+10-8	und	KON	und	_	O	O	
+10-9	mir	PPER	ich	_	O	O	
+10-10	an	PTKVZ	an	_	O	O	
+

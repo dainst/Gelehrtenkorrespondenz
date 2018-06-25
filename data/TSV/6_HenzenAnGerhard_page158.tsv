@@ -1,0 +1,335 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=410 Henzen an Gerhard 23/XI/53 Verehrter Herr Professor Ich beantworte rasch Ihr trostreiches Schreiben vom 15t~n, obwohl dasselbe eigentlich schon durch meinen letzten Brief vom 19t~n beantwortet ist.
+1-1	410	CARD	@card@	_	O	O	
+1-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	23/XI/53	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-6	Verehrter	ADJA	verehrt	_	O	O	
+1-7	Herr	NN	Herr	_	O	O	
+1-8	Professor	NN	Professor	_	O	O	
+1-9	Ich	PPER	ich	_	O	O	
+1-10	beantworte	VVFIN	beantworten	_	O	O	
+1-11	rasch	ADJD	rasch	_	O	O	
+1-12	Ihr	PPOSAT	ihr	_	O	O	
+1-13	trostreiches	ADJA	<unknown>	_	O	O	
+1-14	Schreiben	NN	Schreiben	_	O	O	
+1-15	vom	APPRART	von	_	O	O	
+1-16	15t~n	NE	<unknown>	_	O	O	
+1-17	,	$,	,	_	O	O	
+1-18	obwohl	KOUS	obwohl	_	O	O	
+1-19	dasselbe	PDS	dasselbe	_	O	O	
+1-20	eigentlich	ADV	eigentlich	_	O	O	
+1-21	schon	ADV	schon	_	O	O	
+1-22	durch	APPR	durch	_	O	O	
+1-23	meinen	PPOSAT	mein	_	O	O	
+1-24	letzten	ADJA	letzt	_	O	O	
+1-25	Brief	NN	Brief	_	O	O	
+1-26	vom	APPRART	von	_	O	O	
+1-27	19t~n	NN	<unknown>	_	O	O	
+1-28	beantwortet	VVPP	beantworten	_	O	O	
+1-29	ist	VAFIN	sein	_	O	O	
+1-30	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich bin sehr froh, daß Alles so gut steht, u. auch sofort 100 Scudi f. Copialini bewilligt sind.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	bin	VAFIN	sein	_	O	O	
+2-3	sehr	ADV	sehr	_	O	O	
+2-4	froh	ADJD	froh	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	daß	KOUS	dass	_	O	O	
+2-7	Alles	PIS	alle	_	O	O	
+2-8	so	ADV	so	_	O	O	
+2-9	gut	ADJD	gut	_	O	O	
+2-10	steht	VVFIN	stehen	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	u.	KON	und	_	O	O	
+2-13	auch	ADV	auch	_	O	O	
+2-14	sofort	ADV	sofort	_	O	O	
+2-15	100	CARD	100	_	O	O	
+2-16	Scudi	NN	<unknown>	_	O	O	
+2-17	f.	APPR	f.	_	O	O	
+2-18	Copialini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-19	bewilligt	VVPP	bewilligen	_	O	O	
+2-20	sind	VAFIN	sein	_	O	O	
+2-21	.	$.	.	_	O	O	
+
+#id=3
+#text=Sobald ich das Secretariatsschreiben habe, werde ich mit de Rossi Rücksprache nehmen, um, wo mBglich, die Arbeiten sofort angreifen zu k6nnen.
+3-1	Sobald	KOUS	sobald	_	O	O	
+3-2	ich	PPER	ich	_	O	O	
+3-3	das	ART	die	_	O	O	
+3-4	Secretariatsschreiben	NN	<unknown>	_	O	O	
+3-5	habe	VAFIN	haben	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	werde	VAFIN	werden	_	O	O	
+3-8	ich	PPER	ich	_	O	O	
+3-9	mit	APPR	mit	_	O	O	
+3-10	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-11	Rossi	NE	Rossi	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-12	Rücksprache	NN	Rücksprache	_	O	O	
+3-13	nehmen	VVINF	nehmen	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	um	KOUI	um	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	wo	PWAV	wo	_	O	O	
+3-18	mBglich	ADJD	<unknown>	_	O	O	
+3-19	,	$,	,	_	O	O	
+3-20	die	ART	die	_	O	O	
+3-21	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+3-22	sofort	ADV	sofort	_	O	O	
+3-23	angreifen	VVFIN	angreifen	_	O	O	
+3-24	zu	APPR	zu	_	O	O	
+3-25	k6nnen	NN	<unknown>	_	O	O	
+3-26	.	$.	.	_	O	O	
+
+#id=4
+#text=Recht in Gant:: wird freilicI1 die Sache erst kommen, wenn wir mit einer directen Aufforderung an de R. diesem Dispensation von seinen Scrittore-Arbeiten erwirken; indeß qualche cosa läßt sich doch auch vorher thun.
+4-1	Recht	ADJD	recht	_	O	O	
+4-2	in	APPR	in	_	O	O	
+4-3	Gant	NE	<unknown>	_	O	O	
+4-4	:	$.	:	_	O	O	
+4-5	:	$.	:	_	O	O	
+4-6	wird	VAFIN	werden	_	O	O	
+4-7	freilicI1	VVFIN	<unknown>	_	O	O	
+4-8	die	ART	die	_	O	O	
+4-9	Sache	NN	Sache	_	O	O	
+4-10	erst	ADV	erst	_	O	O	
+4-11	kommen	VVINF	kommen	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	wenn	KOUS	wenn	_	O	O	
+4-14	wir	PPER	wir	_	O	O	
+4-15	mit	APPR	mit	_	O	O	
+4-16	einer	ART	eine	_	O	O	
+4-17	directen	ADJA	<unknown>	_	O	O	
+4-18	Aufforderung	NN	Aufforderung	_	O	O	
+4-19	an	APPR	an	_	O	O	
+4-20	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-21	R.	NE	R.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-22	diesem	PDAT	dies	_	O	O	
+4-23	Dispensation	NN	<unknown>	_	O	O	
+4-24	von	APPR	von	_	O	O	
+4-25	seinen	PPOSAT	sein	_	O	O	
+4-26	Scrittore-Arbeiten	NN	<unknown>	_	O	O	
+4-27	erwirken	VVFIN	erwirken	_	O	O	
+4-28	;	$.	;	_	O	O	
+4-29	indeß	NE	<unknown>	_	O	O	
+4-30	qualche	VVFIN	<unknown>	_	O	O	
+4-31	cosa	NE	<unknown>	_	O	O	
+4-32	läßt	VVFIN	lassen	_	O	O	
+4-33	sich	PRF	sich	_	O	O	
+4-34	doch	ADV	doch	_	O	O	
+4-35	auch	ADV	auch	_	O	O	
+4-36	vorher	ADV	vorher	_	O	O	
+4-37	thun	NE	<unknown>	_	O	O	
+4-38	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich bitte Sie nun aber um genaue Anweisung, wie, wo u. Y@.9..Q die Gelder ausgezahlt werden, ob hier durch Consul Marstalla, oder in Berlin; ob durch die Akademie, ode durch das Ministerium; ob am 1~ jedes Quartals, oder zu Ende deRelben.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	bitte	VVFIN	bitten	_	O	O	
+5-3	Sie	PPER	Sie	_	O	O	
+5-4	nun	ADV	nun	_	O	O	
+5-5	aber	ADV	aber	_	O	O	
+5-6	um	APPR	um	_	O	O	
+5-7	genaue	ADJA	genau	_	O	O	
+5-8	Anweisung	NN	Anweisung	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	wie	KOUS	wie	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	wo	PWAV	wo	_	O	O	
+5-13	u.	APPR	um	_	O	O	
+5-14	Y@.9..Q	NN	<unknown>	_	O	O	
+5-15	die	ART	die	_	O	O	
+5-16	Gelder	NN	Geld	_	O	O	
+5-17	ausgezahlt	VVPP	auszahlen	_	O	O	
+5-18	werden	VAFIN	werden	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	ob	KOUS	ob	_	O	O	
+5-21	hier	ADV	hier	_	O	O	
+5-22	durch	APPR	durch	_	O	O	
+5-23	Consul	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-24	Marstalla	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-25	,	$,	,	_	O	O	
+5-26	oder	KON	oder	_	O	O	
+5-27	in	APPR	in	_	O	O	
+5-28	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-29	;	$.	;	_	O	O	
+5-30	ob	KOUS	ob	_	O	O	
+5-31	durch	APPR	durch	_	O	O	
+5-32	die	ART	die	_	O	O	
+5-33	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-34	,	$,	,	_	O	O	
+5-35	ode	VVFIN	<unknown>	_	O	O	
+5-36	durch	APPR	durch	_	O	O	
+5-37	das	ART	die	_	O	O	
+5-38	Ministerium	NN	Ministerium	_	O	O	
+5-39	;	$.	;	_	O	O	
+5-40	ob	ADV	ob	_	O	O	
+5-41	am	APPRART	an	_	O	O	
+5-42	1~	NN	<unknown>	_	O	O	
+5-43	jedes	PIAT	jede	_	O	O	
+5-44	Quartals	NN	Quartal	_	O	O	
+5-45	,	$,	,	_	O	O	
+5-46	oder	KON	oder	_	O	O	
+5-47	zu	APPR	zu	_	O	O	
+5-48	Ende	NN	Ende	_	O	O	
+5-49	deRelben	ADJA	<unknown>	_	O	O	
+5-50	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich frage darnach bes.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	frage	VVFIN	fragen	_	O	O	
+6-3	darnach	ADV	<unknown>	_	O	O	
+6-4	bes.	ADJA	<unknown>	_	O	O	
+
+#id=7
+#text=mit Rücksicht auf die einliegende ~uittung; denn nachdem Sie mir seit 5 ode 6 Konaten geschrieben u. stets wiederholt hahen, das Geld sei noch nicht fli5ßig, wundern E;}e sich p16tzlich, daß Brunn keine ~uittung einschicke, um es in Empfang zu nehmen.
+7-1	mit	APPR	mit	_	O	O	
+7-2	Rücksicht	NN	Rücksicht	_	O	O	
+7-3	auf	APPR	auf	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	einliegende	ADJA	<unknown>	_	O	O	
+7-6	~uittung	NN	<unknown>	_	O	O	
+7-7	;	$.	;	_	O	O	
+7-8	denn	KON	denn	_	O	O	
+7-9	nachdem	KOUS	nachdem	_	O	O	
+7-10	Sie	PPER	Sie	_	O	O	
+7-11	mir	PRF	ich	_	O	O	
+7-12	seit	APPR	seit	_	O	O	
+7-13	5	CARD	5	_	O	O	
+7-14	ode	ADJA	<unknown>	_	O	O	
+7-15	6	CARD	6	_	O	O	
+7-16	Konaten	NN	<unknown>	_	O	O	
+7-17	geschrieben	VVPP	schreiben	_	O	O	
+7-18	u.	KON	und	_	O	O	
+7-19	stets	ADV	stets	_	O	O	
+7-20	wiederholt	ADJD	wiederholt	_	O	O	
+7-21	hahen	VVFIN	<unknown>	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	das	ART	die	_	O	O	
+7-24	Geld	NN	Geld	_	O	O	
+7-25	sei	VAFIN	sein	_	O	O	
+7-26	noch	ADV	noch	_	O	O	
+7-27	nicht	PTKNEG	nicht	_	O	O	
+7-28	fli5ßig	ADJD	<unknown>	_	O	O	
+7-29	,	$,	,	_	O	O	
+7-30	wundern	VVFIN	wundern	_	O	O	
+7-31	E	NN	E	_	O	O	
+7-32	;	$.	;	_	O	O	
+7-33	}e	NN	<unknown>	_	O	O	
+7-34	sich	PRF	sich	_	O	O	
+7-35	p16tzlich	ADJD	<unknown>	_	O	O	
+7-36	,	$,	,	_	O	O	
+7-37	daß	KOUS	dass	_	O	O	
+7-38	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-39	keine	PIAT	keine	_	O	O	
+7-40	~uittung	NN	<unknown>	_	O	O	
+7-41	einschicke	VVFIN	<unknown>	_	O	O	
+7-42	,	$,	,	_	O	O	
+7-43	um	KOUI	um	_	O	O	
+7-44	es	PPER	es	_	O	O	
+7-45	in	APPR	in	_	O	O	
+7-46	Empfang	NN	Empfang	_	O	O	
+7-47	zu	PTKZU	zu	_	O	O	
+7-48	nehmen	VVINF	nehmen	_	O	O	
+7-49	.	$.	.	_	O	O	
+
+#id=8
+#text=Brunn hat aber gar Nichts mehr damit zu thun, sondern im Junius Alles von mir vorGeschossen erhellten.
+8-1	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	hat	VAFIN	haben	_	O	O	
+8-3	aber	ADV	aber	_	O	O	
+8-4	gar	ADV	gar	_	O	O	
+8-5	Nichts	PIAT	nichts	_	O	O	
+8-6	mehr	PIS	mehr	_	O	O	
+8-7	damit	PAV	damit	_	O	O	
+8-8	zu	APPR	zu	_	O	O	
+8-9	thun	NE	<unknown>	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	sondern	KON	sondern	_	O	O	
+8-12	im	APPRART	in	_	O	O	
+8-13	Junius	NE	<unknown>	_	O	O	
+8-14	Alles	PIS	alle	_	O	O	
+8-15	von	APPR	von	_	O	O	
+8-16	mir	PPER	ich	_	O	O	
+8-17	vorGeschossen	ADJD	<unknown>	_	O	O	
+8-18	erhellten	VVFIN	erhellen	_	O	O	
+8-19	.	$.	.	_	O	O	
+
+#id=9
+#text=M8.rstaller sagte mir, da ich in der Cuittung kein bestimm~tes Rescript anfügen kBnne, so kBnne er die Zahlung nicht , .
+9-1	M8.rstaller	NN	<unknown>	_	O	O	
+9-2	sagte	VVFIN	sagen	_	O	O	
+9-3	mir	PPER	ich	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	da	KOUS	da	_	O	O	
+9-6	ich	PPER	ich	_	O	O	
+9-7	in	APPR	in	_	O	O	
+9-8	der	ART	die	_	O	O	
+9-9	Cuittung	NN	<unknown>	_	O	O	
+9-10	kein	PIAT	keine	_	O	O	
+9-11	bestimm~tes	ADJA	<unknown>	_	O	O	
+9-12	Rescript	NN	<unknown>	_	O	O	
+9-13	anfügen	VVFIN	anfügen	_	O	O	
+9-14	kBnne	NN	<unknown>	_	O	O	
+9-15	,	$,	,	_	O	O	
+9-16	so	ADV	so	_	O	O	
+9-17	kBnne	VVFIN	<unknown>	_	O	O	
+9-18	er	PPER	er	_	O	O	
+9-19	die	ART	die	_	O	O	
+9-20	Zahlung	NN	Zahlung	_	O	O	
+9-21	nicht	PTKNEG	nicht	_	O	O	
+9-22	,	$,	,	_	O	O	
+9-23	.	$.	.	_	O	O	
+
+#id=10
+#text=-LelSten, was sonst geschehen sein würde.
+10-1	-LelSten	NN	<unknown>	_	O	O	
+10-2	,	$,	,	_	O	O	
+10-3	was	PRELS	was	_	O	O	
+10-4	sonst	ADV	sonst	_	O	O	
+10-5	geschehen	VVPP	geschehen	_	O	O	
+10-6	sein	VAINF	sein	_	O	O	
+10-7	würde	VAFIN	werden	_	O	O	
+10-8	.	$.	.	_	O	O	
+
+#id=11
+#text=Mir bleibt daher nur I übrig, Sie selber um Ihre gütige Vermittlung zu ersuchen.
+11-1	Mir	PPER	ich	_	O	O	
+11-2	bleibt	VVFIN	bleiben	_	O	O	
+11-3	daher	PAV	daher	_	O	O	
+11-4	nur	ADV	nur	_	O	O	
+11-5	I	NN	I	_	O	O	
+11-6	übrig	ADJD	übrig	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	Sie	PPER	Sie	_	O	O	
+11-9	selber	ADV	selber	_	O	O	
+11-10	um	APPR	um	_	O	O	
+11-11	Ihre	PPOSAT	ihr	_	O	O	
+11-12	gütige	ADJA	gütig	_	O	O	
+11-13	Vermittlung	NN	Vermittlung	_	O	O	
+11-14	zu	PTKZU	zu	_	O	O	
+11-15	ersuchen	VVINF	ersuchen	_	O	O	
+11-16	.	$.	.	_	O	O	
+
+#id=12
+#text=\...--- Uebrifens muß Brunn doch jetzt seit 14 Tagen bei seinen
+12-1	\	XY	\	_	O	O	
+12-2	...	$.	...	_	O	O	
+12-3	--	$(	--	_	O	O	
+12-4	-	$(	-	_	O	O	
+12-5	Uebrifens	NN	<unknown>	_	O	O	
+12-6	muß	VMFIN	müssen	_	O	O	
+12-7	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-8	doch	ADV	doch	_	O	O	
+12-9	jetzt	ADV	jetzt	_	O	O	
+12-10	seit	APPR	seit	_	O	O	
+12-11	14	CARD	14	_	O	O	
+12-12	Tagen	NN	Tag	_	O	O	
+12-13	bei	APPR	bei	_	O	O	
+12-14	seinen	PPOSAT	sein	_	O	O	
+
