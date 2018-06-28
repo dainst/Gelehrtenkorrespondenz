@@ -12,22 +12,27 @@ logger.setLevel(logging.INFO)
 
 def _import_places(session, data: List[LetterData]):
     logger.info('Importing place nodes.')
-    places = set()
+    places = dict()
 
     for letter in data:
         for person in letter.authors:
             for localization in person.localizations:
-                if localization.place not in places:
-                    places.add(localization.place)
+                if localization.place.label not in places:
+                    places[localization.place.label] = localization.place
+                elif places[localization.place.label].gnd_id == -1 and localization.place.gnd_id != -1:
+                    places[localization.place.label] = localization.place
+
         for person in letter.recipients:
             for localization in person.localizations:
-                if localization.place not in places:
-                    places.add(localization.place)
+                if localization.place.label not in places:
+                    places[localization.place.label] = localization.place
+                elif places[localization.place.label].gnd_id == -1 and localization.place.gnd_id != -1:
+                    places[localization.place.label] = localization.place
 
     parameters = dict({'place_list': []})
-    for place in places:
+    for key in places:
         parameters['place_list'].append({
-            'label': place.label, 'gnd_id': place.gnd_id
+            'label': places[key].label, 'gnd_id': places[key].gnd_id
         })
 
     statement = \
@@ -58,12 +63,12 @@ def _import_localisations(session, data: List[LetterData]):
         parameters['localization_list'].append({
             'from': localization.date_from,
             'to': localization.date_to,
-            'gnd_id': localization.place.gnd_id
+            'label': localization.place.label
         })
 
     statement = \
         'UNWIND {localization_list} as data ' \
-        'MATCH (place:Place {gnd_id: data.gnd_id}) ' \
+        'MATCH (place:Place {label: data.label}) ' \
         'CREATE (localization:Localization{from: data.from, to: data.to})-[:HAS_PLACE]->(place)'
 
     with session.begin_transaction() as tx:
@@ -95,7 +100,7 @@ def _import_persons(session, data: List[LetterData]):
 
         for localization in person.localizations:
             data['localizations'].append({
-                'gnd_id_place': localization.place.gnd_id,
+                'label_place': localization.place.label,
                 'from': localization.date_from,
                 'to': localization.date_to
             })
@@ -107,7 +112,7 @@ def _import_persons(session, data: List[LetterData]):
         'CREATE (person:Person{label: data.label, gnd_id: data.gnd_id, first_name: data.first_name, last_name: data.last_name})' \
         'WITH person, data ' \
         'UNWIND data.localizations AS local_data ' \
-        'MATCH (place:Place{gnd_id: local_data.gnd_id_place}) ' \
+        'MATCH (place:Place{label: local_data.label_place}) ' \
         'MATCH (localization:Localization{from: local_data.from, to: local_data.to})' \
         'MATCH (localization)-[:HAS_PLACE]->(place) ' \
         'CREATE (person)-[:RESIDES]->(localization)'

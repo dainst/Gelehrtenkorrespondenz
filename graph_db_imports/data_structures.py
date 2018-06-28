@@ -6,21 +6,24 @@ PAGE_COUNT_PATTERN = re.compile('.*(\d+)\s*Seiten.*')
 
 class Place:
 
-    def __init__(self, label: str, gnd_id: str):
+    def __init__(self, label: str, gnd_id: str, lat: str = None, lng: str = None):
         self.label = label
         self.gnd_id = gnd_id
-        self.id = self.gnd_id
+        self.lat = lat
+        self.lng = lng
+        self.id = self.label
 
     def __hash__(self):
-        return hash((self.label, self.gnd_id, self.id))
+        return hash((self.label, self.gnd_id, self.id, self.lat, self.lng))
 
     def __eq__(self, other):
         if not isinstance(other, type(self)):
             return NotImplemented
-        return self.label == other.label and self.gnd_id == other.gnd_id and self.id == other.id
+        return self.label == other.label and self.gnd_id == other.gnd_id and self.id == other.id \
+            and self.lat == other.lat and self.lng == other.lng
 
     def __str__(self):
-        return str(dict({'label': self.label, 'gnd_id': self.gnd_id, 'id': self.id}))
+        return str(dict({'label': self.label, 'gnd_id': self.gnd_id, 'id': self.id, 'lat': self.lat, 'lng': self.lng}))
 
 
 class LocalizationPoint:
