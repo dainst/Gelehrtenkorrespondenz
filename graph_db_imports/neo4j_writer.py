@@ -135,6 +135,7 @@ def _import_letters(session, data: List[LetterData]):
             'summary': letter.summary,
             'quantity_description': letter.quantity_description,
             'quantity_page_count': letter.quantity_page_count,
+            'place_of_origin_label': letter.place_of_origin.label,
             'authors': [],
             'recipients': []
         }
@@ -148,7 +149,9 @@ def _import_letters(session, data: List[LetterData]):
 
     statement = \
         'UNWIND {letter_list} as data ' \
+        'MATCH (poo:Place{label: data.place_of_origin_label}) ' \
         'CREATE (letter:Letter{id: data.id, date: data.date, title: data.title, summary: data.summary, quantity_description: data.quantity_description, quantity_page_count: data.quantity_page_count}) ' \
+        'CREATE (letter)-[:SEND_FROM]->(poo)' \
         'WITH letter, data ' \
         'UNWIND data.authors as person_data ' \
         'MATCH (person:Person{gnd_id: person_data.gnd_id}) ' \

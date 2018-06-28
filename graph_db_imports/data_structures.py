@@ -111,7 +111,8 @@ class PersonData:
 class LetterData:
 
     def __init__(self, letter_id: str, authors: List[PersonData], recipients: List[PersonData], date: str = '',
-                 title: str = '', summary: str = '', quantity_description: str = '', quantity_page_count: int = None):
+                 title: str = '', summary: str = '', quantity_description: str = '', quantity_page_count: int = None,
+                 place_of_origin: Place = None):
         self.id = letter_id
         self.authors = authors
         self.recipients = recipients
@@ -120,12 +121,13 @@ class LetterData:
         self.summary = summary
         self.quantity_description = quantity_description
         self.quantity_page_count = quantity_page_count
+        self.place_of_origin = place_of_origin
 
     def __str__(self):
         return str(dict({'authors': self.authors, 'recipients': self.recipients, 'date': self.date,
                          'title': self.title, 'summary': self.summary, 'id': self.id,
                          'quantity_description': self.quantity_description,
-                         'quantity_page_count': self.quantity_page_count}))
+                         'quantity_page_count': self.quantity_page_count, 'place_of_origin': self.place_of_origin}))
 
     @staticmethod
     def parse_page_count(value):

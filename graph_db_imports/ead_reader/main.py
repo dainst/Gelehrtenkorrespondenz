@@ -108,8 +108,11 @@ def _process_ead_item(item, localization_timespans):
     recipients = _extract_persons(
         item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"]', namespaces=NS), localization_timespans)
 
+    place_of_origin = places.extract_place_of_origin(item)
+
     letter = LetterData(letter_id, authors, recipients, date=letter_date, summary=summary, title=title,
-                        quantity_description=quantity, quantity_page_count=LetterData.parse_page_count(quantity))
+                        quantity_description=quantity, quantity_page_count=LetterData.parse_page_count(quantity),
+                        place_of_origin=place_of_origin)
 
     return letter
 
