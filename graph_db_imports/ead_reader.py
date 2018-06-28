@@ -3,7 +3,7 @@ import sys
 import re
 import urllib.error
 import rdflib
-from rdflib import URIRef, Literal
+from rdflib import URIRef
 
 from lxml import etree
 from data_structures import *
@@ -13,6 +13,11 @@ logging.basicConfig(format='%(asctime)s %(message)s')
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
+file_logger = logging.getLogger('unhandled_place_authority_sources')
+file_logger.setLevel(logging.INFO)
+
+fh = logging.FileHandler('unknown_place_sources.log')
+file_logger.addHandler(fh)
 # See: http://lxml.de/xpathxslt.html#namespaces-and-prefixes
 # and https://stackoverflow.com/questions/8053568/how-do-i-use-empty-namespaces-in-an-lxml-xpath-query
 
@@ -21,6 +26,8 @@ DF = 'default'
 NS = {
     DF: 'urn:isbn:1-931666-22-9'
 }
+
+UNHANDLED_PLACE_AUTHORITY_SOURCES = []
 
 RECIPIENT_PLACE_PATTERN = re.compile('Empfängerort:\s(.*)')
 COORDINATES_PATTERN = re.compile('Point \(\s(.*)\s(.*).*\s\).*')
@@ -87,6 +94,7 @@ def _extract_localization_points(item):
     global DF
     global RECIPIENT_PLACE_PATTERN
     global PLACE_COLLECTION
+    global UNHANDLED_PLACE_AUTHORITY_SOURCES
 
     result = dict()
 
@@ -99,6 +107,22 @@ def _extract_localization_points(item):
     authors_place_node = item.xpath(
         f'./{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname[@source="GND"]/.', namespaces=NS
     )
+
+    unknown_place_source_node = item.xpath(
+        f'./{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname[@source!="GND"]/.', namespaces=NS
+    )
+
+    try:
+        unknown_place_source = unknown_place_source_node[0].xpath('./@source')[0]
+        unknown_place_source_label = unknown_place_source_node[0].xpath('./@normal')[0]
+        unknown_place_source_id = unknown_place_source_node[0].xpath('./@authfilenumber')[0]
+
+        log = (unknown_place_source, unknown_place_source_label, unknown_place_source_id)
+
+        if log not in UNHANDLED_PLACE_AUTHORITY_SOURCES:
+            UNHANDLED_PLACE_AUTHORITY_SOURCES.append(log)
+    except IndexError:
+        pass
 
     if len(authors_place_node) == 1:
         authors_place_label = authors_place_node[0].xpath('./@normal')[0]
@@ -252,6 +276,9 @@ def read_files(file_paths):
                     localization_points[person_id].append(points[person_id])
                 else:
                     localization_points[person_id] = [points[person_id]]
+
+    for place in UNHANDLED_PLACE_AUTHORITY_SOURCES:
+        file_logger.info(f'{place}')
 
     localization_timespans = dict()
 
