@@ -13,17 +13,6 @@ logging.basicConfig(format='%(asctime)s %(message)s')
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
-ead_import_file_logger = logging.getLogger('ead_import_file_logger')
-ead_import_file_logger.setLevel(logging.INFO)
-
-fh = logging.FileHandler('unknown_place_sources.log')
-ead_import_file_logger.addHandler(fh)
-
-ead_import_file_logger_2 = logging.getLogger('ead_import_file_logger_2')
-ead_import_file_logger_2.setLevel(logging.INFO)
-
-fh_2 = logging.FileHandler('auth_name_different_from_value.log')
-ead_import_file_logger_2.addHandler(fh_2)
 # See: http://lxml.de/xpathxslt.html#namespaces-and-prefixes
 # and https://stackoverflow.com/questions/8053568/how-do-i-use-empty-namespaces-in-an-lxml-xpath-query
 
@@ -96,23 +85,9 @@ def _fetch_gnd_location_coordinates(gnd_id):
         PLACE_COLLECTION[gnd_id] = (None, None)
 
 
-def _extract_localization_points(item):
-    global NS
-    global DF
-    global RECIPIENT_PLACE_PATTERN
-    global PLACE_COLLECTION
-    global UNHANDLED_PLACE_AUTHORITY_SOURCES
-    global AUTH_NAME_DIFFERENT_FROM_VALUE
-
-    result = dict()
-
-    authors = _extract_persons(
-        item.xpath(
-            f'./{DF}:controlaccess/{DF}:persname[@role="Verfasser"]', namespaces=NS
-        ), [])
-
+def _extract_place_of_origin(item):
     # TODO: Extract coordinates from other authorities
-    authors_place_node = item.xpath(
+    place_of_origin_node = item.xpath(
         f'./{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname[@source="GND"]/.', namespaces=NS
     )
 
@@ -132,16 +107,16 @@ def _extract_localization_points(item):
     except IndexError:
         pass
 
-    if len(authors_place_node) == 1:
-        authors_place_label = authors_place_node[0].xpath('./@normal')[0]
-        authors_place_text_content = authors_place_node[0].xpath('./text()')[0]
+    if len(place_of_origin_node) == 1:
+        authors_place_label = place_of_origin_node[0].xpath('./@normal')[0]
+        authors_place_text_content = place_of_origin_node[0].xpath('./text()')[0]
 
         if authors_place_label != authors_place_text_content:
 
             if (authors_place_label, authors_place_text_content) not in AUTH_NAME_DIFFERENT_FROM_VALUE:
                 AUTH_NAME_DIFFERENT_FROM_VALUE.append((authors_place_label, authors_place_text_content))
 
-        authors_place_gnd_id = authors_place_node[0].xpath('./@authfilenumber')[0]
+        authors_place_gnd_id = place_of_origin_node[0].xpath('./@authfilenumber')[0]
     else:
         authors_place_label = ''
         authors_place_gnd_id = -1
@@ -151,6 +126,25 @@ def _extract_localization_points(item):
     except KeyError:
         _fetch_gnd_location_coordinates(authors_place_gnd_id)
         coordinates = PLACE_COLLECTION[authors_place_gnd_id]
+
+    return Place(label=authors_place_label, gnd_id=authors_place_gnd_id, lat=coordinates[0],
+                 lng=coordinates[1])
+
+
+def _extract_localization_points(item):
+    global NS
+    global DF
+    global RECIPIENT_PLACE_PATTERN
+    global PLACE_COLLECTION
+    global UNHANDLED_PLACE_AUTHORITY_SOURCES
+    global AUTH_NAME_DIFFERENT_FROM_VALUE
+
+    result = dict()
+
+    authors = _extract_persons(
+        item.xpath(
+            f'./{DF}:controlaccess/{DF}:persname[@role="Verfasser"]', namespaces=NS
+        ), [])
 
     recipients = _extract_persons(
         item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"]', namespaces=NS), [])
@@ -171,8 +165,8 @@ def _extract_localization_points(item):
     else:
         letter_date = ''
 
-    authors_place = Place(label=authors_place_label, gnd_id=authors_place_gnd_id, lat=coordinates[0],
-                          lng=coordinates[1])
+    authors_place = _extract_place_of_origin(item)
+
     # TODO: Parse recipient places less naively
     recipients_place = Place(label=recipients_place_label, gnd_id=str(-1))
 
@@ -253,13 +247,25 @@ def read_file(ead_file):
             else:
                 localization_points[person_id] = [points[person_id]]
 
-    localization_timespans = dict()
+    logger.info('Unhandled place authority sources:')
+    logger.info('---')
+    for place in UNHANDLED_PLACE_AUTHORITY_SOURCES:
+        logger.info(f'{place}')
+    logger.info('---')
+
+    logger.info('Places where the name given in the GND authority file differs from our input:')
+    logger.info('---')
+    for (a, b) in AUTH_NAME_DIFFERENT_FROM_VALUE:
+        logger.info(f'{a},{b}')
+    logger.info('---')
+
+    localization_time_spans = dict()
     for person_id in localization_points:
-        localization_timespans[person_id] = \
+        localization_time_spans[person_id] = \
             LocalizationTimeSpan.aggregate_localization_points_to_timespan(localization_points[person_id])
 
     for item in items:
-        result.append(_process_ead_item(item, localization_timespans))
+        result.append(_process_ead_item(item, localization_time_spans))
 
     logger.info('Done.')
 
@@ -292,17 +298,19 @@ def read_files(file_paths):
                 else:
                     localization_points[person_id] = [points[person_id]]
 
+    logger.info('Unhandled place authority sources:')
     for place in UNHANDLED_PLACE_AUTHORITY_SOURCES:
-        ead_import_file_logger.info(f'{place}')
+        logger.info(f'{place}')
 
+    logger.info('Places where the name given in the GND authority file differs from our input:')
     for (a, b) in AUTH_NAME_DIFFERENT_FROM_VALUE:
-        ead_import_file_logger_2.info(f'{a},{b}')
+        logger.info(f'{a},{b}')
 
-    localization_timespans = dict()
+    localization_time_spans = dict()
 
     logger.info('Aggregating localization points into timespans.')
     for person_id in localization_points:
-        localization_timespans[person_id] = \
+        localization_time_spans[person_id] = \
             LocalizationTimeSpan.aggregate_localization_points_to_timespan(localization_points[person_id])
 
     for file_path in file_paths:
@@ -316,7 +324,7 @@ def read_files(file_paths):
         )
 
         for item in items:
-            result.append(_process_ead_item(item, localization_timespans))
+            result.append(_process_ead_item(item, localization_time_spans))
 
     return result
 

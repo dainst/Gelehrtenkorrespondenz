@@ -3,7 +3,7 @@ import logging
 import os
 
 from tsv_reader import read_data as read_tsv_file
-from ead_reader import read_file as read_ead_file, read_files as read_ead_files
+from ead_reader.main import read_file as read_ead_file, read_files as read_ead_files
 from neo4j_writer import write_data
 
 logging.basicConfig(format='%(asctime)s %(message)s')
