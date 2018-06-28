@@ -13,11 +13,17 @@ logging.basicConfig(format='%(asctime)s %(message)s')
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
-file_logger = logging.getLogger('unhandled_place_authority_sources')
-file_logger.setLevel(logging.INFO)
+ead_import_file_logger = logging.getLogger('ead_import_file_logger')
+ead_import_file_logger.setLevel(logging.INFO)
 
 fh = logging.FileHandler('unknown_place_sources.log')
-file_logger.addHandler(fh)
+ead_import_file_logger.addHandler(fh)
+
+ead_import_file_logger_2 = logging.getLogger('ead_import_file_logger_2')
+ead_import_file_logger_2.setLevel(logging.INFO)
+
+fh_2 = logging.FileHandler('auth_name_different_from_value.log')
+ead_import_file_logger_2.addHandler(fh_2)
 # See: http://lxml.de/xpathxslt.html#namespaces-and-prefixes
 # and https://stackoverflow.com/questions/8053568/how-do-i-use-empty-namespaces-in-an-lxml-xpath-query
 
@@ -28,6 +34,7 @@ NS = {
 }
 
 UNHANDLED_PLACE_AUTHORITY_SOURCES = []
+AUTH_NAME_DIFFERENT_FROM_VALUE = []
 
 RECIPIENT_PLACE_PATTERN = re.compile('Empfängerort:\s(.*)')
 COORDINATES_PATTERN = re.compile('Point \(\s(.*)\s(.*).*\s\).*')
@@ -95,6 +102,7 @@ def _extract_localization_points(item):
     global RECIPIENT_PLACE_PATTERN
     global PLACE_COLLECTION
     global UNHANDLED_PLACE_AUTHORITY_SOURCES
+    global AUTH_NAME_DIFFERENT_FROM_VALUE
 
     result = dict()
 
@@ -126,6 +134,13 @@ def _extract_localization_points(item):
 
     if len(authors_place_node) == 1:
         authors_place_label = authors_place_node[0].xpath('./@normal')[0]
+        authors_place_text_content = authors_place_node[0].xpath('./text()')[0]
+
+        if authors_place_label != authors_place_text_content:
+
+            if (authors_place_label, authors_place_text_content) not in AUTH_NAME_DIFFERENT_FROM_VALUE:
+                AUTH_NAME_DIFFERENT_FROM_VALUE.append((authors_place_label, authors_place_text_content))
+
         authors_place_gnd_id = authors_place_node[0].xpath('./@authfilenumber')[0]
     else:
         authors_place_label = ''
@@ -278,7 +293,10 @@ def read_files(file_paths):
                     localization_points[person_id] = [points[person_id]]
 
     for place in UNHANDLED_PLACE_AUTHORITY_SOURCES:
-        file_logger.info(f'{place}')
+        ead_import_file_logger.info(f'{place}')
+
+    for (a, b) in AUTH_NAME_DIFFERENT_FROM_VALUE:
+        ead_import_file_logger_2.info(f'{a},{b}')
 
     localization_timespans = dict()
 
