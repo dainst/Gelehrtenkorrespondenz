@@ -67,8 +67,8 @@ def _extract_localization_points(item):
     for author in authors:
         result[author.id] = LocalizationPoint(place=authors_place, date=letter_date)
 
-    # for recipient in recipients:
-    #     result[recipient.id] = LocalizationPoint(place=recipients_place, date=letter_date)
+    for recipient in recipients:
+        result[recipient.id] = LocalizationPoint(place=recipients_place, date=letter_date)
 
     return result
 
@@ -109,10 +109,11 @@ def _process_ead_item(item, localization_timespans):
         item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"]', namespaces=NS), localization_timespans)
 
     place_of_origin = places.extract_place_of_origin(item)
+    place_of_reception = places.extract_place_of_reception(item)
 
     letter = LetterData(letter_id, authors, recipients, date=letter_date, summary=summary, title=title,
                         quantity_description=quantity, quantity_page_count=LetterData.parse_page_count(quantity),
-                        place_of_origin=place_of_origin)
+                        place_of_origin=place_of_origin, place_of_reception=place_of_reception)
 
     return letter
 
@@ -166,8 +167,6 @@ def read_file(ead_file):
 
 
 def read_files(file_paths):
-    global NS
-    global DF
 
     result = []
 
