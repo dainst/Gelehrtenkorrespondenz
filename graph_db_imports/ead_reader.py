@@ -73,8 +73,8 @@ def _fetch_gnd_location_coordinates(gnd_id):
         for s, p, o in g.triples((None, URIRef('http://www.opengis.net/ont/geosparql#asWKT'), None)):
             match = COORDINATES_PATTERN.match(o)
             if match is not None:
-                lat = match.group(1)
-                lng = match.group(2)
+                lat = float(match.group(1))
+                lng = float(match.group(2))
                 coordinate_list.append((lat, lng))
 
         if len(coordinate_list) == 1:

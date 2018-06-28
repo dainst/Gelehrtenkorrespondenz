@@ -32,7 +32,7 @@ def _import_places(session, data: List[LetterData]):
     parameters = dict({'place_list': []})
     for key in places:
         parameters['place_list'].append({
-            'label': places[key].label, 'gnd_id': places[key].gnd_id
+            'label': places[key].label, 'gnd_id': places[key].gnd_id, 'lat': places[key].lat, 'lng': places[key].lng
         })
 
     statement = \
