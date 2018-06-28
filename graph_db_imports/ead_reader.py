@@ -1,6 +1,9 @@
 import logging
 import sys
 import re
+import urllib.error
+import rdflib
+from rdflib import URIRef, Literal
 
 from lxml import etree
 from data_structures import *
@@ -20,6 +23,8 @@ NS = {
 }
 
 RECIPIENT_PLACE_PATTERN = re.compile('Empfängerort:\s(.*)')
+COORDINATES_PATTERN = re.compile('Point \(\s(.*)\s(.*).*\s\).*')
+PLACE_COLLECTION = dict()
 
 
 def _extract_persons(person_nodes, localization_timespans):
@@ -49,10 +54,39 @@ def _extract_persons(person_nodes, localization_timespans):
     return persons
 
 
+def _fetch_gnd_location_coordinates(gnd_id):
+
+    url = f'http://d-nb.info/gnd/{gnd_id}/about/lds'
+
+    global PLACE_COLLECTION
+    g = rdflib.Graph()
+    try:
+        g.load(url)
+        coordinate_list = []
+        for s, p, o in g.triples((None, URIRef('http://www.opengis.net/ont/geosparql#asWKT'), None)):
+            match = COORDINATES_PATTERN.match(o)
+            if match is not None:
+                lat = match.group(1)
+                lng = match.group(2)
+                coordinate_list.append((lat, lng))
+
+        if len(coordinate_list) == 1:
+            PLACE_COLLECTION[gnd_id] = coordinate_list[0]
+        elif len(coordinate_list) == 0:
+            logger.warning(f'Found no coordinate set for GND place {gnd_id}.')
+            PLACE_COLLECTION[gnd_id] = (None, None)
+        else:
+            logger.error(f'Found more than one coordinate set for GND place {gnd_id}.')
+    except urllib.error.HTTPError as e:
+        logger.error(f'Got {e.code} for {url}.')
+        PLACE_COLLECTION[gnd_id] = (None, None)
+
+
 def _extract_localization_points(item):
     global NS
     global DF
     global RECIPIENT_PLACE_PATTERN
+    global PLACE_COLLECTION
 
     result = dict()
 
@@ -61,18 +95,26 @@ def _extract_localization_points(item):
             f'./{DF}:controlaccess/{DF}:persname[@role="Verfasser"]', namespaces=NS
         ), [])
 
+    # TODO: Extract coordinates from other authorities
     authors_place_node = item.xpath(
-        f'./{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname', namespaces=NS
+        f'./{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname[@source="GND"]/.', namespaces=NS
     )
 
     if len(authors_place_node) == 1:
-        authors_place_label = authors_place_node[0].text
+        authors_place_label = authors_place_node[0].xpath('./@normal')[0]
         authors_place_gnd_id = authors_place_node[0].xpath('./@authfilenumber')[0]
     else:
         authors_place_label = ''
         authors_place_gnd_id = -1
 
-    recipients = _extract_persons(item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"]', namespaces=NS), [])
+    try:
+        coordinates = PLACE_COLLECTION[authors_place_gnd_id]
+    except KeyError:
+        _fetch_gnd_location_coordinates(authors_place_gnd_id)
+        coordinates = PLACE_COLLECTION[authors_place_gnd_id]
+
+    recipients = _extract_persons(
+        item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"]', namespaces=NS), [])
     recipients_place_node = item.xpath(f'./{DF}:did/{DF}:note[@label="Bemerkung"]/{DF}:p', namespaces=NS)
 
     if len(recipients_place_node) == 1:
@@ -90,7 +132,8 @@ def _extract_localization_points(item):
     else:
         letter_date = ''
 
-    authors_place = Place(label=authors_place_label, gnd_id=authors_place_gnd_id)
+    authors_place = Place(label=authors_place_label, gnd_id=authors_place_gnd_id, lat=coordinates[0],
+                          lng=coordinates[1])
     recipients_place = Place(label=recipients_place_label, gnd_id=str(-1))
 
     for author in authors:
