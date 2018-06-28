@@ -134,12 +134,14 @@ def _extract_localization_points(item):
 
     authors_place = Place(label=authors_place_label, gnd_id=authors_place_gnd_id, lat=coordinates[0],
                           lng=coordinates[1])
+    # TODO: Parse recipient places less naively
     recipients_place = Place(label=recipients_place_label, gnd_id=str(-1))
 
     for author in authors:
         result[author.id] = LocalizationPoint(place=authors_place, date=letter_date)
-    for recipient in recipients:
-        result[recipient.id] = LocalizationPoint(place=recipients_place, date=letter_date)
+
+    # for recipient in recipients:
+    #     result[recipient.id] = LocalizationPoint(place=recipients_place, date=letter_date)
 
     return result
 
