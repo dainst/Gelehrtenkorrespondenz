@@ -15,11 +15,20 @@ logging.basicConfig(format='%(asctime)s %(message)s')
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
+AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON = []
+
 
 def _extract_persons(person_nodes, localization_timespans):
+    global AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON
     persons = []
 
     for node in person_nodes:
+        name_normal = node.xpath('./@normal')[0]
+        name_input = node.xpath('./text()')[0]
+
+        if name_input != name_normal and (name_normal, name_input) not in AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON:
+            AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON.append((name_normal, name_input))
+
         split_name = node.xpath('./@normal')[0].split(',', 1)
 
         if len(split_name) == 2:
@@ -153,6 +162,13 @@ def read_file(ead_file):
         logger.info(f'{a},{b}')
     logger.info('---')
 
+
+    logger.info('Persons where the name given in the GND authority file differs from our input:')
+    logger.info('---')
+    for (a, b) in AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON:
+        logger.info(f'{a},{b}')
+    logger.info('---')
+
     localization_time_spans = dict()
     for person_id in localization_points:
         localization_time_spans[person_id] = \
@@ -191,12 +207,23 @@ def read_files(file_paths):
                     localization_points[person_id] = [points[person_id]]
 
     logger.info('Unhandled place authority sources:')
+    logger.info('---')
     for place in places.UNHANDLED_PLACE_AUTHORITY_SOURCES:
         logger.info(f'{place}')
+    logger.info('---')
 
     logger.info('Places where the name given in the GND authority file differs from our input:')
+    logger.info('---')
     for (a, b) in places.AUTH_NAME_DIFFERENT_FROM_VALUE:
         logger.info(f'{a},{b}')
+    logger.info('---')
+
+    logger.info('Persons where the name given in the GND authority file differs from our input:')
+    logger.info('---')
+    for (a, b) in AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON:
+        logger.info(f'{a},{b}')
+    logger.info('---')
+
 
     localization_time_spans = dict()
 
