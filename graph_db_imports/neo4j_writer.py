@@ -19,14 +19,14 @@ def _import_places(session, data: List[LetterData]):
             for localization in person.localizations:
                 if localization.place.label not in places:
                     places[localization.place.label] = localization.place
-                elif places[localization.place.label].gnd_id == -1 and localization.place.gnd_id != -1:
+                elif places[localization.place.label].gnd_id == '-1' and localization.place.gnd_id != '-1':
                     places[localization.place.label] = localization.place
 
         for person in letter.recipients:
             for localization in person.localizations:
                 if localization.place.label not in places:
                     places[localization.place.label] = localization.place
-                elif places[localization.place.label].gnd_id == -1 and localization.place.gnd_id != -1:
+                elif places[localization.place.label].gnd_id == '-1' and localization.place.gnd_id != '-1':
                     places[localization.place.label] = localization.place
 
     parameters = dict({'place_list': []})

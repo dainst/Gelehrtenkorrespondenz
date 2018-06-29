@@ -81,7 +81,7 @@ def extract_place_of_origin(item):
         authors_place_gnd_id = place_of_origin_node[0].xpath('./@authfilenumber')[0]
     else:
         authors_place_label = ''
-        authors_place_gnd_id = -1
+        authors_place_gnd_id = "-1"
 
     try:
         coordinates = PLACE_COLLECTION[authors_place_gnd_id]
