@@ -95,13 +95,12 @@ class PersonData:
         self.id = self.gnd_id
 
     def __hash__(self):
-        return hash((self.label, self.gnd_id, self.first_name, self.last_name))
+        return hash((self.gnd_id,))
 
     def __eq__(self, other):
         if not isinstance(other, type(self)):
             return NotImplemented
-        return self.label == other.label and self.gnd_id == other.gnd_id and self.first_name == other.first_name and \
-            self.last_name == other.last_name
+        return self.gnd_id == other.gnd_id
 
     def __str__(self):
         return str(dict({'label': self.label, 'gnd_id': self.gnd_id, 'first_name': self.first_name,
