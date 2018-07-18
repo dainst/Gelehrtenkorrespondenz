@@ -91,10 +91,11 @@ def _import_persons(session, data: List[LetterData]):
 
     for person in persons:
         data = {
+            'uuid': person.uuid,
             'label': person.name,
             'gnd_id': person.gnd_id,
-            'first_name': person.gnd_first_name,
-            'last_name': person.gnd_last_name,
+            'gnd_first_name': person.gnd_first_name,
+            'gnd_last_name': person.gnd_last_name,
             'localizations': []
         }
 
@@ -109,7 +110,7 @@ def _import_persons(session, data: List[LetterData]):
 
     statement = \
         'UNWIND {person_list} AS data ' \
-        'CREATE (person:Person{label: data.label, gnd_id: data.gnd_id, first_name: data.first_name, last_name: data.last_name})' \
+        'CREATE (person:Person{uuid: data.uuid, label: data.label, gnd_id: data.gnd_id, gnd_first_name: data.gnd_first_name, gnd_last_name: data.gnd_last_name})' \
         'WITH person, data ' \
         'UNWIND data.localizations AS local_data ' \
         'MATCH (place:Place{label: local_data.label_place}) ' \
@@ -142,9 +143,9 @@ def _import_letters(session, data: List[LetterData]):
         }
 
         for author in letter.authors:
-            data['authors'].append({'gnd_id': author.gnd_id, 'name_presumed': author.name_presumed})
+            data['authors'].append({'name': author.name, 'gnd_id': author.gnd_id, 'name_presumed': author.name_presumed})
         for recipient in letter.recipients:
-            data['recipients'].append({'gnd_id': recipient.gnd_id, 'name_presumed': recipient.name_presumed})
+            data['recipients'].append({'name': recipient.name, 'gnd_id': recipient.gnd_id, 'name_presumed': recipient.name_presumed})
 
         parameters['letter_list'].append(data)
 
@@ -157,11 +158,11 @@ def _import_letters(session, data: List[LetterData]):
         'CREATE (letter)-[:SEND_TO]->(por)' \
         'WITH letter, data ' \
         'UNWIND data.authors as person_data ' \
-        'MATCH (person:Person{gnd_id: person_data.gnd_id}) ' \
+        'MATCH (person:Person {label: person_data.name, gnd_id: person_data.gnd_id}) ' \
         'CREATE (person) -[:IS_AUTHOR { presumed: person_data.name_presumed }]-> (letter) ' \
         'WITH letter, data ' \
         'UNWIND data.recipients as person_data ' \
-        'MATCH (person:Person{gnd_id: person_data.gnd_id}) ' \
+        'MATCH (person:Person{label: person_data.name, gnd_id: person_data.gnd_id}) ' \
         'CREATE (person) -[:IS_RECIPIENT { presumed: person_data.name_presumed }]-> (letter)'
 
     with session.begin_transaction() as tx:
@@ -172,7 +173,6 @@ def write_data(data, url, port, username, password):
     driver = GraphDatabase.driver('bolt://%s:%i ' % (url, port), auth=(username, password))
 
     with driver.session() as session:
-
         with session.begin_transaction() as tx:
             tx.run('CREATE INDEX ON :Place(gnd_id)')
             tx.run('CREATE INDEX ON :Localization(from, to)')

@@ -26,18 +26,18 @@ def _create_localization_points(data_rows):
         if author_place is not None:
             for author in authors:
                 new_point = LocalizationPoint(author_place, date)
-                if author.id not in localization_points:
-                    localization_points[author.id] = [new_point]
+                if author.uuid not in localization_points:
+                    localization_points[author.uuid] = [new_point]
                 else:
-                    localization_points[author.id] += [new_point]
+                    localization_points[author.uuid] += [new_point]
 
         if recipient_place is not None:
             for recipient in recipients:
                 new_point = LocalizationPoint(recipient_place, date)
-                if recipient.id not in localization_points:
-                    localization_points[recipient.id] = [new_point]
+                if recipient.uuid not in localization_points:
+                    localization_points[recipient.uuid] = [new_point]
                 else:
-                    localization_points[recipient.id] += [new_point]
+                    localization_points[recipient.uuid] += [new_point]
 
     return localization_points
 
@@ -56,8 +56,8 @@ def _extract_authors(line_values, localizations):
     results = []
 
     for person in temp:
-        if person.id in localizations:
-            person.localizations = localizations[person.id]
+        if person.uuid in localizations:
+            person.localizations = localizations[person.uuid]
         results.append(person)
 
     return results
@@ -69,8 +69,8 @@ def _extract_recipients(line_values, localizations):
     results = []
 
     for person in temp:
-        if person.id in localizations:
-            person.localizations = localizations[person.id]
+        if person.uuid in localizations:
+            person.localizations = localizations[person.uuid]
         results.append(person)
 
     return results

@@ -1,14 +1,10 @@
 import logging
 import sys
-import re
-import urllib.error
-import rdflib
-from rdflib import URIRef
-from lxml import etree
-
 import ead_reader.places as places
-from data_structures import *
+
 from config import DF, NS
+from data_structures import *
+from lxml import etree
 
 logging.basicConfig(format='%(asctime)s %(message)s')
 
@@ -79,10 +75,10 @@ def _extract_localization_points(item):
     recipients_place = places.extract_place_of_reception(item)
 
     for author in authors:
-        result[author.id] = LocalizationPoint(place=authors_place, date=letter_date)
+        result[author.gnd_id] = LocalizationPoint(place=authors_place, date=letter_date)
 
     for recipient in recipients:
-        result[recipient.id] = LocalizationPoint(place=recipients_place, date=letter_date)
+        result[recipient.gnd_id] = LocalizationPoint(place=recipients_place, date=letter_date)
 
     return result
 
@@ -109,7 +105,8 @@ def _process_ead_item(item, localization_timespans):
     else:
         summary = ''
 
-    quantity = item.xpath(f'./{DF}:did/{DF}:physdesc[@label="Angaben zum Material"]/{DF}:extend[@label="Umfang"]', namespaces=NS)
+    quantity = item.xpath(f'./{DF}:did/{DF}:physdesc[@label="Angaben zum Material"]/{DF}:extend[@label="Umfang"]',
+                          namespaces=NS)
     if len(quantity) == 1:
         quantity = quantity[0].text
     else:
@@ -166,7 +163,6 @@ def read_file(ead_file):
     for (a, b) in places.AUTH_NAME_DIFFERENT_FROM_VALUE:
         logger.info(f'{a},{b}')
     logger.info('---')
-
 
     logger.info('Persons where the name given in the GND authority file differs from our input:')
     logger.info('---')
@@ -228,7 +224,6 @@ def read_files(file_paths):
     for (a, b) in AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON:
         logger.info(f'{a},{b}')
     logger.info('---')
-
 
     localization_time_spans = dict()
 

@@ -1,5 +1,7 @@
-from typing import List
 import re
+import uuid
+
+from typing import List
 
 PAGE_COUNT_PATTERN = re.compile('.*(\d+)\s*Seiten.*')
 
@@ -86,6 +88,7 @@ class PersonData:
 
     def __init__(self, name: str, name_presumed: bool, gnd_id: str, localizations: List[LocalizationTimeSpan],
                  first_name: str = '', last_name: str = ''):
+        self.uuid = str(uuid.uuid4())
         self.name = name
         self.name_presumed = name_presumed
         self.gnd_id = gnd_id
@@ -93,20 +96,18 @@ class PersonData:
         self.gnd_last_name = last_name
         self.localizations = localizations
 
-        self.id = self.gnd_id
-
     def __hash__(self):
-        return hash((self.gnd_id,))
+        return hash((self.name, self.gnd_id))
 
     def __eq__(self, other):
         if not isinstance(other, type(self)):
             return NotImplemented
-        return self.gnd_id == other.gnd_id
+        return self.name == other.name and self.gnd_id == other.gnd_id
 
     def __str__(self):
-        return str(dict({'name': self.name, 'name_presumed': self.name_presumed, 'gnd_id': self.gnd_id,
-                         'gnd_first_name': self.gnd_first_name, 'gnd_last_name': self.gnd_last_name,
-                         'localizations': self.localizations, 'id': self.id}))
+        return str(dict({'uuid': self.uuid, 'name': self.name, 'name_presumed': self.name_presumed,
+                         'gnd_id': self.gnd_id, 'gnd_first_name': self.gnd_first_name,
+                         'gnd_last_name': self.gnd_last_name, 'localizations': self.localizations}))
 
 
 class LetterData:
