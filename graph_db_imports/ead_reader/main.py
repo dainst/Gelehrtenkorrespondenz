@@ -40,12 +40,17 @@ def _extract_persons(person_nodes, localization_timespans):
         gnd_id = node.xpath('./@authfilenumber')[0]
         name = node.text
 
+        if '[vermutlich]' in name.lower():
+            name_presumed = True
+        else:
+            name_presumed = False
+
         if gnd_id in localization_timespans:
             localizations = localization_timespans[gnd_id]
         else:
             localizations = []
 
-        person = PersonData(name, gnd_id, localizations, first_name=first_name, last_name=last_name)
+        person = PersonData(name, name_presumed, gnd_id, localizations, first_name=first_name, last_name=last_name)
 
         persons.append(person)
 

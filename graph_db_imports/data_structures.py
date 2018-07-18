@@ -84,12 +84,13 @@ class LocalizationTimeSpan:
 
 class PersonData:
 
-    def __init__(self, name: str, gnd_id: str, localizations: List[LocalizationTimeSpan],
+    def __init__(self, name: str, name_presumed: bool, gnd_id: str, localizations: List[LocalizationTimeSpan],
                  first_name: str = '', last_name: str = ''):
-        self.label = name
+        self.name = name
+        self.name_presumed = name_presumed
         self.gnd_id = gnd_id
-        self.first_name = first_name
-        self.last_name = last_name
+        self.gnd_first_name = first_name
+        self.gnd_last_name = last_name
         self.localizations = localizations
 
         self.id = self.gnd_id
@@ -103,8 +104,9 @@ class PersonData:
         return self.gnd_id == other.gnd_id
 
     def __str__(self):
-        return str(dict({'label': self.label, 'gnd_id': self.gnd_id, 'first_name': self.first_name,
-                         'last_name': self.last_name, 'localizations': self.localizations, 'id': self.id}))
+        return str(dict({'name': self.name, 'name_presumed': self.name_presumed, 'gnd_id': self.gnd_id,
+                         'gnd_first_name': self.gnd_first_name, 'gnd_last_name': self.gnd_last_name,
+                         'localizations': self.localizations, 'id': self.id}))
 
 
 class LetterData:
