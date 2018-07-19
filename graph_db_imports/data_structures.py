@@ -3,32 +3,34 @@ import uuid
 
 from typing import List
 
-PAGE_COUNT_PATTERN = re.compile('.*(\d+)\s*Seiten.*')
 
+PAGE_COUNT_PATTERN = re.compile('.*(\d+)\s*Seiten.*')
 
 class Place:
 
     def __init__(self, label: str, gnd_id: str, lat: str = None, lng: str = None):
+        self.uuid = str(uuid.uuid4())
         self.label = label
         self.gnd_id = gnd_id
+        #self.gaz_id = gaz_id
         self.lat = lat
         self.lng = lng
-        self.id = self.label
 
     def __hash__(self):
-        return hash((self.label, self.gnd_id, self.id, self.lat, self.lng))
+        return hash((self.uuid,))
 
     def __eq__(self, other):
         if not isinstance(other, type(self)):
             return NotImplemented
-        return self.label == other.label and self.gnd_id == other.gnd_id and self.id == other.id \
-            and self.lat == other.lat and self.lng == other.lng
+        return self.uuid == other.uuid
 
     def __str__(self):
-        return str(dict({'label': self.label, 'gnd_id': self.gnd_id, 'id': self.id, 'lat': self.lat, 'lng': self.lng}))
+        return str(dict(
+            {'uuid': self.uuid, 'label': self.label, 'gnd_id': self.gnd_id, 'lat': self.lat, 'lng': self.lng}
+        ))
 
 
-class LocalizationPoint:
+"""class LocalizationPoint:
 
     def __init__(self, place: Place, date: str):
         self.date = date
@@ -68,7 +70,7 @@ class LocalizationTimeSpan:
 
         for current_point in localization_points:
 
-            if current_place.id != current_point.place.id:
+            if current_place.uuid != current_point.place.uuid:
                 persons_localizations_list.append(
                     LocalizationTimeSpan(current_place, current_date_from, current_date_to)
                 )
@@ -82,11 +84,13 @@ class LocalizationTimeSpan:
         persons_localizations_list.append(LocalizationTimeSpan(current_place, current_date_from, current_date_to))
 
         return persons_localizations_list
+"""
 
 
 class PersonData:
 
-    def __init__(self, name: str, name_presumed: bool, gnd_id: str, localizations: List[LocalizationTimeSpan],
+    def __init__(self, name: str, name_presumed: bool, gnd_id: str,
+                 # localizations: List[LocalizationTimeSpan],
                  first_name: str = '', last_name: str = ''):
         self.uuid = str(uuid.uuid4())
         self.name = name
@@ -94,7 +98,7 @@ class PersonData:
         self.gnd_id = gnd_id
         self.gnd_first_name = first_name
         self.gnd_last_name = last_name
-        self.localizations = localizations
+#        self.localizations = localizations
 
     def __hash__(self):
         return hash((self.name, self.gnd_id))
@@ -105,9 +109,12 @@ class PersonData:
         return self.name == other.name and self.gnd_id == other.gnd_id
 
     def __str__(self):
-        return str(dict({'uuid': self.uuid, 'name': self.name, 'name_presumed': self.name_presumed,
-                         'gnd_id': self.gnd_id, 'gnd_first_name': self.gnd_first_name,
-                         'gnd_last_name': self.gnd_last_name, 'localizations': self.localizations}))
+        return str(dict(
+            {'uuid': self.uuid, 'name': self.name, 'name_presumed': self.name_presumed, 'gnd_id': self.gnd_id,
+             'gnd_first_name': self.gnd_first_name, 'gnd_last_name': self.gnd_last_name
+                # , 'localizations': self.localizations
+            }
+        ))
 
 
 class LetterData:
@@ -116,22 +123,24 @@ class LetterData:
                  title: str = '', summary: str = '', quantity_description: str = '', quantity_page_count: int = None,
                  place_of_origin: Place = None, place_of_reception: Place = None):
         self.id = letter_id
-        self.authors = authors
-        self.recipients = recipients
+        self.authors: List[PersonData] = authors
+        self.recipients: List[PersonData] = recipients
         self.date = date
         self.title = title
         self.summary = summary
         self.quantity_description = quantity_description
         self.quantity_page_count = quantity_page_count
-        self.place_of_origin = place_of_origin
-        self.place_of_reception = place_of_reception
+        self.place_of_origin: Place = place_of_origin
+        self.place_of_reception: Place = place_of_reception
 
     def __str__(self):
-        return str(dict({'authors': self.authors, 'recipients': self.recipients, 'date': self.date,
-                         'title': self.title, 'summary': self.summary, 'id': self.id,
-                         'quantity_description': self.quantity_description,
-                         'quantity_page_count': self.quantity_page_count, 'place_of_origin': self.place_of_origin,
-                         'place_of_reception': self.place_of_reception}))
+        return str(dict(
+            {'authors': self.authors, 'recipients': self.recipients, 'date': self.date, 'title': self.title,
+             'summary': self.summary, 'id': self.id, 'quantity_description': self.quantity_description,
+             'quantity_page_count': self.quantity_page_count, 'place_of_origin': self.place_of_origin,
+             'place_of_reception': self.place_of_reception
+             }
+        ))
 
     @staticmethod
     def parse_page_count(value):

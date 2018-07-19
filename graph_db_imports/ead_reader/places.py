@@ -50,11 +50,13 @@ def _fetch_gnd_location_coordinates(gnd_id):
 def extract_place_of_origin(item):
     # TODO: Extract coordinates from other authorities
     place_of_origin_node = item.xpath(
-        f'./{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname[@source="GND"]/.', namespaces=NS
+        f'./{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname[@source="GND"]/.',
+        namespaces=NS
     )
 
     unknown_place_source_node = item.xpath(
-        f'./{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname[@source!="GND"]/.', namespaces=NS
+        f'./{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname[@source!="GND"]/.',
+        namespaces=NS
     )
 
     try:
