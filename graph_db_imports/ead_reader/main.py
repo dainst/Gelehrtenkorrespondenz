@@ -5,7 +5,6 @@ import ead_reader.places as places
 from config import DF, NS
 from data_structures import *
 from lxml import etree
-# from typing import Dict
 
 logging.basicConfig(format='%(asctime)s %(message)s')
 
@@ -15,9 +14,9 @@ logger.setLevel(logging.DEBUG)
 AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON = []
 
 
-def _extract_persons(person_nodes, localization_timespans):
+def _extract_persons(person_nodes) -> List[Person]:
     global AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON
-    persons: List[PersonData] = []
+    persons: List[Person] = []
 
     for node in person_nodes:
         name_normal = node.xpath('./@normal')[0]
@@ -42,51 +41,13 @@ def _extract_persons(person_nodes, localization_timespans):
         else:
             name_presumed = False
 
-        """if gnd_id in localization_timespans:
-            localizations = localization_timespans[gnd_id]
-        else:
-            localizations = []"""
-
-        person = PersonData(name, name_presumed, gnd_id,
-                            # localizations,
-                            first_name=first_name, last_name=last_name)
-
+        person = Person(name, name_presumed, gnd_id, gnd_first_name=first_name, gnd_last_name=last_name)
         persons.append(person)
 
     return persons
 
 
-"""def _extract_localization_points(item):
-
-    result: Dict[str, LocalizationPoint] = dict()
-
-    authors: List[PersonData] = _extract_persons(
-        item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Verfasser"]', namespaces=NS), [])
-
-    recipients: List[PersonData] = _extract_persons(
-        item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"]', namespaces=NS), [])
-
-    letter_date = item.xpath(f'./{DF}:did/{DF}:unitdate[@label="Entstehungsdatum"]/@normal', namespaces=NS)
-
-    if len(letter_date) == 1:
-        letter_date = letter_date[0]
-    else:
-        letter_date = ''
-
-    authors_place: Place = places.extract_place_of_origin(item)
-    recipients_place: Place = places.extract_place_of_reception(item)
-
-    for author in authors:
-        result[author.gnd_id] = LocalizationPoint(place=authors_place, date=letter_date)
-
-    for recipient in recipients:
-        result[recipient.gnd_id] = LocalizationPoint(place=recipients_place, date=letter_date)
-
-    return result
-
-
-def _process_ead_item(item, localization_timespans):
-
+def _extract_letter(item, authors, recipients, place_of_origin, place_of_reception) -> Letter:
     letter_id = item.xpath(f'./@id')
     letter_date = item.xpath(f'./{DF}:did/{DF}:unitdate[@label="Entstehungsdatum"]/@normal', namespaces=NS)
 
@@ -113,104 +74,18 @@ def _process_ead_item(item, localization_timespans):
 
     title = item.xpath(f'./{DF}:did/{DF}:unittitle', namespaces=NS)[0].text
 
-    authors: List[PersonData] = _extract_persons(
-        item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Verfasser"]', namespaces=NS), localization_timespans)
-    recipients: List[PersonData] = _extract_persons(
-        item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"]', namespaces=NS), localization_timespans)
-
-    place_of_origin: Place = places.extract_place_of_origin(item)
-    place_of_reception: Place = places.extract_place_of_reception(item)
-
-    letter = LetterData(letter_id, authors, recipients, date=letter_date, summary=summary, title=title,
-                        quantity_description=quantity, quantity_page_count=LetterData.parse_page_count(quantity),
-                        place_of_origin=place_of_origin, place_of_reception=place_of_reception)
-
-    return letter"""
+    return Letter(letter_id, authors, recipients, date=letter_date, summary=summary, title=title,
+                  quantity_description=quantity, quantity_page_count=Letter.parse_page_count(quantity),
+                  place_of_origin=place_of_origin, place_of_reception=place_of_reception)
 
 
-def _extract_letter(item, authors, recipients, place_of_origin, place_of_reception):
-    letter_id = item.xpath(f'./@id')
-    letter_date = item.xpath(f'./{DF}:did/{DF}:unitdate[@label="Entstehungsdatum"]/@normal', namespaces=NS)
+def enhance_data(letter_list: List[Letter]) -> List[Letter]:
 
-    if len(letter_date) == 1:
-        letter_date = letter_date[0]
-    else:
-        letter_date = ''
-
-    summary = item.xpath(f'./{DF}:scopecontent/{DF}:head[text()="Inhaltsangabe"]/following-sibling::{DF}:p',
-                         namespaces=NS)
-
-    if len(summary) == 1:
-        summary = summary[0].text
-    else:
-        summary = ''
-
-    quantity = item.xpath(f'./{DF}:did/{DF}:physdesc[@label="Angaben zum Material"]/{DF}:extend[@label="Umfang"]',
-                          namespaces=NS)
-
-    if len(quantity) == 1:
-        quantity = quantity[0].text
-    else:
-        quantity = ''
-
-    title = item.xpath(f'./{DF}:did/{DF}:unittitle', namespaces=NS)[0].text
-
-    return LetterData(letter_id, authors, recipients, date=letter_date, summary=summary, title=title,
-                      quantity_description=quantity, quantity_page_count=LetterData.parse_page_count(quantity),
-                      place_of_origin=place_of_origin, place_of_reception=place_of_reception)
+    return letter_list
 
 
-def process_ead_file(ead_file):
-
-    result: List[LetterData] = []
-    logger.info(f'Parsing input file {ead_file}.')
-    parser = etree.XMLParser()
-
-    tree = etree.parse(ead_file, parser)
-
-    items = tree.xpath(
-        f'//{DF}:c[@level="item"]',
-        namespaces=NS
-    )
-
-    for item in items:
-        authors: List[PersonData] = _extract_persons(
-            item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Verfasser"]', namespaces=NS), [])
-        recipients: List[PersonData] = _extract_persons(
-            item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"]', namespaces=NS), [])
-
-        origin_place: Place = places.extract_place_of_origin(item)
-        recipient_place: Place = places.extract_place_of_reception(item)
-
-        letter: LetterData = _extract_letter(item, authors, recipients, origin_place, recipient_place)
-
-        result.append(letter)
-
-    logger.info('Unhandled place authority sources:')
-    logger.info('---')
-    for place in places.UNHANDLED_PLACE_AUTHORITY_SOURCES:
-        logger.info(f'{place}')
-    logger.info('---')
-
-    logger.info('Places where the name given in the GND authority file differs from our input:')
-    logger.info('---')
-    for (a, b) in places.AUTH_NAME_DIFFERENT_FROM_VALUE:
-        logger.info(f'{a},{b}')
-    logger.info('---')
-
-    logger.info('Persons where the name given in the GND authority file differs from our input:')
-    logger.info('---')
-    for (a, b) in AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON:
-        logger.info(f'{a},{b}')
-    logger.info('---')
-
-    logger.info('Done.')
-
-    return result
-
-
-def process_ead_files(file_paths):
-    result: List[LetterData] = []
+def process_ead_files(file_paths) -> List[Letter]:
+    result: List[Letter] = []
 
     for file_path in file_paths:
         result += process_ead_file(file_path)
@@ -218,10 +93,11 @@ def process_ead_files(file_paths):
     return result
 
 
-"""def read_file(ead_file):
+def process_ead_file(ead_file) -> List[Letter]:
+    global AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON
+    result: List[Letter] = []
 
-    result = []
-    logger.info(f'Parsing input file {ead_file}.')
+    logger.info(f'Parsing input file {ead_file} ...')
     parser = etree.XMLParser()
 
     tree = etree.parse(ead_file, parser)
@@ -231,109 +107,49 @@ def process_ead_files(file_paths):
         namespaces=NS
     )
 
-    localization_points = dict()
+    places.UNHANDLED_PLACE_AUTHORITY_SOURCES = []
+    places.AUTH_NAME_DIFFERENT_FROM_VALUE = []
+    AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON = []
 
     for item in items:
-        points = _extract_localization_points(item)
-        for person_id in points:
-            if person_id in localization_points:
-                localization_points[person_id].append(points[person_id])
-            else:
-                localization_points[person_id] = [points[person_id]]
+        authors: List[Person] = \
+            _extract_persons(item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Verfasser"]', namespaces=NS))
+        recipients: List[Person] = \
+            _extract_persons(item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"]', namespaces=NS))
 
-    logger.info('Unhandled place authority sources:')
-    logger.info('---')
-    for place in places.UNHANDLED_PLACE_AUTHORITY_SOURCES:
-        logger.info(f'{place}')
-    logger.info('---')
+        origin_place: Place = places.extract_place_of_origin(item)
+        recipient_place: Place = places.extract_place_of_reception(item)
 
-    logger.info('Places where the name given in the GND authority file differs from our input:')
-    logger.info('---')
-    for (a, b) in places.AUTH_NAME_DIFFERENT_FROM_VALUE:
-        logger.info(f'{a},{b}')
-    logger.info('---')
+        letter: Letter = _extract_letter(item, authors, recipients, origin_place, recipient_place)
 
-    logger.info('Persons where the name given in the GND authority file differs from our input:')
-    logger.info('---')
-    for (a, b) in AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON:
-        logger.info(f'{a},{b}')
-    logger.info('---')
+        result.append(letter)
 
-    localization_time_spans = dict()
-    for person_id in localization_points:
-        localization_time_spans[person_id] = \
-            LocalizationTimeSpan.aggregate_localization_points_to_timespan(localization_points[person_id])
+    if len(places.UNHANDLED_PLACE_AUTHORITY_SOURCES) > 0:
+        logger.info('-----')
+        logger.info('Unhandled place authority sources:')
+        logger.info('-----')
+        for place in places.UNHANDLED_PLACE_AUTHORITY_SOURCES:
+            logger.info(f'{place}')
 
-    for item in items:
-        result.append(_process_ead_item(item, localization_time_spans))
+    if len(places.AUTH_NAME_DIFFERENT_FROM_VALUE) > 0:
+        logger.info('-----')
+        logger.info('Places where the name given in the GND authority file differs from our input:')
+        logger.info('-----')
+        for (a, b) in places.AUTH_NAME_DIFFERENT_FROM_VALUE:
+            logger.info(f'{a},{b}')
 
-    logger.info('Done.')
+    if len(AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON) > 0:
+        logger.info('-----')
+        logger.info('Persons where the name given in the GND authority file differs from our input:')
+        logger.info('-----')
+        for (a, b) in AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON:
+            logger.info(f'{a},{b}')
+
+    logger.info('=====')
+    logger.info('Parsing done.')
+    logger.info('=====')
 
     return result
-
-
-def read_files(file_paths):
-    result = []
-
-    localization_points = dict()
-
-    logger.info(f'Collecting localization points.')
-    for file_path in file_paths:
-        logger.info(f'File: {file_path}.')
-        parser = etree.XMLParser()
-        tree = etree.parse(file_path, parser)
-        items = tree.xpath(
-            f'//{DF}:c[@level="item"]',
-            namespaces=NS
-        )
-
-        for item in items:
-            points = _extract_localization_points(item)
-            for person_id in points:
-                if person_id in localization_points:
-                    localization_points[person_id].append(points[person_id])
-                else:
-                    localization_points[person_id] = [points[person_id]]
-
-    logger.info('Unhandled place authority sources:')
-    logger.info('---')
-    for place in places.UNHANDLED_PLACE_AUTHORITY_SOURCES:
-        logger.info(f'{place}')
-    logger.info('---')
-
-    logger.info('Places where the name given in the GND authority file differs from our input:')
-    logger.info('---')
-    for (a, b) in places.AUTH_NAME_DIFFERENT_FROM_VALUE:
-        logger.info(f'{a},{b}')
-    logger.info('---')
-
-    logger.info('Persons where the name given in the GND authority file differs from our input:')
-    logger.info('---')
-    for (a, b) in AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON:
-        logger.info(f'{a},{b}')
-    logger.info('---')
-
-    localization_time_spans = dict()
-
-    logger.info('Aggregating localization points into timespans.')
-    for person_id in localization_points:
-        localization_time_spans[person_id] = \
-            LocalizationTimeSpan.aggregate_localization_points_to_timespan(localization_points[person_id])
-
-    for file_path in file_paths:
-        logger.info(f'Parsing letter data for input file {file_path}.')
-        parser = etree.XMLParser()
-        tree = etree.parse(file_path, parser)
-
-        items = tree.xpath(
-            f'//{DF}:c[@level="item"]',
-            namespaces=NS
-        )
-
-        for item in items:
-            result.append(_process_ead_item(item, localization_time_spans))
-
-    return result"""
 
 
 if __name__ == '__main__':
@@ -344,5 +160,4 @@ if __name__ == '__main__':
         logger.info('1) The EAD file containing metadata.')
         sys.exit()
 
-    # read_file(sys.argv[1])
     process_ead_file(sys.argv[1])

@@ -1,7 +1,8 @@
 import logging
-import re
 
 from data_structures import *
+from typing import Tuple
+
 
 logging.basicConfig(format='%(asctime)s %(message)s')
 
@@ -9,37 +10,6 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 DATE_PATTERN = re.compile('\d{4}-\d{2}-\d{2}')
-
-
-def _create_localization_points(data_rows):
-    localization_points = dict()
-    for line_values in data_rows:
-
-        date = _extract_date(line_values)
-
-        authors = _extract_authors(line_values, [])
-        author_place = _extract_author_place(line_values)
-
-        recipients = _extract_recipients(line_values, [])
-        recipient_place = _extract_recipient_place(line_values)
-
-        if author_place is not None:
-            for author in authors:
-                new_point = LocalizationPoint(author_place, date)
-                if author.uuid not in localization_points:
-                    localization_points[author.uuid] = [new_point]
-                else:
-                    localization_points[author.uuid] += [new_point]
-
-        if recipient_place is not None:
-            for recipient in recipients:
-                new_point = LocalizationPoint(recipient_place, date)
-                if recipient.uuid not in localization_points:
-                    localization_points[recipient.uuid] = [new_point]
-                else:
-                    localization_points[recipient.uuid] += [new_point]
-
-    return localization_points
 
 
 def _extract_date(line_values):
@@ -50,63 +20,67 @@ def _extract_date(line_values):
         return ''
 
 
-def _extract_authors(line_values, localizations):
-    indices = [(0, 1), (2, 3)]
-    temp = [PersonData(line_values[i].rstrip(','), line_values[j], []) for (i, j) in indices if line_values[i] != '']
-    results = []
+def _extract_persons(line: List[str], index_tuple_list: List[Tuple[int, int]]) -> List[Person]:
+    results: List[Person] = []
 
-    for person in temp:
-        if person.uuid in localizations:
-            person.localizations = localizations[person.uuid]
-        results.append(person)
+    for (i, j) in index_tuple_list:
+        if line[i] != '':
+            name = line[i].rstrip(',')
+            name_presumed = False
+            gnd_id = line[j]
 
-    return results
-
-
-def _extract_recipients(line_values, localizations):
-    indices = [(9, 10), (11, 12), (13, 14)]
-    temp = [PersonData(line_values[i].rstrip(','), line_values[j], []) for (i, j) in indices if line_values[i] != '']
-    results = []
-
-    for person in temp:
-        if person.uuid in localizations:
-            person.localizations = localizations[person.uuid]
-        results.append(person)
+            results.append(Person(name, name_presumed, gnd_id))
 
     return results
 
 
-def _extract_author_place(line_values):
-    if line_values[5] != '' or line_values[6] != '':
-        return Place(line_values[5].rstrip('.'), line_values[6])
-    else:
-        return None
+def _extract_place(line: List[str], index_tuple: Tuple[int, int]) -> Place:
+    label = ''
+    gnd_id = '-1'
+
+    if line[index_tuple[0]] != '':
+        label = line[index_tuple[0]].rstrip('.')
+
+    if line[index_tuple[1]] != '':
+        gnd_id=line[index_tuple[1]]
+
+    return Place(label=label, gnd_id=gnd_id)
 
 
-def _extract_recipient_place(line_values):
-    if line_values[15] != '' or line_values[16]:
-        return Place(line_values[15].rstrip('.'), line_values[16])
-    else:
-        return None
+def _extract_letter_data(
+        index: int,
+        line:  List[str],
+        authors: List[Person],
+        recipients: List[Person],
+        origin_place: Place,
+        reception_place: Place
+) -> Letter:
+
+    return Letter(index, authors, recipients, date=line[7], title=line[4], summary=line[17],
+                  quantity_description=line[8], quantity_page_count=Letter.parse_page_count(line[8]),
+                  place_of_origin=origin_place, place_of_reception=reception_place)
 
 
-def _extract_letter_data(index, line_values, localizations):
+def _process_tsv_data(lines:  List[List[str]]) -> List[Letter]:
+    letter_list: List[Letter] = []
 
-    authors = _extract_authors(line_values, localizations)
-    recipients = _extract_recipients(line_values, localizations)
+    for idx, line in enumerate(lines):
+        authors: List[Person] = _extract_persons(line, index_tuple_list=[(0, 1), (2, 3)])
+        recipients: List[Person] = _extract_persons(line, index_tuple_list=[(9, 10), (11, 12), (13, 14)])
+        author_place: Place = _extract_place(line, index_tuple=(5, 6))
+        recipient_place: Place = _extract_place(line, index_tuple=(15, 16))
+        letter = _extract_letter_data(idx, line, authors, recipients, author_place, recipient_place)
+        letter_list.append(letter)
 
-    result = LetterData(index, authors, recipients, date=line_values[7], title=line_values[4], summary=line_values[17],
-                        quantity_description=line_values[8],
-                        quantity_page_count=LetterData.parse_page_count(line_values[8]))
-
-    return result
+    return letter_list
 
 
-def read_data(tsv_path, ignore_first_line):
-    result = []
+def read_data(tsv_path: str, ignore_first_line: bool) -> List[Letter]:
+
     logger.info(f'Parsing input file {tsv_path}.')
+
     with open(tsv_path, 'r') as input_file:
-        lines = []
+        lines: List[List[str]] = []
         for line in input_file:
             if ignore_first_line:
                 ignore_first_line = False
@@ -115,18 +89,10 @@ def read_data(tsv_path, ignore_first_line):
             line_values = line.split('\t')
             lines.append(line_values)
 
-        logger.info('Aggregating localization timespans...')
-        localization_points = _create_localization_points(lines)
-        localization_timespans = dict()
-        for person_id in localization_points:
-            localization_timespans[person_id] = \
-                LocalizationTimeSpan.aggregate_localization_points_to_timespan(localization_points[person_id])
+        logger.info('Processing tsv data...')
+        result = _process_tsv_data(lines)
+        logger.info('Processing done.')
 
-        logger.info('Parsing letter data...')
-        for idx, line in enumerate(lines):
-            letter_data = _extract_letter_data(idx, line, localization_timespans)
-            result.append(letter_data)
-
-    logger.info('Done.')
+    logger.info('Parsing done.')
 
     return result

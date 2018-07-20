@@ -191,20 +191,22 @@ def write_data(data, url, port, username, password):
     logger.info('Done.')"""
 
 
-def _import_place_list(session, data: List[LetterData]):
+def _import_place_list(session, data: List[Letter]):
     logger.info('Importing place nodes.')
     places = dict()
 
     for letter in data:
-        if letter.place_of_origin.label not in places:
-            places[letter.place_of_origin.label] = letter.place_of_origin
-        elif places[letter.place_of_origin.label].gnd_id == '-1' and letter.place_of_origin.gnd_id != '-1':
-            places[letter.place_of_origin.label] = letter.place_of_origin
+        if letter.place_of_origin is not None and letter.place_of_origin.label is not None:
+            if letter.place_of_origin.label not in places:
+                places[letter.place_of_origin.label] = letter.place_of_origin
+            elif places[letter.place_of_origin.label].gnd_id == '-1' and letter.place_of_origin.gnd_id != '-1':
+                places[letter.place_of_origin.label] = letter.place_of_origin
 
-        if letter.place_of_reception.label not in places:
-            places[letter.place_of_reception.label] = letter.place_of_reception
-        elif places[letter.place_of_reception.label].gnd_id == '-1' and letter.place_of_reception.gnd_id != '-1':
-            places[letter.place_of_reception.label] = letter.place_of_reception
+        if letter.place_of_reception is not None and letter.place_of_reception.label is not None:
+            if letter.place_of_reception.label not in places:
+                places[letter.place_of_reception.label] = letter.place_of_reception
+            elif places[letter.place_of_reception.label].gnd_id == '-1' and letter.place_of_reception.gnd_id != '-1':
+                places[letter.place_of_reception.label] = letter.place_of_reception
 
     parameters = dict({'place_list': []})
     for key in places:
@@ -221,9 +223,9 @@ def _import_place_list(session, data: List[LetterData]):
         tx.run(statement, parameters)
 
 
-def _import_person_list(session, data: List[LetterData]):
+def _import_person_list(session, data: List[Letter]):
     logger.info('Importing person nodes.')
-    persons: Set[PersonData] = set()
+    persons: Set[Person] = set()
 
     for letter in data:
         for person in letter.authors:
@@ -254,7 +256,7 @@ def _import_person_list(session, data: List[LetterData]):
         tx.run(statement, parameters)
 
 
-def _import_letter_list(session, data: List[LetterData]):
+def _import_letter_list(session, data: List[Letter]):
     logger.info('Importing letter nodes.')
 
     parameters = {
@@ -306,6 +308,10 @@ def _import_letter_list(session, data: List[LetterData]):
 
 
 def import_data(data, url, port, username, password):
+    logger.info('-----')
+    logger.info('Starting import ...')
+    logger.info('-----')
+
     driver = GraphDatabase.driver('bolt://%s:%i ' % (url, port), auth=(username, password))
 
     with driver.session() as session:
@@ -318,4 +324,6 @@ def import_data(data, url, port, username, password):
         _import_person_list(session, data)
         _import_letter_list(session, data)
 
-    logger.info('Done.')
+    logger.info('=====')
+    logger.info('Import done.')
+    logger.info('=====')
