@@ -10,7 +10,7 @@ PAGE_COUNT_PATTERN = re.compile('.*(\d+)\s*Seiten.*')
 class Place:
 
     def __init__(self, label: str, gnd_id: str, lat: str = None, lng: str = None):
-        self.uuid = str(uuid.uuid4())
+        self.uuid = uuid.uuid4()
         self.label = label
         self.gnd_id = gnd_id
         #self.gaz_id = gaz_id
@@ -18,24 +18,23 @@ class Place:
         self.lng = lng
 
     def __hash__(self):
-        return hash((self.label, self.gnd_id, self.id, self.lat, self.lng))
+        return hash((self.uuid, ))
 
     def __eq__(self, other):
         if not isinstance(other, type(self)):
             return NotImplemented
-        return self.label == other.label and self.gnd_id == other.gnd_id and self.id == other.id \
-               and self.lat == other.lat and self.lng == other.lng
+        return self.uuid == other.uuid
 
     def __str__(self):
         return str(dict(
-            {'uuid': self.uuid, 'label': self.label, 'gnd_id': self.gnd_id, 'lat': self.lat, 'lng': self.lng}
+            {'uuid': str(self.uuid), 'label': self.label, 'gnd_id': self.gnd_id, 'lat': self.lat, 'lng': self.lng}
         ))
 
 
 class Person:
 
     def __init__(self, name: str, name_presumed: bool, gnd_id: str, gnd_first_name: str = '', gnd_last_name: str = ''):
-        self.uuid = str(uuid.uuid4())
+        self.uuid = uuid.uuid4()
         self.name = name
         self.name_presumed = name_presumed
         self.gnd_id = gnd_id
@@ -52,7 +51,7 @@ class Person:
 
     def __str__(self):
         return str(dict(
-            {'uuid': self.uuid, 'name': self.name, 'name_presumed': self.name_presumed, 'gnd_id': self.gnd_id,
+            {'uuid': str(self.uuid), 'name': self.name, 'name_presumed': self.name_presumed, 'gnd_id': self.gnd_id,
              'gnd_first_name': self.gnd_first_name, 'gnd_last_name': self.gnd_last_name}
         ))
 

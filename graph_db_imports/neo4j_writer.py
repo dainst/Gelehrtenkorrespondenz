@@ -15,22 +15,21 @@ def _import_place_list(session, data: List[Letter]):
     places: Dict[str, Place] = dict()
 
     for letter in data:
-        if letter.place_of_origin.label is not None:
-            if letter.place_of_origin.label not in places:
-                places[letter.place_of_origin.label] = letter.place_of_origin
-            elif places[letter.place_of_origin.label].gnd_id == '-1' and letter.place_of_origin.gnd_id != '-1':
-                places[letter.place_of_origin.label] = letter.place_of_origin
+        if letter.place_of_origin.label not in places:
+            places[letter.place_of_origin.label] = letter.place_of_origin
+        elif places[letter.place_of_origin.label].gnd_id == '-1' and letter.place_of_origin.gnd_id != '-1':
+            places[letter.place_of_origin.label] = letter.place_of_origin
 
-        if letter.place_of_reception.label is not None:
-            if letter.place_of_reception.label not in places:
-                places[letter.place_of_reception.label] = letter.place_of_reception
-            elif places[letter.place_of_reception.label].gnd_id == '-1' and letter.place_of_reception.gnd_id != '-1':
-                places[letter.place_of_reception.label] = letter.place_of_reception
+        if letter.place_of_reception.label not in places:
+            places[letter.place_of_reception.label] = letter.place_of_reception
+        elif places[letter.place_of_reception.label].gnd_id == '-1' and letter.place_of_reception.gnd_id != '-1':
+            places[letter.place_of_reception.label] = letter.place_of_reception
 
     parameters = dict({'place_list': []})
     for key in places:
         parameters['place_list'].append(
             {
+                'uuid': str(places[key].uuid),
                 'label': places[key].label,
                 'gnd_id': places[key].gnd_id,
                 'lat': places[key].lat,
@@ -64,7 +63,7 @@ def _import_person_list(session, data: List[Letter]):
 
     for person in persons:
         data = {
-            'uuid': person.uuid,
+            'uuid': str(person.uuid),
             'label': person.name,
             'gnd_id': person.gnd_id,
             'gnd_first_name': person.gnd_first_name,
@@ -111,6 +110,7 @@ def _import_letter_list(session, data: List[Letter]):
         for author in letter.authors:
             data['authors'].append(
                 {
+                    'uuid': str(author.uuid),
                     'name': author.name,
                     'gnd_id': author.gnd_id,
                     'name_presumed': author.name_presumed
@@ -149,7 +149,7 @@ def _import_letter_list(session, data: List[Letter]):
                         gnd_id: person_data.gnd_id
                         }
               )
-        CREATE (person) -[:IS_AUTHOR {presumed: person_data.name_presumed} ]-> (letter)
+        CREATE (person) -[:IS_AUTHOR { presumed: person_data.name_presumed }]-> (letter)
         WITH letter, data
         UNWIND data.recipients as person_data
         MATCH (person:Person {

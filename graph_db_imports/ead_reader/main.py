@@ -79,11 +79,6 @@ def _extract_letter(item, authors, recipients, place_of_origin, place_of_recepti
                   place_of_origin=place_of_origin, place_of_reception=place_of_reception)
 
 
-def enhance_data(letter_list: List[Letter]) -> List[Letter]:
-
-    return letter_list
-
-
 def process_ead_files(file_paths) -> List[Letter]:
     result: List[Letter] = []
 
@@ -98,14 +93,10 @@ def process_ead_file(ead_file) -> List[Letter]:
     result: List[Letter] = []
 
     logger.info(f'Parsing input file {ead_file} ...')
+
     parser = etree.XMLParser()
-
     tree = etree.parse(ead_file, parser)
-
-    items = tree.xpath(
-        f'//{DF}:c[@level="item"]',
-        namespaces=NS
-    )
+    items = tree.xpath(f'//{DF}:c[@level="item"]', namespaces=NS)
 
     places.UNHANDLED_PLACE_AUTHORITY_SOURCES = []
     places.AUTH_NAME_DIFFERENT_FROM_VALUE = []
