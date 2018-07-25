@@ -49,63 +49,74 @@ def _fetch_gnd_location_coordinates(gnd_id):
 
 def extract_place_of_origin(item):
     # TODO: Extract coordinates from other authorities
-    place_of_origin_node = item.xpath(
-        f'./{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname[@source="GND"]/.',
+    xml_element_geoname = item.xpath(
+        f'./{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname/.',
         namespaces=NS
     )
 
-    unknown_place_source_node = item.xpath(
-        f'./{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname[@source!="GND"]/.',
-        namespaces=NS
-    )
+    if len(xml_element_geoname) > 0:
+        place_name = xml_element_geoname[0].xpath('./text()')[0]
+        place_auth_source = xml_element_geoname[0].xpath('./@source')[0]
+        place_auth_id = xml_element_geoname[0].xpath('./@authfilenumber')[0]
+        place_auth_name = xml_element_geoname[0].xpath('./@normal')[0]
 
-    try:
-        unknown_place_source = unknown_place_source_node[0].xpath('./@source')[0]
-        unknown_place_source_label = unknown_place_source_node[0].xpath('./@normal')[0]
-        unknown_place_source_id = unknown_place_source_node[0].xpath('./@authfilenumber')[0]
+        if '[vermutlich]' in place_name.lower():
+            place_name_presumed = True
+        else:
+            place_name_presumed = False
 
-        log = (unknown_place_source, unknown_place_source_label, unknown_place_source_id)
+        if place_name != place_auth_name:
+            if (place_auth_name, place_name) not in AUTH_NAME_DIFFERENT_FROM_VALUE:
+                AUTH_NAME_DIFFERENT_FROM_VALUE.append((place_auth_name, place_name))
 
-        if log not in UNHANDLED_PLACE_AUTHORITY_SOURCES:
-            UNHANDLED_PLACE_AUTHORITY_SOURCES.append(log)
-    except IndexError:
-        pass
+        if place_auth_source != 'GND':
+            coordinates = (None, None)
 
-    if len(place_of_origin_node) == 1:
-        authors_place_label = place_of_origin_node[0].xpath('./@normal')[0]
-        authors_place_text_content = place_of_origin_node[0].xpath('./text()')[0]
+            try:
+                log = (place_auth_source, place_auth_name, place_name, place_auth_id)
 
-        if authors_place_label != authors_place_text_content:
+                if log not in UNHANDLED_PLACE_AUTHORITY_SOURCES:
+                    UNHANDLED_PLACE_AUTHORITY_SOURCES.append(log)
+            except IndexError:
+                pass
+        else:
+            try:
+                coordinates = PLACE_COLLECTION[place_auth_id]
+            except KeyError:
+                _fetch_gnd_location_coordinates(place_auth_id)
+                coordinates = PLACE_COLLECTION[place_auth_id]
 
-            if (authors_place_label, authors_place_text_content) not in AUTH_NAME_DIFFERENT_FROM_VALUE:
-                AUTH_NAME_DIFFERENT_FROM_VALUE.append((authors_place_label, authors_place_text_content))
-
-        authors_place_gnd_id = place_of_origin_node[0].xpath('./@authfilenumber')[0]
-    else:
-        authors_place_label = ''
-        authors_place_gnd_id = "-1"
-
-    try:
-        coordinates = PLACE_COLLECTION[authors_place_gnd_id]
-    except KeyError:
-        _fetch_gnd_location_coordinates(authors_place_gnd_id)
-        coordinates = PLACE_COLLECTION[authors_place_gnd_id]
-
-    return Place(label=authors_place_label, gnd_id=authors_place_gnd_id, lat=coordinates[0],
-                 lng=coordinates[1])
+        return Place(
+            name=place_name,
+            name_presumed=place_name_presumed,
+            auth_source=place_auth_source,
+            auth_id=place_auth_id,
+            auth_name=place_auth_name,
+            auth_lat=coordinates[0],
+            auth_lng=coordinates[1]
+        )
 
 
 # TODO: Parse recipient places.py less naively
 def extract_place_of_reception(item):
     recipients_place_node = item.xpath(f'./{DF}:did/{DF}:note[@label="Bemerkung"]/{DF}:p', namespaces=NS)
+    place_name = None
 
-    if len(recipients_place_node) == 1:
+    if len(recipients_place_node) > 0:
         match = RECIPIENT_PLACE_PATTERN.match(recipients_place_node[0].text)
         if match is not None:
-            recipients_place_label = match.group(1)
-        else:
-            recipients_place_label = ''
-    else:
-        recipients_place_label = ''
+            place_name = match.group(1)
 
-    return Place(label=recipients_place_label, gnd_id=str(-1))
+    if place_name is not None:
+        if '[vermutlich]' in place_name.lower():
+            place_name_presumed = True
+        else:
+            place_name_presumed = False
+
+        return Place(
+            name=place_name,
+            name_presumed=place_name_presumed,
+            auth_source="",
+            auth_id="",
+            auth_name="",
+        )

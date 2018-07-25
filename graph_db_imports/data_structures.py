@@ -1,5 +1,4 @@
 import re
-import uuid
 
 from typing import List
 
@@ -9,32 +8,52 @@ PAGE_COUNT_PATTERN = re.compile('.*(\d+)\s*Seiten.*')
 
 class Place:
 
-    def __init__(self, label: str, gnd_id: str, lat: str = None, lng: str = None):
-        self.uuid = uuid.uuid4()
-        self.label = label
-        self.gnd_id = gnd_id
-        #self.gaz_id = gaz_id
-        self.lat = lat
-        self.lng = lng
+    def __init__(self,
+                 name: str,
+                 name_presumed: bool,
+                 auth_source: str,
+                 auth_id: str,
+                 auth_name: str,
+                 auth_lat: str = None,
+                 auth_lng: str = None):
+
+        self.name = name
+        self.name_presumed = name_presumed
+        self.auth_source = auth_source
+        self.auth_id = auth_id
+        self.auth_name = auth_name
+        self.auth_lat = auth_lat
+        self.auth_lng = auth_lng
 
     def __hash__(self):
-        return hash((self.uuid, ))
+        return hash((self.name, self.auth_source, self.auth_id))
 
     def __eq__(self, other):
         if not isinstance(other, type(self)):
             return NotImplemented
-        return self.uuid == other.uuid
+        return self.name == other.name and self.auth_source == other.auth_source and self.auth_id == other.auth_id
 
     def __str__(self):
-        return str(dict(
-            {'uuid': str(self.uuid), 'label': self.label, 'gnd_id': self.gnd_id, 'lat': self.lat, 'lng': self.lng}
-        ))
+        return str(dict({
+            'name': self.name,
+            'name_presumed': self.name_presumed,
+            'auth_source': self.auth_source,
+            'auth_id': self.auth_id,
+            'auth_name': self.auth_name,
+            'auth_lat': self.auth_lat,
+            'auth_lng': self.auth_lng
+        }))
 
 
 class Person:
 
-    def __init__(self, name: str, name_presumed: bool, gnd_id: str, gnd_first_name: str = '', gnd_last_name: str = ''):
-        self.uuid = uuid.uuid4()
+    def __init__(self,
+                 name: str,
+                 name_presumed: bool,
+                 gnd_id: str,
+                 gnd_first_name: str = '',
+                 gnd_last_name: str = ''):
+
         self.name = name
         self.name_presumed = name_presumed
         self.gnd_id = gnd_id
@@ -50,17 +69,29 @@ class Person:
         return self.name == other.name and self.gnd_id == other.gnd_id
 
     def __str__(self):
-        return str(dict(
-            {'uuid': str(self.uuid), 'name': self.name, 'name_presumed': self.name_presumed, 'gnd_id': self.gnd_id,
-             'gnd_first_name': self.gnd_first_name, 'gnd_last_name': self.gnd_last_name}
-        ))
+        return str(dict({
+            'name': self.name,
+            'name_presumed': self.name_presumed,
+            'gnd_id': self.gnd_id,
+            'gnd_first_name': self.gnd_first_name,
+            'gnd_last_name': self.gnd_last_name
+        }))
 
 
 class Letter:
 
-    def __init__(self, letter_id: str, authors: List[Person], recipients: List[Person], date: str = '',
-                 title: str = '', summary: str = '', quantity_description: str = '', quantity_page_count: int = None,
-                 place_of_origin: Place = None, place_of_reception: Place = None):
+    def __init__(self,
+                 letter_id: str,
+                 authors: List[Person],
+                 recipients: List[Person],
+                 date: str = '',
+                 title: str = '',
+                 summary: str = '',
+                 quantity_description: str = '',
+                 quantity_page_count: int = None,
+                 place_of_origin: Place = None,
+                 place_of_reception: Place = None):
+
         self.id = letter_id
         self.authors: List[Person] = authors
         self.recipients: List[Person] = recipients
@@ -73,12 +104,18 @@ class Letter:
         self.place_of_reception: Place = place_of_reception
 
     def __str__(self):
-        return str(dict(
-            {'authors': self.authors, 'recipients': self.recipients, 'date': self.date, 'title': self.title,
-             'summary': self.summary, 'id': self.id, 'quantity_description': self.quantity_description,
-             'quantity_page_count': self.quantity_page_count, 'place_of_origin': self.place_of_origin,
-             'place_of_reception': self.place_of_reception}
-        ))
+        return str(dict({
+            'authors': self.authors,
+            'recipients': self.recipients,
+            'date': self.date,
+            'title': self.title,
+            'summary': self.summary,
+            'id': self.id,
+            'quantity_description': self.quantity_description,
+            'quantity_page_count': self.quantity_page_count,
+            'place_of_origin': self.place_of_origin,
+            'place_of_reception': self.place_of_reception
+        }))
 
     @staticmethod
     def parse_page_count(value):

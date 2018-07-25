@@ -138,7 +138,7 @@ def process_ead_file(ead_file) -> List[Letter]:
 
     logger.info('=====')
     logger.info('Parsing done.')
-    logger.info('=====')
+    logger.info('=====\n')
 
     return result
 
