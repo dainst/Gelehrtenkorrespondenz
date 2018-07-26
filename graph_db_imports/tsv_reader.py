@@ -35,16 +35,21 @@ def _extract_persons(line: List[str], index_tuple_list: List[Tuple[int, int]]) -
 
 
 def _extract_place(line: List[str], index_tuple: Tuple[int, int]) -> Place:
-    label = ''
-    gnd_id = '-1'
+    name = ''
+    name_presumed = False
+    auth_source = ''
+    auth_id = ''
 
     if line[index_tuple[0]] != '':
-        label = line[index_tuple[0]].rstrip('.')
+        name = line[index_tuple[0]].rstrip('.')
+        if '[vermutlich]' in name.lower():
+            name_presumed = True
 
     if line[index_tuple[1]] != '':
-        gnd_id=line[index_tuple[1]]
+        auth_source = 'GND'
+        auth_id = line[index_tuple[1]]
 
-    return Place(label=label, gnd_id=gnd_id)
+    return Place(name=name, name_presumed=name_presumed, auth_source=auth_source, auth_id=auth_id, auth_name='')
 
 
 def _extract_letter_data(
@@ -56,9 +61,16 @@ def _extract_letter_data(
         reception_place: Place
 ) -> Letter:
 
-    return Letter(index, authors, recipients, date=line[7], title=line[4], summary=line[17],
-                  quantity_description=line[8], quantity_page_count=Letter.parse_page_count(line[8]),
-                  place_of_origin=origin_place, place_of_reception=reception_place)
+    return Letter(str(index),
+                  authors,
+                  recipients,
+                  date=line[7],
+                  title=line[4],
+                  summary=line[17],
+                  quantity_description=line[8],
+                  quantity_page_count=Letter.parse_page_count(line[8]),
+                  place_of_origin=origin_place,
+                  place_of_reception=reception_place)
 
 
 def _process_tsv_data(lines:  List[List[str]]) -> List[Letter]:
