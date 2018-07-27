@@ -1,9 +1,4 @@
-import re
-
 from typing import List
-
-
-PAGE_COUNT_PATTERN = re.compile('.*(\d+)\s*Seiten.*')
 
 
 class Place:
@@ -81,46 +76,44 @@ class Person:
 class Letter:
 
     def __init__(self,
-                 letter_id: str,
-                 authors: List[Person],
-                 recipients: List[Person],
-                 date: str = '',
-                 title: str = '',
-                 summary: str = '',
-                 quantity_description: str = '',
-                 quantity_page_count: int = None,
-                 place_of_origin: Place = None,
-                 place_of_reception: Place = None):
+                 kalliope_id: str,
+                 title: str,
+                 language_codes: List[str],
+                 origin_date_from: str = '',
+                 origin_date_till: str = '',
+                 origin_date_presumed: bool = False,
+                 extent: str = '',
+                 authors: List[Person] = None,
+                 recipients: List[Person] = None,
+                 origin_place: Place = None,
+                 reception_place: Place = None,
+                 summary_paragraphs: List[str] = None):
 
-        self.id = letter_id
+        self.kalliope_id = kalliope_id
+        self.title = title
+        self.language_codes: List[str] = language_codes
+        self.origin_date_from = origin_date_from
+        self.origin_date_till = origin_date_till
+        self.origin_date_presumed = origin_date_presumed
+        self.extent = extent
         self.authors: List[Person] = authors
         self.recipients: List[Person] = recipients
-        self.date = date
-        self.title = title
-        self.summary = summary
-        self.quantity_description = quantity_description
-        self.quantity_page_count = quantity_page_count
-        self.place_of_origin: Place = place_of_origin
-        self.place_of_reception: Place = place_of_reception
+        self.origin_place: Place = origin_place
+        self.reception_place: Place = reception_place
+        self.summary_paragraphs: List[str] = summary_paragraphs
 
     def __str__(self):
         return str(dict({
+            'kalliope_id': self.kalliope_id,
+            'title': self.title,
+            'language_code': self.language_codes,
+            'origin_date_from': self.origin_date_from,
+            'origin_date_till': self.origin_date_till,
+            'origin_date_presumed': self.origin_date_presumed,
+            'extent': self.extent,
             'authors': self.authors,
             'recipients': self.recipients,
-            'date': self.date,
-            'title': self.title,
-            'summary': self.summary,
-            'id': self.id,
-            'quantity_description': self.quantity_description,
-            'quantity_page_count': self.quantity_page_count,
-            'place_of_origin': self.place_of_origin,
-            'place_of_reception': self.place_of_reception
+            'origin_place': self.origin_place,
+            'reception_place': self.reception_place,
+            'summary': self.summary_paragraphs
         }))
-
-    @staticmethod
-    def parse_page_count(value):
-        match = PAGE_COUNT_PATTERN.match(value)
-        if match is not None:
-            return match.group(1)
-        else:
-            return -1
