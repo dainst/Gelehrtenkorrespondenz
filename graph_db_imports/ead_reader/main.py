@@ -5,6 +5,7 @@ import ead_reader.places as places
 from config import DF, NS
 from data_structures import *
 from lxml import etree
+from typing import Tuple
 
 logging.basicConfig(format='%(asctime)s %(message)s')
 
@@ -47,6 +48,29 @@ def _extract_persons(person_nodes) -> List[Person]:
     return persons
 
 
+def _extract_letter_origin_dates(origin_date) -> Tuple[str, str, bool]:
+    origin_date_from: str = ''
+    origin_date_till: str = ''
+    origin_date_presumed: bool = False
+
+    if len(origin_date) != 8 and len(origin_date) != 17:
+        origin_date_presumed = True
+
+    origin_date_list = origin_date.split('/')
+    if len(origin_date_list) > 2:
+        exit(-1)
+    elif len(origin_date_list) == 2:
+        origin_date_from = origin_date_list[0]
+        origin_date_till = origin_date_list[1]
+    elif len(origin_date_list) == 1:
+        origin_date_from = origin_date_list[0]
+        origin_date_till = origin_date_list[0]
+
+    origin_dates: Tuple[str, str, bool] = (origin_date_from, origin_date_till, origin_date_presumed)
+
+    return origin_dates
+
+
 def _extract_letter(item, authors, recipients, place_of_origin, place_of_reception) -> Letter:
     # required elements
     xml_element_id = item.xpath('./@id')
@@ -75,9 +99,10 @@ def _extract_letter(item, authors, recipients, place_of_origin, place_of_recepti
     origin_date_presumed = False
     if len(xml_element_unitdate) == 1:
         origin_date = xml_element_unitdate[0]
-        origin_date_from = origin_date
-        origin_date_till = origin_date
-        origin_date_presumed = False
+        origin_dates: Tuple[str, str, bool] = _extract_letter_origin_dates(origin_date)
+        origin_date_from = origin_dates[0]
+        origin_date_till = origin_dates[1]
+        origin_date_presumed = origin_dates[2]
 
     extent = ''
     if len(xml_element_extend) == 1:
