@@ -48,35 +48,58 @@ def _extract_persons(person_nodes) -> List[Person]:
 
 
 def _extract_letter(item, authors, recipients, place_of_origin, place_of_reception) -> Letter:
-    letter_id = item.xpath(f'./@id')
-    letter_date = item.xpath(f'./{DF}:did/{DF}:unitdate[@label="Entstehungsdatum"]/@normal', namespaces=NS)
+    # required elements
+    xml_element_id = item.xpath('./@id')
+    xml_element_unittitle = item.xpath(f'./{DF}:did/{DF}:unittitle', namespaces=NS)
+    xml_elements_langcode = item.xpath(f'./{DF}:did/{DF}:langmaterial/{DF}:language/@langcode', namespaces=NS)
 
-    if len(letter_date) == 1:
-        letter_date = letter_date[0]
-    else:
-        letter_date = ''
+    # optional elements
+    xml_element_unitdate = item.xpath(f'./{DF}:did/{DF}:unitdate[@label="Entstehungsdatum"]/@normal', namespaces=NS)
+    xml_element_extend = \
+        item.xpath(f'./{DF}:did/{DF}:physdesc[@label="Angaben zum Material"]/{DF}:extend[@label="Umfang"]',
+                   namespaces=NS)
+    xml_elements_scopecontent =\
+        item.xpath(f'./{DF}:scopecontent/{DF}:head[text()="Inhaltsangabe"]/following-sibling::{DF}:p', namespaces=NS)
 
-    summary = item.xpath(f'./{DF}:scopecontent/{DF}:head[text()="Inhaltsangabe"]/following-sibling::{DF}:p',
-                         namespaces=NS)
+    # required letter attributes
+    kalliope_id = str(xml_element_id[0])
+    title = xml_element_unittitle[0].text
 
-    if len(summary) == 1:
-        summary = summary[0].text
-    else:
-        summary = ''
+    language_code_list: List[str] = []
+    for xml_element_langcode in xml_elements_langcode:
+        language_code_list.append(xml_element_langcode)
 
-    quantity = item.xpath(f'./{DF}:did/{DF}:physdesc[@label="Angaben zum Material"]/{DF}:extend[@label="Umfang"]',
-                          namespaces=NS)
+    # optional letter attributes
+    origin_date_from = ''
+    origin_date_till = ''
+    origin_date_presumed = False
+    if len(xml_element_unitdate) == 1:
+        origin_date = xml_element_unitdate[0]
+        origin_date_from = origin_date
+        origin_date_till = origin_date
+        origin_date_presumed = False
 
-    if len(quantity) == 1:
-        quantity = quantity[0].text
-    else:
-        quantity = ''
+    extent = ''
+    if len(xml_element_extend) == 1:
+        extent = xml_element_extend[0].text
 
-    title = item.xpath(f'./{DF}:did/{DF}:unittitle', namespaces=NS)[0].text
+    summary_paragraph_list = []
+    for p_tag in xml_elements_scopecontent:
+        summary_paragraph_list.append(p_tag.text)
 
-    return Letter(letter_id, authors, recipients, date=letter_date, summary=summary, title=title,
-                  quantity_description=quantity, quantity_page_count=Letter.parse_page_count(quantity),
-                  place_of_origin=place_of_origin, place_of_reception=place_of_reception)
+    return Letter(
+        kalliope_id=kalliope_id,
+        title=title,
+        language_codes=language_code_list,
+        origin_date_from=origin_date_from,
+        origin_date_till=origin_date_till,
+        origin_date_presumed=origin_date_presumed,
+        extent=extent,
+        authors=authors,
+        recipients=recipients,
+        origin_place=place_of_origin,
+        reception_place=place_of_reception,
+        summary_paragraphs=summary_paragraph_list)
 
 
 def process_ead_files(file_paths) -> List[Letter]:

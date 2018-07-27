@@ -1,4 +1,5 @@
 import logging
+import re
 
 from data_structures import *
 from typing import Tuple
@@ -61,16 +62,16 @@ def _extract_letter_data(
         reception_place: Place
 ) -> Letter:
 
-    return Letter(str(index),
-                  authors,
-                  recipients,
-                  date=line[7],
+    return Letter(kalliope_id=str(index),
                   title=line[4],
-                  summary=line[17],
-                  quantity_description=line[8],
-                  quantity_page_count=Letter.parse_page_count(line[8]),
-                  place_of_origin=origin_place,
-                  place_of_reception=reception_place)
+                  origin_date_from=line[7],
+                  origin_date_till=line[7],
+                  extent=line[8],
+                  authors=authors,
+                  recipients=recipients,
+                  origin_place=origin_place,
+                  reception_place=reception_place,
+                  summary_paragraphs=line[17])
 
 
 def _process_tsv_data(lines:  List[List[str]]) -> List[Letter]:
