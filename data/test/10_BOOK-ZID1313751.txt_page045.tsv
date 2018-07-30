@@ -1,0 +1,65 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=- 1 Helbig/Brunn Abbati 8.12.74 Albani 24.7.63 Aria, Conte 2.10.84 Bagnolesi 22.8.63 22.6.74 Barone 6.7.63 Barracco 2.10.79 2.10.84 11.10.85 2.12.79 2.4.85 11.11.85 29.2.81 27.4.85 22.12.85 18.1.84 22.6.85 22.3.86 28.2.84 7.10.85 Bartoccini 22.8.65 2.8.80 7.9.80 9.10.80 Benndorf, o.
+1-1	-	$(	-	_	O	O	
+1-2	1	CARD	1	_	O	O	
+1-3	Helbig/Brunn	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Abbati	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	8.12.74	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-6	Albani	NN	Albani	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-7	24.7.63	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Aria	NE	<unknown>	_	O	O	
+1-9	,	$,	,	_	O	O	
+1-10	Conte	NE	Conte	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-11	2.10.84	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-12	Bagnolesi	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-13	22.8.63	CARD	@card@	_	O	O	
+1-14	22.6.74	CARD	@card@	_	O	O	
+1-15	Barone	NN	Baron	_	O	O	
+1-16	6.7.63	CARD	@card@	_	O	O	
+1-17	Barracco	NN	<unknown>	_	O	O	
+1-18	2.10.79	CARD	@card@	_	O	O	
+1-19	2.10.84	CARD	@card@	_	O	O	
+1-20	11.10.85	CARD	@card@	_	O	O	
+1-21	2.12.79	CARD	@card@	_	O	O	
+1-22	2.4.85	CARD	@card@	_	O	O	
+1-23	11.11.85	CARD	@card@	_	O	O	
+1-24	29.2.81	CARD	@card@	_	O	O	
+1-25	27.4.85	CARD	@card@	_	O	O	
+1-26	22.12.85	CARD	@card@	_	O	O	
+1-27	18.1.84	CARD	@card@	_	O	O	
+1-28	22.6.85	CARD	@card@	_	O	O	
+1-29	22.3.86	CARD	@card@	_	O	O	
+1-30	28.2.84	CARD	@card@	_	O	O	
+1-31	7.10.85	CARD	@card@	_	O	O	
+1-32	Bartoccini	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-33	22.8.65	CARD	@card@	_	O	O	
+1-34	2.8.80	CARD	@card@	_	O	O	
+1-35	7.9.80	CARD	@card@	_	O	O	
+1-36	9.10.80	CARD	@card@	_	O	O	
+1-37	Benndorf	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-38	,	$,	,	_	O	O	
+1-39	o.	APPRART	oder	_	O	O	
+
+#id=2
+#text=7.4.74 29.1.81 ( Bergen 30.7.63 Berhardy 30.7.63 Binder 10.8.63 Bismarck 22.6.85 B lÜInm er 29.1.81 Borghese 22.6.85 Borghi 8.12.74
+2-1	7.4.74	CARD	@card@	_	O	O	
+2-2	29.1.81	CARD	@card@	_	O	O	
+2-3	(	$(	(	_	O	O	
+2-4	Bergen	NN	Berg|Bergen	_	O	O	
+2-5	30.7.63	CARD	@card@	_	O	O	
+2-6	Berhardy	NE	<unknown>	_	O	O	
+2-7	30.7.63	CARD	@card@	_	O	O	
+2-8	Binder	NN	Binder	_	O	O	
+2-9	10.8.63	CARD	@card@	_	O	O	
+2-10	Bismarck	NE	Bismarck	_	O	O	
+2-11	22.6.85	CARD	@card@	_	O	O	
+2-12	B	NN	B	_	O	O	
+2-13	lÜInm	VVFIN	<unknown>	_	O	O	
+2-14	er	PPER	er	_	O	O	
+2-15	29.1.81	CARD	@card@	_	O	O	
+2-16	Borghese	NN	<unknown>	_	O	O	
+2-17	22.6.85	CARD	@card@	_	O	O	
+2-18	Borghi	NN	<unknown>	_	O	O	
+2-19	8.12.74	CARD	@card@	_	O	O	
+

@@ -1,0 +1,225 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=12 Wolfgang He1big an Heinrich Brunn Rom, 7. April 1874 2 d/ un/die umliegenden Etruskerstädte untersuchen, Dann muß ich das britische Museum und den bouvre durcharbeiten.
+1-1	12	CARD	12	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	He1big	ADJD	<unknown>	_	O	O	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	2	CARD	2	_	O	O	
+1-14	d/	NN	<unknown>	_	O	O	
+1-15	un/die	ADJD	<unknown>	_	O	O	
+1-16	umliegenden	ADJA	umliegend	_	O	O	
+1-17	Etruskerstädte	NN	<unknown>	_	O	O	
+1-18	untersuchen	VVFIN	untersuchen	_	O	O	
+1-19	,	$,	,	_	O	O	
+1-20	Dann	ADV	dann	_	O	O	
+1-21	muß	VMFIN	müssen	_	O	O	
+1-22	ich	PPER	ich	_	O	O	
+1-23	das	ART	die	_	O	O	
+1-24	britische	ADJA	britisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-25	Museum	NN	Museum	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+1-26	und	KON	und	_	O	O	
+1-27	den	ART	die	_	O	O	
+1-28	bouvre	ADJA	<unknown>	_	O	O	
+1-29	durcharbeiten	VVINF	durcharbeiten	_	O	O	
+1-30	.	$.	.	_	O	O	
+
+#id=2
+#text=Kurz ich würde allerdings der Universitätsthätigkeit nur geringe Zeit widmen können.
+2-1	Kurz	ADJD	kurz	_	O	O	
+2-2	ich	PPER	ich	_	O	O	
+2-3	würde	VAFIN	werden	_	O	O	
+2-4	allerdings	ADV	allerdings	_	O	O	
+2-5	der	ART	die	_	O	O	
+2-6	Universitätsthätigkeit	NN	<unknown>	_	O	O	
+2-7	nur	ADV	nur	_	O	O	
+2-8	geringe	ADJA	gering	_	O	O	
+2-9	Zeit	NN	Zeit	_	O	O	
+2-10	widmen	VVINF	widmen	_	O	O	
+2-11	können	VMINF	können	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihren Collegen können Sie die Versicherung geben, daß ich niemals auf Gehalt aspiriren werde.
+3-1	Ihren	PPOSAT	ihr	_	O	O	
+3-2	Collegen	NN	<unknown>	_	O	O	
+3-3	können	VMFIN	können	_	O	O	
+3-4	Sie	PPER	Sie	_	O	O	
+3-5	die	ART	die	_	O	O	
+3-6	Versicherung	NN	Versicherung	_	O	O	
+3-7	geben	VVINF	geben	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	daß	KOUS	dass	_	O	O	
+3-10	ich	PPER	ich	_	O	O	
+3-11	niemals	ADV	niemals	_	O	O	
+3-12	auf	APPR	auf	_	O	O	
+3-13	Gehalt	NN	Gehalt	_	O	O	
+3-14	aspiriren	NN	<unknown>	_	O	O	
+3-15	werde	VAFIN	werden	_	O	O	
+3-16	.	$.	.	_	O	O	
+
+#id=4
+#text=Haben Sie die große Güte, mir mitzutheilen, ob Sie meinen Wunsch für realisirbar halten.
+4-1	Haben	VAFIN	haben	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	die	ART	die	_	O	O	
+4-4	große	ADJA	groß	_	O	O	
+4-5	Güte	NN	Güte	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	mir	PPER	ich	_	O	O	
+4-8	mitzutheilen	VVIZU	<unknown>	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	ob	KOUS	ob	_	O	O	
+4-11	Sie	PPER	Sie	_	O	O	
+4-12	meinen	PPOSAT	mein	_	O	O	
+4-13	Wunsch	NN	Wunsch	_	O	O	
+4-14	für	APPR	für	_	O	O	
+4-15	realisirbar	ADJD	<unknown>	_	O	O	
+4-16	halten	VVINF	halten	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=Sowie der Bescheid aus Berlin eingetroffen und meine gerechte Forderung zurückgewiesen ist, verlasse ich Rom und es wäre mir persönlich angenehm und zugleich pädagogisch für die Berliner, wenn nach dem Hieb, den sie mir versetzen, baldigst der Nachhieb nach patenter Schlägerweise erfolgt.
+5-1	Sowie	KON	sowie	_	O	O	
+5-2	der	ART	die	_	O	O	
+5-3	Bescheid	NN	Bescheid	_	O	O	
+5-4	aus	APPR	aus	_	O	O	
+5-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-6	eingetroffen	VVPP	eintreffen	_	O	O	
+5-7	und	KON	und	_	O	O	
+5-8	meine	PPOSAT	mein	_	O	O	
+5-9	gerechte	ADJA	gerecht	_	O	O	
+5-10	Forderung	NN	Forderung	_	O	O	
+5-11	zurückgewiesen	VVPP	zurückweisen	_	O	O	
+5-12	ist	VAFIN	sein	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	verlasse	VVFIN	verlassen	_	O	O	
+5-15	ich	PPER	ich	_	O	O	
+5-16	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-17	und	KON	und	_	O	O	
+5-18	es	PPER	es	_	O	O	
+5-19	wäre	VAFIN	sein	_	O	O	
+5-20	mir	PPER	ich	_	O	O	
+5-21	persönlich	ADJD	persönlich	_	O	O	
+5-22	angenehm	ADJD	angenehm	_	O	O	
+5-23	und	KON	und	_	O	O	
+5-24	zugleich	ADV	zugleich	_	O	O	
+5-25	pädagogisch	ADJD	pädagogisch	_	O	O	
+5-26	für	APPR	für	_	O	O	
+5-27	die	ART	die	_	O	O	
+5-28	Berliner	NN	Berliner	_	O	O	
+5-29	,	$,	,	_	O	O	
+5-30	wenn	KOUS	wenn	_	O	O	
+5-31	nach	APPR	nach	_	O	O	
+5-32	dem	ART	die	_	O	O	
+5-33	Hieb	NN	Hieb	_	O	O	
+5-34	,	$,	,	_	O	O	
+5-35	den	PRELS	die	_	O	O	
+5-36	sie	PPER	sie	_	O	O	
+5-37	mir	PRF	ich	_	O	O	
+5-38	versetzen	VVFIN	versetzen	_	O	O	
+5-39	,	$,	,	_	O	O	
+5-40	baldigst	ADJD	baldig	_	O	O	
+5-41	der	ART	die	_	O	O	
+5-42	Nachhieb	NN	<unknown>	_	O	O	
+5-43	nach	APPR	nach	_	O	O	
+5-44	patenter	ADJA	patent	_	O	O	
+5-45	Schlägerweise	NN	<unknown>	_	O	O	
+5-46	erfolgt	VVPP	erfolgen	_	O	O	
+5-47	.	$.	.	_	O	O	
+
+#id=6
+#text=Halten Sie meinen Wunsch für München für unerfüllbar, dann können Sie mir vielleicht einen anderen Weg zeigen.
+6-1	Halten	VVFIN	halten	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	meinen	PPOSAT	mein	_	O	O	
+6-4	Wunsch	NN	Wunsch	_	O	O	
+6-5	für	APPR	für	_	O	O	
+6-6	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-7	für	APPR	für	_	O	O	
+6-8	unerfüllbar	ADJD	unerfüllbar	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	dann	ADV	dann	_	O	O	
+6-11	können	VMFIN	können	_	O	O	
+6-12	Sie	PPER	Sie	_	O	O	
+6-13	mir	PRF	ich	_	O	O	
+6-14	vielleicht	ADV	vielleicht	_	O	O	
+6-15	einen	ART	eine	_	O	O	
+6-16	anderen	PIAT	andere	_	O	O	
+6-17	Weg	NN	Weg	_	O	O	
+6-18	zeigen	VVINF	zeigen	_	O	O	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=Jeden Falls aber würde ich mich nur nach einer Universität wenden, die vollständig außerhalb der Machtsphäre der Berliner liegt.
+7-1	Jeden	PIAT	jede	_	O	O	
+7-2	Falls	NN	Fall	_	O	O	
+7-3	aber	ADV	aber	_	O	O	
+7-4	würde	VAFIN	werden	_	O	O	
+7-5	ich	PPER	ich	_	O	O	
+7-6	mich	PRF	ich	_	O	O	
+7-7	nur	ADV	nur	_	O	O	
+7-8	nach	APPR	nach	_	O	O	
+7-9	einer	ART	eine	_	O	O	
+7-10	Universität	NN	Universität	_	O	O	
+7-11	wenden	VVINF	wenden	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	die	PRELS	die	_	O	O	
+7-14	vollständig	ADJD	vollständig	_	O	O	
+7-15	außerhalb	APPR	außerhalb	_	O	O	
+7-16	der	ART	die	_	O	O	
+7-17	Machtsphäre	NN	Machtsphäre	_	O	O	
+7-18	der	ART	die	_	O	O	
+7-19	Berliner	NN	Berliner	_	O	O	
+7-20	liegt	VVFIN	liegen	_	O	O	
+7-21	.	$.	.	_	O	O	
+
+#id=8
+#text=Viele Grüße an Frau Brunn !
+8-1	Viele	PIAT	viele	_	O	O	
+8-2	Grüße	NN	Gruß	_	O	O	
+8-3	an	APPR	an	_	O	O	
+8-4	Frau	NN	Frau	_	O	O	
+8-5	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	!	$.	!	_	O	O	
+
+#id=9
+#text=Ihr ergebener Helbig Ihr alter Schüler Meyer ist entsetzlich menschenscheu und es fällt schwer, seiner habhaft zu werden.
+9-1	Ihr	PPOSAT	ihr	_	O	O	
+9-2	ergebener	ADJA	ergeben	_	O	O	
+9-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+9-4	Ihr	PPOSAT	ihr	_	O	O	
+9-5	alter	ADJA	alt	_	O	O	
+9-6	Schüler	NN	Schüler	_	O	O	
+9-7	Meyer	NE	Meyer	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-8	ist	VAFIN	sein	_	O	O	
+9-9	entsetzlich	ADJD	entsetzlich	_	O	O	
+9-10	menschenscheu	ADJD	menschenscheu	_	O	O	
+9-11	und	KON	und	_	O	O	
+9-12	es	PPER	es	_	O	O	
+9-13	fällt	VVFIN	fallen|fällen	_	O	O	
+9-14	schwer	ADJD	schwer	_	O	O	
+9-15	,	$,	,	_	O	O	
+9-16	seiner	PPOSAT	sein	_	O	O	
+9-17	habhaft	ADJD	habhaft	_	O	O	
+9-18	zu	PTKZU	zu	_	O	O	
+9-19	werden	VAINF	werden	_	O	O	
+9-20	.	$.	.	_	O	O	
+
+#id=10
+#text=Vorgestern ist Koerte hier eingetroffen.
+10-1	Vorgestern	ADV	vorgestern	_	O	O	
+10-2	ist	VAFIN	sein	_	O	O	
+10-3	Koerte	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-4	hier	ADV	hier	_	O	O	
+10-5	eingetroffen	VVPP	eintreffen	_	O	O	
+10-6	.	$.	.	_	O	O	
+

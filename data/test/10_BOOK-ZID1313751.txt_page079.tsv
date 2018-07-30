@@ -1,0 +1,93 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an ~~~ Rom, 21. August 1863 4 4.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	~~~	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	4	CARD	4	_	O	O	
+1-11	4	CARD	4	_	O	O	
+1-12	.	$.	.	_	O	O	
+
+#id=2
+#text=Aufsatz über ein Relief mit (, /' C I;,.,,: r.,JL~ ( Zeichnung 5.
+2-1	Aufsatz	NN	Aufsatz	_	O	O	
+2-2	über	APPR	über	_	O	O	
+2-3	ein	ART	eine	_	O	O	
+2-4	Relief	NN	Relief	_	B-webanno.custom.LetterEntity_	B-OBJ	
+2-5	mit	PTKVZ	mit	_	O	O	
+2-6	(	$(	(	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	/	$(	/	_	O	O	
+2-9	'	$(	'	_	O	O	
+2-10	C	NN	C	_	O	O	
+2-11	I	FM	I	_	O	O	
+2-12	;	$.	;	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	.	$.	.	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	:	$.	:	_	O	O	
+2-18	r.,JL~	ADJA	<unknown>	_	O	O	
+2-19	(	$(	(	_	O	O	
+2-20	Zeichnung	NN	Zeichnung	_	O	O	
+2-21	5	CARD	5	_	O	O	
+2-22	.	$.	.	_	O	O	
+
+#id=3
+#text=Abschrift Theräischer Inschriften von Cigalla.
+3-1	Abschrift	NN	Abschrift	_	O	O	
+3-2	Theräischer	ADJA	<unknown>	_	O	O	
+3-3	Inschriften	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-4	von	APPR	von	_	O	O	
+3-5	Cigalla	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	.	$.	.	_	O	O	
+
+#id=4
+#text=Vor einigen Tagen war ich in Palestrina und hatte Gelegenheit den Fundort der Tarpenusinschrift zu ermitteln.
+4-1	Vor	APPR	vor	_	O	O	
+4-2	einigen	PIAT	einige	_	O	O	
+4-3	Tagen	NN	Tag	_	O	O	
+4-4	war	VAFIN	sein	_	O	O	
+4-5	ich	PPER	ich	_	O	O	
+4-6	in	APPR	in	_	O	O	
+4-7	Palestrina	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-8	und	KON	und	_	O	O	
+4-9	hatte	VAFIN	haben	_	O	O	
+4-10	Gelegenheit	NN	Gelegenheit	_	O	O	
+4-11	den	ART	die	_	O	O	
+4-12	Fundort	NN	Fundort	_	O	O	
+4-13	der	ART	die	_	O	O	
+4-14	Tarpenusinschrift	NN	<unknown>	_	O	O	
+4-15	zu	PTKZU	zu	_	O	O	
+4-16	ermitteln	VVINF	ermitteln	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=Henzens Hypothese, daß Tarpenus pater eine Flußgottheit ist, wird dadurch evident - passender Lückenbüßer für das Bullettino.
+5-1	Henzens	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	Hypothese	NN	Hypothese	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	daß	KOUS	dass	_	O	O	
+5-5	Tarpenus	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-6	pater	NN	Pater	_	O	O	
+5-7	eine	ART	eine	_	O	O	
+5-8	Flußgottheit	NN	<unknown>	_	O	O	
+5-9	ist	VAFIN	sein	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	wird	VAFIN	werden	_	O	O	
+5-12	dadurch	PAV	dadurch	_	O	O	
+5-13	evident	ADJD	evident	_	O	O	
+5-14	-	$(	-	_	O	O	
+5-15	passender	ADJA	passend	_	O	O	
+5-16	Lückenbüßer	NN	Lückenbüßer	_	O	O	
+5-17	für	APPR	für	_	O	O	
+5-18	das	ART	die	_	O	O	
+5-19	Bullettino	NN	<unknown>	_	O	O	
+5-20	.	$.	.	_	O	O	
+

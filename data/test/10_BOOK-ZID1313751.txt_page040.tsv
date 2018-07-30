@@ -1,0 +1,154 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an Brunn 3/1/1886 - 2 - vor 4 Wochen gestorben ist und uns eine recht ansehnliche Erbschaft hinterlassen hat.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	3/1/1886	CARD	@card@	_	O	O	
+1-5	-	$(	-	_	O	O	
+1-6	2	CARD	2	_	O	O	
+1-7	-	$(	-	_	O	O	
+1-8	vor	APPR	vor	_	O	O	
+1-9	4	CARD	4	_	O	O	
+1-10	Wochen	NN	Woche	_	O	O	
+1-11	gestorben	VVPP	sterben	_	O	O	
+1-12	ist	VAFIN	sein	_	O	O	
+1-13	und	KON	und	_	O	O	
+1-14	uns	PPER	wir	_	O	O	
+1-15	eine	ART	eine	_	O	O	
+1-16	recht	ADJD	recht	_	O	O	
+1-17	ansehnliche	ADJA	ansehnlich	_	O	O	
+1-18	Erbschaft	NN	Erbschaft	_	O	O	
+1-19	hinterlassen	VVINF	hinterlassen	_	O	O	
+1-20	hat	VAFIN	haben	_	O	O	
+1-21	.	$.	.	_	O	O	
+
+#id=2
+#text=Italienischer Seits werden mir recht verführerische Anerbietungen gemaoht nicht so sehr in materieller Hinsicht wie in Bezug auf die äußere Stellung, ein Gesichtspunkt, den ich aus Rücksicht auf meine russischen [WOhl sioher so] Verwandten nicht außer Acht lassen darf.
+2-1	Italienischer	ADJA	italienisch	_	O	O	
+2-2	Seits	NN	<unknown>	_	O	O	
+2-3	werden	VAFIN	werden	_	O	O	
+2-4	mir	PPER	ich	_	O	O	
+2-5	recht	ADJD	recht	_	O	O	
+2-6	verführerische	ADJA	verführerisch	_	O	O	
+2-7	Anerbietungen	NN	<unknown>	_	O	O	
+2-8	gemaoht	VVFIN	<unknown>	_	O	O	
+2-9	nicht	PTKNEG	nicht	_	O	O	
+2-10	so	ADV	so	_	O	O	
+2-11	sehr	ADV	sehr	_	O	O	
+2-12	in	APPR	in	_	O	O	
+2-13	materieller	ADJA	materiell	_	O	O	
+2-14	Hinsicht	NN	Hinsicht	_	O	O	
+2-15	wie	KOKOM	wie	_	O	O	
+2-16	in	APPR	in	_	O	O	
+2-17	Bezug	NN	Bezug	_	O	O	
+2-18	auf	APPR	auf	_	O	O	
+2-19	die	ART	die	_	O	O	
+2-20	äußere	ADJA	äußer	_	O	O	
+2-21	Stellung	NN	Stellung	_	O	O	
+2-22	,	$,	,	_	O	O	
+2-23	ein	ART	eine	_	O	O	
+2-24	Gesichtspunkt	NN	Gesichtspunkt	_	O	O	
+2-25	,	$,	,	_	O	O	
+2-26	den	PRELS	die	_	O	O	
+2-27	ich	PPER	ich	_	O	O	
+2-28	aus	APPR	aus	_	O	O	
+2-29	Rücksicht	NN	Rücksicht	_	O	O	
+2-30	auf	APPR	auf	_	O	O	
+2-31	meine	PPOSAT	mein	_	O	O	
+2-32	russischen	ADJA	russisch	_	O	O	
+2-33	[	$(	[	_	O	O	
+2-34	WOhl	NN	Wohl	_	O	O	
+2-35	sioher	VVFIN	<unknown>	_	O	O	
+2-36	so	ADV	so	_	O	O	
+2-37	]	$(	]	_	O	O	
+2-38	Verwandten	NN	Verwandte	_	O	O	
+2-39	nicht	PTKNEG	nicht	_	O	O	
+2-40	außer	APPR	außer	_	O	O	
+2-41	Acht	NN	Acht	_	O	O	
+2-42	lassen	VVINF	lassen	_	O	O	
+2-43	darf	VMFIN	dürfen	_	O	O	
+2-44	.	$.	.	_	O	O	
+
+#id=3
+#text=Aber anderer Seits möohte ich doch nicht gern vollständig mit Deutschland brechen.
+3-1	Aber	ADV	aber	_	O	O	
+3-2	anderer	PIAT	andere	_	O	O	
+3-3	Seits	NN	<unknown>	_	O	O	
+3-4	möohte	VVFIN	<unknown>	_	O	O	
+3-5	ich	PPER	ich	_	O	O	
+3-6	doch	ADV	doch	_	O	O	
+3-7	nicht	PTKNEG	nicht	_	O	O	
+3-8	gern	ADV	gern	_	O	O	
+3-9	vollständig	ADJD	vollständig	_	O	O	
+3-10	mit	APPR	mit	_	O	O	
+3-11	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-12	brechen	VVINF	brechen	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Kurz ich weiß noch nicht, was für einen Weg ich einschlagen werde.
+4-1	Kurz	ADJD	kurz	_	O	O	
+4-2	ich	PPER	ich	_	O	O	
+4-3	weiß	VVFIN	wissen	_	O	O	
+4-4	noch	ADV	noch	_	O	O	
+4-5	nicht	PTKNEG	nicht	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	was	PRELS	was	_	O	O	
+4-8	für	APPR	für	_	O	O	
+4-9	einen	ART	eine	_	O	O	
+4-10	Weg	NN	Weg	_	O	O	
+4-11	ich	PPER	ich	_	O	O	
+4-12	einschlagen	VVINF	einschlagen	_	O	O	
+4-13	werde	VAFIN	werden	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Sehr gern bespräche ich mit Ihnen einmal ausführlich die ganze Angelegenheit.
+5-1	Sehr	ADV	sehr	_	O	O	
+5-2	gern	ADV	gern	_	O	O	
+5-3	bespräche	VVFIN	<unknown>	_	O	O	
+5-4	ich	PPER	ich	_	O	O	
+5-5	mit	APPR	mit	_	O	O	
+5-6	Ihnen	PPER	Sie	_	O	O	
+5-7	einmal	ADV	einmal	_	O	O	
+5-8	ausführlich	ADJD	ausführlich	_	O	O	
+5-9	die	ART	die	_	O	O	
+5-10	ganze	ADJA	ganz	_	O	O	
+5-11	Angelegenheit	NN	Angelegenheit	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Herzliche Grüße von Haus zu Haus!
+6-1	Herzliche	ADJA	herzlich	_	O	O	
+6-2	Grüße	NN	Gruß	_	O	O	
+6-3	von	APPR	von	_	O	O	
+6-4	Haus	NN	Haus	_	O	O	
+6-5	zu	APPR	zu	_	O	O	
+6-6	Haus	NN	Haus	_	O	O	
+6-7	!	$.	!	_	O	O	
+
+#id=7
+#text=Ihr ergebener Helbig.
+7-1	Ihr	PPOSAT	ihr	_	O	O	
+7-2	ergebener	ADJA	ergeben	_	O	O	
+7-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+7-4	.	$.	.	_	O	O	
+
+#id=8
+#text=1) Worauf sich diese Sache bezieht, weiß ich z.Z. nicht anzugeben.
+8-1	1	CARD	1	_	O	O	
+8-2	)	$(	)	_	O	O	
+8-3	Worauf	NN	<unknown>	_	O	O	
+8-4	sich	PRF	sich	_	O	O	
+8-5	diese	PDAT	dies	_	O	O	
+8-6	Sache	NN	Sache	_	O	O	
+8-7	bezieht	VVFIN	beziehen	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	weiß	VVFIN	wissen	_	O	O	
+8-10	ich	PPER	ich	_	O	O	
+8-11	z.Z.	NE	<unknown>	_	O	O	
+8-12	nicht	PTKNEG	nicht	_	O	O	
+8-13	anzugeben	VVIZU	angeben	_	O	O	
+8-14	.	$.	.	_	O	O	
+

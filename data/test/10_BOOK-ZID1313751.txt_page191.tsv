@@ -1,0 +1,160 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=48 Wolfgang Helbig an Heinrich Brunn Rom, 7. Juli 1885 Correspondenzkarte 7. Juli 1885 Lieber Herr Professor !
+1-1	48	CARD	48	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1885	CARD	1885	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Correspondenzkarte	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	7	CARD	7	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	1885	CARD	1885	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	Lieber	ADJA	lieb	_	O	O	
+1-19	Herr	NN	Herr	_	O	O	
+1-20	Professor	NN	Professor	_	O	O	
+1-21	!	$.	!	_	O	O	
+
+#id=2
+#text=Ich schicke Ihnen morgen in einem Postpakete einen marmornen in Tarent gefundenen Zeuskopf zur Ansicht zu, der mir von einem dortigen Gastfreunde zugestellt worden ist.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	schicke	VVFIN	schicken	_	O	O	
+2-3	Ihnen	PPER	Sie	_	O	O	
+2-4	morgen	ADV	morgen	_	O	O	
+2-5	in	APPR	in	_	O	O	
+2-6	einem	ART	eine	_	O	O	
+2-7	Postpakete	NN	Postpaket	_	O	O	
+2-8	einen	ART	eine	_	O	O	
+2-9	marmornen	ADJA	marmorn	_	O	O	
+2-10	in	APPR	in	_	O	O	
+2-11	Tarent	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-12	gefundenen	ADJA	gefunden	_	O	O	
+2-13	Zeuskopf	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+2-14	zur	APPRART	zu	_	O	O	
+2-15	Ansicht	NN	Ansicht	_	O	O	
+2-16	zu	PTKVZ	zu	_	O	O	
+2-17	,	$,	,	_	O	O	
+2-18	der	PRELS	die	_	O	O	
+2-19	mir	PPER	ich	_	O	O	
+2-20	von	APPR	von	_	O	O	
+2-21	einem	ART	eine	_	O	O	
+2-22	dortigen	ADJA	dortig	_	O	O	
+2-23	Gastfreunde	NN	<unknown>	_	O	O	
+2-24	zugestellt	VVPP	zustellen	_	O	O	
+2-25	worden	VAPP	werden	_	O	O	
+2-26	ist	VAFIN	sein	_	O	O	
+2-27	.	$.	.	_	O	O	
+
+#id=3
+#text=Typus und Ausführung scheinen mir auf den Übergang vom 5. zum 4. Jahrhundert hinzuweisen.
+3-1	Typus	NN	Typus	_	O	O	
+3-2	und	KON	und	_	O	O	
+3-3	Ausführung	NN	Ausführung	_	O	O	
+3-4	scheinen	VVFIN	scheinen	_	O	O	
+3-5	mir	PPER	ich	_	O	O	
+3-6	auf	APPR	auf	_	O	O	
+3-7	den	ART	die	_	O	O	
+3-8	Übergang	NN	Übergang	_	O	O	
+3-9	vom	APPRART	von	_	O	O	
+3-10	5	CARD	5	_	O	O	
+3-11	.	$.	.	_	O	O	
+3-12	zum	APPRART	zu	_	O	O	
+3-13	4	CARD	4	_	O	O	
+3-14	.	$.	.	_	O	O	
+3-15	Jahrhundert	NN	Jahrhundert	_	O	O	
+3-16	hinzuweisen	VVIZU	hinweisen	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich glaube, Sie werden ihn gern für die Glyptothek erwerben.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	glaube	VVFIN	glauben	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	Sie	PPER	Sie	_	O	O	
+4-5	werden	VAFIN	werden	_	O	O	
+4-6	ihn	PPER	er	_	O	O	
+4-7	gern	ADV	gern	_	O	O	
+4-8	für	APPR	für	_	O	O	
+4-9	die	ART	die	_	O	O	
+4-10	Glyptothek	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-11	erwerben	VVINF	erwerben	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Mein G?affreund wird jedes billige Angebot Ihrer Seits gern acceptiren.
+5-1	Mein	PPOSAT	mein	_	O	O	
+5-2	G	NN	G	_	O	O	
+5-3	?	$.	?	_	O	O	
+5-4	affreund	NE	<unknown>	_	O	O	
+5-5	wird	VAFIN	werden	_	O	O	
+5-6	jedes	PIAT	jede	_	O	O	
+5-7	billige	ADJA	billig	_	O	O	
+5-8	Angebot	NN	Angebot	_	O	O	
+5-9	Ihrer	PPOSAT	ihr	_	O	O	
+5-10	Seits	NN	<unknown>	_	O	O	
+5-11	gern	ADV	gern	_	O	O	
+5-12	acceptiren	ADJD	<unknown>	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich habe mich entschlossen das Emser Wasser nicht an Ort und Stelle, sondern in den Bagni di Lucca zu trinken, wohin ich morgen abzureisen gedenke.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	habe	VAFIN	haben	_	O	O	
+6-3	mich	PRF	ich	_	O	O	
+6-4	entschlossen	ADJD	entschlossen	_	O	O	
+6-5	das	ART	die	_	O	O	
+6-6	Emser	NN	<unknown>	_	O	O	
+6-7	Wasser	NN	Wasser	_	O	O	
+6-8	nicht	PTKNEG	nicht	_	O	O	
+6-9	an	APPR	an	_	O	O	
+6-10	Ort	NN	Ort	_	O	O	
+6-11	und	KON	und	_	O	O	
+6-12	Stelle	NN	Stelle	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	sondern	KON	sondern	_	O	O	
+6-15	in	APPR	in	_	O	O	
+6-16	den	ART	die	_	O	O	
+6-17	Bagni	NE	<unknown>	_	O	O	
+6-18	di	NE	di	_	O	O	
+6-19	Lucca	NE	Lucca	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-20	zu	PTKZU	zu	_	O	O	
+6-21	trinken	VVINF	trinken	_	O	O	
+6-22	,	$,	,	_	O	O	
+6-23	wohin	PWAV	wohin	_	O	O	
+6-24	ich	PPER	ich	_	O	O	
+6-25	morgen	ADV	morgen	_	O	O	
+6-26	abzureisen	VVIZU	abreisen	_	O	O	
+6-27	gedenke	VVFIN	gedenken	_	O	O	
+6-28	.	$.	.	_	O	O	
+
+#id=7
+#text=Sowie ich dort installirt bin, schreibe ich Ihnen ausführlich.
+7-1	Sowie	KOUS	sowie	_	O	O	
+7-2	ich	PPER	ich	_	O	O	
+7-3	dort	ADV	dort	_	O	O	
+7-4	installirt	NN	<unknown>	_	O	O	
+7-5	bin	VAFIN	sein	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	schreibe	VVFIN	schreiben	_	O	O	
+7-8	ich	PPER	ich	_	O	O	
+7-9	Ihnen	PPER	Sie	_	O	O	
+7-10	ausführlich	ADJD	ausführlich	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Herzliche Grüße von Ihrem ergebenen Helbig
+8-1	Herzliche	ADJA	herzlich	_	O	O	
+8-2	Grüße	NN	Gruß	_	O	O	
+8-3	von	APPR	von	_	O	O	
+8-4	Ihrem	PPOSAT	ihr	_	O	O	
+8-5	ergebenen	ADJA	ergeben	_	O	O	
+8-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

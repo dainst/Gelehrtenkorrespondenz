@@ -1,0 +1,141 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=\ I Helbig an ~J~ Rom, 27. August 1863 3 lung mit dem bekannten Terracottenrelief ist, was bei Campana abgebildet ist, wo Artemis vollständig bekleidet neben den von den Hunden angegriffenen Aktaion steht und durch die erhobene Rechte ihre Wirkung auf die Handlung zum Ausdruck bringt.
+1-1	\	XY	\	_	O	O	
+1-2	I	NN	I	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	~J~	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	3	CARD	3	_	O	O	
+1-13	lung	NN	<unknown>	_	O	O	
+1-14	mit	APPR	mit	_	O	O	
+1-15	dem	ART	die	_	O	O	
+1-16	bekannten	ADJA	bekannt	_	O	O	
+1-17	Terracottenrelief	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-18	ist	VAFIN	sein	_	O	O	
+1-19	,	$,	,	_	O	O	
+1-20	was	PRELS	was	_	O	O	
+1-21	bei	APPR	bei	_	O	O	
+1-22	Campana	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-23	abgebildet	VVPP	abbilden	_	O	O	
+1-24	ist	VAFIN	sein	_	O	O	
+1-25	,	$,	,	_	O	O	
+1-26	wo	PWAV	wo	_	O	O	
+1-27	Artemis	NE	Artemis	_	O	O	
+1-28	vollständig	ADJD	vollständig	_	O	O	
+1-29	bekleidet	VVFIN	bekleiden	_	O	O	
+1-30	neben	APPR	neben	_	O	O	
+1-31	den	ART	die	_	O	O	
+1-32	von	APPR	von	_	O	O	
+1-33	den	ART	die	_	O	O	
+1-34	Hunden	NN	Hund	_	O	O	
+1-35	angegriffenen	ADJA	angegriffen	_	O	O	
+1-36	Aktaion	NN	<unknown>	_	O	O	
+1-37	steht	VVFIN	stehen	_	O	O	
+1-38	und	KON	und	_	O	O	
+1-39	durch	APPR	durch	_	O	O	
+1-40	die	ART	die	_	O	O	
+1-41	erhobene	ADJA	erhoben	_	O	O	
+1-42	Rechte	NN	Recht|Rechte	_	O	O	
+1-43	ihre	PPOSAT	ihr	_	O	O	
+1-44	Wirkung	NN	Wirkung	_	O	O	
+1-45	auf	APPR	auf	_	O	O	
+1-46	die	ART	die	_	O	O	
+1-47	Handlung	NN	Handlung	_	O	O	
+1-48	zum	APPRART	zu	_	O	O	
+1-49	Ausdruck	NN	Ausdruck	_	O	O	
+1-50	bringt	VVFIN	bringen	_	O	O	
+1-51	.	$.	.	_	O	O	
+
+#id=2
+#text=Bei liegt der Brief von Rhusopulos, ein Zettel und ein Brief von Hübner, worin er Correcturen zu seinem Aufsatze giebt.
+2-1	Bei	PTKVZ	bei	_	O	O	
+2-2	liegt	VVFIN	liegen	_	O	O	
+2-3	der	ART	die	_	O	O	
+2-4	Brief	NN	Brief	_	O	O	
+2-5	von	APPR	von	_	O	O	
+2-6	Rhusopulos	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-7	,	$,	,	_	O	O	
+2-8	ein	ART	eine	_	O	O	
+2-9	Zettel	NN	Zettel	_	O	O	
+2-10	und	KON	und	_	O	O	
+2-11	ein	ART	eine	_	O	O	
+2-12	Brief	NN	Brief	_	O	O	
+2-13	von	APPR	von	_	O	O	
+2-14	Hübner	NE	Hübner	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-15	,	$,	,	_	O	O	
+2-16	worin	PWAV	worin	_	O	O	
+2-17	er	PPER	er	_	O	O	
+2-18	Correcturen	NN	<unknown>	_	O	O	
+2-19	zu	APPR	zu	_	O	O	
+2-20	seinem	PPOSAT	sein	_	O	O	
+2-21	Aufsatze	NN	<unknown>	_	O	O	
+2-22	giebt	VVFIN	<unknown>	_	O	O	
+2-23	.	$.	.	_	O	O	
+
+#id=3
+#text=Künftig werde ich es nach Ihrem Wunsche so einrichten, daß Sie die Druckbogen in kleinen Sendungen erhalten.
+3-1	Künftig	ADJD	künftig	_	O	O	
+3-2	werde	VAFIN	werden	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	es	PPER	es	_	O	O	
+3-5	nach	APPR	nach	_	O	O	
+3-6	Ihrem	PPOSAT	ihr	_	O	O	
+3-7	Wunsche	NN	Wunsch	_	O	O	
+3-8	so	ADV	so	_	O	O	
+3-9	einrichten	VVINF	einrichten	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	daß	KOUS	dass	_	O	O	
+3-12	Sie	PPER	Sie	_	O	O	
+3-13	die	ART	die	_	O	O	
+3-14	Druckbogen	NN	Druckbogen	_	O	O	
+3-15	in	APPR	in	_	O	O	
+3-16	kleinen	ADJA	klein	_	O	O	
+3-17	Sendungen	NN	Sendung	_	O	O	
+3-18	erhalten	VVPP	erhalten	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Diesmal ging es nicht anders.
+4-1	Diesmal	ADV	diesmal	_	O	O	
+4-2	ging	VVFIN	gehen	_	O	O	
+4-3	es	PPER	es	_	O	O	
+4-4	nicht	PTKNEG	nicht	_	O	O	
+4-5	anders	ADV	anders	_	O	O	
+4-6	.	$.	.	_	O	O	
+
+#id=5
+#text=Die De Witt'sche Adresse geben die uns vorliegenden Notizen nicht näher an als "Parigi".
+5-1	Die	ART	die	_	O	O	
+5-2	De	NE	De	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	Witt'sche	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-4	Adresse	NN	Adresse	_	O	O	
+5-5	geben	VVFIN	geben	_	O	O	
+5-6	die	ART	die	_	O	O	
+5-7	uns	PRF	wir	_	O	O	
+5-8	vorliegenden	ADJA	vorliegend	_	O	O	
+5-9	Notizen	NN	Notiz	_	O	O	
+5-10	nicht	PTKNEG	nicht	_	O	O	
+5-11	näher	ADJD	nah	_	O	O	
+5-12	an	PTKVZ	an	_	O	O	
+5-13	als	KOKOM	als	_	O	O	
+5-14	"	$(	"	_	O	O	
+5-15	Parigi	NE	<unknown>	_	O	O	
+5-16	"	$(	"	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Nit herzlichem Gruße Ihr Wolfgang Helbig
+6-1	Nit	ADJA	<unknown>	_	O	O	
+6-2	herzlichem	ADJA	herzlich	_	O	O	
+6-3	Gruße	NN	Gruß	_	O	O	
+6-4	Ihr	PPOSAT	ihr	_	O	O	
+6-5	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-6	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

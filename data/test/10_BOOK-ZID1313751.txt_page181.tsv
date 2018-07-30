@@ -1,0 +1,103 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=44 3 Wolfgang Helbig an Heinrich Brunn Pistoja, 2. Oktober 1884 von Ihnen auf der ersten Tafel des Jahrganges 1885 publiciren.
+1-1	44	CARD	44	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-8	Pistoja	NN	<unknown>	_	O	O	
+1-9	,	$,	,	_	O	O	
+1-10	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1884	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	von	APPR	von	_	O	O	
+1-15	Ihnen	PPER	Sie	_	O	O	
+1-16	auf	APPR	auf	_	O	O	
+1-17	der	ART	die	_	O	O	
+1-18	ersten	ADJA	erst	_	O	O	
+1-19	Tafel	NN	Tafel	_	O	O	
+1-20	des	ART	die	_	O	O	
+1-21	Jahrganges	NN	Jahrgang	_	O	O	
+1-22	1885	CARD	1885	_	O	O	
+1-23	publiciren	NN	<unknown>	_	O	O	
+1-24	.	$.	.	_	O	O	
+
+#id=2
+#text=Die Heliotypien würden wohl am Besten unter Ihren Augen in München nach dem Gypse ausgeführt.
+2-1	Die	ART	die	_	O	O	
+2-2	Heliotypien	NN	<unknown>	_	O	O	
+2-3	würden	VAFIN	werden	_	O	O	
+2-4	wohl	ADV	wohl	_	O	O	
+2-5	am	APPRART	an	_	O	O	
+2-6	Besten	NN	Beste	_	O	O	
+2-7	unter	APPR	unter	_	O	O	
+2-8	Ihren	PPOSAT	ihr	_	O	O	
+2-9	Augen	NN	Auge	_	O	O	
+2-10	in	APPR	in	_	O	O	
+2-11	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-12	nach	APPR	nach	_	O	O	
+2-13	dem	ART	die	_	O	O	
+2-14	Gypse	NN	<unknown>	_	O	O	
+2-15	ausgeführt	VVPP	ausführen	_	O	O	
+2-16	.	$.	.	_	O	O	
+
+#id=3
+#text=An eine Heliotypierung des Originales ist nicht zu denken, da es einige Oxydflecke hat und die heliotypische Technik in Rom viel zu wünschen übrig läßt.
+3-1	An	APPR	an	_	O	O	
+3-2	eine	ART	eine	_	O	O	
+3-3	Heliotypierung	NN	<unknown>	_	O	O	
+3-4	des	ART	die	_	O	O	
+3-5	Originales	NN	Originale	_	O	O	
+3-6	ist	VAFIN	sein	_	O	O	
+3-7	nicht	PTKNEG	nicht	_	O	O	
+3-8	zu	PTKZU	zu	_	O	O	
+3-9	denken	VVINF	denken	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	da	KOUS	da	_	O	O	
+3-12	es	PPER	es	_	O	O	
+3-13	einige	PIAT	einige	_	O	O	
+3-14	Oxydflecke	NN	<unknown>	_	O	O	
+3-15	hat	VAFIN	haben	_	O	O	
+3-16	und	KON	und	_	O	O	
+3-17	die	ART	die	_	O	O	
+3-18	heliotypische	ADJA	<unknown>	_	O	O	
+3-19	Technik	NN	Technik	_	O	O	
+3-20	in	APPR	in	_	O	O	
+3-21	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-22	viel	PIS	viele	_	O	O	
+3-23	zu	PTKZU	zu	_	O	O	
+3-24	wünschen	VVINF	wünschen	_	O	O	
+3-25	übrig	ADJD	übrig	_	O	O	
+3-26	läßt	VVFIN	lassen	_	O	O	
+3-27	.	$.	.	_	O	O	
+
+#id=4
+#text=Was meinen Sie zu diesem Vorschlage ?
+4-1	Was	PWS	was	_	O	O	
+4-2	meinen	VVFIN	meinen	_	O	O	
+4-3	Sie	PPER	Sie	_	O	O	
+4-4	zu	APPR	zu	_	O	O	
+4-5	diesem	PDAT	dies	_	O	O	
+4-6	Vorschlage	NN	Vorschlag	_	O	O	
+4-7	?	$.	?	_	O	O	
+
+#id=5
+#text=Herzliche Grüße von Haus zu Haus !
+5-1	Herzliche	ADJA	herzlich	_	O	O	
+5-2	Grüße	NN	Gruß	_	O	O	
+5-3	von	APPR	von	_	O	O	
+5-4	Haus	NN	Haus	_	O	O	
+5-5	zu	APPR	zu	_	O	O	
+5-6	Haus	NN	Haus	_	O	O	
+5-7	!	$.	!	_	O	O	
+
+#id=6
+#text=Ihr ergebener Helbig
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	ergebener	ADJA	ergeben	_	O	O	
+6-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

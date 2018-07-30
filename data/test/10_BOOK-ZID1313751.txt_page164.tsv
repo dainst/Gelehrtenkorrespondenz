@@ -1,0 +1,36 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=35a 3 Mille complimenti Pietro Rosa an Wolfgang Helbig Rom, 25. Februar 1881 Suo Devotissimo P. Rosa Es folgen einige Zeilen von Wolfgang Helbig ( Abgeschrieben auf einem Extra-Blatt )
+1-1	35a	CARD	<unknown>	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Mille	NN	<unknown>	_	O	O	
+1-4	complimenti	NN	<unknown>	_	O	O	
+1-5	Pietro	NE	Pietro	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	Rosa	NE	Rosa	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Helbig	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-10	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-11	,	$,	,	_	O	O	
+1-12	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-13	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	1881	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	Suo	NN	<unknown>	_	O	O	
+1-17	Devotissimo	NE	<unknown>	_	O	O	
+1-18	P.	APPR	p.	_	O	O	
+1-19	Rosa	NE	Rosa	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-20	Es	PPER	es	_	O	O	
+1-21	folgen	VVFIN	folgen	_	O	O	
+1-22	einige	PIAT	einige	_	O	O	
+1-23	Zeilen	NN	Zeile	_	O	O	
+1-24	von	APPR	von	_	O	O	
+1-25	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-26	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-27	(	$(	(	_	O	O	
+1-28	Abgeschrieben	NN	<unknown>	_	O	O	
+1-29	auf	APPR	auf	_	O	O	
+1-30	einem	ART	eine	_	O	O	
+1-31	Extra-Blatt	NN	Extra-Blatt	_	O	O	
+1-32	)	$(	)	_	O	O	
+

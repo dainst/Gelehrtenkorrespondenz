@@ -1,0 +1,217 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=23 Wolfgang Helbig an Heinrich Brunn ~ Rom, 2. Dezember 1879 Roma, li 2. Dec.
+1-1	23	CARD	23	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	~	XY	~	_	O	O	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1879	CARD	1879	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	,	$,	,	_	O	O	
+1-16	li	ADJD	<unknown>	_	O	O	
+1-17	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	Dec	NE	Dec	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1879 Lieber Herr Professor Dieser Tage werden die Gypse an Sie abgehen.
+2-1	1879	CARD	1879	_	O	O	
+2-2	Lieber	ADJA	lieb	_	O	O	
+2-3	Herr	NN	Herr	_	O	O	
+2-4	Professor	NN	Professor	_	O	O	
+2-5	Dieser	PDAT	dies	_	O	O	
+2-6	Tage	NN	Tag	_	O	O	
+2-7	werden	VAFIN	werden	_	O	O	
+2-8	die	ART	die	_	O	O	
+2-9	Gypse	NN	<unknown>	_	O	O	
+2-10	an	APPR	an	_	O	O	
+2-11	Sie	PPER	Sie	_	O	O	
+2-12	abgehen	VVINF	abgehen	_	O	O	
+2-13	.	$.	.	_	O	O	
+
+#id=3
+#text=Sie erhalten 1) ( Vatican ) 2) co (Rom) Kopf eines Apoll in dem Gabinetto dei busti L.
+3-1	Sie	PPER	Sie	_	O	O	
+3-2	erhalten	VVFIN	erhalten	_	O	O	
+3-3	1	CARD	1	_	O	O	
+3-4	)	$(	)	_	O	O	
+3-5	(	$(	(	_	O	O	
+3-6	Vatican	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-7	)	$(	)	_	O	O	
+3-8	2	CARD	2	_	O	O	
+3-9	)	$(	)	_	O	O	
+3-10	co	VVFIN	<unknown>	_	O	O	
+3-11	(	$(	(	_	O	O	
+3-12	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-13	)	$(	)	_	O	O	
+3-14	Kopf	NN	Kopf	_	O	O	
+3-15	eines	ART	eine	_	O	O	
+3-16	Apoll	NN	Apoll	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-17	in	APPR	in	_	O	O	
+3-18	dem	ART	die	_	O	O	
+3-19	Gabinetto	NE	<unknown>	_	O	O	
+3-20	dei	VVFIN	<unknown>	_	O	O	
+3-21	busti	NE	<unknown>	_	O	O	
+3-22	L.	NE	L.	_	O	O	
+
+#id=4
+#text=30 Kopf des mycenischen Mursyas, Sammlung Barac3) Männlicher archaischer Kopf, Sammlung Baracco ( Rom ) 4) Weiblicher Kopf mit gewelltem Haare Baracco (Rom) 5) Mädchenkopf an die capuaner Psyche erinnernd, Sarrmtlung Baracco (Neapel ) 6) Peloponnesischer (?)
+4-1	30	CARD	30	_	O	O	
+4-2	Kopf	NN	Kopf	_	O	O	
+4-3	des	ART	die	_	O	O	
+4-4	mycenischen	ADJA	<unknown>	_	O	O	
+4-5	Mursyas	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-6	,	$,	,	_	O	O	
+4-7	Sammlung	NN	Sammlung	_	O	O	
+4-8	Barac3	CARD	<unknown>	_	O	O	
+4-9	)	$(	)	_	O	O	
+4-10	Männlicher	NN	Männliche	_	O	O	
+4-11	archaischer	ADJA	archaisch	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-12	Kopf	NN	Kopf	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-13	,	$,	,	_	O	O	
+4-14	Sammlung	NN	Sammlung	_	O	O	
+4-15	Baracco	NE	<unknown>	_	O	O	
+4-16	(	$(	(	_	O	O	
+4-17	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-18	)	$(	)	_	O	O	
+4-19	4	CARD	4	_	O	O	
+4-20	)	$(	)	_	O	O	
+4-21	Weiblicher	ADJA	weiblich	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-22	Kopf	NN	Kopf	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-23	mit	APPR	mit	_	O	O	
+4-24	gewelltem	ADJA	gewellt	_	O	O	
+4-25	Haare	NN	Haar	_	O	O	
+4-26	Baracco	NE	<unknown>	_	O	O	
+4-27	(	$(	(	_	O	O	
+4-28	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-29	)	$(	)	_	O	O	
+4-30	5	CARD	5	_	O	O	
+4-31	)	$(	)	_	O	O	
+4-32	Mädchenkopf	NN	Mädchenkopf	_	O	O	
+4-33	an	APPR	an	_	O	O	
+4-34	die	ART	die	_	O	O	
+4-35	capuaner	ADJA	<unknown>	_	O	O	
+4-36	Psyche	NN	Psyche	_	O	O	
+4-37	erinnernd	ADJD	erinnernd	_	O	O	
+4-38	,	$,	,	_	O	O	
+4-39	Sarrmtlung	NN	<unknown>	_	O	O	
+4-40	Baracco	NE	<unknown>	_	O	O	
+4-41	(	$(	(	_	O	O	
+4-42	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-43	)	$(	)	_	O	O	
+4-44	6	CARD	6	_	O	O	
+4-45	)	$(	)	_	O	O	
+4-46	Peloponnesischer	VVFIN	<unknown>	_	O	O	
+4-47	(	$(	(	_	O	O	
+4-48	?	$.	?	_	O	O	
+4-49	)	$(	)	_	O	O	
+
+#id=5
+#text=Apollotypus aus dem 5. Jahrhundert Sammlung Baracco, gefunden bei dem Grundgraben des Teatro Costanzi (Esquilin).
+5-1	Apollotypus	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	aus	APPR	aus	_	O	O	
+5-3	dem	ART	die	_	O	O	
+5-4	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-6	Jahrhundert	NN	Jahrhundert	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-7	Sammlung	NN	Sammlung	_	O	O	
+5-8	Baracco	NE	<unknown>	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	gefunden	VVPP	finden	_	O	O	
+5-11	bei	APPR	bei	_	O	O	
+5-12	dem	ART	die	_	O	O	
+5-13	Grundgraben	NN	<unknown>	_	O	O	
+5-14	des	ART	die	_	O	O	
+5-15	Teatro	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-16	Costanzi	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-17	(	$(	(	_	O	O	
+5-18	Esquilin	NE	<unknown>	_	O	O	
+5-19	)	$(	)	_	O	O	
+5-20	.	$.	.	_	O	O	
+
+#id=6
+#text=Num.
+6-1	Num	NN	<unknown>	_	O	O	
+6-2	.	$.	.	_	O	O	
+
+#id=7
+#text=6 wurde ganz neuerdings erworben.
+7-1	6	CARD	6	_	O	O	
+7-2	wurde	VAFIN	werden	_	O	O	
+7-3	ganz	ADV	ganz	_	O	O	
+7-4	neuerdings	ADV	neuerdings	_	O	O	
+7-5	erworben	VVPP	erwerben	_	O	O	
+7-6	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich bin überzeugt, daß dieser Typus künftig in der Kunstgeschichte einen hervorragenden Platz einnehmen wird.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	bin	VAFIN	sein	_	O	O	
+8-3	überzeugt	ADJD	überzeugt	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	daß	KOUS	dass	_	O	O	
+8-6	dieser	PDAT	dies	_	O	O	
+8-7	Typus	NN	Typus	_	O	O	
+8-8	künftig	ADJD	künftig	_	O	O	
+8-9	in	APPR	in	_	O	O	
+8-10	der	ART	die	_	O	O	
+8-11	Kunstgeschichte	NN	Kunstgeschichte	_	O	O	
+8-12	einen	ART	eine	_	O	O	
+8-13	hervorragenden	ADJA	hervorragend	_	O	O	
+8-14	Platz	NN	Platz	_	O	O	
+8-15	einnehmen	VVINF	einnehmen	_	O	O	
+8-16	wird	VAFIN	werden	_	O	O	
+8-17	.	$.	.	_	O	O	
+
+#id=9
+#text=Der Preis der 6 Abgüsse beträgt Lire 90.
+9-1	Der	ART	die	_	O	O	
+9-2	Preis	NN	Preis	_	O	O	
+9-3	der	ART	die	_	O	O	
+9-4	6	CARD	6	_	O	O	
+9-5	Abgüsse	NN	Abguß	_	O	O	
+9-6	beträgt	VVFIN	betragen	_	O	O	
+9-7	Lire	NN	Lira	_	O	O	
+9-8	90	CARD	90	_	O	O	
+9-9	.	$.	.	_	O	O	
+
+#id=10
+#text=Der Former wartet, solange es Ihnen beliebt.
+10-1	Der	ART	die	_	O	O	
+10-2	Former	NN	Former	_	O	O	
+10-3	wartet	VVFIN	warten	_	O	O	
+10-4	,	$,	,	_	O	O	
+10-5	solange	KOUS	solange	_	O	O	
+10-6	es	PPER	es	_	O	O	
+10-7	Ihnen	PPER	Sie	_	O	O	
+10-8	beliebt	VVPP	belieben	_	O	O	
+10-9	.	$.	.	_	O	O	
+
+#id=11
+#text=Die Kosten der Emballage werde ich als nachnahme von dem Spediteur an Ferroni bezahlen lassen.
+11-1	Die	ART	die	_	O	O	
+11-2	Kosten	NN	Kosten	_	O	O	
+11-3	der	ART	die	_	O	O	
+11-4	Emballage	NN	Emballage	_	O	O	
+11-5	werde	VAFIN	werden	_	O	O	
+11-6	ich	PPER	ich	_	O	O	
+11-7	als	KOKOM	als	_	O	O	
+11-8	nachnahme	NN	Nachnahme	_	O	O	
+11-9	von	APPR	von	_	O	O	
+11-10	dem	ART	die	_	O	O	
+11-11	Spediteur	NN	Spediteur	_	O	O	
+11-12	an	APPR	an	_	O	O	
+11-13	Ferroni	NN	<unknown>	_	O	O	
+11-14	bezahlen	VVINF	bezahlen	_	O	O	
+11-15	lassen	VVINF	lassen	_	O	O	
+11-16	.	$.	.	_	O	O	
+

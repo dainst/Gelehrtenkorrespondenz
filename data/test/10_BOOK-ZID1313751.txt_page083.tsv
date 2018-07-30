@@ -1,0 +1,245 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=4 Nachschrift.
+1-1	4	CARD	4	_	O	O	
+1-2	Nachschrift	NN	Nachschrift	_	O	O	
+1-3	.	$.	.	_	O	O	
+
+#id=2
+#text=Helbig an ~J~ Rom, 27. August 1863 r. 1/IX 63 Heute früh habe ich die Hübnerschen Correcturen erhalten.
+2-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	an	APPR	an	_	O	O	
+2-3	~J~	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	,	$,	,	_	O	O	
+2-6	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	r.	ADJA	<unknown>	_	O	O	
+2-11	1/IX	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-12	63	CARD	63	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-13	Heute	ADV	heute	_	O	O	
+2-14	früh	ADJD	früh	_	O	O	
+2-15	habe	VAFIN	haben	_	O	O	
+2-16	ich	PPER	ich	_	O	O	
+2-17	die	ART	die	_	O	O	
+2-18	Hübnerschen	ADJA	<unknown>	_	O	O	
+2-19	Correcturen	NN	<unknown>	_	O	O	
+2-20	erhalten	VVPP	erhalten	_	O	O	
+2-21	.	$.	.	_	O	O	
+
+#id=3
+#text=Da ich des Italienischen zu wenig mächtig bin, getraue ich mir nicht die einzelnen Stellen umzuarbeiten.
+3-1	Da	KOUS	da	_	O	O	
+3-2	ich	PPER	ich	_	O	O	
+3-3	des	ART	die	_	O	O	
+3-4	Italienischen	NN	Italienische	_	O	O	
+3-5	zu	APPR	zu	_	O	O	
+3-6	wenig	PIS	wenige	_	O	O	
+3-7	mächtig	ADJD	mächtig	_	O	O	
+3-8	bin	VAFIN	sein	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	getraue	VVFIN	getrauen	_	O	O	
+3-11	ich	PPER	ich	_	O	O	
+3-12	mir	PRF	ich	_	O	O	
+3-13	nicht	PTKNEG	nicht	_	O	O	
+3-14	die	ART	die	_	O	O	
+3-15	einzelnen	ADJA	einzeln	_	O	O	
+3-16	Stellen	NN	Stelle|Stellen	_	O	O	
+3-17	umzuarbeiten	VVIZU	umarbeiten	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich fürchte, daß die Sache gegenwärtig, da der Aufsatz impaginirt ist, sehr schwierig sein wird und die Verbesserungen vielleicht in einem Supplement werden beigegeben werden müssen.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	fürchte	VVFIN	fürchten	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	daß	KOUS	dass	_	O	O	
+4-5	die	ART	die	_	O	O	
+4-6	Sache	NN	Sache	_	O	O	
+4-7	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	da	KOUS	da	_	O	O	
+4-10	der	ART	die	_	O	O	
+4-11	Aufsatz	NN	Aufsatz	_	O	O	
+4-12	impaginirt	NN	<unknown>	_	O	O	
+4-13	ist	VAFIN	sein	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	sehr	ADV	sehr	_	O	O	
+4-16	schwierig	ADJD	schwierig	_	O	O	
+4-17	sein	VAINF	sein	_	O	O	
+4-18	wird	VAFIN	werden	_	O	O	
+4-19	und	KON	und	_	O	O	
+4-20	die	ART	die	_	O	O	
+4-21	Verbesserungen	NN	Verbesserung	_	O	O	
+4-22	vielleicht	ADV	vielleicht	_	O	O	
+4-23	in	APPR	in	_	O	O	
+4-24	einem	ART	eine	_	O	O	
+4-25	Supplement	NN	Supplement	_	O	O	
+4-26	werden	VAFIN	werden	_	O	O	
+4-27	beigegeben	VVPP	beigeben	_	O	O	
+4-28	werden	VAINF	werden	_	O	O	
+4-29	müssen	VMINF	müssen	_	O	O	
+4-30	.	$.	.	_	O	O	
+
+#id=5
+#text=Der Köhlersche Aufsatz, welcher nach den Anweisungen, die ich nach meiner Ankunft hier vorfand, vor dem Aufsatze über die Brücke gedruckt v/erden sollte, ist auch schon fertig gesetzt.
+5-1	Der	ART	die	_	O	O	
+5-2	Köhlersche	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	Aufsatz	NN	Aufsatz	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	welcher	PRELS	welche	_	O	O	
+5-6	nach	APPR	nach	_	O	O	
+5-7	den	ART	die	_	O	O	
+5-8	Anweisungen	NN	Anweisung	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	die	PRELS	die	_	O	O	
+5-11	ich	PPER	ich	_	O	O	
+5-12	nach	APPR	nach	_	O	O	
+5-13	meiner	PPOSAT	mein	_	O	O	
+5-14	Ankunft	NN	Ankunft	_	O	O	
+5-15	hier	ADV	hier	_	O	O	
+5-16	vorfand	VVFIN	vorfinden	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	vor	APPR	vor	_	O	O	
+5-19	dem	ART	die	_	O	O	
+5-20	Aufsatze	NN	<unknown>	_	O	O	
+5-21	über	APPR	über	_	O	O	
+5-22	die	ART	die	_	O	O	
+5-23	Brücke	NN	Brücke	_	O	O	
+5-24	gedruckt	VVPP	drucken	_	O	O	
+5-25	v/erden	NN	<unknown>	_	O	O	
+5-26	sollte	VMFIN	sollen	_	O	O	
+5-27	,	$,	,	_	O	O	
+5-28	ist	VAFIN	sein	_	O	O	
+5-29	auch	ADV	auch	_	O	O	
+5-30	schon	ADV	schon	_	O	O	
+5-31	fertig	ADJD	fertig	_	O	O	
+5-32	gesetzt	VVPP	setzen	_	O	O	
+5-33	.	$.	.	_	O	O	
+
+#id=6
+#text=Als er schon zu zwei Drittel gesetzt war, traf ein Köhlerscher Brief ein, worin er mir anzeigte, daß einige Stellen seines Aufsatzes durch die Heranziehung eines pisaner Monuments modificirt würden.
+6-1	Als	KOUS	als	_	O	O	
+6-2	er	PPER	er	_	O	O	
+6-3	schon	ADV	schon	_	O	O	
+6-4	zu	APPR	zu	_	O	O	
+6-5	zwei	CARD	zwei	_	O	O	
+6-6	Drittel	NN	Drittel	_	O	O	
+6-7	gesetzt	VVPP	setzen	_	O	O	
+6-8	war	VAFIN	sein	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	traf	VVFIN	treffen	_	O	O	
+6-11	ein	ART	eine	_	O	O	
+6-12	Köhlerscher	ADJA	<unknown>	_	O	O	
+6-13	Brief	NN	Brief	_	O	O	
+6-14	ein	PTKVZ	ein	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	worin	PWAV	worin	_	O	O	
+6-17	er	PPER	er	_	O	O	
+6-18	mir	PRF	ich	_	O	O	
+6-19	anzeigte	VVFIN	anzeigen	_	O	O	
+6-20	,	$,	,	_	O	O	
+6-21	daß	KOUS	dass	_	O	O	
+6-22	einige	PIAT	einige	_	O	O	
+6-23	Stellen	NN	Stelle|Stellen	_	O	O	
+6-24	seines	PPOSAT	sein	_	O	O	
+6-25	Aufsatzes	NN	Aufsatz	_	O	O	
+6-26	durch	APPR	durch	_	O	O	
+6-27	die	ART	die	_	O	O	
+6-28	Heranziehung	NN	Heranziehung	_	O	O	
+6-29	eines	ART	eine	_	O	O	
+6-30	pisaner	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-31	Monuments	NN	Monument	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-32	modificirt	NN	<unknown>	_	O	O	
+6-33	würden	VAFIN	werden	_	O	O	
+6-34	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich werde ihm daher die stamponi sotto fascia schicken.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	werde	VAFIN	werden	_	O	O	
+7-3	ihm	PPER	er	_	O	O	
+7-4	daher	PAV	daher	_	O	O	
+7-5	die	ART	die	_	O	O	
+7-6	stamponi	NE	<unknown>	_	O	O	
+7-7	sotto	NE	<unknown>	_	O	O	
+7-8	fascia	ADJD	<unknown>	_	O	O	
+7-9	schicken	VVINF	schicken	_	O	O	
+7-10	.	$.	.	_	O	O	
+
+#id=8
+#text=Meinen Sie nicht?
+8-1	Meinen	VVFIN	meinen	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	nicht	PTKNEG	nicht	_	O	O	
+8-4	?	$.	?	_	O	O	
+
+#id=9
+#text=Mein Aufsatz über die Vasen von Cervetri kann in acht Tagen druckfertig sein.
+9-1	Mein	PPOSAT	mein	_	O	O	
+9-2	Aufsatz	NN	Aufsatz	_	O	O	
+9-3	über	APPR	über	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	Vasen	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-6	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-OBJ	
+9-7	Cervetri	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+9-8	kann	VMFIN	können	_	O	O	
+9-9	in	APPR	in	_	O	O	
+9-10	acht	CARD	acht	_	O	O	
+9-11	Tagen	NN	Tag	_	O	O	
+9-12	druckfertig	ADJD	druckfertig	_	O	O	
+9-13	sein	VAINF	sein	_	O	O	
+9-14	.	$.	.	_	O	O	
+
+#id=10
+#text=Braun hat in einer Adunanz eine Zeichnung der Neapler Statue des sog. hermaphroditischen Bakchos vorgelegt.
+10-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	hat	VAFIN	haben	_	O	O	
+10-3	in	APPR	in	_	O	O	
+10-4	einer	ART	eine	_	O	O	
+10-5	Adunanz	NN	<unknown>	_	O	O	
+10-6	eine	ART	eine	_	O	O	
+10-7	Zeichnung	NN	Zeichnung	_	O	O	
+10-8	der	ART	die	_	O	O	
+10-9	Neapler	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+10-10	Statue	NN	Statue	_	I-webanno.custom.LetterEntity_	I-OBJ	
+10-11	des	ART	die	_	O	O	
+10-12	sog.	ADJA	sog.	_	O	O	
+10-13	hermaphroditischen	ADJA	<unknown>	_	O	O	
+10-14	Bakchos	NN	<unknown>	_	O	O	
+10-15	vorgelegt	VVPP	vorlegen	_	O	O	
+10-16	.	$.	.	_	O	O	
+
+#id=11
+#text=Kann ich dazu gelangen?
+11-1	Kann	VMFIN	können	_	O	O	
+11-2	ich	PPER	ich	_	O	O	
+11-3	dazu	PAV	dazu	_	O	O	
+11-4	gelangen	VVINF	gelangen	_	O	O	
+11-5	?	$.	?	_	O	O	
+
+#id=12
+#text=Ich glaube nachweisen zu können, daß die Statue aus den verschiedensten Elementen zusammengeflickt ist und die Annahme der Her-
+12-1	Ich	PPER	ich	_	O	O	
+12-2	glaube	VVFIN	glauben	_	O	O	
+12-3	nachweisen	VVINF	nachweisen	_	O	O	
+12-4	zu	PTKZU	zu	_	O	O	
+12-5	können	VMINF	können	_	O	O	
+12-6	,	$,	,	_	O	O	
+12-7	daß	KOUS	dass	_	O	O	
+12-8	die	ART	die	_	O	O	
+12-9	Statue	NN	Statue	_	B-webanno.custom.LetterEntity_	B-OBJ	
+12-10	aus	APPR	aus	_	O	O	
+12-11	den	ART	die	_	O	O	
+12-12	verschiedensten	ADJA	verschieden	_	O	O	
+12-13	Elementen	NN	Element	_	O	O	
+12-14	zusammengeflickt	VVPP	zusammenflicken	_	O	O	
+12-15	ist	VAFIN	sein	_	O	O	
+12-16	und	KON	und	_	O	O	
+12-17	die	ART	die	_	O	O	
+12-18	Annahme	NN	Annahme	_	O	O	
+12-19	der	ART	die	_	O	O	
+12-20	Her-	TRUNC	Her-	_	O	O	
+

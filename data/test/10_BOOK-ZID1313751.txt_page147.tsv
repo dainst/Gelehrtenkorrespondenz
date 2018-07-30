@@ -1,0 +1,248 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=,\ 31 Wolfgang Helbig an Heinrich Brunn Rom, 15. November 1880 r. 18/IX 80.
+1-1	,\	ADJA	<unknown>	_	O	O	
+1-2	31	CARD	31	_	O	O	
+1-3	Wolfgang	NN	Wolfgang	_	O	O	
+1-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1880	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	r.	ADJA	<unknown>	_	O	O	
+1-15	18/IX	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+1-16	80	CARD	80	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text=Roma, li 15. Nov.
+2-1	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-2	,	$,	,	_	O	O	
+2-3	li	ADJA	<unknown>	_	O	O	
+2-4	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	Nov.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=3
+#text=1880 Lieber Herr Professor Entschuldigen Sie mich tausend Male, wenn ich es wiederum wage, Sie mit dem Pileusaufsatze zu langweilen.
+3-1	1880	CARD	@card@	_	O	O	
+3-2	Lieber	ADJA	lieb	_	O	O	
+3-3	Herr	NN	Herr	_	O	O	
+3-4	Professor	NN	Professor	_	O	O	
+3-5	Entschuldigen	NN	Entschuldigen	_	O	O	
+3-6	Sie	PPER	Sie	_	O	O	
+3-7	mich	PPER	ich	_	O	O	
+3-8	tausend	CARD	tausend	_	O	O	
+3-9	Male	NN	Mal	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	wenn	KOUS	wenn	_	O	O	
+3-12	ich	PPER	ich	_	O	O	
+3-13	es	PPER	es	_	O	O	
+3-14	wiederum	ADV	wiederum	_	O	O	
+3-15	wage	VVFIN	wagen	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	Sie	PPER	Sie	_	O	O	
+3-18	mit	APPR	mit	_	O	O	
+3-19	dem	ART	die	_	O	O	
+3-20	Pileusaufsatze	NN	<unknown>	_	O	O	
+3-21	zu	PTKZU	zu	_	O	O	
+3-22	langweilen	VVINF	langweilen	_	O	O	
+3-23	.	$.	.	_	O	O	
+
+#id=4
+#text=Derselbe wurde am 23. October als recommandirte Kreuzbandsendung an Sie abgeschickt.
+4-1	Derselbe	PDS	derselbe	_	O	O	
+4-2	wurde	VAFIN	werden	_	O	O	
+4-3	am	APPRART	an	_	O	O	
+4-4	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-6	October	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-7	als	KOKOM	als	_	O	O	
+4-8	recommandirte	NN	<unknown>	_	O	O	
+4-9	Kreuzbandsendung	NN	<unknown>	_	O	O	
+4-10	an	APPR	an	_	O	O	
+4-11	Sie	PPER	Sie	_	O	O	
+4-12	abgeschickt	VVPP	abschicken	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Im Laufe des August schrieben Sie mir, Sie würden mir nach dem 6. November Mittheilung machen können, ob die Abhandlung in den Schriften der Münchener Akademie Aufnahme finden könne.
+5-1	Im	APPRART	in	_	O	O	
+5-2	Laufe	NN	Lauf	_	O	O	
+5-3	des	ART	die	_	O	O	
+5-4	August	NN	August	_	O	O	
+5-5	schrieben	VVFIN	schreiben	_	O	O	
+5-6	Sie	PPER	Sie	_	O	O	
+5-7	mir	PPER	ich	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	Sie	PPER	Sie	_	O	O	
+5-10	würden	VAFIN	werden	_	O	O	
+5-11	mir	PPER	ich	_	O	O	
+5-12	nach	APPR	nach	_	O	O	
+5-13	dem	ART	die	_	O	O	
+5-14	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-15	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-16	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-17	Mittheilung	NN	<unknown>	_	O	O	
+5-18	machen	VVINF	machen	_	O	O	
+5-19	können	VMFIN	können	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	ob	KOUS	ob	_	O	O	
+5-22	die	ART	die	_	O	O	
+5-23	Abhandlung	NN	Abhandlung	_	O	O	
+5-24	in	APPR	in	_	O	O	
+5-25	den	ART	die	_	O	O	
+5-26	Schriften	NN	Schrift	_	O	O	
+5-27	der	ART	die	_	O	O	
+5-28	Münchener	ADJA	Münchener	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-29	Akademie	NN	Akademie	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-30	Aufnahme	NN	Aufnahme	_	O	O	
+5-31	finden	VVINF	finden	_	O	O	
+5-32	könne	VMFIN	können	_	O	O	
+5-33	.	$.	.	_	O	O	
+
+#id=6
+#text=Nun ist es ja wohl möglich, daß sich die Entscheidung der Sache länger, als Sie erwarteten, hinauszieht.
+6-1	Nun	ADV	nun	_	O	O	
+6-2	ist	VAFIN	sein	_	O	O	
+6-3	es	PPER	es	_	O	O	
+6-4	ja	ADV	ja	_	O	O	
+6-5	wohl	ADV	wohl	_	O	O	
+6-6	möglich	ADJD	möglich	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	daß	KOUS	dass	_	O	O	
+6-9	sich	PRF	sich	_	O	O	
+6-10	die	ART	die	_	O	O	
+6-11	Entscheidung	NN	Entscheidung	_	O	O	
+6-12	der	ART	die	_	O	O	
+6-13	Sache	NN	Sache	_	O	O	
+6-14	länger	ADJD	lang	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	als	KOUS	als	_	O	O	
+6-17	Sie	PPER	Sie	_	O	O	
+6-18	erwarteten	VVFIN	erwarten	_	O	O	
+6-19	,	$,	,	_	O	O	
+6-20	hinauszieht	VVFIN	hinausziehen	_	O	O	
+6-21	.	$.	.	_	O	O	
+
+#id=7
+#text=Anderer Seits aber bin ich, da uns neulich eine recommandirte Kreuzbandsendung verloren gegangen ist, bedenklich geworden und möchte ich sehr gern wissen, ob mein Manuscript richtig in Ihre Hände gelangt ist.
+7-1	Anderer	PIAT	andere	_	O	O	
+7-2	Seits	NN	<unknown>	_	O	O	
+7-3	aber	ADV	aber	_	O	O	
+7-4	bin	VAFIN	sein	_	O	O	
+7-5	ich	PPER	ich	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	da	KOUS	da	_	O	O	
+7-8	uns	PPER	wir	_	O	O	
+7-9	neulich	ADV	neulich	_	O	O	
+7-10	eine	ART	eine	_	O	O	
+7-11	recommandirte	NN	<unknown>	_	O	O	
+7-12	Kreuzbandsendung	NN	<unknown>	_	O	O	
+7-13	verloren	VVPP	verlieren	_	O	O	
+7-14	gegangen	VVPP	gehen	_	O	O	
+7-15	ist	VAFIN	sein	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	bedenklich	ADJD	bedenklich	_	O	O	
+7-18	geworden	VAPP	werden	_	O	O	
+7-19	und	KON	und	_	O	O	
+7-20	möchte	VMFIN	mögen	_	O	O	
+7-21	ich	PPER	ich	_	O	O	
+7-22	sehr	ADV	sehr	_	O	O	
+7-23	gern	ADV	gern	_	O	O	
+7-24	wissen	VVINF	wissen	_	O	O	
+7-25	,	$,	,	_	O	O	
+7-26	ob	KOUS	ob	_	O	O	
+7-27	mein	PPOSAT	mein	_	O	O	
+7-28	Manuscript	NN	<unknown>	_	O	O	
+7-29	richtig	ADJD	richtig	_	O	O	
+7-30	in	APPR	in	_	O	O	
+7-31	Ihre	PPOSAT	ihr	_	O	O	
+7-32	Hände	NN	Hand	_	O	O	
+7-33	gelangt	VVPP	gelangen|langen	_	O	O	
+7-34	ist	VAFIN	sein	_	O	O	
+7-35	.	$.	.	_	O	O	
+
+#id=8
+#text=Sie würden mir demnach einen großen Gefallen erweisen, wenn Sie mir zwei Zeilen auf einer Correspondenzkarte schrieben, ob Sie meine Sendung erhalten haben.
+8-1	Sie	PPER	Sie	_	O	O	
+8-2	würden	VAFIN	werden	_	O	O	
+8-3	mir	PPER	ich	_	O	O	
+8-4	demnach	ADV	demnach	_	O	O	
+8-5	einen	ART	eine	_	O	O	
+8-6	großen	ADJA	groß	_	O	O	
+8-7	Gefallen	NN	Gefallen	_	O	O	
+8-8	erweisen	VVINF	erweisen	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	wenn	KOUS	wenn	_	O	O	
+8-11	Sie	PPER	Sie	_	O	O	
+8-12	mir	PPER	ich	_	O	O	
+8-13	zwei	CARD	zwei	_	O	O	
+8-14	Zeilen	NN	Zeile	_	O	O	
+8-15	auf	APPR	auf	_	O	O	
+8-16	einer	ART	eine	_	O	O	
+8-17	Correspondenzkarte	NN	<unknown>	_	O	O	
+8-18	schrieben	VVFIN	schreiben	_	O	O	
+8-19	,	$,	,	_	O	O	
+8-20	ob	KOUS	ob	_	O	O	
+8-21	Sie	PPER	Sie	_	O	O	
+8-22	meine	PPOSAT	mein	_	O	O	
+8-23	Sendung	NN	Sendung	_	O	O	
+8-24	erhalten	VVPP	erhalten	_	O	O	
+8-25	haben	VAFIN	haben	_	O	O	
+8-26	.	$.	.	_	O	O	
+
+#id=9
+#text=Vor 14 Tagen habe ich eine höchst ermüdende, aber sehr interesante Reise über Canino, Celere, Ischia, Farnese, Pitigliano, Sovana gemacht.
+9-1	Vor	APPR	vor	_	O	O	
+9-2	14	CARD	14	_	O	O	
+9-3	Tagen	NN	Tag	_	O	O	
+9-4	habe	VAFIN	haben	_	O	O	
+9-5	ich	PPER	ich	_	O	O	
+9-6	eine	ART	eine	_	O	O	
+9-7	höchst	ADJD	hochöchst	_	O	O	
+9-8	ermüdende	ADJA	ermüdend	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	aber	KON	aber	_	O	O	
+9-11	sehr	ADV	sehr	_	O	O	
+9-12	interesante	ADJA	<unknown>	_	O	O	
+9-13	Reise	NN	Reise	_	O	O	
+9-14	über	APPR	über	_	O	O	
+9-15	Canino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-16	,	$,	,	_	O	O	
+9-17	Celere	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-18	,	$,	,	_	O	O	
+9-19	Ischia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-20	,	$,	,	_	O	O	
+9-21	Farnese	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-22	,	$,	,	_	O	O	
+9-23	Pitigliano	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-24	,	$,	,	_	O	O	
+9-25	Sovana	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-26	gemacht	VVPP	machen	_	O	O	
+9-27	.	$.	.	_	O	O	
+
+#id=10
+#text=Der Reichthum an etruskischen Resten in diesen Gegenden ist colossal.
+10-1	Der	ART	die	_	O	O	
+10-2	Reichthum	NN	<unknown>	_	O	O	
+10-3	an	APPR	an	_	O	O	
+10-4	etruskischen	ADJA	<unknown>	_	O	O	
+10-5	Resten	NN	Rest	_	O	O	
+10-6	in	APPR	in	_	O	O	
+10-7	diesen	PDAT	dies	_	O	O	
+10-8	Gegenden	NN	Gegend	_	O	O	
+10-9	ist	VAFIN	sein	_	O	O	
+10-10	colossal	ADJD	<unknown>	_	O	O	
+10-11	.	$.	.	_	O	O	
+
+#id=11
+#text=Diese Gegend
+11-1	Diese	PDAT	dies	_	O	O	
+11-2	Gegend	NN	Gegend	_	O	O	
+

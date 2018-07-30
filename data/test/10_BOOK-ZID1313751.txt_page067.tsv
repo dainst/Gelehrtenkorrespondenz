@@ -1,0 +1,261 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an ~cL(..~,.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	~cL(..~	ADJA	<unknown>	_	O	O	
+1-4	,	$,	,	_	O	O	
+1-5	.	$.	.	_	O	O	
+
+#id=2
+#text=Rom, 19. Juli 1863 r.
+2-1	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-2	,	$,	,	_	O	O	
+2-3	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-4	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-5	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	r.	VVFIN	<unknown>	_	O	O	
+
+#id=3
+#text=22/VII 63 Rom 19. Juli 1863. Geehrtester Herr Professor Ihren eben erhaltenen Brief beantworte ich sofort.
+3-1	22/VII	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-2	63	CARD	63	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-3	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-4	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-6	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-7	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	.	$.	.	_	O	O	
+3-9	Geehrtester	ADJA	<unknown>	_	O	O	
+3-10	Herr	NN	Herr	_	O	O	
+3-11	Professor	NN	Professor	_	O	O	
+3-12	Ihren	PPOSAT	ihr	_	O	O	
+3-13	eben	ADV	eben	_	O	O	
+3-14	erhaltenen	ADJA	erhalten	_	O	O	
+3-15	Brief	NN	Brief	_	O	O	
+3-16	beantworte	VVFIN	beantworten	_	O	O	
+3-17	ich	PPER	ich	_	O	O	
+3-18	sofort	ADV	sofort	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Neues giebt es nicht.
+4-1	Neues	NN	Neue	_	O	O	
+4-2	giebt	VVFIN	<unknown>	_	O	O	
+4-3	es	PPER	es	_	O	O	
+4-4	nicht	PTKNEG	nicht	_	O	O	
+4-5	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Angelegenheit beiliegenden Schreibens können Sie ebenso gut erledigen als Henzen, an welchen es gerichtet war.
+5-1	Die	ART	die	_	O	O	
+5-2	Angelegenheit	NN	Angelegenheit	_	O	O	
+5-3	beiliegenden	ADJA	beiliegend	_	O	O	
+5-4	Schreibens	NN	Schreiben	_	O	O	
+5-5	können	VMFIN	können	_	O	O	
+5-6	Sie	PPER	Sie	_	O	O	
+5-7	ebenso	ADV	ebenso	_	O	O	
+5-8	gut	ADJD	gut	_	O	O	
+5-9	erledigen	VVFIN	erledigen	_	O	O	
+5-10	als	KOKOM	als	_	O	O	
+5-11	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-12	,	$,	,	_	O	O	
+5-13	an	APPR	an	_	O	O	
+5-14	welchen	PRELS	welche	_	O	O	
+5-15	es	PPER	es	_	O	O	
+5-16	gerichtet	VVPP	richten	_	O	O	
+5-17	war	VAFIN	sein	_	O	O	
+5-18	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Arbeit für Gerhard hat Rossi übernommen.
+6-1	Die	ART	die	_	O	O	
+6-2	Arbeit	NN	Arbeit	_	O	O	
+6-3	für	APPR	für	_	O	O	
+6-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	hat	VAFIN	haben	_	O	O	
+6-6	Rossi	NE	Rossi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-7	übernommen	VVPP	übernehmen	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=Mariani, welcher heute früh zu mir zu kommen versprach, um mir Definitives über den Termin seiner Abreise zu sagen, hat sich nicht eingestellt.
+7-1	Mariani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	,	$,	,	_	O	O	
+7-3	welcher	PRELS	welche	_	O	O	
+7-4	heute	ADV	heute	_	O	O	
+7-5	früh	ADJD	früh	_	O	O	
+7-6	zu	APPR	zu	_	O	O	
+7-7	mir	PPER	ich	_	O	O	
+7-8	zu	PTKZU	zu	_	O	O	
+7-9	kommen	VVINF	kommen	_	O	O	
+7-10	versprach	VVFIN	versprechen	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	um	KOUI	um	_	O	O	
+7-13	mir	PPER	ich	_	O	O	
+7-14	Definitives	NN	Definitive	_	O	O	
+7-15	über	APPR	über	_	O	O	
+7-16	den	ART	die	_	O	O	
+7-17	Termin	NN	Termin	_	O	O	
+7-18	seiner	PPOSAT	sein	_	O	O	
+7-19	Abreise	NN	Abreise	_	O	O	
+7-20	zu	PTKZU	zu	_	O	O	
+7-21	sagen	VVINF	sagen	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	hat	VAFIN	haben	_	O	O	
+7-24	sich	PRF	sich	_	O	O	
+7-25	nicht	PTKNEG	nicht	_	O	O	
+7-26	eingestellt	VVPP	einstellen	_	O	O	
+7-27	.	$.	.	_	O	O	
+
+#id=8
+#text=Lovatti hat versprochen, sein Möglichstes zu thun, um Ritschl den gewünschten Abdruck zu verschaffen.
+8-1	Lovatti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	hat	VAFIN	haben	_	O	O	
+8-3	versprochen	VVPP	versprechen	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	sein	PPOSAT	sein	_	O	O	
+8-6	Möglichstes	NN	Möglichstes	_	O	O	
+8-7	zu	APPR	zu	_	O	O	
+8-8	thun	NE	<unknown>	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	um	APPR	um	_	O	O	
+8-11	Ritschl	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-12	den	ART	die	_	O	O	
+8-13	gewünschten	ADJA	gewünscht	_	O	O	
+8-14	Abdruck	NN	Abdruck	_	O	O	
+8-15	zu	PTKZU	zu	_	O	O	
+8-16	verschaffen	VVINF	verschaffen	_	O	O	
+8-17	.	$.	.	_	O	O	
+
+#id=9
+#text=Über die Sendung der Zeichnung des Alkibiadeskopfes an Jahn, haben Sie mir in demselben Briefe zwei verschiedene Anweisungen gegeben, einmal sie direct an Jahn, das andere Mal sie mit den Zeichnungen der Brücke von Alcantara an Sie zu schicken.
+9-1	Über	APPR	über	_	O	O	
+9-2	die	ART	die	_	O	O	
+9-3	Sendung	NN	Sendung	_	O	O	
+9-4	der	ART	die	_	O	O	
+9-5	Zeichnung	NN	Zeichnung	_	O	O	
+9-6	des	ART	die	_	O	O	
+9-7	Alkibiadeskopfes	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-8	an	APPR	an	_	O	O	
+9-9	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-10	,	$,	,	_	O	O	
+9-11	haben	VAFIN	haben	_	O	O	
+9-12	Sie	PPER	Sie	_	O	O	
+9-13	mir	PRF	ich	_	O	O	
+9-14	in	APPR	in	_	O	O	
+9-15	demselben	PDAT	dieselb	_	O	O	
+9-16	Briefe	NN	Brief	_	O	O	
+9-17	zwei	CARD	zwei	_	O	O	
+9-18	verschiedene	ADJA	verschieden	_	O	O	
+9-19	Anweisungen	NN	Anweisung	_	O	O	
+9-20	gegeben	VVPP	geben	_	O	O	
+9-21	,	$,	,	_	O	O	
+9-22	einmal	ADV	einmal	_	O	O	
+9-23	sie	PPER	sie	_	O	O	
+9-24	direct	NE	direct	_	O	O	
+9-25	an	APPR	an	_	O	O	
+9-26	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-27	,	$,	,	_	O	O	
+9-28	das	PRELS	die	_	O	O	
+9-29	andere	PIS	andere	_	O	O	
+9-30	Mal	ADV	mal	_	O	O	
+9-31	sie	PPER	sie	_	O	O	
+9-32	mit	APPR	mit	_	O	O	
+9-33	den	ART	die	_	O	O	
+9-34	Zeichnungen	NN	Zeichnung	_	O	O	
+9-35	der	ART	die	_	O	O	
+9-36	Brücke	NN	Brücke	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-37	von	APPR	von	_	O	O	
+9-38	Alcantara	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-39	an	APPR	an	_	O	O	
+9-40	Sie	PPER	Sie	_	O	O	
+9-41	zu	PTKZU	zu	_	O	O	
+9-42	schicken	VVINF	schicken	_	O	O	
+9-43	.	$.	.	_	O	O	
+
+#id=10
+#text=Welche von beiden ist die endgültige?
+10-1	Welche	PIS	welche	_	O	O	
+10-2	von	APPR	von	_	O	O	
+10-3	beiden	PIS	beide	_	O	O	
+10-4	ist	VAFIN	sein	_	O	O	
+10-5	die	ART	die	_	O	O	
+10-6	endgültige	ADJA	endgültig	_	O	O	
+10-7	?	$.	?	_	O	O	
+
+#id=11
+#text=Meine Estratti haben sich im Camerino gefunden.
+11-1	Meine	PPOSAT	mein	_	O	O	
+11-2	Estratti	NN	<unknown>	_	O	O	
+11-3	haben	VAFIN	haben	_	O	O	
+11-4	sich	PRF	sich	_	O	O	
+11-5	im	APPRART	in	_	O	O	
+11-6	Camerino	NE	<unknown>	_	O	O	
+11-7	gefunden	VVPP	finden	_	O	O	
+11-8	.	$.	.	_	O	O	
+
+#id=12
+#text=Ich bitte Sie möglichst bald um die Tafel.
+12-1	Ich	PPER	ich	_	O	O	
+12-2	bitte	VVFIN	bitten	_	O	O	
+12-3	Sie	PPER	Sie	_	O	O	
+12-4	möglichst	ADV	möglichst	_	O	O	
+12-5	bald	ADV	bald	_	O	O	
+12-6	um	APPR	um	_	O	O	
+12-7	die	ART	die	_	O	O	
+12-8	Tafel	NN	Tafel	_	O	O	
+12-9	.	$.	.	_	O	O	
+
+#id=13
+#text=Heute Nachmittag hoffe ich den Hübnerschen Aufsatz über das Mosaik von Barcellona impaginirt zu erhalten.
+13-1	Heute	ADV	heute	_	O	O	
+13-2	Nachmittag	ADV	nachmittag	_	O	O	
+13-3	hoffe	VVFIN	hoffen	_	O	O	
+13-4	ich	PPER	ich	_	O	O	
+13-5	den	ART	die	_	O	O	
+13-6	Hübnerschen	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-7	Aufsatz	NN	Aufsatz	_	O	O	
+13-8	über	APPR	über	_	O	O	
+13-9	das	ART	die	_	O	O	
+13-10	Mosaik	NN	Mosaik	_	B-webanno.custom.LetterEntity_	B-OBJ	
+13-11	von	APPR	von	_	O	O	
+13-12	Barcellona	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-13	impaginirt	NN	<unknown>	_	O	O	
+13-14	zu	PTKZU	zu	_	O	O	
+13-15	erhalten	VVINF	erhalten	_	O	O	
+13-16	.	$.	.	_	O	O	
+
+#id=14
+#text=Es ist sehr auffällig, wie viele wichtige Monumente Hübner in seinem Aufsatze übersehen hat.
+14-1	Es	PPER	es	_	O	O	
+14-2	ist	VAFIN	sein	_	O	O	
+14-3	sehr	ADV	sehr	_	O	O	
+14-4	auffällig	ADJD	auffällig	_	O	O	
+14-5	,	$,	,	_	O	O	
+14-6	wie	KOUS	wie	_	O	O	
+14-7	viele	PIAT	viele	_	O	O	
+14-8	wichtige	ADJA	wichtig	_	O	O	
+14-9	Monumente	NN	Monument	_	O	O	
+14-10	Hübner	NE	Hübner	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-11	in	APPR	in	_	O	O	
+14-12	seinem	PPOSAT	sein	_	O	O	
+14-13	Aufsatze	NN	<unknown>	_	O	O	
+14-14	übersehen	VVPP	übersehen	_	O	O	
+14-15	hat	VAFIN	haben	_	O	O	
+14-16	.	$.	.	_	O	O	
+
+#id=15
+#text=Wenn Welcker von Vasen mit Apoll und Daphne spricht,
+15-1	Wenn	KOUS	wenn	_	O	O	
+15-2	Welcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-3	von	APPR	von	_	O	O	
+15-4	Vasen	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+15-5	mit	APPR	mit	_	O	O	
+15-6	Apoll	NN	Apoll	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-7	und	KON	und	_	O	O	
+15-8	Daphne	NE	Daphne	_	O	O	
+15-9	spricht	VVFIN	sprechen	_	O	O	
+15-10	,	$,	,	_	O	O	
+

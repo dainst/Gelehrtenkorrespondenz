@@ -1,0 +1,98 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=59 Wolfgang Helbig an die Akademische Buchdruckerei München Auf Seite 4 Brief der Akademischen Buchdruckerei München an Heinrich Brunn vom 12. Januar 1881 Roma, li 9. Januar 1881 Verehrtester Herr Herr Professor Brunn wird Ihnen entweder bereits die Correcturen von Bogen 34 und 35 zugestellt und Sie sich dabei überzeugt haben, daß auch bei ihnen wegen der Menge der nachgetragenen Rückverweisungen eine zweite Revision nöthig ist.
+1-1	59	CARD	59	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	die	ART	die	_	O	O	
+1-6	Akademische	ADJA	akademisch	_	O	O	
+1-7	Buchdruckerei	NN	Buchdruckerei	_	O	O	
+1-8	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-9	Auf	APPR	auf	_	O	O	
+1-10	Seite	NN	Seite	_	O	O	
+1-11	4	CARD	4	_	O	O	
+1-12	Brief	NN	Brief	_	O	O	
+1-13	der	ART	die	_	O	O	
+1-14	Akademischen	ADJA	akademisch	_	O	O	
+1-15	Buchdruckerei	NN	Buchdruckerei	_	O	O	
+1-16	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-17	an	APPR	an	_	O	O	
+1-18	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-19	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-20	vom	APPRART	von	_	O	O	
+1-21	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-22	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-23	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-24	1881	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-25	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-26	,	$,	,	_	O	O	
+1-27	li	ADJD	<unknown>	_	O	O	
+1-28	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-29	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-30	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-31	1881	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-32	Verehrtester	NN	<unknown>	_	O	O	
+1-33	Herr	NN	Herr	_	O	O	
+1-34	Herr	NN	Herr	_	O	O	
+1-35	Professor	NN	Professor	_	O	O	
+1-36	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-37	wird	VAFIN	werden	_	O	O	
+1-38	Ihnen	PPER	Sie	_	O	O	
+1-39	entweder	KON	entweder	_	O	O	
+1-40	bereits	ADV	bereits	_	O	O	
+1-41	die	ART	die	_	O	O	
+1-42	Correcturen	NN	<unknown>	_	O	O	
+1-43	von	APPR	von	_	O	O	
+1-44	Bogen	NN	Bogen	_	O	O	
+1-45	34	CARD	@card@	_	O	O	
+1-46	und	KON	und	_	O	O	
+1-47	35	CARD	35	_	O	O	
+1-48	zugestellt	VVPP	zustellen	_	O	O	
+1-49	und	KON	und	_	O	O	
+1-50	Sie	PPER	Sie	_	O	O	
+1-51	sich	PRF	sich	_	O	O	
+1-52	dabei	PAV	dabei	_	O	O	
+1-53	überzeugt	VVPP	überzeugen	_	O	O	
+1-54	haben	VAINF	haben	_	O	O	
+1-55	,	$,	,	_	O	O	
+1-56	daß	KOUS	dass	_	O	O	
+1-57	auch	ADV	auch	_	O	O	
+1-58	bei	APPR	bei	_	O	O	
+1-59	ihnen	PPER	sie	_	O	O	
+1-60	wegen	APPR	wegen	_	O	O	
+1-61	der	ART	die	_	O	O	
+1-62	Menge	NN	Menge	_	O	O	
+1-63	der	ART	die	_	O	O	
+1-64	nachgetragenen	ADJA	<unknown>	_	O	O	
+1-65	Rückverweisungen	NN	<unknown>	_	O	O	
+1-66	eine	ART	eine	_	O	O	
+1-67	zweite	ADJA	zweit	_	O	O	
+1-68	Revision	NN	Revision	_	O	O	
+1-69	nöthig	ADJD	<unknown>	_	O	O	
+1-70	ist	VAFIN	sein	_	O	O	
+1-71	.	$.	.	_	O	O	
+
+#id=2
+#text=Sie können sich darauf verlassen, daß ich sie umgehend zurückschicken werde.
+2-1	Sie	PPER	Sie	_	O	O	
+2-2	können	VMFIN	können	_	O	O	
+2-3	sich	PRF	sich	_	O	O	
+2-4	darauf	PAV	darauf	_	O	O	
+2-5	verlassen	VVPP	verlassen	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	daß	KOUS	dass	_	O	O	
+2-8	ich	PPER	ich	_	O	O	
+2-9	sie	PPER	sie	_	O	O	
+2-10	umgehend	ADJD	umgehend	_	O	O	
+2-11	zurückschicken	VVINF	zurückschicken	_	O	O	
+2-12	werde	VAFIN	werden	_	O	O	
+2-13	.	$.	.	_	O	O	
+
+#id=3
+#text=Hochachtungsvoll und ergebenst Helbig
+3-1	Hochachtungsvoll	ADV	hochachtungsvoll	_	O	O	
+3-2	und	KON	und	_	O	O	
+3-3	ergebenst	ADJD	ergeben	_	O	O	
+3-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

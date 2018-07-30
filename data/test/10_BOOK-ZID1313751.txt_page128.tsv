@@ -1,0 +1,93 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=18 4 Wolfgang Helbig an Heinrich Brunn Rom, 8. Dezember 1874 Julius hält sich etwas vom Institute zurück und läßt sich selten sehen.
+1-1	18	CARD	18	_	O	O	
+1-2	4	CARD	4	_	O	O	
+1-3	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Julius	NE	Julius	_	O	O	
+1-15	hält	VVFIN	halten	_	O	O	
+1-16	sich	PRF	sich	_	O	O	
+1-17	etwas	ADV	etwas	_	O	O	
+1-18	vom	APPRART	von	_	O	O	
+1-19	Institute	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-20	zurück	PTKVZ	zurück	_	O	O	
+1-21	und	KON	und	_	O	O	
+1-22	läßt	VVFIN	lassen	_	O	O	
+1-23	sich	PRF	sich	_	O	O	
+1-24	selten	ADJD	selten	_	O	O	
+1-25	sehen	VVINF	sehen	_	O	O	
+1-26	.	$.	.	_	O	O	
+
+#id=2
+#text=Was mich .. betrifft, so nehme ich es ihm nicht übel, daß er seine Unabhängigkeit genießt.
+2-1	Was	PWS	was	_	O	O	
+2-2	mich	PPER	ich	_	O	O	
+2-3	.	$.	.	_	O	O	
+2-4	.	$.	.	_	O	O	
+2-5	betrifft	VVFIN	betreffen	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	so	ADV	so	_	O	O	
+2-8	nehme	VVFIN	nehmen	_	O	O	
+2-9	ich	PPER	ich	_	O	O	
+2-10	es	PPER	es	_	O	O	
+2-11	ihm	PPER	er	_	O	O	
+2-12	nicht	PTKNEG	nicht	_	O	O	
+2-13	übel	ADJD	übel	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	daß	KOUS	dass	_	O	O	
+2-16	er	PPER	er	_	O	O	
+2-17	seine	PPOSAT	sein	_	O	O	
+2-18	Unabhängigkeit	NN	Unabhängigkeit	_	O	O	
+2-19	genießt	VVFIN	genießen	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Doch ist man, wie Sie wissen, in Berlin in dieser Hinsicht sehr sensibel.
+3-1	Doch	ADV	doch	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	man	PIS	man	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	wie	KOUS	wie	_	O	O	
+3-6	Sie	PPER	Sie	_	O	O	
+3-7	wissen	VVFIN	wissen	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	in	APPR	in	_	O	O	
+3-10	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-11	in	APPR	in	_	O	O	
+3-12	dieser	PDAT	dies	_	O	O	
+3-13	Hinsicht	NN	Hinsicht	_	O	O	
+3-14	sehr	ADV	sehr	_	O	O	
+3-15	sensibel	ADJD	sensibel	_	O	O	
+3-16	.	$.	.	_	O	O	
+
+#id=4
+#text=Herzliche Grüße an die Ihrigen, denen es hoffentlich gut geht, und buona festa Ihr ergebener Helbig
+4-1	Herzliche	ADJA	herzlich	_	O	O	
+4-2	Grüße	NN	Gruß	_	O	O	
+4-3	an	APPR	an	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	Ihrigen	NN	<unknown>	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	denen	PRELS	die	_	O	O	
+4-8	es	PPER	es	_	O	O	
+4-9	hoffentlich	ADV	hoffentlich	_	O	O	
+4-10	gut	ADJD	gut	_	O	O	
+4-11	geht	VVFIN	gehen	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	und	KON	und	_	O	O	
+4-14	buona	NE	<unknown>	_	O	O	
+4-15	festa	NE	<unknown>	_	O	O	
+4-16	Ihr	PPOSAT	ihr	_	O	O	
+4-17	ergebener	ADJA	ergeben	_	O	O	
+4-18	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

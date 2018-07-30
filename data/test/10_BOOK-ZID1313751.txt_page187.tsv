@@ -1,0 +1,272 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=47 2 Wolfgang Helbig an Heinrich Brunn Rom, 22. Juni 1885 stärksten Weise kritisirt.
+1-1	47	CARD	47	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1885	CARD	1885	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	stärksten	ADJA	stark	_	O	O	
+1-15	Weise	NN	Weise	_	O	O	
+1-16	kritisirt	ADJD	<unknown>	_	O	O	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text="L'Istituto senza Mommsen e una mostruosita" diese Melodie hört man überall in den verschiedenen Tonarten wiederklingen.
+2-1	"	$(	"	_	O	O	
+2-2	L'Istituto	NN	<unknown>	_	O	O	
+2-3	senza	NE	<unknown>	_	O	O	
+2-4	Mommsen	NN	<unknown>	_	O	O	
+2-5	e	ADJA	<unknown>	_	O	O	
+2-6	una	ADJA	<unknown>	_	O	O	
+2-7	mostruosita	NE	<unknown>	_	O	O	
+2-8	"	$(	"	_	O	O	
+2-9	diese	PDAT	dies	_	O	O	
+2-10	Melodie	NN	Melodie	_	O	O	
+2-11	hört	VVFIN	hören	_	O	O	
+2-12	man	PIS	man	_	O	O	
+2-13	überall	ADV	überall	_	O	O	
+2-14	in	APPR	in	_	O	O	
+2-15	den	ART	die	_	O	O	
+2-16	verschiedenen	ADJA	verschieden	_	O	O	
+2-17	Tonarten	NN	Tonart	_	O	O	
+2-18	wiederklingen	VVINF	<unknown>	_	O	O	
+2-19	.	$.	.	_	O	O	
+
+#id=3
+#text=Wie es in Italien nicht anders zu erwarten war, wird die Politik in die Sache hineingemengt und hat sich die Version ausgebildet, daß Mommsen aus Liebedienerei gegen Bismark aus der Central Direction hinausgebissen worden sei.
+3-1	Wie	KOUS	wie	_	O	O	
+3-2	es	PPER	es	_	O	O	
+3-3	in	APPR	in	_	O	O	
+3-4	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-5	nicht	PTKNEG	nicht	_	O	O	
+3-6	anders	ADV	anders	_	O	O	
+3-7	zu	PTKZU	zu	_	O	O	
+3-8	erwarten	VVINF	erwarten	_	O	O	
+3-9	war	VAFIN	sein	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	wird	VAFIN	werden	_	O	O	
+3-12	die	ART	die	_	O	O	
+3-13	Politik	NN	Politik	_	O	O	
+3-14	in	APPR	in	_	O	O	
+3-15	die	ART	die	_	O	O	
+3-16	Sache	NN	Sache	_	O	O	
+3-17	hineingemengt	VVPP	hineinmengen	_	O	O	
+3-18	und	KON	und	_	O	O	
+3-19	hat	VAFIN	haben	_	O	O	
+3-20	sich	PRF	sich	_	O	O	
+3-21	die	ART	die	_	O	O	
+3-22	Version	NN	Version	_	O	O	
+3-23	ausgebildet	VVPP	ausbilden	_	O	O	
+3-24	,	$,	,	_	O	O	
+3-25	daß	KOUS	dass	_	O	O	
+3-26	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-27	aus	APPR	aus	_	O	O	
+3-28	Liebedienerei	NN	<unknown>	_	O	O	
+3-29	gegen	APPR	gegen	_	O	O	
+3-30	Bismark	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-31	aus	APPR	aus	_	O	O	
+3-32	der	ART	die	_	O	O	
+3-33	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-34	Direction	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+3-35	hinausgebissen	VVPP	<unknown>	_	O	O	
+3-36	worden	VAPP	werden	_	O	O	
+3-37	sei	VAFIN	sein	_	O	O	
+3-38	.	$.	.	_	O	O	
+
+#id=4
+#text=Ebenso erregte die Kunde, daß Henzen seine Entlassung genommen und daß ich wahrscheinlich dasselbe thun werde, allenthalben das lebhafteste Mißfallen.
+4-1	Ebenso	ADV	ebenso	_	O	O	
+4-2	erregte	VVFIN	erregen	_	O	O	
+4-3	die	ART	die	_	O	O	
+4-4	Kunde	NN	Kunde	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	daß	KOUS	dass	_	O	O	
+4-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-8	seine	PPOSAT	sein	_	O	O	
+4-9	Entlassung	NN	Entlassung	_	O	O	
+4-10	genommen	VVPP	nehmen	_	O	O	
+4-11	und	KON	und	_	O	O	
+4-12	daß	KOUS	dass	_	O	O	
+4-13	ich	PPER	ich	_	O	O	
+4-14	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+4-15	dasselbe	PDAT	dasselb	_	O	O	
+4-16	thun	NN	<unknown>	_	O	O	
+4-17	werde	VAFIN	werden	_	O	O	
+4-18	,	$,	,	_	O	O	
+4-19	allenthalben	ADV	allenthalben	_	O	O	
+4-20	das	ART	die	_	O	O	
+4-21	lebhafteste	ADJA	lebhaft	_	O	O	
+4-22	Mißfallen	NN	Missfallen	_	O	O	
+4-23	.	$.	.	_	O	O	
+
+#id=5
+#text=Barracco, an dem die ganze Sippe der süditalienischen Grundbesitzer hängt, hat rund heraus erklärt, daß er mit dem Institute unter den neuen Verhältnissen nichts mehr zu thun haben wolle.
+5-1	Barracco	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	,	$,	,	_	O	O	
+5-3	an	APPR	an	_	O	O	
+5-4	dem	PRELS	die	_	O	O	
+5-5	die	ART	die	_	O	O	
+5-6	ganze	ADJA	ganz	_	O	O	
+5-7	Sippe	NN	Sippe	_	O	O	
+5-8	der	ART	die	_	O	O	
+5-9	süditalienischen	ADJA	süditalienisch	_	O	O	
+5-10	Grundbesitzer	NN	Grundbesitzer	_	O	O	
+5-11	hängt	VVFIN	hängen	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	hat	VAFIN	haben	_	O	O	
+5-14	rund	ADV	rund	_	O	O	
+5-15	heraus	ADV	heraus	_	O	O	
+5-16	erklärt	VVPP	erklären	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	daß	KOUS	dass	_	O	O	
+5-19	er	PPER	er	_	O	O	
+5-20	mit	APPR	mit	_	O	O	
+5-21	dem	ART	die	_	O	O	
+5-22	Institute	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-23	unter	APPR	unter	_	O	O	
+5-24	den	ART	die	_	O	O	
+5-25	neuen	ADJA	neu	_	O	O	
+5-26	Verhältnissen	NN	Verhältnis	_	O	O	
+5-27	nichts	PIS	nichts	_	O	O	
+5-28	mehr	ADV	mehr	_	O	O	
+5-29	zu	APPR	zu	_	O	O	
+5-30	thun	NE	<unknown>	_	O	O	
+5-31	haben	VAINF	haben	_	O	O	
+5-32	wolle	VMFIN	wollen	_	O	O	
+5-33	.	$.	.	_	O	O	
+
+#id=6
+#text=Ähnliche Äußerungen habe ich von dem alten Torlonia, von den Piombino~nd Borghese gehört, also Leuten, welche die Verfügung über die Villa Albani, das Museo Torlonia, die Ausgrabungen von Vulci, die Villa Ludovisi, die Villa Borghese, die Ausgrabungen von Pratica haben.
+6-1	Ähnliche	ADJA	ähnlich	_	O	O	
+6-2	Äußerungen	NN	Äußerung	_	O	O	
+6-3	habe	VAFIN	haben	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	von	APPR	von	_	O	O	
+6-6	dem	ART	die	_	O	O	
+6-7	alten	ADJA	alt	_	O	O	
+6-8	Torlonia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-9	,	$,	,	_	O	O	
+6-10	von	APPR	von	_	O	O	
+6-11	den	ART	die	_	O	O	
+6-12	Piombino~nd	NN	<unknown>	_	O	O	
+6-13	Borghese	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-14	gehört	VVFIN	gehören	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	also	ADV	also	_	O	O	
+6-17	Leuten	NN	Leute	_	O	O	
+6-18	,	$,	,	_	O	O	
+6-19	welche	PRELS	welche	_	O	O	
+6-20	die	ART	die	_	O	O	
+6-21	Verfügung	NN	Verfügung	_	O	O	
+6-22	über	APPR	über	_	O	O	
+6-23	die	ART	die	_	O	O	
+6-24	Villa	NN	Villa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-25	Albani	NN	Albani	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+6-26	,	$,	,	_	O	O	
+6-27	das	ART	die	_	O	O	
+6-28	Museo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-29	Torlonia	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+6-30	,	$,	,	_	O	O	
+6-31	die	ART	die	_	O	O	
+6-32	Ausgrabungen	NN	Ausgrabung	_	O	O	
+6-33	von	APPR	von	_	O	O	
+6-34	Vulci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-35	,	$,	,	_	O	O	
+6-36	die	ART	die	_	O	O	
+6-37	Villa	NN	Villa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-38	Ludovisi	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+6-39	,	$,	,	_	O	O	
+6-40	die	ART	die	_	O	O	
+6-41	Villa	NN	Villa	_	O	O	
+6-42	Borghese	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-43	,	$,	,	_	O	O	
+6-44	die	ART	die	_	O	O	
+6-45	Ausgrabungen	NN	Ausgrabung	_	O	O	
+6-46	von	APPR	von	_	O	O	
+6-47	Pratica	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-48	haben	VAFIN	haben	_	O	O	
+6-49	.	$.	.	_	O	O	
+
+#id=7
+#text=Daß meine cornetaner Mitbürger Feuer und Flamme speien und nicht geneigt sein werden dem Insti tute künftighin ihr I"Iuseum und ihre Ausgrabungen zur Disposition zu stellen, können Sie sich wohl denken.
+7-1	Daß	KOUS	dass	_	O	O	
+7-2	meine	PPOSAT	mein	_	O	O	
+7-3	cornetaner	NN	<unknown>	_	O	O	
+7-4	Mitbürger	NN	Mitbürger	_	O	O	
+7-5	Feuer	NN	Feuer	_	O	O	
+7-6	und	KON	und	_	O	O	
+7-7	Flamme	NN	Flamme	_	O	O	
+7-8	speien	VVINF	speien	_	O	O	
+7-9	und	KON	und	_	O	O	
+7-10	nicht	PTKNEG	nicht	_	O	O	
+7-11	geneigt	VVPP	neigen	_	O	O	
+7-12	sein	VAINF	sein	_	O	O	
+7-13	werden	VAFIN	werden	_	O	O	
+7-14	dem	ART	die	_	O	O	
+7-15	Insti	NE	<unknown>	_	O	O	
+7-16	tute	NN	Tute	_	O	O	
+7-17	künftighin	ADJD	<unknown>	_	O	O	
+7-18	ihr	PPOSAT	ihr	_	O	O	
+7-19	I"Iuseum	NN	<unknown>	_	O	O	
+7-20	und	KON	und	_	O	O	
+7-21	ihre	PPOSAT	ihr	_	O	O	
+7-22	Ausgrabungen	NN	Ausgrabung	_	O	O	
+7-23	zur	APPRART	zu	_	O	O	
+7-24	Disposition	NN	Disposition	_	O	O	
+7-25	zu	PTKZU	zu	_	O	O	
+7-26	stellen	VVINF	stellen	_	O	O	
+7-27	,	$,	,	_	O	O	
+7-28	können	VMFIN	können	_	O	O	
+7-29	Sie	PPER	Sie	_	O	O	
+7-30	sich	PRF	sich	_	O	O	
+7-31	wohl	ADV	wohl	_	O	O	
+7-32	denken	VVINF	denken	_	O	O	
+7-33	.	$.	.	_	O	O	
+
+#id=8
+#text=Was soll aber das Institut überhaupt noch thun, wenn ihm der Zutritt zu allem diesen Material abgeschnitten wird?
+8-1	Was	PWS	was	_	O	O	
+8-2	soll	VMFIN	sollen	_	O	O	
+8-3	aber	ADV	aber	_	O	O	
+8-4	das	ART	die	_	O	O	
+8-5	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-6	überhaupt	ADV	überhaupt	_	O	O	
+8-7	noch	ADV	noch	_	O	O	
+8-8	thun	NN	<unknown>	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	wenn	KOUS	wenn	_	O	O	
+8-11	ihm	PPER	er	_	O	O	
+8-12	der	ART	die	_	O	O	
+8-13	Zutritt	NN	Zutritt	_	O	O	
+8-14	zu	APPR	zu	_	O	O	
+8-15	allem	PIS	alle	_	O	O	
+8-16	diesen	PDAT	dies	_	O	O	
+8-17	Material	NN	Material	_	O	O	
+8-18	abgeschnitten	VVPP	abschneiden	_	O	O	
+8-19	wird	VAFIN	werden	_	O	O	
+8-20	?	$.	?	_	O	O	
+
+#id=9
+#text=Soweit ich die Sachlage übersehe, scheinen mir, um das Insti-
+9-1	Soweit	KOUS	soweit	_	O	O	
+9-2	ich	PPER	ich	_	O	O	
+9-3	die	ART	die	_	O	O	
+9-4	Sachlage	NN	Sachlage	_	O	O	
+9-5	übersehe	VVFIN	übersehen	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	scheinen	VVFIN	scheinen	_	O	O	
+9-8	mir	PPER	ich	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	um	KOUI	um	_	O	O	
+9-11	das	ART	die	_	O	O	
+9-12	Insti-	TRUNC	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+

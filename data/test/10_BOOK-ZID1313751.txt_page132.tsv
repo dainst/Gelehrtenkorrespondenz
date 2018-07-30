@@ -1,0 +1,245 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=22 Wolfgang Helbig an Heinrich Brunn Rom, 2. Oktober 1879 r. 5/X 79.
+1-1	22	CARD	22	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1879	CARD	1879	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	r.	ADJA	<unknown>	_	O	O	
+1-14	5/X	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+1-15	79	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Roma, li 2 Oct.
+2-1	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-2	,	$,	,	_	O	O	
+2-3	li	ADJA	<unknown>	_	O	O	
+2-4	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-5	Oct	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=3
+#text=1879 Lieber Herr Professor Es that mir sehr leid, daß ich meinen Rückweg nicht über München nehmen konnte, sondern auf dem kürzesten Wege über Warschau und Wien nach Rom zurückreisen mußte.
+3-1	1879	CARD	1879	_	O	O	
+3-2	Lieber	ADJA	lieb	_	O	O	
+3-3	Herr	NN	Herr	_	O	O	
+3-4	Professor	NN	Professor	_	O	O	
+3-5	Es	PPER	es	_	O	O	
+3-6	that	VVFIN	<unknown>	_	O	O	
+3-7	mir	PPER	ich	_	O	O	
+3-8	sehr	ADV	sehr	_	O	O	
+3-9	leid	ADJD	leid	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	daß	KOUS	dass	_	O	O	
+3-12	ich	PPER	ich	_	O	O	
+3-13	meinen	PPOSAT	mein	_	O	O	
+3-14	Rückweg	NN	Rückweg	_	O	O	
+3-15	nicht	PTKNEG	nicht	_	O	O	
+3-16	über	APPR	über	_	O	O	
+3-17	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-18	nehmen	VVINF	nehmen	_	O	O	
+3-19	konnte	VMFIN	können	_	O	O	
+3-20	,	$,	,	_	O	O	
+3-21	sondern	KON	sondern	_	O	O	
+3-22	auf	APPR	auf	_	O	O	
+3-23	dem	ART	die	_	O	O	
+3-24	kürzesten	ADJA	kurz	_	O	O	
+3-25	Wege	NN	Weg	_	O	O	
+3-26	über	APPR	über	_	O	O	
+3-27	Warschau	NE	Warschau	_	O	O	
+3-28	und	KON	und	_	O	O	
+3-29	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-30	nach	APPR	nach	_	O	O	
+3-31	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-32	zurückreisen	VVINF	zurückreisen	_	O	O	
+3-33	mußte	VMFIN	müssen	_	O	O	
+3-34	.	$.	.	_	O	O	
+
+#id=4
+#text=Doch Doch erhielt Nachrichten von Ihnen und den Ihrigen in Wien durch Schlie und freute mich zu hören, daß es bei Ihnen gut geht.
+4-1	Doch	KON	doch	_	O	O	
+4-2	Doch	KON	doch	_	O	O	
+4-3	erhielt	VVFIN	erhalten	_	O	O	
+4-4	Nachrichten	NN	Nachricht	_	O	O	
+4-5	von	APPR	von	_	O	O	
+4-6	Ihnen	PPER	Sie	_	O	O	
+4-7	und	KON	und	_	O	O	
+4-8	den	ART	die	_	O	O	
+4-9	Ihrigen	NN	<unknown>	_	O	O	
+4-10	in	APPR	in	_	O	O	
+4-11	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-12	durch	APPR	durch	_	O	O	
+4-13	Schlie	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-14	und	KON	und	_	O	O	
+4-15	freute	VVFIN	freuen	_	O	O	
+4-16	mich	PRF	ich	_	O	O	
+4-17	zu	PTKZU	zu	_	O	O	
+4-18	hören	VVINF	hören	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	daß	KOUS	dass	_	O	O	
+4-21	es	PPER	es	_	O	O	
+4-22	bei	APPR	bei	_	O	O	
+4-23	Ihnen	PPER	Sie	_	O	O	
+4-24	gut	ADJD	gut	_	O	O	
+4-25	geht	VVFIN	gehen	_	O	O	
+4-26	.	$.	.	_	O	O	
+
+#id=5
+#text=Was mich veranlaßt, heute rasch an Sie zu schreiben, ist Folgendes: Da der Bruder unseres gemeinsamen Freundes Baracco im Sterben liegt, muß der letztere als nunmehriger Familienchef sein Hauptquartier in Cotrona aufschlagen.
+5-1	Was	PWS	was	_	O	O	
+5-2	mich	PRF	ich	_	O	O	
+5-3	veranlaßt	VVPP	veranlassen	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	heute	ADV	heute	_	O	O	
+5-6	rasch	ADJD	rasch	_	O	O	
+5-7	an	APPR	an	_	O	O	
+5-8	Sie	PPER	Sie	_	O	O	
+5-9	zu	PTKZU	zu	_	O	O	
+5-10	schreiben	VVINF	schreiben	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	ist	VAFIN	sein	_	O	O	
+5-13	Folgendes	NN	Folgende	_	O	O	
+5-14	:	$.	:	_	O	O	
+5-15	Da	KOUS	da	_	O	O	
+5-16	der	ART	die	_	O	O	
+5-17	Bruder	NN	Bruder	_	O	O	
+5-18	unseres	PPOSAT	unser	_	O	O	
+5-19	gemeinsamen	ADJA	gemeinsam	_	O	O	
+5-20	Freundes	NN	Freund	_	O	O	
+5-21	Baracco	NE	<unknown>	_	O	O	
+5-22	im	APPRART	in	_	O	O	
+5-23	Sterben	NN	Sterben	_	O	O	
+5-24	liegt	VVFIN	liegen	_	O	O	
+5-25	,	$,	,	_	O	O	
+5-26	muß	VMFIN	müssen	_	O	O	
+5-27	der	ART	die	_	O	O	
+5-28	letztere	ADJA	letzt	_	O	O	
+5-29	als	KON	als	_	O	O	
+5-30	nunmehriger	ADJA	<unknown>	_	O	O	
+5-31	Familienchef	NN	Familienchef	_	O	O	
+5-32	sein	PPOSAT	sein	_	O	O	
+5-33	Hauptquartier	NN	Hauptquartier	_	O	O	
+5-34	in	APPR	in	_	O	O	
+5-35	Cotrona	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-36	aufschlagen	VVINF	aufschlagen	_	O	O	
+5-37	.	$.	.	_	O	O	
+
+#id=6
+#text=Seine Sammlung wird etwa im November dorthin abgehen.
+6-1	Seine	PPOSAT	sein	_	O	O	
+6-2	Sammlung	NN	Sammlung	_	O	O	
+6-3	wird	VAFIN	werden	_	O	O	
+6-4	etwa	ADV	etwa	_	O	O	
+6-5	im	APPRART	in	_	O	O	
+6-6	November	NN	November	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-7	dorthin	ADV	dorthin	_	O	O	
+6-8	abgehen	VVINF	abgehen	_	O	O	
+6-9	.	$.	.	_	O	O	
+
+#id=7
+#text=Unter solchen Umständen fragt es sich, ob Sie nicht Abgüsse von den 3 Hauptstücken seiner Sammlung zu haben wünschen, nämlich von dem Marsyas, von dem an die neapler Psyche erinnernden Kopfe und von einem dritten sehr schönen weiblichen Kopfe, den er ganz jüngst erworben hat und der an den münchener Kopf mit dem gewellten Haare erinnert.
+7-1	Unter	APPR	unter	_	O	O	
+7-2	solchen	PIAT	solche	_	O	O	
+7-3	Umständen	NN	Umstand	_	O	O	
+7-4	fragt	VVFIN	fragen	_	O	O	
+7-5	es	PPER	es	_	O	O	
+7-6	sich	PRF	sich	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	ob	KOUS	ob	_	O	O	
+7-9	Sie	PPER	Sie	_	O	O	
+7-10	nicht	PTKNEG	nicht	_	O	O	
+7-11	Abgüsse	NN	Abguß	_	O	O	
+7-12	von	APPR	von	_	O	O	
+7-13	den	ART	die	_	O	O	
+7-14	3	CARD	3	_	O	O	
+7-15	Hauptstücken	NN	Hauptstück	_	O	O	
+7-16	seiner	PPOSAT	sein	_	O	O	
+7-17	Sammlung	NN	Sammlung	_	O	O	
+7-18	zu	PTKZU	zu	_	O	O	
+7-19	haben	VAINF	haben	_	O	O	
+7-20	wünschen	VVFIN	wünschen	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	nämlich	ADV	nämlich	_	O	O	
+7-23	von	APPR	von	_	O	O	
+7-24	dem	ART	die	_	O	O	
+7-25	Marsyas	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-26	,	$,	,	_	O	O	
+7-27	von	APPR	von	_	O	O	
+7-28	dem	PRELS	die	_	O	O	
+7-29	an	APPR	an	_	O	O	
+7-30	die	ART	die	_	O	O	
+7-31	neapler	ADJA	<unknown>	_	O	O	
+7-32	Psyche	NN	Psyche	_	O	O	
+7-33	erinnernden	ADJA	erinnernd	_	O	O	
+7-34	Kopfe	NN	Kopf	_	O	O	
+7-35	und	KON	und	_	O	O	
+7-36	von	APPR	von	_	O	O	
+7-37	einem	ART	eine	_	O	O	
+7-38	dritten	ADJA	dritt	_	O	O	
+7-39	sehr	ADV	sehr	_	O	O	
+7-40	schönen	ADJA	schön	_	O	O	
+7-41	weiblichen	ADJA	weiblich	_	O	O	
+7-42	Kopfe	NN	Kopf	_	O	O	
+7-43	,	$,	,	_	O	O	
+7-44	den	PRELS	die	_	O	O	
+7-45	er	PPER	er	_	O	O	
+7-46	ganz	ADV	ganz	_	O	O	
+7-47	jüngst	ADJD	jungüngst	_	O	O	
+7-48	erworben	VVPP	erwerben	_	O	O	
+7-49	hat	VAFIN	haben	_	O	O	
+7-50	und	KON	und	_	O	O	
+7-51	der	ART	die	_	O	O	
+7-52	an	APPR	an	_	O	O	
+7-53	den	ART	die	_	O	O	
+7-54	münchener	ADJA	Münchener	_	O	O	
+7-55	Kopf	NN	Kopf	_	O	O	
+7-56	mit	APPR	mit	_	O	O	
+7-57	dem	ART	die	_	O	O	
+7-58	gewellten	ADJA	gewellt	_	O	O	
+7-59	Haare	NN	Haar	_	O	O	
+7-60	erinnert	VVFIN	erinnern	_	O	O	
+7-61	.	$.	.	_	O	O	
+
+#id=8
+#text=Da diese Gypse bereits von Berlin, Wien und Schwerin bestellt sind, so wird die Ausführung einer vierten Serie nur wenig kosten.
+8-1	Da	ADV	da	_	O	O	
+8-2	diese	PDAT	dies	_	O	O	
+8-3	Gypse	NN	<unknown>	_	O	O	
+8-4	bereits	ADV	bereits	_	O	O	
+8-5	von	APPR	von	_	O	O	
+8-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-7	,	$,	,	_	O	O	
+8-8	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-9	und	KON	und	_	O	O	
+8-10	Schwerin	NE	Schwerin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-11	bestellt	VVPP	bestellen	_	O	O	
+8-12	sind	VAFIN	sein	_	O	O	
+8-13	,	$,	,	_	O	O	
+8-14	so	ADV	so	_	O	O	
+8-15	wird	VAFIN	werden	_	O	O	
+8-16	die	ART	die	_	O	O	
+8-17	Ausführung	NN	Ausführung	_	O	O	
+8-18	einer	ART	eine	_	O	O	
+8-19	vierten	ADJA	viert	_	O	O	
+8-20	Serie	NN	Serie	_	O	O	
+8-21	nur	ADV	nur	_	O	O	
+8-22	wenig	PIS	wenige	_	O	O	
+8-23	kosten	VVINF	kosten	_	O	O	
+8-24	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich bemerke noch,
+9-1	Ich	PPER	ich	_	O	O	
+9-2	bemerke	VVFIN	bemerken	_	O	O	
+9-3	noch	ADV	noch	_	O	O	
+9-4	,	$,	,	_	O	O	
+

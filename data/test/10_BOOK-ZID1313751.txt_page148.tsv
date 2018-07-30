@@ -1,0 +1,139 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=31 2 Wolfgang Helbig an Heinrich Brunn Rom, 15. November 1880 muß bis zu den Bürgerkriegen eine der blühendsten Landschaften Italiens gewesen sein.
+1-1	31	CARD	31	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1880	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	muß	VMFIN	müssen	_	O	O	
+1-15	bis	KON	bis	_	O	O	
+1-16	zu	APPR	zu	_	O	O	
+1-17	den	ART	die	_	O	O	
+1-18	Bürgerkriegen	NN	Bürgerkrieg	_	O	O	
+1-19	eine	PIS	eine	_	O	O	
+1-20	der	ART	die	_	O	O	
+1-21	blühendsten	ADJA	blühend	_	O	O	
+1-22	Landschaften	NN	Landschaft	_	O	O	
+1-23	Italiens	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-24	gewesen	VAPP	sein	_	O	O	
+1-25	sein	VAINF	sein	_	O	O	
+1-26	.	$.	.	_	O	O	
+
+#id=2
+#text=Leider jedoch wird die wissenschaftliche Ausbeutung durch den Mangel an Communicationen und durch den Brigantaggio in hohem Grade erschwert.
+2-1	Leider	ADV	leider	_	O	O	
+2-2	jedoch	ADV	jedoch	_	O	O	
+2-3	wird	VAFIN	werden	_	O	O	
+2-4	die	ART	die	_	O	O	
+2-5	wissenschaftliche	ADJA	wissenschaftlich	_	O	O	
+2-6	Ausbeutung	NN	Ausbeutung	_	O	O	
+2-7	durch	APPR	durch	_	O	O	
+2-8	den	ART	die	_	O	O	
+2-9	Mangel	NN	Mangel	_	O	O	
+2-10	an	APPR	an	_	O	O	
+2-11	Communicationen	NN	<unknown>	_	O	O	
+2-12	und	KON	und	_	O	O	
+2-13	durch	APPR	durch	_	O	O	
+2-14	den	ART	die	_	O	O	
+2-15	Brigantaggio	NN	<unknown>	_	O	O	
+2-16	in	APPR	in	_	O	O	
+2-17	hohem	ADJA	hoch	_	O	O	
+2-18	Grade	NN	Grad	_	O	O	
+2-19	erschwert	VVPP	erschweren	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Entschuldigen Sie meine Seccatura.
+3-1	Entschuldigen	VVFIN	entschuldigen	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	meine	PPOSAT	mein	_	O	O	
+3-4	Seccatura	NN	<unknown>	_	O	O	
+3-5	.	$.	.	_	O	O	
+
+#id=4
+#text=Hoffentlich geht es bei Ihnen gut.
+4-1	Hoffentlich	ADV	hoffentlich	_	O	O	
+4-2	geht	VVFIN	gehen	_	O	O	
+4-3	es	PPER	es	_	O	O	
+4-4	bei	APPR	bei	_	O	O	
+4-5	Ihnen	PPER	Sie	_	O	O	
+4-6	gut	ADJD	gut	_	O	O	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=Mit herzlichen Grüßen von Haus zu Haus Ihr ergebener Helbig Auf der Reise habe ich einige Monumente vorgefunden, auf die ich gerne in dem Pileusaufsatze hinweisen würde.
+5-1	Mit	APPR	mit	_	O	O	
+5-2	herzlichen	ADJA	herzlich	_	O	O	
+5-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+5-4	von	APPR	von	_	O	O	
+5-5	Haus	NN	Haus	_	O	O	
+5-6	zu	APPR	zu	_	O	O	
+5-7	Haus	NN	Haus	_	O	O	
+5-8	Ihr	PPOSAT	ihr	_	O	O	
+5-9	ergebener	ADJA	ergeben	_	O	O	
+5-10	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+5-11	Auf	APPR	auf	_	O	O	
+5-12	der	ART	die	_	O	O	
+5-13	Reise	NN	Reise	_	O	O	
+5-14	habe	VAFIN	haben	_	O	O	
+5-15	ich	PPER	ich	_	O	O	
+5-16	einige	PIAT	einige	_	O	O	
+5-17	Monumente	NN	Monument	_	O	O	
+5-18	vorgefunden	VVPP	vorfinden	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	auf	APPR	auf	_	O	O	
+5-21	die	PRELS	die	_	O	O	
+5-22	ich	PPER	ich	_	O	O	
+5-23	gerne	ADV	gerne	_	O	O	
+5-24	in	APPR	in	_	O	O	
+5-25	dem	ART	die	_	O	O	
+5-26	Pileusaufsatze	NN	<unknown>	_	O	O	
+5-27	hinweisen	VVINF	hinweisen	_	O	O	
+5-28	würde	VAFIN	werden	_	O	O	
+5-29	.	$.	.	_	O	O	
+
+#id=6
+#text=Könnte man mir vielleicht falls Sie meinen Aufsatz annehmen - die Correcturbogen in den Fahnen zuschicken, damit ich die betreffenden Denkmäler, ohne den Setzer unnöthig zu plagen, nachtragen kann ?
+6-1	Könnte	VMFIN	können	_	O	O	
+6-2	man	PIS	man	_	O	O	
+6-3	mir	PRF	ich	_	O	O	
+6-4	vielleicht	ADV	vielleicht	_	O	O	
+6-5	falls	KOUS	falls	_	O	O	
+6-6	Sie	PPER	Sie	_	O	O	
+6-7	meinen	PPOSAT	mein	_	O	O	
+6-8	Aufsatz	NN	Aufsatz	_	O	O	
+6-9	annehmen	VVINF	annehmen	_	O	O	
+6-10	-	$(	-	_	O	O	
+6-11	die	ART	die	_	O	O	
+6-12	Correcturbogen	NN	<unknown>	_	O	O	
+6-13	in	APPR	in	_	O	O	
+6-14	den	ART	die	_	O	O	
+6-15	Fahnen	NN	Fahne	_	O	O	
+6-16	zuschicken	VVINF	zuschicken	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	damit	KOUS	damit	_	O	O	
+6-19	ich	PPER	ich	_	O	O	
+6-20	die	ART	die	_	O	O	
+6-21	betreffenden	ADJA	betreffend	_	O	O	
+6-22	Denkmäler	NN	Denkmal	_	O	O	
+6-23	,	$,	,	_	O	O	
+6-24	ohne	KOUI	ohne	_	O	O	
+6-25	den	ART	die	_	O	O	
+6-26	Setzer	NN	Setzer	_	O	O	
+6-27	unnöthig	ADJD	<unknown>	_	O	O	
+6-28	zu	PTKZU	zu	_	O	O	
+6-29	plagen	VVINF	plagen	_	O	O	
+6-30	,	$,	,	_	O	O	
+6-31	nachtragen	VVINF	nachtragen	_	O	O	
+6-32	kann	VMFIN	können	_	O	O	
+6-33	?	$.	?	_	O	O	
+

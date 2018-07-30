@@ -1,0 +1,223 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Rom, 10. August 1863 Rom 10. Aug.
+1-1	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-2	,	$,	,	_	O	O	
+1-3	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-4	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-5	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-6	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Aug.	NN	Aug.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1863 Geehrtester Herr Professor !
+2-1	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Geehrtester	ADJA	<unknown>	_	O	O	
+2-3	Herr	NN	Herr	_	O	O	
+2-4	Professor	NN	Professor	_	O	O	
+2-5	!	$.	!	_	O	O	
+
+#id=3
+#text=Zunächst die Aufklärung eines Mißverständnisses Ich hatte Nino das Bullettino eingehändigt, um es zunächst in die Druckerei zur Verbesserung zu bringen und dann an Sie abgehen zu lassen.
+3-1	Zunächst	ADV	zunächst	_	O	O	
+3-2	die	ART	die	_	O	O	
+3-3	Aufklärung	NN	Aufklärung	_	O	O	
+3-4	eines	ART	eine	_	O	O	
+3-5	Mißverständnisses	NN	Missverständnis	_	O	O	
+3-6	Ich	PPER	ich	_	O	O	
+3-7	hatte	VAFIN	haben	_	O	O	
+3-8	Nino	NE	Nino	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-9	das	ART	die	_	O	O	
+3-10	Bullettino	NN	<unknown>	_	O	O	
+3-11	eingehändigt	VVPP	<unknown>	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	um	KOUI	um	_	O	O	
+3-14	es	PPER	es	_	O	O	
+3-15	zunächst	ADV	zunächst	_	O	O	
+3-16	in	APPR	in	_	O	O	
+3-17	die	ART	die	_	O	O	
+3-18	Druckerei	NN	Druckerei	_	O	O	
+3-19	zur	APPRART	zu	_	O	O	
+3-20	Verbesserung	NN	Verbesserung	_	O	O	
+3-21	zu	PTKZU	zu	_	O	O	
+3-22	bringen	VVINF	bringen	_	O	O	
+3-23	und	KON	und	_	O	O	
+3-24	dann	ADV	dann	_	O	O	
+3-25	an	APPR	an	_	O	O	
+3-26	Sie	PPER	Sie	_	O	O	
+3-27	abgehen	VVINF	abgehen	_	O	O	
+3-28	zu	PTKZU	zu	_	O	O	
+3-29	lassen	VVINF	lassen	_	O	O	
+3-30	.	$.	.	_	O	O	
+
+#id=4
+#text=Dieser hat mich falsch verstanden und den Bogen mit meinen Correcturen sogleich an Sie abgeschickt.
+4-1	Dieser	PDS	diese	_	O	O	
+4-2	hat	VAFIN	haben	_	O	O	
+4-3	mich	PRF	ich	_	O	O	
+4-4	falsch	ADJD	falsch	_	O	O	
+4-5	verstanden	VVPP	verstehen	_	O	O	
+4-6	und	KON	und	_	O	O	
+4-7	den	ART	die	_	O	O	
+4-8	Bogen	NN	Bogen	_	O	O	
+4-9	mit	APPR	mit	_	O	O	
+4-10	meinen	PPOSAT	mein	_	O	O	
+4-11	Correcturen	NN	<unknown>	_	O	O	
+4-12	sogleich	ADV	sogleich	_	O	O	
+4-13	an	APPR	an	_	O	O	
+4-14	Sie	PPER	Sie	_	O	O	
+4-15	abgeschickt	VVPP	abschicken	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich fürchte, daß Sie sich unter diesen Umständen nicht durchfinden werden, und es wird wohl nöthig sein, den Bogen Ihnen zum zweiten Male zuzuschicken.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	fürchte	VVFIN	fürchten	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	daß	KOUS	dass	_	O	O	
+5-5	Sie	PPER	Sie	_	O	O	
+5-6	sich	PRF	sich	_	O	O	
+5-7	unter	APPR	unter	_	O	O	
+5-8	diesen	PDAT	dies	_	O	O	
+5-9	Umständen	NN	Umstand	_	O	O	
+5-10	nicht	PTKNEG	nicht	_	O	O	
+5-11	durchfinden	ADJD	<unknown>	_	O	O	
+5-12	werden	VAFIN	werden	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	und	KON	und	_	O	O	
+5-15	es	PPER	es	_	O	O	
+5-16	wird	VAFIN	werden	_	O	O	
+5-17	wohl	ADV	wohl	_	O	O	
+5-18	nöthig	ADJD	<unknown>	_	O	O	
+5-19	sein	VAINF	sein	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	den	ART	die	_	O	O	
+5-22	Bogen	NN	Bogen	_	O	O	
+5-23	Ihnen	PPER	Sie	_	O	O	
+5-24	zum	APPRART	zu	_	O	O	
+5-25	zweiten	ADJA	zweit	_	O	O	
+5-26	Male	NN	Mal	_	O	O	
+5-27	zuzuschicken	VVIZU	zuschicken	_	O	O	
+5-28	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich bitte hierüber um die nöthigen Verhaltungsmaßregeln.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	bitte	VVFIN	bitten	_	O	O	
+6-3	hierüber	PAV	hierüber	_	O	O	
+6-4	um	APPR	um	_	O	O	
+6-5	die	ART	die	_	O	O	
+6-6	nöthigen	ADJA	<unknown>	_	O	O	
+6-7	Verhaltungsmaßregeln	NN	<unknown>	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=Fast fürchte ich, daß Sie meinen letzten Brief, worin ich Ihnen über die Angelegenheit des Bankerotts der venezianischen Buchhandlung schrieb, nicht erhalten haben.
+7-1	Fast	ADV	fast	_	O	O	
+7-2	fürchte	VVFIN	fürchten	_	O	O	
+7-3	ich	PPER	ich	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	daß	KOUS	dass	_	O	O	
+7-6	Sie	PPER	Sie	_	O	O	
+7-7	meinen	PPOSAT	mein	_	O	O	
+7-8	letzten	ADJA	letzt	_	O	O	
+7-9	Brief	NN	Brief	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	worin	PWAV	worin	_	O	O	
+7-12	ich	PPER	ich	_	O	O	
+7-13	Ihnen	PPER	Sie	_	O	O	
+7-14	über	APPR	über	_	O	O	
+7-15	die	ART	die	_	O	O	
+7-16	Angelegenheit	NN	Angelegenheit	_	O	O	
+7-17	des	ART	die	_	O	O	
+7-18	Bankerotts	NN	<unknown>	_	O	O	
+7-19	der	ART	die	_	O	O	
+7-20	venezianischen	ADJA	venezianisch	_	O	O	
+7-21	Buchhandlung	NN	Buchhandlung	_	O	O	
+7-22	schrieb	VVFIN	schreiben	_	O	O	
+7-23	,	$,	,	_	O	O	
+7-24	nicht	PTKNEG	nicht	_	O	O	
+7-25	erhalten	VVPP	erhalten	_	O	O	
+7-26	haben	VAFIN	haben	_	O	O	
+7-27	.	$.	.	_	O	O	
+
+#id=8
+#text=Wenigstens ist bis jetzt noch keine Antwort eingelaufen.
+8-1	Wenigstens	ADV	wenigstens	_	O	O	
+8-2	ist	VAFIN	sein	_	O	O	
+8-3	bis	KON	bis	_	O	O	
+8-4	jetzt	ADV	jetzt	_	O	O	
+8-5	noch	ADV	noch	_	O	O	
+8-6	keine	PIAT	keine	_	O	O	
+8-7	Antwort	NN	Antwort	_	O	O	
+8-8	eingelaufen	VVPP	einlaufen	_	O	O	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=Binder wird bis zum October hier bleiben und wohnt als Vertreter des Legationssekretärs im Palazzo Caffarelli, eine Stellung, die er jedoch nicht ungetrübt genießen kann, da in Rom bereits wieder die drohende , Gestalt des Hauptmann Frisch aufgetauchtist.
+9-1	Binder	NN	Binder	_	O	O	
+9-2	wird	VAFIN	werden	_	O	O	
+9-3	bis	APPR	bis	_	O	O	
+9-4	zum	APPRART	zu	_	O	O	
+9-5	October	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-6	hier	ADV	hier	_	O	O	
+9-7	bleiben	VVINF	bleiben	_	O	O	
+9-8	und	KON	und	_	O	O	
+9-9	wohnt	VVFIN	wohnen	_	O	O	
+9-10	als	KOKOM	als	_	O	O	
+9-11	Vertreter	NN	Vertreter	_	O	O	
+9-12	des	ART	die	_	O	O	
+9-13	Legationssekretärs	NN	<unknown>	_	O	O	
+9-14	im	APPRART	in	_	O	O	
+9-15	Palazzo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-16	Caffarelli	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+9-17	,	$,	,	_	O	O	
+9-18	eine	ART	eine	_	O	O	
+9-19	Stellung	NN	Stellung	_	O	O	
+9-20	,	$,	,	_	O	O	
+9-21	die	PRELS	die	_	O	O	
+9-22	er	PPER	er	_	O	O	
+9-23	jedoch	ADV	jedoch	_	O	O	
+9-24	nicht	PTKNEG	nicht	_	O	O	
+9-25	ungetrübt	ADJD	ungetrübt	_	O	O	
+9-26	genießen	VVINF	genießen	_	O	O	
+9-27	kann	VMFIN	können	_	O	O	
+9-28	,	$,	,	_	O	O	
+9-29	da	KOUS	da	_	O	O	
+9-30	in	APPR	in	_	O	O	
+9-31	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-32	bereits	ADV	bereits	_	O	O	
+9-33	wieder	ADV	wieder	_	O	O	
+9-34	die	ART	die	_	O	O	
+9-35	drohende	ADJA	drohend	_	O	O	
+9-36	,	$,	,	_	O	O	
+9-37	Gestalt	NN	Gestalt	_	O	O	
+9-38	des	ART	die	_	O	O	
+9-39	Hauptmann	NE	Hauptmann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-40	Frisch	NE	Frisch	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-41	aufgetauchtist	VVPP	<unknown>	_	O	O	
+9-42	.	$.	.	_	O	O	
+
+#id=10
+#text=\ Foucart von der ecole fran9aise aus Athen war hier und brachte dem Institut seine delphischen Inschrif-
+10-1	\	XY	\	_	O	O	
+10-2	Foucart	NN	<unknown>	_	O	O	
+10-3	von	APPR	von	_	O	O	
+10-4	der	ART	die	_	O	O	
+10-5	ecole	ADJA	<unknown>	_	O	O	
+10-6	fran9aise	NN	<unknown>	_	O	O	
+10-7	aus	APPR	aus	_	O	O	
+10-8	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-9	war	VAFIN	sein	_	O	O	
+10-10	hier	ADV	hier	_	O	O	
+10-11	und	KON	und	_	O	O	
+10-12	brachte	VVFIN	bringen	_	O	O	
+10-13	dem	ART	die	_	O	O	
+10-14	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-15	seine	PPOSAT	sein	_	O	O	
+10-16	delphischen	ADJA	delphisch	_	O	O	
+10-17	Inschrif-	TRUNC	<unknown>	_	O	O	
+

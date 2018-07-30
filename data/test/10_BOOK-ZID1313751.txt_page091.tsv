@@ -1,0 +1,290 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an ~~ Rom, 26. September 1863 Rom 26. Sept.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	~~	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-11	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Sept.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1863. Geehrtester Herr Professor !
+2-1	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	.	$.	.	_	O	O	
+2-3	Geehrtester	ADJA	<unknown>	_	O	O	
+2-4	Herr	NN	Herr	_	O	O	
+2-5	Professor	NN	Professor	_	O	O	
+2-6	!	$.	!	_	O	O	
+
+#id=3
+#text=Da ich mit Sicherheit ausgerechnet zu haben glaubte, daß Sie Aufsätze die zwei Bogen des Bullettino gerade füllen würden, so hatte ich Nino die Anweisung gegeben, es, so wie es aus der Druckerei käme, fortzuschicken.
+3-1	Da	KOUS	da	_	O	O	
+3-2	ich	PPER	ich	_	O	O	
+3-3	mit	APPR	mit	_	O	O	
+3-4	Sicherheit	NN	Sicherheit	_	O	O	
+3-5	ausgerechnet	VVPP	ausrechnen	_	O	O	
+3-6	zu	PTKZU	zu	_	O	O	
+3-7	haben	VAINF	haben	_	O	O	
+3-8	glaubte	VVFIN	glauben	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	daß	KOUS	dass	_	O	O	
+3-11	Sie	PPER	Sie	_	O	O	
+3-12	Aufsätze	NN	Aufsatz	_	O	O	
+3-13	die	ART	die	_	O	O	
+3-14	zwei	CARD	zwei	_	O	O	
+3-15	Bogen	NN	Bogen	_	O	O	
+3-16	des	ART	die	_	O	O	
+3-17	Bullettino	NN	<unknown>	_	O	O	
+3-18	gerade	ADV	gerade	_	O	O	
+3-19	füllen	VVINF	füllen	_	O	O	
+3-20	würden	VAFIN	werden	_	O	O	
+3-21	,	$,	,	_	O	O	
+3-22	so	ADV	so	_	O	O	
+3-23	hatte	VAFIN	haben	_	O	O	
+3-24	ich	PPER	ich	_	O	O	
+3-25	Nino	NE	Nino	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-26	die	ART	die	_	O	O	
+3-27	Anweisung	NN	Anweisung	_	O	O	
+3-28	gegeben	VVPP	geben	_	O	O	
+3-29	,	$,	,	_	O	O	
+3-30	es	PPER	es	_	O	O	
+3-31	,	$,	,	_	O	O	
+3-32	so	ADV	so	_	O	O	
+3-33	wie	KOUS	wie	_	O	O	
+3-34	es	PPER	es	_	O	O	
+3-35	aus	APPR	aus	_	O	O	
+3-36	der	ART	die	_	O	O	
+3-37	Druckerei	NN	Druckerei	_	O	O	
+3-38	käme	VVFIN	kommen	_	O	O	
+3-39	,	$,	,	_	O	O	
+3-40	fortzuschicken	VVFIN	<unknown>	_	O	O	
+3-41	.	$.	.	_	O	O	
+
+#id=4
+#text=Eben höre ich vom Setzer, daß noch drei Seiten fehlen.
+4-1	Eben	ADV	eben	_	O	O	
+4-2	höre	VVFIN	hören	_	O	O	
+4-3	ich	PPER	ich	_	O	O	
+4-4	vom	APPRART	von	_	O	O	
+4-5	Setzer	NN	Setzer	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	daß	KOUS	dass	_	O	O	
+4-8	noch	ADV	noch	_	O	O	
+4-9	drei	CARD	drei	_	O	O	
+4-10	Seiten	NN	Seite	_	O	O	
+4-11	fehlen	VVFIN	fehlen	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Sie brauchen sich darüber nicht zu beunruhigen.
+5-1	Sie	PPER	Sie	_	O	O	
+5-2	brauchen	VVFIN	brauchen	_	O	O	
+5-3	sich	PRF	sich	_	O	O	
+5-4	darüber	PAV	darüber	_	O	O	
+5-5	nicht	PTKNEG	nicht	_	O	O	
+5-6	zu	PTKZU	zu	_	O	O	
+5-7	beunruhigen	VVINF	beunruhigen	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Der Detlefsensche Aufsatz über die Mailänder griechische Inschrift reicht, wie der Setzer sagt, gerade aus, um die Lücke zu füllen.
+6-1	Der	ART	die	_	O	O	
+6-2	Detlefsensche	NN	<unknown>	_	O	O	
+6-3	Aufsatz	NN	Aufsatz	_	O	O	
+6-4	über	APPR	über	_	O	O	
+6-5	die	ART	die	_	O	O	
+6-6	Mailänder	NN	Mailänder	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-7	griechische	ADJA	griechisch	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-8	Inschrift	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-9	reicht	VVFIN	reichen	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	wie	KOUS	wie	_	O	O	
+6-12	der	ART	die	_	O	O	
+6-13	Setzer	NN	Setzer	_	O	O	
+6-14	sagt	VVFIN	sagen	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	gerade	ADV	gerade	_	O	O	
+6-17	aus	PTKVZ	aus	_	O	O	
+6-18	,	$,	,	_	O	O	
+6-19	um	KOUI	um	_	O	O	
+6-20	die	ART	die	_	O	O	
+6-21	Lücke	NN	Lücke	_	O	O	
+6-22	zu	PTKZU	zu	_	O	O	
+6-23	füllen	VVINF	füllen	_	O	O	
+6-24	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich werde ihn daher, sowie die Bogen zurückgekommen sind, unter die Monumenti einrücken.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	werde	VAFIN	werden	_	O	O	
+7-3	ihn	PPER	er	_	O	O	
+7-4	daher	PAV	daher	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	sowie	KON	sowie	_	O	O	
+7-7	die	ART	die	_	O	O	
+7-8	Bogen	NN	Bogen	_	O	O	
+7-9	zurückgekommen	VVPP	zurückkommen	_	O	O	
+7-10	sind	VAFIN	sein	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	unter	APPR	unter	_	O	O	
+7-13	die	ART	die	_	O	O	
+7-14	Monumenti	NN	<unknown>	_	O	O	
+7-15	einrücken	VVFIN	einrücken	_	O	O	
+7-16	.	$.	.	_	O	O	
+
+#id=8
+#text=Druckfertig ist er schon lange.
+8-1	Druckfertig	ADJD	druckfertig	_	O	O	
+8-2	ist	VAFIN	sein	_	O	O	
+8-3	er	PPER	er	_	O	O	
+8-4	schon	ADV	schon	_	O	O	
+8-5	lange	ADV	lange	_	O	O	
+8-6	.	$.	.	_	O	O	
+
+#id=9
+#text=Jahn hat seinen Aufsatz über die Gigantenvase geschickt.
+9-1	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	hat	VAFIN	haben	_	O	O	
+9-3	seinen	PPOSAT	sein	_	O	O	
+9-4	Aufsatz	NN	Aufsatz	_	O	O	
+9-5	über	APPR	über	_	O	O	
+9-6	die	ART	die	_	O	O	
+9-7	Gigantenvase	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-8	geschickt	VVPP	schicken	_	O	O	
+9-9	.	$.	.	_	O	O	
+
+#id=10
+#text=Er handelt lediglich über • die Darstellung, nicht über die Gattung der Vase.
+10-1	Er	PPER	er	_	O	O	
+10-2	handelt	VVFIN	handeln	_	O	O	
+10-3	lediglich	ADV	lediglich	_	O	O	
+10-4	über	APPR	über	_	O	O	
+10-5	•	NN	<unknown>	_	O	O	
+10-6	die	ART	die	_	O	O	
+10-7	Darstellung	NN	Darstellung	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	nicht	PTKNEG	nicht	_	O	O	
+10-10	über	APPR	über	_	O	O	
+10-11	die	ART	die	_	O	O	
+10-12	Gattung	NN	Gattung	_	O	O	
+10-13	der	ART	die	_	O	O	
+10-14	Vase	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+10-15	.	$.	.	_	O	O	
+
+#id=11
+#text=Von Rhusopulos ist ein Brief eingelaufen, worin er sich verwundert, daß ihm seine letzte Sendung noch nicht quittirt worden ist.
+11-1	Von	APPR	von	_	O	O	
+11-2	Rhusopulos	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-3	ist	VAFIN	sein	_	O	O	
+11-4	ein	ART	eine	_	O	O	
+11-5	Brief	NN	Brief	_	O	O	
+11-6	eingelaufen	VVPP	einlaufen	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	worin	PWAV	worin	_	O	O	
+11-9	er	PPER	er	_	O	O	
+11-10	sich	PRF	sich	_	O	O	
+11-11	verwundert	VVPP	verwundern	_	O	O	
+11-12	,	$,	,	_	O	O	
+11-13	daß	KOUS	dass	_	O	O	
+11-14	ihm	PPER	er	_	O	O	
+11-15	seine	PPOSAT	sein	_	O	O	
+11-16	letzte	ADJA	letzt	_	O	O	
+11-17	Sendung	NN	Sendung	_	O	O	
+11-18	noch	ADV	noch	_	O	O	
+11-19	nicht	PTKNEG	nicht	_	O	O	
+11-20	quittirt	ADJD	<unknown>	_	O	O	
+11-21	worden	VAPP	werden	_	O	O	
+11-22	ist	VAFIN	sein	_	O	O	
+11-23	.	$.	.	_	O	O	
+
+#id=12
+#text=Dies hat wohl Zeit bis zu Ihrer Rückkehr '?
+12-1	Dies	PDS	dies	_	O	O	
+12-2	hat	VAFIN	haben	_	O	O	
+12-3	wohl	ADV	wohl	_	O	O	
+12-4	Zeit	NN	Zeit	_	O	O	
+12-5	bis	KON	bis	_	O	O	
+12-6	zu	APPR	zu	_	O	O	
+12-7	Ihrer	PPOSAT	ihr	_	O	O	
+12-8	Rückkehr	NN	Rückkehr	_	O	O	
+12-9	'	$(	'	_	O	O	
+12-10	?	$.	?	_	O	O	
+
+#id=13
+#text=Zugleich hat er einen Aufsatz über eine Vase mit r.
+13-1	Zugleich	ADV	zugleich	_	O	O	
+13-2	hat	VAFIN	haben	_	O	O	
+13-3	er	PPER	er	_	O	O	
+13-4	einen	ART	eine	_	O	O	
+13-5	Aufsatz	NN	Aufsatz	_	O	O	
+13-6	über	APPR	über	_	O	O	
+13-7	eine	ART	eine	_	O	O	
+13-8	Vase	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+13-9	mit	APPR	mit	_	O	O	
+13-10	r.	ADJA	<unknown>	_	O	O	
+
+#id=14
+#text=F. geschickt (Verfolgungsscene.
+14-1	F.	APPR	f.	_	O	O	
+14-2	geschickt	ADJD	geschickt	_	O	O	
+14-3	(	$(	(	_	O	O	
+14-4	Verfolgungsscene	NN	<unknown>	_	O	O	
+14-5	.	$.	.	_	O	O	
+
+#id=15
+#text=Krieger und Frau) , dazu eine Durchzeichnung derselben, Notiz und Photographie einer I1armorstatuette, weibliche :B'igur ehrwürdig-priesterlichen Bezugs, Bemerkungen über eine Terrakotte (Teleh c.! )
+15-1	Krieger	NN	Krieger	_	O	O	
+15-2	und	KON	und	_	O	O	
+15-3	Frau	NN	Frau	_	O	O	
+15-4	)	$(	)	_	O	O	
+15-5	,	$,	,	_	O	O	
+15-6	dazu	PAV	dazu	_	O	O	
+15-7	eine	ART	eine	_	O	O	
+15-8	Durchzeichnung	NN	<unknown>	_	O	O	
+15-9	derselben	PDS	dieselbe	_	O	O	
+15-10	,	$,	,	_	O	O	
+15-11	Notiz	NN	Notiz	_	O	O	
+15-12	und	KON	und	_	O	O	
+15-13	Photographie	NN	Photographie	_	O	O	
+15-14	einer	ART	eine	_	O	O	
+15-15	I1armorstatuette	NN	<unknown>	_	O	O	
+15-16	,	$,	,	_	O	O	
+15-17	weibliche	ADJA	weiblich	_	O	O	
+15-18	:B'igur	NN	<unknown>	_	O	O	
+15-19	ehrwürdig-priesterlichen	ADJA	<unknown>	_	O	O	
+15-20	Bezugs	NN	Bezug	_	O	O	
+15-21	,	$,	,	_	O	O	
+15-22	Bemerkungen	NN	Bemerkung	_	O	O	
+15-23	über	APPR	über	_	O	O	
+15-24	eine	ART	eine	_	O	O	
+15-25	Terrakotte	NN	<unknown>	_	O	O	
+15-26	(	$(	(	_	O	O	
+15-27	Teleh	NE	<unknown>	_	O	O	
+15-28	c.	NN	<unknown>	_	O	O	
+15-29	!	$.	!	_	O	O	
+15-30	)	$(	)	_	O	O	
+
+#id=16
+#text=p oros und Zeichnung derselben.
+16-1	p	NE	p	_	O	O	
+16-2	oros	NE	<unknown>	_	O	O	
+16-3	und	KON	und	_	O	O	
+16-4	Zeichnung	NN	Zeichnung	_	O	O	
+16-5	derselben	PDAT	dieselb	_	O	O	
+16-6	.	$.	.	_	O	O	
+
+#id=17
+#text=In letzter Zeit wa-
+17-1	In	APPR	in	_	O	O	
+17-2	letzter	ADJA	letzt	_	O	O	
+17-3	Zeit	NN	Zeit	_	O	O	
+17-4	wa-	TRUNC	wa-	_	O	O	
+

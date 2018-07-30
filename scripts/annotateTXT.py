@@ -24,11 +24,11 @@ Annotation = namedtuple('Annotation', ['token', 'pos', 'lemma', 'header', 'ne'])
 
 
 # Fine-tune your parameters here!
-conf = ProjectCofiguration(os.path.expanduser("~/projects/Gelehrtenkorrespondenz/lib/config/korr_mac.json"))
+conf = ProjectCofiguration(os.path.expanduser("~/PycharmProjects/Gelehrtenkorrespondenz/lib/config/korr_mac.json"))
 outdir = os.path.join(conf.project_root, "data/test")
 basename = '10_BOOK-ZID1313751.txt'
 model_path = os.path.join(conf.project_root, "lib/models/korrespondez_model_stage9.pickle")
-sent_tokenizer_path = os.path.expanduser('~/projects/Gelehrtenkorrespondenz/lib/tokenizers/korrespondenz_sent_tok.pickle')
+sent_tokenizer_path = os.path.expanduser('~/PycharmProjects/Gelehrtenkorrespondenz/lib/tokenizers/korrespondenz_sent_tok.pickle')
 
 #d = {
 #    "persons": "lib/dictionaries/persons.txt",

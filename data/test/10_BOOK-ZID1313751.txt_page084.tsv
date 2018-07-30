@@ -1,0 +1,46 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=5 Helbig an ~~ Rom, 27. August 1863 maphrodisie demnach aufzugeben ist.
+1-1	5	CARD	5	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	~~	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	maphrodisie	NN	<unknown>	_	O	O	
+1-12	demnach	PAV	demnach	_	O	O	
+1-13	aufzugeben	VVIZU	aufgeben	_	O	O	
+1-14	ist	VAFIN	sein	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich möchte die Notiz Gerhard in die archäologische Zeitung schicken, für die soeben ein Nothschrei eingelaufen ist.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	möchte	VMFIN	mögen	_	O	O	
+2-3	die	ART	die	_	O	O	
+2-4	Notiz	NN	Notiz	_	O	O	
+2-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-6	in	APPR	in	_	O	O	
+2-7	die	ART	die	_	O	O	
+2-8	archäologische	ADJA	archäologisch	_	O	O	
+2-9	Zeitung	NN	Zeitung	_	O	O	
+2-10	schicken	VVINF	schicken	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	für	APPR	für	_	O	O	
+2-13	die	PRELS	die	_	O	O	
+2-14	soeben	ADV	soeben	_	O	O	
+2-15	ein	ART	eine	_	O	O	
+2-16	Nothschrei	NN	<unknown>	_	O	O	
+2-17	eingelaufen	VVPP	einlaufen	_	O	O	
+2-18	ist	VAFIN	sein	_	O	O	
+2-19	.	$.	.	_	O	O	
+
+#id=3
+#text=D. O.
+3-1	D.	ART	d.	_	O	O	
+3-2	O.	NE	O.	_	O	O	
+

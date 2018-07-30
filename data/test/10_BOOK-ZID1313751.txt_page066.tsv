@@ -1,0 +1,46 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=(' \ Rom, 12. Juli 1863 3 NB.
+1-1	(	$(	(	_	O	O	
+1-2	'	$(	'	_	O	O	
+1-3	\	XY	\	_	O	O	
+1-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	3	CARD	3	_	O	O	
+1-11	NB	NE	NB	_	O	O	
+1-12	.	$.	.	_	O	O	
+
+#id=2
+#text=Bei Dennis findet sich kein Plan von Perugia.
+2-1	Bei	APPR	bei	_	O	O	
+2-2	Dennis	NE	Dennis	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-3	findet	VVFIN	finden	_	O	O	
+2-4	sich	PRF	sich	_	O	O	
+2-5	kein	PIAT	keine	_	O	O	
+2-6	Plan	NN	Plan	_	O	O	
+2-7	von	APPR	von	_	O	O	
+2-8	Perugia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Am Rande der ersten Seite, ganz unten, mit anderer Schrift : Vasenzeichnung Gerhard
+3-1	Am	APPRART	an	_	O	O	
+3-2	Rande	NN	Rand	_	O	O	
+3-3	der	ART	die	_	O	O	
+3-4	ersten	ADJA	erst	_	O	O	
+3-5	Seite	NN	Seite	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	ganz	ADV	ganz	_	O	O	
+3-8	unten	ADV	unten	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	mit	APPR	mit	_	O	O	
+3-11	anderer	PIAT	andere	_	O	O	
+3-12	Schrift	NN	Schrift	_	O	O	
+3-13	:	$.	:	_	O	O	
+3-14	Vasenzeichnung	NN	<unknown>	_	O	O	
+3-15	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

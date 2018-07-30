@@ -1,0 +1,158 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=54 Wolfgang Helbig an Heinrich Brunn Rom, 22. Dezember 1885 Postkarte 22. Dez.
+1-1	54	CARD	54	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1885	CARD	1885	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Postkarte	NN	Postkarte	_	O	O	
+1-14	22	CARD	22	_	O	O	
+1-15	.	$.	.	_	O	O	
+1-16	Dez.	NN	Dez.	_	O	O	
+
+#id=2
+#text=1885 Lieber Herr Professor !
+2-1	1885	CARD	1885	_	O	O	
+2-2	Lieber	ADJA	lieb	_	O	O	
+2-3	Herr	NN	Herr	_	O	O	
+2-4	Professor	NN	Professor	_	O	O	
+2-5	!	$.	!	_	O	O	
+
+#id=3
+#text=Gestern ist mir auf dem Unterrichtsministerium der für Sie bestimmte Gyps des Dionysos von Tivoli und von Barracco der marmorne Apollokopf übergeben worden, den er Ihnen zum Geschenk macht.
+3-1	Gestern	ADV	gestern	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	mir	PPER	ich	_	O	O	
+3-4	auf	APPR	auf	_	O	O	
+3-5	dem	ART	die	_	O	O	
+3-6	Unterrichtsministerium	NN	Unterrichtsministerium	_	O	O	
+3-7	der	ART	die	_	O	O	
+3-8	für	APPR	für	_	O	O	
+3-9	Sie	PPER	Sie	_	O	O	
+3-10	bestimmte	ADJA	bestimmt	_	O	O	
+3-11	Gyps	NN	<unknown>	_	O	O	
+3-12	des	ART	die	_	O	O	
+3-13	Dionysos	NE	Dionysos	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-14	von	APPR	von	_	O	O	
+3-15	Tivoli	NE	Tivoli	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-16	und	KON	und	_	O	O	
+3-17	von	APPR	von	_	O	O	
+3-18	Barracco	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-19	der	ART	die	_	O	O	
+3-20	marmorne	ADJA	marmorn	_	O	O	
+3-21	Apollokopf	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-22	übergeben	VVPP	übergeben	_	O	O	
+3-23	worden	VAPP	werden	_	O	O	
+3-24	,	$,	,	_	O	O	
+3-25	den	PRELS	die	_	O	O	
+3-26	er	PPER	er	_	O	O	
+3-27	Ihnen	PPER	Sie	_	O	O	
+3-28	zum	APPRART	zu	_	O	O	
+3-29	Geschenk	NN	Geschenk	_	O	O	
+3-30	macht	VVFIN	machen	_	O	O	
+3-31	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Sachen werden morgen verpackt und dann an Sie abgeschickt.
+4-1	Die	ART	die	_	O	O	
+4-2	Sachen	NN	Sache	_	O	O	
+4-3	werden	VAFIN	werden	_	O	O	
+4-4	morgen	ADV	morgen	_	O	O	
+4-5	verpackt	VVPP	verpacken	_	O	O	
+4-6	und	KON	und	_	O	O	
+4-7	dann	ADV	dann	_	O	O	
+4-8	an	APPR	an	_	O	O	
+4-9	Sie	PPER	Sie	_	O	O	
+4-10	abgeschickt	VVPP	abschicken	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Dem Ministerium würde ich erst nach erhaltener Sendung danken.
+5-1	Dem	ART	die	_	O	O	
+5-2	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-3	würde	VAFIN	werden	_	O	O	
+5-4	ich	PPER	ich	_	O	O	
+5-5	erst	ADV	erst	_	O	O	
+5-6	nach	APPR	nach	_	O	O	
+5-7	erhaltener	ADJA	erhaltener	_	O	O	
+5-8	Sendung	NN	Sendung	_	O	O	
+5-9	danken	VVINF	danken	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Dagegen wäre es vielleicht nicht übel, wenn Sie baldigst ein Paar Worte des Dankes an Barone Giovanni Barracco Deputato al Parlamento, Corso 160 Roma schrieben.
+6-1	Dagegen	PAV	dagegen	_	O	O	
+6-2	wäre	VAFIN	sein	_	O	O	
+6-3	es	PPER	es	_	O	O	
+6-4	vielleicht	ADV	vielleicht	_	O	O	
+6-5	nicht	PTKNEG	nicht	_	O	O	
+6-6	übel	ADJD	übel	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	wenn	KOUS	wenn	_	O	O	
+6-9	Sie	PPER	Sie	_	O	O	
+6-10	baldigst	ADJD	baldig	_	O	O	
+6-11	ein	ART	eine	_	O	O	
+6-12	Paar	PIAT	paar	_	O	O	
+6-13	Worte	NN	Wort	_	O	O	
+6-14	des	ART	die	_	O	O	
+6-15	Dankes	NN	Dank	_	O	O	
+6-16	an	APPR	an	_	O	O	
+6-17	Barone	NN	Baron	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-18	Giovanni	NE	Giovanni	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-19	Barracco	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-20	Deputato	NE	<unknown>	_	O	O	
+6-21	al	NE	al	_	O	O	
+6-22	Parlamento	NN	<unknown>	_	O	O	
+6-23	,	$,	,	_	O	O	
+6-24	Corso	NN	<unknown>	_	O	O	
+6-25	160	CARD	160	_	O	O	
+6-26	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-27	schrieben	VVFIN	schreiben	_	O	O	
+6-28	.	$.	.	_	O	O	
+
+#id=7
+#text=Buona festa e buon capo d'anno für Sie und die Ihrigen !
+7-1	Buona	NE	<unknown>	_	O	O	
+7-2	festa	NE	<unknown>	_	O	O	
+7-3	e	VVFIN	<unknown>	_	O	O	
+7-4	buon	NE	<unknown>	_	O	O	
+7-5	capo	NE	<unknown>	_	O	O	
+7-6	d'anno	NE	<unknown>	_	O	O	
+7-7	für	APPR	für	_	O	O	
+7-8	Sie	PPER	Sie	_	O	O	
+7-9	und	KON	und	_	O	O	
+7-10	die	ART	die	_	O	O	
+7-11	Ihrigen	NN	<unknown>	_	O	O	
+7-12	!	$.	!	_	O	O	
+
+#id=8
+#text=Ihr ergebener Helbig B(arracco) bittet darum, daß der Kopf nicht öffentlich als ein Geschenk von ihm bezeichnet werde.
+8-1	Ihr	PPOSAT	ihr	_	O	O	
+8-2	ergebener	ADJA	ergeben	_	O	O	
+8-3	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+8-4	B(arracco)	NE	<unknown>	_	O	O	
+8-5	bittet	VVFIN	bitten	_	O	O	
+8-6	darum	PAV	darum	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	daß	KOUS	dass	_	O	O	
+8-9	der	ART	die	_	O	O	
+8-10	Kopf	NN	Kopf	_	O	O	
+8-11	nicht	PTKNEG	nicht	_	O	O	
+8-12	öffentlich	ADJD	öffentlich	_	O	O	
+8-13	als	KOKOM	als	_	O	O	
+8-14	ein	ART	eine	_	O	O	
+8-15	Geschenk	NN	Geschenk	_	O	O	
+8-16	von	APPR	von	_	O	O	
+8-17	ihm	PPER	er	_	O	O	
+8-18	bezeichnet	VVPP	bezeichnen	_	O	O	
+8-19	werde	VAFIN	werden	_	O	O	
+8-20	.	$.	.	_	O	O	
+

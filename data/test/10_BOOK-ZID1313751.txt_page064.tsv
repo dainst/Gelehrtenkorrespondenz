@@ -1,0 +1,244 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=/ I Rom, 12. Juli 1863 g. e r.
+1-1	/	$(	/	_	O	O	
+1-2	I	FM	I	_	O	O	
+1-3	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-4	,	$,	,	_	O	O	
+1-5	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-7	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	g.	ADJA	<unknown>	_	O	O	
+1-10	e	ADJA	<unknown>	_	O	O	
+1-11	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=15 VII, 63 Rom 12. Juli 1863 Geehrtester Herr Professor J So eben erhalte ich Ihren Brief, den ich sofort beantworte.
+2-1	15	CARD	15	_	O	O	
+2-2	VII	CARD	VII	_	O	O	
+2-3	,	$,	,	_	O	O	
+2-4	63	CARD	63	_	O	O	
+2-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-6	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	Geehrtester	ADJA	<unknown>	_	O	O	
+2-11	Herr	NN	Herr	_	O	O	
+2-12	Professor	NN	Professor	_	O	O	
+2-13	J	NN	J	_	O	O	
+2-14	So	ADV	so	_	O	O	
+2-15	eben	ADV	eben	_	O	O	
+2-16	erhalte	VVFIN	erhalten	_	O	O	
+2-17	ich	PPER	ich	_	O	O	
+2-18	Ihren	PPOSAT	ihr	_	O	O	
+2-19	Brief	NN	Brief	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	den	PRELS	die	_	O	O	
+2-22	ich	PPER	ich	_	O	O	
+2-23	sofort	ADV	sofort	_	O	O	
+2-24	beantworte	VVFIN	beantworten	_	O	O	
+2-25	.	$.	.	_	O	O	
+
+#id=3
+#text=Viel Neues habe ich Ihnen nicht zu schreiben.
+3-1	Viel	PIAT	viele	_	O	O	
+3-2	Neues	NN	Neue	_	O	O	
+3-3	habe	VAFIN	haben	_	O	O	
+3-4	ich	PPER	ich	_	O	O	
+3-5	Ihnen	PPER	Sie	_	O	O	
+3-6	nicht	PTKNEG	nicht	_	O	O	
+3-7	zu	PTKZU	zu	_	O	O	
+3-8	schreiben	VVINF	schreiben	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Ende letzter Woche lief ein Brief von einem gewissen Cigalla aus Santorino a~'das Institut ein mit schlechten Copien zweier griechischer Inschriften.
+4-1	Ende	NN	Ende	_	O	O	
+4-2	letzter	ADJA	letzt	_	O	O	
+4-3	Woche	NN	Woche	_	O	O	
+4-4	lief	VVFIN	laufen	_	O	O	
+4-5	ein	ART	eine	_	O	O	
+4-6	Brief	NN	Brief	_	O	O	
+4-7	von	APPR	von	_	O	O	
+4-8	einem	ART	eine	_	O	O	
+4-9	gewissen	ADJA	gewiss	_	O	O	
+4-10	Cigalla	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-11	aus	APPR	aus	_	O	O	
+4-12	Santorino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-13	a~'das	NE	<unknown>	_	O	O	
+4-14	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-15	ein	ART	eine	_	O	O	
+4-16	mit	APPR	mit	_	O	O	
+4-17	schlechten	ADJA	schlecht	_	O	O	
+4-18	Copien	NN	<unknown>	_	O	O	
+4-19	zweier	ADJA	zweier	_	O	O	
+4-20	griechischer	ADJA	griechisch	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-21	Inschriften	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-22	.	$.	.	_	O	O	
+
+#id=5
+#text=Da Köhler einmal Inschriften von Amorqos zur Bearbeitung übernommen hatte, habe ich ihm diese dazugegeben.
+5-1	Da	KOUS	da	_	O	O	
+5-2	Köhler	NE	Köhler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	einmal	ADV	einmal	_	O	O	
+5-4	Inschriften	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-5	von	APPR	von	_	O	O	
+5-6	Amorqos	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-7	zur	APPRART	zu	_	O	O	
+5-8	Bearbeitung	NN	Bearbeitung	_	O	O	
+5-9	übernommen	VVPP	übernehmen	_	O	O	
+5-10	hatte	VAFIN	haben	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	habe	VAFIN	haben	_	O	O	
+5-13	ich	PPER	ich	_	O	O	
+5-14	ihm	PPER	er	_	O	O	
+5-15	diese	PDS	diese	_	O	O	
+5-16	dazugegeben	VVFIN	<unknown>	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich hoffe, daß Sie damit einverstanden sind.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	hoffe	VVFIN	hoffen	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	daß	KOUS	dass	_	O	O	
+6-5	Sie	PPER	Sie	_	O	O	
+6-6	damit	PAV	damit	_	O	O	
+6-7	einverstanden	VVPP	einverstehen	_	O	O	
+6-8	sind	VAFIN	sein	_	O	O	
+6-9	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Papiere, welche ich unter einer von meiner Hand geschriebenen Adresse an Sie abgehen lasse, waren an das Institut adressirt und ~mrden deßhalb von mir eröffnet.
+7-1	Die	ART	die	_	O	O	
+7-2	Papiere	NN	Papier	_	O	O	
+7-3	,	$,	,	_	O	O	
+7-4	welche	PRELS	welche	_	O	O	
+7-5	ich	PPER	ich	_	O	O	
+7-6	unter	APPR	unter	_	O	O	
+7-7	einer	ART	eine	_	O	O	
+7-8	von	APPR	von	_	O	O	
+7-9	meiner	PPOSAT	mein	_	O	O	
+7-10	Hand	NN	Hand	_	O	O	
+7-11	geschriebenen	ADJA	geschrieben	_	O	O	
+7-12	Adresse	NN	Adresse	_	O	O	
+7-13	an	APPR	an	_	O	O	
+7-14	Sie	PPER	Sie	_	O	O	
+7-15	abgehen	VVINF	abgehen	_	O	O	
+7-16	lasse	VVFIN	lassen	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	waren	VAFIN	sein	_	O	O	
+7-19	an	APPR	an	_	O	O	
+7-20	das	ART	die	_	O	O	
+7-21	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-22	adressirt	NN	<unknown>	_	O	O	
+7-23	und	KON	und	_	O	O	
+7-24	~mrden	NN	<unknown>	_	O	O	
+7-25	deßhalb	VVFIN	<unknown>	_	O	O	
+7-26	von	APPR	von	_	O	O	
+7-27	mir	PPER	ich	_	O	O	
+7-28	eröffnet	VVPP	eröffnen	_	O	O	
+7-29	.	$.	.	_	O	O	
+
+#id=8
+#text=Da ich nicht weiß, in was für Verbindung das Institut mit jenem Eberhard steht, habe ich es für gut gehalten, Ihre weiteren Anweisungen darüber in Kenntnis zu nehmen.
+8-1	Da	KOUS	da	_	O	O	
+8-2	ich	PPER	ich	_	O	O	
+8-3	nicht	PTKNEG	nicht	_	O	O	
+8-4	weiß	VVFIN	wissen	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	in	APPR	in	_	O	O	
+8-7	was	PRELS	was	_	O	O	
+8-8	für	APPR	für	_	O	O	
+8-9	Verbindung	NN	Verbindung	_	O	O	
+8-10	das	ART	die	_	O	O	
+8-11	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-12	mit	APPR	mit	_	O	O	
+8-13	jenem	PDAT	jen	_	O	O	
+8-14	Eberhard	NE	Eberhard	_	O	O	
+8-15	steht	VVFIN	stehen	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	habe	VAFIN	haben	_	O	O	
+8-18	ich	PPER	ich	_	O	O	
+8-19	es	PPER	es	_	O	O	
+8-20	für	APPR	für	_	O	O	
+8-21	gut	ADJD	gut	_	O	O	
+8-22	gehalten	VVPP	halten	_	O	O	
+8-23	,	$,	,	_	O	O	
+8-24	Ihre	PPOSAT	ihr	_	O	O	
+8-25	weiteren	ADJA	weit	_	O	O	
+8-26	Anweisungen	NN	Anweisung	_	O	O	
+8-27	darüber	PAV	darüber	_	O	O	
+8-28	in	APPR	in	_	O	O	
+8-29	Kenntnis	NN	Kenntnis	_	O	O	
+8-30	zu	PTKZU	zu	_	O	O	
+8-31	nehmen	VVINF	nehmen	_	O	O	
+8-32	.	$.	.	_	O	O	
+
+#id=9
+#text=Ihre verschiedenen Aufträge sollen pünktlich besorgt werden.
+9-1	Ihre	PPOSAT	ihr	_	O	O	
+9-2	verschiedenen	ADJA	verschieden	_	O	O	
+9-3	Aufträge	NN	Auftrag	_	O	O	
+9-4	sollen	VMFIN	sollen	_	O	O	
+9-5	pünktlich	ADJD	pünktlich	_	O	O	
+9-6	besorgt	VVPP	besorgen	_	O	O	
+9-7	werden	VAINF	werden	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Anfang dieser \oloche werden Sie die pagine des Hübnerschen Aufsatzes erhalten, dessen Correctur ich vollendet habe.
+10-1	Anfang	NN	Anfang	_	O	O	
+10-2	dieser	PDAT	dies	_	O	O	
+10-3	\oloche	NN	<unknown>	_	O	O	
+10-4	werden	VAFIN	werden	_	O	O	
+10-5	Sie	PPER	Sie	_	O	O	
+10-6	die	ART	die	_	O	O	
+10-7	pagine	NN	<unknown>	_	O	O	
+10-8	des	ART	die	_	O	O	
+10-9	Hübnerschen	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-10	Aufsatzes	NN	Aufsatz	_	O	O	
+10-11	erhalten	VVPP	erhalten	_	O	O	
+10-12	,	$,	,	_	O	O	
+10-13	dessen	PRELAT	die	_	O	O	
+10-14	Correctur	NN	<unknown>	_	O	O	
+10-15	ich	PPER	ich	_	O	O	
+10-16	vollendet	VVPP	vollenden	_	O	O	
+10-17	habe	VAFIN	haben	_	O	O	
+10-18	.	$.	.	_	O	O	
+
+#id=11
+#text=Ich selbst befinde mich wohl.
+11-1	Ich	PPER	ich	_	O	O	
+11-2	selbst	ADV	selbst	_	O	O	
+11-3	befinde	VVFIN	befinden	_	O	O	
+11-4	mich	PRF	ich	_	O	O	
+11-5	wohl	ADV	wohl	_	O	O	
+11-6	.	$.	.	_	O	O	
+
+#id=12
+#text=Die Hitze ist gar nicht so sChlimm, wie die Leute sagen.
+12-1	Die	ART	die	_	O	O	
+12-2	Hitze	NN	Hitze	_	O	O	
+12-3	ist	VAFIN	sein	_	O	O	
+12-4	gar	ADV	gar	_	O	O	
+12-5	nicht	PTKNEG	nicht	_	O	O	
+12-6	so	ADV	so	_	O	O	
+12-7	sChlimm	VVFIN	<unknown>	_	O	O	
+12-8	,	$,	,	_	O	O	
+12-9	wie	KOUS	wie	_	O	O	
+12-10	die	ART	die	_	O	O	
+12-11	Leute	NN	Leute	_	O	O	
+12-12	sagen	VVFIN	sagen	_	O	O	
+12-13	.	$.	.	_	O	O	
+
+#id=13
+#text=Man ist nur noch etwas
+13-1	Man	PIS	man	_	O	O	
+13-2	ist	VAFIN	sein	_	O	O	
+13-3	nur	ADV	nur	_	O	O	
+13-4	noch	ADV	noch	_	O	O	
+13-5	etwas	ADV	etwas	_	O	O	
+

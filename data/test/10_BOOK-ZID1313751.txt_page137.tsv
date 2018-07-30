@@ -1,0 +1,118 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=25 Wolfgang Helbig an Heinrich Brunn Rom, 23. Dezember 1879 n. c. r. Roma, li 23. Dec.
+1-1	25	CARD	25	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1879	CARD	1879	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	n.	APPR	n.	_	O	O	
+1-14	c.	ADJA	<unknown>	_	O	O	
+1-15	r.	ADJA	<unknown>	_	O	O	
+1-16	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-17	,	$,	,	_	O	O	
+1-18	li	ADJD	<unknown>	_	O	O	
+1-19	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Dec	NE	Dec	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1879 Lieber Herr Professor Es thut mir sehr leid Ihnen mittheilen zu müssen, daß Malpieri, eigenmächtig wie öfters, die ihm von München geschuldeten Lire 105 als Nachnahme bei dem Spediteur erhoben hat.
+2-1	1879	CARD	1879	_	O	O	
+2-2	Lieber	ADJA	lieb	_	O	O	
+2-3	Herr	NN	Herr	_	O	O	
+2-4	Professor	NN	Professor	_	O	O	
+2-5	Es	PPER	es	_	O	O	
+2-6	thut	VVFIN	<unknown>	_	O	O	
+2-7	mir	PPER	ich	_	O	O	
+2-8	sehr	ADV	sehr	_	O	O	
+2-9	leid	ADJD	leid	_	O	O	
+2-10	Ihnen	PPER	Sie	_	O	O	
+2-11	mittheilen	VVINF	<unknown>	_	O	O	
+2-12	zu	PTKZU	zu	_	O	O	
+2-13	müssen	VMINF	müssen	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	daß	KOUS	dass	_	O	O	
+2-16	Malpieri	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-17	,	$,	,	_	O	O	
+2-18	eigenmächtig	ADJD	eigenmächtig	_	O	O	
+2-19	wie	KOKOM	wie	_	O	O	
+2-20	öfters	ADV	öfters	_	O	O	
+2-21	,	$,	,	_	O	O	
+2-22	die	PRELS	die	_	O	O	
+2-23	ihm	PPER	er	_	O	O	
+2-24	von	APPR	von	_	O	O	
+2-25	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-26	geschuldeten	ADJA	geschuldet	_	O	O	
+2-27	Lire	NN	Lira	_	O	O	
+2-28	105	CARD	@card@	_	O	O	
+2-29	als	KOKOM	als	_	O	O	
+2-30	Nachnahme	NN	Nachnahme	_	O	O	
+2-31	bei	APPR	bei	_	O	O	
+2-32	dem	ART	die	_	O	O	
+2-33	Spediteur	NN	Spediteur	_	O	O	
+2-34	erhoben	VVPP	erheben	_	O	O	
+2-35	hat	VAFIN	haben	_	O	O	
+2-36	.	$.	.	_	O	O	
+
+#id=3
+#text=Selbstverständlich stehe ich zur Disposition, wenn daraus Ungelegenheiten für die Ordnung Ihres Budgets erwachsen sollten.
+3-1	Selbstverständlich	ADJD	selbstverständlich	_	O	O	
+3-2	stehe	VVFIN	stehen	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	zur	APPRART	zu	_	O	O	
+3-5	Disposition	NN	Disposition	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	wenn	KOUS	wenn	_	O	O	
+3-8	daraus	PAV	daraus	_	O	O	
+3-9	Ungelegenheiten	NN	Ungelegenheit	_	O	O	
+3-10	für	APPR	für	_	O	O	
+3-11	die	ART	die	_	O	O	
+3-12	Ordnung	NN	Ordnung	_	O	O	
+3-13	Ihres	PPOSAT	ihr	_	O	O	
+3-14	Budgets	NN	Budget	_	O	O	
+3-15	erwachsen	VVINF	erwachsen	_	O	O	
+3-16	sollten	VMFIN	sollen	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Bei dieser Gelegenheit ein herzliches buona festa e buon capo d'anno von Haus zu Haus.
+4-1	Bei	APPR	bei	_	O	O	
+4-2	dieser	PDAT	dies	_	O	O	
+4-3	Gelegenheit	NN	Gelegenheit	_	O	O	
+4-4	ein	ART	eine	_	O	O	
+4-5	herzliches	ADJA	herzlich	_	O	O	
+4-6	buona	NE	<unknown>	_	O	O	
+4-7	festa	NE	<unknown>	_	O	O	
+4-8	e	ADJA	<unknown>	_	O	O	
+4-9	buon	NN	<unknown>	_	O	O	
+4-10	capo	NE	<unknown>	_	O	O	
+4-11	d'anno	NE	<unknown>	_	O	O	
+4-12	von	APPR	von	_	O	O	
+4-13	Haus	NN	Haus	_	O	O	
+4-14	zu	APPR	zu	_	O	O	
+4-15	Haus	NN	Haus	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Viele Grüßean Frau Brunn !
+5-1	Viele	PIAT	viele	_	O	O	
+5-2	Grüßean	ADJA	<unknown>	_	O	O	
+5-3	Frau	NN	Frau	_	O	O	
+5-4	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	!	$.	!	_	O	O	
+
+#id=6
+#text=Ihr ergebener Helbig
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	ergebener	ADJA	ergeben	_	O	O	
+6-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

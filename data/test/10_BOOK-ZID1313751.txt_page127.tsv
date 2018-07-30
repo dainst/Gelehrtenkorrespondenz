@@ -1,0 +1,254 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=18 3 Wolfgang Helbig an Heinrich Brunn Rom, 8. Dezember 1874 chen indischer Affen ), dann ist man doch wohl genöthigt, in diesem Style einen asiatischen zu erkennen, der sich etwa durch die Vermittelung der Phönizier über den Westen verbreitete.
+1-1	18	CARD	18	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	chen	ADJA	<unknown>	_	O	O	
+1-15	indischer	ADJA	indisch	_	O	O	
+1-16	Affen	NN	Affe	_	O	O	
+1-17	)	$(	)	_	O	O	
+1-18	,	$,	,	_	O	O	
+1-19	dann	ADV	dann	_	O	O	
+1-20	ist	VAFIN	sein	_	O	O	
+1-21	man	PIS	man	_	O	O	
+1-22	doch	ADV	doch	_	O	O	
+1-23	wohl	ADV	wohl	_	O	O	
+1-24	genöthigt	VVFIN	<unknown>	_	O	O	
+1-25	,	$,	,	_	O	O	
+1-26	in	APPR	in	_	O	O	
+1-27	diesem	PDAT	dies	_	O	O	
+1-28	Style	NN	<unknown>	_	O	O	
+1-29	einen	ART	eine	_	O	O	
+1-30	asiatischen	ADJA	asiatisch	_	O	O	
+1-31	zu	PTKZU	zu	_	O	O	
+1-32	erkennen	VVINF	erkennen	_	O	O	
+1-33	,	$,	,	_	O	O	
+1-34	der	PRELS	die	_	O	O	
+1-35	sich	PRF	sich	_	O	O	
+1-36	etwa	ADV	etwa	_	O	O	
+1-37	durch	APPR	durch	_	O	O	
+1-38	die	ART	die	_	O	O	
+1-39	Vermittelung	NN	<unknown>	_	O	O	
+1-40	der	ART	die	_	O	O	
+1-41	Phönizier	NN	Phönizier	_	O	O	
+1-42	über	APPR	über	_	O	O	
+1-43	den	ART	die	_	O	O	
+1-44	Westen	NN	Weste|Westen	_	O	O	
+1-45	verbreitete	VVFIN	verbreiten	_	O	O	
+1-46	.	$.	.	_	O	O	
+
+#id=2
+#text=Einige fatti principali werde ich in den Annali des nächsten Jahres veröffentlichen und dann die Frage ausführlich in meinem Buche behandeln.
+2-1	Einige	PIAT	einige	_	O	O	
+2-2	fatti	NE	<unknown>	_	O	O	
+2-3	principali	NE	<unknown>	_	O	O	
+2-4	werde	VAFIN	werden	_	O	O	
+2-5	ich	PPER	ich	_	O	O	
+2-6	in	APPR	in	_	O	O	
+2-7	den	ART	die	_	O	O	
+2-8	Annali	NE	<unknown>	_	O	O	
+2-9	des	ART	die	_	O	O	
+2-10	nächsten	ADJA	nah	_	O	O	
+2-11	Jahres	NN	Jahr	_	O	O	
+2-12	veröffentlichen	VVINF	veröffentlichen	_	O	O	
+2-13	und	KON	und	_	O	O	
+2-14	dann	ADV	dann	_	O	O	
+2-15	die	ART	die	_	O	O	
+2-16	Frage	NN	Frage	_	O	O	
+2-17	ausführlich	ADJD	ausführlich	_	O	O	
+2-18	in	APPR	in	_	O	O	
+2-19	meinem	PPOSAT	mein	_	O	O	
+2-20	Buche	NN	Buche	_	O	O	
+2-21	behandeln	VVINF	behandeln	_	O	O	
+2-22	.	$.	.	_	O	O	
+
+#id=3
+#text=Von Borghi aufgefordert, habe ich nach eingeholter Einwilligung des Reichskanzleramts die Züchtung der sich mit Archäologie beschäftigenden römischen Jugend übernommen, tage außerdem in verschiedenen Commissionen.
+3-1	Von	APPR	von	_	O	O	
+3-2	Borghi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	aufgefordert	VVPP	auffordern	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	habe	VAFIN	haben	_	O	O	
+3-6	ich	PPER	ich	_	O	O	
+3-7	nach	APPR	nach	_	O	O	
+3-8	eingeholter	ADJA	<unknown>	_	O	O	
+3-9	Einwilligung	NN	Einwilligung	_	O	O	
+3-10	des	ART	die	_	O	O	
+3-11	Reichskanzleramts	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-12	die	ART	die	_	O	O	
+3-13	Züchtung	NN	Züchtung	_	O	O	
+3-14	der	ART	die	_	O	O	
+3-15	sich	PRF	sich	_	O	O	
+3-16	mit	APPR	mit	_	O	O	
+3-17	Archäologie	NN	Archäologie	_	O	O	
+3-18	beschäftigenden	ADJA	beschäftigend	_	O	O	
+3-19	römischen	ADJA	römisch	_	O	O	
+3-20	Jugend	NN	Jugend	_	O	O	
+3-21	übernommen	VVPP	übernehmen	_	O	O	
+3-22	,	$,	,	_	O	O	
+3-23	tage	VVFIN	tagen	_	O	O	
+3-24	außerdem	ADV	außerdem	_	O	O	
+3-25	in	APPR	in	_	O	O	
+3-26	verschiedenen	ADJA	verschieden	_	O	O	
+3-27	Commissionen	NN	<unknown>	_	O	O	
+3-28	.	$.	.	_	O	O	
+
+#id=4
+#text=Für die Zwecke des Instituts kommt dabei allerlei heraus.
+4-1	Für	APPR	für	_	O	O	
+4-2	die	ART	die	_	O	O	
+4-3	Zwecke	NN	Zweck	_	O	O	
+4-4	des	ART	die	_	O	O	
+4-5	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-6	kommt	VVFIN	kommen	_	O	O	
+4-7	dabei	PAV	dabei	_	O	O	
+4-8	allerlei	PIS	allerlei	_	O	O	
+4-9	heraus	PTKVZ	heraus	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich komme selbst aberybei dieser Menge oft ganz heterogener Beschäftigungen recht herunter.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	komme	VVFIN	kommen	_	O	O	
+5-3	selbst	ADV	selbst	_	O	O	
+5-4	aberybei	ADV	<unknown>	_	O	O	
+5-5	dieser	PDAT	dies	_	O	O	
+5-6	Menge	NN	Menge	_	O	O	
+5-7	oft	ADV	oft	_	O	O	
+5-8	ganz	ADV	ganz	_	O	O	
+5-9	heterogener	ADJA	heterogen	_	O	O	
+5-10	Beschäftigungen	NN	Beschäftigung	_	O	O	
+5-11	recht	ADJD	recht	_	O	O	
+5-12	herunter	PTKVZ	herunter	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Denken Sie sich, nächstens muß ich sogar Unterofficieren Instructionen ertheilen, wie sie Ausgrabungen zu beaufsichtigen und die wichtigsten dabei zu Tage kommenden Thatsachen zu notiren haben.
+6-1	Denken	VVFIN	denken	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	sich	PRF	sich	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	nächstens	ADV	nächstens	_	O	O	
+6-6	muß	VMFIN	müssen	_	O	O	
+6-7	ich	PPER	ich	_	O	O	
+6-8	sogar	ADV	sogar	_	O	O	
+6-9	Unterofficieren	NN	<unknown>	_	O	O	
+6-10	Instructionen	NN	<unknown>	_	O	O	
+6-11	ertheilen	VVINF	<unknown>	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	wie	KOUS	wie	_	O	O	
+6-14	sie	PPER	sie	_	O	O	
+6-15	Ausgrabungen	NN	Ausgrabung	_	O	O	
+6-16	zu	PTKZU	zu	_	O	O	
+6-17	beaufsichtigen	VVINF	beaufsichtigen	_	O	O	
+6-18	und	KON	und	_	O	O	
+6-19	die	ART	die	_	O	O	
+6-20	wichtigsten	ADJA	wichtig	_	O	O	
+6-21	dabei	PAV	dabei	_	O	O	
+6-22	zu	APPR	zu	_	O	O	
+6-23	Tage	NN	Tag	_	O	O	
+6-24	kommenden	ADJA	kommend	_	O	O	
+6-25	Thatsachen	NN	<unknown>	_	O	O	
+6-26	zu	APPR	zu	_	O	O	
+6-27	notiren	NN	<unknown>	_	O	O	
+6-28	haben	VAFIN	haben	_	O	O	
+6-29	.	$.	.	_	O	O	
+
+#id=7
+#text=Übrigens muß man es Borghi zugestehen, daß er Gedanken hat und Thatkraft besitzt.
+7-1	Übrigens	ADV	übrigens	_	O	O	
+7-2	muß	VMFIN	müssen	_	O	O	
+7-3	man	PIS	man	_	O	O	
+7-4	es	PPER	es	_	O	O	
+7-5	Borghi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-6	zugestehen	VVINF	zugestehen	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	daß	KOUS	dass	_	O	O	
+7-9	er	PPER	er	_	O	O	
+7-10	Gedanken	NN	Gedanke	_	O	O	
+7-11	hat	VAFIN	haben	_	O	O	
+7-12	und	KON	und	_	O	O	
+7-13	Thatkraft	NN	<unknown>	_	O	O	
+7-14	besitzt	VVFIN	besitzen	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=Aber es fehlt eben an Geld und an Kräften unter den Italienern.
+8-1	Aber	KON	aber	_	O	O	
+8-2	es	PPER	es	_	O	O	
+8-3	fehlt	VVFIN	fehlen	_	O	O	
+8-4	eben	ADV	eben	_	O	O	
+8-5	an	APPR	an	_	O	O	
+8-6	Geld	NN	Geld	_	O	O	
+8-7	und	KON	und	_	O	O	
+8-8	an	APPR	an	_	O	O	
+8-9	Kräften	NN	Kraft	_	O	O	
+8-10	unter	APPR	unter	_	O	O	
+8-11	den	ART	die	_	O	O	
+8-12	Italienern	NN	Italiener	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Abbati Den Gypsabguß des EphebenkopfeSlhabe ich für Sie erworben.
+9-1	Abbati	NE	<unknown>	_	O	O	
+9-2	Den	ART	die	_	O	O	
+9-3	Gypsabguß	NN	<unknown>	_	O	O	
+9-4	des	ART	die	_	O	O	
+9-5	EphebenkopfeSlhabe	NN	<unknown>	_	O	O	
+9-6	ich	PPER	ich	_	O	O	
+9-7	für	APPR	für	_	O	O	
+9-8	Sie	PPER	Sie	_	O	O	
+9-9	erworben	VVPP	erwerben	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=Sagen Sie mir nun, wie ich ihn nach München befördern soll.
+10-1	Sagen	VVFIN	sagen	_	O	O	
+10-2	Sie	PPER	Sie	_	O	O	
+10-3	mir	PRF	ich	_	O	O	
+10-4	nun	ADV	nun	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	wie	KOUS	wie	_	O	O	
+10-7	ich	PPER	ich	_	O	O	
+10-8	ihn	PPER	er	_	O	O	
+10-9	nach	APPR	nach	_	O	O	
+10-10	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-11	befördern	VVINF	befördern	_	O	O	
+10-12	soll	VMFIN	sollen	_	O	O	
+10-13	.	$.	.	_	O	O	
+
+#id=11
+#text=Wie Sie wissen, kommen solche kleine Sendungen, die nur grande vitesse befördert werden, sehr theuer zu stehen.
+11-1	Wie	KOUS	wie	_	O	O	
+11-2	Sie	PPER	Sie	_	O	O	
+11-3	wissen	VVFIN	wissen	_	O	O	
+11-4	,	$,	,	_	O	O	
+11-5	kommen	VVFIN	kommen	_	O	O	
+11-6	solche	PIAT	solche	_	O	O	
+11-7	kleine	ADJA	klein	_	O	O	
+11-8	Sendungen	NN	Sendung	_	O	O	
+11-9	,	$,	,	_	O	O	
+11-10	die	PRELS	die	_	O	O	
+11-11	nur	ADV	nur	_	O	O	
+11-12	grande	ADJA	<unknown>	_	O	O	
+11-13	vitesse	NN	<unknown>	_	O	O	
+11-14	befördert	VVPP	befördern	_	O	O	
+11-15	werden	VAFIN	werden	_	O	O	
+11-16	,	$,	,	_	O	O	
+11-17	sehr	ADV	sehr	_	O	O	
+11-18	theuer	ADJD	<unknown>	_	O	O	
+11-19	zu	PTKZU	zu	_	O	O	
+11-20	stehen	VVINF	stehen	_	O	O	
+11-21	.	$.	.	_	O	O	
+

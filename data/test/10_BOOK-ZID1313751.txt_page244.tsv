@@ -1,0 +1,99 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=a) Renzen an Brunn Rom, 2. April 1885 Siehe Helbig an Brunn vom 2. April 1885 - r. 22/IV 85 Lieber Brunn !
+1-1	a	FM	a	_	O	O	
+1-2	)	$(	)	_	O	O	
+1-3	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1885	CARD	1885	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Siehe	ADV	siehe	_	O	O	
+1-13	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-14	an	APPR	an	_	O	O	
+1-15	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-16	vom	APPRART	von	_	O	O	
+1-17	2	CARD	2	_	O	O	
+1-18	.	$.	.	_	O	O	
+1-19	April	NN	April	_	O	O	
+1-20	1885	CARD	1885	_	O	O	
+1-21	-	$(	-	_	O	O	
+1-22	r.	VVFIN	<unknown>	_	O	O	
+1-23	22/IV	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+1-24	85	CARD	85	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+1-25	Lieber	ADJA	lieb	_	O	O	
+1-26	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-27	!	$.	!	_	O	O	
+
+#id=2
+#text=Möchten Sie mir nicht in zwei Worten sagen, was Sie über unsre Krise denken?
+2-1	Möchten	VMFIN	mögen	_	O	O	
+2-2	Sie	PPER	Sie	_	O	O	
+2-3	mir	PRF	ich	_	O	O	
+2-4	nicht	PTKNEG	nicht	_	O	O	
+2-5	in	APPR	in	_	O	O	
+2-6	zwei	CARD	zwei	_	O	O	
+2-7	Worten	NN	Wort	_	O	O	
+2-8	sagen	VVINF	sagen	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	was	PRELS	was	_	O	O	
+2-11	Sie	PPER	Sie	_	O	O	
+2-12	über	APPR	über	_	O	O	
+2-13	unsre	PPOSAT	unsre	_	O	O	
+2-14	Krise	NN	Krise	_	O	O	
+2-15	denken	VVFIN	denken	_	O	O	
+2-16	?	$.	?	_	O	O	
+
+#id=3
+#text=Mir scheint, man muß doch thun, was man kann zur Rettung des Institutes.
+3-1	Mir	PPER	ich	_	O	O	
+3-2	scheint	VVFIN	scheinen	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	man	PIS	man	_	O	O	
+3-5	muß	VMFIN	müssen	_	O	O	
+3-6	doch	ADV	doch	_	O	O	
+3-7	thun	NN	<unknown>	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	was	PRELS	was	_	O	O	
+3-10	man	PIS	man	_	O	O	
+3-11	kann	VMFIN	können	_	O	O	
+3-12	zur	APPRART	zu	_	O	O	
+3-13	Rettung	NN	Rettung	_	O	O	
+3-14	des	ART	die	_	O	O	
+3-15	Institutes	NN	Institut	_	O	O	
+3-16	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich habe übrigens an Conze geschrieben, ich werde der Plenarversammlung mein Pensionierungsgesuch einschicken.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	habe	VAFIN	haben	_	O	O	
+4-3	übrigens	ADV	übrigens	_	O	O	
+4-4	an	APPR	an	_	O	O	
+4-5	Conze	NE	Conze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-6	geschrieben	VVPP	schreiben	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	ich	PPER	ich	_	O	O	
+4-9	werde	VAFIN	werden	_	O	O	
+4-10	der	ART	die	_	O	O	
+4-11	Plenarversammlung	NN	Plenarversammlung	_	O	O	
+4-12	mein	PPOSAT	mein	_	O	O	
+4-13	Pensionierungsgesuch	NN	<unknown>	_	O	O	
+4-14	einschicken	VVINF	einschicken	_	O	O	
+4-15	.	$.	.	_	O	O	
+
+#id=5
+#text=Rerzlich grüßend Ihr w. Renzen ( W. Renzen )
+5-1	Rerzlich	ADJD	<unknown>	_	O	O	
+5-2	grüßend	ADJD	grüßend	_	O	O	
+5-3	Ihr	PPOSAT	ihr	_	O	O	
+5-4	w.	APPR	w.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+5-5	Renzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+5-6	(	$(	(	_	O	O	
+5-7	W.	APPR	w.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+5-8	Renzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+5-9	)	$(	)	_	O	O	
+

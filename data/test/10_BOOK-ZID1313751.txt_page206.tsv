@@ -1,0 +1,156 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=60 Wolf gang Helbig an Heinrich Brunn Rom, ?O.
+1-1	60	CARD	60	_	O	O	
+1-2	Wolf	NN	Wolf	_	O	O	
+1-3	gang	ADJD	gang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	?	$.	?	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	O.	APPR	o.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=Oktober 1889 Lieber Herr Professor Da das Expeditionsbureau der Lincei bis vorgestern Ferien hatte, habe ich Ihre Angelegenheit nicht eher erledigen können.
+2-1	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	1889	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-3	Lieber	ADJA	lieb	_	O	O	
+2-4	Herr	NN	Herr	_	O	O	
+2-5	Professor	NN	Professor	_	O	O	
+2-6	Da	ADV	da	_	O	O	
+2-7	das	ART	die	_	O	O	
+2-8	Expeditionsbureau	NN	<unknown>	_	O	O	
+2-9	der	ART	die	_	O	O	
+2-10	Lincei	NN	<unknown>	_	O	O	
+2-11	bis	KON	bis	_	O	O	
+2-12	vorgestern	ADV	vorgestern	_	O	O	
+2-13	Ferien	NN	Ferien	_	O	O	
+2-14	hatte	VAFIN	haben	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	habe	VAFIN	haben	_	O	O	
+2-17	ich	PPER	ich	_	O	O	
+2-18	Ihre	PPOSAT	ihr	_	O	O	
+2-19	Angelegenheit	NN	Angelegenheit	_	O	O	
+2-20	nicht	PTKNEG	nicht	_	O	O	
+2-21	eher	ADV	eher	_	O	O	
+2-22	erledigen	VVINF	erledigen	_	O	O	
+2-23	können	VMINF	können	_	O	O	
+2-24	.	$.	.	_	O	O	
+
+#id=3
+#text=Beifolgender Brief des Sekretariatschefs Unterrichtet Sie über den Modus der Spedition die Fehlenden Hefte erhalten Sie unverzüglich unter Kreuzband, die fehlenden Bände durch Löscher.
+3-1	Beifolgender	ADJA	<unknown>	_	O	O	
+3-2	Brief	NN	Brief	_	O	O	
+3-3	des	ART	die	_	O	O	
+3-4	Sekretariatschefs	NN	<unknown>	_	O	O	
+3-5	Unterrichtet	VVFIN	unterrichten	_	O	O	
+3-6	Sie	PPER	Sie	_	O	O	
+3-7	über	APPR	über	_	O	O	
+3-8	den	ART	die	_	O	O	
+3-9	Modus	NN	Modus	_	O	O	
+3-10	der	ART	die	_	O	O	
+3-11	Spedition	NN	Spedition	_	O	O	
+3-12	die	ART	die	_	O	O	
+3-13	Fehlenden	ADJA	fehlend	_	O	O	
+3-14	Hefte	NN	Heft	_	O	O	
+3-15	erhalten	VVFIN	erhalten	_	O	O	
+3-16	Sie	PPER	Sie	_	O	O	
+3-17	unverzüglich	ADJD	unverzüglich	_	O	O	
+3-18	unter	APPR	unter	_	O	O	
+3-19	Kreuzband	NN	Kreuzband	_	O	O	
+3-20	,	$,	,	_	O	O	
+3-21	die	ART	die	_	O	O	
+3-22	fehlenden	ADJA	fehlend	_	O	O	
+3-23	Bände	NN	Band	_	O	O	
+3-24	durch	APPR	durch	_	O	O	
+3-25	Löscher	NN	Löscher	_	O	O	
+3-26	.	$.	.	_	O	O	
+
+#id=4
+#text=Sollten die Hefte binnen 8 Tagen nicht eingetroffen sein, so bitte ich um Mittheilung durch eine Correspondenzkarte.
+4-1	Sollten	VMFIN	sollen	_	O	O	
+4-2	die	ART	die	_	O	O	
+4-3	Hefte	NN	Heft	_	O	O	
+4-4	binnen	APPR	binnen	_	O	O	
+4-5	8	CARD	8	_	O	O	
+4-6	Tagen	NN	Tag	_	O	O	
+4-7	nicht	PTKNEG	nicht	_	O	O	
+4-8	eingetroffen	VVPP	eintreffen	_	O	O	
+4-9	sein	VAINF	sein	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	so	ADV	so	_	O	O	
+4-12	bitte	VVFIN	bitten	_	O	O	
+4-13	ich	PPER	ich	_	O	O	
+4-14	um	APPR	um	_	O	O	
+4-15	Mittheilung	NN	<unknown>	_	O	O	
+4-16	durch	APPR	durch	_	O	O	
+4-17	eine	ART	eine	_	O	O	
+4-18	Correspondenzkarte	NN	<unknown>	_	O	O	
+4-19	.	$.	.	_	O	O	
+
+#id=5
+#text=~s geht in dem Bureau etwas bummelig zu und es könnte demnach vielleicht ein weiterer Druck meiner Seits nöthig werden.
+5-1	~s	ADJD	<unknown>	_	O	O	
+5-2	geht	VVFIN	gehen	_	O	O	
+5-3	in	APPR	in	_	O	O	
+5-4	dem	ART	die	_	O	O	
+5-5	Bureau	NN	<UNKNOWN>	_	O	O	
+5-6	etwas	ADV	etwas	_	O	O	
+5-7	bummelig	ADJD	<unknown>	_	O	O	
+5-8	zu	PTKVZ	zu	_	O	O	
+5-9	und	KON	und	_	O	O	
+5-10	es	PPER	es	_	O	O	
+5-11	könnte	VMFIN	können	_	O	O	
+5-12	demnach	PAV	demnach	_	O	O	
+5-13	vielleicht	ADV	vielleicht	_	O	O	
+5-14	ein	ART	eine	_	O	O	
+5-15	weiterer	ADJA	weit	_	O	O	
+5-16	Druck	NN	Druck	_	O	O	
+5-17	meiner	PPOSAT	mein	_	O	O	
+5-18	Seits	NN	<unknown>	_	O	O	
+5-19	nöthig	ADJD	<unknown>	_	O	O	
+5-20	werden	VAINF	werden	_	O	O	
+5-21	.	$.	.	_	O	O	
+
+#id=6
+#text=Mit herzlichen Grüßen Vila Lante ?O.Oct.
+6-1	Mit	APPR	mit	_	O	O	
+6-2	herzlichen	ADJA	herzlich	_	O	O	
+6-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+6-4	Vila	NE	<unknown>	_	O	O	
+6-5	Lante	NE	<unknown>	_	O	O	
+6-6	?	$.	?	_	O	O	
+6-7	O.Oct	NE	<unknown>	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=89 Ihr ergebener Helbig Der Kopf dieses Briefes ist der Brief des Sekretariatschefs der Accademia dei Lincei, Mancini, vom 8. Oktober 1889
+7-1	89	CARD	89	_	O	O	
+7-2	Ihr	PPOSAT	ihr	_	O	O	
+7-3	ergebener	ADJA	ergeben	_	O	O	
+7-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+7-5	Der	ART	die	_	O	O	
+7-6	Kopf	NN	Kopf	_	O	O	
+7-7	dieses	PDAT	dies	_	O	O	
+7-8	Briefes	NN	Brief	_	O	O	
+7-9	ist	VAFIN	sein	_	O	O	
+7-10	der	ART	die	_	O	O	
+7-11	Brief	NN	Brief	_	O	O	
+7-12	des	ART	die	_	O	O	
+7-13	Sekretariatschefs	NN	<unknown>	_	O	O	
+7-14	der	ART	die	_	O	O	
+7-15	Accademia	NN	<unknown>	_	O	O	
+7-16	dei	VVFIN	<unknown>	_	O	O	
+7-17	Lincei	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+7-18	,	$,	,	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+7-19	Mancini	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+7-20	,	$,	,	_	O	O	
+7-21	vom	APPRART	von	_	O	O	
+7-22	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-23	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-24	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-25	1889	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+

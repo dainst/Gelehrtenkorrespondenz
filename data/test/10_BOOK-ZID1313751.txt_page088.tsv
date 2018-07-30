@@ -1,0 +1,220 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an B+~ Rom, 15. September 1863 Rom 15. Sept.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	B+~	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-11	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Sept.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1863. Geehrtester Herr Professor 1 Um Sie zunächst wegen der Druckbogen zu beruhigen, so sind diese mir letzten Dienstag eingehändigt worden, ob auf legitimen Vlege oder ob nach vorgenommener Censur, weiß ich nicht.
+2-1	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	.	$.	.	_	O	O	
+2-3	Geehrtester	ADJA	<unknown>	_	O	O	
+2-4	Herr	NN	Herr	_	O	O	
+2-5	Professor	NN	Professor	_	O	O	
+2-6	1	CARD	1	_	O	O	
+2-7	Um	APPR	um	_	O	O	
+2-8	Sie	PPER	Sie	_	O	O	
+2-9	zunächst	ADV	zunächst	_	O	O	
+2-10	wegen	APPR	wegen	_	O	O	
+2-11	der	ART	die	_	O	O	
+2-12	Druckbogen	NN	Druckbogen	_	O	O	
+2-13	zu	PTKZU	zu	_	O	O	
+2-14	beruhigen	VVINF	beruhigen	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	so	ADV	so	_	O	O	
+2-17	sind	VAFIN	sein	_	O	O	
+2-18	diese	PDS	diese	_	O	O	
+2-19	mir	PPER	ich	_	O	O	
+2-20	letzten	ADJA	letzt	_	O	O	
+2-21	Dienstag	NN	Dienstag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-22	eingehändigt	VVPP	<unknown>	_	O	O	
+2-23	worden	VAPP	werden	_	O	O	
+2-24	,	$,	,	_	O	O	
+2-25	ob	KOUS	ob	_	O	O	
+2-26	auf	APPR	auf	_	O	O	
+2-27	legitimen	ADJA	legitim	_	O	O	
+2-28	Vlege	NN	<unknown>	_	O	O	
+2-29	oder	KON	oder	_	O	O	
+2-30	ob	ADV	ob	_	O	O	
+2-31	nach	APPR	nach	_	O	O	
+2-32	vorgenommener	ADJA	vorgenommen	_	O	O	
+2-33	Censur	NN	<unknown>	_	O	O	
+2-34	,	$,	,	_	O	O	
+2-35	weiß	VVFIN	wissen	_	O	O	
+2-36	ich	PPER	ich	_	O	O	
+2-37	nicht	PTKNEG	nicht	_	O	O	
+2-38	.	$.	.	_	O	O	
+
+#id=3
+#text=Auch ist dies am Ende gleichgültig.
+3-1	Auch	ADV	auch	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	dies	PDS	dies	_	O	O	
+3-4	am	APPRART	an	_	O	O	
+3-5	Ende	NN	Ende	_	O	O	
+3-6	gleichgültig	ADJD	gleichgültig	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Von Michaelis ist ein Brief an mich gelangt, woum rin er möglichst rasch"/eine Abbildung des megapoli tanisehen Reliefs, Pan und Horen, welches er in den diesjährigen Annalen publiciren soll, bittet und zugleich mittheilt, daß er die Erklärung der borghesischen Marmorvase mit Pan, Tanzenden und Pyrrhichanten für eine andere Gelegenheit verschieben müsse.
+4-1	Von	APPR	von	_	O	O	
+4-2	Michaelis	NE	Michaelis	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	ist	VAFIN	sein	_	O	O	
+4-4	ein	ART	eine	_	O	O	
+4-5	Brief	NN	Brief	_	O	O	
+4-6	an	APPR	an	_	O	O	
+4-7	mich	PRF	ich	_	O	O	
+4-8	gelangt	VVPP	gelangen|langen	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	woum	NN	<unknown>	_	O	O	
+4-11	rin	VVFIN	<unknown>	_	O	O	
+4-12	er	PPER	er	_	O	O	
+4-13	möglichst	ADV	möglichst	_	O	O	
+4-14	rasch"/eine	ADJA	<unknown>	_	O	O	
+4-15	Abbildung	NN	Abbildung	_	O	O	
+4-16	des	ART	die	_	O	O	
+4-17	megapoli	NE	<unknown>	_	O	O	
+4-18	tanisehen	ADJA	<unknown>	_	O	O	
+4-19	Reliefs	NN	Relief	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-20	,	$,	,	_	O	O	
+4-21	Pan	NE	Pan	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-22	und	KON	und	_	O	O	
+4-23	Horen	NE	<UNKNOWN>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-24	,	$,	,	_	O	O	
+4-25	welches	PRELS	welche	_	O	O	
+4-26	er	PPER	er	_	O	O	
+4-27	in	APPR	in	_	O	O	
+4-28	den	ART	die	_	O	O	
+4-29	diesjährigen	ADJA	diesjährig	_	O	O	
+4-30	Annalen	NN	Annalen	_	O	O	
+4-31	publiciren	NN	<unknown>	_	O	O	
+4-32	soll	VMFIN	sollen	_	O	O	
+4-33	,	$,	,	_	O	O	
+4-34	bittet	VVFIN	bitten	_	O	O	
+4-35	und	KON	und	_	O	O	
+4-36	zugleich	ADV	zugleich	_	O	O	
+4-37	mittheilt	VVFIN	<unknown>	_	O	O	
+4-38	,	$,	,	_	O	O	
+4-39	daß	KOUS	dass	_	O	O	
+4-40	er	PPER	er	_	O	O	
+4-41	die	ART	die	_	O	O	
+4-42	Erklärung	NN	Erklärung	_	O	O	
+4-43	der	ART	die	_	O	O	
+4-44	borghesischen	ADJA	<unknown>	_	O	O	
+4-45	Marmorvase	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-46	mit	APPR	mit	_	O	O	
+4-47	Pan	NE	Pan	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-48	,	$,	,	_	O	O	
+4-49	Tanzenden	NN	Tanzende	_	O	O	
+4-50	und	KON	und	_	O	O	
+4-51	Pyrrhichanten	NN	<unknown>	_	O	O	
+4-52	für	APPR	für	_	O	O	
+4-53	eine	ART	eine	_	O	O	
+4-54	andere	PIAT	andere	_	O	O	
+4-55	Gelegenheit	NN	Gelegenheit	_	O	O	
+4-56	verschieben	VVINF	verschieben	_	O	O	
+4-57	müsse	VMFIN	müssen	_	O	O	
+4-58	.	$.	.	_	O	O	
+
+#id=5
+#text=Sollte Ihre Disposition betreffs der Tavole d'aggiunta dadurch in Unordnung gerathen, könnte die entstandene Lücke vielleicht in passender Weise durch die Abblildung einer caeretaner Vase ausgefüllt werden.
+5-1	Sollte	VMFIN	sollen	_	O	O	
+5-2	Ihre	PPOSAT	ihr	_	O	O	
+5-3	Disposition	NN	Disposition	_	O	O	
+5-4	betreffs	NN	Betreff	_	O	O	
+5-5	der	ART	die	_	O	O	
+5-6	Tavole	ADJA	<unknown>	_	O	O	
+5-7	d'aggiunta	NN	<unknown>	_	O	O	
+5-8	dadurch	PAV	dadurch	_	O	O	
+5-9	in	APPR	in	_	O	O	
+5-10	Unordnung	NN	Unordnung	_	O	O	
+5-11	gerathen	VVPP	<unknown>	_	O	O	
+5-12	,	$,	,	_	O	O	
+5-13	könnte	VMFIN	können	_	O	O	
+5-14	die	ART	die	_	O	O	
+5-15	entstandene	ADJA	entstanden	_	O	O	
+5-16	Lücke	NN	Lücke	_	O	O	
+5-17	vielleicht	ADV	vielleicht	_	O	O	
+5-18	in	APPR	in	_	O	O	
+5-19	passender	ADJA	passend	_	O	O	
+5-20	Weise	NN	Weise	_	O	O	
+5-21	durch	APPR	durch	_	O	O	
+5-22	die	ART	die	_	O	O	
+5-23	Abblildung	NN	<unknown>	_	O	O	
+5-24	einer	ART	eine	_	O	O	
+5-25	caeretaner	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-26	Vase	NN	Vase	_	I-webanno.custom.LetterEntity_	I-OBJ	
+5-27	ausgefüllt	VVPP	ausfüllen	_	O	O	
+5-28	werden	VAINF	werden	_	O	O	
+5-29	.	$.	.	_	O	O	
+
+#id=6
+#text=Es wäre mir nicht unlieb, wenn meinem Aufsatze über diese Vasengattung noch die Abbildung des Reversbildes der Hermesvase, Eos und Kephalos, beigegeben werden könnte.
+6-1	Es	PPER	es	_	O	O	
+6-2	wäre	VAFIN	sein	_	O	O	
+6-3	mir	PPER	ich	_	O	O	
+6-4	nicht	PTKNEG	nicht	_	O	O	
+6-5	unlieb	ADJD	unlieb	_	O	O	
+6-6	,	$,	,	_	O	O	
+6-7	wenn	KOUS	wenn	_	O	O	
+6-8	meinem	PPOSAT	mein	_	O	O	
+6-9	Aufsatze	NN	<unknown>	_	O	O	
+6-10	über	APPR	über	_	O	O	
+6-11	diese	PDAT	dies	_	O	O	
+6-12	Vasengattung	NN	<unknown>	_	O	O	
+6-13	noch	ADV	noch	_	O	O	
+6-14	die	ART	die	_	O	O	
+6-15	Abbildung	NN	Abbildung	_	O	O	
+6-16	des	ART	die	_	O	O	
+6-17	Reversbildes	NN	<unknown>	_	O	O	
+6-18	der	ART	die	_	O	O	
+6-19	Hermesvase	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-20	,	$,	,	_	O	O	
+6-21	Eos	NN	<unknown>	_	O	O	
+6-22	und	KON	und	_	O	O	
+6-23	Kephalos	VVFIN	<unknown>	_	O	O	
+6-24	,	$,	,	_	O	O	
+6-25	beigegeben	VVPP	beigeben	_	O	O	
+6-26	werden	VAINF	werden	_	O	O	
+6-27	könnte	VMFIN	können	_	O	O	
+6-28	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Figur des Kephalos ist für die Beurtheilung der Tracht sehr wichtig und bestärkt mich in der von mir aufgestellten Ansicht, daß die Jä-
+7-1	Die	ART	die	_	O	O	
+7-2	Figur	NN	Figur	_	O	O	
+7-3	des	ART	die	_	O	O	
+7-4	Kephalos	ADJA	<unknown>	_	O	O	
+7-5	ist	VAFIN	sein	_	O	O	
+7-6	für	APPR	für	_	O	O	
+7-7	die	ART	die	_	O	O	
+7-8	Beurtheilung	NN	<unknown>	_	O	O	
+7-9	der	ART	die	_	O	O	
+7-10	Tracht	NN	Tracht	_	O	O	
+7-11	sehr	ADV	sehr	_	O	O	
+7-12	wichtig	ADJD	wichtig	_	O	O	
+7-13	und	KON	und	_	O	O	
+7-14	bestärkt	VVFIN	bestärken	_	O	O	
+7-15	mich	PRF	ich	_	O	O	
+7-16	in	APPR	in	_	O	O	
+7-17	der	ART	die	_	O	O	
+7-18	von	APPR	von	_	O	O	
+7-19	mir	PPER	ich	_	O	O	
+7-20	aufgestellten	ADJA	aufgestellt	_	O	O	
+7-21	Ansicht	NN	Ansicht	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	daß	KOUS	dass	_	O	O	
+7-24	die	ART	die	_	O	O	
+7-25	Jä-	TRUNC	<unknown>	_	O	O	
+

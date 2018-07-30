@@ -1,0 +1,251 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=32 Wolf gang Helbig an neinrich Brunn Rom, 5. Januar 1881 r.
+1-1	32	CARD	32	_	O	O	
+1-2	Wolf	NN	Wolf	_	O	O	
+1-3	gang	ADJD	gang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	neinrich	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1881	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	r.	VVFIN	<unknown>	_	O	O	
+
+#id=2
+#text=27.
+2-1	27	CARD	27	_	O	O	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=I.
+3-1	I.	NE	I.	_	O	O	
+
+#id=4
+#text=81 Roma, li 5. Jan.
+4-1	81	CARD	@card@	_	O	O	
+4-2	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-3	,	$,	,	_	O	O	
+4-4	li	ADJD	<unknown>	_	O	O	
+4-5	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-7	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=5
+#text=1881. Lieber Herr Professor Herzlichen Glückwunsch zum neuen Jahre in meinem und meiner Frau Namen für Sie und für die Ihrigen!
+5-1	1881	CARD	@card@	_	O	O	
+5-2	.	$.	.	_	O	O	
+5-3	Lieber	ADJA	lieb	_	O	O	
+5-4	Herr	NN	Herr	_	O	O	
+5-5	Professor	NN	Professor	_	O	O	
+5-6	Herzlichen	ADJA	herzlich	_	O	O	
+5-7	Glückwunsch	NN	Glückwunsch	_	O	O	
+5-8	zum	APPRART	zu	_	O	O	
+5-9	neuen	ADJA	neu	_	O	O	
+5-10	Jahre	NN	Jahr	_	O	O	
+5-11	in	APPR	in	_	O	O	
+5-12	meinem	PPOSAT	mein	_	O	O	
+5-13	und	KON	und	_	O	O	
+5-14	meiner	PPOSAT	mein	_	O	O	
+5-15	Frau	NN	Frau	_	O	O	
+5-16	Namen	NN	Name	_	O	O	
+5-17	für	APPR	für	_	O	O	
+5-18	Sie	PPER	Sie	_	O	O	
+5-19	und	KON	und	_	O	O	
+5-20	für	APPR	für	_	O	O	
+5-21	die	ART	die	_	O	O	
+5-22	Ihrigen	NN	<unknown>	_	O	O	
+5-23	!	$.	!	_	O	O	
+
+#id=6
+#text=Ich habe gegenwärtig den vorletzten Correcturbogen meines Pileusaufsatzes in den Händen, wo auf Seite 538 Anm(erkung) roth angestrichen die auf die hohe asiatische Mütze des Alkibiades und Kallias bezüglichen Citate einzuschalten wären (Vgl. Brunn Gesch(ichte) der Gr(iechischen) Künstler 11 p. 75).
+6-1	Ich	PPER	ich	_	O	O	
+6-2	habe	VAFIN	haben	_	O	O	
+6-3	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+6-4	den	ART	die	_	O	O	
+6-5	vorletzten	ADJA	vorletzt	_	O	O	
+6-6	Correcturbogen	NN	<unknown>	_	O	O	
+6-7	meines	PPOSAT	mein	_	O	O	
+6-8	Pileusaufsatzes	NN	<unknown>	_	O	O	
+6-9	in	APPR	in	_	O	O	
+6-10	den	ART	die	_	O	O	
+6-11	Händen	NN	Hand	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	wo	PWAV	wo	_	O	O	
+6-14	auf	APPR	auf	_	O	O	
+6-15	Seite	NN	Seite	_	O	O	
+6-16	538	CARD	@card@	_	O	O	
+6-17	Anm(erkung)	NN	<unknown>	_	O	O	
+6-18	roth	NE	Roth	_	O	O	
+6-19	angestrichen	VVPP	anstreichen	_	O	O	
+6-20	die	ART	die	_	O	O	
+6-21	auf	APPR	auf	_	O	O	
+6-22	die	ART	die	_	O	O	
+6-23	hohe	ADJA	hoch	_	O	O	
+6-24	asiatische	ADJA	asiatisch	_	O	O	
+6-25	Mütze	NN	Mütze	_	O	O	
+6-26	des	ART	die	_	O	O	
+6-27	Alkibiades	NN	<unknown>	_	O	O	
+6-28	und	KON	und	_	O	O	
+6-29	Kallias	NE	Kallias	_	O	O	
+6-30	bezüglichen	ADJA	bezüglich	_	O	O	
+6-31	Citate	NN	<unknown>	_	O	O	
+6-32	einzuschalten	VVIZU	einschalten	_	O	O	
+6-33	wären	VAFIN	sein	_	O	O	
+6-34	(	$(	(	_	O	O	
+6-35	Vgl.	NN	Vgl.	_	O	O	
+6-36	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-37	Gesch(ichte)	NN	<unknown>	_	O	O	
+6-38	der	ART	die	_	O	O	
+6-39	Gr(iechischen)	NN	<unknown>	_	O	O	
+6-40	Künstler	NN	Künstler	_	O	O	
+6-41	11	CARD	11	_	O	O	
+6-42	p.	APPR	p.	_	O	O	
+6-43	75	CARD	75	_	O	O	
+6-44	)	$(	)	_	O	O	
+6-45	.	$.	.	_	O	O	
+
+#id=7
+#text=Troz aller Mühe, die ich mir gegeben, ist es mir nicht gelungen, die Quellen, aus denen Sie jene Notizen geschöpft, ausfindig zu machen.
+7-1	Troz	NN	<unknown>	_	O	O	
+7-2	aller	PIAT	alle	_	O	O	
+7-3	Mühe	NN	Mühe	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	die	PRELS	die	_	O	O	
+7-6	ich	PPER	ich	_	O	O	
+7-7	mir	PRF	ich	_	O	O	
+7-8	gegeben	VVPP	geben	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	ist	VAFIN	sein	_	O	O	
+7-11	es	PPER	es	_	O	O	
+7-12	mir	PRF	ich	_	O	O	
+7-13	nicht	PTKNEG	nicht	_	O	O	
+7-14	gelungen	VVPP	gelingen	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	die	ART	die	_	O	O	
+7-17	Quellen	NN	Quelle	_	O	O	
+7-18	,	$,	,	_	O	O	
+7-19	aus	APPR	aus	_	O	O	
+7-20	denen	PRELS	die	_	O	O	
+7-21	Sie	PPER	Sie	_	O	O	
+7-22	jene	PDAT	jen	_	O	O	
+7-23	Notizen	NN	Notiz	_	O	O	
+7-24	geschöpft	VVPP	schöpfen	_	O	O	
+7-25	,	$,	,	_	O	O	
+7-26	ausfindig	ADV	ausfindig	_	O	O	
+7-27	zu	PTKZU	zu	_	O	O	
+7-28	machen	VVINF	machen	_	O	O	
+7-29	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich werde mir demnach erlauben Ihnen den betreffenden Correcturbogen zuzustellen·.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	werde	VAFIN	werden	_	O	O	
+8-3	mir	PPER	ich	_	O	O	
+8-4	demnach	PAV	demnach	_	O	O	
+8-5	erlauben	VVFIN	erlauben	_	O	O	
+8-6	Ihnen	PPER	Sie	_	O	O	
+8-7	den	ART	die	_	O	O	
+8-8	betreffenden	ADJA	betreffend	_	O	O	
+8-9	Correcturbogen	NN	<unknown>	_	O	O	
+8-10	zuzustellen·	VVIZU	<unknown>	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Entsinnen Sie sich der Quellen und sind Sie im Stande die Citate ohne Mühe nachzutragen, dann bitte ich Sie dies zu thun.
+9-1	Entsinnen	VVFIN	entsinnen	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	sich	PRF	sich	_	O	O	
+9-4	der	ART	die	_	O	O	
+9-5	Quellen	NN	Quelle	_	O	O	
+9-6	und	KON	und	_	O	O	
+9-7	sind	VAFIN	sein	_	O	O	
+9-8	Sie	PPER	Sie	_	O	O	
+9-9	im	APPRART	in	_	O	O	
+9-10	Stande	NN	Stand	_	O	O	
+9-11	die	ART	die	_	O	O	
+9-12	Citate	NN	<unknown>	_	O	O	
+9-13	ohne	APPR	ohne	_	O	O	
+9-14	Mühe	NN	Mühe	_	O	O	
+9-15	nachzutragen	VVIZU	nachtragen	_	O	O	
+9-16	,	$,	,	_	O	O	
+9-17	dann	ADV	dann	_	O	O	
+9-18	bitte	VVFIN	bitten	_	O	O	
+9-19	ich	PPER	ich	_	O	O	
+9-20	Sie	PPER	Sie	_	O	O	
+9-21	dies	PDS	dies	_	O	O	
+9-22	zu	APPR	zu	_	O	O	
+9-23	thun	NE	<unknown>	_	O	O	
+9-24	.	$.	.	_	O	O	
+
+#id=10
+#text=Besinnen Sie sich nicht mehr darauf, dann bitte ich die Sache laufen zu lassen und den Correcturbogen tale quale der akademischen Buchdruckerei von F. Straub 11 Ottostraße zuzustellen.
+10-1	Besinnen	VVFIN	besinnen	_	O	O	
+10-2	Sie	PPER	Sie	_	O	O	
+10-3	sich	PRF	sich	_	O	O	
+10-4	nicht	PTKNEG	nicht	_	O	O	
+10-5	mehr	ADV	mehr	_	O	O	
+10-6	darauf	PAV	darauf	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	dann	ADV	dann	_	O	O	
+10-9	bitte	VVFIN	bitten	_	O	O	
+10-10	ich	PPER	ich	_	O	O	
+10-11	die	ART	die	_	O	O	
+10-12	Sache	NN	Sache	_	O	O	
+10-13	laufen	VVINF	laufen	_	O	O	
+10-14	zu	PTKZU	zu	_	O	O	
+10-15	lassen	VVINF	lassen	_	O	O	
+10-16	und	KON	und	_	O	O	
+10-17	den	ART	die	_	O	O	
+10-18	Correcturbogen	NN	<unknown>	_	O	O	
+10-19	tale	ADJD	<unknown>	_	O	O	
+10-20	quale	VVFIN	<unknown>	_	O	O	
+10-21	der	ART	die	_	O	O	
+10-22	akademischen	ADJA	akademisch	_	O	O	
+10-23	Buchdruckerei	NN	Buchdruckerei	_	O	O	
+10-24	von	APPR	von	_	O	O	
+10-25	F.	NE	F.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-26	Straub	NE	Straub	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-27	11	CARD	11	_	O	O	
+10-28	Ottostraße	NN	Ottostraße	_	O	O	
+10-29	zuzustellen	VVIZU	zustellen	_	O	O	
+10-30	.	$.	.	_	O	O	
+
+#id=11
+#text=Entschuldigen Sie diesen neuen Incommodo !
+11-1	Entschuldigen	VVFIN	entschuldigen	_	O	O	
+11-2	Sie	PPER	Sie	_	O	O	
+11-3	diesen	PDAT	dies	_	O	O	
+11-4	neuen	ADJA	neu	_	O	O	
+11-5	Incommodo	NE	<unknown>	_	O	O	
+11-6	!	$.	!	_	O	O	
+
+#id=12
+#text=Wie Sie sich denken können, war das Ende des alten Jahres in Folge des Todes von Klügmann für uns ein sehr
+12-1	Wie	KOUS	wie	_	O	O	
+12-2	Sie	PPER	Sie	_	O	O	
+12-3	sich	PRF	sich	_	O	O	
+12-4	denken	VVINF	denken	_	O	O	
+12-5	können	VMFIN	können	_	O	O	
+12-6	,	$,	,	_	O	O	
+12-7	war	VAFIN	sein	_	O	O	
+12-8	das	ART	die	_	O	O	
+12-9	Ende	NN	Ende	_	O	O	
+12-10	des	ART	die	_	O	O	
+12-11	alten	ADJA	alt	_	O	O	
+12-12	Jahres	NN	Jahr	_	O	O	
+12-13	in	APPR	in	_	O	O	
+12-14	Folge	NN	Folge	_	O	O	
+12-15	des	ART	die	_	O	O	
+12-16	Todes	NN	Tod	_	O	O	
+12-17	von	APPR	von	_	O	O	
+12-18	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-19	für	APPR	für	_	O	O	
+12-20	uns	PPER	wir	_	O	O	
+12-21	ein	ART	eine	_	O	O	
+12-22	sehr	ADV	sehr	_	O	O	
+

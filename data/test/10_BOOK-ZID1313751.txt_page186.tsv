@@ -1,0 +1,256 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=47 I Wolfgang Helbig an Heinrich Brunn Rom, 22. Juni 1885 Lyncaei 22. Juni 1885 Lieber Herr Professor Henzen und ich wir sind Ihnen beide sehr dankbar für Ihre Briefe, indem wir dadurch eine ungleich klarere Einsicht in die Sachlage gewonnen haben, als es bisher der Fall war.
+1-1	47	CARD	47	_	O	O	
+1-2	I	NN	I	_	O	O	
+1-3	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1885	CARD	1885	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Lyncaei	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	22	CARD	22	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	1885	CARD	1885	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	Lieber	ADJA	lieb	_	O	O	
+1-20	Herr	NN	Herr	_	O	O	
+1-21	Professor	NN	Professor	_	O	O	
+1-22	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-23	und	KON	und	_	O	O	
+1-24	ich	PPER	ich	_	O	O	
+1-25	wir	PPER	wir	_	O	O	
+1-26	sind	VAFIN	sein	_	O	O	
+1-27	Ihnen	PPER	Sie	_	O	O	
+1-28	beide	PIS	beide	_	O	O	
+1-29	sehr	ADV	sehr	_	O	O	
+1-30	dankbar	ADJD	dankbar	_	O	O	
+1-31	für	APPR	für	_	O	O	
+1-32	Ihre	PPOSAT	ihr	_	O	O	
+1-33	Briefe	NN	Brief	_	O	O	
+1-34	,	$,	,	_	O	O	
+1-35	indem	KOUS	indem	_	O	O	
+1-36	wir	PPER	wir	_	O	O	
+1-37	dadurch	PAV	dadurch	_	O	O	
+1-38	eine	ART	eine	_	O	O	
+1-39	ungleich	ADJD	ungleich	_	O	O	
+1-40	klarere	ADJA	klar	_	O	O	
+1-41	Einsicht	NN	Einsicht	_	O	O	
+1-42	in	APPR	in	_	O	O	
+1-43	die	ART	die	_	O	O	
+1-44	Sachlage	NN	Sachlage	_	O	O	
+1-45	gewonnen	VVPP	gewinnen	_	O	O	
+1-46	haben	VAFIN	haben	_	O	O	
+1-47	,	$,	,	_	O	O	
+1-48	als	KOUS	als	_	O	O	
+1-49	es	PPER	es	_	O	O	
+1-50	bisher	ADV	bisher	_	O	O	
+1-51	der	ART	die	_	O	O	
+1-52	Fall	NN	Fall	_	O	O	
+1-53	war	VAFIN	sein	_	O	O	
+1-54	.	$.	.	_	O	O	
+
+#id=2
+#text=Der letzte Erlaß ist in der That ein schlimmes Denkmal für die Angst, welche die Berliner Mitglieder der Central Direction in den Hosen haben.
+2-1	Der	ART	die	_	O	O	
+2-2	letzte	ADJA	letzt	_	O	O	
+2-3	Erlaß	NN	Erlass	_	O	O	
+2-4	ist	VAFIN	sein	_	O	O	
+2-5	in	APPR	in	_	O	O	
+2-6	der	ART	die	_	O	O	
+2-7	That	NE	<unknown>	_	O	O	
+2-8	ein	ART	eine	_	O	O	
+2-9	schlimmes	ADJA	schlimm	_	O	O	
+2-10	Denkmal	NN	Denkmal	_	O	O	
+2-11	für	APPR	für	_	O	O	
+2-12	die	ART	die	_	O	O	
+2-13	Angst	NN	Angst	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	welche	PRELS	welche	_	O	O	
+2-16	die	ART	die	_	O	O	
+2-17	Berliner	ADJA	Berliner	_	O	O	
+2-18	Mitglieder	NN	Mitglied	_	O	O	
+2-19	der	ART	die	_	O	O	
+2-20	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-21	Direction	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+2-22	in	APPR	in	_	O	O	
+2-23	den	ART	die	_	O	O	
+2-24	Hosen	NN	Hose	_	O	O	
+2-25	haben	VAFIN	haben	_	O	O	
+2-26	.	$.	.	_	O	O	
+
+#id=3
+#text=In praktischer Hinsicht hingegen flößt es mi~ein Bedenken ein; denn es bietet den Sekretären, falls sie geschickt verfahren, die Mittel die Sitzungen in der bisher üblichen Weise zu halten.
+3-1	In	APPR	in	_	O	O	
+3-2	praktischer	ADJA	praktisch	_	O	O	
+3-3	Hinsicht	NN	Hinsicht	_	O	O	
+3-4	hingegen	ADV	hingegen	_	O	O	
+3-5	flößt	VVFIN	flößen	_	O	O	
+3-6	es	PPER	es	_	O	O	
+3-7	mi~ein	ADJA	<unknown>	_	O	O	
+3-8	Bedenken	NN	Bedenken	_	O	O	
+3-9	ein	PTKVZ	ein	_	O	O	
+3-10	;	$.	;	_	O	O	
+3-11	denn	KON	denn	_	O	O	
+3-12	es	PPER	es	_	O	O	
+3-13	bietet	VVFIN	bieten	_	O	O	
+3-14	den	ART	die	_	O	O	
+3-15	Sekretären	NN	Sekretär	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	falls	KOUS	falls	_	O	O	
+3-18	sie	PPER	sie	_	O	O	
+3-19	geschickt	ADJD	geschickt	_	O	O	
+3-20	verfahren	VVPP	verfahren	_	O	O	
+3-21	,	$,	,	_	O	O	
+3-22	die	ART	die	_	O	O	
+3-23	Mittel	NN	Mittel	_	O	O	
+3-24	die	ART	die	_	O	O	
+3-25	Sitzungen	NN	Sitzung	_	O	O	
+3-26	in	APPR	in	_	O	O	
+3-27	der	ART	die	_	O	O	
+3-28	bisher	ADV	bisher	_	O	O	
+3-29	üblichen	ADJA	üblich	_	O	O	
+3-30	Weise	NN	Weise	_	O	O	
+3-31	zu	PTKZU	zu	_	O	O	
+3-32	halten	VVINF	halten	_	O	O	
+3-33	.	$.	.	_	O	O	
+
+#id=4
+#text=Leider aber ist die Institutsangelegenheit unterdeß in ein Stadium getreten, in welchem die Erledigung der Spr~achenfrage nicht mehr genügt.
+4-1	Leider	ADV	leider	_	O	O	
+4-2	aber	ADV	aber	_	O	O	
+4-3	ist	VAFIN	sein	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	Institutsangelegenheit	NN	<unknown>	_	O	O	
+4-6	unterdeß	NN	<unknown>	_	O	O	
+4-7	in	APPR	in	_	O	O	
+4-8	ein	ART	eine	_	O	O	
+4-9	Stadium	NN	Stadium	_	O	O	
+4-10	getreten	VVPP	treten	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	in	APPR	in	_	O	O	
+4-13	welchem	PRELS	welche	_	O	O	
+4-14	die	ART	die	_	O	O	
+4-15	Erledigung	NN	Erledigung	_	O	O	
+4-16	der	ART	die	_	O	O	
+4-17	Spr~achenfrage	NN	<unknown>	_	O	O	
+4-18	nicht	PTKNEG	nicht	_	O	O	
+4-19	mehr	ADV	mehr	_	O	O	
+4-20	genügt	VVPP	genügen	_	O	O	
+4-21	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Italiener hatten bisher von der Central Direction nur einen ganz vagen Begriff.
+5-1	Die	ART	die	_	O	O	
+5-2	Italiener	NN	Italiener	_	O	O	
+5-3	hatten	VAFIN	haben	_	O	O	
+5-4	bisher	ADV	bisher	_	O	O	
+5-5	von	APPR	von	_	O	O	
+5-6	der	ART	die	_	O	O	
+5-7	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-8	Direction	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-9	nur	ADV	nur	_	O	O	
+5-10	einen	ART	eine	_	O	O	
+5-11	ganz	ADV	ganz	_	O	O	
+5-12	vagen	ADJA	vage	_	O	O	
+5-13	Begriff	NN	Begriff	_	O	O	
+5-14	.	$.	.	_	O	O	
+
+#id=6
+#text=Sie dachten sich darunter einen Consessus von uomini stupendi, welche im fernen Kimmerin durch ihre Autorität allenthalben.
+6-1	Sie	PPER	Sie	_	O	O	
+6-2	dachten	VVFIN	denken	_	O	O	
+6-3	sich	PRF	sich	_	O	O	
+6-4	darunter	PAV	darunter	_	O	O	
+6-5	einen	ART	eine	_	O	O	
+6-6	Consessus	NN	<unknown>	_	O	O	
+6-7	von	APPR	von	_	O	O	
+6-8	uomini	NE	<unknown>	_	O	O	
+6-9	stupendi	NE	<unknown>	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	welche	PRELS	welche	_	O	O	
+6-12	im	APPRART	in	_	O	O	
+6-13	fernen	ADJA	fern	_	O	O	
+6-14	Kimmerin	NN	<unknown>	_	O	O	
+6-15	durch	APPR	durch	_	O	O	
+6-16	ihre	PPOSAT	ihr	_	O	O	
+6-17	Autorität	NN	Autorität	_	O	O	
+6-18	allenthalben	ADV	allenthalben	_	O	O	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=die Wissenschaft fördern.
+7-1	die	ART	die	_	O	O	
+7-2	Wissenschaft	NN	Wissenschaft	_	O	O	
+7-3	fördern	VVFIN	fördern	_	O	O	
+7-4	.	$.	.	_	O	O	
+
+#id=8
+#text=Sie beruhigten sich um so leichter bei dieser Auffassung, als sie wußten, daß zur Central Direction Leute gehörten, die in 1talien allgemein bekannt und populär sind, wie Mommsen, Sie und wohl auch Kiepert.
+8-1	Sie	PPER	Sie	_	O	O	
+8-2	beruhigten	VVFIN	beruhigen	_	O	O	
+8-3	sich	PRF	sich	_	O	O	
+8-4	um	APPR	um	_	O	O	
+8-5	so	ADV	so	_	O	O	
+8-6	leichter	ADJD	leicht	_	O	O	
+8-7	bei	APPR	bei	_	O	O	
+8-8	dieser	PDAT	dies	_	O	O	
+8-9	Auffassung	NN	Auffassung	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	als	KOUS	als	_	O	O	
+8-12	sie	PPER	sie	_	O	O	
+8-13	wußten	VVFIN	wissen	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	daß	KOUS	dass	_	O	O	
+8-16	zur	APPRART	zu	_	O	O	
+8-17	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-18	Direction	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+8-19	Leute	NN	Leute	_	O	O	
+8-20	gehörten	VVFIN	gehören	_	O	O	
+8-21	,	$,	,	_	O	O	
+8-22	die	PRELS	die	_	O	O	
+8-23	in	APPR	in	_	O	O	
+8-24	1talien	NN	<unknown>	_	O	O	
+8-25	allgemein	ADJD	allgemein	_	O	O	
+8-26	bekannt	ADJD	bekannt	_	O	O	
+8-27	und	KON	und	_	O	O	
+8-28	populär	ADJD	populär	_	O	O	
+8-29	sind	VAFIN	sein	_	O	O	
+8-30	,	$,	,	_	O	O	
+8-31	wie	KOKOM	wie	_	O	O	
+8-32	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-33	,	$,	,	_	O	O	
+8-34	Sie	PPER	Sie	_	O	O	
+8-35	und	KON	und	_	O	O	
+8-36	wohl	ADV	wohl	_	O	O	
+8-37	auch	ADV	auch	_	O	O	
+8-38	Kiepert	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-39	.	$.	.	_	O	O	
+
+#id=9
+#text=Jetzt hat sich die Auffassung mit einem Male geändert.
+9-1	Jetzt	ADV	jetzt	_	O	O	
+9-2	hat	VAFIN	haben	_	O	O	
+9-3	sich	PRF	sich	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	Auffassung	NN	Auffassung	_	O	O	
+9-6	mit	APPR	mit	_	O	O	
+9-7	einem	ART	eine	_	O	O	
+9-8	Male	NN	Mal	_	O	O	
+9-9	geändert	VVPP	ändern	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=Mommsens Austritt wird in der
+10-1	Mommsens	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	Austritt	NN	Austritt	_	O	O	
+10-3	wird	VAFIN	werden	_	O	O	
+10-4	in	APPR	in	_	O	O	
+10-5	der	ART	die	_	O	O	
+

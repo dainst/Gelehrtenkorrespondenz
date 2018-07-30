@@ -1,0 +1,191 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=1 2 Wolf gang Helbig an Heinrich Brunn Ohne Datum ließ die Statuten kommen und diese entsprachen ihnen genau.
+1-1	1	CARD	1	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Wolf	NN	Wolf	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	gang	ADJD	gang	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-8	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-9	Ohne	APPR	ohne	_	O	O	
+1-10	Datum	NN	Datum	_	O	O	
+1-11	ließ	VVFIN	lassen	_	O	O	
+1-12	die	ART	die	_	O	O	
+1-13	Statuten	NN	Statut	_	O	O	
+1-14	kommen	VVINF	kommen	_	O	O	
+1-15	und	KON	und	_	O	O	
+1-16	diese	PDS	diese	_	O	O	
+1-17	entsprachen	VVFIN	entsprechen	_	O	O	
+1-18	ihnen	PPER	sie	_	O	O	
+1-19	genau	ADJD	genau	_	O	O	
+1-20	.	$.	.	_	O	O	
+
+#id=2
+#text=Die nach Dresden bestimmten Gypse hat nach langem sträuben der preußische Consul Stolte zur Spedition übernommen.
+2-1	Die	ART	die	_	O	O	
+2-2	nach	APPR	nach	_	O	O	
+2-3	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-4	bestimmten	ADJA	bestimmt	_	O	O	
+2-5	Gypse	NN	<unknown>	_	O	O	
+2-6	hat	VAFIN	haben	_	O	O	
+2-7	nach	APPR	nach	_	O	O	
+2-8	langem	ADJA	lang	_	O	O	
+2-9	sträuben	VVFIN	sträuben	_	O	O	
+2-10	der	ART	die	_	O	O	
+2-11	preußische	ADJA	preußisch	_	O	O	
+2-12	Consul	NN	<unknown>	_	O	O	
+2-13	Stolte	NE	Stolte	_	O	O	
+2-14	zur	APPRART	zu	_	O	O	
+2-15	Spedition	NN	Spedition	_	O	O	
+2-16	übernommen	VVPP	übernehmen	_	O	O	
+2-17	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich habe Hettner bereits darüber avertirt.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	habe	VAFIN	haben	_	O	O	
+3-3	Hettner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-4	bereits	ADV	bereits	_	O	O	
+3-5	darüber	PAV	darüber	_	O	O	
+3-6	avertirt	NN	<unknown>	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Im Übrigen hätte ich folgende Fragen an Sie 1) Wenn neue etruskische y~en auftauchen, soll dann blos die Reliefdarstellung oder die ganze trFne mit der darauf befindlichen Figur gezeichnet werden ?
+4-1	Im	APPRART	in	_	O	O	
+4-2	Übrigen	NN	Übrige	_	O	O	
+4-3	hätte	VAFIN	haben	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	folgende	ADJA	folgend	_	O	O	
+4-6	Fragen	NN	Frage	_	O	O	
+4-7	an	APPR	an	_	O	O	
+4-8	Sie	PPER	Sie	_	O	O	
+4-9	1	CARD	1	_	O	O	
+4-10	)	$(	)	_	O	O	
+4-11	Wenn	KOUS	wenn	_	O	O	
+4-12	neue	ADJA	neu	_	O	O	
+4-13	etruskische	ADJA	<unknown>	_	O	O	
+4-14	y~en	NN	<unknown>	_	O	O	
+4-15	auftauchen	VVINF	auftauchen	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	soll	VMFIN	sollen	_	O	O	
+4-18	dann	ADV	dann	_	O	O	
+4-19	blos	VVFIN	<unknown>	_	O	O	
+4-20	die	ART	die	_	O	O	
+4-21	Reliefdarstellung	NN	<unknown>	_	O	O	
+4-22	oder	KON	oder	_	O	O	
+4-23	die	ART	die	_	O	O	
+4-24	ganze	ADJA	ganz	_	O	O	
+4-25	trFne	NN	<unknown>	_	O	O	
+4-26	mit	APPR	mit	_	O	O	
+4-27	der	ART	die	_	O	O	
+4-28	darauf	PAV	darauf	_	O	O	
+4-29	befindlichen	ADJA	befindlich	_	O	O	
+4-30	Figur	NN	Figur	_	O	O	
+4-31	gezeichnet	VVPP	zeichnen	_	O	O	
+4-32	werden	VAINF	werden	_	O	O	
+4-33	?	$.	?	_	O	O	
+
+#id=5
+#text=2) In Vetralla bei Viterbo sollen sich im Privatbesitz mehrere etruskische Sarkophage und Urnen befinden.
+5-1	2	CARD	2	_	O	O	
+5-2	)	$(	)	_	O	O	
+5-3	In	APPR	in	_	O	O	
+5-4	Vetralla	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-5	bei	APPR	bei	_	O	O	
+5-6	Viterbo	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-7	sollen	VMFIN	sollen	_	O	O	
+5-8	sich	PRF	sich	_	O	O	
+5-9	im	APPRART	in	_	O	O	
+5-10	Privatbesitz	NN	Privatbesitz	_	O	O	
+5-11	mehrere	PIAT	mehrere	_	O	O	
+5-12	etruskische	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-13	Sarkophage	NN	Sarkophag	_	I-webanno.custom.LetterEntity_	I-OBJ	
+5-14	und	KON	und	_	O	O	
+5-15	Urnen	NN	Urne	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-16	befinden	VVINF	befinden	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Kennen Sie dieselben ?
+6-1	Kennen	VVFIN	kennen	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	dieselben	PDS	dieselbe	_	O	O	
+6-4	?	$.	?	_	O	O	
+
+#id=7
+#text=3) Haben Sie etwas dagegen, wenn Ihre cornetane Gemälde erst Monumenti 66 publicirt werden?
+7-1	3	CARD	3	_	O	O	
+7-2	)	$(	)	_	O	O	
+7-3	Haben	NN	Haben	_	O	O	
+7-4	Sie	PPER	Sie	_	O	O	
+7-5	etwas	ADV	etwas	_	O	O	
+7-6	dagegen	PAV	dagegen	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	wenn	KOUS	wenn	_	O	O	
+7-9	Ihre	PPOSAT	ihr	_	O	O	
+7-10	cornetane	NN	<unknown>	_	O	O	
+7-11	Gemälde	NN	Gemälde	_	O	O	
+7-12	erst	ADV	erst	_	O	O	
+7-13	Monumenti	NN	<unknown>	_	O	O	
+7-14	66	CARD	@card@	_	O	O	
+7-15	publicirt	VVPP	<unknown>	_	O	O	
+7-16	werden	VAFIN	werden	_	O	O	
+7-17	?	$.	?	_	O	O	
+
+#id=8
+#text=Ich schöbe gern die frisch in Neapel gezeichneten paestane ein, da Minervini mit eine Publication derselben kneist.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	schöbe	VVFIN	schieben	_	O	O	
+8-3	gern	ADV	gern	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	frisch	ADJD	frisch	_	O	O	
+8-6	in	APPR	in	_	O	O	
+8-7	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-8	gezeichneten	ADJA	gezeichnet	_	O	O	
+8-9	paestane	NN	<unknown>	_	O	O	
+8-10	ein	PTKVZ	ein	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	da	KOUS	da	_	O	O	
+8-13	Minervini	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-14	mit	APPR	mit	_	O	O	
+8-15	eine	ART	eine	_	O	O	
+8-16	Publication	NN	<unknown>	_	O	O	
+8-17	derselben	PDAT	dieselb	_	O	O	
+8-18	kneist	NN	<unknown>	_	O	O	
+8-19	.	$.	.	_	O	O	
+
+#id=9
+#text=Beiliegend die Rechnungen an Neapel.
+9-1	Beiliegend	ADJD	beiliegend	_	O	O	
+9-2	die	ART	die	_	O	O	
+9-3	Rechnungen	NN	Rechnung	_	O	O	
+9-4	an	APPR	an	_	O	O	
+9-5	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-6	.	$.	.	_	O	O	
+
+#id=10
+#text=Baldigst mehr.
+10-1	Baldigst	ADJD	baldig	_	O	O	
+10-2	mehr	ADV	mehr	_	O	O	
+10-3	.	$.	.	_	O	O	
+
+#id=11
+#text=Mit herzlichen Grüßen an die Frau Professorin und an Ermanno Ihr dankbarer Wolfgang Helbig
+11-1	Mit	APPR	mit	_	O	O	
+11-2	herzlichen	ADJA	herzlich	_	O	O	
+11-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+11-4	an	APPR	an	_	O	O	
+11-5	die	ART	die	_	O	O	
+11-6	Frau	NN	Frau	_	O	O	
+11-7	Professorin	NN	Professorin	_	O	O	
+11-8	und	KON	und	_	O	O	
+11-9	an	APPR	an	_	O	O	
+11-10	Ermanno	NE	Ermanno	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-11	Ihr	PPOSAT	ihr	_	O	O	
+11-12	dankbarer	ADJA	dankbar	_	O	O	
+11-13	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+11-14	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

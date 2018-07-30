@@ -1,0 +1,260 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=29 Wolfgang Helbig an Heinrich Brunn Perugia, 7. September 1880 Perugia Villa S. Erminio ( Oddi - Baglioni ) 7. Sept.
+1-1	29	CARD	@card@	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Perugia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1880	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Perugia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-14	Villa	NN	Villa	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+1-15	S.	NE	S.	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+1-16	Erminio	NE	Erminio	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+1-17	(	$(	(	_	O	O	
+1-18	Oddi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-19	-	$(	-	_	O	O	
+1-20	Baglioni	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-21	)	$(	)	_	O	O	
+1-22	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-23	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-24	Sept.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1880 Lieber Herr Professor Herzlichen Dank für Ihren freundlichen und ausführlichen Brief vom 5.
+2-1	1880	CARD	@card@	_	O	O	
+2-2	Lieber	ADJA	lieb	_	O	O	
+2-3	Herr	NN	Herr	_	O	O	
+2-4	Professor	NN	Professor	_	O	O	
+2-5	Herzlichen	ADJA	herzlich	_	O	O	
+2-6	Dank	NN	Dank	_	O	O	
+2-7	für	APPR	für	_	O	O	
+2-8	Ihren	PPOSAT	ihr	_	O	O	
+2-9	freundlichen	ADJA	freundlich	_	O	O	
+2-10	und	KON	und	_	O	O	
+2-11	ausführlichen	ADJA	ausführlich	_	O	O	
+2-12	Brief	NN	Brief	_	O	O	
+2-13	vom	APPRART	von	_	O	O	
+2-14	5	CARD	5	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Da die nächste Akademiesitzung erst am 6. November Statt findet, so scheint es mir das Zweckmäßigste, daß ich Ihnen, sowie ich nach Rom zurückgekehrt bin, die Abhandlung nebst den Zeichnungen zur Vorlegung an die Akademie zuschicke.
+3-1	Da	KOUS	da	_	O	O	
+3-2	die	ART	die	_	O	O	
+3-3	nächste	ADJA	nah	_	O	O	
+3-4	Akademiesitzung	NN	<unknown>	_	O	O	
+3-5	erst	ADV	erst	_	O	O	
+3-6	am	APPRART	an	_	O	O	
+3-7	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-9	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-10	Statt	NN	Statt	_	O	O	
+3-11	findet	VVFIN	finden	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	so	ADV	so	_	O	O	
+3-14	scheint	VVFIN	scheinen	_	O	O	
+3-15	es	PPER	es	_	O	O	
+3-16	mir	PRF	ich	_	O	O	
+3-17	das	ART	die	_	O	O	
+3-18	Zweckmäßigste	NN	<unknown>	_	O	O	
+3-19	,	$,	,	_	O	O	
+3-20	daß	KOUS	dass	_	O	O	
+3-21	ich	PPER	ich	_	O	O	
+3-22	Ihnen	PPER	Sie	_	O	O	
+3-23	,	$,	,	_	O	O	
+3-24	sowie	KON	sowie	_	O	O	
+3-25	ich	PPER	ich	_	O	O	
+3-26	nach	APPR	nach	_	O	O	
+3-27	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-28	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+3-29	bin	VAFIN	sein	_	O	O	
+3-30	,	$,	,	_	O	O	
+3-31	die	ART	die	_	O	O	
+3-32	Abhandlung	NN	Abhandlung	_	O	O	
+3-33	nebst	APPR	nebst	_	O	O	
+3-34	den	ART	die	_	O	O	
+3-35	Zeichnungen	NN	Zeichnung	_	O	O	
+3-36	zur	APPRART	zu	_	O	O	
+3-37	Vorlegung	NN	<unknown>	_	O	O	
+3-38	an	APPR	an	_	O	O	
+3-39	die	ART	die	_	O	O	
+3-40	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-41	zuschicke	VVFIN	zuschicken	_	O	O	
+3-42	.	$.	.	_	O	O	
+
+#id=4
+#text=Da es sich nur um Um- , ... z~ .. riß~ichnungen handelt, so werden die Tafeln gewiß sehr wenig kosten.
+4-1	Da	KOUS	da	_	O	O	
+4-2	es	PPER	es	_	O	O	
+4-3	sich	PRF	sich	_	O	O	
+4-4	nur	ADV	nur	_	O	O	
+4-5	um	APPR	um	_	O	O	
+4-6	Um-	TRUNC	Um-	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	...	$.	...	_	O	O	
+4-9	z~	VVFIN	<unknown>	_	O	O	
+4-10	.	$.	.	_	O	O	
+4-11	.	$.	.	_	O	O	
+4-12	riß~ichnungen	ADJD	<unknown>	_	O	O	
+4-13	handelt	VVFIN	handeln	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	so	ADV	so	_	O	O	
+4-16	werden	VAFIN	werden	_	O	O	
+4-17	die	ART	die	_	O	O	
+4-18	Tafeln	NN	Tafel	_	O	O	
+4-19	gewiß	ADJD	gewiss	_	O	O	
+4-20	sehr	ADV	sehr	_	O	O	
+4-21	wenig	PIS	wenige	_	O	O	
+4-22	kosten	VVINF	kosten	_	O	O	
+4-23	.	$.	.	_	O	O	
+
+#id=5
+#text=Von der Abhandlung wird nur der Schluß fehlen, der über das Fortleben der Symbole des Pileus im Mittelalter und in der Neuzeit handelt.
+5-1	Von	APPR	von	_	O	O	
+5-2	der	ART	die	_	O	O	
+5-3	Abhandlung	NN	Abhandlung	_	O	O	
+5-4	wird	VAFIN	werden	_	O	O	
+5-5	nur	ADV	nur	_	O	O	
+5-6	der	ART	die	_	O	O	
+5-7	Schluß	NN	Schluss	_	O	O	
+5-8	fehlen	VVINF	fehlen	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	der	PRELS	die	_	O	O	
+5-11	über	APPR	über	_	O	O	
+5-12	das	ART	die	_	O	O	
+5-13	Fortleben	NN	Fortleben	_	O	O	
+5-14	der	ART	die	_	O	O	
+5-15	Symbole	NN	Symbol	_	O	O	
+5-16	des	ART	die	_	O	O	
+5-17	Pileus	NN	<unknown>	_	O	O	
+5-18	im	APPRART	in	_	O	O	
+5-19	Mittelalter	NN	Mittelalter	_	O	O	
+5-20	und	KON	und	_	O	O	
+5-21	in	APPR	in	_	O	O	
+5-22	der	ART	die	_	O	O	
+5-23	Neuzeit	NN	Neuzeit	_	O	O	
+5-24	handelt	VVFIN	handeln	_	O	O	
+5-25	.	$.	.	_	O	O	
+
+#id=6
+#text=Körte hat mir versprochen, mir hierfür einiges Material während des Octobers in der Göttinger Bibliothek zusammenzustellen.
+6-1	Körte	ADJD	<unknown>	_	O	O	
+6-2	hat	VAFIN	haben	_	O	O	
+6-3	mir	PPER	ich	_	O	O	
+6-4	versprochen	VVPP	versprechen	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	mir	PRF	ich	_	O	O	
+6-7	hierfür	PAV	hierfür	_	O	O	
+6-8	einiges	PIAT	einige	_	O	O	
+6-9	Material	NN	Material	_	O	O	
+6-10	während	APPR	während	_	O	O	
+6-11	des	ART	die	_	O	O	
+6-12	Octobers	NN	<unknown>	_	O	O	
+6-13	in	APPR	in	_	O	O	
+6-14	der	ART	die	_	O	O	
+6-15	Göttinger	NN	Göttinger	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-16	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-17	zusammenzustellen	VVIZU	zusammenstellen	_	O	O	
+6-18	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Peruginer Luft und vor allem die Unmöglichkeit, sich hier musikalisch und anderweitig zu agitiren, haben meiner Frau sehr gut gethan.
+7-1	Die	ART	die	_	O	O	
+7-2	Peruginer	NN	<unknown>	_	O	O	
+7-3	Luft	NN	Luft	_	O	O	
+7-4	und	KON	und	_	O	O	
+7-5	vor	APPR	vor	_	O	O	
+7-6	allem	PIS	alle	_	O	O	
+7-7	die	ART	die	_	O	O	
+7-8	Unmöglichkeit	NN	Unmöglichkeit	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	sich	PRF	sich	_	O	O	
+7-11	hier	ADV	hier	_	O	O	
+7-12	musikalisch	ADJD	musikalisch	_	O	O	
+7-13	und	KON	und	_	O	O	
+7-14	anderweitig	ADJD	anderweitig	_	O	O	
+7-15	zu	APPR	zu	_	O	O	
+7-16	agitiren	NN	<unknown>	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	haben	VAFIN	haben	_	O	O	
+7-19	meiner	PPOSAT	mein	_	O	O	
+7-20	Frau	NN	Frau	_	O	O	
+7-21	sehr	ADV	sehr	_	O	O	
+7-22	gut	ADJD	gut	_	O	O	
+7-23	gethan	NN	<unknown>	_	O	O	
+7-24	.	$.	.	_	O	O	
+
+#id=8
+#text=In Titos Befinden ist eine leise Besserung bemerkbar.
+8-1	In	APPR	in	_	O	O	
+8-2	Titos	NE	Tito	_	O	O	
+8-3	Befinden	NN	Befinden	_	O	O	
+8-4	ist	VAFIN	sein	_	O	O	
+8-5	eine	ART	eine	_	O	O	
+8-6	leise	ADJA	leise	_	O	O	
+8-7	Besserung	NN	Besserung	_	O	O	
+8-8	bemerkbar	ADJD	bemerkbar	_	O	O	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=Was dagegen den armen Marino Guardabassi betrifft, so haben wir ihn gestern zu Grabe getragen.
+9-1	Was	PWS	was	_	O	O	
+9-2	dagegen	PAV	dagegen	_	O	O	
+9-3	den	ART	die	_	O	O	
+9-4	armen	ADJA	arm	_	O	O	
+9-5	Marino	NE	Marino	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-6	Guardabassi	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-7	betrifft	VVFIN	betreffen	_	O	O	
+9-8	,	$,	,	_	O	O	
+9-9	so	ADV	so	_	O	O	
+9-10	haben	VAFIN	haben	_	O	O	
+9-11	wir	PPER	wir	_	O	O	
+9-12	ihn	PPER	er	_	O	O	
+9-13	gestern	ADV	gestern	_	O	O	
+9-14	zu	APPR	zu	_	O	O	
+9-15	Grabe	NN	Grab	_	O	O	
+9-16	getragen	VVPP	tragen	_	O	O	
+9-17	.	$.	.	_	O	O	
+
+#id=10
+#text=Er hatte im August eine Reise nach der Lombardei und Venetien unternommen, fühlte sich dort plötzlich unwohl, kam am 2. September zurück und starb am 3., ohne
+10-1	Er	PPER	er	_	O	O	
+10-2	hatte	VAFIN	haben	_	O	O	
+10-3	im	APPRART	in	_	O	O	
+10-4	August	NN	August	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+10-5	eine	ART	eine	_	O	O	
+10-6	Reise	NN	Reise	_	O	O	
+10-7	nach	APPR	nach	_	O	O	
+10-8	der	ART	die	_	O	O	
+10-9	Lombardei	NE	Lombardei	_	O	O	
+10-10	und	KON	und	_	O	O	
+10-11	Venetien	NE	Venetien	_	O	O	
+10-12	unternommen	VVPP	unternehmen	_	O	O	
+10-13	,	$,	,	_	O	O	
+10-14	fühlte	VVFIN	fühlen	_	O	O	
+10-15	sich	PRF	sich	_	O	O	
+10-16	dort	ADV	dort	_	O	O	
+10-17	plötzlich	ADJD	plötzlich	_	O	O	
+10-18	unwohl	ADJD	unwohl	_	O	O	
+10-19	,	$,	,	_	O	O	
+10-20	kam	VVFIN	kommen	_	O	O	
+10-21	am	APPRART	an	_	O	O	
+10-22	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+10-23	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+10-24	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+10-25	zurück	PTKVZ	zurück	_	O	O	
+10-26	und	KON	und	_	O	O	
+10-27	starb	VVFIN	sterben	_	O	O	
+10-28	am	APPRART	an	_	O	O	
+10-29	3	CARD	3	_	O	O	
+10-30	.	$.	.	_	O	O	
+10-31	,	$,	,	_	O	O	
+10-32	ohne	KOUI	ohne	_	O	O	
+

@@ -1,0 +1,256 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=44 2 Wolfgang Helbig an Heinrich Brunn Pistoja, 2. Oktober 1884 Folge der Choleraangst der Italiener mancherlei Unannehmlichkeiten durchgemacht.
+1-1	44	CARD	44	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-8	Pistoja	NN	<unknown>	_	O	O	
+1-9	,	$,	,	_	O	O	
+1-10	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1884	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Folge	NN	Folge	_	O	O	
+1-15	der	ART	die	_	O	O	
+1-16	Choleraangst	NN	<unknown>	_	O	O	
+1-17	der	ART	die	_	O	O	
+1-18	Italiener	NN	Italiener	_	O	O	
+1-19	mancherlei	PIAT	mancherlei	_	O	O	
+1-20	Unannehmlichkeiten	NN	Unannehmlichkeit	_	O	O	
+1-21	durchgemacht	VVPP	durchmachen	_	O	O	
+1-22	.	$.	.	_	O	O	
+
+#id=2
+#text=Eine Zeit lang konnten wir uns kaum rühren, da der Sottoprefetto einen Cordon sowohl gegen Porretta wie gegen Lucca gezogen hatte.
+2-1	Eine	ART	eine	_	O	O	
+2-2	Zeit	NN	Zeit	_	O	O	
+2-3	lang	ADJD	lang	_	O	O	
+2-4	konnten	VMFIN	können	_	O	O	
+2-5	wir	PPER	wir	_	O	O	
+2-6	uns	PRF	wir	_	O	O	
+2-7	kaum	ADV	kaum	_	O	O	
+2-8	rühren	VVINF	rühren	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	da	KOUS	da	_	O	O	
+2-11	der	ART	die	_	O	O	
+2-12	Sottoprefetto	NN	<unknown>	_	O	O	
+2-13	einen	ART	eine	_	O	O	
+2-14	Cordon	NN	<unknown>	_	O	O	
+2-15	sowohl	KON	sowohl	_	O	O	
+2-16	gegen	APPR	gegen	_	O	O	
+2-17	Porretta	NE	<unknown>	_	O	O	
+2-18	wie	KOKOM	wie	_	O	O	
+2-19	gegen	APPR	gegen	_	O	O	
+2-20	Lucca	NE	Lucca	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-21	gezogen	VVPP	ziehen	_	O	O	
+2-22	hatte	VAFIN	haben	_	O	O	
+2-23	.	$.	.	_	O	O	
+
+#id=3
+#text=Außerdem war die Umgegend unsicher, da in Folge der durch die Cholera hervorgerufenen Nothstände das Vagabundenthum unerhörte Dimensionen annahm und die Polizei viel zu sehr mit den Sanitätsmaßregeln beschäftig war, um wirksam dagegen vorzugehen.
+3-1	Außerdem	ADV	außerdem	_	O	O	
+3-2	war	VAFIN	sein	_	O	O	
+3-3	die	ART	die	_	O	O	
+3-4	Umgegend	NN	Umgegend	_	O	O	
+3-5	unsicher	ADJD	unsicher	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	da	KOUS	da	_	O	O	
+3-8	in	APPR	in	_	O	O	
+3-9	Folge	NN	Folge	_	O	O	
+3-10	der	ART	die	_	O	O	
+3-11	durch	APPR	durch	_	O	O	
+3-12	die	ART	die	_	O	O	
+3-13	Cholera	NN	Cholera	_	O	O	
+3-14	hervorgerufenen	ADJA	hervorgerufen	_	O	O	
+3-15	Nothstände	NN	<unknown>	_	O	O	
+3-16	das	ART	die	_	O	O	
+3-17	Vagabundenthum	NN	<unknown>	_	O	O	
+3-18	unerhörte	ADJA	unerhört	_	O	O	
+3-19	Dimensionen	NN	Dimension	_	O	O	
+3-20	annahm	VVFIN	annehmen	_	O	O	
+3-21	und	KON	und	_	O	O	
+3-22	die	ART	die	_	O	O	
+3-23	Polizei	NN	Polizei	_	O	O	
+3-24	viel	ADV	viel	_	O	O	
+3-25	zu	PTKA	zu	_	O	O	
+3-26	sehr	ADV	sehr	_	O	O	
+3-27	mit	APPR	mit	_	O	O	
+3-28	den	ART	die	_	O	O	
+3-29	Sanitätsmaßregeln	NN	<unknown>	_	O	O	
+3-30	beschäftig	VVIMP	beschäftigen	_	O	O	
+3-31	war	VAFIN	sein	_	O	O	
+3-32	,	$,	,	_	O	O	
+3-33	um	KOUI	um	_	O	O	
+3-34	wirksam	ADJD	wirksam	_	O	O	
+3-35	dagegen	PAV	dagegen	_	O	O	
+3-36	vorzugehen	VVIZU	vorgehen	_	O	O	
+3-37	.	$.	.	_	O	O	
+
+#id=4
+#text=Nichts desto hat der Landaufenthalt Der Gesundheit meiner Frau sehr gut gethan.
+4-1	Nichts	PIAT	nichts	_	O	O	
+4-2	desto	KON	desto	_	O	O	
+4-3	hat	VAFIN	haben	_	O	O	
+4-4	der	ART	die	_	O	O	
+4-5	Landaufenthalt	NN	Landaufenthalt	_	O	O	
+4-6	Der	ART	die	_	O	O	
+4-7	Gesundheit	NN	Gesundheit	_	O	O	
+4-8	meiner	PPOSAT	mein	_	O	O	
+4-9	Frau	NN	Frau	_	O	O	
+4-10	sehr	ADV	sehr	_	O	O	
+4-11	gut	ADJD	gut	_	O	O	
+4-12	gethan	NN	<unknown>	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Auch die Kinder befinden sich vortrefflich.
+5-1	Auch	ADV	auch	_	O	O	
+5-2	die	ART	die	_	O	O	
+5-3	Kinder	NN	Kind	_	O	O	
+5-4	befinden	VVFIN	befinden	_	O	O	
+5-5	sich	PRF	sich	_	O	O	
+5-6	vortrefflich	ADJD	vortrefflich	_	O	O	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=Was mich betrifft, so erinnert mich mein ab und zu wiederkehrender vulcenter Rheumatismus daran, daß ich alt zu werden anfange.
+6-1	Was	PWS	was	_	O	O	
+6-2	mich	PPER	ich	_	O	O	
+6-3	betrifft	VVFIN	betreffen	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	so	ADV	so	_	O	O	
+6-6	erinnert	VVFIN	erinnern	_	O	O	
+6-7	mich	PRF	ich	_	O	O	
+6-8	mein	PPOSAT	mein	_	O	O	
+6-9	ab	PTKVZ	ab	_	O	O	
+6-10	und	KON	und	_	O	O	
+6-11	zu	APPR	zu	_	O	O	
+6-12	wiederkehrender	ADJA	wiederkehrend	_	O	O	
+6-13	vulcenter	ADJA	<unknown>	_	O	O	
+6-14	Rheumatismus	NN	Rheumatismus	_	O	O	
+6-15	daran	PAV	daran	_	O	O	
+6-16	,	$,	,	_	O	O	
+6-17	daß	KOUS	dass	_	O	O	
+6-18	ich	PPER	ich	_	O	O	
+6-19	alt	ADJD	alt	_	O	O	
+6-20	zu	PTKZU	zu	_	O	O	
+6-21	werden	VAINF	werden	_	O	O	
+6-22	anfange	VVFIN	anfangen	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Sehr wichtige Entdeckungen sind letzthin bei Marzabotto gemacht worden.
+7-1	Sehr	ADV	sehr	_	O	O	
+7-2	wichtige	ADJA	wichtig	_	O	O	
+7-3	Entdeckungen	NN	Entdeckung	_	O	O	
+7-4	sind	VAFIN	sein	_	O	O	
+7-5	letzthin	ADV	letzthin	_	O	O	
+7-6	bei	APPR	bei	_	O	O	
+7-7	Marzabotto	NN	<unknown>	_	O	O	
+7-8	gemacht	VVPP	machen	_	O	O	
+7-9	worden	VAPP	werden	_	O	O	
+7-10	.	$.	.	_	O	O	
+
+#id=8
+#text=Der Conte Aria hat die Ausgrabungen in dem dortigen etruskischen Castellum wieder aufgenommen und dasselbe läßt sich nunmehr beinah vollständig reconstruiren.
+8-1	Der	ART	die	_	O	O	
+8-2	Conte	NE	Conte	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	Aria	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-4	hat	VAFIN	haben	_	O	O	
+8-5	die	ART	die	_	O	O	
+8-6	Ausgrabungen	NN	Ausgrabung	_	O	O	
+8-7	in	APPR	in	_	O	O	
+8-8	dem	ART	die	_	O	O	
+8-9	dortigen	ADJA	dortig	_	O	O	
+8-10	etruskischen	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-11	Castellum	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+8-12	wieder	ADV	wieder	_	O	O	
+8-13	aufgenommen	VVPP	aufnehmen	_	O	O	
+8-14	und	KON	und	_	O	O	
+8-15	dasselbe	PDS	dasselbe	_	O	O	
+8-16	läßt	VVFIN	lassen	_	O	O	
+8-17	sich	PRF	sich	_	O	O	
+8-18	nunmehr	ADV	nunmehr	_	O	O	
+8-19	beinah	ADV	beinah	_	O	O	
+8-20	vollständig	ADJD	vollständig	_	O	O	
+8-21	reconstruiren	NN	<unknown>	_	O	O	
+8-22	.	$.	.	_	O	O	
+
+#id=9
+#text=Wir haben nunmehr ein etruskisches Pendant zu Pompei aus dem 5.
+9-1	Wir	PPER	wir	_	O	O	
+9-2	haben	VAFIN	haben	_	O	O	
+9-3	nunmehr	ADV	nunmehr	_	O	O	
+9-4	ein	ART	eine	_	O	O	
+9-5	etruskisches	ADJA	<unknown>	_	O	O	
+9-6	Pendant	NN	Pendant	_	O	O	
+9-7	zu	PTKA	zu	_	O	O	
+9-8	Pompei	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-9	aus	APPR	aus	_	O	O	
+9-10	dem	ART	die	_	O	O	
+9-11	5	CARD	5	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Jahrhunder v. Ch.
+10-1	Jahrhunder	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	v.	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-3	Ch.	NE	Ch.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+
+#id=11
+#text=Ich habe einen außerordentlichen Zeichner beauftragt, um die nöthigen Pläne, Durchschnitte u. s. w. aufnehmen zu lassen, und bitte Sie, falls der Antrag in jener Plenarversammlung zur Discussion kommt, denselben zu unterstützen.
+11-1	Ich	PPER	ich	_	O	O	
+11-2	habe	VAFIN	haben	_	O	O	
+11-3	einen	ART	eine	_	O	O	
+11-4	außerordentlichen	ADJA	außerordentlich	_	O	O	
+11-5	Zeichner	NN	Zeichner	_	O	O	
+11-6	beauftragt	VVPP	beauftragen	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	um	KOUI	um	_	O	O	
+11-9	die	ART	die	_	O	O	
+11-10	nöthigen	ADJA	<unknown>	_	O	O	
+11-11	Pläne	NN	Plan	_	O	O	
+11-12	,	$,	,	_	O	O	
+11-13	Durchschnitte	NN	Durchschnitt	_	O	O	
+11-14	u.	APPR	um	_	O	O	
+11-15	s.	ADV	s.	_	O	O	
+11-16	w.	APPR	w.	_	O	O	
+11-17	aufnehmen	VVINF	aufnehmen	_	O	O	
+11-18	zu	PTKZU	zu	_	O	O	
+11-19	lassen	VVINF	lassen	_	O	O	
+11-20	,	$,	,	_	O	O	
+11-21	und	KON	und	_	O	O	
+11-22	bitte	VVIMP	bitten	_	O	O	
+11-23	Sie	PPER	Sie	_	O	O	
+11-24	,	$,	,	_	O	O	
+11-25	falls	KOUS	falls	_	O	O	
+11-26	der	ART	die	_	O	O	
+11-27	Antrag	NN	Antrag	_	O	O	
+11-28	in	APPR	in	_	O	O	
+11-29	jener	PDAT	jen	_	O	O	
+11-30	Plenarversammlung	NN	Plenarversammlung	_	O	O	
+11-31	zur	APPRART	zu	_	O	O	
+11-32	Discussion	NN	<unknown>	_	O	O	
+11-33	kommt	VVFIN	kommen	_	O	O	
+11-34	,	$,	,	_	O	O	
+11-35	denselben	PDS	derselbe	_	O	O	
+11-36	zu	PTKZU	zu	_	O	O	
+11-37	unterstützen	VVINF	unterstützen	_	O	O	
+11-38	.	$.	.	_	O	O	
+
+#id=12
+#text=Sehr gern würde ich die myronische Statue mit Text
+12-1	Sehr	ADV	sehr	_	O	O	
+12-2	gern	ADV	gern	_	O	O	
+12-3	würde	VAFIN	werden	_	O	O	
+12-4	ich	PPER	ich	_	O	O	
+12-5	die	ART	die	_	O	O	
+12-6	myronische	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+12-7	Statue	NN	Statue	_	I-webanno.custom.LetterEntity_	I-OBJ	
+12-8	mit	APPR	mit	_	O	O	
+12-9	Text	NN	Text	_	O	O	
+

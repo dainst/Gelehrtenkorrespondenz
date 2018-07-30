@@ -1,0 +1,124 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=29 2 Wolfgang Helbig an Heinrich Brunn Perugia, 7. September 1880 daß Jemand eine Ahnung von der Gefahr seines Zustandes hatte.
+1-1	29	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Perugia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1880	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	daß	KOUS	dass	_	O	O	
+1-15	Jemand	NN	Jemand	_	O	O	
+1-16	eine	ART	eine	_	O	O	
+1-17	Ahnung	NN	Ahnung	_	O	O	
+1-18	von	APPR	von	_	O	O	
+1-19	der	ART	die	_	O	O	
+1-20	Gefahr	NN	Gefahr	_	O	O	
+1-21	seines	PPOSAT	sein	_	O	O	
+1-22	Zustandes	NN	Zustand	_	O	O	
+1-23	hatte	VAFIN	haben	_	O	O	
+1-24	.	$.	.	_	O	O	
+
+#id=2
+#text=Die Section hat ergeben, daß sein Tod durch ein Darmgeschwür veranIaßt worden ist.
+2-1	Die	ART	die	_	O	O	
+2-2	Section	NN	<unknown>	_	O	O	
+2-3	hat	VAFIN	haben	_	O	O	
+2-4	ergeben	VVPP	ergeben	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	daß	KOUS	dass	_	O	O	
+2-7	sein	PPOSAT	sein	_	O	O	
+2-8	Tod	NN	Tod	_	O	O	
+2-9	durch	APPR	durch	_	O	O	
+2-10	ein	ART	eine	_	O	O	
+2-11	Darmgeschwür	NN	<unknown>	_	O	O	
+2-12	veranIaßt	VVPP	<unknown>	_	O	O	
+2-13	worden	VAPP	werden	_	O	O	
+2-14	ist	VAFIN	sein	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Seine Sammlung hat er testamentarisch dem Museum der Universität hinterlassen.
+3-1	Seine	PPOSAT	sein	_	O	O	
+3-2	Sammlung	NN	Sammlung	_	O	O	
+3-3	hat	VAFIN	haben	_	O	O	
+3-4	er	PPER	er	_	O	O	
+3-5	testamentarisch	ADJD	testamentarisch	_	O	O	
+3-6	dem	ART	die	_	O	O	
+3-7	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-8	der	ART	die	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+3-9	Universität	NN	Universität	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+3-10	hinterlassen	VVINF	hinterlassen	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=Leider ist kein regelmäßig geführter Katalog vorhanden und sind somit viele Provenienz angaben , deren sich nur Guardabassi entsann, unwiederbringlich verloren.
+4-1	Leider	ADV	leider	_	O	O	
+4-2	ist	VAFIN	sein	_	O	O	
+4-3	kein	PIAT	keine	_	O	O	
+4-4	regelmäßig	ADJD	regelmäßig	_	O	O	
+4-5	geführter	ADJA	geführt	_	O	O	
+4-6	Katalog	NN	Katalog	_	O	O	
+4-7	vorhanden	ADJD	vorhanden	_	O	O	
+4-8	und	KON	und	_	O	O	
+4-9	sind	VAFIN	sein	_	O	O	
+4-10	somit	ADV	somit	_	O	O	
+4-11	viele	PIAT	viele	_	O	O	
+4-12	Provenienz	NN	<unknown>	_	O	O	
+4-13	angaben	VVINF	angeben	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	deren	PRELAT	die	_	O	O	
+4-16	sich	PRF	sich	_	O	O	
+4-17	nur	ADV	nur	_	O	O	
+4-18	Guardabassi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-19	entsann	VVFIN	entsinnen	_	O	O	
+4-20	,	$,	,	_	O	O	
+4-21	unwiederbringlich	ADJD	unwiederbringlich	_	O	O	
+4-22	verloren	VVPP	verlieren	_	O	O	
+4-23	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich gratulire Ihnen und Hermann zu dem glücklich bestandenen Examen.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	gratulire	VVFIN	<unknown>	_	O	O	
+5-3	Ihnen	PPER	Sie	_	O	O	
+5-4	und	KON	und	_	O	O	
+5-5	Hermann	NE	Hermann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-6	zu	APPR	zu	_	O	O	
+5-7	dem	ART	die	_	O	O	
+5-8	glücklich	ADJD	glücklich	_	O	O	
+5-9	bestandenen	ADJA	bestanden	_	O	O	
+5-10	Examen	NN	Examen	_	O	O	
+5-11	.	$.	.	_	O	O	
+
+#id=6
+#text=Herzliche Grüße von meiner Frau Ihr dankbar ergebener Helbig Bartoccini werde ich heute Abend sehen und ihm von Ihnen berichten.
+6-1	Herzliche	ADJA	herzlich	_	O	O	
+6-2	Grüße	NN	Gruß	_	O	O	
+6-3	von	APPR	von	_	O	O	
+6-4	meiner	PPOSAT	mein	_	O	O	
+6-5	Frau	NN	Frau	_	O	O	
+6-6	Ihr	PPOSAT	ihr	_	O	O	
+6-7	dankbar	ADJD	dankbar	_	O	O	
+6-8	ergebener	ADJD	ergebener	_	O	O	
+6-9	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-10	Bartoccini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-11	werde	VAFIN	werden	_	O	O	
+6-12	ich	PPER	ich	_	O	O	
+6-13	heute	ADV	heute	_	O	O	
+6-14	Abend	ADV	abend	_	O	O	
+6-15	sehen	VVINF	sehen	_	O	O	
+6-16	und	KON	und	_	O	O	
+6-17	ihm	PPER	er	_	O	O	
+6-18	von	APPR	von	_	O	O	
+6-19	Ihnen	PPER	Sie	_	O	O	
+6-20	berichten	VVINF	berichten	_	O	O	
+6-21	.	$.	.	_	O	O	
+

@@ -1,0 +1,227 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Helbig an ~ Rom, 10. August 1863 ten, verschiedene Estratti und Fr.
+1-1	2	CARD	2	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	PTKVZ	an	_	O	O	
+1-4	~	XY	~	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	ten	NE	ten	_	O	O	
+1-12	,	$,	,	_	O	O	
+1-13	verschiedene	ADJA	verschieden	_	O	O	
+1-14	Estratti	NN	<unknown>	_	O	O	
+1-15	und	KON	und	_	O	O	
+1-16	Fr.	NN	Freitag	_	O	O	
+
+#id=2
+#text=Lenormants Geschichte des Münzwesen zum Geschenk.
+2-1	Lenormants	NN	<unknown>	_	O	O	
+2-2	Geschichte	NN	Geschichte	_	O	O	
+2-3	des	ART	die	_	O	O	
+2-4	Münzwesen	NN	Münzwesen	_	O	O	
+2-5	zum	APPRART	zu	_	O	O	
+2-6	Geschenk	NN	Geschenk	_	O	O	
+2-7	.	$.	.	_	O	O	
+
+#id=3
+#text=Von Gerhard traf ein Brief ein, worin er mich ermahnte, öfter an ihn zu schreiben.
+3-1	Von	APPR	von	_	O	O	
+3-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	traf	VVFIN	treffen	_	O	O	
+3-4	ein	ART	eine	_	O	O	
+3-5	Brief	NN	Brief	_	O	O	
+3-6	ein	PTKVZ	ein	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	worin	PWAV	worin	_	O	O	
+3-9	er	PPER	er	_	O	O	
+3-10	mich	PRF	ich	_	O	O	
+3-11	ermahnte	VVFIN	ermahnen	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	öfter	ADV	öfter	_	O	O	
+3-14	an	APPR	an	_	O	O	
+3-15	ihn	PPER	er	_	O	O	
+3-16	zu	PTKZU	zu	_	O	O	
+3-17	schreiben	VVINF	schreiben	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=In Verzweifelung bin ich wegen der Pinderschen Zeichnung.
+4-1	In	APPR	in	_	O	O	
+4-2	Verzweifelung	NN	<unknown>	_	O	O	
+4-3	bin	VAFIN	sein	_	O	O	
+4-4	ich	PPER	ich	_	O	O	
+4-5	wegen	APPR	wegen	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	Pinderschen	NN	<unknown>	_	O	O	
+4-8	Zeichnung	NN	Zeichnung	_	O	O	
+4-9	.	$.	.	_	O	O	
+
+#id=5
+#text=Er sucht, wenn ich ihre Absendung verlange, stets Ausflüchte.
+5-1	Er	PPER	er	_	O	O	
+5-2	sucht	VVFIN	suchen	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	wenn	KOUS	wenn	_	O	O	
+5-5	ich	PPER	ich	_	O	O	
+5-6	ihre	PPOSAT	ihr	_	O	O	
+5-7	Absendung	NN	Absendung	_	O	O	
+5-8	verlange	VVFIN	verlangen	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	stets	ADV	stets	_	O	O	
+5-11	Ausflüchte	NN	Ausflucht	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Zeichnung der Ara Borghese lasse ich mit diesem Briefe abgehen.
+6-1	Die	ART	die	_	O	O	
+6-2	Zeichnung	NN	Zeichnung	_	O	O	
+6-3	der	ART	die	_	O	O	
+6-4	Ara	NN	Ara	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-5	Borghese	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-6	lasse	VVFIN	lassen	_	O	O	
+6-7	ich	PPER	ich	_	O	O	
+6-8	mit	APPR	mit	_	O	O	
+6-9	diesem	PDAT	dies	_	O	O	
+6-10	Briefe	NN	Brief	_	O	O	
+6-11	abgehen	VVINF	abgehen	_	O	O	
+6-12	.	$.	.	_	O	O	
+
+#id=7
+#text=Sollte mein letzter Brief an Sie gerichteter Brief verloren gegangen sein, so stelle ich hier noch einmal kurz die Frage an Sie : befindet sich unter den Ihnen von mir über die Ebhardsche Angelegenheit zugeschickten Fapieren ein von dem Avvocato Leone Fortis für das Institut abgefaßtes Klageformular ?
+7-1	Sollte	VMFIN	sollen	_	O	O	
+7-2	mein	PPOSAT	mein	_	O	O	
+7-3	letzter	ADJA	letzt	_	O	O	
+7-4	Brief	NN	Brief	_	O	O	
+7-5	an	APPR	an	_	O	O	
+7-6	Sie	PPER	Sie	_	O	O	
+7-7	gerichteter	ADJA	gerichtet	_	O	O	
+7-8	Brief	NN	Brief	_	O	O	
+7-9	verloren	VVPP	verlieren	_	O	O	
+7-10	gegangen	VVPP	gehen	_	O	O	
+7-11	sein	VAINF	sein	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	so	ADV	so	_	O	O	
+7-14	stelle	VVFIN	stellen	_	O	O	
+7-15	ich	PPER	ich	_	O	O	
+7-16	hier	ADV	hier	_	O	O	
+7-17	noch	ADV	noch	_	O	O	
+7-18	einmal	ADV	einmal	_	O	O	
+7-19	kurz	ADJD	kurz	_	O	O	
+7-20	die	ART	die	_	O	O	
+7-21	Frage	NN	Frage	_	O	O	
+7-22	an	APPR	an	_	O	O	
+7-23	Sie	PPER	Sie	_	O	O	
+7-24	:	$.	:	_	O	O	
+7-25	befindet	VVFIN	befinden	_	O	O	
+7-26	sich	PRF	sich	_	O	O	
+7-27	unter	APPR	unter	_	O	O	
+7-28	den	ART	die	_	O	O	
+7-29	Ihnen	PPER	Sie	_	O	O	
+7-30	von	APPR	von	_	O	O	
+7-31	mir	PPER	ich	_	O	O	
+7-32	über	APPR	über	_	O	O	
+7-33	die	ART	die	_	O	O	
+7-34	Ebhardsche	NN	<unknown>	_	O	O	
+7-35	Angelegenheit	NN	Angelegenheit	_	O	O	
+7-36	zugeschickten	ADJA	zugeschickt	_	O	O	
+7-37	Fapieren	NN	<unknown>	_	O	O	
+7-38	ein	ART	eine	_	O	O	
+7-39	von	APPR	von	_	O	O	
+7-40	dem	ART	die	_	O	O	
+7-41	Avvocato	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-42	Leone	NE	Leone	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-43	Fortis	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-44	für	APPR	für	_	O	O	
+7-45	das	ART	die	_	O	O	
+7-46	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-47	abgefaßtes	ADJA	abgefaßt	_	O	O	
+7-48	Klageformular	NN	<unknown>	_	O	O	
+7-49	?	$.	?	_	O	O	
+
+#id=8
+#text=Henzen schrieb mir, daß ein solches binnen Kurzem hier eintreffen würde.
+8-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	schrieb	VVFIN	schreiben	_	O	O	
+8-3	mir	PPER	ich	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	daß	KOUS	dass	_	O	O	
+8-6	ein	ART	eine	_	O	O	
+8-7	solches	PIAT	solche	_	O	O	
+8-8	binnen	APPR	binnen	_	O	O	
+8-9	Kurzem	NN	Kurze	_	O	O	
+8-10	hier	ADV	hier	_	O	O	
+8-11	eintreffen	VVINF	eintreffen	_	O	O	
+8-12	würde	VAFIN	werden	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Der Termin, um Ansprüche gegen die Buchhandlung zu erheben, reicht bis zum letzten dieses I'lonats, wie ich aus einem mir gestern zugegangenen Rescripte des Gerichtscommissärs ersehe.
+9-1	Der	ART	die	_	O	O	
+9-2	Termin	NN	Termin	_	O	O	
+9-3	,	$,	,	_	O	O	
+9-4	um	KOUI	um	_	O	O	
+9-5	Ansprüche	NN	Anspruch	_	O	O	
+9-6	gegen	APPR	gegen	_	O	O	
+9-7	die	ART	die	_	O	O	
+9-8	Buchhandlung	NN	Buchhandlung	_	O	O	
+9-9	zu	PTKZU	zu	_	O	O	
+9-10	erheben	VVINF	erheben	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	reicht	VVFIN	reichen	_	O	O	
+9-13	bis	APPR	bis	_	O	O	
+9-14	zum	APPRART	zu	_	O	O	
+9-15	letzten	ADJA	letzt	_	O	O	
+9-16	dieses	PDAT	dies	_	O	O	
+9-17	I'lonats	NN	<unknown>	_	O	O	
+9-18	,	$,	,	_	O	O	
+9-19	wie	KOUS	wie	_	O	O	
+9-20	ich	PPER	ich	_	O	O	
+9-21	aus	APPR	aus	_	O	O	
+9-22	einem	ART	eine	_	O	O	
+9-23	mir	PRF	ich	_	O	O	
+9-24	gestern	ADV	gestern	_	O	O	
+9-25	zugegangenen	ADJA	zugegangen	_	O	O	
+9-26	Rescripte	NN	<unknown>	_	O	O	
+9-27	des	ART	die	_	O	O	
+9-28	Gerichtscommissärs	NN	<unknown>	_	O	O	
+9-29	ersehe	VVFIN	ersehen	_	O	O	
+9-30	.	$.	.	_	O	O	
+
+#id=10
+#text=Trifft bis zum 15. nichts i' t,~ von jenem Avvocato ein, so schreibe ich an direct an ihn.
+10-1	Trifft	VVFIN	treffen	_	O	O	
+10-2	bis	APPR	bis	_	O	O	
+10-3	zum	APPRART	zu	_	O	O	
+10-4	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+10-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+10-6	nichts	PIS	nichts	_	O	O	
+10-7	i	FM	i	_	O	O	
+10-8	'	$(	'	_	O	O	
+10-9	t,~	VVFIN	<unknown>	_	O	O	
+10-10	von	APPR	von	_	O	O	
+10-11	jenem	PDAT	jen	_	O	O	
+10-12	Avvocato	ADV	<unknown>	_	O	O	
+10-13	ein	PTKVZ	ein	_	O	O	
+10-14	,	$,	,	_	O	O	
+10-15	so	ADV	so	_	O	O	
+10-16	schreibe	VVFIN	schreiben	_	O	O	
+10-17	ich	PPER	ich	_	O	O	
+10-18	an	APPR	an	_	O	O	
+10-19	direct	NE	direct	_	O	O	
+10-20	an	APPR	an	_	O	O	
+10-21	ihn	PPER	er	_	O	O	
+10-22	.	$.	.	_	O	O	
+
+#id=11
+#text=hit herzlichen Grüßen vJolfgang Helbig
+11-1	hit	ADJA	<unknown>	_	O	O	
+11-2	herzlichen	ADJA	herzlich	_	O	O	
+11-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+11-4	vJolfgang	NN	<unknown>	_	O	O	
+11-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

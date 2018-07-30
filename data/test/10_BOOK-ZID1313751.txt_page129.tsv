@@ -1,0 +1,102 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=19 Wolfgang Helbig an Heinrich Brunn Göttingen, 5. August 1877 Postkarte Lieber Herr Professor !
+1-1	19	CARD	19	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Göttingen	NE	Göttingen	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1877	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Postkarte	NN	Postkarte	_	O	O	
+1-14	Lieber	ADJA	lieb	_	O	O	
+1-15	Herr	NN	Herr	_	O	O	
+1-16	Professor	NN	Professor	_	O	O	
+1-17	!	$.	!	_	O	O	
+
+#id=2
+#text=Heute Nachmittag reise ich von Göttingen nach Würzburg, um daselbst Flasch zu sehen.
+2-1	Heute	ADV	heute	_	O	O	
+2-2	Nachmittag	ADV	nachmittag	_	O	O	
+2-3	reise	VVFIN	reisen	_	O	O	
+2-4	ich	PPER	ich	_	O	O	
+2-5	von	APPR	von	_	O	O	
+2-6	Göttingen	NE	Göttingen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-7	nach	APPR	nach	_	O	O	
+2-8	Würzburg	NE	Würzburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-9	,	$,	,	_	O	O	
+2-10	um	KOUI	um	_	O	O	
+2-11	daselbst	ADV	daselbst	_	O	O	
+2-12	Flasch	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-13	zu	PTKZU	zu	_	O	O	
+2-14	sehen	VVINF	sehen	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Den 7. ich weiß noch nicht,mit welchem Zuge werde ich in München eintreffen.
+3-1	Den	ART	die	_	O	O	
+3-2	7	CARD	7	_	O	O	
+3-3	.	$.	.	_	O	O	
+3-4	ich	PPER	ich	_	O	O	
+3-5	weiß	VVFIN	wissen	_	O	O	
+3-6	noch	ADV	noch	_	O	O	
+3-7	nicht,mit	ADJA	<unknown>	_	O	O	
+3-8	welchem	PRELS	welche	_	O	O	
+3-9	Zuge	NN	Zug	_	O	O	
+3-10	werde	VAFIN	werden	_	O	O	
+3-11	ich	PPER	ich	_	O	O	
+3-12	in	APPR	in	_	O	O	
+3-13	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-14	eintreffen	VVINF	eintreffen	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Seien Sie so gut und Hinterlassen Sie im "Rheinischen Hof", wo ich Ihrer im Laufe des 7. habhaft werden kann.
+4-1	Seien	VAFIN	sein	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	so	ADV	so	_	O	O	
+4-4	gut	ADJD	gut	_	O	O	
+4-5	und	KON	und	_	O	O	
+4-6	Hinterlassen	NN	Hinterlassen	_	O	O	
+4-7	Sie	PPER	Sie	_	O	O	
+4-8	im	APPRART	in	_	O	O	
+4-9	"	$(	"	_	O	O	
+4-10	Rheinischen	ADJA	rheinisch	_	O	O	
+4-11	Hof	NN	Hof	_	O	O	
+4-12	"	$(	"	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	wo	PWAV	wo	_	O	O	
+4-15	ich	PPER	ich	_	O	O	
+4-16	Ihrer	PPOSAT	ihr	_	O	O	
+4-17	im	APPRART	in	_	O	O	
+4-18	Laufe	NN	Lauf	_	O	O	
+4-19	des	ART	die	_	O	O	
+4-20	7	CARD	7	_	O	O	
+4-21	.	$.	.	_	O	O	
+4-22	habhaft	ADJD	habhaft	_	O	O	
+4-23	werden	VAINF	werden	_	O	O	
+4-24	kann	VMFIN	können	_	O	O	
+4-25	.	$.	.	_	O	O	
+
+#id=5
+#text=Herzliche Grüße an Sie und Frau Brunn Ihr ergebener Helbig Göttingen 5. Aug.
+5-1	Herzliche	ADJA	herzlich	_	O	O	
+5-2	Grüße	NN	Gruß	_	O	O	
+5-3	an	APPR	an	_	O	O	
+5-4	Sie	PPER	Sie	_	O	O	
+5-5	und	KON	und	_	O	O	
+5-6	Frau	NN	Frau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-8	Ihr	PPOSAT	ihr	_	O	O	
+5-9	ergebener	ADJA	ergeben	_	O	O	
+5-10	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+5-11	Göttingen	NE	Göttingen	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+5-12	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+5-13	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+5-14	Aug.	NN	Aug.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+

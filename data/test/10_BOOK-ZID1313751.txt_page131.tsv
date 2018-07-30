@@ -1,0 +1,100 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=21 Wolfgang Helbig an Heinrich Brunn Rom, 12. Mai 1879 Roma, li 12. Mai 1879 Lieber Herr Professor Soeben finde ich die Rospigliosische Zeichnung.
+1-1	21	CARD	21	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1879	CARD	1879	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-14	,	$,	,	_	O	O	
+1-15	li	ADJD	<unknown>	_	O	O	
+1-16	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	1879	CARD	1879	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	Lieber	ADJA	lieb	_	O	O	
+1-21	Herr	NN	Herr	_	O	O	
+1-22	Professor	NN	Professor	_	O	O	
+1-23	Soeben	NE	<unknown>	_	O	O	
+1-24	finde	VVFIN	finden	_	O	O	
+1-25	ich	PPER	ich	_	O	O	
+1-26	die	ART	die	_	O	O	
+1-27	Rospigliosische	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-28	Zeichnung	NN	Zeichnung	_	O	O	
+1-29	.	$.	.	_	O	O	
+
+#id=2
+#text=Sie war zwischen dem doppelten Umschlag, der die in den Villen ausgeführten Zeichnungen umgab, gerathen.
+2-1	Sie	PPER	Sie	_	O	O	
+2-2	war	VAFIN	sein	_	O	O	
+2-3	zwischen	APPR	zwischen	_	O	O	
+2-4	dem	ART	die	_	O	O	
+2-5	doppelten	ADJA	doppelt	_	O	O	
+2-6	Umschlag	NN	Umschlag	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	der	PRELS	die	_	O	O	
+2-9	die	ART	die	_	O	O	
+2-10	in	APPR	in	_	O	O	
+2-11	den	ART	die	_	O	O	
+2-12	Villen	NN	Villa	_	O	O	
+2-13	ausgeführten	ADJA	ausgeführt	_	O	O	
+2-14	Zeichnungen	NN	Zeichnung	_	O	O	
+2-15	umgab	VVFIN	umgeben	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	gerathen	VVPP	<unknown>	_	O	O	
+2-18	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich bitte, daß Herr Dr.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	bitte	VVFIN	bitten	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	daß	KOUS	dass	_	O	O	
+3-5	Herr	NN	Herr	_	O	O	
+3-6	Dr.	NN	Dr.	_	O	O	
+
+#id=4
+#text=Meier davon Kenntnis nimmt und das Blatt dann recommandirt zurückschickt.
+4-1	Meier	NE	Meier	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	davon	PAV	davon	_	O	O	
+4-3	Kenntnis	NN	Kenntnis	_	O	O	
+4-4	nimmt	VVFIN	nehmen	_	O	O	
+4-5	und	KON	und	_	O	O	
+4-6	das	ART	die	_	O	O	
+4-7	Blatt	NN	Blatt	_	O	O	
+4-8	dann	ADV	dann	_	O	O	
+4-9	recommandirt	NN	<unknown>	_	O	O	
+4-10	zurückschickt	VVFIN	zurückschicken	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Von der Panfilisehen Zeichnung noch keine Spur !
+5-1	Von	APPR	von	_	O	O	
+5-2	der	ART	die	_	O	O	
+5-3	Panfilisehen	ADJA	<unknown>	_	O	O	
+5-4	Zeichnung	NN	Zeichnung	_	O	O	
+5-5	noch	ADV	noch	_	O	O	
+5-6	keine	PIAT	keine	_	O	O	
+5-7	Spur	NN	Spur	_	O	O	
+5-8	!	$.	!	_	O	O	
+
+#id=6
+#text=Herzliche Grüße !
+6-1	Herzliche	ADJA	herzlich	_	O	O	
+6-2	Grüße	NN	Gruß	_	O	O	
+6-3	!	$.	!	_	O	O	
+
+#id=7
+#text=Ihr ergebener Helbig
+7-1	Ihr	PPOSAT	ihr	_	O	O	
+7-2	ergebener	ADJA	ergeben	_	O	O	
+7-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

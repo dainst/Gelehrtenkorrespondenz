@@ -1,0 +1,268 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=4 3 Wolfgang Helbig an Heinrich Brunn Rom, 19. Mai 1866 sich dabei recht wohl fühlen.
+1-1	4	CARD	4	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Wolfgang	NN	Wolfgang	_	O	O	
+1-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	sich	PRF	sich	_	O	O	
+1-15	dabei	PAV	dabei	_	O	O	
+1-16	recht	ADJD	recht	_	O	O	
+1-17	wohl	ADV	wohl	_	O	O	
+1-18	fühlen	VVFIN	fühlen	_	O	O	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=Einen ehelichen Zwist, welcher sich zwischen ihnen erhoben hatte, da Nino einen seiner Neffen, einen ziemlich nichtsnutzigen Jungen, in das Haus nahm, habe ich beigelegt, so gut es ging.
+2-1	Einen	ART	eine	_	O	O	
+2-2	ehelichen	ADJA	ehelich	_	O	O	
+2-3	Zwist	NN	Zwist	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	welcher	PRELS	welche	_	O	O	
+2-6	sich	PRF	sich	_	O	O	
+2-7	zwischen	APPR	zwischen	_	O	O	
+2-8	ihnen	PPER	sie	_	O	O	
+2-9	erhoben	VVPP	erheben	_	O	O	
+2-10	hatte	VAFIN	haben	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	da	KOUS	da	_	O	O	
+2-13	Nino	NE	Nino	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-14	einen	PIS	eine	_	O	O	
+2-15	seiner	PPOSAT	sein	_	O	O	
+2-16	Neffen	NN	Neffe	_	O	O	
+2-17	,	$,	,	_	O	O	
+2-18	einen	ART	eine	_	O	O	
+2-19	ziemlich	ADV	ziemlich	_	O	O	
+2-20	nichtsnutzigen	ADJA	nichtsnutzig	_	O	O	
+2-21	Jungen	NN	Junge	_	O	O	
+2-22	,	$,	,	_	O	O	
+2-23	in	APPR	in	_	O	O	
+2-24	das	ART	die	_	O	O	
+2-25	Haus	NN	Haus	_	O	O	
+2-26	nahm	VVFIN	nehmen	_	O	O	
+2-27	,	$,	,	_	O	O	
+2-28	habe	VAFIN	haben	_	O	O	
+2-29	ich	PPER	ich	_	O	O	
+2-30	beigelegt	VVPP	beilegen	_	O	O	
+2-31	,	$,	,	_	O	O	
+2-32	so	ADV	so	_	O	O	
+2-33	gut	ADJD	gut	_	O	O	
+2-34	es	PPER	es	_	O	O	
+2-35	ging	VVFIN	gehen	_	O	O	
+2-36	.	$.	.	_	O	O	
+
+#id=3
+#text=Mariuccia war entschieden im Recht.
+3-1	Mariuccia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	war	VAFIN	sein	_	O	O	
+3-3	entschieden	ADJD	entschieden	_	O	O	
+3-4	im	APPRART	in	_	O	O	
+3-5	Recht	NN	Recht	_	O	O	
+3-6	.	$.	.	_	O	O	
+
+#id=4
+#text=Schließlich waIYder Junge beim Aufräumen der Bibliothek einen Kasten mit Schwefelpasten um, die dabei beinah sämmtlich zersprangen.
+4-1	Schließlich	ADV	schließlich	_	O	O	
+4-2	waIYder	ADJA	<unknown>	_	O	O	
+4-3	Junge	NN	Junge	_	O	O	
+4-4	beim	APPRART	bei	_	O	O	
+4-5	Aufräumen	NN	Aufräumen	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-8	einen	ART	eine	_	O	O	
+4-9	Kasten	NN	Kaste|Kasten	_	O	O	
+4-10	mit	APPR	mit	_	O	O	
+4-11	Schwefelpasten	NN	<unknown>	_	O	O	
+4-12	um	PTKVZ	um	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	die	PRELS	die	_	O	O	
+4-15	dabei	PAV	dabei	_	O	O	
+4-16	beinah	ADV	beinah	_	O	O	
+4-17	sämmtlich	ADJD	<unknown>	_	O	O	
+4-18	zersprangen	VVFIN	zerspringen	_	O	O	
+4-19	.	$.	.	_	O	O	
+
+#id=5
+#text=Diese Gelegenheit ergriff ich, ihn sofort aus dem Hause zu weisen.
+5-1	Diese	PDAT	dies	_	O	O	
+5-2	Gelegenheit	NN	Gelegenheit	_	O	O	
+5-3	ergriff	VVFIN	ergreifen	_	O	O	
+5-4	ich	PPER	ich	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	ihn	PPER	er	_	O	O	
+5-7	sofort	ADV	sofort	_	O	O	
+5-8	aus	APPR	aus	_	O	O	
+5-9	dem	ART	die	_	O	O	
+5-10	Hause	NN	Haus	_	O	O	
+5-11	zu	PTKZU	zu	_	O	O	
+5-12	weisen	VVINF	weisen	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Nino befindet sich wohl.
+6-1	Nino	NE	Nino	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	befindet	VVFIN	befinden	_	O	O	
+6-3	sich	PRF	sich	_	O	O	
+6-4	wohl	ADV	wohl	_	O	O	
+6-5	.	$.	.	_	O	O	
+
+#id=7
+#text=Dagegen leidet Mariuccia öfters an Halsschmerzen, Husten und Heiserkeit, deren Hartnäckigkeit mich manchmal etwas bedenklich macht.
+7-1	Dagegen	PAV	dagegen	_	O	O	
+7-2	leidet	VVFIN	leiden	_	O	O	
+7-3	Mariuccia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-4	öfters	ADV	öfters	_	O	O	
+7-5	an	APPR	an	_	O	O	
+7-6	Halsschmerzen	NN	Halsschmerz	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	Husten	NN	Husten	_	O	O	
+7-9	und	KON	und	_	O	O	
+7-10	Heiserkeit	NN	Heiserkeit	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	deren	PRELAT	die	_	O	O	
+7-13	Hartnäckigkeit	NN	Hartnäckigkeit	_	O	O	
+7-14	mich	PRF	ich	_	O	O	
+7-15	manchmal	ADV	manchmal	_	O	O	
+7-16	etwas	ADV	etwas	_	O	O	
+7-17	bedenklich	ADJD	bedenklich	_	O	O	
+7-18	macht	VVFIN	machen	_	O	O	
+7-19	.	$.	.	_	O	O	
+
+#id=8
+#text=Andere das Institut betreffende Dinge wird Ihnen Henzen schreiben, bevor er nach Paris abreist, was er um Ende Mai zu thun gedenkt.
+8-1	Andere	PIS	andere	_	O	O	
+8-2	das	ART	die	_	O	O	
+8-3	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-4	betreffende	ADJA	betreffend	_	O	O	
+8-5	Dinge	NN	Ding	_	O	O	
+8-6	wird	VAFIN	werden	_	O	O	
+8-7	Ihnen	PPER	Sie	_	O	O	
+8-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-9	schreiben	VVINF	schreiben	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	bevor	KOUS	bevor	_	O	O	
+8-12	er	PPER	er	_	O	O	
+8-13	nach	APPR	nach	_	O	O	
+8-14	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-15	abreist	VVFIN	abreisen	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	was	PRELS	was	_	O	O	
+8-18	er	PPER	er	_	O	O	
+8-19	um	APPR	um	_	O	O	
+8-20	Ende	NN	Ende	_	O	O	
+8-21	Mai	NN	Mai	_	O	O	
+8-22	zu	APPR	zu	_	O	O	
+8-23	thun	NE	<unknown>	_	O	O	
+8-24	gedenkt	VVFIN	gedenken	_	O	O	
+8-25	.	$.	.	_	O	O	
+
+#id=9
+#text=Diesen Winter über war ein italienischer Stipendiat, Pigorini, beim Institut accreditirt, ein ganz guter und eifriger Mensch,nur all zu sehr in die Studien der Pfahlbauten und der damit zusammenhängenden phantastischen Theorien verritten.
+9-1	Diesen	PDAT	dies	_	O	O	
+9-2	Winter	NN	Winter	_	O	O	
+9-3	über	PTKVZ	über	_	O	O	
+9-4	war	VAFIN	sein	_	O	O	
+9-5	ein	ART	eine	_	O	O	
+9-6	italienischer	ADJA	italienisch	_	O	O	
+9-7	Stipendiat	NN	Stipendiat	_	O	O	
+9-8	,	$,	,	_	O	O	
+9-9	Pigorini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-10	,	$,	,	_	O	O	
+9-11	beim	APPRART	bei	_	O	O	
+9-12	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-13	accreditirt	ADJD	<unknown>	_	O	O	
+9-14	,	$,	,	_	O	O	
+9-15	ein	ART	eine	_	O	O	
+9-16	ganz	ADV	ganz	_	O	O	
+9-17	guter	ADJA	gut	_	O	O	
+9-18	und	KON	und	_	O	O	
+9-19	eifriger	ADJA	eifrig	_	O	O	
+9-20	Mensch,nur	NN	<unknown>	_	O	O	
+9-21	all	PIAT	alle	_	O	O	
+9-22	zu	APPR	zu	_	O	O	
+9-23	sehr	ADV	sehr	_	O	O	
+9-24	in	APPR	in	_	O	O	
+9-25	die	ART	die	_	O	O	
+9-26	Studien	NN	Studie|Studium	_	O	O	
+9-27	der	ART	die	_	O	O	
+9-28	Pfahlbauten	NN	Pfahlbau	_	O	O	
+9-29	und	KON	und	_	O	O	
+9-30	der	ART	die	_	O	O	
+9-31	damit	PAV	damit	_	O	O	
+9-32	zusammenhängenden	ADJA	zusammenhängend	_	O	O	
+9-33	phantastischen	ADJA	phantastisch	_	O	O	
+9-34	Theorien	NN	Theorie	_	O	O	
+9-35	verritten	VVFIN	<unknown>	_	O	O	
+9-36	.	$.	.	_	O	O	
+
+#id=10
+#text=Ein junger Philolog, Piccolomini aus Siena, verkehrte einige Wochen mit uns, ist aber bereits zur Guardia nazionale nobile einberufen.
+10-1	Ein	ART	eine	_	O	O	
+10-2	junger	ADJA	jung	_	O	O	
+10-3	Philolog	NN	<unknown>	_	O	O	
+10-4	,	$,	,	_	O	O	
+10-5	Piccolomini	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-6	aus	APPR	aus	_	O	O	
+10-7	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-8	,	$,	,	_	O	O	
+10-9	verkehrte	VVFIN	verkehren	_	O	O	
+10-10	einige	PIAT	einige	_	O	O	
+10-11	Wochen	NN	Woche	_	O	O	
+10-12	mit	APPR	mit	_	O	O	
+10-13	uns	PPER	wir	_	O	O	
+10-14	,	$,	,	_	O	O	
+10-15	ist	VAFIN	sein	_	O	O	
+10-16	aber	ADV	aber	_	O	O	
+10-17	bereits	ADV	bereits	_	O	O	
+10-18	zur	APPRART	zu	_	O	O	
+10-19	Guardia	NE	<unknown>	_	O	O	
+10-20	nazionale	ADJA	<unknown>	_	O	O	
+10-21	nobile	NN	<unknown>	_	O	O	
+10-22	einberufen	VVPP	einberufen	_	O	O	
+10-23	.	$.	.	_	O	O	
+
+#id=11
+#text=Wir empfinden alle schmerzlich den Mangel eines Centrums, wie es Ihr Haus in so vielen Hinsichten darbot.
+11-1	Wir	PPER	wir	_	O	O	
+11-2	empfinden	VVFIN	empfinden	_	O	O	
+11-3	alle	PIS	alle	_	O	O	
+11-4	schmerzlich	ADJD	schmerzlich	_	O	O	
+11-5	den	ART	die	_	O	O	
+11-6	Mangel	NN	Mangel	_	O	O	
+11-7	eines	ART	eine	_	O	O	
+11-8	Centrums	NN	Centrum	_	O	O	
+11-9	,	$,	,	_	O	O	
+11-10	wie	KOUS	wie	_	O	O	
+11-11	es	PPER	es	_	O	O	
+11-12	Ihr	PPOSAT	ihr	_	O	O	
+11-13	Haus	NN	Haus	_	O	O	
+11-14	in	APPR	in	_	O	O	
+11-15	so	ADV	so	_	O	O	
+11-16	vielen	PIAT	viele	_	O	O	
+11-17	Hinsichten	NN	Hinsicht	_	O	O	
+11-18	darbot	VVFIN	darbieten	_	O	O	
+11-19	.	$.	.	_	O	O	
+
+#id=12
+#text=Ich halte es im Interesse der Ragazzi für meine Pflicht,
+12-1	Ich	PPER	ich	_	O	O	
+12-2	halte	VVFIN	halten	_	O	O	
+12-3	es	PPER	es	_	O	O	
+12-4	im	APPRART	in	_	O	O	
+12-5	Interesse	NN	Interesse	_	O	O	
+12-6	der	ART	die	_	O	O	
+12-7	Ragazzi	NE	<unknown>	_	O	O	
+12-8	für	APPR	für	_	O	O	
+12-9	meine	PPOSAT	mein	_	O	O	
+12-10	Pflicht	NN	Pflicht	_	O	O	
+12-11	,	$,	,	_	O	O	
+

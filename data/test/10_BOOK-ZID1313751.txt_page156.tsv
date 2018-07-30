@@ -1,0 +1,141 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=33 Wolfgang Helbig an Heinrich Brunn Rom, 29. Januar 1831 4 Helbig - Zu Brief 29. Januar 1881 Satyr Palatin : Fundort - Marmor Druck der Urnen : : Kosten Versendung v. Separata des Aufsatzes über den Pileus 1 Helbig Herrn Professor Dr.
+1-1	33	CARD	33	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1831	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	4	CARD	4	_	O	O	
+1-14	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-15	-	$(	-	_	O	O	
+1-16	Zu	APPR	zu	_	O	O	
+1-17	Brief	NN	Brief	_	O	O	
+1-18	29	CARD	@card@	_	O	O	
+1-19	.	$.	.	_	O	O	
+1-20	Januar	NN	Januar	_	O	O	
+1-21	1881	CARD	@card@	_	O	O	
+1-22	Satyr	NN	<unknown>	_	O	O	
+1-23	Palatin	NN	<unknown>	_	O	O	
+1-24	:	$.	:	_	O	O	
+1-25	Fundort	NN	Fundort	_	O	O	
+1-26	-	$(	-	_	O	O	
+1-27	Marmor	NN	Marmor	_	O	O	
+1-28	Druck	NN	Druck	_	O	O	
+1-29	der	ART	die	_	O	O	
+1-30	Urnen	NN	Urne	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-31	:	$.	:	_	O	O	
+1-32	:	$.	:	_	O	O	
+1-33	Kosten	NN	Kosten	_	O	O	
+1-34	Versendung	NN	Versendung	_	O	O	
+1-35	v.	APPR	von	_	O	O	
+1-36	Separata	NN	<unknown>	_	O	O	
+1-37	des	ART	die	_	O	O	
+1-38	Aufsatzes	NN	Aufsatz	_	O	O	
+1-39	über	APPR	über	_	O	O	
+1-40	den	ART	die	_	O	O	
+1-41	Pileus	NN	<unknown>	_	O	O	
+1-42	1	CARD	1	_	O	O	
+1-43	Helbig	ADJD	<unknown>	_	O	O	
+1-44	Herrn	NN	Herr	_	O	O	
+1-45	Professor	NN	Professor	_	O	O	
+1-46	Dr.	NN	Dr.	_	O	O	
+
+#id=2
+#text=Henry Jordan } Herrn Professor Dr.
+2-1	Henry	NE	Henry	_	O	O	
+2-2	Jordan	NE	Jordan	_	O	O	
+2-3	}	$(	}	_	O	O	
+2-4	Herrn	NN	Herr	_	O	O	
+2-5	Professor	NN	Professor	_	O	O	
+2-6	Dr.	NN	Dr.	_	O	O	
+
+#id=3
+#text=Ludwig Friedländer , Herrn Professor Dr.
+3-1	Ludwig	NE	Ludwig	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	Friedländer	NN	Friedland	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-3	,	$,	,	_	O	O	
+3-4	Herrn	NN	Herr	_	O	O	
+3-5	Professor	NN	Professor	_	O	O	
+3-6	Dr.	NN	Dr.	_	O	O	
+
+#id=4
+#text=C. Robert Deßlinger Straße 19 A Herrn Dr.
+4-1	C.	NE	C.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	Robert	NE	Robert	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-3	Deßlinger	NN	<unknown>	_	O	O	
+4-4	Straße	NN	Straße	_	O	O	
+4-5	19	CARD	19	_	O	O	
+4-6	A	NN	A	_	O	O	
+4-7	Herrn	NN	Herr	_	O	O	
+4-8	Dr.	NN	Dr.	_	O	O	
+
+#id=5
+#text=A. Milchhöfer 17 Krausenstraße 111 Herrn Dr.
+5-1	A.	APPRART	am	_	O	O	
+5-2	Milchhöfer	NE	<unknown>	_	O	O	
+5-3	17	CARD	17	_	O	O	
+5-4	Krausenstraße	NN	Krausenstraße	_	O	O	
+5-5	111	CARD	@card@	_	O	O	
+5-6	Herrn	NN	Herr	_	O	O	
+5-7	Dr.	NN	Dr.	_	O	O	
+
+#id=6
+#text=A. Furtwaengler Bureau des kgl.
+6-1	A.	APPRART	am	_	O	O	
+6-2	Furtwaengler	NN	<unknown>	_	O	O	
+6-3	Bureau	NE	<UNKNOWN>	_	O	O	
+6-4	des	ART	die	_	O	O	
+6-5	kgl.	NN	<unknown>	_	O	O	
+
+#id=7
+#text=Museums Königsberg Ostpreußen Berlin Herrn Professor Dr.
+7-1	Museums	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-2	Königsberg	NE	Königsberg	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+7-3	Ostpreußen	NE	Ostpreußen	_	O	O	
+7-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-5	Herrn	NN	Herr	_	O	O	
+7-6	Professor	NN	Professor	_	O	O	
+7-7	Dr.	NN	Dr.	_	O	O	
+
+#id=8
+#text=U. von Wilamowitz Möllendorf Greifsfeld - Pommern Herrn Professor Dr.
+8-1	U.	KON	u.	_	O	O	
+8-2	von	APPR	von	_	O	O	
+8-3	Wilamowitz	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-4	Möllendorf	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-LIT	
+8-5	Greifsfeld	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-LIT	
+8-6	-	$(	-	_	O	O	
+8-7	Pommern	NN	Pommer	_	O	O	
+8-8	Herrn	NN	Herr	_	O	O	
+8-9	Professor	NN	Professor	_	O	O	
+8-10	Dr.	NN	Dr.	_	O	O	
+
+#id=9
+#text=Volquardsen Herrn Dr.
+9-1	Volquardsen	NE	<unknown>	_	O	O	
+9-2	Herrn	NN	Herr	_	O	O	
+9-3	Dr.	NN	Dr.	_	O	O	
+
+#id=10
+#text=Gustav Körte Göttingen Herrn Professor Dr.
+10-1	Gustav	NE	Gustav	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	Körte	NN	<unknown>	_	O	O	
+10-3	Göttingen	NE	Göttingen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-4	Herrn	NN	Herr	_	O	O	
+10-5	Professor	NN	Professor	_	O	O	
+10-6	Dr.	NN	Dr.	_	O	O	
+
+#id=11
+#text=Johannes Overbeck Leipzig
+11-1	Johannes	NE	Johannes	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	Overbeck	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-3	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+

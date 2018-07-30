@@ -1,0 +1,266 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 sucht.
+1-1	2	CARD	2	_	O	O	
+1-2	sucht	VVFIN	suchen	_	O	O	
+1-3	.	$.	.	_	O	O	
+
+#id=2
+#text=2 Wolf gang Helbig an Heinrich Brunn Rom, 22. August 1865 Von Rom giebt es nicht viel Neues.
+2-1	2	CARD	2	_	O	O	
+2-2	Wolf	NN	Wolf	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-3	gang	ADJD	gang	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-5	an	APPR	an	_	O	O	
+2-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+2-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-9	,	$,	,	_	O	O	
+2-10	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-13	1865	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-14	Von	APPR	von	_	O	O	
+2-15	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-16	giebt	VVFIN	<unknown>	_	O	O	
+2-17	es	PPER	es	_	O	O	
+2-18	nicht	PTKNEG	nicht	_	O	O	
+2-19	viel	PIAT	viele	_	O	O	
+2-20	Neues	NN	Neue	_	O	O	
+2-21	.	$.	.	_	O	O	
+
+#id=3
+#text=Nino und Mariuccia, deren Bedrängniß gegenwärtig etwas nachgelassen hat, grüßen und danken herzlich für den verabreichten Au, gustscudo.
+3-1	Nino	NE	Nino	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	und	KON	und	_	O	O	
+3-3	Mariuccia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-4	,	$,	,	_	O	O	
+3-5	deren	PRELAT	die	_	O	O	
+3-6	Bedrängniß	NN	<unknown>	_	O	O	
+3-7	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+3-8	etwas	ADV	etwas	_	O	O	
+3-9	nachgelassen	VVPP	nachlassen	_	O	O	
+3-10	hat	VAFIN	haben	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	grüßen	VVINF	grüßen	_	O	O	
+3-13	und	KON	und	_	O	O	
+3-14	danken	VVFIN	danken	_	O	O	
+3-15	herzlich	ADJD	herzlich	_	O	O	
+3-16	für	APPR	für	_	O	O	
+3-17	den	ART	die	_	O	O	
+3-18	verabreichten	ADJA	verabreicht	_	O	O	
+3-19	Au	NE	Au	_	O	O	
+3-20	,	$,	,	_	O	O	
+3-21	gustscudo	NE	<unknown>	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=Vorgestern ist Lübbert eingetroffen, um übermorgen nach Florenz abzureisen; seine gießener Angelegenheit ist günstig entschieden.
+4-1	Vorgestern	ADV	vorgestern	_	O	O	
+4-2	ist	VAFIN	sein	_	O	O	
+4-3	Lübbert	NE	Lübbert	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-4	eingetroffen	VVPP	eintreffen	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	um	KOUI	um	_	O	O	
+4-7	übermorgen	ADV	übermorgen	_	O	O	
+4-8	nach	APPR	nach	_	O	O	
+4-9	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-10	abzureisen	VVIZU	abreisen	_	O	O	
+4-11	;	$.	;	_	O	O	
+4-12	seine	PPOSAT	sein	_	O	O	
+4-13	gießener	ADJA	<unknown>	_	O	O	
+4-14	Angelegenheit	NN	Angelegenheit	_	O	O	
+4-15	ist	VAFIN	sein	_	O	O	
+4-16	günstig	ADJD	günstig	_	O	O	
+4-17	entschieden	VVPP	entscheiden	_	O	O	
+4-18	.	$.	.	_	O	O	
+
+#id=5
+#text=Kekule, der einzige, welcher standhaft hier aushält, arbeitet an einem bei Engelmann besonders zu publicirenden Aufsatz über Hebe, dem ein Stich des Meyerschen KBpfchens beigegeben werden soll.
+5-1	Kekule	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	,	$,	,	_	O	O	
+5-3	der	ART	die	_	O	O	
+5-4	einzige	ADJA	einzig	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	welcher	PRELS	welche	_	O	O	
+5-7	standhaft	ADJD	standhaft	_	O	O	
+5-8	hier	ADV	hier	_	O	O	
+5-9	aushält	VVFIN	aushalten	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	arbeitet	VVFIN	arbeiten	_	O	O	
+5-12	an	APPR	an	_	O	O	
+5-13	einem	ART	eine	_	O	O	
+5-14	bei	APPR	bei	_	O	O	
+5-15	Engelmann	NE	Engelmann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-16	besonders	ADV	besonders	_	O	O	
+5-17	zu	APPR	zu	_	O	O	
+5-18	publicirenden	ADJA	<unknown>	_	O	O	
+5-19	Aufsatz	NN	Aufsatz	_	O	O	
+5-20	über	APPR	über	_	O	O	
+5-21	Hebe	NE	Hebe	_	O	O	
+5-22	,	$,	,	_	O	O	
+5-23	dem	PRELS	die	_	O	O	
+5-24	ein	ART	eine	_	O	O	
+5-25	Stich	NN	Stich	_	O	O	
+5-26	des	ART	die	_	O	O	
+5-27	Meyerschen	ADJA	<unknown>	_	O	O	
+5-28	KBpfchens	NN	<unknown>	_	O	O	
+5-29	beigegeben	VVPP	beigeben	_	O	O	
+5-30	werden	VAINF	werden	_	O	O	
+5-31	soll	VMFIN	sollen	_	O	O	
+5-32	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich selbst schreibe über die paestaner Gemälde, welche bei dem Mangel an analogen Material kunsthistorisch schwer zu klassificiren sind.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	selbst	ADV	selbst	_	O	O	
+6-3	schreibe	VVFIN	schreiben	_	O	O	
+6-4	über	APPR	über	_	O	O	
+6-5	die	ART	die	_	O	O	
+6-6	paestaner	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-7	Gemälde	NN	Gemälde	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-8	,	$,	,	_	O	O	
+6-9	welche	PRELS	welche	_	O	O	
+6-10	bei	APPR	bei	_	O	O	
+6-11	dem	ART	die	_	O	O	
+6-12	Mangel	NN	Mangel	_	O	O	
+6-13	an	APPR	an	_	O	O	
+6-14	analogen	ADJA	analog	_	O	O	
+6-15	Material	NN	Material	_	O	O	
+6-16	kunsthistorisch	ADJD	kunsthistorisch	_	O	O	
+6-17	schwer	ADJD	schwer	_	O	O	
+6-18	zu	PTKZU	zu	_	O	O	
+6-19	klassificiren	ADJA	<unknown>	_	O	O	
+6-20	sind	VAFIN	sein	_	O	O	
+6-21	.	$.	.	_	O	O	
+
+#id=7
+#text=In Südetrurien d. h. in Viterbo und Vetralla sind zwei sehr biereifrige Korrispondenten angeworben, welche das Institut mit Neuigkeiten geradezu überschütten.
+7-1	In	APPR	in	_	O	O	
+7-2	Südetrurien	NN	<unknown>	_	O	O	
+7-3	d.	PDS	d.	_	O	O	
+7-4	h.	VVFIN	heißen	_	O	O	
+7-5	in	APPR	in	_	O	O	
+7-6	Viterbo	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-7	und	KON	und	_	O	O	
+7-8	Vetralla	NE	<unknown>	_	O	O	
+7-9	sind	VAFIN	sein	_	O	O	
+7-10	zwei	CARD	zwei	_	O	O	
+7-11	sehr	ADV	sehr	_	O	O	
+7-12	biereifrige	ADJA	<unknown>	_	O	O	
+7-13	Korrispondenten	NN	<unknown>	_	O	O	
+7-14	angeworben	VVPP	anwerben	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	welche	PRELS	welche	_	O	O	
+7-17	das	ART	die	_	O	O	
+7-18	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-19	mit	APPR	mit	_	O	O	
+7-20	Neuigkeiten	NN	Neuigkeit	_	O	O	
+7-21	geradezu	ADV	geradezu	_	O	O	
+7-22	überschütten	VVINF	überschütten	_	O	O	
+7-23	.	$.	.	_	O	O	
+
+#id=8
+#text=Sowie Henzen zurück ist, werde ich mich an Ort und Stelle verfügen, um die ~~~ten zu vermerken.
+8-1	Sowie	KON	sowie	_	O	O	
+8-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	zurück	PTKVZ	zurück	_	O	O	
+8-4	ist	VAFIN	sein	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	werde	VAFIN	werden	_	O	O	
+8-7	ich	PPER	ich	_	O	O	
+8-8	mich	PRF	ich	_	O	O	
+8-9	an	APPR	an	_	O	O	
+8-10	Ort	NN	Ort	_	O	O	
+8-11	und	KON	und	_	O	O	
+8-12	Stelle	NN	Stelle	_	O	O	
+8-13	verfügen	VVINF	verfügen	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	um	KOUI	um	_	O	O	
+8-16	die	ART	die	_	O	O	
+8-17	~~~ten	NN	<unknown>	_	O	O	
+8-18	zu	PTKZU	zu	_	O	O	
+8-19	vermerken	VVINF	vermerken	_	O	O	
+8-20	.	$.	.	_	O	O	
+
+#id=9
+#text=Die in Vetralla gefun- --'""' .. ~-~- -'.- denen Sarkophage sind für billiges Geld zu haben.
+9-1	Die	ART	die	_	O	O	
+9-2	in	APPR	in	_	O	O	
+9-3	Vetralla	NE	<unknown>	_	O	O	
+9-4	gefun-	VVPP	<unknown>	_	O	O	
+9-5	--	$(	--	_	O	O	
+9-6	'	$(	'	_	O	O	
+9-7	"	$(	"	_	O	O	
+9-8	"	$(	"	_	O	O	
+9-9	'	$(	'	_	O	O	
+9-10	.	$.	.	_	O	O	
+9-11	.	$.	.	_	O	O	
+9-12	~-~-	ADJA	<unknown>	_	O	O	
+9-13	-'.-	TRUNC	<unknown>	_	O	O	
+9-14	denen	PRELS	die	_	O	O	
+9-15	Sarkophage	NN	Sarkophag	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-16	sind	VAFIN	sein	_	O	O	
+9-17	für	APPR	für	_	O	O	
+9-18	billiges	ADJA	billig	_	O	O	
+9-19	Geld	NN	Geld	_	O	O	
+9-20	zu	PTKZU	zu	_	O	O	
+9-21	haben	VAINF	haben	_	O	O	
+9-22	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich habe zu diesem Zwecke Photographien derselben nach Berlin an Olfers geschickt und bitte Sie, sich dieselben zeigen zu lassen und Anweisungen zu geben betreffs der Zeichnung.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	habe	VAFIN	haben	_	O	O	
+10-3	zu	APPR	zu	_	O	O	
+10-4	diesem	PDAT	dies	_	O	O	
+10-5	Zwecke	NN	Zweck	_	O	O	
+10-6	Photographien	NN	Photographie	_	O	O	
+10-7	derselben	PDAT	dieselb	_	O	O	
+10-8	nach	APPR	nach	_	O	O	
+10-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-10	an	APPR	an	_	O	O	
+10-11	Olfers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-12	geschickt	ADJD	geschickt	_	O	O	
+10-13	und	KON	und	_	O	O	
+10-14	bitte	VVFIN	bitten	_	O	O	
+10-15	Sie	PPER	Sie	_	O	O	
+10-16	,	$,	,	_	O	O	
+10-17	sich	PRF	sich	_	O	O	
+10-18	dieselben	PDS	dieselbe	_	O	O	
+10-19	zeigen	VVINF	zeigen	_	O	O	
+10-20	zu	PTKZU	zu	_	O	O	
+10-21	lassen	VVINF	lassen	_	O	O	
+10-22	und	KON	und	_	O	O	
+10-23	Anweisungen	NN	Anweisung	_	O	O	
+10-24	zu	PTKZU	zu	_	O	O	
+10-25	geben	VVINF	geben	_	O	O	
+10-26	betreffs	VVFIN	<unknown>	_	O	O	
+10-27	der	ART	die	_	O	O	
+10-28	Zeichnung	NN	Zeichnung	_	O	O	
+10-29	.	$.	.	_	O	O	
+
+#id=11
+#text=Baldigst mehr.
+11-1	Baldigst	ADJD	baldig	_	O	O	
+11-2	mehr	ADV	mehr	_	O	O	
+11-3	.	$.	.	_	O	O	
+
+#id=12
+#text=Mit der Bitte, die Frau Professorin und Ermanno herzlich zu grüßen Ihr Wolfgang Helbig
+12-1	Mit	APPR	mit	_	O	O	
+12-2	der	ART	die	_	O	O	
+12-3	Bitte	NN	Bitte	_	O	O	
+12-4	,	$,	,	_	O	O	
+12-5	die	ART	die	_	O	O	
+12-6	Frau	NN	Frau	_	O	O	
+12-7	Professorin	NN	Professorin	_	O	O	
+12-8	und	KON	und	_	O	O	
+12-9	Ermanno	NE	Ermanno	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-10	herzlich	ADJD	herzlich	_	O	O	
+12-11	zu	PTKZU	zu	_	O	O	
+12-12	grüßen	VVINF	grüßen	_	O	O	
+12-13	Ihr	PPOSAT	ihr	_	O	O	
+12-14	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+12-15	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

@@ -1,0 +1,281 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an ~~, Rom, 30. Juli 1863 r.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	~~	NN	<unknown>	_	O	O	
+1-4	,	$,	,	_	O	O	
+1-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	r.	VVFIN	<unknown>	_	O	O	
+
+#id=2
+#text=Rom 30 Juli 1863 Geehrtester Herr Professor Eingegangen ein Artikel von Cavedoni handelnd über 11ünzen, welche die Statue von Prima Porta erläutern.
+2-1	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-2	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-3	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-4	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-5	Geehrtester	ADJA	<unknown>	_	O	O	
+2-6	Herr	NN	Herr	_	O	O	
+2-7	Professor	NN	Professor	_	O	O	
+2-8	Eingegangen	NN	<unknown>	_	O	O	
+2-9	ein	ART	eine	_	O	O	
+2-10	Artikel	NN	Artikel	_	O	O	
+2-11	von	APPR	von	_	O	O	
+2-12	Cavedoni	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-13	handelnd	ADJD	handelnd	_	O	O	
+2-14	über	APPR	über	_	O	O	
+2-15	11ünzen	NN	<unknown>	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	welche	PRELS	welche	_	O	O	
+2-18	die	ART	die	_	O	O	
+2-19	Statue	NN	Statue	_	B-webanno.custom.LetterEntity_	B-OBJ	
+2-20	von	APPR	von	_	O	O	
+2-21	Prima	NN	Prima	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-22	Porta	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+2-23	erläutern	VVFIN	erläutern	_	O	O	
+2-24	.	$.	.	_	O	O	
+
+#id=3
+#text=Dabei beiliegende Zeilen für Sie.
+3-1	Dabei	PAV	dabei	_	O	O	
+3-2	beiliegende	ADJA	beiliegend	_	O	O	
+3-3	Zeilen	NN	Zeile	_	O	O	
+3-4	für	APPR	für	_	O	O	
+3-5	Sie	PPER	Sie	_	O	O	
+3-6	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Drucksachen werden Sie wohl erhalten haben.
+4-1	Die	ART	die	_	O	O	
+4-2	Drucksachen	NN	Drucksache	_	O	O	
+4-3	werden	VAFIN	werden	_	O	O	
+4-4	Sie	PPER	Sie	_	O	O	
+4-5	wohl	ADV	wohl	_	O	O	
+4-6	erhalten	VVPP	erhalten	_	O	O	
+4-7	haben	VAINF	haben	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=Meinen Dank für die Tafeln.
+5-1	Meinen	PPOSAT	mein	_	O	O	
+5-2	Dank	NN	Dank	_	O	O	
+5-3	für	APPR	für	_	O	O	
+5-4	die	ART	die	_	O	O	
+5-5	Tafeln	NN	Tafel	_	O	O	
+5-6	.	$.	.	_	O	O	
+
+#id=6
+#text=Ein Brief an Henzen von einem Franzosen Namens Pagee ersuchte diesen um ein Exemplar des Bullettino vom April.
+6-1	Ein	ART	eine	_	O	O	
+6-2	Brief	NN	Brief	_	O	O	
+6-3	an	APPR	an	_	O	O	
+6-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	von	APPR	von	_	O	O	
+6-6	einem	ART	eine	_	O	O	
+6-7	Franzosen	NN	Franzose	_	O	O	
+6-8	Namens	APPR	namens	_	O	O	
+6-9	Pagee	NN	<unknown>	_	O	O	
+6-10	ersuchte	VVFIN	ersuchen	_	O	O	
+6-11	diesen	PDS	diese	_	O	O	
+6-12	um	APPR	um	_	O	O	
+6-13	ein	ART	eine	_	O	O	
+6-14	Exemplar	NN	Exemplar	_	O	O	
+6-15	des	ART	die	_	O	O	
+6-16	Bullettino	NN	<unknown>	_	O	O	
+6-17	vom	APPRART	von	_	O	O	
+6-18	April	NN	April	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich habe es ihm geschickt.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	habe	VAFIN	haben	_	O	O	
+7-3	es	PPER	es	_	O	O	
+7-4	ihm	PPER	er	_	O	O	
+7-5	geschickt	VVPP	schicken	_	O	O	
+7-6	.	$.	.	_	O	O	
+
+#id=8
+#text=Sind Sie damit einverstanden?
+8-1	Sind	VAFIN	sein	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	damit	PAV	damit	_	O	O	
+8-4	einverstanden	VVPP	einverstehen	_	O	O	
+8-5	?	$.	?	_	O	O	
+
+#id=9
+#text=Wie soll ich es überhaupt mit derartigen Wünschen halten?
+9-1	Wie	KOUS	wie	_	O	O	
+9-2	soll	VMFIN	sollen	_	O	O	
+9-3	ich	PPER	ich	_	O	O	
+9-4	es	PPER	es	_	O	O	
+9-5	überhaupt	ADV	überhaupt	_	O	O	
+9-6	mit	APPR	mit	_	O	O	
+9-7	derartigen	ADJA	derartig	_	O	O	
+9-8	Wünschen	NN	Wunsch	_	O	O	
+9-9	halten	VVINF	halten	_	O	O	
+9-10	?	$.	?	_	O	O	
+
+#id=10
+#text=Eben erhalte ich einen Brief von Bergen, worin dieser vier Bullettini verlangt.
+10-1	Eben	ADV	eben	_	O	O	
+10-2	erhalte	VVFIN	erhalten	_	O	O	
+10-3	ich	PPER	ich	_	O	O	
+10-4	einen	ART	eine	_	O	O	
+10-5	Brief	NN	Brief	_	O	O	
+10-6	von	APPR	von	_	O	O	
+10-7	Bergen	NN	Berg|Bergen	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	worin	PWAV	worin	_	O	O	
+10-10	dieser	PDAT	dies	_	O	O	
+10-11	vier	CARD	vier	_	O	O	
+10-12	Bullettini	NN	<unknown>	_	O	O	
+10-13	verlangt	VVPP	verlangen	_	O	O	
+10-14	.	$.	.	_	O	O	
+
+#id=11
+#text=Von diesem habe ich Geld liegen.
+11-1	Von	APPR	von	_	O	O	
+11-2	diesem	PDAT	dies	_	O	O	
+11-3	habe	VAFIN	haben	_	O	O	
+11-4	ich	PPER	ich	_	O	O	
+11-5	Geld	NN	Geld	_	O	O	
+11-6	liegen	VVINF	liegen	_	O	O	
+11-7	.	$.	.	_	O	O	
+
+#id=12
+#text=Also kann ich sie für ihn bezahlen.
+12-1	Also	ADV	also	_	O	O	
+12-2	kann	VMFIN	können	_	O	O	
+12-3	ich	PPER	ich	_	O	O	
+12-4	sie	PPER	sie	_	O	O	
+12-5	für	APPR	für	_	O	O	
+12-6	ihn	PPER	er	_	O	O	
+12-7	bezahlen	VVINF	bezahlen	_	O	O	
+12-8	.	$.	.	_	O	O	
+
+#id=13
+#text=Die Zeichnungen in der Loggia scoperta erklärt Rossi bei der Hitze nicht machen zu können.
+13-1	Die	ART	die	_	O	O	
+13-2	Zeichnungen	NN	Zeichnung	_	O	O	
+13-3	in	APPR	in	_	O	O	
+13-4	der	ART	die	_	O	O	
+13-5	Loggia	NE	<unknown>	_	O	O	
+13-6	scoperta	NE	<unknown>	_	O	O	
+13-7	erklärt	VVFIN	erklären	_	O	O	
+13-8	Rossi	NE	Rossi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-9	bei	APPR	bei	_	O	O	
+13-10	der	ART	die	_	O	O	
+13-11	Hitze	NN	Hitze	_	O	O	
+13-12	nicht	PTKNEG	nicht	_	O	O	
+13-13	machen	VVINF	machen	_	O	O	
+13-14	zu	PTKZU	zu	_	O	O	
+13-15	können	VMINF	können	_	O	O	
+13-16	.	$.	.	_	O	O	
+
+#id=14
+#text=Als er sie neulich anfing, wurde er ohnmächtig.
+14-1	Als	KOUS	als	_	O	O	
+14-2	er	PPER	er	_	O	O	
+14-3	sie	PPER	sie	_	O	O	
+14-4	neulich	ADV	neulich	_	O	O	
+14-5	anfing	VVFIN	anfangen	_	O	O	
+14-6	,	$,	,	_	O	O	
+14-7	wurde	VAFIN	werden	_	O	O	
+14-8	er	PPER	er	_	O	O	
+14-9	ohnmächtig	ADJD	ohnmächtig	_	O	O	
+14-10	.	$.	.	_	O	O	
+
+#id=15
+#text=Ich gehe sofort zu ihm, um ihn wegen der in der Villa Borghese zu vollführenden Zeichnungen zur Eile zu treiben.
+15-1	Ich	PPER	ich	_	O	O	
+15-2	gehe	VVFIN	gehen	_	O	O	
+15-3	sofort	ADV	sofort	_	O	O	
+15-4	zu	APPR	zu	_	O	O	
+15-5	ihm	PPER	er	_	O	O	
+15-6	,	$,	,	_	O	O	
+15-7	um	KOUI	um	_	O	O	
+15-8	ihn	PPER	er	_	O	O	
+15-9	wegen	APPR	wegen	_	O	O	
+15-10	der	ART	die	_	O	O	
+15-11	in	APPR	in	_	O	O	
+15-12	der	ART	die	_	O	O	
+15-13	Villa	NN	Villa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+15-14	Borghese	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+15-15	zu	APPR	zu	_	O	O	
+15-16	vollführenden	ADJA	<unknown>	_	O	O	
+15-17	Zeichnungen	NN	Zeichnung	_	O	O	
+15-18	zur	APPRART	zu	_	O	O	
+15-19	Eile	NN	Eile	_	O	O	
+15-20	zu	PTKZU	zu	_	O	O	
+15-21	treiben	VVINF	treiben	_	O	O	
+15-22	.	$.	.	_	O	O	
+
+#id=16
+#text=Augenblicklich lasse ich am Julibullettino drucken.
+16-1	Augenblicklich	ADJD	augenblicklich	_	O	O	
+16-2	lasse	VVFIN	lassen	_	O	O	
+16-3	ich	PPER	ich	_	O	O	
+16-4	am	APPRART	an	_	O	O	
+16-5	Julibullettino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+16-6	drucken	VVINF	drucken	_	O	O	
+16-7	.	$.	.	_	O	O	
+
+#id=17
+#text=Soll nicht nach' Hübners Circus rennen Köhlers Aufsatz über die Basis Pamfili folgen '?
+17-1	Soll	VMFIN	sollen	_	O	O	
+17-2	nicht	PTKNEG	nicht	_	O	O	
+17-3	nach	APPR	nach	_	O	O	
+17-4	'	$(	'	_	O	O	
+17-5	Hübners	NE	Hübner	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-6	Circus	NE	<unknown>	_	O	O	
+17-7	rennen	VVFIN	rennen	_	O	O	
+17-8	Köhlers	NE	Köhler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-9	Aufsatz	NN	Aufsatz	_	O	O	
+17-10	über	APPR	über	_	O	O	
+17-11	die	ART	die	_	O	O	
+17-12	Basis	NN	Basis	_	B-webanno.custom.LetterEntity_	B-OBJ	
+17-13	Pamfili	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+17-14	folgen	VVFIN	folgen	_	O	O	
+17-15	'	$(	'	_	O	O	
+17-16	?	$.	?	_	O	O	
+
+#id=18
+#text=Köhler wünscht möglichste Beschleunigung des Drucks.
+18-1	Köhler	NE	Köhler	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-2	wünscht	VVFIN	wünschen	_	O	O	
+18-3	möglichste	ADJA	möglich	_	O	O	
+18-4	Beschleunigung	NN	Beschleunigung	_	O	O	
+18-5	des	ART	die	_	O	O	
+18-6	Drucks	NN	Druck	_	O	O	
+18-7	.	$.	.	_	O	O	
+
+#id=19
+#text=Ich werde Santini fragen, ob er den Aufsatz schon revidirt hat, wo nicht denselben ihm zur Revision überantworten.
+19-1	Ich	PPER	ich	_	O	O	
+19-2	werde	VAFIN	werden	_	O	O	
+19-3	Santini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+19-4	fragen	VVINF	fragen	_	O	O	
+19-5	,	$,	,	_	O	O	
+19-6	ob	KOUS	ob	_	O	O	
+19-7	er	PPER	er	_	O	O	
+19-8	den	ART	die	_	O	O	
+19-9	Aufsatz	NN	Aufsatz	_	O	O	
+19-10	schon	ADV	schon	_	O	O	
+19-11	revidirt	NN	<unknown>	_	O	O	
+19-12	hat	VAFIN	haben	_	O	O	
+19-13	,	$,	,	_	O	O	
+19-14	wo	PWAV	wo	_	O	O	
+19-15	nicht	PTKNEG	nicht	_	O	O	
+19-16	denselben	PDAT	derselb	_	O	O	
+19-17	ihm	PPER	er	_	O	O	
+19-18	zur	APPRART	zu	_	O	O	
+19-19	Revision	NN	Revision	_	O	O	
+19-20	überantworten	VVINF	überantworten	_	O	O	
+19-21	.	$.	.	_	O	O	
+

@@ -1,0 +1,239 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Lieber Herr Professor, Helbig an Brunn ohne Ort 12/11/1881 r.
+1-1	Lieber	ADJA	lieb	_	O	O	
+1-2	Herr	NN	Herr	_	O	O	
+1-3	Professor	NN	Professor	_	O	O	
+1-4	,	$,	,	_	O	O	
+1-5	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	ohne	APPR	ohne	_	O	O	
+1-9	Ort	NN	Ort	_	O	O	
+1-10	12/11/1881	CARD	@card@	_	O	O	
+1-11	r.	VVFIN	<unknown>	_	O	O	
+
+#id=2
+#text=18/11/1881 12. Februar 1881 In Begriff morgen nach Corneto abzureisen, wo ich vielleicht zwei Tage bleiben und von wo aus ich vielleicht noch nach Vulci gehen werde, will ich Ihren Brief vom 9. nicht ohne Antwort lassen.
+2-1	18/11/1881	CARD	@card@	_	O	O	
+2-2	12	CARD	12	_	O	O	
+2-3	.	$.	.	_	O	O	
+2-4	Februar	NN	Februar	_	O	O	
+2-5	1881	CARD	@card@	_	O	O	
+2-6	In	APPR	in	_	O	O	
+2-7	Begriff	NN	Begriff	_	O	O	
+2-8	morgen	ADV	morgen	_	O	O	
+2-9	nach	APPR	nach	_	O	O	
+2-10	Corneto	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-11	abzureisen	VVIZU	abreisen	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	wo	PWAV	wo	_	O	O	
+2-14	ich	PPER	ich	_	O	O	
+2-15	vielleicht	ADV	vielleicht	_	O	O	
+2-16	zwei	CARD	zwei	_	O	O	
+2-17	Tage	NN	Tag	_	O	O	
+2-18	bleiben	VVINF	bleiben	_	O	O	
+2-19	und	KON	und	_	O	O	
+2-20	von	APPR	von	_	O	O	
+2-21	wo	PWAV	wo	_	O	O	
+2-22	aus	APPR	aus	_	O	O	
+2-23	ich	PPER	ich	_	O	O	
+2-24	vielleicht	ADV	vielleicht	_	O	O	
+2-25	noch	ADV	noch	_	O	O	
+2-26	nach	APPR	nach	_	O	O	
+2-27	Vulci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-28	gehen	VVINF	gehen	_	O	O	
+2-29	werde	VAFIN	werden	_	O	O	
+2-30	,	$,	,	_	O	O	
+2-31	will	VMFIN	wollen	_	O	O	
+2-32	ich	PPER	ich	_	O	O	
+2-33	Ihren	PPOSAT	ihr	_	O	O	
+2-34	Brief	NN	Brief	_	O	O	
+2-35	vom	APPRART	von	_	O	O	
+2-36	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-37	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-38	nicht	PTKNEG	nicht	_	O	O	
+2-39	ohne	APPR	ohne	_	O	O	
+2-40	Antwort	NN	Antwort	_	O	O	
+2-41	lassen	VVFIN	lassen	_	O	O	
+2-42	.	$.	.	_	O	O	
+
+#id=3
+#text=Über den Nutzen und den Modus der Photographiensammlung stimme ich in jeder Hinsicht mit Ihnen überein.
+3-1	Über	APPR	über	_	O	O	
+3-2	den	ART	die	_	O	O	
+3-3	Nutzen	NN	Nutzen	_	O	O	
+3-4	und	KON	und	_	O	O	
+3-5	den	ART	die	_	O	O	
+3-6	Modus	NN	Modus	_	O	O	
+3-7	der	ART	die	_	O	O	
+3-8	Photographiensammlung	NN	<unknown>	_	O	O	
+3-9	stimme	VVFIN	stimmen	_	O	O	
+3-10	ich	PPER	ich	_	O	O	
+3-11	in	APPR	in	_	O	O	
+3-12	jeder	PIAT	jede	_	O	O	
+3-13	Hinsicht	NN	Hinsicht	_	O	O	
+3-14	mit	APPR	mit	_	O	O	
+3-15	Ihnen	PPER	Sie	_	O	O	
+3-16	überein	PTKVZ	überein	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Nichts desto weniger aber steht der sOfortigen Inangriffnahme der Sammlung eine unübersteigliche Schwierigkeit entgegen.
+4-1	Nichts	PIAT	nichts	_	O	O	
+4-2	desto	KON	desto	_	O	O	
+4-3	weniger	ADV	weniger	_	O	O	
+4-4	aber	ADV	aber	_	O	O	
+4-5	steht	VVFIN	stehen	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	sOfortigen	ADJA	sofortig	_	O	O	
+4-8	Inangriffnahme	NN	Inangriffnahme	_	O	O	
+4-9	der	ART	die	_	O	O	
+4-10	Sammlung	NN	Sammlung	_	O	O	
+4-11	eine	ART	eine	_	O	O	
+4-12	unübersteigliche	ADJA	<unknown>	_	O	O	
+4-13	Schwierigkeit	NN	Schwierigkeit	_	O	O	
+4-14	entgegen	PTKVZ	entgegen	_	O	O	
+4-15	.	$.	.	_	O	O	
+
+#id=5
+#text=In dem neuen GebäThde nämlich halten sich die Photographien nicht.
+5-1	In	APPR	in	_	O	O	
+5-2	dem	ART	die	_	O	O	
+5-3	neuen	ADJA	neu	_	O	O	
+5-4	GebäThde	NN	<unknown>	_	O	O	
+5-5	nämlich	ADV	nämlich	_	O	O	
+5-6	halten	VVFIN	halten	_	O	O	
+5-7	sich	PRF	sich	_	O	O	
+5-8	die	ART	die	_	O	O	
+5-9	Photographien	NN	Photographie	_	O	O	
+5-10	nicht	PTKNEG	nicht	_	O	O	
+5-11	.	$.	.	_	O	O	
+
+#id=6
+#text=Begreiflicher Weise brachte ich die dem Institute gehörigen Photographien zunächst in dem Apparatzimmer unter.
+6-1	Begreiflicher	ADJA	begreiflich	_	O	O	
+6-2	Weise	NN	Weise	_	O	O	
+6-3	brachte	VVFIN	bringen	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	die	PDS	die	_	O	O	
+6-6	dem	ART	die	_	O	O	
+6-7	Institute	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-8	gehörigen	ADJA	gehörig	_	O	O	
+6-9	Photographien	NN	Photographie	_	O	O	
+6-10	zunächst	ADV	zunächst	_	O	O	
+6-11	in	APPR	in	_	O	O	
+6-12	dem	ART	die	_	O	O	
+6-13	Apparatzimmer	NN	<unknown>	_	O	O	
+6-14	unter	PTKVZ	unter	_	O	O	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=Als ich im Herbst 1879 aus der Villegiatur zurückkehrte, sah ich zu meinem größten Schrecken, daß sie samt und sonders gelitten hatten.
+7-1	Als	KOUS	als	_	O	O	
+7-2	ich	PPER	ich	_	O	O	
+7-3	im	APPRART	in	_	O	O	
+7-4	Herbst	NN	Herbst	_	O	O	
+7-5	1879	CARD	1879	_	O	O	
+7-6	aus	APPR	aus	_	O	O	
+7-7	der	ART	die	_	O	O	
+7-8	Villegiatur	NN	<unknown>	_	O	O	
+7-9	zurückkehrte	VVFIN	zurückkehren	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	sah	VVFIN	sehen	_	O	O	
+7-12	ich	PPER	ich	_	O	O	
+7-13	zu	APPR	zu	_	O	O	
+7-14	meinem	PPOSAT	mein	_	O	O	
+7-15	größten	ADJA	groß	_	O	O	
+7-16	Schrecken	NN	Schrecken	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	daß	KOUS	dass	_	O	O	
+7-19	sie	PPER	sie	_	O	O	
+7-20	samt	APPR	samt	_	O	O	
+7-21	und	KON	und	_	O	O	
+7-22	sonders	ADV	sonders	_	O	O	
+7-23	gelitten	VVPP	leiden	_	O	O	
+7-24	hatten	VAFIN	haben	_	O	O	
+7-25	.	$.	.	_	O	O	
+
+#id=8
+#text=Die Caldesi'schen Photographien (London) waren quittegelb und ganz verschwommen geworden.
+8-1	Die	ART	die	_	O	O	
+8-2	Caldesi'schen	ADJA	<unknown>	_	O	O	
+8-3	Photographien	NN	Photographie	_	O	O	
+8-4	(	$(	(	_	O	O	
+8-5	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-6	)	$(	)	_	O	O	
+8-7	waren	VAFIN	sein	_	O	O	
+8-8	quittegelb	ADJD	<unknown>	_	O	O	
+8-9	und	KON	und	_	O	O	
+8-10	ganz	ADJD	ganz	_	O	O	
+8-11	verschwommen	VVPP	verschwimmen	_	O	O	
+8-12	geworden	VAPP	werden	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Am Leidlichsten hatten sich noch die römischen erhalten - aber auch die zeigten allerlei unangenehme Modificationen.
+9-1	Am	APPRART	an	_	O	O	
+9-2	Leidlichsten	NN	<unknown>	_	O	O	
+9-3	hatten	VAFIN	haben	_	O	O	
+9-4	sich	PRF	sich	_	O	O	
+9-5	noch	ADV	noch	_	O	O	
+9-6	die	ART	die	_	O	O	
+9-7	römischen	ADJA	römisch	_	O	O	
+9-8	erhalten	VVPP	erhalten	_	O	O	
+9-9	-	$(	-	_	O	O	
+9-10	aber	KON	aber	_	O	O	
+9-11	auch	ADV	auch	_	O	O	
+9-12	die	PDS	die	_	O	O	
+9-13	zeigten	VVFIN	zeigen	_	O	O	
+9-14	allerlei	PIAT	allerlei	_	O	O	
+9-15	unangenehme	ADJA	unangenehm	_	O	O	
+9-16	Modificationen	NN	<unknown>	_	O	O	
+9-17	.	$.	.	_	O	O	
+
+#id=10
+#text=Der verschiedene Grad der Zerstörung mag wohl von den verschiedenen Chemi~alien herrühren; welche bei der Herstellung der Negativen zur Anwendung gekommen sind.
+10-1	Der	ART	die	_	O	O	
+10-2	verschiedene	ADJA	verschieden	_	O	O	
+10-3	Grad	NN	Grad	_	O	O	
+10-4	der	ART	die	_	O	O	
+10-5	Zerstörung	NN	Zerstörung	_	O	O	
+10-6	mag	VMFIN	mögen	_	O	O	
+10-7	wohl	ADV	wohl	_	O	O	
+10-8	von	APPR	von	_	O	O	
+10-9	den	ART	die	_	O	O	
+10-10	verschiedenen	ADJA	verschieden	_	O	O	
+10-11	Chemi~alien	NN	<unknown>	_	O	O	
+10-12	herrühren	VVINF	herrühren	_	O	O	
+10-13	;	$.	;	_	O	O	
+10-14	welche	PWS	welche	_	O	O	
+10-15	bei	APPR	bei	_	O	O	
+10-16	der	ART	die	_	O	O	
+10-17	Herstellung	NN	Herstellung	_	O	O	
+10-18	der	ART	die	_	O	O	
+10-19	Negativen	NN	Negativ|Negative	_	O	O	
+10-20	zur	APPRART	zu	_	O	O	
+10-21	Anwendung	NN	Anwendung	_	O	O	
+10-22	gekommen	VVPP	kommen	_	O	O	
+10-23	sind	VAFIN	sein	_	O	O	
+10-24	.	$.	.	_	O	O	
+
+#id=11
+#text=Im vorigen Sommer brachte ich die betreffende Mappe in meinem Arbeitszimmer unter und hatte wiede-
+11-1	Im	APPRART	in	_	O	O	
+11-2	vorigen	ADJA	vorig	_	O	O	
+11-3	Sommer	NN	Sommer	_	O	O	
+11-4	brachte	VVFIN	bringen	_	O	O	
+11-5	ich	PPER	ich	_	O	O	
+11-6	die	ART	die	_	O	O	
+11-7	betreffende	ADJA	betreffend	_	O	O	
+11-8	Mappe	NN	Mappe	_	O	O	
+11-9	in	APPR	in	_	O	O	
+11-10	meinem	PPOSAT	mein	_	O	O	
+11-11	Arbeitszimmer	NN	Arbeitszimmer	_	O	O	
+11-12	unter	APPR	unter	_	O	O	
+11-13	und	KON	und	_	O	O	
+11-14	hatte	VAFIN	haben	_	O	O	
+11-15	wiede-	TRUNC	<unknown>	_	O	O	
+

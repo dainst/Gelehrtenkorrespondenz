@@ -1,0 +1,205 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=38 Wolfgang Helbig an Heinrich Brunn Rom, 4. November 1883 r. 9/XI 83 Roma, li 4. Nov.
+1-1	38	CARD	@card@	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	4	CARD	4	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1883	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	r.	VVFIN	<unknown>	_	O	O	
+1-14	9/XI	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+1-15	83	CARD	83	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+1-16	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-17	,	$,	,	_	O	O	
+1-18	li	ADJD	<unknown>	_	O	O	
+1-19	4	CARD	4	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	Nov.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1883 Lieber Herr Professor Da Torlonia gegenwärtig für die Gypssammlung den größten Eifer zeigt und ich denselben nicht erkalten lassen möchte, so scheint es mir das Zweckmäßigste mich wegen der Bestellungen direct an Sie zu wenden.
+2-1	1883	CARD	@card@	_	O	O	
+2-2	Lieber	ADJA	lieb	_	O	O	
+2-3	Herr	NN	Herr	_	O	O	
+2-4	Professor	NN	Professor	_	O	O	
+2-5	Da	ADV	da	_	O	O	
+2-6	Torlonia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-7	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+2-8	für	APPR	für	_	O	O	
+2-9	die	ART	die	_	O	O	
+2-10	Gypssammlung	NN	<unknown>	_	O	O	
+2-11	den	ART	die	_	O	O	
+2-12	größten	ADJA	groß	_	O	O	
+2-13	Eifer	NN	Eifer	_	O	O	
+2-14	zeigt	VVFIN	zeigen	_	O	O	
+2-15	und	KON	und	_	O	O	
+2-16	ich	PPER	ich	_	O	O	
+2-17	denselben	PDAT	derselb	_	O	O	
+2-18	nicht	PTKNEG	nicht	_	O	O	
+2-19	erkalten	VVINF	erkalten	_	O	O	
+2-20	lassen	VVINF	lassen	_	O	O	
+2-21	möchte	VMFIN	mögen	_	O	O	
+2-22	,	$,	,	_	O	O	
+2-23	so	ADV	so	_	O	O	
+2-24	scheint	VVFIN	scheinen	_	O	O	
+2-25	es	PPER	es	_	O	O	
+2-26	mir	PRF	ich	_	O	O	
+2-27	das	ART	die	_	O	O	
+2-28	Zweckmäßigste	NN	<unknown>	_	O	O	
+2-29	mich	PRF	ich	_	O	O	
+2-30	wegen	APPR	wegen	_	O	O	
+2-31	der	ART	die	_	O	O	
+2-32	Bestellungen	NN	Bestellung	_	O	O	
+2-33	direct	NE	direct	_	O	O	
+2-34	an	APPR	an	_	O	O	
+2-35	Sie	PPER	Sie	_	O	O	
+2-36	zu	PTKZU	zu	_	O	O	
+2-37	wenden	VVINF	wenden	_	O	O	
+2-38	.	$.	.	_	O	O	
+
+#id=3
+#text=Torlonia möchte Abgüsse von folgenden Gegenständen haben : 1) Apoll von Tenea 2) Herme des Hephaistos Brunn Beschr(eibung) der Glyptothek n. 43.
+3-1	Torlonia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	möchte	VMFIN	mögen	_	O	O	
+3-3	Abgüsse	NN	Abguß	_	O	O	
+3-4	von	APPR	von	_	O	O	
+3-5	folgenden	ADJA	folgend	_	O	O	
+3-6	Gegenständen	NN	Gegenstand	_	O	O	
+3-7	haben	VAINF	haben	_	O	O	
+3-8	:	$.	:	_	O	O	
+3-9	1	CARD	1	_	O	O	
+3-10	)	$(	)	_	O	O	
+3-11	Apoll	NN	Apoll	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-12	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-13	Tenea	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-14	2	CARD	2	_	O	O	
+3-15	)	$(	)	_	O	O	
+3-16	Herme	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-17	des	ART	die	_	I-webanno.custom.LetterEntity_	I-OBJ	
+3-18	Hephaistos	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+3-19	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-20	Beschr(eibung)	NN	<unknown>	_	O	O	
+3-21	der	ART	die	_	O	O	
+3-22	Glyptothek	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-23	n.	APPR	n.	_	O	O	
+3-24	43	CARD	43	_	O	O	
+3-25	.	$.	.	_	O	O	
+
+#id=4
+#text=3) Sämmtliche Statuen des aeginetischen Westgiebels Brunn n. 59-68.
+4-1	3	CARD	3	_	O	O	
+4-2	)	$(	)	_	O	O	
+4-3	Sämmtliche	NN	<unknown>	_	O	O	
+4-4	Statuen	NN	Statue	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-5	des	ART	die	_	O	O	
+4-6	aeginetischen	ADJA	<unknown>	_	O	O	
+4-7	Westgiebels	NN	<unknown>	_	O	O	
+4-8	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-9	n.	APPR	n.	_	O	O	
+4-10	59-68	CARD	@card@	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=4) Aus dem Ostgiebel den sog(enannten) Laomedon Brunn n. 55.
+5-1	4	CARD	4	_	O	O	
+5-2	)	$(	)	_	O	O	
+5-3	Aus	APPR	aus	_	O	O	
+5-4	dem	ART	die	_	O	O	
+5-5	Ostgiebel	NN	<unknown>	_	O	O	
+5-6	den	ART	die	_	O	O	
+5-7	sog(enannten)	ADJA	<unknown>	_	O	O	
+5-8	Laomedon	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-9	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-10	n.	APPR	n.	_	O	O	
+5-11	55	CARD	@card@	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=5) Statue der Eirene mit Plutos n. 96.
+6-1	5	CARD	5	_	O	O	
+6-2	)	$(	)	_	O	O	
+6-3	Statue	NN	Statue	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-4	der	ART	die	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-5	Eirene	NE	Eirene	_	I-webanno.custom.LetterEntity_	I-OBJ	
+6-6	mit	APPR	mit	_	O	O	
+6-7	Plutos	NN	<unknown>	_	O	O	
+6-8	n.	APPR	n.	_	O	O	
+6-9	96	CARD	96	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Doch möchte er, ehe er die Abgüsse bestellt, zunächst wissen, wieviel die ersteren 4 Stücke kosten würden.
+7-1	Doch	ADV	doch	_	O	O	
+7-2	möchte	VMFIN	mögen	_	O	O	
+7-3	er	PPER	er	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	ehe	KOUS	ehe	_	O	O	
+7-6	er	PPER	er	_	O	O	
+7-7	die	ART	die	_	O	O	
+7-8	Abgüsse	NN	Abguß	_	O	O	
+7-9	bestellt	VVPP	bestellen	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	zunächst	ADV	zunächst	_	O	O	
+7-12	wissen	VVFIN	wissen	_	O	O	
+7-13	,	$,	,	_	O	O	
+7-14	wieviel	PWAV	wieviele	_	O	O	
+7-15	die	ART	die	_	O	O	
+7-16	ersteren	PIAT	erstere	_	O	O	
+7-17	4	CARD	4	_	O	O	
+7-18	Stücke	NN	Stück	_	O	O	
+7-19	kosten	VVINF	kosten	_	O	O	
+7-20	würden	VAFIN	werden	_	O	O	
+7-21	.	$.	.	_	O	O	
+
+#id=8
+#text=Hätten Sie demnach die große Güte mir hierüber möglichst rasch Mittheilung auf einer Correspondenzkarte zu machen?
+8-1	Hätten	VAFIN	haben	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	demnach	ADV	demnach	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	große	ADJA	groß	_	O	O	
+8-6	Güte	NN	Güte	_	O	O	
+8-7	mir	PRF	ich	_	O	O	
+8-8	hierüber	PAV	hierüber	_	O	O	
+8-9	möglichst	ADV	möglichst	_	O	O	
+8-10	rasch	ADJD	rasch	_	O	O	
+8-11	Mittheilung	NN	<unknown>	_	O	O	
+8-12	auf	APPR	auf	_	O	O	
+8-13	einer	ART	eine	_	O	O	
+8-14	Correspondenzkarte	NN	<unknown>	_	O	O	
+8-15	zu	PTKZU	zu	_	O	O	
+8-16	machen	VVINF	machen	_	O	O	
+8-17	?	$.	?	_	O	O	
+
+#id=9
+#text=Den Preis der Eirene habe ich bereits durch die Seiler~ sche Liste erfahren, die Sie die Güte hatten mir zuzuschicken.
+9-1	Den	ART	die	_	O	O	
+9-2	Preis	NN	Preis	_	O	O	
+9-3	der	ART	die	_	O	O	
+9-4	Eirene	NE	Eirene	_	O	O	
+9-5	habe	VAFIN	haben	_	O	O	
+9-6	ich	PPER	ich	_	O	O	
+9-7	bereits	ADV	bereits	_	O	O	
+9-8	durch	APPR	durch	_	O	O	
+9-9	die	ART	die	_	O	O	
+9-10	Seiler~	NN	<unknown>	_	O	O	
+9-11	sche	ADJA	<unknown>	_	O	O	
+9-12	Liste	NN	Liste	_	O	O	
+9-13	erfahren	VVPP	erfahren	_	O	O	
+9-14	,	$,	,	_	O	O	
+9-15	die	PRELS	die	_	O	O	
+9-16	Sie	PPER	Sie	_	O	O	
+9-17	die	ART	die	_	O	O	
+9-18	Güte	NN	Güte	_	O	O	
+9-19	hatten	VAFIN	haben	_	O	O	
+9-20	mir	PPER	ich	_	O	O	
+9-21	zuzuschicken	VVIZU	zuschicken	_	O	O	
+9-22	.	$.	.	_	O	O	
+

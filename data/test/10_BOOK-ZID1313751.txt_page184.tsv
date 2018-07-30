@@ -1,0 +1,243 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=46 Wolfgang Helbig an Heinrich Brunn Rom, 27. April 1885 r.
+1-1	46	CARD	46	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1885	CARD	1885	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	r.	VVFIN	<unknown>	_	O	O	
+
+#id=2
+#text=15.
+2-1	15	CARD	15	_	O	O	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=VI.
+3-1	VI.	NE	<unknown>	_	O	O	
+
+#id=4
+#text=85.
+4-1	85	CARD	85	_	O	O	
+4-2	.	$.	.	_	O	O	
+
+#id=5
+#text=Roma, li 27. April 1885 Lieber Herr Professor Der Gyps des Barraccoschen Epheben ist zwar noch nicht abgeschickt, aber bereits verpackt und es würde Schwierigkeiten machen noch rasch die beiden Grabreliefs beizufügen, da diese nicht fertig zu haben sind.
+5-1	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+5-2	,	$,	,	_	O	O	
+5-3	li	ADJA	<unknown>	_	O	O	
+5-4	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+5-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+5-6	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+5-7	1885	CARD	1885	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+5-8	Lieber	ADJA	lieb	_	O	O	
+5-9	Herr	NN	Herr	_	O	O	
+5-10	Professor	NN	Professor	_	O	O	
+5-11	Der	ART	die	_	O	O	
+5-12	Gyps	NN	<unknown>	_	O	O	
+5-13	des	ART	die	_	O	O	
+5-14	Barraccoschen	NN	<unknown>	_	O	O	
+5-15	Epheben	ADJD	<unknown>	_	O	O	
+5-16	ist	VAFIN	sein	_	O	O	
+5-17	zwar	ADV	zwar	_	O	O	
+5-18	noch	ADV	noch	_	O	O	
+5-19	nicht	PTKNEG	nicht	_	O	O	
+5-20	abgeschickt	VVPP	abschicken	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	aber	KON	aber	_	O	O	
+5-23	bereits	ADV	bereits	_	O	O	
+5-24	verpackt	VVPP	verpacken	_	O	O	
+5-25	und	KON	und	_	O	O	
+5-26	es	PPER	es	_	O	O	
+5-27	würde	VAFIN	werden	_	O	O	
+5-28	Schwierigkeiten	NN	Schwierigkeit	_	O	O	
+5-29	machen	VVFIN	machen	_	O	O	
+5-30	noch	ADV	noch	_	O	O	
+5-31	rasch	ADJD	rasch	_	O	O	
+5-32	die	ART	die	_	O	O	
+5-33	beiden	PIAT	beide	_	O	O	
+5-34	Grabreliefs	NN	Grabrelief	_	O	O	
+5-35	beizufügen	VVIZU	beifügen	_	O	O	
+5-36	,	$,	,	_	O	O	
+5-37	da	KOUS	da	_	O	O	
+5-38	diese	PDAT	dies	_	O	O	
+5-39	nicht	PTKNEG	nicht	_	O	O	
+5-40	fertig	ADJD	fertig	_	O	O	
+5-41	zu	PTKZU	zu	_	O	O	
+5-42	haben	VAINF	haben	_	O	O	
+5-43	sind	VAFIN	sein	_	O	O	
+5-44	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich habe sie nunmehr für Sie bestellt und werde sie zugleich mit dem Gypse des Anakreon, der durch Conze für sie bestellt worden ist, aber erst gegen Ende Mai versendet werden kann nach dem neuen Reglement darf im capitolinischen Museum nicht vor dem 15. Mai geformt werden an Sie abschicken.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	habe	VAFIN	haben	_	O	O	
+6-3	sie	PPER	sie	_	O	O	
+6-4	nunmehr	ADV	nunmehr	_	O	O	
+6-5	für	APPR	für	_	O	O	
+6-6	Sie	PPER	Sie	_	O	O	
+6-7	bestellt	VVPP	bestellen	_	O	O	
+6-8	und	KON	und	_	O	O	
+6-9	werde	VAFIN	werden	_	O	O	
+6-10	sie	PPER	sie	_	O	O	
+6-11	zugleich	ADV	zugleich	_	O	O	
+6-12	mit	APPR	mit	_	O	O	
+6-13	dem	ART	die	_	O	O	
+6-14	Gypse	NN	<unknown>	_	O	O	
+6-15	des	ART	die	_	O	O	
+6-16	Anakreon	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-17	,	$,	,	_	O	O	
+6-18	der	PRELS	die	_	O	O	
+6-19	durch	APPR	durch	_	O	O	
+6-20	Conze	NE	Conze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-21	für	APPR	für	_	O	O	
+6-22	sie	PPER	sie	_	O	O	
+6-23	bestellt	VVPP	bestellen	_	O	O	
+6-24	worden	VAPP	werden	_	O	O	
+6-25	ist	VAFIN	sein	_	O	O	
+6-26	,	$,	,	_	O	O	
+6-27	aber	KON	aber	_	O	O	
+6-28	erst	ADV	erst	_	O	O	
+6-29	gegen	APPR	gegen	_	O	O	
+6-30	Ende	NN	Ende	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-31	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-32	versendet	VVPP	versenden	_	O	O	
+6-33	werden	VAINF	werden	_	O	O	
+6-34	kann	VMFIN	können	_	O	O	
+6-35	nach	APPR	nach	_	O	O	
+6-36	dem	ART	die	_	O	O	
+6-37	neuen	ADJA	neu	_	O	O	
+6-38	Reglement	NN	Reglement	_	O	O	
+6-39	darf	VMFIN	dürfen	_	O	O	
+6-40	im	APPRART	in	_	O	O	
+6-41	capitolinischen	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-42	Museum	NN	Museum	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+6-43	nicht	PTKNEG	nicht	_	O	O	
+6-44	vor	APPR	vor	_	O	O	
+6-45	dem	ART	die	_	O	O	
+6-46	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-47	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-48	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-49	geformt	VVPP	formen	_	O	O	
+6-50	werden	VAFIN	werden	_	O	O	
+6-51	an	APPR	an	_	O	O	
+6-52	Sie	PPER	Sie	_	O	O	
+6-53	abschicken	VVINF	abschicken	_	O	O	
+6-54	.	$.	.	_	O	O	
+
+#id=7
+#text=Was die Schuld für den an Barracco gelieferten Abguß des Münchener weiblichen Kopfes betrifft, so scheint es mir das Einfachste, daß Sie mir den Betrag auf einer Correspondenzkarte mittheilen und ich werde dafür Sorge tragen, daß Ihnen das Geld zugeschickt werde.
+7-1	Was	PWS	was	_	O	O	
+7-2	die	ART	die	_	O	O	
+7-3	Schuld	NN	Schuld	_	O	O	
+7-4	für	APPR	für	_	O	O	
+7-5	den	ART	die	_	O	O	
+7-6	an	APPR	an	_	O	O	
+7-7	Barracco	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-8	gelieferten	ADJA	geliefert	_	O	O	
+7-9	Abguß	NN	Abguß	_	O	O	
+7-10	des	ART	die	_	O	O	
+7-11	Münchener	ADJA	Münchener	_	O	O	
+7-12	weiblichen	ADJA	weiblich	_	O	O	
+7-13	Kopfes	NN	Kopf	_	O	O	
+7-14	betrifft	VVFIN	betreffen	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	so	ADV	so	_	O	O	
+7-17	scheint	VVFIN	scheinen	_	O	O	
+7-18	es	PPER	es	_	O	O	
+7-19	mir	PRF	ich	_	O	O	
+7-20	das	ART	die	_	O	O	
+7-21	Einfachste	NN	Einfachste	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	daß	KOUS	dass	_	O	O	
+7-24	Sie	PPER	Sie	_	O	O	
+7-25	mir	PPER	ich	_	O	O	
+7-26	den	ART	die	_	O	O	
+7-27	Betrag	NN	Betrag	_	O	O	
+7-28	auf	APPR	auf	_	O	O	
+7-29	einer	ART	eine	_	O	O	
+7-30	Correspondenzkarte	NN	<unknown>	_	O	O	
+7-31	mittheilen	VVFIN	<unknown>	_	O	O	
+7-32	und	KON	und	_	O	O	
+7-33	ich	PPER	ich	_	O	O	
+7-34	werde	VAFIN	werden	_	O	O	
+7-35	dafür	PAV	dafür	_	O	O	
+7-36	Sorge	NN	Sorge	_	O	O	
+7-37	tragen	VVINF	tragen	_	O	O	
+7-38	,	$,	,	_	O	O	
+7-39	daß	KOUS	dass	_	O	O	
+7-40	Ihnen	PPER	Sie	_	O	O	
+7-41	das	ART	die	_	O	O	
+7-42	Geld	NN	Geld	_	O	O	
+7-43	zugeschickt	VVPP	zuschicken	_	O	O	
+7-44	werde	VAFIN	werden	_	O	O	
+7-45	.	$.	.	_	O	O	
+
+#id=8
+#text=Der Preis für den Ephebengyps hat Malpieri beim Spediteur als Nachnahme behoben.
+8-1	Der	ART	die	_	O	O	
+8-2	Preis	NN	Preis	_	O	O	
+8-3	für	APPR	für	_	O	O	
+8-4	den	ART	die	_	O	O	
+8-5	Ephebengyps	NN	<unknown>	_	O	O	
+8-6	hat	VAFIN	haben	_	O	O	
+8-7	Malpieri	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-8	beim	APPRART	bei	_	O	O	
+8-9	Spediteur	NN	Spediteur	_	O	O	
+8-10	als	KOKOM	als	_	O	O	
+8-11	Nachnahme	NN	Nachnahme	_	O	O	
+8-12	behoben	VVPP	beheben	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Wir sind überzeugt davon, daß Sie in Berlin die Interessen des römischen Institutes auf das Energischste vertreten haben.
+9-1	Wir	PPER	wir	_	O	O	
+9-2	sind	VAFIN	sein	_	O	O	
+9-3	überzeugt	ADJD	überzeugt	_	O	O	
+9-4	davon	PAV	davon	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	daß	KOUS	dass	_	O	O	
+9-7	Sie	PPER	Sie	_	O	O	
+9-8	in	APPR	in	_	O	O	
+9-9	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-10	die	ART	die	_	O	O	
+9-11	Interessen	NN	Interesse	_	O	O	
+9-12	des	ART	die	_	O	O	
+9-13	römischen	ADJA	römisch	_	O	O	
+9-14	Institutes	NN	Institut	_	O	O	
+9-15	auf	APPR	auf	_	O	O	
+9-16	das	ART	die	_	O	O	
+9-17	Energischste	NN	Energischste	_	O	O	
+9-18	vertreten	VVPP	vertreten	_	O	O	
+9-19	haben	VAFIN	haben	_	O	O	
+9-20	.	$.	.	_	O	O	
+
+#id=10
+#text=Doch fürchte ich, daß, wie einmal die Dinge liegen, Vorstellungen von Seiten der Central Direc-
+10-1	Doch	ADV	doch	_	O	O	
+10-2	fürchte	VVFIN	fürchten	_	O	O	
+10-3	ich	PPER	ich	_	O	O	
+10-4	,	$,	,	_	O	O	
+10-5	daß	KOUS	dass	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	wie	KOUS	wie	_	O	O	
+10-8	einmal	ADV	einmal	_	O	O	
+10-9	die	ART	die	_	O	O	
+10-10	Dinge	NN	Ding	_	O	O	
+10-11	liegen	VVFIN	liegen	_	O	O	
+10-12	,	$,	,	_	O	O	
+10-13	Vorstellungen	NN	Vorstellung	_	O	O	
+10-14	von	APPR	von	_	O	O	
+10-15	Seiten	NN	Seite	_	O	O	
+10-16	der	ART	die	_	O	O	
+10-17	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-18	Direc-	TRUNC	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+

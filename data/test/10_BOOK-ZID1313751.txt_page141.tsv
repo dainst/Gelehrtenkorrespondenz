@@ -1,0 +1,272 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=28 2 Wolfgang Helbig an Heinrich Brunn Perugia, 2. August 1880 tungen über das Fortleben der alten Symbole indem Mittelalter und in der modernen Zeit (päbstliche Mitra der Mütze des jüdischen Hohenpriesters nachgebildet, Doctorhut, Landesvater, bonnet de la liberte in der französischen Revolution).
+1-1	28	CARD	28	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Perugia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1880	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	tungen	NN	<unknown>	_	O	O	
+1-15	über	APPR	über	_	O	O	
+1-16	das	ART	die	_	O	O	
+1-17	Fortleben	NN	Fortleben	_	O	O	
+1-18	der	ART	die	_	O	O	
+1-19	alten	ADJA	alt	_	O	O	
+1-20	Symbole	NN	Symbol	_	O	O	
+1-21	indem	KOUS	indem	_	O	O	
+1-22	Mittelalter	NN	Mittelalter	_	O	O	
+1-23	und	KON	und	_	O	O	
+1-24	in	APPR	in	_	O	O	
+1-25	der	ART	die	_	O	O	
+1-26	modernen	ADJA	modern	_	O	O	
+1-27	Zeit	NN	Zeit	_	O	O	
+1-28	(	$(	(	_	O	O	
+1-29	päbstliche	ADJA	<unknown>	_	O	O	
+1-30	Mitra	NE	Mitra	_	O	O	
+1-31	der	ART	die	_	O	O	
+1-32	Mütze	NN	Mütze	_	O	O	
+1-33	des	ART	die	_	O	O	
+1-34	jüdischen	ADJA	jüdisch	_	O	O	
+1-35	Hohenpriesters	NN	<unknown>	_	O	O	
+1-36	nachgebildet	VVPP	nachbilden	_	O	O	
+1-37	,	$,	,	_	O	O	
+1-38	Doctorhut	NN	<unknown>	_	O	O	
+1-39	,	$,	,	_	O	O	
+1-40	Landesvater	NN	Landesvater	_	O	O	
+1-41	,	$,	,	_	O	O	
+1-42	bonnet	ADJA	<unknown>	_	O	O	
+1-43	de	FM	de	_	O	O	
+1-44	la	FM	la	_	O	O	
+1-45	liberte	ADJD	<unknown>	_	O	O	
+1-46	in	APPR	in	_	O	O	
+1-47	der	ART	die	_	O	O	
+1-48	französischen	ADJA	französisch	_	O	O	
+1-49	Revolution	NN	Revolution	_	O	O	
+1-50	)	$(	)	_	O	O	
+1-51	.	$.	.	_	O	O	
+
+#id=2
+#text=Wäre es vielleicht möglich, daß diese Abhandlung in den Publicationen der Münchener Akademie veröffentlicht würde?
+2-1	Wäre	VAFIN	sein	_	O	O	
+2-2	es	PPER	es	_	O	O	
+2-3	vielleicht	ADV	vielleicht	_	O	O	
+2-4	möglich	ADJD	möglich	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	daß	KOUS	dass	_	O	O	
+2-7	diese	PDAT	dies	_	O	O	
+2-8	Abhandlung	NN	Abhandlung	_	O	O	
+2-9	in	APPR	in	_	O	O	
+2-10	den	ART	die	_	O	O	
+2-11	Publicationen	NN	<unknown>	_	O	O	
+2-12	der	ART	die	_	O	O	
+2-13	Münchener	ADJA	Münchener	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-14	Akademie	NN	Akademie	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+2-15	veröffentlicht	VVPP	veröffentlichen	_	O	O	
+2-16	würde	VAFIN	werden	_	O	O	
+2-17	?	$.	?	_	O	O	
+
+#id=3
+#text=Sie würde in den "Sitzungsberichten" 80 - 85 Seiten füllen.
+3-1	Sie	PPER	Sie	_	O	O	
+3-2	würde	VAFIN	werden	_	O	O	
+3-3	in	APPR	in	_	O	O	
+3-4	den	ART	die	_	O	O	
+3-5	"	$(	"	_	O	O	
+3-6	Sitzungsberichten	NN	<unknown>	_	O	O	
+3-7	"	$(	"	_	O	O	
+3-8	80	CARD	80	_	O	O	
+3-9	-	$(	-	_	O	O	
+3-10	85	CARD	85	_	O	O	
+3-11	Seiten	NN	Seite	_	O	O	
+3-12	füllen	VVINF	füllen	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Wieviel Raum.
+4-1	Wieviel	PWAV	wieviele	_	O	O	
+4-2	Raum	NN	Raum	_	O	O	
+4-3	.	$.	.	_	O	O	
+
+#id=5
+#text=sie in den "Abhandlungen" einnehmen würde, kann ich leider nicht angeben, da mir hier kein Exemplar derselben zu Gebote steht.
+5-1	sie	PPER	sie	_	O	O	
+5-2	in	APPR	in	_	O	O	
+5-3	den	ART	die	_	O	O	
+5-4	"	$(	"	_	O	O	
+5-5	Abhandlungen	NN	Abhandlung	_	O	O	
+5-6	"	$(	"	_	O	O	
+5-7	einnehmen	VVINF	einnehmen	_	O	O	
+5-8	würde	VAFIN	werden	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	kann	VMFIN	können	_	O	O	
+5-11	ich	PPER	ich	_	O	O	
+5-12	leider	ADV	leider	_	O	O	
+5-13	nicht	PTKNEG	nicht	_	O	O	
+5-14	angeben	VVINF	angeben	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	da	KOUS	da	_	O	O	
+5-17	mir	PPER	ich	_	O	O	
+5-18	hier	ADV	hier	_	O	O	
+5-19	kein	PIAT	keine	_	O	O	
+5-20	Exemplar	NN	Exemplar	_	O	O	
+5-21	derselben	PDAT	dieselb	_	O	O	
+5-22	zu	APPR	zu	_	O	O	
+5-23	Gebote	NN	Gebot	_	O	O	
+5-24	steht	VVFIN	stehen	_	O	O	
+5-25	.	$.	.	_	O	O	
+
+#id=6
+#text=Die zu der Abhandlung gehörigen Zeichnungen 26 Köpfe im Umriß ausgeführt stehen der Akademie gratis zur Disposition.
+6-1	Die	ART	die	_	O	O	
+6-2	zu	APPR	zu	_	O	O	
+6-3	der	ART	die	_	O	O	
+6-4	Abhandlung	NN	Abhandlung	_	O	O	
+6-5	gehörigen	ADJA	gehörig	_	O	O	
+6-6	Zeichnungen	NN	Zeichnung	_	O	O	
+6-7	26	CARD	26	_	O	O	
+6-8	Köpfe	NN	Kopf	_	O	O	
+6-9	im	APPRART	in	_	O	O	
+6-10	Umriß	NN	Umriss	_	O	O	
+6-11	ausgeführt	ADJD	ausgeführt	_	O	O	
+6-12	stehen	VVFIN	stehen	_	O	O	
+6-13	der	ART	die	_	O	O	
+6-14	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-15	gratis	ADJD	gratis	_	O	O	
+6-16	zur	APPRART	zu	_	O	O	
+6-17	Disposition	NN	Disposition	_	O	O	
+6-18	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich dachte zunächst daran, die Abhandlung in den Memorie dell'accademia dei Lincei zu veröffentlichen, stand aver davon ab, weil ich bei Behandlung der juristischen Fragen auf unüberwindliche sprachliche Schwierigkeiten stieß.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	dachte	VVFIN	denken	_	O	O	
+7-3	zunächst	ADV	zunächst	_	O	O	
+7-4	daran	PAV	daran	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	die	ART	die	_	O	O	
+7-7	Abhandlung	NN	Abhandlung	_	O	O	
+7-8	in	APPR	in	_	O	O	
+7-9	den	ART	die	_	O	O	
+7-10	Memorie	NN	<unknown>	_	O	O	
+7-11	dell'accademia	NE	<unknown>	_	O	O	
+7-12	dei	ADJA	<unknown>	_	O	O	
+7-13	Lincei	NN	<unknown>	_	O	O	
+7-14	zu	PTKZU	zu	_	O	O	
+7-15	veröffentlichen	VVINF	veröffentlichen	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	stand	VVFIN	stehen	_	O	O	
+7-18	aver	ADJD	<unknown>	_	O	O	
+7-19	davon	PAV	davon	_	O	O	
+7-20	ab	PTKVZ	ab	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	weil	KOUS	weil	_	O	O	
+7-23	ich	PPER	ich	_	O	O	
+7-24	bei	APPR	bei	_	O	O	
+7-25	Behandlung	NN	Behandlung	_	O	O	
+7-26	der	ART	die	_	O	O	
+7-27	juristischen	ADJA	juristisch	_	O	O	
+7-28	Fragen	NN	Frage	_	O	O	
+7-29	auf	APPR	auf	_	O	O	
+7-30	unüberwindliche	ADJA	unüberwindlich	_	O	O	
+7-31	sprachliche	ADJA	sprachlich	_	O	O	
+7-32	Schwierigkeiten	NN	Schwierigkeit	_	O	O	
+7-33	stieß	VVFIN	stoßen	_	O	O	
+7-34	.	$.	.	_	O	O	
+
+#id=8
+#text=An die Petersburger Akademie, deren Socio ich bin, möchte ich mich gegenwärtig nicht wenden, da mi I , Stephani einen Brief, den ich ihm in bester Absicht über seine Herkuleshypothese ( Mykene) - bevor der be.reffende C. r. gedruckt wurde geschrieben, entsetzlich übel genommen hat.
+8-1	An	APPR	an	_	O	O	
+8-2	die	ART	die	_	O	O	
+8-3	Petersburger	NN	Petersburger	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-4	Akademie	NN	Akademie	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+8-5	,	$,	,	_	O	O	
+8-6	deren	PRELAT	die	_	O	O	
+8-7	Socio	NE	<unknown>	_	O	O	
+8-8	ich	PPER	ich	_	O	O	
+8-9	bin	VAFIN	sein	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	möchte	VMFIN	mögen	_	O	O	
+8-12	ich	PPER	ich	_	O	O	
+8-13	mich	PRF	ich	_	O	O	
+8-14	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+8-15	nicht	PTKNEG	nicht	_	O	O	
+8-16	wenden	VVINF	wenden	_	O	O	
+8-17	,	$,	,	_	O	O	
+8-18	da	KOUS	da	_	O	O	
+8-19	mi	ADJA	<unknown>	_	O	O	
+8-20	I	FM	I	_	O	O	
+8-21	,	$,	,	_	O	O	
+8-22	Stephani	NE	Stephani	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-23	einen	ART	eine	_	O	O	
+8-24	Brief	NN	Brief	_	O	O	
+8-25	,	$,	,	_	O	O	
+8-26	den	PRELS	die	_	O	O	
+8-27	ich	PPER	ich	_	O	O	
+8-28	ihm	PPER	er	_	O	O	
+8-29	in	APPR	in	_	O	O	
+8-30	bester	ADJA	gut	_	O	O	
+8-31	Absicht	NN	Absicht	_	O	O	
+8-32	über	APPR	über	_	O	O	
+8-33	seine	PPOSAT	sein	_	O	O	
+8-34	Herkuleshypothese	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-35	(	$(	(	_	O	O	
+8-36	Mykene	NN	<unknown>	_	O	O	
+8-37	)	$(	)	_	O	O	
+8-38	-	$(	-	_	O	O	
+8-39	bevor	KOUS	bevor	_	O	O	
+8-40	der	ART	die	_	O	O	
+8-41	be.reffende	ADJA	<unknown>	_	O	O	
+8-42	C.	NE	C.	_	O	O	
+8-43	r.	VVFIN	<unknown>	_	O	O	
+8-44	gedruckt	ADJD	gedruckt	_	O	O	
+8-45	wurde	VAFIN	werden	_	O	O	
+8-46	geschrieben	VVPP	schreiben	_	O	O	
+8-47	,	$,	,	_	O	O	
+8-48	entsetzlich	ADJD	entsetzlich	_	O	O	
+8-49	übel	ADJD	übel	_	O	O	
+8-50	genommen	VVPP	nehmen	_	O	O	
+8-51	hat	VAFIN	haben	_	O	O	
+8-52	.	$.	.	_	O	O	
+
+#id=9
+#text=Aus der Abhandlung eine besondere Publication zu machen würde große Schwierigkeiten verursachen.
+9-1	Aus	APPR	aus	_	O	O	
+9-2	der	ART	die	_	O	O	
+9-3	Abhandlung	NN	Abhandlung	_	O	O	
+9-4	eine	ART	eine	_	O	O	
+9-5	besondere	ADJA	besonder	_	O	O	
+9-6	Publication	NN	<unknown>	_	O	O	
+9-7	zu	PTKZU	zu	_	O	O	
+9-8	machen	VVINF	machen	_	O	O	
+9-9	würde	VAFIN	werden	_	O	O	
+9-10	große	ADJA	groß	_	O	O	
+9-11	Schwierigkeiten	NN	Schwierigkeit	_	O	O	
+9-12	verursachen	VVINF	verursachen	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=Unter solchen Umständen möchte ich die Frage an Sie richten, ob etwa die Publication
+10-1	Unter	APPR	unter	_	O	O	
+10-2	solchen	PIAT	solche	_	O	O	
+10-3	Umständen	NN	Umstand	_	O	O	
+10-4	möchte	VMFIN	mögen	_	O	O	
+10-5	ich	PPER	ich	_	O	O	
+10-6	die	ART	die	_	O	O	
+10-7	Frage	NN	Frage	_	O	O	
+10-8	an	APPR	an	_	O	O	
+10-9	Sie	PPER	Sie	_	O	O	
+10-10	richten	VVFIN	richten	_	O	O	
+10-11	,	$,	,	_	O	O	
+10-12	ob	KOUS	ob	_	O	O	
+10-13	etwa	ADV	etwa	_	O	O	
+10-14	die	ART	die	_	O	O	
+10-15	Publication	NN	<unknown>	_	O	O	
+

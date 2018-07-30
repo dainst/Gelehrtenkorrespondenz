@@ -1,0 +1,137 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=42 Postkarte Wolf gang Helbig an Heinrich Brunn Rom, 16. Februar 1884 r.
+1-1	42	CARD	@card@	_	O	O	
+1-2	Postkarte	NN	Postkarte	_	O	O	
+1-3	Wolf	NE	Wolf	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	gang	ADJD	gang	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1884	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	r.	VVFIN	<unknown>	_	O	O	
+
+#id=2
+#text=21.
+2-1	21	CARD	21	_	O	O	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=11.
+3-1	11	CARD	11	_	O	O	
+3-2	.	$.	.	_	O	O	
+
+#id=4
+#text=84.
+4-1	84	CARD	84	_	O	O	
+4-2	.	$.	.	_	O	O	
+
+#id=5
+#text=16. Feb.
+5-1	16	CARD	16	_	O	O	
+5-2	.	$.	.	_	O	O	
+5-3	Feb.	NE	<unknown>	_	O	O	
+
+#id=6
+#text=1884 Lieber Herr Professor Da die Gypse entweder schon abgegangen sind oder baldigst abgehen werden, so bitte ich Sie mir die Rechnung zuzuschicken, damit ich im Stande bin, Ihnen die be-" treffenden Gelder zuzustellen.
+6-1	1884	CARD	@card@	_	O	O	
+6-2	Lieber	ADJA	lieb	_	O	O	
+6-3	Herr	NN	Herr	_	O	O	
+6-4	Professor	NN	Professor	_	O	O	
+6-5	Da	ADV	da	_	O	O	
+6-6	die	ART	die	_	O	O	
+6-7	Gypse	NN	<unknown>	_	O	O	
+6-8	entweder	KON	entweder	_	O	O	
+6-9	schon	ADV	schon	_	O	O	
+6-10	abgegangen	VVPP	abgehen	_	O	O	
+6-11	sind	VAFIN	sein	_	O	O	
+6-12	oder	KON	oder	_	O	O	
+6-13	baldigst	ADJD	baldig	_	O	O	
+6-14	abgehen	VVINF	abgehen	_	O	O	
+6-15	werden	VAINF	werden	_	O	O	
+6-16	,	$,	,	_	O	O	
+6-17	so	ADV	so	_	O	O	
+6-18	bitte	VVFIN	bitten	_	O	O	
+6-19	ich	PPER	ich	_	O	O	
+6-20	Sie	PPER	Sie	_	O	O	
+6-21	mir	PRF	ich	_	O	O	
+6-22	die	ART	die	_	O	O	
+6-23	Rechnung	NN	Rechnung	_	O	O	
+6-24	zuzuschicken	VVIZU	zuschicken	_	O	O	
+6-25	,	$,	,	_	O	O	
+6-26	damit	KOUS	damit	_	O	O	
+6-27	ich	PPER	ich	_	O	O	
+6-28	im	APPRART	in	_	O	O	
+6-29	Stande	NN	Stand	_	O	O	
+6-30	bin	VAFIN	sein	_	O	O	
+6-31	,	$,	,	_	O	O	
+6-32	Ihnen	PPER	Sie	_	O	O	
+6-33	die	ART	die	_	O	O	
+6-34	be-	TRUNC	be-	_	O	O	
+6-35	"	$(	"	_	O	O	
+6-36	treffenden	ADJA	treffend	_	O	O	
+6-37	Gelder	NN	Geld	_	O	O	
+6-38	zuzustellen	VVIZU	zustellen	_	O	O	
+6-39	.	$.	.	_	O	O	
+
+#id=7
+#text=Hätten Sie vielleicht die Güte die Rechnung italienisch auszustellen?
+7-1	Hätten	VAFIN	haben	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	vielleicht	ADV	vielleicht	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	Güte	NN	Güte	_	O	O	
+7-6	die	ART	die	_	O	O	
+7-7	Rechnung	NN	Rechnung	_	O	O	
+7-8	italienisch	ADJD	italienisch	_	O	O	
+7-9	auszustellen	VVIZU	ausstellen	_	O	O	
+7-10	?	$.	?	_	O	O	
+
+#id=8
+#text=Da T(orlonia) sich um alle Einzelheiten bekümmert, so würde dies viel Zeit ersparen.
+8-1	Da	ADV	da	_	O	O	
+8-2	T(orlonia)	VVFIN	<unknown>	_	O	O	
+8-3	sich	PRF	sich	_	O	O	
+8-4	um	APPR	um	_	O	O	
+8-5	alle	PIAT	alle	_	O	O	
+8-6	Einzelheiten	NN	Einzelheit	_	O	O	
+8-7	bekümmert	VVPP	bekümmern	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	so	ADV	so	_	O	O	
+8-10	würde	VAFIN	werden	_	O	O	
+8-11	dies	PDS	dies	_	O	O	
+8-12	viel	PIAT	viele	_	O	O	
+8-13	Zeit	NN	Zeit	_	O	O	
+8-14	ersparen	VVINF	ersparen	_	O	O	
+8-15	.	$.	.	_	O	O	
+
+#id=9
+#text=Entschuldigen Sie diese neue Seccatura Herzliche Grüße von Haus zu Haus Ihr ergebenster Helbig Con molti saluti dei Loro servi.
+9-1	Entschuldigen	VVFIN	entschuldigen	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	diese	PDAT	dies	_	O	O	
+9-4	neue	ADJA	neu	_	O	O	
+9-5	Seccatura	NN	<unknown>	_	O	O	
+9-6	Herzliche	ADJA	herzlich	_	O	O	
+9-7	Grüße	NN	Gruß	_	O	O	
+9-8	von	APPR	von	_	O	O	
+9-9	Haus	NN	Haus	_	O	O	
+9-10	zu	APPR	zu	_	O	O	
+9-11	Haus	NN	Haus	_	O	O	
+9-12	Ihr	PPOSAT	ihr	_	O	O	
+9-13	ergebenster	ADJA	<unknown>	_	O	O	
+9-14	Helbig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+9-15	Con	NE	Con	_	O	O	
+9-16	molti	ADJA	<unknown>	_	O	O	
+9-17	saluti	NN	<unknown>	_	O	O	
+9-18	dei	ADJA	<unknown>	_	O	O	
+9-19	Loro	ADJA	<unknown>	_	O	O	
+9-20	servi	NE	<unknown>	_	O	O	
+9-21	.	$.	.	_	O	O	
+

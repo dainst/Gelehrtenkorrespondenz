@@ -1,0 +1,199 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=33 Wolfgang Helbig an Heinrich Brunn Rom, 29. Januar 1881 5 Herrn Professor Dr.
+1-1	33	CARD	33	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1881	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	5	CARD	5	_	O	O	
+1-14	Herrn	NN	Herr	_	O	O	
+1-15	Professor	NN	Professor	_	O	O	
+1-16	Dr.	NN	Dr.	_	O	O	
+
+#id=2
+#text=A. Vogt Herrn Professor Dr.
+2-1	A.	APPRART	am	_	O	O	
+2-2	Vogt	NN	Vogt	_	O	O	
+2-3	Herrn	NN	Herr	_	O	O	
+2-4	Professor	NN	Professor	_	O	O	
+2-5	Dr.	NN	Dr.	_	O	O	
+
+#id=3
+#text=Meltzer Neustädtisches Gymnasium Herrn Professor Dr.
+3-1	Meltzer	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	Neustädtisches	ADJA	<unknown>	_	O	O	
+3-3	Gymnasium	NN	Gymnasium	_	O	O	
+3-4	Herrn	NN	Herr	_	O	O	
+3-5	Professor	NN	Professor	_	O	O	
+3-6	Dr.	NN	Dr.	_	O	O	
+
+#id=4
+#text=Gnedechens Herrn Professor Dr.
+4-1	Gnedechens	ADJA	<unknown>	_	O	O	
+4-2	Herrn	NN	Herr	_	O	O	
+4-3	Professor	NN	Professor	_	O	O	
+4-4	Dr.	NN	Dr.	_	O	O	
+
+#id=5
+#text=von Duhn Herrn Professor Dr.
+5-1	von	APPR	von	_	O	O	
+5-2	Duhn	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	Herrn	NN	Herr	_	O	O	
+5-4	Professor	NN	Professor	_	O	O	
+5-5	Dr.	NN	Dr.	_	O	O	
+
+#id=6
+#text=Curt Wachsmuth Herrn Professor Dr.
+6-1	Curt	NE	Curt	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-2	Wachsmuth	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+6-3	Herrn	NN	Herr	_	O	O	
+6-4	Professor	NN	Professor	_	O	O	
+6-5	Dr.	NN	Dr.	_	O	O	
+
+#id=7
+#text=C. Zangemeister Oberbibliothekar Herrn Professor Dr.
+7-1	C.	NE	C.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	Zangemeister	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-3	Oberbibliothekar	NE	<unknown>	_	O	O	
+7-4	Herrn	NN	Herr	_	O	O	
+7-5	Professor	NN	Professor	_	O	O	
+7-6	Dr.	NN	Dr.	_	O	O	
+
+#id=8
+#text=R. Kekule Herrn Professor Dr.
+8-1	R.	NE	R.	_	O	O	
+8-2	Kekule	NN	<unknown>	_	O	O	
+8-3	Herrn	NN	Herr	_	O	O	
+8-4	Professor	NN	Professor	_	O	O	
+8-5	Dr.	NN	Dr.	_	O	O	
+
+#id=9
+#text=Blümmer Herrn Professor Dr.
+9-1	Blümmer	ADJA	<unknown>	_	O	O	
+9-2	Herrn	NN	Herr	_	O	O	
+9-3	Professor	NN	Professor	_	O	O	
+9-4	Dr.	NN	Dr.	_	O	O	
+
+#id=10
+#text=G. Loeschck Mr. Ludolf Sterhani conse~ ler intime, Ermitage imperial Mr. G. KiesefitzkY Attach~ & l'Ermitage imperial Herrn Dr.
+10-1	G.	NE	G.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	Loeschck	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-3	Mr.	NN	Mr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-4	Ludolf	NE	Ludolf	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-5	Sterhani	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-6	conse~	ADJA	<unknown>	_	O	O	
+10-7	ler	ADJA	<unknown>	_	O	O	
+10-8	intime	ADJA	intim	_	O	O	
+10-9	,	$,	,	_	O	O	
+10-10	Ermitage	NN	Ermitage	_	O	O	
+10-11	imperial	ADJD	imperial	_	O	O	
+10-12	Mr.	NN	Mr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-13	G.	NE	G.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-14	KiesefitzkY	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-15	Attach~	NN	<unknown>	_	O	O	
+10-16	&	KON	&	_	O	O	
+10-17	l'Ermitage	NN	<unknown>	_	O	O	
+10-18	imperial	ADJD	imperial	_	O	O	
+10-19	Herrn	NN	Herr	_	O	O	
+10-20	Dr.	NN	Dr.	_	O	O	
+
+#id=11
+#text=A. Flasch Herrn Professor Dr.
+11-1	A.	APPRART	am	_	O	O	
+11-2	Flasch	NN	<unknown>	_	O	O	
+11-3	Herrn	NN	Herr	_	O	O	
+11-4	Professor	NN	Professor	_	O	O	
+11-5	Dr.	NN	Dr.	_	O	O	
+
+#id=12
+#text=L. Grasberger Herrn Professor Dr.
+12-1	L.	NE	L.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	Grasberger	NE	Grasberger	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+12-3	Herrn	NN	Herr	_	O	O	
+12-4	Professor	NN	Professor	_	O	O	
+12-5	Dr.	NN	Dr.	_	O	O	
+
+#id=13
+#text=O. Benndorf 5 Victorgasse, Wieden Herrn Hofrath von Citelberger Director des k. k. Museums für Kunst und Industrie, Stubenring Herrn Professor Dr.
+13-1	O.	APPR	o.	_	O	O	
+13-2	Benndorf	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-3	5	CARD	5	_	O	O	
+13-4	Victorgasse	NN	<unknown>	_	O	O	
+13-5	,	$,	,	_	O	O	
+13-6	Wieden	NN	<unknown>	_	O	O	
+13-7	Herrn	NN	Herr	_	O	O	
+13-8	Hofrath	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-9	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+13-10	Citelberger	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+13-11	Director	NE	Director	_	O	O	
+13-12	des	ART	die	_	O	O	
+13-13	k.	NN	<unknown>	_	O	O	
+13-14	k.	NN	<unknown>	_	O	O	
+13-15	Museums	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+13-16	für	APPR	für	_	O	O	
+13-17	Kunst	NN	Kunst	_	O	O	
+13-18	und	KON	und	_	O	O	
+13-19	Industrie	NN	Industrie	_	O	O	
+13-20	,	$,	,	_	O	O	
+13-21	Stubenring	NN	Stubenring	_	O	O	
+13-22	Herrn	NN	Herr	_	O	O	
+13-23	Professor	NN	Professor	_	O	O	
+13-24	Dr.	NN	Dr.	_	O	O	
+
+#id=14
+#text=F. Eyssenhardt Johanneum Herrn Professor Dr.
+14-1	F.	NE	F.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	Eyssenhardt	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+14-3	Johanneum	NN	<unknown>	_	O	O	
+14-4	Herrn	NN	Herr	_	O	O	
+14-5	Professor	NN	Professor	_	O	O	
+14-6	Dr.	NN	Dr.	_	O	O	
+
+#id=15
+#text=W. Schwarz Director des Fr~edr.
+15-1	W.	APPR	w.	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+15-2	Schwarz	NE	Schwarz	_	O	O	
+15-3	Director	NE	Director	_	O	O	
+15-4	des	ART	die	_	O	O	
+15-5	Fr~edr	NE	<unknown>	_	O	O	
+15-6	.	$.	.	_	O	O	
+
+#id=16
+#text=wilhelm Gymnasiums Leipzig Dresden Jena Heidelberg Heidelberg Heidelberg Bonn a.
+16-1	wilhelm	NE	Wilhelm	_	O	O	
+16-2	Gymnasiums	NN	Gymnasium	_	B-webanno.custom.LetterEntity_	B-LIT	
+16-3	Leipzig	NE	Leipzig	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-4	Dresden	NE	Dresden	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-5	Jena	NE	Jena	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-6	Heidelberg	NE	Heidelberg	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-7	Heidelberg	NE	Heidelberg	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-8	Heidelberg	NE	Heidelberg	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-9	Bonn	NE	Bonn	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-10	a.	APPRART	a.	_	O	O	
+
+#id=17
+#text=Rhe in Zürich Dorpat St.
+17-1	Rhe	ADJD	<unknown>	_	O	O	
+17-2	in	APPR	in	_	O	O	
+17-3	Zürich	NE	Zürich	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+17-4	Dorpat	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+17-5	St.	NE	St.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+
+#id=18
+#text=Petersburg Würz burg Würzburg Wien Hamburg Posen
+18-1	Petersburg	NE	Petersburg	_	B-webanno.custom.LetterEntity_	B-LIT	
+18-2	Würz	VVIMP	würzen	_	I-webanno.custom.LetterEntity_	I-LIT	
+18-3	burg	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-LIT	
+18-4	Würzburg	NE	Würzburg	_	I-webanno.custom.LetterEntity_	I-LIT	
+18-5	Wien	NE	Wien	_	I-webanno.custom.LetterEntity_	I-LIT	
+18-6	Hamburg	NE	Hamburg	_	I-webanno.custom.LetterEntity_	I-LIT	
+18-7	Posen	NN	Pose	_	O	O	
+

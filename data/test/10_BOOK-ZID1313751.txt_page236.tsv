@@ -1,0 +1,205 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=a) Helbig an Brunn Rom, 29. Januar 1881 2 fragten, ob man den soeben abgereisten Bruder auf telegraphischem Wege zurückbescheiden solle, periculum in mora sei nicht vorhanden.
+1-1	a	FM	a	_	O	O	
+1-2	)	$(	)	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1881	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	2	CARD	2	_	O	O	
+1-13	fragten	VVFIN	fragen	_	O	O	
+1-14	,	$,	,	_	O	O	
+1-15	ob	KOUS	ob	_	O	O	
+1-16	man	PIS	man	_	O	O	
+1-17	den	ART	die	_	O	O	
+1-18	soeben	ADV	soeben	_	O	O	
+1-19	abgereisten	ADJA	abgereist	_	O	O	
+1-20	Bruder	NN	Bruder	_	O	O	
+1-21	auf	APPR	auf	_	O	O	
+1-22	telegraphischem	ADJA	<unknown>	_	O	O	
+1-23	Wege	NN	Weg	_	O	O	
+1-24	zurückbescheiden	VVINF	<unknown>	_	O	O	
+1-25	solle	VMFIN	sollen	_	O	O	
+1-26	,	$,	,	_	O	O	
+1-27	periculum	ADJD	<unknown>	_	O	O	
+1-28	in	APPR	in	_	O	O	
+1-29	mora	NE	Mora	_	O	O	
+1-30	sei	VAFIN	sein	_	O	O	
+1-31	nicht	PTKNEG	nicht	_	O	O	
+1-32	vorhanden	ADJD	vorhanden	_	O	O	
+1-33	.	$.	.	_	O	O	
+
+#id=2
+#text=Diese Versicherung ertheilten sie noch wenige Stunden vor seinem Tode, der urplötzlich durch Eintreten einer Lungenlähmung erfolgte.
+2-1	Diese	PDAT	dies	_	O	O	
+2-2	Versicherung	NN	Versicherung	_	O	O	
+2-3	ertheilten	VVFIN	<unknown>	_	O	O	
+2-4	sie	PPER	sie	_	O	O	
+2-5	noch	ADV	noch	_	O	O	
+2-6	wenige	PIAT	wenige	_	O	O	
+2-7	Stunden	NN	Stunde|Stunden	_	O	O	
+2-8	vor	APPR	vor	_	O	O	
+2-9	seinem	PPOSAT	sein	_	O	O	
+2-10	Tode	NN	Tod	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	der	PRELS	die	_	O	O	
+2-13	urplötzlich	ADJD	urplötzlich	_	O	O	
+2-14	durch	APPR	durch	_	O	O	
+2-15	Eintreten	NN	Eintreten	_	O	O	
+2-16	einer	ART	eine	_	O	O	
+2-17	Lungenlähmung	NN	<unknown>	_	O	O	
+2-18	erfolgte	VVFIN	erfolgen	_	O	O	
+2-19	.	$.	.	_	O	O	
+
+#id=3
+#text=Für das Institut ist dieser Tod wirklich ein unersätzlicher Verlust.
+3-1	Für	APPR	für	_	O	O	
+3-2	das	ART	die	_	O	O	
+3-3	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-4	ist	VAFIN	sein	_	O	O	
+3-5	dieser	PDAT	dies	_	O	O	
+3-6	Tod	NN	Tod	_	O	O	
+3-7	wirklich	ADJD	wirklich	_	O	O	
+3-8	ein	ART	eine	_	O	O	
+3-9	unersätzlicher	ADJA	<unknown>	_	O	O	
+3-10	Verlust	NN	Verlust	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=Bei der immer mehr zunehmenden Concurrenz auf archäologischem Gebiete, bei den sich täglich steigernden Schwierigkeiten Zutritt zu den Monumenten zu erhalten, war es für das Institut ein wahrer Segen, daß ein Mann, der wie Klügmann Land, Leute und die hiesigen Verhältnisse durch langen Aufenthalt kannte, in aufopfernder Weise für die Interessen des Institutes thätig war.
+4-1	Bei	APPR	bei	_	O	O	
+4-2	der	ART	die	_	O	O	
+4-3	immer	ADV	immer	_	O	O	
+4-4	mehr	ADV	mehr	_	O	O	
+4-5	zunehmenden	ADJA	zunehmend	_	O	O	
+4-6	Concurrenz	NN	<unknown>	_	O	O	
+4-7	auf	APPR	auf	_	O	O	
+4-8	archäologischem	ADJA	archäologisch	_	O	O	
+4-9	Gebiete	NN	Gebiet	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	bei	APPR	bei	_	O	O	
+4-12	den	PRELS	die	_	O	O	
+4-13	sich	PRF	sich	_	O	O	
+4-14	täglich	ADJD	täglich	_	O	O	
+4-15	steigernden	ADJA	steigernd	_	O	O	
+4-16	Schwierigkeiten	NN	Schwierigkeit	_	O	O	
+4-17	Zutritt	NN	Zutritt	_	O	O	
+4-18	zu	APPR	zu	_	O	O	
+4-19	den	ART	die	_	O	O	
+4-20	Monumenten	NN	Monument	_	O	O	
+4-21	zu	PTKZU	zu	_	O	O	
+4-22	erhalten	VVINF	erhalten	_	O	O	
+4-23	,	$,	,	_	O	O	
+4-24	war	VAFIN	sein	_	O	O	
+4-25	es	PPER	es	_	O	O	
+4-26	für	APPR	für	_	O	O	
+4-27	das	ART	die	_	O	O	
+4-28	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-29	ein	ART	eine	_	O	O	
+4-30	wahrer	ADJA	wahr	_	O	O	
+4-31	Segen	NN	Segen	_	O	O	
+4-32	,	$,	,	_	O	O	
+4-33	daß	KOUS	dass	_	O	O	
+4-34	ein	ART	eine	_	O	O	
+4-35	Mann	NN	Mann	_	O	O	
+4-36	,	$,	,	_	O	O	
+4-37	der	PRELS	die	_	O	O	
+4-38	wie	KOKOM	wie	_	O	O	
+4-39	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-40	Land	NN	Land	_	O	O	
+4-41	,	$,	,	_	O	O	
+4-42	Leute	NN	Leute	_	O	O	
+4-43	und	KON	und	_	O	O	
+4-44	die	ART	die	_	O	O	
+4-45	hiesigen	ADJA	hiesig	_	O	O	
+4-46	Verhältnisse	NN	Verhältnis	_	O	O	
+4-47	durch	APPR	durch	_	O	O	
+4-48	langen	ADJA	lang	_	O	O	
+4-49	Aufenthalt	NN	Aufenthalt	_	O	O	
+4-50	kannte	VVFIN	kennen	_	O	O	
+4-51	,	$,	,	_	O	O	
+4-52	in	APPR	in	_	O	O	
+4-53	aufopfernder	ADJA	aufopfernder	_	O	O	
+4-54	Weise	NN	Weise	_	O	O	
+4-55	für	APPR	für	_	O	O	
+4-56	die	ART	die	_	O	O	
+4-57	Interessen	NN	Interesse	_	O	O	
+4-58	des	ART	die	_	O	O	
+4-59	Institutes	NN	Institut	_	O	O	
+4-60	thätig	ADJD	<unknown>	_	O	O	
+4-61	war	VAFIN	sein	_	O	O	
+4-62	.	$.	.	_	O	O	
+
+#id=5
+#text=Was aus den Kindern** werden wird, ob sie in Rom bleiben oder nach Hamburg oder Lübeck übersiedeln, ist noch nicht entschieden.
+5-1	Was	PWS	was	_	O	O	
+5-2	aus	APPR	aus	_	O	O	
+5-3	den	ART	die	_	O	O	
+5-4	Kindern**	NN	<unknown>	_	O	O	
+5-5	werden	VAINF	werden	_	O	O	
+5-6	wird	VAFIN	werden	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	ob	KOUS	ob	_	O	O	
+5-9	sie	PPER	sie	_	O	O	
+5-10	in	APPR	in	_	O	O	
+5-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-12	bleiben	VVINF	bleiben	_	O	O	
+5-13	oder	KON	oder	_	O	O	
+5-14	nach	APPR	nach	_	O	O	
+5-15	Hamburg	NE	Hamburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-16	oder	KON	oder	_	O	O	
+5-17	Lübeck	NE	Lübeck	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-18	übersiedeln	VVFIN	übersiedeln	_	O	O	
+5-19	,	$,	,	_	O	O	
+5-20	ist	VAFIN	sein	_	O	O	
+5-21	noch	ADV	noch	_	O	O	
+5-22	nicht	PTKNEG	nicht	_	O	O	
+5-23	entschieden	VVPP	entscheiden	_	O	O	
+5-24	.	$.	.	_	O	O	
+
+#id=6
+#text=Der Oheim wird zu diesem Zwecke im Monat April nach Rom kommen.
+6-1	Der	ART	die	_	O	O	
+6-2	Oheim	NN	<unknown>	_	O	O	
+6-3	wird	VAFIN	werden	_	O	O	
+6-4	zu	APPR	zu	_	O	O	
+6-5	diesem	PDAT	dies	_	O	O	
+6-6	Zwecke	NN	Zweck	_	O	O	
+6-7	im	APPRART	in	_	O	O	
+6-8	Monat	NN	Monat	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-10	nach	APPR	nach	_	O	O	
+6-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-12	kommen	VVINF	kommen	_	O	O	
+6-13	.	$.	.	_	O	O	
+
+#id=7
+#text=** Mutter war vor dem Gatten gestorben.
+7-1	**	ADJA	<unknown>	_	O	O	
+7-2	Mutter	NN	Mutter	_	O	O	
+7-3	war	VAFIN	sein	_	O	O	
+7-4	vor	APPR	vor	_	O	O	
+7-5	dem	ART	die	_	O	O	
+7-6	Gatten	NN	Gatte	_	O	O	
+7-7	gestorben	VVPP	sterben	_	O	O	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=Siehe Klügmann an Brunn Meran 5. Juni 1872.
+8-1	Siehe	VVIMP	sehen	_	O	O	
+8-2	Klügmann	NN	<unknown>	_	O	O	
+8-3	an	APPR	an	_	O	O	
+8-4	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+8-5	Meran	NE	Meran	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+8-6	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+8-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-8	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-9	1872	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-10	.	$.	.	_	O	O	
+

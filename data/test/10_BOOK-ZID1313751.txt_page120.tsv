@@ -1,0 +1,94 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=16 2 Wolf gang Helbig an Heinrich Brunn Rom, 26. Mai 1874 Soeben schreibt mir Stephani, Daß auf der Halbinsel Tamen eine Vase entdeckt worden ist, deren Darstellung "offenbar auf die athenische Giebelgruppe mit dem Streite des Poseidon und der Pallas zurückgeht und die meisten handelnden Figuren deutlich bezeichnet."
+1-1	16	CARD	16	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Wolf	NN	Wolf	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	gang	ADJD	gang	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Soeben	NE	<unknown>	_	O	O	
+1-16	schreibt	VVFIN	schreiben	_	O	O	
+1-17	mir	PPER	ich	_	O	O	
+1-18	Stephani	NE	Stephani	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-19	,	$,	,	_	O	O	
+1-20	Daß	KOUS	dass	_	O	O	
+1-21	auf	APPR	auf	_	O	O	
+1-22	der	ART	die	_	O	O	
+1-23	Halbinsel	NN	Halbinsel	_	O	O	
+1-24	Tamen	NN	<unknown>	_	O	O	
+1-25	eine	ART	eine	_	O	O	
+1-26	Vase	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-27	entdeckt	VVPP	entdecken	_	O	O	
+1-28	worden	VAPP	werden	_	O	O	
+1-29	ist	VAFIN	sein	_	O	O	
+1-30	,	$,	,	_	O	O	
+1-31	deren	PRELAT	die	_	O	O	
+1-32	Darstellung	NN	Darstellung	_	O	O	
+1-33	"	$(	"	_	O	O	
+1-34	offenbar	ADJD	offenbar	_	O	O	
+1-35	auf	APPR	auf	_	O	O	
+1-36	die	ART	die	_	O	O	
+1-37	athenische	ADJA	athenisch	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-38	Giebelgruppe	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+1-39	mit	APPR	mit	_	O	O	
+1-40	dem	ART	die	_	O	O	
+1-41	Streite	NN	Streit	_	O	O	
+1-42	des	ART	die	_	O	O	
+1-43	Poseidon	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-44	und	KON	und	_	O	O	
+1-45	der	ART	die	_	O	O	
+1-46	Pallas	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-47	zurückgeht	VVFIN	zurückgehen	_	O	O	
+1-48	und	KON	und	_	O	O	
+1-49	die	ART	die	_	O	O	
+1-50	meisten	PIAT	meist	_	O	O	
+1-51	handelnden	ADJA	handelnd	_	O	O	
+1-52	Figuren	NN	Figur	_	O	O	
+1-53	deutlich	ADJD	deutlich	_	O	O	
+1-54	bezeichnet	VVPP	bezeichnen	_	O	O	
+1-55	.	$.	.	_	O	O	
+1-56	"	$(	"	_	O	O	
+
+#id=2
+#text=Dies zur Beachtung für Ihre Untersuchung über die Giebelgruppen, von der Sie mir schreiben.
+2-1	Dies	PDS	dies	_	O	O	
+2-2	zur	APPRART	zu	_	O	O	
+2-3	Beachtung	NN	Beachtung	_	O	O	
+2-4	für	APPR	für	_	O	O	
+2-5	Ihre	PPOSAT	ihr	_	O	O	
+2-6	Untersuchung	NN	Untersuchung	_	O	O	
+2-7	über	APPR	über	_	O	O	
+2-8	die	ART	die	_	O	O	
+2-9	Giebelgruppen	NN	<unknown>	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	von	APPR	von	_	O	O	
+2-12	der	PRELS	die	_	O	O	
+2-13	Sie	PPER	Sie	_	O	O	
+2-14	mir	PRF	ich	_	O	O	
+2-15	schreiben	VVFIN	schreiben	_	O	O	
+2-16	.	$.	.	_	O	O	
+
+#id=3
+#text=Mit herzlichen Grüßen für Sie und die Ihrigen Ihr dankbar ergebener Helbig
+3-1	Mit	APPR	mit	_	O	O	
+3-2	herzlichen	ADJA	herzlich	_	O	O	
+3-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+3-4	für	APPR	für	_	O	O	
+3-5	Sie	PPER	Sie	_	O	O	
+3-6	und	KON	und	_	O	O	
+3-7	die	ART	die	_	O	O	
+3-8	Ihrigen	NN	<unknown>	_	O	O	
+3-9	Ihr	PPOSAT	ihr	_	O	O	
+3-10	dankbar	ADJD	dankbar	_	O	O	
+3-11	ergebener	ADJD	ergebener	_	O	O	
+3-12	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

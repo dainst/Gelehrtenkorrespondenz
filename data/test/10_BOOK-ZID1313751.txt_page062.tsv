@@ -1,0 +1,265 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=4 Helbig an k~ Rom, 6. Juli 1863 Ansatz, welcher zeigt, daß sie ursprünglich etwas über die Schulter gelegt hielt.
+1-1	4	CARD	4	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	k~	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Ansatz	NN	Ansatz	_	O	O	
+1-12	,	$,	,	_	O	O	
+1-13	welcher	PWS	welche	_	O	O	
+1-14	zeigt	VVFIN	zeigen	_	O	O	
+1-15	,	$,	,	_	O	O	
+1-16	daß	KOUS	dass	_	O	O	
+1-17	sie	PPER	sie	_	O	O	
+1-18	ursprünglich	ADJD	ursprünglich	_	O	O	
+1-19	etwas	ADV	etwas	_	O	O	
+1-20	über	APPR	über	_	O	O	
+1-21	die	ART	die	_	O	O	
+1-22	Schulter	NN	Schulter	_	O	O	
+1-23	gelegt	VVPP	legen	_	O	O	
+1-24	hielt	VVFIN	halten	_	O	O	
+1-25	.	$.	.	_	O	O	
+
+#id=2
+#text=Die römische Statue habe ich bis jetzt hierfür nicht untersuchen können.
+2-1	Die	ART	die	_	O	O	
+2-2	römische	ADJA	römisch	_	B-webanno.custom.LetterEntity_	B-OBJ	
+2-3	Statue	NN	Statue	_	I-webanno.custom.LetterEntity_	I-OBJ	
+2-4	habe	VAFIN	haben	_	O	O	
+2-5	ich	PPER	ich	_	O	O	
+2-6	bis	KON	bis	_	O	O	
+2-7	jetzt	ADV	jetzt	_	O	O	
+2-8	hierfür	PAV	hierfür	_	O	O	
+2-9	nicht	PTKNEG	nicht	_	O	O	
+2-10	untersuchen	VVINF	untersuchen	_	O	O	
+2-11	können	VMINF	können	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Haben Sie Ihren Nachweis der polykletischen Eigenthümlichkeiten jener Statue irgendwo drucken lassen '?
+3-1	Haben	VAFIN	haben	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	Ihren	PPOSAT	ihr	_	O	O	
+3-4	Nachweis	NN	Nachweis	_	O	O	
+3-5	der	ART	die	_	O	O	
+3-6	polykletischen	ADJA	<unknown>	_	O	O	
+3-7	Eigenthümlichkeiten	NN	<unknown>	_	O	O	
+3-8	jener	PDAT	jen	_	O	O	
+3-9	Statue	NN	Statue	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-10	irgendwo	ADV	irgendwo	_	O	O	
+3-11	drucken	VVINF	drucken	_	O	O	
+3-12	lassen	VVINF	lassen	_	O	O	
+3-13	'	$(	'	_	O	O	
+3-14	?	$.	?	_	O	O	
+
+#id=4
+#text=Ich muß hieran noch einige andere Fragen knüpfen, um deren Beantwortung ich Sie bitte.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	muß	VMFIN	müssen	_	O	O	
+4-3	hieran	PAV	hieran	_	O	O	
+4-4	noch	ADV	noch	_	O	O	
+4-5	einige	PIAT	einige	_	O	O	
+4-6	andere	PIS	andere	_	O	O	
+4-7	Fragen	NN	Frage	_	O	O	
+4-8	knüpfen	VVINF	knüpfen	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	um	APPR	um	_	O	O	
+4-11	deren	PRELAT	die	_	O	O	
+4-12	Beantwortung	NN	Beantwortung	_	O	O	
+4-13	ich	PPER	ich	_	O	O	
+4-14	Sie	PPER	Sie	_	O	O	
+4-15	bitte	PTKANT	bitte	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Wo in der Institutsbibliothek befinden sich die neu erworbenen, noch nicht eingebundenen Bücher '?
+5-1	Wo	PWAV	wo	_	O	O	
+5-2	in	APPR	in	_	O	O	
+5-3	der	ART	die	_	O	O	
+5-4	Institutsbibliothek	NN	Institutsbibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-5	befinden	VVFIN	befinden	_	O	O	
+5-6	sich	PRF	sich	_	O	O	
+5-7	die	ART	die	_	O	O	
+5-8	neu	ADJD	neu	_	O	O	
+5-9	erworbenen	ADJA	erworben	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	noch	ADV	noch	_	O	O	
+5-12	nicht	PTKNEG	nicht	_	O	O	
+5-13	eingebundenen	ADJA	eingebunden	_	O	O	
+5-14	Bücher	NN	Buch	_	O	O	
+5-15	'	$(	'	_	O	O	
+5-16	?	$.	?	_	O	O	
+
+#id=6
+#text=Namentlich vermisse ich schmerzlichWelckers Text o zu Ter ite und die neusten Lieferungen des Bullettino napoletano.
+6-1	Namentlich	ADJD	namentlich	_	O	O	
+6-2	vermisse	VVFIN	vermissen	_	O	O	
+6-3	ich	PPER	ich	_	O	O	
+6-4	schmerzlichWelckers	ADJA	<unknown>	_	O	O	
+6-5	Text	NN	Text	_	O	O	
+6-6	o	VVFIN	<unknown>	_	O	O	
+6-7	zu	APPR	zu	_	O	O	
+6-8	Ter	ADJA	<unknown>	_	O	O	
+6-9	ite	NN	<unknown>	_	O	O	
+6-10	und	KON	und	_	O	O	
+6-11	die	ART	die	_	O	O	
+6-12	neusten	ADJA	neu	_	O	O	
+6-13	Lieferungen	NN	Lieferung	_	O	O	
+6-14	des	ART	die	_	O	O	
+6-15	Bullettino	NE	<unknown>	_	O	O	
+6-16	napoletano	NE	<unknown>	_	O	O	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=Ferner bitte ich Sie mir noch einmal das Recept der Flüssigkeit mitzutheilen, mit der man Staniolabdrücke fertigt.
+7-1	Ferner	ADJD	fern	_	O	O	
+7-2	bitte	VVFIN	bitten	_	O	O	
+7-3	ich	PPER	ich	_	O	O	
+7-4	Sie	PPER	Sie	_	O	O	
+7-5	mir	PRF	ich	_	O	O	
+7-6	noch	ADV	noch	_	O	O	
+7-7	einmal	ADV	einmal	_	O	O	
+7-8	das	ART	die	_	O	O	
+7-9	Recept	NN	<unknown>	_	O	O	
+7-10	der	ART	die	_	O	O	
+7-11	Flüssigkeit	NN	Flüssigkeit	_	O	O	
+7-12	mitzutheilen	VVIZU	<unknown>	_	O	O	
+7-13	,	$,	,	_	O	O	
+7-14	mit	APPR	mit	_	O	O	
+7-15	der	PRELS	die	_	O	O	
+7-16	man	PIS	man	_	O	O	
+7-17	Staniolabdrücke	NN	<unknown>	_	O	O	
+7-18	fertigt	VVFIN	fertigen	_	O	O	
+7-19	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich habe das Recept in Neapel verbummelt und die Flüssigkeit selbst den nach mir Angekommenen zum Gebrauche in Neapel hinterlassen.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	habe	VAFIN	haben	_	O	O	
+8-3	das	ART	die	_	O	O	
+8-4	Recept	NN	<unknown>	_	O	O	
+8-5	in	APPR	in	_	O	O	
+8-6	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-7	verbummelt	VVPP	verbummeln	_	O	O	
+8-8	und	KON	und	_	O	O	
+8-9	die	ART	die	_	O	O	
+8-10	Flüssigkeit	NN	Flüssigkeit	_	O	O	
+8-11	selbst	ADV	selbst	_	O	O	
+8-12	den	ART	die	_	O	O	
+8-13	nach	APPR	nach	_	O	O	
+8-14	mir	PPER	ich	_	O	O	
+8-15	Angekommenen	NN	Angekommenen	_	O	O	
+8-16	zum	APPRART	zu	_	O	O	
+8-17	Gebrauche	NN	Gebrauch	_	O	O	
+8-18	in	APPR	in	_	O	O	
+8-19	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-20	hinterlassen	VVINF	hinterlassen	_	O	O	
+8-21	.	$.	.	_	O	O	
+
+#id=9
+#text=Wo befinden sich die 50 Abdrücke meines Aufsatzes über die Meleagerreliefs ?
+9-1	Wo	PWAV	wo	_	O	O	
+9-2	befinden	VVFIN	befinden	_	O	O	
+9-3	sich	PRF	sich	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	50	CARD	50	_	O	O	
+9-6	Abdrücke	NN	Abdruck	_	O	O	
+9-7	meines	PPOSAT	mein	_	O	O	
+9-8	Aufsatzes	NN	Aufsatz	_	O	O	
+9-9	über	APPR	über	_	O	O	
+9-10	die	ART	die	_	O	O	
+9-11	Meleagerreliefs	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-12	?	$.	?	_	O	O	
+
+#id=10
+#text=Sie würden mir einen großen Gefallen thun, wenn Sie die dazugehörigen Tafeln bald stechen ließen und mir zuschickten.
+10-1	Sie	PPER	Sie	_	O	O	
+10-2	würden	VAFIN	werden	_	O	O	
+10-3	mir	PPER	ich	_	O	O	
+10-4	einen	ART	eine	_	O	O	
+10-5	großen	ADJA	groß	_	O	O	
+10-6	Gefallen	NN	Gefallen	_	O	O	
+10-7	thun	NE	<unknown>	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	wenn	KOUS	wenn	_	O	O	
+10-10	Sie	PPER	Sie	_	O	O	
+10-11	die	ART	die	_	O	O	
+10-12	dazugehörigen	ADJA	dazugehörig	_	O	O	
+10-13	Tafeln	NN	Tafel	_	O	O	
+10-14	bald	ADV	bald	_	O	O	
+10-15	stechen	VVINF	stechen	_	O	O	
+10-16	ließen	VVFIN	lassen	_	O	O	
+10-17	und	KON	und	_	O	O	
+10-18	mir	PPER	ich	_	O	O	
+10-19	zuschickten	VVFIN	zuschicken	_	O	O	
+10-20	.	$.	.	_	O	O	
+
+#id=11
+#text=Ich möchte gern den Leuten in Neapel durch irgend eine kleine Aufmerksamkeit meinen Dank beweisen.
+11-1	Ich	PPER	ich	_	O	O	
+11-2	möchte	VMFIN	mögen	_	O	O	
+11-3	gern	ADV	gern	_	O	O	
+11-4	den	ART	die	_	O	O	
+11-5	Leuten	NN	Leute	_	O	O	
+11-6	in	APPR	in	_	O	O	
+11-7	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-8	durch	APPR	durch	_	O	O	
+11-9	irgend	ADV	irgend	_	O	O	
+11-10	eine	ART	eine	_	O	O	
+11-11	kleine	ADJA	klein	_	O	O	
+11-12	Aufmerksamkeit	NN	Aufmerksamkeit	_	O	O	
+11-13	meinen	PPOSAT	mein	_	O	O	
+11-14	Dank	NN	Dank	_	O	O	
+11-15	beweisen	VVINF	beweisen	_	O	O	
+11-16	.	$.	.	_	O	O	
+
+#id=12
+#text=Fiorelli war wirklich außerordentlich liebenswürdig gegen mich.
+12-1	Fiorelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	war	VAFIN	sein	_	O	O	
+12-3	wirklich	ADJD	wirklich	_	O	O	
+12-4	außerordentlich	ADJD	außerordentlich	_	O	O	
+12-5	liebenswürdig	ADJD	liebenswürdig	_	O	O	
+12-6	gegen	APPR	gegen	_	O	O	
+12-7	mich	PRF	ich	_	O	O	
+12-8	.	$.	.	_	O	O	
+
+#id=13
+#text=Die Gerhardschen Aufträge habe ich alle besorgt und 25 Zeichnungen zum Theil von fürchterlichen Ungeheuern für ihn anfertigen lassen.
+13-1	Die	ART	die	_	O	O	
+13-2	Gerhardschen	NN	<unknown>	_	O	O	
+13-3	Aufträge	NN	Auftrag	_	O	O	
+13-4	habe	VAFIN	haben	_	O	O	
+13-5	ich	PPER	ich	_	O	O	
+13-6	alle	PIS	alle	_	O	O	
+13-7	besorgt	VVPP	besorgen	_	O	O	
+13-8	und	KON	und	_	O	O	
+13-9	25	CARD	25	_	O	O	
+13-10	Zeichnungen	NN	Zeichnung	_	O	O	
+13-11	zum	APPRART	zu	_	O	O	
+13-12	Theil	NN	<unknown>	_	O	O	
+13-13	von	APPR	von	_	O	O	
+13-14	fürchterlichen	ADJA	fürchterlich	_	O	O	
+13-15	Ungeheuern	NN	Ungeheuer	_	O	O	
+13-16	für	APPR	für	_	O	O	
+13-17	ihn	PPER	er	_	O	O	
+13-18	anfertigen	VVINF	anfertigen	_	O	O	
+13-19	lassen	VVINF	lassen	_	O	O	
+13-20	.	$.	.	_	O	O	
+
+#id=14
+#text=Da ich möglichst bald sicher sein
+14-1	Da	KOUS	da	_	O	O	
+14-2	ich	PPER	ich	_	O	O	
+14-3	möglichst	ADV	möglichst	_	O	O	
+14-4	bald	ADV	bald	_	O	O	
+14-5	sicher	ADJD	sicher	_	O	O	
+14-6	sein	VAINF	sein	_	O	O	
+

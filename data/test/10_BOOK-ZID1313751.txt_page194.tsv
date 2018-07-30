@@ -1,0 +1,74 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=51 Wolfgang Helbig an Heinrich Brunn Rom, 11. Oktober 1885 Postkarte Rom 11. Oct.
+1-1	51	CARD	@card@	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1885	CARD	1885	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Postkarte	NN	Postkarte	_	O	O	
+1-14	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-16	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	Oct	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1885 Lieber Herr Professor Hätten Sie vielleicht die große Güte das Postpaket mit dem tarentiner Kopfe möglichst bald an Francesco Martinetti Via Alessandrina abzuschicken?
+2-1	1885	CARD	1885	_	O	O	
+2-2	Lieber	ADJA	lieb	_	O	O	
+2-3	Herr	NN	Herr	_	O	O	
+2-4	Professor	NN	Professor	_	O	O	
+2-5	Hätten	VAFIN	haben	_	O	O	
+2-6	Sie	PPER	Sie	_	O	O	
+2-7	vielleicht	ADV	vielleicht	_	O	O	
+2-8	die	ART	die	_	O	O	
+2-9	große	ADJA	groß	_	O	O	
+2-10	Güte	NN	Güte	_	O	O	
+2-11	das	ART	die	_	O	O	
+2-12	Postpaket	NN	Postpaket	_	O	O	
+2-13	mit	APPR	mit	_	O	O	
+2-14	dem	ART	die	_	O	O	
+2-15	tarentiner	ADJA	<unknown>	_	O	O	
+2-16	Kopfe	NN	Kopf	_	O	O	
+2-17	möglichst	ADV	möglichst	_	O	O	
+2-18	bald	ADV	bald	_	O	O	
+2-19	an	APPR	an	_	O	O	
+2-20	Francesco	NE	Francesco	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-21	Martinetti	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-22	Via	NE	Via	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-23	Alessandrina	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+2-24	abzuschicken	VVIZU	abschicken	_	O	O	
+2-25	?	$.	?	_	O	O	
+
+#id=3
+#text=Barracco würde sich sehr freuen den Kopf bei seinem Eintreffen vorzufinden.
+3-1	Barracco	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	würde	VAFIN	werden	_	O	O	
+3-3	sich	PRF	sich	_	O	O	
+3-4	sehr	ADV	sehr	_	O	O	
+3-5	freuen	VVFIN	freuen	_	O	O	
+3-6	den	ART	die	_	O	O	
+3-7	Kopf	NN	Kopf	_	O	O	
+3-8	bei	APPR	bei	_	O	O	
+3-9	seinem	PPOSAT	sein	_	O	O	
+3-10	Eintreffen	NN	Eintreffen	_	O	O	
+3-11	vorzufinden	VVIZU	vorfinden	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Mit herzlichen Grüßen Ihr ergebener Helbig
+4-1	Mit	APPR	mit	_	O	O	
+4-2	herzlichen	ADJA	herzlich	_	O	O	
+4-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+4-4	Ihr	PPOSAT	ihr	_	O	O	
+4-5	ergebener	ADJA	ergeben	_	O	O	
+4-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

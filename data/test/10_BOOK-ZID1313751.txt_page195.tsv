@@ -1,0 +1,114 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=52 Wolfgang Helbig an Heinrich Brunn Rom, 18. Oktober 1885 Postkarte Rom 18. Oct.
+1-1	52	CARD	52	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1885	CARD	1885	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Postkarte	NN	Postkarte	_	O	O	
+1-14	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-16	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	Oct	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1885 Lieber Herr Professor !
+2-1	1885	CARD	1885	_	O	O	
+2-2	Lieber	ADJA	lieb	_	O	O	
+2-3	Herr	NN	Herr	_	O	O	
+2-4	Professor	NN	Professor	_	O	O	
+2-5	!	$.	!	_	O	O	
+
+#id=3
+#text=Da uns die Adresse von Dr.
+3-1	Da	KOUS	da	_	O	O	
+3-2	uns	PRF	wir	_	O	O	
+3-3	die	ART	die	_	O	O	
+3-4	Adresse	NN	Adresse	_	O	O	
+3-5	von	APPR	von	_	O	O	
+3-6	Dr.	NN	Dr.	_	O	O	
+
+#id=4
+#text=Sittl unbekannt ist, so können wir nicht umhin Ihnen mit vielen Bitten um Entschuldigung einen Correcturbogen für denselben zuzuschicken.
+4-1	Sittl	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	unbekannt	ADJD	unbekannt	_	O	O	
+4-3	ist	VAFIN	sein	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	so	ADV	so	_	O	O	
+4-6	können	VMFIN	können	_	O	O	
+4-7	wir	PPER	wir	_	O	O	
+4-8	nicht	PTKNEG	nicht	_	O	O	
+4-9	umhin	ADV	umhin	_	O	O	
+4-10	Ihnen	PPER	Sie	_	O	O	
+4-11	mit	APPR	mit	_	O	O	
+4-12	vielen	PIAT	viele	_	O	O	
+4-13	Bitten	NN	Bitte|Bitten	_	O	O	
+4-14	um	APPR	um	_	O	O	
+4-15	Entschuldigung	NN	Entschuldigung	_	O	O	
+4-16	einen	ART	eine	_	O	O	
+4-17	Correcturbogen	NN	<unknown>	_	O	O	
+4-18	für	APPR	für	_	O	O	
+4-19	denselben	PDS	derselbe	_	O	O	
+4-20	zuzuschicken	VVIZU	zuschicken	_	O	O	
+4-21	.	$.	.	_	O	O	
+
+#id=5
+#text=Haben Sie die Güte den Bogen an Sittl weiter zu befördern und zu veranlassen, daß er baldigst zurückgeschickt werde.
+5-1	Haben	VAFIN	haben	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	die	ART	die	_	O	O	
+5-4	Güte	NN	Güte	_	O	O	
+5-5	den	ART	die	_	O	O	
+5-6	Bogen	NN	Bogen	_	O	O	
+5-7	an	APPR	an	_	O	O	
+5-8	Sittl	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-9	weiter	ADV	weiter	_	O	O	
+5-10	zu	PTKZU	zu	_	O	O	
+5-11	befördern	VVINF	befördern	_	O	O	
+5-12	und	KON	und	_	O	O	
+5-13	zu	PTKZU	zu	_	O	O	
+5-14	veranlassen	VVINF	veranlassen	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	daß	KOUS	dass	_	O	O	
+5-17	er	PPER	er	_	O	O	
+5-18	baldigst	ADJD	baldig	_	O	O	
+5-19	zurückgeschickt	VVPP	zurückschicken	_	O	O	
+5-20	werde	VAFIN	werden	_	O	O	
+5-21	.	$.	.	_	O	O	
+
+#id=6
+#text=Der übrigens recht unbedeutende Artikel ist leider italienisch geschrieben und eine Stelle ganz unverständlich.
+6-1	Der	ART	die	_	O	O	
+6-2	übrigens	ADV	übrigens	_	O	O	
+6-3	recht	ADJD	recht	_	O	O	
+6-4	unbedeutende	ADJA	unbedeutend	_	O	O	
+6-5	Artikel	NN	Artikel	_	O	O	
+6-6	ist	VAFIN	sein	_	O	O	
+6-7	leider	ADV	leider	_	O	O	
+6-8	italienisch	ADJD	italienisch	_	O	O	
+6-9	geschrieben	VVPP	schreiben	_	O	O	
+6-10	und	KON	und	_	O	O	
+6-11	eine	ART	eine	_	O	O	
+6-12	Stelle	NN	Stelle	_	O	O	
+6-13	ganz	ADV	ganz	_	O	O	
+6-14	unverständlich	ADJD	unverständlich	_	O	O	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=Mit herzlichen Grüßen Ihr ergebener Helbig
+7-1	Mit	APPR	mit	_	O	O	
+7-2	herzlichen	ADJA	herzlich	_	O	O	
+7-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+7-4	Ihr	PPOSAT	ihr	_	O	O	
+7-5	ergebener	ADJA	ergeben	_	O	O	
+7-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

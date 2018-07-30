@@ -1,0 +1,115 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=39 Wolfgang Helbig an Heinrich Brunn Rom, 27. November 1883 2 Eifer nicht erkalten zu lassen.
+1-1	39	CARD	39	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1883	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	2	CARD	2	_	O	O	
+1-14	Eifer	NN	Eifer	_	O	O	
+1-15	nicht	PTKNEG	nicht	_	O	O	
+1-16	erkalten	VVINF	erkalten	_	O	O	
+1-17	zu	PTKZU	zu	_	O	O	
+1-18	lassen	VVINF	lassen	_	O	O	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=Hat er dann einmal einen der sechs schönen für die Gypssammlung bestimmten Räume i eirlger Maaßen gefüllt gesehen und hat ihm die Presse einigen Weihrauch gespendet, dann wird sich das Weitere von selbst finden.
+2-1	Hat	VAFIN	haben	_	O	O	
+2-2	er	PPER	er	_	O	O	
+2-3	dann	ADV	dann	_	O	O	
+2-4	einmal	ADV	einmal	_	O	O	
+2-5	einen	PIS	eine	_	O	O	
+2-6	der	ART	die	_	O	O	
+2-7	sechs	CARD	sechs	_	O	O	
+2-8	schönen	ADJA	schön	_	O	O	
+2-9	für	APPR	für	_	O	O	
+2-10	die	ART	die	_	O	O	
+2-11	Gypssammlung	NN	<unknown>	_	O	O	
+2-12	bestimmten	ADJA	bestimmt	_	O	O	
+2-13	Räume	NN	Raum	_	O	O	
+2-14	i	NE	i	_	O	O	
+2-15	eirlger	NE	<unknown>	_	O	O	
+2-16	Maaßen	VVFIN	<unknown>	_	O	O	
+2-17	gefüllt	ADJD	gefüllt	_	O	O	
+2-18	gesehen	VVPP	sehen	_	O	O	
+2-19	und	KON	und	_	O	O	
+2-20	hat	VAFIN	haben	_	O	O	
+2-21	ihm	PPER	er	_	O	O	
+2-22	die	ART	die	_	O	O	
+2-23	Presse	NN	Presse	_	O	O	
+2-24	einigen	PIAT	einige	_	O	O	
+2-25	Weihrauch	NN	Weihrauch	_	O	O	
+2-26	gespendet	VVPP	spenden	_	O	O	
+2-27	,	$,	,	_	O	O	
+2-28	dann	ADV	dann	_	O	O	
+2-29	wird	VAFIN	werden	_	O	O	
+2-30	sich	PRF	sich	_	O	O	
+2-31	das	ART	die	_	O	O	
+2-32	Weitere	NN	Weiter	_	O	O	
+2-33	von	APPR	von	_	O	O	
+2-34	selbst	ADV	selbst	_	O	O	
+2-35	finden	VVINF	finden	_	O	O	
+2-36	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich bitte Sie um Entschuldigung, daß ich Sie mit diesen Bestellungen behellige, weiß aber, daß Sie dieselben gern übernehmen, da es ja für uns von der größten Wichtigkeit ist eine leidliche Gypssammlung in Rom zu haben.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	bitte	VVFIN	bitten	_	O	O	
+3-3	Sie	PPER	Sie	_	O	O	
+3-4	um	APPR	um	_	O	O	
+3-5	Entschuldigung	NN	Entschuldigung	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	daß	KOUS	dass	_	O	O	
+3-8	ich	PPER	ich	_	O	O	
+3-9	Sie	PPER	Sie	_	O	O	
+3-10	mit	APPR	mit	_	O	O	
+3-11	diesen	PDAT	dies	_	O	O	
+3-12	Bestellungen	NN	Bestellung	_	O	O	
+3-13	behellige	VVFIN	behelligen	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	weiß	VVFIN	wissen	_	O	O	
+3-16	aber	ADV	aber	_	O	O	
+3-17	,	$,	,	_	O	O	
+3-18	daß	KOUS	dass	_	O	O	
+3-19	Sie	PPER	Sie	_	O	O	
+3-20	dieselben	PDS	dieselbe	_	O	O	
+3-21	gern	ADV	gern	_	O	O	
+3-22	übernehmen	VVFIN	übernehmen	_	O	O	
+3-23	,	$,	,	_	O	O	
+3-24	da	KOUS	da	_	O	O	
+3-25	es	PPER	es	_	O	O	
+3-26	ja	ADV	ja	_	O	O	
+3-27	für	APPR	für	_	O	O	
+3-28	uns	PPER	wir	_	O	O	
+3-29	von	APPR	von	_	O	O	
+3-30	der	ART	die	_	O	O	
+3-31	größten	ADJA	groß	_	O	O	
+3-32	Wichtigkeit	NN	Wichtigkeit	_	O	O	
+3-33	ist	VAFIN	sein	_	O	O	
+3-34	eine	ART	eine	_	O	O	
+3-35	leidliche	ADJA	leidlich	_	O	O	
+3-36	Gypssammlung	NN	<unknown>	_	O	O	
+3-37	in	APPR	in	_	O	O	
+3-38	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-39	zu	PTKZU	zu	_	O	O	
+3-40	haben	VAINF	haben	_	O	O	
+3-41	.	$.	.	_	O	O	
+
+#id=4
+#text=Mit herzlichen Grüßen Ihr ergebener Helbig
+4-1	Mit	APPR	mit	_	O	O	
+4-2	herzlichen	ADJA	herzlich	_	O	O	
+4-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+4-4	Ihr	PPOSAT	ihr	_	O	O	
+4-5	ergebener	ADJA	ergeben	_	O	O	
+4-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

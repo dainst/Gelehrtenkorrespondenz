@@ -1,0 +1,94 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=20 Wolfgang Helbig an Heinrich Brunn Rom, 14. Juni 1878 Postkarte Lieber Herr Professor Ich treffe Montag den 16.
+1-1	20	CARD	20	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1878	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Postkarte	NN	Postkarte	_	O	O	
+1-14	Lieber	ADJA	lieb	_	O	O	
+1-15	Herr	NN	Herr	_	O	O	
+1-16	Professor	NN	Professor	_	O	O	
+1-17	Ich	PPER	ich	_	O	O	
+1-18	treffe	VVFIN	treffen	_	O	O	
+1-19	Montag	NN	Montag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-20	den	ART	die	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-21	16	CARD	16	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+1-22	.	$.	.	_	O	O	
+
+#id=2
+#text=Abends 6.30 in München ein und bleibe daselbst bis Dienstag früh 10 Uhr.
+2-1	Abends	ADV	abends	_	O	O	
+2-2	6.30	CARD	@card@	_	O	O	
+2-3	in	APPR	in	_	O	O	
+2-4	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-5	ein	PTKVZ	ein	_	O	O	
+2-6	und	KON	und	_	O	O	
+2-7	bleibe	VVFIN	bleiben	_	O	O	
+2-8	daselbst	ADV	daselbst	_	O	O	
+2-9	bis	APPR	bis	_	O	O	
+2-10	Dienstag	NN	Dienstag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-11	früh	ADJD	früh	_	O	O	
+2-12	10	CARD	10	_	O	O	
+2-13	Uhr	NN	Uhr	_	O	O	
+2-14	.	$.	.	_	O	O	
+
+#id=3
+#text=Natürlich möchte ich Sie sehr gern Montag Abend sehen.
+3-1	Natürlich	ADV	natürlich	_	O	O	
+3-2	möchte	VMFIN	mögen	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	Sie	PPER	Sie	_	O	O	
+3-5	sehr	ADV	sehr	_	O	O	
+3-6	gern	ADV	gern	_	O	O	
+3-7	Montag	NN	Montag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-8	Abend	NN	Abend	_	O	O	
+3-9	sehen	VVINF	sehen	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Seien Sie doch so liebenswürdig, im Hotel Klostermann zum rothen Hahn auf dem Karlsplatze zu hinterlassen, wo ich Sie d Montag Abenltreffen kann.
+4-1	Seien	VAFIN	sein	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	doch	ADV	doch	_	O	O	
+4-4	so	ADV	so	_	O	O	
+4-5	liebenswürdig	ADJD	liebenswürdig	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	im	APPRART	in	_	O	O	
+4-8	Hotel	NN	Hotel	_	O	O	
+4-9	Klostermann	NE	Klostermann	_	O	O	
+4-10	zum	APPRART	zu	_	O	O	
+4-11	rothen	NE	<unknown>	_	O	O	
+4-12	Hahn	NE	Hahn	_	O	O	
+4-13	auf	APPR	auf	_	O	O	
+4-14	dem	ART	die	_	O	O	
+4-15	Karlsplatze	NN	<unknown>	_	O	O	
+4-16	zu	PTKZU	zu	_	O	O	
+4-17	hinterlassen	VVINF	hinterlassen	_	O	O	
+4-18	,	$,	,	_	O	O	
+4-19	wo	PWAV	wo	_	O	O	
+4-20	ich	PPER	ich	_	O	O	
+4-21	Sie	PPER	Sie	_	O	O	
+4-22	d	ADJA	<unknown>	_	O	O	
+4-23	Montag	NN	Montag	_	O	O	
+4-24	Abenltreffen	NN	<unknown>	_	O	O	
+4-25	kann	VMFIN	können	_	O	O	
+4-26	.	$.	.	_	O	O	
+
+#id=5
+#text=Mit herzlichen Grüßen Ihr ergebener Helbig
+5-1	Mit	APPR	mit	_	O	O	
+5-2	herzlichen	ADJA	herzlich	_	O	O	
+5-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+5-4	Ihr	PPOSAT	ihr	_	O	O	
+5-5	ergebener	ADJA	ergeben	_	O	O	
+5-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

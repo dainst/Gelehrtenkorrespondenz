@@ -1,0 +1,200 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=b) 3 Helbig an Brunn Rom, 22. Juni 1874 heit, die das Volk der Offenbarung heut zu Tage so unerträglich macht.
+1-1	b	NN	B	_	O	O	
+1-2	)	$(	)	_	O	O	
+1-3	3	CARD	3	_	O	O	
+1-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	heit	NN	<unknown>	_	O	O	
+1-14	,	$,	,	_	O	O	
+1-15	die	PRELS	die	_	O	O	
+1-16	das	ART	die	_	O	O	
+1-17	Volk	NN	Volk	_	O	O	
+1-18	der	ART	die	_	O	O	
+1-19	Offenbarung	NN	Offenbarung	_	O	O	
+1-20	heut	VVFIN	heuen	_	O	O	
+1-21	zu	APPR	zu	_	O	O	
+1-22	Tage	NN	Tag	_	O	O	
+1-23	so	ADV	so	_	O	O	
+1-24	unerträglich	ADJD	unerträglich	_	O	O	
+1-25	macht	VVFIN	machen	_	O	O	
+1-26	.	$.	.	_	O	O	
+
+#id=2
+#text=Sollte es unter den heutigen Hellenen anständige Leute geben und der künftige Institutssecretär auf den Verkehr mit ihnen angewiesen sein, so wäre Hirschfeld denen gegenüber gewiß kein geeigneter Vertreter der deutschen Welten.
+2-1	Sollte	VMFIN	sollen	_	O	O	
+2-2	es	PPER	es	_	O	O	
+2-3	unter	APPR	unter	_	O	O	
+2-4	den	ART	die	_	O	O	
+2-5	heutigen	ADJA	heutig	_	O	O	
+2-6	Hellenen	NN	Hellene	_	O	O	
+2-7	anständige	ADJA	anständig	_	O	O	
+2-8	Leute	NN	Leute	_	O	O	
+2-9	geben	VVINF	geben	_	O	O	
+2-10	und	KON	und	_	O	O	
+2-11	der	ART	die	_	O	O	
+2-12	künftige	ADJA	künftig	_	O	O	
+2-13	Institutssecretär	NN	<unknown>	_	O	O	
+2-14	auf	APPR	auf	_	O	O	
+2-15	den	ART	die	_	O	O	
+2-16	Verkehr	NN	Verkehr	_	O	O	
+2-17	mit	APPR	mit	_	O	O	
+2-18	ihnen	PPER	sie	_	O	O	
+2-19	angewiesen	VVPP	anweisen	_	O	O	
+2-20	sein	VAINF	sein	_	O	O	
+2-21	,	$,	,	_	O	O	
+2-22	so	ADV	so	_	O	O	
+2-23	wäre	VAFIN	sein	_	O	O	
+2-24	Hirschfeld	NN	Hirschfeld	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-25	denen	PDS	die	_	O	O	
+2-26	gegenüber	APPR	gegenüber	_	O	O	
+2-27	gewiß	ADJD	gewiss	_	O	O	
+2-28	kein	PIAT	keine	_	O	O	
+2-29	geeigneter	ADJA	geeignet	_	O	O	
+2-30	Vertreter	NN	Vertreter	_	O	O	
+2-31	der	ART	die	_	O	O	
+2-32	deutschen	ADJA	deutsch	_	O	O	
+2-33	Welten	NN	Welt	_	O	O	
+2-34	.	$.	.	_	O	O	
+
+#id=3
+#text=Schließlich noch eine Bemerkung über die Ausgrabungen in Olympia, über die Sie ja auch ein Wort mitzusprechen haben werden.
+3-1	Schließlich	ADV	schließlich	_	O	O	
+3-2	noch	ADV	noch	_	O	O	
+3-3	eine	ART	eine	_	O	O	
+3-4	Bemerkung	NN	Bemerkung	_	O	O	
+3-5	über	APPR	über	_	O	O	
+3-6	die	ART	die	_	O	O	
+3-7	Ausgrabungen	NN	Ausgrabung	_	O	O	
+3-8	in	APPR	in	_	O	O	
+3-9	Olympia	NE	Olympia	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-10	,	$,	,	_	O	O	
+3-11	über	APPR	über	_	O	O	
+3-12	die	PRELS	die	_	O	O	
+3-13	Sie	PPER	Sie	_	O	O	
+3-14	ja	ADV	ja	_	O	O	
+3-15	auch	ADV	auch	_	O	O	
+3-16	ein	ART	eine	_	O	O	
+3-17	Wort	NN	Wort	_	O	O	
+3-18	mitzusprechen	VVIZU	mitsprechen	_	O	O	
+3-19	haben	VAINF	haben	_	O	O	
+3-20	werden	VAFIN	werden	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Wirken Sie doch dahin, daß behufs practis der Leitung der Ausgrabungen ein Scavatore aus den italienischen Maremmen nach Olympia beordert werde.
+4-1	Wirken	VVFIN	wirken	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	doch	ADV	doch	_	O	O	
+4-4	dahin	PAV	dahin	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	daß	KOUS	dass	_	O	O	
+4-7	behufs	NN	<unknown>	_	O	O	
+4-8	practis	ADJD	<unknown>	_	O	O	
+4-9	der	ART	die	_	O	O	
+4-10	Leitung	NN	Leitung	_	O	O	
+4-11	der	ART	die	_	O	O	
+4-12	Ausgrabungen	NN	Ausgrabung	_	O	O	
+4-13	ein	ART	eine	_	O	O	
+4-14	Scavatore	NN	<unknown>	_	O	O	
+4-15	aus	APPR	aus	_	O	O	
+4-16	den	ART	die	_	O	O	
+4-17	italienischen	ADJA	italienisch	_	O	O	
+4-18	Maremmen	NN	<unknown>	_	O	O	
+4-19	nach	APPR	nach	_	O	O	
+4-20	Olympia	NE	Olympia	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-21	beordert	VVPP	beordern	_	O	O	
+4-22	werde	VAFIN	werden	_	O	O	
+4-23	.	$.	.	_	O	O	
+
+#id=5
+#text=Es würde sehr wenig kosten, da die Leute hier nur 2 - 3 Lire den Tag erhalten.
+5-1	Es	PPER	es	_	O	O	
+5-2	würde	VAFIN	werden	_	O	O	
+5-3	sehr	ADV	sehr	_	O	O	
+5-4	wenig	PIS	wenige	_	O	O	
+5-5	kosten	VVINF	kosten	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	da	KOUS	da	_	O	O	
+5-8	die	ART	die	_	O	O	
+5-9	Leute	NN	Leute	_	O	O	
+5-10	hier	ADV	hier	_	O	O	
+5-11	nur	ADV	nur	_	O	O	
+5-12	2	CARD	2	_	O	O	
+5-13	-	$(	-	_	O	O	
+5-14	3	CARD	3	_	O	O	
+5-15	Lire	NN	Lira	_	O	O	
+5-16	den	ART	die	_	O	O	
+5-17	Tag	NN	Tag	_	O	O	
+5-18	erhalten	VVPP	erhalten	_	O	O	
+5-19	.	$.	.	_	O	O	
+
+#id=6
+#text=Mit der feinen Spürnase, welche diesen Leuten eigenthümlich ist, würde er gewiß die Stelle der OlympiSc~NecroPole ausfindig machen und wie wichtig wäre die systematische und wohl protocollirte Ausgrabung einiger griechischer Gräber Denique: quod felix, faustum fortunatumque sit Mit herzlichen Grüßen Ihr ergebener Helbig [FOlgt als Nachschrift Mittheilung über Vasenfunde in Volterra 1 .-.-
+6-1	Mit	APPR	mit	_	O	O	
+6-2	der	ART	die	_	O	O	
+6-3	feinen	ADJA	fein	_	O	O	
+6-4	Spürnase	NN	Spürnase	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	welche	PRELS	welche	_	O	O	
+6-7	diesen	PDAT	dies	_	O	O	
+6-8	Leuten	NN	Leute	_	O	O	
+6-9	eigenthümlich	ADJD	<unknown>	_	O	O	
+6-10	ist	VAFIN	sein	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	würde	VAFIN	werden	_	O	O	
+6-13	er	PPER	er	_	O	O	
+6-14	gewiß	ADJD	gewiss	_	O	O	
+6-15	die	ART	die	_	O	O	
+6-16	Stelle	NN	Stelle	_	O	O	
+6-17	der	ART	die	_	O	O	
+6-18	OlympiSc~NecroPole	NN	<unknown>	_	O	O	
+6-19	ausfindig	ADV	ausfindig	_	O	O	
+6-20	machen	VVINF	machen	_	O	O	
+6-21	und	KON	und	_	O	O	
+6-22	wie	KOKOM	wie	_	O	O	
+6-23	wichtig	ADJD	wichtig	_	O	O	
+6-24	wäre	VAFIN	sein	_	O	O	
+6-25	die	ART	die	_	O	O	
+6-26	systematische	ADJA	systematisch	_	O	O	
+6-27	und	KON	und	_	O	O	
+6-28	wohl	ADV	wohl	_	O	O	
+6-29	protocollirte	NN	<unknown>	_	O	O	
+6-30	Ausgrabung	NN	Ausgrabung	_	O	O	
+6-31	einiger	PIAT	einige	_	O	O	
+6-32	griechischer	ADJA	griechisch	_	O	O	
+6-33	Gräber	NN	Grab	_	O	O	
+6-34	Denique	NE	<unknown>	_	O	O	
+6-35	:	$.	:	_	O	O	
+6-36	quod	NE	<unknown>	_	O	O	
+6-37	felix	NE	Felix	_	O	O	
+6-38	,	$,	,	_	O	O	
+6-39	faustum	NN	<unknown>	_	O	O	
+6-40	fortunatumque	NE	<unknown>	_	O	O	
+6-41	sit	VVFIN	<unknown>	_	O	O	
+6-42	Mit	APPR	mit	_	O	O	
+6-43	herzlichen	ADJA	herzlich	_	O	O	
+6-44	Grüßen	NN	Gruß|Grüßen	_	O	O	
+6-45	Ihr	PPOSAT	ihr	_	O	O	
+6-46	ergebener	ADJA	ergeben	_	O	O	
+6-47	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-48	[	$(	[	_	O	O	
+6-49	FOlgt	NN	<unknown>	_	O	O	
+6-50	als	KOKOM	als	_	O	O	
+6-51	Nachschrift	NN	Nachschrift	_	O	O	
+6-52	Mittheilung	NN	<unknown>	_	O	O	
+6-53	über	APPR	über	_	O	O	
+6-54	Vasenfunde	NN	<unknown>	_	O	O	
+6-55	in	APPR	in	_	O	O	
+6-56	Volterra	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-57	1	CARD	1	_	O	O	
+6-58	.-.-	NN	<unknown>	_	O	O	
+

@@ -1,0 +1,266 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=1 Wolfgang Helbig an Heinrich Brunn Ohne Datum Lieber Herr Professor I Ric.
+1-1	1	CARD	1	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	Ohne	APPR	ohne	_	O	O	
+1-8	Datum	NN	Datum	_	O	O	
+1-9	Lieber	ADJA	lieb	_	O	O	
+1-10	Herr	NN	Herr	_	O	O	
+1-11	Professor	NN	Professor	_	O	O	
+1-12	I	FM	I	_	O	O	
+1-13	Ric.	NE	<unknown>	_	O	O	
+
+#id=2
+#text=23/7 65 r.
+2-1	23/7	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-2	65	CARD	65	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-3	r.	ADJA	<unknown>	_	O	O	
+
+#id=3
+#text=17/8 65 Ihr Wechsel und das Briefehen an Reifferscheid sind heute glücklich eingetroffen und sollen pünktlich besorgt werden.
+3-1	17/8	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-2	65	CARD	65	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-3	Ihr	PPOSAT	ihr	_	O	O	
+3-4	Wechsel	NN	Wechsel	_	O	O	
+3-5	und	KON	und	_	O	O	
+3-6	das	ART	die	_	O	O	
+3-7	Briefehen	NN	<unknown>	_	O	O	
+3-8	an	APPR	an	_	O	O	
+3-9	Reifferscheid	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-10	sind	VAFIN	sein	_	O	O	
+3-11	heute	ADV	heute	_	O	O	
+3-12	glücklich	ADJD	glücklich	_	O	O	
+3-13	eingetroffen	VVPP	eintreffen	_	O	O	
+3-14	und	KON	und	_	O	O	
+3-15	sollen	VMFIN	sollen	_	O	O	
+3-16	pünktlich	ADJD	pünktlich	_	O	O	
+3-17	besorgt	VVPP	besorgen	_	O	O	
+3-18	werden	VAINF	werden	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Seit 16 Tagen bin ich aus Neapel zurück und befinde mich mit Ausnahme eines Gesichtsrheumatismus trotz der großen Hitze im Allgemeinen wohl.
+4-1	Seit	APPR	seit	_	O	O	
+4-2	16	CARD	16	_	O	O	
+4-3	Tagen	NN	Tag	_	O	O	
+4-4	bin	VAFIN	sein	_	O	O	
+4-5	ich	PPER	ich	_	O	O	
+4-6	aus	APPR	aus	_	O	O	
+4-7	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-8	zurück	PTKVZ	zurück	_	O	O	
+4-9	und	KON	und	_	O	O	
+4-10	befinde	VVFIN	befinden	_	O	O	
+4-11	mich	PRF	ich	_	O	O	
+4-12	mit	APPR	mit	_	O	O	
+4-13	Ausnahme	NN	Ausnahme	_	O	O	
+4-14	eines	ART	eine	_	O	O	
+4-15	Gesichtsrheumatismus	NN	<unknown>	_	O	O	
+4-16	trotz	APPR	trotz	_	O	O	
+4-17	der	ART	die	_	O	O	
+4-18	großen	ADJA	groß	_	O	O	
+4-19	Hitze	NN	Hitze	_	O	O	
+4-20	im	APPRART	in	_	O	O	
+4-21	Allgemeinen	NN	Allgemeine	_	O	O	
+4-22	wohl	ADV	wohl	_	O	O	
+4-23	.	$.	.	_	O	O	
+
+#id=5
+#text=Mariuccia thut ihr Möglichstes, mich zufrieden zu stellen: ich habe mich bei ihr vollständig in Kost und Pension gegeben, sodaß ich nicht mehr nöthig habe, in der Hitze um Mittag das Kapitol auf und ab zu steigen.
+5-1	Mariuccia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	thut	NN	<unknown>	_	O	O	
+5-3	ihr	PPOSAT	ihr	_	O	O	
+5-4	Möglichstes	NN	Möglichstes	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	mich	PRF	ich	_	O	O	
+5-7	zufrieden	ADJD	zufrieden	_	O	O	
+5-8	zu	PTKZU	zu	_	O	O	
+5-9	stellen	VVINF	stellen	_	O	O	
+5-10	:	$.	:	_	O	O	
+5-11	ich	PPER	ich	_	O	O	
+5-12	habe	VAFIN	haben	_	O	O	
+5-13	mich	PRF	ich	_	O	O	
+5-14	bei	APPR	bei	_	O	O	
+5-15	ihr	PPOSAT	ihr	_	O	O	
+5-16	vollständig	ADJD	vollständig	_	O	O	
+5-17	in	APPR	in	_	O	O	
+5-18	Kost	NN	Kost	_	O	O	
+5-19	und	KON	und	_	O	O	
+5-20	Pension	NN	Pension	_	O	O	
+5-21	gegeben	VVPP	geben	_	O	O	
+5-22	,	$,	,	_	O	O	
+5-23	sodaß	KON	sodass	_	O	O	
+5-24	ich	PPER	ich	_	O	O	
+5-25	nicht	PTKNEG	nicht	_	O	O	
+5-26	mehr	ADV	mehr	_	O	O	
+5-27	nöthig	ADJD	<unknown>	_	O	O	
+5-28	habe	VAFIN	haben	_	O	O	
+5-29	,	$,	,	_	O	O	
+5-30	in	APPR	in	_	O	O	
+5-31	der	ART	die	_	O	O	
+5-32	Hitze	NN	Hitze	_	O	O	
+5-33	um	APPR	um	_	O	O	
+5-34	Mittag	NN	Mittag	_	O	O	
+5-35	das	ART	die	_	O	O	
+5-36	Kapitol	NN	Kapitol	_	O	O	
+5-37	auf	PTKVZ	auf	_	O	O	
+5-38	und	KON	und	_	O	O	
+5-39	ab	ADV	ab	_	O	O	
+5-40	zu	PTKZU	zu	_	O	O	
+5-41	steigen	VVINF	steigen	_	O	O	
+5-42	.	$.	.	_	O	O	
+
+#id=6
+#text=Natürlich erregte dies bei Pepe und der Familie Domenicos Neid und Serva Rosa marterte durch allerlei Stichelreden die arme Marvrnccia derartig, daß mir nichts anderes übrig blieb, als die Alte zu mir heraufkommen zu lassen und sie unter Beistand Henzens gehörig herunter zu machen.
+6-1	Natürlich	ADV	natürlich	_	O	O	
+6-2	erregte	VVFIN	erregen	_	O	O	
+6-3	dies	PDS	dies	_	O	O	
+6-4	bei	APPR	bei	_	O	O	
+6-5	Pepe	NE	Pepe	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-6	und	KON	und	_	O	O	
+6-7	der	ART	die	_	O	O	
+6-8	Familie	NN	Familie	_	O	O	
+6-9	Domenicos	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	Neid	NN	Neid	_	O	O	
+6-11	und	KON	und	_	O	O	
+6-12	Serva	NN	<unknown>	_	O	O	
+6-13	Rosa	NE	Rosa	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-14	marterte	VVFIN	martern	_	O	O	
+6-15	durch	APPR	durch	_	O	O	
+6-16	allerlei	PIAT	allerlei	_	O	O	
+6-17	Stichelreden	NN	<unknown>	_	O	O	
+6-18	die	ART	die	_	O	O	
+6-19	arme	ADJA	arm	_	O	O	
+6-20	Marvrnccia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-21	derartig	ADJD	derartig	_	O	O	
+6-22	,	$,	,	_	O	O	
+6-23	daß	KOUS	dass	_	O	O	
+6-24	mir	PPER	ich	_	O	O	
+6-25	nichts	PIAT	nichts	_	O	O	
+6-26	anderes	PIS	andere	_	O	O	
+6-27	übrig	ADJD	übrig	_	O	O	
+6-28	blieb	VVFIN	bleiben	_	O	O	
+6-29	,	$,	,	_	O	O	
+6-30	als	KOUS	als	_	O	O	
+6-31	die	ART	die	_	O	O	
+6-32	Alte	NN	Alte	_	O	O	
+6-33	zu	APPR	zu	_	O	O	
+6-34	mir	PPER	ich	_	O	O	
+6-35	heraufkommen	VVINF	heraufkommen	_	O	O	
+6-36	zu	PTKZU	zu	_	O	O	
+6-37	lassen	VVINF	lassen	_	O	O	
+6-38	und	KON	und	_	O	O	
+6-39	sie	PPER	sie	_	O	O	
+6-40	unter	APPR	unter	_	O	O	
+6-41	Beistand	NN	Beistand	_	O	O	
+6-42	Henzens	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-43	gehörig	ADJD	gehörig	_	O	O	
+6-44	herunter	PTKVZ	herunter	_	O	O	
+6-45	zu	PTKZU	zu	_	O	O	
+6-46	machen	VVINF	machen	_	O	O	
+6-47	.	$.	.	_	O	O	
+
+#id=7
+#text=Seit dem ist Ruhe eingetreten.
+7-1	Seit	APPR	seit	_	O	O	
+7-2	dem	PDS	die	_	O	O	
+7-3	ist	VAFIN	sein	_	O	O	
+7-4	Ruhe	NN	Ruhe	_	O	O	
+7-5	eingetreten	VVPP	eintreten	_	O	O	
+7-6	.	$.	.	_	O	O	
+
+#id=8
+#text=Indeß hat sich Mariuccia so geärgert, daß sie mehrere Tage unwohl war.
+8-1	Indeß	NE	<unknown>	_	O	O	
+8-2	hat	VAFIN	haben	_	O	O	
+8-3	sich	PRF	sich	_	O	O	
+8-4	Mariuccia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-5	so	ADV	so	_	O	O	
+8-6	geärgert	VVPP	ärgern	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	daß	KOUS	dass	_	O	O	
+8-9	sie	PPER	sie	_	O	O	
+8-10	mehrere	PIAT	mehrere	_	O	O	
+8-11	Tage	NN	Tag	_	O	O	
+8-12	unwohl	ADJD	unwohl	_	O	O	
+8-13	war	VAFIN	sein	_	O	O	
+8-14	.	$.	.	_	O	O	
+
+#id=9
+#text=Eine andere epochemachende Neuigkeit im Leben der Casa ist die, daß Henzens Rosa - horribil~ dictu von ihrem Geliebten schwanger geworden ist und vorgestern ihren Dienst hat verlassen müssen.
+9-1	Eine	ART	eine	_	O	O	
+9-2	andere	PIAT	andere	_	O	O	
+9-3	epochemachende	ADJA	epochemachend	_	O	O	
+9-4	Neuigkeit	NN	Neuigkeit	_	O	O	
+9-5	im	APPRART	in	_	O	O	
+9-6	Leben	NN	Leben	_	O	O	
+9-7	der	ART	die	_	O	O	
+9-8	Casa	NE	Casa	_	O	O	
+9-9	ist	VAFIN	sein	_	O	O	
+9-10	die	ART	die	_	O	O	
+9-11	,	$,	,	_	O	O	
+9-12	daß	KOUS	dass	_	O	O	
+9-13	Henzens	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-14	Rosa	NE	Rosa	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-15	-	$(	-	_	O	O	
+9-16	horribil~	ADJA	<unknown>	_	O	O	
+9-17	dictu	NN	<unknown>	_	O	O	
+9-18	von	APPR	von	_	O	O	
+9-19	ihrem	PPOSAT	ihr	_	O	O	
+9-20	Geliebten	NN	Geliebte	_	O	O	
+9-21	schwanger	ADJD	schwanger	_	O	O	
+9-22	geworden	VAPP	werden	_	O	O	
+9-23	ist	VAFIN	sein	_	O	O	
+9-24	und	KON	und	_	O	O	
+9-25	vorgestern	ADV	vorgestern	_	O	O	
+9-26	ihren	PPOSAT	ihr	_	O	O	
+9-27	Dienst	NN	Dienst	_	O	O	
+9-28	hat	VAFIN	haben	_	O	O	
+9-29	verlassen	VVINF	verlassen	_	O	O	
+9-30	müssen	VMINF	müssen	_	O	O	
+9-31	.	$.	.	_	O	O	
+
+#id=10
+#text=Sollte man da nicht eher an das Ende aller Dinge glauben?
+10-1	Sollte	VMFIN	sollen	_	O	O	
+10-2	man	PIS	man	_	O	O	
+10-3	da	ADV	da	_	O	O	
+10-4	nicht	PTKNEG	nicht	_	O	O	
+10-5	eher	ADV	eher	_	O	O	
+10-6	an	APPR	an	_	O	O	
+10-7	das	ART	die	_	O	O	
+10-8	Ende	NN	Ende	_	O	O	
+10-9	aller	PIAT	alle	_	O	O	
+10-10	Dinge	NN	Ding	_	O	O	
+10-11	glauben	VVINF	glauben	_	O	O	
+10-12	?	$.	?	_	O	O	
+
+#id=11
+#text=In Neapel ist es mir leider nicht gelungen, eine Ermäßigung der Preise der Gypse zu erreichen.
+11-1	In	APPR	in	_	O	O	
+11-2	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-3	ist	VAFIN	sein	_	O	O	
+11-4	es	PPER	es	_	O	O	
+11-5	mir	PRF	ich	_	O	O	
+11-6	leider	ADV	leider	_	O	O	
+11-7	nicht	PTKNEG	nicht	_	O	O	
+11-8	gelungen	VVPP	gelingen	_	O	O	
+11-9	,	$,	,	_	O	O	
+11-10	eine	ART	eine	_	O	O	
+11-11	Ermäßigung	NN	Ermäßigung	_	O	O	
+11-12	der	ART	die	_	O	O	
+11-13	Preise	NN	Preis	_	O	O	
+11-14	der	ART	die	_	O	O	
+11-15	Gypse	NN	<unknown>	_	O	O	
+11-16	zu	PTKZU	zu	_	O	O	
+11-17	erreichen	VVINF	erreichen	_	O	O	
+11-18	.	$.	.	_	O	O	
+
+#id=12
+#text=Fiorelli
+12-1	Fiorelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

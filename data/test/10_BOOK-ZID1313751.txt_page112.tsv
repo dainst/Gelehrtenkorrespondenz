@@ -1,0 +1,262 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=12 Wolfgang Helbig an Heinrich Brunn Rom, 7. April 1874 r. 13/IV 74 Lieber Herr Professor Endlich ist, was lange zu erwarten war, die Bombe zwischen mir und der Centraldirection geplatzt.
+1-1	12	CARD	12	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	r.	VVFIN	<unknown>	_	O	O	
+1-14	13/IV	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+1-15	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+1-16	Lieber	ADJA	lieb	_	O	O	
+1-17	Herr	NN	Herr	_	O	O	
+1-18	Professor	NN	Professor	_	O	O	
+1-19	Endlich	ADJD	endlich	_	O	O	
+1-20	ist	VAFIN	sein	_	O	O	
+1-21	,	$,	,	_	O	O	
+1-22	was	PRELS	was	_	O	O	
+1-23	lange	ADV	lange	_	O	O	
+1-24	zu	PTKZU	zu	_	O	O	
+1-25	erwarten	VVINF	erwarten	_	O	O	
+1-26	war	VAFIN	sein	_	O	O	
+1-27	,	$,	,	_	O	O	
+1-28	die	ART	die	_	O	O	
+1-29	Bombe	NN	Bombe	_	O	O	
+1-30	zwischen	APPR	zwischen	_	O	O	
+1-31	mir	PPER	ich	_	O	O	
+1-32	und	KON	und	_	O	O	
+1-33	der	ART	die	_	O	O	
+1-34	Centraldirection	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-35	geplatzt	VVPP	platzen	_	O	O	
+1-36	.	$.	.	_	O	O	
+
+#id=2
+#text=Der neue Normaletat, welcher mir vorgestern zuging, normirt den Gehalt von Henzen auf 2600, den des athenischen Sekretärs - für welchen Posten der Judenjunge Hirschfeld in Aussicht genommen ist auf 1800, den meinigen auf 1200, die Stipendien auf 1000 rt.
+2-1	Der	ART	die	_	O	O	
+2-2	neue	ADJA	neu	_	O	O	
+2-3	Normaletat	NN	<unknown>	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	welcher	PRELS	welche	_	O	O	
+2-6	mir	PPER	ich	_	O	O	
+2-7	vorgestern	ADV	vorgestern	_	O	O	
+2-8	zuging	VVFIN	zugehen	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	normirt	NN	<unknown>	_	O	O	
+2-11	den	ART	die	_	O	O	
+2-12	Gehalt	NN	Gehalt	_	O	O	
+2-13	von	APPR	von	_	O	O	
+2-14	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-15	auf	APPR	auf	_	O	O	
+2-16	2600	CARD	2600	_	O	O	
+2-17	,	$,	,	_	O	O	
+2-18	den	PRELS	die	_	O	O	
+2-19	des	ART	die	_	O	O	
+2-20	athenischen	ADJA	athenisch	_	O	O	
+2-21	Sekretärs	NN	Sekretär	_	O	O	
+2-22	-	$(	-	_	O	O	
+2-23	für	APPR	für	_	O	O	
+2-24	welchen	PIAT	welche	_	O	O	
+2-25	Posten	NN	Posten	_	O	O	
+2-26	der	ART	die	_	O	O	
+2-27	Judenjunge	NN	Judenjunge	_	O	O	
+2-28	Hirschfeld	NN	Hirschfeld	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-29	in	APPR	in	_	O	O	
+2-30	Aussicht	NN	Aussicht	_	O	O	
+2-31	genommen	VVPP	nehmen	_	O	O	
+2-32	ist	VAFIN	sein	_	O	O	
+2-33	auf	APPR	auf	_	O	O	
+2-34	1800	CARD	1800	_	O	O	
+2-35	,	$,	,	_	O	O	
+2-36	den	PRELS	die	_	O	O	
+2-37	meinigen	PPOSS	meinig	_	O	O	
+2-38	auf	APPR	auf	_	O	O	
+2-39	1200	CARD	1200	_	O	O	
+2-40	,	$,	,	_	O	O	
+2-41	die	ART	die	_	O	O	
+2-42	Stipendien	NN	Stipendium	_	O	O	
+2-43	auf	APPR	auf	_	O	O	
+2-44	1000	CARD	1000	_	O	O	
+2-45	rt	VVFIN	<unknown>	_	O	O	
+2-46	.	$.	.	_	O	O	
+
+#id=3
+#text=Obwohl mir 600 rt mehr oder weniger an und für sich gleichgültig sind, so kann ich doch die Beleidigung, die in diesen Ansätzen liegt, nicht auf mir sitzen lassen.
+3-1	Obwohl	KOUS	obwohl	_	O	O	
+3-2	mir	PPER	ich	_	O	O	
+3-3	600	CARD	600	_	O	O	
+3-4	rt	VVFIN	<unknown>	_	O	O	
+3-5	mehr	ADV	mehr	_	O	O	
+3-6	oder	KON	oder	_	O	O	
+3-7	weniger	ADV	weniger	_	O	O	
+3-8	an	PTKVZ	an	_	O	O	
+3-9	und	KON	und	_	O	O	
+3-10	für	APPR	für	_	O	O	
+3-11	sich	PRF	sich	_	O	O	
+3-12	gleichgültig	ADJD	gleichgültig	_	O	O	
+3-13	sind	VAFIN	sein	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	so	ADV	so	_	O	O	
+3-16	kann	VMFIN	können	_	O	O	
+3-17	ich	PPER	ich	_	O	O	
+3-18	doch	ADV	doch	_	O	O	
+3-19	die	ART	die	_	O	O	
+3-20	Beleidigung	NN	Beleidigung	_	O	O	
+3-21	,	$,	,	_	O	O	
+3-22	die	PRELS	die	_	O	O	
+3-23	in	APPR	in	_	O	O	
+3-24	diesen	PDAT	dies	_	O	O	
+3-25	Ansätzen	NN	Ansatz	_	O	O	
+3-26	liegt	VVFIN	liegen	_	O	O	
+3-27	,	$,	,	_	O	O	
+3-28	nicht	PTKNEG	nicht	_	O	O	
+3-29	auf	APPR	auf	_	O	O	
+3-30	mir	PPER	ich	_	O	O	
+3-31	sitzen	VVINF	sitzen	_	O	O	
+3-32	lassen	VVFIN	lassen	_	O	O	
+3-33	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich habe Gleichstellung meines Postens mit dem athenischen oder meine Entlassung gefordert und zwar in so energischer Sprache, daß wahrscheinlich die letztere erfolgen wird.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	habe	VAFIN	haben	_	O	O	
+4-3	Gleichstellung	NN	Gleichstellung	_	O	O	
+4-4	meines	PPOSAT	mein	_	O	O	
+4-5	Postens	NN	Posten	_	O	O	
+4-6	mit	APPR	mit	_	O	O	
+4-7	dem	ART	die	_	O	O	
+4-8	athenischen	ADJA	athenisch	_	O	O	
+4-9	oder	KON	oder	_	O	O	
+4-10	meine	PPOSAT	mein	_	O	O	
+4-11	Entlassung	NN	Entlassung	_	O	O	
+4-12	gefordert	VVPP	fordern	_	O	O	
+4-13	und	KON	und	_	O	O	
+4-14	zwar	ADV	zwar	_	O	O	
+4-15	in	APPR	in	_	O	O	
+4-16	so	ADV	so	_	O	O	
+4-17	energischer	ADJA	energisch	_	O	O	
+4-18	Sprache	NN	Sprache	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	daß	KOUS	dass	_	O	O	
+4-21	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+4-22	die	ART	die	_	O	O	
+4-23	letztere	ADJA	letzt	_	O	O	
+4-24	erfolgen	VVINF	erfolgen	_	O	O	
+4-25	wird	VAFIN	werden	_	O	O	
+4-26	.	$.	.	_	O	O	
+
+#id=5
+#text=Icb brauche jetzt in den Augen der Welt etwas, was wie eine officielle Stellung aussieht.
+5-1	Icb	ADJD	<unknown>	_	O	O	
+5-2	brauche	VVFIN	brauchen	_	O	O	
+5-3	jetzt	ADV	jetzt	_	O	O	
+5-4	in	APPR	in	_	O	O	
+5-5	den	ART	die	_	O	O	
+5-6	Augen	NN	Auge	_	O	O	
+5-7	der	ART	die	_	O	O	
+5-8	Welt	NN	Welt	_	O	O	
+5-9	etwas	ADV	etwas	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	was	PWS	was	_	O	O	
+5-12	wie	KOKOM	wie	_	O	O	
+5-13	eine	ART	eine	_	O	O	
+5-14	officielle	ADJA	<unknown>	_	O	O	
+5-15	Stellung	NN	Stellung	_	O	O	
+5-16	aussieht	VVFIN	aussehen	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Wäre es vielleicht möglich, daß ich, wie seiner Zeit Bendorf, zum Honorarprofessor ohne Gehalt in München ernannt würde?
+6-1	Wäre	VAFIN	sein	_	O	O	
+6-2	es	PPER	es	_	O	O	
+6-3	vielleicht	ADV	vielleicht	_	O	O	
+6-4	möglich	ADJD	möglich	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	daß	KOUS	dass	_	O	O	
+6-7	ich	PPER	ich	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	wie	KOUS	wie	_	O	O	
+6-10	seiner	PPOSAT	sein	_	O	O	
+6-11	Zeit	NN	Zeit	_	O	O	
+6-12	Bendorf	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-13	,	$,	,	_	O	O	
+6-14	zum	APPRART	zu	_	O	O	
+6-15	Honorarprofessor	NN	Honorarprofessor	_	O	O	
+6-16	ohne	APPR	ohne	_	O	O	
+6-17	Gehalt	NN	Gehalt	_	O	O	
+6-18	in	APPR	in	_	O	O	
+6-19	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-20	ernannt	VVPP	ernennen	_	O	O	
+6-21	würde	VAFIN	werden	_	O	O	
+6-22	?	$.	?	_	O	O	
+
+#id=7
+#text=Ich würde wünschen, daß mein Verhältnis zur Universität so lax und so frei sei, wie nur möglich; denn meine Arbeiten, die sich gegenwärtig auf den Grenzgebieten der orientalischen und hellenischen Kultur bewegen, nöthigen mich, sollen sie befriedigend ausfallen, zu vielem Umherreisen.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	würde	VAFIN	werden	_	O	O	
+7-3	wünschen	VVINF	wünschen	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	daß	KOUS	dass	_	O	O	
+7-6	mein	PPOSAT	mein	_	O	O	
+7-7	Verhältnis	NN	Verhältnis	_	O	O	
+7-8	zur	APPRART	zu	_	O	O	
+7-9	Universität	NN	Universität	_	O	O	
+7-10	so	ADV	so	_	O	O	
+7-11	lax	ADJD	lax	_	O	O	
+7-12	und	KON	und	_	O	O	
+7-13	so	ADV	so	_	O	O	
+7-14	frei	ADJD	frei	_	O	O	
+7-15	sei	VAFIN	sein	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	wie	KOUS	wie	_	O	O	
+7-18	nur	ADV	nur	_	O	O	
+7-19	möglich	ADJD	möglich	_	O	O	
+7-20	;	$.	;	_	O	O	
+7-21	denn	KON	denn	_	O	O	
+7-22	meine	PPOSAT	mein	_	O	O	
+7-23	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+7-24	,	$,	,	_	O	O	
+7-25	die	PRELS	die	_	O	O	
+7-26	sich	PRF	sich	_	O	O	
+7-27	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+7-28	auf	APPR	auf	_	O	O	
+7-29	den	ART	die	_	O	O	
+7-30	Grenzgebieten	NN	Grenzgebiet	_	O	O	
+7-31	der	ART	die	_	O	O	
+7-32	orientalischen	ADJA	orientalisch	_	O	O	
+7-33	und	KON	und	_	O	O	
+7-34	hellenischen	ADJA	hellenisch	_	O	O	
+7-35	Kultur	NN	Kultur	_	O	O	
+7-36	bewegen	VVFIN	bewegen	_	O	O	
+7-37	,	$,	,	_	O	O	
+7-38	nöthigen	ADJA	<unknown>	_	O	O	
+7-39	mich	PPER	ich	_	O	O	
+7-40	,	$,	,	_	O	O	
+7-41	sollen	VMFIN	sollen	_	O	O	
+7-42	sie	PPER	sie	_	O	O	
+7-43	befriedigend	ADJD	befriedigend	_	O	O	
+7-44	ausfallen	VVINF	ausfallen	_	O	O	
+7-45	,	$,	,	_	O	O	
+7-46	zu	APPR	zu	_	O	O	
+7-47	vielem	PIAT	viele	_	O	O	
+7-48	Umherreisen	NN	Umherreisen	_	O	O	
+7-49	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich muß mich längere Zeit in Florenz aufhalten
+8-1	Ich	PPER	ich	_	O	O	
+8-2	muß	VMFIN	müssen	_	O	O	
+8-3	mich	PRF	ich	_	O	O	
+8-4	längere	ADJA	lang	_	O	O	
+8-5	Zeit	NN	Zeit	_	O	O	
+8-6	in	APPR	in	_	O	O	
+8-7	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-8	aufhalten	VVINF	aufhalten	_	O	O	
+

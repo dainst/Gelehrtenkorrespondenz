@@ -1,0 +1,102 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=57 Wolfgang Helbig an Heinrich Brunn Rom, 5. April 1886 Postkarte 5/4 86. Lieber Herr Professor !
+1-1	57	CARD	@card@	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1886	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Postkarte	NN	Postkarte	_	O	O	
+1-14	5/4	CARD	5/4	_	O	O	
+1-15	86	CARD	86	_	O	O	
+1-16	.	$.	.	_	O	O	
+1-17	Lieber	ADJA	lieb	_	O	O	
+1-18	Herr	NN	Herr	_	O	O	
+1-19	Professor	NN	Professor	_	O	O	
+1-20	!	$.	!	_	O	O	
+
+#id=2
+#text=Wie Sie vermuthlich vorausgesehen haben, habe ich den Vorschlag der Central Direction als Faccente funzione di I.
+2-1	Wie	KOUS	wie	_	O	O	
+2-2	Sie	PPER	Sie	_	O	O	
+2-3	vermuthlich	ADJD	<unknown>	_	O	O	
+2-4	vorausgesehen	VVPP	voraussehen	_	O	O	
+2-5	haben	VAFIN	haben	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	habe	VAFIN	haben	_	O	O	
+2-8	ich	PPER	ich	_	O	O	
+2-9	den	ART	die	_	O	O	
+2-10	Vorschlag	NN	Vorschlag	_	O	O	
+2-11	der	ART	die	_	O	O	
+2-12	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-13	Direction	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+2-14	als	KOKOM	als	_	O	O	
+2-15	Faccente	NN	<unknown>	_	O	O	
+2-16	funzione	NE	<unknown>	_	O	O	
+2-17	di	NE	di	_	O	O	
+2-18	I.	NE	I.	_	O	O	
+
+#id=3
+#text=Segretario ein Satyrspiel zum Besten zu geben abgelehnt.
+3-1	Segretario	NE	<unknown>	_	O	O	
+3-2	ein	ART	eine	_	O	O	
+3-3	Satyrspiel	NN	Satyrspiel	_	O	O	
+3-4	zum	APPRART	zu	_	O	O	
+3-5	Besten	NN	Beste	_	O	O	
+3-6	zu	PTKZU	zu	_	O	O	
+3-7	geben	VVINF	geben	_	O	O	
+3-8	abgelehnt	VVPP	ablehnen	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=An dem Imbroglio, der nunmehr eintreten wird, bin ich unschuldig.
+4-1	An	APPR	an	_	O	O	
+4-2	dem	ART	die	_	O	O	
+4-3	Imbroglio	NN	<unknown>	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	der	PRELS	die	_	O	O	
+4-6	nunmehr	ADV	nunmehr	_	O	O	
+4-7	eintreten	VVINF	eintreten	_	O	O	
+4-8	wird	VAFIN	werden	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	bin	VAFIN	sein	_	O	O	
+4-11	ich	PPER	ich	_	O	O	
+4-12	unschuldig	ADJD	unschuldig	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich habe in maßvollem Entgegenkommen mein Möglichstes gethan.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	in	APPR	in	_	O	O	
+5-4	maßvollem	ADJA	maßvoll	_	O	O	
+5-5	Entgegenkommen	NN	Entgegenkommen	_	O	O	
+5-6	mein	PPOSAT	mein	_	O	O	
+5-7	Möglichstes	ADJA	möglich	_	O	O	
+5-8	gethan	NN	<unknown>	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Die unglücklichen neuen Sekret~äre !
+6-1	Die	ART	die	_	O	O	
+6-2	unglücklichen	ADJA	unglücklich	_	O	O	
+6-3	neuen	ADJA	neu	_	O	O	
+6-4	Sekret~äre	NN	<unknown>	_	O	O	
+6-5	!	$.	!	_	O	O	
+
+#id=7
+#text=Mit herzlichen Grüßen Ihr ergebener Helbig
+7-1	Mit	APPR	mit	_	O	O	
+7-2	herzlichen	ADJA	herzlich	_	O	O	
+7-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+7-4	Ihr	PPOSAT	ihr	_	O	O	
+7-5	ergebener	ADJA	ergeben	_	O	O	
+7-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

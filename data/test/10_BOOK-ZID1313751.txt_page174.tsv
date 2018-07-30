@@ -1,0 +1,230 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=41 Wolfgang Helbig an Heinrich Brunn Rom, 18. Januar 1884 Roma, li 18. Jan.
+1-1	41	CARD	41	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1884	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-14	,	$,	,	_	O	O	
+1-15	li	ADJD	<unknown>	_	O	O	
+1-16	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1884 Lieber Herr Professor Da Torlonia bisweilen eigenthümliche Anwandelungen von Geiz hat, so könnte er sich möglicher Weise darüber ärgern, wenn zwei verschiedene Speditionen von München einträfen was ja in der That die Sache etwas vertheuert.
+2-1	1884	CARD	@card@	_	O	O	
+2-2	Lieber	ADJA	lieb	_	O	O	
+2-3	Herr	NN	Herr	_	O	O	
+2-4	Professor	NN	Professor	_	O	O	
+2-5	Da	ADV	da	_	O	O	
+2-6	Torlonia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-7	bisweilen	ADV	bisweilen	_	O	O	
+2-8	eigenthümliche	ADJA	<unknown>	_	O	O	
+2-9	Anwandelungen	NN	<unknown>	_	O	O	
+2-10	von	APPR	von	_	O	O	
+2-11	Geiz	NN	Geiz	_	O	O	
+2-12	hat	VAFIN	haben	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	so	ADV	so	_	O	O	
+2-15	könnte	VMFIN	können	_	O	O	
+2-16	er	PPER	er	_	O	O	
+2-17	sich	PRF	sich	_	O	O	
+2-18	möglicher	ADJA	möglich	_	O	O	
+2-19	Weise	NN	Weise	_	O	O	
+2-20	darüber	PAV	darüber	_	O	O	
+2-21	ärgern	VVINF	ärgern	_	O	O	
+2-22	,	$,	,	_	O	O	
+2-23	wenn	KOUS	wenn	_	O	O	
+2-24	zwei	CARD	zwei	_	O	O	
+2-25	verschiedene	ADJA	verschieden	_	O	O	
+2-26	Speditionen	NN	Spedition	_	O	O	
+2-27	von	APPR	von	_	O	O	
+2-28	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-29	einträfen	VVFIN	eintreffen	_	O	O	
+2-30	was	PIS	was	_	O	O	
+2-31	ja	ADV	ja	_	O	O	
+2-32	in	APPR	in	_	O	O	
+2-33	der	ART	die	_	O	O	
+2-34	That	NE	<unknown>	_	O	O	
+2-35	die	ART	die	_	O	O	
+2-36	Sache	NN	Sache	_	O	O	
+2-37	etwas	ADV	etwas	_	O	O	
+2-38	vertheuert	ADJD	<unknown>	_	O	O	
+2-39	.	$.	.	_	O	O	
+
+#id=3
+#text=Wäre es demnach nicht doch möglich die beiden Sendungen als eine Spedition abgehen zu lassen?
+3-1	Wäre	VAFIN	sein	_	O	O	
+3-2	es	PPER	es	_	O	O	
+3-3	demnach	ADV	demnach	_	O	O	
+3-4	nicht	PTKNEG	nicht	_	O	O	
+3-5	doch	ADV	doch	_	O	O	
+3-6	möglich	ADJD	möglich	_	O	O	
+3-7	die	ART	die	_	O	O	
+3-8	beiden	PIAT	beide	_	O	O	
+3-9	Sendungen	NN	Sendung	_	O	O	
+3-10	als	KOKOM	als	_	O	O	
+3-11	eine	ART	eine	_	O	O	
+3-12	Spedition	NN	Spedition	_	O	O	
+3-13	abgehen	VVINF	abgehen	_	O	O	
+3-14	zu	PTKZU	zu	_	O	O	
+3-15	lassen	VVINF	lassen	_	O	O	
+3-16	?	$.	?	_	O	O	
+
+#id=4
+#text=Die Spedition wäre zu adressiren : Signor Principe Don Alessandro Torlonia Villa Albani - Torlonia ( fuori di Porta Salara ) Rom a Ich lege einige Zeilen an Herrn Professor Morel bei, in denen ich ihm diesen Gesichtspunkt mittheile und bitte sich wegen der Versendung an mich zu wenden.
+4-1	Die	ART	die	_	O	O	
+4-2	Spedition	NN	Spedition	_	O	O	
+4-3	wäre	VAFIN	sein	_	O	O	
+4-4	zu	APPR	zu	_	O	O	
+4-5	adressiren	NN	<unknown>	_	O	O	
+4-6	:	$.	:	_	O	O	
+4-7	Signor	NN	Signor	_	O	O	
+4-8	Principe	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-9	Don	NE	Don	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-10	Alessandro	NE	Alessandro	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-11	Torlonia	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-12	Villa	NN	Villa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-13	Albani	NN	Albani	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+4-14	-	$(	-	_	O	O	
+4-15	Torlonia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-16	(	$(	(	_	O	O	
+4-17	fuori	VVFIN	<unknown>	_	O	O	
+4-18	di	NE	di	_	O	O	
+4-19	Porta	NN	<unknown>	_	O	O	
+4-20	Salara	NE	<unknown>	_	O	O	
+4-21	)	$(	)	_	O	O	
+4-22	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-23	a	FM	a	_	O	O	
+4-24	Ich	PPER	ich	_	O	O	
+4-25	lege	VVFIN	legen	_	O	O	
+4-26	einige	PIAT	einige	_	O	O	
+4-27	Zeilen	NN	Zeile	_	O	O	
+4-28	an	APPR	an	_	O	O	
+4-29	Herrn	NN	Herr	_	O	O	
+4-30	Professor	NN	Professor	_	O	O	
+4-31	Morel	NE	<unknown>	_	O	O	
+4-32	bei	PTKVZ	bei	_	O	O	
+4-33	,	$,	,	_	O	O	
+4-34	in	APPR	in	_	O	O	
+4-35	denen	PRELS	die	_	O	O	
+4-36	ich	PPER	ich	_	O	O	
+4-37	ihm	PPER	er	_	O	O	
+4-38	diesen	PDAT	dies	_	O	O	
+4-39	Gesichtspunkt	NN	Gesichtspunkt	_	O	O	
+4-40	mittheile	VVFIN	<unknown>	_	O	O	
+4-41	und	KON	und	_	O	O	
+4-42	bitte	VVFIN	bitten	_	O	O	
+4-43	sich	PRF	sich	_	O	O	
+4-44	wegen	APPR	wegen	_	O	O	
+4-45	der	ART	die	_	O	O	
+4-46	Versendung	NN	Versendung	_	O	O	
+4-47	an	APPR	an	_	O	O	
+4-48	mich	PPER	ich	_	O	O	
+4-49	zu	PTKZU	zu	_	O	O	
+4-50	wenden	VVINF	wenden	_	O	O	
+4-51	.	$.	.	_	O	O	
+
+#id=5
+#text=Torlonia hat die Gelder auf meinen Namen angewiesen und ich halte es für meine Pflicht ihm jegliche Mühe zu sparen, damit er willfährig und bei guter Laune bleibt.
+5-1	Torlonia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	hat	VAFIN	haben	_	O	O	
+5-3	die	ART	die	_	O	O	
+5-4	Gelder	NN	Geld	_	O	O	
+5-5	auf	APPR	auf	_	O	O	
+5-6	meinen	PPOSAT	mein	_	O	O	
+5-7	Namen	NN	Name	_	O	O	
+5-8	angewiesen	VVPP	anweisen	_	O	O	
+5-9	und	KON	und	_	O	O	
+5-10	ich	PPER	ich	_	O	O	
+5-11	halte	VVFIN	halten	_	O	O	
+5-12	es	PPER	es	_	O	O	
+5-13	für	APPR	für	_	O	O	
+5-14	meine	PPOSAT	mein	_	O	O	
+5-15	Pflicht	NN	Pflicht	_	O	O	
+5-16	ihm	PPER	er	_	O	O	
+5-17	jegliche	PIAT	jegliche	_	O	O	
+5-18	Mühe	NN	Mühe	_	O	O	
+5-19	zu	PTKZU	zu	_	O	O	
+5-20	sparen	VVINF	sparen	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	damit	KOUS	damit	_	O	O	
+5-23	er	PPER	er	_	O	O	
+5-24	willfährig	ADJD	<unknown>	_	O	O	
+5-25	und	KON	und	_	O	O	
+5-26	bei	APPR	bei	_	O	O	
+5-27	guter	ADJA	gut	_	O	O	
+5-28	Laune	NN	Laune	_	O	O	
+5-29	bleibt	VVFIN	bleiben	_	O	O	
+5-30	.	$.	.	_	O	O	
+
+#id=6
+#text=Zugleich bitte ich Sie noch mir Höhe und Breite des Podiums anzugeben, auf dem die Aegineten aufzustellen sind, damit ich dasselbe unterdeß machen lassen kann, denn Torlonia möchte möglichst rasch faits accomplis sehen.
+6-1	Zugleich	ADV	zugleich	_	O	O	
+6-2	bitte	VVFIN	bitten	_	O	O	
+6-3	ich	PPER	ich	_	O	O	
+6-4	Sie	PPER	Sie	_	O	O	
+6-5	noch	ADV	noch	_	O	O	
+6-6	mir	PPER	ich	_	O	O	
+6-7	Höhe	NN	Höhe	_	O	O	
+6-8	und	KON	und	_	O	O	
+6-9	Breite	NN	Breite	_	O	O	
+6-10	des	ART	die	_	O	O	
+6-11	Podiums	NN	Podium	_	O	O	
+6-12	anzugeben	VVIZU	angeben	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	auf	APPR	auf	_	O	O	
+6-15	dem	PRELS	die	_	O	O	
+6-16	die	ART	die	_	O	O	
+6-17	Aegineten	NN	Äginete	_	B-webanno.custom.LetterEntity_	B-OBJ	
+6-18	aufzustellen	VVIZU	aufstellen	_	O	O	
+6-19	sind	VAFIN	sein	_	O	O	
+6-20	,	$,	,	_	O	O	
+6-21	damit	KOUS	damit	_	O	O	
+6-22	ich	PPER	ich	_	O	O	
+6-23	dasselbe	PDAT	dasselb	_	O	O	
+6-24	unterdeß	NN	<unknown>	_	O	O	
+6-25	machen	VVINF	machen	_	O	O	
+6-26	lassen	VVINF	lassen	_	O	O	
+6-27	kann	VMFIN	können	_	O	O	
+6-28	,	$,	,	_	O	O	
+6-29	denn	KON	denn	_	O	O	
+6-30	Torlonia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-31	möchte	VMFIN	mögen	_	O	O	
+6-32	möglichst	ADV	möglichst	_	O	O	
+6-33	rasch	ADJD	rasch	_	O	O	
+6-34	faits	ADJA	<unknown>	_	O	O	
+6-35	accomplis	NN	<unknown>	_	O	O	
+6-36	sehen	VVINF	sehen	_	O	O	
+6-37	.	$.	.	_	O	O	
+
+#id=7
+#text=Wäre es vielleicht möglich der für Torlonia bestimmten Sendung einen Abguß des weiblichen Kopfes mit dem ge-
+7-1	Wäre	VAFIN	sein	_	O	O	
+7-2	es	PPER	es	_	O	O	
+7-3	vielleicht	ADV	vielleicht	_	O	O	
+7-4	möglich	ADJD	möglich	_	O	O	
+7-5	der	ART	die	_	O	O	
+7-6	für	APPR	für	_	O	O	
+7-7	Torlonia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-8	bestimmten	ADJA	bestimmt	_	O	O	
+7-9	Sendung	NN	Sendung	_	O	O	
+7-10	einen	ART	eine	_	O	O	
+7-11	Abguß	NN	Abguß	_	O	O	
+7-12	des	ART	die	_	O	O	
+7-13	weiblichen	ADJA	weiblich	_	O	O	
+7-14	Kopfes	NN	Kopf	_	O	O	
+7-15	mit	APPR	mit	_	O	O	
+7-16	dem	ART	die	_	O	O	
+7-17	ge-	TRUNC	ge-	_	O	O	
+

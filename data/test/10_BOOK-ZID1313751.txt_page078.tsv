@@ -1,0 +1,217 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=3 Helbig an ~~ Rom, 21. August 1863 einem für ihn bestimmten Convolut.
+1-1	3	CARD	3	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	~~	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	einem	ART	eine	_	O	O	
+1-12	für	APPR	für	_	O	O	
+1-13	ihn	PPER	er	_	O	O	
+1-14	bestimmten	ADJA	bestimmt	_	O	O	
+1-15	Convolut	NN	<unknown>	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich lege den Zettel bei und bitte Sie, ihm selbst da~iber Bescheid zu geben, da ich nichts davon weiß.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	lege	VVFIN	legen	_	O	O	
+2-3	den	ART	die	_	O	O	
+2-4	Zettel	NN	Zettel	_	O	O	
+2-5	bei	APPR	bei	_	O	O	
+2-6	und	KON	und	_	O	O	
+2-7	bitte	VVFIN	bitten	_	O	O	
+2-8	Sie	PPER	Sie	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	ihm	PPER	er	_	O	O	
+2-11	selbst	ADV	selbst	_	O	O	
+2-12	da~iber	NN	<unknown>	_	O	O	
+2-13	Bescheid	NN	Bescheid	_	O	O	
+2-14	zu	PTKZU	zu	_	O	O	
+2-15	geben	VVINF	geben	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	da	KOUS	da	_	O	O	
+2-18	ich	PPER	ich	_	O	O	
+2-19	nichts	PIS	nichts	_	O	O	
+2-20	davon	PAV	davon	_	O	O	
+2-21	weiß.	ADJA	<unknown>	_	O	O	
+
+#id=3
+#text=11i t einem Ri tschl' schen Auftrage war ich bei Garucci.
+3-1	11i	NE	<unknown>	_	O	O	
+3-2	t	NN	t	_	O	O	
+3-3	einem	ART	eine	_	O	O	
+3-4	Ri	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	tschl	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-6	'	$(	'	_	O	O	
+3-7	schen	ADJA	<unknown>	_	O	O	
+3-8	Auftrage	NN	Auftrag	_	O	O	
+3-9	war	VAFIN	sein	_	O	O	
+3-10	ich	PPER	ich	_	O	O	
+3-11	bei	APPR	bei	_	O	O	
+3-12	Garucci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Der ehrwürdige Vater behandelte mich ziemlich grob, wies Ritschls Wunsch ab und machte unverschämte Ausfälle gegen l"Iommsen und möglicher Weise auch gegen Sie, falls Sie nämlich der comune amico sind, welcher einen nach Garuccis Ansicht ächten Spiegel des l"Iuseo Kircheriano für unächt erklärt hat.
+4-1	Der	ART	die	_	O	O	
+4-2	ehrwürdige	ADJA	ehrwürdig	_	O	O	
+4-3	Vater	NN	Vater	_	O	O	
+4-4	behandelte	VVFIN	behandeln	_	O	O	
+4-5	mich	PRF	ich	_	O	O	
+4-6	ziemlich	ADV	ziemlich	_	O	O	
+4-7	grob	ADJD	grob	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	wies	VVFIN	weisen	_	O	O	
+4-10	Ritschls	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-11	Wunsch	NN	Wunsch	_	O	O	
+4-12	ab	PTKVZ	ab	_	O	O	
+4-13	und	KON	und	_	O	O	
+4-14	machte	VVFIN	machen	_	O	O	
+4-15	unverschämte	ADJA	unverschämt	_	O	O	
+4-16	Ausfälle	NN	Ausfall	_	O	O	
+4-17	gegen	APPR	gegen	_	O	O	
+4-18	l"Iommsen	NN	<unknown>	_	O	O	
+4-19	und	KON	und	_	O	O	
+4-20	möglicher	ADJA	möglich	_	O	O	
+4-21	Weise	NN	Weise	_	O	O	
+4-22	auch	ADV	auch	_	O	O	
+4-23	gegen	APPR	gegen	_	O	O	
+4-24	Sie	PPER	Sie	_	O	O	
+4-25	,	$,	,	_	O	O	
+4-26	falls	KOUS	falls	_	O	O	
+4-27	Sie	PPER	Sie	_	O	O	
+4-28	nämlich	ADV	nämlich	_	O	O	
+4-29	der	ART	die	_	O	O	
+4-30	comune	ADJA	<unknown>	_	O	O	
+4-31	amico	NE	<unknown>	_	O	O	
+4-32	sind	VAFIN	sein	_	O	O	
+4-33	,	$,	,	_	O	O	
+4-34	welcher	PWS	welche	_	O	O	
+4-35	einen	ART	eine	_	O	O	
+4-36	nach	APPR	nach	_	O	O	
+4-37	Garuccis	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-38	Ansicht	NN	Ansicht	_	O	O	
+4-39	ächten	VVFIN	ächten	_	O	O	
+4-40	Spiegel	NN	Spiegel	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-41	des	ART	die	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-42	l"Iuseo	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-43	Kircheriano	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+4-44	für	APPR	für	_	O	O	
+4-45	unächt	ADJD	<unknown>	_	O	O	
+4-46	erklärt	VVPP	erklären	_	O	O	
+4-47	hat	VAFIN	haben	_	O	O	
+4-48	.	$.	.	_	O	O	
+
+#id=5
+#text=Jedenfalls ist es Zeit, jede Rücksicht gegen das grobe Vieh fallen zu lassen und zu treten, wo es möglich ist.
+5-1	Jedenfalls	ADV	jedenfalls	_	O	O	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	es	PPER	es	_	O	O	
+5-4	Zeit	NN	Zeit	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	jede	PIAT	jede	_	O	O	
+5-7	Rücksicht	NN	Rücksicht	_	O	O	
+5-8	gegen	APPR	gegen	_	O	O	
+5-9	das	ART	die	_	O	O	
+5-10	grobe	ADJA	grob	_	O	O	
+5-11	Vieh	NN	Vieh	_	O	O	
+5-12	fallen	VVINF	fallen	_	O	O	
+5-13	zu	PTKZU	zu	_	O	O	
+5-14	lassen	VVINF	lassen	_	O	O	
+5-15	und	KON	und	_	O	O	
+5-16	zu	PTKZU	zu	_	O	O	
+5-17	treten	VVINF	treten	_	O	O	
+5-18	,	$,	,	_	O	O	
+5-19	wo	PWAV	wo	_	O	O	
+5-20	es	PPER	es	_	O	O	
+5-21	möglich	ADJD	möglich	_	O	O	
+5-22	ist	VAFIN	sein	_	O	O	
+5-23	.	$.	.	_	O	O	
+
+#id=6
+#text=Eben fällt der erste Regen.
+6-1	Eben	ADV	eben	_	O	O	
+6-2	fällt	VVFIN	fallen|fällen	_	O	O	
+6-3	der	ART	die	_	O	O	
+6-4	erste	ADJA	erst	_	O	O	
+6-5	Regen	NN	Regen	_	O	O	
+6-6	.	$.	.	_	O	O	
+
+#id=7
+#text=Sonst giebt es nichts Neues.
+7-1	Sonst	ADV	sonst	_	O	O	
+7-2	giebt	VVFIN	<unknown>	_	O	O	
+7-3	es	PPER	es	_	O	O	
+7-4	nichts	PIAT	nichts	_	O	O	
+7-5	Neues	NN	Neue	_	O	O	
+7-6	.	$.	.	_	O	O	
+
+#id=8
+#text=11i t herzlichen Grüßen Ihr \volfgang Helbig Eingegangen De Witte Aufsatz La trahison d' Eriphyle.
+8-1	11i	NE	<unknown>	_	O	O	
+8-2	t	NN	t	_	O	O	
+8-3	herzlichen	ADJA	herzlich	_	O	O	
+8-4	Grüßen	NN	Gruß|Grüßen	_	O	O	
+8-5	Ihr	PPOSAT	ihr	_	O	O	
+8-6	\volfgang	NN	<unknown>	_	O	O	
+8-7	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-8	Eingegangen	ADJA	<unknown>	_	O	O	
+8-9	De	NE	De	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-10	Witte	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-11	Aufsatz	NN	Aufsatz	_	O	O	
+8-12	La	NE	La	_	O	O	
+8-13	trahison	NE	<unknown>	_	O	O	
+8-14	d	ADJA	<unknown>	_	O	O	
+8-15	'	$(	'	_	O	O	
+8-16	Eriphyle	NN	<unknown>	_	O	O	
+8-17	.	$.	.	_	O	O	
+
+#id=9
+#text=Rhusopulos :1.Bericht über die Ausgrabungen von 2.
+9-1	Rhusopulos	NE	<unknown>	_	O	O	
+9-2	:1.Bericht	NN	<unknown>	_	O	O	
+9-3	über	APPR	über	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	Ausgrabungen	NN	Ausgrabung	_	O	O	
+9-6	von	APPR	von	_	O	O	
+9-7	2	CARD	2	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Aufsatz über ein athenisches Pallas idol (nebst Zeichnung ) 3.
+10-1	Aufsatz	NN	Aufsatz	_	O	O	
+10-2	über	APPR	über	_	O	O	
+10-3	ein	ART	eine	_	O	O	
+10-4	athenisches	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+10-5	Pallas	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+10-6	idol	NN	Idol	_	O	O	
+10-7	(	$(	(	_	O	O	
+10-8	nebst	APPR	nebst	_	O	O	
+10-9	Zeichnung	NN	Zeichnung	_	O	O	
+10-10	)	$(	)	_	O	O	
+10-11	3	CARD	3	_	O	O	
+10-12	.	$.	.	_	O	O	
+
+#id=11
+#text=Aufsatz über ein römisches Relief mit Inschrift (nebst Zeichnung und Abklatsch )
+11-1	Aufsatz	NN	Aufsatz	_	O	O	
+11-2	über	APPR	über	_	O	O	
+11-3	ein	ART	eine	_	O	O	
+11-4	römisches	ADJA	römisch	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-5	Relief	NN	Relief	_	I-webanno.custom.LetterEntity_	I-OBJ	
+11-6	mit	APPR	mit	_	I-webanno.custom.LetterEntity_	I-OBJ	
+11-7	Inschrift	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-OBJ	
+11-8	(	$(	(	_	O	O	
+11-9	nebst	APPR	nebst	_	O	O	
+11-10	Zeichnung	NN	Zeichnung	_	O	O	
+11-11	und	KON	und	_	O	O	
+11-12	Abklatsch	NN	Abklatsch	_	O	O	
+11-13	)	$(	)	_	O	O	
+

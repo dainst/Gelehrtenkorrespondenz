@@ -1,0 +1,29 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=17 4 Wolfgang Helbig an Heinrich Brunn Rom, 22. Juni 1874 oder August an Ort und Stelle verfügen, um zu revidiren.
+1-1	17	CARD	17	_	O	O	
+1-2	4	CARD	4	_	O	O	
+1-3	Wolfgang	NN	Wolfgang	_	O	O	
+1-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	oder	KON	oder	_	O	O	
+1-15	August	NN	August	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-16	an	APPR	an	_	O	O	
+1-17	Ort	NN	Ort	_	O	O	
+1-18	und	KON	und	_	O	O	
+1-19	Stelle	NN	Stelle	_	O	O	
+1-20	verfügen	VVFIN	verfügen	_	O	O	
+1-21	,	$,	,	_	O	O	
+1-22	um	KOUI	um	_	O	O	
+1-23	zu	APPR	zu	_	O	O	
+1-24	revidiren	NN	<unknown>	_	O	O	
+1-25	.	$.	.	_	O	O	
+
