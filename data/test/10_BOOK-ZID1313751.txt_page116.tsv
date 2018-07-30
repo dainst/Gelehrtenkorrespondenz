@@ -1,0 +1,235 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=15 Wolfgang Helbig an Heinrich Brunn Rom, 9. Mai 1874 r. 16/V 74 Lieber Herr Professor In Aller Eile die Mittheilung, daß ich soeben einen Brief von Lepsius erhalten, durch welchen mein Dissens mit der Central Direction beigelegt wird.
+1-1	15	CARD	15	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	r.	VVFIN	<unknown>	_	O	O	
+1-14	16/V	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+1-15	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+1-16	Lieber	ADJA	lieb	_	O	O	
+1-17	Herr	NN	Herr	_	O	O	
+1-18	Professor	NN	Professor	_	O	O	
+1-19	In	APPR	in	_	O	O	
+1-20	Aller	NE	Aller	_	O	O	
+1-21	Eile	NN	Eile	_	O	O	
+1-22	die	ART	die	_	O	O	
+1-23	Mittheilung	NN	<unknown>	_	O	O	
+1-24	,	$,	,	_	O	O	
+1-25	daß	KOUS	dass	_	O	O	
+1-26	ich	PPER	ich	_	O	O	
+1-27	soeben	ADV	soeben	_	O	O	
+1-28	einen	ART	eine	_	O	O	
+1-29	Brief	NN	Brief	_	O	O	
+1-30	von	APPR	von	_	O	O	
+1-31	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-32	erhalten	VVPP	erhalten	_	O	O	
+1-33	,	$,	,	_	O	O	
+1-34	durch	APPR	durch	_	O	O	
+1-35	welchen	PRELS	welche	_	O	O	
+1-36	mein	PPOSAT	mein	_	O	O	
+1-37	Dissens	NN	<unknown>	_	O	O	
+1-38	mit	APPR	mit	_	O	O	
+1-39	der	ART	die	_	O	O	
+1-40	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-41	Direction	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+1-42	beigelegt	VVPP	beilegen	_	O	O	
+1-43	wird	VAFIN	werden	_	O	O	
+1-44	.	$.	.	_	O	O	
+
+#id=2
+#text=Die Central Direction in ihrem gegenwärtigen Bestande hat beschlossen, bei der im nächsten Monat zusammentretenden erweiterten Central Direction darauf hinzuwirken, daß meine hiesige Stellung der des athenischen Sekretärs gleichgestellt und mir der Professort~tel ertheilt werde.
+2-1	Die	ART	die	_	O	O	
+2-2	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-3	Direction	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+2-4	in	APPR	in	_	O	O	
+2-5	ihrem	PPOSAT	ihr	_	O	O	
+2-6	gegenwärtigen	ADJA	gegenwärtig	_	O	O	
+2-7	Bestande	NN	<unknown>	_	O	O	
+2-8	hat	VAFIN	haben	_	O	O	
+2-9	beschlossen	VVPP	beschließen	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	bei	APPR	bei	_	O	O	
+2-12	der	PRELS	die	_	O	O	
+2-13	im	APPRART	in	_	O	O	
+2-14	nächsten	ADJA	nah	_	O	O	
+2-15	Monat	NN	Monat	_	O	O	
+2-16	zusammentretenden	ADJA	zusammentretend	_	O	O	
+2-17	erweiterten	ADJA	erweitert	_	O	O	
+2-18	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-19	Direction	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+2-20	darauf	PAV	darauf	_	O	O	
+2-21	hinzuwirken	VVIZU	hinwirken	_	O	O	
+2-22	,	$,	,	_	O	O	
+2-23	daß	KOUS	dass	_	O	O	
+2-24	meine	PPOSAT	mein	_	O	O	
+2-25	hiesige	ADJA	hiesig	_	O	O	
+2-26	Stellung	NN	Stellung	_	O	O	
+2-27	der	ART	die	_	O	O	
+2-28	des	ART	die	_	O	O	
+2-29	athenischen	ADJA	athenisch	_	O	O	
+2-30	Sekretärs	NN	Sekretär	_	O	O	
+2-31	gleichgestellt	VVPP	gleichstellen	_	O	O	
+2-32	und	KON	und	_	O	O	
+2-33	mir	PRF	ich	_	O	O	
+2-34	der	ART	die	_	O	O	
+2-35	Professort~tel	NN	<unknown>	_	O	O	
+2-36	ertheilt	VVPP	<unknown>	_	O	O	
+2-37	werde	VAFIN	werden	_	O	O	
+2-38	.	$.	.	_	O	O	
+
+#id=3
+#text=Da mir die gegenwärtige Central Direction, die mich in die gegenwärtige schiefe Situation gebracht, den guten Willen zeigt, sich für mich zu bemühen, so kann ich mich hierbei beruhigen und bin in der That sehr froh, daß ich mit Ehren aus dieser unangenehmen Krisis hervorgehe.
+3-1	Da	KOUS	da	_	O	O	
+3-2	mir	PPER	ich	_	O	O	
+3-3	die	ART	die	_	O	O	
+3-4	gegenwärtige	ADJA	gegenwärtig	_	O	O	
+3-5	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-6	Direction	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+3-7	,	$,	,	_	O	O	
+3-8	die	PRELS	die	_	O	O	
+3-9	mich	PRF	ich	_	O	O	
+3-10	in	APPR	in	_	O	O	
+3-11	die	ART	die	_	O	O	
+3-12	gegenwärtige	ADJA	gegenwärtig	_	O	O	
+3-13	schiefe	ADJA	schief	_	O	O	
+3-14	Situation	NN	Situation	_	O	O	
+3-15	gebracht	VVPP	bringen	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	den	ART	die	_	O	O	
+3-18	guten	ADJA	gut	_	O	O	
+3-19	Willen	NN	Wille	_	O	O	
+3-20	zeigt	VVFIN	zeigen	_	O	O	
+3-21	,	$,	,	_	O	O	
+3-22	sich	PRF	sich	_	O	O	
+3-23	für	APPR	für	_	O	O	
+3-24	mich	PPER	ich	_	O	O	
+3-25	zu	PTKZU	zu	_	O	O	
+3-26	bemühen	VVINF	bemühen	_	O	O	
+3-27	,	$,	,	_	O	O	
+3-28	so	ADV	so	_	O	O	
+3-29	kann	VMFIN	können	_	O	O	
+3-30	ich	PPER	ich	_	O	O	
+3-31	mich	PRF	ich	_	O	O	
+3-32	hierbei	PAV	hierbei	_	O	O	
+3-33	beruhigen	VVINF	beruhigen	_	O	O	
+3-34	und	KON	und	_	O	O	
+3-35	bin	VAFIN	sein	_	O	O	
+3-36	in	APPR	in	_	O	O	
+3-37	der	ART	die	_	O	O	
+3-38	That	NE	<unknown>	_	O	O	
+3-39	sehr	ADV	sehr	_	O	O	
+3-40	froh	ADJD	froh	_	O	O	
+3-41	,	$,	,	_	O	O	
+3-42	daß	KOUS	dass	_	O	O	
+3-43	ich	PPER	ich	_	O	O	
+3-44	mit	APPR	mit	_	O	O	
+3-45	Ehren	NN	Ehre|Ehren	_	O	O	
+3-46	aus	APPR	aus	_	O	O	
+3-47	dieser	PDAT	dies	_	O	O	
+3-48	unangenehmen	ADJA	unangenehm	_	O	O	
+3-49	Krisis	NN	Krisis	_	O	O	
+3-50	hervorgehe	VVFIN	hervorgehen	_	O	O	
+3-51	.	$.	.	_	O	O	
+
+#id=4
+#text=Für heute nur noch einen Vorschlag, für den Sie sich vielleicht bei Zusammentritt der erweiterten Central Direction verwenden könnten.
+4-1	Für	APPR	für	_	O	O	
+4-2	heute	ADV	heute	_	O	O	
+4-3	nur	ADV	nur	_	O	O	
+4-4	noch	ADV	noch	_	O	O	
+4-5	einen	ART	eine	_	O	O	
+4-6	Vorschlag	NN	Vorschlag	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	für	APPR	für	_	O	O	
+4-9	den	PRELS	die	_	O	O	
+4-10	Sie	PPER	Sie	_	O	O	
+4-11	sich	PRF	sich	_	O	O	
+4-12	vielleicht	ADV	vielleicht	_	O	O	
+4-13	bei	APPR	bei	_	O	O	
+4-14	Zusammentritt	NN	<unknown>	_	O	O	
+4-15	der	ART	die	_	O	O	
+4-16	erweiterten	ADJA	erweitert	_	O	O	
+4-17	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-18	Direction	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+4-19	verwenden	VVINF	verwenden	_	O	O	
+4-20	könnten	VMFIN	können	_	O	O	
+4-21	.	$.	.	_	O	O	
+
+#id=5
+#text=Unsere Verlegenheit, rechtzeitig einen Zeichner zur Disposition zu haben, nehme: mit jedem Tage überhand.
+5-1	Unsere	PPOSAT	unser	_	O	O	
+5-2	Verlegenheit	NN	Verlegenheit	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	rechtzeitig	ADJD	rechtzeitig	_	O	O	
+5-5	einen	ART	eine	_	O	O	
+5-6	Zeichner	NN	Zeichner	_	O	O	
+5-7	zur	APPRART	zu	_	O	O	
+5-8	Disposition	NN	Disposition	_	O	O	
+5-9	zu	PTKZU	zu	_	O	O	
+5-10	haben	VAINF	haben	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	nehme	VVFIN	nehmen	_	O	O	
+5-13	:	$.	:	_	O	O	
+5-14	mit	APPR	mit	_	O	O	
+5-15	jedem	PIAT	jede	_	O	O	
+5-16	Tage	NN	Tag	_	O	O	
+5-17	überhand	PTKVZ	überhand	_	O	O	
+5-18	.	$.	.	_	O	O	
+
+#id=6
+#text=Wir haben einerseits die Concurrenz der Commissione municipale, der Soprintendenza, der englischen archäologischen Gesellscha~~, die alle sehr viel zeichnen lassen.
+6-1	Wir	PPER	wir	_	O	O	
+6-2	haben	VAFIN	haben	_	O	O	
+6-3	einerseits	ADV	einerseits	_	O	O	
+6-4	die	ART	die	_	O	O	
+6-5	Concurrenz	NN	<unknown>	_	O	O	
+6-6	der	ART	die	_	O	O	
+6-7	Commissione	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-8	municipale	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+6-9	,	$,	,	_	O	O	
+6-10	der	ART	die	_	O	O	
+6-11	Soprintendenza	NN	<unknown>	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	der	ART	die	_	O	O	
+6-14	englischen	ADJA	englisch	_	O	O	
+6-15	archäologischen	ADJA	archäologisch	_	O	O	
+6-16	Gesellscha~~	NN	<unknown>	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	die	PRELS	die	_	O	O	
+6-19	alle	PIS	alle	_	O	O	
+6-20	sehr	ADV	sehr	_	O	O	
+6-21	viel	PIS	viele	_	O	O	
+6-22	zeichnen	VVINF	zeichnen	_	O	O	
+6-23	lassen	VVFIN	lassen	_	O	O	
+6-24	.	$.	.	_	O	O	
+
+#id=7
+#text=Anderer Seits erschwert die Legge Pacca ( über den Export der Antiquitäten) die Möglichkeit, Ge-
+7-1	Anderer	PIAT	andere	_	O	O	
+7-2	Seits	NN	<unknown>	_	O	O	
+7-3	erschwert	VVFIN	erschweren	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	Legge	NN	<unknown>	_	O	O	
+7-6	Pacca	NE	<unknown>	_	O	O	
+7-7	(	$(	(	_	O	O	
+7-8	über	APPR	über	_	O	O	
+7-9	den	ART	die	_	O	O	
+7-10	Export	NN	Export	_	O	O	
+7-11	der	ART	die	_	O	O	
+7-12	Antiquitäten	NN	Antiquität	_	O	O	
+7-13	)	$(	)	_	O	O	
+7-14	die	ART	die	_	O	O	
+7-15	Möglichkeit	NN	Möglichkeit	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	Ge-	TRUNC	Ge-	_	O	O	
+

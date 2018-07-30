@@ -1,0 +1,223 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an ~~~« Rom, 7. September 1863 g. 9/IX 63 r.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	~~~	ADJA	<unknown>	_	O	O	
+1-4	«	NN	<unknown>	_	O	O	
+1-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	g.	VVFIN	<unknown>	_	O	O	
+1-12	9/IX	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-13	63	CARD	63	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-14	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=Rom 7. September 1863. Geehrtester Herr Professor !
+2-1	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-2	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-3	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-4	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-5	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-6	.	$.	.	_	O	O	
+2-7	Geehrtester	ADJA	<unknown>	_	O	O	
+2-8	Herr	NN	Herr	_	O	O	
+2-9	Professor	NN	Professor	_	O	O	
+2-10	!	$.	!	_	O	O	
+
+#id=3
+#text=Letzten Donnerstag habe ich Ihren Brief erhalten, doch ohne die darin angekündigten Correcturbogen.
+3-1	Letzten	ADJA	letzt	_	O	O	
+3-2	Donnerstag	NN	Donnerstag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-3	habe	VAFIN	haben	_	O	O	
+3-4	ich	PPER	ich	_	O	O	
+3-5	Ihren	PPOSAT	ihr	_	O	O	
+3-6	Brief	NN	Brief	_	O	O	
+3-7	erhalten	VVPP	erhalten	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	doch	KON	doch	_	O	O	
+3-10	ohne	APPR	ohne	_	O	O	
+3-11	die	ART	die	_	O	O	
+3-12	darin	PAV	darin	_	O	O	
+3-13	angekündigten	ADJA	angekündigt	_	O	O	
+3-14	Correcturbogen	NN	<unknown>	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich muß daher annehmen, entweder, daß Sie dieselben aus irgend welchem Grunde noch zurückgehalten haben oder daß sie irgendwo liegen geblieben sind, vielleicht weil ein Postbeamter an den beigefügten geschriebenen Originalen Anstoß nahm.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	muß	VMFIN	müssen	_	O	O	
+4-3	daher	PAV	daher	_	O	O	
+4-4	annehmen	VVINF	annehmen	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	entweder	KON	entweder	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	daß	KOUS	dass	_	O	O	
+4-9	Sie	PPER	Sie	_	O	O	
+4-10	dieselben	PDS	dieselbe	_	O	O	
+4-11	aus	APPR	aus	_	O	O	
+4-12	irgend	ADV	irgend	_	O	O	
+4-13	welchem	PRELS	welche	_	O	O	
+4-14	Grunde	NN	Grund	_	O	O	
+4-15	noch	ADV	noch	_	O	O	
+4-16	zurückgehalten	VVPP	zurückhalten	_	O	O	
+4-17	haben	VAFIN	haben	_	O	O	
+4-18	oder	KON	oder	_	O	O	
+4-19	daß	KOUS	dass	_	O	O	
+4-20	sie	PPER	sie	_	O	O	
+4-21	irgendwo	ADV	irgendwo	_	O	O	
+4-22	liegen	VVFIN	liegen	_	O	O	
+4-23	geblieben	VVPP	bleiben	_	O	O	
+4-24	sind	VAFIN	sein	_	O	O	
+4-25	,	$,	,	_	O	O	
+4-26	vielleicht	ADV	vielleicht	_	O	O	
+4-27	weil	KOUS	weil	_	O	O	
+4-28	ein	ART	eine	_	O	O	
+4-29	Postbeamter	NN	Postbeamte	_	O	O	
+4-30	an	APPR	an	_	O	O	
+4-31	den	ART	die	_	O	O	
+4-32	beigefügten	ADJA	beigefügt	_	O	O	
+4-33	geschriebenen	ADJA	geschrieben	_	O	O	
+4-34	Originalen	ADJA	original	_	O	O	
+4-35	Anstoß	NN	Anstoß	_	O	O	
+4-36	nahm	VVFIN	nehmen	_	O	O	
+4-37	.	$.	.	_	O	O	
+
+#id=5
+#text=Letzteres wäre natürlich sehr unangenehm.
+5-1	Letzteres	NN	Letztere	_	O	O	
+5-2	wäre	VAFIN	sein	_	O	O	
+5-3	natürlich	ADV	natürlich	_	O	O	
+5-4	sehr	ADV	sehr	_	O	O	
+5-5	unangenehm	ADJD	unangenehm	_	O	O	
+5-6	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich werde bis J:'Iontag warten und, falls sie dann noch nicht eingetroffen sind, bei der hiesigen Postverwaltung die nöthigen Maßregeln ergreifen, um sie zu reclamiren.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	werde	VAFIN	werden	_	O	O	
+6-3	bis	APPR	bis	_	O	O	
+6-4	J:'Iontag	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-5	warten	VVINF	warten	_	O	O	
+6-6	und	KON	und	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	falls	KOUS	falls	_	O	O	
+6-9	sie	PPER	sie	_	O	O	
+6-10	dann	ADV	dann	_	O	O	
+6-11	noch	ADV	noch	_	O	O	
+6-12	nicht	PTKNEG	nicht	_	O	O	
+6-13	eingetroffen	VVPP	eintreffen	_	O	O	
+6-14	sind	VAFIN	sein	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	bei	APPR	bei	_	O	O	
+6-17	der	ART	die	_	O	O	
+6-18	hiesigen	ADJA	hiesig	_	O	O	
+6-19	Postverwaltung	NN	Postverwaltung	_	O	O	
+6-20	die	ART	die	_	O	O	
+6-21	nöthigen	ADJA	<unknown>	_	O	O	
+6-22	Maßregeln	NN	Maßregel	_	O	O	
+6-23	ergreifen	VVFIN	ergreifen	_	O	O	
+6-24	,	$,	,	_	O	O	
+6-25	um	KOUI	um	_	O	O	
+6-26	sie	PPER	sie	_	O	O	
+6-27	zu	APPR	zu	_	O	O	
+6-28	reclamiren	NN	<unknown>	_	O	O	
+6-29	.	$.	.	_	O	O	
+
+#id=7
+#text=Da diese sich nur um die Poststationen des päbstlichen Territoriums bekümmert, würden Sie von Volterra aus dasselbe bei der italienischen Administration zu thun haben, voraugesetzt nämlich, daß Sie die Druckbogen haben abgehen lassen.
+7-1	Da	KOUS	da	_	O	O	
+7-2	diese	PDS	diese	_	O	O	
+7-3	sich	PRF	sich	_	O	O	
+7-4	nur	ADV	nur	_	O	O	
+7-5	um	APPR	um	_	O	O	
+7-6	die	ART	die	_	O	O	
+7-7	Poststationen	NN	<unknown>	_	O	O	
+7-8	des	ART	die	_	O	O	
+7-9	päbstlichen	ADJA	<unknown>	_	O	O	
+7-10	Territoriums	NN	Territorium	_	O	O	
+7-11	bekümmert	VVPP	bekümmern	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	würden	VAFIN	werden	_	O	O	
+7-14	Sie	PPER	Sie	_	O	O	
+7-15	von	APPR	von	_	O	O	
+7-16	Volterra	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-17	aus	APPR	aus	_	O	O	
+7-18	dasselbe	PDAT	dasselb	_	O	O	
+7-19	bei	APPR	bei	_	O	O	
+7-20	der	ART	die	_	O	O	
+7-21	italienischen	ADJA	italienisch	_	O	O	
+7-22	Administration	NN	Administration	_	O	O	
+7-23	zu	APPR	zu	_	O	O	
+7-24	thun	NE	<unknown>	_	O	O	
+7-25	haben	VAINF	haben	_	O	O	
+7-26	,	$,	,	_	O	O	
+7-27	voraugesetzt	VVFIN	<unknown>	_	O	O	
+7-28	nämlich	ADV	nämlich	_	O	O	
+7-29	,	$,	,	_	O	O	
+7-30	daß	KOUS	dass	_	O	O	
+7-31	Sie	PPER	Sie	_	O	O	
+7-32	die	ART	die	_	O	O	
+7-33	Druckbogen	NN	Druckbogen	_	O	O	
+7-34	haben	VAFIN	haben	_	O	O	
+7-35	abgehen	VVINF	abgehen	_	O	O	
+7-36	lassen	VVINF	lassen	_	O	O	
+7-37	.	$.	.	_	O	O	
+
+#id=8
+#text=Aus einem mir zugegangenen Briefe des Advocaten Fortis sehe ich, daß Ihr Brief an denselben verloren gegangen sein muß.
+8-1	Aus	APPR	aus	_	O	O	
+8-2	einem	ART	eine	_	O	O	
+8-3	mir	PRF	ich	_	O	O	
+8-4	zugegangenen	ADJA	zugegangen	_	O	O	
+8-5	Briefe	NN	Brief	_	O	O	
+8-6	des	ART	die	_	O	O	
+8-7	Advocaten	NN	<unknown>	_	O	O	
+8-8	Fortis	NN	<unknown>	_	O	O	
+8-9	sehe	VVFIN	sehen	_	O	O	
+8-10	ich	PPER	ich	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	daß	KOUS	dass	_	O	O	
+8-13	Ihr	PPOSAT	ihr	_	O	O	
+8-14	Brief	NN	Brief	_	O	O	
+8-15	an	APPR	an	_	O	O	
+8-16	denselben	PDAT	derselb	_	O	O	
+8-17	verloren	ADJD	verloren	_	O	O	
+8-18	gegangen	VVPP	gehen	_	O	O	
+8-19	sein	VAINF	sein	_	O	O	
+8-20	muß	VMFIN	müssen	_	O	O	
+8-21	.	$.	.	_	O	O	
+
+#id=9
+#text=Viel schaden wird dies nichts, da ich ihm nach Anweisung eines Henzenschen Briefes genügende Auskjlunft he.be geben können.
+9-1	Viel	ADV	viel	_	O	O	
+9-2	schaden	VVINF	schaden	_	O	O	
+9-3	wird	VAFIN	werden	_	O	O	
+9-4	dies	PDS	dies	_	O	O	
+9-5	nichts	PIS	nichts	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	da	KOUS	da	_	O	O	
+9-8	ich	PPER	ich	_	O	O	
+9-9	ihm	PPER	er	_	O	O	
+9-10	nach	APPR	nach	_	O	O	
+9-11	Anweisung	NN	Anweisung	_	O	O	
+9-12	eines	ART	eine	_	O	O	
+9-13	Henzenschen	NN	<unknown>	_	O	O	
+9-14	Briefes	NN	Brief	_	O	O	
+9-15	genügende	ADJA	genügend	_	O	O	
+9-16	Auskjlunft	NN	<unknown>	_	O	O	
+9-17	he.be	NE	<unknown>	_	O	O	
+9-18	geben	VVINF	geben	_	O	O	
+9-19	können	VMFIN	können	_	O	O	
+9-20	.	$.	.	_	O	O	
+
+#id=10
+#text=Henzen, welcher
+10-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	,	$,	,	_	O	O	
+10-3	welcher	PRELS	welche	_	O	O	
+

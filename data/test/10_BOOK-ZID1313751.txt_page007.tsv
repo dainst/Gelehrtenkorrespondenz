@@ -1,0 +1,257 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an Brunn ohne Ort 23/XII/1873 23.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	ohne	APPR	ohne	_	O	O	
+1-5	Ort	NN	Ort	_	O	O	
+1-6	23/XII/1873	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	23	CARD	23	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	.	$.	.	_	O	O	
+
+#id=2
+#text=De c. 1 87 3 Lieber Herr Professor rerst wissenschaftliche Sache, dann~ : Die Meini- !..- gen sind vor 10 Tagen in Rom eingetroffen, abgesehen von leichten Erkältungen wohlbehalten.
+2-1	De	NE	De	_	O	O	
+2-2	c.	NN	<unknown>	_	O	O	
+2-3	1	CARD	1	_	O	O	
+2-4	87	CARD	@card@	_	O	O	
+2-5	3	CARD	3	_	O	O	
+2-6	Lieber	ADJA	lieb	_	O	O	
+2-7	Herr	NN	Herr	_	O	O	
+2-8	Professor	NN	Professor	_	O	O	
+2-9	rerst	ADJA	<unknown>	_	O	O	
+2-10	wissenschaftliche	ADJA	wissenschaftlich	_	O	O	
+2-11	Sache	NN	Sache	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	dann~	VVFIN	<unknown>	_	O	O	
+2-14	:	$.	:	_	O	O	
+2-15	Die	ART	die	_	O	O	
+2-16	Meini-	TRUNC	<unknown>	_	O	O	
+2-17	!	$.	!	_	O	O	
+2-18	..-	NN	<unknown>	_	O	O	
+2-19	gen	APPR	gen	_	O	O	
+2-20	sind	VAFIN	sein	_	O	O	
+2-21	vor	APPR	vor	_	O	O	
+2-22	10	CARD	10	_	O	O	
+2-23	Tagen	NN	Tag	_	O	O	
+2-24	in	APPR	in	_	O	O	
+2-25	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-26	eingetroffen	VVPP	eintreffen	_	O	O	
+2-27	,	$,	,	_	O	O	
+2-28	abgesehen	VVPP	absehen	_	O	O	
+2-29	von	APPR	von	_	O	O	
+2-30	leichten	ADJA	leicht	_	O	O	
+2-31	Erkältungen	NN	Erkältung	_	O	O	
+2-32	wohlbehalten	ADJD	wohlbehalten	_	O	O	
+2-33	.	$.	.	_	O	O	
+
+#id=3
+#text=Flasch wird sich baldigst nach München aufmachen.
+3-1	Flasch	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	wird	VAFIN	werden	_	O	O	
+3-3	sich	PRF	sich	_	O	O	
+3-4	baldigst	ADJD	baldig	_	O	O	
+3-5	nach	APPR	nach	_	O	O	
+3-6	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-7	aufmachen	VVINF	aufmachen	_	O	O	
+3-8	.	$.	.	_	O	O	
+
+#id=4
+#text=Sehr gern hörten wir etwas, wie sich an dem Rephsinstitute die Verhältnisse der Berliner zu den außerpreußischen Archäologen gestalten.
+4-1	Sehr	ADV	sehr	_	O	O	
+4-2	gern	ADV	gern	_	O	O	
+4-3	hörten	VVFIN	hören	_	O	O	
+4-4	wir	PPER	wir	_	O	O	
+4-5	etwas	ADV	etwas	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	wie	KOUS	wie	_	O	O	
+4-8	sich	PRF	sich	_	O	O	
+4-9	an	APPR	an	_	O	O	
+4-10	dem	ART	die	_	O	O	
+4-11	Rephsinstitute	NN	<unknown>	_	O	O	
+4-12	die	ART	die	_	O	O	
+4-13	Verhältnisse	NN	Verhältnis	_	O	O	
+4-14	der	ART	die	_	O	O	
+4-15	Berliner	NN	Berliner	_	O	O	
+4-16	zu	APPR	zu	_	O	O	
+4-17	den	ART	die	_	O	O	
+4-18	außerpreußischen	ADJA	<unknown>	_	O	O	
+4-19	Archäologen	NN	Archäologe	_	O	O	
+4-20	gestalten	VVINF	gestalten	_	O	O	
+4-21	.	$.	.	_	O	O	
+
+#id=5
+#text=Mommsens Versetzung 1) nach Leipzig wird in dieser Hinsicht, denke ich, Manches ändern.
+5-1	Mommsens	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	Versetzung	NN	Versetzung	_	O	O	
+5-3	1	CARD	1	_	O	O	
+5-4	)	$(	)	_	O	O	
+5-5	nach	APPR	nach	_	O	O	
+5-6	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-7	wird	VAFIN	werden	_	O	O	
+5-8	in	APPR	in	_	O	O	
+5-9	dieser	PDAT	dies	_	O	O	
+5-10	Hinsicht	NN	Hinsicht	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	denke	VVFIN	denken	_	O	O	
+5-13	ich	PPER	ich	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	Manches	PIS	manche	_	O	O	
+5-16	ändern	VVFIN	ändern	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Jeden Falls wird Jeder, der sich für die gedeihliche Entwicklung des Instituts interessiFt, die Hoffnung hegen, daß Sie fest auf Ihrem Standpunkte beharren.
+6-1	Jeden	PIAT	jede	_	O	O	
+6-2	Falls	NN	Fall	_	O	O	
+6-3	wird	VAFIN	werden	_	O	O	
+6-4	Jeder	PIS	jede	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	der	PRELS	die	_	O	O	
+6-7	sich	PRF	sich	_	O	O	
+6-8	für	APPR	für	_	O	O	
+6-9	die	ART	die	_	O	O	
+6-10	gedeihliche	ADJA	<unknown>	_	O	O	
+6-11	Entwicklung	NN	Entwicklung	_	O	O	
+6-12	des	ART	die	_	O	O	
+6-13	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-14	interessiFt	VVFIN	<unknown>	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	die	ART	die	_	O	O	
+6-17	Hoffnung	NN	Hoffnung	_	O	O	
+6-18	hegen	VVFIN	hegen	_	O	O	
+6-19	,	$,	,	_	O	O	
+6-20	daß	KOUS	dass	_	O	O	
+6-21	Sie	PPER	Sie	_	O	O	
+6-22	fest	ADJD	fest	_	O	O	
+6-23	auf	APPR	auf	_	O	O	
+6-24	Ihrem	PPOSAT	ihr	_	O	O	
+6-25	Standpunkte	NN	Standpunkt	_	O	O	
+6-26	beharren	VVFIN	beharren	_	O	O	
+6-27	.	$.	.	_	O	O	
+
+#id=7
+#text=Nur wenn sich in der C D. eine Autorität befindet, die für die dem Institute zunächst liegenden Aufgaben Verständnis und Interesse hat, nur dann können wir uns über dem Wasser erhalten.
+7-1	Nur	ADV	nur	_	O	O	
+7-2	wenn	KOUS	wenn	_	O	O	
+7-3	sich	PRF	sich	_	O	O	
+7-4	in	APPR	in	_	O	O	
+7-5	der	ART	die	_	O	O	
+7-6	C	NN	C	_	O	O	
+7-7	D.	NE	D.	_	O	O	
+7-8	eine	ART	eine	_	O	O	
+7-9	Autorität	NN	Autorität	_	O	O	
+7-10	befindet	VVFIN	befinden	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	die	PRELS	die	_	O	O	
+7-13	für	APPR	für	_	O	O	
+7-14	die	ART	die	_	O	O	
+7-15	dem	ART	die	_	O	O	
+7-16	Institute	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-17	zunächst	ADV	zunächst	_	O	O	
+7-18	liegenden	ADJA	liegend	_	O	O	
+7-19	Aufgaben	NN	Aufgabe	_	O	O	
+7-20	Verständnis	NN	Verständnis	_	O	O	
+7-21	und	KON	und	_	O	O	
+7-22	Interesse	NN	Interesse	_	O	O	
+7-23	hat	VAFIN	haben	_	O	O	
+7-24	,	$,	,	_	O	O	
+7-25	nur	ADV	nur	_	O	O	
+7-26	dann	ADV	dann	_	O	O	
+7-27	können	VMFIN	können	_	O	O	
+7-28	wir	PPER	wir	_	O	O	
+7-29	uns	PRF	wir	_	O	O	
+7-30	über	APPR	über	_	O	O	
+7-31	dem	ART	die	_	O	O	
+7-32	Wasser	NN	Wasser	_	O	O	
+7-33	erhalten	VVPP	erhalten	_	O	O	
+7-34	.	$.	.	_	O	O	
+
+#id=8
+#text=Wird noch eine Zeit lang so fort gewirthschaftet wie jetzt, dann wäre es das Beste und Logischte einfach aus dem Institute eine epigraphische Kohlenstation zu machen und die monumentale Seite völlig bei Seite zu lassen.
+8-1	Wird	VAFIN	werden	_	O	O	
+8-2	noch	ADV	noch	_	O	O	
+8-3	eine	ART	eine	_	O	O	
+8-4	Zeit	NN	Zeit	_	O	O	
+8-5	lang	ADJD	lang	_	O	O	
+8-6	so	ADV	so	_	O	O	
+8-7	fort	ADV	fort	_	O	O	
+8-8	gewirthschaftet	VVPP	<unknown>	_	O	O	
+8-9	wie	KOKOM	wie	_	O	O	
+8-10	jetzt	ADV	jetzt	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	dann	ADV	dann	_	O	O	
+8-13	wäre	VAFIN	sein	_	O	O	
+8-14	es	PPER	es	_	O	O	
+8-15	das	ART	die	_	O	O	
+8-16	Beste	NN	Beste	_	O	O	
+8-17	und	KON	und	_	O	O	
+8-18	Logischte	NN	<unknown>	_	O	O	
+8-19	einfach	ADJD	einfach	_	O	O	
+8-20	aus	APPR	aus	_	O	O	
+8-21	dem	ART	die	_	O	O	
+8-22	Institute	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-23	eine	ART	eine	_	O	O	
+8-24	epigraphische	ADJA	<unknown>	_	O	O	
+8-25	Kohlenstation	NN	<unknown>	_	O	O	
+8-26	zu	PTKZU	zu	_	O	O	
+8-27	machen	VVINF	machen	_	O	O	
+8-28	und	KON	und	_	O	O	
+8-29	die	ART	die	_	O	O	
+8-30	monumentale	ADJA	monumental	_	O	O	
+8-31	Seite	NN	Seite	_	O	O	
+8-32	völlig	ADJD	völlig	_	O	O	
+8-33	bei	APPR	bei	_	O	O	
+8-34	Seite	NN	Seite	_	O	O	
+8-35	zu	PTKZU	zu	_	O	O	
+8-36	lassen	VVINF	lassen	_	O	O	
+8-37	.	$.	.	_	O	O	
+
+#id=9
+#text=Also Landgraf Ludwig bleibt hart I Viele Grüße an die Ihrigen, buona festa und herzliche Glückwünsche zum neuen Jahr!
+9-1	Also	ADV	also	_	O	O	
+9-2	Landgraf	NE	Landgraf	_	O	O	
+9-3	Ludwig	NE	Ludwig	_	O	O	
+9-4	bleibt	VVFIN	bleiben	_	O	O	
+9-5	hart	ADJD	hart	_	O	O	
+9-6	I	NN	I	_	O	O	
+9-7	Viele	PIAT	viele	_	O	O	
+9-8	Grüße	NN	Gruß	_	O	O	
+9-9	an	APPR	an	_	O	O	
+9-10	die	ART	die	_	O	O	
+9-11	Ihrigen	NN	<unknown>	_	O	O	
+9-12	,	$,	,	_	O	O	
+9-13	buona	NE	<unknown>	_	O	O	
+9-14	festa	NE	<unknown>	_	O	O	
+9-15	und	KON	und	_	O	O	
+9-16	herzliche	ADJA	herzlich	_	O	O	
+9-17	Glückwünsche	NN	Glückwunsch	_	O	O	
+9-18	zum	APPRART	zu	_	O	O	
+9-19	neuen	ADJA	neu	_	O	O	
+9-20	Jahr	NN	Jahr	_	O	O	
+9-21	!	$.	!	_	O	O	
+
+#id=10
+#text=------------------- Ihr dankbar ergebener 1) Ist bekanntlich nicht erfolgt Helbig
+10-1	--	$(	--	_	O	O	
+10-2	--	$(	--	_	O	O	
+10-3	--	$(	--	_	O	O	
+10-4	--	$(	--	_	O	O	
+10-5	--	$(	--	_	O	O	
+10-6	--	$(	--	_	O	O	
+10-7	--	$(	--	_	O	O	
+10-8	--	$(	--	_	O	O	
+10-9	--	$(	--	_	O	O	
+10-10	-	$(	-	_	O	O	
+10-11	Ihr	PPOSAT	ihr	_	O	O	
+10-12	dankbar	ADJD	dankbar	_	O	O	
+10-13	ergebener	ADJD	ergebener	_	O	O	
+10-14	1	CARD	1	_	O	O	
+10-15	)	$(	)	_	O	O	
+10-16	Ist	VAFIN	sein	_	O	O	
+10-17	bekanntlich	ADV	bekanntlich	_	O	O	
+10-18	nicht	PTKNEG	nicht	_	O	O	
+10-19	erfolgt	ADJD	erfolgt	_	O	O	
+10-20	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+

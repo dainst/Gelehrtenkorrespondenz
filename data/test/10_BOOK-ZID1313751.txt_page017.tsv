@@ -1,0 +1,238 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an Brunn ohne Ort 22/VI/1874 r.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	ohne	APPR	ohne	_	O	O	
+1-5	Ort	NN	Ort	_	O	O	
+1-6	22/VI/1874	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	r.	VVFIN	<unknown>	_	O	O	
+
+#id=2
+#text=Henzen 18/VII/1874 22. Juni Hi74 Lieber Herr Professor, Ich hätte Ihnen für die demnächst Statt findende Sitzung der CDkein weiteres Anliegen vorzutragen, als das bereits berührte hinsichtlich des Zeichners.
+2-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-2	18/VII/1874	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-3	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-4	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-5	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-6	Hi74	CARD	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-7	Lieber	ADJA	lieb	_	O	O	
+2-8	Herr	NN	Herr	_	O	O	
+2-9	Professor	NN	Professor	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	Ich	PPER	ich	_	O	O	
+2-12	hätte	VAFIN	haben	_	O	O	
+2-13	Ihnen	PPER	Sie	_	O	O	
+2-14	für	APPR	für	_	O	O	
+2-15	die	ART	die	_	O	O	
+2-16	demnächst	ADV	demnächst	_	O	O	
+2-17	Statt	APPR	statt	_	O	O	
+2-18	findende	ADJA	findend	_	O	O	
+2-19	Sitzung	NN	Sitzung	_	O	O	
+2-20	der	ART	die	_	O	O	
+2-21	CDkein	ADJA	<unknown>	_	O	O	
+2-22	weiteres	ADJA	weit	_	O	O	
+2-23	Anliegen	NN	Anliegen	_	O	O	
+2-24	vorzutragen	VVIZU	vortragen	_	O	O	
+2-25	,	$,	,	_	O	O	
+2-26	als	KOUS	als	_	O	O	
+2-27	das	PDS	die	_	O	O	
+2-28	bereits	ADV	bereits	_	O	O	
+2-29	berührte	VVFIN	berühren	_	O	O	
+2-30	hinsichtlich	APPR	hinsichtlich	_	O	O	
+2-31	des	ART	die	_	O	O	
+2-32	Zeichners	NN	Zeichner	_	O	O	
+2-33	.	$.	.	_	O	O	
+
+#id=3
+#text=Noch einmal wiederhole ich, daß es uns vor Allem darauf ankommt, stets und sofort einen Zeichner zur Disposition zu haben.
+3-1	Noch	ADV	noch	_	O	O	
+3-2	einmal	ADV	einmal	_	O	O	
+3-3	wiederhole	VVFIN	wiederholen	_	O	O	
+3-4	ich	PPER	ich	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	daß	KOUS	dass	_	O	O	
+3-7	es	PPER	es	_	O	O	
+3-8	uns	PRF	wir	_	O	O	
+3-9	vor	APPR	vor	_	O	O	
+3-10	Allem	NN	<unknown>	_	O	O	
+3-11	darauf	PAV	darauf	_	O	O	
+3-12	ankommt	VVFIN	ankommen	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	stets	ADV	stets	_	O	O	
+3-15	und	KON	und	_	O	O	
+3-16	sofort	ADV	sofort	_	O	O	
+3-17	einen	ART	eine	_	O	O	
+3-18	Zeichner	NN	Zeichner	_	O	O	
+3-19	zur	APPRART	zu	_	O	O	
+3-20	Disposition	NN	Disposition	_	O	O	
+3-21	zu	PTKZU	zu	_	O	O	
+3-22	haben	VAINF	haben	_	O	O	
+3-23	.	$.	.	_	O	O	
+
+#id=4
+#text=Sollte die CD sich nicht darauf einlassen wollen, die 200 rt, gegen welche derselbe sich verpflichten soll, stets zu unserer Verfügung zu stehen, als ständigen Posten im Budget aufzustellen, so bliebe noch folgender Ausweg offen, Wir könnten die betreffende Summe nöthigen Falls von den 800 rt für den Apparat abziehen.
+4-1	Sollte	VMFIN	sollen	_	O	O	
+4-2	die	ART	die	_	O	O	
+4-3	CD	NN	CD	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-4	sich	PRF	sich	_	O	O	
+4-5	nicht	PTKNEG	nicht	_	O	O	
+4-6	darauf	PAV	darauf	_	O	O	
+4-7	einlassen	VVINF	einlassen	_	O	O	
+4-8	wollen	VMINF	wollen	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	die	PRELS	die	_	O	O	
+4-11	200	CARD	200	_	O	O	
+4-12	rt	ADJA	<unknown>	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	gegen	APPR	gegen	_	O	O	
+4-15	welche	PRELS	welche	_	O	O	
+4-16	derselbe	PDS	derselbe	_	O	O	
+4-17	sich	PRF	sich	_	O	O	
+4-18	verpflichten	VVINF	verpflichten	_	O	O	
+4-19	soll	VMFIN	sollen	_	O	O	
+4-20	,	$,	,	_	O	O	
+4-21	stets	ADV	stets	_	O	O	
+4-22	zu	APPR	zu	_	O	O	
+4-23	unserer	PPOSAT	unser	_	O	O	
+4-24	Verfügung	NN	Verfügung	_	O	O	
+4-25	zu	PTKZU	zu	_	O	O	
+4-26	stehen	VVINF	stehen	_	O	O	
+4-27	,	$,	,	_	O	O	
+4-28	als	KOKOM	als	_	O	O	
+4-29	ständigen	ADJA	ständig	_	O	O	
+4-30	Posten	NN	Posten	_	O	O	
+4-31	im	APPRART	in	_	O	O	
+4-32	Budget	NN	Budget	_	O	O	
+4-33	aufzustellen	VVIZU	aufstellen	_	O	O	
+4-34	,	$,	,	_	O	O	
+4-35	so	ADV	so	_	O	O	
+4-36	bliebe	VVFIN	bleiben	_	O	O	
+4-37	noch	ADV	noch	_	O	O	
+4-38	folgender	ADJA	folgend	_	O	O	
+4-39	Ausweg	NN	Ausweg	_	O	O	
+4-40	offen	ADJD	offen	_	O	O	
+4-41	,	$,	,	_	O	O	
+4-42	Wir	PPER	wir	_	O	O	
+4-43	könnten	VMFIN	können	_	O	O	
+4-44	die	ART	die	_	O	O	
+4-45	betreffende	ADJA	betreffend	_	O	O	
+4-46	Summe	NN	Summe	_	O	O	
+4-47	nöthigen	ADJA	<unknown>	_	O	O	
+4-48	Falls	NN	Fall	_	O	O	
+4-49	von	APPR	von	_	O	O	
+4-50	den	ART	die	_	O	O	
+4-51	800	CARD	800	_	O	O	
+4-52	rt	NN	<unknown>	_	O	O	
+4-53	für	APPR	für	_	O	O	
+4-54	den	ART	die	_	O	O	
+4-55	Apparat	NN	Apparat	_	O	O	
+4-56	abziehen	VVINF	abziehen	_	O	O	
+4-57	.	$.	.	_	O	O	
+
+#id=5
+#text=Wie die Verhältnisse nämlich gegenwärtig liegen, werden sich unsere Ausgaben für ZeiChnungen nicht sehr hoch belaufen.
+5-1	Wie	KOUS	wie	_	O	O	
+5-2	die	ART	die	_	O	O	
+5-3	Verhältnisse	NN	Verhältnis	_	O	O	
+5-4	nämlich	ADV	nämlich	_	O	O	
+5-5	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+5-6	liegen	VVFIN	liegen	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	werden	VAFIN	werden	_	O	O	
+5-9	sich	PRF	sich	_	O	O	
+5-10	unsere	PPOSAT	unser	_	O	O	
+5-11	Ausgaben	NN	Ausgabe	_	O	O	
+5-12	für	APPR	für	_	O	O	
+5-13	ZeiChnungen	NN	Zeichnung	_	O	O	
+5-14	nicht	PTKNEG	nicht	_	O	O	
+5-15	sehr	ADV	sehr	_	O	O	
+5-16	hoch	ADJD	hoch	_	O	O	
+5-17	belaufen	VVINF	belaufen	_	O	O	
+5-18	.	$.	.	_	O	O	
+
+#id=6
+#text=Einer Seits ist die Freiheit des Zeichnenlassens vielfach durch die Legge Pasca behindert.
+6-1	Einer	ART	eine	_	O	O	
+6-2	Seits	NN	<unknown>	_	O	O	
+6-3	ist	VAFIN	sein	_	O	O	
+6-4	die	ART	die	_	O	O	
+6-5	Freiheit	NN	Freiheit	_	O	O	
+6-6	des	ART	die	_	O	O	
+6-7	Zeichnenlassens	NN	<unknown>	_	O	O	
+6-8	vielfach	ADV	vielfach	_	O	O	
+6-9	durch	APPR	durch	_	O	O	
+6-10	die	ART	die	_	O	O	
+6-11	Legge	NN	<unknown>	_	O	O	
+6-12	Pasca	NE	<unknown>	_	O	O	
+6-13	behindert	VVPP	behindern	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Zweitens lassen wir Sculpturen jetzt nicht mehr zeichnen, sondern nach Original oder Gypsabguß heliotypiren.
+7-1	Zweitens	ADV	zweitens	_	O	O	
+7-2	lassen	VVFIN	lassen	_	O	O	
+7-3	wir	PPER	wir	_	O	O	
+7-4	Sculpturen	NN	<unknown>	_	O	O	
+7-5	jetzt	ADV	jetzt	_	O	O	
+7-6	nicht	PTKNEG	nicht	_	O	O	
+7-7	mehr	ADV	mehr	_	O	O	
+7-8	zeichnen	VVINF	zeichnen	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	sondern	KON	sondern	_	O	O	
+7-11	nach	APPR	nach	_	O	O	
+7-12	Original	NN	Original	_	O	O	
+7-13	oder	KON	oder	_	O	O	
+7-14	Gypsabguß	NN	<unknown>	_	O	O	
+7-15	heliotypiren	ADJA	<unknown>	_	O	O	
+7-16	.	$.	.	_	O	O	
+
+#id=8
+#text=Beifolgende Tafel möge Ihnen einen Begriff geben von dem vortrefflichen Resultate, welches ich durch dieses Verfahren erzielt.
+8-1	Beifolgende	ADJA	<unknown>	_	O	O	
+8-2	Tafel	NN	Tafel	_	O	O	
+8-3	möge	VMFIN	mögen	_	O	O	
+8-4	Ihnen	PPER	Sie	_	O	O	
+8-5	einen	ART	eine	_	O	O	
+8-6	Begriff	NN	Begriff	_	O	O	
+8-7	geben	VVFIN	geben	_	O	O	
+8-8	von	APPR	von	_	O	O	
+8-9	dem	ART	die	_	O	O	
+8-10	vortrefflichen	ADJA	vortrefflich	_	O	O	
+8-11	Resultate	NN	Resultat	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	welches	PRELS	welche	_	O	O	
+8-14	ich	PPER	ich	_	O	O	
+8-15	durch	APPR	durch	_	O	O	
+8-16	dieses	PDAT	dies	_	O	O	
+8-17	Verfahren	NN	Verfahren	_	O	O	
+8-18	erzielt	VVPP	erzielen	_	O	O	
+8-19	.	$.	.	_	O	O	
+
+#id=9
+#text=Drittens ist uns die Publication der cornetaner [jder fln":] Wandgemälde verschlossen, da die Sopraindendenza eine polychrome Publication derselben
+9-1	Drittens	ADV	drittens	_	O	O	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	uns	PPER	wir	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	Publication	NN	<unknown>	_	O	O	
+9-6	der	ART	die	_	O	O	
+9-7	cornetaner	NN	<unknown>	_	O	O	
+9-8	[	$(	[	_	O	O	
+9-9	jder	VVFIN	<unknown>	_	O	O	
+9-10	fln	ADJD	<unknown>	_	O	O	
+9-11	"	$(	"	_	O	O	
+9-12	:	$.	:	_	O	O	
+9-13	]	$(	]	_	O	O	
+9-14	Wandgemälde	NN	Wandgemälde	_	O	O	
+9-15	verschlossen	VVPP	verschließen	_	O	O	
+9-16	,	$,	,	_	O	O	
+9-17	da	KOUS	da	_	O	O	
+9-18	die	ART	die	_	O	O	
+9-19	Sopraindendenza	NN	<unknown>	_	O	O	
+9-20	eine	ART	eine	_	O	O	
+9-21	polychrome	ADJA	<unknown>	_	O	O	
+9-22	Publication	NN	<unknown>	_	O	O	
+9-23	derselben	PDAT	dieselb	_	O	O	
+

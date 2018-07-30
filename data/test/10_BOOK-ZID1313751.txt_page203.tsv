@@ -1,0 +1,86 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=56 4 Wolf gang Helbig an Heinrich Brunn Rom, 22. März 1886 rechtzeitig.
+1-1	56	CARD	56	_	O	O	
+1-2	4	CARD	4	_	O	O	
+1-3	Wolf	NN	Wolf	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	gang	ADJD	gang	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-8	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1886	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	rechtzeitig	ADJD	rechtzeitig	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=übrigens würde ich Sie bitten wegen des Gypses des Dionysos einige Dankzeilen auch an Fiorelli zu richten, da dieser bei dem die Schenkung betreffenden Geschäftsgange die nächste Instanz nach Martini war und ich auch ihn, um ganz sicher zu gehen, günstig gestimmt hatte.
+2-1	übrigens	ADV	übrigens	_	O	O	
+2-2	würde	VAFIN	werden	_	O	O	
+2-3	ich	PPER	ich	_	O	O	
+2-4	Sie	PPER	Sie	_	O	O	
+2-5	bitten	VVFIN	bitten	_	O	O	
+2-6	wegen	APPR	wegen	_	O	O	
+2-7	des	ART	die	_	O	O	
+2-8	Gypses	NN	<unknown>	_	O	O	
+2-9	des	ART	die	_	O	O	
+2-10	Dionysos	NE	Dionysos	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-11	einige	PIAT	einige	_	O	O	
+2-12	Dankzeilen	NN	<unknown>	_	O	O	
+2-13	auch	ADV	auch	_	O	O	
+2-14	an	APPR	an	_	O	O	
+2-15	Fiorelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-16	zu	PTKZU	zu	_	O	O	
+2-17	richten	VVINF	richten	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	da	KOUS	da	_	O	O	
+2-20	dieser	PDS	diese	_	O	O	
+2-21	bei	APPR	bei	_	O	O	
+2-22	dem	ART	die	_	O	O	
+2-23	die	ART	die	_	O	O	
+2-24	Schenkung	NN	Schenkung	_	O	O	
+2-25	betreffenden	ADJA	betreffend	_	O	O	
+2-26	Geschäftsgange	NN	<unknown>	_	O	O	
+2-27	die	ART	die	_	O	O	
+2-28	nächste	ADJA	nah	_	O	O	
+2-29	Instanz	NN	Instanz	_	O	O	
+2-30	nach	APPR	nach	_	O	O	
+2-31	Martini	NE	Martini	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-32	war	VAFIN	sein	_	O	O	
+2-33	und	KON	und	_	O	O	
+2-34	ich	PPER	ich	_	O	O	
+2-35	auch	ADV	auch	_	O	O	
+2-36	ihn	PPER	er	_	O	O	
+2-37	,	$,	,	_	O	O	
+2-38	um	KOUI	um	_	O	O	
+2-39	ganz	ADV	ganz	_	O	O	
+2-40	sicher	ADJD	sicher	_	O	O	
+2-41	zu	PTKZU	zu	_	O	O	
+2-42	gehen	VVINF	gehen	_	O	O	
+2-43	,	$,	,	_	O	O	
+2-44	günstig	ADJD	günstig	_	O	O	
+2-45	gestimmt	VVPP	stimmen	_	O	O	
+2-46	hatte	VAFIN	haben	_	O	O	
+2-47	.	$.	.	_	O	O	
+
+#id=3
+#text=Herzliche Grüße von Haus zu Haus !
+3-1	Herzliche	ADJA	herzlich	_	O	O	
+3-2	Grüße	NN	Gruß	_	O	O	
+3-3	von	APPR	von	_	O	O	
+3-4	Haus	NN	Haus	_	O	O	
+3-5	zu	APPR	zu	_	O	O	
+3-6	Haus	NN	Haus	_	O	O	
+3-7	!	$.	!	_	O	O	
+
+#id=4
+#text=Ihr ergebener Helbig
+4-1	Ihr	PPOSAT	ihr	_	O	O	
+4-2	ergebener	ADJA	ergeben	_	O	O	
+4-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

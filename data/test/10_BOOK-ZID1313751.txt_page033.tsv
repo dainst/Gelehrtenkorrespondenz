@@ -1,0 +1,146 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an Brunn 24/IV/1885 - 2 - hüter veröffentlicht werden.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	24/IV/1885	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-5	-	$(	-	_	O	O	
+1-6	2	CARD	2	_	O	O	
+1-7	-	$(	-	_	O	O	
+1-8	hüter	NN	Hüter	_	O	O	
+1-9	veröffentlicht	VVPP	veröffentlichen	_	O	O	
+1-10	werden	VAFIN	werden	_	O	O	
+1-11	.	$.	.	_	O	O	
+
+#id=2
+#text=Dann die Inhumanität gegen die Stecher, Lithographen u.s.w., die Jahre lang für uns gearbeitet haben und denen man keine längere Frist bewilligt um sich nach anderer Beschäftigung umzusehen.
+2-1	Dann	ADV	dann	_	O	O	
+2-2	die	ART	die	_	O	O	
+2-3	Inhumanität	NN	Inhumanität	_	O	O	
+2-4	gegen	APPR	gegen	_	O	O	
+2-5	die	ART	die	_	O	O	
+2-6	Stecher	NN	Stecher	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	Lithographen	NN	Lithograph	_	O	O	
+2-9	u.s.w.	NE	<unknown>	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	die	ART	die	_	O	O	
+2-12	Jahre	NN	Jahr	_	O	O	
+2-13	lang	ADJD	lang	_	O	O	
+2-14	für	APPR	für	_	O	O	
+2-15	uns	PRF	wir	_	O	O	
+2-16	gearbeitet	VVPP	arbeiten	_	O	O	
+2-17	haben	VAFIN	haben	_	O	O	
+2-18	und	KON	und	_	O	O	
+2-19	denen	PRELS	die	_	O	O	
+2-20	man	PIS	man	_	O	O	
+2-21	keine	PIAT	keine	_	O	O	
+2-22	längere	ADJA	lang	_	O	O	
+2-23	Frist	NN	Frist	_	O	O	
+2-24	bewilligt	VVFIN	bewilligen	_	O	O	
+2-25	um	APPR	um	_	O	O	
+2-26	sich	PRF	sich	_	O	O	
+2-27	nach	APPR	nach	_	O	O	
+2-28	anderer	PIAT	andere	_	O	O	
+2-29	Beschäftigung	NN	Beschäftigung	_	O	O	
+2-30	umzusehen	VVIZU	umsehen	_	O	O	
+2-31	.	$.	.	_	O	O	
+
+#id=3
+#text=Kurz unsere Existenz ist eine ganz scheußliche.
+3-1	Kurz	ADJD	kurz	_	O	O	
+3-2	unsere	PPOSAT	unser	_	O	O	
+3-3	Existenz	NN	Existenz	_	O	O	
+3-4	ist	VAFIN	sein	_	O	O	
+3-5	eine	ART	eine	_	O	O	
+3-6	ganz	ADV	ganz	_	O	O	
+3-7	scheußliche	ADJA	scheußlich	_	O	O	
+3-8	.	$.	.	_	O	O	
+
+#id=4
+#text=Wenn ich Sie diesen Sommer in München besuche, werde ich mich Ihnen gegenüber in einer ähnlichen Situation befinden wie der Ragazzo in den Jahren 1862-64 d.h. ich werde Ihren Rath einholen über das, was ich anfangen soll.
+4-1	Wenn	KOUS	wenn	_	O	O	
+4-2	ich	PPER	ich	_	O	O	
+4-3	Sie	PPER	Sie	_	O	O	
+4-4	diesen	PDAT	dies	_	O	O	
+4-5	Sommer	NN	Sommer	_	O	O	
+4-6	in	APPR	in	_	O	O	
+4-7	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-8	besuche	VVFIN	besuchen	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	werde	VAFIN	werden	_	O	O	
+4-11	ich	PPER	ich	_	O	O	
+4-12	mich	PPER	ich	_	O	O	
+4-13	Ihnen	PPER	Sie	_	O	O	
+4-14	gegenüber	PTKVZ	gegenüber	_	O	O	
+4-15	in	APPR	in	_	O	O	
+4-16	einer	ART	eine	_	O	O	
+4-17	ähnlichen	ADJA	ähnlich	_	O	O	
+4-18	Situation	NN	Situation	_	O	O	
+4-19	befinden	VVFIN	befinden	_	O	O	
+4-20	wie	KOKOM	wie	_	O	O	
+4-21	der	ART	die	_	O	O	
+4-22	Ragazzo	NE	<unknown>	_	O	O	
+4-23	in	APPR	in	_	O	O	
+4-24	den	ART	die	_	O	O	
+4-25	Jahren	NN	Jahr	_	O	O	
+4-26	1862-64	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-27	d.h.	KON	d.h.	_	O	O	
+4-28	ich	PPER	ich	_	O	O	
+4-29	werde	VAFIN	werden	_	O	O	
+4-30	Ihren	PPOSAT	ihr	_	O	O	
+4-31	Rath	NE	Rath	_	O	O	
+4-32	einholen	VVFIN	einholen	_	O	O	
+4-33	über	APPR	über	_	O	O	
+4-34	das	PDS	die	_	O	O	
+4-35	,	$,	,	_	O	O	
+4-36	was	PWS	was	_	O	O	
+4-37	ich	PPER	ich	_	O	O	
+4-38	anfangen	VVINF	anfangen	_	O	O	
+4-39	soll	VMFIN	sollen	_	O	O	
+4-40	.	$.	.	_	O	O	
+
+#id=5
+#text=Mit herzlichen Grüßen Ihr ergebener Helbig.
+5-1	Mit	APPR	mit	_	O	O	
+5-2	herzlichen	ADJA	herzlich	_	O	O	
+5-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+5-4	Ihr	PPOSAT	ihr	_	O	O	
+5-5	ergebener	ADJA	ergeben	_	O	O	
+5-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=1) Da Henzen an Brunn 24/4,85 auf eine Mitteilung von Brunn an Helbig betr.
+6-1	1	CARD	1	_	O	O	
+6-2	)	$(	)	_	O	O	
+6-3	Da	ADV	da	_	O	O	
+6-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-5	an	APPR	an	_	O	O	
+6-6	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+6-7	24/4,85	CARD	@card@	_	O	O	
+6-8	auf	APPR	auf	_	O	O	
+6-9	eine	ART	eine	_	O	O	
+6-10	Mitteilung	NN	Mitteilung	_	O	O	
+6-11	von	APPR	von	_	O	O	
+6-12	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-13	an	APPR	an	_	O	O	
+6-14	Helbig	ADJD	<unknown>	_	O	O	
+6-15	betr.	APPR	betr.	_	O	O	
+
+#id=7
+#text=Institutsumgestaltung bezug nimmt, könnte immerhin 21 April das Datum sein.
+7-1	Institutsumgestaltung	ADJA	<unknown>	_	O	O	
+7-2	bezug	NN	Bezug	_	O	O	
+7-3	nimmt	VVFIN	nehmen	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	könnte	VMFIN	können	_	O	O	
+7-6	immerhin	ADV	immerhin	_	O	O	
+7-7	21	CARD	21	_	O	O	
+7-8	April	NN	April	_	O	O	
+7-9	das	ART	die	_	O	O	
+7-10	Datum	NN	Datum	_	O	O	
+7-11	sein	VAINF	sein	_	O	O	
+7-12	.	$.	.	_	O	O	
+

@@ -1,0 +1,209 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=b) 3 Helbig an Brunn Rom, 19. Mai 1866 genden phantastischen Theorien verritten [~QJ.
+1-1	b	NN	B	_	O	O	
+1-2	)	$(	)	_	O	O	
+1-3	3	CARD	3	_	O	O	
+1-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	genden	ADJA	<unknown>	_	O	O	
+1-14	phantastischen	ADJA	phantastisch	_	O	O	
+1-15	Theorien	NN	Theorie	_	O	O	
+1-16	verritten	ADJA	<unknown>	_	O	O	
+1-17	[	$(	[	_	O	O	
+1-18	~QJ	NN	<unknown>	_	O	O	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=Ein junger Philolog, Piccolomini aus Siena, verkehrte einige ~ochen mit uns, ist aber bereits zur Guardia nazionale nobile einberufen.
+2-1	Ein	ART	eine	_	O	O	
+2-2	junger	ADJA	jung	_	O	O	
+2-3	Philolog	NN	<unknown>	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	Piccolomini	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-6	aus	APPR	aus	_	O	O	
+2-7	Siena	NE	Siena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-8	,	$,	,	_	O	O	
+2-9	verkehrte	VVFIN	verkehren	_	O	O	
+2-10	einige	PIAT	einige	_	O	O	
+2-11	~ochen	NN	<unknown>	_	O	O	
+2-12	mit	APPR	mit	_	O	O	
+2-13	uns	PPER	wir	_	O	O	
+2-14	,	$,	,	_	O	O	
+2-15	ist	VAFIN	sein	_	O	O	
+2-16	aber	ADV	aber	_	O	O	
+2-17	bereits	ADV	bereits	_	O	O	
+2-18	zur	APPRART	zu	_	O	O	
+2-19	Guardia	NE	<unknown>	_	O	O	
+2-20	nazionale	ADJA	<unknown>	_	O	O	
+2-21	nobile	NN	<unknown>	_	O	O	
+2-22	einberufen	VVPP	einberufen	_	O	O	
+2-23	.	$.	.	_	O	O	
+
+#id=3
+#text=~ir empfinden alle schmerzlich den Mangel eines Centrums, wie es Ihr Haus in so vielen Hinsichten darbot.
+3-1	~ir	NN	<unknown>	_	O	O	
+3-2	empfinden	VVFIN	empfinden	_	O	O	
+3-3	alle	PIS	alle	_	O	O	
+3-4	schmerzlich	ADJD	schmerzlich	_	O	O	
+3-5	den	ART	die	_	O	O	
+3-6	Mangel	NN	Mangel	_	O	O	
+3-7	eines	ART	eine	_	O	O	
+3-8	Centrums	NN	Centrum	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	wie	KOUS	wie	_	O	O	
+3-11	es	PPER	es	_	O	O	
+3-12	Ihr	PPOSAT	ihr	_	O	O	
+3-13	Haus	NN	Haus	_	O	O	
+3-14	in	APPR	in	_	O	O	
+3-15	so	ADV	so	_	O	O	
+3-16	vielen	PIAT	viele	_	O	O	
+3-17	Hinsichten	NN	Hinsicht	_	O	O	
+3-18	darbot	VVFIN	darbieten	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich halte es im Interesse der Ragazzi für meine Pflicht, mich möglichst bald zu verheirathen und zwar mit einer Dame, die in gleich liebenswürdiger ~eise wie die Frau Professor, junge Leute aufzunehmen und zu behandeln weiß.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	halte	VVFIN	halten	_	O	O	
+4-3	es	PPER	es	_	O	O	
+4-4	im	APPRART	in	_	O	O	
+4-5	Interesse	NN	Interesse	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	Ragazzi	NE	<unknown>	_	O	O	
+4-8	für	APPR	für	_	O	O	
+4-9	meine	PPOSAT	mein	_	O	O	
+4-10	Pflicht	NN	Pflicht	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	mich	PRF	ich	_	O	O	
+4-13	möglichst	ADV	möglichst	_	O	O	
+4-14	bald	ADV	bald	_	O	O	
+4-15	zu	APPR	zu	_	O	O	
+4-16	verheirathen	NN	<unknown>	_	O	O	
+4-17	und	KON	und	_	O	O	
+4-18	zwar	ADV	zwar	_	O	O	
+4-19	mit	APPR	mit	_	O	O	
+4-20	einer	ART	eine	_	O	O	
+4-21	Dame	NN	Dame	_	O	O	
+4-22	,	$,	,	_	O	O	
+4-23	die	PRELS	die	_	O	O	
+4-24	in	APPR	in	_	O	O	
+4-25	gleich	ADJD	gleich	_	O	O	
+4-26	liebenswürdiger	ADJA	liebenswürdig	_	O	O	
+4-27	~eise	NN	<unknown>	_	O	O	
+4-28	wie	KOKOM	wie	_	O	O	
+4-29	die	ART	die	_	O	O	
+4-30	Frau	NN	Frau	_	O	O	
+4-31	Professor	NN	Professor	_	O	O	
+4-32	,	$,	,	_	O	O	
+4-33	junge	ADJA	jung	_	O	O	
+4-34	Leute	NN	Leute	_	O	O	
+4-35	aufzunehmen	VVIZU	aufnehmen	_	O	O	
+4-36	und	KON	und	_	O	O	
+4-37	zu	PTKZU	zu	_	O	O	
+4-38	behandeln	VVINF	behandeln	_	O	O	
+4-39	weiß.	ADJA	<unknown>	_	O	O	
+
+#id=5
+#text=Es ist auch einem Chef nicht angenehm, alleinstehend den ~echsel der Generationen ansehen zu müssen, welche in Rom an Einem vorbeiziehen.
+5-1	Es	PPER	es	_	O	O	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	auch	ADV	auch	_	O	O	
+5-4	einem	ART	eine	_	O	O	
+5-5	Chef	NN	Chef	_	O	O	
+5-6	nicht	PTKNEG	nicht	_	O	O	
+5-7	angenehm	ADJD	angenehm	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	alleinstehend	ADJD	alleinstehend	_	O	O	
+5-10	den	ART	die	_	O	O	
+5-11	~echsel	NN	<unknown>	_	O	O	
+5-12	der	ART	die	_	O	O	
+5-13	Generationen	NN	Generation	_	O	O	
+5-14	ansehen	VVINF	ansehen	_	O	O	
+5-15	zu	PTKZU	zu	_	O	O	
+5-16	müssen	VMINF	müssen	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	welche	PRELS	welche	_	O	O	
+5-19	in	APPR	in	_	O	O	
+5-20	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-21	an	APPR	an	_	O	O	
+5-22	Einem	PIS	eine	_	O	O	
+5-23	vorbeiziehen	VVFIN	vorbeiziehen	_	O	O	
+5-24	.	$.	.	_	O	O	
+
+#id=6
+#text=Nächstens mehr.
+6-1	Nächstens	ADV	nächstens	_	O	O	
+6-2	mehr	ADV	mehr	_	O	O	
+6-3	.	$.	.	_	O	O	
+
+#id=7
+#text=Herzliche Grüße an die Frau Professorinund an den Cav. Umpfenbach~ dem ich beiliegendes Blatt einzuhändigen bitte.
+7-1	Herzliche	ADJA	herzlich	_	O	O	
+7-2	Grüße	NN	Gruß	_	O	O	
+7-3	an	APPR	an	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	Frau	NN	Frau	_	O	O	
+7-6	Professorinund	NN	<unknown>	_	O	O	
+7-7	an	APPR	an	_	O	O	
+7-8	den	ART	die	_	O	O	
+7-9	Cav.	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-10	Umpfenbach~	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-11	dem	ART	die	_	O	O	
+7-12	ich	PPER	ich	_	O	O	
+7-13	beiliegendes	ADJA	<unknown>	_	O	O	
+7-14	Blatt	NN	Blatt	_	O	O	
+7-15	einzuhändigen	VVIZU	einhändigen	_	O	O	
+7-16	bitte	VVFIN	bitten	_	O	O	
+7-17	.	$.	.	_	O	O	
+
+#id=8
+#text=Ihr dankbarer Wolfgang Helbig * Franz Umpfenbach, schrieb über Plautus und Terenz.
+8-1	Ihr	PPOSAT	ihr	_	O	O	
+8-2	dankbarer	ADJA	dankbar	_	O	O	
+8-3	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+8-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+8-5	*	XY	*	_	O	O	
+8-6	Franz	NE	Franz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-7	Umpfenbach	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-8	,	$,	,	_	O	O	
+8-9	schrieb	VVFIN	schreiben	_	O	O	
+8-10	über	APPR	über	_	O	O	
+8-11	Plautus	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-12	und	KON	und	_	O	O	
+8-13	Terenz	NN	<unknown>	_	O	O	
+8-14	.	$.	.	_	O	O	
+
+#id=9
+#text=war 1862 - 65 in Italien, lebte dann in München, siehe Nomenclatur philologorum (1871 ) 5750 verfaßt von Eckstein.
+9-1	war	VAFIN	sein	_	O	O	
+9-2	1862	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-3	-	$(	-	_	O	O	
+9-4	65	CARD	65	_	O	O	
+9-5	in	APPR	in	_	O	O	
+9-6	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-7	,	$,	,	_	O	O	
+9-8	lebte	VVFIN	leben	_	O	O	
+9-9	dann	ADV	dann	_	O	O	
+9-10	in	APPR	in	_	O	O	
+9-11	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-12	,	$,	,	_	O	O	
+9-13	siehe	ADV	siehe	_	O	O	
+9-14	Nomenclatur	NN	<unknown>	_	O	O	
+9-15	philologorum	NN	<unknown>	_	O	O	
+9-16	(	$(	(	_	O	O	
+9-17	1871	CARD	@card@	_	O	O	
+9-18	)	$(	)	_	O	O	
+9-19	5750	CARD	@card@	_	O	O	
+9-20	verfaßt	VVFIN	verfassen	_	O	O	
+9-21	von	APPR	von	_	O	O	
+9-22	Eckstein	NE	Eckstein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-23	.	$.	.	_	O	O	
+

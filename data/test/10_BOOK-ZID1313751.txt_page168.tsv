@@ -1,0 +1,96 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=37 Postkarte Wolfgang Helbig an Heinrich Brunn Rom, 22. Oktober 1883 22. Oct.
+1-1	37	CARD	37	_	O	O	
+1-2	Postkarte	NN	Postkarte	_	O	O	
+1-3	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1883	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-15	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	Oct	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1883 r. 20/X 83. Lieber Herr Professor !
+2-1	1883	CARD	@card@	_	O	O	
+2-2	r.	ADJA	<unknown>	_	O	O	
+2-3	20/X	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-4	83	CARD	83	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-5	.	$.	.	_	O	O	
+2-6	Lieber	ADJA	lieb	_	O	O	
+2-7	Herr	NN	Herr	_	O	O	
+2-8	Professor	NN	Professor	_	O	O	
+2-9	!	$.	!	_	O	O	
+
+#id=3
+#text=Alessandro Torlonia wünscht eine große Menge von Gypsabgüssen in München zu bestellen.
+3-1	Alessandro	NE	Alessandro	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	Torlonia	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-3	wünscht	VVFIN	wünschen	_	O	O	
+3-4	eine	ART	eine	_	O	O	
+3-5	große	ADJA	groß	_	O	O	
+3-6	Menge	NN	Menge	_	O	O	
+3-7	von	APPR	von	_	O	O	
+3-8	Gypsabgüssen	NN	<unknown>	_	O	O	
+3-9	in	APPR	in	_	O	O	
+3-10	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-11	zu	PTKZU	zu	_	O	O	
+3-12	bestellen	VVINF	bestellen	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Hätten Sie die große Güte mir auf einer Correspondenzkarte Namen und Adresse des Formers mitzutheilen, an den man sich darum zu wenden hat ?
+4-1	Hätten	VAFIN	haben	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	die	ART	die	_	O	O	
+4-4	große	ADJA	groß	_	O	O	
+4-5	Güte	NN	Güte	_	O	O	
+4-6	mir	PRF	ich	_	O	O	
+4-7	auf	APPR	auf	_	O	O	
+4-8	einer	ART	eine	_	O	O	
+4-9	Correspondenzkarte	NN	<unknown>	_	O	O	
+4-10	Namen	NN	Name	_	O	O	
+4-11	und	KON	und	_	O	O	
+4-12	Adresse	NN	Adresse	_	O	O	
+4-13	des	ART	die	_	O	O	
+4-14	Formers	NN	<unknown>	_	O	O	
+4-15	mitzutheilen	VVIZU	<unknown>	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	an	APPR	an	_	O	O	
+4-18	den	PRELS	die	_	O	O	
+4-19	man	PIS	man	_	O	O	
+4-20	sich	PRF	sich	_	O	O	
+4-21	darum	PAV	darum	_	O	O	
+4-22	zu	PTKZU	zu	_	O	O	
+4-23	wenden	VVINF	wenden	_	O	O	
+4-24	hat	VAFIN	haben	_	O	O	
+4-25	?	$.	?	_	O	O	
+
+#id=5
+#text=Herzliche Grüße von Haus zu Haus und 1000 Entschuldigungen !
+5-1	Herzliche	ADJA	herzlich	_	O	O	
+5-2	Grüße	NN	Gruß	_	O	O	
+5-3	von	APPR	von	_	O	O	
+5-4	Haus	NN	Haus	_	O	O	
+5-5	zu	APPR	zu	_	O	O	
+5-6	Haus	NN	Haus	_	O	O	
+5-7	und	KON	und	_	O	O	
+5-8	1000	CARD	1000	_	O	O	
+5-9	Entschuldigungen	NN	Entschuldigung	_	O	O	
+5-10	!	$.	!	_	O	O	
+
+#id=6
+#text=Ihr ergebener Helbig
+6-1	Ihr	PPOSAT	ihr	_	O	O	
+6-2	ergebener	ADJA	ergeben	_	O	O	
+6-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

@@ -1,0 +1,238 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an Brunn ohne Ort 8/XII/1874 r.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	ohne	APPR	ohne	_	O	O	
+1-5	Ort	NN	Ort	_	O	O	
+1-6	8/XII/1874	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	r.	VVFIN	<unknown>	_	O	O	
+
+#id=2
+#text=11/XII/1874 8. Dec.
+2-1	11/XII/1874	CARD	<unknown>	_	O	O	
+2-2	8	CARD	8	_	O	O	
+2-3	.	$.	.	_	O	O	
+2-4	Dec	NE	Dec	_	O	O	
+2-5	.	$.	.	_	O	O	
+
+#id=3
+#text=1874 Lieber Herr Professor.
+3-1	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-2	Lieber	ADJA	lieb	_	O	O	
+3-3	Herr	NN	Herr	_	O	O	
+3-4	Professor	NN	Professor	_	O	O	
+3-5	.	$.	.	_	O	O	
+
+#id=4
+#text=LZunä~hst Mitteilungen über Vasenfunde, Aufnahme der Vasen durch Zeichnungen in etruskischen Stätten, dann Bericht über die griechische Reise und deren wissenschaftliche Resultate, endlich]: ••• Von Bonghi aufgefordert, habe ich nach eingetroffener Einwilligung des Reichskanzleramts die Züchtung der sich mit Archäologie beschäftigenden römischen Jugend 1) übernommen, tage außerdem in verschiedenen Comissionen.
+4-1	LZunä~hst	NN	<unknown>	_	O	O	
+4-2	Mitteilungen	NN	Mitteilung	_	O	O	
+4-3	über	APPR	über	_	O	O	
+4-4	Vasenfunde	NN	<unknown>	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	Aufnahme	NN	Aufnahme	_	O	O	
+4-7	der	ART	die	_	O	O	
+4-8	Vasen	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-9	durch	APPR	durch	_	O	O	
+4-10	Zeichnungen	NN	Zeichnung	_	O	O	
+4-11	in	APPR	in	_	O	O	
+4-12	etruskischen	ADJA	<unknown>	_	O	O	
+4-13	Stätten	NN	Stätte	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	dann	ADV	dann	_	O	O	
+4-16	Bericht	NN	Bericht	_	O	O	
+4-17	über	APPR	über	_	O	O	
+4-18	die	ART	die	_	O	O	
+4-19	griechische	ADJA	griechisch	_	O	O	
+4-20	Reise	NN	Reise	_	O	O	
+4-21	und	KON	und	_	O	O	
+4-22	deren	PDAT	die	_	O	O	
+4-23	wissenschaftliche	ADJA	wissenschaftlich	_	O	O	
+4-24	Resultate	NN	Resultat	_	O	O	
+4-25	,	$,	,	_	O	O	
+4-26	endlich	ADV	endlich	_	O	O	
+4-27	]	$(	]	_	O	O	
+4-28	:	$.	:	_	O	O	
+4-29	•	ADJA	<unknown>	_	O	O	
+4-30	•	ADJA	<unknown>	_	O	O	
+4-31	•	NN	<unknown>	_	O	O	
+4-32	Von	APPR	von	_	O	O	
+4-33	Bonghi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-34	aufgefordert	VVPP	auffordern	_	O	O	
+4-35	,	$,	,	_	O	O	
+4-36	habe	VAFIN	haben	_	O	O	
+4-37	ich	PPER	ich	_	O	O	
+4-38	nach	APPR	nach	_	O	O	
+4-39	eingetroffener	ADJA	eingetroffen	_	O	O	
+4-40	Einwilligung	NN	Einwilligung	_	O	O	
+4-41	des	ART	die	_	O	O	
+4-42	Reichskanzleramts	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-43	die	ART	die	_	O	O	
+4-44	Züchtung	NN	Züchtung	_	O	O	
+4-45	der	ART	die	_	O	O	
+4-46	sich	PRF	sich	_	O	O	
+4-47	mit	APPR	mit	_	O	O	
+4-48	Archäologie	NN	Archäologie	_	O	O	
+4-49	beschäftigenden	ADJA	beschäftigend	_	O	O	
+4-50	römischen	ADJA	römisch	_	O	O	
+4-51	Jugend	NN	Jugend	_	O	O	
+4-52	1	CARD	1	_	O	O	
+4-53	)	$(	)	_	O	O	
+4-54	übernommen	VVPP	übernehmen	_	O	O	
+4-55	,	$,	,	_	O	O	
+4-56	tage	VVFIN	tagen	_	O	O	
+4-57	außerdem	ADV	außerdem	_	O	O	
+4-58	in	APPR	in	_	O	O	
+4-59	verschiedenen	ADJA	verschieden	_	O	O	
+4-60	Comissionen	NN	<unknown>	_	O	O	
+4-61	.	$.	.	_	O	O	
+
+#id=5
+#text=Für die Werke des Instituts kommt dabei allerlei heraus.
+5-1	Für	APPR	für	_	O	O	
+5-2	die	ART	die	_	O	O	
+5-3	Werke	NN	Werk	_	O	O	
+5-4	des	ART	die	_	O	O	
+5-5	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-6	kommt	VVFIN	kommen	_	O	O	
+5-7	dabei	PAV	dabei	_	O	O	
+5-8	allerlei	PIS	allerlei	_	O	O	
+5-9	heraus	PTKVZ	heraus	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich selbst aber komme bei dieser Menge oft ganz heterogener Beschäftigungen recht herunter.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	selbst	ADV	selbst	_	O	O	
+6-3	aber	ADV	aber	_	O	O	
+6-4	komme	VVFIN	kommen	_	O	O	
+6-5	bei	APPR	bei	_	O	O	
+6-6	dieser	PDAT	dies	_	O	O	
+6-7	Menge	NN	Menge	_	O	O	
+6-8	oft	ADV	oft	_	O	O	
+6-9	ganz	ADV	ganz	_	O	O	
+6-10	heterogener	ADJA	heterogen	_	O	O	
+6-11	Beschäftigungen	NN	Beschäftigung	_	O	O	
+6-12	recht	ADJD	recht	_	O	O	
+6-13	herunter	PTKVZ	herunter	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Denken Sie sich, nächstens muß ich sogar Unterofficieren Instructionen ertheilen, wie sie Ausgrabungen zu beaufsichtigen und die wichtigsten dabei zu Tage kommenden Thatsachen zu notiren haben.
+7-1	Denken	VVFIN	denken	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	sich	PRF	sich	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	nächstens	ADV	nächstens	_	O	O	
+7-6	muß	VMFIN	müssen	_	O	O	
+7-7	ich	PPER	ich	_	O	O	
+7-8	sogar	ADV	sogar	_	O	O	
+7-9	Unterofficieren	NN	<unknown>	_	O	O	
+7-10	Instructionen	NN	<unknown>	_	O	O	
+7-11	ertheilen	VVINF	<unknown>	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	wie	KOUS	wie	_	O	O	
+7-14	sie	PPER	sie	_	O	O	
+7-15	Ausgrabungen	NN	Ausgrabung	_	O	O	
+7-16	zu	PTKZU	zu	_	O	O	
+7-17	beaufsichtigen	VVINF	beaufsichtigen	_	O	O	
+7-18	und	KON	und	_	O	O	
+7-19	die	ART	die	_	O	O	
+7-20	wichtigsten	ADJA	wichtig	_	O	O	
+7-21	dabei	PAV	dabei	_	O	O	
+7-22	zu	APPR	zu	_	O	O	
+7-23	Tage	NN	Tag	_	O	O	
+7-24	kommenden	ADJA	kommend	_	O	O	
+7-25	Thatsachen	NN	<unknown>	_	O	O	
+7-26	zu	APPR	zu	_	O	O	
+7-27	notiren	NN	<unknown>	_	O	O	
+7-28	haben	VAFIN	haben	_	O	O	
+7-29	.	$.	.	_	O	O	
+
+#id=8
+#text=Übrigens muß man es Bonghi zugestehen, daß er Gedanken hat und Thatkraft besitzt.
+8-1	Übrigens	ADV	übrigens	_	O	O	
+8-2	muß	VMFIN	müssen	_	O	O	
+8-3	man	PIS	man	_	O	O	
+8-4	es	PPER	es	_	O	O	
+8-5	Bonghi	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-6	zugestehen	VVINF	zugestehen	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	daß	KOUS	dass	_	O	O	
+8-9	er	PPER	er	_	O	O	
+8-10	Gedanken	NN	Gedanke	_	O	O	
+8-11	hat	VAFIN	haben	_	O	O	
+8-12	und	KON	und	_	O	O	
+8-13	Thatkraft	NN	<unknown>	_	O	O	
+8-14	besitzt	VVFIN	besitzen	_	O	O	
+8-15	.	$.	.	_	O	O	
+
+#id=9
+#text=Aber es fehlt ihm an Geld und an Kräften unter den Italienern.
+9-1	Aber	KON	aber	_	O	O	
+9-2	es	PPER	es	_	O	O	
+9-3	fehlt	VVFIN	fehlen	_	O	O	
+9-4	ihm	PPER	er	_	O	O	
+9-5	an	APPR	an	_	O	O	
+9-6	Geld	NN	Geld	_	O	O	
+9-7	und	KON	und	_	O	O	
+9-8	an	APPR	an	_	O	O	
+9-9	Kräften	NN	Kraft	_	O	O	
+9-10	unter	APPR	unter	_	O	O	
+9-11	den	ART	die	_	O	O	
+9-12	Italienern	NN	Italiener	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=[Folgt wissenschaftliche Mitteilung, Erwerbung des Gipsabgusses des Ephebenkopfes Abbati für Brunn, dann]: ••• Julius hält sich etwas vom Institute zurück und läßt sich selten sehen.
+10-1	[	$(	[	_	O	O	
+10-2	Folgt	NN	<unknown>	_	O	O	
+10-3	wissenschaftliche	ADJA	wissenschaftlich	_	O	O	
+10-4	Mitteilung	NN	Mitteilung	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	Erwerbung	NN	Erwerbung	_	O	O	
+10-7	des	ART	die	_	O	O	
+10-8	Gipsabgusses	NN	<unknown>	_	O	O	
+10-9	des	ART	die	_	O	O	
+10-10	Ephebenkopfes	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+10-11	Abbati	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+10-12	für	APPR	für	_	O	O	
+10-13	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-14	,	$,	,	_	O	O	
+10-15	dann	ADV	dann	_	O	O	
+10-16	]	$(	]	_	O	O	
+10-17	:	$.	:	_	O	O	
+10-18	•	ADJA	<unknown>	_	O	O	
+10-19	•	ADJA	<unknown>	_	O	O	
+10-20	•	NN	<unknown>	_	O	O	
+10-21	Julius	NE	Julius	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-22	hält	VVFIN	halten	_	O	O	
+10-23	sich	PRF	sich	_	O	O	
+10-24	etwas	ADV	etwas	_	O	O	
+10-25	vom	APPRART	von	_	O	O	
+10-26	Institute	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-27	zurück	PTKVZ	zurück	_	O	O	
+10-28	und	KON	und	_	O	O	
+10-29	läßt	VVFIN	lassen	_	O	O	
+10-30	sich	PRF	sich	_	O	O	
+10-31	selten	ADJD	selten	_	O	O	
+10-32	sehen	VVINF	sehen	_	O	O	
+10-33	.	$.	.	_	O	O	
+
+#id=11
+#text=Was mich betrifft, so nehme ich es ihm nicht übel,
+11-1	Was	PWS	was	_	O	O	
+11-2	mich	PPER	ich	_	O	O	
+11-3	betrifft	VVFIN	betreffen	_	O	O	
+11-4	,	$,	,	_	O	O	
+11-5	so	ADV	so	_	O	O	
+11-6	nehme	VVFIN	nehmen	_	O	O	
+11-7	ich	PPER	ich	_	O	O	
+11-8	es	PPER	es	_	O	O	
+11-9	ihm	PPER	er	_	O	O	
+11-10	nicht	PTKNEG	nicht	_	O	O	
+11-11	übel	ADJD	übel	_	O	O	
+11-12	,	$,	,	_	O	O	
+

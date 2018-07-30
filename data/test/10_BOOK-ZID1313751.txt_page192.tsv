@@ -1,0 +1,218 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=49 Wolfgang Helbig an Heinrich Brunn Pistoja, 23. Juli 1885 r.
+1-1	49	CARD	@card@	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	Pistoja	NN	<unknown>	_	O	O	
+1-8	,	$,	,	_	O	O	
+1-9	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1885	CARD	1885	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	r.	VVFIN	<unknown>	_	O	O	
+
+#id=2
+#text=29. VII.
+2-1	29	CARD	@card@	_	O	O	
+2-2	.	$.	.	_	O	O	
+2-3	VII.	NE	<unknown>	_	O	O	
+
+#id=3
+#text=85 Pistoja, Villa dello Specchio 13. Juli 1885. Lieber Herr Professor !
+3-1	85	CARD	85	_	O	O	
+3-2	Pistoja	NN	<unknown>	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	Villa	NN	Villa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-5	dello	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+3-6	Specchio	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+3-7	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-10	1885	CARD	1885	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-11	.	$.	.	_	O	O	
+3-12	Lieber	ADJA	lieb	_	O	O	
+3-13	Herr	NN	Herr	_	O	O	
+3-14	Professor	NN	Professor	_	O	O	
+3-15	!	$.	!	_	O	O	
+
+#id=4
+#text=Haben Sie den tarentiner Kopf erhalten und denken Sie ihn zu behalten?
+4-1	Haben	VAFIN	haben	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	den	ART	die	_	O	O	
+4-4	tarentiner	ADJA	<unknown>	_	O	O	
+4-5	Kopf	NN	Kopf	_	O	O	
+4-6	erhalten	VVPP	erhalten	_	O	O	
+4-7	und	KON	und	_	O	O	
+4-8	denken	VVFIN	denken	_	O	O	
+4-9	Sie	PPER	Sie	_	O	O	
+4-10	ihn	PPER	er	_	O	O	
+4-11	zu	PTKZU	zu	_	O	O	
+4-12	behalten	VVINF	behalten	_	O	O	
+4-13	?	$.	?	_	O	O	
+
+#id=5
+#text=Ich freue mich sehr darüber, daß ich Sie doch demnächst sehen werde.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	freue	VVFIN	freuen	_	O	O	
+5-3	mich	PRF	ich	_	O	O	
+5-4	sehr	ADV	sehr	_	O	O	
+5-5	darüber	PAV	darüber	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	daß	KOUS	dass	_	O	O	
+5-8	ich	PPER	ich	_	O	O	
+5-9	Sie	PPER	Sie	_	O	O	
+5-10	doch	ADV	doch	_	O	O	
+5-11	demnächst	ADV	demnächst	_	O	O	
+5-12	sehen	VVINF	sehen	_	O	O	
+5-13	werde	VAFIN	werden	_	O	O	
+5-14	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich habe mich nämlich doch dazu entschlossen der Aufforderung der Cantral Direction nachzukommen und der für den 9. August angesezten Plenarversammlung beizuwohnen.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	habe	VAFIN	haben	_	O	O	
+6-3	mich	PRF	ich	_	O	O	
+6-4	nämlich	ADV	nämlich	_	O	O	
+6-5	doch	ADV	doch	_	O	O	
+6-6	dazu	PAV	dazu	_	O	O	
+6-7	entschlossen	ADJD	entschlossen	_	O	O	
+6-8	der	ART	die	_	O	O	
+6-9	Aufforderung	NN	Aufforderung	_	O	O	
+6-10	der	ART	die	_	O	O	
+6-11	Cantral	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-12	Direction	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+6-13	nachzukommen	VVIZU	nachkommen	_	O	O	
+6-14	und	KON	und	_	O	O	
+6-15	der	ART	die	_	O	O	
+6-16	für	APPR	für	_	O	O	
+6-17	den	ART	die	_	O	O	
+6-18	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-20	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-21	angesezten	ADJA	<unknown>	_	O	O	
+6-22	Plenarversammlung	NN	Plenarversammlung	_	O	O	
+6-23	beizuwohnen	VVIZU	beiwohnen	_	O	O	
+6-24	.	$.	.	_	O	O	
+
+#id=7
+#text=Helfen wird dies nicht viel.
+7-1	Helfen	NN	Helfen	_	O	O	
+7-2	wird	VAFIN	werden	_	O	O	
+7-3	dies	PDS	dies	_	O	O	
+7-4	nicht	PTKNEG	nicht	_	O	O	
+7-5	viel	ADV	viel	_	O	O	
+7-6	.	$.	.	_	O	O	
+
+#id=8
+#text=Aber ich halte es für meine Pflicht alle einschlagenden Gesichtspunkte noch einmal vor den Herren zu resumiren.
+8-1	Aber	KON	aber	_	O	O	
+8-2	ich	PPER	ich	_	O	O	
+8-3	halte	VVFIN	halten	_	O	O	
+8-4	es	PPER	es	_	O	O	
+8-5	für	APPR	für	_	O	O	
+8-6	meine	PPOSAT	mein	_	O	O	
+8-7	Pflicht	NN	Pflicht	_	O	O	
+8-8	alle	PIAT	alle	_	O	O	
+8-9	einschlagenden	ADJA	einschlagend	_	O	O	
+8-10	Gesichtspunkte	NN	Gesichtspunkt	_	O	O	
+8-11	noch	ADV	noch	_	O	O	
+8-12	einmal	ADV	einmal	_	O	O	
+8-13	vor	APPR	vor	_	O	O	
+8-14	den	ART	die	_	O	O	
+8-15	Herren	NN	Herr	_	O	O	
+8-16	zu	APPR	zu	_	O	O	
+8-17	resumiren	NN	<unknown>	_	O	O	
+8-18	.	$.	.	_	O	O	
+
+#id=9
+#text=Um den 6. August denke ich in München einzutreffen.
+9-1	Um	KOUI	um	_	O	O	
+9-2	den	ART	die	_	O	O	
+9-3	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-4	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-5	August	NE	August	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-6	denke	VVFIN	denken	_	O	O	
+9-7	ich	PPER	ich	_	O	O	
+9-8	in	APPR	in	_	O	O	
+9-9	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-10	einzutreffen	VVIZU	eintreffen	_	O	O	
+9-11	.	$.	.	_	O	O	
+
+#id=10
+#text=Der Arzt hat mir wegen meiner Bronchialaffection verordnet mich nach der Jägerschen Methode zu bekleiden.
+10-1	Der	ART	die	_	O	O	
+10-2	Arzt	NN	Arzt	_	O	O	
+10-3	hat	VAFIN	haben	_	O	O	
+10-4	mir	PPER	ich	_	O	O	
+10-5	wegen	APPR	wegen	_	O	O	
+10-6	meiner	PPOSAT	mein	_	O	O	
+10-7	Bronchialaffection	NN	<unknown>	_	O	O	
+10-8	verordnet	VVFIN	verordnen	_	O	O	
+10-9	mich	PRF	ich	_	O	O	
+10-10	nach	APPR	nach	_	O	O	
+10-11	der	ART	die	_	O	O	
+10-12	Jägerschen	NN	<unknown>	_	O	O	
+10-13	Methode	NN	Methode	_	O	O	
+10-14	zu	PTKZU	zu	_	O	O	
+10-15	bekleiden	VVINF	bekleiden	_	O	O	
+10-16	.	$.	.	_	O	O	
+
+#id=11
+#text=Mein erster Gang in f-lünchen wird demnach nach dem Jägerschen Magazine sein.
+11-1	Mein	PPOSAT	mein	_	O	O	
+11-2	erster	ADJA	erst	_	O	O	
+11-3	Gang	NN	Gang	_	O	O	
+11-4	in	APPR	in	_	O	O	
+11-5	f-lünchen	NN	<unknown>	_	O	O	
+11-6	wird	VAFIN	werden	_	O	O	
+11-7	demnach	PAV	demnach	_	O	O	
+11-8	nach	APPR	nach	_	O	O	
+11-9	dem	ART	die	_	O	O	
+11-10	Jägerschen	NN	<unknown>	_	O	O	
+11-11	Magazine	NN	Magazin	_	O	O	
+11-12	sein	VAINF	sein	_	O	O	
+11-13	.	$.	.	_	O	O	
+
+#id=12
+#text=Hätten Sie die große Güte mir auf einer Correspondenzkarte mitzutheilen, wo sich in München dieses Magazin befindet?
+12-1	Hätten	VAFIN	haben	_	O	O	
+12-2	Sie	PPER	Sie	_	O	O	
+12-3	die	ART	die	_	O	O	
+12-4	große	ADJA	groß	_	O	O	
+12-5	Güte	NN	Güte	_	O	O	
+12-6	mir	PRF	ich	_	O	O	
+12-7	auf	APPR	auf	_	O	O	
+12-8	einer	ART	eine	_	O	O	
+12-9	Correspondenzkarte	NN	<unknown>	_	O	O	
+12-10	mitzutheilen	VVIZU	<unknown>	_	O	O	
+12-11	,	$,	,	_	O	O	
+12-12	wo	PWAV	wo	_	O	O	
+12-13	sich	PRF	sich	_	O	O	
+12-14	in	APPR	in	_	O	O	
+12-15	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-16	dieses	PDAT	dies	_	O	O	
+12-17	Magazin	NN	Magazin	_	O	O	
+12-18	befindet	VVFIN	befinden	_	O	O	
+12-19	?	$.	?	_	O	O	
+
+#id=13
+#text=Auf baldiges Wiedersehen !
+13-1	Auf	APPR	auf	_	O	O	
+13-2	baldiges	ADJA	baldig	_	O	O	
+13-3	Wiedersehen	NN	Wiedersehen	_	O	O	
+13-4	!	$.	!	_	O	O	
+
+#id=14
+#text=Mir herzlichen Grüßen Ihr ergebener Helbig
+14-1	Mir	PPER	ich	_	O	O	
+14-2	herzlichen	ADJA	herzlich	_	O	O	
+14-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+14-4	Ihr	PPOSAT	ihr	_	O	O	
+14-5	ergebener	ADJA	ergeben	_	O	O	
+14-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

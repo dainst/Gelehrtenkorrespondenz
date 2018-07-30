@@ -1,0 +1,246 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an ~~t Rom, 21. August 1863 r. 25/VIII 63 Rom 21. August 1863. Geehrtester Herr Professor !
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	~~t	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	r.	VVFIN	<unknown>	_	O	O	
+1-11	25/VIII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+1-12	63	CARD	63	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+1-13	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-14	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-15	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	.	$.	.	_	O	O	
+1-19	Geehrtester	ADJA	<unknown>	_	O	O	
+1-20	Herr	NN	Herr	_	O	O	
+1-21	Professor	NN	Professor	_	O	O	
+1-22	!	$.	!	_	O	O	
+
+#id=2
+#text=Ihren Brief habe ich erhalten.
+2-1	Ihren	PPOSAT	ihr	_	O	O	
+2-2	Brief	NN	Brief	_	O	O	
+2-3	habe	VAFIN	haben	_	O	O	
+2-4	ich	PPER	ich	_	O	O	
+2-5	erhalten	VVPP	erhalten	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Der von Ihnen beschriebene Skarabaeus, nach dem ich in vorgeschriebener v/eise Nachsuchungen anstellte, ist noch unbekannt.
+3-1	Der	ART	die	_	O	O	
+3-2	von	APPR	von	_	O	O	
+3-3	Ihnen	PPER	Sie	_	O	O	
+3-4	beschriebene	ADJA	beschrieben	_	O	O	
+3-5	Skarabaeus	NE	<unknown>	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	nach	APPR	nach	_	O	O	
+3-8	dem	PRELS	die	_	O	O	
+3-9	ich	PPER	ich	_	O	O	
+3-10	in	APPR	in	_	O	O	
+3-11	vorgeschriebener	ADJA	vorgeschrieben	_	O	O	
+3-12	v/eise	NN	<unknown>	_	O	O	
+3-13	Nachsuchungen	NN	<unknown>	_	O	O	
+3-14	anstellte	VVFIN	anstellen	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	ist	VAFIN	sein	_	O	O	
+3-17	noch	ADV	noch	_	O	O	
+3-18	unbekannt	ADJD	unbekannt	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=In den Impronten des Instituts befindet sich ein ähnliches Exemplar.
+4-1	In	APPR	in	_	O	O	
+4-2	den	ART	die	_	O	O	
+4-3	Impronten	NN	<unknown>	_	O	O	
+4-4	des	ART	die	_	O	O	
+4-5	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-6	befindet	VVFIN	befinden	_	O	O	
+4-7	sich	PRF	sich	_	O	O	
+4-8	ein	ART	eine	_	O	O	
+4-9	ähnliches	ADJA	ähnlich	_	O	O	
+4-10	Exemplar	NN	Exemplar	_	O	O	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Doch stützt sich die männliche Figur auf einen Stab und hält keinen stilo in der Hand und fehlt die Umschrift.
+5-1	Doch	ADV	doch	_	O	O	
+5-2	stützt	VVFIN	stützen	_	O	O	
+5-3	sich	PRF	sich	_	O	O	
+5-4	die	ART	die	_	O	O	
+5-5	männliche	ADJA	männlich	_	O	O	
+5-6	Figur	NN	Figur	_	O	O	
+5-7	auf	APPR	auf	_	O	O	
+5-8	einen	ART	eine	_	O	O	
+5-9	Stab	NN	Stab	_	O	O	
+5-10	und	KON	und	_	O	O	
+5-11	hält	VVFIN	halten	_	O	O	
+5-12	keinen	PIAT	keine	_	O	O	
+5-13	stilo	NN	<unknown>	_	O	O	
+5-14	in	APPR	in	_	O	O	
+5-15	der	ART	die	_	O	O	
+5-16	Hand	NN	Hand	_	O	O	
+5-17	und	KON	und	_	O	O	
+5-18	fehlt	VVFIN	fehlen	_	O	O	
+5-19	die	ART	die	_	O	O	
+5-20	Umschrift	NN	Umschrift	_	O	O	
+5-21	.	$.	.	_	O	O	
+
+#id=6
+#text=Vor Kurzen war ein Kunsthändler bei mir, welcher, wie er sagt, im Auftrage des Instituts die Cadesschen Impronten fortsetzt.
+6-1	Vor	APPR	vor	_	O	O	
+6-2	Kurzen	NN	Kurze	_	O	O	
+6-3	war	VAFIN	sein	_	O	O	
+6-4	ein	ART	eine	_	O	O	
+6-5	Kunsthändler	NN	Kunsthändler	_	O	O	
+6-6	bei	APPR	bei	_	O	O	
+6-7	mir	PPER	ich	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	welcher	PWS	welche	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	wie	KOUS	wie	_	O	O	
+6-12	er	PPER	er	_	O	O	
+6-13	sagt	VVFIN	sagen	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	im	APPRART	in	_	O	O	
+6-16	Auftrage	NN	Auftrag	_	O	O	
+6-17	des	ART	die	_	O	O	
+6-18	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-19	die	ART	die	_	O	O	
+6-20	Cadesschen	NN	<unknown>	_	O	O	
+6-21	Impronten	NN	<unknown>	_	O	O	
+6-22	fortsetzt	VVFIN	fortsetzen	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Er ~eigte mir die von ihm angefertigten neuen Exemplare, welche an Schärfe und Deutlichkeit nichts zu wünschen übrig lassen, aber in einem Gyps gemacht sind, welcher weniger weiß und fein ist als der der früheren, und fragte, ob das Institut diese Exemplare nehmen wollte.
+7-1	Er	PPER	er	_	O	O	
+7-2	~eigte	VVFIN	<unknown>	_	O	O	
+7-3	mir	PPER	ich	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	von	APPR	von	_	O	O	
+7-6	ihm	PPER	er	_	O	O	
+7-7	angefertigten	ADJA	angefertigt	_	O	O	
+7-8	neuen	ADJA	neu	_	O	O	
+7-9	Exemplare	NN	Exemplar	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	welche	PRELS	welche	_	O	O	
+7-12	an	APPR	an	_	O	O	
+7-13	Schärfe	NN	Schärfe	_	O	O	
+7-14	und	KON	und	_	O	O	
+7-15	Deutlichkeit	NN	Deutlichkeit	_	O	O	
+7-16	nichts	PIS	nichts	_	O	O	
+7-17	zu	PTKZU	zu	_	O	O	
+7-18	wünschen	VVINF	wünschen	_	O	O	
+7-19	übrig	ADJD	übrig	_	O	O	
+7-20	lassen	VVFIN	lassen	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	aber	ADV	aber	_	O	O	
+7-23	in	APPR	in	_	O	O	
+7-24	einem	ART	eine	_	O	O	
+7-25	Gyps	NN	<unknown>	_	O	O	
+7-26	gemacht	VVPP	machen	_	O	O	
+7-27	sind	VAFIN	sein	_	O	O	
+7-28	,	$,	,	_	O	O	
+7-29	welcher	PWS	welche	_	O	O	
+7-30	weniger	ADV	weniger	_	O	O	
+7-31	weiß	ADJD	weiß	_	O	O	
+7-32	und	KON	und	_	O	O	
+7-33	fein	ADJD	fein	_	O	O	
+7-34	ist	VAFIN	sein	_	O	O	
+7-35	als	KOKOM	als	_	O	O	
+7-36	der	ART	die	_	O	O	
+7-37	der	ART	die	_	O	O	
+7-38	früheren	ADJA	früh	_	O	O	
+7-39	,	$,	,	_	O	O	
+7-40	und	KON	und	_	O	O	
+7-41	fragte	VVFIN	fragen	_	O	O	
+7-42	,	$,	,	_	O	O	
+7-43	ob	KOUS	ob	_	O	O	
+7-44	das	ART	die	_	O	O	
+7-45	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-46	diese	PDAT	dies	_	O	O	
+7-47	Exemplare	NN	Exemplar	_	O	O	
+7-48	nehmen	VVINF	nehmen	_	O	O	
+7-49	wollte	VMFIN	wollen	_	O	O	
+7-50	.	$.	.	_	O	O	
+
+#id=8
+#text=Er habe, ich weiß nicht durch welche Umstände verhindert, den alten Gyps nicht auftreiben können.
+8-1	Er	PPER	er	_	O	O	
+8-2	habe	VAFIN	haben	_	O	O	
+8-3	,	$,	,	_	O	O	
+8-4	ich	PPER	ich	_	O	O	
+8-5	weiß	VVFIN	wissen	_	O	O	
+8-6	nicht	PTKNEG	nicht	_	O	O	
+8-7	durch	APPR	durch	_	O	O	
+8-8	welche	PIAT	welche	_	O	O	
+8-9	Umstände	NN	Umstand	_	O	O	
+8-10	verhindert	VVPP	verhindern	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	den	ART	die	_	O	O	
+8-13	alten	ADJA	alt	_	O	O	
+8-14	Gyps	NN	<unknown>	_	O	O	
+8-15	nicht	PTKNEG	nicht	_	O	O	
+8-16	auftreiben	VVINF	auftreiben	_	O	O	
+8-17	können	VMFIN	können	_	O	O	
+8-18	.	$.	.	_	O	O	
+
+#id=9
+#text=Außerdem ersucht er das Institut, falls es sie erwerben will, um Bezahlung.
+9-1	Außerdem	ADV	außerdem	_	O	O	
+9-2	ersucht	VVFIN	ersuchen	_	O	O	
+9-3	er	PPER	er	_	O	O	
+9-4	das	ART	die	_	O	O	
+9-5	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-6	,	$,	,	_	O	O	
+9-7	falls	KOUS	falls	_	O	O	
+9-8	es	PPER	es	_	O	O	
+9-9	sie	PPER	sie	_	O	O	
+9-10	erwerben	VVINF	erwerben	_	O	O	
+9-11	will	VMFIN	wollen	_	O	O	
+9-12	,	$,	,	_	O	O	
+9-13	um	KOUI	um	_	O	O	
+9-14	Bezahlung	NN	Bezahlung	_	O	O	
+9-15	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich bitte um Verhaltungsmaßregeln.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	bitte	VVFIN	bitten	_	O	O	
+10-3	um	APPR	um	_	O	O	
+10-4	Verhaltungsmaßregeln	NN	<unknown>	_	O	O	
+10-5	.	$.	.	_	O	O	
+
+#id=11
+#text=Der Mann wird Ende nächster Woche wieder zu mir kommen.
+11-1	Der	ART	die	_	O	O	
+11-2	Mann	NN	Mann	_	O	O	
+11-3	wird	VAFIN	werden	_	O	O	
+11-4	Ende	NN	Ende	_	O	O	
+11-5	nächster	ADJA	nah	_	O	O	
+11-6	Woche	NN	Woche	_	O	O	
+11-7	wieder	ADV	wieder	_	O	O	
+11-8	zu	APPR	zu	_	O	O	
+11-9	mir	PPER	ich	_	O	O	
+11-10	kommen	VVINF	kommen	_	O	O	
+11-11	.	$.	.	_	O	O	
+
+#id=12
+#text=Ich benütze diese Gelegenheit Sie mit einigen ]'ra-
+12-1	Ich	PPER	ich	_	O	O	
+12-2	benütze	VVFIN	benützen	_	O	O	
+12-3	diese	PDAT	dies	_	O	O	
+12-4	Gelegenheit	NN	Gelegenheit	_	O	O	
+12-5	Sie	PPER	Sie	_	O	O	
+12-6	mit	APPR	mit	_	O	O	
+12-7	einigen	PIAT	einige	_	O	O	
+12-8	]'ra-	TRUNC	<unknown>	_	O	O	
+

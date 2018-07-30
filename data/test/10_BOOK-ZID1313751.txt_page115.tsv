@@ -1,0 +1,179 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=14 Wolfgang Helbig an Heinrich Brunn Rom, 29. April 1874 r. 16/V 74 Lieber Herr Professor Damit Sie von den Sorgen der Institutsangelegenheiten gehörig unterrichtet werden, schicke ich Ihnen anbei die officielle Antwort der Centraldirection zu.
+1-1	14	CARD	14	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	r.	VVFIN	<unknown>	_	O	O	
+1-14	16/V	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+1-15	74	CARD	74	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+1-16	Lieber	ADJA	lieb	_	O	O	
+1-17	Herr	NN	Herr	_	O	O	
+1-18	Professor	NN	Professor	_	O	O	
+1-19	Damit	KOUS	damit	_	O	O	
+1-20	Sie	PPER	Sie	_	O	O	
+1-21	von	APPR	von	_	O	O	
+1-22	den	ART	die	_	O	O	
+1-23	Sorgen	NN	Sorge|Sorgen	_	O	O	
+1-24	der	ART	die	_	O	O	
+1-25	Institutsangelegenheiten	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-26	gehörig	ADJD	gehörig	_	O	O	
+1-27	unterrichtet	VVPP	unterrichten	_	O	O	
+1-28	werden	VAINF	werden	_	O	O	
+1-29	,	$,	,	_	O	O	
+1-30	schicke	VVFIN	schicken	_	O	O	
+1-31	ich	PPER	ich	_	O	O	
+1-32	Ihnen	PPER	Sie	_	O	O	
+1-33	anbei	ADV	anbei	_	O	O	
+1-34	die	ART	die	_	O	O	
+1-35	officielle	ADJA	<unknown>	_	O	O	
+1-36	Antwort	NN	Antwort	_	O	O	
+1-37	der	ART	die	_	O	O	
+1-38	Centraldirection	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-39	zu	PTKVZ	zu	_	O	O	
+1-40	.	$.	.	_	O	O	
+
+#id=2
+#text=Wie Sie aus den Bedingungen ersehen, die ich der Centraldirection gestellt und die ich Ihnen mitgetheilt, ist darin Einiges verschoben und verdreht.
+2-1	Wie	KOUS	wie	_	O	O	
+2-2	Sie	PPER	Sie	_	O	O	
+2-3	aus	APPR	aus	_	O	O	
+2-4	den	ART	die	_	O	O	
+2-5	Bedingungen	NN	Bedingung	_	O	O	
+2-6	ersehen	VVPP	ersehen	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	die	PRELS	die	_	O	O	
+2-9	ich	PPER	ich	_	O	O	
+2-10	der	ART	die	_	O	O	
+2-11	Centraldirection	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-12	gestellt	VVPP	stellen	_	O	O	
+2-13	und	KON	und	_	O	O	
+2-14	die	PRELS	die	_	O	O	
+2-15	ich	PPER	ich	_	O	O	
+2-16	Ihnen	PPER	Sie	_	O	O	
+2-17	mitgetheilt	VVPP	<unknown>	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	ist	VAFIN	sein	_	O	O	
+2-20	darin	PAV	darin	_	O	O	
+2-21	Einiges	NN	<unknown>	_	O	O	
+2-22	verschoben	VVPP	verschieben	_	O	O	
+2-23	und	KON	und	_	O	O	
+2-24	verdreht	VVPP	verdrehen	_	O	O	
+2-25	.	$.	.	_	O	O	
+
+#id=3
+#text=Doch ist dies im Grunde unwesentlich.
+3-1	Doch	ADV	doch	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	dies	PDS	dies	_	O	O	
+3-4	im	APPRART	in	_	O	O	
+3-5	Grunde	NN	Grund	_	O	O	
+3-6	unwesentlich	ADJD	unwesentlich	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich habe ungefähr in folgendem Sinne geantwortet: da ich die mir zu Theil gewordene Ohrfeige der gegenwärtigen Centraldirection verdanke, so muß ich darauf dringen, daß gerade diese die Sache gut macht und mir bestimmte Zusicherungen giebt, daß sie dahin will, sobald als es die Verhältnisse gestatten, entweder mir die athenische Stelle zu übertragen oder meine hiesige der athenischen gleichzusetzen.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	habe	VAFIN	haben	_	O	O	
+4-3	ungefähr	ADJD	ungefähr	_	O	O	
+4-4	in	APPR	in	_	O	O	
+4-5	folgendem	ADJA	folgend	_	O	O	
+4-6	Sinne	NN	Sinn	_	O	O	
+4-7	geantwortet	VVPP	antworten	_	O	O	
+4-8	:	$.	:	_	O	O	
+4-9	da	KOUS	da	_	O	O	
+4-10	ich	PPER	ich	_	O	O	
+4-11	die	ART	die	_	O	O	
+4-12	mir	PRF	ich	_	O	O	
+4-13	zu	APPR	zu	_	O	O	
+4-14	Theil	NN	<unknown>	_	O	O	
+4-15	gewordene	ADJA	geworden	_	O	O	
+4-16	Ohrfeige	NN	Ohrfeige	_	O	O	
+4-17	der	ART	die	_	O	O	
+4-18	gegenwärtigen	ADJA	gegenwärtig	_	O	O	
+4-19	Centraldirection	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-20	verdanke	VVFIN	verdanken	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	so	ADV	so	_	O	O	
+4-23	muß	VMFIN	müssen	_	O	O	
+4-24	ich	PPER	ich	_	O	O	
+4-25	darauf	PAV	darauf	_	O	O	
+4-26	dringen	VVINF	dringen	_	O	O	
+4-27	,	$,	,	_	O	O	
+4-28	daß	KOUS	dass	_	O	O	
+4-29	gerade	ADV	gerade	_	O	O	
+4-30	diese	PDS	diese	_	O	O	
+4-31	die	ART	die	_	O	O	
+4-32	Sache	NN	Sache	_	O	O	
+4-33	gut	ADJD	gut	_	O	O	
+4-34	macht	VVFIN	machen	_	O	O	
+4-35	und	KON	und	_	O	O	
+4-36	mir	PPER	ich	_	O	O	
+4-37	bestimmte	ADJA	bestimmt	_	O	O	
+4-38	Zusicherungen	NN	Zusicherung	_	O	O	
+4-39	giebt	VVFIN	<unknown>	_	O	O	
+4-40	,	$,	,	_	O	O	
+4-41	daß	KOUS	dass	_	O	O	
+4-42	sie	PPER	sie	_	O	O	
+4-43	dahin	PAV	dahin	_	O	O	
+4-44	will	VMFIN	wollen	_	O	O	
+4-45	,	$,	,	_	O	O	
+4-46	sobald	KOUS	sobald	_	O	O	
+4-47	als	KOUS	als	_	O	O	
+4-48	es	PPER	es	_	O	O	
+4-49	die	ART	die	_	O	O	
+4-50	Verhältnisse	NN	Verhältnis	_	O	O	
+4-51	gestatten	VVFIN	gestatten	_	O	O	
+4-52	,	$,	,	_	O	O	
+4-53	entweder	KON	entweder	_	O	O	
+4-54	mir	PRF	ich	_	O	O	
+4-55	die	ART	die	_	O	O	
+4-56	athenische	ADJA	athenisch	_	O	O	
+4-57	Stelle	NN	Stelle	_	O	O	
+4-58	zu	PTKZU	zu	_	O	O	
+4-59	übertragen	VVINF	übertragen	_	O	O	
+4-60	oder	KON	oder	_	O	O	
+4-61	meine	PPOSAT	mein	_	O	O	
+4-62	hiesige	ADJA	hiesig	_	O	O	
+4-63	der	ART	die	_	O	O	
+4-64	athenischen	ADJA	athenisch	_	O	O	
+4-65	gleichzusetzen	VVIZU	gleichsetzen	_	O	O	
+4-66	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich habe mich dabei vollständig parlamentarischer Ausdrücke bedient und den 15. Mai als letzten Entscheidungstermin hingestellt.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	mich	PRF	ich	_	O	O	
+5-4	dabei	PAV	dabei	_	O	O	
+5-5	vollständig	ADJD	vollständig	_	O	O	
+5-6	parlamentarischer	ADJA	parlamentarisch	_	O	O	
+5-7	Ausdrücke	NN	Ausdruck	_	O	O	
+5-8	bedient	VVPP	bedienen	_	O	O	
+5-9	und	KON	und	_	O	O	
+5-10	den	ART	die	_	O	O	
+5-11	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-13	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-14	als	KOKOM	als	_	O	O	
+5-15	letzten	ADJA	letzt	_	O	O	
+5-16	Entscheidungstermin	NN	Entscheidungstermin	_	O	O	
+5-17	hingestellt	VVPP	hinstellen	_	O	O	
+5-18	.	$.	.	_	O	O	
+
+#id=6
+#text=Herzlichen Gruß Ihr Helbig
+6-1	Herzlichen	ADJA	herzlich	_	O	O	
+6-2	Gruß	NN	Gruß	_	O	O	
+6-3	Ihr	PPOSAT	ihr	_	O	O	
+6-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

@@ -1,0 +1,250 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=35a Pietro Rosa an Wolfgang Helbig Rom, 25. Februar 1881 Photokopie des Originals siehe W. Helbig an H. Brunn Palatino, 25. Febr.
+1-1	35a	NE	<unknown>	_	O	O	
+1-2	Pietro	NE	Pietro	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-3	Rosa	NE	Rosa	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-4	an	APPR	an	_	O	O	
+1-5	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Helbig	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1881	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Photokopie	NN	Photokopie	_	O	O	
+1-14	des	ART	die	_	O	O	
+1-15	Originals	NN	Original	_	O	O	
+1-16	siehe	ADV	siehe	_	O	O	
+1-17	W.	APPR	w.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-18	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-19	an	APPR	an	_	O	O	
+1-20	H.	NE	H.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-21	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-22	Palatino	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-23	,	$,	,	_	O	O	
+1-24	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-25	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-26	Febr.	NN	Febr.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=81 Chiarissimo Sig.
+2-1	81	CARD	@card@	_	O	O	
+2-2	Chiarissimo	NN	<unknown>	_	O	O	
+2-3	Sig	VVFIN	<unknown>	_	O	O	
+2-4	.	$.	.	_	O	O	
+
+#id=3
+#text=Dott. Helbig La statua deI faunno Prassitele fu rinvenuta sul Palatino in quella sala ottagonale deI gran peristilio Flaviano, solo ehe era pur aneo aeeessibile dalla eontigua area Palatina (vedi Annali dell'1nst.
+3-1	Dott	NE	Dott	_	O	O	
+3-2	.	$.	.	_	O	O	
+3-3	Helbig	ADJD	<unknown>	_	O	O	
+3-4	La	NE	La	_	O	O	
+3-5	statua	NE	<unknown>	_	O	O	
+3-6	deI	VVFIN	<unknown>	_	O	O	
+3-7	faunno	NE	<unknown>	_	O	O	
+3-8	Prassitele	NN	<unknown>	_	O	O	
+3-9	fu	NE	Fu	_	O	O	
+3-10	rinvenuta	NE	<unknown>	_	O	O	
+3-11	sul	ADJA	<unknown>	_	O	O	
+3-12	Palatino	NN	<unknown>	_	O	O	
+3-13	in	APPR	in	_	O	O	
+3-14	quella	NE	<unknown>	_	O	O	
+3-15	sala	NE	<unknown>	_	O	O	
+3-16	ottagonale	ADJA	<unknown>	_	O	O	
+3-17	deI	ADJA	<unknown>	_	O	O	
+3-18	gran	ADJA	<unknown>	_	O	O	
+3-19	peristilio	NE	<unknown>	_	O	O	
+3-20	Flaviano	NE	Flaviano	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-21	,	$,	,	_	O	O	
+3-22	solo	ADJD	solo	_	O	O	
+3-23	ehe	KOUS	ehe	_	O	O	
+3-24	era	ADJD	<unknown>	_	O	O	
+3-25	pur	ADJD	pur	_	O	O	
+3-26	aneo	NE	<unknown>	_	O	O	
+3-27	aeeessibile	ADJA	<unknown>	_	O	O	
+3-28	dalla	NE	<unknown>	_	O	O	
+3-29	eontigua	NE	<unknown>	_	O	O	
+3-30	area	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-31	Palatina	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+3-32	(	$(	(	_	O	O	
+3-33	vedi	NE	<unknown>	_	O	O	
+3-34	Annali	NE	<unknown>	_	O	O	
+3-35	dell'1nst	VVFIN	<unknown>	_	O	O	
+3-36	.	$.	.	_	O	O	
+
+#id=4
+#text=1865 pag.
+4-1	1865	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-2	pag	NN	<unknown>	_	O	O	
+4-3	.	$.	.	_	O	O	
+
+#id=5
+#text=354 indieata in pianta eon num.
+5-1	354	CARD	@card@	_	O	O	
+5-2	indieata	NN	<unknown>	_	O	O	
+5-3	in	APPR	in	_	O	O	
+5-4	pianta	NE	<unknown>	_	O	O	
+5-5	eon	ADJA	<unknown>	_	O	O	
+5-6	num	NN	<unknown>	_	O	O	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=6. )
+6-1	6	CARD	6	_	O	O	
+6-2	.	$.	.	_	O	O	
+6-3	)	$(	)	_	O	O	
+
+#id=7
+#text=11 marmo e gr~~o statuario di prima qualita, e la sua grana trovasi formata da grandi eristalli per i quali risulta trasparente, e nel tempo stesso di un eandore non freddo marmoreo ma di un eolore ealdo ehe nelle parti nude armonizza in modo da supplire per eeeellenza al eolore della earne.
+7-1	11	CARD	11	_	O	O	
+7-2	marmo	NE	<unknown>	_	O	O	
+7-3	e	VVFIN	<unknown>	_	O	O	
+7-4	gr~~o	NE	<unknown>	_	O	O	
+7-5	statuario	NE	<unknown>	_	O	O	
+7-6	di	NE	di	_	O	O	
+7-7	prima	ADJA	prima	_	O	O	
+7-8	qualita	ADJA	<unknown>	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	e	ADJA	<unknown>	_	O	O	
+7-11	la	FM	la	_	O	O	
+7-12	sua	NE	<unknown>	_	O	O	
+7-13	grana	NE	<unknown>	_	O	O	
+7-14	trovasi	NE	<unknown>	_	O	O	
+7-15	formata	NE	<unknown>	_	O	O	
+7-16	da	ADV	da	_	O	O	
+7-17	grandi	ADJD	<unknown>	_	O	O	
+7-18	eristalli	VVFIN	<unknown>	_	O	O	
+7-19	per	APPR	per	_	O	O	
+7-20	i	NE	i	_	O	O	
+7-21	quali	NE	<unknown>	_	O	O	
+7-22	risulta	ADJA	<unknown>	_	O	O	
+7-23	trasparente	NN	<unknown>	_	O	O	
+7-24	,	$,	,	_	O	O	
+7-25	e	ADJA	<unknown>	_	O	O	
+7-26	nel	ADJA	<unknown>	_	O	O	
+7-27	tempo	NN	Tempo	_	O	O	
+7-28	stesso	VVFIN	<unknown>	_	O	O	
+7-29	di	NE	di	_	O	O	
+7-30	un	NE	un	_	O	O	
+7-31	eandore	NE	<unknown>	_	O	O	
+7-32	non	NE	non	_	O	O	
+7-33	freddo	NE	<unknown>	_	O	O	
+7-34	marmoreo	NE	<unknown>	_	O	O	
+7-35	ma	NE	ma	_	O	O	
+7-36	di	NE	di	_	O	O	
+7-37	un	NE	un	_	O	O	
+7-38	eolore	NE	<unknown>	_	O	O	
+7-39	ealdo	VVFIN	<unknown>	_	O	O	
+7-40	ehe	KOUS	ehe	_	O	O	
+7-41	nelle	ADJA	<unknown>	_	O	O	
+7-42	parti	NE	<unknown>	_	O	O	
+7-43	nude	NE	<unknown>	_	O	O	
+7-44	armonizza	VVFIN	<unknown>	_	O	O	
+7-45	in	APPR	in	_	O	O	
+7-46	modo	NE	<unknown>	_	O	O	
+7-47	da	ADV	da	_	O	O	
+7-48	supplire	NN	<unknown>	_	O	O	
+7-49	per	APPR	per	_	O	O	
+7-50	eeeellenza	NE	<unknown>	_	O	O	
+7-51	al	NE	al	_	O	O	
+7-52	eolore	NE	<unknown>	_	O	O	
+7-53	della	NE	Della	_	O	O	
+7-54	earne	VVFIN	<unknown>	_	O	O	
+7-55	.	$.	.	_	O	O	
+
+#id=8
+#text=Si aggiunga ehe la formazione eristallina deI marmo da ai piani levigati una inalterabile lueidezza, eie ammirasi nel fauno Palatino massime nelle parti nude deI eorpo e delle spalle.
+8-1	Si	NE	Si	_	O	O	
+8-2	aggiunga	NN	<unknown>	_	O	O	
+8-3	ehe	KOUS	ehe	_	O	O	
+8-4	la	FM	la	_	O	O	
+8-5	formazione	NE	<unknown>	_	O	O	
+8-6	eristallina	NE	<unknown>	_	O	O	
+8-7	deI	VVFIN	<unknown>	_	O	O	
+8-8	marmo	NE	<unknown>	_	O	O	
+8-9	da	ADV	da	_	O	O	
+8-10	ai	ADJA	<unknown>	_	O	O	
+8-11	piani	ADJA	<unknown>	_	O	O	
+8-12	levigati	NE	<unknown>	_	O	O	
+8-13	una	ADJA	<unknown>	_	O	O	
+8-14	inalterabile	NN	<unknown>	_	O	O	
+8-15	lueidezza	VVFIN	<unknown>	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	eie	VVFIN	<unknown>	_	O	O	
+8-18	ammirasi	NE	<unknown>	_	O	O	
+8-19	nel	VVFIN	<unknown>	_	O	O	
+8-20	fauno	NE	<unknown>	_	O	O	
+8-21	Palatino	NE	<unknown>	_	O	O	
+8-22	massime	NE	<unknown>	_	O	O	
+8-23	nelle	ADJA	<unknown>	_	O	O	
+8-24	parti	NE	<unknown>	_	O	O	
+8-25	nude	NE	<unknown>	_	O	O	
+8-26	deI	VVFIN	<unknown>	_	O	O	
+8-27	eorpo	NE	<unknown>	_	O	O	
+8-28	e	NE	<unknown>	_	O	O	
+8-29	delle	VVFIN	dellen	_	O	O	
+8-30	spalle	VVFIN	<unknown>	_	O	O	
+8-31	.	$.	.	_	O	O	
+
+#id=9
+#text=Queste speeialita deI marmo dal quale fu rieavato questa mirabile seultura non si riseontrano negli altri primari marmi greei statuari eome I' Hymethium il Pentelicu~ 0 il Porinum ~enzionato dal Corsi, i quali anehe essi abbondano nelle formazioni di eristalli risplendenti PTIlO meno grandi.
+9-1	Queste	NN	<unknown>	_	O	O	
+9-2	speeialita	NE	<unknown>	_	O	O	
+9-3	deI	VVFIN	<unknown>	_	O	O	
+9-4	marmo	NE	<unknown>	_	O	O	
+9-5	dal	VVFIN	<unknown>	_	O	O	
+9-6	quale	ADJA	<unknown>	_	O	O	
+9-7	fu	NN	<unknown>	_	O	O	
+9-8	rieavato	NE	<unknown>	_	O	O	
+9-9	questa	NE	<unknown>	_	O	O	
+9-10	mirabile	ADJA	<unknown>	_	O	O	
+9-11	seultura	NE	<unknown>	_	O	O	
+9-12	non	NE	non	_	O	O	
+9-13	si	VVFIN	<unknown>	_	O	O	
+9-14	riseontrano	NE	<unknown>	_	O	O	
+9-15	negli	NE	<unknown>	_	O	O	
+9-16	altri	NE	<unknown>	_	O	O	
+9-17	primari	NE	<unknown>	_	O	O	
+9-18	marmi	NE	Marmi	_	O	O	
+9-19	greei	VVFIN	<unknown>	_	O	O	
+9-20	statuari	ADJD	<unknown>	_	O	O	
+9-21	eome	ADJA	<unknown>	_	O	O	
+9-22	I	FM	I	_	O	O	
+9-23	'	$(	'	_	O	O	
+9-24	Hymethium	NN	<unknown>	_	O	O	
+9-25	il	NE	il	_	O	O	
+9-26	Pentelicu~	NE	<unknown>	_	O	O	
+9-27	0	CARD	@card@	_	O	O	
+9-28	il	NE	il	_	O	O	
+9-29	Porinum	NN	<unknown>	_	O	O	
+9-30	~enzionato	NE	<unknown>	_	O	O	
+9-31	dal	VVFIN	<unknown>	_	O	O	
+9-32	Corsi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-33	,	$,	,	_	O	O	
+9-34	i	NE	i	_	O	O	
+9-35	quali	NE	<unknown>	_	O	O	
+9-36	anehe	NN	<unknown>	_	O	O	
+9-37	essi	NE	<unknown>	_	O	O	
+9-38	abbondano	NE	<unknown>	_	O	O	
+9-39	nelle	ADJA	<unknown>	_	O	O	
+9-40	formazioni	NN	<unknown>	_	O	O	
+9-41	di	NE	di	_	O	O	
+9-42	eristalli	ADJA	<unknown>	_	O	O	
+9-43	risplendenti	NN	<unknown>	_	O	O	
+9-44	PTIlO	NN	<unknown>	_	O	O	
+9-45	meno	NE	Meno	_	O	O	
+9-46	grandi	NE	<unknown>	_	O	O	
+9-47	.	$.	.	_	O	O	
+
+#id=10
+#text=Ed infatti nel prima si presentano eostantemente
+10-1	Ed	NE	Ed	_	O	O	
+10-2	infatti	NE	<unknown>	_	O	O	
+10-3	nel	VVFIN	<unknown>	_	O	O	
+10-4	prima	ADJA	prima	_	O	O	
+10-5	si	ADJA	<unknown>	_	O	O	
+10-6	presentano	NE	<unknown>	_	O	O	
+10-7	eostantemente	NN	<unknown>	_	O	O	
+

@@ -1,0 +1,267 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Helbig an Brunn Rom, 9. Mai 1874 Wir haben einerseits die Concurrenz der Commissione municipale, der Sopraintendenze, der englischen archäologischen Gesellschaft, die alle sehr viel zeichnen lassen.
+1-1	2	CARD	2	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Wir	PPER	wir	_	O	O	
+1-12	haben	VAFIN	haben	_	O	O	
+1-13	einerseits	ADV	einerseits	_	O	O	
+1-14	die	ART	die	_	O	O	
+1-15	Concurrenz	NN	<unknown>	_	O	O	
+1-16	der	ART	die	_	O	O	
+1-17	Commissione	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-18	municipale	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+1-19	,	$,	,	_	O	O	
+1-20	der	ART	die	_	O	O	
+1-21	Sopraintendenze	NN	<unknown>	_	O	O	
+1-22	,	$,	,	_	O	O	
+1-23	der	ART	die	_	O	O	
+1-24	englischen	ADJA	englisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-25	archäologischen	ADJA	archäologisch	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+1-26	Gesellschaft	NN	Gesellschaft	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+1-27	,	$,	,	_	O	O	
+1-28	die	PRELS	die	_	O	O	
+1-29	alle	PIS	alle	_	O	O	
+1-30	sehr	ADV	sehr	_	O	O	
+1-31	viel	PIS	viele	_	O	O	
+1-32	zeichnen	VVINF	zeichnen	_	O	O	
+1-33	lassen	VVFIN	lassen	_	O	O	
+1-34	.	$.	.	_	O	O	
+
+#id=2
+#text=Anderer Seits erschwert die Legge Pacca (über den Export der Antiquitäten) eine Möglichkeit, Gegenstände, die sich im Kunsthandel befinden, zeichnen zu lassen.
+2-1	Anderer	PIAT	andere	_	O	O	
+2-2	Seits	NN	<unknown>	_	O	O	
+2-3	erschwert	VVFIN	erschweren	_	O	O	
+2-4	die	ART	die	_	O	O	
+2-5	Legge	NN	<unknown>	_	O	O	
+2-6	Pacca	NE	<unknown>	_	O	O	
+2-7	(	$(	(	_	O	O	
+2-8	über	APPR	über	_	O	O	
+2-9	den	ART	die	_	O	O	
+2-10	Export	NN	Export	_	O	O	
+2-11	der	ART	die	_	O	O	
+2-12	Antiquitäten	NN	Antiquität	_	O	O	
+2-13	)	$(	)	_	O	O	
+2-14	eine	ART	eine	_	O	O	
+2-15	Möglichkeit	NN	Möglichkeit	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	Gegenstände	NN	Gegenstand	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	die	PRELS	die	_	O	O	
+2-20	sich	PRF	sich	_	O	O	
+2-21	im	APPRART	in	_	O	O	
+2-22	Kunsthandel	NN	Kunsthandel	_	O	O	
+2-23	befinden	VVFIN	befinden	_	O	O	
+2-24	,	$,	,	_	O	O	
+2-25	zeichnen	VVINF	zeichnen	_	O	O	
+2-26	zu	PTKZU	zu	_	O	O	
+2-27	lassen	VVINF	lassen	_	O	O	
+2-28	.	$.	.	_	O	O	
+
+#id=3
+#text=Wir erhalten diese Erlaubnis in der Regel nur, wenn ein Gegenstand verkauft ist, und müssen dann die Zeichnung bestellen lassen in der kurzen Zeit, welche vorliegt zwischen dem Verkaufe und [soJ und Absendung des Gegenstandes von Rom.
+3-1	Wir	PPER	wir	_	O	O	
+3-2	erhalten	VVFIN	erhalten	_	O	O	
+3-3	diese	PDAT	dies	_	O	O	
+3-4	Erlaubnis	NN	Erlaubnis	_	O	O	
+3-5	in	APPR	in	_	O	O	
+3-6	der	ART	die	_	O	O	
+3-7	Regel	NN	Regel	_	O	O	
+3-8	nur	ADV	nur	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	wenn	KOUS	wenn	_	O	O	
+3-11	ein	ART	eine	_	O	O	
+3-12	Gegenstand	NN	Gegenstand	_	O	O	
+3-13	verkauft	VVPP	verkaufen	_	O	O	
+3-14	ist	VAFIN	sein	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	und	KON	und	_	O	O	
+3-17	müssen	VMFIN	müssen	_	O	O	
+3-18	dann	ADV	dann	_	O	O	
+3-19	die	ART	die	_	O	O	
+3-20	Zeichnung	NN	Zeichnung	_	O	O	
+3-21	bestellen	VVINF	bestellen	_	O	O	
+3-22	lassen	VVFIN	lassen	_	O	O	
+3-23	in	APPR	in	_	O	O	
+3-24	der	ART	die	_	O	O	
+3-25	kurzen	ADJA	kurz	_	O	O	
+3-26	Zeit	NN	Zeit	_	O	O	
+3-27	,	$,	,	_	O	O	
+3-28	welche	PRELS	welche	_	O	O	
+3-29	vorliegt	VVFIN	vorliegen	_	O	O	
+3-30	zwischen	APPR	zwischen	_	O	O	
+3-31	dem	ART	die	_	O	O	
+3-32	Verkaufe	NN	Verkauf	_	O	O	
+3-33	und	KON	und	_	O	O	
+3-34	[	$(	[	_	O	O	
+3-35	soJ	NE	<unknown>	_	O	O	
+3-36	und	KON	und	_	O	O	
+3-37	Absendung	NN	Absendung	_	O	O	
+3-38	des	ART	die	_	O	O	
+3-39	Gegenstandes	NN	Gegenstand	_	O	O	
+3-40	von	APPR	von	_	O	O	
+3-41	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-42	.	$.	.	_	O	O	
+
+#id=4
+#text=Schon sehr oft ist es uns passirt, daß wir gerade keinen Zeichner disponibel hatten, und daß uns deßhalb wichtige Monumente entgingen.
+4-1	Schon	ADV	schon	_	O	O	
+4-2	sehr	ADV	sehr	_	O	O	
+4-3	oft	ADV	oft	_	O	O	
+4-4	ist	VAFIN	sein	_	O	O	
+4-5	es	PPER	es	_	O	O	
+4-6	uns	PRF	wir	_	O	O	
+4-7	passirt	NN	<unknown>	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	daß	KOUS	dass	_	O	O	
+4-10	wir	PPER	wir	_	O	O	
+4-11	gerade	ADV	gerade	_	O	O	
+4-12	keinen	PIAT	keine	_	O	O	
+4-13	Zeichner	NN	Zeichner	_	O	O	
+4-14	disponibel	ADJD	disponibel	_	O	O	
+4-15	hatten	VAFIN	haben	_	O	O	
+4-16	,	$,	,	_	O	O	
+4-17	und	KON	und	_	O	O	
+4-18	daß	KOUS	dass	_	O	O	
+4-19	uns	PPER	wir	_	O	O	
+4-20	deßhalb	ADJD	<unknown>	_	O	O	
+4-21	wichtige	ADJA	wichtig	_	O	O	
+4-22	Monumente	NN	Monument	_	O	O	
+4-23	entgingen	VVFIN	entgehen	_	O	O	
+4-24	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich möchte daher folgenden Vorschlag machen : ein hier lebender Zeichner erhält von uns einen kleinen, festen Gehalt - etwa 200 oder 300 rt - und verpflichtet sich dafür, stets dem Institute zur Disposition zu stehen.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	möchte	VMFIN	mögen	_	O	O	
+5-3	daher	PAV	daher	_	O	O	
+5-4	folgenden	ADJA	folgend	_	O	O	
+5-5	Vorschlag	NN	Vorschlag	_	O	O	
+5-6	machen	VVINF	machen	_	O	O	
+5-7	:	$.	:	_	O	O	
+5-8	ein	ART	eine	_	O	O	
+5-9	hier	ADV	hier	_	O	O	
+5-10	lebender	ADJA	lebend	_	O	O	
+5-11	Zeichner	NN	Zeichner	_	O	O	
+5-12	erhält	VVFIN	erhalten	_	O	O	
+5-13	von	APPR	von	_	O	O	
+5-14	uns	PPER	wir	_	O	O	
+5-15	einen	ART	eine	_	O	O	
+5-16	kleinen	ADJA	klein	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	festen	ADJA	fest	_	O	O	
+5-19	Gehalt	NN	Gehalt	_	O	O	
+5-20	-	$(	-	_	O	O	
+5-21	etwa	ADV	etwa	_	O	O	
+5-22	200	CARD	200	_	O	O	
+5-23	oder	KON	oder	_	O	O	
+5-24	300	CARD	300	_	O	O	
+5-25	rt	ADJA	<unknown>	_	O	O	
+5-26	-	$(	-	_	O	O	
+5-27	und	KON	und	_	O	O	
+5-28	verpflichtet	VVFIN	verpflichten	_	O	O	
+5-29	sich	PRF	sich	_	O	O	
+5-30	dafür	PAV	dafür	_	O	O	
+5-31	,	$,	,	_	O	O	
+5-32	stets	ADV	stets	_	O	O	
+5-33	dem	ART	die	_	O	O	
+5-34	Institute	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-35	zur	APPRART	zu	_	O	O	
+5-36	Disposition	NN	Disposition	_	O	O	
+5-37	zu	PTKZU	zu	_	O	O	
+5-38	stehen	VVINF	stehen	_	O	O	
+5-39	.	$.	.	_	O	O	
+
+#id=6
+#text=Beine Zeichnungen werden ihm wie gewöhnlich bezahlt.
+6-1	Beine	NN	Bein	_	O	O	
+6-2	Zeichnungen	NN	Zeichnung	_	O	O	
+6-3	werden	VAFIN	werden	_	O	O	
+6-4	ihm	PPER	er	_	O	O	
+6-5	wie	KOKOM	wie	_	O	O	
+6-6	gewöhnlich	ADJD	gewöhnlich	_	O	O	
+6-7	bezahlt	VVPP	bezahlen	_	O	O	
+6-8	.	$.	.	_	O	O	
+
+#id=7
+#text=Auch steht es ihm frei, außer den Arbeiten, die wir ihm auftragen, noch andere zu übernehmen.
+7-1	Auch	ADV	auch	_	O	O	
+7-2	steht	VVFIN	stehen	_	O	O	
+7-3	es	PPER	es	_	O	O	
+7-4	ihm	PPER	er	_	O	O	
+7-5	frei	ADJD	frei	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	außer	APPR	außer	_	O	O	
+7-8	den	ART	die	_	O	O	
+7-9	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	die	PRELS	die	_	O	O	
+7-12	wir	PPER	wir	_	O	O	
+7-13	ihm	PPER	er	_	O	O	
+7-14	auftragen	VVFIN	auftragen	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	noch	ADV	noch	_	O	O	
+7-17	andere	PIS	andere	_	O	O	
+7-18	zu	PTKZU	zu	_	O	O	
+7-19	übernehmen	VVINF	übernehmen	_	O	O	
+7-20	.	$.	.	_	O	O	
+
+#id=8
+#text=Nur muß er sich, wenn wir es verlangen, sofort zu unsrer Verfügung stellen und etwaige andere Arbeiten liegen lassen.
+8-1	Nur	ADV	nur	_	O	O	
+8-2	muß	VMFIN	müssen	_	O	O	
+8-3	er	PPER	er	_	O	O	
+8-4	sich	PRF	sich	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	wenn	KOUS	wenn	_	O	O	
+8-7	wir	PPER	wir	_	O	O	
+8-8	es	PPER	es	_	O	O	
+8-9	verlangen	VVFIN	verlangen	_	O	O	
+8-10	,	$,	,	_	O	O	
+8-11	sofort	ADV	sofort	_	O	O	
+8-12	zu	APPR	zu	_	O	O	
+8-13	unsrer	PPOSAT	unser	_	O	O	
+8-14	Verfügung	NN	Verfügung	_	O	O	
+8-15	stellen	VVINF	stellen	_	O	O	
+8-16	und	KON	und	_	O	O	
+8-17	etwaige	ADJA	etwaig	_	O	O	
+8-18	andere	PIAT	andere	_	O	O	
+8-19	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+8-20	liegen	VVINF	liegen	_	O	O	
+8-21	lassen	VVFIN	lassen	_	O	O	
+8-22	.	$.	.	_	O	O	
+
+#id=9
+#text=Was meinen Sie zu diesem Vorschlage?
+9-1	Was	PWS	was	_	O	O	
+9-2	meinen	VVFIN	meinen	_	O	O	
+9-3	Sie	PPER	Sie	_	O	O	
+9-4	zu	APPR	zu	_	O	O	
+9-5	diesem	PDAT	dies	_	O	O	
+9-6	Vorschlage	NN	Vorschlag	_	O	O	
+9-7	?	$.	?	_	O	O	
+
+#id=10
+#text=Für das Institut wäre die Annahme desselben sicherlich die größte Wohltat.
+10-1	Für	APPR	für	_	O	O	
+10-2	das	ART	die	_	O	O	
+10-3	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-4	wäre	VAFIN	sein	_	O	O	
+10-5	die	ART	die	_	O	O	
+10-6	Annahme	NN	Annahme	_	O	O	
+10-7	desselben	PDAT	derselb	_	O	O	
+10-8	sicherlich	ADV	sicherlich	_	O	O	
+10-9	die	ART	die	_	O	O	
+10-10	größte	ADJA	groß	_	O	O	
+10-11	Wohltat	NN	Wohltat	_	O	O	
+10-12	.	$.	.	_	O	O	
+

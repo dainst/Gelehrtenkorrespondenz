@@ -1,0 +1,270 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=33 2 Wolfgang Helbig an Heinrich Brunn Rom, 29. Januar 1881 eine wahre Epidemie von Brust- und Halskrankheiten.
+1-1	33	CARD	33	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1881	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	eine	ART	eine	_	O	O	
+1-15	wahre	ADJA	wahr	_	O	O	
+1-16	Epidemie	NN	Epidemie	_	O	O	
+1-17	von	APPR	von	_	O	O	
+1-18	Brust-	TRUNC	Brust-	_	O	O	
+1-19	und	KON	und	_	O	O	
+1-20	Halskrankheiten	NN	Halskrankheit	_	O	O	
+1-21	.	$.	.	_	O	O	
+
+#id=2
+#text=Gerade um diese Zeit kam der Senator Klügmann aus Lübeck nach Rom.
+2-1	Gerade	ADV	gerade	_	O	O	
+2-2	um	APPR	um	_	O	O	
+2-3	diese	PDAT	dies	_	O	O	
+2-4	Zeit	NN	Zeit	_	O	O	
+2-5	kam	VVFIN	kommen	_	O	O	
+2-6	der	ART	die	_	O	O	
+2-7	Senator	NN	Senator	_	O	O	
+2-8	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-9	aus	APPR	aus	_	O	O	
+2-10	Lübeck	NE	Lübeck	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-11	nach	APPR	nach	_	O	O	
+2-12	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-13	.	$.	.	_	O	O	
+
+#id=3
+#text=Adolf Klügmann, der sich sonst so sehr in Acht nahm, machte mit ihm allerlei Ausflüge, besuchte Museen, Kirchen u. s. w. Lungenentzündung.
+3-1	Adolf	NE	Adolf	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	Klügmann	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-3	,	$,	,	_	O	O	
+3-4	der	PRELS	die	_	O	O	
+3-5	sich	PRF	sich	_	O	O	
+3-6	sonst	ADV	sonst	_	O	O	
+3-7	so	ADV	so	_	O	O	
+3-8	sehr	ADV	sehr	_	O	O	
+3-9	in	APPR	in	_	O	O	
+3-10	Acht	NN	Acht	_	O	O	
+3-11	nahm	VVFIN	nehmen	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	machte	VVFIN	machen	_	O	O	
+3-14	mit	APPR	mit	_	O	O	
+3-15	ihm	PPER	er	_	O	O	
+3-16	allerlei	PIAT	allerlei	_	O	O	
+3-17	Ausflüge	NN	Ausflug	_	O	O	
+3-18	,	$,	,	_	O	O	
+3-19	besuchte	ADJA	besucht	_	O	O	
+3-20	Museen	NN	Museum	_	O	O	
+3-21	,	$,	,	_	O	O	
+3-22	Kirchen	NN	Kirche	_	O	O	
+3-23	u.	APPR	um	_	O	O	
+3-24	s.	ADV	s.	_	O	O	
+3-25	w.	APPR	w.	_	O	O	
+3-26	Lungenentzündung	NN	Lungenentzündung	_	O	O	
+3-27	.	$.	.	_	O	O	
+
+#id=4
+#text=Hierbei erkältete er sich und bekam eine Er lag daran sieben Tage.
+4-1	Hierbei	PAV	hierbei	_	O	O	
+4-2	erkältete	VVFIN	erkälten	_	O	O	
+4-3	er	PPER	er	_	O	O	
+4-4	sich	PRF	sich	_	O	O	
+4-5	und	KON	und	_	O	O	
+4-6	bekam	VVFIN	bekommen	_	O	O	
+4-7	eine	PIS	eine	_	O	O	
+4-8	Er	PPER	er	_	O	O	
+4-9	lag	VVFIN	liegen	_	O	O	
+4-10	daran	PAV	daran	_	O	O	
+4-11	sieben	CARD	sieben	_	O	O	
+4-12	Tage	NN	Tag	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Ärzte hielten den Fall für ernst, versicherten aber, als wir sie fragten, ob man den soeben abgereisten Bruder auf telegraphischem Wege nach Rom zurückberufen solle, periculum in mora sei nicht vorhanden.
+5-1	Die	ART	die	_	O	O	
+5-2	Ärzte	NN	Arzt	_	O	O	
+5-3	hielten	VVFIN	halten	_	O	O	
+5-4	den	ART	die	_	O	O	
+5-5	Fall	NN	Fall	_	O	O	
+5-6	für	APPR	für	_	O	O	
+5-7	ernst	ADJD	ernst	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	versicherten	VVFIN	versichern	_	O	O	
+5-10	aber	ADV	aber	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	als	KOUS	als	_	O	O	
+5-13	wir	PPER	wir	_	O	O	
+5-14	sie	PPER	sie	_	O	O	
+5-15	fragten	VVFIN	fragen	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	ob	KOUS	ob	_	O	O	
+5-18	man	PIS	man	_	O	O	
+5-19	den	ART	die	_	O	O	
+5-20	soeben	ADV	soeben	_	O	O	
+5-21	abgereisten	ADJA	abgereist	_	O	O	
+5-22	Bruder	NN	Bruder	_	O	O	
+5-23	auf	APPR	auf	_	O	O	
+5-24	telegraphischem	ADJA	<unknown>	_	O	O	
+5-25	Wege	NN	Weg	_	O	O	
+5-26	nach	APPR	nach	_	O	O	
+5-27	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-28	zurückberufen	VVINF	zurückberufen	_	O	O	
+5-29	solle	VMFIN	sollen	_	O	O	
+5-30	,	$,	,	_	O	O	
+5-31	periculum	ADJD	<unknown>	_	O	O	
+5-32	in	APPR	in	_	O	O	
+5-33	mora	NE	Mora	_	O	O	
+5-34	sei	VAFIN	sein	_	O	O	
+5-35	nicht	PTKNEG	nicht	_	O	O	
+5-36	vorhanden	ADJD	vorhanden	_	O	O	
+5-37	.	$.	.	_	O	O	
+
+#id=6
+#text=Diese Versicherung ertheilten sie noch wenige Stunden vor seinem Tode, der urplötzlich durch Eintreten einer Lungenlähmung erfolgte.
+6-1	Diese	PDAT	dies	_	O	O	
+6-2	Versicherung	NN	Versicherung	_	O	O	
+6-3	ertheilten	VVFIN	<unknown>	_	O	O	
+6-4	sie	PPER	sie	_	O	O	
+6-5	noch	ADV	noch	_	O	O	
+6-6	wenige	PIAT	wenige	_	O	O	
+6-7	Stunden	NN	Stunde|Stunden	_	O	O	
+6-8	vor	APPR	vor	_	O	O	
+6-9	seinem	PPOSAT	sein	_	O	O	
+6-10	Tode	NN	Tod	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	der	PRELS	die	_	O	O	
+6-13	urplötzlich	ADJD	urplötzlich	_	O	O	
+6-14	durch	APPR	durch	_	O	O	
+6-15	Eintreten	NN	Eintreten	_	O	O	
+6-16	einer	ART	eine	_	O	O	
+6-17	Lungenlähmung	NN	<unknown>	_	O	O	
+6-18	erfolgte	VVFIN	erfolgen	_	O	O	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=Für das Institut ist dieser Tod wirklich ein unersetzlicher Verlust.
+7-1	Für	APPR	für	_	O	O	
+7-2	das	ART	die	_	O	O	
+7-3	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-4	ist	VAFIN	sein	_	O	O	
+7-5	dieser	PDAT	dies	_	O	O	
+7-6	Tod	NN	Tod	_	O	O	
+7-7	wirklich	ADJD	wirklich	_	O	O	
+7-8	ein	ART	eine	_	O	O	
+7-9	unersetzlicher	ADJA	unersetzlich	_	O	O	
+7-10	Verlust	NN	Verlust	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Bei der immermehr zunehmenden Concurrenz auf archäologischem Gebiete, bei den sich täglich steigernden Schwierigkeiten Zutritt zu den Monumenten zu erhalten, war eS für das Institut ein wahrer Segen, daß ein Mann, der wie Klügmann Land, Leute und die hiesigen Verhältnisse durch langen Aufenthalt kannte, in aufopfernder Weise für die Interessen des Institutes thätig war.
+8-1	Bei	APPR	bei	_	O	O	
+8-2	der	ART	die	_	O	O	
+8-3	immermehr	ADJA	<unknown>	_	O	O	
+8-4	zunehmenden	ADJA	zunehmend	_	O	O	
+8-5	Concurrenz	NN	<unknown>	_	O	O	
+8-6	auf	APPR	auf	_	O	O	
+8-7	archäologischem	ADJA	archäologisch	_	O	O	
+8-8	Gebiete	NN	Gebiet	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	bei	APPR	bei	_	O	O	
+8-11	den	PRELS	die	_	O	O	
+8-12	sich	PRF	sich	_	O	O	
+8-13	täglich	ADJD	täglich	_	O	O	
+8-14	steigernden	ADJA	steigernd	_	O	O	
+8-15	Schwierigkeiten	NN	Schwierigkeit	_	O	O	
+8-16	Zutritt	NN	Zutritt	_	O	O	
+8-17	zu	APPR	zu	_	O	O	
+8-18	den	ART	die	_	O	O	
+8-19	Monumenten	NN	Monument	_	O	O	
+8-20	zu	PTKZU	zu	_	O	O	
+8-21	erhalten	VVINF	erhalten	_	O	O	
+8-22	,	$,	,	_	O	O	
+8-23	war	VAFIN	sein	_	O	O	
+8-24	eS	ADJD	<unknown>	_	O	O	
+8-25	für	APPR	für	_	O	O	
+8-26	das	ART	die	_	O	O	
+8-27	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-28	ein	ART	eine	_	O	O	
+8-29	wahrer	ADJA	wahr	_	O	O	
+8-30	Segen	NN	Segen	_	O	O	
+8-31	,	$,	,	_	O	O	
+8-32	daß	KOUS	dass	_	O	O	
+8-33	ein	ART	eine	_	O	O	
+8-34	Mann	NN	Mann	_	O	O	
+8-35	,	$,	,	_	O	O	
+8-36	der	PRELS	die	_	O	O	
+8-37	wie	KOKOM	wie	_	O	O	
+8-38	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-39	Land	NN	Land	_	O	O	
+8-40	,	$,	,	_	O	O	
+8-41	Leute	NN	Leute	_	O	O	
+8-42	und	KON	und	_	O	O	
+8-43	die	ART	die	_	O	O	
+8-44	hiesigen	ADJA	hiesig	_	O	O	
+8-45	Verhältnisse	NN	Verhältnis	_	O	O	
+8-46	durch	APPR	durch	_	O	O	
+8-47	langen	ADJA	lang	_	O	O	
+8-48	Aufenthalt	NN	Aufenthalt	_	O	O	
+8-49	kannte	VVFIN	kennen	_	O	O	
+8-50	,	$,	,	_	O	O	
+8-51	in	APPR	in	_	O	O	
+8-52	aufopfernder	ADJA	aufopfernder	_	O	O	
+8-53	Weise	NN	Weise	_	O	O	
+8-54	für	APPR	für	_	O	O	
+8-55	die	ART	die	_	O	O	
+8-56	Interessen	NN	Interesse	_	O	O	
+8-57	des	ART	die	_	O	O	
+8-58	Institutes	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-59	thätig	ADJD	<unknown>	_	O	O	
+8-60	war	VAFIN	sein	_	O	O	
+8-61	.	$.	.	_	O	O	
+
+#id=9
+#text=Was aus den Kindern werden wird, ob sie in Rom bleiben oder nach Hamburg oder Lübeck übersiedeln, ist noch nicht entschieden.
+9-1	Was	PWS	was	_	O	O	
+9-2	aus	APPR	aus	_	O	O	
+9-3	den	ART	die	_	O	O	
+9-4	Kindern	NN	Kind	_	O	O	
+9-5	werden	VAINF	werden	_	O	O	
+9-6	wird	VAFIN	werden	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	ob	KOUS	ob	_	O	O	
+9-9	sie	PPER	sie	_	O	O	
+9-10	in	APPR	in	_	O	O	
+9-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-12	bleiben	VVINF	bleiben	_	O	O	
+9-13	oder	KON	oder	_	O	O	
+9-14	nach	APPR	nach	_	O	O	
+9-15	Hamburg	NE	Hamburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-16	oder	KON	oder	_	O	O	
+9-17	Lübeck	NE	Lübeck	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-18	übersiedeln	VVFIN	übersiedeln	_	O	O	
+9-19	,	$,	,	_	O	O	
+9-20	ist	VAFIN	sein	_	O	O	
+9-21	noch	ADV	noch	_	O	O	
+9-22	nicht	PTKNEG	nicht	_	O	O	
+9-23	entschieden	VVPP	entscheiden	_	O	O	
+9-24	.	$.	.	_	O	O	
+
+#id=10
+#text=Der Oheim wird zu diesem Zwecke im Monat April nach Rom kommen.
+10-1	Der	ART	die	_	O	O	
+10-2	Oheim	NN	<unknown>	_	O	O	
+10-3	wird	VAFIN	werden	_	O	O	
+10-4	zu	APPR	zu	_	O	O	
+10-5	diesem	PDAT	dies	_	O	O	
+10-6	Zwecke	NN	Zweck	_	O	O	
+10-7	im	APPRART	in	_	O	O	
+10-8	Monat	NN	Monat	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+10-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+10-10	nach	APPR	nach	_	O	O	
+10-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-12	kommen	VVINF	kommen	_	O	O	
+10-13	.	$.	.	_	O	O	
+

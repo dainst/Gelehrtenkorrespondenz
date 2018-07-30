@@ -1,0 +1,247 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=( nelbig an Rom, 24. Juli 1863 2 Demgemäß habe ich den Kopf des Chiaromonti zeichnen lassen.
+1-1	(	$(	(	_	O	O	
+1-2	nelbig	ADJD	<unknown>	_	O	O	
+1-3	an	APPR	an	_	O	O	
+1-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	2	CARD	2	_	O	O	
+1-11	Demgemäß	NN	<unknown>	_	O	O	
+1-12	habe	VAFIN	haben	_	O	O	
+1-13	ich	PPER	ich	_	O	O	
+1-14	den	ART	die	_	O	O	
+1-15	Kopf	NN	Kopf	_	O	O	
+1-16	des	ART	die	_	O	O	
+1-17	Chiaromonti	NN	<unknown>	_	O	O	
+1-18	zeichnen	VVINF	zeichnen	_	O	O	
+1-19	lassen	VVINF	lassen	_	O	O	
+1-20	.	$.	.	_	O	O	
+
+#id=2
+#text=Montag wird Rossi damit fertig.
+2-1	Montag	NN	Montag	_	O	O	
+2-2	wird	VAFIN	werden	_	O	O	
+2-3	Rossi	NE	Rossi	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-4	damit	PAV	damit	_	O	O	
+2-5	fertig	PTKVZ	fertig	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Sollte es nicht am Platze sein, in den Institutsschriften die beiden unpublicirten Köpfe zu publiciren und die schöne Büste des Chiaromonti dem Alchibiades zu vindiciren ?
+3-1	Sollte	VMFIN	sollen	_	O	O	
+3-2	es	PPER	es	_	O	O	
+3-3	nicht	PTKNEG	nicht	_	O	O	
+3-4	am	APPRART	an	_	O	O	
+3-5	Platze	NN	Platz	_	O	O	
+3-6	sein	VAINF	sein	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	in	APPR	in	_	O	O	
+3-9	den	ART	die	_	O	O	
+3-10	Institutsschriften	NN	<unknown>	_	O	O	
+3-11	die	ART	die	_	O	O	
+3-12	beiden	PIAT	beide	_	O	O	
+3-13	unpublicirten	ADJA	<unknown>	_	O	O	
+3-14	Köpfe	NN	Kopf	_	O	O	
+3-15	zu	APPR	zu	_	O	O	
+3-16	publiciren	ADJA	<unknown>	_	O	O	
+3-17	und	KON	und	_	O	O	
+3-18	die	ART	die	_	O	O	
+3-19	schöne	ADJA	schön	_	O	O	
+3-20	Büste	NN	Büste	_	O	O	
+3-21	des	ART	die	_	O	O	
+3-22	Chiaromonti	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-23	dem	ART	die	_	O	O	
+3-24	Alchibiades	NN	<unknown>	_	O	O	
+3-25	zu	APPR	zu	_	O	O	
+3-26	vindiciren	NN	<unknown>	_	O	O	
+3-27	?	$.	?	_	O	O	
+
+#id=4
+#text=Alkibiades' Kopf kann überhaupt gar nicht anders ausgesehen haben wie der jener Büste.
+4-1	Alkibiades	ADJA	<unknown>	_	O	O	
+4-2	'	$(	'	_	O	O	
+4-3	Kopf	NN	Kopf	_	O	O	
+4-4	kann	VMFIN	können	_	O	O	
+4-5	überhaupt	ADV	überhaupt	_	O	O	
+4-6	gar	ADV	gar	_	O	O	
+4-7	nicht	PTKNEG	nicht	_	O	O	
+4-8	anders	ADV	anders	_	O	O	
+4-9	ausgesehen	VVPP	aussehen	_	O	O	
+4-10	haben	VAINF	haben	_	O	O	
+4-11	wie	KOKOM	wie	_	O	O	
+4-12	der	PDS	die	_	O	O	
+4-13	jener	PDAT	jen	_	O	O	
+4-14	Büste	NN	Büste	_	O	O	
+4-15	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich glaube auch, daß sie verdickt abgegossen und im Abgusse nach Berlin geschickt zu werden.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	glaube	VVFIN	glauben	_	O	O	
+5-3	auch	ADV	auch	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	daß	KOUS	dass	_	O	O	
+5-6	sie	PPER	sie	_	O	O	
+5-7	verdickt	VVFIN	verdicken	_	O	O	
+5-8	abgegossen	VVPP	abgießen	_	O	O	
+5-9	und	KON	und	_	O	O	
+5-10	im	APPRART	in	_	O	O	
+5-11	Abgusse	NN	<unknown>	_	O	O	
+5-12	nach	APPR	nach	_	O	O	
+5-13	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-14	geschickt	VVPP	schicken	_	O	O	
+5-15	zu	PTKZU	zu	_	O	O	
+5-16	werden	VAINF	werden	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Von Gerhard habe ich einen etwas nörgelnden Brief erhalten, worin er sich namentlich darüber beschwerte, daß ich ihm nicht eine von ihm gewünschte Liste kaufenswerther Anticaglien aus Neapel zugeschickt hatte.
+6-1	Von	APPR	von	_	O	O	
+6-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	habe	VAFIN	haben	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	einen	ART	eine	_	O	O	
+6-6	etwas	ADV	etwas	_	O	O	
+6-7	nörgelnden	ADJA	nörgelnd	_	O	O	
+6-8	Brief	NN	Brief	_	O	O	
+6-9	erhalten	VVPP	erhalten	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	worin	PWAV	worin	_	O	O	
+6-12	er	PPER	er	_	O	O	
+6-13	sich	PRF	sich	_	O	O	
+6-14	namentlich	ADJD	namentlich	_	O	O	
+6-15	darüber	PAV	darüber	_	O	O	
+6-16	beschwerte	VVFIN	beschweren	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	daß	KOUS	dass	_	O	O	
+6-19	ich	PPER	ich	_	O	O	
+6-20	ihm	PPER	er	_	O	O	
+6-21	nicht	PTKNEG	nicht	_	O	O	
+6-22	eine	PIS	eine	_	O	O	
+6-23	von	APPR	von	_	O	O	
+6-24	ihm	PPER	er	_	O	O	
+6-25	gewünschte	ADJA	gewünscht	_	O	O	
+6-26	Liste	NN	Liste	_	O	O	
+6-27	kaufenswerther	ADJA	<unknown>	_	O	O	
+6-28	Anticaglien	NN	<unknown>	_	O	O	
+6-29	aus	APPR	aus	_	O	O	
+6-30	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-31	zugeschickt	VVPP	zuschicken	_	O	O	
+6-32	hatte	VAFIN	haben	_	O	O	
+6-33	.	$.	.	_	O	O	
+
+#id=7
+#text=Doch war mir dies nicht möglich, da ich seinen Brief erst zwei Tage vor meiner Abreise erhielt.
+7-1	Doch	ADV	doch	_	O	O	
+7-2	war	VAFIN	sein	_	O	O	
+7-3	mir	PPER	ich	_	O	O	
+7-4	dies	PDS	dies	_	O	O	
+7-5	nicht	PTKNEG	nicht	_	O	O	
+7-6	möglich	ADJD	möglich	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	da	KOUS	da	_	O	O	
+7-9	ich	PPER	ich	_	O	O	
+7-10	seinen	PPOSAT	sein	_	O	O	
+7-11	Brief	NN	Brief	_	O	O	
+7-12	erst	ADV	erst	_	O	O	
+7-13	zwei	CARD	zwei	_	O	O	
+7-14	Tage	NN	Tag	_	O	O	
+7-15	vor	APPR	vor	_	O	O	
+7-16	meiner	PPOSAT	mein	_	O	O	
+7-17	Abreise	NN	Abreise	_	O	O	
+7-18	erhielt	VVFIN	erhalten	_	O	O	
+7-19	.	$.	.	_	O	O	
+
+#id=8
+#text=Von Neapel hatte ich ihm geschrieben, daß ich die Zeichnungen der ceraetischen Idole von Rom aus an ihn abschicken würde.
+8-1	Von	APPR	von	_	O	O	
+8-2	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-3	hatte	VAFIN	haben	_	O	O	
+8-4	ich	PPER	ich	_	O	O	
+8-5	ihm	PPER	er	_	O	O	
+8-6	geschrieben	VVPP	schreiben	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	daß	KOUS	dass	_	O	O	
+8-9	ich	PPER	ich	_	O	O	
+8-10	die	ART	die	_	O	O	
+8-11	Zeichnungen	NN	Zeichnung	_	O	O	
+8-12	der	ART	die	_	O	O	
+8-13	ceraetischen	ADJA	<unknown>	_	O	O	
+8-14	Idole	NN	Idol	_	O	O	
+8-15	von	APPR	von	_	O	O	
+8-16	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-17	aus	APPR	aus	_	O	O	
+8-18	an	APPR	an	_	O	O	
+8-19	ihn	PPER	er	_	O	O	
+8-20	abschicken	VVINF	abschicken	_	O	O	
+8-21	würde	VAFIN	werden	_	O	O	
+8-22	.	$.	.	_	O	O	
+
+#id=9
+#text=Doch habe ich ihm unterdeß die mir von Ihnen mitgetheilte vJeisung zukommen lassen.
+9-1	Doch	ADV	doch	_	O	O	
+9-2	habe	VAFIN	haben	_	O	O	
+9-3	ich	PPER	ich	_	O	O	
+9-4	ihm	PPER	er	_	O	O	
+9-5	unterdeß	NN	<unknown>	_	O	O	
+9-6	die	ART	die	_	O	O	
+9-7	mir	PRF	ich	_	O	O	
+9-8	von	APPR	von	_	O	O	
+9-9	Ihnen	PPER	Sie	_	O	O	
+9-10	mitgetheilte	ADJA	<unknown>	_	O	O	
+9-11	vJeisung	NN	<unknown>	_	O	O	
+9-12	zukommen	VVINF	zukommen	_	O	O	
+9-13	lassen	VVINF	lassen	_	O	O	
+9-14	.	$.	.	_	O	O	
+
+#id=10
+#text=Die Zeichnungen der Brücke von Alcantare sind gestern eingetroffen und gehen heute an Sie ab.
+10-1	Die	ART	die	_	O	O	
+10-2	Zeichnungen	NN	Zeichnung	_	O	O	
+10-3	der	ART	die	_	O	O	
+10-4	Brücke	NN	Brücke	_	B-webanno.custom.LetterEntity_	B-OBJ	
+10-5	von	APPR	von	_	O	O	
+10-6	Alcantare	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-7	sind	VAFIN	sein	_	O	O	
+10-8	gestern	ADV	gestern	_	O	O	
+10-9	eingetroffen	VVPP	eintreffen	_	O	O	
+10-10	und	KON	und	_	O	O	
+10-11	gehen	VVFIN	gehen	_	O	O	
+10-12	heute	ADV	heute	_	O	O	
+10-13	an	APPR	an	_	O	O	
+10-14	Sie	PPER	Sie	_	O	O	
+10-15	ab	PTKVZ	ab	_	O	O	
+10-16	.	$.	.	_	O	O	
+
+#id=11
+#text=Schließlich meine herzliche Gratulation zu Ihrer Erhebung zum Cavaliere.
+11-1	Schließlich	ADV	schließlich	_	O	O	
+11-2	meine	PPOSAT	mein	_	O	O	
+11-3	herzliche	ADJA	herzlich	_	O	O	
+11-4	Gratulation	NN	Gratulation	_	O	O	
+11-5	zu	APPR	zu	_	O	O	
+11-6	Ihrer	PPOSAT	ihr	_	O	O	
+11-7	Erhebung	NN	Erhebung	_	O	O	
+11-8	zum	APPRART	zu	_	O	O	
+11-9	Cavaliere	NN	<unknown>	_	O	O	
+11-10	.	$.	.	_	O	O	
+
+#id=12
+#text=Mit der Bitte die Frau Professorin zu grüßen Ihr Wolfgang Helbig
+12-1	Mit	APPR	mit	_	O	O	
+12-2	der	ART	die	_	O	O	
+12-3	Bitte	NN	Bitte	_	O	O	
+12-4	die	ART	die	_	O	O	
+12-5	Frau	NN	Frau	_	O	O	
+12-6	Professorin	NN	Professorin	_	O	O	
+12-7	zu	PTKZU	zu	_	O	O	
+12-8	grüßen	VVINF	grüßen	_	O	O	
+12-9	Ihr	PPOSAT	ihr	_	O	O	
+12-10	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+12-11	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

@@ -1,0 +1,108 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=27 Wolfgang Helbig an Heinrich Brunn Rom, 21. Januar 1880 Postkarte Lieber Herr Professor I Herzlichen Dank für die rasche Erledigung der Sache.
+1-1	27	CARD	27	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1880	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Postkarte	NN	Postkarte	_	O	O	
+1-14	Lieber	ADJA	lieb	_	O	O	
+1-15	Herr	NN	Herr	_	O	O	
+1-16	Professor	NN	Professor	_	O	O	
+1-17	I	NN	I	_	O	O	
+1-18	Herzlichen	ADJA	herzlich	_	O	O	
+1-19	Dank	NN	Dank	_	O	O	
+1-20	für	APPR	für	_	O	O	
+1-21	die	ART	die	_	O	O	
+1-22	rasche	ADJA	rasch	_	O	O	
+1-23	Erledigung	NN	Erledigung	_	O	O	
+1-24	der	ART	die	_	O	O	
+1-25	Sache	NN	Sache	_	O	O	
+1-26	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich bitte die Monumententafel mit der Nummer VII (Mon(umenti) dell'Inst(ituto) 1879.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	bitte	VVFIN	bitten	_	O	O	
+2-3	die	ART	die	_	O	O	
+2-4	Monumententafel	NN	<unknown>	_	O	O	
+2-5	mit	APPR	mit	_	O	O	
+2-6	der	ART	die	_	O	O	
+2-7	Nummer	NN	Nummer	_	O	O	
+2-8	VII	CARD	VII	_	O	O	
+2-9	(	$(	(	_	O	O	
+2-10	Mon(umenti)	VVFIN	<unknown>	_	O	O	
+2-11	dell'Inst(ituto)	ADJD	<unknown>	_	O	O	
+2-12	1879	CARD	1879	_	O	O	
+2-13	.	$.	.	_	O	O	
+
+#id=3
+#text=Vol.
+3-1	Vol.	NE	<unknown>	_	O	O	
+
+#id=4
+#text=XI Tav.
+4-1	XI	NN	<unknown>	_	O	O	
+4-2	Tav	NE	<unknown>	_	O	O	
+4-3	.	$.	.	_	O	O	
+
+#id=5
+#text=VII) versehen zu lassen und die Unterschrift beizufügen, die Ihnen angemessen scheint.
+5-1	VII	CARD	VII	_	O	O	
+5-2	)	$(	)	_	O	O	
+5-3	versehen	VVPP	versehen	_	O	O	
+5-4	zu	PTKZU	zu	_	O	O	
+5-5	lassen	VVINF	lassen	_	O	O	
+5-6	und	KON	und	_	O	O	
+5-7	die	ART	die	_	O	O	
+5-8	Unterschrift	NN	Unterschrift	_	O	O	
+5-9	beizufügen	VVIZU	beifügen	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	die	PRELS	die	_	O	O	
+5-12	Ihnen	PPER	Sie	_	O	O	
+5-13	angemessen	ADJD	angemessen	_	O	O	
+5-14	scheint	VVFIN	scheinen	_	O	O	
+5-15	.	$.	.	_	O	O	
+
+#id=6
+#text=(Due statue di tipo miconiano ?
+6-1	(	$(	(	_	O	O	
+6-2	Due	VVIMP	<unknown>	_	O	O	
+6-3	statue	NN	Statue	_	O	O	
+6-4	di	NE	di	_	O	O	
+6-5	tipo	NE	<unknown>	_	O	O	
+6-6	miconiano	NE	<unknown>	_	O	O	
+6-7	?	$.	?	_	O	O	
+
+#id=7
+#text=).
+7-1	)	$(	)	_	O	O	
+7-2	.	$.	.	_	O	O	
+
+#id=8
+#text=Unter Kreuzband erhalten Sie die tafel.
+8-1	Unter	APPR	unter	_	O	O	
+8-2	Kreuzband	NN	Kreuzband	_	O	O	
+8-3	erhalten	VVFIN	erhalten	_	O	O	
+8-4	Sie	PPER	Sie	_	O	O	
+8-5	die	ART	die	_	O	O	
+8-6	tafel	VVIMP	tafeln	_	O	O	
+8-7	.	$.	.	_	O	O	
+
+#id=9
+#text=Mit herzlichen Grüßen Ihr ergebener Helbig
+9-1	Mit	APPR	mit	_	O	O	
+9-2	herzlichen	ADJA	herzlich	_	O	O	
+9-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+9-4	Ihr	PPOSAT	ihr	_	O	O	
+9-5	ergebener	ADJA	ergeben	_	O	O	
+9-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

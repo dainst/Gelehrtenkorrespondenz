@@ -1,0 +1,234 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an ß.v..v~u Rom, 1. September 1863 r. 5/IX 63 Rom.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	ß.v..v~u	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	r.	ADJA	<unknown>	_	O	O	
+1-11	5/IX	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+1-12	63	CARD	63	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+1-13	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-14	.	$.	.	_	O	O	
+
+#id=2
+#text=1. September 1963. Geehrtester Herr Professor !
+2-1	1	CARD	1	_	O	O	
+2-2	.	$.	.	_	O	O	
+2-3	September	NN	September	_	O	O	
+2-4	1963	CARD	1963	_	O	O	
+2-5	.	$.	.	_	O	O	
+2-6	Geehrtester	ADJA	<unknown>	_	O	O	
+2-7	Herr	NN	Herr	_	O	O	
+2-8	Professor	NN	Professor	_	O	O	
+2-9	!	$.	!	_	O	O	
+
+#id=3
+#text=Eben war Mariani bei mir und sagte mir, er sei bereit abzureisen und hätte sich zu diesem Zwecke bereits seinen Pass besorgt.
+3-1	Eben	ADV	eben	_	O	O	
+3-2	war	VAFIN	sein	_	O	O	
+3-3	Mariani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-4	bei	APPR	bei	_	O	O	
+3-5	mir	PPER	ich	_	O	O	
+3-6	und	KON	und	_	O	O	
+3-7	sagte	VVFIN	sagen	_	O	O	
+3-8	mir	PPER	ich	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	er	PPER	er	_	O	O	
+3-11	sei	VAFIN	sein	_	O	O	
+3-12	bereit	ADJD	bereit	_	O	O	
+3-13	abzureisen	VVIZU	abreisen	_	O	O	
+3-14	und	KON	und	_	O	O	
+3-15	hätte	VAFIN	haben	_	O	O	
+3-16	sich	PRF	sich	_	O	O	
+3-17	zu	APPR	zu	_	O	O	
+3-18	diesem	PDAT	dies	_	O	O	
+3-19	Zwecke	NN	Zweck	_	O	O	
+3-20	bereits	ADV	bereits	_	O	O	
+3-21	seinen	PPOSAT	sein	_	O	O	
+3-22	Pass	NN	Pass	_	O	O	
+3-23	besorgt	VVPP	besorgen	_	O	O	
+3-24	.	$.	.	_	O	O	
+
+#id=4
+#text=Da ich nicht weiß, ob Sie nicht unterdeß, auf Mariani verzichtend, andere Auskunftsmittel getroffen haben, habe ich ihm gesagt, er möchte erst Ihre Antwort abwarten, um die er Sie möglichst bald bittet.
+4-1	Da	KOUS	da	_	O	O	
+4-2	ich	PPER	ich	_	O	O	
+4-3	nicht	PTKNEG	nicht	_	O	O	
+4-4	weiß	VVFIN	wissen	_	O	O	
+4-5	,	$,	,	_	O	O	
+4-6	ob	KOUS	ob	_	O	O	
+4-7	Sie	PPER	Sie	_	O	O	
+4-8	nicht	PTKNEG	nicht	_	O	O	
+4-9	unterdeß	NE	<unknown>	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	auf	APPR	auf	_	O	O	
+4-12	Mariani	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-13	verzichtend	ADJD	verzichtend	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	andere	PIS	andere	_	O	O	
+4-16	Auskunftsmittel	NN	Auskunftsmittel	_	O	O	
+4-17	getroffen	VVPP	treffen|triefen	_	O	O	
+4-18	haben	VAFIN	haben	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	habe	VAFIN	haben	_	O	O	
+4-21	ich	PPER	ich	_	O	O	
+4-22	ihm	PPER	er	_	O	O	
+4-23	gesagt	VVPP	sagen	_	O	O	
+4-24	,	$,	,	_	O	O	
+4-25	er	PPER	er	_	O	O	
+4-26	möchte	VMFIN	mögen	_	O	O	
+4-27	erst	ADV	erst	_	O	O	
+4-28	Ihre	PPOSAT	ihr	_	O	O	
+4-29	Antwort	NN	Antwort	_	O	O	
+4-30	abwarten	VVINF	abwarten	_	O	O	
+4-31	,	$,	,	_	O	O	
+4-32	um	APPR	um	_	O	O	
+4-33	die	PRELS	die	_	O	O	
+4-34	er	PPER	er	_	O	O	
+4-35	Sie	PPER	Sie	_	O	O	
+4-36	möglichst	ADV	möglichst	_	O	O	
+4-37	bald	ADV	bald	_	O	O	
+4-38	bittet	VVFIN	bitten	_	O	O	
+4-39	.	$.	.	_	O	O	
+
+#id=5
+#text=Übrigens ist mir um Marianis Gemüthszustand ziemlich bang.
+5-1	Übrigens	ADV	übrigens	_	O	O	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	mir	PPER	ich	_	O	O	
+5-4	um	APPR	um	_	O	O	
+5-5	Marianis	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-6	Gemüthszustand	NN	<unknown>	_	O	O	
+5-7	ziemlich	ADV	ziemlich	_	O	O	
+5-8	bang	VVIMP	bangen	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Er war merkwürdig conius und unruhig.
+6-1	Er	PPER	er	_	O	O	
+6-2	war	VAFIN	sein	_	O	O	
+6-3	merkwürdig	ADJD	merkwürdig	_	O	O	
+6-4	conius	ADJD	<unknown>	_	O	O	
+6-5	und	KON	und	_	O	O	
+6-6	unruhig	ADJD	unruhig	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=Ausserdem scheint er sich in Geldverlegenheit zu befinden.
+7-1	Ausserdem	ADV	außerdem	_	O	O	
+7-2	scheint	VVFIN	scheinen	_	O	O	
+7-3	er	PPER	er	_	O	O	
+7-4	sich	PRF	sich	_	O	O	
+7-5	in	APPR	in	_	O	O	
+7-6	Geldverlegenheit	NN	<unknown>	_	O	O	
+7-7	zu	PTKZU	zu	_	O	O	
+7-8	befinden	VVINF	befinden	_	O	O	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=Bis jetzt machte er mir nicht Andeutungen, wird aber wohl schließlich mit der öprache herausrücken.
+8-1	Bis	KON	bis	_	O	O	
+8-2	jetzt	ADV	jetzt	_	O	O	
+8-3	machte	VVFIN	machen	_	O	O	
+8-4	er	PPER	er	_	O	O	
+8-5	mir	PRF	ich	_	O	O	
+8-6	nicht	PTKNEG	nicht	_	O	O	
+8-7	Andeutungen	NN	Andeutung	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	wird	VAFIN	werden	_	O	O	
+8-10	aber	ADV	aber	_	O	O	
+8-11	wohl	ADV	wohl	_	O	O	
+8-12	schließlich	ADV	schließlich	_	O	O	
+8-13	mit	APPR	mit	_	O	O	
+8-14	der	ART	die	_	O	O	
+8-15	öprache	NN	<unknown>	_	O	O	
+8-16	herausrücken	VVINF	herausrücken	_	O	O	
+8-17	.	$.	.	_	O	O	
+
+#id=9
+#text=Ich weiß nicht, ob er Geld von dem Institute zu fordern hat und bitte Sie mir für den betreffenden Fall zu schreiben, ob und wie viel ich ihm zah~en soll.
+9-1	Ich	PPER	ich	_	O	O	
+9-2	weiß	VVFIN	wissen	_	O	O	
+9-3	nicht	PTKNEG	nicht	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	ob	KOUS	ob	_	O	O	
+9-6	er	PPER	er	_	O	O	
+9-7	Geld	NN	Geld	_	O	O	
+9-8	von	APPR	von	_	O	O	
+9-9	dem	ART	die	_	O	O	
+9-10	Institute	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-11	zu	PTKZU	zu	_	O	O	
+9-12	fordern	VVINF	fordern	_	O	O	
+9-13	hat	VAFIN	haben	_	O	O	
+9-14	und	KON	und	_	O	O	
+9-15	bitte	VVFIN	bitten	_	O	O	
+9-16	Sie	PPER	Sie	_	O	O	
+9-17	mir	PRF	ich	_	O	O	
+9-18	für	APPR	für	_	O	O	
+9-19	den	ART	die	_	O	O	
+9-20	betreffenden	ADJA	betreffend	_	O	O	
+9-21	Fall	NN	Fall	_	O	O	
+9-22	zu	PTKZU	zu	_	O	O	
+9-23	schreiben	VVINF	schreiben	_	O	O	
+9-24	,	$,	,	_	O	O	
+9-25	ob	KOUS	ob	_	O	O	
+9-26	und	KON	und	_	O	O	
+9-27	wie	KOUS	wie	_	O	O	
+9-28	viel	PIS	viele	_	O	O	
+9-29	ich	PPER	ich	_	O	O	
+9-30	ihm	PPER	er	_	O	O	
+9-31	zah~en	VVINF	<unknown>	_	O	O	
+9-32	soll	VMFIN	sollen	_	O	O	
+9-33	.	$.	.	_	O	O	
+
+#id=10
+#text=Sonst giebt es nichts Neues von Belang.
+10-1	Sonst	ADV	sonst	_	O	O	
+10-2	giebt	VVFIN	<unknown>	_	O	O	
+10-3	es	PPER	es	_	O	O	
+10-4	nichts	PIAT	nichts	_	O	O	
+10-5	Neues	NN	Neue	_	O	O	
+10-6	von	APPR	von	_	O	O	
+10-7	Belang	NN	Belang	_	O	O	
+10-8	.	$.	.	_	O	O	
+
+#id=11
+#text=Meinen Rapporto über Pompei schicke ich morgen zu Santini.
+11-1	Meinen	PPOSAT	mein	_	O	O	
+11-2	Rapporto	NN	<unknown>	_	O	O	
+11-3	über	APPR	über	_	O	O	
+11-4	Pompei	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-5	schicke	VVFIN	schicken	_	O	O	
+11-6	ich	PPER	ich	_	O	O	
+11-7	morgen	ADV	morgen	_	O	O	
+11-8	zu	APPR	zu	_	O	O	
+11-9	Santini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-10	.	$.	.	_	O	O	
+
+#id=12
+#text=Wenn Sie wollen, kann er in das Augustbullettino.
+12-1	Wenn	KOUS	wenn	_	O	O	
+12-2	Sie	PPER	Sie	_	O	O	
+12-3	wollen	VMFIN	wollen	_	O	O	
+12-4	,	$,	,	_	O	O	
+12-5	kann	VMFIN	können	_	O	O	
+12-6	er	PPER	er	_	O	O	
+12-7	in	APPR	in	_	O	O	
+12-8	das	ART	die	_	O	O	
+12-9	Augustbullettino	NE	<unknown>	_	O	O	
+12-10	.	$.	.	_	O	O	
+
+#id=13
+#text=Mit herzlichen Grüßen Wolfgang Helbig
+13-1	Mit	APPR	mit	_	O	O	
+13-2	herzlichen	ADJA	herzlich	_	O	O	
+13-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+13-4	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+13-5	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

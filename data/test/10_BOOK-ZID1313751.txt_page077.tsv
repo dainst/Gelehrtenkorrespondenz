@@ -1,0 +1,284 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Helbig an ~t~ Rom, 21. August 1863 gen zu belästigen.
+1-1	2	CARD	2	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	~t~	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	,	$,	,	_	O	O	
+1-7	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	gen	APPR	gen	_	O	O	
+1-12	zu	PTKZU	zu	_	O	O	
+1-13	belästigen	VVINF	belästigen	_	O	O	
+1-14	.	$.	.	_	O	O	
+
+#id=2
+#text=Was für eine Publication ist die von Ijlaffei, welche unter den .Montfauconschen Abbildungen citirt wird und befindet sie sich im Institut?
+2-1	Was	PWS	was	_	O	O	
+2-2	für	APPR	für	_	O	O	
+2-3	eine	ART	eine	_	O	O	
+2-4	Publication	NN	<unknown>	_	O	O	
+2-5	ist	VAFIN	sein	_	O	O	
+2-6	die	ART	die	_	O	O	
+2-7	von	APPR	von	_	O	O	
+2-8	Ijlaffei	NN	<unknown>	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	welche	PRELS	welche	_	O	O	
+2-11	unter	APPR	unter	_	O	O	
+2-12	den	ART	die	_	O	O	
+2-13	.Montfauconschen	ADJA	<unknown>	_	O	O	
+2-14	Abbildungen	NN	Abbildung	_	O	O	
+2-15	citirt	ADJD	<unknown>	_	O	O	
+2-16	wird	VAFIN	werden	_	O	O	
+2-17	und	KON	und	_	O	O	
+2-18	befindet	VVFIN	befinden	_	O	O	
+2-19	sie	PPER	sie	_	O	O	
+2-20	sich	PRF	sich	_	O	O	
+2-21	im	APPRART	in	_	O	O	
+2-22	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-23	?	$.	?	_	O	O	
+
+#id=3
+#text=Ist die Ächtheit der von Braun in den .Monumenti nach Campanaschen Zeichnungen publicirten angeblich antiken Gemälden noch nie angezweifelt worden und, wenn dies der ]'all ist, wo?
+3-1	Ist	VAFIN	sein	_	O	O	
+3-2	die	ART	die	_	O	O	
+3-3	Ächtheit	NN	<unknown>	_	O	O	
+3-4	der	ART	die	_	O	O	
+3-5	von	APPR	von	_	O	O	
+3-6	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-7	in	APPR	in	_	O	O	
+3-8	den	ART	die	_	O	O	
+3-9	.Monumenti	NN	<unknown>	_	O	O	
+3-10	nach	APPR	nach	_	O	O	
+3-11	Campanaschen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-12	Zeichnungen	NN	Zeichnung	_	O	O	
+3-13	publicirten	VVFIN	<unknown>	_	O	O	
+3-14	angeblich	ADJD	angeblich	_	O	O	
+3-15	antiken	ADJA	antik	_	O	O	
+3-16	Gemälden	NN	Gemälde	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-17	noch	ADV	noch	_	O	O	
+3-18	nie	ADV	nie	_	O	O	
+3-19	angezweifelt	VVPP	anzweifeln	_	O	O	
+3-20	worden	VAPP	werden	_	O	O	
+3-21	und	KON	und	_	O	O	
+3-22	,	$,	,	_	O	O	
+3-23	wenn	KOUS	wenn	_	O	O	
+3-24	dies	PDS	dies	_	O	O	
+3-25	der	ART	die	_	O	O	
+3-26	]'all	NN	<unknown>	_	O	O	
+3-27	ist	VAFIN	sein	_	O	O	
+3-28	,	$,	,	_	O	O	
+3-29	wo	PWAV	wo	_	O	O	
+3-30	?	$.	?	_	O	O	
+
+#id=4
+#text=(Das Herauf tauchen des Alpheios.
+4-1	(	$(	(	_	O	O	
+4-2	Das	ART	die	_	O	O	
+4-3	Herauf	NN	<unknown>	_	O	O	
+4-4	tauchen	VVFIN	tauchen	_	O	O	
+4-5	des	ART	die	_	O	O	
+4-6	Alpheios	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=Achill und Thetis.)
+5-1	Achill	NE	Achill	_	O	O	
+5-2	und	KON	und	_	O	O	
+5-3	Thetis	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	.	$.	.	_	O	O	
+5-5	)	$(	)	_	O	O	
+
+#id=6
+#text=Ich glaube bestimmt ihre Unächtheit nachweisen zu können.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	glaube	VVFIN	glauben	_	O	O	
+6-3	bestimmt	ADV	bestimmt	_	O	O	
+6-4	ihre	PPOSAT	ihr	_	O	O	
+6-5	Unächtheit	NN	<unknown>	_	O	O	
+6-6	nachweisen	VVINF	nachweisen	_	O	O	
+6-7	zu	PTKZU	zu	_	O	O	
+6-8	können	VMINF	können	_	O	O	
+6-9	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Untersuchung führt zu interessanten Betrachtungen über die Grundunterschiede antiker und moderner Malerei.
+7-1	Die	ART	die	_	O	O	
+7-2	Untersuchung	NN	Untersuchung	_	O	O	
+7-3	führt	VVFIN	führen	_	O	O	
+7-4	zu	APPR	zu	_	O	O	
+7-5	interessanten	ADJA	interessant	_	O	O	
+7-6	Betrachtungen	NN	Betrachtung	_	O	O	
+7-7	über	APPR	über	_	O	O	
+7-8	die	ART	die	_	O	O	
+7-9	Grundunterschiede	NN	<unknown>	_	O	O	
+7-10	antiker	ADJA	antik	_	O	O	
+7-11	und	KON	und	_	O	O	
+7-12	moderner	ADJA	modern	_	O	O	
+7-13	Malerei	NN	Malerei	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Ritschl fragt mich nach der äußerlichen Beschaffenheit einer von Ihnen abgedrückten Inschrift in St.
+8-1	Ritschl	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	fragt	VVFIN	fragen	_	O	O	
+8-3	mich	PRF	ich	_	O	O	
+8-4	nach	APPR	nach	_	O	O	
+8-5	der	ART	die	_	O	O	
+8-6	äußerlichen	ADJA	äußerlich	_	O	O	
+8-7	Beschaffenheit	NN	Beschaffenheit	_	O	O	
+8-8	einer	ART	eine	_	O	O	
+8-9	von	APPR	von	_	O	O	
+8-10	Ihnen	PPER	Sie	_	O	O	
+8-11	abgedrückten	ADJA	<unknown>	_	O	O	
+8-12	Inschrift	NN	Inschrift	_	O	O	
+8-13	in	APPR	in	_	O	O	
+8-14	St.	NE	St.	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+
+#id=9
+#text=Faul - Wechselrede zwischen .Mann und Frau.
+9-1	Faul	ADJD	faul	_	O	O	
+9-2	-	$(	-	_	O	O	
+9-3	Wechselrede	NN	Wechselrede	_	O	O	
+9-4	zwischen	APPR	zwischen	_	O	O	
+9-5	.Mann	NN	<unknown>	_	O	O	
+9-6	und	KON	und	_	O	O	
+9-7	Frau	NN	Frau	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Wo befindet sich dieselbe ungefähr, damit ich in dem heißen Klosterhofe nicht z~viel unnütz herumsuchen brauche.
+10-1	Wo	PWAV	wo	_	O	O	
+10-2	befindet	VVFIN	befinden	_	O	O	
+10-3	sich	PRF	sich	_	O	O	
+10-4	dieselbe	PDS	dieselbe	_	O	O	
+10-5	ungefähr	ADJD	ungefähr	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	damit	KOUS	damit	_	O	O	
+10-8	ich	PPER	ich	_	O	O	
+10-9	in	APPR	in	_	O	O	
+10-10	dem	ART	die	_	O	O	
+10-11	heißen	ADJA	heiß	_	O	O	
+10-12	Klosterhofe	NN	<unknown>	_	O	O	
+10-13	nicht	PTKNEG	nicht	_	O	O	
+10-14	z~viel	ADV	<unknown>	_	O	O	
+10-15	unnütz	ADJD	unnütz	_	O	O	
+10-16	herumsuchen	VVINF	herumsuchen	_	O	O	
+10-17	brauche	VVFIN	brauchen	_	O	O	
+10-18	.	$.	.	_	O	O	
+
+#id=11
+#text=Von Gerhard ist ein Brief eingetroffen, in welchem er sich über meine neapolitanische Terracottenexpedition im Allgemeinen günstig, im Einzelnen nörgelnd ausspricht.
+11-1	Von	APPR	von	_	O	O	
+11-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-3	ist	VAFIN	sein	_	O	O	
+11-4	ein	ART	eine	_	O	O	
+11-5	Brief	NN	Brief	_	O	O	
+11-6	eingetroffen	VVPP	eintreffen	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	in	APPR	in	_	O	O	
+11-9	welchem	PRELS	welche	_	O	O	
+11-10	er	PPER	er	_	O	O	
+11-11	sich	PRF	sich	_	O	O	
+11-12	über	APPR	über	_	O	O	
+11-13	meine	PPOSAT	mein	_	O	O	
+11-14	neapolitanische	ADJA	neapolitanisch	_	O	O	
+11-15	Terracottenexpedition	NN	<unknown>	_	O	O	
+11-16	im	APPRART	in	_	O	O	
+11-17	Allgemeinen	NN	Allgemeine	_	O	O	
+11-18	günstig	ADJD	günstig	_	O	O	
+11-19	,	$,	,	_	O	O	
+11-20	im	APPRART	in	_	O	O	
+11-21	Einzelnen	NN	Einzelne	_	O	O	
+11-22	nörgelnd	ADJD	nörgelnd	_	O	O	
+11-23	ausspricht	VVFIN	aussprechen	_	O	O	
+11-24	.	$.	.	_	O	O	
+
+#id=12
+#text=Ich hatte ihm auf seinen Wunsch einen Katalog und eine Beschreibung der gezeichneten Figuren zugeschickt.
+12-1	Ich	PPER	ich	_	O	O	
+12-2	hatte	VAFIN	haben	_	O	O	
+12-3	ihm	PPER	er	_	O	O	
+12-4	auf	APPR	auf	_	O	O	
+12-5	seinen	PPOSAT	sein	_	O	O	
+12-6	Wunsch	NN	Wunsch	_	O	O	
+12-7	einen	ART	eine	_	O	O	
+12-8	Katalog	NN	Katalog	_	O	O	
+12-9	und	KON	und	_	O	O	
+12-10	eine	ART	eine	_	O	O	
+12-11	Beschreibung	NN	Beschreibung	_	O	O	
+12-12	der	ART	die	_	O	O	
+12-13	gezeichneten	ADJA	gezeichnet	_	O	O	
+12-14	Figuren	NN	Figur	_	O	O	
+12-15	zugeschickt	VVPP	zuschicken	_	O	O	
+12-16	.	$.	.	_	O	O	
+
+#id=13
+#text=Unter Andern war ihm der Preis - 150 Francs - für die Zeichnungen zu hoch.
+13-1	Unter	APPR	unter	_	O	O	
+13-2	Andern	PIS	andere	_	O	O	
+13-3	war	VAFIN	sein	_	O	O	
+13-4	ihm	PPER	er	_	O	O	
+13-5	der	ART	die	_	O	O	
+13-6	Preis	NN	Preis	_	O	O	
+13-7	-	$(	-	_	O	O	
+13-8	150	CARD	150	_	O	O	
+13-9	Francs	NN	Franc	_	O	O	
+13-10	-	$(	-	_	O	O	
+13-11	für	APPR	für	_	O	O	
+13-12	die	ART	die	_	O	O	
+13-13	Zeichnungen	NN	Zeichnung	_	O	O	
+13-14	zu	PTKA	zu	_	O	O	
+13-15	hoch	ADJD	hoch	_	O	O	
+13-16	.	$.	.	_	O	O	
+
+#id=14
+#text=Ich kann ihm nicht helfen.
+14-1	Ich	PPER	ich	_	O	O	
+14-2	kann	VMFIN	können	_	O	O	
+14-3	ihm	PPER	er	_	O	O	
+14-4	nicht	PTKNEG	nicht	_	O	O	
+14-5	helfen	VVINF	helfen	_	O	O	
+14-6	.	$.	.	_	O	O	
+
+#id=15
+#text=.Minervini hat sie in meiner und des Zeichners Gegenwart so taxirt.
+15-1	.Minervini	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-2	hat	VAFIN	haben	_	O	O	
+15-3	sie	PPER	sie	_	O	O	
+15-4	in	APPR	in	_	O	O	
+15-5	meiner	PPOSAT	mein	_	O	O	
+15-6	und	KON	und	_	O	O	
+15-7	des	ART	die	_	O	O	
+15-8	Zeichners	NN	Zeichner	_	O	O	
+15-9	Gegenwart	NN	Gegenwart	_	O	O	
+15-10	so	ADV	so	_	O	O	
+15-11	taxirt	NN	<unknown>	_	O	O	
+15-12	.	$.	.	_	O	O	
+
+#id=16
+#text=Sie sehen, ich empfinde alle Leiden und Freuden des Institutssekretärs : Bereits zum dritten .Male fragt er nach
+16-1	Sie	PPER	Sie	_	O	O	
+16-2	sehen	VVFIN	sehen	_	O	O	
+16-3	,	$,	,	_	O	O	
+16-4	ich	PPER	ich	_	O	O	
+16-5	empfinde	VVFIN	empfinden	_	O	O	
+16-6	alle	PIAT	alle	_	O	O	
+16-7	Leiden	NN	Leiden	_	O	O	
+16-8	und	KON	und	_	O	O	
+16-9	Freuden	NN	Freude	_	B-webanno.custom.LetterEntity_	B-LIT	
+16-10	des	ART	die	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-11	Institutssekretärs	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-12	:	$.	:	_	O	O	
+16-13	Bereits	ADV	bereits	_	O	O	
+16-14	zum	APPRART	zu	_	O	O	
+16-15	dritten	ADJA	dritt	_	O	O	
+16-16	.Male	NN	<unknown>	_	O	O	
+16-17	fragt	VVFIN	fragen	_	O	O	
+16-18	er	PPER	er	_	O	O	
+16-19	nach	APPR	nach	_	O	O	
+

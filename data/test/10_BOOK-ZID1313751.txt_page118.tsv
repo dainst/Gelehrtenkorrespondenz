@@ -1,0 +1,48 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=15 3 Wolfgang Helbig an Heinrich Brunn Rom, 9. Mai 1874 stens zwei übereinanderliegende Schichten von Gräbern gefunden worden sind, was voraussichtlich zur Beurtheilung Ihrer Probleme wichtig sein wird.
+1-1	15	CARD	15	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Wolfgang	NN	Wolfgang	_	O	O	
+1-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	stens	NN	<unknown>	_	O	O	
+1-15	zwei	CARD	zwei	_	O	O	
+1-16	übereinanderliegende	ADJA	übereinanderliegend	_	O	O	
+1-17	Schichten	NN	Schicht	_	O	O	
+1-18	von	APPR	von	_	O	O	
+1-19	Gräbern	NN	Grab	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-20	gefunden	VVPP	finden	_	O	O	
+1-21	worden	VAPP	werden	_	O	O	
+1-22	sind	VAFIN	sein	_	O	O	
+1-23	,	$,	,	_	O	O	
+1-24	was	PRELS	was	_	O	O	
+1-25	voraussichtlich	ADJD	voraussichtlich	_	O	O	
+1-26	zur	APPRART	zu	_	O	O	
+1-27	Beurtheilung	NN	<unknown>	_	O	O	
+1-28	Ihrer	PPOSAT	ihr	_	O	O	
+1-29	Probleme	NN	Problem	_	O	O	
+1-30	wichtig	ADJD	wichtig	_	O	O	
+1-31	sein	VAINF	sein	_	O	O	
+1-32	wird	VAFIN	werden	_	O	O	
+1-33	.	$.	.	_	O	O	
+
+#id=2
+#text=Herzliche Grüße an di.e Ihrigen Ihr ergebener Helbig
+2-1	Herzliche	ADJA	herzlich	_	O	O	
+2-2	Grüße	NN	Gruß	_	O	O	
+2-3	an	APPR	an	_	O	O	
+2-4	di.e	NE	<unknown>	_	O	O	
+2-5	Ihrigen	NN	<unknown>	_	O	O	
+2-6	Ihr	PPOSAT	ihr	_	O	O	
+2-7	ergebener	ADJA	ergeben	_	O	O	
+2-8	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

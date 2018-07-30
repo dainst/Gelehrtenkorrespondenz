@@ -1,0 +1,67 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an Brunn 26/V/1874 - 2 - L!olgt wissenschaftliche Mitteiluni!
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	26/V/1874	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-5	-	$(	-	_	O	O	
+1-6	2	CARD	2	_	O	O	
+1-7	-	$(	-	_	O	O	
+1-8	L	NN	L	_	O	O	
+1-9	!	$.	!	_	O	O	
+1-10	olgt	ADJA	<unknown>	_	O	O	
+1-11	wissenschaftliche	ADJA	wissenschaftlich	_	O	O	
+1-12	Mitteiluni	NN	<unknown>	_	O	O	
+1-13	!	$.	!	_	O	O	
+
+#id=2
+#text=Mit herz~chen Grüßen für Sie und die Ihrigen Ihr dankbar ergebener Helbig.
+2-1	Mit	APPR	mit	_	O	O	
+2-2	herz~chen	ADJA	<unknown>	_	O	O	
+2-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+2-4	für	APPR	für	_	O	O	
+2-5	Sie	PPER	Sie	_	O	O	
+2-6	und	KON	und	_	O	O	
+2-7	die	ART	die	_	O	O	
+2-8	Ihrigen	NN	<unknown>	_	O	O	
+2-9	Ihr	PPOSAT	ihr	_	O	O	
+2-10	dankbar	ADJD	dankbar	_	O	O	
+2-11	ergebener	ADJD	ergebener	_	O	O	
+2-12	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-13	.	$.	.	_	O	O	
+
+#id=3
+#text=1) Boetlicher gemeint?
+3-1	1	CARD	1	_	O	O	
+3-2	)	$(	)	_	O	O	
+3-3	Boetlicher	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-4	gemeint	VVPP	meinen	_	O	O	
+3-5	?	$.	?	_	O	O	
+
+#id=4
+#text=2) In Briefen ist davon öfters die Rede (siehe Abschriften) ; ist etwa auch in den Amtsberichten drüber gehandelt?
+4-1	2	CARD	2	_	O	O	
+4-2	)	$(	)	_	O	O	
+4-3	In	APPR	in	_	O	O	
+4-4	Briefen	NN	Brief	_	O	O	
+4-5	ist	VAFIN	sein	_	O	O	
+4-6	davon	PAV	davon	_	O	O	
+4-7	öfters	ADV	öfters	_	O	O	
+4-8	die	ART	die	_	O	O	
+4-9	Rede	NN	Rede	_	O	O	
+4-10	(	$(	(	_	O	O	
+4-11	siehe	VVIMP	sehen	_	O	O	
+4-12	Abschriften	NN	Abschrift	_	O	O	
+4-13	)	$(	)	_	O	O	
+4-14	;	$.	;	_	O	O	
+4-15	ist	VAFIN	sein	_	O	O	
+4-16	etwa	ADV	etwa	_	O	O	
+4-17	auch	ADV	auch	_	O	O	
+4-18	in	APPR	in	_	O	O	
+4-19	den	ART	die	_	O	O	
+4-20	Amtsberichten	NN	<unknown>	_	O	O	
+4-21	drüber	PAV	drüber	_	O	O	
+4-22	gehandelt	VVPP	handeln	_	O	O	
+4-23	?	$.	?	_	O	O	
+

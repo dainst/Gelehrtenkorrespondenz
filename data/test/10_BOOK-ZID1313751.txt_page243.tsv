@@ -1,0 +1,34 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=a) 2 Helbig an Brunn Rom, 2. April 1885 ( Folgen Familiennachrichten ) Mit herzlichen Grüßen Ihr ergebener Helbig Hierauf folgt ein Brief von Henzen an Brunn
+1-1	a	FM	a	_	O	O	
+1-2	)	$(	)	_	O	O	
+1-3	2	CARD	2	_	O	O	
+1-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1885	CARD	1885	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	(	$(	(	_	O	O	
+1-14	Folgen	NN	Folge	_	O	O	
+1-15	Familiennachrichten	NN	<unknown>	_	O	O	
+1-16	)	$(	)	_	O	O	
+1-17	Mit	APPR	mit	_	O	O	
+1-18	herzlichen	ADJA	herzlich	_	O	O	
+1-19	Grüßen	NN	Gruß|Grüßen	_	O	O	
+1-20	Ihr	PPOSAT	ihr	_	O	O	
+1-21	ergebener	ADJA	ergeben	_	O	O	
+1-22	Helbig	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-23	Hierauf	NN	<unknown>	_	O	O	
+1-24	folgt	VVFIN	folgen	_	O	O	
+1-25	ein	ART	eine	_	O	O	
+1-26	Brief	NN	Brief	_	O	O	
+1-27	von	APPR	von	_	O	O	
+1-28	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-29	an	APPR	an	_	O	O	
+1-30	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+

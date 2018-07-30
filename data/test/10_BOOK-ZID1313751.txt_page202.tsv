@@ -1,0 +1,255 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=56 3 Wolfgang Helbig an Heinrich Brunn Rom, 22. März 1886 Neue discreditirt und den zukünftigen Sekretären die Position schwierig ja geradezu unmöglich macht.
+1-1	56	CARD	56	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1886	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Neue	ADJA	neu	_	O	O	
+1-15	discreditirt	NN	<unknown>	_	O	O	
+1-16	und	KON	und	_	O	O	
+1-17	den	ART	die	_	O	O	
+1-18	zukünftigen	ADJA	zukünftig	_	O	O	
+1-19	Sekretären	NN	Sekretär	_	O	O	
+1-20	die	ART	die	_	O	O	
+1-21	Position	NN	Position	_	O	O	
+1-22	schwierig	ADJD	schwierig	_	O	O	
+1-23	ja	ADV	ja	_	O	O	
+1-24	geradezu	ADV	geradezu	_	O	O	
+1-25	unmöglich	ADJD	unmöglich	_	O	O	
+1-26	macht	VVFIN	machen	_	O	O	
+1-27	.	$.	.	_	O	O	
+
+#id=2
+#text=Außerdem würde ich durch ein brutales Vorgehen der Central Direction von jederRücksicht entbunden und hätte die moralische Berechtigung meine eigenen Bahnen zu verfolgen und, wenn es mir paßt, selbst in entschiedenem Gegensatze zum Institute zu treten.
+2-1	Außerdem	ADV	außerdem	_	O	O	
+2-2	würde	VAFIN	werden	_	O	O	
+2-3	ich	PPER	ich	_	O	O	
+2-4	durch	APPR	durch	_	O	O	
+2-5	ein	ART	eine	_	O	O	
+2-6	brutales	ADJA	brutal	_	O	O	
+2-7	Vorgehen	NN	Vorgehen	_	O	O	
+2-8	der	ART	die	_	O	O	
+2-9	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-10	Direction	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+2-11	von	APPR	von	_	O	O	
+2-12	jederRücksicht	NN	<unknown>	_	O	O	
+2-13	entbunden	VVPP	entbinden	_	O	O	
+2-14	und	KON	und	_	O	O	
+2-15	hätte	VAFIN	haben	_	O	O	
+2-16	die	ART	die	_	O	O	
+2-17	moralische	ADJA	moralisch	_	O	O	
+2-18	Berechtigung	NN	Berechtigung	_	O	O	
+2-19	meine	PPOSAT	mein	_	O	O	
+2-20	eigenen	ADJA	eigen	_	O	O	
+2-21	Bahnen	NN	Bahn|Bahnen	_	O	O	
+2-22	zu	PTKZU	zu	_	O	O	
+2-23	verfolgen	VVINF	verfolgen	_	O	O	
+2-24	und	KON	und	_	O	O	
+2-25	,	$,	,	_	O	O	
+2-26	wenn	KOUS	wenn	_	O	O	
+2-27	es	PPER	es	_	O	O	
+2-28	mir	PPER	ich	_	O	O	
+2-29	paßt	VVFIN	passen	_	O	O	
+2-30	,	$,	,	_	O	O	
+2-31	selbst	ADV	selbst	_	O	O	
+2-32	in	APPR	in	_	O	O	
+2-33	entschiedenem	ADJA	entschieden	_	O	O	
+2-34	Gegensatze	NN	Gegensatz	_	O	O	
+2-35	zum	APPRART	zu	_	O	O	
+2-36	Institute	NN	Institut	_	O	O	
+2-37	zu	PTKZU	zu	_	O	O	
+2-38	treten	VVINF	treten	_	O	O	
+2-39	.	$.	.	_	O	O	
+
+#id=3
+#text=Allerdings würde mir dies, wie Sie sich wohl denken können, unangenehm sein und ich wünsche demnach ein friedliches Auseinanderkommen.
+3-1	Allerdings	ADV	allerdings	_	O	O	
+3-2	würde	VAFIN	werden	_	O	O	
+3-3	mir	PPER	ich	_	O	O	
+3-4	dies	PDS	dies	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	wie	KOUS	wie	_	O	O	
+3-7	Sie	PPER	Sie	_	O	O	
+3-8	sich	PRF	sich	_	O	O	
+3-9	wohl	ADV	wohl	_	O	O	
+3-10	denken	VVINF	denken	_	O	O	
+3-11	können	VMFIN	können	_	O	O	
+3-12	,	$,	,	_	O	O	
+3-13	unangenehm	ADJD	unangenehm	_	O	O	
+3-14	sein	VAINF	sein	_	O	O	
+3-15	und	KON	und	_	O	O	
+3-16	ich	PPER	ich	_	O	O	
+3-17	wünsche	VVFIN	wünschen	_	O	O	
+3-18	demnach	PAV	demnach	_	O	O	
+3-19	ein	ART	eine	_	O	O	
+3-20	friedliches	ADJA	friedlich	_	O	O	
+3-21	Auseinanderkommen	NN	<unknown>	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=Sollten Sie dahin wirken können, daß ein solches zu Stande kommt, so würden Sie sie mir und dem Institute in der That einen Dienst erweisen; denn das letztere würde zum Mindesten für einige Jahre vollständig lahm gelegt, falls ich mit Skandal zurücktrete und in Folge dessen meine zahlreichen Freunde, die Großgrundbesitzer, Sammler u. s. w., eine ablehnende Stellung gegenüber meinem Nachfolger einnehmen.
+4-1	Sollten	VMFIN	sollen	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	dahin	PAV	dahin	_	O	O	
+4-4	wirken	VVINF	wirken	_	O	O	
+4-5	können	VMINF	können	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	daß	KOUS	dass	_	O	O	
+4-8	ein	ART	eine	_	O	O	
+4-9	solches	PIAT	solche	_	O	O	
+4-10	zu	APPR	zu	_	O	O	
+4-11	Stande	NN	Stand	_	O	O	
+4-12	kommt	VVFIN	kommen	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	so	ADV	so	_	O	O	
+4-15	würden	VAFIN	werden	_	O	O	
+4-16	Sie	PPER	Sie	_	O	O	
+4-17	sie	PPER	sie	_	O	O	
+4-18	mir	PRF	ich	_	O	O	
+4-19	und	KON	und	_	O	O	
+4-20	dem	ART	die	_	O	O	
+4-21	Institute	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-22	in	APPR	in	_	O	O	
+4-23	der	ART	die	_	O	O	
+4-24	That	NE	<unknown>	_	O	O	
+4-25	einen	ART	eine	_	O	O	
+4-26	Dienst	NN	Dienst	_	O	O	
+4-27	erweisen	VVINF	erweisen	_	O	O	
+4-28	;	$.	;	_	O	O	
+4-29	denn	KON	denn	_	O	O	
+4-30	das	ART	die	_	O	O	
+4-31	letztere	ADJA	letzt	_	O	O	
+4-32	würde	VAFIN	werden	_	O	O	
+4-33	zum	APPRART	zu	_	O	O	
+4-34	Mindesten	NN	Mindeste	_	O	O	
+4-35	für	APPR	für	_	O	O	
+4-36	einige	PIAT	einige	_	O	O	
+4-37	Jahre	NN	Jahr	_	O	O	
+4-38	vollständig	ADJD	vollständig	_	O	O	
+4-39	lahm	ADJD	lahm	_	O	O	
+4-40	gelegt	VVPP	legen	_	O	O	
+4-41	,	$,	,	_	O	O	
+4-42	falls	KOUS	falls	_	O	O	
+4-43	ich	PPER	ich	_	O	O	
+4-44	mit	APPR	mit	_	O	O	
+4-45	Skandal	NN	Skandal	_	O	O	
+4-46	zurücktrete	VVFIN	zurücktreten	_	O	O	
+4-47	und	KON	und	_	O	O	
+4-48	in	APPR	in	_	O	O	
+4-49	Folge	NN	Folge	_	O	O	
+4-50	dessen	PDS	die	_	O	O	
+4-51	meine	PPOSAT	mein	_	O	O	
+4-52	zahlreichen	ADJA	zahlreich	_	O	O	
+4-53	Freunde	NN	Freund	_	O	O	
+4-54	,	$,	,	_	O	O	
+4-55	die	ART	die	_	O	O	
+4-56	Großgrundbesitzer	NN	Großgrundbesitzer	_	O	O	
+4-57	,	$,	,	_	O	O	
+4-58	Sammler	NN	Sammler	_	O	O	
+4-59	u.	APPR	um	_	O	O	
+4-60	s.	ADV	s.	_	O	O	
+4-61	w.	APPR	w.	_	O	O	
+4-62	,	$,	,	_	O	O	
+4-63	eine	ART	eine	_	O	O	
+4-64	ablehnende	ADJA	ablehnend	_	O	O	
+4-65	Stellung	NN	Stellung	_	O	O	
+4-66	gegenüber	APPR	gegenüber	_	O	O	
+4-67	meinem	PPOSAT	mein	_	O	O	
+4-68	Nachfolger	NN	Nachfolger	_	O	O	
+4-69	einnehmen	VVFIN	einnehmen	_	O	O	
+4-70	.	$.	.	_	O	O	
+
+#id=5
+#text=Wie Sie sehen, nehme ich zu der Sache eine sehr ruhige und maßvolle Position ein.
+5-1	Wie	KOUS	wie	_	O	O	
+5-2	Sie	PPER	Sie	_	O	O	
+5-3	sehen	VVFIN	sehen	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	nehme	VVFIN	nehmen	_	O	O	
+5-6	ich	PPER	ich	_	O	O	
+5-7	zu	APPR	zu	_	O	O	
+5-8	der	ART	die	_	O	O	
+5-9	Sache	NN	Sache	_	O	O	
+5-10	eine	ART	eine	_	O	O	
+5-11	sehr	ADV	sehr	_	O	O	
+5-12	ruhige	ADJA	ruhig	_	O	O	
+5-13	und	KON	und	_	O	O	
+5-14	maßvolle	ADJA	maßvoll	_	O	O	
+5-15	Position	NN	Position	_	O	O	
+5-16	ein	PTKVZ	ein	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Ließe ich mich gehen, so würde ich mit Freude die Gelegenheit ergreifen die Prügel, die ich erhalten, heimzuzahlen.
+6-1	Ließe	VVFIN	lassen	_	O	O	
+6-2	ich	PPER	ich	_	O	O	
+6-3	mich	PRF	ich	_	O	O	
+6-4	gehen	VVINF	gehen	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	so	ADV	so	_	O	O	
+6-7	würde	VAFIN	werden	_	O	O	
+6-8	ich	PPER	ich	_	O	O	
+6-9	mit	APPR	mit	_	O	O	
+6-10	Freude	NN	Freude	_	O	O	
+6-11	die	ART	die	_	O	O	
+6-12	Gelegenheit	NN	Gelegenheit	_	O	O	
+6-13	ergreifen	VVFIN	ergreifen	_	O	O	
+6-14	die	ART	die	_	O	O	
+6-15	Prügel	NN	Prügel	_	O	O	
+6-16	,	$,	,	_	O	O	
+6-17	die	PRELS	die	_	O	O	
+6-18	ich	PPER	ich	_	O	O	
+6-19	erhalten	VVFIN	erhalten	_	O	O	
+6-20	,	$,	,	_	O	O	
+6-21	heimzuzahlen	VVIZU	heimzahlen	_	O	O	
+6-22	.	$.	.	_	O	O	
+
+#id=7
+#text=Dies in aller Kürze die Sachlage.
+7-1	Dies	PDS	dies	_	O	O	
+7-2	in	APPR	in	_	O	O	
+7-3	aller	PIAT	alle	_	O	O	
+7-4	Kürze	NN	Kürze	_	O	O	
+7-5	die	ART	die	_	O	O	
+7-6	Sachlage	NN	Sachlage	_	O	O	
+7-7	.	$.	.	_	O	O	
+
+#id=8
+#text=Löwy ist nach Griechenland und wird erst gegen Ende April in Rom eintreffen.
+8-1	Löwy	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	ist	VAFIN	sein	_	O	O	
+8-3	nach	APPR	nach	_	O	O	
+8-4	Griechenland	NE	Griechenland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-5	und	KON	und	_	O	O	
+8-6	wird	VAFIN	werden	_	O	O	
+8-7	erst	ADV	erst	_	O	O	
+8-8	gegen	APPR	gegen	_	O	O	
+8-9	Ende	NN	Ende	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-10	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+8-11	in	APPR	in	_	O	O	
+8-12	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-13	eintreffen	VVINF	eintreffen	_	O	O	
+8-14	.	$.	.	_	O	O	
+
+#id=9
+#text=Die Autographen kommen bis zum 15. April noch
+9-1	Die	ART	die	_	O	O	
+9-2	Autographen	NN	Autograph	_	O	O	
+9-3	kommen	VVINF	kommen	_	O	O	
+9-4	bis	KON	bis	_	O	O	
+9-5	zum	APPRART	zu	_	O	O	
+9-6	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+9-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-8	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+9-9	noch	ADV	noch	_	O	O	
+

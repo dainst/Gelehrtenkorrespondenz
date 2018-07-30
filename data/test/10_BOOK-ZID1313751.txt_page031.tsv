@@ -1,0 +1,87 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=(Unmittelbar im Anschluß an den Brief Helbig an Brunn 2/IV/188~: Lieber Brunn!
+1-1	(	$(	(	_	O	O	
+1-2	Unmittelbar	ADJD	unmittelbar	_	O	O	
+1-3	im	APPRART	in	_	O	O	
+1-4	Anschluß	NN	Anschluss	_	O	O	
+1-5	an	APPR	an	_	O	O	
+1-6	den	ART	die	_	O	O	
+1-7	Brief	NN	Brief	_	O	O	
+1-8	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-9	an	APPR	an	_	O	O	
+1-10	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-11	2/IV/188~	NN	<unknown>	_	O	O	
+1-12	:	$.	:	_	O	O	
+1-13	Lieber	ADJA	lieb	_	O	O	
+1-14	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-15	!	$.	!	_	O	O	
+
+#id=2
+#text=Möchten Sie mir nicht in zwei Worten sagen, was Sie über unsere Krise denken?
+2-1	Möchten	VMFIN	mögen	_	O	O	
+2-2	Sie	PPER	Sie	_	O	O	
+2-3	mir	PRF	ich	_	O	O	
+2-4	nicht	PTKNEG	nicht	_	O	O	
+2-5	in	APPR	in	_	O	O	
+2-6	zwei	CARD	zwei	_	O	O	
+2-7	Worten	NN	Wort	_	O	O	
+2-8	sagen	VVINF	sagen	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	was	PRELS	was	_	O	O	
+2-11	Sie	PPER	Sie	_	O	O	
+2-12	über	APPR	über	_	O	O	
+2-13	unsere	PPOSAT	unser	_	O	O	
+2-14	Krise	NN	Krise	_	O	O	
+2-15	denken	VVFIN	denken	_	O	O	
+2-16	?	$.	?	_	O	O	
+
+#id=3
+#text=Mir scheint, man muß doch thun, was man kann zur Rettung des Institutes.
+3-1	Mir	PPER	ich	_	O	O	
+3-2	scheint	VVFIN	scheinen	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	man	PIS	man	_	O	O	
+3-5	muß	VMFIN	müssen	_	O	O	
+3-6	doch	ADV	doch	_	O	O	
+3-7	thun	NN	<unknown>	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	was	PRELS	was	_	O	O	
+3-10	man	PIS	man	_	O	O	
+3-11	kann	VMFIN	können	_	O	O	
+3-12	zur	APPRART	zu	_	O	O	
+3-13	Rettung	NN	Rettung	_	O	O	
+3-14	des	ART	die	_	O	O	
+3-15	Institutes	NN	Institut	_	O	O	
+3-16	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich habe übrigens an Conze geschrieben, ich werde der Plenarversammlung mein Pensionierungsgesuch einschicken.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	habe	VAFIN	haben	_	O	O	
+4-3	übrigens	ADV	übrigens	_	O	O	
+4-4	an	APPR	an	_	O	O	
+4-5	Conze	NE	Conze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-6	geschrieben	VVPP	schreiben	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	ich	PPER	ich	_	O	O	
+4-9	werde	VAFIN	werden	_	O	O	
+4-10	der	ART	die	_	O	O	
+4-11	Plenarversammlung	NN	Plenarversammlung	_	O	O	
+4-12	mein	PPOSAT	mein	_	O	O	
+4-13	Pensionierungsgesuch	NN	<unknown>	_	O	O	
+4-14	einschicken	VVINF	einschicken	_	O	O	
+4-15	.	$.	.	_	O	O	
+
+#id=5
+#text=He rzli che: gru ßend Ihr W. Henzen
+5-1	He	NE	He	_	O	O	
+5-2	rzli	NE	<unknown>	_	O	O	
+5-3	che	VVFIN	<unknown>	_	O	O	
+5-4	:	$.	:	_	O	O	
+5-5	gru	NE	<unknown>	_	O	O	
+5-6	ßend	VVFIN	<unknown>	_	O	O	
+5-7	Ihr	PPER	sie	_	O	O	
+5-8	W.	APPR	w.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+5-9	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

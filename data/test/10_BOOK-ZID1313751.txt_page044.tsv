@@ -1,0 +1,35 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=!
+1-1	!	$.	!	_	O	O	
+
+#id=2
+#text=I i / Per s 0 n e n i n d e x Helbig an Brunn 1863 - 188~'f Zusammengefaßt von Erika Schliese im September 1986
+2-1	I	FM	I	_	O	O	
+2-2	i	FM	i	_	O	O	
+2-3	/	$(	/	_	O	O	
+2-4	Per	NE	Per	_	O	O	
+2-5	s	NN	s	_	O	O	
+2-6	0	CARD	@card@	_	O	O	
+2-7	n	ADJA	<unknown>	_	O	O	
+2-8	e	ADJA	<unknown>	_	O	O	
+2-9	n	ADJA	<unknown>	_	O	O	
+2-10	i	NE	i	_	O	O	
+2-11	n	ADJA	<unknown>	_	O	O	
+2-12	d	ADJA	<unknown>	_	O	O	
+2-13	e	ADJA	<unknown>	_	O	O	
+2-14	x	NE	x	_	O	O	
+2-15	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-16	an	APPR	an	_	O	O	
+2-17	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-18	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-19	-	$(	-	_	O	O	
+2-20	188~'f	NE	<unknown>	_	O	O	
+2-21	Zusammengefaßt	NN	<unknown>	_	O	O	
+2-22	von	APPR	von	_	O	O	
+2-23	Erika	NE	Erika	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-24	Schliese	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-25	im	APPRART	in	_	O	O	
+2-26	September	NN	September	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-27	1986	CARD	1986	_	O	O	
+

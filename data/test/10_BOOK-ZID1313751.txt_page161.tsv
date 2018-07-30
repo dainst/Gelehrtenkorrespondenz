@@ -1,0 +1,242 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=35 Wolfgang Helbig an Heinrich Brunn Rom, 25. Februar 1881 r.
+1-1	35	CARD	35	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1881	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	r.	VVFIN	<unknown>	_	O	O	
+
+#id=2
+#text=5/111 81 Roma, li 25/2 81 Lieber Herr Professor In aller Eile nur wenige Zeilen hinsichtlich des palatiniscnen Satyrs.
+2-1	5/111	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-2	81	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-3	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	,	$,	,	_	O	O	
+2-5	li	ADJD	<unknown>	_	O	O	
+2-6	25/2	CARD	@card@	_	O	O	
+2-7	81	CARD	@card@	_	O	O	
+2-8	Lieber	ADJA	lieb	_	O	O	
+2-9	Herr	NN	Herr	_	O	O	
+2-10	Professor	NN	Professor	_	O	O	
+2-11	In	APPR	in	_	O	O	
+2-12	aller	PIAT	alle	_	O	O	
+2-13	Eile	NN	Eile	_	O	O	
+2-14	nur	ADV	nur	_	O	O	
+2-15	wenige	PIAT	wenige	_	O	O	
+2-16	Zeilen	NN	Zeile	_	O	O	
+2-17	hinsichtlich	APPR	hinsichtlich	_	O	O	
+2-18	des	ART	die	_	O	O	
+2-19	palatiniscnen	ADJA	<unknown>	_	O	O	
+2-20	Satyrs	NN	<unknown>	_	O	O	
+2-21	.	$.	.	_	O	O	
+
+#id=3
+#text=Rosa, der täglich stumpfer wird, hat leider die FundsteIle vergessen, aber mir versprochen, mir den damaligen Caporale degli scavi zuzuschicken, der nächsten Montag nach Rom zurückkehren wird.
+3-1	Rosa	NE	Rosa	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	,	$,	,	_	O	O	
+3-3	der	PRELS	die	_	O	O	
+3-4	täglich	ADJD	täglich	_	O	O	
+3-5	stumpfer	ADJD	stumpf	_	O	O	
+3-6	wird	VAFIN	werden	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	hat	VAFIN	haben	_	O	O	
+3-9	leider	ADV	leider	_	O	O	
+3-10	die	ART	die	_	O	O	
+3-11	FundsteIle	NN	<unknown>	_	O	O	
+3-12	vergessen	VVPP	vergessen	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	aber	ADV	aber	_	O	O	
+3-15	mir	PPER	ich	_	O	O	
+3-16	versprochen	VVPP	versprechen	_	O	O	
+3-17	,	$,	,	_	O	O	
+3-18	mir	PRF	ich	_	O	O	
+3-19	den	ART	die	_	O	O	
+3-20	damaligen	ADJA	damalig	_	O	O	
+3-21	Caporale	ADJA	<unknown>	_	O	O	
+3-22	degli	NN	<unknown>	_	O	O	
+3-23	scavi	NE	<unknown>	_	O	O	
+3-24	zuzuschicken	VVIZU	zuschicken	_	O	O	
+3-25	,	$,	,	_	O	O	
+3-26	der	ART	die	_	O	O	
+3-27	nächsten	ADJA	nah	_	O	O	
+3-28	Montag	NN	Montag	_	O	O	
+3-29	nach	APPR	nach	_	O	O	
+3-30	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-31	zurückkehren	VVINF	zurückkehren	_	O	O	
+3-32	wird	VAFIN	werden	_	O	O	
+3-33	.	$.	.	_	O	O	
+
+#id=4
+#text=Was den Mar~ mor betrifft, so habe ich mir darüber in mein Notizbuch notirt: "griechischer Marmor dem dem pentelischen ähn;" lieh, aber von dichterem Korne.
+4-1	Was	PWS	was	_	O	O	
+4-2	den	ART	die	_	O	O	
+4-3	Mar~	NN	<unknown>	_	O	O	
+4-4	mor	ADJD	<unknown>	_	O	O	
+4-5	betrifft	VVFIN	betreffen	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	so	ADV	so	_	O	O	
+4-8	habe	VAFIN	haben	_	O	O	
+4-9	ich	PPER	ich	_	O	O	
+4-10	mir	PRF	ich	_	O	O	
+4-11	darüber	PAV	darüber	_	O	O	
+4-12	in	APPR	in	_	O	O	
+4-13	mein	PPOSAT	mein	_	O	O	
+4-14	Notizbuch	NN	Notizbuch	_	O	O	
+4-15	notirt	NN	<unknown>	_	O	O	
+4-16	:	$.	:	_	O	O	
+4-17	"	$(	"	_	O	O	
+4-18	griechischer	ADJA	griechisch	_	O	O	
+4-19	Marmor	NN	Marmor	_	O	O	
+4-20	dem	ART	die	_	O	O	
+4-21	dem	ART	die	_	O	O	
+4-22	pentelischen	ADJA	<unknown>	_	O	O	
+4-23	ähn	NN	<unknown>	_	O	O	
+4-24	;	$.	;	_	O	O	
+4-25	"	$(	"	_	O	O	
+4-26	lieh	VVFIN	leihen	_	O	O	
+4-27	,	$,	,	_	O	O	
+4-28	aber	ADV	aber	_	O	O	
+4-29	von	APPR	von	_	O	O	
+4-30	dichterem	ADJA	dicht	_	O	O	
+4-31	Korne	NN	<unknown>	_	O	O	
+4-32	.	$.	.	_	O	O	
+
+#id=5
+#text=11 Wie Sie wissen, ist der Torso nicht mehr in Rom, sondern in Paris.
+5-1	11	CARD	11	_	O	O	
+5-2	Wie	KOKOM	wie	_	O	O	
+5-3	Sie	PPER	Sie	_	O	O	
+5-4	wissen	VVFIN	wissen	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	ist	VAFIN	sein	_	O	O	
+5-7	der	ART	die	_	O	O	
+5-8	Torso	NN	Torso	_	O	O	
+5-9	nicht	PTKNEG	nicht	_	O	O	
+5-10	mehr	ADV	mehr	_	O	O	
+5-11	in	APPR	in	_	O	O	
+5-12	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-13	,	$,	,	_	O	O	
+5-14	sondern	KON	sondern	_	O	O	
+5-15	in	APPR	in	_	O	O	
+5-16	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Anfang nächster Woche hOffe ich Ihnen nach den Aussagen des Caporale die FundsteIle mittheilen zu können.
+6-1	Anfang	NN	Anfang	_	O	O	
+6-2	nächster	ADJA	nah	_	O	O	
+6-3	Woche	NN	Woche	_	O	O	
+6-4	hOffe	VVFIN	hoffen	_	O	O	
+6-5	ich	PPER	ich	_	O	O	
+6-6	Ihnen	PPER	Sie	_	O	O	
+6-7	nach	APPR	nach	_	O	O	
+6-8	den	ART	die	_	O	O	
+6-9	Aussagen	NN	Aussage	_	O	O	
+6-10	des	ART	die	_	O	O	
+6-11	Caporale	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-12	die	ART	die	_	O	O	
+6-13	FundsteIle	NN	<unknown>	_	O	O	
+6-14	mittheilen	VVINF	<unknown>	_	O	O	
+6-15	zu	PTKZU	zu	_	O	O	
+6-16	können	VMINF	können	_	O	O	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=Bei dieser Gelegenheit werde ich Ihnen auch meine Schuld berichtigen.
+7-1	Bei	APPR	bei	_	O	O	
+7-2	dieser	PDAT	dies	_	O	O	
+7-3	Gelegenheit	NN	Gelegenheit	_	O	O	
+7-4	werde	VAFIN	werden	_	O	O	
+7-5	ich	PPER	ich	_	O	O	
+7-6	Ihnen	PPER	Sie	_	O	O	
+7-7	auch	ADV	auch	_	O	O	
+7-8	meine	PPOSAT	mein	_	O	O	
+7-9	Schuld	NN	Schuld	_	O	O	
+7-10	berichtigen	VVINF	berichtigen	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Herzlichen Dank für die Estratti, die ich vorgestern erhal te.1..
+8-1	Herzlichen	ADJA	herzlich	_	O	O	
+8-2	Dank	NN	Dank	_	O	O	
+8-3	für	APPR	für	_	O	O	
+8-4	die	ART	die	_	O	O	
+8-5	Estratti	NN	<unknown>	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	die	PRELS	die	_	O	O	
+8-8	ich	PPER	ich	_	O	O	
+8-9	vorgestern	ADV	vorgestern	_	O	O	
+8-10	erhal	NE	<unknown>	_	O	O	
+8-11	te.1.	NE	<unknown>	_	O	O	
+8-12	.	$.	.	_	O	O	
+
+#id=9
+#text=Wegen der Photographien werde ich den Antrag so formuliren, daß das beantragte Geld, falls die ~ersuche, die in diesem Sommer Statt finden werden, ein ungünstiges Resultat ergeben, erst im Jahre 1882 verausgabt zu werden braucht.
+9-1	Wegen	APPR	wegen	_	O	O	
+9-2	der	ART	die	_	O	O	
+9-3	Photographien	NN	Photographie	_	O	O	
+9-4	werde	VAFIN	werden	_	O	O	
+9-5	ich	PPER	ich	_	O	O	
+9-6	den	ART	die	_	O	O	
+9-7	Antrag	NN	Antrag	_	O	O	
+9-8	so	ADV	so	_	O	O	
+9-9	formuliren	NN	<unknown>	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	daß	KOUS	dass	_	O	O	
+9-12	das	ART	die	_	O	O	
+9-13	beantragte	ADJA	beantragt	_	O	O	
+9-14	Geld	NN	Geld	_	O	O	
+9-15	,	$,	,	_	O	O	
+9-16	falls	KOUS	falls	_	O	O	
+9-17	die	ART	die	_	O	O	
+9-18	~ersuche	NN	<unknown>	_	O	O	
+9-19	,	$,	,	_	O	O	
+9-20	die	PRELS	die	_	O	O	
+9-21	in	APPR	in	_	O	O	
+9-22	diesem	PDAT	dies	_	O	O	
+9-23	Sommer	NN	Sommer	_	O	O	
+9-24	Statt	NN	Statt	_	O	O	
+9-25	finden	VVINF	finden	_	O	O	
+9-26	werden	VAFIN	werden	_	O	O	
+9-27	,	$,	,	_	O	O	
+9-28	ein	ART	eine	_	O	O	
+9-29	ungünstiges	ADJA	ungünstig	_	O	O	
+9-30	Resultat	NN	Resultat	_	O	O	
+9-31	ergeben	VVPP	ergeben	_	O	O	
+9-32	,	$,	,	_	O	O	
+9-33	erst	ADV	erst	_	O	O	
+9-34	im	APPRART	in	_	O	O	
+9-35	Jahre	NN	Jahr	_	O	O	
+9-36	1882	CARD	1882	_	O	O	
+9-37	verausgabt	VVPP	verausgaben	_	O	O	
+9-38	zu	PTKZU	zu	_	O	O	
+9-39	werden	VAINF	werden	_	O	O	
+9-40	braucht	VVFIN	brauchen	_	O	O	
+9-41	.	$.	.	_	O	O	
+
+#id=10
+#text=Sind Sie hiermit einverstanden?
+10-1	Sind	VAFIN	sein	_	O	O	
+10-2	Sie	PPER	Sie	_	O	O	
+10-3	hiermit	PAV	hiermit	_	O	O	
+10-4	einverstanden	VVPP	einverstehen	_	O	O	
+10-5	?	$.	?	_	O	O	
+
+#id=11
+#text=Mit herzlichen Grüßen Ihr ergebener Helbig
+11-1	Mit	APPR	mit	_	O	O	
+11-2	herzlichen	ADJA	herzlich	_	O	O	
+11-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+11-4	Ihr	PPOSAT	ihr	_	O	O	
+11-5	ergebener	ADJA	ergeben	_	O	O	
+11-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

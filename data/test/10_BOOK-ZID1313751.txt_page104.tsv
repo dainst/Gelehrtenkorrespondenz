@@ -1,0 +1,204 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=6 Helbig Wolfgang Helbig an Heinrich Brunn Dresden, 20. September 1868 Dresden TheresienstraBe 15 20. Sept.
+1-1	6	CARD	6	_	O	O	
+1-2	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	Wolfgang	NE	Wolfgang	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1868	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Dresden	NE	Dresden	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-15	TheresienstraBe	NN	<unknown>	_	O	O	
+1-16	15	CARD	15	_	O	O	
+1-17	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	Sept.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1868 Lieber Herr Professor Näschsten Samstag den 26. September denken wir von hier nach München abzureisen.
+2-1	1868	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Lieber	ADJA	lieb	_	O	O	
+2-3	Herr	NN	Herr	_	O	O	
+2-4	Professor	NN	Professor	_	O	O	
+2-5	Näschsten	NN	<unknown>	_	O	O	
+2-6	Samstag	NN	Samstag	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-7	den	ART	die	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-8	26	CARD	26	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-10	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-11	denken	VVFIN	denken	_	O	O	
+2-12	wir	PPER	wir	_	O	O	
+2-13	von	APPR	von	_	O	O	
+2-14	hier	ADV	hier	_	O	O	
+2-15	nach	APPR	nach	_	O	O	
+2-16	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-17	abzureisen	VVIZU	abreisen	_	O	O	
+2-18	.	$.	.	_	O	O	
+
+#id=3
+#text=Es ist unmöglich, unsere Abreise zu beschleunigen, da am 25. die Amtsniederlegung meines Vaters stattfindet und wir den dabei stattfindenden Feierlichkeiten beiwohnen müssen.
+3-1	Es	PPER	es	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	unmöglich	ADJD	unmöglich	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	unsere	PPOSAT	unser	_	O	O	
+3-6	Abreise	NN	Abreise	_	O	O	
+3-7	zu	PTKZU	zu	_	O	O	
+3-8	beschleunigen	VVINF	beschleunigen	_	O	O	
+3-9	,	$,	,	_	O	O	
+3-10	da	ADV	da	_	O	O	
+3-11	am	APPRART	an	_	O	O	
+3-12	25	CARD	25	_	O	O	
+3-13	.	$.	.	_	O	O	
+3-14	die	ART	die	_	O	O	
+3-15	Amtsniederlegung	NN	Amtsniederlegung	_	O	O	
+3-16	meines	PPOSAT	mein	_	O	O	
+3-17	Vaters	NN	Vater	_	O	O	
+3-18	stattfindet	VVFIN	stattfinden	_	O	O	
+3-19	und	KON	und	_	O	O	
+3-20	wir	PPER	wir	_	O	O	
+3-21	den	ART	die	_	O	O	
+3-22	dabei	PAV	dabei	_	O	O	
+3-23	stattfindenden	ADJA	stattfindend	_	O	O	
+3-24	Feierlichkeiten	NN	Feierlichkeit	_	O	O	
+3-25	beiwohnen	VVINF	beiwohnen	_	O	O	
+3-26	müssen	VMINF	müssen	_	O	O	
+3-27	.	$.	.	_	O	O	
+
+#id=4
+#text=Andererseits können wir sie auch nicht hinausschieben, da meine Anwesenheit in Rom in den ersten Tagen des October nöthig ist.
+4-1	Andererseits	ADV	andererseits	_	O	O	
+4-2	können	VMFIN	können	_	O	O	
+4-3	wir	PPER	wir	_	O	O	
+4-4	sie	PPER	sie	_	O	O	
+4-5	auch	ADV	auch	_	O	O	
+4-6	nicht	PTKNEG	nicht	_	O	O	
+4-7	hinausschieben	VVINF	hinausschieben	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	da	KOUS	da	_	O	O	
+4-10	meine	PPOSAT	mein	_	O	O	
+4-11	Anwesenheit	NN	Anwesenheit	_	O	O	
+4-12	in	APPR	in	_	O	O	
+4-13	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-14	in	APPR	in	_	O	O	
+4-15	den	ART	die	_	O	O	
+4-16	ersten	ADJA	erst	_	O	O	
+4-17	Tagen	NN	Tag	_	O	O	
+4-18	des	ART	die	_	O	O	
+4-19	October	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-20	nöthig	ADJD	<unknown>	_	O	O	
+4-21	ist	VAFIN	sein	_	O	O	
+4-22	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich möchte Sie sehr gern in Münschen sehen und sprechen, höre aber, daß am 28 die Würzburger Philologenversammlung beginnt.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	möchte	VMFIN	mögen	_	O	O	
+5-3	Sie	PPER	Sie	_	O	O	
+5-4	sehr	ADV	sehr	_	O	O	
+5-5	gern	ADV	gern	_	O	O	
+5-6	in	APPR	in	_	O	O	
+5-7	Münschen	NN	<unknown>	_	O	O	
+5-8	sehen	VVINF	sehen	_	O	O	
+5-9	und	KON	und	_	O	O	
+5-10	sprechen	VVINF	sprechen	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	höre	VVFIN	hören	_	O	O	
+5-13	aber	ADV	aber	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	daß	KOUS	dass	_	O	O	
+5-16	am	APPRART	an	_	O	O	
+5-17	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-18	die	ART	die	_	O	O	
+5-19	Würzburger	NN	Würzburger	_	O	O	
+5-20	Philologenversammlung	NN	<unknown>	_	O	O	
+5-21	beginnt	VVFIN	beginnen	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=Hätten Sie die Freundlichkeit, mir umgehend wissen zu lassen, ob Sie hingehen oder nicht?
+6-1	Hätten	VAFIN	haben	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	die	ART	die	_	O	O	
+6-4	Freundlichkeit	NN	Freundlichkeit	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	mir	PRF	ich	_	O	O	
+6-7	umgehend	ADJD	umgehend	_	O	O	
+6-8	wissen	VVINF	wissen	_	O	O	
+6-9	zu	PTKZU	zu	_	O	O	
+6-10	lassen	VVINF	lassen	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	ob	KOUS	ob	_	O	O	
+6-13	Sie	PPER	Sie	_	O	O	
+6-14	hingehen	VVINF	hingehen	_	O	O	
+6-15	oder	KON	oder	_	O	O	
+6-16	nicht	PTKNEG	nicht	_	O	O	
+6-17	?	$.	?	_	O	O	
+
+#id=7
+#text=Dasselbe möchte ich vom Cav. Umpfenbach wissen.
+7-1	Dasselbe	PDS	dieselbe	_	O	O	
+7-2	möchte	VMFIN	mögen	_	O	O	
+7-3	ich	PPER	ich	_	O	O	
+7-4	vom	APPRART	von	_	O	O	
+7-5	Cav.	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-6	Umpfenbach	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-7	wissen	VVINF	wissen	_	O	O	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=Wenn Sie hingehen, so bitte ich mir zu schreiben, wie lange Sie auszubleiben gedenken.
+8-1	Wenn	KOUS	wenn	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	hingehen	VVFIN	hingehen	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	so	ADV	so	_	O	O	
+8-6	bitte	VVFIN	bitten	_	O	O	
+8-7	ich	PPER	ich	_	O	O	
+8-8	mir	PPER	ich	_	O	O	
+8-9	zu	PTKZU	zu	_	O	O	
+8-10	schreiben	VVINF	schreiben	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	wie	KOUS	wie	_	O	O	
+8-13	lange	ADV	lange	_	O	O	
+8-14	Sie	PPER	Sie	_	O	O	
+8-15	auszubleiben	VVIZU	ausbleiben	_	O	O	
+8-16	gedenken	VVFIN	gedenken	_	O	O	
+8-17	.	$.	.	_	O	O	
+
+#id=9
+#text=Herzliche Grüße von meiner Frau und mir an Frau Brunn.
+9-1	Herzliche	ADJA	herzlich	_	O	O	
+9-2	Grüße	NN	Gruß	_	O	O	
+9-3	von	APPR	von	_	O	O	
+9-4	meiner	PPOSAT	mein	_	O	O	
+9-5	Frau	NN	Frau	_	O	O	
+9-6	und	KON	und	_	O	O	
+9-7	mir	PPER	ich	_	O	O	
+9-8	an	APPR	an	_	O	O	
+9-9	Frau	NN	Frau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-10	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-11	.	$.	.	_	O	O	
+
+#id=10
+#text=Hoffentlich auf baldiges Wiedersehen.
+10-1	Hoffentlich	ADV	hoffentlich	_	O	O	
+10-2	auf	APPR	auf	_	O	O	
+10-3	baldiges	ADJA	baldig	_	O	O	
+10-4	Wiedersehen	NN	Wiedersehen	_	O	O	
+10-5	.	$.	.	_	O	O	
+
+#id=11
+#text=Ihr dankbarer W. Helbig
+11-1	Ihr	PPOSAT	ihr	_	O	O	
+11-2	dankbarer	ADJA	dankbar	_	O	O	
+11-3	W.	NE	W.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+11-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

@@ -1,0 +1,284 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=b) a) 2 Helbig an Brunn Rom, 22. März 1886 Umzug vornehmen.
+1-1	b	ADJA	<unknown>	_	O	O	
+1-2	)	$(	)	_	O	O	
+1-3	a	FM	a	_	O	O	
+1-4	)	$(	)	_	O	O	
+1-5	2	CARD	2	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1886	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Umzug	NN	Umzug	_	O	O	
+1-16	vornehmen	ADJA	vornehm	_	O	O	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich schrieb deßhalb [so] an Conze, es sei mir unmöglich meine jetzige Wohnung schon im nächsten Herbste zu räumen und daß mich die Central Direction, falls sie nicht wolle, daß ich gleichzeitig mit Henzen zurücktrete, bis zum Frühjahr 1888 eben selbstverständlich als ersten Secretär toleriren müsse.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	schrieb	VVFIN	schreiben	_	O	O	
+2-3	deßhalb	ADJD	<unknown>	_	O	O	
+2-4	[	$(	[	_	O	O	
+2-5	so	ADV	so	_	O	O	
+2-6	]	$(	]	_	O	O	
+2-7	an	APPR	an	_	O	O	
+2-8	Conze	NE	Conze	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-9	,	$,	,	_	O	O	
+2-10	es	PPER	es	_	O	O	
+2-11	sei	VAFIN	sein	_	O	O	
+2-12	mir	PPER	ich	_	O	O	
+2-13	unmöglich	ADJD	unmöglich	_	O	O	
+2-14	meine	PPOSAT	mein	_	O	O	
+2-15	jetzige	ADJA	jetzig	_	O	O	
+2-16	Wohnung	NN	Wohnung	_	O	O	
+2-17	schon	ADV	schon	_	O	O	
+2-18	im	APPRART	in	_	O	O	
+2-19	nächsten	ADJA	nah	_	O	O	
+2-20	Herbste	NN	Herbst	_	O	O	
+2-21	zu	PTKZU	zu	_	O	O	
+2-22	räumen	VVINF	räumen	_	O	O	
+2-23	und	KON	und	_	O	O	
+2-24	daß	KOUS	dass	_	O	O	
+2-25	mich	PRF	ich	_	O	O	
+2-26	die	ART	die	_	O	O	
+2-27	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-28	Direction	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+2-29	,	$,	,	_	O	O	
+2-30	falls	KOUS	falls	_	O	O	
+2-31	sie	PPER	sie	_	O	O	
+2-32	nicht	PTKNEG	nicht	_	O	O	
+2-33	wolle	VMFIN	wollen	_	O	O	
+2-34	,	$,	,	_	O	O	
+2-35	daß	KOUS	dass	_	O	O	
+2-36	ich	PPER	ich	_	O	O	
+2-37	gleichzeitig	ADJD	gleichzeitig	_	O	O	
+2-38	mit	APPR	mit	_	O	O	
+2-39	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-40	zurücktrete	VVFIN	zurücktreten	_	O	O	
+2-41	,	$,	,	_	O	O	
+2-42	bis	KON	bis	_	O	O	
+2-43	zum	APPRART	zu	_	O	O	
+2-44	Frühjahr	NN	Frühjahr	_	O	O	
+2-45	1888	CARD	@card@	_	O	O	
+2-46	eben	ADV	eben	_	O	O	
+2-47	selbstverständlich	ADJD	selbstverständlich	_	O	O	
+2-48	als	KOKOM	als	_	O	O	
+2-49	ersten	ADJA	erst	_	O	O	
+2-50	Secretär	NN	<unknown>	_	O	O	
+2-51	toleriren	NN	<unknown>	_	O	O	
+2-52	müsse	VMFIN	müssen	_	O	O	
+2-53	.	$.	.	_	O	O	
+
+#id=3
+#text=Eine bestimmte Antwort hierauf habe ich noch nicht erhalten.
+3-1	Eine	ART	eine	_	O	O	
+3-2	bestimmte	ADJA	bestimmt	_	O	O	
+3-3	Antwort	NN	Antwort	_	O	O	
+3-4	hierauf	PAV	hierauf	_	O	O	
+3-5	habe	VAFIN	haben	_	O	O	
+3-6	ich	PPER	ich	_	O	O	
+3-7	noch	ADV	noch	_	O	O	
+3-8	nicht	PTKNEG	nicht	_	O	O	
+3-9	erhalten	VVINF	erhalten	_	O	O	
+3-10	.	$.	.	_	O	O	
+
+#id=4
+#text=Um den Leuten, da sie mich nun einmal los werden wollen, die Sache zu erleichtern, bot ich ihnen auch an ein für 1888 lautendes Abschiedsgesuch einzureichen.
+4-1	Um	KOUI	um	_	O	O	
+4-2	den	ART	die	_	O	O	
+4-3	Leuten	NN	Leute	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	da	KOUS	da	_	O	O	
+4-6	sie	PPER	sie	_	O	O	
+4-7	mich	PRF	ich	_	O	O	
+4-8	nun	ADV	nun	_	O	O	
+4-9	einmal	ADV	einmal	_	O	O	
+4-10	los	ADJD	los	_	O	O	
+4-11	werden	VAINF	werden	_	O	O	
+4-12	wollen	VMFIN	wollen	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	die	ART	die	_	O	O	
+4-15	Sache	NN	Sache	_	O	O	
+4-16	zu	PTKZU	zu	_	O	O	
+4-17	erleichtern	VVINF	erleichtern	_	O	O	
+4-18	,	$,	,	_	O	O	
+4-19	bot	VVFIN	bieten	_	O	O	
+4-20	ich	PPER	ich	_	O	O	
+4-21	ihnen	PPER	sie	_	O	O	
+4-22	auch	ADV	auch	_	O	O	
+4-23	an	APPR	an	_	O	O	
+4-24	ein	ART	eine	_	O	O	
+4-25	für	APPR	für	_	O	O	
+4-26	1888	CARD	@card@	_	O	O	
+4-27	lautendes	ADJA	lautend	_	O	O	
+4-28	Abschiedsgesuch	NN	Abschiedsgesuch	_	O	O	
+4-29	einzureichen	VVIZU	einreichen	_	O	O	
+4-30	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich kann der Entscheidung der Central Direction mit großer Ruhe entgegensehen.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	kann	VMFIN	können	_	O	O	
+5-3	der	ART	die	_	O	O	
+5-4	Entscheidung	NN	Entscheidung	_	O	O	
+5-5	der	ART	die	_	O	O	
+5-6	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-7	Direction	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+5-8	mit	APPR	mit	_	O	O	
+5-9	großer	ADJA	groß	_	O	O	
+5-10	Ruhe	NN	Ruhe	_	O	O	
+5-11	entgegensehen	VVINF	entgegensehen	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Bei der Stellung, die ich in Italien einnehme, und bei der Weise, in der der InstitutsUmsturz.
+6-1	Bei	APPR	bei	_	O	O	
+6-2	der	ART	die	_	O	O	
+6-3	Stellung	NN	Stellung	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	die	PRELS	die	_	O	O	
+6-6	ich	PPER	ich	_	O	O	
+6-7	in	APPR	in	_	O	O	
+6-8	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-9	einnehme	VVFIN	einnehmen	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	und	KON	und	_	O	O	
+6-12	bei	APPR	bei	_	O	O	
+6-13	der	ART	die	_	O	O	
+6-14	Weise	NN	Weise	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	in	APPR	in	_	O	O	
+6-17	der	PRELS	die	_	O	O	
+6-18	der	ART	die	_	O	O	
+6-19	InstitutsUmsturz	NN	<unknown>	_	O	O	
+6-20	.	$.	.	_	O	O	
+
+#id=7
+#text=aufgefaßt wird, kann es mir nicht schaden, wenn ich bei der Ernennung des 1.
+7-1	aufgefaßt	VVPP	auffassen	_	O	O	
+7-2	wird	VAFIN	werden	_	O	O	
+7-3	,	$,	,	_	O	O	
+7-4	kann	VMFIN	können	_	O	O	
+7-5	es	PPER	es	_	O	O	
+7-6	mir	PRF	ich	_	O	O	
+7-7	nicht	PTKNEG	nicht	_	O	O	
+7-8	schaden	VVINF	schaden	_	O	O	
+7-9	,	$,	,	_	O	O	
+7-10	wenn	KOUS	wenn	_	O	O	
+7-11	ich	PPER	ich	_	O	O	
+7-12	bei	APPR	bei	_	O	O	
+7-13	der	ART	die	_	O	O	
+7-14	Ernennung	NN	Ernennung	_	O	O	
+7-15	des	ART	die	_	O	O	
+7-16	1	CARD	1	_	O	O	
+7-17	.	$.	.	_	O	O	
+
+#id=8
+#text=Secretärs übergangen werde.
+8-1	Secretärs	NN	<unknown>	_	O	O	
+8-2	übergangen	VVPP	übergehen	_	O	O	
+8-3	werde	VAFIN	werden	_	O	O	
+8-4	.	$.	.	_	O	O	
+
+#id=9
+#text=Im Gegentheile mein Ansehn wird dadurch steigen und ich gewinne gewisser Maßen den Nimbus eines Märtyrers, wogegen sich die Central Direktion aufs Neue discreditirt und den zukünftigen Secretären die Position schwierig ja geradezu unmöglich macht.
+9-1	Im	APPRART	in	_	O	O	
+9-2	Gegentheile	NN	<unknown>	_	O	O	
+9-3	mein	PPOSAT	mein	_	O	O	
+9-4	Ansehn	NN	<UNKNOWN>	_	O	O	
+9-5	wird	VAFIN	werden	_	O	O	
+9-6	dadurch	PAV	dadurch	_	O	O	
+9-7	steigen	VVINF	steigen	_	O	O	
+9-8	und	KON	und	_	O	O	
+9-9	ich	PPER	ich	_	O	O	
+9-10	gewinne	VVFIN	gewinnen	_	O	O	
+9-11	gewisser	ADJA	gewiss	_	O	O	
+9-12	Maßen	NN	Maß	_	O	O	
+9-13	den	ART	die	_	O	O	
+9-14	Nimbus	NN	Nimbus	_	O	O	
+9-15	eines	ART	eine	_	O	O	
+9-16	Märtyrers	NN	Märtyrer	_	O	O	
+9-17	,	$,	,	_	O	O	
+9-18	wogegen	PWAV	wogegen	_	O	O	
+9-19	sich	PRF	sich	_	O	O	
+9-20	die	ART	die	_	O	O	
+9-21	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-22	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+9-23	aufs	APPRART	aufs	_	O	O	
+9-24	Neue	ADJA	neu	_	O	O	
+9-25	discreditirt	NN	<unknown>	_	O	O	
+9-26	und	KON	und	_	O	O	
+9-27	den	ART	die	_	O	O	
+9-28	zukünftigen	ADJA	zukünftig	_	O	O	
+9-29	Secretären	NN	<unknown>	_	O	O	
+9-30	die	ART	die	_	O	O	
+9-31	Position	NN	Position	_	O	O	
+9-32	schwierig	ADJD	schwierig	_	O	O	
+9-33	ja	ADV	ja	_	O	O	
+9-34	geradezu	ADV	geradezu	_	O	O	
+9-35	unmöglich	ADJD	unmöglich	_	O	O	
+9-36	macht	VVFIN	machen	_	O	O	
+9-37	.	$.	.	_	O	O	
+
+#id=10
+#text=Außerdem würde ich durch ein brutales Vorgehen der Central Direction von jeder Rücksicht entbunden und hätte die moralische Berechtigung meine eigenen Bahnen zu verfolgen und, wenn es mir paßt, selbst in entschiedenen Gegensatz zum Institute zu treten.
+10-1	Außerdem	ADV	außerdem	_	O	O	
+10-2	würde	VAFIN	werden	_	O	O	
+10-3	ich	PPER	ich	_	O	O	
+10-4	durch	APPR	durch	_	O	O	
+10-5	ein	ART	eine	_	O	O	
+10-6	brutales	ADJA	brutal	_	O	O	
+10-7	Vorgehen	NN	Vorgehen	_	O	O	
+10-8	der	ART	die	_	O	O	
+10-9	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-10	Direction	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+10-11	von	APPR	von	_	O	O	
+10-12	jeder	PIAT	jede	_	O	O	
+10-13	Rücksicht	NN	Rücksicht	_	O	O	
+10-14	entbunden	VVPP	entbinden	_	O	O	
+10-15	und	KON	und	_	O	O	
+10-16	hätte	VAFIN	haben	_	O	O	
+10-17	die	ART	die	_	O	O	
+10-18	moralische	ADJA	moralisch	_	O	O	
+10-19	Berechtigung	NN	Berechtigung	_	O	O	
+10-20	meine	PPOSAT	mein	_	O	O	
+10-21	eigenen	ADJA	eigen	_	O	O	
+10-22	Bahnen	NN	Bahn|Bahnen	_	O	O	
+10-23	zu	PTKZU	zu	_	O	O	
+10-24	verfolgen	VVINF	verfolgen	_	O	O	
+10-25	und	KON	und	_	O	O	
+10-26	,	$,	,	_	O	O	
+10-27	wenn	KOUS	wenn	_	O	O	
+10-28	es	PPER	es	_	O	O	
+10-29	mir	PPER	ich	_	O	O	
+10-30	paßt	VVFIN	passen	_	O	O	
+10-31	,	$,	,	_	O	O	
+10-32	selbst	ADV	selbst	_	O	O	
+10-33	in	APPR	in	_	O	O	
+10-34	entschiedenen	ADJA	entschieden	_	O	O	
+10-35	Gegensatz	NN	Gegensatz	_	O	O	
+10-36	zum	APPRART	zu	_	O	O	
+10-37	Institute	NN	Institut	_	O	O	
+10-38	zu	PTKZU	zu	_	O	O	
+10-39	treten	VVINF	treten	_	O	O	
+10-40	.	$.	.	_	O	O	
+
+#id=11
+#text=Allerdings würde mir dies, wie Sie sich wohl den-
+11-1	Allerdings	ADV	allerdings	_	O	O	
+11-2	würde	VAFIN	werden	_	O	O	
+11-3	mir	PPER	ich	_	O	O	
+11-4	dies	PDS	dies	_	O	O	
+11-5	,	$,	,	_	O	O	
+11-6	wie	KOUS	wie	_	O	O	
+11-7	Sie	PPER	Sie	_	O	O	
+11-8	sich	PRF	sich	_	O	O	
+11-9	wohl	ADV	wohl	_	O	O	
+11-10	den-	TRUNC	den-	_	O	O	
+

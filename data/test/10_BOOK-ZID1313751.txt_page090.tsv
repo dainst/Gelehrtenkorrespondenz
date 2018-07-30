@@ -1,0 +1,134 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an ~~ Rom, 15. September 1863 3 ter einem Couvert hier eintrafen.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	~~	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	,	$,	,	_	O	O	
+1-6	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	3	CARD	3	_	O	O	
+1-11	ter	VVFIN	<unknown>	_	O	O	
+1-12	einem	ART	eine	_	O	O	
+1-13	Couvert	NN	<unknown>	_	O	O	
+1-14	hier	ADV	hier	_	O	O	
+1-15	eintrafen	VVINF	eintreffen	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Von den ragazzi weiß ich nichts Neues zu berichten außer daß Rutgers vorgestern eingetroffen ist.
+2-1	Von	APPR	von	_	O	O	
+2-2	den	ART	die	_	O	O	
+2-3	ragazzi	NN	<unknown>	_	O	O	
+2-4	weiß	VVFIN	wissen	_	O	O	
+2-5	ich	PPER	ich	_	O	O	
+2-6	nichts	PIAT	nichts	_	O	O	
+2-7	Neues	NN	Neue	_	O	O	
+2-8	zu	PTKZU	zu	_	O	O	
+2-9	berichten	VVINF	berichten	_	O	O	
+2-10	außer	APPR	außer	_	O	O	
+2-11	daß	KOUS	dass	_	O	O	
+2-12	Rutgers	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-13	vorgestern	ADV	vorgestern	_	O	O	
+2-14	eingetroffen	VVPP	eintreffen	_	O	O	
+2-15	ist	VAFIN	sein	_	O	O	
+2-16	.	$.	.	_	O	O	
+
+#id=3
+#text=Köhler hat die Stamponi seines Aufsatzes zurückgeschickt, corrigirt, aber ohne die ursprünglich von ihm beabsichtigte Modification.
+3-1	Köhler	NE	Köhler	_	O	O	
+3-2	hat	VAFIN	haben	_	O	O	
+3-3	die	ART	die	_	O	O	
+3-4	Stamponi	NN	<unknown>	_	O	O	
+3-5	seines	PPOSAT	sein	_	O	O	
+3-6	Aufsatzes	NN	Aufsatz	_	O	O	
+3-7	zurückgeschickt	VVPP	zurückschicken	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	corrigirt	NN	<unknown>	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	aber	ADV	aber	_	O	O	
+3-12	ohne	APPR	ohne	_	O	O	
+3-13	die	ART	die	_	O	O	
+3-14	ursprünglich	ADJD	ursprünglich	_	O	O	
+3-15	von	APPR	von	_	O	O	
+3-16	ihm	PPER	er	_	O	O	
+3-17	beabsichtigte	ADJA	beabsichtigt	_	O	O	
+3-18	Modification	NN	<unknown>	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Mit herzlichen Grüßen Ihr Wolfgang Helbig 1m.
+4-1	Mit	APPR	mit	_	O	O	
+4-2	herzlichen	ADJA	herzlich	_	O	O	
+4-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+4-4	Ihr	PPOSAT	ihr	_	O	O	
+4-5	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+4-6	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+4-7	1m	NN	<unknown>	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=Es würde mir sehr angenehm sein, wenn ich von jeder der von mir zu publicirenden caeretaner Vasen eine Abbildung zugeschickt bekommen könnte.
+5-1	Es	PPER	es	_	O	O	
+5-2	würde	VAFIN	werden	_	O	O	
+5-3	mir	PPER	ich	_	O	O	
+5-4	sehr	ADV	sehr	_	O	O	
+5-5	angenehm	ADJD	angenehm	_	O	O	
+5-6	sein	VAINF	sein	_	O	O	
+5-7	,	$,	,	_	O	O	
+5-8	wenn	KOUS	wenn	_	O	O	
+5-9	ich	PPER	ich	_	O	O	
+5-10	von	APPR	von	_	O	O	
+5-11	jeder	PIS	jede	_	O	O	
+5-12	der	ART	die	_	O	O	
+5-13	von	APPR	von	_	O	O	
+5-14	mir	PPER	ich	_	O	O	
+5-15	zu	PTKZU	zu	_	O	O	
+5-16	publicirenden	ADJA	<unknown>	_	O	O	
+5-17	caeretaner	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-18	Vasen	NN	Vase	_	I-webanno.custom.LetterEntity_	I-OBJ	
+5-19	eine	ART	eine	_	O	O	
+5-20	Abbildung	NN	Abbildung	_	O	O	
+5-21	zugeschickt	VVPP	zuschicken	_	O	O	
+5-22	bekommen	VVINF	bekommen	_	O	O	
+5-23	könnte	VMFIN	können	_	O	O	
+5-24	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Zeichnungen habe ich in der betreffenden Mappe nicht vorgefunden, also haben Sie sie ohne Zweifel mitgenommen.
+6-1	Die	ART	die	_	O	O	
+6-2	Zeichnungen	NN	Zeichnung	_	O	O	
+6-3	habe	VAFIN	haben	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	in	APPR	in	_	O	O	
+6-6	der	ART	die	_	O	O	
+6-7	betreffenden	ADJA	betreffend	_	O	O	
+6-8	Mappe	NN	Mappe	_	O	O	
+6-9	nicht	PTKNEG	nicht	_	O	O	
+6-10	vorgefunden	VVPP	vorfinden	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	also	ADV	also	_	O	O	
+6-13	haben	VAFIN	haben	_	O	O	
+6-14	Sie	PPER	Sie	_	O	O	
+6-15	sie	PPER	sie	_	O	O	
+6-16	ohne	APPR	ohne	_	O	O	
+6-17	Zweifel	NN	Zweifel	_	O	O	
+6-18	mitgenommen	VVPP	mitnehmen	_	O	O	
+6-19	.	$.	.	_	O	O	
+
+#id=7
+#text=Villeicht kann ich bei der Beschreibung noch Einiges präcisiren.
+7-1	Villeicht	NN	<unknown>	_	O	O	
+7-2	kann	VMFIN	können	_	O	O	
+7-3	ich	PPER	ich	_	O	O	
+7-4	bei	APPR	bei	_	O	O	
+7-5	der	ART	die	_	O	O	
+7-6	Beschreibung	NN	Beschreibung	_	O	O	
+7-7	noch	ADV	noch	_	O	O	
+7-8	Einiges	NN	<unknown>	_	O	O	
+7-9	präcisiren	ADJD	<unknown>	_	O	O	
+7-10	.	$.	.	_	O	O	
+

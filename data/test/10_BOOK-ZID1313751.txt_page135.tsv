@@ -1,0 +1,131 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=23 Wolfgang Helbig an Heinrich Brunn Rom, 2. Dezember 1879 2 Hoffentlich geht es bei Ihnen gut.
+1-1	23	CARD	23	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1879	CARD	1879	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	2	CARD	2	_	O	O	
+1-14	Hoffentlich	ADV	hoffentlich	_	O	O	
+1-15	geht	VVFIN	gehen	_	O	O	
+1-16	es	PPER	es	_	O	O	
+1-17	bei	APPR	bei	_	O	O	
+1-18	Ihnen	PPER	Sie	_	O	O	
+1-19	gut	ADJD	gut	_	O	O	
+1-20	.	$.	.	_	O	O	
+
+#id=2
+#text=Meine Frau, die Sie und Frau Brunn herzlich grüßt, in ist Folge der Marienbader Cur, des vielen Umherreisenreisens, der Gegenwart von Liszt und der Excention seiner Musik wieder recht leidend und muß ein ganz zurückgezogenes Leben füh~ ren.
+2-1	Meine	PPOSAT	mein	_	O	O	
+2-2	Frau	NN	Frau	_	O	O	
+2-3	,	$,	,	_	O	O	
+2-4	die	PRELS	die	_	O	O	
+2-5	Sie	PPER	Sie	_	O	O	
+2-6	und	KON	und	_	O	O	
+2-7	Frau	NN	Frau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-8	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-9	herzlich	ADJD	herzlich	_	O	O	
+2-10	grüßt	VVFIN	grüßen	_	O	O	
+2-11	,	$,	,	_	O	O	
+2-12	in	APPR	in	_	O	O	
+2-13	ist	VAFIN	sein	_	O	O	
+2-14	Folge	NN	Folge	_	O	O	
+2-15	der	ART	die	_	O	O	
+2-16	Marienbader	NE	Marienbader	_	O	O	
+2-17	Cur	NE	<unknown>	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	des	ART	die	_	O	O	
+2-20	vielen	PIAT	viele	_	O	O	
+2-21	Umherreisenreisens	NN	<unknown>	_	O	O	
+2-22	,	$,	,	_	O	O	
+2-23	der	ART	die	_	O	O	
+2-24	Gegenwart	NN	Gegenwart	_	O	O	
+2-25	von	APPR	von	_	O	O	
+2-26	Liszt	NE	Liszt	_	O	O	
+2-27	und	KON	und	_	O	O	
+2-28	der	ART	die	_	O	O	
+2-29	Excention	NN	<unknown>	_	O	O	
+2-30	seiner	PPOSAT	sein	_	O	O	
+2-31	Musik	NN	Musik	_	O	O	
+2-32	wieder	ADV	wieder	_	O	O	
+2-33	recht	ADJD	recht	_	O	O	
+2-34	leidend	ADJD	leidend	_	O	O	
+2-35	und	KON	und	_	O	O	
+2-36	muß	VMFIN	müssen	_	O	O	
+2-37	ein	ART	eine	_	O	O	
+2-38	ganz	ADV	ganz	_	O	O	
+2-39	zurückgezogenes	ADJA	zurückgezogen	_	O	O	
+2-40	Leben	NN	Leben	_	O	O	
+2-41	füh~	VVFIN	<unknown>	_	O	O	
+2-42	ren.	NE	Ren.	_	O	O	
+
+#id=3
+#text=Hoffentlich wird es mit eintretender Tramontana besser.
+3-1	Hoffentlich	ADV	hoffentlich	_	O	O	
+3-2	wird	VAFIN	werden	_	O	O	
+3-3	es	PPER	es	_	O	O	
+3-4	mit	APPR	mit	_	O	O	
+3-5	eintretender	ADJA	eintretend	_	O	O	
+3-6	Tramontana	NN	<unknown>	_	O	O	
+3-7	besser	ADJD	gut	_	O	O	
+3-8	.	$.	.	_	O	O	
+
+#id=4
+#text=Vielen Dank für Ihren bukolischen Artikel, der vortrefflich in meine Combinationen hineinpaßt.
+4-1	Vielen	PIAT	viele	_	O	O	
+4-2	Dank	NN	Dank	_	O	O	
+4-3	für	APPR	für	_	O	O	
+4-4	Ihren	PPOSAT	ihr	_	O	O	
+4-5	bukolischen	ADJA	bukolisch	_	O	O	
+4-6	Artikel	NN	Artikel	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	der	PRELS	die	_	O	O	
+4-9	vortrefflich	ADJD	vortrefflich	_	O	O	
+4-10	in	APPR	in	_	O	O	
+4-11	meine	PPOSAT	mein	_	O	O	
+4-12	Combinationen	NN	<unknown>	_	O	O	
+4-13	hineinpaßt	VVFIN	hineinpassen	_	O	O	
+4-14	.	$.	.	_	O	O	
+
+#id=5
+#text=Mit herzlichen Grüßen Ihr ergebener Helbig Duhn schreibt mir, er habe einen Abguß des Sermonetaschen Kopfes an Sie abgehen lassen, weshalb ich auf die Aquisition dieses Stückes verzichtet.
+5-1	Mit	APPR	mit	_	O	O	
+5-2	herzlichen	ADJA	herzlich	_	O	O	
+5-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+5-4	Ihr	PPOSAT	ihr	_	O	O	
+5-5	ergebener	ADJA	ergeben	_	O	O	
+5-6	Helbig	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+5-7	Duhn	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-8	schreibt	VVFIN	schreiben	_	O	O	
+5-9	mir	PPER	ich	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	er	PPER	er	_	O	O	
+5-12	habe	VAFIN	haben	_	O	O	
+5-13	einen	ART	eine	_	O	O	
+5-14	Abguß	NN	Abguß	_	O	O	
+5-15	des	ART	die	_	O	O	
+5-16	Sermonetaschen	NN	<unknown>	_	O	O	
+5-17	Kopfes	NN	Kopf	_	O	O	
+5-18	an	APPR	an	_	O	O	
+5-19	Sie	PPER	Sie	_	O	O	
+5-20	abgehen	VVINF	abgehen	_	O	O	
+5-21	lassen	VVINF	lassen	_	O	O	
+5-22	,	$,	,	_	O	O	
+5-23	weshalb	PWAV	weshalb	_	O	O	
+5-24	ich	PPER	ich	_	O	O	
+5-25	auf	APPR	auf	_	O	O	
+5-26	die	ART	die	_	O	O	
+5-27	Aquisition	NN	<unknown>	_	O	O	
+5-28	dieses	PDAT	dies	_	O	O	
+5-29	Stückes	NN	Stück	_	O	O	
+5-30	verzichtet	VVPP	verzichten	_	O	O	
+5-31	.	$.	.	_	O	O	
+

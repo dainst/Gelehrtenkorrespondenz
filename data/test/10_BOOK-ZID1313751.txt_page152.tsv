@@ -1,0 +1,74 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=59 Akademische Buchdruckerei München an Heinrich Brunn Auf Seite 1 Brief von Helbig an die Akademische Buchdruckerei München P. P. Erhielten soeben nebenstehenden Brief, den wir Ihnen mit der höflichen Bemerkung zur Kenntnis bringen, daß wir um baldigste Übersendung dieser genannten beiden Bogen bitten müssen indem wir nun auch von Seiten der Akademie gedrängt sind.
+1-1	59	CARD	59	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-2	Akademische	ADJA	akademisch	_	O	O	
+1-3	Buchdruckerei	NN	Buchdruckerei	_	O	O	
+1-4	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-8	Auf	APPR	auf	_	O	O	
+1-9	Seite	NN	Seite	_	O	O	
+1-10	1	CARD	1	_	O	O	
+1-11	Brief	NN	Brief	_	O	O	
+1-12	von	APPR	von	_	O	O	
+1-13	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-14	an	APPR	an	_	O	O	
+1-15	die	ART	die	_	O	O	
+1-16	Akademische	ADJA	akademisch	_	O	O	
+1-17	Buchdruckerei	NN	Buchdruckerei	_	O	O	
+1-18	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-19	P.	NE	P.	_	O	O	
+1-20	P.	NE	P.	_	O	O	
+1-21	Erhielten	VVFIN	erhalten	_	O	O	
+1-22	soeben	ADV	soeben	_	O	O	
+1-23	nebenstehenden	ADJA	nebenstehend	_	O	O	
+1-24	Brief	NN	Brief	_	O	O	
+1-25	,	$,	,	_	O	O	
+1-26	den	PRELS	die	_	O	O	
+1-27	wir	PPER	wir	_	O	O	
+1-28	Ihnen	PPER	Sie	_	O	O	
+1-29	mit	APPR	mit	_	O	O	
+1-30	der	ART	die	_	O	O	
+1-31	höflichen	ADJA	höflich	_	O	O	
+1-32	Bemerkung	NN	Bemerkung	_	O	O	
+1-33	zur	APPRART	zu	_	O	O	
+1-34	Kenntnis	NN	Kenntnis	_	O	O	
+1-35	bringen	VVFIN	bringen	_	O	O	
+1-36	,	$,	,	_	O	O	
+1-37	daß	KOUS	dass	_	O	O	
+1-38	wir	PPER	wir	_	O	O	
+1-39	um	APPR	um	_	O	O	
+1-40	baldigste	ADJA	<unknown>	_	O	O	
+1-41	Übersendung	NN	Übersendung	_	O	O	
+1-42	dieser	PDAT	dies	_	O	O	
+1-43	genannten	ADJA	genannt	_	O	O	
+1-44	beiden	PIAT	beide	_	O	O	
+1-45	Bogen	NN	Bogen	_	O	O	
+1-46	bitten	VVINF	bitten	_	O	O	
+1-47	müssen	VMINF	müssen	_	O	O	
+1-48	indem	KOUS	indem	_	O	O	
+1-49	wir	PPER	wir	_	O	O	
+1-50	nun	ADV	nun	_	O	O	
+1-51	auch	ADV	auch	_	O	O	
+1-52	von	APPR	von	_	O	O	
+1-53	Seiten	NN	Seite	_	O	O	
+1-54	der	ART	die	_	O	O	
+1-55	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-56	gedrängt	VVPP	drängen	_	O	O	
+1-57	sind	VAFIN	sein	_	O	O	
+1-58	.	$.	.	_	O	O	
+
+#id=2
+#text=Mit aller Hochachtung Akademische Buchdruckerei München 12/I 81.
+2-1	Mit	APPR	mit	_	O	O	
+2-2	aller	PIAT	alle	_	O	O	
+2-3	Hochachtung	NN	Hochachtung	_	O	O	
+2-4	Akademische	ADJA	akademisch	_	O	O	
+2-5	Buchdruckerei	NN	Buchdruckerei	_	O	O	
+2-6	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-7	12/I	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-8	81	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	.	$.	.	_	O	O	
+

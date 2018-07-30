@@ -1,0 +1,55 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=- 12 - Helbig/Brunn Umpfenbach 13.6.63 19.5.66 20.9.68 Visconti 22.8.63 Vogt, A.
+1-1	-	$(	-	_	O	O	
+1-2	12	CARD	12	_	O	O	
+1-3	-	$(	-	_	O	O	
+1-4	Helbig/Brunn	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	Umpfenbach	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEfrom	
+1-6	13.6.63	CARD	@card@	_	O	O	
+1-7	19.5.66	CARD	@card@	_	O	O	
+1-8	20.9.68	CARD	@card@	_	O	O	
+1-9	Visconti	NN	Visconte	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-10	22.8.63	CARD	@card@	_	O	O	
+1-11	Vogt	NN	Vogt	_	O	O	
+1-12	,	$,	,	_	O	O	
+1-13	A.	APPRART	am	_	O	O	
+
+#id=2
+#text=29.1.81 Volquardsen 29.1.81 Wachsmuth, Curt 29.1.81 Wecklein 16.3.69 Welcker 6.7.63 12.7.63 19.7.63 Wilmowitz-Möllen- 29.1.81 dorf, U. von Wilmanns, sein Vater 16.3.69 Winckelmann 30.7.63 Wissowa 4.11.83 Zabo 13.6.63 Zangemeister, c. 29.1.81 22.6.85
+2-1	29.1.81	CARD	@card@	_	O	O	
+2-2	Volquardsen	NE	<unknown>	_	O	O	
+2-3	29.1.81	CARD	@card@	_	O	O	
+2-4	Wachsmuth	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-5	,	$,	,	_	O	O	
+2-6	Curt	NE	Curt	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-7	29.1.81	CARD	@card@	_	O	O	
+2-8	Wecklein	NN	<unknown>	_	O	O	
+2-9	16.3.69	CARD	@card@	_	O	O	
+2-10	Welcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-11	6.7.63	CARD	@card@	_	O	O	
+2-12	12.7.63	CARD	@card@	_	O	O	
+2-13	19.7.63	CARD	@card@	_	O	O	
+2-14	Wilmowitz-Möllen-	TRUNC	<unknown>	_	O	O	
+2-15	29.1.81	CARD	@card@	_	O	O	
+2-16	dorf	ADJA	<unknown>	_	O	O	
+2-17	,	$,	,	_	O	O	
+2-18	U.	KON	u.	_	O	O	
+2-19	von	APPR	von	_	O	O	
+2-20	Wilmanns	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-21	,	$,	,	_	O	O	
+2-22	sein	PPOSAT	sein	_	O	O	
+2-23	Vater	NN	Vater	_	O	O	
+2-24	16.3.69	CARD	@card@	_	O	O	
+2-25	Winckelmann	NN	<unknown>	_	O	O	
+2-26	30.7.63	CARD	@card@	_	O	O	
+2-27	Wissowa	NN	<unknown>	_	O	O	
+2-28	4.11.83	CARD	@card@	_	O	O	
+2-29	Zabo	NN	<unknown>	_	O	O	
+2-30	13.6.63	CARD	@card@	_	O	O	
+2-31	Zangemeister	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-32	,	$,	,	_	O	O	
+2-33	c.	NN	<unknown>	_	O	O	
+2-34	29.1.81	CARD	@card@	_	O	O	
+2-35	22.6.85	CARD	@card@	_	O	O	
+

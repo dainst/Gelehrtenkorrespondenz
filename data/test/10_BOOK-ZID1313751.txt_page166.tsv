@@ -1,0 +1,218 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=36 Wolfgang Helbig an Heinrich Brunn Rom, 29. Februar 1881 r.
+1-1	36	CARD	36	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1881	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	r.	VVFIN	<unknown>	_	O	O	
+
+#id=2
+#text=5/111 81 Roma, li 29/2 81 Lieber Herr Professor Empfangen Sie beifolgend mit herzlichem Dank die für mich ausgelegten 50 Mark.
+2-1	5/111	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-2	81	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-3	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-4	,	$,	,	_	O	O	
+2-5	li	ADJD	<unknown>	_	O	O	
+2-6	29/2	CARD	@card@	_	O	O	
+2-7	81	CARD	@card@	_	O	O	
+2-8	Lieber	ADJA	lieb	_	O	O	
+2-9	Herr	NN	Herr	_	O	O	
+2-10	Professor	NN	Professor	_	O	O	
+2-11	Empfangen	NN	Empfangen	_	O	O	
+2-12	Sie	PPER	Sie	_	O	O	
+2-13	beifolgend	ADJD	<unknown>	_	O	O	
+2-14	mit	APPR	mit	_	O	O	
+2-15	herzlichem	ADJA	herzlich	_	O	O	
+2-16	Dank	NN	Dank	_	O	O	
+2-17	die	ART	die	_	O	O	
+2-18	für	APPR	für	_	O	O	
+2-19	mich	PPER	ich	_	O	O	
+2-20	ausgelegten	ADJA	ausgelegt	_	O	O	
+2-21	50	CARD	50	_	O	O	
+2-22	Mark	NN	Mark	_	O	O	
+2-23	.	$.	.	_	O	O	
+
+#id=3
+#text=Was den Malpierischen Imbr~lio betrifft, so verhält es sich damit folgender Massen: 5 der Köpfe waren von Malpieri, einer dagegen von einem anderen Former geformt.
+3-1	Was	PWS	was	_	O	O	
+3-2	den	ART	die	_	O	O	
+3-3	Malpierischen	NN	<unknown>	_	O	O	
+3-4	Imbr~lio	NN	<unknown>	_	O	O	
+3-5	betrifft	VVFIN	betreffen	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	so	ADV	so	_	O	O	
+3-8	verhält	VVFIN	verhalten	_	O	O	
+3-9	es	PPER	es	_	O	O	
+3-10	sich	PRF	sich	_	O	O	
+3-11	damit	PAV	damit	_	O	O	
+3-12	folgender	ADJA	folgend	_	O	O	
+3-13	Massen	NN	Masse	_	O	O	
+3-14	:	$.	:	_	O	O	
+3-15	5	CARD	5	_	O	O	
+3-16	der	ART	die	_	O	O	
+3-17	Köpfe	NN	Kopf	_	O	O	
+3-18	waren	VAFIN	sein	_	O	O	
+3-19	von	APPR	von	_	O	O	
+3-20	Malpieri	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-21	,	$,	,	_	O	O	
+3-22	einer	ART	eine	_	O	O	
+3-23	dagegen	PAV	dagegen	_	O	O	
+3-24	von	APPR	von	_	O	O	
+3-25	einem	ART	eine	_	O	O	
+3-26	anderen	PIAT	andere	_	O	O	
+3-27	Former	NN	Former	_	O	O	
+3-28	geformt	VVPP	formen	_	O	O	
+3-29	.	$.	.	_	O	O	
+
+#id=4
+#text=Malpieri erhob gegen meinen ausdrücklichen Befehl', als er die 5 Köpfe geliefert, den Betrag derselben bei dem Spediteur.
+4-1	Malpieri	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	erhob	VVFIN	erheben	_	O	O	
+4-3	gegen	APPR	gegen	_	O	O	
+4-4	meinen	PPOSAT	mein	_	O	O	
+4-5	ausdrücklichen	ADJA	ausdrücklich	_	O	O	
+4-6	Befehl	NN	Befehl	_	O	O	
+4-7	'	$(	'	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	als	KOUS	als	_	O	O	
+4-10	er	PPER	er	_	O	O	
+4-11	die	ART	die	_	O	O	
+4-12	5	CARD	5	_	O	O	
+4-13	Köpfe	NN	Kopf	_	O	O	
+4-14	geliefert	VVPP	liefern	_	O	O	
+4-15	,	$,	,	_	O	O	
+4-16	den	ART	die	_	O	O	
+4-17	Betrag	NN	Betrag	_	O	O	
+4-18	derselben	PDAT	dieselb	_	O	O	
+4-19	bei	APPR	bei	_	O	O	
+4-20	dem	ART	die	_	O	O	
+4-21	Spediteur	NN	Spediteur	_	O	O	
+4-22	.	$.	.	_	O	O	
+
+#id=5
+#text=Sonst bliebe noch der sechste von dem anderen Former geformten zu bezahlen übrig es war dies der Baraccosche Mädchenkopf und ich erhob die 15 Lire bei Henzen.
+5-1	Sonst	ADV	sonst	_	O	O	
+5-2	bliebe	VVFIN	bleiben	_	O	O	
+5-3	noch	ADV	noch	_	O	O	
+5-4	der	ART	die	_	O	O	
+5-5	sechste	ADJA	sechst	_	O	O	
+5-6	von	APPR	von	_	O	O	
+5-7	dem	ART	die	_	O	O	
+5-8	anderen	PIAT	andere	_	O	O	
+5-9	Former	NN	Former	_	O	O	
+5-10	geformten	ADJA	geformt	_	O	O	
+5-11	zu	PTKZU	zu	_	O	O	
+5-12	bezahlen	VVINF	bezahlen	_	O	O	
+5-13	übrig	ADJD	übrig	_	O	O	
+5-14	es	PPER	es	_	O	O	
+5-15	war	VAFIN	sein	_	O	O	
+5-16	dies	PDS	dies	_	O	O	
+5-17	der	ART	die	_	O	O	
+5-18	Baraccosche	NN	<unknown>	_	O	O	
+5-19	Mädchenkopf	NN	Mädchenkopf	_	O	O	
+5-20	und	KON	und	_	O	O	
+5-21	ich	PPER	ich	_	O	O	
+5-22	erhob	VVFIN	erheben	_	O	O	
+5-23	die	ART	die	_	O	O	
+5-24	15	CARD	15	_	O	O	
+5-25	Lire	NN	Lira	_	O	O	
+5-26	bei	APPR	bei	_	O	O	
+5-27	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-28	.	$.	.	_	O	O	
+
+#id=6
+#text=Haben Sie dem Münchener Spediteur einfach die Summe ausgezahlt, die er fcrderte, dann ist die Sache in Ordnung.
+6-1	Haben	VAFIN	haben	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	dem	ART	die	_	O	O	
+6-4	Münchener	ADJA	Münchener	_	O	O	
+6-5	Spediteur	NN	Spediteur	_	O	O	
+6-6	einfach	ADJD	einfach	_	O	O	
+6-7	die	ART	die	_	O	O	
+6-8	Summe	NN	Summe	_	O	O	
+6-9	ausgezahlt	VVPP	auszahlen	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	die	PRELS	die	_	O	O	
+6-12	er	PPER	er	_	O	O	
+6-13	fcrderte	NN	<unknown>	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	dann	ADV	dann	_	O	O	
+6-16	ist	VAFIN	sein	_	O	O	
+6-17	die	ART	die	_	O	O	
+6-18	Sache	NN	Sache	_	O	O	
+6-19	in	APPR	in	_	O	O	
+6-20	Ordnung	NN	Ordnung	_	O	O	
+6-21	.	$.	.	_	O	O	
+
+#id=7
+#text=Wenn Sie ihm dagegen auf meinen Brief vom 3. December 1879 hin noch 15 Lire mehr bezahlt haben, dann ist derselbe Kopf zweimal bezahlt worden und muß Malpieri 15 Lire zurückerstatten.
+7-1	Wenn	KOUS	wenn	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	ihm	PPER	er	_	O	O	
+7-4	dagegen	PAV	dagegen	_	O	O	
+7-5	auf	APPR	auf	_	O	O	
+7-6	meinen	PPOSAT	mein	_	O	O	
+7-7	Brief	NN	Brief	_	O	O	
+7-8	vom	APPRART	von	_	O	O	
+7-9	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-11	December	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-12	1879	CARD	1879	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-13	hin	APZR	hin	_	O	O	
+7-14	noch	ADV	noch	_	O	O	
+7-15	15	CARD	15	_	O	O	
+7-16	Lire	NN	Lira	_	O	O	
+7-17	mehr	ADV	mehr	_	O	O	
+7-18	bezahlt	VVPP	bezahlen	_	O	O	
+7-19	haben	VAFIN	haben	_	O	O	
+7-20	,	$,	,	_	O	O	
+7-21	dann	ADV	dann	_	O	O	
+7-22	ist	VAFIN	sein	_	O	O	
+7-23	derselbe	PDAT	derselb	_	O	O	
+7-24	Kopf	NN	Kopf	_	O	O	
+7-25	zweimal	ADV	zweimal	_	O	O	
+7-26	bezahlt	VVPP	bezahlen	_	O	O	
+7-27	worden	VAPP	werden	_	O	O	
+7-28	und	KON	und	_	O	O	
+7-29	muß	VMFIN	müssen	_	O	O	
+7-30	Malpieri	NN	<unknown>	_	O	O	
+7-31	15	CARD	15	_	O	O	
+7-32	Lire	NN	Lira	_	O	O	
+7-33	zurückerstatten	VVINF	zurückerstatten	_	O	O	
+7-34	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich bitte Sie in Ihren Rechnungen nachzusehen, wie es sich damit verhält.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	bitte	VVFIN	bitten	_	O	O	
+8-3	Sie	PPER	Sie	_	O	O	
+8-4	in	APPR	in	_	O	O	
+8-5	Ihren	PPOSAT	ihr	_	O	O	
+8-6	Rechnungen	NN	Rechnung	_	O	O	
+8-7	nachzusehen	VVIZU	nachsehen	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	wie	KOUS	wie	_	O	O	
+8-10	es	PPER	es	_	O	O	
+8-11	sich	PRF	sich	_	O	O	
+8-12	damit	PAV	damit	_	O	O	
+8-13	verhält	VVFIN	verhalten	_	O	O	
+8-14	.	$.	.	_	O	O	
+
+#id=9
+#text=Mit besten Grüßen Ihr ergebener Helbig
+9-1	Mit	APPR	mit	_	O	O	
+9-2	besten	ADJA	gut	_	O	O	
+9-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+9-4	Ihr	PPOSAT	ihr	_	O	O	
+9-5	ergebener	ADJA	ergeben	_	O	O	
+9-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

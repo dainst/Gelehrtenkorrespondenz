@@ -1,0 +1,115 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=60 Ernesto Maneini, Bekretariatschef der Lindei an Wolfgang Helbig Rom, 8. Oktober 1889 Roma, 8 ottobre 1889 Chiarissimo sig.
+1-1	60	CARD	60	_	O	O	
+1-2	Ernesto	NE	Ernesto	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	Maneini	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-4	,	$,	,	_	O	O	
+1-5	Bekretariatschef	NN	<unknown>	_	O	O	
+1-6	der	ART	die	_	O	O	
+1-7	Lindei	NN	<unknown>	_	O	O	
+1-8	an	APPR	an	_	O	O	
+1-9	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-10	Helbig	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-12	,	$,	,	_	O	O	
+1-13	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-14	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	1889	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-18	,	$,	,	_	O	O	
+1-19	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-20	ottobre	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	1889	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Chiarissimo	NN	<unknown>	_	O	O	
+1-23	sig	VVFIN	<unknown>	_	O	O	
+1-24	.	$.	.	_	O	O	
+
+#id=2
+#text=Professore, Le restituiseo l'appunto ehe Ella mi eonsegno, avvertendola ehe pud serivere al Prof Brunn ehe tutti i faseieoli mancanti gli saranno subito inviati, e ehe in breve egli rieevera anehe i volumi ultimi, i quali vennero gia spediti da vario tempo, per mezzo librario.
+2-1	Professore	NN	<unknown>	_	O	O	
+2-2	,	$,	,	_	O	O	
+2-3	Le	NE	Le	_	O	O	
+2-4	restituiseo	NE	<unknown>	_	O	O	
+2-5	l'appunto	NN	<unknown>	_	O	O	
+2-6	ehe	KOUS	ehe	_	O	O	
+2-7	Ella	NE	Ella	_	O	O	
+2-8	mi	ADJA	<unknown>	_	O	O	
+2-9	eonsegno	NN	<unknown>	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	avvertendola	NN	<unknown>	_	O	O	
+2-12	ehe	KOUS	ehe	_	O	O	
+2-13	pud	NE	<unknown>	_	O	O	
+2-14	serivere	ADJA	<unknown>	_	O	O	
+2-15	al	NE	al	_	O	O	
+2-16	Prof	NE	Prof	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-17	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-18	ehe	KOUS	ehe	_	O	O	
+2-19	tutti	NN	Tutti	_	O	O	
+2-20	i	NE	i	_	O	O	
+2-21	faseieoli	NE	<unknown>	_	O	O	
+2-22	mancanti	ADV	<unknown>	_	O	O	
+2-23	gli	NE	<unknown>	_	O	O	
+2-24	saranno	NE	<unknown>	_	O	O	
+2-25	subito	VVFIN	<unknown>	_	O	O	
+2-26	inviati	NE	<unknown>	_	O	O	
+2-27	,	$,	,	_	O	O	
+2-28	e	TRUNC	<unknown>	_	O	O	
+2-29	ehe	KOUS	ehe	_	O	O	
+2-30	in	APPR	in	_	O	O	
+2-31	breve	NE	<unknown>	_	O	O	
+2-32	egli	NE	<unknown>	_	O	O	
+2-33	rieevera	NE	<unknown>	_	O	O	
+2-34	anehe	NN	<unknown>	_	O	O	
+2-35	i	NE	i	_	O	O	
+2-36	volumi	NE	<unknown>	_	O	O	
+2-37	ultimi	NE	<unknown>	_	O	O	
+2-38	,	$,	,	_	O	O	
+2-39	i	NE	i	_	O	O	
+2-40	quali	NE	<unknown>	_	O	O	
+2-41	vennero	NE	<unknown>	_	O	O	
+2-42	gia	NE	Gia	_	O	O	
+2-43	spediti	NE	<unknown>	_	O	O	
+2-44	da	ADV	da	_	O	O	
+2-45	vario	NE	<unknown>	_	O	O	
+2-46	tempo	ADJD	<unknown>	_	O	O	
+2-47	,	$,	,	_	O	O	
+2-48	per	APPR	per	_	O	O	
+2-49	mezzo	NN	<unknown>	_	O	O	
+2-50	librario	NE	<unknown>	_	O	O	
+2-51	.	$.	.	_	O	O	
+
+#id=3
+#text=Tanti rispetti alla Bua gentilissima famiglia, ed a Lei i eordiali saluti deI Buo aff.mo E Mancini ( Es folgt ein Brief von Wolfgang Helbig an Heinrich Brunn )
+3-1	Tanti	ADJA	<unknown>	_	O	O	
+3-2	rispetti	NN	<unknown>	_	O	O	
+3-3	alla	NE	Alla	_	O	O	
+3-4	Bua	NE	<unknown>	_	O	O	
+3-5	gentilissima	NE	<unknown>	_	O	O	
+3-6	famiglia	NE	<unknown>	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	ed	ADJA	<unknown>	_	O	O	
+3-9	a	FM	a	_	O	O	
+3-10	Lei	NE	Lei	_	O	O	
+3-11	i	NE	i	_	O	O	
+3-12	eordiali	NE	<unknown>	_	O	O	
+3-13	saluti	NE	<unknown>	_	O	O	
+3-14	deI	ADJA	<unknown>	_	O	O	
+3-15	Buo	NN	<unknown>	_	O	O	
+3-16	aff.mo	NE	<unknown>	_	O	O	
+3-17	E	NN	E	_	O	O	
+3-18	Mancini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-19	(	$(	(	_	O	O	
+3-20	Es	PPER	es	_	O	O	
+3-21	folgt	VVFIN	folgen	_	O	O	
+3-22	ein	ART	eine	_	O	O	
+3-23	Brief	NN	Brief	_	O	O	
+3-24	von	APPR	von	_	O	O	
+3-25	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-26	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-27	an	APPR	an	_	O	O	
+3-28	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-29	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-30	)	$(	)	_	O	O	
+

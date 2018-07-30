@@ -1,0 +1,141 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=7 2 Wolfgang Helbig an Heinrich Brunn Rom, 16. März 1869 der Capitoliner bereits beträchtlich an zu lichten.
+1-1	7	CARD	7	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1869	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	der	ART	die	_	O	O	
+1-15	Capitoliner	NN	<unknown>	_	O	O	
+1-16	bereits	ADV	bereits	_	O	O	
+1-17	beträchtlich	ADJD	beträchtlich	_	O	O	
+1-18	an	PTKVZ	an	_	O	O	
+1-19	zu	PTKZU	zu	_	O	O	
+1-20	lichten	VVINF	lichten	_	O	O	
+1-21	.	$.	.	_	O	O	
+
+#id=2
+#text=Vater Wilmanns geht denn doch endlich nach Deutschland zurück, was auch für ihn sehr richtig ist.
+2-1	Vater	NN	Vater	_	O	O	
+2-2	Wilmanns	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-3	geht	VVFIN	gehen	_	O	O	
+2-4	denn	KON	denn	_	O	O	
+2-5	doch	ADV	doch	_	O	O	
+2-6	endlich	ADV	endlich	_	O	O	
+2-7	nach	APPR	nach	_	O	O	
+2-8	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-9	zurück	PTKVZ	zurück	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	was	PRELS	was	_	O	O	
+2-12	auch	ADV	auch	_	O	O	
+2-13	für	APPR	für	_	O	O	
+2-14	ihn	PPER	er	_	O	O	
+2-15	sehr	ADV	sehr	_	O	O	
+2-16	richtig	ADJD	richtig	_	O	O	
+2-17	ist	VAFIN	sein	_	O	O	
+2-18	.	$.	.	_	O	O	
+
+#id=3
+#text=Matz reist in 14 Tagen nach Griechenland ab.
+3-1	Matz	NE	Matz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	reist	VVFIN	reisen	_	O	O	
+3-3	in	APPR	in	_	O	O	
+3-4	14	CARD	14	_	O	O	
+3-5	Tagen	NN	Tag	_	O	O	
+3-6	nach	APPR	nach	_	O	O	
+3-7	Griechenland	NE	Griechenland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-8	ab	PTKVZ	ab	_	O	O	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Schlie ist in Neapel.
+4-1	Schlie	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	ist	VAFIN	sein	_	O	O	
+4-3	in	APPR	in	_	O	O	
+4-4	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-5	.	$.	.	_	O	O	
+
+#id=5
+#text=Leider war die Zahl der diesen Winter um das Institut gruppirten jungen Leute so groß, daß es unmöglich war, alle in einen abgeschlossenen Kreis zu vereinigen, und der Verkehr unter ihnen und mit ihnen nicht immer recht gemüthlich war.
+5-1	Leider	ADV	leider	_	O	O	
+5-2	war	VAFIN	sein	_	O	O	
+5-3	die	ART	die	_	O	O	
+5-4	Zahl	NN	Zahl	_	O	O	
+5-5	der	ART	die	_	O	O	
+5-6	diesen	PDAT	dies	_	O	O	
+5-7	Winter	NN	Winter	_	O	O	
+5-8	um	APPR	um	_	O	O	
+5-9	das	ART	die	_	O	O	
+5-10	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-11	gruppirten	NN	<unknown>	_	O	O	
+5-12	jungen	ADJA	jung	_	O	O	
+5-13	Leute	NN	Leute	_	O	O	
+5-14	so	ADV	so	_	O	O	
+5-15	groß	ADJD	groß	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	daß	KOUS	dass	_	O	O	
+5-18	es	PPER	es	_	O	O	
+5-19	unmöglich	ADJD	unmöglich	_	O	O	
+5-20	war	VAFIN	sein	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	alle	PIS	alle	_	O	O	
+5-23	in	APPR	in	_	O	O	
+5-24	einen	ART	eine	_	O	O	
+5-25	abgeschlossenen	ADJA	abgeschlossen	_	O	O	
+5-26	Kreis	NN	Kreis	_	O	O	
+5-27	zu	PTKZU	zu	_	O	O	
+5-28	vereinigen	VVINF	vereinigen	_	O	O	
+5-29	,	$,	,	_	O	O	
+5-30	und	KON	und	_	O	O	
+5-31	der	ART	die	_	O	O	
+5-32	Verkehr	NN	Verkehr	_	O	O	
+5-33	unter	APPR	unter	_	O	O	
+5-34	ihnen	PPER	sie	_	O	O	
+5-35	und	KON	und	_	O	O	
+5-36	mit	APPR	mit	_	O	O	
+5-37	ihnen	PPER	sie	_	O	O	
+5-38	nicht	PTKNEG	nicht	_	O	O	
+5-39	immer	ADV	immer	_	O	O	
+5-40	recht	ADJD	recht	_	O	O	
+5-41	gemüthlich	ADJD	<unknown>	_	O	O	
+5-42	war	VAFIN	sein	_	O	O	
+5-43	.	$.	.	_	O	O	
+
+#id=6
+#text=Meine Frau grüßt bestens.
+6-1	Meine	PPOSAT	mein	_	O	O	
+6-2	Frau	NN	Frau	_	O	O	
+6-3	grüßt	VVFIN	grüßen	_	O	O	
+6-4	bestens	ADV	bestens	_	O	O	
+6-5	.	$.	.	_	O	O	
+
+#id=7
+#text=Empfehlen Sie mich, bitte, vielmals Frau Brunn und vergessen Sie nicht ganz Ihren dankbaren W. Helbig
+7-1	Empfehlen	VVFIN	empfehlen	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	mich	PRF	ich	_	O	O	
+7-4	,	$,	,	_	O	O	
+7-5	bitte	VVIMP	bitten	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	vielmals	ADV	vielmals	_	O	O	
+7-8	Frau	NN	Frau	_	O	O	
+7-9	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-10	und	KON	und	_	O	O	
+7-11	vergessen	VVFIN	vergessen	_	O	O	
+7-12	Sie	PPER	Sie	_	O	O	
+7-13	nicht	PTKNEG	nicht	_	O	O	
+7-14	ganz	ADV	ganz	_	O	O	
+7-15	Ihren	PPOSAT	ihr	_	O	O	
+7-16	dankbaren	ADJA	dankbar	_	O	O	
+7-17	W.	NE	W.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+7-18	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

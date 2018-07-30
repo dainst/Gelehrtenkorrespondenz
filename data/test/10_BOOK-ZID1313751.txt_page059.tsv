@@ -1,0 +1,236 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=f' He I b ig an l1 .. ~-t.LVf..~· Rom 6. Juli 1863 Rom 6. Juli 1863 Geehrtester Herr Professor !
+1-1	f	NE	<unknown>	_	O	O	
+1-2	'	$(	'	_	O	O	
+1-3	He	NE	He	_	O	O	
+1-4	I	NE	I	_	O	O	
+1-5	b	VVFIN	<unknown>	_	O	O	
+1-6	ig	ADJD	<unknown>	_	O	O	
+1-7	an	APPR	an	_	O	O	
+1-8	l1	NN	<unknown>	_	O	O	
+1-9	.	$.	.	_	O	O	
+1-10	.	$.	.	_	O	O	
+1-11	~-t.LVf..~·	NN	<unknown>	_	O	O	
+1-12	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-13	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-14	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-18	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-20	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-21	1863	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-22	Geehrtester	ADJA	<unknown>	_	O	O	
+1-23	Herr	NN	Herr	_	O	O	
+1-24	Professor	NN	Professor	_	O	O	
+1-25	!	$.	!	_	O	O	
+
+#id=2
+#text=Ich bin glücklich aus Neapel zurückgekehrt, an Wissen und Anschauungen reicher, an Geld bedeutend ärmer, als ich war, wie ich hinkam.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	bin	VAFIN	sein	_	O	O	
+2-3	glücklich	ADJD	glücklich	_	O	O	
+2-4	aus	APPR	aus	_	O	O	
+2-5	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-6	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	an	APPR	an	_	O	O	
+2-9	Wissen	NN	Wissen	_	O	O	
+2-10	und	KON	und	_	O	O	
+2-11	Anschauungen	NN	Anschauung	_	O	O	
+2-12	reicher	ADJD	reich	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	an	APPR	an	_	O	O	
+2-15	Geld	NN	Geld	_	O	O	
+2-16	bedeutend	ADJD	bedeutend	_	O	O	
+2-17	ärmer	ADJD	arm	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	als	KON	als	_	O	O	
+2-20	ich	PPER	ich	_	O	O	
+2-21	war	VAFIN	sein	_	O	O	
+2-22	,	$,	,	_	O	O	
+2-23	wie	KOUS	wie	_	O	O	
+2-24	ich	PPER	ich	_	O	O	
+2-25	hinkam	VVFIN	hinkommen	_	O	O	
+2-26	.	$.	.	_	O	O	
+
+#id=3
+#text=Mit den Resultaten meiner Reise bin ich im Ganzen genommen zufrieden.
+3-1	Mit	APPR	mit	_	O	O	
+3-2	den	ART	die	_	O	O	
+3-3	Resultaten	NN	Resultat	_	O	O	
+3-4	meiner	PPOSAT	mein	_	O	O	
+3-5	Reise	NN	Reise	_	O	O	
+3-6	bin	VAFIN	sein	_	O	O	
+3-7	ich	PPER	ich	_	O	O	
+3-8	im	APPRART	in	_	O	O	
+3-9	Ganzen	NN	Ganze	_	O	O	
+3-10	genommen	VVPP	nehmen	_	O	O	
+3-11	zufrieden	ADJD	zufrieden	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Über die Antiken des Museo nazionale habe ich einen allgemeinen Überblick gewonnen und die darin befindlichen Gemälde gründlich durchstudirt.
+4-1	Über	APPR	über	_	O	O	
+4-2	die	ART	die	_	O	O	
+4-3	Antiken	NN	Antike	_	O	O	
+4-4	des	ART	die	_	O	O	
+4-5	Museo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-6	nazionale	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+4-7	habe	VAFIN	haben	_	O	O	
+4-8	ich	PPER	ich	_	O	O	
+4-9	einen	ART	eine	_	O	O	
+4-10	allgemeinen	ADJA	allgemein	_	O	O	
+4-11	Überblick	NN	Überblick	_	O	O	
+4-12	gewonnen	VVPP	gewinnen	_	O	O	
+4-13	und	KON	und	_	O	O	
+4-14	die	ART	die	_	O	O	
+4-15	darin	PAV	darin	_	O	O	
+4-16	befindlichen	ADJA	befindlich	_	O	O	
+4-17	Gemälde	NN	Gemälde	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-18	gründlich	ADJD	gründlich	_	O	O	
+4-19	durchstudirt	NN	<unknown>	_	O	O	
+4-20	.	$.	.	_	O	O	
+
+#id=5
+#text=Dagegen mit den in Pompei selbst befindlichen Gemälden konnte ich nicht fertig werden, obwohl ich dreimal von Neapel aus nach Pompei gegangen bin und schließlich fünf Tage ununterbrochen in Pompei zugebracht habe.
+5-1	Dagegen	PAV	dagegen	_	O	O	
+5-2	mit	APPR	mit	_	O	O	
+5-3	den	ART	die	_	O	O	
+5-4	in	APPR	in	_	O	O	
+5-5	Pompei	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-6	selbst	ADV	selbst	_	O	O	
+5-7	befindlichen	ADJA	befindlich	_	O	O	
+5-8	Gemälden	NN	Gemälde	_	B-webanno.custom.LetterEntity_	B-OBJ	
+5-9	konnte	VMFIN	können	_	O	O	
+5-10	ich	PPER	ich	_	O	O	
+5-11	nicht	PTKNEG	nicht	_	O	O	
+5-12	fertig	ADJD	fertig	_	O	O	
+5-13	werden	VAINF	werden	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	obwohl	KOUS	obwohl	_	O	O	
+5-16	ich	PPER	ich	_	O	O	
+5-17	dreimal	ADV	dreimal	_	O	O	
+5-18	von	APPR	von	_	O	O	
+5-19	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-20	aus	APPR	aus	_	O	O	
+5-21	nach	APPR	nach	_	O	O	
+5-22	Pompei	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-23	gegangen	VVPP	gehen	_	O	O	
+5-24	bin	VAFIN	sein	_	O	O	
+5-25	und	KON	und	_	O	O	
+5-26	schließlich	ADV	schließlich	_	O	O	
+5-27	fünf	CARD	fünf	_	O	O	
+5-28	Tage	NN	Tag	_	O	O	
+5-29	ununterbrochen	ADJD	ununterbrochen	_	O	O	
+5-30	in	APPR	in	_	O	O	
+5-31	Pompei	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-32	zugebracht	VVPP	zubringen	_	O	O	
+5-33	habe	VAFIN	haben	_	O	O	
+5-34	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich meinte, daß die in den früher ausgegrabenen Stadttheilen befindlichen beinahe alle publicirt wären, habe aber ungefähr dreißig unpublicirte Bilder vorgefunden, nicht etwa Repliken von bereits publicirten, sondern Bilder von selbstständigem Interesse oder welche dazu dienen, die bereits bekannten in gewissen Punkten zu erläutern.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	meinte	VVFIN	meinen	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	daß	KOUS	dass	_	O	O	
+6-5	die	ART	die	_	O	O	
+6-6	in	APPR	in	_	O	O	
+6-7	den	ART	die	_	O	O	
+6-8	früher	ADJD	früh	_	O	O	
+6-9	ausgegrabenen	ADJA	ausgegraben	_	O	O	
+6-10	Stadttheilen	NN	<unknown>	_	O	O	
+6-11	befindlichen	ADJA	befindlich	_	O	O	
+6-12	beinahe	ADV	beinahe	_	O	O	
+6-13	alle	PIAT	alle	_	O	O	
+6-14	publicirt	NN	<unknown>	_	O	O	
+6-15	wären	VAFIN	sein	_	O	O	
+6-16	,	$,	,	_	O	O	
+6-17	habe	VAFIN	haben	_	O	O	
+6-18	aber	ADV	aber	_	O	O	
+6-19	ungefähr	ADJD	ungefähr	_	O	O	
+6-20	dreißig	CARD	dreißig	_	O	O	
+6-21	unpublicirte	ADJA	<unknown>	_	O	O	
+6-22	Bilder	NN	Bild	_	O	O	
+6-23	vorgefunden	VVPP	vorfinden	_	O	O	
+6-24	,	$,	,	_	O	O	
+6-25	nicht	PTKNEG	nicht	_	O	O	
+6-26	etwa	ADV	etwa	_	O	O	
+6-27	Repliken	NN	Replik	_	O	O	
+6-28	von	APPR	von	_	O	O	
+6-29	bereits	ADV	bereits	_	O	O	
+6-30	publicirten	VVFIN	<unknown>	_	O	O	
+6-31	,	$,	,	_	O	O	
+6-32	sondern	KON	sondern	_	O	O	
+6-33	Bilder	NN	Bild	_	O	O	
+6-34	von	APPR	von	_	O	O	
+6-35	selbstständigem	ADJA	selbständig	_	O	O	
+6-36	Interesse	NN	Interesse	_	O	O	
+6-37	oder	KON	oder	_	O	O	
+6-38	welche	PIS	welche	_	O	O	
+6-39	dazu	PAV	dazu	_	O	O	
+6-40	dienen	VVFIN	dienen	_	O	O	
+6-41	,	$,	,	_	O	O	
+6-42	die	PRELS	die	_	O	O	
+6-43	bereits	ADV	bereits	_	O	O	
+6-44	bekannten	VVFIN	bekennen	_	O	O	
+6-45	in	APPR	in	_	O	O	
+6-46	gewissen	ADJA	gewiss	_	O	O	
+6-47	Punkten	NN	Punkt	_	O	O	
+6-48	zu	PTKZU	zu	_	O	O	
+6-49	erläutern	VVINF	erläutern	_	O	O	
+6-50	.	$.	.	_	O	O	
+
+#id=7
+#text=Sowie ich irgendwie Zeit und Mittel finde, werde ich nach Neapel zurückkehren, um die Arbeit in Pompei zu Ende zu bringen.
+7-1	Sowie	KOUS	sowie	_	O	O	
+7-2	ich	PPER	ich	_	O	O	
+7-3	irgendwie	ADV	irgendwie	_	O	O	
+7-4	Zeit	NN	Zeit	_	O	O	
+7-5	und	KON	und	_	O	O	
+7-6	Mittel	NN	Mittel	_	O	O	
+7-7	finde	VVFIN	finden	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	werde	VAFIN	werden	_	O	O	
+7-10	ich	PPER	ich	_	O	O	
+7-11	nach	APPR	nach	_	O	O	
+7-12	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-13	zurückkehren	VVINF	zurückkehren	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	um	KOUI	um	_	O	O	
+7-16	die	ART	die	_	O	O	
+7-17	Arbeit	NN	Arbeit	_	O	O	
+7-18	in	APPR	in	_	O	O	
+7-19	Pompei	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-20	zu	APPR	zu	_	O	O	
+7-21	Ende	NN	Ende	_	O	O	
+7-22	zu	PTKZU	zu	_	O	O	
+7-23	bringen	VVINF	bringen	_	O	O	
+7-24	.	$.	.	_	O	O	
+
+#id=8
+#text=Was die seit Ihrem letzten neapolitanischen Aufenthalte vollführten Ausgrabungen betrifft, so sind zwei Häuser, deren Ausgrabung schon vor
+8-1	Was	PWS	was	_	O	O	
+8-2	die	ART	die	_	O	O	
+8-3	seit	APPR	seit	_	O	O	
+8-4	Ihrem	PPOSAT	ihr	_	O	O	
+8-5	letzten	ADJA	letzt	_	O	O	
+8-6	neapolitanischen	ADJA	neapolitanisch	_	O	O	
+8-7	Aufenthalte	NN	Aufenthalt	_	O	O	
+8-8	vollführten	VVFIN	vollführen	_	O	O	
+8-9	Ausgrabungen	NN	Ausgrabung	_	O	O	
+8-10	betrifft	VVFIN	betreffen	_	O	O	
+8-11	,	$,	,	_	O	O	
+8-12	so	ADV	so	_	O	O	
+8-13	sind	VAFIN	sein	_	O	O	
+8-14	zwei	CARD	zwei	_	O	O	
+8-15	Häuser	NN	Haus	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	deren	PRELAT	die	_	O	O	
+8-18	Ausgrabung	NN	Ausgrabung	_	O	O	
+8-19	schon	ADV	schon	_	O	O	
+8-20	vor	APPR	vor	_	O	O	
+

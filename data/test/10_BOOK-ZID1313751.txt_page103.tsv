@@ -1,0 +1,57 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=5 Wolf gang Helbig an Heinrich Brunn Moskau, Oktober 1866 Le Prince et la Pri~esse Schakhovskoy ont L'honneur de Vous faire part du mariage de leur fille, la Princesse Nadejda, avec Monsieur Helbig, Secr~taire de l'Institut arch~ologique prussien a Rome.
+1-1	5	CARD	5	_	O	O	
+1-2	Wolf	NN	Wolf	_	O	O	
+1-3	gang	ADJD	gang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Moskau	NE	Moskau	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Le	NE	Le	_	O	O	
+1-13	Prince	NE	Prince	_	O	O	
+1-14	et	FM	et	_	O	O	
+1-15	la	FM	la	_	O	O	
+1-16	Pri~esse	NN	<unknown>	_	O	O	
+1-17	Schakhovskoy	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-18	ont	ADJA	<unknown>	_	O	O	
+1-19	L'honneur	NN	<unknown>	_	O	O	
+1-20	de	NE	de	_	O	O	
+1-21	Vous	NN	<unknown>	_	O	O	
+1-22	faire	ADJA	fair	_	O	O	
+1-23	part	VVFIN	<unknown>	_	O	O	
+1-24	du	PPER	du	_	O	O	
+1-25	mariage	NN	<unknown>	_	O	O	
+1-26	de	NE	de	_	O	O	
+1-27	leur	NN	<unknown>	_	O	O	
+1-28	fille	VVFIN	<unknown>	_	O	O	
+1-29	,	$,	,	_	O	O	
+1-30	la	FM	la	_	O	O	
+1-31	Princesse	NN	<unknown>	_	O	O	
+1-32	Nadejda	NE	Nadejda	_	O	O	
+1-33	,	$,	,	_	O	O	
+1-34	avec	NE	<unknown>	_	O	O	
+1-35	Monsieur	NN	Monsieur	_	O	O	
+1-36	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-37	,	$,	,	_	O	O	
+1-38	Secr~taire	NN	<unknown>	_	O	O	
+1-39	de	NE	de	_	O	O	
+1-40	l'Institut	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-41	arch~ologique	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+1-42	prussien	NE	<unknown>	_	O	O	
+1-43	a	FM	a	_	O	O	
+1-44	Rome	VVINF	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-45	.	$.	.	_	O	O	
+
+#id=2
+#text=Moscou, Octobre 1866.
+2-1	Moscou	NE	<unknown>	_	O	O	
+2-2	,	$,	,	_	O	O	
+2-3	Octobre	ADJA	<unknown>	_	O	O	
+2-4	1866	CARD	1866	_	O	O	
+2-5	.	$.	.	_	O	O	
+

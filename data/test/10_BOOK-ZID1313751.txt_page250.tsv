@@ -1,0 +1,251 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 4 Helbig an Brunn Rom, 22. Juni 1885 4) Die erste Sitzung im nächsten Winter wird von einem Mitgliede der Central Direktion, zu dem die Italiener allgemeines Vertrauen haben, das heißt z. B. von Ihnen eröffnet.
+1-1	2	CARD	2	_	O	O	
+1-2	4	CARD	4	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1885	CARD	1885	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	4	CARD	4	_	O	O	
+1-13	)	$(	)	_	O	O	
+1-14	Die	ART	die	_	O	O	
+1-15	erste	ADJA	erst	_	O	O	
+1-16	Sitzung	NN	Sitzung	_	O	O	
+1-17	im	APPRART	in	_	O	O	
+1-18	nächsten	ADJA	nah	_	O	O	
+1-19	Winter	NN	Winter	_	O	O	
+1-20	wird	VAFIN	werden	_	O	O	
+1-21	von	APPR	von	_	O	O	
+1-22	einem	ART	eine	_	O	O	
+1-23	Mitgliede	NN	<unknown>	_	O	O	
+1-24	der	ART	die	_	O	O	
+1-25	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-26	Direktion	NN	Direktion	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+1-27	,	$,	,	_	O	O	
+1-28	zu	APPR	zu	_	O	O	
+1-29	dem	PRELS	die	_	O	O	
+1-30	die	ART	die	_	O	O	
+1-31	Italiener	NN	Italiener	_	O	O	
+1-32	allgemeines	ADJA	allgemein	_	O	O	
+1-33	Vertrauen	NN	Vertrauen	_	O	O	
+1-34	haben	VAFIN	haben	_	O	O	
+1-35	,	$,	,	_	O	O	
+1-36	das	PDS	die	_	O	O	
+1-37	heißt	VVFIN	heißen	_	O	O	
+1-38	z.	APPRART	z.	_	O	O	
+1-39	B.	NN	B.	_	O	O	
+1-40	von	APPR	von	_	O	O	
+1-41	Ihnen	PPER	Sie	_	O	O	
+1-42	eröffnet	VVPP	eröffnen	_	O	O	
+1-43	.	$.	.	_	O	O	
+
+#id=2
+#text=Du~rch diese und ähnliche Maßregeln würde es vielleicht gelingen, den Mißcredit, in den das Institut gerathen ist, zu beseitigen.
+2-1	Du~rch	NN	<unknown>	_	O	O	
+2-2	diese	PDAT	dies	_	O	O	
+2-3	und	KON	und	_	O	O	
+2-4	ähnliche	ADJA	ähnlich	_	O	O	
+2-5	Maßregeln	NN	Maßregel	_	O	O	
+2-6	würde	VAFIN	werden	_	O	O	
+2-7	es	PPER	es	_	O	O	
+2-8	vielleicht	ADV	vielleicht	_	O	O	
+2-9	gelingen	VVINF	gelingen	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	den	ART	die	_	O	O	
+2-12	Mißcredit	NN	<unknown>	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	in	APPR	in	_	O	O	
+2-15	den	PRELS	die	_	O	O	
+2-16	das	ART	die	_	O	O	
+2-17	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-18	gerathen	VVPP	<unknown>	_	O	O	
+2-19	ist	VAFIN	sein	_	O	O	
+2-20	,	$,	,	_	O	O	
+2-21	zu	PTKZU	zu	_	O	O	
+2-22	beseitigen	VVINF	beseitigen	_	O	O	
+2-23	.	$.	.	_	O	O	
+
+#id=3
+#text=Über meine persönliche Stellung zu der Sache unterhalte ich mich mit Ihnen lieber mündlich.
+3-1	Über	APPR	über	_	O	O	
+3-2	meine	PPOSAT	mein	_	O	O	
+3-3	persönliche	ADJA	persönlich	_	O	O	
+3-4	Stellung	NN	Stellung	_	O	O	
+3-5	zu	APPR	zu	_	O	O	
+3-6	der	ART	die	_	O	O	
+3-7	Sache	NN	Sache	_	O	O	
+3-8	unterhalte	VVFIN	unterhalten	_	O	O	
+3-9	ich	PPER	ich	_	O	O	
+3-10	mich	PRF	ich	_	O	O	
+3-11	mit	APPR	mit	_	O	O	
+3-12	Ihnen	PPER	Sie	_	O	O	
+3-13	lieber	ADJD	lieb	_	O	O	
+3-14	mündlich	ADJD	mündlich	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Angelegenheit wird für mich dadurch complicirt, daß mir die Italiener, als die Krisis ruchbar wurde, den Antrag machten die Leitung eines von ihnen zu begründenden Instituts internationalen Charakters zu übernehmen.
+4-1	Die	ART	die	_	O	O	
+4-2	Angelegenheit	NN	Angelegenheit	_	O	O	
+4-3	wird	VAFIN	werden	_	O	O	
+4-4	für	APPR	für	_	O	O	
+4-5	mich	PRF	ich	_	O	O	
+4-6	dadurch	PAV	dadurch	_	O	O	
+4-7	complicirt	ADJD	<unknown>	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	daß	KOUS	dass	_	O	O	
+4-10	mir	PPER	ich	_	O	O	
+4-11	die	ART	die	_	O	O	
+4-12	Italiener	NN	Italiener	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	als	KOUS	als	_	O	O	
+4-15	die	ART	die	_	O	O	
+4-16	Krisis	NN	Krisis	_	O	O	
+4-17	ruchbar	ADJD	ruchbar	_	O	O	
+4-18	wurde	VAFIN	werden	_	O	O	
+4-19	,	$,	,	_	O	O	
+4-20	den	ART	die	_	O	O	
+4-21	Antrag	NN	Antrag	_	O	O	
+4-22	machten	VVFIN	machen	_	O	O	
+4-23	die	ART	die	_	O	O	
+4-24	Leitung	NN	Leitung	_	O	O	
+4-25	eines	ART	eine	_	O	O	
+4-26	von	APPR	von	_	O	O	
+4-27	ihnen	PPER	sie	_	O	O	
+4-28	zu	PTKZU	zu	_	O	O	
+4-29	begründenden	ADJA	begründend	_	O	O	
+4-30	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-31	internationalen	ADJA	international	_	O	O	
+4-32	Charakters	NN	Charakter	_	O	O	
+4-33	zu	PTKZU	zu	_	O	O	
+4-34	übernehmen	VVINF	übernehmen	_	O	O	
+4-35	.	$.	.	_	O	O	
+
+#id=5
+#text=Sie begreifen, daß dieser Antrag darauf hinausläuft, daß ich der Anstalt, an der ich 23 Jahre gewi~ ~o} und die jetzt durch die Mißgriffe der Berliner übel zugerichtet ist, recht eigentlich den Todesstoß geben soll.
+5-1	Sie	PPER	Sie	_	O	O	
+5-2	begreifen	VVFIN	begreifen	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	daß	KOUS	dass	_	O	O	
+5-5	dieser	PDAT	dies	_	O	O	
+5-6	Antrag	NN	Antrag	_	O	O	
+5-7	darauf	PAV	darauf	_	O	O	
+5-8	hinausläuft	VVFIN	hinauslaufen	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	daß	KOUS	dass	_	O	O	
+5-11	ich	PPER	ich	_	O	O	
+5-12	der	ART	die	_	O	O	
+5-13	Anstalt	NN	Anstalt	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	an	APPR	an	_	O	O	
+5-16	der	PRELS	die	_	O	O	
+5-17	ich	PPER	ich	_	O	O	
+5-18	23	CARD	23	_	O	O	
+5-19	Jahre	NN	Jahr	_	O	O	
+5-20	gewi~	ADJA	<unknown>	_	O	O	
+5-21	~o	NN	<unknown>	_	O	O	
+5-22	}	$(	}	_	O	O	
+5-23	und	KON	und	_	O	O	
+5-24	die	PDS	die	_	O	O	
+5-25	jetzt	ADV	jetzt	_	O	O	
+5-26	durch	APPR	durch	_	O	O	
+5-27	die	ART	die	_	O	O	
+5-28	Mißgriffe	NN	Missgriff	_	O	O	
+5-29	der	ART	die	_	O	O	
+5-30	Berliner	NN	Berliner	_	O	O	
+5-31	übel	ADJD	übel	_	O	O	
+5-32	zugerichtet	VVPP	zurichten	_	O	O	
+5-33	ist	VAFIN	sein	_	O	O	
+5-34	,	$,	,	_	O	O	
+5-35	recht	ADJD	recht	_	O	O	
+5-36	eigentlich	ADV	eigentlich	_	O	O	
+5-37	den	ART	die	_	O	O	
+5-38	Todesstoß	NN	Todesstoß	_	O	O	
+5-39	geben	VVINF	geben	_	O	O	
+5-40	soll	VMFIN	sollen	_	O	O	
+5-41	.	$.	.	_	O	O	
+
+#id=6
+#text=Was Sie mir über den Epheben Barracco schreiben, hat mich in hohem Grade überrascht.
+6-1	Was	PRELS	was	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	mir	PRF	ich	_	O	O	
+6-4	über	APPR	über	_	O	O	
+6-5	den	ART	die	_	O	O	
+6-6	Epheben	ADJA	<unknown>	_	O	O	
+6-7	Barracco	NN	<unknown>	_	O	O	
+6-8	schreiben	VVFIN	schreiben	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	hat	VAFIN	haben	_	O	O	
+6-11	mich	PRF	ich	_	O	O	
+6-12	in	APPR	in	_	O	O	
+6-13	hohem	ADJA	hoch	_	O	O	
+6-14	Grade	NN	Grad	_	O	O	
+6-15	überrascht	VVPP	überraschen	_	O	O	
+6-16	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Figur kann doch kaum etwas anderes darstellen als einen Öl eingießenden A.thleten.
+7-1	Die	ART	die	_	O	O	
+7-2	Figur	NN	Figur	_	O	O	
+7-3	kann	VMFIN	können	_	O	O	
+7-4	doch	ADV	doch	_	O	O	
+7-5	kaum	ADV	kaum	_	O	O	
+7-6	etwas	ADV	etwas	_	O	O	
+7-7	anderes	PIS	andere	_	O	O	
+7-8	darstellen	VVFIN	darstellen	_	O	O	
+7-9	als	KOKOM	als	_	O	O	
+7-10	einen	ART	eine	_	O	O	
+7-11	Öl	NN	Öl	_	O	O	
+7-12	eingießenden	VVFIN	<unknown>	_	O	O	
+7-13	A.thleten	NE	<unknown>	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Und dünkt Ihnen der Kopf nicht myronisch :?t.- Er stimmt ja in a~lem Wesentlichen zu m Lsc["1 Diskobolen Massimi Die 15 Lire werden ich also von den Kisten der Gypse des Anakreon und des archaischen Reliefs abziehen
+8-1	Und	KON	und	_	O	O	
+8-2	dünkt	VVFIN	dünken	_	O	O	
+8-3	Ihnen	PPER	Sie	_	O	O	
+8-4	der	ART	die	_	O	O	
+8-5	Kopf	NN	Kopf	_	O	O	
+8-6	nicht	PTKNEG	nicht	_	O	O	
+8-7	myronisch	ADJD	<unknown>	_	O	O	
+8-8	:	$.	:	_	O	O	
+8-9	?	$.	?	_	O	O	
+8-10	t.-	TRUNC	<unknown>	_	O	O	
+8-11	Er	PPER	er	_	O	O	
+8-12	stimmt	VVFIN	stimmen	_	O	O	
+8-13	ja	ADV	ja	_	O	O	
+8-14	in	APPR	in	_	O	O	
+8-15	a~lem	ADJA	<unknown>	_	O	O	
+8-16	Wesentlichen	NN	Wesentliche	_	O	O	
+8-17	zu	APPR	zu	_	O	O	
+8-18	m	NN	m	_	O	O	
+8-19	Lsc["1	CARD	<unknown>	_	O	O	
+8-20	Diskobolen	NN	<unknown>	_	O	O	
+8-21	Massimi	NE	<unknown>	_	O	O	
+8-22	Die	ART	die	_	O	O	
+8-23	15	CARD	15	_	O	O	
+8-24	Lire	NN	Lira	_	O	O	
+8-25	werden	VAFIN	werden	_	O	O	
+8-26	ich	PPER	ich	_	O	O	
+8-27	also	ADV	also	_	O	O	
+8-28	von	APPR	von	_	O	O	
+8-29	den	ART	die	_	O	O	
+8-30	Kisten	NN	Kiste	_	O	O	
+8-31	der	ART	die	_	O	O	
+8-32	Gypse	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-33	des	ART	die	_	I-webanno.custom.LetterEntity_	I-OBJ	
+8-34	Anakreon	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+8-35	und	KON	und	_	O	O	
+8-36	des	ART	die	_	O	O	
+8-37	archaischen	ADJA	archaisch	_	O	O	
+8-38	Reliefs	NN	Relief	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-39	abziehen	VVINF	abziehen	_	O	O	
+

@@ -1,0 +1,211 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=a) Helbig an Brunn Rom, 2. April 1885 r. 22/IV 85 Helbig an Brunn 2, April 1885, r. 22/IV 85 am Schluße langer Brief von Henzen Lieber Herr Professor ( Zunächst geschäftliche Abwicklung betreffs des Gypsabgusses von dem sich Salbe eingießenden Athleten - Barracco*, dann ) : •••• Ober die Veröffentlichung des Stückes brauchen wir uns nunmehr nicht zu verständigen, da es ja fraglich ist, ob die Institutspublicationen in der bisherigen Weise fortdauern und ob Renzen und ich am Institute verbleiben.
+1-1	a	FM	a	_	O	O	
+1-2	)	$(	)	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1885	CARD	1885	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	r.	VVFIN	<unknown>	_	O	O	
+1-13	22/IV	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+1-14	85	CARD	85	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+1-15	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-16	an	APPR	an	_	O	O	
+1-17	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-18	2	CARD	2	_	O	O	
+1-19	,	$,	,	_	O	O	
+1-20	April	NN	April	_	O	O	
+1-21	1885	CARD	1885	_	O	O	
+1-22	,	$,	,	_	O	O	
+1-23	r.	ADJA	<unknown>	_	O	O	
+1-24	22/IV	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+1-25	85	CARD	85	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+1-26	am	APPRART	an	_	O	O	
+1-27	Schluße	NN	<unknown>	_	O	O	
+1-28	langer	ADJA	lang	_	O	O	
+1-29	Brief	NN	Brief	_	O	O	
+1-30	von	APPR	von	_	O	O	
+1-31	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-32	Lieber	ADJA	lieb	_	O	O	
+1-33	Herr	NN	Herr	_	O	O	
+1-34	Professor	NN	Professor	_	O	O	
+1-35	(	$(	(	_	O	O	
+1-36	Zunächst	ADV	zunächst	_	O	O	
+1-37	geschäftliche	ADJA	geschäftlich	_	O	O	
+1-38	Abwicklung	NN	Abwicklung	_	O	O	
+1-39	betreffs	NN	Betreff	_	O	O	
+1-40	des	ART	die	_	O	O	
+1-41	Gypsabgusses	NN	<unknown>	_	O	O	
+1-42	von	APPR	von	_	O	O	
+1-43	dem	ART	die	_	O	O	
+1-44	sich	PRF	sich	_	O	O	
+1-45	Salbe	NN	Salbe	_	O	O	
+1-46	eingießenden	ADJA	<unknown>	_	O	O	
+1-47	Athleten	NN	Athlet	_	O	O	
+1-48	-	$(	-	_	O	O	
+1-49	Barracco*	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-50	,	$,	,	_	O	O	
+1-51	dann	ADV	dann	_	O	O	
+1-52	)	$(	)	_	O	O	
+1-53	:	$.	:	_	O	O	
+1-54	•	ADJA	<unknown>	_	O	O	
+1-55	•	NN	<unknown>	_	O	O	
+1-56	•	ADJD	<unknown>	_	O	O	
+1-57	•	ADJA	<unknown>	_	O	O	
+1-58	Ober	NN	Ober	_	O	O	
+1-59	die	ART	die	_	O	O	
+1-60	Veröffentlichung	NN	Veröffentlichung	_	O	O	
+1-61	des	ART	die	_	O	O	
+1-62	Stückes	NN	Stück	_	O	O	
+1-63	brauchen	VVFIN	brauchen	_	O	O	
+1-64	wir	PPER	wir	_	O	O	
+1-65	uns	PRF	wir	_	O	O	
+1-66	nunmehr	ADV	nunmehr	_	O	O	
+1-67	nicht	PTKNEG	nicht	_	O	O	
+1-68	zu	PTKZU	zu	_	O	O	
+1-69	verständigen	VVINF	verständigen	_	O	O	
+1-70	,	$,	,	_	O	O	
+1-71	da	KOUS	da	_	O	O	
+1-72	es	PPER	es	_	O	O	
+1-73	ja	ADV	ja	_	O	O	
+1-74	fraglich	ADJD	fraglich	_	O	O	
+1-75	ist	VAFIN	sein	_	O	O	
+1-76	,	$,	,	_	O	O	
+1-77	ob	KOUS	ob	_	O	O	
+1-78	die	ART	die	_	O	O	
+1-79	Institutspublicationen	NN	<unknown>	_	O	O	
+1-80	in	APPR	in	_	O	O	
+1-81	der	ART	die	_	O	O	
+1-82	bisherigen	ADJA	bisherig	_	O	O	
+1-83	Weise	NN	Weise	_	O	O	
+1-84	fortdauern	VVINF	fortdauern	_	O	O	
+1-85	und	KON	und	_	O	O	
+1-86	ob	KOUS	ob	_	O	O	
+1-87	Renzen	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-88	und	KON	und	_	O	O	
+1-89	ich	PPER	ich	_	O	O	
+1-90	am	APPRART	an	_	O	O	
+1-91	Institute	NN	Institut	_	O	O	
+1-92	verbleiben	VVINF	verbleiben	_	O	O	
+1-93	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich habe mir nie Illusionen gemacht über den Segen, welchen die von Berlin kommenden Beschlüsse dem Institute bereiten.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	habe	VAFIN	haben	_	O	O	
+2-3	mir	PPER	ich	_	O	O	
+2-4	nie	ADV	nie	_	O	O	
+2-5	Illusionen	NN	Illusion	_	O	O	
+2-6	gemacht	VVPP	machen	_	O	O	
+2-7	über	APPR	über	_	O	O	
+2-8	den	ART	die	_	O	O	
+2-9	Segen	NN	Segen	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	welchen	PRELS	welche	_	O	O	
+2-12	die	ART	die	_	O	O	
+2-13	von	APPR	von	_	O	O	
+2-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-15	kommenden	ADJA	kommend	_	O	O	
+2-16	Beschlüsse	NN	Beschluss	_	O	O	
+2-17	dem	ART	die	_	O	O	
+2-18	Institute	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-19	bereiten	VVFIN	bereiten	_	O	O	
+2-20	.	$.	.	_	O	O	
+
+#id=3
+#text=Aber nimmermehr hätte ich erwartet, daß die Berliner sich dazu hergeben würden, Beschlüsse zu fassen, die das Institut im eigentlichen Sinne des Wortes vernichten.
+3-1	Aber	KON	aber	_	O	O	
+3-2	nimmermehr	ADV	nimmermehr	_	O	O	
+3-3	hätte	VAFIN	haben	_	O	O	
+3-4	ich	PPER	ich	_	O	O	
+3-5	erwartet	VVPP	erwarten	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	daß	KOUS	dass	_	O	O	
+3-8	die	ART	die	_	O	O	
+3-9	Berliner	NN	Berliner	_	O	O	
+3-10	sich	PRF	sich	_	O	O	
+3-11	dazu	PAV	dazu	_	O	O	
+3-12	hergeben	VVINF	hergeben	_	O	O	
+3-13	würden	VAFIN	werden	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	Beschlüsse	NN	Beschluss	_	O	O	
+3-16	zu	PTKZU	zu	_	O	O	
+3-17	fassen	VVINF	fassen	_	O	O	
+3-18	,	$,	,	_	O	O	
+3-19	die	PRELS	die	_	O	O	
+3-20	das	ART	die	_	O	O	
+3-21	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-22	im	APPRART	in	_	O	O	
+3-23	eigentlichen	ADJA	eigentlich	_	O	O	
+3-24	Sinne	NN	Sinn	_	O	O	
+3-25	des	ART	die	_	O	O	
+3-26	Wortes	NN	Wort	_	O	O	
+3-27	vernichten	VVINF	vernichten	_	O	O	
+3-28	.	$.	.	_	O	O	
+
+#id=4
+#text=Meines Erachtens hätten die Berliner Mitglieder der Central Direction nach den Forderungen des Reichskanzleramtes sofort ihre Entlassung nehmen sollen.
+4-1	Meines	PPOSAT	mein	_	O	O	
+4-2	Erachtens	NN	Erachten	_	O	O	
+4-3	hätten	VAFIN	haben	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	Berliner	ADJA	Berliner	_	O	O	
+4-6	Mitglieder	NN	Mitglied	_	O	O	
+4-7	der	ART	die	_	O	O	
+4-8	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-9	Direction	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+4-10	nach	APPR	nach	_	O	O	
+4-11	den	ART	die	_	O	O	
+4-12	Forderungen	NN	Forderung	_	O	O	
+4-13	des	ART	die	_	O	O	
+4-14	Reichskanzleramtes	NN	<unknown>	_	O	O	
+4-15	sofort	ADV	sofort	_	O	O	
+4-16	ihre	PPOSAT	ihr	_	O	O	
+4-17	Entlassung	NN	Entlassung	_	O	O	
+4-18	nehmen	VVINF	nehmen	_	O	O	
+4-19	sollen	VMINF	sollen	_	O	O	
+4-20	.	$.	.	_	O	O	
+
+#id=5
+#text=Jeden Falls wird die unheilvolle Geschichte mancherlei Staub aufwirbeln.
+5-1	Jeden	PIAT	jede	_	O	O	
+5-2	Falls	NN	Fall	_	O	O	
+5-3	wird	VAFIN	werden	_	O	O	
+5-4	die	ART	die	_	O	O	
+5-5	unheilvolle	ADJA	unheilvoll	_	O	O	
+5-6	Geschichte	NN	Geschichte	_	O	O	
+5-7	mancherlei	PIAT	mancherlei	_	O	O	
+5-8	Staub	NN	Staub	_	O	O	
+5-9	aufwirbeln	VVINF	aufwirbeln	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=* Bocconi The Barracco collection Rom (1926) n. 99, S. 15 Ta!
+6-1	*	XY	*	_	O	O	
+6-2	Bocconi	NN	<unknown>	_	O	O	
+6-3	The	FM	The	_	O	O	
+6-4	Barracco	NE	<unknown>	_	O	O	
+6-5	collection	NN	<unknown>	_	O	O	
+6-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+6-7	(	$(	(	_	O	O	
+6-8	1926	CARD	@card@	_	O	O	
+6-9	)	$(	)	_	O	O	
+6-10	n.	APPR	n.	_	O	O	
+6-11	99	CARD	99	_	O	O	
+6-12	,	$,	,	_	O	O	
+6-13	S.	NE	S.	_	O	O	
+6-14	15	CARD	15	_	O	O	
+6-15	Ta	VVFIN	<unknown>	_	O	O	
+6-16	!	$.	!	_	O	O	
+
+#id=7
+#text=32.
+7-1	32	CARD	32	_	O	O	
+7-2	.	$.	.	_	O	O	
+

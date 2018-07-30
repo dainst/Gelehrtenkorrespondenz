@@ -1,0 +1,217 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=32 Wolfgang Helbig an Heinrich Brunn Rom, 5 • Januar 188~.1 2 trübes.
+1-1	32	CARD	32	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	•	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	188~.1	CARD	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	2	CARD	2	_	O	O	
+1-14	trübes	ADJA	trüb	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=Abgesehen von den persönlichen Beziehungen ist sein Verlust auch für das Institut ein unersetzlicher.
+2-1	Abgesehen	ADJD	abgesehen	_	O	O	
+2-2	von	APPR	von	_	O	O	
+2-3	den	ART	die	_	O	O	
+2-4	persönlichen	ADJA	persönlich	_	O	O	
+2-5	Beziehungen	NN	Beziehung	_	O	O	
+2-6	ist	VAFIN	sein	_	O	O	
+2-7	sein	PPOSAT	sein	_	O	O	
+2-8	Verlust	NN	Verlust	_	O	O	
+2-9	auch	ADV	auch	_	O	O	
+2-10	für	APPR	für	_	O	O	
+2-11	das	ART	die	_	O	O	
+2-12	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-13	ein	ART	eine	_	O	O	
+2-14	unersetzlicher	ADJA	unersetzlich	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Unter den immer schwieriger werdenden Verhältnissen war es für uns ein wahrer Segen einen Mann an dem Institute thätig zu wissen, der Land und Leute kannte, und der fähig war selbstständig vorzugehen.
+3-1	Unter	APPR	unter	_	O	O	
+3-2	den	ART	die	_	O	O	
+3-3	immer	ADV	immer	_	O	O	
+3-4	schwieriger	ADJA	schwierig	_	O	O	
+3-5	werdenden	ADJA	werdend	_	O	O	
+3-6	Verhältnissen	NN	Verhältnis	_	O	O	
+3-7	war	VAFIN	sein	_	O	O	
+3-8	es	PPER	es	_	O	O	
+3-9	für	APPR	für	_	O	O	
+3-10	uns	PPER	wir	_	O	O	
+3-11	ein	ART	eine	_	O	O	
+3-12	wahrer	ADJA	wahr	_	O	O	
+3-13	Segen	NN	Segen	_	O	O	
+3-14	einen	ART	eine	_	O	O	
+3-15	Mann	NN	Mann	_	O	O	
+3-16	an	APPR	an	_	O	O	
+3-17	dem	ART	die	_	O	O	
+3-18	Institute	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-19	thätig	ADJD	<unknown>	_	O	O	
+3-20	zu	PTKZU	zu	_	O	O	
+3-21	wissen	VVINF	wissen	_	O	O	
+3-22	,	$,	,	_	O	O	
+3-23	der	ART	die	_	O	O	
+3-24	Land	NN	Land	_	O	O	
+3-25	und	KON	und	_	O	O	
+3-26	Leute	NN	Leute	_	O	O	
+3-27	kannte	VVFIN	kennen	_	O	O	
+3-28	,	$,	,	_	O	O	
+3-29	und	KON	und	_	O	O	
+3-30	der	PRELS	die	_	O	O	
+3-31	fähig	ADJD	fähig	_	O	O	
+3-32	war	VAFIN	sein	_	O	O	
+3-33	selbstständig	ADJD	selbständig	_	O	O	
+3-34	vorzugehen	VVIZU	vorgehen	_	O	O	
+3-35	.	$.	.	_	O	O	
+
+#id=4
+#text=Geld haben wir ja jetzt genug.
+4-1	Geld	NN	Geld	_	O	O	
+4-2	haben	VAFIN	haben	_	O	O	
+4-3	wir	PPER	wir	_	O	O	
+4-4	ja	ADV	ja	_	O	O	
+4-5	jetzt	ADV	jetzt	_	O	O	
+4-6	genug	ADV	genug	_	O	O	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=Aber es fehlt uns vor allem an Kräften, die unter den obwaltenden Verhältnissen geeignet sind die Interessen des Institutes persönlich innerhalb und außerhalb Roms zu vertreten.
+5-1	Aber	KON	aber	_	O	O	
+5-2	es	PPER	es	_	O	O	
+5-3	fehlt	VVFIN	fehlen	_	O	O	
+5-4	uns	PPER	wir	_	O	O	
+5-5	vor	APPR	vor	_	O	O	
+5-6	allem	PIS	alle	_	O	O	
+5-7	an	APPR	an	_	O	O	
+5-8	Kräften	NN	Kraft	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	die	PRELS	die	_	O	O	
+5-11	unter	APPR	unter	_	O	O	
+5-12	den	ART	die	_	O	O	
+5-13	obwaltenden	ADJA	obwaltend	_	O	O	
+5-14	Verhältnissen	NN	Verhältnis	_	O	O	
+5-15	geeignet	ADJD	geeignet	_	O	O	
+5-16	sind	VAFIN	sein	_	O	O	
+5-17	die	ART	die	_	O	O	
+5-18	Interessen	NN	Interesse	_	O	O	
+5-19	des	ART	die	_	O	O	
+5-20	Institutes	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-21	persönlich	ADJD	persönlich	_	O	O	
+5-22	innerhalb	ADJD	innerhalb	_	O	O	
+5-23	und	KON	und	_	O	O	
+5-24	außerhalb	APPR	außerhalb	_	O	O	
+5-25	Roms	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-26	zu	PTKZU	zu	_	O	O	
+5-27	vertreten	VVINF	vertreten	_	O	O	
+5-28	.	$.	.	_	O	O	
+
+#id=6
+#text=Von den Ragazzi ist in dieser Hinsicht höchstens im 2.
+6-1	Von	APPR	von	_	O	O	
+6-2	den	ART	die	_	O	O	
+6-3	Ragazzi	NE	<unknown>	_	O	O	
+6-4	ist	VAFIN	sein	_	O	O	
+6-5	in	APPR	in	_	O	O	
+6-6	dieser	PDAT	dies	_	O	O	
+6-7	Hinsicht	NN	Hinsicht	_	O	O	
+6-8	höchstens	ADV	höchstens	_	O	O	
+6-9	im	APPRART	in	_	O	O	
+6-10	2	CARD	2	_	O	O	
+6-11	.	$.	.	_	O	O	
+
+#id=7
+#text=Jahre etwas zu erwarten und auch dann nicht immer.
+7-1	Jahre	NN	Jahr	_	O	O	
+7-2	etwas	ADV	etwas	_	O	O	
+7-3	zu	PTKZU	zu	_	O	O	
+7-4	erwarten	VVINF	erwarten	_	O	O	
+7-5	und	KON	und	_	O	O	
+7-6	auch	ADV	auch	_	O	O	
+7-7	dann	ADV	dann	_	O	O	
+7-8	nicht	PTKNEG	nicht	_	O	O	
+7-9	immer	ADV	immer	_	O	O	
+7-10	.	$.	.	_	O	O	
+
+#id=8
+#text=Der letzte Ragazzo, der für solche Dinge ein großes Geschick hatte, war Körte eine Thatsache, die meines Erachtens von der Central Direction nicht genügend gewür- ") digt wird.
+8-1	Der	ART	die	_	O	O	
+8-2	letzte	ADJA	letzt	_	O	O	
+8-3	Ragazzo	NE	<unknown>	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	der	PRELS	die	_	O	O	
+8-6	für	APPR	für	_	O	O	
+8-7	solche	PIAT	solche	_	O	O	
+8-8	Dinge	NN	Ding	_	O	O	
+8-9	ein	ART	eine	_	O	O	
+8-10	großes	ADJA	groß	_	O	O	
+8-11	Geschick	NN	Geschick	_	O	O	
+8-12	hatte	VAFIN	haben	_	O	O	
+8-13	,	$,	,	_	O	O	
+8-14	war	VAFIN	sein	_	O	O	
+8-15	Körte	NN	<unknown>	_	O	O	
+8-16	eine	ART	eine	_	O	O	
+8-17	Thatsache	NN	<unknown>	_	O	O	
+8-18	,	$,	,	_	O	O	
+8-19	die	PRELS	die	_	O	O	
+8-20	meines	PPOSAT	mein	_	O	O	
+8-21	Erachtens	NN	Erachten	_	O	O	
+8-22	von	APPR	von	_	O	O	
+8-23	der	ART	die	_	O	O	
+8-24	Central	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-25	Direction	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+8-26	nicht	PTKNEG	nicht	_	O	O	
+8-27	genügend	ADJD	genügend	_	O	O	
+8-28	gewür-	VVPP	<unknown>	_	O	O	
+8-29	"	$(	"	_	O	O	
+8-30	)	$(	)	_	O	O	
+8-31	digt	ADJD	<unknown>	_	O	O	
+8-32	wird	VAFIN	werden	_	O	O	
+8-33	.	$.	.	_	O	O	
+
+#id=9
+#text=Ma si vuole pazienza !
+9-1	Ma	NE	<UNKNOWN>	_	O	O	
+9-2	si	VVFIN	<unknown>	_	O	O	
+9-3	vuole	NE	<unknown>	_	O	O	
+9-4	pazienza	NE	<unknown>	_	O	O	
+9-5	!	$.	!	_	O	O	
+
+#id=10
+#text=\ Möge das neue Jahr für Sie und für die Ihrigen in jeder Hinsicht ein glückliches werden.
+10-1	\	XY	\	_	O	O	
+10-2	Möge	VVFIN	mögen	_	O	O	
+10-3	das	ART	die	_	O	O	
+10-4	neue	ADJA	neu	_	O	O	
+10-5	Jahr	NN	Jahr	_	O	O	
+10-6	für	APPR	für	_	O	O	
+10-7	Sie	PPER	Sie	_	O	O	
+10-8	und	KON	und	_	O	O	
+10-9	für	APPR	für	_	O	O	
+10-10	die	ART	die	_	O	O	
+10-11	Ihrigen	NN	<unknown>	_	O	O	
+10-12	in	APPR	in	_	O	O	
+10-13	jeder	PIAT	jede	_	O	O	
+10-14	Hinsicht	NN	Hinsicht	_	O	O	
+10-15	ein	ART	eine	_	O	O	
+10-16	glückliches	ADJA	glücklich	_	O	O	
+10-17	werden	VAINF	werden	_	O	O	
+10-18	.	$.	.	_	O	O	
+
+#id=11
+#text=Mir herzlichen Grüßen Ihr ergebener Helbig
+11-1	Mir	PPER	ich	_	O	O	
+11-2	herzlichen	ADJA	herzlich	_	O	O	
+11-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+11-4	Ihr	PPOSAT	ihr	_	O	O	
+11-5	ergebener	ADJA	ergeben	_	O	O	
+11-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

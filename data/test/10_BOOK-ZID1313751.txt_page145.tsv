@@ -1,0 +1,270 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=30 Wolfgang Helbig an Heinrich Brunn Rom, 9. Oktober 1880 Roma, li 9. Oct.
+1-1	30	CARD	30	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1880	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-14	,	$,	,	_	O	O	
+1-15	li	ADJD	<unknown>	_	O	O	
+1-16	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	Oct	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1880 Lieber Herr Professor In der nächsten Woche werde ich Ihnen meine Abhandlung über den Pileus zuschicken.
+2-1	1880	CARD	@card@	_	O	O	
+2-2	Lieber	ADJA	lieb	_	O	O	
+2-3	Herr	NN	Herr	_	O	O	
+2-4	Professor	NN	Professor	_	O	O	
+2-5	In	APPR	in	_	O	O	
+2-6	der	ART	die	_	O	O	
+2-7	nächsten	ADJA	nah	_	O	O	
+2-8	Woche	NN	Woche	_	O	O	
+2-9	werde	VAFIN	werden	_	O	O	
+2-10	ich	PPER	ich	_	O	O	
+2-11	Ihnen	PPER	Sie	_	O	O	
+2-12	meine	PPOSAT	mein	_	O	O	
+2-13	Abhandlung	NN	Abhandlung	_	O	O	
+2-14	über	APPR	über	_	O	O	
+2-15	den	ART	die	_	O	O	
+2-16	Pileus	NN	<unknown>	_	O	O	
+2-17	zuschicken	VVINF	zuschicken	_	O	O	
+2-18	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich thue es so früh, damit Sie Muße haben die Abhandlung anzusehen.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	thue	VVFIN	<unknown>	_	O	O	
+3-3	es	PPER	es	_	O	O	
+3-4	so	ADV	so	_	O	O	
+3-5	früh	ADJD	früh	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	damit	KOUS	damit	_	O	O	
+3-8	Sie	PPER	Sie	_	O	O	
+3-9	Muße	NN	Muße	_	O	O	
+3-10	haben	VAFIN	haben	_	O	O	
+3-11	die	ART	die	_	O	O	
+3-12	Abhandlung	NN	Abhandlung	_	O	O	
+3-13	anzusehen	VVIZU	ansehen	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Selbstverständlich wird jegliche Correctur Ihrer Seits mit Dankbarkeit entgegengenommen.
+4-1	Selbstverständlich	ADJD	selbstverständlich	_	O	O	
+4-2	wird	VAFIN	werden	_	O	O	
+4-3	jegliche	PIAT	jegliche	_	O	O	
+4-4	Correctur	NN	<unknown>	_	O	O	
+4-5	Ihrer	PPOSAT	ihr	_	O	O	
+4-6	Seits	NN	<unknown>	_	O	O	
+4-7	mit	APPR	mit	_	O	O	
+4-8	Dankbarkeit	NN	Dankbarkeit	_	O	O	
+4-9	entgegengenommen	VVPP	entgegennehmen	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Es fehlen an der Abhandlung noch etwa fünf Seiten, die das Fortleben des Pileus im Mittelalter und in der Neuzeit (päbstliche Tiara, Hut der GeseIlen, Doctorhut, der freie Hut des Landesvaters, des bonnet de la liberte der französischen Revolution) zum Gegenstand haben werden und für die ich Ende October durch Körte und Löwe das Material zu erhalten hoffe.
+5-1	Es	PPER	es	_	O	O	
+5-2	fehlen	VVFIN	fehlen	_	O	O	
+5-3	an	APPR	an	_	O	O	
+5-4	der	ART	die	_	O	O	
+5-5	Abhandlung	NN	Abhandlung	_	O	O	
+5-6	noch	ADV	noch	_	O	O	
+5-7	etwa	ADV	etwa	_	O	O	
+5-8	fünf	CARD	fünf	_	O	O	
+5-9	Seiten	NN	Seite	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	die	PRELS	die	_	O	O	
+5-12	das	ART	die	_	O	O	
+5-13	Fortleben	NN	Fortleben	_	O	O	
+5-14	des	ART	die	_	O	O	
+5-15	Pileus	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-16	im	APPRART	in	_	O	O	
+5-17	Mittelalter	NN	Mittelalter	_	O	O	
+5-18	und	KON	und	_	O	O	
+5-19	in	APPR	in	_	O	O	
+5-20	der	ART	die	_	O	O	
+5-21	Neuzeit	NN	Neuzeit	_	O	O	
+5-22	(	$(	(	_	O	O	
+5-23	päbstliche	ADJA	<unknown>	_	O	O	
+5-24	Tiara	NN	Tiara	_	O	O	
+5-25	,	$,	,	_	O	O	
+5-26	Hut	NN	Hut	_	O	O	
+5-27	der	ART	die	_	O	O	
+5-28	GeseIlen	NN	<unknown>	_	O	O	
+5-29	,	$,	,	_	O	O	
+5-30	Doctorhut	NN	<unknown>	_	O	O	
+5-31	,	$,	,	_	O	O	
+5-32	der	ART	die	_	O	O	
+5-33	freie	ADJA	frei	_	O	O	
+5-34	Hut	NN	Hut	_	O	O	
+5-35	des	ART	die	_	O	O	
+5-36	Landesvaters	NN	Landesvater	_	O	O	
+5-37	,	$,	,	_	O	O	
+5-38	des	ART	die	_	O	O	
+5-39	bonnet	ADJA	<unknown>	_	O	O	
+5-40	de	FM	de	_	O	O	
+5-41	la	FM	la	_	O	O	
+5-42	liberte	VVFIN	<unknown>	_	O	O	
+5-43	der	ART	die	_	O	O	
+5-44	französischen	ADJA	französisch	_	O	O	
+5-45	Revolution	NN	Revolution	_	O	O	
+5-46	)	$(	)	_	O	O	
+5-47	zum	APPRART	zu	_	O	O	
+5-48	Gegenstand	NN	Gegenstand	_	O	O	
+5-49	haben	VAINF	haben	_	O	O	
+5-50	werden	VAFIN	werden	_	O	O	
+5-51	und	KON	und	_	O	O	
+5-52	für	APPR	für	_	O	O	
+5-53	die	ART	die	_	O	O	
+5-54	ich	PPER	ich	_	O	O	
+5-55	Ende	NN	Ende	_	O	O	
+5-56	October	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-57	durch	APPR	durch	_	O	O	
+5-58	Körte	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-59	und	KON	und	_	O	O	
+5-60	Löwe	NN	Löwe	_	O	O	
+5-61	das	ART	die	_	O	O	
+5-62	Material	NN	Material	_	O	O	
+5-63	zu	PTKZU	zu	_	O	O	
+5-64	erhalten	VVINF	erhalten	_	O	O	
+5-65	hoffe	VVFIN	hoffen	_	O	O	
+5-66	.	$.	.	_	O	O	
+
+#id=6
+#text=Die wenigen Figuren ließen sich wohl am Billigsten durch Zinkographie herstellen eine Technik, die leider noch nicht den Weg nach Rom gefunden hat.
+6-1	Die	ART	die	_	O	O	
+6-2	wenigen	PIAT	wenige	_	O	O	
+6-3	Figuren	NN	Figur	_	O	O	
+6-4	ließen	VVFIN	lassen	_	O	O	
+6-5	sich	PRF	sich	_	O	O	
+6-6	wohl	ADV	wohl	_	O	O	
+6-7	am	APPRART	an	_	O	O	
+6-8	Billigsten	NN	Billigste	_	O	O	
+6-9	durch	APPR	durch	_	O	O	
+6-10	Zinkographie	NN	<unknown>	_	O	O	
+6-11	herstellen	VVFIN	herstellen	_	O	O	
+6-12	eine	ART	eine	_	O	O	
+6-13	Technik	NN	Technik	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	die	PRELS	die	_	O	O	
+6-16	leider	ADV	leider	_	O	O	
+6-17	noch	ADV	noch	_	O	O	
+6-18	nicht	PTKNEG	nicht	_	O	O	
+6-19	den	ART	die	_	O	O	
+6-20	Weg	NN	Weg	_	O	O	
+6-21	nach	APPR	nach	_	O	O	
+6-22	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-23	gefunden	VVPP	finden	_	O	O	
+6-24	hat	VAFIN	haben	_	O	O	
+6-25	.	$.	.	_	O	O	
+
+#id=7
+#text=Wir sind seit 8 Tagen wiederum in Rom und leiden .
+7-1	Wir	PPER	wir	_	O	O	
+7-2	sind	VAFIN	sein	_	O	O	
+7-3	seit	APPR	seit	_	O	O	
+7-4	8	CARD	8	_	O	O	
+7-5	Tagen	NN	Tag	_	O	O	
+7-6	wiederum	ADV	wiederum	_	O	O	
+7-7	in	APPR	in	_	O	O	
+7-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-9	und	KON	und	_	O	O	
+7-10	leiden	VVINF	leiden	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=e:g.,.. nach der feinen und fr~schrtuft von Perugia, die meiner Frau sehr wohl gethan hat, unsäglich unter dem Scirocco, der hier seit 6 Tagen mit einer nie dagewesenen Intensität aufritt.
+8-1	e:g.,.	NE	<unknown>	_	O	O	
+8-2	.	$.	.	_	O	O	
+8-3	nach	APPR	nach	_	O	O	
+8-4	der	ART	die	_	O	O	
+8-5	feinen	ADJA	fein	_	O	O	
+8-6	und	KON	und	_	O	O	
+8-7	fr~schrtuft	VVFIN	<unknown>	_	O	O	
+8-8	von	APPR	von	_	O	O	
+8-9	Perugia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-10	,	$,	,	_	O	O	
+8-11	die	PRELS	die	_	O	O	
+8-12	meiner	PPOSAT	mein	_	O	O	
+8-13	Frau	NN	Frau	_	O	O	
+8-14	sehr	ADV	sehr	_	O	O	
+8-15	wohl	ADV	wohl	_	O	O	
+8-16	gethan	ADJD	<unknown>	_	O	O	
+8-17	hat	VAFIN	haben	_	O	O	
+8-18	,	$,	,	_	O	O	
+8-19	unsäglich	ADJD	unsäglich	_	O	O	
+8-20	unter	APPR	unter	_	O	O	
+8-21	dem	ART	die	_	O	O	
+8-22	Scirocco	NE	<unknown>	_	O	O	
+8-23	,	$,	,	_	O	O	
+8-24	der	PRELS	die	_	O	O	
+8-25	hier	ADV	hier	_	O	O	
+8-26	seit	APPR	seit	_	O	O	
+8-27	6	CARD	6	_	O	O	
+8-28	Tagen	NN	Tag	_	O	O	
+8-29	mit	APPR	mit	_	O	O	
+8-30	einer	ART	eine	_	O	O	
+8-31	nie	ADV	nie	_	O	O	
+8-32	dagewesenen	ADJA	dagewesen	_	O	O	
+8-33	Intensität	NN	Intensität	_	O	O	
+8-34	aufritt	VVFIN	aufreiten	_	O	O	
+8-35	.	$.	.	_	O	O	
+
+#id=9
+#text=Als wir Perugia verließen, waren Bartoccinis bereits auf das Land gegangen.
+9-1	Als	KOUS	als	_	O	O	
+9-2	wir	PPER	wir	_	O	O	
+9-3	Perugia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-4	verließen	VVFIN	verlassen	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	waren	VAFIN	sein	_	O	O	
+9-7	Bartoccinis	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-8	bereits	ADV	bereits	_	O	O	
+9-9	auf	APPR	auf	_	O	O	
+9-10	das	ART	die	_	O	O	
+9-11	Land	NN	Land	_	O	O	
+9-12	gegangen	VVPP	gehen	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=Leider lauteten die letzten Nachrichten, die wir von dorther über Titos Befinden erhielten, sehr traurig.
+10-1	Leider	ADV	leider	_	O	O	
+10-2	lauteten	VVFIN	lauten	_	O	O	
+10-3	die	ART	die	_	O	O	
+10-4	letzten	ADJA	letzt	_	O	O	
+10-5	Nachrichten	NN	Nachricht	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	die	PRELS	die	_	O	O	
+10-8	wir	PPER	wir	_	O	O	
+10-9	von	APPR	von	_	O	O	
+10-10	dorther	ADV	dorther	_	O	O	
+10-11	über	APPR	über	_	O	O	
+10-12	Titos	NE	Tito	_	O	O	
+10-13	Befinden	NN	Befinden	_	O	O	
+10-14	erhielten	VVFIN	erhalten	_	O	O	
+10-15	,	$,	,	_	O	O	
+10-16	sehr	ADV	sehr	_	O	O	
+10-17	traurig	ADJD	traurig	_	O	O	
+10-18	.	$.	.	_	O	O	
+
+#id=11
+#text=Es scheint in der That nur noch
+11-1	Es	PPER	es	_	O	O	
+11-2	scheint	VVFIN	scheinen	_	O	O	
+11-3	in	APPR	in	_	O	O	
+11-4	der	ART	die	_	O	O	
+11-5	That	NE	<unknown>	_	O	O	
+11-6	nur	ADV	nur	_	O	O	
+11-7	noch	ADV	noch	_	O	O	
+

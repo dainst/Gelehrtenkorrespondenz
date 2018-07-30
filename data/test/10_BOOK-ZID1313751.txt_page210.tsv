@@ -1,0 +1,47 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=- 3 - Helbig/Braunn 1865-1886 Nino 19.5.86 Nino, sein Neffe Piccolomini 19.5.66 Pigorini 19.5.66 Piombino 22.6.85 Schlie 16.3.69 Schröder, E.
+1-1	-	$(	-	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	-	$(	-	_	O	O	
+1-4	Helbig/Braunn	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	1865-1886	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-6	Nino	NE	Nino	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-7	19.5.86	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	Nino	NE	Nino	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-9	,	$,	,	_	O	O	
+1-10	sein	PPOSAT	sein	_	O	O	
+1-11	Neffe	NN	Neffe	_	O	O	
+1-12	Piccolomini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-13	19.5.66	CARD	@card@	_	O	O	
+1-14	Pigorini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-15	19.5.66	CARD	@card@	_	O	O	
+1-16	Piombino	NN	<unknown>	_	O	O	
+1-17	22.6.85	CARD	@card@	_	O	O	
+1-18	Schlie	NN	<unknown>	_	O	O	
+1-19	16.3.69	CARD	@card@	_	O	O	
+1-20	Schröder	NE	Schröder	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-21	,	$,	,	_	O	O	
+1-22	E.	NE	E.	_	O	O	
+
+#id=2
+#text=7.4.74 Studemund 19.5.66 Torlonia, der alte 22.6.85 Umpfenbach 19.5.66 Visconti 22.8.65 Wilmanns 16.3.69 Wissowa 4.11.83 Zangemeister 22.6.85
+2-1	7.4.74	CARD	@card@	_	O	O	
+2-2	Studemund	NN	<unknown>	_	O	O	
+2-3	19.5.66	CARD	@card@	_	O	O	
+2-4	Torlonia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-5	,	$,	,	_	O	O	
+2-6	der	ART	die	_	O	O	
+2-7	alte	ADJA	alt	_	O	O	
+2-8	22.6.85	CARD	@card@	_	O	O	
+2-9	Umpfenbach	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-10	19.5.66	CARD	@card@	_	O	O	
+2-11	Visconti	NN	Visconte	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-12	22.8.65	CARD	@card@	_	O	O	
+2-13	Wilmanns	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-14	16.3.69	CARD	@card@	_	O	O	
+2-15	Wissowa	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-16	4.11.83	CARD	@card@	_	O	O	
+2-17	Zangemeister	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-18	22.6.85	CARD	@card@	_	O	O	
+

@@ -1,0 +1,291 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=38 2 Wolfga:.lg Helbig an Heinrich Brunn Rom, 4. November 1883 Es freut mich sehr zu hören, daß es bei Ihnen gut geht.
+1-1	38	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Wolfga:.lg	NN	<unknown>	_	O	O	
+1-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	4	CARD	4	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1883	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Es	NN	Es	_	O	O	
+1-15	freut	VVFIN	freuen	_	O	O	
+1-16	mich	PRF	ich	_	O	O	
+1-17	sehr	ADV	sehr	_	O	O	
+1-18	zu	PTKZU	zu	_	O	O	
+1-19	hören	VVINF	hören	_	O	O	
+1-20	,	$,	,	_	O	O	
+1-21	daß	KOUS	dass	_	O	O	
+1-22	es	PPER	es	_	O	O	
+1-23	bei	APPR	bei	_	O	O	
+1-24	Ihnen	PPER	Sie	_	O	O	
+1-25	gut	ADJD	gut	_	O	O	
+1-26	geht	VVFIN	gehen	_	O	O	
+1-27	.	$.	.	_	O	O	
+
+#id=2
+#text=Bei uns herrscht leider allerlei Unwohlsein.
+2-1	Bei	APPR	bei	_	O	O	
+2-2	uns	PPER	wir	_	O	O	
+2-3	herrscht	VVFIN	herrschen	_	O	O	
+2-4	leider	ADV	leider	_	O	O	
+2-5	allerlei	PIAT	allerlei	_	O	O	
+2-6	Unwohlsein	NN	Unwohlsein	_	O	O	
+2-7	.	$.	.	_	O	O	
+
+#id=3
+#text=Meine Frau hat sich unmittelbar nach ihrer Rückkehr aus der Villeggiatur ein römisches Fieber geholt, das gegenwärtig auf dem Capitol in Folge der großen auf dem Forum Statt findenden Grabungen stark grassirt.
+3-1	Meine	PPOSAT	mein	_	O	O	
+3-2	Frau	NN	Frau	_	O	O	
+3-3	hat	VAFIN	haben	_	O	O	
+3-4	sich	PRF	sich	_	O	O	
+3-5	unmittelbar	ADJD	unmittelbar	_	O	O	
+3-6	nach	APPR	nach	_	O	O	
+3-7	ihrer	PPOSAT	ihr	_	O	O	
+3-8	Rückkehr	NN	Rückkehr	_	O	O	
+3-9	aus	APPR	aus	_	O	O	
+3-10	der	ART	die	_	O	O	
+3-11	Villeggiatur	NN	<unknown>	_	O	O	
+3-12	ein	ART	eine	_	O	O	
+3-13	römisches	ADJA	römisch	_	O	O	
+3-14	Fieber	NN	Fieber	_	O	O	
+3-15	geholt	VVPP	holen	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	das	PRELS	die	_	O	O	
+3-18	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+3-19	auf	APPR	auf	_	O	O	
+3-20	dem	ART	die	_	O	O	
+3-21	Capitol	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-22	in	APPR	in	_	O	O	
+3-23	Folge	NN	Folge	_	O	O	
+3-24	der	ART	die	_	O	O	
+3-25	großen	ADJA	groß	_	O	O	
+3-26	auf	APPR	auf	_	O	O	
+3-27	dem	ART	die	_	O	O	
+3-28	Forum	NN	Forum	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-29	Statt	APPR	statt	_	O	O	
+3-30	findenden	ADJA	findend	_	O	O	
+3-31	Grabungen	NN	Grabung	_	O	O	
+3-32	stark	ADJD	stark	_	O	O	
+3-33	grassirt	NN	<unknown>	_	O	O	
+3-34	.	$.	.	_	O	O	
+
+#id=4
+#text=Ebenso befindet sich meine Tochter in einem fiebernden Zustande.
+4-1	Ebenso	ADV	ebenso	_	O	O	
+4-2	befindet	VVFIN	befinden	_	O	O	
+4-3	sich	PRF	sich	_	O	O	
+4-4	meine	PPOSAT	mein	_	O	O	
+4-5	Tochter	NN	Tochter	_	O	O	
+4-6	in	APPR	in	_	O	O	
+4-7	einem	ART	eine	_	O	O	
+4-8	fiebernden	ADJA	<unknown>	_	O	O	
+4-9	Zustande	NN	Zustand	_	O	O	
+4-10	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich leide ab und zu an meinem vulcenter Rheumatismus und fange an, wenn ich mir mehrere Tage hindurch keine starke Bewegung gemacht, das herannahende Alter zu verspüren.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	leide	VVFIN	leiden	_	O	O	
+5-3	ab	PTKVZ	ab	_	O	O	
+5-4	und	KON	und	_	O	O	
+5-5	zu	APPR	zu	_	O	O	
+5-6	an	APPR	an	_	O	O	
+5-7	meinem	PPOSAT	mein	_	O	O	
+5-8	vulcenter	ADJA	<unknown>	_	O	O	
+5-9	Rheumatismus	NN	Rheumatismus	_	O	O	
+5-10	und	KON	und	_	O	O	
+5-11	fange	VVFIN	fangen	_	O	O	
+5-12	an	PTKVZ	an	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	wenn	KOUS	wenn	_	O	O	
+5-15	ich	PPER	ich	_	O	O	
+5-16	mir	PRF	ich	_	O	O	
+5-17	mehrere	PIAT	mehrere	_	O	O	
+5-18	Tage	NN	Tag	_	O	O	
+5-19	hindurch	ADV	hindurch	_	O	O	
+5-20	keine	PIAT	keine	_	O	O	
+5-21	starke	ADJA	stark	_	O	O	
+5-22	Bewegung	NN	Bewegung	_	O	O	
+5-23	gemacht	VVPP	machen	_	O	O	
+5-24	,	$,	,	_	O	O	
+5-25	das	ART	die	_	O	O	
+5-26	herannahende	ADJA	herannahend	_	O	O	
+5-27	Alter	NN	Alter	_	O	O	
+5-28	zu	PTKZU	zu	_	O	O	
+5-29	verspüren	VVINF	verspüren	_	O	O	
+5-30	.	$.	.	_	O	O	
+
+#id=6
+#text=Außerdem habe ich mancherlei Ärger mit dem Drucke meines Buches "das homerische Epus aus den Denkmälern erl äutert" und im Besonderen mit den Abbildungen, die Teubner in der bummeligsten Weise besorgt.
+6-1	Außerdem	ADV	außerdem	_	O	O	
+6-2	habe	VAFIN	haben	_	O	O	
+6-3	ich	PPER	ich	_	O	O	
+6-4	mancherlei	PIAT	mancherlei	_	O	O	
+6-5	Ärger	NN	Ärger	_	O	O	
+6-6	mit	APPR	mit	_	O	O	
+6-7	dem	ART	die	_	O	O	
+6-8	Drucke	NN	Druck	_	O	O	
+6-9	meines	PPOSAT	mein	_	O	O	
+6-10	Buches	NN	Buch	_	O	O	
+6-11	"	$(	"	_	O	O	
+6-12	das	ART	die	_	O	O	
+6-13	homerische	ADJA	<unknown>	_	O	O	
+6-14	Epus	NN	<unknown>	_	O	O	
+6-15	aus	APPR	aus	_	O	O	
+6-16	den	ART	die	_	O	O	
+6-17	Denkmälern	NN	Denkmal	_	O	O	
+6-18	erl	ADJA	<unknown>	_	O	O	
+6-19	äutert	ADJA	<unknown>	_	O	O	
+6-20	"	$(	"	_	O	O	
+6-21	und	KON	und	_	O	O	
+6-22	im	APPRART	in	_	O	O	
+6-23	Besonderen	NN	Besondere	_	O	O	
+6-24	mit	APPR	mit	_	O	O	
+6-25	den	ART	die	_	O	O	
+6-26	Abbildungen	NN	Abbildung	_	O	O	
+6-27	,	$,	,	_	O	O	
+6-28	die	PRELS	die	_	O	O	
+6-29	Teubner	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-30	in	APPR	in	_	O	O	
+6-31	der	ART	die	_	O	O	
+6-32	bummeligsten	ADJA	<unknown>	_	O	O	
+6-33	Weise	NN	Weise	_	O	O	
+6-34	besorgt	VVPP	besorgen	_	O	O	
+6-35	.	$.	.	_	O	O	
+
+#id=7
+#text=Im Monat Mai hoffe ich im Stande zu sein Ihnen ein Exemplar zuzustellen.
+7-1	Im	APPRART	in	_	O	O	
+7-2	Monat	NN	Monat	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-3	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-4	hoffe	VVFIN	hoffen	_	O	O	
+7-5	ich	PPER	ich	_	O	O	
+7-6	im	APPRART	in	_	O	O	
+7-7	Stande	NN	Stand	_	O	O	
+7-8	zu	PTKZU	zu	_	O	O	
+7-9	sein	VAINF	sein	_	O	O	
+7-10	Ihnen	PPER	Sie	_	O	O	
+7-11	ein	ART	eine	_	O	O	
+7-12	Exemplar	NN	Exemplar	_	O	O	
+7-13	zuzustellen	VVIZU	zustellen	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Beurtheilen Sie das Buch, bitte, mit Nachsicht; denn die Fragen, die dabei in Betracht kommen, sind so reich, daß es von einem Individuum kaum zu verlangen ist sie alle in gleicher Weise zu bewältigen.
+8-1	Beurtheilen	VVFIN	<unknown>	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	das	ART	die	_	O	O	
+8-4	Buch	NN	Buch	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	bitte	ADV	bitte	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	mit	APPR	mit	_	O	O	
+8-9	Nachsicht	NN	Nachsicht	_	O	O	
+8-10	;	$.	;	_	O	O	
+8-11	denn	KON	denn	_	O	O	
+8-12	die	ART	die	_	O	O	
+8-13	Fragen	NN	Frage	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	die	PRELS	die	_	O	O	
+8-16	dabei	PAV	dabei	_	O	O	
+8-17	in	APPR	in	_	O	O	
+8-18	Betracht	NN	Betracht	_	O	O	
+8-19	kommen	VVFIN	kommen	_	O	O	
+8-20	,	$,	,	_	O	O	
+8-21	sind	VAFIN	sein	_	O	O	
+8-22	so	ADV	so	_	O	O	
+8-23	reich	ADJD	reich	_	O	O	
+8-24	,	$,	,	_	O	O	
+8-25	daß	KOUS	dass	_	O	O	
+8-26	es	PPER	es	_	O	O	
+8-27	von	APPR	von	_	O	O	
+8-28	einem	ART	eine	_	O	O	
+8-29	Individuum	NN	Individuum	_	O	O	
+8-30	kaum	ADV	kaum	_	O	O	
+8-31	zu	PTKZU	zu	_	O	O	
+8-32	verlangen	VVINF	verlangen	_	O	O	
+8-33	ist	VAFIN	sein	_	O	O	
+8-34	sie	PPER	sie	_	O	O	
+8-35	alle	PIS	alle	_	O	O	
+8-36	in	APPR	in	_	O	O	
+8-37	gleicher	ADJA	gleich	_	O	O	
+8-38	Weise	NN	Weise	_	O	O	
+8-39	zu	PTKZU	zu	_	O	O	
+8-40	bewältigen	VVINF	bewältigen	_	O	O	
+8-41	.	$.	.	_	O	O	
+
+#id=9
+#text=In hohem Grade habe ich mich über Wissowa gefreut.
+9-1	In	APPR	in	_	O	O	
+9-2	hohem	ADJA	hoch	_	O	O	
+9-3	Grade	NN	Grad	_	O	O	
+9-4	habe	VAFIN	haben	_	O	O	
+9-5	ich	PPER	ich	_	O	O	
+9-6	mich	PRF	ich	_	O	O	
+9-7	über	APPR	über	_	O	O	
+9-8	Wissowa	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-9	gefreut	VVPP	freuen	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=Das war wieder einmal ein Stipendiat nach dem alten Schlage gefällig, eifrig, jedem wohlmeinenden Rathe zugänglich, bereits im ersten Jahre dem Institute nützlich.
+10-1	Das	PDS	die	_	O	O	
+10-2	war	VAFIN	sein	_	O	O	
+10-3	wieder	ADV	wieder	_	O	O	
+10-4	einmal	ADV	einmal	_	O	O	
+10-5	ein	ART	eine	_	O	O	
+10-6	Stipendiat	NN	Stipendiat	_	O	O	
+10-7	nach	APPR	nach	_	O	O	
+10-8	dem	ART	die	_	O	O	
+10-9	alten	ADJA	alt	_	O	O	
+10-10	Schlage	NN	Schlag	_	O	O	
+10-11	gefällig	ADJD	gefällig	_	O	O	
+10-12	,	$,	,	_	O	O	
+10-13	eifrig	ADJD	eifrig	_	O	O	
+10-14	,	$,	,	_	O	O	
+10-15	jedem	PIAT	jede	_	O	O	
+10-16	wohlmeinenden	ADJA	wohlmeinend	_	O	O	
+10-17	Rathe	NN	<unknown>	_	O	O	
+10-18	zugänglich	ADJD	zugänglich	_	O	O	
+10-19	,	$,	,	_	O	O	
+10-20	bereits	ADV	bereits	_	O	O	
+10-21	im	APPRART	in	_	O	O	
+10-22	ersten	ADJA	erst	_	O	O	
+10-23	Jahre	NN	Jahr	_	O	O	
+10-24	dem	ART	die	_	O	O	
+10-25	Institute	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-26	nützlich	ADJD	nützlich	_	O	O	
+10-27	.	$.	.	_	O	O	
+
+#id=11
+#text=Leben Sie wohl!
+11-1	Leben	VVFIN	leben	_	O	O	
+11-2	Sie	PPER	Sie	_	O	O	
+11-3	wohl	ADV	wohl	_	O	O	
+11-4	!	$.	!	_	O	O	
+
+#id=12
+#text=Meine Empfehlungen an Frau Brunn !
+12-1	Meine	PPOSAT	mein	_	O	O	
+12-2	Empfehlungen	NN	Empfehlung	_	O	O	
+12-3	an	APPR	an	_	O	O	
+12-4	Frau	NN	Frau	_	O	O	
+12-5	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-6	!	$.	!	_	O	O	
+
+#id=13
+#text=Mit herzlichen Grüßen Ihr ergebener Helbig
+13-1	Mit	APPR	mit	_	O	O	
+13-2	herzlichen	ADJA	herzlich	_	O	O	
+13-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+13-4	Ihr	PPOSAT	ihr	_	O	O	
+13-5	ergebener	ADJA	ergeben	_	O	O	
+13-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

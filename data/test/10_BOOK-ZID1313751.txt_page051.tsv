@@ -1,0 +1,65 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=- 7 - Helbig/Brunn Köhler 13.6.63 30.7.63 15.9.63 12.7.63 27.8.63 König von Bayern 23.12.73 Körte 7.4.74 9.10.80 29.1.81 7.9.80 5.1.81 Krauskopf 28.2.84 ) Le Blent 22.6.85 Lenormant, Fr.
+1-1	-	$(	-	_	O	O	
+1-2	7	CARD	7	_	O	O	
+1-3	-	$(	-	_	O	O	
+1-4	Helbig/Brunn	NN	<unknown>	_	O	O	
+1-5	Köhler	NN	Köhler	_	O	O	
+1-6	13.6.63	CARD	@card@	_	O	O	
+1-7	30.7.63	CARD	@card@	_	O	O	
+1-8	15.9.63	CARD	@card@	_	O	O	
+1-9	12.7.63	CARD	@card@	_	O	O	
+1-10	27.8.63	CARD	@card@	_	O	O	
+1-11	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-12	von	APPR	von	_	O	O	
+1-13	Bayern	NE	Bayern	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-14	23.12.73	CARD	@card@	_	O	O	
+1-15	Körte	NN	<unknown>	_	O	O	
+1-16	7.4.74	CARD	@card@	_	O	O	
+1-17	9.10.80	CARD	@card@	_	O	O	
+1-18	29.1.81	CARD	@card@	_	O	O	
+1-19	7.9.80	CARD	@card@	_	O	O	
+1-20	5.1.81	CARD	@card@	_	O	O	
+1-21	Krauskopf	NN	Krauskopf	_	O	O	
+1-22	28.2.84	CARD	@card@	_	O	O	
+1-23	)	$(	)	_	O	O	
+1-24	Le	NE	Le	_	O	O	
+1-25	Blent	NE	<unknown>	_	O	O	
+1-26	22.6.85	CARD	@card@	_	O	O	
+1-27	Lenormant	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-28	,	$,	,	_	O	O	
+1-29	Fr.	NN	Freitag	_	O	O	
+
+#id=2
+#text=10.8.63 Lepsius 9.5.74 Liszt 2.12.79 Loeschke, G. 29.1.81 Lovatelli-Gaetani, 2.8.80 ) Donna Ersilia Lovatelli, Faustina 2.8.80 Lovatti 19.7.63 Löwe 9.10.80 Löwy 22.3.86 Lübbert 22.8.65 Lützow 15.9.63
+2-1	10.8.63	CARD	@card@	_	O	O	
+2-2	Lepsius	NE	<unknown>	_	O	O	
+2-3	9.5.74	CARD	@card@	_	O	O	
+2-4	Liszt	NE	Liszt	_	O	O	
+2-5	2.12.79	CARD	@card@	_	O	O	
+2-6	Loeschke	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-7	,	$,	,	_	O	O	
+2-8	G.	NE	G.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-9	29.1.81	CARD	@card@	_	O	O	
+2-10	Lovatelli-Gaetani	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-11	,	$,	,	_	O	O	
+2-12	2.8.80	CARD	@card@	_	O	O	
+2-13	)	$(	)	_	O	O	
+2-14	Donna	NE	Donna	_	O	O	
+2-15	Ersilia	NE	<unknown>	_	O	O	
+2-16	Lovatelli	NE	<unknown>	_	O	O	
+2-17	,	$,	,	_	O	O	
+2-18	Faustina	NE	<unknown>	_	O	O	
+2-19	2.8.80	CARD	@card@	_	O	O	
+2-20	Lovatti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-21	19.7.63	CARD	@card@	_	O	O	
+2-22	Löwe	NN	Löwe	_	O	O	
+2-23	9.10.80	CARD	@card@	_	O	O	
+2-24	Löwy	NN	<unknown>	_	O	O	
+2-25	22.3.86	CARD	@card@	_	O	O	
+2-26	Lübbert	NE	Lübbert	_	O	O	
+2-27	22.8.65	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-28	Lützow	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-29	15.9.63	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+

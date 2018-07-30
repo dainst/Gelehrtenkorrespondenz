@@ -1,0 +1,252 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an Brunn ohne Ort 19/1/1881 r.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	ohne	APPR	ohne	_	O	O	
+1-5	Ort	NN	Ort	_	O	O	
+1-6	19/1/1881	CARD	@card@	_	O	O	
+1-7	r.	VVFIN	<unknown>	_	O	O	
+
+#id=2
+#text=8/11/1881 29. Januar 1881 Lieber Herr Professor [Zunächst wissenschaftlich geSChäftliche'sache,dann-1: ••• Über Klügmann meinte ich Ihnen schon geschrieben zu haben 1).
+2-1	8/11/1881	CARD	@card@	_	O	O	
+2-2	29	CARD	@card@	_	O	O	
+2-3	.	$.	.	_	O	O	
+2-4	Januar	NN	Januar	_	O	O	
+2-5	1881	CARD	@card@	_	O	O	
+2-6	Lieber	ADJA	lieb	_	O	O	
+2-7	Herr	NN	Herr	_	O	O	
+2-8	Professor	NN	Professor	_	O	O	
+2-9	[	$(	[	_	O	O	
+2-10	Zunächst	ADV	zunächst	_	O	O	
+2-11	wissenschaftlich	ADJD	wissenschaftlich	_	O	O	
+2-12	geSChäftliche'sache,dann-1	VVPP	<unknown>	_	O	O	
+2-13	:	$.	:	_	O	O	
+2-14	•	ADJA	<unknown>	_	O	O	
+2-15	•	ADJA	<unknown>	_	O	O	
+2-16	•	NN	<unknown>	_	O	O	
+2-17	Über	APPR	über	_	O	O	
+2-18	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-19	meinte	VVFIN	meinen	_	O	O	
+2-20	ich	PPER	ich	_	O	O	
+2-21	Ihnen	PPER	Sie	_	O	O	
+2-22	schon	ADV	schon	_	O	O	
+2-23	geschrieben	VVPP	schreiben	_	O	O	
+2-24	zu	PTKZU	zu	_	O	O	
+2-25	haben	VAINF	haben	_	O	O	
+2-26	1	CARD	1	_	O	O	
+2-27	)	$(	)	_	O	O	
+2-28	.	$.	.	_	O	O	
+
+#id=3
+#text=Aber es herrschte, wie Sie sich denken können, unmittelbar nach dem Unglück eine derartige Bestürzung auf dem Capitol, daß ich es recht wohl vergessen haben kann.
+3-1	Aber	KON	aber	_	O	O	
+3-2	es	PPER	es	_	O	O	
+3-3	herrschte	VVFIN	herrschen	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	wie	KOUS	wie	_	O	O	
+3-6	Sie	PPER	Sie	_	O	O	
+3-7	sich	PRF	sich	_	O	O	
+3-8	denken	VVINF	denken	_	O	O	
+3-9	können	VMFIN	können	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	unmittelbar	ADJD	unmittelbar	_	O	O	
+3-12	nach	APPR	nach	_	O	O	
+3-13	dem	ART	die	_	O	O	
+3-14	Unglück	NN	Unglück	_	O	O	
+3-15	eine	ART	eine	_	O	O	
+3-16	derartige	ADJA	derartig	_	O	O	
+3-17	Bestürzung	NN	Bestürzung	_	O	O	
+3-18	auf	APPR	auf	_	O	O	
+3-19	dem	ART	die	_	O	O	
+3-20	Capitol	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-21	,	$,	,	_	O	O	
+3-22	daß	KOUS	dass	_	O	O	
+3-23	ich	PPER	ich	_	O	O	
+3-24	es	PPER	es	_	O	O	
+3-25	recht	ADJD	recht	_	O	O	
+3-26	wohl	ADV	wohl	_	O	O	
+3-27	vergessen	VVPP	vergessen	_	O	O	
+3-28	haben	VAINF	haben	_	O	O	
+3-29	kann	VMFIN	können	_	O	O	
+3-30	.	$.	.	_	O	O	
+
+#id=4
+#text=Klügmann kam von seiner Reise nach Paris und London vollständig gesund zurück und erklärte zu wiederholten Malen sich niemals so frisch gefühlt zu haben wie damals.
+4-1	Klügmann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	kam	VVFIN	kommen	_	O	O	
+4-3	von	APPR	von	_	O	O	
+4-4	seiner	PPOSAT	sein	_	O	O	
+4-5	Reise	NN	Reise	_	O	O	
+4-6	nach	APPR	nach	_	O	O	
+4-7	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-8	und	KON	und	_	O	O	
+4-9	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-10	vollständig	ADJD	vollständig	_	O	O	
+4-11	gesund	ADJD	gesund	_	O	O	
+4-12	zurück	PTKVZ	zurück	_	O	O	
+4-13	und	KON	und	_	O	O	
+4-14	erklärte	VVFIN	erklären	_	O	O	
+4-15	zu	APPR	zu	_	O	O	
+4-16	wiederholten	ADJA	wiederholt	_	O	O	
+4-17	Malen	NN	Mal|Malen	_	O	O	
+4-18	sich	PRF	sich	_	O	O	
+4-19	niemals	ADV	niemals	_	O	O	
+4-20	so	ADV	so	_	O	O	
+4-21	frisch	ADJD	frisch	_	O	O	
+4-22	gefühlt	VVPP	fühlen	_	O	O	
+4-23	zu	PTKZU	zu	_	O	O	
+4-24	haben	VAINF	haben	_	O	O	
+4-25	wie	KOKOM	wie	_	O	O	
+4-26	damals	ADV	damals	_	O	O	
+4-27	.	$.	.	_	O	O	
+
+#id=5
+#text=Da trat plötzlich ein furchtbarer Scirocco ein, der ununterbrochen 3 Wochen lang dauerte.
+5-1	Da	KOUS	da	_	O	O	
+5-2	trat	VVFIN	treten	_	O	O	
+5-3	plötzlich	ADJD	plötzlich	_	O	O	
+5-4	ein	ART	eine	_	O	O	
+5-5	furchtbarer	ADJA	furchtbar	_	O	O	
+5-6	Scirocco	NE	<unknown>	_	O	O	
+5-7	ein	PTKVZ	ein	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	der	PRELS	die	_	O	O	
+5-10	ununterbrochen	ADJD	ununterbrochen	_	O	O	
+5-11	3	CARD	3	_	O	O	
+5-12	Wochen	NN	Woche	_	O	O	
+5-13	lang	ADJD	lang	_	O	O	
+5-14	dauerte	VVFIN	dauern	_	O	O	
+5-15	.	$.	.	_	O	O	
+
+#id=6
+#text=Da man in Folge desselben selbst bei langsamen [soJ Gehen in Schweiß geriet, so er~älteten sich eine Menge von Leuten und herrschte in der Stadt eine wahre Epidemie von Brust- und Halskrankheiten.
+6-1	Da	KOUS	da	_	O	O	
+6-2	man	PIS	man	_	O	O	
+6-3	in	APPR	in	_	O	O	
+6-4	Folge	NN	Folge	_	O	O	
+6-5	desselben	PDAT	derselb	_	O	O	
+6-6	selbst	ADV	selbst	_	O	O	
+6-7	bei	APPR	bei	_	O	O	
+6-8	langsamen	ADJA	langsam	_	O	O	
+6-9	[	$(	[	_	O	O	
+6-10	soJ	ADJA	<unknown>	_	O	O	
+6-11	Gehen	NN	Gehen	_	O	O	
+6-12	in	APPR	in	_	O	O	
+6-13	Schweiß	NN	Schweiß	_	O	O	
+6-14	geriet	VVFIN	geraten	_	O	O	
+6-15	,	$,	,	_	O	O	
+6-16	so	ADV	so	_	O	O	
+6-17	er~älteten	VVFIN	<unknown>	_	O	O	
+6-18	sich	PRF	sich	_	O	O	
+6-19	eine	ART	eine	_	O	O	
+6-20	Menge	NN	Menge	_	O	O	
+6-21	von	APPR	von	_	O	O	
+6-22	Leuten	NN	Leute	_	O	O	
+6-23	und	KON	und	_	O	O	
+6-24	herrschte	VVFIN	herrschen	_	O	O	
+6-25	in	APPR	in	_	O	O	
+6-26	der	ART	die	_	O	O	
+6-27	Stadt	NN	Stadt	_	O	O	
+6-28	eine	ART	eine	_	O	O	
+6-29	wahre	ADJA	wahr	_	O	O	
+6-30	Epidemie	NN	Epidemie	_	O	O	
+6-31	von	APPR	von	_	O	O	
+6-32	Brust-	TRUNC	Brust-	_	O	O	
+6-33	und	KON	und	_	O	O	
+6-34	Halskrankheiten	NN	Halskrankheit	_	O	O	
+6-35	.	$.	.	_	O	O	
+
+#id=7
+#text=Gerade um diese Zeit kam der Senator Klügmann aus Lübeck nach Rom.
+7-1	Gerade	ADV	gerade	_	O	O	
+7-2	um	APPR	um	_	O	O	
+7-3	diese	PDAT	dies	_	O	O	
+7-4	Zeit	NN	Zeit	_	O	O	
+7-5	kam	VVFIN	kommen	_	O	O	
+7-6	der	ART	die	_	O	O	
+7-7	Senator	NN	Senator	_	O	O	
+7-8	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-9	aus	APPR	aus	_	O	O	
+7-10	Lübeck	NE	Lübeck	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-11	nach	APPR	nach	_	O	O	
+7-12	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-13	.	$.	.	_	O	O	
+
+#id=8
+#text=Adolf Klügmann, der sich sonst so sehr in Acht nahm, machte mit ihm allerlei Ausflüge, besuchte Museen, Kirchen u.s.w. Hierbei erkältete er sich und bekam ~ine Lungenentzündung.
+8-1	Adolf	NE	Adolf	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	Klügmann	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-3	,	$,	,	_	O	O	
+8-4	der	PRELS	die	_	O	O	
+8-5	sich	PRF	sich	_	O	O	
+8-6	sonst	ADV	sonst	_	O	O	
+8-7	so	ADV	so	_	O	O	
+8-8	sehr	ADV	sehr	_	O	O	
+8-9	in	APPR	in	_	O	O	
+8-10	Acht	NN	Acht	_	O	O	
+8-11	nahm	VVFIN	nehmen	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	machte	VVFIN	machen	_	O	O	
+8-14	mit	APPR	mit	_	O	O	
+8-15	ihm	PPER	er	_	O	O	
+8-16	allerlei	PIAT	allerlei	_	O	O	
+8-17	Ausflüge	NN	Ausflug	_	O	O	
+8-18	,	$,	,	_	O	O	
+8-19	besuchte	ADJA	besucht	_	O	O	
+8-20	Museen	NN	Museum	_	O	O	
+8-21	,	$,	,	_	O	O	
+8-22	Kirchen	NN	Kirche	_	O	O	
+8-23	u.s.w.	NE	<unknown>	_	O	O	
+8-24	Hierbei	PAV	hierbei	_	O	O	
+8-25	erkältete	VVFIN	erkälten	_	O	O	
+8-26	er	PPER	er	_	O	O	
+8-27	sich	PRF	sich	_	O	O	
+8-28	und	KON	und	_	O	O	
+8-29	bekam	VVFIN	bekommen	_	O	O	
+8-30	~ine	NN	<unknown>	_	O	O	
+8-31	Lungenentzündung	NN	Lungenentzündung	_	O	O	
+8-32	.	$.	.	_	O	O	
+
+#id=9
+#text=Er lag daran sieben Tage~ Die Ärzte hielten den Fall für ernst, versicherten aber, als wir sie fragten, ob man den soeben abgereisten Bruder auf telegraphischem Wege zurückbescheiden solle, periculum in mora sei
+9-1	Er	PPER	er	_	O	O	
+9-2	lag	VVFIN	liegen	_	O	O	
+9-3	daran	PAV	daran	_	O	O	
+9-4	sieben	CARD	sieben	_	O	O	
+9-5	Tage~	NN	<unknown>	_	O	O	
+9-6	Die	ART	die	_	O	O	
+9-7	Ärzte	NN	Arzt	_	O	O	
+9-8	hielten	VVFIN	halten	_	O	O	
+9-9	den	ART	die	_	O	O	
+9-10	Fall	NN	Fall	_	O	O	
+9-11	für	APPR	für	_	O	O	
+9-12	ernst	ADJD	ernst	_	O	O	
+9-13	,	$,	,	_	O	O	
+9-14	versicherten	VVFIN	versichern	_	O	O	
+9-15	aber	ADV	aber	_	O	O	
+9-16	,	$,	,	_	O	O	
+9-17	als	KOUS	als	_	O	O	
+9-18	wir	PPER	wir	_	O	O	
+9-19	sie	PPER	sie	_	O	O	
+9-20	fragten	VVFIN	fragen	_	O	O	
+9-21	,	$,	,	_	O	O	
+9-22	ob	KOUS	ob	_	O	O	
+9-23	man	PIS	man	_	O	O	
+9-24	den	ART	die	_	O	O	
+9-25	soeben	ADV	soeben	_	O	O	
+9-26	abgereisten	ADJA	abgereist	_	O	O	
+9-27	Bruder	NN	Bruder	_	O	O	
+9-28	auf	APPR	auf	_	O	O	
+9-29	telegraphischem	ADJA	<unknown>	_	O	O	
+9-30	Wege	NN	Weg	_	O	O	
+9-31	zurückbescheiden	VVINF	<unknown>	_	O	O	
+9-32	solle	VMFIN	sollen	_	O	O	
+9-33	,	$,	,	_	O	O	
+9-34	periculum	ADJD	<unknown>	_	O	O	
+9-35	in	APPR	in	_	O	O	
+9-36	mora	NE	Mora	_	O	O	
+9-37	sei	VAFIN	sein	_	O	O	
+

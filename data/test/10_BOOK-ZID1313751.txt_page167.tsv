@@ -1,0 +1,77 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=36 2 Wolfgang Helbig an Heinrich Brunn Rom, 29. Februar 1881 Für alle Fälle lege ich die beiden Quittungen bei, die ich schon längst hätte an Sie abschicken sollen.
+1-1	36	CARD	36	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1881	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Für	APPR	für	_	O	O	
+1-15	alle	PIAT	alle	_	O	O	
+1-16	Fälle	NN	Fall	_	O	O	
+1-17	lege	VVFIN	legen	_	O	O	
+1-18	ich	PPER	ich	_	O	O	
+1-19	die	ART	die	_	O	O	
+1-20	beiden	PIAT	beide	_	O	O	
+1-21	Quittungen	NN	Quittung	_	O	O	
+1-22	bei	PTKVZ	bei	_	O	O	
+1-23	,	$,	,	_	O	O	
+1-24	die	PRELS	die	_	O	O	
+1-25	ich	PPER	ich	_	O	O	
+1-26	schon	ADV	schon	_	O	O	
+1-27	längst	ADV	längst	_	O	O	
+1-28	hätte	VAFIN	haben	_	O	O	
+1-29	an	APPR	an	_	O	O	
+1-30	Sie	PPER	Sie	_	O	O	
+1-31	abschicken	VVINF	abschicken	_	O	O	
+1-32	sollen	VMINF	sollen	_	O	O	
+1-33	.	$.	.	_	O	O	
+
+#id=2
+#text=Soeben trifft Ihre Karte vom 26. ein.
+2-1	Soeben	ADV	soeben	_	O	O	
+2-2	trifft	VVFIN	treffen	_	O	O	
+2-3	Ihre	PPOSAT	ihr	_	O	O	
+2-4	Karte	NN	Karte	_	O	O	
+2-5	vom	APPRART	von	_	O	O	
+2-6	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+2-8	ein	PTKVZ	ein	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Der Satyr ist in Paris.
+3-1	Der	ART	die	_	O	O	
+3-2	Satyr	NN	<unknown>	_	O	O	
+3-3	ist	VAFIN	sein	_	O	O	
+3-4	in	APPR	in	_	O	O	
+3-5	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-6	.	$.	.	_	O	O	
+
+#id=4
+#text=Vor seiner Absendung dorthin ist er in Rom geformt worden, ich glaube von Malpieri.
+4-1	Vor	APPR	vor	_	O	O	
+4-2	seiner	PPOSAT	sein	_	O	O	
+4-3	Absendung	NN	Absendung	_	O	O	
+4-4	dorthin	ADV	dorthin	_	O	O	
+4-5	ist	VAFIN	sein	_	O	O	
+4-6	er	PPER	er	_	O	O	
+4-7	in	APPR	in	_	O	O	
+4-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-9	geformt	VVPP	formen	_	O	O	
+4-10	worden	VAPP	werden	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	ich	PPER	ich	_	O	O	
+4-13	glaube	VVFIN	glauben	_	O	O	
+4-14	von	APPR	von	_	O	O	
+4-15	Malpieri	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-16	.	$.	.	_	O	O	
+

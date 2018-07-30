@@ -1,0 +1,248 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=10 Wolfgang Helbig an Heinrich Brunn Rom, 23. Dezember 1873 Roma, li 23. Dec.
+1-1	10	CARD	10	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-14	,	$,	,	_	O	O	
+1-15	li	ADJD	<unknown>	_	O	O	
+1-16	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	Dec	NE	Dec	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-19	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=2
+#text=1873 Lieber Herr Profesor Nur wenige Zeilen, damit Sie nicht ungeduldig werden wegen der Auskunft über die Bezeichnungen der Santa Croce in dem Terrain der Via degli Specchj.
+2-1	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-2	Lieber	ADJA	lieb	_	O	O	
+2-3	Herr	NN	Herr	_	O	O	
+2-4	Profesor	NN	<unknown>	_	O	O	
+2-5	Nur	ADV	nur	_	O	O	
+2-6	wenige	PIAT	wenige	_	O	O	
+2-7	Zeilen	NN	Zeile	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	damit	KOUS	damit	_	O	O	
+2-10	Sie	PPER	Sie	_	O	O	
+2-11	nicht	PTKNEG	nicht	_	O	O	
+2-12	ungeduldig	ADJD	ungeduldig	_	O	O	
+2-13	werden	VAFIN	werden	_	O	O	
+2-14	wegen	APPR	wegen	_	O	O	
+2-15	der	ART	die	_	O	O	
+2-16	Auskunft	NN	Auskunft	_	O	O	
+2-17	über	APPR	über	_	O	O	
+2-18	die	ART	die	_	O	O	
+2-19	Bezeichnungen	NN	Bezeichnung	_	O	O	
+2-20	der	ART	die	_	O	O	
+2-21	Santa	NE	Santa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-22	Croce	NE	Croce	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+2-23	in	APPR	in	_	O	O	
+2-24	dem	ART	die	_	O	O	
+2-25	Terrain	NN	Terrain	_	O	O	
+2-26	der	ART	die	_	O	O	
+2-27	Via	NE	Via	_	O	O	
+2-28	degli	NE	<unknown>	_	O	O	
+2-29	Specchj	NE	<unknown>	_	O	O	
+2-30	.	$.	.	_	O	O	
+
+#id=3
+#text=Da die männliche Linie der Santa Croce ausgestorben ist, wendete ich mich zunächst an die beiden Töchter Contessa Santa Fiora und M(arche)sa Cosenzana.
+3-1	Da	KOUS	da	_	O	O	
+3-2	die	ART	die	_	O	O	
+3-3	männliche	ADJA	männlich	_	O	O	
+3-4	Linie	NN	Linie	_	O	O	
+3-5	der	ART	die	_	O	O	
+3-6	Santa	NE	Santa	_	O	O	
+3-7	Croce	NE	Croce	_	O	O	
+3-8	ausgestorben	VVPP	aussterben	_	O	O	
+3-9	ist	VAFIN	sein	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	wendete	VVFIN	wenden	_	O	O	
+3-12	ich	PPER	ich	_	O	O	
+3-13	mich	PRF	ich	_	O	O	
+3-14	zunächst	ADV	zunächst	_	O	O	
+3-15	an	APPR	an	_	O	O	
+3-16	die	ART	die	_	O	O	
+3-17	beiden	PIAT	beide	_	O	O	
+3-18	Töchter	NN	Tochter	_	O	O	
+3-19	Contessa	NN	<unknown>	_	O	O	
+3-20	Santa	NE	Santa	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-21	Fiora	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-22	und	KON	und	_	O	O	
+3-23	M(arche)sa	NE	<unknown>	_	O	O	
+3-24	Cosenzana	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-25	.	$.	.	_	O	O	
+
+#id=4
+#text=Diese brachten aber, wie sich erwarten ließ, nichts heraus.
+4-1	Diese	PDS	diese	_	O	O	
+4-2	brachten	VVFIN	bringen	_	O	O	
+4-3	aber	ADV	aber	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	wie	KOUS	wie	_	O	O	
+4-6	sich	PRF	sich	_	O	O	
+4-7	erwarten	VVINF	erwarten	_	O	O	
+4-8	ließ	VVFIN	lassen	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	nichts	PIS	nichts	_	O	O	
+4-11	heraus	ADV	heraus	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich habe mich nunmehr an den Sindaco gewandt, die Sache als kgl.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	mich	PRF	ich	_	O	O	
+5-4	nunmehr	ADV	nunmehr	_	O	O	
+5-5	an	APPR	an	_	O	O	
+5-6	den	ART	die	_	O	O	
+5-7	Sindaco	NE	<unknown>	_	O	O	
+5-8	gewandt	VVPP	wenden	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	die	ART	die	_	O	O	
+5-11	Sache	NN	Sache	_	O	O	
+5-12	als	KOKOM	als	_	O	O	
+5-13	kgl.	NN	<unknown>	_	O	O	
+
+#id=6
+#text=bairische Angelegenheit behandelnd und ihm bedeutend, daß diese Auskunft die beste Revanche wäre für die Abgüsse der Aegineten, die der König von Baiern dem Municipio geschenkt.
+6-1	bairische	ADJA	bairisch	_	O	O	
+6-2	Angelegenheit	NN	Angelegenheit	_	O	O	
+6-3	behandelnd	ADJD	behandelnd	_	O	O	
+6-4	und	KON	und	_	O	O	
+6-5	ihm	PPER	er	_	O	O	
+6-6	bedeutend	ADJD	bedeutend	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	daß	KOUS	dass	_	O	O	
+6-9	diese	PDAT	dies	_	O	O	
+6-10	Auskunft	NN	Auskunft	_	O	O	
+6-11	die	ART	die	_	O	O	
+6-12	beste	ADJA	gut	_	O	O	
+6-13	Revanche	NN	Revanche	_	O	O	
+6-14	wäre	VAFIN	sein	_	O	O	
+6-15	für	APPR	für	_	O	O	
+6-16	die	ART	die	_	O	O	
+6-17	Abgüsse	NN	Abguß	_	O	O	
+6-18	der	ART	die	_	O	O	
+6-19	Aegineten	NN	Äginete	_	O	O	
+6-20	,	$,	,	_	O	O	
+6-21	die	PRELS	die	_	O	O	
+6-22	der	ART	die	_	O	O	
+6-23	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-24	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-25	Baiern	NN	Baier	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-26	dem	ART	die	_	O	O	
+6-27	Municipio	NE	<unknown>	_	O	O	
+6-28	geschenkt	VVPP	schenken	_	O	O	
+6-29	.	$.	.	_	O	O	
+
+#id=7
+#text=Dieser hat nunmehr seinem Secretär Auftrag gegeben, das Archivio municipale darnach durchzusehen.
+7-1	Dieser	PDS	diese	_	O	O	
+7-2	hat	VAFIN	haben	_	O	O	
+7-3	nunmehr	ADV	nunmehr	_	O	O	
+7-4	seinem	PPOSAT	sein	_	O	O	
+7-5	Secretär	NN	<unknown>	_	O	O	
+7-6	Auftrag	NN	Auftrag	_	O	O	
+7-7	gegeben	VVPP	geben	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	das	PRELS	die	_	O	O	
+7-10	Archivio	NE	<unknown>	_	O	O	
+7-11	municipale	NN	<unknown>	_	O	O	
+7-12	darnach	ADV	<unknown>	_	O	O	
+7-13	durchzusehen	VVIZU	durchsehen	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Da sich dasselbe in großer Unordnung befindet, so wird die Erledigung der Angelegenheit noch einige Zeit dauern.
+8-1	Da	KOUS	da	_	O	O	
+8-2	sich	PRF	sich	_	O	O	
+8-3	dasselbe	PDAT	dasselb	_	O	O	
+8-4	in	APPR	in	_	O	O	
+8-5	großer	ADJA	groß	_	O	O	
+8-6	Unordnung	NN	Unordnung	_	O	O	
+8-7	befindet	VVFIN	befinden	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	so	ADV	so	_	O	O	
+8-10	wird	VAFIN	werden	_	O	O	
+8-11	die	ART	die	_	O	O	
+8-12	Erledigung	NN	Erledigung	_	O	O	
+8-13	der	ART	die	_	O	O	
+8-14	Angelegenheit	NN	Angelegenheit	_	O	O	
+8-15	noch	ADV	noch	_	O	O	
+8-16	einige	PIAT	einige	_	O	O	
+8-17	Zeit	NN	Zeit	_	O	O	
+8-18	dauern	VVINF	dauern	_	O	O	
+8-19	.	$.	.	_	O	O	
+
+#id=9
+#text=Schließlich aber werden wir mit Sicherheit wissen, wie wir daran sind.
+9-1	Schließlich	ADV	schließlich	_	O	O	
+9-2	aber	ADV	aber	_	O	O	
+9-3	werden	VAFIN	werden	_	O	O	
+9-4	wir	PPER	wir	_	O	O	
+9-5	mit	APPR	mit	_	O	O	
+9-6	Sicherheit	NN	Sicherheit	_	O	O	
+9-7	wissen	VVINF	wissen	_	O	O	
+9-8	,	$,	,	_	O	O	
+9-9	wie	KOUS	wie	_	O	O	
+9-10	wir	PPER	wir	_	O	O	
+9-11	daran	PAV	daran	_	O	O	
+9-12	sind	VAFIN	sein	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=Die Meinigen sind vor 10 Tagen in Rom eingetroffen, abgesehen von leichten Erkältungen wohlbehalten.
+10-1	Die	ART	die	_	O	O	
+10-2	Meinigen	PPOSS	meinig	_	O	O	
+10-3	sind	VAFIN	sein	_	O	O	
+10-4	vor	APPR	vor	_	O	O	
+10-5	10	CARD	10	_	O	O	
+10-6	Tagen	NN	Tag	_	O	O	
+10-7	in	APPR	in	_	O	O	
+10-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-9	eingetroffen	VVPP	eintreffen	_	O	O	
+10-10	,	$,	,	_	O	O	
+10-11	abgesehen	VVPP	absehen	_	O	O	
+10-12	von	APPR	von	_	O	O	
+10-13	leichten	ADJA	leicht	_	O	O	
+10-14	Erkältungen	NN	Erkältung	_	O	O	
+10-15	wohlbehalten	ADJD	wohlbehalten	_	O	O	
+10-16	.	$.	.	_	O	O	
+
+#id=11
+#text=Flasch wird sich baldigst nach München aufmachen.
+11-1	Flasch	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	wird	VAFIN	werden	_	O	O	
+11-3	sich	PRF	sich	_	O	O	
+11-4	baldigst	ADJD	baldig	_	O	O	
+11-5	nach	APPR	nach	_	O	O	
+11-6	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-7	aufmachen	VVINF	aufmachen	_	O	O	
+11-8	.	$.	.	_	O	O	
+
+#id=12
+#text=Sehr gern hörten wir hier etwas, wie sich an dem Reichsinstitut die
+12-1	Sehr	ADV	sehr	_	O	O	
+12-2	gern	ADV	gern	_	O	O	
+12-3	hörten	VVFIN	hören	_	O	O	
+12-4	wir	PPER	wir	_	O	O	
+12-5	hier	ADV	hier	_	O	O	
+12-6	etwas	PIS	etwas	_	O	O	
+12-7	,	$,	,	_	O	O	
+12-8	wie	KOUS	wie	_	O	O	
+12-9	sich	PRF	sich	_	O	O	
+12-10	an	APPR	an	_	O	O	
+12-11	dem	ART	die	_	O	O	
+12-12	Reichsinstitut	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+12-13	die	ART	die	_	O	O	
+

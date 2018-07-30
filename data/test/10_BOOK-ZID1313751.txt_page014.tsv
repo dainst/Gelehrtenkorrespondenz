@@ -1,0 +1,69 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an Brunn 9/V/1874 - 3 - übereinander liegende Schichten von Gräbern gefunden worden sind, was voraussichtlich zur Beurtheilung Ihrer Probleme wichtig sein wird.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	9/V/1874	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-5	-	$(	-	_	O	O	
+1-6	3	CARD	3	_	O	O	
+1-7	-	$(	-	_	O	O	
+1-8	übereinander	ADV	übereinander	_	O	O	
+1-9	liegende	ADJA	liegend	_	O	O	
+1-10	Schichten	NN	Schicht	_	O	O	
+1-11	von	APPR	von	_	O	O	
+1-12	Gräbern	NN	Grab	_	B-webanno.custom.LetterEntity_	B-OBJ	
+1-13	gefunden	VVPP	finden	_	O	O	
+1-14	worden	VAPP	werden	_	O	O	
+1-15	sind	VAFIN	sein	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	was	PRELS	was	_	O	O	
+1-18	voraussichtlich	ADJD	voraussichtlich	_	O	O	
+1-19	zur	APPRART	zu	_	O	O	
+1-20	Beurtheilung	NN	<unknown>	_	O	O	
+1-21	Ihrer	PPOSAT	ihr	_	O	O	
+1-22	Probleme	NN	Problem	_	O	O	
+1-23	wichtig	ADJD	wichtig	_	O	O	
+1-24	sein	VAINF	sein	_	O	O	
+1-25	wird	VAFIN	werden	_	O	O	
+1-26	.	$.	.	_	O	O	
+
+#id=2
+#text=Herzliche Grüße an die IhrQgen!
+2-1	Herzliche	ADJA	herzlich	_	O	O	
+2-2	Grüße	NN	Gruß	_	O	O	
+2-3	an	APPR	an	_	O	O	
+2-4	die	ART	die	_	O	O	
+2-5	IhrQgen	NN	<unknown>	_	O	O	
+2-6	!	$.	!	_	O	O	
+
+#id=3
+#text=Ihr ergebener Helbig.
+3-1	Ihr	PPOSAT	ihr	_	O	O	
+3-2	ergebener	ADJA	ergeben	_	O	O	
+3-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-4	.	$.	.	_	O	O	
+
+#id=4
+#text=1) Vgl. dazu den im wesentlichen gleichen Vorschlag von Klügmann im Briefe an Brunn 24. April 1874.
+4-1	1	CARD	1	_	O	O	
+4-2	)	$(	)	_	O	O	
+4-3	Vgl.	NN	Vgl.	_	O	O	
+4-4	dazu	PAV	dazu	_	O	O	
+4-5	den	ART	die	_	O	O	
+4-6	im	APPRART	in	_	O	O	
+4-7	wesentlichen	ADJA	wesentlich	_	O	O	
+4-8	gleichen	ADJA	gleich	_	O	O	
+4-9	Vorschlag	NN	Vorschlag	_	O	O	
+4-10	von	APPR	von	_	O	O	
+4-11	Klügmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-12	im	APPRART	in	_	O	O	
+4-13	Briefe	NN	Brief	_	O	O	
+4-14	an	APPR	an	_	O	O	
+4-15	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+4-16	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-17	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-18	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-19	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-20	.	$.	.	_	O	O	
+

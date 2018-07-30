@@ -1,0 +1,110 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=b) a) 3 Helbig an Brunn Rom, 9. Mai 1874 So viel für heute.
+1-1	b	ADJA	<unknown>	_	O	O	
+1-2	)	$(	)	_	O	O	
+1-3	a	FM	a	_	O	O	
+1-4	)	$(	)	_	O	O	
+1-5	3	CARD	3	_	O	O	
+1-6	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-7	an	APPR	an	_	O	O	
+1-8	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-10	,	$,	,	_	O	O	
+1-11	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-12	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	1874	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-15	So	ADV	so	_	O	O	
+1-16	viel	ADV	viel	_	O	O	
+1-17	für	APPR	für	_	O	O	
+1-18	heute	ADV	heute	_	O	O	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=Ich habe bei dem continuirlichen Äerger, den die letzten vier Wochen mit sich brachten, eine Menge wichtiger Dinge liegen lassen und daher jetzt unendlich viel zu thun.
+2-1	Ich	PPER	ich	_	O	O	
+2-2	habe	VAFIN	haben	_	O	O	
+2-3	bei	APPR	bei	_	O	O	
+2-4	dem	ART	die	_	O	O	
+2-5	continuirlichen	ADJA	<unknown>	_	O	O	
+2-6	Äerger	NN	<unknown>	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	den	PRELS	die	_	O	O	
+2-9	die	ART	die	_	O	O	
+2-10	letzten	ADJA	letzt	_	O	O	
+2-11	vier	CARD	vier	_	O	O	
+2-12	Wochen	NN	Woche	_	O	O	
+2-13	mit	APPR	mit	_	O	O	
+2-14	sich	PRF	sich	_	O	O	
+2-15	brachten	VVFIN	bringen	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	eine	ART	eine	_	O	O	
+2-18	Menge	NN	Menge	_	O	O	
+2-19	wichtiger	ADJA	wichtig	_	O	O	
+2-20	Dinge	NN	Ding	_	O	O	
+2-21	liegen	VVINF	liegen	_	O	O	
+2-22	lassen	VVINF	lassen	_	O	O	
+2-23	und	KON	und	_	O	O	
+2-24	daher	PAV	daher	_	O	O	
+2-25	jetzt	ADV	jetzt	_	O	O	
+2-26	unendlich	ADJD	unendlich	_	O	O	
+2-27	viel	ADV	viel	_	O	O	
+2-28	zu	APPR	zu	_	O	O	
+2-29	thun	NE	<unknown>	_	O	O	
+2-30	.	$.	.	_	O	O	
+
+#id=3
+#text=Morgen gehe ich nach Corneto, wo das Municipio ausgraben läßt und - so schreibt man mir wenigstens - zwei übereinander liegende Schichten von Gräbern gefunden worden sind, was voraussichtlich zur Beurtheilung Ihrer Probleme wichtig sein wird.
+3-1	Morgen	ADV	morgen	_	O	O	
+3-2	gehe	VVFIN	gehen	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	nach	APPR	nach	_	O	O	
+3-5	Corneto	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-6	,	$,	,	_	O	O	
+3-7	wo	PWAV	wo	_	O	O	
+3-8	das	ART	die	_	O	O	
+3-9	Municipio	NE	<unknown>	_	O	O	
+3-10	ausgraben	VVINF	ausgraben	_	O	O	
+3-11	läßt	VVFIN	lassen	_	O	O	
+3-12	und	KON	und	_	O	O	
+3-13	-	$(	-	_	O	O	
+3-14	so	ADV	so	_	O	O	
+3-15	schreibt	VVFIN	schreiben	_	O	O	
+3-16	man	PIS	man	_	O	O	
+3-17	mir	PRF	ich	_	O	O	
+3-18	wenigstens	ADV	wenigstens	_	O	O	
+3-19	-	$(	-	_	O	O	
+3-20	zwei	CARD	zwei	_	O	O	
+3-21	übereinander	ADV	übereinander	_	O	O	
+3-22	liegende	ADJA	liegend	_	O	O	
+3-23	Schichten	NN	Schicht	_	O	O	
+3-24	von	APPR	von	_	O	O	
+3-25	Gräbern	NN	Grab	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-26	gefunden	VVPP	finden	_	O	O	
+3-27	worden	VAPP	werden	_	O	O	
+3-28	sind	VAFIN	sein	_	O	O	
+3-29	,	$,	,	_	O	O	
+3-30	was	PRELS	was	_	O	O	
+3-31	voraussichtlich	ADJD	voraussichtlich	_	O	O	
+3-32	zur	APPRART	zu	_	O	O	
+3-33	Beurtheilung	NN	<unknown>	_	O	O	
+3-34	Ihrer	PPOSAT	ihr	_	O	O	
+3-35	Probleme	NN	Problem	_	O	O	
+3-36	wichtig	ADJD	wichtig	_	O	O	
+3-37	sein	VAINF	sein	_	O	O	
+3-38	wird	VAFIN	werden	_	O	O	
+3-39	.	$.	.	_	O	O	
+
+#id=4
+#text=Herzliche Grüße an die Ihrigen 1 Ihr ergebner Helbig
+4-1	Herzliche	ADJA	herzlich	_	O	O	
+4-2	Grüße	NN	Gruß	_	O	O	
+4-3	an	APPR	an	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	Ihrigen	NN	<unknown>	_	O	O	
+4-6	1	CARD	1	_	O	O	
+4-7	Ihr	PPOSAT	ihr	_	O	O	
+4-8	ergebner	NE	<unknown>	_	O	O	
+4-9	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

@@ -1,0 +1,106 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=4 4 Wolfgang Helbig an Heinrich Brunn Rom, 19. Mai 1866 mich möglichst bald zu verheirathen und zwar mit einer Dame, die in gleich liebenswürdiger Weise wie die Frau Professorin junge Leute aufzunehmen und zu behandeln weiß.
+1-1	4	CARD	4	_	O	O	
+1-2	4	CARD	4	_	O	O	
+1-3	Wolfgang	NN	Wolfgang	_	O	O	
+1-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1866	CARD	1866	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	mich	PRF	ich	_	O	O	
+1-15	möglichst	ADV	möglichst	_	O	O	
+1-16	bald	ADV	bald	_	O	O	
+1-17	zu	APPR	zu	_	O	O	
+1-18	verheirathen	NN	<unknown>	_	O	O	
+1-19	und	KON	und	_	O	O	
+1-20	zwar	ADV	zwar	_	O	O	
+1-21	mit	APPR	mit	_	O	O	
+1-22	einer	ART	eine	_	O	O	
+1-23	Dame	NN	Dame	_	O	O	
+1-24	,	$,	,	_	O	O	
+1-25	die	PRELS	die	_	O	O	
+1-26	in	APPR	in	_	O	O	
+1-27	gleich	ADJD	gleich	_	O	O	
+1-28	liebenswürdiger	ADJA	liebenswürdig	_	O	O	
+1-29	Weise	NN	Weise	_	O	O	
+1-30	wie	KOKOM	wie	_	O	O	
+1-31	die	ART	die	_	O	O	
+1-32	Frau	NN	Frau	_	O	O	
+1-33	Professorin	NN	Professorin	_	O	O	
+1-34	junge	ADJA	jung	_	O	O	
+1-35	Leute	NN	Leute	_	O	O	
+1-36	aufzunehmen	VVIZU	aufnehmen	_	O	O	
+1-37	und	KON	und	_	O	O	
+1-38	zu	PTKZU	zu	_	O	O	
+1-39	behandeln	VVINF	behandeln	_	O	O	
+1-40	weiß.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=Es ist auch wirklich nicht angenehm, allein stehend den Wechsel der Generationen ansehen zu müssen, welche in Rom an Einem vorüberziehen.
+2-1	Es	PPER	es	_	O	O	
+2-2	ist	VAFIN	sein	_	O	O	
+2-3	auch	ADV	auch	_	O	O	
+2-4	wirklich	ADJD	wirklich	_	O	O	
+2-5	nicht	PTKNEG	nicht	_	O	O	
+2-6	angenehm	ADJD	angenehm	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	allein	ADV	allein	_	O	O	
+2-9	stehend	ADJD	stehend	_	O	O	
+2-10	den	ART	die	_	O	O	
+2-11	Wechsel	NN	Wechsel	_	O	O	
+2-12	der	ART	die	_	O	O	
+2-13	Generationen	NN	Generation	_	O	O	
+2-14	ansehen	VVINF	ansehen	_	O	O	
+2-15	zu	PTKZU	zu	_	O	O	
+2-16	müssen	VMINF	müssen	_	O	O	
+2-17	,	$,	,	_	O	O	
+2-18	welche	PRELS	welche	_	O	O	
+2-19	in	APPR	in	_	O	O	
+2-20	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-21	an	APPR	an	_	O	O	
+2-22	Einem	PIS	eine	_	O	O	
+2-23	vorüberziehen	VVFIN	vorüberziehen	_	O	O	
+2-24	.	$.	.	_	O	O	
+
+#id=3
+#text=Nächstens mehr.
+3-1	Nächstens	ADV	nächstens	_	O	O	
+3-2	mehr	ADV	mehr	_	O	O	
+3-3	.	$.	.	_	O	O	
+
+#id=4
+#text=Herzliche Grüße an die Frau Professorin und an den Cav. Umpfenbach, dem ich beiliegendes Blatt einzuhändigen bitte.
+4-1	Herzliche	ADJA	herzlich	_	O	O	
+4-2	Grüße	NN	Gruß	_	O	O	
+4-3	an	APPR	an	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	Frau	NN	Frau	_	O	O	
+4-6	Professorin	NN	Professorin	_	O	O	
+4-7	und	KON	und	_	O	O	
+4-8	an	APPR	an	_	O	O	
+4-9	den	ART	die	_	O	O	
+4-10	Cav.	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-11	Umpfenbach	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-12	,	$,	,	_	O	O	
+4-13	dem	PRELS	die	_	O	O	
+4-14	ich	PPER	ich	_	O	O	
+4-15	beiliegendes	ADJA	<unknown>	_	O	O	
+4-16	Blatt	NN	Blatt	_	O	O	
+4-17	einzuhändigen	VVIZU	einhändigen	_	O	O	
+4-18	bitte	VVFIN	bitten	_	O	O	
+4-19	.	$.	.	_	O	O	
+
+#id=5
+#text=Ihr dankbarer Wolfgang Helbig
+5-1	Ihr	PPOSAT	ihr	_	O	O	
+5-2	dankbarer	ADJA	dankbar	_	O	O	
+5-3	Wolfgang	NE	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+5-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+

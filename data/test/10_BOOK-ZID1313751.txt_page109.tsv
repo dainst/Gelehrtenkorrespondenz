@@ -1,0 +1,184 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=10 2 Wolfgang Helbig an Heinrich Brunn Rom, 23. Dezember 1873 Verhältnisse der Berliner zu den außerpreußischen Archäologen gestalten.
+1-1	10	CARD	10	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Wolfgang	NN	Wolfgang	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	Helbig	ADJD	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-7	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-9	,	$,	,	_	O	O	
+1-10	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-11	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	1873	CARD	1873	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-14	Verhältnisse	NN	Verhältnis	_	O	O	
+1-15	der	ART	die	_	O	O	
+1-16	Berliner	NN	Berliner	_	O	O	
+1-17	zu	APPR	zu	_	O	O	
+1-18	den	ART	die	_	O	O	
+1-19	außerpreußischen	ADJA	<unknown>	_	O	O	
+1-20	Archäologen	NN	Archäologe	_	O	O	
+1-21	gestalten	VVINF	gestalten	_	O	O	
+1-22	.	$.	.	_	O	O	
+
+#id=2
+#text=Mommsens Versetzung nach Leipzig wird in dieser Hinsicht, denke ich, Manches ändern.
+2-1	Mommsens	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	Versetzung	NN	Versetzung	_	O	O	
+2-3	nach	APPR	nach	_	O	O	
+2-4	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-5	wird	VAFIN	werden	_	O	O	
+2-6	in	APPR	in	_	O	O	
+2-7	dieser	PDAT	dies	_	O	O	
+2-8	Hinsicht	NN	Hinsicht	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	denke	VVFIN	denken	_	O	O	
+2-11	ich	PPER	ich	_	O	O	
+2-12	,	$,	,	_	O	O	
+2-13	Manches	PIS	manche	_	O	O	
+2-14	ändern	VVFIN	ändern	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Jeden Falls wird Jeder, der sich für die gedeihliche Enwicklung des Instituts interessirt, die Hoffnung hegen, daß Sie fest auf Ihrem Standpunkte beharren.
+3-1	Jeden	PIAT	jede	_	O	O	
+3-2	Falls	NN	Fall	_	O	O	
+3-3	wird	VAFIN	werden	_	O	O	
+3-4	Jeder	PIS	jede	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	der	PRELS	die	_	O	O	
+3-7	sich	PRF	sich	_	O	O	
+3-8	für	APPR	für	_	O	O	
+3-9	die	ART	die	_	O	O	
+3-10	gedeihliche	ADJA	<unknown>	_	O	O	
+3-11	Enwicklung	NN	<unknown>	_	O	O	
+3-12	des	ART	die	_	O	O	
+3-13	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-14	interessirt	NN	<unknown>	_	O	O	
+3-15	,	$,	,	_	O	O	
+3-16	die	ART	die	_	O	O	
+3-17	Hoffnung	NN	Hoffnung	_	O	O	
+3-18	hegen	VVFIN	hegen	_	O	O	
+3-19	,	$,	,	_	O	O	
+3-20	daß	KOUS	dass	_	O	O	
+3-21	Sie	PPER	Sie	_	O	O	
+3-22	fest	ADJD	fest	_	O	O	
+3-23	auf	APPR	auf	_	O	O	
+3-24	Ihrem	PPOSAT	ihr	_	O	O	
+3-25	Standpunkte	NN	Standpunkt	_	O	O	
+3-26	beharren	VVFIN	beharren	_	O	O	
+3-27	.	$.	.	_	O	O	
+
+#id=4
+#text=Nur wenn sich in der Central Direktion eine Autorität befindet, die für die dem Institute zunächst lie~.enden Aufgaben Verständniß und Interesse hat, nur dann können wir uns über dem Wasser erhalten.
+4-1	Nur	ADV	nur	_	O	O	
+4-2	wenn	KOUS	wenn	_	O	O	
+4-3	sich	PRF	sich	_	O	O	
+4-4	in	APPR	in	_	O	O	
+4-5	der	ART	die	_	O	O	
+4-6	Central	NN	<unknown>	_	O	O	
+4-7	Direktion	NN	Direktion	_	O	O	
+4-8	eine	ART	eine	_	O	O	
+4-9	Autorität	NN	Autorität	_	O	O	
+4-10	befindet	VVFIN	befinden	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	die	PRELS	die	_	O	O	
+4-13	für	APPR	für	_	O	O	
+4-14	die	ART	die	_	O	O	
+4-15	dem	ART	die	_	O	O	
+4-16	Institute	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-17	zunächst	ADV	zunächst	_	O	O	
+4-18	lie~.enden	ADJA	<unknown>	_	O	O	
+4-19	Aufgaben	NN	Aufgabe	_	O	O	
+4-20	Verständniß	NN	<unknown>	_	O	O	
+4-21	und	KON	und	_	O	O	
+4-22	Interesse	NN	Interesse	_	O	O	
+4-23	hat	VAFIN	haben	_	O	O	
+4-24	,	$,	,	_	O	O	
+4-25	nur	ADV	nur	_	O	O	
+4-26	dann	ADV	dann	_	O	O	
+4-27	können	VMFIN	können	_	O	O	
+4-28	wir	PPER	wir	_	O	O	
+4-29	uns	PRF	wir	_	O	O	
+4-30	über	APPR	über	_	O	O	
+4-31	dem	ART	die	_	O	O	
+4-32	Wasser	NN	Wasser	_	O	O	
+4-33	erhalten	VVPP	erhalten	_	O	O	
+4-34	.	$.	.	_	O	O	
+
+#id=5
+#text=Wird noch eine Zeit lang so fortgewirthschaftet wie jetzt, dann wäre es das Beste und Logischste einfach aus dem Institute eine epigraphische Kohlenstation zu machen und die monumentale Seite völlig bei Seite zu lassen.
+5-1	Wird	VAFIN	werden	_	O	O	
+5-2	noch	ADV	noch	_	O	O	
+5-3	eine	ART	eine	_	O	O	
+5-4	Zeit	NN	Zeit	_	O	O	
+5-5	lang	ADJD	lang	_	O	O	
+5-6	so	ADV	so	_	O	O	
+5-7	fortgewirthschaftet	ADJD	<unknown>	_	O	O	
+5-8	wie	KOKOM	wie	_	O	O	
+5-9	jetzt	ADV	jetzt	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	dann	ADV	dann	_	O	O	
+5-12	wäre	VAFIN	sein	_	O	O	
+5-13	es	PPER	es	_	O	O	
+5-14	das	ART	die	_	O	O	
+5-15	Beste	NN	Beste	_	O	O	
+5-16	und	KON	und	_	O	O	
+5-17	Logischste	NN	<unknown>	_	O	O	
+5-18	einfach	ADJD	einfach	_	O	O	
+5-19	aus	APPR	aus	_	O	O	
+5-20	dem	ART	die	_	O	O	
+5-21	Institute	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-22	eine	ART	eine	_	O	O	
+5-23	epigraphische	ADJA	<unknown>	_	O	O	
+5-24	Kohlenstation	NN	<unknown>	_	O	O	
+5-25	zu	PTKZU	zu	_	O	O	
+5-26	machen	VVINF	machen	_	O	O	
+5-27	und	KON	und	_	O	O	
+5-28	die	ART	die	_	O	O	
+5-29	monumentale	ADJA	monumental	_	O	O	
+5-30	Seite	NN	Seite	_	O	O	
+5-31	völlig	ADJD	völlig	_	O	O	
+5-32	bei	APPR	bei	_	O	O	
+5-33	Seite	NN	Seite	_	O	O	
+5-34	zu	PTKZU	zu	_	O	O	
+5-35	lassen	VVINF	lassen	_	O	O	
+5-36	.	$.	.	_	O	O	
+
+#id=6
+#text=Also Landgraf Ludwig bleibe hart !
+6-1	Also	ADV	also	_	O	O	
+6-2	Landgraf	NE	Landgraf	_	O	O	
+6-3	Ludwig	NE	Ludwig	_	O	O	
+6-4	bleibe	VVFIN	bleiben	_	O	O	
+6-5	hart	ADJD	hart	_	O	O	
+6-6	!	$.	!	_	O	O	
+
+#id=7
+#text=Viele Grüße an die Ihrigen, buona festa und herzliche Glückwünsche zum neuen J"ahre !
+7-1	Viele	PIAT	viele	_	O	O	
+7-2	Grüße	NN	Gruß	_	O	O	
+7-3	an	APPR	an	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	Ihrigen	NN	<unknown>	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	buona	NE	<unknown>	_	O	O	
+7-8	festa	NE	<unknown>	_	O	O	
+7-9	und	KON	und	_	O	O	
+7-10	herzliche	ADJA	herzlich	_	O	O	
+7-11	Glückwünsche	NN	Glückwunsch	_	O	O	
+7-12	zum	APPRART	zu	_	O	O	
+7-13	neuen	ADJA	neu	_	O	O	
+7-14	J"ahre	NN	<unknown>	_	O	O	
+7-15	!	$.	!	_	O	O	
+
+#id=8
+#text=Ihr dankbar ergebener Helbig
+8-1	Ihr	PPOSAT	ihr	_	O	O	
+8-2	dankbar	ADJD	dankbar	_	O	O	
+8-3	ergebener	ADJD	ergebener	_	O	O	
+8-4	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

@@ -1,0 +1,251 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=55 Wolfgang Helbig an Heinrich Brunn Rom, 9. Januar 1886 r.
+1-1	55	CARD	@card@	_	O	O	
+1-2	Wolfgang	NN	Wolfgang	_	O	O	
+1-3	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Heinrich	NE	Heinrich	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-8	,	$,	,	_	O	O	
+1-9	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1886	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	r.	VVFIN	<unknown>	_	O	O	
+
+#id=2
+#text=18.
+2-1	18	CARD	18	_	O	O	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=111.
+3-1	111	CARD	@card@	_	O	O	
+3-2	.	$.	.	_	O	O	
+
+#id=4
+#text=86 Roma, li 9. Jan.
+4-1	86	CARD	86	_	O	O	
+4-2	Roma	NE	Roma	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-3	,	$,	,	_	O	O	
+4-4	li	ADJD	<unknown>	_	O	O	
+4-5	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-7	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=5
+#text=1886 Lieber Herr Professor Zunächst herzlichen Glückwunsch zum neuen Jahre für Sie und für die Ihrigen.
+5-1	1886	CARD	@card@	_	O	O	
+5-2	Lieber	ADJA	lieb	_	O	O	
+5-3	Herr	NN	Herr	_	O	O	
+5-4	Professor	NN	Professor	_	O	O	
+5-5	Zunächst	ADV	zunächst	_	O	O	
+5-6	herzlichen	ADJA	herzlich	_	O	O	
+5-7	Glückwunsch	NN	Glückwunsch	_	O	O	
+5-8	zum	APPRART	zu	_	O	O	
+5-9	neuen	ADJA	neu	_	O	O	
+5-10	Jahre	NN	Jahr	_	O	O	
+5-11	für	APPR	für	_	O	O	
+5-12	Sie	PPER	Sie	_	O	O	
+5-13	und	KON	und	_	O	O	
+5-14	für	APPR	für	_	O	O	
+5-15	die	ART	die	_	O	O	
+5-16	Ihrigen	NN	<unknown>	_	O	O	
+5-17	.	$.	.	_	O	O	
+
+#id=6
+#text=Dann eine Seccatura, die einem uomo stupendo, der in engen Beziehungen zu Italien steht, nicht erspart werden kann.
+6-1	Dann	ADV	dann	_	O	O	
+6-2	eine	ART	eine	_	O	O	
+6-3	Seccatura	NN	<unknown>	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	die	PRELS	die	_	O	O	
+6-6	einem	ART	eine	_	O	O	
+6-7	uomo	NE	<unknown>	_	O	O	
+6-8	stupendo	NE	<unknown>	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	der	PRELS	die	_	O	O	
+6-11	in	APPR	in	_	O	O	
+6-12	engen	ADJA	eng	_	O	O	
+6-13	Beziehungen	NN	Beziehung	_	O	O	
+6-14	zu	APPR	zu	_	O	O	
+6-15	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-16	steht	VVFIN	stehen	_	O	O	
+6-17	,	$,	,	_	O	O	
+6-18	nicht	PTKNEG	nicht	_	O	O	
+6-19	erspart	VVPP	ersparen	_	O	O	
+6-20	werden	VAINF	werden	_	O	O	
+6-21	kann	VMFIN	können	_	O	O	
+6-22	.	$.	.	_	O	O	
+
+#id=7
+#text=Nehmen Sie, bitte, vom beiliegenden Circular Notiz und werfen Sie dann rasch einen bedeutenden Gedanken auf das Papier, und schicken Sie mir das Blatt möglichst rasch zu.
+7-1	Nehmen	VVFIN	nehmen	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	,	$,	,	_	O	O	
+7-4	bitte	VVIMP	bitten	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	vom	APPRART	von	_	O	O	
+7-7	beiliegenden	ADJA	beiliegend	_	O	O	
+7-8	Circular	NN	<unknown>	_	O	O	
+7-9	Notiz	NN	Notiz	_	O	O	
+7-10	und	KON	und	_	O	O	
+7-11	werfen	VVFIN	werfen	_	O	O	
+7-12	Sie	PPER	Sie	_	O	O	
+7-13	dann	ADV	dann	_	O	O	
+7-14	rasch	ADJD	rasch	_	O	O	
+7-15	einen	ART	eine	_	O	O	
+7-16	bedeutenden	ADJA	bedeutend	_	O	O	
+7-17	Gedanken	NN	Gedanke	_	O	O	
+7-18	auf	APPR	auf	_	O	O	
+7-19	das	ART	die	_	O	O	
+7-20	Papier	NN	Papier	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	und	KON	und	_	O	O	
+7-23	schicken	VVFIN	schicken	_	O	O	
+7-24	Sie	PPER	Sie	_	O	O	
+7-25	mir	PRF	ich	_	O	O	
+7-26	das	ART	die	_	O	O	
+7-27	Blatt	NN	Blatt	_	O	O	
+7-28	möglichst	ADV	möglichst	_	O	O	
+7-29	rasch	ADJD	rasch	_	O	O	
+7-30	zu	PTKVZ	zu	_	O	O	
+7-31	.	$.	.	_	O	O	
+
+#id=8
+#text=Da sich die Franzosen sehr zahlreich betheiligt haben, so scheint es erwünscht, daß auch die Deutschen einiger Maßen vertreten sind.
+8-1	Da	KOUS	da	_	O	O	
+8-2	sich	PRF	sich	_	O	O	
+8-3	die	ART	die	_	O	O	
+8-4	Franzosen	NN	Franzose	_	O	O	
+8-5	sehr	ADV	sehr	_	O	O	
+8-6	zahlreich	ADJD	zahlreich	_	O	O	
+8-7	betheiligt	VVPP	<unknown>	_	O	O	
+8-8	haben	VAFIN	haben	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	so	ADV	so	_	O	O	
+8-11	scheint	VVFIN	scheinen	_	O	O	
+8-12	es	PPER	es	_	O	O	
+8-13	erwünscht	ADJD	erwünscht	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	daß	KOUS	dass	_	O	O	
+8-16	auch	ADV	auch	_	O	O	
+8-17	die	ART	die	_	O	O	
+8-18	Deutschen	NN	Deutsche	_	O	O	
+8-19	einiger	PIAT	einige	_	O	O	
+8-20	Maßen	NN	Maß	_	O	O	
+8-21	vertreten	VVPP	vertreten	_	O	O	
+8-22	sind	VAFIN	sein	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=Könnten Sie Autographen von anderen hervorragenden Münchener Persönlichkeiten beschaffen, etwa von Giesebrecht, Döllinger, an welchen letzteren ich ein Circular geschickt, Oertel, Paul Heyse, so würde Ihnen das Comite sehr dr,3.JJ.J:<:bar sein.
+9-1	Könnten	VMFIN	können	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	Autographen	NN	Autograph	_	O	O	
+9-4	von	APPR	von	_	O	O	
+9-5	anderen	PIS	andere	_	O	O	
+9-6	hervorragenden	ADJA	hervorragend	_	O	O	
+9-7	Münchener	ADJA	Münchener	_	O	O	
+9-8	Persönlichkeiten	NN	Persönlichkeit	_	O	O	
+9-9	beschaffen	VVINF	beschaffen	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	etwa	ADV	etwa	_	O	O	
+9-12	von	APPR	von	_	O	O	
+9-13	Giesebrecht	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-14	,	$,	,	_	O	O	
+9-15	Döllinger	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-16	,	$,	,	_	O	O	
+9-17	an	APPR	an	_	O	O	
+9-18	welchen	PRELS	welche	_	O	O	
+9-19	letzteren	ADJA	letzt	_	O	O	
+9-20	ich	PPER	ich	_	O	O	
+9-21	ein	ART	eine	_	O	O	
+9-22	Circular	NN	<unknown>	_	O	O	
+9-23	geschickt	VVPP	schicken	_	O	O	
+9-24	,	$,	,	_	O	O	
+9-25	Oertel	NN	<unknown>	_	O	O	
+9-26	,	$,	,	_	O	O	
+9-27	Paul	NE	Paul	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-28	Heyse	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-29	,	$,	,	_	O	O	
+9-30	so	ADV	so	_	O	O	
+9-31	würde	VAFIN	werden	_	O	O	
+9-32	Ihnen	PPER	Sie	_	O	O	
+9-33	das	ART	die	_	O	O	
+9-34	Comite	NN	<unknown>	_	O	O	
+9-35	sehr	ADV	sehr	_	O	O	
+9-36	dr,3.JJ.J:<:bar	ADJD	<unknown>	_	O	O	
+9-37	sein	VAINF	sein	_	O	O	
+9-38	.	$.	.	_	O	O	
+
+#id=10
+#text=GrGEi)T'ovius hat bereits ein Autograph eingesendet.
+10-1	GrGEi)T'ovius	NE	<unknown>	_	O	O	
+10-2	hat	VAFIN	haben	_	O	O	
+10-3	bereits	ADV	bereits	_	O	O	
+10-4	ein	ART	eine	_	O	O	
+10-5	Autograph	NN	Autograph	_	O	O	
+10-6	eingesendet	VVPP	einsenden	_	O	O	
+10-7	.	$.	.	_	O	O	
+
+#id=11
+#text=Es wäre wünschenswerth, wenn die AutograPhen, die facsimilirt werden sollen, nicht zu lang ausfielen und einger Maßen deutlich geschrieben wären.
+11-1	Es	PPER	es	_	O	O	
+11-2	wäre	VAFIN	sein	_	O	O	
+11-3	wünschenswerth	NE	<unknown>	_	O	O	
+11-4	,	$,	,	_	O	O	
+11-5	wenn	KOUS	wenn	_	O	O	
+11-6	die	ART	die	_	O	O	
+11-7	AutograPhen	NN	Autograph	_	O	O	
+11-8	,	$,	,	_	O	O	
+11-9	die	ART	die	_	O	O	
+11-10	facsimilirt	NN	<unknown>	_	O	O	
+11-11	werden	VAINF	werden	_	O	O	
+11-12	sollen	VMFIN	sollen	_	O	O	
+11-13	,	$,	,	_	O	O	
+11-14	nicht	PTKNEG	nicht	_	O	O	
+11-15	zu	PTKA	zu	_	O	O	
+11-16	lang	ADJD	lang	_	O	O	
+11-17	ausfielen	VVFIN	ausfallen	_	O	O	
+11-18	und	KON	und	_	O	O	
+11-19	einger	ADJA	<unknown>	_	O	O	
+11-20	Maßen	NN	Maß	_	O	O	
+11-21	deutlich	ADJD	deutlich	_	O	O	
+11-22	geschrieben	VVPP	schreiben	_	O	O	
+11-23	wären	VAINF	sein	_	O	O	
+11-24	.	$.	.	_	O	O	
+
+#id=12
+#text=Wir haben mit den Conflicten, welche zwischen der Berliner Denkmälern, Jahrbüchern und den Mittheilungen entstehen, unendlich viel Ärger und ich fange an meinen Rückzug vorzube-
+12-1	Wir	PPER	wir	_	O	O	
+12-2	haben	VAFIN	haben	_	O	O	
+12-3	mit	APPR	mit	_	O	O	
+12-4	den	ART	die	_	O	O	
+12-5	Conflicten	NN	<unknown>	_	O	O	
+12-6	,	$,	,	_	O	O	
+12-7	welche	PRELS	welche	_	O	O	
+12-8	zwischen	APPR	zwischen	_	O	O	
+12-9	der	ART	die	_	O	O	
+12-10	Berliner	ADJA	Berliner	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-11	Denkmälern	NN	Denkmal	_	O	O	
+12-12	,	$,	,	_	O	O	
+12-13	Jahrbüchern	NN	Jahrbuch	_	O	O	
+12-14	und	KON	und	_	O	O	
+12-15	den	ART	die	_	O	O	
+12-16	Mittheilungen	NN	<unknown>	_	O	O	
+12-17	entstehen	VVFIN	entstehen	_	O	O	
+12-18	,	$,	,	_	O	O	
+12-19	unendlich	ADJD	unendlich	_	O	O	
+12-20	viel	PIAT	viele	_	O	O	
+12-21	Ärger	NN	Ärger	_	O	O	
+12-22	und	KON	und	_	O	O	
+12-23	ich	PPER	ich	_	O	O	
+12-24	fange	VVFIN	fangen	_	O	O	
+12-25	an	APPR	an	_	O	O	
+12-26	meinen	PPOSAT	mein	_	O	O	
+12-27	Rückzug	NN	Rückzug	_	O	O	
+12-28	vorzube-	VVIZU	<unknown>	_	O	O	
+

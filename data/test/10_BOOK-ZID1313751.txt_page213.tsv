@@ -1,0 +1,168 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Helbig an Brunn 22. August 1865 r.
+1-1	Helbig	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	22	CARD	22	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-5	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-6	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-7	1865	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	r.	VVFIN	<unknown>	_	O	O	
+
+#id=2
+#text=29/9 65 * •••••••• Den Henzen'schen Brief, Fortunati betreffend, lege ich nun ([so?J) bei, weil er einmal geschrieben ist.
+2-1	29/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-2	65	CARD	65	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-3	*	XY	*	_	O	O	
+2-4	•	ADJA	<unknown>	_	O	O	
+2-5	•	NN	<unknown>	_	O	O	
+2-6	•	ADJA	<unknown>	_	O	O	
+2-7	•	NN	<unknown>	_	O	O	
+2-8	•	ADJA	<unknown>	_	O	O	
+2-9	•	NN	<unknown>	_	O	O	
+2-10	•	ADJA	<unknown>	_	O	O	
+2-11	•	NN	<unknown>	_	O	O	
+2-12	Den	ART	die	_	O	O	
+2-13	Henzen'schen	NN	<unknown>	_	O	O	
+2-14	Brief	NN	Brief	_	O	O	
+2-15	,	$,	,	_	O	O	
+2-16	Fortunati	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-17	betreffend	ADJD	betreffend	_	O	O	
+2-18	,	$,	,	_	O	O	
+2-19	lege	VVFIN	legen	_	O	O	
+2-20	ich	PPER	ich	_	O	O	
+2-21	nun	ADV	nun	_	O	O	
+2-22	(	$(	(	_	O	O	
+2-23	[	$(	[	_	O	O	
+2-24	so	ADV	so	_	O	O	
+2-25	?	$.	?	_	O	O	
+2-26	J	NN	J	_	O	O	
+2-27	)	$(	)	_	O	O	
+2-28	bei	PTKVZ	bei	_	O	O	
+2-29	,	$,	,	_	O	O	
+2-30	weil	KOUS	weil	_	O	O	
+2-31	er	PPER	er	_	O	O	
+2-32	einmal	ADV	einmal	_	O	O	
+2-33	geschrieben	VVPP	schreiben	_	O	O	
+2-34	ist	VAFIN	sein	_	O	O	
+2-35	.	$.	.	_	O	O	
+
+#id=3
+#text=Fortunati ist definitiv verrückt geworden, war hier in Rom, ist Visconti** auf seinem Zimmer zu Leibe gegangen und mußte mit Gewalt darum entfernt werden.
+3-1	Fortunati	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	definitiv	ADJD	definitiv	_	O	O	
+3-4	verrückt	VVPP	verrücken	_	O	O	
+3-5	geworden	VAPP	werden	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	war	VAFIN	sein	_	O	O	
+3-8	hier	ADV	hier	_	O	O	
+3-9	in	APPR	in	_	O	O	
+3-10	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-11	,	$,	,	_	O	O	
+3-12	ist	VAFIN	sein	_	O	O	
+3-13	Visconti**	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-14	auf	APPR	auf	_	O	O	
+3-15	seinem	PPOSAT	sein	_	O	O	
+3-16	Zimmer	NN	Zimmer	_	O	O	
+3-17	zu	APPR	zu	_	O	O	
+3-18	Leibe	NN	Leib	_	O	O	
+3-19	gegangen	VVPP	gehen	_	O	O	
+3-20	und	KON	und	_	O	O	
+3-21	mußte	VMFIN	müssen	_	O	O	
+3-22	mit	APPR	mit	_	O	O	
+3-23	Gewalt	NN	Gewalt	_	O	O	
+3-24	darum	PAV	darum	_	O	O	
+3-25	entfernt	VVPP	entfernen	_	O	O	
+3-26	werden	VAINF	werden	_	O	O	
+3-27	.	$.	.	_	O	O	
+
+#id=4
+#text=Als er in das Institut kam, habe ich ihn nicht vorgelassen.
+4-1	Als	KOUS	als	_	O	O	
+4-2	er	PPER	er	_	O	O	
+4-3	in	APPR	in	_	O	O	
+4-4	das	ART	die	_	O	O	
+4-5	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-6	kam	VVFIN	kommen	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	habe	VAFIN	haben	_	O	O	
+4-9	ich	PPER	ich	_	O	O	
+4-10	ihn	PPER	er	_	O	O	
+4-11	nicht	PTKNEG	nicht	_	O	O	
+4-12	vorgelassen	VVPP	vorlassen	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=abgemacht zu betrachten Die Geschichte ist demnach als • • • • • • • • * Lorenzo Fortunati doch wohl gemeint.
+5-1	abgemacht	VVPP	abmachen	_	O	O	
+5-2	zu	PTKZU	zu	_	O	O	
+5-3	betrachten	VVFIN	betrachten	_	O	O	
+5-4	Die	ART	die	_	O	O	
+5-5	Geschichte	NN	Geschichte	_	O	O	
+5-6	ist	VAFIN	sein	_	O	O	
+5-7	demnach	PAV	demnach	_	O	O	
+5-8	als	KOKOM	als	_	O	O	
+5-9	•	ADJA	<unknown>	_	O	O	
+5-10	•	NN	<unknown>	_	O	O	
+5-11	•	ADJA	<unknown>	_	O	O	
+5-12	•	NN	<unknown>	_	O	O	
+5-13	•	ADJA	<unknown>	_	O	O	
+5-14	•	NN	<unknown>	_	O	O	
+5-15	•	ADJA	<unknown>	_	O	O	
+5-16	•	NN	<unknown>	_	O	O	
+5-17	*	XY	*	_	O	O	
+5-18	Lorenzo	NE	Lorenzo	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-19	Fortunati	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-20	doch	ADV	doch	_	O	O	
+5-21	wohl	ADV	wohl	_	O	O	
+5-22	gemeint	VVPP	meinen	_	O	O	
+5-23	.	$.	.	_	O	O	
+
+#id=6
+#text=Der Zusammenhang wird sich gewiß aus den Institutsakten ergeben.
+6-1	Der	ART	die	_	O	O	
+6-2	Zusammenhang	NN	Zusammenhang	_	O	O	
+6-3	wird	VAFIN	werden	_	O	O	
+6-4	sich	PRF	sich	_	O	O	
+6-5	gewiß	ADJD	gewiss	_	O	O	
+6-6	aus	APPR	aus	_	O	O	
+6-7	den	ART	die	_	O	O	
+6-8	Institutsakten	NN	<unknown>	_	O	O	
+6-9	ergeben	VVPP	ergeben	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Über die von ihm an der Via Latina 1857/58 entdeckten Gräber und die dem Institut daraus erwachsenen Vorteile siehe Michaelis Geschichte ••• 149 ** Wohl C. L. Visconti
+7-1	Über	APPR	über	_	O	O	
+7-2	die	ART	die	_	O	O	
+7-3	von	APPR	von	_	O	O	
+7-4	ihm	PPER	er	_	O	O	
+7-5	an	APPR	an	_	O	O	
+7-6	der	ART	die	_	O	O	
+7-7	Via	NE	Via	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-8	Latina	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+7-9	1857/58	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-10	entdeckten	ADJA	entdeckt	_	O	O	
+7-11	Gräber	NN	Grab	_	O	O	
+7-12	und	KON	und	_	O	O	
+7-13	die	ART	die	_	O	O	
+7-14	dem	ART	die	_	O	O	
+7-15	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-16	daraus	PAV	daraus	_	O	O	
+7-17	erwachsenen	ADJA	erwachsen	_	O	O	
+7-18	Vorteile	NN	Vorteil	_	O	O	
+7-19	siehe	ADV	siehe	_	O	O	
+7-20	Michaelis	NE	Michaelis	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-21	Geschichte	NN	Geschichte	_	O	O	
+7-22	•	ADJA	<unknown>	_	O	O	
+7-23	•	NN	<unknown>	_	O	O	
+7-24	•	ADJD	<unknown>	_	O	O	
+7-25	149	CARD	@card@	_	O	O	
+7-26	**	ADJA	<unknown>	_	O	O	
+7-27	Wohl	NN	Wohl	_	O	O	
+7-28	C.	NE	C.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-29	L.	NE	L.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-30	Visconti	NN	Visconte	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+
