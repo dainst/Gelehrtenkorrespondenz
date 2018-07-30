@@ -3,13 +3,14 @@ import logging
 import os
 
 from tsv_reader import read_data as read_tsv_file
-from ead_reader import read_file as read_ead_file, read_files as read_ead_files
-from neo4j_writer import write_data
+from ead_reader.main import process_ead_file, process_ead_files
+from neo4j_writer import import_data
 
 logging.basicConfig(format='%(asctime)s %(message)s')
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
+
 
 if __name__ == '__main__':
 
@@ -32,7 +33,7 @@ if __name__ == '__main__':
         if file_extension == '.tsv':
             letter_data = read_tsv_file(tsv_path=input_path, ignore_first_line=True)
         elif file_extension == '.xml':
-            letter_data = read_ead_file(ead_file=input_path)
+            letter_data = process_ead_file(ead_file=input_path)
         else:
             logger.warning(f'Not a valid file format: {input_path}')
             sys.exit()
@@ -46,7 +47,7 @@ if __name__ == '__main__':
         xml_files_in_dir = [f'{input_path}{f}' for f in files_in_dir if os.path.splitext(f)[1] == '.xml']
 
         if len(xml_files_in_dir) != 0:
-            letter_data = read_ead_files(file_paths=xml_files_in_dir)
+            letter_data = process_ead_files(file_paths=xml_files_in_dir)
         else:
             logger.warning(f'Not valid files found in directory: {input_path}')
             sys.exit()
@@ -54,5 +55,4 @@ if __name__ == '__main__':
         logger.warning(f'No valid files found at {input_path}.')
         sys.exit()
 
-    write_data(letter_data, url=sys.argv[2], port=int(sys.argv[3]), username=sys.argv[4], password=sys.argv[5])
-
+    import_data(letter_data, url=sys.argv[2], port=int(sys.argv[3]), username=sys.argv[4], password=sys.argv[5])

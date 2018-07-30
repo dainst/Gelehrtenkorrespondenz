@@ -10,69 +10,46 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 
-def _import_places(session, data: List[LetterData]):
+def _import_place_nodes(session, data: List[Letter]):
     logger.info('Importing place nodes.')
-    places = set()
+    places: Set[Place] = set()
 
     for letter in data:
-        for person in letter.authors:
-            for localization in person.localizations:
-                if localization.place not in places:
-                    places.add(localization.place)
-        for person in letter.recipients:
-            for localization in person.localizations:
-                if localization.place not in places:
-                    places.add(localization.place)
+        origin_place = letter.origin_place
+        reception_place = letter.reception_place
+
+        if origin_place is not None and origin_place not in places:
+            places.add(origin_place)
+
+        if reception_place is not None and reception_place not in places:
+            places.add(reception_place)
 
     parameters = dict({'place_list': []})
     for place in places:
-        parameters['place_list'].append({
-            'label': place.label, 'gnd_id': place.gnd_id
-        })
+        parameters['place_list'].append(
+            {
+                'name': place.name,
+                'auth_source': place.auth_source,
+                'auth_id': place.auth_id,
+                'auth_name': place.auth_name,
+                'auth_lat': place.auth_lat,
+                'auth_lng': place.auth_lng
+            }
+        )
 
-    statement = \
-        'UNWIND {place_list} as data ' \
-        'CREATE (n:Place) ' \
-        'SET n = data'
-
-    with session.begin_transaction() as tx:
-        tx.run(statement, parameters)
-
-
-def _import_localisations(session, data: List[LetterData]):
-    logger.info('Importing localization nodes.')
-    localisations: Set[LocalizationTimeSpan] = set()
-
-    for letter in data:
-        for person in letter.authors:
-            for localization in person.localizations:
-                if localization not in localisations:
-                    localisations.add(localization)
-        for person in letter.recipients:
-            for localization in person.localizations:
-                if localization not in localisations:
-                    localisations.add(localization)
-
-    parameters = dict({'localization_list': []})
-    for localization in localisations:
-        parameters['localization_list'].append({
-            'from': localization.date_from,
-            'to': localization.date_to,
-            'gnd_id': localization.place.gnd_id
-        })
-
-    statement = \
-        'UNWIND {localization_list} as data ' \
-        'MATCH (place:Place {gnd_id: data.gnd_id}) ' \
-        'CREATE (localization:Localization{from: data.from, to: data.to})-[:HAS_PLACE]->(place)'
+    statement = """
+        UNWIND {place_list} as place
+        CREATE (n:Place)
+        SET n = place
+        """
 
     with session.begin_transaction() as tx:
         tx.run(statement, parameters)
 
 
-def _import_persons(session, data: List[LetterData]):
+def _import_person_nodes(session, data: List[Letter]):
     logger.info('Importing person nodes.')
-    persons = set()
+    persons: Set[Person] = set()
 
     for letter in data:
         for person in letter.authors:
@@ -85,92 +62,191 @@ def _import_persons(session, data: List[LetterData]):
     parameters = dict({'person_list': []})
 
     for person in persons:
-        data = {
-            'label': person.label,
+        parameters['person_list'].append({
+            'name': person.name,
             'gnd_id': person.gnd_id,
-            'first_name': person.first_name,
-            'last_name': person.last_name,
-            'localizations': []
-        }
+            'gnd_first_name': person.gnd_first_name,
+            'gnd_last_name': person.gnd_last_name
+        })
 
-        for localization in person.localizations:
-            data['localizations'].append({
-                'gnd_id_place': localization.place.gnd_id,
-                'from': localization.date_from,
-                'to': localization.date_to
-            })
-
-        parameters['person_list'].append(data)
-
-    statement = \
-        'UNWIND {person_list} AS data ' \
-        'CREATE (person:Person{label: data.label, gnd_id: data.gnd_id, first_name: data.first_name, last_name: data.last_name})' \
-        'WITH person, data ' \
-        'UNWIND data.localizations AS local_data ' \
-        'MATCH (place:Place{gnd_id: local_data.gnd_id_place}) ' \
-        'MATCH (localization:Localization{from: local_data.from, to: local_data.to})' \
-        'MATCH (localization)-[:HAS_PLACE]->(place) ' \
-        'CREATE (person)-[:RESIDES]->(localization)'
+    statement = """
+        UNWIND {person_list} AS person
+        CREATE (n:Person)
+        SET n = person
+    """
 
     with session.begin_transaction() as tx:
         tx.run(statement, parameters)
 
 
-def _import_letters(session, data: List[LetterData]):
+def _import_letter_nodes(session, data: List[Letter]):
     logger.info('Importing letter nodes.')
 
-    parameters = {
-        'letter_list': []
-    }
+    parameters = {'letter_list': []}
+
     for letter in data:
-        data = {
-            'id': letter.id,
-            'date': letter.date,
+        parameters['letter_list'].append({
+            'kalliope_id': letter.kalliope_id,
             'title': letter.title,
-            'summary': letter.summary,
-            'quantity_description': letter.quantity_description,
-            'quantity_page_count': letter.quantity_page_count,
-            'authors': [],
-            'recipients': []
-        }
+            'language_codes': ', '.join(letter.language_codes),
+            'origin_date_from': letter.origin_date_from,
+            'origin_date_till': letter.origin_date_till,
+            'origin_date_presumed': letter.origin_date_presumed,
+            'extent': letter.extent,
+            'summary_paragraphs': ' | '.join(letter.summary_paragraphs)
+        })
 
-        for author in letter.authors:
-            data['authors'].append({'gnd_id': author.gnd_id})
-        for recipient in letter.recipients:
-            data['recipients'].append({'gnd_id': recipient.gnd_id})
-
-        parameters['letter_list'].append(data)
-
-    statement = \
-        'UNWIND {letter_list} as data ' \
-        'CREATE (letter:Letter{id: data.id, date: data.date, title: data.title, summary: data.summary, quantity_description: data.quantity_description, quantity_page_count: data.quantity_page_count}) ' \
-        'WITH letter, data ' \
-        'UNWIND data.authors as person_data ' \
-        'MATCH (person:Person{gnd_id: person_data.gnd_id}) ' \
-        'CREATE (person)-[:IS_AUTHOR]->(letter) ' \
-        'WITH letter, data ' \
-        'UNWIND data.recipients as person_data ' \
-        'MATCH (person:Person{gnd_id: person_data.gnd_id}) ' \
-        'CREATE (person)-[:IS_RECIPIENT]->(letter)'
+    statement = """
+        UNWIND {letter_list} as letter
+        CREATE (n:Letter)
+        SET n = letter
+    """
 
     with session.begin_transaction() as tx:
         tx.run(statement, parameters)
 
 
-def write_data(data, url, port, username, password):
+def _import_send_from_relationships(session, data: List[Letter]):
+    logger.info('Importing send_from relationships.')
+
+    parameters = {'place_of_origin': []}
+
+    for letter in data:
+        if letter.origin_place is not None:
+            parameters['place_of_origin'].append({
+                    'letter_id': letter.kalliope_id,
+                    'name': letter.origin_place.name,
+                    'name_presumed': letter.origin_place.name_presumed,
+                    'auth_source': letter.origin_place.auth_source,
+                    'auth_id': letter.origin_place.auth_id
+                })
+
+    statement = """
+        UNWIND {place_of_origin} as place_of_origin
+        MATCH (letter:Letter { kalliope_id: place_of_origin.letter_id })
+        MATCH (place:Place {
+                    name: place_of_origin.name,
+                    auth_source: place_of_origin.auth_source,
+                    auth_id: place_of_origin.auth_id
+                    }
+              )
+        CREATE (letter) -[:SEND_FROM { presumed: place_of_origin.name_presumed }]-> (place)
+    """
+
+    with session.begin_transaction() as tx:
+        tx.run(statement, parameters)
+
+
+def _import_send_to_relationships(session, data: List[Letter]):
+    logger.info('Importing send_to relationships.')
+
+    parameters = {'place_of_reception': []}
+
+    for letter in data:
+        if letter.reception_place is not None:
+            parameters['place_of_reception'].append({
+                'letter_id': letter.kalliope_id,
+                'name': letter.reception_place.name,
+                'name_presumed': letter.reception_place.name_presumed,
+                'auth_source': letter.reception_place.auth_source,
+                'auth_id': letter.reception_place.auth_id
+            })
+
+    statement = """
+        UNWIND {place_of_reception} as place_of_reception
+        MATCH (letter:Letter { kalliope_id: place_of_reception.letter_id })
+        MATCH (place:Place {
+                    name: place_of_reception.name,
+                    auth_source: place_of_reception.auth_source,
+                    auth_id: place_of_reception.auth_id
+                    }
+              )
+        CREATE (letter) -[:SEND_TO { presumed: place_of_reception.name_presumed }]-> (place)
+    """
+
+    with session.begin_transaction() as tx:
+        tx.run(statement, parameters)
+
+
+def _import_is_author_relationships(session, data: List[Letter]):
+    logger.info('Importing is_author relationships.')
+
+    parameters = {'is_author_list': []}
+
+    for letter in data:
+        for author in letter.authors:
+            parameters['is_author_list'].append({
+                'letter_id': letter.kalliope_id,
+                'name': author.name,
+                'gnd_id': author.gnd_id,
+                'name_presumed': author.name_presumed
+            })
+
+    statement = """
+        UNWIND {is_author_list} as is_author
+        MATCH (letter:Letter { kalliope_id: is_author.letter_id })
+        MATCH (person:Person {
+                        name: is_author.name,
+                        gnd_id: is_author.gnd_id
+                        }
+              )
+        CREATE (person) -[:IS_AUTHOR { presumed: is_author.name_presumed }]-> (letter)
+    """
+
+    with session.begin_transaction() as tx:
+        tx.run(statement, parameters)
+
+
+def _import_is_recipient_relationships(session, data: List[Letter]):
+    logger.info('Importing is_recipient relationships.')
+
+    parameters = {'is_recipient_list': []}
+
+    for letter in data:
+        for recipient in letter.recipients:
+            parameters['is_recipient_list'].append({
+                'letter_id': letter.kalliope_id,
+                'name': recipient.name,
+                'gnd_id': recipient.gnd_id,
+                'name_presumed': recipient.name_presumed
+            })
+
+    statement = """
+        UNWIND {is_recipient_list} as is_recipient
+        MATCH (letter:Letter { kalliope_id: is_recipient.letter_id })
+        MATCH (person:Person {
+                        name: is_recipient.name,
+                        gnd_id: is_recipient.gnd_id
+                        }
+              )
+        CREATE (person) -[:IS_RECIPIENT { presumed: is_recipient.name_presumed }]-> (letter)
+    """
+
+    with session.begin_transaction() as tx:
+        tx.run(statement, parameters)
+
+
+def import_data(data, url, port, username, password):
+    logger.info('-----')
+    logger.info('Starting import ...')
+    logger.info('-----')
+
     driver = GraphDatabase.driver('bolt://%s:%i ' % (url, port), auth=(username, password))
 
     with driver.session() as session:
-
         with session.begin_transaction() as tx:
-            tx.run('CREATE INDEX ON :Place(gnd_id)')
-            tx.run('CREATE INDEX ON :Localization(from, to)')
-            tx.run('CREATE INDEX ON :Person(gnd_id)')
-            tx.run('CREATE CONSTRAINT ON (letter:Letter) ASSERT letter.id IS UNIQUE')
+            tx.run('CREATE INDEX ON :Place(name)')
+            tx.run('CREATE INDEX ON :Person(name)')
+            tx.run('CREATE CONSTRAINT ON (letter:Letter) ASSERT letter.kalliope_id IS UNIQUE')
 
-        _import_places(session, data)
-        _import_localisations(session, data)
-        _import_persons(session, data)
-        _import_letters(session, data)
+        _import_place_nodes(session, data)
+        _import_person_nodes(session, data)
+        _import_letter_nodes(session, data)
+        _import_send_from_relationships(session, data)
+        _import_send_to_relationships(session, data)
+        _import_is_author_relationships(session, data)
+        _import_is_recipient_relationships(session, data)
 
-    logger.info('Done.')
+    logger.info('=====')
+    logger.info('Import done.')
+    logger.info('=====')

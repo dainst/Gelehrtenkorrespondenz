@@ -33,16 +33,16 @@ Once started you can access its database browser at
 
 ## Importing data
 
-A TSV file containing metadata is already included in the repository. To import the data into Neo4j run 
-__import.py__:
+There is already example data included in the repository. You can either import a single TSV file (see `./tsv_data`) or
+a single/multiple EAD files (see `./ead_data`). 
 
 If you setup the dependencies in a Python virtual environment (venv, see above), first activate the environment: 
 `source <path to venv directory>/bin/activate`. 
 
-Afterwards start the import:
+To start the import run __import.py__ (here importing all EAD files):
 
 ```
-python3 graph_db_import/import.py ./gelehrtenbriefe_metadata.tsv localhost 7687 neo4j <password>
+python3 graph_db_import/import.py ./ead_data localhost 7687 <username> <password>
 ```
 
 ## Deleting data
