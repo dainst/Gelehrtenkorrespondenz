@@ -1,0 +1,303 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=· .
+1-1	·	NN	<unknown>	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=.
+7-1	.	$.	.	_	O	O	
+
+#id=8
+#text=3 Gerhard an Henzen Frankfurt, 11. April 1846 Meine Frau dankt der Ihrigen bestens für Ihren freundlichen Brief.
+8-1	3	CARD	3	_	O	O	
+8-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+8-3	an	APPR	an	_	O	O	
+8-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+8-5	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+8-6	,	$,	,	_	O	O	
+8-7	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+8-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-11	Meine	PPOSAT	mein	_	O	O	
+8-12	Frau	NN	Frau	_	O	O	
+8-13	dankt	VVFIN	danken	_	O	O	
+8-14	der	ART	die	_	O	O	
+8-15	Ihrigen	NN	<unknown>	_	O	O	
+8-16	bestens	ADV	bestens	_	O	O	
+8-17	für	APPR	für	_	O	O	
+8-18	Ihren	PPOSAT	ihr	_	O	O	
+8-19	freundlichen	ADJA	freundlich	_	O	O	
+8-20	Brief	NN	Brief	_	O	O	
+8-21	.	$.	.	_	O	O	
+
+#id=9
+#text=Wir haben gute Reise gemacht, auch in 5 stündiger ängstlicher Schlittenfahrt durch den Gotthardschnee, den man in Verona und Mailand verleugnete.
+9-1	Wir	PPER	wir	_	O	O	
+9-2	haben	VAFIN	haben	_	O	O	
+9-3	gute	ADJA	gut	_	O	O	
+9-4	Reise	NN	Reise	_	O	O	
+9-5	gemacht	VVPP	machen	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	auch	ADV	auch	_	O	O	
+9-8	in	APPR	in	_	O	O	
+9-9	5	CARD	5	_	O	O	
+9-10	stündiger	ADJA	<unknown>	_	O	O	
+9-11	ängstlicher	ADJA	ängstlich	_	O	O	
+9-12	Schlittenfahrt	NN	Schlittenfahrt	_	O	O	
+9-13	durch	APPR	durch	_	O	O	
+9-14	den	ART	die	_	O	O	
+9-15	Gotthardschnee	NN	<unknown>	_	O	O	
+9-16	,	$,	,	_	O	O	
+9-17	den	PRELS	die	_	O	O	
+9-18	man	PIS	man	_	O	O	
+9-19	in	APPR	in	_	O	O	
+9-20	Verona	NE	Verona	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-21	und	KON	und	_	O	O	
+9-22	Mailand	NE	Mailand	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-23	verleugnete	VVFIN	verleugnen	_	O	O	
+9-24	.	$.	.	_	O	O	
+
+#id=10
+#text=Hier erfreut uns als neues Familienereignis die Verlobung meines Schwagers in Kassel.
+10-1	Hier	ADV	hier	_	O	O	
+10-2	erfreut	VVFIN	erfreuen	_	O	O	
+10-3	uns	PPER	wir	_	O	O	
+10-4	als	KOKOM	als	_	O	O	
+10-5	neues	ADJA	neu	_	O	O	
+10-6	Familienereignis	NN	Familienereignis	_	O	O	
+10-7	die	ART	die	_	O	O	
+10-8	Verlobung	NN	Verlobung	_	O	O	
+10-9	meines	PPOSAT	mein	_	O	O	
+10-10	Schwagers	NN	Schwager	_	O	O	
+10-11	in	APPR	in	_	O	O	
+10-12	Kassel	NE	Kassel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-13	.	$.	.	_	O	O	
+
+#id=11
+#text=Sie schreiben nichts von Friedländer der dem Vernehmen nach in Rom bleibt?
+11-1	Sie	PPER	Sie	_	O	O	
+11-2	schreiben	VVFIN	schreiben	_	O	O	
+11-3	nichts	PIS	nichts	_	O	O	
+11-4	von	APPR	von	_	O	O	
+11-5	Friedländer	NN	Friedland	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-6	der	ART	die	_	O	O	
+11-7	dem	ART	die	_	O	O	
+11-8	Vernehmen	NN	Vernehmen	_	O	O	
+11-9	nach	APPR	nach	_	O	O	
+11-10	in	APPR	in	_	O	O	
+11-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-12	bleibt	VVFIN	bleiben	_	O	O	
+11-13	?	$.	?	_	O	O	
+
+#id=12
+#text=Aus Berlin wird mir Waagens 6 monatliche Reise nach Belgien und Paris, ferner Lepsius Verlobung mit einer reichen Nichte des D. Parthey's gemeldet; interessanter fürs Institut ist Secchi's endlich erlangte akademische Ernennung, die ich beigehend an Campana berichte.
+12-1	Aus	APPR	aus	_	O	O	
+12-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-3	wird	VAFIN	werden	_	O	O	
+12-4	mir	PPER	ich	_	O	O	
+12-5	Waagens	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-6	6	CARD	6	_	O	O	
+12-7	monatliche	ADJA	monatlich	_	O	O	
+12-8	Reise	NN	Reise	_	O	O	
+12-9	nach	APPR	nach	_	O	O	
+12-10	Belgien	NE	Belgien	_	O	O	
+12-11	und	KON	und	_	O	O	
+12-12	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-13	,	$,	,	_	O	O	
+12-14	ferner	ADJD	fern	_	O	O	
+12-15	Lepsius	ADJA	<unknown>	_	O	O	
+12-16	Verlobung	NN	Verlobung	_	O	O	
+12-17	mit	APPR	mit	_	O	O	
+12-18	einer	ART	eine	_	O	O	
+12-19	reichen	ADJA	reich	_	O	O	
+12-20	Nichte	NN	Nichte	_	O	O	
+12-21	des	ART	die	_	O	O	
+12-22	D.	NE	D.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-23	Parthey's	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+12-24	gemeldet	VVPP	melden	_	O	O	
+12-25	;	$.	;	_	O	O	
+12-26	interessanter	ADJD	interessant	_	O	O	
+12-27	fürs	APPRART	fürs	_	O	O	
+12-28	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+12-29	ist	VAFIN	sein	_	O	O	
+12-30	Secchi's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-31	endlich	ADV	endlich	_	O	O	
+12-32	erlangte	ADJA	erlangt	_	O	O	
+12-33	akademische	ADJA	akademisch	_	O	O	
+12-34	Ernennung	NN	Ernennung	_	O	O	
+12-35	,	$,	,	_	O	O	
+12-36	die	PRELS	die	_	O	O	
+12-37	ich	PPER	ich	_	O	O	
+12-38	beigehend	ADJD	<unknown>	_	O	O	
+12-39	an	APPR	an	_	O	O	
+12-40	Campana	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-41	berichte	VVFIN	berichten	_	O	O	
+12-42	.	$.	.	_	O	O	
+
+#id=13
+#text=Alles heirathet: auch der Duc de Luynes die Schwiegermutter seines Sohnes; wiederum aber soll das Institut darüber sich freuen daß seine fernere Großmuth für dasselbe bis jetzt nicht bezweifelt wird.
+13-1	Alles	PIAT	alle	_	O	O	
+13-2	heirathet	NN	<unknown>	_	O	O	
+13-3	:	$.	:	_	O	O	
+13-4	auch	ADV	auch	_	O	O	
+13-5	der	ART	die	_	O	O	
+13-6	Duc	NE	Duc	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-7	de	NE	de	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+13-8	Luynes	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+13-9	die	ART	die	_	O	O	
+13-10	Schwiegermutter	NN	Schwiegermutter	_	O	O	
+13-11	seines	PPOSAT	sein	_	O	O	
+13-12	Sohnes	NN	Sohn	_	O	O	
+13-13	;	$.	;	_	O	O	
+13-14	wiederum	ADV	wiederum	_	O	O	
+13-15	aber	ADV	aber	_	O	O	
+13-16	soll	VMFIN	sollen	_	O	O	
+13-17	das	ART	die	_	O	O	
+13-18	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+13-19	darüber	PAV	darüber	_	O	O	
+13-20	sich	PRF	sich	_	O	O	
+13-21	freuen	VVFIN	freuen	_	O	O	
+13-22	daß	KOUS	dass	_	O	O	
+13-23	seine	PPOSAT	sein	_	O	O	
+13-24	fernere	ADJA	fern	_	O	O	
+13-25	Großmuth	NE	<unknown>	_	O	O	
+13-26	für	APPR	für	_	O	O	
+13-27	dasselbe	PDAT	dasselb	_	O	O	
+13-28	bis	KON	bis	_	O	O	
+13-29	jetzt	ADV	jetzt	_	O	O	
+13-30	nicht	PTKNEG	nicht	_	O	O	
+13-31	bezweifelt	VVPP	bezweifeln	_	O	O	
+13-32	wird	VAFIN	werden	_	O	O	
+13-33	.	$.	.	_	O	O	
+
+#id=14
+#text=De Witte, der so meint, versichert aufs Neue daß Frank's Insolenz trostlos sei; es muß für den französischen Vertrieb ohne neues Zögern etwas Durchgreifendes geschehen !
+14-1	De	NE	De	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	Witte	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+14-3	,	$,	,	_	O	O	
+14-4	der	PRELS	die	_	O	O	
+14-5	so	ADV	so	_	O	O	
+14-6	meint	VVFIN	meinen	_	O	O	
+14-7	,	$,	,	_	O	O	
+14-8	versichert	VVFIN	versichern	_	O	O	
+14-9	aufs	APPRART	aufs	_	O	O	
+14-10	Neue	ADJA	neu	_	O	O	
+14-11	daß	KOUS	dass	_	O	O	
+14-12	Frank's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-13	Insolenz	NN	<unknown>	_	O	O	
+14-14	trostlos	ADJD	trostlos	_	O	O	
+14-15	sei	VAFIN	sein	_	O	O	
+14-16	;	$.	;	_	O	O	
+14-17	es	PPER	es	_	O	O	
+14-18	muß	VMFIN	müssen	_	O	O	
+14-19	für	APPR	für	_	O	O	
+14-20	den	ART	die	_	O	O	
+14-21	französischen	ADJA	französisch	_	O	O	
+14-22	Vertrieb	NN	Vertrieb	_	O	O	
+14-23	ohne	APPR	ohne	_	O	O	
+14-24	neues	ADJA	neu	_	O	O	
+14-25	Zögern	NN	Zögern	_	O	O	
+14-26	etwas	PIAT	etwas	_	O	O	
+14-27	Durchgreifendes	NN	<unknown>	_	O	O	
+14-28	geschehen	VVINF	geschehen	_	O	O	
+14-29	!	$.	!	_	O	O	
+
+#id=15
+#text=•••••••• grüßen Sie Brauns, Mommsen und andre Freunde.
+15-1	•	ADJA	<unknown>	_	O	O	
+15-2	•	NN	<unknown>	_	O	O	
+15-3	•	ADJA	<unknown>	_	O	O	
+15-4	•	NN	<unknown>	_	O	O	
+15-5	•	ADJA	<unknown>	_	O	O	
+15-6	•	NN	<unknown>	_	O	O	
+15-7	•	ADJA	<unknown>	_	O	O	
+15-8	•	NN	<unknown>	_	O	O	
+15-9	grüßen	VVFIN	grüßen	_	O	O	
+15-10	Sie	PPER	Sie	_	O	O	
+15-11	Brauns	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-12	,	$,	,	_	O	O	
+15-13	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-14	und	KON	und	_	O	O	
+15-15	andre	PIAT	andere	_	O	O	
+15-16	Freunde	NN	Freund	_	O	O	
+15-17	.	$.	.	_	O	O	
+
+#id=16
+#text=Brunn läßt mich eine Fortsetzung des Processo verbale wol in Berlin vorfinden.
+16-1	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-2	läßt	VVFIN	lassen	_	O	O	
+16-3	mich	PRF	ich	_	O	O	
+16-4	eine	ART	eine	_	O	O	
+16-5	Fortsetzung	NN	Fortsetzung	_	O	O	
+16-6	des	ART	die	_	O	O	
+16-7	Processo	NN	<unknown>	_	O	O	
+16-8	verbale	ADJA	verbal	_	O	O	
+16-9	wol	NN	<unknown>	_	O	O	
+16-10	in	APPR	in	_	O	O	
+16-11	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+16-12	vorfinden	VVINF	vorfinden	_	O	O	
+16-13	.	$.	.	_	O	O	
+
+#id=17
+#text=Nach HeideI ••..•••• •••• bach noch zu kommen; das Gerücht über Lersch scheint falsch gewesen zu sein.
+17-1	Nach	APPR	nach	_	O	O	
+17-2	HeideI	NE	<unknown>	_	O	O	
+17-3	•	ADJA	<unknown>	_	O	O	
+17-4	•	NN	<unknown>	_	O	O	
+17-5	.	$.	.	_	O	O	
+17-6	.	$.	.	_	O	O	
+17-7	•	ADJA	<unknown>	_	O	O	
+17-8	•	NN	<unknown>	_	O	O	
+17-9	•	ADJA	<unknown>	_	O	O	
+17-10	•	NN	<unknown>	_	O	O	
+17-11	•	ADJA	<unknown>	_	O	O	
+17-12	•	NN	<unknown>	_	O	O	
+17-13	•	ADJA	<unknown>	_	O	O	
+17-14	•	NN	<unknown>	_	O	O	
+17-15	bach	NE	Bach	_	O	O	
+17-16	noch	ADV	noch	_	O	O	
+17-17	zu	PTKZU	zu	_	O	O	
+17-18	kommen	VVINF	kommen	_	O	O	
+17-19	;	$.	;	_	O	O	
+17-20	das	ART	die	_	O	O	
+17-21	Gerücht	NN	Gerücht	_	O	O	
+17-22	über	APPR	über	_	O	O	
+17-23	Lersch	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-24	scheint	VVFIN	scheinen	_	O	O	
+17-25	falsch	ADJD	falsch	_	O	O	
+17-26	gewesen	VAPP	sein	_	O	O	
+17-27	zu	PTKZU	zu	_	O	O	
+17-28	sein	VAINF	sein	_	O	O	
+17-29	.	$.	.	_	O	O	
+
+#id=18
+#text=Lassen Sie mir doch eine Ant-
+18-1	Lassen	VVFIN	lassen	_	O	O	
+18-2	Sie	PPER	Sie	_	O	O	
+18-3	mir	PRF	ich	_	O	O	
+18-4	doch	ADV	doch	_	O	O	
+18-5	eine	ART	eine	_	O	O	
+18-6	Ant-	TRUNC	Ant-	_	O	O	
+

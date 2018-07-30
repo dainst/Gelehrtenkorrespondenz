@@ -1,0 +1,257 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=273 A. di Dir.
+1-1	273	CARD	@card@	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=D. Henzen ~f\'... tkWtvt.- Weineter Freund.
+2-1	D.	ART	d.	_	O	O	
+2-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-3	~f\	ADJD	<unknown>	_	O	O	
+2-4	'	$(	'	_	O	O	
+2-5	...	$.	...	_	O	O	
+2-6	tkWtvt.-	NE	<unknown>	_	O	O	
+2-7	Weineter	NN	<unknown>	_	O	O	
+2-8	Freund	NE	Freund	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Renzen Berlin 15/XII/1850 g. 27/XII 50 r. 30/XII 50 Berlin 15 Dec.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-2	an	APPR	an	_	O	O	
+3-3	Renzen	NN	<unknown>	_	O	O	
+3-4	Berlin	NE	Berlin	_	O	O	
+3-5	15/XII/1850	CARD	<unknown>	_	O	O	
+3-6	g.	ADJA	<unknown>	_	O	O	
+3-7	27/XII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-8	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+3-9	r.	ADJA	<unknown>	_	O	O	
+3-10	30/XII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-11	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-12	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-13	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-14	Dec	NE	Dec	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-15	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=4
+#text=50 Zu schreiben hatte auch ich ~either wenig, Sie werden aber unter Kreuzband erst Archäol.
+4-1	50	CARD	50	_	O	O	
+4-2	Zu	PTKZU	zu	_	O	O	
+4-3	schreiben	VVINF	schreiben	_	O	O	
+4-4	hatte	VAFIN	haben	_	O	O	
+4-5	auch	ADV	auch	_	O	O	
+4-6	ich	PPER	ich	_	O	O	
+4-7	~either	ADJD	<unknown>	_	O	O	
+4-8	wenig	PIS	wenige	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	Sie	PPER	Sie	_	O	O	
+4-11	werden	VAFIN	werden	_	O	O	
+4-12	aber	ADV	aber	_	O	O	
+4-13	unter	APPR	unter	_	O	O	
+4-14	Kreuzband	NN	Kreuzband	_	O	O	
+4-15	erst	ADV	erst	_	O	O	
+4-16	Archäol.	NN	<unknown>	_	O	O	
+
+#id=5
+#text=Anzeiger no.
+5-1	Anzeiger	NN	Anzeiger	_	O	O	
+5-2	no.	VVFIN	<unknown>	_	O	O	
+
+#id=6
+#text=21.
+6-1	21	CARD	21	_	O	O	
+6-2	.	$.	.	_	O	O	
+
+#id=7
+#text=22, dann ein Exemplar Myken.Alterthümer erhalten haben.
+7-1	22	CARD	22	_	O	O	
+7-2	,	$,	,	_	O	O	
+7-3	dann	ADV	dann	_	O	O	
+7-4	ein	ART	eine	_	O	O	
+7-5	Exemplar	NN	Exemplar	_	O	O	
+7-6	Myken.Alterthümer	NN	<unknown>	_	O	O	
+7-7	erhalten	VVPP	erhalten	_	O	O	
+7-8	haben	VAFIN	haben	_	O	O	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=Wann die Sendung zahlreicher Exemplare dieses Programms wird erfolgen können weiß ich nicht und sehe noch ungewisser, bevor mit Leipzig festere Abrede genommen ist, nach einer Möglichkeit mich um Ihre Trinkschalen und Gefäße 2 s • Heft in 2 Exemplaren eines für das Institut, das andre für Minervini zu senden, nachdem wenn ich nicht irre das erste Heft -I t=- IC\(.. d9sselben Werks durch das Institut nach Neapel ging ~ von Braun und mir gleich schmerzlich vermißtes Manuscript wird vielleicht, anzi hoffentlich, mit Sachen D. Giov. Torlonia's auftauchen, da ich es mit Sonstigem was für Rom lagerte im verwichenen Sommer zu dieser guten Gelegenheit rasch nach Leipzig beförderte; ich bitte hiemit Freund Braun zu trösten.
+8-1	Wann	PWAV	wann	_	O	O	
+8-2	die	ART	die	_	O	O	
+8-3	Sendung	NN	Sendung	_	O	O	
+8-4	zahlreicher	ADJA	zahlreicher	_	O	O	
+8-5	Exemplare	NN	Exemplar	_	O	O	
+8-6	dieses	PDAT	dies	_	O	O	
+8-7	Programms	NN	Programm	_	O	O	
+8-8	wird	VAFIN	werden	_	O	O	
+8-9	erfolgen	VVINF	erfolgen	_	O	O	
+8-10	können	VMINF	können	_	O	O	
+8-11	weiß	VVFIN	wissen	_	O	O	
+8-12	ich	PPER	ich	_	O	O	
+8-13	nicht	PTKNEG	nicht	_	O	O	
+8-14	und	KON	und	_	O	O	
+8-15	sehe	VVFIN	sehen	_	O	O	
+8-16	noch	ADV	noch	_	O	O	
+8-17	ungewisser	ADJD	ungewiss	_	O	O	
+8-18	,	$,	,	_	O	O	
+8-19	bevor	KOUS	bevor	_	O	O	
+8-20	mit	APPR	mit	_	O	O	
+8-21	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-22	festere	ADJA	fest	_	O	O	
+8-23	Abrede	NN	Abrede	_	O	O	
+8-24	genommen	VVPP	nehmen	_	O	O	
+8-25	ist	VAFIN	sein	_	O	O	
+8-26	,	$,	,	_	O	O	
+8-27	nach	APPR	nach	_	O	O	
+8-28	einer	ART	eine	_	O	O	
+8-29	Möglichkeit	NN	Möglichkeit	_	O	O	
+8-30	mich	PRF	ich	_	O	O	
+8-31	um	APPR	um	_	O	O	
+8-32	Ihre	PPOSAT	ihr	_	O	O	
+8-33	Trinkschalen	NN	Trinkschale	_	O	O	
+8-34	und	KON	und	_	O	O	
+8-35	Gefäße	NN	Gefäß	_	O	O	
+8-36	2	CARD	2	_	O	O	
+8-37	s	NN	s	_	O	O	
+8-38	•	ADJA	<unknown>	_	O	O	
+8-39	Heft	NN	Heft	_	O	O	
+8-40	in	APPR	in	_	O	O	
+8-41	2	CARD	2	_	O	O	
+8-42	Exemplaren	NN	Exemplar	_	O	O	
+8-43	eines	ART	eine	_	O	O	
+8-44	für	APPR	für	_	O	O	
+8-45	das	ART	die	_	O	O	
+8-46	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-47	,	$,	,	_	O	O	
+8-48	das	PRELS	die	_	O	O	
+8-49	andre	PIS	andere	_	O	O	
+8-50	für	APPR	für	_	O	O	
+8-51	Minervini	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-52	zu	PTKZU	zu	_	O	O	
+8-53	senden	VVINF	senden	_	O	O	
+8-54	,	$,	,	_	O	O	
+8-55	nachdem	KOUS	nachdem	_	O	O	
+8-56	wenn	KOUS	wenn	_	O	O	
+8-57	ich	PPER	ich	_	O	O	
+8-58	nicht	PTKNEG	nicht	_	O	O	
+8-59	irre	ADJD	irre	_	O	O	
+8-60	das	ART	die	_	O	O	
+8-61	erste	ADJA	erst	_	O	O	
+8-62	Heft	NN	Heft	_	O	O	
+8-63	-I	NE	<unknown>	_	O	O	
+8-64	t=-	TRUNC	<unknown>	_	O	O	
+8-65	IC\(.	NN	<unknown>	_	O	O	
+8-66	.	$.	.	_	O	O	
+8-67	d9sselben	NN	<unknown>	_	O	O	
+8-68	Werks	NN	Werk	_	O	O	
+8-69	durch	APPR	durch	_	O	O	
+8-70	das	ART	die	_	O	O	
+8-71	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-72	nach	APPR	nach	_	O	O	
+8-73	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-74	ging	VVFIN	gehen	_	O	O	
+8-75	~	XY	~	_	O	O	
+8-76	von	APPR	von	_	O	O	
+8-77	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-78	und	KON	und	_	O	O	
+8-79	mir	PPER	ich	_	O	O	
+8-80	gleich	ADJD	gleich	_	O	O	
+8-81	schmerzlich	ADJD	schmerzlich	_	O	O	
+8-82	vermißtes	ADJA	vermißt	_	O	O	
+8-83	Manuscript	NN	<unknown>	_	O	O	
+8-84	wird	VAFIN	werden	_	O	O	
+8-85	vielleicht	ADV	vielleicht	_	O	O	
+8-86	,	$,	,	_	O	O	
+8-87	anzi	VVFIN	<unknown>	_	O	O	
+8-88	hoffentlich	ADV	hoffentlich	_	O	O	
+8-89	,	$,	,	_	O	O	
+8-90	mit	APPR	mit	_	O	O	
+8-91	Sachen	NN	Sache	_	O	O	
+8-92	D.	NE	D.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-93	Giov	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-94	.	$.	.	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-95	Torlonia's	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-96	auftauchen	VVFIN	auftauchen	_	O	O	
+8-97	,	$,	,	_	O	O	
+8-98	da	KOUS	da	_	O	O	
+8-99	ich	PPER	ich	_	O	O	
+8-100	es	PPER	es	_	O	O	
+8-101	mit	APPR	mit	_	O	O	
+8-102	Sonstigem	NN	Sonstige	_	O	O	
+8-103	was	PIS	was	_	O	O	
+8-104	für	APPR	für	_	O	O	
+8-105	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-106	lagerte	VVFIN	lagern	_	O	O	
+8-107	im	APPRART	in	_	O	O	
+8-108	verwichenen	ADJA	<unknown>	_	O	O	
+8-109	Sommer	NN	Sommer	_	O	O	
+8-110	zu	APPR	zu	_	O	O	
+8-111	dieser	PDAT	dies	_	O	O	
+8-112	guten	ADJA	gut	_	O	O	
+8-113	Gelegenheit	NN	Gelegenheit	_	O	O	
+8-114	rasch	ADJD	rasch	_	O	O	
+8-115	nach	APPR	nach	_	O	O	
+8-116	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-117	beförderte	VVFIN	befördern	_	O	O	
+8-118	;	$.	;	_	O	O	
+8-119	ich	PPER	ich	_	O	O	
+8-120	bitte	VVFIN	bitten	_	O	O	
+8-121	hiemit	NE	<unknown>	_	O	O	
+8-122	Freund	NE	Freund	_	O	O	
+8-123	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-124	zu	PTKZU	zu	_	O	O	
+8-125	trösten	VVINF	trösten	_	O	O	
+8-126	.	$.	.	_	O	O	
+
+#id=9
+#text=Ihr jetziges gutes Vernehmen mit demselben erstaunt uns beide in hohem Grade und ist Seitens Ihrer beider dankbar anzuerkennen.
+9-1	Ihr	PPOSAT	ihr	_	O	O	
+9-2	jetziges	ADJA	jetzig	_	O	O	
+9-3	gutes	ADJA	gut	_	O	O	
+9-4	Vernehmen	NN	Vernehmen	_	O	O	
+9-5	mit	APPR	mit	_	O	O	
+9-6	demselben	PDS	dieselbe	_	O	O	
+9-7	erstaunt	VVFIN	erstaunen	_	O	O	
+9-8	uns	PPER	wir	_	O	O	
+9-9	beide	PIS	beide	_	O	O	
+9-10	in	APPR	in	_	O	O	
+9-11	hohem	ADJA	hoch	_	O	O	
+9-12	Grade	NN	Grad	_	O	O	
+9-13	und	KON	und	_	O	O	
+9-14	ist	VAFIN	sein	_	O	O	
+9-15	Seitens	NN	<unknown>	_	O	O	
+9-16	Ihrer	PPOSAT	ihr	_	O	O	
+9-17	beider	PIAT	beide	_	O	O	
+9-18	dankbar	ADJD	dankbar	_	O	O	
+9-19	anzuerkennen	VVIZU	anerkennen	_	O	O	
+9-20	.	$.	.	_	O	O	
+
+#id=10
+#text=Mit Jo Schulze hatte ich Gelegenheit neulich zu sprechen und ihm Braun's Bedenken zu äußern; er beharrte aber auf guteltL.Juversicht für folgende
+10-1	Mit	APPR	mit	_	O	O	
+10-2	Jo	NE	Jo	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-3	Schulze	NE	Schulze	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-4	hatte	VAFIN	haben	_	O	O	
+10-5	ich	PPER	ich	_	O	O	
+10-6	Gelegenheit	NN	Gelegenheit	_	O	O	
+10-7	neulich	ADV	neulich	_	O	O	
+10-8	zu	PTKZU	zu	_	O	O	
+10-9	sprechen	VVINF	sprechen	_	O	O	
+10-10	und	KON	und	_	O	O	
+10-11	ihm	PPER	er	_	O	O	
+10-12	Braun's	VVFIN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-13	Bedenken	NN	Bedenken	_	O	O	
+10-14	zu	PTKZU	zu	_	O	O	
+10-15	äußern	VVINF	äußern	_	O	O	
+10-16	;	$.	;	_	O	O	
+10-17	er	PPER	er	_	O	O	
+10-18	beharrte	VVFIN	beharren	_	O	O	
+10-19	aber	ADV	aber	_	O	O	
+10-20	auf	APPR	auf	_	O	O	
+10-21	guteltL.Juversicht	NN	<unknown>	_	O	O	
+10-22	für	APPR	für	_	O	O	
+10-23	folgende	ADJA	folgend	_	O	O	
+

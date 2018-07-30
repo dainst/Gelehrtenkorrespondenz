@@ -1,0 +1,266 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=239 A. di Dir.
+1-1	239	CARD	@card@	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=D. Henzen f\w.;1JA.
+2-1	D.	ART	d.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-3	f\w	NN	<unknown>	_	O	O	
+2-4	.	$.	.	_	O	O	
+2-5	;	$.	;	_	O	O	
+2-6	1JA	NN	<unknown>	_	O	O	
+2-7	.	$.	.	_	O	O	
+
+#id=3
+#text=+~ Wehrter Freund.
+3-1	+~	ADJA	<unknown>	_	O	O	
+3-2	Wehrter	NN	<unknown>	_	O	O	
+3-3	Freund	NE	Freund	_	O	O	
+3-4	.	$.	.	_	O	O	
+
+#id=4
+#text=Gerhard an Henzen Berlin 9/XI/1850 g. 19/XI 50 r. 29/XI 50 Berlin 9 Nov.
+4-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+4-2	an	APPR	an	_	O	O	
+4-3	Henzen	NN	<unknown>	_	O	O	
+4-4	Berlin	NE	Berlin	_	O	O	
+4-5	9/XI/1850	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-6	g.	ADJA	<unknown>	_	O	O	
+4-7	19/XI	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+4-8	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+4-9	r.	VVFIN	<unknown>	_	O	O	
+4-10	29/XI	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+4-11	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+4-12	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-13	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-14	Nov.	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=5
+#text=50 Es gab nicht Dringendes genug um bisher Ihnen zu schreiben in viel beschäftigter und schwer gedrückter Winter- ~ zeit, deren erste SpannungYam Jahrestag unsres Rettungsministeriums durch Gf. Brandenburgs Leichenbegräbniß bezeichnet wird.
+5-1	50	CARD	50	_	O	O	
+5-2	Es	NN	Es	_	O	O	
+5-3	gab	VVFIN	geben	_	O	O	
+5-4	nicht	PTKNEG	nicht	_	O	O	
+5-5	Dringendes	NN	Dringende	_	O	O	
+5-6	genug	ADV	genug	_	O	O	
+5-7	um	APPR	um	_	O	O	
+5-8	bisher	ADV	bisher	_	O	O	
+5-9	Ihnen	PPER	Sie	_	O	O	
+5-10	zu	PTKZU	zu	_	O	O	
+5-11	schreiben	VVINF	schreiben	_	O	O	
+5-12	in	APPR	in	_	O	O	
+5-13	viel	PIS	viele	_	O	O	
+5-14	beschäftigter	ADJD	beschäftigter	_	O	O	
+5-15	und	KON	und	_	O	O	
+5-16	schwer	ADJD	schwer	_	O	O	
+5-17	gedrückter	ADJA	gedrückt	_	O	O	
+5-18	Winter-	TRUNC	Winter-	_	O	O	
+5-19	~	XY	~	_	O	O	
+5-20	zeit	APPR	zeit	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	deren	PRELAT	die	_	O	O	
+5-23	erste	ADJA	erst	_	O	O	
+5-24	SpannungYam	NE	<unknown>	_	O	O	
+5-25	Jahrestag	NN	Jahrestag	_	O	O	
+5-26	unsres	PPOSAT	unser	_	O	O	
+5-27	Rettungsministeriums	NN	<unknown>	_	O	O	
+5-28	durch	APPR	durch	_	O	O	
+5-29	Gf	NE	<unknown>	_	O	O	
+5-30	.	$.	.	_	O	O	
+5-31	Brandenburgs	NE	Brandenburg	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-32	Leichenbegräbniß	NN	<unknown>	_	O	O	
+5-33	bezeichnet	VVPP	bezeichnen	_	O	O	
+5-34	wird	VAFIN	werden	_	O	O	
+5-35	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich hoffe auf gute Nachrichten über Brauns Reise und Rückkehr; gestern ~bend reiste D. Mertz ab, dem ich schleunige Antwort auf eine briefliche Anfrage D. Giov. Torlonia's mitgegeben habe, was ich, falls Sie denselben früher sehn, ihm zu sagen bitte.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	hoffe	VVFIN	hoffen	_	O	O	
+6-3	auf	APPR	auf	_	O	O	
+6-4	gute	ADJA	gut	_	O	O	
+6-5	Nachrichten	NN	Nachricht	_	O	O	
+6-6	über	APPR	über	_	O	O	
+6-7	Brauns	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-8	Reise	NN	Reise	_	O	O	
+6-9	und	KON	und	_	O	O	
+6-10	Rückkehr	NN	Rückkehr	_	O	O	
+6-11	;	$.	;	_	O	O	
+6-12	gestern	ADV	gestern	_	O	O	
+6-13	~bend	ADJD	<unknown>	_	O	O	
+6-14	reiste	VVFIN	reisen	_	O	O	
+6-15	D.	NE	D.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-16	Mertz	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-17	ab	PTKVZ	ab	_	O	O	
+6-18	,	$,	,	_	O	O	
+6-19	dem	PRELS	die	_	O	O	
+6-20	ich	PPER	ich	_	O	O	
+6-21	schleunige	ADJA	schleunig	_	O	O	
+6-22	Antwort	NN	Antwort	_	O	O	
+6-23	auf	APPR	auf	_	O	O	
+6-24	eine	ART	eine	_	O	O	
+6-25	briefliche	ADJA	brieflich	_	O	O	
+6-26	Anfrage	NN	Anfrage	_	O	O	
+6-27	D.	NE	D.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-28	Giov	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-29	.	$.	.	_	O	O	
+6-30	Torlonia's	ADJD	<unknown>	_	O	O	
+6-31	mitgegeben	VVPP	mitgeben	_	O	O	
+6-32	habe	VAFIN	haben	_	O	O	
+6-33	,	$,	,	_	O	O	
+6-34	was	PWS	was	_	O	O	
+6-35	ich	PPER	ich	_	O	O	
+6-36	,	$,	,	_	O	O	
+6-37	falls	KOUS	falls	_	O	O	
+6-38	Sie	PPER	Sie	_	O	O	
+6-39	denselben	PDS	derselbe	_	O	O	
+6-40	früher	ADJD	früh	_	O	O	
+6-41	sehn	VVIMP	sehnen	_	O	O	
+6-42	,	$,	,	_	O	O	
+6-43	ihm	PPER	er	_	O	O	
+6-44	zu	PTKZU	zu	_	O	O	
+6-45	sagen	VVINF	sagen	_	O	O	
+6-46	bitte	VVFIN	bitten	_	O	O	
+6-47	.	$.	.	_	O	O	
+
+#id=7
+#text=Zu Corpus I. Gr.
+7-1	Zu	APPR	zu	_	O	O	
+7-2	Corpus	NN	Corpus	_	O	O	
+7-3	I.	NE	I.	_	O	O	
+7-4	Gr.	NN	Gr.	_	O	O	
+
+#id=8
+#text=111, 2 wird der Besteller sich wol finden; ich kenne ihn nicht.
+8-1	111	CARD	@card@	_	O	O	
+8-2	,	$,	,	_	O	O	
+8-3	2	CARD	2	_	O	O	
+8-4	wird	VAFIN	werden	_	O	O	
+8-5	der	ART	die	_	O	O	
+8-6	Besteller	NN	Besteller	_	O	O	
+8-7	sich	PRF	sich	_	O	O	
+8-8	wol	ADJD	<unknown>	_	O	O	
+8-9	finden	VVINF	finden	_	O	O	
+8-10	;	$.	;	_	O	O	
+8-11	ich	PPER	ich	_	O	O	
+8-12	kenne	VVFIN	kennen	_	O	O	
+8-13	ihn	PPER	er	_	O	O	
+8-14	nicht	PTKNEG	nicht	_	O	O	
+8-15	.	$.	.	_	O	O	
+
+#id=9
+#text=--tiMtMA.9., Die Sache von Miessck hätte ich also doch noch nicht ~+t./cL ordentlieh genug Ihnen vorgelegt?
+9-1	--	$(	--	_	O	O	
+9-2	tiMtMA.9	ADJD	<unknown>	_	O	O	
+9-3	.	$.	.	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	Die	ART	die	_	O	O	
+9-6	Sache	NN	Sache	_	O	O	
+9-7	von	APPR	von	_	O	O	
+9-8	Miessck	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-9	hätte	VAFIN	haben	_	O	O	
+9-10	ich	PPER	ich	_	O	O	
+9-11	also	ADV	also	_	O	O	
+9-12	doch	ADV	doch	_	O	O	
+9-13	noch	ADV	noch	_	O	O	
+9-14	nicht	PTKNEG	nicht	_	O	O	
+9-15	~+t./cL	NN	<unknown>	_	O	O	
+9-16	ordentlieh	VVFIN	<unknown>	_	O	O	
+9-17	genug	ADV	genug	_	O	O	
+9-18	Ihnen	PPER	Sie	_	O	O	
+9-19	vorgelegt	VVPP	vorlegen	_	O	O	
+9-20	?	$.	?	_	O	O	
+
+#id=10
+#text=Da er alle Bereitwilligkeit zu zahlen versicherte, so bald man die Institutswerke ihm vervollständige und den Subscriptionspreis nicht erhöhe, so habe ich ihm 1) letzteres versprochen, 2) aber die Kupferhefte die im letzten von ihm empfangenen Jahrgang ihm fehlten, von Br ~ ihm gratis, aber zugleich mit direkter Aufforderung und Rechnung ihm zugehn lassen, diesen Jahrgang ~J:~ nun mit 14 r~-}die Nothwendigkeit 2 Luigi in Deutschland so hoch zu berechnen muß man ihm erklären -~n _ ,
+10-1	Da	KOUS	da	_	O	O	
+10-2	er	PPER	er	_	O	O	
+10-3	alle	PIAT	alle	_	O	O	
+10-4	Bereitwilligkeit	NN	Bereitwilligkeit	_	O	O	
+10-5	zu	PTKZU	zu	_	O	O	
+10-6	zahlen	VVINF	zahlen	_	O	O	
+10-7	versicherte	VVFIN	versichern	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	so	ADV	so	_	O	O	
+10-10	bald	ADV	bald	_	O	O	
+10-11	man	PIS	man	_	O	O	
+10-12	die	ART	die	_	O	O	
+10-13	Institutswerke	NN	<unknown>	_	O	O	
+10-14	ihm	PPER	er	_	O	O	
+10-15	vervollständige	VVFIN	<unknown>	_	O	O	
+10-16	und	KON	und	_	O	O	
+10-17	den	ART	die	_	O	O	
+10-18	Subscriptionspreis	NN	<unknown>	_	O	O	
+10-19	nicht	PTKNEG	nicht	_	O	O	
+10-20	erhöhe	VVFIN	erhöhen	_	O	O	
+10-21	,	$,	,	_	O	O	
+10-22	so	ADV	so	_	O	O	
+10-23	habe	VAFIN	haben	_	O	O	
+10-24	ich	PPER	ich	_	O	O	
+10-25	ihm	PPER	er	_	O	O	
+10-26	1	CARD	1	_	O	O	
+10-27	)	$(	)	_	O	O	
+10-28	letzteres	ADJA	letzt	_	O	O	
+10-29	versprochen	VVPP	versprechen	_	O	O	
+10-30	,	$,	,	_	O	O	
+10-31	2	CARD	2	_	O	O	
+10-32	)	$(	)	_	O	O	
+10-33	aber	ADV	aber	_	O	O	
+10-34	die	ART	die	_	O	O	
+10-35	Kupferhefte	NN	<unknown>	_	O	O	
+10-36	die	ART	die	_	O	O	
+10-37	im	APPRART	in	_	O	O	
+10-38	letzten	ADJA	letzt	_	O	O	
+10-39	von	APPR	von	_	O	O	
+10-40	ihm	PPER	er	_	O	O	
+10-41	empfangenen	ADJA	empfangen	_	O	O	
+10-42	Jahrgang	NN	Jahrgang	_	O	O	
+10-43	ihm	PPER	er	_	O	O	
+10-44	fehlten	VVFIN	fehlen	_	O	O	
+10-45	,	$,	,	_	O	O	
+10-46	von	APPR	von	_	O	O	
+10-47	Br	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-48	~	XY	~	_	O	O	
+10-49	ihm	PPER	er	_	O	O	
+10-50	gratis	ADJD	gratis	_	O	O	
+10-51	,	$,	,	_	O	O	
+10-52	aber	KON	aber	_	O	O	
+10-53	zugleich	ADV	zugleich	_	O	O	
+10-54	mit	APPR	mit	_	O	O	
+10-55	direkter	ADJA	direkt	_	O	O	
+10-56	Aufforderung	NN	Aufforderung	_	O	O	
+10-57	und	KON	und	_	O	O	
+10-58	Rechnung	NN	Rechnung	_	O	O	
+10-59	ihm	PPER	er	_	O	O	
+10-60	zugehn	ADJD	<unknown>	_	O	O	
+10-61	lassen	VVFIN	lassen	_	O	O	
+10-62	,	$,	,	_	O	O	
+10-63	diesen	PDAT	dies	_	O	O	
+10-64	Jahrgang	NN	Jahrgang	_	O	O	
+10-65	~J:~	ADJD	<unknown>	_	O	O	
+10-66	nun	ADV	nun	_	O	O	
+10-67	mit	APPR	mit	_	O	O	
+10-68	14	CARD	14	_	O	O	
+10-69	r~-}die	NN	<unknown>	_	O	O	
+10-70	Nothwendigkeit	NN	<unknown>	_	O	O	
+10-71	2	CARD	2	_	O	O	
+10-72	Luigi	NE	Luigi	_	O	O	
+10-73	in	APPR	in	_	O	O	
+10-74	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-75	so	ADV	so	_	O	O	
+10-76	hoch	ADJD	hoch	_	O	O	
+10-77	zu	PTKZU	zu	_	O	O	
+10-78	berechnen	VVINF	berechnen	_	O	O	
+10-79	muß	VMFIN	müssen	_	O	O	
+10-80	man	PIS	man	_	O	O	
+10-81	ihm	PPER	er	_	O	O	
+10-82	erklären	VVFIN	erklären	_	O	O	
+10-83	-~n	ADJA	<unknown>	_	O	O	
+10-84	_	XY	_	_	O	O	
+10-85	,	$,	,	_	O	O	
+

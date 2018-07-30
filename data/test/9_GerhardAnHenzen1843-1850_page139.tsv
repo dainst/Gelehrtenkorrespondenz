@@ -1,0 +1,254 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=A. di Dir.
+1-1	A.	APPRART	am	_	O	O	
+1-2	di	NE	di	_	O	O	
+1-3	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Gerhard an Henzen Ohne Datum g. 6/111 48 r.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	an	APPR	an	_	O	O	
+2-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-4	Ohne	APPR	ohne	_	O	O	
+2-5	Datum	NN	Datum	_	O	O	
+2-6	g.	VVFIN	<unknown>	_	O	O	
+2-7	6/111	CARD	6/111	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-8	48	CARD	48	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-9	r.	ADJA	<unknown>	_	O	O	
+
+#id=3
+#text=14/111 48 Statt andrer Tesseren, deren Zeichnung ich unbegreiflicher Weise vergebens suche, sende ich Ihnen lieber Freund die obige, die von der Duchessa di Sermoneta zu uns kam ins hiesige Museum, seltsamer Weise aber tale quale in einer Zeichnung existirt die ich vor Zeiten im Museum von Cortona nehmen ließ.
+3-1	14/111	CARD	@card@	_	O	O	
+3-2	48	CARD	48	_	O	O	
+3-3	Statt	APPR	statt	_	O	O	
+3-4	andrer	PIAT	andere	_	O	O	
+3-5	Tesseren	NN	<unknown>	_	O	O	
+3-6	,	$,	,	_	O	O	
+3-7	deren	PRELAT	die	_	O	O	
+3-8	Zeichnung	NN	Zeichnung	_	O	O	
+3-9	ich	PPER	ich	_	O	O	
+3-10	unbegreiflicher	ADJA	unbegreiflich	_	O	O	
+3-11	Weise	NN	Weise	_	O	O	
+3-12	vergebens	ADV	vergebens	_	O	O	
+3-13	suche	VVFIN	suchen	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	sende	VVFIN	senden	_	O	O	
+3-16	ich	PPER	ich	_	O	O	
+3-17	Ihnen	PPER	Sie	_	O	O	
+3-18	lieber	ADJA	lieb	_	O	O	
+3-19	Freund	NN	Freund	_	O	O	
+3-20	die	ART	die	_	O	O	
+3-21	obige	ADJA	obig	_	O	O	
+3-22	,	$,	,	_	O	O	
+3-23	die	PRELS	die	_	O	O	
+3-24	von	APPR	von	_	O	O	
+3-25	der	ART	die	_	O	O	
+3-26	Duchessa	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-27	di	NE	di	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-28	Sermoneta	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-29	zu	APPR	zu	_	O	O	
+3-30	uns	PPER	wir	_	O	O	
+3-31	kam	VVFIN	kommen	_	O	O	
+3-32	ins	APPRART	in	_	O	O	
+3-33	hiesige	ADJA	hiesig	_	O	O	
+3-34	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-35	,	$,	,	_	O	O	
+3-36	seltsamer	ADJA	seltsam	_	O	O	
+3-37	Weise	NN	Weise	_	O	O	
+3-38	aber	KON	aber	_	O	O	
+3-39	tale	ADJA	<unknown>	_	O	O	
+3-40	quale	NN	<unknown>	_	O	O	
+3-41	in	APPR	in	_	O	O	
+3-42	einer	ART	eine	_	O	O	
+3-43	Zeichnung	NN	Zeichnung	_	O	O	
+3-44	existirt	ADJA	<unknown>	_	O	O	
+3-45	die	PRELS	die	_	O	O	
+3-46	ich	PPER	ich	_	O	O	
+3-47	vor	APPR	vor	_	O	O	
+3-48	Zeiten	NN	Zeit	_	O	O	
+3-49	im	APPRART	in	_	O	O	
+3-50	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-51	von	APPR	von	_	O	O	
+3-52	Cortona	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-53	nehmen	VVINF	nehmen	_	O	O	
+3-54	ließ	VVFIN	lassen	_	O	O	
+3-55	.	$.	.	_	O	O	
+
+#id=4
+#text=Ihr Requisit über die lateinischen Dictatorenbeantwortet Wiese mit völliger Unkunde; Horkel dem ich doch deßhalb schrieb hat mich nach Breslau verwiesen und ich habe doch an Ambrosch geschrieben.
+4-1	Ihr	PPOSAT	ihr	_	O	O	
+4-2	Requisit	NN	Requisit	_	O	O	
+4-3	über	APPR	über	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	lateinischen	ADJA	lateinisch	_	O	O	
+4-6	Dictatorenbeantwortet	ADJA	<unknown>	_	O	O	
+4-7	Wiese	NN	Wiese	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-8	mit	APPR	mit	_	O	O	
+4-9	völliger	ADJA	völlig	_	O	O	
+4-10	Unkunde	NN	<unknown>	_	O	O	
+4-11	;	$.	;	_	O	O	
+4-12	Horkel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-13	dem	PRELS	die	_	O	O	
+4-14	ich	PPER	ich	_	O	O	
+4-15	doch	ADV	doch	_	O	O	
+4-16	deßhalb	ADJD	<unknown>	_	O	O	
+4-17	schrieb	VVFIN	schreiben	_	O	O	
+4-18	hat	VAFIN	haben	_	O	O	
+4-19	mich	PRF	ich	_	O	O	
+4-20	nach	APPR	nach	_	O	O	
+4-21	Breslau	NE	Breslau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-22	verwiesen	VVPP	verweisen	_	O	O	
+4-23	und	KON	und	_	O	O	
+4-24	ich	PPER	ich	_	O	O	
+4-25	habe	VAFIN	haben	_	O	O	
+4-26	doch	ADV	doch	_	O	O	
+4-27	an	APPR	an	_	O	O	
+4-28	Ambrosch	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-29	geschrieben	VVPP	schreiben	_	O	O	
+4-30	.	$.	.	_	O	O	
+
+#id=5
+#text=Ueber die epigraphische Sache schrieb ich eben an Braun daß die Sache noch immer verschleppt, aber keineswegs verloren sei.
+5-1	Ueber	NN	<unknown>	_	O	O	
+5-2	die	ART	die	_	O	O	
+5-3	epigraphische	ADJA	<unknown>	_	O	O	
+5-4	Sache	NN	Sache	_	O	O	
+5-5	schrieb	VVFIN	schreiben	_	O	O	
+5-6	ich	PPER	ich	_	O	O	
+5-7	eben	ADV	eben	_	O	O	
+5-8	an	APPR	an	_	O	O	
+5-9	Braun	NN	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-10	daß	KOUS	dass	_	O	O	
+5-11	die	ART	die	_	O	O	
+5-12	Sache	NN	Sache	_	O	O	
+5-13	noch	ADV	noch	_	O	O	
+5-14	immer	ADV	immer	_	O	O	
+5-15	verschleppt	VVPP	verschleppen	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	aber	KON	aber	_	O	O	
+5-18	keineswegs	ADV	keineswegs	_	O	O	
+5-19	verloren	VVPP	verlieren	_	O	O	
+5-20	sei	VAFIN	sein	_	O	O	
+5-21	.	$.	.	_	O	O	
+
+#id=6
+#text=Demselben habe ich auch meinen Schmerz t:"{~ ausgedrückt, nach so rechtschaffenen ~spruch von hier und so gutem Vernehmen in Rom vom Annalendruck der Franzosen nicht erlöst zu sein; es kann nicht gut damitablaufen, und ich für meinen Theil bin mehr dafür bei dem Protest zu beharren als des Geldes wegen und dem hinlänglich erprobten französischen Unwesen ferner zu fügen.
+6-1	Demselben	PDS	dieselbe	_	O	O	
+6-2	habe	VAFIN	haben	_	O	O	
+6-3	ich	PPER	ich	_	O	O	
+6-4	auch	ADV	auch	_	O	O	
+6-5	meinen	PPOSAT	mein	_	O	O	
+6-6	Schmerz	NN	Schmerz	_	O	O	
+6-7	t:"{~	ADJD	<unknown>	_	O	O	
+6-8	ausgedrückt	VVPP	ausdrücken	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	nach	APPR	nach	_	O	O	
+6-11	so	ADV	so	_	O	O	
+6-12	rechtschaffenen	ADJA	rechtschaffen	_	O	O	
+6-13	~spruch	NN	<unknown>	_	O	O	
+6-14	von	APPR	von	_	O	O	
+6-15	hier	ADV	hier	_	O	O	
+6-16	und	KON	und	_	O	O	
+6-17	so	ADV	so	_	O	O	
+6-18	gutem	ADJA	gut	_	O	O	
+6-19	Vernehmen	NN	Vernehmen	_	O	O	
+6-20	in	APPR	in	_	O	O	
+6-21	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-22	vom	APPRART	von	_	O	O	
+6-23	Annalendruck	NN	<unknown>	_	O	O	
+6-24	der	ART	die	_	O	O	
+6-25	Franzosen	NN	Franzose	_	O	O	
+6-26	nicht	PTKNEG	nicht	_	O	O	
+6-27	erlöst	VVPP	erlösen	_	O	O	
+6-28	zu	PTKZU	zu	_	O	O	
+6-29	sein	VAINF	sein	_	O	O	
+6-30	;	$.	;	_	O	O	
+6-31	es	PPER	es	_	O	O	
+6-32	kann	VMFIN	können	_	O	O	
+6-33	nicht	PTKNEG	nicht	_	O	O	
+6-34	gut	ADJD	gut	_	O	O	
+6-35	damitablaufen	VVINF	<unknown>	_	O	O	
+6-36	,	$,	,	_	O	O	
+6-37	und	KON	und	_	O	O	
+6-38	ich	PPER	ich	_	O	O	
+6-39	für	APPR	für	_	O	O	
+6-40	meinen	PPOSAT	mein	_	O	O	
+6-41	Theil	NN	<unknown>	_	O	O	
+6-42	bin	VAFIN	sein	_	O	O	
+6-43	mehr	ADV	mehr	_	O	O	
+6-44	dafür	PAV	dafür	_	O	O	
+6-45	bei	APPR	bei	_	O	O	
+6-46	dem	ART	die	_	O	O	
+6-47	Protest	NN	Protest	_	O	O	
+6-48	zu	PTKZU	zu	_	O	O	
+6-49	beharren	VVINF	beharren	_	O	O	
+6-50	als	KOKOM	als	_	O	O	
+6-51	des	ART	die	_	O	O	
+6-52	Geldes	NN	Geld	_	O	O	
+6-53	wegen	APPO	wegen	_	O	O	
+6-54	und	KON	und	_	O	O	
+6-55	dem	ART	die	_	O	O	
+6-56	hinlänglich	ADJD	hinlänglich	_	O	O	
+6-57	erprobten	ADJA	erprobt	_	O	O	
+6-58	französischen	ADJA	französisch	_	O	O	
+6-59	Unwesen	NN	Unwesen	_	O	O	
+6-60	ferner	ADJD	fern	_	O	O	
+6-61	zu	PTKZU	zu	_	O	O	
+6-62	fügen	VVINF	fügen	_	O	O	
+6-63	.	$.	.	_	O	O	
+
+#id=7
+#text=Meine Frau grüßt herzlich mit mir Sie und die Ihrige.
+7-1	Meine	PPOSAT	mein	_	O	O	
+7-2	Frau	NN	Frau	_	O	O	
+7-3	grüßt	VVFIN	grüßen	_	O	O	
+7-4	herzlich	ADJD	herzlich	_	O	O	
+7-5	mit	APPR	mit	_	O	O	
+7-6	mir	PPER	ich	_	O	O	
+7-7	Sie	PPER	Sie	_	O	O	
+7-8	und	KON	und	_	O	O	
+7-9	die	PRELS	die	_	O	O	
+7-10	Ihrige	PPOSAT	ihrige	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Arch.
+8-1	Arch	NE	<unknown>	_	O	O	
+8-2	.	$.	.	_	O	O	
+
+#id=9
+#text=Zeitung 4~ hat HIf,,\),Bethmann Hollweg, die ..... verlangten Exemplare meiner Abhandlung Etruskischer Gottheiten Hr.
+9-1	Zeitung	NN	Zeitung	_	O	O	
+9-2	4~	ADJD	<unknown>	_	O	O	
+9-3	hat	VAFIN	haben	_	O	O	
+9-4	HIf,,\),Bethmann	NN	<unknown>	_	O	O	
+9-5	Hollweg	NN	<unknown>	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	die	PRELS	die	_	O	O	
+9-8	...	$.	...	_	O	O	
+9-9	.	$.	.	_	O	O	
+9-10	.	$.	.	_	O	O	
+9-11	verlangten	ADJA	verlangt	_	O	O	
+9-12	Exemplare	NN	Exemplar	_	O	O	
+9-13	meiner	PPOSAT	mein	_	O	O	
+9-14	Abhandlung	NN	Abhandlung	_	O	O	
+9-15	Etruskischer	ADJA	<unknown>	_	O	O	
+9-16	Gottheiten	NN	Gottheit	_	O	O	
+9-17	Hr.	NN	Hr.	_	O	O	
+
+#id=10
+#text=OLG.
+10-1	OLG	NE	OLG	_	O	O	
+10-2	.	$.	.	_	O	O	
+
+#id=11
+#text=Rath Martins mitgenommen, als PolenadvokatJe.
+11-1	Rath	NE	Rath	_	O	O	
+11-2	Martins	NE	Martin	_	O	O	
+11-3	mitgenommen	VVPP	mitnehmen	_	O	O	
+11-4	,	$,	,	_	O	O	
+11-5	als	KOKOM	als	_	O	O	
+11-6	PolenadvokatJe	NN	<unknown>	_	O	O	
+11-7	.	$.	.	_	O	O	
+

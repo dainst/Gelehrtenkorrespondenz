@@ -1,4 +1,10 @@
 #!/usr/env/bin python
+"""
+Usage:
+	python annotateTXT.py <path_to_txt_file>
+	
+"""
+
 
 import sys
 sys.path.append("../")
@@ -17,11 +23,11 @@ from tqdm import tqdm
 Annotation = namedtuple('Annotation', ['token', 'pos', 'lemma', 'header', 'ne'])
 
 
-# Fine tune your parameters here!
+# Fine-tune your parameters here!
 conf = ProjectCofiguration("/Users/fmambrini/PycharmProjects/Gelehrtenkorrespondenz/lib/config/korr_mac.json")
 outdir = os.path.join(conf.project_root, "data/test")
-basename = '8_LepsiusAnHenzen-Helbig1872-1884'
-model_path = os.path.join(conf.project_root, "lib/models/korrespondez_model_stage7.pickle")
+basename = '9_GerhardAnHenzen1843-1850'
+model_path = os.path.join(conf.project_root, "lib/models/korrespondez_model_stage8.pickle")
 sent_tokenizer_path = '/Users/fmambrini/PycharmProjects/Gelehrtenkorrespondenz/lib/tokenizers/korrespondenz_sent_tok.pickle'
 
 #d = {
@@ -124,5 +130,5 @@ if __name__ == '__main__':
     with open(inpath) as f:
         txt = f.read()
     pages = txt.split("\f")
-    #main(pages[17:18], start_num=18)
+    #main(pages[104:], start_num=105)
     main(pages)

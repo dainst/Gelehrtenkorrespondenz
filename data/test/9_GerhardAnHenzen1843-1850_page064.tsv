@@ -1,0 +1,79 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=) · .
+1-1	)	$(	)	_	O	O	
+1-2	·	NN	<unknown>	_	O	O	
+1-3	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=3 Gerhard an Henzen Berlin, 6. Juli 1846 (*) Der Zeitungsschnitzel - artikel den ich beifüge wird wol auch sonst seinen Weg gefunden haben um Frau Mertens für uns noch besser zu stimmen, statt in Matranga's Sinn über Ihren Eifer sich zu ärgern.
+7-1	3	CARD	3	_	O	O	
+7-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+7-3	an	APPR	an	_	O	O	
+7-4	Henzen	NN	<unknown>	_	O	O	
+7-5	Berlin	NE	Berlin	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+7-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-11	(	$(	(	_	O	O	
+7-12	*	XY	*	_	O	O	
+7-13	)	$(	)	_	O	O	
+7-14	Der	ART	die	_	O	O	
+7-15	Zeitungsschnitzel	NN	<unknown>	_	O	O	
+7-16	-	$(	-	_	O	O	
+7-17	artikel	NN	Artikel	_	O	O	
+7-18	den	ART	die	_	O	O	
+7-19	ich	PPER	ich	_	O	O	
+7-20	beifüge	VVFIN	beifügen	_	O	O	
+7-21	wird	VAFIN	werden	_	O	O	
+7-22	wol	ADJD	<unknown>	_	O	O	
+7-23	auch	ADV	auch	_	O	O	
+7-24	sonst	ADV	sonst	_	O	O	
+7-25	seinen	PPOSAT	sein	_	O	O	
+7-26	Weg	NN	Weg	_	O	O	
+7-27	gefunden	VVPP	finden	_	O	O	
+7-28	haben	VAFIN	haben	_	O	O	
+7-29	um	APPR	um	_	O	O	
+7-30	Frau	NN	Frau	_	O	O	
+7-31	Mertens	NE	Mertens	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-32	für	APPR	für	_	O	O	
+7-33	uns	PPER	wir	_	O	O	
+7-34	noch	ADV	noch	_	O	O	
+7-35	besser	ADJD	gut	_	O	O	
+7-36	zu	PTKZU	zu	_	O	O	
+7-37	stimmen	VVINF	stimmen	_	O	O	
+7-38	,	$,	,	_	O	O	
+7-39	statt	KOUI	statt	_	O	O	
+7-40	in	APPR	in	_	O	O	
+7-41	Matranga's	NE	<unknown>	_	O	O	
+7-42	Sinn	NN	Sinn	_	O	O	
+7-43	über	APPR	über	_	O	O	
+7-44	Ihren	PPOSAT	ihr	_	O	O	
+7-45	Eifer	NN	Eifer	_	O	O	
+7-46	sich	PRF	sich	_	O	O	
+7-47	zu	PTKZU	zu	_	O	O	
+7-48	ärgern	VVINF	ärgern	_	O	O	
+7-49	.	$.	.	_	O	O	
+

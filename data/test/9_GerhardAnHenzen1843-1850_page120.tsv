@@ -1,0 +1,271 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=D. Henzen Gerhard an Henzen Berlin 30/VII/1847 A. di Dir.
+1-1	D.	ART	d.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-3	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	30/VII/1847	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	A.	APPRART	am	_	O	O	
+1-9	di	NE	di	_	O	O	
+1-10	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=g. 14/VIII 47 Berlin 30 Juli 47 Ich habe nicht umsonst gezögert lieber Freund Ihnen zu schreiben bis ich Ihnen den entschieden vorgerückten Stand der epigraphischen Angelegenheit melden konnte.
+2-1	g.	NE	G.	_	O	O	
+2-2	14/VIII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-3	47	CARD	47	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-5	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-6	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-7	47	CARD	47	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	Ich	PPER	ich	_	O	O	
+2-9	habe	VAFIN	haben	_	O	O	
+2-10	nicht	PTKNEG	nicht	_	O	O	
+2-11	umsonst	ADV	umsonst	_	O	O	
+2-12	gezögert	VVPP	zögern	_	O	O	
+2-13	lieber	ADJA	lieb	_	O	O	
+2-14	Freund	NN	Freund	_	O	O	
+2-15	Ihnen	PPER	Sie	_	O	O	
+2-16	zu	PTKZU	zu	_	O	O	
+2-17	schreiben	VVINF	schreiben	_	O	O	
+2-18	bis	KON	bis	_	O	O	
+2-19	ich	PPER	ich	_	O	O	
+2-20	Ihnen	PPER	Sie	_	O	O	
+2-21	den	ART	die	_	O	O	
+2-22	entschieden	ADJD	entschieden	_	O	O	
+2-23	vorgerückten	ADJA	vorgerückt	_	O	O	
+2-24	Stand	NN	Stand	_	O	O	
+2-25	der	ART	die	_	O	O	
+2-26	epigraphischen	ADJA	<unknown>	_	O	O	
+2-27	Angelegenheit	NN	Angelegenheit	_	O	O	
+2-28	melden	VVINF	melden	_	O	O	
+2-29	konnte	VMFIN	können	_	O	O	
+2-30	.	$.	.	_	O	O	
+
+#id=3
+#text=Diese ist in 2 akademischen °itzungen gründlich berathen worden und besonders auf die Grundlage von Borghesis brieflichen Zeugniß über Mor.lInsen von andern gewichtigen Mitgliedern - Pertz, d' Grimm, Bekker,~dL..eu"Y\.,~~ , - mit gleichem Ernst befürwortet worden wie längst von Lachmann und mir.
+3-1	Diese	PDS	diese	_	O	O	
+3-2	ist	VAFIN	sein	_	O	O	
+3-3	in	APPR	in	_	O	O	
+3-4	2	CARD	2	_	O	O	
+3-5	akademischen	ADJA	akademisch	_	O	O	
+3-6	°itzungen	NN	<unknown>	_	O	O	
+3-7	gründlich	ADJD	gründlich	_	O	O	
+3-8	berathen	ADJD	<unknown>	_	O	O	
+3-9	worden	VAPP	werden	_	O	O	
+3-10	und	KON	und	_	O	O	
+3-11	besonders	ADV	besonders	_	O	O	
+3-12	auf	APPR	auf	_	O	O	
+3-13	die	ART	die	_	O	O	
+3-14	Grundlage	NN	Grundlage	_	O	O	
+3-15	von	APPR	von	_	O	O	
+3-16	Borghesis	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-17	brieflichen	ADJA	brieflich	_	O	O	
+3-18	Zeugniß	NN	<unknown>	_	O	O	
+3-19	über	APPR	über	_	O	O	
+3-20	Mor.lInsen	NN	<unknown>	_	O	O	
+3-21	von	APPR	von	_	O	O	
+3-22	andern	PIAT	andere	_	O	O	
+3-23	gewichtigen	ADJA	gewichtig	_	O	O	
+3-24	Mitgliedern	NN	Mitglied	_	O	O	
+3-25	-	$(	-	_	O	O	
+3-26	Pertz	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-27	,	$,	,	_	O	O	
+3-28	d	NE	<unknown>	_	O	O	
+3-29	'	$(	'	_	O	O	
+3-30	Grimm	NE	Grimm	_	O	O	
+3-31	,	$,	,	_	O	O	
+3-32	Bekker,~dL..eu"Y\.,~~	NE	<unknown>	_	O	O	
+3-33	,	$,	,	_	O	O	
+3-34	-	$(	-	_	O	O	
+3-35	mit	APPR	mit	_	O	O	
+3-36	gleichem	ADJA	gleich	_	O	O	
+3-37	Ernst	NN	Ernst	_	O	O	
+3-38	befürwortet	VVPP	befürworten	_	O	O	
+3-39	worden	VAPP	werden	_	O	O	
+3-40	wie	KOKOM	wie	_	O	O	
+3-41	längst	ADV	längst	_	O	O	
+3-42	von	APPR	von	_	O	O	
+3-43	Lachmann	NN	Lachmann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-44	und	KON	und	_	O	O	
+3-45	mir	PPER	ich	_	O	O	
+3-46	.	$.	.	_	O	O	
+
+#id=4
+#text=Mehr Geld zu schaffen war diesmal der Aka- '" demie zugemuthet und war~von Böckh dessen Benehmen hiebei auch durchaus keinen Tadel verdient nur in Erwägung der finanziellen Unmöglichkeit abgelehnt ( wobei jedoch die Akademie durch Uebernehmen außerordentlicher Nebenausgaben ihren guten Willen zu zeigen fortfährt ), zugleich aber anheimgestellt worden ein andres Gesuch durch Mr. Savigny an den König um noch 3600 rt gelangen zu lassen, worin die frühere Schätzung des Bedürfnisses als ungenügend, nach ~t~ e:a den 8ämtlich~wonnen Erfahrungen, und das Bedürfniß einer g~ Summe von 5000 rt.
+4-1	Mehr	PIAT	mehr	_	O	O	
+4-2	Geld	NN	Geld	_	O	O	
+4-3	zu	PTKZU	zu	_	O	O	
+4-4	schaffen	VVINF	schaffen	_	O	O	
+4-5	war	VAFIN	sein	_	O	O	
+4-6	diesmal	ADV	diesmal	_	O	O	
+4-7	der	ART	die	_	O	O	
+4-8	Aka-	TRUNC	<unknown>	_	O	O	
+4-9	'	$(	'	_	O	O	
+4-10	"	$(	"	_	O	O	
+4-11	demie	NN	<unknown>	_	O	O	
+4-12	zugemuthet	NN	<unknown>	_	O	O	
+4-13	und	KON	und	_	O	O	
+4-14	war~von	NN	<unknown>	_	O	O	
+4-15	Böckh	NE	<unknown>	_	O	O	
+4-16	dessen	PDAT	die	_	O	O	
+4-17	Benehmen	NN	Benehmen	_	O	O	
+4-18	hiebei	ADV	<unknown>	_	O	O	
+4-19	auch	ADV	auch	_	O	O	
+4-20	durchaus	ADV	durchaus	_	O	O	
+4-21	keinen	PIAT	keine	_	O	O	
+4-22	Tadel	NN	Tadel	_	O	O	
+4-23	verdient	VVFIN	verdienen	_	O	O	
+4-24	nur	ADV	nur	_	O	O	
+4-25	in	APPR	in	_	O	O	
+4-26	Erwägung	NN	Erwägung	_	O	O	
+4-27	der	ART	die	_	O	O	
+4-28	finanziellen	ADJA	finanziell	_	O	O	
+4-29	Unmöglichkeit	NN	Unmöglichkeit	_	O	O	
+4-30	abgelehnt	VVPP	ablehnen	_	O	O	
+4-31	(	$(	(	_	O	O	
+4-32	wobei	PWAV	wobei	_	O	O	
+4-33	jedoch	ADV	jedoch	_	O	O	
+4-34	die	ART	die	_	O	O	
+4-35	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-36	durch	APPR	durch	_	O	O	
+4-37	Uebernehmen	NN	<unknown>	_	O	O	
+4-38	außerordentlicher	ADJA	außerordentlich	_	O	O	
+4-39	Nebenausgaben	NN	Nebenausgabe	_	O	O	
+4-40	ihren	PPOSAT	ihr	_	O	O	
+4-41	guten	ADJA	gut	_	O	O	
+4-42	Willen	NN	Wille	_	O	O	
+4-43	zu	PTKZU	zu	_	O	O	
+4-44	zeigen	VVINF	zeigen	_	O	O	
+4-45	fortfährt	VVFIN	fortfahren	_	O	O	
+4-46	)	$(	)	_	O	O	
+4-47	,	$,	,	_	O	O	
+4-48	zugleich	ADV	zugleich	_	O	O	
+4-49	aber	ADV	aber	_	O	O	
+4-50	anheimgestellt	VVPP	anheimstellen	_	O	O	
+4-51	worden	VAPP	werden	_	O	O	
+4-52	ein	ART	eine	_	O	O	
+4-53	andres	PIAT	andere	_	O	O	
+4-54	Gesuch	NN	Gesuch	_	O	O	
+4-55	durch	APPR	durch	_	O	O	
+4-56	Mr.	NN	Mr.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-57	Savigny	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-58	an	APPR	an	_	O	O	
+4-59	den	ART	die	_	O	O	
+4-60	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-61	um	APPR	um	_	O	O	
+4-62	noch	ADV	noch	_	O	O	
+4-63	3600	CARD	@card@	_	O	O	
+4-64	rt	NN	<unknown>	_	O	O	
+4-65	gelangen	VVINF	gelangen	_	O	O	
+4-66	zu	PTKZU	zu	_	O	O	
+4-67	lassen	VVINF	lassen	_	O	O	
+4-68	,	$,	,	_	O	O	
+4-69	worin	PWAV	worin	_	O	O	
+4-70	die	ART	die	_	O	O	
+4-71	frühere	ADJA	früh	_	O	O	
+4-72	Schätzung	NN	Schätzung	_	O	O	
+4-73	des	ART	die	_	O	O	
+4-74	Bedürfnisses	NN	Bedürfnis	_	O	O	
+4-75	als	KOKOM	als	_	O	O	
+4-76	ungenügend	ADJD	ungenügend	_	O	O	
+4-77	,	$,	,	_	O	O	
+4-78	nach	APPR	nach	_	O	O	
+4-79	~t~	ADJA	<unknown>	_	O	O	
+4-80	e:a	NN	<unknown>	_	O	O	
+4-81	den	ART	die	_	O	O	
+4-82	8ämtlich~wonnen	ADJA	<unknown>	_	O	O	
+4-83	Erfahrungen	NN	Erfahrung	_	O	O	
+4-84	,	$,	,	_	O	O	
+4-85	und	KON	und	_	O	O	
+4-86	das	ART	die	_	O	O	
+4-87	Bedürfniß	NN	<unknown>	_	O	O	
+4-88	einer	ART	eine	_	O	O	
+4-89	g~	ADJA	<unknown>	_	O	O	
+4-90	Summe	NN	Summe	_	O	O	
+4-91	von	APPR	von	_	O	O	
+4-92	5000	CARD	5000	_	O	O	
+4-93	rt	VVFIN	<unknown>	_	O	O	
+4-94	.	$.	.	_	O	O	
+
+#id=5
+#text=für 5 JahrirReisen Mommsens dargelegt wird.
+5-1	für	APPR	für	_	O	O	
+5-2	5	CARD	5	_	O	O	
+5-3	JahrirReisen	NN	<unknown>	_	O	O	
+5-4	Mommsens	NN	<unknown>	_	O	O	
+5-5	dargelegt	VVPP	darlegen	_	O	O	
+5-6	wird	VAFIN	werden	_	O	O	
+5-7	.	$.	.	_	O	O	
+
+#id=6
+#text=Dieses Gesuch wird ~r.
+6-1	Dieses	PDAT	dies	_	O	O	
+6-2	Gesuch	NN	Gesuch	_	O	O	
+6-3	wird	VAFIN	werden	_	O	O	
+6-4	~r	NN	<unknown>	_	O	O	
+6-5	.	$.	.	_	O	O	
+
+#id=7
+#text=Savigny zwar erst im nächsten Jahr befördern, weil es gegenwärtig nur eine Fehlbitte sein könnte; er wird aber einstweilen, mit fortw.
+7-1	Savigny	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	zwar	ADV	zwar	_	O	O	
+7-3	erst	ADV	erst	_	O	O	
+7-4	im	APPRART	in	_	O	O	
+7-5	nächsten	ADJA	nah	_	O	O	
+7-6	Jahr	NN	Jahr	_	O	O	
+7-7	befördern	VVFIN	befördern	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	weil	KOUS	weil	_	O	O	
+7-10	es	PPER	es	_	O	O	
+7-11	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+7-12	nur	ADV	nur	_	O	O	
+7-13	eine	ART	eine	_	O	O	
+7-14	Fehlbitte	NN	<unknown>	_	O	O	
+7-15	sein	VAINF	sein	_	O	O	
+7-16	könnte	VMFIN	können	_	O	O	
+7-17	;	$.	;	_	O	O	
+7-18	er	PPER	er	_	O	O	
+7-19	wird	VAFIN	werden	_	O	O	
+7-20	aber	ADV	aber	_	O	O	
+7-21	einstweilen	ADV	einstweilen	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	mit	APPR	mit	_	O	O	
+7-24	fortw	ADJD	<unknown>	_	O	O	
+7-25	.	$.	.	_	O	O	
+
+#id=8
+#text=Einlage seines eigenen akademischen Gehalts, 600 rt.
+8-1	Einlage	NN	Einlage	_	O	O	
+8-2	seines	PPOSAT	sein	_	O	O	
+8-3	eigenen	ADJA	eigen	_	O	O	
+8-4	akademischen	ADJA	akademisch	_	O	O	
+8-5	Gehalts	NN	Gehalt	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	600	CARD	600	_	O	O	
+8-8	rt	VVFIN	<unknown>	_	O	O	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=schaffen und für die Zukunft fernerer Arbeiten, wie selbständigen Antheils !
+9-1	schaffen	VVINF	schaffen	_	O	O	
+9-2	und	KON	und	_	O	O	
+9-3	für	APPR	für	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	Zukunft	NN	Zukunft	_	O	O	
+9-6	fernerer	ADJA	fern	_	O	O	
+9-7	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+9-8	,	$,	,	_	O	O	
+9-9	wie	KOKOM	wie	_	O	O	
+9-10	selbständigen	ADJA	selbständig	_	O	O	
+9-11	Antheils	NN	<unknown>	_	O	O	
+9-12	!	$.	!	_	O	O	
+
+#id=10
+#text='>
+10-1	'	$(	'	_	O	O	
+10-2	>	$(	>	_	O	O	
+

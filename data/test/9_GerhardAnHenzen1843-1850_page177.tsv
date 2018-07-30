@@ -1,0 +1,267 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=151 a. di Dir.
+1-1	151	CARD	@card@	_	O	O	
+1-2	a.	APPR	a.	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=D. Henzen Gerhard an Henzen Berlin 9/VIII/1849 g. 20/VIII 49 r. 1/IX 49 Berlin 9 Aug 49 Herzlichen Dank für Ihren inhaltreichen Brief no.
+2-1	D.	ART	d.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-3	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-4	an	APPR	an	_	O	O	
+2-5	Henzen	NN	<unknown>	_	O	O	
+2-6	Berlin	NE	Berlin	_	O	O	
+2-7	9/VIII/1849	CARD	<unknown>	_	O	O	
+2-8	g.	ADJA	<unknown>	_	O	O	
+2-9	20/VIII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-10	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-11	r.	ADJA	<unknown>	_	O	O	
+2-12	1/IX	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-13	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-15	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-16	Aug	NE	Aug	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-17	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-18	Herzlichen	ADJA	herzlich	_	O	O	
+2-19	Dank	NN	Dank	_	O	O	
+2-20	für	APPR	für	_	O	O	
+2-21	Ihren	PPOSAT	ihr	_	O	O	
+2-22	inhaltreichen	ADJA	<unknown>	_	O	O	
+2-23	Brief	NN	Brief	_	O	O	
+2-24	no.	VVFIN	<unknown>	_	O	O	
+
+#id=3
+#text=149 sine loco & anno.
+3-1	149	CARD	@card@	_	O	O	
+3-2	sine	ADJA	<unknown>	_	O	O	
+3-3	loco	NE	<unknown>	_	O	O	
+3-4	&	KON	&	_	O	O	
+3-5	anno	ADV	anno	_	O	O	
+3-6	.	$.	.	_	O	O	
+
+#id=4
+#text=Hätte er mich nicht all Zu ~lo"h.A1.~ naher Ferienreise getroffen so hätte ich Ihnen für die Annali einen Artikel deI Dio Censo noch zurecht gemacht, der Meinung entgegenzutreten als sei ich nicht stets zu Dienste wo ich gewünscht werde als förderlich.
+4-1	Hätte	VAFIN	haben	_	O	O	
+4-2	er	PPER	er	_	O	O	
+4-3	mich	PRF	ich	_	O	O	
+4-4	nicht	PTKNEG	nicht	_	O	O	
+4-5	all	PIAT	alle	_	O	O	
+4-6	Zu	APPR	zu	_	O	O	
+4-7	~lo"h.A1.~	ADJA	<unknown>	_	O	O	
+4-8	naher	ADJA	nah	_	O	O	
+4-9	Ferienreise	NN	Ferienreise	_	O	O	
+4-10	getroffen	VVPP	treffen|triefen	_	O	O	
+4-11	so	ADV	so	_	O	O	
+4-12	hätte	VAFIN	haben	_	O	O	
+4-13	ich	PPER	ich	_	O	O	
+4-14	Ihnen	PPER	Sie	_	O	O	
+4-15	für	APPR	für	_	O	O	
+4-16	die	ART	die	_	O	O	
+4-17	Annali	NE	<unknown>	_	O	O	
+4-18	einen	ART	eine	_	O	O	
+4-19	Artikel	NN	Artikel	_	O	O	
+4-20	deI	ADJA	<unknown>	_	O	O	
+4-21	Dio	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-22	Censo	ADV	<unknown>	_	O	O	
+4-23	noch	ADV	noch	_	O	O	
+4-24	zurecht	ADV	zurecht	_	O	O	
+4-25	gemacht	VVPP	machen	_	O	O	
+4-26	,	$,	,	_	O	O	
+4-27	der	ART	die	_	O	O	
+4-28	Meinung	NN	Meinung	_	O	O	
+4-29	entgegenzutreten	VVIZU	entgegentreten	_	O	O	
+4-30	als	KOKOM	als	_	O	O	
+4-31	sei	VAFIN	sein	_	O	O	
+4-32	ich	PPER	ich	_	O	O	
+4-33	nicht	PTKNEG	nicht	_	O	O	
+4-34	stets	ADV	stets	_	O	O	
+4-35	zu	APPR	zu	_	O	O	
+4-36	Dienste	NN	Dienst	_	O	O	
+4-37	wo	PWAV	wo	_	O	O	
+4-38	ich	PPER	ich	_	O	O	
+4-39	gewünscht	VVPP	wünschen	_	O	O	
+4-40	werde	VAFIN	werden	_	O	O	
+4-41	als	KOKOM	als	_	O	O	
+4-42	förderlich	ADJD	förderlich	_	O	O	
+4-43	.	$.	.	_	O	O	
+
+#id=5
+#text=Bethmann wird wol direkt das seinige leisten.
+5-1	Bethmann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	wird	VAFIN	werden	_	O	O	
+5-3	wol	ADJD	<unknown>	_	O	O	
+5-4	direkt	ADJD	direkt	_	O	O	
+5-5	das	PDS	die	_	O	O	
+5-6	seinige	PPOSAT	seinige	_	O	O	
+5-7	leisten	VVINF	leisten	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Sehr gut daß Sie IL J' .ltM..t~ , 9< aehH€) drucken mit allem was eben da ist; sonst sollte Braun wol seit Ehren Hettner gelernt haben daß es besser ist etwas mehr Rundschreiben an ältere Gelehrte zujferfassen als durch überlange Aufsätze und sehr viel Jugend die rasche Ausstattung eines Bandes zu erreichen.
+6-1	Sehr	ADV	sehr	_	O	O	
+6-2	gut	ADJD	gut	_	O	O	
+6-3	daß	KOUS	dass	_	O	O	
+6-4	Sie	PPER	Sie	_	O	O	
+6-5	IL	NN	<unknown>	_	O	O	
+6-6	J	NN	J	_	O	O	
+6-7	'	$(	'	_	O	O	
+6-8	.ltM..t~	ADJD	<unknown>	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	9<	VVFIN	<unknown>	_	O	O	
+6-11	aehH€	ADJD	<unknown>	_	O	O	
+6-12	)	$(	)	_	O	O	
+6-13	drucken	VVFIN	drucken	_	O	O	
+6-14	mit	APPR	mit	_	O	O	
+6-15	allem	PIS	alle	_	O	O	
+6-16	was	PIS	was	_	O	O	
+6-17	eben	ADV	eben	_	O	O	
+6-18	da	ADV	da	_	O	O	
+6-19	ist	VAFIN	sein	_	O	O	
+6-20	;	$.	;	_	O	O	
+6-21	sonst	ADV	sonst	_	O	O	
+6-22	sollte	VMFIN	sollen	_	O	O	
+6-23	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-24	wol	ADJD	<unknown>	_	O	O	
+6-25	seit	APPR	seit	_	O	O	
+6-26	Ehren	NN	Ehre|Ehren	_	O	O	
+6-27	Hettner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-28	gelernt	VVPP	lernen	_	O	O	
+6-29	haben	VAINF	haben	_	O	O	
+6-30	daß	KOUS	dass	_	O	O	
+6-31	es	PPER	es	_	O	O	
+6-32	besser	ADJD	gut	_	O	O	
+6-33	ist	VAFIN	sein	_	O	O	
+6-34	etwas	ADV	etwas	_	O	O	
+6-35	mehr	PIAT	mehr	_	O	O	
+6-36	Rundschreiben	NN	Rundschreiben	_	O	O	
+6-37	an	APPR	an	_	O	O	
+6-38	ältere	ADJA	alt	_	O	O	
+6-39	Gelehrte	NN	Gelehrte	_	O	O	
+6-40	zujferfassen	VVFIN	<unknown>	_	O	O	
+6-41	als	KOKOM	als	_	O	O	
+6-42	durch	ADV	durch	_	O	O	
+6-43	überlange	VVFIN	überlange	_	O	O	
+6-44	Aufsätze	NN	Aufsatz	_	O	O	
+6-45	und	KON	und	_	O	O	
+6-46	sehr	ADV	sehr	_	O	O	
+6-47	viel	PIAT	viele	_	O	O	
+6-48	Jugend	NN	Jugend	_	O	O	
+6-49	die	ART	die	_	O	O	
+6-50	rasche	ADJA	rasch	_	O	O	
+6-51	Ausstattung	NN	Ausstattung	_	O	O	
+6-52	eines	ART	eine	_	O	O	
+6-53	Bandes	NN	Band	_	O	O	
+6-54	zu	PTKZU	zu	_	O	O	
+6-55	erreichen	VVINF	erreichen	_	O	O	
+6-56	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich denke auf circa 4 Wochon zu verreisen un~zwar zunächst nach Holland, wie ich bereits wol erwähnte.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	denke	VVFIN	denken	_	O	O	
+7-3	auf	APPR	auf	_	O	O	
+7-4	circa	ADV	circa	_	O	O	
+7-5	4	CARD	4	_	O	O	
+7-6	Wochon	NN	<unknown>	_	O	O	
+7-7	zu	PTKZU	zu	_	O	O	
+7-8	verreisen	VVINF	verreisen	_	O	O	
+7-9	un~zwar	NE	<unknown>	_	O	O	
+7-10	zunächst	ADV	zunächst	_	O	O	
+7-11	nach	APPR	nach	_	O	O	
+7-12	Holland	NE	Holland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-13	,	$,	,	_	O	O	
+7-14	wie	KOUS	wie	_	O	O	
+7-15	ich	PPER	ich	_	O	O	
+7-16	bereits	ADV	bereits	_	O	O	
+7-17	wol	ADJD	<unknown>	_	O	O	
+7-18	erwähnte	VVFIN	erwähnen	_	O	O	
+7-19	.	$.	.	_	O	O	
+
+#id=8
+#text=Bis zum 5 September bin ich auch in Hanau bei Reg~ Assessor von Ries zu erreichen.
+8-1	Bis	KON	bis	_	O	O	
+8-2	zum	APPRART	zu	_	O	O	
+8-3	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-4	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+8-5	bin	VAFIN	sein	_	O	O	
+8-6	ich	PPER	ich	_	O	O	
+8-7	auch	ADV	auch	_	O	O	
+8-8	in	APPR	in	_	O	O	
+8-9	Hanau	NE	Hanau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-10	bei	APPR	bei	_	O	O	
+8-11	Reg~	ADJA	<unknown>	_	O	O	
+8-12	Assessor	NN	Assessor	_	O	O	
+8-13	von	APPR	von	_	O	O	
+8-14	Ries	NE	Ries	_	O	O	
+8-15	zu	PTKZU	zu	_	O	O	
+8-16	erreichen	VVINF	erreichen	_	O	O	
+8-17	.	$.	.	_	O	O	
+
+#id=9
+#text=Ein 4 s • Heft Memorie dell'Inst. aus grieche Inschriften wäre; wenn dieselben erheblich, so übel nicht~ Nur daß dadurch die pecuniären und litterarischen Mittel uns nicht entgehen die Indices des 4 ten L~t s bald anzugreifen.
+9-1	Ein	ART	eine	_	O	O	
+9-2	4	CARD	4	_	O	O	
+9-3	s	NN	s	_	O	O	
+9-4	•	ADJA	<unknown>	_	O	O	
+9-5	Heft	NN	Heft	_	O	O	
+9-6	Memorie	NN	<unknown>	_	O	O	
+9-7	dell'Inst	VVFIN	<unknown>	_	O	O	
+9-8	.	$.	.	_	O	O	
+9-9	aus	APPR	aus	_	O	O	
+9-10	grieche	ADJA	<unknown>	_	O	O	
+9-11	Inschriften	NN	Inschrift	_	O	O	
+9-12	wäre	VAFIN	sein	_	O	O	
+9-13	;	$.	;	_	O	O	
+9-14	wenn	KOUS	wenn	_	O	O	
+9-15	dieselben	PDS	dieselbe	_	O	O	
+9-16	erheblich	ADJD	erheblich	_	O	O	
+9-17	,	$,	,	_	O	O	
+9-18	so	ADV	so	_	O	O	
+9-19	übel	ADJD	übel	_	O	O	
+9-20	nicht~	ADJD	<unknown>	_	O	O	
+9-21	Nur	ADV	nur	_	O	O	
+9-22	daß	KOUS	dass	_	O	O	
+9-23	dadurch	PAV	dadurch	_	O	O	
+9-24	die	ART	die	_	O	O	
+9-25	pecuniären	ADJA	<unknown>	_	O	O	
+9-26	und	KON	und	_	O	O	
+9-27	litterarischen	ADJA	<unknown>	_	O	O	
+9-28	Mittel	NN	Mittel	_	O	O	
+9-29	uns	PRF	wir	_	O	O	
+9-30	nicht	PTKNEG	nicht	_	O	O	
+9-31	entgehen	VVFIN	entgehen	_	O	O	
+9-32	die	ART	die	_	O	O	
+9-33	Indices	NN	<unknown>	_	O	O	
+9-34	des	ART	die	_	O	O	
+9-35	4	CARD	4	_	O	O	
+9-36	ten	NE	ten	_	O	O	
+9-37	L~t	NN	<unknown>	_	O	O	
+9-38	s	NN	s	_	O	O	
+9-39	bald	ADV	bald	_	O	O	
+9-40	anzugreifen	VVIZU	angreifen	_	O	O	
+9-41	.	$.	.	_	O	O	
+
+#id=10
+#text=Revue archeologique müßt Ihr Euch schaffen, es findet sich wol eine Tauschform durch de Witte oder sonti-
+10-1	Revue	NN	Revue	_	O	O	
+10-2	archeologique	NE	<unknown>	_	O	O	
+10-3	müßt	VMFIN	müssen	_	O	O	
+10-4	Ihr	PPER	sie	_	O	O	
+10-5	Euch	PRF	ihr	_	O	O	
+10-6	schaffen	VVINF	schaffen	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	es	PPER	es	_	O	O	
+10-9	findet	VVFIN	finden	_	O	O	
+10-10	sich	PRF	sich	_	O	O	
+10-11	wol	ADJD	<unknown>	_	O	O	
+10-12	eine	ART	eine	_	O	O	
+10-13	Tauschform	NN	<unknown>	_	O	O	
+10-14	durch	APPR	durch	_	O	O	
+10-15	de	NE	de	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-16	Witte	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-17	oder	KON	oder	_	O	O	
+10-18	sonti-	TRUNC	<unknown>	_	O	O	
+

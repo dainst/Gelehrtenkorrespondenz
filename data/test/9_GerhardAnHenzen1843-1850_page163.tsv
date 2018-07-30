@@ -1,0 +1,100 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=I 58 Gerhard an Benzen 24/111/1849 2 Ueber den Stand der hiesigen Gehaltangelegenheit noch keine Kunde; vielleicht ist sie Ihnen direct zugegangen, denn ich hoffe noch immer das Beste.
+1-1	I	FM	I	_	O	O	
+1-2	58	CARD	@card@	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Benzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	24/111/1849	CARD	@card@	_	O	O	
+1-7	2	CARD	2	_	O	O	
+1-8	Ueber	NN	<unknown>	_	O	O	
+1-9	den	ART	die	_	O	O	
+1-10	Stand	NN	Stand	_	O	O	
+1-11	der	ART	die	_	O	O	
+1-12	hiesigen	ADJA	hiesig	_	O	O	
+1-13	Gehaltangelegenheit	NN	<unknown>	_	O	O	
+1-14	noch	ADV	noch	_	O	O	
+1-15	keine	PIAT	keine	_	O	O	
+1-16	Kunde	NN	Kunde	_	O	O	
+1-17	;	$.	;	_	O	O	
+1-18	vielleicht	ADV	vielleicht	_	O	O	
+1-19	ist	VAFIN	sein	_	O	O	
+1-20	sie	PPER	sie	_	O	O	
+1-21	Ihnen	PPER	Sie	_	O	O	
+1-22	direct	NE	direct	_	O	O	
+1-23	zugegangen	VVPP	zugehen	_	O	O	
+1-24	,	$,	,	_	O	O	
+1-25	denn	KON	denn	_	O	O	
+1-26	ich	PPER	ich	_	O	O	
+1-27	hoffe	VVFIN	hoffen	_	O	O	
+1-28	noch	ADV	noch	_	O	O	
+1-29	immer	ADV	immer	_	O	O	
+1-30	das	ART	die	_	O	O	
+1-31	Beste	NN	Beste	_	O	O	
+1-32	.	$.	.	_	O	O	
+
+#id=2
+#text=Mommsen ist auf 8 Tage hier und arbeitet mit Friedlaender.
+2-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	ist	VAFIN	sein	_	O	O	
+2-3	auf	APPR	auf	_	O	O	
+2-4	8	CARD	8	_	O	O	
+2-5	Tage	NN	Tag	_	O	O	
+2-6	hier	ADV	hier	_	O	O	
+2-7	und	KON	und	_	O	O	
+2-8	arbeitet	VVFIN	arbeiten	_	O	O	
+2-9	mit	APPR	mit	_	O	O	
+2-10	Friedlaender	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihre Adunanzberichte werden dankbar benutzt werden; I~\tl .. ,,()y'~ dem Cavedonischen Srefifieogea sehe ich entgegen.
+3-1	Ihre	PPOSAT	ihr	_	O	O	
+3-2	Adunanzberichte	NN	<unknown>	_	O	O	
+3-3	werden	VAFIN	werden	_	O	O	
+3-4	dankbar	ADJD	dankbar	_	O	O	
+3-5	benutzt	VVPP	benutzen	_	O	O	
+3-6	werden	VAINF	werden	_	O	O	
+3-7	;	$.	;	_	O	O	
+3-8	I~\tl	NE	<unknown>	_	O	O	
+3-9	.	$.	.	_	O	O	
+3-10	.	$.	.	_	O	O	
+3-11	,,()y'~	NN	<unknown>	_	O	O	
+3-12	dem	ART	die	_	O	O	
+3-13	Cavedonischen	NN	<unknown>	_	O	O	
+3-14	Srefifieogea	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-15	sehe	VVFIN	sehen	_	O	O	
+3-16	ich	PPER	ich	_	O	O	
+3-17	entgegen	PTKVZ	entgegen	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Meine Frau dankt mit besten Grüßen einstweilen der Ihrigen für den eben auch eingegangenen Beischluß.
+4-1	Meine	PPOSAT	mein	_	O	O	
+4-2	Frau	NN	Frau	_	O	O	
+4-3	dankt	VVFIN	danken	_	O	O	
+4-4	mit	APPR	mit	_	O	O	
+4-5	besten	ADJA	gut	_	O	O	
+4-6	Grüßen	NN	Gruß|Grüßen	_	O	O	
+4-7	einstweilen	ADV	einstweilen	_	O	O	
+4-8	der	ART	die	_	O	O	
+4-9	Ihrigen	NN	<unknown>	_	O	O	
+4-10	für	APPR	für	_	O	O	
+4-11	den	ART	die	_	O	O	
+4-12	eben	ADV	eben	_	O	O	
+4-13	auch	ADV	auch	_	O	O	
+4-14	eingegangenen	ADJA	eingegangen	_	O	O	
+4-15	Beischluß	NN	<unknown>	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Unveränderlich und von Herzen der Ihrige Gerhard
+5-1	Unveränderlich	ADJD	unveränderlich	_	O	O	
+5-2	und	KON	und	_	O	O	
+5-3	von	APPR	von	_	O	O	
+5-4	Herzen	NN	Herz	_	O	O	
+5-5	der	ART	die	_	O	O	
+5-6	Ihrige	PPOSAT	ihrige	_	O	O	
+5-7	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

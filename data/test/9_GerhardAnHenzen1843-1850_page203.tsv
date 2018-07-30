@@ -1,0 +1,269 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=74 A. di .J.)
+1-1	74	CARD	74	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	.J	NE	<unknown>	_	O	O	
+1-5	.	$.	.	_	O	O	
+1-6	)	$(	)	_	O	O	
+
+#id=2
+#text=• lr.
+2-1	•	ADJA	<unknown>	_	O	O	
+2-2	lr	NN	<unknown>	_	O	O	
+2-3	.	$.	.	_	O	O	
+
+#id=3
+#text=D. Henzen ..th..
+3-1	D.	ART	d.	_	O	O	
+3-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	..th.	NE	<unknown>	_	O	O	
+3-4	.	$.	.	_	O	O	
+
+#id=4
+#text=Gerhard an Henzen Berlin 15/IV/1850 g. 27/IV 50 r. 2/V 50 Berlin 15 April 50 Briefe haben wir zeith~ wenig, Gedrucktes desto mehr gewechselt.
+4-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+4-2	an	APPR	an	_	O	O	
+4-3	Henzen	NN	<unknown>	_	O	O	
+4-4	Berlin	NE	Berlin	_	O	O	
+4-5	15/IV/1850	CARD	<unknown>	_	O	O	
+4-6	g.	ADJA	<unknown>	_	O	O	
+4-7	27/IV	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+4-8	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+4-9	r.	ADJA	<unknown>	_	O	O	
+4-10	2/V	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+4-11	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+4-12	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-13	15	CARD	15	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-14	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-15	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-16	Briefe	NN	Brief	_	O	O	
+4-17	haben	VAFIN	haben	_	O	O	
+4-18	wir	PPER	wir	_	O	O	
+4-19	zeith~	ADJD	<unknown>	_	O	O	
+4-20	wenig	PIS	wenige	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	Gedrucktes	NN	Gedruckte	_	O	O	
+4-23	desto	KON	desto	_	O	O	
+4-24	mehr	ADV	mehr	_	O	O	
+4-25	gewechselt	VVPP	wechseln	_	O	O	
+4-26	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich erhielt von Ihnen bull.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	erhielt	VVFIN	erhalten	_	O	O	
+5-3	von	APPR	von	_	O	O	
+5-4	Ihnen	PPER	Sie	_	O	O	
+5-5	bull	NE	Bull	_	O	O	
+5-6	.	$.	.	_	O	O	
+
+#id=6
+#text=Febr.
+6-1	Febr.	NN	Febr.	_	O	O	
+
+#id=7
+#text=Sie von mir ArcHäol.
+7-1	Sie	PPER	Sie	_	O	O	
+7-2	von	APPR	von	_	O	O	
+7-3	mir	PPER	ich	_	O	O	
+7-4	ArcHäol	ADJD	<unknown>	_	O	O	
+7-5	.	$.	.	_	O	O	
+
+#id=8
+#text=Zeitung nOt 13 - 15.
+8-1	Zeitung	NN	Zeitung	_	O	O	
+8-2	nOt	VVFIN	<unknown>	_	O	O	
+8-3	13	CARD	13	_	O	O	
+8-4	-	$(	-	_	O	O	
+8-5	15	CARD	15	_	O	O	
+8-6	.	$.	.	_	O	O	
+
+#id=9
+#text=Das Annaliexemplar läßt sich dagegen noch erwarten.
+9-1	Das	ART	die	_	O	O	
+9-2	Annaliexemplar	NN	<unknown>	_	O	O	
+9-3	läßt	VVFIN	lassen	_	O	O	
+9-4	sich	PRF	sich	_	O	O	
+9-5	dagegen	PAV	dagegen	_	O	O	
+9-6	noch	ADV	noch	_	O	O	
+9-7	erwarten	VVINF	erwarten	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Ihr in Nr. 15 abgedruckter Scaviaufsatz ist hier sehr willkommen gewesen, nicht nur in der Archäol.
+10-1	Ihr	PPOSAT	ihr	_	O	O	
+10-2	in	APPR	in	_	O	O	
+10-3	Nr.	NN	Nr.	_	O	O	
+10-4	15	CARD	15	_	O	O	
+10-5	abgedruckter	ADJA	abgedruckter	_	O	O	
+10-6	Scaviaufsatz	NN	<unknown>	_	O	O	
+10-7	ist	VAFIN	sein	_	O	O	
+10-8	hier	ADV	hier	_	O	O	
+10-9	sehr	ADV	sehr	_	O	O	
+10-10	willkommen	ADJD	willkommen	_	O	O	
+10-11	gewesen	VAPP	sein	_	O	O	
+10-12	,	$,	,	_	O	O	
+10-13	nicht	PTKNEG	nicht	_	O	O	
+10-14	nur	ADV	nur	_	O	O	
+10-15	in	APPR	in	_	O	O	
+10-16	der	ART	die	_	O	O	
+10-17	Archäol.	NN	<unknown>	_	O	O	
+
+#id=11
+#text=Ges.
+11-1	Ges.	NN	Ges.	_	O	O	
+
+#id=12
+#text=sondern auch bei seiner Majestät ist er vorgelesen worden.
+12-1	sondern	KON	sondern	_	O	O	
+12-2	auch	ADV	auch	_	O	O	
+12-3	bei	APPR	bei	_	O	O	
+12-4	seiner	PPOSAT	sein	_	O	O	
+12-5	Majestät	NN	Majestät	_	O	O	
+12-6	ist	VAFIN	sein	_	O	O	
+12-7	er	PPER	er	_	O	O	
+12-8	vorgelesen	VVPP	vorlesen	_	O	O	
+12-9	worden	VAPP	werden	_	O	O	
+12-10	.	$.	.	_	O	O	
+
+#id=13
+#text=Vivat sequens Ist denn die Zeichnung des XII Götterbildes nun erreicht?
+13-1	Vivat	NN	Vivat	_	O	O	
+13-2	sequens	NN	<unknown>	_	O	O	
+13-3	Ist	VAFIN	sein	_	O	O	
+13-4	denn	ADV	denn	_	O	O	
+13-5	die	ART	die	_	O	O	
+13-6	Zeichnung	NN	Zeichnung	_	O	O	
+13-7	des	ART	die	_	O	O	
+13-8	XII	NE	<unknown>	_	O	O	
+13-9	Götterbildes	NN	<unknown>	_	O	O	
+13-10	nun	ADV	nun	_	O	O	
+13-11	erreicht	VVPP	erreichen	_	O	O	
+13-12	?	$.	?	_	O	O	
+
+#id=14
+#text=hilft der zaghafte Minervini nicht, so bleibt der r~..4e.
+14-1	hilft	VVFIN	helfen	_	O	O	
+14-2	der	ART	die	_	O	O	
+14-3	zaghafte	ADJA	zaghaft	_	O	O	
+14-4	Minervini	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-5	nicht	PTKNEG	nicht	_	O	O	
+14-6	,	$,	,	_	O	O	
+14-7	so	ADV	so	_	O	O	
+14-8	bleibt	VVFIN	bleiben	_	O	O	
+14-9	der	ART	die	_	O	O	
+14-10	r~..4e	NE	<unknown>	_	O	O	
+14-11	.	$.	.	_	O	O	
+
+#id=15
+#text=hülfreiche ~ doch wol zur Hand.
+15-1	hülfreiche	ADJA	<unknown>	_	O	O	
+15-2	~	XY	~	_	O	O	
+15-3	doch	ADV	doch	_	O	O	
+15-4	wol	ADJD	<unknown>	_	O	O	
+15-5	zur	APPRART	zu	_	O	O	
+15-6	Hand	NN	Hand	_	O	O	
+15-7	.	$.	.	_	O	O	
+
+#id=16
+#text=D. Stark klagt nichts von Rom zu vernehmen : es seien ihm Separatdrucke seines Aufsatzes versprochen, und auch ein Braunsches Panorama habe er zu erwarten.
+16-1	D.	NE	D.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-2	Stark	NE	Stark	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+16-3	klagt	VVFIN	klagen	_	O	O	
+16-4	nichts	PIS	nichts	_	O	O	
+16-5	von	APPR	von	_	O	O	
+16-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+16-7	zu	PTKZU	zu	_	O	O	
+16-8	vernehmen	VVINF	vernehmen	_	O	O	
+16-9	:	$.	:	_	O	O	
+16-10	es	PPER	es	_	O	O	
+16-11	seien	VAFIN	sein	_	O	O	
+16-12	ihm	PPER	er	_	O	O	
+16-13	Separatdrucke	NN	<unknown>	_	O	O	
+16-14	seines	PPOSAT	sein	_	O	O	
+16-15	Aufsatzes	NN	Aufsatz	_	O	O	
+16-16	versprochen	VVPP	versprechen	_	O	O	
+16-17	,	$,	,	_	O	O	
+16-18	und	KON	und	_	O	O	
+16-19	auch	ADV	auch	_	O	O	
+16-20	ein	ART	eine	_	O	O	
+16-21	Braunsches	ADJA	<unknown>	_	O	O	
+16-22	Panorama	NN	Panorama	_	O	O	
+16-23	habe	VAFIN	haben	_	O	O	
+16-24	er	PPER	er	_	O	O	
+16-25	zu	PTKZU	zu	_	O	O	
+16-26	erwarten	VVINF	erwarten	_	O	O	
+16-27	.	$.	.	_	O	O	
+
+#id=17
+#text=Neigebaur hat mir Neapler Briefe aus dem Januar zugestellt.
+17-1	Neigebaur	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-2	hat	VAFIN	haben	_	O	O	
+17-3	mir	PPER	ich	_	O	O	
+17-4	Neapler	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+17-5	Briefe	NN	Brief	_	O	O	
+17-6	aus	APPR	aus	_	O	O	
+17-7	dem	ART	die	_	O	O	
+17-8	Januar	NN	Januar	_	O	O	
+17-9	zugestellt	VVPP	zustellen	_	O	O	
+17-10	.	$.	.	_	O	O	
+
+#id=18
+#text=Der gute Seccatore Gervasio will MerkeIs Ovid und Lackmann den fontibus Livi von mir.
+18-1	Der	ART	die	_	O	O	
+18-2	gute	ADJA	gut	_	O	O	
+18-3	Seccatore	NN	<unknown>	_	O	O	
+18-4	Gervasio	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-5	will	VMFIN	wollen	_	O	O	
+18-6	MerkeIs	NN	<unknown>	_	O	O	
+18-7	Ovid	NE	<unknown>	_	O	O	
+18-8	und	KON	und	_	O	O	
+18-9	Lackmann	NE	Lackmann	_	O	O	
+18-10	den	ART	die	_	O	O	
+18-11	fontibus	NN	<unknown>	_	O	O	
+18-12	Livi	NE	<unknown>	_	O	O	
+18-13	von	APPR	von	_	O	O	
+18-14	mir	PPER	ich	_	O	O	
+18-15	.	$.	.	_	O	O	
+
+#id=19
+#text=Ich habe ihm sagen ~ lassen~ Spitthöver sei Deutscher ~uchhändler in Rom.
+19-1	Ich	PPER	ich	_	O	O	
+19-2	habe	VAFIN	haben	_	O	O	
+19-3	ihm	PPER	er	_	O	O	
+19-4	sagen	VVINF	sagen	_	O	O	
+19-5	~	XY	~	_	O	O	
+19-6	lassen~	ADJA	<unknown>	_	O	O	
+19-7	Spitthöver	NN	<unknown>	_	O	O	
+19-8	sei	VAFIN	sein	_	O	O	
+19-9	Deutscher	ADJA	deutsch	_	O	O	
+19-10	~uchhändler	NN	<unknown>	_	O	O	
+19-11	in	APPR	in	_	O	O	
+19-12	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+19-13	.	$.	.	_	O	O	
+
+#id=20
+#text=Bethmann ist böswillig geworden; ich mahnte ihn oft vergeblich, und er hat jetzt einen höheren Salonflug gewonnen.
+20-1	Bethmann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+20-2	ist	VAFIN	sein	_	O	O	
+20-3	böswillig	ADJD	böswillig	_	O	O	
+20-4	geworden	VAPP	werden	_	O	O	
+20-5	;	$.	;	_	O	O	
+20-6	ich	PPER	ich	_	O	O	
+20-7	mahnte	VVFIN	mahnen	_	O	O	
+20-8	ihn	PPER	er	_	O	O	
+20-9	oft	ADV	oft	_	O	O	
+20-10	vergeblich	ADJD	vergeblich	_	O	O	
+20-11	,	$,	,	_	O	O	
+20-12	und	KON	und	_	O	O	
+20-13	er	PPER	er	_	O	O	
+20-14	hat	VAFIN	haben	_	O	O	
+20-15	jetzt	ADV	jetzt	_	O	O	
+20-16	einen	ART	eine	_	O	O	
+20-17	höheren	ADJA	hoch	_	O	O	
+20-18	Salonflug	NN	<unknown>	_	O	O	
+20-19	gewonnen	VVPP	gewinnen	_	O	O	
+20-20	.	$.	.	_	O	O	
+

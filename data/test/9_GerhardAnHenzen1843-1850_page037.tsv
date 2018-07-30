@@ -1,0 +1,167 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=76 A. di Direz.
+1-1	76	CARD	@card@	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Direz	NN	<unknown>	_	O	O	
+1-5	.	$.	.	_	O	O	
+
+#id=2
+#text=Werthester Freund Gerhard an Henzen Berlin, 1. Februar 1845 g. 7/111 45 r.
+2-1	Werthester	NN	<unknown>	_	O	O	
+2-2	Freund	NE	Freund	_	O	O	
+2-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-4	an	APPR	an	_	O	O	
+2-5	Henzen	NN	<unknown>	_	O	O	
+2-6	Berlin	NE	Berlin	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	g.	VVFIN	<unknown>	_	O	O	
+2-13	7/111	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-14	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-15	r.	ADJA	<unknown>	_	O	O	
+
+#id=3
+#text=17/111 45 Berlin 1 Febr 45 Herr Dr.
+3-1	17/111	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-2	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-4	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-5	Febr	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-6	45	CARD	45	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-7	Herr	NN	Herr	_	O	O	
+3-8	Dr.	NN	Dr.	_	O	O	
+
+#id=4
+#text=Schrader aus Berlin den ich Ihnen bestens empfehle soll Ihnen wenigstens einige Zeilen herzlicher Erwiederung auf Ihre neuliche (16 Januar) Zuschrift mitbringen.
+4-1	Schrader	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	aus	APPR	aus	_	O	O	
+4-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-4	den	ART	die	_	O	O	
+4-5	ich	PPER	ich	_	O	O	
+4-6	Ihnen	PPER	Sie	_	O	O	
+4-7	bestens	ADV	bestens	_	O	O	
+4-8	empfehle	VVFIN	empfehlen	_	O	O	
+4-9	soll	VMFIN	sollen	_	O	O	
+4-10	Ihnen	PPER	Sie	_	O	O	
+4-11	wenigstens	ADV	wenigstens	_	O	O	
+4-12	einige	PIAT	einige	_	O	O	
+4-13	Zeilen	NN	Zeile	_	O	O	
+4-14	herzlicher	ADJA	herzlich	_	O	O	
+4-15	Erwiederung	NN	<unknown>	_	O	O	
+4-16	auf	APPR	auf	_	O	O	
+4-17	Ihre	PPOSAT	ihr	_	O	O	
+4-18	neuliche	ADJA	<unknown>	_	O	O	
+4-19	(	$(	(	_	O	O	
+4-20	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-21	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-22	)	$(	)	_	O	O	
+4-23	Zuschrift	NN	Zuschrift	_	O	O	
+4-24	mitbringen	VVINF	mitbringen	_	O	O	
+4-25	.	$.	.	_	O	O	
+
+#id=5
+#text=Inschriftssachen die Sie darin berührten habe ich Ihnen bereits durch Braun beantwortet, mit Ausnahme der Nachforschungen wegen Thortacischer Schriften.
+5-1	Inschriftssachen	ADJA	<unknown>	_	O	O	
+5-2	die	PRELS	die	_	O	O	
+5-3	Sie	PPER	Sie	_	O	O	
+5-4	darin	PAV	darin	_	O	O	
+5-5	berührten	VVFIN	berühren	_	O	O	
+5-6	habe	VAFIN	haben	_	O	O	
+5-7	ich	PPER	ich	_	O	O	
+5-8	Ihnen	PPER	Sie	_	O	O	
+5-9	bereits	ADV	bereits	_	O	O	
+5-10	durch	APPR	durch	_	O	O	
+5-11	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-12	beantwortet	VVPP	beantworten	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	mit	APPR	mit	_	O	O	
+5-15	Ausnahme	NN	Ausnahme	_	O	O	
+5-16	der	ART	die	_	O	O	
+5-17	Nachforschungen	NN	Nachforschung	_	O	O	
+5-18	wegen	APPR	wegen	_	O	O	
+5-19	Thortacischer	ADJA	<unknown>	_	O	O	
+5-20	Schriften	NN	Schrift	_	O	O	
+5-21	.	$.	.	_	O	O	
+
+#id=6
+#text=Die hiesige Bibliothek hat nichts Neueres dieses Namens als a.
+6-1	Die	ART	die	_	O	O	
+6-2	hiesige	ADJA	hiesig	_	O	O	
+6-3	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-4	hat	VAFIN	haben	_	O	O	
+6-5	nichts	PIAT	nichts	_	O	O	
+6-6	Neueres	NN	Neuere	_	O	O	
+6-7	dieses	PDAT	dies	_	O	O	
+6-8	Namens	NN	Name	_	O	O	
+6-9	als	KOKOM	als	_	O	O	
+6-10	a.	ADJA	a.	_	O	O	
+
+#id=7
+#text=1828; mancher Däne Ihrer Bekanntschaft aber wird sich geschmeichelt fühlen, wenn Sie ihn um jenen seinen geleh.rten Landsmann bemühen.
+7-1	1828	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-2	;	$.	;	_	O	O	
+7-3	mancher	PIAT	manche	_	O	O	
+7-4	Däne	NN	Däne	_	O	O	
+7-5	Ihrer	PPOSAT	ihr	_	O	O	
+7-6	Bekanntschaft	NN	Bekanntschaft	_	O	O	
+7-7	aber	ADV	aber	_	O	O	
+7-8	wird	VAFIN	werden	_	O	O	
+7-9	sich	PRF	sich	_	O	O	
+7-10	geschmeichelt	VVPP	schmeicheln	_	O	O	
+7-11	fühlen	VVINF	fühlen	_	O	O	
+7-12	,	$,	,	_	O	O	
+7-13	wenn	KOUS	wenn	_	O	O	
+7-14	Sie	PPER	Sie	_	O	O	
+7-15	ihn	PPER	er	_	O	O	
+7-16	um	APPR	um	_	O	O	
+7-17	jenen	PDAT	jen	_	O	O	
+7-18	seinen	PPOSAT	sein	_	O	O	
+7-19	geleh.rten	ADJA	<unknown>	_	O	O	
+7-20	Landsmann	NN	Landsmann	_	O	O	
+7-21	bemühen	VVFIN	bemühen	_	O	O	
+7-22	.	$.	.	_	O	O	
+
+#id=8
+#text=Wie Sie Ihren florentinischen Druck ins Bullettino einschwärzen begreife ich nicht recht.
+8-1	Wie	KOUS	wie	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	Ihren	PPOSAT	ihr	_	O	O	
+8-4	florentinischen	ADJA	florentinisch	_	O	O	
+8-5	Druck	NN	Druck	_	O	O	
+8-6	ins	APPRART	in	_	O	O	
+8-7	Bullettino	NN	<unknown>	_	O	O	
+8-8	einschwärzen	VVINF	einschwärzen	_	O	O	
+8-9	begreife	VVFIN	begreifen	_	O	O	
+8-10	ich	PPER	ich	_	O	O	
+8-11	nicht	PTKNEG	nicht	_	O	O	
+8-12	recht	ADJD	recht	_	O	O	
+8-13	.	$.	.	_	O	O	
+
+#id=9
+#text=Meine Frau grüßt bestens, möge es bei Ihnen recht wohl gehen.
+9-1	Meine	PPOSAT	mein	_	O	O	
+9-2	Frau	NN	Frau	_	O	O	
+9-3	grüßt	VVFIN	grüßen	_	O	O	
+9-4	bestens	ADV	bestens	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	möge	VMFIN	mögen	_	O	O	
+9-7	es	PPER	es	_	O	O	
+9-8	bei	APPR	bei	_	O	O	
+9-9	Ihnen	PPER	Sie	_	O	O	
+9-10	recht	ADJD	recht	_	O	O	
+9-11	wohl	ADV	wohl	_	O	O	
+9-12	gehen	VVINF	gehen	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=Herzlichst der Ihrige Gerhard
+10-1	Herzlichst	ADJD	herzlich	_	O	O	
+10-2	der	ART	die	_	O	O	
+10-3	Ihrige	PPOSAT	ihrige	_	O	O	
+10-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

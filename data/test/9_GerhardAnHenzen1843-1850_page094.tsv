@@ -1,0 +1,302 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=· .
+1-1	·	NN	<unknown>	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=.
+7-1	.	$.	.	_	O	O	
+
+#id=8
+#text=Gerhard an Henzen Berlin, 26. Dezember 1846 2 Braun' s ungerechte Beschvverden über mich widerlege ich ihm selbst gleichzeitig.
+8-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+8-2	an	APPR	an	_	O	O	
+8-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+8-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+8-5	,	$,	,	_	O	O	
+8-6	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+8-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-8	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-9	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-10	2	CARD	2	_	O	O	
+8-11	Braun	NN	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+8-12	'	$(	'	_	O	O	
+8-13	s	NN	s	_	O	O	
+8-14	ungerechte	ADJA	ungerecht	_	O	O	
+8-15	Beschvverden	NN	<unknown>	_	O	O	
+8-16	über	APPR	über	_	O	O	
+8-17	mich	PRF	ich	_	O	O	
+8-18	widerlege	VVFIN	widerlegen	_	O	O	
+8-19	ich	PPER	ich	_	O	O	
+8-20	ihm	PPER	er	_	O	O	
+8-21	selbst	ADV	selbst	_	O	O	
+8-22	gleichzeitig	ADJD	gleichzeitig	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=Wegen der Erlanger Bibliothek kann ich an Brockhaus doch wol nicht eher schreiben, ehe für ihn die Möglichkeit gegeben ist ein vollständiges Exemplar zu senden.
+9-1	Wegen	APPR	wegen	_	O	O	
+9-2	der	ART	die	_	O	O	
+9-3	Erlanger	NN	Erlanger	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-4	Bibliothek	NN	Bibliothek	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+9-5	kann	VMFIN	können	_	O	O	
+9-6	ich	PPER	ich	_	O	O	
+9-7	an	APPR	an	_	O	O	
+9-8	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-9	doch	ADV	doch	_	O	O	
+9-10	wol	ADJD	<unknown>	_	O	O	
+9-11	nicht	PTKNEG	nicht	_	O	O	
+9-12	eher	ADV	eher	_	O	O	
+9-13	schreiben	VVINF	schreiben	_	O	O	
+9-14	,	$,	,	_	O	O	
+9-15	ehe	KOUS	ehe	_	O	O	
+9-16	für	APPR	für	_	O	O	
+9-17	ihn	PPER	er	_	O	O	
+9-18	die	ART	die	_	O	O	
+9-19	Möglichkeit	NN	Möglichkeit	_	O	O	
+9-20	gegeben	VVPP	geben	_	O	O	
+9-21	ist	VAFIN	sein	_	O	O	
+9-22	ein	ART	eine	_	O	O	
+9-23	vollständiges	ADJA	vollständig	_	O	O	
+9-24	Exemplar	NN	Exemplar	_	O	O	
+9-25	zu	PTKZU	zu	_	O	O	
+9-26	senden	VVINF	senden	_	O	O	
+9-27	.	$.	.	_	O	O	
+
+#id=10
+#text=Ein solches werden Sie also vermuthlich durch die nächste Kistensendung von Rom aus ihm schaffen oder geschafft haben.
+10-1	Ein	ART	eine	_	O	O	
+10-2	solches	PIS	solche	_	O	O	
+10-3	werden	VAFIN	werden	_	O	O	
+10-4	Sie	PPER	Sie	_	O	O	
+10-5	also	ADV	also	_	O	O	
+10-6	vermuthlich	ADJD	<unknown>	_	O	O	
+10-7	durch	APPR	durch	_	O	O	
+10-8	die	ART	die	_	O	O	
+10-9	nächste	ADJA	nah	_	O	O	
+10-10	Kistensendung	NN	<unknown>	_	O	O	
+10-11	von	APPR	von	_	O	O	
+10-12	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-13	aus	APPR	aus	_	O	O	
+10-14	ihm	PPER	er	_	O	O	
+10-15	schaffen	VVINF	schaffen	_	O	O	
+10-16	oder	KON	oder	_	O	O	
+10-17	geschafft	VVPP	schaffen	_	O	O	
+10-18	haben	VAINF	haben	_	O	O	
+10-19	.	$.	.	_	O	O	
+
+#id=11
+#text=Wieviel bleiben alsdann noch übrig ?
+11-1	Wieviel	PWAV	wieviele	_	O	O	
+11-2	bleiben	VVFIN	bleiben	_	O	O	
+11-3	alsdann	ADJD	<unknown>	_	O	O	
+11-4	noch	ADV	noch	_	O	O	
+11-5	übrig	ADJD	übrig	_	O	O	
+11-6	?	$.	?	_	O	O	
+
+#id=12
+#text=Auf das Maze'sche Depot zu rechnen scheint mir höchst unsicher.
+12-1	Auf	APPR	auf	_	O	O	
+12-2	das	ART	die	_	O	O	
+12-3	Maze'sche	ADJA	<unknown>	_	O	O	
+12-4	Depot	NN	Depot	_	O	O	
+12-5	zu	PTKZU	zu	_	O	O	
+12-6	rechnen	VVINF	rechnen	_	O	O	
+12-7	scheint	VVFIN	scheinen	_	O	O	
+12-8	mir	PPER	ich	_	O	O	
+12-9	höchst	ADJD	hochöchst	_	O	O	
+12-10	unsicher	ADJD	unsicher	_	O	O	
+12-11	.	$.	.	_	O	O	
+
+#id=13
+#text=Sollten nun wirklich nur 2 oder 3 vollständige Exemplare noch da sein, so scheint es mir doch ungleich besser den Erlangern, die nur ratenweise bezahlen werden, erst die Nuova Serie zu geben, die früheren Jahrgänge auf späterhin (nachdem die fehlenden Hefte neugedruckt) zu versprechen, und die wenigen vorhandenen Exemplare für die Möglichkeit vollzahlender Engländer zu reserviren.
+13-1	Sollten	VMFIN	sollen	_	O	O	
+13-2	nun	ADV	nun	_	O	O	
+13-3	wirklich	ADJD	wirklich	_	O	O	
+13-4	nur	ADV	nur	_	O	O	
+13-5	2	CARD	2	_	O	O	
+13-6	oder	KON	oder	_	O	O	
+13-7	3	CARD	3	_	O	O	
+13-8	vollständige	ADJA	vollständig	_	O	O	
+13-9	Exemplare	NN	Exemplar	_	O	O	
+13-10	noch	ADV	noch	_	O	O	
+13-11	da	ADV	da	_	O	O	
+13-12	sein	VAINF	sein	_	O	O	
+13-13	,	$,	,	_	O	O	
+13-14	so	ADV	so	_	O	O	
+13-15	scheint	VVFIN	scheinen	_	O	O	
+13-16	es	PPER	es	_	O	O	
+13-17	mir	PRF	ich	_	O	O	
+13-18	doch	ADV	doch	_	O	O	
+13-19	ungleich	ADJD	ungleich	_	O	O	
+13-20	besser	ADJD	gut	_	O	O	
+13-21	den	ART	die	_	O	O	
+13-22	Erlangern	NN	<unknown>	_	O	O	
+13-23	,	$,	,	_	O	O	
+13-24	die	PRELS	die	_	O	O	
+13-25	nur	ADV	nur	_	O	O	
+13-26	ratenweise	ADV	ratenweise	_	O	O	
+13-27	bezahlen	VVINF	bezahlen	_	O	O	
+13-28	werden	VAFIN	werden	_	O	O	
+13-29	,	$,	,	_	O	O	
+13-30	erst	ADV	erst	_	O	O	
+13-31	die	ART	die	_	O	O	
+13-32	Nuova	NN	<unknown>	_	O	O	
+13-33	Serie	NN	Serie	_	O	O	
+13-34	zu	PTKZU	zu	_	O	O	
+13-35	geben	VVINF	geben	_	O	O	
+13-36	,	$,	,	_	O	O	
+13-37	die	ART	die	_	O	O	
+13-38	früheren	ADJA	früh	_	O	O	
+13-39	Jahrgänge	NN	Jahrgang	_	O	O	
+13-40	auf	APPR	auf	_	O	O	
+13-41	späterhin	ADV	späterhin	_	O	O	
+13-42	(	$(	(	_	O	O	
+13-43	nachdem	KOUS	nachdem	_	O	O	
+13-44	die	ART	die	_	O	O	
+13-45	fehlenden	ADJA	fehlend	_	O	O	
+13-46	Hefte	NN	Heft	_	O	O	
+13-47	neugedruckt	ADJA	<unknown>	_	O	O	
+13-48	)	$(	)	_	O	O	
+13-49	zu	PTKZU	zu	_	O	O	
+13-50	versprechen	VVINF	versprechen	_	O	O	
+13-51	,	$,	,	_	O	O	
+13-52	und	KON	und	_	O	O	
+13-53	die	ART	die	_	O	O	
+13-54	wenigen	PIAT	wenige	_	O	O	
+13-55	vorhandenen	ADJA	vorhanden	_	O	O	
+13-56	Exemplare	NN	Exemplar	_	O	O	
+13-57	für	APPR	für	_	O	O	
+13-58	die	ART	die	_	O	O	
+13-59	Möglichkeit	NN	Möglichkeit	_	O	O	
+13-60	vollzahlender	ADJA	<unknown>	_	O	O	
+13-61	Engländer	NN	Engländer	_	O	O	
+13-62	zu	APPR	zu	_	O	O	
+13-63	reserviren	NN	<unknown>	_	O	O	
+13-64	.	$.	.	_	O	O	
+
+#id=14
+#text=Hienach autcrisire ich dann Brockhaus zuvörderst zur Einsendung der Nuova Serie und behalte alles Übrige Ihrer und Brauns genaueren Bestimmungen vor, die Sie am liebsten direkt an Brockhaus erlassen mögen.
+14-1	Hienach	NE	<unknown>	_	O	O	
+14-2	autcrisire	NN	<unknown>	_	O	O	
+14-3	ich	PPER	ich	_	O	O	
+14-4	dann	ADV	dann	_	O	O	
+14-5	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+14-6	zuvörderst	ADV	zuvörderst	_	O	O	
+14-7	zur	APPRART	zu	_	O	O	
+14-8	Einsendung	NN	Einsendung	_	O	O	
+14-9	der	ART	die	_	O	O	
+14-10	Nuova	NN	<unknown>	_	O	O	
+14-11	Serie	NN	Serie	_	O	O	
+14-12	und	KON	und	_	O	O	
+14-13	behalte	VVFIN	behalten	_	O	O	
+14-14	alles	PIAT	alle	_	O	O	
+14-15	Übrige	NN	Übrige	_	O	O	
+14-16	Ihrer	PPOSAT	ihr	_	O	O	
+14-17	und	KON	und	_	O	O	
+14-18	Brauns	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-19	genaueren	ADJA	genau	_	O	O	
+14-20	Bestimmungen	NN	Bestimmung	_	O	O	
+14-21	vor	PTKVZ	vor	_	O	O	
+14-22	,	$,	,	_	O	O	
+14-23	die	PRELS	die	_	O	O	
+14-24	Sie	PPER	Sie	_	O	O	
+14-25	am	PTKA	am	_	O	O	
+14-26	liebsten	ADJD	lieb	_	O	O	
+14-27	direkt	ADJD	direkt	_	O	O	
+14-28	an	APPR	an	_	O	O	
+14-29	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+14-30	erlassen	VVINF	erlassen	_	O	O	
+14-31	mögen	VMFIN	mögen	_	O	O	
+14-32	.	$.	.	_	O	O	
+
+#id=15
+#text=An Metternich habe ich kürzlich die Liste der zu approbirenden neuen Mitglieder eingesandt, nämlich zum 9 December no.
+15-1	An	APPR	an	_	O	O	
+15-2	Metternich	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-3	habe	VAFIN	haben	_	O	O	
+15-4	ich	PPER	ich	_	O	O	
+15-5	kürzlich	ADJD	kürzlich	_	O	O	
+15-6	die	ART	die	_	O	O	
+15-7	Liste	NN	Liste	_	O	O	
+15-8	der	ART	die	_	O	O	
+15-9	zu	APPR	zu	_	O	O	
+15-10	approbirenden	ADJA	<unknown>	_	O	O	
+15-11	neuen	ADJA	neu	_	O	O	
+15-12	Mitglieder	NN	Mitglied	_	O	O	
+15-13	eingesandt	ADJD	eingesandt	_	O	O	
+15-14	,	$,	,	_	O	O	
+15-15	nämlich	ADV	nämlich	_	O	O	
+15-16	zum	APPRART	zu	_	O	O	
+15-17	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+15-18	December	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+15-19	no.	VVFIN	<unknown>	_	O	O	
+
+#id=16
+#text=304 - 309, Ihnen b9reits notirt.
+16-1	304	CARD	@card@	_	O	O	
+16-2	-	$(	-	_	O	O	
+16-3	309	CARD	@card@	_	O	O	
+16-4	,	$,	,	_	O	O	
+16-5	Ihnen	PPER	Sie	_	O	O	
+16-6	b9reits	VVFIN	<unknown>	_	O	O	
+16-7	notirt	NN	<unknown>	_	O	O	
+16-8	.	$.	.	_	O	O	
+
+#id=17
+#text=310, 311, 312 De Sacchy, De la Saussaye, A. de Longperier als ord.
+17-1	310	CARD	@card@	_	O	O	
+17-2	,	$,	,	_	O	O	
+17-3	311	CARD	@card@	_	O	O	
+17-4	,	$,	,	_	O	O	
+17-5	312	CARD	@card@	_	O	O	
+17-6	De	NE	De	_	O	O	
+17-7	Sacchy	NE	<unknown>	_	O	O	
+17-8	,	$,	,	_	O	O	
+17-9	De	NE	De	_	O	O	
+17-10	la	FM	la	_	O	O	
+17-11	Saussaye	NE	<unknown>	_	O	O	
+17-12	,	$,	,	_	O	O	
+17-13	A.	NE	A.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-14	de	NE	de	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+17-15	Longperier	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+17-16	als	KOKOM	als	_	O	O	
+17-17	ord.	NE	<unknown>	_	O	O	
+
+#id=18
+#text=Mitglieder.
+18-1	Mitglieder	NN	Mitglied	_	O	O	
+18-2	.	$.	.	_	O	O	
+
+#id=19
+#text=Dann als Korrespondenten no.
+19-1	Dann	ADV	dann	_	O	O	
+19-2	als	KOKOM	als	_	O	O	
+19-3	Korrespondenten	NN	Korrespondent	_	O	O	
+19-4	no.	VVFIN	<unknown>	_	O	O	
+
+#id=20
+#text=313
+20-1	313	CARD	@card@	_	O	O	
+

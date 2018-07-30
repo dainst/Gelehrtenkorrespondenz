@@ -1,0 +1,259 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=(- ( 652 Gerhard an Henzen 27/X/1843 2 auch Zeichnungen kommen.
+1-1	(	$(	(	_	O	O	
+1-2	-	$(	-	_	O	O	
+1-3	(	$(	(	_	O	O	
+1-4	652	CARD	@card@	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-8	27/X/1843	CARD	<unknown>	_	O	O	
+1-9	2	CARD	2	_	O	O	
+1-10	auch	ADV	auch	_	O	O	
+1-11	Zeichnungen	NN	Zeichnung	_	O	O	
+1-12	kommen	VVFIN	kommen	_	O	O	
+1-13	.	$.	.	_	O	O	
+
+#id=2
+#text=Becker Handbuch der röm.
+2-1	Becker	NE	Becker	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	Handbuch	NN	Handbuch	_	O	O	
+2-3	der	ART	die	_	O	O	
+2-4	röm.	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+
+#id=3
+#text=Alterth.
+3-1	Alterth	NE	<unknown>	_	O	O	
+3-2	.	$.	.	_	O	O	
+
+#id=4
+#text=T~.
+4-1	T~	NE	<unknown>	_	O	O	
+4-2	.	$.	.	_	O	O	
+
+#id=5
+#text=1. mit einem Plan Roms ist heraus.
+5-1	1	CARD	1	_	O	O	
+5-2	.	$.	.	_	O	O	
+5-3	mit	APPR	mit	_	O	O	
+5-4	einem	ART	eine	_	O	O	
+5-5	Plan	NN	Plan	_	O	O	
+5-6	Roms	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-7	ist	VAFIN	sein	_	O	O	
+5-8	heraus	ADV	heraus	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=In Verona waren wir einen halben Tag; C.te Orti ~MI den ich ~ nur sah wünscht 1 Exemplar Corpus Inscript durch das Institut.
+6-1	In	APPR	in	_	O	O	
+6-2	Verona	NE	Verona	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-3	waren	VAFIN	sein	_	O	O	
+6-4	wir	PPER	wir	_	O	O	
+6-5	einen	ART	eine	_	O	O	
+6-6	halben	ADJA	halb	_	O	O	
+6-7	Tag	NN	Tag	_	O	O	
+6-8	;	$.	;	_	O	O	
+6-9	C.te	NE	<unknown>	_	O	O	
+6-10	Orti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-11	~MI	NN	<unknown>	_	O	O	
+6-12	den	ART	die	_	O	O	
+6-13	ich	PPER	ich	_	O	O	
+6-14	~	XY	~	_	O	O	
+6-15	nur	ADV	nur	_	O	O	
+6-16	sah	VVFIN	sehen	_	O	O	
+6-17	wünscht	VVFIN	wünschen	_	O	O	
+6-18	1	CARD	1	_	O	O	
+6-19	Exemplar	NN	Exemplar	_	O	O	
+6-20	Corpus	NN	Corpus	_	O	O	
+6-21	Inscript	NN	<unknown>	_	O	O	
+6-22	durch	APPR	durch	_	O	O	
+6-23	das	ART	die	_	O	O	
+6-24	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-25	.	$.	.	_	O	O	
+
+#id=7
+#text=Soll ich es für selbiges bei Reimer bestellen ?
+7-1	Soll	VMFIN	sollen	_	O	O	
+7-2	ich	PPER	ich	_	O	O	
+7-3	es	PPER	es	_	O	O	
+7-4	für	APPR	für	_	O	O	
+7-5	selbiges	ADJA	<unknown>	_	O	O	
+7-6	bei	APPR	bei	_	O	O	
+7-7	Reimer	NN	Reimer	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-8	bestellen	VVINF	bestellen	_	O	O	
+7-9	?	$.	?	_	O	O	
+
+#id=8
+#text=In Venedig entging mir die Marcusbibliothek, Bettio und die Schlüssel waren auswärts.
+8-1	In	APPR	in	_	O	O	
+8-2	Venedig	NE	Venedig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-3	entging	VVFIN	entgehen	_	O	O	
+8-4	mir	PPER	ich	_	O	O	
+8-5	die	ART	die	_	O	O	
+8-6	Marcusbibliothek	NN	<unknown>	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	Bettio	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-9	und	KON	und	_	O	O	
+8-10	die	ART	die	_	O	O	
+8-11	Schlüssel	NN	Schlüssel	_	O	O	
+8-12	waren	VAFIN	sein	_	O	O	
+8-13	auswärts	ADV	auswärts	_	O	O	
+8-14	.	$.	.	_	O	O	
+
+#id=9
+#text=Hiesige Novitäten wüßte ich eben angekommen nicht hinzuzufügen; Jakob Grimm war noch nicht durch Leipzig gekommen, wo Reimers seit 8 Tagen ihn erwarten.
+9-1	Hiesige	ADJA	hiesig	_	O	O	
+9-2	Novitäten	NN	Novität	_	O	O	
+9-3	wüßte	VVFIN	wissen	_	O	O	
+9-4	ich	PPER	ich	_	O	O	
+9-5	eben	ADV	eben	_	O	O	
+9-6	angekommen	VVPP	ankommen	_	O	O	
+9-7	nicht	PTKNEG	nicht	_	O	O	
+9-8	hinzuzufügen	VVIZU	hinzufügen	_	O	O	
+9-9	;	$.	;	_	O	O	
+9-10	Jakob	NE	Jakob	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-11	Grimm	NE	Grimm	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-12	war	VAFIN	sein	_	O	O	
+9-13	noch	ADV	noch	_	O	O	
+9-14	nicht	PTKNEG	nicht	_	O	O	
+9-15	durch	APPR	durch	_	O	O	
+9-16	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-17	gekommen	VVPP	kommen	_	O	O	
+9-18	,	$,	,	_	O	O	
+9-19	wo	PWAV	wo	_	O	O	
+9-20	Reimers	NN	Reimer	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-21	seit	APPR	seit	_	O	O	
+9-22	8	CARD	8	_	O	O	
+9-23	Tagen	NN	Tag	_	O	O	
+9-24	ihn	PPER	er	_	O	O	
+9-25	erwarten	VVINF	erwarten	_	O	O	
+9-26	.	$.	.	_	O	O	
+
+#id=10
+#text=Das von Campana mir vergünstigte Exemplar Opere plastiche habe ich hier vorgefunden.
+10-1	Das	ART	die	_	O	O	
+10-2	von	APPR	von	_	O	O	
+10-3	Campana	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-4	mir	PPER	ich	_	O	O	
+10-5	vergünstigte	ADJA	vergünstigt	_	O	O	
+10-6	Exemplar	NN	Exemplar	_	O	O	
+10-7	Opere	NN	<unknown>	_	O	O	
+10-8	plastiche	NN	<unknown>	_	O	O	
+10-9	habe	VAFIN	haben	_	O	O	
+10-10	ich	PPER	ich	_	O	O	
+10-11	hier	ADV	hier	_	O	O	
+10-12	vorgefunden	VVPP	vorfinden	_	O	O	
+10-13	.	$.	.	_	O	O	
+
+#id=11
+#text=Ein Exemplar 2 e • Abtheilung ( 61 - 120 ) meiner Spiegel gehört aas Fortsetzung durch Vieusseux an MigliQrini; wollen Die ihm selbiges gelegentlich zugehen lassen.
+11-1	Ein	ART	eine	_	O	O	
+11-2	Exemplar	NN	Exemplar	_	O	O	
+11-3	2	CARD	2	_	O	O	
+11-4	e	ADJA	<unknown>	_	O	O	
+11-5	•	ADJA	<unknown>	_	O	O	
+11-6	Abtheilung	NN	<unknown>	_	O	O	
+11-7	(	$(	(	_	O	O	
+11-8	61	CARD	@card@	_	O	O	
+11-9	-	$(	-	_	O	O	
+11-10	120	CARD	120	_	O	O	
+11-11	)	$(	)	_	O	O	
+11-12	meiner	PPOSAT	mein	_	O	O	
+11-13	Spiegel	NN	Spiegel	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-14	gehört	VVFIN	gehören	_	O	O	
+11-15	aas	NE	<unknown>	_	O	O	
+11-16	Fortsetzung	NN	Fortsetzung	_	O	O	
+11-17	durch	APPR	durch	_	O	O	
+11-18	Vieusseux	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-19	an	APPR	an	_	O	O	
+11-20	MigliQrini	NE	<unknown>	_	O	O	
+11-21	;	$.	;	_	O	O	
+11-22	wollen	VMFIN	wollen	_	O	O	
+11-23	Die	PDS	die	_	O	O	
+11-24	ihm	PPER	er	_	O	O	
+11-25	selbiges	ADJA	<unknown>	_	O	O	
+11-26	gelegentlich	ADJD	gelegentlich	_	O	O	
+11-27	zugehen	VVINF	zugehen	_	O	O	
+11-28	lassen	VVINF	lassen	_	O	O	
+11-29	.	$.	.	_	O	O	
+
+#id=12
+#text=Mit besten Grüßen an gemeinsame Freunde, von meiner Frau wie von mir der Ihrige Gerhard Von Mazzetti nichts an mich eingelaufen ?
+12-1	Mit	APPR	mit	_	O	O	
+12-2	besten	ADJA	gut	_	O	O	
+12-3	Grüßen	NN	Gruß|Grüßen	_	O	O	
+12-4	an	APPR	an	_	O	O	
+12-5	gemeinsame	ADJA	gemeinsam	_	O	O	
+12-6	Freunde	NN	Freund	_	O	O	
+12-7	,	$,	,	_	O	O	
+12-8	von	APPR	von	_	O	O	
+12-9	meiner	PPOSAT	mein	_	O	O	
+12-10	Frau	NN	Frau	_	O	O	
+12-11	wie	KOKOM	wie	_	O	O	
+12-12	von	APPR	von	_	O	O	
+12-13	mir	PPER	ich	_	O	O	
+12-14	der	ART	die	_	O	O	
+12-15	Ihrige	PPOSAT	ihrige	_	O	O	
+12-16	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+12-17	Von	APPR	von	_	O	O	
+12-18	Mazzetti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-19	nichts	PIS	nichts	_	O	O	
+12-20	an	APPR	an	_	O	O	
+12-21	mich	PRF	ich	_	O	O	
+12-22	eingelaufen	VVPP	einlaufen	_	O	O	
+12-23	?	$.	?	_	O	O	
+
+#id=13
+#text=Prinz August von Preußen schuldet dem Institut, ich glaube seit 1836, für 1 Exemplar.
+13-1	Prinz	NE	Prinz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	August	NN	August	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+13-3	von	APPR	von	_	O	O	
+13-4	Preußen	NE	Preußen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+13-5	schuldet	VVFIN	schulden	_	O	O	
+13-6	dem	ART	die	_	O	O	
+13-7	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+13-8	,	$,	,	_	O	O	
+13-9	ich	PPER	ich	_	O	O	
+13-10	glaube	VVFIN	glauben	_	O	O	
+13-11	seit	APPR	seit	_	O	O	
+13-12	1836	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+13-13	,	$,	,	_	O	O	
+13-14	für	APPR	für	_	O	O	
+13-15	1	CARD	1	_	O	O	
+13-16	Exemplar	NN	Exemplar	_	O	O	
+13-17	.	$.	.	_	O	O	
+
+#id=14
+#text=Diese Schuld muß E ~ .... \+(\) bei der ~b ~ 1h~masse bald reklamirt werden; sie ist keineswegs gesichert.
+14-1	Diese	PDAT	dies	_	O	O	
+14-2	Schuld	NN	Schuld	_	O	O	
+14-3	muß	VMFIN	müssen	_	O	O	
+14-4	E	NN	E	_	O	O	
+14-5	~	XY	~	_	O	O	
+14-6	...	$.	...	_	O	O	
+14-7	.	$.	.	_	O	O	
+14-8	\+(\)	NN	<unknown>	_	O	O	
+14-9	bei	APPR	bei	_	O	O	
+14-10	der	ART	die	_	O	O	
+14-11	~b	ADJA	<unknown>	_	O	O	
+14-12	~	XY	~	_	O	O	
+14-13	1h~masse	NN	<unknown>	_	O	O	
+14-14	bald	ADV	bald	_	O	O	
+14-15	reklamirt	NN	<unknown>	_	O	O	
+14-16	werden	VAFIN	werden	_	O	O	
+14-17	;	$.	;	_	O	O	
+14-18	sie	PPER	sie	_	O	O	
+14-19	ist	VAFIN	sein	_	O	O	
+14-20	keineswegs	ADV	keineswegs	_	O	O	
+14-21	gesichert	VVPP	sichern	_	O	O	
+14-22	.	$.	.	_	O	O	
+
+#id=15
+#text=Ein deutsches von Kestner un-
+15-1	Ein	ART	eine	_	O	O	
+15-2	deutsches	ADJA	deutsch	_	O	O	
+15-3	von	APPR	von	_	O	O	
+15-4	Kestner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-5	un-	TRUNC	un-	_	O	O	
+

@@ -1,0 +1,116 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=· .
+1-1	·	NN	<unknown>	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=.
+7-1	.	$.	.	_	O	O	
+
+#id=8
+#text=Gerhard an Henzen Berlin, 12. November 1846 5 ein Jahrgang fertig ist.
+8-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+8-2	an	APPR	an	_	O	O	
+8-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+8-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+8-5	,	$,	,	_	O	O	
+8-6	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+8-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-8	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-9	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-10	5	CARD	5	_	O	O	
+8-11	ein	ART	eine	_	O	O	
+8-12	Jahrgang	NN	Jahrgang	_	O	O	
+8-13	fertig	ADJD	fertig	_	O	O	
+8-14	ist	VAFIN	sein	_	O	O	
+8-15	.	$.	.	_	O	O	
+
+#id=9
+#text=Im December-stück der Archäologischen Zeitung gebe ich einen schönen Artikel von Franz über die Menekratesinschrift und noch eine Ancyräische, von Birch mitgetheilt.
+9-1	Im	APPRART	in	_	O	O	
+9-2	December-stück	NN	<unknown>	_	O	O	
+9-3	der	ART	die	_	O	O	
+9-4	Archäologischen	ADJA	archäologisch	_	O	O	
+9-5	Zeitung	NN	Zeitung	_	O	O	
+9-6	gebe	VVFIN	geben	_	O	O	
+9-7	ich	PPER	ich	_	O	O	
+9-8	einen	ART	eine	_	O	O	
+9-9	schönen	ADJA	schön	_	O	O	
+9-10	Artikel	NN	Artikel	_	O	O	
+9-11	von	APPR	von	_	O	O	
+9-12	Franz	NE	Franz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-13	über	APPR	über	_	O	O	
+9-14	die	ART	die	_	O	O	
+9-15	Menekratesinschrift	NN	<unknown>	_	O	O	
+9-16	und	KON	und	_	O	O	
+9-17	noch	ADV	noch	_	O	O	
+9-18	eine	ART	eine	_	O	O	
+9-19	Ancyräische	NN	<unknown>	_	O	O	
+9-20	,	$,	,	_	O	O	
+9-21	von	APPR	von	_	O	O	
+9-22	Birch	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-23	mitgetheilt	VVPP	<unknown>	_	O	O	
+9-24	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich bemerke Ihnen dies um nicht mit dem Bullettino zu collidiren, dem ich die Inschrift von Venafrem aus M(ommsen)s vorläufiger Mittheilung nicht minder rar gemacht hätte, wenn die bevorstehende römischr Publication mir bekannt gewesen wäre.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	bemerke	VVFIN	bemerken	_	O	O	
+10-3	Ihnen	PPER	Sie	_	O	O	
+10-4	dies	PDS	dies	_	O	O	
+10-5	um	KOUI	um	_	O	O	
+10-6	nicht	PTKNEG	nicht	_	O	O	
+10-7	mit	APPR	mit	_	O	O	
+10-8	dem	ART	die	_	O	O	
+10-9	Bullettino	NN	<unknown>	_	O	O	
+10-10	zu	APPR	zu	_	O	O	
+10-11	collidiren	ADJA	<unknown>	_	O	O	
+10-12	,	$,	,	_	O	O	
+10-13	dem	PRELS	die	_	O	O	
+10-14	ich	PPER	ich	_	O	O	
+10-15	die	ART	die	_	O	O	
+10-16	Inschrift	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+10-17	von	APPR	von	_	O	O	
+10-18	Venafrem	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-19	aus	APPR	aus	_	O	O	
+10-20	M(ommsen)s	NN	<unknown>	_	O	O	
+10-21	vorläufiger	ADJA	vorläufig	_	O	O	
+10-22	Mittheilung	NN	<unknown>	_	O	O	
+10-23	nicht	PTKNEG	nicht	_	O	O	
+10-24	minder	ADJD	minder	_	O	O	
+10-25	rar	ADJD	rar	_	O	O	
+10-26	gemacht	VVPP	machen	_	O	O	
+10-27	hätte	VAFIN	haben	_	O	O	
+10-28	,	$,	,	_	O	O	
+10-29	wenn	KOUS	wenn	_	O	O	
+10-30	die	ART	die	_	O	O	
+10-31	bevorstehende	ADJA	bevorstehend	_	O	O	
+10-32	römischr	ADJA	<unknown>	_	O	O	
+10-33	Publication	NN	<unknown>	_	O	O	
+10-34	mir	PPER	ich	_	O	O	
+10-35	bekannt	ADJD	bekannt	_	O	O	
+10-36	gewesen	VAPP	sein	_	O	O	
+10-37	wäre	VAFIN	sein	_	O	O	
+10-38	.	$.	.	_	O	O	
+

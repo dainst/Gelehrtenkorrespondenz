@@ -1,0 +1,281 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=140 A. di Dir.
+1-1	140	CARD	@card@	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=D. Henzen Gerhard an Henzen Berlin 31/VII/1849 g. lVII 49 r.
+2-1	D.	ART	d.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-3	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-4	an	APPR	an	_	O	O	
+2-5	Henzen	NN	<unknown>	_	O	O	
+2-6	Berlin	NE	Berlin	_	O	O	
+2-7	31/VII/1849	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-8	g.	ADJA	<unknown>	_	O	O	
+2-9	lVII	NN	<unknown>	_	O	O	
+2-10	49	CARD	@card@	_	O	O	
+2-11	r.	VVFIN	<unknown>	_	O	O	
+
+#id=3
+#text=1 lVII 49 Berlin 31 Juli 49 Da die für Brunn schleunig gewünschte Zeichnung des Ustrin~ schon bereit liegt, so kann ich Ihren gestern eingelaufenen Brief zuvörderst durch denen.
+3-1	1	CARD	1	_	O	O	
+3-2	lVII	NN	<unknown>	_	O	O	
+3-3	49	CARD	@card@	_	O	O	
+3-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-5	31	CARD	31	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-6	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-7	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	Da	ADV	da	_	O	O	
+3-9	die	ART	die	_	O	O	
+3-10	für	APPR	für	_	O	O	
+3-11	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-12	schleunig	ADJD	schleunig	_	O	O	
+3-13	gewünschte	ADJA	gewünscht	_	O	O	
+3-14	Zeichnung	NN	Zeichnung	_	O	O	
+3-15	des	ART	die	_	O	O	
+3-16	Ustrin~	ADJA	<unknown>	_	O	O	
+3-17	schon	ADV	schon	_	O	O	
+3-18	bereit	ADJD	bereit	_	O	O	
+3-19	liegt	VVFIN	liegen	_	O	O	
+3-20	,	$,	,	_	O	O	
+3-21	so	ADV	so	_	O	O	
+3-22	kann	VMFIN	können	_	O	O	
+3-23	ich	PPER	ich	_	O	O	
+3-24	Ihren	PPOSAT	ihr	_	O	O	
+3-25	gestern	ADV	gestern	_	O	O	
+3-26	eingelaufenen	ADJA	eingelaufen	_	O	O	
+3-27	Brief	NN	Brief	_	O	O	
+3-28	zuvörderst	ADV	zuvörderst	_	O	O	
+3-29	durch	APPR	durch	_	O	O	
+3-30	denen	PDS	die	_	O	O	
+3-31	.	$.	.	_	O	O	
+
+#id=4
+#text=BeisahlJ:uß beantworten.
+4-1	BeisahlJ:uß	NN	<unknown>	_	O	O	
+4-2	beantworten	VVINF	beantworten	_	O	O	
+4-3	.	$.	.	_	O	O	
+
+#id=5
+#text=Gott sei Dank daß es wenigstens aus beruhigten ~uständen und so erträglich Ihrerseits lautet Aus den Zeitungen sehe ich daß nun auch über den Schaden den die Kuttwerke erlitten Rath gepflogen wird; Canina scheint von der Kommission ausgeschlossen 1 Ich will aber nicht ~ tQ./)\., bloß von der Denkmäler Geschick, sondern auch von Bauten und selbst von Bäumen wissen, und bitte Sie daher uns gründlich darüber aufzuklären ob Villa Borghese und Panfili noch Bäume behielten; von ersterer darf man es nach den bisherigen Berichten kaum noch glauben.
+5-1	Gott	NN	Gott	_	O	O	
+5-2	sei	VAFIN	sein	_	O	O	
+5-3	Dank	APPR	dank	_	O	O	
+5-4	daß	KOUS	dass	_	O	O	
+5-5	es	PPER	es	_	O	O	
+5-6	wenigstens	ADV	wenigstens	_	O	O	
+5-7	aus	APPR	aus	_	O	O	
+5-8	beruhigten	ADJA	beruhigt	_	O	O	
+5-9	~uständen	NN	<unknown>	_	O	O	
+5-10	und	KON	und	_	O	O	
+5-11	so	ADV	so	_	O	O	
+5-12	erträglich	ADJD	erträglich	_	O	O	
+5-13	Ihrerseits	NN	<unknown>	_	O	O	
+5-14	lautet	VVFIN	lauten	_	O	O	
+5-15	Aus	APPR	aus	_	O	O	
+5-16	den	ART	die	_	O	O	
+5-17	Zeitungen	NN	Zeitung	_	O	O	
+5-18	sehe	VVFIN	sehen	_	O	O	
+5-19	ich	PPER	ich	_	O	O	
+5-20	daß	KOUS	dass	_	O	O	
+5-21	nun	ADV	nun	_	O	O	
+5-22	auch	ADV	auch	_	O	O	
+5-23	über	APPR	über	_	O	O	
+5-24	den	ART	die	_	O	O	
+5-25	Schaden	NN	Schaden	_	O	O	
+5-26	den	ART	die	_	O	O	
+5-27	die	ART	die	_	O	O	
+5-28	Kuttwerke	NN	<unknown>	_	O	O	
+5-29	erlitten	VVFIN	erleiden	_	O	O	
+5-30	Rath	NE	Rath	_	O	O	
+5-31	gepflogen	ADJD	gepflogen	_	O	O	
+5-32	wird	VAFIN	werden	_	O	O	
+5-33	;	$.	;	_	O	O	
+5-34	Canina	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-35	scheint	VVFIN	scheinen	_	O	O	
+5-36	von	APPR	von	_	O	O	
+5-37	der	ART	die	_	O	O	
+5-38	Kommission	NN	Kommission	_	O	O	
+5-39	ausgeschlossen	ADJD	ausgeschlossen	_	O	O	
+5-40	1	CARD	1	_	O	O	
+5-41	Ich	PPER	ich	_	O	O	
+5-42	will	VMFIN	wollen	_	O	O	
+5-43	aber	ADV	aber	_	O	O	
+5-44	nicht	PTKNEG	nicht	_	O	O	
+5-45	~	XY	~	_	O	O	
+5-46	tQ./)\	VVFIN	<unknown>	_	O	O	
+5-47	.	$.	.	_	O	O	
+5-48	,	$,	,	_	O	O	
+5-49	bloß	ADJD	bloß	_	O	O	
+5-50	von	APPR	von	_	O	O	
+5-51	der	ART	die	_	O	O	
+5-52	Denkmäler	NN	Denkmal	_	O	O	
+5-53	Geschick	NN	Geschick	_	O	O	
+5-54	,	$,	,	_	O	O	
+5-55	sondern	KON	sondern	_	O	O	
+5-56	auch	ADV	auch	_	O	O	
+5-57	von	APPR	von	_	O	O	
+5-58	Bauten	NN	Bau	_	O	O	
+5-59	und	KON	und	_	O	O	
+5-60	selbst	ADV	selbst	_	O	O	
+5-61	von	APPR	von	_	O	O	
+5-62	Bäumen	NN	Baum	_	O	O	
+5-63	wissen	VVFIN	wissen	_	O	O	
+5-64	,	$,	,	_	O	O	
+5-65	und	KON	und	_	O	O	
+5-66	bitte	VVFIN	bitten	_	O	O	
+5-67	Sie	PPER	Sie	_	O	O	
+5-68	daher	PAV	daher	_	O	O	
+5-69	uns	PRF	wir	_	O	O	
+5-70	gründlich	ADJD	gründlich	_	O	O	
+5-71	darüber	PAV	darüber	_	O	O	
+5-72	aufzuklären	VVIZU	aufklären	_	O	O	
+5-73	ob	KOUS	ob	_	O	O	
+5-74	Villa	NN	Villa	_	O	O	
+5-75	Borghese	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-76	und	KON	und	_	O	O	
+5-77	Panfili	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-78	noch	ADV	noch	_	O	O	
+5-79	Bäume	NN	Baum	_	O	O	
+5-80	behielten	VVFIN	behalten	_	O	O	
+5-81	;	$.	;	_	O	O	
+5-82	von	APPR	von	_	O	O	
+5-83	ersterer	PIS	erstere	_	O	O	
+5-84	darf	VMFIN	dürfen	_	O	O	
+5-85	man	PIS	man	_	O	O	
+5-86	es	PPER	es	_	O	O	
+5-87	nach	APPR	nach	_	O	O	
+5-88	den	ART	die	_	O	O	
+5-89	bisherigen	ADJA	bisherig	_	O	O	
+5-90	Berichten	NN	Bericht	_	O	O	
+5-91	kaum	ADV	kaum	_	O	O	
+5-92	noch	ADV	noch	_	O	O	
+5-93	glauben	VVINF	glauben	_	O	O	
+5-94	.	$.	.	_	O	O	
+
+#id=6
+#text=Ueber Franqois hat mir nun a*ch Braun geschrieben, ich werde seine Eingabe nun mit besondrer Empfehlung, deren auch Olfers sich annimmt dem König einreichen: eine recht bestimmte Angabe dessen was er will ist aber immer noch nicht da, am wenigsten von ihm selbst.
+6-1	Ueber	NN	<unknown>	_	O	O	
+6-2	Franqois	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	hat	VAFIN	haben	_	O	O	
+6-4	mir	PPER	ich	_	O	O	
+6-5	nun	ADV	nun	_	O	O	
+6-6	a*ch	ADJA	<unknown>	_	O	O	
+6-7	Braun	NN	Braun	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-8	geschrieben	VVPP	schreiben	_	O	O	
+6-9	,	$,	,	_	O	O	
+6-10	ich	PPER	ich	_	O	O	
+6-11	werde	VAFIN	werden	_	O	O	
+6-12	seine	PPOSAT	sein	_	O	O	
+6-13	Eingabe	NN	Eingabe	_	O	O	
+6-14	nun	ADV	nun	_	O	O	
+6-15	mit	APPR	mit	_	O	O	
+6-16	besondrer	ADJA	<unknown>	_	O	O	
+6-17	Empfehlung	NN	Empfehlung	_	O	O	
+6-18	,	$,	,	_	O	O	
+6-19	deren	PRELAT	die	_	O	O	
+6-20	auch	ADV	auch	_	O	O	
+6-21	Olfers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-22	sich	PRF	sich	_	O	O	
+6-23	annimmt	VVFIN	annehmen	_	O	O	
+6-24	dem	ART	die	_	O	O	
+6-25	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-26	einreichen	VVINF	einreichen	_	O	O	
+6-27	:	$.	:	_	O	O	
+6-28	eine	ART	eine	_	O	O	
+6-29	recht	ADJD	recht	_	O	O	
+6-30	bestimmte	ADJA	bestimmt	_	O	O	
+6-31	Angabe	NN	Angabe	_	O	O	
+6-32	dessen	PDAT	die	_	O	O	
+6-33	was	PRELS	was	_	O	O	
+6-34	er	PPER	er	_	O	O	
+6-35	will	VMFIN	wollen	_	O	O	
+6-36	ist	VAFIN	sein	_	O	O	
+6-37	aber	ADV	aber	_	O	O	
+6-38	immer	ADV	immer	_	O	O	
+6-39	noch	ADV	noch	_	O	O	
+6-40	nicht	PTKNEG	nicht	_	O	O	
+6-41	da	PTKVZ	da	_	O	O	
+6-42	,	$,	,	_	O	O	
+6-43	am	PTKA	am	_	O	O	
+6-44	wenigsten	ADV	wenigsten	_	O	O	
+6-45	von	APPR	von	_	O	O	
+6-46	ihm	PPER	er	_	O	O	
+6-47	selbst	ADV	selbst	_	O	O	
+6-48	.	$.	.	_	O	O	
+
+#id=7
+#text=.l5raun schreibt zwar und von groDen Geschäften; was ihn aber in London festhalte, doch wohl die Galvanoplastik 1, geht daraus nirgend hervor.
+7-1	.l5raun	ADJD	<unknown>	_	O	O	
+7-2	schreibt	VVFIN	schreiben	_	O	O	
+7-3	zwar	ADV	zwar	_	O	O	
+7-4	und	KON	und	_	O	O	
+7-5	von	APPR	von	_	O	O	
+7-6	groDen	ADJA	<unknown>	_	O	O	
+7-7	Geschäften	NN	Geschäft	_	O	O	
+7-8	;	$.	;	_	O	O	
+7-9	was	PWS	was	_	O	O	
+7-10	ihn	PPER	er	_	O	O	
+7-11	aber	ADV	aber	_	O	O	
+7-12	in	APPR	in	_	O	O	
+7-13	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-14	festhalte	VVFIN	festhalten	_	O	O	
+7-15	,	$,	,	_	O	O	
+7-16	doch	KON	doch	_	O	O	
+7-17	wohl	ADV	wohl	_	O	O	
+7-18	die	ART	die	_	O	O	
+7-19	Galvanoplastik	NN	<unknown>	_	O	O	
+7-20	1	CARD	1	_	O	O	
+7-21	,	$,	,	_	O	O	
+7-22	geht	VVFIN	gehen	_	O	O	
+7-23	daraus	PAV	daraus	_	O	O	
+7-24	nirgend	ADV	nirgend	_	O	O	
+7-25	hervor	PTKVZ	hervor	_	O	O	
+7-26	.	$.	.	_	O	O	
+
+#id=8
+#text=Eben soll ich ihm eine große Kiste mit Antiken nachsenden.
+8-1	Eben	ADV	eben	_	O	O	
+8-2	soll	VMFIN	sollen	_	O	O	
+8-3	ich	PPER	ich	_	O	O	
+8-4	ihm	PPER	er	_	O	O	
+8-5	eine	ART	eine	_	O	O	
+8-6	große	ADJA	groß	_	O	O	
+8-7	Kiste	NN	Kiste	_	O	O	
+8-8	mit	APPR	mit	_	O	O	
+8-9	Antiken	NN	Antike	_	O	O	
+8-10	nachsenden	VVINF	nachsenden	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=Haben Sie Gelegenheit die armen Chiusiner von mir zu grüßen so thun Sie es; Alles Mögliche daß Garibald,Cl.
+9-1	Haben	VAFIN	haben	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	Gelegenheit	NN	Gelegenheit	_	O	O	
+9-4	die	ART	die	_	O	O	
+9-5	armen	ADJA	arm	_	O	O	
+9-6	Chiusiner	NN	<unknown>	_	O	O	
+9-7	von	APPR	von	_	O	O	
+9-8	mir	PPER	ich	_	O	O	
+9-9	zu	PTKZU	zu	_	O	O	
+9-10	grüßen	VVINF	grüßen	_	O	O	
+9-11	so	ADV	so	_	O	O	
+9-12	thun	VVFIN	<unknown>	_	O	O	
+9-13	Sie	PPER	Sie	_	O	O	
+9-14	es	PPER	es	_	O	O	
+9-15	;	$.	;	_	O	O	
+9-16	Alles	PIAT	alle	_	O	O	
+9-17	Mögliche	NN	Mögliche	_	O	O	
+9-18	daß	KOUS	dass	_	O	O	
+9-19	Garibald,Cl	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-20	.	$.	.	_	O	O	
+
+#id=10
+#text=vor dop-
+10-1	vor	APPR	vor	_	O	O	
+10-2	dop-	TRUNC	<unknown>	_	O	O	
+

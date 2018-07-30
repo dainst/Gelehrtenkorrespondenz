@@ -1,0 +1,246 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=A, di Dir.
+1-1	A	NN	A	_	O	O	
+1-2	,	$,	,	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=D. Henzen Gerhard an Henzen Berlin 14/1/1848 g. 25/1 48 r.
+2-1	D.	ART	d.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-3	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-4	an	APPR	an	_	O	O	
+2-5	Henzen	NN	<unknown>	_	O	O	
+2-6	Berlin	NE	Berlin	_	O	O	
+2-7	14/1/1848	CARD	@card@	_	O	O	
+2-8	g.	ADJA	<unknown>	_	O	O	
+2-9	25/1	CARD	@card@	_	O	O	
+2-10	48	CARD	48	_	O	O	
+2-11	r.	ADJA	<unknown>	_	O	O	
+
+#id=3
+#text=27/1 48 Berlin 14 Jan.
+3-1	27/1	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-2	48	CARD	48	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-4	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-5	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=4
+#text=48.
+4-1	48	CARD	48	_	O	O	
+4-2	.	$.	.	_	O	O	
+
+#id=5
+#text=Die winterliche .i!
+5-1	Die	ART	die	_	O	O	
+5-2	winterliche	ADJA	winterlich	_	O	O	
+5-3	.i	NN	<unknown>	_	O	O	
+5-4	!	$.	!	_	O	O	
+
+#id=6
+#text='insterniß und das GeschäftsgedränE'b VV"/ ge müssen so groß sein wenn'beide~ war/um diesen Brief den ersten sein zu lassen den ich im neuen Jahr nach Rom sende; it angefangen habe ich es abe~icht minder warmen Wünschen und Gedanken für die rümischen Freunde und unsre genneinsamen Zwecke als andermal.
+6-1	'	$(	'	_	O	O	
+6-2	insterniß	VVIMP	<unknown>	_	O	O	
+6-3	und	KON	und	_	O	O	
+6-4	das	ART	die	_	O	O	
+6-5	GeschäftsgedränE'b	ADJA	<unknown>	_	O	O	
+6-6	VV"/	NN	<unknown>	_	O	O	
+6-7	ge	VVINF	<unknown>	_	O	O	
+6-8	müssen	VMINF	müssen	_	O	O	
+6-9	so	ADV	so	_	O	O	
+6-10	groß	ADJD	groß	_	O	O	
+6-11	sein	PPOSAT	sein	_	O	O	
+6-12	wenn'beide~	ADJA	<unknown>	_	O	O	
+6-13	war/um	NN	<unknown>	_	O	O	
+6-14	diesen	PDAT	dies	_	O	O	
+6-15	Brief	NN	Brief	_	O	O	
+6-16	den	ART	die	_	O	O	
+6-17	ersten	ADJA	erst	_	O	O	
+6-18	sein	VAINF	sein	_	O	O	
+6-19	zu	PTKZU	zu	_	O	O	
+6-20	lassen	VVINF	lassen	_	O	O	
+6-21	den	ART	die	_	O	O	
+6-22	ich	PPER	ich	_	O	O	
+6-23	im	APPRART	in	_	O	O	
+6-24	neuen	ADJA	neu	_	O	O	
+6-25	Jahr	NN	Jahr	_	O	O	
+6-26	nach	APPR	nach	_	O	O	
+6-27	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-28	sende	VVFIN	senden	_	O	O	
+6-29	;	$.	;	_	O	O	
+6-30	it	FM	it	_	O	O	
+6-31	angefangen	VVPP	anfangen	_	O	O	
+6-32	habe	VAFIN	haben	_	O	O	
+6-33	ich	PPER	ich	_	O	O	
+6-34	es	PPER	es	_	O	O	
+6-35	abe~icht	VVFIN	<unknown>	_	O	O	
+6-36	minder	ADJD	minder	_	O	O	
+6-37	warmen	ADJA	warm	_	O	O	
+6-38	Wünschen	NN	Wunsch	_	O	O	
+6-39	und	KON	und	_	O	O	
+6-40	Gedanken	NN	Gedanke	_	O	O	
+6-41	für	APPR	für	_	O	O	
+6-42	die	ART	die	_	O	O	
+6-43	rümischen	ADJA	<unknown>	_	O	O	
+6-44	Freunde	NN	Freund	_	O	O	
+6-45	und	KON	und	_	O	O	
+6-46	unsre	PPOSAT	unsre	_	O	O	
+6-47	genneinsamen	ADJA	<unknown>	_	O	O	
+6-48	Zwecke	NN	Zweck	_	O	O	
+6-49	als	KOKOM	als	_	O	O	
+6-50	andermal	ADV	andermal	_	O	O	
+6-51	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Gehaltssache geht langsam, gut daß einstweilen Geld in Kasse ist.
+7-1	Die	ART	die	_	O	O	
+7-2	Gehaltssache	NN	<unknown>	_	O	O	
+7-3	geht	VVFIN	gehen	_	O	O	
+7-4	langsam	ADJD	langsam	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	gut	ADJD	gut	_	O	O	
+7-7	daß	KOUS	dass	_	O	O	
+7-8	einstweilen	ADV	einstweilen	_	O	O	
+7-9	Geld	NN	Geld	_	O	O	
+7-10	in	APPR	in	_	O	O	
+7-11	Kasse	NN	Kasse	_	O	O	
+7-12	ist	VAFIN	sein	_	O	O	
+7-13	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich dachte und sagte es freilich als ich Braun im Juli bat lieber gleich als im Spätherbst zu schreiben.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	dachte	VVFIN	denken	_	O	O	
+8-3	und	KON	und	_	O	O	
+8-4	sagte	VVFIN	sagen	_	O	O	
+8-5	es	PPER	es	_	O	O	
+8-6	freilich	ADV	freilich	_	O	O	
+8-7	als	KOUS	als	_	O	O	
+8-8	ich	PPER	ich	_	O	O	
+8-9	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-10	im	APPRART	in	_	O	O	
+8-11	Juli	NN	Juli	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-12	bat	VVFIN	bitten	_	O	O	
+8-13	lieber	ADJD	lieb	_	O	O	
+8-14	gleich	ADJD	gleich	_	O	O	
+8-15	als	KOKOM	als	_	O	O	
+8-16	im	APPRART	in	_	O	O	
+8-17	Spätherbst	NN	Spätherbst	_	O	O	
+8-18	zu	PTKZU	zu	_	O	O	
+8-19	schreiben	VVINF	schreiben	_	O	O	
+8-20	.	$.	.	_	O	O	
+
+#id=9
+#text=Nach Tesseren suche ich noch; werden aber wol zu spät kommen.
+9-1	Nach	APPR	nach	_	O	O	
+9-2	Tesseren	ADJA	<unknown>	_	O	O	
+9-3	suche	VVFIN	suchen	_	O	O	
+9-4	ich	PPER	ich	_	O	O	
+9-5	noch	ADV	noch	_	O	O	
+9-6	;	$.	;	_	O	O	
+9-7	werden	VAFIN	werden	_	O	O	
+9-8	aber	ADV	aber	_	O	O	
+9-9	wol	ADJD	<unknown>	_	O	O	
+9-10	zu	APPR	zu	_	O	O	
+9-11	spät	ADJD	spät	_	O	O	
+9-12	kommen	VVINF	kommen	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=Die Mitgliederernennungen müßten von den letzten Jahren her, seit de~WAnzeige im Bull.
+10-1	Die	ART	die	_	O	O	
+10-2	Mitgliederernennungen	NN	<unknown>	_	O	O	
+10-3	müßten	VMFIN	müssen	_	O	O	
+10-4	von	APPR	von	_	O	O	
+10-5	den	ART	die	_	O	O	
+10-6	letzten	ADJA	letzt	_	O	O	
+10-7	Jahren	NN	Jahr	_	O	O	
+10-8	her	PTKVZ	her	_	O	O	
+10-9	,	$,	,	_	O	O	
+10-10	seit	APPR	seit	_	O	O	
+10-11	de~WAnzeige	NN	<unknown>	_	O	O	
+10-12	im	APPRART	in	_	O	O	
+10-13	Bull	NE	Bull	_	O	O	
+10-14	.	$.	.	_	O	O	
+
+#id=11
+#text=nicht mehr erfolgt ist, einmal darin zusammengestellt werden -, zum Jahresschluß oder wann sonst.
+11-1	nicht	PTKNEG	nicht	_	O	O	
+11-2	mehr	ADV	mehr	_	O	O	
+11-3	erfolgt	VVPP	erfolgen	_	O	O	
+11-4	ist	VAFIN	sein	_	O	O	
+11-5	,	$,	,	_	O	O	
+11-6	einmal	ADV	einmal	_	O	O	
+11-7	darin	PAV	darin	_	O	O	
+11-8	zusammengestellt	VVPP	zusammenstellen	_	O	O	
+11-9	werden	VAINF	werden	_	O	O	
+11-10	-	$(	-	_	O	O	
+11-11	,	$,	,	_	O	O	
+11-12	zum	APPRART	zu	_	O	O	
+11-13	Jahresschluß	NN	Jahresschluss	_	O	O	
+11-14	oder	KON	oder	_	O	O	
+11-15	wann	PWAV	wann	_	O	O	
+11-16	sonst.	ADV	<unknown>	_	O	O	
+
+#id=12
+#text=Den Antwerpen werde die beiden andren Diplome zum APril senden.
+12-1	Den	ART	die	_	O	O	
+12-2	Antwerpen	NE	Antwerpen	_	O	O	
+12-3	werde	VAFIN	werden	_	O	O	
+12-4	die	ART	die	_	O	O	
+12-5	beiden	PIAT	beide	_	O	O	
+12-6	andren	PIAT	andere	_	O	O	
+12-7	Diplome	NN	Diplom	_	O	O	
+12-8	zum	APPRART	zu	_	O	O	
+12-9	APril	NN	April	_	O	O	
+12-10	senden	VVINF	senden	_	O	O	
+12-11	.	$.	.	_	O	O	
+
+#id=13
+#text=Werden doch wol die Institutswerke,dort gekauft ?
+13-1	Werden	VAFIN	werden	_	O	O	
+13-2	doch	ADV	doch	_	O	O	
+13-3	wol	ADJD	<unknown>	_	O	O	
+13-4	die	ART	die	_	O	O	
+13-5	Institutswerke,dort	NN	<unknown>	_	O	O	
+13-6	gekauft	VVPP	kaufen	_	O	O	
+13-7	?	$.	?	_	O	O	
+
+#id=14
+#text=Dank für Besorgung der 2 Exemplare Apul.
+14-1	Dank	APPR	dank	_	O	O	
+14-2	für	APPR	für	_	O	O	
+14-3	Besorgung	NN	Besorgung	_	O	O	
+14-4	der	ART	die	_	O	O	
+14-5	2	CARD	2	_	O	O	
+14-6	Exemplare	NN	Exemplar	_	O	O	
+14-7	Apul	NE	<unknown>	_	O	O	
+14-8	.	$.	.	_	O	O	
+
+#id=15
+#text=Vas.für Turin.
+15-1	Vas.für	NE	<unknown>	_	O	O	
+15-2	Turin	NE	Turin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+15-3	.	$.	.	_	O	O	
+
+#id=16
+#text=Die epigraphischen Verhandlungen werden nächstens wieder aufgenommen; Mommsen hat die Geduld verloren, als
+16-1	Die	ART	die	_	O	O	
+16-2	epigraphischen	ADJA	<unknown>	_	O	O	
+16-3	Verhandlungen	NN	Verhandlung	_	O	O	
+16-4	werden	VAFIN	werden	_	O	O	
+16-5	nächstens	ADV	nächstens	_	O	O	
+16-6	wieder	ADV	wieder	_	O	O	
+16-7	aufgenommen	VVPP	aufnehmen	_	O	O	
+16-8	;	$.	;	_	O	O	
+16-9	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-10	hat	VAFIN	haben	_	O	O	
+16-11	die	ART	die	_	O	O	
+16-12	Geduld	NN	Geduld	_	O	O	
+16-13	verloren	VVPP	verlieren	_	O	O	
+16-14	,	$,	,	_	O	O	
+16-15	als	KOUS	als	_	O	O	
+

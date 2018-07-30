@@ -1,0 +1,148 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=134 Gerhard an Henzen 24/VI/1850 2 te Lanci für sein Briefchen zu danken.
+1-1	134	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	24/VI/1850	CARD	<unknown>	_	O	O	
+1-6	2	CARD	2	_	O	O	
+1-7	te	ADJA	<unknown>	_	O	O	
+1-8	Lanci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-9	für	APPR	für	_	O	O	
+1-10	sein	PPOSAT	sein	_	O	O	
+1-11	Briefchen	NN	Briefchen	_	O	O	
+1-12	zu	PTKZU	zu	_	O	O	
+1-13	danken	VVINF	danken	_	O	O	
+1-14	.	$.	.	_	O	O	
+
+#id=2
+#text=Eine Reise nach Deutschland betreffend i«uten Ihre Gründe sehr triftig.
+2-1	Eine	ART	eine	_	O	O	
+2-2	Reise	NN	Reise	_	O	O	
+2-3	nach	APPR	nach	_	O	O	
+2-4	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-5	betreffend	ADJD	betreffend	_	O	O	
+2-6	i«uten	VVFIN	<unknown>	_	O	O	
+2-7	Ihre	PPOSAT	ihr	_	O	O	
+2-8	Gründe	NN	Grund	_	O	O	
+2-9	sehr	ADV	sehr	_	O	O	
+2-10	triftig	ADJD	triftig	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Sie wird auch im nächsten Jahr nicht zu spät sein, und was geschieht ist allzeit das Beste.
+3-1	Sie	PPER	Sie	_	O	O	
+3-2	wird	VAFIN	werden	_	O	O	
+3-3	auch	ADV	auch	_	O	O	
+3-4	im	APPRART	in	_	O	O	
+3-5	nächsten	ADJA	nah	_	O	O	
+3-6	Jahr	NN	Jahr	_	O	O	
+3-7	nicht	PTKNEG	nicht	_	O	O	
+3-8	zu	PTKA	zu	_	O	O	
+3-9	spät	ADJD	spät	_	O	O	
+3-10	sein	VAINF	sein	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	und	KON	und	_	O	O	
+3-13	was	PWS	was	_	O	O	
+3-14	geschieht	VVFIN	geschehen	_	O	O	
+3-15	ist	VAFIN	sein	_	O	O	
+3-16	allzeit	ADV	allzeit	_	O	O	
+3-17	das	ART	die	_	O	O	
+3-18	Beste	NN	Beste	_	O	O	
+3-19	.	$.	.	_	O	O	
+
+#id=4
+#text=Dem Leipziger Paket müßten Sie doch wol durch den Spitthöver nachhelfen können?
+4-1	Dem	ART	die	_	O	O	
+4-2	Leipziger	ADJA	Leipziger	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-3	Paket	NN	Paket	_	O	O	
+4-4	müßten	VMFIN	müssen	_	O	O	
+4-5	Sie	PPER	Sie	_	O	O	
+4-6	doch	ADV	doch	_	O	O	
+4-7	wol	ADJD	<unknown>	_	O	O	
+4-8	durch	APPR	durch	_	O	O	
+4-9	den	ART	die	_	O	O	
+4-10	Spitthöver	NN	<unknown>	_	O	O	
+4-11	nachhelfen	VVINF	nachhelfen	_	O	O	
+4-12	können	VMINF	können	_	O	O	
+4-13	?	$.	?	_	O	O	
+
+#id=5
+#text=Clara~'s Müsee glaubte ich gar nicht im Bes~z des Instituts, weder früheres noch neueres von diesem Werk hat, für das Institut oder für sich, Panofka erhalten.
+5-1	Clara~'s	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	Müsee	NE	<unknown>	_	O	O	
+5-3	glaubte	VVFIN	glauben	_	O	O	
+5-4	ich	PPER	ich	_	O	O	
+5-5	gar	ADV	gar	_	O	O	
+5-6	nicht	PTKNEG	nicht	_	O	O	
+5-7	im	APPRART	in	_	O	O	
+5-8	Bes~z	NN	<unknown>	_	O	O	
+5-9	des	ART	die	_	O	O	
+5-10	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-11	,	$,	,	_	O	O	
+5-12	weder	KON	weder	_	O	O	
+5-13	früheres	ADJA	früh	_	O	O	
+5-14	noch	KON	noch	_	O	O	
+5-15	neueres	ADJA	neu	_	O	O	
+5-16	von	APPR	von	_	O	O	
+5-17	diesem	PDAT	dies	_	O	O	
+5-18	Werk	NN	Werk	_	O	O	
+5-19	hat	VAFIN	haben	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	für	APPR	für	_	O	O	
+5-22	das	ART	die	_	O	O	
+5-23	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-24	oder	KON	oder	_	O	O	
+5-25	für	APPR	für	_	O	O	
+5-26	sich	PRF	sich	_	O	O	
+5-27	,	$,	,	_	O	O	
+5-28	Panofka	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-29	erhalten	VVPP	erhalten	_	O	O	
+5-30	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich selbst erhielt es durch Tausch mit Clarac gegen meine Werke.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	selbst	ADV	selbst	_	O	O	
+6-3	erhielt	VVFIN	erhalten	_	O	O	
+6-4	es	PPER	es	_	O	O	
+6-5	durch	APPR	durch	_	O	O	
+6-6	Tausch	NN	Tausch	_	O	O	
+6-7	mit	APPR	mit	_	O	O	
+6-8	Clarac	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-9	gegen	APPR	gegen	_	O	O	
+6-10	meine	PPOSAT	mein	_	O	O	
+6-11	Werke	NN	Werk	_	O	O	
+6-12	.	$.	.	_	O	O	
+
+#id=7
+#text=Der Himmel stärke Ihre Gesundheit und Stimmu~g Mit unsern besten Wünschen für Sie beide der Ihrige Gerhard Meine Frau denkt der Ihrigen bald wieder zu schreiben.
+7-1	Der	ART	die	_	O	O	
+7-2	Himmel	NN	Himmel	_	O	O	
+7-3	stärke	VVFIN	stärken	_	O	O	
+7-4	Ihre	PPOSAT	ihr	_	O	O	
+7-5	Gesundheit	NN	Gesundheit	_	O	O	
+7-6	und	KON	und	_	O	O	
+7-7	Stimmu~g	NN	<unknown>	_	O	O	
+7-8	Mit	APPR	mit	_	O	O	
+7-9	unsern	PPOSAT	unsre	_	O	O	
+7-10	besten	ADJA	gut	_	O	O	
+7-11	Wünschen	NN	Wunsch	_	O	O	
+7-12	für	APPR	für	_	O	O	
+7-13	Sie	PPER	Sie	_	O	O	
+7-14	beide	PIS	beide	_	O	O	
+7-15	der	ART	die	_	O	O	
+7-16	Ihrige	PPOSAT	ihrige	_	O	O	
+7-17	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+7-18	Meine	PPOSAT	mein	_	O	O	
+7-19	Frau	NN	Frau	_	O	O	
+7-20	denkt	VVFIN	denken	_	O	O	
+7-21	der	ART	die	_	O	O	
+7-22	Ihrigen	NN	<unknown>	_	O	O	
+7-23	bald	ADV	bald	_	O	O	
+7-24	wieder	ADV	wieder	_	O	O	
+7-25	zu	PTKZU	zu	_	O	O	
+7-26	schreiben	VVINF	schreiben	_	O	O	
+7-27	.	$.	.	_	O	O	
+

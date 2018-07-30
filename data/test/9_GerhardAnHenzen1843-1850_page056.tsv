@@ -1,0 +1,129 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=· .
+1-1	·	NN	<unknown>	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=.
+7-1	.	$.	.	_	O	O	
+
+#id=8
+#text=.
+8-1	.	$.	.	_	O	O	
+
+#id=9
+#text=Gerhard an Henzen Berlin, 8. Juni 1846 3 Temple das Diplom ausfertigen?
+9-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+9-2	an	APPR	an	_	O	O	
+9-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+9-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+9-5	,	$,	,	_	O	O	
+9-6	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+9-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+9-8	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+9-9	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+9-10	3	CARD	3	_	O	O	
+9-11	Temple	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-12	das	ART	die	_	O	O	
+9-13	Diplom	NN	Diplom	_	O	O	
+9-14	ausfertigen	VVFIN	ausfertigen	_	O	O	
+9-15	?	$.	?	_	O	O	
+
+#id=10
+#text=Dann könnte es mit einigen Kestnerschen Zeilen ihm übersandt oder durch Mommsen übergeben werden, der doch wol bei ihm zu thun hat.
+10-1	Dann	ADV	dann	_	O	O	
+10-2	könnte	VMFIN	können	_	O	O	
+10-3	es	PPER	es	_	O	O	
+10-4	mit	APPR	mit	_	O	O	
+10-5	einigen	PIAT	einige	_	O	O	
+10-6	Kestnerschen	ADJA	<unknown>	_	O	O	
+10-7	Zeilen	NN	Zeile	_	O	O	
+10-8	ihm	PPER	er	_	O	O	
+10-9	übersandt	VVPP	übersenden	_	O	O	
+10-10	oder	KON	oder	_	O	O	
+10-11	durch	APPR	durch	_	O	O	
+10-12	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-13	übergeben	VVPP	übergeben	_	O	O	
+10-14	werden	VAINF	werden	_	O	O	
+10-15	,	$,	,	_	O	O	
+10-16	der	PRELS	die	_	O	O	
+10-17	doch	ADV	doch	_	O	O	
+10-18	wol	ADJD	<unknown>	_	O	O	
+10-19	bei	APPR	bei	_	O	O	
+10-20	ihm	PPER	er	_	O	O	
+10-21	zu	APPR	zu	_	O	O	
+10-22	thun	NE	<unknown>	_	O	O	
+10-23	hat	VAFIN	haben	_	O	O	
+10-24	.	$.	.	_	O	O	
+
+#id=11
+#text=Neue Formulare, etwas geänderte, muß ich auch hier drucken lassen.
+11-1	Neue	ADJA	neu	_	O	O	
+11-2	Formulare	NN	Formular	_	O	O	
+11-3	,	$,	,	_	O	O	
+11-4	etwas	PIAT	etwas	_	O	O	
+11-5	geänderte	ADJA	geändert	_	O	O	
+11-6	,	$,	,	_	O	O	
+11-7	muß	VMFIN	müssen	_	O	O	
+11-8	ich	PPER	ich	_	O	O	
+11-9	auch	ADV	auch	_	O	O	
+11-10	hier	ADV	hier	_	O	O	
+11-11	drucken	VVINF	drucken	_	O	O	
+11-12	lassen	VVINF	lassen	_	O	O	
+11-13	.	$.	.	_	O	O	
+
+#id=12
+#text=Meine Frau ist glücklich zurück, obwohl noch in viel Unruhe, und sagt mit mir der Casa Henzen die allerbesten Grüße.
+12-1	Meine	PPOSAT	mein	_	O	O	
+12-2	Frau	NN	Frau	_	O	O	
+12-3	ist	VAFIN	sein	_	O	O	
+12-4	glücklich	ADJD	glücklich	_	O	O	
+12-5	zurück	PTKVZ	zurück	_	O	O	
+12-6	,	$,	,	_	O	O	
+12-7	obwohl	KOUS	obwohl	_	O	O	
+12-8	noch	ADV	noch	_	O	O	
+12-9	in	APPR	in	_	O	O	
+12-10	viel	PIAT	viele	_	O	O	
+12-11	Unruhe	NN	Unruhe	_	O	O	
+12-12	,	$,	,	_	O	O	
+12-13	und	KON	und	_	O	O	
+12-14	sagt	VVFIN	sagen	_	O	O	
+12-15	mit	APPR	mit	_	O	O	
+12-16	mir	PPER	ich	_	O	O	
+12-17	der	ART	die	_	O	O	
+12-18	Casa	NE	Casa	_	O	O	
+12-19	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-20	die	ART	die	_	O	O	
+12-21	allerbesten	ADJA	allergut	_	O	O	
+12-22	Grüße	NN	Gruß	_	O	O	
+12-23	.	$.	.	_	O	O	
+
+#id=13
+#text=Von Herzen der Ihrige Gerhard
+13-1	Von	APPR	von	_	O	O	
+13-2	Herzen	NN	Herz	_	O	O	
+13-3	der	ART	die	_	O	O	
+13-4	Ihrige	PPOSAT	ihrige	_	O	O	
+13-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

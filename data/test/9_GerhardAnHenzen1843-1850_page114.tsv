@@ -1,0 +1,62 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Gerhard an Renzen 6/V/1847 nach Rom senden möge, denn es kostet auch hier reichlich Postgeld.
+1-1	2	CARD	2	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	6/V/1847	CARD	<unknown>	_	O	O	
+1-6	nach	APPR	nach	_	O	O	
+1-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-8	senden	VVINF	senden	_	O	O	
+1-9	möge	VMFIN	mögen	_	O	O	
+1-10	,	$,	,	_	O	O	
+1-11	denn	KON	denn	_	O	O	
+1-12	es	PPER	es	_	O	O	
+1-13	kostet	VVFIN	kosten	_	O	O	
+1-14	auch	ADV	auch	_	O	O	
+1-15	hier	ADV	hier	_	O	O	
+1-16	reichlich	PIAT	reichlich	_	O	O	
+1-17	Postgeld	NN	<unknown>	_	O	O	
+1-18	.	$.	.	_	O	O	
+
+#id=2
+#text=Ihrer lieben ~'rau unsre besten Grüße; Dank und Gruß auch an Brunn.
+2-1	Ihrer	PPOSAT	ihr	_	O	O	
+2-2	lieben	ADJA	lieb	_	O	O	
+2-3	~'rau	NN	<unknown>	_	O	O	
+2-4	unsre	PPOSAT	unsre	_	O	O	
+2-5	besten	ADJA	gut	_	O	O	
+2-6	Grüße	NN	Gruß	_	O	O	
+2-7	;	$.	;	_	O	O	
+2-8	Dank	NN	Dank	_	O	O	
+2-9	und	KON	und	_	O	O	
+2-10	Gruß	NN	Gruß	_	O	O	
+2-11	auch	ADV	auch	_	O	O	
+2-12	an	APPR	an	_	O	O	
+2-13	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-14	.	$.	.	_	O	O	
+
+#id=3
+#text=Eben war dies geschrieben als nach raschester Reise Blessig hier eintrat.
+3-1	Eben	ADV	eben	_	O	O	
+3-2	war	VAFIN	sein	_	O	O	
+3-3	dies	PDS	dies	_	O	O	
+3-4	geschrieben	VVPP	schreiben	_	O	O	
+3-5	als	KOKOM	als	_	O	O	
+3-6	nach	APPR	nach	_	O	O	
+3-7	raschester	ADJA	<unknown>	_	O	O	
+3-8	Reise	NN	Reise	_	O	O	
+3-9	Blessig	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-10	hier	ADV	hier	_	O	O	
+3-11	eintrat	VVFIN	eintreten	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Von Herzen der Ihrige Gerhard
+4-1	Von	APPR	von	_	O	O	
+4-2	Herzen	NN	Herz	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	Ihrige	PPOSAT	ihrige	_	O	O	
+4-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

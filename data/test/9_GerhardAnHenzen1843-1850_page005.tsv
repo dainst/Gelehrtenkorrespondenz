@@ -1,0 +1,272 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=624 Aff.
+1-1	624	CARD	@card@	_	O	O	
+1-2	Aff	NN	<unknown>	_	O	O	
+1-3	.	$.	.	_	O	O	
+
+#id=2
+#text=di Direz.
+2-1	di	NE	di	_	O	O	
+2-2	Direz	NE	<unknown>	_	O	O	
+2-3	.	$.	.	_	O	O	
+
+#id=3
+#text=D. Henzen Gerhard an Henzen Bologna 9/X/1843 g. 12/10 43 r.
+3-1	D.	ART	d.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-2	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+3-3	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+3-4	an	APPR	an	_	O	O	
+3-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-6	Bologna	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-7	9/X/1843	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-8	g.	ADJA	<unknown>	_	O	O	
+3-9	12/10	CARD	12/10	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-10	43	CARD	43	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+3-11	r.	ADJA	<unknown>	_	O	O	
+
+#id=4
+#text=21/10 43 Bologna 9 Okt 43 Ohne viel erheblichen aber doch dringenden Stoff drängt es mich bevor ich das Reich der S. Petrischlüssel nochmals verlasse, Die lieber Freund und die gemeinsamen Freunde - namentlich auch Vollards, dem und denen Sie von uns erzählen mögen - von uns.rer weiteren Reise in Kenntniß zu setzten.
+4-1	21/10	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+4-2	43	CARD	43	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+4-3	Bologna	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-4	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-5	Okt	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-6	43	CARD	43	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-7	Ohne	APPR	ohne	_	O	O	
+4-8	viel	PIAT	viele	_	O	O	
+4-9	erheblichen	ADJA	erheblich	_	O	O	
+4-10	aber	KON	aber	_	O	O	
+4-11	doch	ADV	doch	_	O	O	
+4-12	dringenden	ADJA	dringend	_	O	O	
+4-13	Stoff	NN	Stoff	_	O	O	
+4-14	drängt	VVFIN	drängen	_	O	O	
+4-15	es	PPER	es	_	O	O	
+4-16	mich	PRF	ich	_	O	O	
+4-17	bevor	KOUS	bevor	_	O	O	
+4-18	ich	PPER	ich	_	O	O	
+4-19	das	ART	die	_	O	O	
+4-20	Reich	NN	Reich	_	O	O	
+4-21	der	ART	die	_	O	O	
+4-22	S.	NN	S.	_	O	O	
+4-23	Petrischlüssel	NN	<unknown>	_	O	O	
+4-24	nochmals	ADV	nochmals	_	O	O	
+4-25	verlasse	VVFIN	verlassen	_	O	O	
+4-26	,	$,	,	_	O	O	
+4-27	Die	ART	die	_	O	O	
+4-28	lieber	ADJA	lieb	_	O	O	
+4-29	Freund	NN	Freund	_	O	O	
+4-30	und	KON	und	_	O	O	
+4-31	die	ART	die	_	O	O	
+4-32	gemeinsamen	ADJA	gemeinsam	_	O	O	
+4-33	Freunde	NN	Freund	_	O	O	
+4-34	-	$(	-	_	O	O	
+4-35	namentlich	ADJD	namentlich	_	O	O	
+4-36	auch	ADV	auch	_	O	O	
+4-37	Vollards	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-38	,	$,	,	_	O	O	
+4-39	dem	PRELS	die	_	O	O	
+4-40	und	KON	und	_	O	O	
+4-41	denen	PRELS	die	_	O	O	
+4-42	Sie	PPER	Sie	_	O	O	
+4-43	von	APPR	von	_	O	O	
+4-44	uns	PRF	wir	_	O	O	
+4-45	erzählen	VVINF	erzählen	_	O	O	
+4-46	mögen	VMFIN	mögen	_	O	O	
+4-47	-	$(	-	_	O	O	
+4-48	von	APPR	von	_	O	O	
+4-49	uns.rer	ADJA	<unknown>	_	O	O	
+4-50	weiteren	ADJA	weit	_	O	O	
+4-51	Reise	NN	Reise	_	O	O	
+4-52	in	APPR	in	_	O	O	
+4-53	Kenntniß	NN	<unknown>	_	O	O	
+4-54	zu	PTKVZ	zu	_	O	O	
+4-55	setzten	VVFIN	setzen	_	O	O	
+4-56	.	$.	.	_	O	O	
+
+#id=5
+#text=Einen Brief, für dessen pünktliche Nachsendung meine Frau Ihnen sehr dankbar ist, erhielten wir unmittelbar vor der Abfahrt von J:!'lorenz.
+5-1	Einen	ART	eine	_	O	O	
+5-2	Brief	NN	Brief	_	O	O	
+5-3	,	$,	,	_	O	O	
+5-4	für	APPR	für	_	O	O	
+5-5	dessen	PRELAT	die	_	O	O	
+5-6	pünktliche	ADJA	pünktlich	_	O	O	
+5-7	Nachsendung	NN	<unknown>	_	O	O	
+5-8	meine	PPOSAT	mein	_	O	O	
+5-9	Frau	NN	Frau	_	O	O	
+5-10	Ihnen	PPER	Sie	_	O	O	
+5-11	sehr	ADV	sehr	_	O	O	
+5-12	dankbar	ADJD	dankbar	_	O	O	
+5-13	ist	VAFIN	sein	_	O	O	
+5-14	,	$,	,	_	O	O	
+5-15	erhielten	VVFIN	erhalten	_	O	O	
+5-16	wir	PPER	wir	_	O	O	
+5-17	unmittelbar	ADJD	unmittelbar	_	O	O	
+5-18	vor	APPR	vor	_	O	O	
+5-19	der	ART	die	_	O	O	
+5-20	Abfahrt	NN	Abfahrt	_	O	O	
+5-21	von	APPR	von	_	O	O	
+5-22	J	NN	J	_	O	O	
+5-23	:	$.	:	_	O	O	
+5-24	!	$.	!	_	O	O	
+5-25	'	$(	'	_	O	O	
+5-26	lorenz	NE	Lorenz	_	O	O	
+5-27	.	$.	.	_	O	O	
+
+#id=6
+#text=Sollte mehr nachgekommen sein, so haben Sie es wol nach Wien geschickt.
+6-1	Sollte	VMFIN	sollen	_	O	O	
+6-2	mehr	ADV	mehr	_	O	O	
+6-3	nachgekommen	VVPP	nachkommen	_	O	O	
+6-4	sein	VAINF	sein	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	so	ADV	so	_	O	O	
+6-7	haben	VAFIN	haben	_	O	O	
+6-8	Sie	PPER	Sie	_	O	O	
+6-9	es	PPER	es	_	O	O	
+6-10	wol	ADJD	<unknown>	_	O	O	
+6-11	nach	APPR	nach	_	O	O	
+6-12	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-13	geschickt	VVPP	schicken	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich denke den Beischluß durch Volke auch für folgende mich betreffende Sendungen mir zu sichern und uns praktischer zu machen.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	denke	VVFIN	denken	_	O	O	
+7-3	den	ART	die	_	O	O	
+7-4	Beischluß	NN	<unknown>	_	O	O	
+7-5	durch	APPR	durch	_	O	O	
+7-6	Volke	NN	Volk	_	O	O	
+7-7	auch	ADV	auch	_	O	O	
+7-8	für	APPR	für	_	O	O	
+7-9	folgende	ADJA	folgend	_	O	O	
+7-10	mich	PPER	ich	_	O	O	
+7-11	betreffende	ADJA	betreffend	_	O	O	
+7-12	Sendungen	NN	Sendung	_	O	O	
+7-13	mir	PPER	ich	_	O	O	
+7-14	zu	PTKZU	zu	_	O	O	
+7-15	sichern	VVINF	sichern	_	O	O	
+7-16	und	KON	und	_	O	O	
+7-17	uns	PPER	wir	_	O	O	
+7-18	praktischer	ADJD	praktisch	_	O	O	
+7-19	zu	PTKZU	zu	_	O	O	
+7-20	machen	VVINF	machen	_	O	O	
+7-21	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich hoffe sehr von Ihnen zu hören daß ein kleines Konvolut Papiere, die ich vermisse, in dem Braunschen Zimmer sich gefunden hat und nach Wien mir nachfolgt.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	hoffe	VVFIN	hoffen	_	O	O	
+8-3	sehr	ADV	sehr	_	O	O	
+8-4	von	APPR	von	_	O	O	
+8-5	Ihnen	PPER	Sie	_	O	O	
+8-6	zu	PTKZU	zu	_	O	O	
+8-7	hören	VVINF	hören	_	O	O	
+8-8	daß	KOUS	dass	_	O	O	
+8-9	ein	ART	eine	_	O	O	
+8-10	kleines	ADJA	klein	_	O	O	
+8-11	Konvolut	NN	<unknown>	_	O	O	
+8-12	Papiere	NN	Papier	_	O	O	
+8-13	,	$,	,	_	O	O	
+8-14	die	PRELS	die	_	O	O	
+8-15	ich	PPER	ich	_	O	O	
+8-16	vermisse	VVFIN	vermissen	_	O	O	
+8-17	,	$,	,	_	O	O	
+8-18	in	APPR	in	_	O	O	
+8-19	dem	ART	die	_	O	O	
+8-20	Braunschen	NN	<unknown>	_	O	O	
+8-21	Zimmer	NE	Zimmer	_	O	O	
+8-22	sich	PRF	sich	_	O	O	
+8-23	gefunden	VVPP	finden	_	O	O	
+8-24	hat	VAFIN	haben	_	O	O	
+8-25	und	KON	und	_	O	O	
+8-26	nach	APPR	nach	_	O	O	
+8-27	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-28	mir	PPER	ich	_	O	O	
+8-29	nachfolgt	VVFIN	nachfolgen	_	O	O	
+8-30	.	$.	.	_	O	O	
+
+#id=9
+#text=Auch der Brief von Vieusseux und einer von Wolff an mich ( an dem mir liegt ) muß sich dabei ~funden haben.
+9-1	Auch	ADV	auch	_	O	O	
+9-2	der	ART	die	_	O	O	
+9-3	Brief	NN	Brief	_	O	O	
+9-4	von	APPR	von	_	O	O	
+9-5	Vieusseux	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-6	und	KON	und	_	O	O	
+9-7	einer	ART	eine	_	O	O	
+9-8	von	APPR	von	_	O	O	
+9-9	Wolff	NE	Wolff	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-10	an	APPR	an	_	O	O	
+9-11	mich	PPER	ich	_	O	O	
+9-12	(	$(	(	_	O	O	
+9-13	an	APPR	an	_	O	O	
+9-14	dem	ART	die	_	O	O	
+9-15	mir	PRF	ich	_	O	O	
+9-16	liegt	VVFIN	liegen	_	O	O	
+9-17	)	$(	)	_	O	O	
+9-18	muß	VMFIN	müssen	_	O	O	
+9-19	sich	PRF	sich	_	O	O	
+9-20	dabei	PAV	dabei	_	O	O	
+9-21	~funden	NN	<unknown>	_	O	O	
+9-22	haben	VAINF	haben	_	O	O	
+9-23	.	$.	.	_	O	O	
+
+#id=10
+#text=MLl{tinge~ sprach ich noch.
+10-1	MLl{tinge~	NE	<unknown>	_	O	O	
+10-2	sprach	VVFIN	sprechen	_	O	O	
+10-3	ich	PPER	ich	_	O	O	
+10-4	noch	ADV	noch	_	O	O	
+10-5	.	$.	.	_	O	O	
+
+#id=11
+#text=Die Seneser Vasen sind mit 6800 Sc.
+11-1	Die	ART	die	_	O	O	
+11-2	Seneser	NN	<unknown>	_	O	O	
+11-3	Vasen	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-4	sind	VAFIN	sein	_	O	O	
+11-5	mit	APPR	mit	_	O	O	
+11-6	6800	CARD	@card@	_	O	O	
+11-7	Sc.	NN	<unknown>	_	O	O	
+
+#id=12
+#text=bezahlt worden.
+12-1	bezahlt	VVPP	bezahlen	_	O	O	
+12-2	worden	VAPP	werden	_	O	O	
+12-3	.	$.	.	_	O	O	
+
+#id=13
+#text=Der alte Bianconi, der einen sehr g~~~fügigen Adjunkt Luigi Frate zum Nachfolger haben wird, verheißt den Ankauf eines Exemplars meiner Spiegel.
+13-1	Der	ART	die	_	O	O	
+13-2	alte	ADJA	alt	_	O	O	
+13-3	Bianconi	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-4	,	$,	,	_	O	O	
+13-5	der	PRELS	die	_	O	O	
+13-6	einen	ART	eine	_	O	O	
+13-7	sehr	ADV	sehr	_	O	O	
+13-8	g~~~fügigen	ADJA	<unknown>	_	O	O	
+13-9	Adjunkt	NN	<unknown>	_	O	O	
+13-10	Luigi	NE	Luigi	_	O	O	
+13-11	Frate	NN	<unknown>	_	O	O	
+13-12	zum	APPRART	zu	_	O	O	
+13-13	Nachfolger	NN	Nachfolger	_	O	O	
+13-14	haben	VAINF	haben	_	O	O	
+13-15	wird	VAFIN	werden	_	O	O	
+13-16	,	$,	,	_	O	O	
+13-17	verheißt	VVFIN	verheißen	_	O	O	
+13-18	den	ART	die	_	O	O	
+13-19	Ankauf	NN	Ankauf	_	O	O	
+13-20	eines	ART	eine	_	O	O	
+13-21	Exemplars	NN	Exemplar	_	O	O	
+13-22	meiner	PPOSAT	mein	_	O	O	
+13-23	Spiegel	NN	Spiegel	_	O	O	
+13-24	.	$.	.	_	O	O	
+
+#id=14
+#text=Kestner'n,
+14-1	Kestner'n	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	,	$,	,	_	O	O	
+

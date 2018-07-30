@@ -1,0 +1,410 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=.
+1-1	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=Gerhard an Henzen Berlin, 12. November 1846 4 ob er sie aber zum Guten, oder als Bestechungsversuch für den Vatikan deuten werde, muß ich dahin gestellt sein lassen.
+7-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+7-2	an	APPR	an	_	O	O	
+7-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+7-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+7-5	,	$,	,	_	O	O	
+7-6	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+7-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-8	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-9	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-10	4	CARD	4	_	O	O	
+7-11	ob	KOUS	ob	_	O	O	
+7-12	er	PPER	er	_	O	O	
+7-13	sie	PPER	sie	_	O	O	
+7-14	aber	ADV	aber	_	O	O	
+7-15	zum	APPRART	zu	_	O	O	
+7-16	Guten	NN	Gute	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	oder	KON	oder	_	O	O	
+7-19	als	KOKOM	als	_	O	O	
+7-20	Bestechungsversuch	NN	Bestechungsversuch	_	O	O	
+7-21	für	APPR	für	_	O	O	
+7-22	den	ART	die	_	O	O	
+7-23	Vatikan	NN	Vatikan	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-24	deuten	VVINF	deuten	_	O	O	
+7-25	werde	VAFIN	werden	_	O	O	
+7-26	,	$,	,	_	O	O	
+7-27	muß	VMFIN	müssen	_	O	O	
+7-28	ich	PPER	ich	_	O	O	
+7-29	dahin	PAV	dahin	_	O	O	
+7-30	gestellt	VVPP	stellen	_	O	O	
+7-31	sein	VAINF	sein	_	O	O	
+7-32	lassen	VVINF	lassen	_	O	O	
+7-33	.	$.	.	_	O	O	
+
+#id=8
+#text=Wir leben in leidlicher Gesundheit still weg.
+8-1	Wir	PPER	wir	_	O	O	
+8-2	leben	VVFIN	leben	_	O	O	
+8-3	in	APPR	in	_	O	O	
+8-4	leidlicher	ADJA	leidlich	_	O	O	
+8-5	Gesundheit	NN	Gesundheit	_	O	O	
+8-6	still	ADJD	still	_	O	O	
+8-7	weg.	ADJA	<unknown>	_	O	O	
+
+#id=9
+#text=Ihrer lieben Frau vie.l Herzliches von der meinigen und von mir.
+9-1	Ihrer	PPOSAT	ihr	_	O	O	
+9-2	lieben	ADJA	lieb	_	O	O	
+9-3	Frau	NN	Frau	_	O	O	
+9-4	vie.l	ADJA	<unknown>	_	O	O	
+9-5	Herzliches	NN	Herzliche	_	O	O	
+9-6	von	APPR	von	_	O	O	
+9-7	der	ART	die	_	O	O	
+9-8	meinigen	PPOSS	meinig	_	O	O	
+9-9	und	KON	und	_	O	O	
+9-10	von	APPR	von	_	O	O	
+9-11	mir	PPER	ich	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Ihr Gerhard Viel Neigebaursche Epigraphica sende ich durch das Ministerium und bitte sie bald direkt ihm zu bescheinigen; er verwilt bei S. v. Bandocz.
+10-1	Ihr	PPOSAT	ihr	_	O	O	
+10-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+10-3	Viel	ADV	viel	_	O	O	
+10-4	Neigebaursche	NN	<unknown>	_	O	O	
+10-5	Epigraphica	NE	<unknown>	_	O	O	
+10-6	sende	VVFIN	senden	_	O	O	
+10-7	ich	PPER	ich	_	O	O	
+10-8	durch	APPR	durch	_	O	O	
+10-9	das	ART	die	_	O	O	
+10-10	Ministerium	NN	Ministerium	_	O	O	
+10-11	und	KON	und	_	O	O	
+10-12	bitte	VVFIN	bitten	_	O	O	
+10-13	sie	PPER	sie	_	O	O	
+10-14	bald	ADV	bald	_	O	O	
+10-15	direkt	ADJD	direkt	_	O	O	
+10-16	ihm	PPER	er	_	O	O	
+10-17	zu	PTKZU	zu	_	O	O	
+10-18	bescheinigen	VVINF	bescheinigen	_	O	O	
+10-19	;	$.	;	_	O	O	
+10-20	er	PPER	er	_	O	O	
+10-21	verwilt	VVFIN	<unknown>	_	O	O	
+10-22	bei	APPR	bei	_	O	O	
+10-23	S.	NE	S.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-24	v.	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-25	Bandocz	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-26	.	$.	.	_	O	O	
+
+#id=11
+#text=Minervini bitte ich für seinen Brief vorläufig zu danken; mit dem Bemerk Quarar:ta über die Amazonenvase aus Ruvo, sondern über die Amazonen .
+11-1	Minervini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	bitte	VVFIN	bitten	_	O	O	
+11-3	ich	PPER	ich	_	O	O	
+11-4	für	APPR	für	_	O	O	
+11-5	seinen	PPOSAT	sein	_	O	O	
+11-6	Brief	NN	Brief	_	O	O	
+11-7	vorläufig	ADJD	vorläufig	_	O	O	
+11-8	zu	PTKZU	zu	_	O	O	
+11-9	danken	VVINF	danken	_	O	O	
+11-10	;	$.	;	_	O	O	
+11-11	mit	APPR	mit	_	O	O	
+11-12	dem	ART	die	_	O	O	
+11-13	Bemerk	NN	<unknown>	_	O	O	
+11-14	Quarar:ta	NN	<unknown>	_	O	O	
+11-15	über	APPR	über	_	O	O	
+11-16	die	ART	die	_	O	O	
+11-17	Amazonenvase	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-18	aus	APPR	aus	_	O	O	
+11-19	Ruvo	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-20	,	$,	,	_	O	O	
+11-21	sondern	KON	sondern	_	O	O	
+11-22	über	APPR	über	_	O	O	
+11-23	die	ART	die	_	O	O	
+11-24	Amazonen	NN	Amazone	_	O	O	
+11-25	.	$.	.	_	O	O	
+
+#id=12
+#text=.
+12-1	.	$.	.	_	O	O	
+
+#id=13
+#text=.
+13-1	.	$.	.	_	O	O	
+
+#id=14
+#text=.
+14-1	.	$.	.	_	O	O	
+
+#id=15
+#text=.
+15-1	.	$.	.	_	O	O	
+
+#id=16
+#text=.
+16-1	.	$.	.	_	O	O	
+
+#id=17
+#text=.
+17-1	.	$.	.	_	O	O	
+
+#id=18
+#text=.
+18-1	.	$.	.	_	O	O	
+
+#id=19
+#text=.
+19-1	.	$.	.	_	O	O	
+
+#id=20
+#text=.
+20-1	.	$.	.	_	O	O	
+
+#id=21
+#text=.
+21-1	.	$.	.	_	O	O	
+
+#id=22
+#text=.
+22-1	.	$.	.	_	O	O	
+
+#id=23
+#text=.
+23-1	.	$.	.	_	O	O	
+
+#id=24
+#text=.
+24-1	.	$.	.	_	O	O	
+
+#id=25
+#text=.
+25-1	.	$.	.	_	O	O	
+
+#id=26
+#text=Nola mit Inschrift ( Neapell Bilder S. 349 f.) gesucht habe.
+26-1	Nola	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+26-2	mit	APPR	mit	_	O	O	
+26-3	Inschrift	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+26-4	(	$(	(	_	O	O	
+26-5	Neapell	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+26-6	Bilder	NN	Bild	_	O	O	
+26-7	S.	NE	S.	_	O	O	
+26-8	349	CARD	@card@	_	O	O	
+26-9	f.	APPR	f.	_	O	O	
+26-10	)	$(	)	_	O	O	
+26-11	gesucht	VVPP	suchen	_	O	O	
+26-12	habe	VAFIN	haben	_	O	O	
+26-13	.	$.	.	_	O	O	
+
+#id=27
+#text=Die Exemplare Ihrer Tabula alimentaria habe ich also, da Sie nicht anders bestimmten C cLv,)', .
+27-1	Die	ART	die	_	O	O	
+27-2	Exemplare	NN	Exemplar	_	O	O	
+27-3	Ihrer	PPOSAT	ihr	_	O	O	
+27-4	Tabula	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+27-5	alimentaria	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+27-6	habe	VAFIN	haben	_	O	O	
+27-7	ich	PPER	ich	_	O	O	
+27-8	also	ADV	also	_	O	O	
+27-9	,	$,	,	_	O	O	
+27-10	da	KOUS	da	_	O	O	
+27-11	Sie	PPER	Sie	_	O	O	
+27-12	nicht	PTKNEG	nicht	_	O	O	
+27-13	anders	ADV	anders	_	O	O	
+27-14	bestimmten	ADJA	bestimmt	_	O	O	
+27-15	C	NN	C	_	O	O	
+27-16	cLv	NE	<unknown>	_	O	O	
+27-17	,	$,	,	_	O	O	
+27-18	)	$(	)	_	O	O	
+27-19	'	$(	'	_	O	O	
+27-20	,	$,	,	_	O	O	
+27-21	.	$.	.	_	O	O	
+
+#id=28
+#text=Brock- .
+28-1	Brock-	NE	<unknown>	_	O	O	
+28-2	.	$.	.	_	O	O	
+
+#id=29
+#text=.
+29-1	.	$.	.	_	O	O	
+
+#id=30
+#text=.
+30-1	.	$.	.	_	O	O	
+
+#id=31
+#text=.
+31-1	.	$.	.	_	O	O	
+
+#id=32
+#text=.
+32-1	.	$.	.	_	O	O	
+
+#id=33
+#text=.
+33-1	.	$.	.	_	O	O	
+
+#id=34
+#text=.
+34-1	.	$.	.	_	O	O	
+
+#id=35
+#text=.
+35-1	.	$.	.	_	O	O	
+
+#id=36
+#text=.
+36-1	.	$.	.	_	O	O	
+
+#id=37
+#text=.
+37-1	.	$.	.	_	O	O	
+
+#id=38
+#text=haus an Besser überwiesen; nun fehlt aber noch Ihre Preis .
+38-1	haus	VVIMP	hausen	_	O	O	
+38-2	an	APPR	an	_	O	O	
+38-3	Besser	ADJD	gut	_	O	O	
+38-4	überwiesen	VVPP	überweisen	_	O	O	
+38-5	;	$.	;	_	O	O	
+38-6	nun	ADV	nun	_	O	O	
+38-7	fehlt	VVFIN	fehlen	_	O	O	
+38-8	aber	ADV	aber	_	O	O	
+38-9	noch	ADV	noch	_	O	O	
+38-10	Ihre	PPOSAT	ihr	_	O	O	
+38-11	Preis	NN	Preis	_	O	O	
+38-12	.	$.	.	_	O	O	
+
+#id=39
+#text=.
+39-1	.	$.	.	_	O	O	
+
+#id=40
+#text=.
+40-1	.	$.	.	_	O	O	
+
+#id=41
+#text=.
+41-1	.	$.	.	_	O	O	
+
+#id=42
+#text=.
+42-1	.	$.	.	_	O	O	
+
+#id=43
+#text=.
+43-1	.	$.	.	_	O	O	
+
+#id=44
+#text=.
+44-1	.	$.	.	_	O	O	
+
+#id=45
+#text=.
+45-1	.	$.	.	_	O	O	
+
+#id=46
+#text=.
+46-1	.	$.	.	_	O	O	
+
+#id=47
+#text=.
+47-1	.	$.	.	_	O	O	
+
+#id=48
+#text=.
+48-1	.	$.	.	_	O	O	
+
+#id=49
+#text=.
+49-1	.	$.	.	_	O	O	
+
+#id=50
+#text=.
+50-1	.	$.	.	_	O	O	
+
+#id=51
+#text=.
+51-1	.	$.	.	_	O	O	
+
+#id=52
+#text=für den Buchhandel von dem 50 rt als üblicher Commissionsrabatt .
+52-1	für	APPR	für	_	O	O	
+52-2	den	ART	die	_	O	O	
+52-3	Buchhandel	NN	Buchhandel	_	O	O	
+52-4	von	APPR	von	_	O	O	
+52-5	dem	ART	die	_	O	O	
+52-6	50	CARD	50	_	O	O	
+52-7	rt	NN	<unknown>	_	O	O	
+52-8	als	KOKOM	als	_	O	O	
+52-9	üblicher	ADJA	üblich	_	O	O	
+52-10	Commissionsrabatt	NN	<unknown>	_	O	O	
+52-11	.	$.	.	_	O	O	
+
+#id=53
+#text=.
+53-1	.	$.	.	_	O	O	
+
+#id=54
+#text=.
+54-1	.	$.	.	_	O	O	
+
+#id=55
+#text=.
+55-1	.	$.	.	_	O	O	
+
+#id=56
+#text=.
+56-1	.	$.	.	_	O	O	
+
+#id=57
+#text=.
+57-1	.	$.	.	_	O	O	
+
+#id=58
+#text=.
+58-1	.	$.	.	_	O	O	
+
+#id=59
+#text=.
+59-1	.	$.	.	_	O	O	
+
+#id=60
+#text=Fiorelli's Giornale numismatico habe ich also zu erwarten?
+60-1	Fiorelli's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+60-2	Giornale	NN	<unknown>	_	O	O	
+60-3	numismatico	NE	<unknown>	_	O	O	
+60-4	habe	VAFIN	haben	_	O	O	
+60-5	ich	PPER	ich	_	O	O	
+60-6	also	ADV	also	_	O	O	
+60-7	zu	PTKZU	zu	_	O	O	
+60-8	erwarten	VVINF	erwarten	_	O	O	
+60-9	?	$.	?	_	O	O	
+
+#id=61
+#text=Ich sende ihm Archäologische Zeitung sobald
+61-1	Ich	PPER	ich	_	O	O	
+61-2	sende	VVFIN	senden	_	O	O	
+61-3	ihm	PPER	er	_	O	O	
+61-4	Archäologische	ADJA	archäologisch	_	O	O	
+61-5	Zeitung	NN	Zeitung	_	O	O	
+61-6	sobald	KOUS	sobald	_	O	O	
+

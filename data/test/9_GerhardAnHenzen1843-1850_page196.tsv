@@ -1,0 +1,238 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=269 A. di Dir.
+1-1	269	CARD	@card@	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=D. Henzen Lieber armer Freund !
+2-1	D.	ART	d.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-3	Lieber	ADJA	lieb	_	O	O	
+2-4	armer	ADJA	arm	_	O	O	
+2-5	Freund	NN	Freund	_	O	O	
+2-6	!	$.	!	_	O	O	
+
+#id=3
+#text=Gerhard an Renzen Berlin 18/XII/1849 g. 29/XII 49 r.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-2	an	APPR	an	_	O	O	
+3-3	Renzen	NN	<unknown>	_	O	O	
+3-4	Berlin	NE	Berlin	_	O	O	
+3-5	18/XII/1849	CARD	<unknown>	_	O	O	
+3-6	g.	ADJA	<unknown>	_	O	O	
+3-7	29/XII	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-8	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+3-9	r.	ADJA	<unknown>	_	O	O	
+
+#id=4
+#text=9/1 50 Berlin 18 Dec 49 Das lautet ja ungleich betrübter über Sie Reconvaleseenten als Brunns neulicher Bericht aus Ihrer Krankheitszeit mich es hatte fürchten lassen!
+4-1	9/1	CARD	9/1	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+4-2	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+4-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-4	18	CARD	18	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-5	Dec	NE	Dec	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-6	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-7	Das	ART	die	_	O	O	
+4-8	lautet	VVFIN	lauten	_	O	O	
+4-9	ja	ADV	ja	_	O	O	
+4-10	ungleich	ADJD	ungleich	_	O	O	
+4-11	betrübter	ADJD	betrübter	_	O	O	
+4-12	über	APPR	über	_	O	O	
+4-13	Sie	PPER	Sie	_	O	O	
+4-14	Reconvaleseenten	NN	<unknown>	_	O	O	
+4-15	als	KOKOM	als	_	O	O	
+4-16	Brunns	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-17	neulicher	ADJA	<unknown>	_	O	O	
+4-18	Bericht	NN	Bericht	_	O	O	
+4-19	aus	APPR	aus	_	O	O	
+4-20	Ihrer	PPOSAT	ihr	_	O	O	
+4-21	Krankheitszeit	NN	Krankheitszeit	_	O	O	
+4-22	mich	PPER	ich	_	O	O	
+4-23	es	PPER	es	_	O	O	
+4-24	hatte	VAFIN	haben	_	O	O	
+4-25	fürchten	VVINF	fürchten	_	O	O	
+4-26	lassen	VVINF	lassen	_	O	O	
+4-27	!	$.	!	_	O	O	
+
+#id=5
+#text=Wir wollen aber Gott danken Sie wenigstens so weit wieder zu haben, und Sie selbst mBgen, wie ich schon neulich mich ~ußerte, sich kein grau Glt:UtuC'tV\ Haa~achsen lassen daß in fortwährend so außerordentlichen und so fremdenleeren rBmischen Zeitumständen nicht alle Geschäftsordnung sich hat wahren lassen!
+5-1	Wir	PPER	wir	_	O	O	
+5-2	wollen	VMFIN	wollen	_	O	O	
+5-3	aber	ADV	aber	_	O	O	
+5-4	Gott	NN	Gott	_	O	O	
+5-5	danken	VVFIN	danken	_	O	O	
+5-6	Sie	PPER	Sie	_	O	O	
+5-7	wenigstens	ADV	wenigstens	_	O	O	
+5-8	so	ADV	so	_	O	O	
+5-9	weit	ADJD	weit	_	O	O	
+5-10	wieder	ADV	wieder	_	O	O	
+5-11	zu	PTKZU	zu	_	O	O	
+5-12	haben	VAINF	haben	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	und	KON	und	_	O	O	
+5-15	Sie	PPER	Sie	_	O	O	
+5-16	selbst	ADV	selbst	_	O	O	
+5-17	mBgen	NN	<unknown>	_	O	O	
+5-18	,	$,	,	_	O	O	
+5-19	wie	KOUS	wie	_	O	O	
+5-20	ich	PPER	ich	_	O	O	
+5-21	schon	ADV	schon	_	O	O	
+5-22	neulich	ADV	neulich	_	O	O	
+5-23	mich	PRF	ich	_	O	O	
+5-24	~ußerte	ADJD	<unknown>	_	O	O	
+5-25	,	$,	,	_	O	O	
+5-26	sich	PRF	sich	_	O	O	
+5-27	kein	PIAT	keine	_	O	O	
+5-28	grau	ADJD	grau	_	O	O	
+5-29	Glt:UtuC'tV\	ADJA	<unknown>	_	O	O	
+5-30	Haa~achsen	NN	<unknown>	_	O	O	
+5-31	lassen	VVFIN	lassen	_	O	O	
+5-32	daß	KOUS	dass	_	O	O	
+5-33	in	APPR	in	_	O	O	
+5-34	fortwährend	ADJD	fortwährend	_	O	O	
+5-35	so	ADV	so	_	O	O	
+5-36	außerordentlichen	ADJA	außerordentlich	_	O	O	
+5-37	und	KON	und	_	O	O	
+5-38	so	ADV	so	_	O	O	
+5-39	fremdenleeren	ADJA	<unknown>	_	O	O	
+5-40	rBmischen	ADJA	<unknown>	_	O	O	
+5-41	Zeitumständen	NN	Zeitumstände	_	O	O	
+5-42	nicht	PTKNEG	nicht	_	O	O	
+5-43	alle	PIAT	alle	_	O	O	
+5-44	Geschäftsordnung	NN	Geschäftsordnung	_	O	O	
+5-45	sich	PRF	sich	_	O	O	
+5-46	hat	VAFIN	haben	_	O	O	
+5-47	wahren	VVINF	wahren	_	O	O	
+5-48	lassen	VVINF	lassen	_	O	O	
+5-49	!	$.	!	_	O	O	
+
+#id=6
+#text=Dank um so mehr für Bull.
+6-1	Dank	APPR	dank	_	O	O	
+6-2	um	APPR	um	_	O	O	
+6-3	so	ADV	so	_	O	O	
+6-4	mehr	ADV	mehr	_	O	O	
+6-5	für	APPR	für	_	O	O	
+6-6	Bull	NE	Bull	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=Novembre 1 Den Uebelständen wegen des Winckelmannfestes wird Braun nachhelfen.
+7-1	Novembre	NN	<unknown>	_	O	O	
+7-2	1	CARD	1	_	O	O	
+7-3	Den	ART	die	_	O	O	
+7-4	Uebelständen	NN	<unknown>	_	O	O	
+7-5	wegen	APPR	wegen	_	O	O	
+7-6	des	ART	die	_	O	O	
+7-7	Winckelmannfestes	NN	<unknown>	_	O	O	
+7-8	wird	VAFIN	werden	_	O	O	
+7-9	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-10	nachhelfen	VVINF	nachhelfen	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Hatte derselbe in England früher mehr als billig gezBgert ( was ich nicht beurtheilen kann) so verdient er freilich Tadel; jetzt aber auf der Rückkehr konnte er bei so manchen unabweislichen Zwecken ( hier auch im Interesse des Instituts) und so durchaus eigenthümlichen Verhältnissen die sich doch auch hoffentlich zu allgemeinen Segen wenden werden nicht kürzer ver:Alen als er that.
+8-1	Hatte	VAFIN	haben	_	O	O	
+8-2	derselbe	PDS	derselbe	_	O	O	
+8-3	in	APPR	in	_	O	O	
+8-4	England	NE	England	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-5	früher	ADV	früher	_	O	O	
+8-6	mehr	ADV	mehr	_	O	O	
+8-7	als	KOKOM	als	_	O	O	
+8-8	billig	ADJD	billig	_	O	O	
+8-9	gezBgert	ADJD	<unknown>	_	O	O	
+8-10	(	$(	(	_	O	O	
+8-11	was	PWS	was	_	O	O	
+8-12	ich	PPER	ich	_	O	O	
+8-13	nicht	PTKNEG	nicht	_	O	O	
+8-14	beurtheilen	VVINF	<unknown>	_	O	O	
+8-15	kann	VMFIN	können	_	O	O	
+8-16	)	$(	)	_	O	O	
+8-17	so	ADV	so	_	O	O	
+8-18	verdient	VVFIN	verdienen	_	O	O	
+8-19	er	PPER	er	_	O	O	
+8-20	freilich	ADV	freilich	_	O	O	
+8-21	Tadel	NN	Tadel	_	O	O	
+8-22	;	$.	;	_	O	O	
+8-23	jetzt	ADV	jetzt	_	O	O	
+8-24	aber	ADV	aber	_	O	O	
+8-25	auf	APPR	auf	_	O	O	
+8-26	der	ART	die	_	O	O	
+8-27	Rückkehr	NN	Rückkehr	_	O	O	
+8-28	konnte	VMFIN	können	_	O	O	
+8-29	er	PPER	er	_	O	O	
+8-30	bei	APPR	bei	_	O	O	
+8-31	so	ADV	so	_	O	O	
+8-32	manchen	PIAT	manche	_	O	O	
+8-33	unabweislichen	ADJA	unabweislich	_	O	O	
+8-34	Zwecken	NN	Zweck	_	O	O	
+8-35	(	$(	(	_	O	O	
+8-36	hier	ADV	hier	_	O	O	
+8-37	auch	ADV	auch	_	O	O	
+8-38	im	APPRART	in	_	O	O	
+8-39	Interesse	NN	Interesse	_	O	O	
+8-40	des	ART	die	_	O	O	
+8-41	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-42	)	$(	)	_	O	O	
+8-43	und	KON	und	_	O	O	
+8-44	so	ADV	so	_	O	O	
+8-45	durchaus	ADV	durchaus	_	O	O	
+8-46	eigenthümlichen	ADJA	<unknown>	_	O	O	
+8-47	Verhältnissen	NN	Verhältnis	_	O	O	
+8-48	die	ART	die	_	O	O	
+8-49	sich	PRF	sich	_	O	O	
+8-50	doch	ADV	doch	_	O	O	
+8-51	auch	ADV	auch	_	O	O	
+8-52	hoffentlich	ADV	hoffentlich	_	O	O	
+8-53	zu	APPR	zu	_	O	O	
+8-54	allgemeinen	ADJA	allgemein	_	O	O	
+8-55	Segen	NN	Segen	_	O	O	
+8-56	wenden	VVFIN	wenden	_	O	O	
+8-57	werden	VAFIN	werden	_	O	O	
+8-58	nicht	PTKNEG	nicht	_	O	O	
+8-59	kürzer	ADJD	kurz	_	O	O	
+8-60	ver:Alen	ADJD	<unknown>	_	O	O	
+8-61	als	KOKOM	als	_	O	O	
+8-62	er	PPER	er	_	O	O	
+8-63	that	VVFIN	<unknown>	_	O	O	
+8-64	.	$.	.	_	O	O	
+
+#id=9
+#text=Beurtheilen Sie ihn also billig in dieser Hinsicht und ertragen Sie die bisher geleisteten außerordentlichen Leistungen in Spe tuturi: Sie werden ihn dann auch um so billiger finden Ihnen und dem Institut
+9-1	Beurtheilen	VVFIN	<unknown>	_	O	O	
+9-2	Sie	PPER	Sie	_	O	O	
+9-3	ihn	PPER	er	_	O	O	
+9-4	also	ADV	also	_	O	O	
+9-5	billig	ADJD	billig	_	O	O	
+9-6	in	APPR	in	_	O	O	
+9-7	dieser	PDAT	dies	_	O	O	
+9-8	Hinsicht	NN	Hinsicht	_	O	O	
+9-9	und	KON	und	_	O	O	
+9-10	ertragen	VVFIN	ertragen	_	O	O	
+9-11	Sie	PPER	Sie	_	O	O	
+9-12	die	ART	die	_	O	O	
+9-13	bisher	ADV	bisher	_	O	O	
+9-14	geleisteten	ADJA	geleistet	_	O	O	
+9-15	außerordentlichen	ADJA	außerordentlich	_	O	O	
+9-16	Leistungen	NN	Leistung	_	O	O	
+9-17	in	APPR	in	_	O	O	
+9-18	Spe	NN	<unknown>	_	O	O	
+9-19	tuturi	NE	<unknown>	_	O	O	
+9-20	:	$.	:	_	O	O	
+9-21	Sie	PPER	Sie	_	O	O	
+9-22	werden	VAFIN	werden	_	O	O	
+9-23	ihn	PPER	er	_	O	O	
+9-24	dann	ADV	dann	_	O	O	
+9-25	auch	ADV	auch	_	O	O	
+9-26	um	APPR	um	_	O	O	
+9-27	so	ADV	so	_	O	O	
+9-28	billiger	ADJD	billig	_	O	O	
+9-29	finden	VVFIN	finden	_	O	O	
+9-30	Ihnen	PPER	Sie	_	O	O	
+9-31	und	KON	und	_	O	O	
+9-32	dem	ART	die	_	O	O	
+9-33	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+

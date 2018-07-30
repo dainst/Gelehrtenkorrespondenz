@@ -1,0 +1,237 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=I , D. Henzen Gerhani an Henzen Berlin 12/XI/47 A. di Dir.
+1-1	I	FM	I	_	O	O	
+1-2	,	$,	,	_	O	O	
+1-3	D.	NE	D.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-5	Gerhani	NE	<unknown>	_	O	O	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	O	O	
+1-8	Berlin	NE	Berlin	_	O	O	
+1-9	12/XI/47	CARD	<unknown>	_	O	O	
+1-10	A.	APPRART	am	_	O	O	
+1-11	di	NE	di	_	O	O	
+1-12	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=g. r. 25/XI 47 Berlin 12 November 47 Lieber Freund Dank für alle Ihre Mittheilungen wie auch für das Bull.
+2-1	g.	ADJA	<unknown>	_	O	O	
+2-2	r.	ADJA	<unknown>	_	O	O	
+2-3	25/XI	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-4	47	CARD	47	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-6	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-7	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-8	47	CARD	47	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	Lieber	ADJA	lieb	_	O	O	
+2-10	Freund	NN	Freund	_	O	O	
+2-11	Dank	APPR	dank	_	O	O	
+2-12	für	APPR	für	_	O	O	
+2-13	alle	PIAT	alle	_	O	O	
+2-14	Ihre	PPOSAT	ihr	_	O	O	
+2-15	Mittheilungen	NN	<unknown>	_	O	O	
+2-16	wie	KOKOM	wie	_	O	O	
+2-17	auch	ADV	auch	_	O	O	
+2-18	für	APPR	für	_	O	O	
+2-19	das	ART	die	_	O	O	
+2-20	Bull	NE	Bull	_	O	O	
+2-21	.	$.	.	_	O	O	
+
+#id=3
+#text=von dem ich die letzte halbleere freie Seite aus der ~~t~~eit vor mir habe.
+3-1	von	APPR	von	_	O	O	
+3-2	dem	ART	die	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	die	ART	die	_	O	O	
+3-5	letzte	ADJA	letzt	_	O	O	
+3-6	halbleere	ADJA	halbleer	_	O	O	
+3-7	freie	ADJA	frei	_	O	O	
+3-8	Seite	NN	Seite	_	O	O	
+3-9	aus	APPR	aus	_	O	O	
+3-10	der	ART	die	_	O	O	
+3-11	~~t~~eit	NN	<unknown>	_	O	O	
+3-12	vor	APPR	vor	_	O	O	
+3-13	mir	PPER	ich	_	O	O	
+3-14	habe	VAFIN	haben	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Redaction der napoletanischen epigraphischen Correspondenzen nimmt sich ganz gut darin aus und verdient den Leuten die man als Correspondenten verkündet hat mit dringender Anempfehlung ihrer Schuldigkeit zugesandt zu werden.
+4-1	Die	ART	die	_	O	O	
+4-2	Redaction	NN	<unknown>	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	napoletanischen	ADJA	<unknown>	_	O	O	
+4-5	epigraphischen	ADJA	<unknown>	_	O	O	
+4-6	Correspondenzen	NN	<unknown>	_	O	O	
+4-7	nimmt	VVFIN	nehmen	_	O	O	
+4-8	sich	PRF	sich	_	O	O	
+4-9	ganz	ADV	ganz	_	O	O	
+4-10	gut	ADJD	gut	_	O	O	
+4-11	darin	PAV	darin	_	O	O	
+4-12	aus	PTKVZ	aus	_	O	O	
+4-13	und	KON	und	_	O	O	
+4-14	verdient	VVFIN	verdienen	_	O	O	
+4-15	den	ART	die	_	O	O	
+4-16	Leuten	NN	Leute	_	O	O	
+4-17	die	ART	die	_	O	O	
+4-18	man	PIS	man	_	O	O	
+4-19	als	KOKOM	als	_	O	O	
+4-20	Correspondenten	NN	<unknown>	_	O	O	
+4-21	verkündet	VVPP	verkünden	_	O	O	
+4-22	hat	VAFIN	haben	_	O	O	
+4-23	mit	APPR	mit	_	O	O	
+4-24	dringender	ADJA	dringend	_	O	O	
+4-25	Anempfehlung	NN	<unknown>	_	O	O	
+4-26	ihrer	PPOSAT	ihr	_	O	O	
+4-27	Schuldigkeit	NN	Schuldigkeit	_	O	O	
+4-28	zugesandt	VVPP	zusenden	_	O	O	
+4-29	zu	PTKZU	zu	_	O	O	
+4-30	werden	VAINF	werden	_	O	O	
+4-31	.	$.	.	_	O	O	
+
+#id=5
+#text=Auch die Sendung durch Frau von Görzke ist richtig angelangt, besten Dank I In Ihrer Gehaltssache habe ich bestmöglichst und ich glaube durchaus Ihren Wünschen entsprechend geschrieben, obwohl dieselben weder von Ihnen noch von Braun mit den erforderlichen Ziffern specificirt waren.
+5-1	Auch	ADV	auch	_	O	O	
+5-2	die	ART	die	_	O	O	
+5-3	Sendung	NN	Sendung	_	O	O	
+5-4	durch	APPR	durch	_	O	O	
+5-5	Frau	NN	Frau	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-6	von	APPR	von	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-7	Görzke	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-8	ist	VAFIN	sein	_	O	O	
+5-9	richtig	ADJD	richtig	_	O	O	
+5-10	angelangt	VVPP	angelangen	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	besten	ADJD	gut	_	O	O	
+5-13	Dank	APPR	dank	_	O	O	
+5-14	I	NN	I	_	O	O	
+5-15	In	APPR	in	_	O	O	
+5-16	Ihrer	PPOSAT	ihr	_	O	O	
+5-17	Gehaltssache	NN	<unknown>	_	O	O	
+5-18	habe	VAFIN	haben	_	O	O	
+5-19	ich	PPER	ich	_	O	O	
+5-20	bestmöglichst	ADJD	bestmöglich	_	O	O	
+5-21	und	KON	und	_	O	O	
+5-22	ich	PPER	ich	_	O	O	
+5-23	glaube	VVFIN	glauben	_	O	O	
+5-24	durchaus	ADV	durchaus	_	O	O	
+5-25	Ihren	PPOSAT	ihr	_	O	O	
+5-26	Wünschen	NN	Wunsch	_	O	O	
+5-27	entsprechend	ADJD	entsprechend	_	O	O	
+5-28	geschrieben	VVPP	schreiben	_	O	O	
+5-29	,	$,	,	_	O	O	
+5-30	obwohl	KOUS	obwohl	_	O	O	
+5-31	dieselben	PDS	dieselbe	_	O	O	
+5-32	weder	KON	weder	_	O	O	
+5-33	von	APPR	von	_	O	O	
+5-34	Ihnen	PPER	Sie	_	O	O	
+5-35	noch	ADV	noch	_	O	O	
+5-36	von	APPR	von	_	O	O	
+5-37	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-38	mit	APPR	mit	_	O	O	
+5-39	den	ART	die	_	O	O	
+5-40	erforderlichen	ADJA	erforderlich	_	O	O	
+5-41	Ziffern	NN	Ziffer	_	O	O	
+5-42	specificirt	ADJD	<unknown>	_	O	O	
+5-43	waren	VAFIN	sein	_	O	O	
+5-44	.	$.	.	_	O	O	
+
+#id=6
+#text=Neigebaur der nun in Siebenbürgen von Nutzen ist wird nächstens wieder das Capitol besteigen.
+6-1	Neigebaur	NN	<unknown>	_	O	O	
+6-2	der	ART	die	_	O	O	
+6-3	nun	ADV	nun	_	O	O	
+6-4	in	APPR	in	_	O	O	
+6-5	Siebenbürgen	NE	Siebenbürgen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-6	von	APPR	von	_	O	O	
+6-7	Nutzen	NN	Nutzen	_	O	O	
+6-8	ist	VAFIN	sein	_	O	O	
+6-9	wird	VAFIN	werden	_	O	O	
+6-10	nächstens	ADV	nächstens	_	O	O	
+6-11	wieder	ADV	wieder	_	O	O	
+6-12	das	ART	die	_	O	O	
+6-13	Capitol	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-14	besteigen	VVINF	besteigen	_	O	O	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=Die epigraphische Angelegenheit wälzt sich langsam weiter; Mommsen mag aus Unmuth über diesen SchneckenJVi',,-,~ • gang und eins und das andere VerdeeQstllche was damit zusammen hängt Ihnen Briefe schulden.
+7-1	Die	ART	die	_	O	O	
+7-2	epigraphische	ADJA	<unknown>	_	O	O	
+7-3	Angelegenheit	NN	Angelegenheit	_	O	O	
+7-4	wälzt	VVFIN	wälzen	_	O	O	
+7-5	sich	PRF	sich	_	O	O	
+7-6	langsam	ADJD	langsam	_	O	O	
+7-7	weiter	PTKVZ	weiter	_	O	O	
+7-8	;	$.	;	_	O	O	
+7-9	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-10	mag	VMFIN	mögen	_	O	O	
+7-11	aus	APPR	aus	_	O	O	
+7-12	Unmuth	NE	<unknown>	_	O	O	
+7-13	über	APPR	über	_	O	O	
+7-14	diesen	PDAT	dies	_	O	O	
+7-15	SchneckenJVi',,-,~	ADJA	<unknown>	_	O	O	
+7-16	•	NN	<unknown>	_	O	O	
+7-17	gang	ADJD	gang	_	O	O	
+7-18	und	KON	und	_	O	O	
+7-19	eins	CARD	eins	_	O	O	
+7-20	und	KON	und	_	O	O	
+7-21	das	ART	die	_	O	O	
+7-22	andere	PIAT	andere	_	O	O	
+7-23	VerdeeQstllche	NN	<unknown>	_	O	O	
+7-24	was	PIS	was	_	O	O	
+7-25	damit	PAV	damit	_	O	O	
+7-26	zusammen	ADV	zusammen	_	O	O	
+7-27	hängt	VVFIN	hängen	_	O	O	
+7-28	Ihnen	PPER	Sie	_	O	O	
+7-29	Briefe	NN	Brief	_	O	O	
+7-30	schulden	VVINF	schulden	_	O	O	
+7-31	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich habe viel Qual damit ~'oLc und kündigte en41ioh wieder einmal meinen Antheil daran auf; doch ist alles einverstanden darüber daß ein Corpus I.~L. erfolgen solle, daß es am Geldpunkt nicht scheitern könne, und daß Mommsen wenigstens die Communalinschriften
+8-1	Ich	PPER	ich	_	O	O	
+8-2	habe	VAFIN	haben	_	O	O	
+8-3	viel	PIAT	viele	_	O	O	
+8-4	Qual	NN	Qual	_	O	O	
+8-5	damit	PAV	damit	_	O	O	
+8-6	~'oLc	ADJD	<unknown>	_	O	O	
+8-7	und	KON	und	_	O	O	
+8-8	kündigte	VVFIN	kündigen	_	O	O	
+8-9	en41ioh	ADJD	<unknown>	_	O	O	
+8-10	wieder	ADV	wieder	_	O	O	
+8-11	einmal	ADV	einmal	_	O	O	
+8-12	meinen	PPOSAT	mein	_	O	O	
+8-13	Antheil	NN	<unknown>	_	O	O	
+8-14	daran	PAV	daran	_	O	O	
+8-15	auf	PTKVZ	auf	_	O	O	
+8-16	;	$.	;	_	O	O	
+8-17	doch	ADV	doch	_	O	O	
+8-18	ist	VAFIN	sein	_	O	O	
+8-19	alles	PIS	alle	_	O	O	
+8-20	einverstanden	ADJD	einverstanden	_	O	O	
+8-21	darüber	PAV	darüber	_	O	O	
+8-22	daß	KOUS	dass	_	O	O	
+8-23	ein	ART	eine	_	O	O	
+8-24	Corpus	NN	Corpus	_	O	O	
+8-25	I.~L	NE	<unknown>	_	O	O	
+8-26	.	$.	.	_	O	O	
+8-27	erfolgen	VVINF	erfolgen	_	O	O	
+8-28	solle	VMFIN	sollen	_	O	O	
+8-29	,	$,	,	_	O	O	
+8-30	daß	KOUS	dass	_	O	O	
+8-31	es	PPER	es	_	O	O	
+8-32	am	APPRART	an	_	O	O	
+8-33	Geldpunkt	NN	<unknown>	_	O	O	
+8-34	nicht	PTKNEG	nicht	_	O	O	
+8-35	scheitern	VVINF	scheitern	_	O	O	
+8-36	könne	VMFIN	können	_	O	O	
+8-37	,	$,	,	_	O	O	
+8-38	und	KON	und	_	O	O	
+8-39	daß	KOUS	dass	_	O	O	
+8-40	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-41	wenigstens	ADV	wenigstens	_	O	O	
+8-42	die	ART	die	_	O	O	
+8-43	Communalinschriften	NN	<unknown>	_	O	O	
+

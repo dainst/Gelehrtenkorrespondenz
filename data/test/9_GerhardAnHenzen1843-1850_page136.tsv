@@ -1,0 +1,96 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Gerhard an Henzen 14/1/1848 2 wenn nicht außer der Akademie Savigny noch in Hinterhand wäre.
+1-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	14/1/1848	CARD	@card@	_	O	O	
+1-5	2	CARD	2	_	O	O	
+1-6	wenn	KOUS	wenn	_	O	O	
+1-7	nicht	PTKNEG	nicht	_	O	O	
+1-8	außer	APPR	außer	_	O	O	
+1-9	der	ART	die	_	O	O	
+1-10	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-11	Savigny	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-12	noch	ADV	noch	_	O	O	
+1-13	in	APPR	in	_	O	O	
+1-14	Hinterhand	NN	Hinterhand	_	O	O	
+1-15	wäre	VAFIN	sein	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Mehr im Laufe des Monats.
+2-1	Mehr	ADV	mehr	_	O	O	
+2-2	im	APPRART	in	_	O	O	
+2-3	Laufe	NN	Lauf	_	O	O	
+2-4	des	ART	die	_	O	O	
+2-5	Monats	NN	Monat	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Sie erhalten eine Magna carta ( mit einem Blättchen für Braun, um meiner Frau Spielraum für einen Brief an die Ihrige zu lassen, der Sie auch meinerseits allen Neujahrssegen ~wünschen mögen, wie er Ihnen selbst von uns herzlich gewünscht wird.
+3-1	Sie	PPER	Sie	_	O	O	
+3-2	erhalten	VVFIN	erhalten	_	O	O	
+3-3	eine	ART	eine	_	O	O	
+3-4	Magna	NE	Magna	_	O	O	
+3-5	carta	NE	<unknown>	_	O	O	
+3-6	(	$(	(	_	O	O	
+3-7	mit	APPR	mit	_	O	O	
+3-8	einem	ART	eine	_	O	O	
+3-9	Blättchen	NN	Blättchen	_	O	O	
+3-10	für	APPR	für	_	O	O	
+3-11	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-12	,	$,	,	_	O	O	
+3-13	um	KOUI	um	_	O	O	
+3-14	meiner	PPOSAT	mein	_	O	O	
+3-15	Frau	NN	Frau	_	O	O	
+3-16	Spielraum	NN	Spielraum	_	O	O	
+3-17	für	APPR	für	_	O	O	
+3-18	einen	ART	eine	_	O	O	
+3-19	Brief	NN	Brief	_	O	O	
+3-20	an	APPR	an	_	O	O	
+3-21	die	ART	die	_	O	O	
+3-22	Ihrige	PPOSAT	ihrige	_	O	O	
+3-23	zu	PTKZU	zu	_	O	O	
+3-24	lassen	VVINF	lassen	_	O	O	
+3-25	,	$,	,	_	O	O	
+3-26	der	PRELS	die	_	O	O	
+3-27	Sie	PPER	Sie	_	O	O	
+3-28	auch	ADV	auch	_	O	O	
+3-29	meinerseits	ADV	meinerseits	_	O	O	
+3-30	allen	PIAT	alle	_	O	O	
+3-31	Neujahrssegen	NN	<unknown>	_	O	O	
+3-32	~wünschen	NN	<unknown>	_	O	O	
+3-33	mögen	VMFIN	mögen	_	O	O	
+3-34	,	$,	,	_	O	O	
+3-35	wie	KOUS	wie	_	O	O	
+3-36	er	PPER	er	_	O	O	
+3-37	Ihnen	PPER	Sie	_	O	O	
+3-38	selbst	ADV	selbst	_	O	O	
+3-39	von	APPR	von	_	O	O	
+3-40	uns	PPER	wir	_	O	O	
+3-41	herzlich	ADJD	herzlich	_	O	O	
+3-42	gewünscht	VVPP	wünschen	_	O	O	
+3-43	wird	VAFIN	werden	_	O	O	
+3-44	.	$.	.	_	O	O	
+
+#id=4
+#text=Empfehlen Sie uns auch Niebuhr, viel Grüße an Brunn.
+4-1	Empfehlen	VVFIN	empfehlen	_	O	O	
+4-2	Sie	PPER	Sie	_	O	O	
+4-3	uns	PRF	wir	_	O	O	
+4-4	auch	ADV	auch	_	O	O	
+4-5	Niebuhr	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-6	,	$,	,	_	O	O	
+4-7	viel	PIAT	viele	_	O	O	
+4-8	Grüße	NN	Gruß	_	O	O	
+4-9	an	APPR	an	_	O	O	
+4-10	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-11	.	$.	.	_	O	O	
+
+#id=5
+#text=Der Ihrige Gerhard
+5-1	Der	ART	die	_	O	O	
+5-2	Ihrige	PPOSAT	ihrige	_	O	O	
+5-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

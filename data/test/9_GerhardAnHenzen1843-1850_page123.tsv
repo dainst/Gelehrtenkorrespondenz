@@ -1,0 +1,217 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=D. Henzen Gerhard an Henzen Berlin 11/X/1847 A. di Dir.
+1-1	D.	ART	d.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-3	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	11/X/1847	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	A.	APPRART	am	_	O	O	
+1-9	di	NE	di	_	O	O	
+1-10	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=g. r.
+2-1	g.	ADJA	<unknown>	_	O	O	
+2-2	r.	ADJA	<unknown>	_	O	O	
+
+#id=3
+#text=22/X/1847 Berlin 11 Okt 47 Seit etlichen Tagen wieder hier angelangt vermisse ich schmerzlich römische Briefe.
+3-1	22/X/1847	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-3	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-4	Okt	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-5	47	CARD	47	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-6	Seit	APPR	seit	_	O	O	
+3-7	etlichen	PIAT	etliche	_	O	O	
+3-8	Tagen	NN	Tag	_	O	O	
+3-9	wieder	ADV	wieder	_	O	O	
+3-10	hier	ADV	hier	_	O	O	
+3-11	angelangt	VVPP	angelangen	_	O	O	
+3-12	vermisse	VVFIN	vermissen	_	O	O	
+3-13	ich	PPER	ich	_	O	O	
+3-14	schmerzlich	ADJD	schmerzlich	_	O	O	
+3-15	römische	ADJA	römisch	_	O	O	
+3-16	Briefe	NN	Brief	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich melde mich deßhalb ~ bei Ihnen sowohl als bei Braun, ohne ~ abrechnen zu können ob Sie oder ich an der Reihe sind.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	melde	VVFIN	melden	_	O	O	
+4-3	mich	PRF	ich	_	O	O	
+4-4	deßhalb	ADJA	<unknown>	_	O	O	
+4-5	~	XY	~	_	O	O	
+4-6	bei	APPR	bei	_	O	O	
+4-7	Ihnen	PPER	Sie	_	O	O	
+4-8	sowohl	KON	sowohl	_	O	O	
+4-9	als	KOKOM	als	_	O	O	
+4-10	bei	APPR	bei	_	O	O	
+4-11	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-12	,	$,	,	_	O	O	
+4-13	ohne	KOUI	ohne	_	O	O	
+4-14	~	XY	~	_	O	O	
+4-15	abrechnen	VVINF	abrechnen	_	O	O	
+4-16	zu	PTKZU	zu	_	O	O	
+4-17	können	VMINF	können	_	O	O	
+4-18	ob	KOUS	ob	_	O	O	
+4-19	Sie	PPER	Sie	_	O	O	
+4-20	oder	KON	oder	_	O	O	
+4-21	ich	PPER	ich	_	O	O	
+4-22	an	APPR	an	_	O	O	
+4-23	der	ART	die	_	O	O	
+4-24	Reihe	NN	Reihe	_	O	O	
+4-25	sind	VAFIN	sein	_	O	O	
+4-26	.	$.	.	_	O	O	
+
+#id=5
+#text=Meine Notiz über Des Vergers hat Ihnen Braun mitgetheilt; Sie werden den Winter über mit ihm verhandeln können, hoffentlich auch so daß Mommsen zur Stelle ist.
+5-1	Meine	PPOSAT	mein	_	O	O	
+5-2	Notiz	NN	Notiz	_	O	O	
+5-3	über	APPR	über	_	O	O	
+5-4	Des	NN	Des	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	Vergers	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-6	hat	VAFIN	haben	_	O	O	
+5-7	Ihnen	PPER	Sie	_	O	O	
+5-8	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-9	mitgetheilt	VVPP	<unknown>	_	O	O	
+5-10	;	$.	;	_	O	O	
+5-11	Sie	PPER	Sie	_	O	O	
+5-12	werden	VAFIN	werden	_	O	O	
+5-13	den	ART	die	_	O	O	
+5-14	Winter	NN	Winter	_	O	O	
+5-15	über	APPR	über	_	O	O	
+5-16	mit	APPR	mit	_	O	O	
+5-17	ihm	PPER	er	_	O	O	
+5-18	verhandeln	VVINF	verhandeln	_	O	O	
+5-19	können	VMINF	können	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	hoffentlich	ADV	hoffentlich	_	O	O	
+5-22	auch	ADV	auch	_	O	O	
+5-23	so	ADV	so	_	O	O	
+5-24	daß	KOUS	dass	_	O	O	
+5-25	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-26	zur	APPRART	zu	_	O	O	
+5-27	Stelle	NN	Stelle	_	O	O	
+5-28	ist	VAFIN	sein	_	O	O	
+5-29	.	$.	.	_	O	O	
+
+#id=6
+#text=Von diesem liegt mir dato auch noch nichts vor; die Verhandlungen der .tilzademie warden am 14. wieder eröffnet.
+6-1	Von	APPR	von	_	O	O	
+6-2	diesem	PDAT	dies	_	O	O	
+6-3	liegt	VVFIN	liegen	_	O	O	
+6-4	mir	PPER	ich	_	O	O	
+6-5	dato	NE	<unknown>	_	O	O	
+6-6	auch	ADV	auch	_	O	O	
+6-7	noch	ADV	noch	_	O	O	
+6-8	nichts	PIS	nichts	_	O	O	
+6-9	vor	PTKVZ	vor	_	O	O	
+6-10	;	$.	;	_	O	O	
+6-11	die	ART	die	_	O	O	
+6-12	Verhandlungen	NN	Verhandlung	_	O	O	
+6-13	der	ART	die	_	O	O	
+6-14	.tilzademie	NN	<unknown>	_	O	O	
+6-15	warden	VVFIN	werd	_	O	O	
+6-16	am	APPRART	an	_	O	O	
+6-17	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-18	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+6-19	wieder	ADV	wieder	_	O	O	
+6-20	eröffnet	VVPP	eröffnen	_	O	O	
+6-21	.	$.	.	_	O	O	
+
+#id=7
+#text=Auf einen zweiten Stück Brief, wahrscheinlich dazu gehörend : Neigebauriana schwer aufgehäuft gebe ich ans Ministerium.
+7-1	Auf	APPR	auf	_	O	O	
+7-2	einen	ART	eine	_	O	O	
+7-3	zweiten	ADJA	zweit	_	O	O	
+7-4	Stück	NN	Stück	_	O	O	
+7-5	Brief	NN	Brief	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	wahrscheinlich	ADJD	wahrscheinlich	_	O	O	
+7-8	dazu	PAV	dazu	_	O	O	
+7-9	gehörend	ADJD	gehörend	_	O	O	
+7-10	:	$.	:	_	O	O	
+7-11	Neigebauriana	NN	<unknown>	_	O	O	
+7-12	schwer	ADJD	schwer	_	O	O	
+7-13	aufgehäuft	VVPP	aufhäufen	_	O	O	
+7-14	gebe	VVFIN	geben	_	O	O	
+7-15	ich	PPER	ich	_	O	O	
+7-16	ans	APPRART	ans	_	O	O	
+7-17	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-18	.	$.	.	_	O	O	
+
+#id=8
+#text=Senden Sie ihm das allenfalls als Ausschnitt; di- ,Q.,,'M.U" .. rekt möchte ich ihm auf 9::e:::fi empfindlichen Brief nicht antworten.
+8-1	Senden	VVFIN	senden	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	ihm	PPER	er	_	O	O	
+8-4	das	PDS	die	_	O	O	
+8-5	allenfalls	ADV	allenfalls	_	O	O	
+8-6	als	KOKOM	als	_	O	O	
+8-7	Ausschnitt	NN	Ausschnitt	_	O	O	
+8-8	;	$.	;	_	O	O	
+8-9	di-	TRUNC	di-	_	O	O	
+8-10	,Q.,,'M.U	NN	<unknown>	_	O	O	
+8-11	"	$(	"	_	O	O	
+8-12	.	$.	.	_	O	O	
+8-13	.	$.	.	_	O	O	
+8-14	rekt	NN	<unknown>	_	O	O	
+8-15	möchte	VMFIN	mögen	_	O	O	
+8-16	ich	PPER	ich	_	O	O	
+8-17	ihm	PPER	er	_	O	O	
+8-18	auf	APPR	auf	_	O	O	
+8-19	9::e:::fi	NE	<unknown>	_	O	O	
+8-20	empfindlichen	ADJA	empfindlich	_	O	O	
+8-21	Brief	NN	Brief	_	O	O	
+8-22	nicht	PTKNEG	nicht	_	O	O	
+8-23	antworten	VVINF	antworten	_	O	O	
+8-24	.	$.	.	_	O	O	
+
+#id=9
+#text=Meine Frau grüßt mit mir Sie und die Ihrige Ihr Gerhard Meine Bitte wegen Rücksendung eines Exemplars von 163-179 Heft Nr. 26 meiner Vasenbilder erlaube mir zu wiederholen.
+9-1	Meine	PPOSAT	mein	_	O	O	
+9-2	Frau	NN	Frau	_	O	O	
+9-3	grüßt	VVFIN	grüßen	_	O	O	
+9-4	mit	APPR	mit	_	O	O	
+9-5	mir	PPER	ich	_	O	O	
+9-6	Sie	PPER	Sie	_	O	O	
+9-7	und	KON	und	_	O	O	
+9-8	die	PRELS	die	_	O	O	
+9-9	Ihrige	PPOSAT	ihrige	_	O	O	
+9-10	Ihr	PPOSAT	ihr	_	O	O	
+9-11	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+9-12	Meine	PPOSAT	mein	_	O	O	
+9-13	Bitte	NN	Bitte	_	O	O	
+9-14	wegen	APPR	wegen	_	O	O	
+9-15	Rücksendung	NN	Rücksendung	_	O	O	
+9-16	eines	ART	eine	_	O	O	
+9-17	Exemplars	NN	Exemplar	_	O	O	
+9-18	von	APPR	von	_	O	O	
+9-19	163-179	CARD	@card@	_	O	O	
+9-20	Heft	NN	Heft	_	O	O	
+9-21	Nr.	NN	Nr.	_	O	O	
+9-22	26	CARD	26	_	O	O	
+9-23	meiner	PPOSAT	mein	_	O	O	
+9-24	Vasenbilder	NN	<unknown>	_	O	O	
+9-25	erlaube	VVFIN	erlauben	_	O	O	
+9-26	mir	PPER	ich	_	O	O	
+9-27	zu	PTKZU	zu	_	O	O	
+9-28	wiederholen	VVINF	wiederholen	_	O	O	
+9-29	.	$.	.	_	O	O	
+
+#id=10
+#text=Das Bullettino habe ich bis inclusive Giugno n. 6.
+10-1	Das	ART	die	_	O	O	
+10-2	Bullettino	NN	<unknown>	_	O	O	
+10-3	habe	VAFIN	haben	_	O	O	
+10-4	ich	PPER	ich	_	O	O	
+10-5	bis	APPR	bis	_	O	O	
+10-6	inclusive	ADJA	<unknown>	_	O	O	
+10-7	Giugno	NE	<unknown>	_	O	O	
+10-8	n.	APPR	n.	_	O	O	
+10-9	6	CARD	6	_	O	O	
+10-10	.	$.	.	_	O	O	
+

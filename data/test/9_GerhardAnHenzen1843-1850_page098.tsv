@@ -1,0 +1,50 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=a - Gerhard an Renzen 9/1/1847 gleichzeitig im gleichen Sinne.
+1-1	a	FM	a	_	O	O	
+1-2	-	$(	-	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	9/1/1847	CARD	@card@	_	O	O	
+1-7	gleichzeitig	ADJD	gleichzeitig	_	O	O	
+1-8	im	APPRART	in	_	O	O	
+1-9	gleichen	ADJA	gleich	_	O	O	
+1-10	Sinne	NN	Sinn	_	O	O	
+1-11	.	$.	.	_	O	O	
+
+#id=2
+#text=Sie es.
+2-1	Sie	PPER	Sie	_	O	O	
+2-2	es	PPER	es	_	O	O	
+2-3	.	$.	.	_	O	O	
+
+#id=3
+#text=Viel gute Wünsche für Ihr leidendes Auge, schonen Meine Frau grüßt mit mir Sie und die Ihrige Ihr Vale fave !
+3-1	Viel	PIAT	viele	_	O	O	
+3-2	gute	ADJA	gut	_	O	O	
+3-3	Wünsche	NN	Wunsch	_	O	O	
+3-4	für	APPR	für	_	O	O	
+3-5	Ihr	PPOSAT	ihr	_	O	O	
+3-6	leidendes	ADJA	leidend	_	O	O	
+3-7	Auge	NN	Auge	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	schonen	VVFIN	schonen	_	O	O	
+3-10	Meine	PPOSAT	mein	_	O	O	
+3-11	Frau	NN	Frau	_	O	O	
+3-12	grüßt	VVFIN	grüßen	_	O	O	
+3-13	mit	APPR	mit	_	O	O	
+3-14	mir	PPER	ich	_	O	O	
+3-15	Sie	PPER	Sie	_	O	O	
+3-16	und	KON	und	_	O	O	
+3-17	die	PRELS	die	_	O	O	
+3-18	Ihrige	PPOSAT	ihrige	_	O	O	
+3-19	Ihr	PPOSAT	ihr	_	O	O	
+3-20	Vale	NN	<unknown>	_	O	O	
+3-21	fave	VVFIN	<unknown>	_	O	O	
+3-22	!	$.	!	_	O	O	
+
+#id=4
+#text=Gerhard
+4-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

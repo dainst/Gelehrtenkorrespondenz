@@ -1,0 +1,115 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Dr.
+1-1	Dr.	NN	Dr.	_	O	O	
+
+#id=2
+#text=Henzen Gerhard an Henzen Berlin, 8. Januar 1846 Wenn an Cavedoni geschrieben wird, so wünscht Panofka dessen Spicilegium numismaticum und andre kilieine Schriften desselben eingetauscht gegen diejenigen kleinen Schriften von ihm, die Cavedoni etwa dagegen wünschen möchte und sicher noch nicht erhielt.
+2-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-3	an	APPR	an	_	O	O	
+2-4	Henzen	NN	<unknown>	_	O	O	
+2-5	Berlin	NE	Berlin	_	O	O	
+2-6	,	$,	,	_	O	O	
+2-7	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-9	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-11	Wenn	KOUS	wenn	_	O	O	
+2-12	an	APPR	an	_	O	O	
+2-13	Cavedoni	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-14	geschrieben	VVPP	schreiben	_	O	O	
+2-15	wird	VAFIN	werden	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	so	ADV	so	_	O	O	
+2-18	wünscht	VVFIN	wünschen	_	O	O	
+2-19	Panofka	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-20	dessen	PDAT	die	_	O	O	
+2-21	Spicilegium	NN	<unknown>	_	O	O	
+2-22	numismaticum	NN	<unknown>	_	O	O	
+2-23	und	KON	und	_	O	O	
+2-24	andre	PIAT	andere	_	O	O	
+2-25	kilieine	ADJA	<unknown>	_	O	O	
+2-26	Schriften	NN	Schrift	_	O	O	
+2-27	desselben	PDS	derselbe	_	O	O	
+2-28	eingetauscht	VVPP	eintauschen	_	O	O	
+2-29	gegen	APPR	gegen	_	O	O	
+2-30	diejenigen	PDAT	diejenigen	_	O	O	
+2-31	kleinen	ADJA	klein	_	O	O	
+2-32	Schriften	NN	Schrift	_	O	O	
+2-33	von	APPR	von	_	O	O	
+2-34	ihm	PPER	er	_	O	O	
+2-35	,	$,	,	_	O	O	
+2-36	die	ART	die	_	O	O	
+2-37	Cavedoni	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-38	etwa	ADV	etwa	_	O	O	
+2-39	dagegen	PAV	dagegen	_	O	O	
+2-40	wünschen	VVINF	wünschen	_	O	O	
+2-41	möchte	VMFIN	mögen	_	O	O	
+2-42	und	KON	und	_	O	O	
+2-43	sicher	ADJD	sicher	_	O	O	
+2-44	noch	ADV	noch	_	O	O	
+2-45	nicht	PTKNEG	nicht	_	O	O	
+2-46	erhielt	VVFIN	erhalten	_	O	O	
+2-47	.	$.	.	_	O	O	
+
+#id=3
+#text=Desgleichen wenn an Riccio 1 Exemplar seiner Familienmünzen gegen Schriften von Panofka.
+3-1	Desgleichen	ADV	desgleichen	_	O	O	
+3-2	wenn	KOUS	wenn	_	O	O	
+3-3	an	APPR	an	_	O	O	
+3-4	Riccio	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	1	CARD	1	_	O	O	
+3-6	Exemplar	NN	Exemplar	_	O	O	
+3-7	seiner	PPOSAT	sein	_	O	O	
+3-8	Familienmünzen	NN	<unknown>	_	O	O	
+3-9	gegen	APPR	gegen	_	O	O	
+3-10	Schriften	NN	Schrift	_	O	O	
+3-11	von	APPR	von	_	O	O	
+3-12	Panofka	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Vieusseux bitte zu fragen wo Professor Pietro Capei gegenwärtig sich aufhält.
+4-1	Vieusseux	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	bitte	ADV	bitte	_	O	O	
+4-3	zu	PTKZU	zu	_	O	O	
+4-4	fragen	VVINF	fragen	_	O	O	
+4-5	wo	PWAV	wo	_	O	O	
+4-6	Professor	NN	Professor	_	O	O	
+4-7	Pietro	NE	Pietro	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-8	Capei	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-9	gegenwärtig	ADJD	gegenwärtig	_	O	O	
+4-10	sich	PRF	sich	_	O	O	
+4-11	aufhält	VVFIN	aufhalten	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Briefe nach Orbetel10 werden ihm zur Beachtung anfragend vorgelegt, ob die Leute noch leben und dort sind.
+5-1	Die	ART	die	_	O	O	
+5-2	Briefe	NN	Brief	_	O	O	
+5-3	nach	APPR	nach	_	O	O	
+5-4	Orbetel10	CARD	<unknown>	_	O	O	
+5-5	werden	VAFIN	werden	_	O	O	
+5-6	ihm	PPER	er	_	O	O	
+5-7	zur	APPRART	zu	_	O	O	
+5-8	Beachtung	NN	Beachtung	_	O	O	
+5-9	anfragend	ADJD	<unknown>	_	O	O	
+5-10	vorgelegt	VVPP	vorlegen	_	O	O	
+5-11	,	$,	,	_	O	O	
+5-12	ob	KOUS	ob	_	O	O	
+5-13	die	ART	die	_	O	O	
+5-14	Leute	NN	Leute	_	O	O	
+5-15	noch	ADV	noch	_	O	O	
+5-16	leben	VVINF	leben	_	O	O	
+5-17	und	KON	und	_	O	O	
+5-18	dort	ADV	dort	_	O	O	
+5-19	sind	VAFIN	sein	_	O	O	
+5-20	.	$.	.	_	O	O	
+
+#id=6
+#text=Ohne Unterschrift 8/1846
+6-1	Ohne	APPR	ohne	_	O	O	
+6-2	Unterschrift	NN	Unterschrift	_	O	O	
+6-3	8/1846	CARD	@card@	_	O	O	
+

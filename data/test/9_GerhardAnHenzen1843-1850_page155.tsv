@@ -1,0 +1,225 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=8 Gerhard an Henzen Berlin 2/1/1849 g. 13/1 49 r.
+1-1	8	CARD	8	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	O	O	
+1-5	Berlin	NE	Berlin	_	O	O	
+1-6	2/1/1849	CARD	@card@	_	O	O	
+1-7	g.	ADJA	<unknown>	_	O	O	
+1-8	13/1	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-9	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-10	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=19/1 49 D. Henzen Berlin 2/1849 ein allerbestes Neujahr, Ihnen und Ihrer lieben Frau, von mir und der meinigen die nächstens selbst schreibt.
+2-1	19/1	CARD	@card@	_	O	O	
+2-2	49	CARD	@card@	_	O	O	
+2-3	D.	NE	D.	_	O	O	
+2-4	Henzen	NN	<unknown>	_	O	O	
+2-5	Berlin	NE	Berlin	_	O	O	
+2-6	2/1849	CARD	@card@	_	O	O	
+2-7	ein	ART	eine	_	O	O	
+2-8	allerbestes	ADJA	allergut	_	O	O	
+2-9	Neujahr	NN	Neujahr	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	Ihnen	PPER	Sie	_	O	O	
+2-12	und	KON	und	_	O	O	
+2-13	Ihrer	PPOSAT	ihr	_	O	O	
+2-14	lieben	ADJA	lieb	_	O	O	
+2-15	Frau	NN	Frau	_	O	O	
+2-16	,	$,	,	_	O	O	
+2-17	von	APPR	von	_	O	O	
+2-18	mir	PRF	ich	_	O	O	
+2-19	und	KON	und	_	O	O	
+2-20	der	ART	die	_	O	O	
+2-21	meinigen	PPOSS	meinig	_	O	O	
+2-22	die	ART	die	_	O	O	
+2-23	nächstens	ADV	nächstens	_	O	O	
+2-24	selbst	ADV	selbst	_	O	O	
+2-25	schreibt	VVFIN	schreiben	_	O	O	
+2-26	.	$.	.	_	O	O	
+
+#id=3
+#text=Leemans 571 Francs: non pensi!
+3-1	Leemans	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	571	CARD	@card@	_	O	O	
+3-3	Francs	NN	Franc	_	O	O	
+3-4	:	$.	:	_	O	O	
+3-5	non	NE	non	_	O	O	
+3-6	pensi	NE	<unknown>	_	O	O	
+3-7	!	$.	!	_	O	O	
+
+#id=4
+#text=Usedom hat das Geld Ihnen vermuthlich schon gezahlt, und den VOllbetrag der 571 Fr.
+4-1	Usedom	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	hat	VAFIN	haben	_	O	O	
+4-3	das	ART	die	_	O	O	
+4-4	Geld	NN	Geld	_	O	O	
+4-5	Ihnen	PPER	Sie	_	O	O	
+4-6	vermuthlich	ADJD	<unknown>	_	O	O	
+4-7	schon	ADV	schon	_	O	O	
+4-8	gezahlt	VVPP	zahlen	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	und	KON	und	_	O	O	
+4-11	den	ART	die	_	O	O	
+4-12	VOllbetrag	NN	<unknown>	_	O	O	
+4-13	der	ART	die	_	O	O	
+4-14	571	CARD	@card@	_	O	O	
+4-15	Fr.	NN	Freitag	_	O	O	
+
+#id=5
+#text=erhielt ich hier so, daß die Spesen auf Leemans f.ielen.
+5-1	erhielt	VVFIN	erhalten	_	O	O	
+5-2	ich	PPER	ich	_	O	O	
+5-3	hier	ADV	hier	_	O	O	
+5-4	so	ADV	so	_	O	O	
+5-5	,	$,	,	_	O	O	
+5-6	daß	KOUS	dass	_	O	O	
+5-7	die	ART	die	_	O	O	
+5-8	Spesen	NN	Spesen	_	O	O	
+5-9	auf	APPR	auf	_	O	O	
+5-10	Leemans	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-11	f.ielen	NN	<unknown>	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Was soll aber aus Leemans Packet werden das bei ~d/'~+ mir liegt ?
+6-1	Was	PWS	was	_	O	O	
+6-2	soll	VMFIN	sollen	_	O	O	
+6-3	aber	ADV	aber	_	O	O	
+6-4	aus	APPR	aus	_	O	O	
+6-5	Leemans	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-6	Packet	NN	<unknown>	_	O	O	
+6-7	werden	VAFIN	werden	_	O	O	
+6-8	das	PDS	die	_	O	O	
+6-9	bei	APPR	bei	_	O	O	
+6-10	~d/'~+	NN	<unknown>	_	O	O	
+6-11	mir	PPER	ich	_	O	O	
+6-12	liegt	VVFIN	liegen	_	O	O	
+6-13	?	$.	?	_	O	O	
+
+#id=7
+#text=Bullettino sah ich seit dem Maggiostück nicht.
+7-1	Bullettino	NE	<unknown>	_	O	O	
+7-2	sah	VVFIN	sehen	_	O	O	
+7-3	ich	PPER	ich	_	O	O	
+7-4	seit	APPR	seit	_	O	O	
+7-5	dem	ART	die	_	O	O	
+7-6	Maggiostück	NN	<unknown>	_	O	O	
+7-7	nicht	PTKNEG	nicht	_	O	O	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=Haben Die Notizen zum Jahresbericht meiner Arch.
+8-1	Haben	VAFIN	haben	_	O	O	
+8-2	Die	ART	die	_	O	O	
+8-3	Notizen	NN	Notiz	_	O	O	
+8-4	zum	APPRART	zu	_	O	O	
+8-5	Jahresbericht	NN	Jahresbericht	_	O	O	
+8-6	meiner	PPOSAT	mein	_	O	O	
+8-7	Arch	NN	<unknown>	_	O	O	
+8-8	.	$.	.	_	O	O	
+
+#id=9
+#text=Zeitung so werden sie sehr willkommen sein.
+9-1	Zeitung	NN	Zeitung	_	O	O	
+9-2	so	ADV	so	_	O	O	
+9-3	werden	VAFIN	werden	_	O	O	
+9-4	sie	PPER	sie	_	O	O	
+9-5	sehr	ADV	sehr	_	O	O	
+9-6	willkommen	ADJD	willkommen	_	O	O	
+9-7	sein	VAINF	sein	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=Der Belagerungsstand ist wal gut, die Frankfurter Sachlage aber nicht weniger als die Aussicht'unserer Wahlen gleich besorglich.
+10-1	Der	ART	die	_	O	O	
+10-2	Belagerungsstand	NN	<unknown>	_	O	O	
+10-3	ist	VAFIN	sein	_	O	O	
+10-4	wal	ADJD	<unknown>	_	O	O	
+10-5	gut	ADJD	gut	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	die	ART	die	_	O	O	
+10-8	Frankfurter	ADJA	Frankfurter	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-9	Sachlage	NN	Sachlage	_	O	O	
+10-10	aber	ADV	aber	_	O	O	
+10-11	nicht	PTKNEG	nicht	_	O	O	
+10-12	weniger	PIS	wenige	_	O	O	
+10-13	als	KOKOM	als	_	O	O	
+10-14	die	ART	die	_	O	O	
+10-15	Aussicht'unserer	NN	<unknown>	_	O	O	
+10-16	Wahlen	NN	Wahl	_	O	O	
+10-17	gleich	ADJD	gleich	_	O	O	
+10-18	besorglich	ADJD	<unknown>	_	O	O	
+10-19	.	$.	.	_	O	O	
+
+#id=11
+#text=Letronne welcher der Archäologie öfters unbequem war wird doch schmerzlich entbehrt werden.
+11-1	Letronne	ADV	<unknown>	_	O	O	
+11-2	welcher	PIS	welche	_	O	O	
+11-3	der	ART	die	_	O	O	
+11-4	Archäologie	NN	Archäologie	_	O	O	
+11-5	öfters	ADV	öfters	_	O	O	
+11-6	unbequem	ADJD	unbequem	_	O	O	
+11-7	war	VAFIN	sein	_	O	O	
+11-8	wird	VAFIN	werden	_	O	O	
+11-9	doch	ADV	doch	_	O	O	
+11-10	schmerzlich	ADJD	schmerzlich	_	O	O	
+11-11	entbehrt	VVPP	entbehren	_	O	O	
+11-12	werden	VAINF	werden	_	O	O	
+11-13	.	$.	.	_	O	O	
+
+#id=12
+#text=Dem Rochette ]I... Lv hat er mit dem Pferde - statt Reiter - Maka~tatos Pa~s.
+12-1	Dem	ART	die	_	O	O	
+12-2	Rochette	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-3	]I	NN	<unknown>	_	O	O	
+12-4	...	$.	...	_	O	O	
+12-5	Lv	NE	<unknown>	_	O	O	
+12-6	hat	VAFIN	haben	_	O	O	
+12-7	er	PPER	er	_	O	O	
+12-8	mit	APPR	mit	_	O	O	
+12-9	dem	ART	die	_	O	O	
+12-10	Pferde	NN	Pferd	_	O	O	
+12-11	-	$(	-	_	O	O	
+12-12	statt	APPR	statt	_	O	O	
+12-13	Reiter	NN	Reiter	_	O	O	
+12-14	-	$(	-	_	O	O	
+12-15	Maka~tatos	NE	<unknown>	_	O	O	
+12-16	Pa~s	NE	<unknown>	_	O	O	
+12-17	.	$.	.	_	O	O	
+
+#id=13
+#text=1, 29, S schließlich noch einen tüchtigen Fußtritt versetzt.
+13-1	1	CARD	1	_	O	O	
+13-2	,	$,	,	_	O	O	
+13-3	29	CARD	@card@	_	O	O	
+13-4	,	$,	,	_	O	O	
+13-5	S	NN	S	_	O	O	
+13-6	schließlich	ADV	schließlich	_	O	O	
+13-7	noch	ADV	noch	_	O	O	
+13-8	einen	ART	eine	_	O	O	
+13-9	tüchtigen	ADJA	tüchtig	_	O	O	
+13-10	Fußtritt	NN	Fußtritt	_	O	O	
+13-11	versetzt	VVPP	versetzen	_	O	O	
+13-12	.	$.	.	_	O	O	
+
+#id=14
+#text=G. Hermann ist auch todkrank.
+14-1	G.	NE	G.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	Hermann	NE	Hermann	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+14-3	ist	VAFIN	sein	_	O	O	
+14-4	auch	ADV	auch	_	O	O	
+14-5	todkrank	ADJD	todkrank	_	O	O	
+14-6	.	$.	.	_	O	O	
+
+#id=15
+#text=Von Herzen der Ihrige Gerhard
+15-1	Von	APPR	von	_	O	O	
+15-2	Herzen	NN	Herz	_	O	O	
+15-3	der	ART	die	_	O	O	
+15-4	Ihrige	PPOSAT	ihrige	_	O	O	
+15-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

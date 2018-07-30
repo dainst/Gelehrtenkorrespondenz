@@ -1,0 +1,293 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=239 A. di Dir.
+1-1	239	CARD	@card@	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=D. Henzen ~f\-L -l-ltuvuh Verehrter Freund.
+2-1	D.	ART	d.	_	O	O	
+2-2	Henzen	NN	<unknown>	_	O	O	
+2-3	~f\-L	NN	<unknown>	_	O	O	
+2-4	-l-ltuvuh	NN	<unknown>	_	O	O	
+2-5	Verehrter	ADJA	verehrt	_	O	O	
+2-6	Freund	NN	Freund	_	O	O	
+2-7	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Henzen g Berlin 1$/X/1849 g. r.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-2	an	APPR	an	_	O	O	
+3-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-4	g	NN	g	_	O	O	
+3-5	Berlin	NE	Berlin	_	O	O	
+3-6	1$/X/1849	CARD	<unknown>	_	O	O	
+3-7	g.	ADJA	<unknown>	_	O	O	
+3-8	r.	ADJA	<unknown>	_	O	O	
+
+#id=4
+#text=3/X 49 , .
+4-1	3/X	ADJA	<unknown>	_	O	O	
+4-2	49	CARD	@card@	_	O	O	
+4-3	,	$,	,	_	O	O	
+4-4	.	$.	.	_	O	O	
+
+#id=5
+#text=Berlin - 19 Okt 49 Ihren Brief vom 9 beantworte sogleich.
+5-1	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+5-2	-	$(	-	_	O	O	
+5-3	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+5-4	Okt	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+5-5	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+5-6	Ihren	PPOSAT	ihr	_	O	O	
+5-7	Brief	NN	Brief	_	O	O	
+5-8	vom	APPRART	von	_	O	O	
+5-9	9	CARD	9	_	O	O	
+5-10	beantworte	VVFIN	beantworten	_	O	O	
+5-11	sogleich	ADV	sogleich	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Franqois fängt an seccant zu werden, denn nachdem er die Ehrenmedail- -- 11.Q., le hat will er auch ein nOhr und ein Hand da~n haben und damit er an das unfehlbare Öhr ein Band hängen könne eine Lettera uffiziale; ich werde an Reumont darum schreiben, wünschte aber die Quälerei seiner allzeit kostspieligen Briefe ließe sich bald in eine Ausgabsbeihülfe umwenden.
+6-1	Franqois	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	fängt	VVFIN	fangen	_	O	O	
+6-3	an	APPR	an	_	O	O	
+6-4	seccant	ADJD	<unknown>	_	O	O	
+6-5	zu	PTKZU	zu	_	O	O	
+6-6	werden	VAINF	werden	_	O	O	
+6-7	,	$,	,	_	O	O	
+6-8	denn	KON	denn	_	O	O	
+6-9	nachdem	KOUS	nachdem	_	O	O	
+6-10	er	PPER	er	_	O	O	
+6-11	die	ART	die	_	O	O	
+6-12	Ehrenmedail-	NN	<unknown>	_	O	O	
+6-13	--	$(	--	_	O	O	
+6-14	11.Q	NE	<unknown>	_	O	O	
+6-15	.	$.	.	_	O	O	
+6-16	,	$,	,	_	O	O	
+6-17	le	VVPP	<unknown>	_	O	O	
+6-18	hat	VAFIN	haben	_	O	O	
+6-19	will	VMFIN	wollen	_	O	O	
+6-20	er	PPER	er	_	O	O	
+6-21	auch	ADV	auch	_	O	O	
+6-22	ein	ART	eine	_	O	O	
+6-23	nOhr	NN	<unknown>	_	O	O	
+6-24	und	KON	und	_	O	O	
+6-25	ein	ART	eine	_	O	O	
+6-26	Hand	NN	Hand	_	O	O	
+6-27	da~n	NE	<unknown>	_	O	O	
+6-28	haben	VAFIN	haben	_	O	O	
+6-29	und	KON	und	_	O	O	
+6-30	damit	KOUS	damit	_	O	O	
+6-31	er	PPER	er	_	O	O	
+6-32	an	APPR	an	_	O	O	
+6-33	das	ART	die	_	O	O	
+6-34	unfehlbare	ADJA	unfehlbar	_	O	O	
+6-35	Öhr	NN	<UNKNOWN>	_	O	O	
+6-36	ein	ART	eine	_	O	O	
+6-37	Band	NN	Band	_	O	O	
+6-38	hängen	VVINF	hängen	_	O	O	
+6-39	könne	VMFIN	können	_	O	O	
+6-40	eine	ART	eine	_	O	O	
+6-41	Lettera	NN	<unknown>	_	O	O	
+6-42	uffiziale	NN	<unknown>	_	O	O	
+6-43	;	$.	;	_	O	O	
+6-44	ich	PPER	ich	_	O	O	
+6-45	werde	VAFIN	werden	_	O	O	
+6-46	an	APPR	an	_	O	O	
+6-47	Reumont	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-48	darum	PAV	darum	_	O	O	
+6-49	schreiben	VVINF	schreiben	_	O	O	
+6-50	,	$,	,	_	O	O	
+6-51	wünschte	VVFIN	wünschen	_	O	O	
+6-52	aber	ADV	aber	_	O	O	
+6-53	die	ART	die	_	O	O	
+6-54	Quälerei	NN	Quälerei	_	O	O	
+6-55	seiner	PPOSAT	sein	_	O	O	
+6-56	allzeit	ADV	allzeit	_	O	O	
+6-57	kostspieligen	ADJA	kostspielig	_	O	O	
+6-58	Briefe	NN	Brief	_	O	O	
+6-59	ließe	VVFIN	lassen	_	O	O	
+6-60	sich	PRF	sich	_	O	O	
+6-61	bald	ADV	bald	_	O	O	
+6-62	in	APPR	in	_	O	O	
+6-63	eine	ART	eine	_	O	O	
+6-64	Ausgabsbeihülfe	NN	<unknown>	_	O	O	
+6-65	umwenden	VVINF	umwenden	_	O	O	
+6-66	.	$.	.	_	O	O	
+
+#id=7
+#text=Vielleicht richtet Braun durch Bunsen und Olfers etwas aus, ich vermag es nicht zumal so unmittelbar nach eben erfolgten Gnadenbeweis.
+7-1	Vielleicht	ADV	vielleicht	_	O	O	
+7-2	richtet	VVFIN	richten	_	O	O	
+7-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-4	durch	APPR	durch	_	O	O	
+7-5	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-6	und	KON	und	_	O	O	
+7-7	Olfers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-8	etwas	ADV	etwas	_	O	O	
+7-9	aus	PTKVZ	aus	_	O	O	
+7-10	,	$,	,	_	O	O	
+7-11	ich	PPER	ich	_	O	O	
+7-12	vermag	VVFIN	vermag	_	O	O	
+7-13	es	PPER	es	_	O	O	
+7-14	nicht	PTKNEG	nicht	_	O	O	
+7-15	zumal	ADV	zumal	_	O	O	
+7-16	so	ADV	so	_	O	O	
+7-17	unmittelbar	ADJD	unmittelbar	_	O	O	
+7-18	nach	APPR	nach	_	O	O	
+7-19	eben	ADV	eben	_	O	O	
+7-20	erfolgten	ADJA	erfolgt	_	O	O	
+7-21	Gnadenbeweis	NN	<unknown>	_	O	O	
+7-22	.	$.	.	_	O	O	
+
+#id=8
+#text=Die Sendung an Sie für Wienbrack-Spithöver ist abgegangen.
+8-1	Die	ART	die	_	O	O	
+8-2	Sendung	NN	Sendung	_	O	O	
+8-3	an	APPR	an	_	O	O	
+8-4	Sie	PPER	Sie	_	O	O	
+8-5	für	APPR	für	_	O	O	
+8-6	Wienbrack-Spithöver	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-7	ist	VAFIN	sein	_	O	O	
+8-8	abgegangen	VVPP	abgehen	_	O	O	
+8-9	.	$.	.	_	O	O	
+
+#id=9
+#text=Ind.
+9-1	Ind.	NN	Ind.	_	O	O	
+
+#id=10
+#text=zwei Inschriftblatt aus Neigebaurs Nachlaß; die Diplome bringt er freilich mit.
+10-1	zwei	CARD	zwei	_	O	O	
+10-2	Inschriftblatt	NN	<unknown>	_	O	O	
+10-3	aus	APPR	aus	_	O	O	
+10-4	Neigebaurs	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-5	Nachlaß	NN	Nachlass	_	O	O	
+10-6	;	$.	;	_	O	O	
+10-7	die	ART	die	_	O	O	
+10-8	Diplome	NN	Diplom	_	O	O	
+10-9	bringt	VVFIN	bringen	_	O	O	
+10-10	er	PPER	er	_	O	O	
+10-11	freilich	ADV	freilich	_	O	O	
+10-12	mit	PTKVZ	mit	_	O	O	
+10-13	.	$.	.	_	O	O	
+
+#id=11
+#text=Wie stehn wir ~'M.
+11-1	Wie	KOUS	wie	_	O	O	
+11-2	stehn	VVFIN	<unknown>	_	O	O	
+11-3	wir	PPER	wir	_	O	O	
+11-4	~'M	NE	<unknown>	_	O	O	
+11-5	.	$.	.	_	O	O	
+
+#id=12
+#text=~.~ mit Dalmatien?
+12-1	~.~	NN	<unknown>	_	O	O	
+12-2	mit	APPR	mit	_	O	O	
+12-3	Dalmatien	NE	Dalmatien	_	O	O	
+12-4	?	$.	?	_	O	O	
+
+#id=13
+#text=wo~ N. sich stüek~ zu lassen sehr bereit war aber doch wol nur mäßig nutzen k~nnte.
+13-1	wo~	ADJD	<unknown>	_	O	O	
+13-2	N.	APPR	n.	_	O	O	
+13-3	sich	PRF	sich	_	O	O	
+13-4	stüek~	ADJD	<unknown>	_	O	O	
+13-5	zu	PTKZU	zu	_	O	O	
+13-6	lassen	VVINF	lassen	_	O	O	
+13-7	sehr	ADV	sehr	_	O	O	
+13-8	bereit	ADJD	bereit	_	O	O	
+13-9	war	VAFIN	sein	_	O	O	
+13-10	aber	KON	aber	_	O	O	
+13-11	doch	ADV	doch	_	O	O	
+13-12	wol	ADJD	<unknown>	_	O	O	
+13-13	nur	ADV	nur	_	O	O	
+13-14	mäßig	ADJD	mäßig	_	O	O	
+13-15	nutzen	VVFIN	nutzen	_	O	O	
+13-16	k~nnte	NN	<unknown>	_	O	O	
+13-17	.	$.	.	_	O	O	
+
+#id=14
+#text=Alles steht -h jetzt unter der vviener hkademie die in Arnet~'s OberaufWiJtd..uw.. sicht, der kultivirt Feden muß.
+14-1	Alles	PIS	alle	_	O	O	
+14-2	steht	VVFIN	stehen	_	O	O	
+14-3	-h	ADJD	<unknown>	_	O	O	
+14-4	jetzt	ADV	jetzt	_	O	O	
+14-5	unter	APPR	unter	_	O	O	
+14-6	der	ART	die	_	O	O	
+14-7	vviener	NN	<unknown>	_	O	O	
+14-8	hkademie	NN	<unknown>	_	O	O	
+14-9	die	ART	die	_	O	O	
+14-10	in	APPR	in	_	O	O	
+14-11	Arnet~'s	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-12	OberaufWiJtd..uw.	NE	<unknown>	_	O	O	
+14-13	.	$.	.	_	O	O	
+14-14	sicht	NN	Sicht	_	O	O	
+14-15	,	$,	,	_	O	O	
+14-16	der	ART	die	_	O	O	
+14-17	kultivirt	NN	<unknown>	_	O	O	
+14-18	Feden	NN	<unknown>	_	O	O	
+14-19	muß	VMFIN	müssen	_	O	O	
+14-20	.	$.	.	_	O	O	
+
+#id=15
+#text=Schickt er Euch die Wiener Sitzungsberichte ?
+15-1	Schickt	VVFIN	schicken	_	O	O	
+15-2	er	PPER	er	_	O	O	
+15-3	Euch	PRF	ihr	_	O	O	
+15-4	die	ART	die	_	O	O	
+15-5	Wiener	ADJA	Wiener	_	B-webanno.custom.LetterEntity_	B-OBJ	
+15-6	Sitzungsberichte	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+15-7	?	$.	?	_	O	O	
+
+#id=16
+#text=Der Tausch gegen Institutswerke wäre wegen Inhalts und Anstands jedenfalls der Mühe werth; ein Exemplar geht deshalb dem Absatz schwerlich verloren.
+16-1	Der	ART	die	_	O	O	
+16-2	Tausch	NN	Tausch	_	O	O	
+16-3	gegen	APPR	gegen	_	O	O	
+16-4	Institutswerke	NN	<unknown>	_	O	O	
+16-5	wäre	VAFIN	sein	_	O	O	
+16-6	wegen	APPR	wegen	_	O	O	
+16-7	Inhalts	NN	Inhalt	_	O	O	
+16-8	und	KON	und	_	O	O	
+16-9	Anstands	NN	Anstand	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-10	jedenfalls	ADV	jedenfalls	_	O	O	
+16-11	der	ART	die	_	O	O	
+16-12	Mühe	NN	Mühe	_	O	O	
+16-13	werth	NE	<unknown>	_	O	O	
+16-14	;	$.	;	_	O	O	
+16-15	ein	ART	eine	_	O	O	
+16-16	Exemplar	NN	Exemplar	_	O	O	
+16-17	geht	VVFIN	gehen	_	O	O	
+16-18	deshalb	PAV	deshalb	_	O	O	
+16-19	dem	ART	die	_	O	O	
+16-20	Absatz	NN	Absatz	_	O	O	
+16-21	schwerlich	ADJD	schwerlich	_	O	O	
+16-22	verloren	VVPP	verlieren	_	O	O	
+16-23	.	$.	.	_	O	O	
+
+#id=17
+#text=Mit Panofkas Artikel verfahren Sie nach bester eigner Einsicht; ist der Uebelstand groß so wird Panofka gegen Un-
+17-1	Mit	APPR	mit	_	O	O	
+17-2	Panofkas	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-3	Artikel	NN	Artikel	_	O	O	
+17-4	verfahren	VVFIN	verfahren	_	O	O	
+17-5	Sie	PPER	Sie	_	O	O	
+17-6	nach	APPR	nach	_	O	O	
+17-7	bester	ADJA	gut	_	O	O	
+17-8	eigner	ADJA	eigen	_	O	O	
+17-9	Einsicht	NN	Einsicht	_	O	O	
+17-10	;	$.	;	_	O	O	
+17-11	ist	VAFIN	sein	_	O	O	
+17-12	der	ART	die	_	O	O	
+17-13	Uebelstand	NN	<unknown>	_	O	O	
+17-14	groß	ADJD	groß	_	O	O	
+17-15	so	ADV	so	_	O	O	
+17-16	wird	VAFIN	werden	_	O	O	
+17-17	Panofka	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-18	gegen	APPR	gegen	_	O	O	
+17-19	Un-	TRUNC	Un-	_	O	O	
+

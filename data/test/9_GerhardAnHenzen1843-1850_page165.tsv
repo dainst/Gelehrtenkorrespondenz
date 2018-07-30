@@ -1,0 +1,57 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Gerhard an Henzen 11/IV/1849 2 Lassen Sie an L. Schmidt meinen besten Gruß für hx-.
+1-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	11/IV/1849	CARD	<unknown>	_	O	O	
+1-5	2	CARD	2	_	O	O	
+1-6	Lassen	NN	Lassen	_	O	O	
+1-7	Sie	PPER	Sie	_	O	O	
+1-8	an	APPR	an	_	O	O	
+1-9	L.	NE	L.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-10	Schmidt	NE	Schmidt	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+1-11	meinen	PPOSAT	mein	_	O	O	
+1-12	besten	ADJA	gut	_	O	O	
+1-13	Gruß	NN	Gruß	_	O	O	
+1-14	für	APPR	für	_	O	O	
+1-15	hx-	NN	<unknown>	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=sich und für die Neapolctanisohen Freunde zukommen bei denen ich am liebsten ihn selbst eingefÜhrt hätte.
+2-1	sich	PRF	sich	_	O	O	
+2-2	und	KON	und	_	O	O	
+2-3	für	APPR	für	_	O	O	
+2-4	die	ART	die	_	O	O	
+2-5	Neapolctanisohen	ADJA	<unknown>	_	O	O	
+2-6	Freunde	NN	Freund	_	O	O	
+2-7	zukommen	VVFIN	zukommen	_	O	O	
+2-8	bei	APPR	bei	_	O	O	
+2-9	denen	PRELS	die	_	O	O	
+2-10	ich	PPER	ich	_	O	O	
+2-11	am	PTKA	am	_	O	O	
+2-12	liebsten	ADJD	lieb	_	O	O	
+2-13	ihn	PPER	er	_	O	O	
+2-14	selbst	ADV	selbst	_	O	O	
+2-15	eingefÜhrt	VVPP	einführen	_	O	O	
+2-16	hätte	VAFIN	haben	_	O	O	
+2-17	.	$.	.	_	O	O	
+
+#id=3
+#text=Gott behüte Sie, Ihre liebe Frau und die gemeinsamen Freunde Der Ihrige Gerhard
+3-1	Gott	NN	Gott	_	O	O	
+3-2	behüte	VVFIN	behüten	_	O	O	
+3-3	Sie	PPER	Sie	_	O	O	
+3-4	,	$,	,	_	O	O	
+3-5	Ihre	PPOSAT	ihr	_	O	O	
+3-6	liebe	ADJA	lieb	_	O	O	
+3-7	Frau	NN	Frau	_	O	O	
+3-8	und	KON	und	_	O	O	
+3-9	die	ART	die	_	O	O	
+3-10	gemeinsamen	ADJA	gemeinsam	_	O	O	
+3-11	Freunde	NN	Freund	_	O	O	
+3-12	Der	ART	die	_	O	O	
+3-13	Ihrige	PPOSAT	ihrige	_	O	O	
+3-14	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

@@ -1,0 +1,389 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=A. di Direz.
+1-1	A.	APPRART	am	_	O	O	
+1-2	di	NE	di	_	O	O	
+1-3	Direz	NN	<unknown>	_	O	O	
+1-4	.	$.	.	_	O	O	
+
+#id=2
+#text=Gerhard an Henzen Berlin 6/II/1847 g. 18/II 47 r.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	an	APPR	an	_	O	O	
+2-3	Henzen	NN	<unknown>	_	O	O	
+2-4	Berlin	NE	Berlin	_	O	O	
+2-5	6/II/1847	CARD	<unknown>	_	O	O	
+2-6	g.	ADJA	<unknown>	_	O	O	
+2-7	18/II	NE	<unknown>	_	O	O	
+2-8	47	CARD	47	_	O	O	
+2-9	r.	ADJA	<unknown>	_	O	O	
+
+#id=3
+#text=20/II 47 Berlin 6 Febr.
+3-1	20/II	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-2	47	CARD	47	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-4	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-5	Febr.	NN	Febr.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=4
+#text=47 • ••••••••••••••• für Ihre Mittheilungen über den Stand des Pariser Inschriftunternehmens; ich werde ••••••••••••••• Discretion und bester Einsicht davon Gebrauch machen • ••••••••••• s epigr. Aufsatz ist gesetzt und wird noch vor ~ der bevorstehenden Sitzung der epigraphischen Commission •••••••••• ell sein; ich habe in Drucksorte und Correc- ~ tur ihn möglichst correct und eindrücklich !o!td:s zu , ••••• • • • • en gesucht, obwohl Parthey den Sitzung .. etwäs, ängst~ lich ökonomisch und darum eben nicht elegent •••••• gerichtet hat.
+4-1	47	CARD	47	_	O	O	
+4-2	•	NN	<unknown>	_	O	O	
+4-3	•	ADJA	<unknown>	_	O	O	
+4-4	•	NN	<unknown>	_	O	O	
+4-5	•	ADJA	<unknown>	_	O	O	
+4-6	•	NN	<unknown>	_	O	O	
+4-7	•	ADJA	<unknown>	_	O	O	
+4-8	•	NN	<unknown>	_	O	O	
+4-9	•	ADJA	<unknown>	_	O	O	
+4-10	•	NN	<unknown>	_	O	O	
+4-11	•	ADJA	<unknown>	_	O	O	
+4-12	•	NN	<unknown>	_	O	O	
+4-13	•	ADJA	<unknown>	_	O	O	
+4-14	•	NN	<unknown>	_	O	O	
+4-15	•	ADJD	<unknown>	_	O	O	
+4-16	•	ADJA	<unknown>	_	O	O	
+4-17	•	NN	<unknown>	_	O	O	
+4-18	für	APPR	für	_	O	O	
+4-19	Ihre	PPOSAT	ihr	_	O	O	
+4-20	Mittheilungen	NN	<unknown>	_	O	O	
+4-21	über	APPR	über	_	O	O	
+4-22	den	ART	die	_	O	O	
+4-23	Stand	NN	Stand	_	O	O	
+4-24	des	ART	die	_	O	O	
+4-25	Pariser	NN	Pariser	_	O	O	
+4-26	Inschriftunternehmens	NN	<unknown>	_	O	O	
+4-27	;	$.	;	_	O	O	
+4-28	ich	PPER	ich	_	O	O	
+4-29	werde	VAFIN	werden	_	O	O	
+4-30	•	ADJD	<unknown>	_	O	O	
+4-31	•	ADJA	<unknown>	_	O	O	
+4-32	•	NN	<unknown>	_	O	O	
+4-33	•	ADJA	<unknown>	_	O	O	
+4-34	•	NN	<unknown>	_	O	O	
+4-35	•	ADJA	<unknown>	_	O	O	
+4-36	•	NN	<unknown>	_	O	O	
+4-37	•	ADJA	<unknown>	_	O	O	
+4-38	•	NN	<unknown>	_	O	O	
+4-39	•	ADJA	<unknown>	_	O	O	
+4-40	•	NN	<unknown>	_	O	O	
+4-41	•	ADJA	<unknown>	_	O	O	
+4-42	•	NN	<unknown>	_	O	O	
+4-43	•	ADJD	<unknown>	_	O	O	
+4-44	•	ADJA	<unknown>	_	O	O	
+4-45	Discretion	NN	<unknown>	_	O	O	
+4-46	und	KON	und	_	O	O	
+4-47	bester	ADJA	gut	_	O	O	
+4-48	Einsicht	NN	Einsicht	_	O	O	
+4-49	davon	PAV	davon	_	O	O	
+4-50	Gebrauch	NN	Gebrauch	_	O	O	
+4-51	machen	VVFIN	machen	_	O	O	
+4-52	•	ADJD	<unknown>	_	O	O	
+4-53	•	ADJA	<unknown>	_	O	O	
+4-54	•	NN	<unknown>	_	O	O	
+4-55	•	ADJA	<unknown>	_	O	O	
+4-56	•	NN	<unknown>	_	O	O	
+4-57	•	ADJA	<unknown>	_	O	O	
+4-58	•	NN	<unknown>	_	O	O	
+4-59	•	ADJA	<unknown>	_	O	O	
+4-60	•	NN	<unknown>	_	O	O	
+4-61	•	ADJA	<unknown>	_	O	O	
+4-62	•	NN	<unknown>	_	O	O	
+4-63	•	ADJA	<unknown>	_	O	O	
+4-64	s	NN	s	_	O	O	
+4-65	epigr	NE	<unknown>	_	O	O	
+4-66	.	$.	.	_	O	O	
+4-67	Aufsatz	NN	Aufsatz	_	O	O	
+4-68	ist	VAFIN	sein	_	O	O	
+4-69	gesetzt	VVPP	setzen	_	O	O	
+4-70	und	KON	und	_	O	O	
+4-71	wird	VAFIN	werden	_	O	O	
+4-72	noch	ADV	noch	_	O	O	
+4-73	vor	PTKVZ	vor	_	O	O	
+4-74	~	XY	~	_	O	O	
+4-75	der	ART	die	_	O	O	
+4-76	bevorstehenden	ADJA	bevorstehend	_	O	O	
+4-77	Sitzung	NN	Sitzung	_	O	O	
+4-78	der	ART	die	_	O	O	
+4-79	epigraphischen	ADJA	<unknown>	_	O	O	
+4-80	Commission	NN	<unknown>	_	O	O	
+4-81	•	ADJA	<unknown>	_	O	O	
+4-82	•	NN	<unknown>	_	O	O	
+4-83	•	ADJA	<unknown>	_	O	O	
+4-84	•	NN	<unknown>	_	O	O	
+4-85	•	ADJA	<unknown>	_	O	O	
+4-86	•	NN	<unknown>	_	O	O	
+4-87	•	ADJA	<unknown>	_	O	O	
+4-88	•	NN	<unknown>	_	O	O	
+4-89	•	ADJA	<unknown>	_	O	O	
+4-90	•	NN	<unknown>	_	O	O	
+4-91	ell	VVPP	<unknown>	_	O	O	
+4-92	sein	VAINF	sein	_	O	O	
+4-93	;	$.	;	_	O	O	
+4-94	ich	PPER	ich	_	O	O	
+4-95	habe	VAFIN	haben	_	O	O	
+4-96	in	APPR	in	_	O	O	
+4-97	Drucksorte	NN	<unknown>	_	O	O	
+4-98	und	KON	und	_	O	O	
+4-99	Correc-	TRUNC	<unknown>	_	O	O	
+4-100	~	XY	~	_	O	O	
+4-101	tur	VVFIN	<unknown>	_	O	O	
+4-102	ihn	PPER	er	_	O	O	
+4-103	möglichst	ADV	möglichst	_	O	O	
+4-104	correct	NN	<unknown>	_	O	O	
+4-105	und	KON	und	_	O	O	
+4-106	eindrücklich	ADJD	<unknown>	_	O	O	
+4-107	!	$.	!	_	O	O	
+4-108	o	VVFIN	<unknown>	_	O	O	
+4-109	!	$.	!	_	O	O	
+4-110	td:s	ADJD	<unknown>	_	O	O	
+4-111	zu	PTKVZ	zu	_	O	O	
+4-112	,	$,	,	_	O	O	
+4-113	•	ADJD	<unknown>	_	O	O	
+4-114	•	ADJA	<unknown>	_	O	O	
+4-115	•	NN	<unknown>	_	O	O	
+4-116	•	ADJA	<unknown>	_	O	O	
+4-117	•	NN	<unknown>	_	O	O	
+4-118	•	ADJA	<unknown>	_	O	O	
+4-119	•	NN	<unknown>	_	O	O	
+4-120	•	ADJA	<unknown>	_	O	O	
+4-121	•	NN	<unknown>	_	O	O	
+4-122	en	FM	en	_	O	O	
+4-123	gesucht	VVPP	suchen	_	O	O	
+4-124	,	$,	,	_	O	O	
+4-125	obwohl	KOUS	obwohl	_	O	O	
+4-126	Parthey	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-127	den	ART	die	_	O	O	
+4-128	Sitzung	NN	Sitzung	_	O	O	
+4-129	.	$.	.	_	O	O	
+4-130	.	$.	.	_	O	O	
+4-131	etwäs	ADJA	<unknown>	_	O	O	
+4-132	,	$,	,	_	O	O	
+4-133	ängst~	ADJA	<unknown>	_	O	O	
+4-134	lich	ADJA	<unknown>	_	O	O	
+4-135	ökonomisch	ADJD	ökonomisch	_	O	O	
+4-136	und	KON	und	_	O	O	
+4-137	darum	PAV	darum	_	O	O	
+4-138	eben	ADV	eben	_	O	O	
+4-139	nicht	PTKNEG	nicht	_	O	O	
+4-140	elegent	ADJD	<unknown>	_	O	O	
+4-141	•	ADJA	<unknown>	_	O	O	
+4-142	•	NN	<unknown>	_	O	O	
+4-143	•	ADJA	<unknown>	_	O	O	
+4-144	•	NN	<unknown>	_	O	O	
+4-145	•	ADJA	<unknown>	_	O	O	
+4-146	•	NN	<unknown>	_	O	O	
+4-147	gerichtet	VVPP	richten	_	O	O	
+4-148	hat	VAFIN	haben	_	O	O	
+4-149	.	$.	.	_	O	O	
+
+#id=5
+#text=Der Aufsatz ist mir übrigens sehr zu Dank und hoffe ich er werde s ~(\IU/J guten Erfolgs nicht verfehlen, , ()tl\(Mtsert wie ich auch selbst schon vor einigen Tagen an M. selbst " schrieb.
+5-1	Der	ART	die	_	O	O	
+5-2	Aufsatz	NN	Aufsatz	_	O	O	
+5-3	ist	VAFIN	sein	_	O	O	
+5-4	mir	PPER	ich	_	O	O	
+5-5	übrigens	ADV	übrigens	_	O	O	
+5-6	sehr	ADV	sehr	_	O	O	
+5-7	zu	APPR	zu	_	O	O	
+5-8	Dank	NN	Dank	_	O	O	
+5-9	und	KON	und	_	O	O	
+5-10	hoffe	VVFIN	hoffen	_	O	O	
+5-11	ich	PPER	ich	_	O	O	
+5-12	er	PPER	er	_	O	O	
+5-13	werde	VAFIN	werden	_	O	O	
+5-14	s	NN	s	_	O	O	
+5-15	~(\IU/J	NE	<unknown>	_	O	O	
+5-16	guten	ADJA	gut	_	O	O	
+5-17	Erfolgs	NN	Erfolg	_	O	O	
+5-18	nicht	PTKNEG	nicht	_	O	O	
+5-19	verfehlen	VVINF	verfehlen	_	O	O	
+5-20	,	$,	,	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	()tl\(Mtsert	NN	<unknown>	_	O	O	
+5-23	wie	KOKOM	wie	_	O	O	
+5-24	ich	PPER	ich	_	O	O	
+5-25	auch	ADV	auch	_	O	O	
+5-26	selbst	ADV	selbst	_	O	O	
+5-27	schon	ADV	schon	_	O	O	
+5-28	vor	APPR	vor	_	O	O	
+5-29	einigen	PIAT	einige	_	O	O	
+5-30	Tagen	NN	Tag	_	O	O	
+5-31	an	APPR	an	_	O	O	
+5-32	M.	NE	M.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-33	selbst	ADV	selbst	_	O	O	
+5-34	"	$(	"	_	O	O	
+5-35	schrieb	VVFIN	schreiben	_	O	O	
+5-36	.	$.	.	_	O	O	
+
+#id=6
+#text=~ben stellt mir auc4 Saesigny dessen an ihn gerichteten Brief samt der Quittung zu.
+6-1	~ben	ADJD	<unknown>	_	O	O	
+6-2	stellt	VVFIN	stellen	_	O	O	
+6-3	mir	PPER	ich	_	O	O	
+6-4	auc4	ADJA	<unknown>	_	O	O	
+6-5	Saesigny	NE	<unknown>	_	O	O	
+6-6	dessen	PDAT	die	_	O	O	
+6-7	an	APPR	an	_	O	O	
+6-8	ihn	PPER	er	_	O	O	
+6-9	gerichteten	ADJA	gerichtet	_	O	O	
+6-10	Brief	NN	Brief	_	O	O	
+6-11	samt	APPR	samt	_	O	O	
+6-12	der	ART	die	_	O	O	
+6-13	Quittung	NN	Quittung	_	O	O	
+6-14	zu	PTKVZ	zu	_	O	O	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=Der Gedanke die nQf!Y\.-()V;~ 'i~Lt.J)r\.
+7-1	Der	ART	die	_	O	O	
+7-2	Gedanke	NN	Gedanke	_	O	O	
+7-3	die	ART	die	_	O	O	
+7-4	nQf	NE	<unknown>	_	O	O	
+7-5	!	$.	!	_	O	O	
+7-6	Y\.-()V	NE	<unknown>	_	O	O	
+7-7	;	$.	;	_	O	O	
+7-8	~	XY	~	_	O	O	
+7-9	'	$(	'	_	O	O	
+7-10	i~Lt.J)r\	VVFIN	<unknown>	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Inschriften als 11u-at.n..omus eines C. I. bald he- b Id - ,- ,:,J l\«(,;tiA-- a ~.
+8-1	Inschriften	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-2	als	KOKOM	als	_	O	O	
+8-3	11u-at.n..omus	NN	<unknown>	_	O	O	
+8-4	eines	ART	eine	_	O	O	
+8-5	C.	NE	C.	_	O	O	
+8-6	I.	NE	I.	_	O	O	
+8-7	bald	ADV	bald	_	O	O	
+8-8	he-	ADJD	<unknown>	_	O	O	
+8-9	b	ADJA	<unknown>	_	O	O	
+8-10	Id	ADJA	<unknown>	_	O	O	
+8-11	-	$(	-	_	O	O	
+8-12	,-	NN	<unknown>	_	O	O	
+8-13	,:,J	NE	<unknown>	_	O	O	
+8-14	l\«(	VVFIN	<unknown>	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	;	$.	;	_	O	O	
+8-17	tiA	ADJA	<unknown>	_	O	O	
+8-18	--	$(	--	_	O	O	
+8-19	a	FM	a	_	O	O	
+8-20	~	XY	~	_	O	O	
+8-21	.	$.	.	_	O	O	
+
+#id=9
+#text=~ .
+9-1	~	XY	~	_	O	O	
+9-2	.	$.	.	_	O	O	
+
+#id=10
+#text=i -~Ml::-:;:-Yt raus zu s9aaleft sche~nt m r sehr gut, und da M~ doch selbs in Deutschland sein will,so wird er sich ja wol leicht llAV':> W1L()", ~ 'I • __ aat QQ&a lassen.
+10-1	i	FM	i	_	O	O	
+10-2	-~Ml::-	ADJD	<unknown>	_	O	O	
+10-3	:	$.	:	_	O	O	
+10-4	;	$.	;	_	O	O	
+10-5	:-Yt	NN	<unknown>	_	O	O	
+10-6	raus	ADV	raus	_	O	O	
+10-7	zu	PTKA	zu	_	O	O	
+10-8	s9aaleft	ADJD	<unknown>	_	O	O	
+10-9	sche~nt	ADJA	<unknown>	_	O	O	
+10-10	m	NN	m	_	O	O	
+10-11	r	NE	r	_	O	O	
+10-12	sehr	ADV	sehr	_	O	O	
+10-13	gut	ADJD	gut	_	O	O	
+10-14	,	$,	,	_	O	O	
+10-15	und	KON	und	_	O	O	
+10-16	da	ADV	da	_	O	O	
+10-17	M~	NN	<unknown>	_	O	O	
+10-18	doch	KON	doch	_	O	O	
+10-19	selbs	NN	<unknown>	_	O	O	
+10-20	in	APPR	in	_	O	O	
+10-21	Deutschland	NE	Deutschland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-22	sein	PPOSAT	sein	_	O	O	
+10-23	will,so	NE	<unknown>	_	O	O	
+10-24	wird	VAFIN	werden	_	O	O	
+10-25	er	PPER	er	_	O	O	
+10-26	sich	PRF	sich	_	O	O	
+10-27	ja	ADV	ja	_	O	O	
+10-28	wol	ADJD	<unknown>	_	O	O	
+10-29	leicht	ADJD	leicht	_	O	O	
+10-30	llAV':>	ADJA	<unknown>	_	O	O	
+10-31	W1L()	NN	<unknown>	_	O	O	
+10-32	"	$(	"	_	O	O	
+10-33	,	$,	,	_	O	O	
+10-34	~	XY	~	_	O	O	
+10-35	'	$(	'	_	O	O	
+10-36	I	FM	I	_	O	O	
+10-37	•	NN	<unknown>	_	O	O	
+10-38	__	ADJA	<unknown>	_	O	O	
+10-39	aat	NN	<unknown>	_	O	O	
+10-40	QQ&a	NE	<unknown>	_	O	O	
+10-41	lassen	VVFIN	lassen	_	O	O	
+10-42	.	$.	.	_	O	O	
+
+#id=11
+#text=Berathen Sie übrigens ehe er weg geht doch auch mit ihm ob d.r Gedanke Borghesis Opuscula zus.
+11-1	Berathen	NN	<unknown>	_	O	O	
+11-2	Sie	PPER	Sie	_	O	O	
+11-3	übrigens	ADV	übrigens	_	O	O	
+11-4	ehe	KOUS	ehe	_	O	O	
+11-5	er	PPER	er	_	O	O	
+11-6	weg	ADV	weg	_	O	O	
+11-7	geht	VVFIN	gehen	_	O	O	
+11-8	doch	ADV	doch	_	O	O	
+11-9	auch	ADV	auch	_	O	O	
+11-10	mit	APPR	mit	_	O	O	
+11-11	ihm	PPER	er	_	O	O	
+11-12	ob	KOUS	ob	_	O	O	
+11-13	d.r	NE	<unknown>	_	O	O	
+11-14	Gedanke	NN	Gedanke	_	O	O	
+11-15	Borghesis	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-16	Opuscula	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-17	zus.	VVFIN	<unknown>	_	O	O	
+
+#id=12
+#text=1tQ4es: zustellen dadurch ganz fallen soll, daß B~,~keine Verantwortung und keine andre Arbeit dafür ~M-(~J~J)\" will.
+12-1	1tQ4es	NN	<unknown>	_	O	O	
+12-2	:	$.	:	_	O	O	
+12-3	zustellen	VVFIN	zustellen	_	O	O	
+12-4	dadurch	PAV	dadurch	_	O	O	
+12-5	ganz	ADV	ganz	_	O	O	
+12-6	fallen	VVINF	fallen	_	O	O	
+12-7	soll	VMFIN	sollen	_	O	O	
+12-8	,	$,	,	_	O	O	
+12-9	daß	KOUS	dass	_	O	O	
+12-10	B~,~keine	NE	<unknown>	_	O	O	
+12-11	Verantwortung	NN	Verantwortung	_	O	O	
+12-12	und	KON	und	_	O	O	
+12-13	keine	PIAT	keine	_	O	O	
+12-14	andre	PIAT	andere	_	O	O	
+12-15	Arbeit	NN	Arbeit	_	O	O	
+12-16	dafür	PAV	dafür	_	O	O	
+12-17	~M-(~J~J)\	NN	<unknown>	_	O	O	
+12-18	"	$(	"	_	O	O	
+12-19	will	VMFIN	wollen	_	O	O	
+12-20	.	$.	.	_	O	O	
+
+#id=13
+#text=Mit DeWitte und Braun gutes Vernehmen zu stiften gebe ich auf und habe daher beiden meinen Wunsch ausge-
+13-1	Mit	APPR	mit	_	O	O	
+13-2	DeWitte	NN	<unknown>	_	O	O	
+13-3	und	KON	und	_	O	O	
+13-4	Braun	NN	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-5	gutes	ADJA	gut	_	O	O	
+13-6	Vernehmen	NN	Vernehmen	_	O	O	
+13-7	zu	PTKZU	zu	_	O	O	
+13-8	stiften	VVINF	stiften	_	O	O	
+13-9	gebe	VVFIN	geben	_	O	O	
+13-10	ich	PPER	ich	_	O	O	
+13-11	auf	PTKVZ	auf	_	O	O	
+13-12	und	KON	und	_	O	O	
+13-13	habe	VAFIN	haben	_	O	O	
+13-14	daher	PAV	daher	_	O	O	
+13-15	beiden	PIAT	beide	_	O	O	
+13-16	meinen	PPOSAT	mein	_	O	O	
+13-17	Wunsch	NN	Wunsch	_	O	O	
+13-18	ausge-	TRUNC	ausge-	_	O	O	
+

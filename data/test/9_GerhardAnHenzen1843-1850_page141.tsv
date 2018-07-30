@@ -1,0 +1,299 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=• A. di Dir.
+1-1	•	NN	<unknown>	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=D. Henzen Gerhard an Henzen Berlin 14/111/1848 g. 24/111 48 r.
+2-1	D.	ART	d.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-3	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-4	an	APPR	an	_	O	O	
+2-5	Henzen	NN	<unknown>	_	O	O	
+2-6	Berlin	NE	Berlin	_	O	O	
+2-7	14/111/1848	CARD	@card@	_	O	O	
+2-8	g.	ADJA	<unknown>	_	O	O	
+2-9	24/111	CARD	@card@	_	O	O	
+2-10	48	CARD	48	_	O	O	
+2-11	r.	ADJA	<unknown>	_	O	O	
+
+#id=3
+#text=20/IV 48 Berlin 14 März 48 Die Akademie lieber Freund hat nun gestern die künftige Bearbeitung des Corpus I. L. getheilt und ist dabei auf Mommsen's Vorschlag eingegangen die Staatsinschriften, nicht ohne Aussicht auf Borghesi's und Ihre Mitwirkung die man auch direkt in Anspruch zu nehmen sich vorbehält, zunächst unverfügt zu lassen.
+3-1	20/IV	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-2	48	CARD	48	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-4	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-5	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-6	48	CARD	48	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-7	Die	ART	die	_	O	O	
+3-8	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-9	lieber	ADJD	lieb	_	O	O	
+3-10	Freund	NE	Freund	_	O	O	
+3-11	hat	VAFIN	haben	_	O	O	
+3-12	nun	ADV	nun	_	O	O	
+3-13	gestern	ADV	gestern	_	O	O	
+3-14	die	ART	die	_	O	O	
+3-15	künftige	ADJA	künftig	_	O	O	
+3-16	Bearbeitung	NN	Bearbeitung	_	O	O	
+3-17	des	ART	die	_	O	O	
+3-18	Corpus	NN	Corpus	_	O	O	
+3-19	I.	NE	I.	_	O	O	
+3-20	L.	NE	L.	_	O	O	
+3-21	getheilt	VVFIN	<unknown>	_	O	O	
+3-22	und	KON	und	_	O	O	
+3-23	ist	VAFIN	sein	_	O	O	
+3-24	dabei	PAV	dabei	_	O	O	
+3-25	auf	APPR	auf	_	O	O	
+3-26	Mommsen's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-27	Vorschlag	NN	Vorschlag	_	O	O	
+3-28	eingegangen	VVPP	eingehen	_	O	O	
+3-29	die	ART	die	_	O	O	
+3-30	Staatsinschriften	NN	<unknown>	_	O	O	
+3-31	,	$,	,	_	O	O	
+3-32	nicht	PTKNEG	nicht	_	O	O	
+3-33	ohne	APPR	ohne	_	O	O	
+3-34	Aussicht	NN	Aussicht	_	O	O	
+3-35	auf	APPR	auf	_	O	O	
+3-36	Borghesi's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-37	und	KON	und	_	O	O	
+3-38	Ihre	PPOSAT	ihr	_	O	O	
+3-39	Mitwirkung	NN	Mitwirkung	_	O	O	
+3-40	die	ART	die	_	O	O	
+3-41	man	PIS	man	_	O	O	
+3-42	auch	ADV	auch	_	O	O	
+3-43	direkt	ADJD	direkt	_	O	O	
+3-44	in	APPR	in	_	O	O	
+3-45	Anspruch	NN	Anspruch	_	O	O	
+3-46	zu	PTKVZ	zu	_	O	O	
+3-47	nehmen	VVFIN	nehmen	_	O	O	
+3-48	sich	PRF	sich	_	O	O	
+3-49	vorbehält	VVFIN	vorbehalten	_	O	O	
+3-50	,	$,	,	_	O	O	
+3-51	zunächst	ADV	zunächst	_	O	O	
+3-52	unverfügt	ADJD	<unknown>	_	O	O	
+3-53	zu	PTKZU	zu	_	O	O	
+3-54	lassen	VVINF	lassen	_	O	O	
+3-55	.	$.	.	_	O	O	
+
+#id=4
+#text=Dieses zu erreichen und zugleich dem Z~~~{Cht weniger als an Mommsen zuzutheilen, hat man sich bewogen gefunden an Mommsen die italienischen Communalinschriften exclusive Rom und an z~~~{e außerital.
+4-1	Dieses	PDAT	dies	_	O	O	
+4-2	zu	PTKZU	zu	_	O	O	
+4-3	erreichen	VVINF	erreichen	_	O	O	
+4-4	und	KON	und	_	O	O	
+4-5	zugleich	ADV	zugleich	_	O	O	
+4-6	dem	ART	die	_	O	O	
+4-7	Z~~~{Cht	NN	<unknown>	_	O	O	
+4-8	weniger	ADV	weniger	_	O	O	
+4-9	als	KOKOM	als	_	O	O	
+4-10	an	APPR	an	_	O	O	
+4-11	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-12	zuzutheilen	VVIZU	<unknown>	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	hat	VAFIN	haben	_	O	O	
+4-15	man	PIS	man	_	O	O	
+4-16	sich	PRF	sich	_	O	O	
+4-17	bewogen	ADJD	bewegt	_	O	O	
+4-18	gefunden	VVPP	finden	_	O	O	
+4-19	an	APPR	an	_	O	O	
+4-20	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-21	die	ART	die	_	O	O	
+4-22	italienischen	ADJA	italienisch	_	O	O	
+4-23	Communalinschriften	NN	<unknown>	_	O	O	
+4-24	exclusive	ADJA	<unknown>	_	O	O	
+4-25	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-26	und	KON	und	_	O	O	
+4-27	an	APPR	an	_	O	O	
+4-28	z~~~{e	NE	<unknown>	_	O	O	
+4-29	außerital	ADJD	<unknown>	_	O	O	
+4-30	.	$.	.	_	O	O	
+
+#id=5
+#text=Communalinschriften nebst denen der Stadt Rom zu vertheilen.
+5-1	Communalinschriften	NN	<unknown>	_	O	O	
+5-2	nebst	APPR	nebst	_	O	O	
+5-3	denen	PDS	die	_	O	O	
+5-4	der	ART	die	_	O	O	
+5-5	Stadt	NN	Stadt	_	O	O	
+5-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-7	zu	PTKZU	zu	_	O	O	
+5-8	vertheilen	VVINF	<unknown>	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=Wie Mommsen damit zufrieden sein wird ist nun abzuwarten; jedenfalls thäte er nicht weise wegen der Beschränkungen den glänzenden Antrag, den die Akademie auch in jetziger Zeit für 5 Jahre ihm festhält und in dessen Ausführung die Zeit ihm bequemen Modificationen mit sich bringt, sich ganz aus den Händen winden zu lassen.
+6-1	Wie	KOKOM	wie	_	O	O	
+6-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	damit	PAV	damit	_	O	O	
+6-4	zufrieden	ADJD	zufrieden	_	O	O	
+6-5	sein	VAINF	sein	_	O	O	
+6-6	wird	VAFIN	werden	_	O	O	
+6-7	ist	VAFIN	sein	_	O	O	
+6-8	nun	ADV	nun	_	O	O	
+6-9	abzuwarten	VVIZU	abwarten	_	O	O	
+6-10	;	$.	;	_	O	O	
+6-11	jedenfalls	ADV	jedenfalls	_	O	O	
+6-12	thäte	ADJD	<unknown>	_	O	O	
+6-13	er	PPER	er	_	O	O	
+6-14	nicht	PTKNEG	nicht	_	O	O	
+6-15	weise	ADJD	weise	_	O	O	
+6-16	wegen	APPR	wegen	_	O	O	
+6-17	der	ART	die	_	O	O	
+6-18	Beschränkungen	NN	Beschränkung	_	O	O	
+6-19	den	ART	die	_	O	O	
+6-20	glänzenden	ADJA	glänzend	_	O	O	
+6-21	Antrag	NN	Antrag	_	O	O	
+6-22	,	$,	,	_	O	O	
+6-23	den	PRELS	die	_	O	O	
+6-24	die	ART	die	_	O	O	
+6-25	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-26	auch	ADV	auch	_	O	O	
+6-27	in	APPR	in	_	O	O	
+6-28	jetziger	ADJA	jetzig	_	O	O	
+6-29	Zeit	NN	Zeit	_	O	O	
+6-30	für	APPR	für	_	O	O	
+6-31	5	CARD	5	_	O	O	
+6-32	Jahre	NN	Jahr	_	O	O	
+6-33	ihm	PPER	er	_	O	O	
+6-34	festhält	VVFIN	festhalten	_	O	O	
+6-35	und	KON	und	_	O	O	
+6-36	in	APPR	in	_	O	O	
+6-37	dessen	PDAT	die	_	O	O	
+6-38	Ausführung	NN	Ausführung	_	O	O	
+6-39	die	ART	die	_	O	O	
+6-40	Zeit	NN	Zeit	_	O	O	
+6-41	ihm	PPER	er	_	O	O	
+6-42	bequemen	ADJA	bequem	_	O	O	
+6-43	Modificationen	NN	<unknown>	_	O	O	
+6-44	mit	APPR	mit	_	O	O	
+6-45	sich	PRF	sich	_	O	O	
+6-46	bringt	VVFIN	bringen	_	O	O	
+6-47	,	$,	,	_	O	O	
+6-48	sich	PRF	sich	_	O	O	
+6-49	ganz	ADV	ganz	_	O	O	
+6-50	aus	APPR	aus	_	O	O	
+6-51	den	ART	die	_	O	O	
+6-52	Händen	NN	Hand	_	O	O	
+6-53	winden	VVINF	winden	_	O	O	
+6-54	zu	PTKZU	zu	_	O	O	
+6-55	lassen	VVINF	lassen	_	O	O	
+6-56	.	$.	.	_	O	O	
+
+#id=7
+#text=Vom Bull.
+7-1	Vom	APPRART	von	_	O	O	
+7-2	Bull	NE	Bull	_	O	O	
+7-3	.	$.	.	_	O	O	
+
+#id=8
+#text=erhielt ich Gennaio.
+8-1	erhielt	VVFIN	erhalten	_	O	O	
+8-2	ich	PPER	ich	_	O	O	
+8-3	Gennaio	NE	<unknown>	_	O	O	
+8-4	.	$.	.	_	O	O	
+
+#id=9
+#text=Meine Sendung Archeol.
+9-1	Meine	PPOSAT	mein	_	O	O	
+9-2	Sendung	NN	Sendung	_	O	O	
+9-3	Archeol	NN	<unknown>	_	O	O	
+9-4	.	$.	.	_	O	O	
+
+#id=10
+#text=Zeitung 4 s • ist durch das Ministerium hoffentlich ~e.r\,.... I,' Ihhen zugegangea., nachdem Hr.
+10-1	Zeitung	NN	Zeitung	_	O	O	
+10-2	4	CARD	4	_	O	O	
+10-3	s	NN	s	_	O	O	
+10-4	•	NN	<unknown>	_	O	O	
+10-5	ist	VAFIN	sein	_	O	O	
+10-6	durch	APPR	durch	_	O	O	
+10-7	das	ART	die	_	O	O	
+10-8	Ministerium	NN	Ministerium	_	O	O	
+10-9	hoffentlich	ADV	hoffentlich	_	O	O	
+10-10	~e.r\	ADJD	<unknown>	_	O	O	
+10-11	,	$,	,	_	O	O	
+10-12	...	$.	...	_	O	O	
+10-13	.	$.	.	_	O	O	
+10-14	I	FM	I	_	O	O	
+10-15	,	$,	,	_	O	O	
+10-16	'	$(	'	_	O	O	
+10-17	Ihhen	NN	<unknown>	_	O	O	
+10-18	zugegangea	NE	<unknown>	_	O	O	
+10-19	.	$.	.	_	O	O	
+10-20	,	$,	,	_	O	O	
+10-21	nachdem	KOUS	nachdem	_	O	O	
+10-22	Hr.	NN	Hr.	_	O	O	
+
+#id=11
+#text=Bethmann r\ .
+11-1	Bethmann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	r\	VVFIN	<unknown>	_	O	O	
+11-3	.	$.	.	_	O	O	
+
+#id=12
+#text=der sie ~ahm nicht gewiß ist.
+12-1	der	PRELS	die	_	O	O	
+12-2	sie	PPER	sie	_	O	O	
+12-3	~ahm	ADJD	<unknown>	_	O	O	
+12-4	nicht	PTKNEG	nicht	_	O	O	
+12-5	gewiß	ADJD	gewiss	_	O	O	
+12-6	ist	VAFIN	sein	_	O	O	
+12-7	.	$.	.	_	O	O	
+
+#id=13
+#text=Sie erhalten anbei ein Briefchen von Roß; Rangabe t'erhiel t ich nicht von ihm.
+13-1	Sie	PPER	Sie	_	O	O	
+13-2	erhalten	VVFIN	erhalten	_	O	O	
+13-3	anbei	ADV	anbei	_	O	O	
+13-4	ein	ART	eine	_	O	O	
+13-5	Briefchen	NN	Briefchen	_	O	O	
+13-6	von	APPR	von	_	O	O	
+13-7	Roß	NN	Ross	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-8	;	$.	;	_	O	O	
+13-9	Rangabe	NN	<unknown>	_	O	O	
+13-10	t'erhiel	NE	<unknown>	_	O	O	
+13-11	t	NN	t	_	O	O	
+13-12	ich	PPER	ich	_	O	O	
+13-13	nicht	PTKNEG	nicht	_	O	O	
+13-14	von	APPR	von	_	O	O	
+13-15	ihm	PPER	er	_	O	O	
+13-16	.	$.	.	_	O	O	
+
+#id=14
+#text=Grüßen Sie Brunn bestens; ich bin weit entfernt von ihm oder andren ~j~eundenBeiträge für die A~ch.
+14-1	Grüßen	VVFIN	grüßen	_	O	O	
+14-2	Sie	PPER	Sie	_	O	O	
+14-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-4	bestens	ADV	bestens	_	O	O	
+14-5	;	$.	;	_	O	O	
+14-6	ich	PPER	ich	_	O	O	
+14-7	bin	VAFIN	sein	_	O	O	
+14-8	weit	ADJD	weit	_	O	O	
+14-9	entfernt	ADJD	entfernt	_	O	O	
+14-10	von	APPR	von	_	O	O	
+14-11	ihm	PPER	er	_	O	O	
+14-12	oder	KON	oder	_	O	O	
+14-13	andren	PIAT	andere	_	O	O	
+14-14	~j~eundenBeiträge	NN	<unknown>	_	O	O	
+14-15	für	APPR	für	_	O	O	
+14-16	die	ART	die	_	O	O	
+14-17	A~ch	NN	<unknown>	_	O	O	
+14-18	.	$.	.	_	O	O	
+
+#id=15
+#text=Zeitung heischen zu wollen, obwohl was unter so guter Fir-
+15-1	Zeitung	NN	Zeitung	_	O	O	
+15-2	heischen	VVINF	<unknown>	_	O	O	
+15-3	zu	PTKZU	zu	_	O	O	
+15-4	wollen	VMINF	wollen	_	O	O	
+15-5	,	$,	,	_	O	O	
+15-6	obwohl	KOUS	obwohl	_	O	O	
+15-7	was	PIS	was	_	O	O	
+15-8	unter	APPR	unter	_	O	O	
+15-9	so	ADV	so	_	O	O	
+15-10	guter	ADJA	gut	_	O	O	
+15-11	Fir-	TRUNC	Fir-	_	O	O	
+

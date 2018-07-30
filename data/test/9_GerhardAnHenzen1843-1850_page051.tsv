@@ -1,0 +1,144 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=· .
+1-1	·	NN	<unknown>	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=.
+7-1	.	$.	.	_	O	O	
+
+#id=8
+#text=Gerhard an Henzen Berlin, 14. Mai 1846 ( Poststempel, da kein Datum ) ••••••••• gen für Dr.
+8-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+8-2	an	APPR	an	_	O	O	
+8-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+8-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+8-5	,	$,	,	_	O	O	
+8-6	14	CARD	14	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+8-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-8	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-9	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-10	(	$(	(	_	O	O	
+8-11	Poststempel	NN	Poststempel	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	da	KOUS	da	_	O	O	
+8-14	kein	PIAT	keine	_	O	O	
+8-15	Datum	NN	Datum	_	O	O	
+8-16	)	$(	)	_	O	O	
+8-17	•	ADJD	<unknown>	_	O	O	
+8-18	•	ADJA	<unknown>	_	O	O	
+8-19	•	NN	<unknown>	_	O	O	
+8-20	•	ADJA	<unknown>	_	O	O	
+8-21	•	NN	<unknown>	_	O	O	
+8-22	•	ADJA	<unknown>	_	O	O	
+8-23	•	NN	<unknown>	_	O	O	
+8-24	•	ADJA	<unknown>	_	O	O	
+8-25	•	NN	<unknown>	_	O	O	
+8-26	gen	APPR	gen	_	O	O	
+8-27	für	APPR	für	_	O	O	
+8-28	Dr.	NN	Dr.	_	O	O	
+
+#id=9
+#text=Henzen, mit bestem Gruß.
+9-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	,	$,	,	_	O	O	
+9-3	mit	APPR	mit	_	O	O	
+9-4	bestem	ADJA	gut	_	O	O	
+9-5	Gruß	NN	Gruß	_	O	O	
+9-6	.	$.	.	_	O	O	
+
+#id=10
+#text=Ob von der Straße gen Damaskus hin 2 Inschriften des M. Aurel und L. Verus bekannt sind?
+10-1	Ob	KOUS	ob	_	O	O	
+10-2	von	APPR	von	_	O	O	
+10-3	der	ART	die	_	O	O	
+10-4	Straße	NN	Straße	_	O	O	
+10-5	gen	APPR	gen	_	O	O	
+10-6	Damaskus	NE	Damaskus	_	O	O	
+10-7	hin	ADV	hin	_	O	O	
+10-8	2	CARD	2	_	O	O	
+10-9	Inschriften	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+10-10	des	ART	die	_	O	O	
+10-11	M.	NE	M.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-12	Aurel	NE	Aurel	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-13	und	KON	und	_	O	O	
+10-14	L.	NE	L.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-15	Verus	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-16	bekannt	VVPP	bekennen	_	O	O	
+10-17	sind	VAFIN	sein	_	O	O	
+10-18	?	$.	?	_	O	O	
+
+#id=11
+#text=Lepsius hat sie mitgebracht.
+11-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	hat	VAFIN	haben	_	O	O	
+11-3	sie	PPER	sie	_	O	O	
+11-4	mitgebracht	VVPP	mitbringen	_	O	O	
+11-5	.	$.	.	_	O	O	
+
+#id=12
+#text=Wo denn Herr Alexius von Bendocz zu Hause ist ?
+12-1	Wo	PWAV	wo	_	O	O	
+12-2	denn	ADV	denn	_	O	O	
+12-3	Herr	NN	Herr	_	O	O	
+12-4	Alexius	NE	Alexius	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-5	von	APPR	von	_	O	O	
+12-6	Bendocz	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-7	zu	APPR	zu	_	O	O	
+12-8	Hause	NN	Haus	_	O	O	
+12-9	ist	VAFIN	sein	_	O	O	
+12-10	?	$.	?	_	O	O	
+
+#id=13
+#text=Ob im Bulle·ttino Napoletano oder separat Avellino's Text über Mythos und Vase des Talos noch nicht erschienen ist ?
+13-1	Ob	ADV	ob	_	O	O	
+13-2	im	APPRART	in	_	O	O	
+13-3	Bulle·ttino	NE	<unknown>	_	O	O	
+13-4	Napoletano	NE	<unknown>	_	O	O	
+13-5	oder	KON	oder	_	O	O	
+13-6	separat	ADJD	separat	_	O	O	
+13-7	Avellino's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-8	Text	NN	Text	_	O	O	
+13-9	über	APPR	über	_	O	O	
+13-10	Mythos	NN	Mythos	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-11	und	KON	und	_	O	O	
+13-12	Vase	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+13-13	des	ART	die	_	I-webanno.custom.LetterEntity_	I-OBJ	
+13-14	Talos	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+13-15	noch	ADV	noch	_	O	O	
+13-16	nicht	PTKNEG	nicht	_	O	O	
+13-17	erschienen	VVPP	erscheinen	_	O	O	
+13-18	ist	VAFIN	sein	_	O	O	
+13-19	?	$.	?	_	O	O	
+
+#id=14
+#text=Poststempel von Rom 25 magg. 46
+14-1	Poststempel	NN	Poststempel	_	O	O	
+14-2	von	APPR	von	_	O	O	
+14-3	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+14-4	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+14-5	magg	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+14-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+14-7	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+

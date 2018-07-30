@@ -1,0 +1,296 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=183 Gerhard an Henzen Hanau 29/VIII/1849 A. di Dir.
+1-1	183	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-5	Hanau	NE	Hanau	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-6	29/VIII/1849	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	A.	APPRART	am	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-8	di	NE	di	_	O	O	
+1-9	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=D. Henzen g. 8/IX 49 r. 21/IX 49 Hanau 29 Aug 49 Ihr Brief lieber Freund ist mir zur Zeit des Goethefestes richtig hier zugegangen, das ich mit Weltker und auch mit Kestner begangen habe.
+2-1	D.	ART	d.	_	O	O	
+2-2	Henzen	NN	<unknown>	_	O	O	
+2-3	g.	VVFIN	<unknown>	_	O	O	
+2-4	8/IX	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-5	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-6	r.	ADJA	<unknown>	_	O	O	
+2-7	21/IX	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-8	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-9	Hanau	NE	Hanau	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-10	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-11	Aug	NE	Aug	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-12	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-13	Ihr	PPOSAT	ihr	_	O	O	
+2-14	Brief	NN	Brief	_	O	O	
+2-15	lieber	ADJD	lieb	_	O	O	
+2-16	Freund	NE	Freund	_	O	O	
+2-17	ist	VAFIN	sein	_	O	O	
+2-18	mir	PPER	ich	_	O	O	
+2-19	zur	APPRART	zu	_	O	O	
+2-20	Zeit	NN	Zeit	_	O	O	
+2-21	des	ART	die	_	O	O	
+2-22	Goethefestes	NN	<unknown>	_	O	O	
+2-23	richtig	ADJD	richtig	_	O	O	
+2-24	hier	ADV	hier	_	O	O	
+2-25	zugegangen	VVPP	zugehen	_	O	O	
+2-26	,	$,	,	_	O	O	
+2-27	das	PRELS	die	_	O	O	
+2-28	ich	PPER	ich	_	O	O	
+2-29	mit	APPR	mit	_	O	O	
+2-30	Weltker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-31	und	KON	und	_	O	O	
+2-32	auch	ADV	auch	_	O	O	
+2-33	mit	APPR	mit	_	O	O	
+2-34	Kestner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-35	begangen	VVPP	begehen	_	O	O	
+2-36	habe	VAFIN	haben	_	O	O	
+2-37	.	$.	.	_	O	O	
+
+#id=3
+#text=Unser Präsident ist ~t~ , besten Aussehns und auch Über seinen Pensionair Wel11 anscheinend getröstet.
+3-1	Unser	PPOSAT	unser	_	O	O	
+3-2	Präsident	NN	Präsident	_	O	O	
+3-3	ist	VAFIN	sein	_	O	O	
+3-4	~t~	ADJA	<unknown>	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	besten	ADJA	gut	_	O	O	
+3-7	Aussehns	NN	<unknown>	_	O	O	
+3-8	und	KON	und	_	O	O	
+3-9	auch	ADV	auch	_	O	O	
+3-10	Über	APPR	über	_	O	O	
+3-11	seinen	PPOSAT	sein	_	O	O	
+3-12	Pensionair	NN	<unknown>	_	O	O	
+3-13	Wel11	VVFIN	<unknown>	_	O	O	
+3-14	anscheinend	ADJD	anscheinend	_	O	O	
+3-15	getröstet	VVPP	trösten	_	O	O	
+3-16	.	$.	.	_	O	O	
+
+#id=4
+#text=Gern Mirde ich ihm Einiges für Die mitgeben, habe aber nur ein paar Exemplare meiner Abh. Agalkodämon zur Hand, die vor deh Ihnen zugeschriebenen Exemplar einstweilen fi.
+4-1	Gern	ADV	gern	_	O	O	
+4-2	Mirde	NN	<unknown>	_	O	O	
+4-3	ich	PPER	ich	_	O	O	
+4-4	ihm	PPER	er	_	O	O	
+4-5	Einiges	NN	<unknown>	_	O	O	
+4-6	für	APPR	für	_	O	O	
+4-7	Die	PDS	die	_	O	O	
+4-8	mitgeben	VVFIN	mitgeben	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	habe	VAFIN	haben	_	O	O	
+4-11	aber	ADV	aber	_	O	O	
+4-12	nur	ADV	nur	_	O	O	
+4-13	ein	ART	eine	_	O	O	
+4-14	paar	PIAT	paar	_	O	O	
+4-15	Exemplare	NN	Exemplar	_	O	O	
+4-16	meiner	PPOSAT	mein	_	O	O	
+4-17	Abh	NN	<unknown>	_	O	O	
+4-18	.	$.	.	_	O	O	
+4-19	Agalkodämon	NN	<unknown>	_	O	O	
+4-20	zur	APPRART	zu	_	O	O	
+4-21	Hand	NN	Hand	_	O	O	
+4-22	,	$,	,	_	O	O	
+4-23	die	PRELS	die	_	O	O	
+4-24	vor	APPR	vor	_	O	O	
+4-25	deh	NE	<unknown>	_	O	O	
+4-26	Ihnen	PPER	Sie	_	O	O	
+4-27	zugeschriebenen	ADJA	zugeschrieben	_	O	O	
+4-28	Exemplar	NN	Exemplar	_	O	O	
+4-29	einstweilen	ADV	einstweilen	_	O	O	
+4-30	fi	ADJD	<unknown>	_	O	O	
+4-31	.	$.	.	_	O	O	
+
+#id=5
+#text=:r Rom und Neapel werden dienen können.
+5-1	:r	NN	<unknown>	_	O	O	
+5-2	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-3	und	KON	und	_	O	O	
+5-4	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-5	werden	VAFIN	werden	_	O	O	
+5-6	dienen	VVINF	dienen	_	O	O	
+5-7	können	VMINF	können	_	O	O	
+5-8	.	$.	.	_	O	O	
+
+#id=6
+#text=Für Brauns dringende Ab- und Aussichten hoffe ich doch noch alle Realisation, zumal da bunsen ohne Zweifel ihm beisteht.
+6-1	Für	APPR	für	_	O	O	
+6-2	Brauns	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	dringende	ADJA	dringend	_	O	O	
+6-4	Ab-	TRUNC	Ab-	_	O	O	
+6-5	und	KON	und	_	O	O	
+6-6	Aussichten	NN	Aussicht	_	O	O	
+6-7	hoffe	VVFIN	hoffen	_	O	O	
+6-8	ich	PPER	ich	_	O	O	
+6-9	doch	ADV	doch	_	O	O	
+6-10	noch	ADV	noch	_	O	O	
+6-11	alle	PIAT	alle	_	O	O	
+6-12	Realisation	NN	Realisation	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	zumal	KOUS	zumal	_	O	O	
+6-15	da	ADV	da	_	O	O	
+6-16	bunsen	ADJD	<unknown>	_	O	O	
+6-17	ohne	APPR	ohne	_	O	O	
+6-18	Zweifel	NN	Zweifel	_	O	O	
+6-19	ihm	PPER	er	_	O	O	
+6-20	beisteht	VVFIN	beistehen	_	O	O	
+6-21	.	$.	.	_	O	O	
+
+#id=7
+#text=Ihre ~nnalen~üstigkeit freut mich sehr; die ~inlage an Panofka geht gleich ab.
+7-1	Ihre	PPOSAT	ihr	_	O	O	
+7-2	~nnalen~üstigkeit	NN	<unknown>	_	O	O	
+7-3	freut	VVFIN	freuen	_	O	O	
+7-4	mich	PRF	ich	_	O	O	
+7-5	sehr	ADV	sehr	_	O	O	
+7-6	;	$.	;	_	O	O	
+7-7	die	ART	die	_	O	O	
+7-8	~inlage	NN	<unknown>	_	O	O	
+7-9	an	APPR	an	_	O	O	
+7-10	Panofka	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-11	geht	VVFIN	gehen	_	O	O	
+7-12	gleich	ADJD	gleich	_	O	O	
+7-13	ab	PTKVZ	ab	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=Brunn möge über Bassi~.
+8-1	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	möge	VMFIN	mögen	_	O	O	
+8-3	über	APPR	über	_	O	O	
+8-4	Bassi~	NN	<unknown>	_	O	O	
+8-5	.	$.	.	_	O	O	
+
+#id=9
+#text=Albani I sich nur bald aussprechen, wenn er ein verwandtes Monument entdeckt hat 1 Mainz ist mir freilich nahe genug, doch kann ich mich dort nicht bloß für die Archäologie sehen lassen und würde für einen Zeichner ohne Zweifel auf den bereits von Lersch benutzten beschränkt sein.
+9-1	Albani	NN	Albani	_	O	O	
+9-2	I	NN	I	_	O	O	
+9-3	sich	PRF	sich	_	O	O	
+9-4	nur	ADV	nur	_	O	O	
+9-5	bald	ADV	bald	_	O	O	
+9-6	aussprechen	VVFIN	aussprechen	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	wenn	KOUS	wenn	_	O	O	
+9-9	er	PPER	er	_	O	O	
+9-10	ein	ART	eine	_	O	O	
+9-11	verwandtes	ADJA	verwandt	_	O	O	
+9-12	Monument	NN	Monument	_	O	O	
+9-13	entdeckt	VVFIN	entdecken	_	O	O	
+9-14	hat	VAFIN	haben	_	O	O	
+9-15	1	CARD	1	_	O	O	
+9-16	Mainz	NE	Mainz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-17	ist	VAFIN	sein	_	O	O	
+9-18	mir	PPER	ich	_	O	O	
+9-19	freilich	ADV	freilich	_	O	O	
+9-20	nahe	APPR	nahe	_	O	O	
+9-21	genug	ADV	genug	_	O	O	
+9-22	,	$,	,	_	O	O	
+9-23	doch	KON	doch	_	O	O	
+9-24	kann	VMFIN	können	_	O	O	
+9-25	ich	PPER	ich	_	O	O	
+9-26	mich	PRF	ich	_	O	O	
+9-27	dort	ADV	dort	_	O	O	
+9-28	nicht	PTKNEG	nicht	_	O	O	
+9-29	bloß	ADJD	bloß	_	O	O	
+9-30	für	APPR	für	_	O	O	
+9-31	die	ART	die	_	O	O	
+9-32	Archäologie	NN	Archäologie	_	O	O	
+9-33	sehen	VVINF	sehen	_	O	O	
+9-34	lassen	VVINF	lassen	_	O	O	
+9-35	und	KON	und	_	O	O	
+9-36	würde	VAFIN	werden	_	O	O	
+9-37	für	APPR	für	_	O	O	
+9-38	einen	ART	eine	_	O	O	
+9-39	Zeichner	NN	Zeichner	_	O	O	
+9-40	ohne	APPR	ohne	_	O	O	
+9-41	Zweifel	NN	Zweifel	_	O	O	
+9-42	auf	APPR	auf	_	O	O	
+9-43	den	ART	die	_	O	O	
+9-44	bereits	ADV	bereits	_	O	O	
+9-45	von	APPR	von	_	O	O	
+9-46	Lersch	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-47	benutzten	VVFIN	benutzen	_	O	O	
+9-48	beschränkt	VVPP	beschränken	_	O	O	
+9-49	sein	VAINF	sein	_	O	O	
+9-50	.	$.	.	_	O	O	
+
+#id=10
+#text=In Leyden war mir Janssen ~dlich zur Hand, ohne mich durch seine W'erke zu erfreuen; um so mehr Heiterkeit hat es mir erregt daß er unsre gute Freundschaft und ein klassisches r lt ' • (' (, '.
+10-1	In	APPR	in	_	O	O	
+10-2	Leyden	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-3	war	VAFIN	sein	_	O	O	
+10-4	mir	PPER	ich	_	O	O	
+10-5	Janssen	NE	Janssen	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-6	~dlich	ADJD	<unknown>	_	O	O	
+10-7	zur	APPRART	zu	_	O	O	
+10-8	Hand	NN	Hand	_	O	O	
+10-9	,	$,	,	_	O	O	
+10-10	ohne	KOUI	ohne	_	O	O	
+10-11	mich	PRF	ich	_	O	O	
+10-12	durch	APPR	durch	_	O	O	
+10-13	seine	PPOSAT	sein	_	O	O	
+10-14	W'erke	NN	<unknown>	_	O	O	
+10-15	zu	PTKZU	zu	_	O	O	
+10-16	erfreuen	VVINF	erfreuen	_	O	O	
+10-17	;	$.	;	_	O	O	
+10-18	um	APPR	um	_	O	O	
+10-19	so	ADV	so	_	O	O	
+10-20	mehr	PIAT	mehr	_	O	O	
+10-21	Heiterkeit	NN	Heiterkeit	_	O	O	
+10-22	hat	VAFIN	haben	_	O	O	
+10-23	es	PPER	es	_	O	O	
+10-24	mir	PPER	ich	_	O	O	
+10-25	erregt	VVFIN	erregen	_	O	O	
+10-26	daß	KOUS	dass	_	O	O	
+10-27	er	PPER	er	_	O	O	
+10-28	unsre	PPOSAT	unsre	_	O	O	
+10-29	gute	ADJA	gut	_	O	O	
+10-30	Freundschaft	NN	Freundschaft	_	O	O	
+10-31	und	KON	und	_	O	O	
+10-32	ein	ART	eine	_	O	O	
+10-33	klassisches	ADJA	klassisch	_	O	O	
+10-34	r	NE	r	_	O	O	
+10-35	lt	NN	<unknown>	_	O	O	
+10-36	'	$(	'	_	O	O	
+10-37	•	NN	<unknown>	_	O	O	
+10-38	(	$(	(	_	O	O	
+10-39	'	$(	'	_	O	O	
+10-40	(	$(	(	_	O	O	
+10-41	,	$,	,	_	O	O	
+10-42	'	$(	'	_	O	O	
+10-43	.	$.	.	_	O	O	
+
+#id=11
+#text=C , , A "', j ~"'\I-"> ," !
+11-1	C	NN	C	_	O	O	
+11-2	,	$,	,	_	O	O	
+11-3	,	$,	,	_	O	O	
+11-4	A	FM	A	_	O	O	
+11-5	"	$(	"	_	O	O	
+11-6	'	$(	'	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	j	VVFIN	<unknown>	_	O	O	
+11-9	~"'\I-">	ADJD	<unknown>	_	O	O	
+11-10	,	$,	,	_	O	O	
+11-11	"	$(	"	_	O	O	
+11-12	!	$.	!	_	O	O	
+
+#id=12
+#text=I ~/_ durch ein paar Tage meines Besuches Ihrem zugeschriebenen 'epigraph.
+12-1	I	FM	I	_	O	O	
+12-2	~/_	NN	<unknown>	_	O	O	
+12-3	durch	APPR	durch	_	O	O	
+12-4	ein	ART	eine	_	O	O	
+12-5	paar	PIAT	paar	_	O	O	
+12-6	Tage	NN	Tag	_	O	O	
+12-7	meines	PPOSAT	mein	_	O	O	
+12-8	Besuches	NN	Besuch	_	O	O	
+12-9	Ihrem	PPOSAT	ihr	_	O	O	
+12-10	zugeschriebenen	ADJA	zugeschrieben	_	O	O	
+12-11	'	$(	'	_	O	O	
+12-12	epigraph	NN	<unknown>	_	O	O	
+12-13	.	$.	.	_	O	O	
+

@@ -1,0 +1,105 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=680 Gerhard an Henzen 23/XI/1843 3 und scheint recht kräftig.
+1-1	680	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	23/XI/1843	CARD	<unknown>	_	O	O	
+1-6	3	CARD	3	_	O	O	
+1-7	und	KON	und	_	O	O	
+1-8	scheint	VVFIN	scheinen	_	O	O	
+1-9	recht	ADJD	recht	_	O	O	
+1-10	kräftig	ADJD	kräftig	_	O	O	
+1-11	.	$.	.	_	O	O	
+
+#id=2
+#text=Meine Frau ist durch Heiserkeit seit wir zurück sind ans Zimmer gebannt, sonst wohl und grüßt bestens.
+2-1	Meine	PPOSAT	mein	_	O	O	
+2-2	Frau	NN	Frau	_	O	O	
+2-3	ist	VAFIN	sein	_	O	O	
+2-4	durch	APPR	durch	_	O	O	
+2-5	Heiserkeit	NN	Heiserkeit	_	O	O	
+2-6	seit	APPR	seit	_	O	O	
+2-7	wir	PPER	wir	_	O	O	
+2-8	zurück	PTKVZ	zurück	_	O	O	
+2-9	sind	VAFIN	sein	_	O	O	
+2-10	ans	APPRART	ans	_	O	O	
+2-11	Zimmer	NN	Zimmer	_	O	O	
+2-12	gebannt	VVPP	bannen	_	O	O	
+2-13	,	$,	,	_	O	O	
+2-14	sonst	ADV	sonst	_	O	O	
+2-15	wohl	ADV	wohl	_	O	O	
+2-16	und	KON	und	_	O	O	
+2-17	grüßt	VVFIN	grüßen	_	O	O	
+2-18	bestens	ADV	bestens	_	O	O	
+2-19	.	$.	.	_	O	O	
+
+#id=3
+#text=Endlich vi~l Herzliches an Brunn und seine~Frau; er schreibt mir wal bald.
+3-1	Endlich	ADV	endlich	_	O	O	
+3-2	vi~l	NE	<unknown>	_	O	O	
+3-3	Herzliches	NN	Herzliche	_	O	O	
+3-4	an	APPR	an	_	O	O	
+3-5	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-6	und	KON	und	_	O	O	
+3-7	seine~Frau	NN	<unknown>	_	O	O	
+3-8	;	$.	;	_	O	O	
+3-9	er	PPER	er	_	O	O	
+3-10	schreibt	VVFIN	schreiben	_	O	O	
+3-11	mir	PPER	ich	_	O	O	
+3-12	wal	ADJD	<unknown>	_	O	O	
+3-13	bald	ADV	bald	_	O	O	
+3-14	.	$.	.	_	O	O	
+
+#id=4
+#text=Ganz der Ihrige Gerhard Von Br~n wünsche ich baldige ~ntwort, unter an- ~~ drem über Borghesis Instituts-Volontariat; ferner ob die Paris-Tiresias Vase in Bull.
+4-1	Ganz	ADV	ganz	_	O	O	
+4-2	der	ART	die	_	O	O	
+4-3	Ihrige	PPOSAT	ihrige	_	O	O	
+4-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+4-5	Von	APPR	von	_	O	O	
+4-6	Br~n	NE	<unknown>	_	O	O	
+4-7	wünsche	VVFIN	wünschen	_	O	O	
+4-8	ich	PPER	ich	_	O	O	
+4-9	baldige	ADJA	baldig	_	O	O	
+4-10	~ntwort	NN	<unknown>	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	unter	APPR	unter	_	O	O	
+4-13	an-	TRUNC	an-	_	O	O	
+4-14	~~	ADJA	<unknown>	_	O	O	
+4-15	drem	NN	<unknown>	_	O	O	
+4-16	über	APPR	über	_	O	O	
+4-17	Borghesis	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-18	Instituts-Volontariat	NN	<unknown>	_	O	O	
+4-19	;	$.	;	_	O	O	
+4-20	ferner	ADJD	fern	_	O	O	
+4-21	ob	APPR	ob	_	O	O	
+4-22	die	ART	die	_	O	O	
+4-23	Paris-Tiresias	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+4-24	Vase	NN	Vase	_	I-webanno.custom.LetterEntity_	I-OBJ	
+4-25	in	APPR	in	_	O	O	
+4-26	Bull	NE	Bull	_	O	O	
+4-27	.	$.	.	_	O	O	
+
+#id=5
+#text=Napol. tav.
+5-1	Napol	NN	<unknown>	_	O	O	
+5-2	.	$.	.	_	O	O	
+5-3	tav	NE	<unknown>	_	O	O	
+5-4	.	$.	.	_	O	O	
+
+#id=6
+#text=56 in rich- ~~~~ tiger oder ~ter Richtung publicirt sei.
+6-1	56	CARD	56	_	O	O	
+6-2	in	APPR	in	_	O	O	
+6-3	rich-	TRUNC	rich-	_	O	O	
+6-4	~~~~	NN	<unknown>	_	O	O	
+6-5	tiger	VVIMP	tigern	_	O	O	
+6-6	oder	KON	oder	_	O	O	
+6-7	~ter	ADJA	<unknown>	_	O	O	
+6-8	Richtung	NN	Richtung	_	O	O	
+6-9	publicirt	ADJD	<unknown>	_	O	O	
+6-10	sei	VAFIN	sein	_	O	O	
+6-11	.	$.	.	_	O	O	
+

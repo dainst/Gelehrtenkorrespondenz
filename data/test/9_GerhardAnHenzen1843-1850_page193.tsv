@@ -1,0 +1,280 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=256 A. di Dir.
+1-1	256	CARD	@card@	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=(~,t,,-t.
+3-1	(	$(	(	_	O	O	
+3-2	~,t,,-t	NN	<unknown>	_	O	O	
+3-3	.	$.	.	_	O	O	
+
+#id=4
+#text="'C D. Henzen Gerhard an Henzen Berlin 24/XI/1849 g. r. 4/XI -"~--- 7/XI 49 49 Berlin 24 Nov.
+4-1	"	$(	"	_	O	O	
+4-2	'	$(	'	_	O	O	
+4-3	C	NN	C	_	O	O	
+4-4	D.	NE	D.	_	O	O	
+4-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+4-6	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+4-7	an	APPR	an	_	O	O	
+4-8	Henzen	NN	<unknown>	_	O	O	
+4-9	Berlin	NE	Berlin	_	O	O	
+4-10	24/XI/1849	CARD	<unknown>	_	O	O	
+4-11	g.	ADJA	<unknown>	_	O	O	
+4-12	r.	ADJA	<unknown>	_	O	O	
+4-13	4/XI	NN	<unknown>	_	O	O	
+4-14	-"~-	ADJA	<unknown>	_	O	O	
+4-15	--	$(	--	_	O	O	
+4-16	7/XI	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+4-17	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+4-18	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+4-19	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-20	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-21	Nov.	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=5
+#text=49.
+5-1	49	CARD	@card@	_	O	O	
+5-2	.	$.	.	_	O	O	
+
+#id=6
+#text=~i {( Obwohl gar nichts Archäologisch dringendes vorliegt lieber Freund so muß ich doch diesmal Ihre oder richtiger zu reden Ihrer lieben Frau GUte für eine besorgung in A ns_ ~ pruch zu nehmen die unser großgeistiger alter Freund v. Sidow zum Behuf eines Weihnachtsgeschenks mir dringend empfiehlt.
+6-1	~i	NN	<unknown>	_	O	O	
+6-2	{	$(	{	_	O	O	
+6-3	(	$(	(	_	O	O	
+6-4	Obwohl	KOUS	obwohl	_	O	O	
+6-5	gar	ADV	gar	_	O	O	
+6-6	nichts	PIS	nichts	_	O	O	
+6-7	Archäologisch	ADJD	archäologisch	_	O	O	
+6-8	dringendes	ADJA	dringend	_	O	O	
+6-9	vorliegt	VVFIN	vorliegen	_	O	O	
+6-10	lieber	ADJD	lieb	_	O	O	
+6-11	Freund	NE	Freund	_	O	O	
+6-12	so	ADV	so	_	O	O	
+6-13	muß	VMFIN	müssen	_	O	O	
+6-14	ich	PPER	ich	_	O	O	
+6-15	doch	ADV	doch	_	O	O	
+6-16	diesmal	ADV	diesmal	_	O	O	
+6-17	Ihre	PPOSAT	ihr	_	O	O	
+6-18	oder	KON	oder	_	O	O	
+6-19	richtiger	ADJD	richtig	_	O	O	
+6-20	zu	PTKZU	zu	_	O	O	
+6-21	reden	VVINF	reden	_	O	O	
+6-22	Ihrer	PPOSAT	ihr	_	O	O	
+6-23	lieben	ADJA	lieb	_	O	O	
+6-24	Frau	NN	Frau	_	O	O	
+6-25	GUte	NN	Gute	_	O	O	
+6-26	für	APPR	für	_	O	O	
+6-27	eine	ART	eine	_	O	O	
+6-28	besorgung	NN	Besorgung	_	O	O	
+6-29	in	APPR	in	_	O	O	
+6-30	A	NN	A	_	O	O	
+6-31	ns_	ADJA	<unknown>	_	O	O	
+6-32	~	XY	~	_	O	O	
+6-33	pruch	NN	<unknown>	_	O	O	
+6-34	zu	PTKZU	zu	_	O	O	
+6-35	nehmen	VVINF	nehmen	_	O	O	
+6-36	die	ART	die	_	O	O	
+6-37	unser	PPOSAT	unser	_	O	O	
+6-38	großgeistiger	ADJA	<unknown>	_	O	O	
+6-39	alter	ADJA	alt	_	O	O	
+6-40	Freund	NN	Freund	_	O	O	
+6-41	v.	APPR	von	_	O	O	
+6-42	Sidow	NE	<unknown>	_	O	O	
+6-43	zum	APPRART	zu	_	O	O	
+6-44	Behuf	NN	<unknown>	_	O	O	
+6-45	eines	ART	eine	_	O	O	
+6-46	Weihnachtsgeschenks	NN	<unknown>	_	O	O	
+6-47	mir	PRF	ich	_	O	O	
+6-48	dringend	ADJD	dringend	_	O	O	
+6-49	empfiehlt	VVFIN	empfehlen	_	O	O	
+6-50	.	$.	.	_	O	O	
+
+#id=7
+#text=Derselbe wünscht ein Mosaik der Capitolinischen ..... 'aube~ in ähnlicher Art wie ich sie, ein solches für meine Frau kaufend, bei Barberi in großer Auswahl vorfand: ich würde also bitten ein solches etwa zum Preis von 4 Scudi gefälligst mir ankaufen und durch Diligence baldmöglichst mir zugehen zu lassen.
+7-1	Derselbe	PDS	derselbe	_	O	O	
+7-2	wünscht	VVFIN	wünschen	_	O	O	
+7-3	ein	ART	eine	_	O	O	
+7-4	Mosaik	NN	Mosaik	_	B-webanno.custom.LetterEntity_	B-OBJ	
+7-5	der	ART	die	_	O	O	
+7-6	Capitolinischen	NN	<unknown>	_	O	O	
+7-7	...	$.	...	_	O	O	
+7-8	.	$.	.	_	O	O	
+7-9	.	$.	.	_	O	O	
+7-10	'	$(	'	_	O	O	
+7-11	aube~	VVIMP	<unknown>	_	O	O	
+7-12	in	APPR	in	_	O	O	
+7-13	ähnlicher	ADJA	ähnlich	_	O	O	
+7-14	Art	NN	Art	_	O	O	
+7-15	wie	KOUS	wie	_	O	O	
+7-16	ich	PPER	ich	_	O	O	
+7-17	sie	PPER	sie	_	O	O	
+7-18	,	$,	,	_	O	O	
+7-19	ein	ART	eine	_	O	O	
+7-20	solches	PIAT	solche	_	O	O	
+7-21	für	APPR	für	_	O	O	
+7-22	meine	PPOSAT	mein	_	O	O	
+7-23	Frau	NN	Frau	_	O	O	
+7-24	kaufend	ADJD	kaufend	_	O	O	
+7-25	,	$,	,	_	O	O	
+7-26	bei	APPR	bei	_	O	O	
+7-27	Barberi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-28	in	APPR	in	_	O	O	
+7-29	großer	ADJA	groß	_	O	O	
+7-30	Auswahl	NN	Auswahl	_	O	O	
+7-31	vorfand	VVFIN	vorfinden	_	O	O	
+7-32	:	$.	:	_	O	O	
+7-33	ich	PPER	ich	_	O	O	
+7-34	würde	VAFIN	werden	_	O	O	
+7-35	also	ADV	also	_	O	O	
+7-36	bitten	VVFIN	bitten	_	O	O	
+7-37	ein	ART	eine	_	O	O	
+7-38	solches	PIAT	solche	_	O	O	
+7-39	etwa	ADV	etwa	_	O	O	
+7-40	zum	APPRART	zu	_	O	O	
+7-41	Preis	NN	Preis	_	O	O	
+7-42	von	APPR	von	_	O	O	
+7-43	4	CARD	4	_	O	O	
+7-44	Scudi	NN	<unknown>	_	O	O	
+7-45	gefälligst	ADJD	gefälligst	_	O	O	
+7-46	mir	PPER	ich	_	O	O	
+7-47	ankaufen	VVINF	ankaufen	_	O	O	
+7-48	und	KON	und	_	O	O	
+7-49	durch	APPR	durch	_	O	O	
+7-50	Diligence	NN	<unknown>	_	O	O	
+7-51	baldmöglichst	ADV	baldmöglichst	_	O	O	
+7-52	mir	PPER	ich	_	O	O	
+7-53	zugehen	VVINF	zugehen	_	O	O	
+7-54	zu	PTKZU	zu	_	O	O	
+7-55	lassen	VVINF	lassen	_	O	O	
+7-56	.	$.	.	_	O	O	
+
+#id=8
+#text=Ist eine einfache goldene Fassung gleich mit hinzuzukaufen, so ist es willkommen; doch wird deshalb keineZeitversäumniß gewünscht.
+8-1	Ist	VAFIN	sein	_	O	O	
+8-2	eine	ART	eine	_	O	O	
+8-3	einfache	ADJA	einfach	_	O	O	
+8-4	goldene	ADJA	golden	_	O	O	
+8-5	Fassung	NN	Fassung	_	O	O	
+8-6	gleich	ADJD	gleich	_	O	O	
+8-7	mit	APPR	mit	_	O	O	
+8-8	hinzuzukaufen	ADJA	<unknown>	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	so	ADV	so	_	O	O	
+8-11	ist	VAFIN	sein	_	O	O	
+8-12	es	PPER	es	_	O	O	
+8-13	willkommen	ADJD	willkommen	_	O	O	
+8-14	;	$.	;	_	O	O	
+8-15	doch	ADV	doch	_	O	O	
+8-16	wird	VAFIN	werden	_	O	O	
+8-17	deshalb	PAV	deshalb	_	O	O	
+8-18	keineZeitversäumniß	ADV	<unknown>	_	O	O	
+8-19	gewünscht	VVPP	wünschen	_	O	O	
+8-20	.	$.	.	_	O	O	
+
+#id=9
+#text=Die Auslage zu machen und zu berechnen wird Ihnen nicht schwer sein.
+9-1	Die	ART	die	_	O	O	
+9-2	Auslage	NN	Auslage	_	O	O	
+9-3	zu	PTKZU	zu	_	O	O	
+9-4	machen	VVINF	machen	_	O	O	
+9-5	und	KON	und	_	O	O	
+9-6	zu	PTKZU	zu	_	O	O	
+9-7	berechnen	VVINF	berechnen	_	O	O	
+9-8	wird	VAFIN	werden	_	O	O	
+9-9	Ihnen	PPER	Sie	_	O	O	
+9-10	nicht	PTKNEG	nicht	_	O	O	
+9-11	schwer	ADJD	schwer	_	O	O	
+9-12	sein	VAINF	sein	_	O	O	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=(\M..M..t..r.> Ein -andres 131Eltt Arch.
+10-1	(	$(	(	_	O	O	
+10-2	\M..M..t..r.>	NN	<unknown>	_	O	O	
+10-3	Ein	ART	eine	_	O	O	
+10-4	-andres	ADJA	<unknown>	_	O	O	
+10-5	131Eltt	NN	<unknown>	_	O	O	
+10-6	Arch	VVFIN	<unknown>	_	O	O	
+10-7	.	$.	.	_	O	O	
+
+#id=11
+#text=Zeitung sollen ..... ie gleichzeitig unter Band erhalten, da lateinische Inschriften aus S. Paolo f. d. m. - vom guten Mercklin ohne viel Ausbeute darin/und Ihnen vielleicht zum Ausschnitt bequem sind.
+11-1	Zeitung	NN	Zeitung	_	O	O	
+11-2	sollen	VMFIN	sollen	_	O	O	
+11-3	...	$.	...	_	O	O	
+11-4	.	$.	.	_	O	O	
+11-5	.	$.	.	_	O	O	
+11-6	ie	ADJD	<unknown>	_	O	O	
+11-7	gleichzeitig	ADJD	gleichzeitig	_	O	O	
+11-8	unter	APPR	unter	_	O	O	
+11-9	Band	NN	Band	_	O	O	
+11-10	erhalten	VVPP	erhalten	_	O	O	
+11-11	,	$,	,	_	O	O	
+11-12	da	KOUS	da	_	O	O	
+11-13	lateinische	ADJA	lateinisch	_	O	O	
+11-14	Inschriften	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-15	aus	APPR	aus	_	O	O	
+11-16	S.	NE	S.	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-17	Paolo	NE	Paolo	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+11-18	f.	APPR	f.	_	O	O	
+11-19	d.	ART	d.	_	O	O	
+11-20	m.	APPR	m.	_	O	O	
+11-21	-	$(	-	_	O	O	
+11-22	vom	APPRART	von	_	O	O	
+11-23	guten	ADJA	gut	_	O	O	
+11-24	Mercklin	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-25	ohne	APPR	ohne	_	O	O	
+11-26	viel	PIAT	viele	_	O	O	
+11-27	Ausbeute	NN	Ausbeute	_	O	O	
+11-28	darin/und	VVFIN	<unknown>	_	O	O	
+11-29	Ihnen	PPER	Sie	_	O	O	
+11-30	vielleicht	ADV	vielleicht	_	O	O	
+11-31	zum	APPRART	zu	_	O	O	
+11-32	Ausschnitt	NN	Ausschnitt	_	O	O	
+11-33	bequem	ADJD	bequem	_	O	O	
+11-34	sind	VAFIN	sein	_	O	O	
+11-35	.	$.	.	_	O	O	
+
+#id=12
+#text=Brauns lassen sich von Gotha her erst in nächster Woche hier erwarten.
+12-1	Brauns	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	lassen	VVFIN	lassen	_	O	O	
+12-3	sich	PRF	sich	_	O	O	
+12-4	von	APPR	von	_	O	O	
+12-5	Gotha	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-6	her	ADV	her	_	O	O	
+12-7	erst	ADV	erst	_	O	O	
+12-8	in	APPR	in	_	O	O	
+12-9	nächster	ADJA	nah	_	O	O	
+12-10	Woche	NN	Woche	_	O	O	
+12-11	hier	ADV	hier	_	O	O	
+12-12	erwarten	VVINF	erwarten	_	O	O	
+12-13	.	$.	.	_	O	O	
+
+#id=13
+#text=Meine Frau grüßt mit mir.
+13-1	Meine	PPOSAT	mein	_	O	O	
+13-2	Frau	NN	Frau	_	O	O	
+13-3	grüßt	VVFIN	grüßen	_	O	O	
+13-4	mit	APPR	mit	_	O	O	
+13-5	mir	PPER	ich	_	O	O	
+13-6	.	$.	.	_	O	O	
+
+#id=14
+#text=Von Herzen der ~hrige Gerhard I
+14-1	Von	APPR	von	_	O	O	
+14-2	Herzen	NN	Herz	_	O	O	
+14-3	der	ART	die	_	O	O	
+14-4	~hrige	ADJA	<unknown>	_	O	O	
+14-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+14-6	I	FM	I	_	O	O	
+

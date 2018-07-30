@@ -1,0 +1,281 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=204 A. di Dir.
+1-1	204	CARD	@card@	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=D. Renzen Gerhard an Henzen Berlin 13/IX/1849 g. 25/IX 49 r. 9/X 49 Berlin 13 Sept 49 Gleich nach meiner gestrigen Rückkehr empfange ich Ihren neuesten Brief lieber Freund und antworte um so schneller, da auch für Fran~ois nun Antwort da ist.
+2-1	D.	ART	d.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	Renzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-3	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-4	an	APPR	an	_	O	O	
+2-5	Henzen	NN	<unknown>	_	O	O	
+2-6	Berlin	NE	Berlin	_	O	O	
+2-7	13/IX/1849	CARD	<unknown>	_	O	O	
+2-8	g.	ADJA	<unknown>	_	O	O	
+2-9	25/IX	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-10	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-11	r.	ADJA	<unknown>	_	O	O	
+2-12	9/X	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-13	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-15	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-16	Sept	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-17	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-18	Gleich	NN	<unknown>	_	O	O	
+2-19	nach	APPR	nach	_	O	O	
+2-20	meiner	PPOSAT	mein	_	O	O	
+2-21	gestrigen	ADJA	gestrig	_	O	O	
+2-22	Rückkehr	NN	Rückkehr	_	O	O	
+2-23	empfange	VVFIN	empfangen	_	O	O	
+2-24	ich	PPER	ich	_	O	O	
+2-25	Ihren	PPOSAT	ihr	_	O	O	
+2-26	neuesten	ADJA	neu	_	O	O	
+2-27	Brief	NN	Brief	_	O	O	
+2-28	lieber	ADJA	lieb	_	O	O	
+2-29	Freund	NN	Freund	_	O	O	
+2-30	und	KON	und	_	O	O	
+2-31	antworte	VVFIN	antworten	_	O	O	
+2-32	um	APPR	um	_	O	O	
+2-33	so	ADV	so	_	O	O	
+2-34	schneller	ADJD	schnell	_	O	O	
+2-35	,	$,	,	_	O	O	
+2-36	da	KOUS	da	_	O	O	
+2-37	auch	ADV	auch	_	O	O	
+2-38	für	APPR	für	_	O	O	
+2-39	Fran~ois	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-40	nun	ADV	nun	_	O	O	
+2-41	Antwort	NN	Antwort	_	O	O	
+2-42	da	ADV	da	_	O	O	
+2-43	ist	VAFIN	sein	_	O	O	
+2-44	.	$.	.	_	O	O	
+
+#id=3
+#text=Trotz meiner Verwendung durch Olfers und ausführlichen Empfehlungsbrief ist der Orden unerreichbar gewesen, ich vermuthe weil schon in anderem Sinne von Reumont geschrieben war; die Medaille ist aber schön und wird hoffentlich Freude machen.
+3-1	Trotz	APPR	trotz	_	O	O	
+3-2	meiner	PPOSAT	mein	_	O	O	
+3-3	Verwendung	NN	Verwendung	_	O	O	
+3-4	durch	APPR	durch	_	O	O	
+3-5	Olfers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	und	KON	und	_	O	O	
+3-7	ausführlichen	ADJA	ausführlich	_	O	O	
+3-8	Empfehlungsbrief	NN	<unknown>	_	O	O	
+3-9	ist	VAFIN	sein	_	O	O	
+3-10	der	ART	die	_	O	O	
+3-11	Orden	NN	Orden	_	O	O	
+3-12	unerreichbar	ADJD	unerreichbar	_	O	O	
+3-13	gewesen	VAPP	sein	_	O	O	
+3-14	,	$,	,	_	O	O	
+3-15	ich	PPER	ich	_	O	O	
+3-16	vermuthe	VVFIN	<unknown>	_	O	O	
+3-17	weil	KOUS	weil	_	O	O	
+3-18	schon	ADV	schon	_	O	O	
+3-19	in	APPR	in	_	O	O	
+3-20	anderem	PIS	andere	_	O	O	
+3-21	Sinne	NN	Sinn	_	O	O	
+3-22	von	APPR	von	_	O	O	
+3-23	Reumont	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-24	geschrieben	VVPP	schreiben	_	O	O	
+3-25	war	VAFIN	sein	_	O	O	
+3-26	;	$.	;	_	O	O	
+3-27	die	ART	die	_	O	O	
+3-28	Medaille	NN	Medaille	_	O	O	
+3-29	ist	VAFIN	sein	_	O	O	
+3-30	aber	ADV	aber	_	O	O	
+3-31	schön	ADJD	schön	_	O	O	
+3-32	und	KON	und	_	O	O	
+3-33	wird	VAFIN	werden	_	O	O	
+3-34	hoffentlich	ADV	hoffentlich	_	O	O	
+3-35	Freude	NN	Freude	_	O	O	
+3-36	machen	VVINF	machen	_	O	O	
+3-37	.	$.	.	_	O	O	
+
+#id=4
+#text=Dank~ Ihnen und ihm für die von Minervini ermittelte sehrw<)llkommene Notiz.
+4-1	Dank~	VVFIN	<unknown>	_	O	O	
+4-2	Ihnen	PPER	Sie	_	O	O	
+4-3	und	KON	und	_	O	O	
+4-4	ihm	PPER	er	_	O	O	
+4-5	für	APPR	für	_	O	O	
+4-6	die	ART	die	_	O	O	
+4-7	von	APPR	von	_	O	O	
+4-8	Minervini	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-9	ermittelte	VVFIN	ermitteln	_	O	O	
+4-10	sehrw<)llkommene	ADJA	<unknown>	_	O	O	
+4-11	Notiz	NN	Notiz	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Noch jetzt ein Artikelchen für die Annali zu schaffen will ich versuchen sobald ich nach etlichen Tagen etwas freier um mich sehe.
+5-1	Noch	ADV	noch	_	O	O	
+5-2	jetzt	ADV	jetzt	_	O	O	
+5-3	ein	ART	eine	_	O	O	
+5-4	Artikelchen	NN	<unknown>	_	O	O	
+5-5	für	APPR	für	_	O	O	
+5-6	die	ART	die	_	O	O	
+5-7	Annali	NE	<unknown>	_	O	O	
+5-8	zu	PTKZU	zu	_	O	O	
+5-9	schaffen	VVINF	schaffen	_	O	O	
+5-10	will	VMFIN	wollen	_	O	O	
+5-11	ich	PPER	ich	_	O	O	
+5-12	versuchen	VVFIN	versuchen	_	O	O	
+5-13	sobald	KOUS	sobald	_	O	O	
+5-14	ich	PPER	ich	_	O	O	
+5-15	nach	APPR	nach	_	O	O	
+5-16	etlichen	PIAT	etliche	_	O	O	
+5-17	Tagen	NN	Tag	_	O	O	
+5-18	etwas	ADV	etwas	_	O	O	
+5-19	freier	ADJD	frei	_	O	O	
+5-20	um	APPR	um	_	O	O	
+5-21	mich	PRF	ich	_	O	O	
+5-22	sehe	VVFIN	sehen	_	O	O	
+5-23	.	$.	.	_	O	O	
+
+#id=6
+#text=Eine Gelegenheit nach Rom scheint endlich Neigebaur darzubieten ich schicke ihm das Dringendste nech Breslau, verheiße ihm wo möglich ~+.
+6-1	Eine	ART	eine	_	O	O	
+6-2	Gelegenheit	NN	Gelegenheit	_	O	O	
+6-3	nach	APPR	nach	_	O	O	
+6-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-5	scheint	VVFIN	scheinen	_	O	O	
+6-6	endlich	ADV	endlich	_	O	O	
+6-7	Neigebaur	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-8	darzubieten	VVIZU	darbieten	_	O	O	
+6-9	ich	PPER	ich	_	O	O	
+6-10	schicke	VVFIN	schicken	_	O	O	
+6-11	ihm	PPER	er	_	O	O	
+6-12	das	ART	die	_	O	O	
+6-13	Dringendste	NN	Dringendste	_	O	O	
+6-14	nech	VVFIN	<unknown>	_	O	O	
+6-15	Breslau	NE	Breslau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-16	,	$,	,	_	O	O	
+6-17	verheiße	VVFIN	verheißen	_	O	O	
+6-18	ihm	PPER	er	_	O	O	
+6-19	wo	PWAV	wo	_	O	O	
+6-20	möglich	ADJD	möglich	_	O	O	
+6-21	~+	ADJD	<unknown>	_	O	O	
+6-22	.	$.	.	_	O	O	
+
+#id=7
+#text=eine ~u8telladresse für die Post nach Genua, und denke ihm auch noch die gewünschten Diplome mitzugeben.
+7-1	eine	ART	eine	_	O	O	
+7-2	~u8telladresse	NN	<unknown>	_	O	O	
+7-3	für	APPR	für	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	Post	NN	Post	_	O	O	
+7-6	nach	APPR	nach	_	O	O	
+7-7	Genua	NE	Genua	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-8	,	$,	,	_	O	O	
+7-9	und	KON	und	_	O	O	
+7-10	denke	VVFIN	denken	_	O	O	
+7-11	ihm	PPER	er	_	O	O	
+7-12	auch	ADV	auch	_	O	O	
+7-13	noch	ADV	noch	_	O	O	
+7-14	die	ART	die	_	O	O	
+7-15	gewünschten	ADJA	gewünscht	_	O	O	
+7-16	Diplome	NN	Diplom	_	O	O	
+7-17	mitzugeben	VVIZU	mitgeben	_	O	O	
+7-18	.	$.	.	_	O	O	
+
+#id=8
+#text=Panofka grüßt bestens und erklärt als Antwort auf Ihren und Brunns Brief daß er nichts dagegen habe wenn derselbe mit einem andern ~/Ill J ,,'.
+8-1	Panofka	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	grüßt	VVFIN	grüßen	_	O	O	
+8-3	bestens	ADV	bestens	_	O	O	
+8-4	und	KON	und	_	O	O	
+8-5	erklärt	VVFIN	erklären	_	O	O	
+8-6	als	KOKOM	als	_	O	O	
+8-7	Antwort	NN	Antwort	_	O	O	
+8-8	auf	APPR	auf	_	O	O	
+8-9	Ihren	PPOSAT	ihr	_	O	O	
+8-10	und	KON	und	_	O	O	
+8-11	Brunns	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-12	Brief	NN	Brief	_	O	O	
+8-13	daß	KOUS	dass	_	O	O	
+8-14	er	PPER	er	_	O	O	
+8-15	nichts	PIS	nichts	_	O	O	
+8-16	dagegen	PAV	dagegen	_	O	O	
+8-17	habe	VAFIN	haben	_	O	O	
+8-18	wenn	KOUS	wenn	_	O	O	
+8-19	derselbe	PDS	derselbe	_	O	O	
+8-20	mit	APPR	mit	_	O	O	
+8-21	einem	ART	eine	_	O	O	
+8-22	andern	PIAT	andere	_	O	O	
+8-23	~/Ill	ADJA	<unknown>	_	O	O	
+8-24	J	NN	J	_	O	O	
+8-25	,	$,	,	_	O	O	
+8-26	,	$,	,	_	O	O	
+8-27	'	$(	'	_	O	O	
+8-28	.	$.	.	_	O	O	
+
+#id=9
+#text=hinter seinem Aufsatz über das B'tss.
+9-1	hinter	APPR	hinter	_	O	O	
+9-2	seinem	PPOSAT	sein	_	O	O	
+9-3	Aufsatz	NN	Aufsatz	_	O	O	
+9-4	über	APPR	über	_	O	O	
+9-5	das	ART	die	_	O	O	
+9-6	B'tss	NN	<unknown>	_	O	O	
+9-7	.	$.	.	_	O	O	
+
+#id=10
+#text=Albani sich vernehmen rasse, sonach wäre dieser immerhin zu drucken.
+10-1	Albani	NN	Albani	_	O	O	
+10-2	sich	PRF	sich	_	O	O	
+10-3	vernehmen	VVFIN	vernehmen	_	O	O	
+10-4	rasse	NN	Rasse	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	sonach	ADV	sonach	_	O	O	
+10-7	wäre	VAFIN	sein	_	O	O	
+10-8	dieser	PDS	diese	_	O	O	
+10-9	immerhin	ADV	immerhin	_	O	O	
+10-10	zu	PTKZU	zu	_	O	O	
+10-11	drucken	VVINF	drucken	_	O	O	
+10-12	.	$.	.	_	O	O	
+
+#id=11
+#text=Bergk' s Buchhandlung hat 17 rtJ.c..Honorar für Sie angewiesen, hier irgendwo zahlbar, worüber 0ie verfügen mögen.
+11-1	Bergk	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	'	$(	'	_	O	O	
+11-3	s	NN	s	_	O	O	
+11-4	Buchhandlung	NN	Buchhandlung	_	O	O	
+11-5	hat	VAFIN	haben	_	O	O	
+11-6	17	CARD	17	_	O	O	
+11-7	rtJ.c..Honorar	NN	<unknown>	_	O	O	
+11-8	für	APPR	für	_	O	O	
+11-9	Sie	PPER	Sie	_	O	O	
+11-10	angewiesen	ADJD	angewiesen	_	O	O	
+11-11	,	$,	,	_	O	O	
+11-12	hier	ADV	hier	_	O	O	
+11-13	irgendwo	ADV	irgendwo	_	O	O	
+11-14	zahlbar	ADJD	zahlbar	_	O	O	
+11-15	,	$,	,	_	O	O	
+11-16	worüber	PWAV	worüber	_	O	O	
+11-17	0ie	NN	<unknown>	_	O	O	
+11-18	verfügen	VVINF	verfügen	_	O	O	
+11-19	mögen	VMFIN	mögen	_	O	O	
+11-20	.	$.	.	_	O	O	
+
+#id=12
+#text=Die Attenzion für Niebuhr werde ich bis auf Gegegenheit hängen lassen; übrigens hatte er neuerdings im
+12-1	Die	ART	die	_	O	O	
+12-2	Attenzion	NN	<unknown>	_	O	O	
+12-3	für	APPR	für	_	O	O	
+12-4	Niebuhr	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-5	werde	VAFIN	werden	_	O	O	
+12-6	ich	PPER	ich	_	O	O	
+12-7	bis	APPR	bis	_	O	O	
+12-8	auf	APPR	auf	_	O	O	
+12-9	Gegegenheit	NN	<unknown>	_	O	O	
+12-10	hängen	VVINF	hängen	_	O	O	
+12-11	lassen	VVINF	lassen	_	O	O	
+12-12	;	$.	;	_	O	O	
+12-13	übrigens	ADV	übrigens	_	O	O	
+12-14	hatte	VAFIN	haben	_	O	O	
+12-15	er	PPER	er	_	O	O	
+12-16	neuerdings	ADV	neuerdings	_	O	O	
+12-17	im	APPRART	in	_	O	O	
+

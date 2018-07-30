@@ -1,0 +1,244 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=97 A. di Dir.
+1-1	97	CARD	97	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=D. Henzen f\w; ~ -}kwc.ut.
+2-1	D.	ART	d.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+2-3	f\w	NN	<unknown>	_	O	O	
+2-4	;	$.	;	_	O	O	
+2-5	~	XY	~	_	O	O	
+2-6	-}kwc.ut	NN	<unknown>	_	O	O	
+2-7	.	$.	.	_	O	O	
+
+#id=3
+#text=Verehrter Freund.
+3-1	Verehrter	ADJA	verehrt	_	O	O	
+3-2	Freund	NN	Freund	_	O	O	
+3-3	.	$.	.	_	O	O	
+
+#id=4
+#text=Gerhard an Henzen Berlin 5/V/1849 g. 17/V 49 r. 25/V 49 Berlin 5 Mai 49 Auf Ihr Briefliches habe nur dankend zu antworten, ohne viel Inhalt.
+4-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+4-2	an	APPR	an	_	O	O	
+4-3	Henzen	NN	<unknown>	_	O	O	
+4-4	Berlin	NE	Berlin	_	O	O	
+4-5	5/V/1849	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-6	g.	ADJA	<unknown>	_	O	O	
+4-7	17/V	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+4-8	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+4-9	r.	ADJA	<unknown>	_	O	O	
+4-10	25/V	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+4-11	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+4-12	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-13	5	CARD	5	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-14	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-15	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-16	Auf	APPR	auf	_	O	O	
+4-17	Ihr	PPOSAT	ihr	_	O	O	
+4-18	Briefliches	NN	<unknown>	_	O	O	
+4-19	habe	VAFIN	haben	_	O	O	
+4-20	nur	ADV	nur	_	O	O	
+4-21	dankend	ADJD	dankend	_	O	O	
+4-22	zu	PTKZU	zu	_	O	O	
+4-23	antworten	VVINF	antworten	_	O	O	
+4-24	,	$,	,	_	O	O	
+4-25	ohne	APPR	ohne	_	O	O	
+4-26	viel	PIAT	viele	_	O	O	
+4-27	Inhalt	NN	Inhalt	_	O	O	
+4-28	.	$.	.	_	O	O	
+
+#id=5
+#text=Des Instituts Vermögen gereicht mir zu angenehmer üeberraschung, AU'\')t(Pti.e.
+5-1	Des	ART	die	_	O	O	
+5-2	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-3	Vermögen	NN	Vermögen	_	O	O	
+5-4	gereicht	VVPP	reichen	_	O	O	
+5-5	mir	PPER	ich	_	O	O	
+5-6	zu	PTKA	zu	_	O	O	
+5-7	angenehmer	ADJA	angenehm	_	O	O	
+5-8	üeberraschung	NN	<unknown>	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	AU'\')t(Pti.e	NE	<unknown>	_	O	O	
+5-11	.	$.	.	_	O	O	
+
+#id=6
+#text=und letztes Wort Ihnen doppelt gegönnt.
+6-1	und	KON	und	_	O	O	
+6-2	letztes	ADJA	letzt	_	O	O	
+6-3	Wort	NN	Wort	_	O	O	
+6-4	Ihnen	PPER	Sie	_	O	O	
+6-5	doppelt	ADJD	doppelt	_	O	O	
+6-6	gegönnt	VVPP	gönnen	_	O	O	
+6-7	.	$.	.	_	O	O	
+
+#id=7
+#text=Niemand reist diesmal nach Rom, wie sollte es auch Und so bleiben für Sie und andre Freunde alle Sendungen liegen, namentlich auch die Leemansschen Tagesordnung: Dresdener Barikaden, Polnischer .b"'rieg in Ungarn, Frankfurter Konvent -, wobei ein preußirnd sches Ministerium, wie ~ Schuld es durch späten und ungeschickten Protest gegen eine unmögliche und incurable Verfassung auch haben mag, zum Heile der Gegenwart dato noch ehrenfest und unverändert bleibt.
+7-1	Niemand	PIS	niemand	_	O	O	
+7-2	reist	VVFIN	reisen	_	O	O	
+7-3	diesmal	ADV	diesmal	_	O	O	
+7-4	nach	APPR	nach	_	O	O	
+7-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-6	,	$,	,	_	O	O	
+7-7	wie	KOUS	wie	_	O	O	
+7-8	sollte	VMFIN	sollen	_	O	O	
+7-9	es	PPER	es	_	O	O	
+7-10	auch	ADV	auch	_	O	O	
+7-11	Und	KON	und	_	O	O	
+7-12	so	ADV	so	_	O	O	
+7-13	bleiben	VVFIN	bleiben	_	O	O	
+7-14	für	APPR	für	_	O	O	
+7-15	Sie	PPER	Sie	_	O	O	
+7-16	und	KON	und	_	O	O	
+7-17	andre	PIAT	andere	_	O	O	
+7-18	Freunde	NN	Freund	_	O	O	
+7-19	alle	PIAT	alle	_	O	O	
+7-20	Sendungen	NN	Sendung	_	O	O	
+7-21	liegen	VVINF	liegen	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	namentlich	ADJD	namentlich	_	O	O	
+7-24	auch	ADV	auch	_	O	O	
+7-25	die	ART	die	_	O	O	
+7-26	Leemansschen	NN	<unknown>	_	O	O	
+7-27	Tagesordnung	NN	Tagesordnung	_	O	O	
+7-28	:	$.	:	_	O	O	
+7-29	Dresdener	NN	Dresdener	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-30	Barikaden	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+7-31	,	$,	,	_	O	O	
+7-32	Polnischer	ADJA	polnisch	_	O	O	
+7-33	.b"'rieg	NN	<unknown>	_	O	O	
+7-34	in	APPR	in	_	O	O	
+7-35	Ungarn	NE	Ungarn	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-36	,	$,	,	_	O	O	
+7-37	Frankfurter	ADJA	Frankfurter	_	O	O	
+7-38	Konvent	NN	Konvent	_	O	O	
+7-39	-	$(	-	_	O	O	
+7-40	,	$,	,	_	O	O	
+7-41	wobei	PWAV	wobei	_	O	O	
+7-42	ein	ART	eine	_	O	O	
+7-43	preußirnd	ADJA	<unknown>	_	O	O	
+7-44	sches	ADJA	<unknown>	_	O	O	
+7-45	Ministerium	NN	Ministerium	_	O	O	
+7-46	,	$,	,	_	O	O	
+7-47	wie	KOUS	wie	_	O	O	
+7-48	~	XY	~	_	O	O	
+7-49	Schuld	NN	Schuld	_	O	O	
+7-50	es	PPER	es	_	O	O	
+7-51	durch	APPR	durch	_	O	O	
+7-52	späten	ADJA	spät	_	O	O	
+7-53	und	KON	und	_	O	O	
+7-54	ungeschickten	ADJA	ungeschickt	_	O	O	
+7-55	Protest	NN	Protest	_	O	O	
+7-56	gegen	APPR	gegen	_	O	O	
+7-57	eine	ART	eine	_	O	O	
+7-58	unmögliche	ADJA	unmöglich	_	O	O	
+7-59	und	KON	und	_	O	O	
+7-60	incurable	ADJA	<unknown>	_	O	O	
+7-61	Verfassung	NN	Verfassung	_	O	O	
+7-62	auch	ADV	auch	_	O	O	
+7-63	haben	VAINF	haben	_	O	O	
+7-64	mag	VMFIN	mögen	_	O	O	
+7-65	,	$,	,	_	O	O	
+7-66	zum	APPRART	zu	_	O	O	
+7-67	Heile	NN	Heile	_	O	O	
+7-68	der	ART	die	_	O	O	
+7-69	Gegenwart	NN	Gegenwart	_	O	O	
+7-70	dato	NE	<unknown>	_	O	O	
+7-71	noch	ADV	noch	_	O	O	
+7-72	ehrenfest	ADJD	<unknown>	_	O	O	
+7-73	und	KON	und	_	O	O	
+7-74	unverändert	ADJD	unverändert	_	O	O	
+7-75	bleibt	VVFIN	bleiben	_	O	O	
+7-76	.	$.	.	_	O	O	
+
+#id=8
+#text=Daß auf Polen Russen gehören bleibt Gott geklagt, ist aber nicht zu ändern, und wir riefen sie nicht herbei.
+8-1	Daß	KOUS	dass	_	O	O	
+8-2	auf	APPR	auf	_	O	O	
+8-3	Polen	NE	Polen	_	O	O	
+8-4	Russen	NN	Russe	_	O	O	
+8-5	gehören	VVINF	gehören	_	O	O	
+8-6	bleibt	VVFIN	bleiben	_	O	O	
+8-7	Gott	NN	Gott	_	O	O	
+8-8	geklagt	VVPP	klagen	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	ist	VAFIN	sein	_	O	O	
+8-11	aber	ADV	aber	_	O	O	
+8-12	nicht	PTKNEG	nicht	_	O	O	
+8-13	zu	PTKZU	zu	_	O	O	
+8-14	ändern	VVINF	ändern	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	und	KON	und	_	O	O	
+8-17	wir	PPER	wir	_	O	O	
+8-18	riefen	VVFIN	rufen	_	O	O	
+8-19	sie	PPER	sie	_	O	O	
+8-20	nicht	PTKNEG	nicht	_	O	O	
+8-21	herbei	PTKVZ	herbei	_	O	O	
+8-22	.	$.	.	_	O	O	
+
+#id=9
+#text=So behält Prokesch Recht, dem ich seit er hier ist wegen der politischen Stimmungen gegen Oestertreich aus dem Wege ging.
+9-1	So	ADV	so	_	O	O	
+9-2	behält	VVFIN	behalten	_	O	O	
+9-3	Prokesch	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-4	Recht	NN	Recht	_	O	O	
+9-5	,	$,	,	_	O	O	
+9-6	dem	PRELS	die	_	O	O	
+9-7	ich	PPER	ich	_	O	O	
+9-8	seit	APPR	seit	_	O	O	
+9-9	er	PPER	er	_	O	O	
+9-10	hier	ADV	hier	_	O	O	
+9-11	ist	VAFIN	sein	_	O	O	
+9-12	wegen	APPR	wegen	_	O	O	
+9-13	der	ART	die	_	O	O	
+9-14	politischen	ADJA	politisch	_	O	O	
+9-15	Stimmungen	NN	Stimmung	_	O	O	
+9-16	gegen	APPR	gegen	_	O	O	
+9-17	Oestertreich	NN	<unknown>	_	O	O	
+9-18	aus	APPR	aus	_	O	O	
+9-19	dem	ART	die	_	O	O	
+9-20	Wege	NN	Weg	_	O	O	
+9-21	ging	VVFIN	gehen	_	O	O	
+9-22	.	$.	.	_	O	O	
+
+#id=10
+#text=Wir erfreuen uns für die nächsten Wochen des Besuchs meines Schwiegervaters, der meiner Frau zunächst nur die besten Grüße der Ihrigen zu senden gestattet.
+10-1	Wir	PPER	wir	_	O	O	
+10-2	erfreuen	VVFIN	erfreuen	_	O	O	
+10-3	uns	PPER	wir	_	O	O	
+10-4	für	APPR	für	_	O	O	
+10-5	die	ART	die	_	O	O	
+10-6	nächsten	ADJA	nah	_	O	O	
+10-7	Wochen	NN	Woche	_	O	O	
+10-8	des	ART	die	_	O	O	
+10-9	Besuchs	NN	Besuch	_	O	O	
+10-10	meines	PPOSAT	mein	_	O	O	
+10-11	Schwiegervaters	NN	Schwiegervater	_	O	O	
+10-12	,	$,	,	_	O	O	
+10-13	der	PRELS	die	_	O	O	
+10-14	meiner	PPOSAT	mein	_	O	O	
+10-15	Frau	NN	Frau	_	O	O	
+10-16	zunächst	ADV	zunächst	_	O	O	
+10-17	nur	ADV	nur	_	O	O	
+10-18	die	ART	die	_	O	O	
+10-19	besten	ADJA	gut	_	O	O	
+10-20	Grüße	NN	Gruß	_	O	O	
+10-21	der	ART	die	_	O	O	
+10-22	Ihrigen	NN	<unknown>	_	O	O	
+10-23	zu	PTKZU	zu	_	O	O	
+10-24	senden	VVINF	senden	_	O	O	
+10-25	gestattet	VVFIN	gestatten	_	O	O	
+10-26	.	$.	.	_	O	O	
+
+#id=11
+#text=Herzlichst der Ihrige Gerhard
+11-1	Herzlichst	ADJD	herzlich	_	O	O	
+11-2	der	ART	die	_	O	O	
+11-3	Ihrige	PPOSAT	ihrige	_	O	O	
+11-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

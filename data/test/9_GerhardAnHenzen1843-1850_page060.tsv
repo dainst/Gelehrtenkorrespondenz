@@ -1,0 +1,262 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=· .
+1-1	·	NN	<unknown>	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=2 Gerhard an Henzen Berlin, 25. Juni 1846 angesagten Notici etc.
+7-1	2	CARD	2	_	O	O	
+7-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+7-3	an	APPR	an	_	O	O	
+7-4	Henzen	NN	<unknown>	_	O	O	
+7-5	Berlin	NE	Berlin	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	25	CARD	25	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+7-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-9	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-11	angesagten	ADJA	angesagt	_	O	O	
+7-12	Notici	NE	<unknown>	_	O	O	
+7-13	etc.	ADV	etc.	_	O	O	
+
+#id=8
+#text=erwarte ich und werde den Inhalt besorgen.
+8-1	erwarte	VVFIN	erwarten	_	O	O	
+8-2	ich	PPER	ich	_	O	O	
+8-3	und	KON	und	_	O	O	
+8-4	werde	VAFIN	werden	_	O	O	
+8-5	den	ART	die	_	O	O	
+8-6	Inhalt	NN	Inhalt	_	O	O	
+8-7	besorgen	VVINF	besorgen	_	O	O	
+8-8	.	$.	.	_	O	O	
+
+#id=9
+#text=Über die für Lajard ausgelegten 3 Scudi wäre eine Quittung angenehm, sofern ich ihm die Zeichnungen nicht schenken soll.
+9-1	Über	APPR	über	_	O	O	
+9-2	die	ART	die	_	O	O	
+9-3	für	APPR	für	_	O	O	
+9-4	Lajard	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	ausgelegten	ADJA	ausgelegt	_	O	O	
+9-6	3	CARD	3	_	O	O	
+9-7	Scudi	NN	<unknown>	_	O	O	
+9-8	wäre	VAFIN	sein	_	O	O	
+9-9	eine	ART	eine	_	O	O	
+9-10	Quittung	NN	Quittung	_	O	O	
+9-11	angenehm	ADJD	angenehm	_	O	O	
+9-12	,	$,	,	_	O	O	
+9-13	sofern	KOUS	sofern	_	O	O	
+9-14	ich	PPER	ich	_	O	O	
+9-15	ihm	PPER	er	_	O	O	
+9-16	die	ART	die	_	O	O	
+9-17	Zeichnungen	NN	Zeichnung	_	O	O	
+9-18	nicht	PTKNEG	nicht	_	O	O	
+9-19	schenken	VVINF	schenken	_	O	O	
+9-20	soll	VMFIN	sollen	_	O	O	
+9-21	.	$.	.	_	O	O	
+
+#id=10
+#text=Ganz erschrecklich daß nun auch Jager aus allen Fugen ist!
+10-1	Ganz	ADV	ganz	_	O	O	
+10-2	erschrecklich	ADV	<unknown>	_	O	O	
+10-3	daß	KOUS	dass	_	O	O	
+10-4	nun	ADV	nun	_	O	O	
+10-5	auch	ADV	auch	_	O	O	
+10-6	Jager	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-7	aus	APPR	aus	_	O	O	
+10-8	allen	PIAT	alle	_	O	O	
+10-9	Fugen	NN	Fuge	_	O	O	
+10-10	ist	VAFIN	sein	_	O	O	
+10-11	!	$.	!	_	O	O	
+
+#id=11
+#text=Und doch haben wir kein andres Factotum in Oberitalien, so daß ich um die bei Zardetti lagernden Exemplare abzulösen ihn anbei bitten muß sie einzuziehen, wenn doch Z(ardetti) so kolossal ungefällig ist wie kein andrer Italiener so leicht sein würde.
+11-1	Und	KON	und	_	O	O	
+11-2	doch	ADV	doch	_	O	O	
+11-3	haben	VAFIN	haben	_	O	O	
+11-4	wir	PPER	wir	_	O	O	
+11-5	kein	PIAT	keine	_	O	O	
+11-6	andres	PIAT	andere	_	O	O	
+11-7	Factotum	NN	<unknown>	_	O	O	
+11-8	in	APPR	in	_	O	O	
+11-9	Oberitalien	NE	Oberitalien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-10	,	$,	,	_	O	O	
+11-11	so	ADV	so	_	O	O	
+11-12	daß	KOUS	dass	_	O	O	
+11-13	ich	PPER	ich	_	O	O	
+11-14	um	APPR	um	_	O	O	
+11-15	die	ART	die	_	O	O	
+11-16	bei	APPR	bei	_	O	O	
+11-17	Zardetti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-18	lagernden	ADJA	lagernd	_	O	O	
+11-19	Exemplare	NN	Exemplar	_	O	O	
+11-20	abzulösen	VVIZU	ablösen	_	O	O	
+11-21	ihn	PPER	er	_	O	O	
+11-22	anbei	ADV	anbei	_	O	O	
+11-23	bitten	VVINF	bitten	_	O	O	
+11-24	muß	VMFIN	müssen	_	O	O	
+11-25	sie	PPER	sie	_	O	O	
+11-26	einzuziehen	VVIZU	einziehen	_	O	O	
+11-27	,	$,	,	_	O	O	
+11-28	wenn	KOUS	wenn	_	O	O	
+11-29	doch	ADV	doch	_	O	O	
+11-30	Z(ardetti)	NN	<unknown>	_	O	O	
+11-31	so	ADV	so	_	O	O	
+11-32	kolossal	ADJD	kolossal	_	O	O	
+11-33	ungefällig	ADJD	ungefällig	_	O	O	
+11-34	ist	VAFIN	sein	_	O	O	
+11-35	wie	KOKOM	wie	_	O	O	
+11-36	kein	PIAT	keine	_	O	O	
+11-37	andrer	PIAT	andere	_	O	O	
+11-38	Italiener	NN	Italiener	_	O	O	
+11-39	so	ADV	so	_	O	O	
+11-40	leicht	ADJD	leicht	_	O	O	
+11-41	sein	VAINF	sein	_	O	O	
+11-42	würde	VAFIN	werden	_	O	O	
+11-43	.	$.	.	_	O	O	
+
+#id=12
+#text=Den schwerfälligen Labus mag ich dazu nicht aufbieten.
+12-1	Den	ART	die	_	O	O	
+12-2	schwerfälligen	ADJA	schwerfällig	_	O	O	
+12-3	Labus	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-4	mag	VMFIN	mögen	_	O	O	
+12-5	ich	PPER	ich	_	O	O	
+12-6	dazu	PAV	dazu	_	O	O	
+12-7	nicht	PTKNEG	nicht	_	O	O	
+12-8	aufbieten	VVINF	aufbieten	_	O	O	
+12-9	.	$.	.	_	O	O	
+
+#id=13
+#text=An Bardocz werde senden; hoffentlich wei~ die Post seinen Ort so aufzufinden wissen??
+13-1	An	APPR	an	_	O	O	
+13-2	Bardocz	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-3	werde	VAFIN	werden	_	O	O	
+13-4	senden	VVINF	senden	_	O	O	
+13-5	;	$.	;	_	O	O	
+13-6	hoffentlich	ADV	hoffentlich	_	O	O	
+13-7	wei~	VVFIN	<unknown>	_	O	O	
+13-8	die	ART	die	_	O	O	
+13-9	Post	NN	Post	_	O	O	
+13-10	seinen	PPOSAT	sein	_	O	O	
+13-11	Ort	NN	Ort	_	O	O	
+13-12	so	ADV	so	_	O	O	
+13-13	aufzufinden	VVIZU	auffinden	_	O	O	
+13-14	wissen	VVINF	wissen	_	O	O	
+13-15	?	$.	?	_	O	O	
+13-16	?	$.	?	_	O	O	
+
+#id=14
+#text=Bei Viola fehlt nun der Vorname.
+14-1	Bei	APPR	bei	_	O	O	
+14-2	Viola	NE	Viola	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-3	fehlt	VVFIN	fehlen	_	O	O	
+14-4	nun	ADV	nun	_	O	O	
+14-5	der	ART	die	_	O	O	
+14-6	Vorname	NN	Vorname	_	O	O	
+14-7	.	$.	.	_	O	O	
+
+#id=15
+#text=Daß Sie mir mit Pasquino's Erwähnung den Mund wässerig machen, ohne einen alten Feinschmecker mit einem Pröbchen seiner Werke zu laben, ist unerlaubt.
+15-1	Daß	KOUS	dass	_	O	O	
+15-2	Sie	PPER	Sie	_	O	O	
+15-3	mir	PRF	ich	_	O	O	
+15-4	mit	APPR	mit	_	O	O	
+15-5	Pasquino's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-6	Erwähnung	NN	Erwähnung	_	O	O	
+15-7	den	ART	die	_	O	O	
+15-8	Mund	NN	Mund	_	O	O	
+15-9	wässerig	ADJD	wässerig	_	O	O	
+15-10	machen	VVFIN	machen	_	O	O	
+15-11	,	$,	,	_	O	O	
+15-12	ohne	KOUI	ohne	_	O	O	
+15-13	einen	ART	eine	_	O	O	
+15-14	alten	ADJA	alt	_	O	O	
+15-15	Feinschmecker	NN	Feinschmecker	_	O	O	
+15-16	mit	APPR	mit	_	O	O	
+15-17	einem	ART	eine	_	O	O	
+15-18	Pröbchen	NN	<unknown>	_	O	O	
+15-19	seiner	PPOSAT	sein	_	O	O	
+15-20	Werke	NN	Werk	_	O	O	
+15-21	zu	PTKZU	zu	_	O	O	
+15-22	laben	VVINF	laben	_	O	O	
+15-23	,	$,	,	_	O	O	
+15-24	ist	VAFIN	sein	_	O	O	
+15-25	unerlaubt	ADJD	unerlaubt	_	O	O	
+15-26	.	$.	.	_	O	O	
+
+#id=16
+#text=Ihrer lieben Frau viel Herzliches von der meinigen die ihr nächstens schreiben wird.
+16-1	Ihrer	PPOSAT	ihr	_	O	O	
+16-2	lieben	ADJA	lieb	_	O	O	
+16-3	Frau	NN	Frau	_	O	O	
+16-4	viel	PIAT	viele	_	O	O	
+16-5	Herzliches	NN	Herzliche	_	O	O	
+16-6	von	APPR	von	_	O	O	
+16-7	der	ART	die	_	O	O	
+16-8	meinigen	PPOSS	meinig	_	O	O	
+16-9	die	PRELS	die	_	O	O	
+16-10	ihr	PPER	ihr	_	O	O	
+16-11	nächstens	ADV	nächstens	_	O	O	
+16-12	schreiben	VVINF	schreiben	_	O	O	
+16-13	wird	VAFIN	werden	_	O	O	
+16-14	.	$.	.	_	O	O	
+
+#id=17
+#text=Unsre guten Wünsche begleiten Sie beide in Partenope's Schoß.
+17-1	Unsre	PPOSAT	unsre	_	O	O	
+17-2	guten	ADJA	gut	_	O	O	
+17-3	Wünsche	NN	Wunsch	_	O	O	
+17-4	begleiten	VVFIN	begleiten	_	O	O	
+17-5	Sie	PPER	Sie	_	O	O	
+17-6	beide	PIS	beide	_	O	O	
+17-7	in	APPR	in	_	O	O	
+17-8	Partenope's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-9	Schoß	NN	Schoß	_	O	O	
+17-10	.	$.	.	_	O	O	
+
+#id=18
+#text=Von Herzen der Ihrige Gerhard Die gewohnte Parteilichkeit des Instituts für Panofka hat dessen Musee Blacas statt 60, 70 oder 80
+18-1	Von	APPR	von	_	O	O	
+18-2	Herzen	NN	Herz	_	O	O	
+18-3	der	ART	die	_	O	O	
+18-4	Ihrige	PPOSAT	ihrige	_	O	O	
+18-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+18-6	Die	ART	die	_	O	O	
+18-7	gewohnte	ADJA	gewohnt	_	O	O	
+18-8	Parteilichkeit	NN	Parteilichkeit	_	O	O	
+18-9	des	ART	die	_	O	O	
+18-10	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+18-11	für	APPR	für	_	O	O	
+18-12	Panofka	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-13	hat	VAFIN	haben	_	O	O	
+18-14	dessen	PDAT	die	_	O	O	
+18-15	Musee	NN	<unknown>	_	O	O	
+18-16	Blacas	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-17	statt	APPR	statt	_	O	O	
+18-18	60	CARD	60	_	O	O	
+18-19	,	$,	,	_	O	O	
+18-20	70	CARD	70	_	O	O	
+18-21	oder	KON	oder	_	O	O	
+18-22	80	CARD	80	_	O	O	
+

@@ -1,0 +1,378 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=· .
+1-1	·	NN	<unknown>	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=Gerhard an Henzen Berlin, 12. November 1846 A. di Direz.
+7-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+7-2	an	APPR	an	_	O	O	
+7-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+7-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+7-5	,	$,	,	_	O	O	
+7-6	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+7-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-8	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-9	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-10	A.	APPRART	am	_	O	O	
+7-11	di	NE	di	_	O	O	
+7-12	Direz	NN	<unknown>	_	O	O	
+7-13	.	$.	.	_	O	O	
+
+#id=8
+#text=· .
+8-1	·	NN	<unknown>	_	O	O	
+8-2	.	$.	.	_	O	O	
+
+#id=9
+#text=.
+9-1	.	$.	.	_	O	O	
+
+#id=10
+#text=.
+10-1	.	$.	.	_	O	O	
+
+#id=11
+#text=.
+11-1	.	$.	.	_	O	O	
+
+#id=12
+#text=.
+12-1	.	$.	.	_	O	O	
+
+#id=13
+#text=.
+13-1	.	$.	.	_	O	O	
+
+#id=14
+#text=.
+14-1	.	$.	.	_	O	O	
+
+#id=15
+#text=.
+15-1	.	$.	.	_	O	O	
+
+#id=16
+#text=.
+16-1	.	$.	.	_	O	O	
+
+#id=17
+#text=.
+17-1	.	$.	.	_	O	O	
+
+#id=18
+#text=.
+18-1	.	$.	.	_	O	O	
+
+#id=19
+#text=.
+19-1	.	$.	.	_	O	O	
+
+#id=20
+#text=.
+20-1	.	$.	.	_	O	O	
+
+#id=21
+#text=.
+21-1	.	$.	.	_	O	O	
+
+#id=22
+#text=Oorpus Inscr. Lat.
+22-1	Oorpus	NN	<unknown>	_	O	O	
+22-2	Inscr	NN	<unknown>	_	O	O	
+22-3	.	$.	.	_	O	O	
+22-4	Lat	VVFIN	<unknown>	_	O	O	
+22-5	.	$.	.	_	O	O	
+
+#id=23
+#text=g. 23/XI 46 r. 24/XI 46 Berlin 12 Nov 46 eine vertrauliche Mittheilung über das W. A. Zumpt ist mit dem Plan eines · .
+23-1	g.	ADJA	<unknown>	_	O	O	
+23-2	23/XI	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+23-3	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+23-4	r.	ADJA	<unknown>	_	O	O	
+23-5	24/XI	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+23-6	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+23-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+23-8	12	CARD	12	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+23-9	Nov	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+23-10	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+23-11	eine	ART	eine	_	O	O	
+23-12	vertrauliche	ADJA	vertraulich	_	O	O	
+23-13	Mittheilung	NN	<unknown>	_	O	O	
+23-14	über	APPR	über	_	O	O	
+23-15	das	ART	die	_	O	O	
+23-16	W.	NE	W.	_	O	O	
+23-17	A.	APPRART	am	_	O	O	
+23-18	Zumpt	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+23-19	ist	VAFIN	sein	_	O	O	
+23-20	mit	APPR	mit	_	O	O	
+23-21	dem	ART	die	_	O	O	
+23-22	Plan	NN	Plan	_	O	O	
+23-23	eines	ART	eine	_	O	O	
+23-24	·	NN	<unknown>	_	O	O	
+23-25	.	$.	.	_	O	O	
+
+#id=24
+#text=.
+24-1	.	$.	.	_	O	O	
+
+#id=25
+#text=.
+25-1	.	$.	.	_	O	O	
+
+#id=26
+#text=.
+26-1	.	$.	.	_	O	O	
+
+#id=27
+#text=.
+27-1	.	$.	.	_	O	O	
+
+#id=28
+#text=.
+28-1	.	$.	.	_	O	O	
+
+#id=29
+#text=.
+29-1	.	$.	.	_	O	O	
+
+#id=30
+#text=.
+30-1	.	$.	.	_	O	O	
+
+#id=31
+#text=bereits in der Schrift Laur. - Lav. von ihm gegebenen hervorgetreten und hat die Ein •••••• epigraphischen Commission zur Begutachtung jenes Plan veranIaßt.
+31-1	bereits	ADV	bereits	_	O	O	
+31-2	in	APPR	in	_	O	O	
+31-3	der	ART	die	_	O	O	
+31-4	Schrift	NN	Schrift	_	O	O	
+31-5	Laur	NE	<unknown>	_	O	O	
+31-6	.	$.	.	_	O	O	
+31-7	-	$(	-	_	O	O	
+31-8	Lav	NE	<unknown>	_	O	O	
+31-9	.	$.	.	_	O	O	
+31-10	von	APPR	von	_	O	O	
+31-11	ihm	PPER	er	_	O	O	
+31-12	gegebenen	ADJA	gegeben	_	O	O	
+31-13	hervorgetreten	VVPP	hervortreten	_	O	O	
+31-14	und	KON	und	_	O	O	
+31-15	hat	VAFIN	haben	_	O	O	
+31-16	die	PDS	die	_	O	O	
+31-17	Ein	ART	eine	_	O	O	
+31-18	•	ADJA	<unknown>	_	O	O	
+31-19	•	NN	<unknown>	_	O	O	
+31-20	•	ADJA	<unknown>	_	O	O	
+31-21	•	NN	<unknown>	_	O	O	
+31-22	•	ADJA	<unknown>	_	O	O	
+31-23	•	NN	<unknown>	_	O	O	
+31-24	epigraphischen	ADJA	<unknown>	_	O	O	
+31-25	Commission	NN	<unknown>	_	O	O	
+31-26	zur	APPRART	zu	_	O	O	
+31-27	Begutachtung	NN	Begutachtung	_	O	O	
+31-28	jenes	PDAT	jen	_	O	O	
+31-29	Plan	NN	Plan	_	O	O	
+31-30	veranIaßt	VVFIN	<unknown>	_	O	O	
+31-31	.	$.	.	_	O	O	
+
+#id=32
+#text=Er verbreitet sich darin 1) über Lesung ••••••••••••• Anordnung 3) über Herausgabe der Inschriften, ist im 1.sten Theil breit und schwach, epigraphischer Reisen Feind, ••••••••• sehr kurz, im 2.ten aber der seinen erheblichsten Inhalt ausmacht zu meiner Überraschung über- •••••••••••• mit der von Mommsen empfohlenen topographischen Ordnung als ich erwartet hatte.
+32-1	Er	PPER	er	_	O	O	
+32-2	verbreitet	VVFIN	verbreiten	_	O	O	
+32-3	sich	PRF	sich	_	O	O	
+32-4	darin	PAV	darin	_	O	O	
+32-5	1	CARD	1	_	O	O	
+32-6	)	$(	)	_	O	O	
+32-7	über	APPR	über	_	O	O	
+32-8	Lesung	NN	Lesung	_	O	O	
+32-9	•	ADJA	<unknown>	_	O	O	
+32-10	•	NN	<unknown>	_	O	O	
+32-11	•	ADJA	<unknown>	_	O	O	
+32-12	•	NN	<unknown>	_	O	O	
+32-13	•	ADJA	<unknown>	_	O	O	
+32-14	•	NN	<unknown>	_	O	O	
+32-15	•	ADJA	<unknown>	_	O	O	
+32-16	•	NN	<unknown>	_	O	O	
+32-17	•	ADJA	<unknown>	_	O	O	
+32-18	•	NN	<unknown>	_	O	O	
+32-19	•	ADJA	<unknown>	_	O	O	
+32-20	•	NN	<unknown>	_	O	O	
+32-21	•	ADJA	<unknown>	_	O	O	
+32-22	Anordnung	NN	Anordnung	_	O	O	
+32-23	3	CARD	3	_	O	O	
+32-24	)	$(	)	_	O	O	
+32-25	über	APPR	über	_	O	O	
+32-26	Herausgabe	NN	Herausgabe	_	O	O	
+32-27	der	ART	die	_	O	O	
+32-28	Inschriften	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+32-29	,	$,	,	_	O	O	
+32-30	ist	VAFIN	sein	_	O	O	
+32-31	im	APPRART	in	_	O	O	
+32-32	1.sten	ADJA	<unknown>	_	O	O	
+32-33	Theil	NN	<unknown>	_	O	O	
+32-34	breit	ADJD	breit	_	O	O	
+32-35	und	KON	und	_	O	O	
+32-36	schwach	ADJD	schwach	_	O	O	
+32-37	,	$,	,	_	O	O	
+32-38	epigraphischer	ADJA	<unknown>	_	O	O	
+32-39	Reisen	NN	Reise|Reisen	_	O	O	
+32-40	Feind	NN	Feind	_	O	O	
+32-41	,	$,	,	_	O	O	
+32-42	•	ADJA	<unknown>	_	O	O	
+32-43	•	NN	<unknown>	_	O	O	
+32-44	•	ADJA	<unknown>	_	O	O	
+32-45	•	NN	<unknown>	_	O	O	
+32-46	•	ADJA	<unknown>	_	O	O	
+32-47	•	NN	<unknown>	_	O	O	
+32-48	•	ADJD	<unknown>	_	O	O	
+32-49	•	ADJA	<unknown>	_	O	O	
+32-50	•	NN	<unknown>	_	O	O	
+32-51	sehr	ADV	sehr	_	O	O	
+32-52	kurz	ADJD	kurz	_	O	O	
+32-53	,	$,	,	_	O	O	
+32-54	im	APPRART	in	_	O	O	
+32-55	2.ten	ADJA	<unknown>	_	O	O	
+32-56	aber	KON	aber	_	O	O	
+32-57	der	ART	die	_	O	O	
+32-58	seinen	PPOSAT	sein	_	O	O	
+32-59	erheblichsten	ADJA	erheblich	_	O	O	
+32-60	Inhalt	NN	Inhalt	_	O	O	
+32-61	ausmacht	VVFIN	ausmachen	_	O	O	
+32-62	zu	APPR	zu	_	O	O	
+32-63	meiner	PPOSAT	mein	_	O	O	
+32-64	Überraschung	NN	Überraschung	_	O	O	
+32-65	über-	TRUNC	Über-	_	O	O	
+32-66	•	ADJA	<unknown>	_	O	O	
+32-67	•	NN	<unknown>	_	O	O	
+32-68	•	ADJA	<unknown>	_	O	O	
+32-69	•	NN	<unknown>	_	O	O	
+32-70	•	ADJA	<unknown>	_	O	O	
+32-71	•	NN	<unknown>	_	O	O	
+32-72	•	ADJA	<unknown>	_	O	O	
+32-73	•	NN	<unknown>	_	O	O	
+32-74	•	ADJA	<unknown>	_	O	O	
+32-75	•	NN	<unknown>	_	O	O	
+32-76	•	ADJA	<unknown>	_	O	O	
+32-77	•	NN	<unknown>	_	O	O	
+32-78	mit	APPR	mit	_	O	O	
+32-79	der	ART	die	_	O	O	
+32-80	von	APPR	von	_	O	O	
+32-81	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+32-82	empfohlenen	ADJA	empfohlen	_	O	O	
+32-83	topographischen	ADJA	topographisch	_	O	O	
+32-84	Ordnung	NN	Ordnung	_	O	O	
+32-85	als	KOKOM	als	_	O	O	
+32-86	ich	PPER	ich	_	O	O	
+32-87	erwartet	VVPP	erwarten	_	O	O	
+32-88	hatte	VAFIN	haben	_	O	O	
+32-89	.	$.	.	_	O	O	
+
+#id=33
+#text=Ich sende Ihnen dieses •••••••••• anbei in Abschrift und bitte Sie schleunig um dessen Begutachtung um zum Besten der Sache noch zu rechter Zeit davon Gebrauch machen zu können.
+33-1	Ich	PPER	ich	_	O	O	
+33-2	sende	VVFIN	senden	_	O	O	
+33-3	Ihnen	PPER	Sie	_	O	O	
+33-4	dieses	PDAT	dies	_	O	O	
+33-5	•	ADJA	<unknown>	_	O	O	
+33-6	•	NN	<unknown>	_	O	O	
+33-7	•	ADJA	<unknown>	_	O	O	
+33-8	•	NN	<unknown>	_	O	O	
+33-9	•	ADJA	<unknown>	_	O	O	
+33-10	•	NN	<unknown>	_	O	O	
+33-11	•	ADJA	<unknown>	_	O	O	
+33-12	•	NN	<unknown>	_	O	O	
+33-13	•	ADJA	<unknown>	_	O	O	
+33-14	•	NN	<unknown>	_	O	O	
+33-15	anbei	ADV	anbei	_	O	O	
+33-16	in	APPR	in	_	O	O	
+33-17	Abschrift	NN	Abschrift	_	O	O	
+33-18	und	KON	und	_	O	O	
+33-19	bitte	VVFIN	bitten	_	O	O	
+33-20	Sie	PPER	Sie	_	O	O	
+33-21	schleunig	ADJD	schleunig	_	O	O	
+33-22	um	APPR	um	_	O	O	
+33-23	dessen	PDAT	die	_	O	O	
+33-24	Begutachtung	NN	Begutachtung	_	O	O	
+33-25	um	APPR	um	_	O	O	
+33-26	zum	APPRART	zu	_	O	O	
+33-27	Besten	NN	Beste	_	O	O	
+33-28	der	ART	die	_	O	O	
+33-29	Sache	NN	Sache	_	O	O	
+33-30	noch	ADV	noch	_	O	O	
+33-31	zu	APPR	zu	_	O	O	
+33-32	rechter	ADJA	recht	_	O	O	
+33-33	Zeit	NN	Zeit	_	O	O	
+33-34	davon	PAV	davon	_	O	O	
+33-35	Gebrauch	NN	Gebrauch	_	O	O	
+33-36	machen	VVINF	machen	_	O	O	
+33-37	zu	PTKZU	zu	_	O	O	
+33-38	können	VMINF	können	_	O	O	
+33-39	.	$.	.	_	O	O	
+
+#id=34
+#text=Zwar vermuthe ich daß Sie das Nöthige in Bezug auf das Buch schon gesagt haben und ich ~ahne deshalb gleichzeitig Den Abdruck Ihrer im Druck von mir noch nicht vorgefundenen Recension bei Göttling ein; doch will ich für alle Fälle Ihnen Gelegenheit ge-
+34-1	Zwar	ADV	zwar	_	O	O	
+34-2	vermuthe	VVFIN	<unknown>	_	O	O	
+34-3	ich	PPER	ich	_	O	O	
+34-4	daß	KOUS	dass	_	O	O	
+34-5	Sie	PPER	Sie	_	O	O	
+34-6	das	ART	die	_	O	O	
+34-7	Nöthige	NN	<unknown>	_	O	O	
+34-8	in	APPR	in	_	O	O	
+34-9	Bezug	NN	Bezug	_	O	O	
+34-10	auf	APPR	auf	_	O	O	
+34-11	das	ART	die	_	O	O	
+34-12	Buch	NN	Buch	_	O	O	
+34-13	schon	ADV	schon	_	O	O	
+34-14	gesagt	VVPP	sagen	_	O	O	
+34-15	haben	VAFIN	haben	_	O	O	
+34-16	und	KON	und	_	O	O	
+34-17	ich	PPER	ich	_	O	O	
+34-18	~ahne	ADJD	<unknown>	_	O	O	
+34-19	deshalb	PAV	deshalb	_	O	O	
+34-20	gleichzeitig	ADJD	gleichzeitig	_	O	O	
+34-21	Den	ART	die	_	O	O	
+34-22	Abdruck	NN	Abdruck	_	O	O	
+34-23	Ihrer	PPOSAT	ihr	_	O	O	
+34-24	im	APPRART	in	_	O	O	
+34-25	Druck	NN	Druck	_	O	O	
+34-26	von	APPR	von	_	O	O	
+34-27	mir	PPER	ich	_	O	O	
+34-28	noch	ADV	noch	_	O	O	
+34-29	nicht	PTKNEG	nicht	_	O	O	
+34-30	vorgefundenen	ADJA	vorgefunden	_	O	O	
+34-31	Recension	NN	<unknown>	_	O	O	
+34-32	bei	APPR	bei	_	O	O	
+34-33	Göttling	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+34-34	ein	PTKVZ	ein	_	O	O	
+34-35	;	$.	;	_	O	O	
+34-36	doch	ADV	doch	_	O	O	
+34-37	will	VMFIN	wollen	_	O	O	
+34-38	ich	PPER	ich	_	O	O	
+34-39	für	APPR	für	_	O	O	
+34-40	alle	PIAT	alle	_	O	O	
+34-41	Fälle	NN	Fall	_	O	O	
+34-42	Ihnen	PPER	Sie	_	O	O	
+34-43	Gelegenheit	NN	Gelegenheit	_	O	O	
+34-44	ge-	TRUNC	ge-	_	O	O	
+

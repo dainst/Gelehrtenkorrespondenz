@@ -1,0 +1,265 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=· .
+1-1	·	NN	<unknown>	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=2 Gerhard an Henzen Berlin, 6. Juli 1846 spielen etc.
+7-1	2	CARD	2	_	O	O	
+7-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+7-3	an	APPR	an	_	O	O	
+7-4	Henzen	NN	<unknown>	_	O	O	
+7-5	Berlin	NE	Berlin	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+7-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-11	spielen	VVFIN	spielen	_	O	O	
+7-12	etc.	ADV	etc.	_	O	O	
+
+#id=8
+#text=unglücklich gewesen; Erudition und Eifer, dazu sein großer Antheil an der Existenz des Instituts darf eben so wenig vergessen werden, einen zum Druck bestimmten Artikel zurückzunehmen ist er nicht difficil.
+8-1	unglücklich	ADJD	unglücklich	_	O	O	
+8-2	gewesen	VAPP	sein	_	O	O	
+8-3	;	$.	;	_	O	O	
+8-4	Erudition	NN	<unknown>	_	O	O	
+8-5	und	KON	und	_	O	O	
+8-6	Eifer	NN	Eifer	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	dazu	PAV	dazu	_	O	O	
+8-9	sein	PPOSAT	sein	_	O	O	
+8-10	großer	ADJA	groß	_	O	O	
+8-11	Antheil	NN	<unknown>	_	O	O	
+8-12	an	APPR	an	_	O	O	
+8-13	der	ART	die	_	O	O	
+8-14	Existenz	NN	Existenz	_	O	O	
+8-15	des	ART	die	_	O	O	
+8-16	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-17	darf	VMFIN	dürfen	_	O	O	
+8-18	eben	ADV	eben	_	O	O	
+8-19	so	ADV	so	_	O	O	
+8-20	wenig	PIS	wenige	_	O	O	
+8-21	vergessen	VVPP	vergessen	_	O	O	
+8-22	werden	VAINF	werden	_	O	O	
+8-23	,	$,	,	_	O	O	
+8-24	einen	ART	eine	_	O	O	
+8-25	zum	APPRART	zu	_	O	O	
+8-26	Druck	NN	Druck	_	O	O	
+8-27	bestimmten	ADJA	bestimmt	_	O	O	
+8-28	Artikel	NN	Artikel	_	O	O	
+8-29	zurückzunehmen	VVIZU	zurücknehmen	_	O	O	
+8-30	ist	VAFIN	sein	_	O	O	
+8-31	er	PPER	er	_	O	O	
+8-32	nicht	PTKNEG	nicht	_	O	O	
+8-33	difficil	ADJD	<unknown>	_	O	O	
+8-34	.	$.	.	_	O	O	
+
+#id=9
+#text=Gerechtigkeit gegen ihn zu üben und durch das vielseitige Mißwollen das mehrere unsrer Freunde gegen ihn haben.
+9-1	Gerechtigkeit	NN	Gerechtigkeit	_	O	O	
+9-2	gegen	APPR	gegen	_	O	O	
+9-3	ihn	PPER	er	_	O	O	
+9-4	zu	PTKZU	zu	_	O	O	
+9-5	üben	VVINF	üben	_	O	O	
+9-6	und	KON	und	_	O	O	
+9-7	durch	APPR	durch	_	O	O	
+9-8	das	ART	die	_	O	O	
+9-9	vielseitige	ADJA	vielseitig	_	O	O	
+9-10	Mißwollen	NN	<unknown>	_	O	O	
+9-11	das	ART	die	_	O	O	
+9-12	mehrere	PIAT	mehrere	_	O	O	
+9-13	unsrer	PPOSAT	unser	_	O	O	
+9-14	Freunde	NN	Freund	_	O	O	
+9-15	gegen	APPR	gegen	_	O	O	
+9-16	ihn	PPER	er	_	O	O	
+9-17	haben	VAFIN	haben	_	O	O	
+9-18	.	$.	.	_	O	O	
+
+#id=10
+#text=Sich nicht durchaus leiten zu lassen werde ich Braun bitten und bitte ich Sie um so mehr, als er möglicher Weise in diesem oder im nächsten Jahr einen Ausflug nach Italien, seine Anschauung neu zu schärfen, unternehmen könnte.
+10-1	Sich	PRF	sich	_	O	O	
+10-2	nicht	PTKNEG	nicht	_	O	O	
+10-3	durchaus	ADV	durchaus	_	O	O	
+10-4	leiten	VVINF	leiten	_	O	O	
+10-5	zu	PTKZU	zu	_	O	O	
+10-6	lassen	VVINF	lassen	_	O	O	
+10-7	werde	VAFIN	werden	_	O	O	
+10-8	ich	PPER	ich	_	O	O	
+10-9	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-10	bitten	VVINF	bitten	_	O	O	
+10-11	und	KON	und	_	O	O	
+10-12	bitte	VVFIN	bitten	_	O	O	
+10-13	ich	PPER	ich	_	O	O	
+10-14	Sie	PPER	Sie	_	O	O	
+10-15	um	APPR	um	_	O	O	
+10-16	so	ADV	so	_	O	O	
+10-17	mehr	ADV	mehr	_	O	O	
+10-18	,	$,	,	_	O	O	
+10-19	als	KOUS	als	_	O	O	
+10-20	er	PPER	er	_	O	O	
+10-21	möglicher	ADJA	möglich	_	O	O	
+10-22	Weise	NN	Weise	_	O	O	
+10-23	in	APPR	in	_	O	O	
+10-24	diesem	PDAT	dies	_	O	O	
+10-25	oder	KON	oder	_	O	O	
+10-26	im	APPRART	in	_	O	O	
+10-27	nächsten	ADJA	nah	_	O	O	
+10-28	Jahr	NN	Jahr	_	O	O	
+10-29	einen	ART	eine	_	O	O	
+10-30	Ausflug	NN	Ausflug	_	O	O	
+10-31	nach	APPR	nach	_	O	O	
+10-32	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-33	,	$,	,	_	O	O	
+10-34	seine	PPOSAT	sein	_	O	O	
+10-35	Anschauung	NN	Anschauung	_	O	O	
+10-36	neu	ADJD	neu	_	O	O	
+10-37	zu	PTKZU	zu	_	O	O	
+10-38	schärfen	VVINF	schärfen	_	O	O	
+10-39	,	$,	,	_	O	O	
+10-40	unternehmen	VVINF	unternehmen	_	O	O	
+10-41	könnte	VMFIN	können	_	O	O	
+10-42	.	$.	.	_	O	O	
+
+#id=11
+#text=Diplome habe ich drucken lassen und sende sie mit nächster Gelegenheit.
+11-1	Diplome	NN	Diplom	_	O	O	
+11-2	habe	VAFIN	haben	_	O	O	
+11-3	ich	PPER	ich	_	O	O	
+11-4	drucken	VVINF	drucken	_	O	O	
+11-5	lassen	VVINF	lassen	_	O	O	
+11-6	und	KON	und	_	O	O	
+11-7	sende	VVFIN	senden	_	O	O	
+11-8	sie	PPER	sie	_	O	O	
+11-9	mit	APPR	mit	_	O	O	
+11-10	nächster	ADJA	nah	_	O	O	
+11-11	Gelegenheit	NN	Gelegenheit	_	O	O	
+11-12	.	$.	.	_	O	O	
+
+#id=12
+#text=Serradifalco hat mir Lieferaufträge gegeben, deren Betrag er auf Rom anweist; hat er wirklich ein paar 100 Scudi vom Institut zu erhalten ?
+12-1	Serradifalco	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	hat	VAFIN	haben	_	O	O	
+12-3	mir	PPER	ich	_	O	O	
+12-4	Lieferaufträge	NN	Lieferauftrag	_	O	O	
+12-5	gegeben	VVPP	geben	_	O	O	
+12-6	,	$,	,	_	O	O	
+12-7	deren	PRELAT	die	_	O	O	
+12-8	Betrag	NN	Betrag	_	O	O	
+12-9	er	PPER	er	_	O	O	
+12-10	auf	APPR	auf	_	O	O	
+12-11	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-12	anweist	VVFIN	anweisen	_	O	O	
+12-13	;	$.	;	_	O	O	
+12-14	hat	VAFIN	haben	_	O	O	
+12-15	er	PPER	er	_	O	O	
+12-16	wirklich	ADJD	wirklich	_	O	O	
+12-17	ein	ART	eine	_	O	O	
+12-18	paar	PIAT	paar	_	O	O	
+12-19	100	CARD	100	_	O	O	
+12-20	Scudi	NN	<unknown>	_	O	O	
+12-21	vom	APPRART	von	_	O	O	
+12-22	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+12-23	zu	PTKZU	zu	_	O	O	
+12-24	erhalten	VVINF	erhalten	_	O	O	
+12-25	?	$.	?	_	O	O	
+
+#id=13
+#text=Können Sie Neapel entbehren, so gönnen Sie Sich wenigstens einigen römischen Landaufenthalt; unsre Freunde werden schon helfen es Ihnen möglich zu machen.
+13-1	Können	VMFIN	können	_	O	O	
+13-2	Sie	PPER	Sie	_	O	O	
+13-3	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+13-4	entbehren	VVINF	entbehren	_	O	O	
+13-5	,	$,	,	_	O	O	
+13-6	so	ADV	so	_	O	O	
+13-7	gönnen	VVFIN	gönnen	_	O	O	
+13-8	Sie	PPER	Sie	_	O	O	
+13-9	Sich	PRF	sich	_	O	O	
+13-10	wenigstens	ADV	wenigstens	_	O	O	
+13-11	einigen	PIAT	einige	_	O	O	
+13-12	römischen	ADJA	römisch	_	O	O	
+13-13	Landaufenthalt	NN	Landaufenthalt	_	O	O	
+13-14	;	$.	;	_	O	O	
+13-15	unsre	PPOSAT	unsre	_	O	O	
+13-16	Freunde	NN	Freund	_	O	O	
+13-17	werden	VAFIN	werden	_	O	O	
+13-18	schon	ADV	schon	_	O	O	
+13-19	helfen	VVFIN	helfen	_	O	O	
+13-20	es	PPER	es	_	O	O	
+13-21	Ihnen	PPER	Sie	_	O	O	
+13-22	möglich	ADJD	möglich	_	O	O	
+13-23	zu	PTKZU	zu	_	O	O	
+13-24	machen	VVINF	machen	_	O	O	
+13-25	.	$.	.	_	O	O	
+
+#id=14
+#text=An Braun dem ich heute nicht antworte vorläufigen besten Dank für seinen Brief und treuen Beistand.
+14-1	An	APPR	an	_	O	O	
+14-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-3	dem	ART	die	_	O	O	
+14-4	ich	PPER	ich	_	O	O	
+14-5	heute	ADV	heute	_	O	O	
+14-6	nicht	PTKNEG	nicht	_	O	O	
+14-7	antworte	VVFIN	antworten	_	O	O	
+14-8	vorläufigen	ADJA	vorläufig	_	O	O	
+14-9	besten	ADJA	gut	_	O	O	
+14-10	Dank	NN	Dank	_	O	O	
+14-11	für	APPR	für	_	O	O	
+14-12	seinen	PPOSAT	sein	_	O	O	
+14-13	Brief	NN	Brief	_	O	O	
+14-14	und	KON	und	_	O	O	
+14-15	treuen	ADJA	treu	_	O	O	
+14-16	Beistand	NN	Beistand	_	O	O	
+14-17	.	$.	.	_	O	O	
+
+#id=15
+#text=Für Ihre antiatische Inschrift von der ich gleich öffentlichen Gebrauch gemacht habe den besten Dank.
+15-1	Für	APPR	für	_	O	O	
+15-2	Ihre	PPOSAT	ihr	_	O	O	
+15-3	antiatische	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+15-4	Inschrift	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-OBJ	
+15-5	von	APPR	von	_	O	O	
+15-6	der	ART	die	_	O	O	
+15-7	ich	PPER	ich	_	O	O	
+15-8	gleich	ADJD	gleich	_	O	O	
+15-9	öffentlichen	ADJA	öffentlich	_	O	O	
+15-10	Gebrauch	NN	Gebrauch	_	O	O	
+15-11	gemacht	VVPP	machen	_	O	O	
+15-12	habe	VAFIN	haben	_	O	O	
+15-13	den	ART	die	_	O	O	
+15-14	besten	ADJA	gut	_	O	O	
+15-15	Dank	NN	Dank	_	O	O	
+15-16	.	$.	.	_	O	O	
+
+#id=16
+#text=(*) Von Herzen der Ihrige Gerhard
+16-1	(	$(	(	_	O	O	
+16-2	*	XY	*	_	O	O	
+16-3	)	$(	)	_	O	O	
+16-4	Von	APPR	von	_	O	O	
+16-5	Herzen	NN	Herz	_	O	O	
+16-6	der	ART	die	_	O	O	
+16-7	Ihrige	PPOSAT	ihrige	_	O	O	
+16-8	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

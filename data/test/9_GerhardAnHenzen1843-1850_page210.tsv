@@ -1,0 +1,143 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=130 Gerhard an Henzen Berlin 16/V/1850 A. di Dir.
+1-1	130	CARD	130	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	O	O	
+1-5	Berlin	NE	Berlin	_	O	O	
+1-6	16/V/1850	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-7	A.	APPRART	am	_	O	O	
+1-8	di	NE	di	_	O	O	
+1-9	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=HH.
+2-1	HH	NE	HH	_	O	O	
+2-2	.	$.	.	_	O	O	
+
+#id=3
+#text=D. Braun, Henzen, Brunn Denjenigen kapitolinischen Freund welcher die beigehende archäologische Sendung eröffnet, bitte ich die gefällige Ueberbringerin desselben Fräulein Ludendorff aus Hamburg vorkommenden Falls für römische Beschauungen zu unterstützen.
+3-1	D.	NE	D.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-2	Braun	NE	Braun	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+3-3	,	$,	,	_	O	O	
+3-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	,	$,	,	_	O	O	
+3-6	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-7	Denjenigen	NE	<unknown>	_	O	O	
+3-8	kapitolinischen	ADJA	<unknown>	_	O	O	
+3-9	Freund	NN	Freund	_	O	O	
+3-10	welcher	PIS	welche	_	O	O	
+3-11	die	ART	die	_	O	O	
+3-12	beigehende	ADJA	<unknown>	_	O	O	
+3-13	archäologische	ADJA	archäologisch	_	O	O	
+3-14	Sendung	NN	Sendung	_	O	O	
+3-15	eröffnet	VVPP	eröffnen	_	O	O	
+3-16	,	$,	,	_	O	O	
+3-17	bitte	VVFIN	bitten	_	O	O	
+3-18	ich	PPER	ich	_	O	O	
+3-19	die	ART	die	_	O	O	
+3-20	gefällige	ADJA	gefällig	_	O	O	
+3-21	Ueberbringerin	NN	<unknown>	_	O	O	
+3-22	desselben	PDAT	derselb	_	O	O	
+3-23	Fräulein	NN	Fräulein	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-24	Ludendorff	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-25	aus	APPR	aus	_	O	O	
+3-26	Hamburg	NE	Hamburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-27	vorkommenden	ADJA	vorkommend	_	O	O	
+3-28	Falls	NN	Fall	_	O	O	
+3-29	für	APPR	für	_	O	O	
+3-30	römische	ADJA	römisch	_	O	O	
+3-31	Beschauungen	NN	<unknown>	_	O	O	
+3-32	zu	PTKZU	zu	_	O	O	
+3-33	unterstützen	VVINF	unterstützen	_	O	O	
+3-34	.	$.	.	_	O	O	
+
+#id=4
+#text=Obwohl dieselbe nur den Gesamteindruck Roms sucht und mit einem bereits in Rom gewesenen äI'f1?iYlichen ~ Freunde reist, so wird sie doch einen Besuch und etwa~ge Nachweisungen - für Villa Mills, villa Ludovisi se mai und dgl. - dankbar zu schätzen wissen.
+4-1	Obwohl	KOUS	obwohl	_	O	O	
+4-2	dieselbe	PDS	dieselbe	_	O	O	
+4-3	nur	ADV	nur	_	O	O	
+4-4	den	ART	die	_	O	O	
+4-5	Gesamteindruck	NN	Gesamteindruck	_	O	O	
+4-6	Roms	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-7	sucht	VVFIN	suchen	_	O	O	
+4-8	und	KON	und	_	O	O	
+4-9	mit	APPR	mit	_	O	O	
+4-10	einem	ART	eine	_	O	O	
+4-11	bereits	ADV	bereits	_	O	O	
+4-12	in	APPR	in	_	O	O	
+4-13	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-14	gewesenen	ADJA	gewesen	_	O	O	
+4-15	äI'f1	NN	<unknown>	_	O	O	
+4-16	?	$.	?	_	O	O	
+4-17	iYlichen	ADJA	<unknown>	_	O	O	
+4-18	~	XY	~	_	O	O	
+4-19	Freunde	NN	Freund	_	O	O	
+4-20	reist	VVFIN	reisen	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	so	ADV	so	_	O	O	
+4-23	wird	VAFIN	werden	_	O	O	
+4-24	sie	PPER	sie	_	O	O	
+4-25	doch	ADV	doch	_	O	O	
+4-26	einen	ART	eine	_	O	O	
+4-27	Besuch	NN	Besuch	_	O	O	
+4-28	und	KON	und	_	O	O	
+4-29	etwa~ge	ADJA	<unknown>	_	O	O	
+4-30	Nachweisungen	NN	<unknown>	_	O	O	
+4-31	-	$(	-	_	O	O	
+4-32	für	APPR	für	_	O	O	
+4-33	Villa	NN	Villa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-34	Mills	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+4-35	,	$,	,	_	O	O	
+4-36	villa	NN	Villa	_	O	O	
+4-37	Ludovisi	NE	<unknown>	_	O	O	
+4-38	se	NE	se	_	O	O	
+4-39	mai	NE	Mai	_	O	O	
+4-40	und	KON	und	_	O	O	
+4-41	dgl.	ADV	dgl.	_	O	O	
+4-42	-	$(	-	_	O	O	
+4-43	dankbar	ADJD	dankbar	_	O	O	
+4-44	zu	PTKZU	zu	_	O	O	
+4-45	schätzen	VVINF	schätzen	_	O	O	
+4-46	wissen	VVFIN	wissen	_	O	O	
+4-47	.	$.	.	_	O	O	
+
+#id=5
+#text=Herzlich grüßend Gerhard Berlin 16/5.
+5-1	Herzlich	ADJD	herzlich	_	O	O	
+5-2	grüßend	ADJD	grüßend	_	O	O	
+5-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+5-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+5-5	16/5	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+5-6	.	$.	.	_	O	O	
+
+#id=6
+#text=50 Ich sende die 3 dringendsten Exemplare der Archäol.
+6-1	50	CARD	50	_	O	O	
+6-2	Ich	PPER	ich	_	O	O	
+6-3	sende	VVFIN	senden	_	O	O	
+6-4	die	ART	die	_	O	O	
+6-5	3	CARD	3	_	O	O	
+6-6	dringendsten	ADJA	dringend	_	O	O	
+6-7	Exemplare	NN	Exemplar	_	O	O	
+6-8	der	ART	die	_	O	O	
+6-9	Archäol.	NN	<unknown>	_	O	O	
+
+#id=7
+#text=Zeitung, und halte das für Freund Henzen wegen Raumersparniß auch diesmal zurück.
+7-1	Zeitung	NN	Zeitung	_	O	O	
+7-2	,	$,	,	_	O	O	
+7-3	und	KON	und	_	O	O	
+7-4	halte	VVFIN	halten	_	O	O	
+7-5	das	PDS	die	_	O	O	
+7-6	für	APPR	für	_	O	O	
+7-7	Freund	NE	Freund	_	O	O	
+7-8	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-9	wegen	APPR	wegen	_	O	O	
+7-10	Raumersparniß	NN	<unknown>	_	O	O	
+7-11	auch	ADV	auch	_	O	O	
+7-12	diesmal	ADV	diesmal	_	O	O	
+7-13	zurück	PTKVZ	zurück	_	O	O	
+7-14	.	$.	.	_	O	O	
+

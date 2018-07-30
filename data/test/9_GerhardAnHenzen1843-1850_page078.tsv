@@ -1,0 +1,428 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=· .
+1-1	·	NN	<unknown>	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=.
+7-1	.	$.	.	_	O	O	
+
+#id=8
+#text=Gerhard an Henzen Berlin, 6. November 1846 A. di Dir.
+8-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+8-2	an	APPR	an	_	O	O	
+8-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+8-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+8-5	,	$,	,	_	O	O	
+8-6	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+8-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-8	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-9	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-10	A.	APPRART	am	_	O	O	
+8-11	di	NE	di	_	O	O	
+8-12	Dir.	NN	Dir.	_	O	O	
+
+#id=9
+#text=g. 19/XII 46 r. 22/XII 46 · .
+9-1	g.	ADJA	<unknown>	_	O	O	
+9-2	19/XII	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+9-3	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+9-4	r.	VVFIN	<unknown>	_	O	O	
+9-5	22/XII	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+9-6	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+9-7	·	NN	<unknown>	_	O	O	
+9-8	.	$.	.	_	O	O	
+
+#id=10
+#text=.
+10-1	.	$.	.	_	O	O	
+
+#id=11
+#text=.
+11-1	.	$.	.	_	O	O	
+
+#id=12
+#text=.
+12-1	.	$.	.	_	O	O	
+
+#id=13
+#text=.
+13-1	.	$.	.	_	O	O	
+
+#id=14
+#text=.
+14-1	.	$.	.	_	O	O	
+
+#id=15
+#text=.
+15-1	.	$.	.	_	O	O	
+
+#id=16
+#text=Berlin d 6 ten Nov.
+16-1	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+16-2	d	VVFIN	<unknown>	_	O	O	
+16-3	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+16-4	ten	NE	ten	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+16-5	Nov.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=17
+#text=1846. .
+17-1	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+17-2	.	$.	.	_	O	O	
+17-3	.	$.	.	_	O	O	
+
+#id=18
+#text=.
+18-1	.	$.	.	_	O	O	
+
+#id=19
+#text=.
+19-1	.	$.	.	_	O	O	
+
+#id=20
+#text=.
+20-1	.	$.	.	_	O	O	
+
+#id=21
+#text=.
+21-1	.	$.	.	_	O	O	
+
+#id=22
+#text=.
+22-1	.	$.	.	_	O	O	
+
+#id=23
+#text=.
+23-1	.	$.	.	_	O	O	
+
+#id=24
+#text=.
+24-1	.	$.	.	_	O	O	
+
+#id=25
+#text=.
+25-1	.	$.	.	_	O	O	
+
+#id=26
+#text=.
+26-1	.	$.	.	_	O	O	
+
+#id=27
+#text=gelangten Denkmälerheft, welches zum 9 December sehr willkommen ist, folgte noch kein Annalenband nach, wohl aber .
+27-1	gelangten	ADJA	gelangt	_	O	O	
+27-2	Denkmälerheft	NN	<unknown>	_	O	O	
+27-3	,	$,	,	_	O	O	
+27-4	welches	PRELS	welche	_	O	O	
+27-5	zum	APPRART	zu	_	O	O	
+27-6	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+27-7	December	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+27-8	sehr	ADV	sehr	_	O	O	
+27-9	willkommen	ADJD	willkommen	_	O	O	
+27-10	ist	VAFIN	sein	_	O	O	
+27-11	,	$,	,	_	O	O	
+27-12	folgte	VVFIN	folgen	_	O	O	
+27-13	noch	ADV	noch	_	O	O	
+27-14	kein	PIAT	keine	_	O	O	
+27-15	Annalenband	NN	<unknown>	_	O	O	
+27-16	nach	PTKVZ	nach	_	O	O	
+27-17	,	$,	,	_	O	O	
+27-18	wohl	ADV	wohl	_	O	O	
+27-19	aber	ADV	aber	_	O	O	
+27-20	.	$.	.	_	O	O	
+
+#id=28
+#text=.
+28-1	.	$.	.	_	O	O	
+
+#id=29
+#text=.
+29-1	.	$.	.	_	O	O	
+
+#id=30
+#text=.
+30-1	.	$.	.	_	O	O	
+
+#id=31
+#text=.
+31-1	.	$.	.	_	O	O	
+
+#id=32
+#text=.
+32-1	.	$.	.	_	O	O	
+
+#id=33
+#text=.
+33-1	.	$.	.	_	O	O	
+
+#id=34
+#text=.
+34-1	.	$.	.	_	O	O	
+
+#id=35
+#text=.
+35-1	.	$.	.	_	O	O	
+
+#id=36
+#text=.
+36-1	.	$.	.	_	O	O	
+
+#id=37
+#text=ekommener Brief, lieber Freund, den ich um so schleuniger beantworte je ungünstiger dessen Stimmung ist.
+37-1	ekommener	ADJA	<unknown>	_	O	O	
+37-2	Brief	NN	Brief	_	O	O	
+37-3	,	$,	,	_	O	O	
+37-4	lieber	ADJA	lieb	_	O	O	
+37-5	Freund	NN	Freund	_	O	O	
+37-6	,	$,	,	_	O	O	
+37-7	den	PRELS	die	_	O	O	
+37-8	ich	PPER	ich	_	O	O	
+37-9	um	APPR	um	_	O	O	
+37-10	so	ADV	so	_	O	O	
+37-11	schleuniger	ADJD	schleunig	_	O	O	
+37-12	beantworte	VVFIN	beantworten	_	O	O	
+37-13	je	ADV	je	_	O	O	
+37-14	ungünstiger	ADJD	ungünstig	_	O	O	
+37-15	dessen	PDAT	die	_	O	O	
+37-16	Stimmung	NN	Stimmung	_	O	O	
+37-17	ist	VAFIN	sein	_	O	O	
+37-18	.	$.	.	_	O	O	
+
+#id=38
+#text=Ich habe •••••••••• echt gethan Ihnen so offen von hiesigen Verhältnissen zu schreiben, die sich mit Gottes Hülfe erst gestalten müssen · .
+38-1	Ich	PPER	ich	_	O	O	
+38-2	habe	VAFIN	haben	_	O	O	
+38-3	•	ADJD	<unknown>	_	O	O	
+38-4	•	ADJA	<unknown>	_	O	O	
+38-5	•	NN	<unknown>	_	O	O	
+38-6	•	ADJA	<unknown>	_	O	O	
+38-7	•	NN	<unknown>	_	O	O	
+38-8	•	ADJA	<unknown>	_	O	O	
+38-9	•	NN	<unknown>	_	O	O	
+38-10	•	ADJD	<unknown>	_	O	O	
+38-11	•	ADJA	<unknown>	_	O	O	
+38-12	•	NN	<unknown>	_	O	O	
+38-13	echt	ADJD	echt	_	O	O	
+38-14	gethan	VVFIN	<unknown>	_	O	O	
+38-15	Ihnen	PPER	Sie	_	O	O	
+38-16	so	ADV	so	_	O	O	
+38-17	offen	ADJD	offen	_	O	O	
+38-18	von	APPR	von	_	O	O	
+38-19	hiesigen	ADJA	hiesig	_	O	O	
+38-20	Verhältnissen	NN	Verhältnis	_	O	O	
+38-21	zu	PTKZU	zu	_	O	O	
+38-22	schreiben	VVINF	schreiben	_	O	O	
+38-23	,	$,	,	_	O	O	
+38-24	die	PRELS	die	_	O	O	
+38-25	sich	PRF	sich	_	O	O	
+38-26	mit	APPR	mit	_	O	O	
+38-27	Gottes	NN	Gott	_	O	O	
+38-28	Hülfe	NN	<unknown>	_	O	O	
+38-29	erst	ADV	erst	_	O	O	
+38-30	gestalten	VVINF	gestalten	_	O	O	
+38-31	müssen	VMINF	müssen	_	O	O	
+38-32	·	ADJD	<unknown>	_	O	O	
+38-33	.	$.	.	_	O	O	
+
+#id=39
+#text=.
+39-1	.	$.	.	_	O	O	
+
+#id=40
+#text=.
+40-1	.	$.	.	_	O	O	
+
+#id=41
+#text=.
+41-1	.	$.	.	_	O	O	
+
+#id=42
+#text=.
+42-1	.	$.	.	_	O	O	
+
+#id=43
+#text=.
+43-1	.	$.	.	_	O	O	
+
+#id=44
+#text=.
+44-1	.	$.	.	_	O	O	
+
+#id=45
+#text=t möchte ich Sie bitten den übeln Inhalt meines neulichen Briefs nicht nur vor jeder andern Person sondern auch vor sich selbst (als) :(.mihht) (g)eschrieben anzusehen, wenn Sie eine so vollständige Muthlosigkeit daran knüpfen lieber noch an die Franzosen als an den (~/~/\, .
+45-1	t	NN	t	_	O	O	
+45-2	möchte	VMFIN	mögen	_	O	O	
+45-3	ich	PPER	ich	_	O	O	
+45-4	Sie	PPER	Sie	_	O	O	
+45-5	bitten	VVFIN	bitten	_	O	O	
+45-6	den	ART	die	_	O	O	
+45-7	übeln	NN	Übel	_	O	O	
+45-8	Inhalt	NN	Inhalt	_	O	O	
+45-9	meines	PPOSAT	mein	_	O	O	
+45-10	neulichen	ADJA	<unknown>	_	O	O	
+45-11	Briefs	NN	Brief	_	O	O	
+45-12	nicht	PTKNEG	nicht	_	O	O	
+45-13	nur	ADV	nur	_	O	O	
+45-14	vor	APPR	vor	_	O	O	
+45-15	jeder	PIAT	jede	_	O	O	
+45-16	andern	PIAT	andere	_	O	O	
+45-17	Person	NN	Person	_	O	O	
+45-18	sondern	KON	sondern	_	O	O	
+45-19	auch	ADV	auch	_	O	O	
+45-20	vor	PTKVZ	vor	_	O	O	
+45-21	sich	PRF	sich	_	O	O	
+45-22	selbst	ADV	selbst	_	O	O	
+45-23	(	$(	(	_	O	O	
+45-24	als	KOKOM	als	_	O	O	
+45-25	)	$(	)	_	O	O	
+45-26	:(.mihht)	ADJA	<unknown>	_	O	O	
+45-27	(g)eschrieben	NN	<unknown>	_	O	O	
+45-28	anzusehen	VVIZU	ansehen	_	O	O	
+45-29	,	$,	,	_	O	O	
+45-30	wenn	KOUS	wenn	_	O	O	
+45-31	Sie	PPER	Sie	_	O	O	
+45-32	eine	ART	eine	_	O	O	
+45-33	so	ADV	so	_	O	O	
+45-34	vollständige	ADJA	vollständig	_	O	O	
+45-35	Muthlosigkeit	NN	<unknown>	_	O	O	
+45-36	daran	PAV	daran	_	O	O	
+45-37	knüpfen	VVFIN	knüpfen	_	O	O	
+45-38	lieber	ADJD	lieb	_	O	O	
+45-39	noch	ADV	noch	_	O	O	
+45-40	an	APPR	an	_	O	O	
+45-41	die	ART	die	_	O	O	
+45-42	Franzosen	NN	Franzose	_	O	O	
+45-43	als	KOKOM	als	_	O	O	
+45-44	an	APPR	an	_	O	O	
+45-45	den	ART	die	_	O	O	
+45-46	(	$(	(	_	O	O	
+45-47	~/~/\	ADJA	<unknown>	_	O	O	
+45-48	,	$,	,	_	O	O	
+45-49	.	$.	.	_	O	O	
+
+#id=46
+#text=.
+46-1	.	$.	.	_	O	O	
+
+#id=47
+#text=.
+47-1	.	$.	.	_	O	O	
+
+#id=48
+#text=.
+48-1	.	$.	.	_	O	O	
+
+#id=49
+#text=.
+49-1	.	$.	.	_	O	O	
+
+#id=50
+#text=.. .
+50-1	.	$.	.	_	O	O	
+50-2	.	$.	.	_	O	O	
+50-3	.	$.	.	_	O	O	
+
+#id=51
+#text=.
+51-1	.	$.	.	_	O	O	
+
+#id=52
+#text=äftsgang deutscher Behörden zu glauben.
+52-1	äftsgang	NN	<unknown>	_	O	O	
+52-2	deutscher	ADJA	deutsch	_	O	O	
+52-3	Behörden	NN	Behörde	_	O	O	
+52-4	zu	PTKZU	zu	_	O	O	
+52-5	glauben	VVINF	glauben	_	O	O	
+52-6	.	$.	.	_	O	O	
+
+#id=53
+#text=Hiezu sind Sie keineswegs berechtigt; denn der deutsche Schlendrian und dessen Indolenz sind freilich hier so wenig als im Auslande wegzubannen, allmählig aber tritt auch der redliche Eifer deutscher Wissenschaft und Gesinnung in seine Rechte ein.
+53-1	Hiezu	ADV	<unknown>	_	O	O	
+53-2	sind	VAFIN	sein	_	O	O	
+53-3	Sie	PPER	Sie	_	O	O	
+53-4	keineswegs	ADV	keineswegs	_	O	O	
+53-5	berechtigt	VVPP	berechtigen	_	O	O	
+53-6	;	$.	;	_	O	O	
+53-7	denn	KON	denn	_	O	O	
+53-8	der	ART	die	_	O	O	
+53-9	deutsche	ADJA	deutsch	_	O	O	
+53-10	Schlendrian	NN	Schlendrian	_	O	O	
+53-11	und	KON	und	_	O	O	
+53-12	dessen	PDAT	die	_	O	O	
+53-13	Indolenz	NN	Indolenz	_	O	O	
+53-14	sind	VAFIN	sein	_	O	O	
+53-15	freilich	ADV	freilich	_	O	O	
+53-16	hier	ADV	hier	_	O	O	
+53-17	so	ADV	so	_	O	O	
+53-18	wenig	PIS	wenige	_	O	O	
+53-19	als	KOKOM	als	_	O	O	
+53-20	im	APPRART	in	_	O	O	
+53-21	Auslande	NN	Ausland	_	O	O	
+53-22	wegzubannen	VVIZU	<unknown>	_	O	O	
+53-23	,	$,	,	_	O	O	
+53-24	allmählig	ADJD	<unknown>	_	O	O	
+53-25	aber	KON	aber	_	O	O	
+53-26	tritt	VVFIN	treten	_	O	O	
+53-27	auch	ADV	auch	_	O	O	
+53-28	der	ART	die	_	O	O	
+53-29	redliche	ADJA	redlich	_	O	O	
+53-30	Eifer	NN	Eifer	_	O	O	
+53-31	deutscher	ADJA	deutsch	_	O	O	
+53-32	Wissenschaft	NN	Wissenschaft	_	O	O	
+53-33	und	KON	und	_	O	O	
+53-34	Gesinnung	NN	Gesinnung	_	O	O	
+53-35	in	APPR	in	_	O	O	
+53-36	seine	PPOSAT	sein	_	O	O	
+53-37	Rechte	NN	Recht|Rechte	_	O	O	
+53-38	ein	PTKVZ	ein	_	O	O	
+53-39	.	$.	.	_	O	O	
+
+#id=54
+#text=Ganz aus allen Nöthen sind wir freilich noch nicht heraus, aber erstens ist dafür gesorgt daß für ~rbeiten in Italien ein begränzter Fond, gerade
+54-1	Ganz	ADV	ganz	_	O	O	
+54-2	aus	APPR	aus	_	O	O	
+54-3	allen	PIAT	alle	_	O	O	
+54-4	Nöthen	NN	<unknown>	_	O	O	
+54-5	sind	VAFIN	sein	_	O	O	
+54-6	wir	PPER	wir	_	O	O	
+54-7	freilich	ADV	freilich	_	O	O	
+54-8	noch	ADV	noch	_	O	O	
+54-9	nicht	PTKNEG	nicht	_	O	O	
+54-10	heraus	PTKVZ	heraus	_	O	O	
+54-11	,	$,	,	_	O	O	
+54-12	aber	KON	aber	_	O	O	
+54-13	erstens	ADV	erstens	_	O	O	
+54-14	ist	VAFIN	sein	_	O	O	
+54-15	dafür	PAV	dafür	_	O	O	
+54-16	gesorgt	VVPP	sorgen	_	O	O	
+54-17	daß	KOUS	dass	_	O	O	
+54-18	für	APPR	für	_	O	O	
+54-19	~rbeiten	NN	<unknown>	_	O	O	
+54-20	in	APPR	in	_	O	O	
+54-21	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+54-22	ein	ART	eine	_	O	O	
+54-23	begränzter	ADJA	<unknown>	_	O	O	
+54-24	Fond	NN	Fond	_	O	O	
+54-25	,	$,	,	_	O	O	
+54-26	gerade	ADV	gerade	_	O	O	
+

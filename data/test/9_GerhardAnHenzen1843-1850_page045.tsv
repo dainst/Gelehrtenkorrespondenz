@@ -1,0 +1,383 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=.
+1-1	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=.
+7-1	.	$.	.	_	O	O	
+
+#id=8
+#text=.
+8-1	.	$.	.	_	O	O	
+
+#id=9
+#text=3 Gerhard an Henzen Berlin, 1. Mai 1846 beim König.
+9-1	3	CARD	3	_	O	O	
+9-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+9-3	an	APPR	an	_	O	O	
+9-4	Henzen	NN	<unknown>	_	O	O	
+9-5	Berlin	NE	Berlin	_	O	O	
+9-6	,	$,	,	_	O	O	
+9-7	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+9-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+9-9	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+9-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+9-11	beim	APPRART	bei	_	O	O	
+9-12	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-13	.	$.	.	_	O	O	
+
+#id=10
+#text=Böckh veranIaßt ein Zweckessen für ihn; ich habe mich mit dem rein litterarischen Beistand begnügt, den das Museum ihm nicht versagen darf.
+10-1	Böckh	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	veranIaßt	VVFIN	<unknown>	_	O	O	
+10-3	ein	ART	eine	_	O	O	
+10-4	Zweckessen	NN	<unknown>	_	O	O	
+10-5	für	APPR	für	_	O	O	
+10-6	ihn	PPER	er	_	O	O	
+10-7	;	$.	;	_	O	O	
+10-8	ich	PPER	ich	_	O	O	
+10-9	habe	VAFIN	haben	_	O	O	
+10-10	mich	PRF	ich	_	O	O	
+10-11	mit	APPR	mit	_	O	O	
+10-12	dem	ART	die	_	O	O	
+10-13	rein	ADV	rein	_	O	O	
+10-14	litterarischen	ADJA	<unknown>	_	O	O	
+10-15	Beistand	NN	Beistand	_	O	O	
+10-16	begnügt	VVFIN	begnügen	_	O	O	
+10-17	,	$,	,	_	O	O	
+10-18	den	PRELS	die	_	O	O	
+10-19	das	ART	die	_	O	O	
+10-20	Museum	NN	Museum	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-21	ihm	PPER	er	_	O	O	
+10-22	nicht	PTKNEG	nicht	_	O	O	
+10-23	versagen	VVINF	versagen	_	O	O	
+10-24	darf	VMFIN	dürfen	_	O	O	
+10-25	.	$.	.	_	O	O	
+
+#id=11
+#text=Becker in Leipzig soll todtkrank sein.
+11-1	Becker	NE	Becker	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	in	APPR	in	_	O	O	
+11-3	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-4	soll	VMFIN	sollen	_	O	O	
+11-5	todtkrank	ADJD	<unknown>	_	O	O	
+11-6	sein	VAINF	sein	_	O	O	
+11-7	.	$.	.	_	O	O	
+
+#id=12
+#text=Meine Frau scheint in Frankfurt verzögert zu werden weil auch die Hochzeit meiner Schwägerin durch schwere Krankheit in der Verwandtschaft sich zu verzögern droht.
+12-1	Meine	PPOSAT	mein	_	O	O	
+12-2	Frau	NN	Frau	_	O	O	
+12-3	scheint	VVFIN	scheinen	_	O	O	
+12-4	in	APPR	in	_	O	O	
+12-5	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-6	verzögert	VVPP	verzögern	_	O	O	
+12-7	zu	PTKZU	zu	_	O	O	
+12-8	werden	VAINF	werden	_	O	O	
+12-9	weil	KOUS	weil	_	O	O	
+12-10	auch	ADV	auch	_	O	O	
+12-11	die	ART	die	_	O	O	
+12-12	Hochzeit	NN	Hochzeit	_	O	O	
+12-13	meiner	PPOSAT	mein	_	O	O	
+12-14	Schwägerin	NN	Schwägerin	_	O	O	
+12-15	durch	APPR	durch	_	O	O	
+12-16	schwere	ADJA	schwer	_	O	O	
+12-17	Krankheit	NN	Krankheit	_	O	O	
+12-18	in	APPR	in	_	O	O	
+12-19	der	ART	die	_	O	O	
+12-20	Verwandtschaft	NN	Verwandtschaft	_	O	O	
+12-21	sich	PRF	sich	_	O	O	
+12-22	zu	PTKZU	zu	_	O	O	
+12-23	verzögern	VVINF	verzögern	_	O	O	
+12-24	droht	VVFIN	drohen	_	O	O	
+12-25	.	$.	.	_	O	O	
+
+#id=13
+#text=Der Brief der Alten soll ihr besorgt werden.
+13-1	Der	ART	die	_	O	O	
+13-2	Brief	NN	Brief	_	O	O	
+13-3	der	ART	die	_	O	O	
+13-4	Alten	NN	Alte	_	O	O	
+13-5	soll	VMFIN	sollen	_	O	O	
+13-6	ihr	PPER	ihr	_	O	O	
+13-7	besorgt	ADJD	besorgt	_	O	O	
+13-8	werden	VAINF	werden	_	O	O	
+13-9	.	$.	.	_	O	O	
+
+#id=14
+#text=Steinhäusers habe ich hier nur durchfliegen gehört, was ich bedaure.
+14-1	Steinhäusers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	habe	VAFIN	haben	_	O	O	
+14-3	ich	PPER	ich	_	O	O	
+14-4	hier	ADV	hier	_	O	O	
+14-5	nur	ADV	nur	_	O	O	
+14-6	durchfliegen	VVINF	durchfliegen	_	O	O	
+14-7	gehört	VVFIN	gehören	_	O	O	
+14-8	,	$,	,	_	O	O	
+14-9	was	PRELS	was	_	O	O	
+14-10	ich	PPER	ich	_	O	O	
+14-11	bedaure	VVFIN	bedauern	_	O	O	
+14-12	.	$.	.	_	O	O	
+
+#id=15
+#text=Ihrer lieben Frau, Brunn und andern Freunden alles Herzliche.
+15-1	Ihrer	PPOSAT	ihr	_	O	O	
+15-2	lieben	ADJA	lieb	_	O	O	
+15-3	Frau	NN	Frau	_	O	O	
+15-4	,	$,	,	_	O	O	
+15-5	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-6	und	KON	und	_	O	O	
+15-7	andern	PIAT	andere	_	O	O	
+15-8	Freunden	NN	Freund	_	O	O	
+15-9	alles	PIAT	alle	_	O	O	
+15-10	Herzliche	NN	Herzliche	_	O	O	
+15-11	.	$.	.	_	O	O	
+
+#id=16
+#text=Ganz der Ihrige Gerhard Horkel und Wiese grüßen, letzterer voll Alumnatssorgen, an Gehalt und Mühewaltung viel •..••.•.
+16-1	Ganz	ADV	ganz	_	O	O	
+16-2	der	ART	die	_	O	O	
+16-3	Ihrige	PPOSAT	ihrige	_	O	O	
+16-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+16-5	Horkel	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-6	und	KON	und	_	O	O	
+16-7	Wiese	NE	Wiese	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-8	grüßen	VVFIN	grüßen	_	O	O	
+16-9	,	$,	,	_	O	O	
+16-10	letzterer	ADJA	letzt	_	O	O	
+16-11	voll	ADJD	voll	_	O	O	
+16-12	Alumnatssorgen	NN	<unknown>	_	O	O	
+16-13	,	$,	,	_	O	O	
+16-14	an	APPR	an	_	O	O	
+16-15	Gehalt	NN	Gehalt	_	O	O	
+16-16	und	KON	und	_	O	O	
+16-17	Mühewaltung	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-LIT	
+16-18	viel	PIAT	viele	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-19	•	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-20	.	$.	.	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-21	.	$.	.	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-22	•	ADJA	<unknown>	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-23	•	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-24	.	$.	.	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-25	•	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-LIT	
+16-26	.	$.	.	_	O	O	
+
+#id=17
+#text=illre Tabula Baebiana wird der Akademie hübsch eingebunden in nächster Sitzung ü •••••••• Wenn Russo bei Bellotti sich für Nachforderungen der neulich gesandten Zeichnungen .
+17-1	illre	ADJA	<unknown>	_	O	O	
+17-2	Tabula	NN	<unknown>	_	O	O	
+17-3	Baebiana	NE	<unknown>	_	O	O	
+17-4	wird	VAFIN	werden	_	O	O	
+17-5	der	ART	die	_	O	O	
+17-6	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+17-7	hübsch	ADJD	hübsch	_	O	O	
+17-8	eingebunden	VVPP	einbinden	_	O	O	
+17-9	in	APPR	in	_	O	O	
+17-10	nächster	ADJA	nah	_	O	O	
+17-11	Sitzung	NN	Sitzung	_	O	O	
+17-12	ü	ADJA	<unknown>	_	O	O	
+17-13	•	NN	<unknown>	_	O	O	
+17-14	•	ADJA	<unknown>	_	O	O	
+17-15	•	NN	<unknown>	_	O	O	
+17-16	•	ADJA	<unknown>	_	O	O	
+17-17	•	NN	<unknown>	_	O	O	
+17-18	•	ADJD	<unknown>	_	O	O	
+17-19	•	ADJA	<unknown>	_	O	O	
+17-20	•	NN	<unknown>	_	O	O	
+17-21	Wenn	KOUS	wenn	_	O	O	
+17-22	Russo	NE	Russo	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-23	bei	APPR	bei	_	O	O	
+17-24	Bellotti	NE	Bellotti	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-25	sich	PRF	sich	_	O	O	
+17-26	für	APPR	für	_	O	O	
+17-27	Nachforderungen	NN	Nachforderung	_	O	O	
+17-28	der	ART	die	_	O	O	
+17-29	neulich	ADV	neulich	_	O	O	
+17-30	gesandten	ADJA	gesandt	_	O	O	
+17-31	Zeichnungen	NN	Zeichnung	_	O	O	
+17-32	.	$.	.	_	O	O	
+
+#id=18
+#text=.
+18-1	.	$.	.	_	O	O	
+
+#id=19
+#text=.
+19-1	.	$.	.	_	O	O	
+
+#id=20
+#text=.
+20-1	.	$.	.	_	O	O	
+
+#id=21
+#text=.
+21-1	.	$.	.	_	O	O	
+
+#id=22
+#text=.
+22-1	.	$.	.	_	O	O	
+
+#id=23
+#text=.
+23-1	.	$.	.	_	O	O	
+
+#id=24
+#text=.
+24-1	.	$.	.	_	O	O	
+
+#id=25
+#text=so stelle ich anheim ihm noch 2 Piaster zu vergüten, bedarf aber seiner Quittung.
+25-1	so	ADV	so	_	O	O	
+25-2	stelle	VVFIN	stellen	_	O	O	
+25-3	ich	PPER	ich	_	O	O	
+25-4	anheim	PTKVZ	anheim	_	O	O	
+25-5	ihm	PPER	er	_	O	O	
+25-6	noch	ADV	noch	_	O	O	
+25-7	2	CARD	2	_	O	O	
+25-8	Piaster	NN	<unknown>	_	O	O	
+25-9	zu	PTKZU	zu	_	O	O	
+25-10	vergüten	VVINF	vergüten	_	O	O	
+25-11	,	$,	,	_	O	O	
+25-12	bedarf	VVFIN	bedürfen	_	O	O	
+25-13	aber	ADV	aber	_	O	O	
+25-14	seiner	PPOSAT	sein	_	O	O	
+25-15	Quittung	NN	Quittung	_	O	O	
+25-16	.	$.	.	_	O	O	
+
+#id=26
+#text=.
+26-1	.	$.	.	_	O	O	
+
+#id=27
+#text=.
+27-1	.	$.	.	_	O	O	
+
+#id=28
+#text=.
+28-1	.	$.	.	_	O	O	
+
+#id=29
+#text=••••••• ich auch von Brauns Seite noch immer Vescovali's Quittung.
+29-1	•	ADJA	<unknown>	_	O	O	
+29-2	•	NN	<unknown>	_	O	O	
+29-3	•	ADJA	<unknown>	_	O	O	
+29-4	•	NN	<unknown>	_	O	O	
+29-5	•	ADJA	<unknown>	_	O	O	
+29-6	•	NN	<unknown>	_	O	O	
+29-7	•	VVFIN	<unknown>	_	O	O	
+29-8	ich	PPER	ich	_	O	O	
+29-9	auch	ADV	auch	_	O	O	
+29-10	von	APPR	von	_	O	O	
+29-11	Brauns	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+29-12	Seite	NN	Seite	_	O	O	
+29-13	noch	ADV	noch	_	O	O	
+29-14	immer	ADV	immer	_	O	O	
+29-15	Vescovali's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+29-16	Quittung	NN	Quittung	_	O	O	
+29-17	.	$.	.	_	O	O	
+
+#id=30
+#text=Übrigens kosten die Zeichnungen •••••• .
+30-1	Übrigens	ADV	übrigens	_	O	O	
+30-2	kosten	VVFIN	kosen|kosten	_	O	O	
+30-3	die	ART	die	_	O	O	
+30-4	Zeichnungen	NN	Zeichnung	_	O	O	
+30-5	•	ADJA	<unknown>	_	O	O	
+30-6	•	NN	<unknown>	_	O	O	
+30-7	•	ADJA	<unknown>	_	O	O	
+30-8	•	NN	<unknown>	_	O	O	
+30-9	•	ADJA	<unknown>	_	O	O	
+30-10	•	NN	<unknown>	_	O	O	
+30-11	.	$.	.	_	O	O	
+
+#id=31
+#text=.
+31-1	.	$.	.	_	O	O	
+
+#id=32
+#text=.
+32-1	.	$.	.	_	O	O	
+
+#id=33
+#text=.
+33-1	.	$.	.	_	O	O	
+
+#id=34
+#text=trotz Jager nahe an 2 rt.
+34-1	trotz	APPR	trotz	_	O	O	
+34-2	Jager	NN	<unknown>	_	O	O	
+34-3	nahe	PTKVZ	nahe	_	O	O	
+34-4	an	APPR	an	_	O	O	
+34-5	2	CARD	2	_	O	O	
+34-6	rt	VVFIN	<unknown>	_	O	O	
+34-7	.	$.	.	_	O	O	
+
+#id=35
+#text=Gestern sprach Minotaurus auf seiner Durchreise nach Dorpat .
+35-1	Gestern	ADV	gestern	_	O	O	
+35-2	sprach	VVFIN	sprechen	_	O	O	
+35-3	Minotaurus	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+35-4	auf	APPR	auf	_	O	O	
+35-5	seiner	PPOSAT	sein	_	O	O	
+35-6	Durchreise	NN	Durchreise	_	O	O	
+35-7	nach	APPR	nach	_	O	O	
+35-8	Dorpat	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+35-9	.	$.	.	_	O	O	
+
+#id=36
+#text=.
+36-1	.	$.	.	_	O	O	
+
+#id=37
+#text=.
+37-1	.	$.	.	_	O	O	
+
+#id=38
+#text=.
+38-1	.	$.	.	_	O	O	
+
+#id=39
+#text=.
+39-1	.	$.	.	_	O	O	
+
+#id=40
+#text=.
+40-1	.	$.	.	_	O	O	
+
+#id=41
+#text=.
+41-1	.	$.	.	_	O	O	
+
+#id=42
+#text=.
+42-1	.	$.	.	_	O	O	
+
+#id=43
+#text=.
+43-1	.	$.	.	_	O	O	
+
+#id=44
+#text=.
+44-1	.	$.	.	_	O	O	
+

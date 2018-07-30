@@ -1,0 +1,388 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=204 Gerhard an Henzen 13/IX/1849 2 Kabinet des Königs zu •••••••• dar Kleinigkeiten zu thun und bleibt dort vielleicht hangen.
+1-1	204	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	13/IX/1849	CARD	<unknown>	_	O	O	
+1-6	2	CARD	2	_	O	O	
+1-7	Kabinet	NN	<unknown>	_	O	O	
+1-8	des	ART	die	_	O	O	
+1-9	Königs	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-10	zu	APPR	zu	_	O	O	
+1-11	•	ADJA	<unknown>	_	O	O	
+1-12	•	NN	<unknown>	_	O	O	
+1-13	•	ADJA	<unknown>	_	O	O	
+1-14	•	NN	<unknown>	_	O	O	
+1-15	•	ADJA	<unknown>	_	O	O	
+1-16	•	NN	<unknown>	_	O	O	
+1-17	•	ADJA	<unknown>	_	O	O	
+1-18	•	NN	<unknown>	_	O	O	
+1-19	dar	PTKVZ	dar	_	O	O	
+1-20	Kleinigkeiten	NN	Kleinigkeit	_	O	O	
+1-21	zu	APPR	zu	_	O	O	
+1-22	thun	NE	<unknown>	_	O	O	
+1-23	und	KON	und	_	O	O	
+1-24	bleibt	VVFIN	bleiben	_	O	O	
+1-25	dort	ADV	dort	_	O	O	
+1-26	vielleicht	ADV	vielleicht	_	O	O	
+1-27	hangen	ADJD	<unknown>	_	O	O	
+1-28	.	$.	.	_	O	O	
+
+#id=2
+#text=Memorie dell'Inst. 'm IV Machen ••••••• mit Braun ab; ich werde mich jeder gedeihlichen Leistung freuen die das Institut noch ~(~) .•••• seine Grenzen hinaus zu bestreiten vermag.
+2-1	Memorie	NN	<unknown>	_	O	O	
+2-2	dell'Inst	VVPP	<unknown>	_	O	O	
+2-3	.	$.	.	_	O	O	
+2-4	'	$(	'	_	O	O	
+2-5	m	NN	m	_	O	O	
+2-6	IV	NE	IV	_	O	O	
+2-7	Machen	NN	Machen	_	O	O	
+2-8	•	ADJA	<unknown>	_	O	O	
+2-9	•	NN	<unknown>	_	O	O	
+2-10	•	ADJD	<unknown>	_	O	O	
+2-11	•	ADJA	<unknown>	_	O	O	
+2-12	•	NN	<unknown>	_	O	O	
+2-13	•	ADJA	<unknown>	_	O	O	
+2-14	•	NN	<unknown>	_	O	O	
+2-15	mit	APPR	mit	_	O	O	
+2-16	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-17	ab	PTKVZ	ab	_	O	O	
+2-18	;	$.	;	_	O	O	
+2-19	ich	PPER	ich	_	O	O	
+2-20	werde	VAFIN	werden	_	O	O	
+2-21	mich	PRF	ich	_	O	O	
+2-22	jeder	PIAT	jede	_	O	O	
+2-23	gedeihlichen	ADJA	<unknown>	_	O	O	
+2-24	Leistung	NN	Leistung	_	O	O	
+2-25	freuen	VVFIN	freuen	_	O	O	
+2-26	die	PDS	die	_	O	O	
+2-27	das	ART	die	_	O	O	
+2-28	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-29	noch	ADV	noch	_	O	O	
+2-30	~(~)	ADJD	<unknown>	_	O	O	
+2-31	.	$.	.	_	O	O	
+2-32	•	ADJA	<unknown>	_	O	O	
+2-33	•	NN	<unknown>	_	O	O	
+2-34	•	ADJA	<unknown>	_	O	O	
+2-35	•	NN	<unknown>	_	O	O	
+2-36	seine	PPOSAT	sein	_	O	O	
+2-37	Grenzen	NN	Grenze	_	O	O	
+2-38	hinaus	PTKVZ	hinaus	_	O	O	
+2-39	zu	PTKZU	zu	_	O	O	
+2-40	bestreiten	VVINF	bestreiten	_	O	O	
+2-41	vermag	VVFIN	vermag	_	O	O	
+2-42	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Bericht .
+3-1	Die	ART	die	_	O	O	
+3-2	Bericht	NN	Bericht	_	O	O	
+3-3	.	$.	.	_	O	O	
+
+#id=4
+#text=d Ihr· ft p. ( lN-01th.)
+4-1	d	ADJA	<unknown>	_	O	O	
+4-2	Ihr·	NN	<unknown>	_	O	O	
+4-3	ft	NE	ft	_	O	O	
+4-4	p.	APPR	p.	_	O	O	
+4-5	(	$(	(	_	O	O	
+4-6	lN-01th	NN	<unknown>	_	O	O	
+4-7	.	$.	.	_	O	O	
+4-8	)	$(	)	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=h f .
+6-1	h	NN	h	_	O	O	
+6-2	f	VVPP	<unknown>	_	O	O	
+6-3	.	$.	.	_	O	O	
+
+#id=7
+#text=d 19ung er nsc 1 von rlem •••••••• lC, alls Sle er Arch.
+7-1	d	ADJA	<unknown>	_	O	O	
+7-2	19ung	NN	<unknown>	_	O	O	
+7-3	er	PPER	er	_	O	O	
+7-4	nsc	ADV	<unknown>	_	O	O	
+7-5	1	CARD	1	_	O	O	
+7-6	von	APPR	von	_	O	O	
+7-7	rlem	ADJA	<unknown>	_	O	O	
+7-8	•	NN	<unknown>	_	O	O	
+7-9	•	ADJA	<unknown>	_	O	O	
+7-10	•	NN	<unknown>	_	O	O	
+7-11	•	ADJA	<unknown>	_	O	O	
+7-12	•	NN	<unknown>	_	O	O	
+7-13	•	ADJA	<unknown>	_	O	O	
+7-14	•	NN	<unknown>	_	O	O	
+7-15	•	ADJA	<unknown>	_	O	O	
+7-16	lC	NN	<unknown>	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	alls	ADJD	<unknown>	_	O	O	
+7-19	Sle	VVFIN	<unknown>	_	O	O	
+7-20	er	PPER	er	_	O	O	
+7-21	Arch	ADJD	<unknown>	_	O	O	
+7-22	.	$.	.	_	O	O	
+
+#id=8
+#text=Zeitung nöthig ist, mir nochmals erbitten; Ihr Manuscript incl. Briefe ging zum Theil in der Druckerei unter.
+8-1	Zeitung	NN	Zeitung	_	O	O	
+8-2	nöthig	ADJD	<unknown>	_	O	O	
+8-3	ist	VAFIN	sein	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	mir	PRF	ich	_	O	O	
+8-6	nochmals	ADV	nochmals	_	O	O	
+8-7	erbitten	VVINF	erbitten	_	O	O	
+8-8	;	$.	;	_	O	O	
+8-9	Ihr	PPOSAT	ihr	_	O	O	
+8-10	Manuscript	NN	<unknown>	_	O	O	
+8-11	incl.	APPR	incl.	_	O	O	
+8-12	Briefe	NN	Brief	_	O	O	
+8-13	ging	VVFIN	gehen	_	O	O	
+8-14	zum	APPRART	zu	_	O	O	
+8-15	Theil	NN	<unknown>	_	O	O	
+8-16	in	APPR	in	_	O	O	
+8-17	der	ART	die	_	O	O	
+8-18	Druckerei	NN	Druckerei	_	O	O	
+8-19	unter	PTKVZ	unter	_	O	O	
+8-20	.	$.	.	_	O	O	
+
+#id=9
+#text=Bull.
+9-1	Bull	NE	Bull	_	O	O	
+9-2	.	$.	.	_	O	O	
+
+#id=10
+#text=Giugno fand ich hier; sollte Luglio noch nach Hanau adressirt und dort verirrt sein?
+10-1	Giugno	NE	<unknown>	_	O	O	
+10-2	fand	VVFIN	finden	_	O	O	
+10-3	ich	PPER	ich	_	O	O	
+10-4	hier	ADV	hier	_	O	O	
+10-5	;	$.	;	_	O	O	
+10-6	sollte	VMFIN	sollen	_	O	O	
+10-7	Luglio	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-8	noch	ADV	noch	_	O	O	
+10-9	nach	APPR	nach	_	O	O	
+10-10	Hanau	NE	Hanau	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-11	adressirt	NN	<unknown>	_	O	O	
+10-12	und	KON	und	_	O	O	
+10-13	dort	ADV	dort	_	O	O	
+10-14	verirrt	VVPP	verirren	_	O	O	
+10-15	sein	VAINF	sein	_	O	O	
+10-16	?	$.	?	_	O	O	
+
+#id=11
+#text=dann hätte ich es noch mal nöthig.
+11-1	dann	ADV	dann	_	O	O	
+11-2	hätte	VAFIN	haben	_	O	O	
+11-3	ich	PPER	ich	_	O	O	
+11-4	es	PPER	es	_	O	O	
+11-5	noch	ADV	noch	_	O	O	
+11-6	mal	ADV	mal	_	O	O	
+11-7	nöthig	ADJD	<unknown>	_	O	O	
+11-8	.	$.	.	_	O	O	
+
+#id=12
+#text=Gut wenn Sie den Rangabe warm halten und brauchbar machen; mir ist er allzu üppig so daß ich ihm höchstens Programme senden kann, doch beklage auch ich gar sehr.
+12-1	Gut	ADJD	gut	_	O	O	
+12-2	wenn	KOUS	wenn	_	O	O	
+12-3	Sie	PPER	Sie	_	O	O	
+12-4	den	ART	die	_	O	O	
+12-5	Rangabe	NN	<unknown>	_	O	O	
+12-6	warm	ADJD	warm	_	O	O	
+12-7	halten	VVINF	halten	_	O	O	
+12-8	und	KON	und	_	O	O	
+12-9	brauchbar	ADJD	brauchbar	_	O	O	
+12-10	machen	VVFIN	machen	_	O	O	
+12-11	;	$.	;	_	O	O	
+12-12	mir	PPER	ich	_	O	O	
+12-13	ist	VAFIN	sein	_	O	O	
+12-14	er	PPER	er	_	O	O	
+12-15	allzu	PTKA	allzu	_	O	O	
+12-16	üppig	ADJD	üppig	_	O	O	
+12-17	so	ADV	so	_	O	O	
+12-18	daß	KOUS	dass	_	O	O	
+12-19	ich	PPER	ich	_	O	O	
+12-20	ihm	PPER	er	_	O	O	
+12-21	höchstens	ADV	höchstens	_	O	O	
+12-22	Programme	NN	Programm	_	O	O	
+12-23	senden	VVINF	senden	_	O	O	
+12-24	kann	VMFIN	können	_	O	O	
+12-25	,	$,	,	_	O	O	
+12-26	doch	KON	doch	_	O	O	
+12-27	beklage	VVFIN	beklagen	_	O	O	
+12-28	auch	ADV	auch	_	O	O	
+12-29	ich	PPER	ich	_	O	O	
+12-30	gar	ADV	gar	_	O	O	
+12-31	sehr	ADV	sehr	_	O	O	
+12-32	.	$.	.	_	O	O	
+
+#id=13
+#text=den Mangel griechischer Correspondenz.
+13-1	den	ART	die	_	O	O	
+13-2	Mangel	NN	Mangel	_	O	O	
+13-3	griechischer	ADJA	griechisch	_	O	O	
+13-4	Correspondenz	NN	<unknown>	_	O	O	
+13-5	.	$.	.	_	O	O	
+
+#id=14
+#text=Die Revue archeologique werden Sie doch nicht entbehren können, selbst wenn sie gekauft werden müßte ist denn gar kein amateur in Rom das zu thun geneigt?
+14-1	Die	ART	die	_	O	O	
+14-2	Revue	NN	Revue	_	O	O	
+14-3	archeologique	NE	<unknown>	_	O	O	
+14-4	werden	VAFIN	werden	_	O	O	
+14-5	Sie	PPER	Sie	_	O	O	
+14-6	doch	ADV	doch	_	O	O	
+14-7	nicht	PTKNEG	nicht	_	O	O	
+14-8	entbehren	VVINF	entbehren	_	O	O	
+14-9	können	VMINF	können	_	O	O	
+14-10	,	$,	,	_	O	O	
+14-11	selbst	ADV	selbst	_	O	O	
+14-12	wenn	KOUS	wenn	_	O	O	
+14-13	sie	PPER	sie	_	O	O	
+14-14	gekauft	VVPP	kaufen	_	O	O	
+14-15	werden	VAINF	werden	_	O	O	
+14-16	müßte	VMFIN	müssen	_	O	O	
+14-17	ist	VAFIN	sein	_	O	O	
+14-18	denn	ADV	denn	_	O	O	
+14-19	gar	ADV	gar	_	O	O	
+14-20	kein	PIAT	keine	_	O	O	
+14-21	amateur	NN	Amateur	_	O	O	
+14-22	in	APPR	in	_	O	O	
+14-23	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+14-24	das	ART	die	_	O	O	
+14-25	zu	APPR	zu	_	O	O	
+14-26	thun	NE	<unknown>	_	O	O	
+14-27	geneigt	VVPP	neigen	_	O	O	
+14-28	?	$.	?	_	O	O	
+
+#id=15
+#text=Und die academie de France ?
+15-1	Und	KON	und	_	O	O	
+15-2	die	ART	die	_	O	O	
+15-3	academie	NN	<unknown>	_	O	O	
+15-4	de	NE	de	_	O	O	
+15-5	France	NE	France	_	O	O	
+15-6	?	$.	?	_	O	O	
+
+#id=16
+#text=Meine Reise war diesmal mehr spazierend und luftschöpfend als gelehrt.
+16-1	Meine	PPOSAT	mein	_	O	O	
+16-2	Reise	NN	Reise	_	O	O	
+16-3	war	VAFIN	sein	_	O	O	
+16-4	diesmal	ADV	diesmal	_	O	O	
+16-5	mehr	ADV	mehr	_	O	O	
+16-6	spazierend	ADJD	spazierend	_	O	O	
+16-7	und	KON	und	_	O	O	
+16-8	luftschöpfend	ADJD	<unknown>	_	O	O	
+16-9	als	KOKOM	als	_	O	O	
+16-10	gelehrt	VVPP	lehren	_	O	O	
+16-11	.	$.	.	_	O	O	
+
+#id=17
+#text=Roß sah ich in Halle ein wenig hergestellt, so daß er nothdürftig seinem Publicum hoffentlich wird lesen können.
+17-1	Roß	NN	Ross	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-2	sah	VVFIN	sehen	_	O	O	
+17-3	ich	PPER	ich	_	O	O	
+17-4	in	APPR	in	_	O	O	
+17-5	Halle	NN	Halle	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+17-6	ein	ART	eine	_	O	O	
+17-7	wenig	PIS	wenige	_	O	O	
+17-8	hergestellt	VVPP	herstellen	_	O	O	
+17-9	,	$,	,	_	O	O	
+17-10	so	ADV	so	_	O	O	
+17-11	daß	KOUS	dass	_	O	O	
+17-12	er	PPER	er	_	O	O	
+17-13	nothdürftig	ADJD	<unknown>	_	O	O	
+17-14	seinem	PPOSAT	sein	_	O	O	
+17-15	Publicum	NN	<unknown>	_	O	O	
+17-16	hoffentlich	ADV	hoffentlich	_	O	O	
+17-17	wird	VAFIN	werden	_	O	O	
+17-18	lesen	VVINF	lesen	_	O	O	
+17-19	können	VMINF	können	_	O	O	
+17-20	.	$.	.	_	O	O	
+
+#id=18
+#text=Meine Frau grüßt mit mir bestens Sie und die Ihrige.
+18-1	Meine	PPOSAT	mein	_	O	O	
+18-2	Frau	NN	Frau	_	O	O	
+18-3	grüßt	VVFIN	grüßen	_	O	O	
+18-4	mit	APPR	mit	_	O	O	
+18-5	mir	PPER	ich	_	O	O	
+18-6	bestens	ADV	bestens	_	O	O	
+18-7	Sie	PPER	Sie	_	O	O	
+18-8	und	KON	und	_	O	O	
+18-9	die	PRELS	die	_	O	O	
+18-10	Ihrige	PPOSAT	ihrige	_	O	O	
+18-11	.	$.	.	_	O	O	
+
+#id=19
+#text=Lassen Sie bald wieder von sich hören!
+19-1	Lassen	VVFIN	lassen	_	O	O	
+19-2	Sie	PPER	Sie	_	O	O	
+19-3	bald	ADV	bald	_	O	O	
+19-4	wieder	ADV	wieder	_	O	O	
+19-5	von	APPR	von	_	O	O	
+19-6	sich	PRF	sich	_	O	O	
+19-7	hören	VVINF	hören	_	O	O	
+19-8	!	$.	!	_	O	O	
+
+#id=20
+#text=Getreulichst Gerhard NB Für Franqois habe ich 2 rt Einband und einiges g Porto - ich glaube 11 + 17t~nd noch etwas ~.
+20-1	Getreulichst	ADJD	<unknown>	_	O	O	
+20-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+20-3	NB	NE	NB	_	O	O	
+20-4	Für	APPR	für	_	O	O	
+20-5	Franqois	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+20-6	habe	VAFIN	haben	_	O	O	
+20-7	ich	PPER	ich	_	O	O	
+20-8	2	CARD	2	_	O	O	
+20-9	rt	ADJA	<unknown>	_	O	O	
+20-10	Einband	NN	Einband	_	O	O	
+20-11	und	KON	und	_	O	O	
+20-12	einiges	PIAT	einige	_	O	O	
+20-13	g	NN	g	_	O	O	
+20-14	Porto	NN	Porto	_	O	O	
+20-15	-	$(	-	_	O	O	
+20-16	ich	PPER	ich	_	O	O	
+20-17	glaube	VVFIN	glauben	_	O	O	
+20-18	11	CARD	11	_	O	O	
+20-19	+	KON	+	_	O	O	
+20-20	17t~nd	NE	<unknown>	_	O	O	
+20-21	noch	ADV	noch	_	O	O	
+20-22	etwas	PIAT	etwas	_	O	O	
+20-23	~	XY	~	_	O	O	
+20-24	.	$.	.	_	O	O	
+
+#id=21
+#text=ausgelegt, so daß die Spesen deren Angabe er auf das Institut anweist mit 2 Scudi 2 Baj.
+21-1	ausgelegt	VVPP	auslegen	_	O	O	
+21-2	,	$,	,	_	O	O	
+21-3	so	ADV	so	_	O	O	
+21-4	daß	KOUS	dass	_	O	O	
+21-5	die	ART	die	_	O	O	
+21-6	Spesen	NN	Spesen	_	O	O	
+21-7	deren	PDAT	die	_	O	O	
+21-8	Angabe	NN	Angabe	_	O	O	
+21-9	er	PPER	er	_	O	O	
+21-10	auf	APPR	auf	_	O	O	
+21-11	das	ART	die	_	O	O	
+21-12	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+21-13	anweist	VVFIN	anweisen	_	O	O	
+21-14	mit	APPR	mit	_	O	O	
+21-15	2	CARD	2	_	O	O	
+21-16	Scudi	NN	<unknown>	_	O	O	
+21-17	2	CARD	2	_	O	O	
+21-18	Baj	VVFIN	<unknown>	_	O	O	
+21-19	.	$.	.	_	O	O	
+
+#id=22
+#text=angesetzt werden können.
+22-1	angesetzt	VVPP	ansetzen	_	O	O	
+22-2	werden	VAINF	werden	_	O	O	
+22-3	können	VMFIN	können	_	O	O	
+22-4	.	$.	.	_	O	O	
+

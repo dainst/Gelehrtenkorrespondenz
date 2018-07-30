@@ -1,0 +1,224 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=14 2 Gerhard an Renzen Berlin, 3. Januar 1845 andre Rapporti der Adunanze, auch über das Winckelmann Fest um Auszüge daraus durch die Archäologische Zeitung zu geben.
+1-1	14	CARD	14	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Renzen	NN	<unknown>	_	O	O	
+1-6	Berlin	NE	Berlin	_	O	O	
+1-7	,	$,	,	_	O	O	
+1-8	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1845	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	andre	PIAT	andere	_	O	O	
+1-13	Rapporti	NN	<unknown>	_	O	O	
+1-14	der	ART	die	_	O	O	
+1-15	Adunanze	NN	<unknown>	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	auch	ADV	auch	_	O	O	
+1-18	über	APPR	über	_	O	O	
+1-19	das	ART	die	_	O	O	
+1-20	Winckelmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-21	Fest	NN	Fest	_	O	O	
+1-22	um	APPR	um	_	O	O	
+1-23	Auszüge	NN	Auszug	_	O	O	
+1-24	daraus	PAV	daraus	_	O	O	
+1-25	durch	APPR	durch	_	O	O	
+1-26	die	ART	die	_	O	O	
+1-27	Archäologische	ADJA	archäologisch	_	O	O	
+1-28	Zeitung	NN	Zeitung	_	O	O	
+1-29	zu	PTKZU	zu	_	O	O	
+1-30	geben	VVINF	geben	_	O	O	
+1-31	.	$.	.	_	O	O	
+
+#id=2
+#text=Archivio storico IV hat sich endlich durch Reu-- mont gefunden.
+2-1	Archivio	NE	<unknown>	_	O	O	
+2-2	storico	NE	<unknown>	_	O	O	
+2-3	IV	NE	IV	_	O	O	
+2-4	hat	VAFIN	haben	_	O	O	
+2-5	sich	PRF	sich	_	O	O	
+2-6	endlich	ADV	endlich	_	O	O	
+2-7	durch	APPR	durch	_	O	O	
+2-8	Reu	ADJA	<unknown>	_	O	O	
+2-9	--	$(	--	_	O	O	
+2-10	mont	NN	<UNKNOWN>	_	O	O	
+2-11	gefunden	VVPP	finden	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Die Formulare mit Millingens Unterschrift erwarte ich und bitte sie in 8 0 (4 fach gebrochen) zu falten.
+3-1	Die	ART	die	_	O	O	
+3-2	Formulare	NN	Formular	_	O	O	
+3-3	mit	APPR	mit	_	O	O	
+3-4	Millingens	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-5	Unterschrift	NN	Unterschrift	_	O	O	
+3-6	erwarte	VVFIN	erwarten	_	O	O	
+3-7	ich	PPER	ich	_	O	O	
+3-8	und	KON	und	_	O	O	
+3-9	bitte	VVFIN	bitten	_	O	O	
+3-10	sie	PPER	sie	_	O	O	
+3-11	in	APPR	in	_	O	O	
+3-12	8	CARD	8	_	O	O	
+3-13	0	CARD	@card@	_	O	O	
+3-14	(	$(	(	_	O	O	
+3-15	4	CARD	4	_	O	O	
+3-16	fach	VVIMP	fachen	_	O	O	
+3-17	gebrochen	VVPP	brechen	_	O	O	
+3-18	)	$(	)	_	O	O	
+3-19	zu	PTKZU	zu	_	O	O	
+3-20	falten	VVINF	falten	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Ihrer Sorgfalt für meine Vasen besten Dank.
+4-1	Ihrer	PPOSAT	ihr	_	O	O	
+4-2	Sorgfalt	NN	Sorgfalt	_	O	O	
+4-3	für	APPR	für	_	O	O	
+4-4	meine	PPOSAT	mein	_	O	O	
+4-5	Vasen	NN	Vase	_	O	O	
+4-6	besten	ADJA	gut	_	O	O	
+4-7	Dank	NN	Dank	_	O	O	
+4-8	.	$.	.	_	O	O	
+
+#id=5
+#text=Wie viel ich dem Restaurator versprach - ich dachte gerade so viel als ich Ihnen dazu zurückließ - wird wol auch Ihnen erinnerlich sein; ist es aber der Billigkeit gemäß, so kann ich gern noch' etliche Thaler zulegen.
+5-1	Wie	KOUS	wie	_	O	O	
+5-2	viel	PIS	viele	_	O	O	
+5-3	ich	PPER	ich	_	O	O	
+5-4	dem	ART	die	_	O	O	
+5-5	Restaurator	NN	Restaurator	_	O	O	
+5-6	versprach	VVFIN	versprechen	_	O	O	
+5-7	-	$(	-	_	O	O	
+5-8	ich	PPER	ich	_	O	O	
+5-9	dachte	VVFIN	denken	_	O	O	
+5-10	gerade	ADV	gerade	_	O	O	
+5-11	so	ADV	so	_	O	O	
+5-12	viel	ADV	viel	_	O	O	
+5-13	als	KOUS	als	_	O	O	
+5-14	ich	PPER	ich	_	O	O	
+5-15	Ihnen	PPER	Sie	_	O	O	
+5-16	dazu	PAV	dazu	_	O	O	
+5-17	zurückließ	VVFIN	zurücklassen	_	O	O	
+5-18	-	$(	-	_	O	O	
+5-19	wird	VAFIN	werden	_	O	O	
+5-20	wol	ADJD	<unknown>	_	O	O	
+5-21	auch	ADV	auch	_	O	O	
+5-22	Ihnen	PPER	Sie	_	O	O	
+5-23	erinnerlich	ADJD	erinnerlich	_	O	O	
+5-24	sein	VAINF	sein	_	O	O	
+5-25	;	$.	;	_	O	O	
+5-26	ist	VAFIN	sein	_	O	O	
+5-27	es	PPER	es	_	O	O	
+5-28	aber	ADV	aber	_	O	O	
+5-29	der	ART	die	_	O	O	
+5-30	Billigkeit	NN	<unknown>	_	O	O	
+5-31	gemäß	APPO	gemäß	_	O	O	
+5-32	,	$,	,	_	O	O	
+5-33	so	ADV	so	_	O	O	
+5-34	kann	VMFIN	können	_	O	O	
+5-35	ich	PPER	ich	_	O	O	
+5-36	gern	ADV	gern	_	O	O	
+5-37	noch	ADV	noch	_	O	O	
+5-38	'	$(	'	_	O	O	
+5-39	etliche	PIAT	etliche	_	O	O	
+5-40	Thaler	NN	<unknown>	_	O	O	
+5-41	zulegen	VVINF	zulegen	_	O	O	
+5-42	.	$.	.	_	O	O	
+
+#id=6
+#text=Zardetti's und Promis' Zahlungen für die längst empfangenen Exemplare meiner Trinkschalen haben Sie wol die Güte gelegentlich noch einmal für michehnzumahnen.
+6-1	Zardetti's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	und	KON	und	_	O	O	
+6-3	Promis	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	'	$(	'	_	O	O	
+6-5	Zahlungen	NN	Zahlung	_	O	O	
+6-6	für	APPR	für	_	O	O	
+6-7	die	ART	die	_	O	O	
+6-8	längst	ADV	längst	_	O	O	
+6-9	empfangenen	ADJA	empfangen	_	O	O	
+6-10	Exemplare	NN	Exemplar	_	O	O	
+6-11	meiner	PPOSAT	mein	_	O	O	
+6-12	Trinkschalen	NN	Trinkschale	_	O	O	
+6-13	haben	VAFIN	haben	_	O	O	
+6-14	Sie	PPER	Sie	_	O	O	
+6-15	wol	ADJD	<unknown>	_	O	O	
+6-16	die	ART	die	_	O	O	
+6-17	Güte	NN	Güte	_	O	O	
+6-18	gelegentlich	ADJD	gelegentlich	_	O	O	
+6-19	noch	ADV	noch	_	O	O	
+6-20	einmal	ADV	einmal	_	O	O	
+6-21	für	APPR	für	_	O	O	
+6-22	michehnzumahnen	NN	<unknown>	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Ihr Beitrag für meine Bibliographie wird baldigst erwünscht.
+7-1	Ihr	PPOSAT	ihr	_	O	O	
+7-2	Beitrag	NN	Beitrag	_	O	O	
+7-3	für	APPR	für	_	O	O	
+7-4	meine	PPOSAT	mein	_	O	O	
+7-5	Bibliographie	NN	Bibliographie	_	O	O	
+7-6	wird	VAFIN	werden	_	O	O	
+7-7	baldigst	ADJD	baldig	_	O	O	
+7-8	erwünscht	ADJD	erwünscht	_	O	O	
+7-9	.	$.	.	_	O	O	
+
+#id=8
+#text=Falbe hatte Ergänzungen für das königlich-dänische Exemplar der Institutswerke erst nachgesucht, dann abbestellt; er erneut jetzt seine Bestellung und werden Sie wol dafür sorgen daß ihm der Inhalt beigehendem Verzeichnisses baldmöglichst, ich denke durch Brockhaus, zugehe.
+8-1	Falbe	NN	Falbe	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	hatte	VAFIN	haben	_	O	O	
+8-3	Ergänzungen	NN	Ergänzung	_	O	O	
+8-4	für	APPR	für	_	O	O	
+8-5	das	ART	die	_	O	O	
+8-6	königlich-dänische	ADJA	<unknown>	_	O	O	
+8-7	Exemplar	NN	Exemplar	_	O	O	
+8-8	der	ART	die	_	O	O	
+8-9	Institutswerke	NN	<unknown>	_	O	O	
+8-10	erst	ADV	erst	_	O	O	
+8-11	nachgesucht	VVPP	nachsuchen	_	O	O	
+8-12	,	$,	,	_	O	O	
+8-13	dann	ADV	dann	_	O	O	
+8-14	abbestellt	VVPP	abbestellen	_	O	O	
+8-15	;	$.	;	_	O	O	
+8-16	er	PPER	er	_	O	O	
+8-17	erneut	VVFIN	erneuen	_	O	O	
+8-18	jetzt	ADV	jetzt	_	O	O	
+8-19	seine	PPOSAT	sein	_	O	O	
+8-20	Bestellung	NN	Bestellung	_	O	O	
+8-21	und	KON	und	_	O	O	
+8-22	werden	VAFIN	werden	_	O	O	
+8-23	Sie	PPER	Sie	_	O	O	
+8-24	wol	ADJD	<unknown>	_	O	O	
+8-25	dafür	PAV	dafür	_	O	O	
+8-26	sorgen	VVFIN	sorgen	_	O	O	
+8-27	daß	KOUS	dass	_	O	O	
+8-28	ihm	PPER	er	_	O	O	
+8-29	der	ART	die	_	O	O	
+8-30	Inhalt	NN	Inhalt	_	O	O	
+8-31	beigehendem	ADJA	<unknown>	_	O	O	
+8-32	Verzeichnisses	NN	Verzeichnis	_	O	O	
+8-33	baldmöglichst	ADV	baldmöglichst	_	O	O	
+8-34	,	$,	,	_	O	O	
+8-35	ich	PPER	ich	_	O	O	
+8-36	denke	VVFIN	denken	_	O	O	
+8-37	durch	APPR	durch	_	O	O	
+8-38	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-39	,	$,	,	_	O	O	
+8-40	zugehe	VVFIN	zugehen	_	O	O	
+8-41	.	$.	.	_	O	O	
+
+#id=9
+#text=Rorkel war eben bei mir und grüßt bestens.
+9-1	Rorkel	NN	<unknown>	_	O	O	
+9-2	war	VAFIN	sein	_	O	O	
+9-3	eben	ADV	eben	_	O	O	
+9-4	bei	APPR	bei	_	O	O	
+9-5	mir	PPER	ich	_	O	O	
+9-6	und	KON	und	_	O	O	
+9-7	grüßt	VVFIN	grüßen	_	O	O	
+9-8	bestens	ADV	bestens	_	O	O	
+9-9	.	$.	.	_	O	O	
+

@@ -1,0 +1,254 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=A. di Dir.
+1-1	A.	APPRART	am	_	O	O	
+1-2	di	NE	di	_	O	O	
+1-3	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Gerhard an Henzen Berlin 11/IV/1849 g. 22/IV 49 r. 23/IV 49 D. Henzen Berlin 11 April 49 Salute e Fratellanza den RepublikanerK, die auch Caninam unter sich zählen, möge Ihnen nach Möglichkeit wohl ~~ -=f~tVU.- bekommen.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	an	APPR	an	_	O	O	
+2-3	Henzen	NN	<unknown>	_	O	O	
+2-4	Berlin	NE	Berlin	_	O	O	
+2-5	11/IV/1849	CARD	<unknown>	_	O	O	
+2-6	g.	ADJA	<unknown>	_	O	O	
+2-7	22/IV	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-8	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-9	r.	ADJA	<unknown>	_	O	O	
+2-10	23/IV	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-11	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-12	D.	NE	D.	_	O	O	
+2-13	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-15	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-16	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-17	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-18	Salute	NN	<unknown>	_	O	O	
+2-19	e	ADJA	<unknown>	_	O	O	
+2-20	Fratellanza	NN	<unknown>	_	O	O	
+2-21	den	ART	die	_	O	O	
+2-22	RepublikanerK	NN	<unknown>	_	O	O	
+2-23	,	$,	,	_	O	O	
+2-24	die	PRELS	die	_	O	O	
+2-25	auch	ADV	auch	_	O	O	
+2-26	Caninam	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-27	unter	APPR	unter	_	O	O	
+2-28	sich	PRF	sich	_	O	O	
+2-29	zählen	VVFIN	zählen	_	O	O	
+2-30	,	$,	,	_	O	O	
+2-31	möge	VMFIN	mögen	_	O	O	
+2-32	Ihnen	PPER	Sie	_	O	O	
+2-33	nach	APPR	nach	_	O	O	
+2-34	Möglichkeit	NN	Möglichkeit	_	O	O	
+2-35	wohl	ADV	wohl	_	O	O	
+2-36	~~	ADJD	<unknown>	_	O	O	
+2-37	-=f~tVU.-	ADJD	<unknown>	_	O	O	
+2-38	bekommen	VVINF	bekommen	_	O	O	
+2-39	.	$.	.	_	O	O	
+
+#id=3
+#text=Wenn dem Soden nur mehr geschieht als die Bäume unschlagen unter denen wir vordem lustwandelten Dank für die .Fortsetzung der Adunanzberichte.
+3-1	Wenn	KOUS	wenn	_	O	O	
+3-2	dem	ART	die	_	O	O	
+3-3	Soden	NN	Soden	_	O	O	
+3-4	nur	ADV	nur	_	O	O	
+3-5	mehr	ADV	mehr	_	O	O	
+3-6	geschieht	VVFIN	geschehen	_	O	O	
+3-7	als	KOKOM	als	_	O	O	
+3-8	die	ART	die	_	O	O	
+3-9	Bäume	NN	Baum	_	O	O	
+3-10	unschlagen	ADJD	<unknown>	_	O	O	
+3-11	unter	APPR	unter	_	O	O	
+3-12	denen	PRELS	die	_	O	O	
+3-13	wir	PPER	wir	_	O	O	
+3-14	vordem	ADV	vordem	_	O	O	
+3-15	lustwandelten	VVFIN	lustwandeln	_	O	O	
+3-16	Dank	APPR	dank	_	O	O	
+3-17	für	APPR	für	_	O	O	
+3-18	die	ART	die	_	O	O	
+3-19	.Fortsetzung	NN	<unknown>	_	O	O	
+3-20	der	ART	die	_	O	O	
+3-21	Adunanzberichte	NN	<unknown>	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=Sie J ~w f1A..t..W>L.
+4-1	Sie	PPER	Sie	_	O	O	
+4-2	J	NN	J	_	O	O	
+4-3	~w	ADJA	<unknown>	_	O	O	
+4-4	f1A..t..W>L	NN	<unknown>	_	O	O	
+4-5	.	$.	.	_	O	O	
+
+#id=5
+#text=sehen ich hatte mich auch1vor andrer Postunterbrechung zu schreiben.
+5-1	sehen	VVFIN	sehen	_	O	O	
+5-2	ich	PPER	ich	_	O	O	
+5-3	hatte	VAFIN	haben	_	O	O	
+5-4	mich	PRF	ich	_	O	O	
+5-5	auch1vor	ADJD	<unknown>	_	O	O	
+5-6	andrer	PIAT	andere	_	O	O	
+5-7	Postunterbrechung	NN	<unknown>	_	O	O	
+5-8	zu	PTKZU	zu	_	O	O	
+5-9	schreiben	VVINF	schreiben	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Mommsen besteht dieser Tage seines Bruders Hochzeit und kommt wol nächstens hindurch.
+6-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	besteht	VVFIN	bestehen	_	O	O	
+6-3	dieser	PDAT	dies	_	O	O	
+6-4	Tage	NN	Tag	_	O	O	
+6-5	seines	PPOSAT	sein	_	O	O	
+6-6	Bruders	NN	Bruder	_	O	O	
+6-7	Hochzeit	NN	Hochzeit	_	O	O	
+6-8	und	KON	und	_	O	O	
+6-9	kommt	VVFIN	kommen	_	O	O	
+6-10	wol	ADJD	<unknown>	_	O	O	
+6-11	nächstens	ADV	nächstens	_	O	O	
+6-12	hindurch	PTKVZ	hindurch	_	O	O	
+6-13	.	$.	.	_	O	O	
+
+#id=7
+#text=E b ·· h S h I"kl··k.uM-~ .
+7-1	E	NN	E	_	O	O	
+7-2	b	ADJA	<unknown>	_	O	O	
+7-3	··	ADJA	<unknown>	_	O	O	
+7-4	h	NN	h	_	O	O	
+7-5	S	NN	S	_	O	O	
+7-6	h	NN	h	_	O	O	
+7-7	I"kl··k.uM-~	NN	<unknown>	_	O	O	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=t S ugu lnlSC e prac e~ aftg€, melS aus dem anskrit, 1 stes Heft von An re t und Kirckhof braven Leuten sollen eben fertig sein.
+8-1	t	NN	t	_	O	O	
+8-2	S	NN	S	_	O	O	
+8-3	ugu	NE	<unknown>	_	O	O	
+8-4	lnlSC	NE	<unknown>	_	O	O	
+8-5	e	VVFIN	<unknown>	_	O	O	
+8-6	prac	ADJD	<unknown>	_	O	O	
+8-7	e~	ADJA	<unknown>	_	O	O	
+8-8	aftg€	NN	<unknown>	_	O	O	
+8-9	,	$,	,	_	O	O	
+8-10	melS	NN	<unknown>	_	O	O	
+8-11	aus	APPR	aus	_	O	O	
+8-12	dem	ART	die	_	O	O	
+8-13	anskrit	NN	<unknown>	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	1	CARD	1	_	O	O	
+8-16	stes	ADJA	<unknown>	_	O	O	
+8-17	Heft	NN	Heft	_	O	O	
+8-18	von	APPR	von	_	O	O	
+8-19	An	APPR	an	_	O	O	
+8-20	re	ADJA	<unknown>	_	O	O	
+8-21	t	NN	t	_	O	O	
+8-22	und	KON	und	_	O	O	
+8-23	Kirckhof	NN	<unknown>	_	O	O	
+8-24	braven	ADJA	brav	_	O	O	
+8-25	Leuten	NN	Leute	_	O	O	
+8-26	sollen	VMFIN	sollen	_	O	O	
+8-27	eben	ADV	eben	_	O	O	
+8-28	fertig	ADJD	fertig	_	O	O	
+8-29	sein	VAINF	sein	_	O	O	
+8-30	.	$.	.	_	O	O	
+
+#id=9
+#text=Kann man deren Wunsch befördern die 6 zeilige umbrische Inschrift die Mommsen nur im.
+9-1	Kann	VMFIN	können	_	O	O	
+9-2	man	PIS	man	_	O	O	
+9-3	deren	PDAT	die	_	O	O	
+9-4	Wunsch	NN	Wunsch	_	O	O	
+9-5	befördern	VVFIN	befördern	_	O	O	
+9-6	die	ART	die	_	O	O	
+9-7	6	CARD	6	_	O	O	
+9-8	zeilige	ADJA	<unknown>	_	O	O	
+9-9	umbrische	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-10	Inschrift	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-OBJ	
+9-11	die	ART	die	_	O	O	
+9-12	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-13	nur	ADV	nur	_	O	O	
+9-14	im	APPRART	in	_	O	O	
+9-15	.	$.	.	_	O	O	
+
+#id=10
+#text=Druck geben könnte zum Behuf lithogr.
+10-1	Druck	NN	Druck	_	O	O	
+10-2	geben	VVINF	geben	_	O	O	
+10-3	könnte	VMFIN	können	_	O	O	
+10-4	zum	APPRART	zu	_	O	O	
+10-5	Behuf	NN	<unknown>	_	O	O	
+10-6	lithogr	NE	<unknown>	_	O	O	
+10-7	.	$.	.	_	O	O	
+
+#id=11
+#text=Reproductionaus dem Giorn. Arcadico 1839 durchzeichnen zu lassen, das wir hier nicht haben ?
+11-1	Reproductionaus	NN	<unknown>	_	O	O	
+11-2	dem	ART	die	_	O	O	
+11-3	Giorn	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-LIT	
+11-4	.	$.	.	_	I-webanno.custom.LetterEntity_	I-LIT	
+11-5	Arcadico	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-LIT	
+11-6	1839	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-LIT	
+11-7	durchzeichnen	NN	<unknown>	_	O	O	
+11-8	zu	PTKZU	zu	_	O	O	
+11-9	lassen	VVINF	lassen	_	O	O	
+11-10	,	$,	,	_	O	O	
+11-11	das	PRELS	die	_	O	O	
+11-12	wir	PPER	wir	_	O	O	
+11-13	hier	ADV	hier	_	O	O	
+11-14	nicht	PTKNEG	nicht	_	O	O	
+11-15	haben	VAFIN	haben	_	O	O	
+11-16	?	$.	?	_	O	O	
+
+#id=12
+#text=Roß wird als früh Heimkehrender Reconvalescent heute hier erwartet.
+12-1	Roß	NN	Ross	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	wird	VAFIN	werden	_	O	O	
+12-3	als	KOKOM	als	_	O	O	
+12-4	früh	ADJD	früh	_	O	O	
+12-5	Heimkehrender	ADJA	heimkehrend	_	O	O	
+12-6	Reconvalescent	NN	<unknown>	_	O	O	
+12-7	heute	ADV	heute	_	O	O	
+12-8	hier	ADV	hier	_	O	O	
+12-9	erwartet	VVPP	erwarten	_	O	O	
+12-10	.	$.	.	_	O	O	
+
+#id=13
+#text=Gargallo's Opuscolo wrin Eule und Sirene ist an Böckh und Panofka aber nicht an mich gelangt.
+13-1	Gargallo's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	Opuscolo	NE	<unknown>	_	O	O	
+13-3	wrin	NN	<unknown>	_	O	O	
+13-4	Eule	NN	Eule	_	O	O	
+13-5	und	KON	und	_	O	O	
+13-6	Sirene	NN	Sirene	_	O	O	
+13-7	ist	VAFIN	sein	_	O	O	
+13-8	an	APPR	an	_	O	O	
+13-9	Böckh	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-10	und	KON	und	_	O	O	
+13-11	Panofka	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-12	aber	ADV	aber	_	O	O	
+13-13	nicht	PTKNEG	nicht	_	O	O	
+13-14	an	APPR	an	_	O	O	
+13-15	mich	PRF	ich	_	O	O	
+13-16	gelangt	VVPP	gelangen|langen	_	O	O	
+13-17	.	$.	.	_	O	O	
+
+#id=14
+#text=Meine Frau schreibt der Ihrigen, sobald Kapitolinische Staats und Heirathskrisen etwas vorgerückter sein werden.
+14-1	Meine	PPOSAT	mein	_	O	O	
+14-2	Frau	NN	Frau	_	O	O	
+14-3	schreibt	VVFIN	schreiben	_	O	O	
+14-4	der	ART	die	_	O	O	
+14-5	Ihrigen	NN	<unknown>	_	O	O	
+14-6	,	$,	,	_	O	O	
+14-7	sobald	KOUS	sobald	_	O	O	
+14-8	Kapitolinische	ADJA	<unknown>	_	O	O	
+14-9	Staats	NN	Staat	_	O	O	
+14-10	und	KON	und	_	O	O	
+14-11	Heirathskrisen	NN	<unknown>	_	O	O	
+14-12	etwas	ADV	etwas	_	O	O	
+14-13	vorgerückter	ADJD	vorgerückter	_	O	O	
+14-14	sein	VAINF	sein	_	O	O	
+14-15	werden	VAFIN	werden	_	O	O	
+14-16	.	$.	.	_	O	O	
+

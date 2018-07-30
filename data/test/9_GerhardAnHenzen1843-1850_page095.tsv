@@ -1,0 +1,308 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=· .
+1-1	·	NN	<unknown>	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=.. .
+2-1	.	$.	.	_	O	O	
+2-2	.	$.	.	_	O	O	
+2-3	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=Gerhard an He~zen Berlin, 26. Dezember 1846 3 Graf Kemmeny und 314 Dr.
+6-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-2	an	APPR	an	_	O	O	
+6-3	He~zen	NE	<unknown>	_	O	O	
+6-4	Berlin	NE	Berlin	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+6-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+6-8	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+6-9	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+6-10	3	CARD	3	_	O	O	
+6-11	Graf	NN	Graf	_	O	O	
+6-12	Kemmeny	NE	<unknown>	_	O	O	
+6-13	und	KON	und	_	O	O	
+6-14	314	CARD	@card@	_	O	O	
+6-15	Dr.	NN	Dr.	_	O	O	
+
+#id=7
+#text=v. Fodor (diese beiden aber erst zum 21 April 1847 als östreichische Unterthanen ) • Außerdem corrisp.
+7-1	v.	APPR	von	_	O	O	
+7-2	Fodor	NE	<unknown>	_	O	O	
+7-3	(	$(	(	_	O	O	
+7-4	diese	PDAT	dies	_	O	O	
+7-5	beiden	PIAT	beide	_	O	O	
+7-6	aber	ADV	aber	_	O	O	
+7-7	erst	ADV	erst	_	O	O	
+7-8	zum	APPRART	zu	_	O	O	
+7-9	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-10	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-11	1847	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-12	als	KOKOM	als	_	O	O	
+7-13	östreichische	ADJA	<unknown>	_	O	O	
+7-14	Unterthanen	NN	<unknown>	_	O	O	
+7-15	)	$(	)	_	O	O	
+7-16	•	NN	<unknown>	_	O	O	
+7-17	Außerdem	ADV	außerdem	_	O	O	
+7-18	corrisp	NN	<unknown>	_	O	O	
+7-19	.	$.	.	_	O	O	
+
+#id=8
+#text=habe ich no.
+8-1	habe	VAFIN	haben	_	O	O	
+8-2	ich	PPER	ich	_	O	O	
+8-3	no.	ADJD	<unknown>	_	O	O	
+
+#id=9
+#text=315 für den Diego Vitrioli aus Reggio reservirt, wenn er brauchbar befunden ist, worüber ich Erkundigungen einzuholen bat.
+9-1	315	CARD	@card@	_	O	O	
+9-2	für	APPR	für	_	O	O	
+9-3	den	ART	die	_	O	O	
+9-4	Diego	NE	Diego	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	Vitrioli	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+9-6	aus	APPR	aus	_	O	O	
+9-7	Reggio	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-8	reservirt	NN	<unknown>	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	wenn	KOUS	wenn	_	O	O	
+9-11	er	PPER	er	_	O	O	
+9-12	brauchbar	ADJD	brauchbar	_	O	O	
+9-13	befunden	VVPP	befinden	_	O	O	
+9-14	ist	VAFIN	sein	_	O	O	
+9-15	,	$,	,	_	O	O	
+9-16	worüber	PWAV	worüber	_	O	O	
+9-17	ich	PPER	ich	_	O	O	
+9-18	Erkundigungen	NN	Erkundigung	_	O	O	
+9-19	einzuholen	VVIZU	einholen	_	O	O	
+9-20	bat	VVFIN	bitten	_	O	O	
+9-21	.	$.	.	_	O	O	
+
+#id=10
+#text=316, 317 für die Spanier D. Vinc.
+10-1	316	CARD	@card@	_	O	O	
+10-2	,	$,	,	_	O	O	
+10-3	317	CARD	@card@	_	O	O	
+10-4	für	APPR	für	_	O	O	
+10-5	die	ART	die	_	O	O	
+10-6	Spanier	NN	Spanier	_	O	O	
+10-7	D.	NE	D.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-8	Vinc	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-9	.	$.	.	_	O	O	
+
+#id=11
+#text=Cardesera (sic?)
+11-1	Cardesera	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-2	(	$(	(	_	O	O	
+11-3	sic	NE	<unknown>	_	O	O	
+11-4	?	$.	?	_	O	O	
+11-5	)	$(	)	_	O	O	
+
+#id=12
+#text=und Pasaras G ( .
+12-1	und	KON	und	_	O	O	
+12-2	Pasaras	NE	<unknown>	_	O	O	
+12-3	G	NN	G	_	O	O	
+12-4	(	$(	(	_	O	O	
+12-5	.	$.	.	_	O	O	
+
+#id=13
+#text=?)
+13-1	?	$.	?	_	O	O	
+13-2	)	$(	)	_	O	O	
+
+#id=14
+#text=ayanges SlC.
+14-1	ayanges	NE	<unknown>	_	O	O	
+14-2	SlC	NE	<unknown>	_	O	O	
+14-3	.	$.	.	_	O	O	
+
+#id=15
+#text=• 318 Vittori (15.
+15-1	•	ADJA	<unknown>	_	O	O	
+15-2	318	CARD	@card@	_	O	O	
+15-3	Vittori	NE	<unknown>	_	O	O	
+15-4	(	$(	(	_	O	O	
+15-5	15	CARD	15	_	O	O	
+15-6	.	$.	.	_	O	O	
+
+#id=16
+#text=11.
+16-1	11	CARD	11	_	O	O	
+16-2	.	$.	.	_	O	O	
+
+#id=17
+#text=47) 319 Frati.
+17-1	47	CARD	47	_	O	O	
+17-2	)	$(	)	_	O	O	
+17-3	319	CARD	@card@	_	O	O	
+17-4	Frati	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-5	.	$.	.	_	O	O	
+
+#id=18
+#text=320 D. Gius.
+18-1	320	CARD	320	_	O	O	
+18-2	D.	NE	D.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-3	Gius	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+18-4	.	$.	.	_	O	O	
+
+#id=19
+#text=di Errico in Potenza.
+19-1	di	NE	di	_	O	O	
+19-2	Errico	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+19-3	in	APPR	in	_	O	O	
+19-4	Potenza	NE	Potenza	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+19-5	.	$.	.	_	O	O	
+
+#id=20
+#text=321 Dr.
+20-1	321	CARD	@card@	_	O	O	
+20-2	Dr.	NN	Dr.	_	O	O	
+
+#id=21
+#text=Mercklin.
+21-1	Mercklin	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+21-2	.	$.	.	_	O	O	
+
+#id=22
+#text=322 Botta, consule di Francia in Mossul und 323 Padre Bruzza, letztere dann auch erst ZU.rrl 21 April, da die Note an Metternich schon abgegangen war.
+22-1	322	CARD	@card@	_	O	O	
+22-2	Botta	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+22-3	,	$,	,	_	O	O	
+22-4	consule	NN	<unknown>	_	O	O	
+22-5	di	NE	di	_	O	O	
+22-6	Francia	NE	Francia	_	O	O	
+22-7	in	APPR	in	_	O	O	
+22-8	Mossul	NN	<unknown>	_	O	O	
+22-9	und	KON	und	_	O	O	
+22-10	323	CARD	@card@	_	O	O	
+22-11	Padre	NE	<unknown>	_	O	O	
+22-12	Bruzza	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+22-13	,	$,	,	_	O	O	
+22-14	letztere	ADJA	letzt	_	O	O	
+22-15	dann	ADV	dann	_	O	O	
+22-16	auch	ADV	auch	_	O	O	
+22-17	erst	ADV	erst	_	O	O	
+22-18	ZU.rrl	NE	<unknown>	_	O	O	
+22-19	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+22-20	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+22-21	,	$,	,	_	O	O	
+22-22	da	KOUS	da	_	O	O	
+22-23	die	ART	die	_	O	O	
+22-24	Note	NN	Note	_	O	O	
+22-25	an	APPR	an	_	O	O	
+22-26	Metternich	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+22-27	schon	ADV	schon	_	O	O	
+22-28	abgegangen	VVPP	abgehen	_	O	O	
+22-29	war	VAFIN	sein	_	O	O	
+22-30	.	$.	.	_	O	O	
+
+#id=23
+#text=Zu Rauch's ( Membro onorario della Direzione ) 70.sten Geburtstag der hier am 2 Januar gefeiert werden soll, rüste ich eine Glückwunschadresse aus.
+23-1	Zu	APPR	zu	_	O	O	
+23-2	Rauch's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+23-3	(	$(	(	_	O	O	
+23-4	Membro	NN	<unknown>	_	O	O	
+23-5	onorario	NE	<unknown>	_	O	O	
+23-6	della	NE	Della	_	O	O	
+23-7	Direzione	NE	<unknown>	_	O	O	
+23-8	)	$(	)	_	O	O	
+23-9	70.sten	ADJA	<unknown>	_	O	O	
+23-10	Geburtstag	NN	Geburtstag	_	O	O	
+23-11	der	ART	die	_	O	O	
+23-12	hier	ADV	hier	_	O	O	
+23-13	am	APPRART	an	_	O	O	
+23-14	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+23-15	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+23-16	gefeiert	VVPP	feiern	_	O	O	
+23-17	werden	VAINF	werden	_	O	O	
+23-18	soll	VMFIN	sollen	_	O	O	
+23-19	,	$,	,	_	O	O	
+23-20	rüste	VVFIN	rüsten	_	O	O	
+23-21	ich	PPER	ich	_	O	O	
+23-22	eine	ART	eine	_	O	O	
+23-23	Glückwunschadresse	NN	Glückwunschadresse	_	O	O	
+23-24	aus	PTKVZ	aus	_	O	O	
+23-25	.	$.	.	_	O	O	
+
+#id=24
+#text=Mommsen wird meinen vor wenig Tagen ans Institut gesandten Geldbrief erhalten haben, Braun den daran gehangten Brief dem ich nun besten Dank für seine Sendung beifüge.
+24-1	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+24-2	wird	VAFIN	werden	_	O	O	
+24-3	meinen	PPOSAT	mein	_	O	O	
+24-4	vor	APPR	vor	_	O	O	
+24-5	wenig	PIAT	wenige	_	O	O	
+24-6	Tagen	NN	Tag	_	O	O	
+24-7	ans	APPRART	ans	_	O	O	
+24-8	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+24-9	gesandten	ADJA	gesandt	_	O	O	
+24-10	Geldbrief	NN	<unknown>	_	O	O	
+24-11	erhalten	VVPP	erhalten	_	O	O	
+24-12	haben	VAINF	haben	_	O	O	
+24-13	,	$,	,	_	O	O	
+24-14	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+24-15	den	ART	die	_	O	O	
+24-16	daran	PAV	daran	_	O	O	
+24-17	gehangten	ADJA	<unknown>	_	O	O	
+24-18	Brief	NN	Brief	_	O	O	
+24-19	dem	PRELS	die	_	O	O	
+24-20	ich	PPER	ich	_	O	O	
+24-21	nun	ADV	nun	_	O	O	
+24-22	besten	ADJA	gut	_	O	O	
+24-23	Dank	NN	Dank	_	O	O	
+24-24	für	APPR	für	_	O	O	
+24-25	seine	PPOSAT	sein	_	O	O	
+24-26	Sendung	NN	Sendung	_	O	O	
+24-27	beifüge	VVFIN	beifügen	_	O	O	
+24-28	.	$.	.	_	O	O	
+
+#id=25
+#text=Ihre Tabula Baebiana lasse ich zu 25 Sgr verkaufen.
+25-1	Ihre	PPOSAT	ihr	_	O	O	
+25-2	Tabula	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+25-3	Baebiana	NE	<unknown>	_	O	O	
+25-4	lasse	VVFIN	lassen	_	O	O	
+25-5	ich	PPER	ich	_	O	O	
+25-6	zu	APPR	zu	_	O	O	
+25-7	25	CARD	25	_	O	O	
+25-8	Sgr	NN	<unknown>	_	O	O	
+25-9	verkaufen	VVINF	verkaufen	_	O	O	
+25-10	.	$.	.	_	O	O	
+
+#id=26
+#text=Meine Frau grüßt in beigehendem Brief.
+26-1	Meine	PPOSAT	mein	_	O	O	
+26-2	Frau	NN	Frau	_	O	O	
+26-3	grüßt	VVFIN	grüßen	_	O	O	
+26-4	in	APPR	in	_	O	O	
+26-5	beigehendem	ADJA	<unknown>	_	O	O	
+26-6	Brief	NN	Brief	_	O	O	
+26-7	.	$.	.	_	O	O	
+
+#id=27
+#text=Mit herzlichem Neujahrswunsch für Sie und die Ihrige Treugesinnt Gerhard
+27-1	Mit	APPR	mit	_	O	O	
+27-2	herzlichem	ADJA	herzlich	_	O	O	
+27-3	Neujahrswunsch	NN	<unknown>	_	O	O	
+27-4	für	APPR	für	_	O	O	
+27-5	Sie	PPER	Sie	_	O	O	
+27-6	und	KON	und	_	O	O	
+27-7	die	PRELS	die	_	O	O	
+27-8	Ihrige	PPOSAT	ihrige	_	O	O	
+27-9	Treugesinnt	NN	<unknown>	_	O	O	
+27-10	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

@@ -1,0 +1,157 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Gerhard an Henzen Berlin, 9. Oktober 1846 schriften aufzuräumen scheitern am Vatikan.
+1-1	2	CARD	2	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	O	O	
+1-5	Berlin	NE	Berlin	_	O	O	
+1-6	,	$,	,	_	O	O	
+1-7	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Oktober	NN	Oktober	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	schriften	NN	Schrift	_	O	O	
+1-12	aufzuräumen	VVIZU	aufräumen	_	O	O	
+1-13	scheitern	VVFIN	scheitern	_	O	O	
+1-14	am	APPRART	an	_	O	O	
+1-15	Vatikan	NN	Vatikan	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Vom Bullettino erhielt ich zuletzt no 9 settembre - , inhaltreich.
+2-1	Vom	APPRART	von	_	O	O	
+2-2	Bullettino	NN	<unknown>	_	O	O	
+2-3	erhielt	VVFIN	erhalten	_	O	O	
+2-4	ich	PPER	ich	_	O	O	
+2-5	zuletzt	ADV	zuletzt	_	O	O	
+2-6	no	NE	no	_	O	O	
+2-7	9	CARD	9	_	O	O	
+2-8	settembre	NN	<unknown>	_	O	O	
+2-9	-	$(	-	_	O	O	
+2-10	,	$,	,	_	O	O	
+2-11	inhaltreich	ADJD	<unknown>	_	O	O	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=Irgend eine Höflichkeit dem Geppert geleistet zu haben wird dem Institut allerdings wohl anstehen.
+3-1	Irgend	ADV	irgend	_	O	O	
+3-2	eine	ART	eine	_	O	O	
+3-3	Höflichkeit	NN	Höflichkeit	_	O	O	
+3-4	dem	ART	die	_	O	O	
+3-5	Geppert	NN	<unknown>	_	O	O	
+3-6	geleistet	VVPP	leisten	_	O	O	
+3-7	zu	PTKZU	zu	_	O	O	
+3-8	haben	VAINF	haben	_	O	O	
+3-9	wird	VAFIN	werden	_	O	O	
+3-10	dem	ART	die	_	O	O	
+3-11	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-12	allerdings	ADV	allerdings	_	O	O	
+3-13	wohl	ADV	wohl	_	O	O	
+3-14	anstehen	VVINF	anstehen	_	O	O	
+3-15	.	$.	.	_	O	O	
+
+#id=4
+#text=Horkel glücklich von Weimar (Happe) und Jena heimgekehrt grüßt bestens.
+4-1	Horkel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	glücklich	ADJD	glücklich	_	O	O	
+4-3	von	APPR	von	_	O	O	
+4-4	Weimar	NE	Weimar	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-5	(	$(	(	_	O	O	
+4-6	Happe	NN	<unknown>	_	O	O	
+4-7	)	$(	)	_	O	O	
+4-8	und	KON	und	_	O	O	
+4-9	Jena	NE	Jena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-10	heimgekehrt	VVPP	heimkehren	_	O	O	
+4-11	grüßt	VVFIN	grüßen	_	O	O	
+4-12	bestens	ADV	bestens	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich habe eben Böckh aufgesucht und die Versicherung erhalten daß Seitens der Akademie, sobald die königliche Bewilligung da ist, keine Schwierigkeiten da sein werden ohne Weiteres eine Summe, ich denke zunächst 500 rt , an Mommsen zu senden.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	eben	ADV	eben	_	O	O	
+5-4	Böckh	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	aufgesucht	VVPP	aufsuchen	_	O	O	
+5-6	und	KON	und	_	O	O	
+5-7	die	ART	die	_	O	O	
+5-8	Versicherung	NN	Versicherung	_	O	O	
+5-9	erhalten	VVFIN	erhalten	_	O	O	
+5-10	daß	KOUS	dass	_	O	O	
+5-11	Seitens	NN	<unknown>	_	O	O	
+5-12	der	ART	die	_	O	O	
+5-13	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-14	,	$,	,	_	O	O	
+5-15	sobald	KOUS	sobald	_	O	O	
+5-16	die	ART	die	_	O	O	
+5-17	königliche	ADJA	königlich	_	O	O	
+5-18	Bewilligung	NN	Bewilligung	_	O	O	
+5-19	da	ADV	da	_	O	O	
+5-20	ist	VAFIN	sein	_	O	O	
+5-21	,	$,	,	_	O	O	
+5-22	keine	PIAT	keine	_	O	O	
+5-23	Schwierigkeiten	NN	Schwierigkeit	_	O	O	
+5-24	da	ADV	da	_	O	O	
+5-25	sein	VAINF	sein	_	O	O	
+5-26	werden	VAFIN	werden	_	O	O	
+5-27	ohne	APPR	ohne	_	O	O	
+5-28	Weiteres	NN	Weiter	_	O	O	
+5-29	eine	ART	eine	_	O	O	
+5-30	Summe	NN	Summe	_	O	O	
+5-31	,	$,	,	_	O	O	
+5-32	ich	PPER	ich	_	O	O	
+5-33	denke	VVFIN	denken	_	O	O	
+5-34	zunächst	ADV	zunächst	_	O	O	
+5-35	500	CARD	500	_	O	O	
+5-36	rt	ADJA	<unknown>	_	O	O	
+5-37	,	$,	,	_	O	O	
+5-38	an	APPR	an	_	O	O	
+5-39	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-40	zu	PTKZU	zu	_	O	O	
+5-41	senden	VVINF	senden	_	O	O	
+5-42	.	$.	.	_	O	O	
+
+#id=6
+#text=Aber ein Monat geht wol wenigstens noch darüber hin.
+6-1	Aber	KON	aber	_	O	O	
+6-2	ein	ART	eine	_	O	O	
+6-3	Monat	NN	Monat	_	O	O	
+6-4	geht	VVFIN	gehen	_	O	O	
+6-5	wol	ADJD	<unknown>	_	O	O	
+6-6	wenigstens	ADV	wenigstens	_	O	O	
+6-7	noch	ADV	noch	_	O	O	
+6-8	darüber	PAV	darüber	_	O	O	
+6-9	hin	PTKVZ	hin	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=nigen; obenauf.
+7-1	nigen	NE	<unknown>	_	O	O	
+7-2	;	$.	;	_	O	O	
+7-3	obenauf	ADV	obenauf	_	O	O	
+7-4	.	$.	.	_	O	O	
+
+#id=8
+#text=Viel Herzliches an Ihre liebe Frau von der meigrüßen Sie werthe Freunde und halten Sie Sich Ganz der Ihrige Gerhard
+8-1	Viel	PIAT	viele	_	O	O	
+8-2	Herzliches	NN	Herzliche	_	O	O	
+8-3	an	APPR	an	_	O	O	
+8-4	Ihre	PPOSAT	ihr	_	O	O	
+8-5	liebe	ADJA	lieb	_	O	O	
+8-6	Frau	NN	Frau	_	O	O	
+8-7	von	APPR	von	_	O	O	
+8-8	der	ART	die	_	O	O	
+8-9	meigrüßen	NN	<unknown>	_	O	O	
+8-10	Sie	PPER	Sie	_	O	O	
+8-11	werthe	ADJA	<unknown>	_	O	O	
+8-12	Freunde	NN	Freund	_	O	O	
+8-13	und	KON	und	_	O	O	
+8-14	halten	VVFIN	halten	_	O	O	
+8-15	Sie	PPER	Sie	_	O	O	
+8-16	Sich	PRF	sich	_	O	O	
+8-17	Ganz	ADV	ganz	_	O	O	
+8-18	der	ART	die	_	O	O	
+8-19	Ihrige	PPOSAT	ihrige	_	O	O	
+8-20	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

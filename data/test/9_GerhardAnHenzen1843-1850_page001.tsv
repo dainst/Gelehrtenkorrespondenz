@@ -1,0 +1,265 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=582 Aff.
+1-1	582	CARD	@card@	_	O	O	
+1-2	Aff	NN	<unknown>	_	O	O	
+1-3	.	$.	.	_	O	O	
+
+#id=2
+#text=di Direz.
+2-1	di	NE	di	_	O	O	
+2-2	Direz	NE	<unknown>	_	O	O	
+2-3	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Henzen Mailand 6/IX/1843 g. 11/9 43 r.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-2	an	APPR	an	_	O	O	
+3-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-4	Mailand	NE	Mailand	_	O	O	
+3-5	6/IX/1843	CARD	<unknown>	_	O	O	
+3-6	g.	ADJA	<unknown>	_	O	O	
+3-7	11/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-8	43	CARD	43	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+3-9	r.	ADJA	<unknown>	_	O	O	
+
+#id=4
+#text=11/9 43 Mailand 6 Sept.
+4-1	11/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+4-2	43	CARD	43	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+4-3	Mailand	NN	Mailand	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-4	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-5	Sept.	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=5
+#text=43 Es ist mir gelungen, geehrte~~rr Doktor, ~eine diesjährige Ferienreise so weit auszudehnen, daß ich in einigen Tagen hoffen darf Rom und unser Institut wieder zu begrüßen, wenn auch nur für wenige Wochen.
+5-1	43	CARD	43	_	O	O	
+5-2	Es	NN	Es	_	O	O	
+5-3	ist	VAFIN	sein	_	O	O	
+5-4	mir	PPER	ich	_	O	O	
+5-5	gelungen	VVPP	gelingen	_	O	O	
+5-6	,	$,	,	_	O	O	
+5-7	geehrte~~rr	ADJA	<unknown>	_	O	O	
+5-8	Doktor	NN	Doktor	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	~eine	ADJA	<unknown>	_	O	O	
+5-11	diesjährige	ADJA	diesjährig	_	O	O	
+5-12	Ferienreise	NN	Ferienreise	_	O	O	
+5-13	so	ADV	so	_	O	O	
+5-14	weit	ADJD	weit	_	O	O	
+5-15	auszudehnen	VVIZU	ausdehnen	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	daß	KOUS	dass	_	O	O	
+5-18	ich	PPER	ich	_	O	O	
+5-19	in	APPR	in	_	O	O	
+5-20	einigen	PIAT	einige	_	O	O	
+5-21	Tagen	NN	Tag	_	O	O	
+5-22	hoffen	VVINF	hoffen	_	O	O	
+5-23	darf	VMFIN	dürfen	_	O	O	
+5-24	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-25	und	KON	und	_	O	O	
+5-26	unser	PPOSAT	unser	_	O	O	
+5-27	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-28	wieder	ADV	wieder	_	O	O	
+5-29	zu	PTKZU	zu	_	O	O	
+5-30	begrüßen	VVINF	begrüßen	_	O	O	
+5-31	,	$,	,	_	O	O	
+5-32	wenn	KOUS	wenn	_	O	O	
+5-33	auch	ADV	auch	_	O	O	
+5-34	nur	ADV	nur	_	O	O	
+5-35	für	APPR	für	_	O	O	
+5-36	wenige	PIAT	wenige	_	O	O	
+5-37	Wochen	NN	Woche	_	O	O	
+5-38	.	$.	.	_	O	O	
+
+#id=6
+#text=Unser Freund ~raun, den ich in Bonn und bis Mainz sprach, hat mich so ganz und gar an Ihre Stellvertretung seiner mir f\U~ allzeit und allerorts hülf~ gewesenen Person verwiesen, daß ich mit Vorbehalt viel weiterer mündlicher Rücksprache zunächst mir erlaube Ihre Freundlichkeit, die ich darum doch nicht überbrauchen möchte, zunächst für ein Obdach in Anspruch zu nehmen das ich für die ersten Tage meines römischen Aufenthalts am liebsten im Angesichte des alten Roms, also in der Casa Tarpea, mir ausbitten möchte; späterhin ziehe ich wol auf Monte Pincio.
+6-1	Unser	PPOSAT	unser	_	O	O	
+6-2	Freund	NN	Freund	_	O	O	
+6-3	~raun	NN	<unknown>	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	den	PRELS	die	_	O	O	
+6-6	ich	PPER	ich	_	O	O	
+6-7	in	APPR	in	_	O	O	
+6-8	Bonn	NE	Bonn	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-9	und	KON	und	_	O	O	
+6-10	bis	APPR	bis	_	O	O	
+6-11	Mainz	NE	Mainz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-12	sprach	VVFIN	sprechen	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	hat	VAFIN	haben	_	O	O	
+6-15	mich	PRF	ich	_	O	O	
+6-16	so	ADV	so	_	O	O	
+6-17	ganz	ADJD	ganz	_	O	O	
+6-18	und	KON	und	_	O	O	
+6-19	gar	ADV	gar	_	O	O	
+6-20	an	APPR	an	_	O	O	
+6-21	Ihre	PPOSAT	ihr	_	O	O	
+6-22	Stellvertretung	NN	Stellvertretung	_	O	O	
+6-23	seiner	PPOSAT	sein	_	O	O	
+6-24	mir	PPER	ich	_	O	O	
+6-25	f\U~	NN	<unknown>	_	O	O	
+6-26	allzeit	ADV	allzeit	_	O	O	
+6-27	und	KON	und	_	O	O	
+6-28	allerorts	ADV	allerorts	_	O	O	
+6-29	hülf~	VVFIN	<unknown>	_	O	O	
+6-30	gewesenen	ADJA	gewesen	_	O	O	
+6-31	Person	NN	Person	_	O	O	
+6-32	verwiesen	VVPP	verweisen	_	O	O	
+6-33	,	$,	,	_	O	O	
+6-34	daß	KOUS	dass	_	O	O	
+6-35	ich	PPER	ich	_	O	O	
+6-36	mit	APPR	mit	_	O	O	
+6-37	Vorbehalt	NN	Vorbehalt	_	O	O	
+6-38	viel	PIAT	viele	_	O	O	
+6-39	weiterer	ADJA	weit	_	O	O	
+6-40	mündlicher	ADJA	mündlich	_	O	O	
+6-41	Rücksprache	NN	Rücksprache	_	O	O	
+6-42	zunächst	ADV	zunächst	_	O	O	
+6-43	mir	PPER	ich	_	O	O	
+6-44	erlaube	VVFIN	erlauben	_	O	O	
+6-45	Ihre	PPOSAT	ihr	_	O	O	
+6-46	Freundlichkeit	NN	Freundlichkeit	_	O	O	
+6-47	,	$,	,	_	O	O	
+6-48	die	PRELS	die	_	O	O	
+6-49	ich	PPER	ich	_	O	O	
+6-50	darum	PAV	darum	_	O	O	
+6-51	doch	ADV	doch	_	O	O	
+6-52	nicht	PTKNEG	nicht	_	O	O	
+6-53	überbrauchen	VVINF	<unknown>	_	O	O	
+6-54	möchte	VMFIN	mögen	_	O	O	
+6-55	,	$,	,	_	O	O	
+6-56	zunächst	ADV	zunächst	_	O	O	
+6-57	für	APPR	für	_	O	O	
+6-58	ein	ART	eine	_	O	O	
+6-59	Obdach	NN	Obdach	_	O	O	
+6-60	in	APPR	in	_	O	O	
+6-61	Anspruch	NN	Anspruch	_	O	O	
+6-62	zu	PTKZU	zu	_	O	O	
+6-63	nehmen	VVINF	nehmen	_	O	O	
+6-64	das	PDS	die	_	O	O	
+6-65	ich	PPER	ich	_	O	O	
+6-66	für	APPR	für	_	O	O	
+6-67	die	ART	die	_	O	O	
+6-68	ersten	ADJA	erst	_	O	O	
+6-69	Tage	NN	Tag	_	O	O	
+6-70	meines	PPOSAT	mein	_	O	O	
+6-71	römischen	ADJA	römisch	_	O	O	
+6-72	Aufenthalts	NN	Aufenthalt	_	O	O	
+6-73	am	PTKA	am	_	O	O	
+6-74	liebsten	ADJD	lieb	_	O	O	
+6-75	im	APPRART	in	_	O	O	
+6-76	Angesichte	NN	<unknown>	_	O	O	
+6-77	des	ART	die	_	O	O	
+6-78	alten	ADJA	alt	_	O	O	
+6-79	Roms	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-80	,	$,	,	_	O	O	
+6-81	also	ADV	also	_	O	O	
+6-82	in	APPR	in	_	O	O	
+6-83	der	ART	die	_	O	O	
+6-84	Casa	NE	Casa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-85	Tarpea	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+6-86	,	$,	,	_	O	O	
+6-87	mir	PRF	ich	_	O	O	
+6-88	ausbitten	VVINF	<unknown>	_	O	O	
+6-89	möchte	VMFIN	mögen	_	O	O	
+6-90	;	$.	;	_	O	O	
+6-91	späterhin	ADV	späterhin	_	O	O	
+6-92	ziehe	VVFIN	zeihen|ziehen	_	O	O	
+6-93	ich	PPER	ich	_	O	O	
+6-94	wol	ADJD	<unknown>	_	O	O	
+6-95	auf	APPR	auf	_	O	O	
+6-96	Monte	NE	Monte	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-97	Pincio	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+6-98	.	$.	.	_	O	O	
+
+#id=7
+#text=Braun stellte seine Räume mir zur Verfügung und da das Ospedale delle belle arti viel Leute bettet so wird es ja wol nicht schwer sein auch für mich und meine Frau ein paar Betten ohne viel Mühe benutzbar zu machen; Domenico oder die sontige Dienerschaft wird das wol beizuschaffen wissen, sofern Sie die Güte haben wollen zu verfügen.
+7-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	stellte	VVFIN	stellen	_	O	O	
+7-3	seine	PPOSAT	sein	_	O	O	
+7-4	Räume	NN	Raum	_	O	O	
+7-5	mir	PRF	ich	_	O	O	
+7-6	zur	APPRART	zu	_	O	O	
+7-7	Verfügung	NN	Verfügung	_	O	O	
+7-8	und	KON	und	_	O	O	
+7-9	da	ADV	da	_	O	O	
+7-10	das	ART	die	_	O	O	
+7-11	Ospedale	NN	<unknown>	_	O	O	
+7-12	delle	VVFIN	dellen	_	O	O	
+7-13	belle	VVFIN	bellen	_	O	O	
+7-14	arti	NE	<unknown>	_	O	O	
+7-15	viel	PIAT	viele	_	O	O	
+7-16	Leute	NN	Leute	_	O	O	
+7-17	bettet	VVFIN	betten	_	O	O	
+7-18	so	ADV	so	_	O	O	
+7-19	wird	VAFIN	werden	_	O	O	
+7-20	es	PPER	es	_	O	O	
+7-21	ja	ADV	ja	_	O	O	
+7-22	wol	ADJD	<unknown>	_	O	O	
+7-23	nicht	PTKNEG	nicht	_	O	O	
+7-24	schwer	ADJD	schwer	_	O	O	
+7-25	sein	VAINF	sein	_	O	O	
+7-26	auch	ADV	auch	_	O	O	
+7-27	für	APPR	für	_	O	O	
+7-28	mich	PRF	ich	_	O	O	
+7-29	und	KON	und	_	O	O	
+7-30	meine	PPOSAT	mein	_	O	O	
+7-31	Frau	NN	Frau	_	O	O	
+7-32	ein	ART	eine	_	O	O	
+7-33	paar	PIAT	paar	_	O	O	
+7-34	Betten	NN	Bett|Betten	_	O	O	
+7-35	ohne	APPR	ohne	_	O	O	
+7-36	viel	PIAT	viele	_	O	O	
+7-37	Mühe	NN	Mühe	_	O	O	
+7-38	benutzbar	ADJD	benutzbar	_	O	O	
+7-39	zu	PTKZU	zu	_	O	O	
+7-40	machen	VVINF	machen	_	O	O	
+7-41	;	$.	;	_	O	O	
+7-42	Domenico	NE	Domenico	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-43	oder	KON	oder	_	O	O	
+7-44	die	ART	die	_	O	O	
+7-45	sontige	ADJA	<unknown>	_	O	O	
+7-46	Dienerschaft	NN	Dienerschaft	_	O	O	
+7-47	wird	VAFIN	werden	_	O	O	
+7-48	das	PDS	die	_	O	O	
+7-49	wol	ADJD	<unknown>	_	O	O	
+7-50	beizuschaffen	VVIZU	<unknown>	_	O	O	
+7-51	wissen	VVINF	wissen	_	O	O	
+7-52	,	$,	,	_	O	O	
+7-53	sofern	KOUS	sofern	_	O	O	
+7-54	Sie	PPER	Sie	_	O	O	
+7-55	die	ART	die	_	O	O	
+7-56	Güte	NN	Güte	_	O	O	
+7-57	haben	VAINF	haben	_	O	O	
+7-58	wollen	VMFIN	wollen	_	O	O	
+7-59	zu	PTKZU	zu	_	O	O	
+7-60	verfügen	VVINF	verfügen	_	O	O	
+7-61	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich denke am 8t~n von hier abzureisen, von Genua am 9 oder, weil ein Sonntag dazwischen fällt erst am 11t~n.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	denke	VVFIN	denken	_	O	O	
+8-3	am	APPRART	an	_	O	O	
+8-4	8t~n	NE	<unknown>	_	O	O	
+8-5	von	APPR	von	_	O	O	
+8-6	hier	ADV	hier	_	O	O	
+8-7	abzureisen	VVIZU	abreisen	_	O	O	
+8-8	,	$,	,	_	O	O	
+8-9	von	APPR	von	_	O	O	
+8-10	Genua	NE	Genua	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-11	am	APPRART	an	_	O	O	
+8-12	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-13	oder	KON	oder	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	weil	KOUS	weil	_	O	O	
+8-16	ein	ART	eine	_	O	O	
+8-17	Sonntag	NN	Sonntag	_	O	O	
+8-18	dazwischen	PAV	dazwischen	_	O	O	
+8-19	fällt	VVFIN	fallen|fällen	_	O	O	
+8-20	erst	ADV	erst	_	O	O	
+8-21	am	APPRART	an	_	O	O	
+8-22	11t~n	NE	<unknown>	_	O	O	
+8-23	.	$.	.	_	O	O	
+

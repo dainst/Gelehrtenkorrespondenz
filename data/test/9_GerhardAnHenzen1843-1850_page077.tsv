@@ -1,0 +1,259 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=· .
+1-1	·	NN	<unknown>	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=.
+7-1	.	$.	.	_	O	O	
+
+#id=8
+#text=2 Gerhard an Henzen Berlin, 3.
+8-1	2	CARD	2	_	O	O	
+8-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+8-3	an	APPR	an	_	O	O	
+8-4	Henzen	NN	<unknown>	_	O	O	
+8-5	Berlin	NE	Berlin	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+8-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=9
+#text=N07ember 1846 Diese Addenda gebe ich nicht eher in die Zeitung als bis ein Rückschreiben von Ihnen da ist.
+9-1	N07ember	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+9-2	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+9-3	Diese	PDAT	dies	_	O	O	
+9-4	Addenda	NE	<unknown>	_	O	O	
+9-5	gebe	VVFIN	geben	_	O	O	
+9-6	ich	PPER	ich	_	O	O	
+9-7	nicht	PTKNEG	nicht	_	O	O	
+9-8	eher	ADV	eher	_	O	O	
+9-9	in	APPR	in	_	O	O	
+9-10	die	ART	die	_	O	O	
+9-11	Zeitung	NN	Zeitung	_	O	O	
+9-12	als	KOKOM	als	_	O	O	
+9-13	bis	APPR	bis	_	O	O	
+9-14	ein	ART	eine	_	O	O	
+9-15	Rückschreiben	NN	Rückschreiben	_	O	O	
+9-16	von	APPR	von	_	O	O	
+9-17	Ihnen	PPER	Sie	_	O	O	
+9-18	da	ADV	da	_	O	O	
+9-19	ist	VAFIN	sein	_	O	O	
+9-20	.	$.	.	_	O	O	
+
+#id=10
+#text=Schonen Sie Ihre Augen; mit wahrer Betrübnis höre ich daß Sie noch immer daran leiden.
+10-1	Schonen	VVFIN	schonen	_	O	O	
+10-2	Sie	PPER	Sie	_	O	O	
+10-3	Ihre	PPOSAT	ihr	_	O	O	
+10-4	Augen	NN	Auge	_	O	O	
+10-5	;	$.	;	_	O	O	
+10-6	mit	APPR	mit	_	O	O	
+10-7	wahrer	ADJA	wahr	_	O	O	
+10-8	Betrübnis	NN	Betrübnis	_	O	O	
+10-9	höre	VVFIN	hören	_	O	O	
+10-10	ich	PPER	ich	_	O	O	
+10-11	daß	KOUS	dass	_	O	O	
+10-12	Sie	PPER	Sie	_	O	O	
+10-13	noch	ADV	noch	_	O	O	
+10-14	immer	ADV	immer	_	O	O	
+10-15	daran	PAV	daran	_	O	O	
+10-16	leiden	VVINF	leiden	_	O	O	
+10-17	.	$.	.	_	O	O	
+
+#id=11
+#text=Vielen Dank an Braun für seine bibliographische Notiz.
+11-1	Vielen	PIAT	viele	_	O	O	
+11-2	Dank	NN	Dank	_	O	O	
+11-3	an	APPR	an	_	O	O	
+11-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-5	für	APPR	für	_	O	O	
+11-6	seine	PPOSAT	sein	_	O	O	
+11-7	bibliographische	ADJA	bibliographisch	_	O	O	
+11-8	Notiz	NN	Notiz	_	O	O	
+11-9	.	$.	.	_	O	O	
+
+#id=12
+#text=Ich schreibe ihm nächstens einmal selbst.
+12-1	Ich	PPER	ich	_	O	O	
+12-2	schreibe	VVFIN	schreiben	_	O	O	
+12-3	ihm	PPER	er	_	O	O	
+12-4	nächstens	ADV	nächstens	_	O	O	
+12-5	einmal	ADV	einmal	_	O	O	
+12-6	selbst	ADV	selbst	_	O	O	
+12-7	.	$.	.	_	O	O	
+
+#id=13
+#text=In der epigraphischen Sache ist nichts Neues; Ihre Notiz wegen der Franzosen behalte ich im Auge und danke bestens dafür.
+13-1	In	APPR	in	_	O	O	
+13-2	der	ART	die	_	O	O	
+13-3	epigraphischen	ADJA	<unknown>	_	O	O	
+13-4	Sache	NN	Sache	_	O	O	
+13-5	ist	VAFIN	sein	_	O	O	
+13-6	nichts	PIAT	nichts	_	O	O	
+13-7	Neues	NN	Neue	_	O	O	
+13-8	;	$.	;	_	O	O	
+13-9	Ihre	PPOSAT	ihr	_	O	O	
+13-10	Notiz	NN	Notiz	_	O	O	
+13-11	wegen	APPR	wegen	_	O	O	
+13-12	der	ART	die	_	O	O	
+13-13	Franzosen	NN	Franzose	_	O	O	
+13-14	behalte	VVFIN	behalten	_	O	O	
+13-15	ich	PPER	ich	_	O	O	
+13-16	im	APPRART	in	_	O	O	
+13-17	Auge	NN	Auge	_	O	O	
+13-18	und	KON	und	_	O	O	
+13-19	danke	VVFIN	danken	_	O	O	
+13-20	bestens	ADV	bestens	_	O	O	
+13-21	dafür	PAV	dafür	_	O	O	
+13-22	.	$.	.	_	O	O	
+
+#id=14
+#text=Mommsens oskischer Nachtrag ist heraus; druckts Lepsii Oheim.
+14-1	Mommsens	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	oskischer	ADJA	<unknown>	_	O	O	
+14-3	Nachtrag	NN	Nachtrag	_	O	O	
+14-4	ist	VAFIN	sein	_	O	O	
+14-5	heraus	ADV	heraus	_	O	O	
+14-6	;	$.	;	_	O	O	
+14-7	druckts	NN	<unknown>	_	O	O	
+14-8	Lepsii	NE	<unknown>	_	O	O	
+14-9	Oheim	NE	<unknown>	_	O	O	
+14-10	.	$.	.	_	O	O	
+
+#id=15
+#text=Sind denn Borghesi's Opuscula, immerhin nur abgedruckt daß man sie zusammen habe, allenfalls noch ohne seine Mitwirkung, gar nicht denkbar?
+15-1	Sind	VAFIN	sein	_	O	O	
+15-2	denn	KON	denn	_	O	O	
+15-3	Borghesi's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-4	Opuscula	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+15-5	,	$,	,	_	O	O	
+15-6	immerhin	ADV	immerhin	_	O	O	
+15-7	nur	ADV	nur	_	O	O	
+15-8	abgedruckt	VVPP	abdrucken	_	O	O	
+15-9	daß	KOUS	dass	_	O	O	
+15-10	man	PIS	man	_	O	O	
+15-11	sie	PPER	sie	_	O	O	
+15-12	zusammen	ADV	zusammen	_	O	O	
+15-13	habe	VAFIN	haben	_	O	O	
+15-14	,	$,	,	_	O	O	
+15-15	allenfalls	ADV	allenfalls	_	O	O	
+15-16	noch	ADV	noch	_	O	O	
+15-17	ohne	APPR	ohne	_	O	O	
+15-18	seine	PPOSAT	sein	_	O	O	
+15-19	Mitwirkung	NN	Mitwirkung	_	O	O	
+15-20	,	$,	,	_	O	O	
+15-21	gar	ADV	gar	_	O	O	
+15-22	nicht	PTKNEG	nicht	_	O	O	
+15-23	denkbar	ADJD	denkbar	_	O	O	
+15-24	?	$.	?	_	O	O	
+
+#id=16
+#text=Sieht er erst einen Band gedruckt, so gibt er doch wol allerlei Nachträgliches.
+16-1	Sieht	VVFIN	sehen	_	O	O	
+16-2	er	PPER	er	_	O	O	
+16-3	erst	ADV	erst	_	O	O	
+16-4	einen	ART	eine	_	O	O	
+16-5	Band	NN	Band	_	O	O	
+16-6	gedruckt	VVPP	drucken	_	O	O	
+16-7	,	$,	,	_	O	O	
+16-8	so	ADV	so	_	O	O	
+16-9	gibt	VVFIN	geben	_	O	O	
+16-10	er	PPER	er	_	O	O	
+16-11	doch	ADV	doch	_	O	O	
+16-12	wol	ADJD	<unknown>	_	O	O	
+16-13	allerlei	PIAT	allerlei	_	O	O	
+16-14	Nachträgliches	NN	<unknown>	_	O	O	
+16-15	.	$.	.	_	O	O	
+
+#id=17
+#text=Jen.
+17-1	Jen	NE	Jen	_	O	O	
+17-2	.	$.	.	_	O	O	
+
+#id=18
+#text=Lit.
+18-1	Lit.	NN	Lit.	_	O	O	
+
+#id=19
+#text=Zeitung sehe ich lange nicht, hörte aber von Ihrer Recension noch nichts.
+19-1	Zeitung	NN	Zeitung	_	O	O	
+19-2	sehe	VVFIN	sehen	_	O	O	
+19-3	ich	PPER	ich	_	O	O	
+19-4	lange	ADV	lange	_	O	O	
+19-5	nicht	PTKNEG	nicht	_	O	O	
+19-6	,	$,	,	_	O	O	
+19-7	hörte	VVFIN	hören	_	O	O	
+19-8	aber	ADV	aber	_	O	O	
+19-9	von	APPR	von	_	O	O	
+19-10	Ihrer	PPOSAT	ihr	_	O	O	
+19-11	Recension	NN	<unknown>	_	O	O	
+19-12	noch	ADV	noch	_	O	O	
+19-13	nichts	PIS	nichts	_	O	O	
+19-14	.	$.	.	_	O	O	
+
+#id=20
+#text=Der Fortschritt des Index und des Annalendrucks freut mich.
+20-1	Der	ART	die	_	O	O	
+20-2	Fortschritt	NN	Fortschritt	_	O	O	
+20-3	des	ART	die	_	O	O	
+20-4	Index	NN	Index	_	O	O	
+20-5	und	KON	und	_	O	O	
+20-6	des	ART	die	_	O	O	
+20-7	Annalendrucks	NN	<unknown>	_	O	O	
+20-8	freut	VVFIN	freuen	_	O	O	
+20-9	mich	PRF	ich	_	O	O	
+20-10	.	$.	.	_	O	O	
+
+#id=21
+#text=Für deutsche Extracte der Adunanz Protokolle empfehle ich mich vorläufig wieder.
+21-1	Für	APPR	für	_	O	O	
+21-2	deutsche	ADJA	deutsch	_	O	O	
+21-3	Extracte	NN	<unknown>	_	O	O	
+21-4	der	ART	die	_	O	O	
+21-5	Adunanz	NN	<unknown>	_	O	O	
+21-6	Protokolle	NN	Protokoll	_	O	O	
+21-7	empfehle	VVFIN	empfehlen	_	O	O	
+21-8	ich	PPER	ich	_	O	O	
+21-9	mich	PRF	ich	_	O	O	
+21-10	vorläufig	ADJD	vorläufig	_	O	O	
+21-11	wieder	ADV	wieder	_	O	O	
+21-12	.	$.	.	_	O	O	
+
+#id=22
+#text=rige Mit besten Grüßen von meiner Frau und an die IhHerzlichst Ihr Gerhard
+22-1	rige	ADJD	<unknown>	_	O	O	
+22-2	Mit	APPR	mit	_	O	O	
+22-3	besten	ADJA	gut	_	O	O	
+22-4	Grüßen	NN	Gruß|Grüßen	_	O	O	
+22-5	von	APPR	von	_	O	O	
+22-6	meiner	PPOSAT	mein	_	O	O	
+22-7	Frau	NN	Frau	_	O	O	
+22-8	und	KON	und	_	O	O	
+22-9	an	APPR	an	_	O	O	
+22-10	die	ART	die	_	O	O	
+22-11	IhHerzlichst	NN	<unknown>	_	O	O	
+22-12	Ihr	PPOSAT	ihr	_	O	O	
+22-13	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

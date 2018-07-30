@@ -1,0 +1,108 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=624 Gerhard an Hen.zen 9/X/1843 2 der ebenfalls eins verlangt hatte, haben Sie es vielleicht bereits zur Disposition gestellt; bitte ihn allerbestens zu grüßen.
+1-1	624	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Hen.zen	NE	<unknown>	_	O	O	
+1-5	9/X/1843	CARD	<unknown>	_	O	O	
+1-6	2	CARD	2	_	O	O	
+1-7	der	ART	die	_	O	O	
+1-8	ebenfalls	ADV	ebenfalls	_	O	O	
+1-9	eins	CARD	eins	_	O	O	
+1-10	verlangt	VVPP	verlangen	_	O	O	
+1-11	hatte	VAFIN	haben	_	O	O	
+1-12	,	$,	,	_	O	O	
+1-13	haben	VAFIN	haben	_	O	O	
+1-14	Sie	PPER	Sie	_	O	O	
+1-15	es	PPER	es	_	O	O	
+1-16	vielleicht	ADV	vielleicht	_	O	O	
+1-17	bereits	ADV	bereits	_	O	O	
+1-18	zur	APPRART	zu	_	O	O	
+1-19	Disposition	NN	Disposition	_	O	O	
+1-20	gestellt	VVPP	stellen	_	O	O	
+1-21	;	$.	;	_	O	O	
+1-22	bitte	VVIMP	bitten	_	O	O	
+1-23	ihn	PPER	er	_	O	O	
+1-24	allerbestens	ADV	<unknown>	_	O	O	
+1-25	zu	PTKZU	zu	_	O	O	
+1-26	grüßen	VVINF	grüßen	_	O	O	
+1-27	.	$.	.	_	O	O	
+
+#id=2
+#text=Nachdem wir hier 1 1/2 Tage geruht, geht es unaufl1J.. haltsam weiter.
+2-1	Nachdem	KOUS	nachdem	_	O	O	
+2-2	wir	PPER	wir	_	O	O	
+2-3	hier	ADV	hier	_	O	O	
+2-4	1	CARD	1	_	O	O	
+2-5	1/2	CARD	1/2	_	O	O	
+2-6	Tage	NN	Tag	_	O	O	
+2-7	geruht	VVPP	geruhen|ruhen	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	geht	VVFIN	gehen	_	O	O	
+2-10	es	PPER	es	_	O	O	
+2-11	unaufl1J.	ADJD	<unknown>	_	O	O	
+2-12	.	$.	.	_	O	O	
+2-13	haltsam	ADJD	<unknown>	_	O	O	
+2-14	weiter	PTKVZ	weiter	_	O	O	
+2-15	.	$.	.	_	O	O	
+
+#id=3
+#text=Grüßen Sie Blessig, Horkel, P_Iler und wer sonst gern meiner gedenkt; den Custode della Rupe und die löbliche Dienerschaft nicht ausgenommen.
+3-1	Grüßen	VVFIN	grüßen	_	O	O	
+3-2	Sie	PPER	Sie	_	O	O	
+3-3	Blessig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-4	,	$,	,	_	O	O	
+3-5	Horkel	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-6	,	$,	,	_	O	O	
+3-7	P_Iler	TRUNC	<unknown>	_	O	O	
+3-8	und	KON	und	_	O	O	
+3-9	wer	PWS	wer	_	O	O	
+3-10	sonst	ADV	sonst	_	O	O	
+3-11	gern	ADV	gern	_	O	O	
+3-12	meiner	PPOSAT	mein	_	O	O	
+3-13	gedenkt	VVFIN	gedenken	_	O	O	
+3-14	;	$.	;	_	O	O	
+3-15	den	ART	die	_	O	O	
+3-16	Custode	NE	<unknown>	_	O	O	
+3-17	della	NE	Della	_	O	O	
+3-18	Rupe	NE	<unknown>	_	O	O	
+3-19	und	KON	und	_	O	O	
+3-20	die	ART	die	_	O	O	
+3-21	löbliche	ADJA	löblich	_	O	O	
+3-22	Dienerschaft	NN	Dienerschaft	_	O	O	
+3-23	nicht	PTKNEG	nicht	_	O	O	
+3-24	ausgenommen	ADV	ausgenommen	_	O	O	
+3-25	.	$.	.	_	O	O	
+
+#id=4
+#text=Von Herzen der Ihrige Gerhard Meine Reise wird möglichst rasch gehn, so daß ich etwa 3 Wochen von hier ab spätestens in Berlin zu sein hoffe.
+4-1	Von	APPR	von	_	O	O	
+4-2	Herzen	NN	Herz	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	Ihrige	PPOSAT	ihrige	_	O	O	
+4-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+4-6	Meine	PPOSAT	mein	_	O	O	
+4-7	Reise	NN	Reise	_	O	O	
+4-8	wird	VAFIN	werden	_	O	O	
+4-9	möglichst	ADV	möglichst	_	O	O	
+4-10	rasch	ADJD	rasch	_	O	O	
+4-11	gehn	VVFIN	<unknown>	_	O	O	
+4-12	,	$,	,	_	O	O	
+4-13	so	ADV	so	_	O	O	
+4-14	daß	KOUS	dass	_	O	O	
+4-15	ich	PPER	ich	_	O	O	
+4-16	etwa	ADV	etwa	_	O	O	
+4-17	3	CARD	3	_	O	O	
+4-18	Wochen	NN	Woche	_	O	O	
+4-19	von	APPR	von	_	O	O	
+4-20	hier	ADV	hier	_	O	O	
+4-21	ab	ADV	ab	_	O	O	
+4-22	spätestens	ADV	spätestens	_	O	O	
+4-23	in	APPR	in	_	O	O	
+4-24	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-25	zu	PTKZU	zu	_	O	O	
+4-26	sein	VAINF	sein	_	O	O	
+4-27	hoffe	VVFIN	hoffen	_	O	O	
+4-28	.	$.	.	_	O	O	
+

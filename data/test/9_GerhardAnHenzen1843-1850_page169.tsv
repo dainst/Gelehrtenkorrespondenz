@@ -1,0 +1,251 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=117 A. di Dir.
+1-1	117	CARD	117	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=D. Renzen Gerhard an Henzen Berlin 7/VII/1849 g. 19/YII /49 r. 20/VII 49 Berlin 7 Juli 49 Ihren eben angelangten Brief lieber li'reund vom bombardirten Kapitol beantworte ich unverzüglich, zumal wie ich seit Wochen einen erheblichen Stoff vermißte der nlJ~ außer theilnehmenden Ausdrücken unserer trüb~a Besorgniß um Rom und die römischen Freunde den unsichern Weg zu Ihnen sich suchen sollte, meine Frau durch Benutzung ihrer eben heute früh freier gewordenen Zeit einen Grund mehr zur Briefsendung mir bietet.
+2-1	D.	ART	d.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	Renzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-3	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-4	an	APPR	an	_	O	O	
+2-5	Henzen	NN	<unknown>	_	O	O	
+2-6	Berlin	NE	Berlin	_	O	O	
+2-7	7/VII/1849	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-8	g.	ADJA	<unknown>	_	O	O	
+2-9	19/YII	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-10	/49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-11	r.	VVFIN	<unknown>	_	O	O	
+2-12	20/VII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-13	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-15	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-16	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-17	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-18	Ihren	PPOSAT	ihr	_	O	O	
+2-19	eben	ADV	eben	_	O	O	
+2-20	angelangten	ADJA	angelangt	_	O	O	
+2-21	Brief	NN	Brief	_	O	O	
+2-22	lieber	ADJA	lieb	_	O	O	
+2-23	li'reund	NN	<unknown>	_	O	O	
+2-24	vom	APPRART	von	_	O	O	
+2-25	bombardirten	NN	<unknown>	_	O	O	
+2-26	Kapitol	NN	Kapitol	_	O	O	
+2-27	beantworte	VVFIN	beantworten	_	O	O	
+2-28	ich	PPER	ich	_	O	O	
+2-29	unverzüglich	ADJD	unverzüglich	_	O	O	
+2-30	,	$,	,	_	O	O	
+2-31	zumal	KOUS	zumal	_	O	O	
+2-32	wie	KOUS	wie	_	O	O	
+2-33	ich	PPER	ich	_	O	O	
+2-34	seit	APPR	seit	_	O	O	
+2-35	Wochen	NN	Woche	_	O	O	
+2-36	einen	ART	eine	_	O	O	
+2-37	erheblichen	ADJA	erheblich	_	O	O	
+2-38	Stoff	NN	Stoff	_	O	O	
+2-39	vermißte	VVFIN	vermissen	_	O	O	
+2-40	der	ART	die	_	O	O	
+2-41	nlJ~	NN	<unknown>	_	O	O	
+2-42	außer	APPR	außer	_	O	O	
+2-43	theilnehmenden	ADJA	<unknown>	_	O	O	
+2-44	Ausdrücken	NN	Ausdruck	_	O	O	
+2-45	unserer	PPOSAT	unser	_	O	O	
+2-46	trüb~a	ADJA	<unknown>	_	O	O	
+2-47	Besorgniß	NN	<unknown>	_	O	O	
+2-48	um	APPR	um	_	O	O	
+2-49	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-50	und	KON	und	_	O	O	
+2-51	die	ART	die	_	O	O	
+2-52	römischen	ADJA	römisch	_	O	O	
+2-53	Freunde	NN	Freund	_	O	O	
+2-54	den	ART	die	_	O	O	
+2-55	unsichern	ADJA	unsicher	_	O	O	
+2-56	Weg	NN	Weg	_	O	O	
+2-57	zu	APPR	zu	_	O	O	
+2-58	Ihnen	PPER	Sie	_	O	O	
+2-59	sich	PRF	sich	_	O	O	
+2-60	suchen	VVINF	suchen	_	O	O	
+2-61	sollte	VMFIN	sollen	_	O	O	
+2-62	,	$,	,	_	O	O	
+2-63	meine	PPOSAT	mein	_	O	O	
+2-64	Frau	NN	Frau	_	O	O	
+2-65	durch	APPR	durch	_	O	O	
+2-66	Benutzung	NN	Benutzung	_	O	O	
+2-67	ihrer	PPOSAT	ihr	_	O	O	
+2-68	eben	ADV	eben	_	O	O	
+2-69	heute	ADV	heute	_	O	O	
+2-70	früh	ADJD	früh	_	O	O	
+2-71	freier	ADJA	frei	_	O	O	
+2-72	gewordenen	ADJA	worden	_	O	O	
+2-73	Zeit	NN	Zeit	_	O	O	
+2-74	einen	ART	eine	_	O	O	
+2-75	Grund	NN	Grund	_	O	O	
+2-76	mehr	ADV	mehr	_	O	O	
+2-77	zur	APPRART	zu	_	O	O	
+2-78	Briefsendung	NN	Briefsendung	_	O	O	
+2-79	mir	PPER	ich	_	O	O	
+2-80	bietet	VVFIN	bieten	_	O	O	
+2-81	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich kann über alles schwere und weiterhin in all seinen Einzelheiten uns wol nur schweer rer~heinende Geschick dessen Katastrophe Sie mit wenigen andern Getreuen durchleben mich ohne Betrübniß und ohne mehr Zweck als vorliegt nicht weiter verbreiten; Gott helfe Ihnen allen und der unglücklichen Stadt zu einem gnä.digen Abschluß Von hier gab es in der That sehr wenig zu berichten: neue Aushä.ngebogen meines langsamen Arch.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	kann	VMFIN	können	_	O	O	
+3-3	über	APPR	über	_	O	O	
+3-4	alles	PIS	alle	_	O	O	
+3-5	schwere	ADJA	schwer	_	O	O	
+3-6	und	KON	und	_	O	O	
+3-7	weiterhin	ADV	weiterhin	_	O	O	
+3-8	in	APPR	in	_	O	O	
+3-9	all	PIAT	alle	_	O	O	
+3-10	seinen	PPOSAT	sein	_	O	O	
+3-11	Einzelheiten	NN	Einzelheit	_	O	O	
+3-12	uns	PRF	wir	_	O	O	
+3-13	wol	ADJD	<unknown>	_	O	O	
+3-14	nur	ADV	nur	_	O	O	
+3-15	schweer	ADJA	<unknown>	_	O	O	
+3-16	rer~heinende	ADJA	<unknown>	_	O	O	
+3-17	Geschick	NN	Geschick	_	O	O	
+3-18	dessen	PDAT	die	_	O	O	
+3-19	Katastrophe	NN	Katastrophe	_	O	O	
+3-20	Sie	PPER	Sie	_	O	O	
+3-21	mit	APPR	mit	_	O	O	
+3-22	wenigen	PIAT	wenige	_	O	O	
+3-23	andern	PIAT	andere	_	O	O	
+3-24	Getreuen	NN	Getreue	_	O	O	
+3-25	durchleben	VVFIN	durchleben	_	O	O	
+3-26	mich	PRF	ich	_	O	O	
+3-27	ohne	APPR	ohne	_	O	O	
+3-28	Betrübniß	NN	<unknown>	_	O	O	
+3-29	und	KON	und	_	O	O	
+3-30	ohne	APPR	ohne	_	O	O	
+3-31	mehr	PIAT	mehr	_	O	O	
+3-32	Zweck	NN	Zweck	_	O	O	
+3-33	als	KOKOM	als	_	O	O	
+3-34	vorliegt	VVFIN	vorliegen	_	O	O	
+3-35	nicht	PTKNEG	nicht	_	O	O	
+3-36	weiter	ADV	weiter	_	O	O	
+3-37	verbreiten	VVINF	verbreiten	_	O	O	
+3-38	;	$.	;	_	O	O	
+3-39	Gott	NN	Gott	_	O	O	
+3-40	helfe	VVFIN	helfen	_	O	O	
+3-41	Ihnen	PPER	Sie	_	O	O	
+3-42	allen	PIS	alle	_	O	O	
+3-43	und	KON	und	_	O	O	
+3-44	der	ART	die	_	O	O	
+3-45	unglücklichen	ADJA	unglücklich	_	O	O	
+3-46	Stadt	NN	Stadt	_	O	O	
+3-47	zu	APPR	zu	_	O	O	
+3-48	einem	ART	eine	_	O	O	
+3-49	gnä.digen	ADJA	<unknown>	_	O	O	
+3-50	Abschluß	NN	Abschluss	_	O	O	
+3-51	Von	APPR	von	_	O	O	
+3-52	hier	ADV	hier	_	O	O	
+3-53	gab	VVFIN	geben	_	O	O	
+3-54	es	PPER	es	_	O	O	
+3-55	in	APPR	in	_	O	O	
+3-56	der	ART	die	_	O	O	
+3-57	That	NE	<unknown>	_	O	O	
+3-58	sehr	ADV	sehr	_	O	O	
+3-59	wenig	PIS	wenige	_	O	O	
+3-60	zu	PTKZU	zu	_	O	O	
+3-61	berichten	VVINF	berichten	_	O	O	
+3-62	:	$.	:	_	O	O	
+3-63	neue	ADJA	neu	_	O	O	
+3-64	Aushä.ngebogen	NN	<unknown>	_	O	O	
+3-65	meines	PPOSAT	mein	_	O	O	
+3-66	langsamen	ADJA	langsam	_	O	O	
+3-67	Arch	NN	<unknown>	_	O	O	
+3-68	.	$.	.	_	O	O	
+
+#id=4
+#text=Zeitungdrucks bekommen Sie gleichzeitig oder nächstertags, um doch wenigstens die Benutzung Ihrer sehr dankenswerthen handschriftlichen Mittheilungen Ihnenvorweisen zu können.
+4-1	Zeitungdrucks	ADJD	<unknown>	_	O	O	
+4-2	bekommen	VVFIN	bekommen	_	O	O	
+4-3	Sie	PPER	Sie	_	O	O	
+4-4	gleichzeitig	ADJD	gleichzeitig	_	O	O	
+4-5	oder	KON	oder	_	O	O	
+4-6	nächstertags	ADV	<unknown>	_	O	O	
+4-7	,	$,	,	_	O	O	
+4-8	um	KOUI	um	_	O	O	
+4-9	doch	ADV	doch	_	O	O	
+4-10	wenigstens	ADV	wenigstens	_	O	O	
+4-11	die	ART	die	_	O	O	
+4-12	Benutzung	NN	Benutzung	_	O	O	
+4-13	Ihrer	PPOSAT	ihr	_	O	O	
+4-14	sehr	ADV	sehr	_	O	O	
+4-15	dankenswerthen	NE	<unknown>	_	O	O	
+4-16	handschriftlichen	ADJA	handschriftlich	_	O	O	
+4-17	Mittheilungen	NN	<unknown>	_	O	O	
+4-18	Ihnenvorweisen	NN	<unknown>	_	O	O	
+4-19	zu	PTKZU	zu	_	O	O	
+4-20	können	VMINF	können	_	O	O	
+4-21	.	$.	.	_	O	O	
+
+#id=5
+#text=Bei Ihnen ist trotz der schlimmen Zeiten besser aufgeräumt worden.
+5-1	Bei	APPR	bei	_	O	O	
+5-2	Ihnen	PPER	Sie	_	O	O	
+5-3	ist	VAFIN	sein	_	O	O	
+5-4	trotz	APPR	trotz	_	O	O	
+5-5	der	ART	die	_	O	O	
+5-6	schlimmen	ADJA	schlimm	_	O	O	
+5-7	Zeiten	NN	Zeit	_	O	O	
+5-8	besser	ADJD	gut	_	O	O	
+5-9	aufgeräumt	VVPP	aufräumen	_	O	O	
+5-10	worden	VAPP	werden	_	O	O	
+5-11	.	$.	.	_	O	O	
+
+#id=6
+#text=Annali XX und bull.
+6-1	Annali	NE	<unknown>	_	O	O	
+6-2	XX	NE	<unknown>	_	O	O	
+6-3	und	KON	und	_	O	O	
+6-4	bull	NE	Bull	_	O	O	
+6-5	.	$.	.	_	O	O	
+
+#id=7
+#text=bis Maggio sind davon rühmlichste Zeugnisse -, die Monumenti erhielt ich noch nicht.
+7-1	bis	KON	bis	_	O	O	
+7-2	Maggio	VVIMP	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-3	sind	VAFIN	sein	_	O	O	
+7-4	davon	PAV	davon	_	O	O	
+7-5	rühmlichste	ADJA	<unknown>	_	O	O	
+7-6	Zeugnisse	NN	Zeugnis	_	O	O	
+7-7	-	$(	-	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	die	ART	die	_	O	O	
+7-10	Monumenti	NN	<unknown>	_	O	O	
+7-11	erhielt	VVFIN	erhalten	_	O	O	
+7-12	ich	PPER	ich	_	O	O	
+7-13	noch	ADV	noch	_	O	O	
+7-14	nicht	PTKNEG	nicht	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=~on Braun erst gestern ein paar flüchtige Zeilen aus London 7 New Burlington Street -, fast nichts Andres als Nach-
+8-1	~on	NN	<unknown>	_	O	O	
+8-2	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	erst	ADV	erst	_	O	O	
+8-4	gestern	ADV	gestern	_	O	O	
+8-5	ein	ART	eine	_	O	O	
+8-6	paar	PIAT	paar	_	O	O	
+8-7	flüchtige	ADJA	flüchtig	_	O	O	
+8-8	Zeilen	NN	Zeile	_	O	O	
+8-9	aus	APPR	aus	_	O	O	
+8-10	London	NE	London	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-11	7	CARD	7	_	O	O	
+8-12	New	NE	New	_	O	O	
+8-13	Burlington	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-14	Street	NE	Street	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+8-15	-	$(	-	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	fast	ADV	fast	_	O	O	
+8-18	nichts	PIAT	nichts	_	O	O	
+8-19	Andres	NE	Andre	_	O	O	
+8-20	als	KOKOM	als	_	O	O	
+8-21	Nach-	TRUNC	Nach-	_	O	O	
+

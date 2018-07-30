@@ -1,0 +1,199 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=107 2 Gerhard an Henzen Berlin, 21. Februar 1844 to ormai impossibile.
+1-1	107	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	,	$,	,	_	O	O	
+1-8	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	to	NE	to	_	O	O	
+1-13	ormai	NN	<unknown>	_	O	O	
+1-14	impossibile	ADJA	<unknown>	_	O	O	
+1-15	.	$.	.	_	O	O	
+
+#id=2
+#text=Egli, caro e buono com'egli e, mi compatira.
+2-1	Egli	NE	<unknown>	_	O	O	
+2-2	,	$,	,	_	O	O	
+2-3	caro	NE	<unknown>	_	O	O	
+2-4	e	NE	<unknown>	_	O	O	
+2-5	buono	VVFIN	<unknown>	_	O	O	
+2-6	com'egli	NE	<unknown>	_	O	O	
+2-7	e	VVFIN	<unknown>	_	O	O	
+2-8	,	$,	,	_	O	O	
+2-9	mi	VVFIN	<unknown>	_	O	O	
+2-10	compatira	NE	<unknown>	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Die christliche gewiss griechische Inschrift habe ich an Böckh gegeben, der sie auch für griechisch hält aber lieber von Franz auslegen läßt, wie auch Sie gedachten.
+3-1	Die	ART	die	_	O	O	
+3-2	christliche	ADJA	christlich	_	O	O	
+3-3	gewiss	ADJD	gewiss	_	O	O	
+3-4	griechische	ADJA	griechisch	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-5	Inschrift	NN	Inschrift	_	I-webanno.custom.LetterEntity_	I-OBJ	
+3-6	habe	VAFIN	haben	_	O	O	
+3-7	ich	PPER	ich	_	O	O	
+3-8	an	APPR	an	_	O	O	
+3-9	Böckh	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-10	gegeben	VVPP	geben	_	O	O	
+3-11	,	$,	,	_	O	O	
+3-12	der	PRELS	die	_	O	O	
+3-13	sie	PPER	sie	_	O	O	
+3-14	auch	ADV	auch	_	O	O	
+3-15	für	APPR	für	_	O	O	
+3-16	griechisch	ADJD	griechisch	_	O	O	
+3-17	hält	VVFIN	halten	_	O	O	
+3-18	aber	ADV	aber	_	O	O	
+3-19	lieber	ADJD	lieb	_	O	O	
+3-20	von	APPR	von	_	O	O	
+3-21	Franz	NE	Franz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-22	auslegen	VVINF	auslegen	_	O	O	
+3-23	läßt	VVFIN	lassen	_	O	O	
+3-24	,	$,	,	_	O	O	
+3-25	wie	KOUS	wie	_	O	O	
+3-26	auch	ADV	auch	_	O	O	
+3-27	Sie	PPER	Sie	_	O	O	
+3-28	gedachten	VVFIN	gedenken	_	O	O	
+3-29	.	$.	.	_	O	O	
+
+#id=4
+#text=Noch immer kein Schlußbullettino für 1843.
+4-1	Noch	ADV	noch	_	O	O	
+4-2	immer	ADV	immer	_	O	O	
+4-3	kein	PIAT	keine	_	O	O	
+4-4	Schlußbullettino	NN	<unknown>	_	O	O	
+4-5	für	APPR	für	_	O	O	
+4-6	1843	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=Meine Archäologische Zeitung sendete ich Ihnen so gern rascher; wie aber?
+5-1	Meine	PPOSAT	mein	_	O	O	
+5-2	Archäologische	ADJA	archäologisch	_	O	O	
+5-3	Zeitung	NN	Zeitung	_	O	O	
+5-4	sendete	VVFIN	senden	_	O	O	
+5-5	ich	PPER	ich	_	O	O	
+5-6	Ihnen	PPER	Sie	_	O	O	
+5-7	so	ADV	so	_	O	O	
+5-8	gern	ADV	gern	_	O	O	
+5-9	rascher	ADJD	rasch	_	O	O	
+5-10	;	$.	;	_	O	O	
+5-11	wie	KOKOM	wie	_	O	O	
+5-12	aber	ADV	aber	_	O	O	
+5-13	?	$.	?	_	O	O	
+
+#id=6
+#text=Soweit ich weiß haben Sie erst 2 Lieferungen; 2 andre sind heraus.
+6-1	Soweit	KOUS	soweit	_	O	O	
+6-2	ich	PPER	ich	_	O	O	
+6-3	weiß	ADJD	weiß	_	O	O	
+6-4	haben	VAFIN	haben	_	O	O	
+6-5	Sie	PPER	Sie	_	O	O	
+6-6	erst	ADV	erst	_	O	O	
+6-7	2	CARD	2	_	O	O	
+6-8	Lieferungen	NN	Lieferung	_	O	O	
+6-9	;	$.	;	_	O	O	
+6-10	2	CARD	2	_	O	O	
+6-11	andre	PIS	andere	_	O	O	
+6-12	sind	VAFIN	sein	_	O	O	
+6-13	heraus	ADV	heraus	_	O	O	
+6-14	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Palinsche Sache habe ich mehrmals an Olfers und auch direkt an den König empfohlen, kann aber, nachdem Unlust über viel verausgabtes Geld eingetreten ist, für den Erfolg nicht stehen.
+7-1	Die	ART	die	_	O	O	
+7-2	Palinsche	NN	<unknown>	_	O	O	
+7-3	Sache	NN	Sache	_	O	O	
+7-4	habe	VAFIN	haben	_	O	O	
+7-5	ich	PPER	ich	_	O	O	
+7-6	mehrmals	ADV	mehrmals	_	O	O	
+7-7	an	APPR	an	_	O	O	
+7-8	Olfers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-9	und	KON	und	_	O	O	
+7-10	auch	ADV	auch	_	O	O	
+7-11	direkt	ADJD	direkt	_	O	O	
+7-12	an	APPR	an	_	O	O	
+7-13	den	ART	die	_	O	O	
+7-14	König	NN	König	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-15	empfohlen	VVPP	empfehlen	_	O	O	
+7-16	,	$,	,	_	O	O	
+7-17	kann	VMFIN	können	_	O	O	
+7-18	aber	ADV	aber	_	O	O	
+7-19	,	$,	,	_	O	O	
+7-20	nachdem	KOUS	nachdem	_	O	O	
+7-21	Unlust	NN	Unlust	_	O	O	
+7-22	über	APPR	über	_	O	O	
+7-23	viel	PIAT	viele	_	O	O	
+7-24	verausgabtes	ADJA	<unknown>	_	O	O	
+7-25	Geld	NN	Geld	_	O	O	
+7-26	eingetreten	VVPP	eintreten	_	O	O	
+7-27	ist	VAFIN	sein	_	O	O	
+7-28	,	$,	,	_	O	O	
+7-29	für	APPR	für	_	O	O	
+7-30	den	ART	die	_	O	O	
+7-31	Erfolg	NN	Erfolg	_	O	O	
+7-32	nicht	PTKNEG	nicht	_	O	O	
+7-33	stehen	VVFIN	stehen	_	O	O	
+7-34	.	$.	.	_	O	O	
+
+#id=8
+#text=Meine Frau ist wohl und grüßt Sie und die übrigen Kapitoliner mit mir bestens, namentlich Horkel, Preller, Blessig, ferner Kestner und Vollards von denen ich lange nichts hörte.
+8-1	Meine	PPOSAT	mein	_	O	O	
+8-2	Frau	NN	Frau	_	O	O	
+8-3	ist	VAFIN	sein	_	O	O	
+8-4	wohl	ADV	wohl	_	O	O	
+8-5	und	KON	und	_	O	O	
+8-6	grüßt	VVFIN	grüßen	_	O	O	
+8-7	Sie	PPER	Sie	_	O	O	
+8-8	und	KON	und	_	O	O	
+8-9	die	ART	die	_	O	O	
+8-10	übrigen	ADJA	übrig	_	O	O	
+8-11	Kapitoliner	NN	<unknown>	_	O	O	
+8-12	mit	APPR	mit	_	O	O	
+8-13	mir	PPER	ich	_	O	O	
+8-14	bestens	ADV	bestens	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	namentlich	ADJD	namentlich	_	O	O	
+8-17	Horkel	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-18	,	$,	,	_	O	O	
+8-19	Preller	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-20	,	$,	,	_	O	O	
+8-21	Blessig	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-22	,	$,	,	_	O	O	
+8-23	ferner	ADJA	fern	_	O	O	
+8-24	Kestner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-25	und	KON	und	_	O	O	
+8-26	Vollards	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-27	von	APPR	von	_	O	O	
+8-28	denen	PRELS	die	_	O	O	
+8-29	ich	PPER	ich	_	O	O	
+8-30	lange	ADV	lange	_	O	O	
+8-31	nichts	PIS	nichts	_	O	O	
+8-32	hörte	VVFIN	hören	_	O	O	
+8-33	.	$.	.	_	O	O	
+
+#id=9
+#text=Auch Domenico soll sein Theil haben.
+9-1	Auch	ADV	auch	_	O	O	
+9-2	Domenico	NE	Domenico	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-3	soll	VMFIN	sollen	_	O	O	
+9-4	sein	PPOSAT	sein	_	O	O	
+9-5	Theil	NN	<unknown>	_	O	O	
+9-6	haben	VAINF	haben	_	O	O	
+9-7	.	$.	.	_	O	O	
+
+#id=10
+#text=Von Herzen der Ihrige Gerhard
+10-1	Von	APPR	von	_	O	O	
+10-2	Herzen	NN	Herz	_	O	O	
+10-3	der	ART	die	_	O	O	
+10-4	Ihrige	PPOSAT	ihrige	_	O	O	
+10-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

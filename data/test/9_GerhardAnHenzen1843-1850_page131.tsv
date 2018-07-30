@@ -1,0 +1,224 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Gerhard an Henzen 7/XI/1847 4 M. ord.
+1-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-4	7/XI/1847	CARD	<unknown>	_	O	O	
+1-5	4	CARD	4	_	O	O	
+1-6	M.	NE	M.	_	O	O	
+1-7	ord.	NE	<unknown>	_	O	O	
+
+#id=2
+#text=346 D. Zestermann in Leipzig Verfasser des Basilikenbuchs.
+2-1	346	CARD	@card@	_	O	O	
+2-2	D.	NE	D.	_	O	O	
+2-3	Zestermann	NN	<unknown>	_	O	O	
+2-4	in	APPR	in	_	O	O	
+2-5	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-6	Verfasser	NN	Verfasser	_	O	O	
+2-7	des	ART	die	_	O	O	
+2-8	Basilikenbuchs	NN	<unknown>	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=347 Niebuhr ( Diplom von der ital.
+3-1	347	CARD	@card@	_	O	O	
+3-2	Niebuhr	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-3	(	$(	(	_	O	O	
+3-4	Diplom	NN	Diplom	_	O	O	
+3-5	von	APPR	von	_	O	O	
+3-6	der	ART	die	_	O	O	
+3-7	ital.	ADJA	italienisch	_	O	O	
+
+#id=4
+#text=Section aw.>'k"-~ 1;' ~ ~; er könnte aber auch zu irgend einem Vortrag oder Artikel fürs Institut veranlaßt werden) 348.
+4-1	Section	NN	<unknown>	_	O	O	
+4-2	aw.>'k"-~	VVFIN	<unknown>	_	O	O	
+4-3	1	CARD	1	_	O	O	
+4-4	;	$.	;	_	O	O	
+4-5	'	$(	'	_	O	O	
+4-6	~	XY	~	_	O	O	
+4-7	~	XY	~	_	O	O	
+4-8	;	$.	;	_	O	O	
+4-9	er	PPER	er	_	O	O	
+4-10	könnte	VMFIN	können	_	O	O	
+4-11	aber	ADV	aber	_	O	O	
+4-12	auch	ADV	auch	_	O	O	
+4-13	zu	PTKA	zu	_	O	O	
+4-14	irgend	ADV	irgend	_	O	O	
+4-15	einem	ART	eine	_	O	O	
+4-16	Vortrag	NN	Vortrag	_	O	O	
+4-17	oder	KON	oder	_	O	O	
+4-18	Artikel	NN	Artikel	_	O	O	
+4-19	fürs	APPRART	fürs	_	O	O	
+4-20	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-21	veranlaßt	VVPP	veranlassen	_	O	O	
+4-22	werden	VAINF	werden	_	O	O	
+4-23	)	$(	)	_	O	O	
+4-24	348	CARD	@card@	_	O	O	
+4-25	.	$.	.	_	O	O	
+
+#id=5
+#text=349 Bogaerts und Vicomte de Kerchhoeve sie durch Welcker senden lassen ) ( ich werde Diplome an f.~' 350 GTe1i 351.
+5-1	349	CARD	@card@	_	O	O	
+5-2	Bogaerts	NN	<unknown>	_	O	O	
+5-3	und	KON	und	_	O	O	
+5-4	Vicomte	NN	<unknown>	_	O	O	
+5-5	de	NE	de	_	O	O	
+5-6	Kerchhoeve	NN	<unknown>	_	O	O	
+5-7	sie	PPER	sie	_	O	O	
+5-8	durch	APPR	durch	_	O	O	
+5-9	Welcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-10	senden	VVINF	senden	_	O	O	
+5-11	lassen	VVINF	lassen	_	O	O	
+5-12	)	$(	)	_	O	O	
+5-13	(	$(	(	_	O	O	
+5-14	ich	PPER	ich	_	O	O	
+5-15	werde	VAFIN	werden	_	O	O	
+5-16	Diplome	NN	Diplom	_	O	O	
+5-17	an	APPR	an	_	O	O	
+5-18	f.~	NN	<unknown>	_	O	O	
+5-19	'	$(	'	_	O	O	
+5-20	350	CARD	350	_	O	O	
+5-21	GTe1i	NN	<unknown>	_	O	O	
+5-22	351	CARD	@card@	_	O	O	
+5-23	.	$.	.	_	O	O	
+
+#id=6
+#text=Diamilla.
+6-1	Diamilla	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	.	$.	.	_	O	O	
+
+#id=7
+#text=I'~ \ n'.-t~ Haben Sie meine Abh. E.Puw 9A Gott \\JlA erhalten?
+7-1	I'~	ADJA	<unknown>	_	O	O	
+7-2	\	XY	\	_	O	O	
+7-3	n'.-t~	VVFIN	<unknown>	_	O	O	
+7-4	Haben	NN	Haben	_	O	O	
+7-5	Sie	PPER	Sie	_	O	O	
+7-6	meine	PPOSAT	mein	_	O	O	
+7-7	Abh	NN	<unknown>	_	O	O	
+7-8	.	$.	.	_	O	O	
+7-9	E.Puw	NE	<unknown>	_	O	O	
+7-10	9A	NE	<unknown>	_	O	O	
+7-11	Gott	NN	Gott	_	O	O	
+7-12	\\JlA	NE	<unknown>	_	O	O	
+7-13	erhalten	VVPP	erhalten	_	O	O	
+7-14	?	$.	?	_	O	O	
+
+#id=8
+#text=Iv I ~" 'A, Den früheren Transport de~selben ~Y~I'~ ich nur Braun.
+8-1	Iv	ADJA	<unknown>	_	O	O	
+8-2	I	NN	I	_	O	O	
+8-3	~	XY	~	_	O	O	
+8-4	"	$(	"	_	O	O	
+8-5	'	$(	'	_	O	O	
+8-6	A	FM	A	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	Den	ART	die	_	O	O	
+8-9	früheren	ADJA	früh	_	O	O	
+8-10	Transport	NN	Transport	_	O	O	
+8-11	de~selben	ADJA	<unknown>	_	O	O	
+8-12	~Y~I'~	NN	<unknown>	_	O	O	
+8-13	ich	PPER	ich	_	O	O	
+8-14	nur	ADV	nur	_	O	O	
+8-15	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-16	.	$.	.	_	O	O	
+
+#id=9
+#text=u. d. Institut samt Neapel u Migliarini ~theiligt hatte, sendet mir Blessig sin y loco so eben per Post zurück.
+9-1	u.	APPR	um	_	O	O	
+9-2	d.	ART	d.	_	O	O	
+9-3	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-4	samt	APPR	samt	_	O	O	
+9-5	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-6	u	VVFIN	<unknown>	_	O	O	
+9-7	Migliarini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-8	~theiligt	ADJD	<unknown>	_	O	O	
+9-9	hatte	VAFIN	haben	_	O	O	
+9-10	,	$,	,	_	O	O	
+9-11	sendet	VVFIN	senden	_	O	O	
+9-12	mir	PPER	ich	_	O	O	
+9-13	Blessig	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-14	sin	ADJA	<unknown>	_	O	O	
+9-15	y	NN	Y	_	O	O	
+9-16	loco	NE	<unknown>	_	O	O	
+9-17	so	ADV	so	_	O	O	
+9-18	eben	ADV	eben	_	O	O	
+9-19	per	APPR	per	_	O	O	
+9-20	Post	NN	Post	_	O	O	
+9-21	zurück	PTKVZ	zurück	_	O	O	
+9-22	.	$.	.	_	O	O	
+
+#id=10
+#text=Die [0 Q/v1,ct t t übrigen Exemplare ~e ich wol erst mit der B~ckhaus'schen Kiste.
+10-1	Die	ART	die	_	O	O	
+10-2	[	$(	[	_	O	O	
+10-3	0	CARD	@card@	_	O	O	
+10-4	Q/v1,ct	NN	<unknown>	_	O	O	
+10-5	t	NN	t	_	O	O	
+10-6	t	NN	t	_	O	O	
+10-7	übrigen	ADJA	übrig	_	O	O	
+10-8	Exemplare	NN	Exemplar	_	O	O	
+10-9	~e	NE	<unknown>	_	O	O	
+10-10	ich	PPER	ich	_	O	O	
+10-11	wol	ADJD	<unknown>	_	O	O	
+10-12	erst	ADV	erst	_	O	O	
+10-13	mit	APPR	mit	_	O	O	
+10-14	der	ART	die	_	O	O	
+10-15	B~ckhaus'schen	NN	<unknown>	_	O	O	
+10-16	Kiste	NN	Kiste	_	O	O	
+10-17	.	$.	.	_	O	O	
+
+#id=11
+#text=Meine Frau grüßt mit mir bestens Sie und die Ihrige.
+11-1	Meine	PPOSAT	mein	_	O	O	
+11-2	Frau	NN	Frau	_	O	O	
+11-3	grüßt	VVFIN	grüßen	_	O	O	
+11-4	mit	APPR	mit	_	O	O	
+11-5	mir	PPER	ich	_	O	O	
+11-6	bestens	ADV	bestens	_	O	O	
+11-7	Sie	PPER	Sie	_	O	O	
+11-8	und	KON	und	_	O	O	
+11-9	die	PRELS	die	_	O	O	
+11-10	Ihrige	PPOSAT	ihrige	_	O	O	
+11-11	.	$.	.	_	O	O	
+
+#id=12
+#text=Ihr Ghd De Witte fragt mich was er von Rom aUS zu vernehmen hat wie vie~ ~~Ch Rom, Bonn Leipzig zu versenden seien.
+12-1	Ihr	PPOSAT	ihr	_	O	O	
+12-2	Ghd	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+12-3	De	NE	De	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-4	Witte	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+12-5	fragt	VVFIN	fragen	_	O	O	
+12-6	mich	PRF	ich	_	O	O	
+12-7	was	PRELS	was	_	O	O	
+12-8	er	PPER	er	_	O	O	
+12-9	von	APPR	von	_	O	O	
+12-10	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-11	aUS	ADJD	<unknown>	_	O	O	
+12-12	zu	PTKZU	zu	_	O	O	
+12-13	vernehmen	VVINF	vernehmen	_	O	O	
+12-14	hat	VAFIN	haben	_	O	O	
+12-15	wie	KOKOM	wie	_	O	O	
+12-16	vie~	ADJA	<unknown>	_	O	O	
+12-17	~~Ch	NN	<unknown>	_	O	O	
+12-18	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-19	,	$,	,	_	O	O	
+12-20	Bonn	NE	Bonn	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-21	Leipzig	NE	Leipzig	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+12-22	zu	PTKZU	zu	_	O	O	
+12-23	versenden	VVINF	versenden	_	O	O	
+12-24	seien	VAFIN	sein	_	O	O	
+12-25	.	$.	.	_	O	O	
+
+#id=13
+#text=Lassen Sie es ihm bald wissen
+13-1	Lassen	VVFIN	lassen	_	O	O	
+13-2	Sie	PPER	Sie	_	O	O	
+13-3	es	PPER	es	_	O	O	
+13-4	ihm	PPER	er	_	O	O	
+13-5	bald	ADV	bald	_	O	O	
+13-6	wissen	VVINF	wissen	_	O	O	
+

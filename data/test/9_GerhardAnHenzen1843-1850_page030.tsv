@@ -1,0 +1,209 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=\ 331 af.
+1-1	\	XY	\	_	O	O	
+1-2	331	CARD	@card@	_	O	O	
+1-3	af	VVFIN	<unknown>	_	O	O	
+1-4	.	$.	.	_	O	O	
+
+#id=2
+#text=d. Direz.
+2-1	d.	ART	d.	_	O	O	
+2-2	Direz	NN	<unknown>	_	O	O	
+2-3	.	$.	.	_	O	O	
+
+#id=3
+#text=H. Dr.
+3-1	H.	NE	H.	_	O	O	
+3-2	Dr.	NN	Dr.	_	O	O	
+
+#id=4
+#text=Henzen Gerhard an Henzen Berlin, 29. Juli 1844 g. 26/VIII 44 r. 3/IX 44 Berlin 29 Juli 44 Besten Dank für Ihren Brief vom 9 d. M. Möge Ihre Thätigkeit trotz widerstrebender Jahreszeit bestens gedeihen.
+4-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+4-2	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+4-3	an	APPR	an	_	O	O	
+4-4	Henzen	NN	<unknown>	_	O	O	
+4-5	Berlin	NE	Berlin	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-11	g.	VVFIN	<unknown>	_	O	O	
+4-12	26/VIII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+4-13	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+4-14	r.	ADJA	<unknown>	_	O	O	
+4-15	3/IX	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+4-16	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+4-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-18	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-19	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-20	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-21	Besten	ADJA	gut	_	O	O	
+4-22	Dank	NN	Dank	_	O	O	
+4-23	für	APPR	für	_	O	O	
+4-24	Ihren	PPOSAT	ihr	_	O	O	
+4-25	Brief	NN	Brief	_	O	O	
+4-26	vom	APPRART	von	_	O	O	
+4-27	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-28	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-29	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-30	Möge	VVFIN	mögen	_	O	O	
+4-31	Ihre	PPOSAT	ihr	_	O	O	
+4-32	Thätigkeit	NN	<unknown>	_	O	O	
+4-33	trotz	APPR	trotz	_	O	O	
+4-34	widerstrebender	ADJA	widerstrebend	_	O	O	
+4-35	Jahreszeit	NN	Jahreszeit	_	O	O	
+4-36	bestens	ADV	bestens	_	O	O	
+4-37	gedeihen	VVINF	gedeihen	_	O	O	
+4-38	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich wünsche sehr, bald etwas ostensibles Epigraphisches von Ihnen zu haben; wäre es wenigstens zum Oktober oder November Eben reist ein Mommsen aus Kiel nach Italien und sucht akademische Unterstützung für Monumenta Legalia.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	wünsche	VVFIN	wünschen	_	O	O	
+5-3	sehr	ADV	sehr	_	O	O	
+5-4	,	$,	,	_	O	O	
+5-5	bald	ADV	bald	_	O	O	
+5-6	etwas	PIAT	etwas	_	O	O	
+5-7	ostensibles	ADJA	<unknown>	_	O	O	
+5-8	Epigraphisches	NN	<unknown>	_	O	O	
+5-9	von	APPR	von	_	O	O	
+5-10	Ihnen	PPER	Sie	_	O	O	
+5-11	zu	PTKZU	zu	_	O	O	
+5-12	haben	VAINF	haben	_	O	O	
+5-13	;	$.	;	_	O	O	
+5-14	wäre	VAFIN	sein	_	O	O	
+5-15	es	PPER	es	_	O	O	
+5-16	wenigstens	ADV	wenigstens	_	O	O	
+5-17	zum	APPRART	zu	_	O	O	
+5-18	Oktober	NN	Oktober	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-19	oder	KON	oder	_	O	O	
+5-20	November	NN	November	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-21	Eben	ADV	eben	_	O	O	
+5-22	reist	VVFIN	reisen	_	O	O	
+5-23	ein	ART	eine	_	O	O	
+5-24	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-25	aus	APPR	aus	_	O	O	
+5-26	Kiel	NE	Kiel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-27	nach	APPR	nach	_	O	O	
+5-28	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-29	und	KON	und	_	O	O	
+5-30	sucht	VVFIN	suchen	_	O	O	
+5-31	akademische	ADJA	akademisch	_	O	O	
+5-32	Unterstützung	NN	Unterstützung	_	O	O	
+5-33	für	APPR	für	_	O	O	
+5-34	Monumenta	NN	<unknown>	_	O	O	
+5-35	Legalia	NE	<unknown>	_	O	O	
+5-36	.	$.	.	_	O	O	
+
+#id=6
+#text=Bullettino 6 ist nun auch angelangt; woran hat die Censur sich geärgert ?
+6-1	Bullettino	NN	<unknown>	_	O	O	
+6-2	6	CARD	6	_	O	O	
+6-3	ist	VAFIN	sein	_	O	O	
+6-4	nun	ADV	nun	_	O	O	
+6-5	auch	ADV	auch	_	O	O	
+6-6	angelangt	VVPP	angelangen	_	O	O	
+6-7	;	$.	;	_	O	O	
+6-8	woran	PWAV	woran	_	O	O	
+6-9	hat	VAFIN	haben	_	O	O	
+6-10	die	ART	die	_	O	O	
+6-11	Censur	NN	<unknown>	_	O	O	
+6-12	sich	PRF	sich	_	O	O	
+6-13	geärgert	VVPP	ärgern	_	O	O	
+6-14	?	$.	?	_	O	O	
+
+#id=7
+#text=Daß Montanari an mich denkt ist mir lieb; über Zuschuß mag Braun entscheiden.
+7-1	Daß	KOUS	dass	_	O	O	
+7-2	Montanari	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-3	an	APPR	an	_	O	O	
+7-4	mich	PRF	ich	_	O	O	
+7-5	denkt	VVFIN	denken	_	O	O	
+7-6	ist	VAFIN	sein	_	O	O	
+7-7	mir	PPER	ich	_	O	O	
+7-8	lieb	ADJD	lieb	_	O	O	
+7-9	;	$.	;	_	O	O	
+7-10	über	APPR	über	_	O	O	
+7-11	Zuschuß	NN	Zuschuss	_	O	O	
+7-12	mag	VMFIN	mögen	_	O	O	
+7-13	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-14	entscheiden	VVINF	entscheiden	_	O	O	
+7-15	.	$.	.	_	O	O	
+
+#id=8
+#text=Cavedoni bitte für seine Notiz zu danken.
+8-1	Cavedoni	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	bitte	VVFIN	bitten	_	O	O	
+8-3	für	APPR	für	_	O	O	
+8-4	seine	PPOSAT	sein	_	O	O	
+8-5	Notiz	NN	Notiz	_	O	O	
+8-6	zu	PTKZU	zu	_	O	O	
+8-7	danken	VVINF	danken	_	O	O	
+8-8	.	$.	.	_	O	O	
+
+#id=9
+#text=Zwei hiesige Reisende werden in Ihrer Abwesenheit Rom berühren: Dr.
+9-1	Zwei	CARD	zwei	_	O	O	
+9-2	hiesige	ADJA	hiesig	_	O	O	
+9-3	Reisende	NN	Reisende	_	O	O	
+9-4	werden	VAFIN	werden	_	O	O	
+9-5	in	APPR	in	_	O	O	
+9-6	Ihrer	PPOSAT	ihr	_	O	O	
+9-7	Abwesenheit	NN	Abwesenheit	_	O	O	
+9-8	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-9	berühren	VVINF	berühren	_	O	O	
+9-10	:	$.	:	_	O	O	
+9-11	Dr.	NN	Dr.	_	O	O	
+
+#id=10
+#text=KÖhne, Numismat, Verfasser des eingesandten Münzartikels und Dr.
+10-1	KÖhne	NN	<unknown>	_	O	O	
+10-2	,	$,	,	_	O	O	
+10-3	Numismat	NE	<unknown>	_	O	O	
+10-4	,	$,	,	_	O	O	
+10-5	Verfasser	NN	Verfasser	_	O	O	
+10-6	des	ART	die	_	O	O	
+10-7	eingesandten	ADJA	eingesandt	_	O	O	
+10-8	Münzartikels	NN	<unknown>	_	O	O	
+10-9	und	KON	und	_	O	O	
+10-10	Dr.	NN	Dr.	_	O	O	
+
+#id=11
+#text=Gahl der über Ephesus geschrieben hat, gründlicher ist, auch neue re Kunst treibt und wol auch länger in Rom bleibt.
+11-1	Gahl	NN	<unknown>	_	O	O	
+11-2	der	ART	die	_	O	O	
+11-3	über	APPR	über	_	O	O	
+11-4	Ephesus	NN	<unknown>	_	O	O	
+11-5	geschrieben	VVPP	schreiben	_	O	O	
+11-6	hat	VAFIN	haben	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	gründlicher	ADJD	gründlich	_	O	O	
+11-9	ist	VAFIN	sein	_	O	O	
+11-10	,	$,	,	_	O	O	
+11-11	auch	ADV	auch	_	O	O	
+11-12	neue	ADJA	neu	_	O	O	
+11-13	re	ADJA	<unknown>	_	O	O	
+11-14	Kunst	NN	Kunst	_	O	O	
+11-15	treibt	VVFIN	treiben	_	O	O	
+11-16	und	KON	und	_	O	O	
+11-17	wol	ADJD	<unknown>	_	O	O	
+11-18	auch	ADV	auch	_	O	O	
+11-19	länger	ADJD	lang	_	O	O	
+11-20	in	APPR	in	_	O	O	
+11-21	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-22	bleibt	VVFIN	bleiben	_	O	O	
+11-23	.	$.	.	_	O	O	
+
+#id=12
+#text=Leider ist seine Gestalt ihm öfters ungünstig.
+12-1	Leider	ADV	leider	_	O	O	
+12-2	ist	VAFIN	sein	_	O	O	
+12-3	seine	PPOSAT	sein	_	O	O	
+12-4	Gestalt	NN	Gestalt	_	O	O	
+12-5	ihm	PPER	er	_	O	O	
+12-6	öfters	ADV	öfters	_	O	O	
+12-7	ungünstig	ADJD	ungünstig	_	O	O	
+12-8	.	$.	.	_	O	O	
+

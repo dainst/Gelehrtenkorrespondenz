@@ -1,0 +1,301 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=.
+1-1	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=.
+7-1	.	$.	.	_	O	O	
+
+#id=8
+#text=.
+8-1	.	$.	.	_	O	O	
+
+#id=9
+#text=.
+9-1	.	$.	.	_	O	O	
+
+#id=10
+#text=.
+10-1	.	$.	.	_	O	O	
+
+#id=11
+#text=.
+11-1	.	$.	.	_	O	O	
+
+#id=12
+#text=.
+12-1	.	$.	.	_	O	O	
+
+#id=13
+#text=.
+13-1	.	$.	.	_	O	O	
+
+#id=14
+#text=.
+14-1	.	$.	.	_	O	O	
+
+#id=15
+#text=.
+15-1	.	$.	.	_	O	O	
+
+#id=16
+#text=A. di Dir.
+16-1	A.	APPRART	am	_	O	O	
+16-2	di	NE	di	_	O	O	
+16-3	Dir.	NN	Dir.	_	O	O	
+
+#id=17
+#text=Henzen Gerhard an Henzen Berlin, 19. Mai 1846 g. 30/V 46 r. 30/V 46 Berlin 19 Mai 46 Anhangendes Blatt lassen Sie gefälligst verklebt an Lanci gehen.
+17-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+17-2	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+17-3	an	APPR	an	_	O	O	
+17-4	Henzen	NN	<unknown>	_	O	O	
+17-5	Berlin	NE	Berlin	_	O	O	
+17-6	,	$,	,	_	O	O	
+17-7	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+17-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+17-9	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+17-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+17-11	g.	VVFIN	<unknown>	_	O	O	
+17-12	30/V	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+17-13	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+17-14	r.	ADJA	<unknown>	_	O	O	
+17-15	30/V	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+17-16	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+17-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+17-18	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+17-19	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+17-20	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+17-21	Anhangendes	ADJA	<unknown>	_	O	O	
+17-22	Blatt	NN	Blatt	_	O	O	
+17-23	lassen	VVFIN	lassen	_	O	O	
+17-24	Sie	PPER	Sie	_	O	O	
+17-25	gefälligst	ADJD	gefälligst	_	O	O	
+17-26	verklebt	VVPP	verkleben	_	O	O	
+17-27	an	APPR	an	_	O	O	
+17-28	Lanci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-29	gehen	VVINF	gehen	_	O	O	
+17-30	.	$.	.	_	O	O	
+
+#id=18
+#text=Es wäre viel Schreibares erspart worden, hä.u.ten Sie und Braun mein Ihnen kopirtes Lancianum, seine sogenannten Bedingungen enthaltend, in entsprechender Form mit einer italienischen Replik versehen, auf die ich ihn bloß zu verweisen braunhte.
+18-1	Es	PPER	es	_	O	O	
+18-2	wäre	VAFIN	sein	_	O	O	
+18-3	viel	PIAT	viele	_	O	O	
+18-4	Schreibares	NN	<unknown>	_	O	O	
+18-5	erspart	VVPP	ersparen	_	O	O	
+18-6	worden	VAPP	werden	_	O	O	
+18-7	,	$,	,	_	O	O	
+18-8	hä.u.ten	VVFIN	<unknown>	_	O	O	
+18-9	Sie	PPER	Sie	_	O	O	
+18-10	und	KON	und	_	O	O	
+18-11	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-12	mein	PPOSAT	mein	_	O	O	
+18-13	Ihnen	PPER	Sie	_	O	O	
+18-14	kopirtes	ADJA	<unknown>	_	O	O	
+18-15	Lancianum	NN	<unknown>	_	O	O	
+18-16	,	$,	,	_	O	O	
+18-17	seine	PPOSAT	sein	_	O	O	
+18-18	sogenannten	ADJA	sogenannt	_	O	O	
+18-19	Bedingungen	NN	Bedingung	_	O	O	
+18-20	enthaltend	ADJD	enthaltend	_	O	O	
+18-21	,	$,	,	_	O	O	
+18-22	in	APPR	in	_	O	O	
+18-23	entsprechender	ADJA	entsprechend	_	O	O	
+18-24	Form	NN	Form	_	O	O	
+18-25	mit	APPR	mit	_	O	O	
+18-26	einer	ART	eine	_	O	O	
+18-27	italienischen	ADJA	italienisch	_	O	O	
+18-28	Replik	NN	Replik	_	O	O	
+18-29	versehen	VVPP	versehen	_	O	O	
+18-30	,	$,	,	_	O	O	
+18-31	auf	APPR	auf	_	O	O	
+18-32	die	PRELS	die	_	O	O	
+18-33	ich	PPER	ich	_	O	O	
+18-34	ihn	PPER	er	_	O	O	
+18-35	bloß	ADJD	bloß	_	O	O	
+18-36	zu	PTKZU	zu	_	O	O	
+18-37	verweisen	VVINF	verweisen	_	O	O	
+18-38	braunhte	ADJD	<unknown>	_	O	O	
+18-39	.	$.	.	_	O	O	
+
+#id=19
+#text=Jetzt muß ich, da es so mißlich als weitläuftig wäre, Ihre deutsche Rechtfertigung für ihn zu italienisiren, nur zum Frieden und zur Besprechung mit Ihnen und Braun ihn aufzufordern; daß mir nichts recht sein könne als was er mit Ihnen beiden verabredet, wiederhole ich ihm, und man bleibt dann wol faktisch aus einander, nachdem man sich mit Schreibereien abgemühdet.
+19-1	Jetzt	ADV	jetzt	_	O	O	
+19-2	muß	VMFIN	müssen	_	O	O	
+19-3	ich	PPER	ich	_	O	O	
+19-4	,	$,	,	_	O	O	
+19-5	da	KOUS	da	_	O	O	
+19-6	es	PPER	es	_	O	O	
+19-7	so	ADV	so	_	O	O	
+19-8	mißlich	ADJD	misslich	_	O	O	
+19-9	als	KOKOM	als	_	O	O	
+19-10	weitläuftig	ADJD	<unknown>	_	O	O	
+19-11	wäre	VAFIN	sein	_	O	O	
+19-12	,	$,	,	_	O	O	
+19-13	Ihre	PPOSAT	ihr	_	O	O	
+19-14	deutsche	ADJA	deutsch	_	O	O	
+19-15	Rechtfertigung	NN	Rechtfertigung	_	O	O	
+19-16	für	APPR	für	_	O	O	
+19-17	ihn	PPER	er	_	O	O	
+19-18	zu	PTKZU	zu	_	O	O	
+19-19	italienisiren	ADJA	<unknown>	_	O	O	
+19-20	,	$,	,	_	O	O	
+19-21	nur	ADV	nur	_	O	O	
+19-22	zum	APPRART	zu	_	O	O	
+19-23	Frieden	NN	Frieden	_	O	O	
+19-24	und	KON	und	_	O	O	
+19-25	zur	APPRART	zu	_	O	O	
+19-26	Besprechung	NN	Besprechung	_	O	O	
+19-27	mit	APPR	mit	_	O	O	
+19-28	Ihnen	PPER	Sie	_	O	O	
+19-29	und	KON	und	_	O	O	
+19-30	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+19-31	ihn	PPER	er	_	O	O	
+19-32	aufzufordern	VVIZU	auffordern	_	O	O	
+19-33	;	$.	;	_	O	O	
+19-34	daß	KOUS	dass	_	O	O	
+19-35	mir	PPER	ich	_	O	O	
+19-36	nichts	PIS	nichts	_	O	O	
+19-37	recht	ADJD	recht	_	O	O	
+19-38	sein	VAINF	sein	_	O	O	
+19-39	könne	VMFIN	können	_	O	O	
+19-40	als	KON	als	_	O	O	
+19-41	was	PRELS	was	_	O	O	
+19-42	er	PPER	er	_	O	O	
+19-43	mit	APPR	mit	_	O	O	
+19-44	Ihnen	PPER	Sie	_	O	O	
+19-45	beiden	PIAT	beide	_	O	O	
+19-46	verabredet	VVPP	verabreden	_	O	O	
+19-47	,	$,	,	_	O	O	
+19-48	wiederhole	VVFIN	wiederholen	_	O	O	
+19-49	ich	PPER	ich	_	O	O	
+19-50	ihm	PPER	er	_	O	O	
+19-51	,	$,	,	_	O	O	
+19-52	und	KON	und	_	O	O	
+19-53	man	PIS	man	_	O	O	
+19-54	bleibt	VVFIN	bleiben	_	O	O	
+19-55	dann	ADV	dann	_	O	O	
+19-56	wol	ADJD	<unknown>	_	O	O	
+19-57	faktisch	ADJD	faktisch	_	O	O	
+19-58	aus	PTKVZ	aus	_	O	O	
+19-59	einander	PRF	einander	_	O	O	
+19-60	,	$,	,	_	O	O	
+19-61	nachdem	KOUS	nachdem	_	O	O	
+19-62	man	PIS	man	_	O	O	
+19-63	sich	PRF	sich	_	O	O	
+19-64	mit	APPR	mit	_	O	O	
+19-65	Schreibereien	NN	Schreiberei	_	O	O	
+19-66	abgemühdet	VVPP	<unknown>	_	O	O	
+19-67	.	$.	.	_	O	O	
+
+#id=20
+#text=Das Resultat würde auch in einem und dem andern Fall vermuthlich dasselbe sein, aber ich wünsche es in der Form daß Lanci ohne allzu viel Ingrimm beschwichtigt bleibe.
+20-1	Das	ART	die	_	O	O	
+20-2	Resultat	NN	Resultat	_	O	O	
+20-3	würde	VAFIN	werden	_	O	O	
+20-4	auch	ADV	auch	_	O	O	
+20-5	in	APPR	in	_	O	O	
+20-6	einem	ART	eine	_	O	O	
+20-7	und	KON	und	_	O	O	
+20-8	dem	ART	die	_	O	O	
+20-9	andern	PIAT	andere	_	O	O	
+20-10	Fall	NN	Fall	_	O	O	
+20-11	vermuthlich	ADJD	<unknown>	_	O	O	
+20-12	dasselbe	PDAT	dasselb	_	O	O	
+20-13	sein	VAINF	sein	_	O	O	
+20-14	,	$,	,	_	O	O	
+20-15	aber	KON	aber	_	O	O	
+20-16	ich	PPER	ich	_	O	O	
+20-17	wünsche	VVFIN	wünschen	_	O	O	
+20-18	es	PPER	es	_	O	O	
+20-19	in	APPR	in	_	O	O	
+20-20	der	ART	die	_	O	O	
+20-21	Form	NN	Form	_	O	O	
+20-22	daß	KOUS	dass	_	O	O	
+20-23	Lanci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+20-24	ohne	APPR	ohne	_	O	O	
+20-25	allzu	PTKA	allzu	_	O	O	
+20-26	viel	PIAT	viele	_	O	O	
+20-27	Ingrimm	NN	Ingrimm	_	O	O	
+20-28	beschwichtigt	VVPP	beschwichtigen	_	O	O	
+20-29	bleibe	VVFIN	bleiben	_	O	O	
+20-30	.	$.	.	_	O	O	
+
+#id=21
+#text=Er kann uns viel schaden, und vor Unbesonnenheit ist das Institut bei seinen besten Stellvertretern nie sicher gewesen.
+21-1	Er	PPER	er	_	O	O	
+21-2	kann	VMFIN	können	_	O	O	
+21-3	uns	PPER	wir	_	O	O	
+21-4	viel	ADV	viel	_	O	O	
+21-5	schaden	VVINF	schaden	_	O	O	
+21-6	,	$,	,	_	O	O	
+21-7	und	KON	und	_	O	O	
+21-8	vor	APPR	vor	_	O	O	
+21-9	Unbesonnenheit	NN	Unbesonnenheit	_	O	O	
+21-10	ist	VAFIN	sein	_	O	O	
+21-11	das	ART	die	_	O	O	
+21-12	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+21-13	bei	APPR	bei	_	O	O	
+21-14	seinen	PPOSAT	sein	_	O	O	
+21-15	besten	ADJA	gut	_	O	O	
+21-16	Stellvertretern	NN	Stellvertreter	_	O	O	
+21-17	nie	ADV	nie	_	O	O	
+21-18	sicher	ADJD	sicher	_	O	O	
+21-19	gewesen	VAPP	sein	_	O	O	
+21-20	.	$.	.	_	O	O	
+
+#id=22
+#text=Zunächst entnehme ich Lanci's eignem Briefe und seiner beim P~ M. o abgegebnen Erklärung den Wunsch daß •••••••••• die Polemik mäs-
+22-1	Zunächst	ADV	zunächst	_	O	O	
+22-2	entnehme	VVFIN	entnehmen	_	O	O	
+22-3	ich	PPER	ich	_	O	O	
+22-4	Lanci's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+22-5	eignem	ADJA	eigen	_	O	O	
+22-6	Briefe	NN	Brief	_	O	O	
+22-7	und	KON	und	_	O	O	
+22-8	seiner	PPOSAT	sein	_	O	O	
+22-9	beim	APPRART	bei	_	O	O	
+22-10	P~	NN	<unknown>	_	O	O	
+22-11	M.	NE	M.	_	O	O	
+22-12	o	ADJA	<unknown>	_	O	O	
+22-13	abgegebnen	ADJA	<unknown>	_	O	O	
+22-14	Erklärung	NN	Erklärung	_	O	O	
+22-15	den	ART	die	_	O	O	
+22-16	Wunsch	NN	Wunsch	_	O	O	
+22-17	daß	KOUS	dass	_	O	O	
+22-18	•	ADJA	<unknown>	_	O	O	
+22-19	•	NN	<unknown>	_	O	O	
+22-20	•	ADJA	<unknown>	_	O	O	
+22-21	•	NN	<unknown>	_	O	O	
+22-22	•	ADJA	<unknown>	_	O	O	
+22-23	•	NN	<unknown>	_	O	O	
+22-24	•	ADJA	<unknown>	_	O	O	
+22-25	•	NN	<unknown>	_	O	O	
+22-26	•	ADJA	<unknown>	_	O	O	
+22-27	•	NN	<unknown>	_	O	O	
+22-28	die	ART	die	_	O	O	
+22-29	Polemik	NN	Polemik	_	O	O	
+22-30	mäs-	TRUNC	<unknown>	_	O	O	
+

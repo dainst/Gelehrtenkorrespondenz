@@ -1,0 +1,359 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=) Gerhard an Henzen 7/XI/1847 2 ~tk4 gepreßt; keine Gelegenheit vor dem November?
+1-1	)	$(	)	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	7/XI/1847	CARD	<unknown>	_	O	O	
+1-6	2	CARD	2	_	O	O	
+1-7	~tk4	NN	<unknown>	_	O	O	
+1-8	gepreßt	VVPP	pressen	_	O	O	
+1-9	;	$.	;	_	O	O	
+1-10	keine	PIAT	keine	_	O	O	
+1-11	Gelegenheit	NN	Gelegenheit	_	O	O	
+1-12	vor	APPR	vor	_	O	O	
+1-13	dem	ART	die	_	O	O	
+1-14	November	NN	November	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+1-15	?	$.	?	_	O	O	
+
+#id=2
+#text=~~ ~ekars Steyermärk.
+2-1	~~	ADJA	<unknown>	_	O	O	
+2-2	~ekars	NN	<unknown>	_	O	O	
+2-3	Steyermärk	NN	<unknown>	_	O	O	
+2-4	.	$.	.	_	O	O	
+
+#id=3
+#text=Gesch~ hat mehrere starke Bände; dergleichen muß Ihnen jetzt Movmsen begutachten.
+3-1	Gesch~	NN	<unknown>	_	O	O	
+3-2	hat	VAFIN	haben	_	O	O	
+3-3	mehrere	PIAT	mehrere	_	O	O	
+3-4	starke	ADJA	stark	_	O	O	
+3-5	Bände	NN	Band	_	O	O	
+3-6	;	$.	;	_	O	O	
+3-7	dergleichen	PIS	dergleichen	_	O	O	
+3-8	muß	VMFIN	müssen	_	O	O	
+3-9	Ihnen	PPER	Sie	_	O	O	
+3-10	jetzt	ADV	jetzt	_	O	O	
+3-11	Movmsen	NN	<unknown>	_	O	O	
+3-12	begutachten	VVINF	begutachten	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Dieser wollten den akademischen Weitläufigkeiten lieber aus dem Wege laufen; es schreibt ihm nun Böckh selbst dergestalt daß über die Grenzen seines Antheils an künftiger Bearbeitung Vorschläge von ihm zu stellen sind.
+4-1	Dieser	PDS	diese	_	O	O	
+4-2	wollten	VMFIN	wollen	_	O	O	
+4-3	den	ART	die	_	O	O	
+4-4	akademischen	ADJA	akademisch	_	O	O	
+4-5	Weitläufigkeiten	NN	<unknown>	_	O	O	
+4-6	lieber	ADJD	lieb	_	O	O	
+4-7	aus	APPR	aus	_	O	O	
+4-8	dem	ART	die	_	O	O	
+4-9	Wege	NN	Weg	_	O	O	
+4-10	laufen	VVINF	laufen	_	O	O	
+4-11	;	$.	;	_	O	O	
+4-12	es	PPER	es	_	O	O	
+4-13	schreibt	VVFIN	schreiben	_	O	O	
+4-14	ihm	PPER	er	_	O	O	
+4-15	nun	ADV	nun	_	O	O	
+4-16	Böckh	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-17	selbst	ADV	selbst	_	O	O	
+4-18	dergestalt	ADV	dergestalt	_	O	O	
+4-19	daß	KOUS	dass	_	O	O	
+4-20	über	APPR	über	_	O	O	
+4-21	die	ART	die	_	O	O	
+4-22	Grenzen	NN	Grenze	_	O	O	
+4-23	seines	PPOSAT	sein	_	O	O	
+4-24	Antheils	NN	<unknown>	_	O	O	
+4-25	an	APPR	an	_	O	O	
+4-26	künftiger	ADJA	künftig	_	O	O	
+4-27	Bearbeitung	NN	Bearbeitung	_	O	O	
+4-28	Vorschläge	NN	Vorschlag	_	O	O	
+4-29	von	APPR	von	_	O	O	
+4-30	ihm	PPER	er	_	O	O	
+4-31	zu	PTKZU	zu	_	O	O	
+4-32	stellen	VVINF	stellen	_	O	O	
+4-33	sind	VAFIN	sein	_	O	O	
+4-34	.	$.	.	_	O	O	
+
+#id=5
+#text=Horkel ist vielbe __ schä~tigt und innerlich gedrückt; gegen Neujahr will er schreiben.
+5-1	Horkel	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	ist	VAFIN	sein	_	O	O	
+5-3	vielbe	ADJA	<unknown>	_	O	O	
+5-4	__	NN	<unknown>	_	O	O	
+5-5	schä~tigt	ADJD	<unknown>	_	O	O	
+5-6	und	KON	und	_	O	O	
+5-7	innerlich	ADJD	innerlich	_	O	O	
+5-8	gedrückt	VVPP	drücken	_	O	O	
+5-9	;	$.	;	_	O	O	
+5-10	gegen	APPR	gegen	_	O	O	
+5-11	Neujahr	NN	Neujahr	_	O	O	
+5-12	will	VMFIN	wollen	_	O	O	
+5-13	er	PPER	er	_	O	O	
+5-14	schreiben	VVINF	schreiben	_	O	O	
+5-15	.	$.	.	_	O	O	
+
+#id=6
+#text=An Leemans pflege ich nicht zu schreiben; nel caso mai will ich an Janssen denken.
+6-1	An	APPR	an	_	O	O	
+6-2	Leemans	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	pflege	VVFIN	pflegen	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	nicht	PTKNEG	nicht	_	O	O	
+6-6	zu	PTKZU	zu	_	O	O	
+6-7	schreiben	VVINF	schreiben	_	O	O	
+6-8	;	$.	;	_	O	O	
+6-9	nel	ADJA	<unknown>	_	O	O	
+6-10	caso	NN	<unknown>	_	O	O	
+6-11	mai	NE	Mai	_	O	O	
+6-12	will	VMFIN	wollen	_	O	O	
+6-13	ich	PPER	ich	_	O	O	
+6-14	an	APPR	an	_	O	O	
+6-15	Janssen	NE	Janssen	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-16	denken	VVINF	denken	_	O	O	
+6-17	.	$.	.	_	O	O	
+
+#id=7
+#text=~~iner Aufforderung von Rom aus sind die Herren sicher sehr gern gefällig.
+7-1	~~iner	ADJA	<unknown>	_	O	O	
+7-2	Aufforderung	NN	Aufforderung	_	O	O	
+7-3	von	APPR	von	_	O	O	
+7-4	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-5	aus	PTKVZ	aus	_	O	O	
+7-6	sind	VAFIN	sein	_	O	O	
+7-7	die	ART	die	_	O	O	
+7-8	Herren	NN	Herr	_	O	O	
+7-9	sicher	ADJD	sicher	_	O	O	
+7-10	sehr	ADV	sehr	_	O	O	
+7-11	gern	ADV	gern	_	O	O	
+7-12	gefällig	ADJD	gefällig	_	O	O	
+7-13	.	$.	.	_	O	O	
+
+#id=8
+#text=Fünf Correspondenten für Antwerpen, ohne daß ein einziger einen Artikel in petto hat, hieße das Institut auf den Mokirstuhl setzen.
+8-1	Fünf	CARD	fünf	_	O	O	
+8-2	Correspondenten	NN	<unknown>	_	O	O	
+8-3	für	APPR	für	_	O	O	
+8-4	Antwerpen	NE	Antwerpen	_	O	O	
+8-5	,	$,	,	_	O	O	
+8-6	ohne	APPR	ohne	_	O	O	
+8-7	daß	KOUS	dass	_	O	O	
+8-8	ein	ART	eine	_	O	O	
+8-9	einziger	ADJA	einzig	_	O	O	
+8-10	einen	ART	eine	_	O	O	
+8-11	Artikel	NN	Artikel	_	O	O	
+8-12	in	APPR	in	_	O	O	
+8-13	petto	ADJD	<unknown>	_	O	O	
+8-14	hat	VAFIN	haben	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	hieße	VVFIN	heißen	_	O	O	
+8-17	das	ART	die	_	O	O	
+8-18	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-19	auf	APPR	auf	_	O	O	
+8-20	den	ART	die	_	O	O	
+8-21	Mokirstuhl	NN	<unknown>	_	O	O	
+8-22	setzen	VVINF	setzen	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=Mögen sie einen neuen ( ich denke Herr Felix Bogaert und höchstens noch Vcte Kerkhove ) W ,'f't.., -=t~_~ prätendiren ih~ ~hren nicht.
+9-1	Mögen	VMFIN	mögen	_	O	O	
+9-2	sie	PPER	sie	_	O	O	
+9-3	einen	ART	eine	_	O	O	
+9-4	neuen	ADJA	neu	_	O	O	
+9-5	(	$(	(	_	O	O	
+9-6	ich	PPER	ich	_	O	O	
+9-7	denke	VVFIN	denken	_	O	O	
+9-8	Herr	NN	Herr	_	O	O	
+9-9	Felix	NE	Felix	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-10	Bogaert	VVFIN	<unknown>	_	O	O	
+9-11	und	KON	und	_	O	O	
+9-12	höchstens	ADV	höchstens	_	O	O	
+9-13	noch	ADV	noch	_	O	O	
+9-14	Vcte	ADJA	<unknown>	_	O	O	
+9-15	Kerkhove	NN	<unknown>	_	O	O	
+9-16	)	$(	)	_	O	O	
+9-17	W	NN	W	_	O	O	
+9-18	,'f't.	NN	<unknown>	_	O	O	
+9-19	.	$.	.	_	O	O	
+9-20	,	$,	,	_	O	O	
+9-21	-=t~_~	ADJA	<unknown>	_	O	O	
+9-22	prätendiren	NN	<unknown>	_	O	O	
+9-23	ih~	ADV	<unknown>	_	O	O	
+9-24	~hren	ADJD	<unknown>	_	O	O	
+9-25	nicht	PTKNEG	nicht	_	O	O	
+9-26	.	$.	.	_	O	O	
+
+#id=10
+#text=Uebrigens will ich ~ulez um die Herren fragen.
+10-1	Uebrigens	NN	<unknown>	_	O	O	
+10-2	will	VMFIN	wollen	_	O	O	
+10-3	ich	PPER	ich	_	O	O	
+10-4	~ulez	NN	<unknown>	_	O	O	
+10-5	um	APPR	um	_	O	O	
+10-6	die	ART	die	_	O	O	
+10-7	Herren	NN	Herr	_	O	O	
+10-8	fragen	VVINF	fragen	_	O	O	
+10-9	.	$.	.	_	O	O	
+
+#id=11
+#text=Was steht denn in den nach Rom gesandten Annalen ?
+11-1	Was	PWS	was	_	O	O	
+11-2	steht	VVFIN	stehen	_	O	O	
+11-3	denn	ADV	denn	_	O	O	
+11-4	in	APPR	in	_	O	O	
+11-5	den	ART	die	_	O	O	
+11-6	nach	APPR	nach	_	O	O	
+11-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-8	gesandten	ADJA	gesandt	_	O	O	
+11-9	Annalen	NN	Annalen	_	O	O	
+11-10	?	$.	?	_	O	O	
+
+#id=12
+#text=Somit gute Wünsche für Kestners Augen.
+12-1	Somit	ADV	somit	_	O	O	
+12-2	gute	ADJA	gut	_	O	O	
+12-3	Wünsche	NN	Wunsch	_	O	O	
+12-4	für	APPR	für	_	O	O	
+12-5	Kestners	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-6	Augen	NN	Auge	_	O	O	
+12-7	.	$.	.	_	O	O	
+
+#id=13
+#text=Canina's glänzende Büchergeschenke sind angelangt; ich denke ihm nächstens selbst zu danken und bitte Sie es vorläufig zu thun.
+13-1	Canina's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	glänzende	ADJA	glänzend	_	O	O	
+13-3	Büchergeschenke	NN	Büchergeschenk	_	O	O	
+13-4	sind	VAFIN	sein	_	O	O	
+13-5	angelangt	VVPP	angelangen	_	O	O	
+13-6	;	$.	;	_	O	O	
+13-7	ich	PPER	ich	_	O	O	
+13-8	denke	VVFIN	denken	_	O	O	
+13-9	ihm	PPER	er	_	O	O	
+13-10	nächstens	ADV	nächstens	_	O	O	
+13-11	selbst	ADV	selbst	_	O	O	
+13-12	zu	PTKZU	zu	_	O	O	
+13-13	danken	VVINF	danken	_	O	O	
+13-14	und	KON	und	_	O	O	
+13-15	bitte	VVFIN	bitten	_	O	O	
+13-16	Sie	PPER	Sie	_	O	O	
+13-17	es	PPER	es	_	O	O	
+13-18	vorläufig	ADJD	vorläufig	_	O	O	
+13-19	zu	APPR	zu	_	O	O	
+13-20	thun	NE	<unknown>	_	O	O	
+13-21	.	$.	.	_	O	O	
+
+#id=14
+#text=Wie ist es aber - bitte ich bJz..,' alVtGÜwt Gelegenheit mit ihm W~~zunehmen mitl.~em 1 Exemplar Apul.
+14-1	Wie	KOUS	wie	_	O	O	
+14-2	ist	VAFIN	sein	_	O	O	
+14-3	es	PPER	es	_	O	O	
+14-4	aber	ADV	aber	_	O	O	
+14-5	-	$(	-	_	O	O	
+14-6	bitte	VVFIN	bitten	_	O	O	
+14-7	ich	PPER	ich	_	O	O	
+14-8	bJz.	NE	<unknown>	_	O	O	
+14-9	.	$.	.	_	O	O	
+14-10	,	$,	,	_	O	O	
+14-11	'	$(	'	_	O	O	
+14-12	alVtGÜwt	ADJA	<unknown>	_	O	O	
+14-13	Gelegenheit	NN	Gelegenheit	_	O	O	
+14-14	mit	APPR	mit	_	O	O	
+14-15	ihm	PPER	er	_	O	O	
+14-16	W~~zunehmen	NN	<unknown>	_	O	O	
+14-17	mitl.~em	ADJA	<unknown>	_	O	O	
+14-18	1	CARD	1	_	O	O	
+14-19	Exemplar	NN	Exemplar	_	O	O	
+14-20	Apul	NE	<unknown>	_	O	O	
+14-21	.	$.	.	_	O	O	
+
+#id=15
+#text=f;.wJ .vz.i.L(Jt 0J..i ~v-: tow L. ge wo rd e n Vase und 1 Exemplar Auoeo~.
+15-1	f	NE	<unknown>	_	O	O	
+15-2	;	$.	;	_	O	O	
+15-3	.wJ	NE	<unknown>	_	O	O	
+15-4	.vz.i.L(Jt	ADJA	<unknown>	_	O	O	
+15-5	0J..i	NN	<unknown>	_	O	O	
+15-6	~v-	ADJD	<unknown>	_	O	O	
+15-7	:	$.	:	_	O	O	
+15-8	tow	NE	<unknown>	_	O	O	
+15-9	L.	NE	L.	_	O	O	
+15-10	ge	ADJA	<unknown>	_	O	O	
+15-11	wo	PWAV	wo	_	O	O	
+15-12	rd	ADJA	<unknown>	_	O	O	
+15-13	e	ADJA	<unknown>	_	O	O	
+15-14	n	ADJA	<unknown>	_	O	O	
+15-15	Vase	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+15-16	und	KON	und	_	O	O	
+15-17	1	CARD	1	_	O	O	
+15-18	Exemplar	NN	Exemplar	_	O	O	
+15-19	Auoeo~	NN	<unknown>	_	O	O	
+15-20	.	$.	.	_	O	O	
+
+#id=16
+#text=Vase 1.11 carta sceltardas er bei Prinz Borghese anbringen wollte?
+16-1	Vase	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+16-2	1.11	CARD	@card@	_	O	O	
+16-3	carta	NN	<unknown>	_	O	O	
+16-4	sceltardas	VVFIN	<unknown>	_	O	O	
+16-5	er	PPER	er	_	O	O	
+16-6	bei	APPR	bei	_	O	O	
+16-7	Prinz	NE	Prinz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-8	Borghese	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+16-9	anbringen	VVINF	anbringen	_	O	O	
+16-10	wollte	VMFIN	wollen	_	O	O	
+16-11	?	$.	?	_	O	O	
+
+#id=17
+#text=Wahrschein~ich blieb beides l~gen/in jetzigen Zeiten.
+17-1	Wahrschein~ich	ADJD	<unknown>	_	O	O	
+17-2	blieb	VVFIN	bleiben	_	O	O	
+17-3	beides	PIS	beide	_	O	O	
+17-4	l~gen/in	NN	<unknown>	_	O	O	
+17-5	jetzigen	ADJA	jetzig	_	O	O	
+17-6	Zeiten	NN	Zeit	_	O	O	
+17-7	.	$.	.	_	O	O	
+
+#id=18
+#text=Dann bäte ich doch die ~vJ.t.~rw... Bücher an sich zu nehmen; das Exemplar ~.
+18-1	Dann	ADV	dann	_	O	O	
+18-2	bäte	VVFIN	bitten	_	O	O	
+18-3	ich	PPER	ich	_	O	O	
+18-4	doch	ADV	doch	_	O	O	
+18-5	die	ART	die	_	O	O	
+18-6	~vJ.t.~rw	NN	<unknown>	_	O	O	
+18-7	...	$.	...	_	O	O	
+18-8	Bücher	NN	Buch	_	O	O	
+18-9	an	APPR	an	_	O	O	
+18-10	sich	PRF	sich	_	O	O	
+18-11	zu	PTKZU	zu	_	O	O	
+18-12	nehmen	VVINF	nehmen	_	O	O	
+18-13	;	$.	;	_	O	O	
+18-14	das	ART	die	_	O	O	
+18-15	Exemplar	NN	Exemplar	_	O	O	
+18-16	~	XY	~	_	O	O	
+18-17	.	$.	.	_	O	O	
+
+#id=19
+#text=Vase hatte +I w~" r:i/ ich für diesen Fall an G~ibe~~, ~~o ~ zu Verfügung gestellt
+19-1	Vase	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+19-2	hatte	VAFIN	haben	_	O	O	
+19-3	+I	NN	<unknown>	_	O	O	
+19-4	w~	VVFIN	<unknown>	_	O	O	
+19-5	"	$(	"	_	O	O	
+19-6	r:i/	VVFIN	<unknown>	_	O	O	
+19-7	ich	PPER	ich	_	O	O	
+19-8	für	APPR	für	_	O	O	
+19-9	diesen	PDAT	dies	_	O	O	
+19-10	Fall	NN	Fall	_	O	O	
+19-11	an	APPR	an	_	O	O	
+19-12	G~ibe~~	NN	<unknown>	_	O	O	
+19-13	,	$,	,	_	O	O	
+19-14	~~o	NN	<unknown>	_	O	O	
+19-15	~	XY	~	_	O	O	
+19-16	zu	APPR	zu	_	O	O	
+19-17	Verfügung	NN	Verfügung	_	O	O	
+19-18	gestellt	VVPP	stellen	_	O	O	
+

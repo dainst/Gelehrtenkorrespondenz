@@ -1,0 +1,275 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=680 Aff.
+1-1	680	CARD	@card@	_	O	O	
+1-2	Aff	NN	<unknown>	_	O	O	
+1-3	.	$.	.	_	O	O	
+
+#id=2
+#text=di lJirez.
+2-1	di	NE	di	_	O	O	
+2-2	lJirez	NE	<unknown>	_	O	O	
+2-3	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Henzen Berlin 23/XI/1843 g. 11/12 43 r.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-2	an	APPR	an	_	O	O	
+3-3	Henzen	NN	<unknown>	_	O	O	
+3-4	Berlin	NE	Berlin	_	O	O	
+3-5	23/XI/1843	CARD	<unknown>	_	O	O	
+3-6	g.	ADJA	<unknown>	_	O	O	
+3-7	11/12	CARD	11/12	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-8	43	CARD	43	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+3-9	r.	ADJA	<unknown>	_	O	O	
+
+#id=4
+#text=16/12 43 D. Henzen Berlin 23 Nov 43 Ich antworte auf Ihren Brief vom 11 d. M. Kurz ole.fiii.., vorher kamen Q4.e Lanci I s Kleinodien glücklich, 'obwohl kostspielig ( 1 1/3 rt.
+4-1	16/12	CARD	16/12	_	O	O	
+4-2	43	CARD	43	_	O	O	
+4-3	D.	NE	D.	_	O	O	
+4-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+4-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-6	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-7	Nov	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-8	43	CARD	43	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-9	Ich	PPER	ich	_	O	O	
+4-10	antworte	VVFIN	antworten	_	O	O	
+4-11	auf	APPR	auf	_	O	O	
+4-12	Ihren	PPOSAT	ihr	_	O	O	
+4-13	Brief	NN	Brief	_	O	O	
+4-14	vom	APPRART	von	_	O	O	
+4-15	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-16	d.	ART	d.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-17	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-18	Kurz	NE	Kurz	_	O	O	
+4-19	ole.fiii.	NE	<unknown>	_	O	O	
+4-20	.	$.	.	_	O	O	
+4-21	,	$,	,	_	O	O	
+4-22	vorher	ADV	vorher	_	O	O	
+4-23	kamen	VVFIN	kommen	_	O	O	
+4-24	Q4.e	NE	<unknown>	_	O	O	
+4-25	Lanci	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-26	I	NE	I	_	O	O	
+4-27	s	NN	s	_	O	O	
+4-28	Kleinodien	NN	Kleinod	_	O	O	
+4-29	glücklich	ADJD	glücklich	_	O	O	
+4-30	,	$,	,	_	O	O	
+4-31	'	$(	'	_	O	O	
+4-32	obwohl	KOUS	obwohl	_	O	O	
+4-33	kostspielig	ADJD	kostspielig	_	O	O	
+4-34	(	$(	(	_	O	O	
+4-35	1	CARD	1	_	O	O	
+4-36	1/3	CARD	1/3	_	O	O	
+4-37	rt	VVFIN	<unknown>	_	O	O	
+4-38	.	$.	.	_	O	O	
+
+#id=5
+#text=Porto) an.
+5-1	Porto	NN	Porto	_	O	O	
+5-2	)	$(	)	_	O	O	
+5-3	an	PTKVZ	an	_	O	O	
+5-4	.	$.	.	_	O	O	
+
+#id=6
+#text=Alle unsre Sendungen sind demnach in Ordnung; Danke für Alles Ihnen lieber als dem hoffentlich eben kaum heimgekehrten Braun überweise ich ein altes Desiderat des Leide~er Leemans für Vervollständigung seines Institutsexem- < ~.~ plars.
+6-1	Alle	PIAT	alle	_	O	O	
+6-2	unsre	PPOSAT	unsre	_	O	O	
+6-3	Sendungen	NN	Sendung	_	O	O	
+6-4	sind	VAFIN	sein	_	O	O	
+6-5	demnach	PAV	demnach	_	O	O	
+6-6	in	APPR	in	_	O	O	
+6-7	Ordnung	NN	Ordnung	_	O	O	
+6-8	;	$.	;	_	O	O	
+6-9	Danke	NN	Dank	_	O	O	
+6-10	für	APPR	für	_	O	O	
+6-11	Alles	PIS	alle	_	O	O	
+6-12	Ihnen	PPER	Sie	_	O	O	
+6-13	lieber	ADJD	lieb	_	O	O	
+6-14	als	KOKOM	als	_	O	O	
+6-15	dem	ART	die	_	O	O	
+6-16	hoffentlich	ADV	hoffentlich	_	O	O	
+6-17	eben	ADV	eben	_	O	O	
+6-18	kaum	ADV	kaum	_	O	O	
+6-19	heimgekehrten	ADJA	heimgekehrt	_	O	O	
+6-20	Braun	NN	Braun	_	O	O	
+6-21	überweise	VVFIN	überweisen	_	O	O	
+6-22	ich	PPER	ich	_	O	O	
+6-23	ein	ART	eine	_	O	O	
+6-24	altes	ADJA	alt	_	O	O	
+6-25	Desiderat	NN	Desiderat	_	O	O	
+6-26	des	ART	die	_	O	O	
+6-27	Leide~er	ADJA	<unknown>	_	O	O	
+6-28	Leemans	NN	<unknown>	_	O	O	
+6-29	für	APPR	für	_	O	O	
+6-30	Vervollständigung	NN	Vervollständigung	_	O	O	
+6-31	seines	PPOSAT	sein	_	O	O	
+6-32	Institutsexem-	NN	<unknown>	_	O	O	
+6-33	<	$(	<	_	O	O	
+6-34	~.~	ADJA	<unknown>	_	O	O	
+6-35	plars	NN	<unknown>	_	O	O	
+6-36	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Kopie seines frü~eshalb an Lepsius ~iek1\1,trY\.
+7-1	Die	ART	die	_	O	O	
+7-2	Kopie	NN	Kopie	_	O	O	
+7-3	seines	PPOSAT	sein	_	O	O	
+7-4	frü~eshalb	ADJA	<unknown>	_	O	O	
+7-5	an	APPR	an	_	O	O	
+7-6	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-7	~iek1\1,trY\	ADJD	<unknown>	_	O	O	
+7-8	.	$.	.	_	O	O	
+
+#id=8
+#text=~ Brief,s welche beiliegt gibt die ganze Sachlage an; er sendet sie mir in einem eben erst mir zugekommenen Brief vom 26 Juli, dem ich deshalb und ~ weil die Sache ohnehin schon so alt ist schleutnige und möglichst direkte Erledigung durch einen direkten Brie~ des Instituts an ihn wünsche.
+8-1	~	XY	~	_	O	O	
+8-2	Brief,s	NN	<unknown>	_	O	O	
+8-3	welche	PIS	welche	_	O	O	
+8-4	beiliegt	VVFIN	beiliegen	_	O	O	
+8-5	gibt	VVFIN	geben	_	O	O	
+8-6	die	ART	die	_	O	O	
+8-7	ganze	ADJA	ganz	_	O	O	
+8-8	Sachlage	NN	Sachlage	_	O	O	
+8-9	an	PTKVZ	an	_	O	O	
+8-10	;	$.	;	_	O	O	
+8-11	er	PPER	er	_	O	O	
+8-12	sendet	VVFIN	senden	_	O	O	
+8-13	sie	PPER	sie	_	O	O	
+8-14	mir	PRF	ich	_	O	O	
+8-15	in	APPR	in	_	O	O	
+8-16	einem	ART	eine	_	O	O	
+8-17	eben	ADV	eben	_	O	O	
+8-18	erst	ADV	erst	_	O	O	
+8-19	mir	PPER	ich	_	O	O	
+8-20	zugekommenen	ADJA	<unknown>	_	O	O	
+8-21	Brief	NN	Brief	_	O	O	
+8-22	vom	APPRART	von	_	O	O	
+8-23	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-24	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+8-25	,	$,	,	_	O	O	
+8-26	dem	PRELS	die	_	O	O	
+8-27	ich	PPER	ich	_	O	O	
+8-28	deshalb	PAV	deshalb	_	O	O	
+8-29	und	KON	und	_	O	O	
+8-30	~	XY	~	_	O	O	
+8-31	weil	KOUS	weil	_	O	O	
+8-32	die	ART	die	_	O	O	
+8-33	Sache	NN	Sache	_	O	O	
+8-34	ohnehin	ADV	ohnehin	_	O	O	
+8-35	schon	ADV	schon	_	O	O	
+8-36	so	ADV	so	_	O	O	
+8-37	alt	ADJD	alt	_	O	O	
+8-38	ist	VAFIN	sein	_	O	O	
+8-39	schleutnige	ADJA	<unknown>	_	O	O	
+8-40	und	KON	und	_	O	O	
+8-41	möglichst	ADV	möglichst	_	O	O	
+8-42	direkte	ADJA	direkt	_	O	O	
+8-43	Erledigung	NN	Erledigung	_	O	O	
+8-44	durch	APPR	durch	_	O	O	
+8-45	einen	ART	eine	_	O	O	
+8-46	direkten	ADJA	direkt	_	O	O	
+8-47	Brie~	NN	<unknown>	_	O	O	
+8-48	des	ART	die	_	O	O	
+8-49	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-50	an	APPR	an	_	O	O	
+8-51	ihn	PPER	er	_	O	O	
+8-52	wünsche	VVFIN	wünschen	_	O	O	
+8-53	.	$.	.	_	O	O	
+
+#id=9
+#text=Lepsius mag ihm etwas sanguinische Verheißung getahn haben, das bedauerte ich schon früher; doch ist es im Interesse des Instituts ihm dem Leemansso viel zu willfahren als ökonomische Rücksichten und als der Vorrath des Depots es nur überhaupt möglich machen.
+9-1	Lepsius	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	mag	VMFIN	mögen	_	O	O	
+9-3	ihm	PPER	er	_	O	O	
+9-4	etwas	PIAT	etwas	_	O	O	
+9-5	sanguinische	ADJA	sanguinisch	_	O	O	
+9-6	Verheißung	NN	Verheißung	_	O	O	
+9-7	getahn	VVPP	<unknown>	_	O	O	
+9-8	haben	VAINF	haben	_	O	O	
+9-9	,	$,	,	_	O	O	
+9-10	das	PDS	die	_	O	O	
+9-11	bedauerte	VVFIN	bedauern	_	O	O	
+9-12	ich	PPER	ich	_	O	O	
+9-13	schon	ADV	schon	_	O	O	
+9-14	früher	ADJD	früh	_	O	O	
+9-15	;	$.	;	_	O	O	
+9-16	doch	ADV	doch	_	O	O	
+9-17	ist	VAFIN	sein	_	O	O	
+9-18	es	PPER	es	_	O	O	
+9-19	im	APPRART	in	_	O	O	
+9-20	Interesse	NN	Interesse	_	O	O	
+9-21	des	ART	die	_	O	O	
+9-22	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-23	ihm	PPER	er	_	O	O	
+9-24	dem	ART	die	_	O	O	
+9-25	Leemansso	NN	<unknown>	_	O	O	
+9-26	viel	ADV	viel	_	O	O	
+9-27	zu	PTKA	zu	_	O	O	
+9-28	willfahren	ADJD	<unknown>	_	O	O	
+9-29	als	KOKOM	als	_	O	O	
+9-30	ökonomische	ADJA	ökonomisch	_	O	O	
+9-31	Rücksichten	NN	Rücksicht	_	O	O	
+9-32	und	KON	und	_	O	O	
+9-33	als	KOKOM	als	_	O	O	
+9-34	der	ART	die	_	O	O	
+9-35	Vorrath	NN	<unknown>	_	O	O	
+9-36	des	ART	die	_	O	O	
+9-37	Depots	NN	Depot	_	O	O	
+9-38	es	PPER	es	_	O	O	
+9-39	nur	ADV	nur	_	O	O	
+9-40	überhaupt	ADV	überhaupt	_	O	O	
+9-41	möglich	ADJD	möglich	_	O	O	
+9-42	machen	VVINF	machen	_	O	O	
+9-43	.	$.	.	_	O	O	
+
+#id=10
+#text=Sollte man gewisse Defekte der früheren Jahrgänge nicht liefern können oder mögen, so muß man sie ihm wenigstens <:Je' ab nach hoffentlic~7wiedenaruck versprechen und seiner Associazione für die laufenden Jahrgänge wieder zur Ordnung helfen.
+10-1	Sollte	VMFIN	sollen	_	O	O	
+10-2	man	PIS	man	_	O	O	
+10-3	gewisse	ADJA	gewiss	_	O	O	
+10-4	Defekte	NN	Defekte	_	O	O	
+10-5	der	ART	die	_	O	O	
+10-6	früheren	ADJA	früh	_	O	O	
+10-7	Jahrgänge	NN	Jahrgang	_	O	O	
+10-8	nicht	PTKNEG	nicht	_	O	O	
+10-9	liefern	VVINF	liefern	_	O	O	
+10-10	können	VMINF	können	_	O	O	
+10-11	oder	KON	oder	_	O	O	
+10-12	mögen	VMINF	mögen	_	O	O	
+10-13	,	$,	,	_	O	O	
+10-14	so	ADV	so	_	O	O	
+10-15	muß	VMFIN	müssen	_	O	O	
+10-16	man	PIS	man	_	O	O	
+10-17	sie	PPER	sie	_	O	O	
+10-18	ihm	PPER	er	_	O	O	
+10-19	wenigstens	ADV	wenigstens	_	O	O	
+10-20	<:Je	NN	<unknown>	_	O	O	
+10-21	'	$(	'	_	O	O	
+10-22	ab	PTKVZ	ab	_	O	O	
+10-23	nach	APPR	nach	_	O	O	
+10-24	hoffentlic~7wiedenaruck	NN	<unknown>	_	O	O	
+10-25	versprechen	VVFIN	versprechen	_	O	O	
+10-26	und	KON	und	_	O	O	
+10-27	seiner	PPOSAT	sein	_	O	O	
+10-28	Associazione	NN	<unknown>	_	O	O	
+10-29	für	APPR	für	_	O	O	
+10-30	die	ART	die	_	O	O	
+10-31	laufenden	ADJA	laufend	_	O	O	
+10-32	Jahrgänge	NN	Jahrgang	_	O	O	
+10-33	wieder	ADV	wieder	_	O	O	
+10-34	zur	APPRART	zu	_	O	O	
+10-35	Ordnung	NN	Ordnung	_	O	O	
+10-36	helfen	VVINF	helfen	_	O	O	
+10-37	.	$.	.	_	O	O	
+
+#id=11
+#text=Zeichnungen kann das Institut an Zahlungs statt
+11-1	Zeichnungen	NN	Zeichnung	_	O	O	
+11-2	kann	VMFIN	können	_	O	O	
+11-3	das	ART	die	_	O	O	
+11-4	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+11-5	an	APPR	an	_	O	O	
+11-6	Zahlungs	NN	<unknown>	_	O	O	
+11-7	statt	PTKVZ	statt	_	O	O	
+

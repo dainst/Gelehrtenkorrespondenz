@@ -1,0 +1,247 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=652 Aff.
+1-1	652	CARD	@card@	_	O	O	
+1-2	Aff	NN	<unknown>	_	O	O	
+1-3	.	$.	.	_	O	O	
+
+#id=2
+#text=di Direz.
+2-1	di	NE	di	_	O	O	
+2-2	Direz	NE	<unknown>	_	O	O	
+2-3	.	$.	.	_	O	O	
+
+#id=3
+#text=Werthester Freund 1 Gerhard an Henzen Berlin 27/X/1843 g. 10/11 43 r.
+3-1	Werthester	NE	<unknown>	_	O	O	
+3-2	Freund	NE	Freund	_	O	O	
+3-3	1	CARD	1	_	O	O	
+3-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-5	an	APPR	an	_	O	O	
+3-6	Henzen	NN	<unknown>	_	O	O	
+3-7	Berlin	NE	Berlin	_	O	O	
+3-8	27/X/1843	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-9	g.	ADJA	<unknown>	_	O	O	
+3-10	10/11	CARD	10/11	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-11	43	CARD	43	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+3-12	r.	ADJA	<unknown>	_	O	O	
+
+#id=4
+#text=11/11 43 Berlin 27 Okt.
+4-1	11/11	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+4-2	43	CARD	43	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+4-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-4	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-5	Okt.	NN	Okt.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=5
+#text=43 Ich bin so niedergeschlagen in Florenz und Venedig, endlich nun auch hier keine Zeile von Ihnen gefunden zu haben daß ich mich doppelt beeile Ihnen von meiner Heimkehr und von der verfehlten Rückreise Kunde zu geben, die uns auf Anlaß verunglückter Schiffahrt ( der Sturm "'-~t/)+ trieb nach Venedig zurück) nicht über -l-mHiOt und Wien, sondern über München hieher fÜhrte.
+5-1	43	CARD	43	_	O	O	
+5-2	Ich	PPER	ich	_	O	O	
+5-3	bin	VAFIN	sein	_	O	O	
+5-4	so	ADV	so	_	O	O	
+5-5	niedergeschlagen	ADJD	niedergeschlagen	_	O	O	
+5-6	in	APPR	in	_	O	O	
+5-7	Florenz	NE	Florenz	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-8	und	KON	und	_	O	O	
+5-9	Venedig	NE	Venedig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-10	,	$,	,	_	O	O	
+5-11	endlich	ADV	endlich	_	O	O	
+5-12	nun	ADV	nun	_	O	O	
+5-13	auch	ADV	auch	_	O	O	
+5-14	hier	ADV	hier	_	O	O	
+5-15	keine	PIAT	keine	_	O	O	
+5-16	Zeile	NN	Zeile	_	O	O	
+5-17	von	APPR	von	_	O	O	
+5-18	Ihnen	PPER	Sie	_	O	O	
+5-19	gefunden	VVPP	finden	_	O	O	
+5-20	zu	PTKZU	zu	_	O	O	
+5-21	haben	VAINF	haben	_	O	O	
+5-22	daß	KOUS	dass	_	O	O	
+5-23	ich	PPER	ich	_	O	O	
+5-24	mich	PRF	ich	_	O	O	
+5-25	doppelt	ADJD	doppelt	_	O	O	
+5-26	beeile	VVFIN	beeilen	_	O	O	
+5-27	Ihnen	PPER	Sie	_	O	O	
+5-28	von	APPR	von	_	O	O	
+5-29	meiner	PPOSAT	mein	_	O	O	
+5-30	Heimkehr	NN	Heimkehr	_	O	O	
+5-31	und	KON	und	_	O	O	
+5-32	von	APPR	von	_	O	O	
+5-33	der	ART	die	_	O	O	
+5-34	verfehlten	ADJA	verfehlt	_	O	O	
+5-35	Rückreise	NN	Rückreise	_	O	O	
+5-36	Kunde	NN	Kunde	_	O	O	
+5-37	zu	PTKZU	zu	_	O	O	
+5-38	geben	VVINF	geben	_	O	O	
+5-39	,	$,	,	_	O	O	
+5-40	die	PRELS	die	_	O	O	
+5-41	uns	PRF	wir	_	O	O	
+5-42	auf	APPR	auf	_	O	O	
+5-43	Anlaß	NN	Anlass	_	O	O	
+5-44	verunglückter	ADJA	verunglückt	_	O	O	
+5-45	Schiffahrt	NN	Schiffahrt	_	O	O	
+5-46	(	$(	(	_	O	O	
+5-47	der	ART	die	_	O	O	
+5-48	Sturm	NN	Sturm	_	O	O	
+5-49	"	$(	"	_	O	O	
+5-50	'	$(	'	_	O	O	
+5-51	-~t/)+	ADJD	<unknown>	_	O	O	
+5-52	trieb	VVFIN	treiben	_	O	O	
+5-53	nach	APPR	nach	_	O	O	
+5-54	Venedig	NE	Venedig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-55	zurück	PTKVZ	zurück	_	O	O	
+5-56	)	$(	)	_	O	O	
+5-57	nicht	PTKNEG	nicht	_	O	O	
+5-58	über	APPR	über	_	O	O	
+5-59	-l-mHiOt	NE	<unknown>	_	O	O	
+5-60	und	KON	und	_	O	O	
+5-61	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-62	,	$,	,	_	O	O	
+5-63	sondern	KON	sondern	_	O	O	
+5-64	über	APPR	über	_	O	O	
+5-65	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-66	hieher	NN	<unknown>	_	O	O	
+5-67	fÜhrte	VVFIN	führen	_	O	O	
+5-68	.	$.	.	_	O	O	
+
+#id=6
+#text=In München war Braun noch nicht angelangt bis zum 22sten; hier war er vor mir und vermuthlich habe ich ihn auch in Wien zugleich mit ß'\.
+6-1	In	APPR	in	_	O	O	
+6-2	München	NE	München	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-3	war	VAFIN	sein	_	O	O	
+6-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	noch	ADV	noch	_	O	O	
+6-6	nicht	PTKNEG	nicht	_	O	O	
+6-7	angelangt	VVPP	angelangen	_	O	O	
+6-8	bis	KON	bis	_	O	O	
+6-9	zum	APPRART	zu	_	O	O	
+6-10	22sten	ADJA	<unknown>	_	O	O	
+6-11	;	$.	;	_	O	O	
+6-12	hier	ADV	hier	_	O	O	
+6-13	war	VAFIN	sein	_	O	O	
+6-14	er	PPER	er	_	O	O	
+6-15	vor	APPR	vor	_	O	O	
+6-16	mir	PPER	ich	_	O	O	
+6-17	und	KON	und	_	O	O	
+6-18	vermuthlich	ADJD	<unknown>	_	O	O	
+6-19	habe	VAFIN	haben	_	O	O	
+6-20	ich	PPER	ich	_	O	O	
+6-21	ihn	PPER	er	_	O	O	
+6-22	auch	ADV	auch	_	O	O	
+6-23	in	APPR	in	_	O	O	
+6-24	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-25	zugleich	ADV	zugleich	_	O	O	
+6-26	mit	APPR	mit	_	O	O	
+6-27	ß'\	ADJD	<unknown>	_	O	O	
+6-28	.	$.	.	_	O	O	
+
+#id=7
+#text=Ihrer etw~igen Sendung an mich versäumt.
+7-1	Ihrer	PPOSAT	ihr	_	O	O	
+7-2	etw~igen	ADJA	<unknown>	_	O	O	
+7-3	Sendung	NN	Sendung	_	O	O	
+7-4	an	APPR	an	_	O	O	
+7-5	mich	PRF	ich	_	O	O	
+7-6	versäumt	VVPP	versäumen	_	O	O	
+7-7	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich harre Ihrer Mittheilungen besonders um zu wissen daß die mir anvertrauten Papiere von Blessig, Hor~el, Wolff wohl aufbehalten sind und den ihnen bestimmten Weg, wenn auch etwas verspätet/noch durch mich finden werden; Ihrer Entschuldigung bei den gedachten sehr werthen Freunden bedarf ich jedenfalls und bitte um Nachsicht.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	harre	VVFIN	harren	_	O	O	
+8-3	Ihrer	PPOSAT	ihr	_	O	O	
+8-4	Mittheilungen	NN	<unknown>	_	O	O	
+8-5	besonders	ADV	besonders	_	O	O	
+8-6	um	PTKVZ	um	_	O	O	
+8-7	zu	PTKZU	zu	_	O	O	
+8-8	wissen	VVINF	wissen	_	O	O	
+8-9	daß	KOUS	dass	_	O	O	
+8-10	die	PDS	die	_	O	O	
+8-11	mir	PPER	ich	_	O	O	
+8-12	anvertrauten	ADJA	anvertraut	_	O	O	
+8-13	Papiere	NN	Papier	_	O	O	
+8-14	von	APPR	von	_	O	O	
+8-15	Blessig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-16	,	$,	,	_	O	O	
+8-17	Hor~el	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-18	,	$,	,	_	O	O	
+8-19	Wolff	NE	Wolff	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-20	wohl	ADV	wohl	_	O	O	
+8-21	aufbehalten	VVPP	aufbehalten	_	O	O	
+8-22	sind	VAFIN	sein	_	O	O	
+8-23	und	KON	und	_	O	O	
+8-24	den	PDS	die	_	O	O	
+8-25	ihnen	PPER	sie	_	O	O	
+8-26	bestimmten	ADJA	bestimmt	_	O	O	
+8-27	Weg	NN	Weg	_	O	O	
+8-28	,	$,	,	_	O	O	
+8-29	wenn	KOUS	wenn	_	O	O	
+8-30	auch	ADV	auch	_	O	O	
+8-31	etwas	ADV	etwas	_	O	O	
+8-32	verspätet/noch	ADJD	<unknown>	_	O	O	
+8-33	durch	APPR	durch	_	O	O	
+8-34	mich	PRF	ich	_	O	O	
+8-35	finden	VVINF	finden	_	O	O	
+8-36	werden	VAFIN	werden	_	O	O	
+8-37	;	$.	;	_	O	O	
+8-38	Ihrer	PPOSAT	ihr	_	O	O	
+8-39	Entschuldigung	NN	Entschuldigung	_	O	O	
+8-40	bei	APPR	bei	_	O	O	
+8-41	den	ART	die	_	O	O	
+8-42	gedachten	ADJA	gedacht	_	O	O	
+8-43	sehr	ADV	sehr	_	O	O	
+8-44	werthen	ADJA	<unknown>	_	O	O	
+8-45	Freunden	NN	Freund	_	O	O	
+8-46	bedarf	VVFIN	bedürfen	_	O	O	
+8-47	ich	PPER	ich	_	O	O	
+8-48	jedenfalls	ADV	jedenfalls	_	O	O	
+8-49	und	KON	und	_	O	O	
+8-50	bitte	VVIMP	bitten	_	O	O	
+8-51	um	APPR	um	_	O	O	
+8-52	Nachsicht	NN	Nachsicht	_	O	O	
+8-53	.	$.	.	_	O	O	
+
+#id=9
+#text=Das Desiderat einer Frauenhaube wird sich wol auch gefunden haben.
+9-1	Das	ART	die	_	O	O	
+9-2	Desiderat	NN	Desiderat	_	O	O	
+9-3	einer	ART	eine	_	O	O	
+9-4	Frauenhaube	NN	<unknown>	_	O	O	
+9-5	wird	VAFIN	werden	_	O	O	
+9-6	sich	PRF	sich	_	O	O	
+9-7	wol	ADJD	<unknown>	_	O	O	
+9-8	auch	ADV	auch	_	O	O	
+9-9	gefunden	VVPP	finden	_	O	O	
+9-10	haben	VAINF	haben	_	O	O	
+9-11	.	$.	.	_	O	O	
+
+#id=10
+#text=Brauns Decaden sah ich bei Brockhaus; sie nehmen sich sehr gut aus.
+10-1	Brauns	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	Decaden	NN	<unknown>	_	O	O	
+10-3	sah	VVFIN	sehen	_	O	O	
+10-4	ich	PPER	ich	_	O	O	
+10-5	bei	APPR	bei	_	O	O	
+10-6	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-7	;	$.	;	_	O	O	
+10-8	sie	PPER	sie	_	O	O	
+10-9	nehmen	VVFIN	nehmen	_	O	O	
+10-10	sich	PRF	sich	_	O	O	
+10-11	sehr	ADV	sehr	_	O	O	
+10-12	gut	ADJD	gut	_	O	O	
+10-13	aus	PTKVZ	aus	_	O	O	
+10-14	.	$.	.	_	O	O	
+
+#id=11
+#text=~ ~iersch hat eine Vasenabhandlung gedruckt, zu der
+11-1	~	XY	~	_	O	O	
+11-2	~iersch	NN	<unknown>	_	O	O	
+11-3	hat	VAFIN	haben	_	O	O	
+11-4	eine	ART	eine	_	O	O	
+11-5	Vasenabhandlung	NN	<unknown>	_	O	O	
+11-6	gedruckt	VVPP	drucken	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	zu	APPR	zu	_	O	O	
+11-9	der	ART	die	_	O	O	
+

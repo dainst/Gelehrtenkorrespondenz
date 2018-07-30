@@ -1,0 +1,275 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Dr.
+1-1	Dr.	NN	Dr.	_	O	O	
+
+#id=2
+#text=Henzen A. di Dir.
+2-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	A.	APPRART	am	_	O	O	
+2-3	di	NE	di	_	O	O	
+2-4	Dir.	NN	Dir.	_	O	O	
+
+#id=3
+#text=Gerhard an rlenzen Berlin 17/IV/1847 g. 29/IV 47 r. 1/V 47 Berlin 17 April 47 Bullettino 1.11 I Fr.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-2	an	APPR	an	_	O	O	
+3-3	rlenzen	NN	<unknown>	_	O	O	
+3-4	Berlin	NE	Berlin	_	O	O	
+3-5	17/IV/1847	CARD	<unknown>	_	O	O	
+3-6	g.	ADJA	<unknown>	_	O	O	
+3-7	29/IV	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-8	47	CARD	47	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+3-9	r.	ADJA	<unknown>	_	O	O	
+3-10	1/V	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-11	47	CARD	47	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-12	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-13	17	CARD	17	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-14	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-15	47	CARD	47	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-16	Bullettino	ADV	<unknown>	_	O	O	
+3-17	1.11	CARD	@card@	_	O	O	
+3-18	I	NN	I	_	O	O	
+3-19	Fr.	NN	Freitag	_	O	O	
+
+#id=4
+#text=sind richtig eingegangen, und der dicke Beischluß an Jahn den Ihr letzter Brief enthielt ist ihm hier persönlich übergeben worden.
+4-1	sind	VAFIN	sein	_	O	O	
+4-2	richtig	ADJD	richtig	_	O	O	
+4-3	eingegangen	VVPP	eingehen	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	und	KON	und	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	dicke	ADJA	dick	_	O	O	
+4-8	Beischluß	NN	<unknown>	_	O	O	
+4-9	an	APPR	an	_	O	O	
+4-10	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-11	den	ART	die	_	O	O	
+4-12	Ihr	PPOSAT	ihr	_	O	O	
+4-13	letzter	ADJA	letzt	_	O	O	
+4-14	Brief	NN	Brief	_	O	O	
+4-15	enthielt	VVFIN	enthalten	_	O	O	
+4-16	ist	VAFIN	sein	_	O	O	
+4-17	ihm	PPER	er	_	O	O	
+4-18	hier	ADV	hier	_	O	O	
+4-19	persönlich	ADJD	persönlich	_	O	O	
+4-20	übergeben	VVPP	übergeben	_	O	O	
+4-21	worden	VAPP	werden	_	O	O	
+4-22	.	$.	.	_	O	O	
+
+#id=5
+#text=In der epigraphischen Sache bietet eruneigennutzig sein Material dar, sofern es nicht in Zumpts Privatverfügung gelange; außerdem ist sein Besuch hier ~erlich gewesen die ganze I\A..W.- Angelegenheit ~ mit Lachmann und Savigny zur Spr,tache zu bringen.
+5-1	In	APPR	in	_	O	O	
+5-2	der	ART	die	_	O	O	
+5-3	epigraphischen	ADJA	<unknown>	_	O	O	
+5-4	Sache	NN	Sache	_	O	O	
+5-5	bietet	VVFIN	bieten	_	O	O	
+5-6	eruneigennutzig	ADJD	<unknown>	_	O	O	
+5-7	sein	PPOSAT	sein	_	O	O	
+5-8	Material	NN	Material	_	O	O	
+5-9	dar	PTKVZ	dar	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	sofern	KOUS	sofern	_	O	O	
+5-12	es	PPER	es	_	O	O	
+5-13	nicht	PTKNEG	nicht	_	O	O	
+5-14	in	APPR	in	_	O	O	
+5-15	Zumpts	NN	<unknown>	_	O	O	
+5-16	Privatverfügung	NN	<unknown>	_	O	O	
+5-17	gelange	VVFIN	gelangen	_	O	O	
+5-18	;	$.	;	_	O	O	
+5-19	außerdem	ADV	außerdem	_	O	O	
+5-20	ist	VAFIN	sein	_	O	O	
+5-21	sein	PPOSAT	sein	_	O	O	
+5-22	Besuch	NN	Besuch	_	O	O	
+5-23	hier	ADV	hier	_	O	O	
+5-24	~erlich	ADJD	<unknown>	_	O	O	
+5-25	gewesen	VAPP	sein	_	O	O	
+5-26	die	ART	die	_	O	O	
+5-27	ganze	ADJA	ganz	_	O	O	
+5-28	I\A..W.-	NE	<unknown>	_	O	O	
+5-29	Angelegenheit	NN	Angelegenheit	_	O	O	
+5-30	~	XY	~	_	O	O	
+5-31	mit	APPR	mit	_	O	O	
+5-32	Lachmann	NN	Lachmann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-33	und	KON	und	_	O	O	
+5-34	Savigny	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-35	zur	APPRART	zu	_	O	O	
+5-36	Spr,tache	NN	<unknown>	_	O	O	
+5-37	zu	PTKZU	zu	_	O	O	
+5-38	bringen	VVINF	bringen	_	O	O	
+5-39	.	$.	.	_	O	O	
+
+#id=6
+#text=Savigny schlägt vor eine nominale Verantwortlichkeit für das Corpus r.J6. mir zuzutheilen, wobei er selbst in Linie mit mir nur genannt werden könnte, und Lachmann .~ unterstützt diesen orschlag gegen den ich persönlich mich /I •• str«ube, unmoglich aber etwas einwenden kann wenn dadurch die Stellung der ganzen Sache auf eine dermalem vielleicht sehr unerwartete Weise noch gerettet werden könnte.
+6-1	Savigny	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	schlägt	VVFIN	schlagen	_	O	O	
+6-3	vor	APPR	vor	_	O	O	
+6-4	eine	ART	eine	_	O	O	
+6-5	nominale	ADJA	nominal	_	O	O	
+6-6	Verantwortlichkeit	NN	Verantwortlichkeit	_	O	O	
+6-7	für	APPR	für	_	O	O	
+6-8	das	ART	die	_	O	O	
+6-9	Corpus	NN	Corpus	_	O	O	
+6-10	r.J6	VVFIN	<unknown>	_	O	O	
+6-11	.	$.	.	_	O	O	
+6-12	mir	PPER	ich	_	O	O	
+6-13	zuzutheilen	VVFIN	<unknown>	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	wobei	PWAV	wobei	_	O	O	
+6-16	er	PPER	er	_	O	O	
+6-17	selbst	ADV	selbst	_	O	O	
+6-18	in	APPR	in	_	O	O	
+6-19	Linie	NN	Linie	_	O	O	
+6-20	mit	APPR	mit	_	O	O	
+6-21	mir	PPER	ich	_	O	O	
+6-22	nur	ADV	nur	_	O	O	
+6-23	genannt	VVPP	nennen	_	O	O	
+6-24	werden	VAINF	werden	_	O	O	
+6-25	könnte	VMFIN	können	_	O	O	
+6-26	,	$,	,	_	O	O	
+6-27	und	KON	und	_	O	O	
+6-28	Lachmann	NN	Lachmann	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-29	.~	NN	<unknown>	_	O	O	
+6-30	unterstützt	VVFIN	unterstützen	_	O	O	
+6-31	diesen	PDAT	dies	_	O	O	
+6-32	orschlag	NN	<unknown>	_	O	O	
+6-33	gegen	APPR	gegen	_	O	O	
+6-34	den	ART	die	_	O	O	
+6-35	ich	PPER	ich	_	O	O	
+6-36	persönlich	ADJD	persönlich	_	O	O	
+6-37	mich	PRF	ich	_	O	O	
+6-38	/I	NN	<unknown>	_	O	O	
+6-39	•	ADJA	<unknown>	_	O	O	
+6-40	•	NN	<unknown>	_	O	O	
+6-41	str«ube	VVFIN	<unknown>	_	O	O	
+6-42	,	$,	,	_	O	O	
+6-43	unmoglich	ADJD	<unknown>	_	O	O	
+6-44	aber	ADV	aber	_	O	O	
+6-45	etwas	PIS	etwas	_	O	O	
+6-46	einwenden	VVINF	einwenden	_	O	O	
+6-47	kann	VMFIN	können	_	O	O	
+6-48	wenn	KOUS	wenn	_	O	O	
+6-49	dadurch	PAV	dadurch	_	O	O	
+6-50	die	ART	die	_	O	O	
+6-51	Stellung	NN	Stellung	_	O	O	
+6-52	der	ART	die	_	O	O	
+6-53	ganzen	ADJA	ganz	_	O	O	
+6-54	Sache	NN	Sache	_	O	O	
+6-55	auf	APPR	auf	_	O	O	
+6-56	eine	ART	eine	_	O	O	
+6-57	dermalem	ADV	<unknown>	_	O	O	
+6-58	vielleicht	ADV	vielleicht	_	O	O	
+6-59	sehr	ADV	sehr	_	O	O	
+6-60	unerwartete	ADJA	unerwartet	_	O	O	
+6-61	Weise	NN	Weise	_	O	O	
+6-62	noch	ADV	noch	_	O	O	
+6-63	gerettet	VVPP	retten	_	O	O	
+6-64	werden	VAINF	werden	_	O	O	
+6-65	könnte	VMFIN	können	_	O	O	
+6-66	.	$.	.	_	O	O	
+
+#id=7
+#text=Sie sehen Alles ist in dieser Sache noch nicht verloren; Geldmittel so viel man braucht ferner zu erlangen Cln.u-+k hat Savigny besten WuAsch, obwohl er den Mund nicht voll nimmt mit Ziffern wie die Franzosen.
+7-1	Sie	PPER	Sie	_	O	O	
+7-2	sehen	VVFIN	sehen	_	O	O	
+7-3	Alles	PIS	alle	_	O	O	
+7-4	ist	VAFIN	sein	_	O	O	
+7-5	in	APPR	in	_	O	O	
+7-6	dieser	PDAT	dies	_	O	O	
+7-7	Sache	NN	Sache	_	O	O	
+7-8	noch	ADV	noch	_	O	O	
+7-9	nicht	PTKNEG	nicht	_	O	O	
+7-10	verloren	VVPP	verlieren	_	O	O	
+7-11	;	$.	;	_	O	O	
+7-12	Geldmittel	NN	Geldmittel	_	O	O	
+7-13	so	ADV	so	_	O	O	
+7-14	viel	PIAT	viele	_	O	O	
+7-15	man	PIS	man	_	O	O	
+7-16	braucht	VVFIN	brauchen	_	O	O	
+7-17	ferner	ADJD	fern	_	O	O	
+7-18	zu	PTKZU	zu	_	O	O	
+7-19	erlangen	VVINF	erlangen	_	O	O	
+7-20	Cln.u-+k	NN	<unknown>	_	O	O	
+7-21	hat	VAFIN	haben	_	O	O	
+7-22	Savigny	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-23	besten	ADJA	gut	_	O	O	
+7-24	WuAsch	NN	<unknown>	_	O	O	
+7-25	,	$,	,	_	O	O	
+7-26	obwohl	KOUS	obwohl	_	O	O	
+7-27	er	PPER	er	_	O	O	
+7-28	den	ART	die	_	O	O	
+7-29	Mund	NN	Mund	_	O	O	
+7-30	nicht	PTKNEG	nicht	_	O	O	
+7-31	voll	ADJD	voll	_	O	O	
+7-32	nimmt	VVFIN	nehmen	_	O	O	
+7-33	mit	APPR	mit	_	O	O	
+7-34	Ziffern	NN	Ziffer	_	O	O	
+7-35	wie	KOKOM	wie	_	O	O	
+7-36	die	ART	die	_	O	O	
+7-37	Franzosen	NN	Franzose	_	O	O	
+7-38	.	$.	.	_	O	O	
+
+#id=8
+#text=Kommt Mommsen hieher, so kann er möglicherweise bereits im nächsten Monat seine ~fV\" vorschnelle üble Laune B8eadea.
+8-1	Kommt	VVFIN	kommen	_	O	O	
+8-2	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-3	hieher	NN	<unknown>	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	so	ADV	so	_	O	O	
+8-6	kann	VMFIN	können	_	O	O	
+8-7	er	PPER	er	_	O	O	
+8-8	möglicherweise	ADV	möglicherweise	_	O	O	
+8-9	bereits	ADV	bereits	_	O	O	
+8-10	im	APPRART	in	_	O	O	
+8-11	nächsten	ADJA	nah	_	O	O	
+8-12	Monat	NN	Monat	_	O	O	
+8-13	seine	PPOSAT	sein	_	O	O	
+8-14	~fV\	ADJA	<unknown>	_	O	O	
+8-15	"	$(	"	_	O	O	
+8-16	vorschnelle	ADJA	vorschnell	_	O	O	
+8-17	üble	ADJA	übel	_	O	O	
+8-18	Laune	NN	Laune	_	O	O	
+8-19	B8eadea	NE	<unknown>	_	O	O	
+8-20	.	$.	.	_	O	O	
+
+#id=9
+#text=Uebrigens hat er mir keine Möglichkeit gelassen ihm mit ~icherheit noch vor seiner Ankunft zu schreiben.
+9-1	Uebrigens	NN	<unknown>	_	O	O	
+9-2	hat	VAFIN	haben	_	O	O	
+9-3	er	PPER	er	_	O	O	
+9-4	mir	PRF	ich	_	O	O	
+9-5	keine	PIAT	keine	_	O	O	
+9-6	Möglichkeit	NN	Möglichkeit	_	O	O	
+9-7	gelassen	ADJD	gelassen	_	O	O	
+9-8	ihm	PPER	er	_	O	O	
+9-9	mit	APPR	mit	_	O	O	
+9-10	~icherheit	NN	<unknown>	_	O	O	
+9-11	noch	ADV	noch	_	O	O	
+9-12	vor	APPR	vor	_	O	O	
+9-13	seiner	PPOSAT	sein	_	O	O	
+9-14	Ankunft	NN	Ankunft	_	O	O	
+9-15	zu	PTKZU	zu	_	O	O	
+9-16	schreiben	VVINF	schreiben	_	O	O	
+9-17	.	$.	.	_	O	O	
+
+#id=10
+#text=Sarti's Ernennung ist nun, par ordre di Mufti-Braun, so schnell erfolgt als man dergleichen überhaupt bestel-
+10-1	Sarti's	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	Ernennung	NN	Ernennung	_	O	O	
+10-3	ist	VAFIN	sein	_	O	O	
+10-4	nun	ADV	nun	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	par	ADJD	<unknown>	_	O	O	
+10-7	ordre	VVFIN	ordern	_	O	O	
+10-8	di	NE	di	_	O	O	
+10-9	Mufti-Braun	VVINF	<unknown>	_	O	O	
+10-10	,	$,	,	_	O	O	
+10-11	so	ADV	so	_	O	O	
+10-12	schnell	ADJD	schnell	_	O	O	
+10-13	erfolgt	VVFIN	erfolgen	_	O	O	
+10-14	als	KOKOM	als	_	O	O	
+10-15	man	PIS	man	_	O	O	
+10-16	dergleichen	PIS	dergleichen	_	O	O	
+10-17	überhaupt	ADV	überhaupt	_	O	O	
+10-18	bestel-	TRUNC	<unknown>	_	O	O	
+

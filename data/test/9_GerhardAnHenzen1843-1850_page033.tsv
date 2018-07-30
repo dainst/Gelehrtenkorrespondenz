@@ -1,0 +1,190 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=471 2 Gerhard an Henzen Berlin, 8. November 1844 als Prosegretario generale "e Vicepresidente" und ein Theil davon, lieber 10 als 6, auch mit Millingen's Unterschrift.
+1-1	471	CARD	@card@	_	O	O	
+1-2	2	CARD	2	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	O	O	
+1-6	Berlin	NE	Berlin	_	O	O	
+1-7	,	$,	,	_	O	O	
+1-8	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	als	KOKOM	als	_	O	O	
+1-13	Prosegretario	NN	<unknown>	_	O	O	
+1-14	generale	ADJA	<unknown>	_	O	O	
+1-15	"	$(	"	_	O	O	
+1-16	e	ADJA	<unknown>	_	O	O	
+1-17	Vicepresidente	NE	<unknown>	_	O	O	
+1-18	"	$(	"	_	O	O	
+1-19	und	KON	und	_	O	O	
+1-20	ein	ART	eine	_	O	O	
+1-21	Theil	NN	<unknown>	_	O	O	
+1-22	davon	PAV	davon	_	O	O	
+1-23	,	$,	,	_	O	O	
+1-24	lieber	ADJD	lieb	_	O	O	
+1-25	10	CARD	10	_	O	O	
+1-26	als	KON	als	_	O	O	
+1-27	6	CARD	6	_	O	O	
+1-28	,	$,	,	_	O	O	
+1-29	auch	ADV	auch	_	O	O	
+1-30	mit	APPR	mit	_	O	O	
+1-31	Millingen's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-32	Unterschrift	NN	Unterschrift	_	O	O	
+1-33	.	$.	.	_	O	O	
+
+#id=2
+#text=Empfehlen Sie mich gelegentlich Borghesin dem ich seit langem Brief bloß deshalb schulde um etwas Erhebliches abzuwarten; ich hatte freilich gehofft ihm hiesige Maßregeln für die Epigraphik anzukündigen, die nun wegfallen.
+2-1	Empfehlen	VVFIN	empfehlen	_	O	O	
+2-2	Sie	PPER	Sie	_	O	O	
+2-3	mich	PRF	ich	_	O	O	
+2-4	gelegentlich	ADJD	gelegentlich	_	O	O	
+2-5	Borghesin	NN	<unknown>	_	O	O	
+2-6	dem	ART	die	_	O	O	
+2-7	ich	PPER	ich	_	O	O	
+2-8	seit	APPR	seit	_	O	O	
+2-9	langem	ADJA	lang	_	O	O	
+2-10	Brief	NN	Brief	_	O	O	
+2-11	bloß	ADJD	bloß	_	O	O	
+2-12	deshalb	PAV	deshalb	_	O	O	
+2-13	schulde	VVFIN	schulden	_	O	O	
+2-14	um	APPR	um	_	O	O	
+2-15	etwas	PIAT	etwas	_	O	O	
+2-16	Erhebliches	NN	Erhebliche	_	O	O	
+2-17	abzuwarten	VVIZU	abwarten	_	O	O	
+2-18	;	$.	;	_	O	O	
+2-19	ich	PPER	ich	_	O	O	
+2-20	hatte	VAFIN	haben	_	O	O	
+2-21	freilich	ADV	freilich	_	O	O	
+2-22	gehofft	VVPP	hoffen	_	O	O	
+2-23	ihm	PPER	er	_	O	O	
+2-24	hiesige	ADJA	hiesig	_	O	O	
+2-25	Maßregeln	NN	Maßregel	_	O	O	
+2-26	für	APPR	für	_	O	O	
+2-27	die	ART	die	_	O	O	
+2-28	Epigraphik	NN	<unknown>	_	O	O	
+2-29	anzukündigen	VVIZU	ankündigen	_	O	O	
+2-30	,	$,	,	_	O	O	
+2-31	die	PRELS	die	_	O	O	
+2-32	nun	ADV	nun	_	O	O	
+2-33	wegfallen	VVFIN	wegfallen	_	O	O	
+2-34	.	$.	.	_	O	O	
+
+#id=3
+#text=Eigentlich fürchte ich doch es könne ihn gereuen den Franzosen seine beste Arbeit gegeben zu haben.
+3-1	Eigentlich	ADV	eigentlich	_	O	O	
+3-2	fürchte	VVFIN	fürchten	_	O	O	
+3-3	ich	PPER	ich	_	O	O	
+3-4	doch	KON	doch	_	O	O	
+3-5	es	PPER	es	_	O	O	
+3-6	könne	VMFIN	können	_	O	O	
+3-7	ihn	PPER	er	_	O	O	
+3-8	gereuen	ADJD	<unknown>	_	O	O	
+3-9	den	ART	die	_	O	O	
+3-10	Franzosen	NN	Franzose	_	O	O	
+3-11	seine	PPOSAT	sein	_	O	O	
+3-12	beste	ADJA	gut	_	O	O	
+3-13	Arbeit	NN	Arbeit	_	O	O	
+3-14	gegeben	VVPP	geben	_	O	O	
+3-15	zu	PTKZU	zu	_	O	O	
+3-16	haben	VAINF	haben	_	O	O	
+3-17	.	$.	.	_	O	O	
+
+#id=4
+#text=Dieser Tage schrieb Preller aus Jena wo er sich niedergelassen hat.
+4-1	Dieser	PDAT	dies	_	O	O	
+4-2	Tage	NN	Tag	_	O	O	
+4-3	schrieb	VVFIN	schreiben	_	O	O	
+4-4	Preller	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-5	aus	APPR	aus	_	O	O	
+4-6	Jena	NE	Jena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-7	wo	PWAV	wo	_	O	O	
+4-8	er	PPER	er	_	O	O	
+4-9	sich	PRF	sich	_	O	O	
+4-10	niedergelassen	VVPP	niederlassen	_	O	O	
+4-11	hat	VAFIN	haben	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Meine Frau dankt Ihrer freundlichen Erinnerung bestens; nehmen Sie unsre besten Wünsche für Ihren Hausstand zur Erwiederung und lassen Sie bald wieder von sich hören.
+5-1	Meine	PPOSAT	mein	_	O	O	
+5-2	Frau	NN	Frau	_	O	O	
+5-3	dankt	VVFIN	danken	_	O	O	
+5-4	Ihrer	PPOSAT	ihr	_	O	O	
+5-5	freundlichen	ADJA	freundlich	_	O	O	
+5-6	Erinnerung	NN	Erinnerung	_	O	O	
+5-7	bestens	ADV	bestens	_	O	O	
+5-8	;	$.	;	_	O	O	
+5-9	nehmen	VVFIN	nehmen	_	O	O	
+5-10	Sie	PPER	Sie	_	O	O	
+5-11	unsre	PPOSAT	unsre	_	O	O	
+5-12	besten	ADJA	gut	_	O	O	
+5-13	Wünsche	NN	Wunsch	_	O	O	
+5-14	für	APPR	für	_	O	O	
+5-15	Ihren	PPOSAT	ihr	_	O	O	
+5-16	Hausstand	NN	Hausstand	_	O	O	
+5-17	zur	APPRART	zu	_	O	O	
+5-18	Erwiederung	NN	<unknown>	_	O	O	
+5-19	und	KON	und	_	O	O	
+5-20	lassen	VVFIN	lassen	_	O	O	
+5-21	Sie	PPER	Sie	_	O	O	
+5-22	bald	ADV	bald	_	O	O	
+5-23	wieder	ADV	wieder	_	O	O	
+5-24	von	APPR	von	_	O	O	
+5-25	sich	PRF	sich	_	O	O	
+5-26	hören	VVINF	hören	_	O	O	
+5-27	.	$.	.	_	O	O	
+
+#id=6
+#text=Ganz der Ihrige Gerhard Möchten Sie wol nach Brauns Rückkehr den Stand meines in Rom zurückgelassenen Antikenbesitzes ein wenig konstatiren?
+6-1	Ganz	ADV	ganz	_	O	O	
+6-2	der	ART	die	_	O	O	
+6-3	Ihrige	PPOSAT	ihrige	_	O	O	
+6-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+6-5	Möchten	VVFIN	mögen	_	O	O	
+6-6	Sie	PPER	Sie	_	O	O	
+6-7	wol	ADJD	<unknown>	_	O	O	
+6-8	nach	APPR	nach	_	O	O	
+6-9	Brauns	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-10	Rückkehr	NN	Rückkehr	_	O	O	
+6-11	den	ART	die	_	O	O	
+6-12	Stand	NN	Stand	_	O	O	
+6-13	meines	PPOSAT	mein	_	O	O	
+6-14	in	APPR	in	_	O	O	
+6-15	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-16	zurückgelassenen	ADJA	zurückgelassen	_	O	O	
+6-17	Antikenbesitzes	NN	<unknown>	_	O	O	
+6-18	ein	ART	eine	_	O	O	
+6-19	wenig	PIAT	wenige	_	O	O	
+6-20	konstatiren	NN	<unknown>	_	O	O	
+6-21	?	$.	?	_	O	O	
+
+#id=7
+#text=Vermuthlich steht alles bei Ihnen; Br(unn) wußte nichts davon.
+7-1	Vermuthlich	ADJD	<unknown>	_	O	O	
+7-2	steht	VVFIN	stehen	_	O	O	
+7-3	alles	PIS	alle	_	O	O	
+7-4	bei	APPR	bei	_	O	O	
+7-5	Ihnen	PPER	Sie	_	O	O	
+7-6	;	$.	;	_	O	O	
+7-7	Br(unn)	NE	<unknown>	_	O	O	
+7-8	wußte	VVFIN	wissen	_	O	O	
+7-9	nichts	PIS	nichts	_	O	O	
+7-10	davon	PAV	davon	_	O	O	
+7-11	.	$.	.	_	O	O	
+
+#id=8
+#text=Möchten Sie wol auch gelegentlich meiner Archäologischen Bibliographie gedenken ?
+8-1	Möchten	VMFIN	mögen	_	O	O	
+8-2	Sie	PPER	Sie	_	O	O	
+8-3	wol	ADJD	<unknown>	_	O	O	
+8-4	auch	ADV	auch	_	O	O	
+8-5	gelegentlich	ADJD	gelegentlich	_	O	O	
+8-6	meiner	PPOSAT	mein	_	O	O	
+8-7	Archäologischen	ADJA	archäologisch	_	O	O	
+8-8	Bibliographie	NN	Bibliographie	_	O	O	
+8-9	gedenken	VVINF	gedenken	_	O	O	
+8-10	?	$.	?	_	O	O	
+

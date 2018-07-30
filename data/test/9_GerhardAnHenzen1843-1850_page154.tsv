@@ -1,0 +1,280 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Gerhard an Henzen Berlin 24/XII/1848 A. di Dir.
+1-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-2	an	APPR	an	_	O	O	
+1-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-5	24/XII/1848	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-6	A.	APPRART	am	_	O	O	
+1-7	di	NE	di	_	O	O	
+1-8	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=g. 3/1 48 r.
+2-1	g.	ADJA	<unknown>	_	O	O	
+2-2	3/1	CARD	3/1	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-3	48	CARD	48	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-4	r.	ADJA	<unknown>	_	O	O	
+
+#id=3
+#text=4/1 48 , D. Henzen Berlin 24 Dec.
+3-1	4/1	CARD	4/1	_	O	O	
+3-2	48	CARD	48	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	D.	NE	D.	_	O	O	
+3-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-7	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-8	Dec	NE	Dec	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=4
+#text=48 Besten Dank voran für Ihren Brief lieber Freund der zugleich mit dem Ihrer lieben Frau ( meine Frau dankt einstweilen bestens dafür) ja sehr gut lautet.
+4-1	48	CARD	48	_	O	O	
+4-2	Besten	NN	Beste	_	O	O	
+4-3	Dank	APPR	dank	_	O	O	
+4-4	voran	ADV	voran	_	O	O	
+4-5	für	APPR	für	_	O	O	
+4-6	Ihren	PPOSAT	ihr	_	O	O	
+4-7	Brief	NN	Brief	_	O	O	
+4-8	lieber	ADJA	lieb	_	O	O	
+4-9	Freund	NN	Freund	_	O	O	
+4-10	der	ART	die	_	O	O	
+4-11	zugleich	ADV	zugleich	_	O	O	
+4-12	mit	APPR	mit	_	O	O	
+4-13	dem	ART	die	_	O	O	
+4-14	Ihrer	PPOSAT	ihr	_	O	O	
+4-15	lieben	ADJA	lieb	_	O	O	
+4-16	Frau	NN	Frau	_	O	O	
+4-17	(	$(	(	_	O	O	
+4-18	meine	PPOSAT	mein	_	O	O	
+4-19	Frau	NN	Frau	_	O	O	
+4-20	dankt	VVFIN	danken	_	O	O	
+4-21	einstweilen	ADV	einstweilen	_	O	O	
+4-22	bestens	ADV	bestens	_	O	O	
+4-23	dafür	PAV	dafür	_	O	O	
+4-24	)	$(	)	_	O	O	
+4-25	ja	ADV	ja	_	O	O	
+4-26	sehr	ADV	sehr	_	O	O	
+4-27	gut	ADJD	gut	_	O	O	
+4-28	lautet	VVFIN	lauten	_	O	O	
+4-29	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Inschriftsache stagnirt jetzt über Zutheilung künftiger Bearbeitung; Mommsen muß viel Geduld üben, wird aber dafür wenn er aushält hoffentlich doch auch durchsetzen was ihn li...t'\t't, und das Bedürfniß der Sache kon~tiren kann.
+5-1	Die	ART	die	_	O	O	
+5-2	Inschriftsache	NN	<unknown>	_	O	O	
+5-3	stagnirt	NN	<unknown>	_	O	O	
+5-4	jetzt	ADV	jetzt	_	O	O	
+5-5	über	APPR	über	_	O	O	
+5-6	Zutheilung	NN	<unknown>	_	O	O	
+5-7	künftiger	ADJA	künftig	_	O	O	
+5-8	Bearbeitung	NN	Bearbeitung	_	O	O	
+5-9	;	$.	;	_	O	O	
+5-10	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-11	muß	VMFIN	müssen	_	O	O	
+5-12	viel	PIAT	viele	_	O	O	
+5-13	Geduld	NN	Geduld	_	O	O	
+5-14	üben	VVINF	üben	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	wird	VAFIN	werden	_	O	O	
+5-17	aber	ADV	aber	_	O	O	
+5-18	dafür	PAV	dafür	_	O	O	
+5-19	wenn	KOUS	wenn	_	O	O	
+5-20	er	PPER	er	_	O	O	
+5-21	aushält	VVFIN	aushalten	_	O	O	
+5-22	hoffentlich	ADV	hoffentlich	_	O	O	
+5-23	doch	ADV	doch	_	O	O	
+5-24	auch	ADV	auch	_	O	O	
+5-25	durchsetzen	VVFIN	durchsetzen	_	O	O	
+5-26	was	PIS	was	_	O	O	
+5-27	ihn	PPER	er	_	O	O	
+5-28	li	VVFIN	<unknown>	_	O	O	
+5-29	...	$.	...	_	O	O	
+5-30	t'\t't	ADJD	<unknown>	_	O	O	
+5-31	,	$,	,	_	O	O	
+5-32	und	KON	und	_	O	O	
+5-33	das	ART	die	_	O	O	
+5-34	Bedürfniß	NN	<unknown>	_	O	O	
+5-35	der	ART	die	_	O	O	
+5-36	Sache	NN	Sache	_	O	O	
+5-37	kon~tiren	NN	<unknown>	_	O	O	
+5-38	kann	VMFIN	können	_	O	O	
+5-39	.	$.	.	_	O	O	
+
+#id=6
+#text=So hoffe ich zuletzt auch immer noch eine Einigung mit den Franzosen, die ihrer Seits so wenig Rückhalt haben.
+6-1	So	ADV	so	_	O	O	
+6-2	hoffe	VVFIN	hoffen	_	O	O	
+6-3	ich	PPER	ich	_	O	O	
+6-4	zuletzt	ADV	zuletzt	_	O	O	
+6-5	auch	ADV	auch	_	O	O	
+6-6	immer	ADV	immer	_	O	O	
+6-7	noch	ADV	noch	_	O	O	
+6-8	eine	ART	eine	_	O	O	
+6-9	Einigung	NN	Einigung	_	O	O	
+6-10	mit	APPR	mit	_	O	O	
+6-11	den	ART	die	_	O	O	
+6-12	Franzosen	NN	Franzose	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	die	PRELS	die	_	O	O	
+6-15	ihrer	PPOSAT	ihr	_	O	O	
+6-16	Seits	NN	<unknown>	_	O	O	
+6-17	so	ADV	so	_	O	O	
+6-18	wenig	PIAT	wenige	_	O	O	
+6-19	Rückhalt	NN	Rückhalt	_	O	O	
+6-20	haben	VAFIN	haben	_	O	O	
+6-21	.	$.	.	_	O	O	
+
+#id=7
+#text=Den Adunanzbericht vom 10 Dec.
+7-1	Den	ART	die	_	O	O	
+7-2	Adunanzbericht	NN	<unknown>	_	O	O	
+7-3	vom	APPRART	von	_	O	O	
+7-4	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-5	Dec	NE	Dec	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-6	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+
+#id=8
+#text=entnehme ich nur aus der Allg.
+8-1	entnehme	VVFIN	entnehmen	_	O	O	
+8-2	ich	PPER	ich	_	O	O	
+8-3	nur	ADV	nur	_	O	O	
+8-4	aus	APPR	aus	_	O	O	
+8-5	der	ART	die	_	O	O	
+8-6	Allg.	NN	<unknown>	_	O	O	
+
+#id=9
+#text=Zeitung, in welcher jedoch Basseggio's Amphore nicht näher bezeichnet ist.
+9-1	Zeitung	NN	Zeitung	_	O	O	
+9-2	,	$,	,	_	O	O	
+9-3	in	APPR	in	_	O	O	
+9-4	welcher	PRELS	welche	_	O	O	
+9-5	jedoch	ADV	jedoch	_	O	O	
+9-6	Basseggio's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-7	Amphore	NN	Amphore	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-8	nicht	PTKNEG	nicht	_	O	O	
+9-9	näher	ADJD	nah	_	O	O	
+9-10	bezeichnet	VVPP	bezeichnen	_	O	O	
+9-11	ist	VAFIN	sein	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=An Canina schreibe ich so Gott will C 111 ;:J~OtL" a.J"lnoch heute.
+10-1	An	APPR	an	_	O	O	
+10-2	Canina	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-3	schreibe	VVFIN	schreiben	_	O	O	
+10-4	ich	PPER	ich	_	O	O	
+10-5	so	ADV	so	_	O	O	
+10-6	Gott	NN	Gott	_	O	O	
+10-7	will	VMFIN	wollen	_	O	O	
+10-8	C	NN	C	_	O	O	
+10-9	111	CARD	@card@	_	O	O	
+10-10	;	$.	;	_	O	O	
+10-11	:J~OtL	NE	<unknown>	_	O	O	
+10-12	"	$(	"	_	O	O	
+10-13	a.J"lnoch	VVFIN	<unknown>	_	O	O	
+10-14	heute	ADV	heute	_	O	O	
+10-15	.	$.	.	_	O	O	
+
+#id=11
+#text=Der sardinische leg.
+11-1	Der	ART	die	_	O	O	
+11-2	sardinische	ADJA	sardinisch	_	O	O	
+11-3	leg.	NN	<unknown>	_	O	O	
+
+#id=12
+#text=~.
+12-1	~	XY	~	_	O	O	
+12-2	.	$.	.	_	O	O	
+
+#id=13
+#text=hat mir nicht geantwortet; es bleibt nun wol nichts übrig als 2 andre Ex.
+13-1	hat	VAFIN	haben	_	O	O	
+13-2	mir	PPER	ich	_	O	O	
+13-3	nicht	PTKNEG	nicht	_	O	O	
+13-4	geantwortet	VVPP	antworten	_	O	O	
+13-5	;	$.	;	_	O	O	
+13-6	es	PPER	es	_	O	O	
+13-7	bleibt	VVFIN	bleiben	_	O	O	
+13-8	nun	ADV	nun	_	O	O	
+13-9	wol	ADJD	<unknown>	_	O	O	
+13-10	nichts	PIS	nichts	_	O	O	
+13-11	übrig	ADJD	übrig	_	O	O	
+13-12	als	KOKOM	als	_	O	O	
+13-13	2	CARD	2	_	O	O	
+13-14	andre	PIAT	andere	_	O	O	
+13-15	Ex	NN	Ex	_	O	O	
+13-16	.	$.	.	_	O	O	
+
+#id=14
+#text=llA.
+14-1	llA	NN	<unknown>	_	O	O	
+14-2	.	$.	.	_	O	O	
+
+#id=15
+#text=für Palagi und die Biblioteca di Torino da~n zu geben um dVUJ\\' ~ 4aan Zahlung nicht zu verlieren.
+15-1	für	APPR	für	_	O	O	
+15-2	Palagi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-3	und	KON	und	_	O	O	
+15-4	die	ART	die	_	O	O	
+15-5	Biblioteca	NE	<unknown>	_	O	O	
+15-6	di	NE	di	_	O	O	
+15-7	Torino	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+15-8	da~n	NE	<unknown>	_	O	O	
+15-9	zu	PTKZU	zu	_	O	O	
+15-10	geben	VVINF	geben	_	O	O	
+15-11	um	APPR	um	_	O	O	
+15-12	dVUJ\\	NN	<unknown>	_	O	O	
+15-13	'	$(	'	_	O	O	
+15-14	~	XY	~	_	O	O	
+15-15	4aan	NE	<unknown>	_	O	O	
+15-16	Zahlung	NN	Zahlung	_	O	O	
+15-17	nicht	PTKNEG	nicht	_	O	O	
+15-18	zu	PTKZU	zu	_	O	O	
+15-19	verlieren	VVINF	verlieren	_	O	O	
+15-20	.	$.	.	_	O	O	
+
+#id=16
+#text=Wann lassen Sie die Kistensendung mit dem Index abgehen ?
+16-1	Wann	PWAV	wann	_	O	O	
+16-2	lassen	VVFIN	lassen	_	O	O	
+16-3	Sie	PPER	Sie	_	O	O	
+16-4	die	ART	die	_	O	O	
+16-5	Kistensendung	NN	<unknown>	_	O	O	
+16-6	mit	APPR	mit	_	O	O	
+16-7	dem	ART	die	_	O	O	
+16-8	Index	NN	Index	_	O	O	
+16-9	abgehen	VVINF	abgehen	_	O	O	
+16-10	?	$.	?	_	O	O	
+
+#id=17
+#text=Eben nur dieser Geschäftskram steht mir heut zu Gebote, aber mit besten Wünschen für Ihr beiderseitiges Wohlergehn im alten und neuen Jahr Der Ihrige Gerhard
+17-1	Eben	ADV	eben	_	O	O	
+17-2	nur	ADV	nur	_	O	O	
+17-3	dieser	PDAT	dies	_	O	O	
+17-4	Geschäftskram	NN	<unknown>	_	O	O	
+17-5	steht	VVFIN	stehen	_	O	O	
+17-6	mir	PPER	ich	_	O	O	
+17-7	heut	VVFIN	heuen	_	O	O	
+17-8	zu	APPR	zu	_	O	O	
+17-9	Gebote	NN	Gebot	_	O	O	
+17-10	,	$,	,	_	O	O	
+17-11	aber	ADV	aber	_	O	O	
+17-12	mit	APPR	mit	_	O	O	
+17-13	besten	ADJA	gut	_	O	O	
+17-14	Wünschen	NN	Wunsch	_	O	O	
+17-15	für	APPR	für	_	O	O	
+17-16	Ihr	PPOSAT	ihr	_	O	O	
+17-17	beiderseitiges	ADJA	beiderseitig	_	O	O	
+17-18	Wohlergehn	NN	<unknown>	_	O	O	
+17-19	im	APPRART	in	_	O	O	
+17-20	alten	ADJA	alt	_	O	O	
+17-21	und	KON	und	_	O	O	
+17-22	neuen	ADJA	neu	_	O	O	
+17-23	Jahr	NN	Jahr	_	O	O	
+17-24	Der	ART	die	_	O	O	
+17-25	Ihrige	PPOSAT	ihrige	_	O	O	
+17-26	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

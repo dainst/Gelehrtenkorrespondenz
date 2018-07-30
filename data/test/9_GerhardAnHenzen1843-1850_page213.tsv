@@ -1,0 +1,260 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=I 134 A. di Dir.
+1-1	I	FM	I	_	O	O	
+1-2	134	CARD	@card@	_	O	O	
+1-3	A.	APPRART	am	_	O	O	
+1-4	di	NE	di	_	O	O	
+1-5	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Gerhard an Henzen Berlin 24/VI/1850 g. 5/VII 50 r. 10/VII 50 D. Henzen Berlin 24 Juni 50 I~ra-+~ WehTi5er Freund.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	an	APPR	an	_	O	O	
+2-3	Henzen	NN	<unknown>	_	O	O	
+2-4	Berlin	NE	Berlin	_	O	O	
+2-5	24/VI/1850	CARD	<unknown>	_	O	O	
+2-6	g.	ADJA	<unknown>	_	O	O	
+2-7	5/VII	NE	<unknown>	_	O	O	
+2-8	50	CARD	50	_	O	O	
+2-9	r.	ADJA	<unknown>	_	O	O	
+2-10	10/VII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-11	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-12	D.	NE	D.	_	O	O	
+2-13	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-15	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-16	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-17	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-18	I~ra-+~	ADJA	<unknown>	_	O	O	
+2-19	WehTi5er	NN	<unknown>	_	O	O	
+2-20	Freund	NE	Freund	_	O	O	
+2-21	.	$.	.	_	O	O	
+
+#id=3
+#text=Der Vicepresidente delrInstituto hat sich hier ins Kl~'(\1b zurückgezogen um "Freunde und Gemälde" unsrer Haupt- ~ stadt zu genießen, der Demokrat Bonaparte von Rom ~ in unsre Museen und die Akademie geguckt, Braun fährt vor unsern dL.
+3-1	Der	ART	die	_	O	O	
+3-2	Vicepresidente	ADJA	<unknown>	_	O	O	
+3-3	delrInstituto	NN	<unknown>	_	O	O	
+3-4	hat	VAFIN	haben	_	O	O	
+3-5	sich	PRF	sich	_	O	O	
+3-6	hier	ADV	hier	_	O	O	
+3-7	ins	APPRART	in	_	O	O	
+3-8	Kl~'(\1b	NE	<unknown>	_	O	O	
+3-9	zurückgezogen	VVPP	zurückziehen	_	O	O	
+3-10	um	APPR	um	_	O	O	
+3-11	"	$(	"	_	O	O	
+3-12	Freunde	NN	Freund	_	O	O	
+3-13	und	KON	und	_	O	O	
+3-14	Gemälde	NN	Gemälde	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-15	"	$(	"	_	O	O	
+3-16	unsrer	PPOSAT	unser	_	O	O	
+3-17	Haupt-	TRUNC	Haupt-	_	O	O	
+3-18	~	XY	~	_	O	O	
+3-19	stadt	ADJD	<unknown>	_	O	O	
+3-20	zu	PTKZU	zu	_	O	O	
+3-21	genießen	VVINF	genießen	_	O	O	
+3-22	,	$,	,	_	O	O	
+3-23	der	ART	die	_	O	O	
+3-24	Demokrat	NN	Demokrat	_	O	O	
+3-25	Bonaparte	NN	Bonaparte	_	O	O	
+3-26	von	APPR	von	_	O	O	
+3-27	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-28	~	XY	~	_	O	O	
+3-29	in	APPR	in	_	O	O	
+3-30	unsre	PPOSAT	unsre	_	O	O	
+3-31	Museen	NN	Museum	_	O	O	
+3-32	und	KON	und	_	O	O	
+3-33	die	ART	die	_	O	O	
+3-34	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-35	geguckt	VVPP	gucken	_	O	O	
+3-36	,	$,	,	_	O	O	
+3-37	Braun	NN	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-38	fährt	VVFIN	fahren	_	O	O	
+3-39	vor	APPR	vor	_	O	O	
+3-40	unsern	PPOSAT	unsre	_	O	O	
+3-41	dL	NN	<unknown>	_	O	O	
+3-42	.	$.	.	_	O	O	
+
+#id=4
+#text=Thoren vorbei ~ und bei so viel H .. (\Jt«~ b.
+4-1	Thoren	NE	Thoren	_	O	O	
+4-2	vorbei	PTKVZ	vorbei	_	O	O	
+4-3	~	XY	~	_	O	O	
+4-4	und	KON	und	_	O	O	
+4-5	bei	APPR	bei	_	O	O	
+4-6	so	ADV	so	_	O	O	
+4-7	viel	PIAT	viele	_	O	O	
+4-8	H	NN	H	_	O	O	
+4-9	.	$.	.	_	O	O	
+4-10	.	$.	.	_	O	O	
+4-11	(	$(	(	_	O	O	
+4-12	\Jt«~	NN	<unknown>	_	O	O	
+4-13	b.	APPR	bei	_	O	O	
+
+#id=5
+#text=()'ltr: gen aus dem aufgerüttelten Rom habe ich immer noch als an einen Stillsitzenden an Sie zu schreiben.
+5-1	()'ltr	NE	<unknown>	_	O	O	
+5-2	:	$.	:	_	O	O	
+5-3	gen	APPR	gen	_	O	O	
+5-4	aus	APPR	aus	_	O	O	
+5-5	dem	ART	die	_	O	O	
+5-6	aufgerüttelten	ADJA	<unknown>	_	O	O	
+5-7	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-8	habe	VAFIN	haben	_	O	O	
+5-9	ich	PPER	ich	_	O	O	
+5-10	immer	ADV	immer	_	O	O	
+5-11	noch	ADV	noch	_	O	O	
+5-12	als	KOKOM	als	_	O	O	
+5-13	an	APPR	an	_	O	O	
+5-14	einen	ART	eine	_	O	O	
+5-15	Stillsitzenden	NN	<unknown>	_	O	O	
+5-16	an	APPR	an	_	O	O	
+5-17	Sie	PPER	Sie	_	O	O	
+5-18	zu	PTKZU	zu	_	O	O	
+5-19	schreiben	VVINF	schreiben	_	O	O	
+5-20	.	$.	.	_	O	O	
+
+#id=6
+#text=Seien Sie im Namen des Instituts schönstens dafür bedankt, und ~gfn Ihrer Geduld nicht zu lange geprüft werden, denn Sommerfrische bedürfen Sie 1 Wie ist es für Braun möglich gewesen, Brunns Vicariat für so lange Zeit verlangen und vergüten zu können ?
+6-1	Seien	VAFIN	sein	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	im	APPRART	in	_	O	O	
+6-4	Namen	NN	Name	_	O	O	
+6-5	des	ART	die	_	O	O	
+6-6	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-7	schönstens	NN	<unknown>	_	O	O	
+6-8	dafür	PAV	dafür	_	O	O	
+6-9	bedankt	VVPP	bedanken	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	und	KON	und	_	O	O	
+6-12	~gfn	NE	<unknown>	_	O	O	
+6-13	Ihrer	PPOSAT	ihr	_	O	O	
+6-14	Geduld	NN	Geduld	_	O	O	
+6-15	nicht	PTKNEG	nicht	_	O	O	
+6-16	zu	PTKA	zu	_	O	O	
+6-17	lange	ADV	lange	_	O	O	
+6-18	geprüft	VVPP	prüfen	_	O	O	
+6-19	werden	VAFIN	werden	_	O	O	
+6-20	,	$,	,	_	O	O	
+6-21	denn	KON	denn	_	O	O	
+6-22	Sommerfrische	NN	Sommerfrische	_	O	O	
+6-23	bedürfen	VVFIN	bedürfen	_	O	O	
+6-24	Sie	PPER	Sie	_	O	O	
+6-25	1	CARD	1	_	O	O	
+6-26	Wie	KOKOM	wie	_	O	O	
+6-27	ist	VAFIN	sein	_	O	O	
+6-28	es	PPER	es	_	O	O	
+6-29	für	APPR	für	_	O	O	
+6-30	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-31	möglich	ADJD	möglich	_	O	O	
+6-32	gewesen	VAPP	sein	_	O	O	
+6-33	,	$,	,	_	O	O	
+6-34	Brunns	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-35	Vicariat	NN	<unknown>	_	O	O	
+6-36	für	APPR	für	_	O	O	
+6-37	so	ADV	so	_	O	O	
+6-38	lange	ADJA	lang	_	O	O	
+6-39	Zeit	NN	Zeit	_	O	O	
+6-40	verlangen	VVFIN	verlangen	_	O	O	
+6-41	und	KON	und	_	O	O	
+6-42	vergüten	VVINF	vergüten	_	O	O	
+6-43	zu	PTKZU	zu	_	O	O	
+6-44	können	VMINF	können	_	O	O	
+6-45	?	$.	?	_	O	O	
+
+#id=7
+#text=Und kann Brunn für alle Correspondenz einstehn ?
+7-1	Und	KON	und	_	O	O	
+7-2	kann	VMFIN	können	_	O	O	
+7-3	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-4	für	APPR	für	_	O	O	
+7-5	alle	PIAT	alle	_	O	O	
+7-6	Correspondenz	NN	<unknown>	_	O	O	
+7-7	einstehn	VVFIN	<unknown>	_	O	O	
+7-8	?	$.	?	_	O	O	
+
+#id=8
+#text=Wohlbegründete Restaurationen alter Kunstwerke können in Monum.
+8-1	Wohlbegründete	ADJA	wohlbegründet	_	O	O	
+8-2	Restaurationen	NN	Restauration	_	O	O	
+8-3	alter	ADJA	alt	_	O	O	
+8-4	Kunstwerke	NN	Kunstwerk	_	O	O	
+8-5	können	VMFIN	können	_	O	O	
+8-6	in	APPR	in	_	O	O	
+8-7	Monum	NN	<unknown>	_	O	O	
+8-8	.	$.	.	_	O	O	
+
+#id=9
+#text=ined.
+9-1	ined	NE	<unknown>	_	O	O	
+9-2	.	$.	.	_	O	O	
+
+#id=10
+#text=eben auch eine Stelle einnehmen, nur nicht mehrere selbstständige Blätter, und erfahre ich wol gelegentlich von Braun etwas mehr darüber.
+10-1	eben	ADV	eben	_	O	O	
+10-2	auch	ADV	auch	_	O	O	
+10-3	eine	ART	eine	_	O	O	
+10-4	Stelle	NN	Stelle	_	O	O	
+10-5	einnehmen	VVFIN	einnehmen	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	nur	ADV	nur	_	O	O	
+10-8	nicht	PTKNEG	nicht	_	O	O	
+10-9	mehrere	PIAT	mehrere	_	O	O	
+10-10	selbstständige	ADJA	selbständig	_	O	O	
+10-11	Blätter	NN	Blatt	_	O	O	
+10-12	,	$,	,	_	O	O	
+10-13	und	KON	und	_	O	O	
+10-14	erfahre	VVFIN	erfahren	_	O	O	
+10-15	ich	PPER	ich	_	O	O	
+10-16	wol	ADJD	<unknown>	_	O	O	
+10-17	gelegentlich	ADJD	gelegentlich	_	O	O	
+10-18	von	APPR	von	_	O	O	
+10-19	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-20	etwas	ADV	etwas	_	O	O	
+10-21	mehr	ADV	mehr	_	O	O	
+10-22	darüber	PAV	darüber	_	O	O	
+10-23	.	$.	.	_	O	O	
+
+#id=11
+#text=Sieben Tafeln Via Appia ist viel, werden aber, wohl vertheilt, willkommen sein.
+11-1	Sieben	CARD	sieben	_	O	O	
+11-2	Tafeln	NN	Tafel	_	O	O	
+11-3	Via	NE	Via	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-4	Appia	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+11-5	ist	VAFIN	sein	_	O	O	
+11-6	viel	ADV	viel	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	werden	VAFIN	werden	_	O	O	
+11-9	aber	ADV	aber	_	O	O	
+11-10	,	$,	,	_	O	O	
+11-11	wohl	ADV	wohl	_	O	O	
+11-12	vertheilt	VVFIN	<unknown>	_	O	O	
+11-13	,	$,	,	_	O	O	
+11-14	willkommen	ADJD	willkommen	_	O	O	
+11-15	sein	VAINF	sein	_	O	O	
+11-16	.	$.	.	_	O	O	
+
+#id=12
+#text=Wagner immer noch der - Bader Bär aber vorzugsweise Baier 1 Die ~inlage an Friedlaender wird besorgt; ich bit-
+12-1	Wagner	NE	Wagner	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	immer	ADV	immer	_	O	O	
+12-3	noch	ADV	noch	_	O	O	
+12-4	der	ART	die	_	O	O	
+12-5	-	$(	-	_	O	O	
+12-6	Bader	NN	Bader	_	O	O	
+12-7	Bär	NN	Bär	_	O	O	
+12-8	aber	KON	aber	_	O	O	
+12-9	vorzugsweise	ADJA	vorzugsweise	_	O	O	
+12-10	Baier	NN	Baier	_	O	O	
+12-11	1	CARD	1	_	O	O	
+12-12	Die	ART	die	_	O	O	
+12-13	~inlage	NN	<unknown>	_	O	O	
+12-14	an	APPR	an	_	O	O	
+12-15	Friedlaender	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-16	wird	VAFIN	werden	_	O	O	
+12-17	besorgt	ADJD	besorgt	_	O	O	
+12-18	;	$.	;	_	O	O	
+12-19	ich	PPER	ich	_	O	O	
+12-20	bit-	TRUNC	bit-	_	O	O	
+

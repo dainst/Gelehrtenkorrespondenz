@@ -1,0 +1,149 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=( 29 Gerhard an Henzen Berlin, 2. Januar 1844 3 und befreundete kapitolinische Deutschheit - Preller, Horkel, Blessig und wer sonst meiner gern gedenkt, bitte ich allerbestens zu grüßen, auch unsern beim Winckelmann Fest neu bethätigten Freunden meine besondre Freude über ihren Antheil an Kapitol und Institut auszudrücken.
+1-1	(	$(	(	_	O	O	
+1-2	29	CARD	@card@	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	O	O	
+1-6	Berlin	NE	Berlin	_	O	O	
+1-7	,	$,	,	_	O	O	
+1-8	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-9	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	3	CARD	3	_	O	O	
+1-13	und	KON	und	_	O	O	
+1-14	befreundete	ADJA	befreundet	_	O	O	
+1-15	kapitolinische	ADJA	<unknown>	_	O	O	
+1-16	Deutschheit	NN	<unknown>	_	O	O	
+1-17	-	$(	-	_	O	O	
+1-18	Preller	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-19	,	$,	,	_	O	O	
+1-20	Horkel	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-21	,	$,	,	_	O	O	
+1-22	Blessig	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-23	und	KON	und	_	O	O	
+1-24	wer	PWS	wer	_	O	O	
+1-25	sonst	ADV	sonst	_	O	O	
+1-26	meiner	PPOSAT	mein	_	O	O	
+1-27	gern	ADV	gern	_	O	O	
+1-28	gedenkt	VVFIN	gedenken	_	O	O	
+1-29	,	$,	,	_	O	O	
+1-30	bitte	VVFIN	bitten	_	O	O	
+1-31	ich	PPER	ich	_	O	O	
+1-32	allerbestens	ADV	<unknown>	_	O	O	
+1-33	zu	PTKZU	zu	_	O	O	
+1-34	grüßen	VVINF	grüßen	_	O	O	
+1-35	,	$,	,	_	O	O	
+1-36	auch	ADV	auch	_	O	O	
+1-37	unsern	PPOSAT	unsre	_	O	O	
+1-38	beim	APPRART	bei	_	O	O	
+1-39	Winckelmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-40	Fest	NN	Fest	_	O	O	
+1-41	neu	ADJD	neu	_	O	O	
+1-42	bethätigten	ADJA	<unknown>	_	O	O	
+1-43	Freunden	NN	Freund	_	O	O	
+1-44	meine	PPOSAT	mein	_	O	O	
+1-45	besondre	VVFIN	besondern	_	O	O	
+1-46	Freude	NN	Freude	_	O	O	
+1-47	über	APPR	über	_	O	O	
+1-48	ihren	PPOSAT	ihr	_	O	O	
+1-49	Antheil	NN	<unknown>	_	O	O	
+1-50	an	APPR	an	_	O	O	
+1-51	Kapitol	NN	Kapitol	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-52	und	KON	und	_	O	O	
+1-53	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+1-54	auszudrücken	VVIZU	ausdrücken	_	O	O	
+1-55	.	$.	.	_	O	O	
+
+#id=2
+#text=Loben Sie auch H(orkel)s tugendhafte Korrespondenz, von der seine Eltern uns dann und wann etwas genießen lassen.
+2-1	Loben	VVFIN	loben	_	O	O	
+2-2	Sie	PPER	Sie	_	O	O	
+2-3	auch	ADV	auch	_	O	O	
+2-4	H(orkel)s	ADJA	<unknown>	_	O	O	
+2-5	tugendhafte	ADJA	tugendhaft	_	O	O	
+2-6	Korrespondenz	NN	Korrespondenz	_	O	O	
+2-7	,	$,	,	_	O	O	
+2-8	von	APPR	von	_	O	O	
+2-9	der	PRELS	die	_	O	O	
+2-10	seine	PPOSAT	sein	_	O	O	
+2-11	Eltern	NN	Eltern	_	O	O	
+2-12	uns	PRF	wir	_	O	O	
+2-13	dann	ADV	dann	_	O	O	
+2-14	und	KON	und	_	O	O	
+2-15	wann	PWAV	wann	_	O	O	
+2-16	etwas	ADV	etwas	_	O	O	
+2-17	genießen	VVINF	genießen	_	O	O	
+2-18	lassen	VVFIN	lassen	_	O	O	
+2-19	.	$.	.	_	O	O	
+
+#id=3
+#text=Meine Frau der es wieder wohler geht sendet Ihnen und den gemeinsamen Freunden ebenfalls einen herzlichen Gruß über die Alpen.
+3-1	Meine	PPOSAT	mein	_	O	O	
+3-2	Frau	NN	Frau	_	O	O	
+3-3	der	ART	die	_	O	O	
+3-4	es	PPER	es	_	O	O	
+3-5	wieder	ADV	wieder	_	O	O	
+3-6	wohler	ADJD	<unknown>	_	O	O	
+3-7	geht	VVFIN	gehen	_	O	O	
+3-8	sendet	VVFIN	senden	_	O	O	
+3-9	Ihnen	PPER	Sie	_	O	O	
+3-10	und	KON	und	_	O	O	
+3-11	den	ART	die	_	O	O	
+3-12	gemeinsamen	ADJA	gemeinsam	_	O	O	
+3-13	Freunden	NN	Freund	_	O	O	
+3-14	ebenfalls	ADV	ebenfalls	_	O	O	
+3-15	einen	ART	eine	_	O	O	
+3-16	herzlichen	ADJA	herzlich	_	O	O	
+3-17	Gruß	NN	Gruß	_	O	O	
+3-18	über	APPR	über	_	O	O	
+3-19	die	ART	die	_	O	O	
+3-20	Alpen	NN	Alp	_	O	O	
+3-21	.	$.	.	_	O	O	
+
+#id=4
+#text=Hinsichtlich Ihrer Stellung zum Institut ist den lA..~ Direktionsmitgliedern das Nöthige im ~lauf gebracht.
+4-1	Hinsichtlich	APPR	hinsichtlich	_	O	O	
+4-2	Ihrer	PPOSAT	ihr	_	O	O	
+4-3	Stellung	NN	Stellung	_	O	O	
+4-4	zum	APPRART	zu	_	O	O	
+4-5	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-6	ist	VAFIN	sein	_	O	O	
+4-7	den	ART	die	_	O	O	
+4-8	lA..~	NN	<unknown>	_	O	O	
+4-9	Direktionsmitgliedern	NN	<unknown>	_	O	O	
+4-10	das	ART	die	_	O	O	
+4-11	Nöthige	NN	<unknown>	_	O	O	
+4-12	im	APPRART	in	_	O	O	
+4-13	~lauf	NN	<unknown>	_	O	O	
+4-14	gebracht	VVPP	bringen	_	O	O	
+4-15	.	$.	.	_	O	O	
+
+#id=5
+#text=Viel Herzliches auch an Lanci dem ich in guter Stunde zu schreiben mir vorbehalte.
+5-1	Viel	PIAT	viele	_	O	O	
+5-2	Herzliches	NN	Herzliche	_	O	O	
+5-3	auch	ADV	auch	_	O	O	
+5-4	an	APPR	an	_	O	O	
+5-5	Lanci	NE	<unknown>	_	O	O	
+5-6	dem	ART	die	_	O	O	
+5-7	ich	PPER	ich	_	O	O	
+5-8	in	APPR	in	_	O	O	
+5-9	guter	ADJA	gut	_	O	O	
+5-10	Stunde	NN	Stunde	_	O	O	
+5-11	zu	PTKZU	zu	_	O	O	
+5-12	schreiben	VVINF	schreiben	_	O	O	
+5-13	mir	PPER	ich	_	O	O	
+5-14	vorbehalte	VVFIN	vorbehalten	_	O	O	
+5-15	.	$.	.	_	O	O	
+
+#id=6
+#text=Von Herzen der Ihrige Gerhard
+6-1	Von	APPR	von	_	O	O	
+6-2	Herzen	NN	Herz	_	O	O	
+6-3	der	ART	die	_	O	O	
+6-4	Ihrige	PPOSAT	ihrige	_	O	O	
+6-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

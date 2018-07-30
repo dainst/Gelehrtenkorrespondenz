@@ -1,0 +1,211 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=107 Gerhard an Henzen Berlin, 21. Februar 1844 A. d. D. g. 8/111 44 r.
+1-1	107	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	O	O	
+1-5	Berlin	NE	Berlin	_	O	O	
+1-6	,	$,	,	_	O	O	
+1-7	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Februar	NN	Februar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	A.	APPR	an	_	O	O	
+1-12	d.	ART	d.	_	O	O	
+1-13	D.	NE	D.	_	O	O	
+1-14	g.	NN	<unknown>	_	O	O	
+1-15	8/111	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+1-16	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+1-17	r.	ADJA	<unknown>	_	O	O	
+
+#id=2
+#text=19/111 44 Dr.
+2-1	19/111	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-2	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-3	Dr.	NN	Dr.	_	O	O	
+
+#id=3
+#text=Henzen Berlin 21 Febr 44 Für Ihren letzten Brief, lieber Freund, besten Dank und für allen freundlichen Inhalt desselben.
+3-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-2	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-3	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-4	Febr	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-5	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-6	Für	APPR	für	_	O	O	
+3-7	Ihren	PPOSAT	ihr	_	O	O	
+3-8	letzten	ADJA	letzt	_	O	O	
+3-9	Brief	NN	Brief	_	O	O	
+3-10	,	$,	,	_	O	O	
+3-11	lieber	ADJA	lieb	_	O	O	
+3-12	Freund	NN	Freund	_	O	O	
+3-13	,	$,	,	_	O	O	
+3-14	besten	ADJA	gut	_	O	O	
+3-15	Dank	NN	Dank	_	O	O	
+3-16	und	KON	und	_	O	O	
+3-17	für	APPR	für	_	O	O	
+3-18	allen	PIAT	alle	_	O	O	
+3-19	freundlichen	ADJA	freundlich	_	O	O	
+3-20	Inhalt	NN	Inhalt	_	O	O	
+3-21	desselben	PDS	derselbe	_	O	O	
+3-22	.	$.	.	_	O	O	
+
+#id=4
+#text=An gewisse früher erbetene Dinge die dem Institut frommen - eine alte Mitgliederliste mit Marginalien zur Bezeichnung ausgeschiedener und hinzugetretener Mitglieder zu versehen und die Angelegenheit des Prinz Augustischen Exemplars die mit jedem folgenden Monat schwieriger zu erledigen wird - erinnere ich Sie wie ich es bei Braun gethan habe.
+4-1	An	APPR	an	_	O	O	
+4-2	gewisse	ADJA	gewiss	_	O	O	
+4-3	früher	ADJD	früh	_	O	O	
+4-4	erbetene	ADJA	erbeten	_	O	O	
+4-5	Dinge	NN	Ding	_	O	O	
+4-6	die	ART	die	_	O	O	
+4-7	dem	ART	die	_	O	O	
+4-8	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+4-9	frommen	ADJA	fromm	_	O	O	
+4-10	-	$(	-	_	O	O	
+4-11	eine	ART	eine	_	O	O	
+4-12	alte	ADJA	alt	_	O	O	
+4-13	Mitgliederliste	NN	Mitgliederliste	_	O	O	
+4-14	mit	APPR	mit	_	O	O	
+4-15	Marginalien	NN	<unknown>	_	O	O	
+4-16	zur	APPRART	zu	_	O	O	
+4-17	Bezeichnung	NN	Bezeichnung	_	O	O	
+4-18	ausgeschiedener	ADJA	ausgeschieden	_	O	O	
+4-19	und	KON	und	_	O	O	
+4-20	hinzugetretener	ADJA	<unknown>	_	O	O	
+4-21	Mitglieder	NN	Mitglied	_	O	O	
+4-22	zu	PTKZU	zu	_	O	O	
+4-23	versehen	VVINF	versehen	_	O	O	
+4-24	und	KON	und	_	O	O	
+4-25	die	ART	die	_	O	O	
+4-26	Angelegenheit	NN	Angelegenheit	_	O	O	
+4-27	des	ART	die	_	O	O	
+4-28	Prinz	NN	Prinz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-29	Augustischen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-30	Exemplars	NN	Exemplar	_	O	O	
+4-31	die	ART	die	_	O	O	
+4-32	mit	APPR	mit	_	O	O	
+4-33	jedem	PIAT	jede	_	O	O	
+4-34	folgenden	ADJA	folgend	_	O	O	
+4-35	Monat	NN	Monat	_	O	O	
+4-36	schwieriger	ADJD	schwierig	_	O	O	
+4-37	zu	PTKZU	zu	_	O	O	
+4-38	erledigen	VVINF	erledigen	_	O	O	
+4-39	wird	VAFIN	werden	_	O	O	
+4-40	-	$(	-	_	O	O	
+4-41	erinnere	VVFIN	erinnern	_	O	O	
+4-42	ich	PPER	ich	_	O	O	
+4-43	Sie	PPER	Sie	_	O	O	
+4-44	wie	KOUS	wie	_	O	O	
+4-45	ich	PPER	ich	_	O	O	
+4-46	es	PPER	es	_	O	O	
+4-47	bei	APPR	bei	_	O	O	
+4-48	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-49	gethan	NE	<unknown>	_	O	O	
+4-50	habe	VAFIN	haben	_	O	O	
+4-51	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Antwort von Pertz für Gennarelli einzufordern bin ich bemüht; grüßens Sie diesen und danken Sie seiner Sorge für neue Association.
+5-1	Die	ART	die	_	O	O	
+5-2	Antwort	NN	Antwort	_	O	O	
+5-3	von	APPR	von	_	O	O	
+5-4	Pertz	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	für	APPR	für	_	O	O	
+5-6	Gennarelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-7	einzufordern	VVIZU	einfordern	_	O	O	
+5-8	bin	VAFIN	sein	_	O	O	
+5-9	ich	PPER	ich	_	O	O	
+5-10	bemüht	VVPP	bemühen	_	O	O	
+5-11	;	$.	;	_	O	O	
+5-12	grüßens	VVFIN	<unknown>	_	O	O	
+5-13	Sie	PPER	Sie	_	O	O	
+5-14	diesen	PDS	diese	_	O	O	
+5-15	und	KON	und	_	O	O	
+5-16	danken	VVFIN	danken	_	O	O	
+5-17	Sie	PPER	Sie	_	O	O	
+5-18	seiner	PPOSAT	sein	_	O	O	
+5-19	Sorge	NN	Sorge	_	O	O	
+5-20	für	APPR	für	_	O	O	
+5-21	neue	ADJA	neu	_	O	O	
+5-22	Association	NN	<unknown>	_	O	O	
+5-23	.	$.	.	_	O	O	
+
+#id=6
+#text=Scrivendo all'amico Gervasio, La prego di salutarlo cordialmente e di dirgli che le sue copie a tempo suo arrivarono e furono distribuite egli in contracambio avra ricevute varie mie cosette e qualcun'altra forse e in"strada.
+6-1	Scrivendo	NE	<unknown>	_	O	O	
+6-2	all'amico	NE	<unknown>	_	O	O	
+6-3	Gervasio	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	,	$,	,	_	O	O	
+6-5	La	NE	La	_	O	O	
+6-6	prego	NE	<unknown>	_	O	O	
+6-7	di	NE	di	_	O	O	
+6-8	salutarlo	NE	<unknown>	_	O	O	
+6-9	cordialmente	NN	<unknown>	_	O	O	
+6-10	e	VVFIN	<unknown>	_	O	O	
+6-11	di	NE	di	_	O	O	
+6-12	dirgli	NE	<unknown>	_	O	O	
+6-13	che	ADJA	<unknown>	_	O	O	
+6-14	le	ADJA	<unknown>	_	O	O	
+6-15	sue	NE	Sue	_	O	O	
+6-16	copie	NN	<unknown>	_	O	O	
+6-17	a	FM	a	_	O	O	
+6-18	tempo	ADJA	<unknown>	_	O	O	
+6-19	suo	NN	<unknown>	_	O	O	
+6-20	arrivarono	ADJA	<unknown>	_	O	O	
+6-21	e	ADJA	<unknown>	_	O	O	
+6-22	furono	ADJA	<unknown>	_	O	O	
+6-23	distribuite	ADJA	<unknown>	_	O	O	
+6-24	egli	NN	<unknown>	_	O	O	
+6-25	in	APPR	in	_	O	O	
+6-26	contracambio	NE	<unknown>	_	O	O	
+6-27	avra	NE	<unknown>	_	O	O	
+6-28	ricevute	ADJA	<unknown>	_	O	O	
+6-29	varie	NN	<unknown>	_	O	O	
+6-30	mie	ADJA	<unknown>	_	O	O	
+6-31	cosette	NN	<unknown>	_	O	O	
+6-32	e	ADJA	<unknown>	_	O	O	
+6-33	qualcun'altra	NN	<unknown>	_	O	O	
+6-34	forse	ADJD	<unknown>	_	O	O	
+6-35	e	ADJA	<unknown>	_	O	O	
+6-36	in"strada	NE	<unknown>	_	O	O	
+6-37	.	$.	.	_	O	O	
+
+#id=7
+#text=Le sue commissioni di libri furono raccomandate a Brockhaus, per modo che io posso dire di non essere stato ozioso ne' suoi ±nteres~i, sebbene intrattenere un carteggio regolare cogli amici lontani sia divenu-
+7-1	Le	NE	Le	_	O	O	
+7-2	sue	NE	Sue	_	O	O	
+7-3	commissioni	NE	<unknown>	_	O	O	
+7-4	di	NE	di	_	O	O	
+7-5	libri	NE	<unknown>	_	O	O	
+7-6	furono	ADJA	<unknown>	_	O	O	
+7-7	raccomandate	NN	<unknown>	_	O	O	
+7-8	a	FM	a	_	O	O	
+7-9	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-10	,	$,	,	_	O	O	
+7-11	per	APPR	per	_	O	O	
+7-12	modo	NE	<unknown>	_	O	O	
+7-13	che	ADJA	<unknown>	_	O	O	
+7-14	io	ADJA	<unknown>	_	O	O	
+7-15	posso	ADJA	<unknown>	_	O	O	
+7-16	dire	NE	Dire	_	O	O	
+7-17	di	NE	di	_	O	O	
+7-18	non	NE	non	_	O	O	
+7-19	essere	ADJA	<unknown>	_	O	O	
+7-20	stato	NN	<unknown>	_	O	O	
+7-21	ozioso	ADJD	<unknown>	_	O	O	
+7-22	ne	ART	eine	_	O	O	
+7-23	'	$(	'	_	O	O	
+7-24	suoi	ADJA	<unknown>	_	O	O	
+7-25	±nteres~i	NN	<unknown>	_	O	O	
+7-26	,	$,	,	_	O	O	
+7-27	sebbene	ADJA	<unknown>	_	O	O	
+7-28	intrattenere	ADJA	<unknown>	_	O	O	
+7-29	un	NE	un	_	O	O	
+7-30	carteggio	ADJA	<unknown>	_	O	O	
+7-31	regolare	NN	<unknown>	_	O	O	
+7-32	cogli	NE	<unknown>	_	O	O	
+7-33	amici	NE	<unknown>	_	O	O	
+7-34	lontani	NE	<unknown>	_	O	O	
+7-35	sia	ADJA	<unknown>	_	O	O	
+7-36	divenu-	TRUNC	<unknown>	_	O	O	
+

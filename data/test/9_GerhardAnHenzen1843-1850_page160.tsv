@@ -1,0 +1,206 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=55 Dr.
+1-1	55	CARD	@card@	_	O	O	
+1-2	Dr.	NN	Dr.	_	O	O	
+
+#id=2
+#text=Henzen Werther Freund.
+2-1	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	Werther	NN	<unknown>	_	O	O	
+2-3	Freund	NE	Freund	_	O	O	
+2-4	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Henzen Berlin, 6. März 1849 { {)rtl (1A~e ~.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-2	an	APPR	an	_	O	O	
+3-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-5	,	$,	,	_	O	O	
+3-6	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	1849	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-10	{	$(	{	_	O	O	
+3-11	{	$(	{	_	O	O	
+3-12	)rtl	NE	<unknown>	_	O	O	
+3-13	(	$(	(	_	O	O	
+3-14	1A~e	NN	<unknown>	_	O	O	
+3-15	~	XY	~	_	O	O	
+3-16	.	$.	.	_	O	O	
+
+#id=4
+#text=(1J>.1>~c~.A //~~~ ) g. 19/111 49 r.
+4-1	(	$(	(	_	O	O	
+4-2	1J>.1>~c~.A	NN	<unknown>	_	O	O	
+4-3	//~~~	ADJA	<unknown>	_	O	O	
+4-4	)	$(	)	_	O	O	
+4-5	g.	ADJA	<unknown>	_	O	O	
+4-6	19/111	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+4-7	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+4-8	r.	ADJA	<unknown>	_	O	O	
+
+#id=5
+#text=28/111 49 Berlin 6 März 49 Nachdem mein Brief an Braun schon fertig und adressirt ist, läuft der Ihrige vom 23 v. M. ein, gelehrten und ruhigen Inhalts und daher tröstlich trotz aller politischen Trübnisse.
+5-1	28/111	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+5-2	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+5-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+5-4	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+5-5	März	NN	März	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+5-6	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+5-7	Nachdem	KOUS	nachdem	_	O	O	
+5-8	mein	PPOSAT	mein	_	O	O	
+5-9	Brief	NN	Brief	_	O	O	
+5-10	an	APPR	an	_	O	O	
+5-11	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-12	schon	ADV	schon	_	O	O	
+5-13	fertig	ADJD	fertig	_	O	O	
+5-14	und	KON	und	_	O	O	
+5-15	adressirt	ADJD	<unknown>	_	O	O	
+5-16	ist	VAFIN	sein	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	läuft	VVFIN	laufen	_	O	O	
+5-19	der	ART	die	_	O	O	
+5-20	Ihrige	PPOSAT	ihrige	_	O	O	
+5-21	vom	APPRART	von	_	O	O	
+5-22	23	CARD	23	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-23	v.	APPR	von	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-24	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+5-25	ein	PTKVZ	ein	_	O	O	
+5-26	,	$,	,	_	O	O	
+5-27	gelehrten	ADJA	gelehrt	_	O	O	
+5-28	und	KON	und	_	O	O	
+5-29	ruhigen	ADJA	ruhig	_	O	O	
+5-30	Inhalts	NN	Inhalt	_	O	O	
+5-31	und	KON	und	_	O	O	
+5-32	daher	PAV	daher	_	O	O	
+5-33	tröstlich	ADJD	tröstlich	_	O	O	
+5-34	trotz	APPR	trotz	_	O	O	
+5-35	aller	PIAT	alle	_	O	O	
+5-36	politischen	ADJA	politisch	_	O	O	
+5-37	Trübnisse	NN	<unknown>	_	O	O	
+5-38	.	$.	.	_	O	O	
+
+#id=6
+#text=Eure Weise die deutsche Journalistik zum Vertrauten der Institutszustände, wie des Übermuths oder luxuriösen Mißtrauens seiner Vertreter zu machen, habe ich freilich nicht loben können, sondern noch eben in anhangendem Brief an Braun unweise gescholten - , was sonst dabei zu Grunde liegt, gelehrter Eifer, Ausdauer, guter Muth bleibt, wie sich von selbst versteht, sehr erfreulich und möge durch Äußeres ungestört fortfahren Früchte zu tragen.
+6-1	Eure	PPOSAT	euer	_	O	O	
+6-2	Weise	NN	Weise	_	O	O	
+6-3	die	ART	die	_	O	O	
+6-4	deutsche	ADJA	deutsch	_	O	O	
+6-5	Journalistik	NN	Journalistik	_	O	O	
+6-6	zum	APPRART	zu	_	O	O	
+6-7	Vertrauten	NN	Vertraute	_	O	O	
+6-8	der	ART	die	_	O	O	
+6-9	Institutszustände	NN	<unknown>	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	wie	KOUS	wie	_	O	O	
+6-12	des	ART	die	_	O	O	
+6-13	Übermuths	NN	<unknown>	_	O	O	
+6-14	oder	KON	oder	_	O	O	
+6-15	luxuriösen	ADJA	luxuriös	_	O	O	
+6-16	Mißtrauens	NN	Misstrauen	_	O	O	
+6-17	seiner	PPOSAT	sein	_	O	O	
+6-18	Vertreter	NN	Vertreter	_	O	O	
+6-19	zu	PTKZU	zu	_	O	O	
+6-20	machen	VVINF	machen	_	O	O	
+6-21	,	$,	,	_	O	O	
+6-22	habe	VAFIN	haben	_	O	O	
+6-23	ich	PPER	ich	_	O	O	
+6-24	freilich	ADV	freilich	_	O	O	
+6-25	nicht	PTKNEG	nicht	_	O	O	
+6-26	loben	VVINF	loben	_	O	O	
+6-27	können	VMINF	können	_	O	O	
+6-28	,	$,	,	_	O	O	
+6-29	sondern	KON	sondern	_	O	O	
+6-30	noch	ADV	noch	_	O	O	
+6-31	eben	ADV	eben	_	O	O	
+6-32	in	APPR	in	_	O	O	
+6-33	anhangendem	ADJA	<unknown>	_	O	O	
+6-34	Brief	NN	Brief	_	O	O	
+6-35	an	APPR	an	_	O	O	
+6-36	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-37	unweise	ADJD	<unknown>	_	O	O	
+6-38	gescholten	VVPP	schelten	_	O	O	
+6-39	-	$(	-	_	O	O	
+6-40	,	$,	,	_	O	O	
+6-41	was	PRELS	was	_	O	O	
+6-42	sonst	ADV	sonst	_	O	O	
+6-43	dabei	PAV	dabei	_	O	O	
+6-44	zu	APPR	zu	_	O	O	
+6-45	Grunde	NN	Grund	_	O	O	
+6-46	liegt	VVFIN	liegen	_	O	O	
+6-47	,	$,	,	_	O	O	
+6-48	gelehrter	ADJA	gelehrt	_	O	O	
+6-49	Eifer	NN	Eifer	_	O	O	
+6-50	,	$,	,	_	O	O	
+6-51	Ausdauer	NN	Ausdauer	_	O	O	
+6-52	,	$,	,	_	O	O	
+6-53	guter	ADJA	gut	_	O	O	
+6-54	Muth	NE	<unknown>	_	O	O	
+6-55	bleibt	VVFIN	bleiben	_	O	O	
+6-56	,	$,	,	_	O	O	
+6-57	wie	KOUS	wie	_	O	O	
+6-58	sich	PRF	sich	_	O	O	
+6-59	von	APPR	von	_	O	O	
+6-60	selbst	ADV	selbst	_	O	O	
+6-61	versteht	VVFIN	verstehen	_	O	O	
+6-62	,	$,	,	_	O	O	
+6-63	sehr	ADV	sehr	_	O	O	
+6-64	erfreulich	ADJD	erfreulich	_	O	O	
+6-65	und	KON	und	_	O	O	
+6-66	möge	VMFIN	mögen	_	O	O	
+6-67	durch	APPR	durch	_	O	O	
+6-68	Äußeres	NN	Äußere	_	O	O	
+6-69	ungestört	ADJD	ungestört	_	O	O	
+6-70	fortfahren	VVFIN	fortfahren	_	O	O	
+6-71	Früchte	NN	Frucht	_	O	O	
+6-72	zu	PTKZU	zu	_	O	O	
+6-73	tragen	VVINF	tragen	_	O	O	
+6-74	.	$.	.	_	O	O	
+
+#id=7
+#text=Ihrer epigraphischen Mittheilungen danke ich bestens, noch bevor ich sie lesen kann; sie sollen bald zum Druck.
+7-1	Ihrer	PPOSAT	ihr	_	O	O	
+7-2	epigraphischen	ADJA	<unknown>	_	O	O	
+7-3	Mittheilungen	NN	<unknown>	_	O	O	
+7-4	danke	VVFIN	danken	_	O	O	
+7-5	ich	PPER	ich	_	O	O	
+7-6	bestens	ADV	bestens	_	O	O	
+7-7	,	$,	,	_	O	O	
+7-8	noch	ADV	noch	_	O	O	
+7-9	bevor	KOUS	bevor	_	O	O	
+7-10	ich	PPER	ich	_	O	O	
+7-11	sie	PPER	sie	_	O	O	
+7-12	lesen	VVINF	lesen	_	O	O	
+7-13	kann	VMFIN	können	_	O	O	
+7-14	;	$.	;	_	O	O	
+7-15	sie	PPER	sie	_	O	O	
+7-16	sollen	VMFIN	sollen	_	O	O	
+7-17	bald	ADV	bald	_	O	O	
+7-18	zum	APPRART	zu	_	O	O	
+7-19	Druck	NN	Druck	_	O	O	
+7-20	.	$.	.	_	O	O	
+
+#id=8
+#text=Neigebaur lagert hier, sein Manuscript gefährdet in Siebenbürgen.
+8-1	Neigebaur	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	lagert	VVFIN	lagern	_	O	O	
+8-3	hier	ADV	hier	_	O	O	
+8-4	,	$,	,	_	O	O	
+8-5	sein	PPOSAT	sein	_	O	O	
+8-6	Manuscript	NN	<unknown>	_	O	O	
+8-7	gefährdet	VVPP	gefährden	_	O	O	
+8-8	in	APPR	in	_	O	O	
+8-9	Siebenbürgen	NE	Siebenbürgen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-10	.	$.	.	_	O	O	
+
+#id=9
+#text=Für Scarpellini liegt 1 Akademischer Monatbericht
+9-1	Für	APPR	für	_	O	O	
+9-2	Scarpellini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-3	liegt	VVFIN	liegen	_	O	O	
+9-4	1	CARD	1	_	O	O	
+9-5	Akademischer	ADJA	akademisch	_	O	O	
+9-6	Monatbericht	NN	<unknown>	_	O	O	
+

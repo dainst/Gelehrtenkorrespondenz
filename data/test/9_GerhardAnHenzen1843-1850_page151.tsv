@@ -1,0 +1,107 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=2 Gerhard an Henzen 26/X/1848 rer lieben Frau erfreut zu werden.
+1-1	2	CARD	2	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	26/X/1848	CARD	<unknown>	_	O	O	
+1-6	rer	ADJA	<unknown>	_	O	O	
+1-7	lieben	ADJA	lieb	_	O	O	
+1-8	Frau	NN	Frau	_	O	O	
+1-9	erfreut	VVPP	erfreuen	_	O	O	
+1-10	zu	PTKZU	zu	_	O	O	
+1-11	werden	VAINF	werden	_	O	O	
+1-12	.	$.	.	_	O	O	
+
+#id=2
+#text=Noch etwas Geschäftliches legt mir die Breslauer Bi~liothek auf die vor 12 Jahren 1 Exemplar Museo Mantovano durch mich erhielt und erst jetzo ihr, wenn irgend möglich, den Schluß von Vol 3. page 277·und tav.
+2-1	Noch	ADV	noch	_	O	O	
+2-2	etwas	PIAT	etwas	_	O	O	
+2-3	Geschäftliches	NN	Geschäftliche	_	O	O	
+2-4	legt	VVFIN	legen	_	O	O	
+2-5	mir	PPER	ich	_	O	O	
+2-6	die	ART	die	_	O	O	
+2-7	Breslauer	NN	Breslauer	_	O	O	
+2-8	Bi~liothek	NN	<unknown>	_	O	O	
+2-9	auf	APPR	auf	_	O	O	
+2-10	die	ART	die	_	O	O	
+2-11	vor	APPR	vor	_	O	O	
+2-12	12	CARD	12	_	O	O	
+2-13	Jahren	NN	Jahr	_	O	O	
+2-14	1	CARD	1	_	O	O	
+2-15	Exemplar	NN	Exemplar	_	O	O	
+2-16	Museo	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+2-17	Mantovano	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+2-18	durch	APPR	durch	_	O	O	
+2-19	mich	PRF	ich	_	O	O	
+2-20	erhielt	VVFIN	erhalten	_	O	O	
+2-21	und	KON	und	_	O	O	
+2-22	erst	ADV	erst	_	O	O	
+2-23	jetzo	ADJD	<unknown>	_	O	O	
+2-24	ihr	PPER	ihr	_	O	O	
+2-25	,	$,	,	_	O	O	
+2-26	wenn	KOUS	wenn	_	O	O	
+2-27	irgend	ADV	irgend	_	O	O	
+2-28	möglich	ADJD	möglich	_	O	O	
+2-29	,	$,	,	_	O	O	
+2-30	den	ART	die	_	O	O	
+2-31	Schluß	NN	Schluss	_	O	O	
+2-32	von	APPR	von	_	O	O	
+2-33	Vol	NN	<unknown>	_	O	O	
+2-34	3	CARD	3	_	O	O	
+2-35	.	$.	.	_	O	O	
+2-36	page	NN	Page	_	O	O	
+2-37	277·und	NE	<unknown>	_	O	O	
+2-38	tav	NE	<unknown>	_	O	O	
+2-39	.	$.	.	_	O	O	
+
+#id=3
+#text=49 an, versteht sich pagando, zu verschaffen bittet.
+3-1	49	CARD	@card@	_	O	O	
+3-2	an	PTKVZ	an	_	O	O	
+3-3	,	$,	,	_	O	O	
+3-4	versteht	VVFIN	verstehen	_	O	O	
+3-5	sich	PRF	sich	_	O	O	
+3-6	pagando	NE	<unknown>	_	O	O	
+3-7	,	$,	,	_	O	O	
+3-8	zu	PTKZU	zu	_	O	O	
+3-9	verschaffen	VVINF	verschaffen	_	O	O	
+3-10	bittet	VVFIN	bitten	_	O	O	
+3-11	.	$.	.	_	O	O	
+
+#id=4
+#text=Grüßen uie D. Brunn und sonstige Günstige, auch wenn er angelangt ist meinen Empfohlenen Dr.
+4-1	Grüßen	NN	Gruß|Grüßen	_	O	O	
+4-2	uie	VVFIN	<unknown>	_	O	O	
+4-3	D.	NE	D.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-4	Brunn	NN	Brunn	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-5	und	KON	und	_	O	O	
+4-6	sonstige	ADJA	sonstig	_	O	O	
+4-7	Günstige	NN	Günstige	_	O	O	
+4-8	,	$,	,	_	O	O	
+4-9	auch	ADV	auch	_	O	O	
+4-10	wenn	KOUS	wenn	_	O	O	
+4-11	er	PPER	er	_	O	O	
+4-12	angelangt	VVFIN	angelangen	_	O	O	
+4-13	ist	VAFIN	sein	_	O	O	
+4-14	meinen	PPOSAT	mein	_	O	O	
+4-15	Empfohlenen	ADJA	empfohlen	_	O	O	
+4-16	Dr.	NN	Dr.	_	O	O	
+
+#id=5
+#text=Leopold Schmidt, und schreiben Sie bald wieder J Herzlichst der Ihrige Gerhard
+5-1	Leopold	NE	Leopold	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	Schmidt	NE	Schmidt	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-3	,	$,	,	_	O	O	
+5-4	und	KON	und	_	O	O	
+5-5	schreiben	VVFIN	schreiben	_	O	O	
+5-6	Sie	PPER	Sie	_	O	O	
+5-7	bald	ADV	bald	_	O	O	
+5-8	wieder	ADV	wieder	_	O	O	
+5-9	J	NN	J	_	O	O	
+5-10	Herzlichst	VVFIN	<unknown>	_	O	O	
+5-11	der	ART	die	_	O	O	
+5-12	Ihrige	PPOSAT	ihrige	_	O	O	
+5-13	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

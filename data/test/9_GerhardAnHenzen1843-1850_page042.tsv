@@ -1,0 +1,83 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=· .
+1-1	·	NN	<unknown>	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=.
+7-1	.	$.	.	_	O	O	
+
+#id=8
+#text=4 Gerhard an Henzen Frankfurt, 11. April 1846 wort über dessen •••••••• zukommen.
+8-1	4	CARD	4	_	O	O	
+8-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+8-3	an	APPR	an	_	O	O	
+8-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+8-5	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+8-6	,	$,	,	_	O	O	
+8-7	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+8-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-11	wort	VVFIN	<unknown>	_	O	O	
+8-12	über	APPR	über	_	O	O	
+8-13	dessen	PDAT	die	_	O	O	
+8-14	•	ADJA	<unknown>	_	O	O	
+8-15	•	NN	<unknown>	_	O	O	
+8-16	•	ADJA	<unknown>	_	O	O	
+8-17	•	NN	<unknown>	_	O	O	
+8-18	•	ADJA	<unknown>	_	O	O	
+8-19	•	NN	<unknown>	_	O	O	
+8-20	•	ADJA	<unknown>	_	O	O	
+8-21	•	NN	<unknown>	_	O	O	
+8-22	zukommen	VVINF	zukommen	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=Labus besuchte mich doppelt und überhöflich in Mailand, bot auch zum Vertrieb meiner Werke sich an !
+9-1	Labus	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	besuchte	VVFIN	besuchen	_	O	O	
+9-3	mich	PRF	ich	_	O	O	
+9-4	doppelt	ADJD	doppelt	_	O	O	
+9-5	und	KON	und	_	O	O	
+9-6	überhöflich	ADJD	<unknown>	_	O	O	
+9-7	in	APPR	in	_	O	O	
+9-8	Mailand	NE	Mailand	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-9	,	$,	,	_	O	O	
+9-10	bot	VVFIN	bieten	_	O	O	
+9-11	auch	ADV	auch	_	O	O	
+9-12	zum	APPRART	zu	_	O	O	
+9-13	Vertrieb	NN	Vertrieb	_	O	O	
+9-14	meiner	PPOSAT	mein	_	O	O	
+9-15	Werke	NN	Werk	_	O	O	
+9-16	sich	PRF	sich	_	O	O	
+9-17	an	PTKVZ	an	_	O	O	
+9-18	!	$.	!	_	O	O	
+
+#id=10
+#text=Herzliehst Ihr Gerhard
+10-1	Herzliehst	VVFIN	<unknown>	_	O	O	
+10-2	Ihr	PPER	sie	_	O	O	
+10-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

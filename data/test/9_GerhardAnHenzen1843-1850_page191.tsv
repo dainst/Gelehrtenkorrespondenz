@@ -1,0 +1,285 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=251 A. di Dir.
+1-1	251	CARD	251	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Gerhard an Henzen Berlin 10/XI/1849 g. 22/XI 49 r.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	an	APPR	an	_	O	O	
+2-3	Henzen	NN	<unknown>	_	O	O	
+2-4	Berlin	NE	Berlin	_	O	O	
+2-5	10/XI/1849	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-6	g.	ADJA	<unknown>	_	O	O	
+2-7	22/XI	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-8	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-9	r.	VVFIN	<unknown>	_	O	O	
+
+#id=3
+#text=7/XII 49 D. Henzen Berlin 10 Nov 49 WVvt~ Ver9h~ter Freund.
+3-1	7/XII	CARD	<unknown>	_	O	O	
+3-2	49	CARD	@card@	_	O	O	
+3-3	D.	NE	D.	_	O	O	
+3-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-6	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-7	Nov	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	WVvt~	NN	<unknown>	_	O	O	
+3-10	Ver9h~ter	ADJA	<unknown>	_	O	O	
+3-11	Freund	NN	Freund	_	O	O	
+3-12	.	$.	.	_	O	O	
+
+#id=4
+#text=Ihre Nachricht y daß Braun bereits nahe in Rom bevorstehe durchkreuzt unsre Erwartung sein doppeltes Ich nächstens noch hier zu sehn, doch denke ich er kommt noch.
+4-1	Ihre	PPOSAT	ihr	_	O	O	
+4-2	Nachricht	NN	Nachricht	_	O	O	
+4-3	y	NN	Y	_	O	O	
+4-4	daß	KOUS	dass	_	O	O	
+4-5	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-6	bereits	ADV	bereits	_	O	O	
+4-7	nahe	PTKVZ	nahe	_	O	O	
+4-8	in	APPR	in	_	O	O	
+4-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-10	bevorstehe	VVFIN	bevorstehen	_	O	O	
+4-11	durchkreuzt	VVFIN	durchkreuzen	_	O	O	
+4-12	unsre	PPOSAT	unsre	_	O	O	
+4-13	Erwartung	NN	Erwartung	_	O	O	
+4-14	sein	PPOSAT	sein	_	O	O	
+4-15	doppeltes	ADJA	doppelt	_	O	O	
+4-16	Ich	PPER	ich	_	O	O	
+4-17	nächstens	ADV	nächstens	_	O	O	
+4-18	noch	ADV	noch	_	O	O	
+4-19	hier	ADV	hier	_	O	O	
+4-20	zu	PTKA	zu	_	O	O	
+4-21	sehn	VVIMP	sehnen	_	O	O	
+4-22	,	$,	,	_	O	O	
+4-23	doch	KON	doch	_	O	O	
+4-24	denke	VVFIN	denken	_	O	O	
+4-25	ich	PPER	ich	_	O	O	
+4-26	er	PPER	er	_	O	O	
+4-27	kommt	VVFIN	kommen	_	O	O	
+4-28	noch	ADV	noch	_	O	O	
+4-29	.	$.	.	_	O	O	
+
+#id=5
+#text=Die Institutswerke von 1848 sind endlich so eben eingelaufen.
+5-1	Die	ART	die	_	O	O	
+5-2	Institutswerke	NN	<unknown>	_	O	O	
+5-3	von	APPR	von	_	O	O	
+5-4	1848	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+5-5	sind	VAFIN	sein	_	O	O	
+5-6	endlich	ADV	endlich	_	O	O	
+5-7	so	ADV	so	_	O	O	
+5-8	eben	ADV	eben	_	O	O	
+5-9	eingelaufen	VVPP	einlaufen	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Della Marmora hat Ihnen doch wol die Pergamene j' {,~, ; fkL.~t di Cerbor~a von S. Martini edirt eingesandt, er seheint auf diese Reimc.~""'OY1·t.k die pateras storiatas aus .... usgrabungen sei 8 bezeugt und bestimmt danach die Nuraghen als Gräber.
+6-1	Della	NE	Della	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	Marmora	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-3	hat	VAFIN	haben	_	O	O	
+6-4	Ihnen	PPER	Sie	_	O	O	
+6-5	doch	ADV	doch	_	O	O	
+6-6	wol	ADJD	<unknown>	_	O	O	
+6-7	die	ART	die	_	O	O	
+6-8	Pergamene	NN	<unknown>	_	O	O	
+6-9	j	NE	<unknown>	_	O	O	
+6-10	'	$(	'	_	O	O	
+6-11	{	$(	{	_	O	O	
+6-12	,~	ADJD	<unknown>	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	;	$.	;	_	O	O	
+6-15	fkL.~t	NN	<unknown>	_	O	O	
+6-16	di	NE	di	_	O	O	
+6-17	Cerbor~a	NE	<unknown>	_	O	O	
+6-18	von	APPR	von	_	O	O	
+6-19	S.	NE	S.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-20	Martini	NE	Martini	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-21	edirt	NN	<unknown>	_	O	O	
+6-22	eingesandt	ADJD	eingesandt	_	O	O	
+6-23	,	$,	,	_	O	O	
+6-24	er	PPER	er	_	O	O	
+6-25	seheint	VVFIN	<unknown>	_	O	O	
+6-26	auf	APPR	auf	_	O	O	
+6-27	diese	PDAT	dies	_	O	O	
+6-28	Reimc.~""'OY1·t.k	NN	<unknown>	_	O	O	
+6-29	die	ART	die	_	O	O	
+6-30	pateras	NE	<unknown>	_	O	O	
+6-31	storiatas	NE	<unknown>	_	O	O	
+6-32	aus	PTKVZ	aus	_	O	O	
+6-33	...	$.	...	_	O	O	
+6-34	.	$.	.	_	O	O	
+6-35	usgrabungen	NN	<unknown>	_	O	O	
+6-36	sei	VAFIN	sein	_	O	O	
+6-37	8	CARD	8	_	O	O	
+6-38	bezeugt	VVPP	bezeugen	_	O	O	
+6-39	und	KON	und	_	O	O	
+6-40	bestimmt	VVFIN	bestimmen	_	O	O	
+6-41	danach	PAV	danach	_	O	O	
+6-42	die	ART	die	_	O	O	
+6-43	Nuraghen	NE	<unknown>	_	O	O	
+6-44	als	KOKOM	als	_	O	O	
+6-45	Gräber	NN	Grab	_	O	O	
+6-46	.	$.	.	_	O	O	
+
+#id=7
+#text=Ist es ein Betrug so wäre es ein äußerst geschickter, aus Sardinien kaum zu erwartender.
+7-1	Ist	VAFIN	sein	_	O	O	
+7-2	es	PPER	es	_	O	O	
+7-3	ein	ART	eine	_	O	O	
+7-4	Betrug	NN	Betrug	_	O	O	
+7-5	so	ADV	so	_	O	O	
+7-6	wäre	VAFIN	sein	_	O	O	
+7-7	es	PPER	es	_	O	O	
+7-8	ein	ART	eine	_	O	O	
+7-9	äußerst	ADV	äußerst	_	O	O	
+7-10	geschickter	ADJA	geschickt	_	O	O	
+7-11	,	$,	,	_	O	O	
+7-12	aus	APPR	aus	_	O	O	
+7-13	Sardinien	NE	Sardinien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-14	kaum	ADV	kaum	_	O	O	
+7-15	zu	PTKA	zu	_	O	O	
+7-16	erwartender	ADJD	erwartend	_	O	O	
+7-17	.	$.	.	_	O	O	
+
+#id=8
+#text=Was hält Canina davon ?
+8-1	Was	PWS	was	_	O	O	
+8-2	hält	VVFIN	halten	_	O	O	
+8-3	Canina	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-4	davon	PTKVZ	davon	_	O	O	
+8-5	?	$.	?	_	O	O	
+
+#id=9
+#text=Sarti's Hinscheiden mag vielleicht nützlicher sein als sein .l:!
+9-1	Sarti's	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	Hinscheiden	NN	Hinscheiden	_	O	O	
+9-3	mag	VMFIN	mögen	_	O	O	
+9-4	vielleicht	ADV	vielleicht	_	O	O	
+9-5	nützlicher	ADJD	nützlich	_	O	O	
+9-6	sein	VAINF	sein	_	O	O	
+9-7	als	KOKOM	als	_	O	O	
+9-8	sein	PPOSAT	sein	_	O	O	
+9-9	.l	NN	<unknown>	_	O	O	
+9-10	:	$.	:	_	O	O	
+9-11	!	$.	!	_	O	O	
+
+#id=10
+#text='ortleben gewesen w~r, doch ~lage ich seinen Verlust von ganzen Herzen.
+10-1	'	$(	'	_	O	O	
+10-2	ortleben	ADJD	<unknown>	_	O	O	
+10-3	gewesen	VAPP	sein	_	O	O	
+10-4	w~r	NE	<unknown>	_	O	O	
+10-5	,	$,	,	_	O	O	
+10-6	doch	KON	doch	_	O	O	
+10-7	~lage	NN	<unknown>	_	O	O	
+10-8	ich	PPER	ich	_	O	O	
+10-9	seinen	PPOSAT	sein	_	O	O	
+10-10	Verlust	NN	Verlust	_	O	O	
+10-11	von	APPR	von	_	O	O	
+10-12	ganzen	ADJA	ganz	_	O	O	
+10-13	Herzen	NN	Herz	_	O	O	
+10-14	.	$.	.	_	O	O	
+
+#id=11
+#text=Auf Bergks Artikel gab ich freilich nicht viel, that aber mein Aeußerstes Ihnen dessen Namen noch für die Annali zu schaffen, nun machen oie damit was Sie mögen 1 Gerade wegen der Ministerialsache des Instituts hoffe ich sehr auf Brauns persönliches Erscheinen.
+11-1	Auf	APPR	auf	_	O	O	
+11-2	Bergks	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-3	Artikel	NN	Artikel	_	O	O	
+11-4	gab	VVFIN	geben	_	O	O	
+11-5	ich	PPER	ich	_	O	O	
+11-6	freilich	ADV	freilich	_	O	O	
+11-7	nicht	PTKNEG	nicht	_	O	O	
+11-8	viel	ADV	viel	_	O	O	
+11-9	,	$,	,	_	O	O	
+11-10	that	VVFIN	<unknown>	_	O	O	
+11-11	aber	ADV	aber	_	O	O	
+11-12	mein	PPOSAT	mein	_	O	O	
+11-13	Aeußerstes	NN	<unknown>	_	O	O	
+11-14	Ihnen	PPER	Sie	_	O	O	
+11-15	dessen	PDAT	die	_	O	O	
+11-16	Namen	NN	Name	_	O	O	
+11-17	noch	ADV	noch	_	O	O	
+11-18	für	APPR	für	_	O	O	
+11-19	die	ART	die	_	O	O	
+11-20	Annali	NE	<unknown>	_	O	O	
+11-21	zu	PTKZU	zu	_	O	O	
+11-22	schaffen	VVINF	schaffen	_	O	O	
+11-23	,	$,	,	_	O	O	
+11-24	nun	ADV	nun	_	O	O	
+11-25	machen	VVINF	machen	_	O	O	
+11-26	oie	VVFIN	<unknown>	_	O	O	
+11-27	damit	PAV	damit	_	O	O	
+11-28	was	PIS	was	_	O	O	
+11-29	Sie	PPER	Sie	_	O	O	
+11-30	mögen	VMFIN	mögen	_	O	O	
+11-31	1	CARD	1	_	O	O	
+11-32	Gerade	ADV	gerade	_	O	O	
+11-33	wegen	APPR	wegen	_	O	O	
+11-34	der	ART	die	_	O	O	
+11-35	Ministerialsache	NN	<unknown>	_	O	O	
+11-36	des	ART	die	_	O	O	
+11-37	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+11-38	hoffe	VVFIN	hoffen	_	O	O	
+11-39	ich	PPER	ich	_	O	O	
+11-40	sehr	ADV	sehr	_	O	O	
+11-41	auf	APPR	auf	_	O	O	
+11-42	Brauns	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-43	persönliches	ADJA	persönlich	_	O	O	
+11-44	Erscheinen	NN	Erscheinen	_	O	O	
+11-45	.	$.	.	_	O	O	
+
+#id=12
+#text=.
+12-1	.	$.	.	_	O	O	
+
+#id=13
+#text=.
+13-1	.	$.	.	_	O	O	
+
+#id=14
+#text=.
+14-1	.	$.	.	_	O	O	
+
+#id=15
+#text=.
+15-1	.	$.	.	_	O	O	
+
+#id=16
+#text=.
+16-1	.	$.	.	_	O	O	
+
+#id=17
+#text=.
+17-1	.	$.	.	_	O	O	
+
+#id=18
+#text=lege für Neigebaur oder von ihm für oie ein Manuscript bei das hier nur vergessen worden war und ich ihm aus Verw~hse-
+18-1	lege	VVFIN	legen	_	O	O	
+18-2	für	APPR	für	_	O	O	
+18-3	Neigebaur	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-4	oder	KON	oder	_	O	O	
+18-5	von	APPR	von	_	O	O	
+18-6	ihm	PPER	er	_	O	O	
+18-7	für	APPR	für	_	O	O	
+18-8	oie	NN	<unknown>	_	O	O	
+18-9	ein	ART	eine	_	O	O	
+18-10	Manuscript	NN	<unknown>	_	O	O	
+18-11	bei	APPR	bei	_	O	O	
+18-12	das	ART	die	_	O	O	
+18-13	hier	ADV	hier	_	O	O	
+18-14	nur	ADV	nur	_	O	O	
+18-15	vergessen	VVPP	vergessen	_	O	O	
+18-16	worden	VAPP	werden	_	O	O	
+18-17	war	VAFIN	sein	_	O	O	
+18-18	und	KON	und	_	O	O	
+18-19	ich	PPER	ich	_	O	O	
+18-20	ihm	PPER	er	_	O	O	
+18-21	aus	APPR	aus	_	O	O	
+18-22	Verw~hse-	TRUNC	<unknown>	_	O	O	
+

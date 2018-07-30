@@ -1,0 +1,253 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=r- f ~ " ' .• ' (t , .... ~ ,A,.A..-tJ:..t~j,.,,.
+1-1	r-	TRUNC	R-	_	O	O	
+1-2	f	ADJA	<unknown>	_	O	O	
+1-3	~	XY	~	_	O	O	
+1-4	"	$(	"	_	O	O	
+1-5	'	$(	'	_	O	O	
+1-6	.	$.	.	_	O	O	
+1-7	•	NN	<unknown>	_	O	O	
+1-8	'	$(	'	_	O	O	
+1-9	(	$(	(	_	O	O	
+1-10	t	NN	t	_	O	O	
+1-11	,	$,	,	_	O	O	
+1-12	...	$.	...	_	O	O	
+1-13	.	$.	.	_	O	O	
+1-14	~	XY	~	_	O	O	
+1-15	,A,.A..-tJ:..t~j	NE	<unknown>	_	O	O	
+1-16	,	$,	,	_	O	O	
+1-17	.	$.	.	_	O	O	
+1-18	,	$,	,	_	O	O	
+1-19	,	$,	,	_	O	O	
+1-20	.	$.	.	_	O	O	
+
+#id=2
+#text='t..,,: •.
+2-1	'	$(	'	_	O	O	
+2-2	t.	ADJD	<unknown>	_	O	O	
+2-3	.	$.	.	_	O	O	
+2-4	,	$,	,	_	O	O	
+2-5	,	$,	,	_	O	O	
+2-6	:	$.	:	_	O	O	
+2-7	•	NN	<unknown>	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=/' ~ /.~ '(c. 117 Gerharo an Henzen 7/VII/1849 3 in den Zeichnungen nämlich.
+3-1	/	$(	/	_	O	O	
+3-2	'	$(	'	_	O	O	
+3-3	~	XY	~	_	O	O	
+3-4	/.~	ADJD	<unknown>	_	O	O	
+3-5	'	$(	'	_	O	O	
+3-6	(	$(	(	_	O	O	
+3-7	c.	ADJA	<unknown>	_	O	O	
+3-8	117	CARD	117	_	O	O	
+3-9	Gerharo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-10	an	APPR	an	_	O	O	
+3-11	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-12	7/VII/1849	CARD	<unknown>	_	O	O	
+3-13	3	CARD	3	_	O	O	
+3-14	in	APPR	in	_	O	O	
+3-15	den	ART	die	_	O	O	
+3-16	Zeichnungen	NN	Zeichnung	_	O	O	
+3-17	nämlich	ADV	nämlich	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Vielleicht können uie die Frage irgendwen sonst empfehlen, da Schmidt doch nun fort ist.
+4-1	Vielleicht	ADV	vielleicht	_	O	O	
+4-2	können	VMFIN	können	_	O	O	
+4-3	uie	ADJD	<unknown>	_	O	O	
+4-4	die	ART	die	_	O	O	
+4-5	Frage	NN	Frage	_	O	O	
+4-6	irgendwen	PIS	irgendwer	_	O	O	
+4-7	sonst	ADV	sonst	_	O	O	
+4-8	empfehlen	VVINF	empfehlen	_	O	O	
+4-9	,	$,	,	_	O	O	
+4-10	da	KOUS	da	_	O	O	
+4-11	Schmidt	NE	Schmidt	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-12	doch	ADV	doch	_	O	O	
+4-13	nun	ADV	nun	_	O	O	
+4-14	fort	ADV	fort	_	O	O	
+4-15	ist	VAFIN	sein	_	O	O	
+4-16	.	$.	.	_	O	O	
+
+#id=5
+#text=Panofka's Auskunft für Schmidt soll bald nachfolgen, und Friedlaender soll gemahnt werden: ist Ihnen überhaupt an sonstiger Beisteuer zu den Annali gelegen ?
+5-1	Panofka's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	Auskunft	NN	Auskunft	_	O	O	
+5-3	für	APPR	für	_	O	O	
+5-4	Schmidt	NE	Schmidt	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-5	soll	VMFIN	sollen	_	O	O	
+5-6	bald	ADV	bald	_	O	O	
+5-7	nachfolgen	VVINF	nachfolgen	_	O	O	
+5-8	,	$,	,	_	O	O	
+5-9	und	KON	und	_	O	O	
+5-10	Friedlaender	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-11	soll	VMFIN	sollen	_	O	O	
+5-12	gemahnt	VVPP	mahnen	_	O	O	
+5-13	werden	VAINF	werden	_	O	O	
+5-14	:	$.	:	_	O	O	
+5-15	ist	VAFIN	sein	_	O	O	
+5-16	Ihnen	PPER	Sie	_	O	O	
+5-17	überhaupt	ADV	überhaupt	_	O	O	
+5-18	an	APPR	an	_	O	O	
+5-19	sonstiger	ADJA	sonstig	_	O	O	
+5-20	Beisteuer	NN	<unknown>	_	O	O	
+5-21	zu	APPR	zu	_	O	O	
+5-22	den	ART	die	_	O	O	
+5-23	Annali	NE	<unknown>	_	O	O	
+5-24	gelegen	VVPP	liegen	_	O	O	
+5-25	?	$.	?	_	O	O	
+
+#id=6
+#text=Cavedoni's Obst zu meinen Ant.
+6-1	Cavedoni's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	Obst	NN	Obst	_	O	O	
+6-3	zu	APPR	zu	_	O	O	
+6-4	meinen	PPOSAT	mein	_	O	O	
+6-5	Ant.	NE	Ant.	_	O	O	
+
+#id=7
+#text=Bildw.
+7-1	Bildw	NN	<unknown>	_	O	O	
+7-2	.	$.	.	_	O	O	
+
+#id=8
+#text=habe ich gleich drucken lassen und schicke sie ihm heute.
+8-1	habe	VAFIN	haben	_	O	O	
+8-2	ich	PPER	ich	_	O	O	
+8-3	gleich	ADJD	gleich	_	O	O	
+8-4	drucken	VVINF	drucken	_	O	O	
+8-5	lassen	VVINF	lassen	_	O	O	
+8-6	und	KON	und	_	O	O	
+8-7	schicke	VVFIN	schicken	_	O	O	
+8-8	sie	PPER	sie	_	O	O	
+8-9	ihm	PPER	er	_	O	O	
+8-10	heute	ADV	heute	_	O	O	
+8-11	.	$.	.	_	O	O	
+
+#id=9
+#text=- Von Jahn und Mommsen hörte ich lange nichts.
+9-1	-	$(	-	_	O	O	
+9-2	Von	APPR	von	_	O	O	
+9-3	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-4	und	KON	und	_	O	O	
+9-5	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-6	hörte	VVFIN	hören	_	O	O	
+9-7	ich	PPER	ich	_	O	O	
+9-8	lange	ADV	lange	_	O	O	
+9-9	nichts	PIS	nichts	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=r::: _ -I!
+10-1	r	NE	r	_	O	O	
+10-2	:	$.	:	_	O	O	
+10-3	:	$.	:	_	O	O	
+10-4	:	$.	:	_	O	O	
+10-5	_	XY	_	_	O	O	
+10-6	-I	NE	<unknown>	_	O	O	
+10-7	!	$.	!	_	O	O	
+
+#id=11
+#text={J"j_ ""'-{Cyclus 11 sind heraus.
+11-1	{	$(	{	_	O	O	
+11-2	J"j_	NE	<unknown>	_	O	O	
+11-3	"	$(	"	_	O	O	
+11-4	"	$(	"	_	O	O	
+11-5	'	$(	'	_	O	O	
+11-6	-{Cyclus	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-7	11	CARD	11	_	O	O	
+11-8	sind	VAFIN	sein	_	O	O	
+11-9	heraus	ADV	heraus	_	O	O	
+11-10	.	$.	.	_	O	O	
+
+#id=12
+#text=If{;y-) ~'M Steph.
+12-1	If{	NE	<unknown>	_	O	O	
+12-2	;	$.	;	_	O	O	
+12-3	y-	NN	<unknown>	_	O	O	
+12-4	)	$(	)	_	O	O	
+12-5	~'M	VVIMP	<unknown>	_	O	O	
+12-6	Steph	NE	<unknown>	_	O	O	
+12-7	.	$.	.	_	O	O	
+
+#id=13
+#text=Gg • ed.
+13-1	Gg	NE	<unknown>	_	O	O	
+13-2	•	NN	<unknown>	_	O	O	
+13-3	ed.	VVFIN	<unknown>	_	O	O	
+
+#id=14
+#text=-GHemeke I und Wd.
+14-1	-GHemeke	NE	<unknown>	_	O	O	
+14-2	I	NE	I	_	O	O	
+14-3	und	KON	und	_	O	O	
+14-4	Wd.	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+
+#id=15
+#text=('ker Ich denke Ihnen bald wieder zu schreiben, die Römischen Nachrichten vom 30 ten haben uns sehr beruhigt.
+15-1	(	$(	(	_	O	O	
+15-2	'	$(	'	_	O	O	
+15-3	ker	VVFIN	<unknown>	_	O	O	
+15-4	Ich	PPER	ich	_	O	O	
+15-5	denke	VVFIN	denken	_	O	O	
+15-6	Ihnen	PPER	Sie	_	O	O	
+15-7	bald	ADV	bald	_	O	O	
+15-8	wieder	ADV	wieder	_	O	O	
+15-9	zu	PTKZU	zu	_	O	O	
+15-10	schreiben	VVINF	schreiben	_	O	O	
+15-11	,	$,	,	_	O	O	
+15-12	die	ART	die	_	O	O	
+15-13	Römischen	ADJA	römisch	_	O	O	
+15-14	Nachrichten	NN	Nachricht	_	O	O	
+15-15	vom	APPRART	von	_	O	O	
+15-16	30	CARD	30	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+15-17	ten	NE	ten	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+15-18	haben	VAFIN	haben	_	O	O	
+15-19	uns	PPER	wir	_	O	O	
+15-20	sehr	ADV	sehr	_	O	O	
+15-21	beruhigt	VVPP	beruhigen	_	O	O	
+15-22	.	$.	.	_	O	O	
+
+#id=16
+#text=Halten Sie, Ihre liebe Frau und werthe Freunde Sich nur ~~ und oben auf, in der Hitze zumal Das Schlimmste sollte sonst wol überstanden sein.
+16-1	Halten	VVFIN	halten	_	O	O	
+16-2	Sie	PPER	Sie	_	O	O	
+16-3	,	$,	,	_	O	O	
+16-4	Ihre	PPOSAT	ihr	_	O	O	
+16-5	liebe	ADJA	lieb	_	O	O	
+16-6	Frau	NN	Frau	_	O	O	
+16-7	und	KON	und	_	O	O	
+16-8	werthe	ADJA	<unknown>	_	O	O	
+16-9	Freunde	NN	Freund	_	O	O	
+16-10	Sich	PRF	sich	_	O	O	
+16-11	nur	ADV	nur	_	O	O	
+16-12	~~	ADJD	<unknown>	_	O	O	
+16-13	und	KON	und	_	O	O	
+16-14	oben	ADV	oben	_	O	O	
+16-15	auf	PTKVZ	auf	_	O	O	
+16-16	,	$,	,	_	O	O	
+16-17	in	APPR	in	_	O	O	
+16-18	der	ART	die	_	O	O	
+16-19	Hitze	NN	Hitze	_	O	O	
+16-20	zumal	ADV	zumal	_	O	O	
+16-21	Das	ART	die	_	O	O	
+16-22	Schlimmste	NN	Schlimmste	_	O	O	
+16-23	sollte	VMFIN	sollen	_	O	O	
+16-24	sonst	ADV	sonst	_	O	O	
+16-25	wol	ADJD	<unknown>	_	O	O	
+16-26	überstanden	VVPP	überstehen	_	O	O	
+16-27	sein	VAINF	sein	_	O	O	
+16-28	.	$.	.	_	O	O	
+
+#id=17
+#text=Von Herzen der Ihrige Gerhard
+17-1	Von	APPR	von	_	O	O	
+17-2	Herzen	NN	Herz	_	O	O	
+17-3	der	ART	die	_	O	O	
+17-4	Ihrige	PPOSAT	ihrige	_	O	O	
+17-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

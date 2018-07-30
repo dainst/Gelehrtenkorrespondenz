@@ -1,0 +1,77 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=154 A. di Dir.
+1-1	154	CARD	@card@	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=D. Henzen Gerhard an Henzen Berlin 11/VIII/1849 g. 22/VIII 49 r. 1/IX 49 Berlin 11 Aug 49 Meinem vorgestrigen Brief sende ich Erklärung D ~ Bethmanns daß derselbe vermuthlich direkt seinen r~rtiWalde.
+2-1	D.	ART	d.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-3	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-4	an	APPR	an	_	O	O	
+2-5	Henzen	NN	<unknown>	_	O	O	
+2-6	Berlin	NE	Berlin	_	O	O	
+2-7	11/VIII/1849	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-8	g.	ADJA	<unknown>	_	O	O	
+2-9	22/VIII	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-10	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-11	r.	ADJA	<unknown>	_	O	O	
+2-12	1/IX	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-13	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-15	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-16	Aug	NE	Aug	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-17	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-18	Meinem	PPOSAT	mein	_	O	O	
+2-19	vorgestrigen	ADJA	vorgestrig	_	O	O	
+2-20	Brief	NN	Brief	_	O	O	
+2-21	sende	VVFIN	senden	_	O	O	
+2-22	ich	PPER	ich	_	O	O	
+2-23	Erklärung	NN	Erklärung	_	O	O	
+2-24	D	NN	D	_	O	O	
+2-25	~	XY	~	_	O	O	
+2-26	Bethmanns	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-27	daß	KOUS	dass	_	O	O	
+2-28	derselbe	PDS	derselbe	_	O	O	
+2-29	vermuthlich	ADJD	<unknown>	_	O	O	
+2-30	direkt	ADJD	direkt	_	O	O	
+2-31	seinen	PPOSAT	sein	_	O	O	
+2-32	r~rtiWalde	NN	<unknown>	_	O	O	
+2-33	.	$.	.	_	O	O	
+
+#id=3
+#text=kel absenden wird und die Bitte noch Inliegendes an Wakk zu bef5rdern.
+3-1	kel	ADJD	<unknown>	_	O	O	
+3-2	absenden	VVINF	absenden	_	O	O	
+3-3	wird	VAFIN	werden	_	O	O	
+3-4	und	KON	und	_	O	O	
+3-5	die	ART	die	_	O	O	
+3-6	Bitte	NN	Bitte	_	O	O	
+3-7	noch	ADV	noch	_	O	O	
+3-8	Inliegendes	NN	<unknown>	_	O	O	
+3-9	an	APPR	an	_	O	O	
+3-10	Wakk	NN	<unknown>	_	O	O	
+3-11	zu	PTKZU	zu	_	O	O	
+3-12	bef5rdern	VVINF	<unknown>	_	O	O	
+3-13	.	$.	.	_	O	O	
+
+#id=4
+#text=Mit bestem Gruß, der Abreise für etliche Wochen nahe, der Ihrige Gerhard
+4-1	Mit	APPR	mit	_	O	O	
+4-2	bestem	ADJA	gut	_	O	O	
+4-3	Gruß	NN	Gruß	_	O	O	
+4-4	,	$,	,	_	O	O	
+4-5	der	ART	die	_	O	O	
+4-6	Abreise	NN	Abreise	_	O	O	
+4-7	für	APPR	für	_	O	O	
+4-8	etliche	PIAT	etliche	_	O	O	
+4-9	Wochen	NN	Woche	_	O	O	
+4-10	nahe	PTKVZ	nahe	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	der	PRELS	die	_	O	O	
+4-13	Ihrige	PPOSAT	ihrige	_	O	O	
+4-14	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

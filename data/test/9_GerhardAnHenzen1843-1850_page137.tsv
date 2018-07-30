@@ -1,0 +1,311 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=) ...- A. di Dir.
+1-1	)	$(	)	_	O	O	
+1-2	...	$.	...	_	O	O	
+1-3	-	$(	-	_	O	O	
+1-4	A.	APPRART	am	_	O	O	
+1-5	di	NE	di	_	O	O	
+1-6	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=D. Henzen J"'!9chfr.
+2-1	D.	ART	d.	_	O	O	
+2-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-3	J	NN	J	_	O	O	
+2-4	"	$(	"	_	O	O	
+2-5	'	$(	'	_	O	O	
+2-6	!	$.	!	_	O	O	
+2-7	9chfr	NE	<unknown>	_	O	O	
+2-8	.	$.	.	_	O	O	
+
+#id=3
+#text=Mein theurer Freund.
+3-1	Mein	PPOSAT	mein	_	O	O	
+3-2	theurer	ADJA	<unknown>	_	O	O	
+3-3	Freund	NN	Freund	_	O	O	
+3-4	.	$.	.	_	O	O	
+
+#id=4
+#text=Gerhard an Renzen Berlin 6/11/1848 g. 18/11 48 r.
+4-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+4-2	an	APPR	an	_	O	O	
+4-3	Renzen	NN	<unknown>	_	O	O	
+4-4	Berlin	NE	Berlin	_	O	O	
+4-5	6/11/1848	CARD	@card@	_	O	O	
+4-6	g.	ADJA	<unknown>	_	O	O	
+4-7	18/11	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+4-8	48	CARD	48	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+4-9	r.	ADJA	<unknown>	_	O	O	
+
+#id=5
+#text=19/11 48 Berlin 6 Febr.
+5-1	19/11	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+5-2	48	CARD	48	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+5-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+5-4	6	CARD	6	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+5-5	Febr.	NN	Febr.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=6
+#text=48 Die epigraphische Sache gab immer noch keinen Abschluß, hoffentlich nächste Woche, und dann auch wenigs- \ tens eine Besprechung über mögliche Betheiligung Ihrer Person.
+6-1	48	CARD	48	_	O	O	
+6-2	Die	ART	die	_	O	O	
+6-3	epigraphische	ADJA	<unknown>	_	O	O	
+6-4	Sache	NN	Sache	_	O	O	
+6-5	gab	VVFIN	geben	_	O	O	
+6-6	immer	ADV	immer	_	O	O	
+6-7	noch	ADV	noch	_	O	O	
+6-8	keinen	PIAT	keine	_	O	O	
+6-9	Abschluß	NN	Abschluss	_	O	O	
+6-10	,	$,	,	_	O	O	
+6-11	hoffentlich	ADV	hoffentlich	_	O	O	
+6-12	nächste	ADJA	nah	_	O	O	
+6-13	Woche	NN	Woche	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	und	KON	und	_	O	O	
+6-16	dann	ADV	dann	_	O	O	
+6-17	auch	ADV	auch	_	O	O	
+6-18	wenigs-	TRUNC	<unknown>	_	O	O	
+6-19	\	XY	\	_	O	O	
+6-20	tens	VVFIN	<unknown>	_	O	O	
+6-21	eine	ART	eine	_	O	O	
+6-22	Besprechung	NN	Besprechung	_	O	O	
+6-23	über	APPR	über	_	O	O	
+6-24	mögliche	ADJA	möglich	_	O	O	
+6-25	Betheiligung	NN	<unknown>	_	O	O	
+6-26	Ihrer	PPOSAT	ihr	_	O	O	
+6-27	Person	NN	Person	_	O	O	
+6-28	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Gehaltsverhandlung ist in bestem Gang.
+7-1	Die	ART	die	_	O	O	
+7-2	Gehaltsverhandlung	NN	<unknown>	_	O	O	
+7-3	ist	VAFIN	sein	_	O	O	
+7-4	in	APPR	in	_	O	O	
+7-5	bestem	ADJA	gut	_	O	O	
+7-6	Gang	NN	Gang	_	O	O	
+7-7	.	$.	.	_	O	O	
+
+#id=8
+#text=Neigebaur, komisch als Ungeheuir verdruckt, bleibt Ihnen wol aus Furcht vor Sicilien in Rom gelagert.
+8-1	Neigebaur	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	,	$,	,	_	O	O	
+8-3	komisch	ADJD	komisch	_	O	O	
+8-4	als	KOKOM	als	_	O	O	
+8-5	Ungeheuir	NN	<unknown>	_	O	O	
+8-6	verdruckt	VVFIN	<unknown>	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	bleibt	VVFIN	bleiben	_	O	O	
+8-9	Ihnen	PPER	Sie	_	O	O	
+8-10	wol	ADJD	<unknown>	_	O	O	
+8-11	aus	APPR	aus	_	O	O	
+8-12	Furcht	NN	Furcht	_	O	O	
+8-13	vor	APPR	vor	_	O	O	
+8-14	Sicilien	NN	<unknown>	_	O	O	
+8-15	in	APPR	in	_	O	O	
+8-16	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-17	gelagert	VVPP	lagern	_	O	O	
+8-18	.	$.	.	_	O	O	
+
+#id=9
+#text=Bull.sendungen erhielt ich dankend; Sie werden selbst am besten beurtheilen ob die nun erfolgenden Adunanzberichte rasch genug darin kommen um Brunn's handschriftliehen Beistand hier entbehren zu können.
+9-1	Bull.sendungen	NN	<unknown>	_	O	O	
+9-2	erhielt	VVFIN	erhalten	_	O	O	
+9-3	ich	PPER	ich	_	O	O	
+9-4	dankend	ADJD	dankend	_	O	O	
+9-5	;	$.	;	_	O	O	
+9-6	Sie	PPER	Sie	_	O	O	
+9-7	werden	VAFIN	werden	_	O	O	
+9-8	selbst	ADV	selbst	_	O	O	
+9-9	am	PTKA	am	_	O	O	
+9-10	besten	ADJD	gut	_	O	O	
+9-11	beurtheilen	VVFIN	<unknown>	_	O	O	
+9-12	ob	KOUS	ob	_	O	O	
+9-13	die	ART	die	_	O	O	
+9-14	nun	ADV	nun	_	O	O	
+9-15	erfolgenden	ADJA	erfolgend	_	O	O	
+9-16	Adunanzberichte	NN	<unknown>	_	O	O	
+9-17	rasch	ADJD	rasch	_	O	O	
+9-18	genug	ADV	genug	_	O	O	
+9-19	darin	PAV	darin	_	O	O	
+9-20	kommen	VVFIN	kommen	_	O	O	
+9-21	um	APPR	um	_	O	O	
+9-22	Brunn's	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-23	handschriftliehen	ADJA	<unknown>	_	O	O	
+9-24	Beistand	NN	Beistand	_	O	O	
+9-25	hier	ADV	hier	_	O	O	
+9-26	entbehren	VVINF	entbehren	_	O	O	
+9-27	zu	PTKZU	zu	_	O	O	
+9-28	können	VMINF	können	_	O	O	
+9-29	.	$.	.	_	O	O	
+
+#id=10
+#text=Denselben ließ ich schon eben durch Braun grüßen und daß er mir auch einmal eine Kleinigkeit zur Arch.
+10-1	Denselben	PDS	derselbe	_	O	O	
+10-2	ließ	VVFIN	lassen	_	O	O	
+10-3	ich	PPER	ich	_	O	O	
+10-4	schon	ADV	schon	_	O	O	
+10-5	eben	ADV	eben	_	O	O	
+10-6	durch	APPR	durch	_	O	O	
+10-7	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-8	grüßen	VVINF	grüßen	_	O	O	
+10-9	und	KON	und	_	O	O	
+10-10	daß	KOUS	dass	_	O	O	
+10-11	er	PPER	er	_	O	O	
+10-12	mir	PRF	ich	_	O	O	
+10-13	auch	ADV	auch	_	O	O	
+10-14	einmal	ADV	einmal	_	O	O	
+10-15	eine	ART	eine	_	O	O	
+10-16	Kleinigkeit	NN	Kleinigkeit	_	O	O	
+10-17	zur	APPRART	zu	_	O	O	
+10-18	Arch	NN	<unknown>	_	O	O	
+10-19	.	$.	.	_	O	O	
+
+#id=11
+#text=Zeitung sende bitten.
+11-1	Zeitung	NN	Zeitung	_	O	O	
+11-2	sende	VVFIN	senden	_	O	O	
+11-3	bitten	VVINF	bitten	_	O	O	
+11-4	.	$.	.	_	O	O	
+
+#id=12
+#text=Valenza in Palermo, M. della Commissione di Antichita, finde ich ohne Gewährsmann notirt, ich dachte also auf Ihren Anlaß; kann liegen bleiben bis er wieder bemerklich wird.
+12-1	Valenza	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-2	in	APPR	in	_	O	O	
+12-3	Palermo	NE	Palermo	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-4	,	$,	,	_	O	O	
+12-5	M.	NE	M.	_	O	O	
+12-6	della	NE	Della	_	O	O	
+12-7	Commissione	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+12-8	di	NE	di	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+12-9	Antichita	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+12-10	,	$,	,	_	O	O	
+12-11	finde	VVFIN	finden	_	O	O	
+12-12	ich	PPER	ich	_	O	O	
+12-13	ohne	APPR	ohne	_	O	O	
+12-14	Gewährsmann	NN	Gewährsmann	_	O	O	
+12-15	notirt	NN	<unknown>	_	O	O	
+12-16	,	$,	,	_	O	O	
+12-17	ich	PPER	ich	_	O	O	
+12-18	dachte	VVFIN	denken	_	O	O	
+12-19	also	ADV	also	_	O	O	
+12-20	auf	APPR	auf	_	O	O	
+12-21	Ihren	PPOSAT	ihr	_	O	O	
+12-22	Anlaß	NN	Anlass	_	O	O	
+12-23	;	$.	;	_	O	O	
+12-24	kann	VMFIN	können	_	O	O	
+12-25	liegen	VVINF	liegen	_	O	O	
+12-26	bleiben	VVINF	bleiben	_	O	O	
+12-27	bis	KON	bis	_	O	O	
+12-28	er	PPER	er	_	O	O	
+12-29	wieder	ADV	wieder	_	O	O	
+12-30	bemerklich	ADJD	<unknown>	_	O	O	
+12-31	wird	VAFIN	werden	_	O	O	
+12-32	.	$.	.	_	O	O	
+
+#id=13
+#text=Für die Abhandlung über lateinische Dictatoren schreibe ich gleich an Wiese, und finden sich dann wol auch einige Tesseren , zum Ministerialb~schluß.
+13-1	Für	APPR	für	_	O	O	
+13-2	die	ART	die	_	O	O	
+13-3	Abhandlung	NN	Abhandlung	_	O	O	
+13-4	über	APPR	über	_	O	O	
+13-5	lateinische	ADJA	lateinisch	_	O	O	
+13-6	Dictatoren	NN	<unknown>	_	O	O	
+13-7	schreibe	VVFIN	schreiben	_	O	O	
+13-8	ich	PPER	ich	_	O	O	
+13-9	gleich	ADJD	gleich	_	O	O	
+13-10	an	APPR	an	_	O	O	
+13-11	Wiese	NN	Wiese	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-12	,	$,	,	_	O	O	
+13-13	und	KON	und	_	O	O	
+13-14	finden	VVFIN	finden	_	O	O	
+13-15	sich	PRF	sich	_	O	O	
+13-16	dann	ADV	dann	_	O	O	
+13-17	wol	ADJD	<unknown>	_	O	O	
+13-18	auch	ADV	auch	_	O	O	
+13-19	einige	PIAT	einige	_	O	O	
+13-20	Tesseren	ADJA	<unknown>	_	O	O	
+13-21	,	$,	,	_	O	O	
+13-22	zum	APPRART	zu	_	O	O	
+13-23	Ministerialb~schluß	NN	<unknown>	_	O	O	
+13-24	.	$.	.	_	O	O	
+
+#id=14
+#text=In Bergt~)s Zeitschrift sah ich bis zum Jahresschluß nichts von Ihnen abgedruckt.
+14-1	In	APPR	in	_	O	O	
+14-2	Bergt~)s	NN	<unknown>	_	O	O	
+14-3	Zeitschrift	NN	Zeitschrift	_	O	O	
+14-4	sah	VVFIN	sehen	_	O	O	
+14-5	ich	PPER	ich	_	O	O	
+14-6	bis	APPR	bis	_	O	O	
+14-7	zum	APPRART	zu	_	O	O	
+14-8	Jahresschluß	NN	Jahresschluss	_	O	O	
+14-9	nichts	PIS	nichts	_	O	O	
+14-10	von	APPR	von	_	O	O	
+14-11	Ihnen	PPER	Sie	_	O	O	
+14-12	abgedruckt	VVPP	abdrucken	_	O	O	
+14-13	.	$.	.	_	O	O	
+
+#id=15
+#text=Das Exemplar meiner Antiken Dildwerke kostet 24 2/3 rt., also etwa 16 1/2 Scudi und wird, nach Maßgabe des Portobetrags bis Rom, demnach an Caveaoni auf 17 1/2 oder höchstens 18 Scudi zu berechnen sein.
+15-1	Das	ART	die	_	O	O	
+15-2	Exemplar	NN	Exemplar	_	O	O	
+15-3	meiner	PPOSAT	mein	_	O	O	
+15-4	Antiken	ADJA	antik	_	O	O	
+15-5	Dildwerke	NN	<unknown>	_	O	O	
+15-6	kostet	VVFIN	kosten	_	O	O	
+15-7	24	CARD	24	_	O	O	
+15-8	2/3	CARD	2/3	_	O	O	
+15-9	rt	VVFIN	<unknown>	_	O	O	
+15-10	.	$.	.	_	O	O	
+15-11	,	$,	,	_	O	O	
+15-12	also	ADV	also	_	O	O	
+15-13	etwa	ADV	etwa	_	O	O	
+15-14	16	CARD	16	_	O	O	
+15-15	1/2	CARD	1/2	_	O	O	
+15-16	Scudi	NN	<unknown>	_	O	O	
+15-17	und	KON	und	_	O	O	
+15-18	wird	VAFIN	werden	_	O	O	
+15-19	,	$,	,	_	O	O	
+15-20	nach	APPR	nach	_	O	O	
+15-21	Maßgabe	NN	Maßgabe	_	O	O	
+15-22	des	ART	die	_	O	O	
+15-23	Portobetrags	NN	<unknown>	_	O	O	
+15-24	bis	APPR	bis	_	O	O	
+15-25	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+15-26	,	$,	,	_	O	O	
+15-27	demnach	ADV	demnach	_	O	O	
+15-28	an	APPR	an	_	O	O	
+15-29	Caveaoni	NN	<unknown>	_	O	O	
+15-30	auf	APPR	auf	_	O	O	
+15-31	17	CARD	17	_	O	O	
+15-32	1/2	CARD	1/2	_	O	O	
+15-33	oder	KON	oder	_	O	O	
+15-34	höchstens	ADV	höchstens	_	O	O	
+15-35	18	CARD	18	_	O	O	
+15-36	Scudi	NN	<unknown>	_	O	O	
+15-37	zu	PTKZU	zu	_	O	O	
+15-38	berechnen	VVINF	berechnen	_	O	O	
+15-39	sein	VAINF	sein	_	O	O	
+15-40	.	$.	.	_	O	O	
+
+#id=16
+#text=Soviel heute in geschäftsmäßiger Eil,.
+16-1	Soviel	PIS	soviele	_	O	O	
+16-2	heute	ADV	heute	_	O	O	
+16-3	in	APPR	in	_	O	O	
+16-4	geschäftsmäßiger	ADJA	geschäftsmäßig	_	O	O	
+16-5	Eil	ADJA	<unknown>	_	O	O	
+16-6	,	$,	,	_	O	O	
+16-7	.	$.	.	_	O	O	
+
+#id=17
+#text=Ich schrieb Ihnen nicht seit ich
+17-1	Ich	PPER	ich	_	O	O	
+17-2	schrieb	VVFIN	schreiben	_	O	O	
+17-3	Ihnen	PPER	Sie	_	O	O	
+17-4	nicht	PTKNEG	nicht	_	O	O	
+17-5	seit	APPR	seit	_	O	O	
+17-6	ich	PPER	ich	_	O	O	
+

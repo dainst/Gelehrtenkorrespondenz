@@ -1,0 +1,248 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=331 Gerhard an Henzen Berlin, 29. Juli 1844 2 Bonn, 13. August 44 Oben angefangener Brief wanderte mit mir hierher; er war mir weder gewichtig noch eilig genug.
+1-1	331	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	O	O	
+1-5	Berlin	NE	Berlin	_	O	O	
+1-6	,	$,	,	_	O	O	
+1-7	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	Bonn	NE	Bonn	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-13	,	$,	,	_	O	O	
+1-14	13	CARD	13	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-15	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-16	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-17	44	CARD	44	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-18	Oben	ADV	oben	_	O	O	
+1-19	angefangener	ADJA	angefangen	_	O	O	
+1-20	Brief	NN	Brief	_	O	O	
+1-21	wanderte	VVFIN	wandern	_	O	O	
+1-22	mit	APPR	mit	_	O	O	
+1-23	mir	PPER	ich	_	O	O	
+1-24	hierher	PTKVZ	hierher	_	O	O	
+1-25	;	$.	;	_	O	O	
+1-26	er	PPER	er	_	O	O	
+1-27	war	VAFIN	sein	_	O	O	
+1-28	mir	PPER	ich	_	O	O	
+1-29	weder	KON	weder	_	O	O	
+1-30	gewichtig	ADJD	gewichtig	_	O	O	
+1-31	noch	ADV	noch	_	O	O	
+1-32	eilig	ADJD	eilig	_	O	O	
+1-33	genug	ADV	genug	_	O	O	
+1-34	.	$.	.	_	O	O	
+
+#id=2
+#text=Jetzt übergebe ich das Blatt an Welcker der Ihnen doch noch schreiben will bevor er nach England geht; sein Entschluß veranIaßt auch mich dies für nur wenig Tage, 7 wenigstens den 1 ' )1arihören zu liebe, zu thun.
+2-1	Jetzt	ADV	jetzt	_	O	O	
+2-2	übergebe	VVFIN	übergeben	_	O	O	
+2-3	ich	PPER	ich	_	O	O	
+2-4	das	ART	die	_	O	O	
+2-5	Blatt	NN	Blatt	_	O	O	
+2-6	an	APPR	an	_	O	O	
+2-7	Welcker	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-8	der	ART	die	_	O	O	
+2-9	Ihnen	PPER	Sie	_	O	O	
+2-10	doch	ADV	doch	_	O	O	
+2-11	noch	ADV	noch	_	O	O	
+2-12	schreiben	VVINF	schreiben	_	O	O	
+2-13	will	VMFIN	wollen	_	O	O	
+2-14	bevor	KOUS	bevor	_	O	O	
+2-15	er	PPER	er	_	O	O	
+2-16	nach	APPR	nach	_	O	O	
+2-17	England	NE	England	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-18	geht	VVFIN	gehen	_	O	O	
+2-19	;	$.	;	_	O	O	
+2-20	sein	PPOSAT	sein	_	O	O	
+2-21	Entschluß	NN	Entschluss	_	O	O	
+2-22	veranIaßt	VVFIN	<unknown>	_	O	O	
+2-23	auch	ADV	auch	_	O	O	
+2-24	mich	PPER	ich	_	O	O	
+2-25	dies	PDS	dies	_	O	O	
+2-26	für	APPR	für	_	O	O	
+2-27	nur	ADV	nur	_	O	O	
+2-28	wenig	PIAT	wenige	_	O	O	
+2-29	Tage	NN	Tag	_	O	O	
+2-30	,	$,	,	_	O	O	
+2-31	7	CARD	7	_	O	O	
+2-32	wenigstens	ADV	wenigstens	_	O	O	
+2-33	den	ART	die	_	O	O	
+2-34	1	CARD	1	_	O	O	
+2-35	'	$(	'	_	O	O	
+2-36	)1arihören	NN	<unknown>	_	O	O	
+2-37	zu	APPR	zu	_	O	O	
+2-38	liebe	ADJA	lieb	_	O	O	
+2-39	,	$,	,	_	O	O	
+2-40	zu	APPR	zu	_	O	O	
+2-41	thun	NE	<unknown>	_	O	O	
+2-42	.	$.	.	_	O	O	
+
+#id=3
+#text=Ich habe nichts Erhebliches hinzuzusetzen; nur um Beförderung eines Blattes nach Neapel wollte ich bitten welches dem dorthin gereisten Dr.
+3-1	Ich	PPER	ich	_	O	O	
+3-2	habe	VAFIN	haben	_	O	O	
+3-3	nichts	PIAT	nichts	_	O	O	
+3-4	Erhebliches	NN	Erhebliche	_	O	O	
+3-5	hinzuzusetzen	VVIZU	hinzusetzen	_	O	O	
+3-6	;	$.	;	_	O	O	
+3-7	nur	ADV	nur	_	O	O	
+3-8	um	APPR	um	_	O	O	
+3-9	Beförderung	NN	Beförderung	_	O	O	
+3-10	eines	ART	eine	_	O	O	
+3-11	Blattes	NN	Blatt	_	O	O	
+3-12	nach	APPR	nach	_	O	O	
+3-13	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+3-14	wollte	VMFIN	wollen	_	O	O	
+3-15	ich	PPER	ich	_	O	O	
+3-16	bitten	VVFIN	bitten	_	O	O	
+3-17	welches	PIS	welche	_	O	O	
+3-18	dem	ART	die	_	O	O	
+3-19	dorthin	ADV	dorthin	_	O	O	
+3-20	gereisten	ADJA	gereist	_	O	O	
+3-21	Dr.	NN	Dr.	_	O	O	
+
+#id=4
+#text=Köhne bitten soll 1 Exemplar der Auswahl pompejanischer Wandgemälde ein zu kaufen, die in Art der Gargiulo'schen Blätter von einem dortigen Custoden (Celestini?)
+4-1	Köhne	NE	Köhne	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	bitten	VVINF	bitten	_	O	O	
+4-3	soll	VMFIN	sollen	_	O	O	
+4-4	1	CARD	1	_	O	O	
+4-5	Exemplar	NN	Exemplar	_	O	O	
+4-6	der	ART	die	_	O	O	
+4-7	Auswahl	NN	Auswahl	_	O	O	
+4-8	pompejanischer	ADJA	<unknown>	_	O	O	
+4-9	Wandgemälde	NN	Wandgemälde	_	O	O	
+4-10	ein	PTKVZ	ein	_	O	O	
+4-11	zu	PTKZU	zu	_	O	O	
+4-12	kaufen	VVINF	kaufen	_	O	O	
+4-13	,	$,	,	_	O	O	
+4-14	die	PRELS	die	_	O	O	
+4-15	in	APPR	in	_	O	O	
+4-16	Art	NN	Art	_	O	O	
+4-17	der	ART	die	_	O	O	
+4-18	Gargiulo'schen	ADJA	<unknown>	_	O	O	
+4-19	Blätter	NN	Blatt	_	O	O	
+4-20	von	APPR	von	_	O	O	
+4-21	einem	ART	eine	_	O	O	
+4-22	dortigen	ADJA	dortig	_	O	O	
+4-23	Custoden	NE	<unknown>	_	O	O	
+4-24	(	$(	(	_	O	O	
+4-25	Celestini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-26	?	$.	?	_	O	O	
+4-27	)	$(	)	_	O	O	
+
+#id=5
+#text=erschienen sind und wol auch ein 10 Scudi oder Ähnliches kosten wird.
+5-1	erschienen	VVPP	erscheinen	_	O	O	
+5-2	sind	VAFIN	sein	_	O	O	
+5-3	und	KON	und	_	O	O	
+5-4	wol	ADJD	<unknown>	_	O	O	
+5-5	auch	ADV	auch	_	O	O	
+5-6	ein	ART	eine	_	O	O	
+5-7	10	CARD	10	_	O	O	
+5-8	Scudi	NN	<unknown>	_	O	O	
+5-9	oder	KON	oder	_	O	O	
+5-10	Ähnliches	NN	Ähnliche	_	O	O	
+5-11	kosten	VVINF	kosten	_	O	O	
+5-12	wird	VAFIN	werden	_	O	O	
+5-13	.	$.	.	_	O	O	
+
+#id=6
+#text=Eben aber überlege ich daß es besser sei durch Ihre Vermittelung diesen Band ankaufen zu lassen; irgend jemand besorgt es wol in Neapel und nur die Benutzung der mehreren im Oktober nach Berlin zurückgehenden Reisenden erlaube ich mir dabei zugleich zu empfehlen.
+6-1	Eben	ADV	eben	_	O	O	
+6-2	aber	ADV	aber	_	O	O	
+6-3	überlege	VVFIN	überlegen	_	O	O	
+6-4	ich	PPER	ich	_	O	O	
+6-5	daß	KOUS	dass	_	O	O	
+6-6	es	PPER	es	_	O	O	
+6-7	besser	ADJD	gut	_	O	O	
+6-8	sei	VAFIN	sein	_	O	O	
+6-9	durch	APPR	durch	_	O	O	
+6-10	Ihre	PPOSAT	ihr	_	O	O	
+6-11	Vermittelung	NN	<unknown>	_	O	O	
+6-12	diesen	PDAT	dies	_	O	O	
+6-13	Band	NN	Band	_	O	O	
+6-14	ankaufen	VVINF	ankaufen	_	O	O	
+6-15	zu	PTKZU	zu	_	O	O	
+6-16	lassen	VVINF	lassen	_	O	O	
+6-17	;	$.	;	_	O	O	
+6-18	irgend	ADV	irgend	_	O	O	
+6-19	jemand	PIS	jemand	_	O	O	
+6-20	besorgt	VVFIN	besorgen	_	O	O	
+6-21	es	PPER	es	_	O	O	
+6-22	wol	ADJD	<unknown>	_	O	O	
+6-23	in	APPR	in	_	O	O	
+6-24	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-25	und	KON	und	_	O	O	
+6-26	nur	ADV	nur	_	O	O	
+6-27	die	ART	die	_	O	O	
+6-28	Benutzung	NN	Benutzung	_	O	O	
+6-29	der	ART	die	_	O	O	
+6-30	mehreren	PIS	mehrere	_	O	O	
+6-31	im	APPRART	in	_	O	O	
+6-32	Oktober	NN	Oktober	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-33	nach	APPR	nach	_	O	O	
+6-34	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-35	zurückgehenden	ADJA	zurückgehend	_	O	O	
+6-36	Reisenden	NN	Reisende	_	O	O	
+6-37	erlaube	VVFIN	erlauben	_	O	O	
+6-38	ich	PPER	ich	_	O	O	
+6-39	mir	PRF	ich	_	O	O	
+6-40	dabei	PAV	dabei	_	O	O	
+6-41	zugleich	ADV	zugleich	_	O	O	
+6-42	zu	PTKZU	zu	_	O	O	
+6-43	empfehlen	VVINF	empfehlen	_	O	O	
+6-44	.	$.	.	_	O	O	
+
+#id=7
+#text=Haben Sie mir zu schreiben, so thun Sie es nach Frankfurt (Kurhessische Gesandtschaft) wo ich bis zum 20 September am besten zu erreichen sein werde.
+7-1	Haben	VAFIN	haben	_	O	O	
+7-2	Sie	PPER	Sie	_	O	O	
+7-3	mir	PPER	ich	_	O	O	
+7-4	zu	PTKZU	zu	_	O	O	
+7-5	schreiben	VVINF	schreiben	_	O	O	
+7-6	,	$,	,	_	O	O	
+7-7	so	ADV	so	_	O	O	
+7-8	thun	VVFIN	<unknown>	_	O	O	
+7-9	Sie	PPER	Sie	_	O	O	
+7-10	es	PPER	es	_	O	O	
+7-11	nach	APPR	nach	_	O	O	
+7-12	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-13	(	$(	(	_	O	O	
+7-14	Kurhessische	ADJA	kurhessisch	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-15	Gesandtschaft	NN	Gesandtschaft	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+7-16	)	$(	)	_	O	O	
+7-17	wo	PWAV	wo	_	O	O	
+7-18	ich	PPER	ich	_	O	O	
+7-19	bis	APPR	bis	_	O	O	
+7-20	zum	APPRART	zu	_	O	O	
+7-21	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+7-22	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+7-23	am	PTKA	am	_	O	O	
+7-24	besten	ADJD	gut	_	O	O	
+7-25	zu	PTKZU	zu	_	O	O	
+7-26	erreichen	VVINF	erreichen	_	O	O	
+7-27	sein	VAINF	sein	_	O	O	
+7-28	werde	VAFIN	werden	_	O	O	
+7-29	.	$.	.	_	O	O	
+
+#id=8
+#text=Mit besten Wünschen für Sie und Ihren Hausstand Von Herzen der Ihrige Gerhard
+8-1	Mit	APPR	mit	_	O	O	
+8-2	besten	ADJA	gut	_	O	O	
+8-3	Wünschen	NN	Wunsch	_	O	O	
+8-4	für	APPR	für	_	O	O	
+8-5	Sie	PPER	Sie	_	O	O	
+8-6	und	KON	und	_	O	O	
+8-7	Ihren	PPOSAT	ihr	_	O	O	
+8-8	Hausstand	NN	Hausstand	_	O	O	
+8-9	Von	APPR	von	_	O	O	
+8-10	Herzen	NN	Herz	_	O	O	
+8-11	der	ART	die	_	O	O	
+8-12	Ihrige	PPOSAT	ihrige	_	O	O	
+8-13	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

@@ -1,0 +1,254 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=214 A. di Dir.
+1-1	214	CARD	@card@	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Gerhard an Henzen Berlin 26/IX/1849 g. 7/X 49 r. 9/X 49 D. Renzen Berlin 26 Sept 49 ~.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	an	APPR	an	_	O	O	
+2-3	Henzen	NN	<unknown>	_	O	O	
+2-4	Berlin	NE	Berlin	_	O	O	
+2-5	26/IX/1849	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-6	g.	ADJA	<unknown>	_	O	O	
+2-7	7/X	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-8	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-9	r.	VVFIN	<unknown>	_	O	O	
+2-10	9/X	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-11	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-12	D.	NE	D.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-13	Renzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-15	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-16	Sept	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-17	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-18	~	XY	~	_	O	O	
+2-19	.	$.	.	_	O	O	
+
+#id=3
+#text=C\t~ 1\-1.-+~ ~fU..M.. I~J .
+3-1	C\t~	ADJA	<unknown>	_	O	O	
+3-2	1\-1.-+~	NN	<unknown>	_	O	O	
+3-3	~fU..M.	NN	<unknown>	_	O	O	
+3-4	.	$.	.	_	O	O	
+3-5	I~J	NE	<unknown>	_	O	O	
+3-6	.	$.	.	_	O	O	
+
+#id=4
+#text=Ich sende Ihnen flir die Annali den durch Minervinis Bemerkung flott gewordenen Artikel über das Pompejani~ sehe XII Götterbild, und habe eine nothdürftige Zeichnung dazu anfertigen lassen, ohne deren Beischaffung ich schon früher zur Stelle gewesen wäre.
+4-1	Ich	PPER	ich	_	O	O	
+4-2	sende	VVFIN	senden	_	O	O	
+4-3	Ihnen	PPER	Sie	_	O	O	
+4-4	flir	NE	<unknown>	_	O	O	
+4-5	die	ART	die	_	O	O	
+4-6	Annali	NE	<unknown>	_	O	O	
+4-7	den	ART	die	_	O	O	
+4-8	durch	APPR	durch	_	O	O	
+4-9	Minervinis	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-10	Bemerkung	NN	Bemerkung	_	O	O	
+4-11	flott	ADJD	flott	_	O	O	
+4-12	gewordenen	ADJA	worden	_	O	O	
+4-13	Artikel	NN	Artikel	_	O	O	
+4-14	über	APPR	über	_	O	O	
+4-15	das	ART	die	_	O	O	
+4-16	Pompejani~	ADJA	<unknown>	_	O	O	
+4-17	sehe	VVFIN	sehen	_	O	O	
+4-18	XII	NE	<unknown>	_	O	O	
+4-19	Götterbild	NN	Götterbild	_	O	O	
+4-20	,	$,	,	_	O	O	
+4-21	und	KON	und	_	O	O	
+4-22	habe	VAFIN	haben	_	O	O	
+4-23	eine	ART	eine	_	O	O	
+4-24	nothdürftige	ADJA	<unknown>	_	O	O	
+4-25	Zeichnung	NN	Zeichnung	_	O	O	
+4-26	dazu	PAV	dazu	_	O	O	
+4-27	anfertigen	VVINF	anfertigen	_	O	O	
+4-28	lassen	VVINF	lassen	_	O	O	
+4-29	,	$,	,	_	O	O	
+4-30	ohne	APPR	ohne	_	O	O	
+4-31	deren	PRELAT	die	_	O	O	
+4-32	Beischaffung	NN	<unknown>	_	O	O	
+4-33	ich	PPER	ich	_	O	O	
+4-34	schon	ADV	schon	_	O	O	
+4-35	früher	ADV	früher	_	O	O	
+4-36	zur	APPRART	zu	_	O	O	
+4-37	Stelle	NN	Stelle	_	O	O	
+4-38	gewesen	VAPP	sein	_	O	O	
+4-39	wäre	VAFIN	sein	_	O	O	
+4-40	.	$.	.	_	O	O	
+
+#id=5
+#text=Da ich seit langer Zeit keine italienischen Visitenkarten führte, so wird ein halb hundert Separatabzüge zweckdienlich sein; außerdem bitte ich mir mit etlichen derselben seiner Zeit noch 6 ~~~ Abzüge des Bildehens die Annali passen; aus.
+5-1	Da	KOUS	da	_	O	O	
+5-2	ich	PPER	ich	_	O	O	
+5-3	seit	APPR	seit	_	O	O	
+5-4	langer	ADJA	lang	_	O	O	
+5-5	Zeit	NN	Zeit	_	O	O	
+5-6	keine	PIAT	keine	_	O	O	
+5-7	italienischen	ADJA	italienisch	_	O	O	
+5-8	Visitenkarten	NN	Visitenkarte	_	O	O	
+5-9	führte	VVFIN	führen	_	O	O	
+5-10	,	$,	,	_	O	O	
+5-11	so	ADV	so	_	O	O	
+5-12	wird	VAFIN	werden	_	O	O	
+5-13	ein	ART	eine	_	O	O	
+5-14	halb	ADJD	halb	_	O	O	
+5-15	hundert	CARD	hundert	_	O	O	
+5-16	Separatabzüge	NN	<unknown>	_	O	O	
+5-17	zweckdienlich	ADJD	zweckdienlich	_	O	O	
+5-18	sein	VAINF	sein	_	O	O	
+5-19	;	$.	;	_	O	O	
+5-20	außerdem	ADV	außerdem	_	O	O	
+5-21	bitte	VVFIN	bitten	_	O	O	
+5-22	ich	PPER	ich	_	O	O	
+5-23	mir	PRF	ich	_	O	O	
+5-24	mit	APPR	mit	_	O	O	
+5-25	etlichen	PIS	etliche	_	O	O	
+5-26	derselben	PDAT	dieselb	_	O	O	
+5-27	seiner	PPOSAT	sein	_	O	O	
+5-28	Zeit	NN	Zeit	_	O	O	
+5-29	noch	ADV	noch	_	O	O	
+5-30	6	CARD	6	_	O	O	
+5-31	~~~	ADJA	<unknown>	_	O	O	
+5-32	Abzüge	NN	Abzug	_	O	O	
+5-33	des	ART	die	_	O	O	
+5-34	Bildehens	NN	<unknown>	_	O	O	
+5-35	die	ART	die	_	O	O	
+5-36	Annali	NE	<unknown>	_	O	O	
+5-37	passen	VVINF	passen	_	O	O	
+5-38	;	$.	;	_	O	O	
+5-39	aus	PTKVZ	aus	_	O	O	
+5-40	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Zeichnung wird gerade in L!M~Il.~~'~ Die unten in BleistiftausgbführLB Vertauschung der oben angegebenen gegen die in das Lild selbst eingetragenen S6t pl",,;n_spi tzen bitte ich dem Zeichner begreiflich zu machen.
+6-1	Die	ART	die	_	O	O	
+6-2	Zeichnung	NN	Zeichnung	_	O	O	
+6-3	wird	VAFIN	werden	_	O	O	
+6-4	gerade	ADV	gerade	_	O	O	
+6-5	in	APPR	in	_	O	O	
+6-6	L	NE	L	_	O	O	
+6-7	!	$.	!	_	O	O	
+6-8	M~Il.~~'~	NN	<unknown>	_	O	O	
+6-9	Die	ART	die	_	O	O	
+6-10	unten	ADV	unten	_	O	O	
+6-11	in	APPR	in	_	O	O	
+6-12	BleistiftausgbführLB	ADJA	<unknown>	_	O	O	
+6-13	Vertauschung	NN	Vertauschung	_	O	O	
+6-14	der	ART	die	_	O	O	
+6-15	oben	ADV	oben	_	O	O	
+6-16	angegebenen	ADJA	angegeben	_	O	O	
+6-17	gegen	APPR	gegen	_	O	O	
+6-18	die	ART	die	_	O	O	
+6-19	in	APPR	in	_	O	O	
+6-20	das	ART	die	_	O	O	
+6-21	Lild	ADJA	<unknown>	_	O	O	
+6-22	selbst	ADV	selbst	_	O	O	
+6-23	eingetragenen	ADJA	eingetragen	_	O	O	
+6-24	S6t	NN	<unknown>	_	O	O	
+6-25	pl	NE	Pl	_	O	O	
+6-26	"	$(	"	_	O	O	
+6-27	,	$,	,	_	O	O	
+6-28	,	$,	,	_	O	O	
+6-29	;	$.	;	_	O	O	
+6-30	n_spi	NE	<unknown>	_	O	O	
+6-31	tzen	NE	<unknown>	_	O	O	
+6-32	bitte	VVFIN	bitten	_	O	O	
+6-33	ich	PPER	ich	_	O	O	
+6-34	dem	ART	die	_	O	O	
+6-35	Zeichner	NN	Zeichner	_	O	O	
+6-36	begreiflich	ADJD	begreiflich	_	O	O	
+6-37	zu	PTKZU	zu	_	O	O	
+6-38	machen	VVINF	machen	_	O	O	
+6-39	.	$.	.	_	O	O	
+
+#id=7
+#text=Bethmann der auf dem Sprung zu verreisen ist hat von neuem versprochen ohne etwas zu senden.
+7-1	Bethmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	der	ART	die	_	O	O	
+7-3	auf	APPR	auf	_	O	O	
+7-4	dem	ART	die	_	O	O	
+7-5	Sprung	NN	Sprung	_	O	O	
+7-6	zu	PTKZU	zu	_	O	O	
+7-7	verreisen	VVINF	verreisen	_	O	O	
+7-8	ist	VAFIN	sein	_	O	O	
+7-9	hat	VAFIN	haben	_	O	O	
+7-10	von	APPR	von	_	O	O	
+7-11	neuem	ADJA	neu	_	O	O	
+7-12	versprochen	VVPP	versprechen	_	O	O	
+7-13	ohne	APPR	ohne	_	O	O	
+7-14	etwas	PIS	etwas	_	O	O	
+7-15	zu	PTKZU	zu	_	O	O	
+7-16	senden	VVINF	senden	_	O	O	
+7-17	.	$.	.	_	O	O	
+
+#id=8
+#text=Bergk wird nächstens hier erwartet, bringt aber schwerlich mit was er Ihnen nicht bereits sandte, ich kann Ihnen daher von hier aus nichts weiter verheißen.
+8-1	Bergk	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	wird	VAFIN	werden	_	O	O	
+8-3	nächstens	ADV	nächstens	_	O	O	
+8-4	hier	ADV	hier	_	O	O	
+8-5	erwartet	VVPP	erwarten	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	bringt	VVFIN	bringen	_	O	O	
+8-8	aber	ADV	aber	_	O	O	
+8-9	schwerlich	ADJD	schwerlich	_	O	O	
+8-10	mit	APPR	mit	_	O	O	
+8-11	was	PIS	was	_	O	O	
+8-12	er	PPER	er	_	O	O	
+8-13	Ihnen	PPER	Sie	_	O	O	
+8-14	nicht	PTKNEG	nicht	_	O	O	
+8-15	bereits	ADV	bereits	_	O	O	
+8-16	sandte	VVFIN	senden	_	O	O	
+8-17	,	$,	,	_	O	O	
+8-18	ich	PPER	ich	_	O	O	
+8-19	kann	VMFIN	können	_	O	O	
+8-20	Ihnen	PPER	Sie	_	O	O	
+8-21	daher	PAV	daher	_	O	O	
+8-22	von	APPR	von	_	O	O	
+8-23	hier	ADV	hier	_	O	O	
+8-24	aus	APPR	aus	_	O	O	
+8-25	nichts	PIS	nichts	_	O	O	
+8-26	weiter	ADV	weiter	_	O	O	
+8-27	verheißen	VVPP	verheißen	_	O	O	
+8-28	.	$.	.	_	O	O	
+
+#id=9
+#text=Von Migliorini hat ~:Schmidt mir ein so desparates Zettelehen gebracht daß ich eines im Entgegengesetzten Sinne ihm zuzufertigen mich gedrungen fühle, eben so ein Dankbriefehen flir Minervini, endlich was madama Archeologica
+9-1	Von	APPR	von	_	O	O	
+9-2	Migliorini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-3	hat	VAFIN	haben	_	O	O	
+9-4	~:Schmidt	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-5	mir	PRF	ich	_	O	O	
+9-6	ein	ART	eine	_	O	O	
+9-7	so	ADV	so	_	O	O	
+9-8	desparates	ADJA	<unknown>	_	O	O	
+9-9	Zettelehen	NN	<unknown>	_	O	O	
+9-10	gebracht	VVPP	bringen	_	O	O	
+9-11	daß	KOUS	dass	_	O	O	
+9-12	ich	PPER	ich	_	O	O	
+9-13	eines	PIS	eine	_	O	O	
+9-14	im	APPRART	in	_	O	O	
+9-15	Entgegengesetzten	ADJA	entgegengesetzt	_	O	O	
+9-16	Sinne	NN	Sinn	_	O	O	
+9-17	ihm	PPER	er	_	O	O	
+9-18	zuzufertigen	ADJA	<unknown>	_	O	O	
+9-19	mich	PRF	ich	_	O	O	
+9-20	gedrungen	ADJD	gedrungen	_	O	O	
+9-21	fühle	VVFIN	fühlen	_	O	O	
+9-22	,	$,	,	_	O	O	
+9-23	eben	ADV	eben	_	O	O	
+9-24	so	ADV	so	_	O	O	
+9-25	ein	ART	eine	_	O	O	
+9-26	Dankbriefehen	ADJA	<unknown>	_	O	O	
+9-27	flir	NE	<unknown>	_	O	O	
+9-28	Minervini	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-29	,	$,	,	_	O	O	
+9-30	endlich	ADV	endlich	_	O	O	
+9-31	was	PIAT	was	_	O	O	
+9-32	madama	ADJA	<unknown>	_	O	O	
+9-33	Archeologica	NE	<unknown>	_	O	O	
+

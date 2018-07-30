@@ -1,0 +1,281 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=Dr.
+1-1	Dr.	NN	Dr.	_	O	O	
+
+#id=2
+#text=Renzen A. di Dir.
+2-1	Renzen	NN	<unknown>	_	O	O	
+2-2	A.	APPRART	am	_	O	O	
+2-3	di	NE	di	_	O	O	
+2-4	Dir.	NN	Dir.	_	O	O	
+
+#id=3
+#text=Lieber Freund Gerhard an Henzen Berlin 1/11/1847 g. 12/11 47 r.
+3-1	Lieber	ADJD	lieb	_	O	O	
+3-2	Freund	NE	Freund	_	O	O	
+3-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-4	an	APPR	an	_	O	O	
+3-5	Henzen	NN	<unknown>	_	O	O	
+3-6	Berlin	NE	Berlin	_	O	O	
+3-7	1/11/1847	CARD	@card@	_	O	O	
+3-8	g.	ADJA	<unknown>	_	O	O	
+3-9	12/11	CARD	12/11	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-10	47	CARD	47	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+3-11	r.	ADJA	<unknown>	_	O	O	
+
+#id=4
+#text=26/11 47 Berlin 1 Febr 47.
+4-1	26/11	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+4-2	47	CARD	47	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+4-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-4	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-5	Febr	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-6	47	CARD	47	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-7	.	$.	.	_	O	O	
+
+#id=5
+#text=Göttling in dessen dicken Brief ich dies Blättchen 1N(Vt'rrY v einlege schuldet Ih~ R~.
+5-1	Göttling	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	in	APPR	in	_	O	O	
+5-3	dessen	PDAT	die	_	O	O	
+5-4	dicken	ADJA	dick	_	O	O	
+5-5	Brief	NN	Brief	_	O	O	
+5-6	ich	PPER	ich	_	O	O	
+5-7	dies	PDS	dies	_	O	O	
+5-8	Blättchen	NN	Blättchen	_	O	O	
+5-9	1N(Vt'rrY	NN	<unknown>	_	O	O	
+5-10	v	ADJD	<unknown>	_	O	O	
+5-11	einlege	VVFIN	einlegen	_	O	O	
+5-12	schuldet	VVFIN	schulden	_	O	O	
+5-13	Ih~	ADJA	<unknown>	_	O	O	
+5-14	R~	NN	<unknown>	_	O	O	
+5-15	.	$.	.	_	O	O	
+
+#id=6
+#text=noch immer, schreibt auch darüber nicht ist aber ~~ gemahnt 1 Sonst geht die epigraphische Sache nicht übel vorwärts; ich schreibe darüber an Mommsen.
+6-1	noch	ADV	noch	_	O	O	
+6-2	immer	ADV	immer	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	schreibt	VVFIN	schreiben	_	O	O	
+6-5	auch	ADV	auch	_	O	O	
+6-6	darüber	PAV	darüber	_	O	O	
+6-7	nicht	PTKNEG	nicht	_	O	O	
+6-8	ist	VAFIN	sein	_	O	O	
+6-9	aber	ADV	aber	_	O	O	
+6-10	~~	ADJD	<unknown>	_	O	O	
+6-11	gemahnt	VVFIN	gemahnen	_	O	O	
+6-12	1	CARD	1	_	O	O	
+6-13	Sonst	ADV	sonst	_	O	O	
+6-14	geht	VVFIN	gehen	_	O	O	
+6-15	die	ART	die	_	O	O	
+6-16	epigraphische	ADJA	<unknown>	_	O	O	
+6-17	Sache	NN	Sache	_	O	O	
+6-18	nicht	PTKNEG	nicht	_	O	O	
+6-19	übel	ADJD	übel	_	O	O	
+6-20	vorwärts	PTKVZ	vorwärts	_	O	O	
+6-21	;	$.	;	_	O	O	
+6-22	ich	PPER	ich	_	O	O	
+6-23	schreibe	VVFIN	schreiben	_	O	O	
+6-24	darüber	PAV	darüber	_	O	O	
+6-25	an	APPR	an	_	O	O	
+6-26	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-27	.	$.	.	_	O	O	
+
+#id=7
+#text=Annali und Dec.
+7-1	Annali	NE	<unknown>	_	O	O	
+7-2	und	KON	und	_	O	O	
+7-3	Dec	NE	Dec	_	O	O	
+7-4	.	$.	.	_	O	O	
+
+#id=8
+#text=Bull.
+8-1	Bull	NE	Bull	_	O	O	
+8-2	.	$.	.	_	O	O	
+
+#id=9
+#text=habe richtig erhalten, einen Neigebaurschen Brief auf}geSandtschaftlichen Weg Ihnen gesandt.
+9-1	habe	VAFIN	haben	_	O	O	
+9-2	richtig	ADJD	richtig	_	O	O	
+9-3	erhalten	VVPP	erhalten	_	O	O	
+9-4	,	$,	,	_	O	O	
+9-5	einen	ART	eine	_	O	O	
+9-6	Neigebaurschen	NN	<unknown>	_	O	O	
+9-7	Brief	NN	Brief	_	O	O	
+9-8	auf}geSandtschaftlichen	ADJA	<unknown>	_	O	O	
+9-9	Weg	NN	Weg	_	O	O	
+9-10	Ihnen	PPER	Sie	_	O	O	
+9-11	gesandt	VVPP	senden	_	O	O	
+9-12	.	$.	.	_	O	O	
+
+#id=10
+#text=Cav.
+10-1	Cav.	NE	<unknown>	_	O	O	
+
+#id=11
+#text=De Agostini notire ich also, als von Ihnen und Braun vorgeschlagen, zum M. onor. für den 21 April da er obscur ist, so sorgen Sie wol dafür daß das Bull.
+11-1	De	NE	De	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-2	Agostini	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+11-3	notire	VVFIN	<unknown>	_	O	O	
+11-4	ich	PPER	ich	_	O	O	
+11-5	also	ADV	also	_	O	O	
+11-6	,	$,	,	_	O	O	
+11-7	als	KOUS	als	_	O	O	
+11-8	von	APPR	von	_	O	O	
+11-9	Ihnen	PPER	Sie	_	O	O	
+11-10	und	KON	und	_	O	O	
+11-11	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-12	vorgeschlagen	VVPP	vorschlagen	_	O	O	
+11-13	,	$,	,	_	O	O	
+11-14	zum	APPRART	zu	_	O	O	
+11-15	M.	NE	M.	_	O	O	
+11-16	onor	NE	<unknown>	_	O	O	
+11-17	.	$.	.	_	O	O	
+11-18	für	APPR	für	_	O	O	
+11-19	den	ART	die	_	O	O	
+11-20	21	CARD	21	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+11-21	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+11-22	da	ADV	da	_	O	O	
+11-23	er	PPER	er	_	O	O	
+11-24	obscur	NN	<unknown>	_	O	O	
+11-25	ist	VAFIN	sein	_	O	O	
+11-26	,	$,	,	_	O	O	
+11-27	so	ADV	so	_	O	O	
+11-28	sorgen	VVFIN	sorgen	_	O	O	
+11-29	Sie	PPER	Sie	_	O	O	
+11-30	wol	ADJD	<unknown>	_	O	O	
+11-31	dafür	PAV	dafür	_	O	O	
+11-32	daß	KOUS	dass	_	O	O	
+11-33	das	ART	die	_	O	O	
+11-34	Bull	NE	Bull	_	O	O	
+11-35	.	$.	.	_	O	O	
+
+#id=12
+#text=ihn noch einmal gelegentlich als Mäcen und Antikensammler charakterisire.
+12-1	ihn	PPER	er	_	O	O	
+12-2	noch	ADV	noch	_	O	O	
+12-3	einmal	ADV	einmal	_	O	O	
+12-4	gelegentlich	ADJD	gelegentlich	_	O	O	
+12-5	als	KOKOM	als	_	O	O	
+12-6	Mäcen	NN	<unknown>	_	O	O	
+12-7	und	KON	und	_	O	O	
+12-8	Antikensammler	NN	<unknown>	_	O	O	
+12-9	charakterisire	NN	<unknown>	_	O	O	
+12-10	.	$.	.	_	O	O	
+
+#id=13
+#text=Das Diplom für Botta sandte ich nach Paris.
+13-1	Das	ART	die	_	O	O	
+13-2	Diplom	NN	Diplom	_	O	O	
+13-3	für	APPR	für	_	O	O	
+13-4	Botta	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-5	sandte	VVFIN	senden	_	O	O	
+13-6	ich	PPER	ich	_	O	O	
+13-7	nach	APPR	nach	_	O	O	
+13-8	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+13-9	.	$.	.	_	O	O	
+
+#id=14
+#text=Ihre Augen müssen Sie ja recht schonen.
+14-1	Ihre	PPOSAT	ihr	_	O	O	
+14-2	Augen	NN	Auge	_	O	O	
+14-3	müssen	VMFIN	müssen	_	O	O	
+14-4	Sie	PPER	Sie	_	O	O	
+14-5	ja	ADV	ja	_	O	O	
+14-6	recht	ADJD	recht	_	O	O	
+14-7	schonen	VVINF	schonen	_	O	O	
+14-8	.	$.	.	_	O	O	
+
+#id=15
+#text=Sollte denn fm.tJ, ... gar kein Kopist sich vorfinden für die allerdings fttift nothCl; wendige Abschrift meines zu äußerstem ~ediren von Ihnen bereits kopirten ROpp~to ?
+15-1	Sollte	VMFIN	sollen	_	O	O	
+15-2	denn	KON	denn	_	O	O	
+15-3	fm.tJ	NE	<unknown>	_	O	O	
+15-4	,	$,	,	_	O	O	
+15-5	...	$.	...	_	O	O	
+15-6	gar	ADV	gar	_	O	O	
+15-7	kein	PIAT	keine	_	O	O	
+15-8	Kopist	NN	Kopist	_	O	O	
+15-9	sich	PRF	sich	_	O	O	
+15-10	vorfinden	VVFIN	vorfinden	_	O	O	
+15-11	für	APPR	für	_	O	O	
+15-12	die	ART	die	_	O	O	
+15-13	allerdings	ADV	allerdings	_	O	O	
+15-14	fttift	NN	<unknown>	_	O	O	
+15-15	nothCl	NE	<unknown>	_	O	O	
+15-16	;	$.	;	_	O	O	
+15-17	wendige	ADJA	wendig	_	O	O	
+15-18	Abschrift	NN	Abschrift	_	O	O	
+15-19	meines	PPOSAT	mein	_	O	O	
+15-20	zu	APPR	zu	_	O	O	
+15-21	äußerstem	ADJA	äußer	_	O	O	
+15-22	~ediren	NN	<unknown>	_	O	O	
+15-23	von	APPR	von	_	O	O	
+15-24	Ihnen	PPER	Sie	_	O	O	
+15-25	bereits	ADV	bereits	_	O	O	
+15-26	kopirten	NN	<unknown>	_	O	O	
+15-27	ROpp~to	NN	<unknown>	_	O	O	
+15-28	?	$.	?	_	O	O	
+
+#id=16
+#text=Ueber I<lAJ'ru.~ : D. Camillo Minieri R~i zu Neapel ?
+16-1	Ueber	NN	<unknown>	_	O	O	
+16-2	I<lAJ'ru.~	NN	<unknown>	_	O	O	
+16-3	:	$.	:	_	O	O	
+16-4	D.	ART	d.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-5	Camillo	NE	Camillo	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+16-6	Minieri	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+16-7	R~i	NN	<unknown>	_	O	O	
+16-8	zu	APPR	zu	_	O	O	
+16-9	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+16-10	?	$.	?	_	O	O	
+
+#id=17
+#text=der Name war unter dem Siegel.
+17-1	der	ART	die	_	O	O	
+17-2	Name	NN	Name	_	O	O	
+17-3	war	VAFIN	sein	_	O	O	
+17-4	unter	APPR	unter	_	O	O	
+17-5	dem	ART	die	_	O	O	
+17-6	Siegel	NN	Siegel	_	O	O	
+17-7	.	$.	.	_	O	O	
+
+#id=18
+#text=Lassen Sie über Secchi 's neue hwt-..~ Weisheit doch etwas Näheres hieher gelangen.
+18-1	Lassen	VVFIN	lassen	_	O	O	
+18-2	Sie	PPER	Sie	_	O	O	
+18-3	über	APPR	über	_	O	O	
+18-4	Secchi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-5	'	$(	'	_	O	O	
+18-6	s	NN	s	_	O	O	
+18-7	neue	ADJA	neu	_	O	O	
+18-8	hwt-..~	NN	<unknown>	_	O	O	
+18-9	Weisheit	NN	Weisheit	_	O	O	
+18-10	doch	ADV	doch	_	O	O	
+18-11	etwas	PIAT	etwas	_	O	O	
+18-12	Näheres	ADJA	nah	_	O	O	
+18-13	hieher	NN	<unknown>	_	O	O	
+18-14	gelangen	VVINF	gelangen	_	O	O	
+18-15	.	$.	.	_	O	O	
+
+#id=19
+#text=Braun wird also wol an Ersatzdruck früherer fehlender Hefte der Institutswerke denken, damit wir uns keine
+19-1	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+19-2	wird	VAFIN	werden	_	O	O	
+19-3	also	ADV	also	_	O	O	
+19-4	wol	ADJD	<unknown>	_	O	O	
+19-5	an	APPR	an	_	O	O	
+19-6	Ersatzdruck	NN	<unknown>	_	O	O	
+19-7	früherer	ADJA	früh	_	O	O	
+19-8	fehlender	ADJA	fehlend	_	O	O	
+19-9	Hefte	NN	Heft	_	O	O	
+19-10	der	ART	die	_	O	O	
+19-11	Institutswerke	NN	<unknown>	_	O	O	
+19-12	denken	VVINF	denken	_	O	O	
+19-13	,	$,	,	_	O	O	
+19-14	damit	KOUS	damit	_	O	O	
+19-15	wir	PPER	wir	_	O	O	
+19-16	uns	PRF	wir	_	O	O	
+19-17	keine	PIAT	keine	_	O	O	
+

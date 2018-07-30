@@ -1,0 +1,62 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=· .
+1-1	·	NN	<unknown>	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=.
+7-1	.	$.	.	_	O	O	
+
+#id=8
+#text=.
+8-1	.	$.	.	_	O	O	
+
+#id=9
+#text=.
+9-1	.	$.	.	_	O	O	
+
+#id=10
+#text=2 grüßt herzlich.
+10-1	2	CARD	2	_	O	O	
+10-2	grüßt	VVFIN	grüßen	_	O	O	
+10-3	herzlich	ADJD	herzlich	_	O	O	
+10-4	.	$.	.	_	O	O	
+
+#id=11
+#text=Gerhard an Henzen Berlin, 8. August 1846 Von Herzen der Ihrige Gerhard
+11-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+11-2	an	APPR	an	_	O	O	
+11-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+11-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+11-5	,	$,	,	_	O	O	
+11-6	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+11-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+11-8	August	NN	August	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+11-9	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+11-10	Von	APPR	von	_	O	O	
+11-11	Herzen	NN	Herz	_	O	O	
+11-12	der	ART	die	_	O	O	
+11-13	Ihrige	PPOSAT	ihrige	_	O	O	
+11-14	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

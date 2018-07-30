@@ -1,0 +1,235 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=29 Gerhard an Henzen Berlin, 2. Januar 1844 2 ganz vergessen zu haben?
+1-1	29	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	O	O	
+1-5	Berlin	NE	Berlin	_	O	O	
+1-6	,	$,	,	_	O	O	
+1-7	2	CARD	2	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-9	Januar	NN	Januar	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-10	1844	CARD	1844	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	2	CARD	2	_	O	O	
+1-12	ganz	ADV	ganz	_	O	O	
+1-13	vergessen	VVPP	vergessen	_	O	O	
+1-14	zu	PTKZU	zu	_	O	O	
+1-15	haben	VAINF	haben	_	O	O	
+1-16	?	$.	?	_	O	O	
+
+#id=2
+#text=Im Winter wird er noch weniger dazu gelangen.
+2-1	Im	APPRART	in	_	O	O	
+2-2	Winter	NN	Winter	_	O	O	
+2-3	wird	VAFIN	werden	_	O	O	
+2-4	er	PPER	er	_	O	O	
+2-5	noch	ADV	noch	_	O	O	
+2-6	weniger	ADV	weniger	_	O	O	
+2-7	dazu	PAV	dazu	_	O	O	
+2-8	gelangen	VVINF	gelangen	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihrer Anzeige meiner Werke auf Anlaß der 27 Spt glaube ich bereits bestens gedankt zu haben; es ist mir lieb daß eine Preisnotiz auf fliegendem Baltt dem Bullettino beigeht.
+3-1	Ihrer	PPOSAT	ihr	_	O	O	
+3-2	Anzeige	NN	Anzeige	_	O	O	
+3-3	meiner	PPOSAT	mein	_	O	O	
+3-4	Werke	NN	Werk	_	O	O	
+3-5	auf	APPR	auf	_	O	O	
+3-6	Anlaß	NN	Anlass	_	O	O	
+3-7	der	ART	die	_	O	O	
+3-8	27	CARD	27	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+3-9	Spt	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+3-10	glaube	VVFIN	glauben	_	O	O	
+3-11	ich	PPER	ich	_	O	O	
+3-12	bereits	ADV	bereits	_	O	O	
+3-13	bestens	ADV	bestens	_	O	O	
+3-14	gedankt	VVPP	danken	_	O	O	
+3-15	zu	PTKZU	zu	_	O	O	
+3-16	haben	VAINF	haben	_	O	O	
+3-17	;	$.	;	_	O	O	
+3-18	es	PPER	es	_	O	O	
+3-19	ist	VAFIN	sein	_	O	O	
+3-20	mir	PPER	ich	_	O	O	
+3-21	lieb	ADJD	lieb	_	O	O	
+3-22	daß	KOUS	dass	_	O	O	
+3-23	eine	ART	eine	_	O	O	
+3-24	Preisnotiz	NN	<unknown>	_	O	O	
+3-25	auf	APPR	auf	_	O	O	
+3-26	fliegendem	ADJA	fliegend	_	O	O	
+3-27	Baltt	NN	<unknown>	_	O	O	
+3-28	dem	ART	die	_	O	O	
+3-29	Bullettino	NN	<unknown>	_	O	O	
+3-30	beigeht	VVFIN	<unknown>	_	O	O	
+3-31	.	$.	.	_	O	O	
+
+#id=4
+#text=Thut Aloe denn gar nichts dafür und Gennarelli ?
+4-1	Thut	NE	<unknown>	_	O	O	
+4-2	Aloe	NN	Aloe	_	O	O	
+4-3	denn	KON	denn	_	O	O	
+4-4	gar	ADV	gar	_	O	O	
+4-5	nichts	PIS	nichts	_	O	O	
+4-6	dafür	PAV	dafür	_	O	O	
+4-7	und	KON	und	_	O	O	
+4-8	Gennarelli	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-9	?	$.	?	_	O	O	
+
+#id=5
+#text=Von Canina habe ich alle B~iefBcmaft€nerhalten; Dank Ihrer zweckmäßigen Sendungsweise !
+5-1	Von	APPR	von	_	O	O	
+5-2	Canina	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-3	habe	VAFIN	haben	_	O	O	
+5-4	ich	PPER	ich	_	O	O	
+5-5	alle	PIAT	alle	_	O	O	
+5-6	B~iefBcmaft€nerhalten	NN	<unknown>	_	O	O	
+5-7	;	$.	;	_	O	O	
+5-8	Dank	APPR	dank	_	O	O	
+5-9	Ihrer	PPOSAT	ihr	_	O	O	
+5-10	zweckmäßigen	ADJA	zweckmäßig	_	O	O	
+5-11	Sendungsweise	NN	<unknown>	_	O	O	
+5-12	!	$.	!	_	O	O	
+
+#id=6
+#text=Das seit Anfang der Institutswerke oft wieder aufgegebne Desiderat eines regelmäßigen bibliographischen Anzeigers denke ich jetzt ne.u anzufassen, so daß die Archäologische Zeitung nächstens ein Titelverzeichnis Alles seit 1842 in Bezug auf Kunstdenkmäler (incl. Epigraphik und Topographie) in selbstständigen Büchern oder zerstreuten Aufsätzen Erschienene geben soll, welches sodann halbjährig fortgesetzt werden kann.
+6-1	Das	ART	die	_	O	O	
+6-2	seit	APPR	seit	_	O	O	
+6-3	Anfang	NN	Anfang	_	O	O	
+6-4	der	ART	die	_	O	O	
+6-5	Institutswerke	NN	<unknown>	_	O	O	
+6-6	oft	ADV	oft	_	O	O	
+6-7	wieder	ADV	wieder	_	O	O	
+6-8	aufgegebne	ADJA	<unknown>	_	O	O	
+6-9	Desiderat	NN	Desiderat	_	O	O	
+6-10	eines	ART	eine	_	O	O	
+6-11	regelmäßigen	ADJA	regelmäßig	_	O	O	
+6-12	bibliographischen	ADJA	bibliographisch	_	O	O	
+6-13	Anzeigers	NN	Anzeiger	_	O	O	
+6-14	denke	VVFIN	denken	_	O	O	
+6-15	ich	PPER	ich	_	O	O	
+6-16	jetzt	ADV	jetzt	_	O	O	
+6-17	ne.u	NE	<unknown>	_	O	O	
+6-18	anzufassen	VVIZU	anfassen	_	O	O	
+6-19	,	$,	,	_	O	O	
+6-20	so	ADV	so	_	O	O	
+6-21	daß	KOUS	dass	_	O	O	
+6-22	die	ART	die	_	O	O	
+6-23	Archäologische	ADJA	archäologisch	_	O	O	
+6-24	Zeitung	NN	Zeitung	_	O	O	
+6-25	nächstens	ADV	nächstens	_	O	O	
+6-26	ein	ART	eine	_	O	O	
+6-27	Titelverzeichnis	NN	<unknown>	_	O	O	
+6-28	Alles	PIS	alle	_	O	O	
+6-29	seit	APPR	seit	_	O	O	
+6-30	1842	CARD	1842	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+6-31	in	APPR	in	_	O	O	
+6-32	Bezug	NN	Bezug	_	O	O	
+6-33	auf	APPR	auf	_	O	O	
+6-34	Kunstdenkmäler	NN	Kunstdenkmal	_	O	O	
+6-35	(	$(	(	_	O	O	
+6-36	incl.	APPR	incl.	_	O	O	
+6-37	Epigraphik	NN	<unknown>	_	O	O	
+6-38	und	KON	und	_	O	O	
+6-39	Topographie	NN	Topographie	_	O	O	
+6-40	)	$(	)	_	O	O	
+6-41	in	APPR	in	_	O	O	
+6-42	selbstständigen	ADJA	selbständig	_	O	O	
+6-43	Büchern	NN	Buch	_	O	O	
+6-44	oder	KON	oder	_	O	O	
+6-45	zerstreuten	ADJA	zerstreut	_	O	O	
+6-46	Aufsätzen	NN	Aufsatz	_	O	O	
+6-47	Erschienene	NN	<unknown>	_	O	O	
+6-48	geben	VVINF	geben	_	O	O	
+6-49	soll	VMFIN	sollen	_	O	O	
+6-50	,	$,	,	_	O	O	
+6-51	welches	PWAT	welche	_	O	O	
+6-52	sodann	ADV	sodann	_	O	O	
+6-53	halbjährig	ADJD	halbjährig	_	O	O	
+6-54	fortgesetzt	VVPP	fortsetzen	_	O	O	
+6-55	werden	VAINF	werden	_	O	O	
+6-56	kann	VMFIN	können	_	O	O	
+6-57	.	$.	.	_	O	O	
+
+#id=7
+#text=Verweisung auf erhebliche Recension soll beigefügt werden; von jedem Buch oder Aufsatz die Seitenzahl.
+7-1	Verweisung	NN	Verweisung	_	O	O	
+7-2	auf	APPR	auf	_	O	O	
+7-3	erhebliche	ADJA	erheblich	_	O	O	
+7-4	Recension	NN	<unknown>	_	O	O	
+7-5	soll	VMFIN	sollen	_	O	O	
+7-6	beigefügt	VVPP	beifügen	_	O	O	
+7-7	werden	VAINF	werden	_	O	O	
+7-8	;	$.	;	_	O	O	
+7-9	von	APPR	von	_	O	O	
+7-10	jedem	PIAT	jede	_	O	O	
+7-11	Buch	NN	Buch	_	O	O	
+7-12	oder	KON	oder	_	O	O	
+7-13	Aufsatz	NN	Aufsatz	_	O	O	
+7-14	die	ART	die	_	O	O	
+7-15	Seitenzahl	NN	Seitenzahl	_	O	O	
+7-16	.	$.	.	_	O	O	
+
+#id=8
+#text=Der erste Versuch dieser Art wird sehr mangelhaft ausfallen; damit er es möglichst wenig werde, werden Sie mich durch verbinden Aufzeichnung der dahin einschlagenden Novitäten, die sich aus dem Bullettino nicht entnehmen lassen.
+8-1	Der	ART	die	_	O	O	
+8-2	erste	ADJA	erst	_	O	O	
+8-3	Versuch	NN	Versuch	_	O	O	
+8-4	dieser	PDAT	dies	_	O	O	
+8-5	Art	NN	Art	_	O	O	
+8-6	wird	VAFIN	werden	_	O	O	
+8-7	sehr	ADV	sehr	_	O	O	
+8-8	mangelhaft	ADJD	mangelhaft	_	O	O	
+8-9	ausfallen	VVINF	ausfallen	_	O	O	
+8-10	;	$.	;	_	O	O	
+8-11	damit	KOUS	damit	_	O	O	
+8-12	er	PPER	er	_	O	O	
+8-13	es	PPER	es	_	O	O	
+8-14	möglichst	ADV	möglichst	_	O	O	
+8-15	wenig	ADV	wenig	_	O	O	
+8-16	werde	VAFIN	werden	_	O	O	
+8-17	,	$,	,	_	O	O	
+8-18	werden	VAFIN	werden	_	O	O	
+8-19	Sie	PPER	Sie	_	O	O	
+8-20	mich	PPER	ich	_	O	O	
+8-21	durch	PTKVZ	durch	_	O	O	
+8-22	verbinden	VVFIN	verbinden	_	O	O	
+8-23	Aufzeichnung	NN	Aufzeichnung	_	O	O	
+8-24	der	ART	die	_	O	O	
+8-25	dahin	PAV	dahin	_	O	O	
+8-26	einschlagenden	ADJA	einschlagend	_	O	O	
+8-27	Novitäten	NN	Novität	_	O	O	
+8-28	,	$,	,	_	O	O	
+8-29	die	PRELS	die	_	O	O	
+8-30	sich	PRF	sich	_	O	O	
+8-31	aus	APPR	aus	_	O	O	
+8-32	dem	ART	die	_	O	O	
+8-33	Bullettino	NN	<unknown>	_	O	O	
+8-34	nicht	PTKNEG	nicht	_	O	O	
+8-35	entnehmen	VVINF	entnehmen	_	O	O	
+8-36	lassen	VVFIN	lassen	_	O	O	
+8-37	.	$.	.	_	O	O	
+
+#id=9
+#text=Namentlich auch den jetzigen Stand von Caninas Werken.
+9-1	Namentlich	ADJD	namentlich	_	O	O	
+9-2	auch	ADV	auch	_	O	O	
+9-3	den	ART	die	_	O	O	
+9-4	jetzigen	ADJA	jetzig	_	O	O	
+9-5	Stand	NN	Stand	_	O	O	
+9-6	von	APPR	von	_	O	O	
+9-7	Caninas	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-8	Werken	NN	Werk	_	O	O	
+9-9	.	$.	.	_	O	O	
+
+#id=10
+#text=Vollard und Kestner und zunächst die ganze liebe
+10-1	Vollard	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	und	KON	und	_	O	O	
+10-3	Kestner	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-4	und	KON	und	_	O	O	
+10-5	zunächst	ADV	zunächst	_	O	O	
+10-6	die	ART	die	_	O	O	
+10-7	ganze	ADJA	ganz	_	O	O	
+10-8	liebe	ADJA	lieb	_	O	O	
+

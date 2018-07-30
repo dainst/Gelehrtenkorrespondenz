@@ -1,0 +1,283 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=.
+1-1	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=.
+7-1	.	$.	.	_	O	O	
+
+#id=8
+#text=.
+8-1	.	$.	.	_	O	O	
+
+#id=9
+#text=sigen mögen.
+9-1	sigen	NN	<unknown>	_	O	O	
+9-2	mögen	VMFIN	mögen	_	O	O	
+9-3	.	$.	.	_	O	O	
+
+#id=10
+#text=2 Gerhard an Henzen Berlin, 19. Mai 1846 Die epigraphische Angelegenheit hat wegen Geschäftshäufung der Akademie nochmals vertagt werden müssen, kommt aber nächstens in einer außerordentlichen Sitzung daran.
+10-1	2	CARD	2	_	O	O	
+10-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+10-3	an	APPR	an	_	O	O	
+10-4	Henzen	NN	<unknown>	_	O	O	
+10-5	Berlin	NE	Berlin	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+10-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+10-9	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+10-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+10-11	Die	ART	die	_	O	O	
+10-12	epigraphische	ADJA	<unknown>	_	O	O	
+10-13	Angelegenheit	NN	Angelegenheit	_	O	O	
+10-14	hat	VAFIN	haben	_	O	O	
+10-15	wegen	APPR	wegen	_	O	O	
+10-16	Geschäftshäufung	NN	<unknown>	_	O	O	
+10-17	der	ART	die	_	O	O	
+10-18	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-19	nochmals	ADV	nochmals	_	O	O	
+10-20	vertagt	VVPP	vertagen	_	O	O	
+10-21	werden	VAINF	werden	_	O	O	
+10-22	müssen	VMINF	müssen	_	O	O	
+10-23	,	$,	,	_	O	O	
+10-24	kommt	VVFIN	kommen	_	O	O	
+10-25	aber	ADV	aber	_	O	O	
+10-26	nächstens	ADV	nächstens	_	O	O	
+10-27	in	APPR	in	_	O	O	
+10-28	einer	ART	eine	_	O	O	
+10-29	außerordentlichen	ADJA	außerordentlich	_	O	O	
+10-30	Sitzung	NN	Sitzung	_	O	O	
+10-31	daran	PAV	daran	_	O	O	
+10-32	.	$.	.	_	O	O	
+
+#id=11
+#text=Meine akademische Anzeige für Secchi durch Campana ist doch angelangt ?
+11-1	Meine	PPOSAT	mein	_	O	O	
+11-2	akademische	ADJA	akademisch	_	O	O	
+11-3	Anzeige	NN	Anzeige	_	O	O	
+11-4	für	APPR	für	_	O	O	
+11-5	Secchi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-6	durch	APPR	durch	_	O	O	
+11-7	Campana	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-8	ist	VAFIN	sein	_	O	O	
+11-9	doch	ADV	doch	_	O	O	
+11-10	angelangt	VVPP	angelangen	_	O	O	
+11-11	?	$.	?	_	O	O	
+
+#id=12
+#text=Vom Monumentum Ancyranum ed.
+12-1	Vom	APPRART	von	_	O	O	
+12-2	Monumentum	NN	<unknown>	_	O	O	
+12-3	Ancyranum	NN	<unknown>	_	O	O	
+12-4	ed.	VVFIN	<unknown>	_	O	O	
+
+#id=13
+#text=Franz mit Commentar von Akd.
+13-1	Franz	NE	Franz	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	mit	APPR	mit	_	O	O	
+13-3	Commentar	NN	<unknown>	_	O	O	
+13-4	von	APPR	von	_	O	O	
+13-5	Akd	NN	<unknown>	_	O	O	
+13-6	.	$.	.	_	O	O	
+
+#id=14
+#text=Zumpt wissen Sie.
+14-1	Zumpt	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	wissen	VVFIN	wissen	_	O	O	
+14-3	Sie	PPER	Sie	_	O	O	
+14-4	.	$.	.	_	O	O	
+
+#id=15
+#text=Das Ministerium hat um die 6 Exemplare Annalen gemahnt, ioh habe es vertröstet und mahne wieder in Paris um wo möglich beide Jahrgänge gleichzeitig rühmen zu können.
+15-1	Das	ART	die	_	O	O	
+15-2	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+15-3	hat	VAFIN	haben	_	O	O	
+15-4	um	APPR	um	_	O	O	
+15-5	die	ART	die	_	O	O	
+15-6	6	CARD	6	_	O	O	
+15-7	Exemplare	NN	Exemplar	_	O	O	
+15-8	Annalen	NN	Annalen	_	O	O	
+15-9	gemahnt	VVPP	mahnen	_	O	O	
+15-10	,	$,	,	_	O	O	
+15-11	ioh	ADJD	<unknown>	_	O	O	
+15-12	habe	VAFIN	haben	_	O	O	
+15-13	es	PPER	es	_	O	O	
+15-14	vertröstet	VVPP	vertrösten	_	O	O	
+15-15	und	KON	und	_	O	O	
+15-16	mahne	VVFIN	mahnen	_	O	O	
+15-17	wieder	ADV	wieder	_	O	O	
+15-18	in	APPR	in	_	O	O	
+15-19	Paris	NE	Paris	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+15-20	um	PTKVZ	um	_	O	O	
+15-21	wo	PWAV	wo	_	O	O	
+15-22	möglich	ADJD	möglich	_	O	O	
+15-23	beide	PIAT	beide	_	O	O	
+15-24	Jahrgänge	NN	Jahrgang	_	O	O	
+15-25	gleichzeitig	ADJD	gleichzeitig	_	O	O	
+15-26	rühmen	VVINF	rühmen	_	O	O	
+15-27	zu	PTKZU	zu	_	O	O	
+15-28	können	VMINF	können	_	O	O	
+15-29	.	$.	.	_	O	O	
+
+#id=16
+#text=Meine Frau ist noch in Frankfurt und wird also wol erst im nächsten Monat hier sein oder wenig früher.
+16-1	Meine	PPOSAT	mein	_	O	O	
+16-2	Frau	NN	Frau	_	O	O	
+16-3	ist	VAFIN	sein	_	O	O	
+16-4	noch	ADV	noch	_	O	O	
+16-5	in	APPR	in	_	O	O	
+16-6	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+16-7	und	KON	und	_	O	O	
+16-8	wird	VAFIN	werden	_	O	O	
+16-9	also	ADV	also	_	O	O	
+16-10	wol	ADJD	<unknown>	_	O	O	
+16-11	erst	ADV	erst	_	O	O	
+16-12	im	APPRART	in	_	O	O	
+16-13	nächsten	ADJA	nah	_	O	O	
+16-14	Monat	NN	Monat	_	O	O	
+16-15	hier	ADV	hier	_	O	O	
+16-16	sein	VAINF	sein	_	O	O	
+16-17	oder	KON	oder	_	O	O	
+16-18	wenig	ADV	wenig	_	O	O	
+16-19	früher	ADJD	früh	_	O	O	
+16-20	.	$.	.	_	O	O	
+
+#id=17
+#text=Wiese ist einer der 3 frommen Laien bei der Synode, außerdem durch das Alumnat im Joachimsthal mit Würden und Bürden bedrückt.
+17-1	Wiese	NE	Wiese	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-2	ist	VAFIN	sein	_	O	O	
+17-3	einer	PIS	eine	_	O	O	
+17-4	der	ART	die	_	O	O	
+17-5	3	CARD	3	_	O	O	
+17-6	frommen	ADJA	fromm	_	O	O	
+17-7	Laien	NN	Laie	_	O	O	
+17-8	bei	APPR	bei	_	O	O	
+17-9	der	ART	die	_	O	O	
+17-10	Synode	NN	Synode	_	O	O	
+17-11	,	$,	,	_	O	O	
+17-12	außerdem	ADV	außerdem	_	O	O	
+17-13	durch	APPR	durch	_	O	O	
+17-14	das	ART	die	_	O	O	
+17-15	Alumnat	NN	<unknown>	_	O	O	
+17-16	im	APPRART	in	_	O	O	
+17-17	Joachimsthal	NE	<unknown>	_	O	O	
+17-18	mit	APPR	mit	_	O	O	
+17-19	Würden	NN	Würde	_	O	O	
+17-20	und	KON	und	_	O	O	
+17-21	Bürden	NN	Bürde	_	O	O	
+17-22	bedrückt	VVPP	bedrücken	_	O	O	
+17-23	.	$.	.	_	O	O	
+
+#id=18
+#text=Mit allem Herzlichen Ihr Gerhard Zur Commission für Ihre Schrift wird mir Schwetschke in Halle empfohlen; vermuthlich zu 50 rt Rabatt.
+18-1	Mit	APPR	mit	_	O	O	
+18-2	allem	PIAT	alle	_	O	O	
+18-3	Herzlichen	NN	Herzliche	_	O	O	
+18-4	Ihr	PPOSAT	ihr	_	O	O	
+18-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+18-6	Zur	APPRART	zu	_	O	O	
+18-7	Commission	NN	<unknown>	_	O	O	
+18-8	für	APPR	für	_	O	O	
+18-9	Ihre	PPOSAT	ihr	_	O	O	
+18-10	Schrift	NN	Schrift	_	O	O	
+18-11	wird	VAFIN	werden	_	O	O	
+18-12	mir	PPER	ich	_	O	O	
+18-13	Schwetschke	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+18-14	in	APPR	in	_	O	O	
+18-15	Halle	NN	Halle	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+18-16	empfohlen	VVPP	empfehlen	_	O	O	
+18-17	;	$.	;	_	O	O	
+18-18	vermuthlich	ADJD	<unknown>	_	O	O	
+18-19	zu	APPR	zu	_	O	O	
+18-20	50	CARD	50	_	O	O	
+18-21	rt	ADJA	<unknown>	_	O	O	
+18-22	Rabatt	NN	Rabatt	_	O	O	
+18-23	.	$.	.	_	O	O	
+
+#id=19
+#text=.
+19-1	.	$.	.	_	O	O	
+
+#id=20
+#text=.
+20-1	.	$.	.	_	O	O	
+
+#id=21
+#text=.
+21-1	.	$.	.	_	O	O	
+
+#id=22
+#text=.
+22-1	.	$.	.	_	O	O	
+
+#id=23
+#text=.
+23-1	.	$.	.	_	O	O	
+
+#id=24
+#text=.
+24-1	.	$.	.	_	O	O	
+
+#id=25
+#text=.
+25-1	.	$.	.	_	O	O	
+
+#id=26
+#text=.
+26-1	.	$.	.	_	O	O	
+
+#id=27
+#text=.
+27-1	.	$.	.	_	O	O	
+
+#id=28
+#text=.
+28-1	.	$.	.	_	O	O	
+
+#id=29
+#text=.
+29-1	.	$.	.	_	O	O	
+
+#id=30
+#text=Stich und Druck für 1846?
+30-1	Stich	NN	Stich	_	O	O	
+30-2	und	KON	und	_	O	O	
+30-3	Druck	NN	Druck	_	O	O	
+30-4	für	APPR	für	_	O	O	
+30-5	1846	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+30-6	?	$.	?	_	O	O	
+
+#id=31
+#text=Kann man nicht bald einen Probedruck der Ergotimosvase erlan-
+31-1	Kann	VMFIN	können	_	O	O	
+31-2	man	PIS	man	_	O	O	
+31-3	nicht	PTKNEG	nicht	_	O	O	
+31-4	bald	ADV	bald	_	O	O	
+31-5	einen	ART	eine	_	O	O	
+31-6	Probedruck	NN	Probedruck	_	O	O	
+31-7	der	ART	die	_	O	O	
+31-8	Ergotimosvase	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+31-9	erlan-	TRUNC	<unknown>	_	O	O	
+

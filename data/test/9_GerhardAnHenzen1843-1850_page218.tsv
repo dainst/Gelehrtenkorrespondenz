@@ -1,0 +1,234 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=22 A. di Dir.
+1-1	22	CARD	22	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=D. Henzen Mein we~rtfr Freund.
+2-1	D.	ART	d.	_	O	O	
+2-2	Henzen	NN	<unknown>	_	O	O	
+2-3	Mein	PPOSAT	mein	_	O	O	
+2-4	we~rtfr	NE	<unknown>	_	O	O	
+2-5	Freund	NE	Freund	_	O	O	
+2-6	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Henzen Berlin 16/IX/1850 g. 23/IX 50 r.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-2	an	APPR	an	_	O	O	
+3-3	Henzen	NN	<unknown>	_	O	O	
+3-4	Berlin	NE	Berlin	_	O	O	
+3-5	16/IX/1850	CARD	<unknown>	_	O	O	
+3-6	g.	ADJA	<unknown>	_	O	O	
+3-7	23/IX	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-8	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+3-9	r.	ADJA	<unknown>	_	O	O	
+
+#id=4
+#text=24/IX 50 Berlin 16/9 50 Ihren inhaltschweren Brief aus Perugia ruhig zu beantworten, fand sich während meines diesmaligen kurzen Ausflugs keine hinlängliche Ruhe und es war um so besser diese bis zu meiner eben erfolgten Rückkehr hieher abzuwar- ~ ten ~ ich nun auch von andrer Seite um eine Vermittelung Ihrer Differenz mit Braun angesprochen wurde.
+4-1	24/IX	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+4-2	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+4-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-4	16/9	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-5	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-6	Ihren	PPOSAT	ihr	_	O	O	
+4-7	inhaltschweren	ADJA	<unknown>	_	O	O	
+4-8	Brief	NN	Brief	_	O	O	
+4-9	aus	APPR	aus	_	O	O	
+4-10	Perugia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-11	ruhig	ADJD	ruhig	_	O	O	
+4-12	zu	PTKZU	zu	_	O	O	
+4-13	beantworten	VVINF	beantworten	_	O	O	
+4-14	,	$,	,	_	O	O	
+4-15	fand	VVFIN	finden	_	O	O	
+4-16	sich	PRF	sich	_	O	O	
+4-17	während	APPR	während	_	O	O	
+4-18	meines	PPOSAT	mein	_	O	O	
+4-19	diesmaligen	ADJA	diesmalig	_	O	O	
+4-20	kurzen	ADJA	kurz	_	O	O	
+4-21	Ausflugs	NN	Ausflug	_	O	O	
+4-22	keine	PIAT	keine	_	O	O	
+4-23	hinlängliche	ADJA	hinlänglich	_	O	O	
+4-24	Ruhe	NN	Ruhe	_	O	O	
+4-25	und	KON	und	_	O	O	
+4-26	es	PPER	es	_	O	O	
+4-27	war	VAFIN	sein	_	O	O	
+4-28	um	APPR	um	_	O	O	
+4-29	so	ADV	so	_	O	O	
+4-30	besser	ADJD	gut	_	O	O	
+4-31	diese	PDAT	dies	_	O	O	
+4-32	bis	KON	bis	_	O	O	
+4-33	zu	APPR	zu	_	O	O	
+4-34	meiner	PPOSAT	mein	_	O	O	
+4-35	eben	ADV	eben	_	O	O	
+4-36	erfolgten	ADJA	erfolgt	_	O	O	
+4-37	Rückkehr	NN	Rückkehr	_	O	O	
+4-38	hieher	NN	<unknown>	_	O	O	
+4-39	abzuwar-	VVIZU	<unknown>	_	O	O	
+4-40	~	XY	~	_	O	O	
+4-41	ten	NE	ten	_	O	O	
+4-42	~	XY	~	_	O	O	
+4-43	ich	PPER	ich	_	O	O	
+4-44	nun	ADV	nun	_	O	O	
+4-45	auch	ADV	auch	_	O	O	
+4-46	von	APPR	von	_	O	O	
+4-47	andrer	PIAT	andere	_	O	O	
+4-48	Seite	NN	Seite	_	O	O	
+4-49	um	APPR	um	_	O	O	
+4-50	eine	ART	eine	_	O	O	
+4-51	Vermittelung	NN	<unknown>	_	O	O	
+4-52	Ihrer	PPOSAT	ihr	_	O	O	
+4-53	Differenz	NN	Differenz	_	O	O	
+4-54	mit	APPR	mit	_	O	O	
+4-55	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-56	angesprochen	VVPP	ansprechen	_	O	O	
+4-57	wurde	VAFIN	werden	_	O	O	
+4-58	.	$.	.	_	O	O	
+
+#id=5
+#text=Ein Vermittler ist zuerst verpflichtet beide ~heile einigermaßen,auszuschalten, und so schelte ich Sie ~egen etw~ige Ihnen nicht zukommende Arbeitslast nicht früher protestirt, Ihre Verpflichtungen nicht früher scharf begrenzt, endlich als der Uebelstand kaum mehr erträglich war eine Audienz bei Braun nicht für irgend eine ruhige Stunde die sich hätte finden müssen erpreßt zu haben es hätten zwei durch persönliches Verhältniß und durch gleiches Wohlwollen für das Institut einander so nahe stehendei,Männer.
+5-1	Ein	ART	eine	_	O	O	
+5-2	Vermittler	NN	Vermittler	_	O	O	
+5-3	ist	VAFIN	sein	_	O	O	
+5-4	zuerst	ADV	zuerst	_	O	O	
+5-5	verpflichtet	ADJD	verpflichtet	_	O	O	
+5-6	beide	PIAT	beide	_	O	O	
+5-7	~heile	NN	<unknown>	_	O	O	
+5-8	einigermaßen,auszuschalten	VVFIN	<unknown>	_	O	O	
+5-9	,	$,	,	_	O	O	
+5-10	und	KON	und	_	O	O	
+5-11	so	ADV	so	_	O	O	
+5-12	schelte	VVFIN	<unknown>	_	O	O	
+5-13	ich	PPER	ich	_	O	O	
+5-14	Sie	PPER	Sie	_	O	O	
+5-15	~egen	ADJA	<unknown>	_	O	O	
+5-16	etw~ige	ADJA	<unknown>	_	O	O	
+5-17	Ihnen	PPER	Sie	_	O	O	
+5-18	nicht	PTKNEG	nicht	_	O	O	
+5-19	zukommende	ADJA	zukommend	_	O	O	
+5-20	Arbeitslast	NN	Arbeitslast	_	O	O	
+5-21	nicht	PTKNEG	nicht	_	O	O	
+5-22	früher	ADV	früher	_	O	O	
+5-23	protestirt	NN	<unknown>	_	O	O	
+5-24	,	$,	,	_	O	O	
+5-25	Ihre	PPOSAT	ihr	_	O	O	
+5-26	Verpflichtungen	NN	Verpflichtung	_	O	O	
+5-27	nicht	PTKNEG	nicht	_	O	O	
+5-28	früher	ADV	früher	_	O	O	
+5-29	scharf	ADJD	scharf	_	O	O	
+5-30	begrenzt	ADJD	begrenzt	_	O	O	
+5-31	,	$,	,	_	O	O	
+5-32	endlich	ADV	endlich	_	O	O	
+5-33	als	KOKOM	als	_	O	O	
+5-34	der	ART	die	_	O	O	
+5-35	Uebelstand	NN	<unknown>	_	O	O	
+5-36	kaum	ADV	kaum	_	O	O	
+5-37	mehr	ADV	mehr	_	O	O	
+5-38	erträglich	ADJD	erträglich	_	O	O	
+5-39	war	VAFIN	sein	_	O	O	
+5-40	eine	ART	eine	_	O	O	
+5-41	Audienz	NN	Audienz	_	O	O	
+5-42	bei	APPR	bei	_	O	O	
+5-43	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-44	nicht	PTKNEG	nicht	_	O	O	
+5-45	für	APPR	für	_	O	O	
+5-46	irgend	ADV	irgend	_	O	O	
+5-47	eine	ART	eine	_	O	O	
+5-48	ruhige	ADJA	ruhig	_	O	O	
+5-49	Stunde	NN	Stunde	_	O	O	
+5-50	die	ART	die	_	O	O	
+5-51	sich	PRF	sich	_	O	O	
+5-52	hätte	VAFIN	haben	_	O	O	
+5-53	finden	VVINF	finden	_	O	O	
+5-54	müssen	VMINF	müssen	_	O	O	
+5-55	erpreßt	VVPP	erpressen	_	O	O	
+5-56	zu	PTKZU	zu	_	O	O	
+5-57	haben	VAINF	haben	_	O	O	
+5-58	es	PPER	es	_	O	O	
+5-59	hätten	VAFIN	haben	_	O	O	
+5-60	zwei	CARD	zwei	_	O	O	
+5-61	durch	APPR	durch	_	O	O	
+5-62	persönliches	ADJA	persönlich	_	O	O	
+5-63	Verhältniß	NN	<unknown>	_	O	O	
+5-64	und	KON	und	_	O	O	
+5-65	durch	APPR	durch	_	O	O	
+5-66	gleiches	ADJA	gleich	_	O	O	
+5-67	Wohlwollen	NN	Wohlwollen	_	O	O	
+5-68	für	APPR	für	_	O	O	
+5-69	das	ART	die	_	O	O	
+5-70	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-71	einander	PRF	einander	_	O	O	
+5-72	so	ADV	so	_	O	O	
+5-73	nahe	APPR	nahe	_	O	O	
+5-74	stehendei,Männer	NN	<unknown>	_	O	O	
+5-75	.	$.	.	_	O	O	
+
+#id=6
+#text=die Gefahr Monate langer Spannung dem Institut und sich selbst erspart.
+6-1	die	ART	die	_	O	O	
+6-2	Gefahr	NN	Gefahr	_	O	O	
+6-3	Monate	NN	Monat	_	O	O	
+6-4	langer	ADJA	lang	_	O	O	
+6-5	Spannung	NN	Spannung	_	O	O	
+6-6	dem	ART	die	_	O	O	
+6-7	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-8	und	KON	und	_	O	O	
+6-9	sich	PRF	sich	_	O	O	
+6-10	selbst	ADV	selbst	_	O	O	
+6-11	erspart	VVPP	ersparen	_	O	O	
+6-12	.	$.	.	_	O	O	
+
+#id=7
+#text=Sie hätten Ihre Geschäftsgrenzen fester als bisher stellen und durch Ei~weihung Brunns in die Instituts Thätigkeit eine regelmäßige Erleichterung herbeiführen müssen, un1anders kann es auch jetzt nicht werden.
+7-1	Sie	PPER	Sie	_	O	O	
+7-2	hätten	VAFIN	haben	_	O	O	
+7-3	Ihre	PPOSAT	ihr	_	O	O	
+7-4	Geschäftsgrenzen	NN	<unknown>	_	O	O	
+7-5	fester	ADJD	fest	_	O	O	
+7-6	als	KOKOM	als	_	O	O	
+7-7	bisher	ADV	bisher	_	O	O	
+7-8	stellen	VVINF	stellen	_	O	O	
+7-9	und	KON	und	_	O	O	
+7-10	durch	APPR	durch	_	O	O	
+7-11	Ei~weihung	NN	<unknown>	_	O	O	
+7-12	Brunns	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-13	in	APPR	in	_	O	O	
+7-14	die	ART	die	_	O	O	
+7-15	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-16	Thätigkeit	NN	<unknown>	_	O	O	
+7-17	eine	ART	eine	_	O	O	
+7-18	regelmäßige	ADJA	regelmäßig	_	O	O	
+7-19	Erleichterung	NN	Erleichterung	_	O	O	
+7-20	herbeiführen	VVINF	herbeiführen	_	O	O	
+7-21	müssen	VMINF	müssen	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	un1anders	NN	<unknown>	_	O	O	
+7-24	kann	VMFIN	können	_	O	O	
+7-25	es	PPER	es	_	O	O	
+7-26	auch	ADV	auch	_	O	O	
+7-27	jetzt	ADV	jetzt	_	O	O	
+7-28	nicht	PTKNEG	nicht	_	O	O	
+7-29	werden	VAINF	werden	_	O	O	
+7-30	.	$.	.	_	O	O	
+
+#id=8
+#text=Voriges Unrecht müßt Ihr beide Herrn vergessen und wie es von nun an fortgeh~ könne··
+8-1	Voriges	ADJA	vorig	_	O	O	
+8-2	Unrecht	NN	Unrecht	_	O	O	
+8-3	müßt	VMFIN	müssen	_	O	O	
+8-4	Ihr	PPER	sie	_	O	O	
+8-5	beide	PIAT	beide	_	O	O	
+8-6	Herrn	NN	Herr	_	O	O	
+8-7	vergessen	VVPP	vergessen	_	O	O	
+8-8	und	KON	und	_	O	O	
+8-9	wie	KOUS	wie	_	O	O	
+8-10	es	PPER	es	_	O	O	
+8-11	von	APPR	von	_	O	O	
+8-12	nun	ADV	nun	_	O	O	
+8-13	an	APZR	an	_	O	O	
+8-14	fortgeh~	ADJA	<unknown>	_	O	O	
+8-15	könne··	ADJA	<unknown>	_	O	O	
+

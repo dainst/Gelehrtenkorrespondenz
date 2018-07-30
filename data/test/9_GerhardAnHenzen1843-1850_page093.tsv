@@ -1,0 +1,322 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=G. .
+1-1	G.	NE	G.	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=.
+7-1	.	$.	.	_	O	O	
+
+#id=8
+#text=Gerhard an Henzen Berlin, 26 Dezember 1846 g. Berlin 26 Dec 46 •••••••••• lieber Freund ist Ihr Brief mit Bullettino Napoletano tav·.
+8-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+8-2	an	APPR	an	_	O	O	
+8-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+8-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+8-5	,	$,	,	_	O	O	
+8-6	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+8-7	Dezember	NN	Dezember	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-8	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-9	g.	VVFIN	<unknown>	_	O	O	
+8-10	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+8-11	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+8-12	Dec	NE	Dec	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-13	46	CARD	46	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-14	•	NN	<unknown>	_	O	O	
+8-15	•	ADJA	<unknown>	_	O	O	
+8-16	•	NN	<unknown>	_	O	O	
+8-17	•	ADJA	<unknown>	_	O	O	
+8-18	•	NN	<unknown>	_	O	O	
+8-19	•	ADJA	<unknown>	_	O	O	
+8-20	•	NN	<unknown>	_	O	O	
+8-21	•	ADJD	<unknown>	_	O	O	
+8-22	•	ADJA	<unknown>	_	O	O	
+8-23	•	NN	<unknown>	_	O	O	
+8-24	lieber	ADJD	lieb	_	O	O	
+8-25	Freund	NE	Freund	_	O	O	
+8-26	ist	VAFIN	sein	_	O	O	
+8-27	Ihr	PPOSAT	ihr	_	O	O	
+8-28	Brief	NN	Brief	_	O	O	
+8-29	mit	APPR	mit	_	O	O	
+8-30	Bullettino	NE	<unknown>	_	O	O	
+8-31	Napoletano	NE	<unknown>	_	O	O	
+8-32	tav·	VVFIN	<unknown>	_	O	O	
+8-33	.	$.	.	_	O	O	
+
+#id=9
+#text=70 angelangt; besten Dank dafür, es wird sich nachhel •••••••••• en 1 Das Exemplar Annali kam etliche Tage früher.
+9-1	70	CARD	70	_	O	O	
+9-2	angelangt	VVPP	angelangen	_	O	O	
+9-3	;	$.	;	_	O	O	
+9-4	besten	ADJA	gut	_	O	O	
+9-5	Dank	NN	Dank	_	O	O	
+9-6	dafür	PAV	dafür	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	es	PPER	es	_	O	O	
+9-9	wird	VAFIN	werden	_	O	O	
+9-10	sich	PRF	sich	_	O	O	
+9-11	nachhel	ADJD	<unknown>	_	O	O	
+9-12	•	ADJA	<unknown>	_	O	O	
+9-13	•	NN	<unknown>	_	O	O	
+9-14	•	ADJA	<unknown>	_	O	O	
+9-15	•	NN	<unknown>	_	O	O	
+9-16	•	ADJA	<unknown>	_	O	O	
+9-17	•	NN	<unknown>	_	O	O	
+9-18	•	ADJA	<unknown>	_	O	O	
+9-19	•	NN	<unknown>	_	O	O	
+9-20	•	ADJA	<unknown>	_	O	O	
+9-21	•	NN	<unknown>	_	O	O	
+9-22	en	FM	en	_	O	O	
+9-23	1	CARD	1	_	O	O	
+9-24	Das	ART	die	_	O	O	
+9-25	Exemplar	NN	Exemplar	_	O	O	
+9-26	Annali	NE	<unknown>	_	O	O	
+9-27	kam	VVFIN	kommen	_	O	O	
+9-28	etliche	PIAT	etliche	_	O	O	
+9-29	Tage	NN	Tag	_	O	O	
+9-30	früher	ADJD	früh	_	O	O	
+9-31	.	$.	.	_	O	O	
+
+#id=10
+#text=Es ist nicht sehr schmackhaft, aber solid; den •••••• 0 ••• Aufsätzen hätte ich mehr kleine Schrift angewünscht, wie in früheren Jahren.
+10-1	Es	PPER	es	_	O	O	
+10-2	ist	VAFIN	sein	_	O	O	
+10-3	nicht	PTKNEG	nicht	_	O	O	
+10-4	sehr	ADV	sehr	_	O	O	
+10-5	schmackhaft	ADJD	schmackhaft	_	O	O	
+10-6	,	$,	,	_	O	O	
+10-7	aber	ADV	aber	_	O	O	
+10-8	solid	ADJD	solid	_	O	O	
+10-9	;	$.	;	_	O	O	
+10-10	den	ART	die	_	O	O	
+10-11	•	ADJA	<unknown>	_	O	O	
+10-12	•	NN	<unknown>	_	O	O	
+10-13	•	ADJA	<unknown>	_	O	O	
+10-14	•	NN	<unknown>	_	O	O	
+10-15	•	ADJA	<unknown>	_	O	O	
+10-16	•	NN	<unknown>	_	O	O	
+10-17	0	CARD	@card@	_	O	O	
+10-18	•	ADJA	<unknown>	_	O	O	
+10-19	•	NN	<unknown>	_	O	O	
+10-20	•	ADJA	<unknown>	_	O	O	
+10-21	Aufsätzen	NN	Aufsatz	_	O	O	
+10-22	hätte	VAFIN	haben	_	O	O	
+10-23	ich	PPER	ich	_	O	O	
+10-24	mehr	ADV	mehr	_	O	O	
+10-25	kleine	ADJA	klein	_	O	O	
+10-26	Schrift	NN	Schrift	_	O	O	
+10-27	angewünscht	VVFIN	<unknown>	_	O	O	
+10-28	,	$,	,	_	O	O	
+10-29	wie	KOUS	wie	_	O	O	
+10-30	in	APPR	in	_	O	O	
+10-31	früheren	ADJA	früh	_	O	O	
+10-32	Jahren	NN	Jahr	_	O	O	
+10-33	.	$.	.	_	O	O	
+
+#id=11
+#text=Über die •.•••••••• Einsendung erklärt sich auch Bunsen sehr erfreut.
+11-1	Über	APPR	über	_	O	O	
+11-2	die	ART	die	_	O	O	
+11-3	•	NN	<unknown>	_	O	O	
+11-4	.	$.	.	_	O	O	
+11-5	•	ADJA	<unknown>	_	O	O	
+11-6	•	NN	<unknown>	_	O	O	
+11-7	•	ADJA	<unknown>	_	O	O	
+11-8	•	NN	<unknown>	_	O	O	
+11-9	•	ADJD	<unknown>	_	O	O	
+11-10	•	ADJA	<unknown>	_	O	O	
+11-11	•	NN	<unknown>	_	O	O	
+11-12	•	ADJA	<unknown>	_	O	O	
+11-13	Einsendung	NN	Einsendung	_	O	O	
+11-14	erklärt	VVFIN	erklären	_	O	O	
+11-15	sich	PRF	sich	_	O	O	
+11-16	auch	ADV	auch	_	O	O	
+11-17	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-18	sehr	ADV	sehr	_	O	O	
+11-19	erfreut	VVPP	erfreuen	_	O	O	
+11-20	.	$.	.	_	O	O	
+
+#id=12
+#text=Ein Brief der nach langer Zeit von ihm neulich ein ••••••••••• fängt übrigens vom Geständnis an daß mein Rapporto alla Direzione vom vorigen Frühjahr bei ihm •••••••••• legt bleibe; es hll~ also nichts andres als daß Sie mir noch eine Abschrift des rückgebliebenen ••••.••••• besorgen.
+12-1	Ein	ART	eine	_	O	O	
+12-2	Brief	NN	Brief	_	O	O	
+12-3	der	ART	die	_	O	O	
+12-4	nach	APPR	nach	_	O	O	
+12-5	langer	ADJA	lang	_	O	O	
+12-6	Zeit	NN	Zeit	_	O	O	
+12-7	von	APPR	von	_	O	O	
+12-8	ihm	PPER	er	_	O	O	
+12-9	neulich	ADV	neulich	_	O	O	
+12-10	ein	ART	eine	_	O	O	
+12-11	•	ADJA	<unknown>	_	O	O	
+12-12	•	NN	<unknown>	_	O	O	
+12-13	•	ADJA	<unknown>	_	O	O	
+12-14	•	NN	<unknown>	_	O	O	
+12-15	•	ADJA	<unknown>	_	O	O	
+12-16	•	NN	<unknown>	_	O	O	
+12-17	•	ADJD	<unknown>	_	O	O	
+12-18	•	ADJA	<unknown>	_	O	O	
+12-19	•	NN	<unknown>	_	O	O	
+12-20	•	ADJA	<unknown>	_	O	O	
+12-21	•	NN	<unknown>	_	O	O	
+12-22	fängt	VVFIN	fangen	_	O	O	
+12-23	übrigens	ADV	übrigens	_	O	O	
+12-24	vom	APPRART	von	_	O	O	
+12-25	Geständnis	NN	Geständnis	_	O	O	
+12-26	an	APPR	an	_	O	O	
+12-27	daß	KOUS	dass	_	O	O	
+12-28	mein	PPOSAT	mein	_	O	O	
+12-29	Rapporto	NN	<unknown>	_	O	O	
+12-30	alla	NE	Alla	_	O	O	
+12-31	Direzione	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+12-32	vom	APPRART	von	_	O	O	
+12-33	vorigen	ADJA	vorig	_	O	O	
+12-34	Frühjahr	NN	Frühjahr	_	O	O	
+12-35	bei	APPR	bei	_	O	O	
+12-36	ihm	PPER	er	_	O	O	
+12-37	•	ADJA	<unknown>	_	O	O	
+12-38	•	NN	<unknown>	_	O	O	
+12-39	•	ADJA	<unknown>	_	O	O	
+12-40	•	NN	<unknown>	_	O	O	
+12-41	•	ADJA	<unknown>	_	O	O	
+12-42	•	NN	<unknown>	_	O	O	
+12-43	•	ADJA	<unknown>	_	O	O	
+12-44	•	NN	<unknown>	_	O	O	
+12-45	•	ADJA	<unknown>	_	O	O	
+12-46	•	NN	<unknown>	_	O	O	
+12-47	legt	VVFIN	legen	_	O	O	
+12-48	bleibe	VVFIN	bleiben	_	O	O	
+12-49	;	$.	;	_	O	O	
+12-50	es	PPER	es	_	O	O	
+12-51	hll~	VVFIN	<unknown>	_	O	O	
+12-52	also	ADV	also	_	O	O	
+12-53	nichts	PIAT	nichts	_	O	O	
+12-54	andres	PIS	andere	_	O	O	
+12-55	als	KOKOM	als	_	O	O	
+12-56	daß	KOUS	dass	_	O	O	
+12-57	Sie	PPER	Sie	_	O	O	
+12-58	mir	PRF	ich	_	O	O	
+12-59	noch	ADV	noch	_	O	O	
+12-60	eine	ART	eine	_	O	O	
+12-61	Abschrift	NN	Abschrift	_	O	O	
+12-62	des	ART	die	_	O	O	
+12-63	rückgebliebenen	ADJA	<unknown>	_	O	O	
+12-64	•	NN	<unknown>	_	O	O	
+12-65	•	ADJD	<unknown>	_	O	O	
+12-66	•	ADJA	<unknown>	_	O	O	
+12-67	•	NN	<unknown>	_	O	O	
+12-68	.	$.	.	_	O	O	
+12-69	•	ADJA	<unknown>	_	O	O	
+12-70	•	NN	<unknown>	_	O	O	
+12-71	•	ADJD	<unknown>	_	O	O	
+12-72	•	ADJA	<unknown>	_	O	O	
+12-73	•	NN	<unknown>	_	O	O	
+12-74	besorgen	VVFIN	besorgen	_	O	O	
+12-75	.	$.	.	_	O	O	
+
+#id=13
+#text=Der Artikel über Ihre Fatalität mit Frau Mertens folgt als Ausschnitt der Archäologischen Zeitung bei, und bin ich etwas stolz darauf Sie als Redacteur so zu bedienen.
+13-1	Der	ART	die	_	O	O	
+13-2	Artikel	NN	Artikel	_	O	O	
+13-3	über	APPR	über	_	O	O	
+13-4	Ihre	PPOSAT	ihr	_	O	O	
+13-5	Fatalität	NN	Fatalität	_	O	O	
+13-6	mit	APPR	mit	_	O	O	
+13-7	Frau	NN	Frau	_	O	O	
+13-8	Mertens	NE	Mertens	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-9	folgt	VVFIN	folgen	_	O	O	
+13-10	als	KOKOM	als	_	O	O	
+13-11	Ausschnitt	NN	Ausschnitt	_	O	O	
+13-12	der	ART	die	_	O	O	
+13-13	Archäologischen	ADJA	archäologisch	_	O	O	
+13-14	Zeitung	NN	Zeitung	_	O	O	
+13-15	bei	PTKVZ	bei	_	O	O	
+13-16	,	$,	,	_	O	O	
+13-17	und	KON	und	_	O	O	
+13-18	bin	VAFIN	sein	_	O	O	
+13-19	ich	PPER	ich	_	O	O	
+13-20	etwas	ADV	etwas	_	O	O	
+13-21	stolz	ADJD	stolz	_	O	O	
+13-22	darauf	PAV	darauf	_	O	O	
+13-23	Sie	PPER	Sie	_	O	O	
+13-24	als	KOKOM	als	_	O	O	
+13-25	Redacteur	NN	<unknown>	_	O	O	
+13-26	so	ADV	so	_	O	O	
+13-27	zu	PTKZU	zu	_	O	O	
+13-28	bedienen	VVINF	bedienen	_	O	O	
+13-29	.	$.	.	_	O	O	
+
+#id=14
+#text=Daran viel Gelehrtes zu knüpfen, hätte die Sache nur bemerklicher geffiacht, und Ihre Erudition folgt ja doch wol nächstens im Bullettino.
+14-1	Daran	PAV	daran	_	O	O	
+14-2	viel	PIAT	viele	_	O	O	
+14-3	Gelehrtes	NN	<unknown>	_	O	O	
+14-4	zu	PTKZU	zu	_	O	O	
+14-5	knüpfen	VVINF	knüpfen	_	O	O	
+14-6	,	$,	,	_	O	O	
+14-7	hätte	VAFIN	haben	_	O	O	
+14-8	die	ART	die	_	O	O	
+14-9	Sache	NN	Sache	_	O	O	
+14-10	nur	ADV	nur	_	O	O	
+14-11	bemerklicher	ADJD	<unknown>	_	O	O	
+14-12	geffiacht	VVFIN	<unknown>	_	O	O	
+14-13	,	$,	,	_	O	O	
+14-14	und	KON	und	_	O	O	
+14-15	Ihre	PPOSAT	ihr	_	O	O	
+14-16	Erudition	NN	<unknown>	_	O	O	
+14-17	folgt	VVFIN	folgen	_	O	O	
+14-18	ja	ADV	ja	_	O	O	
+14-19	doch	ADV	doch	_	O	O	
+14-20	wol	ADJD	<unknown>	_	O	O	
+14-21	nächstens	ADV	nächstens	_	O	O	
+14-22	im	APPRART	in	_	O	O	
+14-23	Bullettino	NN	<unknown>	_	O	O	
+14-24	.	$.	.	_	O	O	
+
+#id=15
+#text=Wollen Sie dieselbe aber dennoch fürs deutsche Publikum gedruckt haben, so brauchen Sie nur nachzusenden was Sie dafür geeignet De~ f±nden.
+15-1	Wollen	VMFIN	wollen	_	O	O	
+15-2	Sie	PPER	Sie	_	O	O	
+15-3	dieselbe	PDS	dieselbe	_	O	O	
+15-4	aber	ADV	aber	_	O	O	
+15-5	dennoch	ADV	dennoch	_	O	O	
+15-6	fürs	APPRART	fürs	_	O	O	
+15-7	deutsche	ADJA	deutsch	_	O	O	
+15-8	Publikum	NN	Publikum	_	O	O	
+15-9	gedruckt	VVPP	drucken	_	O	O	
+15-10	haben	VAINF	haben	_	O	O	
+15-11	,	$,	,	_	O	O	
+15-12	so	ADV	so	_	O	O	
+15-13	brauchen	VVFIN	brauchen	_	O	O	
+15-14	Sie	PPER	Sie	_	O	O	
+15-15	nur	ADV	nur	_	O	O	
+15-16	nachzusenden	VVIZU	nachsenden	_	O	O	
+15-17	was	PRELS	was	_	O	O	
+15-18	Sie	PPER	Sie	_	O	O	
+15-19	dafür	PAV	dafür	_	O	O	
+15-20	geeignet	ADJD	geeignet	_	O	O	
+15-21	De~	ADJA	<unknown>	_	O	O	
+15-22	f±nden	NN	<unknown>	_	O	O	
+15-23	.	$.	.	_	O	O	
+

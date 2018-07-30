@@ -1,0 +1,80 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=I I I 183 Gerhard an lienzen 29/VIII/1849 2 Werke bezeichnet hat, die ich nun zu viel andern Dingen dem für Sie auf Gelegenheit harrenden Expeditionsfach beilege.
+1-1	I	FM	I	_	O	O	
+1-2	I	FM	I	_	O	O	
+1-3	I	FM	I	_	O	O	
+1-4	183	CARD	@card@	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	lienzen	NN	<unknown>	_	O	O	
+1-8	29/VIII/1849	CARD	<unknown>	_	O	O	
+1-9	2	CARD	2	_	O	O	
+1-10	Werke	NN	Werk	_	O	O	
+1-11	bezeichnet	VVPP	bezeichnen	_	O	O	
+1-12	hat	VAFIN	haben	_	O	O	
+1-13	,	$,	,	_	O	O	
+1-14	die	PRELS	die	_	O	O	
+1-15	ich	PPER	ich	_	O	O	
+1-16	nun	ADV	nun	_	O	O	
+1-17	zu	PTKA	zu	_	O	O	
+1-18	viel	ADV	viel	_	O	O	
+1-19	andern	PIAT	andere	_	O	O	
+1-20	Dingen	NN	Ding	_	O	O	
+1-21	dem	ART	die	_	O	O	
+1-22	für	APPR	für	_	O	O	
+1-23	Sie	PPER	Sie	_	O	O	
+1-24	auf	APPR	auf	_	O	O	
+1-25	Gelegenheit	NN	Gelegenheit	_	O	O	
+1-26	harrenden	ADJA	harrend	_	O	O	
+1-27	Expeditionsfach	NN	<unknown>	_	O	O	
+1-28	beilege	VVFIN	beilegen	_	O	O	
+1-29	.	$.	.	_	O	O	
+
+#id=2
+#text=Von hier aus hätte ich wol kaum noch Erhebliches hinzuzufügen; Lassen Sie mich bei naher Rückkeijr nach Berlin Neues von Ihnen finden.
+2-1	Von	APPR	von	_	O	O	
+2-2	hier	ADV	hier	_	O	O	
+2-3	aus	APZR	aus	_	O	O	
+2-4	hätte	VAFIN	haben	_	O	O	
+2-5	ich	PPER	ich	_	O	O	
+2-6	wol	ADJD	<unknown>	_	O	O	
+2-7	kaum	ADV	kaum	_	O	O	
+2-8	noch	ADV	noch	_	O	O	
+2-9	Erhebliches	NN	Erhebliche	_	O	O	
+2-10	hinzuzufügen	VVIZU	hinzufügen	_	O	O	
+2-11	;	$.	;	_	O	O	
+2-12	Lassen	NN	Lassen	_	O	O	
+2-13	Sie	PPER	Sie	_	O	O	
+2-14	mich	PRF	ich	_	O	O	
+2-15	bei	APPR	bei	_	O	O	
+2-16	naher	ADJA	nah	_	O	O	
+2-17	Rückkeijr	NN	<unknown>	_	O	O	
+2-18	nach	APPR	nach	_	O	O	
+2-19	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-20	Neues	NN	Neue	_	O	O	
+2-21	von	APPR	von	_	O	O	
+2-22	Ihnen	PPER	Sie	_	O	O	
+2-23	finden	VVFIN	finden	_	O	O	
+2-24	.	$.	.	_	O	O	
+
+#id=3
+#text=Getreulichst der Ihrige Gerhard Ihr Bull.
+3-1	Getreulichst	ADJD	<unknown>	_	O	O	
+3-2	der	ART	die	_	O	O	
+3-3	Ihrige	PPOSAT	ihrige	_	O	O	
+3-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-5	Ihr	PPOSAT	ihr	_	O	O	
+3-6	Bull	NE	Bull	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text=Juli trifft mich wol hier noch.
+4-1	Juli	NN	Juli	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-2	trifft	VVFIN	treffen	_	O	O	
+4-3	mich	PRF	ich	_	O	O	
+4-4	wol	ADJD	<unknown>	_	O	O	
+4-5	hier	ADV	hier	_	O	O	
+4-6	noch	ADV	noch	_	O	O	
+4-7	.	$.	.	_	O	O	
+

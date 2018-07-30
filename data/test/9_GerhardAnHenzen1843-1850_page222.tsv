@@ -1,0 +1,262 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=207 A. di Dir.
+1-1	207	CARD	@card@	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=D. Henzen ~f\A.~ \llle~;r'te-1' Freund.
+2-1	D.	ART	d.	_	O	O	
+2-2	Henzen	NN	<unknown>	_	O	O	
+2-3	~f\A.~	ADJA	<unknown>	_	O	O	
+2-4	\llle~	NN	<unknown>	_	O	O	
+2-5	;	$.	;	_	O	O	
+2-6	r'te-1	NE	<unknown>	_	O	O	
+2-7	'	$(	'	_	O	O	
+2-8	Freund	NE	Freund	_	O	O	
+2-9	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Henzen Berlin 7/X/1850 g. 16. X.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-2	an	APPR	an	_	O	O	
+3-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-5	7/X/1850	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-6	g.	NN	<unknown>	_	O	O	
+3-7	16	CARD	16	_	O	O	
+3-8	.	$.	.	_	O	O	
+3-9	X.	NE	X.	_	O	O	
+
+#id=4
+#text=50 r. 23/X 50 Berlin 7 Okt.
+4-1	50	CARD	50	_	O	O	
+4-2	r.	ADJA	<unknown>	_	O	O	
+4-3	23/X	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+4-4	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+4-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-6	7	CARD	7	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-7	Okt.	NN	Okt.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=5
+#text=50 Ich habe zwei Briefe von Ihnen zu beantworten : der erste, noch vvider Erwartung in Ihr Verhältniß zu Braun wie in einem Rechtshandel vertieft, ließ mich nicht viel Gutes erwarten und Sie können denken daß nächstdem der zweite mich doppelt erfreut hat.
+5-1	50	CARD	50	_	O	O	
+5-2	Ich	PPER	ich	_	O	O	
+5-3	habe	VAFIN	haben	_	O	O	
+5-4	zwei	CARD	zwei	_	O	O	
+5-5	Briefe	NN	Brief	_	O	O	
+5-6	von	APPR	von	_	O	O	
+5-7	Ihnen	PPER	Sie	_	O	O	
+5-8	zu	PTKZU	zu	_	O	O	
+5-9	beantworten	VVINF	beantworten	_	O	O	
+5-10	:	$.	:	_	O	O	
+5-11	der	ART	die	_	O	O	
+5-12	erste	ADJA	erst	_	O	O	
+5-13	,	$,	,	_	O	O	
+5-14	noch	ADV	noch	_	O	O	
+5-15	vvider	NN	<unknown>	_	O	O	
+5-16	Erwartung	NN	Erwartung	_	O	O	
+5-17	in	APPR	in	_	O	O	
+5-18	Ihr	PPOSAT	ihr	_	O	O	
+5-19	Verhältniß	NN	<unknown>	_	O	O	
+5-20	zu	APPR	zu	_	O	O	
+5-21	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-22	wie	KOKOM	wie	_	O	O	
+5-23	in	APPR	in	_	O	O	
+5-24	einem	ART	eine	_	O	O	
+5-25	Rechtshandel	NN	<unknown>	_	O	O	
+5-26	vertieft	VVPP	vertiefen	_	O	O	
+5-27	,	$,	,	_	O	O	
+5-28	ließ	VVFIN	lassen	_	O	O	
+5-29	mich	PRF	ich	_	O	O	
+5-30	nicht	PTKNEG	nicht	_	O	O	
+5-31	viel	PIAT	viele	_	O	O	
+5-32	Gutes	NN	Gute	_	O	O	
+5-33	erwarten	VVINF	erwarten	_	O	O	
+5-34	und	KON	und	_	O	O	
+5-35	Sie	PPER	Sie	_	O	O	
+5-36	können	VMFIN	können	_	O	O	
+5-37	denken	VVINF	denken	_	O	O	
+5-38	daß	KOUS	dass	_	O	O	
+5-39	nächstdem	VVFIN	<unknown>	_	O	O	
+5-40	der	ART	die	_	O	O	
+5-41	zweite	ADJA	zweit	_	O	O	
+5-42	mich	PRF	ich	_	O	O	
+5-43	doppelt	ADJD	doppelt	_	O	O	
+5-44	erfreut	VVPP	erfreuen	_	O	O	
+5-45	hat	VAFIN	haben	_	O	O	
+5-46	.	$.	.	_	O	O	
+
+#id=6
+#text=Auf Brauns Persönlichkeit, wie viel Störendes auch darin eingemischt worden sei, Vertrauen zu hegen haben wir viel Grund und Verpflichtung; wegen Brunn will ich die von Ihnen angedeuteten Schärfen bei Braun auch noch, so viel an mir ist, herunterzustimmen suchen - , thun Sie das dann auch bei Brunn, der vielleicht den richtigen Ton des Verkehrs mit Bra'Jn verloren haben mag: ich begreife nicht wie das anfangs so gute Verhältniß sonst so schlecht geworden sein konnte.
+6-1	Auf	APPR	auf	_	O	O	
+6-2	Brauns	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-3	Persönlichkeit	NN	Persönlichkeit	_	O	O	
+6-4	,	$,	,	_	O	O	
+6-5	wie	KOUS	wie	_	O	O	
+6-6	viel	PIAT	viele	_	O	O	
+6-7	Störendes	NN	Störende	_	O	O	
+6-8	auch	ADV	auch	_	O	O	
+6-9	darin	PAV	darin	_	O	O	
+6-10	eingemischt	VVPP	einmischen	_	O	O	
+6-11	worden	VAPP	werden	_	O	O	
+6-12	sei	VAFIN	sein	_	O	O	
+6-13	,	$,	,	_	O	O	
+6-14	Vertrauen	NN	Vertrauen	_	O	O	
+6-15	zu	PTKZU	zu	_	O	O	
+6-16	hegen	VVINF	hegen	_	O	O	
+6-17	haben	VAFIN	haben	_	O	O	
+6-18	wir	PPER	wir	_	O	O	
+6-19	viel	PIAT	viele	_	O	O	
+6-20	Grund	NN	Grund	_	O	O	
+6-21	und	KON	und	_	O	O	
+6-22	Verpflichtung	NN	Verpflichtung	_	O	O	
+6-23	;	$.	;	_	O	O	
+6-24	wegen	APPR	wegen	_	O	O	
+6-25	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-26	will	VMFIN	wollen	_	O	O	
+6-27	ich	PPER	ich	_	O	O	
+6-28	die	ART	die	_	O	O	
+6-29	von	APPR	von	_	O	O	
+6-30	Ihnen	PPER	Sie	_	O	O	
+6-31	angedeuteten	ADJA	angedeutet	_	O	O	
+6-32	Schärfen	NN	Schärfe|Schärfen	_	O	O	
+6-33	bei	APPR	bei	_	O	O	
+6-34	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-35	auch	ADV	auch	_	O	O	
+6-36	noch	ADV	noch	_	O	O	
+6-37	,	$,	,	_	O	O	
+6-38	so	ADV	so	_	O	O	
+6-39	viel	ADV	viel	_	O	O	
+6-40	an	APPR	an	_	O	O	
+6-41	mir	PPER	ich	_	O	O	
+6-42	ist	VAFIN	sein	_	O	O	
+6-43	,	$,	,	_	O	O	
+6-44	herunterzustimmen	VVFIN	<unknown>	_	O	O	
+6-45	suchen	VVINF	suchen	_	O	O	
+6-46	-	$(	-	_	O	O	
+6-47	,	$,	,	_	O	O	
+6-48	thun	VVFIN	<unknown>	_	O	O	
+6-49	Sie	PPER	Sie	_	O	O	
+6-50	das	PDS	die	_	O	O	
+6-51	dann	ADV	dann	_	O	O	
+6-52	auch	ADV	auch	_	O	O	
+6-53	bei	APPR	bei	_	O	O	
+6-54	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-55	,	$,	,	_	O	O	
+6-56	der	PRELS	die	_	O	O	
+6-57	vielleicht	ADV	vielleicht	_	O	O	
+6-58	den	ART	die	_	O	O	
+6-59	richtigen	ADJA	richtig	_	O	O	
+6-60	Ton	NN	Ton	_	O	O	
+6-61	des	ART	die	_	O	O	
+6-62	Verkehrs	NN	Verkehr	_	O	O	
+6-63	mit	APPR	mit	_	O	O	
+6-64	Bra'Jn	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-65	verloren	VVPP	verlieren	_	O	O	
+6-66	haben	VAINF	haben	_	O	O	
+6-67	mag	VMFIN	mögen	_	O	O	
+6-68	:	$.	:	_	O	O	
+6-69	ich	PPER	ich	_	O	O	
+6-70	begreife	VVFIN	begreifen	_	O	O	
+6-71	nicht	PTKNEG	nicht	_	O	O	
+6-72	wie	KOKOM	wie	_	O	O	
+6-73	das	PDS	die	_	O	O	
+6-74	anfangs	ADV	anfangs	_	O	O	
+6-75	so	ADV	so	_	O	O	
+6-76	gute	ADJA	gut	_	O	O	
+6-77	Verhältniß	NN	<unknown>	_	O	O	
+6-78	sonst	ADV	sonst	_	O	O	
+6-79	so	ADV	so	_	O	O	
+6-80	schlecht	ADJD	schlecht	_	O	O	
+6-81	geworden	VAPP	werden	_	O	O	
+6-82	sein	VAINF	sein	_	O	O	
+6-83	konnte	VMFIN	können	_	O	O	
+6-84	.	$.	.	_	O	O	
+
+#id=7
+#text=Ich hatte an Braun nach Gotha geschrieben, wo er zum 1 Okt.
+7-1	Ich	PPER	ich	_	O	O	
+7-2	hatte	VAFIN	haben	_	O	O	
+7-3	an	APPR	an	_	O	O	
+7-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-5	nach	APPR	nach	_	O	O	
+7-6	Gotha	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-7	geschrieben	VVPP	schreiben	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	wo	PWAV	wo	_	O	O	
+7-10	er	PPER	er	_	O	O	
+7-11	zum	APPRART	zu	_	O	O	
+7-12	1	CARD	1	_	O	O	
+7-13	Okt.	NN	Okt.	_	O	O	
+
+#id=8
+#text=zu einem Familienfest erwartet wurde: daß sein Schwiegervater gefährlich daniederlag war mir bekannt, nicht aber dessen von Ihnen erwähntes Ableben.
+8-1	zu	APPR	zu	_	O	O	
+8-2	einem	ART	eine	_	O	O	
+8-3	Familienfest	NN	Familienfest	_	O	O	
+8-4	erwartet	VVPP	erwarten	_	O	O	
+8-5	wurde	VAFIN	werden	_	O	O	
+8-6	:	$.	:	_	O	O	
+8-7	daß	KOUS	dass	_	O	O	
+8-8	sein	PPOSAT	sein	_	O	O	
+8-9	Schwiegervater	NN	Schwiegervater	_	O	O	
+8-10	gefährlich	ADJD	gefährlich	_	O	O	
+8-11	daniederlag	NN	<unknown>	_	O	O	
+8-12	war	VAFIN	sein	_	O	O	
+8-13	mir	PPER	ich	_	O	O	
+8-14	bekannt	ADJD	bekannt	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	nicht	PTKNEG	nicht	_	O	O	
+8-17	aber	ADV	aber	_	O	O	
+8-18	dessen	PDS	die	_	O	O	
+8-19	von	APPR	von	_	O	O	
+8-20	Ihnen	PPER	Sie	_	O	O	
+8-21	erwähntes	ADJA	erwähnt	_	O	O	
+8-22	Ableben	NN	Ableben	_	O	O	
+8-23	.	$.	.	_	O	O	
+
+#id=9
+#text=Wird nun Braun noch etwas verzögert, so werden Sie es ihm gewiß zu Gute halten.
+9-1	Wird	VAFIN	werden	_	O	O	
+9-2	nun	ADV	nun	_	O	O	
+9-3	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-4	noch	ADV	noch	_	O	O	
+9-5	etwas	ADV	etwas	_	O	O	
+9-6	verzögert	VVPP	verzögern	_	O	O	
+9-7	,	$,	,	_	O	O	
+9-8	so	ADV	so	_	O	O	
+9-9	werden	VAFIN	werden	_	O	O	
+9-10	Sie	PPER	Sie	_	O	O	
+9-11	es	PPER	es	_	O	O	
+9-12	ihm	PPER	er	_	O	O	
+9-13	gewiß	ADJD	gewiss	_	O	O	
+9-14	zu	APPR	zu	_	O	O	
+9-15	Gute	NN	Gute	_	O	O	
+9-16	halten	VVINF	halten	_	O	O	
+9-17	.	$.	.	_	O	O	
+
+#id=10
+#text=Ihrer Frl. Nichte die nun mit einem alten Dieher vermuthlich morgen reisen wird, um das Triester Schiff vom
+10-1	Ihrer	PPOSAT	ihr	_	O	O	
+10-2	Frl.	NN	Frl.	_	O	O	
+10-3	Nichte	NN	Nichte	_	O	O	
+10-4	die	ART	die	_	O	O	
+10-5	nun	ADV	nun	_	O	O	
+10-6	mit	APPR	mit	_	O	O	
+10-7	einem	ART	eine	_	O	O	
+10-8	alten	ADJA	alt	_	O	O	
+10-9	Dieher	NN	<unknown>	_	O	O	
+10-10	vermuthlich	ADJD	<unknown>	_	O	O	
+10-11	morgen	ADV	morgen	_	O	O	
+10-12	reisen	VVINF	reisen	_	O	O	
+10-13	wird	VAFIN	werden	_	O	O	
+10-14	,	$,	,	_	O	O	
+10-15	um	KOUI	um	_	O	O	
+10-16	das	ART	die	_	O	O	
+10-17	Triester	ADJA	Triester	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-18	Schiff	NN	Schiff	_	O	O	
+10-19	vom	APPRART	von	_	O	O	
+

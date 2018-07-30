@@ -1,0 +1,320 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=A. di Dir.
+1-1	A.	APPRART	am	_	O	O	
+1-2	di	NE	di	_	O	O	
+1-3	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Gerhard an Henzen Berlin 26/V/1847 g. 7/VI 47 r. 8/VI 47 Berlin 26 Mai 47 ••••• ~~~~fische Neuigkeiten 1 fr erhalten ~ie noch immer nicht von mir; die Sitzung der epigraphischen 00m- (~) QtVl!-,' mission •••• e\.~igny beiwohnen wollte ließ sich in dieser // Mt-~(\A., unruhigen Stande-Zeit noch nicht Qu ~ft.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	an	APPR	an	_	O	O	
+2-3	Henzen	NN	<unknown>	_	O	O	
+2-4	Berlin	NE	Berlin	_	O	O	
+2-5	26/V/1847	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-6	g.	ADJA	<unknown>	_	O	O	
+2-7	7/VI	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-8	47	CARD	47	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-9	r.	VVFIN	<unknown>	_	O	O	
+2-10	8/VI	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-11	47	CARD	47	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-12	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-13	26	CARD	26	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-14	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-15	47	CARD	47	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-16	•	ADJA	<unknown>	_	O	O	
+2-17	•	NN	<unknown>	_	O	O	
+2-18	•	ADJA	<unknown>	_	O	O	
+2-19	•	NN	<unknown>	_	O	O	
+2-20	•	ADJD	<unknown>	_	O	O	
+2-21	~~~~fische	ADJA	<unknown>	_	O	O	
+2-22	Neuigkeiten	NN	Neuigkeit	_	O	O	
+2-23	1	CARD	1	_	O	O	
+2-24	fr	NN	<unknown>	_	O	O	
+2-25	erhalten	VVFIN	erhalten	_	O	O	
+2-26	~ie	ADJD	<unknown>	_	O	O	
+2-27	noch	ADV	noch	_	O	O	
+2-28	immer	ADV	immer	_	O	O	
+2-29	nicht	PTKNEG	nicht	_	O	O	
+2-30	von	APPR	von	_	O	O	
+2-31	mir	PPER	ich	_	O	O	
+2-32	;	$.	;	_	O	O	
+2-33	die	ART	die	_	O	O	
+2-34	Sitzung	NN	Sitzung	_	O	O	
+2-35	der	ART	die	_	O	O	
+2-36	epigraphischen	ADJA	<unknown>	_	O	O	
+2-37	00m-	NN	<unknown>	_	O	O	
+2-38	(	$(	(	_	O	O	
+2-39	~	XY	~	_	O	O	
+2-40	)	$(	)	_	O	O	
+2-41	QtVl	NN	<unknown>	_	O	O	
+2-42	!	$.	!	_	O	O	
+2-43	-	$(	-	_	O	O	
+2-44	,	$,	,	_	O	O	
+2-45	'	$(	'	_	O	O	
+2-46	mission	ADJA	<unknown>	_	O	O	
+2-47	•	NN	<unknown>	_	O	O	
+2-48	•	ADJD	<unknown>	_	O	O	
+2-49	•	ADJA	<unknown>	_	O	O	
+2-50	•	NN	<unknown>	_	O	O	
+2-51	e\.~igny	NE	<unknown>	_	O	O	
+2-52	beiwohnen	VVINF	beiwohnen	_	O	O	
+2-53	wollte	VMFIN	wollen	_	O	O	
+2-54	ließ	VVFIN	lassen	_	O	O	
+2-55	sich	PRF	sich	_	O	O	
+2-56	in	APPR	in	_	O	O	
+2-57	dieser	PDAT	dies	_	O	O	
+2-58	//	ADJA	<unknown>	_	O	O	
+2-59	Mt-~(\A	NN	<unknown>	_	O	O	
+2-60	.	$.	.	_	O	O	
+2-61	,	$,	,	_	O	O	
+2-62	unruhigen	ADJA	unruhig	_	O	O	
+2-63	Stande-Zeit	NN	<unknown>	_	O	O	
+2-64	noch	ADV	noch	_	O	O	
+2-65	nicht	PTKNEG	nicht	_	O	O	
+2-66	Qu	NE	Qu	_	O	O	
+2-67	~ft	ADJD	<unknown>	_	O	O	
+2-68	.	$.	.	_	O	O	
+
+#id=3
+#text=Alle hlt{,/.l/r' cl/ 4 (.
+3-1	Alle	PIAT	alle	_	O	O	
+3-2	hlt{,/.l/r	NN	<unknown>	_	O	O	
+3-3	'	$(	'	_	O	O	
+3-4	cl/	VVFIN	<unknown>	_	O	O	
+3-5	4	CARD	4	_	O	O	
+3-6	(	$(	(	_	O	O	
+3-7	.	$.	.	_	O	O	
+
+#id=4
+#text={ '.. • • • • • • • • sind aber gut; hoffentlich wird Mommsen den wir erwarten Ihnen das bald bestätigen ( I,.
+4-1	{	$(	{	_	O	O	
+4-2	'	$(	'	_	O	O	
+4-3	.	$.	.	_	O	O	
+4-4	.	$.	.	_	O	O	
+4-5	•	ADJA	<unknown>	_	O	O	
+4-6	•	NN	<unknown>	_	O	O	
+4-7	•	ADJA	<unknown>	_	O	O	
+4-8	•	NN	<unknown>	_	O	O	
+4-9	•	ADJA	<unknown>	_	O	O	
+4-10	•	NN	<unknown>	_	O	O	
+4-11	•	ADJA	<unknown>	_	O	O	
+4-12	•	NN	<unknown>	_	O	O	
+4-13	sind	VAFIN	sein	_	O	O	
+4-14	aber	ADV	aber	_	O	O	
+4-15	gut	ADJD	gut	_	O	O	
+4-16	;	$.	;	_	O	O	
+4-17	hoffentlich	ADV	hoffentlich	_	O	O	
+4-18	wird	VAFIN	werden	_	O	O	
+4-19	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-20	den	ART	die	_	O	O	
+4-21	wir	PPER	wir	_	O	O	
+4-22	erwarten	VVFIN	erwarten	_	O	O	
+4-23	Ihnen	PPER	Sie	_	O	O	
+4-24	das	PDS	die	_	O	O	
+4-25	bald	ADV	bald	_	O	O	
+4-26	bestätigen	VVINF	bestätigen	_	O	O	
+4-27	(	$(	(	_	O	O	
+4-28	I	FM	I	_	O	O	
+4-29	,	$,	,	_	O	O	
+4-30	.	$.	.	_	O	O	
+
+#id=5
+#text=I'r \ c V"':-Or\.t .
+5-1	I'r	NE	<unknown>	_	O	O	
+5-2	\	XY	\	_	O	O	
+5-3	c	VVFIN	<unknown>	_	O	O	
+5-4	V"':-Or\.t	NE	<unknown>	_	O	O	
+5-5	.	$.	.	_	O	O	
+
+#id=6
+#text=•••••••• nen.
+6-1	•	ADJA	<unknown>	_	O	O	
+6-2	•	NN	<unknown>	_	O	O	
+6-3	•	ADJA	<unknown>	_	O	O	
+6-4	•	NN	<unknown>	_	O	O	
+6-5	•	ADJA	<unknown>	_	O	O	
+6-6	•	NN	<unknown>	_	O	O	
+6-7	•	ADJA	<unknown>	_	O	O	
+6-8	•	NN	<unknown>	_	O	O	
+6-9	nen	VVFIN	<unknown>	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Heute habe ich dem Ministerium die von Ihnen gewünschten Diplome - ein Dutzend fürs erste mit den bewußten Ziffern - abgegeben, zugleich das Diplom für Sarti das Sie seiner Zeit ihm einhändigen mögen und wieder ein Brief von Neigebaur, aber derselbe ~ormittag bringt schon wieder einen.
+7-1	Heute	ADV	heute	_	O	O	
+7-2	habe	VAFIN	haben	_	O	O	
+7-3	ich	PPER	ich	_	O	O	
+7-4	dem	ART	die	_	O	O	
+7-5	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+7-6	die	ART	die	_	O	O	
+7-7	von	APPR	von	_	O	O	
+7-8	Ihnen	PPER	Sie	_	O	O	
+7-9	gewünschten	ADJA	gewünscht	_	O	O	
+7-10	Diplome	NN	Diplom	_	O	O	
+7-11	-	$(	-	_	O	O	
+7-12	ein	ART	eine	_	O	O	
+7-13	Dutzend	NN	Dutzend	_	O	O	
+7-14	fürs	APPRART	fürs	_	O	O	
+7-15	erste	ADJA	erst	_	O	O	
+7-16	mit	APPR	mit	_	O	O	
+7-17	den	ART	die	_	O	O	
+7-18	bewußten	ADJA	bewusst	_	O	O	
+7-19	Ziffern	NN	Ziffer	_	O	O	
+7-20	-	$(	-	_	O	O	
+7-21	abgegeben	VVPP	abgeben	_	O	O	
+7-22	,	$,	,	_	O	O	
+7-23	zugleich	ADV	zugleich	_	O	O	
+7-24	das	ART	die	_	O	O	
+7-25	Diplom	NN	Diplom	_	O	O	
+7-26	für	APPR	für	_	O	O	
+7-27	Sarti	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-28	das	PRELS	die	_	O	O	
+7-29	Sie	PPER	Sie	_	O	O	
+7-30	seiner	PPOSAT	sein	_	O	O	
+7-31	Zeit	NN	Zeit	_	O	O	
+7-32	ihm	PPER	er	_	O	O	
+7-33	einhändigen	VVINF	<unknown>	_	O	O	
+7-34	mögen	VMFIN	mögen	_	O	O	
+7-35	und	KON	und	_	O	O	
+7-36	wieder	ADV	wieder	_	O	O	
+7-37	ein	ART	eine	_	O	O	
+7-38	Brief	NN	Brief	_	O	O	
+7-39	von	APPR	von	_	O	O	
+7-40	Neigebaur	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-41	,	$,	,	_	O	O	
+7-42	aber	KON	aber	_	O	O	
+7-43	derselbe	PDAT	derselb	_	O	O	
+7-44	~ormittag	NN	<unknown>	_	O	O	
+7-45	bringt	VVFIN	bringen	_	O	O	
+7-46	schon	ADV	schon	_	O	O	
+7-47	wieder	ADV	wieder	_	O	O	
+7-48	einen	PIS	eine	_	O	O	
+7-49	.	$.	.	_	O	O	
+
+#id=8
+#text=Ich muß dergleichen,wieder liegen lassen bis es rlI\.AlL zusammen gehäuft einer ( ~r sehr raschen ) Beförderung empfohlen werden kann, und will ihm nun selbst SChreiben, was Sie ihm wol schon schrieben, daß er seine Sendungen direkt nach Rom machen möge.
+8-1	Ich	PPER	ich	_	O	O	
+8-2	muß	VMFIN	müssen	_	O	O	
+8-3	dergleichen,wieder	NN	<unknown>	_	O	O	
+8-4	liegen	VVINF	liegen	_	O	O	
+8-5	lassen	VVINF	lassen	_	O	O	
+8-6	bis	KON	bis	_	O	O	
+8-7	es	PPER	es	_	O	O	
+8-8	rlI\.AlL	NN	<unknown>	_	O	O	
+8-9	zusammen	ADV	zusammen	_	O	O	
+8-10	gehäuft	ADJD	gehäuft	_	O	O	
+8-11	einer	ART	eine	_	O	O	
+8-12	(	$(	(	_	O	O	
+8-13	~r	NN	<unknown>	_	O	O	
+8-14	sehr	ADV	sehr	_	O	O	
+8-15	raschen	ADJA	rasch	_	O	O	
+8-16	)	$(	)	_	O	O	
+8-17	Beförderung	NN	Beförderung	_	O	O	
+8-18	empfohlen	VVPP	empfehlen	_	O	O	
+8-19	werden	VAINF	werden	_	O	O	
+8-20	kann	VMFIN	können	_	O	O	
+8-21	,	$,	,	_	O	O	
+8-22	und	KON	und	_	O	O	
+8-23	will	VMFIN	wollen	_	O	O	
+8-24	ihm	PPER	er	_	O	O	
+8-25	nun	ADV	nun	_	O	O	
+8-26	selbst	ADV	selbst	_	O	O	
+8-27	SChreiben	NN	Schreiben	_	O	O	
+8-28	,	$,	,	_	O	O	
+8-29	was	PRELS	was	_	O	O	
+8-30	Sie	PPER	Sie	_	O	O	
+8-31	ihm	PPER	er	_	O	O	
+8-32	wol	ADJD	<unknown>	_	O	O	
+8-33	schon	ADV	schon	_	O	O	
+8-34	schrieben	VVFIN	schreiben	_	O	O	
+8-35	,	$,	,	_	O	O	
+8-36	daß	KOUS	dass	_	O	O	
+8-37	er	PPER	er	_	O	O	
+8-38	seine	PPOSAT	sein	_	O	O	
+8-39	Sendungen	NN	Sendung	_	O	O	
+8-40	direkt	ADJD	direkt	_	O	O	
+8-41	nach	APPR	nach	_	O	O	
+8-42	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-43	machen	VVINF	machen	_	O	O	
+8-44	möge	VMFIN	mögen	_	O	O	
+8-45	.	$.	.	_	O	O	
+
+#id=9
+#text=Uebrigens schickt er ver- \ muthlich dieselben Sachen an Wieseler, der in der Zeitung für Alterth W. anfängt sie auszupacken.
+9-1	Uebrigens	NN	<unknown>	_	O	O	
+9-2	schickt	VVFIN	schicken	_	O	O	
+9-3	er	PPER	er	_	O	O	
+9-4	ver-	TRUNC	ver-	_	O	O	
+9-5	\	XY	\	_	O	O	
+9-6	muthlich	ADJD	<unknown>	_	O	O	
+9-7	dieselben	PDAT	dieselb	_	O	O	
+9-8	Sachen	NN	Sache	_	O	O	
+9-9	an	APPR	an	_	O	O	
+9-10	Wieseler	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-11	,	$,	,	_	O	O	
+9-12	der	PRELS	die	_	O	O	
+9-13	in	APPR	in	_	O	O	
+9-14	der	ART	die	_	O	O	
+9-15	Zeitung	NN	Zeitung	_	O	O	
+9-16	für	APPR	für	_	O	O	
+9-17	Alterth	NE	<unknown>	_	O	O	
+9-18	W.	NE	W.	_	O	O	
+9-19	anfängt	VVFIN	anfangen	_	O	O	
+9-20	sie	PPER	sie	_	O	O	
+9-21	auszupacken	VVIZU	auspacken	_	O	O	
+9-22	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich schreibe ibm gleichzeitig über beides.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	schreibe	VVFIN	schreiben	_	O	O	
+10-3	ibm	NE	Ibm	_	O	O	
+10-4	gleichzeitig	ADJD	gleichzeitig	_	O	O	
+10-5	über	APPR	über	_	O	O	
+10-6	beides	PIS	beide	_	O	O	
+10-7	.	$.	.	_	O	O	
+
+#id=11
+#text=Bull.
+11-1	Bull	NE	Bull	_	O	O	
+11-2	.	$.	.	_	O	O	
+
+#id=12
+#text=111 6 und IV hübsch gedruckt und reichhaI tig erhielt ich so eben.
+12-1	111	CARD	@card@	_	O	O	
+12-2	6	CARD	6	_	O	O	
+12-3	und	KON	und	_	O	O	
+12-4	IV	NE	IV	_	O	O	
+12-5	hübsch	ADJD	hübsch	_	O	O	
+12-6	gedruckt	ADJD	gedruckt	_	O	O	
+12-7	und	KON	und	_	O	O	
+12-8	reichhaI	ADJD	<unknown>	_	O	O	
+12-9	tig	ADJD	<unknown>	_	O	O	
+12-10	erhielt	VVFIN	erhalten	_	O	O	
+12-11	ich	PPER	ich	_	O	O	
+12-12	so	ADV	so	_	O	O	
+12-13	eben	ADV	eben	_	O	O	
+12-14	.	$.	.	_	O	O	
+
+#id=13
+#text=Die Vatikanischen Nachrichten sehr erfreulich !
+13-1	Die	ART	die	_	O	O	
+13-2	Vatikanischen	ADJA	vatikanisch	_	O	O	
+13-3	Nachrichten	NN	Nachricht	_	O	O	
+13-4	sehr	ADV	sehr	_	O	O	
+13-5	erfreulich	ADJD	erfreulich	_	O	O	
+13-6	!	$.	!	_	O	O	
+
+#id=14
+#text=Sollten die dortigen Arbeiten sehr dringend sein und Gefahr
+14-1	Sollten	VMFIN	sollen	_	O	O	
+14-2	die	ART	die	_	O	O	
+14-3	dortigen	ADJA	dortig	_	O	O	
+14-4	Arbeiten	NN	Arbeit|Arbeiten	_	O	O	
+14-5	sehr	ADV	sehr	_	O	O	
+14-6	dringend	ADJD	dringend	_	O	O	
+14-7	sein	VAINF	sein	_	O	O	
+14-8	und	KON	und	_	O	O	
+14-9	Gefahr	NN	Gefahr	_	O	O	
+

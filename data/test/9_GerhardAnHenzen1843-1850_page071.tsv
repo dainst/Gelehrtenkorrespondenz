@@ -1,0 +1,245 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=· .
+1-1	·	NN	<unknown>	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=.
+7-1	.	$.	.	_	O	O	
+
+#id=8
+#text=.
+8-1	.	$.	.	_	O	O	
+
+#id=9
+#text=.
+9-1	.	$.	.	_	O	O	
+
+#id=10
+#text=Gerhard an Henzen Berlin, 9. September 1846 2 von ihm gehört wäre etwas darüber bereits heraus.
+10-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+10-2	an	APPR	an	_	O	O	
+10-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+10-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+10-5	,	$,	,	_	O	O	
+10-6	9	CARD	9	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+10-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+10-8	September	NN	September	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+10-9	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+10-10	2	CARD	2	_	O	O	
+10-11	von	APPR	von	_	O	O	
+10-12	ihm	PPER	er	_	O	O	
+10-13	gehört	VVPP	gehören|hören	_	O	O	
+10-14	wäre	VAFIN	sein	_	O	O	
+10-15	etwas	PIS	etwas	_	O	O	
+10-16	darüber	PAV	darüber	_	O	O	
+10-17	bereits	ADV	bereits	_	O	O	
+10-18	heraus	PTKVZ	heraus	_	O	O	
+10-19	.	$.	.	_	O	O	
+
+#id=11
+#text=Sie werden nun wol zusammen berathen, wie vor Allen der Vatikan sich anfassen lasse, es sei denn, daß Sarti's Orden eine geschärfte Privativa bedeutet.
+11-1	Sie	PPER	Sie	_	O	O	
+11-2	werden	VAFIN	werden	_	O	O	
+11-3	nun	ADV	nun	_	O	O	
+11-4	wol	ADJD	<unknown>	_	O	O	
+11-5	zusammen	ADV	zusammen	_	O	O	
+11-6	berathen	NN	<unknown>	_	O	O	
+11-7	,	$,	,	_	O	O	
+11-8	wie	KOUS	wie	_	O	O	
+11-9	vor	APPR	vor	_	O	O	
+11-10	Allen	NE	Allen	_	O	O	
+11-11	der	ART	die	_	O	O	
+11-12	Vatikan	NN	Vatikan	_	O	O	
+11-13	sich	PRF	sich	_	O	O	
+11-14	anfassen	VVINF	anfassen	_	O	O	
+11-15	lasse	VVFIN	lassen	_	O	O	
+11-16	,	$,	,	_	O	O	
+11-17	es	PPER	es	_	O	O	
+11-18	sei	VAFIN	sein	_	O	O	
+11-19	denn	ADV	denn	_	O	O	
+11-20	,	$,	,	_	O	O	
+11-21	daß	KOUS	dass	_	O	O	
+11-22	Sarti's	TRUNC	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-23	Orden	NN	Orden	_	O	O	
+11-24	eine	ART	eine	_	O	O	
+11-25	geschärfte	ADJA	geschärft	_	O	O	
+11-26	Privativa	NN	<unknown>	_	O	O	
+11-27	bedeutet	VVFIN	bedeuten	_	O	O	
+11-28	.	$.	.	_	O	O	
+
+#id=12
+#text=Der gestärkten Gesundheit Ihrer' .lieben Frau freuen wir uns von Herzen; meine Frau freut sich sehr bald von ihr direkt zu hören und grüßt bestens.
+12-1	Der	ART	die	_	O	O	
+12-2	gestärkten	ADJA	gestärkt	_	O	O	
+12-3	Gesundheit	NN	Gesundheit	_	O	O	
+12-4	Ihrer	PPOSAT	ihr	_	O	O	
+12-5	'	$(	'	_	O	O	
+12-6	.lieben	ADJA	<unknown>	_	O	O	
+12-7	Frau	NN	Frau	_	O	O	
+12-8	freuen	VVFIN	freuen	_	O	O	
+12-9	wir	PPER	wir	_	O	O	
+12-10	uns	PRF	wir	_	O	O	
+12-11	von	APPR	von	_	O	O	
+12-12	Herzen	NN	Herz	_	O	O	
+12-13	;	$.	;	_	O	O	
+12-14	meine	PPOSAT	mein	_	O	O	
+12-15	Frau	NN	Frau	_	O	O	
+12-16	freut	VVFIN	freuen	_	O	O	
+12-17	sich	PRF	sich	_	O	O	
+12-18	sehr	ADV	sehr	_	O	O	
+12-19	bald	ADV	bald	_	O	O	
+12-20	von	APPR	von	_	O	O	
+12-21	ihr	PPOSAT	ihr	_	O	O	
+12-22	direkt	ADJD	direkt	_	O	O	
+12-23	zu	PTKZU	zu	_	O	O	
+12-24	hören	VVINF	hören	_	O	O	
+12-25	und	KON	und	_	O	O	
+12-26	grüßt	VVFIN	grüßen	_	O	O	
+12-27	bestens	ADV	bestens	_	O	O	
+12-28	.	$.	.	_	O	O	
+
+#id=13
+#text=In Rußland scheinen die weiland verbrüderten Archäologen Köhne und Stephani einander an die Köpfe zu wollen, was nicht viel schaden kann.
+13-1	In	APPR	in	_	O	O	
+13-2	Rußland	NE	Russland	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+13-3	scheinen	VVFIN	scheinen	_	O	O	
+13-4	die	ART	die	_	O	O	
+13-5	weiland	ADV	weiland	_	O	O	
+13-6	verbrüderten	ADJA	verbrüdert	_	O	O	
+13-7	Archäologen	NN	Archäologe	_	O	O	
+13-8	Köhne	NE	Köhne	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-9	und	KON	und	_	O	O	
+13-10	Stephani	NE	Stephani	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-11	einander	PRF	einander	_	O	O	
+13-12	an	APPR	an	_	O	O	
+13-13	die	ART	die	_	O	O	
+13-14	Köpfe	NN	Kopf	_	O	O	
+13-15	zu	PTKZU	zu	_	O	O	
+13-16	wollen	VMINF	wollen	_	O	O	
+13-17	,	$,	,	_	O	O	
+13-18	was	PRELS	was	_	O	O	
+13-19	nicht	PTKNEG	nicht	_	O	O	
+13-20	viel	ADV	viel	_	O	O	
+13-21	schaden	VVINF	schaden	_	O	O	
+13-22	kann	VMFIN	können	_	O	O	
+13-23	.	$.	.	_	O	O	
+
+#id=14
+#text=Für Ihre Tabula Baebiana weiß ich nach allen Nachfragen keinen besseren Rath als zugleich mit meinen eignen Commissionsartikeln sie hier an Besser zu geben, der aber eben auch nicht weniger als 50 rt berechnet; in Umlauf sollte er sie wol bringen und glaube ich nicht daß der geringe Absatz meiner Abhandlung dagegen zeugt.
+14-1	Für	APPR	für	_	O	O	
+14-2	Ihre	PPOSAT	ihr	_	O	O	
+14-3	Tabula	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+14-4	Baebiana	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+14-5	weiß	VVFIN	wissen	_	O	O	
+14-6	ich	PPER	ich	_	O	O	
+14-7	nach	APPR	nach	_	O	O	
+14-8	allen	PIAT	alle	_	O	O	
+14-9	Nachfragen	NN	Nachfrage	_	O	O	
+14-10	keinen	PIAT	keine	_	O	O	
+14-11	besseren	ADJA	gut	_	O	O	
+14-12	Rath	NE	Rath	_	O	O	
+14-13	als	KOKOM	als	_	O	O	
+14-14	zugleich	ADV	zugleich	_	O	O	
+14-15	mit	APPR	mit	_	O	O	
+14-16	meinen	PPOSAT	mein	_	O	O	
+14-17	eignen	ADJA	eigen	_	O	O	
+14-18	Commissionsartikeln	NN	<unknown>	_	O	O	
+14-19	sie	PPER	sie	_	O	O	
+14-20	hier	ADV	hier	_	O	O	
+14-21	an	APPR	an	_	O	O	
+14-22	Besser	ADJD	gut	_	O	O	
+14-23	zu	PTKZU	zu	_	O	O	
+14-24	geben	VVINF	geben	_	O	O	
+14-25	,	$,	,	_	O	O	
+14-26	der	PRELS	die	_	O	O	
+14-27	aber	ADV	aber	_	O	O	
+14-28	eben	ADV	eben	_	O	O	
+14-29	auch	ADV	auch	_	O	O	
+14-30	nicht	PTKNEG	nicht	_	O	O	
+14-31	weniger	ADV	weniger	_	O	O	
+14-32	als	KOKOM	als	_	O	O	
+14-33	50	CARD	50	_	O	O	
+14-34	rt	NN	<unknown>	_	O	O	
+14-35	berechnet	VVPP	berechnen	_	O	O	
+14-36	;	$.	;	_	O	O	
+14-37	in	APPR	in	_	O	O	
+14-38	Umlauf	NN	Umlauf	_	O	O	
+14-39	sollte	VMFIN	sollen	_	O	O	
+14-40	er	PPER	er	_	O	O	
+14-41	sie	PPER	sie	_	O	O	
+14-42	wol	ADJD	<unknown>	_	O	O	
+14-43	bringen	VVINF	bringen	_	O	O	
+14-44	und	KON	und	_	O	O	
+14-45	glaube	VVFIN	glauben	_	O	O	
+14-46	ich	PPER	ich	_	O	O	
+14-47	nicht	PTKNEG	nicht	_	O	O	
+14-48	daß	KOUS	dass	_	O	O	
+14-49	der	ART	die	_	O	O	
+14-50	geringe	ADJA	gering	_	O	O	
+14-51	Absatz	NN	Absatz	_	O	O	
+14-52	meiner	PPOSAT	mein	_	O	O	
+14-53	Abhandlung	NN	Abhandlung	_	O	O	
+14-54	dagegen	PAV	dagegen	_	O	O	
+14-55	zeugt	VVFIN	zeugen	_	O	O	
+14-56	.	$.	.	_	O	O	
+
+#id=15
+#text=Daß Preller einen Verleger für Borghesi's Schriften ( lateinisch) gefunden habe, in Jena nämlich, wird Ihnen wol bereits durch M(ommsen) kund geworden sein.
+15-1	Daß	KOUS	dass	_	O	O	
+15-2	Preller	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-3	einen	ART	eine	_	O	O	
+15-4	Verleger	NN	Verleger	_	O	O	
+15-5	für	APPR	für	_	O	O	
+15-6	Borghesi's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-7	Schriften	NN	Schrift	_	O	O	
+15-8	(	$(	(	_	O	O	
+15-9	lateinisch	ADJD	lateinisch	_	O	O	
+15-10	)	$(	)	_	O	O	
+15-11	gefunden	VVPP	finden	_	O	O	
+15-12	habe	VAFIN	haben	_	O	O	
+15-13	,	$,	,	_	O	O	
+15-14	in	APPR	in	_	O	O	
+15-15	Jena	NE	Jena	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+15-16	nämlich	ADV	nämlich	_	O	O	
+15-17	,	$,	,	_	O	O	
+15-18	wird	VAFIN	werden	_	O	O	
+15-19	Ihnen	PPER	Sie	_	O	O	
+15-20	wol	ADJD	<unknown>	_	O	O	
+15-21	bereits	ADV	bereits	_	O	O	
+15-22	durch	APPR	durch	_	O	O	
+15-23	M(ommsen)	NN	<unknown>	_	O	O	
+15-24	kund	PTKVZ	kund	_	O	O	
+15-25	geworden	VAPP	werden	_	O	O	
+15-26	sein	VAINF	sein	_	O	O	
+15-27	.	$.	.	_	O	O	
+
+#id=16
+#text=Von Herzen der Ihrige Gerhard
+16-1	Von	APPR	von	_	O	O	
+16-2	Herzen	NN	Herz	_	O	O	
+16-3	der	ART	die	_	O	O	
+16-4	Ihrige	PPOSAT	ihrige	_	O	O	
+16-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

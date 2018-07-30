@@ -1,0 +1,236 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=113 A. di Dir.
+1-1	113	CARD	113	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Gerhard an Benzen Berlin 1/VI/1850 g. 12/VV 50 r. 15/VI 50 D. Benzen Berlin 1 Juni 50 \)o.nJb ~erehrter Freund.
+2-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	an	APPR	an	_	O	O	
+2-3	Benzen	NN	<unknown>	_	O	O	
+2-4	Berlin	NE	Berlin	_	O	O	
+2-5	1/VI/1850	CARD	<unknown>	_	O	O	
+2-6	g.	ADJA	<unknown>	_	O	O	
+2-7	12/VV	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-8	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-9	r.	ADJA	<unknown>	_	O	O	
+2-10	15/VI	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+2-11	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+2-12	D.	NE	D.	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+2-13	Benzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERaddressee	
+2-14	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-15	1	CARD	1	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-16	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-17	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+2-18	\)o.nJb	ADJA	<unknown>	_	O	O	
+2-19	~erehrter	NN	<unknown>	_	O	O	
+2-20	Freund	NE	Freund	_	O	O	
+2-21	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihren eben erhaltenen Brief will ich lieber augenblicklich beantworten als der Gefahr mich aussetzen bei späterem Datum durch momentanes Vergessen undankbar zu erscheinen, wie für Ihre neuliche dem Archäol.
+3-1	Ihren	PPOSAT	ihr	_	O	O	
+3-2	eben	ADV	eben	_	O	O	
+3-3	erhaltenen	ADJA	erhalten	_	O	O	
+3-4	Brief	NN	Brief	_	O	O	
+3-5	will	VMFIN	wollen	_	O	O	
+3-6	ich	PPER	ich	_	O	O	
+3-7	lieber	ADJD	lieb	_	O	O	
+3-8	augenblicklich	ADJD	augenblicklich	_	O	O	
+3-9	beantworten	VVINF	beantworten	_	O	O	
+3-10	als	KOKOM	als	_	O	O	
+3-11	der	ART	die	_	O	O	
+3-12	Gefahr	NN	Gefahr	_	O	O	
+3-13	mich	PRF	ich	_	O	O	
+3-14	aussetzen	VVFIN	aussetzen	_	O	O	
+3-15	bei	APPR	bei	_	O	O	
+3-16	späterem	ADJA	spät	_	O	O	
+3-17	Datum	NN	Datum	_	O	O	
+3-18	durch	APPR	durch	_	O	O	
+3-19	momentanes	ADJA	momentan	_	O	O	
+3-20	Vergessen	NN	Vergessen	_	O	O	
+3-21	undankbar	ADJD	undankbar	_	O	O	
+3-22	zu	PTKZU	zu	_	O	O	
+3-23	erscheinen	VVINF	erscheinen	_	O	O	
+3-24	,	$,	,	_	O	O	
+3-25	wie	KOUS	wie	_	O	O	
+3-26	für	APPR	für	_	O	O	
+3-27	Ihre	PPOSAT	ihr	_	O	O	
+3-28	neuliche	ADJA	<unknown>	_	O	O	
+3-29	dem	ART	die	_	O	O	
+3-30	Archäol.	NN	<unknown>	_	O	O	
+
+#id=4
+#text=Anzeiger bestimmte dankenswerthe Mittheilung.
+4-1	Anzeiger	NN	Anzeiger	_	O	O	
+4-2	bestimmte	VVFIN	bestimmen	_	O	O	
+4-3	dankenswerthe	NE	<unknown>	_	O	O	
+4-4	Mittheilung	NN	<unknown>	_	O	O	
+4-5	.	$.	.	_	O	O	
+
+#id=5
+#text=So früh Annali und so früh als Probedrucke der begleitenden Monumenti zu haben sind, werde ich sie allzeit dankbar und im Interesse des Instituts nützlich anwenden; je eher je besser 1 Ich lege dann was ich habe im schicklichsten Zeitpunkt vor -, mit allem Vorbehalt zum Philologenkongreß oder wol gar noch über denselben hinaus zum Winckelmann-fest aufzuheben.
+5-1	So	ADV	so	_	O	O	
+5-2	früh	ADJD	früh	_	O	O	
+5-3	Annali	NE	<unknown>	_	O	O	
+5-4	und	KON	und	_	O	O	
+5-5	so	ADV	so	_	O	O	
+5-6	früh	ADJD	früh	_	O	O	
+5-7	als	KOKOM	als	_	O	O	
+5-8	Probedrucke	NN	Probedruck	_	O	O	
+5-9	der	ART	die	_	O	O	
+5-10	begleitenden	ADJA	begleitend	_	O	O	
+5-11	Monumenti	NN	<unknown>	_	O	O	
+5-12	zu	PTKZU	zu	_	O	O	
+5-13	haben	VAINF	haben	_	O	O	
+5-14	sind	VAFIN	sein	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	werde	VAFIN	werden	_	O	O	
+5-17	ich	PPER	ich	_	O	O	
+5-18	sie	PPER	sie	_	O	O	
+5-19	allzeit	ADV	allzeit	_	O	O	
+5-20	dankbar	ADJD	dankbar	_	O	O	
+5-21	und	KON	und	_	O	O	
+5-22	im	APPRART	in	_	O	O	
+5-23	Interesse	NN	Interesse	_	O	O	
+5-24	des	ART	die	_	O	O	
+5-25	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+5-26	nützlich	ADJD	nützlich	_	O	O	
+5-27	anwenden	VVINF	anwenden	_	O	O	
+5-28	;	$.	;	_	O	O	
+5-29	je	ADV	je	_	O	O	
+5-30	eher	ADV	eher	_	O	O	
+5-31	je	ADV	je	_	O	O	
+5-32	besser	ADJD	gut	_	O	O	
+5-33	1	CARD	1	_	O	O	
+5-34	Ich	PPER	ich	_	O	O	
+5-35	lege	VVFIN	legen	_	O	O	
+5-36	dann	ADV	dann	_	O	O	
+5-37	was	PIS	was	_	O	O	
+5-38	ich	PPER	ich	_	O	O	
+5-39	habe	VAFIN	haben	_	O	O	
+5-40	im	APPRART	in	_	O	O	
+5-41	schicklichsten	ADJA	<unknown>	_	O	O	
+5-42	Zeitpunkt	NN	Zeitpunkt	_	O	O	
+5-43	vor	PTKVZ	vor	_	O	O	
+5-44	-	$(	-	_	O	O	
+5-45	,	$,	,	_	O	O	
+5-46	mit	APPR	mit	_	O	O	
+5-47	allem	PIS	alle	_	O	O	
+5-48	Vorbehalt	NN	Vorbehalt	_	O	O	
+5-49	zum	APPRART	zu	_	O	O	
+5-50	Philologenkongreß	NN	<unknown>	_	O	O	
+5-51	oder	KON	oder	_	O	O	
+5-52	wol	ADJD	<unknown>	_	O	O	
+5-53	gar	ADV	gar	_	O	O	
+5-54	noch	ADV	noch	_	O	O	
+5-55	über	APPR	über	_	O	O	
+5-56	denselben	PDAT	derselb	_	O	O	
+5-57	hinaus	ADV	hinaus	_	O	O	
+5-58	zum	APPRART	zu	_	O	O	
+5-59	Winckelmann-fest	NN	<unknown>	_	O	O	
+5-60	aufzuheben	VVIZU	aufheben	_	O	O	
+5-61	.	$.	.	_	O	O	
+
+#id=6
+#text=Gar nichts über gewöhnliche oder Festsitzung des Instituts im vergangenen Winter zu sagen will mir nicht gefallen; werden Sie auch im Bull.
+6-1	Gar	ADV	gar	_	O	O	
+6-2	nichts	PIS	nichts	_	O	O	
+6-3	über	APPR	über	_	O	O	
+6-4	gewöhnliche	ADJA	gewöhnlich	_	O	O	
+6-5	oder	KON	oder	_	O	O	
+6-6	Festsitzung	NN	Festsitzung	_	O	O	
+6-7	des	ART	die	_	O	O	
+6-8	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-9	im	APPRART	in	_	O	O	
+6-10	vergangenen	ADJA	vergangen	_	O	O	
+6-11	Winter	NN	Winter	_	O	O	
+6-12	zu	PTKZU	zu	_	O	O	
+6-13	sagen	VVINF	sagen	_	O	O	
+6-14	will	VMFIN	wollen	_	O	O	
+6-15	mir	PPER	ich	_	O	O	
+6-16	nicht	PTKNEG	nicht	_	O	O	
+6-17	gefallen	VVPP	fallen|gefallen	_	O	O	
+6-18	;	$.	;	_	O	O	
+6-19	werden	VAFIN	werden	_	O	O	
+6-20	Sie	PPER	Sie	_	O	O	
+6-21	auch	ADV	auch	_	O	O	
+6-22	im	APPRART	in	_	O	O	
+6-23	Bull	NE	Bull	_	O	O	
+6-24	.	$.	.	_	O	O	
+
+#id=7
+#text=darüber schweigen?
+7-1	darüber	PAV	darüber	_	O	O	
+7-2	schweigen	VVFIN	schweigen	_	O	O	
+7-3	?	$.	?	_	O	O	
+
+#id=8
+#text=Wie viel ich für Sie an Friedländer zahlte und Sie gut behielten, schrieb ich Ihnen damals und kann es jetzt da die Post drängt nicht neu nachsehn, bleibt aber allzeit ( zu ) Ihrer Verfügung.
+8-1	Wie	KOUS	wie	_	O	O	
+8-2	viel	PIS	viele	_	O	O	
+8-3	ich	PPER	ich	_	O	O	
+8-4	für	APPR	für	_	O	O	
+8-5	Sie	PPER	Sie	_	O	O	
+8-6	an	APPR	an	_	O	O	
+8-7	Friedländer	NN	Friedland	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-8	zahlte	VVFIN	zahlen	_	O	O	
+8-9	und	KON	und	_	O	O	
+8-10	Sie	PPER	Sie	_	O	O	
+8-11	gut	ADJD	gut	_	O	O	
+8-12	behielten	VVFIN	behalten	_	O	O	
+8-13	,	$,	,	_	O	O	
+8-14	schrieb	VVFIN	schreiben	_	O	O	
+8-15	ich	PPER	ich	_	O	O	
+8-16	Ihnen	PPER	Sie	_	O	O	
+8-17	damals	ADV	damals	_	O	O	
+8-18	und	KON	und	_	O	O	
+8-19	kann	VMFIN	können	_	O	O	
+8-20	es	PPER	es	_	O	O	
+8-21	jetzt	ADV	jetzt	_	O	O	
+8-22	da	ADV	da	_	O	O	
+8-23	die	ART	die	_	O	O	
+8-24	Post	NN	Post	_	O	O	
+8-25	drängt	VVFIN	drängen	_	O	O	
+8-26	nicht	PTKNEG	nicht	_	O	O	
+8-27	neu	ADJD	neu	_	O	O	
+8-28	nachsehn	VVFIN	<unknown>	_	O	O	
+8-29	,	$,	,	_	O	O	
+8-30	bleibt	VVFIN	bleiben	_	O	O	
+8-31	aber	ADV	aber	_	O	O	
+8-32	allzeit	ADV	allzeit	_	O	O	
+8-33	(	$(	(	_	O	O	
+8-34	zu	APPR	zu	_	O	O	
+8-35	)	$(	)	_	O	O	
+8-36	Ihrer	PPOSAT	ihr	_	O	O	
+8-37	Verfügung	NN	Verfügung	_	O	O	
+8-38	.	$.	.	_	O	O	
+
+#id=9
+#text=Pakete werde also bei Mommsen deponiren; eine A- \~o...llt dresse für Wien und Verona haffea~j~ vielleicht auch Orti.
+9-1	Pakete	NN	Paket	_	O	O	
+9-2	werde	VAFIN	werden	_	O	O	
+9-3	also	ADV	also	_	O	O	
+9-4	bei	APPR	bei	_	O	O	
+9-5	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-6	deponiren	NN	<unknown>	_	O	O	
+9-7	;	$.	;	_	O	O	
+9-8	eine	ART	eine	_	O	O	
+9-9	A-	TRUNC	A-	_	O	O	
+9-10	\~o	NN	<unknown>	_	O	O	
+9-11	...	$.	...	_	O	O	
+9-12	llt	NN	<unknown>	_	O	O	
+9-13	dresse	NN	<unknown>	_	O	O	
+9-14	für	APPR	für	_	O	O	
+9-15	Wien	NE	Wien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-16	und	KON	und	_	O	O	
+9-17	Verona	NE	Verona	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-18	haffea~j~	VVFIN	<unknown>	_	O	O	
+9-19	vielleicht	ADV	vielleicht	_	O	O	
+9-20	auch	ADV	auch	_	O	O	
+9-21	Orti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-22	.	$.	.	_	O	O	
+

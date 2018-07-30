@@ -1,0 +1,221 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=A. di Dir.
+1-1	A.	APPRART	am	_	O	O	
+1-2	di	NE	di	_	O	O	
+1-3	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Lieber Henzen.
+2-1	Lieber	ADJA	lieb	_	O	O	
+2-2	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+2-3	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Henzen Berlin 20/VI/1848 g. 30/VI 48 r.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-2	an	APPR	an	_	O	O	
+3-3	Henzen	NN	<unknown>	_	O	O	
+3-4	Berlin	NE	Berlin	_	O	O	
+3-5	20/VI/1848	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-6	g.	ADJA	<unknown>	_	O	O	
+3-7	30/VI	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-8	48	CARD	48	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+3-9	r.	ADJA	<unknown>	_	O	O	
+
+#id=4
+#text=4/VII 48 Berlin 20 Juni 48 Lersch scheint seine Schuldigkeit gethan und in 6 ()~ an mich ~l gesandte~Eocemplare~Ihrer Schrift nur den Berliner Bedarf gemeint zu haben.
+4-1	4/VII	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+4-2	48	CARD	48	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+4-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-4	20	CARD	20	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-5	Juni	NN	Juni	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-6	48	CARD	48	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-7	Lersch	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-8	scheint	VVFIN	scheinen	_	O	O	
+4-9	seine	PPOSAT	sein	_	O	O	
+4-10	Schuldigkeit	NN	Schuldigkeit	_	O	O	
+4-11	gethan	NE	<unknown>	_	O	O	
+4-12	und	KON	und	_	O	O	
+4-13	in	APPR	in	_	O	O	
+4-14	6	CARD	6	_	O	O	
+4-15	()~	NN	<unknown>	_	O	O	
+4-16	an	APPR	an	_	O	O	
+4-17	mich	PPER	ich	_	O	O	
+4-18	~l	NN	<unknown>	_	O	O	
+4-19	gesandte~Eocemplare~Ihrer	NN	<unknown>	_	O	O	
+4-20	Schrift	NN	Schrift	_	O	O	
+4-21	nur	ADV	nur	_	O	O	
+4-22	den	ART	die	_	O	O	
+4-23	Berliner	ADJA	Berliner	_	O	O	
+4-24	Bedarf	NN	Bedarf	_	O	O	
+4-25	gemeint	VVPP	meinen	_	O	O	
+4-26	zu	PTKZU	zu	_	O	O	
+4-27	haben	VAINF	haben	_	O	O	
+4-28	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich lassen dieselben sofort anständig broschiren und werde sie dann nach Vorschrift unter Ihre hiesigen Begünstigten - Neigebaur hat als 6 ter sich eben hinzugefunden - sofort vertheilen.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	lassen	VVFIN	lassen	_	O	O	
+5-3	dieselben	PDS	dieselbe	_	O	O	
+5-4	sofort	ADV	sofort	_	O	O	
+5-5	anständig	ADJD	anständig	_	O	O	
+5-6	broschiren	NN	<unknown>	_	O	O	
+5-7	und	KON	und	_	O	O	
+5-8	werde	VAFIN	werden	_	O	O	
+5-9	sie	PPER	sie	_	O	O	
+5-10	dann	ADV	dann	_	O	O	
+5-11	nach	APPR	nach	_	O	O	
+5-12	Vorschrift	NN	Vorschrift	_	O	O	
+5-13	unter	APPR	unter	_	O	O	
+5-14	Ihre	PPOSAT	ihr	_	O	O	
+5-15	hiesigen	ADJA	hiesig	_	O	O	
+5-16	Begünstigten	NN	Begünstigte	_	O	O	
+5-17	-	$(	-	_	O	O	
+5-18	Neigebaur	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-19	hat	VAFIN	haben	_	O	O	
+5-20	als	KOKOM	als	_	O	O	
+5-21	6	CARD	6	_	O	O	
+5-22	ter	VVFIN	<unknown>	_	O	O	
+5-23	sich	PRF	sich	_	O	O	
+5-24	eben	ADV	eben	_	O	O	
+5-25	hinzugefunden	ADJD	<unknown>	_	O	O	
+5-26	-	$(	-	_	O	O	
+5-27	sofort	ADV	sofort	_	O	O	
+5-28	vertheilen	VVINF	<unknown>	_	O	O	
+5-29	.	$.	.	_	O	O	
+
+#id=6
+#text=Horkel vicarirt den Sommer über in Brandenburg für einen Con~ctor der beim Landtag ist.
+6-1	Horkel	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-2	vicarirt	NN	<unknown>	_	O	O	
+6-3	den	ART	die	_	O	O	
+6-4	Sommer	NN	Sommer	_	O	O	
+6-5	über	APPR	über	_	O	O	
+6-6	in	APPR	in	_	O	O	
+6-7	Brandenburg	NE	Brandenburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+6-8	für	APPR	für	_	O	O	
+6-9	einen	ART	eine	_	O	O	
+6-10	Con~ctor	NN	<unknown>	_	O	O	
+6-11	der	ART	die	_	O	O	
+6-12	beim	APPRART	bei	_	O	O	
+6-13	Landtag	NN	Landtag	_	O	O	
+6-14	ist	VAFIN	sein	_	O	O	
+6-15	.	$.	.	_	O	O	
+
+#id=7
+#text=Ihr Aufsatz über die Augustalen ist in der Zeitung für Alterthüm~.
+7-1	Ihr	PPOSAT	ihr	_	O	O	
+7-2	Aufsatz	NN	Aufsatz	_	O	O	
+7-3	über	APPR	über	_	O	O	
+7-4	die	ART	die	_	O	O	
+7-5	Augustalen	NN	<unknown>	_	O	O	
+7-6	ist	VAFIN	sein	_	O	O	
+7-7	in	APPR	in	_	O	O	
+7-8	der	ART	die	_	O	O	
+7-9	Zeitung	NN	Zeitung	_	O	O	
+7-10	für	APPR	für	_	O	O	
+7-11	Alterthüm~	NN	<unknown>	_	O	O	
+7-12	.	$.	.	_	O	O	
+
+#id=8
+#text=gedruckt.
+8-1	gedruckt	VVPP	drucken	_	O	O	
+8-2	.	$.	.	_	O	O	
+
+#id=9
+#text=Niebuhr hatte seit seiner Anstellung in Magdeburg die Masern.
+9-1	Niebuhr	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	hatte	VAFIN	haben	_	O	O	
+9-3	seit	APPR	seit	_	O	O	
+9-4	seiner	PPOSAT	sein	_	O	O	
+9-5	Anstellung	NN	Anstellung	_	O	O	
+9-6	in	APPR	in	_	O	O	
+9-7	Magdeburg	NE	Magdeburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-8	die	ART	die	_	O	O	
+9-9	Masern	NN	Maser	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=gen Ueber unsre Nöthen erfahren Sie durch die Zeitunseit dem 14t~n wird geplündert.
+10-1	gen	APPR	gen	_	O	O	
+10-2	Ueber	NN	<unknown>	_	O	O	
+10-3	unsre	PPOSAT	unsre	_	O	O	
+10-4	Nöthen	NN	<unknown>	_	O	O	
+10-5	erfahren	VVFIN	erfahren	_	O	O	
+10-6	Sie	PPER	Sie	_	O	O	
+10-7	durch	APPR	durch	_	O	O	
+10-8	die	ART	die	_	O	O	
+10-9	Zeitunseit	NN	<unknown>	_	O	O	
+10-10	dem	ART	die	_	O	O	
+10-11	14t~n	NE	<unknown>	_	O	O	
+10-12	wird	VAFIN	werden	_	O	O	
+10-13	geplündert	VVPP	plündern	_	O	O	
+10-14	.	$.	.	_	O	O	
+
+#id=11
+#text=Der Republik gehn wir entgegen und zwar mit starken Schritten.
+11-1	Der	ART	die	_	O	O	
+11-2	Republik	NN	Republik	_	O	O	
+11-3	gehn	VVFIN	<unknown>	_	O	O	
+11-4	wir	PPER	wir	_	O	O	
+11-5	entgegen	PTKVZ	entgegen	_	O	O	
+11-6	und	KON	und	_	O	O	
+11-7	zwar	ADV	zwar	_	O	O	
+11-8	mit	APPR	mit	_	O	O	
+11-9	starken	ADJA	stark	_	O	O	
+11-10	Schritten	NN	Schritt	_	O	O	
+11-11	.	$.	.	_	O	O	
+
+#id=12
+#text=Meine Frau grüßt bestens und ermahnt die Ihrige einmal von sich hören zu lassen, der ich mich gleichfalls zu empfehlen bitte.
+12-1	Meine	PPOSAT	mein	_	O	O	
+12-2	Frau	NN	Frau	_	O	O	
+12-3	grüßt	VVFIN	grüßen	_	O	O	
+12-4	bestens	ADV	bestens	_	O	O	
+12-5	und	KON	und	_	O	O	
+12-6	ermahnt	VVFIN	ermahnen	_	O	O	
+12-7	die	ART	die	_	O	O	
+12-8	Ihrige	PPOSAT	ihrige	_	O	O	
+12-9	einmal	ADV	einmal	_	O	O	
+12-10	von	APPR	von	_	O	O	
+12-11	sich	PRF	sich	_	O	O	
+12-12	hören	VVINF	hören	_	O	O	
+12-13	zu	PTKZU	zu	_	O	O	
+12-14	lassen	VVINF	lassen	_	O	O	
+12-15	,	$,	,	_	O	O	
+12-16	der	PRELS	die	_	O	O	
+12-17	ich	PPER	ich	_	O	O	
+12-18	mich	PRF	ich	_	O	O	
+12-19	gleichfalls	ADV	gleichfalls	_	O	O	
+12-20	zu	PTKZU	zu	_	O	O	
+12-21	empfehlen	VVINF	empfehlen	_	O	O	
+12-22	bitte	VVFIN	bitten	_	O	O	
+12-23	.	$.	.	_	O	O	
+
+#id=13
+#text=Steinhaeusers Hero und Leander war ein Prachtstück ItLi ~ in einer sonst wenig besuchten und wenig ~nden Ausstellung der Akademischen Künste.
+13-1	Steinhaeusers	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-2	Hero	NE	Hero	_	O	O	
+13-3	und	KON	und	_	O	O	
+13-4	Leander	NE	Leander	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-5	war	VAFIN	sein	_	O	O	
+13-6	ein	ART	eine	_	O	O	
+13-7	Prachtstück	NN	Prachtstück	_	O	O	
+13-8	ItLi	NE	<unknown>	_	O	O	
+13-9	~	XY	~	_	O	O	
+13-10	in	APPR	in	_	O	O	
+13-11	einer	ART	eine	_	O	O	
+13-12	sonst	ADV	sonst	_	O	O	
+13-13	wenig	ADV	wenig	_	O	O	
+13-14	besuchten	VVFIN	besuchen	_	O	O	
+13-15	und	KON	und	_	O	O	
+13-16	wenig	PIAT	wenige	_	O	O	
+13-17	~nden	ADJA	<unknown>	_	O	O	
+13-18	Ausstellung	NN	Ausstellung	_	O	O	
+13-19	der	ART	die	_	O	O	
+13-20	Akademischen	ADJA	akademisch	_	O	O	
+13-21	Künste	NN	Kunst	_	O	O	
+13-22	.	$.	.	_	O	O	
+

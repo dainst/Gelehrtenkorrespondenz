@@ -1,0 +1,214 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=am Rande Bemerkung Henzens : "habe geschrieben" , \ , } 582 Gerhard an Henzen 6/IX/1843 2 Außerdem wird das Befinden meiner Frau es entscheiden ob ich, in Civitavecchia angelangt selbig Tags nach Rom gehe oder erst anderntags um Corneto nicht auszulassen.
+1-1	am	APPRART	an	_	O	O	
+1-2	Rande	NN	Rand	_	O	O	
+1-3	Bemerkung	NN	Bemerkung	_	O	O	
+1-4	Henzens	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	:	$.	:	_	O	O	
+1-6	"	$(	"	_	O	O	
+1-7	habe	VAFIN	haben	_	O	O	
+1-8	geschrieben	VVPP	schreiben	_	O	O	
+1-9	"	$(	"	_	O	O	
+1-10	,	$,	,	_	O	O	
+1-11	\	XY	\	_	O	O	
+1-12	,	$,	,	_	O	O	
+1-13	}	$(	}	_	O	O	
+1-14	582	CARD	@card@	_	O	O	
+1-15	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-16	an	APPR	an	_	O	O	
+1-17	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-18	6/IX/1843	CARD	<unknown>	_	O	O	
+1-19	2	CARD	2	_	O	O	
+1-20	Außerdem	ADV	außerdem	_	O	O	
+1-21	wird	VAFIN	werden	_	O	O	
+1-22	das	ART	die	_	O	O	
+1-23	Befinden	NN	Befinden	_	O	O	
+1-24	meiner	PPOSAT	mein	_	O	O	
+1-25	Frau	NN	Frau	_	O	O	
+1-26	es	PPER	es	_	O	O	
+1-27	entscheiden	VVFIN	entscheiden	_	O	O	
+1-28	ob	KOUS	ob	_	O	O	
+1-29	ich	PPER	ich	_	O	O	
+1-30	,	$,	,	_	O	O	
+1-31	in	APPR	in	_	O	O	
+1-32	Civitavecchia	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-33	angelangt	VVFIN	angelangen	_	O	O	
+1-34	selbig	ADJD	<unknown>	_	O	O	
+1-35	Tags	NN	Tag	_	O	O	
+1-36	nach	APPR	nach	_	O	O	
+1-37	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-38	gehe	VVFIN	gehen	_	O	O	
+1-39	oder	KON	oder	_	O	O	
+1-40	erst	ADV	erst	_	O	O	
+1-41	anderntags	ADV	anderntags	_	O	O	
+1-42	um	APPR	um	_	O	O	
+1-43	Corneto	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+1-44	nicht	PTKNEG	nicht	_	O	O	
+1-45	auszulassen	VVIZU	auslassen	_	O	O	
+1-46	.	$.	.	_	O	O	
+
+#id=2
+#text="'Glli'Vv Davon wird esYabhängen ob ich schon am 11te~ Abends oder am 12 Mittags oder erst Donnerstags am 14t~n in Rom einträfe; in welchem letzteren Fall wenigstens es Ihnen möglich sein würde mich einige Zeilen am Il~ ( Cav. Leggieri ) mit der Versicherung finden zu lassen daß das Kapitol noch immer casa mia sei.
+2-1	"	$(	"	_	O	O	
+2-2	'	$(	'	_	O	O	
+2-3	Glli'Vv	ADJD	<unknown>	_	O	O	
+2-4	Davon	PAV	davon	_	O	O	
+2-5	wird	VAFIN	werden	_	O	O	
+2-6	esYabhängen	TRUNC	<unknown>	_	O	O	
+2-7	ob	KOUS	ob	_	O	O	
+2-8	ich	PPER	ich	_	O	O	
+2-9	schon	ADV	schon	_	O	O	
+2-10	am	APPRART	an	_	O	O	
+2-11	11te~	ADJA	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+2-12	Abends	NN	Abend	_	O	O	
+2-13	oder	KON	oder	_	O	O	
+2-14	am	APPRART	an	_	O	O	
+2-15	12	CARD	12	_	O	O	
+2-16	Mittags	NN	Mittag	_	O	O	
+2-17	oder	KON	oder	_	O	O	
+2-18	erst	ADV	erst	_	O	O	
+2-19	Donnerstags	NN	Donnerstag	_	O	O	
+2-20	am	APPRART	an	_	O	O	
+2-21	14t~n	NE	<unknown>	_	O	O	
+2-22	in	APPR	in	_	O	O	
+2-23	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-24	einträfe	VVFIN	eintreffen	_	O	O	
+2-25	;	$.	;	_	O	O	
+2-26	in	APPR	in	_	O	O	
+2-27	welchem	PRELS	welche	_	O	O	
+2-28	letzteren	ADJA	letzt	_	O	O	
+2-29	Fall	NN	Fall	_	O	O	
+2-30	wenigstens	ADV	wenigstens	_	O	O	
+2-31	es	PPER	es	_	O	O	
+2-32	Ihnen	PPER	Sie	_	O	O	
+2-33	möglich	ADJD	möglich	_	O	O	
+2-34	sein	VAINF	sein	_	O	O	
+2-35	würde	VAFIN	werden	_	O	O	
+2-36	mich	PRF	ich	_	O	O	
+2-37	einige	PIAT	einige	_	O	O	
+2-38	Zeilen	NN	Zeile	_	O	O	
+2-39	am	APPRART	an	_	O	O	
+2-40	Il~	ADJA	<unknown>	_	O	O	
+2-41	(	$(	(	_	O	O	
+2-42	Cav.	NE	<unknown>	_	O	O	
+2-43	Leggieri	NE	<unknown>	_	O	O	
+2-44	)	$(	)	_	O	O	
+2-45	mit	APPR	mit	_	O	O	
+2-46	der	ART	die	_	O	O	
+2-47	Versicherung	NN	Versicherung	_	O	O	
+2-48	finden	VVINF	finden	_	O	O	
+2-49	zu	PTKZU	zu	_	O	O	
+2-50	lassen	VVINF	lassen	_	O	O	
+2-51	daß	KOUS	dass	_	O	O	
+2-52	das	ART	die	_	O	O	
+2-53	Kapitol	NN	Kapitol	_	O	O	
+2-54	noch	ADV	noch	_	O	O	
+2-55	immer	ADV	immer	_	O	O	
+2-56	casa	NE	Casa	_	O	O	
+2-57	mia	NE	Mia	_	O	O	
+2-58	sei	VAFIN	sein	_	O	O	
+2-59	.	$.	.	_	O	O	
+
+#id=3
+#text=Mein römischer Aufenthalt ist bis zum 3t~n Okt.
+3-1	Mein	PPOSAT	mein	_	O	O	
+3-2	römischer	ADJA	römisch	_	O	O	
+3-3	Aufenthalt	NN	Aufenthalt	_	O	O	
+3-4	ist	VAFIN	sein	_	O	O	
+3-5	bis	APPR	bis	_	O	O	
+3-6	zum	APPRART	zu	_	O	O	
+3-7	3t~n	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-8	Okt.	NN	Okt.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=4
+#text=berechnet.
+4-1	berechnet	VVPP	berechnen	_	O	O	
+4-2	.	$.	.	_	O	O	
+
+#id=5
+#text=Welcker war wohlauf; das Unglück unsres armen Freunds Maler erfuhr ich auf rascher Durchreise in Karlsruhe ohne ihn zu sehen.
+5-1	Welcker	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	war	VAFIN	sein	_	O	O	
+5-3	wohlauf	ADV	wohlauf	_	O	O	
+5-4	;	$.	;	_	O	O	
+5-5	das	ART	die	_	O	O	
+5-6	Unglück	NN	Unglück	_	O	O	
+5-7	unsres	PPOSAT	unser	_	O	O	
+5-8	armen	ADJA	arm	_	O	O	
+5-9	Freunds	NN	Freund	_	O	O	
+5-10	Maler	NN	Maler	_	O	O	
+5-11	erfuhr	VVFIN	erfahren	_	O	O	
+5-12	ich	PPER	ich	_	O	O	
+5-13	auf	APPR	auf	_	O	O	
+5-14	rascher	ADJA	rasch	_	O	O	
+5-15	Durchreise	NN	Durchreise	_	O	O	
+5-16	in	APPR	in	_	O	O	
+5-17	Karlsruhe	NE	Karlsruhe	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-18	ohne	APPR	ohne	_	O	O	
+5-19	ihn	PPER	er	_	O	O	
+5-20	zu	PTKZU	zu	_	O	O	
+5-21	sehen	VVINF	sehen	_	O	O	
+5-22	.	$.	.	_	O	O	
+
+#id=6
+#text=An Freund Vollard theilen Sie wol den Inhalt dieses Briefes mit für den Fall daß ich ihm nicht direkt noch schreiben könnte.
+6-1	An	APPR	an	_	O	O	
+6-2	Freund	NE	Freund	_	O	O	
+6-3	Vollard	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-4	theilen	VVFIN	<unknown>	_	O	O	
+6-5	Sie	PPER	Sie	_	O	O	
+6-6	wol	ADJD	<unknown>	_	O	O	
+6-7	den	ART	die	_	O	O	
+6-8	Inhalt	NN	Inhalt	_	O	O	
+6-9	dieses	PDAT	dies	_	O	O	
+6-10	Briefes	NN	Brief	_	O	O	
+6-11	mit	APPR	mit	_	O	O	
+6-12	für	APPR	für	_	O	O	
+6-13	den	ART	die	_	O	O	
+6-14	Fall	NN	Fall	_	O	O	
+6-15	daß	KOUS	dass	_	O	O	
+6-16	ich	PPER	ich	_	O	O	
+6-17	ihm	PPER	er	_	O	O	
+6-18	nicht	PTKNEG	nicht	_	O	O	
+6-19	direkt	ADJD	direkt	_	O	O	
+6-20	noch	ADV	noch	_	O	O	
+6-21	schreiben	VVINF	schreiben	_	O	O	
+6-22	könnte	VMFIN	können	_	O	O	
+6-23	.	$.	.	_	O	O	
+
+#id=7
+#text=Roß hat sehr gute Aussichten in Berlin, wie ein frischer Brief aus Athen mir erzählt.
+7-1	Roß	NN	Ross	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	hat	VAFIN	haben	_	O	O	
+7-3	sehr	ADV	sehr	_	O	O	
+7-4	gute	ADJA	gut	_	O	O	
+7-5	Aussichten	NN	Aussicht	_	O	O	
+7-6	in	APPR	in	_	O	O	
+7-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-8	,	$,	,	_	O	O	
+7-9	wie	KOKOM	wie	_	O	O	
+7-10	ein	ART	eine	_	O	O	
+7-11	frischer	ADJA	frisch	_	O	O	
+7-12	Brief	NN	Brief	_	O	O	
+7-13	aus	APPR	aus	_	O	O	
+7-14	Athen	NE	Athen	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-15	mir	PPER	ich	_	O	O	
+7-16	erzählt	VVFIN	erzählen	_	O	O	
+7-17	.	$.	.	_	O	O	
+
+#id=8
+#text=Ihrer persönlichen Begegnung mit Freuden entgegensehend, hochachtend und ganz ergebenst Gerhard
+8-1	Ihrer	PPOSAT	ihr	_	O	O	
+8-2	persönlichen	ADJA	persönlich	_	O	O	
+8-3	Begegnung	NN	Begegnung	_	O	O	
+8-4	mit	APPR	mit	_	O	O	
+8-5	Freuden	NN	Freude	_	O	O	
+8-6	entgegensehend	ADJD	entgegensehend	_	O	O	
+8-7	,	$,	,	_	O	O	
+8-8	hochachtend	ADJD	<unknown>	_	O	O	
+8-9	und	KON	und	_	O	O	
+8-10	ganz	ADV	ganz	_	O	O	
+8-11	ergebenst	ADJD	ergeben	_	O	O	
+8-12	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

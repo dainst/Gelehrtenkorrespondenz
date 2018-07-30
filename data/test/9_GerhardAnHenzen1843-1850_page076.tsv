@@ -1,0 +1,396 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=.
+1-1	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=Gerhard an Henzen Berlin, 3. November 1846 A. di Direz.
+7-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+7-2	an	APPR	an	_	O	O	
+7-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+7-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+7-5	,	$,	,	_	O	O	
+7-6	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+7-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-8	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-9	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+7-10	A.	APPRART	am	_	O	O	
+7-11	di	NE	di	_	O	O	
+7-12	Direz	NN	<unknown>	_	O	O	
+7-13	.	$.	.	_	O	O	
+
+#id=8
+#text=g. 16/XI 4-6 r. 17/XI 4-6 .
+8-1	g.	ADJA	<unknown>	_	O	O	
+8-2	16/XI	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+8-3	4-6	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+8-4	r.	ADJA	<unknown>	_	O	O	
+8-5	17/XI	NN	<unknown>	_	O	O	
+8-6	4-6	CARD	@card@	_	O	O	
+8-7	.	$.	.	_	O	O	
+
+#id=9
+#text=.
+9-1	.	$.	.	_	O	O	
+
+#id=10
+#text=.
+10-1	.	$.	.	_	O	O	
+
+#id=11
+#text=.
+11-1	.	$.	.	_	O	O	
+
+#id=12
+#text=.
+12-1	.	$.	.	_	O	O	
+
+#id=13
+#text=.
+13-1	.	$.	.	_	O	O	
+
+#id=14
+#text=.
+14-1	.	$.	.	_	O	O	
+
+#id=15
+#text=.
+15-1	.	$.	.	_	O	O	
+
+#id=16
+#text=Berlin 3 Nov 4-6 .
+16-1	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+16-2	3	CARD	3	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+16-3	Nov	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+16-4	4-6	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+16-5	.	$.	.	_	O	O	
+
+#id=17
+#text=.
+17-1	.	$.	.	_	O	O	
+
+#id=18
+#text=.
+18-1	.	$.	.	_	O	O	
+
+#id=19
+#text=.
+19-1	.	$.	.	_	O	O	
+
+#id=20
+#text=.
+20-1	.	$.	.	_	O	O	
+
+#id=21
+#text=.
+21-1	.	$.	.	_	O	O	
+
+#id=22
+#text=.
+22-1	.	$.	.	_	O	O	
+
+#id=23
+#text=.
+23-1	.	$.	.	_	O	O	
+
+#id=24
+#text=.
+24-1	.	$.	.	_	O	O	
+
+#id=25
+#text=.
+25-1	.	$.	.	_	O	O	
+
+#id=26
+#text=.
+26-1	.	$.	.	_	O	O	
+
+#id=27
+#text=(Frau) (Mer)tens lieber Freund hat nur ihre Genesung abgewartet um große Klagen wegen übereilter .
+27-1	(	$(	(	_	O	O	
+27-2	Frau	NN	Frau	_	O	O	
+27-3	)	$(	)	_	O	O	
+27-4	(Mer)tens	NN	<unknown>	_	O	O	
+27-5	lieber	ADJD	lieb	_	O	O	
+27-6	Freund	NE	Freund	_	O	O	
+27-7	hat	VAFIN	haben	_	O	O	
+27-8	nur	ADV	nur	_	O	O	
+27-9	ihre	PPOSAT	ihr	_	O	O	
+27-10	Genesung	NN	Genesung	_	O	O	
+27-11	abgewartet	VVPP	abwarten	_	O	O	
+27-12	um	APPR	um	_	O	O	
+27-13	große	ADJA	groß	_	O	O	
+27-14	Klagen	NN	Klage|Klagen	_	O	O	
+27-15	wegen	APPR	wegen	_	O	O	
+27-16	übereilter	ADJD	übereilt	_	O	O	
+27-17	.	$.	.	_	O	O	
+
+#id=28
+#text=.
+28-1	.	$.	.	_	O	O	
+
+#id=29
+#text=.
+29-1	.	$.	.	_	O	O	
+
+#id=30
+#text=.
+30-1	.	$.	.	_	O	O	
+
+#id=31
+#text=.
+31-1	.	$.	.	_	O	O	
+
+#id=32
+#text=.
+32-1	.	$.	.	_	O	O	
+
+#id=33
+#text=.
+33-1	.	$.	.	_	O	O	
+
+#id=34
+#text=.
+34-1	.	$.	.	_	O	O	
+
+#id=35
+#text=.
+35-1	.	$.	.	_	O	O	
+
+#id=36
+#text=.
+36-1	.	$.	.	_	O	O	
+
+#id=37
+#text=Publication der Konsularinschrift zu führen.
+37-1	Publication	NN	<unknown>	_	O	O	
+37-2	der	ART	die	_	O	O	
+37-3	Konsularinschrift	NN	<unknown>	_	O	O	
+37-4	zu	PTKZU	zu	_	O	O	
+37-5	führen	VVINF	führen	_	O	O	
+37-6	.	$.	.	_	O	O	
+
+#id=38
+#text=Sie gibt nun für die Archäologische Zeitung folgende .
+38-1	Sie	PPER	Sie	_	O	O	
+38-2	gibt	VVFIN	geben	_	O	O	
+38-3	nun	ADV	nun	_	O	O	
+38-4	für	APPR	für	_	O	O	
+38-5	die	ART	die	_	O	O	
+38-6	Archäologische	ADJA	archäologisch	_	O	O	
+38-7	Zeitung	NN	Zeitung	_	O	O	
+38-8	folgende	ADJA	folgend	_	O	O	
+38-9	.	$.	.	_	O	O	
+
+#id=39
+#text=.
+39-1	.	$.	.	_	O	O	
+
+#id=40
+#text=.
+40-1	.	$.	.	_	O	O	
+
+#id=41
+#text=.
+41-1	.	$.	.	_	O	O	
+
+#id=42
+#text=.
+42-1	.	$.	.	_	O	O	
+
+#id=43
+#text=.
+43-1	.	$.	.	_	O	O	
+
+#id=44
+#text=.
+44-1	.	$.	.	_	O	O	
+
+#id=45
+#text=.
+45-1	.	$.	.	_	O	O	
+
+#id=46
+#text=.
+46-1	.	$.	.	_	O	O	
+
+#id=47
+#text=.
+47-1	.	$.	.	_	O	O	
+
+#id=48
+#text=gung auf, aus dem gereinigten Zustand der Inschrift hervorgegangen "In St(ackelberg)'s Abschrift fehlt Zeile 14- und 15 ganz.
+48-1	gung	NN	<unknown>	_	O	O	
+48-2	auf	PTKVZ	auf	_	O	O	
+48-3	,	$,	,	_	O	O	
+48-4	aus	APPR	aus	_	O	O	
+48-5	dem	ART	die	_	O	O	
+48-6	gereinigten	ADJA	gereinigt	_	O	O	
+48-7	Zustand	NN	Zustand	_	O	O	
+48-8	der	ART	die	_	O	O	
+48-9	Inschrift	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+48-10	hervorgegangen	VVPP	hervorgehen	_	O	O	
+48-11	"	$(	"	_	O	O	
+48-12	In	APPR	in	_	O	O	
+48-13	St(ackelberg)'s	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+48-14	Abschrift	NN	Abschrift	_	O	O	
+48-15	fehlt	VVFIN	fehlen	_	O	O	
+48-16	Zeile	NN	Zeile	_	O	O	
+48-17	14-	TRUNC	14-	_	O	O	
+48-18	und	KON	und	_	O	O	
+48-19	15	CARD	15	_	O	O	
+48-20	ganz	ADV	ganz	_	O	O	
+48-21	.	$.	.	_	O	O	
+
+#id=49
+#text=In Zeile 1 Poppafus statt POPPAEUS, in Zeile 4- ER statt SEX.
+49-1	In	APPR	in	_	O	O	
+49-2	Zeile	NN	Zeile	_	O	O	
+49-3	1	CARD	1	_	O	O	
+49-4	Poppafus	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+49-5	statt	APPR	statt	_	O	O	
+49-6	POPPAEUS	NE	<unknown>	_	O	O	
+49-7	,	$,	,	_	O	O	
+49-8	in	APPR	in	_	O	O	
+49-9	Zeile	NN	Zeile	_	O	O	
+49-10	4-	TRUNC	4-	_	O	O	
+49-11	ER	VVFIN	<unknown>	_	O	O	
+49-12	statt	APPR	statt	_	O	O	
+49-13	SEX	NN	Sex	_	O	O	
+49-14	.	$.	.	_	O	O	
+
+#id=50
+#text=In Zeile 13 L Scribonius statt C. SCRIBONVIS.
+50-1	In	APPR	in	_	O	O	
+50-2	Zeile	NN	Zeile	_	O	O	
+50-3	13	CARD	13	_	O	O	
+50-4	L	NN	L	_	O	O	
+50-5	Scribonius	NE	<unknown>	_	O	O	
+50-6	statt	APPR	statt	_	O	O	
+50-7	C.	NE	C.	_	O	O	
+50-8	SCRIBONVIS	NE	<unknown>	_	O	O	
+50-9	.	$.	.	_	O	O	
+
+#id=51
+#text=In Zeile 19 FCVIVS statt des ganz deutlichen EGVLVS".
+51-1	In	APPR	in	_	O	O	
+51-2	Zeile	NN	Zeile	_	O	O	
+51-3	19	CARD	19	_	O	O	
+51-4	FCVIVS	NN	<unknown>	_	O	O	
+51-5	statt	APPR	statt	_	O	O	
+51-6	des	ART	die	_	O	O	
+51-7	ganz	ADV	ganz	_	O	O	
+51-8	deutlichen	ADJA	deutlich	_	O	O	
+51-9	EGVLVS	NN	<unknown>	_	O	O	
+51-10	"	$(	"	_	O	O	
+51-11	.	$.	.	_	O	O	
+
+#id=52
+#text=Zeile 14-.
+52-1	Zeile	NN	Zeile	_	O	O	
+52-2	14-	TRUNC	14-	_	O	O	
+52-3	.	$.	.	_	O	O	
+
+#id=53
+#text=15 heißt nun bei ihr: SVF.
+53-1	15	CARD	15	_	O	O	
+53-2	heißt	VVFIN	heißen	_	O	O	
+53-3	nun	ADV	nun	_	O	O	
+53-4	bei	APPR	bei	_	O	O	
+53-5	ihr	PPER	ihr	_	O	O	
+53-6	:	$.	:	_	O	O	
+53-7	SVF	NE	<unknown>	_	O	O	
+53-8	.	$.	.	_	O	O	
+
+#id=54
+#text=C • VIBIVS • LIBO • C • POMPEIVS • GRAECINA • C • CAELIVS • L • POMPONIVS • FLACCVS "In Zeile 18 (bei Renzen Z. 16) sind die 3 frag(mentarischen) Buchstaben vor dem L getrennt, so daß dieser Buchstabe Lucius heißen könnte, und die 3 fragm(entarischen) Buchstaben das Ende eines vorstehenden Namens wären; keinesfalls:.ist indeß der letzte derselben ein R"
+54-1	C	NN	C	_	O	O	
+54-2	•	ADJA	<unknown>	_	O	O	
+54-3	VIBIVS	NN	<unknown>	_	O	O	
+54-4	•	ADJA	<unknown>	_	O	O	
+54-5	LIBO	NN	<unknown>	_	O	O	
+54-6	•	ADJA	<unknown>	_	O	O	
+54-7	C	NN	C	_	O	O	
+54-8	•	ADJA	<unknown>	_	O	O	
+54-9	POMPEIVS	NN	<unknown>	_	O	O	
+54-10	•	ADJA	<unknown>	_	O	O	
+54-11	GRAECINA	NN	<unknown>	_	O	O	
+54-12	•	ADJA	<unknown>	_	O	O	
+54-13	C	NN	C	_	O	O	
+54-14	•	ADJA	<unknown>	_	O	O	
+54-15	CAELIVS	NN	<unknown>	_	O	O	
+54-16	•	ADJA	<unknown>	_	O	O	
+54-17	L	NN	L	_	O	O	
+54-18	•	ADJA	<unknown>	_	O	O	
+54-19	POMPONIVS	NN	<unknown>	_	O	O	
+54-20	•	ADJA	<unknown>	_	O	O	
+54-21	FLACCVS	NN	<unknown>	_	O	O	
+54-22	"	$(	"	_	O	O	
+54-23	In	APPR	in	_	O	O	
+54-24	Zeile	NN	Zeile	_	O	O	
+54-25	18	CARD	18	_	O	O	
+54-26	(	$(	(	_	O	O	
+54-27	bei	APPR	bei	_	O	O	
+54-28	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+54-29	Z.	NE	Z.	_	O	O	
+54-30	16	CARD	16	_	O	O	
+54-31	)	$(	)	_	O	O	
+54-32	sind	VAFIN	sein	_	O	O	
+54-33	die	ART	die	_	O	O	
+54-34	3	CARD	3	_	O	O	
+54-35	frag(mentarischen)	ADJA	<unknown>	_	O	O	
+54-36	Buchstaben	NN	Buchstabe	_	O	O	
+54-37	vor	APPR	vor	_	O	O	
+54-38	dem	ART	die	_	O	O	
+54-39	L	NN	L	_	O	O	
+54-40	getrennt	VVPP	trennen	_	O	O	
+54-41	,	$,	,	_	O	O	
+54-42	so	ADV	so	_	O	O	
+54-43	daß	KOUS	dass	_	O	O	
+54-44	dieser	PDAT	dies	_	O	O	
+54-45	Buchstabe	NN	Buchstabe	_	O	O	
+54-46	Lucius	NE	Lucius	_	O	O	
+54-47	heißen	VVINF	heißen	_	O	O	
+54-48	könnte	VMFIN	können	_	O	O	
+54-49	,	$,	,	_	O	O	
+54-50	und	KON	und	_	O	O	
+54-51	die	ART	die	_	O	O	
+54-52	3	CARD	3	_	O	O	
+54-53	fragm(entarischen)	ADJA	<unknown>	_	O	O	
+54-54	Buchstaben	NN	Buchstabe	_	O	O	
+54-55	das	ART	die	_	O	O	
+54-56	Ende	NN	Ende	_	O	O	
+54-57	eines	ART	eine	_	O	O	
+54-58	vorstehenden	ADJA	vorstehend	_	O	O	
+54-59	Namens	NN	Name	_	O	O	
+54-60	wären	VAFIN	sein	_	O	O	
+54-61	;	$.	;	_	O	O	
+54-62	keinesfalls:.ist	ADV	<unknown>	_	O	O	
+54-63	indeß	VVFIN	<unknown>	_	O	O	
+54-64	der	ART	die	_	O	O	
+54-65	letzte	ADJA	letzt	_	O	O	
+54-66	derselben	PDS	dieselbe	_	O	O	
+54-67	ein	ART	eine	_	O	O	
+54-68	R	NN	R	_	O	O	
+54-69	"	$(	"	_	O	O	
+

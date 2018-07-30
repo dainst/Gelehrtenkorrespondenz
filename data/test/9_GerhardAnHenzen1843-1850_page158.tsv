@@ -1,0 +1,309 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=I I I 39 Gerhard an Henzen Berlin 10/11/49 A. di Dir.
+1-1	I	FM	I	_	O	O	
+1-2	I	FM	I	_	O	O	
+1-3	I	FM	I	_	O	O	
+1-4	39	CARD	39	_	O	O	
+1-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-6	an	APPR	an	_	O	O	
+1-7	Henzen	NN	<unknown>	_	O	O	
+1-8	Berlin	NE	Berlin	_	O	O	
+1-9	10/11/49	CARD	@card@	_	O	O	
+1-10	A.	APPRART	am	_	O	O	
+1-11	di	NE	di	_	O	O	
+1-12	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=g. 21/111 49 ~':1 / ~ /~t( (1' /'!~ /1 \ ~-.J .
+2-1	g.	ADJA	<unknown>	_	O	O	
+2-2	21/111	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-3	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-4	~':1	NN	<unknown>	_	O	O	
+2-5	/	$(	/	_	O	O	
+2-6	~	XY	~	_	O	O	
+2-7	/~t(	NN	<unknown>	_	O	O	
+2-8	(	$(	(	_	O	O	
+2-9	1	CARD	1	_	O	O	
+2-10	'	$(	'	_	O	O	
+2-11	/	$(	/	_	O	O	
+2-12	'	$(	'	_	O	O	
+2-13	!	$.	!	_	O	O	
+2-14	~	XY	~	_	O	O	
+2-15	/1	CARD	@card@	_	O	O	
+2-16	\	XY	\	_	O	O	
+2-17	~-.J	ADJD	<unknown>	_	O	O	
+2-18	.	$.	.	_	O	O	
+
+#id=3
+#text=.... t.
+3-1	...	$.	...	_	O	O	
+3-2	.	$.	.	_	O	O	
+3-3	t.	ADJA	<unknown>	_	O	O	
+
+#id=4
+#text=~ J I t I , ' D. Henzen Berlin 10 Febr 49 Mein theurer Freund.
+4-1	~	XY	~	_	O	O	
+4-2	J	NN	J	_	O	O	
+4-3	I	NN	I	_	O	O	
+4-4	t	NN	t	_	O	O	
+4-5	I	NN	I	_	O	O	
+4-6	,	$,	,	_	O	O	
+4-7	'	$(	'	_	O	O	
+4-8	D.	NE	D.	_	O	O	
+4-9	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+4-10	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-11	10	CARD	10	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-12	Febr	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-13	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+4-14	Mein	PPOSAT	mein	_	O	O	
+4-15	theurer	ADJA	<unknown>	_	O	O	
+4-16	Freund	NN	Freund	_	O	O	
+4-17	.	$.	.	_	O	O	
+
+#id=5
+#text=Verehrter Freund.
+5-1	Verehrter	ADJA	verehrt	_	O	O	
+5-2	Freund	NN	Freund	_	O	O	
+5-3	.	$.	.	_	O	O	
+
+#id=6
+#text=In der ernsten Gewitterschwüle in welche die GegenG wart auch unser Institut versetzt lassen Sie un~ den Insektennebel s11be~stecherische~ Krämereien vermeiden.
+6-1	In	APPR	in	_	O	O	
+6-2	der	ART	die	_	O	O	
+6-3	ernsten	ADJA	ernst	_	O	O	
+6-4	Gewitterschwüle	NN	Gewitterschwüle	_	O	O	
+6-5	in	APPR	in	_	O	O	
+6-6	welche	PIS	welche	_	O	O	
+6-7	die	ART	die	_	O	O	
+6-8	GegenG	NN	<unknown>	_	O	O	
+6-9	wart	VAFIN	sein	_	O	O	
+6-10	auch	ADV	auch	_	O	O	
+6-11	unser	PPOSAT	unser	_	O	O	
+6-12	Institut	NN	Institut	_	O	O	
+6-13	versetzt	ADJD	versetzt	_	O	O	
+6-14	lassen	VVFIN	lassen	_	O	O	
+6-15	Sie	PPER	Sie	_	O	O	
+6-16	un~	ADJD	<unknown>	_	O	O	
+6-17	den	ART	die	_	O	O	
+6-18	Insektennebel	NN	<unknown>	_	O	O	
+6-19	s11be~stecherische~	ADJA	<unknown>	_	O	O	
+6-20	Krämereien	NN	<unknown>	_	O	O	
+6-21	vermeiden	VVINF	vermeiden	_	O	O	
+6-22	.	$.	.	_	O	O	
+
+#id=7
+#text=Leider ist und bleibt unsre Thätigkeit gebrochen, bis zu Annalen und Monum.
+7-1	Leider	ADV	leider	_	O	O	
+7-2	ist	VAFIN	sein	_	O	O	
+7-3	und	KON	und	_	O	O	
+7-4	bleibt	VVFIN	bleiben	_	O	O	
+7-5	unsre	PPOSAT	unsre	_	O	O	
+7-6	Thätigkeit	NN	<unknown>	_	O	O	
+7-7	gebrochen	VVPP	brechen	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	bis	KOUS	bis	_	O	O	
+7-10	zu	APPR	zu	_	O	O	
+7-11	Annalen	NN	Annalen	_	O	O	
+7-12	und	KON	und	_	O	O	
+7-13	Monum	NN	<unknown>	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=für 1849 festere Aussicht vorhanden ist; wie man r~'t 4"M.vUV\ .. s,uf leckem Schiff dennoch weiter F-B:d:ern könne, wird Ihre und Brauns Ausdauer hoffentlich uns um so glänzender zeigen.
+8-1	für	APPR	für	_	O	O	
+8-2	1849	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+8-3	festere	ADJA	fest	_	O	O	
+8-4	Aussicht	NN	Aussicht	_	O	O	
+8-5	vorhanden	ADJD	vorhanden	_	O	O	
+8-6	ist	VAFIN	sein	_	O	O	
+8-7	;	$.	;	_	O	O	
+8-8	wie	KOKOM	wie	_	O	O	
+8-9	man	PIS	man	_	O	O	
+8-10	r~'t	VVFIN	<unknown>	_	O	O	
+8-11	4"M.vUV\	ADJD	<unknown>	_	O	O	
+8-12	.	$.	.	_	O	O	
+8-13	.	$.	.	_	O	O	
+8-14	s,uf	ADJA	<unknown>	_	O	O	
+8-15	leckem	ADJA	<unknown>	_	O	O	
+8-16	Schiff	NN	Schiff	_	O	O	
+8-17	dennoch	ADV	dennoch	_	O	O	
+8-18	weiter	ADV	weiter	_	O	O	
+8-19	F-B:d:ern	NN	<unknown>	_	O	O	
+8-20	könne	VMFIN	können	_	O	O	
+8-21	,	$,	,	_	O	O	
+8-22	wird	VAFIN	werden	_	O	O	
+8-23	Ihre	PPOSAT	ihr	_	O	O	
+8-24	und	KON	und	_	O	O	
+8-25	Brauns	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-26	Ausdauer	NN	Ausdauer	_	O	O	
+8-27	hoffentlich	ADV	hoffentlich	_	O	O	
+8-28	uns	PPER	wir	_	O	O	
+8-29	um	APPR	um	_	O	O	
+8-30	so	ADV	so	_	O	O	
+8-31	glänzender	ADJD	glänzender	_	O	O	
+8-32	zeigen	VVINF	zeigen	_	O	O	
+8-33	.	$.	.	_	O	O	
+
+#id=9
+#text=Außerdem hatte ich guten Grund über unsre jetzige Gefahr so schroff mich auszusprechen: denn von Kontribuenten nimmt eine solche Aeußerung dem Institut dermalen keinen einzigen, ist aber wohl im Stande den Freunden desselben eine Mahnung mehr zu dessen Rettung zuzurufen, so lange eine solche möglich ist.
+9-1	Außerdem	ADV	außerdem	_	O	O	
+9-2	hatte	VAFIN	haben	_	O	O	
+9-3	ich	PPER	ich	_	O	O	
+9-4	guten	ADJA	gut	_	O	O	
+9-5	Grund	NN	Grund	_	O	O	
+9-6	über	APPR	über	_	O	O	
+9-7	unsre	PPOSAT	unsre	_	O	O	
+9-8	jetzige	ADJA	jetzig	_	O	O	
+9-9	Gefahr	NN	Gefahr	_	O	O	
+9-10	so	ADV	so	_	O	O	
+9-11	schroff	ADJD	schroff	_	O	O	
+9-12	mich	PPER	ich	_	O	O	
+9-13	auszusprechen	VVIZU	aussprechen	_	O	O	
+9-14	:	$.	:	_	O	O	
+9-15	denn	KON	denn	_	O	O	
+9-16	von	APPR	von	_	O	O	
+9-17	Kontribuenten	NN	<unknown>	_	O	O	
+9-18	nimmt	VVFIN	nehmen	_	O	O	
+9-19	eine	ART	eine	_	O	O	
+9-20	solche	PIAT	solche	_	O	O	
+9-21	Aeußerung	NN	<unknown>	_	O	O	
+9-22	dem	ART	die	_	O	O	
+9-23	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-24	dermalen	ADV	<unknown>	_	O	O	
+9-25	keinen	PIAT	keine	_	O	O	
+9-26	einzigen	ADJA	einzig	_	O	O	
+9-27	,	$,	,	_	O	O	
+9-28	ist	VAFIN	sein	_	O	O	
+9-29	aber	ADV	aber	_	O	O	
+9-30	wohl	ADV	wohl	_	O	O	
+9-31	im	APPRART	in	_	O	O	
+9-32	Stande	NN	Stand	_	O	O	
+9-33	den	ART	die	_	O	O	
+9-34	Freunden	NN	Freund	_	O	O	
+9-35	desselben	PDS	derselbe	_	O	O	
+9-36	eine	ART	eine	_	O	O	
+9-37	Mahnung	NN	Mahnung	_	O	O	
+9-38	mehr	ADV	mehr	_	O	O	
+9-39	zu	APPR	zu	_	O	O	
+9-40	dessen	PDAT	die	_	O	O	
+9-41	Rettung	NN	Rettung	_	O	O	
+9-42	zuzurufen	VVIZU	zurufen	_	O	O	
+9-43	,	$,	,	_	O	O	
+9-44	so	ADV	so	_	O	O	
+9-45	lange	ADV	lange	_	O	O	
+9-46	eine	ART	eine	_	O	O	
+9-47	solche	PIAT	solche	_	O	O	
+9-48	möglich	ADJD	möglich	_	O	O	
+9-49	ist	VAFIN	sein	_	O	O	
+9-50	.	$.	.	_	O	O	
+
+#id=10
+#text=Entschiedener als ich hat leider I. Schulze herum gesagt und herumgeschrieben das Institut könne nicht weiter fortgehn und auch Bunsen hielt die fernere Gehaltszahlung für sehr schwierig; nachdem aber der Antrag vom Kabinet ans Ministerium zurückgegangen ist, glaube ich noch gut genug operirt zu haben.
+10-1	Entschiedener	ADJD	entschieden	_	O	O	
+10-2	als	KOKOM	als	_	O	O	
+10-3	ich	PPER	ich	_	O	O	
+10-4	hat	VAFIN	haben	_	O	O	
+10-5	leider	ADV	leider	_	O	O	
+10-6	I.	NE	I.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-7	Schulze	NE	Schulze	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+10-8	herum	PTKVZ	herum	_	O	O	
+10-9	gesagt	VVPP	sagen	_	O	O	
+10-10	und	KON	und	_	O	O	
+10-11	herumgeschrieben	VVPP	herumschreiben	_	O	O	
+10-12	das	ART	die	_	O	O	
+10-13	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-14	könne	VMFIN	können	_	O	O	
+10-15	nicht	PTKNEG	nicht	_	O	O	
+10-16	weiter	ADV	weiter	_	O	O	
+10-17	fortgehn	VVPP	<unknown>	_	O	O	
+10-18	und	KON	und	_	O	O	
+10-19	auch	ADV	auch	_	O	O	
+10-20	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-21	hielt	VVFIN	halten	_	O	O	
+10-22	die	ART	die	_	O	O	
+10-23	fernere	ADJA	fern	_	O	O	
+10-24	Gehaltszahlung	NN	Gehaltszahlung	_	O	O	
+10-25	für	APPR	für	_	O	O	
+10-26	sehr	ADV	sehr	_	O	O	
+10-27	schwierig	ADJD	schwierig	_	O	O	
+10-28	;	$.	;	_	O	O	
+10-29	nachdem	KOUS	nachdem	_	O	O	
+10-30	aber	ADV	aber	_	O	O	
+10-31	der	ART	die	_	O	O	
+10-32	Antrag	NN	Antrag	_	O	O	
+10-33	vom	APPRART	von	_	O	O	
+10-34	Kabinet	NN	<unknown>	_	O	O	
+10-35	ans	APPRART	ans	_	O	O	
+10-36	Ministerium	NN	Ministerium	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-37	zurückgegangen	VVPP	zurückgehen	_	O	O	
+10-38	ist	VAFIN	sein	_	O	O	
+10-39	,	$,	,	_	O	O	
+10-40	glaube	VVFIN	glauben	_	O	O	
+10-41	ich	PPER	ich	_	O	O	
+10-42	noch	ADV	noch	_	O	O	
+10-43	gut	ADJD	gut	_	O	O	
+10-44	genug	ADV	genug	_	O	O	
+10-45	operirt	NN	<unknown>	_	O	O	
+10-46	zu	PTKZU	zu	_	O	O	
+10-47	haben	VAINF	haben	_	O	O	
+10-48	.	$.	.	_	O	O	
+
+#id=11
+#text=Ich erhielt Ihre Sendung vom 19 Jan.
+11-1	Ich	PPER	ich	_	O	O	
+11-2	erhielt	VVFIN	erhalten	_	O	O	
+11-3	Ihre	PPOSAT	ihr	_	O	O	
+11-4	Sendung	NN	Sendung	_	O	O	
+11-5	vom	APPRART	von	_	O	O	
+11-6	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+11-7	Jan.	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=12
+#text=erst so eben.
+12-1	erst	ADV	erst	_	O	O	
+12-2	so	ADV	so	_	O	O	
+12-3	eben	ADV	eben	_	O	O	
+12-4	.	$.	.	_	O	O	
+
+#id=13
+#text=Dank fürs Bull"IL,'~ .~~~(\} Postsendung ich nie verboten habe.
+13-1	Dank	APPR	dank	_	O	O	
+13-2	fürs	APPRART	fürs	_	O	O	
+13-3	Bull"IL,'~	ADJA	<unknown>	_	O	O	
+13-4	.~~~(\	NN	<unknown>	_	O	O	
+13-5	}	$(	}	_	O	O	
+13-6	Postsendung	NN	Postsendung	_	O	O	
+13-7	ich	PPER	ich	_	O	O	
+13-8	nie	ADV	nie	_	O	O	
+13-9	verboten	VVPP	verbieten	_	O	O	
+13-10	habe	VAFIN	haben	_	O	O	
+13-11	.	$.	.	_	O	O	
+
+#id=14
+#text=Das Porto liquidirte ich stets dem Institut da es wichtig ist daß wenigstens ich au courant bin, beträgt aber auch nicht viel.
+14-1	Das	ART	die	_	O	O	
+14-2	Porto	NN	Porto	_	O	O	
+14-3	liquidirte	VVFIN	<unknown>	_	O	O	
+14-4	ich	PPER	ich	_	O	O	
+14-5	stets	ADV	stets	_	O	O	
+14-6	dem	ART	die	_	O	O	
+14-7	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+14-8	da	ADV	da	_	O	O	
+14-9	es	PPER	es	_	O	O	
+14-10	wichtig	ADJD	wichtig	_	O	O	
+14-11	ist	VAFIN	sein	_	O	O	
+14-12	daß	KOUS	dass	_	O	O	
+14-13	wenigstens	ADV	wenigstens	_	O	O	
+14-14	ich	PPER	ich	_	O	O	
+14-15	au	ITJ	au	_	O	O	
+14-16	courant	NN	<unknown>	_	O	O	
+14-17	bin	VAFIN	sein	_	O	O	
+14-18	,	$,	,	_	O	O	
+14-19	beträgt	VVFIN	betragen	_	O	O	
+14-20	aber	ADV	aber	_	O	O	
+14-21	auch	ADV	auch	_	O	O	
+14-22	nicht	PTKNEG	nicht	_	O	O	
+14-23	viel	ADV	viel	_	O	O	
+14-24	.	$.	.	_	O	O	
+

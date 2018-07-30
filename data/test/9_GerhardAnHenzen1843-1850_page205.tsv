@@ -1,0 +1,303 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=90 A. di Dir.
+1-1	90	CARD	90	_	O	O	
+1-2	A.	APPRART	am	_	O	O	
+1-3	di	NE	di	_	O	O	
+1-4	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=D. Renzen Gerhard an Renzen Berlin 8/V/1850 g. 20/V 50 r.
+2-1	D.	ART	d.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-2	Renzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-3	Gerhard	NE	Gerhard	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-4	an	APPR	an	_	O	O	
+2-5	Renzen	NN	<unknown>	_	O	O	
+2-6	Berlin	NE	Berlin	_	O	O	
+2-7	8/V/1850	CARD	<unknown>	_	O	O	
+2-8	g.	ADJA	<unknown>	_	O	O	
+2-9	20/V	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-10	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-11	r.	ADJA	<unknown>	_	O	O	
+
+#id=3
+#text=23/v 50 Berlin 8 Mai 50 ~~ , Wenig Briefwechsel zeith±a zwischen uns lieber ]reund sage ich, ohne mich selbst von einiger Schuld dabei freizusprechen, zu Ihnen wie zu Braun.
+3-1	23/v	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-2	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-4	8	CARD	8	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-5	Mai	NN	Mai	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-6	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-7	~~	NN	<unknown>	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	Wenig	PIS	wenige	_	O	O	
+3-10	Briefwechsel	NN	Briefwechsel	_	O	O	
+3-11	zeith±a	NE	<unknown>	_	O	O	
+3-12	zwischen	APPR	zwischen	_	O	O	
+3-13	uns	PPER	wir	_	O	O	
+3-14	lieber	ADJA	lieb	_	O	O	
+3-15	]reund	NN	<unknown>	_	O	O	
+3-16	sage	VVFIN	sagen	_	O	O	
+3-17	ich	PPER	ich	_	O	O	
+3-18	,	$,	,	_	O	O	
+3-19	ohne	KOUI	ohne	_	O	O	
+3-20	mich	PRF	ich	_	O	O	
+3-21	selbst	ADV	selbst	_	O	O	
+3-22	von	APPR	von	_	O	O	
+3-23	einiger	PIAT	einige	_	O	O	
+3-24	Schuld	NN	Schuld	_	O	O	
+3-25	dabei	PAV	dabei	_	O	O	
+3-26	freizusprechen	VVIZU	freisprechen	_	O	O	
+3-27	,	$,	,	_	O	O	
+3-28	zu	PTKA	zu	_	O	O	
+3-29	Ihnen	PPER	Sie	_	O	O	
+3-30	wie	KOKOM	wie	_	O	O	
+3-31	zu	APPR	zu	_	O	O	
+3-32	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-33	.	$.	.	_	O	O	
+
+#id=4
+#text=Die Annali und Mokß ttlY\ numenti durch ~angel ~ Declaration hier seit Wochen beim Steueramt liegend und ~t vertheuert 'erst gestern mir zu, waren aber auch doppelt willkommen; Mein Lob darüber habe tkAN tl)~ {U..(...(Y\.- ich eben schoIlYäusgeschüttet. ,Gend en Sie oder Braun mir denn etwas über die römischen Adunanzan d. Jahres ?
+4-1	Die	ART	die	_	O	O	
+4-2	Annali	NE	<unknown>	_	O	O	
+4-3	und	KON	und	_	O	O	
+4-4	Mokß	NE	<unknown>	_	O	O	
+4-5	ttlY\	ADJA	<unknown>	_	O	O	
+4-6	numenti	NN	<unknown>	_	O	O	
+4-7	durch	APPR	durch	_	O	O	
+4-8	~angel	NN	<unknown>	_	O	O	
+4-9	~	XY	~	_	O	O	
+4-10	Declaration	NN	<unknown>	_	O	O	
+4-11	hier	ADV	hier	_	O	O	
+4-12	seit	APPR	seit	_	O	O	
+4-13	Wochen	NN	Woche	_	O	O	
+4-14	beim	APPRART	bei	_	O	O	
+4-15	Steueramt	NN	Steueramt	_	O	O	
+4-16	liegend	ADJD	liegend	_	O	O	
+4-17	und	KON	und	_	O	O	
+4-18	~t	ADJD	<unknown>	_	O	O	
+4-19	vertheuert	VVFIN	<unknown>	_	O	O	
+4-20	'	$(	'	_	O	O	
+4-21	erst	ADV	erst	_	O	O	
+4-22	gestern	ADV	gestern	_	O	O	
+4-23	mir	PPER	ich	_	O	O	
+4-24	zu	PTKVZ	zu	_	O	O	
+4-25	,	$,	,	_	O	O	
+4-26	waren	VAFIN	sein	_	O	O	
+4-27	aber	ADV	aber	_	O	O	
+4-28	auch	ADV	auch	_	O	O	
+4-29	doppelt	ADJD	doppelt	_	O	O	
+4-30	willkommen	ADJD	willkommen	_	O	O	
+4-31	;	$.	;	_	O	O	
+4-32	Mein	PPOSAT	mein	_	O	O	
+4-33	Lob	NN	Lob	_	O	O	
+4-34	darüber	PAV	darüber	_	O	O	
+4-35	habe	VAFIN	haben	_	O	O	
+4-36	tkAN	NE	<unknown>	_	O	O	
+4-37	tl)~	NE	<unknown>	_	O	O	
+4-38	{	$(	{	_	O	O	
+4-39	U..(	NE	<unknown>	_	O	O	
+4-40	...	$.	...	_	O	O	
+4-41	(	$(	(	_	O	O	
+4-42	Y\.-	NN	<unknown>	_	O	O	
+4-43	ich	PPER	ich	_	O	O	
+4-44	eben	ADV	eben	_	O	O	
+4-45	schoIlYäusgeschüttet	VVPP	<unknown>	_	O	O	
+4-46	.	$.	.	_	O	O	
+4-47	,Gend	NN	<unknown>	_	O	O	
+4-48	en	FM	en	_	O	O	
+4-49	Sie	PPER	Sie	_	O	O	
+4-50	oder	KON	oder	_	O	O	
+4-51	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-52	mir	PRF	ich	_	O	O	
+4-53	denn	ADV	denn	_	O	O	
+4-54	etwas	ADV	etwas	_	O	O	
+4-55	über	APPR	über	_	O	O	
+4-56	die	ART	die	_	O	O	
+4-57	römischen	ADJA	römisch	_	O	O	
+4-58	Adunanzan	NE	<unknown>	_	O	O	
+4-59	d.	ART	d.	_	O	O	
+4-60	Jahres	NN	Jahr	_	O	O	
+4-61	?	$.	?	_	O	O	
+
+#id=5
+#text=Nach so langem Schweigen fehlen mir einigermaßen die Stichwörter sonstigen Verkehrs.
+5-1	Nach	APPR	nach	_	O	O	
+5-2	so	ADV	so	_	O	O	
+5-3	langem	ADJA	lang	_	O	O	
+5-4	Schweigen	NN	Schweigen	_	O	O	
+5-5	fehlen	VVFIN	fehlen	_	O	O	
+5-6	mir	PPER	ich	_	O	O	
+5-7	einigermaßen	ADV	einigermaßen	_	O	O	
+5-8	die	ART	die	_	O	O	
+5-9	Stichwörter	NN	Stichwort	_	O	O	
+5-10	sonstigen	ADJA	sonstig	_	O	O	
+5-11	Verkehrs	NN	Verkehr	_	O	O	
+5-12	.	$.	.	_	O	O	
+
+#id=6
+#text=Ich will damit anfragen, was ich vielleicht neulich vergaß, daß eine Anzeige der Elementa umbrica von Anfrecht im Bull.
+6-1	Ich	PPER	ich	_	O	O	
+6-2	will	VMFIN	wollen	_	O	O	
+6-3	damit	PAV	damit	_	O	O	
+6-4	anfragen	VVINF	anfragen	_	O	O	
+6-5	,	$,	,	_	O	O	
+6-6	was	PRELS	was	_	O	O	
+6-7	ich	PPER	ich	_	O	O	
+6-8	vielleicht	ADV	vielleicht	_	O	O	
+6-9	neulich	ADV	neulich	_	O	O	
+6-10	vergaß	VVFIN	vergessen	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	daß	KOUS	dass	_	O	O	
+6-13	eine	ART	eine	_	O	O	
+6-14	Anzeige	NN	Anzeige	_	O	O	
+6-15	der	ART	die	_	O	O	
+6-16	Elementa	NN	<unknown>	_	O	O	
+6-17	umbrica	VVFIN	<unknown>	_	O	O	
+6-18	von	APPR	von	_	O	O	
+6-19	Anfrecht	NE	<unknown>	_	O	O	
+6-20	im	APPRART	in	_	O	O	
+6-21	Bull	NE	Bull	_	O	O	
+6-22	.	$.	.	_	O	O	
+
+#id=7
+#text=sehr gewünscht wird und ich dem Buchhändler, sofern er nur ein Exemplar nach Rom schaffe, eine solche in Aussicht gestellt habe, Ihrem Beistand vertrauend.
+7-1	sehr	ADV	sehr	_	O	O	
+7-2	gewünscht	VVPP	wünschen	_	O	O	
+7-3	wird	VAFIN	werden	_	O	O	
+7-4	und	KON	und	_	O	O	
+7-5	ich	PPER	ich	_	O	O	
+7-6	dem	ART	die	_	O	O	
+7-7	Buchhändler	NN	Buchhändler	_	O	O	
+7-8	,	$,	,	_	O	O	
+7-9	sofern	KOUS	sofern	_	O	O	
+7-10	er	PPER	er	_	O	O	
+7-11	nur	ADV	nur	_	O	O	
+7-12	ein	ART	eine	_	O	O	
+7-13	Exemplar	NN	Exemplar	_	O	O	
+7-14	nach	APPR	nach	_	O	O	
+7-15	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-16	schaffe	VVFIN	schaffen	_	O	O	
+7-17	,	$,	,	_	O	O	
+7-18	eine	ART	eine	_	O	O	
+7-19	solche	PIS	solche	_	O	O	
+7-20	in	APPR	in	_	O	O	
+7-21	Aussicht	NN	Aussicht	_	O	O	
+7-22	gestellt	VVPP	stellen	_	O	O	
+7-23	habe	VAFIN	haben	_	O	O	
+7-24	,	$,	,	_	O	O	
+7-25	Ihrem	PPOSAT	ihr	_	O	O	
+7-26	Beistand	NN	Beistand	_	O	O	
+7-27	vertrauend	ADJD	vertrauend	_	O	O	
+7-28	.	$.	.	_	O	O	
+
+#id=8
+#text=0avigny hat 1 Exemplar der 5 Bände seiner gesammelten kleinen Schriften für das Institut abgegeben.
+8-1	0avigny	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-2	hat	VAFIN	haben	_	O	O	
+8-3	1	CARD	1	_	O	O	
+8-4	Exemplar	NN	Exemplar	_	O	O	
+8-5	der	ART	die	_	O	O	
+8-6	5	CARD	5	_	O	O	
+8-7	Bände	NN	Band	_	O	O	
+8-8	seiner	PPOSAT	sein	_	O	O	
+8-9	gesammelten	ADJA	gesammelt	_	O	O	
+8-10	kleinen	ADJA	klein	_	O	O	
+8-11	Schriften	NN	Schrift	_	O	O	
+8-12	für	APPR	für	_	O	O	
+8-13	das	ART	die	_	O	O	
+8-14	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-15	abgegeben	VVPP	abgeben	_	O	O	
+8-16	.	$.	.	_	O	O	
+
+#id=9
+#text=Mit Roß den ich in Halle sah, habe ich Zeichnungen die sich für das Institut eißnen ausgeschieden; er wünscht alsdann sie möglichst bald publicirt zu sehen -, wie aber Gelegenheit finden?
+9-1	Mit	APPR	mit	_	O	O	
+9-2	Roß	NN	Ross	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-3	den	ART	die	_	O	O	
+9-4	ich	PPER	ich	_	O	O	
+9-5	in	APPR	in	_	O	O	
+9-6	Halle	NN	Halle	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+9-7	sah	VVFIN	sehen	_	O	O	
+9-8	,	$,	,	_	O	O	
+9-9	habe	VAFIN	haben	_	O	O	
+9-10	ich	PPER	ich	_	O	O	
+9-11	Zeichnungen	NN	Zeichnung	_	O	O	
+9-12	die	ART	die	_	O	O	
+9-13	sich	PRF	sich	_	O	O	
+9-14	für	APPR	für	_	O	O	
+9-15	das	ART	die	_	O	O	
+9-16	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-17	eißnen	ADJD	<unknown>	_	O	O	
+9-18	ausgeschieden	VVPP	ausscheiden	_	O	O	
+9-19	;	$.	;	_	O	O	
+9-20	er	PPER	er	_	O	O	
+9-21	wünscht	VVFIN	wünschen	_	O	O	
+9-22	alsdann	ADJD	<unknown>	_	O	O	
+9-23	sie	PPER	sie	_	O	O	
+9-24	möglichst	ADV	möglichst	_	O	O	
+9-25	bald	ADV	bald	_	O	O	
+9-26	publicirt	ADJD	<unknown>	_	O	O	
+9-27	zu	PTKZU	zu	_	O	O	
+9-28	sehen	VVINF	sehen	_	O	O	
+9-29	-	$(	-	_	O	O	
+9-30	,	$,	,	_	O	O	
+9-31	wie	KOUS	wie	_	O	O	
+9-32	aber	ADV	aber	_	O	O	
+9-33	Gelegenheit	NN	Gelegenheit	_	O	O	
+9-34	finden	VVFIN	finden	_	O	O	
+9-35	?	$.	?	_	O	O	
+
+#id=10
+#text=Unterrichten Sie auch doch gefälligst ob die l!
+10-1	Unterrichten	VVFIN	unterrichten	_	O	O	
+10-2	Sie	PPER	Sie	_	O	O	
+10-3	auch	ADV	auch	_	O	O	
+10-4	doch	ADV	doch	_	O	O	
+10-5	gefälligst	ADJD	gefälligst	_	O	O	
+10-6	ob	APPR	ob	_	O	O	
+10-7	die	ART	die	_	O	O	
+10-8	l	NN	l	_	O	O	
+10-9	!	$.	!	_	O	O	
+
+#id=11
+#text='irma Spi tthöver in Rom ( wie in Leipzig ? )
+11-1	'	$(	'	_	O	O	
+11-2	irma	NN	<unknown>	_	O	O	
+11-3	Spi	NE	spi	_	B-webanno.custom.LetterEntity_	B-OBJ	
+11-4	tthöver	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-OBJ	
+11-5	in	APPR	in	_	O	O	
+11-6	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-7	(	$(	(	_	O	O	
+11-8	wie	KOKOM	wie	_	O	O	
+11-9	in	APPR	in	_	O	O	
+11-10	Leipzig	NE	Leipzig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-11	?	$.	?	_	O	O	
+11-12	)	$(	)	_	O	O	
+
+#id=12
+#text=noch gilt und brauchbar ist.
+12-1	noch	ADV	noch	_	O	O	
+12-2	gilt	VVFIN	gelten	_	O	O	
+12-3	und	KON	und	_	O	O	
+12-4	brauchbar	ADJD	brauchbar	_	O	O	
+12-5	ist	VAFIN	sein	_	O	O	
+12-6	.	$.	.	_	O	O	
+
+#id=13
+#text=Meine Frau fiibl t sich der Ihrigen Briefschuldig, wodurch sie sich selbst in
+13-1	Meine	PPOSAT	mein	_	O	O	
+13-2	Frau	NN	Frau	_	O	O	
+13-3	fiibl	NE	<unknown>	_	O	O	
+13-4	t	NN	t	_	O	O	
+13-5	sich	PRF	sich	_	O	O	
+13-6	der	ART	die	_	O	O	
+13-7	Ihrigen	NN	<unknown>	_	O	O	
+13-8	Briefschuldig	ADJD	<unknown>	_	O	O	
+13-9	,	$,	,	_	O	O	
+13-10	wodurch	PWAV	wodurch	_	O	O	
+13-11	sie	PPER	sie	_	O	O	
+13-12	sich	PRF	sich	_	O	O	
+13-13	selbst	ADV	selbst	_	O	O	
+13-14	in	APPR	in	_	O	O	
+

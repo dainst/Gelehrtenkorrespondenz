@@ -1,0 +1,269 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=670 Aff.
+1-1	670	CARD	@card@	_	O	O	
+1-2	Aff	NN	<unknown>	_	O	O	
+1-3	.	$.	.	_	O	O	
+
+#id=2
+#text=di Direz.
+2-1	di	NE	di	_	O	O	
+2-2	Direz	NE	<unknown>	_	O	O	
+2-3	.	$.	.	_	O	O	
+
+#id=3
+#text=Gerhard an Henzen Berlin 10/XI/1843 g. 28/11 43 r.
+3-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-2	an	APPR	an	_	O	O	
+3-3	Henzen	NN	<unknown>	_	O	O	
+3-4	Berlin	NE	Berlin	_	O	O	
+3-5	10/XI/1843	CARD	<unknown>	_	O	O	
+3-6	g.	ADJA	<unknown>	_	O	O	
+3-7	28/11	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-8	43	CARD	43	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+3-9	r.	ADJA	<unknown>	_	O	O	
+
+#id=4
+#text=2/12 43 D. Henzen Berlin 10/11 Nov.
+4-1	2/12	CARD	@card@	_	O	O	
+4-2	43	CARD	43	_	O	O	
+4-3	D.	NE	D.	_	O	O	
+4-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+4-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+4-6	10/11	CARD	10/11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+4-7	Nov.	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+
+#id=5
+#text=43 Gestern lieber Freund ist endlich Ihre Wiener Sendung mit den vermißten Papieren mir zugekommen, wonach Blessigs und Horkels Bestellungen unverzüglich realisiert sind.
+5-1	43	CARD	43	_	O	O	
+5-2	Gestern	NN	Gestern	_	O	O	
+5-3	lieber	ADJD	lieb	_	O	O	
+5-4	Freund	NE	Freund	_	O	O	
+5-5	ist	VAFIN	sein	_	O	O	
+5-6	endlich	ADV	endlich	_	O	O	
+5-7	Ihre	PPOSAT	ihr	_	O	O	
+5-8	Wiener	ADJA	Wiener	_	O	O	
+5-9	Sendung	NN	Sendung	_	O	O	
+5-10	mit	APPR	mit	_	O	O	
+5-11	den	ART	die	_	O	O	
+5-12	vermißten	ADJA	vermißt	_	O	O	
+5-13	Papieren	NN	Papier	_	O	O	
+5-14	mir	PPER	ich	_	O	O	
+5-15	zugekommen	VVPP	zukommen	_	O	O	
+5-16	,	$,	,	_	O	O	
+5-17	wonach	PWAV	wonach	_	O	O	
+5-18	Blessigs	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-19	und	KON	und	_	O	O	
+5-20	Horkels	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-21	Bestellungen	NN	Bestellung	_	O	O	
+5-22	unverzüglich	ADJD	unverzüglich	_	O	O	
+5-23	realisiert	VVPP	realisieren	_	O	O	
+5-24	sind	VAFIN	sein	_	O	O	
+5-25	.	$.	.	_	O	O	
+
+#id=6
+#text=Sagen Sie dies beiden werthen Freunden mit nochmaliger ~ntschuldigung 14 t~giger Verspätung.
+6-1	Sagen	VVFIN	sagen	_	O	O	
+6-2	Sie	PPER	Sie	_	O	O	
+6-3	dies	PDS	dies	_	O	O	
+6-4	beiden	PIAT	beide	_	O	O	
+6-5	werthen	NN	<unknown>	_	O	O	
+6-6	Freunden	NN	Freund	_	O	O	
+6-7	mit	APPR	mit	_	O	O	
+6-8	nochmaliger	ADJA	nochmalig	_	O	O	
+6-9	~ntschuldigung	NN	<unknown>	_	O	O	
+6-10	14	CARD	14	_	O	O	
+6-11	t~giger	ADJA	<unknown>	_	O	O	
+6-12	Verspätung	NN	Verspätung	_	O	O	
+6-13	.	$.	.	_	O	O	
+
+#id=7
+#text=Avellinos Brief sagte nichts weiter als daß das von ihm ·für die kgl.
+7-1	Avellinos	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	Brief	NN	Brief	_	O	O	
+7-3	sagte	VVFIN	sagen	_	O	O	
+7-4	nichts	PIS	nichts	_	O	O	
+7-5	weiter	PTKVZ	weiter	_	O	O	
+7-6	als	KOKOM	als	_	O	O	
+7-7	daß	KOUS	dass	_	O	O	
+7-8	das	PDS	die	_	O	O	
+7-9	von	APPR	von	_	O	O	
+7-10	ihm	PPER	er	_	O	O	
+7-11	·für	NN	<unknown>	_	O	O	
+7-12	die	ART	die	_	O	O	
+7-13	kgl.	NN	<unknown>	_	O	O	
+
+#id=8
+#text=Bibliothek bei mir bestellte und für diese nach Rom gesandte Ex.
+8-1	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+8-2	bei	APPR	bei	_	O	O	
+8-3	mir	PPER	ich	_	O	O	
+8-4	bestellte	VVFIN	bestellen	_	O	O	
+8-5	und	KON	und	_	O	O	
+8-6	für	APPR	für	_	O	O	
+8-7	diese	PDAT	dies	_	O	O	
+8-8	nach	APPR	nach	_	O	O	
+8-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-10	gesandte	ADJA	gesandt	_	O	O	
+8-11	Ex	NN	Ex	_	O	O	
+8-12	.	$.	.	_	O	O	
+
+#id=9
+#text=meiner Werke desselben durch Aloe's hiesige Ankäufe überflüssig geworden ist.
+9-1	meiner	PPOSAT	mein	_	O	O	
+9-2	Werke	NN	Werk	_	O	O	
+9-3	desselben	PDAT	derselb	_	O	O	
+9-4	durch	APPR	durch	_	O	O	
+9-5	Aloe's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-6	hiesige	ADJA	hiesig	_	O	O	
+9-7	Ankäufe	NN	Ankauf	_	O	O	
+9-8	überflüssig	ADJD	überflüssig	_	O	O	
+9-9	geworden	VAPP	werden	_	O	O	
+9-10	ist	VAFIN	sein	_	O	O	
+9-11	.	$.	.	_	O	O	
+
+#id=10
+#text=Ich hoffe es läßt sich anderweitig unterbringen, vielleicht bei Santangelo, wundre mich aber daß Aloe der mir mehrere ~ssociati versprach und noch nach Rom unverzüglich mir schreiben wollte nichts deshalb hören ließ.
+10-1	Ich	PPER	ich	_	O	O	
+10-2	hoffe	VVFIN	hoffen	_	O	O	
+10-3	es	PPER	es	_	O	O	
+10-4	läßt	VVFIN	lassen	_	O	O	
+10-5	sich	PRF	sich	_	O	O	
+10-6	anderweitig	ADJD	anderweitig	_	O	O	
+10-7	unterbringen	VVINF	unterbringen	_	O	O	
+10-8	,	$,	,	_	O	O	
+10-9	vielleicht	ADV	vielleicht	_	O	O	
+10-10	bei	APPR	bei	_	O	O	
+10-11	Santangelo	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-12	,	$,	,	_	O	O	
+10-13	wundre	VVFIN	wundern	_	O	O	
+10-14	mich	PRF	ich	_	O	O	
+10-15	aber	ADV	aber	_	O	O	
+10-16	daß	KOUS	dass	_	O	O	
+10-17	Aloe	NN	Aloe	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-18	der	ART	die	_	O	O	
+10-19	mir	PRF	ich	_	O	O	
+10-20	mehrere	PIAT	mehrere	_	O	O	
+10-21	~ssociati	NN	<unknown>	_	O	O	
+10-22	versprach	VVFIN	versprechen	_	O	O	
+10-23	und	KON	und	_	O	O	
+10-24	noch	ADV	noch	_	O	O	
+10-25	nach	APPR	nach	_	O	O	
+10-26	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-27	unverzüglich	ADJD	unverzüglich	_	O	O	
+10-28	mir	PPER	ich	_	O	O	
+10-29	schreiben	VVINF	schreiben	_	O	O	
+10-30	wollte	VMFIN	wollen	_	O	O	
+10-31	nichts	PIS	nichts	_	O	O	
+10-32	deshalb	PAV	deshalb	_	O	O	
+10-33	hören	VVINF	hören	_	O	O	
+10-34	ließ	VVFIN	lassen	_	O	O	
+10-35	.	$.	.	_	O	O	
+
+#id=11
+#text=Ihrer Besorgung bei Grisi besten Dank; si e dato IV l'incomodo mi~ durch die Post zu danken.
+11-1	Ihrer	PPOSAT	ihr	_	O	O	
+11-2	Besorgung	NN	Besorgung	_	O	O	
+11-3	bei	APPR	bei	_	O	O	
+11-4	Grisi	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-5	besten	ADJA	gut	_	O	O	
+11-6	Dank	NN	Dank	_	O	O	
+11-7	;	$.	;	_	O	O	
+11-8	si	ADJD	<unknown>	_	O	O	
+11-9	e	VVFIN	<unknown>	_	O	O	
+11-10	dato	NE	<unknown>	_	O	O	
+11-11	IV	NE	IV	_	O	O	
+11-12	l'incomodo	NE	<unknown>	_	O	O	
+11-13	mi~	VVFIN	<unknown>	_	O	O	
+11-14	durch	APPR	durch	_	O	O	
+11-15	die	ART	die	_	O	O	
+11-16	Post	NN	Post	_	O	O	
+11-17	zu	PTKZU	zu	_	O	O	
+11-18	danken	VVINF	danken	_	O	O	
+11-19	.	$.	.	_	O	O	
+
+#id=12
+#text=Ich bitte Sie auf ähnliche Weise auch dem Gargallo etliche meiner neuesten Abhandlungen etwa Atlas und ein drittes was zahlreich da ist nach Neapel zu senden.
+12-1	Ich	PPER	ich	_	O	O	
+12-2	bitte	VVFIN	bitten	_	O	O	
+12-3	Sie	PPER	Sie	_	O	O	
+12-4	auf	APPR	auf	_	O	O	
+12-5	ähnliche	ADJA	ähnlich	_	O	O	
+12-6	Weise	NN	Weise	_	O	O	
+12-7	auch	ADV	auch	_	O	O	
+12-8	dem	ART	die	_	O	O	
+12-9	Gargallo	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-10	etliche	PIS	etliche	_	O	O	
+12-11	meiner	PPOSAT	mein	_	O	O	
+12-12	neuesten	ADJA	neu	_	O	O	
+12-13	Abhandlungen	NN	Abhandlung	_	O	O	
+12-14	etwa	ADV	etwa	_	O	O	
+12-15	Atlas	NN	Atlas	_	O	O	
+12-16	und	KON	und	_	O	O	
+12-17	ein	ART	eine	_	O	O	
+12-18	drittes	ADJA	dritt	_	O	O	
+12-19	was	PRELS	was	_	O	O	
+12-20	zahlreich	ADJD	zahlreich	_	O	O	
+12-21	da	ADV	da	_	O	O	
+12-22	ist	VAFIN	sein	_	O	O	
+12-23	nach	APPR	nach	_	O	O	
+12-24	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+12-25	zu	PTKZU	zu	_	O	O	
+12-26	senden	VVINF	senden	_	O	O	
+12-27	.	$.	.	_	O	O	
+
+#id=13
+#text=Ueber Piacentini's Vasen und deren Preis erwarte ich Ihre Notiz.
+13-1	Ueber	NN	<unknown>	_	O	O	
+13-2	Piacentini's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-3	Vasen	NN	Vase	_	O	O	
+13-4	und	KON	und	_	O	O	
+13-5	deren	PDAT	die	_	O	O	
+13-6	Preis	NN	Preis	_	O	O	
+13-7	erwarte	VVFIN	erwarten	_	O	O	
+13-8	ich	PPER	ich	_	O	O	
+13-9	Ihre	PPOSAT	ihr	_	O	O	
+13-10	Notiz	NN	Notiz	_	O	O	
+13-11	.	$.	.	_	O	O	
+
+#id=14
+#text=Die Badevase lerne ich gern aus einer 1>~~ Zeichnung kennen.
+14-1	Die	ART	die	_	O	O	
+14-2	Badevase	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+14-3	lerne	VVFIN	lernen	_	O	O	
+14-4	ich	PPER	ich	_	O	O	
+14-5	gern	ADV	gern	_	O	O	
+14-6	aus	APPR	aus	_	O	O	
+14-7	einer	ART	eine	_	O	O	
+14-8	1>~~	NN	<unknown>	_	O	O	
+14-9	Zeichnung	NN	Zeichnung	_	O	O	
+14-10	kennen	VVINF	kennen	_	O	O	
+14-11	.	$.	.	_	O	O	
+
+#id=15
+#text=Die Mel-ardiunsvase möchte ich gern nächstens publiciren und bitte deshalb deren Rückseite auf der Form ( 1/5 Größe ) gezeichnet mir ·zu besorgen.
+15-1	Die	ART	die	_	O	O	
+15-2	Mel-ardiunsvase	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+15-3	möchte	VMFIN	mögen	_	O	O	
+15-4	ich	PPER	ich	_	O	O	
+15-5	gern	ADV	gern	_	O	O	
+15-6	nächstens	ADV	nächstens	_	O	O	
+15-7	publiciren	ADJA	<unknown>	_	O	O	
+15-8	und	KON	und	_	O	O	
+15-9	bitte	ADV	bitte	_	O	O	
+15-10	deshalb	PAV	deshalb	_	O	O	
+15-11	deren	PDAT	die	_	O	O	
+15-12	Rückseite	NN	Rückseite	_	O	O	
+15-13	auf	APPR	auf	_	O	O	
+15-14	der	ART	die	_	O	O	
+15-15	Form	NN	Form	_	O	O	
+15-16	(	$(	(	_	O	O	
+15-17	1/5	CARD	1/5	_	O	O	
+15-18	Größe	NN	Größe	_	O	O	
+15-19	)	$(	)	_	O	O	
+15-20	gezeichnet	VVPP	zeichnen	_	O	O	
+15-21	mir	PPER	ich	_	O	O	
+15-22	·zu	ADV	<unknown>	_	O	O	
+15-23	besorgen	VVINF	besorgen	_	O	O	
+15-24	.	$.	.	_	O	O	
+

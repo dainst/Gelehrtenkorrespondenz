@@ -1,0 +1,314 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=I 126 Gerhard an Henzen Berlin 16/VII/1849 A. di Dir.
+1-1	I	FM	I	_	O	O	
+1-2	126	CARD	126	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+1-6	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+1-7	16/VII/1849	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-8	A.	APPRART	am	_	O	O	
+1-9	di	NE	di	_	O	O	
+1-10	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=g. r.
+2-1	g.	ADJA	<unknown>	_	O	O	
+2-2	r.	ADJA	<unknown>	_	O	O	
+
+#id=3
+#text=27/VII 49 D. Henzen Berlin 16 Juli 49 Gott sei gelobt lieber Freund daß wir auf dem Standpunkt römischer Deruhigung angelangt sind die Ihr und Ihrer lieben Frau neuester Brief bezeichnet, und recht sehr sei Ihnen gedankt für alle Frucht Ihrer Beständigkeit, die in so schlimmen Zeiten dem Institut und unsern Freunden zum Schutz gereichteJa.!
+3-1	27/VII	NE	<unknown>	_	O	O	
+3-2	49	CARD	@card@	_	O	O	
+3-3	D.	NE	D.	_	O	O	
+3-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+3-5	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-6	16	CARD	16	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-7	Juli	NN	Juli	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-8	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-9	Gott	NN	Gott	_	O	O	
+3-10	sei	VAFIN	sein	_	O	O	
+3-11	gelobt	VVPP	geloben|loben	_	O	O	
+3-12	lieber	ADJA	lieb	_	O	O	
+3-13	Freund	NN	Freund	_	O	O	
+3-14	daß	KOUS	dass	_	O	O	
+3-15	wir	PPER	wir	_	O	O	
+3-16	auf	APPR	auf	_	O	O	
+3-17	dem	ART	die	_	O	O	
+3-18	Standpunkt	NN	Standpunkt	_	O	O	
+3-19	römischer	ADJA	römisch	_	O	O	
+3-20	Deruhigung	NN	<unknown>	_	O	O	
+3-21	angelangt	VVPP	angelangen	_	O	O	
+3-22	sind	VAFIN	sein	_	O	O	
+3-23	die	ART	die	_	O	O	
+3-24	Ihr	PPOSAT	ihr	_	O	O	
+3-25	und	KON	und	_	O	O	
+3-26	Ihrer	PPOSAT	ihr	_	O	O	
+3-27	lieben	ADJA	lieb	_	O	O	
+3-28	Frau	NN	Frau	_	O	O	
+3-29	neuester	ADJA	neu	_	O	O	
+3-30	Brief	NN	Brief	_	O	O	
+3-31	bezeichnet	VVPP	bezeichnen	_	O	O	
+3-32	,	$,	,	_	O	O	
+3-33	und	KON	und	_	O	O	
+3-34	recht	ADJD	recht	_	O	O	
+3-35	sehr	ADV	sehr	_	O	O	
+3-36	sei	VAFIN	sein	_	O	O	
+3-37	Ihnen	PPER	Sie	_	O	O	
+3-38	gedankt	VVPP	danken	_	O	O	
+3-39	für	APPR	für	_	O	O	
+3-40	alle	PIAT	alle	_	O	O	
+3-41	Frucht	NN	Frucht	_	O	O	
+3-42	Ihrer	PPOSAT	ihr	_	O	O	
+3-43	Beständigkeit	NN	Beständigkeit	_	O	O	
+3-44	,	$,	,	_	O	O	
+3-45	die	PRELS	die	_	O	O	
+3-46	in	APPR	in	_	O	O	
+3-47	so	ADV	so	_	O	O	
+3-48	schlimmen	ADJA	schlimm	_	O	O	
+3-49	Zeiten	NN	Zeit	_	O	O	
+3-50	dem	ART	die	_	O	O	
+3-51	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-52	und	KON	und	_	O	O	
+3-53	unsern	PPOSAT	unsre	_	O	O	
+3-54	Freunden	NN	Freund	_	O	O	
+3-55	zum	APPRART	zu	_	O	O	
+3-56	Schutz	NN	Schutz	_	O	O	
+3-57	gereichteJa	VVPP	<unknown>	_	O	O	
+3-58	.	$.	.	_	O	O	
+3-59	!	$.	!	_	O	O	
+
+#id=4
+#text=Sie werden dieser Ausdauer ~:~~\h~h auch ferner benöthigt sein, möge Ihre Gesundheit auch fernerhin Ihnen zu Gebot stehn wie bisher, wo sie so doppelt Noth thut.
+4-1	Sie	PPER	Sie	_	O	O	
+4-2	werden	VAFIN	werden	_	O	O	
+4-3	dieser	PDAT	dies	_	O	O	
+4-4	Ausdauer	NN	Ausdauer	_	O	O	
+4-5	~:~~\h~h	ADJD	<unknown>	_	O	O	
+4-6	auch	ADV	auch	_	O	O	
+4-7	ferner	ADJD	fern	_	O	O	
+4-8	benöthigt	VVPP	<unknown>	_	O	O	
+4-9	sein	VAINF	sein	_	O	O	
+4-10	,	$,	,	_	O	O	
+4-11	möge	VMFIN	mögen	_	O	O	
+4-12	Ihre	PPOSAT	ihr	_	O	O	
+4-13	Gesundheit	NN	Gesundheit	_	O	O	
+4-14	auch	ADV	auch	_	O	O	
+4-15	fernerhin	ADV	fernerhin	_	O	O	
+4-16	Ihnen	PPER	Sie	_	O	O	
+4-17	zu	APPR	zu	_	O	O	
+4-18	Gebot	NN	Gebot	_	O	O	
+4-19	stehn	VVFIN	<unknown>	_	O	O	
+4-20	wie	KOKOM	wie	_	O	O	
+4-21	bisher	ADV	bisher	_	O	O	
+4-22	,	$,	,	_	O	O	
+4-23	wo	PWAV	wo	_	O	O	
+4-24	sie	PPER	sie	_	O	O	
+4-25	so	ADV	so	_	O	O	
+4-26	doppelt	ADJD	doppelt	_	O	O	
+4-27	Noth	NE	<unknown>	_	O	O	
+4-28	thut	NE	<unknown>	_	O	O	
+4-29	.	$.	.	_	O	O	
+
+#id=5
+#text=Muth zu Ausflügen in die Umgegend wird man wol erst sehr allmählig fassen können, und ~~ wenig Rfcreation wird in jetziger heißer Zeit Ihnen der allerorts getrübte Spaziergang in und um Rom gewähren Was nun aber eigentlich zerstört und wegzudenken sei von den uns werthen Denkmälern und Plätzen, darüber geben sie wol eine und die anwir dre genauere Zeit.
+5-1	Muth	NE	<unknown>	_	O	O	
+5-2	zu	APPR	zu	_	O	O	
+5-3	Ausflügen	NN	Ausflug	_	O	O	
+5-4	in	APPR	in	_	O	O	
+5-5	die	ART	die	_	O	O	
+5-6	Umgegend	NN	Umgegend	_	O	O	
+5-7	wird	VAFIN	werden	_	O	O	
+5-8	man	PIS	man	_	O	O	
+5-9	wol	ADJD	<unknown>	_	O	O	
+5-10	erst	ADV	erst	_	O	O	
+5-11	sehr	ADV	sehr	_	O	O	
+5-12	allmählig	ADJD	<unknown>	_	O	O	
+5-13	fassen	VVINF	fassen	_	O	O	
+5-14	können	VMINF	können	_	O	O	
+5-15	,	$,	,	_	O	O	
+5-16	und	KON	und	_	O	O	
+5-17	~~	NN	<unknown>	_	O	O	
+5-18	wenig	PIAT	wenige	_	O	O	
+5-19	Rfcreation	NN	<unknown>	_	O	O	
+5-20	wird	VAFIN	werden	_	O	O	
+5-21	in	APPR	in	_	O	O	
+5-22	jetziger	ADJA	jetzig	_	O	O	
+5-23	heißer	ADJA	heiß	_	O	O	
+5-24	Zeit	NN	Zeit	_	O	O	
+5-25	Ihnen	PPER	Sie	_	O	O	
+5-26	der	ART	die	_	O	O	
+5-27	allerorts	ADV	allerorts	_	O	O	
+5-28	getrübte	ADJA	getrübt	_	O	O	
+5-29	Spaziergang	NN	Spaziergang	_	O	O	
+5-30	in	APPR	in	_	O	O	
+5-31	und	KON	und	_	O	O	
+5-32	um	APPR	um	_	O	O	
+5-33	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-34	gewähren	VVFIN	gewähren	_	O	O	
+5-35	Was	PIS	was	_	O	O	
+5-36	nun	ADV	nun	_	O	O	
+5-37	aber	ADV	aber	_	O	O	
+5-38	eigentlich	ADV	eigentlich	_	O	O	
+5-39	zerstört	VVPP	zerstören	_	O	O	
+5-40	und	KON	und	_	O	O	
+5-41	wegzudenken	VVIZU	wegdenken	_	O	O	
+5-42	sei	VAFIN	sein	_	O	O	
+5-43	von	APPR	von	_	O	O	
+5-44	den	ART	die	_	O	O	
+5-45	uns	PRF	wir	_	O	O	
+5-46	werthen	NE	<unknown>	_	O	O	
+5-47	Denkmälern	NN	Denkmal	_	O	O	
+5-48	und	KON	und	_	O	O	
+5-49	Plätzen	NN	Platz	_	O	O	
+5-50	,	$,	,	_	O	O	
+5-51	darüber	PAV	darüber	_	O	O	
+5-52	geben	VVFIN	geben	_	O	O	
+5-53	sie	PPER	sie	_	O	O	
+5-54	wol	ADJD	<unknown>	_	O	O	
+5-55	eine	PIS	eine	_	O	O	
+5-56	und	KON	und	_	O	O	
+5-57	die	ART	die	_	O	O	
+5-58	anwir	NE	<unknown>	_	O	O	
+5-59	dre	ADJA	<unknown>	_	O	O	
+5-60	genauere	ADJA	genau	_	O	O	
+5-61	Zeit	NN	Zeit	_	O	O	
+5-62	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=(A,M/::'k.
+7-1	(	$(	(	_	O	O	
+7-2	A,M/::'k	NE	<unknown>	_	O	O	
+7-3	.	$.	.	_	O	O	
+
+#id=8
+#text=a.J~,"' rz.. i Nach den Zeitungen müßtenYdie Villa Borghese uns restirt, Villa Pamphili verwüstet, Palazzo Spada zerschmettert unS denken, letzterer samt der Pompejus Statue.
+8-1	a.J~	ADJA	<unknown>	_	O	O	
+8-2	,	$,	,	_	O	O	
+8-3	"	$(	"	_	O	O	
+8-4	'	$(	'	_	O	O	
+8-5	rz.	NE	<unknown>	_	O	O	
+8-6	.	$.	.	_	O	O	
+8-7	i	NE	i	_	O	O	
+8-8	Nach	APPR	nach	_	O	O	
+8-9	den	ART	die	_	O	O	
+8-10	Zeitungen	NN	Zeitung	_	O	O	
+8-11	müßtenYdie	NE	<unknown>	_	O	O	
+8-12	Villa	NN	Villa	_	O	O	
+8-13	Borghese	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-14	uns	PPER	wir	_	O	O	
+8-15	restirt	NN	<unknown>	_	O	O	
+8-16	,	$,	,	_	O	O	
+8-17	Villa	NN	Villa	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+8-18	Pamphili	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PLACEmentioned	
+8-19	verwüstet	VVPP	verwüsten	_	O	O	
+8-20	,	$,	,	_	O	O	
+8-21	Palazzo	NN	<unknown>	_	O	O	
+8-22	Spada	NN	Spada	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-23	zerschmettert	VVFIN	zerschmettern	_	O	O	
+8-24	unS	ADJD	<unknown>	_	O	O	
+8-25	denken	VVINF	denken	_	O	O	
+8-26	,	$,	,	_	O	O	
+8-27	letzterer	ADJA	letzt	_	O	O	
+8-28	samt	APPR	samt	_	O	O	
+8-29	der	ART	die	_	O	O	
+8-30	Pompejus	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+8-31	Statue	NN	Statue	_	I-webanno.custom.LetterEntity_	I-OBJ	
+8-32	.	$.	.	_	O	O	
+
+#id=9
+#text=Einiges stellt sich wol glimpflicher als beim ersten Gerücht.
+9-1	Einiges	PIAT	einige	_	O	O	
+9-2	stellt	VVFIN	stellen	_	O	O	
+9-3	sich	PRF	sich	_	O	O	
+9-4	wol	ADJD	<unknown>	_	O	O	
+9-5	glimpflicher	ADJD	glimpflich	_	O	O	
+9-6	als	KOKOM	als	_	O	O	
+9-7	beim	APPRART	bei	_	O	O	
+9-8	ersten	ADJA	erst	_	O	O	
+9-9	Gerücht	NN	Gerücht	_	O	O	
+9-10	.	$.	.	_	O	O	
+
+#id=10
+#text=Panofka's Antwort auf Ihr ~euliches folgt anbei.
+10-1	Panofka's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-2	Antwort	NN	Antwort	_	O	O	
+10-3	auf	APPR	auf	_	O	O	
+10-4	Ihr	PPOSAT	ihr	_	O	O	
+10-5	~euliches	NN	<unknown>	_	O	O	
+10-6	folgt	VVFIN	folgen	_	O	O	
+10-7	anbei	ADV	anbei	_	O	O	
+10-8	.	$.	.	_	O	O	
+
+#id=11
+#text=CMArn.
+11-1	CMArn	NN	<unknown>	_	O	O	
+11-2	.	$.	.	_	O	O	
+
+#id=12
+#text=N .
+12-1	N	NE	N	_	O	O	
+12-2	.	$.	.	_	O	O	
+
+#id=13
+#text=T .. t Von Br~ nichts eueres selt ich vor agen zuglelch ml meiner Frau schrieb, deren Brief sich mit Ihren beiden letztens gekreuzt hat.
+13-1	T	NN	T	_	O	O	
+13-2	.	$.	.	_	O	O	
+13-3	.	$.	.	_	O	O	
+13-4	t	NN	t	_	O	O	
+13-5	Von	APPR	von	_	O	O	
+13-6	Br~	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+13-7	nichts	PIAT	nichts	_	O	O	
+13-8	eueres	ADJA	<unknown>	_	O	O	
+13-9	selt	ADJA	<unknown>	_	O	O	
+13-10	ich	PPER	ich	_	O	O	
+13-11	vor	APPR	vor	_	O	O	
+13-12	agen	ADJA	<unknown>	_	O	O	
+13-13	zuglelch	NN	<unknown>	_	O	O	
+13-14	ml	NN	ml	_	O	O	
+13-15	meiner	PPOSAT	mein	_	O	O	
+13-16	Frau	NN	Frau	_	O	O	
+13-17	schrieb	VVFIN	schreiben	_	O	O	
+13-18	,	$,	,	_	O	O	
+13-19	deren	PRELAT	die	_	O	O	
+13-20	Brief	NN	Brief	_	O	O	
+13-21	sich	PRF	sich	_	O	O	
+13-22	mit	APPR	mit	_	O	O	
+13-23	Ihren	PPOSAT	ihr	_	O	O	
+13-24	beiden	PIAT	beide	_	O	O	
+13-25	letztens	ADV	letztens	_	O	O	
+13-26	gekreuzt	VVPP	kreuzen	_	O	O	
+13-27	hat	VAFIN	haben	_	O	O	
+13-28	.	$.	.	_	O	O	
+
+#id=14
+#text=Bull.
+14-1	Bull	NE	Bull	_	O	O	
+14-2	.	$.	.	_	O	O	
+
+#id=15
+#text=Maggio, welches reichhaltig und ,;.u manni~faltig ist, glaube ich darin schon bescheinigt zu ha-
+15-1	Maggio	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+15-2	,	$,	,	_	O	O	
+15-3	welches	PWAT	welche	_	O	O	
+15-4	reichhaltig	ADJD	reichhaltig	_	O	O	
+15-5	und	KON	und	_	O	O	
+15-6	,	$,	,	_	O	O	
+15-7	;	$.	;	_	O	O	
+15-8	.u	NN	<unknown>	_	O	O	
+15-9	manni~faltig	ADJD	<unknown>	_	O	O	
+15-10	ist	VAFIN	sein	_	O	O	
+15-11	,	$,	,	_	O	O	
+15-12	glaube	VVFIN	glauben	_	O	O	
+15-13	ich	PPER	ich	_	O	O	
+15-14	darin	PAV	darin	_	O	O	
+15-15	schon	ADV	schon	_	O	O	
+15-16	bescheinigt	VVPP	bescheinigen	_	O	O	
+15-17	zu	APPR	zu	_	O	O	
+15-18	ha-	TRUNC	ha-	_	O	O	
+

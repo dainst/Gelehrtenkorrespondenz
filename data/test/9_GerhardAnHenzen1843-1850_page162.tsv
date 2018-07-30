@@ -1,0 +1,274 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=I I 58 A. di Dir.
+1-1	I	FM	I	_	O	O	
+1-2	I	NN	I	_	O	O	
+1-3	58	CARD	@card@	_	O	O	
+1-4	A.	APPRART	am	_	O	O	
+1-5	di	NE	di	_	O	O	
+1-6	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=D. Renzen Gerbard an Renzen Berlin 24/111/1849 g. 6/IV 49 r.
+2-1	D.	ART	d.	_	O	O	
+2-2	Renzen	NN	<unknown>	_	O	O	
+2-3	Gerbard	NN	<unknown>	_	O	O	
+2-4	an	APPR	an	_	O	O	
+2-5	Renzen	NN	<unknown>	_	O	O	
+2-6	Berlin	NE	Berlin	_	O	O	
+2-7	24/111/1849	CARD	@card@	_	O	O	
+2-8	g.	ADJA	<unknown>	_	O	O	
+2-9	6/IV	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+2-10	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+2-11	r.	ADJA	<unknown>	_	O	O	
+
+#id=3
+#text=11/IV 49 Berlin 24 Mz 49 Lieber Renzen.
+3-1	11/IV	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-2	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-3	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-4	24	CARD	24	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-5	Mz	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-6	49	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-7	Lieber	ADJA	lieb	_	O	O	
+3-8	Renzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+3-9	.	$.	.	_	O	O	
+
+#id=4
+#text=Die üble Laune Ihres spät einlaufenden Briefes vom 19 v. M. habe ich zum 1heil schon in früheren Briefen abgewehrt: die gebrochenen d. h. ab und unterbrochenen Institutspublicationen, zunächst das Französ.
+4-1	Die	ART	die	_	O	O	
+4-2	üble	ADJA	übel	_	O	O	
+4-3	Laune	NN	Laune	_	O	O	
+4-4	Ihres	PPOSAT	ihr	_	O	O	
+4-5	spät	ADJD	spät	_	O	O	
+4-6	einlaufenden	ADJA	einlaufend	_	O	O	
+4-7	Briefes	NN	Brief	_	O	O	
+4-8	vom	APPRART	von	_	O	O	
+4-9	19	CARD	19	_	B-webanno.custom.LetterEntity_	B-DATEmentioned	
+4-10	v.	APPR	von	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-11	M.	NE	M.	_	I-webanno.custom.LetterEntity_	I-DATEmentioned	
+4-12	habe	VAFIN	haben	_	O	O	
+4-13	ich	PPER	ich	_	O	O	
+4-14	zum	APPRART	zu	_	O	O	
+4-15	1heil	NN	<unknown>	_	O	O	
+4-16	schon	ADV	schon	_	O	O	
+4-17	in	APPR	in	_	O	O	
+4-18	früheren	ADJA	früh	_	O	O	
+4-19	Briefen	NN	Brief	_	O	O	
+4-20	abgewehrt	VVPP	abwehren	_	O	O	
+4-21	:	$.	:	_	O	O	
+4-22	die	ART	die	_	O	O	
+4-23	gebrochenen	ADJA	gebrochen	_	O	O	
+4-24	d.	PDS	d.	_	O	O	
+4-25	h.	VVFIN	heißen	_	O	O	
+4-26	ab	PTKVZ	ab	_	O	O	
+4-27	und	KON	und	_	O	O	
+4-28	unterbrochenen	ADJA	unterbrochen	_	O	O	
+4-29	Institutspublicationen	NN	<unknown>	_	O	O	
+4-30	,	$,	,	_	O	O	
+4-31	zunächst	ADV	zunächst	_	O	O	
+4-32	das	ART	die	_	O	O	
+4-33	Französ	NN	<unknown>	_	O	O	
+4-34	.	$.	.	_	O	O	
+
+#id=5
+#text=Val.
+5-1	Val.	NE	Val.	_	O	O	
+
+#id=6
+#text=XIX bezüglich, auch durch den Druckbogen No 2.
+6-1	XIX	ADJD	<unknown>	_	O	O	
+6-2	bezüglich	ADJD	bezüglich	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	auch	ADV	auch	_	O	O	
+6-5	durch	APPR	durch	_	O	O	
+6-6	den	ART	die	_	O	O	
+6-7	Druckbogen	NN	Druckbogen	_	O	O	
+6-8	No	NE	<UNKNOWN>	_	O	O	
+6-9	2	CARD	2	_	O	O	
+6-10	.	$.	.	_	O	O	
+
+#id=7
+#text=Arch.
+7-1	Arch	NE	<unknown>	_	O	O	
+7-2	.	$.	.	_	O	O	
+
+#id=8
+#text=Anz.
+8-1	Anz.	NE	<unknown>	_	O	O	
+
+#id=9
+#text=Daß reichliches Geld da sei wußte ich nicht; habt ihr genug um die schlimme Zeit hindurch noch Muth und Ausdauer zu üben, so kann ich Euch und unser Geschick nur loben und preisen.
+9-1	Daß	KOUS	dass	_	O	O	
+9-2	reichliches	ADJA	reichlich	_	O	O	
+9-3	Geld	NN	Geld	_	O	O	
+9-4	da	ADV	da	_	O	O	
+9-5	sei	VAFIN	sein	_	O	O	
+9-6	wußte	VVFIN	wissen	_	O	O	
+9-7	ich	PPER	ich	_	O	O	
+9-8	nicht	PTKNEG	nicht	_	O	O	
+9-9	;	$.	;	_	O	O	
+9-10	habt	VAFIN	haben	_	O	O	
+9-11	ihr	PPER	ihr	_	O	O	
+9-12	genug	ADV	genug	_	O	O	
+9-13	um	APPR	um	_	O	O	
+9-14	die	ART	die	_	O	O	
+9-15	schlimme	ADJA	schlimm	_	O	O	
+9-16	Zeit	NN	Zeit	_	O	O	
+9-17	hindurch	ADV	hindurch	_	O	O	
+9-18	noch	ADV	noch	_	O	O	
+9-19	Muth	NE	<unknown>	_	O	O	
+9-20	und	KON	und	_	O	O	
+9-21	Ausdauer	NN	Ausdauer	_	O	O	
+9-22	zu	PTKZU	zu	_	O	O	
+9-23	üben	VVINF	üben	_	O	O	
+9-24	,	$,	,	_	O	O	
+9-25	so	ADV	so	_	O	O	
+9-26	kann	VMFIN	können	_	O	O	
+9-27	ich	PPER	ich	_	O	O	
+9-28	Euch	PRF	ihr	_	O	O	
+9-29	und	KON	und	_	O	O	
+9-30	unser	PPOSAT	unser	_	O	O	
+9-31	Geschick	NN	Geschick	_	O	O	
+9-32	nur	ADV	nur	_	O	O	
+9-33	loben	VVINF	loben	_	O	O	
+9-34	und	KON	und	_	O	O	
+9-35	preisen	VVINF	preisen	_	O	O	
+9-36	.	$.	.	_	O	O	
+
+#id=10
+#text=Peinliche Rechnungen habe ich zunächst weder für mich noch selbst für Bunsen verlangt, wohl aber die unentbehrlichste und übersichtlichste Nachricht wie es mit der seit Jahren uns unbekannten Finanzlage des Instituts stehe.
+10-1	Peinliche	ADJA	peinlich	_	O	O	
+10-2	Rechnungen	NN	Rechnung	_	O	O	
+10-3	habe	VAFIN	haben	_	O	O	
+10-4	ich	PPER	ich	_	O	O	
+10-5	zunächst	ADV	zunächst	_	O	O	
+10-6	weder	KON	weder	_	O	O	
+10-7	für	APPR	für	_	O	O	
+10-8	mich	PPER	ich	_	O	O	
+10-9	noch	ADV	noch	_	O	O	
+10-10	selbst	ADV	selbst	_	O	O	
+10-11	für	APPR	für	_	O	O	
+10-12	Bunsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-13	verlangt	VVPP	verlangen	_	O	O	
+10-14	,	$,	,	_	O	O	
+10-15	wohl	ADV	wohl	_	O	O	
+10-16	aber	ADV	aber	_	O	O	
+10-17	die	ART	die	_	O	O	
+10-18	unentbehrlichste	ADJA	<unknown>	_	O	O	
+10-19	und	KON	und	_	O	O	
+10-20	übersichtlichste	ADJA	übersichtlich	_	O	O	
+10-21	Nachricht	NN	Nachricht	_	O	O	
+10-22	wie	KOKOM	wie	_	O	O	
+10-23	es	PPER	es	_	O	O	
+10-24	mit	APPR	mit	_	O	O	
+10-25	der	ART	die	_	O	O	
+10-26	seit	APPR	seit	_	O	O	
+10-27	Jahren	NN	Jahr	_	O	O	
+10-28	uns	PPER	wir	_	O	O	
+10-29	unbekannten	ADJA	unbekannt	_	O	O	
+10-30	Finanzlage	NN	Finanzlage	_	O	O	
+10-31	des	ART	die	_	O	O	
+10-32	Instituts	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-33	stehe	VVFIN	stehen	_	O	O	
+10-34	.	$.	.	_	O	O	
+
+#id=11
+#text=Endlich die Aussichten guten Fortgangs nur doppelt ins Publikum zu bringen bin ich, wie Sie sehen, bereits reichlich bemüht gewesen, und wäre dies, hätten Sie und Braun statt des Zeitungsscandals meine Verständigung nachgesucht, nur noch vortheilhafter und unsern persönlichen Verhältnissen entsprechender geschehen, in denen allerdings mehr als ich es von dieser Seite je befürchtet hätte Offenheit, Vertrauen und sonstige alte Bezüge verletzt worden sind.
+11-1	Endlich	ADV	endlich	_	O	O	
+11-2	die	ART	die	_	O	O	
+11-3	Aussichten	NN	Aussicht	_	O	O	
+11-4	guten	ADJA	gut	_	O	O	
+11-5	Fortgangs	NN	Fortgang	_	O	O	
+11-6	nur	ADV	nur	_	O	O	
+11-7	doppelt	ADJD	doppelt	_	O	O	
+11-8	ins	APPRART	in	_	O	O	
+11-9	Publikum	NN	Publikum	_	O	O	
+11-10	zu	PTKZU	zu	_	O	O	
+11-11	bringen	VVINF	bringen	_	O	O	
+11-12	bin	VAFIN	sein	_	O	O	
+11-13	ich	PPER	ich	_	O	O	
+11-14	,	$,	,	_	O	O	
+11-15	wie	KOUS	wie	_	O	O	
+11-16	Sie	PPER	Sie	_	O	O	
+11-17	sehen	VVFIN	sehen	_	O	O	
+11-18	,	$,	,	_	O	O	
+11-19	bereits	ADV	bereits	_	O	O	
+11-20	reichlich	PIS	reichlich	_	O	O	
+11-21	bemüht	VVPP	bemühen	_	O	O	
+11-22	gewesen	VAPP	sein	_	O	O	
+11-23	,	$,	,	_	O	O	
+11-24	und	KON	und	_	O	O	
+11-25	wäre	VAFIN	sein	_	O	O	
+11-26	dies	PDS	dies	_	O	O	
+11-27	,	$,	,	_	O	O	
+11-28	hätten	VAFIN	haben	_	O	O	
+11-29	Sie	PPER	Sie	_	O	O	
+11-30	und	KON	und	_	O	O	
+11-31	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-32	statt	APPR	statt	_	O	O	
+11-33	des	ART	die	_	O	O	
+11-34	Zeitungsscandals	NN	<unknown>	_	O	O	
+11-35	meine	PPOSAT	mein	_	O	O	
+11-36	Verständigung	NN	Verständigung	_	O	O	
+11-37	nachgesucht	VVPP	nachsuchen	_	O	O	
+11-38	,	$,	,	_	O	O	
+11-39	nur	ADV	nur	_	O	O	
+11-40	noch	ADV	noch	_	O	O	
+11-41	vortheilhafter	VVFIN	<unknown>	_	O	O	
+11-42	und	KON	und	_	O	O	
+11-43	unsern	PPOSAT	unsre	_	O	O	
+11-44	persönlichen	ADJA	persönlich	_	O	O	
+11-45	Verhältnissen	NN	Verhältnis	_	O	O	
+11-46	entsprechender	ADJA	entsprechend	_	O	O	
+11-47	geschehen	VVPP	geschehen	_	O	O	
+11-48	,	$,	,	_	O	O	
+11-49	in	APPR	in	_	O	O	
+11-50	denen	PRELS	die	_	O	O	
+11-51	allerdings	ADV	allerdings	_	O	O	
+11-52	mehr	ADV	mehr	_	O	O	
+11-53	als	KOUS	als	_	O	O	
+11-54	ich	PPER	ich	_	O	O	
+11-55	es	PPER	es	_	O	O	
+11-56	von	APPR	von	_	O	O	
+11-57	dieser	PDAT	dies	_	O	O	
+11-58	Seite	NN	Seite	_	O	O	
+11-59	je	ADV	je	_	O	O	
+11-60	befürchtet	VVPP	befürchten	_	O	O	
+11-61	hätte	VAFIN	haben	_	O	O	
+11-62	Offenheit	NN	Offenheit	_	O	O	
+11-63	,	$,	,	_	O	O	
+11-64	Vertrauen	NN	Vertrauen	_	O	O	
+11-65	und	KON	und	_	O	O	
+11-66	sonstige	ADJA	sonstig	_	O	O	
+11-67	alte	ADJA	alt	_	O	O	
+11-68	Bezüge	NN	Bezug	_	O	O	
+11-69	verletzt	VVPP	verletzen	_	O	O	
+11-70	worden	VAPP	werden	_	O	O	
+11-71	sind	VAFIN	sein	_	O	O	
+11-72	.	$.	.	_	O	O	
+
+#id=12
+#text=Sollte man nicht denken der Cafe Greco sei auf die Rupe Tarpea hinaufgestiegen!
+12-1	Sollte	VMFIN	sollen	_	O	O	
+12-2	man	PIS	man	_	O	O	
+12-3	nicht	PTKNEG	nicht	_	O	O	
+12-4	denken	VVFIN	denken	_	O	O	
+12-5	der	ART	die	_	O	O	
+12-6	Cafe	NE	Cafe	_	O	O	
+12-7	Greco	NE	<unknown>	_	O	O	
+12-8	sei	VAFIN	sein	_	O	O	
+12-9	auf	APPR	auf	_	O	O	
+12-10	die	ART	die	_	O	O	
+12-11	Rupe	NE	<unknown>	_	O	O	
+12-12	Tarpea	NE	<unknown>	_	O	O	
+12-13	hinaufgestiegen	VVPP	hinaufsteigen	_	O	O	
+12-14	!	$.	!	_	O	O	
+
+#id=13
+#text=Nun Gott bessers !
+13-1	Nun	ADV	nun	_	O	O	
+13-2	Gott	NN	Gott	_	O	O	
+13-3	bessers	NN	<unknown>	_	O	O	
+13-4	!	$.	!	_	O	O	
+

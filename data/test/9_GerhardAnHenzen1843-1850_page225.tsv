@@ -1,0 +1,259 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=226 Gerhard an Henzen A. di Dir.
+1-1	226	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	A.	APPRART	am	_	O	O	
+1-6	di	NE	di	_	O	O	
+1-7	Dir.	NN	Dir.	_	O	O	
+
+#id=2
+#text=Berlin 29/X/1850 D. Henzen r" • +, A •• _ AL ,i\..LC~ ~ W-ehr-t-BT Freund.
+2-1	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+2-2	29/X/1850	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+2-3	D.	NE	D.	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+2-4	Henzen	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERauthor	
+2-5	r	FM	r	_	O	O	
+2-6	"	$(	"	_	O	O	
+2-7	•	ADJD	<unknown>	_	O	O	
+2-8	+	KON	+	_	O	O	
+2-9	,	$,	,	_	O	O	
+2-10	A	FM	A	_	O	O	
+2-11	•	NN	<unknown>	_	O	O	
+2-12	•	ADJA	<unknown>	_	O	O	
+2-13	_	XY	_	_	O	O	
+2-14	AL	NE	AL	_	O	O	
+2-15	,i\..LC~	ADJA	<unknown>	_	O	O	
+2-16	~	XY	~	_	O	O	
+2-17	W-ehr-t-BT	ADJA	<unknown>	_	O	O	
+2-18	Freund	NN	Freund	_	O	O	
+2-19	.	$.	.	_	O	O	
+
+#id=3
+#text=g. 9/XI 50 r. 29/XI 50 Berlin 29 Okt 50 Ihren freundlichen Brief nach der Heimkehr geschrieben antworte ich Ihnen wunschgemäß alsbald.
+3-1	g.	ADJA	<unknown>	_	O	O	
+3-2	9/XI	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATErecieved	
+3-3	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATErecieved	
+3-4	r.	VVFIN	<unknown>	_	O	O	
+3-5	29/XI	CARD	<unknown>	_	B-webanno.custom.LetterEntity_	B-DATEanswered	
+3-6	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATEanswered	
+3-7	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+3-8	29	CARD	@card@	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+3-9	Okt	NN	<unknown>	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-10	50	CARD	50	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+3-11	Ihren	PPOSAT	ihr	_	O	O	
+3-12	freundlichen	ADJA	freundlich	_	O	O	
+3-13	Brief	NN	Brief	_	O	O	
+3-14	nach	APPR	nach	_	O	O	
+3-15	der	ART	die	_	O	O	
+3-16	Heimkehr	NN	Heimkehr	_	O	O	
+3-17	geschrieben	VVPP	schreiben	_	O	O	
+3-18	antworte	VVFIN	antworten	_	O	O	
+3-19	ich	PPER	ich	_	O	O	
+3-20	Ihnen	PPER	Sie	_	O	O	
+3-21	wunschgemäß	ADJD	wunschgemäß	_	O	O	
+3-22	alsbald	ADV	alsbald	_	O	O	
+3-23	.	$.	.	_	O	O	
+
+#id=4
+#text=Brauns persönliche Erscheinung wird aber mRnche Antwort bereits überflüssig gemacht haben.
+4-1	Brauns	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	persönliche	ADJA	persönlich	_	O	O	
+4-3	Erscheinung	NN	Erscheinung	_	O	O	
+4-4	wird	VAFIN	werden	_	O	O	
+4-5	aber	ADV	aber	_	O	O	
+4-6	mRnche	NN	<unknown>	_	O	O	
+4-7	Antwort	NN	Antwort	_	O	O	
+4-8	bereits	ADV	bereits	_	O	O	
+4-9	überflüssig	ADJD	überflüssig	_	O	O	
+4-10	gemacht	VVPP	machen	_	O	O	
+4-11	haben	VAINF	haben	_	O	O	
+4-12	.	$.	.	_	O	O	
+
+#id=5
+#text=Ich habe ihn versöhnlich gefunden und hoffe es wird das auch Ihr Fall sein und bleiben, sobald Sie über Rechtsbedenken hinweg seinen guten 'ivillen im Großer;t anfasRen, wobei das Patti chiari amicizia lunga von neuem beherzigt werden muß.
+5-1	Ich	PPER	ich	_	O	O	
+5-2	habe	VAFIN	haben	_	O	O	
+5-3	ihn	PPER	er	_	O	O	
+5-4	versöhnlich	ADJD	versöhnlich	_	O	O	
+5-5	gefunden	VVPP	finden	_	O	O	
+5-6	und	KON	und	_	O	O	
+5-7	hoffe	VVFIN	hoffen	_	O	O	
+5-8	es	PPER	es	_	O	O	
+5-9	wird	VAFIN	werden	_	O	O	
+5-10	das	PDS	die	_	O	O	
+5-11	auch	ADV	auch	_	O	O	
+5-12	Ihr	PPOSAT	ihr	_	O	O	
+5-13	Fall	NN	Fall	_	O	O	
+5-14	sein	VAINF	sein	_	O	O	
+5-15	und	KON	und	_	O	O	
+5-16	bleiben	VVINF	bleiben	_	O	O	
+5-17	,	$,	,	_	O	O	
+5-18	sobald	KOUS	sobald	_	O	O	
+5-19	Sie	PPER	Sie	_	O	O	
+5-20	über	APPR	über	_	O	O	
+5-21	Rechtsbedenken	NN	Rechtsbedenken	_	O	O	
+5-22	hinweg	ADV	hinweg	_	O	O	
+5-23	seinen	PPOSAT	sein	_	O	O	
+5-24	guten	ADJA	gut	_	O	O	
+5-25	'	$(	'	_	O	O	
+5-26	ivillen	NN	<unknown>	_	O	O	
+5-27	im	APPRART	in	_	O	O	
+5-28	Großer	NN	Große	_	O	O	
+5-29	;	$.	;	_	O	O	
+5-30	t	NN	t	_	O	O	
+5-31	anfasRen	VVFIN	<unknown>	_	O	O	
+5-32	,	$,	,	_	O	O	
+5-33	wobei	PWAV	wobei	_	O	O	
+5-34	das	ART	die	_	O	O	
+5-35	Patti	NE	<unknown>	_	O	O	
+5-36	chiari	NE	<unknown>	_	O	O	
+5-37	amicizia	NE	<unknown>	_	O	O	
+5-38	lunga	NE	<unknown>	_	O	O	
+5-39	von	APPR	von	_	O	O	
+5-40	neuem	ADJA	neu	_	O	O	
+5-41	beherzigt	VVPP	beherzigen	_	O	O	
+5-42	werden	VAINF	werden	_	O	O	
+5-43	muß	VMFIN	müssen	_	O	O	
+5-44	.	$.	.	_	O	O	
+
+#id=6
+#text=Die Gehaltssache hat J. Schulze hier bereits vorbereitet erklärt; bestätigt sich das, so ist das so gut, daß Sie recht 8ern Sich noch einmal die alte Quittungsform gefallen lassen werden, die sonst durch Braun der damit einverstanden, oder spätestens bei Ihrer persönlichen Erscheinung hieselbst Erledigung zu der Ihnen genehmeren Weise finden kann.
+6-1	Die	ART	die	_	O	O	
+6-2	Gehaltssache	NN	<unknown>	_	O	O	
+6-3	hat	VAFIN	haben	_	O	O	
+6-4	J.	NE	J.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-5	Schulze	NE	Schulze	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+6-6	hier	ADV	hier	_	O	O	
+6-7	bereits	ADV	bereits	_	O	O	
+6-8	vorbereitet	ADJD	vorbereitet	_	O	O	
+6-9	erklärt	VVPP	erklären	_	O	O	
+6-10	;	$.	;	_	O	O	
+6-11	bestätigt	VVFIN	bestätigen	_	O	O	
+6-12	sich	PRF	sich	_	O	O	
+6-13	das	PDS	die	_	O	O	
+6-14	,	$,	,	_	O	O	
+6-15	so	ADV	so	_	O	O	
+6-16	ist	VAFIN	sein	_	O	O	
+6-17	das	PDS	die	_	O	O	
+6-18	so	ADV	so	_	O	O	
+6-19	gut	ADJD	gut	_	O	O	
+6-20	,	$,	,	_	O	O	
+6-21	daß	KOUS	dass	_	O	O	
+6-22	Sie	PPER	Sie	_	O	O	
+6-23	recht	ADJD	recht	_	O	O	
+6-24	8ern	VVFIN	<unknown>	_	O	O	
+6-25	Sich	PRF	sich	_	O	O	
+6-26	noch	ADV	noch	_	O	O	
+6-27	einmal	ADV	einmal	_	O	O	
+6-28	die	ART	die	_	O	O	
+6-29	alte	ADJA	alt	_	O	O	
+6-30	Quittungsform	NN	<unknown>	_	O	O	
+6-31	gefallen	VVPP	fallen|gefallen	_	O	O	
+6-32	lassen	VVINF	lassen	_	O	O	
+6-33	werden	VAINF	werden	_	O	O	
+6-34	,	$,	,	_	O	O	
+6-35	die	PRELS	die	_	O	O	
+6-36	sonst	ADV	sonst	_	O	O	
+6-37	durch	APPR	durch	_	O	O	
+6-38	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+6-39	der	ART	die	_	O	O	
+6-40	damit	PAV	damit	_	O	O	
+6-41	einverstanden	ADJD	einverstanden	_	O	O	
+6-42	,	$,	,	_	O	O	
+6-43	oder	KON	oder	_	O	O	
+6-44	spätestens	ADV	spätestens	_	O	O	
+6-45	bei	APPR	bei	_	O	O	
+6-46	Ihrer	PPOSAT	ihr	_	O	O	
+6-47	persönlichen	ADJA	persönlich	_	O	O	
+6-48	Erscheinung	NN	Erscheinung	_	O	O	
+6-49	hieselbst	ADV	<unknown>	_	O	O	
+6-50	Erledigung	NN	Erledigung	_	O	O	
+6-51	zu	APPR	zu	_	O	O	
+6-52	der	ART	die	_	O	O	
+6-53	Ihnen	PPER	Sie	_	O	O	
+6-54	genehmeren	ADJA	genehm	_	O	O	
+6-55	Weise	NN	Weise	_	O	O	
+6-56	finden	VVINF	finden	_	O	O	
+6-57	kann	VMFIN	können	_	O	O	
+6-58	.	$.	.	_	O	O	
+
+#id=7
+#text=Mommsens hartes Geschick wird, nach Lac~manns Meinung JAk-+ der ....... .
+7-1	Mommsens	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	hartes	ADJA	hart	_	O	O	
+7-3	Geschick	NN	Geschick	_	O	O	
+7-4	wird	VAFIN	werden	_	O	O	
+7-5	,	$,	,	_	O	O	
+7-6	nach	APPR	nach	_	O	O	
+7-7	Lac~manns	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-8	Meinung	NN	Meinung	_	O	O	
+7-9	JAk-+	NN	<unknown>	_	O	O	
+7-10	der	ART	die	_	O	O	
+7-11	...	$.	...	_	O	O	
+7-12	...	$.	...	_	O	O	
+7-13	.	$.	.	_	O	O	
+7-14	.	$.	.	_	O	O	
+
+#id=8
+#text=In seinen Epigr. war, -;; sich leidlicher stellen als er denkt.
+8-1	In	APPR	in	_	O	O	
+8-2	seinen	PPOSAT	sein	_	O	O	
+8-3	Epigr	NN	<unknown>	_	O	O	
+8-4	.	$.	.	_	O	O	
+8-5	war	VAFIN	sein	_	O	O	
+8-6	,	$,	,	_	O	O	
+8-7	-	$(	-	_	O	O	
+8-8	;	$.	;	_	O	O	
+8-9	;	$.	;	_	O	O	
+8-10	sich	PRF	sich	_	O	O	
+8-11	leidlicher	ADJD	leidlich	_	O	O	
+8-12	stellen	VVINF	stellen	_	O	O	
+8-13	als	KON	als	_	O	O	
+8-14	er	PPER	er	_	O	O	
+8-15	denkt	VVFIN	denken	_	O	O	
+8-16	.	$.	.	_	O	O	
+
+#id=9
+#text=.~ \IIlo.
+9-1	.~	ADJA	<unknown>	_	O	O	
+9-2	\IIlo	NN	<unknown>	_	O	O	
+9-3	.	$.	.	_	O	O	
+
+#id=10
+#text=X die Behandlung der Municipalfasten die ruhigste und schönste Polemik mit der Zumpt irgend hatte zerpflückt werden können; übrigens ist dieser junge Mann so strebsam sI zuversichtlich, und hat neulich
+10-1	X	NN	X	_	O	O	
+10-2	die	ART	die	_	O	O	
+10-3	Behandlung	NN	Behandlung	_	O	O	
+10-4	der	ART	die	_	O	O	
+10-5	Municipalfasten	NN	<unknown>	_	O	O	
+10-6	die	ART	die	_	O	O	
+10-7	ruhigste	ADJA	ruhig	_	O	O	
+10-8	und	KON	und	_	O	O	
+10-9	schönste	ADJA	schön	_	O	O	
+10-10	Polemik	NN	Polemik	_	O	O	
+10-11	mit	APPR	mit	_	O	O	
+10-12	der	ART	die	_	O	O	
+10-13	Zumpt	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-14	irgend	ADV	irgend	_	O	O	
+10-15	hatte	VAFIN	haben	_	O	O	
+10-16	zerpflückt	VVPP	zerpflücken	_	O	O	
+10-17	werden	VAINF	werden	_	O	O	
+10-18	können	VMINF	können	_	O	O	
+10-19	;	$.	;	_	O	O	
+10-20	übrigens	ADV	übrigens	_	O	O	
+10-21	ist	VAFIN	sein	_	O	O	
+10-22	dieser	PDAT	dies	_	O	O	
+10-23	junge	ADJA	jung	_	O	O	
+10-24	Mann	NN	Mann	_	O	O	
+10-25	so	ADV	so	_	O	O	
+10-26	strebsam	ADJD	strebsam	_	O	O	
+10-27	sI	ADJD	<unknown>	_	O	O	
+10-28	zuversichtlich	ADJD	zuversichtlich	_	O	O	
+10-29	,	$,	,	_	O	O	
+10-30	und	KON	und	_	O	O	
+10-31	hat	VAFIN	haben	_	O	O	
+10-32	neulich	ADV	neulich	_	O	O	
+

@@ -1,0 +1,57 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=21 Gerhard an Henzen 9/1/1849 2 men haben: ich möchte namentlich das Velinexemplar meiner Auserl.
+1-1	21	CARD	21	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	9/1/1849	CARD	@card@	_	O	O	
+1-6	2	CARD	2	_	O	O	
+1-7	men	NE	men	_	O	O	
+1-8	haben	VAFIN	haben	_	O	O	
+1-9	:	$.	:	_	O	O	
+1-10	ich	PPER	ich	_	O	O	
+1-11	möchte	VMFIN	mögen	_	O	O	
+1-12	namentlich	ADJD	namentlich	_	O	O	
+1-13	das	ART	die	_	O	O	
+1-14	Velinexemplar	NN	<unknown>	_	O	O	
+1-15	meiner	PPOSAT	mein	_	O	O	
+1-16	Auserl	NN	<unknown>	_	O	O	
+1-17	.	$.	.	_	O	O	
+
+#id=2
+#text=Vase 2 voll.
+2-1	Vase	NN	Vase	_	O	O	
+2-2	2	CARD	2	_	O	O	
+2-3	voll	ADJD	voll	_	O	O	
+2-4	.	$.	.	_	O	O	
+
+#id=3
+#text=4 für die Bibliothek dei Gran Duca reserviren die es bei beruhigten Verhältnissen aller Wahrscheinlichkeit noch nimmt.
+3-1	4	CARD	4	_	O	O	
+3-2	für	APPR	für	_	O	O	
+3-3	die	ART	die	_	O	O	
+3-4	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+3-5	dei	ADJA	<unknown>	_	O	O	
+3-6	Gran	ADJA	<unknown>	_	O	O	
+3-7	Duca	NE	<unknown>	_	O	O	
+3-8	reserviren	ADJA	<unknown>	_	O	O	
+3-9	die	PRELS	die	_	O	O	
+3-10	es	PPER	es	_	O	O	
+3-11	bei	APPR	bei	_	O	O	
+3-12	beruhigten	ADJA	beruhigt	_	O	O	
+3-13	Verhältnissen	NN	Verhältnis	_	O	O	
+3-14	aller	PIAT	alle	_	O	O	
+3-15	Wahrscheinlichkeit	NN	Wahrscheinlichkeit	_	O	O	
+3-16	noch	ADV	noch	_	O	O	
+3-17	nimmt	VVFIN	nehmen	_	O	O	
+3-18	.	$.	.	_	O	O	
+
+#id=4
+#text=Von Herzen der Ihrige Gerhard
+4-1	Von	APPR	von	_	O	O	
+4-2	Herzen	NN	Herz	_	O	O	
+4-3	der	ART	die	_	O	O	
+4-4	Ihrige	PPOSAT	ihrige	_	O	O	
+4-5	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+

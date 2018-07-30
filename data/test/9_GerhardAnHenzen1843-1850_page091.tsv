@@ -1,0 +1,368 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text="- I .
+1-1	"	$(	"	_	O	O	
+1-2	-	$(	-	_	O	O	
+1-3	I	FM	I	_	O	O	
+1-4	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=.
+7-1	.	$.	.	_	O	O	
+
+#id=8
+#text=.
+8-1	.	$.	.	_	O	O	
+
+#id=9
+#text=Gerhard an Henzen Berlin, 28. November 1846 3 satz nicht liegen lassen.
+9-1	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+9-2	an	APPR	an	_	O	O	
+9-3	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+9-4	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+9-5	,	$,	,	_	O	O	
+9-6	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+9-7	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+9-8	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+9-9	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+9-10	3	CARD	3	_	O	O	
+9-11	satz	NN	Satz	_	O	O	
+9-12	nicht	PTKNEG	nicht	_	O	O	
+9-13	liegen	VVINF	liegen	_	O	O	
+9-14	lassen	VVFIN	lassen	_	O	O	
+9-15	.	$.	.	_	O	O	
+
+#id=10
+#text=Brockhaus heischt ein billiges Abkommen für die Erlanger Bibliothek, die geneigt sein soll ein vollständiges Exemplar der Institutswerke anzukaufen; man habe ihn von Rom aus deshalb an mich gewiesen.
+10-1	Brockhaus	NN	Brockhaus	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-2	heischt	VVFIN	<unknown>	_	O	O	
+10-3	ein	ART	eine	_	O	O	
+10-4	billiges	ADJA	billig	_	O	O	
+10-5	Abkommen	NN	Abkommen	_	O	O	
+10-6	für	APPR	für	_	O	O	
+10-7	die	ART	die	_	O	O	
+10-8	Erlanger	NN	Erlanger	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+10-9	Bibliothek	NN	Bibliothek	_	I-webanno.custom.LetterEntity_	I-ORGmentioned	
+10-10	,	$,	,	_	O	O	
+10-11	die	PRELS	die	_	O	O	
+10-12	geneigt	ADJD	geneigt	_	O	O	
+10-13	sein	VAINF	sein	_	O	O	
+10-14	soll	VMFIN	sollen	_	O	O	
+10-15	ein	ART	eine	_	O	O	
+10-16	vollständiges	ADJA	vollständig	_	O	O	
+10-17	Exemplar	NN	Exemplar	_	O	O	
+10-18	der	ART	die	_	O	O	
+10-19	Institutswerke	NN	<unknown>	_	O	O	
+10-20	anzukaufen	VVIZU	ankaufen	_	O	O	
+10-21	;	$.	;	_	O	O	
+10-22	man	PIS	man	_	O	O	
+10-23	habe	VAFIN	haben	_	O	O	
+10-24	ihn	PPER	er	_	O	O	
+10-25	von	APPR	von	_	O	O	
+10-26	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-27	aus	PTKVZ	aus	_	O	O	
+10-28	deshalb	PAV	deshalb	_	O	O	
+10-29	an	APPR	an	_	O	O	
+10-30	mich	PRF	ich	_	O	O	
+10-31	gewiesen	VVPP	weisen	_	O	O	
+10-32	.	$.	.	_	O	O	
+
+#id=11
+#text=Ich antwortete den Bestand des römischen Dep8ts erst erkunden zu müssen und es werde alsdann die Antwort von Rom aus erfolgen.
+11-1	Ich	PPER	ich	_	O	O	
+11-2	antwortete	VVFIN	antworten	_	O	O	
+11-3	den	ART	die	_	O	O	
+11-4	Bestand	NN	Bestand	_	O	O	
+11-5	des	ART	die	_	O	O	
+11-6	römischen	ADJA	römisch	_	O	O	
+11-7	Dep8ts	NN	<unknown>	_	O	O	
+11-8	erst	ADV	erst	_	O	O	
+11-9	erkunden	VVINF	erkunden	_	O	O	
+11-10	zu	PTKZU	zu	_	O	O	
+11-11	müssen	VMINF	müssen	_	O	O	
+11-12	und	KON	und	_	O	O	
+11-13	es	PPER	es	_	O	O	
+11-14	werde	VAFIN	werden	_	O	O	
+11-15	alsdann	ADJD	<unknown>	_	O	O	
+11-16	die	ART	die	_	O	O	
+11-17	Antwort	NN	Antwort	_	O	O	
+11-18	von	APPR	von	_	O	O	
+11-19	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+11-20	aus	PTKVZ	aus	_	O	O	
+11-21	erfolgen	VVINF	erfolgen	_	O	O	
+11-22	.	$.	.	_	O	O	
+
+#id=12
+#text=In der That sollte ich meinen gewisse längst drohende Defekte müßten bevor man sie ergänzt hat es unmöglich machen vollständige Exemplare noch für einen andern als den vollen Preis zu geben.
+12-1	In	APPR	in	_	O	O	
+12-2	der	ART	die	_	O	O	
+12-3	That	NE	<unknown>	_	O	O	
+12-4	sollte	VMFIN	sollen	_	O	O	
+12-5	ich	PPER	ich	_	O	O	
+12-6	meinen	PPOSAT	mein	_	O	O	
+12-7	gewisse	ADJA	gewiss	_	O	O	
+12-8	längst	ADV	längst	_	O	O	
+12-9	drohende	ADJA	drohend	_	O	O	
+12-10	Defekte	NN	Defekte	_	O	O	
+12-11	müßten	VMFIN	müssen	_	O	O	
+12-12	bevor	KOUS	bevor	_	O	O	
+12-13	man	PIS	man	_	O	O	
+12-14	sie	PPER	sie	_	O	O	
+12-15	ergänzt	VVPP	ergänzen	_	O	O	
+12-16	hat	VAFIN	haben	_	O	O	
+12-17	es	PPER	es	_	O	O	
+12-18	unmöglich	ADJD	unmöglich	_	O	O	
+12-19	machen	VVFIN	machen	_	O	O	
+12-20	vollständige	ADJA	vollständig	_	O	O	
+12-21	Exemplare	NN	Exemplar	_	O	O	
+12-22	noch	ADV	noch	_	O	O	
+12-23	für	APPR	für	_	O	O	
+12-24	einen	ART	eine	_	O	O	
+12-25	andern	PIS	andere	_	O	O	
+12-26	als	KOKOM	als	_	O	O	
+12-27	den	ART	die	_	O	O	
+12-28	vollen	ADJA	voll	_	O	O	
+12-29	Preis	NN	Preis	_	O	O	
+12-30	zu	PTKZU	zu	_	O	O	
+12-31	geben	VVINF	geben	_	O	O	
+12-32	.	$.	.	_	O	O	
+
+#id=13
+#text=Allenfalls könnte man die Jahrgänge der alte~ Series durch direkte Sendung zum Subscriptionspreis liefern, so daß die Provision des Buchhändlers erst von der Nova Serie an dem Institut entginge.
+13-1	Allenfalls	ADV	allenfalls	_	O	O	
+13-2	könnte	VMFIN	können	_	O	O	
+13-3	man	PIS	man	_	O	O	
+13-4	die	ART	die	_	O	O	
+13-5	Jahrgänge	NN	Jahrgang	_	O	O	
+13-6	der	ART	die	_	O	O	
+13-7	alte~	ADJA	<unknown>	_	O	O	
+13-8	Series	NN	<unknown>	_	O	O	
+13-9	durch	APPR	durch	_	O	O	
+13-10	direkte	ADJA	direkt	_	O	O	
+13-11	Sendung	NN	Sendung	_	O	O	
+13-12	zum	APPRART	zu	_	O	O	
+13-13	Subscriptionspreis	NN	<unknown>	_	O	O	
+13-14	liefern	VVINF	liefern	_	O	O	
+13-15	,	$,	,	_	O	O	
+13-16	so	ADV	so	_	O	O	
+13-17	daß	KOUS	dass	_	O	O	
+13-18	die	ART	die	_	O	O	
+13-19	Provision	NN	Provision	_	O	O	
+13-20	des	ART	die	_	O	O	
+13-21	Buchhändlers	NN	Buchhändler	_	O	O	
+13-22	erst	ADV	erst	_	O	O	
+13-23	von	APPR	von	_	O	O	
+13-24	der	ART	die	_	O	O	
+13-25	Nova	NN	<unknown>	_	O	O	
+13-26	Serie	NN	Serie	_	O	O	
+13-27	an	APPR	an	_	O	O	
+13-28	dem	ART	die	_	O	O	
+13-29	Institut	NN	Institut	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+13-30	entginge	VVFIN	entgehen	_	O	O	
+13-31	.	$.	.	_	O	O	
+
+#id=14
+#text=Besprechen Sie die Sache hienächst mit Braun und verfügen Sie darüber wie über andre Angelegenheiten der römischen Administration.
+14-1	Besprechen	VVFIN	besprechen	_	O	O	
+14-2	Sie	PPER	Sie	_	O	O	
+14-3	die	ART	die	_	O	O	
+14-4	Sache	NN	Sache	_	O	O	
+14-5	hienächst	VVFIN	<unknown>	_	O	O	
+14-6	mit	APPR	mit	_	O	O	
+14-7	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-8	und	KON	und	_	O	O	
+14-9	verfügen	VVFIN	verfügen	_	O	O	
+14-10	Sie	PPER	Sie	_	O	O	
+14-11	darüber	PAV	darüber	_	O	O	
+14-12	wie	KOKOM	wie	_	O	O	
+14-13	über	APPR	über	_	O	O	
+14-14	andre	PIAT	andere	_	O	O	
+14-15	Angelegenheiten	NN	Angelegenheit	_	O	O	
+14-16	der	ART	die	_	O	O	
+14-17	römischen	ADJA	römisch	_	O	O	
+14-18	Administration	NN	Administration	_	O	O	
+14-19	.	$.	.	_	O	O	
+
+#id=15
+#text=.
+15-1	.	$.	.	_	O	O	
+
+#id=16
+#text=.
+16-1	.	$.	.	_	O	O	
+
+#id=17
+#text=.
+17-1	.	$.	.	_	O	O	
+
+#id=18
+#text=.
+18-1	.	$.	.	_	O	O	
+
+#id=19
+#text=.
+19-1	.	$.	.	_	O	O	
+
+#id=20
+#text=.
+20-1	.	$.	.	_	O	O	
+
+#id=21
+#text=.
+21-1	.	$.	.	_	O	O	
+
+#id=22
+#text=.
+22-1	.	$.	.	_	O	O	
+
+#id=23
+#text=.
+23-1	.	$.	.	_	O	O	
+
+#id=24
+#text=.
+24-1	.	$.	.	_	O	O	
+
+#id=25
+#text=.
+25-1	.	$.	.	_	O	O	
+
+#id=26
+#text=.
+26-1	.	$.	.	_	O	O	
+
+#id=27
+#text=ist sein Vater eingeschlafen; ein Trauerfall auf den man vorbereitet war.
+27-1	ist	VAFIN	sein	_	O	O	
+27-2	sein	PPOSAT	sein	_	O	O	
+27-3	Vater	NN	Vater	_	O	O	
+27-4	eingeschlafen	VVPP	einschlafen	_	O	O	
+27-5	;	$.	;	_	O	O	
+27-6	ein	ART	eine	_	O	O	
+27-7	Trauerfall	NN	Trauerfall	_	O	O	
+27-8	auf	APPR	auf	_	O	O	
+27-9	den	ART	die	_	O	O	
+27-10	man	PIS	man	_	O	O	
+27-11	vorbereitet	VVPP	vorbereiten	_	O	O	
+27-12	war	VAFIN	sein	_	O	O	
+27-13	.	$.	.	_	O	O	
+
+#id=28
+#text=H. sucht nun wohl ernstlicher nach einem Schulamt.
+28-1	H.	NE	H.	_	O	O	
+28-2	sucht	VVFIN	suchen	_	O	O	
+28-3	nun	ADV	nun	_	O	O	
+28-4	wohl	ADV	wohl	_	O	O	
+28-5	ernstlicher	ADJD	ernstlich	_	O	O	
+28-6	nach	APPR	nach	_	O	O	
+28-7	einem	ART	eine	_	O	O	
+28-8	Schulamt	NN	Schulamt	_	O	O	
+28-9	.	$.	.	_	O	O	
+
+#id=29
+#text=Meine Frau gr .
+29-1	Meine	PPOSAT	mein	_	O	O	
+29-2	Frau	NN	Frau	_	O	O	
+29-3	gr	NE	<unknown>	_	O	O	
+29-4	.	$.	.	_	O	O	
+
+#id=30
+#text=.
+30-1	.	$.	.	_	O	O	
+
+#id=31
+#text=.
+31-1	.	$.	.	_	O	O	
+
+#id=32
+#text=.
+32-1	.	$.	.	_	O	O	
+
+#id=33
+#text=.
+33-1	.	$.	.	_	O	O	
+
+#id=34
+#text=.
+34-1	.	$.	.	_	O	O	
+
+#id=35
+#text=.
+35-1	.	$.	.	_	O	O	
+
+#id=36
+#text=.
+36-1	.	$.	.	_	O	O	
+
+#id=37
+#text=.
+37-1	.	$.	.	_	O	O	
+
+#id=38
+#text=.
+38-1	.	$.	.	_	O	O	
+
+#id=39
+#text=und die Ihrige.
+39-1	und	KON	und	_	O	O	
+39-2	die	PRELS	die	_	O	O	
+39-3	Ihrige	PPOSAT	ihrige	_	O	O	
+39-4	.	$.	.	_	O	O	
+
+#id=40
+#text=Der Himmel behüte Sie (und lasse diese Schreiberei Ihre Augen nicht verderben) • Es ist doch gut wenn man altes Manuscript aufhebt um die Ehre seiner Officin retten zu können; Ihr
+40-1	Der	ART	die	_	O	O	
+40-2	Himmel	NN	Himmel	_	O	O	
+40-3	behüte	VVFIN	behüten	_	O	O	
+40-4	Sie	PPER	Sie	_	O	O	
+40-5	(	$(	(	_	O	O	
+40-6	und	KON	und	_	O	O	
+40-7	lasse	VVFIN	lassen	_	O	O	
+40-8	diese	PDAT	dies	_	O	O	
+40-9	Schreiberei	NN	Schreiberei	_	O	O	
+40-10	Ihre	PPOSAT	ihr	_	O	O	
+40-11	Augen	NN	Auge	_	O	O	
+40-12	nicht	PTKNEG	nicht	_	O	O	
+40-13	verderben	VVINF	verderben	_	O	O	
+40-14	)	$(	)	_	O	O	
+40-15	•	ADJA	<unknown>	_	O	O	
+40-16	Es	NN	Es	_	O	O	
+40-17	ist	VAFIN	sein	_	O	O	
+40-18	doch	ADV	doch	_	O	O	
+40-19	gut	ADJD	gut	_	O	O	
+40-20	wenn	KOUS	wenn	_	O	O	
+40-21	man	PIS	man	_	O	O	
+40-22	altes	ADJA	alt	_	O	O	
+40-23	Manuscript	NN	<unknown>	_	O	O	
+40-24	aufhebt	VVFIN	aufheben	_	O	O	
+40-25	um	APPR	um	_	O	O	
+40-26	die	ART	die	_	O	O	
+40-27	Ehre	NN	Ehre	_	O	O	
+40-28	seiner	PPOSAT	sein	_	O	O	
+40-29	Officin	NN	<unknown>	_	O	O	
+40-30	retten	VVINF	retten	_	O	O	
+40-31	zu	PTKZU	zu	_	O	O	
+40-32	können	VMINF	können	_	O	O	
+40-33	;	$.	;	_	O	O	
+40-34	Ihr	PPOSAT	ihr	_	O	O	
+

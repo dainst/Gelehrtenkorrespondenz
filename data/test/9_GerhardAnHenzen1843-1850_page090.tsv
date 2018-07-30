@@ -1,0 +1,263 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=- , ) Gerhard an Henzen Berlin, 28. November 1846 2 Notice bei.
+1-1	-	$(	-	_	O	O	
+1-2	,	$,	,	_	O	O	
+1-3	)	$(	)	_	O	O	
+1-4	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-5	an	APPR	an	_	O	O	
+1-6	Henzen	NN	<unknown>	_	O	O	
+1-7	Berlin	NE	Berlin	_	O	O	
+1-8	,	$,	,	_	O	O	
+1-9	28	CARD	28	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+1-10	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-11	November	NN	November	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-12	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+1-13	2	CARD	2	_	O	O	
+1-14	Notice	NN	<unknown>	_	O	O	
+1-15	bei	PTKVZ	bei	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Viel wird wol freilich nicht heraus kommen bevor ein deutscher Philolog nach Spanien geht; darauf müßte man ein Augenmerk haben.
+2-1	Viel	ADV	viel	_	O	O	
+2-2	wird	VAFIN	werden	_	O	O	
+2-3	wol	ADJD	<unknown>	_	O	O	
+2-4	freilich	ADV	freilich	_	O	O	
+2-5	nicht	PTKNEG	nicht	_	O	O	
+2-6	heraus	ADV	heraus	_	O	O	
+2-7	kommen	VVFIN	kommen	_	O	O	
+2-8	bevor	KOUS	bevor	_	O	O	
+2-9	ein	ART	eine	_	O	O	
+2-10	deutscher	ADJA	deutsch	_	O	O	
+2-11	Philolog	NN	<unknown>	_	O	O	
+2-12	nach	APPR	nach	_	O	O	
+2-13	Spanien	NE	Spanien	_	O	O	
+2-14	geht	VVFIN	gehen	_	O	O	
+2-15	;	$.	;	_	O	O	
+2-16	darauf	PAV	darauf	_	O	O	
+2-17	müßte	VMFIN	müssen	_	O	O	
+2-18	man	PIS	man	_	O	O	
+2-19	ein	ART	eine	_	O	O	
+2-20	Augenmerk	NN	Augenmerk	_	O	O	
+2-21	haben	VAINF	haben	_	O	O	
+2-22	.	$.	.	_	O	O	
+
+#id=3
+#text=Ihre sonstigen neuen Instituts-Creaturen habe ich notirt und begreife wohl daß auch Bianconi's Substitut ein nothwendiges Übel geworden ist.
+3-1	Ihre	PPOSAT	ihr	_	O	O	
+3-2	sonstigen	ADJA	sonstig	_	O	O	
+3-3	neuen	ADJA	neu	_	O	O	
+3-4	Instituts-Creaturen	NN	<unknown>	_	O	O	
+3-5	habe	VAFIN	haben	_	O	O	
+3-6	ich	PPER	ich	_	O	O	
+3-7	notirt	NN	<unknown>	_	O	O	
+3-8	und	KON	und	_	O	O	
+3-9	begreife	VVFIN	begreifen	_	O	O	
+3-10	wohl	ADV	wohl	_	O	O	
+3-11	daß	KOUS	dass	_	O	O	
+3-12	auch	ADV	auch	_	O	O	
+3-13	Bianconi's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-14	Substitut	NN	Substitut	_	O	O	
+3-15	ein	ART	eine	_	O	O	
+3-16	nothwendiges	ADJA	<unknown>	_	O	O	
+3-17	Übel	NN	Übel	_	O	O	
+3-18	geworden	VAPP	werden	_	O	O	
+3-19	ist	VAFIN	sein	_	O	O	
+3-20	.	$.	.	_	O	O	
+
+#id=4
+#text=Eine neue Neigebaursche Sendung hat Herr von Moltke heute für Sie mitgenommen.
+4-1	Eine	ART	eine	_	O	O	
+4-2	neue	ADJA	neu	_	O	O	
+4-3	Neigebaursche	NN	<unknown>	_	O	O	
+4-4	Sendung	NN	Sendung	_	O	O	
+4-5	hat	VAFIN	haben	_	O	O	
+4-6	Herr	NN	Herr	_	O	O	
+4-7	von	APPR	von	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-8	Moltke	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+4-9	heute	ADV	heute	_	O	O	
+4-10	für	APPR	für	_	O	O	
+4-11	Sie	PPER	Sie	_	O	O	
+4-12	mitgenommen	VVPP	mitnehmen	_	O	O	
+4-13	.	$.	.	_	O	O	
+
+#id=5
+#text=Die früheren Dr.
+5-1	Die	ART	die	_	O	O	
+5-2	früheren	ADJA	früh	_	O	O	
+5-3	Dr.	NN	Dr.	_	O	O	
+
+#id=6
+#text=Reimer.
+6-1	Reimer	NN	Reimer	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+6-2	.	$.	.	_	O	O	
+
+#id=7
+#text=Die Annalensendung erwarte ich und freue mich Eurer glänzenden Rüstigkeit; den Franzosen setze ich Sporen ein nach Kräften.
+7-1	Die	ART	die	_	O	O	
+7-2	Annalensendung	NN	<unknown>	_	O	O	
+7-3	erwarte	VVFIN	erwarten	_	O	O	
+7-4	ich	PPER	ich	_	O	O	
+7-5	und	KON	und	_	O	O	
+7-6	freue	VVFIN	freuen	_	O	O	
+7-7	mich	PRF	ich	_	O	O	
+7-8	Eurer	PPOSAT	euer	_	O	O	
+7-9	glänzenden	ADJA	glänzend	_	O	O	
+7-10	Rüstigkeit	NN	Rüstigkeit	_	O	O	
+7-11	;	$.	;	_	O	O	
+7-12	den	ART	die	_	O	O	
+7-13	Franzosen	NN	Franzose	_	O	O	
+7-14	setze	VVFIN	setzen	_	O	O	
+7-15	ich	PPER	ich	_	O	O	
+7-16	Sporen	NN	Spore	_	O	O	
+7-17	ein	ART	eine	_	O	O	
+7-18	nach	APPR	nach	_	O	O	
+7-19	Kräften	NN	Kraft	_	O	O	
+7-20	.	$.	.	_	O	O	
+
+#id=8
+#text=Den Stand der hiesigen epigraphischen Angelegenheit zeigte ich Ihnen vorläufig durch Braun an' , an Mommsen zu schreiben zögere ich in der Hoffnung ihm bald etwas Geld flüssig machen zu können.
+8-1	Den	ART	die	_	O	O	
+8-2	Stand	NN	Stand	_	O	O	
+8-3	der	ART	die	_	O	O	
+8-4	hiesigen	ADJA	hiesig	_	O	O	
+8-5	epigraphischen	ADJA	<unknown>	_	O	O	
+8-6	Angelegenheit	NN	Angelegenheit	_	O	O	
+8-7	zeigte	VVFIN	zeigen	_	O	O	
+8-8	ich	PPER	ich	_	O	O	
+8-9	Ihnen	PPER	Sie	_	O	O	
+8-10	vorläufig	ADJD	vorläufig	_	O	O	
+8-11	durch	APPR	durch	_	O	O	
+8-12	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-13	an	PTKVZ	an	_	O	O	
+8-14	'	$(	'	_	O	O	
+8-15	,	$,	,	_	O	O	
+8-16	an	APPR	an	_	O	O	
+8-17	Mommsen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-18	zu	PTKZU	zu	_	O	O	
+8-19	schreiben	VVINF	schreiben	_	O	O	
+8-20	zögere	VVFIN	zögern	_	O	O	
+8-21	ich	PPER	ich	_	O	O	
+8-22	in	APPR	in	_	O	O	
+8-23	der	ART	die	_	O	O	
+8-24	Hoffnung	NN	Hoffnung	_	O	O	
+8-25	ihm	PPER	er	_	O	O	
+8-26	bald	ADV	bald	_	O	O	
+8-27	etwas	PIAT	etwas	_	O	O	
+8-28	Geld	NN	Geld	_	O	O	
+8-29	flüssig	ADJD	flüssig	_	O	O	
+8-30	machen	VVINF	machen	_	O	O	
+8-31	zu	PTKZU	zu	_	O	O	
+8-32	können	VMINF	können	_	O	O	
+8-33	.	$.	.	_	O	O	
+
+#id=9
+#text=Bewilligt ist es aber noch nicht zahlbar; ich habe deßwegen bei dem Minister einen Vorschuß für ihn nachgesucht.
+9-1	Bewilligt	VVPP	bewilligen	_	O	O	
+9-2	ist	VAFIN	sein	_	O	O	
+9-3	es	PPER	es	_	O	O	
+9-4	aber	ADV	aber	_	O	O	
+9-5	noch	ADV	noch	_	O	O	
+9-6	nicht	PTKNEG	nicht	_	O	O	
+9-7	zahlbar	ADJD	zahlbar	_	O	O	
+9-8	;	$.	;	_	O	O	
+9-9	ich	PPER	ich	_	O	O	
+9-10	habe	VAFIN	haben	_	O	O	
+9-11	deßwegen	ADJD	<unknown>	_	O	O	
+9-12	bei	APPR	bei	_	O	O	
+9-13	dem	ART	die	_	O	O	
+9-14	Minister	NN	Minister	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-15	einen	ART	eine	_	O	O	
+9-16	Vorschuß	NN	Vorschuss	_	O	O	
+9-17	für	APPR	für	_	O	O	
+9-18	ihn	PPER	er	_	O	O	
+9-19	nachgesucht	VVPP	nachsuchen	_	O	O	
+9-20	.	$.	.	_	O	O	
+
+#id=10
+#text=Lassen Sie ihn das vorläufig wissen, auch daß ein Brief von Rudorf für ihn nach Neapel zur Post gegeben ist und daß seine mesapisehen Inschriften hier willkommen sein werden.
+10-1	Lassen	VVFIN	lassen	_	O	O	
+10-2	Sie	PPER	Sie	_	O	O	
+10-3	ihn	PPER	er	_	O	O	
+10-4	das	PDS	die	_	O	O	
+10-5	vorläufig	ADJD	vorläufig	_	O	O	
+10-6	wissen	VVINF	wissen	_	O	O	
+10-7	,	$,	,	_	O	O	
+10-8	auch	ADV	auch	_	O	O	
+10-9	daß	KOUS	dass	_	O	O	
+10-10	ein	ART	eine	_	O	O	
+10-11	Brief	NN	Brief	_	O	O	
+10-12	von	APPR	von	_	O	O	
+10-13	Rudorf	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+10-14	für	APPR	für	_	O	O	
+10-15	ihn	PPER	er	_	O	O	
+10-16	nach	APPR	nach	_	O	O	
+10-17	Neapel	NE	Neapel	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+10-18	zur	APPRART	zu	_	O	O	
+10-19	Post	NN	Post	_	O	O	
+10-20	gegeben	VVPP	geben	_	O	O	
+10-21	ist	VAFIN	sein	_	O	O	
+10-22	und	KON	und	_	O	O	
+10-23	daß	KOUS	dass	_	O	O	
+10-24	seine	PPOSAT	sein	_	O	O	
+10-25	mesapisehen	ADJA	<unknown>	_	O	O	
+10-26	Inschriften	NN	Inschrift	_	O	O	
+10-27	hier	ADV	hier	_	O	O	
+10-28	willkommen	ADJD	willkommen	_	O	O	
+10-29	sein	VAINF	sein	_	O	O	
+10-30	werden	VAINF	werden	_	O	O	
+10-31	.	$.	.	_	O	O	
+
+#id=11
+#text=Über Ihre Recension erfahre ich nach mehrfacher MruL~ung daß sie wegen deutschkatholischer Literatur diG vorangeht erst nach Neujahr erscheinen kann; das ist sehr fatal gerade jetzt, da der junge Zumpt dringend wird und sich viel zutraut.
+11-1	Über	APPR	über	_	O	O	
+11-2	Ihre	PPOSAT	ihr	_	O	O	
+11-3	Recension	NN	<unknown>	_	O	O	
+11-4	erfahre	VVFIN	erfahren	_	O	O	
+11-5	ich	PPER	ich	_	O	O	
+11-6	nach	APPR	nach	_	O	O	
+11-7	mehrfacher	ADJA	mehrfach	_	O	O	
+11-8	MruL~ung	NN	<unknown>	_	O	O	
+11-9	daß	KOUS	dass	_	O	O	
+11-10	sie	PPER	sie	_	O	O	
+11-11	wegen	APPR	wegen	_	O	O	
+11-12	deutschkatholischer	ADJA	<unknown>	_	O	O	
+11-13	Literatur	NN	Literatur	_	O	O	
+11-14	diG	ADJD	<unknown>	_	O	O	
+11-15	vorangeht	VVFIN	vorangehen	_	O	O	
+11-16	erst	ADV	erst	_	O	O	
+11-17	nach	APPR	nach	_	O	O	
+11-18	Neujahr	NN	Neujahr	_	O	O	
+11-19	erscheinen	VVINF	erscheinen	_	O	O	
+11-20	kann	VMFIN	können	_	O	O	
+11-21	;	$.	;	_	O	O	
+11-22	das	PDS	die	_	O	O	
+11-23	ist	VAFIN	sein	_	O	O	
+11-24	sehr	ADV	sehr	_	O	O	
+11-25	fatal	ADJD	fatal	_	O	O	
+11-26	gerade	ADV	gerade	_	O	O	
+11-27	jetzt	ADV	jetzt	_	O	O	
+11-28	,	$,	,	_	O	O	
+11-29	da	KOUS	da	_	O	O	
+11-30	der	ART	die	_	O	O	
+11-31	junge	ADJA	jung	_	O	O	
+11-32	Zumpt	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-33	dringend	ADJD	dringend	_	O	O	
+11-34	wird	VAFIN	werden	_	O	O	
+11-35	und	KON	und	_	O	O	
+11-36	sich	PRF	sich	_	O	O	
+11-37	viel	ADV	viel	_	O	O	
+11-38	zutraut	VVFIN	zutrauen	_	O	O	
+11-39	.	$.	.	_	O	O	
+
+#id=12
+#text=Möge darum auch Braun seinen epigraphischen Auf-
+12-1	Möge	VMFIN	mögen	_	O	O	
+12-2	darum	PAV	darum	_	O	O	
+12-3	auch	ADV	auch	_	O	O	
+12-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+12-5	seinen	PPOSAT	sein	_	O	O	
+12-6	epigraphischen	ADJA	<unknown>	_	O	O	
+12-7	Auf-	TRUNC	Auf-	_	O	O	
+

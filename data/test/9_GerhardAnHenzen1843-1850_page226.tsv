@@ -1,0 +1,169 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=226 Gerhard an Henzen 29/X/1850 2 auch in Edinburgh Schulmäcenversammlung sich durch einen Toast ausgezeichnet.
+1-1	226	CARD	@card@	_	O	O	
+1-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-3	an	APPR	an	_	O	O	
+1-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-5	29/X/1850	CARD	<unknown>	_	O	O	
+1-6	2	CARD	2	_	O	O	
+1-7	auch	ADV	auch	_	O	O	
+1-8	in	APPR	in	_	O	O	
+1-9	Edinburgh	NE	Edinburgh	_	O	O	
+1-10	Schulmäcenversammlung	NN	<unknown>	_	O	O	
+1-11	sich	PRF	sich	_	O	O	
+1-12	durch	APPR	durch	_	O	O	
+1-13	einen	ART	eine	_	O	O	
+1-14	Toast	NN	Toast	_	O	O	
+1-15	ausgezeichnet	VVPP	auszeichnen	_	O	O	
+1-16	.	$.	.	_	O	O	
+
+#id=2
+#text=Bethmann reist in wenigen Wochen nach Ravenna und Rom ab.
+2-1	Bethmann	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-2	reist	VVFIN	reisen	_	O	O	
+2-3	in	APPR	in	_	O	O	
+2-4	wenigen	PIAT	wenige	_	O	O	
+2-5	Wochen	NN	Woche	_	O	O	
+2-6	nach	APPR	nach	_	O	O	
+2-7	Ravenna	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-8	und	KON	und	_	O	O	
+2-9	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+2-10	ab	PTKVZ	ab	_	O	O	
+2-11	.	$.	.	_	O	O	
+
+#id=3
+#text=Anbei ein Neigebaurianum den Brief zu füttern, er wird bald wieder bei Ihnen sein ( Anz: mit einer Zeichnung und Inschrift ! )
+3-1	Anbei	ADV	anbei	_	O	O	
+3-2	ein	ART	eine	_	O	O	
+3-3	Neigebaurianum	NN	<unknown>	_	O	O	
+3-4	den	ART	die	_	O	O	
+3-5	Brief	NN	Brief	_	O	O	
+3-6	zu	PTKZU	zu	_	O	O	
+3-7	füttern	VVINF	füttern	_	O	O	
+3-8	,	$,	,	_	O	O	
+3-9	er	PPER	er	_	O	O	
+3-10	wird	VAFIN	werden	_	O	O	
+3-11	bald	ADV	bald	_	O	O	
+3-12	wieder	ADV	wieder	_	O	O	
+3-13	bei	APPR	bei	_	O	O	
+3-14	Ihnen	PPER	Sie	_	O	O	
+3-15	sein	VAINF	sein	_	O	O	
+3-16	(	$(	(	_	O	O	
+3-17	Anz	VVFIN	<unknown>	_	O	O	
+3-18	:	$.	:	_	O	O	
+3-19	mit	APPR	mit	_	O	O	
+3-20	einer	ART	eine	_	O	O	
+3-21	Zeichnung	NN	Zeichnung	_	O	O	
+3-22	und	KON	und	_	O	O	
+3-23	Inschrift	NN	Inschrift	_	B-webanno.custom.LetterEntity_	B-OBJ	
+3-24	!	$.	!	_	O	O	
+3-25	)	$(	)	_	O	O	
+
+#id=4
+#text=Ltm~ Mi t viel Herzlichem von meiner Fra"Uffür die Ihrige, und besten Grüßen an Erauns d,-e,. der Ihre Gerhard Morgen Savigny's Dr.
+4-1	Ltm~	NN	<unknown>	_	O	O	
+4-2	Mi	FM	Mi	_	O	O	
+4-3	t	NN	t	_	O	O	
+4-4	viel	PIAT	viele	_	O	O	
+4-5	Herzlichem	NN	<unknown>	_	O	O	
+4-6	von	APPR	von	_	O	O	
+4-7	meiner	PPOSAT	mein	_	O	O	
+4-8	Fra"Uffür	NN	<unknown>	_	O	O	
+4-9	die	ART	die	_	O	O	
+4-10	Ihrige	PPOSAT	ihrige	_	O	O	
+4-11	,	$,	,	_	O	O	
+4-12	und	KON	und	_	O	O	
+4-13	besten	ADJA	gut	_	O	O	
+4-14	Grüßen	NN	Gruß|Grüßen	_	O	O	
+4-15	an	APPR	an	_	O	O	
+4-16	Erauns	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-17	d,-e	NE	<unknown>	_	O	O	
+4-18	,	$,	,	_	O	O	
+4-19	.	$.	.	_	O	O	
+4-20	der	ART	die	_	O	O	
+4-21	Ihre	PPOSAT	ihr	_	O	O	
+4-22	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+4-23	Morgen	NN	Morgen	_	O	O	
+4-24	Savigny's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-25	Dr.	NN	Dr.	_	O	O	
+
+#id=5
+#text=Jubiläum: J. Grimm und Merkel haben Geleg.
+5-1	Jubiläum	NN	Jubiläum	_	O	O	
+5-2	:	$.	:	_	O	O	
+5-3	J.	NE	J.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-4	Grimm	NE	Grimm	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+5-5	und	KON	und	_	O	O	
+5-6	Merkel	NE	Merkel	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-7	haben	VAFIN	haben	_	O	O	
+5-8	Geleg	NN	<unknown>	_	O	O	
+5-9	.	$.	.	_	O	O	
+
+#id=6
+#text=schriften dazu gedruckt.
+6-1	schriften	NN	Schrift	_	O	O	
+6-2	dazu	PAV	dazu	_	O	O	
+6-3	gedruckt	VVPP	drucken	_	O	O	
+6-4	.	$.	.	_	O	O	
+
+#id=7
+#text=Platner's sehr rüstiger Bruder ist dazu aus Marburg hier.
+7-1	Platner's	VVIMP	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-2	sehr	ADV	sehr	_	O	O	
+7-3	rüstiger	ADJA	rüstig	_	O	O	
+7-4	Bruder	NN	Bruder	_	O	O	
+7-5	ist	VAFIN	sein	_	O	O	
+7-6	dazu	PAV	dazu	_	O	O	
+7-7	aus	APPR	aus	_	O	O	
+7-8	Marburg	NE	Marburg	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-9	hier	ADV	hier	_	O	O	
+7-10	.	$.	.	_	O	O	
+
+#id=8
+#text=Eine Hauptsache vergaß ich: Ihnen für Ihre Clusinischen Bemühungen bestens zu danken.
+8-1	Eine	ART	eine	_	O	O	
+8-2	Hauptsache	NN	Hauptsache	_	O	O	
+8-3	vergaß	VVFIN	vergessen	_	O	O	
+8-4	ich	PPER	ich	_	O	O	
+8-5	:	$.	:	_	O	O	
+8-6	Ihnen	PPER	Sie	_	O	O	
+8-7	für	APPR	für	_	O	O	
+8-8	Ihre	PPOSAT	ihr	_	O	O	
+8-9	Clusinischen	NN	<unknown>	_	O	O	
+8-10	Bemühungen	NN	Bemühung	_	O	O	
+8-11	bestens	ADV	bestens	_	O	O	
+8-12	zu	PTKZU	zu	_	O	O	
+8-13	danken	VVINF	danken	_	O	O	
+8-14	.	$.	.	_	O	O	
+
+#id=9
+#text=Die Vase kann mir nicht dienen; zahlt er die 5 Scudi, so stellen Sie ihm als Quittung das ;0eugniß eines gran galantuomo aus.
+9-1	Die	ART	die	_	O	O	
+9-2	Vase	NN	Vase	_	B-webanno.custom.LetterEntity_	B-OBJ	
+9-3	kann	VMFIN	können	_	O	O	
+9-4	mir	PPER	ich	_	O	O	
+9-5	nicht	PTKNEG	nicht	_	O	O	
+9-6	dienen	VVINF	dienen	_	O	O	
+9-7	;	$.	;	_	O	O	
+9-8	zahlt	VVFIN	zahlen	_	O	O	
+9-9	er	PPER	er	_	O	O	
+9-10	die	ART	die	_	O	O	
+9-11	5	CARD	5	_	O	O	
+9-12	Scudi	NN	<unknown>	_	O	O	
+9-13	,	$,	,	_	O	O	
+9-14	so	ADV	so	_	O	O	
+9-15	stellen	VVFIN	stellen	_	O	O	
+9-16	Sie	PPER	Sie	_	O	O	
+9-17	ihm	PPER	er	_	O	O	
+9-18	als	KOKOM	als	_	O	O	
+9-19	Quittung	NN	Quittung	_	O	O	
+9-20	das	PDS	die	_	O	O	
+9-21	;	$.	;	_	O	O	
+9-22	0eugniß	NN	<unknown>	_	O	O	
+9-23	eines	ART	eine	_	O	O	
+9-24	gran	ADJA	<unknown>	_	O	O	
+9-25	galantuomo	NN	<unknown>	_	O	O	
+9-26	aus	PTKVZ	aus	_	O	O	
+9-27	.	$.	.	_	O	O	
+

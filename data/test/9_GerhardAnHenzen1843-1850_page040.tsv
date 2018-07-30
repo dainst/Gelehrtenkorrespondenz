@@ -1,0 +1,265 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=· .
+1-1	·	NN	<unknown>	_	O	O	
+1-2	.	$.	.	_	O	O	
+
+#id=2
+#text=.
+2-1	.	$.	.	_	O	O	
+
+#id=3
+#text=.
+3-1	.	$.	.	_	O	O	
+
+#id=4
+#text=.
+4-1	.	$.	.	_	O	O	
+
+#id=5
+#text=.
+5-1	.	$.	.	_	O	O	
+
+#id=6
+#text=.
+6-1	.	$.	.	_	O	O	
+
+#id=7
+#text=.
+7-1	.	$.	.	_	O	O	
+
+#id=8
+#text=2 Gerhard an Henzen Frankfurt, 11. April 1846 Brunn geschrieben haben, gelegentlich werde ich nicht ermangeln nachzuhelfen.
+8-1	2	CARD	2	_	O	O	
+8-2	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+8-3	an	APPR	an	_	O	O	
+8-4	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERaddressee	
+8-5	Frankfurt	NE	Frankfurt	_	B-webanno.custom.LetterEntity_	B-PLACEfrom	
+8-6	,	$,	,	_	O	O	
+8-7	11	CARD	11	_	B-webanno.custom.LetterEntity_	B-DATEletter	
+8-8	.	$.	.	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-9	April	NN	April	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-10	1846	CARD	@card@	_	I-webanno.custom.LetterEntity_	I-DATEletter	
+8-11	Brunn	NN	Brunn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+8-12	geschrieben	VVPP	schreiben	_	O	O	
+8-13	haben	VAFIN	haben	_	O	O	
+8-14	,	$,	,	_	O	O	
+8-15	gelegentlich	ADJD	gelegentlich	_	O	O	
+8-16	werde	VAFIN	werden	_	O	O	
+8-17	ich	PPER	ich	_	O	O	
+8-18	nicht	PTKNEG	nicht	_	O	O	
+8-19	ermangeln	VVFIN	ermangeln	_	O	O	
+8-20	nachzuhelfen	VVIZU	nachhelfen	_	O	O	
+8-21	.	$.	.	_	O	O	
+
+#id=9
+#text=Mommsen scheint nicht zu wissen daß ein Geldbeschluß der Akademie wenigstens 6 Wochen Zeit braucht um nach ministerieller Approbation mit aller Bequemlichkeit der Kanzlei wirklich ausgefertigt zu werden.
+9-1	Mommsen	ADJD	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+9-2	scheint	VVFIN	scheinen	_	O	O	
+9-3	nicht	PTKNEG	nicht	_	O	O	
+9-4	zu	PTKZU	zu	_	O	O	
+9-5	wissen	VVINF	wissen	_	O	O	
+9-6	daß	KOUS	dass	_	O	O	
+9-7	ein	ART	eine	_	O	O	
+9-8	Geldbeschluß	NN	<unknown>	_	O	O	
+9-9	der	ART	die	_	O	O	
+9-10	Akademie	NN	Akademie	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+9-11	wenigstens	ADV	wenigstens	_	O	O	
+9-12	6	CARD	6	_	O	O	
+9-13	Wochen	NN	Woche	_	O	O	
+9-14	Zeit	NN	Zeit	_	O	O	
+9-15	braucht	VVFIN	brauchen	_	O	O	
+9-16	um	APPR	um	_	O	O	
+9-17	nach	APPR	nach	_	O	O	
+9-18	ministerieller	ADJA	ministeriell	_	O	O	
+9-19	Approbation	NN	Approbation	_	O	O	
+9-20	mit	APPR	mit	_	O	O	
+9-21	aller	PIAT	alle	_	O	O	
+9-22	Bequemlichkeit	NN	Bequemlichkeit	_	O	O	
+9-23	der	ART	die	_	O	O	
+9-24	Kanzlei	NN	Kanzlei	_	O	O	
+9-25	wirklich	ADJD	wirklich	_	O	O	
+9-26	ausgefertigt	VVPP	ausfertigen	_	O	O	
+9-27	zu	PTKZU	zu	_	O	O	
+9-28	werden	VAINF	werden	_	O	O	
+9-29	.	$.	.	_	O	O	
+
+#id=10
+#text=Meine Mittheilung war zuverlässig.
+10-1	Meine	PPOSAT	mein	_	O	O	
+10-2	Mittheilung	NN	<unknown>	_	O	O	
+10-3	war	VAFIN	sein	_	O	O	
+10-4	zuverlässig	ADJD	zuverlässig	_	O	O	
+10-5	.	$.	.	_	O	O	
+
+#id=11
+#text=Meine Kiste scheint also noch nicht abgegangen zu sein; helfen Sie Braun daran erinnern.
+11-1	Meine	PPOSAT	mein	_	O	O	
+11-2	Kiste	NN	Kiste	_	O	O	
+11-3	scheint	VVFIN	scheinen	_	O	O	
+11-4	also	ADV	also	_	O	O	
+11-5	noch	ADV	noch	_	O	O	
+11-6	nicht	PTKNEG	nicht	_	O	O	
+11-7	abgegangen	VVPP	abgehen	_	O	O	
+11-8	zu	PTKZU	zu	_	O	O	
+11-9	sein	VAINF	sein	_	O	O	
+11-10	;	$.	;	_	O	O	
+11-11	helfen	VVFIN	helfen	_	O	O	
+11-12	Sie	PPER	Sie	_	O	O	
+11-13	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+11-14	daran	PAV	daran	_	O	O	
+11-15	erinnern	VVINF	erinnern	_	O	O	
+11-16	.	$.	.	_	O	O	
+
+#id=12
+#text=Nach einem Buchhändler für Ihre Tabula alimenta?
+12-1	Nach	APPR	nach	_	O	O	
+12-2	einem	ART	eine	_	O	O	
+12-3	Buchhändler	NN	Buchhändler	_	O	O	
+12-4	für	APPR	für	_	O	O	
+12-5	Ihre	PPOSAT	ihr	_	O	O	
+12-6	Tabula	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-OBJ	
+12-7	alimenta	NE	<unknown>	_	O	O	
+12-8	?	$.	?	_	O	O	
+
+#id=13
+#text=ria werde ich mich erkundigen.
+13-1	ria	ADJD	<unknown>	_	O	O	
+13-2	werde	VAFIN	werden	_	O	O	
+13-3	ich	PPER	ich	_	O	O	
+13-4	mich	PRF	ich	_	O	O	
+13-5	erkundigen	VVINF	erkundigen	_	O	O	
+13-6	.	$.	.	_	O	O	
+
+#id=14
+#text=Vollards alle Theilnahme und alle herzlichsten Grüße; ich wollte selbst schreiben gelange aber erst in Berlin dazu.
+14-1	Vollards	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+14-2	alle	PIAT	alle	_	O	O	
+14-3	Theilnahme	NN	<unknown>	_	O	O	
+14-4	und	KON	und	_	O	O	
+14-5	alle	PIAT	alle	_	O	O	
+14-6	herzlichsten	ADJA	herzlich	_	O	O	
+14-7	Grüße	NN	Gruß	_	O	O	
+14-8	;	$.	;	_	O	O	
+14-9	ich	PPER	ich	_	O	O	
+14-10	wollte	VMFIN	wollen	_	O	O	
+14-11	selbst	ADV	selbst	_	O	O	
+14-12	schreiben	VVINF	schreiben	_	O	O	
+14-13	gelange	VVFIN	gelangen	_	O	O	
+14-14	aber	ADV	aber	_	O	O	
+14-15	erst	ADV	erst	_	O	O	
+14-16	in	APPR	in	_	O	O	
+14-17	Berlin	NE	Berlin	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+14-18	dazu	PAV	dazu	_	O	O	
+14-19	.	$.	.	_	O	O	
+
+#id=15
+#text=Wie viel er noch für Einfassung der mir besorgten Brosche ausgelegt, wünschte ich mir bald notirt.
+15-1	Wie	KOUS	wie	_	O	O	
+15-2	viel	PIS	viele	_	O	O	
+15-3	er	PPER	er	_	O	O	
+15-4	noch	ADV	noch	_	O	O	
+15-5	für	APPR	für	_	O	O	
+15-6	Einfassung	NN	Einfassung	_	O	O	
+15-7	der	ART	die	_	O	O	
+15-8	mir	PRF	ich	_	O	O	
+15-9	besorgten	ADJA	besorgt	_	O	O	
+15-10	Brosche	NN	Brosche	_	O	O	
+15-11	ausgelegt	VVPP	auslegen	_	O	O	
+15-12	,	$,	,	_	O	O	
+15-13	wünschte	VVFIN	wünschen	_	O	O	
+15-14	ich	PPER	ich	_	O	O	
+15-15	mir	PRF	ich	_	O	O	
+15-16	bald	ADV	bald	_	O	O	
+15-17	notirt	NN	<unknown>	_	O	O	
+15-18	.	$.	.	_	O	O	
+
+#id=16
+#text=Gelder die für mich eingehen wünsche ich allerdings Ihrer Behütung und Berechnung empfohlen; da ich aber auch mit Braun in Abrechnung stehe, so thut es nichts wenn er es bequemer fand Zardetti's Zahlung an sich zu halten.
+16-1	Gelder	NN	Geld	_	O	O	
+16-2	die	ART	die	_	O	O	
+16-3	für	APPR	für	_	O	O	
+16-4	mich	PRF	ich	_	O	O	
+16-5	eingehen	VVINF	eingehen	_	O	O	
+16-6	wünsche	VVFIN	wünschen	_	O	O	
+16-7	ich	PPER	ich	_	O	O	
+16-8	allerdings	ADV	allerdings	_	O	O	
+16-9	Ihrer	PPOSAT	ihr	_	O	O	
+16-10	Behütung	NN	<unknown>	_	O	O	
+16-11	und	KON	und	_	O	O	
+16-12	Berechnung	NN	Berechnung	_	O	O	
+16-13	empfohlen	VVPP	empfehlen	_	O	O	
+16-14	;	$.	;	_	O	O	
+16-15	da	KOUS	da	_	O	O	
+16-16	ich	PPER	ich	_	O	O	
+16-17	aber	ADV	aber	_	O	O	
+16-18	auch	ADV	auch	_	O	O	
+16-19	mit	APPR	mit	_	O	O	
+16-20	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-21	in	APPR	in	_	O	O	
+16-22	Abrechnung	NN	Abrechnung	_	O	O	
+16-23	stehe	VVFIN	stehen	_	O	O	
+16-24	,	$,	,	_	O	O	
+16-25	so	ADV	so	_	O	O	
+16-26	thut	VVFIN	<unknown>	_	O	O	
+16-27	es	PPER	es	_	O	O	
+16-28	nichts	PIS	nichts	_	O	O	
+16-29	wenn	KOUS	wenn	_	O	O	
+16-30	er	PPER	er	_	O	O	
+16-31	es	PPER	es	_	O	O	
+16-32	bequemer	ADJD	bequem	_	O	O	
+16-33	fand	VVFIN	finden	_	O	O	
+16-34	Zardetti's	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+16-35	Zahlung	NN	Zahlung	_	O	O	
+16-36	an	APPR	an	_	O	O	
+16-37	sich	PRF	sich	_	O	O	
+16-38	zu	PTKZU	zu	_	O	O	
+16-39	halten	VVINF	halten	_	O	O	
+16-40	.	$.	.	_	O	O	
+
+#id=17
+#text=Zardetti will allerdings keine Fortsetzung, hat vielleicht auch nicht Unrecht.
+17-1	Zardetti	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+17-2	will	VMFIN	wollen	_	O	O	
+17-3	allerdings	ADV	allerdings	_	O	O	
+17-4	keine	PIAT	keine	_	O	O	
+17-5	Fortsetzung	NN	Fortsetzung	_	O	O	
+17-6	,	$,	,	_	O	O	
+17-7	hat	VAFIN	haben	_	O	O	
+17-8	vielleicht	ADV	vielleicht	_	O	O	
+17-9	auch	ADV	auch	_	O	O	
+17-10	nicht	PTKNEG	nicht	_	O	O	
+17-11	Unrecht	NN	Unrecht	_	O	O	
+17-12	.	$.	.	_	O	O	
+
+#id=18
+#text=Sollte denn aber wirklich in Italien kaum ein halb Dutzend Exemplare absetzbar sein?
+18-1	Sollte	VMFIN	sollen	_	O	O	
+18-2	denn	ADV	denn	_	O	O	
+18-3	aber	ADV	aber	_	O	O	
+18-4	wirklich	ADJD	wirklich	_	O	O	
+18-5	in	APPR	in	_	O	O	
+18-6	Italien	NE	Italien	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+18-7	kaum	ADV	kaum	_	O	O	
+18-8	ein	ART	eine	_	O	O	
+18-9	halb	ADJD	halb	_	O	O	
+18-10	Dutzend	NN	Dutzend	_	O	O	
+18-11	Exemplare	NN	Exemplar	_	O	O	
+18-12	absetzbar	ADJD	absetzbar	_	O	O	
+18-13	sein	VAINF	sein	_	O	O	
+18-14	?	$.	?	_	O	O	
+
+#id=19
+#text=Keine römische Bibliothek?
+19-1	Keine	PIAT	keine	_	O	O	
+19-2	römische	ADJA	römisch	_	O	O	
+19-3	Bibliothek	NN	Bibliothek	_	B-webanno.custom.LetterEntity_	B-ORGmentioned	
+19-4	?	$.	?	_	O	O	
+
+#id=20
+#text=Kaum Herr Lotzbeck ?
+20-1	Kaum	ADV	kaum	_	O	O	
+20-2	Herr	NN	Herr	_	O	O	
+20-3	Lotzbeck	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+20-4	?	$.	?	_	O	O	
+

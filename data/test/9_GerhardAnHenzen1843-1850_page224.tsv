@@ -1,0 +1,142 @@
+# de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS | PosValue # de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma|value  # webanno.custom.Tex | LayoutElement # webanno.custom.LetterEntity | entity_id | value
+#id=1
+#text=207 3 Gerhard an Henzen 7/X/1850 Bonn und iiien wären im Stande um einer Inschrift Krieg zu führen.
+1-1	207	CARD	@card@	_	O	O	
+1-2	3	CARD	3	_	O	O	
+1-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+1-4	an	APPR	an	_	O	O	
+1-5	Henzen	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+1-6	7/X/1850	CARD	<unknown>	_	O	O	
+1-7	Bonn	NE	Bonn	_	O	O	
+1-8	und	KON	und	_	O	O	
+1-9	iiien	NE	<unknown>	_	O	O	
+1-10	wären	VAFIN	sein	_	O	O	
+1-11	im	APPRART	in	_	O	O	
+1-12	Stande	NN	Stand	_	O	O	
+1-13	um	APPR	um	_	O	O	
+1-14	einer	ART	eine	_	O	O	
+1-15	Inschrift	NN	Inschrift	_	O	O	
+1-16	Krieg	NN	Krieg	_	O	O	
+1-17	zu	PTKZU	zu	_	O	O	
+1-18	führen	VVINF	führen	_	O	O	
+1-19	.	$.	.	_	O	O	
+
+#id=2
+#text=Von Leipziger Freunden war Niemand hier; wir erwarten aber Jahn.
+2-1	Von	APPR	von	_	O	O	
+2-2	Leipziger	ADJA	Leipziger	_	O	O	
+2-3	Freunden	NN	Freund	_	O	O	
+2-4	war	VAFIN	sein	_	O	O	
+2-5	Niemand	PIS	niemand	_	O	O	
+2-6	hier	ADV	hier	_	O	O	
+2-7	;	$.	;	_	O	O	
+2-8	wir	PPER	wir	_	O	O	
+2-9	erwarten	VVFIN	erwarten	_	O	O	
+2-10	aber	ADV	aber	_	O	O	
+2-11	Jahn	NE	Jahn	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+2-12	.	$.	.	_	O	O	
+
+#id=3
+#text=J. Friedlaender sendet seinen, hiemit Ihnen und Braun noch nachdrücklich zu empfehlenden juristischen Vetter Dr.
+3-1	J.	NE	J.	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-2	Friedlaender	NE	<unknown>	_	I-webanno.custom.LetterEntity_	I-PERmentioned	
+3-3	sendet	VVFIN	senden	_	O	O	
+3-4	seinen	PPOSAT	sein	_	O	O	
+3-5	,	$,	,	_	O	O	
+3-6	hiemit	VVFIN	<unknown>	_	O	O	
+3-7	Ihnen	PPER	Sie	_	O	O	
+3-8	und	KON	und	_	O	O	
+3-9	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+3-10	noch	ADV	noch	_	O	O	
+3-11	nachdrücklich	ADJD	nachdrücklich	_	O	O	
+3-12	zu	PTKZU	zu	_	O	O	
+3-13	empfehlenden	ADJA	empfehlend	_	O	O	
+3-14	juristischen	ADJA	juristisch	_	O	O	
+3-15	Vetter	NE	Vetter	_	O	O	
+3-16	Dr.	NN	Dr.	_	O	O	
+
+#id=4
+#text=Philippi nach Rom; außerdem denkt in einigen Wochen auch Dr.
+4-1	Philippi	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+4-2	nach	APPR	nach	_	O	O	
+4-3	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+4-4	;	$.	;	_	O	O	
+4-5	außerdem	PAV	außerdem	_	O	O	
+4-6	denkt	VVFIN	denken	_	O	O	
+4-7	in	APPR	in	_	O	O	
+4-8	einigen	PIAT	einige	_	O	O	
+4-9	Wochen	NN	Woche	_	O	O	
+4-10	auch	ADV	auch	_	O	O	
+4-11	Dr.	NN	Dr.	_	O	O	
+
+#id=5
+#text=Bethmann nach Ravenna und Rom für längeren Aufenthalt abzureisen.
+5-1	Bethmann	NN	<unknown>	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+5-2	nach	APPR	nach	_	O	O	
+5-3	Ravenna	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-4	und	KON	und	_	O	O	
+5-5	Rom	NE	Rom	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+5-6	für	APPR	für	_	O	O	
+5-7	längeren	ADJA	lang	_	O	O	
+5-8	Aufenthalt	NN	Aufenthalt	_	O	O	
+5-9	abzureisen	VVIZU	abreisen	_	O	O	
+5-10	.	$.	.	_	O	O	
+
+#id=6
+#text=Meine Frau, aus dem a~men Hessen, eben zurückgekehrt, grüßt mit mir Sie beide herzliehst.
+6-1	Meine	PPOSAT	mein	_	O	O	
+6-2	Frau	NN	Frau	_	O	O	
+6-3	,	$,	,	_	O	O	
+6-4	aus	APPR	aus	_	O	O	
+6-5	dem	ART	die	_	O	O	
+6-6	a~men	ADJA	<unknown>	_	O	O	
+6-7	Hessen	NE	Hessen	_	O	O	
+6-8	,	$,	,	_	O	O	
+6-9	eben	ADV	eben	_	O	O	
+6-10	zurückgekehrt	VVPP	zurückkehren	_	O	O	
+6-11	,	$,	,	_	O	O	
+6-12	grüßt	VVFIN	grüßen	_	O	O	
+6-13	mit	APPR	mit	_	O	O	
+6-14	mir	PPER	ich	_	O	O	
+6-15	Sie	PPER	Sie	_	O	O	
+6-16	beide	PIS	beide	_	O	O	
+6-17	herzliehst	VVFIN	<unknown>	_	O	O	
+6-18	.	$.	.	_	O	O	
+
+#id=7
+#text=Der Ihrige Gerhard Braun, jetzt in Gotha seit dem 6 t ., war ohne Kunde von Ihnen; er schrieb mir aus Braunschweig, auch daß Ihre Falkenersehen Inschriften untergebracht sind.
+7-1	Der	ART	die	_	O	O	
+7-2	Ihrige	PPOSAT	ihrige	_	O	O	
+7-3	Gerhard	NE	Gerhard	_	B-webanno.custom.LetterEntity_	B-PERauthor	
+7-4	Braun	NE	Braun	_	B-webanno.custom.LetterEntity_	B-PERmentioned	
+7-5	,	$,	,	_	O	O	
+7-6	jetzt	ADV	jetzt	_	O	O	
+7-7	in	APPR	in	_	O	O	
+7-8	Gotha	NE	<unknown>	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-9	seit	APPR	seit	_	O	O	
+7-10	dem	ART	die	_	O	O	
+7-11	6	CARD	6	_	O	O	
+7-12	t	NN	t	_	O	O	
+7-13	.	$.	.	_	O	O	
+7-14	,	$,	,	_	O	O	
+7-15	war	VAFIN	sein	_	O	O	
+7-16	ohne	APPR	ohne	_	O	O	
+7-17	Kunde	NN	Kunde	_	O	O	
+7-18	von	APPR	von	_	O	O	
+7-19	Ihnen	PPER	Sie	_	O	O	
+7-20	;	$.	;	_	O	O	
+7-21	er	PPER	er	_	O	O	
+7-22	schrieb	VVFIN	schreiben	_	O	O	
+7-23	mir	PPER	ich	_	O	O	
+7-24	aus	APPR	aus	_	O	O	
+7-25	Braunschweig	NE	Braunschweig	_	B-webanno.custom.LetterEntity_	B-PLACEmentioned	
+7-26	,	$,	,	_	O	O	
+7-27	auch	ADV	auch	_	O	O	
+7-28	daß	KOUS	dass	_	O	O	
+7-29	Ihre	PPOSAT	ihr	_	O	O	
+7-30	Falkenersehen	NN	<unknown>	_	O	O	
+7-31	Inschriften	NN	Inschrift	_	O	O	
+7-32	untergebracht	VVPP	unterbringen	_	O	O	
+7-33	sind	VAFIN	sein	_	O	O	
+7-34	.	$.	.	_	O	O	
+
