@@ -42,7 +42,7 @@ If you setup the dependencies in a Python virtual environment (venv, see above),
 To start the import run __import.py__ (here importing all EAD files):
 
 ```
-python3 graph_db_import/import.py ./ead_data localhost 7687 <username> <password>
+python3 graph_db_imports/import.py ./graph_db_imports/ead_data localhost 7687 <username> <password>
 ```
 
 ## Deleting data
