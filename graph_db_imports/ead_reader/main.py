@@ -151,6 +151,7 @@ def process_ead_file(ead_file) -> List[Letter]:
     AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON = []
 
     for item in items:
+        # TODO: authors and recipients can be public bodies: element name `corpname` needs to be included, see ead_DE-2490_67562.xml
         authors: List[Person] = \
             _extract_persons(item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Verfasser"]', namespaces=NS))
         recipients: List[Person] = \
