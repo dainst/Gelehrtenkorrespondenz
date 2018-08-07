@@ -37,6 +37,7 @@ def _extract_persons(person_nodes: List[etree.Element]) -> List[Person]:
             last_name = ''
             first_name = ''
 
+        # TODO: gnd_id is not necessarily gnd_id, can be kpe_id, must add option of kpe_id
         gnd_id: str = node.xpath('./@authfilenumber')[0]
         name: str = node.text
 
