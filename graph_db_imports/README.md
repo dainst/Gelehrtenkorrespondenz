@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-* Python 3.5
+* Python 3.7
 * Docker
 * LXML [Prerequisites](http://lxml.de/installation.html).
 
