@@ -2,10 +2,11 @@ import logging
 import re
 import urllib.error
 import rdflib
-from rdflib import URIRef
 
-from data_structures import Place
 from config import NS, DF
+from data_structures import Place
+from rdflib import URIRef
+from typing import Tuple
 
 logging.basicConfig(format='%(asctime)s %(message)s')
 
@@ -16,8 +17,8 @@ COORDINATES_PATTERN = re.compile('Point \(\s(.*)\s(.*).*\s\).*')
 RECIPIENT_PLACE_PATTERN = re.compile('Empfängerort:\s(.*)')
 PLACE_COLLECTION = dict()
 
-UNHANDLED_PLACE_AUTHORITY_SOURCES = []
-AUTH_NAME_DIFFERENT_FROM_VALUE = []
+UNHANDLED_PLACE_AUTHORITY_SOURCES: Tuple[str, str, str, str] = []
+AUTH_NAME_DIFFERENT_FROM_VALUE: Tuple[str, str] = []
 
 
 def _fetch_gnd_location_coordinates(gnd_id):

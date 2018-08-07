@@ -89,8 +89,8 @@ def _import_letter_nodes(session, data: List[Letter]):
             'kalliope_id': letter.kalliope_id,
             'title': letter.title,
             'language_codes': ', '.join(letter.language_codes),
-            'origin_date_from': letter.origin_date_from,
-            'origin_date_till': letter.origin_date_till,
+            'origin_date_from': str(letter.origin_date_from),
+            'origin_date_till': str(letter.origin_date_till),
             'origin_date_presumed': letter.origin_date_presumed,
             'extent': letter.extent,
             'summary_paragraphs': ' | '.join(letter.summary_paragraphs)

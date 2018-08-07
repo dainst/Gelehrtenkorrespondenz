@@ -1,3 +1,4 @@
+from datetime import date
 from typing import List
 
 
@@ -12,13 +13,13 @@ class Place:
                  auth_lat: str = None,
                  auth_lng: str = None):
 
-        self.name = name
-        self.name_presumed = name_presumed
-        self.auth_source = auth_source
-        self.auth_id = auth_id
-        self.auth_name = auth_name
-        self.auth_lat = auth_lat
-        self.auth_lng = auth_lng
+        self.name: str = name
+        self.name_presumed: bool = name_presumed
+        self.auth_source: str = auth_source
+        self.auth_id: str = auth_id
+        self.auth_name: str = auth_name
+        self.auth_lat: str = auth_lat
+        self.auth_lng: str = auth_lng
 
     def __hash__(self):
         return hash((self.name, self.auth_source, self.auth_id))
@@ -49,11 +50,11 @@ class Person:
                  gnd_first_name: str = '',
                  gnd_last_name: str = ''):
 
-        self.name = name
-        self.name_presumed = name_presumed
-        self.gnd_id = gnd_id
-        self.gnd_first_name = gnd_first_name
-        self.gnd_last_name = gnd_last_name
+        self.name: str = name
+        self.name_presumed: bool = name_presumed
+        self.gnd_id: str = gnd_id
+        self.gnd_first_name: str = gnd_first_name
+        self.gnd_last_name: str = gnd_last_name
 
     def __hash__(self):
         return hash((self.name, self.gnd_id))
@@ -79,23 +80,23 @@ class Letter:
                  kalliope_id: str,
                  title: str,
                  language_codes: List[str],
-                 origin_date_from: str = '',
-                 origin_date_till: str = '',
+                 origin_date_from: date = None,
+                 origin_date_till: date = None,
                  origin_date_presumed: bool = False,
-                 extent: str = '',
+                 extent: str = None,
                  authors: List[Person] = None,
                  recipients: List[Person] = None,
                  origin_place: Place = None,
                  reception_place: Place = None,
                  summary_paragraphs: List[str] = None):
 
-        self.kalliope_id = kalliope_id
-        self.title = title
+        self.kalliope_id: str = kalliope_id
+        self.title: str = title
         self.language_codes: List[str] = language_codes
-        self.origin_date_from = origin_date_from
-        self.origin_date_till = origin_date_till
-        self.origin_date_presumed = origin_date_presumed
-        self.extent = extent
+        self.origin_date_from: date = origin_date_from
+        self.origin_date_till: date = origin_date_till
+        self.origin_date_presumed: bool = origin_date_presumed
+        self.extent: str = extent
         self.authors: List[Person] = authors
         self.recipients: List[Person] = recipients
         self.origin_place: Place = origin_place
