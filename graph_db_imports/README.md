@@ -35,17 +35,15 @@ Configuration. If necessary, add the following at the end of the file:
 
    `$ exec "$SHELL"`
 
-3. Install Python: `$ pyenv install 3.7.0`
+3. Install Python 3.7.0 for _pyenv_:
+
+    `$ pyenv install 3.7.0`
 4. Create a virtual Python environment with _pyenv-virtualenv_ (https://github.com/pyenv/pyenv-virtualenv):
-
-    a) `$ pyenv virtualenv 3.7.0 virtual-env-3.7.0`
-
-    b) Switch to the Python project directory where you want to use the virtual Python environment
+    4. `$ pyenv virtualenv 3.7.0 virtual-env-3.7.0`
+    4. Switch to the Python project directory where you want to use the virtual Python environment
     (e.g. `~/workspace/Gelehrtenkorrespondenz/`)
-
-    c) Activate the the virtual Python environment: `$ pyenv local virtual-env-3.7.0`
-
-    d) Install the project dependencies while inside the virtual environment:
+    4. Activate the the virtual Python environment: `$ pyenv local virtual-env-3.7.0`
+    4. Install the project dependencies while inside the virtual environment:
     `pip3 install -r graph_db_imports/requirements.txt`.
 
 ##### Option b) Install into Python virtual environment with _venv_
@@ -61,8 +59,7 @@ environment.
 
 With Docker installed, simply run:
 ```
-docker run --publish=7474:7474 --publish=7687:7687 --volume=$HOME/.neo4j/data:/data --env NEO4J_AUTH=neo4j/<password>
-neo4j:3.4.0
+docker run -p 7474:7474 -p 7687:7687 -v $HOME/.neo4j/data:/data -e NEO4J_AUTH=neo4j/<password> neo4j:3.4.0
 ```
 While replacing <password> with whatever you want to use as your database's root password. 
 
