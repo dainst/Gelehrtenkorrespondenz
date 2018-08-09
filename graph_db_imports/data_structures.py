@@ -46,31 +46,34 @@ class Person:
     def __init__(self,
                  name: str,
                  name_presumed: bool,
-                 gnd_id: str,
-                 gnd_first_name: str = '',
-                 gnd_last_name: str = ''):
+                 person_source: str = '',
+                 source_id: str = '',
+                 source_first_name: str = '',
+                 source_last_name: str = ''):
 
         self.name: str = name
         self.name_presumed: bool = name_presumed
-        self.gnd_id: str = gnd_id
-        self.gnd_first_name: str = gnd_first_name
-        self.gnd_last_name: str = gnd_last_name
+        self.person_source: str = person_source
+        self.source_id: str = source_id
+        self.source_first_name: str = source_first_name
+        self.source_last_name: str = source_last_name
 
     def __hash__(self):
-        return hash((self.name, self.gnd_id))
+        return hash((self.name, self.source_id))
 
     def __eq__(self, other):
         if not isinstance(other, type(self)):
             return NotImplemented
-        return self.name == other.name and self.gnd_id == other.gnd_id
+        return self.name == other.name and self.source_id == other.source_id
 
     def __str__(self):
         return str(dict({
             'name': self.name,
             'name_presumed': self.name_presumed,
-            'gnd_id': self.gnd_id,
-            'gnd_first_name': self.gnd_first_name,
-            'gnd_last_name': self.gnd_last_name
+            'person_source': self.person_source,
+            'source_id': self.source_id,
+            'source_first_name': self.source_first_name,
+            'source_last_name': self.source_last_name
         }))
 
 
