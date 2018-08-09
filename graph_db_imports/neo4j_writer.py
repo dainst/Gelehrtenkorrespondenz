@@ -64,9 +64,10 @@ def _import_person_nodes(session, data: List[Letter]):
     for person in persons:
         parameters['person_list'].append({
             'name': person.name,
-            'gnd_id': person.gnd_id,
-            'gnd_first_name': person.gnd_first_name,
-            'gnd_last_name': person.gnd_last_name
+            'person_source': person.person_source,
+            'source_id': person.source_id,
+            'source_first_name': person.source_first_name,
+            'source_last_name': person.source_last_name
         })
 
     statement = """
@@ -178,7 +179,7 @@ def _import_is_author_relationships(session, data: List[Letter]):
             parameters['is_author_list'].append({
                 'letter_id': letter.kalliope_id,
                 'name': author.name,
-                'gnd_id': author.gnd_id,
+                'gnd_id': author.source_id,
                 'name_presumed': author.name_presumed
             })
 
@@ -207,7 +208,7 @@ def _import_is_recipient_relationships(session, data: List[Letter]):
             parameters['is_recipient_list'].append({
                 'letter_id': letter.kalliope_id,
                 'name': recipient.name,
-                'gnd_id': recipient.gnd_id,
+                'gnd_id': recipient.source_id,
                 'name_presumed': recipient.name_presumed
             })
 
