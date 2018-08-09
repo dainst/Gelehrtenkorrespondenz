@@ -16,11 +16,13 @@ logger.setLevel(logging.DEBUG)
 
 AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON: Tuple[str, str] = []
 LETTER_DATE_VALUE_ERROR: Tuple[str, str] = []
+UNHANDLED_PERSON_SOURCES: Tuple[str, str, str] = []
 
 
 def _extract_persons(person_nodes: List[etree.Element]) -> List[Person]:
     global AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON
     persons: List[Person] = []
+    global UNHANDLED_PERSON_SOURCES
 
     for node in person_nodes:
         name_normal: str = node.xpath('./@normal')[0]
@@ -37,8 +39,8 @@ def _extract_persons(person_nodes: List[etree.Element]) -> List[Person]:
             last_name = ''
             first_name = ''
 
-        # TODO: gnd_id is not necessarily gnd_id, can be kpe_id, must add option of kpe_id
-        gnd_id: str = node.xpath('./@authfilenumber')[0]
+        person_source: str = node.xpath('./@source')[0]
+        source_id: str = node.xpath('./@authfilenumber')[0]
         name: str = node.text
 
         if '[vermutlich]' in name.lower():
@@ -46,7 +48,17 @@ def _extract_persons(person_nodes: List[etree.Element]) -> List[Person]:
         else:
             name_presumed = False
 
-        person = Person(name, name_presumed, gnd_id, gnd_first_name=first_name, gnd_last_name=last_name)
+        if person_source != 'GND':
+            entry: Tuple[str, str, str] = (name, person_source, source_id)
+            if entry not in UNHANDLED_PERSON_SOURCES:
+                UNHANDLED_PERSON_SOURCES.append(entry)
+
+        person = Person(name,
+                        name_presumed,
+                        person_source,
+                        source_id,
+                        source_first_name=first_name,
+                        source_last_name=last_name)
         persons.append(person)
 
     return persons
@@ -129,10 +141,12 @@ def _extract_letter(item: etree.Element,
     # obligatory elements
     xml_element_id: List[str] = item.xpath('./@id')
     xml_element_unittitle: List[etree.Element] = item.xpath(f'./{DF}:did/{DF}:unittitle', namespaces=NS)
-    xml_elements_langcode: List[etree.Element] = item.xpath(f'./{DF}:did/{DF}:langmaterial/{DF}:language/@langcode', namespaces=NS)
+    xml_elements_langcode: List[etree.Element] = item.xpath(f'./{DF}:did/{DF}:langmaterial/{DF}:language/@langcode',
+                                                            namespaces=NS)
 
     # optional elements
-    xml_element_unitdate: List[str] = item.xpath(f'./{DF}:did/{DF}:unitdate[@label="Entstehungsdatum"]/@normal', namespaces=NS)
+    xml_element_unitdate: List[str] = item.xpath(f'./{DF}:did/{DF}:unitdate[@label="Entstehungsdatum"]/@normal',
+                                                 namespaces=NS)
     xml_element_extend: List[str] = \
         item.xpath(f'./{DF}:did/{DF}:physdesc[@label="Angaben zum Material"]/{DF}:extend[@label="Umfang"]',
                    namespaces=NS)
@@ -251,6 +265,13 @@ def process_ead_file(ead_file: str) -> List[Letter]:
         logger.info('-----')
         for (kalliope_id, origin_date) in LETTER_DATE_VALUE_ERROR:
             logger.info(f'letter id: {kalliope_id}, origin date: {origin_date}')
+
+    if len(UNHANDLED_PERSON_SOURCES) > 0:
+        logger.info('-----')
+        logger.info('Persons where the source_id is not GND:')
+        logger.info('-----')
+        for (name, source, source_id) in AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON:
+            logger.info(f'{name} | {source} | {source_id}')
 
     logger.info('=====')
     logger.info('Parsing done.')
