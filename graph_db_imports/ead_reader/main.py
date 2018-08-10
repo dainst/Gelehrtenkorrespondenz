@@ -27,20 +27,12 @@ def _extract_persons(person_nodes: List[etree.Element]) -> List[Person]:
     for node in person_nodes:
         name_normal: str = node.xpath('./@normal')[0]
         name_input: str = node.xpath('./text()')[0]
+        person_source: str = node.xpath('./@source')[0]
+        source_id: str = node.xpath('./@authfilenumber')[0]
 
         if name_input != name_normal and (name_normal, name_input) not in AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON:
             AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON.append((name_normal, name_input))
 
-        split_name = node.xpath('./@normal')[0].split(',', 1)
-
-        if len(split_name) == 2:
-            [last_name, first_name] = split_name
-        else:
-            last_name = ''
-            first_name = ''
-
-        person_source: str = node.xpath('./@source')[0]
-        source_id: str = node.xpath('./@authfilenumber')[0]
         name: str = node.text
 
         if '[vermutlich]' in name.lower():
@@ -53,12 +45,25 @@ def _extract_persons(person_nodes: List[etree.Element]) -> List[Person]:
             if entry not in UNHANDLED_PERSON_SOURCES:
                 UNHANDLED_PERSON_SOURCES.append(entry)
 
+        auth_first_name = ''
+        auth_name = ''
+        is_corporation: bool = False
+        if node.tag == '{%s}persname' % (NS[DF]):
+            split_name = name_normal.split(',', 1)
+            if len(split_name) == 2:
+                [auth_name, auth_first_name] = split_name
+        if node.tag == '{%s}corpname' % (NS[DF]):
+            auth_first_name = ''
+            auth_name = name_normal
+            is_corporation = True
+
         person = Person(name,
                         name_presumed,
+                        is_corporation,
                         person_source,
                         source_id,
-                        source_first_name=first_name,
-                        source_last_name=last_name)
+                        source_first_name=auth_first_name,
+                        source_last_name=auth_name)
         persons.append(person)
 
     return persons
@@ -145,12 +150,11 @@ def _extract_letter(item: etree.Element,
                                                             namespaces=NS)
 
     # optional elements
-    xml_element_unitdate: List[str] = item.xpath(f'./{DF}:did/{DF}:unitdate[@label="Entstehungsdatum"]/@normal',
-                                                 namespaces=NS)
-    xml_element_extend: List[str] = \
-        item.xpath(f'./{DF}:did/{DF}:physdesc[@label="Angaben zum Material"]/{DF}:extend[@label="Umfang"]',
-                   namespaces=NS)
-    xml_elements_scopecontent: List[str] =\
+    xml_element_unitdate: List[str] =\
+        item.xpath(f'./{DF}:did/{DF}:unitdate[@label="Entstehungsdatum"]/@normal', namespaces=NS)
+    xml_element_extent: List[etree.Element] = item.xpath(
+        f'./{DF}:did/{DF}:physdesc[@label="Angaben zum Material"]/{DF}:extent[@label="Umfang"]', namespaces=NS)
+    xml_elements_scopecontent: List[etree.Element] =\
         item.xpath(f'./{DF}:scopecontent/{DF}:head[text()="Inhaltsangabe"]/following-sibling::{DF}:p', namespaces=NS)
 
     # required letter attributes
@@ -178,8 +182,8 @@ def _extract_letter(item: etree.Element,
                 LETTER_DATE_VALUE_ERROR.append((kalliope_id, origin_date))
 
     extent: str = None
-    if len(xml_element_extend) == 1:
-        extent = xml_element_extend[0].text
+    if len(xml_element_extent) == 1:
+        extent = xml_element_extent[0].text
 
     summary_paragraph_list: List[str] = []
     for p_tag in xml_elements_scopecontent:
@@ -227,9 +231,11 @@ def process_ead_file(ead_file: str) -> List[Letter]:
 
     for item in items:
         authors: List[Person] = \
-            _extract_persons(item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Verfasser"]', namespaces=NS))
+            _extract_persons(item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Verfasser"] | '
+                                        f'./{DF}:controlaccess/{DF}:corpname[@role="Verfasser"]', namespaces=NS))
         recipients: List[Person] = \
-            _extract_persons(item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"]', namespaces=NS))
+            _extract_persons(item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"] | '
+                                        f'./{DF}:controlaccess/{DF}:corpname[@role="Adressat"]', namespaces=NS))
 
         origin_place: Place = places.extract_place_of_origin(item)
         recipient_place: Place = places.extract_place_of_reception(item)
