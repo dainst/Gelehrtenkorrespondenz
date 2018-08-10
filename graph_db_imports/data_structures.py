@@ -46,13 +46,15 @@ class Person:
     def __init__(self,
                  name: str,
                  name_presumed: bool,
-                 person_source: str = '',
-                 source_id: str = '',
-                 source_first_name: str = '',
-                 source_last_name: str = ''):
+                 is_corporation: bool,
+                 person_source: str = None,
+                 source_id: str = None,
+                 source_first_name: str = None,
+                 source_last_name: str = None):
 
         self.name: str = name
         self.name_presumed: bool = name_presumed
+        self.is_corporation: bool = is_corporation
         self.person_source: str = person_source
         self.source_id: str = source_id
         self.source_first_name: str = source_first_name
@@ -70,6 +72,7 @@ class Person:
         return str(dict({
             'name': self.name,
             'name_presumed': self.name_presumed,
+            'is_corporation': self.is_corporation,
             'person_source': self.person_source,
             'source_id': self.source_id,
             'source_first_name': self.source_first_name,
