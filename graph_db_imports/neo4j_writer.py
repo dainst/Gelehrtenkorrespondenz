@@ -65,6 +65,7 @@ def _import_person_nodes(session, data: List[Letter]):
         parameters['person_list'].append({
             'name': person.name,
             'person_source': person.person_source,
+            'is_corporation': person.is_corporation,
             'source_id': person.source_id,
             'source_first_name': person.source_first_name,
             'source_last_name': person.source_last_name
