@@ -64,11 +64,11 @@ def _import_person_nodes(session, data: List[Letter]):
     for person in persons:
         parameters['person_list'].append({
             'name': person.name,
-            'person_source': person.person_source,
             'is_corporation': person.is_corporation,
-            'source_id': person.source_id,
-            'source_first_name': person.source_first_name,
-            'source_last_name': person.source_last_name
+            'auth_source': person.auth_source,
+            'auth_id': person.auth_id,
+            'auth_first_name': person.auth_first_name,
+            'auth_last_name': person.auth_last_name
         })
 
     statement = """
@@ -180,8 +180,9 @@ def _import_is_author_relationships(session, data: List[Letter]):
             parameters['is_author_list'].append({
                 'letter_id': letter.kalliope_id,
                 'name': author.name,
-                'gnd_id': author.source_id,
-                'name_presumed': author.name_presumed
+                'name_presumed': author.name_presumed,
+                'auth_source': author.auth_source,
+                'auth_id': author.auth_id
             })
 
     statement = """
@@ -189,7 +190,8 @@ def _import_is_author_relationships(session, data: List[Letter]):
         MATCH (letter:Letter { kalliope_id: is_author.letter_id })
         MATCH (person:Person {
                         name: is_author.name,
-                        gnd_id: is_author.gnd_id
+                        auth_source: is_author.auth_source,
+                        auth_id: is_author.auth_id
                         }
               )
         CREATE (person) -[:IS_AUTHOR { presumed: is_author.name_presumed }]-> (letter)
@@ -209,8 +211,9 @@ def _import_is_recipient_relationships(session, data: List[Letter]):
             parameters['is_recipient_list'].append({
                 'letter_id': letter.kalliope_id,
                 'name': recipient.name,
-                'gnd_id': recipient.source_id,
-                'name_presumed': recipient.name_presumed
+                'name_presumed': recipient.name_presumed,
+                'auth_source': recipient.auth_source,
+                'auth_id': recipient.auth_id
             })
 
     statement = """
@@ -218,7 +221,8 @@ def _import_is_recipient_relationships(session, data: List[Letter]):
         MATCH (letter:Letter { kalliope_id: is_recipient.letter_id })
         MATCH (person:Person {
                         name: is_recipient.name,
-                        gnd_id: is_recipient.gnd_id
+                        auth_source: is_recipient.auth_source,
+                        auth_id: is_recipient.auth_id
                         }
               )
         CREATE (person) -[:IS_RECIPIENT { presumed: is_recipient.name_presumed }]-> (letter)

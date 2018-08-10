@@ -47,36 +47,36 @@ class Person:
                  name: str,
                  name_presumed: bool,
                  is_corporation: bool,
-                 person_source: str = None,
-                 source_id: str = None,
-                 source_first_name: str = None,
-                 source_last_name: str = None):
+                 auth_source: str = None,
+                 auth_id: str = None,
+                 auth_first_name: str = None,
+                 auth_last_name: str = None):
 
         self.name: str = name
         self.name_presumed: bool = name_presumed
         self.is_corporation: bool = is_corporation
-        self.person_source: str = person_source
-        self.source_id: str = source_id
-        self.source_first_name: str = source_first_name
-        self.source_last_name: str = source_last_name
+        self.auth_source: str = auth_source
+        self.auth_id: str = auth_id
+        self.auth_first_name: str = auth_first_name
+        self.auth_last_name: str = auth_last_name
 
     def __hash__(self):
-        return hash((self.name, self.source_id))
+        return hash((self.name, self.auth_source, self.auth_id))
 
     def __eq__(self, other):
         if not isinstance(other, type(self)):
             return NotImplemented
-        return self.name == other.name and self.source_id == other.source_id
+        return self.name == other.name and self.auth_source == other.auth_source and self.auth_id == other.auth_id
 
     def __str__(self):
         return str(dict({
             'name': self.name,
             'name_presumed': self.name_presumed,
             'is_corporation': self.is_corporation,
-            'person_source': self.person_source,
-            'source_id': self.source_id,
-            'source_first_name': self.source_first_name,
-            'source_last_name': self.source_last_name
+            'auth_source': self.auth_source,
+            'auth_id': self.auth_id,
+            'auth_first_name': self.auth_first_name,
+            'auth_last_name': self.auth_last_name
         }))
 
 

@@ -14,56 +14,53 @@ logging.basicConfig(format='%(asctime)s %(message)s')
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
-AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON: Tuple[str, str] = []
+PERSON_NAME_DIFFERENT_FROM_AUTH_NAME: Tuple[str, str] = []
+PERSON_NAME_WITHOUT_GND_SOURCE: Tuple[str, str, str] = []
 LETTER_DATE_VALUE_ERROR: Tuple[str, str] = []
-UNHANDLED_PERSON_SOURCES: Tuple[str, str, str] = []
 
 
-def _extract_persons(person_nodes: List[etree.Element]) -> List[Person]:
-    global AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON
+def _extract_persons(person_xml_elements: List[etree.Element]) -> List[Person]:
+    global PERSON_NAME_DIFFERENT_FROM_AUTH_NAME
+    global PERSON_NAME_WITHOUT_GND_SOURCE
     persons: List[Person] = []
-    global UNHANDLED_PERSON_SOURCES
 
-    for node in person_nodes:
-        name_normal: str = node.xpath('./@normal')[0]
-        name_input: str = node.xpath('./text()')[0]
-        person_source: str = node.xpath('./@source')[0]
-        source_id: str = node.xpath('./@authfilenumber')[0]
-
-        if name_input != name_normal and (name_normal, name_input) not in AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON:
-            AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON.append((name_normal, name_input))
-
-        name: str = node.text
+    for person_xml_element in person_xml_elements:
+        name: str = person_xml_element.text
+        name_presumed: bool = False
+        is_corporation: bool = False
+        auth_source: str = person_xml_element.xpath('./@source')[0]
+        auth_id: str = person_xml_element.xpath('./@authfilenumber')[0]
+        name_normal: str = person_xml_element.xpath('./@normal')[0]
+        auth_first_name = ''
+        auth_last_name = ''
 
         if '[vermutlich]' in name.lower():
             name_presumed = True
-        else:
-            name_presumed = False
 
-        if person_source != 'GND':
-            entry: Tuple[str, str, str] = (name, person_source, source_id)
-            if entry not in UNHANDLED_PERSON_SOURCES:
-                UNHANDLED_PERSON_SOURCES.append(entry)
-
-        auth_first_name = ''
-        auth_name = ''
-        is_corporation: bool = False
-        if node.tag == '{%s}persname' % (NS[DF]):
+        if person_xml_element.tag == '{%s}persname' % (NS[DF]):
             split_name = name_normal.split(',', 1)
             if len(split_name) == 2:
-                [auth_name, auth_first_name] = split_name
-        if node.tag == '{%s}corpname' % (NS[DF]):
-            auth_first_name = ''
-            auth_name = name_normal
+                [auth_last_name, auth_first_name] = split_name
+        if person_xml_element.tag == '{%s}corpname' % (NS[DF]):
             is_corporation = True
+            auth_first_name = ''
+            auth_last_name = name_normal
+
+        if name != name_normal and (name_normal, name) not in PERSON_NAME_DIFFERENT_FROM_AUTH_NAME:
+            PERSON_NAME_DIFFERENT_FROM_AUTH_NAME.append((name_normal, name))
+
+        if auth_source != 'GND':
+            entry: Tuple[str, str, str] = (name, auth_source, auth_id)
+            if entry not in PERSON_NAME_WITHOUT_GND_SOURCE:
+                PERSON_NAME_WITHOUT_GND_SOURCE.append(entry)
 
         person = Person(name,
                         name_presumed,
                         is_corporation,
-                        person_source,
-                        source_id,
-                        source_first_name=auth_first_name,
-                        source_last_name=auth_name)
+                        auth_source=auth_source,
+                        auth_id=auth_id,
+                        auth_first_name=auth_first_name,
+                        auth_last_name=auth_last_name)
         persons.append(person)
 
     return persons
@@ -214,7 +211,7 @@ def process_ead_files(file_paths: List[str]) -> List[Letter]:
 
 
 def process_ead_file(ead_file: str) -> List[Letter]:
-    global AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON
+    global PERSON_NAME_DIFFERENT_FROM_AUTH_NAME
     global LETTER_DATE_VALUE_ERROR
     result: List[Letter] = []
 
@@ -226,7 +223,7 @@ def process_ead_file(ead_file: str) -> List[Letter]:
 
     places.UNHANDLED_PLACE_AUTHORITY_SOURCES = []
     places.AUTH_NAME_DIFFERENT_FROM_VALUE = []
-    AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON = []
+    PERSON_NAME_DIFFERENT_FROM_AUTH_NAME = []
     LETTER_DATE_VALUE_ERROR = []
 
     for item in items:
@@ -258,11 +255,11 @@ def process_ead_file(ead_file: str) -> List[Letter]:
         for (a, b) in places.AUTH_NAME_DIFFERENT_FROM_VALUE:
             logger.info(f'{a} | {b}')
 
-    if len(AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON) > 0:
+    if len(PERSON_NAME_DIFFERENT_FROM_AUTH_NAME) > 0:
         logger.info('-----')
         logger.info('Persons where the name given in the GND authority file differs from our input:')
         logger.info('-----')
-        for (a, b) in AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON:
+        for (a, b) in PERSON_NAME_DIFFERENT_FROM_AUTH_NAME:
             logger.info(f'{a} | {b}')
 
     if len(LETTER_DATE_VALUE_ERROR) > 0:
@@ -272,11 +269,11 @@ def process_ead_file(ead_file: str) -> List[Letter]:
         for (kalliope_id, origin_date) in LETTER_DATE_VALUE_ERROR:
             logger.info(f'letter id: {kalliope_id}, origin date: {origin_date}')
 
-    if len(UNHANDLED_PERSON_SOURCES) > 0:
+    if len(PERSON_NAME_WITHOUT_GND_SOURCE) > 0:
         logger.info('-----')
         logger.info('Persons where the source_id is not GND:')
         logger.info('-----')
-        for (name, source, source_id) in AUTH_NAME_DIFFERENT_FROM_VALUE_PERSON:
+        for (name, source, source_id) in PERSON_NAME_WITHOUT_GND_SOURCE:
             logger.info(f'{name} | {source} | {source_id}')
 
     logger.info('=====')
