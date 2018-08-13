@@ -6,10 +6,8 @@ from tsv_reader import read_data as read_tsv_file
 from ead_reader.main import process_ead_file, process_ead_files
 from neo4j_writer import import_data
 
-logging.basicConfig(format='%(asctime)s %(message)s')
-
+logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
 
 
 if __name__ == '__main__':

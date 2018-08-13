@@ -7,21 +7,19 @@ from config import DF, NS
 from data_structures import *
 from datetime import date
 from lxml import etree
-from typing import Tuple
+from typing import Dict, Tuple
 
-logging.basicConfig(format='%(asctime)s %(message)s')
-
+logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
 
-PERSON_NAME_DIFFERENT_FROM_AUTH_NAME: Tuple[str, str] = []
-PERSON_NAME_WITHOUT_GND_SOURCE: Tuple[str, str, str] = []
-LETTER_DATE_VALUE_ERROR: Tuple[str, str] = []
+person_name_different_from_auth_name_log: List[Tuple[str, str]] = []
+unhandled_person_authority_source_log: List[Tuple[str, str, str, str]] = []
+letter_date_value_error_log: List[Tuple[str, str]] = []
 
 
 def _extract_persons(person_xml_elements: List[etree.Element]) -> List[Person]:
-    global PERSON_NAME_DIFFERENT_FROM_AUTH_NAME
-    global PERSON_NAME_WITHOUT_GND_SOURCE
+    global person_name_different_from_auth_name_log
+    global unhandled_person_authority_source_log
     persons: List[Person] = []
 
     for person_xml_element in person_xml_elements:
@@ -46,13 +44,13 @@ def _extract_persons(person_xml_elements: List[etree.Element]) -> List[Person]:
             auth_first_name = ''
             auth_last_name = name_normal
 
-        if name != name_normal and (name_normal, name) not in PERSON_NAME_DIFFERENT_FROM_AUTH_NAME:
-            PERSON_NAME_DIFFERENT_FROM_AUTH_NAME.append((name_normal, name))
+        if name != name_normal and (name, name_normal) not in person_name_different_from_auth_name_log:
+            person_name_different_from_auth_name_log.append((name, name_normal))
 
         if auth_source != 'GND':
-            entry: Tuple[str, str, str] = (name, auth_source, auth_id)
-            if entry not in PERSON_NAME_WITHOUT_GND_SOURCE:
-                PERSON_NAME_WITHOUT_GND_SOURCE.append(entry)
+            log_entry: Tuple[str, str, str, str] = (name, auth_source, auth_id, name_normal)
+            if log_entry not in unhandled_person_authority_source_log:
+                unhandled_person_authority_source_log.append(log_entry)
 
         person = Person(name,
                         name_presumed,
@@ -138,7 +136,7 @@ def _extract_letter(item: etree.Element,
                     recipients: List[Person],
                     place_of_origin: Place,
                     place_of_reception: Place) -> Letter:
-    global LETTER_DATE_VALUE_ERROR
+    global letter_date_value_error_log
 
     # obligatory elements
     xml_element_id: List[str] = item.xpath('./@id')
@@ -174,9 +172,9 @@ def _extract_letter(item: etree.Element,
             origin_date_till = origin_dates[1]
             origin_date_presumed = origin_dates[2]
         except ValueError:
-            logger.info("Invalid letter origin date: %s.", origin_date)
-            if (kalliope_id, origin_date) not in LETTER_DATE_VALUE_ERROR:
-                LETTER_DATE_VALUE_ERROR.append((kalliope_id, origin_date))
+            logger.error("Invalid letter origin date: %s.", origin_date)
+            if (kalliope_id, origin_date) not in letter_date_value_error_log:
+                letter_date_value_error_log.append((kalliope_id, origin_date))
 
     extent: str = None
     if len(xml_element_extent) == 1:
@@ -211,8 +209,8 @@ def process_ead_files(file_paths: List[str]) -> List[Letter]:
 
 
 def process_ead_file(ead_file: str) -> List[Letter]:
-    global PERSON_NAME_DIFFERENT_FROM_AUTH_NAME
-    global LETTER_DATE_VALUE_ERROR
+    global person_name_different_from_auth_name_log
+    global letter_date_value_error_log
     result: List[Letter] = []
 
     logger.info(f'Parsing input file {ead_file} ...')
@@ -221,10 +219,10 @@ def process_ead_file(ead_file: str) -> List[Letter]:
     tree: etree.ElementTree = etree.parse(ead_file, parser)
     items: List[etree.Element] = tree.xpath(f'//{DF}:c[@level="item"]', namespaces=NS)
 
-    places.UNHANDLED_PLACE_AUTHORITY_SOURCES = []
-    places.AUTH_NAME_DIFFERENT_FROM_VALUE = []
-    PERSON_NAME_DIFFERENT_FROM_AUTH_NAME = []
-    LETTER_DATE_VALUE_ERROR = []
+    places.unhandled_place_authority_source_log = []
+    places.auth_name_different_from_value_log = []
+    person_name_different_from_auth_name_log = []
+    letter_date_value_error_log = []
 
     for item in items:
         authors: List[Person] = \
@@ -241,40 +239,42 @@ def process_ead_file(ead_file: str) -> List[Letter]:
 
         result.append(letter)
 
-    if len(places.UNHANDLED_PLACE_AUTHORITY_SOURCES) > 0:
+    if len(places.unhandled_place_authority_source_log) > 0:
         logger.info('-----')
-        logger.info('Unhandled place authority sources:')
+        logger.info('Unhandled place authority sources (place name, authority source, authority id, authority name):')
         logger.info('-----')
-        for place in places.UNHANDLED_PLACE_AUTHORITY_SOURCES:
+        for place in sorted(places.unhandled_place_authority_source_log):
             logger.info(f'{place}')
 
-    if len(places.AUTH_NAME_DIFFERENT_FROM_VALUE) > 0:
+    if len(places.auth_name_different_from_value_log) > 0:
         logger.info('-----')
-        logger.info('Places where the name given in the GND authority file differs from our input:')
+        logger.info('Places where the name given in the GND authority file differs from our input '
+                    '(place name, authority name):')
         logger.info('-----')
-        for (a, b) in places.AUTH_NAME_DIFFERENT_FROM_VALUE:
-            logger.info(f'{a} | {b}')
+        for (place_name, auth_place_name) in sorted(places.auth_name_different_from_value_log):
+            logger.info(f'{place_name} | {auth_place_name}')
 
-    if len(PERSON_NAME_DIFFERENT_FROM_AUTH_NAME) > 0:
+    if len(unhandled_person_authority_source_log) > 0:
         logger.info('-----')
-        logger.info('Persons where the name given in the GND authority file differs from our input:')
+        logger.info('Unhandled person authority sources (person name, authority source, authority id, authority name):')
         logger.info('-----')
-        for (a, b) in PERSON_NAME_DIFFERENT_FROM_AUTH_NAME:
-            logger.info(f'{a} | {b}')
+        for unhandled_person_authority_source_log_entry in sorted(unhandled_person_authority_source_log):
+            logger.info(f'{unhandled_person_authority_source_log_entry}')
 
-    if len(LETTER_DATE_VALUE_ERROR) > 0:
+    if len(person_name_different_from_auth_name_log) > 0:
         logger.info('-----')
-        logger.info('Letters with invalid origin dates:')
+        logger.info('Persons where the name given in the GND authority file differs from our input '
+                    '(person name, authority name):')
         logger.info('-----')
-        for (kalliope_id, origin_date) in LETTER_DATE_VALUE_ERROR:
-            logger.info(f'letter id: {kalliope_id}, origin date: {origin_date}')
+        for (person_name, auth_person_name) in sorted(person_name_different_from_auth_name_log):
+            logger.info(f'{person_name} | {auth_person_name}')
 
-    if len(PERSON_NAME_WITHOUT_GND_SOURCE) > 0:
+    if len(letter_date_value_error_log) > 0:
         logger.info('-----')
-        logger.info('Persons where the source_id is not GND:')
+        logger.info('Letters with invalid origin dates (letter id, origin_date):')
         logger.info('-----')
-        for (name, source, source_id) in PERSON_NAME_WITHOUT_GND_SOURCE:
-            logger.info(f'{name} | {source} | {source_id}')
+        for letter_date_value_error_log_entry in sorted(letter_date_value_error_log):
+            logger.info(f'{letter_date_value_error_log_entry}')
 
     logger.info('=====')
     logger.info('Parsing done.')

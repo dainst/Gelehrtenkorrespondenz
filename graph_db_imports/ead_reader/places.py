@@ -6,23 +6,21 @@ import rdflib
 from config import NS, DF
 from data_structures import Place
 from rdflib import URIRef
-from typing import Tuple
+from typing import Dict, List, Tuple
 
-logging.basicConfig(format='%(asctime)s %(message)s')
-
+logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
 
 COORDINATES_PATTERN = re.compile('Point \(\s(.*)\s(.*).*\s\).*')
 RECIPIENT_PLACE_PATTERN = re.compile('Empfängerort:\s(.*)')
-PLACE_COLLECTION = dict()
 
-UNHANDLED_PLACE_AUTHORITY_SOURCES: Tuple[str, str, str, str] = []
-AUTH_NAME_DIFFERENT_FROM_VALUE: Tuple[str, str] = []
+place_collection: Dict[str, List[Tuple[float, float]]] = dict()
+unhandled_place_authority_source_log: List[Tuple[str, str, str, str]] = []
+auth_name_different_from_value_log: List[Tuple[str, str]] = []
 
 
 def _fetch_gnd_location_coordinates(gnd_id):
-    global PLACE_COLLECTION
+    global place_collection
     url = f'http://d-nb.info/gnd/{gnd_id}/about/lds'
 
     g = rdflib.Graph()
@@ -37,22 +35,21 @@ def _fetch_gnd_location_coordinates(gnd_id):
                 coordinate_list.append((lat, lng))
 
         if len(coordinate_list) == 1:
-            PLACE_COLLECTION[gnd_id] = coordinate_list[0]
+            place_collection[gnd_id] = coordinate_list[0]
         elif len(coordinate_list) == 0:
             logger.warning(f'Found no coordinate set for GND place {gnd_id}.')
-            PLACE_COLLECTION[gnd_id] = (None, None)
+            place_collection[gnd_id] = (None, None)
         else:
             logger.error(f'Found more than one coordinate set for GND place {gnd_id}.')
     except urllib.error.HTTPError as e:
         logger.error(f'Got {e.code} for {url}.')
-        PLACE_COLLECTION[gnd_id] = (None, None)
+        place_collection[gnd_id] = (None, None)
 
 
 def extract_place_of_origin(item):
     # TODO: Extract coordinates from other authorities
     xml_element_geoname = item.xpath(
-        f'./{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname/.',
-        namespaces=NS
+        f'./{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname/.', namespaces=NS
     )
 
     if len(xml_element_geoname) > 0:
@@ -67,25 +64,25 @@ def extract_place_of_origin(item):
             place_name_presumed = False
 
         if place_name != place_auth_name:
-            if (place_auth_name, place_name) not in AUTH_NAME_DIFFERENT_FROM_VALUE:
-                AUTH_NAME_DIFFERENT_FROM_VALUE.append((place_auth_name, place_name))
+            if (place_name, place_auth_name) not in auth_name_different_from_value_log:
+                auth_name_different_from_value_log.append((place_name, place_auth_name))
 
         if place_auth_source != 'GND':
             coordinates = (None, None)
 
             try:
-                log = (place_auth_source, place_auth_name, place_name, place_auth_id)
+                log_entry = (place_name, place_auth_source, place_auth_id, place_auth_name)
 
-                if log not in UNHANDLED_PLACE_AUTHORITY_SOURCES:
-                    UNHANDLED_PLACE_AUTHORITY_SOURCES.append(log)
+                if log_entry not in unhandled_place_authority_source_log:
+                    unhandled_place_authority_source_log.append(log_entry)
             except IndexError:
                 pass
         else:
             try:
-                coordinates = PLACE_COLLECTION[place_auth_id]
+                coordinates = place_collection[place_auth_id]
             except KeyError:
                 _fetch_gnd_location_coordinates(place_auth_id)
-                coordinates = PLACE_COLLECTION[place_auth_id]
+                coordinates = place_collection[place_auth_id]
 
         return Place(
             name=place_name,

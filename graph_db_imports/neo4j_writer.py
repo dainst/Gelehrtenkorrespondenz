@@ -4,10 +4,8 @@ from neo4j.v1 import GraphDatabase
 from data_structures import *
 from typing import Set
 
-logging.basicConfig(format='%(asctime)s %(message)s')
-
+logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
 
 
 def _import_place_nodes(session, data: List[Letter]):
