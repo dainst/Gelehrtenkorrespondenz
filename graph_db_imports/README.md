@@ -42,13 +42,13 @@ Configuration. If necessary, add the following at the end of the file:
     (If you are having trouble installing a python version, see
     https://github.com/pyenv/pyenv/wiki/Common-build-problems)
 4. Create a virtual Python environment with _pyenv-virtualenv_ (https://github.com/pyenv/pyenv-virtualenv):
-    4. `$ pyenv virtualenv 3.7.0 virtual-env-3.7.0`
-    4. Switch to the Python project directory where you want to use the virtual Python environment
+    1. `$ pyenv virtualenv 3.7.0 virtual-env-3.7.0`
+    2. Switch to the Python project directory where you want to use the virtual Python environment
     (e.g. `~/workspace/Gelehrtenkorrespondenz/`)
-    4. Activate the the virtual Python environment: `$ pyenv local virtual-env-3.7.0`
+    3. Activate the the virtual Python environment: `$ pyenv local virtual-env-3.7.0`
     4. Check _virtual-env-3.7.0_ is activated: `$ pyenv version`
-    4. If _virtual-env-3.7.0_ is activated, install the project dependencies:
-    `$ pip3 install -r graph_db_imports/requirements.txt`.
+    5. If _virtual-env-3.7.0_ is activated, install the project dependencies:
+    `$ pip3 install -r graph_db_imports/requirements.txt`
 5. Configure your IDE with Python SKD in _virtual-env-3.7.0_:
 
     ` ~/.pyenv/versions/virtual-env-3.7.0/bin/python3`
