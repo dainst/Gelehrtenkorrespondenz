@@ -38,7 +38,8 @@ def _extract_persons(person_xml_elements: List[etree.Element]) -> List[Person]:
         if person_xml_element.tag == '{%s}persname' % (NS[DF]):
             split_name = name_normal.split(',', 1)
             if len(split_name) == 2:
-                [auth_last_name, auth_first_name] = split_name
+                auth_last_name = split_name[0].strip()
+                auth_first_name = split_name[1].strip()
         if person_xml_element.tag == '{%s}corpname' % (NS[DF]):
             is_corporation = True
             auth_first_name = ''
