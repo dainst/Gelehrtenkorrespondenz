@@ -7,10 +7,10 @@ from config import DF, NS
 from data_structures import *
 from datetime import date
 from lxml import etree
-from typing import Dict, Tuple
+from typing import Tuple
 
 logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
-logger = logging.getLogger(__name__)
+logger: logging.Logger = logging.getLogger(__name__)
 
 person_name_different_from_auth_name_log: List[Tuple[str, str]] = []
 unhandled_person_authority_source_log: List[Tuple[str, str, str, str]] = []

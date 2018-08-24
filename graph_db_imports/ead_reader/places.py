@@ -1,34 +1,37 @@
 import logging
 import re
-import urllib.error
-import rdflib
 
 from config import NS, DF
 from data_structures import Place
-from rdflib import URIRef
-from typing import Dict, List, Tuple
+from lxml import etree
+from rdflib import Graph, URIRef
+from typing import Dict, List, Match, Pattern, Tuple
+from urllib.error import HTTPError
 
 logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
-logger = logging.getLogger(__name__)
+logger: logging.Logger = logging.getLogger(__name__)
 
-COORDINATES_PATTERN = re.compile('Point \(\s(.*)\s(.*).*\s\).*')
-RECIPIENT_PLACE_PATTERN = re.compile('Empfängerort:\s(.*)')
+COORDINATES_PATTERN: Pattern = re.compile('Point \(\s(.*)\s(.*).*\s\).*')
+RECIPIENT_PLACE_PATTERN: Pattern = re.compile('Empfängerort:\s(.*)')
+PRESUMED_PLACE_IDENTIFIER: str = '[vermutlich]'
 
 place_collection: Dict[str, List[Tuple[float, float]]] = dict()
 unhandled_place_authority_source_log: List[Tuple[str, str, str, str]] = []
 auth_name_different_from_value_log: List[Tuple[str, str]] = []
 
 
-def _fetch_gnd_location_coordinates(gnd_id):
+def _fetch_gnd_location_coordinates(gnd_id: str) -> None:
     global place_collection
     url = f'http://d-nb.info/gnd/{gnd_id}/about/lds'
+    rdf_graph: Graph = Graph()
 
-    g = rdflib.Graph()
     try:
-        g.load(url)
-        coordinate_list = []
-        for s, p, o in g.triples((None, URIRef('http://www.opengis.net/ont/geosparql#asWKT'), None)):
-            match = COORDINATES_PATTERN.match(o)
+        rdf_graph.load(url)
+        coordinate_list: List[Tuple[float, float]] = []
+
+        for rdf_object in rdf_graph.objects(predicate=URIRef('http://www.opengis.net/ont/geosparql#asWKT')):
+            match: Match = COORDINATES_PATTERN.match(rdf_object)
+
             if match is not None:
                 lng = float(match.group(1))
                 lat = float(match.group(2))
@@ -36,47 +39,44 @@ def _fetch_gnd_location_coordinates(gnd_id):
 
         if len(coordinate_list) == 1:
             place_collection[gnd_id] = coordinate_list[0]
+
         elif len(coordinate_list) == 0:
             logger.warning(f'Found no coordinate set for GND place {gnd_id}.')
             place_collection[gnd_id] = (None, None)
         else:
             logger.error(f'Found more than one coordinate set for GND place {gnd_id}.')
-    except urllib.error.HTTPError as e:
+    except HTTPError as e:
         logger.error(f'Got {e.code} for {url}.')
         place_collection[gnd_id] = (None, None)
 
 
-def extract_place_of_origin(item):
-    # TODO: Extract coordinates from other authorities
-    xml_element_geoname = item.xpath(
+def extract_place_of_origin(item: etree.Element) -> Place:
+    xml_element_geoname: List[etree.Element] = item.xpath(
         f'./{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname/.', namespaces=NS
     )
 
     if len(xml_element_geoname) > 0:
-        place_name = xml_element_geoname[0].xpath('./text()')[0]
-        place_auth_source = xml_element_geoname[0].xpath('./@source')[0]
-        place_auth_id = xml_element_geoname[0].xpath('./@authfilenumber')[0]
-        place_auth_name = xml_element_geoname[0].xpath('./@normal')[0]
+        place_name: str = xml_element_geoname[0].xpath('./text()')[0]
+        place_name_presumed: bool = False
+        place_auth_source: str = xml_element_geoname[0].xpath('./@source')[0]
+        place_auth_id: str = xml_element_geoname[0].xpath('./@authfilenumber')[0]
+        place_auth_name: str = xml_element_geoname[0].xpath('./@normal')[0]
 
-        if '[vermutlich]' in place_name.lower():
+        if PRESUMED_PLACE_IDENTIFIER in place_name.lower():
             place_name_presumed = True
-        else:
-            place_name_presumed = False
 
         if place_name != place_auth_name:
             if (place_name, place_auth_name) not in auth_name_different_from_value_log:
                 auth_name_different_from_value_log.append((place_name, place_auth_name))
 
         if place_auth_source != 'GND':
-            coordinates = (None, None)
+            coordinates: Tuple[float, float] = (None, None)
 
-            try:
-                log_entry = (place_name, place_auth_source, place_auth_id, place_auth_name)
+            log_entry: Tuple[str, str, str, str] = (place_name, place_auth_source, place_auth_id, place_auth_name)
 
-                if log_entry not in unhandled_place_authority_source_log:
-                    unhandled_place_authority_source_log.append(log_entry)
-            except IndexError:
-                pass
+            if log_entry not in unhandled_place_authority_source_log:
+                unhandled_place_authority_source_log.append(log_entry)
+
         else:
             try:
                 coordinates = place_collection[place_auth_id]
@@ -96,20 +96,20 @@ def extract_place_of_origin(item):
 
 
 # TODO: Parse recipient places.py less naively
-def extract_place_of_reception(item):
-    recipients_place_node = item.xpath(f'./{DF}:did/{DF}:note[@label="Bemerkung"]/{DF}:p', namespaces=NS)
-    place_name = None
+def extract_place_of_reception(item: etree.Element) -> Place:
+    recipients_place_node: List[etree.Element] = \
+        item.xpath(f'./{DF}:did/{DF}:note[@label="Bemerkung"]/{DF}:p', namespaces=NS)
+    place_name: str = None
+    place_name_presumed: bool = False
 
     if len(recipients_place_node) > 0:
-        match = RECIPIENT_PLACE_PATTERN.match(recipients_place_node[0].text)
+        match: Match = RECIPIENT_PLACE_PATTERN.match(recipients_place_node[0].text)
         if match is not None:
             place_name = match.group(1)
 
     if place_name is not None:
-        if '[vermutlich]' in place_name.lower():
+        if PRESUMED_PLACE_IDENTIFIER in place_name.lower():
             place_name_presumed = True
-        else:
-            place_name_presumed = False
 
         return Place(
             name=place_name,

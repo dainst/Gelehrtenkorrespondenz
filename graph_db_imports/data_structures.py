@@ -10,16 +10,16 @@ class Place:
                  auth_source: str,
                  auth_id: str,
                  auth_name: str,
-                 auth_lat: str = None,
-                 auth_lng: str = None):
+                 auth_lat: float = None,
+                 auth_lng: float = None):
 
         self.name: str = name
         self.name_presumed: bool = name_presumed
         self.auth_source: str = auth_source
         self.auth_id: str = auth_id
         self.auth_name: str = auth_name
-        self.auth_lat: str = auth_lat
-        self.auth_lng: str = auth_lng
+        self.auth_lat: float = auth_lat
+        self.auth_lng: float = auth_lng
 
     def __hash__(self):
         return hash((self.name, self.auth_source, self.auth_id))

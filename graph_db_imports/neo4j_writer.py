@@ -5,22 +5,36 @@ from data_structures import *
 from typing import Set
 
 logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
-logger = logging.getLogger(__name__)
+logger: logging.Logger = logging.getLogger(__name__)
 
 
-def _import_place_nodes(session, data: List[Letter]):
+def _import_place_nodes(session, letter_list: List[Letter]):
     logger.info('Importing place nodes.')
     places: Set[Place] = set()
 
-    for letter in data:
-        origin_place = letter.origin_place
-        reception_place = letter.reception_place
+    for letter in letter_list:
+        origin_place: Place = letter.origin_place
 
         if origin_place is not None and origin_place not in places:
             places.add(origin_place)
 
+    for letter in letter_list:
+        reception_place: Place = letter.reception_place
+        is_full_match: bool = False
+        is_partial_match: bool = False
+
         if reception_place is not None and reception_place not in places:
-            places.add(reception_place)
+            for place in places:
+                if reception_place.name == place.name and reception_place.name == place.auth_name:
+                    is_full_match = True
+                    letter.reception_place = place
+                    break
+                elif reception_place.name == place.name:
+                    is_partial_match = True
+                    letter.reception_place = place
+
+            if not (is_full_match or is_partial_match):
+                places.add(reception_place)
 
     parameters = dict({'place_list': []})
     for place in places:
