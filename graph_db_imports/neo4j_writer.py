@@ -1,6 +1,6 @@
 import logging
 
-from neo4j.v1 import GraphDatabase
+from neo4j.v1 import Driver, GraphDatabase, Transaction
 from data_structures import *
 from typing import Set
 
@@ -8,7 +8,7 @@ logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
 logger: logging.Logger = logging.getLogger(__name__)
 
 
-def _import_place_nodes(session, letter_list: List[Letter]):
+def _import_place_nodes(transaction: Transaction, letter_list: List[Letter]):
     logger.info('Importing place nodes.')
     places: Set[Place] = set()
 
@@ -55,11 +55,10 @@ def _import_place_nodes(session, letter_list: List[Letter]):
         SET n = place
         """
 
-    with session.begin_transaction() as tx:
-        tx.run(statement, parameters)
+    transaction.run(statement, parameters)
 
 
-def _import_person_nodes(session, data: List[Letter]):
+def _import_person_nodes(transaction: Transaction, data: List[Letter]):
     logger.info('Importing person nodes.')
     persons: Set[Person] = set()
 
@@ -89,11 +88,10 @@ def _import_person_nodes(session, data: List[Letter]):
         SET n = person
     """
 
-    with session.begin_transaction() as tx:
-        tx.run(statement, parameters)
+    transaction.run(statement, parameters)
 
 
-def _import_letter_nodes(session, data: List[Letter]):
+def _import_letter_nodes(transaction: Transaction, data: List[Letter]):
     logger.info('Importing letter nodes.')
 
     parameters = {'letter_list': []}
@@ -116,11 +114,10 @@ def _import_letter_nodes(session, data: List[Letter]):
         SET n = letter
     """
 
-    with session.begin_transaction() as tx:
-        tx.run(statement, parameters)
+    transaction.run(statement, parameters)
 
 
-def _import_send_from_relationships(session, data: List[Letter]):
+def _import_send_from_relationships(transaction: Transaction, data: List[Letter]):
     logger.info('Importing send_from relationships.')
 
     parameters = {'place_of_origin': []}
@@ -147,11 +144,10 @@ def _import_send_from_relationships(session, data: List[Letter]):
         CREATE (letter) -[:SEND_FROM { presumed: place_of_origin.name_presumed }]-> (place)
     """
 
-    with session.begin_transaction() as tx:
-        tx.run(statement, parameters)
+    transaction.run(statement, parameters)
 
 
-def _import_send_to_relationships(session, data: List[Letter]):
+def _import_send_to_relationships(transaction: Transaction, data: List[Letter]):
     logger.info('Importing send_to relationships.')
 
     parameters = {'place_of_reception': []}
@@ -178,11 +174,10 @@ def _import_send_to_relationships(session, data: List[Letter]):
         CREATE (letter) -[:SEND_TO { presumed: place_of_reception.name_presumed }]-> (place)
     """
 
-    with session.begin_transaction() as tx:
-        tx.run(statement, parameters)
+    transaction.run(statement, parameters)
 
 
-def _import_is_author_relationships(session, data: List[Letter]):
+def _import_is_author_relationships(transaction: Transaction, data: List[Letter]):
     logger.info('Importing is_author relationships.')
 
     parameters = {'is_author_list': []}
@@ -209,11 +204,10 @@ def _import_is_author_relationships(session, data: List[Letter]):
         CREATE (person) -[:IS_AUTHOR { presumed: is_author.name_presumed }]-> (letter)
     """
 
-    with session.begin_transaction() as tx:
-        tx.run(statement, parameters)
+    transaction.run(statement, parameters)
 
 
-def _import_is_recipient_relationships(session, data: List[Letter]):
+def _import_is_recipient_relationships(transaction: Transaction, data: List[Letter]):
     logger.info('Importing is_recipient relationships.')
 
     parameters = {'is_recipient_list': []}
@@ -240,8 +234,7 @@ def _import_is_recipient_relationships(session, data: List[Letter]):
         CREATE (person) -[:IS_RECIPIENT { presumed: is_recipient.name_presumed }]-> (letter)
     """
 
-    with session.begin_transaction() as tx:
-        tx.run(statement, parameters)
+    transaction.run(statement, parameters)
 
 
 def import_data(data, url, port, username, password):
@@ -249,21 +242,22 @@ def import_data(data, url, port, username, password):
     logger.info('Starting import ...')
     logger.info('-----')
 
-    driver = GraphDatabase.driver('bolt://%s:%i ' % (url, port), auth=(username, password))
+    driver: Driver = GraphDatabase.driver('bolt://%s:%i ' % (url, port), auth=(username, password))
 
     with driver.session() as session:
-        with session.begin_transaction() as tx:
-            tx.run('CREATE INDEX ON :Place(name)')
-            tx.run('CREATE INDEX ON :Person(name)')
-            tx.run('CREATE CONSTRAINT ON (letter:Letter) ASSERT letter.kalliope_id IS UNIQUE')
+        with session.begin_transaction() as schema_transaction:
+            schema_transaction.run('CREATE INDEX ON :Place(name)')
+            schema_transaction.run('CREATE INDEX ON :Person(name)')
+            schema_transaction.run('CREATE CONSTRAINT ON (letter:Letter) ASSERT letter.kalliope_id IS UNIQUE')
 
-        _import_place_nodes(session, data)
-        _import_person_nodes(session, data)
-        _import_letter_nodes(session, data)
-        _import_send_from_relationships(session, data)
-        _import_send_to_relationships(session, data)
-        _import_is_author_relationships(session, data)
-        _import_is_recipient_relationships(session, data)
+        with session.begin_transaction() as data_transaction:
+            _import_place_nodes(data_transaction, data)
+            _import_person_nodes(data_transaction, data)
+            _import_letter_nodes(data_transaction, data)
+            _import_send_from_relationships(data_transaction, data)
+            _import_send_to_relationships(data_transaction, data)
+            _import_is_author_relationships(data_transaction, data)
+            _import_is_recipient_relationships(data_transaction, data)
 
     logger.info('=====')
     logger.info('Import done.')

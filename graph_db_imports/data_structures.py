@@ -7,9 +7,9 @@ class Place:
     def __init__(self,
                  name: str,
                  name_presumed: bool,
-                 auth_source: str,
-                 auth_id: str,
-                 auth_name: str,
+                 auth_source: str = None,
+                 auth_id: str = None,
+                 auth_name: str = None,
                  auth_lat: float = None,
                  auth_lng: float = None):
 

@@ -173,7 +173,7 @@ def _extract_letter(item: etree.Element,
             origin_date_till = origin_dates[1]
             origin_date_presumed = origin_dates[2]
         except ValueError:
-            logger.error("Invalid letter origin date: %s.", origin_date)
+            logger.debug("Invalid letter origin date: %s.", origin_date)
             if (kalliope_id, origin_date) not in letter_date_value_error_log:
                 letter_date_value_error_log.append((kalliope_id, origin_date))
 
@@ -246,6 +246,20 @@ def process_ead_file(ead_file: str) -> List[Letter]:
         logger.info('-----')
         for place in sorted(places.unhandled_place_authority_source_log):
             logger.info(f'{place}')
+
+    if len(places.unhandled_place_authority_gazetteer_mapping_log) > 0:
+        logger.info('-----')
+        logger.info('Unhandled place authority gazetteer mappings (authority id, authority source):')
+        logger.info('-----')
+        for place_authority_gazetteer_mapping in sorted(places.unhandled_place_authority_gazetteer_mapping_log):
+            logger.info(f'{place_authority_gazetteer_mapping}')
+
+    if len(places.unhandled_place_authority_coordinates_absence_log) > 0:
+        logger.info('-----')
+        logger.info('Unhandled place authority coordinates absence (GND Id, Gazetteer Id):')
+        logger.info('-----')
+        for place_authority_coordinates_absence in sorted(places.unhandled_place_authority_coordinates_absence_log):
+            logger.info(f'{place_authority_coordinates_absence}')
 
     if len(places.auth_name_different_from_value_log) > 0:
         logger.info('-----')
