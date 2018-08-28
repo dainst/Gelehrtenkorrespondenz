@@ -1,28 +1,40 @@
 import logging
 
-from neo4j.v1 import GraphDatabase
+from neo4j.v1 import Driver, GraphDatabase, Transaction
 from data_structures import *
 from typing import Set
 
-logging.basicConfig(format='%(asctime)s %(message)s')
-
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
+logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
+logger: logging.Logger = logging.getLogger(__name__)
 
 
-def _import_place_nodes(session, data: List[Letter]):
+def _import_place_nodes(transaction: Transaction, letter_list: List[Letter]):
     logger.info('Importing place nodes.')
     places: Set[Place] = set()
 
-    for letter in data:
-        origin_place = letter.origin_place
-        reception_place = letter.reception_place
+    for letter in letter_list:
+        origin_place: Place = letter.origin_place
 
         if origin_place is not None and origin_place not in places:
             places.add(origin_place)
 
+    for letter in letter_list:
+        reception_place: Place = letter.reception_place
+        is_full_match: bool = False
+        is_partial_match: bool = False
+
         if reception_place is not None and reception_place not in places:
-            places.add(reception_place)
+            for place in places:
+                if reception_place.name == place.name and reception_place.name == place.auth_name:
+                    is_full_match = True
+                    letter.reception_place = place
+                    break
+                elif reception_place.name == place.name:
+                    is_partial_match = True
+                    letter.reception_place = place
+
+            if not (is_full_match or is_partial_match):
+                places.add(reception_place)
 
     parameters = dict({'place_list': []})
     for place in places:
@@ -43,11 +55,10 @@ def _import_place_nodes(session, data: List[Letter]):
         SET n = place
         """
 
-    with session.begin_transaction() as tx:
-        tx.run(statement, parameters)
+    transaction.run(statement, parameters)
 
 
-def _import_person_nodes(session, data: List[Letter]):
+def _import_person_nodes(transaction: Transaction, data: List[Letter]):
     logger.info('Importing person nodes.')
     persons: Set[Person] = set()
 
@@ -64,9 +75,11 @@ def _import_person_nodes(session, data: List[Letter]):
     for person in persons:
         parameters['person_list'].append({
             'name': person.name,
-            'gnd_id': person.gnd_id,
-            'gnd_first_name': person.gnd_first_name,
-            'gnd_last_name': person.gnd_last_name
+            'is_corporation': person.is_corporation,
+            'auth_source': person.auth_source,
+            'auth_id': person.auth_id,
+            'auth_first_name': person.auth_first_name,
+            'auth_last_name': person.auth_last_name
         })
 
     statement = """
@@ -75,11 +88,10 @@ def _import_person_nodes(session, data: List[Letter]):
         SET n = person
     """
 
-    with session.begin_transaction() as tx:
-        tx.run(statement, parameters)
+    transaction.run(statement, parameters)
 
 
-def _import_letter_nodes(session, data: List[Letter]):
+def _import_letter_nodes(transaction: Transaction, data: List[Letter]):
     logger.info('Importing letter nodes.')
 
     parameters = {'letter_list': []}
@@ -89,8 +101,8 @@ def _import_letter_nodes(session, data: List[Letter]):
             'kalliope_id': letter.kalliope_id,
             'title': letter.title,
             'language_codes': ', '.join(letter.language_codes),
-            'origin_date_from': letter.origin_date_from,
-            'origin_date_till': letter.origin_date_till,
+            'origin_date_from': str(letter.origin_date_from),
+            'origin_date_till': str(letter.origin_date_till),
             'origin_date_presumed': letter.origin_date_presumed,
             'extent': letter.extent,
             'summary_paragraphs': ' | '.join(letter.summary_paragraphs)
@@ -102,11 +114,10 @@ def _import_letter_nodes(session, data: List[Letter]):
         SET n = letter
     """
 
-    with session.begin_transaction() as tx:
-        tx.run(statement, parameters)
+    transaction.run(statement, parameters)
 
 
-def _import_send_from_relationships(session, data: List[Letter]):
+def _import_send_from_relationships(transaction: Transaction, data: List[Letter]):
     logger.info('Importing send_from relationships.')
 
     parameters = {'place_of_origin': []}
@@ -133,11 +144,10 @@ def _import_send_from_relationships(session, data: List[Letter]):
         CREATE (letter) -[:SEND_FROM { presumed: place_of_origin.name_presumed }]-> (place)
     """
 
-    with session.begin_transaction() as tx:
-        tx.run(statement, parameters)
+    transaction.run(statement, parameters)
 
 
-def _import_send_to_relationships(session, data: List[Letter]):
+def _import_send_to_relationships(transaction: Transaction, data: List[Letter]):
     logger.info('Importing send_to relationships.')
 
     parameters = {'place_of_reception': []}
@@ -164,11 +174,10 @@ def _import_send_to_relationships(session, data: List[Letter]):
         CREATE (letter) -[:SEND_TO { presumed: place_of_reception.name_presumed }]-> (place)
     """
 
-    with session.begin_transaction() as tx:
-        tx.run(statement, parameters)
+    transaction.run(statement, parameters)
 
 
-def _import_is_author_relationships(session, data: List[Letter]):
+def _import_is_author_relationships(transaction: Transaction, data: List[Letter]):
     logger.info('Importing is_author relationships.')
 
     parameters = {'is_author_list': []}
@@ -178,8 +187,9 @@ def _import_is_author_relationships(session, data: List[Letter]):
             parameters['is_author_list'].append({
                 'letter_id': letter.kalliope_id,
                 'name': author.name,
-                'gnd_id': author.gnd_id,
-                'name_presumed': author.name_presumed
+                'name_presumed': author.name_presumed,
+                'auth_source': author.auth_source,
+                'auth_id': author.auth_id
             })
 
     statement = """
@@ -187,17 +197,17 @@ def _import_is_author_relationships(session, data: List[Letter]):
         MATCH (letter:Letter { kalliope_id: is_author.letter_id })
         MATCH (person:Person {
                         name: is_author.name,
-                        gnd_id: is_author.gnd_id
+                        auth_source: is_author.auth_source,
+                        auth_id: is_author.auth_id
                         }
               )
         CREATE (person) -[:IS_AUTHOR { presumed: is_author.name_presumed }]-> (letter)
     """
 
-    with session.begin_transaction() as tx:
-        tx.run(statement, parameters)
+    transaction.run(statement, parameters)
 
 
-def _import_is_recipient_relationships(session, data: List[Letter]):
+def _import_is_recipient_relationships(transaction: Transaction, data: List[Letter]):
     logger.info('Importing is_recipient relationships.')
 
     parameters = {'is_recipient_list': []}
@@ -207,8 +217,9 @@ def _import_is_recipient_relationships(session, data: List[Letter]):
             parameters['is_recipient_list'].append({
                 'letter_id': letter.kalliope_id,
                 'name': recipient.name,
-                'gnd_id': recipient.gnd_id,
-                'name_presumed': recipient.name_presumed
+                'name_presumed': recipient.name_presumed,
+                'auth_source': recipient.auth_source,
+                'auth_id': recipient.auth_id
             })
 
     statement = """
@@ -216,14 +227,14 @@ def _import_is_recipient_relationships(session, data: List[Letter]):
         MATCH (letter:Letter { kalliope_id: is_recipient.letter_id })
         MATCH (person:Person {
                         name: is_recipient.name,
-                        gnd_id: is_recipient.gnd_id
+                        auth_source: is_recipient.auth_source,
+                        auth_id: is_recipient.auth_id
                         }
               )
         CREATE (person) -[:IS_RECIPIENT { presumed: is_recipient.name_presumed }]-> (letter)
     """
 
-    with session.begin_transaction() as tx:
-        tx.run(statement, parameters)
+    transaction.run(statement, parameters)
 
 
 def import_data(data, url, port, username, password):
@@ -231,21 +242,22 @@ def import_data(data, url, port, username, password):
     logger.info('Starting import ...')
     logger.info('-----')
 
-    driver = GraphDatabase.driver('bolt://%s:%i ' % (url, port), auth=(username, password))
+    driver: Driver = GraphDatabase.driver('bolt://%s:%i ' % (url, port), auth=(username, password))
 
     with driver.session() as session:
-        with session.begin_transaction() as tx:
-            tx.run('CREATE INDEX ON :Place(name)')
-            tx.run('CREATE INDEX ON :Person(name)')
-            tx.run('CREATE CONSTRAINT ON (letter:Letter) ASSERT letter.kalliope_id IS UNIQUE')
+        with session.begin_transaction() as schema_transaction:
+            schema_transaction.run('CREATE INDEX ON :Place(name)')
+            schema_transaction.run('CREATE INDEX ON :Person(name)')
+            schema_transaction.run('CREATE CONSTRAINT ON (letter:Letter) ASSERT letter.kalliope_id IS UNIQUE')
 
-        _import_place_nodes(session, data)
-        _import_person_nodes(session, data)
-        _import_letter_nodes(session, data)
-        _import_send_from_relationships(session, data)
-        _import_send_to_relationships(session, data)
-        _import_is_author_relationships(session, data)
-        _import_is_recipient_relationships(session, data)
+        with session.begin_transaction() as data_transaction:
+            _import_place_nodes(data_transaction, data)
+            _import_person_nodes(data_transaction, data)
+            _import_letter_nodes(data_transaction, data)
+            _import_send_from_relationships(data_transaction, data)
+            _import_send_to_relationships(data_transaction, data)
+            _import_is_author_relationships(data_transaction, data)
+            _import_is_recipient_relationships(data_transaction, data)
 
     logger.info('=====')
     logger.info('Import done.')

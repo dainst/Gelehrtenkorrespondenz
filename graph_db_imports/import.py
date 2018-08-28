@@ -2,14 +2,14 @@ import sys
 import logging
 import os
 
-from tsv_reader import read_data as read_tsv_file
+from data_structures import Letter
 from ead_reader.main import process_ead_file, process_ead_files
 from neo4j_writer import import_data
+from tsv_reader import read_data as read_tsv_file
+from typing import List
 
-logging.basicConfig(format='%(asctime)s %(message)s')
-
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
+logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
+logger: logging.Logger = logging.getLogger(__name__)
 
 
 if __name__ == '__main__':
@@ -25,29 +25,33 @@ if __name__ == '__main__':
 
         sys.exit()
 
-    input_path = sys.argv[1]
+    input_path: str = sys.argv[1]
 
     if os.path.isfile(input_path):
-        [file_name, file_extension] = os.path.splitext(input_path)
+        file_name: str = os.path.splitext(input_path)[0]
+        file_extension: str = os.path.splitext(input_path)[1]
 
         if file_extension == '.tsv':
-            letter_data = read_tsv_file(tsv_path=input_path, ignore_first_line=True)
+            letter_data: List[Letter] = read_tsv_file(tsv_path=input_path, ignore_first_line=True)
+
         elif file_extension == '.xml':
-            letter_data = process_ead_file(ead_file=input_path)
+            letter_data: List[Letter] = process_ead_file(ead_file=input_path)
+
         else:
             logger.warning(f'Not a valid file format: {input_path}')
             sys.exit()
-    elif os.path.isdir(input_path):
 
+    elif os.path.isdir(input_path):
         if not input_path.endswith('/'):
             input_path += '/'
 
-        files_in_dir = [f for f in os.listdir(input_path) if os.path.isfile(os.path.join(input_path, f))]
+        files_in_dir: List[str] = [f for f in os.listdir(input_path) if os.path.isfile(os.path.join(input_path, f))]
 
-        xml_files_in_dir = [f'{input_path}{f}' for f in files_in_dir if os.path.splitext(f)[1] == '.xml']
+        xml_files_in_dir: List[str] = [f'{input_path}{f}' for f in files_in_dir if os.path.splitext(f)[1] == '.xml']
 
         if len(xml_files_in_dir) != 0:
-            letter_data = process_ead_files(file_paths=xml_files_in_dir)
+            letter_data: List[Letter] = process_ead_files(file_paths=xml_files_in_dir)
+
         else:
             logger.warning(f'Not valid files found in directory: {input_path}')
             sys.exit()
