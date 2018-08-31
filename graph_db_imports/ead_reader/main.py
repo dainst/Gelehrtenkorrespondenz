@@ -12,6 +12,8 @@ from typing import Tuple
 logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
 logger: logging.Logger = logging.getLogger(__name__)
 
+PRESUMED_PERSON_IDENTIFIER: str = '[vermutlich]'
+
 person_name_different_from_auth_name_log: List[Tuple[str, str]] = []
 unhandled_person_authority_source_log: List[Tuple[str, str, str, str]] = []
 letter_date_value_error_log: List[Tuple[str, str]] = []
@@ -29,21 +31,23 @@ def _extract_persons(person_xml_elements: List[etree.Element]) -> List[Person]:
         auth_source: str = person_xml_element.xpath('./@source')[0]
         auth_id: str = person_xml_element.xpath('./@authfilenumber')[0]
         name_normal: str = person_xml_element.xpath('./@normal')[0]
-        auth_first_name = ''
-        auth_last_name = ''
+        auth_first_name: str = None
+        auth_last_name: str = None
 
-        if '[vermutlich]' in name.lower():
+        if PRESUMED_PERSON_IDENTIFIER in name.lower():
             name_presumed = True
 
         if person_xml_element.tag == '{%s}persname' % (NS[DF]):
-            split_name = name_normal.split(',', 1)
-            if len(split_name) == 2:
+            if ',' in name_normal:
+                split_name = name_normal.split(',', 1)
                 auth_last_name = split_name[0].strip()
                 auth_first_name = split_name[1].strip()
+
+            else:
+                auth_last_name = name_normal
+
         if person_xml_element.tag == '{%s}corpname' % (NS[DF]):
             is_corporation = True
-            auth_first_name = ''
-            auth_last_name = name_normal
 
         if name != name_normal and (name, name_normal) not in person_name_different_from_auth_name_log:
             person_name_different_from_auth_name_log.append((name, name_normal))
@@ -58,6 +62,7 @@ def _extract_persons(person_xml_elements: List[etree.Element]) -> List[Person]:
                         is_corporation,
                         auth_source=auth_source,
                         auth_id=auth_id,
+                        auth_name=name_normal,
                         auth_first_name=auth_first_name,
                         auth_last_name=auth_last_name)
         persons.append(person)

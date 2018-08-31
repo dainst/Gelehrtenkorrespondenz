@@ -49,6 +49,7 @@ class Person:
                  is_corporation: bool,
                  auth_source: str = None,
                  auth_id: str = None,
+                 auth_name: str = None,
                  auth_first_name: str = None,
                  auth_last_name: str = None):
 
@@ -57,6 +58,7 @@ class Person:
         self.is_corporation: bool = is_corporation
         self.auth_source: str = auth_source
         self.auth_id: str = auth_id
+        self.auth_name: str = auth_name
         self.auth_first_name: str = auth_first_name
         self.auth_last_name: str = auth_last_name
 
@@ -75,6 +77,7 @@ class Person:
             'is_corporation': self.is_corporation,
             'auth_source': self.auth_source,
             'auth_id': self.auth_id,
+            'auth_name': self.auth_name,
             'auth_first_name': self.auth_first_name,
             'auth_last_name': self.auth_last_name
         }))
