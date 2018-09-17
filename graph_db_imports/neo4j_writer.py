@@ -92,12 +92,16 @@ def _import_person_nodes(transaction: Transaction, data: List[Letter]):
     transaction.run(statement, parameters)
 
 
-def _import_letter_nodes(transaction: Transaction, data: List[Letter]):
+def _import_letter_nodes(transaction: Transaction, letters: List[Letter]):
     logger.info('Importing letter nodes.')
 
     parameters = {'letter_list': []}
 
-    for letter in data:
+    for letter in letters:
+        summary_paragraphs: str = None
+        if letter.summary_paragraphs is not None:
+            summary_paragraphs = ' | '.join(letter.summary_paragraphs)
+
         parameters['letter_list'].append({
             'kalliope_id': letter.kalliope_id,
             'title': letter.title,
@@ -106,7 +110,7 @@ def _import_letter_nodes(transaction: Transaction, data: List[Letter]):
             'origin_date_till': letter.origin_date_till,
             'origin_date_presumed': letter.origin_date_presumed,
             'extent': letter.extent,
-            'summary_paragraphs': ' | '.join(letter.summary_paragraphs)
+            'summary_paragraphs': summary_paragraphs
         })
 
     statement = """

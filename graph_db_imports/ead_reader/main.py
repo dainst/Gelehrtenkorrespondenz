@@ -186,9 +186,11 @@ def _extract_letter(item: etree.Element,
     if len(xml_element_extent) == 1:
         extent = xml_element_extent[0].text
 
-    summary_paragraph_list: List[str] = []
-    for p_tag in xml_elements_scopecontent:
-        summary_paragraph_list.append(p_tag.text)
+    summary_paragraph_list: List[str] = None
+    if len(xml_elements_scopecontent) > 0:
+        summary_paragraph_list = []
+        for p_tag in xml_elements_scopecontent:
+            summary_paragraph_list.append(p_tag.text)
 
     return Letter(
         kalliope_id=kalliope_id,
