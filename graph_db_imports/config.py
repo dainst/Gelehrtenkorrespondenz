@@ -4,5 +4,6 @@
 DF = 'default'
 
 NS = {
-    DF: 'urn:isbn:1-931666-22-9'
+    DF: 'urn:isbn:1-931666-22-9',
+    'xlink': 'http://www.w3.org/1999/xlink'
 }

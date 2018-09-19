@@ -70,6 +70,24 @@ def _extract_persons(person_xml_elements: List[etree.Element]) -> List[Person]:
     return persons
 
 
+def _extract_digital_copies(xml_elements_digital_copy: etree.Element):
+    digital_copies: List[DigitalArchivalObject] = []
+
+    dao_elements = \
+        xml_elements_digital_copy.xpath(f'./{DF}:did/{DF}:dao[contains(@xlink:title, "Digitalisat")]', namespaces=NS)
+
+    for element in dao_elements:
+        dao_url: List[str] = element.xpath(f'./@xlink:href', namespaces=NS)
+        dao_title: List[str] = element.xpath(f'./@xlink:title', namespaces=NS)
+
+        digital_copy = DigitalArchivalObject(
+            dao_title=dao_title[0].strip(),
+            dao_url=dao_url[0].strip())
+        digital_copies.append(digital_copy)
+
+    return digital_copies
+
+
 def _format_origin_date(origin_date_str: str, is_start_date: bool) -> str:
     iso_origin_date: str = ''
     date_str_length: int = len(origin_date_str)
@@ -141,7 +159,8 @@ def _extract_letter(item: etree.Element,
                     authors: List[Person],
                     recipients: List[Person],
                     place_of_origin: Place,
-                    place_of_reception: Place) -> Letter:
+                    place_of_reception: Place,
+                    digital_copies: List[DigitalArchivalObject]) -> Letter:
     global letter_date_value_error_log
 
     # obligatory elements
@@ -204,7 +223,8 @@ def _extract_letter(item: etree.Element,
         recipients=recipients,
         origin_place=place_of_origin,
         reception_place=place_of_reception,
-        summary_paragraphs=summary_paragraph_list)
+        summary_paragraphs=summary_paragraph_list,
+        digital_copies=digital_copies)
 
 
 def process_ead_files(file_paths: List[str]) -> List[Letter]:
@@ -233,7 +253,6 @@ def process_ead_file(ead_file: str) -> List[Letter]:
     letter_date_value_error_log = []
 
     for item in items:
-        # TODO: authors and recipients can be public bodies: element name `corpname` needs to be included, see ead_DE-2490_67562.xml
         authors: List[Person] = \
             _extract_persons(item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Verfasser"] | '
                                         f'./{DF}:controlaccess/{DF}:corpname[@role="Verfasser"]', namespaces=NS))
@@ -243,8 +262,9 @@ def process_ead_file(ead_file: str) -> List[Letter]:
 
         origin_place: Place = places.extract_place_of_origin(item)
         recipient_place: Place = places.extract_place_of_reception(item)
+        digital_copies: List[DigitalArchivalObject] = _extract_digital_copies(item)
 
-        letter: Letter = _extract_letter(item, authors, recipients, origin_place, recipient_place)
+        letter: Letter = _extract_letter(item, authors, recipients, origin_place, recipient_place, digital_copies)
 
         result.append(letter)
 

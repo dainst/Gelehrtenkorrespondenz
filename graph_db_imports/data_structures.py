@@ -83,6 +83,21 @@ class Person:
         }))
 
 
+class DigitalArchivalObject:
+
+    def __init__(self,
+                 dao_url: str,
+                 dao_title: str):
+        self.dao_url: str = dao_url
+        self.dao_title: str = dao_title
+
+    def __str__(self):
+        return str(dict({
+            'dao_url': self.dao_url,
+            'dao_title': self.dao_title
+        }))
+
+
 class Letter:
 
     def __init__(self,
@@ -97,7 +112,8 @@ class Letter:
                  recipients: List[Person] = None,
                  origin_place: Place = None,
                  reception_place: Place = None,
-                 summary_paragraphs: List[str] = None):
+                 summary_paragraphs: List[str] = None,
+                 digital_copies: List[DigitalArchivalObject] = None):
 
         self.kalliope_id: str = kalliope_id
         self.title: str = title
@@ -111,6 +127,7 @@ class Letter:
         self.origin_place: Place = origin_place
         self.reception_place: Place = reception_place
         self.summary_paragraphs: List[str] = summary_paragraphs
+        self.digital_copies: List[DigitalArchivalObject] = digital_copies
 
     def __str__(self):
         return str(dict({
@@ -125,5 +142,6 @@ class Letter:
             'recipients': self.recipients,
             'origin_place': self.origin_place,
             'reception_place': self.reception_place,
-            'summary': self.summary_paragraphs
+            'summary': self.summary_paragraphs,
+            'digital_copies': self.digital_copies
         }))

@@ -92,6 +92,32 @@ def _import_person_nodes(transaction: Transaction, data: List[Letter]):
     transaction.run(statement, parameters)
 
 
+def _import_digital_archival_objects_nodes(transaction: Transaction, data: List[Letter]):
+    logger.info('Importing digital_archival_objects nodes.')
+    copies: Set[DigitalArchivalObject] = set()
+
+    for letter in data:
+        for dao in letter.digital_copies:
+            if dao not in copies:
+                copies.add(dao)
+
+    parameters = dict({'digital_archival_object_list': []})
+
+    for dao in copies:
+        parameters['digital_archival_object_list'].append({
+            'dao_title': dao.dao_title,
+            'dao_url': dao.dao_url
+        })
+
+    statement = """
+        UNWIND {digital_archival_object_list} as dao
+        CREATE (n:DigitalArchivalObject)
+        SET n = dao
+    """
+
+    transaction.run(statement, parameters)
+
+
 def _import_letter_nodes(transaction: Transaction, letters: List[Letter]):
     logger.info('Importing letter nodes.')
 
@@ -135,7 +161,7 @@ def _import_send_from_relationships(transaction: Transaction, data: List[Letter]
                     'name_presumed': letter.origin_place.name_presumed,
                     'auth_source': letter.origin_place.auth_source,
                     'auth_id': letter.origin_place.auth_id
-                })
+            })
 
     statement = """
         UNWIND {place_of_origin} as place_of_origin
@@ -242,6 +268,62 @@ def _import_is_recipient_relationships(transaction: Transaction, data: List[Lett
     transaction.run(statement, parameters)
 
 
+def _import_arachne_url_attachment_relationships(transaction: Transaction, data: List[Letter]):
+    logger.info('Importing arachne_url_attachment relationships.')
+
+    parameters = {'arachne_url_attachment': []}
+
+    for letter in data:
+        for digital_copy in letter.digital_copies:
+            if digital_copy.dao_title != 'Digitalisat' and digital_copy.dao_title != 'Digitalisate':
+                parameters['arachne_url_attachment'].append({
+                    'letter_id': letter.kalliope_id,
+                    'dao_title': digital_copy.dao_title,
+                    'dao_url': digital_copy.dao_url
+                })
+
+    statement = """
+        UNWIND {arachne_url_attachment} as arachne_url_attachment
+        MATCH (letter:Letter { kalliope_id: arachne_url_attachment.letter_id  })
+        MATCH (digital_copy: DigitalArchivalObject {
+                    dao_title: arachne_url_attachment.dao_title,
+                    dao_url: arachne_url_attachment.dao_url
+                    }
+              )
+        CREATE (letter) -[:HAS_ARACHNE_URL_ATTACHMENT ]-> (digital_copy)
+    """
+
+    transaction.run(statement, parameters)
+
+
+def _import_arachne_url_letter_relationships(transaction: Transaction, data: List[Letter]):
+    logger.info('Importing arachne_url_letter relationships.')
+
+    parameters = {'arachne_url_letter': []}
+
+    for letter in data:
+        for digital_copy in letter.digital_copies:
+            if digital_copy.dao_title == 'Digitalisat' or digital_copy.dao_title == 'Digitalisate':
+                parameters['arachne_url_letter'].append({
+                    'letter_id': letter.kalliope_id,
+                    'dao_title': digital_copy.dao_title,
+                    'dao_url': digital_copy.dao_url
+                })
+
+    statement = """
+        UNWIND {arachne_url_letter} as arachne_url_letter
+        MATCH (letter:Letter { kalliope_id: arachne_url_letter.letter_id  })
+        MATCH (digital_copy: DigitalArchivalObject {
+                    dao_title: arachne_url_letter.dao_title,
+                    dao_url: arachne_url_letter.dao_url
+                    }
+              )
+        CREATE (letter) -[:HAS_ARACHNE_URL_LETTER ]-> (digital_copy)
+    """
+
+    transaction.run(statement, parameters)
+
+
 def import_data(data, url, port, username, password):
     logger.info('-----')
     logger.info('Starting import ...')
@@ -253,16 +335,20 @@ def import_data(data, url, port, username, password):
         with session.begin_transaction() as schema_transaction:
             schema_transaction.run('CREATE INDEX ON :Place(name)')
             schema_transaction.run('CREATE INDEX ON :Person(name)')
+            schema_transaction.run('CREATE INDEX ON :DigitalArchivalObject(dao_title)')
             schema_transaction.run('CREATE CONSTRAINT ON (letter:Letter) ASSERT letter.kalliope_id IS UNIQUE')
 
         with session.begin_transaction() as data_transaction:
             _import_place_nodes(data_transaction, data)
             _import_person_nodes(data_transaction, data)
+            _import_digital_archival_objects_nodes(data_transaction, data)
             _import_letter_nodes(data_transaction, data)
             _import_send_from_relationships(data_transaction, data)
             _import_send_to_relationships(data_transaction, data)
             _import_is_author_relationships(data_transaction, data)
             _import_is_recipient_relationships(data_transaction, data)
+            _import_arachne_url_attachment_relationships(data_transaction, data)
+            _import_arachne_url_letter_relationships(data_transaction, data)
 
     logger.info('=====')
     logger.info('Import done.')
