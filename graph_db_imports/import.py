@@ -32,10 +32,10 @@ if __name__ == '__main__':
         file_extension: str = os.path.splitext(input_path)[1]
 
         if file_extension == '.tsv':
-            letter_data: List[Letter] = read_tsv_file(tsv_path=input_path, ignore_first_line=True)
+            letters: List[Letter] = read_tsv_file(tsv_path=input_path, ignore_first_line=True)
 
         elif file_extension == '.xml':
-            letter_data: List[Letter] = process_ead_file(ead_file=input_path)
+            letters: List[Letter] = process_ead_file(ead_file=input_path)
 
         else:
             logger.warning(f'Not a valid file format: {input_path}')
@@ -50,7 +50,7 @@ if __name__ == '__main__':
         xml_files_in_dir: List[str] = [f'{input_path}{f}' for f in files_in_dir if os.path.splitext(f)[1] == '.xml']
 
         if len(xml_files_in_dir) != 0:
-            letter_data: List[Letter] = process_ead_files(file_paths=xml_files_in_dir)
+            letters: List[Letter] = process_ead_files(file_paths=xml_files_in_dir)
 
         else:
             logger.warning(f'Not valid files found in directory: {input_path}')
@@ -59,4 +59,4 @@ if __name__ == '__main__':
         logger.warning(f'No valid files found at {input_path}.')
         sys.exit()
 
-    import_data(letter_data, url=sys.argv[2], port=int(sys.argv[3]), username=sys.argv[4], password=sys.argv[5])
+    import_data(letters, url=sys.argv[2], port=int(sys.argv[3]), username=sys.argv[4], password=sys.argv[5])

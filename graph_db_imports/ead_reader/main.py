@@ -3,7 +3,7 @@ import logging
 import sys
 import ead_reader.places as places
 
-from config import DF, NS
+from config import *
 from data_structures import *
 from datetime import date
 from lxml import etree
@@ -70,22 +70,37 @@ def _extract_persons(person_xml_elements: List[etree.Element]) -> List[Person]:
     return persons
 
 
-def _extract_digital_copies(xml_elements_digital_copy: etree.Element):
-    digital_copies: List[DigitalArchivalObject] = []
+def _extract_digital_archival_objects(xml_element_ead_component: etree.Element) -> List[DigitalArchivalObject]:
+    digital_archival_objects: List[DigitalArchivalObject] = []
 
-    dao_elements = \
-        xml_elements_digital_copy.xpath(f'./{DF}:did/{DF}:dao[contains(@xlink:title, "Digitalisat")]', namespaces=NS)
+    xml_element_dao_list: List[etree.Element] = \
+        xml_element_ead_component.xpath(f'./{DF}:did/{DF}:dao', namespaces=NS)
 
-    for element in dao_elements:
-        dao_url: List[str] = element.xpath(f'./@xlink:href', namespaces=NS)
-        dao_title: List[str] = element.xpath(f'./@xlink:title', namespaces=NS)
+    for xml_element_dao in xml_element_dao_list:
+        dao_url_list: List[str] = xml_element_dao.xpath(f'./@{XL}:href', namespaces=NS)
+        dao_title_list: List[str] = xml_element_dao.xpath(f'./@{XL}:title', namespaces=NS)
 
-        digital_copy = DigitalArchivalObject(
-            dao_title=dao_title[0].strip(),
-            dao_url=dao_url[0].strip())
-        digital_copies.append(digital_copy)
+        if len(dao_url_list) == 1 and len(dao_title_list) == 1:
+            dao_url: str = dao_url_list[0].strip()
+            dao_title: str = dao_title_list[0].strip()
 
-    return digital_copies
+            if dao_title.lower() == 'digitalisat' or dao_title == 'Digitalisate':
+                dao_content_type = ContentType.LETTER
+            else:
+                dao_content_type = ContentType.ATTACHMENT
+
+        elif len(dao_url_list) == 1 and len(dao_title_list) < 1:
+            dao_url: str = dao_url_list[0].strip()
+            dao_content_type: ContentType = ContentType.UNDEFINED
+            dao_title: str = ContentType.UNDEFINED.name
+
+        else:
+            raise ValueError
+
+        digital_archival_object = DigitalArchivalObject(url=dao_url, content_type=dao_content_type, title=dao_title)
+        digital_archival_objects.append(digital_archival_object)
+
+    return digital_archival_objects
 
 
 def _format_origin_date(origin_date_str: str, is_start_date: bool) -> str:
@@ -155,27 +170,28 @@ def _extract_letter_origin_dates(origin_date: str) -> Tuple[date, date, bool]:
     return origin_dates
 
 
-def _extract_letter(item: etree.Element,
+def _extract_letter(xml_element_ead_component: etree.Element,
+                    digital_archival_objects: List[DigitalArchivalObject],
                     authors: List[Person],
                     recipients: List[Person],
                     place_of_origin: Place,
-                    place_of_reception: Place,
-                    digital_copies: List[DigitalArchivalObject]) -> Letter:
+                    place_of_reception: Place) -> Letter:
     global letter_date_value_error_log
 
     # obligatory elements
-    xml_element_id: List[str] = item.xpath('./@id')
-    xml_element_unittitle: List[etree.Element] = item.xpath(f'./{DF}:did/{DF}:unittitle', namespaces=NS)
-    xml_elements_langcode: List[etree.Element] = item.xpath(f'./{DF}:did/{DF}:langmaterial/{DF}:language/@langcode',
-                                                            namespaces=NS)
+    xml_element_id: List[str] = xml_element_ead_component.xpath('./@id')
+    xml_element_unittitle: List[etree.Element] = xml_element_ead_component.xpath(f'./{DF}:did/{DF}:unittitle',
+                                                                                 namespaces=NS)
+    xml_elements_langcode: List[etree.Element] = xml_element_ead_component.xpath(
+        f'./{DF}:did/{DF}:langmaterial/{DF}:language/@langcode', namespaces=NS)
 
     # optional elements
-    xml_element_unitdate: List[str] =\
-        item.xpath(f'./{DF}:did/{DF}:unitdate[@label="Entstehungsdatum"]/@normal', namespaces=NS)
-    xml_element_extent: List[etree.Element] = item.xpath(
+    xml_element_unitdate: List[str] = xml_element_ead_component.xpath(
+        f'./{DF}:did/{DF}:unitdate[@label="Entstehungsdatum"]/@normal', namespaces=NS)
+    xml_element_extent: List[etree.Element] = xml_element_ead_component.xpath(
         f'./{DF}:did/{DF}:physdesc[@label="Angaben zum Material"]/{DF}:extent[@label="Umfang"]', namespaces=NS)
-    xml_elements_scopecontent: List[etree.Element] =\
-        item.xpath(f'./{DF}:scopecontent/{DF}:head[text()="Inhaltsangabe"]/following-sibling::{DF}:p', namespaces=NS)
+    xml_elements_scopecontent: List[etree.Element] = xml_element_ead_component.xpath(
+        f'./{DF}:scopecontent/{DF}:head[text()="Inhaltsangabe"]/following-sibling::{DF}:p', namespaces=NS)
 
     # required letter attributes
     kalliope_id: str = str(xml_element_id[0])
@@ -224,7 +240,7 @@ def _extract_letter(item: etree.Element,
         origin_place=place_of_origin,
         reception_place=place_of_reception,
         summary_paragraphs=summary_paragraph_list,
-        digital_copies=digital_copies)
+        digital_archival_objects=digital_archival_objects)
 
 
 def process_ead_files(file_paths: List[str]) -> List[Letter]:
@@ -243,28 +259,35 @@ def process_ead_file(ead_file: str) -> List[Letter]:
 
     logger.info(f'Parsing input file {ead_file} ...')
 
-    parser: etree.XMLParser = etree.XMLParser()
-    tree: etree.ElementTree = etree.parse(ead_file, parser)
-    items: List[etree.Element] = tree.xpath(f'//{DF}:c[@level="item"]', namespaces=NS)
+    xml_parser: etree.XMLParser = etree.XMLParser()
+    xml_element_tree: etree.ElementTree = etree.parse(ead_file, xml_parser)
+    xml_element_ead_component_list: List[etree.Element] = xml_element_tree.xpath(f'//{DF}:c[@level="item"]',
+                                                                                 namespaces=NS)
 
     places.unhandled_place_authority_source_log = []
     places.auth_name_different_from_value_log = []
     person_name_different_from_auth_name_log = []
     letter_date_value_error_log = []
 
-    for item in items:
-        authors: List[Person] = \
-            _extract_persons(item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Verfasser"] | '
-                                        f'./{DF}:controlaccess/{DF}:corpname[@role="Verfasser"]', namespaces=NS))
-        recipients: List[Person] = \
-            _extract_persons(item.xpath(f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"] | '
-                                        f'./{DF}:controlaccess/{DF}:corpname[@role="Adressat"]', namespaces=NS))
+    for xml_element_ead_component in xml_element_ead_component_list:
+        digital_archival_objects: List[DigitalArchivalObject] = \
+            _extract_digital_archival_objects(xml_element_ead_component)
+        authors: List[Person] = _extract_persons(xml_element_ead_component.xpath(
+            f'./{DF}:controlaccess/{DF}:persname[@role="Verfasser"] | '
+            f'./{DF}:controlaccess/{DF}:corpname[@role="Verfasser"]', namespaces=NS))
+        recipients: List[Person] = _extract_persons(xml_element_ead_component.xpath(
+            f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"] | '
+            f'./{DF}:controlaccess/{DF}:corpname[@role="Adressat"]', namespaces=NS))
 
-        origin_place: Place = places.extract_place_of_origin(item)
-        recipient_place: Place = places.extract_place_of_reception(item)
-        digital_copies: List[DigitalArchivalObject] = _extract_digital_copies(item)
+        origin_place: Place = places.extract_place_of_origin(xml_element_ead_component)
+        recipient_place: Place = places.extract_place_of_reception(xml_element_ead_component)
 
-        letter: Letter = _extract_letter(item, authors, recipients, origin_place, recipient_place, digital_copies)
+        letter: Letter = _extract_letter(xml_element_ead_component,
+                                         digital_archival_objects,
+                                         authors,
+                                         recipients,
+                                         origin_place,
+                                         recipient_place)
 
         result.append(letter)
 

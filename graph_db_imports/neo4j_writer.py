@@ -58,17 +58,13 @@ def _import_place_nodes(transaction: Transaction, letter_list: List[Letter]):
     transaction.run(statement, parameters)
 
 
-def _import_person_nodes(transaction: Transaction, data: List[Letter]):
+def _import_person_nodes(transaction: Transaction, letter_list: List[Letter]):
     logger.info('Importing person nodes.')
     persons: Set[Person] = set()
 
-    for letter in data:
-        for person in letter.authors:
-            if person not in persons:
-                persons.add(person)
-        for person in letter.recipients:
-            if person not in persons:
-                persons.add(person)
+    for letter in letter_list:
+        persons.update(letter.authors)
+        persons.update(letter.recipients)
 
     parameters = dict({'person_list': []})
 
@@ -92,21 +88,19 @@ def _import_person_nodes(transaction: Transaction, data: List[Letter]):
     transaction.run(statement, parameters)
 
 
-def _import_digital_archival_objects_nodes(transaction: Transaction, data: List[Letter]):
-    logger.info('Importing digital_archival_objects nodes.')
-    copies: Set[DigitalArchivalObject] = set()
+def _import_digital_archival_object_nodes(transaction: Transaction, letter_list: List[Letter]):
+    logger.info('Importing digital_archival_object nodes.')
+    dao_set: Set[DigitalArchivalObject] = set()
 
-    for letter in data:
-        for dao in letter.digital_copies:
-            if dao not in copies:
-                copies.add(dao)
+    for letter in letter_list:
+        dao_set.update(letter.digital_archival_objects)
 
     parameters = dict({'digital_archival_object_list': []})
 
-    for dao in copies:
+    for dao in dao_set:
         parameters['digital_archival_object_list'].append({
-            'dao_title': dao.dao_title,
-            'dao_url': dao.dao_url
+            'url': dao.url,
+            'title': dao.title
         })
 
     statement = """
@@ -118,12 +112,12 @@ def _import_digital_archival_objects_nodes(transaction: Transaction, data: List[
     transaction.run(statement, parameters)
 
 
-def _import_letter_nodes(transaction: Transaction, letters: List[Letter]):
+def _import_letter_nodes(transaction: Transaction, letter_list: List[Letter]):
     logger.info('Importing letter nodes.')
 
     parameters = {'letter_list': []}
 
-    for letter in letters:
+    for letter in letter_list:
         summary_paragraphs: str = None
         if letter.summary_paragraphs is not None:
             summary_paragraphs = ' | '.join(letter.summary_paragraphs)
@@ -148,12 +142,12 @@ def _import_letter_nodes(transaction: Transaction, letters: List[Letter]):
     transaction.run(statement, parameters)
 
 
-def _import_send_from_relationships(transaction: Transaction, data: List[Letter]):
+def _import_send_from_relationships(transaction: Transaction, letter_list: List[Letter]):
     logger.info('Importing send_from relationships.')
 
     parameters = {'place_of_origin': []}
 
-    for letter in data:
+    for letter in letter_list:
         if letter.origin_place is not None:
             parameters['place_of_origin'].append({
                     'letter_id': letter.kalliope_id,
@@ -178,12 +172,12 @@ def _import_send_from_relationships(transaction: Transaction, data: List[Letter]
     transaction.run(statement, parameters)
 
 
-def _import_send_to_relationships(transaction: Transaction, data: List[Letter]):
+def _import_send_to_relationships(transaction: Transaction, letter_list: List[Letter]):
     logger.info('Importing send_to relationships.')
 
     parameters = {'place_of_reception': []}
 
-    for letter in data:
+    for letter in letter_list:
         if letter.reception_place is not None:
             parameters['place_of_reception'].append({
                 'letter_id': letter.kalliope_id,
@@ -208,12 +202,12 @@ def _import_send_to_relationships(transaction: Transaction, data: List[Letter]):
     transaction.run(statement, parameters)
 
 
-def _import_is_author_relationships(transaction: Transaction, data: List[Letter]):
+def _import_is_author_relationships(transaction: Transaction, letter_list: List[Letter]):
     logger.info('Importing is_author relationships.')
 
     parameters = {'is_author_list': []}
 
-    for letter in data:
+    for letter in letter_list:
         for author in letter.authors:
             parameters['is_author_list'].append({
                 'letter_id': letter.kalliope_id,
@@ -238,12 +232,12 @@ def _import_is_author_relationships(transaction: Transaction, data: List[Letter]
     transaction.run(statement, parameters)
 
 
-def _import_is_recipient_relationships(transaction: Transaction, data: List[Letter]):
+def _import_is_recipient_relationships(transaction: Transaction, letter_list: List[Letter]):
     logger.info('Importing is_recipient relationships.')
 
     parameters = {'is_recipient_list': []}
 
-    for letter in data:
+    for letter in letter_list:
         for recipient in letter.recipients:
             parameters['is_recipient_list'].append({
                 'letter_id': letter.kalliope_id,
@@ -268,63 +262,80 @@ def _import_is_recipient_relationships(transaction: Transaction, data: List[Lett
     transaction.run(statement, parameters)
 
 
-def _import_arachne_url_attachment_relationships(transaction: Transaction, data: List[Letter]):
-    logger.info('Importing arachne_url_attachment relationships.')
+def _import_has_arachne_url_letter_relationships(transaction: Transaction, letter_list: List[Letter]):
+    logger.info('Importing has_arachne_url_letter relationships.')
 
-    parameters = {'arachne_url_attachment': []}
+    parameters = {'has_arachne_url_letter_list': []}
 
-    for letter in data:
-        for digital_copy in letter.digital_copies:
-            if digital_copy.dao_title != 'Digitalisat' and digital_copy.dao_title != 'Digitalisate':
-                parameters['arachne_url_attachment'].append({
+    for letter in letter_list:
+        for digital_archival_object in letter.digital_archival_objects:
+            if digital_archival_object.content_type == ContentType.LETTER:
+                parameters['has_arachne_url_letter_list'].append({
                     'letter_id': letter.kalliope_id,
-                    'dao_title': digital_copy.dao_title,
-                    'dao_url': digital_copy.dao_url
+                    'url': digital_archival_object.url,
+                    'title': digital_archival_object.title
                 })
 
     statement = """
-        UNWIND {arachne_url_attachment} as arachne_url_attachment
-        MATCH (letter:Letter { kalliope_id: arachne_url_attachment.letter_id  })
-        MATCH (digital_copy: DigitalArchivalObject {
-                    dao_title: arachne_url_attachment.dao_title,
-                    dao_url: arachne_url_attachment.dao_url
-                    }
-              )
-        CREATE (letter) -[:HAS_ARACHNE_URL_ATTACHMENT ]-> (digital_copy)
+        UNWIND {has_arachne_url_letter_list} as has_arachne_url_letter
+        MATCH (letter:Letter { kalliope_id: has_arachne_url_letter.letter_id })
+        MATCH (dao:DigitalArchivalObject { url: has_arachne_url_letter.url, title: has_arachne_url_letter.title })
+        CREATE (letter) -[:HAS_ARACHNE_URL_LETTER]-> (dao)
     """
 
     transaction.run(statement, parameters)
 
 
-def _import_arachne_url_letter_relationships(transaction: Transaction, data: List[Letter]):
-    logger.info('Importing arachne_url_letter relationships.')
+def _import_has_arachne_url_attachment_relationships(transaction: Transaction, letter_list: List[Letter]):
+    logger.info('Importing has_arachne_url_attachment relationships.')
 
-    parameters = {'arachne_url_letter': []}
+    parameters = {'has_arachne_url_attachment_list': []}
 
-    for letter in data:
-        for digital_copy in letter.digital_copies:
-            if digital_copy.dao_title == 'Digitalisat' or digital_copy.dao_title == 'Digitalisate':
-                parameters['arachne_url_letter'].append({
+    for letter in letter_list:
+        for digital_archival_object in letter.digital_archival_objects:
+            if digital_archival_object.content_type == ContentType.ATTACHMENT:
+                parameters['has_arachne_url_attachment_list'].append({
                     'letter_id': letter.kalliope_id,
-                    'dao_title': digital_copy.dao_title,
-                    'dao_url': digital_copy.dao_url
+                    'url': digital_archival_object.url,
+                    'title': digital_archival_object.title
                 })
 
     statement = """
-        UNWIND {arachne_url_letter} as arachne_url_letter
-        MATCH (letter:Letter { kalliope_id: arachne_url_letter.letter_id  })
-        MATCH (digital_copy: DigitalArchivalObject {
-                    dao_title: arachne_url_letter.dao_title,
-                    dao_url: arachne_url_letter.dao_url
-                    }
-              )
-        CREATE (letter) -[:HAS_ARACHNE_URL_LETTER ]-> (digital_copy)
+        UNWIND {has_arachne_url_attachment_list} as has_arachne_url_attachment
+        MATCH (letter:Letter { kalliope_id: has_arachne_url_attachment.letter_id })
+        MATCH (dao:DigitalArchivalObject { 
+                    url: has_arachne_url_attachment.url, title: has_arachne_url_attachment.title })
+        CREATE (letter) -[:HAS_ARACHNE_URL_ATTACHMENT]-> (dao)
     """
 
     transaction.run(statement, parameters)
 
 
-def import_data(data, url, port, username, password):
+def _import_has_arachne_url_undefined_relationships(transaction: Transaction, letter_list: List[Letter]):
+    logger.info('Importing has_arachne_url_undefined relationships.')
+
+    parameters = {'has_arachne_url_undefined_list': []}
+
+    for letter in letter_list:
+        for digital_archival_object in letter.digital_archival_objects:
+            if digital_archival_object.content_type == ContentType.UNDEFINED:
+                parameters['has_arachne_url_undefined_list'].append({
+                    'letter_id': letter.kalliope_id,
+                    'url': digital_archival_object.url,
+                    'title': digital_archival_object.title
+                })
+
+    statement = """
+        UNWIND {has_arachne_url_undefined_list} as has_arachne_url_undefined
+        MATCH (letter:Letter { kalliope_id: has_arachne_url_undefined.letter_id })
+        MATCH (dao:DigitalArchivalObject { url: has_arachne_url_undefined.url, title: has_arachne_url_undefined.title })
+        CREATE (letter) -[:HAS_ARACHNE_URL_UNDEFINED]-> (dao)
+    """
+
+    transaction.run(statement, parameters)
+
+
+def import_data(data: List[Letter], url: str, port: int, username: str, password: str) -> None:
     logger.info('-----')
     logger.info('Starting import ...')
     logger.info('-----')
@@ -335,20 +346,21 @@ def import_data(data, url, port, username, password):
         with session.begin_transaction() as schema_transaction:
             schema_transaction.run('CREATE INDEX ON :Place(name)')
             schema_transaction.run('CREATE INDEX ON :Person(name)')
-            schema_transaction.run('CREATE INDEX ON :DigitalArchivalObject(dao_title)')
+            schema_transaction.run('CREATE INDEX ON :DigitalArchivalObject(url)')
             schema_transaction.run('CREATE CONSTRAINT ON (letter:Letter) ASSERT letter.kalliope_id IS UNIQUE')
 
         with session.begin_transaction() as data_transaction:
             _import_place_nodes(data_transaction, data)
             _import_person_nodes(data_transaction, data)
-            _import_digital_archival_objects_nodes(data_transaction, data)
+            _import_digital_archival_object_nodes(data_transaction, data)
             _import_letter_nodes(data_transaction, data)
             _import_send_from_relationships(data_transaction, data)
             _import_send_to_relationships(data_transaction, data)
             _import_is_author_relationships(data_transaction, data)
             _import_is_recipient_relationships(data_transaction, data)
-            _import_arachne_url_attachment_relationships(data_transaction, data)
-            _import_arachne_url_letter_relationships(data_transaction, data)
+            _import_has_arachne_url_letter_relationships(data_transaction, data)
+            _import_has_arachne_url_attachment_relationships(data_transaction, data)
+            _import_has_arachne_url_undefined_relationships(data_transaction, data)
 
     logger.info('=====')
     logger.info('Import done.')
