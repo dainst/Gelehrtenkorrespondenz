@@ -5,10 +5,8 @@ from data_structures import *
 from typing import Tuple
 
 
-logging.basicConfig(format='%(asctime)s %(message)s')
-
+logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
 
 DATE_PATTERN = re.compile('\d{4}-\d{2}-\d{2}')
 
