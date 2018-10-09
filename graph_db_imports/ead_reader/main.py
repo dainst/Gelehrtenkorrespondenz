@@ -7,19 +7,24 @@ from config import *
 from data_structures import *
 from datetime import date
 from lxml import etree
-from typing import Tuple
+from typing import Tuple, Dict
+from rdflib import Graph, URIRef
+from urllib.error import HTTPError
 
-logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
+logging.basicConfig(format='%(asctime)s %(message)s')
 logger: logging.Logger = logging.getLogger(__name__)
+logger.level = logging.DEBUG
 
 PRESUMED_PERSON_IDENTIFIER: str = '[vermutlich]'
 
+gnd_biographical_data_collection: Dict[str, Tuple[date, date]] = {}
 person_name_different_from_auth_name_log: List[Tuple[str, str]] = []
 unhandled_person_authority_source_log: List[Tuple[str, str, str, str]] = []
 letter_date_value_error_log: List[Tuple[str, str]] = []
 
 
 def _extract_persons(person_xml_elements: List[etree.Element]) -> List[Person]:
+    global gnd_biographical_data_collection
     global person_name_different_from_auth_name_log
     global unhandled_person_authority_source_log
     persons: List[Person] = []
@@ -33,6 +38,8 @@ def _extract_persons(person_xml_elements: List[etree.Element]) -> List[Person]:
         name_normal: str = person_xml_element.xpath('./@normal')[0]
         auth_first_name: str = None
         auth_last_name: str = None
+        gnd_date_of_birth: date = None     # date oder str statt float
+        gnd_date_of_death: date = None
 
         if PRESUMED_PERSON_IDENTIFIER in name.lower():
             name_presumed = True
@@ -57,6 +64,14 @@ def _extract_persons(person_xml_elements: List[etree.Element]) -> List[Person]:
             if log_entry not in unhandled_person_authority_source_log:
                 unhandled_person_authority_source_log.append(log_entry)
 
+        if auth_source == 'GND':
+            try:
+                gnd_date_of_birth, gnd_date_of_death = gnd_biographical_data_collection[auth_id]
+            except KeyError:
+                _fetch_gnd_biographical_data(auth_id)
+                gnd_date_of_birth, gnd_date_of_death = gnd_biographical_data_collection[auth_id]
+                logger.debug(f'_extract_persons_: {auth_id, gnd_date_of_birth, gnd_date_of_death}')
+
         person = Person(name,
                         name_presumed,
                         is_corporation,
@@ -64,10 +79,49 @@ def _extract_persons(person_xml_elements: List[etree.Element]) -> List[Person]:
                         auth_id=auth_id,
                         auth_name=name_normal,
                         auth_first_name=auth_first_name,
-                        auth_last_name=auth_last_name)
+                        auth_last_name=auth_last_name,
+                        date_of_birth=gnd_date_of_birth,
+                        date_of_death=gnd_date_of_death)
         persons.append(person)
 
     return persons
+
+
+def _fetch_gnd_biographical_data(gnd_auth_id: str):
+    global gnd_biographical_data_collection
+
+    url = f'https://d-nb.info/gnd/{gnd_auth_id}/about/lds'
+    rdf_graph: Graph = Graph()
+    gnd_date_of_birth: date = None
+    gnd_date_of_death: date = None
+
+    try:
+        rdf_graph.load(url)
+
+        rdf_objects = list(rdf_graph.objects(predicate=URIRef('http://d-nb.info/standards/elementset/gnd#dateOfBirth')))
+        if len(rdf_objects) == 1:
+            gnd_date_of_birth: date = date.fromisoformat(rdf_objects[0])
+        elif len(rdf_objects) == 0:
+            logger.debug(f'Found no date of birth for GND person {gnd_auth_id}.')
+        else:
+            logger.error(f'Found more than one date of birth for GND person {gnd_auth_id}:')
+            logger.error(rdf_objects)
+
+        rdf_objects = list(rdf_graph.objects(predicate=URIRef('http://d-nb.info/standards/elementset/gnd#dateOfDeath')))
+        if len(rdf_objects) == 1:
+            gnd_date_of_death: date = date.fromisoformat(rdf_objects[0])
+        elif len(rdf_objects) == 0:
+            logger.debug(f'Found no date of death for GND person {gnd_auth_id}.')
+        else:
+            logger.error(f'Found more than one date of death for GND person {gnd_auth_id}:')
+            logger.error(rdf_objects)
+
+    except HTTPError as e:
+        logger.error(f'Got {e.code} for {url}.')
+
+    biographical_data_tuple: Tuple[date, date] = (gnd_date_of_birth, gnd_date_of_death)
+
+    gnd_biographical_data_collection[gnd_auth_id] = biographical_data_tuple
 
 
 def _extract_digital_archival_objects(xml_element_ead_component: etree.Element) -> List[DigitalArchivalObject]:
