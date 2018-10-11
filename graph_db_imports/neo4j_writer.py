@@ -264,6 +264,37 @@ def _import_is_recipient_relationships(transaction: Transaction, letter_list: Li
     transaction.run(statement, parameters)
 
 
+def _import_is_mentioned_relationship(transaction: Transaction, letter_list: List[Letter]):
+    logger.info('Importing is_mentioned relationships.')
+
+    parameters = {'is_mentioned_list': []}
+
+    for letter in letter_list:
+        for person in letter.mentioned_persons:
+            parameters['is_mentioned_list'].append({
+                'letter_id': letter.kalliope_id,
+                'name': person.name,
+                'name_presumed': person.name_presumed,
+                'auth_source': person.auth_source,
+                'auth_id': person.auth_id
+
+            })
+
+    statement = """
+        UNWIND {is_mentioned_list} as is_person
+        MATCH (letter:Letter { kalliope_id: is_person.letter_id })
+        MATCH (person:Person {
+                        name: is_person.name,
+                        auth_source: is_person.auth_source,
+                        auth_id: is_person.auth_id
+                        }
+              )
+        CREATE (person) -[:IS_MENTIONED { presumed: is_person.name_presumed }]-> (letter)  
+    """
+
+    transaction.run(statement, parameters)
+
+
 def _import_has_arachne_url_letter_relationships(transaction: Transaction, letter_list: List[Letter]):
     logger.info('Importing has_arachne_url_letter relationships.')
 
@@ -360,6 +391,7 @@ def import_data(data: List[Letter], url: str, port: int, username: str, password
             _import_send_to_relationships(data_transaction, data)
             _import_is_author_relationships(data_transaction, data)
             _import_is_recipient_relationships(data_transaction, data)
+            _import_is_mentioned_relationship(data_transaction, data)
             _import_has_arachne_url_letter_relationships(data_transaction, data)
             _import_has_arachne_url_attachment_relationships(data_transaction, data)
             _import_has_arachne_url_undefined_relationships(data_transaction, data)

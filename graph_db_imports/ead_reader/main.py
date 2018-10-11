@@ -228,6 +228,7 @@ def _extract_letter(xml_element_ead_component: etree.Element,
                     digital_archival_objects: List[DigitalArchivalObject],
                     authors: List[Person],
                     recipients: List[Person],
+                    mentioned_persons: List[Person],
                     place_of_origin: Place,
                     place_of_reception: Place) -> Letter:
     global letter_date_value_error_log
@@ -291,6 +292,7 @@ def _extract_letter(xml_element_ead_component: etree.Element,
         extent=extent,
         authors=authors,
         recipients=recipients,
+        mentioned_persons=mentioned_persons,
         origin_place=place_of_origin,
         reception_place=place_of_reception,
         summary_paragraphs=summary_paragraph_list,
@@ -332,6 +334,10 @@ def process_ead_file(ead_file: str) -> List[Letter]:
         recipients: List[Person] = _extract_persons(xml_element_ead_component.xpath(
             f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"] | '
             f'./{DF}:controlaccess/{DF}:corpname[@role="Adressat"]', namespaces=NS))
+        mentioned_persons: List[Person] = _extract_persons(xml_element_ead_component.xpath(
+            f'./{DF}:controlaccess/{DF}:persname[@role="Erwähnt"] | '
+            f'./{DF}:controlaccess/{DF}:persname[@role="Behandelt"] | '
+            f'./{DF}:controlaccess/{DF}:persname[@role="Dokumentiert"]', namespaces=NS))
 
         origin_place: Place = places.extract_place_of_origin(xml_element_ead_component)
         recipient_place: Place = places.extract_place_of_reception(xml_element_ead_component)
@@ -340,6 +346,7 @@ def process_ead_file(ead_file: str) -> List[Letter]:
                                          digital_archival_objects,
                                          authors,
                                          recipients,
+                                         mentioned_persons,
                                          origin_place,
                                          recipient_place)
 
