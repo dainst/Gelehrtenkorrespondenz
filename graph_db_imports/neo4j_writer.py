@@ -10,13 +10,15 @@ logger: logging.Logger = logging.getLogger(__name__)
 
 def _import_place_nodes(transaction: Transaction, letter_list: List[Letter]):
     logger.info('Importing place nodes.')
+    origin_places: Set[Place] = set()
     places: Set[Place] = set()
 
     for letter in letter_list:
-        origin_place: Place = letter.origin_place
+        origin_places.update(letter.origin_places)
 
-        if origin_place is not None and origin_place not in places:
-            places.add(origin_place)
+        for origin_place in origin_places:
+            if origin_place is not None and origin_place not in places:
+                places.add(origin_place)
 
     for letter in letter_list:
         reception_place: Place = letter.reception_place
@@ -150,14 +152,15 @@ def _import_send_from_relationships(transaction: Transaction, letter_list: List[
     parameters = {'place_of_origin': []}
 
     for letter in letter_list:
-        if letter.origin_place is not None:
-            parameters['place_of_origin'].append({
-                    'letter_id': letter.kalliope_id,
-                    'name': letter.origin_place.name,
-                    'name_presumed': letter.origin_place.name_presumed,
-                    'auth_source': letter.origin_place.auth_source,
-                    'auth_id': letter.origin_place.auth_id
-            })
+        for origin_place in letter.origin_places:
+            if origin_place is not None:
+                parameters['place_of_origin'].append({
+                        'letter_id': letter.kalliope_id,
+                        'name': origin_place.name,
+                        'name_presumed': origin_place.name_presumed,
+                        'auth_source': origin_place.auth_source,
+                        'auth_id': origin_place.auth_id
+                })
 
     statement = """
         UNWIND {place_of_origin} as place_of_origin

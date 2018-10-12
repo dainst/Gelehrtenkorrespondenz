@@ -165,17 +165,20 @@ def _determinate_authority_source(place_auth_source: str, place_auth_id: str) ->
     return place_auth_source, place_auth_id, place_auth_coordinates
 
 
-def extract_place_of_origin(item: etree.Element) -> Place:
-    xml_element_geoname: List[etree.Element] = item.xpath(
-        f'./{DF}:controlaccess/{DF}:head[text()="Orte"]/following-sibling::{DF}:geogname/.', namespaces=NS
-    )
+def extract_places_of_origin(place_xml_elements: List[etree.Element]) -> List[Place]:
+    global unhandled_place_authority_source_log
+    global auth_name_different_from_value_log
+    places: List[Place] = []
 
-    if len(xml_element_geoname) > 0:
-        place_name: str = xml_element_geoname[0].xpath('./text()')[0]
+    logger.info(f'place_xml_elements:')
+    logger.info(place_xml_elements)
+    for place_xml_element in place_xml_elements:
+
+        place_name: str = place_xml_element.text
         place_name_presumed: bool = False
-        place_auth_source: str = xml_element_geoname[0].xpath('./@source')[0]
-        place_auth_id: str = xml_element_geoname[0].xpath('./@authfilenumber')[0]
-        place_auth_name: str = xml_element_geoname[0].xpath('./@normal')[0]
+        place_auth_source: str = place_xml_element.xpath('./@source')[0]
+        place_auth_id: str = place_xml_element.xpath('./@authfilenumber')[0]
+        place_auth_name: str = place_xml_element.xpath('./@normal')[0]
 
         if PRESUMED_PLACE_IDENTIFIER in place_name.lower():
             place_name_presumed = True
@@ -203,15 +206,18 @@ def extract_place_of_origin(item: etree.Element) -> Place:
                 place_auth_source, place_auth_id, place_auth_coordinates = \
                     _determinate_authority_source(place_auth_source, place_auth_id)
 
-        return Place(
+        place = Place(
             name=place_name,
             name_presumed=place_name_presumed,
             auth_source=place_auth_source,
             auth_id=place_auth_id,
             auth_name=place_auth_name,
             auth_lat=place_auth_coordinates[0],
-            auth_lng=place_auth_coordinates[1]
-        )
+            auth_lng=place_auth_coordinates[1])
+
+        places.append(place)
+
+    return places
 
 
 # TODO: Parse recipient places.py less naively

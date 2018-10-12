@@ -129,7 +129,7 @@ class Letter:
                  authors: List[Person] = None,
                  recipients: List[Person] = None,
                  mentioned_persons: List[Person] = None,
-                 origin_place: Place = None,
+                 origin_places: List[Place] = None,
                  reception_place: Place = None,
                  summary_paragraphs: List[str] = None):
 
@@ -144,7 +144,7 @@ class Letter:
         self.authors: List[Person] = authors
         self.recipients: List[Person] = recipients
         self.mentioned_persons: List[Person] = mentioned_persons
-        self.origin_place: Place = origin_place
+        self.origin_places: List[Place] = origin_places
         self.reception_place: Place = reception_place
         self.summary_paragraphs: List[str] = summary_paragraphs
 
@@ -161,7 +161,7 @@ class Letter:
             'authors': self.authors,
             'recipients': self.recipients,
             'mentioned_persons': self.mentioned_persons,
-            'origin_place': self.origin_place,
+            'origin_places': self.origin_places,
             'reception_place': self.reception_place,
             'summary': self.summary_paragraphs
         }))
