@@ -16,27 +16,28 @@ COORDINATES_PATTERN: Pattern = re.compile('Point \(\s(.*)\s(.*).*\s\).*')
 RECIPIENT_PLACE_PATTERN: Pattern = re.compile('Empfängerort:\s(.*)')
 PRESUMED_PLACE_IDENTIFIER: str = '[vermutlich]'
 
-gnd_place_collection: Dict[str, Tuple[float, float]] = {}
-gaz_place_collection: Dict[str, Tuple[str, float, float]] = {}
-unhandled_place_authority_source_log: List[Tuple[str, str, str, str]] = []
-unhandled_place_authority_coordinates_absence_log: List[Tuple[str, str]] = []
-unhandled_place_authority_gazetteer_mapping_log: List[Tuple[str, str]] = []
-auth_name_different_from_value_log: List[Tuple[str, str]] = []
+gnd_place_dict: Dict[str, Tuple[float, float]] = {}
+gaz_place_dict: Dict[str, Tuple[str, float, float]] = {}
+place_without_gnd_authority_source_log: List[Tuple[str, str, str, str]] = []
+place_without_authority_coordinates_log: List[Tuple[str, str]] = []
+place_without_gnd_gazetteer_mapping_log: List[Tuple[str, str]] = []
+place_gnd_id_invalid_log: List[Tuple[str, str, str]] = []
+place_name_differs_from_authority_name_log: List[Tuple[str, str]] = []
 
 
 def _extract_gazetteer_coordinates(gnd_id: str, json_data: Any):
-    global gaz_place_collection
-    global unhandled_place_authority_gazetteer_mapping_log
-    global unhandled_place_authority_coordinates_absence_log
+    global gaz_place_dict
+    global place_without_gnd_gazetteer_mapping_log
+    global place_without_authority_coordinates_log
     result_total: int = json_data['total']
 
     if result_total == 0:
         logger.debug(f'No GND (id: {gnd_id}) to Gazetteer mapping found!')
-        gaz_place_collection[gnd_id] = (None, None, None)
+        gaz_place_dict[gnd_id] = (None, None, None)
         log_entry: Tuple[str, str] = (gnd_id, 'GND')
 
-        if log_entry not in unhandled_place_authority_gazetteer_mapping_log:
-            unhandled_place_authority_gazetteer_mapping_log.append(log_entry)
+        if log_entry not in place_without_gnd_gazetteer_mapping_log:
+            place_without_gnd_gazetteer_mapping_log.append(log_entry)
 
     elif result_total == 1:
         gaz_id: str = json_data['result'][0]['gazId']
@@ -47,16 +48,16 @@ def _extract_gazetteer_coordinates(gnd_id: str, json_data: Any):
 
             if len(gaz_coordinates) == 0:
                 logger.debug(f'Found no coordinate set for Gazetteer place {gaz_id}.')
-                gaz_place_collection[gnd_id] = (gaz_id, None, None)
+                gaz_place_dict[gnd_id] = (gaz_id, None, None)
                 log_entry: Tuple[str, str] = (gnd_id, gaz_id)
 
-                if log_entry not in unhandled_place_authority_coordinates_absence_log:
-                    unhandled_place_authority_coordinates_absence_log.append(log_entry)
+                if log_entry not in place_without_authority_coordinates_log:
+                    place_without_authority_coordinates_log.append(log_entry)
 
             elif len(gaz_coordinates) == 2:
                 lng: float = gaz_coordinates[0]
                 lat: float = gaz_coordinates[1]
-                gaz_place_collection[gnd_id] = (gaz_id, lat, lng)
+                gaz_place_dict[gnd_id] = (gaz_id, lat, lng)
 
             else:
                 logger.error(f'Found more than one coordinate set for Gazetteer place {gaz_id}.')
@@ -101,42 +102,40 @@ def _fetch_gaz_location_coordinates(gnd_id: str) -> None:
 
 
 def _fetch_gnd_location_coordinates(gnd_id: str) -> None:
-    global gnd_place_collection
-    gnd_place_collection[gnd_id] = (None, None)
-    url = f'http://d-nb.info/gnd/{gnd_id}/about/lds'
+    global gnd_place_dict
+    gnd_place_dict[gnd_id] = (None, None)
+    coordinate_list: List[Tuple[float, float]] = []
+
+    url: str = f'http://d-nb.info/gnd/{gnd_id}/about/lds'
+    coordinate_uri: str = 'http://www.opengis.net/ont/geosparql#asWKT'
     rdf_graph: Graph = Graph()
+    rdf_graph.load(url)
 
-    try:
-        rdf_graph.load(url)
-        coordinate_list: List[Tuple[float, float]] = []
+    for rdf_object in rdf_graph.objects(predicate=URIRef(coordinate_uri)):
+        match: Match = COORDINATES_PATTERN.match(rdf_object)
 
-        for rdf_object in rdf_graph.objects(predicate=URIRef('http://www.opengis.net/ont/geosparql#asWKT')):
-            match: Match = COORDINATES_PATTERN.match(rdf_object)
+        if match is not None:
+            lng: float = float(match.group(1))
+            lat: float = float(match.group(2))
+            coordinate_list.append((lat, lng))
 
-            if match is not None:
-                lng: float = float(match.group(1))
-                lat: float = float(match.group(2))
-                coordinate_list.append((lat, lng))
+    if len(coordinate_list) == 1:
+        gnd_place_dict[gnd_id] = coordinate_list[0]
 
-        if len(coordinate_list) == 1:
-            gnd_place_collection[gnd_id] = coordinate_list[0]
+    elif len(coordinate_list) == 0:
+        logger.debug(f'Found no coordinate set for GND place {gnd_id}.')
+        log_entry: Tuple[str, str] = (gnd_id, None)
 
-        elif len(coordinate_list) == 0:
-            logger.debug(f'Found no coordinate set for GND place {gnd_id}.')
-            log_entry: Tuple[str, str] = (gnd_id, None)
+        if log_entry not in place_without_authority_coordinates_log:
+            place_without_authority_coordinates_log.append(log_entry)
 
-            if log_entry not in unhandled_place_authority_coordinates_absence_log:
-                unhandled_place_authority_coordinates_absence_log.append(log_entry)
-
-        else:
-            logger.error(f'Found more than one coordinate set for GND place {gnd_id}.')
-
-    except HTTPError as e:
-        logger.error(f'Got {e.code} for {url}.')
+    else:
+        logger.error(f'Found more than one coordinate set for GND place {gnd_id}.')
 
 
 def _determinate_authority_source(place_auth_source: str, place_auth_id: str) -> (str, str, Tuple[float, float]):
-    gaz_coordinates = gaz_place_collection[place_auth_id]
+    global place_gnd_id_invalid_log
+    gaz_coordinates = gaz_place_dict[place_auth_id]
     gaz_id = gaz_coordinates[0]
 
     if gaz_id is not None:
@@ -146,11 +145,22 @@ def _determinate_authority_source(place_auth_source: str, place_auth_id: str) ->
 
     else:
         try:
-            place_auth_coordinates = gnd_place_collection[place_auth_id]
+            place_auth_coordinates = gnd_place_dict[place_auth_id]
 
         except KeyError:
-            _fetch_gnd_location_coordinates(place_auth_id)
-            place_auth_coordinates = gnd_place_collection[place_auth_id]
+            try:
+                _fetch_gnd_location_coordinates(place_auth_id)
+                place_auth_coordinates = gnd_place_dict[place_auth_id]
+
+            except HTTPError as error:
+                place_auth_coordinates = (None, None)
+                logger.error(f'_fetch_gnd_location_coordinates: Got {error.code} for {error.url}.')
+
+                if error.code == 404:
+                    log_entry: Tuple[str, str, str] = (place_auth_source, place_auth_id, error.url)
+
+                    if log_entry not in place_gnd_id_invalid_log:
+                        place_gnd_id_invalid_log.append(log_entry)
 
     return place_auth_source, place_auth_id, place_auth_coordinates
 
@@ -171,16 +181,16 @@ def extract_place_of_origin(item: etree.Element) -> Place:
             place_name_presumed = True
 
         if place_name != place_auth_name:
-            if (place_name, place_auth_name) not in auth_name_different_from_value_log:
-                auth_name_different_from_value_log.append((place_name, place_auth_name))
+            if (place_name, place_auth_name) not in place_name_differs_from_authority_name_log:
+                place_name_differs_from_authority_name_log.append((place_name, place_auth_name))
 
         if place_auth_source != 'GND':
             place_auth_coordinates: Tuple[float, float] = (None, None)
 
             log_entry: Tuple[str, str, str, str] = (place_name, place_auth_source, place_auth_id, place_auth_name)
 
-            if log_entry not in unhandled_place_authority_source_log:
-                unhandled_place_authority_source_log.append(log_entry)
+            if log_entry not in place_without_gnd_authority_source_log:
+                place_without_gnd_authority_source_log.append(log_entry)
 
         else:
 

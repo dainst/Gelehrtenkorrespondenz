@@ -77,8 +77,8 @@ def _import_person_nodes(transaction: Transaction, letter_list: List[Letter]):
             'auth_name': person.auth_name,
             'auth_first_name': person.auth_first_name,
             'auth_last_name': person.auth_last_name,
-            'date_of_birth': person.date_of_birth,
-            'date_of_death': person.date_of_death,
+            'auth_birth_date': person.auth_birth_date,
+            'auth_death_date': person.auth_death_date
         })
 
     statement = """

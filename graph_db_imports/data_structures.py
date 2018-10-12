@@ -53,8 +53,8 @@ class Person:
                  auth_name: str = None,
                  auth_first_name: str = None,
                  auth_last_name: str = None,
-                 date_of_birth: date = None,
-                 date_of_death: date = None):
+                 auth_birth_date: date = None,
+                 auth_death_date: date = None):
 
         self.name: str = name
         self.name_presumed: bool = name_presumed
@@ -64,8 +64,8 @@ class Person:
         self.auth_name: str = auth_name
         self.auth_first_name: str = auth_first_name
         self.auth_last_name: str = auth_last_name
-        self.date_of_birth: date = date_of_birth
-        self.date_of_death: date = date_of_death
+        self.auth_birth_date: date = auth_birth_date
+        self.auth_death_date: date = auth_death_date
 
     def __eq__(self, other):
         if not isinstance(other, type(self)):
@@ -85,8 +85,8 @@ class Person:
             'auth_name': self.auth_name,
             'auth_first_name': self.auth_first_name,
             'auth_last_name': self.auth_last_name,
-            'date_of_birth': self.date_of_birth,
-            'date_of_death': self.date_of_death
+            'auth_birth_date': self.auth_birth_date,
+            'auth_death_date': self.auth_death_date
         }))
 
 
