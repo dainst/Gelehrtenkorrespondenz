@@ -10,14 +10,13 @@ logger: logging.Logger = logging.getLogger(__name__)
 
 def _import_place_nodes(transaction: Transaction, letter_list: List[Letter]):
     logger.info('Importing place nodes.')
-    origin_places: Set[Place] = set()
     places: Set[Place] = set()
 
     for letter in letter_list:
-        origin_places.update(letter.origin_places)
+        origin_places: List[Place] = letter.origin_places
 
         for origin_place in origin_places:
-            if origin_place is not None and origin_place not in places:
+            if origin_place not in places:
                 places.add(origin_place)
 
     for letter in letter_list:
@@ -149,21 +148,20 @@ def _import_letter_nodes(transaction: Transaction, letter_list: List[Letter]):
 def _import_send_from_relationships(transaction: Transaction, letter_list: List[Letter]):
     logger.info('Importing send_from relationships.')
 
-    parameters = {'place_of_origin': []}
+    parameters = {'places_of_origin': []}
 
     for letter in letter_list:
         for origin_place in letter.origin_places:
-            if origin_place is not None:
-                parameters['place_of_origin'].append({
-                        'letter_id': letter.kalliope_id,
-                        'name': origin_place.name,
-                        'name_presumed': origin_place.name_presumed,
-                        'auth_source': origin_place.auth_source,
-                        'auth_id': origin_place.auth_id
-                })
+            parameters['places_of_origin'].append({
+                    'letter_id': letter.kalliope_id,
+                    'name': origin_place.name,
+                    'name_presumed': origin_place.name_presumed,
+                    'auth_source': origin_place.auth_source,
+                    'auth_id': origin_place.auth_id
+            })
 
     statement = """
-        UNWIND {place_of_origin} as place_of_origin
+        UNWIND {places_of_origin} as place_of_origin
         MATCH (letter:Letter { kalliope_id: place_of_origin.letter_id })
         MATCH (place:Place {
                     name: place_of_origin.name,
