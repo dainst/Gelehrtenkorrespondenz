@@ -66,6 +66,7 @@ def _import_person_nodes(transaction: Transaction, letter_list: List[Letter]):
     for letter in letter_list:
         persons.update(letter.authors)
         persons.update(letter.recipients)
+        persons.update(letter.mentioned_persons)
 
     parameters = dict({'person_list': []})
 
@@ -271,26 +272,26 @@ def _import_is_mentioned_relationship(transaction: Transaction, letter_list: Lis
     parameters = {'is_mentioned_list': []}
 
     for letter in letter_list:
-        for person in letter.mentioned_persons:
+        for mentioned_person in letter.mentioned_persons:
             parameters['is_mentioned_list'].append({
                 'letter_id': letter.kalliope_id,
-                'name': person.name,
-                'name_presumed': person.name_presumed,
-                'auth_source': person.auth_source,
-                'auth_id': person.auth_id
+                'name': mentioned_person.name,
+                'name_presumed': mentioned_person.name_presumed,
+                'auth_source': mentioned_person.auth_source,
+                'auth_id': mentioned_person.auth_id
 
             })
 
     statement = """
-        UNWIND {is_mentioned_list} as is_person
-        MATCH (letter:Letter { kalliope_id: is_person.letter_id })
+        UNWIND {is_mentioned_list} as is_mentioned
+        MATCH (letter:Letter { kalliope_id: is_mentioned.letter_id })
         MATCH (person:Person {
-                        name: is_person.name,
-                        auth_source: is_person.auth_source,
-                        auth_id: is_person.auth_id
+                        name: is_mentioned.name,
+                        auth_source: is_mentioned.auth_source,
+                        auth_id: is_mentioned.auth_id
                         }
               )
-        CREATE (person) -[:IS_MENTIONED { presumed: is_person.name_presumed }]-> (letter)  
+        CREATE (person) -[:IS_MENTIONED { presumed: is_mentioned.name_presumed }]-> (letter)
     """
 
     transaction.run(statement, parameters)

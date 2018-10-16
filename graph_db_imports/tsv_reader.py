@@ -66,7 +66,7 @@ def _extract_letter_data(
 ) -> Letter:
 
     origin_date_str: str = line[7]
-    
+
     try:
         origin_date: date = date.fromisoformat(origin_date_str)
     except ValueError:

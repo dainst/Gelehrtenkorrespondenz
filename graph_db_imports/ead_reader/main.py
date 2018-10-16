@@ -35,9 +35,9 @@ def _extract_persons(person_xml_elements: List[etree.Element]) -> List[Person]:
         name: str = person_xml_element.text
         name_presumed: bool = False
         is_corporation: bool = False
-        auth_source: str = person_xml_element.xpath('./@source')[0]
-        auth_id: str = person_xml_element.xpath('./@authfilenumber')[0]
-        name_normal: str = person_xml_element.xpath('./@normal')[0]
+        auth_source: str = person_xml_element.get('source')
+        auth_id: str = person_xml_element.get('authfilenumber')
+        name_normal: str = person_xml_element.get('normal')
         auth_first_name: str = None
         auth_last_name: str = None
         gnd_date_of_birth: date = None
@@ -367,8 +367,11 @@ def process_ead_file(ead_file: str) -> List[Letter]:
             f'./{DF}:controlaccess/{DF}:corpname[@role="Adressat"]', namespaces=NS))
         mentioned_persons: List[Person] = _extract_persons(xml_element_ead_component.xpath(
             f'./{DF}:controlaccess/{DF}:persname[@role="Erwähnt"] | '
+            f'./{DF}:controlaccess/{DF}:corpname[@role="Erwähnt"] | '
             f'./{DF}:controlaccess/{DF}:persname[@role="Behandelt"] | '
-            f'./{DF}:controlaccess/{DF}:persname[@role="Dokumentiert"]', namespaces=NS))
+            f'./{DF}:controlaccess/{DF}:corpname[@role="Behandelt"] | '
+            f'./{DF}:controlaccess/{DF}:persname[@role="Dokumentiert"] | '
+            f'./{DF}:controlaccess/{DF}:corpname[@role="Dokumentiert"]', namespaces=NS))
 
         origin_places: List[Place] = places.extract_places_of_origin(xml_element_ead_component.xpath(
             f'./{DF}:controlaccess/{DF}:geogname[@role="Entstehungsort"]', namespaces=NS))
