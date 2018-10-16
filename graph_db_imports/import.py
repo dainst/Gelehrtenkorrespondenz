@@ -8,7 +8,7 @@ from neo4j_writer import import_data
 from tsv_reader import read_data as read_tsv_file
 from typing import List
 
-logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
+logging.basicConfig(format='%(asctime)s %(message)s', level=logging.DEBUG)
 logger: logging.Logger = logging.getLogger(__name__)
 
 
