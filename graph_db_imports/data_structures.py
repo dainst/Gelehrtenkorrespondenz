@@ -52,7 +52,9 @@ class Person:
                  auth_id: str = None,
                  auth_name: str = None,
                  auth_first_name: str = None,
-                 auth_last_name: str = None):
+                 auth_last_name: str = None,
+                 auth_birth_date: date = None,
+                 auth_death_date: date = None):
 
         self.name: str = name
         self.name_presumed: bool = name_presumed
@@ -62,6 +64,8 @@ class Person:
         self.auth_name: str = auth_name
         self.auth_first_name: str = auth_first_name
         self.auth_last_name: str = auth_last_name
+        self.auth_birth_date: date = auth_birth_date
+        self.auth_death_date: date = auth_death_date
 
     def __eq__(self, other):
         if not isinstance(other, type(self)):
@@ -80,7 +84,9 @@ class Person:
             'auth_id': self.auth_id,
             'auth_name': self.auth_name,
             'auth_first_name': self.auth_first_name,
-            'auth_last_name': self.auth_last_name
+            'auth_last_name': self.auth_last_name,
+            'auth_birth_date': self.auth_birth_date,
+            'auth_death_date': self.auth_death_date
         }))
 
 
@@ -122,7 +128,8 @@ class Letter:
                  digital_archival_objects: List[DigitalArchivalObject] = None,
                  authors: List[Person] = None,
                  recipients: List[Person] = None,
-                 origin_place: Place = None,
+                 mentioned_persons: List[Person] = None,
+                 origin_places: List[Place] = None,
                  reception_place: Place = None,
                  summary_paragraphs: List[str] = None):
 
@@ -136,7 +143,8 @@ class Letter:
         self.digital_archival_objects: List[DigitalArchivalObject] = digital_archival_objects
         self.authors: List[Person] = authors
         self.recipients: List[Person] = recipients
-        self.origin_place: Place = origin_place
+        self.mentioned_persons: List[Person] = mentioned_persons
+        self.origin_places: List[Place] = origin_places
         self.reception_place: Place = reception_place
         self.summary_paragraphs: List[str] = summary_paragraphs
 
@@ -152,7 +160,8 @@ class Letter:
             'digital_archival_objects': self.digital_archival_objects,
             'authors': self.authors,
             'recipients': self.recipients,
-            'origin_place': self.origin_place,
+            'mentioned_persons': self.mentioned_persons,
+            'origin_places': self.origin_places,
             'reception_place': self.reception_place,
             'summary': self.summary_paragraphs
         }))

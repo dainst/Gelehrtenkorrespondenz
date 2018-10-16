@@ -13,10 +13,11 @@ def _import_place_nodes(transaction: Transaction, letter_list: List[Letter]):
     places: Set[Place] = set()
 
     for letter in letter_list:
-        origin_place: Place = letter.origin_place
+        origin_places: List[Place] = letter.origin_places
 
-        if origin_place is not None and origin_place not in places:
-            places.add(origin_place)
+        for origin_place in origin_places:
+            if origin_place not in places:
+                places.add(origin_place)
 
     for letter in letter_list:
         reception_place: Place = letter.reception_place
@@ -65,6 +66,7 @@ def _import_person_nodes(transaction: Transaction, letter_list: List[Letter]):
     for letter in letter_list:
         persons.update(letter.authors)
         persons.update(letter.recipients)
+        persons.update(letter.mentioned_persons)
 
     parameters = dict({'person_list': []})
 
@@ -76,7 +78,9 @@ def _import_person_nodes(transaction: Transaction, letter_list: List[Letter]):
             'auth_id': person.auth_id,
             'auth_name': person.auth_name,
             'auth_first_name': person.auth_first_name,
-            'auth_last_name': person.auth_last_name
+            'auth_last_name': person.auth_last_name,
+            'auth_birth_date': person.auth_birth_date,
+            'auth_death_date': person.auth_death_date
         })
 
     statement = """
@@ -145,20 +149,20 @@ def _import_letter_nodes(transaction: Transaction, letter_list: List[Letter]):
 def _import_send_from_relationships(transaction: Transaction, letter_list: List[Letter]):
     logger.info('Importing send_from relationships.')
 
-    parameters = {'place_of_origin': []}
+    parameters = {'places_of_origin': []}
 
     for letter in letter_list:
-        if letter.origin_place is not None:
-            parameters['place_of_origin'].append({
+        for origin_place in letter.origin_places:
+            parameters['places_of_origin'].append({
                     'letter_id': letter.kalliope_id,
-                    'name': letter.origin_place.name,
-                    'name_presumed': letter.origin_place.name_presumed,
-                    'auth_source': letter.origin_place.auth_source,
-                    'auth_id': letter.origin_place.auth_id
+                    'name': origin_place.name,
+                    'name_presumed': origin_place.name_presumed,
+                    'auth_source': origin_place.auth_source,
+                    'auth_id': origin_place.auth_id
             })
 
     statement = """
-        UNWIND {place_of_origin} as place_of_origin
+        UNWIND {places_of_origin} as place_of_origin
         MATCH (letter:Letter { kalliope_id: place_of_origin.letter_id })
         MATCH (place:Place {
                     name: place_of_origin.name,
@@ -262,6 +266,37 @@ def _import_is_recipient_relationships(transaction: Transaction, letter_list: Li
     transaction.run(statement, parameters)
 
 
+def _import_is_mentioned_relationship(transaction: Transaction, letter_list: List[Letter]):
+    logger.info('Importing is_mentioned relationships.')
+
+    parameters = {'is_mentioned_list': []}
+
+    for letter in letter_list:
+        for mentioned_person in letter.mentioned_persons:
+            parameters['is_mentioned_list'].append({
+                'letter_id': letter.kalliope_id,
+                'name': mentioned_person.name,
+                'name_presumed': mentioned_person.name_presumed,
+                'auth_source': mentioned_person.auth_source,
+                'auth_id': mentioned_person.auth_id
+
+            })
+
+    statement = """
+        UNWIND {is_mentioned_list} as is_mentioned
+        MATCH (letter:Letter { kalliope_id: is_mentioned.letter_id })
+        MATCH (person:Person {
+                        name: is_mentioned.name,
+                        auth_source: is_mentioned.auth_source,
+                        auth_id: is_mentioned.auth_id
+                        }
+              )
+        CREATE (person) -[:IS_MENTIONED { presumed: is_mentioned.name_presumed }]-> (letter)
+    """
+
+    transaction.run(statement, parameters)
+
+
 def _import_has_arachne_url_letter_relationships(transaction: Transaction, letter_list: List[Letter]):
     logger.info('Importing has_arachne_url_letter relationships.')
 
@@ -358,6 +393,7 @@ def import_data(data: List[Letter], url: str, port: int, username: str, password
             _import_send_to_relationships(data_transaction, data)
             _import_is_author_relationships(data_transaction, data)
             _import_is_recipient_relationships(data_transaction, data)
+            _import_is_mentioned_relationship(data_transaction, data)
             _import_has_arachne_url_letter_relationships(data_transaction, data)
             _import_has_arachne_url_attachment_relationships(data_transaction, data)
             _import_has_arachne_url_undefined_relationships(data_transaction, data)

@@ -2,6 +2,7 @@ import logging
 import re
 
 from data_structures import *
+from datetime import date
 from typing import Tuple
 
 
@@ -28,7 +29,11 @@ def _extract_persons(line: List[str], index_tuple_list: List[Tuple[int, int]]) -
             name_presumed = False
             gnd_id = line[j]
 
-            results.append(Person(name, name_presumed, gnd_id))
+            results.append(Person(name=name,
+                                  name_presumed=name_presumed,
+                                  is_corporation=False,
+                                  auth_source='GND',
+                                  auth_id=gnd_id))
 
     return results
 
@@ -56,20 +61,28 @@ def _extract_letter_data(
         line:  List[str],
         authors: List[Person],
         recipients: List[Person],
-        origin_place: Place,
+        origin_places: List[Place],
         reception_place: Place
 ) -> Letter:
 
+    origin_date_str: str = line[7]
+
+    try:
+        origin_date: date = date.fromisoformat(origin_date_str)
+    except ValueError:
+        origin_date = None
+
     return Letter(kalliope_id=str(index),
                   title=line[4],
-                  origin_date_from=line[7],
-                  origin_date_till=line[7],
+                  language_codes=[],
+                  origin_date_from=origin_date,
+                  origin_date_till=origin_date,
                   extent=line[8],
                   authors=authors,
                   recipients=recipients,
-                  origin_place=origin_place,
+                  origin_places=origin_places,
                   reception_place=reception_place,
-                  summary_paragraphs=line[17])
+                  summary_paragraphs=[line[17]])
 
 
 def _process_tsv_data(lines:  List[List[str]]) -> List[Letter]:
@@ -80,7 +93,7 @@ def _process_tsv_data(lines:  List[List[str]]) -> List[Letter]:
         recipients: List[Person] = _extract_persons(line, index_tuple_list=[(9, 10), (11, 12), (13, 14)])
         author_place: Place = _extract_place(line, index_tuple=(5, 6))
         recipient_place: Place = _extract_place(line, index_tuple=(15, 16))
-        letter = _extract_letter_data(idx, line, authors, recipients, author_place, recipient_place)
+        letter = _extract_letter_data(idx, line, authors, recipients, [author_place], recipient_place)
         letter_list.append(letter)
 
     return letter_list
