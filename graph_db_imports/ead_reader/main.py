@@ -1,13 +1,15 @@
 import calendar
 import logging
 import sys
+import re
+import requests
 import ead_reader.places as places
 
 from config import *
 from data_structures import *
 from datetime import date
 from lxml import etree
-from typing import Tuple, Dict
+from typing import Tuple, Dict, Match, Pattern, Any
 from rdflib import Graph, URIRef, Literal
 from urllib.error import HTTPError
 
@@ -16,6 +18,7 @@ logger: logging.Logger = logging.getLogger(__name__)
 logger.level = logging.INFO
 
 PRESUMED_PERSON_IDENTIFIER: str = '[vermutlich]'
+ARCHIVE_SEQUENCE_PATTERN: Pattern = re.compile('http://arachne.uni-koeln.de/books/(.+)')
 
 gnd_biographical_person_data_dict: Dict[str, Tuple[date, date]] = {}
 person_name_differs_from_authority_name_log: List[Tuple[str, str]] = []
@@ -148,8 +151,9 @@ def _fetch_gnd_biographical_person_data(gnd_id: str) -> None:
     gnd_biographical_person_data_dict[gnd_id] = biographical_data_tuple
 
 
-def _extract_digital_archival_objects(xml_element_ead_component: etree.Element) -> List[DigitalArchivalObject]:
+def _extract_digital_archival_objects(xml_element_ead_component: etree.Element) -> (List[DigitalArchivalObject], str):
     digital_archival_objects: List[DigitalArchivalObject] = []
+    entity_id: str = None
 
     xml_element_dao_list: List[etree.Element] = \
         xml_element_ead_component.xpath(f'./{DF}:did/{DF}:dao', namespaces=NS)
@@ -164,6 +168,12 @@ def _extract_digital_archival_objects(xml_element_ead_component: etree.Element) 
 
             if dao_title.lower() == 'digitalisat' or dao_title == 'Digitalisate':
                 dao_content_type = ContentType.LETTER
+
+                match: Match = ARCHIVE_SEQUENCE_PATTERN.match(dao_url)
+                if match is not None:
+                    archive_sequence: str = match.group(1)
+                    entity_id = _fetch_entity_id(archive_sequence)
+
             else:
                 dao_content_type = ContentType.ATTACHMENT
 
@@ -178,7 +188,24 @@ def _extract_digital_archival_objects(xml_element_ead_component: etree.Element) 
         digital_archival_object = DigitalArchivalObject(url=dao_url, content_type=dao_content_type, title=dao_title)
         digital_archival_objects.append(digital_archival_object)
 
-    return digital_archival_objects
+    return digital_archival_objects, entity_id
+
+
+def _fetch_entity_id(archive_sequence: str) -> Any:     # -> str:
+    url: str = f'http://bogusman02.dai-cloud.uni-koeln.de/data/books/{archive_sequence}'
+    json_entity_id = None
+
+    try:
+        response: requests.Response = requests.get(url=url)
+        response.raise_for_status()
+        json_data = response.json()
+        json_entity_id = json_data['entityId']
+        print(json_entity_id)
+
+    except requests.exceptions.RequestException as exception:
+        logger.error(f'Service request fails!\nRequest: {exception.request}\nResponse: {exception.response}')
+
+    return json_entity_id
 
 
 def _format_origin_date(origin_date_str: str, is_start_date: bool) -> str:
@@ -250,6 +277,7 @@ def _extract_letter_origin_dates(origin_date: str) -> Tuple[date, date, bool]:
 
 def _extract_letter(xml_element_ead_component: etree.Element,
                     digital_archival_objects: List[DigitalArchivalObject],
+                    entity_id: str,
                     authors: List[Person],
                     recipients: List[Person],
                     mentioned_persons: List[Person],
@@ -320,7 +348,8 @@ def _extract_letter(xml_element_ead_component: etree.Element,
         origin_places=places_of_origin,
         reception_place=place_of_reception,
         summary_paragraphs=summary_paragraph_list,
-        digital_archival_objects=digital_archival_objects)
+        digital_archival_objects=digital_archival_objects,
+        arachne_id=entity_id)
 
 
 def process_ead_files(file_paths: List[str]) -> List[Letter]:
@@ -357,8 +386,9 @@ def process_ead_file(ead_file: str) -> List[Letter]:
     letter_origin_date_invalid_log = []
 
     for xml_element_ead_component in xml_element_ead_component_list:
-        digital_archival_objects: List[DigitalArchivalObject] = \
-            _extract_digital_archival_objects(xml_element_ead_component)
+        '''digital_archival_objects: List[DigitalArchivalObject] = \
+            _extract_digital_archival_objects(xml_element_ead_component)'''
+        digital_archival_objects, entity_id = _extract_digital_archival_objects(xml_element_ead_component)
         authors: List[Person] = _extract_persons(xml_element_ead_component.xpath(
             f'./{DF}:controlaccess/{DF}:persname[@role="Verfasser"] | '
             f'./{DF}:controlaccess/{DF}:corpname[@role="Verfasser"]', namespaces=NS))
@@ -380,6 +410,7 @@ def process_ead_file(ead_file: str) -> List[Letter]:
 
         letter: Letter = _extract_letter(xml_element_ead_component,
                                          digital_archival_objects,
+                                         entity_id,
                                          authors,
                                          recipients,
                                          mentioned_persons,

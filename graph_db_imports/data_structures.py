@@ -126,6 +126,7 @@ class Letter:
                  origin_date_presumed: bool = False,
                  extent: str = None,
                  digital_archival_objects: List[DigitalArchivalObject] = None,
+                 arachne_id: str = None,
                  authors: List[Person] = None,
                  recipients: List[Person] = None,
                  mentioned_persons: List[Person] = None,
@@ -141,6 +142,7 @@ class Letter:
         self.origin_date_presumed: bool = origin_date_presumed
         self.extent: str = extent
         self.digital_archival_objects: List[DigitalArchivalObject] = digital_archival_objects
+        self.arachne_id: str = arachne_id
         self.authors: List[Person] = authors
         self.recipients: List[Person] = recipients
         self.mentioned_persons: List[Person] = mentioned_persons
@@ -158,6 +160,7 @@ class Letter:
             'origin_date_presumed': self.origin_date_presumed,
             'extent': self.extent,
             'digital_archival_objects': self.digital_archival_objects,
+            'arachne_id': self.arachne_id,
             'authors': self.authors,
             'recipients': self.recipients,
             'mentioned_persons': self.mentioned_persons,
