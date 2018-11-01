@@ -200,7 +200,6 @@ def _fetch_entity_id(archive_sequence: str) -> Any:     # -> str:
         response.raise_for_status()
         json_data = response.json()
         json_entity_id = json_data['entityId']
-        print(json_entity_id)
 
     except requests.exceptions.RequestException as exception:
         logger.error(f'Service request fails!\nRequest: {exception.request}\nResponse: {exception.response}')
