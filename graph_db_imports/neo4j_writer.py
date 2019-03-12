@@ -128,6 +128,7 @@ def _import_letter_nodes(transaction: Transaction, letter_list: List[Letter]):
 
         parameters['letter_list'].append({
             'kalliope_id': letter.kalliope_id,
+            'archive_id': letter.archive_id,
             'arachne_id': letter.arachne_id,
             'title': letter.title,
             'language_codes': ', '.join(letter.language_codes),
