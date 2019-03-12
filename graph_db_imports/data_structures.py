@@ -119,6 +119,7 @@ class Letter:
 
     def __init__(self,
                  kalliope_id: str,
+                 archive_id: str,
                  title: str,
                  language_codes: List[str],
                  origin_date_from: date = None,
@@ -135,6 +136,7 @@ class Letter:
                  summary_paragraphs: List[str] = None):
 
         self.kalliope_id: str = kalliope_id
+        self.archive_id: str = archive_id
         self.title: str = title
         self.language_codes: List[str] = language_codes
         self.origin_date_from: date = origin_date_from
@@ -153,6 +155,7 @@ class Letter:
     def __str__(self):
         return str(dict({
             'kalliope_id': self.kalliope_id,
+            'archive_id': self.archive_id,
             'title': self.title,
             'language_code': self.language_codes,
             'origin_date_from': self.origin_date_from,

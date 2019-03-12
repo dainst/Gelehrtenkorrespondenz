@@ -274,7 +274,8 @@ def _extract_letter_origin_dates(origin_date: str) -> Tuple[date, date, bool]:
     return origin_dates
 
 
-def _extract_letter(xml_element_ead_component: etree.Element,
+def _extract_letter(archive_id: str,
+                    xml_element_ead_component: etree.Element,
                     digital_archival_objects: List[DigitalArchivalObject],
                     entity_id: str,
                     authors: List[Person],
@@ -335,6 +336,7 @@ def _extract_letter(xml_element_ead_component: etree.Element,
 
     return Letter(
         kalliope_id=kalliope_id,
+        archive_id=archive_id,
         title=title,
         language_codes=language_code_list,
         origin_date_from=origin_date_from,
@@ -371,6 +373,12 @@ def process_ead_file(ead_file: str) -> List[Letter]:
 
     xml_parser: etree.XMLParser = etree.XMLParser()
     xml_element_tree: etree.ElementTree = etree.parse(ead_file, xml_parser)
+
+    archive_id = xml_element_tree.xpath(
+        f'/{DF}:ead/{DF}:archdesc/{DF}:did/{DF}:repository/{DF}:corpname/@authfilenumber',
+        namespaces=NS
+    )[0]
+
     xml_element_ead_component_list: List[etree.Element] = xml_element_tree.xpath(f'//{DF}:c[@level="item"]',
                                                                                  namespaces=NS)
 
@@ -407,7 +415,8 @@ def process_ead_file(ead_file: str) -> List[Letter]:
 
         recipient_place: Place = places.extract_place_of_reception(xml_element_ead_component)
 
-        letter: Letter = _extract_letter(xml_element_ead_component,
+        letter: Letter = _extract_letter(archive_id,
+                                         xml_element_ead_component,
                                          digital_archival_objects,
                                          entity_id,
                                          authors,
