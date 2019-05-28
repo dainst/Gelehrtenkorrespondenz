@@ -59,8 +59,8 @@ Configuration. If necessary, add the following at the end of the file:
 If you have already installed Python 3.7.x (or higher) globally you could use _venv_ to create a virtual Python
 environment.
 
-1) Create a virtual Python environment by executing `python3 -m venv venv/` in the project's root directory.
-2) Start the virtual environment: `source venv/bin/activate`.
+1) Create a virtual Python environment by executing `python3 -m venv .venv/` in the project's root directory.
+2) Start the virtual environment: `source .venv/bin/activate`.
 3) Install the dependencies while inside the virtual environment: `pip3 install -r graph_db_imports/requirements.txt`.
 
 ## Starting Neo4j
