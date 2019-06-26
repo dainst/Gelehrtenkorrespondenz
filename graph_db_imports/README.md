@@ -15,7 +15,7 @@ This subdirectory contains its own [requirements.txt](requirements.txt).
 ### Starting Neo4j
 
 With Docker installed, simply run:
-```
+```bash
 docker run -p 7474:7474 -p 7687:7687 -v $HOME/.neo4j/data:/data -e NEO4J_AUTH=neo4j/<password> neo4j:3.4.0
 ```
 While replacing <password> with whatever you want to use as your database's root password. 
@@ -25,15 +25,12 @@ Once started you can access its database browser at
 
 #### Importing data
 
-There is already example data included in the repository. You can either import a single TSV file (see `./tsv_data`) or
-a single/multiple EAD files (see `./ead_data`). 
+There is already example data included in the repository. You can either import a single TSV file (see [./tsv_data](tsv_data)) or
+a single/multiple EAD files (see [./ead_data](ead_data), **preferred**). 
 
-If you setup the dependencies in a Python virtual environment (venv, see above), first activate the environment: 
-`source <path to venv directory>/bin/activate`. 
+To start the import run [import.py](import.py) (here importing all EAD files):
 
-To start the import run __import.py__ (here importing all EAD files):
-
-```
+```bash
 python3 graph_db_imports/import.py ./graph_db_imports/ead_data localhost 7687 <username> <password>
 ```
 
@@ -45,3 +42,7 @@ query:
 ```
 MATCH (n) DETACH DELETE n
 ```
+
+##### Updating data
+
+For updating data first copy the updated EAD data into [ead_data](ead_data), then delete the existing data in Neo4j and finally (re-)import all EAD files. You should probably also push the updated EAD files to Github.
