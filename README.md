@@ -35,7 +35,7 @@ This new corpus reader is more flexible and can load all the custom columns for 
 * [lib](lib) stores the configurations, the dictionaries and the saved CRF models
 * [scripts](scripts) : a few scripts for pre- and postprocessing
 * [crfsuite](crfsuite) : a couple of useful scripts from the older python module [CRFSuite](https://github.com/chokkan/crfsuite)
- (but actually, `training.py` makes use of just a few scripts of them; **to do**: get rid of the useless / unused stuff)
+ (but actually, `training.py` makes use of just a few scripts of them
 * [doc](doc) is where the ipynb with the documentations and tutorials will go
 
 ## Installation
