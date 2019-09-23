@@ -21,13 +21,13 @@ PRESUMED_PERSON_IDENTIFIER: str = '[vermutlich]'
 ARCHIVE_SEQUENCE_PATTERN: Pattern = re.compile('http://arachne.uni-koeln.de/books/(.+)')
 
 gnd_biographical_person_data_dict: Dict[str, Tuple[date, date]] = {}
-person_name_differs_from_authority_name_log: List[Tuple[str, str]] = []
-person_without_gnd_authority_source_log: List[Tuple[str, str, str, str]] = []
-person_gnd_id_invalid_log: List[Tuple[str, str, str, str, str]] = []
-letter_origin_date_invalid_log: List[Tuple[str, str]] = []
+person_name_differs_from_authority_name_log: List[Tuple[str, str, str]] = []
+person_without_gnd_authority_source_log: List[Tuple[str, str, str, str, str]] = []
+person_gnd_id_invalid_log: List[Tuple[str, str, str, str, str, str]] = []
+letter_origin_date_invalid_log: List[Tuple[str, str, str]] = []
 
 
-def _extract_persons(person_xml_elements: List[etree.Element]) -> List[Person]:
+def _extract_persons(kalliope_id: str, person_xml_elements: List[etree.Element]) -> List[Person]:
     global gnd_biographical_person_data_dict
     global person_name_differs_from_authority_name_log
     global person_without_gnd_authority_source_log
@@ -47,7 +47,7 @@ def _extract_persons(person_xml_elements: List[etree.Element]) -> List[Person]:
         gnd_date_of_death: date = None
 
         if name != name_normal and (name, name_normal) not in person_name_differs_from_authority_name_log:
-            person_name_differs_from_authority_name_log.append((name, name_normal))
+            person_name_differs_from_authority_name_log.append((name, name_normal, kalliope_id))
 
         if PRESUMED_PERSON_IDENTIFIER in name.lower():
             name_presumed = True
@@ -65,7 +65,7 @@ def _extract_persons(person_xml_elements: List[etree.Element]) -> List[Person]:
             is_corporation = True
 
         if auth_source != 'GND':
-            log_entry: Tuple[str, str, str, str] = (name, auth_source, auth_id, name_normal)
+            log_entry: Tuple[str, str, str, str, str] = (name, auth_source, auth_id, name_normal, kalliope_id)
             if log_entry not in person_without_gnd_authority_source_log:
                 person_without_gnd_authority_source_log.append(log_entry)
 
@@ -75,14 +75,14 @@ def _extract_persons(person_xml_elements: List[etree.Element]) -> List[Person]:
 
             except KeyError:
                 try:
-                    _fetch_gnd_biographical_person_data(auth_id)
+                    _fetch_gnd_biographical_person_data(kalliope_id, auth_id)
                     gnd_date_of_birth, gnd_date_of_death = gnd_biographical_person_data_dict[auth_id]
 
                 except HTTPError as error:
-                    logger.error(f'_fetch_gnd_biographical_data: Got {error.code} for {error.url}.')
+                    logger.error(f'_fetch_gnd_biographical_data: Got {error.code} for {error.url}. kalliope id: {kalliope_id}')
 
                     if error.code == 404:
-                        log_entry: Tuple[str, str, str, str, str] = (name, auth_source, auth_id, name_normal, error.url)
+                        log_entry: Tuple[str, str, str, str, str] = (name, auth_source, auth_id, name_normal, error.url, kalliope_id)
 
                         if log_entry not in person_gnd_id_invalid_log:
                             person_gnd_id_invalid_log.append(log_entry)
@@ -102,7 +102,7 @@ def _extract_persons(person_xml_elements: List[etree.Element]) -> List[Person]:
     return persons
 
 
-def _fetch_gnd_biographical_person_data(gnd_id: str) -> None:
+def _fetch_gnd_biographical_person_data(kalliope_id: str, gnd_id: str) -> None:
     global gnd_biographical_person_data_dict
 
     url: str = f'https://d-nb.info/gnd/{gnd_id}/about/lds'
@@ -122,13 +122,13 @@ def _fetch_gnd_biographical_person_data(gnd_id: str) -> None:
             date_of_birth: date = date.fromisoformat(rdf_date_of_birth)
 
         except ValueError as date_of_birth_error:
-            logger.error(f'Invalid person date of birth: {rdf_date_of_birth} ({date_of_birth_error})')
+            logger.error(f'Invalid person date of birth: {rdf_date_of_birth} ({date_of_birth_error}), kalliope id: {kalliope_id}')
 
     elif len(rdf_objects) == 0:
         logger.debug(f'Found no date of birth for GND person {gnd_id}.')
 
     else:
-        raise Exception(f'Found more than one date of birth for GND person {gnd_id}:\n{rdf_objects}')
+        raise Exception(f'Found more than one date of birth for GND person {gnd_id}:\n{rdf_objects}, kalliope id: {kalliope_id}')
 
     rdf_objects = list(rdf_graph.objects(predicate=URIRef(date_of_death_uri)))
 
@@ -139,13 +139,13 @@ def _fetch_gnd_biographical_person_data(gnd_id: str) -> None:
             date_of_death: date = date.fromisoformat(rdf_date_of_death)
 
         except ValueError as date_of_death_error:
-            logger.error(f'Invalid person date of death: {rdf_date_of_death} ({date_of_death_error})')
+            logger.error(f'Invalid person date of death: {rdf_date_of_death} ({date_of_death_error}), kalliope id: {kalliope_id}')
 
     elif len(rdf_objects) == 0:
         logger.debug(f'Found no date of death for GND person {gnd_id}.')
 
     else:
-        raise Exception(f'Found more than one date of death for GND person {gnd_id}:\n{rdf_objects}')
+        raise Exception(f'Found more than one date of death for GND person {gnd_id}:\n{rdf_objects}, kalliope id: {kalliope_id}')
 
     biographical_data_tuple: Tuple[date, date] = (date_of_birth, date_of_death)
     gnd_biographical_person_data_dict[gnd_id] = biographical_data_tuple
@@ -322,7 +322,7 @@ def _extract_letter(archive_id: str,
         except ValueError as error:
             logger.error(f"Invalid letter origin date: {origin_date} ({error}).")
             if (kalliope_id, origin_date) not in letter_origin_date_invalid_log:
-                letter_origin_date_invalid_log.append((kalliope_id, origin_date))
+                letter_origin_date_invalid_log.append((kalliope_id, origin_date, kalliope_id))
 
     extent: str = None
     if len(xml_element_extent) == 1:
@@ -393,16 +393,19 @@ def process_ead_file(ead_file: str) -> List[Letter]:
     letter_origin_date_invalid_log = []
 
     for xml_element_ead_component in xml_element_ead_component_list:
+
+        kalliope_id: str = str(xml_element_ead_component.xpath('./@id')[0])
+
         '''digital_archival_objects: List[DigitalArchivalObject] = \
             _extract_digital_archival_objects(xml_element_ead_component)'''
         digital_archival_objects, entity_id = _extract_digital_archival_objects(xml_element_ead_component)
-        authors: List[Person] = _extract_persons(xml_element_ead_component.xpath(
+        authors: List[Person] = _extract_persons(kalliope_id, xml_element_ead_component.xpath(
             f'./{DF}:controlaccess/{DF}:persname[@role="Verfasser"] | '
             f'./{DF}:controlaccess/{DF}:corpname[@role="Verfasser"]', namespaces=NS))
-        recipients: List[Person] = _extract_persons(xml_element_ead_component.xpath(
+        recipients: List[Person] = _extract_persons(kalliope_id, xml_element_ead_component.xpath(
             f'./{DF}:controlaccess/{DF}:persname[@role="Adressat"] | '
             f'./{DF}:controlaccess/{DF}:corpname[@role="Adressat"]', namespaces=NS))
-        mentioned_persons: List[Person] = _extract_persons(xml_element_ead_component.xpath(
+        mentioned_persons: List[Person] = _extract_persons(kalliope_id, xml_element_ead_component.xpath(
             f'./{DF}:controlaccess/{DF}:persname[@role="Erwähnt"] | '
             f'./{DF}:controlaccess/{DF}:corpname[@role="Erwähnt"] | '
             f'./{DF}:controlaccess/{DF}:persname[@role="Behandelt"] | '
@@ -410,10 +413,10 @@ def process_ead_file(ead_file: str) -> List[Letter]:
             f'./{DF}:controlaccess/{DF}:persname[@role="Dokumentiert"] | '
             f'./{DF}:controlaccess/{DF}:corpname[@role="Dokumentiert"]', namespaces=NS))
 
-        origin_places: List[Place] = places.extract_places_of_origin(xml_element_ead_component.xpath(
+        origin_places: List[Place] = places.extract_places_of_origin(kalliope_id, xml_element_ead_component.xpath(
             f'./{DF}:controlaccess/{DF}:geogname[@role="Entstehungsort"]', namespaces=NS))
 
-        recipient_place: Place = places.extract_place_of_reception(xml_element_ead_component)
+        recipient_place: Place = places.extract_place_of_reception(kalliope_id, xml_element_ead_component)
 
         letter: Letter = _extract_letter(archive_id,
                                          xml_element_ead_component,
@@ -429,66 +432,66 @@ def process_ead_file(ead_file: str) -> List[Letter]:
 
     if len(places.place_without_gnd_authority_source_log) > 0:
         logger.info('-----')
-        logger.info('Places without GND authority source (place name, authority source, authority id, authority name):')
+        logger.info('Places without GND authority source (place name, authority source, authority id, authority name, kalliope_id):')
         logger.info('-----')
         for place in sorted(places.place_without_gnd_authority_source_log):
             logger.info(f'{place}')
 
     if len(places.place_without_gnd_gazetteer_mapping_log) > 0:
         logger.info('-----')
-        logger.info('Places without GND Gazetteer mapping (authority id, authority source):')
+        logger.info('Places without GND Gazetteer mapping (authority id, authority source, kalliope_id):')
         logger.info('-----')
         for place_without_gnd_gazetteer_mapping in sorted(places.place_without_gnd_gazetteer_mapping_log):
             logger.info(f'{place_without_gnd_gazetteer_mapping}')
 
     if len(places.place_without_authority_coordinates_log) > 0:
         logger.info('-----')
-        logger.info('Places without authority coordinates (GND id, Gazetteer id):')
+        logger.info('Places without authority coordinates (GND id, Gazetteer id, kalliope_id):')
         logger.info('-----')
         for place_without_authority_coordinates in sorted(places.place_without_authority_coordinates_log):
             logger.info(f'{place_without_authority_coordinates}')
 
     if len(places.place_name_differs_from_authority_name_log) > 0:
         logger.info('-----')
-        logger.info('Places where the name does not match the authority place name (place name, authority name):')
+        logger.info('Places where the name does not match the authority place name (place name, authority name, kalliope_id):')
         logger.info('-----')
-        for (place_name, auth_place_name) in sorted(places.place_name_differs_from_authority_name_log):
-            logger.info(f'{place_name} | {auth_place_name}')
+        for (place_name, auth_place_name, kalliope_id) in sorted(places.place_name_differs_from_authority_name_log):
+            logger.info(f'{place_name} | {auth_place_name} | {kalliope_id}')
 
     if len(places.place_gnd_id_invalid_log) > 0:
         logger.info('-----')
         logger.info('Places with GND authority id on which the GND server does not respond '
-                    '(authority source, authority id, authority url):')
+                    '(authority source, authority id, authority url, kalliope_id):')
         logger.info('-----')
-        for (auth_source, auth_id, auth_url) in sorted(places.place_gnd_id_invalid_log):
-            logger.info(f'{auth_source} | {auth_id} | {auth_url}')
+        for (auth_source, auth_id, auth_url, kalliope_id) in sorted(places.place_gnd_id_invalid_log):
+            logger.info(f'{auth_source} | {auth_id} | {auth_url}  | {kalliope_id}')
 
     if len(person_without_gnd_authority_source_log) > 0:
         logger.info('-----')
         logger.info('Persons without GND authority source '
-                    '(person name, authority source, authority id, authority name):')
+                    '(person name, authority source, authority id, authority name, kalliope_id):')
         logger.info('-----')
         for person_without_gnd_authority_source_log_entry in sorted(person_without_gnd_authority_source_log):
             logger.info(f'{person_without_gnd_authority_source_log_entry}')
 
     if len(person_name_differs_from_authority_name_log) > 0:
         logger.info('-----')
-        logger.info('Persons where the name does not match the authority name (person name, authority name):')
+        logger.info('Persons where the name does not match the authority name (person name, authority name, kalliope_id):')
         logger.info('-----')
-        for (person_name, auth_person_name) in sorted(person_name_differs_from_authority_name_log):
-            logger.info(f'{person_name} | {auth_person_name}')
+        for (person_name, auth_person_name, kalliope_id) in sorted(person_name_differs_from_authority_name_log):
+            logger.info(f'{person_name} | {auth_person_name} | {kalliope_id}')
 
     if len(person_gnd_id_invalid_log) > 0:
         logger.info('-----')
         logger.info('Persons with GND authority id on which the GND server does not respond '
-                    '(person name, authority source, authority id, authority name, url):')
+                    '(person name, authority source, authority id, authority name, url, kalliope_id):')
         logger.info('-----')
-        for (name, auth_source, auth_id, auth_name, auth_url) in sorted(person_gnd_id_invalid_log):
-            logger.info(f'{name} | {auth_source} | {auth_id} | {auth_name} | {auth_url}')
+        for (name, auth_source, auth_id, auth_name, auth_url, kalliope_id) in sorted(person_gnd_id_invalid_log):
+            logger.info(f'{name} | {auth_source} | {auth_id} | {auth_name} | {auth_url} | {kalliope_id}')
 
     if len(letter_origin_date_invalid_log) > 0:
         logger.info('-----')
-        logger.info('Letters with invalid origin dates (letter id, origin_date):')
+        logger.info('Letters with invalid origin dates (letter id, origin_date, kalliope_id):')
         logger.info('-----')
         for letter_origin_date_invalid_log_entry in sorted(letter_origin_date_invalid_log):
             logger.info(f'{letter_origin_date_invalid_log_entry}')
