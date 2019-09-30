@@ -320,7 +320,7 @@ def _extract_letter(archive_id: str,
             origin_date_till = origin_dates[1]
             origin_date_presumed = origin_dates[2]
         except ValueError as error:
-            logger.error(f"Invalid letter origin date: {origin_date} ({error}).")
+            logger.error(f"Invalid letter origin date: {origin_date} ({error}). kalliope id: {kalliope_id}")
             if (kalliope_id, origin_date) not in letter_origin_date_invalid_log:
                 letter_origin_date_invalid_log.append((kalliope_id, origin_date, kalliope_id))
 
