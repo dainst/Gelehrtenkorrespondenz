@@ -135,7 +135,7 @@ def _fetch_gnd_location_coordinates(kalliope_id: str, gnd_id: str) -> None:
         logger.error(f'Found more than one coordinate set for GND place {gnd_id}.')
 
 
-def _fetch_gnd_location_name(gnd_id: str) -> str:
+def _fetch_gnd_location_name(gnd_id: str, kalliope_id: str) -> str:
     url: str = f'http://d-nb.info/gnd/{gnd_id}/about/lds'
     predicate: str = 'http://d-nb.info/standards/elementset/gnd#preferredNameForThePlaceOrGeographicName'
 
@@ -150,7 +150,7 @@ def _fetch_gnd_location_name(gnd_id: str) -> str:
             name = pref_name
             break
         if name == "":
-            logger.error("No name found for GND ID {}.")
+            logger.error(f"No name found for GND ID {gnd_id}, kalliope ID: {kalliope_id}.")
         gnd_id_to_name_mapping[gnd_id] = name
         return name
 
@@ -264,7 +264,7 @@ def extract_place_of_reception(kalliope_id: str, item: etree.Element) -> Place:
                     place_auth_source, auth_id, place_auth_coordinates = \
                         _get_authority_data(kalliope_id, 'GND', gnd_id)
 
-                place_auth_name = _fetch_gnd_location_name(gnd_id)
+                place_auth_name = _fetch_gnd_location_name(gnd_id, kalliope_id)
 
                 return Place(name=place_name,
                              name_presumed=place_name_presumed,
