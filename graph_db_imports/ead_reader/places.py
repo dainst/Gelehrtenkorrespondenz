@@ -140,7 +140,7 @@ def _fetch_gnd_location_coordinates(kalliope_id: str, gnd_id: str) -> None:
 
 def _fetch_gnd_location_name(gnd_id: str, kalliope_id: str) -> str:
     url: str = f'http://d-nb.info/gnd/{gnd_id}/about/lds'
-    predicate: str = 'http://d-nb.info/standards/elementset/gnd#preferredNameForThePlaceOrGeographicName'
+    predicate: str = 'https://d-nb.info/standards/elementset/gnd#preferredNameForThePlaceOrGeographicName'
 
     rdf_graph: Graph = Graph()
     rdf_graph.load(url)
