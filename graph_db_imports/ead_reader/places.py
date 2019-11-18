@@ -41,8 +41,14 @@ def _extract_gazetteer_coordinates(kalliope_id: str, gnd_id: str, json_data: Any
         if log_entry not in place_without_gnd_gazetteer_mapping_log:
             place_without_gnd_gazetteer_mapping_log.append(log_entry)
 
-    elif result_total == 1:
+    elif result_total > 0:
         gaz_id: str = json_data['result'][0]['gazId']
+
+        if result_total > 1:
+            logger.warning(f'Found more than one GND (id: {gnd_id}) to Gazetteer mapping! Gazetteer IDs: ')
+            for result in json_data['result']:
+                logger.warning(f'  {result["gazId"]}')
+            logger.warning(f'Mapping to first ID: {gaz_id}.')
 
         if len(gaz_id) > 0:
 
@@ -63,9 +69,6 @@ def _extract_gazetteer_coordinates(kalliope_id: str, gnd_id: str, json_data: Any
 
             else:
                 logger.error(f'Found more than one coordinate set for Gazetteer place {gaz_id}.')
-
-    elif result_total > 1:
-        logger.error(f'Found more than one GND (id: {gnd_id}) to Gazetteer mapping!')
 
 
 def _fetch_gazetteer_location_as_json(gnd_id: str) -> Any:
