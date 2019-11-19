@@ -14,7 +14,7 @@ logger: logging.Logger = logging.getLogger(__name__)
 
 COORDINATES_PATTERN: Pattern = re.compile(r'Point \(\s(.*)\s(.*).*\s\).*')
 RECIPIENT_PLACE_PATTERN: Pattern = re.compile(r'Empfängerort:\s(.*)')
-RECIPIENT_PLACE_GND_ID_PATTERN: Pattern = re.compile(r'(.*) \(GND: (.*)\)')
+RECIPIENT_PLACE_GND_ID_PATTERN: Pattern = re.compile(r'(.*)\s\(GND: ([0-9a-zA-Z\-]+)\)')
 PRESUMED_PLACE_IDENTIFIER: str = '[vermutlich]'
 
 gnd_coordinates_mapping: Dict[str, Tuple[float, float]] = {}
