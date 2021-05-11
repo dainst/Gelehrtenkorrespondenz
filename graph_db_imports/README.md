@@ -25,13 +25,23 @@ Once started you can access its database browser at
 
 #### Importing data
 
-There is already example data included in the repository. You can either import a single TSV file (see [./tsv_data](tsv_data)) or
-a single/multiple EAD files (see [./ead_data](ead_data), **preferred**). 
+There is already example data included in the repository. You can either import a single TSV file (see [./tsv_data](tsv_data)) or a single/multiple EAD files.
+
+EAD files are exported from the [Kalliope database](https://kalliope-verbund.info/) where metadata on the letters was originally entered. You can download these dumps [from confluence](confluence:8090/pages/viewpage.action?pageId=29786709) (Downloads are marked in red as "aktuell".) Extracting the archives you should have six .xml files in one directory, the first five representing the Berlin collection and the last representing the Rome collection:
+
+```
+ead_DE-2322_10285.xml
+ead_DE-2322_4632.xml
+ead_DE-2322_4685.xml
+ead_DE-2322_70322.xml
+ead_DE-2322_70459.xml
+ead_DE-2490_65759.xml
+```
 
 To start the import run [import.py](import.py) (here importing all EAD files):
 
 ```bash
-python3 graph_db_imports/import.py ./graph_db_imports/ead_data localhost 7687 <username> <password>
+python3 graph_db_imports/import.py ./path/to/ead_data localhost 7687 <username> <password>
 ```
 
 #### Deleting data
